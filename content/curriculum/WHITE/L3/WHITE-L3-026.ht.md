@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Leson 22 te montre kijan frè yo konpoze kont rannman yo. Leson sa a prezante yon lòt bagay ki rale rannman envestisè yo desann nan lavi reyèl, ki gen rapò ak frè yo, e ki, dapre kèk analiz, menm pi gwo toujou: konpòtman an li menm.
 
-**Diferans konpòtman an** (behavior gap) se diferans ki genyen ant rannman yon envestisman (tankou yon fon oswa tout mache a) vrèman pwodui, ak rannman envestisè mwayen nan menm envestisman sa a vrèman fè. [VERIFIED FACT] Plizyè etid nan endistri a ki analize diferans sa a jwenn rannman envestisè mwayen yo souvan rete dèyè rannman envestisman an li menm, e yo di sa sitou soti nan achte ak vann nan move moman, akoz reyaksyon emosyonèl a mouvman mache a — achte apre yon fon oswa mache fin monte deja (kouri dèyè pèfòmans, Leson 25) epi vann apre li fin desann deja (sa ki raple gwo defi Leson 1 an).
+**Diferans konpòtman an** (behavior gap) se diferans ki genyen ant rannman yon envestisman (tankou yon fon oswa tout mache a) vrèman pwodui, ak rannman envestisè mwayen nan menm envestisman sa a vrèman fè. [FÈ VERIFYE] Plizyè etid nan endistri a ki analize diferans sa a jwenn rannman envestisè mwayen yo souvan rete dèyè rannman envestisman an li menm, e yo di sa sitou soti nan achte ak vann nan move moman, akoz reyaksyon emosyonèl a mouvman mache a — achte apre yon fon oswa mache fin monte deja (kouri dèyè pèfòmans, Leson 25) epi vann apre li fin desann deja (sa ki raple gwo defi Leson 1 an).
 
 Men "poukisa" sa pi enpòtan pase yon senp konparezon frè: yon fon ki gen yon ti pousantaj depans (expense ratio) ki ba pa pwoteje yon envestisè kont diferans konpòtman sa a — yon envestisè ki vann nan panik pandan yon bès epi ki rachte apre yon rekiperasyon fin kòmanse deja ka fè anpil mwens pase rannman fon an rapòte, kèlkeswa jan frè fon sa a te ba.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon fon endèks ki kouvri tout mache a rapòte yon bon rannman mwayen chak ane sou yon peryòd 20 an. [ASSUMPTION] Sepandan, etid sou konpòtman envestisè mwayen nan menm fon sa a ta ka montre envestisè yo, antanke gwoup, te fè yon rannman mwayen ki pi ba yon fason ki enpòtan sou menm peryòd la — se pa paske fon an te fè yon pèfòmans diferan pou diferan envestisè, men paske anpil envestisè te fè lajan yo antre e soti nan move moman, yo te rate kèk nan pi bon jou fon an paske yo te deyò mache a pandan rekiperasyon yo, e yo te pran plis nan pi move jou li yo paske yo te envesti pandan bès yo.
+[EGZANP ILISTRATIF] Yon fon endèks ki kouvri tout mache a rapòte yon bon rannman mwayen chak ane sou yon peryòd 20 an. [SIPOZISYON] Sepandan, etid sou konpòtman envestisè mwayen nan menm fon sa a ta ka montre envestisè yo, antanke gwoup, te fè yon rannman mwayen ki pi ba yon fason ki enpòtan sou menm peryòd la — se pa paske fon an te fè yon pèfòmans diferan pou diferan envestisè, men paske anpil envestisè te fè lajan yo antre e soti nan move moman, yo te rate kèk nan pi bon jou fon an paske yo te deyò mache a pandan rekiperasyon yo, e yo te pran plis nan pi move jou li yo paske yo te envesti pandan bès yo.
 
 ## Egzamen pratik
 

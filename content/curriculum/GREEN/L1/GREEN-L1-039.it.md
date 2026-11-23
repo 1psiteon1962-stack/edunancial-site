@@ -34,11 +34,11 @@ Ma chi ne sente il costo? Spesso una parte viene trasferita al consumatore, con 
 
 Gli Stati usano i dazi per vari motivi: proteggere le industrie locali dalla concorrenza estera, raccogliere denaro o negoziare con altri Paesi. Gli economisti discutono gli effetti dei dazi, e questa lezione non prende posizione. Per una piccola impresa che importa prodotti, capire i dazi è essenziale per calcolare il costo reale.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Isabella importa borse da rivendere. Ogni borsa costa $40 e c'è un dazio del 10%, nel nostro esempio. Qual è il suo costo per borsa?
 

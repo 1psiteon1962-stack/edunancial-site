@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Imagine que um governo, sob forte pressão fiscal, aprove uma legislação ampla que aumenta de forma significativa as alíquotas do imposto sobre o rendimento na maioria das faixas, com efeito nos anos futuros. Este é um cenário hipotético de teste de estresse, e não uma previsão sobre nenhuma política real ou país específico.
+[CENÁRIO HIPOTÉTICO — SUPOSIÇÃO, NÃO FACTO VERIFICADO] Imagine que um governo, sob forte pressão fiscal, aprove uma legislação ampla que aumenta de forma significativa as alíquotas do imposto sobre o rendimento na maioria das faixas, com efeito nos anos futuros. Este é um cenário hipotético de teste de estresse, e não uma previsão sobre nenhuma política real ou país específico.
 
 Nesse cenário hipotético, a decisão entre Traditional e Roth da Lição 12 muda bastante: os contribuintes que fizeram a dedução Traditional pelas alíquotas mais baixas de hoje, planeando levantar e pagar o imposto depois, passariam a pagar o imposto desse saque futuro pelas novas alíquotas, mais altas — um resultado menos favorável do que o esperado quando a aplicação foi feita. Já os contribuintes que escolheram contas Roth, pagando o imposto no início pelas alíquotas mais baixas de hoje, estariam, olhando para trás, numa situação relativamente melhor, já que os saques futuros deles que cumprem as condições continuam sem imposto, apesar das novas alíquotas mais altas.
 

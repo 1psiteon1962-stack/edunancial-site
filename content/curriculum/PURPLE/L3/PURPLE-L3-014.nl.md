@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Een **eenmanszaak** (sole proprietorship) is over het algemeen de standaardrechtsvorm die automatisch ontstaat als iemand een onderneming drijft zonder een aparte rechtspersoon op te richten. Hier is het "waarom" deze rechtsvorm helemaal geen scheiding van aansprakelijkheid biedt, fundamenteel anders dan de begrippen rond een LLC uit Les 11 tot en met 13: [VERIFIED FACT] omdat er nooit een aparte rechtspersoon is opgericht, is er ook geen aansprakelijkheidsscheiding om te doorbreken. Eigenaar en onderneming zijn juridisch dezelfde persoon, wat betekent dat de eigenaar persoonlijk aansprakelijk is voor alle schulden en verplichtingen van de onderneming, zonder enige bescherming via een rechtspersoon.
+Een **eenmanszaak** (sole proprietorship) is over het algemeen de standaardrechtsvorm die automatisch ontstaat als iemand een onderneming drijft zonder een aparte rechtspersoon op te richten. Hier is het "waarom" deze rechtsvorm helemaal geen scheiding van aansprakelijkheid biedt, fundamenteel anders dan de begrippen rond een LLC uit Les 11 tot en met 13: [GEVERIFIEERD FEIT] omdat er nooit een aparte rechtspersoon is opgericht, is er ook geen aansprakelijkheidsscheiding om te doorbreken. Eigenaar en onderneming zijn juridisch dezelfde persoon, wat betekent dat de eigenaar persoonlijk aansprakelijk is voor alle schulden en verplichtingen van de onderneming, zonder enige bescherming via een rechtspersoon.
 
 Dat is een fundamenteel andere situatie dan het risico van doorbraak van aansprakelijkheid bij een LLC uit de vorige lessen: een LLC-eigenaar die de formaliteiten niet in acht neemt, loopt het risico bescherming te verliezen die hij anders wel had gehad. Een eigenaar van een eenmanszaak heeft die bescherming nooit gehad – er staat gewoon geen aparte entiteit tussen het privévermogen en de zakelijke aansprakelijkheden.
 
@@ -30,7 +30,7 @@ Daarom brengt een eenmanszaak, hoewel het vaak de eenvoudigste en goedkoopste re
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Iemand drijft een klein bedrijf als eenmanszaak, zonder een LLC of andere aparte rechtspersoon op te richten. Als het bedrijf te maken krijgt met een flinke aansprakelijkheidsclaim of schuld die het niet kan betalen, [ASSUMPTION] ligt het privévermogen van die persoon – spaargeld, privébezittingen en ander privévermogen – over het algemeen rechtstreeks bloot om die claim te voldoen, omdat er helemaal geen juridische scheiding is tussen de eigenaar en het bedrijf. Dat is een fundamenteel ander risicoprofiel dan dat van een LLC-eigenaar die met een mogelijke doorbraak van aansprakelijkheid te maken krijgt, omdat de eigenaar van de eenmanszaak nooit bescherming via een rechtspersoon had die hij kon verliezen.
+[ILLUSTRATIEF VOORBEELD] Iemand drijft een klein bedrijf als eenmanszaak, zonder een LLC of andere aparte rechtspersoon op te richten. Als het bedrijf te maken krijgt met een flinke aansprakelijkheidsclaim of schuld die het niet kan betalen, [AANNAME] ligt het privévermogen van die persoon – spaargeld, privébezittingen en ander privévermogen – over het algemeen rechtstreeks bloot om die claim te voldoen, omdat er helemaal geen juridische scheiding is tussen de eigenaar en het bedrijf. Dat is een fundamenteel ander risicoprofiel dan dat van een LLC-eigenaar die met een mogelijke doorbraak van aansprakelijkheid te maken krijgt, omdat de eigenaar van de eenmanszaak nooit bescherming via een rechtspersoon had die hij kon verliezen.
 
 ## Oefenquiz
 

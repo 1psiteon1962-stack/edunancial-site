@@ -30,7 +30,7 @@ Avant ta prochaine négociation importante, qui d'autre devrait y participer —
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader négocie seul une entente importante, sans consulter de conseiller juridique ni faire appel à un conseiller de confiance, convaincu que ça démontre sa confiance et son indépendance. [ASSUMPTION] La contrepartie, qui reconnaît qu'elle négocie face au jugement d'une seule personne plutôt qu'à une position collective et réfléchie, insiste davantage sur certaines conditions qu'elle ne l'aurait fait face à une équipe visiblement appuyée par un examen juridique et un point de vue externe — l'approche en solo du leader, censée projeter de la force, a en fait affaibli son levier de négociation d'une façon qu'il n'a peut-être pas reconnue, en écho au principe « les affaires sont un sport d'équipe » abordé ailleurs dans ce programme.
+[EXEMPLE ILLUSTRATIF] Un leader négocie seul une entente importante, sans consulter de conseiller juridique ni faire appel à un conseiller de confiance, convaincu que ça démontre sa confiance et son indépendance. [HYPOTHÈSE] La contrepartie, qui reconnaît qu'elle négocie face au jugement d'une seule personne plutôt qu'à une position collective et réfléchie, insiste davantage sur certaines conditions qu'elle ne l'aurait fait face à une équipe visiblement appuyée par un examen juridique et un point de vue externe — l'approche en solo du leader, censée projeter de la force, a en fait affaibli son levier de négociation d'une façon qu'il n'a peut-être pas reconnue, en écho au principe « les affaires sont un sport d'équipe » abordé ailleurs dans ce programme.
 
 ## Quiz de pratique
 

@@ -30,7 +30,7 @@ Antes de cortar o gasto com desenvolvimento da liderança em um período de orç
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Durante um período de aperto no orçamento, um negócio corta primeiro o programa de desenvolvimento da liderança, com o raciocínio de que o impacto dele é mais difícil de apontar diretamente do que o de outros gastos. [ASSUMPTION] Meses depois, a rotatividade entre os gestores aumenta e a qualidade das decisões cai de forma visível, de jeitos que, embora sejam difíceis de atribuir com precisão a esse corte específico, retomam exatamente o tipo de valor invisível que a trilha PURPLE descreveu para o planejamento jurídico preventivo — o gasto com desenvolvimento da liderança estava gerando um valor real, ainda que difícil de medir, que a suposição cômoda de que "isso é opcional" não comparou direito com as alternativas reais.
+[EXEMPLO ILUSTRATIVO] Durante um período de aperto no orçamento, um negócio corta primeiro o programa de desenvolvimento da liderança, com o raciocínio de que o impacto dele é mais difícil de apontar diretamente do que o de outros gastos. [SUPOSIÇÃO] Meses depois, a rotatividade entre os gestores aumenta e a qualidade das decisões cai de forma visível, de jeitos que, embora sejam difíceis de atribuir com precisão a esse corte específico, retomam exatamente o tipo de valor invisível que a trilha PURPLE descreveu para o planejamento jurídico preventivo — o gasto com desenvolvimento da liderança estava gerando um valor real, ainda que difícil de medir, que a suposição cômoda de que "isso é opcional" não comparou direito com as alternativas reais.
 
 ## Teste de prática
 

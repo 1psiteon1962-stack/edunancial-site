@@ -30,7 +30,7 @@ Come si confronta il rigore del tuo attuale processo di assunzione con il rigore
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa applica una valutazione approfondita, più approvazioni e un'attenta analisi costi-benefici prima di acquistare un'attrezzatura di un certo costo, mentre il suo processo di assunzione per un ruolo con una durata prevista di più anni e un costo retributivo totale di gran lunga superiore a quello dell'attrezzatura prevede una valutazione molto più leggera e meno strutturata. [ASSUMPTION] Dato l'effetto leva insolitamente alto delle assunzioni e il loro effetto cumulativo, questo squilibrio nel rigore della valutazione rappresenta un vero sotto-investimento nella decisione che comporta in realtà una posta finanziaria complessiva maggiore e conseguenze più durature rispetto all'acquisto dell'attrezzatura, che ha ricevuto un esame molto più attento.
+[ESEMPIO ILLUSTRATIVO] Un'impresa applica una valutazione approfondita, più approvazioni e un'attenta analisi costi-benefici prima di acquistare un'attrezzatura di un certo costo, mentre il suo processo di assunzione per un ruolo con una durata prevista di più anni e un costo retributivo totale di gran lunga superiore a quello dell'attrezzatura prevede una valutazione molto più leggera e meno strutturata. [IPOTESI] Dato l'effetto leva insolitamente alto delle assunzioni e il loro effetto cumulativo, questo squilibrio nel rigore della valutazione rappresenta un vero sotto-investimento nella decisione che comporta in realtà una posta finanziaria complessiva maggiore e conseguenze più durature rispetto all'acquisto dell'attrezzatura, che ha ricevuto un esame molto più attento.
 
 ## Quiz di esercitazione
 

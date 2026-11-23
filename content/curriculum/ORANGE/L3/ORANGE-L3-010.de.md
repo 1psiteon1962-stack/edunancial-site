@@ -32,7 +32,7 @@ Bevor du eine Lockvogelaktion startest: Welche konkreten Daten müsstest du erfa
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen verkauft ein bestimmtes Produkt mit Verlust und nimmt an, dass Kunden danach eine separate, profitable Ergänzung in ausreichend hoher Quote kaufen, damit sich die Strategie insgesamt lohnt. [ASSUMPTION] Das Lockvogelprodukt wird sehr beliebt, und das Unternehmen wertet diese Beliebtheit als Beleg für den Erfolg der Strategie – ohne je zu messen, welcher Anteil dieser Kunden tatsächlich die profitable Ergänzung kauft. Liegt diese Folgekaufquote tatsächlich deutlich niedriger als angenommen, könnte das Unternehmen eine Strategie betreiben, die beliebt, aber wirklich unprofitabel ist – gerade weil es die Stückkostenrechnung, von der die Strategie abhängt, nie erfasst hat.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen verkauft ein bestimmtes Produkt mit Verlust und nimmt an, dass Kunden danach eine separate, profitable Ergänzung in ausreichend hoher Quote kaufen, damit sich die Strategie insgesamt lohnt. [ANNAHME] Das Lockvogelprodukt wird sehr beliebt, und das Unternehmen wertet diese Beliebtheit als Beleg für den Erfolg der Strategie – ohne je zu messen, welcher Anteil dieser Kunden tatsächlich die profitable Ergänzung kauft. Liegt diese Folgekaufquote tatsächlich deutlich niedriger als angenommen, könnte das Unternehmen eine Strategie betreiben, die beliebt, aber wirklich unprofitabel ist – gerade weil es die Stückkostenrechnung, von der die Strategie abhängt, nie erfasst hat.
 
 ## Übungsquiz
 1. Was soll eine Lockvogel-Strategie erreichen?

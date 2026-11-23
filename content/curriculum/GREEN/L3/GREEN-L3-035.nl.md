@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Een **belastingcontrole** (audit) is een proces waarbij de belastingdienst iemands aangifte en onderbouwende stukken grondiger bekijkt dan bij de gewone indiening gebeurt. Hier is het "waarom" selectie voor dit proces niet automatisch betekent dat de belastingbetaler iets fout heeft gedaan: [VERIFIED FACT] aangiften kunnen om allerlei redenen voor controle worden geselecteerd. Bijvoorbeeld door willekeurige selectie als onderdeel van routinematige steekproeven, door statistische afwijkingen ten opzichte van wat gebruikelijk is voor een vergelijkbaar profiel, of door specifieke posten in een aangifte (zoals ongewoon hoge aftrekposten in verhouding tot het inkomen) die gewoon een nadere blik verdienen – zonder dat er al enige fout is vastgesteld.
+Een **belastingcontrole** (audit) is een proces waarbij de belastingdienst iemands aangifte en onderbouwende stukken grondiger bekijkt dan bij de gewone indiening gebeurt. Hier is het "waarom" selectie voor dit proces niet automatisch betekent dat de belastingbetaler iets fout heeft gedaan: [GEVERIFIEERD FEIT] aangiften kunnen om allerlei redenen voor controle worden geselecteerd. Bijvoorbeeld door willekeurige selectie als onderdeel van routinematige steekproeven, door statistische afwijkingen ten opzichte van wat gebruikelijk is voor een vergelijkbaar profiel, of door specifieke posten in een aangifte (zoals ongewoon hoge aftrekposten in verhouding tot het inkomen) die gewoon een nadere blik verdienen – zonder dat er al enige fout is vastgesteld.
 
 Dat is belangrijk, want de spanning die een controlebericht kan oproepen is begrijpelijk, maar mag niet worden gezien als bewijs van een probleem voordat de controle echt heeft plaatsgevonden. Veel controles eindigen zonder enige wijziging van de oorspronkelijke aangifte, zodra de belastingbetaler de gevraagde stukken aanlevert die onderbouwen wat oorspronkelijk is opgegeven.
 
@@ -30,7 +30,7 @@ Daarom is de juiste reactie op een controlebericht: kalm blijven, nauwkeurige on
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belastingbetaler krijgt bericht dat een specifieke aftrekpost in haar aangifte is geselecteerd voor controle. In plaats van aan te nemen dat ze iets fout heeft gedaan, verzamelt ze rustig de stukken die die aftrekpost onderbouwen: kwitanties, administratie en ander bewijs dat ze had verzameld en geordend toen ze de aftrekpost opvoerde. [ASSUMPTION] Na beoordeling van haar stukken eindigt de controle zonder wijzigingen in haar aangifte, wat bevestigt dat de aftrekpost al die tijd terecht was. Dat laat zien dat de selectie voor controle een routinematig proces was, geen beschuldiging, en dat een goede administratie (een onderwerp dat de volgende les verder uitwerkt) het proces eenvoudig maakte.
+[ILLUSTRATIEF VOORBEELD] Een belastingbetaler krijgt bericht dat een specifieke aftrekpost in haar aangifte is geselecteerd voor controle. In plaats van aan te nemen dat ze iets fout heeft gedaan, verzamelt ze rustig de stukken die die aftrekpost onderbouwen: kwitanties, administratie en ander bewijs dat ze had verzameld en geordend toen ze de aftrekpost opvoerde. [AANNAME] Na beoordeling van haar stukken eindigt de controle zonder wijzigingen in haar aangifte, wat bevestigt dat de aftrekpost al die tijd terecht was. Dat laat zien dat de selectie voor controle een routinematig proces was, geen beschuldiging, en dat een goede administratie (een onderwerp dat de volgende les verder uitwerkt) het proces eenvoudig maakte.
 
 ## Oefenquiz
 

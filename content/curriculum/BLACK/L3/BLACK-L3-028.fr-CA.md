@@ -30,7 +30,7 @@ Que disent réellement les données sur le roulement de ton organisation, et plu
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une organisation remarque une hausse du roulement chez ses personnes très performantes sur plusieurs mois, mais n'enquête pas sur la cause sous-jacente, attendant plutôt de voir si les indicateurs de productivité globale baissent avant de prendre la tendance au sérieux. [ASSUMPTION] Au moment où la productivité baisse visiblement — l'indicateur retardé finissant par rattraper la réalité —, le problème de leadership sous-jacent qui alimente le roulement a eu des mois pour s'aggraver et toucher un groupe plus large d'employés, exactement le schéma de réaction tardive contre lequel le parcours ORANGE prévenait pour l'attrition des clients, appliqué ici à la rétention des employés.
+[EXEMPLE ILLUSTRATIF] Une organisation remarque une hausse du roulement chez ses personnes très performantes sur plusieurs mois, mais n'enquête pas sur la cause sous-jacente, attendant plutôt de voir si les indicateurs de productivité globale baissent avant de prendre la tendance au sérieux. [HYPOTHÈSE] Au moment où la productivité baisse visiblement — l'indicateur retardé finissant par rattraper la réalité —, le problème de leadership sous-jacent qui alimente le roulement a eu des mois pour s'aggraver et toucher un groupe plus large d'employés, exactement le schéma de réaction tardive contre lequel le parcours ORANGE prévenait pour l'attrition des clients, appliqué ici à la rétention des employés.
 
 ## Quiz de pratique
 

@@ -34,11 +34,11 @@ Negli Stati Uniti esempi comuni sono la ditta individuale (sole proprietorship),
 
 Una conseguenza importante: il proprietario può dovere l'imposta sull'utile dell'impresa anche se non ha prelevato quel denaro. Inoltre, le forme trasparenti possono avere altri oneri, come i contributi sul lavoro autonomo. La forma giusta dipende da ciascuna situazione, come vedremo nella prossima lezione.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Una LLC trattata come trasparente guadagna $60.000 nell'anno. La LLC paga l'imposta sul reddito su questo importo?
 

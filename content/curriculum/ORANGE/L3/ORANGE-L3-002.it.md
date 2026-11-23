@@ -30,7 +30,7 @@ Prima di andare avanti: se un concorrente tagliasse all'improvviso i prezzi del 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'azienda fissa il proprio prezzo soprattutto in base a ciò che "sembra giusto" rispetto ai concorrenti, senza calcolare prima il proprio margine lordo a quel livello di prezzo. [ASSUMPTION] Per diversi mesi i volumi di vendita sembrano forti, dando l'impressione di una strategia di prezzo vincente, ma uno sguardo più attento al margine reale rivela che l'impresa copre poco più dei costi diretti su ogni vendita, e che resta quasi nulla per i costi generali, la spesa di marketing o un cuscinetto per i periodi più lenti. Il prezzo "ha funzionato" secondo una misura di marketing (i volumi) mentre falliva in silenzio secondo una misura finanziaria (il margine).
+[ESEMPIO ILLUSTRATIVO] Un'azienda fissa il proprio prezzo soprattutto in base a ciò che "sembra giusto" rispetto ai concorrenti, senza calcolare prima il proprio margine lordo a quel livello di prezzo. [IPOTESI] Per diversi mesi i volumi di vendita sembrano forti, dando l'impressione di una strategia di prezzo vincente, ma uno sguardo più attento al margine reale rivela che l'impresa copre poco più dei costi diretti su ogni vendita, e che resta quasi nulla per i costi generali, la spesa di marketing o un cuscinetto per i periodi più lenti. Il prezzo "ha funzionato" secondo una misura di marketing (i volumi) mentre falliva in silenzio secondo una misura finanziaria (il margine).
 
 ## Quiz di esercitazione
 

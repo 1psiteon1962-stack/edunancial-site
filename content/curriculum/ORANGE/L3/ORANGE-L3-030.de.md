@@ -30,7 +30,7 @@ Bevor du deine nächste Kampagne startest: Welches konkrete, vorab festgelegte E
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Marketingteam startet eine neue Kampagne mit einer angenommenen Umwandlungsquote, die fest im Budget steckt, aber ohne vorab festgelegten Kontrollpunkt, an dem diese Annahme überprüft wird. [ASSUMPTION] Als die frühen Ergebnisse deutlich unter der angenommenen Quote liegen, gibt das Team weiter Geld aus, behandelt den Rückstand als vorübergehend und erwartet eine Besserung – genau das unwiderlegbare Denkmuster, vor dem der GOLDENE Lernpfad gewarnt hat, das widersprechende Belege einfach aufnimmt, statt sie als echtes Signal zum Innehalten zu behandeln. Ein vorab festgelegter Kontrollpunkt („Neubewertung, wenn die Umwandlung in Woche 2 unter X liegt“) hätte genau diesen Fehler verhindert.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Marketingteam startet eine neue Kampagne mit einer angenommenen Umwandlungsquote, die fest im Budget steckt, aber ohne vorab festgelegten Kontrollpunkt, an dem diese Annahme überprüft wird. [ANNAHME] Als die frühen Ergebnisse deutlich unter der angenommenen Quote liegen, gibt das Team weiter Geld aus, behandelt den Rückstand als vorübergehend und erwartet eine Besserung – genau das unwiderlegbare Denkmuster, vor dem der GOLDENE Lernpfad gewarnt hat, das widersprechende Belege einfach aufnimmt, statt sie als echtes Signal zum Innehalten zu behandeln. Ein vorab festgelegter Kontrollpunkt („Neubewertung, wenn die Umwandlung in Woche 2 unter X liegt“) hätte genau diesen Fehler verhindert.
 
 ## Übungsquiz
 1. Warum verbessern ausdrückliche Kontrollpunkte in einem Marketingplan die Ergebnisse?

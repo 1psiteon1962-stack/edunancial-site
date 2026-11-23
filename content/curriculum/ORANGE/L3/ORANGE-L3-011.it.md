@@ -30,7 +30,7 @@ Se oggi la tua impresa dipende molto dal passaparola, che cosa succederebbe ai t
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa è cresciuta soprattutto grazie al passaparola, godendo di bassi costi di acquisizione e di una forte fedeltà dei clienti. [ASSUMPTION] Quando l'impresa deve raggiungere un obiettivo di crescita specifico ed entro una scadenza per un round di raccolta di capitale, scopre che il passaparola non si può semplicemente ampliare a comando come si potrebbe fare con un canale a pagamento. Il suo canale più economico è anche il meno controllabile, e questo la costringe a investire in un canale a pagamento più costoso, ma più direttamente controllabile, per rispettare la sua scadenza.
+[ESEMPIO ILLUSTRATIVO] Un'impresa è cresciuta soprattutto grazie al passaparola, godendo di bassi costi di acquisizione e di una forte fedeltà dei clienti. [IPOTESI] Quando l'impresa deve raggiungere un obiettivo di crescita specifico ed entro una scadenza per un round di raccolta di capitale, scopre che il passaparola non si può semplicemente ampliare a comando come si potrebbe fare con un canale a pagamento. Il suo canale più economico è anche il meno controllabile, e questo la costringe a investire in un canale a pagamento più costoso, ma più direttamente controllabile, per rispettare la sua scadenza.
 
 ## Quiz di esercitazione
 

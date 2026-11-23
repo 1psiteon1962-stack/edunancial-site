@@ -30,7 +30,7 @@ Come sarebbe, nella tua impresa, un vero sistema di allerta precoce per un probl
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Il tasso di abbandono di un'impresa inizia a salire in un certo mese, ma poiché i clienti rimasti e quelli appena acquisiti continuano a generare ricavi, il dato dei ricavi totali non mostra un calo chiaro fino a diversi mesi dopo. [ASSUMPTION] Un team che segue solo il dato ritardato dei ricavi non si accorge del problema finché non compare quel calo successivo, e a quel punto il problema di fondo che allontana i clienti ha avuto mesi per peggiorare. Un team che segue direttamente il tasso di abbandono come indicatore anticipatore avrebbe individuato lo stesso problema mesi prima, con molto più tempo per indagare e reagire prima che si concretizzasse del tutto nei ricavi.
+[ESEMPIO ILLUSTRATIVO] Il tasso di abbandono di un'impresa inizia a salire in un certo mese, ma poiché i clienti rimasti e quelli appena acquisiti continuano a generare ricavi, il dato dei ricavi totali non mostra un calo chiaro fino a diversi mesi dopo. [IPOTESI] Un team che segue solo il dato ritardato dei ricavi non si accorge del problema finché non compare quel calo successivo, e a quel punto il problema di fondo che allontana i clienti ha avuto mesi per peggiorare. Un team che segue direttamente il tasso di abbandono come indicatore anticipatore avrebbe individuato lo stesso problema mesi prima, con molto più tempo per indagare e reagire prima che si concretizzasse del tutto nei ricavi.
 
 ## Quiz di esercitazione
 

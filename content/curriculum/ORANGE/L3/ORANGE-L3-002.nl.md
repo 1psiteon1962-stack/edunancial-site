@@ -30,7 +30,7 @@ Voordat je verdergaat: als een concurrent plotseling zijn prijzen met 20% verlaa
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf stelt zijn prijs vooral vast op basis van wat "goed voelt" ten opzichte van concurrenten, zonder eerst zijn eigen brutomarge bij die prijs uit te rekenen. [ASSUMPTION] Het verkoopvolume ziet er maandenlang sterk uit, wat de indruk wekt van een winnende prijsstrategie – maar een nadere blik op de werkelijke marge laat zien dat de onderneming per verkoop nauwelijks meer dan haar directe kosten dekt, waardoor er bijna niets overblijft voor vaste kosten, marketinguitgaven of een buffer voor rustigere periodes. De prijs "werkte" volgens een marketingmaatstaf (volume), maar faalde ongemerkt volgens een financiële maatstaf (marge).
+[ILLUSTRATIEF VOORBEELD] Een bedrijf stelt zijn prijs vooral vast op basis van wat "goed voelt" ten opzichte van concurrenten, zonder eerst zijn eigen brutomarge bij die prijs uit te rekenen. [AANNAME] Het verkoopvolume ziet er maandenlang sterk uit, wat de indruk wekt van een winnende prijsstrategie – maar een nadere blik op de werkelijke marge laat zien dat de onderneming per verkoop nauwelijks meer dan haar directe kosten dekt, waardoor er bijna niets overblijft voor vaste kosten, marketinguitgaven of een buffer voor rustigere periodes. De prijs "werkte" volgens een marketingmaatstaf (volume), maar faalde ongemerkt volgens een financiële maatstaf (marge).
 
 ## Oefenquiz
 

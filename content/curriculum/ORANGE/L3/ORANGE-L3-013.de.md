@@ -30,7 +30,7 @@ Bevor du ein A/B-Testergebnis als echte Erkenntnis behandelst: Welche einzelne V
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Marketingteam führt einen Test durch, bei dem es Überschrift, Bild und Button-Farbe einer Anzeige gleichzeitig ändert, und die neue Version schneidet besser ab. [ASSUMPTION] Das Team schließt daraus, dass die neue Überschrift der entscheidende Faktor war, und setzt sie überall ein – doch weil drei Variablen gleichzeitig geändert wurden, kann es tatsächlich nicht verlässlich wissen, ob die Überschrift, das Bild oder die Button-Farbe die Verbesserung bewirkt hat oder ob eine dieser Änderungen der Leistung sogar geschadet hat, während eine andere noch stärker geholfen hat – eine Unklarheit, die ein ordentlich isolierter Test mit einer einzigen Variable vollständig vermieden hätte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Marketingteam führt einen Test durch, bei dem es Überschrift, Bild und Button-Farbe einer Anzeige gleichzeitig ändert, und die neue Version schneidet besser ab. [ANNAHME] Das Team schließt daraus, dass die neue Überschrift der entscheidende Faktor war, und setzt sie überall ein – doch weil drei Variablen gleichzeitig geändert wurden, kann es tatsächlich nicht verlässlich wissen, ob die Überschrift, das Bild oder die Button-Farbe die Verbesserung bewirkt hat oder ob eine dieser Änderungen der Leistung sogar geschadet hat, während eine andere noch stärker geholfen hat – eine Unklarheit, die ein ordentlich isolierter Test mit einer einzigen Variable vollständig vermieden hätte.
 
 ## Übungsquiz
 1. Was ist das Grundprinzip eines A/B-Tests?

@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" sa mennen nan yon erè komen yo rele **efè dispozisyon** (disposition effect): envestisè ki anba enfliyans laperèz pèt souvan vann envestisman k ap genyen yo twò bonè, yo fèmen yon ti benefis pou yo "santi yo byen" epi evite risk pou benefis sa a disparèt — pandan y ap kenbe envestisman k ap pèdi yo pi lontan anpil pase sa bagay fondamantal yo ta jistifye, yo espere evite "reyalize" pèt la lè yo senpleman pa vann, menm lè avni envestisman an vrèman vin pi mal.
 
-[VERIFIED FACT] Modèl sa a dokimante nan gwo seri done sou tranzaksyon envestisè reyèl, ki montre yon tandans jeneral pou vann sa k ap genyen pi souvan pase sa k ap pèdi, konpare ak jan chak pozisyon vrèman ap pèfòme — yon modèl ki, si yo swiv li tout tan, ka fè rannman alontèm yo mal yon fason sistematik paske li koupe pozisyon k ap genyen yo bonè epi li kite pozisyon k ap pèdi yo kontinye.
+[FÈ VERIFYE] Modèl sa a dokimante nan gwo seri done sou tranzaksyon envestisè reyèl, ki montre yon tandans jeneral pou vann sa k ap genyen pi souvan pase sa k ap pèdi, konpare ak jan chak pozisyon vrèman ap pèfòme — yon modèl ki, si yo swiv li tout tan, ka fè rannman alontèm yo mal yon fason sistematik paske li koupe pozisyon k ap genyen yo bonè epi li kite pozisyon k ap pèdi yo kontinye.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè gen de pozisyon: youn monte 15%, lòt la desann 15%. Anba enfliyans laperèz pèt, li vann pozisyon k ap genyen an pou l "fèmen" benefis la epi santi li reyalize yon bagay, pandan l ap kenbe pozisyon k ap pèdi a, e l ap di tèt li l ap vann li lè li "retounen nan pwen kòmansman", pou l pa oblije aksepte pèt la. [ASSUMPTION] Si pozisyon k ap genyen an kontinye pèfòme byen apre li vann li, e pozisyon k ap pèdi a kontinye desann pandan l ap kenbe l ap tann yon remonte ki ka pa janm vini, modèl sa a — ki soti nan desekilib emosyonèl laperèz pèt la olye avni reyèl chak envestisman — koute l plis pase yon desizyon ki ta baze sèlman sou bagay fondamantal chak pozisyon.
+[EGZANP ILISTRATIF] Yon envestisè gen de pozisyon: youn monte 15%, lòt la desann 15%. Anba enfliyans laperèz pèt, li vann pozisyon k ap genyen an pou l "fèmen" benefis la epi santi li reyalize yon bagay, pandan l ap kenbe pozisyon k ap pèdi a, e l ap di tèt li l ap vann li lè li "retounen nan pwen kòmansman", pou l pa oblije aksepte pèt la. [SIPOZISYON] Si pozisyon k ap genyen an kontinye pèfòme byen apre li vann li, e pozisyon k ap pèdi a kontinye desann pandan l ap kenbe l ap tann yon remonte ki ka pa janm vini, modèl sa a — ki soti nan desekilib emosyonèl laperèz pèt la olye avni reyèl chak envestisman — koute l plis pase yon desizyon ki ta baze sèlman sou bagay fondamantal chak pozisyon.
 
 ## Egzamen pratik
 

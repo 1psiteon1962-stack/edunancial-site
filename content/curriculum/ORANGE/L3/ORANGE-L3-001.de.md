@@ -30,7 +30,7 @@ Bevor du weiterliest: Worauf könnte ein dauerhafter Anstieg der CAC, über Mark
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Die CAC eines Unternehmens steigen innerhalb von zwei Quartalen um 40 %, weil die Konkurrenz um Werbeplätze zunimmt. Das Marketingteam behandelt das als Optimierungsproblem der Kanäle, das sich mit besserer Zielgruppenansprache lösen lässt. [ASSUMPTION] Gleichzeitig verlängert derselbe Anstieg der CAC unbemerkt die Amortisationsdauer neuer Kunden, verkürzt die finanzielle Reichweite des Unternehmens (BLAUER Lernpfad) schneller, als die Finanzabteilung es gemeldet hat, und macht eine Finanzierungsrunde dringlicher, als irgendjemandem im Marketingmeeting bewusst ist – dieselbe Zahl ist zugleich Marketingkennzahl, Liquiditätssignal und Auslöser für eine Finanzierungsentscheidung.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Die CAC eines Unternehmens steigen innerhalb von zwei Quartalen um 40 %, weil die Konkurrenz um Werbeplätze zunimmt. Das Marketingteam behandelt das als Optimierungsproblem der Kanäle, das sich mit besserer Zielgruppenansprache lösen lässt. [ANNAHME] Gleichzeitig verlängert derselbe Anstieg der CAC unbemerkt die Amortisationsdauer neuer Kunden, verkürzt die finanzielle Reichweite des Unternehmens (BLAUER Lernpfad) schneller, als die Finanzabteilung es gemeldet hat, und macht eine Finanzierungsrunde dringlicher, als irgendjemandem im Marketingmeeting bewusst ist – dieselbe Zahl ist zugleich Marketingkennzahl, Liquiditätssignal und Auslöser für eine Finanzierungsentscheidung.
 
 ## Übungsquiz
 1. Was messen die CAC?

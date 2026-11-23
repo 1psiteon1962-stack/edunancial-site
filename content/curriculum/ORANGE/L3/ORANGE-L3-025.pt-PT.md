@@ -30,7 +30,7 @@ Com quem os seus clientes realmente comparam de imediato de decidir se compram �
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio supõe que os principais concorrentes dele são outras empresas que oferecem um produto tecnicamente parecido, e define preço e mensagem com base nisso. [ASSUMPTION] Uma pesquisa com clientes revela que muitos deles, na verdade, comparam esse produto com uma categoria diferente e mais ampla de soluções, que atende à mesma necessidade de fundo de outra forma — o que significa que o grupo real de concorrentes do negócio, como os clientes o percebem, é diferente do que ele supunha, e a estratégia de preço e de mensagem dele, construída em torno da comparação errada, pode estar a deixar de lado a decisão que os clientes estão realmente a tomar.
+[EXEMPLO ILUSTRATIVO] Um negócio supõe que os principais concorrentes dele são outras empresas que oferecem um produto tecnicamente parecido, e define preço e mensagem com base nisso. [SUPOSIÇÃO] Uma pesquisa com clientes revela que muitos deles, na verdade, comparam esse produto com uma categoria diferente e mais ampla de soluções, que atende à mesma necessidade de fundo de outra forma — o que significa que o grupo real de concorrentes do negócio, como os clientes o percebem, é diferente do que ele supunha, e a estratégia de preço e de mensagem dele, construída em torno da comparação errada, pode estar a deixar de lado a decisão que os clientes estão realmente a tomar.
 
 ## Teste de prática
 

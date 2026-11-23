@@ -30,7 +30,7 @@ Wie in je organisatie zou morgen een belangrijke leidinggevende rol kunnen overn
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een gezonde leider die niet van plan is binnenkort te vertrekken, vindt opvolgingsplanning voorlopig overbodig en richt zich volledig op de huidige operationele prioriteiten. [ASSUMPTION] Als deze leider onverwacht niet beschikbaar is – door ziekte, een plotseling vertrek of een onverwachte kans elders – ontdekt de organisatie dat niemand actief is ontwikkeld of voorbereid om de leidinggevende rol over te nemen. Dat veroorzaakt precies het soort verstoring en onzekerheid waarvoor de lessen over persoonlijke nalatenschapsplanning elders in dit programma op gezinsniveau waarschuwden, maar nu in een hele organisatie en bij al haar medewerkers.
+[ILLUSTRATIEF VOORBEELD] Een gezonde leider die niet van plan is binnenkort te vertrekken, vindt opvolgingsplanning voorlopig overbodig en richt zich volledig op de huidige operationele prioriteiten. [AANNAME] Als deze leider onverwacht niet beschikbaar is – door ziekte, een plotseling vertrek of een onverwachte kans elders – ontdekt de organisatie dat niemand actief is ontwikkeld of voorbereid om de leidinggevende rol over te nemen. Dat veroorzaakt precies het soort verstoring en onzekerheid waarvoor de lessen over persoonlijke nalatenschapsplanning elders in dit programma op gezinsniveau waarschuwden, maar nu in een hele organisatie en bij al haar medewerkers.
 
 ## Oefenquiz
 

@@ -30,7 +30,7 @@ Hier is het "waarom" het terugvoeren van elk begrip op deze invalshoek leidt tot
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een ondernemer die verschillende, heel uiteenlopende situaties beoordeelt – een nieuw contract opstellen, de formaliteiten van haar LLC naleven en haar persoonlijke nalatenschapsplan bijwerken – stelt bij elk dezelfde onderliggende vraag: heb ik duidelijk vastgelegd wie precies welke specifieke rechten en plichten heeft, op een manier die later zo weinig mogelijk ruimte laat voor onduidelijkheid of geschillen? [ASSUMPTION] In plaats van contracten opstellen, het onderhoud van de rechtspersoon en nalatenschapsplanning te behandelen als volledig losse, niet-verbonden juridische taken, ziet ze dat het allemaal varianten zijn van hetzelfde onderliggende beginsel van duidelijkheid. Zo kan ze heel verschillende juridische terreinen benaderen met één samenhangende maatstaf.
+[ILLUSTRATIEF VOORBEELD] Een ondernemer die verschillende, heel uiteenlopende situaties beoordeelt – een nieuw contract opstellen, de formaliteiten van haar LLC naleven en haar persoonlijke nalatenschapsplan bijwerken – stelt bij elk dezelfde onderliggende vraag: heb ik duidelijk vastgelegd wie precies welke specifieke rechten en plichten heeft, op een manier die later zo weinig mogelijk ruimte laat voor onduidelijkheid of geschillen? [AANNAME] In plaats van contracten opstellen, het onderhoud van de rechtspersoon en nalatenschapsplanning te behandelen als volledig losse, niet-verbonden juridische taken, ziet ze dat het allemaal varianten zijn van hetzelfde onderliggende beginsel van duidelijkheid. Zo kan ze heel verschillende juridische terreinen benaderen met één samenhangende maatstaf.
 
 ## Oefenquiz
 

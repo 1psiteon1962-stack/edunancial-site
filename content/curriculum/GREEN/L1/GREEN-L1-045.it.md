@@ -34,11 +34,11 @@ L'evasione fiscale consiste nel mentire, nascondere o falsare i fatti per non pa
 
 La domanda chiave è: sto usando le regole in modo onesto, o sto nascondendo la verità? Nei casi dubbi, la risposta giusta è chiedere un parere professionale prima, non dopo. Tutta la pianificazione fiscale di questo percorso sta dalla parte legale di questa linea.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Caso 1: Edoardo versa denaro in un conto pensionistico con vantaggi fiscali e paga meno imposte. Legale o illegale?
 

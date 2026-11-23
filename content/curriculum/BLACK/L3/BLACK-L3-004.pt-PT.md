@@ -30,7 +30,7 @@ Como o rigor do seu processo atual de contratação se compara ao rigor que apli
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio faz uma avaliação extensa, várias aprovações e uma análise cuidadosa de custo-benefício antes de comprar um equipamento de determinado valor, enquanto o processo de contratação para uma função com duração esperada de vários anos e custo total de remuneração muito maior do que o desse equipamento envolve uma avaliação bem mais leve e menos estruturada. [ASSUMPTION] Considerando a alavancagem excepcionalmente alta e o efeito acumulado da contratação, esse descompasso no rigor da avaliação representa um investimento real abaixo do necessário na decisão que, de facto, envolve um valor financeiro total maior e consequências mais duradouras do que a compra do equipamento, que recebeu um exame muito mais cuidadoso.
+[EXEMPLO ILUSTRATIVO] Um negócio faz uma avaliação extensa, várias aprovações e uma análise cuidadosa de custo-benefício antes de comprar um equipamento de determinado valor, enquanto o processo de contratação para uma função com duração esperada de vários anos e custo total de remuneração muito maior do que o desse equipamento envolve uma avaliação bem mais leve e menos estruturada. [SUPOSIÇÃO] Considerando a alavancagem excepcionalmente alta e o efeito acumulado da contratação, esse descompasso no rigor da avaliação representa um investimento real abaixo do necessário na decisão que, de facto, envolve um valor financeiro total maior e consequências mais duradouras do que a compra do equipamento, que recebeu um exame muito mais cuidadoso.
 
 ## Teste de prática
 

@@ -32,7 +32,7 @@ Voici « pourquoi » ramener chaque décision au moment mène à de meilleures d
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une contribuable qui fait face à plusieurs décisions en même temps — réaliser ou non une perte en capital avant la fin de l'année (leçon 24), cotiser cette année à un compte traditionnel ou à un compte Roth (leçon 12), et devancer ou reporter une dépense d'entreprise dans l'année d'imposition en cours ou la suivante — évalue chacune avec la même grille du moment : qu'est-ce que chaque choix change au moment où le revenu est constaté, au moment où les déductions sont demandées et au taux auquel l'impôt qui en découle sera finalement calculé? [ASSUMPTION] Plutôt que de traiter ces décisions comme trois décisions sans lien, elle reconnaît qu'elles sont toutes des variantes de la même question de fond, ce qui lui permet de raisonner de façon cohérente plutôt que de repartir de zéro pour chacune.
+[EXEMPLE ILLUSTRATIF] Une contribuable qui fait face à plusieurs décisions en même temps — réaliser ou non une perte en capital avant la fin de l'année (leçon 24), cotiser cette année à un compte traditionnel ou à un compte Roth (leçon 12), et devancer ou reporter une dépense d'entreprise dans l'année d'imposition en cours ou la suivante — évalue chacune avec la même grille du moment : qu'est-ce que chaque choix change au moment où le revenu est constaté, au moment où les déductions sont demandées et au taux auquel l'impôt qui en découle sera finalement calculé? [HYPOTHÈSE] Plutôt que de traiter ces décisions comme trois décisions sans lien, elle reconnaît qu'elles sont toutes des variantes de la même question de fond, ce qui lui permet de raisonner de façon cohérente plutôt que de repartir de zéro pour chacune.
 
 ## Quiz de pratique
 

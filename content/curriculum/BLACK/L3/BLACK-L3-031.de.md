@@ -30,7 +30,7 @@ Erlebst du Kritik an deinem Unternehmen als Rückmeldung zu einer Strategie, ode
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Gründer, der sein Unternehmen über viele Jahre aufgebaut hat, erlebt jede bedeutende Kritik an der Richtung des Unternehmens als zutiefst persönlich und reagiert selbst auf wohlmeinende, konstruktive Rückmeldungen vertrauter Berater abwehrend. [ASSUMPTION] Diese Verschmelzung der Identität, die über den egogetriebenen Widerstand gegen das Eingestehen eines Fehlers aus Lektion 17 hinausgeht, macht es diesem Gründer wirklich schwer, die tatsächlichen Bedürfnisse des Unternehmens objektiv zu bewerten – jede Rückmeldung zum Unternehmen fühlt sich wie eine Rückmeldung zu ihm selbst an, was einen blinden Fleck schafft, für den ein Gründer mit mehr Abstand zwischen persönlicher Identität und Unternehmensleistung weniger anfällig wäre.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Gründer, der sein Unternehmen über viele Jahre aufgebaut hat, erlebt jede bedeutende Kritik an der Richtung des Unternehmens als zutiefst persönlich und reagiert selbst auf wohlmeinende, konstruktive Rückmeldungen vertrauter Berater abwehrend. [ANNAHME] Diese Verschmelzung der Identität, die über den egogetriebenen Widerstand gegen das Eingestehen eines Fehlers aus Lektion 17 hinausgeht, macht es diesem Gründer wirklich schwer, die tatsächlichen Bedürfnisse des Unternehmens objektiv zu bewerten – jede Rückmeldung zum Unternehmen fühlt sich wie eine Rückmeldung zu ihm selbst an, was einen blinden Fleck schafft, für den ein Gründer mit mehr Abstand zwischen persönlicher Identität und Unternehmensleistung weniger anfällig wäre.
 
 ## Übungsquiz
 1. Was bedeutet die Verschmelzung der Identität mit einem Unternehmen grundsätzlich?

@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-Le parcours BLUE de ce programme aborde la contribution de la propriété intellectuelle à la valeur globale d'une entreprise. Voici une règle juridique fondamentale qui sous-tend cette discussion : [VERIFIED FACT] dans de nombreux territoires, la règle générale par défaut veut que le véritable **créateur** d'une œuvre — la personne qui a écrit le code, créé le design ou rédigé le contenu — soit le premier titulaire de la propriété intellectuelle qui en découle, peu importe qui a payé pour que le travail soit fait, en l'absence d'une entente précise qui transfère cette propriété.
+Le parcours BLUE de ce programme aborde la contribution de la propriété intellectuelle à la valeur globale d'une entreprise. Voici une règle juridique fondamentale qui sous-tend cette discussion : [FAIT VÉRIFIÉ] dans de nombreux territoires, la règle générale par défaut veut que le véritable **créateur** d'une œuvre — la personne qui a écrit le code, créé le design ou rédigé le contenu — soit le premier titulaire de la propriété intellectuelle qui en découle, peu importe qui a payé pour que le travail soit fait, en l'absence d'une entente précise qui transfère cette propriété.
 
 Voici « pourquoi » ça surprend bien des propriétaires d'entreprise : il semble intuitif de supposer que payer quelqu'un pour créer quelque chose veut automatiquement dire que celui qui paie possède ce qui est créé, comme lorsqu'on paie pour un produit physique et qu'on en devient propriétaire. La propriété intellectuelle fonctionne généralement autrement par défaut — la qualité d'auteur du créateur établit généralement sa propriété, à moins qu'un contrat précis ou, dans certains cas, une exception juridique précise (abordée dans la prochaine leçon) ne transfère ou ne réattribue cette propriété à quelqu'un d'autre.
 
@@ -32,7 +32,7 @@ C'est pourquoi toute entreprise qui engage des pigistes, des entrepreneurs indé
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise engage une graphiste pigiste indépendante pour créer un logo précis et lui verse les honoraires convenus à la fin du travail, mais sans aucune entente écrite qui traite précisément de la propriété intellectuelle. [ASSUMPTION] Selon la règle générale par défaut, la graphiste pigiste, en tant que véritable créatrice, pourrait conserver la propriété de la propriété intellectuelle sous-jacente du design, même si elle a été payée pour le travail — l'entreprise pourrait n'avoir qu'une licence limitée pour utiliser le logo, et non la pleine propriété, à moins que l'entente initiale n'ait précisément et clairement transféré cette propriété à l'entreprise.
+[EXEMPLE ILLUSTRATIF] Une entreprise engage une graphiste pigiste indépendante pour créer un logo précis et lui verse les honoraires convenus à la fin du travail, mais sans aucune entente écrite qui traite précisément de la propriété intellectuelle. [HYPOTHÈSE] Selon la règle générale par défaut, la graphiste pigiste, en tant que véritable créatrice, pourrait conserver la propriété de la propriété intellectuelle sous-jacente du design, même si elle a été payée pour le travail — l'entreprise pourrait n'avoir qu'une licence limitée pour utiliser le logo, et non la pleine propriété, à moins que l'entente initiale n'ait précisément et clairement transféré cette propriété à l'entreprise.
 
 ## Quiz de pratique
 

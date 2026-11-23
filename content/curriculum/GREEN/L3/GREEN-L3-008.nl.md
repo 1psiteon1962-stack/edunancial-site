@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-De **standaardaftrek** (standard deduction) is een vast bedrag in dollars dat belastingbetalers van hun inkomen mogen aftrekken (volgens het begrip aftrek uit Les 7) zonder specifieke uitgaven te hoeven aantonen of te specificeren. Het bedrag verschilt meestal per aangiftestatus. [VERIFIED FACT] Het specifieke bedrag van de standaardaftrek ligt vast in de belastingwet, wordt regelmatig aangepast (vaak aan de inflatie) en verschilt per land: controleer actuele bedragen altijd zelf en ga er niet van uit.
+De **standaardaftrek** (standard deduction) is een vast bedrag in dollars dat belastingbetalers van hun inkomen mogen aftrekken (volgens het begrip aftrek uit Les 7) zonder specifieke uitgaven te hoeven aantonen of te specificeren. Het bedrag verschilt meestal per aangiftestatus. [GEVERIFIEERD FEIT] Het specifieke bedrag van de standaardaftrek ligt vast in de belastingwet, wordt regelmatig aangepast (vaak aan de inflatie) en verschilt per land: controleer actuele bedragen altijd zelf en ga er niet van uit.
 
 Hier is het "waarom" dit bestaat als hulpmiddel om het eenvoudig te houden: zonder standaardaftrek zou elke belastingbetaler die enige aftrek wil, specifieke aftrekbare uitgaven (hypotheekrente, giften aan goede doelen, bepaalde medische kosten en andere) één voor één moeten bijhouden, aantonen en verantwoorden – een flinke administratieve last. De standaardaftrek biedt een eenvoudig alternatief: een gegarandeerd aftrekbedrag zonder enige bewijsstukken, beschikbaar voor elke belastingbetaler die er recht op heeft, ongeacht zijn werkelijke specificeerbare uitgaven.
 
@@ -30,7 +30,7 @@ Dat leidt tot de basiskeuze die de volgende les uitgebreider behandelt: een bela
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belastingbetaler met vrij bescheiden specificeerbare uitgaven – geen hypotheek, bescheiden giften, geen grote medische kosten – zou veel tijd kwijt zijn aan het één voor één aantonen en optellen van deze kleinere uitgaven als ze meer wil aftrekken dan het basisbedrag. Door in plaats daarvan de standaardaftrek te nemen, krijgt ze een gegarandeerd, flink aftrekbedrag zonder enige bewijsstukken, omdat haar werkelijke specificeerbare uitgaven dat standaardbedrag waarschijnlijk toch niet zouden overschrijden. [ASSUMPTION] Voor deze belastingbetaler bespaart de standaardaftrek veel tijd en gedoe zonder dat het haar enig werkelijk belastingvoordeel kost, omdat haar echte specificeerbare uitgaven waarschijnlijk hoe dan ook niet boven het standaardbedrag uit zouden komen.
+[ILLUSTRATIEF VOORBEELD] Een belastingbetaler met vrij bescheiden specificeerbare uitgaven – geen hypotheek, bescheiden giften, geen grote medische kosten – zou veel tijd kwijt zijn aan het één voor één aantonen en optellen van deze kleinere uitgaven als ze meer wil aftrekken dan het basisbedrag. Door in plaats daarvan de standaardaftrek te nemen, krijgt ze een gegarandeerd, flink aftrekbedrag zonder enige bewijsstukken, omdat haar werkelijke specificeerbare uitgaven dat standaardbedrag waarschijnlijk toch niet zouden overschrijden. [AANNAME] Voor deze belastingbetaler bespaart de standaardaftrek veel tijd en gedoe zonder dat het haar enig werkelijk belastingvoordeel kost, omdat haar echte specificeerbare uitgaven waarschijnlijk hoe dan ook niet boven het standaardbedrag uit zouden komen.
 
 ## Oefenquiz
 

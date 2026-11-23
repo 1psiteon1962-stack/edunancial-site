@@ -30,7 +30,7 @@ Antes de assumir um aumento significativo no gasto com marketing: no seu negóci
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio aumenta bastante o gasto com marketing, esperando que o crescimento de vendas resultante financie as operações do trimestre seguinte. [ASSUMPTION] O marketing funciona de verdade — os contactos passam a ser vendas na taxa esperada —, mas o dinheiro efetivo dessas vendas, considerando o ciclo de recebimento típico de 60 dias do negócio, visto na discussão da trilha BLUE, só chega bem depois de vencerem as contas do marketing, criando uma falta de caixa apesar de a campanha de marketing ser, pelas próprias métricas, um sucesso claro.
+[EXEMPLO ILUSTRATIVO] Um negócio aumenta bastante o gasto com marketing, esperando que o crescimento de vendas resultante financie as operações do trimestre seguinte. [SUPOSIÇÃO] O marketing funciona de verdade — os contactos passam a ser vendas na taxa esperada —, mas o dinheiro efetivo dessas vendas, considerando o ciclo de recebimento típico de 60 dias do negócio, visto na discussão da trilha BLUE, só chega bem depois de vencerem as contas do marketing, criando uma falta de caixa apesar de a campanha de marketing ser, pelas próprias métricas, um sucesso claro.
 
 ## Teste de prática
 

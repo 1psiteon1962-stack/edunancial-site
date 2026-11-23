@@ -30,7 +30,7 @@ Al di là di ciò che la legge richiede, che cosa fa concretamente la tua organi
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa rispetta ogni requisito di legge specifico trattato nelle lezioni sul lavoro del percorso PURPLE (pagamento corretto degli stipendi, nessuna discriminazione, procedure di licenziamento adeguate) e tuttavia tratta i dipendenti in modi che risultano puramente transazionali e poco rispettosi del loro reale contributo e della loro dignità. [ASSUMPTION] Questa impresa è in regola con la legge, ma non ha davvero assolto la responsabilità più ampia del datore di lavoro descritta in questa lezione, cosa particolarmente rilevante nei contesti in cui il lavoro dei dipendenti mantiene famiglie allargate che dipendono interamente da quel reddito. La conformità alla legge era il livello minimo, non la prova che la vera responsabilità fosse stata assolta.
+[ESEMPIO ILLUSTRATIVO] Un'impresa rispetta ogni requisito di legge specifico trattato nelle lezioni sul lavoro del percorso PURPLE (pagamento corretto degli stipendi, nessuna discriminazione, procedure di licenziamento adeguate) e tuttavia tratta i dipendenti in modi che risultano puramente transazionali e poco rispettosi del loro reale contributo e della loro dignità. [IPOTESI] Questa impresa è in regola con la legge, ma non ha davvero assolto la responsabilità più ampia del datore di lavoro descritta in questa lezione, cosa particolarmente rilevante nei contesti in cui il lavoro dei dipendenti mantiene famiglie allargate che dipendono interamente da quel reddito. La conformità alla legge era il livello minimo, non la prova che la vera responsabilità fosse stata assolta.
 
 ## Quiz di esercitazione
 

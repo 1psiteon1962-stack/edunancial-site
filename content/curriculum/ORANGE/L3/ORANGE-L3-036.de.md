@@ -30,7 +30,7 @@ Bevor du nennenswertes Marketingbudget an ein Sponsoring oder eine Partnerschaft
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen bindet ein erhebliches Marketingbudget an das Sponsoring einer bekannten Veranstaltung oder Organisation und bewertet es vor allem nach der versprochenen Reichweite und Markenpassung. [ASSUMPTION] Ohne weitere Prüfung der finanziellen Stabilität der gesponserten Organisation gerät diese später selbst in erhebliche finanzielle oder Reputationsschwierigkeiten, was den Wert des Sponsorings gefährdet und ein Reputationsrisiko durch die Verbindung schafft (ganz im Sinne von Lektion 4) – ein Risiko, das eine gründlichere Prüfung wie bei einer Kapitalanlage, ähnlich der Bewertung von Fondsmanagern im GOLDENEN Lernpfad, vor der Zusage womöglich erkannt hätte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen bindet ein erhebliches Marketingbudget an das Sponsoring einer bekannten Veranstaltung oder Organisation und bewertet es vor allem nach der versprochenen Reichweite und Markenpassung. [ANNAHME] Ohne weitere Prüfung der finanziellen Stabilität der gesponserten Organisation gerät diese später selbst in erhebliche finanzielle oder Reputationsschwierigkeiten, was den Wert des Sponsorings gefährdet und ein Reputationsrisiko durch die Verbindung schafft (ganz im Sinne von Lektion 4) – ein Risiko, das eine gründlichere Prüfung wie bei einer Kapitalanlage, ähnlich der Bewertung von Fondsmanagern im GOLDENEN Lernpfad, vor der Zusage womöglich erkannt hätte.
 
 ## Übungsquiz
 1. Warum sollte ein bedeutendes Sponsoring oder eine bedeutende Partnerschaft mit der Gründlichkeit einer Anlageprüfung bewertet werden?

@@ -30,7 +30,7 @@ Neem een willekeurige beslissing over verkoop of marketing die nu voor je ligt e
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming die een nieuwe sponsormogelijkheid beoordeelt, past de volledige versie van deze vraag toe: de kosten omvatten niet alleen het sponsorbedrag, maar ook de moeite van het onderzoek naar de stabiliteit van de partner (Les 36) en het reputatierisico van de verbintenis (Les 4); de opbrengst omvat niet alleen het geschatte bereik, maar ook de realistische kans dat dat bereik uitmondt in echte, betalende klanten die blijven (Lessen 3, 6, 15), eerlijk vergeleken met wat hetzelfde budget elders zou kunnen opleveren (Les 38). Deze volledige versie van de vraag levert een echt andere, grondigere beoordeling op dan een smallere die alleen vraagt "wat kost de sponsoring en hoeveel mensen zien het?".
+[ILLUSTRATIEF VOORBEELD] Een onderneming die een nieuwe sponsormogelijkheid beoordeelt, past de volledige versie van deze vraag toe: de kosten omvatten niet alleen het sponsorbedrag, maar ook de moeite van het onderzoek naar de stabiliteit van de partner (Les 36) en het reputatierisico van de verbintenis (Les 4); de opbrengst omvat niet alleen het geschatte bereik, maar ook de realistische kans dat dat bereik uitmondt in echte, betalende klanten die blijven (Lessen 3, 6, 15), eerlijk vergeleken met wat hetzelfde budget elders zou kunnen opleveren (Les 38). Deze volledige versie van de vraag levert een echt andere, grondigere beoordeling op dan een smallere die alleen vraagt "wat kost de sponsoring en hoeveel mensen zien het?".
 
 ## Oefenquiz
 

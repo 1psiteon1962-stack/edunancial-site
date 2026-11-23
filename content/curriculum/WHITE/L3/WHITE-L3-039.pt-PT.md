@@ -24,7 +24,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Muitos sistemas tributários diferenciam os ganhos com investimentos mantidos por um prazo mais curto dos ganhos com investimentos mantidos por um prazo mais longo antes da venda, muitas vezes aplicando alíquotas diferentes a cada categoria. [VERIFIED FACT] Os prazos de permanência específicos e as alíquotas aplicáveis variam muito de país para país e são definidos por leis tributárias específicas. Conhecer o conceito de modo geral é útil, mas os números exatos devem ser verificados para cada situação e cada país.
+Muitos sistemas tributários diferenciam os ganhos com investimentos mantidos por um prazo mais curto dos ganhos com investimentos mantidos por um prazo mais longo antes da venda, muitas vezes aplicando alíquotas diferentes a cada categoria. [FACTO VERIFICADO] Os prazos de permanência específicos e as alíquotas aplicáveis variam muito de país para país e são definidos por leis tributárias específicas. Conhecer o conceito de modo geral é útil, mas os números exatos devem ser verificados para cada situação e cada país.
 
 Veja o "porquê" de essa diferença existir com frequência: muitos sistemas tributários são pensados, pelo menos em parte, para incentivar a manutenção dos investimentos por mais tempo em vez de negociações frequentes de curto prazo, muitas vezes tributando os ganhos de investimentos mantidos por um prazo mais curto com uma alíquota maior do que os ganhos de investimentos mantidos por mais tempo.
 
@@ -32,7 +32,7 @@ Isso cria um incentivo real e intencional que vale a pena entender: um investido
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora está a pensar em vender um investimento que valorizou bastante, e ela está perto de atingir um prazo de permanência mais longo que, no país dela, aplicaria uma alíquota mais favorável ao ganho. [ASSUMPTION] Se a visão geral dela sobre a posição não mudou de forma significativa, esperar um pouco mais para passar desse prazo pode resultar em menos imposto total a pagar na venda. Mas isso deve ser pesado contra a visão real dela sobre as perspectivas e o risco do investimento no curto prazo, e não tratado como algo que automaticamente passa por cima dessas considerações.
+[EXEMPLO ILUSTRATIVO] Uma investidora está a pensar em vender um investimento que valorizou bastante, e ela está perto de atingir um prazo de permanência mais longo que, no país dela, aplicaria uma alíquota mais favorável ao ganho. [SUPOSIÇÃO] Se a visão geral dela sobre a posição não mudou de forma significativa, esperar um pouco mais para passar desse prazo pode resultar em menos imposto total a pagar na venda. Mas isso deve ser pesado contra a visão real dela sobre as perspectivas e o risco do investimento no curto prazo, e não tratado como algo que automaticamente passa por cima dessas considerações.
 
 ## Teste de prática
 

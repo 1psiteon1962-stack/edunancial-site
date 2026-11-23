@@ -26,11 +26,11 @@ Questa lezione segue da vicino un concetto trattato nel percorso RED di questo p
 
 Ecco il "perché" questa richiesta è così costante proprio per le piccole imprese: un'impresa appena acquisita o più piccola spesso non ha un lungo storico finanziario autonomo né beni propri consistenti che possano rassicurare un finanziatore. Una garanzia personale permette al finanziatore di rivalersi sul titolare in persona se l'impresa non paga e non riesce a rimborsare il prestito, e gli dà una sicurezza in più oltre al limitato storico finanziario della società.
 
-[VERIFIED FACT] Questo significa che costituire una società per limitare la responsabilità, pur restando utile per molti altri motivi, non protegge automaticamente il patrimonio personale del titolare da un prestito che prevede proprio una garanzia personale: la garanzia crea un'obbligazione diretta e personale, distinta dalla responsabilità della società stessa.
+[FATTO VERIFICATO] Questo significa che costituire una società per limitare la responsabilità, pur restando utile per molti altri motivi, non protegge automaticamente il patrimonio personale del titolare da un prestito che prevede proprio una garanzia personale: la garanzia crea un'obbligazione diretta e personale, distinta dalla responsabilità della società stessa.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'imprenditrice costituisce una società proprio per acquisire una piccola impresa, aspettandosi che questa struttura protegga il suo patrimonio personale da tutti i debiti dell'impresa. Quando chiede un finanziamento per l'acquisizione, il finanziatore le chiede di garantire personalmente il prestito, visto il limitato storico autonomo dell'impresa sotto la sua nuova proprietà. Se in seguito l'impresa va in difficoltà e non rimborsa il prestito, il finanziatore può rivalersi su di lei in persona in base alla garanzia, nonostante la struttura societaria: la protezione che si aspettava dalla società non si estende a questo specifico debito garantito personalmente.
+[ESEMPIO ILLUSTRATIVO] Un'imprenditrice costituisce una società proprio per acquisire una piccola impresa, aspettandosi che questa struttura protegga il suo patrimonio personale da tutti i debiti dell'impresa. Quando chiede un finanziamento per l'acquisizione, il finanziatore le chiede di garantire personalmente il prestito, visto il limitato storico autonomo dell'impresa sotto la sua nuova proprietà. Se in seguito l'impresa va in difficoltà e non rimborsa il prestito, il finanziatore può rivalersi su di lei in persona in base alla garanzia, nonostante la struttura societaria: la protezione che si aspettava dalla società non si estende a questo specifico debito garantito personalmente.
 
 ## Quiz di esercitazione
 

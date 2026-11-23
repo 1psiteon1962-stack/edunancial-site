@@ -30,7 +30,7 @@ Denk an ein aktuelles Problem, das kostspieliger oder sichtbarer wurde als nöti
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] In einer Organisation ohne echte psychologische Sicherheit bemerkt ein Teammitglied früh ein erhebliches Problem mit dem Zeitplan eines Projekts, spricht die Bedenken aber nicht an, weil es befürchtet, als negativ oder wenig hilfreich zu gelten. [ASSUMPTION] Das unbeachtete Problem verschärft sich und wird schließlich zu einem viel sichtbareren, kostspieligeren Fehlschlag, als es gewesen wäre, wenn man es früh angesprochen und behoben hätte – eine direkte finanzielle Folge der fehlenden psychologischen Sicherheit. Das zeigt, warum sie nicht bloß eine kulturelle Vorliebe ist, sondern ein Faktor mit echter, messbarer Wirkung auf die Leistung der Organisation.
+[BEISPIEL ZUR VERANSCHAULICHUNG] In einer Organisation ohne echte psychologische Sicherheit bemerkt ein Teammitglied früh ein erhebliches Problem mit dem Zeitplan eines Projekts, spricht die Bedenken aber nicht an, weil es befürchtet, als negativ oder wenig hilfreich zu gelten. [ANNAHME] Das unbeachtete Problem verschärft sich und wird schließlich zu einem viel sichtbareren, kostspieligeren Fehlschlag, als es gewesen wäre, wenn man es früh angesprochen und behoben hätte – eine direkte finanzielle Folge der fehlenden psychologischen Sicherheit. Das zeigt, warum sie nicht bloß eine kulturelle Vorliebe ist, sondern ein Faktor mit echter, messbarer Wirkung auf die Leistung der Organisation.
 
 ## Übungsquiz
 1. Was bezeichnet psychologische Sicherheit grundsätzlich?

@@ -30,7 +30,7 @@ Scegli una decisione che stai difendendo o continuando a sostenere. Applica dire
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader continua a difendere una decisione strategica che ha sostenuto personalmente, nonostante le prove crescenti che non funzioni, riprendendo gli schemi dell'ego e dei costi irrecuperabili della Lezione 17. [ASSUMPTION] Applicando la tecnica di questa lezione (chiedersi che cosa consiglierebbe se quella stessa decisione l'avesse presa un altro leader e lui la valutasse da zero), questo leader trova molto più difficile giustificare la prosecuzione della strategia fallimentare solo in base ai suoi meriti attuali. Si crea così abbastanza distanza psicologica dall'attaccamento personale alla decisione originale da vedere la situazione con più chiarezza e fare una scelta più obiettiva.
+[ESEMPIO ILLUSTRATIVO] Un leader continua a difendere una decisione strategica che ha sostenuto personalmente, nonostante le prove crescenti che non funzioni, riprendendo gli schemi dell'ego e dei costi irrecuperabili della Lezione 17. [IPOTESI] Applicando la tecnica di questa lezione (chiedersi che cosa consiglierebbe se quella stessa decisione l'avesse presa un altro leader e lui la valutasse da zero), questo leader trova molto più difficile giustificare la prosecuzione della strategia fallimentare solo in base ai suoi meriti attuali. Si crea così abbastanza distanza psicologica dall'attaccamento personale alla decisione originale da vedere la situazione con più chiarezza e fare una scelta più obiettiva.
 
 ## Quiz di esercitazione
 

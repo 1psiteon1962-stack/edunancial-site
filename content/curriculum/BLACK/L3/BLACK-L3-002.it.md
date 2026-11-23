@@ -30,7 +30,7 @@ Se all'improvviso non fossi disponibile per un mese, che cosa smetterebbe davver
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader delega compiti amministrativi di routine per liberare tempo, convinto che sia una buona pratica di delega. [ASSUMPTION] Ogni relazione importante con i clienti, ogni decisione strategica e ogni conoscenza operativa critica restano interamente concentrate su questo leader. Quando diventa inaspettatamente indisponibile per un lungo periodo, l'organizzazione scopre che la delega che gli aveva liberato l'agenda non ha fatto nulla per affrontare il vero rischio legato alla persona chiave, concentrato nelle relazioni e nelle conoscenze che non aveva delegato. È esattamente il rischio che la discussione sull'assicurazione per la persona chiave del percorso BLUE intendeva affrontare.
+[ESEMPIO ILLUSTRATIVO] Un leader delega compiti amministrativi di routine per liberare tempo, convinto che sia una buona pratica di delega. [IPOTESI] Ogni relazione importante con i clienti, ogni decisione strategica e ogni conoscenza operativa critica restano interamente concentrate su questo leader. Quando diventa inaspettatamente indisponibile per un lungo periodo, l'organizzazione scopre che la delega che gli aveva liberato l'agenda non ha fatto nulla per affrontare il vero rischio legato alla persona chiave, concentrato nelle relazioni e nelle conoscenze che non aveva delegato. È esattamente il rischio che la discussione sull'assicurazione per la persona chiave del percorso BLUE intendeva affrontare.
 
 ## Quiz di esercitazione
 

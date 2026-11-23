@@ -30,7 +30,7 @@ Per la tua prossima decisione importante di vendita o marketing, prova ad applic
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa valuta una nuova e importante iniziativa di marketing non chiedendosi "attirerà attenzione?" o "i concorrenti fanno qualcosa di simile?", ma applicando lo stesso rigore usato altrove in questo programma per valutare qualsiasi investimento: stima una gamma realistica di risultati, valuta onestamente i rischi specifici coinvolti (riprendendo le Lezioni 1, 5 e 38) e confronta il rendimento atteso corretto per il rischio con le alternative reali che lo stesso capitale potrebbe finanziare: assunzioni, sviluppo del prodotto, riduzione del debito. Ne risulta una valutazione profondamente diversa e più rigorosa rispetto a trattare la decisione di marketing come una categoria a parte, esente da questo esame.
+[ESEMPIO ILLUSTRATIVO] Un'impresa valuta una nuova e importante iniziativa di marketing non chiedendosi "attirerà attenzione?" o "i concorrenti fanno qualcosa di simile?", ma applicando lo stesso rigore usato altrove in questo programma per valutare qualsiasi investimento: stima una gamma realistica di risultati, valuta onestamente i rischi specifici coinvolti (riprendendo le Lezioni 1, 5 e 38) e confronta il rendimento atteso corretto per il rischio con le alternative reali che lo stesso capitale potrebbe finanziare: assunzioni, sviluppo del prodotto, riduzione del debito. Ne risulta una valutazione profondamente diversa e più rigorosa rispetto a trattare la decisione di marketing come una categoria a parte, esente da questo esame.
 
 ## Quiz di esercitazione
 

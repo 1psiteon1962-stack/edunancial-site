@@ -28,11 +28,11 @@ Il **margine** permette a un investitore di prendere in prestito soldi da un bro
 
 Ecco il "perché" vale lo stesso effetto moltiplicatore: il tuo rendimento percentuale si calcola rispetto ai contanti che hai investito tu, non rispetto alla dimensione totale della posizione. Quindi se la posizione guadagna valore, quel guadagno si misura su una base più piccola, e questo amplifica il tuo rendimento percentuale. Se la posizione perde valore, lo stesso calcolo amplifica la tua perdita percentuale esattamente allo stesso modo, e tu devi comunque restituire tutta la somma presa in prestito, qualunque sia l'andamento dell'investimento.
 
-[VERIFIED FACT] I prestiti a margine di solito prevedono interessi, che aggiungono un costo continuo alla posizione, e i broker richiedono di mantenere nel conto un livello minimo di capitale proprio: se il valore del conto scende troppo, questo può far scattare una margin call (richiesta di reintegro del margine), argomento della prossima lezione.
+[FATTO VERIFICATO] I prestiti a margine di solito prevedono interessi, che aggiungono un costo continuo alla posizione, e i broker richiedono di mantenere nel conto un livello minimo di capitale proprio: se il valore del conto scende troppo, questo può far scattare una margin call (richiesta di reintegro del margine), argomento della prossima lezione.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un investitore ha $10,000 in contanti e usa il margine per comprare azioni per $20,000 (prendendo in prestito gli altri $10,000). Se l'azione sale del 10%, la posizione guadagna $2,000: un rendimento del 20% sui $10,000 iniziali dell'investitore, non del 10%. Se invece l'azione scende del 10%, la posizione perde $2,000: una perdita del 20% sui $10,000 iniziali, e l'investitore deve comunque restituire tutti i $10,000 presi in prestito, qualunque sia il nuovo valore, più basso, dell'azione.
+[ESEMPIO ILLUSTRATIVO] Un investitore ha $10,000 in contanti e usa il margine per comprare azioni per $20,000 (prendendo in prestito gli altri $10,000). Se l'azione sale del 10%, la posizione guadagna $2,000: un rendimento del 20% sui $10,000 iniziali dell'investitore, non del 10%. Se invece l'azione scende del 10%, la posizione perde $2,000: una perdita del 20% sui $10,000 iniziali, e l'investitore deve comunque restituire tutti i $10,000 presi in prestito, qualunque sia il nuovo valore, più basso, dell'azione.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ C'è una decisione difficile sul personale che stai rimandando in questo momento
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader ha prove reali e ben documentate che un dipendente non soddisfa i requisiti del ruolo, ma rimanda per mesi la conversazione sul licenziamento, sperando che la situazione migliori da sola. [ASSUMPTION] In quei mesi il morale del team si erode in modo visibile, mentre gli altri membri del team si fanno carico del lavoro in più e notano il problema irrisolto. Quando alla fine il licenziamento avviene comunque, l'impresa affronta lo stesso costo di sostituzione e di inserimento che avrebbe affrontato mesi prima, più il costo accumulato in morale e produttività dovuto al ritardo stesso. Questo mostra perché un'azione decisa, una volta davvero giustificata, produce in genere un esito complessivo migliore di un lungo evitamento.
+[ESEMPIO ILLUSTRATIVO] Un leader ha prove reali e ben documentate che un dipendente non soddisfa i requisiti del ruolo, ma rimanda per mesi la conversazione sul licenziamento, sperando che la situazione migliori da sola. [IPOTESI] In quei mesi il morale del team si erode in modo visibile, mentre gli altri membri del team si fanno carico del lavoro in più e notano il problema irrisolto. Quando alla fine il licenziamento avviene comunque, l'impresa affronta lo stesso costo di sostituzione e di inserimento che avrebbe affrontato mesi prima, più il costo accumulato in morale e produttività dovuto al ritardo stesso. Questo mostra perché un'azione decisa, una volta davvero giustificata, produce in genere un esito complessivo migliore di un lungo evitamento.
 
 ## Quiz di esercitazione
 

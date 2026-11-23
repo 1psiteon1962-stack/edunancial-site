@@ -28,11 +28,11 @@ Una **trayectoria de ajuste (glide path)** describe un plan predeterminado para 
 
 Este es el "porqué" de que este momento importe, y se conecta directamente con el riesgo de secuencia de rendimientos de la Lección 15: una cartera a la que le quedan muchos años antes de que haya que usar el dinero tiene más tiempo para recuperarse de una caída, así que normalmente puede darse el lujo de tener más acciones por su mayor potencial de crecimiento a largo plazo. A medida que se acerca la fecha meta y se acorta el tiempo para recuperarse de una posible caída, pasar poco a poco a activos más estables (como los bonos) reduce el riesgo de sufrir una caída grande en mal momento justo antes de necesitar el dinero, que es precisamente el riesgo que se describió en la Lección 15.
 
-[VERIFIED FACT] Los distintos diseños de trayectorias de ajuste varían en qué tan agresiva o conservadoramente cambian con el tiempo, y en si el cambio continúa incluso después de llegar a la fecha meta. No existe una trayectoria de ajuste universal única, y el ritmo de ajuste apropiado depende de las circunstancias individuales y de la tolerancia al riesgo.
+[DATO VERIFICADO] Los distintos diseños de trayectorias de ajuste varían en qué tan agresiva o conservadoramente cambian con el tiempo, y en si el cambio continúa incluso después de llegar a la fecha meta. No existe una trayectoria de ajuste universal única, y el ritmo de ajuste apropiado depende de las circunstancias individuales y de la tolerancia al riesgo.
 
 ## Ejemplo práctico
 
-[ILLUSTRATIVE EXAMPLE] Un fondo con fecha meta diseñado para alguien que se va a retirar en unos 30 años podría empezar con una cartera muy cargada hacia las acciones, aprovechando el largo horizonte de tiempo para poder recuperarse de cualquier caída en el camino. A medida que se acerca la fecha meta de jubilación a lo largo de esas décadas, el fondo aumenta poco a poco su asignación a bonos y reduce su exposición a acciones, con el objetivo de reducir la vulnerabilidad de la cartera a una caída en mal momento justo cuando el inversor podría necesitar empezar a retirar fondos.
+[EJEMPLO ILUSTRATIVO] Un fondo con fecha meta diseñado para alguien que se va a retirar en unos 30 años podría empezar con una cartera muy cargada hacia las acciones, aprovechando el largo horizonte de tiempo para poder recuperarse de cualquier caída en el camino. A medida que se acerca la fecha meta de jubilación a lo largo de esas décadas, el fondo aumenta poco a poco su asignación a bonos y reduce su exposición a acciones, con el objetivo de reducir la vulnerabilidad de la cartera a una caída en mal momento justo cuando el inversor podría necesitar empezar a retirar fondos.
 
 ## Prueba de práctica
 

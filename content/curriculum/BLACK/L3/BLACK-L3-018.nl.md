@@ -30,7 +30,7 @@ Stelt de raad van bestuur van je organisatie (of een vergelijkbaar toezichtsorga
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] De raad van bestuur van een bedrijf keurt elk voorstel van het uitvoerende leiderschap stelselmatig goed, zonder inhoudelijke tegenspraak of onafhankelijke toetsing, en is trots op soepele, harmonieuze vergaderingen. [ASSUMPTION] Die schijnbare harmonie weerspiegelt in werkelijkheid falend toezicht, geen succes – de fiduciaire plicht van de raad geldt volgens de bespreking in het PURPLE-traject tegenover de organisatie en haar belanghebbenden, en een raad die nooit de echte tegenspraak uit Les 10 levert, vervult niet de toezichtfunctie waarvoor hij bestaat, hoe prettig de relatie met het uitvoerende leiderschap ook aanvoelt.
+[ILLUSTRATIEF VOORBEELD] De raad van bestuur van een bedrijf keurt elk voorstel van het uitvoerende leiderschap stelselmatig goed, zonder inhoudelijke tegenspraak of onafhankelijke toetsing, en is trots op soepele, harmonieuze vergaderingen. [AANNAME] Die schijnbare harmonie weerspiegelt in werkelijkheid falend toezicht, geen succes – de fiduciaire plicht van de raad geldt volgens de bespreking in het PURPLE-traject tegenover de organisatie en haar belanghebbenden, en een raad die nooit de echte tegenspraak uit Les 10 levert, vervult niet de toezichtfunctie waarvoor hij bestaat, hoe prettig de relatie met het uitvoerende leiderschap ook aanvoelt.
 
 ## Oefenquiz
 

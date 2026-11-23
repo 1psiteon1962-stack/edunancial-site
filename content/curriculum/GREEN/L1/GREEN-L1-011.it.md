@@ -36,7 +36,7 @@ Per fare un budget, usa sempre il reddito netto. Pianificare le spese sul lordo 
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Bianca è stata assunta a $4.000 al mese e ha già pianificato di spendere $4.000. Che cosa può andare storto?
 

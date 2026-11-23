@@ -30,7 +30,7 @@ Heb je vooraf doordacht hoe je eigen natuurlijke leiderschapsstijl tijdens een e
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die gewend is aan uitgebreid overleg en het opbouwen van draagvlak vóór elke belangrijke beslissing, krijgt te maken met een snel veranderende crisis die een onmiddellijke publieke reactie vraagt. [ASSUMPTION] Met hetzelfde uitgebreide overlegproces als bij normale strategische beslissingen stelt deze leider een publieke reactie dagenlang uit terwijl hij de mening van elke betrokken partij verzamelt – een tempo dat past bij leidinggeven in normale tijden, maar dat tijdens een echte crisis een vacuüm schept dat anderen vullen met hun eigen verhaal. Dit laat zien waarom leidinggeven in een crisis sneller en vastberadener handelen vraagt, ook met minder zekerheid dan het normale besluitvormingsproces van de leider zou willen.
+[ILLUSTRATIEF VOORBEELD] Een leider die gewend is aan uitgebreid overleg en het opbouwen van draagvlak vóór elke belangrijke beslissing, krijgt te maken met een snel veranderende crisis die een onmiddellijke publieke reactie vraagt. [AANNAME] Met hetzelfde uitgebreide overlegproces als bij normale strategische beslissingen stelt deze leider een publieke reactie dagenlang uit terwijl hij de mening van elke betrokken partij verzamelt – een tempo dat past bij leidinggeven in normale tijden, maar dat tijdens een echte crisis een vacuüm schept dat anderen vullen met hun eigen verhaal. Dit laat zien waarom leidinggeven in een crisis sneller en vastberadener handelen vraagt, ook met minder zekerheid dan het normale besluitvormingsproces van de leider zou willen.
 
 ## Oefenquiz
 

@@ -30,7 +30,7 @@ Bevor du eine bedeutende schriftliche Mitteilung verschickst – eine Leistungsb
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft schreibt einer Kollegin eine formlose, lockere E-Mail und kommentiert darin die Leistung eines Mitarbeiters auf eine Weise, die ein persönliches Merkmal ohne Bezug zur tatsächlichen Arbeitsleistung berührt. [ASSUMPTION] Wird diesem Mitarbeiter später aus einem berechtigten Leistungsgrund gekündigt und macht er einen Anspruch wegen Diskriminierung geltend, wird diese frühere E-Mail – nie als etwas anderes als lockerer Kommentar gemeint – zu einem dauerhaften, schriftlichen Beleg, den ein Gericht für den Anspruch als relevant ansehen könnte. Das zeigt, warum das alltägliche Schreiben einer Führungskraft rechtliches Gewicht hat, unabhängig davon, wie locker und spontan es gemeint war.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft schreibt einer Kollegin eine formlose, lockere E-Mail und kommentiert darin die Leistung eines Mitarbeiters auf eine Weise, die ein persönliches Merkmal ohne Bezug zur tatsächlichen Arbeitsleistung berührt. [ANNAHME] Wird diesem Mitarbeiter später aus einem berechtigten Leistungsgrund gekündigt und macht er einen Anspruch wegen Diskriminierung geltend, wird diese frühere E-Mail – nie als etwas anderes als lockerer Kommentar gemeint – zu einem dauerhaften, schriftlichen Beleg, den ein Gericht für den Anspruch als relevant ansehen könnte. Das zeigt, warum das alltägliche Schreiben einer Führungskraft rechtliches Gewicht hat, unabhängig davon, wie locker und spontan es gemeint war.
 
 ## Übungsquiz
 1. Warum kann die alltägliche Kommunikation einer Führungskraft rechtliche Risiken schaffen, in Verbindung mit dem LILA Lernpfad?

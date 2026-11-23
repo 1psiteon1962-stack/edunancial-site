@@ -30,7 +30,7 @@ Existe alguma estratégia ou decisão que você continua apoiando, pelo menos em
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder defende publicamente uma direção estratégica específica e, à medida que se acumulam evidências de que ela não está funcionando, continua a defendê-la e a financiá-la em vez de reconhecer o erro. [ASSUMPTION] Retomando o alerta da trilha GOLD sobre o raciocínio não falseável, esse líder trata cada evidência contrária como motivo para ajustar a tática, e não para repensar a estratégia de fundo, e continua comprometendo recursos da organização com uma direção que está falhando justamente para evitar o desconforto pessoal de admitir o erro — um custo financeiro direto e mensurável criado pelo ego, e não pelos méritos da própria estratégia.
+[EXEMPLO ILUSTRATIVO] Um líder defende publicamente uma direção estratégica específica e, à medida que se acumulam evidências de que ela não está funcionando, continua a defendê-la e a financiá-la em vez de reconhecer o erro. [SUPOSIÇÃO] Retomando o alerta da trilha GOLD sobre o raciocínio não falseável, esse líder trata cada evidência contrária como motivo para ajustar a tática, e não para repensar a estratégia de fundo, e continua comprometendo recursos da organização com uma direção que está falhando justamente para evitar o desconforto pessoal de admitir o erro — um custo financeiro direto e mensurável criado pelo ego, e não pelos méritos da própria estratégia.
 
 ## Teste de prática
 

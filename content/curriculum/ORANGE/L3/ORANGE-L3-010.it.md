@@ -30,7 +30,7 @@ Prima di lanciare una promozione con un prodotto civetta: quali dati specifici d
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa vende un certo prodotto in perdita, ipotizzando che i clienti acquistino poi un accessorio separato e redditizio con una frequenza abbastanza alta da rendere conveniente l'intera strategia. [ASSUMPTION] Il prodotto in perdita diventa molto popolare e l'impresa considera questa popolarità una prova che la strategia sta funzionando, senza mai misurare davvero quale percentuale di quei clienti compra poi l'accessorio redditizio. Se la frequenza di quell'acquisto successivo è in realtà molto più bassa del previsto, l'impresa potrebbe portare avanti una strategia popolare ma davvero in perdita, proprio perché non ha mai monitorato l'economia unitaria su cui la strategia si basa.
+[ESEMPIO ILLUSTRATIVO] Un'impresa vende un certo prodotto in perdita, ipotizzando che i clienti acquistino poi un accessorio separato e redditizio con una frequenza abbastanza alta da rendere conveniente l'intera strategia. [IPOTESI] Il prodotto in perdita diventa molto popolare e l'impresa considera questa popolarità una prova che la strategia sta funzionando, senza mai misurare davvero quale percentuale di quei clienti compra poi l'accessorio redditizio. Se la frequenza di quell'acquisto successivo è in realtà molto più bassa del previsto, l'impresa potrebbe portare avanti una strategia popolare ma davvero in perdita, proprio perché non ha mai monitorato l'economia unitaria su cui la strategia si basa.
 
 ## Quiz di esercitazione
 

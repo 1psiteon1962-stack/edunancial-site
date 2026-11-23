@@ -30,7 +30,7 @@ Wat doet je organisatie, naast wat wettelijk verplicht is, werkelijk om echt res
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming voldoet aan elke specifieke wettelijke eis uit de lessen over arbeid in het PURPLE-traject – correcte loonbetaling, geen discriminatie, passende ontslagprocedures – en behandelt medewerkers toch op een manier die zakelijk en kil aanvoelt en weinig respect toont voor hun werkelijke bijdrage en waardigheid. [ASSUMPTION] Deze onderneming voldoet aan de wet, maar heeft de bredere verantwoordelijkheid als werkgever uit deze les niet echt waargemaakt – wat vooral zwaar weegt in situaties waarin de banen van medewerkers uitgebreide gezinnen onderhouden die volledig van dat inkomen afhangen. Naleving van de wet was de ondergrens, geen bewijs dat aan de echte verantwoordelijkheid was voldaan.
+[ILLUSTRATIEF VOORBEELD] Een onderneming voldoet aan elke specifieke wettelijke eis uit de lessen over arbeid in het PURPLE-traject – correcte loonbetaling, geen discriminatie, passende ontslagprocedures – en behandelt medewerkers toch op een manier die zakelijk en kil aanvoelt en weinig respect toont voor hun werkelijke bijdrage en waardigheid. [AANNAME] Deze onderneming voldoet aan de wet, maar heeft de bredere verantwoordelijkheid als werkgever uit deze les niet echt waargemaakt – wat vooral zwaar weegt in situaties waarin de banen van medewerkers uitgebreide gezinnen onderhouden die volledig van dat inkomen afhangen. Naleving van de wet was de ondergrens, geen bewijs dat aan de echte verantwoordelijkheid was voldaan.
 
 ## Oefenquiz
 

@@ -30,7 +30,7 @@ Em que pontos das suas práticas de marketing a escolha ética e a escolha que r
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio avalia se comprova com rigor uma afirmação de marketing antes de publicá-la, ou se publica uma versão mais impressionante, mas verificada com menos rigor. [ASSUMPTION] A versão comprovada com rigor é tanto a escolha mais ética quanto a de menor risco, considerando a exposição jurídica discutida na Lição 7 e a vulnerabilidade de reputação discutida na Lição 4 — nesse caso, ética e gestão de riscos apontam para o mesmo lado, o que torna a decisão simples, embora um profissional de marketing realmente ético fizesse a mesma escolha honesta até numa situação hipotética em que o risco jurídico ou de reputação de exagerar fosse menor.
+[EXEMPLO ILUSTRATIVO] Um negócio avalia se comprova com rigor uma afirmação de marketing antes de publicá-la, ou se publica uma versão mais impressionante, mas verificada com menos rigor. [SUPOSIÇÃO] A versão comprovada com rigor é tanto a escolha mais ética quanto a de menor risco, considerando a exposição jurídica discutida na Lição 7 e a vulnerabilidade de reputação discutida na Lição 4 — nesse caso, ética e gestão de riscos apontam para o mesmo lado, o que torna a decisão simples, embora um profissional de marketing realmente ético fizesse a mesma escolha honesta até numa situação hipotética em que o risco jurídico ou de reputação de exagerar fosse menor.
 
 ## Teste de prática
 

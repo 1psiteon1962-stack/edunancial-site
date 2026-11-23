@@ -26,11 +26,11 @@ La Lezione 1 ha spiegato che solo il reddito che rientra in un certo scaglione v
 
 Ecco il "perché" questo dato è quasi sempre nettamente più basso della tua aliquota marginale più alta: dato che gli scaglioni più bassi sono tassati con aliquote più basse lungo la strada verso il tuo scaglione più alto, unire tutte queste aliquote in un'unica media porta sempre l'aliquota effettiva complessiva sotto l'aliquota marginale più alta, che si applica solo agli ultimi dollari guadagnati.
 
-[VERIFIED FACT] Per questo l'aliquota effettiva è spesso considerata un dato più utile per una pianificazione finanziaria concreta e per confrontare il carico fiscale tra livelli di reddito o periodi diversi: riflette il tuo carico fiscale complessivo reale, invece della sola aliquota che si applica al dollaro guadagnato nello scaglione più alto. Scambiare l'aliquota marginale per quella complessiva può far sembrare la situazione fiscale di una persona più pesante di quanto sia davvero.
+[FATTO VERIFICATO] Per questo l'aliquota effettiva è spesso considerata un dato più utile per una pianificazione finanziaria concreta e per confrontare il carico fiscale tra livelli di reddito o periodi diversi: riflette il tuo carico fiscale complessivo reale, invece della sola aliquota che si applica al dollaro guadagnato nello scaglione più alto. Scambiare l'aliquota marginale per quella complessiva può far sembrare la situazione fiscale di una persona più pesante di quanto sia davvero.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Usando la stessa struttura semplificata di scaglioni della Lezione 1 (10% sui primi $10,000, 20% oltre), una persona che guadagna $15,000 paga $1,000 (10% di $10,000) più $1,000 (20% dei restanti $5,000), per un totale di $2,000 di imposta. La sua aliquota marginale più alta è il 20%, ma la sua aliquota effettiva è $2,000 diviso $15,000, cioè circa il 13,3%: nettamente più bassa del 20% marginale, che potrebbe far sembrare la sua situazione fiscale più pesante di quanto sia davvero.
+[ESEMPIO ILLUSTRATIVO] Usando la stessa struttura semplificata di scaglioni della Lezione 1 (10% sui primi $10,000, 20% oltre), una persona che guadagna $15,000 paga $1,000 (10% di $10,000) più $1,000 (20% dei restanti $5,000), per un totale di $2,000 di imposta. La sua aliquota marginale più alta è il 20%, ma la sua aliquota effettiva è $2,000 diviso $15,000, cioè circa il 13,3%: nettamente più bassa del 20% marginale, che potrebbe far sembrare la sua situazione fiscale più pesante di quanto sia davvero.
 
 ## Quiz di esercitazione
 

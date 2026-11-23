@@ -30,7 +30,7 @@ Wat zou je willen weten voordat je je vastlegt op een grote nieuwe uitgave op ba
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] De verkoopfunnel van een onderneming heeft historisch 15% van de gekwalificeerde leads omgezet in betalende klanten, en het team baseert het personeelsplan voor het volgende kwartaal op datzelfde percentage van 15%. [ASSUMPTION] Als het werkelijke conversiepercentage dat kwartaal uitkomt op 10% – ruim binnen de normale historische schommelingen – heeft de onderneming zich al vastgelegd op salarissen en andere kosten op basis van omzet die niet is gerealiseerd. Dat kasstroomprobleem komt niet voort uit één fout, maar uit het behandelen van een gemiddelde als een zekerheid.
+[ILLUSTRATIEF VOORBEELD] De verkoopfunnel van een onderneming heeft historisch 15% van de gekwalificeerde leads omgezet in betalende klanten, en het team baseert het personeelsplan voor het volgende kwartaal op datzelfde percentage van 15%. [AANNAME] Als het werkelijke conversiepercentage dat kwartaal uitkomt op 10% – ruim binnen de normale historische schommelingen – heeft de onderneming zich al vastgelegd op salarissen en andere kosten op basis van omzet die niet is gerealiseerd. Dat kasstroomprobleem komt niet voort uit één fout, maar uit het behandelen van een gemiddelde als een zekerheid.
 
 ## Oefenquiz
 

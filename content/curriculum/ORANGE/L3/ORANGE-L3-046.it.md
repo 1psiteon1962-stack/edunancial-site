@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Immagina che un cambiamento improvviso nel comportamento dei clienti (dovuto magari a una recessione economica più ampia, a un cambiamento nelle priorità dei clienti o a un nuovo concorrente dirompente) faccia crollare i tassi di conversione e renda i clienti esistenti molto più sensibili al prezzo, tutto in un breve periodo. È uno scenario ipotetico di prova, non una previsione su un evento o un mercato reali.
+[SCENARIO IPOTETICO — IPOTESI, NON FATTO VERIFICATO] Immagina che un cambiamento improvviso nel comportamento dei clienti (dovuto magari a una recessione economica più ampia, a un cambiamento nelle priorità dei clienti o a un nuovo concorrente dirompente) faccia crollare i tassi di conversione e renda i clienti esistenti molto più sensibili al prezzo, tutto in un breve periodo. È uno scenario ipotetico di prova, non una previsione su un evento o un mercato reali.
 
 Prima di leggere l'esempio pratico, ragionaci da solo: che cosa succederebbe al tuo rapporto tra CAC e LTV se i tassi di conversione calassero? Che cosa succederebbe alla tua previsione di vendita, costruita su ipotesi di conversione storiche (Lezione 3, Lezione 15)? Se i clienti diventano più sensibili al prezzo, che effetto ha sulla matematica del margine della Lezione 9 se sei tentato di rispondere con sconti? E che effetto avrebbe sul tuo tasso di abbandono (Lezione 31), dato che sono colpiti anche i clienti esistenti, e non solo i nuovi potenziali clienti?
 

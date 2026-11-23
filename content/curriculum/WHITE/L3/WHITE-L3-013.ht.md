@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Leson 12 te montre DCA pwoteje kont yon sitiyasyon move moman espesifik. Men "poukisa" leson sa a ale pi lwen: paske istorikman mache yo monte pi souvan pase yo desann sou pifò peryòd tan ki long, envesti yon sòm touswit, olye w gaye l, pi souvan pase non te bay yon pi bon rezilta — paske plis nan lajan ou envesti e ekspoze a pwofi potansyèl pou yon peryòd pi long, olye yon pati ap chita san envesti pandan w ap mete l piti piti.
 
-[VERIFIED FACT] Sa a se yon tandans estatistik ki baze sou modèl istorik, pa yon garanti pou okenn peryòd espesifik alavni — te gen peryòd kote DCA ta bay pi bon rezilta pase yon sèl kou, sitou peryòd ki te kòmanse yon ti tan anvan yon gwo bès.
+[FÈ VERIFYE] Sa a se yon tandans estatistik ki baze sou modèl istorik, pa yon garanti pou okenn peryòd espesifik alavni — te gen peryòd kote DCA ta bay pi bon rezilta pase yon sèl kou, sitou peryòd ki te kòmanse yon ti tan anvan yon gwo bès.
 
 Kidonk poukisa anpil envestisè toujou chwazi DCA, menm lè yo konprann tandans sa a? Rezon an konekte ak tèm konpòtman Leson 1 an: DCA diminye risk emosyonèl pou w envesti yon gwo sòm jis anvan yon bès epi, akoz regrè oswa laperèz, abandone estrateji a nèt. Yon envestisè ki chwazi DCA e ki rete fidèl a plan li, menm si sa bay yon rezilta ou atann ki pi ba selon estatistik, ka fini nan yon pi bon pozisyon pase yon moun ki chwazi envesti yon sèl kou men ki panike e vann pandan yon bès ki vini apre.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè resevwa yon gwo eritaj e li dwe deside ant envesti tout touswit oswa gaye l sou yon ane ak DCA. [ASSUMPTION] Istorikman, nan yon ane yo chwazi o aza, envesti sòm nan touswit ta bay pi bon rezilta pase DCA pi souvan pase non, paske mache yo te monte nan pifò peryòd nan istwa. Men envestisè sa a konnen, dapre eksperyans li, yon gwo envestisman toudenkou ki swiv pa yon bès nan mache a ta ka ba l anpil enkyetid e petèt fè l vann ak pèt. Chwazi DCA, menm ak yon rannman ou atann ki pi ba selon estatistik, ka pi bon desizyon pou li espesyalman, si sa vle di li gen plis chans rete fidèl a plan envestisman li pandan mache a ap monte desann.
+[EGZANP ILISTRATIF] Yon envestisè resevwa yon gwo eritaj e li dwe deside ant envesti tout touswit oswa gaye l sou yon ane ak DCA. [SIPOZISYON] Istorikman, nan yon ane yo chwazi o aza, envesti sòm nan touswit ta bay pi bon rezilta pase DCA pi souvan pase non, paske mache yo te monte nan pifò peryòd nan istwa. Men envestisè sa a konnen, dapre eksperyans li, yon gwo envestisman toudenkou ki swiv pa yon bès nan mache a ta ka ba l anpil enkyetid e petèt fè l vann ak pèt. Chwazi DCA, menm ak yon rannman ou atann ki pi ba selon estatistik, ka pi bon desizyon pou li espesyalman, si sa vle di li gen plis chans rete fidèl a plan envestisman li pandan mache a ap monte desann.
 
 ## Egzamen pratik
 

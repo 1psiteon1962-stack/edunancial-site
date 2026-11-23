@@ -30,7 +30,7 @@ Antes de comemorar uma vitória do marketing de crescimento: você confirmou que
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um time de marketing comemora um trimestre de sucesso, com crescimento rápido de clientes, impulsionado por uma campanha de aquisição agressiva e cara. [ASSUMPTION] Uma olhada mais atenta na economia unitária por trás desse crescimento específico revela que cada novo cliente, depois de considerados por completo o custo de aquisição e o valor esperado ao longo do tempo, é, na verdade, um prejuízo líquido para o negócio — o que significa que esse trimestre de crescimento "de sucesso", exatamente como a trilha BLUE alertou, acelerou o problema financeiro de fundo do negócio em vez de resolvê-lo, mesmo com todas as métricas de marketing na superfície parecendo positivas.
+[EXEMPLO ILUSTRATIVO] Um time de marketing comemora um trimestre de sucesso, com crescimento rápido de clientes, impulsionado por uma campanha de aquisição agressiva e cara. [SUPOSIÇÃO] Uma olhada mais atenta na economia unitária por trás desse crescimento específico revela que cada novo cliente, depois de considerados por completo o custo de aquisição e o valor esperado ao longo do tempo, é, na verdade, um prejuízo líquido para o negócio — o que significa que esse trimestre de crescimento "de sucesso", exatamente como a trilha BLUE alertou, acelerou o problema financeiro de fundo do negócio em vez de resolvê-lo, mesmo com todas as métricas de marketing na superfície parecendo positivas.
 
 ## Teste de prática
 

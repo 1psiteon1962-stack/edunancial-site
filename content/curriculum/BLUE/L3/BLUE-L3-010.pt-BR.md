@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-Nos Estados Unidos, a Small Business Administration (SBA) oferece programas de empréstimo em que o governo garante uma parte de um empréstimo feito por um credor privado participante, em vez de emprestar o dinheiro diretamente. (No Brasil, fundos garantidores públicos para pequenas empresas seguem uma lógica parecida.) [VERIFIED FACT] As condições específicas dos programas, os requisitos de elegibilidade e os percentuais de garantia são definidos pela SBA e mudam periodicamente — os detalhes atuais do programa devem ser verificados diretamente, e não presumidos.
+Nos Estados Unidos, a Small Business Administration (SBA) oferece programas de empréstimo em que o governo garante uma parte de um empréstimo feito por um credor privado participante, em vez de emprestar o dinheiro diretamente. (No Brasil, fundos garantidores públicos para pequenas empresas seguem uma lógica parecida.) [FATO VERIFICADO] As condições específicas dos programas, os requisitos de elegibilidade e os percentuais de garantia são definidos pela SBA e mudam periodicamente — os detalhes atuais do programa devem ser verificados diretamente, e não presumidos.
 
 Este é o "porquê" de essa garantia do governo importar, ligado à discussão da Lição 1 sobre por que os credores tradicionais costumam hesitar em financiar totalmente a compra de pequenas empresas: como o governo garante uma parte significativa do empréstimo se o tomador não pagar, os credores participantes assumem bem menos risco do que em um empréstimo tradicional sem nenhuma garantia — o que os deixa dispostos a oferecer financiamento, muitas vezes com condições melhores (como uma entrada menor ou prazos de pagamento mais longos), que talvez não ofereceriam de outra forma para a compra de uma pequena empresa.
 
@@ -30,7 +30,7 @@ Este é o "porquê" de essa garantia do governo importar, ligado à discussão d
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um comprador quer comprar uma pequena empresa por $500,000. Um banco que participa de um programa de empréstimo da SBA aceita emprestar a grande maioria desse valor, com o governo garantindo uma parte do empréstimo em caso de inadimplência — uma estrutura que dá ao banco confiança suficiente para oferecer um financiamento que ele provavelmente não ofereceria sem nenhuma garantia para esse tipo de compra. O saldo restante é dividido entre uma parte menor financiada pelo vendedor e a entrada em dinheiro do próprio comprador, que juntos financiam toda a compra.
+[EXEMPLO ILUSTRATIVO] Um comprador quer comprar uma pequena empresa por $500,000. Um banco que participa de um programa de empréstimo da SBA aceita emprestar a grande maioria desse valor, com o governo garantindo uma parte do empréstimo em caso de inadimplência — uma estrutura que dá ao banco confiança suficiente para oferecer um financiamento que ele provavelmente não ofereceria sem nenhuma garantia para esse tipo de compra. O saldo restante é dividido entre uma parte menor financiada pelo vendedor e a entrada em dinheiro do próprio comprador, que juntos financiam toda a compra.
 
 ## Teste de prática
 

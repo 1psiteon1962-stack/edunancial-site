@@ -30,7 +30,7 @@ Wat is, vóór je volgende belangrijke leiderschapsbeslissing – een aanname, e
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider gaat maandenlang een medewerker uit de weg die structureel ondermaats presteert, en brengt het uitstel als het geven van "meer tijd om te groeien" – een op mensen gerichte, ogenschijnlijk niet-financiële reden. [ASSUMPTION] In die maanden lijdt de totale output van het team eronder, raken andere teamleden gefrustreerd omdat ze zien dat de ondermaatse prestaties niet worden aangepakt, en lopen de uiteindelijke kosten van het vervangen van deze persoon (werving, inwerken, verloren productiviteit tijdens de overgang) steeds verder op naarmate de beslissing langer wordt uitgesteld – de "beslissing over mensen" was al die tijd een financiële beslissing, alleen een die de leider niet expliciet zo had benoemd.
+[ILLUSTRATIEF VOORBEELD] Een leider gaat maandenlang een medewerker uit de weg die structureel ondermaats presteert, en brengt het uitstel als het geven van "meer tijd om te groeien" – een op mensen gerichte, ogenschijnlijk niet-financiële reden. [AANNAME] In die maanden lijdt de totale output van het team eronder, raken andere teamleden gefrustreerd omdat ze zien dat de ondermaatse prestaties niet worden aangepakt, en lopen de uiteindelijke kosten van het vervangen van deze persoon (werving, inwerken, verloren productiviteit tijdens de overgang) steeds verder op naarmate de beslissing langer wordt uitgesteld – de "beslissing over mensen" was al die tijd een financiële beslissing, alleen een die de leider niet expliciet zo had benoemd.
 
 ## Oefenquiz
 

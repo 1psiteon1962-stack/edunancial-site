@@ -30,7 +30,7 @@ Hoe verhoudt de grondigheid van je huidige aannameproces zich tot de grondigheid
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming past een uitgebreide beoordeling, meerdere goedkeuringen en een zorgvuldige kosten-batenanalyse toe voordat ze een apparaat van een bepaald bedrag koopt, terwijl het aannameproces voor een functie met een verwachte looptijd van meerdere jaren en totale loonkosten die ver boven die aankoop liggen, een veel lichtere, minder gestructureerde beoordeling kent. [ASSUMPTION] Gezien de ongewoon grote hefboom en het opstapelende effect van aannemen, is deze scheefheid in grondigheid een echte onderinvestering in de beslissing die in werkelijkheid een groter totaal financieel belang en langere gevolgen heeft dan de aankoop van het apparaat, die veel zorgvuldiger werd bekeken.
+[ILLUSTRATIEF VOORBEELD] Een onderneming past een uitgebreide beoordeling, meerdere goedkeuringen en een zorgvuldige kosten-batenanalyse toe voordat ze een apparaat van een bepaald bedrag koopt, terwijl het aannameproces voor een functie met een verwachte looptijd van meerdere jaren en totale loonkosten die ver boven die aankoop liggen, een veel lichtere, minder gestructureerde beoordeling kent. [AANNAME] Gezien de ongewoon grote hefboom en het opstapelende effect van aannemen, is deze scheefheid in grondigheid een echte onderinvestering in de beslissing die in werkelijkheid een groter totaal financieel belang en langere gevolgen heeft dan de aankoop van het apparaat, die veel zorgvuldiger werd bekeken.
 
 ## Oefenquiz
 

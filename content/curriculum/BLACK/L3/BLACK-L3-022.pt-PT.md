@@ -30,7 +30,7 @@ Existe na sua organização algum comportamento que contradiz um valor declarado
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma organização tem um valor declarado claro sobre comunicação respeitosa, cobrado com coerência na maior parte da equipa. [ASSUMPTION] Um membro da equipa com ótimo desempenho viola esse valor declarado com frequência, mas a liderança tolera, com o raciocínio de que os resultados dessa pessoa são valiosos demais para arriscar uma conversa difícil ou uma consequência. Os outros membros da equipa observam essa exceção e concluem, com razão, que o padrão real em vigor não é o valor declarado — é "siga as regras, a menos que os seus resultados o isentem", uma lição muito mais prejudicial à confiança na organização do que o próprio comportamento original, retomando o princípio da Lição 3 de que o que é realmente tolerado molda a cultura com mais força do que os valores anunciados.
+[EXEMPLO ILUSTRATIVO] Uma organização tem um valor declarado claro sobre comunicação respeitosa, cobrado com coerência na maior parte da equipa. [SUPOSIÇÃO] Um membro da equipa com ótimo desempenho viola esse valor declarado com frequência, mas a liderança tolera, com o raciocínio de que os resultados dessa pessoa são valiosos demais para arriscar uma conversa difícil ou uma consequência. Os outros membros da equipa observam essa exceção e concluem, com razão, que o padrão real em vigor não é o valor declarado — é "siga as regras, a menos que os seus resultados o isentem", uma lição muito mais prejudicial à confiança na organização do que o próprio comportamento original, retomando o princípio da Lição 3 de que o que é realmente tolerado molda a cultura com mais força do que os valores anunciados.
 
 ## Teste de prática
 

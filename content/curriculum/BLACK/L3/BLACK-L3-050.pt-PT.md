@@ -30,7 +30,7 @@ Ao terminar esta trilha, e este nível do currículo: qual é uma coisa que faz 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder que absorveu toda esta trilha avalia a própria organização não perguntando "quanto eu realizei pessoalmente este ano?", mas "o que eu construí que continuaria funcionando bem se eu desse um passo atrás amanhã?" — sistemas documentados (Lição 7), um sucessor desenvolvido (Lição 8), membros da equipa acompanhados como mentorados que levam adiante um julgamento real (Lição 41), um conselho e uma equipa realmente dispostos a questionar as decisões (Lições 18 e 19) e uma cultura moldada por incentivos coerentes e honestos, e não só por valores anunciados (Lições 3 e 22). Esse líder reconhece que a resposta a essa pergunta, e não a própria produção individual dele, é a medida mais verdadeira daquilo que toda esta trilha — e este nível do currículo — vinha realmente construindo.
+[EXEMPLO ILUSTRATIVO] Um líder que absorveu toda esta trilha avalia a própria organização não perguntando "quanto eu realizei pessoalmente este ano?", mas "o que eu construí que continuaria funcionando bem se eu desse um passo atrás amanhã?" — sistemas documentados (Lição 7), um sucessor desenvolvido (Lição 8), membros da equipa acompanhados como mentorados que levam adiante um julgamento real (Lição 41), um conselho e uma equipa realmente dispostos a questionar as decisões (Lições 18 e 19) e uma cultura moldada por incentivos coerentes e honestos, e não só por valores anunciados (Lições 3 e 22). Esse líder reconhece que a resposta a essa pergunta, e não a própria produção individual dele, é a medida mais verdadeira daquilo que toda esta trilha — e este nível do currículo — vinha realmente construindo.
 
 ## Teste de prática
 

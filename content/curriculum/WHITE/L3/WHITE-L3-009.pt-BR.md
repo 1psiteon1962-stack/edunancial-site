@@ -28,11 +28,11 @@ A **margem** permite que um investidor pegue dinheiro emprestado com uma correto
 
 Este é o "porquê" de o mesmo efeito multiplicador valer aqui: o seu retorno percentual é calculado em relação ao dinheiro que você mesmo investiu, e não ao tamanho total da posição; então, se a posição se valorizar, esse ganho é medido sobre uma base menor, ampliando o seu retorno percentual. Se a posição perder valor, a mesma conta amplia a sua perda percentual exatamente da mesma forma, e você continua devendo o valor total emprestado, não importa o desempenho do investimento.
 
-[VERIFIED FACT] Os empréstimos com margem normalmente cobram juros, o que acrescenta um custo contínuo à posição, e as corretoras exigem que se mantenha um nível mínimo de patrimônio próprio na conta; se o valor da conta cair demais, isso pode disparar uma chamada de margem (margin call), tema da próxima lição.
+[FATO VERIFICADO] Os empréstimos com margem normalmente cobram juros, o que acrescenta um custo contínuo à posição, e as corretoras exigem que se mantenha um nível mínimo de patrimônio próprio na conta; se o valor da conta cair demais, isso pode disparar uma chamada de margem (margin call), tema da próxima lição.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um investidor tem $10,000 em dinheiro e usa margem para comprar $20,000 em ações (pegando emprestados os outros $10,000). Se a ação subir 10%, a posição ganha $2,000: um retorno de 20% sobre os $10,000 originais do investidor, e não de 10%. Se, em vez disso, a ação cair 10%, a posição perde $2,000: uma perda de 20% sobre os $10,000 originais, e o investidor continua devendo os $10,000 inteiros que pegou emprestado, seja qual for o novo valor, mais baixo, da ação.
+[EXEMPLO ILUSTRATIVO] Um investidor tem $10,000 em dinheiro e usa margem para comprar $20,000 em ações (pegando emprestados os outros $10,000). Se a ação subir 10%, a posição ganha $2,000: um retorno de 20% sobre os $10,000 originais do investidor, e não de 10%. Se, em vez disso, a ação cair 10%, a posição perde $2,000: uma perda de 20% sobre os $10,000 originais, e o investidor continua devendo os $10,000 inteiros que pegou emprestado, seja qual for o novo valor, mais baixo, da ação.
 
 ## Teste de prática
 

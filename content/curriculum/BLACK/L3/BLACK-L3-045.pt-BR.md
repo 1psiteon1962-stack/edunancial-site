@@ -30,7 +30,7 @@ O padrão real de exposição a riscos da sua organização reflete um julgament
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder com forte aversão pessoal ao risco rejeita de forma sistemática propostas que envolvem qualquer incerteza relevante, independentemente do mérito real delas ajustado ao risco. [ASSUMPTION] Com o tempo, os funcionários aprendem que propostas apresentadas como de baixo risco são aprovadas e que tudo o que parece arriscado é rejeitado, independentemente do retorno de fundo ajustado ao risco — o padrão real de exposição a riscos da organização passa a espelhar a postura pessoal desse líder, em vez de refletir o julgamento pensado, ajustado ao risco e avaliado caso a caso que a trilha GOLD deste currículo destacou do começo ao fim, o que faz a organização perder de forma sistemática oportunidades com perfis realmente favoráveis quando ajustados ao risco.
+[EXEMPLO ILUSTRATIVO] Um líder com forte aversão pessoal ao risco rejeita de forma sistemática propostas que envolvem qualquer incerteza relevante, independentemente do mérito real delas ajustado ao risco. [SUPOSIÇÃO] Com o tempo, os funcionários aprendem que propostas apresentadas como de baixo risco são aprovadas e que tudo o que parece arriscado é rejeitado, independentemente do retorno de fundo ajustado ao risco — o padrão real de exposição a riscos da organização passa a espelhar a postura pessoal desse líder, em vez de refletir o julgamento pensado, ajustado ao risco e avaliado caso a caso que a trilha GOLD deste currículo destacou do começo ao fim, o que faz a organização perder de forma sistemática oportunidades com perfis realmente favoráveis quando ajustados ao risco.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Was passiert nach deiner aktuellen Vertragsvorlage, wenn ein Kunde schlicht nich
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Vertriebsteam verwendet für ein bedeutendes Geschäft einen einfachen, formlos formulierten Kaufvertrag und konzentriert sich darauf, den Abschluss schnell zu erreichen, statt auf den konkreten Vertragswortlaut. [ASSUMPTION] Als der Kunde später nicht pünktlich zahlt, stellt das Unternehmen fest, dass sein Vertrag weder klare Folgen verspäteter Zahlung noch einen Eigentumsvorbehalt oder ein Verfahren zur Streitbeilegung festlegt – genau die Art von Unklarheit, vor der der LILA Lernpfad gewarnt hat, weil sie Streitigkeiten schwerer lösbar macht. Was ein unkomplizierter Fall für das Forderungsmanagement hätte sein sollen, wird so zu einer deutlich schwierigeren und kostspieligeren Situation.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Vertriebsteam verwendet für ein bedeutendes Geschäft einen einfachen, formlos formulierten Kaufvertrag und konzentriert sich darauf, den Abschluss schnell zu erreichen, statt auf den konkreten Vertragswortlaut. [ANNAHME] Als der Kunde später nicht pünktlich zahlt, stellt das Unternehmen fest, dass sein Vertrag weder klare Folgen verspäteter Zahlung noch einen Eigentumsvorbehalt oder ein Verfahren zur Streitbeilegung festlegt – genau die Art von Unklarheit, vor der der LILA Lernpfad gewarnt hat, weil sie Streitigkeiten schwerer lösbar macht. Was ein unkomplizierter Fall für das Forderungsmanagement hätte sein sollen, wird so zu einer deutlich schwierigeren und kostspieligeren Situation.
 
 ## Übungsquiz
 1. Warum braucht ein Kaufvertrag dieselbe Sorgfalt wie jeder andere Vertrag aus dem LILA Lernpfad?

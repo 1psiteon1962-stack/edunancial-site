@@ -30,7 +30,7 @@ Bevor du Ergebnisse der Marktforschung als Bestätigung behandelst, dass ein Pro
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen führt vor der Einführung eines neuen Produkts umfangreiche Marktforschung durch, und die Befragten äußern starkes Interesse und eine erklärte Kaufbereitschaft. [ASSUMPTION] Nach der tatsächlichen Einführung bleibt das echte Kaufverhalten deutlich hinter dem zurück, was die Forschung nahegelegt hatte – ein verbreitetes Muster, das die echte Lücke zwischen hypothetisch erklärten Absichten und echten Kaufentscheidungen mit echtem Geld widerspiegelt. Das zeigt, dass die Forschung wertvoll war, um Risiken zu verringern und die Einführung zu informieren, die zugrunde liegende Unsicherheit aber nie so beseitigt hat, wie es ein tatsächlicher Markttest im Sinne des MVP-Konzepts aus dem BLAUEN Lernpfad verlässlicher gezeigt hätte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen führt vor der Einführung eines neuen Produkts umfangreiche Marktforschung durch, und die Befragten äußern starkes Interesse und eine erklärte Kaufbereitschaft. [ANNAHME] Nach der tatsächlichen Einführung bleibt das echte Kaufverhalten deutlich hinter dem zurück, was die Forschung nahegelegt hatte – ein verbreitetes Muster, das die echte Lücke zwischen hypothetisch erklärten Absichten und echten Kaufentscheidungen mit echtem Geld widerspiegelt. Das zeigt, dass die Forschung wertvoll war, um Risiken zu verringern und die Einführung zu informieren, die zugrunde liegende Unsicherheit aber nie so beseitigt hat, wie es ein tatsächlicher Markttest im Sinne des MVP-Konzepts aus dem BLAUEN Lernpfad verlässlicher gezeigt hätte.
 
 ## Übungsquiz
 1. Warum verringert Marktforschung das Risiko vor einer großen Einführungsentscheidung wirklich?

@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Veel rechtsgebieden, waaronder de VS, behandelen cryptovaluta voor de belasting in het algemeen als bezit (property), en niet als geld in de traditionele zin. Dat sluit rechtstreeks aan op de bespreking van vermogenswinst in Les 23: [VERIFIED FACT] omdat cryptovaluta in het algemeen als bezit worden behandeld, kunnen transacties ermee – verkopen tegen traditioneel geld, maar ook de ene cryptovaluta ruilen voor een andere, of cryptovaluta gebruiken om goederen of diensten te kopen – een belastbare vermogenswinst of een verlies opleveren. Die wordt berekend op basis van het verschil tussen de waarde van de cryptovaluta op het moment van de transactie en de oorspronkelijke fiscale kostprijs.
+Veel rechtsgebieden, waaronder de VS, behandelen cryptovaluta voor de belasting in het algemeen als bezit (property), en niet als geld in de traditionele zin. Dat sluit rechtstreeks aan op de bespreking van vermogenswinst in Les 23: [GEVERIFIEERD FEIT] omdat cryptovaluta in het algemeen als bezit worden behandeld, kunnen transacties ermee – verkopen tegen traditioneel geld, maar ook de ene cryptovaluta ruilen voor een andere, of cryptovaluta gebruiken om goederen of diensten te kopen – een belastbare vermogenswinst of een verlies opleveren. Die wordt berekend op basis van het verschil tussen de waarde van de cryptovaluta op het moment van de transactie en de oorspronkelijke fiscale kostprijs.
 
 Hier is het "waarom" dit veel mensen juist verrast: een transactie waarbij je helemaal geen traditioneel geld ontvangt – bijvoorbeeld de ene cryptovaluta rechtstreeks ruilen voor een andere – kan onder deze behandeling als bezit toch een belastbare gebeurtenis zijn. De ruil wordt namelijk behandeld alsof de eerste cryptovaluta tegen de huidige waarde is verkocht (met mogelijk winst of verlies) en de opbrengst daarna is gebruikt om de tweede cryptovaluta te kopen, ook al is er bij de transactie zelf nooit traditioneel geld van eigenaar gewisseld.
 
@@ -30,7 +30,7 @@ Daarom is een nauwkeurige administratie van transacties in cryptovaluta (in aans
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Iemand ruilt de ene cryptovaluta rechtstreeks voor een andere, zonder op enig moment in de transactie een van beide om te zetten in traditioneel geld. [ASSUMPTION] Onder een fiscale behandeling als bezit wordt deze ruil behandeld alsof de eerste cryptovaluta tegen de huidige marktwaarde is verkocht, en elke winst of elk verlies ten opzichte van de oorspronkelijke fiscale kostprijs is een belastbare gebeurtenis voor dat jaar – ook al heeft de persoon uit de transactie nooit traditioneel geld ontvangen. Dat laat zien waarom "ik heb geen geld ontvangen" geen betrouwbare maatstaf is om te bepalen of een transactie in cryptovaluta belastbaar is.
+[ILLUSTRATIEF VOORBEELD] Iemand ruilt de ene cryptovaluta rechtstreeks voor een andere, zonder op enig moment in de transactie een van beide om te zetten in traditioneel geld. [AANNAME] Onder een fiscale behandeling als bezit wordt deze ruil behandeld alsof de eerste cryptovaluta tegen de huidige marktwaarde is verkocht, en elke winst of elk verlies ten opzichte van de oorspronkelijke fiscale kostprijs is een belastbare gebeurtenis voor dat jaar – ook al heeft de persoon uit de transactie nooit traditioneel geld ontvangen. Dat laat zien waarom "ik heb geen geld ontvangen" geen betrouwbare maatstaf is om te bepalen of een transactie in cryptovaluta belastbaar is.
 
 ## Oefenquiz
 

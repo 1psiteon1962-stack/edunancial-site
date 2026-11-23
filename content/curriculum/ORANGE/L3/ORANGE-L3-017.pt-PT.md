@@ -30,7 +30,7 @@ Se o seu maior cliente fosse embora amanhã, o que aconteceria com a sua receita
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um time de vendas fecha uma única grande conta, que rapidamente passa a representar 50% da receita total do negócio, e o time comemora isso como uma grande vitória. [ASSUMPTION] Meses depois, esse cliente passa por dificuldades financeiras próprias e reduz bastante os pedidos — a receita do negócio é afetada de imediato e de forma grave, uma consequência concreta do risco de concentração que vinha se acumulando o tempo todo, bem antes de qualquer venda ou avaliação futura tornar esse risco visível no papel, como a trilha BLUE descreve.
+[EXEMPLO ILUSTRATIVO] Um time de vendas fecha uma única grande conta, que rapidamente passa a representar 50% da receita total do negócio, e o time comemora isso como uma grande vitória. [SUPOSIÇÃO] Meses depois, esse cliente passa por dificuldades financeiras próprias e reduz bastante os pedidos — a receita do negócio é afetada de imediato e de forma grave, uma consequência concreta do risco de concentração que vinha se acumulando o tempo todo, bem antes de qualquer venda ou avaliação futura tornar esse risco visível no papel, como a trilha BLUE descreve.
 
 ## Teste de prática
 

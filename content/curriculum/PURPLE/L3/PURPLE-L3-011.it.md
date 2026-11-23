@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Costituire una LLC (Limited Liability Company, società a responsabilità limitata di tipo statunitense) serve in genere a creare una separazione giuridica tra l'entità aziendale e i suoi titolari, proteggendo il patrimonio personale dei titolari dalla maggior parte delle responsabilità dell'impresa. Ecco il "perché" questa protezione non è garantita automaticamente dal solo atto di costituzione: [VERIFIED FACT] molti sistemi giuridici si aspettano in genere che una LLC (e le entità simili) sia mantenuta e gestita come entità davvero separata dai suoi titolari, tramite certe formalità continue, perché i tribunali continuino a rispettare quella separazione giuridica.
+Costituire una LLC (Limited Liability Company, società a responsabilità limitata di tipo statunitense) serve in genere a creare una separazione giuridica tra l'entità aziendale e i suoi titolari, proteggendo il patrimonio personale dei titolari dalla maggior parte delle responsabilità dell'impresa. Ecco il "perché" questa protezione non è garantita automaticamente dal solo atto di costituzione: [FATTO VERIFICATO] molti sistemi giuridici si aspettano in genere che una LLC (e le entità simili) sia mantenuta e gestita come entità davvero separata dai suoi titolari, tramite certe formalità continue, perché i tribunali continuino a rispettare quella separazione giuridica.
 
 Queste formalità comprendono in genere tenere davvero separate le finanze dell'impresa e quelle personali (un tema approfondito nella Lezione 13), tenere una documentazione aziendale adeguata, seguire i documenti costitutivi dell'entità e le eventuali procedure interne richieste, e in generale trattare l'impresa come un'entità giuridica distinta nei suoi rapporti, invece che come un semplice prolungamento degli affari personali del titolare.
 
@@ -30,7 +30,7 @@ Per questo il semplice deposito dei documenti per costituire una LLC, senza poi 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una titolare d'impresa costituisce una LLC, aspettandosi che questo protegga automaticamente il suo patrimonio personale da qualsiasi responsabilità futura dell'impresa. [ASSUMPTION] Se in seguito non tiene una documentazione aziendale adeguata, non segue le procedure interne richieste dall'entità e in generale tratta le finanze e gli affari dell'impresa come indistinguibili dai propri affari personali, un tribunale che valuta una futura richiesta di risarcimento potrebbe ritenere che la LLC non fosse davvero mantenuta e gestita come entità separata, compromettendo forse proprio la protezione dalla responsabilità che lei credeva garantita in modo automatico e permanente dalla costituzione iniziale.
+[ESEMPIO ILLUSTRATIVO] Una titolare d'impresa costituisce una LLC, aspettandosi che questo protegga automaticamente il suo patrimonio personale da qualsiasi responsabilità futura dell'impresa. [IPOTESI] Se in seguito non tiene una documentazione aziendale adeguata, non segue le procedure interne richieste dall'entità e in generale tratta le finanze e gli affari dell'impresa come indistinguibili dai propri affari personali, un tribunale che valuta una futura richiesta di risarcimento potrebbe ritenere che la LLC non fosse davvero mantenuta e gestita come entità separata, compromettendo forse proprio la protezione dalla responsabilità che lei credeva garantita in modo automatico e permanente dalla costituzione iniziale.
 
 ## Quiz di esercitazione
 

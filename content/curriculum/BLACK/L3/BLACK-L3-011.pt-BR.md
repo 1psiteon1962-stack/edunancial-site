@@ -30,7 +30,7 @@ Pense em um problema recente que ficou mais caro ou mais visível do que precisa
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Em uma organização sem segurança psicológica de verdade, um membro da equipe percebe cedo um problema importante no cronograma de um projeto, mas não levanta a preocupação por medo de parecer negativo ou pouco colaborativo. [ASSUMPTION] O problema, sem solução, se agrava e acaba virando uma falha muito mais visível e cara do que teria sido se tivesse sido levantado e tratado cedo — uma consequência financeira direta da falta de segurança psicológica, o que mostra por que isso não é só uma preferência cultural, mas um fator com impacto real e mensurável no desempenho da organização.
+[EXEMPLO ILUSTRATIVO] Em uma organização sem segurança psicológica de verdade, um membro da equipe percebe cedo um problema importante no cronograma de um projeto, mas não levanta a preocupação por medo de parecer negativo ou pouco colaborativo. [SUPOSIÇÃO] O problema, sem solução, se agrava e acaba virando uma falha muito mais visível e cara do que teria sido se tivesse sido levantado e tratado cedo — uma consequência financeira direta da falta de segurança psicológica, o que mostra por que isso não é só uma preferência cultural, mas um fator com impacto real e mensurável no desempenho da organização.
 
 ## Teste de prática
 

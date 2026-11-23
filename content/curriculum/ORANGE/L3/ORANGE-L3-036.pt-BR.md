@@ -30,7 +30,7 @@ Antes de comprometer um orçamento de marketing significativo com um patrocínio
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio compromete um orçamento de marketing significativo para patrocinar um evento ou uma organização muito conhecidos, avaliando o patrocínio principalmente pelo alcance de público e pela afinidade com a marca que ele promete. [ASSUMPTION] Sem uma diligência prévia adicional sobre a estabilidade financeira da organização patrocinada, essa organização depois enfrenta graves problemas financeiros ou de reputação próprios, colocando em risco o valor do patrocínio e criando risco de reputação por associação (retomando a Lição 4) — um risco que uma diligência prévia mais completa, de nível de investimento, parecida com a avaliação de gestores de fundos da trilha GOLD, talvez tivesse identificado antes de o compromisso ser assumido.
+[EXEMPLO ILUSTRATIVO] Um negócio compromete um orçamento de marketing significativo para patrocinar um evento ou uma organização muito conhecidos, avaliando o patrocínio principalmente pelo alcance de público e pela afinidade com a marca que ele promete. [SUPOSIÇÃO] Sem uma diligência prévia adicional sobre a estabilidade financeira da organização patrocinada, essa organização depois enfrenta graves problemas financeiros ou de reputação próprios, colocando em risco o valor do patrocínio e criando risco de reputação por associação (retomando a Lição 4) — um risco que uma diligência prévia mais completa, de nível de investimento, parecida com a avaliação de gestores de fundos da trilha GOLD, talvez tivesse identificado antes de o compromisso ser assumido.
 
 ## Teste de prática
 

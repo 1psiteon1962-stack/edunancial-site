@@ -30,7 +30,7 @@ Prima della tua prossima decisione di leadership importante (un'assunzione, una 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader evita per mesi di affrontare un dipendente che rende costantemente sotto le attese, presentando il ritardo come un modo per dargli "più tempo per crescere": una motivazione centrata sulle persone e apparentemente non finanziaria. [ASSUMPTION] In quei mesi la produttività complessiva del team ne risente, gli altri membri del team si frustrano vedendo che il rendimento insufficiente non viene affrontato, e il costo finale della sostituzione di questa persona (selezione, inserimento, produttività persa durante la transizione) cresce quanto più a lungo la decisione viene rimandata. La "decisione sulle persone" è sempre stata una decisione finanziaria, solo che il leader non l'aveva nominata esplicitamente come tale.
+[ESEMPIO ILLUSTRATIVO] Un leader evita per mesi di affrontare un dipendente che rende costantemente sotto le attese, presentando il ritardo come un modo per dargli "più tempo per crescere": una motivazione centrata sulle persone e apparentemente non finanziaria. [IPOTESI] In quei mesi la produttività complessiva del team ne risente, gli altri membri del team si frustrano vedendo che il rendimento insufficiente non viene affrontato, e il costo finale della sostituzione di questa persona (selezione, inserimento, produttività persa durante la transizione) cresce quanto più a lungo la decisione viene rimandata. La "decisione sulle persone" è sempre stata una decisione finanziaria, solo che il leader non l'aveva nominata esplicitamente come tale.
 
 ## Quiz di esercitazione
 

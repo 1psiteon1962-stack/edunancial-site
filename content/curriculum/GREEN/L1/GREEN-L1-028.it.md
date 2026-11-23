@@ -34,11 +34,11 @@ Questo comporta responsabilità: sapere se e dove registrarsi, applicare l'aliqu
 
 Il punto più importante: l'imposta riscossa non è denaro dell'attività. È solo di passaggio. Un errore comune è spendere questo denaro nella gestione quotidiana e poi non avere come versarlo. Una buona pratica è separare l'importo dell'imposta su un conto a parte appena avviene la vendita.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Marco ha venduto $20.000 nel mese, più $1.600 di imposta sulle vendite. Quanto denaro è davvero suo?
 

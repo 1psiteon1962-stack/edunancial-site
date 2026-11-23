@@ -30,7 +30,7 @@ Gibt es in deinem Team gerade eine unbehandelte Spannung oder Meinungsverschiede
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft bemerkt wachsende Spannungen zwischen zwei Teammitgliedern, spricht sie aber nicht direkt an und sagt sich, sie gebe der Lage Raum, sich auf natürliche Weise zu lösen. [ASSUMPTION] Monate später hat sich die Spannung zu einem offenen Konflikt verhärtet, der die Dynamik und Produktivität des ganzen Teams beeinträchtigt – ein Problem, das viel leichter zu lösen gewesen wäre, als es zum ersten Mal auftrat. Das zeigt, dass die „Geduld“ der Führungskraft genauso gewirkt hat wie das sich verstärkende Aufschiebemuster, vor dem Lektion 5 gewarnt hat, nur angewendet auf einen zwischenmenschlichen Konflikt statt auf eine Trennungsentscheidung.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft bemerkt wachsende Spannungen zwischen zwei Teammitgliedern, spricht sie aber nicht direkt an und sagt sich, sie gebe der Lage Raum, sich auf natürliche Weise zu lösen. [ANNAHME] Monate später hat sich die Spannung zu einem offenen Konflikt verhärtet, der die Dynamik und Produktivität des ganzen Teams beeinträchtigt – ein Problem, das viel leichter zu lösen gewesen wäre, als es zum ersten Mal auftrat. Das zeigt, dass die „Geduld“ der Führungskraft genauso gewirkt hat wie das sich verstärkende Aufschiebemuster, vor dem Lektion 5 gewarnt hat, nur angewendet auf einen zwischenmenschlichen Konflikt statt auf eine Trennungsentscheidung.
 
 ## Übungsquiz
 1. Warum führt die Vermeidung direkter Konflikte durch eine Führungskraft meist zu schlechteren Ergebnissen, als Spannungen früh anzusprechen?

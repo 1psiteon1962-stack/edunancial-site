@@ -22,7 +22,7 @@ Am Ende dieser Lektion kannst du:
 
 ## Hauptinhalt
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Stell dir vor, eine Regierung unter erheblichem finanziellem Druck beschließt ein Gesetz, das die Einkommensteuersätze in den meisten Tarifbereichen für künftige Jahre spürbar anhebt. Das ist ein hypothetisches Belastungstest-Szenario und keine Vorhersage über eine bestimmte reale Politik oder ein bestimmtes Land.
+[HYPOTHETISCHES SZENARIO — ANNAHME, KEINE GEPRÜFTE TATSACHE] Stell dir vor, eine Regierung unter erheblichem finanziellem Druck beschließt ein Gesetz, das die Einkommensteuersätze in den meisten Tarifbereichen für künftige Jahre spürbar anhebt. Das ist ein hypothetisches Belastungstest-Szenario und keine Vorhersage über eine bestimmte reale Politik oder ein bestimmtes Land.
 
 In diesem hypothetischen Fall verschiebt sich die Abwägung aus Lektion 12 spürbar: Wer heute bei niedrigeren Sätzen den Steuervorteil nachgelagerter Vorsorge genutzt hat und plant, später bei der Auszahlung zu versteuern, würde diese künftigen Auszahlungen nun mit den neuen, höheren Sätzen versteuern – ein ungünstigeres Ergebnis als bei der Einzahlung erwartet. Wer stattdessen aus bereits versteuertem Einkommen gespart hat – in den USA etwa über ein Roth-Konto, dessen begünstigte Auszahlungen steuerfrei bleiben –, stünde im Rückblick vergleichsweise besser da, soweit die künftigen Auszahlungen nicht erneut als Einkommen besteuert werden.
 

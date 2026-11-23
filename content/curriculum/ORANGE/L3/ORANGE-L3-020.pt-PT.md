@@ -30,7 +30,7 @@ Que incentivo o seu time de vendas tem hoje para manter os dados do CRM precisos
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um time de vendas mantém, de forma constante, negociações marcadas no CRM como "provável fechamento em breve" muito depois de elas terem realmente esfriado, já que não há nenhuma consequência específica para o rótulo otimista e há alguma vantagem em parecer produtivo. [ASSUMPTION] O time financeiro, usando esses dados do CRM para montar a previsão ponderada por probabilidade discutida na Lição 15, produz uma projeção de receita otimista demais de forma sistemática — não porque a conta da previsão esteja errada, mas porque os dados que a alimentavam não eram confiáveis, o que mostra por que a qualidade dos dados do CRM é uma questão de planeamento financeiro, e não só de gestão de vendas.
+[EXEMPLO ILUSTRATIVO] Um time de vendas mantém, de forma constante, negociações marcadas no CRM como "provável fechamento em breve" muito depois de elas terem realmente esfriado, já que não há nenhuma consequência específica para o rótulo otimista e há alguma vantagem em parecer produtivo. [SUPOSIÇÃO] O time financeiro, usando esses dados do CRM para montar a previsão ponderada por probabilidade discutida na Lição 15, produz uma projeção de receita otimista demais de forma sistemática — não porque a conta da previsão esteja errada, mas porque os dados que a alimentavam não eram confiáveis, o que mostra por que a qualidade dos dados do CRM é uma questão de planeamento financeiro, e não só de gestão de vendas.
 
 ## Teste de prática
 

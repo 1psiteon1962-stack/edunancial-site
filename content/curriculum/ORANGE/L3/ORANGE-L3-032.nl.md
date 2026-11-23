@@ -30,7 +30,7 @@ Als je een nieuw marktsegment zou betreden met een verkoopcyclus die twee keer z
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming met een gebruikelijk korte verkoopcyclus van een maand breidt uit naar een nieuw marktsegment waar het meestal zes maanden duurt voordat deals worden gesloten. [ASSUMPTION] De onderneming begroot het nieuwe segment door haar bestaande verkoopuitgaven simpelweg naar verhouding op te schalen, zonder rekening te houden met het veel langere tijdsverschil tussen die uitgaven en de resulterende omzet. Zo ontstaat er een tekort aan werkkapitaal in de lange periode voordat de verkopen in het nieuwe segment werkelijk omzet worden – een financieringsgevolg dat rechtstreeks samenhangt met de lengte van de verkoopcyclus en dat een plan dat alleen naar verhouding van het budget was opgesteld over het hoofd zag.
+[ILLUSTRATIEF VOORBEELD] Een onderneming met een gebruikelijk korte verkoopcyclus van een maand breidt uit naar een nieuw marktsegment waar het meestal zes maanden duurt voordat deals worden gesloten. [AANNAME] De onderneming begroot het nieuwe segment door haar bestaande verkoopuitgaven simpelweg naar verhouding op te schalen, zonder rekening te houden met het veel langere tijdsverschil tussen die uitgaven en de resulterende omzet. Zo ontstaat er een tekort aan werkkapitaal in de lange periode voordat de verkopen in het nieuwe segment werkelijk omzet worden – een financieringsgevolg dat rechtstreeks samenhangt met de lengte van de verkoopcyclus en dat een plan dat alleen naar verhouding van het budget was opgesteld over het hoofd zag.
 
 ## Oefenquiz
 

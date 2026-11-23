@@ -32,7 +32,7 @@ Voici « pourquoi » ramener chaque notion à cette grille mène à un jugement 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une propriétaire d'entreprise qui évalue plusieurs situations très différentes — rédiger un nouveau contrat, respecter les formalités de sa LLC et mettre à jour son plan successoral personnel — applique la même question de fond à chacune : ai-je clairement défini qui a exactement quels droits et quelles obligations précis ici, d'une façon qui laisse le moins de place possible à l'ambiguïté ou à un litige plus tard? [ASSUMPTION] Plutôt que de traiter la rédaction de contrats, le maintien de son entité et la planification successorale comme des tâches juridiques entièrement distinctes et sans lien, elle reconnaît qu'elles sont toutes des variantes du même principe de clarté de fond, ce qui lui permet d'aborder des domaines juridiques très différents avec une seule norme cohérente.
+[EXEMPLE ILLUSTRATIF] Une propriétaire d'entreprise qui évalue plusieurs situations très différentes — rédiger un nouveau contrat, respecter les formalités de sa LLC et mettre à jour son plan successoral personnel — applique la même question de fond à chacune : ai-je clairement défini qui a exactement quels droits et quelles obligations précis ici, d'une façon qui laisse le moins de place possible à l'ambiguïté ou à un litige plus tard? [HYPOTHÈSE] Plutôt que de traiter la rédaction de contrats, le maintien de son entité et la planification successorale comme des tâches juridiques entièrement distinctes et sans lien, elle reconnaît qu'elles sont toutes des variantes du même principe de clarté de fond, ce qui lui permet d'aborder des domaines juridiques très différents avec une seule norme cohérente.
 
 ## Quiz de pratique
 

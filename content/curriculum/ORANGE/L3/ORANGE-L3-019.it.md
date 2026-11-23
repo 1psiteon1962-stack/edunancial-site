@@ -30,7 +30,7 @@ Se il tuo attuale sistema di provvigioni premia X, quale comportamento sta davve
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa paga provvigioni solo sulle nuove vendite chiuse, senza alcuna considerazione per la fidelizzazione dei clienti. [ASSUMPTION] I venditori, rispondendo in modo razionale a questo sistema, puntano a chiudere più affari possibile, a volte con clienti poco adatti e destinati ad abbandonare presto. La provvigione si guadagna comunque, quindi il sistema ha incoraggiato senza volerlo proprio il tipo di crescita a bassa fidelizzazione che mina la salute dell'impresa legata all'LTV, discussa nella Lezione 6, anche se nessun singolo venditore ha fatto nulla contro la lettera del proprio piano di compenso.
+[ESEMPIO ILLUSTRATIVO] Un'impresa paga provvigioni solo sulle nuove vendite chiuse, senza alcuna considerazione per la fidelizzazione dei clienti. [IPOTESI] I venditori, rispondendo in modo razionale a questo sistema, puntano a chiudere più affari possibile, a volte con clienti poco adatti e destinati ad abbandonare presto. La provvigione si guadagna comunque, quindi il sistema ha incoraggiato senza volerlo proprio il tipo di crescita a bassa fidelizzazione che mina la salute dell'impresa legata all'LTV, discussa nella Lezione 6, anche se nessun singolo venditore ha fatto nulla contro la lettera del proprio piano di compenso.
 
 ## Quiz di esercitazione
 

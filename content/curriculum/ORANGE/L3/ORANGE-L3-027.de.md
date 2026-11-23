@@ -32,7 +32,7 @@ Bevor du eine aggressive Marketingoffensive in einer neuen Region startest: Hat 
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein deutscher Onlinehändler startet eine erfolgreiche, gezielte Marketingkampagne für Verbraucher in einem anderen EU-Land und erzielt dort innerhalb weniger Monate ein starkes Umsatzwachstum. [ASSUMPTION] Genau dieses Umsatzwachstum, direkt durch die Marketingkampagne getrieben, überschreitet die im GRÜNEN Lernpfad besprochene Schwelle für Fernverkäufe – doch weil Marketing und Steuer-Compliance bei dieser Expansion nicht zusammengearbeitet haben, bemerkt das Unternehmen erst lange nach Entstehen der Pflicht, dass es die Umsatzsteuer des Bestimmungslandes hätte berechnen und abführen müssen. So entsteht ein rückwirkendes Compliance-Problem, das eine einfache Prüfung vor der Expansion vermieden hätte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein deutscher Onlinehändler startet eine erfolgreiche, gezielte Marketingkampagne für Verbraucher in einem anderen EU-Land und erzielt dort innerhalb weniger Monate ein starkes Umsatzwachstum. [ANNAHME] Genau dieses Umsatzwachstum, direkt durch die Marketingkampagne getrieben, überschreitet die im GRÜNEN Lernpfad besprochene Schwelle für Fernverkäufe – doch weil Marketing und Steuer-Compliance bei dieser Expansion nicht zusammengearbeitet haben, bemerkt das Unternehmen erst lange nach Entstehen der Pflicht, dass es die Umsatzsteuer des Bestimmungslandes hätte berechnen und abführen müssen. So entsteht ein rückwirkendes Compliance-Problem, das eine einfache Prüfung vor der Expansion vermieden hätte.
 
 ## Übungsquiz
 1. Was ist eine umsatzsteuerliche Lieferschwelle beziehungsweise ein „Economic Nexus“, in Verbindung mit dem GRÜNEN Lernpfad?

@@ -30,7 +30,7 @@ Welke leiderschapsgewoonten hebben je goed geholpen toen je team kleiner was, ma
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die een klein team opbouwde door elke beslissing zelf te bekijken en nauw betrokken te blijven bij elk project, houdt diezelfde aanpak vol terwijl de organisatie flink groter wordt. [ASSUMPTION] Wat eerst kwaliteit en samenhang garandeerde, veroorzaakt nu een knelpunt – beslissingen stapelen zich op in afwachting van de persoonlijke aandacht van deze leider, teamleden voelen zich niet bevoegd om zonder uitdrukkelijke goedkeuring te handelen, en het tempo van de organisatie zakt naar wat één persoon zelf kan bekijken, in plaats van wat het inmiddels grotere team werkelijk zou kunnen bereiken als het vertrouwen en ruimte kreeg, met passende systemen.
+[ILLUSTRATIEF VOORBEELD] Een leider die een klein team opbouwde door elke beslissing zelf te bekijken en nauw betrokken te blijven bij elk project, houdt diezelfde aanpak vol terwijl de organisatie flink groter wordt. [AANNAME] Wat eerst kwaliteit en samenhang garandeerde, veroorzaakt nu een knelpunt – beslissingen stapelen zich op in afwachting van de persoonlijke aandacht van deze leider, teamleden voelen zich niet bevoegd om zonder uitdrukkelijke goedkeuring te handelen, en het tempo van de organisatie zakt naar wat één persoon zelf kan bekijken, in plaats van wat het inmiddels grotere team werkelijk zou kunnen bereiken als het vertrouwen en ruimte kreeg, met passende systemen.
 
 ## Oefenquiz
 

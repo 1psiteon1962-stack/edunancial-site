@@ -28,11 +28,11 @@ Una **opción** es un contrato que le da al comprador el derecho, pero no la obl
 
 Este es el "por qué" de que esto sea diferente a simplemente tener la acción: como solo estás obligado a actuar si te conviene, la pérdida máxima del comprador de la opción se limita a lo que pagó por el contrato, lo que se llama la **prima**, mientras que la ganancia potencial puede ser considerable si el activo subyacente se mueve a su favor. Esta asimetría (pérdida limitada, ganancia potencial mayor) es exactamente lo que el comprador está pagando.
 
-[VERIFIED FACT] El vendedor (o "emisor") de una opción está del otro lado de esta transacción, y asume la obligación de cumplir el contrato si el comprador decide ejercer su derecho; por eso vender opciones tiene un perfil de riesgo fundamentalmente distinto, que se cubre en una lección posterior. La prima no es arbitraria: refleja el precio actual del activo subyacente, el precio de ejercicio, el tiempo que falta para el vencimiento y la volatilidad esperada del activo.
+[DATO VERIFICADO] El vendedor (o "emisor") de una opción está del otro lado de esta transacción, y asume la obligación de cumplir el contrato si el comprador decide ejercer su derecho; por eso vender opciones tiene un perfil de riesgo fundamentalmente distinto, que se cubre en una lección posterior. La prima no es arbitraria: refleja el precio actual del activo subyacente, el precio de ejercicio, el tiempo que falta para el vencimiento y la volatilidad esperada del activo.
 
 ## Ejemplo práctico
 
-[ILLUSTRATIVE EXAMPLE] Una inversionista compra una opción de compra (call) sobre una acción que actualmente se cotiza a $50, con un precio de ejercicio de $55, y paga una prima de $2 por acción. Si la acción sube a $65 antes del vencimiento, ella puede ejercer su derecho a comprar a $55, bastante por debajo del precio del mercado, y obtener una ganancia significativa, menos la prima de $2 que pagó. Si la acción se queda por debajo de $55 o baja, simplemente deja que la opción venza, y su pérdida total se limita a la prima de $2 que pagó; nunca estuvo obligada a comprar a $55 si no tenía sentido hacerlo.
+[EJEMPLO ILUSTRATIVO] Una inversionista compra una opción de compra (call) sobre una acción que actualmente se cotiza a $50, con un precio de ejercicio de $55, y paga una prima de $2 por acción. Si la acción sube a $65 antes del vencimiento, ella puede ejercer su derecho a comprar a $55, bastante por debajo del precio del mercado, y obtener una ganancia significativa, menos la prima de $2 que pagó. Si la acción se queda por debajo de $55 o baja, simplemente deja que la opción venza, y su pérdida total se limita a la prima de $2 que pagó; nunca estuvo obligada a comprar a $55 si no tenía sentido hacerlo.
 
 ## Prueba de práctica
 

@@ -34,11 +34,11 @@ Quando l'imposta colpisce prodotti considerati dannosi per la salute, come alcol
 
 Queste imposte hanno di solito due obiettivi insieme: raccogliere denaro e cambiare i comportamenti. Spesso l'imposta è già inclusa nel prezzo, e il consumatore non si accorge nemmeno di quanto sta pagando. La scelta dei prodotti da tassare varia per Paese.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Perché uno Stato metterebbe un'imposta alta sulle sigarette?
 

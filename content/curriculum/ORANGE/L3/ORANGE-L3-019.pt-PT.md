@@ -30,7 +30,7 @@ Se a sua estrutura de comissões atual recompensa X, que comportamento ela está
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio paga comissão só sobre novas vendas fechadas, sem nenhuma consideração pela retenção de clientes. [ASSUMPTION] Os vendedores, respondendo de forma racional a essa estrutura, priorizam fechar o maior número possível de negócios, às vezes com clientes pouco adequados e com chance de sair rápido — a comissão é ganha de qualquer forma, então a estrutura acabou incentivando, sem querer, exatamente o tipo de crescimento com baixa retenção que mina a saúde do negócio dependente do LTV, discutida na Lição 6, mesmo que nenhum vendedor tenha feito nada contra a letra do próprio plano de remuneração.
+[EXEMPLO ILUSTRATIVO] Um negócio paga comissão só sobre novas vendas fechadas, sem nenhuma consideração pela retenção de clientes. [SUPOSIÇÃO] Os vendedores, respondendo de forma racional a essa estrutura, priorizam fechar o maior número possível de negócios, às vezes com clientes pouco adequados e com chance de sair rápido — a comissão é ganha de qualquer forma, então a estrutura acabou incentivando, sem querer, exatamente o tipo de crescimento com baixa retenção que mina a saúde do negócio dependente do LTV, discutida na Lição 6, mesmo que nenhum vendedor tenha feito nada contra a letra do próprio plano de remuneração.
 
 ## Teste de prática
 

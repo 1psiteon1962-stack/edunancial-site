@@ -30,13 +30,13 @@ Leson 37 te esplike envestisè yo souvan vle reenvesti vit apre yo fin rekòlte 
 
 Men "poukisa" règ sa a egziste: san li, yon envestisè ta ka vann yon envestisman sèlman pou l reyalize yon pèt taks, epi rachte egzakteman menm envestisman an (oswa youn ki prèske idantik) touswit, sa ki vle di li kenbe egzakteman menm pozisyon an pandan l ap toujou reklame yon avantaj taks — sa anpil otorite taks konsidere kòm yon abi konsèp reyalizasyon pèt la olye yon vrè chanjman nan pozisyon envestisman an.
 
-[VERIFIED FACT] Mekanik espesifik yon règ tip wash-sale — tankou egzak peryòd tan kote rachte menm tit la oswa yon tit ki prèske idantik anile pèt la, ak kijan yo defini "prèske idantik" — varye dapre peyi ak rejyon e se lwa taks espesifik ki fikse yo, sa ki fè sa a se yon domèn kote konsèy aktyèl, ki espesifik pou peyi w, enpòtan, olye sipozisyon jeneral.
+[FÈ VERIFYE] Mekanik espesifik yon règ tip wash-sale — tankou egzak peryòd tan kote rachte menm tit la oswa yon tit ki prèske idantik anile pèt la, ak kijan yo defini "prèske idantik" — varye dapre peyi ak rejyon e se lwa taks espesifik ki fikse yo, sa ki fè sa a se yon domèn kote konsèy aktyèl, ki espesifik pou peyi w, enpòtan, olye sipozisyon jeneral.
 
 Se pou sa, rekòlt pèt pou taks, jan Leson 37 te prezante l, nòmalman mande pou reenvesti nan yon envestisman ki vrèman diferan (byenke li sanble nan estrateji oswa ekspozisyon), olye egzakteman menm lan, pou w respekte kalite règ sa a pandan w ap toujou kenbe yon pozisyon konparab nan mache a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè vann yon fon ak pèt pou l rekòlte avantaj taks la, epi li rachte egzakteman menm fon an touswit jou apre a, avèk entansyon pou l reklame pèt la sou deklarasyon taks li. [ASSUMPTION] Si yon règ tip wash-sale nan peyi l anile pèt sou rachte menm tit la oswa tit ki prèske idantik nan yon sèten peryòd, tranzaksyon sa a ta ka pa bay avantaj taks li te vle a vrèman — yo ta ka anile pèt la anba règ sa a, malgre entansyon l te genyen pou l rekòlte l. Si li te achte yon fon ki vrèman diferan, men ki gen yon pozisyon ki sanble, olye de sa, sa nòmalman ta evite pwoblèm espesifik sa a, dapre règ ki aplike yo.
+[EGZANP ILISTRATIF] Yon envestisè vann yon fon ak pèt pou l rekòlte avantaj taks la, epi li rachte egzakteman menm fon an touswit jou apre a, avèk entansyon pou l reklame pèt la sou deklarasyon taks li. [SIPOZISYON] Si yon règ tip wash-sale nan peyi l anile pèt sou rachte menm tit la oswa tit ki prèske idantik nan yon sèten peryòd, tranzaksyon sa a ta ka pa bay avantaj taks li te vle a vrèman — yo ta ka anile pèt la anba règ sa a, malgre entansyon l te genyen pou l rekòlte l. Si li te achte yon fon ki vrèman diferan, men ki gen yon pozisyon ki sanble, olye de sa, sa nòmalman ta evite pwoblèm espesifik sa a, dapre règ ki aplike yo.
 
 ## Egzamen pratik
 

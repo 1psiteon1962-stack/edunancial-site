@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Imagine que uma mudança repentina no comportamento dos clientes — talvez causada por uma desaceleração económica mais ampla, por uma mudança nas prioridades dos clientes ou por um novo concorrente disruptivo — faz as taxas de conversão caírem bruscamente e os clientes atuais ficarem bem mais sensíveis a preço, tudo em pouco tempo. Este é um cenário hipotético de teste, e não uma previsão sobre um acontecimento ou um mercado reais.
+[CENÁRIO HIPOTÉTICO — SUPOSIÇÃO, NÃO FACTO VERIFICADO] Imagine que uma mudança repentina no comportamento dos clientes — talvez causada por uma desaceleração económica mais ampla, por uma mudança nas prioridades dos clientes ou por um novo concorrente disruptivo — faz as taxas de conversão caírem bruscamente e os clientes atuais ficarem bem mais sensíveis a preço, tudo em pouco tempo. Este é um cenário hipotético de teste, e não uma previsão sobre um acontecimento ou um mercado reais.
 
 Antes de ler o exemplo prático, pense nisso sozinho: o que aconteceria com a sua relação entre CAC e LTV se as taxas de conversão caíssem? O que aconteceria com a sua previsão de vendas, construída sobre suposições históricas de conversão (Lição 3, Lição 15)? Se os clientes ficarem mais sensíveis a preço, o que isso faz com a matemática da margem da Lição 9 caso fique tentado a responder com descontos? E o que isso faria com a sua taxa de cancelamento (Lição 31), já que os clientes atuais também são afetados, e não só os novos potenciais clientes?
 

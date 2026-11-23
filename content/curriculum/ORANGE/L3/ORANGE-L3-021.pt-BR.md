@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-A trilha PURPLE deste currículo mostrou que a conformidade regulatória é uma categoria própria de obrigação jurídica, fiscalizada diretamente pelos órgãos do governo. Este é o "porquê" de isso importar de forma especialmente específica para a publicidade: [VERIFIED FACT] certos setores — serviços financeiros, saúde, bebidas alcoólicas e outros — geralmente enfrentam regras de publicidade adicionais e específicas, além das regras gerais de proteção ao consumidor, por causa dos riscos particulares das afirmações enganosas nesses contextos específicos. Da mesma forma, meios de publicidade diferentes (rádio e TV, mídia impressa, digital, mala direta) podem estar sujeitos a regras e exigências de informação específicas diferentes.
+A trilha PURPLE deste currículo mostrou que a conformidade regulatória é uma categoria própria de obrigação jurídica, fiscalizada diretamente pelos órgãos do governo. Este é o "porquê" de isso importar de forma especialmente específica para a publicidade: [FATO VERIFICADO] certos setores — serviços financeiros, saúde, bebidas alcoólicas e outros — geralmente enfrentam regras de publicidade adicionais e específicas, além das regras gerais de proteção ao consumidor, por causa dos riscos particulares das afirmações enganosas nesses contextos específicos. Da mesma forma, meios de publicidade diferentes (rádio e TV, mídia impressa, digital, mala direta) podem estar sujeitos a regras e exigências de informação específicas diferentes.
 
 É por isso que uma abordagem de marketing totalmente em conformidade em um setor ou meio pode não estar em outro — uma afirmação ou um formato aceitável na publicidade de um produto de consumo comum pode enfrentar exigências de informação ou restrições específicas adicionais se for usado para anunciar um produto ou serviço de um setor regulado, e um negócio que atua em vários setores, anuncia para vários setores ou usa vários meios precisa entender que a conformidade não é um padrão único e uniforme.
 
@@ -30,7 +30,7 @@ Antes de lançar uma nova campanha de marketing, especialmente uma que entre em 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio que atua no setor de produtos de consumo em geral se expande para oferecer um produto financeiro ou ligado à saúde, aplicando a mesma abordagem geral de marketing e o mesmo estilo de afirmações que sempre usou. [ASSUMPTION] Essa mesma abordagem de marketing, que estava em conformidade para a linha de produtos original, pode não atender às regras de publicidade adicionais e específicas do novo setor regulado — o que mostra por que entrar em um novo setor ou meio exige uma nova revisão de conformidade específica, e não a suposição de que as práticas gerais de marketing se transferem automaticamente.
+[EXEMPLO ILUSTRATIVO] Um negócio que atua no setor de produtos de consumo em geral se expande para oferecer um produto financeiro ou ligado à saúde, aplicando a mesma abordagem geral de marketing e o mesmo estilo de afirmações que sempre usou. [SUPOSIÇÃO] Essa mesma abordagem de marketing, que estava em conformidade para a linha de produtos original, pode não atender às regras de publicidade adicionais e específicas do novo setor regulado — o que mostra por que entrar em um novo setor ou meio exige uma nova revisão de conformidade específica, e não a suposição de que as práticas gerais de marketing se transferem automaticamente.
 
 ## Teste de prática
 

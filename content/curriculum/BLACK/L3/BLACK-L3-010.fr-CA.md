@@ -30,7 +30,7 @@ Ton organisation compte-t-elle quelqu'un qui est vraiment habilité à remettre 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader confiant et expérimenté prend une décision stratégique importante en exprimant une forte conviction lors d'une réunion d'équipe. [ASSUMPTION] Les membres de l'équipe, qui s'en remettent à la confiance et au poste du leader, n'expriment pas leurs vraies réserves et ne remettent pas en question de façon indépendante les hypothèses sous-jacentes — en écho à la discussion du parcours GOLD sur l'excès de confiance, le biais individuel du leader se propage dans la prise de décision de l'équipe sans le contrepoids naturel qu'un ensemble varié de points de vue vraiment habilités aurait pu offrir, ce qui montre pourquoi mettre en place des mécanismes structurels permettant une vraie contestation compte davantage, et non moins, à mesure que la confiance et l'autorité d'un leader augmentent.
+[EXEMPLE ILLUSTRATIF] Un leader confiant et expérimenté prend une décision stratégique importante en exprimant une forte conviction lors d'une réunion d'équipe. [HYPOTHÈSE] Les membres de l'équipe, qui s'en remettent à la confiance et au poste du leader, n'expriment pas leurs vraies réserves et ne remettent pas en question de façon indépendante les hypothèses sous-jacentes — en écho à la discussion du parcours GOLD sur l'excès de confiance, le biais individuel du leader se propage dans la prise de décision de l'équipe sans le contrepoids naturel qu'un ensemble varié de points de vue vraiment habilités aurait pu offrir, ce qui montre pourquoi mettre en place des mécanismes structurels permettant une vraie contestation compte davantage, et non moins, à mesure que la confiance et l'autorité d'un leader augmentent.
 
 ## Quiz de pratique
 

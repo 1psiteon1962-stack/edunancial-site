@@ -30,7 +30,7 @@ Que dit le modèle réel de promotions et de récompenses de ton organisation su
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader insiste régulièrement sur le travail d'équipe et la collaboration lors des réunions d'entreprise, alors que la structure de promotions et de primes de l'organisation récompense exclusivement des indicateurs de rendement individuel, sans tenir compte de la contribution à la collaboration. [ASSUMPTION] Les employés, qui réagissent rationnellement à la structure d'incitations réelle plutôt qu'au message déclaré, priorisent les réalisations individuelles plutôt qu'une vraie collaboration, en écho exact au principe du parcours ORANGE selon lequel les gens optimisent en fonction de ce qui est réellement récompensé — la culture qui en émerge reflète la conception des incitations, et non les discours, peu importe la sincérité avec laquelle ces discours ont été livrés.
+[EXEMPLE ILLUSTRATIF] Un leader insiste régulièrement sur le travail d'équipe et la collaboration lors des réunions d'entreprise, alors que la structure de promotions et de primes de l'organisation récompense exclusivement des indicateurs de rendement individuel, sans tenir compte de la contribution à la collaboration. [HYPOTHÈSE] Les employés, qui réagissent rationnellement à la structure d'incitations réelle plutôt qu'au message déclaré, priorisent les réalisations individuelles plutôt qu'une vraie collaboration, en écho exact au principe du parcours ORANGE selon lequel les gens optimisent en fonction de ce qui est réellement récompensé — la culture qui en émerge reflète la conception des incitations, et non les discours, peu importe la sincérité avec laquelle ces discours ont été livrés.
 
 ## Quiz de pratique
 

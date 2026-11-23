@@ -32,7 +32,7 @@ Pour ta prochaine décision importante de vente ou de marketing, essaie d'appliq
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise évalue une nouvelle initiative marketing importante non pas en se demandant « est-ce que ça va attirer l'attention » ou « est-ce que les concurrents font quelque chose de semblable », mais en appliquant la même rigueur utilisée ailleurs dans ce programme pour évaluer n'importe quel placement : estimer un éventail réaliste de résultats, évaluer honnêtement les risques précis en jeu (en écho aux leçons 1, 5 et 38) et comparer le rendement attendu ajusté au risque à de vraies options de rechange — l'embauche, le développement de produits, le remboursement de dettes — que le même capital pourrait financer. Ça produit une évaluation fondamentalement différente et plus rigoureuse que de traiter la décision marketing comme une catégorie à part, exemptée de cet examen.
+[EXEMPLE ILLUSTRATIF] Une entreprise évalue une nouvelle initiative marketing importante non pas en se demandant « est-ce que ça va attirer l'attention » ou « est-ce que les concurrents font quelque chose de semblable », mais en appliquant la même rigueur utilisée ailleurs dans ce programme pour évaluer n'importe quel placement : estimer un éventail réaliste de résultats, évaluer honnêtement les risques précis en jeu (en écho aux leçons 1, 5 et 38) et comparer le rendement attendu ajusté au risque à de vraies options de rechange — l'embauche, le développement de produits, le remboursement de dettes — que le même capital pourrait financer. Ça produit une évaluation fondamentalement différente et plus rigoureuse que de traiter la décision marketing comme une catégorie à part, exemptée de cet examen.
 
 ## Quiz de pratique
 

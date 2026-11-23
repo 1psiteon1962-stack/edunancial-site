@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Imagine que um negócio enfrenta uma polêmica pública repentina — um problema de produto, uma reclamação de cliente que viraliza ou um deslize público de um executivo — que gera muita atenção negativa em poucos dias. Este é um cenário hipotético de teste, e não uma previsão sobre uma empresa ou um acontecimento reais.
+[CENÁRIO HIPOTÉTICO — SUPOSIÇÃO, NÃO FACTO VERIFICADO] Imagine que um negócio enfrenta uma polêmica pública repentina — um problema de produto, uma reclamação de cliente que viraliza ou um deslize público de um executivo — que gera muita atenção negativa em poucos dias. Este é um cenário hipotético de teste, e não uma previsão sobre uma empresa ou um acontecimento reais.
 
 Em vez de percorrer cada consequência por você, pense no que aprendeu ao longo deste currículo e identifique: que exposição jurídica isso pode criar, e quais conceitos específicos da trilha PURPLE se aplicariam? O que acontece com o fluxo de caixa se os clientes suspenderem ou cancelarem pedidos, e como a posição atual de capital de giro do negócio (trilha BLUE) afeta quanto tempo ele tem para reagir? O que isso faz com o ativo de fundo de comércio e reputação discutido antes nesta trilha, e com que rapidez esse valor pode se desgastar? Que decisões cabem especificamente à liderança, e o que pode ser resolvido no nível operacional? E que papel a cobertura de seguro atual do negócio (trilhas BLUE e PURPLE) tem para que parte do impacto financeiro seja, de facto, coberta?
 

@@ -30,7 +30,7 @@ La tua struttura di compensi, o quella dei vertici della tua organizzazione, pre
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] La leadership di un'azienda sottolinea pubblicamente come priorità fondamentali una crescita sostenibile di lungo periodo e la crescita professionale dei dipendenti, mentre i compensi dei dirigenti sono costruiti quasi interamente su metriche finanziarie trimestrali di breve periodo. [ASSUMPTION] I dipendenti di tutta l'organizzazione notano questo disallineamento e ne traggono la conclusione ragionevole che le priorità di lungo periodo dichiarate siano meno autentiche delle metriche di breve periodo che guidano davvero gli incentivi finanziari della leadership. È esattamente il divario tra incentivi e discorsi discusso nelle Lezioni 3 e 19, applicato ora ai compensi della leadership stessa invece che a quelli di un team vendite.
+[ESEMPIO ILLUSTRATIVO] La leadership di un'azienda sottolinea pubblicamente come priorità fondamentali una crescita sostenibile di lungo periodo e la crescita professionale dei dipendenti, mentre i compensi dei dirigenti sono costruiti quasi interamente su metriche finanziarie trimestrali di breve periodo. [IPOTESI] I dipendenti di tutta l'organizzazione notano questo disallineamento e ne traggono la conclusione ragionevole che le priorità di lungo periodo dichiarate siano meno autentiche delle metriche di breve periodo che guidano davvero gli incentivi finanziari della leadership. È esattamente il divario tra incentivi e discorsi discusso nelle Lezioni 3 e 19, applicato ora ai compensi della leadership stessa invece che a quelli di un team vendite.
 
 ## Quiz di esercitazione
 

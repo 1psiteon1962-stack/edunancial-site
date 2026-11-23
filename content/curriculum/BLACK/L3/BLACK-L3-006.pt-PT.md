@@ -30,7 +30,7 @@ Antes de enviar uma comunicação escrita importante — uma avaliação de dese
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder escreve a um colega um e-mail informal e descontraído comentando o desempenho de um funcionário de um forma que toca numa característica pessoal sem nenhuma relação com o desempenho real no trabalho. [ASSUMPTION] Se esse funcionário for demitido mais tarde por um motivo legítimo de desempenho e entrar com uma ação por discriminação, esse e-mail anterior — nunca pensado como algo além de um comentário informal — passa a ser uma prova escrita e duradoura que um tribunal pode considerar relevante para a ação, o que mostra por que o que um líder escreve no dia a dia tem peso jurídico, independentemente da intenção informal e improvisada.
+[EXEMPLO ILUSTRATIVO] Um líder escreve a um colega um e-mail informal e descontraído comentando o desempenho de um funcionário de um forma que toca numa característica pessoal sem nenhuma relação com o desempenho real no trabalho. [SUPOSIÇÃO] Se esse funcionário for demitido mais tarde por um motivo legítimo de desempenho e entrar com uma ação por discriminação, esse e-mail anterior — nunca pensado como algo além de um comentário informal — passa a ser uma prova escrita e duradoura que um tribunal pode considerar relevante para a ação, o que mostra por que o que um líder escreve no dia a dia tem peso jurídico, independentemente da intenção informal e improvisada.
 
 ## Teste de prática
 

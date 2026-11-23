@@ -30,7 +30,7 @@ Wie heeft echt baat gehad bij je bewuste mentorschap, en heb je die investering 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider investeert in de loop der jaren veel tijd in het bewust begeleiden van verschillende teamleden, en leert hun niet alleen specifieke vaardigheden, maar ook het onderliggende oordeel en de redenering die hij zelf heeft ontwikkeld. [ASSUMPTION] Jaren nadat deze leider naar een andere functie of organisatie is vertrokken, zijn verschillende van die begeleide mensen zelf mentor voor anderen, waardoor ze de oorspronkelijke investering doorgeven en vermenigvuldigen – een opstapelend rendement dat waarde bleef opleveren lang nadat de directe betrokkenheid van de oorspronkelijke leider was gestopt. Dit laat precies zien waarom mentorschap de beoordeling als investering verdient die Les 24 aanbeveelt voor leiderschapsontwikkeling in het algemeen.
+[ILLUSTRATIEF VOORBEELD] Een leider investeert in de loop der jaren veel tijd in het bewust begeleiden van verschillende teamleden, en leert hun niet alleen specifieke vaardigheden, maar ook het onderliggende oordeel en de redenering die hij zelf heeft ontwikkeld. [AANNAME] Jaren nadat deze leider naar een andere functie of organisatie is vertrokken, zijn verschillende van die begeleide mensen zelf mentor voor anderen, waardoor ze de oorspronkelijke investering doorgeven en vermenigvuldigen – een opstapelend rendement dat waarde bleef opleveren lang nadat de directe betrokkenheid van de oorspronkelijke leider was gestopt. Dit laat precies zien waarom mentorschap de beoordeling als investering verdient die Les 24 aanbeveelt voor leiderschapsontwikkeling in het algemeen.
 
 ## Oefenquiz
 

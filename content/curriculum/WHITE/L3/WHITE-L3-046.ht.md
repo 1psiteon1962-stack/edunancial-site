@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" sa ka yon zouti itil, menm si li limite: beta bay yon fason rapid e estanda pou konpare jan diferan aksyon te sansib a mouvman jeneral mache a — sa itil lè w ap panse sou kijan yon aksyon ta ka kontribye nan volatilite total yon pòtfolyo (sa ki konekte ak konsèp divèsifikasyon ak korelasyon Leson 2 ak 3 yo).
 
-[VERIFIED FACT] Yo kalkile beta ak done pri istorik, e li reflete volatilite relatif nan tan pase, pa yon garanti sou konpòtman nan lavni — e li mezire espesyalman sansiblite a gwo mouvman mache a, pa risk total yon aksyon, sa vle di de aksyon ki gen menm beta a ta ka toujou gen pwofil risk ki espesifik pou chak konpayi (Leson 2) ki trè diferan, ke beta pou kont li pa kapte.
+[FÈ VERIFYE] Yo kalkile beta ak done pri istorik, e li reflete volatilite relatif nan tan pase, pa yon garanti sou konpòtman nan lavni — e li mezire espesyalman sansiblite a gwo mouvman mache a, pa risk total yon aksyon, sa vle di de aksyon ki gen menm beta a ta ka toujou gen pwofil risk ki espesifik pou chak konpayi (Leson 2) ki trè diferan, ke beta pou kont li pa kapte.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Aksyon A gen yon beta 1.5, sa ki sijere, istorikman, li te deplase anviwon 50% plis pase mache a an jeneral nan nenpòt direksyon — si mache a monte 10%, Aksyon A ta ka, istorikman, monte anviwon 15%, e lanvè a nan yon bès. Aksyon B gen yon beta 0.6, sa ki sijere, istorikman, mouvman ki pi dous konpare ak mache a. [ASSUMPTION] Yon envestisè k ap bati yon pòtfolyo ta ka itilize chif beta istorik sa yo kòm yon enfòmasyon pami lòt lè l ap panse sou kijan chak aksyon ta ka kontribye nan volatilite total pòtfolyo a — pandan l ap sonje beta reflete modèl tan pase e li pa kapte risk espesifik, endividyèl chak konpayi, separe de gwo mouvman mache a.
+[EGZANP ILISTRATIF] Aksyon A gen yon beta 1.5, sa ki sijere, istorikman, li te deplase anviwon 50% plis pase mache a an jeneral nan nenpòt direksyon — si mache a monte 10%, Aksyon A ta ka, istorikman, monte anviwon 15%, e lanvè a nan yon bès. Aksyon B gen yon beta 0.6, sa ki sijere, istorikman, mouvman ki pi dous konpare ak mache a. [SIPOZISYON] Yon envestisè k ap bati yon pòtfolyo ta ka itilize chif beta istorik sa yo kòm yon enfòmasyon pami lòt lè l ap panse sou kijan chak aksyon ta ka kontribye nan volatilite total pòtfolyo a — pandan l ap sonje beta reflete modèl tan pase e li pa kapte risk espesifik, endividyèl chak konpayi, separe de gwo mouvman mache a.
 
 ## Egzamen pratik
 

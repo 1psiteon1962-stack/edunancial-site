@@ -30,11 +30,11 @@ Yon **chemen desant** (glide path) dekri yon plan ki fikse davans pou chanje rep
 
 Men "poukisa" moman sa a enpòtan, ki konekte dirèkteman ak risk sekans rannman yo nan Leson 15: yon pòtfolyo ki gen anpil ane ki rete anvan yo bezwen touche l gen plis tan pou l refè apre yon bès, kidonk li ka nòmalman pèmèt li kenbe plis aksyon pou potansyèl kwasans alontèm yo ki pi wo. Pandan dat sib la ap pwoche e tan pou refè apre yon bès posib ap diminye, deplase tou dousman vè byen ki pi estab (tankou obligasyon) diminye risk pou soufri yon gwo bès nan move moman juste anvan yo bezwen lajan an — egzakteman risk Leson 15 te dekri a.
 
-[VERIFIED FACT] Diferan modèl chemen desant varye nan jan yo deplase avèk tan, pi agresif oswa pi konsèvatè, e nan si deplasman an kontinye menm apre dat sib la rive — pa gen yon sèl chemen desant inivèsèl, e vitès ajisteman ki apwopriye a depann de sitiyasyon chak moun ak tolerans li pou risk.
+[FÈ VERIFYE] Diferan modèl chemen desant varye nan jan yo deplase avèk tan, pi agresif oswa pi konsèvatè, e nan si deplasman an kontinye menm apre dat sib la rive — pa gen yon sèl chemen desant inivèsèl, e vitès ajisteman ki apwopriye a depann de sitiyasyon chak moun ak tolerans li pou risk.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon fon dat sib ki fèt pou yon moun ki pral pran retrèt nan anviwon 30 an ta ka kòmanse ak yon pòtfolyo ki panche anpil sou aksyon, pou pwofite long orizon tan an pou li ka refè apre nenpòt bès sou wout la. Pandan dat retrèt sib la ap pwoche atravè deseni sa yo, fon an ogmante pati li mete nan obligasyon tou dousman epi diminye ekspozisyon li nan aksyon, pou li diminye vilnerabilite pòtfolyo a a yon bès nan move moman juste lè envestisè a ta ka bezwen kòmanse retire lajan.
+[EGZANP ILISTRATIF] Yon fon dat sib ki fèt pou yon moun ki pral pran retrèt nan anviwon 30 an ta ka kòmanse ak yon pòtfolyo ki panche anpil sou aksyon, pou pwofite long orizon tan an pou li ka refè apre nenpòt bès sou wout la. Pandan dat retrèt sib la ap pwoche atravè deseni sa yo, fon an ogmante pati li mete nan obligasyon tou dousman epi diminye ekspozisyon li nan aksyon, pou li diminye vilnerabilite pòtfolyo a a yon bès nan move moman juste lè envestisè a ta ka bezwen kòmanse retire lajan.
 
 ## Egzamen pratik
 

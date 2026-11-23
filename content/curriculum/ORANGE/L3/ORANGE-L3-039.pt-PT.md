@@ -30,7 +30,7 @@ A sua estratégia de aquisição atual combina de verdade com a sua fase de fina
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio que se financia sozinho observa um concorrente financiado por capital de risco gastando de forma agressiva, com prejuízo, para conquistar clientes e ganhar participação de mercado, e adota uma estratégia de aquisição parecida. [ASSUMPTION] Sem a reserva de capital externo do concorrente, o negócio que se financia sozinho rapidamente enfrenta exatamente os problemas de fluxo de caixa e de fôlego financeiro sobre os quais a discussão de autofinanciamento da trilha BLUE alertou — a estratégia de aquisição não era errada em si, mas não combinava com a estrutura de financiamento real desse negócio, o que mostra por que a estratégia "certa" depende do contexto de financiamento, e não só do que um concorrente está a fazer de forma visível.
+[EXEMPLO ILUSTRATIVO] Um negócio que se financia sozinho observa um concorrente financiado por capital de risco gastando de forma agressiva, com prejuízo, para conquistar clientes e ganhar participação de mercado, e adota uma estratégia de aquisição parecida. [SUPOSIÇÃO] Sem a reserva de capital externo do concorrente, o negócio que se financia sozinho rapidamente enfrenta exatamente os problemas de fluxo de caixa e de fôlego financeiro sobre os quais a discussão de autofinanciamento da trilha BLUE alertou — a estratégia de aquisição não era errada em si, mas não combinava com a estrutura de financiamento real desse negócio, o que mostra por que a estratégia "certa" depende do contexto de financiamento, e não só do que um concorrente está a fazer de forma visível.
 
 ## Teste de prática
 

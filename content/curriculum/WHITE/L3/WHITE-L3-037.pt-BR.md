@@ -28,11 +28,11 @@ O **tax-loss harvesting** (colheita de prejuízos fiscais) é uma estratégia ge
 
 Veja o "porquê" de isso exigir uma venda de verdade: enquanto um investimento estiver simplesmente guardado com um valor abaixo do preço de compra, isso em geral é considerado uma perda não realizada. Ela existe no papel, mas ainda não foi "travada" por meio de uma transação, e em muitos sistemas tributários só uma perda realizada pode ser usada para fins fiscais. Vender a posição converte essa perda no papel em uma perda realizada.
 
-[VERIFIED FACT] Como muitos investidores querem manter sua exposição geral ao mercado ou sua estratégia de investimento mesmo enquanto colhem uma perda, eles muitas vezes reinvestem o dinheiro da venda em um investimento parecido (mas não idêntico) logo em seguida. Isso introduz uma regra importante, tratada na próxima lição, que limita a rapidez com que você pode recomprar um investimento substancialmente idêntico e ainda assim declarar a perda fiscal.
+[FATO VERIFICADO] Como muitos investidores querem manter sua exposição geral ao mercado ou sua estratégia de investimento mesmo enquanto colhem uma perda, eles muitas vezes reinvestem o dinheiro da venda em um investimento parecido (mas não idêntico) logo em seguida. Isso introduz uma regra importante, tratada na próxima lição, que limita a rapidez com que você pode recomprar um investimento substancialmente idêntico e ainda assim declarar a perda fiscal.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora tem um fundo que perdeu bastante valor desde a compra. Em vez de simplesmente continuar com ele, ela vende a posição, realizando a perda para fins fiscais, e reinveste o dinheiro em um fundo parecido, mas não idêntico, para manter mais ou menos a mesma exposição ao mercado. [ASSUMPTION] A perda realizada pode potencialmente ser usada, sujeito às regras tributárias aplicáveis, para compensar outros ganhos tributáveis que ela tenha em outras partes da carteira naquele ano, transformando o que parecia um resultado puramente negativo em pelo menos um benefício fiscal prático e parcial.
+[EXEMPLO ILUSTRATIVO] Uma investidora tem um fundo que perdeu bastante valor desde a compra. Em vez de simplesmente continuar com ele, ela vende a posição, realizando a perda para fins fiscais, e reinveste o dinheiro em um fundo parecido, mas não idêntico, para manter mais ou menos a mesma exposição ao mercado. [SUPOSIÇÃO] A perda realizada pode potencialmente ser usada, sujeito às regras tributárias aplicáveis, para compensar outros ganhos tributáveis que ela tenha em outras partes da carteira naquele ano, transformando o que parecia um resultado puramente negativo em pelo menos um benefício fiscal prático e parcial.
 
 ## Teste de prática
 

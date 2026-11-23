@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-Les **indicateurs macroéconomiques** — les données sur l'inflation, les chiffres de l'emploi, la croissance du PIB et d'autres mesures économiques générales semblables — servent couramment à éclairer le jugement en matière de placement au sujet du contexte économique général abordé tout au long de ce parcours. Voici « pourquoi » ces indicateurs fonctionnent comme des signaux utiles plutôt que comme des prédictions certaines : [VERIFIED FACT] chaque indicateur reflète un aspect précis de l'activité économique, souvent publié avec un certain retard et sujet à des révisions ultérieures, et aucun indicateur ne saisit à lui seul le portrait complet et complexe d'une économie à à un moment ou à un autre.
+Les **indicateurs macroéconomiques** — les données sur l'inflation, les chiffres de l'emploi, la croissance du PIB et d'autres mesures économiques générales semblables — servent couramment à éclairer le jugement en matière de placement au sujet du contexte économique général abordé tout au long de ce parcours. Voici « pourquoi » ces indicateurs fonctionnent comme des signaux utiles plutôt que comme des prédictions certaines : [FAIT VÉRIFIÉ] chaque indicateur reflète un aspect précis de l'activité économique, souvent publié avec un certain retard et sujet à des révisions ultérieures, et aucun indicateur ne saisit à lui seul le portrait complet et complexe d'une économie à à un moment ou à un autre.
 
 C'est pourquoi interpréter un seul indicateur isolément — traiter un seul rapport sur l'emploi ou une seule donnée sur l'inflation comme un signal définitif de l'orientation future du marché — peut être trompeur. Les analystes d'expérience examinent généralement plusieurs indicateurs ensemble, ainsi que leur tendance dans le temps plutôt qu'une seule donnée, pour se faire un portrait plus complet, quoique toujours incertain par nature, des conditions économiques actuelles.
 
@@ -32,7 +32,7 @@ C'est pourquoi interpréter un seul indicateur isolément — traiter un seul ra
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une investisseuse voit un seul rapport économique qui laisse croire à une tendance précise et envisage d'apporter un changement important à son portefeuille en se fondant uniquement sur cette donnée. [ASSUMPTION] Une approche plus mesurée consisterait à examiner ce rapport aux côtés d'autres indicateurs pertinents et de leurs tendances au cours des derniers mois, en reconnaissant que toute donnée isolée peut être bruitée, faire l'objet d'une révision ultérieure ou refléter un changement temporaire plutôt que durable — en traitant l'indicateur comme un signal utile parmi d'autres, plutôt que comme une base certaine et autonome pour une décision importante.
+[EXEMPLE ILLUSTRATIF] Une investisseuse voit un seul rapport économique qui laisse croire à une tendance précise et envisage d'apporter un changement important à son portefeuille en se fondant uniquement sur cette donnée. [HYPOTHÈSE] Une approche plus mesurée consisterait à examiner ce rapport aux côtés d'autres indicateurs pertinents et de leurs tendances au cours des derniers mois, en reconnaissant que toute donnée isolée peut être bruitée, faire l'objet d'une révision ultérieure ou refléter un changement temporaire plutôt que durable — en traitant l'indicateur comme un signal utile parmi d'autres, plutôt que comme une base certaine et autonome pour une décision importante.
 
 ## Quiz de pratique
 

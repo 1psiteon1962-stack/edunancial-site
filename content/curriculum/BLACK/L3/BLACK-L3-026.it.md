@@ -30,7 +30,7 @@ Su quali abitudini informali, legate alla presenza, si è basato finora il tuo m
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader abituato a percepire il morale del team e a cogliere i piccoli problemi con l'osservazione informale e di persona passa a guidare un team interamente da remoto, continuando a contare sullo stesso approccio informale. [ASSUMPTION] Senza sistemi deliberati che sostituiscano ciò che prima offriva la presenza fisica (momenti di confronto regolari e strutturati, documentazione esplicita, regole di comunicazione chiare), questo leader non coglie segnali che prima avrebbe colto in modo automatico. Questo mostra perché guidare da remoto richiede una struttura più deliberata, e non solo una versione più allentata della gestione di persona, riprendendo il principio dei sistemi della Lezione 7 applicato in particolare ai team distribuiti.
+[ESEMPIO ILLUSTRATIVO] Un leader abituato a percepire il morale del team e a cogliere i piccoli problemi con l'osservazione informale e di persona passa a guidare un team interamente da remoto, continuando a contare sullo stesso approccio informale. [IPOTESI] Senza sistemi deliberati che sostituiscano ciò che prima offriva la presenza fisica (momenti di confronto regolari e strutturati, documentazione esplicita, regole di comunicazione chiare), questo leader non coglie segnali che prima avrebbe colto in modo automatico. Questo mostra perché guidare da remoto richiede una struttura più deliberata, e non solo una versione più allentata della gestione di persona, riprendendo il principio dei sistemi della Lezione 7 applicato in particolare ai team distribuiti.
 
 ## Quiz di esercitazione
 

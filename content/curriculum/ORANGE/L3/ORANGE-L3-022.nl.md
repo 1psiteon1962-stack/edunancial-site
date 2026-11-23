@@ -30,7 +30,7 @@ Voordat je een samenwerking met een influencer aangaat: welke contractuele besch
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming werkt samen met een populaire influencer om haar product te promoten, zonder duidelijk opgesteld contract met eisen aan de content, vermeldingsverplichtingen of een exitregeling als de relatie moet worden beëindigd. [ASSUMPTION] De influencer raakt later betrokken bij een publieke controverse die er los van staat, en de onderneming merkt dat haar eigen reputatie via associatie wordt geraakt, zonder duidelijk contractueel middel om de samenwerking snel te beëindigen of afstand te nemen. Dit laat zowel het contractuele gat zien waarvoor deze les waarschuwt als het specifieke risico van een reputatieband dat bij dit soort marketingsamenwerking hoort.
+[ILLUSTRATIEF VOORBEELD] Een onderneming werkt samen met een populaire influencer om haar product te promoten, zonder duidelijk opgesteld contract met eisen aan de content, vermeldingsverplichtingen of een exitregeling als de relatie moet worden beëindigd. [AANNAME] De influencer raakt later betrokken bij een publieke controverse die er los van staat, en de onderneming merkt dat haar eigen reputatie via associatie wordt geraakt, zonder duidelijk contractueel middel om de samenwerking snel te beëindigen of afstand te nemen. Dit laat zowel het contractuele gat zien waarvoor deze les waarschuwt als het specifieke risico van een reputatieband dat bij dit soort marketingsamenwerking hoort.
 
 ## Oefenquiz
 

@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Um **contrato** é, de forma geral, um acordo entre partes que pode ser exigido judicialmente. [VERIFIED FACT] Embora os requisitos específicos variem conforme a jurisdição e o tipo de contrato, a maioria dos sistemas jurídicos geralmente exige três elementos básicos para que um contrato seja exigível: uma **oferta** (uma parte propõe condições específicas), uma **aceitação** (a outra parte concorda com essas condições específicas) e uma **contraprestação** (algo de valor trocado entre as partes, aprofundado na próxima lição).
+Um **contrato** é, de forma geral, um acordo entre partes que pode ser exigido judicialmente. [FACTO VERIFICADO] Embora os requisitos específicos variem conforme a jurisdição e o tipo de contrato, a maioria dos sistemas jurídicos geralmente exige três elementos básicos para que um contrato seja exigível: uma **oferta** (uma parte propõe condições específicas), uma **aceitação** (a outra parte concorda com essas condições específicas) e uma **contraprestação** (algo de valor trocado entre as partes, aprofundado na próxima lição).
 
 Este é o "porquê" de cada elemento ter uma função própria: a exigência de oferta e aceitação garante que haja um encontro de vontades real e identificável — as duas partes concordando, de facto, com as mesmas condições específicas, e não só com um entendimento vago e geral. A exigência de contraprestação garante que o acordo seja uma troca de verdade, e não apenas a promessa, não exigível, de uma parte de dar um presente ou fazer um favor sem receber nada em troca.
 
@@ -30,7 +30,7 @@ Este é o "porquê" de cada elemento ter uma função própria: a exigência de 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa propõe a outra condições específicas — um preço específico por uma quantidade específica de mercadorias entregues até uma data específica (a oferta). A segunda empresa concorda exatamente com essas condições (a aceitação). O dinheiro troca de mãos em troca das mercadorias (a contraprestação). Os três elementos estão presentes, formando um contrato juridicamente exigível. [ASSUMPTION] Se, em vez disso, uma empresa tivesse apenas manifestado uma intenção vaga e geral de "provavelmente fazer algum negócio juntas um dia", sem que nenhuma condição específica fosse proposta e aceita, e sem que nada de valor fosse prometido em troca, esse arranjo mais solto provavelmente não atingiria o patamar básico de um contrato exigível, apesar das boas intenções das duas partes.
+[EXEMPLO ILUSTRATIVO] Uma empresa propõe a outra condições específicas — um preço específico por uma quantidade específica de mercadorias entregues até uma data específica (a oferta). A segunda empresa concorda exatamente com essas condições (a aceitação). O dinheiro troca de mãos em troca das mercadorias (a contraprestação). Os três elementos estão presentes, formando um contrato juridicamente exigível. [SUPOSIÇÃO] Se, em vez disso, uma empresa tivesse apenas manifestado uma intenção vaga e geral de "provavelmente fazer algum negócio juntas um dia", sem que nenhuma condição específica fosse proposta e aceita, e sem que nada de valor fosse prometido em troca, esse arranjo mais solto provavelmente não atingiria o patamar básico de um contrato exigível, apesar das boas intenções das duas partes.
 
 ## Teste de prática
 

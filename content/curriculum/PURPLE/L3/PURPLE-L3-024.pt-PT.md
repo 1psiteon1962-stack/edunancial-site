@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A trilha GREEN deste currículo trata dos trusts filantrópicos especificamente num contexto de planeamento tributário. Aqui está um "porquê" jurídico mais geral por trás dos trusts, relevante para o planeamento sucessório de forma ampla: [VERIFIED FACT] os bens transferidos corretamente para um trust durante a vida de quem o instituiu geralmente deixam de ser considerados parte do património pessoal dessa pessoa para fins de inventário judicial — já que, tecnicamente, é o próprio trust, e não a pessoa, que é dono desses bens, são geralmente as regras do próprio trust (e não o processo de inventário judicial, visto na próxima lição) que definem como e quando esses bens são distribuídos aos beneficiários.
+A trilha GREEN deste currículo trata dos trusts filantrópicos especificamente num contexto de planeamento tributário. Aqui está um "porquê" jurídico mais geral por trás dos trusts, relevante para o planeamento sucessório de forma ampla: [FACTO VERIFICADO] os bens transferidos corretamente para um trust durante a vida de quem o instituiu geralmente deixam de ser considerados parte do património pessoal dessa pessoa para fins de inventário judicial — já que, tecnicamente, é o próprio trust, e não a pessoa, que é dono desses bens, são geralmente as regras do próprio trust (e não o processo de inventário judicial, visto na próxima lição) que definem como e quando esses bens são distribuídos aos beneficiários.
 
 Este é o "porquê" de os trusts serem usados com frequência justamente para evitar o inventário judicial: como, no momento da morte, os bens já estão no trust, e não com a pessoa diretamente, geralmente não há necessidade de esses bens específicos passarem pelo processo de inventário supervisionado pelo tribunal, que se aplica aos bens de titularidade pessoal não resolvidos de outra forma por designações de beneficiário ou copropriedade (como visto na Lição 23).
 
@@ -30,7 +30,7 @@ Isso se liga diretamente ao ponto da Lição 23 sobre bens que contornam o testa
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma pessoa transfere em vida a propriedade de um imóvel específico para um trust, cujas regras definem como esse imóvel deve, no fim, ser distribuído a beneficiários indicados. [ASSUMPTION] Com a morte dessa pessoa, esse imóvel específico geralmente passa de acordo com as regras do próprio trust, sem precisar passar pelo inventário judicial — um caminho bem diferente, geralmente mais rápido e mais reservado, do que se esse mesmo imóvel tivesse continuado no nome da própria pessoa, sujeito ao testamento dela e ao processo padrão de inventário judicial visto na próxima lição.
+[EXEMPLO ILUSTRATIVO] Uma pessoa transfere em vida a propriedade de um imóvel específico para um trust, cujas regras definem como esse imóvel deve, no fim, ser distribuído a beneficiários indicados. [SUPOSIÇÃO] Com a morte dessa pessoa, esse imóvel específico geralmente passa de acordo com as regras do próprio trust, sem precisar passar pelo inventário judicial — um caminho bem diferente, geralmente mais rápido e mais reservado, do que se esse mesmo imóvel tivesse continuado no nome da própria pessoa, sujeito ao testamento dela e ao processo padrão de inventário judicial visto na próxima lição.
 
 ## Teste de prática
 

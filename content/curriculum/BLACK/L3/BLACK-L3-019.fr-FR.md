@@ -30,7 +30,7 @@ Regarde ton équipe de direction actuelle ou tes conseillers les plus proches. Q
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader remarque que chaque proposition présentée à son équipe de direction reçoit un accord rapide et unanime, et interprète d'abord ça comme la preuve d'une équipe solide et alignée. [ASSUMPTION] Après réflexion, en lien avec la préoccupation sur la sécurité psychologique de la leçon 11, ce leader reconnaît qu'un accord facile pourrait en fait refléter une équipe qui a appris que le désaccord n'est pas le bienvenu, plutôt qu'un vrai consensus — ce qui l'amène à faire un effort délibéré pour recruter des membres reconnus pour leur jugement indépendant et pour solliciter et récompenser activement les points de vue divergents, plutôt que de continuer à interpréter un accord confortable comme un signe de force de l'équipe.
+[EXEMPLE ILLUSTRATIF] Un leader remarque que chaque proposition présentée à son équipe de direction reçoit un accord rapide et unanime, et interprète d'abord ça comme la preuve d'une équipe solide et alignée. [HYPOTHÈSE] Après réflexion, en lien avec la préoccupation sur la sécurité psychologique de la leçon 11, ce leader reconnaît qu'un accord facile pourrait en fait refléter une équipe qui a appris que le désaccord n'est pas le bienvenu, plutôt qu'un vrai consensus — ce qui l'amène à faire un effort délibéré pour recruter des membres reconnus pour leur jugement indépendant et pour solliciter et récompenser activement les points de vue divergents, plutôt que de continuer à interpréter un accord confortable comme un signe de force de l'équipe.
 
 ## Quiz de pratique
 

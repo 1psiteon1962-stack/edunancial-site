@@ -34,11 +34,11 @@ Per una casa, il costo di acquisto può includere più del prezzo pagato. In mol
 
 Molti Paesi hanno regole speciali per l'abitazione principale, come esenzioni totali o parziali se si rispettano certe condizioni. Queste regole variano molto. Conservare per molti anni le prove delle migliorie può fare una differenza reale il giorno della vendita.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Enrico ha comprato la casa a $200.000 e ha speso $30.000 per un ampliamento. L'ha venduta a $280.000. Qual è il guadagno, se l'ampliamento rientra nel costo di acquisto?
 

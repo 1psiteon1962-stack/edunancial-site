@@ -30,7 +30,7 @@ Antes de aprovar um texto de marketing que faz uma afirmação de facto específ
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] O time de marketing de um negócio escreve um anúncio afirmando que um produto específico "reduz os custos de energia em 30%", com base numa estimativa interna, e não em testes rigorosos e verificáveis. [ASSUMPTION] Se um órgão regulador ou um concorrente contestar essa afirmação e o negócio não conseguir comprovar o número específico de 30% com provas confiáveis, ele pode sofrer consequências jurídicas por publicidade falsa ou enganosa, ligando-se diretamente aos princípios mais amplos sobre representação falsa da trilha PURPLE — independentemente de o time de marketing achar que a afirmação era mais ou menos correta ou não ter tido nenhuma intenção de prejudicar.
+[EXEMPLO ILUSTRATIVO] O time de marketing de um negócio escreve um anúncio afirmando que um produto específico "reduz os custos de energia em 30%", com base numa estimativa interna, e não em testes rigorosos e verificáveis. [SUPOSIÇÃO] Se um órgão regulador ou um concorrente contestar essa afirmação e o negócio não conseguir comprovar o número específico de 30% com provas confiáveis, ele pode sofrer consequências jurídicas por publicidade falsa ou enganosa, ligando-se diretamente aos princípios mais amplos sobre representação falsa da trilha PURPLE — independentemente de o time de marketing achar que a afirmação era mais ou menos correta ou não ter tido nenhuma intenção de prejudicar.
 
 ## Teste de prática
 

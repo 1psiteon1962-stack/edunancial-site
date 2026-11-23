@@ -26,11 +26,11 @@ Le **profit** (ou bénéfice net) est une mesure comptable des revenus moins les
 
 Voici le « pourquoi » cet écart compte autant en pratique : une entreprise peut être rentable sur papier, en comptabilisant une vente comme revenu au moment où elle est faite, alors que le paiement réel de cette vente n'est pas encore arrivé, par exemple parce que le client a 60 jours pour payer (un sujet lié au cycle de conversion de la trésorerie de la leçon 14). Pendant ce temps, l'entreprise doit quand même payer ses employés et ses fournisseurs en argent réel, selon leur propre calendrier, que ses clients aient payé ou non.
 
-[VERIFIED FACT] Cet écart est une cause majeure et bien documentée de faillite des petites entreprises : une entreprise peut afficher un profit à son état des résultats tout en manquant réellement de l'argent nécessaire pour respecter ses obligations immédiates, une situation qu'on décrit souvent comme « rentable, mais à court de liquidités ».
+[FAIT VÉRIFIÉ] Cet écart est une cause majeure et bien documentée de faillite des petites entreprises : une entreprise peut afficher un profit à son état des résultats tout en manquant réellement de l'argent nécessaire pour respecter ses obligations immédiates, une situation qu'on décrit souvent comme « rentable, mais à court de liquidités ».
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise termine un gros projet et comptabilise 100 000 $ de revenus et 70 000 $ de profit pour le mois, puisque ses dépenses pour le projet étaient de 30 000 $. Par contre, selon les modalités du contrat, le client n'a pas à payer avant 60 jours. [ASSUMPTION] Entre-temps, l'entreprise doit quand même payer immédiatement ses employés et ses fournisseurs en argent : si elle n'a pas assez de réserves ou d'autres sources de financement pour combler cet écart de 60 jours, elle pourrait manquer réellement d'argent, même si elle affiche sur papier un profit solide et réel pour la même période.
+[EXEMPLE ILLUSTRATIF] Une entreprise termine un gros projet et comptabilise 100 000 $ de revenus et 70 000 $ de profit pour le mois, puisque ses dépenses pour le projet étaient de 30 000 $. Par contre, selon les modalités du contrat, le client n'a pas à payer avant 60 jours. [HYPOTHÈSE] Entre-temps, l'entreprise doit quand même payer immédiatement ses employés et ses fournisseurs en argent : si elle n'a pas assez de réserves ou d'autres sources de financement pour combler cet écart de 60 jours, elle pourrait manquer réellement d'argent, même si elle affiche sur papier un profit solide et réel pour la même période.
 
 ## Quiz d'entraînement
 

@@ -30,7 +30,7 @@ Prima di approvare un testo di marketing che contiene un'affermazione di fatto s
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Il team di marketing di un'impresa scrive un annuncio secondo cui un certo prodotto "riduce i costi energetici del 30%", basandosi su una stima interna e non su test rigorosi e verificabili. [ASSUMPTION] Se un'autorità di vigilanza o un concorrente contesta questa affermazione e l'impresa non riesce a dimostrare la cifra specifica del 30% con prove credibili, potrebbe subire conseguenze giuridiche per pubblicità falsa o ingannevole, in collegamento diretto con i principi più ampi sulle rappresentazioni false del percorso PURPLE, a prescindere dal fatto che il team di marketing ritenesse l'affermazione più o meno corretta o non avesse alcuna intenzione di nuocere.
+[ESEMPIO ILLUSTRATIVO] Il team di marketing di un'impresa scrive un annuncio secondo cui un certo prodotto "riduce i costi energetici del 30%", basandosi su una stima interna e non su test rigorosi e verificabili. [IPOTESI] Se un'autorità di vigilanza o un concorrente contesta questa affermazione e l'impresa non riesce a dimostrare la cifra specifica del 30% con prove credibili, potrebbe subire conseguenze giuridiche per pubblicità falsa o ingannevole, in collegamento diretto con i principi più ampi sulle rappresentazioni false del percorso PURPLE, a prescindere dal fatto che il team di marketing ritenesse l'affermazione più o meno corretta o non avesse alcuna intenzione di nuocere.
 
 ## Quiz di esercitazione
 

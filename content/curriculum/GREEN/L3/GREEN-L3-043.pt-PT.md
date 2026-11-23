@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A **dedução do escritório em casa** (home office deduction) geralmente permite deduzir uma parte das despesas da casa por um espaço usado regularmente para o negócio. [VERIFIED FACT] Em muitos sistemas tributários, essa dedução geralmente exige que o espaço específico seja usado **exclusivamente** para o negócio — e não para o negócio e para fins pessoais importantes ao mesmo tempo —, além de ser usado regularmente para a atividade do negócio.
+A **dedução do escritório em casa** (home office deduction) geralmente permite deduzir uma parte das despesas da casa por um espaço usado regularmente para o negócio. [FACTO VERIFICADO] Em muitos sistemas tributários, essa dedução geralmente exige que o espaço específico seja usado **exclusivamente** para o negócio — e não para o negócio e para fins pessoais importantes ao mesmo tempo —, além de ser usado regularmente para a atividade do negócio.
 
 Este é o "porquê" de essa exigência de uso exclusivo existir: sem ela, distinguir as despesas da casa legitimamente ligadas ao negócio das despesas comuns de vida pessoal ficaria realmente difícil de verificar e de fiscalizar — uma mesa de jantar usada de vez em quando para trabalhar, mas principalmente para as refeições da família, por exemplo, mistura uso pessoal e uso profissional de um forma que torna difícil calcular uma dedução profissional clara e defensável, e ficaria especialmente exposta a abusos se fosse permitida sem uma linha divisória clara.
 
@@ -30,7 +30,7 @@ Este é o "porquê" de essa exigência de uso exclusivo existir: sem ela, distin
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma consultora independente transforma um quarto de hóspedes num escritório dedicado, usado exclusivamente para reuniões com clientes e trabalho profissional, sem nenhum outro uso pessoal daquele cômodo específico. Esse espaço provavelmente teria direito à dedução do escritório em casa, com uma exigência típica de uso exclusivo. [ASSUMPTION] Outra pessoa independente, que trabalha na mesa da cozinha, usada todo dia também para as refeições da família e outras atividades da casa, provavelmente não teria direito à mesma dedução por esse espaço, mesmo fazendo ali um trabalho profissional de verdade, porque o espaço não é usado exclusivamente para o negócio — o que mostra por que a natureza específica e dedicada do espaço importa tanto quanto o trabalho que é de facto feito ali.
+[EXEMPLO ILUSTRATIVO] Uma consultora independente transforma um quarto de hóspedes num escritório dedicado, usado exclusivamente para reuniões com clientes e trabalho profissional, sem nenhum outro uso pessoal daquele cômodo específico. Esse espaço provavelmente teria direito à dedução do escritório em casa, com uma exigência típica de uso exclusivo. [SUPOSIÇÃO] Outra pessoa independente, que trabalha na mesa da cozinha, usada todo dia também para as refeições da família e outras atividades da casa, provavelmente não teria direito à mesma dedução por esse espaço, mesmo fazendo ali um trabalho profissional de verdade, porque o espaço não é usado exclusivamente para o negócio — o que mostra por que a natureza específica e dedicada do espaço importa tanto quanto o trabalho que é de facto feito ali.
 
 ## Teste de prática
 

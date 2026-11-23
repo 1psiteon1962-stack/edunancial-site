@@ -26,13 +26,13 @@ source_locale: "en-US"
 
 La leçon 21 a abordé l'absence de rendement de l'or comme un coût d'opportunité. Voici un coût connexe et supplémentaire, propre au fait de détenir une version **physique** et tangible d'un actif comme l'or, plutôt qu'un équivalent papier ou numérique (une distinction approfondie dans la prochaine leçon) : la possession physique entraîne des coûts réels et continus qu'un actif purement financier — une action, une obligation ou même un droit papier sur de l'or — n'a tout simplement pas.
 
-[VERIFIED FACT] Ces coûts comprennent généralement un entreposage sécuritaire (un coffret de sûreté, un coffre-fort à la maison ou une installation d'entreposage professionnelle, chacun avec ses propres coûts et compromis) et une assurance contre le vol, la perte ou les dommages — deux dépenses réelles et continues qui réduisent le rendement net réel de l'actif physique, en plus du coût d'opportunité déjà abordé à la leçon 21.
+[FAIT VÉRIFIÉ] Ces coûts comprennent généralement un entreposage sécuritaire (un coffret de sûreté, un coffre-fort à la maison ou une installation d'entreposage professionnelle, chacun avec ses propres coûts et compromis) et une assurance contre le vol, la perte ou les dommages — deux dépenses réelles et continues qui réduisent le rendement net réel de l'actif physique, en plus du coût d'opportunité déjà abordé à la leçon 21.
 
 C'est pourquoi une évaluation honnête du coût total réel de la possession d'or physique doit inclure ces dépenses continues, et pas seulement l'appréciation ou la dépréciation du prix du métal lui-même — deux investisseurs qui détiennent ce qui semble être une quantité d'or identique pourraient avoir des rendements nets réels très différents, selon ce que chacun dépense en entreposage et en assurance pour ses placements précis.
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une investisseuse détient de l'or physique dans une installation d'entreposage sécuritaire professionnelle, en payant des frais annuels pour cet entreposage ainsi qu'une prime d'assurance distincte qui la protège contre le vol ou la perte. [ASSUMPTION] Avec le temps, ces coûts continus, même s'ils sont modestes un à un, réduisent de façon importante son rendement net réel sur cet or par rapport à la seule appréciation brute du prix du métal — une comptabilité honnête de son rendement de placement réel doit soustraire ces coûts réels et continus, et pas seulement suivre l'évolution du prix affiché du métal.
+[EXEMPLE ILLUSTRATIF] Une investisseuse détient de l'or physique dans une installation d'entreposage sécuritaire professionnelle, en payant des frais annuels pour cet entreposage ainsi qu'une prime d'assurance distincte qui la protège contre le vol ou la perte. [HYPOTHÈSE] Avec le temps, ces coûts continus, même s'ils sont modestes un à un, réduisent de façon importante son rendement net réel sur cet or par rapport à la seule appréciation brute du prix du métal — une comptabilité honnête de son rendement de placement réel doit soustraire ces coûts réels et continus, et pas seulement suivre l'évolution du prix affiché du métal.
 
 ## Quiz de pratique
 

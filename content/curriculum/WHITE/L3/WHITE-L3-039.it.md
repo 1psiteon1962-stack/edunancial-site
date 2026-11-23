@@ -24,7 +24,7 @@ Alla fine di questa lezione, sarai in grado di:
 
 ## Contenuto principale
 
-Molti sistemi fiscali distinguono tra i guadagni su investimenti tenuti per un periodo più breve e quelli tenuti per un periodo più lungo prima della vendita, e spesso applicano aliquote diverse a ciascuna categoria. [VERIFIED FACT] Le soglie specifiche del periodo di detenzione e le aliquote applicabili variano molto da ordinamento a ordinamento e sono stabilite da specifiche leggi fiscali: conoscere il concetto in generale è utile, ma le cifre esatte vanno verificate per la situazione e l'ordinamento specifici.
+Molti sistemi fiscali distinguono tra i guadagni su investimenti tenuti per un periodo più breve e quelli tenuti per un periodo più lungo prima della vendita, e spesso applicano aliquote diverse a ciascuna categoria. [FATTO VERIFICATO] Le soglie specifiche del periodo di detenzione e le aliquote applicabili variano molto da ordinamento a ordinamento e sono stabilite da specifiche leggi fiscali: conoscere il concetto in generale è utile, ma le cifre esatte vanno verificate per la situazione e l'ordinamento specifici.
 
 Ecco il "perché" questa distinzione esiste comunemente: molti sistemi fiscali sono pensati, almeno in parte, per incoraggiare la detenzione degli investimenti a lungo termine rispetto alle frequenti operazioni a breve termine, spesso tassando i guadagni su investimenti tenuti per un periodo più breve con un'aliquota più alta rispetto ai guadagni su investimenti tenuti più a lungo.
 
@@ -32,7 +32,7 @@ Questo crea un incentivo reale e voluto che vale la pena capire: un investitore 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'investitrice sta pensando di vendere un investimento che ha guadagnato molto valore, ed è vicina a raggiungere una soglia di detenzione più lunga che, nel suo ordinamento, applicherebbe al guadagno un'aliquota più favorevole. [ASSUMPTION] Se le sue prospettive complessive sulla posizione non sono cambiate in modo significativo, aspettare un breve periodo in più per superare quella soglia potrebbe ridurre le tasse totali dovute sulla vendita finale. Questo però va valutato rispetto alla sua reale opinione sulle prospettive e sul rischio a breve termine dell'investimento, e non va trattato come qualcosa che prevale automaticamente su queste considerazioni.
+[ESEMPIO ILLUSTRATIVO] Un'investitrice sta pensando di vendere un investimento che ha guadagnato molto valore, ed è vicina a raggiungere una soglia di detenzione più lunga che, nel suo ordinamento, applicherebbe al guadagno un'aliquota più favorevole. [IPOTESI] Se le sue prospettive complessive sulla posizione non sono cambiate in modo significativo, aspettare un breve periodo in più per superare quella soglia potrebbe ridurre le tasse totali dovute sulla vendita finale. Questo però va valutato rispetto alla sua reale opinione sulle prospettive e sul rischio a breve termine dell'investimento, e non va trattato come qualcosa che prevale automaticamente su queste considerazioni.
 
 ## Quiz di esercitazione
 

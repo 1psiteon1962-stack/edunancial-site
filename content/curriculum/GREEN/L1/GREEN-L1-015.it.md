@@ -34,11 +34,11 @@ Un credito d'imposta riduce direttamente l'imposta dovuta, un dollaro per ogni d
 
 Per questo un credito di $1.000 vale di solito molto più di una deduzione di $1.000. Ricordalo così: la deduzione agisce sul reddito; il credito agisce sull'imposta.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Nel nostro esempio, Lucia ha un'aliquota del 20%. Può scegliere una deduzione di $1.000 o un credito di $1.000. Quanto risparmia con la deduzione?
 

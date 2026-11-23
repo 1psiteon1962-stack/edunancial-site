@@ -30,7 +30,7 @@ Che cosa vorresti sapere prima di impegnarti in una grossa nuova spesa basata su
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Il funnel di vendita di un'impresa ha storicamente convertito in clienti paganti il 15% dei contatti qualificati, e il team costruisce il piano di assunzioni del prossimo trimestre ipotizzando lo stesso tasso del 15%. [ASSUMPTION] Se il tasso di conversione reale di quel trimestre si ferma invece al 10%, ben dentro la normale variazione storica, l'impresa si è già impegnata con stipendi e altri costi sulla base di ricavi che non si sono concretizzati. È un problema di flussi di cassa creato non da un singolo errore, ma dall'aver trattato una media come una certezza.
+[ESEMPIO ILLUSTRATIVO] Il funnel di vendita di un'impresa ha storicamente convertito in clienti paganti il 15% dei contatti qualificati, e il team costruisce il piano di assunzioni del prossimo trimestre ipotizzando lo stesso tasso del 15%. [IPOTESI] Se il tasso di conversione reale di quel trimestre si ferma invece al 10%, ben dentro la normale variazione storica, l'impresa si è già impegnata con stipendi e altri costi sulla base di ricavi che non si sono concretizzati. È un problema di flussi di cassa creato non da un singolo errore, ma dall'aver trattato una media come una certezza.
 
 ## Quiz di esercitazione
 

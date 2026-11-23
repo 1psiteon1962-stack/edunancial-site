@@ -30,11 +30,11 @@ Leson 1 te louvri tras sa a ak difikilte pou vrèman aplike "achte ba, vann wo".
 
 Men "poukisa" sa mete konpòtman ou vle a ladan l otomatikman: si aksyon yo te byen mache e kounye a yo fè 70% pòtfolyo a olye sib 60% la, reyekilibraj vle di vann kèk nan aksyon yo (ki te pran valè konpare ak rès la) e achte plis obligasyon (ki te rete dèyè) pou retabli sib orijinal la — mekanikman ou vann yon pati nan sa ki monte e ou achte yon pati nan sa ki pa monte, san ou pa bezwen prevwa pwochen mouvman mache a.
 
-[VERIFIED FACT] Ou ka fè reyekilibraj sou yon orè fiks (pa egzanp, chak ane) oswa deklanche l lè repatisyon yo deplase depase yon sèten limit — nenpòt nan de fason sa yo retire desizyon emosyonèl nan pwosesis la, e yo ranplase l ak yon règ ou te deja fikse davans.
+[FÈ VERIFYE] Ou ka fè reyekilibraj sou yon orè fiks (pa egzanp, chak ane) oswa deklanche l lè repatisyon yo deplase depase yon sèten limit — nenpòt nan de fason sa yo retire desizyon emosyonèl nan pwosesis la, e yo ranplase l ak yon règ ou te deja fikse davans.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè kòmanse ak yon pòtfolyo 60% aksyon / 40% obligasyon. Apre yon bon ane pou aksyon yo, pòtfolyo a deplase a 72% aksyon / 28% obligasyon. Reyekilibraj vle di vann ase aksyon e achte ase obligasyon pou tounen nan sib 60/40 la — mekanikman pran yon ti pwofi nan klas byen ki t ap genyen an e ajoute nan sa ki te rete dèyè a, dapre yon règ ki te fikse davans olye yon prediksyon sou sa ki pral rive apre. [ASSUMPTION] Si aksyon yo kontinye monte apre sa, reyekilibraj sa a te "koute" envestisè a yon ti pwofi anplis; si okontrè aksyon yo desann, reyekilibraj la sanble tankou yon bon prediksyon lè w gade dèyè — men kèlkeswa sa ki rive, yo te swiv pwosesis la yon fason konsistan olye yo te reyaji sou moman an.
+[EGZANP ILISTRATIF] Yon envestisè kòmanse ak yon pòtfolyo 60% aksyon / 40% obligasyon. Apre yon bon ane pou aksyon yo, pòtfolyo a deplase a 72% aksyon / 28% obligasyon. Reyekilibraj vle di vann ase aksyon e achte ase obligasyon pou tounen nan sib 60/40 la — mekanikman pran yon ti pwofi nan klas byen ki t ap genyen an e ajoute nan sa ki te rete dèyè a, dapre yon règ ki te fikse davans olye yon prediksyon sou sa ki pral rive apre. [SIPOZISYON] Si aksyon yo kontinye monte apre sa, reyekilibraj sa a te "koute" envestisè a yon ti pwofi anplis; si okontrè aksyon yo desann, reyekilibraj la sanble tankou yon bon prediksyon lè w gade dèyè — men kèlkeswa sa ki rive, yo te swiv pwosesis la yon fason konsistan olye yo te reyaji sou moman an.
 
 ## Egzamen pratik
 

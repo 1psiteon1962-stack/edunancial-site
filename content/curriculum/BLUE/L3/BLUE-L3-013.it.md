@@ -26,11 +26,11 @@ L'**utile** (o utile netto) è una misura contabile dei ricavi meno i costi in u
 
 Ecco il "perché" questo scarto conta così tanto nella pratica: un'impresa può essere in utile sulla carta, registrando una vendita come ricavo nel momento in cui viene fatta, mentre il pagamento reale di quella vendita non è ancora arrivato, magari perché al cliente sono stati concessi 60 giorni per pagare (un tema collegato al ciclo di conversione della cassa della Lezione 14). Nel frattempo, l'impresa deve comunque pagare i propri dipendenti e fornitori in denaro reale, secondo le loro scadenze, che i clienti abbiano già pagato oppure no.
 
-[VERIFIED FACT] Questo scarto è una delle principali cause, ben documentate, del fallimento delle piccole imprese: un'impresa può mostrare un utile nel conto economico mentre resta davvero senza il denaro necessario per far fronte agli impegni immediati, una situazione spesso descritta come "in utile ma senza liquidità".
+[FATTO VERIFICATO] Questo scarto è una delle principali cause, ben documentate, del fallimento delle piccole imprese: un'impresa può mostrare un utile nel conto economico mentre resta davvero senza il denaro necessario per far fronte agli impegni immediati, una situazione spesso descritta come "in utile ma senza liquidità".
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa completa un grande progetto e registra $100,000 di ricavi e $70,000 di utile per il mese, perché i costi del progetto sono stati $30,000. Secondo le condizioni del contratto, però, il cliente non deve pagare prima di 60 giorni. [ASSUMPTION] Nel frattempo, l'impresa deve comunque pagare subito in denaro i propri dipendenti e fornitori: se non ha abbastanza riserve di liquidità o altri finanziamenti per coprire quei 60 giorni, potrebbe trovarsi davvero senza cassa, pur mostrando sulla carta un utile solido e reale per lo stesso periodo.
+[ESEMPIO ILLUSTRATIVO] Un'impresa completa un grande progetto e registra $100,000 di ricavi e $70,000 di utile per il mese, perché i costi del progetto sono stati $30,000. Secondo le condizioni del contratto, però, il cliente non deve pagare prima di 60 giorni. [IPOTESI] Nel frattempo, l'impresa deve comunque pagare subito in denaro i propri dipendenti e fornitori: se non ha abbastanza riserve di liquidità o altri finanziamenti per coprire quei 60 giorni, potrebbe trovarsi davvero senza cassa, pur mostrando sulla carta un utile solido e reale per lo stesso periodo.
 
 ## Quiz di esercitazione
 

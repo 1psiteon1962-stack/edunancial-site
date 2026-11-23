@@ -30,7 +30,7 @@ Quali abitudini di leadership ti sono state utili quando il tuo team era più pi
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader che ha costruito un piccolo team rivedendo personalmente ogni decisione e restando strettamente coinvolto in ogni progetto continua con lo stesso approccio mentre l'organizzazione diventa molto più grande. [ASSUMPTION] Ciò che prima garantiva qualità e coesione ora crea un collo di bottiglia: le decisioni si accumulano in attesa dell'attenzione personale di questo leader, i membri del team si sentono privati della possibilità di agire senza un'approvazione esplicita e il ritmo dell'organizzazione rallenta fino a coincidere con ciò che una persona può rivedere personalmente, invece che con ciò che il team, ora più grande, potrebbe realizzare se avesse fiducia, autonomia e sistemi adeguati.
+[ESEMPIO ILLUSTRATIVO] Un leader che ha costruito un piccolo team rivedendo personalmente ogni decisione e restando strettamente coinvolto in ogni progetto continua con lo stesso approccio mentre l'organizzazione diventa molto più grande. [IPOTESI] Ciò che prima garantiva qualità e coesione ora crea un collo di bottiglia: le decisioni si accumulano in attesa dell'attenzione personale di questo leader, i membri del team si sentono privati della possibilità di agire senza un'approvazione esplicita e il ritmo dell'organizzazione rallenta fino a coincidere con ciò che una persona può rivedere personalmente, invece che con ciò che il team, ora più grande, potrebbe realizzare se avesse fiducia, autonomia e sistemi adeguati.
 
 ## Quiz di esercitazione
 

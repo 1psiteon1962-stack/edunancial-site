@@ -30,7 +30,7 @@ Gibt es eine Strategie oder Entscheidung, die du derzeit zumindest teilweise des
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft setzt sich öffentlich für eine bestimmte strategische Richtung ein, und während sich die Belege häufen, dass sie nicht funktioniert, verteidigt und finanziert sie sie weiter, statt den Fehler einzugestehen. [ASSUMPTION] Ganz im Sinne der Warnung des GOLDENEN Lernpfads vor unwiderlegbarem Denken behandelt diese Führungskraft jeden widersprechenden Beleg als Anlass, die Taktik anzupassen, statt die zugrunde liegende Strategie zu überdenken, und bindet weiter Mittel der Organisation an eine scheiternde Richtung – gerade um das persönliche Unbehagen zu vermeiden, einen Irrtum einzugestehen. So entstehen direkte, messbare finanzielle Kosten durch das Ego und nicht durch die Vorzüge der Strategie selbst.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft setzt sich öffentlich für eine bestimmte strategische Richtung ein, und während sich die Belege häufen, dass sie nicht funktioniert, verteidigt und finanziert sie sie weiter, statt den Fehler einzugestehen. [ANNAHME] Ganz im Sinne der Warnung des GOLDENEN Lernpfads vor unwiderlegbarem Denken behandelt diese Führungskraft jeden widersprechenden Beleg als Anlass, die Taktik anzupassen, statt die zugrunde liegende Strategie zu überdenken, und bindet weiter Mittel der Organisation an eine scheiternde Richtung – gerade um das persönliche Unbehagen zu vermeiden, einen Irrtum einzugestehen. So entstehen direkte, messbare finanzielle Kosten durch das Ego und nicht durch die Vorzüge der Strategie selbst.
 
 ## Übungsquiz
 1. Warum hat der egogetriebene Widerstand einer Führungskraft gegen das Eingestehen eines Fehlers direkte finanzielle Folgen?

@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Il percorso PURPLE di questo programma ha definito il dovere fiduciario come l'obbligo giuridico di agire nel migliore interesse di un'altra parte, citando come esempio comune il dovere degli amministratori di una società verso gli azionisti. [VERIFIED FACT] Nella maggior parte delle strutture di governo societario, il dovere fiduciario formale e giuridicamente vincolante è rivolto in modo specifico alla società e ai suoi azionisti, e non ai dipendenti nello stesso senso giuridico formale. È una distinzione importante e corretta, che questa lezione non intende confondere.
+Il percorso PURPLE di questo programma ha definito il dovere fiduciario come l'obbligo giuridico di agire nel migliore interesse di un'altra parte, citando come esempio comune il dovere degli amministratori di una società verso gli azionisti. [FATTO VERIFICATO] Nella maggior parte delle strutture di governo societario, il dovere fiduciario formale e giuridicamente vincolante è rivolto in modo specifico alla società e ai suoi azionisti, e non ai dipendenti nello stesso senso giuridico formale. È una distinzione importante e corretta, che questa lezione non intende confondere.
 
 Ecco il "perché" la responsabilità della leadership verso i dipendenti, discussa nella Lezione 14, ha caratteristiche importanti in comune con il dovere fiduciario anche senza essere formalmente identica: i dipendenti hanno affidato alle decisioni di un leader il proprio sostentamento, e spesso un impegno personale e professionale significativo, in modi che creano una dipendenza e una vulnerabilità reali. È un'eco della fiducia e della vulnerabilità su cui si basano i rapporti fiduciari formali trattati nel percorso PURPLE, anche dove gli obblighi giuridici specifici sono diversi.
 
@@ -32,7 +32,7 @@ Al di là degli obblighi giuridici specifici che si applicano formalmente, le tu
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader prende un'importante decisione organizzativa che rispetta formalmente il suo dovere fiduciario verso gli azionisti secondo la definizione del percorso PURPLE, ma considera poco, nella sostanza, l'impatto della decisione sui dipendenti che hanno costruito carriere e sostentamento intorno alla stabilità dell'organizzazione. [ASSUMPTION] Anche se questo leader non ha violato alcun obbligo fiduciario giuridico formale, questa lezione sostiene che non ha colto il peso sostanziale della fiducia che i dipendenti hanno riposto nel suo giudizio. È lo stesso punto della Lezione 14: una vera responsabilità del datore di lavoro va oltre qualunque minimo di legge o obbligo tecnico specifico che si applichi formalmente.
+[ESEMPIO ILLUSTRATIVO] Un leader prende un'importante decisione organizzativa che rispetta formalmente il suo dovere fiduciario verso gli azionisti secondo la definizione del percorso PURPLE, ma considera poco, nella sostanza, l'impatto della decisione sui dipendenti che hanno costruito carriere e sostentamento intorno alla stabilità dell'organizzazione. [IPOTESI] Anche se questo leader non ha violato alcun obbligo fiduciario giuridico formale, questa lezione sostiene che non ha colto il peso sostanziale della fiducia che i dipendenti hanno riposto nel suo giudizio. È lo stesso punto della Lezione 14: una vera responsabilità del datore di lavoro va oltre qualunque minimo di legge o obbligo tecnico specifico che si applichi formalmente.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ Sieh dir die Kennzahlen an, die dein Marketingteam derzeit als Erfolgsbeleg meld
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Marketingkampagne erzeugt eine sehr hohe Zahl an Impressionen und Interaktionen in sozialen Medien und wird intern als klarer Erfolg gemeldet. [ASSUMPTION] Ein genauerer Blick zeigt, dass diese Aufmerksamkeit zu sehr wenigen tatsächlich zahlenden Kunden geführt hat und die wenigen, die gekauft haben, eine deutlich höhere Abwanderungsrate als der Durchschnitt hatten – die Eitelkeitskennzahlen sahen beeindruckend aus, aber die tatsächlichen Geschäftsergebnisse, die sie abbilden sollten (profitable, gebundene Kunden), sind nie eingetreten. Das zeigt, warum die beeindruckende Wirkung einer Kennzahl allein nichts über ihren tatsächlichen geschäftlichen Wert aussagt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Marketingkampagne erzeugt eine sehr hohe Zahl an Impressionen und Interaktionen in sozialen Medien und wird intern als klarer Erfolg gemeldet. [ANNAHME] Ein genauerer Blick zeigt, dass diese Aufmerksamkeit zu sehr wenigen tatsächlich zahlenden Kunden geführt hat und die wenigen, die gekauft haben, eine deutlich höhere Abwanderungsrate als der Durchschnitt hatten – die Eitelkeitskennzahlen sahen beeindruckend aus, aber die tatsächlichen Geschäftsergebnisse, die sie abbilden sollten (profitable, gebundene Kunden), sind nie eingetreten. Das zeigt, warum die beeindruckende Wirkung einer Kennzahl allein nichts über ihren tatsächlichen geschäftlichen Wert aussagt.
 
 ## Übungsquiz
 1. Was ist grundsätzlich eine Eitelkeitskennzahl?

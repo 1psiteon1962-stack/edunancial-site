@@ -30,7 +30,7 @@ Bevor du deine Absatzprognose als feste Grundlage für wichtige Entscheidungen a
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen prognostiziert für das kommende Quartal einen bestimmten Umsatz, und diese Zahl wird zur Grundlage für den Einkauf von Lagerbestand, einen Einstellungsplan und eine Erhöhung des Marketingbudgets. [ASSUMPTION] Liegt der tatsächliche Absatz 20 % unter dieser Prognose, ist die Wirkung keine begrenzte Abweichung von 20 % – Lagerbestand, der auf Grundlage der überhöhten Annahme eingekauft wurde, bleibt unverkauft, die Gehälter neuer Mitarbeitender werden vom tatsächlichen Umsatz nicht getragen, und die höheren Marketingausgaben belasten die Liquidität zusätzlich. Der ursprüngliche Prognosefehler hat sich also zu einer deutlich größeren finanziellen Wirkung verstärkt, sobald man jede darauf aufbauende Entscheidung berücksichtigt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen prognostiziert für das kommende Quartal einen bestimmten Umsatz, und diese Zahl wird zur Grundlage für den Einkauf von Lagerbestand, einen Einstellungsplan und eine Erhöhung des Marketingbudgets. [ANNAHME] Liegt der tatsächliche Absatz 20 % unter dieser Prognose, ist die Wirkung keine begrenzte Abweichung von 20 % – Lagerbestand, der auf Grundlage der überhöhten Annahme eingekauft wurde, bleibt unverkauft, die Gehälter neuer Mitarbeitender werden vom tatsächlichen Umsatz nicht getragen, und die höheren Marketingausgaben belasten die Liquidität zusätzlich. Der ursprüngliche Prognosefehler hat sich also zu einer deutlich größeren finanziellen Wirkung verstärkt, sobald man jede darauf aufbauende Entscheidung berücksichtigt.
 
 ## Übungsquiz
 1. Warum dient eine Absatzprognose als Grundlage für viele andere Geschäftsentscheidungen?

@@ -30,7 +30,7 @@ Nella tua organizzazione c'è qualcuno che ha davvero il potere di mettere in di
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sicuro di sé ed esperto prende un'importante decisione strategica, esprimendo una forte convinzione durante una riunione del team. [ASSUMPTION] I membri del team, rimettendosi alla sicurezza e al ruolo del leader, non esprimono le loro vere riserve né mettono in discussione in modo indipendente le ipotesi di fondo. Come nella discussione sull'eccesso di sicurezza del percorso GOLD, il pregiudizio individuale del leader si propaga nel processo decisionale del team senza il controllo naturale che avrebbe potuto offrire un insieme vario di prospettive davvero libere di esprimersi. Questo mostra perché costruire meccanismi strutturali per un vero confronto critico conta di più, e non di meno, man mano che crescono la sicurezza e l'autorità di un leader.
+[ESEMPIO ILLUSTRATIVO] Un leader sicuro di sé ed esperto prende un'importante decisione strategica, esprimendo una forte convinzione durante una riunione del team. [IPOTESI] I membri del team, rimettendosi alla sicurezza e al ruolo del leader, non esprimono le loro vere riserve né mettono in discussione in modo indipendente le ipotesi di fondo. Come nella discussione sull'eccesso di sicurezza del percorso GOLD, il pregiudizio individuale del leader si propaga nel processo decisionale del team senza il controllo naturale che avrebbe potuto offrire un insieme vario di prospettive davvero libere di esprimersi. Questo mostra perché costruire meccanismi strutturali per un vero confronto critico conta di più, e non di meno, man mano che crescono la sicurezza e l'autorità di un leader.
 
 ## Quiz di esercitazione
 

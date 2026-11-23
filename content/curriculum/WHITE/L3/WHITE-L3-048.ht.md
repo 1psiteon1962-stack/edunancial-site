@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" gwosè pozisyon se pwòp fòm kontwòl risk pa l, separe de kalite chwa envestisman an: pa gen okenn sèl lide envestisman, kèlkeswa jan ou fè rechèch sou li byen, ki garanti pou l mache — evènman ou pa t atann, nouvo enfòmasyon, oswa senpleman move chans ka afekte menm yon pozisyon ou chwazi ak anpil atansyon. Si pozisyon sa a reprezante yon ti pati nan yon pòtfolyo, yon rezilta ki desevwa se yon ti reki ou ka jere. Si li reprezante yon trè gwo pati, menm rezilta ki desevwa a ka fè tout pòtfolyo a mal anpil, kèlkeswa jan rezònman orijinal la te solid.
 
-[VERIFIED FACT] Sa konekte ak yon prensip pi laj yo itilize yon lòt kote nan pwogram sa a, sou jan pou òganize risk yon fason pou pèt yo reyèl e ou santi yo, pou yo anseye w vrè leson, men pou yo pa janm katastwofik pou sitiyasyon finansye total ou — gwosè pozisyon se youn nan zouti ki pi dirèk e ou ka kontwole pi byen yon envestisè genyen pou kenbe pèt posib nenpòt sèl pozisyon nan yon limit li ka sipòte.
+[FÈ VERIFYE] Sa konekte ak yon prensip pi laj yo itilize yon lòt kote nan pwogram sa a, sou jan pou òganize risk yon fason pou pèt yo reyèl e ou santi yo, pou yo anseye w vrè leson, men pou yo pa janm katastwofik pou sitiyasyon finansye total ou — gwosè pozisyon se youn nan zouti ki pi dirèk e ou ka kontwole pi byen yon envestisè genyen pou kenbe pèt posib nenpòt sèl pozisyon nan yon limit li ka sipòte.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè idantifye sa li kwè se yon bon okazyon envestisman apre li fin fè rechèch ak atansyon. Si li mete 5% nan pòtfolyo li nan lide sa a, sa vle di si li mal tounen — menm yon pèt total sou pozisyon sa a — domaj la sou pòtfolyo total li limite e li ka refè. [ASSUMPTION] Si li mete 50% nan pòtfolyo li nan menm lide a, ki baze sou menm rechèch la ak menm konviksyon an, sa vle di menm move rezilta a ta ka fè tout sitiyasyon finansye li fè bak anpil — kalite lide a pa t chanje, men gwosè pozisyon an te chanje anpil konbyen rezilta espesifik sa a te ka fè l mal.
+[EGZANP ILISTRATIF] Yon envestisè idantifye sa li kwè se yon bon okazyon envestisman apre li fin fè rechèch ak atansyon. Si li mete 5% nan pòtfolyo li nan lide sa a, sa vle di si li mal tounen — menm yon pèt total sou pozisyon sa a — domaj la sou pòtfolyo total li limite e li ka refè. [SIPOZISYON] Si li mete 50% nan pòtfolyo li nan menm lide a, ki baze sou menm rechèch la ak menm konviksyon an, sa vle di menm move rezilta a ta ka fè tout sitiyasyon finansye li fè bak anpil — kalite lide a pa t chanje, men gwosè pozisyon an te chanje anpil konbyen rezilta espesifik sa a te ka fè l mal.
 
 ## Egzamen pratik
 

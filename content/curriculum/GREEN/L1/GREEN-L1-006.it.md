@@ -34,11 +34,11 @@ L'importo dipende di solito dal valore stimato dell'immobile. L'amministrazione 
 
 Questa imposta resta di solito all'ente locale e aiuta a pagare scuole, strade, parchi e servizi di emergenza della zona. Per chi investe in immobili è un costo fisso da mettere nei conti, anche se l'immobile è sfitto.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Anna ha comprato una casa valutata $200.000. Nel nostro esempio l'imposta locale è dell'1% all'anno. Quanto paga?
 

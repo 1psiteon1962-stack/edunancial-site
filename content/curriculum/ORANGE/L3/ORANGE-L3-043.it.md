@@ -30,7 +30,7 @@ Prima di lanciare un programma di referral, le sue condizioni sono abbastanza sp
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa lancia un programma di referral con una promessa semplice e vaga: "presenta un amico e ricevi una ricompensa". Un cliente segnala diversi amici, alcuni dei quali si iscrivono per poco e poi annullano quasi subito. [ASSUMPTION] Senza condizioni chiare che specifichino se la ricompensa si ottiene al momento dell'iscrizione o solo dopo un periodo minimo di permanenza, l'impresa si trova in una vera controversia con il cliente sul fatto che queste segnalazioni siano davvero valide. È un problema che un programma redatto in modo più specifico, applicando gli stessi principi di chiarezza contrattuale trattati nel percorso PURPLE, avrebbe evitato fin dall'inizio.
+[ESEMPIO ILLUSTRATIVO] Un'impresa lancia un programma di referral con una promessa semplice e vaga: "presenta un amico e ricevi una ricompensa". Un cliente segnala diversi amici, alcuni dei quali si iscrivono per poco e poi annullano quasi subito. [IPOTESI] Senza condizioni chiare che specifichino se la ricompensa si ottiene al momento dell'iscrizione o solo dopo un periodo minimo di permanenza, l'impresa si trova in una vera controversia con il cliente sul fatto che queste segnalazioni siano davvero valide. È un problema che un programma redatto in modo più specifico, applicando gli stessi principi di chiarezza contrattuale trattati nel percorso PURPLE, avrebbe evitato fin dall'inizio.
 
 ## Quiz di esercitazione
 

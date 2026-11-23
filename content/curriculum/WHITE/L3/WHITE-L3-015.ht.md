@@ -30,11 +30,11 @@ Pifò diskisyon sou rannman envestisman konsantre sou rannman mwayèn chak ane s
 
 Men "poukisa" lòd la enpòtan konsa pandan retrè yo: si yon pòtfolyo gen move rannman bonè nan yon peryòd retrè, envestisè a oblije vann plis aksyon (oswa yon pi gwo pousantaj nan pòtfolyo a) nan pri ki ba pou finanse chak retrè, sa ki diminye pou tout tan baz byen ki rete pou l remonte lè mache a finalman amelyore. Menm move rannman yo, si yo rive pita, apre kèk ane retrè, fè mwens dega — senpleman gen mwens tan ki rete pou dega bonè a akimile nan move sans.
 
-[VERIFIED FACT] Pandan faz akimilasyon an (lè yon envestisè ap ajoute lajan, pa retire), lòd rannman yo enpòtan anpil mwens, paske pa gen okenn vant fòse pandan yon bès — envestisè a ka senpleman kontinye kontribye e tann yon rekiperasyon san li pa oblije bloke pèt atravè retrè.
+[FÈ VERIFYE] Pandan faz akimilasyon an (lè yon envestisè ap ajoute lajan, pa retire), lòd rannman yo enpòtan anpil mwens, paske pa gen okenn vant fòse pandan yon bès — envestisè a ka senpleman kontinye kontribye e tann yon rekiperasyon san li pa oblije bloke pèt atravè retrè.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] De retrete chak kòmanse ak menm valè pòtfolyo e yo retire menm kantite lajan chak ane, e toude jwenn egzakteman menm rannman mwayèn chak ane sou 20 ane — men nan yon lòd diferan. Retrete A jwenn move rannman nan premye ane retrèt li yo, sa ki fòse l fè pi gwo retrè (an pousantaj yon pòtfolyo k ap rapetise) pandan bès sa a. Retrete B jwenn menm move ane yo, men pita nan peryòd 20 ane a, apre pòtfolyo a te deja grandi gras a bon ane anvan yo. [ASSUMPTION] Malgre rannman mwayèn yo idantik, pòtfolyo Retrete A ka tonbe san lajan byen anvan pa Retrete B, sèlman akoz ki lè move rannman yo te rive pa rapò ak orè retrè a.
+[EGZANP ILISTRATIF] De retrete chak kòmanse ak menm valè pòtfolyo e yo retire menm kantite lajan chak ane, e toude jwenn egzakteman menm rannman mwayèn chak ane sou 20 ane — men nan yon lòd diferan. Retrete A jwenn move rannman nan premye ane retrèt li yo, sa ki fòse l fè pi gwo retrè (an pousantaj yon pòtfolyo k ap rapetise) pandan bès sa a. Retrete B jwenn menm move ane yo, men pita nan peryòd 20 ane a, apre pòtfolyo a te deja grandi gras a bon ane anvan yo. [SIPOZISYON] Malgre rannman mwayèn yo idantik, pòtfolyo Retrete A ka tonbe san lajan byen anvan pa Retrete B, sèlman akoz ki lè move rannman yo te rive pa rapò ak orè retrè a.
 
 ## Egzamen pratik
 

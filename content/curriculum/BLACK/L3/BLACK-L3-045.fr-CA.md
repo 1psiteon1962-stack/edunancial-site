@@ -30,7 +30,7 @@ Le schéma réel de prise de risque de ton organisation reflète-t-il un jugemen
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader qui a personnellement une très forte aversion au risque rejette systématiquement les propositions qui comportent une incertitude significative, peu importe leur mérite réel une fois ajusté au risque. [ASSUMPTION] Avec le temps, les employés apprennent que les propositions présentées comme peu risquées sont approuvées et que tout ce qui est perçu comme risqué est rejeté, peu importe le rendement sous-jacent ajusté au risque — le schéma réel de prise de risque de l'organisation finit par refléter la disposition personnelle de ce leader plutôt que le jugement réfléchi et ajusté au risque, au cas par cas, que le parcours GOLD de ce programme a souligné tout au long, ce qui amène l'organisation à rater systématiquement des occasions dont le profil ajusté au risque est vraiment favorable.
+[EXEMPLE ILLUSTRATIF] Un leader qui a personnellement une très forte aversion au risque rejette systématiquement les propositions qui comportent une incertitude significative, peu importe leur mérite réel une fois ajusté au risque. [HYPOTHÈSE] Avec le temps, les employés apprennent que les propositions présentées comme peu risquées sont approuvées et que tout ce qui est perçu comme risqué est rejeté, peu importe le rendement sous-jacent ajusté au risque — le schéma réel de prise de risque de l'organisation finit par refléter la disposition personnelle de ce leader plutôt que le jugement réfléchi et ajusté au risque, au cas par cas, que le parcours GOLD de ce programme a souligné tout au long, ce qui amène l'organisation à rater systématiquement des occasions dont le profil ajusté au risque est vraiment favorable.
 
 ## Quiz de pratique
 

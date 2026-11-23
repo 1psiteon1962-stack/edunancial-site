@@ -32,7 +32,7 @@ Dans tes propres pratiques marketing, où le choix éthique et le choix qui réd
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise se demande si elle doit justifier rigoureusement une affirmation marketing avant de la publier, ou publier une version plus impressionnante, mais moins rigoureusement vérifiée. [ASSUMPTION] La version rigoureusement justifiée est à la fois le choix le plus éthique et le choix le moins risqué, compte tenu de l'exposition juridique abordée à la leçon 7 et de la vulnérabilité de la réputation abordée à la leçon 4 — dans ce cas, l'éthique et la gestion des risques vont dans la même direction, ce qui rend la décision simple, même si un spécialiste du marketing vraiment éthique pourrait faire le même choix honnête même dans une situation hypothétique où le risque juridique ou de réputation lié à l'exagération serait plus faible.
+[EXEMPLE ILLUSTRATIF] Une entreprise se demande si elle doit justifier rigoureusement une affirmation marketing avant de la publier, ou publier une version plus impressionnante, mais moins rigoureusement vérifiée. [HYPOTHÈSE] La version rigoureusement justifiée est à la fois le choix le plus éthique et le choix le moins risqué, compte tenu de l'exposition juridique abordée à la leçon 7 et de la vulnérabilité de la réputation abordée à la leçon 4 — dans ce cas, l'éthique et la gestion des risques vont dans la même direction, ce qui rend la décision simple, même si un spécialiste du marketing vraiment éthique pourrait faire le même choix honnête même dans une situation hypothétique où le risque juridique ou de réputation lié à l'exagération serait plus faible.
 
 ## Quiz de pratique
 

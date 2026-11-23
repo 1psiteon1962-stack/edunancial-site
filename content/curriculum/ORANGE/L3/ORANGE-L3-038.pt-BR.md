@@ -30,7 +30,7 @@ Antes de apresentar o ROI de uma campanha de marketing como sucesso: o cálculo 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma campanha informa ter gastado um valor específico em anúncios e gerado várias vezes esse valor em receita, e isso é apresentado internamente como um sucesso claro de ROI. [ASSUMPTION] Uma conta mais completa — incluindo o tempo considerável que o time de marketing dedicou a administrar a campanha, o custo total de entregar de fato o produto aos clientes conquistados e o custo de oportunidade de a atenção desse time não ter sido direcionada para outro lugar — revela que o retorno verdadeiro da campanha é bem mais modesto do que o número em destaque sugeria, o que mostra por que uma simples relação entre gasto com anúncios e receita pode criar uma imagem enganosamente otimista do desempenho real do marketing.
+[EXEMPLO ILUSTRATIVO] Uma campanha informa ter gastado um valor específico em anúncios e gerado várias vezes esse valor em receita, e isso é apresentado internamente como um sucesso claro de ROI. [SUPOSIÇÃO] Uma conta mais completa — incluindo o tempo considerável que o time de marketing dedicou a administrar a campanha, o custo total de entregar de fato o produto aos clientes conquistados e o custo de oportunidade de a atenção desse time não ter sido direcionada para outro lugar — revela que o retorno verdadeiro da campanha é bem mais modesto do que o número em destaque sugeria, o que mostra por que uma simples relação entre gasto com anúncios e receita pode criar uma imagem enganosamente otimista do desempenho real do marketing.
 
 ## Teste de prática
 

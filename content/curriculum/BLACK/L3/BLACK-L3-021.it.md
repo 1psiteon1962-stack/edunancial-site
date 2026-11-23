@@ -30,7 +30,7 @@ Guarda la tua agenda della settimana scorsa. Quali impegni avrebbero superato la
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader valuta con attenzione ogni spesa finanziaria importante con un'analisi costi-benefici rigorosa, ma accetta quasi ogni richiesta di riunione e ogni impegno in agenda senza applicare nulla di paragonabile a quello stesso esame. [ASSUMPTION] Applicando al tempo la stessa disciplina del costo opportunità dei percorsi GOLD e ORANGE, questo leader si rende conto che molti impegni in agenda non supererebbero la stessa valutazione a cui verrebbe sottoposta una spesa finanziaria paragonabile. Questo lo spinge a un modo più deliberato e disciplinato di distribuire il proprio tempo, trattando le ore con lo stesso rigore che prima riservava solo ai soldi.
+[ESEMPIO ILLUSTRATIVO] Un leader valuta con attenzione ogni spesa finanziaria importante con un'analisi costi-benefici rigorosa, ma accetta quasi ogni richiesta di riunione e ogni impegno in agenda senza applicare nulla di paragonabile a quello stesso esame. [IPOTESI] Applicando al tempo la stessa disciplina del costo opportunità dei percorsi GOLD e ORANGE, questo leader si rende conto che molti impegni in agenda non supererebbero la stessa valutazione a cui verrebbe sottoposta una spesa finanziaria paragonabile. Questo lo spinge a un modo più deliberato e disciplinato di distribuire il proprio tempo, trattando le ore con lo stesso rigore che prima riservava solo ai soldi.
 
 ## Quiz di esercitazione
 

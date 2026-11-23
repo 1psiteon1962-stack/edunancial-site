@@ -32,7 +32,7 @@ Si ton entreprise obtient actuellement la plupart de ses clients d'un seul canal
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise réalise la grande majorité de son acquisition de clients au moyen d'une seule plateforme publicitaire, en appréciant son faible coût actuel par acquisition. [ASSUMPTION] Lorsque cette plateforme modifie fortement son algorithme ou sa structure de prix, le coût d'acquisition de l'entreprise grimpe en flèche et le volume chute fortement, sans qu'aucun autre canal établi ne soit assez mature pour combler l'écart — un risque de concentration directement comparable au fait de détenir une seule catégorie d'actifs, comme on l'a vu dans les parcours WHITE et GOLD, qu'une combinaison de canaux plus diversifiée aurait aidé à atténuer.
+[EXEMPLE ILLUSTRATIF] Une entreprise réalise la grande majorité de son acquisition de clients au moyen d'une seule plateforme publicitaire, en appréciant son faible coût actuel par acquisition. [HYPOTHÈSE] Lorsque cette plateforme modifie fortement son algorithme ou sa structure de prix, le coût d'acquisition de l'entreprise grimpe en flèche et le volume chute fortement, sans qu'aucun autre canal établi ne soit assez mature pour combler l'écart — un risque de concentration directement comparable au fait de détenir une seule catégorie d'actifs, comme on l'a vu dans les parcours WHITE et GOLD, qu'une combinaison de canaux plus diversifiée aurait aidé à atténuer.
 
 ## Quiz de pratique
 

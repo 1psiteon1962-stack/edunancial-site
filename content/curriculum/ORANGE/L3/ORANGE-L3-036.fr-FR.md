@@ -32,7 +32,7 @@ Avant d'engager un budget de marketing important dans une commandite ou un parte
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise engage un budget de marketing important pour commanditer un événement ou un organisme bien connu, évalué surtout selon la portée auprès du public et la compatibilité avec la marque que promet la commandite. [ASSUMPTION] Sans contrôle diligent supplémentaire sur la stabilité financière de l'organisme commandité, celui-ci fait plus tard face à d'importantes difficultés financières ou à des problèmes de réputation qui lui sont propres, ce qui compromet la valeur de la commandite et crée un risque de réputation par association (en écho à la leçon 4) — un risque qu'un contrôle diligent plus approfondi, digne d'un placement et semblable à l'évaluation d'un gestionnaire de fonds abordée dans le parcours GOLD, aurait peut-être repéré avant que l'engagement ne soit pris.
+[EXEMPLE ILLUSTRATIF] Une entreprise engage un budget de marketing important pour commanditer un événement ou un organisme bien connu, évalué surtout selon la portée auprès du public et la compatibilité avec la marque que promet la commandite. [HYPOTHÈSE] Sans contrôle diligent supplémentaire sur la stabilité financière de l'organisme commandité, celui-ci fait plus tard face à d'importantes difficultés financières ou à des problèmes de réputation qui lui sont propres, ce qui compromet la valeur de la commandite et crée un risque de réputation par association (en écho à la leçon 4) — un risque qu'un contrôle diligent plus approfondi, digne d'un placement et semblable à l'évaluation d'un gestionnaire de fonds abordée dans le parcours GOLD, aurait peut-être repéré avant que l'engagement ne soit pris.
 
 ## Quiz de pratique
 

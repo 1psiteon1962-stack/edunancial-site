@@ -34,11 +34,11 @@ Spesso esistono due scadenze diverse: quella per presentare la dichiarazione e q
 
 Mancare una scadenza di solito comporta sanzioni e interessi, che crescono nel tempo. Anche quando non riesci a pagare tutto, presentare la dichiarazione in tempo è di solito meglio che non presentare nulla. Le date esatte variano per Paese; segna le tue sul calendario ogni anno.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Gabriele sa che dovrà delle imposte, ma non ha tutto il denaro. Pensa: "Se non posso pagare, non presento nemmeno la dichiarazione." Ha senso?
 

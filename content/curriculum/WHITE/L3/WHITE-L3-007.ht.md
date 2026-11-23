@@ -30,11 +30,11 @@ Valè yon opsyon soti nan de eleman: valè intrinsèk (konbyen pri egzèsis la d
 
 Men "poukisa" sa rive: mwens tan ki rete vle di mwens opòtinite pou pri byen ki dèyè l la bouje nan bon direksyon anvan opsyon an ekspire. Yon opsyon ki gen sis mwa anvan ekspirasyon gen plis tan anpil pou l ta ka vin pwofitab pase yon opsyon idantik ki gen yon semèn ki rete — kidonk li vo plis, si tout lòt bagay egal, sèlman akoz tan anplis la.
 
-[VERIFIED FACT] Pèt valè avèk tan pa fèt an liy dwat — anjeneral li akselere pandan ekspirasyon ap pwoche, sa vle di yon opsyon ka pèdi yon gwo pati nan valè tan ki rete l nan dènye semèn oswa dènye jou li yo, menm si pri byen ki dèyè l la pa bouje ditou. Se pou sa moun ki achte opsyon ap travay kont yon revèy k ap rapetise tout tan, pandan moun ki vann opsyon (pwochen leson an ap kouvri sa) anjeneral benefisye de menm tan k ap pase a.
+[FÈ VERIFYE] Pèt valè avèk tan pa fèt an liy dwat — anjeneral li akselere pandan ekspirasyon ap pwoche, sa vle di yon opsyon ka pèdi yon gwo pati nan valè tan ki rete l nan dènye semèn oswa dènye jou li yo, menm si pri byen ki dèyè l la pa bouje ditou. Se pou sa moun ki achte opsyon ap travay kont yon revèy k ap rapetise tout tan, pandan moun ki vann opsyon (pwochen leson an ap kouvri sa) anjeneral benefisye de menm tan k ap pase a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè achte yon opsyon call ki gen twa mwa anvan ekspirasyon. Pri aksyon ki dèyè l la rete egzakteman plat pandan de premye mwa yo. Malgre pa gen okenn mouvman pri ditou, valè opsyon an deja bese yon fason serye pandan de mwa sa yo, sèlman akoz pèt valè avèk tan — senpleman gen mwens tan ki rete pou aksyon an fè mouvman ki ta fè opsyon an pwofitab. [ASSUMPTION] Nan dènye mwa a, pandan ekspirasyon ap pwoche, ewozyon valè tan sa a akselere plis toujou, kidonk menm yon ti reta anplis nan mouvman aksyon an ka fè valè ki rete opsyon an anpil mal.
+[EGZANP ILISTRATIF] Yon envestisè achte yon opsyon call ki gen twa mwa anvan ekspirasyon. Pri aksyon ki dèyè l la rete egzakteman plat pandan de premye mwa yo. Malgre pa gen okenn mouvman pri ditou, valè opsyon an deja bese yon fason serye pandan de mwa sa yo, sèlman akoz pèt valè avèk tan — senpleman gen mwens tan ki rete pou aksyon an fè mouvman ki ta fè opsyon an pwofitab. [SIPOZISYON] Nan dènye mwa a, pandan ekspirasyon ap pwoche, ewozyon valè tan sa a akselere plis toujou, kidonk menm yon ti reta anplis nan mouvman aksyon an ka fè valè ki rete opsyon an anpil mal.
 
 ## Egzamen pratik
 

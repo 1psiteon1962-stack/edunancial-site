@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-On traite souvent une politique de remboursement comme une décision de service à la clientèle ou de ton de marque — amicale et généreuse, ou stricte et protectrice de la marge. Voici « pourquoi » c'est aussi, en même temps, un énoncé de conditions juridiquement contraignant : [VERIFIED FACT] dans de nombreux territoires, la politique de remboursement déclarée d'une entreprise fait partie des conditions de vente, et les lois sur la protection du consommateur peuvent imposer des exigences minimales supplémentaires, peu importe ce que prévoit la propre politique de l'entreprise, en écho à la discussion du parcours PURPLE sur les protections légales obligatoires qu'on ne peut pas simplement écarter par contrat.
+On traite souvent une politique de remboursement comme une décision de service à la clientèle ou de ton de marque — amicale et généreuse, ou stricte et protectrice de la marge. Voici « pourquoi » c'est aussi, en même temps, un énoncé de conditions juridiquement contraignant : [FAIT VÉRIFIÉ] dans de nombreux territoires, la politique de remboursement déclarée d'une entreprise fait partie des conditions de vente, et les lois sur la protection du consommateur peuvent imposer des exigences minimales supplémentaires, peu importe ce que prévoit la propre politique de l'entreprise, en écho à la discussion du parcours PURPLE sur les protections légales obligatoires qu'on ne peut pas simplement écarter par contrat.
 
 C'est pourquoi une politique de remboursement exige la même attention soignée à la rédaction que tout autre document juridiquement important — un libellé vague crée une ambiguïté qui mène à des litiges, alors qu'une politique trop restrictive, même si elle est techniquement légale, peut créer l'atteinte à la réputation abordée à la leçon 4 lorsque des clients se sentent traités injustement et racontent publiquement leur expérience, qu'une loi ait réellement été enfreinte ou non.
 
@@ -32,7 +32,7 @@ Avant de finaliser une politique de remboursement, traite-t-elle clairement les 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise rédige une politique de remboursement au libellé vague parlant de « circonstances raisonnables » pour un remboursement, sans préciser clairement ce que ça veut dire en pratique. [ASSUMPTION] Lorsqu'un client demande un remboursement dans des circonstances que l'entreprise juge déraisonnables, mais que le client juge tout à fait raisonnables, cette ambiguïté crée un litige qu'une politique rédigée plus clairement aurait évité — et, selon les exigences de protection du consommateur du territoire applicable, l'interprétation restrictive de l'entreprise pourrait même ne pas être juridiquement exécutoire, peu importe ce que prévoit sa propre politique.
+[EXEMPLE ILLUSTRATIF] Une entreprise rédige une politique de remboursement au libellé vague parlant de « circonstances raisonnables » pour un remboursement, sans préciser clairement ce que ça veut dire en pratique. [HYPOTHÈSE] Lorsqu'un client demande un remboursement dans des circonstances que l'entreprise juge déraisonnables, mais que le client juge tout à fait raisonnables, cette ambiguïté crée un litige qu'une politique rédigée plus clairement aurait évité — et, selon les exigences de protection du consommateur du territoire applicable, l'interprétation restrictive de l'entreprise pourrait même ne pas être juridiquement exécutoire, peu importe ce que prévoit sa propre politique.
 
 ## Quiz de pratique
 

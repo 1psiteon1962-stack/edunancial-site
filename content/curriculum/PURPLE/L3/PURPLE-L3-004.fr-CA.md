@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-La leçon 3 a établi que la gravité d'une violation détermine le recours offert. Voici le « pourquoi » de la nature générale de ce recours lui-même : [VERIFIED FACT] le droit des contrats vise généralement à placer la partie qui n'est pas en faute dans la situation où elle aurait été si le contrat avait été correctement exécuté — ce qu'on appelle couramment la placer dans sa situation « attendue » —, plutôt qu'à punir la partie en faute d'avoir manqué à sa promesse.
+La leçon 3 a établi que la gravité d'une violation détermine le recours offert. Voici le « pourquoi » de la nature générale de ce recours lui-même : [FAIT VÉRIFIÉ] le droit des contrats vise généralement à placer la partie qui n'est pas en faute dans la situation où elle aurait été si le contrat avait été correctement exécuté — ce qu'on appelle couramment la placer dans sa situation « attendue » —, plutôt qu'à punir la partie en faute d'avoir manqué à sa promesse.
 
 C'est pourquoi les **dommages-intérêts compensatoires** — un montant destiné à couvrir le préjudice financier réel et prouvable causé par la violation — sont le recours habituel par défaut, et pourquoi les **dommages-intérêts punitifs** — des dommages-intérêts destinés précisément à punir l'auteur de la faute au-delà de l'indemnisation du préjudice réel de l'autre partie — ne sont généralement pas offerts dans un cas typique de violation de contrat, même pour une violation délibérée et intentionnelle, dans la plupart des systèmes juridiques. (Au Canada, ils restent exceptionnels en matière contractuelle; au Québec, ils ne sont accordés que lorsqu'une loi le prévoit expressément.)
 
@@ -32,7 +32,7 @@ Cette approche générale reflète une philosophie juridique précise : le droit
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise viole un contrat, ce qui fait subir à l'autre partie une perte financière précise et prouvable. La partie qui n'est pas en faute peut généralement obtenir des dommages-intérêts compensatoires reflétant ce préjudice financier précis, ce qui la place à peu près dans la situation où elle aurait été si le contrat avait été exécuté comme convenu. [ASSUMPTION] Même si la violation était délibérée et pouvait être vue comme une décision d'affaires calculée de ne pas tenir la promesse, la partie qui n'est pas en faute ne peut généralement pas obtenir des dommages-intérêts punitifs supplémentaires simplement pour punir ce choix délibéré, au-delà du montant compensatoire réel reflétant son véritable préjudice financier — ce qui reflète l'accent général du droit des contrats sur l'indemnisation plutôt que sur la punition.
+[EXEMPLE ILLUSTRATIF] Une entreprise viole un contrat, ce qui fait subir à l'autre partie une perte financière précise et prouvable. La partie qui n'est pas en faute peut généralement obtenir des dommages-intérêts compensatoires reflétant ce préjudice financier précis, ce qui la place à peu près dans la situation où elle aurait été si le contrat avait été exécuté comme convenu. [HYPOTHÈSE] Même si la violation était délibérée et pouvait être vue comme une décision d'affaires calculée de ne pas tenir la promesse, la partie qui n'est pas en faute ne peut généralement pas obtenir des dommages-intérêts punitifs supplémentaires simplement pour punir ce choix délibéré, au-delà du montant compensatoire réel reflétant son véritable préjudice financier — ce qui reflète l'accent général du droit des contrats sur l'indemnisation plutôt que sur la punition.
 
 ## Quiz de pratique
 

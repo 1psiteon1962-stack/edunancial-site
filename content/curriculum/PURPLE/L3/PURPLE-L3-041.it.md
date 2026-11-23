@@ -22,15 +22,15 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-La **prescrizione** fissa in genere un limite di tempo specifico entro cui una pretesa giuridica deve essere fatta valere; trascorso quel termine, la pretesa è in genere del tutto preclusa, a prescindere dal suo merito. [VERIFIED FACT] I termini specifici cambiano molto a seconda dell'ordinamento e del tipo di pretesa: categorie diverse di azioni giudiziarie (controversie contrattuali, richieste di risarcimento per danni alla persona e altre) hanno spesso termini di prescrizione diversi.
+La **prescrizione** fissa in genere un limite di tempo specifico entro cui una pretesa giuridica deve essere fatta valere; trascorso quel termine, la pretesa è in genere del tutto preclusa, a prescindere dal suo merito. [FATTO VERIFICATO] I termini specifici cambiano molto a seconda dell'ordinamento e del tipo di pretesa: categorie diverse di azioni giudiziarie (controversie contrattuali, richieste di risarcimento per danni alla persona e altre) hanno spesso termini di prescrizione diversi.
 
-Ecco il "perché" generale di questo limite di tempo: [VERIFIED FACT] la prescrizione serve in genere a incoraggiare chi ha una pretesa a farla valere finché le prove e i ricordi dei testimoni sono ancora relativamente freschi e affidabili, e a dare ai potenziali convenuti, alla fine, una certa sicurezza e tranquillità, invece di esporli per sempre al rischio di una causa per fatti accaduti magari molti anni prima.
+Ecco il "perché" generale di questo limite di tempo: [FATTO VERIFICATO] la prescrizione serve in genere a incoraggiare chi ha una pretesa a farla valere finché le prove e i ricordi dei testimoni sono ancora relativamente freschi e affidabili, e a dare ai potenziali convenuti, alla fine, una certa sicurezza e tranquillità, invece di esporli per sempre al rischio di una causa per fatti accaduti magari molti anni prima.
 
 Per questo una pretesa del tutto valida e fondata può diventare definitivamente preclusa solo perché è stata fatta valere dopo la scadenza del termine applicabile: una volta maturata la prescrizione, il merito della pretesa diventa in genere irrilevante sul piano giuridico. Capire e tenere sotto controllo la scadenza applicabile conta quindi quanto la solidità della pretesa stessa.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una persona ha una pretesa giuridica davvero valida nata da un fatto specifico, ma non si attiva per farla valere fino a molto dopo la scadenza del termine di prescrizione previsto per quel tipo di pretesa. [ASSUMPTION] Anche se la pretesa avrebbe potuto essere del tutto fondata, un tribunale probabilmente la respingerebbe perché prescritta, dato che il termine era già scaduto. Questo mostra perché il momento in cui si fa valere una pretesa può contare quanto, o anche più, della reale solidità dei fatti su cui si basa.
+[ESEMPIO ILLUSTRATIVO] Una persona ha una pretesa giuridica davvero valida nata da un fatto specifico, ma non si attiva per farla valere fino a molto dopo la scadenza del termine di prescrizione previsto per quel tipo di pretesa. [IPOTESI] Anche se la pretesa avrebbe potuto essere del tutto fondata, un tribunale probabilmente la respingerebbe perché prescritta, dato che il termine era già scaduto. Questo mostra perché il momento in cui si fa valere una pretesa può contare quanto, o anche più, della reale solidità dei fatti su cui si basa.
 
 ## Quiz di esercitazione
 

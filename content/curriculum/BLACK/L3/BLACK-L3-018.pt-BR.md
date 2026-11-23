@@ -30,7 +30,7 @@ O conselho de administração da sua organização (ou a estrutura de fiscaliza�
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] O conselho de administração de uma empresa aprova, de forma sistemática, todas as propostas da liderança executiva sem contestação de fundo nem questionamento independente, orgulhando-se de reuniões tranquilas e harmoniosas. [ASSUMPTION] Essa aparente harmonia reflete, na verdade, uma falha de governança, e não um sucesso — o dever fiduciário do conselho, de acordo com a discussão da trilha PURPLE, é com a organização e as partes interessadas dela, e um conselho que nunca exerce a contestação real descrita na Lição 10 não está cumprindo a função de fiscalização para a qual existe, por mais confortável que pareça a relação com a liderança executiva.
+[EXEMPLO ILUSTRATIVO] O conselho de administração de uma empresa aprova, de forma sistemática, todas as propostas da liderança executiva sem contestação de fundo nem questionamento independente, orgulhando-se de reuniões tranquilas e harmoniosas. [SUPOSIÇÃO] Essa aparente harmonia reflete, na verdade, uma falha de governança, e não um sucesso — o dever fiduciário do conselho, de acordo com a discussão da trilha PURPLE, é com a organização e as partes interessadas dela, e um conselho que nunca exerce a contestação real descrita na Lição 10 não está cumprindo a função de fiscalização para a qual existe, por mais confortável que pareça a relação com a liderança executiva.
 
 ## Teste de prática
 

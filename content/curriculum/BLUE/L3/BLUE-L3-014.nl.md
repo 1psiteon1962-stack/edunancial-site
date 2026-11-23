@@ -26,11 +26,11 @@ De **kasconversiecyclus** meet ongeveer hoe lang het duurt voordat een bedrijf h
 
 Hier is het "waarom" de lengte van deze cyclus rechtstreeks telt, in aansluiting op de bespreking in Les 13 van het verschil tussen winst en kasstroom: hoe langer de cyclus, hoe meer geld een bedrijf bij de hand moet hebben (of via financiering beschikbaar moet hebben) om de periode te overbruggen tussen het betalen van voorraad en bedrijfsvoering en het echt ontvangen van geld van klanten. Een bedrijf met een lange kasconversiecyclus heeft een grotere werkkapitaalbuffer (Les 12) nodig dan een verder vergelijkbaar bedrijf met een korte cyclus, ook al zijn beide op papier even winstgevend.
 
-[VERIFIED FACT] Bedrijven kunnen actief werken aan het verkorten van hun kasconversiecyclus: klantbetalingen sneller innen, voorraad efficiënter beheren of met hun eigen leveranciers langere betaaltermijnen afspreken. Elk daarvan verkleint de hoeveelheid geld die vastzit tussen uitgeven en innen.
+[GEVERIFIEERD FEIT] Bedrijven kunnen actief werken aan het verkorten van hun kasconversiecyclus: klantbetalingen sneller innen, voorraad efficiënter beheren of met hun eigen leveranciers langere betaaltermijnen afspreken. Elk daarvan verkleint de hoeveelheid geld die vastzit tussen uitgeven en innen.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een winkel koopt voorraad in, houdt die gemiddeld 60 dagen aan voordat die wordt verkocht, en int de betaling van klanten ongeveer 30 dagen na elke verkoop. Zijn eigen leveranciers betaalt hij binnen 20 dagen na ontvangst van de voorraad. [ASSUMPTION] Dat geeft een kasconversiecyclus van ongeveer 70 dagen (60 dagen voorraad plus 30 dagen innen, min 20 dagen betaaltermijn bij leveranciers). Het bedrijf heeft dus genoeg geld of financiering nodig om zijn bedrijfsvoering ongeveer 70 dagen te dekken voordat het geld van een inkoopcyclus werkelijk terugkomt, hoe winstgevend elke afzonderlijke verkoop op papier ook lijkt.
+[ILLUSTRATIEF VOORBEELD] Een winkel koopt voorraad in, houdt die gemiddeld 60 dagen aan voordat die wordt verkocht, en int de betaling van klanten ongeveer 30 dagen na elke verkoop. Zijn eigen leveranciers betaalt hij binnen 20 dagen na ontvangst van de voorraad. [AANNAME] Dat geeft een kasconversiecyclus van ongeveer 70 dagen (60 dagen voorraad plus 30 dagen innen, min 20 dagen betaaltermijn bij leveranciers). Het bedrijf heeft dus genoeg geld of financiering nodig om zijn bedrijfsvoering ongeveer 70 dagen te dekken voordat het geld van een inkoopcyclus werkelijk terugkomt, hoe winstgevend elke afzonderlijke verkoop op papier ook lijkt.
 
 ## Oefenquiz
 

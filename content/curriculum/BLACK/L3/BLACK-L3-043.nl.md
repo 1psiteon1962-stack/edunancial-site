@@ -30,7 +30,7 @@ Wie vervult deze rol nu voor jou persoonlijk – mensen tot wie je je echt zou w
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider heeft een goed functionerende formele raad van bestuur die echt toezicht houdt op de organisatie, precies zoals Les 18 beschreef. [ASSUMPTION] Bij een persoonlijke loopbaanbeslissing – of hij een nieuwe kans moet aangrijpen, hoe hij zijn eigen ontwikkeling op lange termijn aanpakt of hoe hij omgaat met een moeilijke persoonlijke situatie die zijn leiderschap raakt – beseft deze leider dat de raad van bestuur niet de juiste plek is voor zo'n openhartig, persoonlijk gericht gesprek. Hij wendt zich in plaats daarvan tot een klein, vertrouwd persoonlijk adviesnetwerk dat hij in de loop der jaren heeft opgebouwd, in lijn met het doorlopend opbouwen van relaties uit Les 37, voor een blik die de formele structuur van de raad nooit is bedoeld te bieden.
+[ILLUSTRATIEF VOORBEELD] Een leider heeft een goed functionerende formele raad van bestuur die echt toezicht houdt op de organisatie, precies zoals Les 18 beschreef. [AANNAME] Bij een persoonlijke loopbaanbeslissing – of hij een nieuwe kans moet aangrijpen, hoe hij zijn eigen ontwikkeling op lange termijn aanpakt of hoe hij omgaat met een moeilijke persoonlijke situatie die zijn leiderschap raakt – beseft deze leider dat de raad van bestuur niet de juiste plek is voor zo'n openhartig, persoonlijk gericht gesprek. Hij wendt zich in plaats daarvan tot een klein, vertrouwd persoonlijk adviesnetwerk dat hij in de loop der jaren heeft opgebouwd, in lijn met het doorlopend opbouwen van relaties uit Les 37, voor een blik die de formele structuur van de raad nooit is bedoeld te bieden.
 
 ## Oefenquiz
 

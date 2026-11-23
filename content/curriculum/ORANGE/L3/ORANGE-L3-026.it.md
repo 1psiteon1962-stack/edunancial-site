@@ -30,7 +30,7 @@ La tua strategia attuale cerca di piacere a tutti, oppure serve di proposito, in
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa all'inizio cerca di rivolgersi alla base di clienti più ampia possibile, competendo con molti concorrenti più grandi e meglio attrezzati sul loro stesso terreno ampio. [ASSUMPTION] Passando a una strategia di nicchia voluta, concentrata su un segmento di clienti più piccolo con bisogni particolari che i concorrenti generalisti servono male, l'impresa costruisce in quel segmento una competenza profonda e una forte fedeltà. Crea così una posizione difendibile che un concorrente molto più grande e generalista avrebbe difficoltà a replicare senza diluire il proprio posizionamento sul mercato ampio, riprendendo l'enfasi del percorso BLUE su un SOM credibile e realistico invece che su un TAM impressionante ma irrealistico.
+[ESEMPIO ILLUSTRATIVO] Un'impresa all'inizio cerca di rivolgersi alla base di clienti più ampia possibile, competendo con molti concorrenti più grandi e meglio attrezzati sul loro stesso terreno ampio. [IPOTESI] Passando a una strategia di nicchia voluta, concentrata su un segmento di clienti più piccolo con bisogni particolari che i concorrenti generalisti servono male, l'impresa costruisce in quel segmento una competenza profonda e una forte fedeltà. Crea così una posizione difendibile che un concorrente molto più grande e generalista avrebbe difficoltà a replicare senza diluire il proprio posizionamento sul mercato ampio, riprendendo l'enfasi del percorso BLUE su un SOM credibile e realistico invece che su un TAM impressionante ma irrealistico.
 
 ## Quiz di esercitazione
 

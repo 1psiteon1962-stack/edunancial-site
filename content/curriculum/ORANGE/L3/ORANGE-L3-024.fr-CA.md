@@ -32,7 +32,7 @@ Avant de traiter les résultats d'une étude de marché comme la confirmation qu
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise mène une vaste étude de marché avant de lancer un nouveau produit, et les répondants au sondage expriment un fort intérêt et une volonté déclarée d'acheter. [ASSUMPTION] Lors du lancement réel, le comportement d'achat réel est nettement inférieur à ce que la recherche laissait croire — un schéma courant qui reflète le vrai écart entre les intentions hypothétiques déclarées et les décisions d'achat réelles avec de l'argent réel, ce qui montre pourquoi la recherche était précieuse pour réduire le risque et éclairer le lancement, mais n'a jamais éliminé l'incertitude de fond comme un véritable test de marché, en écho à la notion de PMV du parcours BLUE, l'aurait révélé de façon plus fiable.
+[EXEMPLE ILLUSTRATIF] Une entreprise mène une vaste étude de marché avant de lancer un nouveau produit, et les répondants au sondage expriment un fort intérêt et une volonté déclarée d'acheter. [HYPOTHÈSE] Lors du lancement réel, le comportement d'achat réel est nettement inférieur à ce que la recherche laissait croire — un schéma courant qui reflète le vrai écart entre les intentions hypothétiques déclarées et les décisions d'achat réelles avec de l'argent réel, ce qui montre pourquoi la recherche était précieuse pour réduire le risque et éclairer le lancement, mais n'a jamais éliminé l'incertitude de fond comme un véritable test de marché, en écho à la notion de PMV du parcours BLUE, l'aurait révélé de façon plus fiable.
 
 ## Quiz de pratique
 

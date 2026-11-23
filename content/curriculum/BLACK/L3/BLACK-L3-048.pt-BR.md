@@ -30,7 +30,7 @@ Pensando em tudo o que foi visto nesta trilha, em que pontos da sua própria lid
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder sênior, que chegou ao cargo em parte por uma capacidade individual real, começa a absorver a identidade mitificada do líder solitário, acreditando que a senioridade dele agora significa menos necessidade da delegação, da contestação do conselho, da discordância e da visão de fora descritas ao longo desta trilha. [ASSUMPTION] Essa crença exata recria todos os riscos específicos vistos nesta trilha — concentração do risco de pessoa-chave (Lição 2), excesso de confiança sem freio (Lição 10), um conselho que deixou de questioná-lo de verdade (Lição 18) —, justamente porque a senioridade tornou esses riscos menos visíveis para os outros, e não porque o líder tivesse realmente deixado de precisar do apoio da equipe que toda esta trilha defendeu como essencial em todos os níveis.
+[EXEMPLO ILUSTRATIVO] Um líder sênior, que chegou ao cargo em parte por uma capacidade individual real, começa a absorver a identidade mitificada do líder solitário, acreditando que a senioridade dele agora significa menos necessidade da delegação, da contestação do conselho, da discordância e da visão de fora descritas ao longo desta trilha. [SUPOSIÇÃO] Essa crença exata recria todos os riscos específicos vistos nesta trilha — concentração do risco de pessoa-chave (Lição 2), excesso de confiança sem freio (Lição 10), um conselho que deixou de questioná-lo de verdade (Lição 18) —, justamente porque a senioridade tornou esses riscos menos visíveis para os outros, e não porque o líder tivesse realmente deixado de precisar do apoio da equipe que toda esta trilha defendeu como essencial em todos os níveis.
 
 ## Teste de prática
 

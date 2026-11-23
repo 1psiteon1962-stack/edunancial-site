@@ -34,11 +34,11 @@ Durante l'anno hai pagato una stima, tramite ritenuta alla fonte o acconti. La d
 
 Ci sono tre risultati possibili. Se hai pagato più del dovuto, ricevi un rimborso. Se hai pagato meno, devi versare la differenza. Se hai pagato esattamente il giusto, non c'è nulla da regolare. Chi deve presentare la dichiarazione, e quando, dipende dalle regole di ciascun Paese.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Durante l'anno, dallo stipendio di Bruno sono stati trattenuti $4.800. Nella dichiarazione l'imposta reale risulta $4.300. Che cosa succede?
 

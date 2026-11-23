@@ -30,7 +30,7 @@ Che cosa dicono davvero i dati sul turnover della tua organizzazione, e in parti
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'organizzazione nota per diversi mesi un turnover crescente tra le persone più brave, ma non indaga sulla causa di fondo e aspetta invece di vedere se le metriche di produttività complessive calano prima di prendere sul serio la tendenza. [ASSUMPTION] Quando la produttività cala in modo visibile (l'indicatore ritardato che finalmente si allinea), il problema di leadership di fondo che causa il turnover ha avuto mesi per peggiorare e coinvolgere un gruppo più ampio di dipendenti. È esattamente lo schema di reazione tardiva da cui il percorso ORANGE metteva in guardia per l'abbandono dei clienti, applicato qui invece alla permanenza dei dipendenti.
+[ESEMPIO ILLUSTRATIVO] Un'organizzazione nota per diversi mesi un turnover crescente tra le persone più brave, ma non indaga sulla causa di fondo e aspetta invece di vedere se le metriche di produttività complessive calano prima di prendere sul serio la tendenza. [IPOTESI] Quando la produttività cala in modo visibile (l'indicatore ritardato che finalmente si allinea), il problema di leadership di fondo che causa il turnover ha avuto mesi per peggiorare e coinvolgere un gruppo più ampio di dipendenti. È esattamente lo schema di reazione tardiva da cui il percorso ORANGE metteva in guardia per l'abbandono dei clienti, applicato qui invece alla permanenza dei dipendenti.
 
 ## Quiz di esercitazione
 

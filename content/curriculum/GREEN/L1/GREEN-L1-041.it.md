@@ -34,11 +34,11 @@ Questa è la doppia imposizione: lo stesso utile viene tassato due volte, prima 
 
 Alcuni Paesi riducono questo effetto con aliquote più basse sui dividendi o con crediti per l'azionista. Altri trattano i dividendi in modo diverso. A causa della doppia imposizione, molte piccole imprese preferiscono forme in cui l'utile è tassato una sola volta, tema della prossima lezione.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Nel nostro esempio, una società guadagna $100 e paga il 20% di imposta sulle società. Quanto resta?
 

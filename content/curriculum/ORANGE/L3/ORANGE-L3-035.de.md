@@ -30,7 +30,7 @@ Bevor du einen Wachstumserfolg im Marketing feierst: Hast du bestätigt, dass di
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Marketingteam feiert ein erfolgreiches Quartal mit schnellem Kundenwachstum, angetrieben von einer aggressiven, teuren Kampagne zur Kundengewinnung. [ASSUMPTION] Ein genauerer Blick auf die Stückkostenrechnung hinter genau diesem Wachstum zeigt, dass jeder neue Kunde nach vollständiger Berücksichtigung von Gewinnungskosten und erwartetem Kundenwert für das Unternehmen tatsächlich ein Nettoverlust ist – dieses „erfolgreiche“ Wachstumsquartal hat also, genau wie der BLAUE Lernpfad gewarnt hat, das zugrunde liegende finanzielle Problem des Unternehmens beschleunigt statt gelöst, obwohl jede oberflächliche Marketingkennzahl positiv aussah.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Marketingteam feiert ein erfolgreiches Quartal mit schnellem Kundenwachstum, angetrieben von einer aggressiven, teuren Kampagne zur Kundengewinnung. [ANNAHME] Ein genauerer Blick auf die Stückkostenrechnung hinter genau diesem Wachstum zeigt, dass jeder neue Kunde nach vollständiger Berücksichtigung von Gewinnungskosten und erwartetem Kundenwert für das Unternehmen tatsächlich ein Nettoverlust ist – dieses „erfolgreiche“ Wachstumsquartal hat also, genau wie der BLAUE Lernpfad gewarnt hat, das zugrunde liegende finanzielle Problem des Unternehmens beschleunigt statt gelöst, obwohl jede oberflächliche Marketingkennzahl positiv aussah.
 
 ## Übungsquiz
 1. Warum sollte eine Wachstumsstrategie im Marketing vor der Ausweitung an ihrer eigenen Stückkostenrechnung gemessen werden?

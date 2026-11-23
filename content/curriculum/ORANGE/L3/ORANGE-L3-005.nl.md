@@ -30,7 +30,7 @@ Voordat je je vastlegt op een grote nieuwe marketinguitgave: wat zou datzelfde k
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming overweegt een flinke verhoging van de advertentie-uitgaven, intern gerechtvaardigd door die alleen te vergelijken met het kleinere budget van vorig jaar en een iets hogere opbrengst. [ASSUMPTION] Als het team in plaats daarvan het voor risico gecorrigeerde kader uit het GOLD-traject toepast, vergelijkt het deze uitgavebeslissing met het realistische alternatief om hetzelfde kapitaal te gebruiken voor het aflossen van een lening met hoge rente of voor productontwikkeling met zekerder rendement. Die vergelijking werd met de eenvoudige jaar-op-jaarvergelijking nooit echt gemaakt, en ze laat zien dat de marketinguitgave weliswaar niet onredelijk was, maar ook niet duidelijk de sterkste besteding van dat kapitaal zodra echte alternatieven werden meegewogen.
+[ILLUSTRATIEF VOORBEELD] Een onderneming overweegt een flinke verhoging van de advertentie-uitgaven, intern gerechtvaardigd door die alleen te vergelijken met het kleinere budget van vorig jaar en een iets hogere opbrengst. [AANNAME] Als het team in plaats daarvan het voor risico gecorrigeerde kader uit het GOLD-traject toepast, vergelijkt het deze uitgavebeslissing met het realistische alternatief om hetzelfde kapitaal te gebruiken voor het aflossen van een lening met hoge rente of voor productontwikkeling met zekerder rendement. Die vergelijking werd met de eenvoudige jaar-op-jaarvergelijking nooit echt gemaakt, en ze laat zien dat de marketinguitgave weliswaar niet onredelijk was, maar ook niet duidelijk de sterkste besteding van dat kapitaal zodra echte alternatieven werden meegewogen.
 
 ## Oefenquiz
 

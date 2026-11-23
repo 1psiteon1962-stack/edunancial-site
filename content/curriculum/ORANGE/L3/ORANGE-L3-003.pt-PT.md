@@ -30,7 +30,7 @@ O que gostaria de saber antes de assumir um grande gasto novo com base na previs
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] O funil de vendas de um negócio converteu historicamente 15% dos contactos qualificados em clientes pagantes, e o time monta o plano de contratações do próximo trimestre supondo essa mesma taxa de 15%. [ASSUMPTION] Se a taxa de conversão real desse trimestre ficar em 10% — bem dentro da variação histórica normal —, o negócio já terá se comprometido com folha salarial e outros custos com base numa receita que não se concretizou, um problema de fluxo de caixa criado não por um erro isolado, mas por tratar uma média como uma certeza.
+[EXEMPLO ILUSTRATIVO] O funil de vendas de um negócio converteu historicamente 15% dos contactos qualificados em clientes pagantes, e o time monta o plano de contratações do próximo trimestre supondo essa mesma taxa de 15%. [SUPOSIÇÃO] Se a taxa de conversão real desse trimestre ficar em 10% — bem dentro da variação histórica normal —, o negócio já terá se comprometido com folha salarial e outros custos com base numa receita que não se concretizou, um problema de fluxo de caixa criado não por um erro isolado, mas por tratar uma média como uma certeza.
 
 ## Teste de prática
 

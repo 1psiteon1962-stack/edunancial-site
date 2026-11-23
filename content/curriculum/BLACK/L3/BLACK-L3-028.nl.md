@@ -30,7 +30,7 @@ Wat zeggen de verloopcijfers van je organisatie, en vooral de uitkomsten van je 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een organisatie ziet het verloop onder sterke presteerders een aantal maanden stijgen, maar onderzoekt de onderliggende oorzaak niet en wacht eerst af of de totale productiviteitscijfers dalen voordat ze de trend serieus neemt. [ASSUMPTION] Tegen de tijd dat de productiviteit zichtbaar daalt – de late indicator die eindelijk bijtrekt – heeft het onderliggende leiderschapsprobleem achter het verloop maandenlang kunnen verergeren en een grotere groep medewerkers kunnen raken, precies het patroon van te late reactie waarvoor het ORANGE-traject bij klantverloop waarschuwde, hier toegepast op het behoud van medewerkers.
+[ILLUSTRATIEF VOORBEELD] Een organisatie ziet het verloop onder sterke presteerders een aantal maanden stijgen, maar onderzoekt de onderliggende oorzaak niet en wacht eerst af of de totale productiviteitscijfers dalen voordat ze de trend serieus neemt. [AANNAME] Tegen de tijd dat de productiviteit zichtbaar daalt – de late indicator die eindelijk bijtrekt – heeft het onderliggende leiderschapsprobleem achter het verloop maandenlang kunnen verergeren en een grotere groep medewerkers kunnen raken, precies het patroon van te late reactie waarvoor het ORANGE-traject bij klantverloop waarschuwde, hier toegepast op het behoud van medewerkers.
 
 ## Oefenquiz
 

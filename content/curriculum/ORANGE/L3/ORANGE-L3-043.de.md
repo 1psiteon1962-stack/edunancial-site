@@ -30,7 +30,7 @@ Bevor du ein Empfehlungsprogramm startest: Sind seine Bedingungen konkret genug,
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen startet ein Empfehlungsprogramm mit einem einfachen, vagen Versprechen: „Freunde werben und belohnt werden.“ Eine Kundin empfiehlt mehrere Freunde, von denen sich einige kurz anmelden und dann fast sofort wieder kündigen. [ASSUMPTION] Ohne klare Bedingungen dazu, ob eine Belohnung schon mit der Anmeldung oder erst nach einer Mindestbindungsdauer verdient ist, gerät das Unternehmen in einen echten Streit mit der Kundin darüber, ob genau diese Empfehlungen tatsächlich zählen – ein Problem, das ein konkreter formuliertes Programm nach denselben Grundsätzen der Vertragsklarheit aus dem LILA Lernpfad von Anfang an vermieden hätte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen startet ein Empfehlungsprogramm mit einem einfachen, vagen Versprechen: „Freunde werben und belohnt werden.“ Eine Kundin empfiehlt mehrere Freunde, von denen sich einige kurz anmelden und dann fast sofort wieder kündigen. [ANNAHME] Ohne klare Bedingungen dazu, ob eine Belohnung schon mit der Anmeldung oder erst nach einer Mindestbindungsdauer verdient ist, gerät das Unternehmen in einen echten Streit mit der Kundin darüber, ob genau diese Empfehlungen tatsächlich zählen – ein Problem, das ein konkreter formuliertes Programm nach denselben Grundsätzen der Vertragsklarheit aus dem LILA Lernpfad von Anfang an vermieden hätte.
 
 ## Übungsquiz
 1. Warum ist ein Empfehlungsprogramm ein rechtliches Versprechen gegenüber den Teilnehmenden und nicht nur eine Marketingtaktik?

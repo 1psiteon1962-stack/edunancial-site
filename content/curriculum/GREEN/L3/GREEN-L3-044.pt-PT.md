@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Muitas jurisdições, incluindo os Estados Unidos, geralmente tratam as criptomoedas como bens para fins tributários, e não como moeda no sentido tradicional. Isso se liga diretamente à discussão sobre ganhos de capital da Lição 23: [VERIFIED FACT] como as criptomoedas geralmente são tratadas como bens, as transações com elas — incluindo vendê-las por moeda tradicional, mas também trocar uma criptomoeda por outra ou usar criptomoedas para comprar produtos ou serviços — podem gerar um ganho ou uma perda de capital tributável, calculado com base na diferença entre o valor da criptomoeda no momento da transação e o custo de aquisição original dela.
+Muitas jurisdições, incluindo os Estados Unidos, geralmente tratam as criptomoedas como bens para fins tributários, e não como moeda no sentido tradicional. Isso se liga diretamente à discussão sobre ganhos de capital da Lição 23: [FACTO VERIFICADO] como as criptomoedas geralmente são tratadas como bens, as transações com elas — incluindo vendê-las por moeda tradicional, mas também trocar uma criptomoeda por outra ou usar criptomoedas para comprar produtos ou serviços — podem gerar um ganho ou uma perda de capital tributável, calculado com base na diferença entre o valor da criptomoeda no momento da transação e o custo de aquisição original dela.
 
 Este é o "porquê" de isso surpreender muita gente: uma transação em que nenhum dinheiro tradicional é recebido — trocar diretamente uma criptomoeda por outra, por exemplo — ainda pode ser um evento tributável por esse tratamento como bem, já que a troca é tratada como se a primeira criptomoeda tivesse sido vendida pelo valor atual (podendo gerar ganho ou perda) e o valor recebido tivesse sido usado para comprar a segunda criptomoeda, mesmo que nenhuma moeda tradicional tenha de facto mudado de mãos na transação.
 
@@ -30,7 +30,7 @@ Este é o "porquê" de isso surpreender muita gente: uma transação em que nenh
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma pessoa troca diretamente uma criptomoeda por outra, sem converter nenhuma das duas em moeda tradicional em nenhum momento da transação. [ASSUMPTION] Por um tratamento tributário como bem, essa troca é tratada como se a primeira criptomoeda tivesse sido vendida pelo valor de mercado atual, e qualquer ganho ou perda em relação ao custo de aquisição original dela é um evento tributável naquele ano — mesmo que a pessoa nunca tenha recebido nenhum dinheiro tradicional com a transação, o que mostra por que "não recebi dinheiro nenhum" não é um critério confiável para saber se uma transação com criptomoedas é tributável.
+[EXEMPLO ILUSTRATIVO] Uma pessoa troca diretamente uma criptomoeda por outra, sem converter nenhuma das duas em moeda tradicional em nenhum momento da transação. [SUPOSIÇÃO] Por um tratamento tributário como bem, essa troca é tratada como se a primeira criptomoeda tivesse sido vendida pelo valor de mercado atual, e qualquer ganho ou perda em relação ao custo de aquisição original dela é um evento tributável naquele ano — mesmo que a pessoa nunca tenha recebido nenhum dinheiro tradicional com a transação, o que mostra por que "não recebi dinheiro nenhum" não é um critério confiável para saber se uma transação com criptomoedas é tributável.
 
 ## Teste de prática
 

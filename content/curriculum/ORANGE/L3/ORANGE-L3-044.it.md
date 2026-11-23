@@ -30,7 +30,7 @@ Che cosa sai davvero, o puoi ragionevolmente dedurre, sulla struttura dei costi 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un concorrente abbassa i prezzi in modo significativo, sotto quello che sembra un livello sostenibile data la sua probabile struttura dei costi: rapporti con i fornitori simili, dimensioni simili, nessun evidente vantaggio di costo. [ASSUMPTION] Invece di dare per scontato che questo nuovo prezzo più basso sia il nuovo prezzo di mercato permanente e di eguagliarlo subito (con le conseguenze di erosione del margine discusse nella Lezione 9), un'impresa che ragiona sulla posizione di costo probabilmente insostenibile del concorrente potrebbe invece mantenere il proprio prezzo, prevedendo correttamente che i prezzi aggressivi del concorrente sono una spinta temporanea che la sua struttura dei costi non gli permetterà di sostenere a tempo indeterminato.
+[ESEMPIO ILLUSTRATIVO] Un concorrente abbassa i prezzi in modo significativo, sotto quello che sembra un livello sostenibile data la sua probabile struttura dei costi: rapporti con i fornitori simili, dimensioni simili, nessun evidente vantaggio di costo. [IPOTESI] Invece di dare per scontato che questo nuovo prezzo più basso sia il nuovo prezzo di mercato permanente e di eguagliarlo subito (con le conseguenze di erosione del margine discusse nella Lezione 9), un'impresa che ragiona sulla posizione di costo probabilmente insostenibile del concorrente potrebbe invece mantenere il proprio prezzo, prevedendo correttamente che i prezzi aggressivi del concorrente sono una spinta temporanea che la sua struttura dei costi non gli permetterà di sostenere a tempo indeterminato.
 
 ## Quiz di esercitazione
 

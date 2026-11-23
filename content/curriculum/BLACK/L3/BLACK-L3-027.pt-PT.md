@@ -30,7 +30,7 @@ Na próxima vez que sentir um instinto forte e imediato numa situação estressa
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder diante de uma crise em andamento sente um instinto forte e imediato de reagir de um forma específico, movido principalmente pela informação mais alarmante que acabou de chegar. [ASSUMPTION] Ao fazer uma pausa breve e intencional — alguns minutos, e não uma longa demora — para perguntar se esse instinto reflete um julgamento realmente sólido ou só uma reação de estresse agudo à informação mais recente e alarmante, esse líder percebe que o instinto foi moldado de forma desproporcional pelo viés de recência e passa para uma resposta mais equilibrada, que ainda atende às exigências de rapidez descritas na Lição 16, evitando a distorção específica que essa pausa breve deveria detectar.
+[EXEMPLO ILUSTRATIVO] Um líder diante de uma crise em andamento sente um instinto forte e imediato de reagir de um forma específico, movido principalmente pela informação mais alarmante que acabou de chegar. [SUPOSIÇÃO] Ao fazer uma pausa breve e intencional — alguns minutos, e não uma longa demora — para perguntar se esse instinto reflete um julgamento realmente sólido ou só uma reação de estresse agudo à informação mais recente e alarmante, esse líder percebe que o instinto foi moldado de forma desproporcional pelo viés de recência e passa para uma resposta mais equilibrada, que ainda atende às exigências de rapidez descritas na Lição 16, evitando a distorção específica que essa pausa breve deveria detectar.
 
 ## Teste de prática
 

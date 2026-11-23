@@ -30,7 +30,7 @@ Con chi ti confrontano davvero i tuoi clienti quando decidono se acquistare? Non
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa ritiene che i suoi principali concorrenti siano altre aziende che offrono un prodotto tecnicamente simile, e definisce prezzi e messaggi di conseguenza. [ASSUMPTION] Una ricerca sui clienti rivela che molti di loro stanno in realtà confrontando questo prodotto con una categoria di soluzioni diversa e più ampia, che affronta lo stesso bisogno di fondo in un altro modo. L'insieme di concorrenti reale dell'impresa, così come lo percepiscono i clienti, è quindi diverso da quello che immaginava, e la sua strategia di prezzi e messaggi, costruita attorno al confronto sbagliato, potrebbe mancare la decisione che i clienti stanno davvero prendendo.
+[ESEMPIO ILLUSTRATIVO] Un'impresa ritiene che i suoi principali concorrenti siano altre aziende che offrono un prodotto tecnicamente simile, e definisce prezzi e messaggi di conseguenza. [IPOTESI] Una ricerca sui clienti rivela che molti di loro stanno in realtà confrontando questo prodotto con una categoria di soluzioni diversa e più ampia, che affronta lo stesso bisogno di fondo in un altro modo. L'insieme di concorrenti reale dell'impresa, così come lo percepiscono i clienti, è quindi diverso da quello che immaginava, e la sua strategia di prezzi e messaggi, costruita attorno al confronto sbagliato, potrebbe mancare la decisione che i clienti stanno davvero prendendo.
 
 ## Quiz di esercitazione
 

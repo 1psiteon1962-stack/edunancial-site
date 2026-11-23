@@ -26,11 +26,11 @@ I **costi fissi** sono spese che restano più o meno uguali indipendentemente da
 
 Ecco il "perché" questo calcolo è una verifica utile e precoce di un'idea d'impresa: trasforma un business plan astratto in una domanda concreta a cui si può rispondere. Quante unità, o quanti ricavi, deve davvero generare questa impresa solo per coprire i costi, prima che inizi qualsiasi utile? Se quel numero sembra irrealistico rispetto alla reale dimensione del mercato o a ragionevoli aspettative di vendita, è un segnale per rivedere le ipotesi del piano prima di investire un capitale importante.
 
-[VERIFIED FACT] Il punto di pareggio in unità si calcola di solito dividendo i costi fissi per la differenza tra il prezzo per unità e il costo variabile per unità (questa differenza viene a volte chiamata margine di contribuzione unitario): una formula che lega direttamente la struttura dei costi di un'impresa a un obiettivo di vendita specifico e verificabile.
+[FATTO VERIFICATO] Il punto di pareggio in unità si calcola di solito dividendo i costi fissi per la differenza tra il prezzo per unità e il costo variabile per unità (questa differenza viene a volte chiamata margine di contribuzione unitario): una formula che lega direttamente la struttura dei costi di un'impresa a un obiettivo di vendita specifico e verificabile.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa ha $50,000 di costi fissi all'anno, vende il suo prodotto a $25 l'unità e ha costi variabili di $15 l'unità: un margine di contribuzione di $10 per unità. Il suo punto di pareggio è $50,000 diviso $10, cioè 5.000 unità all'anno. [ASSUMPTION] Se una ricerca di mercato realistica indica che l'impresa può ragionevolmente vendere solo 2.000 unità all'anno nel suo mercato di riferimento, questo calcolo rivela un problema serio nel piano così com'è strutturato, prima che venga impegnato qualsiasi capitale, e spinge a riconsiderare il prezzo, la struttura dei costi o l'intero modello d'impresa.
+[ESEMPIO ILLUSTRATIVO] Un'impresa ha $50,000 di costi fissi all'anno, vende il suo prodotto a $25 l'unità e ha costi variabili di $15 l'unità: un margine di contribuzione di $10 per unità. Il suo punto di pareggio è $50,000 diviso $10, cioè 5.000 unità all'anno. [IPOTESI] Se una ricerca di mercato realistica indica che l'impresa può ragionevolmente vendere solo 2.000 unità all'anno nel suo mercato di riferimento, questo calcolo rivela un problema serio nel piano così com'è strutturato, prima che venga impegnato qualsiasi capitale, e spinge a riconsiderare il prezzo, la struttura dei costi o l'intero modello d'impresa.
 
 ## Quiz di esercitazione
 

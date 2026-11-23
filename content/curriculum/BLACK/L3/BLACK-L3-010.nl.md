@@ -30,7 +30,7 @@ Heeft je organisatie iemand die echt de ruimte heeft om je oordeel over een bela
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een zelfverzekerde, ervaren leider neemt een belangrijke strategische beslissing en spreekt tijdens een teamoverleg een sterke overtuiging uit. [ASSUMPTION] Teamleden schikken zich naar het zelfvertrouwen en de positie van de leider, uiten hun echte bedenkingen niet en stellen de onderliggende aannames niet zelfstandig ter discussie. In lijn met de bespreking van overmoed in het GOLD-traject verspreidt de persoonlijke bias van de leider zich door de besluitvorming van het team zonder de natuurlijke rem die een gevarieerde groep perspectieven met echte ruimte om te spreken had kunnen bieden. Dit laat zien waarom structurele mechanismen voor echte tegenspraak belangrijker worden, niet minder belangrijk, naarmate het zelfvertrouwen en het gezag van een leider groeien.
+[ILLUSTRATIEF VOORBEELD] Een zelfverzekerde, ervaren leider neemt een belangrijke strategische beslissing en spreekt tijdens een teamoverleg een sterke overtuiging uit. [AANNAME] Teamleden schikken zich naar het zelfvertrouwen en de positie van de leider, uiten hun echte bedenkingen niet en stellen de onderliggende aannames niet zelfstandig ter discussie. In lijn met de bespreking van overmoed in het GOLD-traject verspreidt de persoonlijke bias van de leider zich door de besluitvorming van het team zonder de natuurlijke rem die een gevarieerde groep perspectieven met echte ruimte om te spreken had kunnen bieden. Dit laat zien waarom structurele mechanismen voor echte tegenspraak belangrijker worden, niet minder belangrijk, naarmate het zelfvertrouwen en het gezag van een leider groeien.
 
 ## Oefenquiz
 

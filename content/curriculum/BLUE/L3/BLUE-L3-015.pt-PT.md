@@ -26,11 +26,11 @@ Os **custos fixos** são despesas que ficam mais ou menos iguais, não importa q
 
 Este é o "porquê" de esse cálculo ser uma verificação útil e precoce de uma ideia de negócio: ele transforma um plano de negócios abstrato numa pergunta concreta, que pode ser respondida — quantas unidades, ou quanta receita, esse negócio realmente precisa gerar só para cobrir os custos, antes de começar a dar qualquer lucro? Se esse número parecer irreal diante do tamanho real do mercado ou de expectativas razoáveis de venda, é um sinal para rever as premissas do plano antes de investir um capital significativo.
 
-[VERIFIED FACT] O ponto de equilíbrio em unidades geralmente é calculado dividindo os custos fixos pela diferença entre o preço por unidade e o custo variável por unidade (essa diferença às vezes é chamada de margem de contribuição por unidade) — uma fórmula que liga diretamente a estrutura de custos de uma empresa a uma meta de vendas específica e verificável.
+[FACTO VERIFICADO] O ponto de equilíbrio em unidades geralmente é calculado dividindo os custos fixos pela diferença entre o preço por unidade e o custo variável por unidade (essa diferença às vezes é chamada de margem de contribuição por unidade) — uma fórmula que liga diretamente a estrutura de custos de uma empresa a uma meta de vendas específica e verificável.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa tem $50,000 de custos fixos por ano, vende o produto dela por $25 a unidade e tem custos variáveis de $15 por unidade — uma margem de contribuição de $10 por unidade. O ponto de equilíbrio dela é $50,000 dividido por $10, ou seja, 5.000 unidades por ano. [ASSUMPTION] Se uma pesquisa de mercado realista indicar que a empresa só consegue vender, de forma razoável, 2.000 unidades por ano no mercado-alvo dela, esse cálculo revela um problema sério no plano do forma que ele está estruturado, antes de qualquer capital ser comprometido — o que leva a repensar o preço, a estrutura de custos ou o modelo de negócio como um todo.
+[EXEMPLO ILUSTRATIVO] Uma empresa tem $50,000 de custos fixos por ano, vende o produto dela por $25 a unidade e tem custos variáveis de $15 por unidade — uma margem de contribuição de $10 por unidade. O ponto de equilíbrio dela é $50,000 dividido por $10, ou seja, 5.000 unidades por ano. [SUPOSIÇÃO] Se uma pesquisa de mercado realista indicar que a empresa só consegue vender, de forma razoável, 2.000 unidades por ano no mercado-alvo dela, esse cálculo revela um problema sério no plano do forma que ele está estruturado, antes de qualquer capital ser comprometido — o que leva a repensar o preço, a estrutura de custos ou o modelo de negócio como um todo.
 
 ## Teste de prática
 

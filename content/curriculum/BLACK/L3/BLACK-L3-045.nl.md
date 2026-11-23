@@ -30,7 +30,7 @@ Weerspiegelt het werkelijke patroon van risico nemen in je organisatie een doord
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die persoonlijk erg risicomijdend is, wijst voorstellen met enige betekenisvolle onzekerheid stelselmatig af, ongeacht hun werkelijke, voor risico gecorrigeerde merites. [ASSUMPTION] Na verloop van tijd leren medewerkers dat voorstellen die als laag risico worden gebracht worden goedgekeurd en dat alles wat als riskant wordt gezien wordt afgewezen, ongeacht het onderliggende voor risico gecorrigeerde rendement – het werkelijke patroon van risico nemen in de organisatie gaat de persoonlijke houding van deze leider weerspiegelen, in plaats van het doordachte, per geval afgewogen voor risico gecorrigeerde oordeel dat het GOLD-traject van dit programma steeds heeft benadrukt. Daardoor mist de organisatie stelselmatig kansen met een echt gunstig, voor risico gecorrigeerd profiel.
+[ILLUSTRATIEF VOORBEELD] Een leider die persoonlijk erg risicomijdend is, wijst voorstellen met enige betekenisvolle onzekerheid stelselmatig af, ongeacht hun werkelijke, voor risico gecorrigeerde merites. [AANNAME] Na verloop van tijd leren medewerkers dat voorstellen die als laag risico worden gebracht worden goedgekeurd en dat alles wat als riskant wordt gezien wordt afgewezen, ongeacht het onderliggende voor risico gecorrigeerde rendement – het werkelijke patroon van risico nemen in de organisatie gaat de persoonlijke houding van deze leider weerspiegelen, in plaats van het doordachte, per geval afgewogen voor risico gecorrigeerde oordeel dat het GOLD-traject van dit programma steeds heeft benadrukt. Daardoor mist de organisatie stelselmatig kansen met een echt gunstig, voor risico gecorrigeerd profiel.
 
 ## Oefenquiz
 

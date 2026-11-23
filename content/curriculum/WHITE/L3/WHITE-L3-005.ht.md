@@ -30,11 +30,11 @@ Yon **opsyon** se yon kontra ki bay achtè a dwa, men pa obligasyon, pou l achte
 
 Men "poukisa" sa diferan de senpleman posede aksyon an: paske ou oblije aji sèlman si sa bon pou ou, pi gwo pèt achtè opsyon an ka fè limite a sa li te peye pou kontra a — yo rele sa **prim** nan — pandan pwofi potansyèl la ka gwo si byen ki dèyè l la bouje nan bon direksyon. Dezekilib sa a (pèt limite, pwofi potansyèl pi gwo) se egzakteman sa achtè a ap peye pou li.
 
-[VERIFIED FACT] Vandè opsyon an (oswa "writer" la, moun ki ekri kontra a) sou lòt bò tranzaksyon sa a, e li pran obligasyon pou l respekte kontra a si achtè a deside egzèse dwa li — se pou sa vann opsyon gen yon pwofil risk ki diferan nèt, yon leson pita ap kouvri sa. Prim nan pa chwazi o aza; li reflete pri aktyèl byen ki dèyè l la, pri egzèsis la, tan ki rete jiska ekspirasyon, ak volatilite yo atann pou byen an.
+[FÈ VERIFYE] Vandè opsyon an (oswa "writer" la, moun ki ekri kontra a) sou lòt bò tranzaksyon sa a, e li pran obligasyon pou l respekte kontra a si achtè a deside egzèse dwa li — se pou sa vann opsyon gen yon pwofil risk ki diferan nèt, yon leson pita ap kouvri sa. Prim nan pa chwazi o aza; li reflete pri aktyèl byen ki dèyè l la, pri egzèsis la, tan ki rete jiska ekspirasyon, ak volatilite yo atann pou byen an.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè achte yon opsyon call sou yon aksyon k ap fè komès kounye a a $50, ak yon pri egzèsis $55, e li peye yon prim $2 pa aksyon. Si aksyon an monte a $65 anvan ekspirasyon, li ka egzèse dwa li pou l achte a $55 — byen anba pri mache a — pou yon bon pwofi, mwens prim $2 li te peye a. Si aksyon an rete anba $55 oswa li desann, li senpleman kite opsyon an ekspire, e tout pèt li limite a prim $2 li te peye a — li pa t janm oblije achte a $55 si sa pa t fè sans.
+[EGZANP ILISTRATIF] Yon envestisè achte yon opsyon call sou yon aksyon k ap fè komès kounye a a $50, ak yon pri egzèsis $55, e li peye yon prim $2 pa aksyon. Si aksyon an monte a $65 anvan ekspirasyon, li ka egzèse dwa li pou l achte a $55 — byen anba pri mache a — pou yon bon pwofi, mwens prim $2 li te peye a. Si aksyon an rete anba $55 oswa li desann, li senpleman kite opsyon an ekspire, e tout pèt li limite a prim $2 li te peye a — li pa t janm oblije achte a $55 si sa pa t fè sans.
 
 ## Egzamen pratik
 

@@ -30,7 +30,7 @@ Avant d'envoyer une communication écrite importante — une évaluation de rend
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader écrit à un collègue un courriel informel et décontracté qui commente le rendement d'un employé d'une façon qui touche une caractéristique personnelle sans lien avec son rendement réel au travail. [ASSUMPTION] Si cet employé est plus tard congédié pour un motif de rendement légitime et dépose une plainte pour discrimination, ce courriel antérieur — qui n'était censé être qu'un commentaire anodin — devient un élément de preuve écrit et durable qu'un tribunal pourrait juger pertinent à la plainte, ce qui montre pourquoi les écrits quotidiens d'un leader ont un poids juridique, peu importe leur intention décontractée et spontanée.
+[EXEMPLE ILLUSTRATIF] Un leader écrit à un collègue un courriel informel et décontracté qui commente le rendement d'un employé d'une façon qui touche une caractéristique personnelle sans lien avec son rendement réel au travail. [HYPOTHÈSE] Si cet employé est plus tard congédié pour un motif de rendement légitime et dépose une plainte pour discrimination, ce courriel antérieur — qui n'était censé être qu'un commentaire anodin — devient un élément de preuve écrit et durable qu'un tribunal pourrait juger pertinent à la plainte, ce qui montre pourquoi les écrits quotidiens d'un leader ont un poids juridique, peu importe leur intention décontractée et spontanée.
 
 ## Quiz de pratique
 

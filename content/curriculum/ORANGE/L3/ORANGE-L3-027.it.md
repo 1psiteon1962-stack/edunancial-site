@@ -30,7 +30,7 @@ Prima di lanciare una spinta di marketing aggressiva verso una nuova regione geo
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa lancia una campagna di marketing voluta e di successo rivolta a un nuovo stato specifico, ottenendo lì una forte crescita delle vendite nel giro di pochi mesi. [ASSUMPTION] La stessa crescita delle vendite, trainata direttamente dalla campagna, supera la soglia di nexus economico di quello stato per la riscossione dell'imposta sulle vendite, vista nel percorso GREEN. Ma poiché marketing e conformità fiscale non si erano coordinati su questa espansione, l'impresa si accorge di dover iniziare a riscuotere e versare l'imposta sulle vendite in quello stato solo molto dopo che l'obbligo è già nato. Si crea così un problema di conformità retroattivo che una semplice verifica prima dell'espansione avrebbe evitato.
+[ESEMPIO ILLUSTRATIVO] Un'impresa lancia una campagna di marketing voluta e di successo rivolta a un nuovo stato specifico, ottenendo lì una forte crescita delle vendite nel giro di pochi mesi. [IPOTESI] La stessa crescita delle vendite, trainata direttamente dalla campagna, supera la soglia di nexus economico di quello stato per la riscossione dell'imposta sulle vendite, vista nel percorso GREEN. Ma poiché marketing e conformità fiscale non si erano coordinati su questa espansione, l'impresa si accorge di dover iniziare a riscuotere e versare l'imposta sulle vendite in quello stato solo molto dopo che l'obbligo è già nato. Si crea così un problema di conformità retroattivo che una semplice verifica prima dell'espansione avrebbe evitato.
 
 ## Quiz di esercitazione
 

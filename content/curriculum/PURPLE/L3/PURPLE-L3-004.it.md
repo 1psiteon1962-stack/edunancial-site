@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-La Lezione 3 ha stabilito che la gravità di un inadempimento determina quale rimedio è disponibile. Ecco il "perché" della natura generale di quel rimedio: [VERIFIED FACT] il diritto dei contratti punta in genere a mettere la parte adempiente nella posizione in cui si sarebbe trovata se il contratto fosse stato eseguito correttamente (spesso si parla di tutela dell'interesse all'adempimento, o "expectation"), invece che a punire la parte inadempiente per aver violato la propria promessa.
+La Lezione 3 ha stabilito che la gravità di un inadempimento determina quale rimedio è disponibile. Ecco il "perché" della natura generale di quel rimedio: [FATTO VERIFICATO] il diritto dei contratti punta in genere a mettere la parte adempiente nella posizione in cui si sarebbe trovata se il contratto fosse stato eseguito correttamente (spesso si parla di tutela dell'interesse all'adempimento, o "expectation"), invece che a punire la parte inadempiente per aver violato la propria promessa.
 
 Per questo il **risarcimento compensativo**, cioè un importo pensato per coprire il danno economico reale e dimostrabile causato dall'inadempimento, è il rimedio normale e standard, e per questo i **danni punitivi**, cioè danni pensati proprio per punire chi ha sbagliato oltre a compensare il danno reale dell'altra parte, in genere non sono disponibili in un normale caso di inadempimento contrattuale, nella maggior parte dei sistemi giuridici, nemmeno per un inadempimento voluto e intenzionale.
 
@@ -30,7 +30,7 @@ Questo approccio generale riflette una specifica filosofia giuridica: il diritto
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa non rispetta un contratto, causando all'altra parte una perdita economica specifica e dimostrabile. La parte adempiente può in genere ottenere un risarcimento compensativo che rifletta quel danno economico specifico, tornando più o meno nella posizione in cui si sarebbe trovata se il contratto fosse stato eseguito come concordato. [ASSUMPTION] Anche se l'inadempimento era voluto e si potesse descrivere come una decisione d'affari calcolata di violare la promessa, la parte adempiente in genere non può ottenere danni punitivi aggiuntivi solo per punire quella scelta voluta, oltre all'importo compensativo reale che riflette il suo vero danno economico: questo riflette l'attenzione generale del diritto dei contratti alla compensazione invece che alla punizione.
+[ESEMPIO ILLUSTRATIVO] Un'impresa non rispetta un contratto, causando all'altra parte una perdita economica specifica e dimostrabile. La parte adempiente può in genere ottenere un risarcimento compensativo che rifletta quel danno economico specifico, tornando più o meno nella posizione in cui si sarebbe trovata se il contratto fosse stato eseguito come concordato. [IPOTESI] Anche se l'inadempimento era voluto e si potesse descrivere come una decisione d'affari calcolata di violare la promessa, la parte adempiente in genere non può ottenere danni punitivi aggiuntivi solo per punire quella scelta voluta, oltre all'importo compensativo reale che riflette il suo vero danno economico: questo riflette l'attenzione generale del diritto dei contratti alla compensazione invece che alla punizione.
 
 ## Quiz di esercitazione
 

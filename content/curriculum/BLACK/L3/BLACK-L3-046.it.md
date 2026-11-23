@@ -30,7 +30,7 @@ Guarda una decisione recente presa soprattutto per raggiungere un obiettivo di b
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sotto pressione per mostrare buoni risultati trimestrali taglia la spesa per lo sviluppo della leadership e per le iniziative di coinvolgimento dei dipendenti, migliorando i dati finanziari del trimestre in corso. [ASSUMPTION] Nei trimestri successivi, l'erosione delle capacità di gestione e del morale dei dipendenti che questi tagli hanno creato in silenzio comincia a emergere in un turnover più alto e in un calo del rendimento. È un costo ritardato che il leader non ha confrontato del tutto con il beneficio immediato di breve periodo, e riprende il punto del percorso WHITE secondo cui tempi e sequenza contano quanto il risultato medio, applicato qui alle decisioni di leadership invece che ai rendimenti degli investimenti.
+[ESEMPIO ILLUSTRATIVO] Un leader sotto pressione per mostrare buoni risultati trimestrali taglia la spesa per lo sviluppo della leadership e per le iniziative di coinvolgimento dei dipendenti, migliorando i dati finanziari del trimestre in corso. [IPOTESI] Nei trimestri successivi, l'erosione delle capacità di gestione e del morale dei dipendenti che questi tagli hanno creato in silenzio comincia a emergere in un turnover più alto e in un calo del rendimento. È un costo ritardato che il leader non ha confrontato del tutto con il beneficio immediato di breve periodo, e riprende il punto del percorso WHITE secondo cui tempi e sequenza contano quanto il risultato medio, applicato qui alle decisioni di leadership invece che ai rendimenti degli investimenti.
 
 ## Quiz di esercitazione
 

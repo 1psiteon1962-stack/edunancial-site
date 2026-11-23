@@ -26,11 +26,11 @@ Esta lição acompanha de perto um conceito visto na trilha RED deste currículo
 
 Este é o "porquê" de essa exigência ser tão constante especificamente para pequenas empresas: uma empresa recém-comprada ou menor muitas vezes não tem um longo histórico financeiro próprio nem ativos significativos para tranquilizar um credor. A garantia pessoal permite que o credor cobre o dono pessoalmente se a empresa não pagar e não conseguir quitar o empréstimo, dando ao credor uma segurança a mais, além do histórico financeiro limitado da própria empresa.
 
-[VERIFIED FACT] Isso significa que abrir uma empresa para limitar a responsabilidade, embora continue a ser útil por muitos outros motivos, não protege automaticamente o património pessoal do dono de um empréstimo que inclui justamente uma garantia pessoal — a garantia cria uma obrigação direta e pessoal, separada da responsabilidade da própria empresa.
+[FACTO VERIFICADO] Isso significa que abrir uma empresa para limitar a responsabilidade, embora continue a ser útil por muitos outros motivos, não protege automaticamente o património pessoal do dono de um empréstimo que inclui justamente uma garantia pessoal — a garantia cria uma obrigação direta e pessoal, separada da responsabilidade da própria empresa.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empreendedora abre uma sociedade limitada justamente para comprar uma pequena empresa, esperando que essa estrutura proteja o património pessoal dela de todas as dívidas da empresa. Quando ela pede financiamento para a compra, o credor exige que ela garanta pessoalmente o empréstimo, por causa do histórico próprio limitado da empresa sob a nova gestão dela. Se a empresa depois tiver dificuldades e não pagar o empréstimo, o credor pode cobrá-la pessoalmente com base na garantia, apesar da estrutura de sociedade limitada — a proteção que ela esperava da empresa não se estende a essa dívida específica, garantida pessoalmente.
+[EXEMPLO ILUSTRATIVO] Uma empreendedora abre uma sociedade limitada justamente para comprar uma pequena empresa, esperando que essa estrutura proteja o património pessoal dela de todas as dívidas da empresa. Quando ela pede financiamento para a compra, o credor exige que ela garanta pessoalmente o empréstimo, por causa do histórico próprio limitado da empresa sob a nova gestão dela. Se a empresa depois tiver dificuldades e não pagar o empréstimo, o credor pode cobrá-la pessoalmente com base na garantia, apesar da estrutura de sociedade limitada — a proteção que ela esperava da empresa não se estende a essa dívida específica, garantida pessoalmente.
 
 ## Teste de prática
 

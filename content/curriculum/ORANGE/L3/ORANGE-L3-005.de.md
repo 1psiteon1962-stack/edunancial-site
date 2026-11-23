@@ -30,7 +30,7 @@ Bevor du dich zu einer großen neuen Marketingausgabe verpflichtest: Was könnte
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen erwägt eine deutliche Erhöhung seines Werbebudgets und begründet das intern nur mit dem Vergleich zum kleineren Budget des Vorjahres und einem etwas höheren Ergebnis. [ASSUMPTION] Wendet das Team stattdessen den risikobereinigten Rahmen aus dem GOLDENEN Lernpfad an, vergleicht es diese Ausgabe mit der realistischen Alternative, dasselbe Kapital zur Tilgung eines hoch verzinsten Kredits oder für die Produktentwicklung mit sichereren Erträgen einzusetzen – ein Vergleich, den die einfache Gegenüberstellung mit dem Vorjahr nie angestellt hat. Dabei zeigt sich, dass die Marketingausgabe zwar nicht unvernünftig war, aber nicht offensichtlich die stärkste Verwendung dieses Kapitals, sobald echte Alternativen berücksichtigt wurden.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen erwägt eine deutliche Erhöhung seines Werbebudgets und begründet das intern nur mit dem Vergleich zum kleineren Budget des Vorjahres und einem etwas höheren Ergebnis. [ANNAHME] Wendet das Team stattdessen den risikobereinigten Rahmen aus dem GOLDENEN Lernpfad an, vergleicht es diese Ausgabe mit der realistischen Alternative, dasselbe Kapital zur Tilgung eines hoch verzinsten Kredits oder für die Produktentwicklung mit sichereren Erträgen einzusetzen – ein Vergleich, den die einfache Gegenüberstellung mit dem Vorjahr nie angestellt hat. Dabei zeigt sich, dass die Marketingausgabe zwar nicht unvernünftig war, aber nicht offensichtlich die stärkste Verwendung dieses Kapitals, sobald echte Alternativen berücksichtigt wurden.
 
 ## Übungsquiz
 1. Warum versteht man Marketingausgaben besser als Investition denn als festen Kostenposten?

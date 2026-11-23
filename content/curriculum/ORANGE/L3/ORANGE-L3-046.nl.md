@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Stel je voor dat een plotselinge verandering in klantgedrag – misschien door een bredere economische neergang, verschuivende prioriteiten van klanten of een ontwrichtende nieuwe concurrent – ervoor zorgt dat de conversiepercentages sterk dalen en bestaande klanten duidelijk prijsgevoeliger worden, en dat allemaal binnen korte tijd. Dit is een hypothetisch stresstestscenario, geen voorspelling over een specifieke echte gebeurtenis of markt.
+[HYPOTHETISCH SCENARIO — AANNAME, GEEN GEVERIFIEERD FEIT] Stel je voor dat een plotselinge verandering in klantgedrag – misschien door een bredere economische neergang, verschuivende prioriteiten van klanten of een ontwrichtende nieuwe concurrent – ervoor zorgt dat de conversiepercentages sterk dalen en bestaande klanten duidelijk prijsgevoeliger worden, en dat allemaal binnen korte tijd. Dit is een hypothetisch stresstestscenario, geen voorspelling over een specifieke echte gebeurtenis of markt.
 
 Denk hier eerst zelf over na voordat je het uitgewerkte voorbeeld leest: wat zou er gebeuren met je verhouding tussen CAC en LTV als de conversiepercentages dalen? Wat zou er gebeuren met je verkoopprognose, die is gebouwd op historische aannames over conversie (Les 3, Les 15)? Als klanten prijsgevoeliger worden, wat doet dat dan met het margerekenwerk uit Les 9 als je in de verleiding komt om met kortingen te reageren? En wat zou dit doen met je klantverloop (Les 31), aangezien ook bestaande klanten worden geraakt, en niet alleen nieuwe prospects?
 

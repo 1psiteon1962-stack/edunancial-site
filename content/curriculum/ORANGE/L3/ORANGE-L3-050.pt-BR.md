@@ -30,7 +30,7 @@ Olhe para trás ao longo desta trilha: o preço determina a margem (Lição 2); 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma profissional de marketing que absorveu esta trilha inteira, diante de uma nova proposta de campanha, não a avalia só pelos méritos de marketing. Ela se pergunta por instinto o que a campanha faria com o CAC e com os prazos do fluxo de caixa (Lições 1 e 18), se alguma afirmação envolvida precisa de comprovação jurídica (Lição 7), quais são as implicações de comissão ou de incentivo para o time de vendas (Lições 19 e 37) e se a economia unitária de fundo sustenta o crescimento que a campanha deveria gerar (Lição 35) — não porque uma checklist mandou, mas porque agora ela enxerga uma decisão de marketing como inseparável do resto do negócio que ela deveria servir.
+[EXEMPLO ILUSTRATIVO] Uma profissional de marketing que absorveu esta trilha inteira, diante de uma nova proposta de campanha, não a avalia só pelos méritos de marketing. Ela se pergunta por instinto o que a campanha faria com o CAC e com os prazos do fluxo de caixa (Lições 1 e 18), se alguma afirmação envolvida precisa de comprovação jurídica (Lição 7), quais são as implicações de comissão ou de incentivo para o time de vendas (Lições 19 e 37) e se a economia unitária de fundo sustenta o crescimento que a campanha deveria gerar (Lição 35) — não porque uma checklist mandou, mas porque agora ela enxerga uma decisão de marketing como inseparável do resto do negócio que ela deveria servir.
 
 ## Teste de prática
 

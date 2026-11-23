@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Quando un datore di lavoro trattiene dalla busta paga di un dipendente l'imposta sul reddito e i contributi (come visto nella Lezione 4), l'importo trattenuto non appartiene al datore di lavoro: è denaro che il datore di lavoro custodisce temporaneamente per conto del fisco, dovuto ai fini fiscali dal dipendente ma riscosso dal datore di lavoro come intermediario. I datori di lavoro hanno in genere scadenze rigide e specifiche per versare questi importi trattenuti, [VERIFIED FACT] e la frequenza dei versamenti e le scadenze specifiche dipendono spesso dall'entità del monte salari del datore di lavoro e da altri fattori, stabiliti dall'autorità fiscale competente.
+Quando un datore di lavoro trattiene dalla busta paga di un dipendente l'imposta sul reddito e i contributi (come visto nella Lezione 4), l'importo trattenuto non appartiene al datore di lavoro: è denaro che il datore di lavoro custodisce temporaneamente per conto del fisco, dovuto ai fini fiscali dal dipendente ma riscosso dal datore di lavoro come intermediario. I datori di lavoro hanno in genere scadenze rigide e specifiche per versare questi importi trattenuti, [FATTO VERIFICATO] e la frequenza dei versamenti e le scadenze specifiche dipendono spesso dall'entità del monte salari del datore di lavoro e da altri fattori, stabiliti dall'autorità fiscale competente.
 
 Ecco il "perché" queste scadenze vengono trattate con particolare rigore rispetto ad alcuni altri impegni finanziari di un'impresa: dato che questo denaro trattenuto non è mai stato davvero del datore di lavoro, perché è stato riscosso per conto dei dipendenti e del fisco, usarlo per altri scopi aziendali, anche solo temporaneamente durante una crisi di liquidità, viene trattato in modo molto più serio di un normale pagamento in ritardo a un fornitore.
 
@@ -30,7 +30,7 @@ Questa distinzione prepara direttamente il concetto di imposte "trust fund" trat
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa con una temporanea carenza di liquidità è tentata di ritardare per poco il versamento delle ritenute sulle retribuzioni, con l'idea di mettersi in pari quando la liquidità migliorerà, trattandolo come farebbe con un pagamento in ritardo a un fornitore. [ASSUMPTION] Dato che le ritenute sulle retribuzioni sono considerate fondi custoditi per conto dei dipendenti e del fisco, e non liquidità operativa dell'impresa, un ritardo del genere comporta conseguenze molto più serie di un pagamento in ritardo a un fornitore, e prepara esattamente il rischio di responsabilità personale discusso nella prossima lezione sul concetto di imposte "trust fund".
+[ESEMPIO ILLUSTRATIVO] Un'impresa con una temporanea carenza di liquidità è tentata di ritardare per poco il versamento delle ritenute sulle retribuzioni, con l'idea di mettersi in pari quando la liquidità migliorerà, trattandolo come farebbe con un pagamento in ritardo a un fornitore. [IPOTESI] Dato che le ritenute sulle retribuzioni sono considerate fondi custoditi per conto dei dipendenti e del fisco, e non liquidità operativa dell'impresa, un ritardo del genere comporta conseguenze molto più serie di un pagamento in ritardo a un fornitore, e prepara esattamente il rischio di responsabilità personale discusso nella prossima lezione sul concetto di imposte "trust fund".
 
 ## Quiz di esercitazione
 

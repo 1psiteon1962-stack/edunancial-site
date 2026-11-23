@@ -30,7 +30,7 @@ Voordat je verder leest: waarop kan een aanhoudende stijging van CAC, naast mark
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] De CAC van een bedrijf stijgt in twee kwartalen met 40% door meer concurrentie op advertenties. Het marketingteam behandelt dit als een probleem van kanaaloptimalisatie dat met betere targeting kan worden opgelost. [ASSUMPTION] Ondertussen verlengt dezelfde CAC-stijging ongemerkt de terugverdientijd van nieuwe klanten, krimpt de runway van het bedrijf (BLUE-traject) sneller dan het financiële team heeft gesignaleerd, en wordt een financieringsronde urgenter dan iemand in dat marketingoverleg beseft. Hetzelfde getal is tegelijk een marketingcijfer, een kasstroomsignaal en een aanleiding om financiering te zoeken.
+[ILLUSTRATIEF VOORBEELD] De CAC van een bedrijf stijgt in twee kwartalen met 40% door meer concurrentie op advertenties. Het marketingteam behandelt dit als een probleem van kanaaloptimalisatie dat met betere targeting kan worden opgelost. [AANNAME] Ondertussen verlengt dezelfde CAC-stijging ongemerkt de terugverdientijd van nieuwe klanten, krimpt de runway van het bedrijf (BLUE-traject) sneller dan het financiële team heeft gesignaleerd, en wordt een financieringsronde urgenter dan iemand in dat marketingoverleg beseft. Hetzelfde getal is tegelijk een marketingcijfer, een kasstroomsignaal en een aanleiding om financiering te zoeken.
 
 ## Oefenquiz
 

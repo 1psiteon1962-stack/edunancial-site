@@ -28,11 +28,11 @@ Met **margin** (beleggen met geleend geld) kan een belegger geld lenen bij een b
 
 Dit is het "waarom" dat hetzelfde vermenigvuldigingseffect geldt: je procentuele rendement wordt berekend ten opzichte van je eigen ingelegde geld, niet ten opzichte van de volledige omvang van de positie. Als de positie in waarde stijgt, wordt die winst dus afgezet tegen een kleinere basis, wat je procentuele rendement vergroot. Als de positie in waarde daalt, vergroot dezelfde rekensom je procentuele verlies op precies dezelfde manier, en je bent nog steeds het volledige geleende bedrag verschuldigd, hoe de belegging ook presteert.
 
-[VERIFIED FACT] Over marginleningen betaal je meestal rente, wat een doorlopende kostenpost aan de positie toevoegt, en brokers eisen dat je een minimaal niveau aan eigen vermogen op de rekening aanhoudt. Als de waarde van de rekening te ver daalt, kan dat een margin call veroorzaken, die in de volgende les wordt behandeld.
+[GEVERIFIEERD FEIT] Over marginleningen betaal je meestal rente, wat een doorlopende kostenpost aan de positie toevoegt, en brokers eisen dat je een minimaal niveau aan eigen vermogen op de rekening aanhoudt. Als de waarde van de rekening te ver daalt, kan dat een margin call veroorzaken, die in de volgende les wordt behandeld.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belegger heeft $10,000 aan contant geld en gebruikt margin om voor $20,000 aan aandelen te kopen (hij leent de andere $10,000). Als het aandeel 10% stijgt, wint de positie $2,000: een rendement van 20% op de oorspronkelijke $10,000 van de belegger, niet 10%. Als het aandeel juist 10% daalt, verliest de positie $2,000: een verlies van 20% op de oorspronkelijke $10,000, en de belegger is nog steeds de volledige geleende $10,000 verschuldigd, ongeacht de nieuwe, lagere waarde van het aandeel.
+[ILLUSTRATIEF VOORBEELD] Een belegger heeft $10,000 aan contant geld en gebruikt margin om voor $20,000 aan aandelen te kopen (hij leent de andere $10,000). Als het aandeel 10% stijgt, wint de positie $2,000: een rendement van 20% op de oorspronkelijke $10,000 van de belegger, niet 10%. Als het aandeel juist 10% daalt, verliest de positie $2,000: een verlies van 20% op de oorspronkelijke $10,000, en de belegger is nog steeds de volledige geleende $10,000 verschuldigd, ongeacht de nieuwe, lagere waarde van het aandeel.
 
 ## Oefenquiz
 

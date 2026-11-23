@@ -30,11 +30,11 @@ Yon **REIT (Real Estate Investment Trust, sa vle di yon fon envestisman imobilye
 
 Men "poukisa" REIT yo ofri yon eksperyans diferan de achte pwopriyete dirèkteman, jan tras RED la kouvri l: yon envestisè REIT achte aksyon ki reprezante yon pòsyon nan yon pòtfolyo pwopriyete divèsifye (souvan anpil pwopriyete nan diferan mache), san li pa jere lokatè dirèkteman, okipe antretyen, oswa ranje finansman pou chak pwopriyete — responsablite sa yo se pou pwòp ekip direksyon REIT la. An echanj, envestisè a nòmalman bay moute kontwòl dirèk la ak sèten tretman taks espesifik (tankou depresyasyon, ki kouvri nan tras RED la) yon pwopriyetè dirèk genyen.
 
-[VERIFIED FACT] Jeneralman, REIT yo oblije distribye yon gwo majorite nan revni taksab yo bay aksyonè yo kòm dividann, e se youn nan rezon ki fè REIT yo souvan konnen pou rannman dividann ki relativman wo konpare ak anpil lòt kategori aksyon — byenke, jan Leson 17 te kouvri l, yon dividann se toujou yon distribisyon valè, pa yon bonis anplis valè a.
+[FÈ VERIFYE] Jeneralman, REIT yo oblije distribye yon gwo majorite nan revni taksab yo bay aksyonè yo kòm dividann, e se youn nan rezon ki fè REIT yo souvan konnen pou rannman dividann ki relativman wo konpare ak anpil lòt kategori aksyon — byenke, jan Leson 17 te kouvri l, yon dividann se toujou yon distribisyon valè, pa yon bonis anplis valè a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè vle gen ekspozisyon nan imobilye komèsyal, men li pa gen kapital la, tan an, oswa anvi pou l jere yon pwopriyete pou lwe ak levye dirèkteman, jan tras RED pwogram sa a dekri l. Olye de sa, li achte aksyon nan yon REIT ki posede yon gwo pòtfolyo biwo ak magazen. Li jwenn ekspozisyon nan revni imobilye ak valè li ka pran, li resevwa distribisyon dividann regilye ki soti nan revni lwaye REIT la, e li ka achte oswa vann aksyon li yo sou mache bousye a nenpòt ki lè pandan lè mache a ouvè — yon eksperyans "envestisman imobilye" ki trè diferan de finanse ak jere yon sèl pwopriyete pou lwe dirèkteman.
+[EGZANP ILISTRATIF] Yon envestisè vle gen ekspozisyon nan imobilye komèsyal, men li pa gen kapital la, tan an, oswa anvi pou l jere yon pwopriyete pou lwe ak levye dirèkteman, jan tras RED pwogram sa a dekri l. Olye de sa, li achte aksyon nan yon REIT ki posede yon gwo pòtfolyo biwo ak magazen. Li jwenn ekspozisyon nan revni imobilye ak valè li ka pran, li resevwa distribisyon dividann regilye ki soti nan revni lwaye REIT la, e li ka achte oswa vann aksyon li yo sou mache bousye a nenpòt ki lè pandan lè mache a ouvè — yon eksperyans "envestisman imobilye" ki trè diferan de finanse ak jere yon sèl pwopriyete pou lwe dirèkteman.
 
 ## Egzamen pratik
 

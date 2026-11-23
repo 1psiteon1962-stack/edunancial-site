@@ -30,7 +30,7 @@ Guarda il tuo attuale team di leadership o i tuoi consiglieri più stretti. Chi 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader nota che ogni proposta presentata al suo team di leadership riceve un consenso rapido e unanime, e all'inizio lo interpreta come la prova di un team forte e allineato. [ASSUMPTION] Riflettendoci meglio, in collegamento con la preoccupazione sulla sicurezza psicologica della Lezione 11, questo leader riconosce che un accordo così facile potrebbe riflettere un team che ha imparato che il dissenso non è gradito, invece di un vero consenso. Questo lo spinge a un impegno deliberato: cercare membri del team noti per il loro giudizio indipendente e sollecitare e premiare attivamente le opinioni dissenzienti, invece di continuare a interpretare un accordo comodo come un segno di forza del team.
+[ESEMPIO ILLUSTRATIVO] Un leader nota che ogni proposta presentata al suo team di leadership riceve un consenso rapido e unanime, e all'inizio lo interpreta come la prova di un team forte e allineato. [IPOTESI] Riflettendoci meglio, in collegamento con la preoccupazione sulla sicurezza psicologica della Lezione 11, questo leader riconosce che un accordo così facile potrebbe riflettere un team che ha imparato che il dissenso non è gradito, invece di un vero consenso. Questo lo spinge a un impegno deliberato: cercare membri del team noti per il loro giudizio indipendente e sollecitare e premiare attivamente le opinioni dissenzienti, invece di continuare a interpretare un accordo comodo come un segno di forza del team.
 
 ## Quiz di esercitazione
 

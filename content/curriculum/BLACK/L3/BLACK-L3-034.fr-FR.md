@@ -30,7 +30,7 @@ Si tu diriges, ou prévois diriger, une équipe dans un contexte culturel ou éc
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader habitué à un style de rétroaction direct et informel dans un contexte culturel commence à diriger une équipe dans un milieu culturel différent, où une rétroaction directe en public est généralement considérée comme irrespectueuse et où une approche plus indirecte et privée est attendue. [ASSUMPTION] Continuer d'appliquer le style de rétroaction direct et familier sans l'adapter crée de vraies frictions et nuit à la confiance avec la nouvelle équipe, ce qui montre pourquoi exporter un style de gestion sans le changer, aussi bien intentionné ou efficace soit-il dans son contexte d'origine, ne reflète pas le vrai respect envers les employés que souligne le thème plus large de la responsabilité de l'employeur de la leçon 14.
+[EXEMPLE ILLUSTRATIF] Un leader habitué à un style de rétroaction direct et informel dans un contexte culturel commence à diriger une équipe dans un milieu culturel différent, où une rétroaction directe en public est généralement considérée comme irrespectueuse et où une approche plus indirecte et privée est attendue. [HYPOTHÈSE] Continuer d'appliquer le style de rétroaction direct et familier sans l'adapter crée de vraies frictions et nuit à la confiance avec la nouvelle équipe, ce qui montre pourquoi exporter un style de gestion sans le changer, aussi bien intentionné ou efficace soit-il dans son contexte d'origine, ne reflète pas le vrai respect envers les employés que souligne le thème plus large de la responsabilité de l'employeur de la leçon 14.
 
 ## Quiz de pratique
 

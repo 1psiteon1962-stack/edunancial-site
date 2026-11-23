@@ -30,7 +30,7 @@ Vor deiner nächsten bedeutenden Führungsentscheidung – einer Einstellung, ei
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft geht monatelang nicht auf einen dauerhaft leistungsschwachen Mitarbeiter ein und begründet die Verzögerung damit, ihm „mehr Zeit zur Entwicklung“ zu geben – eine personenbezogene, scheinbar nicht finanzielle Begründung. [ASSUMPTION] In diesen Monaten leidet das Gesamtergebnis des Teams, andere Teammitglieder werden frustriert, weil die Leistungsschwäche unbeantwortet bleibt, und die späteren Kosten eines Ersatzes (Personalsuche, Einarbeitung, Produktivitätsverlust während des Übergangs) wachsen, je länger die Entscheidung aufgeschoben wird – die „Personalentscheidung“ war die ganze Zeit eine Finanzentscheidung, nur eine, die die Führungskraft nicht ausdrücklich als solche benannt hatte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft geht monatelang nicht auf einen dauerhaft leistungsschwachen Mitarbeiter ein und begründet die Verzögerung damit, ihm „mehr Zeit zur Entwicklung“ zu geben – eine personenbezogene, scheinbar nicht finanzielle Begründung. [ANNAHME] In diesen Monaten leidet das Gesamtergebnis des Teams, andere Teammitglieder werden frustriert, weil die Leistungsschwäche unbeantwortet bleibt, und die späteren Kosten eines Ersatzes (Personalsuche, Einarbeitung, Produktivitätsverlust während des Übergangs) wachsen, je länger die Entscheidung aufgeschoben wird – die „Personalentscheidung“ war die ganze Zeit eine Finanzentscheidung, nur eine, die die Führungskraft nicht ausdrücklich als solche benannt hatte.
 
 ## Übungsquiz
 1. Warum ist die Trennung von „Führungsentscheidungen“ und „Finanzentscheidungen“ eine falsche Unterscheidung?

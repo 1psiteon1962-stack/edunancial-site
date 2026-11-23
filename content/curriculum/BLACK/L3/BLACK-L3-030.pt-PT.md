@@ -30,7 +30,7 @@ Numa decisão que está a adiar enquanto reúne mais informações, a coleta de 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder diante de uma decisão importante continua, por semanas, reunindo mais dados e opiniões, na esperança de ter certeza suficiente para se sentir totalmente seguro antes de agir. [ASSUMPTION] Ao olhar o padrão com honestidade, esse líder percebe que a coleta de informações mais recente não mudou a decisão que ele provavelmente vai tomar — só adiou uma escolha para a qual ele já tinha informações suficientes, retomando o ponto da trilha ORANGE de que, a partir de certo momento, mais pesquisa deixa de reduzir uma incerteza relevante e passa só a atrasar a ação, com o próprio atraso trazendo um custo real e crescente.
+[EXEMPLO ILUSTRATIVO] Um líder diante de uma decisão importante continua, por semanas, reunindo mais dados e opiniões, na esperança de ter certeza suficiente para se sentir totalmente seguro antes de agir. [SUPOSIÇÃO] Ao olhar o padrão com honestidade, esse líder percebe que a coleta de informações mais recente não mudou a decisão que ele provavelmente vai tomar — só adiou uma escolha para a qual ele já tinha informações suficientes, retomando o ponto da trilha ORANGE de que, a partir de certo momento, mais pesquisa deixa de reduzir uma incerteza relevante e passa só a atrasar a ação, com o próprio atraso trazendo um custo real e crescente.
 
 ## Teste de prática
 

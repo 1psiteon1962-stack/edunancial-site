@@ -32,7 +32,7 @@ Qu'arrive-t-il, selon ton modèle de contrat de vente actuel, si un client ne pa
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une équipe de vente utilise une entente de vente simple, rédigée de façon informelle, pour une transaction importante, en se concentrant sur la conclusion rapide de l'affaire plutôt que sur le libellé précis du contrat. [ASSUMPTION] Lorsque le client ne paie pas à temps par la suite, l'entreprise découvre que son entente de vente ne précise pas clairement les conséquences d'un retard de paiement, les intérêts ni un processus de règlement des litiges — exactement le genre d'ambiguïté dont le parcours PURPLE prévenait qu'elle crée des litiges plus difficiles à régler, ce qui transforme ce qui aurait dû être un simple dossier de recouvrement en une situation beaucoup plus difficile et coûteuse.
+[EXEMPLE ILLUSTRATIF] Une équipe de vente utilise une entente de vente simple, rédigée de façon informelle, pour une transaction importante, en se concentrant sur la conclusion rapide de l'affaire plutôt que sur le libellé précis du contrat. [HYPOTHÈSE] Lorsque le client ne paie pas à temps par la suite, l'entreprise découvre que son entente de vente ne précise pas clairement les conséquences d'un retard de paiement, les intérêts ni un processus de règlement des litiges — exactement le genre d'ambiguïté dont le parcours PURPLE prévenait qu'elle crée des litiges plus difficiles à régler, ce qui transforme ce qui aurait dû être un simple dossier de recouvrement en une situation beaucoup plus difficile et coûteuse.
 
 ## Quiz de pratique
 

@@ -32,7 +32,7 @@ Avant de t'engager dans une hausse importante des dépenses de marketing, combie
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise augmente fortement ses dépenses de marketing, en s'attendant à ce que la croissance des ventes qui en découle finance l'exploitation du prochain trimestre. [ASSUMPTION] Le marketing fonctionne vraiment — les clients potentiels se convertissent en ventes au taux prévu —, mais l'argent réel de ces ventes, compte tenu du cycle d'encaissement habituel de 60 jours de l'entreprise abordé dans la discussion du parcours BLUE, n'arrive que bien après l'échéance des factures de marketing, ce qui crée un manque de liquidités même si la campagne marketing est, selon ses propres indicateurs, une réussite claire.
+[EXEMPLE ILLUSTRATIF] Une entreprise augmente fortement ses dépenses de marketing, en s'attendant à ce que la croissance des ventes qui en découle finance l'exploitation du prochain trimestre. [HYPOTHÈSE] Le marketing fonctionne vraiment — les clients potentiels se convertissent en ventes au taux prévu —, mais l'argent réel de ces ventes, compte tenu du cycle d'encaissement habituel de 60 jours de l'entreprise abordé dans la discussion du parcours BLUE, n'arrive que bien après l'échéance des factures de marketing, ce qui crée un manque de liquidités même si la campagne marketing est, selon ses propres indicateurs, une réussite claire.
 
 ## Quiz de pratique
 

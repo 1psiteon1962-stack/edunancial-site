@@ -30,7 +30,7 @@ Pegue qualquer decisão de vendas ou marketing que esteja na sua frente agora e 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio que avalia uma nova oportunidade de patrocínio aplica a versão completa dessa pergunta: o custo inclui não só a taxa de patrocínio, mas também o trabalho de verificação da estabilidade do parceiro (Lição 36) e o risco de reputação da associação (Lição 4); o retorno inclui não só o alcance estimado de público, mas a probabilidade realista de esse alcance se converter em clientes reais, pagantes e retidos (Lições 3, 6 e 15), comparada com honestidade ao que o mesmo orçamento poderia conseguir em outro lugar (Lição 38). Essa versão completa da pergunta gera uma avaliação realmente diferente e mais rigorosa do que uma versão mais estreita, que pergunta só "quanto custa o patrocínio e quantas pessoas vão ver".
+[EXEMPLO ILUSTRATIVO] Um negócio que avalia uma nova oportunidade de patrocínio aplica a versão completa dessa pergunta: o custo inclui não só a taxa de patrocínio, mas também o trabalho de verificação da estabilidade do parceiro (Lição 36) e o risco de reputação da associação (Lição 4); o retorno inclui não só o alcance estimado de público, mas a probabilidade realista de esse alcance se converter em clientes reais, pagantes e retidos (Lições 3, 6 e 15), comparada com honestidade ao que o mesmo orçamento poderia conseguir em outro lugar (Lição 38). Essa versão completa da pergunta gera uma avaliação realmente diferente e mais rigorosa do que uma versão mais estreita, que pergunta só "quanto custa o patrocínio e quantas pessoas vão ver".
 
 ## Teste de prática
 

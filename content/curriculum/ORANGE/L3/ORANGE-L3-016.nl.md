@@ -30,7 +30,7 @@ Voordat een verkoper een specifieke belofte doet om een deal te sluiten: is dat 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een verkoper die graag een deal wil sluiten, belooft mondeling een levertermijn waarvan het operationele team van de onderneming niet heeft bevestigd dat het die kan halen. [ASSUMPTION] Als de levering ruim later komt dan beloofd, voelt de klant zich misleid. Mogelijk dient hij een juridische claim in die aansluit op de beginselen over onjuiste voorstellingen uit het PURPLE-traject, en daarnaast deelt hij zijn negatieve ervaring publiekelijk. Zo leidt één te grote belofte tot zowel een juridisch risico als een reputatierisico, wat laat zien waarom integriteit in de verkoop veel meer op het spel zet dan alleen de deal die wordt gesloten.
+[ILLUSTRATIEF VOORBEELD] Een verkoper die graag een deal wil sluiten, belooft mondeling een levertermijn waarvan het operationele team van de onderneming niet heeft bevestigd dat het die kan halen. [AANNAME] Als de levering ruim later komt dan beloofd, voelt de klant zich misleid. Mogelijk dient hij een juridische claim in die aansluit op de beginselen over onjuiste voorstellingen uit het PURPLE-traject, en daarnaast deelt hij zijn negatieve ervaring publiekelijk. Zo leidt één te grote belofte tot zowel een juridisch risico als een reputatierisico, wat laat zien waarom integriteit in de verkoop veel meer op het spel zet dan alleen de deal die wordt gesloten.
 
 ## Oefenquiz
 

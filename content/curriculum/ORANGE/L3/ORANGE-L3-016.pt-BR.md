@@ -30,7 +30,7 @@ Antes de um vendedor fazer uma promessa específica para fechar um negócio: iss
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um vendedor, ansioso para fechar um negócio, promete verbalmente um prazo de entrega que o time de operações da empresa não confirmou que consegue cumprir. [ASSUMPTION] Quando a entrega atrasa muito além do prazo prometido, o cliente se sente enganado, podendo entrar com uma reclamação jurídica ligada aos princípios de representação falsa da trilha PURPLE e, à parte, contar publicamente a experiência negativa — criando, a partir de uma única promessa exagerada, tanto uma exposição jurídica quanto uma exposição de reputação, o que mostra por que a integridade nas vendas tem um peso que vai muito além do negócio que está sendo fechado.
+[EXEMPLO ILUSTRATIVO] Um vendedor, ansioso para fechar um negócio, promete verbalmente um prazo de entrega que o time de operações da empresa não confirmou que consegue cumprir. [SUPOSIÇÃO] Quando a entrega atrasa muito além do prazo prometido, o cliente se sente enganado, podendo entrar com uma reclamação jurídica ligada aos princípios de representação falsa da trilha PURPLE e, à parte, contar publicamente a experiência negativa — criando, a partir de uma única promessa exagerada, tanto uma exposição jurídica quanto uma exposição de reputação, o que mostra por que a integridade nas vendas tem um peso que vai muito além do negócio que está sendo fechado.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Guarda le metriche che il tuo team di marketing riporta oggi come prova di succe
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una campagna di marketing genera un numero molto alto di impression e di interazioni sui social media, e internamente viene presentata come un chiaro successo. [ASSUMPTION] Un'analisi più attenta rivela che questa attenzione si è tradotta in pochissimi clienti paganti reali, e i pochi che si sono convertiti avevano un tasso di abbandono nettamente superiore alla media. Le metriche di facciata sembravano impressionanti, ma i risultati aziendali reali che dovevano rappresentare (clienti redditizi e fidelizzati) non si sono mai concretizzati. Questo mostra perché quanto una metrica sia impressionante, da solo, non ti dice nulla del suo reale valore per l'impresa.
+[ESEMPIO ILLUSTRATIVO] Una campagna di marketing genera un numero molto alto di impression e di interazioni sui social media, e internamente viene presentata come un chiaro successo. [IPOTESI] Un'analisi più attenta rivela che questa attenzione si è tradotta in pochissimi clienti paganti reali, e i pochi che si sono convertiti avevano un tasso di abbandono nettamente superiore alla media. Le metriche di facciata sembravano impressionanti, ma i risultati aziendali reali che dovevano rappresentare (clienti redditizi e fidelizzati) non si sono mai concretizzati. Questo mostra perché quanto una metrica sia impressionante, da solo, non ti dice nulla del suo reale valore per l'impresa.
 
 ## Quiz di esercitazione
 

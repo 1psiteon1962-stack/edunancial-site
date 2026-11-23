@@ -28,11 +28,11 @@ Esta trilha tratou de várias formas específicas pelas quais a emoção e a psi
 
 Veja o "porquê" de escrever um plano com antecedência importar: decisões tomadas com calma, com antecedência, antes que um acontecimento específico do mercado tenha provocado uma reação emocional, tendem a ser mais coerentes com os objetivos reais de longo prazo do investidor do que decisões tomadas por reação, no meio de uma queda estressante ou de uma alta empolgante. Um plano por escrito, que define a alocação de ativos desejada (Lição 34), as regras de rebalanceamento (Lição 14) e os critérios gerais para comprar ou vender, dá ao investidor um ponto de referência combinado de antemão ao qual voltar, em vez de improvisar uma resposta enquanto as emoções estão à flor da pele.
 
-[VERIFIED FACT] Essa abordagem não elimina a experiência emocional da volatilidade do mercado, mas pode reduzir a chance de agir com base nessa emoção de formas que contrariem os objetivos e a estratégia que o próprio investidor definiu antes, com calma e reflexão.
+[FATO VERIFICADO] Essa abordagem não elimina a experiência emocional da volatilidade do mercado, mas pode reduzir a chance de agir com base nessa emoção de formas que contrariem os objetivos e a estratégia que o próprio investidor definiu antes, com calma e reflexão.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora escreve um plano de investimento durante um período tranquilo, definindo a alocação de ativos desejada, um plano de rebalancear uma vez por ano e os critérios que vai usar antes de fazer qualquer mudança significativa na estratégia. [ASSUMPTION] Meses depois, durante uma queda forte do mercado, ela sente uma vontade enorme de vender tudo e ficar em dinheiro. Voltar ao plano por escrito (criado antes desse momento emocional específico) a lembra do raciocínio original de longo prazo e das regras de rebalanceamento, o que pode ajudá-la a evitar uma decisão por reação que a versão mais calma e anterior dela já tinha previsto e planejado resistir.
+[EXEMPLO ILUSTRATIVO] Uma investidora escreve um plano de investimento durante um período tranquilo, definindo a alocação de ativos desejada, um plano de rebalancear uma vez por ano e os critérios que vai usar antes de fazer qualquer mudança significativa na estratégia. [SUPOSIÇÃO] Meses depois, durante uma queda forte do mercado, ela sente uma vontade enorme de vender tudo e ficar em dinheiro. Voltar ao plano por escrito (criado antes desse momento emocional específico) a lembra do raciocínio original de longo prazo e das regras de rebalanceamento, o que pode ajudá-la a evitar uma decisão por reação que a versão mais calma e anterior dela já tinha previsto e planejado resistir.
 
 ## Teste de prática
 

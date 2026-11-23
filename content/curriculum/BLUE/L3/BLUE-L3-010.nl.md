@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-In de Verenigde Staten biedt de Small Business Administration (SBA) leningprogramma's waarbij de overheid een deel garandeert van een lening die een deelnemende private kredietverstrekker verstrekt, in plaats van het geld zelf rechtstreeks uit te lenen. (In Nederland werkt de Borgstelling MKB-kredieten (BMKB) volgens een vergelijkbaar principe.) [VERIFIED FACT] De precieze voorwaarden, toelatingseisen en garantiepercentages van de programma's worden door de SBA vastgesteld en veranderen regelmatig; controleer de actuele details rechtstreeks in plaats van ze aan te nemen.
+In de Verenigde Staten biedt de Small Business Administration (SBA) leningprogramma's waarbij de overheid een deel garandeert van een lening die een deelnemende private kredietverstrekker verstrekt, in plaats van het geld zelf rechtstreeks uit te lenen. (In Nederland werkt de Borgstelling MKB-kredieten (BMKB) volgens een vergelijkbaar principe.) [GEVERIFIEERD FEIT] De precieze voorwaarden, toelatingseisen en garantiepercentages van de programma's worden door de SBA vastgesteld en veranderen regelmatig; controleer de actuele details rechtstreeks in plaats van ze aan te nemen.
 
 Hier is het "waarom" deze overheidsgarantie belangrijk is, in aansluiting op de bespreking in Les 1 over waarom gewone kredietverstrekkers vaak aarzelen om de overname van kleine bedrijven volledig te financieren: omdat de overheid een flink deel van de lening garandeert als de lener niet betaalt, lopen deelnemende kredietverstrekkers veel minder risico dan bij een gewone lening zonder enige garantie. Daardoor zijn ze bereid financiering te bieden, vaak tegen gunstigere voorwaarden (zoals een lagere eigen inbreng of een langere looptijd), die ze anders misschien niet zouden geven voor de overname van een klein bedrijf.
 
@@ -30,7 +30,7 @@ Daarom worden SBA-leningen vaak naast financiering door de verkoper (Les 1) gebr
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een koper wil een klein bedrijf kopen voor $500,000. Een bank die aan een SBA-leningprogramma deelneemt, wil het grootste deel van dat bedrag lenen, waarbij de overheid een deel van de lening garandeert als de lener niet betaalt. Die structuur geeft de bank genoeg vertrouwen om financiering te verstrekken die ze voor dit soort overname zonder enige garantie waarschijnlijk niet zou geven. Het resterende bedrag wordt verdeeld over een kleiner deel financiering door de verkoper en de eigen inbreng van de koper in contanten. Samen financieren ze de aankoop volledig.
+[ILLUSTRATIEF VOORBEELD] Een koper wil een klein bedrijf kopen voor $500,000. Een bank die aan een SBA-leningprogramma deelneemt, wil het grootste deel van dat bedrag lenen, waarbij de overheid een deel van de lening garandeert als de lener niet betaalt. Die structuur geeft de bank genoeg vertrouwen om financiering te verstrekken die ze voor dit soort overname zonder enige garantie waarschijnlijk niet zou geven. Het resterende bedrag wordt verdeeld over een kleiner deel financiering door de verkoper en de eigen inbreng van de koper in contanten. Samen financieren ze de aankoop volledig.
 
 ## Oefenquiz
 

@@ -30,7 +30,7 @@ Para a sua principal prioridade estratégica atual, que evidências específicas
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder confiante na direção estratégica atual construiu uma equipa com segurança psicológica real e um histórico de discordância, como nas Lições 11 e 19. [ASSUMPTION] Em vez de simplesmente esperar para ver se evidências contrárias aparecem por acaso por meio dessa estrutura, esse líder pergunta à equipa, de forma ativa e específica: "o que nos diria que esta estratégia não está a funcionar, e nós realmente verificamos essas evidências específicas recentemente?" — juntando as condições estruturais que esta trilha construiu com o esforço intencional e ativo do próprio líder de buscar o que contradiz a estratégia, em vez de esperar isso de forma passiva ou filtrar sem perceber.
+[EXEMPLO ILUSTRATIVO] Um líder confiante na direção estratégica atual construiu uma equipa com segurança psicológica real e um histórico de discordância, como nas Lições 11 e 19. [SUPOSIÇÃO] Em vez de simplesmente esperar para ver se evidências contrárias aparecem por acaso por meio dessa estrutura, esse líder pergunta à equipa, de forma ativa e específica: "o que nos diria que esta estratégia não está a funcionar, e nós realmente verificamos essas evidências específicas recentemente?" — juntando as condições estruturais que esta trilha construiu com o esforço intencional e ativo do próprio líder de buscar o que contradiz a estratégia, em vez de esperar isso de forma passiva ou filtrar sem perceber.
 
 ## Teste de prática
 

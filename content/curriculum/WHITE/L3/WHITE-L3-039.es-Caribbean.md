@@ -24,7 +24,7 @@ Al final de esta lección, podrás:
 
 ## Contenido principal
 
-Muchos sistemas contributivos distinguen entre las ganancias de inversiones que se tuvieron por un período más corto y las de inversiones que se tuvieron por un período más largo antes de venderse, y a menudo aplican tasas contributivas distintas a cada categoría. [VERIFIED FACT] Los umbrales específicos de período de tenencia y las tasas contributivas que aplican varían mucho según la jurisdicción y los establece la ley contributiva específica. Conocer el concepto en general es útil, pero las cifras exactas deben verificarse para cada situación y jurisdicción específica.
+Muchos sistemas contributivos distinguen entre las ganancias de inversiones que se tuvieron por un período más corto y las de inversiones que se tuvieron por un período más largo antes de venderse, y a menudo aplican tasas contributivas distintas a cada categoría. [DATO VERIFICADO] Los umbrales específicos de período de tenencia y las tasas contributivas que aplican varían mucho según la jurisdicción y los establece la ley contributiva específica. Conocer el concepto en general es útil, pero las cifras exactas deben verificarse para cada situación y jurisdicción específica.
 
 Este es el "porqué" de que esta distinción exista comúnmente: muchos sistemas contributivos están diseñados, al menos en parte, para fomentar que las inversiones se mantengan a más largo plazo en vez de comprar y vender con frecuencia a corto plazo. A menudo lo hacen cobrando una tasa más alta a las ganancias de inversiones que se tuvieron por un período más corto que a las ganancias de inversiones que se tuvieron por más tiempo.
 
@@ -32,7 +32,7 @@ Esto crea un incentivo real y deliberado que vale la pena entender: un inversion
 
 ## Ejemplo práctico
 
-[ILLUSTRATIVE EXAMPLE] Una inversionista está pensando vender una inversión que ha ganado bastante valor, y está cerca de alcanzar un umbral de período de tenencia más largo que, en su jurisdicción, le aplicaría una tasa contributiva más favorable a la ganancia. [ASSUMPTION] Si sus perspectivas generales sobre esa posición no han cambiado de forma importante, esperar un corto período adicional para pasar ese umbral podría resultar en un total de impuestos más bajo cuando finalmente venda. Aun así, esto debe sopesarse frente a lo que ella realmente piensa sobre las perspectivas y el riesgo de la inversión a corto plazo, y no tratarse como algo que automáticamente pasa por encima de esas consideraciones.
+[EJEMPLO ILUSTRATIVO] Una inversionista está pensando vender una inversión que ha ganado bastante valor, y está cerca de alcanzar un umbral de período de tenencia más largo que, en su jurisdicción, le aplicaría una tasa contributiva más favorable a la ganancia. [SUPUESTO] Si sus perspectivas generales sobre esa posición no han cambiado de forma importante, esperar un corto período adicional para pasar ese umbral podría resultar en un total de impuestos más bajo cuando finalmente venda. Aun así, esto debe sopesarse frente a lo que ella realmente piensa sobre las perspectivas y el riesgo de la inversión a corto plazo, y no tratarse como algo que automáticamente pasa por encima de esas consideraciones.
 
 ## Prueba de práctica
 

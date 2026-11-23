@@ -34,11 +34,11 @@ La differenza è importante. Al dipendente le imposte di solito sono già state 
 
 Questa distinzione è legata alla differenza tra essere dipendente ed essere autonomo, già vista in altri percorsi. Chi viene pagato come collaboratore deve pianificare: mettere da parte una quota di ogni pagamento per le imposte evita sorprese a fine anno.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Raffaele lavora in un negozio e fa anche grafica in proprio. Quali moduli può ricevere?
 

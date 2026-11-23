@@ -30,11 +30,11 @@ Tras sa a te kòmanse lè li te rekonèt jan "achte ba, vann wo" difisil pou fè
 
 Gade dèyè atravè tras sa a: divèsifikasyon ak korelasyon (Leson 2 ak 3) diminye jan ou depann de chwazi gayan endividyèl yo kòrèkteman. Mwayèn pri an dola (dollar-cost averaging, kote ou envesti menm kantite lajan a entèval regilye) ak reekilibraj (Leson 12 ak 14) diminye jan ou depann de chwazi bon moman pou antre ak soti. Repatisyon byen ak chemen desant (Leson 34 ak 35) diminye jan ou depann de predi kòrèkteman ki kategori byen ki pral fè pi byen nan yon ane done. Envesti nan endèks (Leson 23) elimine jan ou depann de chwazi yon jeran aktif kòrèkteman. Yon plan envestisman ekri (Leson 49) diminye jan ou depann de rete rasyonèl an tan reyèl, pandan egzakteman moman kote li pi difisil pou rete rasyonèl.
 
-[VERIFIED FACT] Pa gen youn nan zouti sa yo ki elimine ensètitid sou lavni — mache yo rete vrèman enprevizib nan kout tèm. Sa yo fè se diminye konbyen rezilta yon envestisè depann de devine chemen enprevizib kout tèm sa a kòrèkteman.
+[FÈ VERIFYE] Pa gen youn nan zouti sa yo ki elimine ensètitid sou lavni — mache yo rete vrèman enprevizib nan kout tèm. Sa yo fè se diminye konbyen rezilta yon envestisè depann de devine chemen enprevizib kout tèm sa a kòrèkteman.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè ki byen konprann tout tras sa a bati yon pòtfolyo ak yon repatisyon byen laj atravè aksyon, obligasyon, ak lòt kategori byen (Leson 34, 47), sitou atravè fon endèks ki pa koute chè (Leson 23), ke li envesti atravè yon konbinezon mwayèn pri an dola ak reekilibraj peryodik (Leson 12, 14), ak gwosè ki fè okenn sèl pozisyon oswa pari pa ase gwo pou l katastwofik (Leson 48), tout gide pa yon plan ekri li te kreye pandan yon peryòd kalm (Leson 49). Li pa konnen kisa mache a pral fè ane pwochèn — pèsonn pa konnen sa yon fason serye — men apwòch li pa bezwen konesans sa a pou l mache rezonab byen sou vrè peryòd envestisman li.
+[EGZANP ILISTRATIF] Yon envestisè ki byen konprann tout tras sa a bati yon pòtfolyo ak yon repatisyon byen laj atravè aksyon, obligasyon, ak lòt kategori byen (Leson 34, 47), sitou atravè fon endèks ki pa koute chè (Leson 23), ke li envesti atravè yon konbinezon mwayèn pri an dola ak reekilibraj peryodik (Leson 12, 14), ak gwosè ki fè okenn sèl pozisyon oswa pari pa ase gwo pou l katastwofik (Leson 48), tout gide pa yon plan ekri li te kreye pandan yon peryòd kalm (Leson 49). Li pa konnen kisa mache a pral fè ane pwochèn — pèsonn pa konnen sa yon fason serye — men apwòch li pa bezwen konesans sa a pou l mache rezonab byen sou vrè peryòd envestisman li.
 
 ## Egzamen pratik
 

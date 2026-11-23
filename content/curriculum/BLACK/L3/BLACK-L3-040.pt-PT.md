@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Imagine que um negócio sob pressão financeira real precisa de fazer reduções significativas no quadro de pessoal para continuar viável. Este é um cenário hipotético de teste, e não uma previsão sobre uma empresa ou um acontecimento reais.
+[CENÁRIO HIPOTÉTICO — SUPOSIÇÃO, NÃO FACTO VERIFICADO] Imagine que um negócio sob pressão financeira real precisa de fazer reduções significativas no quadro de pessoal para continuar viável. Este é um cenário hipotético de teste, e não uma previsão sobre uma empresa ou um acontecimento reais.
 
 Antes de continuar a ler, pense nisso usando tudo o que foi visto ao longo deste currículo, e não só nesta trilha: que exigências legais (trilha PURPLE) regem aviso prévio, verbas rescisórias e possíveis ações por discriminação na forma como as pessoas desligadas são escolhidas? O que a situação de fluxo de caixa e de fôlego financeiro do negócio (trilha BLUE) realmente exige, em comparação com o que parece emocionalmente mais fácil? Como o momento e a forma da comunicação refletem o tema da responsabilidade do empregador (Lição 14) e evitam a armadilha de fugir dos conflitos (Lição 12)? O que essa decisão, e a forma como ela é conduzida, sinaliza aos funcionários que ficam sobre o que a liderança realmente valoriza (Lições 3 e 22)? E o que isso testa sobre o ego do líder, a fusão da identidade dele com o negócio e a capacidade dele de agir com firmeza em meio a uma incerteza real (Lições 17, 30, 31 e 39)?
 

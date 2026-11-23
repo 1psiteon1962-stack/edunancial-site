@@ -34,11 +34,11 @@ Alcune categorie compaiono in molti Paesi: crediti per figli e familiari a caric
 
 Ogni credito ha requisiti di accesso: limiti di reddito, età dei figli, tipo di spesa e documentazione. Alcuni crediti possono persino generare un rimborso anche se non devi imposte. Molte persone perdono crediti a cui avrebbero diritto semplicemente perché non sanno che esistono.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Secondo te, perché uno Stato darebbe un credito a chi installa pannelli solari?
 

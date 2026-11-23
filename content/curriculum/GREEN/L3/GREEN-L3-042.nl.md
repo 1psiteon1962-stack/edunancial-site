@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Les 41 liet zien dat een werkgever ingehouden loonheffingen als een soort bewaarder aanhoudt namens werknemers en de belastingdienst. Hier is het "waarom" deze indeling ernstige gevolgen heeft als deze bedragen niet worden afgedragen: [VERIFIED FACT] veel belastingdiensten hebben specifieke regels waarmee ze personen persoonlijk kunnen aanspreken die verantwoordelijk zijn voor het innen en afdragen van deze "trust fund"-belastingen – vaak eigenaren, bestuurders of anderen met zeggenschap over de financiën van het bedrijf – als het bedrijf ze niet afdraagt, ongeacht de onderliggende rechtsvorm van het bedrijf.
+Les 41 liet zien dat een werkgever ingehouden loonheffingen als een soort bewaarder aanhoudt namens werknemers en de belastingdienst. Hier is het "waarom" deze indeling ernstige gevolgen heeft als deze bedragen niet worden afgedragen: [GEVERIFIEERD FEIT] veel belastingdiensten hebben specifieke regels waarmee ze personen persoonlijk kunnen aanspreken die verantwoordelijk zijn voor het innen en afdragen van deze "trust fund"-belastingen – vaak eigenaren, bestuurders of anderen met zeggenschap over de financiën van het bedrijf – als het bedrijf ze niet afdraagt, ongeacht de onderliggende rechtsvorm van het bedrijf.
 
 Dit sluit rechtstreeks aan op de bespreking van persoonlijke borgstelling elders in het RED- en BLUE-traject van dit leerplan. Net zoals een persoonlijke borgstelling ondanks een LLC of vennootschap persoonlijke aansprakelijkheid voor een lening kan opleveren, kan aansprakelijkheid voor "trust fund"-belastingen op dezelfde manier door de bescherming van de rechtspersoon heen breken – specifiek voor deze categorie niet-afgedragen belasting. Dat komt doordat het geld nooit rechtmatig van de rechtspersoon zelf was: het werd in bewaring geïnd voor iemand anders.
 
@@ -30,7 +30,7 @@ Daarom moeten ondernemers en financiële beslissers verplichtingen voor loonheff
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf heeft het financieel moeilijk en draagt ingehouden loonheffingen langere tijd niet af aan de belastingdienst, terwijl het het geld wel blijft inhouden op het loon van werknemers. [ASSUMPTION] Ook al is het bedrijf georganiseerd als LLC om het persoonlijke vermogen van de eigenaar te beschermen tegen de meeste bedrijfsschulden, kan de eigenaar – aangemerkt als verantwoordelijke persoon met zeggenschap over de financiën – persoonlijk worden aangesproken voor deze specifieke schuld aan niet-afgedragen "trust fund"-belastingen. Dat is een uitzondering op de algemene aansprakelijkheidsbescherming die de LLC-structuur anders voor de meeste andere soorten bedrijfsschulden zou bieden.
+[ILLUSTRATIEF VOORBEELD] Een bedrijf heeft het financieel moeilijk en draagt ingehouden loonheffingen langere tijd niet af aan de belastingdienst, terwijl het het geld wel blijft inhouden op het loon van werknemers. [AANNAME] Ook al is het bedrijf georganiseerd als LLC om het persoonlijke vermogen van de eigenaar te beschermen tegen de meeste bedrijfsschulden, kan de eigenaar – aangemerkt als verantwoordelijke persoon met zeggenschap over de financiën – persoonlijk worden aangesproken voor deze specifieke schuld aan niet-afgedragen "trust fund"-belastingen. Dat is een uitzondering op de algemene aansprakelijkheidsbescherming die de LLC-structuur anders voor de meeste andere soorten bedrijfsschulden zou bieden.
 
 ## Oefenquiz
 

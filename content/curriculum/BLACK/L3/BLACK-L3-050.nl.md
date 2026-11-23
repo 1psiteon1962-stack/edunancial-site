@@ -30,7 +30,7 @@ Nu je dit traject, en dit niveau van het programma, afrondt: wat is één ding d
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die dit hele traject heeft verinnerlijkt, beoordeelt zijn organisatie niet met de vraag "hoeveel heb ik dit jaar zelf bereikt?", maar met de vraag "wat heb ik opgebouwd dat goed zou blijven werken als ik morgen een stap terug deed?" – vastgelegde systemen (Les 7), een ontwikkelde opvolger (Les 8), begeleide teamleden die een echt oordeel verder dragen (Les 41), een raad en een team die echt bereid zijn beslissingen ter discussie te stellen (Lessen 18, 19), en een cultuur die is gevormd door consequente, eerlijke prikkels in plaats van alleen aangekondigde waarden (Lessen 3, 22). Deze leider beseft dat het antwoord op die vraag, en niet zijn eigen persoonlijke output, de zuiverste maatstaf is van waar dit hele traject – en dit niveau van het programma – werkelijk naartoe werkte.
+[ILLUSTRATIEF VOORBEELD] Een leider die dit hele traject heeft verinnerlijkt, beoordeelt zijn organisatie niet met de vraag "hoeveel heb ik dit jaar zelf bereikt?", maar met de vraag "wat heb ik opgebouwd dat goed zou blijven werken als ik morgen een stap terug deed?" – vastgelegde systemen (Les 7), een ontwikkelde opvolger (Les 8), begeleide teamleden die een echt oordeel verder dragen (Les 41), een raad en een team die echt bereid zijn beslissingen ter discussie te stellen (Lessen 18, 19), en een cultuur die is gevormd door consequente, eerlijke prikkels in plaats van alleen aangekondigde waarden (Lessen 3, 22). Deze leider beseft dat het antwoord op die vraag, en niet zijn eigen persoonlijke output, de zuiverste maatstaf is van waar dit hele traject – en dit niveau van het programma – werkelijk naartoe werkte.
 
 ## Oefenquiz
 

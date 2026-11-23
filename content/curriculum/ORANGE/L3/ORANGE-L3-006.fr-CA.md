@@ -32,7 +32,7 @@ Que voudrais-tu surveiller, au-delà du nombre de nouveaux clients, pour savoir 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise célèbre une forte croissance mensuelle de ses nouveaux clients, alimentée par une campagne d'acquisition agressive. [ASSUMPTION] Sous cette croissance, son taux de fidélisation de la clientèle diminue discrètement depuis deux trimestres, ce qui veut dire que la valeur vie réelle par client est inférieure au chiffre utilisé au départ pour justifier les dépenses d'acquisition — le ratio CAC-VVC du parcours BLUE s'est détérioré en silence, même si le tableau de bord de croissance semble entièrement positif, ce qui montre pourquoi la fidélisation doit être suivie en même temps que l'acquisition, et non traitée comme un indicateur distinct et secondaire.
+[EXEMPLE ILLUSTRATIF] Une entreprise célèbre une forte croissance mensuelle de ses nouveaux clients, alimentée par une campagne d'acquisition agressive. [HYPOTHÈSE] Sous cette croissance, son taux de fidélisation de la clientèle diminue discrètement depuis deux trimestres, ce qui veut dire que la valeur vie réelle par client est inférieure au chiffre utilisé au départ pour justifier les dépenses d'acquisition — le ratio CAC-VVC du parcours BLUE s'est détérioré en silence, même si le tableau de bord de croissance semble entièrement positif, ce qui montre pourquoi la fidélisation doit être suivie en même temps que l'acquisition, et non traitée comme un indicateur distinct et secondaire.
 
 ## Quiz de pratique
 

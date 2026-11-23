@@ -24,14 +24,14 @@ SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine
 - Aplicar o raciocínio do índice de Sharpe para comparar duas estratégias de investimento hipotéticas.
 
 ## Conteúdo principal
-O índice de Sharpe mede o retorno obtido por unidade de risco assumido, calculado como (retorno do investimento menos a taxa livre de risco) dividido pelo desvio padrão do investimento (uma medida comum de volatilidade). VERIFIED FACT: um índice de Sharpe mais alto indica um retorno ajustado ao risco mais favorável, ou seja, mais retorno gerado para cada unidade de risco assumido.
+O índice de Sharpe mede o retorno obtido por unidade de risco assumido, calculado como (retorno do investimento menos a taxa livre de risco) dividido pelo desvio padrão do investimento (uma medida comum de volatilidade). FACTO VERIFICADO: um índice de Sharpe mais alto indica um retorno ajustado ao risco mais favorável, ou seja, mais retorno gerado para cada unidade de risco assumido.
 
 Eis o "porquê" de isso importar mais do que comparar apenas retornos brutos, ligando-se diretamente ao princípio do retorno ajustado ao risco visto na análise imobiliária: duas estratégias de investimento podem produzir retornos brutos idênticos num período, mas, se uma delas obteve esse retorno com muito mais volatilidade (oscilações maiores para cima e para baixo ao longo do caminho) do que a outra, a estratégia mais estável e menos volátil tem um índice de Sharpe mais alto e, em geral, é considerada a mais habilmente ou mais prudentemente construída das duas, mesmo que os retornos de destaque pareçam iguais.
 
 É por isso que perseguir o maior retorno histórico bruto, sem examinar a volatilidade e o risco assumidos para obtê-lo, pode levar um investidor a estratégias que parecem impressionantes em períodos fortes (como a expansão alimentada por crédito mencionada no cenário acima), mas que carregam uma fragilidade oculta que só aparece quando as condições mudam, pois a mesma tomada de risco que inflou o retorno bruto também amplia a queda que vem depois.
 
 ## Exemplo prático
-ILLUSTRATIVE EXAMPLE: O Fundo A rende 12% ao ano com desvio padrão de 8%, enquanto o Fundo B também rende 12% ao ano, mas com desvio padrão de 20%, supondo uma taxa livre de risco de 3%. O índice de Sharpe do Fundo A é (12-3)/8 = 1,13, enquanto o do Fundo B é (12-3)/20 = 0,45. Apesar dos retornos brutos idênticos, o Fundo A obteve esse retorno de forma muito mais eficiente, assumindo muito menos risco por unidade de retorno, o que o torna o de melhor desempenho ajustado ao risco entre os dois.
+EXEMPLO ILUSTRATIVO: O Fundo A rende 12% ao ano com desvio padrão de 8%, enquanto o Fundo B também rende 12% ao ano, mas com desvio padrão de 20%, supondo uma taxa livre de risco de 3%. O índice de Sharpe do Fundo A é (12-3)/8 = 1,13, enquanto o do Fundo B é (12-3)/20 = 0,45. Apesar dos retornos brutos idênticos, o Fundo A obteve esse retorno de forma muito mais eficiente, assumindo muito menos risco por unidade de retorno, o que o torna o de melhor desempenho ajustado ao risco entre os dois.
 
 ## Teste de prática
 **P1. O que o índice de Sharpe mede?**

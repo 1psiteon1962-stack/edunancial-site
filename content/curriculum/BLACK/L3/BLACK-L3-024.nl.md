@@ -30,7 +30,7 @@ Welk specifiek bewijs heb je werkelijk over het rendement van leiderschapsontwik
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] In een periode van bezuinigingen schrapt een onderneming eerst haar programma voor leiderschapsontwikkeling, met de redenering dat de impact ervan moeilijker direct aan te wijzen is dan bij andere uitgaven. [ASSUMPTION] Maanden later neemt het verloop onder leidinggevenden toe en daalt de kwaliteit van beslissingen zichtbaar, op manieren die moeilijk zuiver aan die specifieke bezuiniging toe te schrijven zijn, maar die precies passen bij het soort onzichtbare waarde die het PURPLE-traject beschreef voor preventieve juridische planning – de uitgaven aan leiderschapsontwikkeling leverden echte, zij het moeilijk meetbare, waarde op die de makkelijke aanname "dit is vrij te besteden" niet goed afwoog tegen echte alternatieven.
+[ILLUSTRATIEF VOORBEELD] In een periode van bezuinigingen schrapt een onderneming eerst haar programma voor leiderschapsontwikkeling, met de redenering dat de impact ervan moeilijker direct aan te wijzen is dan bij andere uitgaven. [AANNAME] Maanden later neemt het verloop onder leidinggevenden toe en daalt de kwaliteit van beslissingen zichtbaar, op manieren die moeilijk zuiver aan die specifieke bezuiniging toe te schrijven zijn, maar die precies passen bij het soort onzichtbare waarde die het PURPLE-traject beschreef voor preventieve juridische planning – de uitgaven aan leiderschapsontwikkeling leverden echte, zij het moeilijk meetbare, waarde op die de makkelijke aanname "dit is vrij te besteden" niet goed afwoog tegen echte alternatieven.
 
 ## Oefenquiz
 

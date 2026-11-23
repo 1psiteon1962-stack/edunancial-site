@@ -34,11 +34,11 @@ L'aliquota marginale è la percentuale applicata al tuo prossimo dollaro guadagn
 
 In pratica, un aumento di stipendio ti lascia quasi sempre più soldi in tasca, anche se l'ultima parte è tassata di più. Prima di rifiutare un'opportunità per motivi fiscali, informati su come funziona il sistema del tuo Paese.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Nel nostro esempio, il reddito fino a $40.000 paga il 20% e ciò che supera paga il 30%. Luisa guadagnava $40.000 e ha ricevuto un aumento a $41.000. Pagherà il 30% su tutto?
 

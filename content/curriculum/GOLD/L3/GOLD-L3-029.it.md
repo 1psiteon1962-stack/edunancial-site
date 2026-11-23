@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Gli **indicatori macroeconomici** (dati sull'inflazione, sull'occupazione, sulla crescita del PIL e misure economiche generali simili) si usano comunemente per orientare il giudizio d'investimento sul contesto economico più ampio discusso in tutto questo percorso. Ecco il "perché" questi indicatori funzionano come segnali utili e non come previsioni certe: [VERIFIED FACT] ogni indicatore riflette una parte specifica dell'attività economica, viene spesso pubblicato con un certo ritardo ed è soggetto a revisioni successive, e nessun singolo indicatore coglie il quadro completo e complesso di un'economia in un dato momento.
+Gli **indicatori macroeconomici** (dati sull'inflazione, sull'occupazione, sulla crescita del PIL e misure economiche generali simili) si usano comunemente per orientare il giudizio d'investimento sul contesto economico più ampio discusso in tutto questo percorso. Ecco il "perché" questi indicatori funzionano come segnali utili e non come previsioni certe: [FATTO VERIFICATO] ogni indicatore riflette una parte specifica dell'attività economica, viene spesso pubblicato con un certo ritardo ed è soggetto a revisioni successive, e nessun singolo indicatore coglie il quadro completo e complesso di un'economia in un dato momento.
 
 Per questo interpretare un singolo indicatore da solo, cioè trattare un rapporto sull'occupazione o un dato sull'inflazione come un segnale definitivo sulla direzione futura del mercato, può essere fuorviante. Gli analisti esperti guardano in genere più indicatori insieme, e il loro andamento nel tempo invece di un singolo dato, per farsi un quadro più completo, anche se per sua natura ancora incerto, delle condizioni economiche attuali.
 
@@ -30,7 +30,7 @@ Questo si collega direttamente alla discussione sui cicli della Lezione 14 e all
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un investitore vede un singolo rapporto economico che suggerisce una certa tendenza e pensa di fare un cambiamento importante nel portafoglio solo sulla base di quel dato. [ASSUMPTION] Un approccio più ponderato considererebbe quel rapporto insieme ad altri indicatori importanti e al loro andamento negli ultimi mesi, riconoscendo che un singolo dato può essere rumoroso, soggetto a revisioni successive o riflettere uno spostamento temporaneo invece che duraturo: tratterebbe l'indicatore come un segnale utile tra tanti, e non come una base certa e autonoma per una decisione importante.
+[ESEMPIO ILLUSTRATIVO] Un investitore vede un singolo rapporto economico che suggerisce una certa tendenza e pensa di fare un cambiamento importante nel portafoglio solo sulla base di quel dato. [IPOTESI] Un approccio più ponderato considererebbe quel rapporto insieme ad altri indicatori importanti e al loro andamento negli ultimi mesi, riconoscendo che un singolo dato può essere rumoroso, soggetto a revisioni successive o riflettere uno spostamento temporaneo invece che duraturo: tratterebbe l'indicatore come un segnale utile tra tanti, e non come una base certa e autonoma per una decisione importante.
 
 ## Quiz di esercitazione
 

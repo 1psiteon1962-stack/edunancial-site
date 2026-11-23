@@ -24,14 +24,14 @@ AANNAME/MENING (hypothetisch scenario uitsluitend voor onderwijsdoeleinden): Ste
 - K/W-verhoudingen op de juiste manier vergelijken binnen dezelfde sector.
 
 ## Kerninhoud
-De koers-winstverhouding (K/W, in het Engels P/E) is gelijk aan de aandelenkoers van een bedrijf gedeeld door de winst per aandeel, en laat zien hoeveel beleggers betalen voor elke dollar huidige winst. VERIFIED FACT: de K/W-verhouding is een van de meest gebruikte waarderingsmaatstaven, maar net als de cap rate in vastgoed is het een door de markt bepaald getal dat de verwachtingen van beleggers over de toekomst weerspiegelt, en niet alleen een eenvoudig prijskaartje.
+De koers-winstverhouding (K/W, in het Engels P/E) is gelijk aan de aandelenkoers van een bedrijf gedeeld door de winst per aandeel, en laat zien hoeveel beleggers betalen voor elke dollar huidige winst. GEVERIFIEERD FEIT: de K/W-verhouding is een van de meest gebruikte waarderingsmaatstaven, maar net als de cap rate in vastgoed is het een door de markt bepaald getal dat de verwachtingen van beleggers over de toekomst weerspiegelt, en niet alleen een eenvoudig prijskaartje.
 
 Dit is het "waarom" een lage K/W niet automatisch goedkoop is: een lage K/W weerspiegelt vaak de overtuiging van de markt dat de winst van een bedrijf waarschijnlijk niet zal groeien, of zelfs waarschijnlijk zal krimpen, bijvoorbeeld door een worstelende sector, een zwakke concurrentiepositie of het soort kostenschok dat de marges drukt zoals in het scenario hierboven is beschreven. Dit heet een "waardeval": een aandeel dat statistisch goedkoop lijkt maar goedkoop blijft, of nog goedkoper wordt, omdat de negatieve verwachtingen van de markt gerechtvaardigd blijken.
 
 Daarom heeft het vergelijken van K/W-verhoudingen alleen zin binnen dezelfde sector en ten opzichte van de eigen historische bandbreedte van een bedrijf, vergelijkbaar met het principe van marktvergelijkbaarheid uit de cap-rate-analyse in vastgoed. Een lage K/W in een cyclische, kapitaalintensieve sector die echte tegenwind ondervindt, is een ander signaal dan een even lage K/W van een sterk bedrijf dat tijdelijk uit de gratie is om redenen die niets te maken hebben met zijn onderliggende winstkracht.
 
 ## Uitgewerkt voorbeeld
-ILLUSTRATIVE EXAMPLE: Bedrijf A wordt verhandeld tegen een K/W van 8, terwijl de branchegenoten gemiddeld een K/W van 18 hebben. Een belegger die in de verleiding komt om Bedrijf A te kopen alleen omdat het goedkoop lijkt, ontdekt bij nadere analyse dat de winst van Bedrijf A drie jaar op rij is gedaald en dat de belangrijkste productlijn marktaandeel verliest: de lage K/W weerspiegelt een reëel, gerechtvaardigd pessimisme over de toekomstige winst, geen over het hoofd gezien koopje.
+ILLUSTRATIEF VOORBEELD: Bedrijf A wordt verhandeld tegen een K/W van 8, terwijl de branchegenoten gemiddeld een K/W van 18 hebben. Een belegger die in de verleiding komt om Bedrijf A te kopen alleen omdat het goedkoop lijkt, ontdekt bij nadere analyse dat de winst van Bedrijf A drie jaar op rij is gedaald en dat de belangrijkste productlijn marktaandeel verliest: de lage K/W weerspiegelt een reëel, gerechtvaardigd pessimisme over de toekomstige winst, geen over het hoofd gezien koopje.
 
 ## Oefenquiz
 **V1. Wat meet de K/W-verhouding?**

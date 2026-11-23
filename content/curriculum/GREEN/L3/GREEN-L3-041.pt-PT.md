@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Quando um empregador retém o imposto sobre o rendimento e os tributos sobre a folha do salário de um funcionário (como visto na Lição 4), esse valor retido não pertence ao empregador — é dinheiro que o empregador guarda temporariamente em nome das autoridades fiscais, devido pelo funcionário para fins tributários, mas cobrado pelo empregador como intermediário. Os empregadores geralmente têm prazos rígidos e específicos para recolher esses valores retidos, [VERIFIED FACT] e a frequência dos recolhimentos e os prazos específicos muitas vezes dependem do tamanho da folha do empregador e de outros fatores, definidos pela autoridade fiscal competente.
+Quando um empregador retém o imposto sobre o rendimento e os tributos sobre a folha do salário de um funcionário (como visto na Lição 4), esse valor retido não pertence ao empregador — é dinheiro que o empregador guarda temporariamente em nome das autoridades fiscais, devido pelo funcionário para fins tributários, mas cobrado pelo empregador como intermediário. Os empregadores geralmente têm prazos rígidos e específicos para recolher esses valores retidos, [FACTO VERIFICADO] e a frequência dos recolhimentos e os prazos específicos muitas vezes dependem do tamanho da folha do empregador e de outros fatores, definidos pela autoridade fiscal competente.
 
 Este é o "porquê" de esses prazos serem tratados com rigor especial em comparação com algumas outras obrigações financeiras de uma empresa: como esse dinheiro retido nunca foi realmente do empregador — ele foi cobrado em nome dos funcionários e das autoridades fiscais —, usá-lo para outros fins da empresa, mesmo que temporariamente durante um aperto de caixa, é tratado de forma muito mais séria do que um pagamento atrasado comum a um fornecedor.
 
@@ -30,7 +30,7 @@ Essa diferença prepara diretamente o conceito de tributos "trust fund" visto na
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa passando por uma falta temporária de caixa fica tentada a atrasar um pouco o recolhimento dos tributos sobre a folha, planeando acertar tudo quando o caixa melhorar — tratando isso como trataria um pagamento atrasado a um fornecedor. [ASSUMPTION] Como os tributos retidos da folha são tratados como dinheiro guardado em nome dos funcionários e das autoridades fiscais, e não como caixa próprio da empresa, esse tipo de atraso traz consequências bem mais sérias do que um pagamento atrasado a um fornecedor, preparando exatamente o risco de responsabilidade pessoal discutido no conceito de tributos "trust fund" da próxima lição.
+[EXEMPLO ILUSTRATIVO] Uma empresa passando por uma falta temporária de caixa fica tentada a atrasar um pouco o recolhimento dos tributos sobre a folha, planeando acertar tudo quando o caixa melhorar — tratando isso como trataria um pagamento atrasado a um fornecedor. [SUPOSIÇÃO] Como os tributos retidos da folha são tratados como dinheiro guardado em nome dos funcionários e das autoridades fiscais, e não como caixa próprio da empresa, esse tipo de atraso traz consequências bem mais sérias do que um pagamento atrasado a um fornecedor, preparando exatamente o risco de responsabilidade pessoal discutido no conceito de tributos "trust fund" da próxima lição.
 
 ## Teste de prática
 

@@ -32,7 +32,7 @@ Avant de poursuivre ta lecture : quoi d'autre, au-delà du marketing et des flux
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Le CAC d'une entreprise augmente de 40 % en deux trimestres en raison d'une concurrence publicitaire accrue. L'équipe marketing traite ça comme un problème d'optimisation des canaux à régler par un meilleur ciblage. [ASSUMPTION] Pendant ce temps, cette même hausse du CAC allonge discrètement la période de récupération sur les nouveaux clients, réduit la marge de manœuvre financière de l'entreprise (parcours BLUE) plus vite que l'équipe des finances ne l'a signalé, et rend une ronde de financement plus urgente que quiconque dans la réunion marketing ne le réalise — le même chiffre est à la fois un indicateur marketing, un signal de trésorerie et un déclencheur de financement.
+[EXEMPLE ILLUSTRATIF] Le CAC d'une entreprise augmente de 40 % en deux trimestres en raison d'une concurrence publicitaire accrue. L'équipe marketing traite ça comme un problème d'optimisation des canaux à régler par un meilleur ciblage. [HYPOTHÈSE] Pendant ce temps, cette même hausse du CAC allonge discrètement la période de récupération sur les nouveaux clients, réduit la marge de manœuvre financière de l'entreprise (parcours BLUE) plus vite que l'équipe des finances ne l'a signalé, et rend une ronde de financement plus urgente que quiconque dans la réunion marketing ne le réalise — le même chiffre est à la fois un indicateur marketing, un signal de trésorerie et un déclencheur de financement.
 
 ## Quiz de pratique
 

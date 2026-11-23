@@ -30,7 +30,7 @@ Escolha uma decisão importante do passado que deu certo e uma que não deu. Par
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder com muitos anos de experiência continua a cometer o mesmo tipo de erro de raciocínio em decisões importantes, por nunca ter revisado as decisões passadas com atenção suficiente para perceber o padrão. [ASSUMPTION] Outro líder, com um tempo de experiência parecido, revisa as decisões passadas de forma intencional, usando a diferença entre raciocínio e resultado descrita nesta lição, e separa com honestidade os casos em que um bom raciocínio, por acaso, gerou um resultado ruim daqueles em que um raciocínio falho, por acaso, teve sorte — é essa prática de reflexão intencional, e não o simples acúmulo de anos, que realmente melhora o julgamento desse segundo líder com o tempo, de um forma que o tempo de casa idêntico do primeiro nunca conseguiu.
+[EXEMPLO ILUSTRATIVO] Um líder com muitos anos de experiência continua a cometer o mesmo tipo de erro de raciocínio em decisões importantes, por nunca ter revisado as decisões passadas com atenção suficiente para perceber o padrão. [SUPOSIÇÃO] Outro líder, com um tempo de experiência parecido, revisa as decisões passadas de forma intencional, usando a diferença entre raciocínio e resultado descrita nesta lição, e separa com honestidade os casos em que um bom raciocínio, por acaso, gerou um resultado ruim daqueles em que um raciocínio falho, por acaso, teve sorte — é essa prática de reflexão intencional, e não o simples acúmulo de anos, que realmente melhora o julgamento desse segundo líder com o tempo, de um forma que o tempo de casa idêntico do primeiro nunca conseguiu.
 
 ## Teste de prática
 

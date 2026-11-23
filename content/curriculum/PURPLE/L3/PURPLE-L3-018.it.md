@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Il percorso BLUE di questo programma tratta il contributo della proprietà intellettuale al valore complessivo di un'impresa. Ecco una regola giuridica di base alla radice di quella discussione: [VERIFIED FACT] in molti ordinamenti la regola predefinita generale è che il vero **autore** di un'opera (la persona che ha scritto il codice, creato il design o redatto il contenuto) è il primo titolare della proprietà intellettuale che ne deriva, indipendentemente da chi abbia pagato per il lavoro, in mancanza di un accordo specifico che trasferisca quella titolarità.
+Il percorso BLUE di questo programma tratta il contributo della proprietà intellettuale al valore complessivo di un'impresa. Ecco una regola giuridica di base alla radice di quella discussione: [FATTO VERIFICATO] in molti ordinamenti la regola predefinita generale è che il vero **autore** di un'opera (la persona che ha scritto il codice, creato il design o redatto il contenuto) è il primo titolare della proprietà intellettuale che ne deriva, indipendentemente da chi abbia pagato per il lavoro, in mancanza di un accordo specifico che trasferisca quella titolarità.
 
 Ecco il "perché" questo sorprende molti titolari d'impresa: viene spontaneo pensare che pagare qualcuno per creare qualcosa significhi automaticamente che chi paga possiede ciò che viene creato, come pagare un prodotto fisico significa possedere quel prodotto. La proprietà intellettuale, per impostazione predefinita, funziona in genere in modo diverso: la paternità dell'autore stabilisce in genere la sua titolarità, a meno che un contratto specifico o, in alcuni casi, una specifica eccezione di legge (trattata nella prossima lezione) trasferisca o attribuisca quella titolarità a qualcun altro.
 
@@ -30,7 +30,7 @@ Per questo qualsiasi impresa che incarica liberi professionisti, collaboratori e
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa incarica un designer indipendente di creare uno specifico logo e paga il compenso concordato alla consegna, ma senza alcun accordo scritto che affronti in modo specifico la titolarità della proprietà intellettuale. [ASSUMPTION] In base alla regola predefinita generale, il designer, in quanto vero autore, potrebbe mantenere la titolarità della proprietà intellettuale sul design, nonostante sia stato pagato per il lavoro: l'impresa potrebbe avere solo una licenza limitata a usare il logo, e non la piena titolarità, a meno che l'accordo originario non avesse trasferito all'impresa quella titolarità in modo specifico e chiaro.
+[ESEMPIO ILLUSTRATIVO] Un'impresa incarica un designer indipendente di creare uno specifico logo e paga il compenso concordato alla consegna, ma senza alcun accordo scritto che affronti in modo specifico la titolarità della proprietà intellettuale. [IPOTESI] In base alla regola predefinita generale, il designer, in quanto vero autore, potrebbe mantenere la titolarità della proprietà intellettuale sul design, nonostante sia stato pagato per il lavoro: l'impresa potrebbe avere solo una licenza limitata a usare il logo, e non la piena titolarità, a meno che l'accordo originario non avesse trasferito all'impresa quella titolarità in modo specifico e chiaro.
 
 ## Quiz di esercitazione
 

@@ -24,7 +24,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Het voelt logisch om aan te nemen dat een fonds dat het recent goed heeft gedaan, het waarschijnlijk goed zal blijven doen; het moet tenslotte iets goed doen. Dit is het "waarom" dat deze intuïtie vaak geen stand houdt: [VERIFIED FACT] uitgebreid onderzoek dat de historische prestatierangschikkingen van fondsen over verschillende periodes vergelijkt, heeft in het algemeen een zwakke persistentie gevonden. Dat betekent dat de best presterende fondsen in de ene periode niet betrouwbaar ook de best presterende zijn in de periode daarna. Toezichthouders hebben dit patroon opgemerkt, en dat is een van de redenen waarom gestandaardiseerde toelichtingen een zin bevatten dat in het verleden behaalde resultaten geen garantie bieden voor de toekomst.
+Het voelt logisch om aan te nemen dat een fonds dat het recent goed heeft gedaan, het waarschijnlijk goed zal blijven doen; het moet tenslotte iets goed doen. Dit is het "waarom" dat deze intuïtie vaak geen stand houdt: [GEVERIFIEERD FEIT] uitgebreid onderzoek dat de historische prestatierangschikkingen van fondsen over verschillende periodes vergelijkt, heeft in het algemeen een zwakke persistentie gevonden. Dat betekent dat de best presterende fondsen in de ene periode niet betrouwbaar ook de best presterende zijn in de periode daarna. Toezichthouders hebben dit patroon opgemerkt, en dat is een van de redenen waarom gestandaardiseerde toelichtingen een zin bevatten dat in het verleden behaalde resultaten geen garantie bieden voor de toekomst.
 
 Verschillende factoren dragen bij aan deze zwakke persistentie: sterke recente prestaties kunnen een tijdelijk gunstige omgeving voor de specifieke stijl of sector van dat fonds weerspiegelen, in plaats van een herhaalbaar voordeel door talent; bij strategieën of sectoren die goed presteren, veranderen de omstandigheden vaak of wordt het er drukker, wat het toekomstige voordeel verkleint; en wisselingen van beheerder, groei van het vermogen en andere factoren kunnen allemaal de toekomstige resultaten van een fonds beïnvloeden, los van het trackrecord uit het verleden.
 
@@ -32,7 +32,7 @@ Daarom wordt het najagen van recente toppresteerders, dus geld verplaatsen naar 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belegger ziet dat een fonds de afgelopen drie jaar de beste rendementen in zijn categorie heeft behaald en besluit op basis van dat trackrecord zwaar in te stappen. [ASSUMPTION] Als de sterke prestaties van dat fonds grotendeels werden gedreven door een tijdelijk gunstige omgeving voor zijn specifieke beleggingsstijl, en die omgeving in de jaren daarna verandert, kan het fonds in de toekomst slechter presteren. De belegger blijft dan achter met een teleurstellende ervaring, ondanks dat hij koos op basis van een indrukwekkend ogend trackrecord.
+[ILLUSTRATIEF VOORBEELD] Een belegger ziet dat een fonds de afgelopen drie jaar de beste rendementen in zijn categorie heeft behaald en besluit op basis van dat trackrecord zwaar in te stappen. [AANNAME] Als de sterke prestaties van dat fonds grotendeels werden gedreven door een tijdelijk gunstige omgeving voor zijn specifieke beleggingsstijl, en die omgeving in de jaren daarna verandert, kan het fonds in de toekomst slechter presteren. De belegger blijft dan achter met een teleurstellende ervaring, ondanks dat hij koos op basis van een indrukwekkend ogend trackrecord.
 
 ## Oefenquiz
 

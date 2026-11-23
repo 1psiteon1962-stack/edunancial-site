@@ -30,7 +30,7 @@ Ecco il "perché" ricondurre ogni decisione a questa lente porta a un giudizio p
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'investitrice che valuta diverse opportunità molto diverse (una quota in oro, un impegno in un fondo privato e una decisione di ribilanciamento tra le sue azioni e obbligazioni) applica a ciascuna la stessa domanda di fondo: quale rischio specifico comporta (scarsa liquidità, costo opportunità di un'attività non produttiva, volatilità), e il beneficio potenziale è un compenso adeguato per quel rischio specifico, dati il mio orizzonte temporale e i miei obiettivi? [ASSUMPTION] Invece di valutare ogni decisione con uno schema del tutto separato e slegato dagli altri, riconosce che sono tutte varianti della stessa domanda di fondo di giudizio corretto per il rischio, e questo le permette di ragionare su tipi di attività molto diversi con un unico approccio coerente.
+[ESEMPIO ILLUSTRATIVO] Un'investitrice che valuta diverse opportunità molto diverse (una quota in oro, un impegno in un fondo privato e una decisione di ribilanciamento tra le sue azioni e obbligazioni) applica a ciascuna la stessa domanda di fondo: quale rischio specifico comporta (scarsa liquidità, costo opportunità di un'attività non produttiva, volatilità), e il beneficio potenziale è un compenso adeguato per quel rischio specifico, dati il mio orizzonte temporale e i miei obiettivi? [IPOTESI] Invece di valutare ogni decisione con uno schema del tutto separato e slegato dagli altri, riconosce che sono tutte varianti della stessa domanda di fondo di giudizio corretto per il rischio, e questo le permette di ragionare su tipi di attività molto diversi con un unico approccio coerente.
 
 ## Quiz di esercitazione
 

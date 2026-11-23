@@ -30,7 +30,7 @@ Em que hábitos informais, ligados à presença, a sua forma de liderar sempre s
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder acostumado a sentir o moral da equipe e a perceber pequenos problemas pela observação informal e presencial passa a liderar uma equipe totalmente remota e continua contando com a mesma abordagem informal. [ASSUMPTION] Sem sistemas intencionais para substituir o que a presença física oferecia antes — reuniões de acompanhamento regulares e estruturadas, documentação explícita, regras de comunicação claras —, esse líder deixa de perceber sinais que antes teria percebido de forma automática, o que mostra por que liderar à distância exige uma estrutura mais intencional, e não só uma versão mais solta da gestão presencial, retomando o princípio dos sistemas da Lição 7 aplicado especificamente às equipes distribuídas.
+[EXEMPLO ILUSTRATIVO] Um líder acostumado a sentir o moral da equipe e a perceber pequenos problemas pela observação informal e presencial passa a liderar uma equipe totalmente remota e continua contando com a mesma abordagem informal. [SUPOSIÇÃO] Sem sistemas intencionais para substituir o que a presença física oferecia antes — reuniões de acompanhamento regulares e estruturadas, documentação explícita, regras de comunicação claras —, esse líder deixa de perceber sinais que antes teria percebido de forma automática, o que mostra por que liderar à distância exige uma estrutura mais intencional, e não só uma versão mais solta da gestão presencial, retomando o princípio dos sistemas da Lição 7 aplicado especificamente às equipes distribuídas.
 
 ## Teste de prática
 

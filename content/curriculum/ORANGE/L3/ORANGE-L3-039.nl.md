@@ -30,7 +30,7 @@ Past je huidige wervingsstrategie werkelijk bij je financieringsfase, of is ze g
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming die zichzelf financiert, ziet een concurrent met durfkapitaal agressief en met verlies uitgeven om klanten te werven en marktaandeel te winnen, en kiest zelf een vergelijkbare wervingsstrategie. [ASSUMPTION] Zonder de externe kapitaalbuffer van die concurrent loopt de onderneming al snel tegen precies de kasstroom- en runwayproblemen aan waarvoor de bespreking van bootstrapping in het BLUE-traject waarschuwde. De wervingsstrategie was op zich niet verkeerd, maar paste niet bij de werkelijke financieringsstructuur van deze onderneming. Dit laat zien waarom de "juiste" strategie afhangt van de financieringscontext, en niet alleen van wat een concurrent zichtbaar doet.
+[ILLUSTRATIEF VOORBEELD] Een onderneming die zichzelf financiert, ziet een concurrent met durfkapitaal agressief en met verlies uitgeven om klanten te werven en marktaandeel te winnen, en kiest zelf een vergelijkbare wervingsstrategie. [AANNAME] Zonder de externe kapitaalbuffer van die concurrent loopt de onderneming al snel tegen precies de kasstroom- en runwayproblemen aan waarvoor de bespreking van bootstrapping in het BLUE-traject waarschuwde. De wervingsstrategie was op zich niet verkeerd, maar paste niet bij de werkelijke financieringsstructuur van deze onderneming. Dit laat zien waarom de "juiste" strategie afhangt van de financieringscontext, en niet alleen van wat een concurrent zichtbaar doet.
 
 ## Oefenquiz
 

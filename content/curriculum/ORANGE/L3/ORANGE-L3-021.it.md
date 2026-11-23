@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Il percorso PURPLE di questo programma ha stabilito che la conformità normativa è una categoria distinta di obbligo giuridico, fatta rispettare direttamente dagli enti pubblici. Ecco il "perché" questo conta in modo particolarmente specifico per la pubblicità: [VERIFIED FACT] alcuni settori (servizi finanziari, sanità, alcolici e altri) devono in genere rispettare norme pubblicitarie aggiuntive e specifiche, oltre alle regole generali di tutela dei consumatori, visti i rischi particolari legati alle affermazioni ingannevoli in quei contesti. Allo stesso modo, mezzi pubblicitari diversi (radio e televisione, stampa, digitale, posta diretta) possono essere soggetti a regole e obblighi di informativa specifici diversi.
+Il percorso PURPLE di questo programma ha stabilito che la conformità normativa è una categoria distinta di obbligo giuridico, fatta rispettare direttamente dagli enti pubblici. Ecco il "perché" questo conta in modo particolarmente specifico per la pubblicità: [FATTO VERIFICATO] alcuni settori (servizi finanziari, sanità, alcolici e altri) devono in genere rispettare norme pubblicitarie aggiuntive e specifiche, oltre alle regole generali di tutela dei consumatori, visti i rischi particolari legati alle affermazioni ingannevoli in quei contesti. Allo stesso modo, mezzi pubblicitari diversi (radio e televisione, stampa, digitale, posta diretta) possono essere soggetti a regole e obblighi di informativa specifici diversi.
 
 Per questo un approccio di marketing del tutto conforme in un settore o su un mezzo potrebbe non esserlo in un altro: un'affermazione o un formato accettabile nella pubblicità di un prodotto di consumo generico potrebbe dover rispettare obblighi di informativa o limiti specifici aggiuntivi se usato per pubblicizzare un prodotto o un servizio di un settore regolamentato. Un'impresa che opera in più settori, o si rivolge a più settori, o usa più mezzi, deve capire che la conformità non è un unico criterio uniforme.
 
@@ -30,7 +30,7 @@ Prima di lanciare una nuova campagna di marketing, soprattutto se entra in un nu
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa che opera nel settore dei prodotti di consumo generici si allarga offrendo un prodotto finanziario o vicino alla sanità, applicando lo stesso approccio di marketing generale e lo stesso stile di affermazioni di sempre. [ASSUMPTION] Lo stesso approccio di marketing, prima conforme per la linea di prodotti originaria, potrebbe non rispettare le norme pubblicitarie aggiuntive e specifiche applicabili al nuovo settore regolamentato. Questo mostra perché entrare in un nuovo settore o su un nuovo mezzo richiede una nuova verifica di conformità specifica, e non la presunzione che le pratiche di marketing generali si trasferiscano automaticamente.
+[ESEMPIO ILLUSTRATIVO] Un'impresa che opera nel settore dei prodotti di consumo generici si allarga offrendo un prodotto finanziario o vicino alla sanità, applicando lo stesso approccio di marketing generale e lo stesso stile di affermazioni di sempre. [IPOTESI] Lo stesso approccio di marketing, prima conforme per la linea di prodotti originaria, potrebbe non rispettare le norme pubblicitarie aggiuntive e specifiche applicabili al nuovo settore regolamentato. Questo mostra perché entrare in un nuovo settore o su un nuovo mezzo richiede una nuova verifica di conformità specifica, e non la presunzione che le pratiche di marketing generali si trasferiscano automaticamente.
 
 ## Quiz di esercitazione
 

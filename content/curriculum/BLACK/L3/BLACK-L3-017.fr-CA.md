@@ -30,7 +30,7 @@ Y a-t-il une stratégie ou une décision que tu continues d'appuyer en ce moment
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader défend publiquement une orientation stratégique précise et, à mesure que s'accumulent les preuves qu'elle ne fonctionne pas, continue de la défendre et de la financer plutôt que de reconnaître l'erreur. [ASSUMPTION] En écho à la mise en garde du parcours GOLD sur le raisonnement irréfutable, ce leader traite chaque élément qui infirme sa thèse comme une raison d'ajuster les tactiques plutôt que de reconsidérer la stratégie sous-jacente, en continuant d'engager les ressources de l'organisation dans une orientation qui échoue, précisément pour éviter l'inconfort personnel d'admettre une erreur — un coût financier direct et mesurable créé par l'ego plutôt que par les mérites propres de la stratégie.
+[EXEMPLE ILLUSTRATIF] Un leader défend publiquement une orientation stratégique précise et, à mesure que s'accumulent les preuves qu'elle ne fonctionne pas, continue de la défendre et de la financer plutôt que de reconnaître l'erreur. [HYPOTHÈSE] En écho à la mise en garde du parcours GOLD sur le raisonnement irréfutable, ce leader traite chaque élément qui infirme sa thèse comme une raison d'ajuster les tactiques plutôt que de reconsidérer la stratégie sous-jacente, en continuant d'engager les ressources de l'organisation dans une orientation qui échoue, précisément pour éviter l'inconfort personnel d'admettre une erreur — un coût financier direct et mesurable créé par l'ego plutôt que par les mérites propres de la stratégie.
 
 ## Quiz de pratique
 

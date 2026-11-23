@@ -30,7 +30,7 @@ Voordat je een grote marketingcampagne lanceert rond een nieuwe merknaam of een 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming ontwikkelt een nieuwe merknaam en investeert flink in marketing en naamsbekendheid bij klanten, nog voordat ze ooit een merkonderzoek heeft laten doen. [ASSUMPTION] Na deze flinke investering ontdekt de onderneming dat een ander bedrijf in dezelfde branche al merkrechten heeft op een naam die zo sterk lijkt dat er verwarring kan ontstaan. Ze moet een dure rebranding uitvoeren en de al gedane marketinginvestering afschrijven, wat laat zien waarom de bescheiden kosten van een merkonderzoek en merkaanvraag vooraf, afgerond vóór de investering in branding, veel goedkoper waren geweest dan de werkelijke uitkomst.
+[ILLUSTRATIEF VOORBEELD] Een onderneming ontwikkelt een nieuwe merknaam en investeert flink in marketing en naamsbekendheid bij klanten, nog voordat ze ooit een merkonderzoek heeft laten doen. [AANNAME] Na deze flinke investering ontdekt de onderneming dat een ander bedrijf in dezelfde branche al merkrechten heeft op een naam die zo sterk lijkt dat er verwarring kan ontstaan. Ze moet een dure rebranding uitvoeren en de al gedane marketinginvestering afschrijven, wat laat zien waarom de bescheiden kosten van een merkonderzoek en merkaanvraag vooraf, afgerond vóór de investering in branding, veel goedkoper waren geweest dan de werkelijke uitkomst.
 
 ## Oefenquiz
 

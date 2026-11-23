@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Un **marchio** tutela in genere un segno distintivo (un nome, un logo o un segno simile) usato per distinguere i prodotti o i servizi di un'impresa sul mercato. Ecco il "perché" la tutela del marchio richiede in genere un uso continuo ed effettivo, a differenza di altre forme di proprietà intellettuale: [VERIFIED FACT] il diritto dei marchi nasce in genere per proteggere i consumatori dalla confusione sul mercato reale, e un marchio che non viene davvero usato nel commercio non svolge quella funzione protettiva di fondo, per quanto validamente sia stato registrato in passato.
+Un **marchio** tutela in genere un segno distintivo (un nome, un logo o un segno simile) usato per distinguere i prodotti o i servizi di un'impresa sul mercato. Ecco il "perché" la tutela del marchio richiede in genere un uso continuo ed effettivo, a differenza di altre forme di proprietà intellettuale: [FATTO VERIFICATO] il diritto dei marchi nasce in genere per proteggere i consumatori dalla confusione sul mercato reale, e un marchio che non viene davvero usato nel commercio non svolge quella funzione protettiva di fondo, per quanto validamente sia stato registrato in passato.
 
 Per questo molti ordinamenti riconoscono in genere un concetto chiamato a volte **abbandono** (o decadenza per non uso): se il titolare di un marchio smette di usarlo nel commercio per un periodo lungo e significativo, senza l'intenzione di riprenderne l'uso, i diritti sul marchio si possono in genere perdere. Un'impresa non può semplicemente registrare un marchio una volta e dare per scontata una tutela permanente e illimitata, a prescindere dal fatto che in futuro lo usi davvero.
 
@@ -30,7 +30,7 @@ Questo è molto diverso, per esempio, da un brevetto (trattato nella prossima le
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa registra un marchio per il proprio nome commerciale e lo usa attivamente nel commercio, mantenendo i propri diritti sul marchio grazie a un uso continuo ed effettivo. [ASSUMPTION] Se in seguito la stessa impresa interrompe la specifica linea di prodotti associata al marchio, smette di usarlo in qualsiasi forma commerciale per un periodo lungo e significativo e non ha alcuna vera intenzione di riprenderne l'uso, un tribunale potrebbe ritenere il marchio abbandonato: i diritti sul marchio potrebbero quindi andare persi, e un'altra impresa potrebbe forse essere libera di adottare un marchio simile, nonostante la registrazione originaria fosse del tutto valida al momento in cui era stata ottenuta.
+[ESEMPIO ILLUSTRATIVO] Un'impresa registra un marchio per il proprio nome commerciale e lo usa attivamente nel commercio, mantenendo i propri diritti sul marchio grazie a un uso continuo ed effettivo. [IPOTESI] Se in seguito la stessa impresa interrompe la specifica linea di prodotti associata al marchio, smette di usarlo in qualsiasi forma commerciale per un periodo lungo e significativo e non ha alcuna vera intenzione di riprenderne l'uso, un tribunale potrebbe ritenere il marchio abbandonato: i diritti sul marchio potrebbero quindi andare persi, e un'altra impresa potrebbe forse essere libera di adottare un marchio simile, nonostante la registrazione originaria fosse del tutto valida al momento in cui era stata ottenuta.
 
 ## Quiz di esercitazione
 

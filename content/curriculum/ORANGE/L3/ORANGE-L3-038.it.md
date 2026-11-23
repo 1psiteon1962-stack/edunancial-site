@@ -30,7 +30,7 @@ Prima di presentare il ROI di una campagna di marketing come un successo: il cal
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una campagna riporta di aver speso una certa somma in annunci e di aver generato ricavi pari a diverse volte quella somma, e internamente viene presentata come un chiaro successo di ROI. [ASSUMPTION] Un conteggio più completo (che comprenda il tempo consistente che il team di marketing ha dedicato alla gestione della campagna, il costo pieno della consegna effettiva del prodotto ai clienti ottenuti e il costo opportunità di un'attenzione del team che avrebbe potuto essere rivolta altrove) rivela che il rendimento vero della campagna è molto più modesto di quanto suggerisse la cifra in evidenza. Questo mostra perché un semplice rapporto tra spesa pubblicitaria e ricavi può dare un'immagine ingannevolmente rosea dei risultati reali del marketing.
+[ESEMPIO ILLUSTRATIVO] Una campagna riporta di aver speso una certa somma in annunci e di aver generato ricavi pari a diverse volte quella somma, e internamente viene presentata come un chiaro successo di ROI. [IPOTESI] Un conteggio più completo (che comprenda il tempo consistente che il team di marketing ha dedicato alla gestione della campagna, il costo pieno della consegna effettiva del prodotto ai clienti ottenuti e il costo opportunità di un'attenzione del team che avrebbe potuto essere rivolta altrove) rivela che il rendimento vero della campagna è molto più modesto di quanto suggerisse la cifra in evidenza. Questo mostra perché un semplice rapporto tra spesa pubblicitaria e ricavi può dare un'immagine ingannevolmente rosea dei risultati reali del marketing.
 
 ## Quiz di esercitazione
 

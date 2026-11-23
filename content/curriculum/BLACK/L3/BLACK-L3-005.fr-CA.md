@@ -30,7 +30,7 @@ Y a-t-il une décision difficile concernant le personnel que tu reportes en ce m
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader a des preuves réelles et bien documentées qu'un employé précis ne répond pas aux exigences du poste, mais reporte pendant des mois la conversation sur la fin de son emploi, en espérant que la situation s'améliore d'elle-même. [ASSUMPTION] Pendant ces mois, le moral de l'équipe s'effrite visiblement, puisque les autres membres absorbent le travail supplémentaire et remarquent que le problème reste sans réponse, et lorsque la fin d'emploi survient quand même, l'entreprise fait face au même coût de remplacement et d'intégration qu'elle aurait eu des mois plus tôt — plus le coût accumulé du report lui-même sur le moral et la productivité, ce qui montre pourquoi une action décisive, une fois vraiment justifiée, produit généralement un meilleur résultat global qu'un évitement prolongé.
+[EXEMPLE ILLUSTRATIF] Un leader a des preuves réelles et bien documentées qu'un employé précis ne répond pas aux exigences du poste, mais reporte pendant des mois la conversation sur la fin de son emploi, en espérant que la situation s'améliore d'elle-même. [HYPOTHÈSE] Pendant ces mois, le moral de l'équipe s'effrite visiblement, puisque les autres membres absorbent le travail supplémentaire et remarquent que le problème reste sans réponse, et lorsque la fin d'emploi survient quand même, l'entreprise fait face au même coût de remplacement et d'intégration qu'elle aurait eu des mois plus tôt — plus le coût accumulé du report lui-même sur le moral et la productivité, ce qui montre pourquoi une action décisive, une fois vraiment justifiée, produit généralement un meilleur résultat global qu'un évitement prolongé.
 
 ## Quiz de pratique
 

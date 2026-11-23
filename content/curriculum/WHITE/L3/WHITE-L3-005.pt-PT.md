@@ -28,11 +28,11 @@ Uma **opção** é um contrato que dá ao comprador o direito, mas não a obriga
 
 Este é o "porquê" de isso ser diferente de simplesmente ter a ação: como só é obrigado a agir se isso for vantajoso para você, a perda máxima de quem compra a opção se limita ao que pagou pelo contrato, chamado de **prêmio**, enquanto o ganho potencial pode ser grande se o ativo-objeto se mover a favor. Essa assimetria (perda limitada, ganho potencial maior) é exatamente o que o comprador está a pagar.
 
-[VERIFIED FACT] O vendedor (ou "lançador") de uma opção está do outro lado dessa operação e assume a obrigação de cumprir o contrato se o comprador decidir exercer seu direito; é por isso que vender opções tem um perfil de risco fundamentalmente diferente, tratado numa lição posterior. O prêmio não é arbitrário; ele reflete o preço atual do ativo-objeto, o preço de exercício, o tempo que falta até o vencimento e a volatilidade esperada do ativo.
+[FACTO VERIFICADO] O vendedor (ou "lançador") de uma opção está do outro lado dessa operação e assume a obrigação de cumprir o contrato se o comprador decidir exercer seu direito; é por isso que vender opções tem um perfil de risco fundamentalmente diferente, tratado numa lição posterior. O prêmio não é arbitrário; ele reflete o preço atual do ativo-objeto, o preço de exercício, o tempo que falta até o vencimento e a volatilidade esperada do ativo.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora compra uma opção de compra (call) de uma ação que está a ser negociada a $50, com preço de exercício de $55, pagando um prêmio de $2 por ação. Se a ação subir para $65 antes do vencimento, ela pode exercer seu direito de comprar a $55, bem abaixo do preço de mercado, com um lucro relevante, descontado o prêmio de $2 que pagou. Se a ação ficar abaixo de $55 ou cair, ela simplesmente deixa a opção vencer, e sua perda total se limita ao prêmio de $2 que pagou; ela nunca foi obrigada a comprar a $55 se isso não fizesse sentido.
+[EXEMPLO ILUSTRATIVO] Uma investidora compra uma opção de compra (call) de uma ação que está a ser negociada a $50, com preço de exercício de $55, pagando um prêmio de $2 por ação. Se a ação subir para $65 antes do vencimento, ela pode exercer seu direito de comprar a $55, bem abaixo do preço de mercado, com um lucro relevante, descontado o prêmio de $2 que pagou. Se a ação ficar abaixo de $55 ou cair, ela simplesmente deixa a opção vencer, e sua perda total se limita ao prêmio de $2 que pagou; ela nunca foi obrigada a comprar a $55 se isso não fizesse sentido.
 
 ## Teste de prática
 

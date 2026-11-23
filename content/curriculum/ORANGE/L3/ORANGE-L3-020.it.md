@@ -30,7 +30,7 @@ Quale incentivo ha oggi il tuo team vendite a mantenere i dati del CRM precisi e
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un team vendite lascia sistematicamente nel CRM trattative contrassegnate come "probabile chiusura a breve" molto dopo che si sono davvero raffreddate, perché un'etichetta ottimistica non ha alcuna conseguenza specifica e sembrare produttivi ha qualche vantaggio. [ASSUMPTION] Il team finanziario, che usa questi dati del CRM per costruire la previsione ponderata per probabilità discussa nella Lezione 15, produce una proiezione dei ricavi sistematicamente troppo ottimista. Non perché il calcolo della previsione sia sbagliato, ma perché i dati di partenza non erano affidabili. Questo mostra perché la qualità dei dati del CRM è una questione di pianificazione finanziaria, e non solo di gestione delle vendite.
+[ESEMPIO ILLUSTRATIVO] Un team vendite lascia sistematicamente nel CRM trattative contrassegnate come "probabile chiusura a breve" molto dopo che si sono davvero raffreddate, perché un'etichetta ottimistica non ha alcuna conseguenza specifica e sembrare produttivi ha qualche vantaggio. [IPOTESI] Il team finanziario, che usa questi dati del CRM per costruire la previsione ponderata per probabilità discussa nella Lezione 15, produce una proiezione dei ricavi sistematicamente troppo ottimista. Non perché il calcolo della previsione sia sbagliato, ma perché i dati di partenza non erano affidabili. Questo mostra perché la qualità dei dati del CRM è una questione di pianificazione finanziaria, e non solo di gestione delle vendite.
 
 ## Quiz di esercitazione
 

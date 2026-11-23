@@ -30,7 +30,7 @@ La tua attuale strategia di acquisizione è davvero adatta alla tua fase di fina
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa autofinanziata osserva un concorrente finanziato con capitale di rischio che spende in modo aggressivo, in perdita, per acquisire clienti e guadagnare quote di mercato, e adotta una strategia di acquisizione simile. [ASSUMPTION] Senza il cuscinetto di capitale esterno del concorrente, l'impresa autofinanziata si scontra in fretta proprio con i problemi di flussi di cassa e di autonomia finanziaria da cui metteva in guardia la discussione sull'autofinanziamento del percorso BLUE. La strategia di acquisizione non era sbagliata in sé, ma non corrispondeva alla struttura di finanziamento reale di questa impresa. Questo mostra perché la strategia "giusta" dipende dal contesto di finanziamento, e non solo da ciò che un concorrente fa in modo visibile.
+[ESEMPIO ILLUSTRATIVO] Un'impresa autofinanziata osserva un concorrente finanziato con capitale di rischio che spende in modo aggressivo, in perdita, per acquisire clienti e guadagnare quote di mercato, e adotta una strategia di acquisizione simile. [IPOTESI] Senza il cuscinetto di capitale esterno del concorrente, l'impresa autofinanziata si scontra in fretta proprio con i problemi di flussi di cassa e di autonomia finanziaria da cui metteva in guardia la discussione sull'autofinanziamento del percorso BLUE. La strategia di acquisizione non era sbagliata in sé, ma non corrispondeva alla struttura di finanziamento reale di questa impresa. Questo mostra perché la strategia "giusta" dipende dal contesto di finanziamento, e non solo da ciò che un concorrente fa in modo visibile.
 
 ## Quiz di esercitazione
 

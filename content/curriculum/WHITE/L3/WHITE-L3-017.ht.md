@@ -26,7 +26,7 @@ Lè w fin fè leson sa a, w ap kapab:
 
 ## Kontni prensipal
 
-Li fasil pou w panse yon peman dividann se lajan anplis sou valè aksyon an te deja genyen — yon bonis paske ou kenbe aksyon an. Men "poukisa" fason sa a pou wè l twonpe w: yon konpayi peye dividann ak pwòp lajan kach li, sa ki diminye byen ki rete konpayi a. [VERIFIED FACT] Nan dat ex-dividend la (premye jou aksyon an fè komès san dwa pou dividann nan), pri yon aksyon anjeneral desann apeprè kantite dividann yo peye a, sa ki reflete ke konpayi a vo yon ti kras mwens kounye a, paske li distribye yon pati nan lajan kach li bay aksyonè yo.
+Li fasil pou w panse yon peman dividann se lajan anplis sou valè aksyon an te deja genyen — yon bonis paske ou kenbe aksyon an. Men "poukisa" fason sa a pou wè l twonpe w: yon konpayi peye dividann ak pwòp lajan kach li, sa ki diminye byen ki rete konpayi a. [FÈ VERIFYE] Nan dat ex-dividend la (premye jou aksyon an fè komès san dwa pou dividann nan), pri yon aksyon anjeneral desann apeprè kantite dividann yo peye a, sa ki reflete ke konpayi a vo yon ti kras mwens kounye a, paske li distribye yon pati nan lajan kach li bay aksyonè yo.
 
 Sa vle di yon dividann pa yon richès tou nèf ki parèt sòti nan anyen — se yon redistribisyon valè ki te deja egziste andedan konpayi a, ki deplase kounye a nan pòch aksyonè a an kach olye li rete kòm yon pati nan pri aksyon an. Aksyonè a pa vrèman vin pi rich nan moman yo peye dividann nan; li senpleman kenbe menm valè total la, separe ant yon pri aksyon ki yon ti kras pi ba ak dividann an kach li resevwa a.
 
@@ -34,7 +34,7 @@ Se pou sa **rannman total** — ki konbine ogmantasyon pri a ak dividann yo ansa
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon aksyon fè komès a $100 jou anvan li peye yon dividann $2 pa aksyon. Nan dat ex-dividend la, si tout lòt bagay egal, pri aksyon an anjeneral ajiste desann a apeprè $98, sa ki reflete $2 pa aksyon ki fèk sòti nan konpayi a kòm yon peman an kach. Yon envestisè ki kenbe yon aksyon kounye a gen $98 an aksyon plis $2 an kach — toujou $100 valè total, menm jan ak anvan yo te peye dividann nan. Dividann nan pa t kreye nouvo richès; li senpleman konvèti $2 valè aksyon ki te egziste an $2 kach.
+[EGZANP ILISTRATIF] Yon aksyon fè komès a $100 jou anvan li peye yon dividann $2 pa aksyon. Nan dat ex-dividend la, si tout lòt bagay egal, pri aksyon an anjeneral ajiste desann a apeprè $98, sa ki reflete $2 pa aksyon ki fèk sòti nan konpayi a kòm yon peman an kach. Yon envestisè ki kenbe yon aksyon kounye a gen $98 an aksyon plis $2 an kach — toujou $100 valè total, menm jan ak anvan yo te peye dividann nan. Dividann nan pa t kreye nouvo richès; li senpleman konvèti $2 valè aksyon ki te egziste an $2 kach.
 
 ## Egzamen pratik
 

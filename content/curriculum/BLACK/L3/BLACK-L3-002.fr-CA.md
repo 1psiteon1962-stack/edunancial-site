@@ -30,7 +30,7 @@ Si tu devenais soudainement indisponible pendant un mois, qu'est-ce qui briserai
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader délègue des tâches administratives courantes pour libérer du temps, convaincu que c'est une bonne pratique de délégation. [ASSUMPTION] Chaque relation client importante, chaque décision stratégique et chaque connaissance opérationnelle essentielle restent entièrement concentrées chez ce leader — lorsqu'il devient indisponible de façon inattendue pendant une longue période, l'organisation découvre que la délégation qui avait libéré son agenda n'a rien fait pour s'attaquer au vrai risque lié à une personne clé concentré dans ses relations et ses connaissances non déléguées, en écho exact au risque que la discussion du parcours BLUE sur l'assurance de personne clé visait à traiter.
+[EXEMPLE ILLUSTRATIF] Un leader délègue des tâches administratives courantes pour libérer du temps, convaincu que c'est une bonne pratique de délégation. [HYPOTHÈSE] Chaque relation client importante, chaque décision stratégique et chaque connaissance opérationnelle essentielle restent entièrement concentrées chez ce leader — lorsqu'il devient indisponible de façon inattendue pendant une longue période, l'organisation découvre que la délégation qui avait libéré son agenda n'a rien fait pour s'attaquer au vrai risque lié à une personne clé concentré dans ses relations et ses connaissances non déléguées, en écho exact au risque que la discussion du parcours BLUE sur l'assurance de personne clé visait à traiter.
 
 ## Quiz de pratique
 

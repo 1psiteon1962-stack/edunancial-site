@@ -34,11 +34,11 @@ Perché funziona così? Per lo Stato è un modo per ricevere il denaro nel corso
 
 La ritenuta è una stima. Viene calcolata in base al tuo stipendio e alle informazioni che hai dato al datore di lavoro. A fine anno, la dichiarazione dei redditi confronta quanto è stato trattenuto con quanto dovevi davvero. Se è stato trattenuto troppo, puoi ricevere un rimborso. Se troppo poco, potresti dover pagare la differenza.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Immagina che nessuno trattenga imposte dal tuo stipendio e a fine anno arrivi un conto di $6.000. Come ti sentiresti?
 

@@ -30,7 +30,7 @@ Als je plotseling een maand niet beschikbaar was, wat zou er dan echt misgaan in
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider delegeert routinematige administratieve taken om tijd vrij te maken, in de overtuiging dat dit goed delegeren is. [ASSUMPTION] Elke belangrijke klantrelatie, elke strategische beslissing en alle cruciale operationele kennis blijven volledig bij deze leider. Als hij onverwacht voor langere tijd niet beschikbaar is, ontdekt de organisatie dat het delegeren dat zijn agenda had vrijgemaakt niets heeft gedaan aan het werkelijke sleutelpersoonrisico in zijn niet-gedelegeerde relaties en kennis – precies het risico waarvoor de bespreking van sleutelpersoonverzekeringen in het BLUE-traject bedoeld was.
+[ILLUSTRATIEF VOORBEELD] Een leider delegeert routinematige administratieve taken om tijd vrij te maken, in de overtuiging dat dit goed delegeren is. [AANNAME] Elke belangrijke klantrelatie, elke strategische beslissing en alle cruciale operationele kennis blijven volledig bij deze leider. Als hij onverwacht voor langere tijd niet beschikbaar is, ontdekt de organisatie dat het delegeren dat zijn agenda had vrijgemaakt niets heeft gedaan aan het werkelijke sleutelpersoonrisico in zijn niet-gedelegeerde relaties en kennis – precies het risico waarvoor de bespreking van sleutelpersoonverzekeringen in het BLUE-traject bedoeld was.
 
 ## Oefenquiz
 

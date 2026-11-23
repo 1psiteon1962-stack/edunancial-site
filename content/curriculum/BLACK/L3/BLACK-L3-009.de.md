@@ -30,7 +30,7 @@ Welche Führungsgewohnheiten haben dir gute Dienste geleistet, als dein Team kle
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft, die ein kleines Team aufgebaut hat, indem sie jede Entscheidung persönlich geprüft und sich eng in jedes Projekt eingebracht hat, behält diesen Ansatz bei, während die Organisation deutlich größer wird. [ASSUMPTION] Was früher Qualität und Zusammenhalt sicherte, erzeugt nun einen Engpass – Entscheidungen stauen sich und warten auf die persönliche Aufmerksamkeit dieser Führungskraft, Teammitglieder fühlen sich entmündigt, ohne ausdrückliche Freigabe zu handeln, und das Tempo der Organisation sinkt auf das, was eine Person persönlich prüfen kann, statt dem zu entsprechen, was das inzwischen größere Team tatsächlich leisten könnte, wenn es mit passenden Systemen befähigt und ihm vertraut würde.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft, die ein kleines Team aufgebaut hat, indem sie jede Entscheidung persönlich geprüft und sich eng in jedes Projekt eingebracht hat, behält diesen Ansatz bei, während die Organisation deutlich größer wird. [ANNAHME] Was früher Qualität und Zusammenhalt sicherte, erzeugt nun einen Engpass – Entscheidungen stauen sich und warten auf die persönliche Aufmerksamkeit dieser Führungskraft, Teammitglieder fühlen sich entmündigt, ohne ausdrückliche Freigabe zu handeln, und das Tempo der Organisation sinkt auf das, was eine Person persönlich prüfen kann, statt dem zu entsprechen, was das inzwischen größere Team tatsächlich leisten könnte, wenn es mit passenden Systemen befähigt und ihm vertraut würde.
 
 ## Übungsquiz
 1. Warum kann ein Führungsstil, der gut zu einem kleinen Team passt, zum Engpass werden, wenn die Organisation wächst?

@@ -30,7 +30,7 @@ Hoe houdbaar is je huidige tempo als leider, eerlijk gezegd? Als het antwoord "n
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider houdt lange tijd een onhoudbaar tempo vol en behandelt rust en delegeren als verwennerij die pas aan bod komt als de huidige dringende eisen afnemen. [ASSUMPTION] Deze chronische burn-out uit zich uiteindelijk in een gezondheidscrisis die een onverwachte, lange afwezigheid vraagt – precies het soort plotselinge afwezigheid waarvoor de bespreking van sleutelpersoonrisico in Les 2 waarschuwde. Dit laat zien waarom het houdbare tempo van een leider een echte kwestie van continuïteit voor de organisatie is, en niet alleen een kwestie van persoonlijk welzijn die los staat van de bedrijfsrisico's uit dit hele traject.
+[ILLUSTRATIEF VOORBEELD] Een leider houdt lange tijd een onhoudbaar tempo vol en behandelt rust en delegeren als verwennerij die pas aan bod komt als de huidige dringende eisen afnemen. [AANNAME] Deze chronische burn-out uit zich uiteindelijk in een gezondheidscrisis die een onverwachte, lange afwezigheid vraagt – precies het soort plotselinge afwezigheid waarvoor de bespreking van sleutelpersoonrisico in Les 2 waarschuwde. Dit laat zien waarom het houdbare tempo van een leider een echte kwestie van continuïteit voor de organisatie is, en niet alleen een kwestie van persoonlijk welzijn die los staat van de bedrijfsrisico's uit dit hele traject.
 
 ## Oefenquiz
 

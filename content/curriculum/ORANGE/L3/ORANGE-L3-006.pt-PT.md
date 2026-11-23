@@ -30,7 +30,7 @@ O que gostaria de acompanhar, além do número de novos clientes, para saber se 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio comemora um forte crescimento mês a mês de novos clientes, impulsionado por uma campanha de aquisição agressiva. [ASSUMPTION] Por baixo desse crescimento, a taxa de retenção de clientes vem a cair em silêncio há dois trimestres, o que significa que o valor real de cada cliente ao longo do tempo é menor do que o número usado originalmente para justificar o gasto com aquisição — a relação entre CAC e LTV da trilha BLUE piorou sem alarde, mesmo com o painel de crescimento parecendo totalmente positivo, o que mostra por que a retenção precisa de ser acompanhada junto com a aquisição, e não tratada como uma métrica separada e secundária.
+[EXEMPLO ILUSTRATIVO] Um negócio comemora um forte crescimento mês a mês de novos clientes, impulsionado por uma campanha de aquisição agressiva. [SUPOSIÇÃO] Por baixo desse crescimento, a taxa de retenção de clientes vem a cair em silêncio há dois trimestres, o que significa que o valor real de cada cliente ao longo do tempo é menor do que o número usado originalmente para justificar o gasto com aquisição — a relação entre CAC e LTV da trilha BLUE piorou sem alarde, mesmo com o painel de crescimento parecendo totalmente positivo, o que mostra por que a retenção precisa de ser acompanhada junto com a aquisição, e não tratada como uma métrica separada e secundária.
 
 ## Teste de prática
 

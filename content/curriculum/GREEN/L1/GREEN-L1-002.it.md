@@ -34,11 +34,11 @@ Un bene privato è qualcosa che compri e usi da solo, come un panino. Se lo mang
 
 Poiché è difficile far pagare a ciascuno un bene pubblico, le aziende private raramente lo offrono da sole. Per questo questi servizi vengono di solito pagati con le imposte. Sapere dove vanno i soldi ti aiuta a capire il dibattito pubblico su bilancio e imposte.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Se compri una pizza, il tuo vicino la mangia automaticamente?
 

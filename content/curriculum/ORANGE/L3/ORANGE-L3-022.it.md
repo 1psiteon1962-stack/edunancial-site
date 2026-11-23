@@ -30,7 +30,7 @@ Prima di avviare una collaborazione con un influencer: quali tutele contrattuali
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa avvia una collaborazione con un influencer popolare per promuovere il proprio prodotto, senza un contratto redatto con chiarezza che specifichi gli standard dei contenuti, gli obblighi di informativa o una clausola di uscita nel caso in cui il rapporto debba finire. [ASSUMPTION] L'influencer finisce poi coinvolto in una polemica pubblica che non c'entra nulla, e l'impresa vede la propria reputazione colpita per associazione, senza alcun meccanismo contrattuale chiaro per chiudere in fretta la collaborazione o prendere le distanze. Questo mostra sia la lacuna contrattuale da cui mette in guardia questa lezione, sia il rischio specifico di legame reputazionale tipico di questo tipo di collaborazione di marketing.
+[ESEMPIO ILLUSTRATIVO] Un'impresa avvia una collaborazione con un influencer popolare per promuovere il proprio prodotto, senza un contratto redatto con chiarezza che specifichi gli standard dei contenuti, gli obblighi di informativa o una clausola di uscita nel caso in cui il rapporto debba finire. [IPOTESI] L'influencer finisce poi coinvolto in una polemica pubblica che non c'entra nulla, e l'impresa vede la propria reputazione colpita per associazione, senza alcun meccanismo contrattuale chiaro per chiudere in fretta la collaborazione o prendere le distanze. Questo mostra sia la lacuna contrattuale da cui mette in guardia questa lezione, sia il rischio specifico di legame reputazionale tipico di questo tipo di collaborazione di marketing.
 
 ## Quiz di esercitazione
 

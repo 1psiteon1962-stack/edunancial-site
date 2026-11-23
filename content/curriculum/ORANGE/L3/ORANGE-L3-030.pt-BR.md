@@ -30,7 +30,7 @@ Antes de lançar a sua próxima campanha: que resultado específico, definido de
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um time de marketing lança uma nova campanha com uma taxa de conversão suposta já embutida no orçamento, mas sem nenhum ponto de verificação definido de antemão para reavaliar essa suposição. [ASSUMPTION] Quando os primeiros resultados chegam bem abaixo da taxa suposta, o time continua gastando, tratando a diferença como temporária e esperando que melhore — o mesmo padrão de raciocínio não falseável contra o qual a trilha GOLD alertou, que absorve as evidências contrárias em vez de tratá-las como um sinal real para parar, um erro que um ponto de verificação definido de antemão ("reavaliar se a conversão estiver abaixo de X até a segunda semana") teria evitado especificamente.
+[EXEMPLO ILUSTRATIVO] Um time de marketing lança uma nova campanha com uma taxa de conversão suposta já embutida no orçamento, mas sem nenhum ponto de verificação definido de antemão para reavaliar essa suposição. [SUPOSIÇÃO] Quando os primeiros resultados chegam bem abaixo da taxa suposta, o time continua gastando, tratando a diferença como temporária e esperando que melhore — o mesmo padrão de raciocínio não falseável contra o qual a trilha GOLD alertou, que absorve as evidências contrárias em vez de tratá-las como um sinal real para parar, um erro que um ponto de verificação definido de antemão ("reavaliar se a conversão estiver abaixo de X até a segunda semana") teria evitado especificamente.
 
 ## Teste de prática
 

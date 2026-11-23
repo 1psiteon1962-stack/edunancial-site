@@ -32,7 +32,7 @@ C'est pourquoi l'ensemble de concurrents qu'une entreprise suppose peut différe
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise suppose que ses principaux concurrents sont d'autres entreprises qui offrent un produit techniquement semblable, et fixe ses prix et ses messages en conséquence. [ASSUMPTION] Une recherche auprès des clients révèle que bien des clients comparent en réalité ce produit à une catégorie différente et plus large de solutions qui répondent au même besoin de fond d'une autre façon — ce qui veut dire que l'ensemble réel de concurrents de l'entreprise, tel que perçu par les clients, est différent de celui qu'elle supposait, et que sa stratégie de prix et de messages, construite autour du mauvais ensemble de comparaison, pourrait passer à côté de la décision que les clients prennent réellement.
+[EXEMPLE ILLUSTRATIF] Une entreprise suppose que ses principaux concurrents sont d'autres entreprises qui offrent un produit techniquement semblable, et fixe ses prix et ses messages en conséquence. [HYPOTHÈSE] Une recherche auprès des clients révèle que bien des clients comparent en réalité ce produit à une catégorie différente et plus large de solutions qui répondent au même besoin de fond d'une autre façon — ce qui veut dire que l'ensemble réel de concurrents de l'entreprise, tel que perçu par les clients, est différent de celui qu'elle supposait, et que sa stratégie de prix et de messages, construite autour du mauvais ensemble de comparaison, pourrait passer à côté de la décision que les clients prennent réellement.
 
 ## Quiz de pratique
 

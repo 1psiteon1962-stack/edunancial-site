@@ -30,7 +30,7 @@ Heeft het extra verzamelen van informatie bij een beslissing die je nu uitstelt 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die voor een belangrijke beslissing staat, blijft wekenlang extra gegevens en meningen verzamelen, in de hoop op genoeg zekerheid om zich helemaal zeker te voelen voordat hij handelt. [ASSUMPTION] Als hij eerlijk naar het patroon kijkt, beseft deze leider dat het recente extra verzamelen van informatie zijn waarschijnlijke beslissing niet heeft veranderd – het heeft alleen een keuze uitgesteld waarvoor hij al genoeg informatie had, in lijn met het punt uit het ORANGE-traject dat extra onderzoek op een gegeven moment geen betekenisvolle onzekerheid meer wegneemt en alleen nog het handelen vertraagt, terwijl het uitstel zelf echte, oplopende kosten heeft.
+[ILLUSTRATIEF VOORBEELD] Een leider die voor een belangrijke beslissing staat, blijft wekenlang extra gegevens en meningen verzamelen, in de hoop op genoeg zekerheid om zich helemaal zeker te voelen voordat hij handelt. [AANNAME] Als hij eerlijk naar het patroon kijkt, beseft deze leider dat het recente extra verzamelen van informatie zijn waarschijnlijke beslissing niet heeft veranderd – het heeft alleen een keuze uitgesteld waarvoor hij al genoeg informatie had, in lijn met het punt uit het ORANGE-traject dat extra onderzoek op een gegeven moment geen betekenisvolle onzekerheid meer wegneemt en alleen nog het handelen vertraagt, terwijl het uitstel zelf echte, oplopende kosten heeft.
 
 ## Oefenquiz
 

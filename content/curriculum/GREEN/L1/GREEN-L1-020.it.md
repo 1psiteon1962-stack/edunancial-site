@@ -36,7 +36,7 @@ Non vuol dire che il rimborso sia una cosa negativa. Alcune persone lo preferisc
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Tiziano ha ricevuto $2.400 di rimborso ed è contento. Quanto fa al mese?
 

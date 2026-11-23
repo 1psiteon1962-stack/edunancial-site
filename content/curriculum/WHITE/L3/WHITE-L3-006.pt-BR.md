@@ -28,11 +28,11 @@ A Lição 5 apresentou as opções de compra (calls) e as opções de venda (put
 
 Um **straddle** combina a compra de uma call e de uma put sobre o mesmo ativo-objeto, com o mesmo preço de exercício e o mesmo vencimento. Este é o "porquê" de isso mudar a aposta: em vez de apostar na direção, um straddle aposta no **tamanho do movimento**. Ele lucra se o ativo-objeto se mover bastante em qualquer direção, o suficiente para cobrir o custo somado dos dois prêmios, e perde valor se o preço ficar relativamente parado, já que as duas opções venceriam valendo pouco.
 
-[VERIFIED FACT] Como um straddle envolve comprar duas opções em vez de uma, ele custa mais no início do que uma única call ou put; ou seja, o ativo-objeto precisa se mover mais, em qualquer direção, só para empatar a posição combinada.
+[FATO VERIFICADO] Como um straddle envolve comprar duas opções em vez de uma, ele custa mais no início do que uma única call ou put; ou seja, o ativo-objeto precisa se mover mais, em qualquer direção, só para empatar a posição combinada.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora espera que a próxima divulgação de resultados de uma empresa provoque uma grande oscilação no preço, mas não tem uma opinião forte sobre se a notícia será positiva ou negativa. Em vez de comprar só uma call (apostando na alta) ou só uma put (apostando na queda), ela compra um straddle: uma call e uma put com o mesmo preço de exercício. [ASSUMPTION] Se a ação disparar depois dos resultados, a call ganha valor suficiente para mais do que compensar a perda da put e o prêmio total pago, resultando em lucro. Se, em vez disso, a ação despencar, a put cumpre a mesma função no sentido oposto. Mas se a ação quase não se mexer para nenhum lado, as duas opções podem vencer valendo pouco, e ela perde a maior parte ou todo o prêmio somado que pagou.
+[EXEMPLO ILUSTRATIVO] Uma investidora espera que a próxima divulgação de resultados de uma empresa provoque uma grande oscilação no preço, mas não tem uma opinião forte sobre se a notícia será positiva ou negativa. Em vez de comprar só uma call (apostando na alta) ou só uma put (apostando na queda), ela compra um straddle: uma call e uma put com o mesmo preço de exercício. [SUPOSIÇÃO] Se a ação disparar depois dos resultados, a call ganha valor suficiente para mais do que compensar a perda da put e o prêmio total pago, resultando em lucro. Se, em vez disso, a ação despencar, a put cumpre a mesma função no sentido oposto. Mas se a ação quase não se mexer para nenhum lado, as duas opções podem vencer valendo pouco, e ela perde a maior parte ou todo o prêmio somado que pagou.
 
 ## Teste de prática
 

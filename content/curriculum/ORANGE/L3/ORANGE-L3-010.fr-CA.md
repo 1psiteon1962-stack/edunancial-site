@@ -32,7 +32,7 @@ Avant de lancer une promotion de produit d'appel, quelles données précises dev
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise vend un produit précis à perte, en supposant que les clients achèteront ensuite un complément distinct et rentable à un taux suffisant pour que l'ensemble de la stratégie en vaille la peine. [ASSUMPTION] Le produit d'appel devient très populaire, et l'entreprise traite cette popularité comme une preuve que la stratégie réussit — sans jamais mesurer réellement quel pourcentage de ces clients achètent ensuite le complément rentable. Si ce taux d'achat subséquent est en réalité beaucoup plus faible que prévu, l'entreprise pourrait mener une stratégie populaire, mais vraiment non rentable, précisément parce qu'elle n'a jamais suivi l'économie unitaire dont dépend la stratégie.
+[EXEMPLE ILLUSTRATIF] Une entreprise vend un produit précis à perte, en supposant que les clients achèteront ensuite un complément distinct et rentable à un taux suffisant pour que l'ensemble de la stratégie en vaille la peine. [HYPOTHÈSE] Le produit d'appel devient très populaire, et l'entreprise traite cette popularité comme une preuve que la stratégie réussit — sans jamais mesurer réellement quel pourcentage de ces clients achètent ensuite le complément rentable. Si ce taux d'achat subséquent est en réalité beaucoup plus faible que prévu, l'entreprise pourrait mener une stratégie populaire, mais vraiment non rentable, précisément parce qu'elle n'a jamais suivi l'économie unitaire dont dépend la stratégie.
 
 ## Quiz de pratique
 

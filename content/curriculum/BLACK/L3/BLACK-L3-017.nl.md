@@ -30,7 +30,7 @@ Is er een strategie of beslissing die je nu blijft steunen, op zijn minst deels 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider verdedigt publiek een specifieke strategische koers, en terwijl het bewijs zich opstapelt dat die niet werkt, blijft hij haar verdedigen en financieren in plaats van de fout te erkennen. [ASSUMPTION] In lijn met de waarschuwing in het GOLD-traject over niet-falsifieerbare redeneringen behandelt deze leider elk tegenstrijdig bewijs als reden om de tactiek bij te sturen in plaats van de onderliggende strategie te heroverwegen, en blijft hij middelen van de organisatie in een mislukkende koers steken juist om het persoonlijke ongemak van een fout toegeven te vermijden – een directe, meetbare financiële kostenpost die door ego is ontstaan, en niet door de merites van de strategie zelf.
+[ILLUSTRATIEF VOORBEELD] Een leider verdedigt publiek een specifieke strategische koers, en terwijl het bewijs zich opstapelt dat die niet werkt, blijft hij haar verdedigen en financieren in plaats van de fout te erkennen. [AANNAME] In lijn met de waarschuwing in het GOLD-traject over niet-falsifieerbare redeneringen behandelt deze leider elk tegenstrijdig bewijs als reden om de tactiek bij te sturen in plaats van de onderliggende strategie te heroverwegen, en blijft hij middelen van de organisatie in een mislukkende koers steken juist om het persoonlijke ongemak van een fout toegeven te vermijden – een directe, meetbare financiële kostenpost die door ego is ontstaan, en niet door de merites van de strategie zelf.
 
 ## Oefenquiz
 

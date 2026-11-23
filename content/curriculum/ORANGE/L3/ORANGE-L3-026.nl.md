@@ -30,7 +30,7 @@ Probeert je huidige strategie breed iedereen aan te spreken, of bedient ze bewus
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming probeert eerst een zo breed mogelijk klantenbestand aan te spreken en concurreert daarbij met veel grotere, beter uitgeruste concurrenten op hun eigen brede terrein. [ASSUMPTION] Door over te stappen op een bewuste nichestrategie – specifiek gericht op een kleiner klantsegment met bijzondere behoeften die de brede concurrenten slecht bedienen – bouwt de onderneming binnen dat segment diepe expertise en loyaliteit op. Zo ontstaat een verdedigbare positie die een veel grotere, algemene concurrent moeilijk kan nabootsen zonder zijn eigen positionering in de brede markt te verwateren, in lijn met de nadruk in het BLUE-traject op een geloofwaardige, realistische SOM boven een indrukwekkende maar onrealistische TAM.
+[ILLUSTRATIEF VOORBEELD] Een onderneming probeert eerst een zo breed mogelijk klantenbestand aan te spreken en concurreert daarbij met veel grotere, beter uitgeruste concurrenten op hun eigen brede terrein. [AANNAME] Door over te stappen op een bewuste nichestrategie – specifiek gericht op een kleiner klantsegment met bijzondere behoeften die de brede concurrenten slecht bedienen – bouwt de onderneming binnen dat segment diepe expertise en loyaliteit op. Zo ontstaat een verdedigbare positie die een veel grotere, algemene concurrent moeilijk kan nabootsen zonder zijn eigen positionering in de brede markt te verwateren, in lijn met de nadruk in het BLUE-traject op een geloofwaardige, realistische SOM boven een indrukwekkende maar onrealistische TAM.
 
 ## Oefenquiz
 

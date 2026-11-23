@@ -30,11 +30,11 @@ Yon **lòd stop-loss** (lòd pou kanpe pèt) se yon enstriksyon pou vann yon tit
 
 Men "poukisa" li pa garanti yon pri soti egzak: yon fwa pri stop la rive, yon lòd stop-loss nòmal nòmalman tounen yon **lòd mache** (market order) — yon lòd pou vann touswit nan pi bon pri ki disponib nan moman an, pa espesyalman nan pri stop la li menm. Si pri a ap deplase vit, oswa si tit la fè yon gwo so desann (li sote pase pri stop la san okenn tranzaksyon ant de nivo yo, sa ki ka rive lè gen gwo nouvèl), lòd la ka egzekite nan yon pri ki pi mal anpil pase pri stop ki te deklanche l la.
 
-[VERIFIED FACT] Yon **lòd stop-limit** se yon varyasyon ki fikse ni yon pri stop (ki deklanche lòd la) ni yon pri limit (pi move pri envestisè a dakò aksepte) — sa pwoteje kont yon pri egzekisyon ki move san atann, men li mete yon lòt risk: si pri a pase pri limit la twò vit, lòd la ka pa egzekite ditou, sa ki kite pozisyon an san vann pandan egzakteman bès envestisè a t ap eseye pwoteje tèt li kont li a.
+[FÈ VERIFYE] Yon **lòd stop-limit** se yon varyasyon ki fikse ni yon pri stop (ki deklanche lòd la) ni yon pri limit (pi move pri envestisè a dakò aksepte) — sa pwoteje kont yon pri egzekisyon ki move san atann, men li mete yon lòt risk: si pri a pase pri limit la twò vit, lòd la ka pa egzekite ditou, sa ki kite pozisyon an san vann pandan egzakteman bès envestisè a t ap eseye pwoteje tèt li kont li a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè mete yon lòd stop-loss a $45 sou yon aksyon ki kounye a vann a $50, avèk entansyon pou l limite pèt li si pri a desann. [ASSUMPTION] Si yon move nouvèl fè aksyon an fè yon so desann pandan lannwit, epi li ouvri jou apre a a $38 san okenn tranzaksyon ant $45 ak $38, lòd stop-loss li a ta deklanche epi egzekite toupre nouvo pri ouvèti ki pi ba a — pa nan pri stop $45 li te vle a — sa ki bay yon pi gwo pèt pase sa li te ka panse stop-loss la t ap pwoteje l kont li.
+[EGZANP ILISTRATIF] Yon envestisè mete yon lòd stop-loss a $45 sou yon aksyon ki kounye a vann a $50, avèk entansyon pou l limite pèt li si pri a desann. [SIPOZISYON] Si yon move nouvèl fè aksyon an fè yon so desann pandan lannwit, epi li ouvri jou apre a a $38 san okenn tranzaksyon ant $45 ak $38, lòd stop-loss li a ta deklanche epi egzekite toupre nouvo pri ouvèti ki pi ba a — pa nan pri stop $45 li te vle a — sa ki bay yon pi gwo pèt pase sa li te ka panse stop-loss la t ap pwoteje l kont li.
 
 ## Egzamen pratik
 

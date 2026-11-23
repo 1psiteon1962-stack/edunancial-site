@@ -30,7 +30,7 @@ C'è in questo momento nella tua organizzazione una questione visibile su cui ha
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sceglie di non affrontare pubblicamente un conflitto visibile e in corso tra due membri del team, convinto che restare neutrale e in silenzio eviti di schierarsi o di peggiorare la situazione. [ASSUMPTION] I membri del team, osservando questo silenzio prolungato, lo interpretano non come neutralità ma come tolleranza tacita del conflitto in corso, riprendendo il punto della Lezione 22 su come la tolleranza plasmi la cultura. Questo mostra perché la "non-azione neutra" voluta dal leader ha funzionato in realtà come un messaggio preciso e sostanziale: che il conflitto poteva continuare.
+[ESEMPIO ILLUSTRATIVO] Un leader sceglie di non affrontare pubblicamente un conflitto visibile e in corso tra due membri del team, convinto che restare neutrale e in silenzio eviti di schierarsi o di peggiorare la situazione. [IPOTESI] I membri del team, osservando questo silenzio prolungato, lo interpretano non come neutralità ma come tolleranza tacita del conflitto in corso, riprendendo il punto della Lezione 22 su come la tolleranza plasmi la cultura. Questo mostra perché la "non-azione neutra" voluta dal leader ha funzionato in realtà come un messaggio preciso e sostanziale: che il conflitto poteva continuare.
 
 ## Quiz di esercitazione
 

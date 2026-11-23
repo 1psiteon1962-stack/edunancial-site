@@ -30,7 +30,7 @@ Voordat je een kortingsactie start: wat is je werkelijke dekkingsbijdrage bij de
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming met een dekkingsbijdrage van $40 per eenheid geeft 20% korting, waardoor de marge per eenheid daalt naar $20. [ASSUMPTION] Het verkoopvolume stijgt met 30%, wat klinkt als een duidelijke winst – maar omdat de marge per eenheid is gehalveerd, levert die volumestijging van 30% in werkelijkheid minder totale winst op dan vóór de korting, niet meer. Dit laat zien waarom de intuïtieve redenering "korting brengt meer verkopen, meer verkopen betekent meer winst" de onevenredige impact van marge-uitholling mist.
+[ILLUSTRATIEF VOORBEELD] Een onderneming met een dekkingsbijdrage van $40 per eenheid geeft 20% korting, waardoor de marge per eenheid daalt naar $20. [AANNAME] Het verkoopvolume stijgt met 30%, wat klinkt als een duidelijke winst – maar omdat de marge per eenheid is gehalveerd, levert die volumestijging van 30% in werkelijkheid minder totale winst op dan vóór de korting, niet meer. Dit laat zien waarom de intuïtieve redenering "korting brengt meer verkopen, meer verkopen betekent meer winst" de onevenredige impact van marge-uitholling mist.
 
 ## Oefenquiz
 

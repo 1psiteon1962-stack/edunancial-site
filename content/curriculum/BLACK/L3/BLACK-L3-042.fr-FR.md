@@ -30,7 +30,7 @@ Si ton entreprise compte des membres de ta famille, quelles structures formelles
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise familiale fonctionne pendant des années sans documentation formelle des rôles, du pouvoir de décision ni d'un plan de relève, en comptant sur l'hypothèse que la confiance familiale rend ce genre de structure inutile. [ASSUMPTION] Lorsqu'un désaccord important sur l'orientation de l'entreprise finit par survenir entre des membres de la famille, l'absence de toute structure ou entente préétablie — en écho exact au risque contre lequel prévenait la discussion du parcours PURPLE sur la convention entre associés — fait que le conflit menace maintenant à la fois l'entreprise et les relations familiales, sans aucun processus clair de résolution auquel l'une ou l'autre des parties aurait consenti auparavant.
+[EXEMPLE ILLUSTRATIF] Une entreprise familiale fonctionne pendant des années sans documentation formelle des rôles, du pouvoir de décision ni d'un plan de relève, en comptant sur l'hypothèse que la confiance familiale rend ce genre de structure inutile. [HYPOTHÈSE] Lorsqu'un désaccord important sur l'orientation de l'entreprise finit par survenir entre des membres de la famille, l'absence de toute structure ou entente préétablie — en écho exact au risque contre lequel prévenait la discussion du parcours PURPLE sur la convention entre associés — fait que le conflit menace maintenant à la fois l'entreprise et les relations familiales, sans aucun processus clair de résolution auquel l'une ou l'autre des parties aurait consenti auparavant.
 
 ## Quiz de pratique
 

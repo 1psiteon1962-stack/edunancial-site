@@ -24,13 +24,13 @@ Al termine di questa lezione sarai in grado di:
 
 La Lezione 21 ha discusso l'assenza di rendimento dell'oro come costo opportunità. Ecco un costo collegato e aggiuntivo, specifico del detenere una versione **fisica** e tangibile di un'attività come l'oro, invece di un equivalente cartaceo o digitale (una distinzione approfondita nella prossima lezione): il possesso fisico comporta costi reali e continui che un'attività puramente finanziaria (un'azione, un'obbligazione o perfino un diritto cartaceo sull'oro) semplicemente non ha.
 
-[VERIFIED FACT] Questi costi comprendono in genere una custodia sicura (una cassetta di sicurezza, una cassaforte in casa o un deposito professionale, ognuno con il proprio costo e i propri compromessi) e un'assicurazione contro furto, smarrimento o danni: entrambe spese reali e continue che riducono il rendimento netto effettivo del bene fisico, oltre al costo opportunità già discusso nella Lezione 21.
+[FATTO VERIFICATO] Questi costi comprendono in genere una custodia sicura (una cassetta di sicurezza, una cassaforte in casa o un deposito professionale, ognuno con il proprio costo e i propri compromessi) e un'assicurazione contro furto, smarrimento o danni: entrambe spese reali e continue che riducono il rendimento netto effettivo del bene fisico, oltre al costo opportunità già discusso nella Lezione 21.
 
 Per questo una valutazione onesta del vero costo complessivo di possesso dell'oro fisico deve includere queste spese continue, e non solo l'aumento o la diminuzione del prezzo del metallo: due investitori che detengono una quantità d'oro apparentemente identica potrebbero avere rendimenti netti effettivi molto diversi, a seconda di quanto spende ciascuno per la custodia e l'assicurazione del proprio metallo.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'investitrice tiene oro fisico in un deposito di sicurezza professionale, pagando una tariffa annua per la custodia e un premio assicurativo separato contro furto o smarrimento. [ASSUMPTION] Nel tempo, questi costi continui, pur modesti presi uno per uno, riducono in modo significativo il suo rendimento netto effettivo sull'oro rispetto al solo aumento del prezzo del metallo: un calcolo onesto dei risultati reali del suo investimento deve sottrarre questi costi reali e continui, e non limitarsi a seguire l'andamento del prezzo del metallo che si vede nei titoli.
+[ESEMPIO ILLUSTRATIVO] Un'investitrice tiene oro fisico in un deposito di sicurezza professionale, pagando una tariffa annua per la custodia e un premio assicurativo separato contro furto o smarrimento. [IPOTESI] Nel tempo, questi costi continui, pur modesti presi uno per uno, riducono in modo significativo il suo rendimento netto effettivo sull'oro rispetto al solo aumento del prezzo del metallo: un calcolo onesto dei risultati reali del suo investimento deve sottrarre questi costi reali e continui, e non limitarsi a seguire l'andamento del prezzo del metallo che si vede nei titoli.
 
 ## Quiz di esercitazione
 

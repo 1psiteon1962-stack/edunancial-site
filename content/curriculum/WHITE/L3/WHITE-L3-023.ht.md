@@ -30,11 +30,11 @@ Yon **fon endèks** fèt pou swiv yon endèks mache espesifik (tankou yon gwo en
 
 Men "poukisa" sa reprezante yon paryaj ki diferan nèt: yon envestisè nan endèks pa p parye sou okenn konpayi endividyèl, ni sou talan okenn manadjè fon espesifik pou chwazi aksyon — l ap parye sou kwasans jeneral tout mache a (oswa yon segman nan mache a) ke endèks la reprezante, sou long tèm. Sa retire yon kouch risk antye ke envestisman aktif genyen: risk pou aksyon ou chwazi yo, oswa chwa manadjè ou chwazi a, fè mwens byen pase mache a an jeneral.
 
-[VERIFIED FACT] Sa pa vle di envesti nan endèks elimine tout risk — fon endèks toujou gen risk pou mache a li menm desann, paske yo fèt espesyalman pou bouje ak mache sa a, pa pou pwoteje kont bès li yo.
+[FÈ VERIFYE] Sa pa vle di envesti nan endèks elimine tout risk — fon endèks toujou gen risk pou mache a li menm desann, paske yo fèt espesyalman pou bouje ak mache sa a, pa pou pwoteje kont bès li yo.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè ki chwazi yon fon ki jere aktivman ap parye, san l pa di l, ke manadjè fon an ka chwazi pozisyon endividyèl ki, ansanm, fè pi byen pase mache a an jeneral apre frè — yon paryaj sou talan ak desizyon manadjè espesifik sa a. Yon envestisè ki chwazi yon fon endèks jeneral mache a pito ap parye ke tout mache a pral grandi avèk tan, san li pa bezwen idantifye ki konpayi espesifik oswa ki manadjè espesifik ki pral fè chwa yo. [ASSUMPTION] Si mache a an jeneral monte pandan peryòd envestisè a kenbe l la, envestisè nan endèks la patisipe nan kwasans sa a kèlkeswa ki konpayi endividyèl ki te lakòz li — li pa t bezwen idantifye davans ki konpayi ki t ap genyen yo.
+[EGZANP ILISTRATIF] Yon envestisè ki chwazi yon fon ki jere aktivman ap parye, san l pa di l, ke manadjè fon an ka chwazi pozisyon endividyèl ki, ansanm, fè pi byen pase mache a an jeneral apre frè — yon paryaj sou talan ak desizyon manadjè espesifik sa a. Yon envestisè ki chwazi yon fon endèks jeneral mache a pito ap parye ke tout mache a pral grandi avèk tan, san li pa bezwen idantifye ki konpayi espesifik oswa ki manadjè espesifik ki pral fè chwa yo. [SIPOZISYON] Si mache a an jeneral monte pandan peryòd envestisè a kenbe l la, envestisè nan endèks la patisipe nan kwasans sa a kèlkeswa ki konpayi endividyèl ki te lakòz li — li pa t bezwen idantifye davans ki konpayi ki t ap genyen yo.
 
 ## Egzamen pratik
 

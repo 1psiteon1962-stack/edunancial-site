@@ -30,7 +30,7 @@ Als je morgen je functie zou neerleggen, hoe snel en hoe soepel zou de organisat
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die jarenlang heeft gewerkt aan vastgelegde systemen, het actief ontwikkelen van mogelijke opvolgers en het spreiden van cruciale kennis over het team, ontdekt dat de organisatie soepel blijft doordraaien als hij uiteindelijk een stap terug doet – voor een geplande overdracht, een lang verlof of gewoon om zich op een nieuwe kans te richten. [ASSUMPTION] In plaats van dat deze vervangbaarheid zijn positie of waarde bedreigt, weerspiegelt die de volledige toepassing van de principes van delegeren, opvolgingsplanning en het verkleinen van sleutelpersoonrisico uit dit hele traject, en vergroot die paradoxaal genoeg de werkelijke waarde en mogelijkheden van deze leider, omdat hij niet langer het knelpunt is dat beperkt wat de organisatie kan nastreven.
+[ILLUSTRATIEF VOORBEELD] Een leider die jarenlang heeft gewerkt aan vastgelegde systemen, het actief ontwikkelen van mogelijke opvolgers en het spreiden van cruciale kennis over het team, ontdekt dat de organisatie soepel blijft doordraaien als hij uiteindelijk een stap terug doet – voor een geplande overdracht, een lang verlof of gewoon om zich op een nieuwe kans te richten. [AANNAME] In plaats van dat deze vervangbaarheid zijn positie of waarde bedreigt, weerspiegelt die de volledige toepassing van de principes van delegeren, opvolgingsplanning en het verkleinen van sleutelpersoonrisico uit dit hele traject, en vergroot die paradoxaal genoeg de werkelijke waarde en mogelijkheden van deze leider, omdat hij niet langer het knelpunt is dat beperkt wat de organisatie kan nastreven.
 
 ## Oefenquiz
 

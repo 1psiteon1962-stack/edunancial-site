@@ -30,7 +30,7 @@ Denk aan een recent probleem dat duurder of zichtbaarder werd dan nodig was. Was
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] In een organisatie zonder echte psychologische veiligheid ziet een teamlid al vroeg een groot probleem in de planning van een project, maar kaart het niet aan uit angst als negatief of niet behulpzaam te worden gezien. [ASSUMPTION] Het probleem blijft liggen, groeit en wordt uiteindelijk een veel zichtbaardere, duurdere mislukking dan wanneer het vroeg was aangekaart en aangepakt – een direct financieel gevolg van het ontbreken van psychologische veiligheid, dat laat zien waarom dit niet alleen een culturele voorkeur is, maar een factor met echte, meetbare invloed op de prestaties van de organisatie.
+[ILLUSTRATIEF VOORBEELD] In een organisatie zonder echte psychologische veiligheid ziet een teamlid al vroeg een groot probleem in de planning van een project, maar kaart het niet aan uit angst als negatief of niet behulpzaam te worden gezien. [AANNAME] Het probleem blijft liggen, groeit en wordt uiteindelijk een veel zichtbaardere, duurdere mislukking dan wanneer het vroeg was aangekaart en aangepakt – een direct financieel gevolg van het ontbreken van psychologische veiligheid, dat laat zien waarom dit niet alleen een culturele voorkeur is, maar een factor met echte, meetbare invloed op de prestaties van de organisatie.
 
 ## Oefenquiz
 

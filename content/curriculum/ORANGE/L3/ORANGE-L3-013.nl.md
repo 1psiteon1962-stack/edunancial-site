@@ -30,7 +30,7 @@ Voordat je de uitkomst van een A/B-test als echte bevinding behandelt: wat was p
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een marketingteam voert een test uit waarbij de kop, de afbeelding en de kleur van de knop van een advertentie tegelijk worden veranderd, en de nieuwe versie presteert beter. [ASSUMPTION] Het team concludeert dat de nieuwe kop de doorslag gaf en voert die overal door – maar omdat er drie variabelen tegelijk zijn veranderd, heeft het in werkelijkheid geen betrouwbare manier om te weten of de kop, de afbeelding of de knopkleur de verbetering veroorzaakte, of dat een van die wijzigingen de prestaties juist verslechterde terwijl een andere ze nog meer verbeterde. Dat is een onduidelijkheid die een goed geïsoleerde test met één variabele volledig had voorkomen.
+[ILLUSTRATIEF VOORBEELD] Een marketingteam voert een test uit waarbij de kop, de afbeelding en de kleur van de knop van een advertentie tegelijk worden veranderd, en de nieuwe versie presteert beter. [AANNAME] Het team concludeert dat de nieuwe kop de doorslag gaf en voert die overal door – maar omdat er drie variabelen tegelijk zijn veranderd, heeft het in werkelijkheid geen betrouwbare manier om te weten of de kop, de afbeelding of de knopkleur de verbetering veroorzaakte, of dat een van die wijzigingen de prestaties juist verslechterde terwijl een andere ze nog meer verbeterde. Dat is een onduidelijkheid die een goed geïsoleerde test met één variabele volledig had voorkomen.
 
 ## Oefenquiz
 

@@ -34,11 +34,11 @@ La sanzione è una penalità per l'errore o il ritardo in sé. Gli interessi com
 
 Per questo un piccolo problema può diventare grande se viene ignorato. L'atteggiamento più economico è quasi sempre agire in fretta: dichiarare, correggere gli errori appena scoperti e pagare quello che puoi. Molti sistemi prevedono la rateizzazione, e alcuni riducono le sanzioni per chi si corregge spontaneamente. Importi e regole variano per Paese.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Andrea non ha pagato $1.000 di imposte. Nel nostro esempio, c'è una sanzione del 5% e interessi dell'1% al mese. Quanto deve dopo un mese?
 

@@ -32,7 +32,7 @@ C'est pourquoi la mesure finale de la maîtrise dans ce parcours n'est pas de sa
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une spécialiste du marketing qui a intégré tout ce parcours, devant une nouvelle proposition de campagne, ne l'évalue pas uniquement selon ses mérites marketing. Elle se demande instinctivement ce que la campagne ferait au CAC et au moment des flux de trésorerie (leçons 1 et 18), si des affirmations qu'elle contient doivent être justifiées sur le plan juridique (leçon 7), quelles sont les conséquences sur les commissions ou les incitations pour l'équipe de vente (leçons 19 et 37), et si les économies unitaires sous-jacentes soutiennent la croissance qu'elle est censée produire (leçon 35) — non pas parce qu'une liste de contrôle le lui dit, mais parce qu'elle voit maintenant une décision marketing comme inséparable du reste de l'entreprise qu'elle est censée servir.
+[EXEMPLE ILLUSTRATIF] Une spécialiste du marketing qui a intégré tout ce parcours, devant une nouvelle proposition de campagne, ne l'évalue pas uniquement selon ses mérites marketing. Elle se demande instinctivement ce que la campagne ferait au CAC et au moment des flux de trésorerie (leçons 1 et 18), si des affirmations qu'elle contient doivent être justifiées sur le plan juridique (leçon 7), quelles sont les conséquences sur les commissions ou les incitations pour l'équipe de vente (leçons 19 et 37), et si les économies unitaires sous-jacentes soutiennent la croissance qu'elle est censée produire (leçon 35) — non pas parce qu'une liste de contrôle le lui dit, mais parce qu'elle voit maintenant une décision marketing comme inséparable du reste de l'entreprise qu'elle est censée servir.
 
 ## Quiz de pratique
 

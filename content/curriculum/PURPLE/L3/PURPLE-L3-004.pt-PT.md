@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A Lição 3 mostrou que a gravidade de um descumprimento define qual remédio jurídico está disponível. Este é o "porquê" por trás da natureza geral desse próprio remédio: [VERIFIED FACT] o direito contratual geralmente busca colocar a parte que cumpriu na posição em que ela estaria se o contrato tivesse sido cumprido corretamente — o que costuma ser chamado de interesse positivo (expectation) —, e não punir a parte que descumpriu por ter quebrado a promessa.
+A Lição 3 mostrou que a gravidade de um descumprimento define qual remédio jurídico está disponível. Este é o "porquê" por trás da natureza geral desse próprio remédio: [FACTO VERIFICADO] o direito contratual geralmente busca colocar a parte que cumpriu na posição em que ela estaria se o contrato tivesse sido cumprido corretamente — o que costuma ser chamado de interesse positivo (expectation) —, e não punir a parte que descumpriu por ter quebrado a promessa.
 
 É por isso que a **indenização compensatória** — um valor que busca cobrir o dano financeiro real e comprovável causado pelo descumprimento — é o remédio padrão, e é por isso que os **danos punitivos** — indenização feita especificamente para punir quem errou, além de compensar o dano real da outra parte — geralmente não estão disponíveis num caso comum de quebra de contrato, na maioria dos sistemas jurídicos, nem mesmo num descumprimento deliberado e intencional.
 
@@ -30,7 +30,7 @@ Essa abordagem geral reflete uma filosofia jurídica específica: o direito cont
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa descumpre um contrato, fazendo a outra parte sofrer uma perda financeira específica e comprovável. A parte que cumpriu geralmente pode obter uma indenização compensatória que reflita esse dano financeiro específico, ficando mais ou menos na posição em que estaria se o contrato tivesse sido cumprido como combinado. [ASSUMPTION] Mesmo que o descumprimento tenha sido deliberado e possa ser descrito como uma decisão de negócio calculada de quebrar a promessa, a parte que cumpriu geralmente não pode obter danos punitivos adicionais só para punir essa escolha deliberada, além do valor compensatório real que reflete o dano financeiro dela — o que reflete o foco geral do direito contratual na compensação, e não na punição.
+[EXEMPLO ILUSTRATIVO] Uma empresa descumpre um contrato, fazendo a outra parte sofrer uma perda financeira específica e comprovável. A parte que cumpriu geralmente pode obter uma indenização compensatória que reflita esse dano financeiro específico, ficando mais ou menos na posição em que estaria se o contrato tivesse sido cumprido como combinado. [SUPOSIÇÃO] Mesmo que o descumprimento tenha sido deliberado e possa ser descrito como uma decisão de negócio calculada de quebrar a promessa, a parte que cumpriu geralmente não pode obter danos punitivos adicionais só para punir essa escolha deliberada, além do valor compensatório real que reflete o dano financeiro dela — o que reflete o foco geral do direito contratual na compensação, e não na punição.
 
 ## Teste de prática
 

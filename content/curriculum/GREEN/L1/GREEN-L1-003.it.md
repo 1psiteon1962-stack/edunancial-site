@@ -34,11 +34,11 @@ L'imposta sul reddito tassa ciò che guadagni: stipendio, utile d'impresa e redd
 
 Nelle prossime lezioni studieremo ogni categoria nel dettaglio. Per ora, l'importante è avere la mappa in testa. Quando senti parlare di una nuova imposta, chiediti: tassa ciò che guadagno, ciò che compro o ciò che possiedo?
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Maria riceve uno stipendio, compra un frigorifero ed è proprietaria di una casa. Quanti tipi di imposta può pagare?
 

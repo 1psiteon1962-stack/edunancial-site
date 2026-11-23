@@ -30,11 +30,11 @@ Tras sa a te kouvri plizyè fason espesifik emosyon ak sikoloji ka defòme desiz
 
 Men "poukisa" ekri yon plan davans enpòtan: desizyon ou pran kalm, davans, anvan yon evènman mache espesifik deklanche yon reyaksyon emosyonèl, gen tandans pi konsistan ak vrè objektif alontèm yon envestisè pase desizyon ou pran nan reyaksyon an plen mitan yon bès ki bay estrès oswa yon monte ki eksite w. Yon plan ekri — ki presize repatisyon byen sib (Leson 34), règ reekilibraj (Leson 14), ak kritè jeneral pou achte oswa vann — bay yon envestisè yon pwen referans li te angaje l davans pou l retounen ladan l, olye l ap enpwovize yon repons pandan emosyon yo ap monte wo.
 
-[VERIFIED FACT] Apwòch sa a pa elimine eksperyans emosyonèl volatilite mache a, men li ka diminye chans pou w aji sou emosyon sa a nan fason ki kontredi pwòp objektif ak estrateji yon envestisè te deja deklare, apre li te reflechi kalm.
+[FÈ VERIFYE] Apwòch sa a pa elimine eksperyans emosyonèl volatilite mache a, men li ka diminye chans pou w aji sou emosyon sa a nan fason ki kontredi pwòp objektif ak estrateji yon envestisè te deja deklare, apre li te reflechi kalm.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè ekri yon plan envestisman pandan yon peryòd kalm, kote li presize repatisyon byen sib li, yon plan pou reekilibre chak ane, ak kritè li pral itilize anvan li fè nenpòt gwo chanjman nan estrateji li. [ASSUMPTION] Plizyè mwa apre, pandan yon gwo bès nan mache a, li santi yon gwo anvi pou l vann tout bagay epi mete tout nan kach. Lè li retounen gade plan ekri li a — ke li te kreye anvan moman emosyonèl espesifik sa a — sa raple l rezònman alontèm orijinal li ak règ reekilibraj li yo, e sa ka ede l evite yon desizyon nan reyaksyon ke vèsyon pi kalm li, pi bonè a, te prevwa espesyalman e te planifye pou l reziste.
+[EGZANP ILISTRATIF] Yon envestisè ekri yon plan envestisman pandan yon peryòd kalm, kote li presize repatisyon byen sib li, yon plan pou reekilibre chak ane, ak kritè li pral itilize anvan li fè nenpòt gwo chanjman nan estrateji li. [SIPOZISYON] Plizyè mwa apre, pandan yon gwo bès nan mache a, li santi yon gwo anvi pou l vann tout bagay epi mete tout nan kach. Lè li retounen gade plan ekri li a — ke li te kreye anvan moman emosyonèl espesifik sa a — sa raple l rezònman alontèm orijinal li ak règ reekilibraj li yo, e sa ka ede l evite yon desizyon nan reyaksyon ke vèsyon pi kalm li, pi bonè a, te prevwa espesyalman e te planifye pou l reziste.
 
 ## Egzamen pratik
 

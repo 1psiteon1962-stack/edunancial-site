@@ -30,7 +30,7 @@ Se entrassi in un nuovo segmento di mercato con un ciclo di vendita lungo il dop
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa con un ciclo di vendita di solito breve, di un mese, si espande in un nuovo segmento di mercato in cui le trattative richiedono di solito sei mesi per chiudersi. [ASSUMPTION] L'impresa definisce il budget per il nuovo segmento semplicemente aumentando in proporzione la spesa di vendita esistente, senza tenere conto dello scarto molto più lungo tra quella spesa e i ricavi che ne derivano. Si crea così una carenza di capitale circolante durante il lungo periodo che precede la trasformazione in ricavi delle vendite del nuovo segmento: una conseguenza di finanziamento legata direttamente alla durata del ciclo di vendita, che un piano basato solo sulla proporzione del budget aveva trascurato.
+[ESEMPIO ILLUSTRATIVO] Un'impresa con un ciclo di vendita di solito breve, di un mese, si espande in un nuovo segmento di mercato in cui le trattative richiedono di solito sei mesi per chiudersi. [IPOTESI] L'impresa definisce il budget per il nuovo segmento semplicemente aumentando in proporzione la spesa di vendita esistente, senza tenere conto dello scarto molto più lungo tra quella spesa e i ricavi che ne derivano. Si crea così una carenza di capitale circolante durante il lungo periodo che precede la trasformazione in ricavi delle vendite del nuovo segmento: una conseguenza di finanziamento legata direttamente alla durata del ciclo di vendita, che un piano basato solo sulla proporzione del budget aveva trascurato.
 
 ## Quiz di esercitazione
 

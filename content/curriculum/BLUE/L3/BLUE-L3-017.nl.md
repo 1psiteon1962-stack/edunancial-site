@@ -26,11 +26,11 @@ De **economie per eenheid** (unit economics) bekijkt de directe opbrengsten en k
 
 Hier is het "waarom" dit in sommige gevallen belangrijker is dan de totale omzet of zelfs de totale brutomarge (Les 16): als de economie per eenheid van het werven en bedienen van één klant eigenlijk negatief is – het kost meer om die klant te werven en te bedienen dan het bedrijf aan die klant verdient – dan lost een groeiend klantenbestand het onderliggende probleem niet op. Het versnelt het. Meer klanten die elk geld kosten, betekent grotere totale verliezen, en geen weg naar winstgevendheid.
 
-[VERIFIED FACT] Dit is een ander begrip dan de totale brutomarge: een bedrijf kan op papier een positieve totale brutomarge laten zien en toch een negatieve economie per eenheid hebben voor een bepaald klantsegment of groeikanaal, als de echte kosten van het werven en bedienen van dat segment niet volledig in een eenvoudige margeberekening zitten.
+[GEVERIFIEERD FEIT] Dit is een ander begrip dan de totale brutomarge: een bedrijf kan op papier een positieve totale brutomarge laten zien en toch een negatieve economie per eenheid hebben voor een bepaald klantsegment of groeikanaal, als de echte kosten van het werven en bedienen van dat segment niet volledig in een eenvoudige margeberekening zitten.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een abonnementsbedrijf geeft $150 uit aan reclame om een gemiddelde nieuwe klant te werven, en die klant brengt in de hele periode als klant maar $100 omzet op voordat hij opzegt. Elke afzonderlijke klant is, gemeten per eenheid, dus $50 verlies voor het bedrijf. [ASSUMPTION] Als het bedrijf op tragere groei reageert door zijn marketinguitgaven flink te verhogen om nog meer klanten te werven, zonder eerst dit onderliggende probleem op te lossen, versnelt het alleen zijn verliezen: elke nieuwe klant blijft $50 verlies opleveren. In dit specifieke geval maakt "groei" de financiële positie van het bedrijf dus slechter, en niet beter.
+[ILLUSTRATIEF VOORBEELD] Een abonnementsbedrijf geeft $150 uit aan reclame om een gemiddelde nieuwe klant te werven, en die klant brengt in de hele periode als klant maar $100 omzet op voordat hij opzegt. Elke afzonderlijke klant is, gemeten per eenheid, dus $50 verlies voor het bedrijf. [AANNAME] Als het bedrijf op tragere groei reageert door zijn marketinguitgaven flink te verhogen om nog meer klanten te werven, zonder eerst dit onderliggende probleem op te lossen, versnelt het alleen zijn verliezen: elke nieuwe klant blijft $50 verlies opleveren. In dit specifieke geval maakt "groei" de financiële positie van het bedrijf dus slechter, en niet beter.
 
 ## Oefenquiz
 

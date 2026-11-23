@@ -30,7 +30,7 @@ Ecco il "perché" ricondurre ogni decisione ai tempi porta a decisioni migliori:
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una contribuente che deve prendere insieme diverse decisioni (se realizzare una minusvalenza prima della fine dell'anno, Lezione 24; se versare quest'anno in un conto Traditional o Roth, Lezione 12; se anticipare o rimandare una spesa d'impresa all'anno fiscale in corso o a quello successivo) le valuta tutte con la stessa lente dei tempi: che effetto ha ciascuna scelta su quando viene riconosciuto il reddito, su quando vengono usate le deduzioni e su quale aliquota verrà alla fine calcolato il debito fiscale che ne risulta? [ASSUMPTION] Invece di trattarle come tre decisioni slegate, riconosce che sono tutte varianti della stessa domanda di fondo, e questo le permette di ragionarci in modo coerente invece di ripartire da zero ogni volta.
+[ESEMPIO ILLUSTRATIVO] Una contribuente che deve prendere insieme diverse decisioni (se realizzare una minusvalenza prima della fine dell'anno, Lezione 24; se versare quest'anno in un conto Traditional o Roth, Lezione 12; se anticipare o rimandare una spesa d'impresa all'anno fiscale in corso o a quello successivo) le valuta tutte con la stessa lente dei tempi: che effetto ha ciascuna scelta su quando viene riconosciuto il reddito, su quando vengono usate le deduzioni e su quale aliquota verrà alla fine calcolato il debito fiscale che ne risulta? [IPOTESI] Invece di trattarle come tre decisioni slegate, riconosce che sono tutte varianti della stessa domanda di fondo, e questo le permette di ragionarci in modo coerente invece di ripartire da zero ogni volta.
 
 ## Quiz di esercitazione
 

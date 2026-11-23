@@ -30,7 +30,7 @@ Além do que a lei exige, o que a sua organização realmente faz para refletir 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio cumpre todos os requisitos legais específicos vistos nas lições sobre trabalho da trilha PURPLE — pagamento correto dos salários, nenhuma discriminação, procedimentos adequados de despedimento — e, mesmo assim, trata os funcionários de um forma puramente transacional e pouco respeitoso com a contribuição real e a dignidade deles. [ASSUMPTION] Esse negócio está dentro da lei, mas não cumpriu de facto a responsabilidade mais ampla do empregador descrita nesta lição, o que é especialmente importante em contextos em que o emprego dos funcionários sustenta famílias ampliadas que dependem totalmente dessa receita — cumprir a lei era o piso, e não a prova de que a responsabilidade real tinha sido cumprida.
+[EXEMPLO ILUSTRATIVO] Um negócio cumpre todos os requisitos legais específicos vistos nas lições sobre trabalho da trilha PURPLE — pagamento correto dos salários, nenhuma discriminação, procedimentos adequados de despedimento — e, mesmo assim, trata os funcionários de um forma puramente transacional e pouco respeitoso com a contribuição real e a dignidade deles. [SUPOSIÇÃO] Esse negócio está dentro da lei, mas não cumpriu de facto a responsabilidade mais ampla do empregador descrita nesta lição, o que é especialmente importante em contextos em que o emprego dos funcionários sustenta famílias ampliadas que dependem totalmente dessa receita — cumprir a lei era o piso, e não a prova de que a responsabilidade real tinha sido cumprida.
 
 ## Teste de prática
 

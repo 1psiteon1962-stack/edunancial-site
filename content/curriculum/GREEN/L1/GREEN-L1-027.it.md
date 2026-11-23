@@ -34,11 +34,11 @@ Il metodo più semplice è l'ammortamento a quote costanti: si divide il costo p
 
 I sistemi fiscali stabiliscono la vita utile di ogni tipo di bene e i metodi consentiti. Alcuni permettono di accelerare l'ammortamento o di dedurre tutto subito in certi casi. L'idea centrale resta la stessa: il costo dei beni durevoli si riconosce nel tempo. Anche gli immobili in affitto, che compaiono nel percorso RED, vengono spesso ammortizzati.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Un panificio compra un forno da $10.000 che dovrebbe durare 10 anni. Quanto ammortamento a quote costanti all'anno?
 

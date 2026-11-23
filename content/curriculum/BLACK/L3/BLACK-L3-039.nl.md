@@ -30,7 +30,7 @@ Kies een beslissing die je nu verdedigt of blijft steunen. Pas deze techniek er 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider blijft een strategische beslissing verdedigen die hij persoonlijk heeft doorgedrukt, ondanks het groeiende bewijs dat die niet werkt, in lijn met de patronen van ego en verzonken kosten uit Les 17. [ASSUMPTION] Door de techniek uit deze les toe te passen – zich afvragen wat hij zou aanraden als een andere leider precies deze beslissing had genomen en hij die vanaf nul zou beoordelen – merkt deze leider dat het veel moeilijker is om voortzetting van de mislukkende strategie te rechtvaardigen op basis van alleen de huidige merites. Zo ontstaat genoeg psychologische afstand van zijn persoonlijke gehechtheid aan de oorspronkelijke beslissing om de situatie helderder te zien en een objectievere keuze te maken.
+[ILLUSTRATIEF VOORBEELD] Een leider blijft een strategische beslissing verdedigen die hij persoonlijk heeft doorgedrukt, ondanks het groeiende bewijs dat die niet werkt, in lijn met de patronen van ego en verzonken kosten uit Les 17. [AANNAME] Door de techniek uit deze les toe te passen – zich afvragen wat hij zou aanraden als een andere leider precies deze beslissing had genomen en hij die vanaf nul zou beoordelen – merkt deze leider dat het veel moeilijker is om voortzetting van de mislukkende strategie te rechtvaardigen op basis van alleen de huidige merites. Zo ontstaat genoeg psychologische afstand van zijn persoonlijke gehechtheid aan de oorspronkelijke beslissing om de situatie helderder te zien en een objectievere keuze te maken.
 
 ## Oefenquiz
 

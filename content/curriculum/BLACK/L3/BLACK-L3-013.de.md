@@ -30,7 +30,7 @@ Gibt es eine Entscheidung, vor der du gerade stehst, bei der deine eigene persö
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft unter erheblichem persönlichem finanziellem Druck prüft, ob sie ein riskantes, aber sofort lukratives Geschäft eingehen soll. [ASSUMPTION] Ohne sich bewusst zu machen, wie ihr eigener finanzieller Druck diese Bewertung beeinflussen könnte, gewichtet die Führungskraft die echten Risiken des Geschäfts für die Organisation womöglich zu gering, verzerrt durch eine unbewusste Vorliebe für die kurzfristige persönliche Erleichterung, die die Erlöse aus dem Geschäft verschaffen würden – eine Verzerrung, die ein struktureller Schutzmechanismus, etwa die Pflicht, vor bedeutenden Entscheidungen eine wirklich unabhängige Sichtweise einzuholen (ganz im Sinne von Lektion 10), erkennen und korrigieren helfen könnte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft unter erheblichem persönlichem finanziellem Druck prüft, ob sie ein riskantes, aber sofort lukratives Geschäft eingehen soll. [ANNAHME] Ohne sich bewusst zu machen, wie ihr eigener finanzieller Druck diese Bewertung beeinflussen könnte, gewichtet die Führungskraft die echten Risiken des Geschäfts für die Organisation womöglich zu gering, verzerrt durch eine unbewusste Vorliebe für die kurzfristige persönliche Erleichterung, die die Erlöse aus dem Geschäft verschaffen würden – eine Verzerrung, die ein struktureller Schutzmechanismus, etwa die Pflicht, vor bedeutenden Entscheidungen eine wirklich unabhängige Sichtweise einzuholen (ganz im Sinne von Lektion 10), erkennen und korrigieren helfen könnte.
 
 ## Übungsquiz
 1. Warum kann persönlicher finanzieller Druck einer Führungskraft die Entscheidungen der Organisation verzerren?

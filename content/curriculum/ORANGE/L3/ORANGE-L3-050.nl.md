@@ -30,7 +30,7 @@ Daarom is de uiteindelijke maatstaf voor beheersing in dit traject niet of je de
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een marketeer die dit hele traject heeft verinnerlijkt, beoordeelt een nieuw campagnevoorstel niet alleen op de eigen marketingmerites. Ze vraagt zich vanzelf af wat het zou doen met CAC en de timing van de kasstroom (Lessen 1, 18), of claims in de campagne juridisch onderbouwd moeten worden (Les 7), wat de gevolgen zijn voor commissies of prikkels van het verkoopteam (Lessen 19, 37), en of de onderliggende economie per eenheid de groei ondersteunt die de campagne moet opleveren (Les 35) – niet omdat een checklist dat voorschrijft, maar omdat ze een marketingbeslissing nu ziet als onlosmakelijk verbonden met de rest van de onderneming die ze moet dienen.
+[ILLUSTRATIEF VOORBEELD] Een marketeer die dit hele traject heeft verinnerlijkt, beoordeelt een nieuw campagnevoorstel niet alleen op de eigen marketingmerites. Ze vraagt zich vanzelf af wat het zou doen met CAC en de timing van de kasstroom (Lessen 1, 18), of claims in de campagne juridisch onderbouwd moeten worden (Les 7), wat de gevolgen zijn voor commissies of prikkels van het verkoopteam (Lessen 19, 37), en of de onderliggende economie per eenheid de groei ondersteunt die de campagne moet opleveren (Les 35) – niet omdat een checklist dat voorschrijft, maar omdat ze een marketingbeslissing nu ziet als onlosmakelijk verbonden met de rest van de onderneming die ze moet dienen.
 
 ## Oefenquiz
 

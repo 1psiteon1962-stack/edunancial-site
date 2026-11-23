@@ -30,7 +30,7 @@ Wo zeigen in deiner eigenen Marketingpraxis die ethische und die risikominimiere
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen überlegt, ob es eine Werbeaussage vor der Veröffentlichung gründlich belegen oder eine beeindruckender klingende, aber weniger gründlich geprüfte Version veröffentlichen soll. [ASSUMPTION] Die gründlich belegte Version ist sowohl die ethischere als auch die risikoärmere Wahl, angesichts der rechtlichen Risiken aus Lektion 7 und der Verwundbarkeit des Rufs aus Lektion 4 – in diesem Fall zeigen Ethik und Risikomanagement in dieselbe Richtung, was die Entscheidung einfach macht, auch wenn ein wirklich ethisch handelnder Marketer dieselbe ehrliche Wahl selbst in einer hypothetischen Situation treffen würde, in der das rechtliche oder rufbezogene Risiko einer Übertreibung zufällig geringer wäre.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen überlegt, ob es eine Werbeaussage vor der Veröffentlichung gründlich belegen oder eine beeindruckender klingende, aber weniger gründlich geprüfte Version veröffentlichen soll. [ANNAHME] Die gründlich belegte Version ist sowohl die ethischere als auch die risikoärmere Wahl, angesichts der rechtlichen Risiken aus Lektion 7 und der Verwundbarkeit des Rufs aus Lektion 4 – in diesem Fall zeigen Ethik und Risikomanagement in dieselbe Richtung, was die Entscheidung einfach macht, auch wenn ein wirklich ethisch handelnder Marketer dieselbe ehrliche Wahl selbst in einer hypothetischen Situation treffen würde, in der das rechtliche oder rufbezogene Risiko einer Übertreibung zufällig geringer wäre.
 
 ## Übungsquiz
 1. Warum stimmen ethische Marketingentscheidungen oft eng mit solidem Risikomanagement überein?

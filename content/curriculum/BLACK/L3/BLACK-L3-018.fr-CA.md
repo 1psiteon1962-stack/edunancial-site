@@ -30,7 +30,7 @@ Le conseil d'administration de ton organisation (ou la structure de surveillance
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Le conseil d'administration d'une entreprise approuve systématiquement chaque proposition de la haute direction sans contestation sérieuse ni remise en question indépendante, et se félicite de réunions harmonieuses et sans accrocs. [ASSUMPTION] Cette harmonie apparente reflète en fait un échec de gouvernance, et non une réussite — l'obligation fiduciaire du conseil, selon la discussion du parcours PURPLE, s'exerce envers l'organisation et ses parties prenantes, et un conseil qui n'exerce jamais la vraie contestation que décrivait la leçon 10 n'assure pas la fonction de surveillance pour laquelle il existe, peu importe à quel point la relation avec la haute direction semble confortable.
+[EXEMPLE ILLUSTRATIF] Le conseil d'administration d'une entreprise approuve systématiquement chaque proposition de la haute direction sans contestation sérieuse ni remise en question indépendante, et se félicite de réunions harmonieuses et sans accrocs. [HYPOTHÈSE] Cette harmonie apparente reflète en fait un échec de gouvernance, et non une réussite — l'obligation fiduciaire du conseil, selon la discussion du parcours PURPLE, s'exerce envers l'organisation et ses parties prenantes, et un conseil qui n'exerce jamais la vraie contestation que décrivait la leçon 10 n'assure pas la fonction de surveillance pour laquelle il existe, peu importe à quel point la relation avec la haute direction semble confortable.
 
 ## Quiz de pratique
 

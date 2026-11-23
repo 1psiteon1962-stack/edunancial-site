@@ -24,14 +24,14 @@ SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine
 - Explicar por que baixa volatilidade nem sempre significa baixo risco total.
 
 ## Conteúdo principal
-O beta mede a volatilidade de uma ação em relação ao mercado como um todo, sendo atribuído ao próprio mercado um beta igual a 1. VERIFIED FACT: uma ação com beta de 1,5 historicamente se moveu, em média, 50% a mais que o mercado em qualquer direção, enquanto uma ação com beta de 0,6 historicamente se moveu cerca de 60% do que o mercado se moveu.
+O beta mede a volatilidade de uma ação em relação ao mercado como um todo, sendo atribuído ao próprio mercado um beta igual a 1. FATO VERIFICADO: uma ação com beta de 1,5 historicamente se moveu, em média, 50% a mais que o mercado em qualquer direção, enquanto uma ação com beta de 0,6 historicamente se moveu cerca de 60% do que o mercado se moveu.
 
 Eis o "porquê" de o beta captar apenas parte do quadro de risco: o beta mede o risco sistemático, ou seja, a parte do movimento de uma ação ligada às oscilações do mercado como um todo, como o tipo de volatilidade que atinge um setor inteiro descrito no cenário acima. Ele não capta o risco específico da empresa (não sistemático), ou seja, o risco de uma determinada empresa enfrentar más notícias sem relação com o mercado amplo, como um escândalo contábil, o lançamento fracassado de um produto ou a saída de um executivo-chave. Uma ação pode ter um beta baixo, parecendo calma em relação ao mercado, e ainda assim carregar um risco específico da empresa significativo que o beta simplesmente não mede.
 
 É por isso que igualar baixa volatilidade (beta baixo) a baixo risco total é uma forma comum, mas incompleta, de pensar sobre risco. Uma empresa com beta baixo que enfrenta uma ameaça real à própria existência do negócio, sem relação com os movimentos do mercado amplo, ainda pode perder a maior parte ou todo o seu valor: um risco que o beta sozinho jamais teria sinalizado, porque o risco específico da empresa atua em um eixo completamente diferente do movimento conjunto com o mercado que o beta foi criado para captar.
 
 ## Exemplo prático
-ILLUSTRATIVE EXAMPLE: Uma ação tem beta de 0,7, o que sugere uma sensibilidade relativamente baixa às oscilações do mercado amplo, e um investidor supõe que isso a torna uma posição "segura". A empresa então divulga uma irregularidade contábil significativa e específica da empresa, sem relação com nenhuma condição do mercado amplo, e a ação perde 40% do seu valor em um único dia: um risco do qual o beta, que mede apenas o movimento conjunto ligado ao mercado, não deu sinal algum.
+EXEMPLO ILUSTRATIVO: Uma ação tem beta de 0,7, o que sugere uma sensibilidade relativamente baixa às oscilações do mercado amplo, e um investidor supõe que isso a torna uma posição "segura". A empresa então divulga uma irregularidade contábil significativa e específica da empresa, sem relação com nenhuma condição do mercado amplo, e a ação perde 40% do seu valor em um único dia: um risco do qual o beta, que mede apenas o movimento conjunto ligado ao mercado, não deu sinal algum.
 
 ## Teste de prática
 **P1. O que um beta de 1,5 indica sobre uma ação?**

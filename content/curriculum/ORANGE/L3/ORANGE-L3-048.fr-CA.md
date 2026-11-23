@@ -32,7 +32,7 @@ Qu'est-ce que ta stratégie de vente et de marketing actuelle choisit délibér�
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise tente de maintenir une présence active dans tous les canaux marketing offerts, en ciblant tous les segments de clientèle plausibles en même temps, croyant ainsi maximiser ses occasions totales. [ASSUMPTION] Avec un budget et une capacité d'équipe limités dispersés à ce point, aucun canal ni segment ne reçoit l'attention ciblée nécessaire pour être vraiment bien exécuté, et les résultats globaux sont inférieurs à ceux d'un concurrent qui a délibérément exclu la plupart des canaux et des segments pour se concentrer intensément sur les quelques-uns qui comptaient le plus pour ses clients précis — en écho direct au principe de défendabilité par la concentration établi pour la stratégie de créneau à la leçon 26.
+[EXEMPLE ILLUSTRATIF] Une entreprise tente de maintenir une présence active dans tous les canaux marketing offerts, en ciblant tous les segments de clientèle plausibles en même temps, croyant ainsi maximiser ses occasions totales. [HYPOTHÈSE] Avec un budget et une capacité d'équipe limités dispersés à ce point, aucun canal ni segment ne reçoit l'attention ciblée nécessaire pour être vraiment bien exécuté, et les résultats globaux sont inférieurs à ceux d'un concurrent qui a délibérément exclu la plupart des canaux et des segments pour se concentrer intensément sur les quelques-uns qui comptaient le plus pour ses clients précis — en écho direct au principe de défendabilité par la concentration établi pour la stratégie de créneau à la leçon 26.
 
 ## Quiz de pratique
 

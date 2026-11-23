@@ -30,7 +30,7 @@ Na sua próxima decisão importante de vendas ou marketing, tente aplicar essa p
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio avalia uma nova e importante iniciativa de marketing não perguntando "isso vai chamar atenção?" ou "os concorrentes fazem algo parecido?", mas aplicando o mesmo rigor usado em outras partes deste currículo para avaliar qualquer investimento: estima uma faixa realista de resultados, avalia com honestidade os riscos específicos envolvidos (retomando as Lições 1, 5 e 38) e compara o retorno esperado ajustado ao risco com alternativas reais — contratações, desenvolvimento de produto, redução de dívida — que o mesmo capital poderia financiar. Isso gera uma avaliação fundamentalmente diferente e mais rigorosa do que tratar a decisão de marketing como uma categoria à parte, isenta desse exame.
+[EXEMPLO ILUSTRATIVO] Um negócio avalia uma nova e importante iniciativa de marketing não perguntando "isso vai chamar atenção?" ou "os concorrentes fazem algo parecido?", mas aplicando o mesmo rigor usado em outras partes deste currículo para avaliar qualquer investimento: estima uma faixa realista de resultados, avalia com honestidade os riscos específicos envolvidos (retomando as Lições 1, 5 e 38) e compara o retorno esperado ajustado ao risco com alternativas reais — contratações, desenvolvimento de produto, redução de dívida — que o mesmo capital poderia financiar. Isso gera uma avaliação fundamentalmente diferente e mais rigorosa do que tratar a decisão de marketing como uma categoria à parte, isenta desse exame.
 
 ## Teste de prática
 

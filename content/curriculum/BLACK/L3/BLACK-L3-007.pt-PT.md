@@ -30,7 +30,7 @@ Que tarefas ou decisões específicas do seu negócio exigem hoje o seu envolvim
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] O dono de um negócio cuida pessoalmente de todos os relacionamentos importantes com clientes, de todas as decisões de preço e de todos os controlos de qualidade, o que faz a produção total do negócio ficar limitada a quantas horas essa única pessoa consegue trabalhar. [ASSUMPTION] Ao documentar os critérios de decisão usados nos preços, formar um membro da equipa para cuidar dos relacionamentos com clientes usando um manual claro e criar um sistema de controlo de qualidade que não exige que o dono revise cada item pessoalmente, a capacidade do negócio deixa de ficar limitada ao que uma pessoa consegue fazer sozinha — retomando diretamente o princípio de que os sistemas permitem crescer, que está no centro do recurso de ensino básico deste currículo.
+[EXEMPLO ILUSTRATIVO] O dono de um negócio cuida pessoalmente de todos os relacionamentos importantes com clientes, de todas as decisões de preço e de todos os controlos de qualidade, o que faz a produção total do negócio ficar limitada a quantas horas essa única pessoa consegue trabalhar. [SUPOSIÇÃO] Ao documentar os critérios de decisão usados nos preços, formar um membro da equipa para cuidar dos relacionamentos com clientes usando um manual claro e criar um sistema de controlo de qualidade que não exige que o dono revise cada item pessoalmente, a capacidade do negócio deixa de ficar limitada ao que uma pessoa consegue fazer sozinha — retomando diretamente o princípio de que os sistemas permitem crescer, que está no centro do recurso de ensino básico deste currículo.
 
 ## Teste de prática
 

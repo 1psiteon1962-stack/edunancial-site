@@ -34,11 +34,11 @@ Il calcolo di base è: prezzo di vendita meno costo di acquisto. Se il risultato
 
 Un punto importante: in genere il guadagno si tassa solo quando vendi. Se la tua azione è salita ma non l'hai venduta, il guadagno è ancora "sulla carta". Molti sistemi trattano le plusvalenze in modo diverso dallo stipendio, a volte con aliquote diverse.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Amanda ha comprato azioni per $2.000 e le ha vendute per $2.600. Qual è stato il guadagno?
 

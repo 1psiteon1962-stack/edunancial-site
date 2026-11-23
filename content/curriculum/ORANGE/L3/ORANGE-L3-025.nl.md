@@ -30,7 +30,7 @@ Met wie vergelijken je klanten je werkelijk als ze beslissen of ze kopen – nie
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming gaat ervan uit dat haar belangrijkste concurrenten andere bedrijven zijn die een technisch vergelijkbaar product aanbieden, en stemt prijzen en boodschappen daarop af. [ASSUMPTION] Klantonderzoek laat zien dat veel klanten dit product eigenlijk vergelijken met een andere, bredere categorie oplossingen die dezelfde onderliggende behoefte op een andere manier aanpakken. De werkelijke concurrentie van de onderneming, zoals klanten die zien, is dus anders dan ze aannam, en haar prijs- en boodschapstrategie, opgebouwd rond de verkeerde vergelijking, mist mogelijk de beslissing die klanten werkelijk nemen.
+[ILLUSTRATIEF VOORBEELD] Een onderneming gaat ervan uit dat haar belangrijkste concurrenten andere bedrijven zijn die een technisch vergelijkbaar product aanbieden, en stemt prijzen en boodschappen daarop af. [AANNAME] Klantonderzoek laat zien dat veel klanten dit product eigenlijk vergelijken met een andere, bredere categorie oplossingen die dezelfde onderliggende behoefte op een andere manier aanpakken. De werkelijke concurrentie van de onderneming, zoals klanten die zien, is dus anders dan ze aannam, en haar prijs- en boodschapstrategie, opgebouwd rond de verkeerde vergelijking, mist mogelijk de beslissing die klanten werkelijk nemen.
 
 ## Oefenquiz
 

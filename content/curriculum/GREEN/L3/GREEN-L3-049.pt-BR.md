@@ -30,7 +30,7 @@ Este é o "porquê" de ligar toda decisão ao momento levar a decisões melhores
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma contribuinte com várias decisões ao mesmo tempo — se realiza um prejuízo de capital antes do fim do ano (Lição 24), se aplica em uma conta Traditional ou Roth neste ano (Lição 12) e se antecipa ou adia uma despesa da empresa para o ano fiscal atual ou o seguinte — avalia cada uma pela mesma lente do momento: o que cada escolha faz com o momento em que a renda é reconhecida, o momento em que as deduções são usadas e a alíquota pela qual o imposto resultante vai, no fim, ser calculado? [ASSUMPTION] Em vez de tratar isso como três decisões sem relação, ela percebe que todas são variações da mesma pergunta de fundo, o que lhe permite raciocinar sobre elas de forma coerente, em vez de começar do zero em cada uma.
+[EXEMPLO ILUSTRATIVO] Uma contribuinte com várias decisões ao mesmo tempo — se realiza um prejuízo de capital antes do fim do ano (Lição 24), se aplica em uma conta Traditional ou Roth neste ano (Lição 12) e se antecipa ou adia uma despesa da empresa para o ano fiscal atual ou o seguinte — avalia cada uma pela mesma lente do momento: o que cada escolha faz com o momento em que a renda é reconhecida, o momento em que as deduções são usadas e a alíquota pela qual o imposto resultante vai, no fim, ser calculado? [SUPOSIÇÃO] Em vez de tratar isso como três decisões sem relação, ela percebe que todas são variações da mesma pergunta de fundo, o que lhe permite raciocinar sobre elas de forma coerente, em vez de começar do zero em cada uma.
 
 ## Teste de prática
 

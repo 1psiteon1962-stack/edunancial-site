@@ -34,11 +34,11 @@ Motivi comuni sono: numeri che non coincidono con le informazioni inviate da dat
 
 La migliore preparazione avviene prima: documenti ordinati e dichiarazioni oneste. Se ricevi una comunicazione, leggila con attenzione, rispondi entro il termine e invia i documenti richiesti. Nei casi complessi, è il momento di coinvolgere un professionista. Le procedure esatte variano per Paese.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Marcella riceve una lettera dell'ufficio fiscale che chiede le prove di una deduzione. Va nel panico. Ha senso?
 

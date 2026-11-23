@@ -30,7 +30,7 @@ Secondo il tuo attuale modello di contratto di vendita, che cosa succede se un c
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un team vendite usa un accordo di vendita semplice e redatto in modo informale per un'operazione importante, concentrato sul chiudere l'affare in fretta piuttosto che sul testo specifico del contratto. [ASSUMPTION] Quando poi il cliente non paga in tempo, l'impresa scopre che il suo accordo di vendita non specifica con chiarezza le conseguenze del ritardo nel pagamento, gli interessi o una procedura di risoluzione delle controversie. È proprio il tipo di ambiguità che, come avvertiva il percorso PURPLE, crea controversie più difficili da risolvere, e trasforma quello che avrebbe dovuto essere un semplice recupero crediti in una situazione molto più difficile e costosa.
+[ESEMPIO ILLUSTRATIVO] Un team vendite usa un accordo di vendita semplice e redatto in modo informale per un'operazione importante, concentrato sul chiudere l'affare in fretta piuttosto che sul testo specifico del contratto. [IPOTESI] Quando poi il cliente non paga in tempo, l'impresa scopre che il suo accordo di vendita non specifica con chiarezza le conseguenze del ritardo nel pagamento, gli interessi o una procedura di risoluzione delle controversie. È proprio il tipo di ambiguità che, come avvertiva il percorso PURPLE, crea controversie più difficili da risolvere, e trasforma quello che avrebbe dovuto essere un semplice recupero crediti in una situazione molto più difficile e costosa.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ Qui, dans ton organisation, pourrait occuper un rôle de leadership clé dès de
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader en bonne santé, qui ne prévoit pas partir à court terme, juge la planification de la relève inutile pour l'instant et se concentre entièrement sur les priorités opérationnelles actuelles. [ASSUMPTION] Si ce leader devient soudainement indisponible — en raison d'une maladie, d'un départ imprévu ou d'une occasion soudaine ailleurs —, l'organisation découvre que personne n'a été activement formé ni préparé à occuper le rôle de leadership, ce qui crée exactement le genre de perturbation et d'incertitude dont les leçons sur la planification successorale personnelle, ailleurs dans ce programme, prévenaient au niveau familial, mais cette fois dans toute une organisation et auprès de tous ses employés.
+[EXEMPLE ILLUSTRATIF] Un leader en bonne santé, qui ne prévoit pas partir à court terme, juge la planification de la relève inutile pour l'instant et se concentre entièrement sur les priorités opérationnelles actuelles. [HYPOTHÈSE] Si ce leader devient soudainement indisponible — en raison d'une maladie, d'un départ imprévu ou d'une occasion soudaine ailleurs —, l'organisation découvre que personne n'a été activement formé ni préparé à occuper le rôle de leadership, ce qui crée exactement le genre de perturbation et d'incertitude dont les leçons sur la planification successorale personnelle, ailleurs dans ce programme, prévenaient au niveau familial, mais cette fois dans toute une organisation et auprès de tous ses employés.
 
 ## Quiz de pratique
 

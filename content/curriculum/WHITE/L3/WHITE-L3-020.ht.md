@@ -30,11 +30,11 @@ Leson 19 te esplike ki jan pri obligasyon bouje nan sans kontrè ak to enterè a
 
 Men "poukisa" li enpòtan pou kenbe yo separe: pri yon obligasyon ka desann paske to enterè an jeneral monte, san okenn chanjman ditou nan sante finansye emetè a — sa se risk to enterè, e li afekte menm obligasyon emetè ki pi solid finansyèman yo. Pri yon obligasyon ka desann tou paske mache a vin enkyete sou kapasite emetè espesifik sa a pou l peye, menm si to enterè an jeneral pa bouje — sa se risk kredi, e li espesifik pou emetè sa a.
 
-[VERIFIED FACT] Nòt kredi obligasyon, ke ajans notasyon endepandan bay, fèt pou reflete risk kredi yon emetè — chans pou l fè defo peman — pa sansiblite obligasyon li a chanjman nan to enterè; yon nòt kredi trè wo (yon siy risk kredi ki ba) ka toujou mache ak yon obligasyon ki gen yon risk to enterè serye si li gen yon dirasyon long (Leson 18).
+[FÈ VERIFYE] Nòt kredi obligasyon, ke ajans notasyon endepandan bay, fèt pou reflete risk kredi yon emetè — chans pou l fè defo peman — pa sansiblite obligasyon li a chanjman nan to enterè; yon nòt kredi trè wo (yon siy risk kredi ki ba) ka toujou mache ak yon obligasyon ki gen yon risk to enterè serye si li gen yon dirasyon long (Leson 18).
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] De obligasyon toude wè pri yo desann pandan menm peryòd la. Emetè Obligasyon A rete solid finansyèman e anyen pa chanje pou li, men bès la te rive paske to enterè an jeneral te monte — yon evènman risk to enterè pi. Pandan sa a, emetè Obligasyon B te pibliye nouvèl finansye enkyetan ki leve vrè dout sou kapasite li pou l fè peman alavni — yon evènman risk kredi, ki fè pri li desann kèlkeswa sa to enterè yo te fè. [ASSUMPTION] Yon envestisè ki mele de kòz sa yo ta ka panse, pa erè, bès pri Obligasyon B a se yon bagay tanporè ki soti nan to yo, tankou pa Obligasyon A, alòske an reyalite li reflete yon pwoblèm ki pi serye, ki espesifik pou emetè a.
+[EGZANP ILISTRATIF] De obligasyon toude wè pri yo desann pandan menm peryòd la. Emetè Obligasyon A rete solid finansyèman e anyen pa chanje pou li, men bès la te rive paske to enterè an jeneral te monte — yon evènman risk to enterè pi. Pandan sa a, emetè Obligasyon B te pibliye nouvèl finansye enkyetan ki leve vrè dout sou kapasite li pou l fè peman alavni — yon evènman risk kredi, ki fè pri li desann kèlkeswa sa to enterè yo te fè. [SIPOZISYON] Yon envestisè ki mele de kòz sa yo ta ka panse, pa erè, bès pri Obligasyon B a se yon bagay tanporè ki soti nan to yo, tankou pa Obligasyon A, alòske an reyalite li reflete yon pwoblèm ki pi serye, ki espesifik pou emetè a.
 
 ## Egzamen pratik
 

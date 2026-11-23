@@ -30,7 +30,7 @@ Se domani il tuo cliente più grande se ne andasse, che cosa succederebbe ai tuo
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un team vendite chiude un unico grande cliente che in poco tempo arriva a rappresentare il 50% dei ricavi totali dell'impresa, e il team lo festeggia come un grande successo. [ASSUMPTION] Mesi dopo, quel cliente attraversa a sua volta difficoltà finanziarie e riduce in modo significativo gli ordini: i ricavi dell'impresa vengono colpiti subito e in modo grave. È una conseguenza concreta del rischio di concentrazione che si stava accumulando da tempo, molto prima che una futura cessione o valutazione lo rendesse visibile sulla carta, come descrive il percorso BLUE.
+[ESEMPIO ILLUSTRATIVO] Un team vendite chiude un unico grande cliente che in poco tempo arriva a rappresentare il 50% dei ricavi totali dell'impresa, e il team lo festeggia come un grande successo. [IPOTESI] Mesi dopo, quel cliente attraversa a sua volta difficoltà finanziarie e riduce in modo significativo gli ordini: i ricavi dell'impresa vengono colpiti subito e in modo grave. È una conseguenza concreta del rischio di concentrazione che si stava accumulando da tempo, molto prima che una futura cessione o valutazione lo rendesse visibile sulla carta, come descrive il percorso BLUE.
 
 ## Quiz di esercitazione
 

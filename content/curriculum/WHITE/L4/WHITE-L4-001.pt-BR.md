@@ -24,14 +24,14 @@ SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine
 - Comparar índices P/L de forma adequada dentro do mesmo setor.
 
 ## Conteúdo principal
-O índice preço/lucro (P/L, em inglês P/E) é igual ao preço da ação de uma empresa dividido pelo lucro por ação, mostrando quanto os investidores estão pagando por cada dólar de lucro atual. VERIFIED FACT: o índice P/L é uma das métricas de avaliação mais usadas, mas, assim como o cap rate no mercado imobiliário, é um número derivado do mercado que reflete as expectativas dos investidores sobre o futuro, e não apenas uma simples etiqueta de preço.
+O índice preço/lucro (P/L, em inglês P/E) é igual ao preço da ação de uma empresa dividido pelo lucro por ação, mostrando quanto os investidores estão pagando por cada dólar de lucro atual. FATO VERIFICADO: o índice P/L é uma das métricas de avaliação mais usadas, mas, assim como o cap rate no mercado imobiliário, é um número derivado do mercado que reflete as expectativas dos investidores sobre o futuro, e não apenas uma simples etiqueta de preço.
 
 Eis o "porquê" de um P/L baixo não ser automaticamente barato: um P/L baixo muitas vezes reflete a convicção do mercado de que os lucros de uma empresa dificilmente vão crescer, ou de que provavelmente até vão encolher, talvez por causa de um setor em dificuldades, de uma posição competitiva fraca ou do tipo de choque de custos que comprime as margens descrito no cenário acima. Isso se chama "armadilha de valor": uma ação que parece estatisticamente barata, mas continua barata, ou fica ainda mais barata, porque as expectativas negativas do mercado se mostram justificadas.
 
 É por isso que comparar índices P/L só faz sentido dentro do mesmo setor e em relação à faixa histórica da própria empresa, de modo semelhante ao princípio de comparabilidade de mercado da análise de cap rate no mercado imobiliário. Um P/L baixo em um setor cíclico e intensivo em capital que enfrenta dificuldades reais é um sinal diferente de um P/L igualmente baixo de uma empresa sólida temporariamente fora do favor do mercado por motivos que não têm relação com sua real capacidade de gerar lucros.
 
 ## Exemplo prático
-ILLUSTRATIVE EXAMPLE: A Empresa A é negociada a um P/L de 8, enquanto as concorrentes do seu setor têm em média um P/L de 18. Um investidor tentado a comprar a Empresa A só porque ela parece barata descobre, numa análise mais cuidadosa, que os lucros da Empresa A caíram por três anos seguidos e que sua principal linha de produtos está perdendo participação de mercado: o P/L baixo reflete um pessimismo real e justificado sobre os lucros futuros, e não uma pechincha despercebida.
+EXEMPLO ILUSTRATIVO: A Empresa A é negociada a um P/L de 8, enquanto as concorrentes do seu setor têm em média um P/L de 18. Um investidor tentado a comprar a Empresa A só porque ela parece barata descobre, numa análise mais cuidadosa, que os lucros da Empresa A caíram por três anos seguidos e que sua principal linha de produtos está perdendo participação de mercado: o P/L baixo reflete um pessimismo real e justificado sobre os lucros futuros, e não uma pechincha despercebida.
 
 ## Teste de prática
 **P1. O que o índice P/L mede?**

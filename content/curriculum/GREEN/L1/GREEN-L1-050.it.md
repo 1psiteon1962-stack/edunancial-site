@@ -36,7 +36,7 @@ La conoscenza vale solo se diventa abitudine. Una routine semplice: ogni mese, o
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Se potessi tenere solo tre idee di questo percorso, quali sarebbero?
 

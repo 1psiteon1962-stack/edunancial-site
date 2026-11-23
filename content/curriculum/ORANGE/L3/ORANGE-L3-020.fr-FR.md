@@ -32,7 +32,7 @@ Quel incitatif ton équipe de vente a-t-elle actuellement à garder les données
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une équipe de vente garde constamment des transactions marquées comme « susceptibles de se conclure bientôt » dans le CRM bien après qu'elles se sont réellement refroidies, puisqu'il n'y a aucune conséquence précise pour un étiquetage optimiste et un certain avantage à paraître productif. [ASSUMPTION] L'équipe des finances, qui utilise ces données du CRM pour construire la prévision pondérée par la probabilité abordée à la leçon 15, produit une projection de revenus systématiquement trop optimiste — non pas parce que le calcul de prévision est mauvais, mais parce que les données sous-jacentes qui l'alimentaient n'étaient pas fiables, ce qui montre pourquoi la qualité des données du CRM est un enjeu de planification financière, et pas seulement de gestion des ventes.
+[EXEMPLE ILLUSTRATIF] Une équipe de vente garde constamment des transactions marquées comme « susceptibles de se conclure bientôt » dans le CRM bien après qu'elles se sont réellement refroidies, puisqu'il n'y a aucune conséquence précise pour un étiquetage optimiste et un certain avantage à paraître productif. [HYPOTHÈSE] L'équipe des finances, qui utilise ces données du CRM pour construire la prévision pondérée par la probabilité abordée à la leçon 15, produit une projection de revenus systématiquement trop optimiste — non pas parce que le calcul de prévision est mauvais, mais parce que les données sous-jacentes qui l'alimentaient n'étaient pas fiables, ce qui montre pourquoi la qualité des données du CRM est un enjeu de planification financière, et pas seulement de gestion des ventes.
 
 ## Quiz de pratique
 

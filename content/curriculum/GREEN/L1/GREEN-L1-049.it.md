@@ -36,7 +36,7 @@ Pianificare non è fare qualcosa di sospetto. È usare le regole in modo legale 
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** A dicembre, Beatrice pensa di vendere azioni in guadagno. Ha altre azioni in perdita. Che cosa suggerisce la pianificazione?
 

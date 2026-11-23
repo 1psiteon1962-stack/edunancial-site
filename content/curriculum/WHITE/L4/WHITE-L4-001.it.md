@@ -24,14 +24,14 @@ IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina una grand
 - Confrontare i rapporti P/E in modo appropriato all'interno dello stesso settore.
 
 ## Contenuto principale
-Il rapporto prezzo/utili (P/E) è uguale al prezzo di un'azione diviso per l'utile per azione, e mostra quanto gli investitori pagano per ogni dollaro di utili attuali. VERIFIED FACT: il rapporto P/E è uno degli indicatori di valutazione più utilizzati ma, come il cap rate nel settore immobiliare, è un numero derivato dal mercato che riflette le aspettative degli investitori sul futuro, non un semplice cartellino del prezzo.
+Il rapporto prezzo/utili (P/E) è uguale al prezzo di un'azione diviso per l'utile per azione, e mostra quanto gli investitori pagano per ogni dollaro di utili attuali. FATTO VERIFICATO: il rapporto P/E è uno degli indicatori di valutazione più utilizzati ma, come il cap rate nel settore immobiliare, è un numero derivato dal mercato che riflette le aspettative degli investitori sul futuro, non un semplice cartellino del prezzo.
 
 Ecco il "perché" un P/E basso non è automaticamente conveniente: un P/E basso riflette spesso la convinzione del mercato che gli utili di un'azienda difficilmente cresceranno, o che addirittura tenderanno a diminuire, magari a causa di un settore in difficoltà, di una posizione competitiva debole o del tipo di shock dei costi che comprime i margini descritto nello scenario qui sopra. Questo si chiama "trappola di valore": un'azione che sembra statisticamente conveniente ma resta conveniente, o diventa ancora più conveniente, perché le aspettative negative del mercato si rivelano giustificate.
 
 Ecco perché confrontare i rapporti P/E ha senso solo all'interno dello stesso settore e rispetto all'intervallo storico dell'azienda stessa, in modo simile al principio di comparabilità di mercato dell'analisi del cap rate immobiliare. Un P/E basso in un settore ciclico e ad alta intensità di capitale che affronta difficoltà reali è un segnale diverso da un P/E altrettanto basso di un'azienda solida temporaneamente fuori dal favore del mercato per ragioni che non riguardano la sua reale capacità di generare utili.
 
 ## Esempio pratico
-ILLUSTRATIVE EXAMPLE: L'Azienda A è scambiata a un P/E di 8, mentre le aziende concorrenti del suo settore hanno in media un P/E di 18. Un investitore tentato di comprare l'Azienda A solo perché sembra conveniente scopre, con un'analisi più attenta, che gli utili dell'Azienda A sono diminuiti per tre anni consecutivi e che la sua principale linea di prodotti sta perdendo quote di mercato: il P/E basso riflette un pessimismo reale e giustificato sugli utili futuri, non un affare trascurato.
+ESEMPIO ILLUSTRATIVO: L'Azienda A è scambiata a un P/E di 8, mentre le aziende concorrenti del suo settore hanno in media un P/E di 18. Un investitore tentato di comprare l'Azienda A solo perché sembra conveniente scopre, con un'analisi più attenta, che gli utili dell'Azienda A sono diminuiti per tre anni consecutivi e che la sua principale linea di prodotti sta perdendo quote di mercato: il P/E basso riflette un pessimismo reale e giustificato sugli utili futuri, non un affare trascurato.
 
 ## Quiz di esercitazione
 **D1. Che cosa misura il rapporto P/E?**

@@ -30,7 +30,7 @@ Chi nella tua organizzazione potrebbe assumere domani un ruolo chiave di leaders
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader in buona salute, senza intenzione di andarsene a breve, ritiene per ora superflua la pianificazione della successione e si concentra interamente sulle priorità operative del momento. [ASSUMPTION] Se questo leader diventa inaspettatamente indisponibile (per una malattia, un'uscita improvvisa o un'opportunità improvvisa altrove), l'organizzazione scopre che nessuno è stato fatto crescere o preparato attivamente per assumere il ruolo di guida. Si crea proprio il tipo di interruzione e di incertezza da cui le lezioni sulla pianificazione patrimoniale personale mettevano in guardia a livello familiare, ma ora su un'intera organizzazione e sui suoi dipendenti.
+[ESEMPIO ILLUSTRATIVO] Un leader in buona salute, senza intenzione di andarsene a breve, ritiene per ora superflua la pianificazione della successione e si concentra interamente sulle priorità operative del momento. [IPOTESI] Se questo leader diventa inaspettatamente indisponibile (per una malattia, un'uscita improvvisa o un'opportunità improvvisa altrove), l'organizzazione scopre che nessuno è stato fatto crescere o preparato attivamente per assumere il ruolo di guida. Si crea proprio il tipo di interruzione e di incertezza da cui le lezioni sulla pianificazione patrimoniale personale mettevano in guardia a livello familiare, ma ora su un'intera organizzazione e sui suoi dipendenti.
 
 ## Quiz di esercitazione
 

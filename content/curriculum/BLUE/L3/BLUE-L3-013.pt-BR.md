@@ -26,11 +26,11 @@ O **lucro** (ou lucro líquido) é uma medida contábil da receita menos as desp
 
 Este é o "porquê" de essa diferença importar tanto na prática: uma empresa pode dar lucro no papel — registrando uma venda como receita no momento em que ela é feita — enquanto o pagamento real dessa venda ainda não chegou, talvez porque o cliente recebeu 60 dias para pagar (um assunto ligado ao ciclo de conversão de caixa da Lição 14). Enquanto isso, a empresa ainda precisa pagar os próprios funcionários e fornecedores em dinheiro de verdade, nos prazos deles, quer os clientes já tenham pago ou não.
 
-[VERIFIED FACT] Essa diferença é uma das principais causas, bem documentadas, de falência de pequenas empresas — uma empresa pode mostrar lucro na demonstração de resultados e, ao mesmo tempo, ficar realmente sem o dinheiro necessário para cumprir as obrigações imediatas, uma situação muitas vezes descrita como "lucrativa, mas sem caixa".
+[FATO VERIFICADO] Essa diferença é uma das principais causas, bem documentadas, de falência de pequenas empresas — uma empresa pode mostrar lucro na demonstração de resultados e, ao mesmo tempo, ficar realmente sem o dinheiro necessário para cumprir as obrigações imediatas, uma situação muitas vezes descrita como "lucrativa, mas sem caixa".
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa conclui um projeto grande e registra $100,000 de receita e $70,000 de lucro no mês, já que as despesas do projeto foram de $30,000. Mas, pelas condições combinadas no contrato, o cliente só precisa pagar em 60 dias. [ASSUMPTION] Enquanto isso, a empresa ainda precisa pagar os funcionários e fornecedores em dinheiro imediatamente — se não tiver reservas de caixa ou outro financiamento suficiente para cobrir esses 60 dias, ela pode ficar realmente sem caixa, mesmo mostrando no papel um lucro forte e real no mesmo período.
+[EXEMPLO ILUSTRATIVO] Uma empresa conclui um projeto grande e registra $100,000 de receita e $70,000 de lucro no mês, já que as despesas do projeto foram de $30,000. Mas, pelas condições combinadas no contrato, o cliente só precisa pagar em 60 dias. [SUPOSIÇÃO] Enquanto isso, a empresa ainda precisa pagar os funcionários e fornecedores em dinheiro imediatamente — se não tiver reservas de caixa ou outro financiamento suficiente para cobrir esses 60 dias, ela pode ficar realmente sem caixa, mesmo mostrando no papel um lucro forte e real no mesmo período.
 
 ## Teste de prática
 

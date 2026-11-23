@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A trilha BLUE deste currículo trata da contribuição da propriedade intelectual para o valor geral de um negócio. Aqui está uma regra jurídica básica por trás dessa discussão: [VERIFIED FACT] em muitas jurisdições, a regra padrão geral é que o verdadeiro **criador** de uma obra — a pessoa que escreveu o código, criou o design ou produziu o conteúdo — é o primeiro titular da propriedade intelectual resultante, independentemente de quem pagou pelo trabalho, na falta de um acordo específico que transfira essa titularidade.
+A trilha BLUE deste currículo trata da contribuição da propriedade intelectual para o valor geral de um negócio. Aqui está uma regra jurídica básica por trás dessa discussão: [FACTO VERIFICADO] em muitas jurisdições, a regra padrão geral é que o verdadeiro **criador** de uma obra — a pessoa que escreveu o código, criou o design ou produziu o conteúdo — é o primeiro titular da propriedade intelectual resultante, independentemente de quem pagou pelo trabalho, na falta de um acordo específico que transfira essa titularidade.
 
 Este é o "porquê" de isso surpreender muitos donos de negócio: é intuitivo presumir que pagar alguém para criar algo significa, automaticamente, que quem paga é dono do que foi criado, assim como pagar por um produto físico significa ser dono desse produto. A propriedade intelectual, por padrão, geralmente funciona de outro forma — a autoria do criador geralmente estabelece a titularidade dele, a menos que um contrato específico ou, em alguns casos, uma exceção legal específica (vista na próxima lição) transfira ou atribua essa titularidade a outra pessoa.
 
@@ -30,7 +30,7 @@ Este é o "porquê" de isso surpreender muitos donos de negócio: é intuitivo p
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa contrata um designer freelancer independente para criar um logotipo específico e paga o valor combinado na entrega, mas sem nenhum acordo por escrito que trate especificamente da titularidade da propriedade intelectual. [ASSUMPTION] Pela regra padrão geral, o designer freelancer, como verdadeiro criador, pode continuar a ser o titular da propriedade intelectual do design, apesar de ter sido pago pelo trabalho — a empresa pode ter só uma licença limitada para usar o logotipo, e não a titularidade completa, a menos que o acordo original tenha transferido essa titularidade à empresa de forma específica e clara.
+[EXEMPLO ILUSTRATIVO] Uma empresa contrata um designer freelancer independente para criar um logotipo específico e paga o valor combinado na entrega, mas sem nenhum acordo por escrito que trate especificamente da titularidade da propriedade intelectual. [SUPOSIÇÃO] Pela regra padrão geral, o designer freelancer, como verdadeiro criador, pode continuar a ser o titular da propriedade intelectual do design, apesar de ter sido pago pelo trabalho — a empresa pode ter só uma licença limitada para usar o logotipo, e não a titularidade completa, a menos que o acordo original tenha transferido essa titularidade à empresa de forma específica e clara.
 
 ## Teste de prática
 

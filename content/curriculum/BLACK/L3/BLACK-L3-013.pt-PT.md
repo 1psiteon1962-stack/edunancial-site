@@ -30,7 +30,7 @@ Existe alguma decisão que está a enfrentar agora em que a sua situação finan
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder sob forte pressão financeira pessoal está a avaliar se segue em frente com um negócio arriscado, mas muito lucrativo de imediato. [ASSUMPTION] Sem reconhecer como o próprio estresse financeiro pode estar a influenciar essa avaliação, o líder pode subestimar os riscos reais do negócio para a organização, distorcido por uma preferência inconsciente pelo alívio imediato que o dinheiro do negócio traria para ele pessoalmente — uma distorção que uma proteção estrutural, como exigir uma perspectiva realmente independente antes de fechar decisões importantes (retomando a Lição 10), poderia ajudar a perceber e corrigir.
+[EXEMPLO ILUSTRATIVO] Um líder sob forte pressão financeira pessoal está a avaliar se segue em frente com um negócio arriscado, mas muito lucrativo de imediato. [SUPOSIÇÃO] Sem reconhecer como o próprio estresse financeiro pode estar a influenciar essa avaliação, o líder pode subestimar os riscos reais do negócio para a organização, distorcido por uma preferência inconsciente pelo alívio imediato que o dinheiro do negócio traria para ele pessoalmente — uma distorção que uma proteção estrutural, como exigir uma perspectiva realmente independente antes de fechar decisões importantes (retomando a Lição 10), poderia ajudar a perceber e corrigir.
 
 ## Teste de prática
 

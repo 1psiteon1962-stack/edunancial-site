@@ -30,7 +30,7 @@ Au-delà de ce que la loi exige, que fait réellement ton organisation pour refl
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise respecte chacune des exigences légales précises abordées dans les leçons sur l'emploi du parcours PURPLE — le versement adéquat des salaires, l'absence de discrimination, des procédures de cessation d'emploi appropriées — tout en traitant ses employés d'une façon qui semble transactionnelle et irrespectueuse de leur vraie contribution et de leur dignité. [ASSUMPTION] Cette entreprise est conforme à la loi, mais n'a pas réellement assumé la responsabilité plus large d'employeur que décrit cette leçon, ce qui est particulièrement important dans les contextes où l'emploi des employés fait vivre des familles élargies qui dépendent entièrement de ce revenu — la conformité légale était le plancher, et non la preuve que la vraie responsabilité avait été assumée.
+[EXEMPLE ILLUSTRATIF] Une entreprise respecte chacune des exigences légales précises abordées dans les leçons sur l'emploi du parcours PURPLE — le versement adéquat des salaires, l'absence de discrimination, des procédures de cessation d'emploi appropriées — tout en traitant ses employés d'une façon qui semble transactionnelle et irrespectueuse de leur vraie contribution et de leur dignité. [HYPOTHÈSE] Cette entreprise est conforme à la loi, mais n'a pas réellement assumé la responsabilité plus large d'employeur que décrit cette leçon, ce qui est particulièrement important dans les contextes où l'emploi des employés fait vivre des familles élargies qui dépendent entièrement de ce revenu — la conformité légale était le plancher, et non la preuve que la vraie responsabilité avait été assumée.
 
 ## Quiz de pratique
 

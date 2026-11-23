@@ -30,7 +30,7 @@ Neem je huidige belangrijkste leiderschapsprioriteit en pas deze vraag volledig 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die afweegt of hij een veeleisend persoonlijk tempo moet volhouden, past het hele kader van dit traject toe op die beslissing: waar optimaliseer ik voor (misschien om te bewijzen dat ik onmisbaar ben, in lijn met Lessen 31 en 33), en wat kost dat (het risico op een burn-out en het continuïteitsrisico dat daaruit voortkomt, volgens Les 38; de concentratie van sleutelpersoonrisico waarvoor Les 2 waarschuwde; het voorbeeld van een onhoudbaar tempo dat volgens Les 22 de verwachtingen van de hele organisatie zal vormen)? Door het werkelijke doel van de optimalisatie eerlijk te benoemen, in plaats van het vleiender "ik werk gewoon hard voor de missie", komen kosten aan het licht die deze leider nooit eerder aan één samenhangende beslissing had gekoppeld.
+[ILLUSTRATIEF VOORBEELD] Een leider die afweegt of hij een veeleisend persoonlijk tempo moet volhouden, past het hele kader van dit traject toe op die beslissing: waar optimaliseer ik voor (misschien om te bewijzen dat ik onmisbaar ben, in lijn met Lessen 31 en 33), en wat kost dat (het risico op een burn-out en het continuïteitsrisico dat daaruit voortkomt, volgens Les 38; de concentratie van sleutelpersoonrisico waarvoor Les 2 waarschuwde; het voorbeeld van een onhoudbaar tempo dat volgens Les 22 de verwachtingen van de hele organisatie zal vormen)? Door het werkelijke doel van de optimalisatie eerlijk te benoemen, in plaats van het vleiender "ik werk gewoon hard voor de missie", komen kosten aan het licht die deze leider nooit eerder aan één samenhangende beslissing had gekoppeld.
 
 ## Oefenquiz
 

@@ -32,7 +32,7 @@ Was würde ein ernsthafter Reputationsschaden dein konkretes Unternehmen tatsäc
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen baut über ein Jahrzehnt einen starken Ruf auf, der erheblich zur Kundentreue und zu seinem späteren Verkaufswert beiträgt, ganz im Sinne des Firmenwert-Konzepts aus dem BLAUEN Lernpfad. [ASSUMPTION] Ein einziger, schlecht gehandhabter öffentlicher Vorfall beschädigt diesen Ruf innerhalb weniger Tage – das Vertrauen der Kunden schwindet schneller, als es aufgebaut wurde, einige langjährige Geschäftsbeziehungen gehen verloren, und würde das Unternehmen kurz darauf für einen Verkauf bewertet, könnte sein Firmenwert deutlich niedriger eingeschätzt werden als nur wenige Monate zuvor. Das zeigt die Asymmetrie zwischen dem langsamen Aufbau dieses Vermögenswerts und seiner schnellen Beschädigung.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen baut über ein Jahrzehnt einen starken Ruf auf, der erheblich zur Kundentreue und zu seinem späteren Verkaufswert beiträgt, ganz im Sinne des Firmenwert-Konzepts aus dem BLAUEN Lernpfad. [ANNAHME] Ein einziger, schlecht gehandhabter öffentlicher Vorfall beschädigt diesen Ruf innerhalb weniger Tage – das Vertrauen der Kunden schwindet schneller, als es aufgebaut wurde, einige langjährige Geschäftsbeziehungen gehen verloren, und würde das Unternehmen kurz darauf für einen Verkauf bewertet, könnte sein Firmenwert deutlich niedriger eingeschätzt werden als nur wenige Monate zuvor. Das zeigt die Asymmetrie zwischen dem langsamen Aufbau dieses Vermögenswerts und seiner schnellen Beschädigung.
 
 ## Übungsquiz
 1. Warum sind Marke und Ruf ein echter Vermögenswert eines Unternehmens, in Verbindung mit dem BLAUEN Lernpfad?

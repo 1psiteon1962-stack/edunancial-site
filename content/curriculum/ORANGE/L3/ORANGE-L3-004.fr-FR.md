@@ -32,7 +32,7 @@ Que coûterait réellement un événement grave touchant la réputation à ton e
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise bâtit une solide réputation pendant une décennie, ce qui contribue fortement à la fidélité de sa clientèle et à sa valeur de vente éventuelle, en écho à la notion d'achalandage du parcours BLUE. [ASSUMPTION] Un seul incident public mal géré endommage cette réputation en quelques jours — la confiance des clients s'érode plus vite qu'elle n'a été bâtie, certaines relations de longue date sont perdues et, si l'entreprise était évaluée en vue d'une vente peu de temps après, la composante d'achalandage pourrait être jugée nettement inférieure à ce qu'elle était quelques mois plus tôt, ce qui illustre l'asymétrie entre la lenteur avec laquelle cet actif se bâtit et la rapidité avec laquelle il peut être endommagé.
+[EXEMPLE ILLUSTRATIF] Une entreprise bâtit une solide réputation pendant une décennie, ce qui contribue fortement à la fidélité de sa clientèle et à sa valeur de vente éventuelle, en écho à la notion d'achalandage du parcours BLUE. [HYPOTHÈSE] Un seul incident public mal géré endommage cette réputation en quelques jours — la confiance des clients s'érode plus vite qu'elle n'a été bâtie, certaines relations de longue date sont perdues et, si l'entreprise était évaluée en vue d'une vente peu de temps après, la composante d'achalandage pourrait être jugée nettement inférieure à ce qu'elle était quelques mois plus tôt, ce qui illustre l'asymétrie entre la lenteur avec laquelle cet actif se bâtit et la rapidité avec laquelle il peut être endommagé.
 
 ## Quiz de pratique
 

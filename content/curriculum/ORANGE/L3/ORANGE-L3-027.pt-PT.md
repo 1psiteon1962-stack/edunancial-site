@@ -30,7 +30,7 @@ Antes de lançar um esforço de marketing agressivo numa nova região geográfic
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio lança uma campanha de marketing intencional e bem-sucedida voltada para um novo estado específico, conseguindo um forte crescimento de vendas ali em poucos meses. [ASSUMPTION] Esse mesmo crescimento de vendas, impulsionado diretamente pela campanha de marketing, ultrapassa o limite de nexo económico daquele estado para o recolhimento do imposto sobre vendas, visto na trilha GREEN — mas, como marketing e conformidade tributária não estavam se coordenando nessa expansão, o negócio só percebe que precisa começar a cobrar e recolher o imposto sobre vendas naquele estado muito depois de a obrigação já ter começado, criando um problema de conformidade retroativo que uma simples verificação antes da expansão teria evitado.
+[EXEMPLO ILUSTRATIVO] Um negócio lança uma campanha de marketing intencional e bem-sucedida voltada para um novo estado específico, conseguindo um forte crescimento de vendas ali em poucos meses. [SUPOSIÇÃO] Esse mesmo crescimento de vendas, impulsionado diretamente pela campanha de marketing, ultrapassa o limite de nexo económico daquele estado para o recolhimento do imposto sobre vendas, visto na trilha GREEN — mas, como marketing e conformidade tributária não estavam se coordenando nessa expansão, o negócio só percebe que precisa começar a cobrar e recolher o imposto sobre vendas naquele estado muito depois de a obrigação já ter começado, criando um problema de conformidade retroativo que uma simples verificação antes da expansão teria evitado.
 
 ## Teste de prática
 

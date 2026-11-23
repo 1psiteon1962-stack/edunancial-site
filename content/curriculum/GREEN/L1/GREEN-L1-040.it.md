@@ -34,11 +34,11 @@ L'imposta sulle società di solito si applica all'utile dell'impresa: ricavi men
 
 Questa separazione ha conseguenze importanti. Una la vedremo nella prossima lezione: lo stesso utile può essere tassato due volte, una volta nella società e un'altra quando arriva ai proprietari. Anche il percorso PURPLE studia la società di capitali, ma dal lato della responsabilità legale.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** La società Sole S.p.A. ha avuto ricavi per $500.000 e spese per $380.000. Su quale importo paga probabilmente l'imposta sulle società?
 

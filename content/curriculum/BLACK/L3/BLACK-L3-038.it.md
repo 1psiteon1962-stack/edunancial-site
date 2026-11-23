@@ -30,7 +30,7 @@ Onestamente, quanto è sostenibile il tuo ritmo attuale come leader? Se la rispo
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sostiene a lungo un ritmo insostenibile, trattando riposo e delega come lussi da affrontare solo quando le urgenze del momento si saranno attenuate. [ASSUMPTION] Questo burnout cronico alla fine si manifesta come una crisi di salute che richiede un'assenza lunga e imprevista: proprio il tipo di indisponibilità improvvisa da cui metteva in guardia la discussione sul rischio legato a una persona chiave della Lezione 2. Questo mostra perché il ritmo sostenibile di un leader è una vera questione di continuità per l'organizzazione, e non solo una questione di benessere personale separata dai rischi aziendali trattati in tutto questo percorso.
+[ESEMPIO ILLUSTRATIVO] Un leader sostiene a lungo un ritmo insostenibile, trattando riposo e delega come lussi da affrontare solo quando le urgenze del momento si saranno attenuate. [IPOTESI] Questo burnout cronico alla fine si manifesta come una crisi di salute che richiede un'assenza lunga e imprevista: proprio il tipo di indisponibilità improvvisa da cui metteva in guardia la discussione sul rischio legato a una persona chiave della Lezione 2. Questo mostra perché il ritmo sostenibile di un leader è una vera questione di continuità per l'organizzazione, e non solo una questione di benessere personale separata dai rischi aziendali trattati in tutto questo percorso.
 
 ## Quiz di esercitazione
 

@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Il percorso GREEN di questo programma tratta i trust di beneficenza in modo specifico, in un contesto di pianificazione fiscale. Ecco un "perché" giuridico più generale sui trust, rilevante per la pianificazione successoria in senso ampio: [VERIFIED FACT] i beni trasferiti correttamente in un trust durante la vita del disponente non sono più considerati in genere parte del patrimonio di sua titolarità personale ai fini della successione giudiziale. Poiché tecnicamente è il trust, e non la persona, a essere titolare di quei beni, sono in genere le regole del trust stesso (e non la procedura di successione giudiziale, trattata nella prossima lezione) a stabilire come e quando quei beni vengono distribuiti ai beneficiari.
+Il percorso GREEN di questo programma tratta i trust di beneficenza in modo specifico, in un contesto di pianificazione fiscale. Ecco un "perché" giuridico più generale sui trust, rilevante per la pianificazione successoria in senso ampio: [FATTO VERIFICATO] i beni trasferiti correttamente in un trust durante la vita del disponente non sono più considerati in genere parte del patrimonio di sua titolarità personale ai fini della successione giudiziale. Poiché tecnicamente è il trust, e non la persona, a essere titolare di quei beni, sono in genere le regole del trust stesso (e non la procedura di successione giudiziale, trattata nella prossima lezione) a stabilire come e quando quei beni vengono distribuiti ai beneficiari.
 
 Ecco il "perché" i trust vengono usati spesso proprio per evitare la successione giudiziale: dato che al momento della morte i beni sono già detenuti dal trust e non dalla persona, in genere non c'è bisogno che quei beni specifici passino per la procedura di successione sotto il controllo del tribunale, che si applica invece ai beni di titolarità personale non già regolati da designazioni dei beneficiari o da comproprietà (come visto nella Lezione 23).
 
@@ -30,7 +30,7 @@ Questo si collega direttamente al punto della Lezione 23 sui beni che scavalcano
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una persona trasferisce durante la sua vita la proprietà di un immobile specifico in un trust, le cui regole stabiliscono come quell'immobile dovrà alla fine essere distribuito a beneficiari indicati. [ASSUMPTION] Alla morte di quella persona, questo immobile passa in genere secondo le regole del trust, senza bisogno della procedura di successione giudiziale: un percorso molto diverso, in genere più rapido e più riservato, rispetto a quello che si avrebbe se lo stesso immobile fosse rimasto intestato alla persona, soggetto al suo testamento e alla procedura standard di successione giudiziale trattata nella prossima lezione.
+[ESEMPIO ILLUSTRATIVO] Una persona trasferisce durante la sua vita la proprietà di un immobile specifico in un trust, le cui regole stabiliscono come quell'immobile dovrà alla fine essere distribuito a beneficiari indicati. [IPOTESI] Alla morte di quella persona, questo immobile passa in genere secondo le regole del trust, senza bisogno della procedura di successione giudiziale: un percorso molto diverso, in genere più rapido e più riservato, rispetto a quello che si avrebbe se lo stesso immobile fosse rimasto intestato alla persona, soggetto al suo testamento e alla procedura standard di successione giudiziale trattata nella prossima lezione.
 
 ## Quiz di esercitazione
 

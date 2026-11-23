@@ -30,7 +30,7 @@ Wat weet je echt, of kun je redelijkerwijs afleiden, over de kostenstructuur van
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een concurrent verlaagt zijn prijzen flink, tot onder wat een houdbaar niveau lijkt gezien zijn waarschijnlijke kostenstructuur – vergelijkbare relaties met leveranciers, vergelijkbare schaal, geen duidelijk kostenvoordeel. [ASSUMPTION] In plaats van ervan uit te gaan dat deze nieuwe, lagere prijs het nieuwe blijvende marktniveau is en die meteen te evenaren (met de margeaantastende gevolgen uit Les 9), kan een onderneming die de waarschijnlijk onhoudbare kostenpositie van de concurrent doordenkt, haar eigen prijs juist aanhouden – in de terechte verwachting dat de agressieve prijsstelling van de concurrent een tijdelijke actie is die zijn eigen kostenstructuur hem niet onbeperkt laat volhouden.
+[ILLUSTRATIEF VOORBEELD] Een concurrent verlaagt zijn prijzen flink, tot onder wat een houdbaar niveau lijkt gezien zijn waarschijnlijke kostenstructuur – vergelijkbare relaties met leveranciers, vergelijkbare schaal, geen duidelijk kostenvoordeel. [AANNAME] In plaats van ervan uit te gaan dat deze nieuwe, lagere prijs het nieuwe blijvende marktniveau is en die meteen te evenaren (met de margeaantastende gevolgen uit Les 9), kan een onderneming die de waarschijnlijk onhoudbare kostenpositie van de concurrent doordenkt, haar eigen prijs juist aanhouden – in de terechte verwachting dat de agressieve prijsstelling van de concurrent een tijdelijke actie is die zijn eigen kostenstructuur hem niet onbeperkt laat volhouden.
 
 ## Oefenquiz
 

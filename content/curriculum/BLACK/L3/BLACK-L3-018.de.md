@@ -32,7 +32,7 @@ Hinterfragt das Aufsichtsgremium deiner Organisation (oder eine gleichwertige Au
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Das Aufsichtsgremium eines Unternehmens genehmigt durchgehend jeden Vorschlag der Geschäftsleitung ohne inhaltlichen Widerspruch oder eigenständige Prüfung und ist stolz auf reibungslose, harmonische Sitzungen. [ASSUMPTION] Diese scheinbare Harmonie spiegelt tatsächlich ein Versagen der Aufsicht wider und keinen Erfolg – die Treuepflicht des Gremiums besteht nach der Behandlung im LILA Lernpfad gegenüber der Organisation und ihren Beteiligten, und ein Gremium, das nie den echten Widerspruch aus Lektion 10 ausübt, erfüllt die Aufsichtsfunktion nicht, für die es da ist, egal wie angenehm sich das Verhältnis zur Geschäftsleitung anfühlt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Das Aufsichtsgremium eines Unternehmens genehmigt durchgehend jeden Vorschlag der Geschäftsleitung ohne inhaltlichen Widerspruch oder eigenständige Prüfung und ist stolz auf reibungslose, harmonische Sitzungen. [ANNAHME] Diese scheinbare Harmonie spiegelt tatsächlich ein Versagen der Aufsicht wider und keinen Erfolg – die Treuepflicht des Gremiums besteht nach der Behandlung im LILA Lernpfad gegenüber der Organisation und ihren Beteiligten, und ein Gremium, das nie den echten Widerspruch aus Lektion 10 ausübt, erfüllt die Aufsichtsfunktion nicht, für die es da ist, egal wie angenehm sich das Verhältnis zur Geschäftsleitung anfühlt.
 
 ## Übungsquiz
 1. Was ist der allgemeine Zweck der Unternehmensaufsicht über die bloße Unterstützung der Führung hinaus?

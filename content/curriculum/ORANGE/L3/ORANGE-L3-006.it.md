@@ -30,7 +30,7 @@ Che cosa vorresti monitorare, oltre al numero di nuovi clienti, per sapere se la
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa festeggia una forte crescita mese su mese dei nuovi clienti, trainata da una campagna di acquisizione aggressiva. [ASSUMPTION] Sotto quella crescita, il suo tasso di fidelizzazione cala in silenzio da due trimestri, per cui il valore reale nel tempo di ogni cliente è più basso della cifra usata in origine per giustificare la spesa di acquisizione. Il rapporto tra CAC e LTV del percorso BLUE è peggiorato senza far rumore, anche se la dashboard della crescita sembra del tutto positiva. Questo mostra perché la fidelizzazione va seguita insieme all'acquisizione, e non trattata come una metrica separata e secondaria.
+[ESEMPIO ILLUSTRATIVO] Un'impresa festeggia una forte crescita mese su mese dei nuovi clienti, trainata da una campagna di acquisizione aggressiva. [IPOTESI] Sotto quella crescita, il suo tasso di fidelizzazione cala in silenzio da due trimestri, per cui il valore reale nel tempo di ogni cliente è più basso della cifra usata in origine per giustificare la spesa di acquisizione. Il rapporto tra CAC e LTV del percorso BLUE è peggiorato senza far rumore, anche se la dashboard della crescita sembra del tutto positiva. Questo mostra perché la fidelizzazione va seguita insieme all'acquisizione, e non trattata come una metrica separata e secondaria.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ Is er op dit moment een zichtbare kwestie in je organisatie waarover je hebt gek
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider kiest ervoor een zichtbaar, aanhoudend conflict tussen twee teamleden niet openlijk aan te pakken, in de overtuiging dat neutraal blijven en zwijgen voorkomt dat hij partij kiest of de situatie erger maakt. [ASSUMPTION] Teamleden zien dit aanhoudende zwijgen en vatten het niet op als neutraliteit, maar als stilzwijgende tolerantie van het lopende conflict – in lijn met het punt uit Les 22 dat tolerantie de cultuur vormt. Dit laat zien waarom het bedoelde "neutrale niet-handelen" van de leider in werkelijkheid werkte als een specifieke, inhoudelijke boodschap dat het conflict gewoon kon doorgaan.
+[ILLUSTRATIEF VOORBEELD] Een leider kiest ervoor een zichtbaar, aanhoudend conflict tussen twee teamleden niet openlijk aan te pakken, in de overtuiging dat neutraal blijven en zwijgen voorkomt dat hij partij kiest of de situatie erger maakt. [AANNAME] Teamleden zien dit aanhoudende zwijgen en vatten het niet op als neutraliteit, maar als stilzwijgende tolerantie van het lopende conflict – in lijn met het punt uit Les 22 dat tolerantie de cultuur vormt. Dit laat zien waarom het bedoelde "neutrale niet-handelen" van de leider in werkelijkheid werkte als een specifieke, inhoudelijke boodschap dat het conflict gewoon kon doorgaan.
 
 ## Oefenquiz
 

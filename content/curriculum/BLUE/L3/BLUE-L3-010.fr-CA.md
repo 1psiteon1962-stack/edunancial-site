@@ -22,7 +22,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-Aux États-Unis, la Small Business Administration (SBA) offre des programmes de prêts où le gouvernement garantit une partie d'un prêt consenti par un prêteur privé participant, au lieu de prêter lui-même l'argent directement. (Au Canada, le Programme de financement des petites entreprises du Canada repose sur une logique semblable.) [VERIFIED FACT] Les modalités précises des programmes, les critères d'admissibilité et les pourcentages de garantie sont fixés par la SBA et changent périodiquement : il faut vérifier directement les détails actuels du programme au lieu de les tenir pour acquis.
+Aux États-Unis, la Small Business Administration (SBA) offre des programmes de prêts où le gouvernement garantit une partie d'un prêt consenti par un prêteur privé participant, au lieu de prêter lui-même l'argent directement. (Au Canada, le Programme de financement des petites entreprises du Canada repose sur une logique semblable.) [FAIT VÉRIFIÉ] Les modalités précises des programmes, les critères d'admissibilité et les pourcentages de garantie sont fixés par la SBA et changent périodiquement : il faut vérifier directement les détails actuels du programme au lieu de les tenir pour acquis.
 
 Voici le « pourquoi » cette garantie de l'État est importante, en lien avec la discussion de la leçon 1 sur les raisons pour lesquelles les prêteurs traditionnels hésitent souvent à financer entièrement l'achat d'une petite entreprise : comme le gouvernement garantit une partie importante du prêt si l'emprunteur fait défaut, les prêteurs participants prennent beaucoup moins de risques qu'avec un prêt traditionnel sans aucune garantie. Ils sont donc prêts à offrir du financement, souvent à de meilleures conditions (comme une mise de fonds plus faible ou une période de remboursement plus longue), qu'ils n'offriraient peut-être pas autrement pour l'achat d'une petite entreprise.
 
@@ -30,7 +30,7 @@ C'est pourquoi les prêts de la SBA s'ajoutent couramment au financement par le 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un acheteur veut acheter une petite entreprise pour 500 000 $. Une banque qui participe à un programme de prêts de la SBA accepte de prêter une grande majorité de ce montant, le gouvernement garantissant une partie du prêt en cas de défaut. Cette structure donne à la banque assez de confiance pour offrir un financement qu'elle n'accorderait probablement pas sans aucune garantie pour ce type d'achat. Le solde est réparti entre une plus petite portion financée par le vendeur et la mise de fonds de l'acheteur, ce qui finance entièrement l'achat.
+[EXEMPLE ILLUSTRATIF] Un acheteur veut acheter une petite entreprise pour 500 000 $. Une banque qui participe à un programme de prêts de la SBA accepte de prêter une grande majorité de ce montant, le gouvernement garantissant une partie du prêt en cas de défaut. Cette structure donne à la banque assez de confiance pour offrir un financement qu'elle n'accorderait probablement pas sans aucune garantie pour ce type d'achat. Le solde est réparti entre une plus petite portion financée par le vendeur et la mise de fonds de l'acheteur, ce qui finance entièrement l'achat.
 
 ## Quiz d'entraînement
 

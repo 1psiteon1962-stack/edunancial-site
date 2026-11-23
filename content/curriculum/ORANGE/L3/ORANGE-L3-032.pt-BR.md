@@ -30,7 +30,7 @@ Se você entrasse em um novo segmento de mercado com um ciclo de vendas duas vez
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio com um ciclo de vendas normalmente curto, de um mês, se expande para um novo segmento de mercado em que as negociações costumam levar seis meses para fechar. [ASSUMPTION] O negócio faz o orçamento do novo segmento simplesmente aumentando, de forma proporcional, o gasto de vendas que já tem, sem levar em conta a diferença muito maior entre esse gasto e a receita resultante — criando uma falta de capital de giro durante o longo período antes de as vendas do novo segmento começarem, de fato, a virar receita, uma consequência de financiamento ligada diretamente à duração do ciclo de vendas que um plano baseado só na proporção do orçamento deixou passar.
+[EXEMPLO ILUSTRATIVO] Um negócio com um ciclo de vendas normalmente curto, de um mês, se expande para um novo segmento de mercado em que as negociações costumam levar seis meses para fechar. [SUPOSIÇÃO] O negócio faz o orçamento do novo segmento simplesmente aumentando, de forma proporcional, o gasto de vendas que já tem, sem levar em conta a diferença muito maior entre esse gasto e a receita resultante — criando uma falta de capital de giro durante o longo período antes de as vendas do novo segmento começarem, de fato, a virar receita, uma consequência de financiamento ligada diretamente à duração do ciclo de vendas que um plano baseado só na proporção do orçamento deixou passar.
 
 ## Teste de prática
 

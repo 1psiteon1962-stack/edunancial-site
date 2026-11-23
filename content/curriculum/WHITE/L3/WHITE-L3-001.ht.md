@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Prèske tout moun deja tande konsèy "achte ba, vann wo". Li vre — epi li prèske pa itil anyen poukont li, paske li sipoze ou ka rekonèt "ba" ak "wo" pandan w ap viv yo, pa sèlman lè w ap gade yon grafik apre.
 
-Men "poukisa" ki dèyè difikilte a: yon pri ki desann, ki sanble "ba" lè w gade dèyè, anjeneral pa santi tankou yon opòtinite pandan l ap pase — li santi tankou ensètitid, move nouvèl, ak vrè doulè finansye. [VERIFIED FACT] Istorikman, mache yo desann anpil pandan peryòd gwo estrès oswa gwo ensètitid ekonomik, e se egzakteman lè sa a achte ka santi pi difisil, menm si peryòd sa yo souvan vini anvan yon rekiperasyon pita. Menm jan an, yon pri ki sanble "wo" lè w gade dèyè souvan santi, nan moman an, tankou yon elan pèsonn pa ka kanpe — tout lòt moun sanble ap fè lajan, e vann santi tankou w ap kite pwofi sou tab la.
+Men "poukisa" ki dèyè difikilte a: yon pri ki desann, ki sanble "ba" lè w gade dèyè, anjeneral pa santi tankou yon opòtinite pandan l ap pase — li santi tankou ensètitid, move nouvèl, ak vrè doulè finansye. [FÈ VERIFYE] Istorikman, mache yo desann anpil pandan peryòd gwo estrès oswa gwo ensètitid ekonomik, e se egzakteman lè sa a achte ka santi pi difisil, menm si peryòd sa yo souvan vini anvan yon rekiperasyon pita. Menm jan an, yon pri ki sanble "wo" lè w gade dèyè souvan santi, nan moman an, tankou yon elan pèsonn pa ka kanpe — tout lòt moun sanble ap fè lajan, e vann santi tankou w ap kite pwofi sou tab la.
 
 Se pou sa li pi bon pou konprann "achte ba, vann wo" kòm yon deskripsyon rezilta ou ta renmen jwenn, pase kòm yon konsèy ou ka aplike poukont li. Leson ki vin apre yo nan tras sa a ap fouye nan zouti, konsèp, ak modèl konpòtman espesifik ki fè li pi posib pou w aji ak rezon lè ensten ou ap rale w nan lòt direksyon.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Pandan yon gwo bès nan mache a, yon envestisè wè pòtfolyo li pèdi anpil valè. Lè w gade dèyè, peryòd sa a te yon trè bon opòtinite pou achte sou long tèm. Men pandan l t ap viv li, li t ap li tit nouvèl ki dekouraje, li t ap gade balans kont li desann chak jou, e li te santi yon vrè enkyetid pou l pa pèdi plis — egzakteman opoze yon santiman konfòtab ki di "sa a klèman ba". [ASSUMPTION] Envestisè ki te achte pandan malèz sa a, olye yo tann konfimasyon fon an te fin pase, istorikman te pran yon pi gwo pati nan rekiperasyon ki te vini apre a — men pou fè sa, yo te oblije aji kont jan moman an te vrèman santi.
+[EGZANP ILISTRATIF] Pandan yon gwo bès nan mache a, yon envestisè wè pòtfolyo li pèdi anpil valè. Lè w gade dèyè, peryòd sa a te yon trè bon opòtinite pou achte sou long tèm. Men pandan l t ap viv li, li t ap li tit nouvèl ki dekouraje, li t ap gade balans kont li desann chak jou, e li te santi yon vrè enkyetid pou l pa pèdi plis — egzakteman opoze yon santiman konfòtab ki di "sa a klèman ba". [SIPOZISYON] Envestisè ki te achte pandan malèz sa a, olye yo tann konfimasyon fon an te fin pase, istorikman te pran yon pi gwo pati nan rekiperasyon ki te vini apre a — men pou fè sa, yo te oblije aji kont jan moman an te vrèman santi.
 
 ## Egzamen pratik
 

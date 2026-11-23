@@ -30,7 +30,7 @@ Se hoje o seu negócio depende muito do boca a boca, o que aconteceria com os se
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio cresceu principalmente por indicações boca a boca, com baixos custos de aquisição e forte fidelidade dos clientes. [ASSUMPTION] Quando o negócio precisa atingir uma meta de crescimento específica, com prazo definido, para uma rodada de captação, ele descobre que o boca a boca não pode simplesmente ser ampliado quando se quer, como um canal pago poderia — o canal mais barato dele é também o menos controlável, o que obriga o negócio a investir num canal pago mais caro, mas mais diretamente controlável, para cumprir o prazo específico.
+[EXEMPLO ILUSTRATIVO] Um negócio cresceu principalmente por indicações boca a boca, com baixos custos de aquisição e forte fidelidade dos clientes. [SUPOSIÇÃO] Quando o negócio precisa atingir uma meta de crescimento específica, com prazo definido, para uma rodada de captação, ele descobre que o boca a boca não pode simplesmente ser ampliado quando se quer, como um canal pago poderia — o canal mais barato dele é também o menos controlável, o que obriga o negócio a investir num canal pago mais caro, mas mais diretamente controlável, para cumprir o prazo específico.
 
 ## Teste de prática
 

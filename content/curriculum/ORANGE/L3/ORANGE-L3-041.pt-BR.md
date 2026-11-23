@@ -30,7 +30,7 @@ Antes de tratar a sua previsão de vendas como um dado fixo para decisões impor
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio prevê um valor específico de receita para o próximo trimestre, e esse número vira a base para a compra de estoque, um plano de contratações e um aumento do orçamento de marketing. [ASSUMPTION] Quando as vendas reais ficam 20% abaixo dessa previsão, o efeito não é uma diferença contida de 20% — o estoque comprado com base na suposição inflada fica sem vender, a folha dos novos contratados não é sustentada pela receita real e o aumento do gasto com marketing aperta ainda mais o caixa, o que significa que o erro de previsão original se acumulou em um impacto financeiro bem maior depois de consideradas todas as decisões dependentes construídas em cima dele.
+[EXEMPLO ILUSTRATIVO] Um negócio prevê um valor específico de receita para o próximo trimestre, e esse número vira a base para a compra de estoque, um plano de contratações e um aumento do orçamento de marketing. [SUPOSIÇÃO] Quando as vendas reais ficam 20% abaixo dessa previsão, o efeito não é uma diferença contida de 20% — o estoque comprado com base na suposição inflada fica sem vender, a folha dos novos contratados não é sustentada pela receita real e o aumento do gasto com marketing aperta ainda mais o caixa, o que significa que o erro de previsão original se acumulou em um impacto financeiro bem maior depois de consideradas todas as decisões dependentes construídas em cima dele.
 
 ## Teste de prática
 

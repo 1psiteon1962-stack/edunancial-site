@@ -30,7 +30,7 @@ Wat gebeurt er volgens je huidige standaardverkoopcontract als een klant gewoon 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een verkoopteam gebruikt voor een belangrijke transactie een eenvoudige, informeel opgestelde verkoopovereenkomst, gericht op het snel binnenhalen van de deal en niet op de specifieke contracttekst. [ASSUMPTION] Als de klant later niet op tijd betaalt, ontdekt de onderneming dat haar verkoopovereenkomst niet duidelijk regelt wat de gevolgen van te late betaling zijn, of er rente verschuldigd is en hoe geschillen worden opgelost – precies het soort onduidelijkheid waarvan het PURPLE-traject waarschuwde dat het geschillen oplevert die moeilijker op te lossen zijn. Zo wordt wat een eenvoudige incassokwestie had moeten zijn, een veel moeilijkere en duurdere situatie.
+[ILLUSTRATIEF VOORBEELD] Een verkoopteam gebruikt voor een belangrijke transactie een eenvoudige, informeel opgestelde verkoopovereenkomst, gericht op het snel binnenhalen van de deal en niet op de specifieke contracttekst. [AANNAME] Als de klant later niet op tijd betaalt, ontdekt de onderneming dat haar verkoopovereenkomst niet duidelijk regelt wat de gevolgen van te late betaling zijn, of er rente verschuldigd is en hoe geschillen worden opgelost – precies het soort onduidelijkheid waarvan het PURPLE-traject waarschuwde dat het geschillen oplevert die moeilijker op te lossen zijn. Zo wordt wat een eenvoudige incassokwestie had moeten zijn, een veel moeilijkere en duurdere situatie.
 
 ## Oefenquiz
 

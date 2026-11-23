@@ -32,7 +32,7 @@ Avant de célébrer une victoire en marketing de croissance, as-tu confirmé que
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une équipe marketing célèbre un trimestre réussi de croissance rapide de la clientèle, alimentée par une campagne d'acquisition agressive et coûteuse. [ASSUMPTION] Un examen plus attentif de l'économie unitaire derrière cette croissance précise révèle que chaque nouveau client, une fois pleinement pris en compte son coût d'acquisition et sa valeur vie prévue, représente en réalité une perte nette pour l'entreprise — ce qui veut dire que ce trimestre de croissance « réussi », exactement comme l'avait prévenu le parcours BLUE, a accéléré le problème financier de fond de l'entreprise plutôt que de le régler, même si tous les indicateurs marketing de surface semblaient positifs.
+[EXEMPLE ILLUSTRATIF] Une équipe marketing célèbre un trimestre réussi de croissance rapide de la clientèle, alimentée par une campagne d'acquisition agressive et coûteuse. [HYPOTHÈSE] Un examen plus attentif de l'économie unitaire derrière cette croissance précise révèle que chaque nouveau client, une fois pleinement pris en compte son coût d'acquisition et sa valeur vie prévue, représente en réalité une perte nette pour l'entreprise — ce qui veut dire que ce trimestre de croissance « réussi », exactement comme l'avait prévenu le parcours BLUE, a accéléré le problème financier de fond de l'entreprise plutôt que de le régler, même si tous les indicateurs marketing de surface semblaient positifs.
 
 ## Quiz de pratique
 

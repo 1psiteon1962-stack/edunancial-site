@@ -34,11 +34,11 @@ Non esiste una forma perfetta per tutti. Alcune domande aiutano: quanto utile do
 
 Le imposte non sono nemmeno l'unico fattore. La protezione legale, che il percorso PURPLE studia, i costi, la burocrazia e i piani futuri contano anche loro. È una decisione tipica da discutere con un commercialista e un avvocato prima di agire, ricordando l'analogia del medico: la consulenza costa poco rispetto al costo di un errore.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Due amici aprono un piccolo bar e vogliono prelevare quasi tutto l'utile per viverci. Che tipo di forma, in generale, eviterebbe la doppia imposizione?
 

@@ -30,7 +30,7 @@ O que a sua estratégia atual de vendas e marketing está a escolher deliberadam
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio tenta manter presença ativa em todos os canais de marketing disponíveis, mirando ao mesmo tempo todos os segmentos de clientes plausíveis, acreditando que assim maximiza a oportunidade total. [ASSUMPTION] Com orçamento e capacidade de equipa limitados espalhados de forma tão fina, nenhum canal ou segmento recebe a atenção focada necessária para uma execução realmente boa, e os resultados gerais ficam abaixo dos de um concorrente que excluiu deliberadamente a maioria dos canais e segmentos para se concentrar intensamente nos poucos mais importantes para os clientes específicos dele — retomando diretamente o princípio de defesa pelo foco estabelecido para a estratégia de nicho na Lição 26.
+[EXEMPLO ILUSTRATIVO] Um negócio tenta manter presença ativa em todos os canais de marketing disponíveis, mirando ao mesmo tempo todos os segmentos de clientes plausíveis, acreditando que assim maximiza a oportunidade total. [SUPOSIÇÃO] Com orçamento e capacidade de equipa limitados espalhados de forma tão fina, nenhum canal ou segmento recebe a atenção focada necessária para uma execução realmente boa, e os resultados gerais ficam abaixo dos de um concorrente que excluiu deliberadamente a maioria dos canais e segmentos para se concentrar intensamente nos poucos mais importantes para os clientes específicos dele — retomando diretamente o princípio de defesa pelo foco estabelecido para a estratégia de nicho na Lição 26.
 
 ## Teste de prática
 

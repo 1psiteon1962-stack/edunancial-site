@@ -30,7 +30,7 @@ Vis-tu la critique de ton entreprise comme une rétroaction sur une stratégie, 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un fondateur qui a bâti son entreprise pendant de nombreuses années vit toute critique importante de l'orientation de l'entreprise comme profondément personnelle, et réagit de façon défensive même aux rétroactions constructives et bien intentionnées de conseillers de confiance. [ASSUMPTION] Cette fusion de l'identité, qui va au-delà de la résistance précise à admettre une erreur motivée par l'ego décrite à la leçon 17, rend vraiment difficile pour ce fondateur l'évaluation objective des besoins réels de l'entreprise — chaque rétroaction sur l'entreprise lui donne l'impression de porter sur lui-même, ce qui crée un angle mort auquel un fondateur ayant plus de distance entre son identité personnelle et le rendement de l'entreprise serait moins sujet.
+[EXEMPLE ILLUSTRATIF] Un fondateur qui a bâti son entreprise pendant de nombreuses années vit toute critique importante de l'orientation de l'entreprise comme profondément personnelle, et réagit de façon défensive même aux rétroactions constructives et bien intentionnées de conseillers de confiance. [HYPOTHÈSE] Cette fusion de l'identité, qui va au-delà de la résistance précise à admettre une erreur motivée par l'ego décrite à la leçon 17, rend vraiment difficile pour ce fondateur l'évaluation objective des besoins réels de l'entreprise — chaque rétroaction sur l'entreprise lui donne l'impression de porter sur lui-même, ce qui crée un angle mort auquel un fondateur ayant plus de distance entre son identité personnelle et le rendement de l'entreprise serait moins sujet.
 
 ## Quiz de pratique
 

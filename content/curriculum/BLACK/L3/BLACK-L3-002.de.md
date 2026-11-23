@@ -30,7 +30,7 @@ Wenn du plötzlich einen Monat lang nicht verfügbar wärst, was würde in deine
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft delegiert Verwaltungsroutinen, um Zeit zu gewinnen, und hält das für gute Delegationspraxis. [ASSUMPTION] Jede bedeutende Kundenbeziehung, jede strategische Entscheidung und jedes entscheidende betriebliche Wissen bleibt vollständig bei dieser Führungskraft gebündelt – als sie unerwartet für längere Zeit ausfällt, stellt die Organisation fest, dass die Delegation, die ihren Kalender freigeräumt hatte, nichts gegen das tatsächliche Schlüsselpersonenrisiko getan hat, das in ihren nicht delegierten Beziehungen und ihrem Wissen steckte – genau das Risiko, für das die Behandlung der Schlüsselpersonenversicherung im BLAUEN Lernpfad gedacht war.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft delegiert Verwaltungsroutinen, um Zeit zu gewinnen, und hält das für gute Delegationspraxis. [ANNAHME] Jede bedeutende Kundenbeziehung, jede strategische Entscheidung und jedes entscheidende betriebliche Wissen bleibt vollständig bei dieser Führungskraft gebündelt – als sie unerwartet für längere Zeit ausfällt, stellt die Organisation fest, dass die Delegation, die ihren Kalender freigeräumt hatte, nichts gegen das tatsächliche Schlüsselpersonenrisiko getan hat, das in ihren nicht delegierten Beziehungen und ihrem Wissen steckte – genau das Risiko, für das die Behandlung der Schlüsselpersonenversicherung im BLAUEN Lernpfad gedacht war.
 
 ## Übungsquiz
 1. Warum ist Delegieren im Kern Risikoverteilung und nicht nur Zeitmanagement?

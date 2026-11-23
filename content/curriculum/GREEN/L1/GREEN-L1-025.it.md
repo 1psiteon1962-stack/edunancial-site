@@ -34,11 +34,11 @@ La regola generale, in molti luoghi, è che la spesa deve essere inerente e nece
 
 Le spese personali di solito non sono deducibili, anche se sei il titolare. Una cena con la famiglia non diventa una spesa aziendale solo perché hai parlato di lavoro. Quando una spesa è mista, in parte personale e in parte aziendale, di solito conta solo la parte aziendale.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Renata ha un negozio online. Ha speso $600 in pubblicità, $300 in imballaggi e $150 in scarpe da palestra. Che cosa è probabilmente deducibile?
 

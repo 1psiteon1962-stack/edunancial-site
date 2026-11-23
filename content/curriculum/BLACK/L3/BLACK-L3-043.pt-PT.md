@@ -30,7 +30,7 @@ Quem cumpre hoje esse papel para você, no nível pessoal — pessoas a quem rea
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder tem um conselho de administração formal que funciona bem e exerce uma fiscalização real sobre a organização, exatamente como a Lição 18 descreveu. [ASSUMPTION] Diante de uma decisão pessoal de carreira — se deve aproveitar uma nova oportunidade, como cuidar do próprio desenvolvimento no longo prazo ou como lidar com uma situação pessoal difícil que afeta a liderança dele —, esse líder percebe que o conselho de administração não é o lugar certo para esse tipo de conversa franca e focada na pessoa e procura, em vez disso, uma pequena rede pessoal de conselheiros de confiança, cultivada ao longo dos anos, retomando a construção contínua de relacionamentos destacada na Lição 37, para ter uma visão que a estrutura formal do conselho nunca foi pensada para oferecer.
+[EXEMPLO ILUSTRATIVO] Um líder tem um conselho de administração formal que funciona bem e exerce uma fiscalização real sobre a organização, exatamente como a Lição 18 descreveu. [SUPOSIÇÃO] Diante de uma decisão pessoal de carreira — se deve aproveitar uma nova oportunidade, como cuidar do próprio desenvolvimento no longo prazo ou como lidar com uma situação pessoal difícil que afeta a liderança dele —, esse líder percebe que o conselho de administração não é o lugar certo para esse tipo de conversa franca e focada na pessoa e procura, em vez disso, uma pequena rede pessoal de conselheiros de confiança, cultivada ao longo dos anos, retomando a construção contínua de relacionamentos destacada na Lição 37, para ter uma visão que a estrutura formal do conselho nunca foi pensada para oferecer.
 
 ## Teste de prática
 

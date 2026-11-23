@@ -30,7 +30,7 @@ Kijk naar een recente beslissing die vooral werd genomen om een doel op korte te
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die onder druk staat om sterke kwartaalresultaten te laten zien, bezuinigt op leiderschapsontwikkeling en initiatieven voor betrokkenheid van medewerkers, waardoor de financiële cijfers van het huidige kwartaal verbeteren. [ASSUMPTION] In de kwartalen daarna wordt de achteruitgang in managementvaardigheden en moraal die deze bezuinigingen stilletjes veroorzaakten zichtbaar in hoger verloop en dalende prestaties – een uitgestelde kostenpost die de leider niet volledig had afgewogen tegen het directe voordeel op korte termijn, in lijn met het punt uit het WHITE-traject dat timing en volgorde net zo belangrijk zijn als de gemiddelde uitkomst, hier toegepast op leiderschapsbeslissingen in plaats van op beleggingsrendementen.
+[ILLUSTRATIEF VOORBEELD] Een leider die onder druk staat om sterke kwartaalresultaten te laten zien, bezuinigt op leiderschapsontwikkeling en initiatieven voor betrokkenheid van medewerkers, waardoor de financiële cijfers van het huidige kwartaal verbeteren. [AANNAME] In de kwartalen daarna wordt de achteruitgang in managementvaardigheden en moraal die deze bezuinigingen stilletjes veroorzaakten zichtbaar in hoger verloop en dalende prestaties – een uitgestelde kostenpost die de leider niet volledig had afgewogen tegen het directe voordeel op korte termijn, in lijn met het punt uit het WHITE-traject dat timing en volgorde net zo belangrijk zijn als de gemiddelde uitkomst, hier toegepast op leiderschapsbeslissingen in plaats van op beleggingsrendementen.
 
 ## Oefenquiz
 

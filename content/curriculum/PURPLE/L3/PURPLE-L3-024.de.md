@@ -22,7 +22,7 @@ Am Ende dieser Lektion kannst du:
 
 ## Hauptinhalt
 
-Der GRÜNE Lernpfad dieses Lehrplans behandelt gemeinnützige Trusts und Stiftungen speziell im Zusammenhang mit der Steuerplanung. Hier ein allgemeineres rechtliches „Warum“ hinter Trusts, das für die Nachlassplanung insgesamt relevant ist: [VERIFIED FACT] Vermögen, das zu Lebzeiten des Errichters ordnungsgemäß in einen Trust übertragen wurde, gilt für Zwecke des Nachlassverfahrens grundsätzlich nicht mehr als Teil des persönlichen Vermögens dieser Person – weil formal der Trust und nicht die Person dieses Vermögen hält, bestimmen grundsätzlich die eigenen Bedingungen des Trusts (und nicht das Nachlassverfahren, Thema der nächsten Lektion), wie und wann dieses Vermögen an die Begünstigten verteilt wird.
+Der GRÜNE Lernpfad dieses Lehrplans behandelt gemeinnützige Trusts und Stiftungen speziell im Zusammenhang mit der Steuerplanung. Hier ein allgemeineres rechtliches „Warum“ hinter Trusts, das für die Nachlassplanung insgesamt relevant ist: [GEPRÜFTE TATSACHE] Vermögen, das zu Lebzeiten des Errichters ordnungsgemäß in einen Trust übertragen wurde, gilt für Zwecke des Nachlassverfahrens grundsätzlich nicht mehr als Teil des persönlichen Vermögens dieser Person – weil formal der Trust und nicht die Person dieses Vermögen hält, bestimmen grundsätzlich die eigenen Bedingungen des Trusts (und nicht das Nachlassverfahren, Thema der nächsten Lektion), wie und wann dieses Vermögen an die Begünstigten verteilt wird.
 
 Das ist das „Warum“, weshalb Trusts im angloamerikanischen Raum häufig gerade dazu genutzt werden, das Nachlassverfahren zu vermeiden: Weil das Vermögen zum Todeszeitpunkt bereits vom Trust und nicht von der Person selbst gehalten wird, muss dieses konkrete Vermögen grundsätzlich nicht das gerichtlich überwachte Nachlassverfahren durchlaufen, das für das persönlich gehaltene Vermögen eines Menschen gilt, soweit es nicht schon durch Bezugsberechtigungen oder gemeinschaftliches Eigentum geregelt ist (wie in Lektion 23 besprochen).
 
@@ -32,7 +32,7 @@ Das knüpft direkt an den Punkt aus Lektion 23 an, dass bestimmte Vermögenswert
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Person überträgt zu Lebzeiten das Eigentum an einer bestimmten Immobilie auf einen Trust, dessen eigene Bedingungen festlegen, wie diese Immobilie später an benannte Begünstigte verteilt werden soll. [ASSUMPTION] Beim Tod dieser Person geht diese konkrete Immobilie grundsätzlich nach den eigenen Bedingungen des Trusts über, ohne das Nachlassverfahren durchlaufen zu müssen – ein deutlich anderer, grundsätzlich schnellerer und diskreterer Weg, als wenn dieselbe Immobilie weiter auf den Namen der Person gelaufen wäre und damit ihrem Testament und dem üblichen Nachlassverfahren unterläge, wie in der nächsten Lektion behandelt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Person überträgt zu Lebzeiten das Eigentum an einer bestimmten Immobilie auf einen Trust, dessen eigene Bedingungen festlegen, wie diese Immobilie später an benannte Begünstigte verteilt werden soll. [ANNAHME] Beim Tod dieser Person geht diese konkrete Immobilie grundsätzlich nach den eigenen Bedingungen des Trusts über, ohne das Nachlassverfahren durchlaufen zu müssen – ein deutlich anderer, grundsätzlich schnellerer und diskreterer Weg, als wenn dieselbe Immobilie weiter auf den Namen der Person gelaufen wäre und damit ihrem Testament und dem üblichen Nachlassverfahren unterläge, wie in der nächsten Lektion behandelt.
 
 ## Übungsquiz
 1. Warum umgeht Vermögen in einem Trust grundsätzlich das Nachlassverfahren?

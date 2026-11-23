@@ -30,7 +30,7 @@ Per una decisione che stai rimandando mentre raccogli altre informazioni: la rac
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader alle prese con una decisione importante continua per settimane a raccogliere altri dati e pareri, sperando in una certezza sufficiente a sentirsi del tutto sicuro prima di agire. [ASSUMPTION] Esaminando onestamente lo schema, questo leader si rende conto che la raccolta di informazioni più recente non ha cambiato la decisione che probabilmente prenderà: ha solo rinviato una scelta per cui aveva già informazioni sufficienti. È lo stesso punto del percorso ORANGE: a un certo punto altre ricerche smettono di ridurre un'incertezza significativa e cominciano solo a ritardare l'azione, con un ritardo che ha di per sé un costo reale e crescente.
+[ESEMPIO ILLUSTRATIVO] Un leader alle prese con una decisione importante continua per settimane a raccogliere altri dati e pareri, sperando in una certezza sufficiente a sentirsi del tutto sicuro prima di agire. [IPOTESI] Esaminando onestamente lo schema, questo leader si rende conto che la raccolta di informazioni più recente non ha cambiato la decisione che probabilmente prenderà: ha solo rinviato una scelta per cui aveva già informazioni sufficienti. È lo stesso punto del percorso ORANGE: a un certo punto altre ricerche smettono di ridurre un'incertezza significativa e cominciano solo a ritardare l'azione, con un ritardo che ha di per sé un costo reale e crescente.
 
 ## Quiz di esercitazione
 

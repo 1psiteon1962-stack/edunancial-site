@@ -30,7 +30,7 @@ Könntest du derzeit eine wirklich sachkundige Nachfrage zu den wichtigsten Fina
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft delegiert die gesamte Finanzanalyse und Berichterstattung vollständig an eine vertraute Finanzfachperson und entwickelt nie genug eigenes Verständnis, um sachkundige Fragen zu den daraus entstehenden Berichten zu stellen. [ASSUMPTION] Als diese Fachperson in einer Finanzprognose einen ehrlichen, aber erheblichen Fehler macht, hat die Führungskraft keine eigene Grundlage, das Problem zu bemerken, weil sie nie das grundlegende Verständnis entwickelt hat, das sie bräuchte, um die Zahlen selbst zu bewerten. Das zeigt, warum solides Delegieren der Finanzanalyse trotzdem verlangt, dass eine Führungskraft genug eigene Kompetenz behält, um echte Aufsicht auszuüben und nicht nur bedingungsloses Vertrauen.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft delegiert die gesamte Finanzanalyse und Berichterstattung vollständig an eine vertraute Finanzfachperson und entwickelt nie genug eigenes Verständnis, um sachkundige Fragen zu den daraus entstehenden Berichten zu stellen. [ANNAHME] Als diese Fachperson in einer Finanzprognose einen ehrlichen, aber erheblichen Fehler macht, hat die Führungskraft keine eigene Grundlage, das Problem zu bemerken, weil sie nie das grundlegende Verständnis entwickelt hat, das sie bräuchte, um die Zahlen selbst zu bewerten. Das zeigt, warum solides Delegieren der Finanzanalyse trotzdem verlangt, dass eine Führungskraft genug eigene Kompetenz behält, um echte Aufsicht auszuüben und nicht nur bedingungsloses Vertrauen.
 
 ## Übungsquiz
 1. Warum befreit die Delegation der Finanzanalyse an eine Fachperson eine Führungskraft nicht davon, die zugrunde liegenden Zahlen zu verstehen?

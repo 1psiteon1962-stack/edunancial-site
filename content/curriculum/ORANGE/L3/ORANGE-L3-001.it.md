@@ -30,7 +30,7 @@ Prima di continuare: oltre al marketing e ai flussi di cassa, su che cos'altro p
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Il CAC di un'azienda aumenta del 40% in due trimestri a causa della maggiore concorrenza pubblicitaria. Il team di marketing lo tratta come un problema di ottimizzazione dei canali da risolvere con un targeting migliore. [ASSUMPTION] Nel frattempo, lo stesso aumento del CAC sta allungando in silenzio il periodo di rientro dell'investimento sui nuovi clienti, sta riducendo l'autonomia finanziaria dell'azienda (percorso BLUE) più in fretta di quanto il team finanziario abbia segnalato, e sta rendendo un round di raccolta di capitale più urgente di quanto chiunque in quella riunione di marketing si renda conto. Lo stesso numero è contemporaneamente una metrica di marketing, un segnale sui flussi di cassa e un campanello d'allarme per il finanziamento.
+[ESEMPIO ILLUSTRATIVO] Il CAC di un'azienda aumenta del 40% in due trimestri a causa della maggiore concorrenza pubblicitaria. Il team di marketing lo tratta come un problema di ottimizzazione dei canali da risolvere con un targeting migliore. [IPOTESI] Nel frattempo, lo stesso aumento del CAC sta allungando in silenzio il periodo di rientro dell'investimento sui nuovi clienti, sta riducendo l'autonomia finanziaria dell'azienda (percorso BLUE) più in fretta di quanto il team finanziario abbia segnalato, e sta rendendo un round di raccolta di capitale più urgente di quanto chiunque in quella riunione di marketing si renda conto. Lo stesso numero è contemporaneamente una metrica di marketing, un segnale sui flussi di cassa e un campanello d'allarme per il finanziamento.
 
 ## Quiz di esercitazione
 

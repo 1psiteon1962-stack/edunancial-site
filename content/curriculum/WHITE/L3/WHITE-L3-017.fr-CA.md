@@ -26,7 +26,7 @@ summary: "Découvrez pourquoi le versement d'un dividende fait baisser le prix d
 
 ## Contenu principal
 
-Il est facile de considérer le versement d'un dividende comme de l'argent en plus de la valeur existante d'une action, une sorte de prime pour avoir conservé l'action. Voici le « pourquoi » cette façon de voir est trompeuse : une entreprise verse ses dividendes à partir de sa propre trésorerie, ce qui réduit les actifs qui lui restent. [VERIFIED FACT] À la date de détachement du dividende, le prix d'une action baisse généralement d'environ le montant du dividende versé, ce qui reflète le fait que l'entreprise vaut désormais un peu moins, puisqu'elle a distribué une partie de sa trésorerie aux actionnaires.
+Il est facile de considérer le versement d'un dividende comme de l'argent en plus de la valeur existante d'une action, une sorte de prime pour avoir conservé l'action. Voici le « pourquoi » cette façon de voir est trompeuse : une entreprise verse ses dividendes à partir de sa propre trésorerie, ce qui réduit les actifs qui lui restent. [FAIT VÉRIFIÉ] À la date de détachement du dividende, le prix d'une action baisse généralement d'environ le montant du dividende versé, ce qui reflète le fait que l'entreprise vaut désormais un peu moins, puisqu'elle a distribué une partie de sa trésorerie aux actionnaires.
 
 Cela signifie qu'un dividende n'est pas une richesse nouvellement créée qui apparaît de nulle part : c'est une redistribution d'une valeur qui existait déjà dans l'entreprise, désormais transférée dans la poche de l'actionnaire sous forme de liquidités au lieu de rester intégrée au prix de l'action. L'actionnaire n'est pas réellement plus riche au moment où le dividende est versé ; il détient simplement la même valeur totale, répartie entre un prix d'action un peu plus bas et le dividende reçu en liquidités.
 
@@ -34,7 +34,7 @@ C'est pourquoi le **rendement total**, qui combine la hausse du prix et les divi
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une action se négocie à 100 $ la veille du versement d'un dividende de 2 $ par action. À la date de détachement, toutes choses égales par ailleurs, le prix de l'action s'ajuste généralement à environ 98 $, ce qui reflète les 2 $ par action qui viennent de sortir de l'entreprise sous forme de versement en liquidités. Un investisseur qui détient une action possède désormais 98 $ en actions plus 2 $ en liquidités, soit toujours 100 $ de valeur totale, comme avant le versement du dividende. Le dividende n'a pas créé de nouvelle richesse ; il a simplement converti 2 $ de valeur existante en actions en 2 $ de liquidités.
+[EXEMPLE ILLUSTRATIF] Une action se négocie à 100 $ la veille du versement d'un dividende de 2 $ par action. À la date de détachement, toutes choses égales par ailleurs, le prix de l'action s'ajuste généralement à environ 98 $, ce qui reflète les 2 $ par action qui viennent de sortir de l'entreprise sous forme de versement en liquidités. Un investisseur qui détient une action possède désormais 98 $ en actions plus 2 $ en liquidités, soit toujours 100 $ de valeur totale, comme avant le versement du dividende. Le dividende n'a pas créé de nouvelle richesse ; il a simplement converti 2 $ de valeur existante en actions en 2 $ de liquidités.
 
 ## Quiz d'entraînement
 

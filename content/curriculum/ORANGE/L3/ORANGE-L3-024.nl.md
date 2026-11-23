@@ -30,7 +30,7 @@ Voordat je de uitkomsten van marktonderzoek ziet als bevestiging dat een product
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming doet uitgebreid marktonderzoek voordat ze een nieuw product lanceert, en de respondenten tonen sterke interesse en zeggen bereid te zijn het te kopen. [ASSUMPTION] Na de werkelijke lancering blijft het echte aankoopgedrag duidelijk achter bij wat het onderzoek deed vermoeden – een veelvoorkomend patroon dat de echte kloof weerspiegelt tussen hypothetisch uitgesproken voornemens en echte aankoopbeslissingen met echt geld. Dit laat zien waarom het onderzoek waardevol was om risico te verkleinen en de lancering te onderbouwen, maar de onderliggende onzekerheid nooit wegnam zoals een echte markttest, in lijn met het MVP-begrip uit het BLUE-traject, die betrouwbaarder aan het licht had gebracht.
+[ILLUSTRATIEF VOORBEELD] Een onderneming doet uitgebreid marktonderzoek voordat ze een nieuw product lanceert, en de respondenten tonen sterke interesse en zeggen bereid te zijn het te kopen. [AANNAME] Na de werkelijke lancering blijft het echte aankoopgedrag duidelijk achter bij wat het onderzoek deed vermoeden – een veelvoorkomend patroon dat de echte kloof weerspiegelt tussen hypothetisch uitgesproken voornemens en echte aankoopbeslissingen met echt geld. Dit laat zien waarom het onderzoek waardevol was om risico te verkleinen en de lancering te onderbouwen, maar de onderliggende onzekerheid nooit wegnam zoals een echte markttest, in lijn met het MVP-begrip uit het BLUE-traject, die betrouwbaarder aan het licht had gebracht.
 
 ## Oefenquiz
 

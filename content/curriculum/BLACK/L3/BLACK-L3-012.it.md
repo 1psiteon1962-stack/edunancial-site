@@ -30,7 +30,7 @@ C'è in questo momento, nel tuo team, una tensione o un disaccordo irrisolto che
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader nota una tensione crescente tra due membri del team, ma evita di affrontarla direttamente, dicendosi che sta lasciando alla situazione lo spazio per risolversi da sola. [ASSUMPTION] Mesi dopo, la tensione si è trasformata in un conflitto aperto che incide sulle dinamiche e sulla produttività dell'intero team: un problema che sarebbe stato molto più facile da affrontare quando era appena emerso. Questo mostra che la "pazienza" del leader ha funzionato esattamente come lo schema del rinvio cumulativo da cui metteva in guardia la Lezione 5, applicato però a un conflitto tra persone invece che a una decisione di licenziamento.
+[ESEMPIO ILLUSTRATIVO] Un leader nota una tensione crescente tra due membri del team, ma evita di affrontarla direttamente, dicendosi che sta lasciando alla situazione lo spazio per risolversi da sola. [IPOTESI] Mesi dopo, la tensione si è trasformata in un conflitto aperto che incide sulle dinamiche e sulla produttività dell'intero team: un problema che sarebbe stato molto più facile da affrontare quando era appena emerso. Questo mostra che la "pazienza" del leader ha funzionato esattamente come lo schema del rinvio cumulativo da cui metteva in guardia la Lezione 5, applicato però a un conflitto tra persone invece che a una decisione di licenziamento.
 
 ## Quiz di esercitazione
 

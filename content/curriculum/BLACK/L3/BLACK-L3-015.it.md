@@ -30,7 +30,7 @@ Oggi sapresti fare una domanda di approfondimento davvero informata sui principa
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader delega interamente tutta l'analisi e la rendicontazione finanziaria a uno specialista finanziario di fiducia, senza mai sviluppare una comprensione autonoma sufficiente per fare domande informate sui report che ne derivano. [ASSUMPTION] Quando quello specialista commette un errore in buona fede ma significativo in una previsione finanziaria, il leader non ha alcuna base autonoma per accorgersi del problema, perché non ha mai sviluppato la comprensione di base necessaria per valutare i numeri da sé. Questo mostra perché una buona delega dell'analisi finanziaria richiede comunque che il leader mantenga una cultura finanziaria autonoma sufficiente per esercitare un vero controllo, e non una semplice fiducia incondizionata.
+[ESEMPIO ILLUSTRATIVO] Un leader delega interamente tutta l'analisi e la rendicontazione finanziaria a uno specialista finanziario di fiducia, senza mai sviluppare una comprensione autonoma sufficiente per fare domande informate sui report che ne derivano. [IPOTESI] Quando quello specialista commette un errore in buona fede ma significativo in una previsione finanziaria, il leader non ha alcuna base autonoma per accorgersi del problema, perché non ha mai sviluppato la comprensione di base necessaria per valutare i numeri da sé. Questo mostra perché una buona delega dell'analisi finanziaria richiede comunque che il leader mantenga una cultura finanziaria autonoma sufficiente per esercitare un vero controllo, e non una semplice fiducia incondizionata.
 
 ## Quiz di esercitazione
 

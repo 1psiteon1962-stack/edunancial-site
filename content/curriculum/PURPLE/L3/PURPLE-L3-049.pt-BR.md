@@ -30,7 +30,7 @@ Este é o "porquê" de ligar cada conceito a essa lente levar a um julgamento ju
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] A dona de uma empresa que avalia várias situações muito diferentes — redigir um novo contrato, manter as formalidades da LLC dela e atualizar o próprio planejamento sucessório — faz a mesma pergunta de fundo para cada uma: eu defini com clareza quem tem exatamente quais direitos e obrigações específicos, de um jeito que deixe o mínimo de espaço para ambiguidade ou disputa no futuro? [ASSUMPTION] Em vez de tratar a redação de contratos, a manutenção da empresa e o planejamento sucessório como tarefas jurídicas totalmente separadas e sem ligação, ela reconhece que todas são variações do mesmo princípio de clareza, o que permite que ela aborde áreas jurídicas muito diferentes com um único critério coerente.
+[EXEMPLO ILUSTRATIVO] A dona de uma empresa que avalia várias situações muito diferentes — redigir um novo contrato, manter as formalidades da LLC dela e atualizar o próprio planejamento sucessório — faz a mesma pergunta de fundo para cada uma: eu defini com clareza quem tem exatamente quais direitos e obrigações específicos, de um jeito que deixe o mínimo de espaço para ambiguidade ou disputa no futuro? [SUPOSIÇÃO] Em vez de tratar a redação de contratos, a manutenção da empresa e o planejamento sucessório como tarefas jurídicas totalmente separadas e sem ligação, ela reconhece que todas são variações do mesmo princípio de clareza, o que permite que ela aborde áreas jurídicas muito diferentes com um único critério coerente.
 
 ## Teste de prática
 

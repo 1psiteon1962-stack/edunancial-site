@@ -30,7 +30,7 @@ Prends ta principale priorité de leadership actuelle et applique pleinement cet
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader qui se demande s'il doit maintenir un rythme personnel exigeant applique à cette décision tout le cadre de ce parcours : qu'est-ce que j'optimise (prouver que je suis indispensable, peut-être, en écho aux leçons 31 et 33) et qu'est-ce que ça me coûte (le risque d'épuisement et le risque pour la continuité qu'il crée, selon la leçon 38; la concentration sur une personne clé contre laquelle prévenait la leçon 2; l'exemple d'un rythme insoutenable qui, selon la leçon 22, façonnera les attentes de toute l'organisation)? Nommer honnêtement la vraie cible d'optimisation, plutôt que la formule plus flatteuse « je travaille simplement fort pour la mission », révèle des coûts que ce leader n'avait jamais reliés auparavant à une seule décision cohérente.
+[EXEMPLE ILLUSTRATIF] Un leader qui se demande s'il doit maintenir un rythme personnel exigeant applique à cette décision tout le cadre de ce parcours : qu'est-ce que j'optimise (prouver que je suis indispensable, peut-être, en écho aux leçons 31 et 33) et qu'est-ce que ça me coûte (le risque d'épuisement et le risque pour la continuité qu'il crée, selon la leçon 38; la concentration sur une personne clé contre laquelle prévenait la leçon 2; l'exemple d'un rythme insoutenable qui, selon la leçon 22, façonnera les attentes de toute l'organisation)? Nommer honnêtement la vraie cible d'optimisation, plutôt que la formule plus flatteuse « je travaille simplement fort pour la mission », révèle des coûts que ce leader n'avait jamais reliés auparavant à une seule décision cohérente.
 
 ## Quiz de pratique
 

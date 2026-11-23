@@ -30,7 +30,7 @@ Was sagt das tatsächliche Beförderungs- und Belohnungsmuster deiner Organisati
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft betont in Betriebsversammlungen regelmäßig Teamarbeit und Zusammenarbeit, während das Beförderungs- und Bonussystem der Organisation ausschließlich individuelle Leistungskennzahlen belohnt und Beiträge zur Zusammenarbeit überhaupt nicht berücksichtigt. [ASSUMPTION] Die Mitarbeitenden reagieren rational auf die tatsächliche Anreizstruktur statt auf die erklärte Botschaft und stellen individuelle Leistung über echte Zusammenarbeit – genau im Sinne des Grundsatzes aus dem ORANGE Lernpfad, dass Menschen auf das optimieren, was tatsächlich belohnt wird. Die entstehende Kultur spiegelt die Anreizgestaltung wider und nicht die Reden, egal wie aufrichtig diese gehalten wurden.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft betont in Betriebsversammlungen regelmäßig Teamarbeit und Zusammenarbeit, während das Beförderungs- und Bonussystem der Organisation ausschließlich individuelle Leistungskennzahlen belohnt und Beiträge zur Zusammenarbeit überhaupt nicht berücksichtigt. [ANNAHME] Die Mitarbeitenden reagieren rational auf die tatsächliche Anreizstruktur statt auf die erklärte Botschaft und stellen individuelle Leistung über echte Zusammenarbeit – genau im Sinne des Grundsatzes aus dem ORANGE Lernpfad, dass Menschen auf das optimieren, was tatsächlich belohnt wird. Die entstehende Kultur spiegelt die Anreizgestaltung wider und nicht die Reden, egal wie aufrichtig diese gehalten wurden.
 
 ## Übungsquiz
 1. Warum prägen Anreizstrukturen das Verhalten in einer Organisation stärker als erklärte Werte oder Reden?

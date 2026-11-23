@@ -30,7 +30,7 @@ Kijk naar je agenda van de afgelopen week. Welke afspraken zouden dezelfde voor 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider beoordeelt elke belangrijke financiële uitgave zorgvuldig met een grondige kosten-batenanalyse, maar accepteert bijna elk vergaderverzoek en elke verplichting in zijn agenda zonder ook maar in de buurt van diezelfde toetsing te komen. [ASSUMPTION] Door dezelfde discipline rond opportuniteitskosten uit de GOLD- en ORANGE-trajecten specifiek op tijd toe te passen, beseft deze leider dat veel afspraken in zijn agenda niet dezelfde beoordeling zouden doorstaan als een vergelijkbare financiële uitgave – wat leidt tot een bewustere, gedisciplineerdere verdeling van zijn tijd, waarbij hij uren met dezelfde grondigheid behandelt die hij eerder alleen voor geld reserveerde.
+[ILLUSTRATIEF VOORBEELD] Een leider beoordeelt elke belangrijke financiële uitgave zorgvuldig met een grondige kosten-batenanalyse, maar accepteert bijna elk vergaderverzoek en elke verplichting in zijn agenda zonder ook maar in de buurt van diezelfde toetsing te komen. [AANNAME] Door dezelfde discipline rond opportuniteitskosten uit de GOLD- en ORANGE-trajecten specifiek op tijd toe te passen, beseft deze leider dat veel afspraken in zijn agenda niet dezelfde beoordeling zouden doorstaan als een vergelijkbare financiële uitgave – wat leidt tot een bewustere, gedisciplineerdere verdeling van zijn tijd, waarbij hij uren met dezelfde grondigheid behandelt die hij eerder alleen voor geld reserveerde.
 
 ## Oefenquiz
 

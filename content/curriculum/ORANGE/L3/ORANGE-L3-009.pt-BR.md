@@ -30,7 +30,7 @@ Antes de fazer uma promoção com desconto: qual é a sua margem de contribuiç�
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio com margem de contribuição de $40 por unidade oferece um desconto de 20%, baixando a margem por unidade para $20. [ASSUMPTION] O volume de vendas aumenta 30%, o que parece uma vitória clara — mas, como a margem por unidade caiu pela metade, esse aumento de 30% no volume na verdade gera menos lucro total do que antes do desconto, e não mais, o que mostra por que o raciocínio intuitivo "desconto traz mais vendas, e mais vendas significam mais lucro" deixa de lado o impacto desproporcional da corrosão da margem.
+[EXEMPLO ILUSTRATIVO] Um negócio com margem de contribuição de $40 por unidade oferece um desconto de 20%, baixando a margem por unidade para $20. [SUPOSIÇÃO] O volume de vendas aumenta 30%, o que parece uma vitória clara — mas, como a margem por unidade caiu pela metade, esse aumento de 30% no volume na verdade gera menos lucro total do que antes do desconto, e não mais, o que mostra por que o raciocínio intuitivo "desconto traz mais vendas, e mais vendas significam mais lucro" deixa de lado o impacto desproporcional da corrosão da margem.
 
 ## Teste de prática
 
