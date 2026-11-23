@@ -1,0 +1,287 @@
+===== WHITE-L2-016
+TITLE: Alokasyon byen: konbine aksyon, obligasyon, ak kach
+SUMMARY: Alokasyon byen vle di kijan yon envestisè divize pòtfolyo li ant gwo kategori byen – souvan aksyon, obligasyon, ak kach (oswa ekivalan kach) – e se youn nan pi gwo faktè ki detèmine risk ak retou yon pòtfolyo.
+## WHITE-L2-016
+### Alokasyon byen: konbine aksyon, obligasyon, ak kach
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon alokasyon byen nan yon nivo konseptyèl.
+- Esplike kijan alokasyon byen gen rapò ak tolerans pou risk ak orizon tan.
+- Rekonèt ke pa gen yon sèl fòmil alokasyon inivèsèl.
+
+**2. Kontni prensipal**
+Alokasyon byen vle di kijan yon envestisè divize pòtfolyo li ant gwo kategori byen — souvan aksyon, obligasyon, ak kach (oswa ekivalan kach) — sa ki reflete diskisyon Leson 8 sou fason kategori sa yo gen tandans konpòte yo diferan. Rechèch moun diskite anpil sijere alokasyon byen se youn nan pi gwo faktè ki pouse risk jeneral ak modèl retou alontèm yon pòtfolyo, petèt menm plis pase chwa sekirite endividyèl espesifik anndan chak kategori.
+
+An jeneral, plis alokasyon nan aksyon asosye ak plis potansyèl retou alontèm ansanm ak plis volatilite, alòske plis alokasyon nan obligasyon ak kach asosye ak plis estabilite ak mwens volatilite yo atann, ansanm ak yon potansyèl retou alontèm ki anjeneral pi ba. Alokasyon "ki kòrèk" la depann de orizon tan espesifik yon envestisè (Leson 27) ak tolerans li pou risk (Leson 26) — pa gen yon sèl fòmil inivèsèl, malgre kèk règ enfòmèl popilè ki twò senplifye desizyon sa a ki pèsonèl anpil.
+
+**3. Egzanp pratik**
+De envestisè ki gen diferan laj ap konsidere alokasyon byen yo. Yon moun 25 an ki gen plizyè deseni anvan retrèt e ki deklare li gen yon gwo tolerans pou volatilite kout tèm mete yon gwo majorite pòtfolyo li nan aksyon, li aksepte plis volatilite an echanj pou plis potansyèl kwasans alontèm sou orizon tan long li. Yon moun 62 an k ap pwoche retrèt nan kèk ane mete yon melanj ki pi balanse ant aksyon ak obligasyon, li bay plis estabilite priyorite akoz orizon tan ki pi kout ki rete l anvan l atann pou l kòmanse retire nan pòtfolyo a pou revni.
+
+Okenn alokasyon pa "kòrèk" pou tout moun — chak youn reflete pwòp orizon tan ak tolerans pou risk envestisè espesifik la.
+
+**4. Egzamen pratik**
+1. Kisa alokasyon byen anjeneral vle di?
+   a) Chwazi aksyon endividyèl sèlman
+   b) Kijan yo divize yon pòtfolyo ant gwo kategori tankou aksyon, obligasyon, ak kach
+   c) Yon kalite deklarasyon taks
+   d) Yon sèl fon espesifik
+
+2. Moun konsidere alokasyon byen kòm yon gwo faktè ki pouse kisa?
+   a) Anyen enpòtan
+   b) Risk jeneral ak modèl retou alontèm yon pòtfolyo
+   c) Sèlman mouvman pri chak jou nan kout tèm
+   d) To taks
+
+3. Vrè oswa Fo: Gen yon sèl fòmil alokasyon byen inivèsèl ki kòrèk pou chak envestisè.
+
+4. Poukisa de envestisè nan egzanp pratik la te chwazi diferan alokasyon?
+   a) Youn nan yo te fè yon erè
+   b) Diferan orizon tan ak tolerans pou risk yo te mande diferan alokasyon
+   c) Alokasyon byen pa enpòtan toutbon
+   d) Lalwa te oblije yo diferan
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Alokasyon byen vle di kijan yo divize yon pòtfolyo ant gwo kategori tankou aksyon, obligasyon, ak kach.
+2. Moun konsidere alokasyon byen anpil kòm yon gwo faktè ki pouse risk jeneral ak modèl retou alontèm yon pòtfolyo.
+3. Bon alokasyon an depann de orizon tan ak tolerans pou risk chak moun — pa gen yon sèl fòmil inivèsèl.
+4. Diferan orizon tan ak tolerans pou risk de envestisè yo te mennen yo kòmsadwa nan diferan chwa alokasyon.
+
+**7. Pwen kle yo**
+- Alokasyon byen se kijan yo divize yon pòtfolyo ant aksyon, obligasyon, ak kach.
+- Moun konsidere l anpil kòm youn nan pi gwo faktè ki pouse risk ak retou jeneral pòtfolyo a.
+- Plis alokasyon nan aksyon anjeneral vle di plis potansyèl retou ak volatilite; plis alokasyon nan obligasyon/kach anjeneral vle di plis estabilite.
+- Bon alokasyon an depann de orizon tan ak tolerans pou risk chak moun — pa gen yon sèl fòmil inivèsèl.
+
+===== WHITE-L2-017
+TITLE: Divèsifikasyon anndan byen an papye
+SUMMARY: Kote alokasyon byen (Leson 16) trete kijan yon pòtfolyo divize ant gwo kategori, divèsifikasyon trete kijan yon pòtfolyo gaye risk anndan yon kategori, sa ki raple diskisyon pakou RED la sou divèsifikasyon pwopriyete.
+## WHITE-L2-017
+### Divèsifikasyon anndan byen an papye
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant divèsifikasyon anndan yon kategori byen ak alokasyon byen ant kategori.
+- Esplike objektif jeneral divèsifikasyon.
+- Idantifye egzanp divèsifikasyon anndan aksyon ak anndan obligasyon.
+
+**2. Kontni prensipal**
+Kote alokasyon byen (Leson 16) trete kijan yon pòtfolyo divize ant gwo kategori, divèsifikasyon trete kijan yon pòtfolyo gaye risk anndan yon kategori bay, sa ki raple diskisyon pakou RED la sou divèsifikasyon pwopriyete (RED-L2-038). Anndan aksyon, sa ka vle di kenbe anpil konpayi diferan atravè diferan sektè (Leson 24) ak jeyografi (Leson 25), olye konsantre anpil nan kèk konpayi endividyèl sèlman. Anndan obligasyon, sa ka vle di kenbe emetè ki gen diferan kalite kredi, echeyans, ak kalite, olye konsantre nan yon sèl emetè oswa yon sèl obligasyon.
+
+Objektif jeneral divèsifikasyon se diminye enpak move pèfòmans nenpòt yon sèl byen sou tout pòtfolyo a — si yon konpayi oswa yon emetè obligasyon gen difikilte, yon pòtfolyo ki byen divèsifye santi yon enpak relatif ki pi piti pase yon pòtfolyo konsantre ta santi. Sa pa elimine risk tout mache a (yon bès mache laj toujou afekte yon pòtfolyo divèsifye), men li diminye risk ki espesifik pou yon konpayi oswa yon emetè.
+
+**3. Egzanp pratik**
+Lè l ap revize aksyon li kenbe yo, Amara reyalize li kenbe ven konpayi diferan, men dizuit ladan yo konsantre nan yon sèl sektè endistri. Lè l rekonèt sa kòm yon divèsifikasyon ki pa ase malgre kantite byen ki sanble gwo a, li restriktire pòtfolyo li pou gaye ekspozisyon aksyon li atravè plizyè sektè, sa ki diminye vilnerabilite li a yon bès ki ta afekte endistri patikilye sa a espesyalman, menm si kantite total byen endividyèl li yo pa bezwen chanje anpil pou l reyalize amelyorasyon sa a.
+
+**4. Egzamen pratik**
+1. Kijan divèsifikasyon diferan de alokasyon byen, dapre leson sa a?
+   a) Se menm konsèp yo
+   b) Alokasyon byen divize ant gwo kategori; divèsifikasyon gaye risk anndan yon kategori
+   c) Divèsifikasyon aplike sèlman nan imobilye
+   d) Alokasyon byen aplike sèlman nan obligasyon
+
+2. Ki objektif jeneral divèsifikasyon?
+   a) Garanti benefis
+   b) Diminye enpak move pèfòmans nenpòt yon sèl byen sou tout pòtfolyo a
+   c) Elimine tout risk mache
+   d) Konsantre risk nan yon sèl konpayi
+
+3. Vrè oswa Fo: Kenbe ven aksyon otomatikman garanti yon divèsifikasyon ase, kèlkeswa konsantrasyon sektè.
+
+4. Ki pwoblèm Amara te idantifye nan pwòp pòtfolyo li?
+   a) Twò piti byen an total
+   b) Yon gwo konsantrasyon nan yon sèl sektè endistri malgre yon kantite byen ki sanble gwo
+   c) Twòp ekspozisyon nan obligasyon
+   d) Pa gen aksyon ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Alokasyon byen trete divizyon ant gwo kategori; divèsifikasyon trete gaye risk anndan yon kategori bay.
+2. Divèsifikasyon diminye enpak relatif move pèfòmans nenpòt yon sèl byen sou tout pòtfolyo a.
+3. Yon gwo kantite byen ki konsantre nan yon sèl sektè pa reyalize yon divèsifikasyon ase.
+4. Byen Amara yo, malgre kantite yo, te konsantre anpil nan yon sèl sektè, sa ki te febli vrè divèsifikasyon an.
+
+**7. Pwen kle yo**
+- Divèsifikasyon gaye risk anndan yon kategori byen, diferan de alokasyon byen ant gwo kategori.
+- Li diminye risk ki espesifik pou yon konpayi oswa yon emetè, menm si li pa elimine risk mache laj.
+- Yon gwo kantite byen pa garanti divèsifikasyon si yo konsantre nan sektè oswa emetè ki sanble.
+- Konsèp sa a raple diskisyon sou divèsifikasyon nan pakou RED la, aplike isit la anndan byen an papye.
+
+===== WHITE-L2-018
+TITLE: Reyekilibraj: kenbe pòtfolyo a sou sib
+SUMMARY: Paske diferan kategori byen fè pèfòmans diferan avèk tan, vrè alokasyon yon pòtfolyo deplase natirèlman lwen alokasyon sib orijinal li; reyekilibraj mennen l tounen.
+## WHITE-L2-018
+### Reyekilibraj: kenbe pòtfolyo a sou sib
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral reyekilibraj yon pòtfolyo.
+- Dekri poukisa alokasyon yon pòtfolyo ka deplase avèk tan san reyekilibraj.
+- Idantifye apwòch kouran pou reyekilibre.
+
+**2. Kontni prensipal**
+Paske diferan kategori byen fè pèfòmans diferan avèk tan, vrè alokasyon yon pòtfolyo deplase natirèlman lwen alokasyon sib orijinal li (Leson 16) pandan kèk byen ap grandi pi vit pase lòt. Reyekilibraj se pwosesis peryodik pou ajiste yon pòtfolyo pou l retounen nan direksyon alokasyon sib li — anjeneral lè w vann yon pati nan byen ki grandi pou depase pousantaj sib yo e w achte plis nan byen ki desann anba pousantaj sib yo.
+
+Apwòch reyekilibraj kouran gen ladan reyekilibraj dapre kalandriye (revize e ajiste nan entèval fiks, tankou chak ane) ak reyekilibraj dapre limit (ajiste chak fwa yon alokasyon deplase pi lwen pase yon pousantaj ki presize konpare ak sib li, kèlkeswa moman an). Reyekilibraj sèvi yon objektif jesyon risk menm jan ak yon objektif pou chèche retou: san li, yon pòtfolyo ka piti piti vin pi agresif (si aksyon te fè pi byen e yo grandi pou domine alokasyon an) oswa pi konsèvatè (si kontrè a rive) pase sa yo te vle okòmansman, san okenn desizyon espre envestisè a.
+
+**3. Egzanp pratik**
+Sanjay te fikse okòmansman yon alokasyon sib 70% aksyon ak 30% obligasyon. Apre plizyè ane bon pèfòmans aksyon, li tcheke pòtfolyo li e li jwenn li deplase rive 82% aksyon ak 18% obligasyon — se pa paske li te pran okenn desizyon aktif pou l vin pi agresif, men tou senpleman paske aksyon te grandi pi vit pase obligasyon pandan peryòd sa a.
+
+Lè l rekonèt deplasman sa a pa konsistan ak tolerans pou risk ak plan orijinal li, Sanjay reyekilibre lè l vann yon pati nan aksyon li yo e li achte obligasyon, sa ki remete pòtfolyo li pi pre sib orijinal 70/30 li — yon aksyon disipline e fèt espre olye l tou senpleman "monte vag la" nan pèfòmans resan aksyon yo.
+
+**4. Egzamen pratik**
+1. Poukisa alokasyon yon pòtfolyo deplase avèk tan san reyekilibraj?
+   a) Li pa janm deplase
+   b) Diferan kategori byen fè pèfòmans diferan, sa ki fè kèk grandi pi vit pase lòt
+   c) Tout kategori byen toujou grandi egzakteman nan menm vitès
+   d) Reyekilibraj rive otomatikman san okenn aksyon
+
+2. Kisa reyekilibraj anjeneral gen ladan l?
+   a) Inyore pòtfolyo a nèt
+   b) Vann byen ki depase alokasyon sib yo e achte sa ki anba l
+   c) Toujou achte sèlman, pa janm vann
+   d) Elimine tout obligasyon
+
+3. Vrè oswa Fo: Alokasyon yon pòtfolyo toujou rete egzakteman nan sib orijinal li san okenn aksyon nan men envestisè a.
+
+4. Poukisa pòtfolyo Sanjay te deplase rive 82% aksyon malgre li pa t pran okenn desizyon aktif?
+   a) Li te chwazi alokasyon sa a espre
+   b) Aksyon te grandi pi vit pase obligasyon pandan peryòd sa a, sa ki te deplase alokasyon an natirèlman
+   c) Yo te vann obligasyon li yo otomatikman
+   d) Sib orijinal li te deja 82% aksyon
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Pèfòmans diferan kategori byen yo fè vrè alokasyon yon pòtfolyo deplase lwen sib orijinal li avèk tan.
+2. Reyekilibraj gen ladan vann byen ki depase sib yo e achte byen ki anba sib yo pou remete alokasyon yo te vle a.
+3. San reyekilibraj aktif, alokasyon an deplase natirèlman akoz pèfòmans diferan kategori byen yo.
+4. Alokasyon Sanjay te deplase sèlman akoz diferans pèfòmans ant aksyon ak obligasyon, se pa okenn desizyon aktif.
+
+**7. Pwen kle yo**
+- Alokasyon pòtfolyo deplase natirèlman avèk tan pandan kategori byen yo fè pèfòmans diferan.
+- Reyekilibraj remete yon pòtfolyo nan direksyon alokasyon sib orijinal li.
+- Apwòch kouran gen ladan reyekilibraj dapre kalandriye ak dapre limit.
+- Reyekilibraj jere risk lè l anpeche yon deplasman alokasyon ou pa t vle, endepandan de desizyon espre envestisè a.
+
+===== WHITE-L2-019
+TITLE: Envesti yon montan fiks regilyèman: envesti atravè volatilite
+SUMMARY: Envesti yon montan fiks regilyèman (dollar-cost averaging, DCA) vle di envesti yon montan fiks an dola nan entèval regilye (tankou chak mwa), kèlkeswa pri byen an nan chak entèval.
+## WHITE-L2-019
+### Envesti yon montan fiks regilyèman: envesti atravè volatilite
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon envesti yon montan fiks regilyèman (dollar-cost averaging) nan yon nivo konseptyèl.
+- Esplike kijan estrateji sa a gen enteraksyon ak volatilite mache a.
+- Rekonèt atirans sikolojik ak pratik apwòch sa a.
+
+**2. Kontni prensipal**
+Envesti yon montan fiks regilyèman (dollar-cost averaging, DCA) vle di envesti yon montan fiks an dola nan entèval regilye (tankou chak mwa), kèlkeswa pri byen an nan chak entèval, olye eseye envesti yon gwo kòb yon sèl kou oswa eseye chwazi moman acha otou pri ou panse ki favorab. Paske montan fiks an dola a achte plis pa lè pri yo pi ba e mwens pa lè pri yo pi wo, apwòch sa a ka bay yon pri mwayèn pa pa ki pi ba avèk tan konpare ak envesti menm montan total la nan yon sèl moman ki ta ka mal chwazi — menm si benefis sa a pa garanti nan chak senaryo, sitou nan yon mache k ap monte san rete (nou pral trete sa plis nan pwochen leson an).
+
+Pi lwen pase efè matematik la sèlman, DCA gen yon atirans sikolojik ak pratik ki enpòtan: li retire presyon pou eseye idantifye moman "pafè" pou envesti (sa raple paradòks chwa Leson 1 a), e li koresponn natirèlman ak fason anpil moun resevwa lajan toutbon — atravè chèk salè regilye — sa ki fè l yon apwòch pratik pa defo pou kontribisyon k ap kontinye, tankou kontribisyon nan kont retrèt ki soti nan chak chèk.
+
+**3. Egzanp pratik**
+Lè l ap kontribye yon montan fiks nan kont retrèt li nan chak chèk pandan yon ane volatil, Layla fini pa achte plis pa pandan mwa kote pri yo te desann e mwens pa pandan mwa kote pri yo te monte, san l pa bezwen pran okenn desizyon aktif sou moman li menm. Lè l revize rezilta li nan fen ane a, li jwenn pri mwayèn pa pa li te pi ba pase nivo pri mwayèn ane a, yon konsekans matematik fason konsistan e san emosyon li te achte atravè monte ak desann mache a — pandan l rekonèt tou rezilta sa a reflete modèl ane volatil espesifik sa a, se pa yon garanti pou chak ane nan lavni.
+
+**4. Egzamen pratik**
+1. Kisa envesti yon montan fiks regilyèman anjeneral gen ladan l?
+   a) Envesti yon gwo kòb yon sèl kou
+   b) Envesti yon montan fiks an dola nan entèval regilye, kèlkeswa pri a
+   c) Envesti sèlman lè pri yo ap desann
+   d) Evite envesti nèt
+
+2. Poukisa DCA ka bay yon pri mwayèn pa pa ki pi ba, nan kèk senaryo?
+   a) Li toujou garanti pri ki pi ba posib
+   b) Yon montan fiks an dola achte plis pa lè pri yo ba e mwens lè pri yo wo
+   c) Li pa gen rapò ak pri
+   d) Li mache sèlman lè pri yo toujou ap monte
+
+3. Vrè oswa Fo: DCA garanti pi bon rezilta pase envesti yon gwo kòb yon sèl kou nan chak senaryo mache posib.
+
+4. Ki atirans pratik DCA genyen pi lwen pase efè matematik li?
+   a) Li mande gwo kòb davans
+   b) Li retire presyon sou moman e li koresponn natirèlman ak kontribisyon chèk salè regilye
+   c) Li elimine tout risk envestisman
+   d) Li mande desizyon negosyasyon aktif chak jou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. DCA vle di envesti yon montan fiks nan entèval regilye, kèlkeswa pri a nan chak entèval.
+2. Achte plis pa nan pri ki pi ba e mwens nan pri ki pi wo ka diminye pri mwayèn pa pa, menm si sa pa garanti nan chak modèl mache.
+3. Benefis DCA konpare ak yon gwo kòb yon sèl kou depann de modèl pri espesifik ki rive, se pa yon garanti nan chak senaryo.
+4. DCA retire presyon sou moman e li aliyen natirèlman ak fason anpil moun resevwa e envesti lajan atravè chèk salè regilye.
+
+**7. Pwen kle yo**
+- DCA envesti yon montan fiks nan entèval regilye, kèlkeswa pri a.
+- Sa ka diminye pri mwayèn pa pa nan mache volatil oswa k ap desann, menm si li pa garanti nan chak senaryo.
+- DCA retire presyon sou moman, sa ki trete paradòks chwa Leson 1 te diskite a.
+- Li koresponn natirèlman ak modèl revni regilye, tankou kontribisyon retrèt ki soti nan chak chèk.
+
+===== WHITE-L2-020
+TITLE: Yon sèl gwo kòb kont envesti regilyèman: konpwomi yo
+SUMMARY: Sou baz leson anvan an, leson sa a konpare dirèkteman envesti yon gwo kòb yon sèl kou ak envesti yon montan fiks regilyèman – ak faktè sikolojik ki ka pi enpòtan pase kalkil sèlman.
+## WHITE-L2-020
+### Yon sèl gwo kòb kont envesti regilyèman: konpwomi yo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare dirèkteman envesti yon gwo kòb yon sèl kou ak envesti yon montan fiks regilyèman.
+- Esplike rezilta rechèch jeneral sou pèfòmans istorik relatif yo.
+- Rekonèt faktè sikolojik ki ka pi enpòtan pase konsiderasyon matematik sèlman.
+
+**2. Kontni prensipal**
+Sou baz leson anvan an, leson sa a konpare dirèkteman envesti yon gwo kòb yon sèl kou (lump sum) ak envesti yon montan fiks regilyèman (DCA). Rechèch moun diskite anpil sijere ke, an mwayèn, atravè peryòd istorik, envesti yon gwo kòb yon sèl kou souvan fè pi byen pase DCA lè envestisè a deja gen tout montan an disponib, sitou paske mache yo istorikman gen tandans monte sou pifò peryòd ki long, sa vle di "tann" pou envesti yon gwo kòb piti piti pi souvan vle di rate tan nan mache a pase evite yon bès.
+
+Sepandan, mwayèn istorik sa a pa vle di envesti yon gwo kòb yon sèl kou toujou fè pi byen nan chak peryòd espesifik, ni li pa konte yon faktè sikolojik enpòtan: yon envestisè ki ta santi anpil enkyetid oswa regrè si l envesti yon gwo kòb jis anvan yon bès mache ta ka vrèman benefisye — an tèm vrè konpòtman li ak kapasite li pou l rete fidèl ak plan li — de eksperyans emosyonèl ki pi dous DCA bay, menm si estrateji a pa, an mwayèn, pi bon matematikman.
+
+Leson Nivo 2 a se ke chwa "ki kòrèk" ant apwòch sa yo depann pa sèlman de mwayèn istorik, men de konstitisyon sikolojik envestisè espesifik la ak kijan l gen chans swiv plan li toutbon ak chak apwòch.
+
+**3. Egzanp pratik**
+Owen fèk resevwa yon gwo eritaj e l ap deside ant envesti tout yon sèl kou oswa gaye l sou plizyè mwa. Li revize rechèch jeneral la ki sijere envesti yon gwo kòb yon sèl kou te, an mwayèn, bay pi bon rezilta istorikman nan pifò peryòd, men li evalye onètman pwòp tanperaman li tou, li rekonèt li ta gen chans santi anpil enkyetid ak dout si l te envesti tout imedyatman e mache a te desann yon ti tan apre.
+
+Alafen Owen chwazi yon chemen nan mitan: li envesti yon majorite imedyatman, ak rès la li gaye sou plizyè mwa, li rekonèt klèman l ap bay pwòp kapasite sikolojik li pou l rete fidèl ak plan an priyorite sou rezilta mwayèn istorik strik la — yon konpwomi pèsonalize e enfòme olye l swiv youn nan apwòch yo avèg.
+
+**4. Egzamen pratik**
+1. Kisa rechèch moun diskite anpil sijere sou pèfòmans istorik mwayèn?
+   a) DCA toujou fè pi byen pase envesti yon gwo kòb yon sèl kou
+   b) Envesti yon gwo kòb yon sèl kou te, an mwayèn, souvan fè pi byen pase DCA istorikman
+   c) Tou de apwòch toujou bay rezilta idantik
+   d) Pèsonn pa janm etidye okenn nan apwòch yo
+
+2. Poukisa DCA ka toujou benefisye kèk envestisè, malgre mwayèn istorik la favorize yon gwo kòb yon sèl kou?
+   a) Li garanti yon retou pi wo
+   b) Li ka koresponn pi byen ak kapasite sikolojik yon envestisè pou l rete fidèl ak plan li
+   c) Li pa gen okenn aspè sikolojik
+   d) Lalwa mande sa
+
+3. Vrè oswa Fo: Envesti yon gwo kòb yon sèl kou fè pi byen pase DCA nan chak peryòd istorik san okenn eksepsyon.
+
+4. Ki konpwomi Owen te bay priyorite alafen nan desizyon li?
+   a) Swiv strikteman rezilta mwayèn istorik la sèlman
+   b) Pwòp kapasite sikolojik li pou l rete fidèl ak plan an, ansanm ak rechèch istorik la
+   c) Inyore tout rechèch nèt
+   d) Evite envesti ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Rechèch anjeneral sijere envesti yon gwo kòb yon sèl kou te, an mwayèn, fè pi byen pase DCA istorikman, menm si se pa nan chak peryòd.
+2. DCA ka sipòte pi byen kapasite sikolojik kèk envestisè pou yo rete fidèl ak plan yo, menm si l pa pi bon matematikman an mwayèn.
+3. Mwayèn istorik pa vle di envesti yon gwo kòb yon sèl kou fè pi byen nan chak peryòd espesifik.
+4. Owen te balanse espre rechèch istorik la ak yon evalyasyon onèt pwòp tanperaman sikolojik li.
+
+**7. Pwen kle yo**
+- Envesti yon gwo kòb yon sèl kou te, an mwayèn, istorikman fè pi byen pase DCA nan pifò peryòd, akoz tandans jeneral mache yo pou monte alontèm.
+- Mwayèn sa a pa garanti envesti yon gwo kòb yon sèl kou ap fè pi byen nan chak peryòd espesifik.
+- DCA ka sipòte pi byen kapasite sikolojik kèk envestisè pou yo swiv plan yo jiska bout.
+- Bon chwa a depann ni de rechèch istorik ni de yon evalyasyon onèt pwòp tanperaman sikolojik ou.
