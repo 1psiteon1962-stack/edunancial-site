@@ -1,0 +1,301 @@
+===== RED-L2-018
+TITLE: Kijan yon refinansman gen efè sou cash flow, ekite, ak risk
+SUMMARY: Moun souvan pale de refinansman an tèm yon sèl chif – nouvo to enterè a – men panse Nivo 2 mande pou swiv tout efè li sou cash flow, ekite, enterè total, ak risk.
+## RED-L2-018
+### Kijan yon refinansman gen efè sou cash flow, ekite, ak risk
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Swiv kijan yon desizyon refinansman afekte cash flow, pozisyon ekite, ak risk ansanm.
+- Esplike poukisa refinansman se yon desizyon plizyè pyès, se pa yon desizyon yon sèl chif.
+- Evalye yon senaryo refinansman ak plis pase nouvo to enterè a sèlman.
+
+**2. Kontni prensipal**
+Moun souvan pale de refinansman an tèm yon sèl chif — nouvo to enterè a — men panse Nivo 2 mande pou swiv efè l ki gaye. Yon to pi ba ka diminye peman chak mwa (cash flow amelyore), men frè fèmti diminye kach ki disponib okòmansman, e rekòmanse dire yon prè ka vle di peye plis enterè total avèk tan menm ak yon to pi ba, selon ki kote w te rive nan prè orijinal la.
+
+Yon refinansman cash-out gaye efè l pi lwen: ekite diminye imedyatman (paske yon pi gwo prè kounye a chita sou menm valè pwopriyete a), peman chak mwa a gen chans monte, e risk ogmante si yo pa itilize kach yo retire a yon fason ki konpanse depans anplis la — pa egzanp, finanse renovasyon ki ogmante revni lwaye, kont depanse kach la sou yon bagay ki pa gen rapò ak pèfòmans pwopriyete a.
+
+Konpetans prensipal la se reziste anvi pou evalye yon refinansman ak to a sèlman, e pito mande kisa ki rive cash flow, ekite, enterè total ou peye, ak risk ansanm.
+
+**3. Egzanp pratik**
+Yo ofri Marcus yon refinansman ak yon to enterè ki pi ba anpil pase prè l genyen kounye a. Kontan pou to ki pi ba a, li prèske avanse imedyatman. Anvan l fè sa, li trase tout pòtre a: to ki pi ba a ta diminye peman chak mwa li, men li sèlman nan setyèm ane yon prè li deja peye enterè sou li pandan plizyè ane, e rekòmanse yon nouvo prè ak tout dire vle di li ta peye enterè sou yon nouvo kalandriye ki pi long, sa ki ka ogmante total enterè li peye pandan tout lavi prè a malgre to ki pi ba a.
+
+Olye sa, Marcus negosye yon nouvo dire prè ki pi kout ki toujou diminye peman chak mwa li yon ti jan pandan l limite ogmantasyon enterè total la, apre l fin konpare plizyè senaryo ak moun k ap prete l la olye l aksepte premye òf la dapre to a sèlman.
+
+**4. Egzamen pratik**
+1. Poukisa ou pa ta dwe evalye yon refinansman ak to enterè a sèlman?
+   a) To enterè pa enpòtan
+   b) Lòt faktè tankou dire prè, frè fèmti, ak efè sou ekite enpòtan tou
+   c) To enterè pa janm chanje
+   d) Refinansman pa gen lòt efè
+
+2. Kisa ki rive ekite imedyatman apre yon refinansman cash-out?
+   a) Li ogmante
+   b) Li diminye, paske balans prè a monte sou menm valè pwopriyete a
+   c) Li rete menm jan
+   d) Li vin san limit
+
+3. Vrè oswa Fo: Yon to enterè pi ba toujou garanti mwens enterè total pandan tout lavi prè a.
+
+4. Kisa Marcus te fè yon lòt jan apre l te trase tout pòtre a?
+   a) Li te avanse ak premye òf la imedyatman
+   b) Li te konpare plizyè senaryo, li te konsidere dire prè ak enterè total, pa sèlman to a
+   c) Li te anile tout plan pou refinanse
+   d) Li te inyore frè fèmti yo
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon refinansman afekte plizyè pyès — dire, frè fèmti, ekite — pa sèlman to ki parèt nan piblisite a.
+2. Refinansman cash-out ogmante balans prè a sou menm valè pwopriyete a, sa ki diminye ekite imedyatman.
+3. Yon to pi ba ansanm ak yon dire ki rekòmanse e ki pi long ka toujou ogmante total enterè ou peye pandan lavi prè a.
+4. Marcus te elaji evalyasyon li pou l mete dire prè ak pri enterè total ladan l, sa ki te evite yon desizyon ki baze sou to a sèlman.
+
+**7. Pwen kle yo**
+- Refinansman afekte cash flow, ekite, pri enterè total, ak risk ansanm, pa sèlman to chak mwa a.
+- Rekòmanse dire yon prè ka ogmante enterè total pandan lavi prè a menm ak yon to pi ba.
+- Refinansman cash-out diminye ekite imedyatman an echanj pou kapital ou ka itilize.
+- Evalye yon òf refinansman ak tout pòtre a, se pa ak to yo afiche a sèlman.
+
+===== RED-L2-019
+TITLE: HELOC ak ekite kay: yon dezyèm pyès sou menm tablo a
+SUMMARY: Yon Liy Kredi sou Ekite Kay (HELOC) se yon liy kredi ki renouvlab ki garanti pa ekite yon pwopriyete, ki anjeneral chita akote – san l pa ranplase – prè ipotèk ki egziste a.
+## RED-L2-019
+### HELOC ak ekite kay: yon dezyèm pyès sou menm tablo a
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon Liy Kredi sou Ekite Kay (HELOC) nan yon nivo konseptyèl.
+- Fè diferans ant yon HELOC ak yon refinansman cash-out.
+- Esplike risk ki genyen nan prete sou ekite kay.
+
+**2. Kontni prensipal**
+Yon Liy Kredi sou Ekite Kay (HELOC) se yon liy kredi renouvlab ki garanti pa ekite yon pwopriyete, ki anjeneral chita akote — san l pa ranplase — prè ipotèk ki egziste a. Kontrèman ak yon refinansman cash-out, ki ranplase tout premye prè ipotèk la ak yon nouvo prè ki pi gwo, yon HELOC anjeneral se yon dezyèm prè separe sou menm pwopriyete a, souvan ak yon to enterè varyab ak yon peryòd retrè pandan moun k ap prete a ka jwenn lajan lè l bezwen l, swiv pa yon peryòd ranbousman.
+
+Paske yon HELOC garanti pa pwopriyete a, rate peman gen menm risk fondamantal ak rate yon peman ipotèk: posiblite pou sezi kay la (forclosure), paske kay la se garanti pou tou de prè yo. Prete sou ekite kay se pa "lajan gratis" — se dèt ki garanti pa yon byen moun k ap prete a bezwen, sa ki ajoute yon dezyèm obligasyon sou premye prè ipotèk la.
+
+Yo souvan itilize HELOC pou renovasyon, fon ijans, oswa lòt bezwen kapital kote fleksibilite (retire sa w bezwen, lè w bezwen l) gen valè, men panse Nivo 2 mande pou peze fleksibilite sa a kont risk anplis yon dezyèm privilèj sou pwopriyete a.
+
+**3. Egzanp pratik**
+Simone gen anpil ekite nan rezidans prensipal li e li louvri yon HELOC pou finanse renovasyon kizin li, li planifye pou l retire lajan piti piti pandan fakti kontraktè yo ap vin dwe olye l pran tout kòb la yon sèl kou. Sa ba l fleksibilite konpare ak yon refinansman cash-out, ki ta mande pou l prete tout montan renovasyon an davans, menm anvan li te konnen tout depans yo.
+
+Sepandan, Simone konprann kay li kounye a garanti de prè — prè ipotèk orijinal li ak HELOC la — e rate peman sou nenpòt nan yo ta ka mete kay li an danje. Li bati plan ranbousman li sou vrè bidjè li, pa sèlman sou limit kredi ki disponib la, li trete HELOC la kòm dèt pou jere ak atansyon, se pa kòm lajan anplis pou depanse.
+
+**4. Egzamen pratik**
+1. Kisa ki garanti yon HELOC?
+   a) Kat kredi moun k ap prete a
+   b) Ekite nan pwopriyete a
+   c) Patwon moun k ap prete a
+   d) Anyen — li pa garanti
+
+2. Kijan yon HELOC anjeneral diferan de yon refinansman cash-out?
+   a) Yon HELOC ranplase premye prè ipotèk la nèt
+   b) Yon HELOC anjeneral se yon liy kredi separe akote prè ipotèk ki egziste a
+   c) Yon HELOC pa gen to enterè
+   d) Yo idantik nan tout fason
+
+3. Vrè oswa Fo: Lè w pa ranbouse yon HELOC, sa pa gen okenn risk pou pwopriyete a, paske se yon liy kredi olye yon prè ipotèk.
+
+4. Poukisa Simone te chwazi yon HELOC olye yon refinansman cash-out pou renovasyon li?
+   a) Li te bezwen tout montan an imedyatman
+   b) Li te vle fleksibilite pou l retire lajan piti piti pandan depans yo t ap vin konnen
+   c) HELOC pa gen risk
+   d) Moun k ap prete l la te oblije l
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon HELOC garanti pa ekite nan pwopriyete a.
+2. Kontrèman ak yon refinansman cash-out, yon HELOC anjeneral chita akote prè ipotèk ki egziste a kòm yon liy kredi separe.
+3. Paske yon HELOC garanti pa kay la, rate peman gen yon vrè risk sezi, menm jan ak yon prè ipotèk.
+4. Simone te bay valè ak fleksibilite pou l retire lajan lè l bezwen olye l prete yon gwo kòb davans.
+
+**7. Pwen kle yo**
+- Yon HELOC se yon liy kredi renouvlab ki garanti pa ekite kay, anjeneral separe de premye prè ipotèk la.
+- Li ofri fleksibilite pou retire lajan lè w bezwen, souvan ak yon to varyab.
+- Paske li garanti pa pwopriyete a, peman ou rate gen yon vrè risk sezi.
+- Ou ta dwe trete yon HELOC kòm dèt pou jere ak atansyon, se pa kòm lajan "anplis" ki disponib.
+
+===== RED-L2-020
+TITLE: Itilize ekite san w pa pèdi kay la
+SUMMARY: Leson sa a rasanble zouti pou jwenn aksè ak ekite nivo sa a kouvri – refinansman cash-out (Leson 17) ak HELOC (Leson 19) – ak yon kad pou itilize ekite yon fason responsab.
+## RED-L2-020
+### Itilize ekite san w pa pèdi kay la
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Rezime zouti prensipal pou jwenn aksè ak ekite kay nou kouvri jiskaprezan.
+- Konpare nivo risk yo ak ka kote li apwopriye pou itilize yo.
+- Eksprime yon kad pou itilize ekite yon fason responsab.
+
+**2. Kontni prensipal**
+Leson sa a rasanble zouti pou jwenn aksè ak ekite nivo sa a kouvri: refinansman cash-out (Leson 17) ak HELOC (Leson 19), ansanm ak konsèp efè lefye pi laj leson anvan yo. Tout zouti sa yo gen yon fil komen: yo konvèti ekite kay ki pa likid an kapital ou ka itilize lè yo ajoute sou, oswa restriktire, dèt ki garanti pa pwopriyete a.
+
+Kad Nivo 2 pou itilize ekite yon fason responsab gen ladan l poze kesyon sa yo, anvan w itilize nenpòt nan zouti sa yo: Pou kisa lajan an ye? Èske l amelyore pwopriyete a oswa pozisyon finansye moun k ap prete a (tankou finanse renovasyon ki ogmante valè oswa revni), oswa èske y ap itilize l pou konsomasyon ki pa bay okenn benefis finansye pou konpanse? Ki plan ranbousman reyalis la, endepandan de sipozisyon ke pwopriyete a ap kontinye pran valè? E ki pi move senaryo si revni desann oswa to yo monte (pou zouti ak to varyab tankou anpil HELOC)?
+
+Ekite kay se vrè richès, men se valè do kay ki sou tèt yon moun tou. Trete l tankou yon bwat sere pou jou lapli san yon plan ranbousman se youn nan erè finansye ki pi kouran e ki koute pi chè envestisè ak pwopriyetè kay fè.
+
+**3. Egzanp pratik**
+De vwazen chak itilize ekite kay yo nan menm ane a. Youn itilize yon HELOC pou finanse yon long vakans ak depans jeneral, san okenn plan ranbousman espesifik pi lwen pase fè peman minimòm ak espere yon bonis nan travay. Lòt la itilize yon refinansman cash-out espesyalman pou finanse yon ekstansyon ki ogmante espas pou viv nan kay li ak valè evalyasyon l, ak yon plan klè sou kijan peman anplis la antre nan bidjè li deja genyen.
+
+Tou de teknikman "itilize ekite yo." Youn ajoute dèt san okenn amelyorasyon byen pou konpanse ni yon plan ranbousman klè. Lòt la ajoute dèt men li ajoute valè tou e li te gen yon plan espesifik ki nan bidjè anvan l prete.
+
+**4. Egzamen pratik**
+1. Ki kesyon leson sa a rekòmande pou poze anvan w itilize ekite kay?
+   a) Kisa mache dechanj ap fè kounye a?
+   b) Pou kisa lajan an ye, e èske gen yon plan ranbousman reyalis?
+   c) Ki koulè pou m pentire kay la?
+   d) Èske vwazen an ap fè l tou?
+
+2. Ki yon erè kouran e ki koute chè leson sa a mansyone?
+   a) Pa janm itilize ekite kay ditou
+   b) Trete ekite kay tankou yon bwat sere pou jou lapli san yon plan ranbousman
+   c) Peye yon prè ipotèk anvan lè
+   d) Bati rezèv
+
+3. Vrè oswa Fo: Tout fason pou itilize ekite kay gen egzakteman menm nivo risk ak benefis finansye.
+
+4. Kisa ki te fè diferans nan fason de vwazen yo te itilize ekite kay yo nan egzanp lan?
+   a) Youn te gen plis ekite pase lòt la
+   b) Youn te gen yon plan ranbousman espesifik ak yon itilizasyon ki amelyore byen an; lòt la pa t genyen
+   c) Youn te itilize yon HELOC e lòt la te itilize kach
+   d) Yo te idantik nan tout bagay
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kad leson sa a chita sou objektif ak plan ranbousman anvan w itilize ekite.
+2. Leson an mete aksan sou itilize ekite san yon plan ranbousman, trete l tankou lajan gratis pou depanse, kòm yon erè kouran ki koute chè.
+3. Itilizasyon yo varye anpil selon objektif, planifikasyon ranbousman, ak si lajan ou prete a amelyore byen oswa pozisyon ki anba a.
+4. Diferans kle a se te planifikasyon entansyonèl ak yon itilizasyon ki amelyore byen an kont depans konsomasyon san plan.
+
+**7. Pwen kle yo**
+- Refinansman cash-out ak HELOC tou de konvèti ekite kay an kapital ou ka itilize lè yo ajoute sou dèt ki garanti.
+- Itilizasyon responsab kòmanse lè w mande pou kisa lajan an ye e si gen yon plan ranbousman reyalis.
+- Itilize ekite pou amelyore pwopriyete a oswa pozisyon finansye diferan anpil de itilize l pou konsomasyon san plan.
+- Ekite kay se vrè richès ki mare ak valè yon kay — li merite menm disiplin planifikasyon ak nenpòt lòt gwo desizyon finansye.
+
+===== RED-L2-021
+TITLE: Renove-pou-vann kont achte-pou-kenbe: diferan jwèt, diferan tablo
+SUMMARY: Renove-pou-vann vle di achte yon pwopriyete, renove l, e vann li relativman vit pou fè benefis; achte-pou-kenbe vle di kenbe l alontèm pou revni lwaye ak plis-valè.
+## RED-L2-021
+### Renove-pou-vann kont achte-pou-kenbe: diferan jwèt, diferan tablo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare estrateji renove-pou-vann (fix-and-flip) ak achte-pou-kenbe (buy-and-hold).
+- Idantifye diferan konpetans, kalandriye, ak risk pou chak youn.
+- Esplike kijan chak estrateji chanje pyès yo yon fason diferan.
+
+**2. Kontni prensipal**
+Renove-pou-vann vle di achte yon pwopriyete (souvan pi ba pase valè mache a oswa ki bezwen reparasyon), renove l, e vann li relativman vit pou fè benefis. Achte-pou-kenbe vle di achte yon pwopriyete e kenbe l pandan yon peryòd ki pi long, pou pwodui revni lwaye e benefisye de plis-valè posib alontèm ak dèt k ap diminye.
+
+Estrateji sa yo mande diferan konpetans e yo ekspoze envestisè a diferan risk. Renove-pou-vann depann anpil de estime pri ak kalandriye renovasyon yo byen, konprann mache revant lokal la, ak jere finansman kout tèm (souvan pi chè, paske peryòd kenbe a kout men ijan). Depasman nan pri oswa nan tan manje benefis la dirèkteman, paske pa gen revni lwaye k ap kontinye pou absòbe reta yo.
+
+Achte-pou-kenbe depann plis de jesyon cash flow alontèm, relasyon ak lokatè, antretyen kontinyèl, ak pasyans atravè sik mache yo. Li mwens ekspoze a moman yon sèl evènman revant men li mande yon jesyon kontinyèl pandan plizyè ane, se pa plizyè mwa.
+
+Okenn estrateji pa pi bon; yo koresponn ak diferan konpetans, disponiblite kapital, angajman tan, ak objektif — e kèk envestisè itilize tou de, nan diferan moman oswa ak diferan pwopriyete.
+
+**3. Egzanp pratik**
+De envestisè chak achte yon pwopriyete an difikilte nan menm katye a. Ravi renove pa l la e li vann li nan sis mwa, li fè benefis sou diferans ant pri total li (acha, renovasyon, finansman, ak frè vant) ak pri vant lan — men li ekspoze a risk ke reta nan renovasyon oswa yon mache k ap refwadi ta ka diminye oswa elimine benefis sa a.
+
+Ana renove yon pwopriyete ki sanble men li kenbe l kòm pwopriyete lwaye, li finanse l ak yon prè ipotèk ki pi long. Retou li vini piti piti atravè cash flow lwaye ak ekite k ap bati pandan plizyè ane, ak mwens ekspozisyon a moman yon sèl evènman revant, men plis ekspozisyon a plizyè ane jesyon lokatè ak antretyen.
+
+**4. Egzamen pratik**
+1. Ki objektif jeneral renove-pou-vann?
+   a) Revni lwaye alontèm
+   b) Renove e vann relativman vit pou fè benefis
+   c) Pa janm vann pwopriyete a
+   d) Evite tout renovasyon
+
+2. Ki yon risk kle ki espesifik pou renove-pou-vann?
+   a) Lokatè ki chanje souvan alontèm
+   b) Depasman pri ak kalandriye renovasyon ki manje benefis san revni lwaye pou konpanse
+   c) Taks pwopriyete k ap monte pandan plizyè deseni
+   d) Okenn — li pa gen risk
+
+3. Vrè oswa Fo: Achte-pou-kenbe ak renove-pou-vann mande egzakteman menm konpetans ak menm tolerans pou risk.
+
+4. Kisa ki pi diferan ant apwòch Ravi ak Ana sou pwopriyete ki sanble?
+   a) Katye a
+   b) Kalandriye sòti yo ak nati ekspozisyon yo a risk
+   c) Pri acha a
+   d) Anyen — estrateji yo te idantik
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Renove-pou-vann chita sou renove e revann relativman vit pou fè benefis.
+2. Paske pa gen revni lwaye k ap kontinye pandan yon renove-pou-vann, depasman nan pri oswa kalandriye manje benefis la dirèkteman.
+3. Estrateji sa yo mande diferan konpetans, kalandriye, ak ekspozisyon a risk.
+4. Risk Ravi te chita sou moman yon sèl evènman revant ak kontwòl pri; risk Ana te chita sou yon jesyon kontinyèl pandan plizyè ane.
+
+**7. Pwen kle yo**
+- Renove-pou-vann vize yon benefis renove-e-vann relativman rapid; achte-pou-kenbe vize revni ak plis-valè alontèm.
+- Risk renove-pou-vann konsantre sou kontwòl pri ak kalandriye san revni lwaye pou konpanse.
+- Risk achte-pou-kenbe gaye sou plizyè ane jesyon, lokatè, ak sik mache.
+- Okenn estrateji pa pi bon pou tout moun — yo koresponn ak diferan konpetans, kapital, kalandriye, ak objektif.
+
+===== RED-L2-022
+TITLE: Lokasyon kout tèm: nouvo revni, nouvo règleman
+SUMMARY: Lokasyon kout tèm (STR) – pwopriyete yo lwe pou kèk jou oswa kèk semèn, souvan atravè platfòm sou entènèt – ka pwodui plis revni brit pa nwit pase yon kontra lwaye long tèm, men yo vini ak diferan demann jesyon ak règleman lokal.
+## RED-L2-022
+### Lokasyon kout tèm: nouvo revni, nouvo règleman
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike modèl jeneral lokasyon kout tèm (STR).
+- Idantifye kijan STR diferan de lokasyon long tèm tradisyonèl nan revni ak jesyon.
+- Rekonèt enpòtans règleman lokal sou viabilite STR.
+
+**2. Kontni prensipal**
+Lokasyon kout tèm (STR) — pwopriyete yo lwe pou kèk jou oswa kèk semèn, souvan atravè platfòm sou entènèt — ka pwodui plis revni brit pa nwit pase yon kontra lwaye long tèm tradisyonèl, men yo vini ak demann jesyon ki diferan anpil: plis chanjman lokatè, netwayaj, kominikasyon ak envite, e souvan yon patisipasyon chak jou ki pi aktif oswa yon sèvis jesyon espesyalize.
+
+Pi gwo varyab envestisè Nivo 2 dwe fè rechèch sou li anvan yo chwazi STR se règleman lokal. Anpil vil ak minisipalite te vote règ ki limite oswa ki mande lisans pou lokasyon kout tèm — pafwa yo limite yo a pwopriyete kote pwopriyetè a rete, yo mete yon plafon sou kantite nwit lokasyon chak ane, oswa yo entèdi yo nèt nan sèten zòn. Règ sa yo chanje souvan e yo varye anpil selon kote w ye, sa ki fè sa a youn nan sijè ki pi RÈG ESPESIFIK POU REJYON AN nan pwogram sa a. Yon pwopriyete ki rantab kòm STR jodi a ta ka vin pa konfòm, oswa anpil mwens rantab, apre yon chanjman nan règleman.
+
+Revni STR ka pi enstab tou pase revni lwaye long tèm, li varye ak sezon, evènman lokal, ak chanjman nan algoritm platfòm yo — faktè yon kontra lwaye long tèm pwoteje yon pwopriyetè kont yo an gran pati.
+
+**3. Egzanp pratik**
+Anvan l achte yon pwopriyete espesyalman pou lokasyon kout tèm, Julia fè rechèch sou òdonans STR aktyèl vil li vize a, li jwenn li pèmèt kounye a STR kote pwopriyetè a pa rete ak yon pèmi ak yon plafon sou kantite nwit lokasyon chak ane. Li bati pwojeksyon finansye li sou plafon sa a, olye l sipoze kantite nwit lokasyon san limit, e li mete yon pati nan bidjè rechèch li apa pou swiv chanjman nan règleman, paske yon vòt konsèy minisipal ta ka chanje règ yo ak ti avètisman.
+
+Lè l analize dapre plafon legal aktyèl la olye yon senaryo pi bon ka, pwojeksyon Julia yo rete pi reyalis — e li gen yon plan ijans (konvèti l an lokasyon long tèm) si règleman yo vin pi sevè.
+
+**4. Egzamen pratik**
+1. Ki yon karakteristik kouran nan jesyon lokasyon kout tèm konpare ak lokasyon long tèm?
+   a) Mwens chanjman lokatè
+   b) Plis chanjman lokatè, netwayaj, ak kominikasyon ak envite
+   c) Pa gen jesyon ki nesesè
+   d) Idantik ak yon kontra 30 an
+
+2. Kisa yo dekri kòm pi gwo varyab pou fè rechèch sou li anvan w chwazi STR?
+   a) Tandans koulè penti
+   b) Règleman lokal
+   c) Istwa travay lokatè a
+   d) To enterè nasyonal sèlman
+
+3. Vrè oswa Fo: Règleman lokasyon kout tèm menm jan e yo pa chanje nan tout vil.
+
+4. Poukisa Julia te analize dapre plafon legal aktyèl la olye yon senaryo pi bon ka?
+   a) Li te vle surestime revni li
+   b) Règleman ka chanje, e mete limit legal aktyèl la te bay pwojeksyon ki pi reyalis
+   c) Plafon an te pi rantab pase lokasyon san limit
+   d) Moun k ap prete l la te oblije l
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. STR anjeneral mande plis chanjman lokatè ak yon jesyon pi dirèk pase lokasyon long tèm.
+2. Leson an mete aksan sou règleman lokal kòm faktè ki pi enpòtan e ki pi varyab ki afekte viabilite STR.
+3. Règleman STR varye anpil selon vil e yo chanje souvan, sa ki fè sa a yon sijè ki depann fò de rejyon an.
+4. Analiz konsèvatè Julia dapre plafon legal aktyèl la te pwoteje pwojeksyon li kont twòp optimis sou kantite nwit lokasyon ki ta disponib nan lavni.
+
+**7. Pwen kle yo**
+- Lokasyon kout tèm ka pwodui plis revni brit men yo mande yon jesyon pi aktif e pi frekan.
+- Règleman lokal se faktè ki pi enpòtan e ki pi varyab nan viabilite STR.
+- Règ STR chanje souvan e yo diferan anpil selon kote w ye — toujou verifye lalwa lokal aktyèl la.
+- Yon analiz konsèvatè dapre limit legal aktyèl yo, ak yon plan ijans, pwoteje w kont chanjman nan règleman.
