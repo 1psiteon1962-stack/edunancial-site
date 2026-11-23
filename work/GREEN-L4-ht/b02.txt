@@ -1,0 +1,399 @@
+===== GREEN-L4-006
+TITLE: Analiz amòtisman: poukisa yon depans ki pa an kach toujou diminye bòdwo taks la
+SUMMARY: Konprann kijan amòtisman fonksyone kòm yon dediksyon taks, poukisa li diminye revni taksab san li pa mande okenn vrè depans kach nan ane yo reklame l la, e poukisa sa kreye yon vrè opòtinite planifikasyon taks.
+KEYWORDS: amòtisman, depans ki pa an kach, moman dediksyon taks, rekiperasyon kou byen
+# Analiz amòtisman: poukisa yon depans ki pa an kach toujou diminye bòdwo taks la
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd jeneral ap fòse anpil biznis reegzamine byen pre chak sous lajan kach ki disponib pou yo, kèk dekouvri ankò ke yon dediksyon taks espesifik ki pa an kach yo te konn reklame regilyèman pandan plizyè ane an reyalite bay yon vrè valè k ap kontinye jisteman paske li diminye bòdwo taks yo san li pa mande okenn depans kach kounye a. Leson sa a egzamine egzakteman kijan dediksyon sa a mache.
+
+## Objektif aprantisaj
+- Esplike kisa amòtisman vle di kòm yon konsèp taks, lè n bati sou diskisyon ki gen rapò nan chemen WHITE-L4 ak BLUE-L4 yo.
+- Esplike poukisa yo dekri amòtisman kòm yon depans "ki pa an kach" pou rezon taks.
+- Esplike poukisa karakteristik ki pa an kach sa a fè amòtisman yon dediksyon ki vrèman gen valè, sitou enpòtan pou planifikasyon lajan kach ki efikas pou taks.
+- Esplike konsèp jeneral yon orè amòtisman ki gaye yon dediksyon sou plizyè ane olye tout an yon sèl fwa.
+
+## Kontni prensipal
+Amòtisman se yon dediksyon taks ki pèmèt yon biznis (oswa yon moun ki gen yon pwopriyete biznis oswa lokasyon ki kalifye) dedui yon pati nan kou yon byen ki kalifye (tankou ekipman, yon machin, oswa yon bilding lokasyon) sou dire lavi itil byen sa a, olye dedui tout kou acha a nan sèl ane yo te vrèman achte byen an. FÈ VERIFYE: yo dekri amòtisman kòm yon depans ki pa an kach espesyalman paske yo reklame dediksyon an sou deklarasyon taks la nan yon ane done san li pa mande okenn vrè lajan kach soti nan biznis la nan ane espesifik sa a — vrè depans kach pou byen an an jeneral te fèt pi bonè, nan moman acha a, alòske yo gaye dediksyon amòtisman an e yo reklame l sou plizyè ane taks apre selon yon orè amòtisman espesifik.
+
+Men "poukisa" karakteristik ki pa an kach sa a fè amòtisman yon zouti planifikasyon taks ki vrèman gen valè, sa ki gen rapò dirèk ak senaryo egzamen lajan kach pi wo a: yon biznis ka diminye revni taksab li, e kidonk bòdwo taks li, nan yon ane done atravè dediksyon amòtisman san dediksyon sa a pa mande okenn vrè lajan kach soti nan biznis la nan menm ane sa a, sa ki vle di amòtisman an reyalite amelyore lajan kach apre taks yon biznis konpare ak pwofi kontab li nan nenpòt ane done — biznis la rive kenbe plis nan vrè lajan kach li gen nan men pase sa revni taksab li pou kont li ta ka sijere, jisteman paske yon pati nan dediksyon yo pèmèt li nan ane sa a reflete kou yon byen li te deja peye anvan olye okenn nouvo depans kach.
+
+Se poutèt sa konprann konsèp yon orè amòtisman — modèl espesifik, yo fikse davans, kote yo gaye total kou yon byen sou dire lavi itil li pou rezon dediksyon taks, sa ki konekte ak konsèp segregasyon kou nou pral kouvri nan pwochen leson an — enpòtan pou yon vrè planifikasyon taks: yo bay diferan kalite byen diferan peryòd lavi itil ak metòd amòtisman anba règ taks ki aplike yo, RÈG ESPESIFIK POU REJYON AN, konfime règ espesifik aktyèl yo ak tablo lavi itil ki aplike pou yon kalite byen ak yon jiridiksyon done (règ Etazini ak règ Ayiti, pa egzanp, pa menm), sa ki vle di moman ak montan espesifik dediksyon amòtisman ki disponib nan nenpòt ane done depann de byen patikilye a ak metòd ak orè amòtisman espesifik ki aplike pou li.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis achte yon ekipman pou $100,000, li peye tout montan an kach nan moman acha a. Olye dedui tout $100,000 la nan premye ane sa a, biznis la amòti ekipman an pito sou yon dire lavi itil senk ane anba orè amòtisman ki aplike a, li reklame yon pati nan kou $100,000 sa a kòm yon dediksyon taks nan chak nan senk ane ki vin apre yo. Nan dezyèm ane a, biznis la reklame yon dediksyon amòtisman $20,000, sa ki diminye revni taksab li pa montan sa a e ki bese bòdwo taks li an konsekans, menm si okenn vrè lajan kach pa t soti nan biznis la nan dezyèm ane a ki gen rapò espesyalman ak dediksyon sa a — depans kach la te deja fèt depi nan moman acha orijinal la.
+
+## Egzamen pratik
+**Q1. Kisa amòtisman pèmèt yon biznis fè pou rezon taks?**
+A) Dedui tout kou yon byen ki kalifye imedyatman nan ane acha a, san gaye l sou tan
+B) Dedui yon pati nan kou yon byen ki kalifye sou dire lavi itil byen sa a, gaye sou plizyè ane taks olye tout nan ane acha a
+C) Amòtisman pa gen okenn rapò ak jan yo dedui kou yon byen pou rezon taks
+D) Amòtisman aplike sèlman pou byen yo pa janm vrèman itilize nan biznis la
+
+**Q2. Poukisa yo dekri amòtisman kòm yon depans "ki pa an kach"?**
+A) Amòtisman mande pou yo fè yon vrè peman kach nan menm ane yo reklame dediksyon an
+B) Yo reklame dediksyon an sou deklarasyon taks la nan yon ane done san li pa mande okenn vrè lajan kach soti nan biznis la nan ane espesifik sa a, paske depans kach la te deja fèt pi bonè nan moman acha a
+C) Depans ki pa an kach pa vrèman yon kategori lwa taks rekonèt
+D) Dediksyon amòtisman pa gen okenn rapò ak pri acha kach orijinal yon byen
+
+**Q3. Poukisa karakteristik ki pa an kach amòtisman an fè l yon zouti planifikasyon taks ki vrèman gen valè?**
+A) Amòtisman pa gen okenn vrè efè sou bòdwo taks oswa lajan kach yon biznis nan okenn ane
+B) Li diminye revni taksab ak bòdwo taks nan yon ane done san li pa mande okenn depans kach kounye a, sa ki an reyalite amelyore lajan kach apre taks konpare ak pwofi kontab nan ane sa a
+C) Amòtisman toujou mande yon peman kach ekivalan nan menm ane yo reklame dediksyon an
+D) Dediksyon ki pa an kach pa bay okenn vrè benefis finansye bay yon biznis
+
+**Q4. Kisa yon orè amòtisman detèmine?**
+A) Dat egzak yo dwe ranplase yon byen fizikman
+B) Modèl espesifik, yo fikse davans, kote yo gaye total kou yon byen sou dire lavi itil li pou rezon dediksyon taks
+C) Yon orè amòtisman pa gen okenn rapò ak kijan oswa kilè yo reklame dediksyon taks
+D) Orè a idantik pou chak kalite byen kèlkeswa dire lavi itil oswa klasifikasyon li
+
+**Q5. Nan egzanp lan, poukisa dediksyon amòtisman dezyèm ane biznis la te diminye bòdwo taks li san li pa mande okenn lajan kach soti nan biznis la ane sa a?**
+A) Biznis la te an reyalite fè yon nouvo peman kach nan dezyèm ane a ki gen rapò ak dediksyon espesifik sa a
+B) Depans kach $100,000 pou ekipman an te deja fèt nan moman acha orijinal la, alòske dediksyon amòtisman an li menm se te tou senpleman pati nan kou ki te deja depanse a yo t ap rekonèt kòm yon dediksyon taks nan dezyèm ane a
+C) Dediksyon amòtisman pa gen okenn vrè rapò ak acha kach orijinal yon biznis te fè pou yon byen
+D) Biznis la te resevwa yon ranbousman kach lè l te reklame dediksyon amòtisman an nan dezyèm ane a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Gaye dediksyon kou yon byen sou dire lavi itil li, olye yon sèl dediksyon imedya, se karakteristik ki defini amòtisman kòm yon konsèp taks.
+
+**Q2.** Distenksyon ant kilè yo te vrèman depanse lajan kach la (nan acha) ak kilè yo reklame dediksyon an (sou ane apre yo) se egzakteman sa ki fè amòtisman yon depans ki pa an kach nan chak ane dediksyon espesifik.
+
+**Q3.** Kapasite pou diminye responsablite taks ane kounye a san yon depans kach ane kounye a ki koresponn se egzakteman sa ki fè amòtisman gen valè pou vrè pozisyon lajan kach yon biznis.
+
+**Q4.** Orè a gouvène espesyalman moman ak montan dediksyon amòtisman ki disponib sou dire lavi itil yon byen, e li varye selon kalite byen ak règ taks ki aplike.
+
+**Q5.** Ilistrasyon dirèk sa a separasyon nan tan ant depans kach orijinal la ak dediksyon ki pa an kach pita a se egzakteman mekanis leson sa a dekri kòm karakteristik prensipal amòtisman.
+
+## Pwen kle yo
+- Amòtisman pèmèt yon biznis dedui kou yon byen ki kalifye sou dire lavi itil li, olye tout nan ane acha a.
+- Amòtisman se yon depans ki pa an kach, paske yo reklame dediksyon an nan ane ki vin apre vrè depans kach pou byen an te deja fèt.
+- Karakteristik ki pa an kach sa a amelyore lajan kach apre taks yon biznis konpare ak pwofi kontab li nan nenpòt ane dediksyon.
+- Yon orè amòtisman detèmine moman ak montan espesifik dediksyon ki disponib, e li varye selon kalite byen ak règ taks ki aplike.
+
+===== GREEN-L4-007
+TITLE: Analiz rekiperasyon amòtisman: poukisa vann yon byen ki amòti ka deklanche yon bòdwo taks ou pa t atann
+SUMMARY: Konprann kisa rekiperasyon amòtisman vle di, poukisa li aplike lè yo vann yon byen yo te amòti anvan, e poukisa pa planifye pou li ka kreye yon move sipriz taks.
+KEYWORDS: rekiperasyon amòtisman, taks sou vant byen, responsablite taks ranvwaye, bòdwo taks ou pa t atann
+# Analiz rekiperasyon amòtisman: poukisa vann yon byen ki amòti ka deklanche yon bòdwo taks ou pa t atann
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon boom imobilye ak byen biznis kredi te alimante ap defèt, kèk pwopriyetè k ap vann ekipman oswa pwopriyete yo te amòti anvan avèk yon pwofi sezi dekouvri yo taksé yon pati espesifik nan pwofi sa a yon lòt jan pase sa yo te atann, sa ki bay yon bòdwo taks ki pi gwo pase sa yon senp kalkil plis-vali pou kont li ta sijere. Leson sa a egzamine règ espesifik ki responsab sipriz sa a.
+
+## Objektif aprantisaj
+- Esplike kisa rekiperasyon amòtisman vle di.
+- Esplike poukisa rekiperasyon amòtisman egziste kòm yon règ taks, sa ki konekte ak analiz amòtisman Leson 6 la.
+- Esplike kijan yo an jeneral taksé rekiperasyon amòtisman yon lòt jan pase rès plis-vali sou menm vant byen an.
+- Esplike poukisa pa planifye pou rekiperasyon amòtisman ka kreye yon bòdwo taks ou pa t atann, ki pi gwo pase sa ou te prevwa, lè w vann yon byen ki amòti.
+
+## Kontni prensipal
+Rekiperasyon amòtisman (depreciation recapture) se yon règ taks ki mande yon kontribyab, lè l vann yon byen li te amòti anvan pou plis pase baz taks amòti li, pou l trete pati pwofi ki soti nan dediksyon amòtisman li te reklame anvan yo yon lòt jan pase rès pwofi a, e an jeneral yo taksé pati rekipere espesifik sa a nan to revni òdinè kontribyab la olye nan to plis-vali long tèm ki pi favorab ki ta ka otreman aplike sou rès pwofi a. FÈ VERIFYE: règ sa a konekte dirèkteman ak analiz amòtisman Leson 6 la — paske dediksyon amòtisman te diminye revni taksab kontribyab la nan ane anvan yo (sa ki te bay yon vrè benefis taks nan moman sa a), rekiperasyon amòtisman egziste espesyalman pou "rekipere", nan moman vant lan, kèk nan benefis taks dediksyon amòtisman yo te bay anvan. RÈG ESPESIFIK POU REJYON AN: règ sa a, jan yo dekri l isit la, se règ federal Etazini; lòt peyi, tankou Ayiti, gen pwòp tretman yo, kidonk konsilte yon pwofesyonèl taks ki kalifye.
+
+Men "poukisa" règ sa a egziste e kijan li chanje total kalkil taks la lè yo vann yon byen, sa ki gen rapò dirèk ak sipriz senaryo pi wo a dekri a: baz taks amòti yon byen (kou orijinal li mwens tout dediksyon amòtisman yo te reklame sou li avèk tan) pi ba pase pri acha orijinal li, sa ki vle di vann byen an nenpòt kote pi wo pase baz diminye sa a bay yon pwofi taksab — men pati nan pwofi sa a jiska montan amòtisman yo te reklame anvan an espesyalman sijè a tretman rekiperasyon (an jeneral taksé nan to revni òdinè, RÈG ESPESIFIK POU REJYON AN, to ak règ rekiperasyon espesifik yo varye selon kalite byen — règ rekiperasyon pou pwopriyete imobilye diferan yon fason enpòtan de règ rekiperasyon pou ekipman ak lòt pwopriyete pèsonèl), alòske nenpòt pwofi anplis ki depase montan amòtisman rekipere a taksé nan to plis-vali long tèm ki pi favorab la si kondisyon dire kenbe a respekte.
+
+Se poutèt sa pa planifye pou rekiperasyon amòtisman ka kreye yon move sipriz taks tout bon: yon kontribyab ki kalkile taks li atann sou yon vant byen lè l itilize sèlman to plis-vali long tèm ki pi favorab la, san li pa kontwole separeman pati espesifik pwofi sa a ki sijè a rekiperasyon nan to revni òdinè ki pi wo a, pral sou-estime anpil vrè total responsablite taks li sou vant lan — se poutèt sa yon bon planifikasyon taks alantou vant nenpòt byen yo te amòti anvan mande pou w idantifye espesyalman e kalkile separeman pati rekiperasyon pwofi a, olye aplike yon sèl to plis-vali sou tout tranzaksyon an.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis te achte ekipman pou $100,000 e li te reklame $60,000 total dediksyon amòtisman sou plizyè ane, sa ki diminye baz taks li nan ekipman an a $40,000. Apre sa biznis la vann ekipman an pou $90,000, sa ki bay yon total pwofi $50,000 ($90,000 pri vant mwens $40,000 baz ki rete). Paske pati rekiperasyon an limite a pi piti nan total pwofi a oswa total amòtisman yo te reklame anvan an, e pwofi $50,000 la pa depase $60,000 amòtisman anvan an, tout pwofi $50,000 la sijè a rekiperasyon e li taksé nan to revni òdinè biznis la, olye nan to plis-vali long tèm ki pi favorab biznis la te sipoze okòmansman, yon fason ki pa kòrèk, ki ta aplike sou tout tranzaksyon an.
+
+## Egzamen pratik
+**Q1. Kisa rekiperasyon amòtisman mande yon kontribyab fè lè l vann yon byen li te amòti anvan?**
+A) Inyore nèt nenpòt dediksyon amòtisman anvan lè l ap kalkile taks sou vant lan
+B) Trete pati pwofi ki soti nan dediksyon amòtisman li te reklame anvan yo yon lòt jan, e an jeneral taksé pati espesifik sa a nan to revni òdinè olye nan to plis-vali ki pi favorab la
+C) Rekiperasyon amòtisman pa gen okenn efè sou jan yo taksé yon vant byen
+D) Remèt tout montan amòtisman yo te reklame anvan an kòm yon peman taks separe
+
+**Q2. Poukisa rekiperasyon amòtisman egziste kòm yon règ taks, sa ki konekte ak analiz amòtisman Leson 6 la?**
+A) Rekiperasyon amòtisman pa gen okenn rapò ak dediksyon amòtisman yon kontribyab te reklame anvan
+B) Paske dediksyon amòtisman te bay yon vrè benefis taks nan ane anvan yo lè yo te diminye revni taksab, rekiperasyon amòtisman egziste pou rekipere kèk nan benefis taks anvan sa a nan moman yo finalman vann byen an
+C) Rekiperasyon amòtisman egziste sèlman kòm yon fòmalite administratif san okenn vrè rezon politik taks
+D) Rekiperasyon aplike sèlman pou byen yo pa t janm vrèman amòti nan ane anvan yo
+
+**Q3. Kijan yo an jeneral taksé pati rekipere yon pwofi yon lòt jan pase rès pwofi a sou menm vant byen an?**
+A) Yo toujou taksé pati rekipere a ak rès pwofi a menm jan nan to plis-vali long tèm nan
+B) Yo an jeneral taksé pati rekipere a nan to revni òdinè kontribyab la, alòske nenpòt pwofi anplis ki depase montan rekipere a ka taksé nan to plis-vali long tèm ki pi favorab la si kondisyon dire kenbe a respekte
+C) Pati rekipere a konplètman egzante de taks, alòske yo taksé rès pwofi a nan to revni òdinè
+D) Rekiperasyon amòtisman elimine bezwen pou peye okenn taks sou rès pati pwofi a
+
+**Q4. Poukisa pa planifye pou rekiperasyon amòtisman ka kreye yon bòdwo taks ou pa t atann, ki pi gwo pase sa ou te prevwa?**
+A) Rekiperasyon amòtisman pa janm vrèman chanje total taks ou dwe sou yon vant byen
+B) Yon kontribyab ki kalkile taks li atann lè l itilize sèlman to plis-vali long tèm ki favorab la, san li pa kontwole separeman pati rekiperasyon ki taksé nan to revni òdinè ki pi wo a, pral sou-estime anpil vrè total responsablite taks li
+C) Rekiperasyon amòtisman toujou bay yon total bòdwo taks ki pi ba pase sa yon senp kalkil plis-vali ta sijere
+D) Yo toujou kontwole règ rekiperasyon otomatikman san yo pa bezwen okenn planifikasyon taks espesifik
+
+**Q5. Nan egzanp lan, poukisa tout pwofi $50,000 biznis la te sijè a rekiperasyon amòtisman olye kalifye pou to plis-vali long tèm ki pi favorab la?**
+A) Biznis la pa t janm vrèman reklame okenn dediksyon amòtisman sou ekipman an
+B) Pati rekiperasyon an limite a pi piti nan total pwofi a oswa total amòtisman yo te reklame anvan an, e paske pwofi $50,000 la pa t depase $60,000 amòtisman anvan an, tout pwofi a te tonbe anba règ rekiperasyon an
+C) Vant ekipman biznis la pa t gen okenn rapò ak okenn amòtisman yo te reklame anvan
+D) To plis-vali long tèm nan te an reyalite pi wo pase to revni òdinè nan egzanp espesifik sa a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Egzijans espesifik sa a pou separe e taksé yon lòt jan pati rekipere pwofi a se karakteristik ki defini règ rekiperasyon amòtisman an.
+
+**Q2.** Règ la fèmen espesyalman sik benefis taks anvan amòtisman te bay la, sa ki asire yo kontwole kèk nan benefis sa a lè yo finalman vann byen an avèk yon pwofi.
+
+**Q3.** Tretman taks diferan sa a, ki an jeneral aplike to revni òdinè ki pi wo a espesyalman sou pati rekipere a, se sa ki fè l diferan de tretman rès pwofi a.
+
+**Q4.** Diferans ant yon premye estimasyon ki baze sèlman sou to plis-vali favorab la ak vrè taks ki pi wo ou dwe sou pati rekipere a se egzakteman sous move sipriz leson sa a dekri a.
+
+**Q5.** Paske total pwofi a pa t depase montan amòtisman yo te reklame anvan an, tout pwofi a te tonbe anba règ rekiperasyon an e li te sijè a tretman taks revni òdinè olye to plis-vali ki pi favorab la.
+
+## Pwen kle yo
+- Rekiperasyon amòtisman mande pou yo taksé pati yon pwofi ki soti nan dediksyon amòtisman anvan yo yon lòt jan, an jeneral nan to revni òdinè.
+- Règ sa a egziste pou rekipere kèk nan benefis taks dediksyon amòtisman te bay anvan nan ane anvan yo.
+- Yo taksé pati rekipere a nan to revni òdinè, alòske nenpòt rès pwofi ka kalifye pou to plis-vali long tèm ki pi favorab la.
+- Pa kalkile separeman pati rekiperasyon an anvan w vann yon byen ki amòti ka mennen nan yon gwo sou-estimasyon vrè total taks ou dwe.
+
+===== GREEN-L4-008
+TITLE: Analiz segregasyon kou: poukisa akselere amòtisman chanje kilè, se pa si, ou dwe taks
+SUMMARY: Konprann kijan yon etid segregasyon kou akselere dediksyon amòtisman lè l reklasifye eleman yon pwopriyete, e poukisa chanjman moman sa a, se pa yon diminisyon taks pèmanan, ki se vrè benefis la.
+KEYWORDS: segregasyon kou, amòtisman akselere, ranvwa taks, analiz pwopriyete imobilye ak biznis
+# Analiz segregasyon kou: poukisa akselere amòtisman chanje kilè, se pa si, ou dwe taks
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan to enterè ap monte anpil, yon pwopriyetè biznis k ap chèche fason pou amelyore lajan kach kout tèm pou ede absòbe kou prete ki pi wo dekouvri yon teknik amòtisman espesifik ki ka akselere anpil dediksyon taks nan premye ane yo lè w posede yon bilding oswa yon gwo byen. Leson sa a egzamine egzakteman kijan teknik sa a mache, e li klarifye sa li vrèman akonpli.
+
+## Objektif aprantisaj
+- Esplike kisa yon etid segregasyon kou fè, nan kontèks yon bilding oswa yon lòt byen ki gen plizyè eleman ansanm.
+- Esplike poukisa akselere dediksyon amòtisman nan premye ane yo ka amelyore lajan kach kout tèm yon fason enpòtan.
+- Esplike poukisa segregasyon kou se fondamantalman yon estrateji ranvwa taks olye yon diminisyon taks pèmanan.
+- Konekte segregasyon kou ak analiz rekiperasyon amòtisman Leson 7 la, e esplike poukisa amòtisman akselere ogmante ekspozisyon rekiperasyon nan lavni.
+
+## Kontni prensipal
+Yon etid segregasyon kou se yon analiz jeni ak kontabilite espesyalize ki idantifye eleman espesifik nan yon pi gwo pwopriyete (tankou yon bilding komèsyal) ki kalifye pou yon dire lavi itil amòtisman ki pi kout pase estrikti bilding nan li menm — pa egzanp, kèk sistèm elektrik, planche espesyalize, oswa amelyorasyon tè ta ka kalifye pou yon orè amòtisman pi kout anpil (petèt 5, 7, oswa 15 ane) pase eleman estriktirèl bilding nan li menm (ki ta ka amòti sou 27.5 oswa 39 ane, RÈG ESPESIFIK POU REJYON AN, konfime orè aktyèl ki aplike yo; chif sa yo se règ Etazini e yo pa aplike nan lòt peyi tankou Ayiti), sa ki reklasifye e separe eleman sa yo olye amòti tout pwopriyete a kòm yon sèl byen ansanm sou dire lavi itil ki pi long bilding nan.
+
+Men "poukisa" reklasifikasyon sa a amelyore lajan kach kout tèm yon fason enpòtan, sa ki gen rapò dirèk ak senaryo kou prete ki pi wo pi wo a: lè l amòti yon pati enpòtan nan total kou pwopriyete a sou peryòd pi kout anpil sa yo olye orè ki pi long tout bilding nan, yon biznis mete yon dediksyon amòtisman pi gwo anpil devan nan premye ane posesyon yo, sa ki diminye revni taksab ak taks ou dwe pi plis nan premye ane sa yo — egzakteman lè yon lajan kach ki amelyore, sa ki konekte ak benefis amòtisman ki pa an kach Leson 6 la, ka pi enpòtan, tankou lè w ap absòbe kou finansman ki pi wo senaryo pi wo a dekri yo.
+
+Se poutèt sa segregasyon kou se fondamantalman yon estrateji ranvwa taks olye yon diminisyon pèmanan nan total taks ou dwe sou tout lavi posesyon pwopriyete a, e distenksyon sa a konekte dirèkteman ak analiz rekiperasyon amòtisman Leson 7 la: total montan amòtisman ki finalman disponib pou dedui sou tout lavi pwopriyete a pa ogmante atravè segregasyon kou — yo tou senpleman deplase dediksyon yo pi bonè, sa ki vle di ane pita yo pral gen dediksyon amòtisman ki pi piti an konsekans (paske yo te deja reklame plis devan), e, sa ki kritik, pi gwo dediksyon amòtisman akimile sa a ogmante ekspozisyon rekiperasyon amòtisman chak fwa yo finalman vann pwopriyete a, paske yo pral reklame yon pi gwo total montan amòtisman sou pwopriyete a, ki tout vin sijè a règ rekiperasyon Leson 7 la nan moman yon vant evantyèl. Se poutèt sa ou ta dwe konprann segregasyon kou, e OPINYON, jan pwofesyonèl taks rekonèt li anpil, kòm yon zouti moman ki gen valè pou jere lajan kach kout tèm ak valè lajan nan tan (yon dola ekonomi taks jodi a an jeneral vo plis pase menm dola ekonomi taks la ranvwaye pou yon ane nan lavni), olye kòm yon teknik ki diminye total chay taks pwopriyetè a pandan tout lavi li.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon pwopriyetè biznis achte yon bilding komèsyal e li kòmande yon etid segregasyon kou, ki reklasifye 25% nan total kou bilding nan an eleman ki kalifye pou yon orè amòtisman 7 ane olye orè estanda 39 ane bilding nan. Sa bay yon dediksyon amòtisman pi gwo anpil, ak yon bòdwo taks ki pi ba an konsekans, nan chak nan sèt premye ane posesyon yo, sa ki libere yon lajan kach kout tèm enpòtan pou ede absòbe kou prete biznis la ki kounye a pi wo. Sepandan, total amòtisman ki disponib sou tout peryòd posesyon pwopriyete a pa ogmante — ane pita yo resevwa dediksyon amòtisman ki pi piti pase sa yo ta otreman resevwa, e lè yo finalman vann bilding nan, amòtisman akselere yo te reklame anvan an ogmante montan ki sijè a rekiperasyon amòtisman, yon faktè enpòtan konseye taks pwopriyetè a mete nan analiz planifikasyon taks alontèm jeneral la.
+
+## Egzamen pratik
+**Q1. Kisa yon etid segregasyon kou idantifye nan yon pi gwo pwopriyete?**
+A) Li idantifye fason pou ogmante total pri vant yon pwopriyete
+B) Eleman espesifik nan yon pwopriyete ki kalifye pou yon dire lavi itil amòtisman pi kout pase estrikti bilding nan li menm, sa ki pèmèt yo reklasifye yo e amòti yo sou yon orè akselere
+C) Segregasyon kou pa gen okenn rapò ak jan yo amòti kou yon pwopriyete pou rezon taks
+D) Li idantifye eleman yo ta dwe retire nèt nan nenpòt dediksyon amòtisman
+
+**Q2. Poukisa segregasyon kou amelyore lajan kach kout tèm yon fason enpòtan?**
+A) Segregasyon kou pa gen okenn vrè efè sou lajan kach yon biznis nan okenn ane
+B) Mete yon pi gwo dediksyon amòtisman devan nan premye ane yo diminye revni taksab ak taks ou dwe pi plis nan premye ane espesifik sa yo, sa ki konekte ak benefis amòtisman ki pa an kach nou kouvri nan Leson 6
+C) Segregasyon kou mande yon gwo peman kach imedya, sa ki diminye lajan kach kout tèm
+D) Dediksyon amòtisman pa gen okenn rapò ak vrè lajan kach yon biznis nan nenpòt ane done
+
+**Q3. Poukisa yo dekri segregasyon kou kòm yon estrateji ranvwa taks olye yon diminisyon taks pèmanan?**
+A) Segregasyon kou elimine pou toujou tout responsablite taks nan lavni sou pwopriyete a
+B) Total amòtisman ki disponib sou tout lavi pwopriyete a pa ogmante — yo tou senpleman deplase dediksyon yo pi bonè, sa ki vle di dediksyon ki pi piti disponib nan ane pita yo, paske yo te deja reklame plis devan
+C) Segregasyon kou pa gen okenn rapò ak total montan amòtisman ki disponib sou yon pwopriyete avèk tan
+D) Ranvwaye responsablite taks pou yon ane pita toujou ogmante total montan taks ou finalman dwe
+
+**Q4. Kijan segregasyon kou konekte ak analiz rekiperasyon amòtisman Leson 7 la?**
+A) Segregasyon kou ak rekiperasyon amòtisman se konsèp taks ki pa gen okenn rapò
+B) Pi gwo dediksyon amòtisman akimile segregasyon kou bay la ogmante ekspozisyon rekiperasyon amòtisman chak fwa yo finalman vann pwopriyete a, paske yo pral reklame plis total amòtisman sou li
+C) Segregasyon kou elimine bezwen pou janm enkyete pou rekiperasyon amòtisman sou pwopriyete a
+D) Rekiperasyon amòtisman aplike sèlman pou pwopriyete ki pa t janm itilize yon etid segregasyon kou
+
+**Q5. Poukisa yon pwopriyetè biznis ta ka toujou chèche segregasyon kou malgre se yon chanjman moman olye yon diminisyon taks pèmanan?**
+A) Pa gen okenn rezon finansye lejitim pou janm chèche yon estrateji ki sèlman deplase moman taks olye diminye total taks
+B) Yon dola ekonomi taks jodi a an jeneral vo plis pase menm dola ekonomi taks la ranvwaye pou yon ane nan lavni, akoz valè lajan nan tan, sa ki fè benefis lajan kach kout tèm nan vrèman gen valè menm san yon diminisyon taks pèmanan
+C) Segregasyon kou an reyalite bay yon diminisyon pèmanan nan total taks ou dwe, kontrèman ak sa leson sa a dekri
+D) Lajan kach kout tèm pa gen okenn valè finansye konpare ak lajan kach nan lavni nan yon montan idantik
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Reklasifikasyon espesifik eleman ki kalifye sou yon orè amòtisman pi kout se fonksyon prensipal yon etid segregasyon kou.
+
+**Q2.** Akselerasyon dediksyon amòtisman nan premye ane yo diminye dirèkteman responsablite taks kout tèm, sa ki amelyore lajan kach egzakteman nan ane kote yo reklame pi gwo dediksyon yo.
+
+**Q3.** Paske yo tou senpleman redistribye menm total pisin amòtisman an nan direksyon premye ane yo, estrateji a deplase moman olye diminye total chay taks sou tout peryòd posesyon pwopriyete a.
+
+**Q4.** Rapò dirèk ant amòtisman akimile ak ekspozisyon rekiperasyon evantyèl vle di dediksyon akselere segregasyon kou ogmante espesyalman montan rekiperasyon ou dwe lè yon vant fèt nan lavni.
+
+**Q5.** Prensip valè lajan nan tan — bay yon dola ou resevwa oswa ekonomize jodi a plis valè pase menm dola a nan lavni — se egzakteman poukisa estrateji ki konsantre sou moman sa a kenbe yon vrè valè finansye malgre li pa diminye total responsablite taks pandan tout lavi a.
+
+## Pwen kle yo
+- Yon etid segregasyon kou reklasifye eleman pwopriyete espesifik sou orè amòtisman pi kout, sa ki akselere dediksyon nan premye ane yo.
+- Akselerasyon sa a amelyore lajan kach kout tèm yon fason enpòtan lè l diminye taks ou dwe pi plis nan premye ane posesyon yo.
+- Segregasyon kou se yon estrateji ranvwa taks, se pa yon diminisyon taks pèmanan, paske total amòtisman sou lavi pwopriyete a rete menm, jis redistribye pi bonè.
+- Amòtisman akselere ogmante ekspozisyon rekiperasyon amòtisman nan lavni lè yon vant evantyèl fèt, yon konpwomi ou ta dwe peze kont benefis lajan kach kout tèm nan lè w itilize rezònman valè lajan nan tan.
+
+===== GREEN-L4-009
+TITLE: Analiz echanj 1031: poukisa ranvwaye pa menm bagay ak elimine
+SUMMARY: Konprann kijan yon echanj byen menm kalite anba Seksyon 1031 ranvwaye taks sou plis-vali sou imobilye, e poukisa ranvwa sa a, menm si li vrèman gen valè, pa elimine pou toujou responsablite taks anba a.
+KEYWORDS: echanj 1031, echanj byen menm kalite, ranvwa plis-vali, estrateji taks imobilye
+# Analiz echanj 1031: poukisa ranvwaye pa menm bagay ak elimine
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon boom imobilye kredi te alimante ap montre siy li ap defèt, kèk pwopriyetè ki te bati gwo pwofi sou papye pandan plizyè ane vle repozisyone byen yo san yo pa deklanche imedyatman yon gwo bòdwo taks sou plis-vali sou valè yo te akimile a. Leson sa a egzamine dispozisyon taks espesifik yo fèt pou pèmèt egzakteman kalite repozisyonman sa a, alòske li klarifye yon limit enpòtan sou sa li vrèman akonpli.
+
+## Objektif aprantisaj
+- Esplike mekanis debaz yon echanj byen menm kalite Seksyon 1031 pou imobilye.
+- Esplike poukisa yon echanj 1031 ranvwaye, olye elimine, taks sou plis-vali ou ta otreman dwe.
+- Esplike kondisyon tan espesifik ou dwe respekte pou yon echanj 1031 kalifye pou tretman ranvwa.
+- Konekte mekanis baz ranvwaye echanj 1031 la ak analiz plis-vali Leson 5 la ak analiz rekiperasyon amòtisman Leson 7 la.
+
+## Kontni prensipal
+Yon echanj byen menm kalite Seksyon 1031 pèmèt pwopriyetè yon pwopriyete imobilye ki kalifye yo kenbe pou envestisman oswa pou biznis ranvwaye peman taks sou plis-vali sou vant pwopriyete sa a, si yo reenvesti lajan vant lan nan yon lòt pwopriyete menm kalite ki kalifye selon règ espesifik e nan limit tan espesifik. FÈ VERIFYE: olye vandè a resevwa lajan kach e dwe taks sou plis-vali imedyatman sou vant lan (dapre analiz plis-vali Leson 5 la), yon echanj 1031 ki byen estriktire pèmèt baz kou orijinal vandè a pase nan pwopriyete ranplasman an, sa ki vle di pwofi ki enkòpore a pa taksé kounye a, men pito ranvwaye jiskaske yo finalman vann pwopriyete ranplasman an nan yon tranzaksyon taksab (oswa yo echanje l ankò nan yon lòt echanj 1031, sa ki ka ranvwaye pwofi a pi lwen toujou). RÈG ESPESIFIK POU REJYON AN: Seksyon 1031 se yon dispozisyon lwa taks federal Etazini; li pa aplike pou pwopriyete oswa taks Ayiti oswa lòt peyi, kidonk verifye règ lokal yo ak yon pwofesyonèl ki kalifye.
+
+Men "poukisa" ranvwa sa a vrèman gen valè men li diferan yon fason enpòtan de yon eliminasyon taks pèmanan: pwofi ranvwaye a pa disparèt — li enkòpore nan baz kou diminye ki pase nan pwopriyete ranplasman an, sa ki vle di si yo finalman vann pwopriyete ranplasman an nan yon vant òdinè, taksab olye atravè yon lòt echanj 1031, pwofi ki te ranvwaye okòmansman an (ansanm ak nenpòt pwofi anplis ki akimile sou pwopriyete ranplasman an li menm) vin taksab nan moman sa a, sa ki sanble nan lespri anba li ak jan rekiperasyon amòtisman Leson 7 la ranvwaye, olye elimine, yon kontwòl taks evantyèl ki mare ak benefis taks ou te reklame anvan.
+
+Se poutèt sa ou dwe swiv kondisyon tan espesifik yon echanj 1031 avèk presizyon, RÈG ESPESIFIK POU REJYON AN ak yon detay ki sansib a tan, konfime dat limit espesifik aktyèl yo: règ aktyèl yo an jeneral mande pou idantifye yon pwopriyete ranplasman ki kalifye nan 45 jou apre ou fin vann pwopriyete orijinal la, e fini akizisyon pwopriyete ranplasman sa a nan 180 jou apre vant orijinal la, ak konsekans strik, ki an jeneral pa ka pwolonje (tout pwofi a vin taksab imedyatman) si w pa respekte youn nan dat limit sa yo — se poutèt sa yon echanj 1031 souvan mande yon planifikasyon atantif davans ak patisipasyon yon entèmedyè kalifye (yon twazyèm pati obligatwa ki kenbe lajan vant lan pandan pwosesis echanj lan pou prezève estati ranvwa taks echanj lan) olye se yon bagay yon pwopriyetè ka tou senpleman deside fè yon fason enfòmèl apre li fin resevwa lajan vant lan dirèkteman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon envestisè imobilye vann yon pwopriyete lokasyon ki pran valè ak yon pwofi enkòpore $300,000, e olye peye taks sou plis-vali imedyatman, li estriktire yon echanj 1031, li idantifye yon pwopriyete ranplasman nan fenèt 45 jou obligatwa a e li fini acha a nan fenèt 180 jou a, lè l itilize yon entèmedyè kalifye pou kenbe lajan an pandan tout pwosesis la. Pwofi $300,000 la pa taksé nan moman sa a — okontrè, li pase nan baz kou diminye pwopriyete ranplasman an. Plizyè ane pita, lè envestisè a finalman vann pwopriyete ranplasman an nan yon vant òdinè olye yon lòt echanj, pwofi $300,000 ki te ranvwaye okòmansman an, ansanm ak nenpòt valè anplis sou pwopriyete ranplasman an li menm, vin taksab nan moman sa a, sa ki ilistre ke echanj 1031 orijinal la te ranvwaye responsablite taks la olye elimine l nèt.
+
+## Egzamen pratik
+**Q1. Kisa yon echanj byen menm kalite Seksyon 1031 pèmèt yon pwopriyetè imobilye fè?**
+A) Elimine pou toujou tout taks sou plis-vali sou vant yon pwopriyete envestisman
+B) Ranvwaye peman taks sou plis-vali sou vant yon pwopriyete imobilye ki kalifye, si yo reenvesti lajan an nan yon lòt pwopriyete menm kalite ki kalifye selon règ ak limit tan espesifik
+C) Evite janm bezwen vann yon pwopriyete envestisman ditou
+D) Konvèti yon plis-vali an yon kredi taks olye yon pwofi taksab
+
+**Q2. Poukisa yo dekri benefis taks yon echanj 1031 kòm yon ranvwa olye yon eliminasyon?**
+A) Pwofi ranvwaye a tou senpleman disparèt pou toujou e yo pa janm taksé l nan okenn sikonstans
+B) Pwofi ranvwaye a enkòpore nan baz kou diminye ki pase nan pwopriyete ranplasman an, e li vin taksab si yo finalman vann pwopriyete ranplasman sa a nan yon tranzaksyon òdinè, taksab
+C) Yon echanj 1031 an reyalite elimine pou toujou responsablite taks anba a, kontrèman ak sa leson sa a dekri
+D) Ranvwa ak eliminasyon se konsèp ki idantik nan fonksyon yo san okenn diferans enpòtan
+
+**Q3. Ki kondisyon tan espesifik ki an jeneral aplike pou yon echanj 1031?**
+A) Pa gen okenn kondisyon tan espesifik ou dwe respekte pou yon echanj 1031 kalifye
+B) Ou dwe an jeneral idantifye yon pwopriyete ranplasman nan 45 jou apre vant orijinal la, e ou dwe an jeneral fini akizisyon li nan 180 jou apre vant sa a
+C) Ou dwe idantifye e achte pwopriyete ranplasman an nan yon sèl ane kalandriye, san okenn dat limit pi espesifik
+D) Ou ka fini yon echanj 1031 nenpòt ki lè, san okenn dat limit espesifik ditou
+
+**Q4. Poukisa yon echanj 1031 souvan mande patisipasyon yon entèmedyè kalifye?**
+A) Yon entèmedyè kalifye pa vrèman obligatwa pou okenn echanj 1031
+B) Yon entèmedyè kalifye se yon twazyèm pati obligatwa ki kenbe lajan vant lan pandan pwosesis echanj lan, sa ki nesesè pou prezève estati ranvwa taks echanj lan olye vandè a resevwa lajan an dirèkteman
+C) Wòl entèmedyè kalifye a se sèlman yon fòmalite san okenn vrè efè sou tretman taks echanj lan
+D) Entèmedyè kalifye obligatwa sèlman pou echanj ki gen pwopriyete andeyò eta lakay vandè a
+
+**Q5. Nan egzanp lan, poukisa envestisè a te finalman dwe taks sou pwofi $300,000 ki te ranvwaye okòmansman an lè l te vann pwopriyete ranplasman an pita?**
+A) Echanj 1031 la te an reyalite elimine pwofi sa a pou toujou, kidonk li pa t ta dwe dwe okenn taks
+B) Pwofi ki te ranvwaye okòmansman an te pase nan baz kou diminye pwopriyete ranplasman an e li te vin taksab yon fwa yo te finalman vann pwopriyete ranplasman sa a nan yon tranzaksyon òdinè, ki pa yon echanj
+C) Envestisè a te fè yon erè nan echanj 1031 orijinal la, sa ki fè pwofi a vin taksab san li pa t atann
+D) Pwofi a te vin taksab akoz yon règ taks ki pa gen rapò san okenn koneksyon ak echanj 1031 orijinal la
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Karakteristik ki defini yon echanj 1031 se mekanis ranvwa sa a, ki depann de reenvestisman nan yon pwopriyete ranplasman ki kalifye selon règ espesifik.
+
+**Q2.** Lefèt pwofi orijinal la pase nan baz pwopriyete ranplasman an asire responsablite taks la rete e li ka finalman vin dwe, sa ki fè ranvwa diferan de yon vrè eliminasyon pèmanan taks la.
+
+**Q3.** Dat limit espesifik sa yo yo aplike yon fason strik se yon kondisyon estriktirèl kritik pou yon echanj 1031 kalifye avèk siksè pou tretman ranvwa taks.
+
+**Q4.** Kondisyon estriktirèl sa a, ki mande yon twazyèm pati pou kenbe lajan an, fèt espesyalman pou prezève kalifikasyon ranvwa taks echanj lan olye tranzaksyon an sanble ak yon senp vant taksab ki swiv pa yon acha ki pa gen rapò.
+
+**Q5.** Ilistrasyon dirèk sa a pwofi ranvwaye a ki finalman vin dwe lè yo vann pwopriyete ranplasman an nan yon vant òdinè montre egzakteman prensip ranvwa-se-pa-eliminasyon leson sa a etabli a.
+
+## Pwen kle yo
+- Yon echanj Seksyon 1031 ranvwaye taks sou plis-vali sou imobilye ki kalifye lè w reenvesti lajan an nan yon pwopriyete ranplasman menm kalite.
+- Pwofi ranvwaye a pase nan baz diminye pwopriyete ranplasman an e li vin taksab si yo vann pwopriyete sa a pita nan yon tranzaksyon òdinè, ki pa yon echanj.
+- Ou dwe respekte kondisyon tan espesifik yo aplike yon fason strik — an jeneral 45 jou pou idantifye e 180 jou pou achte yon pwopriyete ranplasman — pou kalifye.
+- Yo an jeneral mande yon entèmedyè kalifye pou kenbe lajan vant lan pandan tout pwosesis la pou prezève estati ranvwa taks echanj lan.
+
+===== GREEN-L4-010
+TITLE: Analiz dediksyon revni biznis kalifye: poukisa pwopriyetè biznis "pass-through" jwenn yon avantaj taks diferan
+SUMMARY: Konprann estrikti debaz dediksyon Revni Biznis Kalifye (QBI) ki disponib pou anpil pwopriyetè biznis pass-through, e poukisa disponiblite ak montan li depann de faktè revni ak kalite biznis espesifik.
+KEYWORDS: dediksyon revni biznis kalifye, QBI, taksasyon pass-through, avantaj taks ti biznis
+# Analiz dediksyon revni biznis kalifye: poukisa pwopriyetè biznis "pass-through" jwenn yon avantaj taks diferan
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komès ki toudenkou mete gwo tarif sou yon kategori laj pwodui manifakti enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm matyè premyè. Pandan tarif yo ap sere maj anpil ti biznis, pwopriyetè antite pass-through vle konprann egzakteman kijan yon dediksyon taks espesifik, yo fèt pou ede konpanse yon pati nan chay taks jeneral yo, vrèman mache e si li aplike pou sitiyasyon patikilye yo. Leson sa a egzamine estrikti ak limit kle dediksyon sa a.
+
+## Objektif aprantisaj
+- Esplike sa yo fèt dediksyon Revni Biznis Kalifye (QBI) a pou fè, an tèm jeneral.
+- Esplike kisa yon antite biznis pass-through ye, sa ki konekte ak analiz chwa antite Leson 12 nan chemen BLUE-L4 la.
+- Esplike poukisa disponiblite ak montan dediksyon QBI a ka depann de nivo total revni pwopriyetè a ak kalite biznis espesifik la.
+- Esplike poukisa dediksyon sa a mande yon kalkil atantif e aktyèl olye yon senp sipozisyon pousantaj fiks.
+
+## Kontni prensipal
+Dediksyon Revni Biznis Kalifye (QBI) a se yon dispozisyon taks federal Etazini ki pèmèt pwopriyetè ki kalifye antite biznis pass-through (tankou antrepriz endividyèl, asosyasyon, S-corporation, ak kèk LLC, sa ki konekte dirèkteman ak analiz taks chwa antite chemen BLUE-L4 la) dedui yon pati, RÈG ESPESIFIK POU REJYON AN, konfime pousantaj ak règ ki aplike kounye a, nan revni biznis kalifye yo nan revni taksab yo, sa ki bay yon avantaj taks ki disponib espesyalman pou pwopriyetè antite pass-through sa yo ki pa disponib dirèkteman nan menm fòm lan pou aksyonè yon C-corporation tradisyonèl. RÈG ESPESIFIK POU REJYON AN: dediksyon sa a egziste sèlman nan lwa taks federal Etazini; li pa egziste nan sistèm taks Ayiti oswa pifò lòt peyi, kidonk verifye ak yon pwofesyonèl taks ki kalifye selon kote w ap travay.
+
+Men "poukisa" dediksyon sa a konekte espesyalman ak taksasyon pass-through: yo taksé revni biznis pass-through dirèkteman sou deklarasyon taks pèsonèl pwopriyetè endividyèl la (olye yo taksé l an premye nan nivo antite a, jan yo fè pou revni yon C-corporation, anvan nenpòt lòt taks lè yo distribye l bay aksyonè yo), sa ki vle di revni biznis yon pwopriyetè biznis pass-through sijè a to taks majinal endividyèl pwopriyetè a (Leson 1) — yo te fèt dediksyon QBI a espesyalman pou ede konpanse kèk nan chay taks nivo endividyèl sa a sou revni biznis pass-through, sa ki bay pwopriyetè pass-through yon avantaj ki gen entansyon ede reponn enkyetid ke yo t ap taksé revni biznis pass-through mwens favorableman pase revni konpayi apre kèk chanjman to taks konpayi pi laj.
+
+Se poutèt sa vrè disponiblite ak montan dediksyon QBI a ka depann anpil de nivo total revni taksab pwopriyetè a ak kalite biznis espesifik ki enplike a, olye aplike kòm yon senp pousantaj fiks nan chak ka, RÈG ESPESIFIK POU REJYON AN ak yon konpleksite enpòtan, konfime limit ak règ espesifik aktyèl yo: kèk kalite biznis (yo souvan rele yo "komès oswa biznis sèvis espesifye", ki ka gen ladan kèk biznis sèvis pwofesyonèl tankou pratik lalwa, kontabilite, medikal, ak konsiltasyon, pami lòt) fè fas ak lòt limit ki baze sou revni sou disponiblite dediksyon an ki pa aplike menm jan pou lòt kalite biznis ki kalifye, e kalkil dediksyon an ka afekte tou pa faktè tankou total salè biznis la peye ak baz ki pa ajiste kèk pwopriyete kalifye li kenbe — se poutèt sa kalkile vrè dediksyon QBI ki disponib pou yon pwopriyetè biznis espesifik nan yon ane taks espesifik mande yon kalkil vrè, aktyèl, e souvan ak gid pwofesyonèl, olye yon senp sipozisyon ke yon pousantaj fiks aplike otomatikman sou revni chak pwopriyetè biznis pass-through nan chak ka.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: De pwopriyetè biznis pass-through chak deklare $200,000 revni biznis kalifye. Pwopriyetè A dirije yon biznis manifakti, ki pa klase kòm yon komès oswa biznis sèvis espesifye, e, si nou sipoze total revni taksab li tonbe nan limit ki enpòtan yo, li ka potansyèlman reklame yon dediksyon QBI sou tout montan revni biznis kalifye sa a. Pwopriyetè B dirije yon pratik konsiltasyon, ki klase kòm yon komès oswa biznis sèvis espesifye, e selon nivo total revni taksab li, li ka fè fas ak lòt limit ki diminye oswa, pi wo pase kèk limit revni, ki ka potansyèlman elimine dediksyon ki ta otreman disponib sou menm $200,000 revni biznis kalifye sa a — sa ki ilistre kijan kalite biznis espesifik la, se pa sèlman montan revni an li menm, ka afekte yon fason enpòtan dediksyon de pwopriyetè ki gen revni biznis idantik ta ka vrèman reklame.
+
+## Egzamen pratik
+**Q1. Kisa yo fèt dediksyon Revni Biznis Kalifye (QBI) a pou fè?**
+A) Bay yon dediksyon ki disponib sèlman pou aksyonè C-corporation tradisyonèl
+B) Pèmèt pwopriyetè ki kalifye antite biznis pass-through dedui yon pati nan revni biznis kalifye yo nan revni taksab yo
+C) Elimine tout taks sou revni federal nenpòt pwopriyetè ti biznis dwe
+D) QBI se yon dediksyon ki disponib sèlman pou biznis ki pa gen okenn anplwaye
+
+**Q2. Kisa yon antite biznis pass-through ye, sa ki konekte ak analiz chwa antite chemen BLUE-L4 la?**
+A) Yon antite biznis yo taksé revni li an premye nan nivo antite a anvan nenpòt lòt taksasyon
+B) Yon antite biznis, tankou yon antrepriz endividyèl, yon asosyasyon, yon S-corporation, oswa kèk LLC, yo taksé revni li dirèkteman sou deklarasyon taks pèsonèl pwopriyetè endividyèl la olye an premye nan nivo antite a
+C) Antite pass-through egzante de tout fòm taksasyon nèt
+D) Se sèlman C-corporation ki kalifye kòm antite biznis pass-through
+
+**Q3. Poukisa disponiblite ak montan dediksyon QBI a depann de faktè ki ale pi lwen pase yon senp pousantaj fiks revni?**
+A) Dediksyon QBI a toujou aplike kòm yon pousantaj fiks idantik sou revni chak pwopriyetè biznis pass-through
+B) Kèk kalite biznis, tankou komès oswa biznis sèvis espesifye, fè fas ak lòt limit ki baze sou revni, e faktè tankou salè yo peye ak baz pwopriyete kalifye ka afekte kalkil la tou
+C) Dediksyon QBI a pa gen okenn rapò ak kalite biznis la oswa nivo total revni pwopriyetè a
+D) Se sèlman biznis ki pa gen okenn revni ditou ki kalifye pou reklame dediksyon QBI a
+
+**Q4. Kisa yon "komès oswa biznis sèvis espesifye" ye nan kontèks dediksyon QBI a?**
+A) Yon kategori biznis ki otomatikman resevwa pi gwo dediksyon QBI posib kèlkeswa nivo revni
+B) Yon kategori, ki souvan gen ladan kèk biznis sèvis pwofesyonèl tankou pratik lalwa, kontabilite, medikal, ak konsiltasyon, ki fè fas ak lòt limit ki baze sou revni sou disponiblite dediksyon QBI a ki pa aplike menm jan pou lòt kalite biznis ki kalifye
+C) Yon tèm ki pa gen okenn vrè rapò ak kalkil dediksyon QBI a
+D) Yon klasifikasyon ki otomatikman diskalifye yon biznis pou l pa janm reklame okenn dediksyon taks
+
+**Q5. Nan egzanp lan, poukisa Pwopriyetè B ta ka resevwa yon dediksyon QBI ki pi piti pase Pwopriyetè A malgre tou de deklare menm $200,000 revni biznis kalifye?**
+A) Pwopriyetè A ak Pwopriyetè B ta toujou resevwa yon dediksyon QBI idantik kèlkeswa kalite biznis espesifik yo
+B) Pratik konsiltasyon Pwopriyetè B, ki klase kòm yon komès oswa biznis sèvis espesifye, ka fè fas ak lòt limit ki baze sou revni selon nivo total revni taksab li, kontrèman ak biznis manifakti Pwopriyetè A
+C) Biznis manifakti Pwopriyetè A pa vrèman kalifye pou okenn dediksyon QBI ditou
+D) Dediksyon QBI a pa gen okenn rapò ak si yon biznis klase kòm yon komès oswa biznis sèvis espesifye
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Dediksyon sa a vize espesyalman pwopriyetè biznis pass-through, sa ki ba yo yon avantaj ki konekte ak jan yo taksé revni biznis yo sou deklarasyon endividyèl yo.
+
+**Q2.** Taksasyon dirèk revni biznis nan nivo endividyèl sa a, san yon taks separe nan nivo antite an premye, se karakteristik ki defini yon antite biznis pass-through.
+
+**Q3.** Lòt faktè ak limit espesifik sa yo vle di vrè kalkil dediksyon an mande yon vrè analiz olye yon senp sipozisyon pousantaj inivèsèl.
+
+**Q4.** Klasifikasyon espesifik sa a deklanche lòt limit sou dediksyon an, sa ki fè kèk biznis sèvis pwofesyonèl diferan de lòt kalite biznis pass-through pou rezon QBI.
+
+**Q5.** Diferans klasifikasyon biznis espesifik ant de pwopriyetè yo esplike dirèkteman poukisa revni biznis yo ki otreman idantik ta ka bay yon rezilta dediksyon QBI ki diferan yon fason enpòtan.
+
+## Pwen kle yo
+- Dediksyon QBI a pèmèt pwopriyetè biznis pass-through ki kalifye dedui yon pati nan revni biznis kalifye yo nan revni taksab.
+- Yo taksé antite pass-through dirèkteman sou deklarasyon endividyèl pwopriyetè a, sa ki fè yo diferan de taksasyon separe nan nivo antite yon C-corporation tradisyonèl.
+- Disponiblite ak montan dediksyon an ka depann de nivo total revni pwopriyetè a ak si biznis la klase kòm yon komès oswa biznis sèvis espesifye.
+- Kalkile vrè dediksyon QBI ki disponib mande yon analiz vrè, aktyèl, e souvan ak gid pwofesyonèl, olye sipoze yon senp pousantaj fiks aplike yon fason inivèsèl.
