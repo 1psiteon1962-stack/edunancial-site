@@ -1,0 +1,149 @@
+===== GREEN-L3-001
+TITLE: Poukisa to taks majinal yo pa taxe tout revni w nan menm to a
+SUMMARY: Aprann poukisa lè w antre nan yon tranch taks ki pi wo sa pa vle di tout revni w toudenkou taxe nan to ki pi wo sa a.
+# GREEN-L3-001: Poukisa to taks majinal yo pa taxe tout revni w nan menm to a
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon to taks majinal vle di
+- Esplike poukisa se sèlman revni ki anndan yon tranch espesifik ki taxe nan to tranch sa a
+- Korije yon move konpreyansyon komen sou antre nan yon tranch taks ki pi wo
+
+## Kontni prensipal
+
+Anpil moun kwè ke antre nan yon tranch taks ki pi wo vle di tout revni yo toudenkou taxe nan to ki pi wo sa a — yon kwayans ki fè kèk moun panse yon ogmantasyon salè oswa yon bonis ta ka an reyalite kite yo ak mwens lajan apre taks. Sa se yon move konpreyansyon komen, ki konprann, men se pa konsa yon sistèm **to taks majinal** anjeneral mache.
+
+Men "poukisa" se sèlman yon pati nan revni w ki taxe nan to ki pi wo a: [FÈ VERIFYE] nan yon sistèm taks majinal, yo divize revni an an tranch, e yo taxe chak pòsyon revni nan to yo bay tranch espesifik sa a — pa tout revni an nan to tranch ki pi wo w rive a. Kidonk si yon tranch ki pi wo kòmanse nan yon sèten nivo revni, se sèlman revni w fè anwo nivo sa a ki taxe nan to ki pi wo a; tout revni anba nivo sa a kontinye taxe nan to ki pi ba yo bay chak tranch anvan yo. [RÈG ESPESIFIK POU REJYON AN] An Ayiti tou, enpo sou revni an anjeneral itilize tranch ki gen to k ap monte; tranch ak to yo chanje ak lalwa sou finans, kidonk verifye chif aktyèl yo ak DGI (Direction Générale des Impôts) oswa yon kontab ki kalifye.
+
+Estrikti sa a vle di fè plis lajan, menm ase pou w antre nan yon nouvo tranch ki pi wo, pa janm vrèman bay mwens revni apre taks an jeneral — "penalite" to ki pi wo a aplike sèlman sou revni anplis ki anndan nouvo tranch sa a, pa retwoaktivman sou tout sa w te deja fè.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Imajine yon sistèm ki senplifye ak yon to 10% sou premye $10,000 revni a ak yon to 20% sou revni ki depase $10,000. Yon moun ki fè $12,000 pa peye 20% sou tout $12,000 la. Li peye 10% sou premye $10,000 la ($1,000) ak 20% sèlman sou $2,000 ki rete a ($400), pou yon taks total $1,400 — pa $2,400 yon to fiks 20% sou tout kantite a ta sijere. [SIPOZISYON] Si menm moun sa a ta jwenn yon ogmantasyon ki pouse revni li rive $15,000, $3,000 anplis la ta taxe nan 20% ($600), alòske taks sou premye $12,000 li a rete egzakteman jan li te ye a — ogmantasyon an pa janm diminye revni li apre taks an jeneral.
+
+## Egzamen pratik
+
+1. Ki move konpreyansyon komen moun genyen sou antre nan yon tranch taks ki pi wo?
+2. Kijan yon sistèm to taks majinal vrèman aplike to ki pi wo yo?
+3. Èske fè plis lajan ka janm bay mwens revni apre taks an jeneral nan sistèm sa a?
+
+## Kle repons yo
+
+1. Ke tout revni w toudenkou taxe nan to tranch ki pi wo a depi w antre ladan l.
+2. Yo taxe chak pòsyon revni nan to yo bay tranch espesifik li; se sèlman revni ki anndan yon tranch ki pi wo ki taxe nan to tranch sa a, pa tout sa w fè.
+3. Non — paske se sèlman revni anplis ki anndan yon nouvo tranch ki pi wo ki taxe nan to ki pi wo a, fè plis lajan toujou bay menm revni oswa plis revni apre taks, pa janm mwens, nan estrikti sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa bay non move konpreyansyon espesifik leson an fèt pou l korije a.
+2. Sa a se eksplikasyon santral sou mekanis jan to majinal yo vrèman mache.
+3. Sa refite dirèkteman mit komen an, sa ki ranfòse pwen prensipal leson an.
+
+## Pwen kle yo
+- Yon to taks majinal aplike sèlman sou pòsyon revni ki anndan yon tranch espesifik, pa sou tout revni depi w rive nan tranch sa a.
+- Sa vle di antre nan yon tranch ki pi wo pa janm diminye revni w apre taks an jeneral.
+- Konprann diferans sa a korije yon move konpreyansyon trè komen, ki souvan bay moun enkyetid, sou ogmantasyon salè ak bonis.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. To ak tranch taks yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-002
+TITLE: Poukisa to taks efektif la rakonte yon lòt istwa pase tranch taks ou
+SUMMARY: Aprann kisa to taks efektif la mezire, poukisa li anjeneral pi ba pase tranch majinal ki pi wo w la, ak poukisa se chif ki pi itil pou vrè planifikasyon.
+# GREEN-L3-002: Poukisa to taks efektif la rakonte yon lòt istwa pase tranch taks ou
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini to taks efektif la
+- Esplike poukisa to taks efektif la toujou pi ba oswa egal ak to majinal ki pi wo w la
+- Esplike poukisa to taks efektif la souvan se chif ki pi itil pou vrè planifikasyon finansye
+
+## Kontni prensipal
+
+Leson 1 te esplike ke se sèlman revni ki anndan yon tranch ki taxe nan to tranch sa a. **To taks efektif la** ale yon etap pi lwen: se to mwayen ou vrèman peye sou tout revni w, yo kalkile l kòm total taks ou peye divize pa total revni.
+
+Men "poukisa" chif sa a prèske toujou pi ba anpil pase to majinal ki pi wo w la: paske yo taxe tranch ki pi ba yo nan to ki pi ba sou wout pou rive nan tranch ki pi wo w la, lè w melanje tout to sa yo ansanm nan yon sèl mwayèn, sa toujou rale to efektif jeneral la anba to majinal ki pi wo a ki aplike sèlman sou dènye dola w fè yo.
+
+[FÈ VERIFYE] Se poutèt sa yo souvan konsidere to taks efektif la kòm yon chif ki pi itil pou vrè planifikasyon finansye e pou konpare chay taks ant diferan nivo revni oswa diferan peryòd: li reflete vrè chay taks jeneral ou, olye sèlman to ki rive aplike sou dola ki pi wo w fè a, sa ki ka fè sitiyasyon taks yon moun sanble pi grav pase jan li ye si yo konfonn to majinal la ak to jeneral la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Si w itilize menm estrikti tranch senplifye Leson 1 la (10% sou premye $10,000 la, 20% anwo sa), yon moun ki fè $15,000 peye $1,000 (10% sou $10,000) plis $1,000 (20% sou $5,000 ki rete a), pou yon total $2,000 taks. To majinal ki pi wo li a se 20%, men to taks efektif li se $2,000 divize pa $15,000, sa vle di apeprè 13.3% — pi ba anpil pase to majinal 20% la ki ta ka fè sitiyasyon taks li sanble pi grav pase jan li ye.
+
+## Egzamen pratik
+
+1. Kisa to taks efektif la mezire, e kijan yo kalkile l?
+2. Poukisa to taks efektif la toujou pi ba oswa egal ak to majinal ki pi wo w la?
+3. Poukisa yo souvan konsidere to taks efektif la pi itil pou planifikasyon finansye pase to majinal la?
+
+## Kle repons yo
+
+1. To taks mwayen ou vrèman peye sou tout revni w, yo kalkile l kòm total taks ou peye divize pa total revni.
+2. Paske yo melanje tranch ki pi ba yo, ki taxe nan to ki pi ba, nan mwayèn nan ansanm ak tranch ki pi wo a, sa ki toujou rale mwayèn jeneral la anba to majinal ki pi wo a.
+3. Paske li reflete vrè chay taks jeneral olye sèlman to ki aplike sou dola ki pi wo w fè a, sa ki bay yon tablo ki pi egzak pou vrè planifikasyon ak konparezon.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se relasyon matematik santral ki esplike poukisa de chif yo diferan.
+3. Sa ranfòse valè pratik pou itilize to efektif la pou vrè desizyon.
+
+## Pwen kle yo
+- To taks efektif la se to mwayen ou peye sou total revni w, li diferan de to tranch majinal ki pi wo a.
+- Li toujou pi ba oswa egal ak to majinal ki pi wo a, paske yo melanje tranch ki taxe pi ba yo nan mwayèn nan.
+- To taks efektif la souvan pi itil pou vrè planifikasyon finansye, paske li reflete vrè chay taks jeneral ou.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. To ak tranch taks yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-003
+TITLE: Poukisa taks pwogresif òganize jan li òganize a
+SUMMARY: Aprann rezonman jeneral ki dèyè sistèm taks pwogresif, poukisa yo taxe revni ki pi wo yo nan to majinal ki pi wo, ak diferan pwen de vi sou apwòch sa a.
+# GREEN-L3-003: Poukisa taks pwogresif òganize jan li òganize a
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike prensip jeneral ki dèyè taks pwogresif
+- Dekri prensipal agiman politik yo souvan bay pou estrikti sa a
+- Esplike ke gen lòt estrikti taks ki egziste e ki gen chwa diferan
+
+## Kontni prensipal
+
+Yon **sistèm taks pwogresif** — kote to majinal yo monte pandan revni a ap monte, jan yo kouvri nan Leson 1 — se youn nan plizyè apwòch posib pou òganize taks; lòt yo gen ladan yo sistèm taks fiks (yon sèl to yo aplike sou tout nivo revni) ak estrikti regresif (kote to a an reyalite desann pandan revni a ap monte, yo pafwa pale de sa nan kontèks kèk taks sou konsomasyon).
+
+Men yon "poukisa" yo site souvan dèyè fason yo konsevwa taks pwogresif: yo souvan jistifye l ak yon **prensip kapasite pou peye** — lide ke pandan revni a ap monte, chak lòt dola gen tandans reprezante yon pi piti pati nan bezwen debaz ak resous jeneral yon moun, kidonk taxe dola revni ki pi wo sa yo nan yon to ki pi wo, dapre agiman an, distribiye chay taks la plis an akò ak vrè kapasite chak moun pou l peye, san mande pèsonn pote yon bagay ki pwopòsyonèlman sanble ak yon bezwen pou siviv.
+
+Sa se yon domèn politik taks kote moun vrèman pa dakò, ak diferan pwen de vi sou jistis la, efè ekonomik yo, ak degre pwogresivite ki apwopriye yon sistèm taks ta dwe genyen. [FÈ VERIFYE] Moun ki rezonab ak diferan tradisyon politik ak ekonomik pa dakò sou kesyon sa yo, e estrikti taks espesifik yo varye anpil ant diferan jiridiksyon e yo chanje ak tan selon desizyon politik — leson sa a prezante konsèp jeneral la ak jistifikasyon yo site souvan pou li, pa yon apwi pou okenn estrikti oswa nivo to patikilye.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Nan yon sistèm pwogresif, yon moun ki fè yon revni modès ta ka peye yon to efektif jeneral ki ba, alòske yon moun ki fè yon revni trè wo peye yon to efektif ki pi wo anpil, menm si tou de swiv menm estrikti tranch yo dekri nan Leson 1 ak 2. Moun ki sipòte apwòch sa a di li reflete yon distribisyon jis chay taks jeneral la selon vrè kapasite chak moun pou l peye. Moun ki kritike degre pwogresivite ki pi wo leve lòt enkyetid, tankou efè posib sou motivasyon pou fè plis revni nan nivo ki pi wo — yon vrè deba politik k ap kontinye leson sa a pa eseye rezoud.
+
+## Egzamen pratik
+
+1. Ki twa kalite estrikti to taks jeneral leson sa a mansyone?
+2. Kisa prensip "kapasite pou peye" yo souvan site pou jistifye taks pwogresif la ye?
+3. Èske degre pwogresivite taks ki apwopriye a se yon kesyon ki regle oswa yon kesyon moun pa dakò sou li?
+
+## Kle repons yo
+
+1. Pwogresif (to yo monte ak revni), fiks (yon sèl to pou tout revni), ak regresif (to efektif la desann pandan revni a ap monte).
+2. Lide ke revni anplis nan nivo ki pi wo reprezante yon pi piti pati nan bezwen debaz ak resous, kidonk taxe l nan yon to ki pi wo distribiye chay la plis an akò ak vrè kapasite pou peye.
+3. Moun pa dakò sou li — moun ki rezonab ak diferan tradisyon politik ak ekonomik pa dakò sou jistis la ak degre pwogresivite ki apwopriye yon sistèm taks ta dwe genyen.
+
+## Repons ak eksplikasyon
+
+1. Sa etabli tablo jeneral estrikti to taks ki posib yo.
+2. Sa esplike rezon politik yo site souvan an, yo prezante l yon fason net.
+3. Sa a se yon dènye pwen enpòtan, ki fèt espre pou l balanse, ki evite pran pozisyon sou yon kesyon politik kote moun vrèman pa dakò.
+
+## Pwen kle yo
+- Taks pwogresif se youn nan plizyè estrikti to taks posib, ansanm ak apwòch fiks ak regresif.
+- Yo souvan jistifye l ak yon prensip kapasite pou peye, ki reflete diferans nan kapasite chak moun genyen pou l pote chay taks la.
+- Degre pwogresivite taks ki apwopriye a rete yon kesyon politik kote moun vrèman pa dakò, ak pwen de vi lejitim sou plizyè bò.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral e li prezante konsèp politik jeneral yon fason net, san l pa sipòte okenn pozisyon politik oswa ekonomik patikilye. Li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
