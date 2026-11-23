@@ -237,3 +237,163 @@ Q5: B
 - Volonte onèt yon lidè pou l rekòmande yon retrè, lè sa vrèman jistifye, gen tandans ranfòse olye febli kredibilite, sa ki fè echo ak diskisyon anvan an sou imilite nan lidèchip.
 - Yon lidè dwe pwoteje tèt li kont atachman a kou ki deja depanse, paske resous ki deja envesti pa ka rekipere e yo pa ta dwe pouse yon desizyon kontinye ki ta dwe pito chita sou prèv aktyèl ki gade devan.
 - Yon lidè ta dwe kominike yon desizyon retrè onètman e dirèkteman, sa ki fè echo ak aksan diskisyon anvan an sou kominikasyon nan kriz sou yon vrè transparans olye yon eksplikasyon yo kache.
+
+===== BLACK-L4-049
+TITLE: Analiz kouraj ak risk kalkile nan lidèchip: poukisa lidè yo dwe pran responsablite pou konsekans yon aksyon desizif
+SUMMARY: Konprann poukisa yon lidè ki pran risk desizif, kalkile pou òganizasyon an dwe vrèman pran responsablite pou konsekans yo, kit yo favorab kit yo pa favorab, diferans ant yon risk kalkile ak yon senp jwèt aza, poukisa voye responsablite sou lòt moun domaje kredibilite plis, ak kijan leson sa a fèmen diskisyon Leson 46 a 48 yo.
+KEYWORDS: kouraj nan lidèchip, pran responsablite pou yon risk kalkile, responsablite pou konsekans, kouraj konpare ak imprudans
+# Analiz kouraj ak risk kalkile nan lidèchip: poukisa lidè yo dwe pran responsablite pou konsekans yon aksyon desizif
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak mache kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, k ap kòmanse montre siy yon gwo koreksyon pandan moun ki pa peye dèt yo ap kòmanse ogmante. Pandan yon boom ki te alimante pa kredi ap defèt e yon angajman desizif yon lidè te fè anvan bay yon rezilta ki vrèman melanje, ki pa favorab an pati, diferans ant yon lidè ki vrèman pran responsablite pou rezilta sa a ak youn ki voye responsablite a sou lòt moun vin yon tès ki defini vrè karaktè ak vrè kredibilite lidè sa a.
+
+## Objektif aprantisaj
+- Esplike poukisa yon lidè ki pran risk desizif, kalkile pou òganizasyon an dwe vrèman pran responsablite pou konsekans desizyon sa a, kit yo favorab kit yo pa favorab, an lyen ak diskisyon Leson 12 nivo sa a sou responsablite.
+- Esplike diferans ant yon vrè risk kalkile ak yon senp jwèt aza ki imprudan, ak poukisa diferans sa a depann anpil de si risk la te vrèman baze sou yon evalyasyon onèt, atantif.
+- Esplike poukisa yon lidè ki voye responsablite pou yon rezilta ki pa favorab sou lòt moun, apre li menm li te defann premye desizyon desizif la, domaje pwòp kredibilite li pi grav anpil pase si li te vrèman pran responsablite pou rezilta sa a.
+- Esplike kijan fason leson sa a fèmen ak kouraj ak responsablite pou konsekans konplete diskisyon sou lidèchip desizif Leson 46 a 48 nivo sa a te devlope, li rasanble fason desizif la, yon reevalyasyon onèt, ak yon vrè responsablite nan yon sèl pratik lidèchip ki kowerant.
+
+## Kontni prensipal
+An lyen dirèk ak diskisyon Leson 12 nivo sa a sou responsablite, FÈ VERIFYE, yon lidè ki pran risk desizif, kalkile pou òganizasyon an dwe vrèman pran responsablite pou konsekans desizyon sa a, kit vrè rezilta a vin favorab kit li vin vrèman pa favorab, sa ki fè echo ak diskisyon Leson 12 sou yon vrè responsablite ki mande yon pwopriyete klè davans olye bay blame apre bagay la fin pase — yon lidè ki defann yon desizyon desizif lè sikonstans yo sanble favorab, men ki apre sa voye responsablite a sou lòt moun depi menm desizyon sa a bay yon rezilta ki vrèman pa favorab, pa t vrèman egzèse vrè pwopriyete Leson 12 te idantifye kòm esansyèl pou yon bon responsablite nan òganizasyon an.
+
+Men "poukisa" diferans ant yon vrè risk kalkile ak yon senp jwèt aza ki imprudan depann anpil de si risk la te vrèman baze sou yon evalyasyon onèt, atantif: diskisyon anvan nivo sa a (Leson 46 a 48) te etabli ke yon vrè angajman desizif ta dwe vini apre yon evalyasyon onèt, ki baze sou prèv, sou yon vrè opòtinite yo idantifye, yon vrè kapasite òganizasyonèl pou aji, ak yon reevalyasyon onèt k ap kontinye pandan sikonstans yo ap evolye, sa ki vle di yon desizyon ki satisfè vrè estanda sa a reprezante yon risk kalkile ki gen kouraj, menm si vrè rezilta a finalman vin pa favorab, alòske yon desizyon yo pran pa enpilsyon, san kalite evalyasyon onèt, atantif sa a, reprezante yon senp jwèt aza ki imprudan kèlkeswa si desizyon espesifik sa a rive bay yon rezilta favorab pa chans sèlman — diferans sa a depann de vrè kalite pwosesis pran desizyon yo te vrèman swiv la, pa sèlman de si rezilta final la rive vin favorab oswa pa favorab.
+
+Se poutèt sa yon lidè ki voye responsablite pou yon rezilta ki pa favorab sou lòt moun domaje pwòp kredibilite li pi grav anpil pase si li te vrèman pran responsablite pou rezilta sa a, sa ki fè echo ak diskisyon Leson 42 nivo sa a sou imilite nan lidèchip: egzakteman paralèl ak diskisyon Leson 42 sou yon vrè admisyon erè ki bati olye kraze otorite, yon lidè ki voye responsablite pou yon rezilta ki pa favorab ki soti nan yon desizyon li menm li te defann bay ekip la yon prèv dirèk, vizib ke angajman lidè sa a te deklare pou yon vrè responsablite pa vrèman kenbe lè sikonstans yo vin vrèman pa konfòtab, sa ki domaje anpil kredibilite lidè sa a pou nenpòt angajman desizif li ta ka mande ekip la sipòte apre sa, alòske yon lidè ki vrèman pran responsablite pou yon rezilta ki pa favorab, menm pandan l ap esplike onètman vrè rezonman atantif ki te jistifye desizyon an okòmansman, prezève plis vrè kredibilite anpil pou yon lidèchip desizif nan lavni. Se poutèt sa fason leson sa a fèmen ak kouraj ak responsablite pou konsekans konplete diskisyon sou lidèchip desizif Leson 46 a 48 nivo sa a te devlope: Leson 46 te etabli ke yon vrè kapasite angajman desizif reprezante yon kalite lidèchip diferan ki mande kapasite espesifik pou pèmèt li, Leson 47 te etabli ke yo dwe bati kapasite sa a espre davans olye yo mete l ansanm an reyaksyon, Leson 48 te etabli ke yon angajman k ap kontinye mande yon reevalyasyon onèt k ap kontinye olye yon pèsistans pa abitid, e leson sa a konplete diskisyon sa a lè l etabli ke yon lidè dwe vrèman pran responsablite pou nenpòt vrè konsekans ki soti nan pwosesis desizif sa a, kit yo favorab kit yo pa favorab, li rasanble fason desizif la, yon reevalyasyon onèt, ak yon vrè responsablite nan yon sèl pratik lidèchip ki kowerant, doktrin "batay kouto" ak carpe diem ki pi laj kourikoulòm sa a, aplike espesyalman nan kontèks lidèchip la, vrèman mande.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon lidè ki te vrèman evalye atantivman yon gwo opòtinite anvan l te angaje l desizivman ladan l dekouvri, pandan kondisyon ekonomik jeneral yo vrèman chanje, ke desizyon sa a bay yon rezilta ki vrèman melanje, ki pa favorab an pati. Olye l voye responsablite a sou manm ekip ki te ede egzekite desizyon an, oswa sèlman sou sikonstans ekstèn yo, lidè sa a vrèman pran responsablite pou rezilta a, li esplike onètman rezonman atantif ki te jistifye desizyon an okòmansman pandan l rekonèt onètman tou sa ki pa t pase espesyalman jan yo te prevwa l. Vrè responsablite sa a, ki fè diferans ant risk kalkile, ki te byen evalye lidè a te pran an ak yon senp jwèt aza ki imprudan, prezève plis konfyans ak kredibilite anpil nan ekip la pou yon lidèchip desizif nan lavni pase voye responsablite a sou lòt moun ta fè.
+
+## Egzamen pratik
+**Q1. Poukisa yon lidè ki pran risk desizif, kalkile dwe vrèman pran responsablite pou konsekans yo, kit yo favorab kit yo pa favorab, an lyen ak Leson 12?**
+A) Yon lidè ta dwe toujou voye responsablite pou yon rezilta ki pa favorab sou lòt moun, sitou si premye desizyon an te sanble rezonab nan moman yo te pran l la
+B) Sa ki fè echo ak aksan diskisyon anvan an sou responsablite konsènan yon vrè pwopriyete davans olye bay blame apre bagay la fin pase, yon lidè ki defann yon desizyon men ki apre sa voye responsablite a sou lòt moun depi li bay yon rezilta ki pa favorab pa t vrèman egzèse yon vrè pwopriyete
+C) Pran responsablite pou konsekans vrèman nesesè sèlman lè yon desizyon desizif bay yon rezilta favorab, pa yon rezilta ki pa favorab
+D) Responsablite pou konsekans yon desizyon desizif pa gen okenn vrè rapò ak si lidè a te defann desizyon sa a okòmansman
+
+**Q2. Kisa ki fè diferans ant yon vrè risk kalkile ak yon senp jwèt aza ki imprudan?**
+A) Se si rezilta final la rive vin favorab oswa pa favorab ki detèmine si yon desizyon te yon vrè risk kalkile oswa yon senp jwèt aza ki imprudan
+B) Diferans lan depann de si desizyon an te vini apre yon evalyasyon onèt, ki baze sou prèv, sou yon vrè opòtinite ak yon vrè kapasite òganizasyonèl, dapre diskisyon anvan an, sa ki vle di yon desizyon ki byen evalye reprezante yon risk kalkile menm si rezilta a finalman pa favorab, alòske yon desizyon pa enpilsyon reprezante yon jwèt aza ki imprudan kèlkeswa rezilta final li
+C) Yon risk kalkile ak yon jwèt aza ki imprudan se konsèp idantik san okenn diferans ki gen sans ant yo
+D) Vrè kalite yon desizyon kòm risk kalkile depann nèt de konbyen konfyans lidè a te santi nan moman li te pran desizyon an
+
+**Q3. Poukisa voye responsablite pou yon rezilta ki pa favorab domaje kredibilite pi grav pase vrèman pran responsablite pou li, sa ki fè echo ak Leson 42?**
+A) Voye responsablite pou yon rezilta ki pa favorab toujou prezève plis kredibilite nan ekip la pase vrèman pran responsablite pou menm rezilta sa a
+B) Paralèl ak diskisyon anvan an sou yon vrè admisyon erè ki bati olye kraze otorite, voye responsablite a bay ekip la yon prèv dirèk ke angajman yon lidè te deklare pou responsablite pa vrèman kenbe nan sikonstans ki pa konfòtab, sa ki domaje kredibilite pou angajman desizif nan lavni
+C) Kredibilite yon lidè pa afekte ditou pa si li voye responsablite a sou lòt moun oswa li vrèman pran responsablite pou konsekans yon desizyon desizif
+D) Manm ekip yo pa janm vrèman remake oswa enterese si yon lidè voye responsablite pou yon rezilta òganizasyonèl ki pa favorab sou lòt moun
+
+**Q4. Kijan fason leson sa a prezante kouraj ak responsablite pou konsekans konplete diskisyon Leson 46 a 48 te devlope a?**
+A) Diskisyon leson sa a pa gen okenn vrè lyen ak diskisyon anvan sou lidèchip desizif yo te devlope nan Leson 46 a 48
+B) Leson 46 te etabli kapasite angajman desizif kòm yon kalite diferan, Leson 47 te etabli yo dwe bati l davans, Leson 48 te etabli bezwen pou yon reevalyasyon onèt k ap kontinye, e leson sa a konplete diskisyon an lè l etabli yon vrè responsablite pou konsekans, li rasanble fason desizif la, reevalyasyon, ak responsablite nan yon sèl pratik ki kowerant
+C) Vrè responsablite pou konsekans se yon konsèp lidèchip totalman separe ki pa gen rapò ak preparasyon òganizasyonèl oswa reevalyasyon onèt
+D) Leson 46 a 48 te deja trete nèt responsablite pou konsekans, sa ki fè diskisyon leson sa a pa nesesè
+
+**Q5. Nan egzanp lan, poukisa vrè responsablite lidè a te pran pou rezilta melanje a te prezève plis kredibilite pase voye responsablite a sou lòt moun ta fè?**
+A) Lidè a te an reyalite voye responsablite pou rezilta ki pa favorab la sou manm ekip ki te ede egzekite desizyon an
+B) Lidè a te vrèman pran responsablite pou rezilta a, li te esplike onètman rezonman atantif ki te jistifye desizyon an okòmansman pandan l te rekonèt onètman tou sa ki pa t pase jan yo te prevwa l, sa ki fè diferans ant risk kalkile, ki te byen evalye sa a ak yon senp jwèt aza ki imprudan
+C) Vrè responsablite lidè a te pran pou rezilta a pa t gen okenn vrè efè sou jan ekip la te wè kredibilite li apre sa
+D) Lidè a te bay sikonstans ekstèn ki pa previzib tout fot pou rezilta ki pa favorab la, san okenn rekonesans pwòp premye desizyon li
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Lyen dirèk sa a ak diskisyon anvan an sou responsablite, konsènan yon vrè pwopriyete olye voye blame apre bagay la fin pase, se egzakteman poukisa yon lidè dwe vrèman pran responsablite pou konsekans yon risk desizif kèlkeswa rezilta final la.
+
+**Q2.** Konsantrasyon sa a sou vrè kalite pwosesis pran desizyon an, olye sou rezilta final la poukont li, se egzakteman sa ki fè diferans ant yon vrè risk kalkile ak yon senp jwèt aza ki imprudan.
+
+**Q3.** Paralèl dirèk sa a ak diskisyon anvan an sou imilite nan lidèchip, konsènan yon responsablite onèt ki bati olye kraze kredibilite, se egzakteman poukisa voye responsablite a sou lòt moun domaje kredibilite pi grav pase yon vrè responsablite ta fè.
+
+**Q4.** Fason dirèk sa a pou rasanble fason desizif la, preparasyon davans, yon reevalyasyon onèt, ak yon vrè responsablite nan yon sèl pratik lidèchip ki kowerant se egzakteman jan diskisyon leson sa a sou kouraj ak responsablite pou konsekans konplete sekans twa leson anvan yo.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon vrè responsablite ansanm ak yon eksplikasyon onèt sou premye rezonman atantif la montre egzakteman poukisa leson sa a idantifye vrè responsablite pou konsekans kòm bagay ki prezève kredibilite pi byen pase voye responsablite sou lòt moun.
+
+## Pwen kle yo
+- Yon lidè ki pran risk desizif, kalkile dwe vrèman pran responsablite pou konsekans yo, kit yo favorab kit yo pa favorab, sa ki fè echo ak aksan diskisyon anvan an sou responsablite konsènan yon vrè pwopriyete.
+- Se kalite pwosesis pran desizyon yo te swiv la, pa rezilta final la poukont li, ki fè diferans ant yon vrè risk kalkile ak yon senp jwèt aza ki imprudan.
+- Voye responsablite pou yon rezilta ki pa favorab sou lòt moun domaje kredibilite pi grav pase vrèman pran responsablite pou li, sa ki fè echo ak diskisyon anvan an sou imilite nan lidèchip.
+- Leson sa a konplete diskisyon sou lidèchip desizif yo te devlope nan Leson 46 a 48, li rasanble fason desizif la, preparasyon davans, yon reevalyasyon onèt, ak yon vrè responsablite nan yon sèl pratik lidèchip ki kowerant.
+
+===== BLACK-L4-050
+TITLE: Entegrasyon lidèchip: bati yon pratik lidèchip ki kowerant nan vizyon, moun, sistèm, ak aksyon desizif
+SUMMARY: Konprann poukisa yon pratik lidèchip ki vrèman kowerant mande entegre vizyon, moun ak kilti, sistèm ak responsablite, ak aksyon desizif ansanm, ki gwo kategori nivo sa a kouvri, poukisa defo pasyan, etik la ak kapasite pou aji desizivman konplete youn lòt, ak poukisa lidèchip mande yon reevalyasyon onèt k ap kontinye.
+KEYWORDS: entegrasyon lidèchip, pratik lidèchip ki kowerant, rekonsilye etik ak fason desizif, kad lidèchip konplè
+# Entegrasyon lidèchip: bati yon pratik lidèchip ki kowerant nan vizyon, moun, sistèm, ak aksyon desizif
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa teste chak dimansyon lidèchip òganizasyonèl an menm tan, moun ki navige l ak plis siksè raman se lidè ki te metrize sèlman vizyon, oswa sèlman jesyon moun, oswa sèlman aksyon desizif poukont yo — se lidè ki te entegre chak eleman yo kouvri nan tout nivo sa a nan yon sèl pratik lidèchip ki kowerant.
+
+## Objektif aprantisaj
+- Esplike poukisa yon pratik lidèchip ki vrèman kowerant mande entegre vizyon ak direksyon, moun ak kilti, sistèm ak responsablite, ak aksyon desizif ansanm, olye trete nenpòt yon sèl dimansyon poukont li.
+- Idantifye gwo kategori nivo sa a kouvri ki mete ansanm pou fòme kad lidèchip entegre sa a.
+- Esplike poukisa defo etik, pasyan, ki oryante sou sèvis nivo sa a te etabli bonè a, ak kapasite pou aksyon desizif dènye leson nivo sa a yo te dekri a, konplete youn lòt olye yo kontredi youn lòt kòm pati menm pratik lidèchip ki kowerant a.
+- Esplike poukisa yon bon lidèchip mande yon reevalyasyon onèt sou tèt ou k ap kontinye nan chak nan dimansyon sa yo, olye yon apwòch lidèchip fiks yo etabli yon sèl fwa e yo pa janm revize apre.
+
+## Kontni prensipal
+Yon pratik lidèchip ki vrèman kowerant mande entegre tout seri konsèp nivo sa a te devlope yo ansanm, paske yon fòs nan nenpòt yon sèl dimansyon poukont li bay yon fondasyon ki pa konplè pou yon lidèchip ki vrèman efikas, ki dire. FÈ VERIFYE: leson nivo sa a yo òganize an plizyè kategori ki konekte youn ak lòt ki merite pou nou rasanble yo ansanm: oryantasyon lidèchip debaz (Leson 1-3, diferans ant lidèchip ak jesyon, adaptasyon a sitiyasyon, ak vrè oryantasyon sèvis lidèchip ki oryante sou sèvis la), moun ak kilti (Leson 4-10, entèlijans emosyonèl, sekirite sikolojik, delegasyon, pran desizyon nan ensètitid, vrè kilti, adopsyon chanjman, ak rezolisyon konfli), pratik òganizasyonèl (Leson 11-20, fidbak, responsablite, presizyon vizyon, siksesyon, lidèchip nan kriz, konpozisyon ekip, bati konfyans, otorite ou merite, motivasyon, ak efikasite reyinyon), sistèm ak estrikti (Leson 21-30, estrikti ki swiv estrateji, lidèchip a distans, ritm ki ka dire, lidèchip etik, devlopman talan, jesyon pèfòmans, sikilasyon enfòmasyon, gouvènans konsèy administrasyon, jesyon moun ki gen enterè, ak lidèchip nan gwo echèl), matirite estratejik ak òganizasyonèl (Leson 31-40, adaptasyon ant kilti, vrè chwa difisil estratejik, rezistans òganizasyonèl, akeyi dezakò, kominikasyon ki koresponn, règ ki di klèman, evite sòti sou ray, bati koalisyon, tranzisyon fondatè, ak eritaj ki dire), ak pratik lidèchip desizif (Leson 41-50, politik nan òganizasyon, vrè imilite, planifikasyon senaryo, disiplin nan resous, dwa pou deside, ak tout sik angajman desizif la, preparasyon davans, reevalyasyon onèt, ak vrè responsablite pou konsekans).
+
+Men "poukisa" yon fòs nan youn nan dimansyon sa yo pa konpanse yon feblès grav yo pa trete nan yon lòt, yon konpreyansyon santral sentèz final sa a soti nan tout nivo a: yon lidè ta ka vrèman metrize entèlijans emosyonèl ak sekirite sikolojik pandan l pa janm vrèman klarifye vrè dwa pou deside (yon feblès Leson 45 yo pa trete ki ta ka bay egzakteman kalite konfizyon òganizasyonèl ki koute chè leson sa a te dekri a); oswa yon lidè ta ka bati sistèm ekselan ak vrè estrikti responsablite pandan l pa janm devlope vrè preparasyon òganizasyonèl Leson 47 te dekri kòm nesesè pou pwofite yon vrè opòtinite lè li finalman rive, yon fason ki pa previzib — nan chak ka, yon vrè fòs nan yon domèn vin mine pa yon twou grav yo pa trete nan yon lòt, sa ki vle di yon pratik lidèchip ki kowerant mande pou trete espre chak nan dimansyon sa yo ansanm, olye kite fòs nan youn ranplase yon vrè atansyon sou lòt yo.
+
+Se poutèt sa defo etik, pasyan, ki oryante sou sèvis nivo sa a te etabli bonè a, ak kapasite pou aksyon desizif dènye leson nivo sa a yo te dekri a, konplete youn lòt olye yo kontredi youn lòt kòm pati menm pratik ki kowerant a: egzakteman jan diskisyon Leson 46 nivo sa a te etabli klèman, nivo sa a te toujou mete aksan bonè, laj li sou lidèchip ki oryante sou sèvis, sekirite sikolojik, yon vrè delegasyon, ak yon konduit etik ansanm ak diskisyon pita, ki pi espesifik li sou yon angajman òganizasyonèl desizif, e sa yo reprezante de fason menm disiplin lidèchip debaz la aplike nan sitiyasyon ki vrèman diferan selon sa prèv yo vrèman jistifye — apwòch pasyan, etik, ki baze sou relasyon ki vrèman apwopriye pou pifò sitiyasyon lidèchip òdinè, ak kapasite angajman desizif, ki gen kouraj ki vrèman apwopriye pou moman ki relativman ra, ki vrèman enpòtan dènye leson nivo sa a yo te dekri espesyalman yo, olye yo reprezante de filozofi lidèchip ki an konpetisyon yon lidè dwe chwazi youn pou tout tan. Se poutèt sa yon bon lidèchip mande yon reevalyasyon onèt sou tèt ou k ap kontinye nan chak nan dimansyon sa yo, olye yon apwòch lidèchip fiks yo etabli yon sèl fwa e yo pa janm revize apre: sa ki fè echo ak tèm nivo sa a ki repete sou revize bagay detanzantan (règ ekip, dwa pou deside, preparasyon òganizasyonèl, ak angajman k ap kontinye), vrè efikasite pwòp yon lidè nan vizyon, moun, sistèm, ak aksyon desizif tout mande yon atansyon soutni, k ap kontinye pandan sikonstans, pèsonèl, ak pwòp kapasite lidè a k ap devlope yo tout kontinye evolye natirèlman ak tan, sa ki vle di lidè ki navige yon vrè pwoblèm òganizasyonèl ak plis siksè, jan dènye leson sa a ak tout nivo sa a te mete aksan sou li, se sa ki kenbe yon atansyon lidèchip soutni, entegre, yo reevalye onètman nan tout kad konplè sa a, olye yon sèl apwòch lidèchip yo adopte yon sèl fwa e yo pa janm revize apre.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pandan yon gwo pwoblèm teste chak dimansyon lidèchip an menm tan, Lidè A, ki te bati yon vrè sekirite sikolojik ak konfyans, dwa pou deside ki klè, yon planifikasyon siksesyon ki dire, ak jijman ki baze sou prèv pou l rekonèt e aji desizivman sou yon vrè opòtinite pandan l kenbe otreman yon defo pasyan, etik, ki oryante sou sèvis, navige pwoblèm nan ak yon pratik lidèchip entegre, ki reziste. Lidè B, malgre yon vrè fòs nan entèlijans emosyonèl ak kilti ekip, pa t janm klarifye vrè dwa pou deside e li pa t janm bati preparasyon òganizasyonèl ki nesesè pou aksyon desizif — lè yon vrè opòtinite ki limite nan tan vrèman parèt pandan pwoblèm nan, òganizasyon Lidè B a pa kapab reyaji alè, sa ki montre egzakteman poukisa atansyon entegre Lidè A nan tout kad la te bay yon efikasite lidèchip ki pi gwo anpil pase fòs Lidè B nan nenpòt yon sèl dimansyon poukont li.
+
+## Egzamen pratik
+**Q1. Poukisa yon pratik lidèchip ki kowerant mande entegre plizyè dimansyon ansanm, olye konte sou fòs nan nenpòt yon sèl?**
+A) Yon sèl dimansyon, tankou yon entèlijans emosyonèl solid poukont li, toujou bay yon fondasyon konplè e ase pou yon lidèchip ki vrèman efikas
+B) Yon fòs nan nenpòt yon sèl dimansyon poukont li bay yon fondasyon ki pa konplè, paske yon feblès grav yo pa trete nan yon lòt dimansyon ka mine fòs sa a nèt, jan egzanp dènye leson sa a montre sou klète dwa pou deside ak preparasyon òganizasyonèl
+C) Vrè efikasite lidèchip pa gen okenn vrè rapò ak konbyen dimansyon lidèchip diferan yon lidè vrèman metrize
+D) Yon fòs nan entèlijans emosyonèl toujou bay otomatikman yon fòs ki egal nan klète dwa pou deside ak preparasyon òganizasyonèl tou
+
+**Q2. Ki gwo kategori dènye leson sa a idantifye kòm sa ki mete ansanm pou fòme kad lidèchip entegre a?**
+A) Se sèlman aksyon desizif ki enpòtan, ak vizyon, moun ak kilti, ak sistèm ak estrikti ki tout relativman pa enpòtan
+B) Oryantasyon lidèchip debaz, moun ak kilti, pratik òganizasyonèl, sistèm ak estrikti, matirite estratejik ak òganizasyonèl, ak pratik lidèchip desizif
+C) Leson nivo sa a yo pa gen okenn kategori òganizasyon ki gen sans ki mete ansanm pou fòme okenn kalite kad entegre
+D) Se sèlman dis dènye leson nivo sa a yo, ki kouvri pratik lidèchip desizif, ki vrèman enpòtan pou yon vrè efikasite lidèchip
+
+**Q3. Poukisa defo etik, pasyan an ak kapasite pou aksyon desizif konplete youn lòt olye yo kontredi youn lòt?**
+A) Yon lidè dwe toujou chwazi pou tout tan ant yon apwòch etik, pasyan ak nenpòt kapasite pou aksyon desizif, paske de bagay sa yo fondamantalman pa ka mache ansanm
+B) Sa yo reprezante de fason menm disiplin lidèchip debaz la aplike nan sitiyasyon ki vrèman diferan selon sa prèv yo vrèman jistifye, olye de filozofi ki an konpetisyon yon lidè dwe chwazi youn pou tout tan
+C) Defo etik, pasyan nivo sa a te etabli bonè a pa gen okenn vrè rapò ak diskisyon pita nivo sa a sou pratik lidèchip desizif
+D) Yon lidè k ap pratike yon vrè aksyon desizif dwe toujou abandone nèt apwòch etik, pasyan, ki oryante sou sèvis la
+
+**Q4. Poukisa yon bon lidèchip mande yon reevalyasyon onèt sou tèt ou k ap kontinye nan chak dimansyon, olye yon apwòch fiks yo etabli yon sèl fwa?**
+A) Yon apwòch lidèchip, depi yo etabli l, ta dwe toujou rete fiks san chanjman kèlkeswa nenpòt evolisyon ki vin apre nan sikonstans oswa pèsonèl
+B) Sa ki fè echo ak tèm ki repete sou revize bagay detanzantan, vrè efikasite yon lidè nan vizyon, moun, sistèm, ak aksyon desizif tout mande yon atansyon soutni, k ap kontinye pandan sikonstans ak pèsonèl kontinye evolye natirèlman ak tan
+C) Yon reevalyasyon sou tèt ou k ap kontinye nan plizyè dimansyon lidèchip toujou pa nesesè depi yon lidè fin rive metrize vrèman nenpòt yon sèl dimansyon
+D) Pwòp kapasite yon lidè k ap devlope ak sikonstans yon òganizasyon pa janm vrèman chanje depi yo fin etabli yon premye apwòch lidèchip
+
+**Q5. Nan egzanp lan, poukisa Lidè A te navige pwoblèm nan pi efikasman pase Lidè B, malgre vrè fòs Lidè B nan entèlijans emosyonèl ak kilti?**
+A) Lidè B te an reyalite gen yon pratik lidèchip ki pi entegre, ki pi reziste nan chak dimansyon pase Lidè A
+B) Lidè A te entegre sekirite sikolojik, dwa pou deside ki klè, planifikasyon siksesyon, ak yon jijman desizif ki baze sou prèv ansanm, alòske twou Lidè B pa t trete nan klète dwa pou deside ak preparasyon òganizasyonèl te kite òganizasyon sa a san kapasite pou l reyaji lè yon vrè opòtinite te vrèman parèt
+C) Òganizasyon Lidè B a te an reyalite reyaji a vrè opòtinite a pi efikasman anpil pase òganizasyon Lidè A a
+D) Apwòch lidèchip espesifik okenn nan lidè yo pa t gen okenn vrè efè sou jan òganizasyon yo chak te navige pwoblèm nan efikasman
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rekonesans sa a ke yon vrè efikasite lidèchip mande pou trete plizyè dimansyon ki konekte youn ak lòt ansanm, olye konte sou fòs nan yon sèl, se konpreyansyon santral ki mete tout bagay ansanm dènye leson sa a soti nan tout nivo a.
+
+**Q2.** Sis gwo kategori sa yo rasanble tout seri konsèp yo kouvri nan tout nivo sa a nan yon sèl kad lidèchip ki kowerant, ki entegre.
+
+**Q3.** Fason sa a pou prezante pasyans ak fason desizif kòm de fason ki konplete youn lòt nan menm pratik lidèchip disipline a, olye filozofi ki an konpetisyon, se egzakteman poukisa leson sa a rezoud nenpòt tansyon ki sanble genyen ant premye leson etik nivo sa a yo ak dènye leson li yo sou lidèchip desizif.
+
+**Q4.** Bezwen sa a pou yon reevalyasyon soutni, k ap kontinye pandan vrè kondisyon yo ap evolye, olye yon sèl apwòch fiks, se egzakteman poukisa dènye leson sa a mete aksan sou yon atansyon entegre, k ap kontinye nan tout kad lidèchip konplè a.
+
+**Q5.** Kontras dirèk sa a ant pratik lidèchip entegre, nan plizyè dimansyon Lidè A ak fòs Lidè B nan sèlman kèk dimansyon pandan l neglije lòt yo montre egzakteman sentèz santral dènye leson sa a soti nan tout nivo sa a.
+
+## Pwen kle yo
+- Yon pratik lidèchip ki kowerant entegre oryantasyon debaz, moun ak kilti, pratik òganizasyonèl, sistèm ak estrikti, matirite estratejik, ak pratik lidèchip desizif ansanm.
+- Yon fòs nan yon dimansyon pa konpanse yon feblès grav yo pa trete nan yon lòt, tankou dwa pou deside yo pa klarifye oswa yon preparasyon òganizasyonèl yo pa bati.
+- Defo etik, pasyan an ak kapasite pou aksyon desizif se de fason ki konplete youn lòt nan menm disiplin lan, pa filozofi ki an konpetisyon ki mande yon chwa pou tout tan.
+- Yon bon lidèchip mande yon reevalyasyon onèt sou tèt ou k ap kontinye nan chak dimansyon pandan sikonstans yo ap evolye, olye yon apwòch lidèchip fiks yo etabli yon sèl fwa e yo pa janm revize apre.
