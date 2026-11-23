@@ -1,0 +1,443 @@
+===== PURPLE-L5-016
+TITLE: Rechtmatige vermogensbescherming en haar harde grenzen
+SUMMARY: Vermogen rechtmatig beschermen betekent tijdig verzekeringen, rechtsvormen, beschermde bezittingen, trusts en een zorgvuldige tenaamstelling gebruiken; overdrachten die worden gedaan nadat er een probleem is ontstaan, worden vaak teruggedraaid en maken de situatie erger.
+KEYWORDS: rechtmatige vermogensbescherming, benadeling van schuldeisers, vernietigbare overdracht, KEEP-fase, bescherming tegen schuldeisers
+# Rechtmatige vermogensbescherming en haar harde grenzen
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een middelgrote nationale overheid voor die aangeeft dat ze een komende betaling op haar staatsobligaties misschien niet kan doen, waardoor het risico op wanbetaling op haar schuld stijgt.
+Pas het hier toe: Terwijl een staatsschuldencrisis zich uitbreidt, gaan bedrijven failliet en stapelen rechtszaken zich op. Sommige eigenaren raken in paniek en beginnen bezittingen naar familieleden te verschuiven. Vraag over de kleuren heen: welke bescherming is correct en tijdig opgezet (PURPLE/verzekering GOLD)? Welke last-minute overdrachten kan een rechter terugdraaien? Wat zijn de fiscale en juridische sancties (GREEN)?
+
+## Leerdoelen
+- De rechtmatige instrumenten voor vermogensbescherming beschrijven
+- De regels over paulianeuze of vernietigbare overdrachten uitleggen
+- Vroege planning onderscheiden van het op het laatste moment verbergen van bezittingen
+
+## Kerninhoud
+Het vermogensmodel in vier fasen van het Filosofisch Kader omvat KEEP: beschermen wat je hebt opgebouwd. KEEP wordt alleen onderwezen via rechtmatige instrumenten. Het betekent nooit bezittingen verbergen voor schuldeisers, rechters of echtgenoten.
+Rechtmatige instrumenten, meestal in lagen gebruikt:
+1. Verzekering: aansprakelijkheids-, opstal- en inboedel-, aanvullende, beroeps- en arbeidsongeschiktheidsverzekeringen. Meestal de eerste en goedkoopste laag.
+2. Rechtsvormen: LLC's en corporations die bedrijfsrisico's scheiden (PURPLE-L5-002 tot en met -010).
+3. Beschermde bezittingen: REGIOSPECIFIEKE REGEL: Veel rechtsgebieden beschermen bij wet bepaalde bezittingen tegen schuldeisers, zoals sommige pensioenrekeningen, een deel van de waarde van de woning of bepaalde verzekeringswaarden; in Nederland bijvoorbeeld zijn volgens beschikbare informatie sommige goederen en inkomsten beschermd door de beslagvrije voet en andere wettelijke beslagverboden, is een eigen woning niet zonder meer beschermd, en kunnen schuldeisers met de actio pauliana rechtshandelingen vernietigen die hen benadelen, dus controleer dit met een advocaat.
+4. Trusts: Goed opgezette trusts, tijdig opgericht om legitieme redenen (PURPLE-L5-012).
+5. Tenaamstelling en contracten: Een zorgvuldige tenaamstelling (PURPLE-L5-013) en het beperken van persoonlijke borgstellingen (PURPLE-L5-009).
+De harde grens: de regels over paulianeuze of vernietigbare overdrachten. GEVERIFIEERD FEIT: Veel rechtsstelsels staan schuldeisers toe overdrachten terug te draaien die zijn gedaan met de bedoeling schuldeisers te hinderen, te vertragen of te bedriegen, of overdrachten voor minder dan de reële waarde terwijl de persoon insolvent was of bijna insolvent werd. Rechters zoeken vaak naar "aanwijzingen van fraude", zoals:
+- Overdrachten aan familie of naaste relaties.
+- Overdrachten vlak nadat een rechtszaak is gedreigd of begonnen.
+- De zeggenschap of het gebruik van een bezitting houden nadat je haar hebt "weggegeven".
+- Bijna alles overdragen.
+- Weinig of niets terugkrijgen.
+REGIOSPECIFIEKE REGEL: Terugkijkperiodes en sancties verschillen. Op sommige plaatsen kan ook degene die helpt bij de overdracht aansprakelijk worden gesteld.
+Het belangrijkste verschil zit in timing en doel. Bescherming die jaren eerder is opgezet, om legitieme redenen en terwijl je solvent was, is planning. Bezittingen verschuiven nadat een probleem is ontstaan, kan vaak worden teruggedraaid en kan het erger maken.
+AANNAME/MENING: Het beste moment om bescherming op te bouwen is wanneer je haar niet nodig hebt. Het slechtste moment is de week nadat er een aanmaning is binnengekomen.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Twee ondernemers voor dezelfde economische crisis.
+Eigenaar A, jaren geleden en financieel gezond: sloot een aanvullende aansprakelijkheidspolis af, bracht haar huurpanden onder in LLC's met aparte rekeningen, stortte het maximum in een pensioenrekening die door de lokale wet is beschermd en hield haar bedrijf goed verzekerd. Als een klant haar bedrijf aanklaagt, dekt de verzekering het grootste deel van de claim en blijft haar privévermogen beschermd. Niets van wat ze deed kan worden teruggedraaid, omdat het openlijk, tijdig en tegen een reële waarde gebeurde.
+Eigenaar B, drie weken nadat hij een aanmaning ontving: zet zijn huis voor € 1 op naam van zijn broer, maakt € 200.000 over naar de rekening van een neef en blijft in het huis wonen. De advocaat van de schuldeiser ziet meerdere aanwijzingen van fraude: overdrachten aan naaste relaties, timing vlak na de dreiging, weinig waarde ontvangen en voortgezet gebruik. De rechter draait de overdrachten terug. Eigenaar B heeft nu ook juridische kosten en verliest geloofwaardigheid bij de rechter.
+AANNAME/MENING: Eigenaar B probeerde zijn bezittingen te beschermen (KEEP) en maakte zijn situatie veel erger. De rustigere, vroegere keuzes van eigenaar A werkten.
+
+## Oefenquiz
+**Q1. Wat is meestal de eerste en goedkoopste laag van vermogensbescherming?**
+A) Een trust in het buitenland
+B) Bankrekeningen opheffen
+C) Bezittingen aan familie overdragen
+D) Een verzekering
+**Q2. Wat staat een regel over paulianeuze of vernietigbare overdrachten toe?**
+A) Dat iedereen je bezittingen afneemt
+B) Lagere belastingen
+C) Dat schuldeisers overdrachten terugdraaien die zijn gedaan om hen te hinderen of te bedriegen
+D) Een snellere boedelafwikkeling
+**Q3. Welke van deze is een "aanwijzing van fraude"?**
+A) Jaren geleden een verzekering afsluiten
+B) Een huis aan een familielid overdragen vlak nadat een rechtszaak is gedreigd
+C) De reële marktwaarde betalen
+D) Aparte zakelijke rekeningen aanhouden
+**Q4. Wat is het belangrijkste verschil tussen plannen en verbergen?**
+A) Timing en doel: tijdig, legitiem en solvent, tegenover nadat een probleem is ontstaan
+B) De omvang van de bezittingen
+C) Welke advocaat je gebruikt
+D) Of het op papier staat
+**Q5. Wat betekent KEEP volgens het Filosofisch Kader nooit?**
+A) Bezittingen verbergen voor schuldeisers, rechters of echtgenoten
+B) LLC's gebruiken
+C) Verzekeringen afsluiten
+D) Trusts gebruiken
+
+## Antwoordsleutel
+Q1: D
+Q2: C
+Q3: B
+Q4: A
+Q5: A
+
+## Antwoorden en uitleg
+**Q1.** Een verzekering dekt de meeste claims tegen de laagste kosten.
+**Q2.** Zulke overdrachten kunnen door een rechter worden teruggedraaid.
+**Q3.** Overdrachten aan naaste relaties vlak na een dreiging zijn klassieke waarschuwingssignalen.
+**Q4.** Vroege, legitieme planning is rechtmatig; last-minute overdrachten kunnen vaak worden teruggedraaid.
+**Q5.** KEEP gaat alleen over rechtmatige bescherming.
+
+## Belangrijkste punten
+- KEEP betekent rechtmatige bescherming: verzekering, rechtsvormen, beschermde bezittingen, trusts en een zorgvuldige tenaamstelling
+- Overdrachten om bestaande schuldeisers te ontlopen, kunnen worden teruggedraaid
+- Aanwijzingen van fraude zijn onder meer overdrachten aan naaste relaties, verdachte timing en het behouden van zeggenschap
+- Bouw bescherming vroeg op, terwijl je solvent bent, om legitieme redenen
+
+===== PURPLE-L5-017
+TITLE: De verzekering als eerste juridische verdedigingslinie
+SUMMARY: Een verzekering is een contract en de tekst bepaalt de dekking; lees elk jaar de dekking, uitsluitingen en limieten, en beloof in een contract nooit meer dan je bescherming kan dragen.
+KEYWORDS: soorten bedrijfsverzekeringen, aansprakelijkheidsverzekering, sleutelpersoonverzekering, verzekering en vermogensbescherming, vrijwaringsclausule in contracten
+# De verzekering als eerste juridische verdedigingslinie
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een grote energieproducerende regio voor die getroffen wordt door een plotseling regionaal conflict dat van de ene op de andere dag een groot deel van de productiecapaciteit uitschakelt, waardoor het wereldwijde energieaanbod bijna zonder waarschuwing krapper wordt.
+Pas het hier toe: Een plotselinge energieschok verhoogt de kosten en verstoort de bedrijfsvoering van veel bedrijven. Vraag over de kleuren heen: dekt de verzekering van het bedrijf (GOLD/PURPLE) onderbrekingen door gebeurtenissen als deze, of sluit de polis ze uit? Beloven de contracten met klanten (BLUE) leveringen die het bedrijf niet meer kan doen? Wie draagt het verlies?
+
+## Leerdoelen
+- De belangrijkste soorten verzekeringen voor eigenaren en beleggers benoemen
+- Uitleggen hoe een verzekering samenwerkt met contracten en rechtsvormen
+- De belangrijkste delen van een polis lezen: dekking, uitsluitingen en limieten
+
+## Kerninhoud
+Een verzekering is een contract (PURPLE) dat bepaalde risico's overdraagt aan een verzekeraar in ruil voor een premie. Voor de meeste eigenaren is het de eerste beschermingslaag en vangt ze de alledaagse claims op, zodat rechtsvormen en trusts alleen in zeldzame, ernstige gevallen ertoe doen.
+Belangrijkste soorten:
+- Algemene aansprakelijkheid: Letsel of materiële schade aan derden door het bedrijf.
+- Zaakschade: Schade aan gebouwen, apparatuur en voorraad.
+- Bedrijfsschade: Het inkomen dat verloren gaat als het bedrijf stilligt door een gedekte gebeurtenis.
+- Beroepsaansprakelijkheid: Fouten bij het verlenen van professionele diensten.
+- Aanvullend: Extra aansprakelijkheidsdekking boven op andere polissen.
+- Sleutelpersoon: Betaalt het bedrijf uit als een essentiële persoon overlijdt of arbeidsongeschikt raakt.
+- Polissen voor verhuurders: Specifieke dekking voor huurpanden (RED).
+Hoe de kleuren samenhangen:
+- PURPLE: De tekst van de polis bepaalt alles. Drie delen zijn het belangrijkst: wat gedekt is, wat uitgesloten is en de limieten.
+- BLUE: Contracten met klanten en leveranciers verschuiven vaak risico via vrijwaringsclausules ("jij vergoedt mijn schade als…") en eisen bepaalde verzekeringen. Een bedrijf kan in een contract meer beloven dan zijn verzekering dekt.
+- RED: Geldverstrekkers eisen vaak een opstalverzekering die hen als begunstigde bij schade noemt.
+- GOLD/WHITE: Een verzekering voorkomt dat geïnvesteerd kapitaal door één gebeurtenis wordt weggevaagd.
+GEVERIFIEERD FEIT: Polissen bevatten meestal uitsluitingen. Sommige sluiten bepaalde rampen, pandemieën, oorlog of gebeurtenissen zonder materiële schade uit. REGIOSPECIFIEKE REGEL: Dekkingsregels en eisen van toezichthouders verschillen; in Nederland bijvoorbeeld houden De Nederlandsche Bank en de AFM volgens beschikbare informatie toezicht op verzekeraars en tussenpersonen, en vereist een bedrijfsschadeverzekering meestal een gedekte materiële schade, dus controleer dit met een verzekeringsadviseur.
+De zet van niveau 5 is drie documenten op elkaar afstemmen: de contracten die je tekent, de verzekering die je hebt en de rechtsvorm die tekent. Als een contract belooft de schade van een klant te vergoeden, dekt je polis die belofte dan?
+AANNAME/MENING: Veel eigenaren ontdekken pas wat hun polis uitsluit nadat een claim is afgewezen. Eén keer per jaar de uitsluitingen met een adviseur doorlopen, is een van de waardevolste uren die een eigenaar kan besteden.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Aisha runt een groothandel in levensmiddelen. Ze heeft een algemene aansprakelijkheidsverzekering, een zaakschadeverzekering en een bedrijfsschadeverzekering.
+De energieschok komt. Haar brandstofkosten verdubbelen en een leverancier sluit twee maanden. Ze dient een claim voor bedrijfsschade in. De verzekeraar wijst die af: de polis dekt alleen onderbrekingen door materiële schade aan haar eigen bezittingen, en die is er niet geweest.
+Intussen staat in een contract met een grote klant dat Aisha op tijd moet leveren of de schade van de klant moet betalen. Het contract heeft geen overmachtsclausule (behandeld in PURPLE-L5-039). Haar aansprakelijkheidspolis dekt geen contractuele boetes.
+Na de crisis doet Aisha het volgende:
+- Ze voegt een dekking voor afhankelijke bedrijfsschade toe (voor stilstand bij een belangrijke leverancier), waar die bestaat.
+- Ze heronderhandelt de contracten met klanten om een overmachtsclausule op te nemen en haar aansprakelijkheid te beperken.
+- Ze brengt de klantcontracten onder in haar werkmaatschappij, los van de vennootschap die het magazijn bezit.
+AANNAME/MENING: Aisha's eerste fout was niet dat ze te weinig verzekerd was. Het was dat ze contracten tekende die meer beloofden dan haar verzekering en structuur konden dragen.
+
+## Oefenquiz
+**Q1. Waarom is een verzekering meestal de eerste beschermingslaag?**
+A) Ze vangt de meeste alledaagse claims op voordat rechtsvormen of trusts nodig zijn
+B) Ze is gratis
+C) Ze vervangt alle contracten
+D) Ze is voor alle bezittingen verplicht
+**Q2. Welke drie delen van een polis zijn het belangrijkst?**
+A) Kleur, lettertype en aantal pagina's
+B) Naam van de adviseur, datum en adres
+C) Dekking, uitsluitingen en limieten
+D) Premie, logo en telefoonnummer
+**Q3. Wat is een vrijwaringsclausule?**
+A) Een belastingaftrek
+B) Een leningsvoorwaarde
+C) Een soort zaakschadeverzekering
+D) Een contractuele belofte om de schade van de andere partij te vergoeden
+**Q4. Waarom werd Aisha's claim voor bedrijfsschade afgewezen?**
+A) Ze betaalde te laat
+B) Energieschokken zijn illegaal
+C) De polis vereiste materiële schade aan haar bezittingen
+D) Ze had geen polis
+**Q5. Wat was volgens de les Aisha's grootste fout?**
+A) Een verzekering afsluiten
+B) Een magazijn bezitten
+C) Contracten tekenen die meer beloofden dan haar verzekering en structuur konden dragen
+D) Een aparte vennootschap gebruiken
+
+## Antwoordsleutel
+Q1: A
+Q2: C
+Q3: D
+Q4: C
+Q5: C
+
+## Antwoorden en uitleg
+**Q1.** Een verzekering dekt gewone verliezen tegen bekende kosten.
+**Q2.** Ze bepalen wat wordt betaald, wat niet en hoeveel.
+**Q3.** Vrijwaring verschuift verliezen per contract van de ene partij naar de andere.
+**Q4.** De aanleiding in de polis was materiële schade, en die was er niet.
+**Q5.** Haar contracten, verzekering en rechtsvorm waren niet op elkaar afgestemd.
+
+## Belangrijkste punten
+- Een verzekering is een contract; de tekst bepaalt de dekking
+- Lees elk jaar de dekking, uitsluitingen en limieten
+- Stem contracten, verzekering en de tekenende rechtsvorm op elkaar af
+- Beloof in een contract nooit meer dan je bescherming kan dragen
+
+===== PURPLE-L5-018
+TITLE: Aansprakelijkheid van verhuurders en aanvullende dekking
+SUMMARY: De aansprakelijkheid van verhuurders komt voort uit tekortkomingen in veiligheid, bewoonbaarheid, discriminatie en procedure; onderhoud is risicobeheer, aanvullende dekking moet passen bij hoe de panden op naam staan, en voorkomen is goedkoper dan beschermen.
+KEYWORDS: aansprakelijkheid van de verhuurder, aanvullende polis voor verhuurders, rechtszaken over huurpanden, huurcontractclausules, bewoonbaarheid
+# Aansprakelijkheid van verhuurders en aanvullende dekking
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je de vastgoed- en consumentenkredietmarkten voor van een dichtbevolkt land die, na jaren van snelle groei, tekenen van een scherpe correctie beginnen te vertonen terwijl de betalingsachterstanden toenemen.
+Pas het hier toe: In een vastgoedcorrectie snijden verhuurders in hun onderhoudsbudget om geld te besparen. Vraag over de kleuren heen: vergroot uitgesteld onderhoud (RED) het juridische risico (PURPLE) als een huurder gewond raakt? Dekt de verzekering van de verhuurder dat? Kan de claim andere panden of het persoonlijke spaargeld (WHITE) bereiken?
+
+## Leerdoelen
+- De meest voorkomende bronnen van aansprakelijkheid van verhuurders benoemen
+- Uitleggen hoe regels over bewoonbaarheid en veiligheid het risico beïnvloeden
+- Verzekering, rechtsvormstructuur en huurcontracten coördineren om het risico te beperken
+
+## Kerninhoud
+Huurpanden scheppen juridische plichten. Verhuurders kunnen aansprakelijk worden gesteld als het pand of hun gedrag schade veroorzaakt. Op niveau 5 is de vraag hoe je verzekering, rechtsvormen, huurcontractclausules en onderhoud coördineert, zodat één incident niet de hele portefeuille bedreigt.
+Veelvoorkomende bronnen van aansprakelijkheid van verhuurders:
+- Letsel door onveilige omstandigheden: kapotte trappen, slechte verlichting, gebrekkige bedrading.
+- Niet voldoen aan bewoonbaarheidsnormen: verwarming, water, ongediertebestrijding, veiligheidsvoorzieningen. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld moet de verhuurder volgens beschikbare informatie gebreken herstellen die het huurgenot verminderen, gelden voor woonruimte strenge regels over huurbescherming en huurprijzen, en is voor ontruiming in de regel een vonnis van de rechter nodig, dus controleer dit met een advocaat.
+- Claims wegens discriminatie op grond van huisvestingswetten. REGIOSPECIFIEKE REGEL.
+- Geschillen over de waarborgsom en onjuiste ontruimingsprocedures.
+- Milieuproblemen, zoals loodhoudende verf of schimmel, in sommige rechtsgebieden.
+Hoe de kleuren samenhangen:
+- RED: Onderhoud is niet alleen een kostenpost. Het is risicobeheer. Uitgesteld onderhoud kan een kleine reparatierekening veranderen in een grote juridische claim.
+- PURPLE: Huurcontracten kunnen huurders sommige verantwoordelijkheden geven (zoals problemen snel melden), maar veel rechtsgebieden staan niet toe dat een contract de basisplichten op het gebied van bewoonbaarheid of veiligheid opzijzet.
+- GOLD/BLUE: Polissen voor verhuurders en aanvullende dekking. Een aanvullende polis voegt aansprakelijkheidsdekking toe boven op de basispolissen, vaak tegen lage kosten per miljoen dekking.
+- WHITE: Als claims de dekking overschrijden en het pand op persoonlijke naam staat, kunnen spaargeld en beleggingen kwetsbaar zijn.
+GEVERIFIEERD FEIT: Veel aanvullende polissen eisen een minimale dekking op de basispolissen. Sommige aanvullende polissen dekken geen panden die in een LLC zitten, tenzij de LLC is genoemd. REGIOSPECIFIEKE REGEL.
+AANNAME/MENING: Bezuinigen op onderhoud om geld te sparen tijdens een neergang is vaak een schijnbesparing. Het juridische risico groeit juist als de verhuurder het minste geld heeft om een claim op te vangen.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Tariq bezit zes woningen in drie gebouwen. Tijdens een neergang stelt hij het vervangen van een versleten trapleuning uit om € 1.200 te besparen.
+Een bezoeker van een huurder valt en raakt ernstig gewond. De claim is € 1,5 miljoen.
+Zijn structuur:
+- Elk gebouw in een eigen LLC (PURPLE-L5-004).
+- € 1 miljoen aansprakelijkheidsdekking per gebouw.
+- Een aanvullende polis van € 2 miljoen, die echter alleen Tariq persoonlijk noemt en niet de LLC's.
+De verzekeraar dekt € 1 miljoen. De aanvullende verzekeraar betwist of hij de LLC dekt. Tariqs advocaat lost het uiteindelijk op, maar pas na maanden stress en juridische kosten.
+Lessen die Tariq daarna toepast:
+- De aanvullende polis bijwerken zodat alle LLC's erin worden genoemd.
+- Een onderhoudsschema opstellen en elk reparatieverzoek van huurders met datum vastleggen.
+- Een reparatiereserve aanhouden zodat neergangen veiligheidswerk niet vertragen.
+AANNAME/MENING: De trapleuning van € 1.200 was de goedkoopste risicobeslissing die Tariq had kunnen nemen. De LLC-structuur hielp de schade te beperken, maar de echte les was dat voorkomen goedkoper is dan beschermen.
+
+## Oefenquiz
+**Q1. Waarom is uitgesteld onderhoud een juridische kwestie en niet alleen een kostenkwestie?**
+A) Het verhoogt de onroerendezaakbelasting
+B) Onveilige omstandigheden kunnen aansprakelijkheid veroorzaken als iemand gewond raakt
+C) Huurders betalen het onderhoud
+D) Geldverstrekkers eisen het
+**Q2. Kan een huurcontract meestal de basisplichten van de verhuurder op het gebied van bewoonbaarheid opzijzetten?**
+A) Ja, altijd
+B) Alleen voor bedrijfspanden
+C) In veel rechtsgebieden niet
+D) Alleen als de huurder mondeling akkoord gaat
+**Q3. Wat doet een aanvullende polis?**
+A) Ze voegt aansprakelijkheidsdekking toe boven op de basispolissen
+B) Ze dekt regenschade
+C) Ze vervangt de opstalverzekering
+D) Ze betaalt de hypotheeklasten
+**Q4. Welk gat gaf Tariq problemen met zijn aanvullende polis?**
+A) Ze was verlopen
+B) Ze noemde hem persoonlijk maar niet zijn LLC's
+C) Ze had geen limiet
+D) Ze dekte alleen brand
+**Q5. Wat zegt de les over bezuinigen op onderhoud tijdens een neergang?**
+A) Het is altijd verstandig
+B) Het is vaak een schijnbesparing, omdat het juridische risico groeit
+C) Het is wettelijk verplicht
+D) Het verbetert de kasstroom voorgoed
+
+## Antwoordsleutel
+Q1: B
+Q2: C
+Q3: A
+Q4: B
+Q5: B
+
+## Antwoorden en uitleg
+**Q1.** Onderhoud voorkomt de omstandigheden die tot claims leiden.
+**Q2.** Op veel plaatsen mogen huurcontracten de basisplichten op het gebied van veiligheid niet opzijzetten. REGIOSPECIFIEKE REGEL.
+**Q3.** Aanvullende dekking verhoogt de aansprakelijkheidslimieten boven de basispolissen.
+**Q4.** Aanvullende polissen moeten soms elke vennootschap noemen die een pand bezit.
+**Q5.** Het juridische risico stijgt juist als het geld het krapst is.
+
+## Belangrijkste punten
+- De aansprakelijkheid van verhuurders komt voort uit tekortkomingen in veiligheid, bewoonbaarheid, discriminatie en procedure
+- Onderhoud is risicobeheer, niet alleen een kostenpost
+- Aanvullende dekking moet passen bij hoe de panden op naam staan
+- Voorkomen is goedkoper dan beschermen
+
+===== PURPLE-L5-019
+TITLE: Pensioenrekeningen, bescherming tegen schuldeisers en juridische structuur
+SUMMARY: Bescherming tegen het omvallen van een instelling is iets anders dan bescherming tegen schuldeisers; veel stelsels beschermen bepaalde pensioenrekeningen, maar overdrachten en erfenissen kunnen die bescherming veranderen, dus controleer dat voordat je geld verplaatst.
+KEYWORDS: bescherming van pensioenrekeningen tegen schuldeisers, beschermde bezittingen, pensioen en rechtszaken, beschermd spaargeld
+# Pensioenrekeningen, bescherming tegen schuldeisers en juridische structuur
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een systeemrelevante financiële instelling voor die plotseling een groot, eerder verzwegen verlies bekendmaakt, waardoor de vrees ontstaat dat het tegenpartijrisico zich door het hele bankstelsel verspreidt.
+Pas het hier toe: Een bankschrik maakt mensen bezorgd over waar hun spaargeld het veiligst is. Vraag over de kleuren heen: welke rekeningen zijn beschermd door een depositogarantie of een beleggerscompensatieregeling (WHITE)? Welke zijn bij wet beschermd tegen rechtszaken of faillissement (PURPLE)? Wat zijn de fiscale gevolgen van vroeg opnemen (GREEN)?
+
+## Leerdoelen
+- Uitleggen waarom sommige pensioenrekeningen een speciale bescherming tegen schuldeisers krijgen
+- Bescherming tegen het omvallen van een instelling onderscheiden van bescherming tegen schuldeisers
+- Pensioensparen afstemmen op juridische en fiscale planning
+
+## Kerninhoud
+Twee heel verschillende soorten bescherming worden vaak door elkaar gehaald:
+1. Bescherming tegen het omvallen van een instelling: Wat gebeurt er als de bank of de beleggingsonderneming failliet gaat? REGIOSPECIFIEKE REGEL: Veel landen hebben een depositogarantie voor bankrekeningen en aparte compensatieregelingen voor beleggingsrekeningen, elk met eigen limieten; in Nederland bijvoorbeeld beschermt het depositogarantiestelsel volgens beschikbare informatie tegoeden tot € 100.000 per rekeninghouder per bank, worden effecten bij een beleggingsonderneming apart van haar eigen vermogen bewaard, en kunnen pensioenaanspraken en bepaalde lijfrenten beperkt beschermd zijn tegen beslag, dus controleer dit met een advocaat.
+2. Bescherming tegen schuldeisers: Wat gebeurt er als je wordt aangeklaagd of failliet gaat? Kan een schuldeiser het geld op de rekening nemen?
+Deze les gaat over het tweede. GEVERIFIEERD FEIT: Veel rechtsstelsels geven bepaalde pensioenrekeningen een speciale bescherming tegen schuldeisers, vaak omdat wetgevers willen dat mensen op hun oude dag een inkomen hebben. REGIOSPECIFIEKE REGEL: Welke rekeningen in aanmerking komen, of de bescherming onbeperkt is of een plafond heeft, en of ze binnen of buiten een faillissement geldt, verschilt allemaal.
+Hoe de kleuren samenhangen:
+- WHITE: Pensioenrekeningen bevatten vaak een groot deel van de beleggingen van een gezin.
+- GREEN: Inleg kan fiscale voordelen hebben, en vroege opnames kunnen belasting en boetes kosten.
+- PURPLE: De juridische status van de rekening bepaalt de bescherming tegen schuldeisers. In sommige rechtsgebieden houden geërfde pensioenrekeningen mogelijk niet dezelfde bescherming.
+- BLUE: Een ondernemer kan kiezen welk soort pensioenregeling het bedrijf aanbiedt. Sommige regelingen hebben mogelijk een sterkere bescherming dan andere.
+Aandachtspunten voor planning:
+- Geld van het ene soort rekening naar het andere verplaatsen, kan de bescherming veranderen. Controleer het voordat je verplaatst.
+- Geld van een beschermde rekening opnemen om een schuldeiser te betalen die je misschien niet wettelijk hoeft te betalen, kan een dure fout zijn.
+- Inleg vlak voor een faillissement of een vonnis, vooral als die ongewoon groot is, kan worden onderzocht als mogelijke benadeling van schuldeisers (zie PURPLE-L5-016).
+AANNAME/MENING: Voor veel gewone gezinnen bouwt regelmatige pensioeninleg op lange termijn stilletjes een fiscaal voordeel en een juridisch schild op. Het is een mooi voorbeeld van GREEN en PURPLE die samenwerken zonder ingewikkelde structuur.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Jin is een zelfstandige aannemer. Hij heeft € 400.000 op een gekwalificeerde pensioenrekening, € 80.000 op een gewone beleggingsrekening en € 30.000 op een spaarrekening.
+Een klant klaagt hem aan voor een groot bedrag na een geschil over een klus. Zijn aansprakelijkheidsverzekering dekt een deel van de claim, maar het vonnis gaat boven de dekking uit.
+Volgens zijn lokale wet (REGIOSPECIFIEKE REGEL):
+- De gekwalificeerde pensioenrekening is beschermd tegen dit vonnis.
+- De beleggingsrekening en de spaarrekening niet.
+Jins eerste impuls was geld van de pensioenrekening op te nemen om het vonnis te betalen en "ervan af te zijn". Zijn advocaat wijst erop dat de rekening beschermd is en dat de opname inkomstenbelasting en boetes voor vroeg opnemen zou veroorzaken. Jin onderhandelt in plaats daarvan over een schikking met zijn onbeschermde bezittingen en een betalingsregeling.
+AANNAME/MENING: Jins vaste pensioeninleg in vijftien jaar was niet bedoeld als vermogensbescherming. Het werkte toch als vermogensbescherming.
+
+## Oefenquiz
+**Q1. Wat is het verschil tussen bescherming tegen het omvallen van een instelling en bescherming tegen schuldeisers?**
+A) Ze zijn hetzelfde
+B) De eerste beschermt tegen het faillissement van de instelling; de tweede tegen rechtszaken of je eigen faillissement
+C) Bescherming tegen schuldeisers geldt alleen voor banken
+D) Bescherming tegen het omvallen van een instelling dekt rechtszaken
+**Q2. Waarom beschermen veel rechtsstelsels pensioenrekeningen tegen schuldeisers?**
+A) Zodat mensen op hun oude dag een inkomen hebben
+B) Om banken te helpen
+C) Om de belasting te verhogen
+D) Om rechtszaken te belonen
+**Q3. Waarom moet je controleren voordat je geld tussen soorten rekeningen verplaatst?**
+A) Overdrachten zijn illegaal
+B) Ze verlagen het rendement
+C) Banken rekenen hoge kosten
+D) De overdracht kan de bescherming van het geld tegen schuldeisers veranderen
+**Q4. Waarom raadde Jins advocaat af om geld van de pensioenrekening op te nemen?**
+A) De rekening was leeg
+B) Ze was beschermd, en de opname zou belasting en boetes veroorzaken
+C) De rechter verbood het
+D) Het geld was al uitgegeven
+**Q5. Welke inleg kan worden onderzocht?**
+A) Regelmatige maandelijkse inleg over vele jaren
+B) Inleg op 25-jarige leeftijd
+C) Inleg door de werkgever
+D) Ongewoon grote inleg vlak voor een vonnis of faillissement
+
+## Antwoordsleutel
+Q1: B
+Q2: A
+Q3: D
+Q4: B
+Q5: D
+
+## Antwoorden en uitleg
+**Q1.** Het zijn twee aparte soorten bescherming.
+**Q2.** Het beleidsdoel is pensioeninkomen beschikbaar te houden.
+**Q3.** Verschillende soorten rekeningen kunnen een verschillende bescherming hebben.
+**Q4.** Beschermd geld gebruiken om een onbeschermde claim te betalen, kan een dure fout zijn.
+**Q5.** Grote last-minute verschuivingen kunnen eruitzien als pogingen om schuldeisers te ontlopen.
+
+## Belangrijkste punten
+- Bescherming tegen het omvallen van een instelling en bescherming tegen schuldeisers zijn verschillend
+- Veel stelsels beschermen bepaalde pensioenrekeningen tegen schuldeisers
+- Overdrachten en erfenissen kunnen de bescherming veranderen
+- Vaste inleg op lange termijn combineert GREEN-belastingvoordelen met PURPLE-bescherming
+
+===== PURPLE-L5-020
+TITLE: Huwelijksafspraken en eigendom van een bedrijf
+SUMMARY: Een huwelijk heeft vermogensrechtelijke gevolgen die partners en werknemers kunnen raken; huwelijkse voorwaarden vóór of tijdens het huwelijk kunnen vooraf bepalen hoe het bedrijf wordt behandeld, mits er openheid, onafhankelijk advies en redelijkheid is.
+KEYWORDS: huwelijkse voorwaarden en bedrijf, huwelijkse voorwaarden tijdens het huwelijk, bedrijfsbelang en huwelijksvermogensrecht, bescherming van het familiebedrijf
+# Huwelijksafspraken en eigendom van een bedrijf
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een middelgrote economie voor waarvan de munt in een paar maanden een groot deel van haar waarde verliest ten opzichte van de belangrijkste reservevaluta's, gedreven door kapitaal dat het land ontvlucht en een afkalvend vertrouwen van beleggers.
+Pas het hier toe: Een valutacrisis laat de waarde van een familiebedrijf sterk schommelen. De huwelijken van de eigenaren, en de rechten van hun echtgenoten, raken plotseling de stabiliteit van het bedrijf. Vraag over de kleuren heen: als een eigenaar scheidt, kan een deel van het bedrijf dan naar de ex-echtgenoot gaan (PURPLE)? Hoe zou de waarde van het bedrijf worden bepaald (BLUE)? Kan het bedrijf gedwongen worden bezittingen te verkopen om een regeling te betalen (RED/WHITE)?
+
+## Leerdoelen
+- Uitleggen hoe huwelijk en scheiding het eigendom van een bedrijf kunnen beïnvloeden
+- Beschrijven wat huwelijksafspraken meestal wel en niet kunnen
+- Huwelijksafspraken afstemmen op aandeelhoudersafspraken en koop- en verkoopregelingen
+
+## Kerninhoud
+Deze les gaat over planning, niet over wantrouwen. Een huwelijk is een juridische relatie met vermogensrechtelijke gevolgen. Als een van de echtgenoten een bedrijf, vastgoed of grote beleggingen bezit, kunnen die gevolgen partners, werknemers en familieleden raken die nooit deel van het huwelijk waren.
+GEVERIFIEERD FEIT: Veel rechtsstelsels hebben regels om bezittingen bij scheiding of overlijden te verdelen. Sommige behandelen de meeste bezittingen die tijdens het huwelijk zijn verkregen als gemeenschappelijk. Sommige verdelen bezittingen op basis van redelijkheid. REGIOSPECIFIEKE REGEL: De regels verschillen sterk; in Nederland bijvoorbeeld zijn echtgenoten die vanaf 2018 zonder huwelijkse voorwaarden trouwden volgens beschikbare informatie in een beperkte gemeenschap van goederen, waarbij vermogen van vóór het huwelijk in beginsel privé blijft, en worden huwelijkse voorwaarden vóór of tijdens het huwelijk bij de notaris vastgelegd, dus controleer dit met een notaris.
+Huwelijkse voorwaarden vóór het huwelijk of tijdens het huwelijk, waar de wet ze toestaat, laten een paar vooraf beslissen hoe bepaalde bezittingen worden behandeld. Gangbare toepassingen:
+- Een bedrijf of bezitting die een van de echtgenoten al vóór het huwelijk had, aanmerken als privé.
+- Beslissen hoe de waardestijging van een bedrijf tijdens het huwelijk wordt verdeeld.
+- Vooraf een waarderingsmethode vastleggen.
+- De andere echtgenoot op andere manieren verzorgen, met andere bezittingen of betalingen, zodat het bedrijf intact blijft.
+Grenzen: REGIOSPECIFIEKE REGEL: Veel rechtsgebieden eisen volledige financiële openheid, onafhankelijke advocaten voor elke echtgenoot, bedenktijd en redelijkheid. Sommige zaken, zoals kinderalimentatie, kunnen vaak niet vooraf worden uitgesloten.
+Hoe de kleuren samenhangen:
+- BLUE: Partners en investeerders kunnen bang zijn dat een ex-echtgenoot mede-eigenaar wordt.
+- PURPLE: Aandeelhoudersafspraken en koop- en verkoopregelingen (PURPLE-L5-008) bevatten vaak een scheiding als aanleiding, zodat het bedrijf of de partners elk belang dat aan een ex-echtgenoot is toegewezen kunnen terugkopen.
+- GREEN: Overdrachten tussen echtgenoten bij een scheiding kunnen een speciale fiscale behandeling hebben. REGIOSPECIFIEKE REGEL.
+- BLACK: Stabiliteit stelt werknemers en geldverstrekkers gerust.
+AANNAME/MENING: De meest respectvolle huwelijksafspraken beschermen beide echtgenoten. Ze geven de ondernemer zekerheid en de andere echtgenoot een eerlijke, duidelijke behandeling. Als ze te goeder trouw en met onafhankelijk advies zijn opgesteld, kunnen ze conflicten verminderen in plaats van veroorzaken.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Ines is mede-eigenaar van een bouwbedrijf, samen met twee partners. Ze is van plan te trouwen met Daniel, die leraar is.
+Met aparte advocaten en volledige financiële openheid tekenen ze huwelijkse voorwaarden:
+- Ines' belang op de huwelijksdatum blijft haar privébezit.
+- De waardestijging van het bedrijf tijdens het huwelijk wordt verdeeld volgens een vastgestelde formule, betaald in geld of andere bezittingen, niet in bedrijfsaandelen.
+- Ze spreken af zo nodig een onafhankelijke taxateur in te schakelen.
+- Daniel krijgt een eerlijk deel van het huis en het gezamenlijke spaargeld, plus een specifieke betaling als het huwelijk eindigt.
+De aandeelhoudersafspraken van het bedrijf bepalen apart dat als het belang van een partner door een scheiding wordt overgedragen, het bedrijf dat tegen de taxatiewaarde mag terugkopen.
+Jaren later eindigt het huwelijk in goede verstandhouding. Daniel ontvangt zijn deel in geld en in de waarde van het huis. Het eigendom van het bedrijf verandert niet. Ines' partners en de 40 werknemers merken er niets van. AANNAME/MENING: Beide afspraken werkten samen omdat ze te goeder trouw, tijdig en met onafhankelijk advies waren opgesteld.
+
+## Oefenquiz
+**Q1. Waarom kan een huwelijk de andere eigenaren van een bedrijf raken?**
+A) Partners moeten elk huwelijk goedkeuren
+B) Het kan hen niet raken
+C) Bedrijven betalen belasting over huwelijken
+D) Een scheiding of overlijden kan aanspraken op het bedrijfsbelang van een eigenaar scheppen
+**Q2. Wat kunnen huwelijksafspraken meestal doen?**
+A) Overal kinderalimentatie uitsluiten
+B) Alle belasting vermijden
+C) De aandeelhoudersafspraken vervangen
+D) Bezittingen als privé aanmerken en bepalen hoe de groei van het bedrijf wordt verdeeld
+**Q3. Welke eisen stellen veel rechtsgebieden aan huwelijksafspraken?**
+A) Geen
+B) Alleen een handtekening
+C) Volledige openheid, onafhankelijke advocaten, bedenktijd en redelijkheid
+D) Goedkeuring door de partners in het bedrijf
+**Q4. Hoe ondersteunen de aandeelhoudersafspraken deze planning?**
+A) Ze kunnen terugkoop toestaan van elk belang dat door een scheiding wordt overgedragen
+B) Ze verbieden het huwelijk
+C) Ze betalen echtgenoten rechtstreeks
+D) Ze verlagen de belasting
+**Q5. Wat maakt huwelijksafspraken volgens de les respectvol?**
+A) Alleen de ondernemer beschermen
+B) Ze snel tekenen
+C) Ze geheimhouden
+D) Beide echtgenoten beschermen met een eerlijke, duidelijke behandeling
+
+## Antwoordsleutel
+Q1: D
+Q2: D
+Q3: C
+Q4: A
+Q5: D
+
+## Antwoorden en uitleg
+**Q1.** De regels over huwelijksvermogen kunnen tot bedrijfsbelangen reiken.
+**Q2.** Deze afspraken leggen vooraf de behandeling van bezittingen vast, binnen de wettelijke grenzen.
+**Q3.** De eisen verschillen, maar omvatten meestal deze waarborgen. REGIOSPECIFIEKE REGEL.
+**Q4.** Een scheiding als aanleiding voor koop en verkoop houdt het eigendom stabiel.
+**Q5.** Afspraken te goeder trouw geven beide kanten zekerheid.
+
+## Belangrijkste punten
+- Een huwelijk heeft vermogensrechtelijke gevolgen die bedrijfspartners en werknemers kunnen raken
+- Huwelijkse voorwaarden vóór of tijdens het huwelijk kunnen vooraf de behandeling van het bedrijf vastleggen
+- Openheid, onafhankelijk advies en redelijkheid zijn meestal vereist
+- Stem huwelijksafspraken af op aandeelhoudersafspraken en koop- en verkoopregelingen
