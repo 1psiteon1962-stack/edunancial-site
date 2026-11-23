@@ -5,58 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 4
 locale: es-ES
-title: "Offre, acceptation et contrepartie : trois éléments fondamentaux"
-summary: "Explique l’offre, l’acceptation et la contrepartie au moyen d’une transaction simple."
+title: "Oferta, aceptación y contraprestación: los tres ingredientes"
+summary: "Desglosa los tres elementos clásicos que en general se requieren para que un contrato sea exigible legalmente, con un ejemplo concreto."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Offre, acceptation et contrepartie : trois éléments fondamentaux
+# Oferta, aceptación y contraprestación: los tres ingredientes
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des décisions pratiques liées au patrimoine, aux affaires ou aux investissements.
-- Reconnaître quand une situation peut nécessiter des conseils juridiques professionnels.
+- Definir oferta, aceptación y contraprestación.
+- Aplicar los tres elementos a una transacción sencilla de la vida real.
+- Reconocer que la falta de cualquiera de ellos puede debilitar la exigibilidad.
 
-## Contenu principal
+## Contenido principal
 
-Dans plusieurs systèmes contractuels, une offre propose des conditions suffisamment précises; l’acceptation manifeste l’accord avec ces conditions; et la contrepartie représente un échange de valeur. Par exemple, une personne offre de vendre un immeuble à un prix déterminé, l’autre accepte les conditions et les parties échangent une valeur. Les règles précises et leurs exceptions varient selon la juridiction, mais ces concepts aident à distinguer une négociation vague d’une entente potentiellement exécutoire.
+Siguiendo con la lección anterior, la mayoría de los sistemas legales buscan tres ingredientes centrales para tratar un acuerdo como un contrato exigible. **Oferta**: una parte propone términos específicos ("Te vendo esta propiedad por 200.000 €"). **Aceptación**: la otra parte acepta claramente esos mismos términos. **Contraprestación**: cada lado intercambia algo de valor (dinero, una propiedad, la promesa de hacer o no hacer algo); un regalo unilateral en general no es un contrato, porque no se intercambia nada.
 
-## Exemple pratique
+Un ejemplo sencillo lo hace concreto: un vendedor ofrece una propiedad a un precio determinado (oferta), un comprador dice que sí a ese precio y a esos términos exactos (aceptación), y el dinero cambia de manos a cambio de la propiedad (contraprestación). Que estén presentes los tres elementos, en ese orden, es en general lo que hace que un tribunal esté dispuesto a tratar el acuerdo resultante como un contrato obligatorio, y es la razón por la que las propuestas vagas, unilaterales o no aceptadas a menudo no se sostienen si más adelante surge una disputa.
 
-Une personne fait face à une décision financière ou commerciale liée à ce sujet. Plutôt que de supposer connaître la réponse juridique, elle identifie les modalités, les documents, les obligations et la juridiction applicables. Cette littératie juridique lui permet de poser de meilleures questions et de reconnaître quand le risque justifie de consulter un professionnel autorisé.
+*REGLA ESPECÍFICA DE LA REGIÓN:* La "contraprestación" (consideration) es un concepto del common law. En España, el artículo 1261 del Código Civil exige para que haya contrato consentimiento, objeto cierto y causa. Las ideas de fondo se parecen, pero los requisitos exactos dependen de la jurisdicción.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quel est l’objectif principal de la littératie juridique dans PURPLE?
+**Pregunta:** Un comprador dice "Me encantaría comprar tu casa algún día" y el vendedor responde "Claro, suena bien". ¿Esto cumple con los tres ingredientes de un contrato?
 
-A) Remplacer complètement un avocat
-B) Reconnaître les concepts et les risques et savoir quand demander de l’aide professionnelle
-C) Garantir qu’il n’y aura jamais de différend
-D) Mémoriser toutes les lois
+**Estudiante:** Según esta lección, no lo parece: no hay una oferta específica con términos reales, así que aceptar nada concreto tampoco cuenta de verdad.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Qué tendría que cambiar para que fuera una oferta real?
 
-A) Parce que les règles peuvent varier d’un pays ou territoire à l’autre
-B) Parce que toutes les lois sont identiques partout
-C) Parce qu’elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Términos específicos (un precio, una propiedad y unas condiciones reales) propuestos con suficiente claridad para que la otra parte pueda aceptarlos tal como se plantean.
 
-## Corrigé
+**Guía:** Exacto: el entusiasmo vago no es lo mismo que una oferta con significado legal.
 
-1. B, 2. A
+## Cuestionario práctico
 
-## Réponses et explications
+**Pregunta 1.** En el derecho de contratos, una "oferta" es:
 
-**1.** PURPLE développe une capacité pratique à comprendre les risques et à utiliser efficacement les conseils professionnels; il ne remplace pas un avocat.
+A) Una expresión vaga de interés
+B) Una propuesta de términos específicos hecha por una parte
+C) Lo mismo que la contraprestación
+D) Algo irrelevante para formar un contrato
 
-**2.** Les règles, procédures et exigences juridiques peuvent varier considérablement selon la juridiction.
+**Pregunta 2.** "Aceptación" significa:
 
-## Points clés
+A) Ignorar la oferta
+B) Aceptar claramente los términos exactos propuestos
+C) Proponer términos distintos
+D) Lo mismo que una oferta
 
-- La littératie juridique améliore la qualité des décisions financières et commerciales.
-- Les règles concrètes dépendent de la juridiction et des faits.
-- Repérer un problème tôt peut réduire les coûts et les risques.
-- Lorsque les conséquences sont importantes, il est prudent de consulter un professionnel autorisé.
+**Pregunta 3.** "Contraprestación" se refiere a:
+
+A) Ser cortés durante la negociación
+B) Algo de valor que intercambia cada lado
+C) Un regalo unilateral
+D) Algo que solo importa en bienes inmuebles
+
+**Pregunta 4.** Es probable que una propuesta vaga y no aceptada:
+
+A) Cuente siempre como un contrato obligatorio
+B) No cumpla con los elementos necesarios para un contrato exigible
+C) Sea idéntica a un contrato de compraventa firmado
+D) No tenga ninguna relevancia para el derecho de contratos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una oferta requiere especificidad: proponer términos reales y definidos, no un sentimiento vago.
+
+**2.** La aceptación consiste en aceptar esos términos exactos, no algo distinto o parcial.
+
+**3.** La contraprestación exige un verdadero intercambio de valor en ambos sentidos, lo que distingue un contrato de un regalo.
+
+**4.** La falta de especificidad o de un intercambio real tiende a debilitar que un acuerdo sea realmente exigible.
+
+## Puntos clave
+
+- La oferta, la aceptación y la contraprestación son los tres ingredientes clásicos de un contrato exigible.
+- La oferta debe ser específica; la aceptación debe coincidir con esos términos exactos; la contraprestación debe implicar un intercambio real de valor.
+- Una transacción de bienes inmuebles es un ejemplo claro de los tres elementos funcionando juntos.
+- La falta de cualquiera de los tres puede debilitar que un acuerdo sea realmente un contrato obligatorio.

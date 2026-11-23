@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 30
 locale: es-ES
-title: "Saisie immobilière : le processus juridique après un défaut de prêt"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Fundamentos de la ejecución hipotecaria: el proceso legal cuando no se paga un préstamo"
+summary: "Presenta el proceso legal general de la ejecución hipotecaria, relevante tanto para los inversores que gestionan el riesgo de deuda como para quienes consideran comprar propiedades en dificultades."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Saisie immobilière : le processus juridique après un défaut de prêt
+# Fundamentos de la ejecución hipotecaria: el proceso legal cuando no se paga un préstamo
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir la ejecución hipotecaria en términos sencillos.
+- Explicar a grandes rasgos el proceso legal general.
+- Reconocer la importancia de la ejecución hipotecaria tanto para deudores como para inversores.
 
-## Contenu principal
+## Contenido principal
 
-La saisie immobilière permet à un prêteur d’exercer certains droits garantis lorsque l’emprunteur fait défaut. Les étapes, délais de correction, procédures judiciaires ou non judiciaires et droits de rachat varient considérablement selon la juridiction. Emprunteurs et investisseurs doivent comprendre les règles locales avant de prendre des décisions.
+La ejecución hipotecaria (foreclosure) es el proceso legal mediante el cual un prestamista hace valer su hipoteca (recuerda la lección de gravámenes) cuando un deudor no paga su préstamo, y que termina forzando la venta de la propiedad para cobrar la deuda pendiente. El proceso general, aunque los detalles varían mucho según la jurisdicción, suele incluir: un aviso formal de incumplimiento después de los pagos atrasados, un período de espera o de subsanación exigido por ley que le da al deudor la oportunidad de ponerse al día y, si el incumplimiento no se resuelve, una venta forzosa, ya sea mediante un proceso judicial (ejecución judicial) o mediante un proceso no judicial autorizado por los propios documentos de la hipoteca (ejecución extrajudicial), según la jurisdicción.
 
-## Exemple pratique
+Esto importa en los dos lados del mundo de la ruta RED. Para quien gestiona su propia deuda hipotecaria, entender este proceso, y en especial que suele haber un período de subsanación y no una pérdida inmediata de la propiedad al primer pago atrasado, importa directamente para gestionar el riesgo y saber qué opciones existen si surgen problemas económicos. Para un inversor que considera comprar propiedades en dificultades o relacionadas con una ejecución, entender el proceso legal, incluidos los derechos de redención que en algunas jurisdicciones pueden conservar los antiguos dueños incluso después de una venta, es esencial antes de suponer que comprar en una ejecución es tan sencillo como comprar cualquier otra propiedad.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España la ejecución hipotecaria puede seguir un procedimiento judicial regulado por la Ley de Enjuiciamiento Civil o, si se pactó, una venta extrajudicial ante notario, con plazos y requisitos propios. Busca asesoría antes de actuar.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Una deudora atrasa un solo pago de la hipoteca y supone que ya perdió la propiedad para siempre. Según esta lección, ¿es correcta esa suposición?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, probablemente no: la ejecución hipotecaria en general implica un aviso formal de incumplimiento y un período de subsanación exigido por ley, no una pérdida inmediata después de un solo pago atrasado.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué importa en la práctica entender este período de subsanación para alguien con problemas económicos?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque significa que suele haber un margen de tiempo real y opciones definidas para atender la situación antes de perder realmente la propiedad, en vez de dar por hecho que ya pasó lo peor.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: entender el proceso real importa para gestionar el riesgo de verdad, no solo para sentir miedo.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** La ejecución hipotecaria es:
 
-1. B, 2. A, 3. C
+A) Una venta voluntaria de la propiedad
+B) El proceso legal mediante el cual un prestamista hace valer su hipoteca después de un incumplimiento
+C) Un tipo de arrendamiento
+D) Algo irrelevante para la deuda hipotecaria
 
-## Réponses et explications
+**Pregunta 2.** El proceso general de ejecución hipotecaria suele incluir:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) La pérdida inmediata de la propiedad sin ningún aviso
+B) Un aviso formal de incumplimiento y un período de subsanación antes de cualquier venta forzosa
+C) Ningún proceso legal
+D) Solo un procedimiento ante un tribunal penal
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Por qué importa entender el período de subsanación para un deudor con problemas económicos?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No importa
+B) Revela un margen de tiempo real y opciones antes de perder realmente la propiedad
+C) Los períodos de subsanación en realidad no existen
+D) Esta información es irrelevante para gestionar el riesgo
 
-## Points clés
+**Pregunta 4.** Según esta lección, ¿qué debe entender un inversor que considera comprar en una ejecución hipotecaria?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Nada distinto de una compra normal
+B) El proceso legal, incluidos los posibles derechos de redención que pueden conservar los antiguos dueños
+C) Las compras en ejecución no tienen consideraciones especiales
+D) Los derechos de redención nunca se aplican en ninguna parte
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La ejecución hipotecaria es, específicamente, el mecanismo para hacer valer una hipoteca impagada.
+
+**2.** Un proceso definido, con aviso y período de subsanación, es un rasgo estructural común, no un embargo inmediato.
+
+**3.** Entender esto apoya directamente la toma de decisiones informada, en lugar del pánico, durante una dificultad económica.
+
+**4.** Los derechos de redención y los detalles del proceso son justo el tipo de detalle que distingue una compra en ejecución de una compra común.
+
+## Puntos clave
+
+- La ejecución hipotecaria es el proceso legal para hacer valer una hipoteca después de un incumplimiento.
+- El proceso suele incluir un aviso de incumplimiento y un período de subsanación antes de cualquier venta forzosa.
+- Esto importa a los deudores que gestionan su riesgo y a los inversores que consideran compras de propiedades en dificultades.
+- Los detalles propios de cada jurisdicción, como los derechos de redención, importan mucho en las ejecuciones hipotecarias.

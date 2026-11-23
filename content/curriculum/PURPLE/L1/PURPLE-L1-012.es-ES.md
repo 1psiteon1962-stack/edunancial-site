@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 12
 locale: es-ES
-title: "Entreprise individuelle : l’exposition juridique de la structure la plus simple"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "La empresa individual: la exposición legal de la estructura más sencilla"
+summary: "Explica las implicaciones de responsabilidad legal de operar como empresa individual, la estructura por defecto, la más sencilla y la que menos protege."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Entreprise individuelle : l’exposition juridique de la structure la plus simple
+# La empresa individual: la exposición legal de la estructura más sencilla
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir legalmente la empresa individual.
+- Explicar por qué no ofrece ninguna separación entre la responsabilidad del negocio y la personal.
+- Reconocer el riesgo práctico que esto crea.
 
-## Contenu principal
+## Contenido principal
 
-Dans plusieurs juridictions, l’entreprise individuelle ne crée pas de séparation juridique entre l’entreprise et son propriétaire. Cette simplicité facilite le démarrage, mais peut exposer les biens personnels du propriétaire aux dettes et réclamations de l’entreprise. Les règles et exemptions varient; l’enjeu essentiel est de comprendre le coût juridique possible de cette simplicité.
+La empresa individual (sole proprietorship) es la estructura por defecto de un negocio de un solo dueño que no ha registrado ninguna entidad formal: legalmente, el negocio y el dueño se tratan como la misma persona. Es la estructura más sencilla para empezar (a menudo no requiere ningún trámite formal), pero tiene una contrapartida legal crítica: no hay separación de responsabilidad entre el negocio y los bienes personales del dueño.
 
-## Exemple pratique
+Esto significa que si el negocio es demandado, no paga una deuda o enfrenta cualquier otra reclamación legal, los bienes personales del dueño (su casa, sus ahorros personales, sus pertenencias) quedan directamente expuestos, no solo lo que el negocio posee. Es un riesgo legal importante que muchos nuevos dueños de negocios no valoran del todo cuando empiezan a operar de manera informal sin crear una estructura más protectora. Aquí la sencillez tiene un costo real, y es específicamente un costo legal relacionado con la responsabilidad, distinto de la sencillez fiscal que se vio en GREEN.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, el empresario individual responde de sus deudas con todos sus bienes presentes y futuros (artículo 1911 del Código Civil). Existe la figura del emprendedor de responsabilidad limitada, que en ciertas condiciones permite proteger la vivienda habitual. Las reglas exactas deben confirmarse con un profesional.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un consultor independiente opera como empresa individual y un cliente lo demanda por una disputa, con una sentencia mayor que los bienes del negocio. ¿Qué pasa con la casa y los ahorros personales del consultor?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, como no hay separación legal entre el negocio y el dueño, los bienes personales del consultor podrían quedar expuestos para cubrir esa sentencia.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Habría cambiado este resultado otra estructura de negocio?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Posiblemente: una estructura con una verdadera separación de responsabilidad podría haber protegido los bienes personales frente a una sentencia relacionada con el negocio, de una forma que la empresa individual no lo hace.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: esa es la contrapartida legal central de elegir la sencillez en lugar de la protección frente a la responsabilidad.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Legalmente, una empresa individual es:
 
-1. B, 2. A, 3. C
+A) Una entidad completamente separada de su dueño
+B) La misma persona que su dueño, sin separación de responsabilidad
+C) Siempre la estructura que más protege
+D) Algo disponible solo para grandes corporaciones
 
-## Réponses et explications
+**Pregunta 2.** Si demandan a una empresa individual, ¿qué bienes podrían quedar expuestos?
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Solo los bienes del negocio, nunca los personales
+B) Tanto los bienes del negocio como los personales, porque no hay separación legal
+C) Nunca hay bienes en riesgo
+D) Solo los bienes de los socios del negocio
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Qué tipo de costo tiene la sencillez de una empresa individual?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Ningún costo
+B) Un costo de responsabilidad legal: la falta de protección de los bienes personales
+C) Solo un costo fiscal
+D) Solo un costo de marketing
 
-## Points clés
+**Pregunta 4.** La discusión sobre responsabilidad de esta lección es distinta del tratamiento de la empresa individual ¿en qué ruta anterior?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) En la discusión de RED
+B) En la discusión de GREEN, centrada en los impuestos
+C) En la discusión de WHITE
+D) Ninguna ruta anterior trató este tema
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Legalmente, no se hace ninguna distinción entre el negocio y la persona que lo dirige.
+
+**2.** Sin un escudo de responsabilidad, los bienes personales quedan directamente expuestos junto con los del negocio.
+
+**3.** La sencillez se paga con protección legal, un costo distinto de la sencillez fiscal que se trata en otra parte.
+
+**4.** Esta lección añade a propósito el ángulo de la responsabilidad que el tratamiento fiscal de GREEN no cubrió.
+
+## Puntos clave
+
+- La empresa individual no ofrece ninguna separación legal entre el negocio y el dueño.
+- Eso significa que los bienes personales quedan directamente expuestos a las reclamaciones legales relacionadas con el negocio.
+- La sencillez tiene un costo real de responsabilidad legal.
+- Es una preocupación distinta del tratamiento fiscal de la empresa individual que se vio en GREEN.

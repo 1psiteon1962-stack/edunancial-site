@@ -5,70 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 26
 locale: es-Caribbean
-title: "Alfabetización jurídica aplicada — Lección 26"
-summary: "Desarrolla alfabetización jurídica práctica para reconocer derechos, obligaciones, riesgos y cuándo obtener asesoría profesional."
+title: "Derecho de zonificación: lo que puedes y no puedes hacer con una propiedad"
+summary: "Presenta el derecho de zonificación como una restricción impuesta por el gobierno sobre el uso de la propiedad, relevante tanto para el uso actual como para los planes de desarrollo futuros en RED."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Alfabetización jurídica aplicada — Lección 26
+# Derecho de zonificación: lo que puedes y no puedes hacer con una propiedad
 
 ## Objetivos de aprendizaje
 
-- Identificar derechos, obligaciones y riesgos jurídicos relevantes.
-- Aplicar una metodología práctica antes de tomar decisiones financieras o comerciales.
-- Reconocer cuándo una situación requiere asesoría jurídica profesional.
+- Definir la zonificación en términos sencillos.
+- Explicar el propósito general de las normas de zonificación.
+- Reconocer por qué la zonificación importa tanto para el uso actual como para los planes de desarrollo.
 
 ## Contenido principal
 
-Las decisiones sobre patrimonio, bienes raíces, inversiones y negocios existen dentro de un marco jurídico. Antes de actuar, es importante identificar las partes, los documentos aplicables, las obligaciones asumidas, los derechos afectados y la jurisdicción que controla la situación. Una regla general no debe tratarse como una respuesta universal: contratos, propiedad, responsabilidad, regulación y procedimientos pueden variar entre países, estados, provincias y territorios.
+La zonificación es la regulación del gobierno local que divide el terreno en categorías designadas (residencial, comercial, industrial, de uso mixto, etc.) que restringen lo que se puede construir u operar legalmente en una propiedad determinada. Es una limitación impuesta por el gobierno sobre el concepto del conjunto de derechos visto antes: ni siquiera ser dueño absoluto de una propiedad incluye el derecho ilimitado a usar el terreno como el dueño quiera, porque el derecho de zonificación limita lo que realmente está permitido.
 
-La alfabetización jurídica no consiste en intentar ejercer como abogado. Consiste en reconocer señales de riesgo, formular mejores preguntas, conservar documentación y entender cuándo el costo de una revisión profesional es pequeño frente al posible costo de un error. Esta capacidad fortalece tanto la estrategia ofensiva como la defensiva: permite buscar oportunidades sin abandonar las protecciones necesarias para conservar lo construido.
+La zonificación importa de dos maneras prácticas distintas para los inversionistas de la ruta RED. Primero, para el uso actual: una propiedad con zonificación residencial en general no puede usarse legalmente para operar un negocio de manufactura, sin importar lo que prefiera el dueño. Segundo, y a menudo se pasa por alto, para los planes de desarrollo futuros: un inversionista que planea remodelar, ampliar o cambiar el uso de una propiedad necesita confirmar que el plan está realmente permitido por la zonificación vigente, o tramitar una variación (una excepción específica, a veces difícil de obtener) si no lo está. Una propiedad que parece perfecta en papel puede convertirse en un problema costoso si su uso previsto no coincide con su clasificación de zonificación real, y por eso verificar la zonificación debe hacerse temprano en la debida diligencia, no descubrirse como un problema después de comprar.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El nombre y la autoridad encargada de estas reglas varían; por ejemplo, en la República Dominicana los usos de suelo los regulan principalmente los ayuntamientos y las normas de planeamiento urbano, y en Puerto Rico la Junta de Planificación y la Oficina de Gerencia de Permisos. Verifica la autoridad competente en tu jurisdicción.
 
 ## Ejemplo práctico
 
-Una persona considera una operación con consecuencias económicas importantes. Antes de firmar, identifica qué promete cada parte, qué ocurre si alguien incumple, qué activos podrían quedar expuestos y qué reglas locales se aplican. Si encuentra lenguaje ambiguo, una obligación significativa o algo que no comprende, solicita revisión de un profesional autorizado antes de quedar obligada.
+**Pregunta:** Un inversionista compra una propiedad con zonificación residencial con la idea de convertirla en una pequeña tienda, sin revisar antes las reglas de zonificación. ¿Qué riesgo ilustra esto?
+
+**Estudiante:** Según esta lección, la zonificación de la propiedad podría no permitir el uso comercial, lo que significaría que el plan del inversionista no está permitido legalmente sin tramitar una variación, si es que se puede obtener.
+
+**Guía:** Según esta lección, ¿cuándo debió hacerse este tipo de verificación?
+
+**Estudiante:** Temprano en la debida diligencia, antes de la compra, en vez de descubrirlo después como un problema costoso.
+
+**Guía:** Exacto: verificar la zonificación va al principio del proceso, no como algo que se deja para después.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el objetivo de la alfabetización jurídica de PURPLE?
+**Pregunta 1.** La zonificación es:
 
-A) Sustituir permanentemente a un abogado
-B) Reconocer riesgos, comprender conceptos y saber cuándo buscar ayuda profesional
-C) Garantizar que nunca exista una disputa
-D) Memorizar todas las leyes
+A) Una regla contributiva federal
+B) La regulación del gobierno local que restringe lo que se puede construir u operar en un terreno
+C) Un tipo de escritura
+D) Algo irrelevante para el uso de la propiedad
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** La zonificación representa una limitación sobre:
 
-A) Porque las reglas pueden variar según el lugar y los hechos
-B) Porque todas las leyes son idénticas
-C) Porque solamente importa en asuntos penales
-D) No importa
+A) Nada relacionado con la propiedad
+B) El concepto del conjunto de derechos: ni siquiera ser dueño incluye derechos de uso ilimitados
+C) Solo las propiedades de alquiler
+D) Solo las propiedades comerciales
 
-**Pregunta 3.** Ante un documento importante que no se comprende completamente, una práctica prudente es:
+**Pregunta 3.** ¿De qué dos maneras importa la zonificación para los inversionistas de la ruta RED?
 
-A) Firmarlo y preguntar después
-B) Ignorar las cláusulas difíciles
-C) Obtener aclaración y, cuando corresponda, revisión profesional antes de firmar
-D) Suponer que una plantilla siempre protege a todas las partes
+A) Solo para el uso actual, nunca para los planes futuros
+B) Para el uso legal actual y para los planes futuros de desarrollo o cambio de uso
+C) Ni para el uso actual ni para los planes futuros
+D) Solo para el tratamiento contributivo
+
+**Pregunta 4.** ¿Cuándo debería hacerse idealmente la verificación de zonificación?
+
+A) Después de comprar, cuando surja un problema
+B) Temprano en la debida diligencia, antes de comprar
+C) La verificación de zonificación nunca es necesaria
+D) Solo después de empezar la construcción
 
 ## Clave de respuestas
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE desarrolla capacidad para reconocer problemas y utilizar asesoría profesional eficazmente; no reemplaza a un abogado.
+**1.** La zonificación es, específicamente, una herramienta del gobierno para regular las categorías de uso permitido del suelo.
 
-**2.** Derechos, procedimientos, remedios y requisitos pueden variar considerablemente por jurisdicción.
+**2.** Esto limita directamente los derechos de uso, que de otro modo son amplios, dentro del conjunto de derechos de la propiedad.
 
-**3.** Comprender las obligaciones antes de asumirlas reduce riesgos y permite corregir problemas cuando todavía existe capacidad de negociación.
+**3.** Ambas dimensiones, lo que se permite ahora y lo que se permite para planes futuros, tienen un peso práctico real para los inversionistas.
+
+**4.** Hacer esta verificación al principio evita la sorpresa costosa de una compra inutilizable o restringida.
 
 ## Puntos clave
 
-- Las decisiones financieras y comerciales tienen una dimensión jurídica.
-- Los documentos, hechos y jurisdicción importan.
-- La protección patrimonial requiere estrategia ofensiva y defensiva.
-- Identificar un problema antes de firmar suele ofrecer más opciones que descubrirlo después.
-- Cuando las consecuencias son importantes, la asesoría profesional puede reducir riesgos.
+- La zonificación es la regulación del gobierno local que restringe el uso permitido del suelo.
+- La zonificación limita incluso los derechos de uso de un dueño absoluto, según el concepto del conjunto de derechos.
+- La zonificación importa tanto para el uso legal actual como para los planes futuros de desarrollo o cambio de uso.
+- La verificación de zonificación va temprano en la debida diligencia, no se descubre como un problema después de comprar.

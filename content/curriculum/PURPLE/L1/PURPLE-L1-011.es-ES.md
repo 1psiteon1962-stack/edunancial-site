@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 11
 locale: es-ES
-title: "Structures d’entreprise revisitées : une perspective juridique"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Estructuras de negocio, otra vez: una mirada legal"
+summary: "Retoma el concepto de estructura de negocio de BLUE y GREEN desde una perspectiva específicamente legal: la exposición a la responsabilidad, en lugar del tratamiento fiscal."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Structures d’entreprise revisitées : une perspective juridique
+# Estructuras de negocio, otra vez: una mirada legal
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Recordar las estructuras de negocio vistas en rutas anteriores.
+- Replantear la decisión de estructura en torno a la responsabilidad legal y no al tratamiento fiscal.
+- Adelantar las próximas lecciones, que examinan la exposición legal de cada estructura.
 
-## Contenu principal
+## Contenido principal
 
-La structure d’une entreprise influence non seulement l’impôt et les opérations, mais aussi qui peut être personnellement responsable lorsqu’une entreprise est poursuivie ou ne respecte pas une obligation. Le meilleur choix fiscal n’est pas toujours le meilleur choix pour limiter la responsabilité. Il faut donc considérer ensemble fiscalité, fonctionnement, coûts administratifs et exposition juridique.
+Las rutas anteriores trataron las estructuras de negocio desde una perspectiva fiscal (GREEN) y desde una perspectiva operativa (BLUE). Esta sección añade una tercera mirada, fundamental: la responsabilidad legal. La estructura que usa un negocio no solo afecta cómo tributa; determina de forma fundamental quién responde personalmente si el negocio es demandado, no paga una deuda o enfrenta cualquier otra reclamación legal.
 
-## Exemple pratique
+Esta distinción importa porque la "mejor" estructura desde el punto de vista fiscal y la "mejor" estructura para protegerse de la responsabilidad no siempre son la misma elección, y a veces los dueños de negocios descubren esa diferencia solo después de que surge un problema, cuando ya es demasiado tarde para corregirla. Las próximas lecciones recorren la empresa individual, la LLC, la corporación y la sociedad desde este ángulo de responsabilidad legal, para construir una visión más amplia y completa de lo que significa realmente "elegir una estructura de negocio" cuando se consideran juntos los impuestos, la operación y la exposición legal.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las estructuras de esta sección siguen el modelo de EE. UU. En España las formas más comunes son el empresario individual (autónomo), la sociedad limitada (SL) y la sociedad anónima (SA), reguladas por la Ley de Sociedades de Capital. Verifica las opciones disponibles con un asesor.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un dueño de negocio eligió su estructura solo porque parecía la más sencilla de establecer, sin considerar en absoluto la exposición a la responsabilidad. ¿Qué brecha sugiere esta lección que podría tener esa decisión?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, puede haber pasado por alto cuánta protección de responsabilidad personal ofrece realmente esa estructura, que es una pregunta distinta de la sencillez o del tratamiento fiscal.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué esa brecha podría hacerse evidente solo más tarde y no al momento de decidir?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque la protección de responsabilidad solo se pone a prueba de verdad si algo sale mal, como una demanda o el impago de una deuda del negocio, y eso podría no pasar hasta mucho después de haber elegido la estructura.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: por eso entender esto desde el principio importa más que descubrirlo bajo presión.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** ¿Qué mirada añade esta lección a la discusión sobre estructuras de negocio?
 
-1. B, 2. A, 3. C
+A) La estrategia de marketing
+B) La responsabilidad legal
+C) La moral de los empleados
+D) La ubicación de la oficina
 
-## Réponses et explications
+**Pregunta 2.** La "mejor" estructura desde el punto de vista fiscal:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Siempre es idéntica a la mejor estructura para protegerse de la responsabilidad
+B) No siempre es la misma que la mejor estructura para protegerse de la responsabilidad
+C) Es irrelevante para la responsabilidad
+D) Es lo único que importa
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Qué determina quién responde personalmente si un negocio es demandado o no paga una deuda?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) El presupuesto de marketing del negocio
+B) La estructura legal que usa el negocio
+C) Solo la forma en que el negocio presenta sus impuestos
+D) Nada: es aleatorio
 
-## Points clés
+**Pregunta 4.** ¿Qué cubren las próximas lecciones de esta sección?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Solo las tasas fiscales
+B) La empresa individual, la LLC, la corporación y la sociedad desde el ángulo de la responsabilidad
+C) Solo la estrategia de marketing
+D) Solo el derecho inmobiliario
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La responsabilidad legal es el ángulo nuevo y específico que esta sección añade a las perspectivas fiscal y operativa anteriores.
+
+**2.** La eficiencia fiscal y la protección frente a la responsabilidad son dimensiones distintas que no siempre coinciden en la misma estructura.
+
+**3.** La elección de estructura es el principal factor legal que determina la exposición personal al riesgo del negocio.
+
+**4.** Esta sección recorre de forma sistemática cada tipo principal de estructura, específicamente desde la perspectiva de la responsabilidad.
+
+## Puntos clave
+
+- La estructura del negocio determina la exposición a la responsabilidad legal, una pregunta distinta del tratamiento fiscal.
+- La estructura óptima para los impuestos y la óptima para la responsabilidad no siempre son la misma.
+- Esa diferencia a menudo solo se nota después de que surge un problema, y por eso importa entenderla desde el principio.
+- Las próximas lecciones examinan cada tipo principal de estructura desde esta mirada específica de la responsabilidad.

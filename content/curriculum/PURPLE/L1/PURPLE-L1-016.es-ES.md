@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 16
 locale: es-ES
-title: "Levée du voile corporatif : quand la responsabilité limitée ne protège plus"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Levantar el velo corporativo: cuando la responsabilidad \"limitada\" no lo es"
+summary: "Explica el concepto de levantar el velo corporativo: las circunstancias en que los tribunales pueden desconocer por completo la protección de responsabilidad de una LLC o una corporación."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Levée du voile corporatif : quand la responsabilité limitée ne protège plus
+# Levantar el velo corporativo: cuando la responsabilidad "limitada" no lo es
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir qué significa "levantar el velo corporativo".
+- Identificar razones comunes por las que los tribunales levantan el velo.
+- Reforzar los hábitos prácticos que protegen contra este riesgo.
 
-## Contenu principal
+## Contenido principal
 
-Un tribunal peut parfois écarter la séparation entre une entité et ses propriétaires. Les facteurs varient selon la juridiction, mais peuvent comprendre le mélange des fonds personnels et commerciaux, l’absence de formalités essentielles, une capitalisation inadéquate ou l’utilisation de l’entité pour frauder. Former une entité ne suffit pas; il faut aussi la gérer comme une entité réellement distincte.
+"Levantar el velo corporativo" (piercing the corporate veil) se refiere a que un tribunal desconozca la protección de responsabilidad que normalmente ofrece una LLC o una corporación y haga responder personalmente a los dueños a pesar de la estructura formal. No es común, pero tampoco es tan raro como para ignorarlo, y socava directamente la razón misma de formar una entidad protectora; por eso importa entender qué lo provoca.
 
-## Exemple pratique
+Entre las razones comunes por las que los tribunales levantan el velo están: no mantener separadas las finanzas del negocio y las personales (usar la cuenta bancaria del negocio para gastos personales, mezclar fondos), no cumplir las formalidades corporativas básicas (no llevar registros adecuados, actuar como si la entidad no existiera realmente), tener un capital muy insuficiente frente a los riesgos evidentes del negocio, o usar la entidad específicamente para cometer fraude o evadir obligaciones legales existentes. La lección práctica es directa: formar una LLC o una corporación es necesario, pero no suficiente, para estar protegido; también tienes que operarla de verdad como una entidad separada, de forma constante, o la protección que pagaste por crear puede evaporarse justo cuando más la necesitas.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, el Tribunal Supremo ha desarrollado la doctrina del "levantamiento del velo" para casos de fraude o abuso de la personalidad jurídica. Los requisitos exactos se aplican caso por caso.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un dueño de negocio forma una LLC, pero usa habitualmente la cuenta bancaria del negocio para pagar cuentas personales, nunca lleva registros separados y trata el dinero del negocio y el personal como si fueran lo mismo. ¿Qué riesgo crea esto?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, mezclar los fondos así es justo el tipo de conducta que podría llevar a un tribunal a levantar el velo corporativo y desconocer la protección de responsabilidad de la LLC.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué haría eso un tribunal, si la LLC se formó correctamente en papel?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque si el dueño nunca trató al negocio en la práctica como una entidad realmente separada, el tribunal puede concluir razonablemente que la separación nunca fue real y desconocer la protección en consecuencia.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: formar la entidad es necesario, pero no suficiente; hay que operarla de verdad como algo separado.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** "Levantar el velo corporativo" significa:
 
-1. B, 2. A, 3. C
+A) Formar una nueva corporación
+B) Que un tribunal desconozca la protección de responsabilidad de una LLC o corporación y haga responder personalmente a los dueños
+C) Un tipo de incumplimiento de contrato
+D) Un requisito para presentar impuestos
 
-## Réponses et explications
+**Pregunta 2.** Una razón común por la que los tribunales levantan el velo es:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Mantener correctamente separadas las finanzas del negocio y las personales
+B) Mezclar los fondos del negocio con los personales
+C) Cumplir todas las formalidades corporativas
+D) Tener un capital adecuado
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Según esta lección, ¿qué es necesario, pero no suficiente, para la protección de responsabilidad?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No formar nunca ninguna entidad
+B) Formar la LLC o la corporación: también hay que operarla de verdad como algo separado
+C) Solo pagar los impuestos a tiempo
+D) No se requiere nada más que formarla
 
-## Points clés
+**Pregunta 4.** ¿Qué hábito práctico protege contra el riesgo de que se levante el velo?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Tratar el dinero del negocio y el personal como si fueran lo mismo
+B) Mantener una separación real entre las finanzas y formalidades del negocio y las personales
+C) Evitar llevar cualquier registro
+D) Ignorar por completo las formalidades corporativas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este concepto describe específicamente el colapso de la protección de responsabilidad debido a cómo se operó realmente la entidad.
+
+**2.** Mezclar fondos es uno de los motivos que se citan con más frecuencia para que un tribunal desconozca la protección de la entidad.
+
+**3.** Formarla no garantiza por sí sola la protección; lo que realmente la sostiene es una separación operativa real y continua.
+
+**4.** Una separación financiera y formal constante es la salvaguarda práctica contra este riesgo.
+
+## Puntos clave
+
+- Levantar el velo corporativo significa que un tribunal desconoce la protección de la LLC o corporación y expone personalmente a los dueños.
+- Mezclar fondos e ignorar las formalidades son motivos comunes.
+- Formar la entidad es necesario, pero no suficiente: hay que operarla de verdad como algo separado.
+- Una separación constante y disciplinada es la defensa práctica contra este riesgo.

@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 2
 locale: es-Caribbean
 title: "Derecho común y derecho legislado: de dónde vienen las reglas"
-summary: "Explica dos fuentes importantes del derecho y por qué ambas pueden afectar situaciones cotidianas."
+summary: "Presenta las dos grandes fuentes del derecho en la mayoría de los sistemas legales y ofrece un mapa básico de dónde salen realmente las reglas jurídicas."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
@@ -16,47 +16,77 @@ date: 2026-08-09
 
 ## Objetivos de aprendizaje
 
-- Comprender el concepto jurídico central de esta lección.
-- Aplicarlo a decisiones prácticas relacionadas con patrimonio, negocios o inversiones.
-- Reconocer cuándo una situación puede requerir asesoría jurídica profesional.
+- Distinguir el derecho legislado del derecho común.
+- Explicar por qué ambas fuentes importan en situaciones legales cotidianas.
+- Reconocer que la combinación concreta varía según el país.
 
 ## Contenido principal
 
-El derecho legislado proviene de leyes aprobadas formalmente por una legislatura. El derecho común se desarrolla mediante decisiones judiciales y precedentes en jurisdicciones que utilizan ese sistema. En la práctica, una ley escrita puede establecer la regla general mientras los tribunales aclaran cómo se aplica a hechos específicos. La combinación varía según el país y la jurisdicción, por lo que leer solamente una disposición puede no revelar toda la respuesta jurídica.
+El derecho legislado (statutory law) es el que redacta y aprueba un órgano legislativo: una regla formal y escrita, como una ley que fija un requisito para los contratos o una norma de licencias. El derecho común (common law), que se usa en EE. UU. y en muchos otros países, es el derecho que se va formando con el tiempo a través de las decisiones de los tribunales: cuando los jueces resuelven disputas, su razonamiento se convierte en precedente que orienta cómo se decidirán disputas futuras parecidas, aunque no exista una ley escrita que cubra exactamente esa situación.
+
+En la práctica, la mayoría de las preguntas legales reales involucran ambas fuentes: una ley puede fijar una regla general, y las decisiones de los tribunales interpretan qué significa exactamente esa ley en situaciones reales concretas y complicadas. Esto importa en la práctica porque explica por qué "la ley" no siempre es una oración limpia que puedes buscar: a veces la respuesta real depende de cómo los tribunales han aplicado una regla en casos parecidos anteriores, y no solo de lo que la ley dice literalmente.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En los sistemas de derecho civil, como el de la República Dominicana, la fuente principal son los códigos y las leyes escritas, y la jurisprudencia tiene un papel interpretativo que, en general, no funciona como el precedente obligatorio del common law. Puerto Rico combina rasgos de ambas tradiciones. La combinación exacta depende de cada país.
 
 ## Ejemplo práctico
 
-Una persona enfrenta una decisión financiera o comercial relacionada con este tema. En vez de asumir que conoce la respuesta jurídica, identifica los términos, documentos, obligaciones y jurisdicción aplicables. Esa alfabetización jurídica le permite hacer mejores preguntas y reconocer cuándo el riesgo justifica consultar a un profesional autorizado.
+**Pregunta:** Una nueva dueña de negocio busca una ley y supone que responde por completo a su pregunta legal. ¿Por qué podría no ser el cuadro completo?
+
+**Estudiante:** Según esta lección, las decisiones de los tribunales que interpretan esa ley podrían añadir detalles importantes que el texto de la ley no dice de forma explícita.
+
+**Guía:** ¿Por qué importaría eso en la situación real y concreta que ella enfrenta?
+
+**Estudiante:** Porque la forma en que los tribunales han aplicado la ley en casos parecidos podría revelar excepciones, límites o interpretaciones que cambian cómo se aplica a su caso.
+
+**Guía:** Exacto, y por eso las preguntas legales complejas o de mucho riesgo se benefician de orientación profesional, no solo de una búsqueda rápida de la ley.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el propósito principal de la alfabetización jurídica en PURPLE?
+**Pregunta 1.** El derecho legislado es:
 
-A) Sustituir completamente a un abogado
-B) Reconocer conceptos, riesgos y cuándo buscar ayuda profesional
-C) Garantizar que nunca habrá una disputa
-D) Memorizar todas las leyes
+A) Derecho formado solo por decisiones judiciales
+B) Derecho redactado y aprobado por un órgano legislativo
+C) Sugerencias que no se pueden hacer cumplir
+D) Algo que solo importa en casos penales
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** El derecho común es:
 
-A) Porque las reglas pueden variar entre países y territorios
-B) Porque todas las leyes son idénticas mundialmente
-C) Porque solamente importa en casos criminales
-D) No importa
+A) Derecho que se forma con el tiempo a través de decisiones judiciales y precedentes
+B) Lo mismo que el derecho legislado
+C) Algo que solo se usa en un país
+D) Algo irrelevante para los sistemas legales modernos
+
+**Pregunta 3.** En la práctica, la mayoría de las preguntas legales involucran:
+
+A) Solo leyes, nunca decisiones judiciales
+B) Tanto las leyes como la forma en que los tribunales las han interpretado
+C) Ninguna de las dos fuentes
+D) Solo derecho común, nunca leyes
+
+**Pregunta 4.** ¿Por qué buscar solo una ley podría no responder por completo a una pregunta legal?
+
+A) Las leyes siempre están completas por sí solas
+B) La interpretación judicial puede añadir detalles importantes que no están en el texto de la ley
+C) Las leyes nunca son relevantes
+D) Esto nunca ocurre en la práctica
 
 ## Clave de respuestas
 
-1. B, 2. A
+1. B, 2. A, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE busca desarrollar capacidad práctica para entender riesgos y utilizar asesoría profesional eficazmente, no reemplazarla.
+**1.** El derecho legislado es el tipo formalmente codificado, creado mediante el proceso legislativo.
 
-**2.** Las reglas, procedimientos y requisitos jurídicos pueden variar significativamente según la jurisdicción.
+**2.** El derecho común se va construyendo poco a poco mediante el precedente judicial, no con un único acto legislativo.
+
+**3.** Las preguntas legales reales suelen exigir entender tanto la regla escrita como la forma en que se ha aplicado.
+
+**4.** La interpretación judicial a menudo revela matices, excepciones o límites que el texto de la ley por sí solo no deja claros.
 
 ## Puntos clave
 
-- La alfabetización jurídica mejora la calidad de las decisiones financieras y comerciales.
-- Las reglas concretas dependen de la jurisdicción y de los hechos.
-- Identificar un problema temprano puede reducir costos y riesgos.
-- Cuando las consecuencias son importantes, conviene consultar a un profesional autorizado.
+- El derecho legislado viene de los órganos legislativos; el derecho común se forma con decisiones judiciales y precedentes.
+- La mayoría de las preguntas legales reales involucran ambas fuentes trabajando juntas.
+- El texto literal de una ley no siempre cuenta toda la historia.
+- Esa es parte de la razón por la que las preguntas legales complejas se benefician de una interpretación profesional.

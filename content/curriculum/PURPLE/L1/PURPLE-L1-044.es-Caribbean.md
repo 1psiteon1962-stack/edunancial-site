@@ -5,70 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 44
 locale: es-Caribbean
-title: "Alfabetización jurídica aplicada — Lección 44"
-summary: "Desarrolla alfabetización jurídica práctica para reconocer derechos, obligaciones, riesgos y cuándo obtener asesoría profesional."
+title: "Poderes: la autoridad legal para actuar en nombre de otra persona"
+summary: "Presenta el poder (power of attorney) como una herramienta legal que da a alguien autoridad para actuar en nombre de otra persona, relevante tanto para la continuidad del negocio como para planificar una posible incapacidad."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Alfabetización jurídica aplicada — Lección 44
+# Poderes: la autoridad legal para actuar en nombre de otra persona
 
 ## Objetivos de aprendizaje
 
-- Identificar derechos, obligaciones y riesgos jurídicos relevantes.
-- Aplicar una metodología práctica antes de tomar decisiones financieras o comerciales.
-- Reconocer cuándo una situación requiere asesoría jurídica profesional.
+- Definir un poder (power of attorney).
+- Distinguir el poder general del poder limitado.
+- Relacionar esto con la planificación tanto del negocio como personal.
 
 ## Contenido principal
 
-Las decisiones sobre patrimonio, bienes raíces, inversiones y negocios existen dentro de un marco jurídico. Antes de actuar, es importante identificar las partes, los documentos aplicables, las obligaciones asumidas, los derechos afectados y la jurisdicción que controla la situación. Una regla general no debe tratarse como una respuesta universal: contratos, propiedad, responsabilidad, regulación y procedimientos pueden variar entre países, estados, provincias y territorios.
+Un poder (power of attorney, POA) es un documento legal que da a una persona (el apoderado o mandatario) la autoridad para actuar en nombre de otra persona (el poderdante o mandante) en ciertos asuntos. Un **poder general** da una autoridad amplia en asuntos financieros y legales; un **poder limitado (o especial)** da autoridad solo para un propósito o una transacción específicos, como firmar los documentos de cierre de una compra de bienes raíces cuando el poderdante no puede estar presente.
 
-La alfabetización jurídica no consiste en intentar ejercer como abogado. Consiste en reconocer señales de riesgo, formular mejores preguntas, conservar documentación y entender cuándo el costo de una revisión profesional es pequeño frente al posible costo de un error. Esta capacidad fortalece tanto la estrategia ofensiva como la defensiva: permite buscar oportunidades sin abandonar las protecciones necesarias para conservar lo construido.
+Esta herramienta importa tanto en el negocio como en lo personal a lo largo de este currículo. En un contexto de negocio de la ruta BLUE, un poder puede permitir que una persona de confianza firme documentos o tome ciertas decisiones cuando el dueño no está disponible, lo que apoya la continuidad del negocio. En un contexto más amplio de planificación personal, en conexión con las lecciones de planificación patrimonial de GOLD, un poder a menudo se diseña específicamente para que tenga efecto si el poderdante queda incapacitado, de modo que alguien tenga autoridad legal para manejar sus asuntos sin necesidad de un proceso judicial; es justo el tipo de planificación anticipada que la sección de sucesión de GOLD recomendó hacer mucho antes de que se sienta urgente.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En los sistemas de derecho civil, esta figura se regula como mandato o poder, que a menudo debe otorgarse ante notario. Si un poder sigue vigente cuando el poderdante queda incapacitado depende de la ley de cada jurisdicción; consúltalo con un profesional local.
 
 ## Ejemplo práctico
 
-Una persona considera una operación con consecuencias económicas importantes. Antes de firmar, identifica qué promete cada parte, qué ocurre si alguien incumple, qué activos podrían quedar expuestos y qué reglas locales se aplican. Si encuentra lenguaje ambiguo, una obligación significativa o algo que no comprende, solicita revisión de un profesional autorizado antes de quedar obligada.
+**Pregunta:** Alguien está planificando el cierre de una compra de bienes raíces, pero sabe que estará de viaje y no podrá asistir en persona. ¿Qué herramienta legal de esta lección podría resolver esa situación?
+
+**Estudiante:** Según esta lección, un poder limitado podría funcionar: da a alguien autoridad para esa transacción específica, como firmar los documentos de cierre, sin darle una autoridad más amplia fuera de ese propósito.
+
+**Guía:** ¿En qué se diferencia eso de un poder general?
+
+**Estudiante:** Un poder general daría una autoridad mucho más amplia en asuntos financieros y legales, mientras que uno limitado se restringe solo al propósito específico necesario, como este cierre.
+
+**Guía:** Exacto: ajustar el alcance de la autoridad a la necesidad real es la clave práctica aquí.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el objetivo de la alfabetización jurídica de PURPLE?
+**Pregunta 1.** Un poder es:
 
-A) Sustituir permanentemente a un abogado
-B) Reconocer riesgos, comprender conceptos y saber cuándo buscar ayuda profesional
-C) Garantizar que nunca exista una disputa
-D) Memorizar todas las leyes
+A) Un tipo de orden judicial
+B) Un documento legal que da a una persona autoridad para actuar en nombre de otra
+C) Lo mismo que un testamento
+D) Algo irrelevante para la planificación del negocio o personal
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** Un poder general da:
 
-A) Porque las reglas pueden variar según el lugar y los hechos
-B) Porque todas las leyes son idénticas
-C) Porque solamente importa en asuntos penales
-D) No importa
+A) Autoridad solo para un propósito estrecho y específico
+B) Una autoridad amplia en asuntos financieros y legales
+C) Ninguna autoridad real
+D) Solo autoridad sobre bienes raíces
 
-**Pregunta 3.** Ante un documento importante que no se comprende completamente, una práctica prudente es:
+**Pregunta 3.** Un poder limitado es útil en situaciones como:
 
-A) Firmarlo y preguntar después
-B) Ignorar las cláusulas difíciles
-C) Obtener aclaración y, cuando corresponda, revisión profesional antes de firmar
-D) Suponer que una plantilla siempre protege a todas las partes
+A) Dar una autoridad ilimitada de por vida
+B) Firmar los documentos de cierre de una transacción específica cuando el poderdante no puede estar presente
+C) Nada práctico
+D) Solo asuntos penales
+
+**Pregunta 4.** ¿Cómo relaciona esta lección el poder con el contenido anterior de GOLD?
+
+A) No hay ninguna relación
+B) Un poder puede diseñarse para que tenga efecto en caso de incapacidad, en línea con el tema de planificación sucesoria anticipada de GOLD
+C) Solo con el contenido de metales preciosos de GOLD
+D) Solo con la lección de interés compuesto de GOLD
 
 ## Clave de respuestas
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE desarrolla capacidad para reconocer problemas y utilizar asesoría profesional eficazmente; no reemplaza a un abogado.
+**1.** Este documento crea específicamente una autoridad legal delegada para el apoderado nombrado.
 
-**2.** Derechos, procedimientos, remedios y requisitos pueden variar considerablemente por jurisdicción.
+**2.** La autoridad amplia y general es el rasgo que distingue este tipo de poder del poder limitado.
 
-**3.** Comprender las obligaciones antes de asumirlas reduce riesgos y permite corregir problemas cuando todavía existe capacidad de negociación.
+**3.** Esta autoridad de alcance estrecho es un uso práctico y común en la vida real de un poder limitado.
+
+**4.** Esto conecta directamente con el énfasis de GOLD en una planificación anticipada que prevé la incapacidad, hecha antes de que se sienta urgente.
 
 ## Puntos clave
 
-- Las decisiones financieras y comerciales tienen una dimensión jurídica.
-- Los documentos, hechos y jurisdicción importan.
-- La protección patrimonial requiere estrategia ofensiva y defensiva.
-- Identificar un problema antes de firmar suele ofrecer más opciones que descubrirlo después.
-- Cuando las consecuencias son importantes, la asesoría profesional puede reducir riesgos.
+- Un poder da una autoridad legal delegada para actuar en nombre de otra persona.
+- Los poderes generales dan una autoridad amplia; los poderes limitados se restringen a un propósito específico.
+- Esta herramienta apoya tanto la continuidad del negocio como la planificación ante una incapacidad personal.
+- Esto conecta directamente con el tema de planificación anticipada de la sección de sucesión de GOLD.

@@ -5,70 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 45
 locale: es-Caribbean
-title: "Alfabetización jurídica aplicada — Lección 45"
-summary: "Desarrolla alfabetización jurídica práctica para reconocer derechos, obligaciones, riesgos y cuándo obtener asesoría profesional."
+title: "La prescripción: por qué las reclamaciones legales vencen"
+summary: "Presenta el concepto de prescripción (statute of limitations) y explica por qué las reclamaciones legales no están disponibles para siempre y por qué esto importa tanto para presentar reclamaciones como para defenderse de ellas."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Alfabetización jurídica aplicada — Lección 45
+# La prescripción: por qué las reclamaciones legales vencen
 
 ## Objetivos de aprendizaje
 
-- Identificar derechos, obligaciones y riesgos jurídicos relevantes.
-- Aplicar una metodología práctica antes de tomar decisiones financieras o comerciales.
-- Reconocer cuándo una situación requiere asesoría jurídica profesional.
+- Definir la prescripción en términos sencillos.
+- Explicar la lógica general de política pública de poner un plazo a las reclamaciones legales.
+- Reconocer su importancia práctica tanto para posibles demandantes como para posibles demandados.
 
 ## Contenido principal
 
-Las decisiones sobre patrimonio, bienes raíces, inversiones y negocios existen dentro de un marco jurídico. Antes de actuar, es importante identificar las partes, los documentos aplicables, las obligaciones asumidas, los derechos afectados y la jurisdicción que controla la situación. Una regla general no debe tratarse como una respuesta universal: contratos, propiedad, responsabilidad, regulación y procedimientos pueden variar entre países, estados, provincias y territorios.
+La prescripción (en EE. UU., el statute of limitations) es un plazo legal dentro del cual debe presentarse una reclamación; pasado ese plazo, en general ya no puede presentarse ante los tribunales, sin importar sus méritos de fondo. Los distintos tipos de reclamación (disputas contractuales, reclamaciones extracontractuales y otras) suelen tener plazos distintos, y estos plazos varían según la jurisdicción: no hay un número universal que memorizar, pero el concepto de fondo se aplica de forma amplia.
 
-La alfabetización jurídica no consiste en intentar ejercer como abogado. Consiste en reconocer señales de riesgo, formular mejores preguntas, conservar documentación y entender cuándo el costo de una revisión profesional es pequeño frente al posible costo de un error. Esta capacidad fortalece tanto la estrategia ofensiva como la defensiva: permite buscar oportunidades sin abandonar las protecciones necesarias para conservar lo construido.
+La lógica general de política pública es doble: las pruebas y los recuerdos se deterioran de verdad con el tiempo, lo que hace más difícil resolver con justicia las reclamaciones antiguas, y hay un interés social real en que las cosas lleguen a un final, para que las personas y los negocios puedan seguir adelante sin una exposición indefinida a reclamaciones de un pasado lejano. Esto importa en la práctica para ambos lados: quien tiene una queja legítima necesita entender que hay un plazo real para presentarla, no un tiempo ilimitado para decidirse; y quien enfrenta una posible reclamación debería entender que las reclamaciones lo bastante antiguas pueden haber prescrito por completo, lo que es un contexto relevante (aunque no sustituye el consejo legal real) al evaluar la exposición real a una disputa antigua.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En los sistemas de derecho civil, como el de la República Dominicana, los plazos de prescripción se fijan sobre todo en el Código Civil y en leyes especiales, y pueden interrumpirse o suspenderse en ciertos casos. Verifica el plazo aplicable a tu caso con un profesional.
 
 ## Ejemplo práctico
 
-Una persona considera una operación con consecuencias económicas importantes. Antes de firmar, identifica qué promete cada parte, qué ocurre si alguien incumple, qué activos podrían quedar expuestos y qué reglas locales se aplican. Si encuentra lenguaje ambiguo, una obligación significativa o algo que no comprende, solicita revisión de un profesional autorizado antes de quedar obligada.
+**Pregunta:** Alguien descubre una disputa contractual legítima de hace muchos años y se pregunta si todavía puede demandar por ella hoy. ¿Qué sugiere esta lección que revise primero?
+
+**Estudiante:** Según esta lección, debería revisar si ya venció el plazo de prescripción para ese tipo de reclamación, porque en general las reclamaciones no pueden presentarse después de ese plazo, sin importar sus méritos.
+
+**Guía:** ¿Por qué los méritos de la reclamación por sí solos podrían no bastar para garantizar que todavía pueda presentarse?
+
+**Estudiante:** Porque la prescripción existe específicamente para poner un plazo a las reclamaciones, por razones como el deterioro de las pruebas y el interés en que las cosas lleguen a un final; así que incluso una reclamación totalmente legítima puede dejar de estar disponible legalmente si pasó demasiado tiempo.
+
+**Guía:** Exacto: los méritos y la disponibilidad legal son dos preguntas distintas.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el objetivo de la alfabetización jurídica de PURPLE?
+**Pregunta 1.** La prescripción es:
 
-A) Sustituir permanentemente a un abogado
-B) Reconocer riesgos, comprender conceptos y saber cuándo buscar ayuda profesional
-C) Garantizar que nunca exista una disputa
-D) Memorizar todas las leyes
+A) Un derecho permanente a demandar en cualquier momento
+B) Un plazo legal dentro del cual debe presentarse una reclamación
+C) Algo que solo importa en casos penales
+D) Lo mismo en todas las jurisdicciones y para todo tipo de reclamación
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** La lógica general de política pública de poner un plazo a las reclamaciones incluye:
 
-A) Porque las reglas pueden variar según el lugar y los hechos
-B) Porque todas las leyes son idénticas
-C) Porque solamente importa en asuntos penales
-D) No importa
+A) No hay ninguna lógica real
+B) El deterioro de las pruebas con el tiempo y el interés en que las cosas lleguen a un final
+C) Solo proteger a los demandados ricos
+D) Fomentar los litigios indefinidos
 
-**Pregunta 3.** Ante un documento importante que no se comprende completamente, una práctica prudente es:
+**Pregunta 3.** ¿Los distintos tipos de reclamación suelen tener el mismo plazo?
 
-A) Firmarlo y preguntar después
-B) Ignorar las cláusulas difíciles
-C) Obtener aclaración y, cuando corresponda, revisión profesional antes de firmar
-D) Suponer que una plantilla siempre protege a todas las partes
+A) Sí, siempre idéntico
+B) No: los distintos tipos de reclamación y las distintas jurisdicciones suelen tener plazos diferentes
+C) Los plazos no tienen relación con el tipo de reclamación
+D) Ninguna reclamación tiene plazo
+
+**Pregunta 4.** ¿Por qué esto importa a quien enfrenta una posible reclamación antigua?
+
+A) No tiene ninguna importancia práctica
+B) Las reclamaciones lo bastante antiguas pueden haber prescrito por completo, lo que es un contexto relevante al evaluar la exposición
+C) Las reclamaciones antiguas siempre son válidas automáticamente
+D) Esta lección solo importa a los demandantes, nunca a los demandados
 
 ## Clave de respuestas
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE desarrolla capacidad para reconocer problemas y utilizar asesoría profesional eficazmente; no reemplaza a un abogado.
+**1.** Este mecanismo de plazo legal es justamente lo que establece la prescripción.
 
-**2.** Derechos, procedimientos, remedios y requisitos pueden variar considerablemente por jurisdicción.
+**2.** Tanto el deterioro de las pruebas como el valor de llegar a un final se citan como la razón de política pública de fondo.
 
-**3.** Comprender las obligaciones antes de asumirlas reduce riesgos y permite corregir problemas cuando todavía existe capacidad de negociación.
+**3.** La variación según el tipo de reclamación y la jurisdicción se menciona de forma explícita, en vez de suponer una cifra universal.
+
+**4.** Es un contexto práctico y directamente útil para evaluar la exposición real a una disputa antigua, de cualquier lado de una posible reclamación.
 
 ## Puntos clave
 
-- Las decisiones financieras y comerciales tienen una dimensión jurídica.
-- Los documentos, hechos y jurisdicción importan.
-- La protección patrimonial requiere estrategia ofensiva y defensiva.
-- Identificar un problema antes de firmar suele ofrecer más opciones que descubrirlo después.
-- Cuando las consecuencias son importantes, la asesoría profesional puede reducir riesgos.
+- La prescripción pone un plazo legal para presentar una reclamación.
+- Refleja preocupaciones de política pública sobre el deterioro de las pruebas y el valor de llegar a un final.
+- Los plazos varían según el tipo de reclamación y la jurisdicción: no hay un número que se aplique en todas partes.
+- Esto importa en la práctica tanto a posibles demandantes como a posibles demandados que evalúan disputas antiguas.

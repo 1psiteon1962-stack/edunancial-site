@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 26
 locale: es-ES
-title: "Zonage : ce qu’il est permis de faire avec un immeuble"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Derecho de zonificación: lo que puedes y no puedes hacer con una propiedad"
+summary: "Presenta el derecho de zonificación como una restricción impuesta por el gobierno sobre el uso de la propiedad, relevante tanto para el uso actual como para los planes de desarrollo futuros en RED."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Zonage : ce qu’il est permis de faire avec un immeuble
+# Derecho de zonificación: lo que puedes y no puedes hacer con una propiedad
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir la zonificación en términos sencillos.
+- Explicar el propósito general de las normas de zonificación.
+- Reconocer por qué la zonificación importa tanto para el uso actual como para los planes de desarrollo.
 
-## Contenu principal
+## Contenido principal
 
-Le zonage est une réglementation publique qui limite l’usage des terrains selon des catégories et des règles locales. Être propriétaire ne donne pas un droit illimité d’utiliser un terrain de n’importe quelle façon. Un investisseur devrait vérifier le zonage avant l’achat, surtout s’il prévoit rénover, agrandir ou changer l’usage d’un immeuble.
+La zonificación es la regulación del gobierno local que divide el terreno en categorías designadas (residencial, comercial, industrial, de uso mixto, etc.) que restringen lo que se puede construir u operar legalmente en una propiedad determinada. Es una limitación impuesta por el gobierno sobre el concepto del conjunto de derechos visto antes: ni siquiera ser dueño absoluto de una propiedad incluye el derecho ilimitado a usar el terreno como el dueño quiera, porque el derecho de zonificación limita lo que realmente está permitido.
 
-## Exemple pratique
+La zonificación importa de dos maneras prácticas distintas para los inversores de la ruta RED. Primero, para el uso actual: una propiedad con zonificación residencial en general no puede usarse legalmente para operar un negocio de manufactura, sin importar lo que prefiera el dueño. Segundo, y a menudo se pasa por alto, para los planes de desarrollo futuros: un inversor que planea remodelar, ampliar o cambiar el uso de una propiedad necesita confirmar que el plan está realmente permitido por la zonificación vigente, o tramitar una variación (una excepción específica, a veces difícil de obtener) si no lo está. Una propiedad que parece perfecta en papel puede convertirse en un problema costoso si su uso previsto no coincide con su clasificación de zonificación real, y por eso verificar la zonificación debe hacerse temprano en la debida diligencia, no descubrirse como un problema después de comprar.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, los usos del suelo los fijan principalmente el planeamiento urbanístico municipal (como el plan general) y la normativa de cada comunidad autónoma, y las obras y cambios de uso suelen requerir licencia municipal. Verifica la calificación urbanística del inmueble en el ayuntamiento.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un inversor compra una propiedad con zonificación residencial con la idea de convertirla en una pequeña tienda, sin revisar antes las reglas de zonificación. ¿Qué riesgo ilustra esto?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, la zonificación de la propiedad podría no permitir el uso comercial, lo que significaría que el plan del inversor no está permitido legalmente sin tramitar una variación, si es que se puede obtener.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** Según esta lección, ¿cuándo debió hacerse este tipo de verificación?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Temprano en la debida diligencia, antes de la compra, en vez de descubrirlo después como un problema costoso.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: verificar la zonificación va al principio del proceso, no como algo que se deja para después.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** La zonificación es:
 
-1. B, 2. A, 3. C
+A) Una regla fiscal federal
+B) La regulación del gobierno local que restringe lo que se puede construir u operar en un terreno
+C) Un tipo de escritura
+D) Algo irrelevante para el uso de la propiedad
 
-## Réponses et explications
+**Pregunta 2.** La zonificación representa una limitación sobre:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Nada relacionado con la propiedad
+B) El concepto del conjunto de derechos: ni siquiera ser dueño incluye derechos de uso ilimitados
+C) Solo las propiedades de alquiler
+D) Solo las propiedades comerciales
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿De qué dos maneras importa la zonificación para los inversores de la ruta RED?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Solo para el uso actual, nunca para los planes futuros
+B) Para el uso legal actual y para los planes futuros de desarrollo o cambio de uso
+C) Ni para el uso actual ni para los planes futuros
+D) Solo para el tratamiento fiscal
 
-## Points clés
+**Pregunta 4.** ¿Cuándo debería hacerse idealmente la verificación de zonificación?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Después de comprar, cuando surja un problema
+B) Temprano en la debida diligencia, antes de comprar
+C) La verificación de zonificación nunca es necesaria
+D) Solo después de empezar la construcción
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La zonificación es, específicamente, una herramienta del gobierno para regular las categorías de uso permitido del suelo.
+
+**2.** Esto limita directamente los derechos de uso, que de otro modo son amplios, dentro del conjunto de derechos de la propiedad.
+
+**3.** Ambas dimensiones, lo que se permite ahora y lo que se permite para planes futuros, tienen un peso práctico real para los inversores.
+
+**4.** Hacer esta verificación al principio evita la sorpresa costosa de una compra inutilizable o restringida.
+
+## Puntos clave
+
+- La zonificación es la regulación del gobierno local que restringe el uso permitido del suelo.
+- La zonificación limita incluso los derechos de uso de un dueño absoluto, según el concepto del conjunto de derechos.
+- La zonificación importa tanto para el uso legal actual como para los planes futuros de desarrollo o cambio de uso.
+- La verificación de zonificación va temprano en la debida diligencia, no se descubre como un problema después de comprar.

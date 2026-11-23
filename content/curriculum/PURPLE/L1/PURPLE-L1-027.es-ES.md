@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 27
 locale: es-ES
-title: "Servitudes : quand une autre personne détient un droit sur votre terrain"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Servidumbres: cuando otra persona tiene un derecho legal sobre tu terreno"
+summary: "Explica el concepto de servidumbre como un derecho específico y limitado que se concede a un tercero sobre la propiedad de otra persona, a partir del marco del conjunto de derechos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Servitudes : quand une autre personne détient un droit sur votre terrain
+# Servidumbres: cuando otra persona tiene un derecho legal sobre tu terreno
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir una servidumbre.
+- Identificar los tipos y propósitos comunes de las servidumbres.
+- Relacionar las servidumbres directamente con el concepto del conjunto de derechos.
 
-## Contenu principal
+## Contenido principal
 
-Une servitude accorde à une personne ou entité un droit limité d’utiliser une partie du terrain d’autrui sans lui transférer la propriété. Les servitudes de services publics ou d’accès sont des exemples fréquents. Certaines suivent l’immeuble lors d’une vente; elles doivent donc être examinées pendant la vérification diligente.
+Una servidumbre es un derecho legal que permite a una persona específica usar una parte de la propiedad de otra para un propósito específico y limitado, sin transferir la propiedad. Es una aplicación directa y concreta del concepto del conjunto de derechos: una servidumbre separa una pequeña parte del derecho de exclusión del dueño y se la concede a otra persona, mientras el dueño conserva todo lo demás del conjunto.
 
-## Exemple pratique
+Entre los ejemplos comunes están la servidumbre de servicios públicos (que permite a una compañía de servicios entrar para instalar y mantener líneas eléctricas o tuberías a través de una propiedad) y la servidumbre de paso (que permite a un vecino cruzar una propiedad para llegar a la suya cuando no hay otra vía de acceso razonable). Las servidumbres suelen "acompañar al terreno": es decir, siguen vigentes aunque la propiedad se venda a un nuevo dueño, y por eso aparecen en un estudio de título e importan en la debida diligencia del comprador. Un comprador que no sabe que existe una servidumbre importante sobre una propiedad podría llevarse la sorpresa de no poder usar parte de "su" terreno como esperaba, a pesar de ser dueño pleno en todo lo demás.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las servidumbres también existen en el derecho español, reguladas por el Código Civil, y suelen constar en el Registro de la Propiedad. Las reglas concretas sobre cómo se crean y se extinguen pueden variar.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un comprador adquiere una propiedad sin revisar si existen servidumbres y luego descubre que una compañía de servicios tiene el derecho legal de entrar a una parte del patio cuando lo necesite. ¿Por qué ser dueño pleno no lo evitó?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, una servidumbre separa un derecho específico del conjunto que forma la propiedad y se lo concede a otra persona, mientras el comprador sigue teniendo todo lo demás del conjunto.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué esta servidumbre sigue aplicándose aunque la propiedad se vendió a un nuevo dueño?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque las servidumbres suelen "acompañar al terreno": siguen vigentes a través de una venta en vez de desaparecer cuando cambia el dueño.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto, y por eso revisar si hay servidumbres durante la debida diligencia, junto con el estudio de título, importa tanto.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Una servidumbre es:
 
-1. B, 2. A, 3. C
+A) Una transferencia completa de la propiedad
+B) Un derecho legal que permite a una persona específica usar parte de la propiedad de otra para un propósito limitado
+C) Un tipo de gravamen
+D) Algo irrelevante para el derecho de la propiedad
 
-## Réponses et explications
+**Pregunta 2.** Una servidumbre de servicios públicos suele permitir:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Que una compañía de servicios entre y dé mantenimiento a líneas o tuberías que cruzan una propiedad
+B) Que el dueño venda la propiedad libremente
+C) Nada relacionado con el acceso a la propiedad
+D) Solo el uso residencial de la propiedad
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Las servidumbres suelen pasar a un nuevo dueño cuando se vende una propiedad?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No, desaparecen con la venta
+B) Sí: las servidumbres suelen "acompañar al terreno"
+C) Solo si el nuevo dueño lo acepta de forma explícita
+D) Las servidumbres nunca son relevantes en una venta
 
-## Points clés
+**Pregunta 4.** ¿Cómo relaciona esta lección las servidumbres con el concepto del conjunto de derechos?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) No hay ninguna relación
+B) Una servidumbre separa un derecho específico (como el de exclusión) del conjunto y se lo concede a otra persona
+C) Las servidumbres transfieren todo el conjunto de derechos
+D) Las servidumbres no tienen relación con ningún marco de derechos
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una servidumbre concede derechos de uso específicos y limitados sin transferir la propiedad de fondo.
+
+**2.** Las servidumbres de servicios públicos son un ejemplo clásico y ampliamente reconocido de este tipo de derecho de acceso limitado.
+
+**3.** Seguir vigente a través de una venta ("acompañar al terreno") es una característica que define a la mayoría de las servidumbres.
+
+**4.** Esta lección presenta de forma explícita las servidumbres como una aplicación directa y concreta del concepto anterior del conjunto de derechos.
+
+## Puntos clave
+
+- Una servidumbre concede un derecho específico y limitado a usar parte de una propiedad, sin transferir la propiedad.
+- Las servidumbres de servicios públicos y de paso son ejemplos comunes.
+- Las servidumbres suelen "acompañar al terreno" y siguen vigentes a través de las ventas de la propiedad.
+- Es una aplicación directa y práctica del concepto del conjunto de derechos visto antes en esta sección.

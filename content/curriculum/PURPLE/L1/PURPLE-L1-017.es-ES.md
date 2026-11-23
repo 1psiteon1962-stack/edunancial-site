@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 17
 locale: es-ES
-title: "Permis et licences d’entreprise : le droit légal d’exercer ses activités"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Licencias y permisos de negocio: el derecho legal a operar"
+summary: "Presenta el concepto general de licencias y permisos de negocio como la autorización legal necesaria para operar, distinta de la constitución de la entidad."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Permis et licences d’entreprise : le droit légal d’exercer ses activités
+# Licencias y permisos de negocio: el derecho legal a operar
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Distinguir la constitución de una entidad de la obtención de licencias y permisos.
+- Explicar el propósito general de las licencias y los permisos de negocio.
+- Reconocer el riesgo de operar sin la autorización debida.
 
-## Contenu principal
+## Contenido principal
 
-La création d’une entité est distincte de l’obtention des permis et licences nécessaires pour exploiter une activité. Les exigences dépendent du secteur, du lieu et du type d’entreprise. Exploiter sans autorisation requise peut entraîner amendes, fermeture ou autres conséquences. Il faut vérifier les exigences locales avant de commencer les activités.
+Constituir una entidad de negocio (una LLC, una corporación, etc.) es un paso legal distinto de obtener las licencias y los permisos que realmente se requieren para operar ese negocio legalmente. Los requisitos de licencias y permisos varían muchísimo según la industria, el lugar y el tipo de negocio: un restaurante necesita permisos sanitarios que un negocio de consultoría no necesita; un contratista necesita una licencia de oficio que una tienda no necesita. Es otra área en la que "las reglas" no son una lista universal, sino un requisito propio de cada jurisdicción e industria que hay que investigar para cada situación concreta.
 
-## Exemple pratique
+Operar sin las licencias o permisos requeridos implica un riesgo real: multas, cierre forzoso, contratos invalidados y, en algunos casos, exposición a responsabilidad personal incluso con una entidad bien constituida. Un error común y comprensible es suponer que constituir una LLC o una corporación es el único paso legal necesario para "ser legítimo"; pero una entidad bien constituida que opera sin las licencias requeridas sigue operando ilegalmente en un sentido importante, y vale la pena identificar y cerrar esa brecha antes, no después, de que aparezca un problema.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, además de constituir la sociedad, suele ser necesario darse de alta en Hacienda y en la Seguridad Social y obtener las licencias municipales de actividad o de apertura que correspondan. Consulta a tu ayuntamiento y a un gestor para tu tipo de negocio.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Una LLC recién constituida empieza a operar un negocio justo después de constituirse, sin investigar si se requiere alguna licencia o permiso propio de su industria. ¿Qué brecha ilustra esto?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, constituir la LLC resolvió la creación de la entidad, pero las licencias y los permisos son un requisito legal aparte que no se ha atendido en absoluto.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Qué riesgo crea operar sin las licencias requeridas, aun con una LLC bien constituida?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Un riesgo real: multas, cierre forzoso o incluso una exposición que debilita la protección que se suponía que daría la LLC, porque operar ilegalmente puede complicar las cosas incluso con una entidad bien constituida.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: constituir la entidad y obtener la autorización legal para operar son dos pasos separados, y ambos son necesarios.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** La constitución de una entidad y la obtención de licencias y permisos son:
 
-1. B, 2. A, 3. C
+A) Exactamente el mismo paso legal
+B) Dos requisitos legales separados
+C) Algo relevante solo para la empresa individual
+D) Cosas que no tienen relación entre sí
 
-## Réponses et explications
+**Pregunta 2.** Los requisitos de licencias y permisos:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Son idénticos para todos los negocios en todas partes
+B) Varían según la industria, el lugar y el tipo de negocio
+C) Nunca se aplican a ningún negocio
+D) Solo se aplican a las corporaciones
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Operar sin las licencias requeridas puede resultar en:
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Ninguna consecuencia
+B) Multas, cierre forzoso, contratos invalidados o exposición a responsabilidad
+C) Éxito automático del negocio
+D) Solo una pequeña molestia sin riesgo real
 
-## Points clés
+**Pregunta 4.** Un error común que identifica esta lección es:
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) No constituir nunca ninguna entidad de negocio
+B) Suponer que la constitución de la entidad por sí sola hace que un negocio sea plenamente "legítimo" y esté legalmente autorizado
+C) Obtener demasiadas licencias
+D) Esta lección no identifica ningún error común
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Constituir una entidad establece su existencia legal; las licencias establecen su permiso legal para operar realmente.
+
+**2.** Los requisitos concretos dependen de la industria y la jurisdicción, no de una única lista de verificación universal.
+
+**3.** Ignorar este paso expone al negocio a una serie de consecuencias reales y evitables.
+
+**4.** Esta lección nombra y corrige directamente la suposición común de que la constitución por sí sola cubre todo el cumplimiento legal.
+
+## Puntos clave
+
+- La constitución de una entidad y las licencias y permisos son dos requisitos legales separados.
+- Los requisitos de licencias varían según la industria, el lugar y el tipo de negocio.
+- Operar sin las licencias requeridas implica un riesgo real, incluidas multas y el cierre forzoso.
+- Constituir una entidad no basta por sí solo para que un negocio esté plenamente autorizado a operar.

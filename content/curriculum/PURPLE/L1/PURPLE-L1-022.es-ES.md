@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 22
 locale: es-ES
-title: "Actes de transfert : types et droits réellement transférés"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Escrituras de traspaso: tipos y lo que realmente transfieren"
+summary: "Explica el concepto general de escritura de traspaso (deed) y las diferencias prácticas entre los tipos comunes, con énfasis en lo que garantiza cada uno."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Actes de transfert : types et droits réellement transférés
+# Escrituras de traspaso: tipos y lo que realmente transfieren
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir en términos sencillos una escritura de traspaso (deed).
+- Distinguir la escritura con garantía general de la escritura de renuncia (quitclaim).
+- Explicar por qué el tipo de escritura importa en la práctica.
 
-## Contenu principal
+## Contenido principal
 
-Un acte de transfert est un document juridique servant à transférer des droits immobiliers. Les garanties diffèrent selon le type d’acte et la juridiction. Aux États-Unis, par exemple, un general warranty deed offre habituellement des garanties plus étendues qu’un quitclaim deed, qui transfère généralement seulement l’intérêt que le cédant possède, s’il en possède un.
+Una escritura de traspaso (deed) es el documento legal que realmente transfiere la propiedad de un inmueble de una parte a otra. No todas las escrituras ofrecen el mismo nivel de protección al comprador, y entender la diferencia importa en la práctica, no solo en lo técnico. Una **escritura con garantía general** (general warranty deed) ofrece la protección más fuerte: el vendedor garantiza que tiene un título limpio y que defenderá al comprador frente a cualquier reclamación contra ese título, incluso de antes de que él fuera dueño. Una **escritura de renuncia** (quitclaim deed) ofrece la protección más débil: el vendedor transfiere el interés que tenga, sea cual sea, sin garantizar que ese interés sea válido ni que el título esté limpio; es un documento de "te transfiero lo que tenga, si es que tengo algo", no una garantía.
 
-## Exemple pratique
+Esta distinción importa muchísimo en la práctica. La escritura con garantía general es la norma esperada en la mayoría de las compras de bienes inmuebles entre partes independientes, porque un comprador que paga dinero real quiere una seguridad real sobre lo que está recibiendo. La escritura de renuncia es más común en situaciones sin una verdadera venta (traspasos entre familiares, para aclarar un detalle técnico del título o en acuerdos de divorcio), donde las partes ya entienden y aceptan la naturaleza limitada del traspaso. Recibir una escritura de renuncia en lo que debería ser una compra normal es una señal de alerta que merece atención profesional inmediata.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Estos tipos de escritura son propios del sistema de EE. UU. En España, la compraventa de inmuebles suele formalizarse en escritura pública ante notario y se inscribe en el Registro de la Propiedad; además, el Código Civil obliga al vendedor al saneamiento en caso de evicción. Verifica el procedimiento con un profesional.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un comprador adquiere una propiedad de un vendedor con quien no tiene ningún vínculo, a precio completo de mercado, y el vendedor le ofrece una escritura de renuncia en lugar de una con garantía general. ¿Debería preocuparle?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, sí: una escritura de renuncia no garantiza que el vendedor tenga realmente un título limpio, y eso es una preocupación real en una compra normal a precio completo.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué una escritura de renuncia sería más apropiada en otro tipo de situación, como un traspaso entre familiares?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque en ese contexto las partes ya entienden y aceptan la naturaleza limitada del traspaso: no dependen de la escritura misma para tener una garantía fuerte de propiedad.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: el mismo tipo de documento puede ser perfectamente normal en un contexto y una señal de alerta seria en otro.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Una escritura de traspaso (deed) es:
 
-1. B, 2. A, 3. C
+A) Un tipo de documento de préstamo
+B) El documento legal que transfiere la propiedad de un inmueble
+C) Un tipo de arrendamiento
+D) Algo irrelevante para las transacciones de propiedades
 
-## Réponses et explications
+**Pregunta 2.** Una escritura con garantía general:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) No ofrece ninguna garantía de título limpio
+B) Garantiza un título limpio y la defensa frente a reclamaciones, incluso de antes de que el vendedor fuera dueño
+C) Es la forma más débil de traspaso de propiedad
+D) Solo se usa en traspasos familiares
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Una escritura de renuncia (quitclaim):
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Garantiza la protección de título más fuerte posible
+B) Transfiere el interés que tenga el vendedor, sin garantizar que sea válido
+C) Es idéntica a una escritura con garantía general
+D) Se exige en toda venta de propiedad
 
-## Points clés
+**Pregunta 4.** Recibir una escritura de renuncia en una compra normal a precio completo debe tratarse como:
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Algo completamente normal, sin motivo de preocupación
+B) Una señal de alerta que merece atención profesional inmediata
+C) Una garantía de mejor protección que una escritura con garantía
+D) Algo irrelevante para la seguridad de la transacción
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una escritura de traspaso es, específicamente, el instrumento legal para transferir la propiedad de un inmueble.
+
+**2.** La fuerza de la escritura con garantía general viene de la garantía expresa del vendedor y de su obligación continua de defensa.
+
+**3.** La debilidad de la escritura de renuncia es que no ofrece ninguna garantía sobre la validez de lo que se transfiere.
+
+**4.** El contexto determina lo que es apropiado: el mismo tipo de documento es normal en un caso y alarmante en otro.
+
+## Puntos clave
+
+- Una escritura de traspaso es el documento legal que transfiere la propiedad de un inmueble.
+- Una escritura con garantía general garantiza un título limpio y la defensa frente a reclamaciones.
+- Una escritura de renuncia transfiere el interés que exista, sin garantizar su validez.
+- El tipo de escritura correcto depende del contexto: una escritura de renuncia en una compra normal es una señal de alerta.

@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 32
 locale: es-ES
-title: "Pourquoi le droit des valeurs mobilières existe : protéger les investisseurs"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Por qué existe el derecho de valores: proteger a los inversores"
+summary: "Explica las razones históricas y prácticas de la regulación de valores y la presenta como una infraestructura de protección para los inversores, no como burocracia arbitraria."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Pourquoi le droit des valeurs mobilières existe : protéger les investisseurs
+# Por qué existe el derecho de valores: proteger a los inversores
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Explicar la motivación histórica general del derecho de valores.
+- Identificar el problema central que atiende el derecho de valores.
+- Relacionar esto con la confianza y la participación en los mercados en general.
 
-## Contenu principal
+## Contenido principal
 
-La réglementation des valeurs mobilières répond notamment à l’asymétrie d’information entre ceux qui offrent un investissement et ceux qui fournissent le capital. Les obligations de divulgation visent à donner aux investisseurs des renseignements financiers et des risques suffisamment fiables pour évaluer une occasion plutôt que de dépendre uniquement des affirmations promotionnelles.
+El derecho de valores no surgió de la nada: se desarrolló en gran parte como respuesta a problemas históricos reales, como inversores que perdían mucho dinero en esquemas de inversión fraudulentos o engañosos, a menudo porque no tenían una forma confiable de verificar la situación financiera real de una empresa ni la veracidad de lo que se les decía para atraer su dinero. El problema central que atiende el derecho de valores es la asimetría de información: la empresa o el promotor que ofrece una inversión casi siempre sabe mucho más sobre su verdadera situación y sus riesgos que el inversor al que se le pide que ponga su dinero.
 
-## Exemple pratique
+El derecho de valores atiende esta brecha principalmente mediante la divulgación obligatoria: exige que las empresas que ofrecen valores compartan públicamente información financiera y de riesgos específica y exacta, para que los inversores tengan una base real para evaluar una oportunidad en vez de depender solo de lo que dice un promotor. Esto conecta con algo que se vio en WHITE: los mercados funcionan mejor, y más personas están dispuestas a participar en ellos, cuando hay una confianza básica en que la información disponible es al menos razonablemente confiable. En este sentido, el derecho de valores es infraestructura para un mercado de inversión que funcione; sin él, lo razonable para cualquier inversor sería desconfiar por defecto de toda afirmación, y eso haría los mercados mucho menos útiles para todos.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Alguien pregunta por qué existe la regulación de valores y argumenta que los inversores deberían simplemente investigar por su cuenta y aceptar el riesgo que eso implique. ¿Qué problema central identifica esta lección que ese argumento pasa por alto?
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Estudiante:** Según esta lección, el problema central es la asimetría de información: a menudo los inversores no pueden acceder por su cuenta a la información real que necesitan para evaluar bien una oportunidad, por mucho que investiguen.
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Guía:** ¿Por qué la divulgación obligatoria atiende este problema directamente?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** Porque exige que las empresas compartan públicamente información específica y exacta, lo que da a los inversores una base real para evaluar en vez de depender solo de afirmaciones no verificadas.
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto: "investiga por tu cuenta" no funciona si la información necesaria para esa investigación no está disponible de forma confiable desde el principio.
 
-**Question 3.** Quel est le rôle de PURPLE?
+## Cuestionario práctico
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+**Pregunta 1.** El derecho de valores se desarrolló en gran parte como respuesta a:
 
-## Corrigé
+A) Ningún problema histórico real
+B) Casos históricos reales de inversores que perdieron dinero en esquemas fraudulentos o engañosos
+C) El deseo de crear burocracia innecesaria
+D) Solo preocupaciones modernas de la era de internet
 
-1. B, 2. A, 3. C
+**Pregunta 2.** El problema central que atiende el derecho de valores es:
 
-## Réponses et explications
+A) El exceso de información disponible
+B) La asimetría de información entre las empresas o promotores y los inversores
+C) La cautela excesiva de los inversores
+D) La falta de cualquier problema real
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**Pregunta 3.** El derecho de valores atiende este problema principalmente mediante:
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+A) La prohibición de toda inversión
+B) La divulgación obligatoria de información financiera y de riesgos específica y exacta
+C) La eliminación de todo riesgo de inversión
+D) Exigir que los inversores no tengan ninguna información
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**Pregunta 4.** ¿Cómo relaciona esta lección el derecho de valores con el funcionamiento más amplio de los mercados, según WHITE?
 
-## Points clés
+A) No hay ninguna relación
+B) La confianza básica en la información disponible es lo que hace que la gente esté dispuesta a participar en los mercados
+C) Los mercados funcionan mejor sin ninguna regulación
+D) Esta lección no tiene relación con WHITE
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El fraude y el engaño históricos se citan de forma explícita como la motivación práctica de esta área del derecho.
+
+**2.** La asimetría de información, el desequilibrio entre lo que saben las empresas y lo que pueden verificar los inversores, es el problema preciso que se identifica.
+
+**3.** La divulgación obligatoria ataca directamente la brecha de información, al exigir que las empresas compartan lo que los inversores necesitan para evaluar el riesgo.
+
+**4.** Esto vincula la regulación de valores con el tema más amplio de la confianza como infraestructura de los mercados que funcionan, visto en WHITE.
+
+## Puntos clave
+
+- El derecho de valores se desarrolló como respuesta a daños históricos reales a inversores por fraude y engaño.
+- El problema central es la asimetría de información entre las empresas y los inversores.
+- La divulgación obligatoria es la herramienta principal que usa el derecho de valores para cerrar esa brecha.
+- Esta regulación funciona como una infraestructura de confianza que hace posible una participación más amplia en los mercados.

@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 38
 locale: es-ES
-title: "Organismes de réglementation : qui surveille les marchés financiers?"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Organismos reguladores: quién supervisa los mercados financieros"
+summary: "Cierra la sección de derecho de valores con un panorama breve y general del concepto de organismo regulador financiero, sin entrar en detalles de un país concreto pero estableciendo el patrón de fondo."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Organismes de réglementation : qui surveille les marchés financiers?
+# Organismos reguladores: quién supervisa los mercados financieros
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Explicar el papel general de un organismo regulador financiero.
+- Reconocer que los nombres y las estructuras concretas de las agencias varían según el país.
+- Entender a los organismos reguladores como el mecanismo que hace cumplir los conceptos vistos en esta sección.
 
-## Contenu principal
+## Contenido principal
 
-Les pays dotés de marchés financiers importants ont généralement des organismes chargés d’appliquer les règles de divulgation, de marché équitable et de prévention de la fraude. Le nom et les pouvoirs de ces organismes varient. Le principe durable est qu’il existe habituellement une autorité pouvant recevoir des signalements, vérifier certains enregistrements et prendre des mesures d’application.
+Todo país con mercados de valores de cierta importancia suele tener algún tipo de organismo regulador encargado de hacer cumplir los conceptos de divulgación, equidad y prevención del fraude vistos en esta sección: revisa las divulgaciones obligatorias, investiga posibles violaciones como el uso de información privilegiada o el fraude, y toma medidas contra los infractores, que pueden incluir multas, sanciones o la remisión del caso para un proceso penal en los casos graves.
 
-## Exemple pratique
+Esta lección se mantiene general a propósito y no nombra una agencia específica, porque la estructura, el nombre y las facultades exactas de los reguladores financieros varían mucho según el país, y este currículo sirve a un público global. El concepto duradero y transferible es el patrón en sí: los mercados de valores suelen tener detrás un organismo real que hace cumplir las reglas vistas en esta sección, y eso es parte de lo que les da a esas reglas una fuerza real en vez de ser puramente teóricas. Saber que en una jurisdicción determinada suele existir un organismo así, y que puede ser un recurso para denunciar un posible fraude o verificar si una oferta está debidamente registrada, es la lección práctica, sin importar qué agencia específica se aplique en cada país.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Alguien sospecha que una oportunidad de inversión podría ser un valor no registrado y posiblemente fraudulento. Según esta lección, ¿suele haber algún recurso para investigar o denunciar esta preocupación?
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Estudiante:** Según esta lección, sí: la mayoría de los países con mercados de valores tienen algún organismo regulador encargado de este tipo de supervisión y cumplimiento, que podría servir para verificar el registro o denunciar la preocupación.
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Guía:** ¿Por qué esta lección evita nombrar una agencia específica?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** Porque la agencia, su nombre y su estructura exactos varían según el país, y este currículo busca servir a un público global, así que la lección duradera es el patrón general, no la institución de un país concreto.
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto: que exista un mecanismo de cumplimiento es la conclusión universal y transferible.
 
-**Question 3.** Quel est le rôle de PURPLE?
+## Cuestionario práctico
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+**Pregunta 1.** En general, un organismo regulador financiero se encarga de:
 
-## Corrigé
+A) Nada relacionado con los mercados de valores
+B) Hacer cumplir las reglas de divulgación, equidad y prevención del fraude vistas en esta sección
+C) Solo fijar las reglas de zonificación de bienes inmuebles
+D) Solo administrar los presupuestos del gobierno
 
-1. B, 2. A, 3. C
+**Pregunta 2.** ¿Por qué esta lección evita nombrar una agencia reguladora específica?
 
-## Réponses et explications
+A) En realidad no existen esas agencias
+B) Los nombres y las estructuras concretas de las agencias varían mucho según el país
+C) Esta información es irrelevante para el tema
+D) Todos los países usan el mismo nombre de agencia
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**Pregunta 3.** En general, ¿qué puede hacer un organismo regulador ante las violaciones?
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+A) Nada en absoluto
+B) Imponer multas o sanciones, o remitir los casos graves para un proceso penal
+C) Solo emitir advertencias sin consecuencias reales
+D) Solo regular las transacciones de bienes inmuebles
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**Pregunta 4.** ¿Cuál es el concepto duradero y transferible que destaca esta lección?
 
-## Points clés
+A) Memorizar el regulador de un país concreto
+B) Reconocer que los mercados de valores suelen tener un organismo real que hace cumplir las reglas y les da fuerza
+C) Que los organismos reguladores son puramente teóricos y no tienen poder real
+D) Que solo los países ricos tienen regulación financiera
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Hacer cumplir justamente los conceptos vistos en esta sección es la función central del organismo regulador.
+
+**2.** La variación global en la estructura de las agencias es justo la razón por la que esta lección evita a propósito nombrar una institución específica.
+
+**3.** Las consecuencias reales, que pueden llegar a la remisión penal en los casos graves, son lo que da fuerza práctica a estas reglas.
+
+**4.** La idea transferible es que el patrón existe, no la institución específica de un solo país.
+
+## Puntos clave
+
+- Los organismos reguladores financieros hacen cumplir los conceptos de divulgación, equidad y prevención del fraude de esta sección.
+- La agencia específica varía según el país; esta lección se centra en el patrón general y transferible.
+- Los organismos reguladores pueden imponer consecuencias reales, lo que da fuerza práctica a las reglas de valores.
+- Esto cierra la sección de derecho de valores y conecta todos sus conceptos con un cumplimiento institucional real.

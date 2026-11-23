@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 43
 locale: es-ES
-title: "Fiducies : outils juridiques pour détenir et protéger des actifs"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Fideicomisos: herramientas legales para tener y proteger bienes"
+summary: "Presenta el concepto general de fideicomiso como herramienta legal para tener bienes y lo relaciona con el tema de la protección de activos y con el contenido de planificación sucesoria de GOLD."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Fiducies : outils juridiques pour détenir et protéger des actifs
+# Fideicomisos: herramientas legales para tener y proteger bienes
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir un fideicomiso en términos generales.
+- Explicar los papeles generales que intervienen (fideicomitente, fiduciario, beneficiario).
+- Relacionar los fideicomisos tanto con la protección de activos como con la planificación sucesoria.
 
-## Contenu principal
+## Contenido principal
 
-Une fiducie est une relation juridique dans laquelle des biens sont détenus et administrés par un fiduciaire selon des modalités établies au bénéfice d’un ou plusieurs bénéficiaires. Les effets sur la protection des actifs, la succession et la fiscalité varient énormément selon le type de fiducie et la juridiction. C’est un domaine où les conseils professionnels sont particulièrement importants.
+Un fideicomiso (trust) es un acuerdo legal en el que una parte (el fideicomitente) transfiere bienes para que otra parte (el fiduciario) los tenga y los administre en beneficio de una tercera parte (el beneficiario), según los términos que fija el fideicomitente. Los fideicomisos cumplen varios propósitos legales relevantes para este currículo: algunas estructuras de fideicomiso ofrecen cierto grado de protección de activos, al separar la titularidad legal de la propiedad personal de formas que pueden proteger los bienes de ciertas reclamaciones futuras; otras sirven sobre todo como herramientas de planificación sucesoria, en conexión directa con los conceptos de planificación patrimonial vistos en la sección de transmisión (Pass On) de GOLD.
 
-## Exemple pratique
+Los efectos legales, las protecciones y los requisitos concretos de los distintos tipos de fideicomiso varían muchísimo según la jurisdicción y según el tipo específico de fideicomiso que se use; es un terreno legal realmente complejo, más que la mayoría de los otros temas de esta ruta, y un caso claro en el que conviene buscar orientación profesional en vez de hacerlo por cuenta propia. La lección práctica en este nivel de alfabetización es reconocer qué es estructuralmente un fideicomiso (un acuerdo entre tres partes que separa la titularidad legal del beneficio) y que es una herramienta real y legítima que vale la pena conversar con un profesional, tanto para la protección de activos como para la planificación sucesoria, en vez de verla como un concepto misterioso o exclusivo de la gente rica.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* El trust nació en el common law, y el derecho español común no lo regula como tal, aunque algunos derechos forales conocen figuras fiduciarias y un trust extranjero puede producir ciertos efectos. Consulta a un profesional antes de usar estas estructuras.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Alguien supone que los fideicomisos solo importan a las personas extremadamente ricas y descarta la idea de conversar alguna vez sobre uno con un profesional. ¿Qué sugiere esta lección sobre esa suposición?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, no es del todo correcta: los fideicomisos se describen como una herramienta real y legítima tanto para la protección de activos como para la planificación sucesoria, no como algo exclusivo de la gente rica.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué esta lección insiste tanto en la orientación profesional en el caso concreto de los fideicomisos, más que en otros temas de esta ruta?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque el derecho de fideicomisos se describe como realmente complejo y muy dependiente de la jurisdicción, más que la mayoría de los otros temas, y eso hace de él un caso claro para que lo implemente un profesional en vez de intentarlo solo.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: reconocer la herramienta y saber cuándo llamar a un profesional es el verdadero objetivo de alfabetización aquí.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Un fideicomiso es:
 
-1. B, 2. A, 3. C
+A) Solo un tipo de entidad de negocio
+B) Un acuerdo legal en el que un fideicomitente transfiere bienes a un fiduciario para que los tenga en beneficio de un beneficiario
+C) Lo mismo que un testamento
+D) Algo irrelevante para la protección de activos o la sucesión
 
-## Réponses et explications
+**Pregunta 2.** Los tres papeles generales de un fideicomiso son:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Comprador, vendedor y prestamista
+B) Fideicomitente, fiduciario y beneficiario
+C) Arrendador, inquilino y agente
+D) Demandante, demandado y juez
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Cómo relaciona esta lección los fideicomisos con contenido anterior del currículo?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No hay ninguna relación
+B) Con los temas de protección de activos de esta ruta y con los conceptos de planificación sucesoria de GOLD
+C) Solo con el derecho inmobiliario
+D) Solo con el derecho de valores
 
-## Points clés
+**Pregunta 4.** ¿Por qué esta lección insiste de forma especial en la orientación profesional en el caso de los fideicomisos?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Los fideicomisos no tienen ninguna complejidad real ni requieren orientación
+B) El derecho de fideicomisos es realmente complejo y muy dependiente de la jurisdicción, más que la mayoría de los otros temas de esta ruta
+C) Los fideicomisos son ilegales sin un abogado presente
+D) Esta lección no insiste en la orientación profesional
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta estructura de tres partes, que separa la titularidad legal del beneficio, es el rasgo que define a un fideicomiso.
+
+**2.** Estos tres papeles definen la relación estructural básica que está en el centro de todo fideicomiso.
+
+**3.** Esta lección vincula a propósito los fideicomisos con el tema de la protección de activos de aquí y con el contenido de planificación sucesoria visto antes en GOLD.
+
+**4.** La lección señala de forma explícita este terreno como especialmente complejo, lo que justifica una cautela adicional y orientación profesional.
+
+## Puntos clave
+
+- Un fideicomiso es un acuerdo legal entre tres partes: fideicomitente, fiduciario y beneficiario.
+- Los fideicomisos pueden servir tanto para la protección de activos como para la planificación sucesoria.
+- Esto conecta directamente con el contenido anterior de planificación patrimonial de GOLD.
+- El derecho de fideicomisos es realmente complejo y depende de la jurisdicción, por lo que la orientación profesional es especialmente importante aquí.

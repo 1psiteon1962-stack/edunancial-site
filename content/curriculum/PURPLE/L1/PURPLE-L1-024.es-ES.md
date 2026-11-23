@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 24
 locale: es-ES
-title: "Privilèges et charges : quand un immeuble n’est pas entièrement libre"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Gravámenes y cargas: cuando una propiedad no está del todo \"libre\""
+summary: "Presenta los gravámenes y las cargas como reclamaciones o restricciones legales vinculadas a una propiedad que pueden afectar la propiedad y su transferencia."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Privilèges et charges : quand un immeuble n’est pas entièrement libre
+# Gravámenes y cargas: cuando una propiedad no está del todo "libre"
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir un gravamen y una carga.
+- Identificar los tipos comunes de gravámenes.
+- Explicar por qué los gravámenes importan en la práctica para compradores y dueños.
 
-## Contenu principal
+## Contenido principal
 
-Une charge peut être un droit, une réclamation ou une restriction qui affecte un immeuble. Un privilège peut garantir une dette au moyen d’une réclamation contre la propriété. Hypothèques, créances fiscales et certaines réclamations d’entrepreneurs en sont des exemples selon la juridiction. Une recherche de titre aide à identifier ces risques avant une transaction.
+Una carga (encumbrance) es cualquier reclamación, restricción o interés legal vinculado a una propiedad que no le pertenece por completo al dueño actual; es una categoría amplia que incluye los gravámenes, las servidumbres y ciertas restricciones. Un gravamen (lien), en concreto, es una reclamación legal contra una propiedad, normalmente para garantizar una deuda, que le da a quien lo tiene el derecho a forzar la venta de la propiedad para cobrar esa deuda si no se paga. Entre los tipos comunes están la hipoteca (que garantiza el préstamo usado para comprar la propiedad), el embargo o afección por impuestos (por impuestos sobre el inmueble no pagados) y el gravamen de constructor o mecánico (mechanic's lien), que presenta un contratista al que no le pagaron un trabajo hecho en la propiedad.
 
-## Exemple pratique
+Los gravámenes importan en la práctica porque, en general, se vinculan a la propiedad misma, no solo a la persona que contrajo la deuda; es decir, un gravamen puede seguir a la propiedad a través de una venta si no se identifica y se cancela correctamente antes. Por eso importan tanto los estudios de título (de la lección anterior): un gravamen pendiente que se descubre antes del cierre se puede atender, pero uno que pasa inadvertido puede convertirse en el problema del nuevo dueño. Entender que una propiedad puede arrastrar estas obligaciones vinculadas, aparte del inmueble físico, es una pieza central de la alfabetización jurídica en bienes inmuebles.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Los nombres y las reglas de las cargas cambian según el país (por ejemplo, hipotecas, embargos anotados o afecciones fiscales). En España, las cargas que afectan a un inmueble suelen consultarse en el Registro de la Propiedad mediante una nota simple antes de comprar.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un contratista termina un trabajo en una propiedad, pero nunca le pagan, y luego presenta un gravamen de constructor contra esa propiedad. Si la propiedad se vende después a un nuevo comprador sin que se resuelva el gravamen, ¿qué riesgo enfrenta el nuevo comprador?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, como los gravámenes en general se vinculan a la propiedad misma y no solo a quien contrajo la deuda, el nuevo comprador podría heredar ese gravamen pendiente como problema propio.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Cómo se pudo haber evitado?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Un estudio de título adecuado antes de la compra debió identificar el gravamen, para que se resolviera o se atendiera antes de cerrar la venta.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: justamente por eso el proceso de estudio de título de la lección anterior importa tanto en la práctica.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Una carga es:
 
-1. B, 2. A, 3. C
+A) Lo mismo que una escritura
+B) Una reclamación, restricción o interés legal vinculado a una propiedad
+C) Un tipo de seguro
+D) Algo relevante solo para los arrendamientos
 
-## Réponses et explications
+**Pregunta 2.** Un gravamen, en concreto, es:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Un tipo de escritura
+B) Una reclamación legal contra una propiedad, normalmente para garantizar una deuda
+C) Una forma de seguro de título
+D) Algo irrelevante para el derecho de la propiedad
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Un gravamen de constructor o mecánico lo presenta:
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Una autoridad fiscal del gobierno
+B) Un contratista al que no le pagaron un trabajo hecho en la propiedad
+C) Un banco que concede una hipoteca
+D) Solo el arquitecto original de la propiedad
 
-## Points clés
+**Pregunta 4.** ¿Por qué importan en la práctica los gravámenes para quien compra una propiedad?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Los gravámenes nunca afectan a un nuevo comprador
+B) En general, los gravámenes se vinculan a la propiedad misma y pueden seguirla a través de una venta si no se cancelan
+C) Los gravámenes solo afectan al dueño original, nunca a un comprador
+D) Los gravámenes se cancelan automáticamente con cualquier venta
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La carga es la categoría amplia que abarca varias reclamaciones y restricciones vinculadas.
+
+**2.** El rasgo que define a un gravamen es su función como garantía de una deuda no pagada.
+
+**3.** Los gravámenes de constructor protegen específicamente a contratistas y proveedores que hicieron un trabajo sin recibir pago.
+
+**4.** Que el gravamen esté vinculado a la propiedad es justo lo que hace que los gravámenes pendientes sean un riesgo real para compradores desprevenidos.
+
+## Puntos clave
+
+- Una carga es cualquier reclamación o restricción vinculada a una propiedad; un gravamen es, en concreto, una reclamación que garantiza una deuda.
+- Entre los tipos comunes de gravámenes están la hipoteca, el embargo por impuestos y el gravamen de constructor.
+- En general, los gravámenes se vinculan a la propiedad, no solo a la persona que contrajo la deuda.
+- Por eso importa tanto un estudio de título minucioso antes de comprar.

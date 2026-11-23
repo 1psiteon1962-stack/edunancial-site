@@ -5,70 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 47
 locale: es-Caribbean
-title: "Alfabetización jurídica aplicada — Lección 47"
-summary: "Desarrolla alfabetización jurídica práctica para reconocer derechos, obligaciones, riesgos y cuándo obtener asesoría profesional."
+title: "Entender los honorarios legales: por hora, fijos y contingentes"
+summary: "Explica las estructuras de honorarios más comunes de los abogados y da el vocabulario y el marco para entender y comparar los costos legales antes de contratar a un abogado."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Alfabetización jurídica aplicada — Lección 47
+# Entender los honorarios legales: por hora, fijos y contingentes
 
 ## Objetivos de aprendizaje
 
-- Identificar derechos, obligaciones y riesgos jurídicos relevantes.
-- Aplicar una metodología práctica antes de tomar decisiones financieras o comerciales.
-- Reconocer cuándo una situación requiere asesoría jurídica profesional.
+- Distinguir los honorarios por hora, fijos y contingentes.
+- Identificar qué estructura se usa normalmente para cada tipo de asunto.
+- Reconocer la importancia de aclarar la estructura de honorarios desde el principio.
 
 ## Contenido principal
 
-Las decisiones sobre patrimonio, bienes raíces, inversiones y negocios existen dentro de un marco jurídico. Antes de actuar, es importante identificar las partes, los documentos aplicables, las obligaciones asumidas, los derechos afectados y la jurisdicción que controla la situación. Una regla general no debe tratarse como una respuesta universal: contratos, propiedad, responsabilidad, regulación y procedimientos pueden variar entre países, estados, provincias y territorios.
+En general, los abogados usan una de unas pocas estructuras de honorarios comunes, y entenderlas ayuda a tener expectativas realistas y a comparar costos de forma significativa. La **facturación por hora** cobra el tiempo realmente dedicado; es común en asuntos complejos e impredecibles, como los litigios o la asesoría continua a un negocio, donde es difícil estimar de antemano el tiempo total necesario. Los **honorarios fijos** cobran una sola cantidad predeterminada por un alcance de trabajo definido y predecible; son comunes en asuntos rutinarios, como la constitución sencilla de un negocio o un cierre estándar de bienes raíces. Los **honorarios contingentes** cobran un porcentaje de lo que se recupere, solo si el caso tiene éxito; son comunes en ciertos tipos de casos de lesiones o reclamaciones, y alinean el incentivo del abogado con ganar de verdad.
 
-La alfabetización jurídica no consiste en intentar ejercer como abogado. Consiste en reconocer señales de riesgo, formular mejores preguntas, conservar documentación y entender cuándo el costo de una revisión profesional es pequeño frente al posible costo de un error. Esta capacidad fortalece tanto la estrategia ofensiva como la defensiva: permite buscar oportunidades sin abandonar las protecciones necesarias para conservar lo construido.
+Sea cual sea la estructura, aclarar el acuerdo de honorarios desde el principio, por escrito y antes de empezar el trabajo, es una alfabetización práctica esencial: un contrato de servicios o de honorarios por escrito debería especificar la estructura de honorarios, lo que incluye y qué costos adicionales (aranceles judiciales, peritos, etc.) podrían surgir aparte. Entender estas estructuras también ayuda a ajustar el tipo de honorario a la naturaleza de tu asunto: por ejemplo, la constitución sencilla de un negocio facturada por hora podría costar más, o sentirse menos predecible, que el mismo trabajo con honorarios fijos.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las reglas sobre honorarios, incluidos los honorarios contingentes o de cuota litis, varían según el país y las normas de ética profesional de cada colegio de abogados. Pide siempre el acuerdo por escrito.
 
 ## Ejemplo práctico
 
-Una persona considera una operación con consecuencias económicas importantes. Antes de firmar, identifica qué promete cada parte, qué ocurre si alguien incumple, qué activos podrían quedar expuestos y qué reglas locales se aplican. Si encuentra lenguaje ambiguo, una obligación significativa o algo que no comprende, solicita revisión de un profesional autorizado antes de quedar obligada.
+**Pregunta:** Alguien contrata a un abogado para la constitución sencilla y rutinaria de un negocio, pero acepta la facturación por hora sin preguntar si hay una alternativa de honorarios fijos. ¿Qué sugiere esta lección que pasó por alto?
+
+**Estudiante:** Según esta lección, para un asunto rutinario y predecible como la constitución estándar de un negocio, unos honorarios fijos podrían haber sido una opción más común y posiblemente más predecible en costo, por la que valía la pena preguntar.
+
+**Guía:** ¿Por qué importa el tipo de asunto al elegir entre estas estructuras de honorarios?
+
+**Estudiante:** Porque la facturación por hora suele encajar mejor en asuntos complejos e impredecibles, mientras que los honorarios fijos encajan en trabajos rutinarios y bien definidos; usar la estructura equivocada para la situación puede llevar a costos menos predecibles.
+
+**Guía:** Exacto: ajustar la estructura de honorarios a la naturaleza del asunto es parte de ser un cliente con alfabetización jurídica.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el objetivo de la alfabetización jurídica de PURPLE?
+**Pregunta 1.** La facturación por hora se usa normalmente para:
 
-A) Sustituir permanentemente a un abogado
-B) Reconocer riesgos, comprender conceptos y saber cuándo buscar ayuda profesional
-C) Garantizar que nunca exista una disputa
-D) Memorizar todas las leyes
+A) Solo asuntos rutinarios y predecibles
+B) Asuntos complejos e impredecibles en los que es difícil estimar el tiempo total
+C) Ningún abogado la usa nunca
+D) Solo casos con honorarios contingentes
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** Los honorarios fijos se usan normalmente para:
 
-A) Porque las reglas pueden variar según el lugar y los hechos
-B) Porque todas las leyes son idénticas
-C) Porque solamente importa en asuntos penales
-D) No importa
+A) Litigios impredecibles
+B) Asuntos rutinarios y bien definidos, como la constitución estándar de un negocio o un cierre
+C) Solo casos de lesiones
+D) Nunca se usan en la práctica
 
-**Pregunta 3.** Ante un documento importante que no se comprende completamente, una práctica prudente es:
+**Pregunta 3.** Los honorarios contingentes son:
 
-A) Firmarlo y preguntar después
-B) Ignorar las cláusulas difíciles
-C) Obtener aclaración y, cuando corresponda, revisión profesional antes de firmar
-D) Suponer que una plantilla siempre protege a todas las partes
+A) Una tarifa fija por hora
+B) Un porcentaje de lo que se recupere, que se cobra solo si el caso tiene éxito
+C) Unos honorarios fijos pagados por adelantado, sin importar el resultado
+D) Algo irrelevante para las estructuras de honorarios legales
+
+**Pregunta 4.** Según esta lección, ¿qué es una alfabetización práctica esencial sobre los honorarios legales?
+
+A) No hablar nunca de honorarios
+B) Aclarar el acuerdo de honorarios desde el principio, por escrito, antes de empezar el trabajo
+C) Suponer que todos los abogados cobran lo mismo
+D) Evitar los acuerdos de honorarios por escrito
 
 ## Clave de respuestas
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE desarrolla capacidad para reconocer problemas y utilizar asesoría profesional eficazmente; no reemplaza a un abogado.
+**1.** La flexibilidad de la facturación por hora se ajusta a asuntos cuyo alcance y tiempo son realmente difíciles de predecir de antemano.
 
-**2.** Derechos, procedimientos, remedios y requisitos pueden variar considerablemente por jurisdicción.
+**2.** Los honorarios fijos funcionan bien precisamente porque el alcance de los asuntos rutinarios es lo bastante predecible para ponerle precio desde el principio.
 
-**3.** Comprender las obligaciones antes de asumirlas reduce riesgos y permite corregir problemas cuando todavía existe capacidad de negociación.
+**3.** Esta estructura ligada al éxito es un rasgo que define a los acuerdos de honorarios contingentes.
+
+**4.** Un acuerdo de honorarios escrito y hecho desde el principio se destaca una y otra vez como la salvaguarda práctica frente a las sorpresas de costo.
 
 ## Puntos clave
 
-- Las decisiones financieras y comerciales tienen una dimensión jurídica.
-- Los documentos, hechos y jurisdicción importan.
-- La protección patrimonial requiere estrategia ofensiva y defensiva.
-- Identificar un problema antes de firmar suele ofrecer más opciones que descubrirlo después.
-- Cuando las consecuencias son importantes, la asesoría profesional puede reducir riesgos.
+- La facturación por hora encaja en asuntos complejos e impredecibles; los honorarios fijos, en asuntos rutinarios y bien definidos; los contingentes se alinean con el resultado del caso.
+- Ajustar la estructura de honorarios a la naturaleza del asunto legal importa para que el costo sea predecible.
+- Aclarar por escrito y desde el principio el acuerdo de honorarios es una alfabetización práctica esencial.
+- Entender estas estructuras ayuda a tener expectativas realistas antes de contratar a un abogado.

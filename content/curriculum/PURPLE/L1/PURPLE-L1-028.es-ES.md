@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 28
 locale: es-ES
-title: "Contrats immobiliers : comprendre la convention d’achat"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Contratos de bienes inmuebles: el contrato de compraventa explicado"
+summary: "Aplica las lecciones generales de contratos específicamente a los contratos de compraventa de bienes inmuebles y repasa los términos clave propios de este tipo de transacción."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Contrats immobiliers : comprendre la convention d’achat
+# Contratos de bienes inmuebles: el contrato de compraventa explicado
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Aplicar el marco general de los contratos específicamente a un contrato de compraventa de bienes inmuebles.
+- Identificar los términos clave propios de los contratos de compraventa de bienes inmuebles.
+- Reconocer las condiciones comunes y su propósito.
 
-## Contenu principal
+## Contenido principal
 
-Une convention d’achat immobilier applique les principes de l’offre, de l’acceptation et de la contrepartie. Elle peut aussi prévoir des conditions liées au financement, à l’inspection ou à l’évaluation ainsi qu’un dépôt. Ces mécanismes déterminent quand une partie peut se retirer, renégocier ou perdre certains droits; leur formulation doit être comprise avant la signature.
+Un contrato de compraventa de bienes inmuebles es una aplicación directa de los principios de contratos vistos antes en esta ruta: contiene una oferta (el precio y los términos propuestos), una aceptación (el acuerdo del vendedor con esos términos) y una contraprestación (el intercambio de dinero por la propiedad). Además de la estructura general del contrato, los contratos de compraventa de bienes inmuebles suelen incluir varios términos propios de este tipo de transacción que vale la pena entender.
 
-## Exemple pratique
+Las **condiciones** (contingencies) son requisitos que deben cumplirse para que el negocio siga adelante: una condición de financiación (el negocio se cae si el comprador no consigue un préstamo), una condición de inspección (el comprador puede retirarse o renegociar según lo que revele la inspección) y una condición de tasación (que protege al comprador si la propiedad se tasa por menos del precio acordado). El **depósito de buena fe** (earnest money) es un depósito que demuestra buena fe, que normalmente guarda un tercero neutral y que se aplica al precio de compra en el cierre, o que se pierde en ciertas circunstancias si el comprador se retira sin un motivo válido amparado en una condición. Entender estos mecanismos específicos, y no solo los conceptos generales de contratos de lecciones anteriores, es lo que convierte la alfabetización contractual en alfabetización específica sobre contratos de bienes inmuebles.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España se usan figuras parecidas, como el contrato de arras: con las arras penitenciales, si el comprador desiste las pierde y si desiste el vendedor debe devolverlas duplicadas (artículo 1454 del Código Civil). El efecto concreto depende de lo pactado; haz revisar estos términos por un profesional.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un comprador firma un contrato de compraventa con una condición de financiación y luego no logra conseguir un préstamo. ¿Qué le permite hacer en general esta condición?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, una condición de financiación en general significa que el negocio se cae, es decir, que el comprador puede retirarse, si no consigue financiación, en vez de verse obligado a completar la compra o a perder su depósito de buena fe.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Cómo se compara esto con un comprador que se retira sin ningún motivo válido amparado en una condición?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Sin una condición válida, retirarse arriesga perder el depósito de buena fe, porque no hay un motivo protegido para abandonar el negocio.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: las condiciones son específicamente lo que crea una forma protegida de salir del negocio en circunstancias definidas.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** ¿Qué elementos generales de un contrato contiene un contrato de compraventa de bienes inmuebles?
 
-1. B, 2. A, 3. C
+A) Ninguno de los elementos vistos antes
+B) Oferta, aceptación y contraprestación, aplicadas a una transacción de propiedad
+C) Solo una firma, nada más
+D) Elementos sin relación con el derecho de contratos
 
-## Réponses et explications
+**Pregunta 2.** En general, una condición de financiación protege al comprador porque:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Le garantiza que le aprobarán el préstamo
+B) Le permite retirarse si no consigue financiación
+C) Le exige pagar en efectivo, con o sin financiación
+D) No cumple ninguna función protectora real
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** El depósito de buena fe es:
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) El precio de compra completo pagado por adelantado
+B) Un depósito de buena fe que normalmente se aplica al precio de compra o se pierde en ciertas condiciones
+C) Un tipo de seguro
+D) Algo irrelevante para los contratos de bienes inmuebles
 
-## Points clés
+**Pregunta 4.** ¿Qué pasa si un comprador se retira sin un motivo válido amparado en una condición?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Nada: el depósito de buena fe siempre se devuelve completo
+B) Se arriesga a perder el depósito de buena fe
+C) En su lugar, se penaliza automáticamente al vendedor
+D) El contrato se anula automáticamente sin ninguna consecuencia
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Es una aplicación directa y concreta del marco de oferta, aceptación y contraprestación a un tipo de transacción específico.
+
+**2.** Las condiciones de financiación protegen específicamente a los compradores de verse obligados a completar una compra que no pueden financiar.
+
+**3.** El depósito de buena fe funciona como un compromiso de buena fe, con reglas definidas sobre su aplicación o su pérdida.
+
+**4.** No tener un motivo válido amparado en una condición es justo el caso en que el riesgo de perder el depósito se vuelve real.
+
+## Puntos clave
+
+- Un contrato de compraventa de bienes inmuebles aplica el marco general de oferta, aceptación y contraprestación.
+- Las condiciones (de financiación, inspección y tasación) crean supuestos protegidos para retirarse de un negocio.
+- El depósito de buena fe se aplica en el cierre o puede perderse.
+- Entender estos mecanismos específicos es lo que hace que la alfabetización contractual se aplique en concreto a los bienes inmuebles.
