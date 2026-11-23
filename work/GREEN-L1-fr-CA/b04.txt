@@ -1,0 +1,241 @@
+===== GREEN-L1-015
+TITLE: La différence entre une déduction fiscale et un crédit d’impôt
+SUMMARY: Clarifie l’une des paires de termes les plus souvent confondues en littératie fiscale : les déductions réduisent le revenu imposable, les crédits réduisent directement l’impôt dû.
+# La différence entre une déduction fiscale et un crédit d’impôt
+
+## Objectifs d’apprentissage
+
+- Définir une déduction fiscale.
+- Définir un crédit d’impôt.
+- Expliquer pourquoi un crédit vaut généralement plus, dollar pour dollar, qu’une déduction.
+
+## Contenu principal
+
+Une déduction fiscale réduit le montant du revenu qui est imposé. Un crédit d’impôt réduit directement la facture d’impôt elle-même, dollar pour dollar. Les deux semblent similaires, mais leur effet est sensiblement différent.
+
+Supposons qu’une personne se trouve dans un palier marginal de 20 %. Une déduction de 1 000 $ réduit son revenu imposable de 1 000 $, ce qui lui fait économiser environ 200 $ d’impôt (20 % de 1 000 $). Un crédit de 1 000 $, en revanche, réduit sa facture d’impôt des 1 000 $ au complet, peu importe son palier. C’est pourquoi, dollar pour dollar, les crédits valent généralement plus que les déductions — la valeur d’un crédit ne dépend pas de votre taux d’imposition comme celle d’une déduction.
+
+Les deux outils réduisent ce que vous devez, simplement par des mécanismes différents : les déductions réduisent la base imposée, les crédits réduisent la facture finale elle-même.
+
+## Exemple pratique
+
+**Question :** Un ami affirme : « Une déduction de 1 000 $ et un crédit de 1 000 $, c’est à peu près la même chose. » A-t-il raison?
+
+**Étudiant :** Je ne crois pas — l’un réduit le revenu imposable, l’autre réduit directement la facture d’impôt.
+
+**Guide :** Lequel a tendance à faire économiser le plus d’argent, et pourquoi?
+
+**Étudiant :** Le crédit, parce qu’il retire les 1 000 $ au complet de ce qui est dû, alors que la déduction ne retire qu’un pourcentage de 1 000 $ selon votre taux d’imposition.
+
+**Guide :** Exactement — même montant en dollars, mécanisme différent, effet différent.
+
+## Quiz pratique
+
+**Question 1.** Une déduction fiscale réduit :
+
+A) Le revenu imposable
+B) La facture d’impôt directement, dollar pour dollar
+C) Rien
+D) Seulement la taxe de vente
+
+**Question 2.** Un crédit d’impôt réduit :
+
+A) Le revenu imposable
+B) La facture d’impôt directement, dollar pour dollar
+C) Rien
+D) Seulement l’impôt foncier
+
+**Question 3.** Dollar pour dollar, lequel vaut généralement le plus?
+
+A) Une déduction
+B) Un crédit
+C) Ils sont toujours identiques
+D) Aucun des deux n’a de valeur
+
+**Question 4.** Une déduction de 1 000 $ pour une personne dans un palier de 20 % fait économiser environ :
+
+A) 1 000 $
+B) 200 $
+C) 0 $
+D) 2 000 $
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les déductions fonctionnent en réduisant le montant du revenu assujetti à l’impôt.
+
+**2.** Les crédits fonctionnent en réduisant directement la facture d’impôt finale, peu importe le taux d’imposition.
+
+**3.** Comme la valeur d’un crédit ne dépend pas de votre palier, il vaut généralement plus, par dollar, qu’une déduction.
+
+**4.** 20 % d’une déduction de 1 000 $ représentent environ 200 $ d’économie d’impôt réelle, contre 1 000 $ au complet pour un crédit.
+
+## Points clés
+
+- Les déductions réduisent le revenu imposable; les crédits réduisent directement la facture d’impôt.
+- La valeur d’un crédit ne dépend pas de votre palier d’imposition; celle d’une déduction, oui.
+- Dollar pour dollar, les crédits valent généralement plus que les déductions.
+- Les deux outils réduisent ce que vous devez, mais par des mécanismes différents.
+
+===== GREEN-L1-016
+TITLE: Déduction standard ou déductions détaillées
+SUMMARY: Explique les deux façons courantes de demander des déductions : un montant standard fixe ou la liste détaillée des dépenses admissibles réelles.
+# Déduction standard ou déductions détaillées
+
+## Objectifs d’apprentissage
+
+- Expliquer ce qu’est une déduction standard.
+- Expliquer ce que signifie détailler ses déductions.
+- Reconnaître la logique de base pour choisir entre les deux.
+
+## Contenu principal
+
+De nombreux systèmes fiscaux offrent un choix aux contribuables : prendre une déduction standard — un montant fixe auquel tout le monde a droit, sans reçus — ou détailler ses déductions, c’est-à-dire énumérer et additionner une à une les dépenses admissibles réelles (comme certains paiements d’intérêts, des dons de bienfaisance ou des frais médicaux, selon les règles du système). Ce choix existe notamment aux États-Unis; au Canada, le régime fonctionne plutôt au moyen de déductions et de crédits précis, mais la logique de comparaison reste utile à comprendre.
+
+La logique de décision de base est simple : si votre total détaillé est supérieur à la déduction standard, détailler fait économiser davantage. Sinon, prendre la déduction standard est plus simple et tout aussi avantageux financièrement. Comme la déduction standard n’exige aucun justificatif, beaucoup de gens la choisissent par défaut, à moins d’avoir une raison précise — comme un don de bienfaisance important ou des dépenses admissibles considérables — de détailler à la place.
+
+## Exemple pratique
+
+**Question :** Les dépenses qu’une personne pourrait détailler pour l’année totalisent moins que le montant de la déduction standard. Devrait-elle détailler?
+
+**Étudiant :** Probablement pas, puisque détailler demande plus d’efforts sans avantage supplémentaire.
+
+**Guide :** Exact — quelle est la règle générale pour choisir?
+
+**Étudiant :** Comparer le total détaillé à la déduction standard, et choisir le plus élevé des deux.
+
+**Guide :** Exactement — c’est une comparaison simple, pas une question de préférence.
+
+## Quiz pratique
+
+**Question 1.** Une déduction standard est :
+
+A) Un montant fixe qui n’exige aucun justificatif détaillé
+B) Offerte seulement aux entreprises
+C) La même chose qu’un crédit d’impôt
+D) Illégale dans la plupart des pays
+
+**Question 2.** Détailler ses déductions signifie :
+
+A) Prendre le montant standard fixe
+B) Énumérer et additionner les dépenses admissibles réelles
+C) Ne payer aucun impôt
+D) Éviter toutes les déductions
+
+**Question 3.** La règle de base pour choisir entre les deux est :
+
+A) Toujours détailler
+B) Toujours prendre la déduction standard
+C) Choisir celle qui produit la déduction la plus élevée
+D) Tirer à pile ou face
+
+**Question 4.** Pourquoi une personne pourrait-elle renoncer à détailler, même si c’est possible en théorie?
+
+A) C’est illégal
+B) Son total détaillé est inférieur à la déduction standard, ou la paperasse ne vaut pas le petit gain
+C) Les déductions standard n’existent pas
+D) Détailler est toujours obligatoire
+
+## Corrigé
+
+1. A, 2. B, 3. C, 4. B
+
+## Réponses et explications
+
+**1.** Une déduction standard est un montant fixe, sans justificatif requis, offert dans de nombreux systèmes fiscaux.
+
+**2.** Détailler signifie additionner les dépenses admissibles réelles au lieu de prendre le montant fixe.
+
+**3.** La décision se résume à une simple comparaison : le chiffre le plus élevé l’emporte.
+
+**4.** Quand le total détaillé ne dépasse pas la déduction standard, la paperasse supplémentaire n’apporte aucun avantage financier.
+
+## Points clés
+
+- Une déduction standard est un montant fixe et simple, sans justificatif requis.
+- Détailler signifie plutôt additionner les dépenses admissibles réelles.
+- Choisissez l’option qui produit la déduction la plus élevée.
+- La plupart des gens choisissent la déduction standard par défaut, à moins d’avoir une raison claire de détailler.
+
+===== GREEN-L1-017
+TITLE: Les crédits d’impôt courants pour les particuliers
+SUMMARY: Un survol des grandes catégories de crédits d’impôt que les particuliers rencontrent couramment, présenté de façon conceptuelle plutôt que lié aux programmes précis d’un seul pays.
+# Les crédits d’impôt courants pour les particuliers
+
+## Objectifs d’apprentissage
+
+- Repérer les catégories courantes de crédits d’impôt pour les particuliers.
+- Expliquer pourquoi les crédits visent souvent des objectifs de politique publique précis.
+- Reconnaître que l’existence et le montant des crédits varient beaucoup selon le pays et changent avec le temps.
+
+## Contenu principal
+
+Les gouvernements utilisent souvent les crédits d’impôt pour encourager des comportements précis ou soutenir des groupes précis, plutôt que pour simplement augmenter ou diminuer les recettes de façon uniforme. Parmi les catégories courantes, en termes généraux, on trouve : les crédits liés au fait d’avoir et d’élever des enfants ou des personnes à charge, les crédits liés aux frais d’études, les crédits liés aux rénovations domiciliaires écoénergétiques et les crédits destinés aux travailleurs ou aux familles à faible revenu.
+
+Les noms, montants et règles d’admissibilité précis de ces crédits varient énormément selon le pays et changent souvent au gré des priorités politiques. La leçon durable n’est pas un crédit en particulier — c’est le schéma : quand un gouvernement veut encourager un comportement (comme les études, l’amélioration des habitations ou le travail plutôt que la dépendance à l’aide sociale) sans interdire l’autre option, le crédit d’impôt est un outil de politique publique courant. Reconnaître ce schéma vous aide à comprendre les nouveaux crédits que vous rencontrerez plus tard, même ceux qui n’existent pas encore.
+
+## Exemple pratique
+
+**Question :** Un gouvernement veut inciter davantage de propriétaires à installer des panneaux solaires sans le rendre obligatoire. Quel outil pourrait-il utiliser?
+
+**Étudiant :** D’après le schéma de cette leçon, probablement un crédit d’impôt lié à l’installation de panneaux solaires.
+
+**Guide :** Pourquoi un crédit plutôt que, disons, un chèque de subvention ou une obligation?
+
+**Étudiant :** Un crédit fonctionne à l’intérieur du système fiscal existant, réduit la facture dollar pour dollar et encourage le comportement sans l’imposer.
+
+**Guide :** Exactement — c’est la logique générale derrière la plupart des crédits incitatifs.
+
+## Quiz pratique
+
+**Question 1.** Les gouvernements utilisent souvent les crédits d’impôt pour :
+
+A) Redistribuer la richesse au hasard, sans but
+B) Encourager des comportements précis ou soutenir des groupes précis
+C) Éliminer toute forme d’imposition
+D) Avantager seulement les grandes sociétés
+
+**Question 2.** Parmi les catégories de crédits mentionnées dans cette leçon, on trouve :
+
+A) Les personnes à charge, les études, l’efficacité énergétique et le soutien au travail à faible revenu
+B) Seulement les produits de luxe
+C) Seulement les placements étrangers
+D) Seulement l’héritage
+
+**Question 3.** Les noms et montants précis des crédits restent-ils les mêmes d’un pays à l’autre et au fil du temps?
+
+A) Oui, toujours
+B) Non — ils varient beaucoup et changent souvent
+C) Seulement dans les pays riches
+D) Ils n’ont jamais existé dans l’histoire
+
+**Question 4.** La leçon durable de ce sujet est de :
+
+A) Mémoriser tous les crédits
+B) Reconnaître le schéma général d’utilisation des crédits pour encourager un comportement
+C) Considérer que les crédits n’ont aucune importance
+D) Retenir que seules les entreprises obtiennent des crédits
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les crédits sont souvent des outils de politique publique, pas seulement des ajustements neutres des recettes.
+
+**2.** Les personnes à charge, les études, l’efficacité énergétique et le soutien au revenu sont des catégories de crédits souvent citées dans de nombreux systèmes.
+
+**3.** Les programmes de crédits comptent parmi les parties du droit fiscal qui changent le plus souvent; les détails exigent donc de vérifier les règles en vigueur.
+
+**4.** Reconnaître le schéma incitatif vous permet de comprendre les nouveaux crédits que vous rencontrerez à l’avenir.
+
+## Points clés
+
+- Les crédits d’impôt servent souvent d’incitatifs à des comportements précis ou de soutien à des groupes précis.
+- Les catégories courantes comprennent les personnes à charge, les études, l’efficacité énergétique et le soutien au revenu.
+- Les crédits précis varient beaucoup selon le pays et changent souvent.
+- La compétence transférable consiste à reconnaître le schéma incitatif, pas à mémoriser un crédit en particulier.
