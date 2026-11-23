@@ -1,0 +1,473 @@
+===== ORANGE-L5-006
+TITLE: Negoziare l'acquisizione di un'azienda con tutta la scacchiera in vista
+SUMMARY: Le acquisizioni riguardano prezzo, forma di pagamento, struttura, tutele e transizione; la BATNA determina il potere negoziale, scambiare condizioni che le due parti valutano in modo diverso crea valore per entrambe, e gli accordi equi spesso funzionano meglio dopo la chiusura.
+KEYWORDS: negoziare l'acquisizione di un'azienda, BATNA nelle acquisizioni, negoziazione di un accordo, condizioni del prezzo di acquisto, negoziazione dell'earnout
+# Negoziare l'acquisizione di un'azienda con tutta la scacchiera in vista
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un grande blocco commerciale che impone all'improvviso dazi elevati su un'ampia categoria di prodotti manifatturieri importati, aumentando i costi delle aziende che usano quelle importazioni come materie prime o componenti.
+Applicalo qui: I nuovi dazi rendono meno redditizia una piccola impresa di importazione, e il titolare vuole vendere. Un acquirente vede un'opportunità. Chiediti attraverso i colori: qual è la migliore alternativa di ciascuna parte (ORANGE)? Come va diviso il prezzo tra contanti, finanziamento del venditore ed earnout (BLUE)? Quali tutele giuridiche contano di più (PURPLE)? Quale struttura fiscale conviene a entrambe le parti (GREEN)?
+
+## Obiettivi di apprendimento
+- Applicare la BATNA e l'ancoraggio alla negoziazione di un'acquisizione
+- Fare scambi tra prezzo, condizioni, tutele e struttura
+- Negoziare in modo da preservare il rapporto dopo la chiusura
+
+## Contenuto principale
+Al Livello 4, ORANGE ha trattato i fondamenti della negoziazione: la BATNA (la migliore alternativa a un accordo negoziato), l'ancoraggio, il prezzo di riserva e la creazione di valore attraverso gli scambi. Al Livello 5 li usi in una delle negoziazioni più complesse del mondo degli affari: comprare un'azienda.
+Che cosa si può negoziare in un'acquisizione:
+- Prezzo (ORANGE/WHITE): Il valore principale.
+- Forma di pagamento (BLUE): Contanti alla chiusura, finanziamento del venditore, earnout legati ai risultati futuri o partecipazioni nella società dell'acquirente.
+- Struttura (GREEN/PURPLE): Acquisto dei beni o delle quote (PURPLE-L5-023 nel percorso giuridico), che incide sulle imposte di entrambe le parti.
+- Tutele (PURPLE): Dichiarazioni, garanzie, indennizzi, depositi a garanzia e massimali (PURPLE-L5-021).
+- Transizione (BLACK): Quanto a lungo il venditore resta ad aiutare, e con quale ruolo.
+- Non concorrenza (PURPLE): Se il venditore può fare concorrenza dopo la vendita.
+- Dipendenti (BLACK): Se i dipendenti chiave restano, e a quali condizioni.
+Creare valore attraverso gli scambi: poiché acquirenti e venditori danno un valore diverso alle diverse condizioni, un accordo può essere migliore per entrambi di una semplice trattativa sul prezzo. Un venditore a cui interessa soprattutto il prezzo totale può accettare un earnout. Un acquirente a cui interessa soprattutto limitare il rischio può pagare un prezzo più alto in cambio di un deposito a garanzia più ampio.
+La BATNA in un'acquisizione:
+- BATNA del venditore: un altro acquirente, continuare a gestire l'azienda o chiuderla.
+- BATNA dell'acquirente: un'altra azienda da acquisire, partire da zero o non comprare.
+Una BATNA più forte dà più potere negoziale. I dazi dello scenario possono indebolire la BATNA del venditore se continuare l'attività diventa meno attraente.
+IPOTESI/OPINIONE: Spremere troppo un venditore può ritorcersi contro. Se il venditore resta per la transizione o detiene un credito verso l'acquirente, un venditore risentito può rendere la transizione più difficile. Gli accordi equi spesso producono risultati migliori dopo la chiusura.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Tomas vuole comprare un'impresa di importazione. Il venditore chiede 1,2 milioni di euro. I dazi hanno ridotto gli utili.
+Analisi della BATNA:
+- Venditore: nessun altro acquirente serio. Continuare significa utili più bassi con i dazi. La BATNA è debole.
+- Tomas: altre due aziende in valutazione, anche se meno attraenti. La BATNA è moderata.
+L'offerta di Tomas: 950.000 euro, strutturati così:
+- 500.000 euro in contanti alla chiusura.
+- 250.000 euro di finanziamento del venditore in 5 anni a un tasso equo.
+- Fino a 250.000 euro di earnout se i ricavi tornano ai livelli precedenti ai dazi entro 2 anni.
+- Acquisto dei beni a vantaggio fiscale di Tomas. REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, nella cessione d'azienda l'acquirente paga in genere l'imposta di registro e può ammortizzare l'avviamento, risponde in solido di certi debiti fiscali e contributivi del cedente, mentre il venditore persona fisica che cede quote paga in genere un'imposta sostitutiva sulla plusvalenza, quindi verificalo con un commercialista.
+- Un deposito a garanzia del 10% per 18 mesi.
+- Il venditore resta 6 mesi come consulente retribuito.
+Il venditore controbatte con 1,1 milioni di euro in totale. Si accordano su 1,05 milioni di euro: 500.000 euro in contanti, 300.000 euro di finanziamento del venditore e fino a 250.000 euro di earnout. Il venditore riceve un valore totale maggiore se l'azienda si riprende. Tomas limita i contanti da versare subito e condivide il rischio con il venditore.
+IPOTESI/OPINIONE: L'earnout ha superato il loro disaccordo sul futuro. Il venditore riteneva probabile la ripresa; Tomas non ne era sicuro. L'earnout ha permesso a entrambi di avere ragione.
+
+## Quiz di esercitazione
+**Q1. Che cosa significa BATNA?**
+A) Il miglior accordo disponibile su imposte e titoli di credito
+B) Un accordo di base per negoziare sempre
+C) Una legge sul trasferimento dei beni aziendali e sulla negoziazione
+D) La migliore alternativa a un accordo negoziato
+**Q2. Come può un accordo essere migliore per entrambe le parti di una semplice trattativa sul prezzo?**
+A) Scambiando condizioni a cui ciascuna parte dà un valore diverso
+B) Mentendo
+C) Ignorando le imposte
+D) Evitando gli avvocati
+**Q3. Come hanno inciso i dazi sulla BATNA del venditore?**
+A) L'hanno rafforzata
+B) Hanno eliminato le opzioni dell'acquirente
+C) Non hanno avuto effetto
+D) L'hanno indebolita, perché continuare l'attività è diventato meno attraente
+**Q4. Che ruolo ha avuto l'earnout?**
+A) Ha ridotto le imposte
+B) Ha sostituito il deposito a garanzia
+C) Ha superato il disaccordo sul fatto che l'azienda si sarebbe ripresa
+D) Ha pagato l'acquirente
+**Q5. Perché spremere troppo un venditore può ritorcersi contro?**
+A) I venditori non si possono spremere
+B) Aumenta le imposte
+C) Un venditore risentito che detiene un credito o aiuta nella transizione può rendere le cose più difficili
+D) È illegale
+
+## Chiave delle risposte
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: C
+
+## Risposte e spiegazioni
+**Q1.** La BATNA è la tua opzione migliore se l'accordo salta.
+**Q2.** La creazione di valore nasce dalle priorità diverse.
+**Q3.** Un'alternativa più debole riduce il potere negoziale.
+**Q4.** Gli earnout permettono ad acquirenti e venditori di condividere l'incertezza.
+**Q5.** I rapporti dopo la chiusura contano.
+
+## Punti chiave
+- Le acquisizioni riguardano prezzo, forma di pagamento, struttura, tutele e transizione
+- La BATNA determina il potere negoziale
+- Scambiare condizioni valutate in modo diverso crea valore per entrambe le parti
+- Gli accordi equi spesso funzionano meglio dopo la chiusura
+
+===== ORANGE-L5-007
+TITLE: Negoziare immobili con il finanziamento del venditore
+SUMMARY: Il finanziamento del venditore trasforma il venditore in un finanziatore; prezzo, anticipo, tasso, durata e garanzie vanno negoziati insieme, nei mercati con tassi alti questo strumento può sbloccare gli affari, e bisogna concentrarsi su ciò di cui ciascuna parte ha davvero bisogno.
+KEYWORDS: negoziare il finanziamento del venditore, finanziamento del proprietario negli immobili, negoziare affari immobiliari, condizioni di finanziamento creative
+# Negoziare immobili con il finanziamento del venditore
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina una banca centrale che alza il proprio tasso di riferimento in modo deciso e ripetuto, nel giro di pochi mesi, per contrastare un'inflazione in aumento.
+Applicalo qui: Con i tassi bancari alti, un acquirente non può permettersi un mutuo tradizionale su un piccolo condominio, e la venditrice non trova altri acquirenti. Chiediti attraverso i colori: di che cosa ha davvero bisogno ciascuna parte (ORANGE)? Un finanziamento del venditore a un tasso più basso potrebbe far funzionare l'affare (BLUE/RED)? Quali documenti proteggono la venditrice (PURPLE)? Come potrebbe il pagamento rateale incidere sulle imposte della venditrice (GREEN)?
+
+## Obiettivi di apprendimento
+- Individuare le priorità di ciascuna parte in un affare con finanziamento del venditore
+- Fare scambi tra prezzo da una parte e tasso, anticipo e durata dall'altra
+- Strutturare un affare che protegga il venditore e funzioni per l'acquirente
+
+## Contenuto principale
+Al Livello 2, RED ha introdotto il finanziamento creativo. Al Livello 3, BLUE ha trattato il finanziamento del venditore nelle acquisizioni di aziende. Al Livello 5, ORANGE mostra come negoziare questi affari in modo che entrambe le parti ci guadagnino.
+Nel finanziamento del venditore, il venditore fa da finanziatore e riceve pagamenti nel tempo invece di tutto il prezzo in contanti alla chiusura.
+Che cosa vuole spesso ciascuna parte:
+- Acquirente: anticipo più basso, tasso di interesse più basso, durata più lunga, flessibilità.
+- Venditore: prezzo totale più alto, pagamenti affidabili, garanzie, possibili vantaggi fiscali dal distribuire la plusvalenza nel tempo (REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, la plusvalenza sulla vendita di un immobile da parte di una persona fisica è in genere tassata solo se la vendita avviene entro cinque anni dall'acquisto, salvo eccezioni come l'abitazione principale, e il pagamento rateale può essere garantito con un'ipoteca o con la riserva di proprietà, quindi verificalo con un commercialista e un notaio) e talvolta un reddito costante durante la pensione.
+Variabili chiave della negoziazione:
+- Prezzo
+- Anticipo
+- Tasso di interesse
+- Durata e piano di ammortamento (comprese le rate finali più consistenti)
+- Diritto di rimborso anticipato
+- Garanzie reali e garanzie personali
+Il principio dello scambio: un venditore può accettare un tasso di interesse più basso in cambio di un prezzo più alto, o un prezzo più basso in cambio di un anticipo più grande. Un acquirente può accettare un prezzo più alto in cambio di un tasso più basso che renda sostenibili le rate mensili.
+Come si collegano i colori:
+- RED: Il reddito dell'immobile deve sostenere le rate.
+- BLUE: Confronta il tasso del venditore con i tassi bancari. Quando i tassi bancari sono alti, il finanziamento del venditore può essere un grande vantaggio per gli acquirenti.
+- PURPLE: Titolo di credito, ipoteca e condizioni di inadempimento (PURPLE-L5-024). Verifica se il venditore ha un mutuo in corso con una clausola che ne impone il rimborso in caso di vendita.
+- GREEN: I venditori potrebbero distribuire l'imposta sulla plusvalenza lungo il periodo dei pagamenti. Gli interessi devono spesso rispettare tassi minimi. REGOLA SPECIFICA DELLA REGIONE.
+- WHITE: Per il venditore, il credito diventa un investimento. Confronta il suo rendimento atteso e il suo rischio con le altre opzioni.
+IPOTESI/OPINIONE: Nei mercati con tassi alti, il finanziamento del venditore può trasformare una vendita bloccata in un affare. La chiave è concentrarsi su ciò di cui ciascuna parte ha davvero bisogno, non solo sul prezzo principale.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Rosa, 68 anni, possiede senza mutui un edificio di 6 appartamenti. Vuole andare in pensione e da mesi lo ha messo in vendita a 900.000 euro senza offerte accettabili. I tassi bancari sono alti.
+Ben vuole comprare, ma può permettersi le rate solo se il tasso è più basso di quello offerto dalle banche.
+Negoziazione:
+- Priorità di Rosa: valore totale, reddito mensile affidabile e distribuzione delle imposte nel tempo.
+- Priorità di Ben: rate mensili sostenibili e un anticipo gestibile.
+Accordo:
+- Prezzo: 920.000 euro (più del prezzo richiesto da lei).
+- Anticipo: 20% (184.000 euro).
+- Finanziamento del venditore: 736.000 euro al 5,5% (sotto i tassi bancari), ammortamento su 25 anni con il saldo del residuo dopo 10 anni.
+- Garanzia: ipoteca iscritta sull'immobile. Ben fornisce una garanzia personale limitata.
+- Inadempimento: 30 giorni per rimediare.
+Rosa riceve un valore totale maggiore e un reddito mensile costante. Ben ottiene rate sostenibili. Il commercialista di lei spiega come il pagamento rateale possa distribuire le sue imposte. REGOLA SPECIFICA DELLA REGIONE.
+IPOTESI/OPINIONE: Un prezzo di 920.000 euro con un tasso del 5,5% ha funzionato meglio per entrambi di 880.000 euro con un finanziamento bancario che Ben non poteva permettersi.
+
+## Quiz di esercitazione
+**Q1. Nel finanziamento del venditore, chi fa da finanziatore?**
+A) Il venditore
+B) La banca
+C) Lo Stato
+D) L'agente immobiliare
+**Q2. Quale scambio potrebbe accettare un venditore?**
+A) Nessun pagamento
+B) Un tasso di interesse più basso in cambio di un prezzo più alto
+C) Regalare l'immobile
+D) Nessuna garanzia
+**Q3. Perché il finanziamento del venditore può essere particolarmente utile quando i tassi bancari sono alti?**
+A) Le banche rifiutano tutti i prestiti
+B) I venditori possono offrire tassi più bassi che rendono sostenibili le rate
+C) Evita tutte le imposte
+D) Non richiede documenti
+**Q4. Che cosa va verificato se il venditore ha un mutuo in corso?**
+A) Il colore della vernice
+B) Gli hobby dell'acquirente
+C) Il reddito dell'inquilino
+D) Se contiene una clausola che ne impone il rimborso in caso di vendita
+**Q5. Perché Rosa ha accettato un tasso di interesse inferiore a quello bancario?**
+A) È stata costretta
+B) Non le piacevano le banche
+C) Non aveva scelta
+D) Ha ottenuto un prezzo più alto, un reddito costante e la possibile distribuzione delle imposte
+
+## Chiave delle risposte
+Q1: A
+Q2: B
+Q3: B
+Q4: D
+Q5: D
+
+## Risposte e spiegazioni
+**Q1.** Il venditore riceve pagamenti nel tempo.
+**Q2.** I venditori possono scambiare il tasso con il prezzo.
+**Q3.** Tassi del venditore più bassi possono sbloccare affari fermi.
+**Q4.** I prestiti in corso possono limitare il finanziamento del venditore.
+**Q5.** Le sue priorità sono state soddisfatte attraverso gli scambi.
+
+## Punti chiave
+- Il finanziamento del venditore trasforma il venditore in un finanziatore
+- Negozia insieme prezzo, anticipo, tasso, durata e garanzie
+- Nei mercati con tassi alti, il finanziamento del venditore può sbloccare gli affari
+- Concentrati su ciò di cui ciascuna parte ha davvero bisogno
+
+===== ORANGE-L5-008
+TITLE: La retribuzione delle vendite: incentivi, imposte e inquadramento
+SUMMARY: La retribuzione guida i comportamenti e va progettata con intenzione; premia le vendite incassate, redditizie, durature e oneste, ricorda che le regole su inquadramento, contributi e provvigioni dipendono dalla regione, e scrivi i piani in modo chiaro, comprese le restituzioni e le uscite.
+KEYWORDS: piano di retribuzione delle vendite, struttura delle provvigioni, incentivi di vendita, imposte sulle provvigioni, retribuzione del team di vendita
+# La retribuzione delle vendite: incentivi, imposte e inquadramento
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina che i mercati immobiliare e del credito al consumo di un paese molto popoloso, dopo anni di rapida espansione, comincino a mostrare segni di una forte correzione, con le insolvenze in aumento.
+Applicalo qui: Mentre il mercato del credito si corregge, il team di vendita di un finanziatore continua a essere pagato sul volume dei prestiti anche se le insolvenze aumentano. Chiediti attraverso i colori: quale comportamento premia il piano di retribuzione (ORANGE/BLACK)? I venditori sono dipendenti o collaboratori autonomi (PURPLE)? Come vengono tassate le provvigioni e quando sono dovute (GREEN)? L'azienda può permettersi il piano se le vendite rallentano (BLUE)?
+
+## Obiettivi di apprendimento
+- Progettare una retribuzione che premi i comportamenti giusti
+- Collegare la progettazione della retribuzione alle regole fiscali e di inquadramento
+- Allineare la retribuzione delle vendite al flusso di cassa e al valore del cliente nel lungo periodo
+
+## Contenuto principale
+La retribuzione delle vendite plasma i comportamenti più di quasi ogni altro strumento di gestione. Le persone tendono a fare ciò per cui vengono pagate.
+Strutture comuni:
+- Solo stipendio: stabile, favorisce il lavoro di squadra e il servizio, ma può ridurre il senso di urgenza.
+- Solo provvigione: forte motivazione, ma reddito instabile, e può incoraggiare tattiche aggressive.
+- Stipendio più provvigione: un equilibrio tra stabilità e motivazione.
+- Premi: legati a obiettivi come i risultati del team, la fidelizzazione dei clienti o l'utile.
+- Restituzioni: provvigioni da restituire se un cliente recede o non paga entro un certo periodo.
+Che cosa dovrebbe premiare la retribuzione? Al Livello 5 la risposta riguarda tutta l'azienda:
+- Le vendite incassate, non solo quelle firmate (flusso di cassa BLUE).
+- Le vendite redditizie, non solo i ricavi (margine).
+- I clienti che restano (valore nel tempo di ORANGE-L5-003).
+- Pratiche di vendita oneste (PURPLE e BLACK).
+Come si collegano i colori:
+- PURPLE: Chi lavora solo a provvigione può comunque essere un dipendente secondo i criteri di inquadramento (PURPLE-L5-031 nel percorso giuridico). I piani di provvigione vanno scritti in modo chiaro, compreso quando le provvigioni maturano e che cosa succede quando qualcuno se ne va. REGOLA SPECIFICA DELLA REGIONE: Alcune giurisdizioni hanno regole specifiche sul pagamento delle provvigioni; in Italia, per esempio, secondo le informazioni disponibili, le provvigioni dei dipendenti fanno parte della retribuzione e sono soggette a contributi e ritenute, e le collaborazioni che nei fatti sono lavoro subordinato possono essere riqualificate come rapporto di lavoro dipendente, quindi verificalo con un avvocato giuslavorista.
+- GREEN: Le provvigioni pagate ai dipendenti sono in genere soggette a contributi e ritenute. REGOLA SPECIFICA DELLA REGIONE.
+- BLUE: La retribuzione variabile segue le vendite, il che protegge il flusso di cassa nei periodi lenti. Ma pagare le provvigioni prima che i clienti paghino può mettere sotto pressione la cassa.
+- BLACK: La retribuzione riflette i valori dell'azienda. Un piano che premia chi spinge prodotti a clienti che non ne hanno bisogno può danneggiare la cultura e la reputazione.
+IPOTESI/OPINIONE: Un piano di retribuzione che premia il volume di breve periodo a scapito della qualità dei clienti può creare problemi che emergono mesi dopo, come mostra lo scenario.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Marco gestisce un'azienda che installa impianti solari. I suoi venditori guadagnano l'8% di provvigione sui contratti firmati.
+Emergono problemi:
+- Alcuni clienti che hanno firmato poi recedono o non ottengono il finanziamento.
+- Alcune vendite vengono fatte con sconti forti che lasciano poco margine.
+- Alcuni venditori esagerano il risparmio energetico per chiudere i contratti.
+Nuovo piano:
+- Stipendio base più provvigione, il che rende più chiara la struttura della retribuzione e sostiene l'inquadramento come dipendenti. REGOLA SPECIFICA DELLA REGIONE.
+- Provvigione pagata in due parti: il 50% quando viene approvato il finanziamento del cliente, il 50% dopo l'installazione e il pagamento.
+- Aliquota della provvigione legata al margine: provvigione più alta per le vendite a prezzo pieno, più bassa per quelle scontate.
+- Premio trimestrale per bassi tassi di recesso e recensioni positive dei clienti.
+- Piano scritto e chiaro, comprese le regole di restituzione e che cosa succede alle provvigioni non pagate quando qualcuno se ne va.
+- Formazione su affermazioni corrette sul risparmio (vedi PURPLE-L5-035 nel percorso giuridico).
+Il volume delle vendite cala leggermente, ma i recessi diminuiscono, i margini salgono e i reclami calano. IPOTESI/OPINIONE: L'azienda di Marco è diventata più redditizia e più affidabile, pur firmando meno contratti in totale.
+
+## Quiz di esercitazione
+**Q1. Perché la retribuzione delle vendite è uno strumento di gestione così potente?**
+A) È obbligatoria per legge
+B) Riduce le imposte
+C) Le persone tendono a fare ciò per cui vengono pagate
+D) Sostituisce la formazione
+**Q2. Che cos'è una restituzione?**
+A) Provvigioni da restituire se un cliente recede o non paga
+B) Un premio
+C) Un tipo di stipendio
+D) Un'imposta
+**Q3. Perché la retribuzione dovrebbe premiare le vendite incassate invece di quelle firmate?**
+A) Le vendite firmate sono illegali
+B) Le vendite incassate riflettono la cassa che entra davvero in azienda
+C) Sono più facili da seguire
+D) I clienti lo preferiscono
+**Q4. Come ha ridotto Marco gli sconti?**
+A) Ha vietato gli sconti
+B) Ha licenziato i venditori
+C) Ha legato l'aliquota delle provvigioni al margine
+D) Ha aumentato i prezzi
+**Q5. Qual è stato il risultato del nuovo piano di Marco?**
+A) Un crollo delle vendite
+B) Più recessi
+C) Nessun cambiamento
+D) Volume leggermente più basso, ma margini più alti, meno recessi e meno reclami
+
+## Chiave delle risposte
+Q1: C
+Q2: A
+Q3: B
+Q4: C
+Q5: D
+
+## Risposte e spiegazioni
+**Q1.** La retribuzione plasma i comportamenti.
+**Q2.** Le restituzioni allineano la retribuzione ai risultati reali.
+**Q3.** Il flusso di cassa dipende dai pagamenti, non dalle firme.
+**Q4.** Le provvigioni basate sul margine hanno scoraggiato gli sconti forti.
+**Q5.** Incentivi migliori hanno migliorato la salute complessiva dell'azienda.
+
+## Punti chiave
+- La retribuzione guida i comportamenti: progettala con intenzione
+- Premia le vendite incassate, redditizie, durature e oneste
+- Le regole su inquadramento, contributi e provvigioni dipendono dalla regione
+- Scrivi i piani in modo chiaro, comprese le restituzioni e le uscite
+
+===== ORANGE-L5-009
+TITLE: Costruire un team di vendita o esternalizzare le vendite
+SUMMARY: I team interni offrono controllo, l'esternalizzazione offre flessibilità e costi fissi più bassi; i contratti con agenti e distributori devono regolare territorio, cessazione e titolarità dei clienti, la responsabilità del datore di lavoro fa parte della decisione, e il modello di vendita va adattato a ciascun mercato.
+KEYWORDS: team interno o vendite esternalizzate, agenti di commercio, team di vendita interno, vendite in outsourcing, distributore o vendita diretta
+# Costruire un team di vendita o esternalizzare le vendite
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un'ampia crisi sanitaria che blocca per un lungo periodo i trasporti marittimi e la produzione a livello mondiale, inceppando contemporaneamente le catene di approvvigionamento di molti settori.
+Applicalo qui: Dopo una lunga crisi, un'azienda deve ricostruire in fretta le vendite. Chiediti attraverso i colori: deve assumere dipendenti (BLACK) o usare agenti esterni (ORANGE)? Quale opzione costa meno subito e nel tempo (BLUE)? Quali questioni contrattuali e di inquadramento emergono (PURPLE)? Come incide ciascuna opzione sulle famiglie delle persone coinvolte?
+
+## Obiettivi di apprendimento
+- Confrontare i team di vendita interni con le opzioni esternalizzate
+- Valutare i compromessi tra costi, controllo e flessibilità
+- Considerare gli obblighi giuridici e la responsabilità del datore di lavoro
+
+## Contenuto principale
+Un'azienda può vendere attraverso i propri dipendenti o attraverso soggetti esterni. Ogni approccio ha i suoi punti di forza.
+Team di vendita interno:
+- Pieno controllo su formazione, messaggi ed esperienza del cliente.
+- Conoscenza approfondita dei prodotti e lealtà nel tempo.
+- Costi fissi più alti: stipendi, benefici, contributi, gestione.
+- Responsabilità del datore di lavoro (BLACK/PURPLE).
+Opzioni esternalizzate:
+- Agenti o rappresentanti di commercio indipendenti: pagati soprattutto a provvigione. Costi fissi più bassi, ma meno controllo, e spesso rappresentano anche altre aziende.
+- Distributori: comprano i prodotti e li rivendono. Si assumono il rischio di magazzino, ma si prendono anche il margine e le relazioni con i clienti.
+- Società di vendita in outsourcing: forniscono team formati a pagamento.
+Come si collegano i colori:
+- BLUE: L'esternalizzazione riduce i costi fissi e l'investimento iniziale. I team interni costano di solito di più all'inizio, ma possono essere più efficienti su larga scala.
+- PURPLE: I contratti con agenti e distributori devono regolare territorio, esclusiva, provvigioni, cessazione e titolarità delle relazioni con i clienti. REGOLA SPECIFICA DELLA REGIONE: Alcune giurisdizioni danno agli agenti o ai distributori tutele speciali, come un'indennità alla cessazione del rapporto; in Italia, per esempio, secondo le informazioni disponibili, il Codice civile riconosce all'agente di commercio un'indennità alla cessazione del rapporto entro certi limiti e il diritto al preavviso, e gli accordi economici collettivi e l'iscrizione all'ENASARCO aggiungono ulteriori obblighi, quindi verificalo con un avvocato. Gli agenti che lavorano come dipendenti potrebbero dover essere inquadrati come dipendenti (PURPLE-L5-031).
+- GREEN: I dipendenti richiedono contributi e ritenute. I pagamenti a collaboratori autonomi e agenti hanno regole di dichiarazione diverse. REGOLA SPECIFICA DELLA REGIONE.
+- BLACK: Il tema della responsabilità del datore di lavoro: assumere direttamente il personale sostiene le loro famiglie, soprattutto nelle economie in cui i posti di lavoro regolari sono scarsi. I dipendenti meritano dignità e un trattamento equo.
+- WHITE: Le aziende che possiedono le relazioni con i propri clienti valgono spesso di più di quelle che dipendono dai distributori.
+Un percorso comune: partire con agenti o distributori per testare i mercati a basso costo, poi costruire un team interno dove le vendite sono dimostrate e il volume lo giustifica.
+IPOTESI/OPINIONE: Esternalizzare le vendite può essere una scelta intelligente all'inizio, ma un'azienda che non costruisce mai le proprie relazioni con i clienti può scoprire che il suo vero patrimonio appartiene a qualcun altro.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: L'azienda di Kemi produce attrezzature da cucina per ristoranti. Dopo una lunga crisi, deve ricostruire le vendite in tre regioni.
+Opzione 1: assumere 6 venditori. Costo annuo: circa 480.000 euro tra stipendi, benefici e contributi, più il tempo di gestione.
+Opzione 2: usare agenti indipendenti in tutte e tre le regioni, pagati con il 10% di provvigione.
+Opzione 3: un approccio misto.
+Lei sceglie l'opzione 3:
+- Regione A (il suo mercato principale): assume 3 dipendenti. Vuole il controllo e relazioni dirette con i clienti.
+- Regioni B e C: firma contratti di agenzia di 2 anni, con condizioni chiare su territorio, provvigioni, cessazione e titolarità dei clienti. Il suo avvocato verifica le regole locali di tutela degli agenti. REGOLA SPECIFICA DELLA REGIONE.
+- Stabilisce un piano per valutare il passaggio a dipendenti nella regione B se le vendite superano un certo livello.
+I dipendenti della regione A hanno redditi stabili, e Kemi investe nella loro formazione. Gli agenti garantiscono una copertura rapida delle regioni più piccole senza grandi costi fissi.
+IPOTESI/OPINIONE: Kemi ha abbinato ogni modello di vendita alla dimensione e all'importanza strategica di ciascun mercato, invece di scegliere un solo modello per tutto.
+
+## Quiz di esercitazione
+**Q1. Qual è un vantaggio chiave di un team di vendita interno?**
+A) Pieno controllo su formazione, messaggi ed esperienza del cliente
+B) Nessun costo
+C) Nessun obbligo giuridico
+D) Nessuna gestione necessaria
+**Q2. Qual è un vantaggio chiave degli agenti di commercio indipendenti?**
+A) Controllo completo
+B) Lealtà garantita
+C) Nessun contratto necessario
+D) Costi fissi più bassi
+**Q3. Perché i contratti di agenzia devono regolare la titolarità dei clienti?**
+A) Per evitare le imposte
+B) Perché l'azienda mantenga le relazioni con i clienti se l'agente se ne va
+C) Lo chiedono gli agenti
+D) È decorativo
+**Q4. Quale tutela speciale danno alcune giurisdizioni agli agenti di commercio?**
+A) Un'indennità alla cessazione del rapporto
+B) Un alloggio gratuito
+C) La proprietà automatica
+D) Esenzioni fiscali
+**Q5. Perché Kemi ha scelto un approccio misto?**
+A) Ha abbinato ogni modello di vendita alla dimensione e all'importanza di ciascun mercato
+B) Era il più economico
+C) Lo imponeva la legge
+D) Non riusciva a decidere
+
+## Chiave delle risposte
+Q1: A
+Q2: D
+Q3: B
+Q4: A
+Q5: A
+
+## Risposte e spiegazioni
+**Q1.** I team interni offrono controllo e lealtà.
+**Q2.** Gli agenti sono pagati soprattutto in base ai risultati.
+**Q3.** Le relazioni con i clienti sono beni di valore.
+**Q4.** Le tutele degli agenti variano. REGOLA SPECIFICA DELLA REGIONE.
+**Q5.** Mercati diversi giustificavano modelli diversi.
+
+## Punti chiave
+- I team interni offrono controllo; l'esternalizzazione offre flessibilità e costi fissi più bassi
+- I contratti con agenti e distributori devono regolare territorio, cessazione e titolarità dei clienti
+- La responsabilità del datore di lavoro fa parte della decisione
+- Adatta il modello di vendita a ciascun mercato
+
+===== ORANGE-L5-010
+TITLE: Il marchio come patrimonio: costruirlo, valutarlo e proteggerlo
+SUMMARY: I marchi creano potere di prezzo, fedeltà, resilienza e redditi da licenza; la tutela giuridica è essenziale per il loro valore, la forza del marchio incide sulla valutazione dell'azienda, e i marchi si costruiscono mantenendo le promesse con costanza, non solo con la pubblicità.
+KEYWORDS: valore del marchio, il marchio come patrimonio, brand equity, tutela del marchio registrato, valutazione del marchio
+# Il marchio come patrimonio: costruirlo, valutarlo e proteggerlo
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina la valuta di un'economia di medie dimensioni che perde gran parte del suo valore rispetto alle principali valute di riserva nel giro di pochi mesi, spinta dalla fuga di capitali dal paese e dal calo della fiducia degli investitori.
+Applicalo qui: In un paese la cui valuta è crollata, un marchio locale molto conosciuto mantiene clienti fedeli anche mentre i prezzi salgono, mentre i concorrenti senza marchio perdono vendite. Chiediti attraverso i colori: che cosa ha reso prezioso il marchio (ORANGE)? È tutelato giuridicamente (PURPLE)? Come incide la forza del marchio sul valore dell'azienda per gli investitori (WHITE)? Il marchio può essere concesso in licenza all'estero per ottenere redditi in valute più forti (BLUE)?
+
+## Obiettivi di apprendimento
+- Spiegare come i marchi creano valore finanziario
+- Descrivere come il valore del marchio viene protetto giuridicamente e con il marketing
+- Collegare la forza del marchio al potere di prezzo e alla valutazione dell'azienda
+
+## Contenuto principale
+Un marchio è più di un logo. È l'insieme delle aspettative che i clienti hanno su un'azienda: qualità, affidabilità, valori ed esperienza. Quando queste aspettative sono positive e costanti, il marchio crea un valore finanziario reale.
+Come i marchi creano valore:
+- Potere di prezzo: i clienti possono pagare di più per un marchio di cui si fidano.
+- Fedeltà: i clienti abituali costano meno da servire di quelli nuovi (ORANGE-L5-003).
+- Resilienza: nei momenti difficili, i clienti restano spesso con i marchi di cui si fidano, come nello scenario.
+- Espansione: un marchio forte si estende più facilmente a nuovi prodotti o mercati.
+- Licenze: il marchio può generare redditi da altri (PURPLE-L5-030 nel percorso giuridico).
+Come si collegano i colori:
+- PURPLE: La registrazione del marchio e la sua difesa lo proteggono giuridicamente (PURPLE-L5-028 e -029). Senza tutela, concorrenti o contraffattori possono usare il nome.
+- WHITE: Gli investitori valutano spesso di più le aziende con marchi forti, per il potere di prezzo e gli utili stabili. REGOLA SPECIFICA DELLA REGIONE: Il modo in cui il valore del marchio compare nel bilancio dipende dai principi contabili. I marchi costruiti internamente spesso non vengono iscritti al loro valore pieno, mentre quelli acquistati possono esserlo; in Italia, per esempio, secondo le informazioni disponibili, i principi contabili nazionali e internazionali non consentono in genere di iscrivere come attività un marchio generato internamente, mentre un marchio acquistato può essere iscritto e ammortizzato, e la registrazione presso l'Ufficio Italiano Brevetti e Marchi o l'EUIPO protegge il marchio, quindi verificalo con un commercialista.
+- BLUE: Gli investimenti nel marchio (pubblicità, servizio clienti, controllo qualità) costano denaro oggi per creare valore domani.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: Le spese legate al marchio e i redditi da licenza hanno un loro trattamento fiscale; la titolarità del marchio tra società collegate solleva questioni di prezzi di trasferimento.
+- BLACK: Il marchio si costruisce con comportamenti coerenti in tutta l'azienda, non solo con il marketing.
+Un marchio può essere danneggiato in fretta: un difetto di qualità, un'affermazione ingannevole o un cattivo trattamento dei clienti possono cancellare anni di fiducia.
+IPOTESI/OPINIONE: I marchi più duraturi si costruiscono mantenendo le promesse più e più volte nel tempo. La pubblicità può presentare un marchio, ma solo una consegna costante lo sostiene.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Due torrefazioni operano in un paese che vive il crollo della valuta.
+La torrefazione A ha costruito un marchio in 15 anni: qualità costante, trattamento equo dei coltivatori e confezioni chiare. Il suo marchio è registrato in patria e in due mercati di esportazione.
+La torrefazione B vende caffè senza marchio a prezzi bassi.
+Quando la valuta crolla e i costi di importazione schizzano in alto:
+- La torrefazione A aumenta i prezzi del 30%. La maggior parte dei clienti resta, fidandosi della sua qualità.
+- La torrefazione B aumenta i prezzi del 30%. Molti clienti passano all'opzione più economica disponibile.
+La torrefazione A concede anche il suo marchio in licenza a un distributore di un mercato di esportazione con una valuta più forte in cambio di una royalty (PURPLE-L5-030), ottenendo redditi in valuta estera.
+Due anni dopo, un investitore valuta la torrefazione A a un multiplo degli utili molto più alto della torrefazione B, citando la forza del marchio, i clienti fedeli e i redditi da licenza.
+IPOTESI/OPINIONE: Il marchio della torrefazione A è stato costruito lentamente con qualità costante e pratiche eque. Quell'investimento ha reso di più nella crisi, quando i clienti hanno dovuto decidere di chi fidarsi.
+
+## Quiz di esercitazione
+**Q1. Secondo la lezione, che cos'è un marchio?**
+A) L'insieme delle aspettative che i clienti hanno su un'azienda
+B) Solo un logo
+C) Un tipo di imposta
+D) Un soggetto giuridico
+**Q2. Come crea un marchio il potere di prezzo?**
+A) I clienti possono pagare di più per un marchio di cui si fidano
+B) Riducendo i costi
+C) Evitando legalmente la concorrenza
+D) Riducendo le imposte
+**Q3. Perché i marchi costruiti internamente spesso non vengono iscritti in bilancio al loro valore pieno?**
+A) Non hanno valore
+B) Sono segreti
+C) Sono illegali
+D) I principi contabili spesso li trattano in modo diverso da quelli acquistati
+**Q4. Perché la torrefazione A ha mantenuto la maggior parte dei clienti dopo aver aumentato i prezzi?**
+A) I clienti si fidavano della sua qualità costante
+B) Non aveva concorrenti
+C) Lo imponeva lo Stato
+D) Ha ridotto la qualità
+**Q5. Secondo la lezione, che cosa sostiene un marchio?**
+A) Solo una pubblicità massiccia
+B) Un logo ingegnoso
+C) Mantenere le promesse con costanza nel tempo
+D) Prezzi bassi
+
+## Chiave delle risposte
+Q1: A
+Q2: A
+Q3: D
+Q4: A
+Q5: C
+
+## Risposte e spiegazioni
+**Q1.** I marchi nascono dalle aspettative dei clienti.
+**Q2.** La fiducia sostiene prezzi più alti.
+**Q3.** Il trattamento contabile varia. REGOLA SPECIFICA DELLA REGIONE.
+**Q4.** La fiducia nel marchio ha creato resilienza.
+**Q5.** La consegna costante sostiene ciò che la pubblicità presenta.
+
+## Punti chiave
+- I marchi creano potere di prezzo, fedeltà, resilienza e redditi da licenza
+- La tutela giuridica è essenziale per il valore del marchio
+- La forza del marchio incide sulla valutazione dell'azienda
+- I marchi si costruiscono con una consegna costante, non solo con la pubblicità
