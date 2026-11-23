@@ -147,3 +147,103 @@ Se poutèt sa "lòt pati a vyole kontra a" pa otomatikman vle di "mwen lib de to
 ---
 
 *Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Lwa sou kontra yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-004
+TITLE: Poukisa domaj, pa pinisyon, se remèd nòmal pou yon vyolasyon kontra
+SUMMARY: Aprann poukisa lwa sou kontra anjeneral vize konpanse pati ki pa vyole a pou vrè dega li sibi, olye pini pati ki vyole a.
+# PURPLE-L3-004: Poukisa domaj, pa pinisyon, se remèd nòmal pou yon vyolasyon kontra
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike objektif jeneral ki dèyè domaj pou kontra
+- Esplike poukisa lwa sou kontra anjeneral vize konpanse olye pini
+- Esplike poukisa domaj pinitif (punitive damages) anjeneral pa disponib nan yon ka vyolasyon kontra tipik
+
+## Kontni prensipal
+
+Leson 3 te etabli ke gravite yon vyolasyon detèmine ki remèd ki disponib. Men "poukisa" ki dèyè nati jeneral remèd sa a li menm: [FÈ VERIFYE] lwa sou kontra anjeneral vize mete pati ki pa vyole a nan pozisyon li ta ye si yo te akonpli kontra a kòrèkteman — yo souvan rele sa mete l nan pozisyon "atant" li (expectation) — olye pini pati ki vyole a paske li te kase pwomès li.
+
+Se poutèt sa **domaj konpansatwa** (compensatory damages) — yon kantite ki gen entansyon kouvri vrè dega finansye ou ka pwouve vyolasyon an koze — se remèd nòmal, estanda, e se poutèt sa **domaj pinitif** — domaj ki gen entansyon espesyalman pou pini moun ki fè mal la pi lwen pase konpanse vrè dega lòt pati a — anjeneral pa disponib nan yon ka vyolasyon kontra tipik, menm pou yon vyolasyon fè espre, ak entansyon, nan pifò sistèm legal.
+
+Apwòch jeneral sa a reflete yon filozofi legal espesifik: lwa sou kontra anjeneral trete yon pwomès ki kase kòm yon kesyon sivil, ekonomik pou korije atravè yon konpansasyon jis, olye kòm yon move zak ki mande yon pinisyon legal apa — yon filozofi ki diferan de lwa kriminèl, oswa de kèk lòt domèn espesifik lwa sivil kote domaj pinitif ka disponib nan sikonstans ki pi limite, ki pi espesifik.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis vyole yon kontra, sa ki fè lòt pati a sibi yon pèt finansye espesifik, ou ka pwouve. Pati ki pa vyole a anjeneral ka rekipere domaj konpansatwa ki reflete dega finansye espesifik sa a, sa ki mete l apeprè nan pozisyon li ta ye si yo te akonpli kontra a jan yo te dakò a. [SIPOZISYON] Menm si vyolasyon an te fè espre e yo ta ka dekri l kòm yon desizyon biznis kalkile pou kase pwomès la, pati ki pa vyole a anjeneral pa ka rekipere plis domaj pinitif senpleman pou pini chwa fè espre sa a, pi lwen pase vrè kantite konpansatwa ki reflete vrè dega finansye li — sa ki reflete konsantrasyon jeneral lwa sou kontra sou konpansasyon olye pinisyon.
+
+## Egzamen pratik
+
+1. Ki objektif jeneral ki dèyè domaj pou kontra, dapre leson sa a?
+2. Ki diferans ant domaj konpansatwa ak domaj pinitif?
+3. Poukisa domaj pinitif anjeneral pa disponib nan yon ka vyolasyon kontra tipik?
+
+## Kle repons yo
+
+1. Mete pati ki pa vyole a nan pozisyon li ta ye si yo te akonpli kontra a kòrèkteman — yon pozisyon "atant" — atravè yon konpansasyon jis.
+2. Domaj konpansatwa kouvri vrè dega finansye ou ka pwouve vyolasyon an koze; domaj pinitif gen entansyon pini moun ki fè mal la pi lwen pase konpanse vrè dega a.
+3. Paske lwa sou kontra anjeneral trete yon pwomès ki kase kòm yon kesyon sivil, ekonomik pou korije atravè konpansasyon, olye kòm yon move zak ki mande yon pinisyon legal apa.
+
+## Repons ak eksplikasyon
+
+1. Sa a se objektif debaz leson an bati sou li.
+2. Sa a se diferans santral ant de kalite domaj yo.
+3. Sa esplike filozofi legal ki anba règ jeneral sa a.
+
+## Pwen kle yo
+- Domaj pou kontra anjeneral gen entansyon konpanse pati ki pa vyole a pou vrè dega, pou mete l nan pozisyon li te atann lan.
+- Domaj konpansatwa se remèd estanda; domaj pinitif, ki gen entansyon pini, anjeneral pa disponib nan ka vyolasyon kontra tipik.
+- Sa reflete filozofi jeneral lwa sou kontra ki trete yon pwomès ki kase kòm yon kesyon sivil pou korije, pa yon move zak ki mande yon pinisyon apa.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Remèd pou kontra yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-005
+TITLE: Poukisa egzekisyon fòse (specific performance) se yon remèd ki ra, pa yon remèd nòmal
+SUMMARY: Aprann poukisa tribinal yo anjeneral pito bay domaj an lajan olye bay lòd pou yon pati vrèman akonpli yon kontra, ak kilè egzekisyon fòse vin disponib pito.
+# PURPLE-L3-005: Poukisa egzekisyon fòse (specific performance) se yon remèd ki ra, pa yon remèd nòmal
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini egzekisyon fòse kòm yon remèd pou kontra
+- Esplike poukisa tribinal yo anjeneral pito domaj an lajan olye bay lòd pou egzekisyon fòse
+- Esplike sikonstans jeneral kote egzekisyon fòse gen plis chans disponib
+
+## Kontni prensipal
+
+Leson 4 te etabli ke domaj konpansatwa se remèd nòmal pou kontra. **Egzekisyon fòse** (specific performance) se yon remèd diferan, ki mwens komen: yon lòd tribinal ki mande pati ki vyole a vrèman akonpli obligasyon espesifik li dapre kontra a, olye senpleman peye domaj an lajan.
+
+Men "poukisa" tribinal yo anjeneral pito domaj an lajan e yo trete egzekisyon fòse kòm eksepsyon, pa kòm nòm: [FÈ VERIFYE] tribinal yo anjeneral konsidere domaj an lajan ase pou konpanse nèt yon pati ki pa vyole chak fwa li ka jwenn yon ranplasman rezonab pou sa yo te pwomèt la yon lòt kote — si lajan ka mete pati ki pa vyole a nan esansyèlman menm pozisyon an, pa gen bezwen pou remèd ki pi antre nan zafè moun nan, kote yo bay lòd pou yon moun vrèman akonpli.
+
+Egzekisyon fòse anjeneral vin pi disponib espesyalman lè yo konsidere sijè kontra a inik, yon fason pou domaj an lajan vrèman pa ta ka bay yon ranplasman ase — imobilye se yon egzanp yo site souvan, paske [FÈ VERIFYE] anpil sistèm legal anjeneral trete chak moso tè espesifik kòm inik, paske pa gen de pwopriyete ki nan egzakteman menm kote a, sa ki fè yon pwopriyete ranplasman pa nati li yon ranplasman ki pa pafè lajan poukont li ka pa trete ase byen.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Vandè a vyole yon kontra pou vann machandiz yo pwodui an mas, ki disponib fasilman. Kòm achtè a ta ka rezonabman achte machandiz ekivalan yon lòt kote, domaj an lajan ki kouvri nenpòt diferans pri oswa kou ki gen rapò yo anjeneral konsidere kòm yon remèd ase — gen ti chans pou yon tribinal bay lòd pou vandè espesifik la akonpli kontra patikilye sa a. [SIPOZISYON] Yon kontra pou vann yon moso tè espesifik, inik, okontrè, ta ka trete yon lòt jan: paske yon pwopriyete ranplasman pa ka repwodui kote ak karakteristik pwopriyete espesifik sa a, yon tribinal ta ka pi dispoze bay lòd pou egzekisyon fòse, sa ki mande vandè a vrèman fini vant espesifik sa a, paske domaj an lajan poukont yo ka pa konpanse ase pou pèt pwopriyete inik sa a.
+
+## Egzamen pratik
+
+1. Kisa egzekisyon fòse ye, kòm yon remèd pou kontra?
+2. Poukisa tribinal yo anjeneral pito domaj an lajan olye bay lòd pou egzekisyon fòse?
+3. Poukisa yo souvan site imobilye kòm yon sitiyasyon kote egzekisyon fòse vin pi disponib?
+
+## Kle repons yo
+
+1. Yon lòd tribinal ki mande pati ki vyole a vrèman akonpli obligasyon espesifik li dapre kontra a, olye senpleman peye domaj an lajan.
+2. Paske yo anjeneral konsidere domaj an lajan ase chak fwa yo ka jwenn yon ranplasman rezonab pou sa yo te pwomèt la yon lòt kote, sa ki fè remèd ki pi antre nan zafè moun nan pa nesesè.
+3. Paske anpil sistèm legal anjeneral trete chak moso tè espesifik kòm inik, akoz kote espesifik li ye a, sa ki vle di yon pwopriyete ranplasman pa nati li yon ranplasman ki pa pafè lajan poukont li ka pa trete ase byen.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa esplike preferans ki anba a pou remèd nòmal Leson 4 la te etabli a.
+3. Sa bay konsèp abstrè "inik" la yon baz nan yon egzanp konkrè yo site souvan.
+
+## Pwen kle yo
+- Egzekisyon fòse se yon lòd tribinal ki mande vrèman akonpli yon kontra, olye domaj an lajan.
+- Tribinal yo anjeneral pito domaj an lajan, yo trete yo kòm ase chak fwa yon ranplasman rezonab disponib yon lòt kote.
+- Egzekisyon fòse vin pi disponib lè sijè kontra a inik, tankou imobilye, kote lajan poukont li ka pa bay yon ranplasman ase.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Remèd pou kontra yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
