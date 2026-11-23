@@ -1,0 +1,315 @@
+===== GREEN-L1-018
+TITLE: El estado civil para la declaración: soltero, casado, jefe de familia
+SUMMARY: Presenta el concepto del estado civil para la declaración y por qué la situación conyugal y del hogar puede afectar el cálculo de los impuestos.
+# El estado civil para la declaración: soltero, casado, jefe de familia
+
+## Objetivos de aprendizaje
+- Explicar qué significa el estado civil para la declaración.
+- Identificar las categorías comunes de estado civil para la declaración.
+- Explicar, en términos generales, por qué el estado civil para la declaración puede afectar el resultado tributario.
+
+## Contenido principal
+
+El estado civil para la declaración es una categoría, basada en su situación conyugal y del hogar, que muchos sistemas tributarios usan para determinar qué tramos, qué cantidades de deducción y qué reglas de elegibilidad se le aplican. Entre las categorías comunes están soltero, casado (a veces con la opción de declarar en conjunto o por separado) y jefe de familia (normalmente para una persona no casada que mantiene dependientes).
+
+El estado civil para la declaración importa porque cambia el cálculo de fondo: el mismo ingreso puede dar como resultado una cantidad distinta de impuesto adeudado según el estado que se aplique, porque los umbrales de los tramos y las cantidades de la deducción estándar a menudo se fijan de forma distinta para cada categoría. No es una laguna legal ni un truco; refleja un juicio de política según el cual la composición del hogar afecta la capacidad financiera real de una persona o familia para pagar impuestos.
+
+## Ejemplo práctico
+
+**Pregunta:** Dos personas ganan salarios idénticos, pero una es soltera y la otra mantiene a dos hijos dependientes como jefa de familia. ¿Esperaría que sus cálculos de impuestos fueran idénticos?
+
+**Estudiante:** Probablemente no, porque el estado civil para la declaración cambia qué tramos y qué cantidades de deducción se aplican.
+
+**Guía:** ¿Por qué el sistema tributario podría tratar de forma distinta el caso de la jefa de familia?
+
+**Estudiante:** Porque mantener dependientes afecta cuánto de ese ingreso está realmente disponible para las propias necesidades de la persona, así que la política lo ajusta.
+
+**Guía:** Correcto: el estado civil para la declaración refleja un juicio sobre la capacidad financiera, no solo el ingreso bruto.
+
+## Prueba práctica
+
+**Pregunta 1.** El estado civil para la declaración se basa en:
+
+A) Su título de empleo
+B) Su situación conyugal y del hogar
+C) Solo su edad
+D) Su país de nacimiento
+
+**Pregunta 2.** Entre las categorías comunes de estado civil para la declaración están:
+
+A) Soltero, casado, jefe de familia
+B) Solo «empleado» y «desempleado»
+C) Solo «rico» y «pobre»
+D) Solo «ciudadano» y «no ciudadano»
+
+**Pregunta 3.** El estado civil para la declaración puede afectar:
+
+A) Nada
+B) Los tramos y las cantidades de deducción que se aplican
+C) Solo su nombre en el formulario
+D) Solo el impuesto sobre las ventas
+
+**Pregunta 4.** En general, la razón por la que importa el estado civil para la declaración se describe como:
+
+A) Una laguna legal
+B) Un reflejo de la distinta capacidad financiera según la composición del hogar
+C) El azar
+D) Algo irrelevante para el cálculo de los impuestos
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las categorías de estado civil para la declaración se construyen alrededor del estado conyugal y de las responsabilidades del hogar.
+
+**2.** Soltero, casado y jefe de familia son categorías de uso amplio, aunque los nombres exactos varían según el país.
+
+**3.** Los distintos estados a menudo vienen con distintos umbrales de tramos y distintas cantidades de deducción.
+
+**4.** El razonamiento de política es que la composición del hogar afecta la capacidad financiera real, no que sea un truco o un aprovechamiento.
+
+## Puntos clave
+
+- El estado civil para la declaración refleja la situación conyugal y del hogar.
+- Entre las categorías comunes están soltero, casado y jefe de familia.
+- El estado civil para la declaración afecta los tramos y las cantidades de deducción que se aplican.
+- Esto refleja juicios de política sobre la capacidad financiera, no una laguna legal.
+
+===== GREEN-L1-019
+TITLE: ¿Qué es una declaración de impuestos y por qué se presenta?
+SUMMARY: Explica el propósito de presentar una declaración de impuestos: conciliar los pagos estimados con la obligación tributaria real del año.
+# ¿Qué es una declaración de impuestos y por qué se presenta?
+
+## Objetivos de aprendizaje
+- Definir en términos sencillos una declaración de impuestos.
+- Explicar el propósito de conciliación de presentar la declaración.
+- Relacionar la presentación de la declaración con la lección anterior sobre la retención.
+
+## Contenido principal
+
+Una declaración de impuestos es un documento que usted presenta al gobierno en el que informa sus ingresos, sus deducciones, sus créditos y el impuesto que calcula que debe por el año. Presentar la declaración es la forma en que el sistema basado en estimaciones (la retención, vista antes) se concilia con la cifra real y final.
+
+Piense en ella como una liquidación de fin de año. A lo largo del año, se retuvieron impuestos o se hicieron pagos estimados con base en proyecciones. La declaración suma lo que realmente pasó (el ingreso real ganado, las deducciones y los créditos reales que se reclaman) y calcula la cantidad verdadera que se debe. Si el total acumulado que ya se pagó supera esa cantidad verdadera, usted recibe un reembolso. Si se queda corto, usted debe la diferencia. Presentar la declaración no es un trámite opcional sin importancia; en la mayoría de los sistemas, es el acto que la ley exige para cerrar su obligación tributaria del año.
+
+## Ejemplo práctico
+
+**Pregunta:** Si a un trabajador le retuvieron impuestos todo el año y nunca presenta una declaración, ¿quedó oficialmente cumplida su obligación tributaria?
+
+**Estudiante:** Supongo que no, porque la retención era solo una estimación.
+
+**Guía:** ¿Qué hace realmente la presentación de la declaración que la retención por sí sola no hace?
+
+**Estudiante:** Calcula la cifra final verdadera con base en todo lo que realmente pasó durante el año y la compara con lo que ya se pagó.
+
+**Guía:** Correcto: presentar la declaración es el paso de conciliación y, en la mayoría de los sistemas, la ley lo exige; no es opcional.
+
+## Prueba práctica
+
+**Pregunta 1.** La mejor descripción de una declaración de impuestos es:
+
+A) Una sugerencia voluntaria
+B) Un documento que informa los ingresos, las deducciones y los créditos para calcular el impuesto adeudado
+C) Lo mismo que la retención
+D) Algo solo para los negocios
+
+**Pregunta 2.** Presentar una declaración sirve principalmente para:
+
+A) Conciliar los pagos estimados con la obligación tributaria real
+B) Sustituir por completo la retención
+C) Evitar todos los impuestos
+D) Aplicarse solo a quienes trabajan por cuenta propia
+
+**Pregunta 3.** Si las cantidades retenidas superan el impuesto verdadero adeudado, el resultado típico es:
+
+A) Una penalidad
+B) Un reembolso
+C) Nada
+D) Una auditoría automática
+
+**Pregunta 4.** En la mayoría de los sistemas, ¿presentar la declaración suele ser opcional?
+
+A) Sí, siempre es opcional
+B) No, suele ser un requisito legal
+C) Solo para los ricos
+D) Solo para los negocios
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una declaración informa todo el panorama financiero necesario para calcular la obligación tributaria real.
+
+**2.** La función central de presentar la declaración es comparar lo que ya se pagó con lo que realmente se debe.
+
+**3.** La retención en exceso, una vez conciliada mediante la declaración, se devuelve como reembolso.
+
+**4.** En la mayoría de los sistemas, presentar la declaración es una obligación legal, no una cortesía.
+
+## Puntos clave
+
+- Una declaración de impuestos informa los ingresos, las deducciones y los créditos para calcular el impuesto verdadero adeudado.
+- Presentar la declaración concilia los pagos estimados (como la retención) con la obligación real.
+- Pagar de más da como resultado un reembolso; pagar de menos da como resultado un saldo por pagar.
+- Presentar la declaración suele ser un requisito legal, no algo opcional.
+
+===== GREEN-L1-020
+TITLE: Los reembolsos de impuestos: por qué recibir uno no siempre es ganar
+SUMMARY: Replantea el entusiasmo común por los reembolsos de impuestos explicando lo que realmente representa un reembolso desde el punto de vista financiero.
+# Los reembolsos de impuestos: por qué recibir uno no siempre es ganar
+
+## Objetivos de aprendizaje
+- Explicar lo que realmente representa un reembolso de impuestos.
+- Evaluar las ventajas y desventajas de retener de más a lo largo del año.
+- Replantear «recibir un reembolso grande» como una decisión de finanzas personales, y no automáticamente como una buena noticia.
+
+## Contenido principal
+
+Un reembolso de impuestos se siente como un dinero caído del cielo, pero es importante entender lo que realmente es: su propio dinero, que se le devuelve, y que usted pagó de más a lo largo del año mediante la retención o los pagos estimados. No es una bonificación ni un regalo del gobierno: es un préstamo sin intereses que usted le hizo al gobierno y que se le está devolviendo.
+
+Esto importa porque ese dinero estuvo todo el año en manos del gobierno en vez de estar a su disposición: para ahorrar, para pagar deudas o para ganar intereses en una cuenta suya. Un reembolso muy grande a menudo indica que la retención se fijó demasiado alta en relación con la obligación tributaria real. Algunas personas prefieren de todos modos un reembolso grande y lo usan como una herramienta de ahorro forzoso, y esa es una decisión personal legítima; pero debería ser una decisión consciente, no un malentendido de lo que realmente está pasando.
+
+## Ejemplo práctico
+
+**Pregunta:** Un trabajador está entusiasmado con un reembolso anual grande y lo llama «dinero gratis». ¿Cómo lo replantearía usted?
+
+**Estudiante:** Le señalaría que no es gratis: es su propio dinero, que pagó de más todo el año y que apenas ahora le regresa.
+
+**Guía:** ¿A qué renunció al dejar que le retuvieran ese dinero en vez de quedárselo?
+
+**Estudiante:** A la oportunidad de usarlo o invertirlo él mismo a lo largo del año: estuvo en manos del gobierno, básicamente como un préstamo sin intereses.
+
+**Guía:** Exactamente: el reembolso en sí no es malo, pero llamarlo «dinero gratis» es no entender lo que realmente pasó.
+
+## Prueba práctica
+
+**Pregunta 1.** Un reembolso de impuestos representa:
+
+A) Un regalo del gobierno
+B) Su propio dinero pagado de más que se le devuelve
+C) Una penalidad
+D) Un préstamo del gobierno para usted
+
+**Pregunta 2.** Un reembolso muy grande a menudo indica:
+
+A) Una planificación tributaria perfecta
+B) Una retención fijada demasiado alta en relación con la obligación real
+C) Un aumento de impuestos
+D) Nada importante
+
+**Pregunta 3.** En términos de oportunidad, ¿qué le cuesta pagar de más mediante la retención?
+
+A) Nada
+B) El uso de ese dinero a lo largo del año
+C) Impuestos adicionales
+D) Su estado civil para la declaración
+
+**Pregunta 4.** ¿Querer un reembolso grande como estrategia de ahorro forzoso puede ser alguna vez una decisión legítima?
+
+A) No, nunca
+B) Sí, como una decisión consciente de finanzas personales
+C) Solo para los negocios
+D) Solo si lo exige la ley
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Un reembolso es simplemente la devolución del dinero que usted pagó de más, no un ingreso adicional del gobierno.
+
+**2.** Los reembolsos grandes son una señal, no un logro, y a menudo significan que la retención podría ajustarse más cerca de la obligación real.
+
+**3.** El dinero que está todo el año en manos del gobierno no gana intereses ni se pone a trabajar para usted.
+
+**4.** Algunas personas retienen de más a propósito como método de ahorro forzoso, lo que es una decisión legítima y deliberada.
+
+## Puntos clave
+
+- Un reembolso de impuestos es su propio dinero pagado de más que le regresa, no dinero gratis del gobierno.
+- Los reembolsos grandes a menudo significan que la retención se fijó más alta de lo necesario.
+- Pagar de más a lo largo del año tiene un costo de oportunidad real.
+- Escoger un reembolso grande como ahorro forzoso está bien, siempre que sea una decisión consciente.
+
+===== GREEN-L1-021
+TITLE: Las fechas límite para presentar la declaración y por qué importan
+SUMMARY: Trata la importancia práctica de las fechas límite para presentar la declaración de impuestos y las consecuencias generales de no cumplirlas.
+# Las fechas límite para presentar la declaración y por qué importan
+
+## Objetivos de aprendizaje
+- Explicar por qué los sistemas tributarios fijan fechas límite para presentar la declaración.
+- Identificar las consecuencias generales de no cumplir una fecha límite.
+- Reconocer la diferencia entre una prórroga para presentar y una prórroga para pagar.
+
+## Contenido principal
+
+La mayoría de los sistemas tributarios fijan una fecha límite anual para presentar las declaraciones. Las fechas límite existen para que el sistema sea previsible y se pueda hacer cumplir: sin ellas, la presentación podría retrasarse indefinidamente, lo que dificultaría que los gobiernos planifiquen la recaudación o que los contribuyentes sepan cuál es su situación.
+
+No cumplir una fecha límite para presentar suele traer consecuencias: penalidades, intereses sobre las cantidades no pagadas, o ambas cosas, según el sistema. Muchos sistemas permiten a los contribuyentes pedir una prórroga de la fecha límite para presentar, pero es fundamental entender una trampa común: una prórroga para presentar a menudo no es lo mismo que una prórroga para pagar. Incluso con una prórroga para presentar, es posible que cualquier impuesto realmente adeudado todavía tenga que pagarse para la fecha límite original para evitar intereses y penalidades; la prórroga a menudo solo retrasa el papeleo, no la obligación de pago.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de un negocio pide una prórroga para presentar y supone que tampoco tiene que pagar nada hasta la nueva fecha límite. ¿Es segura esa suposición?
+
+**Estudiante:** Según lo que usted dijo, probablemente no: una prórroga para presentar podría no ser lo mismo que una prórroga para pagar.
+
+**Guía:** ¿Cuál es el enfoque más seguro si no está seguro de cuánto va a deber?
+
+**Estudiante:** Estimar y pagar algo cercano a lo que probablemente debe para la fecha límite original, aunque el papeleo en sí se presente más tarde.
+
+**Guía:** Exactamente: tratar una prórroga para presentar como si fuera una prórroga para pagar es una de las suposiciones más comunes y costosas que hace la gente.
+
+## Prueba práctica
+
+**Pregunta 1.** Las fechas límite para presentar existen para:
+
+A) Castigar a los contribuyentes
+B) Mantener el sistema previsible y que se pueda hacer cumplir
+C) Beneficiar solo a las grandes corporaciones
+D) No tienen ningún propósito real
+
+**Pregunta 2.** No cumplir una fecha límite para presentar suele traer:
+
+A) Nada
+B) Penalidades, intereses o ambas cosas
+C) Un reembolso automático
+D) Un crédito tributario
+
+**Pregunta 3.** Una prórroga para presentar es:
+
+A) Siempre lo mismo que una prórroga para pagar
+B) A menudo no es lo mismo que una prórroga para pagar
+C) Ilegal en la mayoría de los sistemas
+D) Algo disponible solo para los negocios
+
+**Pregunta 4.** Si no se sabe con seguridad cuánto se debe, pero se pidió una prórroga para presentar, un enfoque más seguro es:
+
+A) No pagar nada hasta la nueva fecha límite
+B) Estimar y pagar una cantidad cercana a la probable para la fecha límite original
+C) Ignorar la situación por completo
+D) Suponer que nunca hay que pagar nada
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La previsibilidad y la posibilidad de hacerlas cumplir son las razones prácticas por las que existen las fechas límite en los sistemas tributarios.
+
+**2.** Presentar tarde suele traer consecuencias financieras pensadas para fomentar el cumplimiento a tiempo.
+
+**3.** Las prórrogas para presentar con frecuencia solo retrasan el papeleo, no la obligación de pago de fondo.
+
+**4.** Estimar y pagar una cantidad cercana a la verdadera para la fecha límite original protege contra los intereses y las penalidades aunque el papeleo se presente más tarde.
+
+## Puntos clave
+
+- Las fechas límite existen para que los sistemas tributarios sean previsibles y se puedan hacer cumplir.
+- No cumplir una fecha límite suele traer penalidades, intereses o ambas cosas.
+- Una prórroga para presentar a menudo no es lo mismo que una prórroga para pagar.
+- Si no está seguro de la cantidad exacta que debe, estime y pague una cantidad cercana para la fecha límite original.
