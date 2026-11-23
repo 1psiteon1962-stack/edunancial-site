@@ -1,0 +1,151 @@
+===== ORANGE-L4-022
+TITLE: Analiz rannman piblisite peye: poukisa rannman sou depans piblisite (ROAS) mande yon atribisyon ki atantif e onèt
+SUMMARY: Konprann kijan yo kalkile ROAS, diferans ant revni yo atribiye ak revni ki vrèman anplis, poukisa ROAS yon chanèl ka gonfle lè l resevwa kredi pou vant ki t ap fèt kanmenm, ak poukisa yon tès gwoup kontwòl bay yon mezi ki pi fyab.
+KEYWORDS: rannman sou depans piblisite, kalkil ROAS, presizyon atribisyon, revni anplis konpare ak revni yo atribiye
+# Analiz rannman piblisite peye: poukisa rannman sou depans piblisite (ROAS) mande yon atribisyon ki atantif e onèt
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa sere bidjè maketing yo e li fòse yo jistifye chak dola piblisite ak chif solid, biznis ki konte sou rannman sou depans piblisite yon chanèl peye espesifik rapòte dekouvri ke chif sa a ka gonfle anpil akoz metodoloji atribisyon an, sa ki pouse yo gade pi pre kisa ROAS vrèman mezire ak ki kote li ka twonpe w.
+
+## Objektif aprantisaj
+- Esplike kijan yo kalkile rannman sou depans piblisite (ROAS), ak kisa yon chif ROAS espesifik sipoze reprezante.
+- Esplike diferans ant revni yo atribiye ak revni ki vrèman anplis, ak poukisa diferans sa a enpòtan pou entèprete ROAS kòrèkteman.
+- Esplike poukisa ROAS yon chanèl rapòte ka gonfle si li resevwa kredi pou vant ki t ap fèt kanmenm, san piblisite espesifik sa a.
+- Esplike poukisa teste vrè kontribisyon anplis yon chanèl, tankou atravè yon tès gwoup kontwòl (holdout), bay yon mezi efikasite ki pi fyab pase ROAS yo rapòte poukont li.
+
+## Kontni prensipal
+Rannman sou depans piblisite (ROAS) se yon mezi maketing yo kalkile lè yo divize revni yo atribiye a yon chanèl oswa yon kanpay piblisite espesifik pa montan total yo depanse sou menm chanèl oswa kanpay sa a, yo anjeneral eksprime l kòm yon rapò (yon ROAS 4, pa egzanp, vle di $4 revni yo atribiye pou chak $1 yo depanse). FÈ VERIFYE: ROAS sipoze reprezante jan yon envestisman piblisite espesifik konvèti an revni yon fason efikas, men fason espesifik yo vrèman kalkile "revni yo atribiye" a afekte anpil jan chif sa a gen sans e jan li vrèman fyab.
+
+Men "poukisa" diferans ant revni yo atribiye ak revni ki vrèman anplis enpòtan pou entèprete ROAS kòrèkteman: revni yo atribiye vle di montan lajan espesifik yon modèl atribisyon bay (selon diskisyon Leson 6 nivo sa a) yon chanèl oswa yon kanpay espesifik kredi pou li, alòske revni ki vrèman anplis vle di revni ki pa ta janm fèt ditou si pa t gen piblisite espesifik sa a — de chif sa yo ka diferan anpil, paske yon piblisite espesifik ta ka resevwa tout kredi atribisyon pou yon vant ki soti nan yon kliyan ki t ap fè menm acha sa a kanmenm, atravè yon lòt chanèl oswa sou pwòp inisyativ li, menm si yo pa t janm montre l piblisite espesifik sa a.
+
+Se poutèt sa ROAS yon chanèl rapòte ka gonfle si li resevwa kredi pou vant ki t ap fèt kanmenm, san piblisite espesifik sa a: sa gen plis chans rive ak piblisite ki vize espesyalman kliyan ki deja gen yon gwo entansyon pou yo achte (tankou yon piblisite ki vize yon moun ki deja fè rechèch dirèkteman sou pwòp non mak espesifik biznis la), paske kalite piblisite sa a souvan resevwa kredi atribisyon pou yon vant kliyan an te deja gen anpil chans fini kèlkeswa si yo te vrèman montre l piblisite espesifik sa a, sa ki vle di ROAS yo rapòte pou kalite sib ki deja gen gwo entansyon sa a ka sanble pi fò anpil pase vrè kontribisyon anplis piblisite a vrèman jistifye. Se poutèt sa teste vrè kontribisyon anplis yon chanèl, tankou atravè yon tès gwoup kontwòl (kenbe piblisite espesifik la lwen yon pòsyon yo chwazi o aza nan odyans ki otreman kalifye a e konpare vrè revni gwoup sa a ak yon gwoup konparab ki te resevwa piblisite a), bay yon mezi efikasite ki pi fyab pase ROAS yo rapòte poukont li: kalite konparezon kontwole sa a mezire dirèkteman vrè diferans anplis nan revni piblisite a te vrèman lakòz, li izole efè espesifik sa a de revni ki t ap fèt kanmenm kèlkeswa piblisite espesifik la, sa ki bay yon konpreyansyon ki pi fyab anpil sou vrè kontribisyon marjinal yon chanèl pase yon chif ROAS ki baze sou atribisyon ki ka gonfle anpil lè l bay kredi pou vant piblisite a pa t vrèman lakòz kòm anplis.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Piblisite yon biznis ki vize espesyalman moun ki deja fè rechèch sou pwòp non mak li rapòte yon ROAS 8 ki enpresyonan, sou baz kredi atribisyon estanda. Yon tès gwoup kontwòl, ki kenbe piblisite espesifik sa a lwen yon pòsyon yo chwazi o aza nan odyans ki deja gen gwo entansyon sa a, revele ke gwoup sa a te achte nan prèske menm to ak gwoup ki te wè piblisite yo, sa ki vle di pifò revni yo te atribiye a t ap fèt kanmenm menm san piblisite a — vrè ROAS anplis la, depi yo izole l kòrèkteman, vin pi ba anpil pase chif yo te rapòte okòmansman an, sa ki montre egzakteman poukisa ROAS ki baze sou atribisyon poukont li ka egzajere anpil vrè efikasite yon chanèl.
+
+## Egzamen pratik
+**Q1. Kijan yo kalkile rannman sou depans piblisite (ROAS)?**
+A) Lè yo divize revni total konpayi an pa kantite total anplwaye
+B) Lè yo divize revni yo atribiye a yon chanèl oswa kanpay piblisite espesifik pa montan total yo depanse sou chanèl oswa kanpay sa a
+C) ROAS pa gen okenn metòd kalkil espesifik e yo detèmine l yon fason abitrè
+D) Lè yo retire depans maketing total nan pwofi total konpayi an
+
+**Q2. Ki diferans ki genyen ant revni yo atribiye ak revni ki vrèman anplis?**
+A) De chif sa yo toujou idantik, san okenn diferans enpòtan ant yo
+B) Revni yo atribiye se sa yon modèl atribisyon espesifik bay yon chanèl kredi pou li, alòske revni anplis se sa ki pa ta janm fèt ditou si pa t gen piblisite espesifik sa a, e yo ka diferan anpil
+C) Revni anplis toujou depase revni yo atribiye nan chak ka
+D) Atribisyon pa gen okenn rapò ak jan yo kalkile oswa entèprete ROAS
+
+**Q3. Poukisa ROAS yon chanèl rapòte ka gonfle lè l bay kredi pou vant ki t ap fèt kanmenm?**
+A) ROAS yo rapòte pa janm ka vrèman gonfle pa okenn pwoblèm metodoloji atribisyon
+B) Piblisite ki vize kliyan ki deja gen yon gwo entansyon pou yo achte souvan resevwa kredi atribisyon pou yon vant kliyan an te deja gen anpil chans fini kèlkeswa piblisite espesifik la, sa ki gonfle ROAS yo rapòte a pi lwen pase vrè kontribisyon anplis piblisite a
+C) Se sèlman piblisite ki vize prospè totalman nouvo, ki pa konnen biznis la ki ka janm resevwa kredi atribisyon ki gonfle
+D) Entansyon acha ki egziste deja pa gen okenn rapò ak jan modèl atribisyon yo bay kredi pou yon vant
+
+**Q4. Poukisa yon tès gwoup kontwòl bay yon mezi efikasite ki pi fyab pase ROAS yo rapòte poukont li?**
+A) Tès gwoup kontwòl pa bay okenn lòt enfòmasyon itil pi lwen pase sa ROAS yo rapòte a deja revele
+B) Yon tès gwoup kontwòl mezire dirèkteman vrè diferans anplis nan revni piblisite a te vrèman lakòz, li izole efè sa a de revni ki t ap fèt kanmenm, sa ki bay yon konpreyansyon ki pi fyab sou vrè kontribisyon marjinal pase ROAS ki baze sou atribisyon poukont li
+C) Tès gwoup kontwòl toujou bay menm rezilta idantik ak kalkil ROAS estanda ki baze sou atribisyon
+D) Tès kontwole pa gen okenn rapò ak mezire vrè kontribisyon anplis yon chanèl
+
+**Q5. Nan egzanp lan, poukisa vrè ROAS anplis la te vin pi ba anpil pase chif yo te rapòte okòmansman an?**
+A) Gwoup tès kontwòl la te an reyalite achte nan yon to ki pi ba anpil pase gwoup ki te wè piblisite yo, sa ki konfime premye chif ROAS ki wo a
+B) Tès gwoup kontwòl la te revele ke gwoup yo te kenbe lwen piblisite a te achte nan prèske menm to ak gwoup ki te wè l la, sa ki vle di pifò revni yo te atribiye okòmansman an t ap fèt kanmenm, e vrè kontribisyon anplis la te pi piti anpil pase sa chif ki baze sou atribisyon an te sijere
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Kalkil espesifik sa a, revni yo atribiye divize pa depans, se egzakteman jan yo jwenn rannman sou depans piblisite.
+
+**Q2.** Diferans sa a ant kredi yon modèl bay ak revni ki vrèman lakòz, ki anplis se egzakteman poukisa entèprete ROAS kòrèkteman mande pou w konprann kilès nan de konsèp sa yo yon chif espesifik vrèman reflete.
+
+**Q3.** Fason sa a pou bay piblisite ki pa t vrèman lakòz yo kredi pou vant ki te deja gen chans fèt se egzakteman poukisa ROAS yo rapòte pou sib ki gen gwo entansyon ka sanble pi fò anpil pase sa vrè efikasite li jistifye.
+
+**Q4.** Izolasyon dirèk sa a vrè efè anplis la de revni ki t ap fèt kèlkeswa sa se egzakteman poukisa yon tès gwoup kontwòl bay yon mezi efikasite ki pi fyab pase ROAS ki baze sou atribisyon poukont li.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon tès kontwole ki revele yon ti vrè efè anplis, malgre yon ROAS ki baze sou atribisyon ki wo, montre egzakteman poukisa leson sa a mete aksan sou enpòtans pou teste vrè kontribisyon anplis olye konte sou ROAS ki baze sou atribisyon poukont li.
+
+## Pwen kle yo
+- Yo kalkile ROAS lè yo divize revni yo atribiye pa depans piblisite, yo vle l mezire efikasite piblisite.
+- Revni yo atribiye ak revni ki vrèman anplis ka diferan anpil, paske atribisyon ka bay kredi pou vant ki t ap fèt kanmenm.
+- Piblisite ki vize kliyan ki deja gen gwo entansyon gen plis chans gen yon ROAS ki gonfle, paske li souvan resevwa kredi pou vant li pa t vrèman lakòz.
+- Yon tès gwoup kontwòl bay yon mezi ki pi fyab sou vrè kontribisyon anplis pase ROAS ki baze sou atribisyon poukont li, lè l izole dirèkteman vrè efè kozal piblisite a.
+
+===== ORANGE-L4-023
+TITLE: Analiz konsepsyon pwopozisyon valè: poukisa pwopozisyon an dwe trete yon vrè travay kliyan an ap eseye fè
+SUMMARY: Konprann kad 'travay pou fè' (jobs to be done), poukisa yon pwopozisyon valè ki baze sou objektif kliyan an pi konvenkan pase youn ki baze sou karakteristik, kijan li revele konkiran ou pa t wè, ak poukisa yon chanjman sitiyasyon ka chanje travay la.
+KEYWORDS: konsepsyon pwopozisyon valè, kad travay pou fè, karakteristik konpare ak rezilta, objektif debaz kliyan
+# Analiz konsepsyon pwopozisyon valè: poukisa pwopozisyon an dwe trete yon vrè travay kliyan an ap eseye fè
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa chanje jan kliyan yo vrèman itilize pwodwi ak sèvis, biznis yo dekouvri ke kliyan yo pa t janm vrèman achte karakteristik espesifik y ap fè piblisite pou yo a — yo t ap "anplwaye" pwodwi a pou reyalize yon vrè objektif debaz, e chanjman nan objektif debaz sa a akoz pwoblèm nan ka fè yon pwopozisyon valè ki konsantre sou karakteristik toudenkou pa gen rapò ak sa kliyan yo vrèman bezwen.
+
+## Objektif aprantisaj
+- Esplike kad 'travay pou fè' (jobs to be done) la, ak poukisa li di kliyan yo 'anplwaye' yon pwodwi pou reyalize yon objektif debaz espesifik, olye tou senpleman achte yon seri karakteristik.
+- Esplike poukisa yon pwopozisyon valè ki baze sou yon vrè objektif debaz kliyan anjeneral pi konvenkan pase youn ki baze sèlman sou karakteristik pwodwi.
+- Esplike poukisa konprann vrè travay debaz yon kliyan ka revele konkiran yo pa t rekonèt anvan, paske vrè konkirans lan se nenpòt lòt bagay ki ta ka fè menm travay la.
+- Esplike poukisa yon chanjman nan sitiyasyon debaz yon kliyan ka chanje ki travay li vrèman ap eseye fè, sa ki mande yon biznis revize pwopozisyon valè li an konsekans.
+
+## Kontni prensipal
+Kad "travay pou fè" a di ke kliyan yo pa tou senpleman achte yon pwodwi pou pwodwi a li menm, men yo "anplwaye" pwodwi sa a pou reyalize yon objektif oswa yon travay debaz espesifik yo vrèman ap eseye fè nan pwòp lavi yo oswa nan pwòp biznis yo. FÈ VERIFYE: fason sa a pou wè bagay yo deplase konsantrasyon analiz la lwen karakteristik espesifik pwodwi a li menm pou l mete l sou vrè motivasyon debaz kliyan an pou l itilize pwodwi sa a okòmansman, paske de kliyan ta ka achte menm pwodwi idantik la pou fè de travay debaz totalman diferan, sa ki vle di konprann travay debaz sa a kòrèkteman enpòtan anpil pou jan yo ta dwe vrèman prezante pwopozisyon valè a.
+
+Men "poukisa" yon pwopozisyon valè ki baze sou yon vrè objektif debaz kliyan anjeneral pi konvenkan pase youn ki baze sèlman sou karakteristik pwodwi: yon pwopozisyon ki konsantre sou karakteristik ("pwodwi nou an gen espesifikasyon X") mande kliyan an tradui poukont li karakteristik sa a an vrè benefis li genyen pou pwòp sitiyasyon patikilye li, alòske yon pwopozisyon ki prezante dirèkteman sou vrè objektif debaz kliyan an ("pwodwi nou an ede w rive nan rezilta Y") pale dirèkteman de sa kliyan an vrèman okipe, san li pa mande etap tradiksyon anplis sa a, sa ki vle di prezantasyon ki konsantre sou rezilta anjeneral konekte pi vit e yon fason ki pi konvenkan ak pwòp vrè motivasyon yon prospè.
+
+Se poutèt sa konprann vrè travay debaz yon kliyan ka revele konkiran yo pa t rekonèt anvan: kòm vrè gwoup konkiran pou yon travay espesifik gen ladan nenpòt lòt bagay ki ta ka fè menm travay debaz la, pa sèlman lòt pwodwi nan menm kategori pwodwi konvansyonèl la, yon biznis ka dekouvri ke vrè konkirans li gen ladan yon kalite pwodwi totalman diferan, oswa menm yon solisyon totalman diferan ki pa yon pwodwi (fè travay la alamen, oswa pa okipe travay la ditou), ke yon analiz konkirans ki pi etwat, ki baze sou kategori, ta inyore nèt, sa ki vle di idantifye vrè travay debaz la kòrèkteman elaji, e souvan chanje anpil, konpreyansyon egzak yon biznis sou pwòp vrè anviwònman konkirans li. Se poutèt sa yon chanjman nan sitiyasyon debaz yon kliyan ka chanje ki travay li vrèman ap eseye fè, sa ki mande yon biznis revize pwopozisyon valè li an konsekans: kòm se vrè travay debaz la, pa kategori pwodwi espesifik la, ki vrèman pouse desizyon acha yon kliyan, yon gwo chanjman nan pwòp sitiyasyon kliyan an (tankou sa yon gwo pwoblèm ta ka pwodui) ka chanje ki travay li vrèman ap eseye fè, sa ki vle di yon pwopozisyon valè ki rete prezante sou ansyen travay debaz la, menm si pwòp karakteristik espesifik pwodwi a pa chanje ditou, ka vin vrèman pa gen rapò ak sa kliyan yo vrèman bezwen kounye a, sa ki mande biznis la revize e petèt prezante ankò pwopozisyon valè li sou nouvo travay debaz ki enpòtan pou kliyan an kounye a.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon sèvis livrezon manje kòmanse prezante pwopozisyon valè li sou karakteristik espesifik (engredyan fre, plizyè resèt diferan), men yon rechèch ki pi pwofon revele kliyan li yo an reyalite "anplwaye" sèvis la pou fè yon vrè travay debaz: diminye chay mantal ak presyon tan chak jou pou deside kisa pou kwit apre yon long jounen travay. Prezante pwopozisyon valè li ankò espesyalman sou travay debaz sa a ("pa janm mande tèt ou kisa n ap manje aswè a ankò") konekte pi dirèkteman e yon fason ki pi konvenkan ak vrè motivasyon kliyan yo pase premye prezantasyon ki te konsantre sou karakteristik la, e nouvo prezantasyon sa a revele tou ke vrè konkirans sèvis la gen ladan non sèlman lòt sèvis livrezon manje, men tou kòmande manje pou pote ale ak tou senpleman pa kwit ditou — solisyon pou menm travay debaz la premye prezantasyon konkirans ki te pi etwat, ki te baze sou karakteristik la te inyore nèt.
+
+## Egzamen pratik
+**Q1. Kisa kad 'travay pou fè' a di sou poukisa kliyan yo achte yon pwodwi?**
+A) Kliyan yo achte yon pwodwi sèlman pou pwodwi a li menm, san okenn objektif oswa motivasyon debaz
+B) Kliyan yo 'anplwaye' yon pwodwi pou reyalize yon objektif oswa yon travay debaz espesifik yo vrèman ap eseye fè, olye tou senpleman achte yon seri karakteristik pou karakteristik yo menm
+
+**Q2. Poukisa yon pwopozisyon valè ki baze sou yon vrè objektif debaz kliyan anjeneral pi konvenkan pase youn ki baze sou karakteristik?**
+A) Prezantasyon ki konsantre sou karakteristik toujou pi konvenkan pase prezantasyon ki konsantre sou rezilta
+B) Prezantasyon ki konsantre sou rezilta pale dirèkteman de sa kliyan an vrèman okipe san li pa mande l tradui poukont li yon karakteristik an benefis ki gen rapò, sa ki konekte pi vit e yon fason ki pi konvenkan ak vrè motivasyon li
+C) Fason yo prezante pwopozisyon valè a pa gen okenn vrè rapò ak jan yon pwopozisyon konvenkan pou yon kliyan
+D) Kliyan yo toujou pito yon pwopozisyon valè ki bay lis chak karakteristik pwodwi ki disponib an detay
+
+**Q3. Poukisa konprann vrè travay debaz yon kliyan ka revele konkiran yo pa t rekonèt anvan?**
+A) Gwoup konkiran yon biznis toujou limite sèlman a lòt pwodwi nan menm kategori pwodwi konvansyonèl idantik la
+B) Vrè gwoup konkiran pou yon travay espesifik gen ladan nenpòt lòt bagay ki ta ka fè menm travay debaz la, sa ki ka gen ladan kalite pwodwi totalman diferan oswa solisyon ki pa yon pwodwi yon analiz ki pi etwat, ki baze sou kategori ta inyore
+
+**Q4. Poukisa yon chanjman nan sitiyasyon debaz yon kliyan ka chanje ki travay li vrèman ap eseye fè?**
+A) Travay debaz yon kliyan pa janm vrèman chanje kèlkeswa okenn chanjman nan sitiyasyon li
+B) Kòm se vrè travay debaz la, pa kategori pwodwi espesifik la, ki pouse desizyon acha a, yon gwo chanjman nan sitiyasyon ka chanje ki travay kliyan an vrèman ap eseye fè, sa ki ka fè yon pwopozisyon valè ki pa chanje pa gen rapò ak sa kliyan yo vrèman bezwen kounye a
+C) Se sèlman karakteristik pwodwi, pa travay debaz la, ki ka janm vrèman chanje ak tan
+D) Chanjman nan sitiyasyon kliyan pa gen okenn vrè rapò ak ki travay yo ap eseye fè
+
+**Q5. Nan egzanp lan, poukisa prezante ankò sou travay debaz la te revele nouvo menas konkirans premye prezantasyon an te rate?**
+A) Premye prezantasyon ki te konsantre sou karakteristik la te deja idantifye kòrèkteman chak vrè konkiran
+B) Prezante ankò sou vrè travay debaz la (diminye chay mantal ak presyon tan chak jou konsènan manje aswè) te revele ke kòmande manje pou pote ale ak tou senpleman pa kwit te solisyon pou menm travay sa a tou, konkiran prezantasyon ki te pi etwat, ki te baze sou detay livrezon manje a te inyore nèt
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Konsantrasyon sa a sou vrè motivasyon debaz kliyan an, olye karakteristik pwodwi a sèlman, se egzakteman sa kad travay pou fè a mete aksan sou li.
+
+**Q2.** Lyen dirèk sa a ak vrè motivasyon kliyan an, ki evite etap tradiksyon anplis prezantasyon ki konsantre sou karakteristik mande a, se egzakteman poukisa prezantasyon ki konsantre sou rezilta gen tandans pi konvenkan.
+
+**Q3.** Vizyon konkirans ki pi laj sa a ki baze sou travay debaz la, olye kategori pwodwi konvansyonèl poukont li, se egzakteman poukisa kad sa a ka revele menas konkirans oswa lòt opsyon yo pa t rekonèt anvan.
+
+**Q4.** Lyen sa a ant sitiyasyon k ap chanje ak yon travay debaz k ap chanje se egzakteman poukisa yon biznis ka bezwen revize e prezante ankò pwopozisyon valè li menm lè pwòp karakteristik pwodwi li rete menm jan.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon vizyon konkirans ki elaji apre yo prezante ankò sou travay debaz la montre egzakteman poukisa kad sa a ka revele konkirans yon analiz ki pi etwat, ki baze sou kategori pwodwi ta rate.
+
+## Pwen kle yo
+- Kad travay pou fè a di kliyan yo anplwaye yon pwodwi pou reyalize yon vrè objektif debaz, pa tou senpleman pou jwenn yon seri karakteristik.
+- Yon pwopozisyon valè ki prezante sou objektif debaz sa a konekte pi dirèkteman e yon fason ki pi konvenkan ak motivasyon kliyan an pase youn ki prezante sèlman sou karakteristik.
+- Konprann vrè travay debaz la elaji vizyon egzak yon biznis sou konkirans li pou l gen ladan nenpòt lòt bagay ki ta ka fè menm travay la.
+- Yon chanjman nan sitiyasyon kliyan ka chanje travay debaz y ap chèche a, sa ki mande yon biznis revize e petèt prezante ankò pwopozisyon valè li an konsekans.
