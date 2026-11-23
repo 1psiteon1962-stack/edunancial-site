@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 23
 locale: es-Caribbean
-title: "Cómo Leer una Cotización de Acciones"
-summary: "Lección WHITE-L1-023 en español caribeño."
-sourceVersion: "1.0"
+title: "¿Qué es un desdoblamiento de acciones?"
+summary: "Aprende lo que cambia y lo que no cambia un desdoblamiento de acciones en el valor de una empresa."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-023: Cómo Leer una Cotización de Acciones
+# ¿Qué es un desdoblamiento de acciones?
 
-## Objetivos de Aprendizaje
-1. Identificar los elementos comunes mostrados en una cotización de acciones.
-2. Distinguir el precio actual del cambio diario.
-3. Explicar qué indica el volumen de negociación.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una cotización de acciones típicamente muestra: el precio actual, el cambio del día (en dólares y porcentaje), el volumen de negociación (acciones negociadas ese día), y a menudo el rango máximo/mínimo del día. *HECHO VERIFICADO:* El volumen refleja cuántas acciones cambiaron de manos, lo cual puede indicar cuánto interés o actividad de los inversionistas está experimentando una acción en un día determinado.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una cotización dice: Precio $145.20, Cambio +$2.10 (+1.47%), Volumen 3.2M, Rango del Día $142.80-$146.00. Esto le dice a un inversionista que la acción se está negociando actualmente a $145.20, subiendo $2.10 (1.47%) desde el cierre anterior, con 3.2 millones de acciones negociadas ese día, fluctuando entre $142.80 y $146.00 durante la sesión.
+- Definir un desdoblamiento de acciones en términos sencillos.
+- Explicar qué cambia y qué no cambia en un desdoblamiento.
+- Calcular un número de acciones y un precio básicos después de un desdoblamiento.
 
-## Quiz Práctico
-1. ¿Qué muestra la cifra de "cambio" en una cotización de acciones?
-2. ¿Qué indica el volumen de negociación?
-3. Verdadero/Falso: El rango máximo/mínimo del día muestra el rango de precio histórico de la acción.
-4. Si el cambio de una acción muestra +2%, ¿qué significa eso?
+## Contenido principal
 
-## Clave de Respuestas
-1. El movimiento de precio desde el cierre anterior   2. Cuántas acciones se negociaron ese día / nivel de actividad   3. Falso   4. El precio subió 2% en relación al cierre anterior
+### Qué es un desdoblamiento de acciones
 
-## Respuestas y Explicaciones
-1. Esta es la métrica estándar de "cambio" en una cotización de acciones.
-2. El volumen refleja la actividad de negociación, no la dirección del precio en sí.
-3. El rango del día muestra solo el rango de esa sesión de negociación, no todo el histórico.
-4. Un cambio porcentual positivo indica que el precio subió en relación al cierre anterior.
+Un desdoblamiento de acciones (stock split) divide cada acción existente en varias acciones nuevas, lo que reduce de forma proporcional el precio por acción y aumenta el número de acciones en circulación.
 
-## Puntos Clave para Recordar
-- Una cotización de acciones muestra como mínimo precio, cambio, volumen, y rango del día.
-- El volumen refleja la actividad de negociación, distinto del movimiento de precio.
-- El rango del día refleja solo esa sesión, no el rango histórico de la acción.
+### Qué cambia y qué no
+
+El número de acciones que tiene un inversionista aumenta y el precio por acción baja de forma proporcional. Lo que NO cambia: el valor total de lo que tiene el inversionista y la capitalización de mercado total de la empresa. El pastel se corta en más porciones, pero el pastel sigue siendo del mismo tamaño.
+
+### Por qué lo hacen las empresas
+
+A veces las empresas desdoblan sus acciones para bajar el precio por acción a un rango más accesible para los inversionistas, aunque esto no cambia en absoluto el valor de fondo de la empresa.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que tiene 10 acciones a $100 cada una ($1,000 en total) pasa por un desdoblamiento de 2 por 1. Ahora tiene 20 acciones a $50 cada una: siguen siendo $1,000 en total, solo que divididos en más acciones y más baratas.
+
+## Prueba de práctica
+
+1. Un desdoblamiento de acciones:
+   A. Aumenta el valor de mercado total de una empresa
+   B. Divide las acciones existentes en más acciones a un precio proporcionalmente más bajo
+   C. Reduce el número de acciones en circulación
+   D. Cambia el negocio de fondo de la empresa
+2. Verdadero o falso: un desdoblamiento de acciones cambia el valor total de lo que tiene un inversionista.
+3. Un inversionista tiene 5 acciones a $200 cada una. Después de un desdoblamiento de 2 por 1, ¿cuántas acciones tiene y a qué precio?
+   A. 5 acciones a $400
+   B. 10 acciones a $100
+   C. 2.5 acciones a $200
+   D. 10 acciones a $200
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un desdoblamiento divide las acciones de forma proporcional sin cambiar el valor total.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El valor total de lo que se tiene sigue siendo el mismo justo después de un desdoblamiento.
+
+### Pregunta 3
+
+Respuesta correcta: B. 5 acciones × 2 = 10 acciones; $200 ÷ 2 = $100 por acción.
+
+## Puntos clave
+
+- Un desdoblamiento divide las acciones en más acciones a un precio proporcionalmente más bajo.
+- El valor total de lo que se tiene y la capitalización de mercado no cambian por el desdoblamiento en sí.
+- Las empresas desdoblan sus acciones sobre todo para que el precio por acción sea más accesible.

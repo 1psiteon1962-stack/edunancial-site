@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 46
 locale: es-ES
-title: "Lo Básico de las Opciones — Calls y Puts"
-summary: "*OPINIÓN:* Las opciones generalmente se consideran más complejas y de mayor riesgo que las acciones o fondos básicos, y muchos educadores financieros comúnmente recomiendan construir un entendimiento fundamental sólido de la inversión básica antes de usar opciones — esta lección proporciona solo una introducción superficial, no orientación suficiente para negociar opciones de forma independiente."
-sourceVersion: "1.0"
+title: "¿Qué es una recompra de acciones? (Versión introductoria; más a fondo en el Nivel 2)"
+summary: "Aprende, a nivel introductorio, qué es una recompra de acciones y por qué puede afectar las cifras por acción sin cambiar el negocio."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-046: Lo Básico de las Opciones — Calls y Puts
+# ¿Qué es una recompra de acciones? (Versión introductoria; más a fondo en el Nivel 2)
 
-## Objetivos de Aprendizaje
-1. Definir un contrato de opción en términos generales.
-2. Distinguir una opción call de una opción put.
-3. Reconocer las opciones como instrumentos generalmente más complejos y de mayor riesgo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una opción es un contrato que le da al tenedor el derecho (pero no la obligación) de comprar o vender un valor a un precio específico dentro de un plazo específico. Una **opción call** da el derecho de comprar a un precio fijo; una **opción put** da el derecho de vender a un precio fijo.
+Al final de esta lección, deberías poder:
 
-*OPINIÓN:* Las opciones generalmente se consideran más complejas y de mayor riesgo que las acciones o fondos básicos, y muchos educadores financieros comúnmente recomiendan construir un entendimiento fundamental sólido de la inversión básica antes de usar opciones — esta lección proporciona solo una introducción superficial, no orientación suficiente para negociar opciones de forma independiente.
+- Definir una recompra de acciones en términos sencillos.
+- Explicar su efecto mecánico básico sobre las acciones en circulación.
+- Reconocer que en el Nivel 2 se ve más a fondo su efecto sobre las relaciones financieras.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversor compra una opción call que le da el derecho de comprar una acción a $50 dentro del próximo mes, pagando una prima por ese derecho. Si la acción sube a $60, podría ejercer la opción para comprar a $50 y tener inmediatamente una posición que vale más — obteniendo ganancia de la diferencia menos la prima pagada. Si la acción se mantiene por debajo de $50, la opción puede expirar sin valor, y el inversor pierde solo la prima pagada.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es un contrato de opción, en términos generales?
-2. ¿Qué derecho le da al tenedor una opción call?
-3. ¿Qué derecho le da al tenedor una opción put?
-4. Verdadero/Falso: Las opciones generalmente se consideran más simples y de menor riesgo que las acciones básicas.
+### Qué es una recompra de acciones
 
-## Clave de Respuestas
-1. Un contrato que da el derecho (no la obligación) de comprar/vender a un precio fijo dentro de un plazo   2. Comprar a un precio fijo   3. Vender a un precio fijo   4. Falso
+Una recompra de acciones ocurre cuando una empresa vuelve a comprar sus propias acciones en el mercado abierto, lo que reduce el número de acciones en circulación (un concepto que vimos antes en este nivel).
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de un contrato de opciones.
-2. Esto define específicamente una opción call.
-3. Esto define específicamente una opción put.
-4. Las opciones generalmente se consideran más complejas y de mayor riesgo que los valores básicos.
+### El efecto mecánico básico
 
-## Puntos Clave para Recordar
-- Una opción da el derecho, no la obligación, de comprar/vender a un precio fijo dentro de un plazo.
-- Los calls implican el derecho de comprar; los puts implican el derecho de vender.
-- Las opciones generalmente son más complejas y de mayor riesgo — construye primero conocimiento fundamental.
+Con menos acciones en circulación y las mismas ganancias totales de la empresa, cada acción restante representa una porción un poco más grande de la empresa, lo que conecta con las EPS (ganancias por acción), vistas antes en este nivel.
+
+### Un adelanto del Nivel 2
+
+*SUPUESTO (con fines didácticos):* Esta lección introductoria solo cubre la mecánica básica. El Nivel 2 explica con más profundidad cómo las recompras pueden hacer que cifras por acción como las EPS y la relación P/E se vean mejor sin que el negocio de fondo mejore realmente.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una empresa con 1.000.000 de acciones en circulación recompra 100.000 acciones y le quedan 900.000. Con la misma ganancia neta total, las EPS suben simplemente porque esa ganancia ahora se divide entre menos acciones.
+
+## Cuestionario de práctica
+
+1. Una recompra de acciones significa:
+   A. Que una empresa emite acciones totalmente nuevas
+   B. Que una empresa vuelve a comprar sus propias acciones en el mercado
+   C. Un desdoblamiento de acciones
+   D. Un pago de dividendos
+2. Verdadero o falso: una recompra aumenta el número total de acciones en circulación.
+3. Con la misma ganancia neta, ¿qué pasa con las EPS después de que una recompra reduce las acciones en circulación?
+   A. Las EPS bajan
+   B. Las EPS suben, porque la ganancia ahora se divide entre menos acciones
+   C. Las EPS se mantienen exactamente iguales
+   D. Las EPS pasan a ser cero
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una recompra es cuando una empresa vuelve a comprar sus propias acciones.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una recompra reduce, no aumenta, las acciones en circulación.
+
+### Pregunta 3
+
+Respuesta correcta: B. Que menos acciones se repartan la misma ganancia sube las EPS de forma mecánica.
+
+## Puntos clave
+
+- Una recompra es cuando una empresa vuelve a comprar sus propias acciones, lo que reduce las acciones en circulación.
+- Esto sube las EPS de forma mecánica, aunque las ganancias totales no cambien.
+- El Nivel 2 explica con más profundidad cómo esto puede distorsionar las relaciones por acción.

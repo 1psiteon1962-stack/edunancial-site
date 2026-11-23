@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 7
 locale: es-ES
-title: "Órdenes de Mercado vs. Órdenes Limitadas"
-summary: "Lección WHITE-L1-007 en español."
-sourceVersion: "1.0"
+title: "¿Qué es el precio de una acción y qué lo mueve?"
+summary: "Aprende qué determina el precio de una acción día a día, más allá de la simple \"oferta y demanda\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-007: Órdenes de Mercado vs. Órdenes Limitadas
+# ¿Qué es el precio de una acción y qué lo mueve?
 
-## Objetivos de Aprendizaje
-1. Definir una orden de mercado y una orden limitada.
-2. Explicar el equilibrio entre certeza de ejecución y control de precio.
-3. Identificar un escenario donde cada tipo de orden es apropiado.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una **orden de mercado** compra o vende un valor inmediatamente al mejor precio disponible en ese momento — priorizando la velocidad de ejecución sobre el precio exacto. Una **orden limitada** establece un precio específico al cual el inversor está dispuesto a comprar o vender — priorizando el control del precio, pero la ejecución no está garantizada si el mercado nunca alcanza ese precio.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una acción se está negociando alrededor de $50. Noah coloca una orden de mercado para comprar — se ejecuta casi al instante, pero en un mercado que se mueve rápido podría pagar algo más o menos de $50 dependiendo del momento exacto de ejecución. Su amiga Devi en cambio coloca una orden limitada para comprar a $48 — ella no pagará más de $48, pero si el precio nunca baja a $48, su orden simplemente nunca se ejecuta.
+- Definir el precio de una acción en términos sencillos.
+- Explicar el mecanismo básico de oferta y demanda detrás de los cambios de precio.
+- Nombrar factores que pueden mover esa oferta y esa demanda.
 
-## Cuestionario Práctico
-1. ¿Qué prioriza una orden de mercado?
-2. ¿Qué prioriza una orden limitada?
-3. Verdadero/Falso: Una orden limitada garantiza la ejecución.
-4. ¿Qué tipo de orden usarías si conseguir que la operación se realice inmediatamente importa más que el precio exacto?
+## Contenido principal
 
-## Clave de Respuestas
-1. Velocidad de ejecución   2. Control del precio   3. Falso   4. Una orden de mercado
+### Qué es el precio de una acción
 
-## Respuestas y Explicaciones
-1. Las órdenes de mercado se ejecutan al mejor precio actual disponible, priorizando la velocidad.
-2. Las órdenes limitadas se ejecutan solo al precio especificado o mejor, priorizando el control.
-3. Las órdenes limitadas se ejecutan solo si el mercado alcanza el precio establecido — no está garantizado.
-4. Las órdenes de mercado son adecuadas para situaciones donde la ejecución inmediata importa más.
+El precio de una acción es la cantidad por la que una acción se negocia en este momento en el mercado: el precio que acordaron el comprador y el vendedor más recientes.
 
-## Puntos Clave para Recordar
-- Las órdenes de mercado priorizan la velocidad; las órdenes limitadas priorizan el control del precio.
-- Las órdenes limitadas no tienen garantizada su ejecución si no se alcanza el precio objetivo.
-- Elige según si la velocidad o la precisión del precio importa más para esa operación.
+### El mecanismo básico
+
+En el fondo, el precio de una acción se mueve por la oferta y la demanda: si a un precio determinado hay más compradores que vendedores, el precio tiende a subir; si hay más vendedores que compradores, tiende a bajar.
+
+### Qué mueve la oferta y la demanda
+
+Las noticias propias de la empresa (resultados, nuevos productos, cambios en la dirección), las condiciones económicas generales, las tendencias de la industria y el ánimo de los inversores pueden cambiar cuántas personas quieren comprar o vender a un precio determinado; por eso los precios pueden moverse aunque no haya cambiado nada en la empresa misma.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una empresa reporta ganancias mejores de lo esperado. Más inversores quieren comprar acciones al precio actual que vendedores dispuestos a vender, lo que empuja el precio hacia arriba hasta que se alcanza un nuevo equilibrio.
+
+## Cuestionario de práctica
+
+1. El precio de una acción depende fundamentalmente de:
+   A. Reglas fijadas por el gobierno
+   B. La oferta y la demanda
+   C. La fecha de fundación de la empresa
+   D. El símbolo bursátil de la acción
+2. Verdadero o falso: el precio de una acción solo puede cambiar si cambia algo en la empresa misma.
+3. ¿Cuál es un factor que puede mover la oferta y la demanda de una acción?
+   A. Las noticias sobre los resultados de la empresa
+   B. El símbolo bursátil de la acción
+   C. La fecha de fundación de la empresa
+   D. El color del logotipo de la empresa
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La oferta y la demanda determinan fundamentalmente el precio de una acción.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las condiciones generales del mercado y el ánimo de los inversores pueden mover los precios sin ningún cambio propio de la empresa.
+
+### Pregunta 3
+
+Respuesta correcta: A. Las noticias sobre los resultados son un motivo común de cambios en la oferta y la demanda.
+
+## Puntos clave
+
+- El precio de una acción refleja el precio de la operación acordada más reciente.
+- La oferta y la demanda determinan fundamentalmente el movimiento del precio.
+- Las noticias de la empresa, las condiciones económicas y el ánimo de los inversores pueden mover la oferta y la demanda.

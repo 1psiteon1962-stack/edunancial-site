@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 45
 locale: es-Caribbean
-title: "La Venta en Corto Explicada"
-summary: "Lección WHITE-L1-045 en español caribeño."
-sourceVersion: "1.0"
+title: "¿Qué es un fondo con fecha objetivo?"
+summary: "Aprende lo que hace automáticamente un fondo con fecha objetivo y por qué su asignación cambia a medida que se acerca la fecha objetivo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-045: La Venta en Corto Explicada
+# ¿Qué es un fondo con fecha objetivo?
 
-## Objetivos de Aprendizaje
-1. Definir la venta en corto.
-2. Explicar cómo un vendedor en corto obtiene ganancias (o pérdidas).
-3. Identificar por qué la venta en corto lleva riesgo teóricamente ilimitado.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-La venta en corto significa pedir prestadas acciones para venderlas inmediatamente, apostando a que el precio caerá, y luego recomprarlas después a (esperanzadamente) un precio más bajo para devolvérselas al prestamista — obteniendo ganancia de la diferencia. *HECHO VERIFICADO:* A diferencia de una posición "larga" estándar donde la pérdida máxima está limitada a la cantidad invertida, la venta en corto lleva riesgo teóricamente ilimitado, ya que el precio de una acción puede subir indefinidamente, y el vendedor en corto eventualmente debe recomprar las acciones a cualquier precio que hayan alcanzado.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversionista pide prestadas y vende 100 acciones a $50 cada una ($5,000), apostando a que el precio caerá. Si el precio baja a $30, recompra 100 acciones por $3,000, devuelve las acciones prestadas, y se embolsa una ganancia de $2,000. Pero si el precio en cambio sube a $100, necesitaría gastar $10,000 para recomprar las acciones — una pérdida de $5,000, ilustrando cómo las pérdidas pueden exceder la cantidad original involucrada si el precio sigue subiendo.
+- Definir un fondo con fecha objetivo en términos sencillos.
+- Explicar cómo cambia su asignación con el tiempo.
+- Explicar por qué esto se relaciona con el concepto de reequilibrio.
 
-## Quiz Práctico
-1. ¿Qué es la venta en corto?
-2. ¿Cómo obtiene ganancia un vendedor en corto?
-3. Verdadero/Falso: La venta en corto tiene el mismo perfil de riesgo limitado que una posición larga estándar.
-4. ¿Qué le pasa a la pérdida potencial de un vendedor en corto si el precio de la acción sigue subiendo?
+## Contenido principal
 
-## Clave de Respuestas
-1. Pedir prestadas y vender acciones, apostando a que el precio caerá   2. Recomprando a un precio más bajo del que vendió, embolsándose la diferencia   3. Falso   4. La pérdida potencial sigue creciendo, teóricamente sin límite
+### Qué es un fondo con fecha objetivo
 
-## Respuestas y Explicaciones
-1. Este es el mecanismo fundamental de la venta en corto.
-2. La ganancia viene de la caída de precio entre la venta y la recompra.
-3. La venta en corto lleva riesgo teóricamente ilimitado, a diferencia de una posición larga estándar.
-4. Ya que no hay un techo para cuán alto puede subir un precio, las pérdidas pueden crecer sin un límite definido.
+Un fondo con fecha objetivo (target-date fund) es un fondo construido en torno a una fecha futura específica (a menudo el año previsto de retiro), que gestiona automáticamente su propia asignación de activos para ajustarse al horizonte de tiempo del inversionista.
 
-## Puntos Clave para Recordar
-- La venta en corto apuesta a una caída de precio pidiendo prestado y vendiendo, luego recomprando después.
-- La ganancia viene de la diferencia entre el precio de venta y el precio de recompra.
-- La venta en corto lleva riesgo teóricamente ilimitado, a diferencia de las posiciones largas estándar.
+### Cómo cambia su asignación con el tiempo
+
+Un fondo con fecha objetivo normalmente empieza con una asignación mayor a acciones (por su potencial de crecimiento, dado el horizonte de tiempo largo) y la desplaza poco a poco hacia más bonos y efectivo a medida que se acerca la fecha objetivo (para tener más estabilidad cuando la meta está más cerca), de forma automática, sin que el inversionista tenga que hacer ese ajuste a mano.
+
+### La relación con el reequilibrio
+
+En esencia, un fondo con fecha objetivo automatiza en un solo producto tanto el reequilibrio como la estrategia de asignación que cambia poco a poco: el inversionista no necesita reequilibrarlo periódicamente por su cuenta, como haría con un portafolio construido a mano.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que planea retirarse en 30 años podría elegir un fondo con fecha objetivo para ese año. Al principio tiene sobre todo acciones; a medida que se acerca el año objetivo, se desplaza automáticamente hacia una combinación más conservadora de bonos y efectivo.
+
+## Prueba de práctica
+
+1. Un fondo con fecha objetivo se construye en torno a:
+   A. La acción de una sola empresa
+   B. Una fecha futura específica, a menudo un año previsto de retiro
+   C. Exclusivamente un tipo de bono
+   D. Una fecha límite del gobierno para presentar impuestos
+2. Verdadero o falso: la asignación de un fondo con fecha objetivo se mantiene exactamente igual de principio a fin.
+3. ¿Qué pasa en general con la asignación de un fondo con fecha objetivo a medida que se acerca la fecha objetivo?
+   A. Se desplaza hacia más acciones
+   B. Se desplaza hacia más bonos y efectivo, para tener estabilidad
+   C. Se convierte de inmediato en efectivo por completo
+   D. No cambia nada
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo con fecha objetivo se construye en torno a una fecha futura específica.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Su asignación cambia automáticamente con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Se vuelve más conservador poco a poco a medida que se acerca la fecha.
+
+## Puntos clave
+
+- Un fondo con fecha objetivo se construye en torno a una fecha futura específica.
+- Su asignación pasa automáticamente de centrarse en el crecimiento a ser más conservadora con el tiempo.
+- Automatiza en un solo producto tanto el cambio de asignación como el reequilibrio.

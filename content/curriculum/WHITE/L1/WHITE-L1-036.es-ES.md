@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 36
 locale: es-ES
-title: "Bonos del Tesoro vs. Bonos Corporativos"
-summary: "Los **bonos del Tesoro** son emitidos por el gobierno federal de EE. UU. y generalmente se consideran de muy bajo riesgo de impago, dada la capacidad del gobierno para recaudar impuestos e imprimir dinero. Los **bonos corporativos** son emitidos por empresas y llevan niveles de riesgo variables dependiendo de la salud financiera de la empresa emisora, generalmente ofreciendo rendimientos más altos que los bonos del Tesoro comparables para compensar ese riesgo añadido."
-sourceVersion: "1.0"
+title: "¿Qué es el valor en dólares frente al valor real (poder de compra)?"
+summary: "Aprende la diferencia entre la cantidad de dólares que tienes y su poder de compra real, a partir de la lección sobre la inflación."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-036: Bonos del Tesoro vs. Bonos Corporativos
+# ¿Qué es el valor en dólares frente al valor real (poder de compra)?
 
-## Objetivos de Aprendizaje
-1. Distinguir los bonos del Tesoro de los bonos corporativos.
-2. Explicar la diferencia general de riesgo entre los dos.
-3. Reconocer que esta es una distinción centrada en EE. UU., con equivalentes en otros lugares.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* "Bonos del Tesoro" se refiere específicamente a la deuda del gobierno federal de EE. UU.; otros países emiten bonos soberanos gubernamentales equivalentes bajo distintos nombres.
+Al final de esta lección, deberías poder:
 
-Los **bonos del Tesoro** son emitidos por el gobierno federal de EE. UU. y generalmente se consideran de muy bajo riesgo de impago, dada la capacidad del gobierno para recaudar impuestos e imprimir dinero. Los **bonos corporativos** son emitidos por empresas y llevan niveles de riesgo variables dependiendo de la salud financiera de la empresa emisora, generalmente ofreciendo rendimientos más altos que los bonos del Tesoro comparables para compensar ese riesgo añadido.
+- Distinguir el valor en dólares (nominal) del valor real (poder de compra).
+- Explicar por qué comparar cantidades de dólares a lo largo del tiempo puede ser engañoso.
+- Aplicar esta distinción a un ejemplo básico.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversor compara un bono del Tesoro a 10 años que rinde el 4% con un bono corporativo a 10 años de una empresa estable que rinde el 5,5%. El 1,5% extra en el bono corporativo compensa el riesgo de impago adicional (aunque todavía relativamente modesto, para una empresa financieramente saludable) comparado con el Tesoro respaldado por el gobierno.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Quién emite los bonos del Tesoro?
-2. ¿Quién emite los bonos corporativos?
-3. Verdadero/Falso: Los bonos corporativos siempre llevan el mismo nivel de riesgo que los bonos del Tesoro.
-4. ¿Por qué los bonos corporativos generalmente ofrecen rendimientos más altos que los Tesoros comparables?
+### Valor en dólares (nominal) frente a valor real
 
-## Clave de Respuestas
-1. El gobierno federal de EE. UU.   2. Las empresas   3. Falso   4. Para compensar el mayor riesgo de impago percibido comparado con la deuda gubernamental
+El valor en dólares, o valor nominal, del dinero es simplemente el número que aparece en la cuenta o en la nómina. El valor real es lo que ese dinero puede comprar realmente, después de tener en cuenta la inflación, que vimos en la lección anterior de este nivel.
 
-## Respuestas y Explicaciones
-1. Esta es la característica definitoria de los bonos del Tesoro.
-2. Esta es la característica definitoria de los bonos corporativos.
-3. El riesgo de los bonos corporativos varía significativamente por emisor, generalmente excediendo el riesgo del Tesoro.
-4. Un mayor rendimiento compensa a los inversores por asumir un riesgo relativamente más alto.
+### Por qué comparar a lo largo del tiempo puede engañar
 
-## Puntos Clave para Recordar
-- Los bonos del Tesoro son deuda del gobierno de EE. UU., generalmente de muy bajo riesgo de impago.
-- Los bonos corporativos son emitidos por empresas, con el riesgo variando según la salud financiera del emisor.
-- Los bonos corporativos generalmente ofrecen rendimientos más altos para compensar el riesgo añadido.
+50.000 € de ingresos hoy y 50.000 € de ingresos hace veinte años no son lo mismo en términos reales, porque los precios han cambiado en ese tiempo. Comparar los números sin ajustarlos por inflación puede dar una imagen engañosa del progreso financiero real.
+
+### Cómo aplicar la distinción
+
+Siempre que compares dinero de distintos momentos (un salario, el rendimiento de una inversión, un precio histórico), el valor real (ajustado por inflación) cuenta una historia más exacta que la cifra en dólares por sí sola.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un salario que pasó de 50.000 € a 55.000 € en cinco años parece crecimiento en términos nominales. Si la inflación de ese período redujo el poder de compra en una cantidad parecida, el valor real de ese salario puede haber crecido muy poco, o incluso haber bajado.
+
+## Cuestionario de práctica
+
+1. El valor real se refiere a:
+   A. El número tal cual aparece en una cuenta
+   B. Lo que el dinero puede comprar realmente, ajustado por inflación
+   C. Un tipo de dividendo
+   D. La capitalización de mercado de una empresa
+2. Verdadero o falso: comparar cantidades de dólares sin ajustar entre distintas décadas siempre da una imagen exacta del progreso financiero.
+3. ¿Por qué un aumento de salario podría verse mejor en términos nominales de lo que es en términos reales?
+   A. El valor nominal y el real siempre son idénticos
+   B. La inflación pudo haber reducido el poder de compra ganado
+   C. Los salarios nunca se ven afectados por la inflación
+   D. El valor real solo se aplica a los bonos
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El valor real refleja el poder de compra real, no solo el número tal cual.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las comparaciones sin ajustar a lo largo del tiempo pueden ser engañosas si no se ajustan por inflación.
+
+### Pregunta 3
+
+Respuesta correcta: B. La inflación puede erosionar el beneficio real de un aumento nominal.
+
+## Puntos clave
+
+- El valor nominal es la cifra en dólares tal cual; el valor real tiene en cuenta el poder de compra.
+- Comparar cantidades de dólares sin ajustar a lo largo del tiempo puede ser engañoso.
+- El valor real da una imagen más exacta del progreso financiero real.

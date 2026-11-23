@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 49
 locale: es-Caribbean
-title: "Construyendo un Plan de Inversión a Largo Plazo"
-summary: "*ASUNCIÓN:* Los planes generalmente se benefician de una revisión periódica, ya que las circunstancias de vida, metas, y horizontes de tiempo pueden cambiar — un plan construido una vez y nunca revisado puede que ya no encaje con la situación actual de un inversionista."
-sourceVersion: "1.0"
+title: "Cómo leer un estado de cuenta de corretaje: ¿qué estás mirando en realidad?"
+summary: "Aprende a leer las secciones principales de un estado de cuenta de corretaje, uniendo términos de todo este nivel."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-049: Construyendo un Plan de Inversión a Largo Plazo
+# Cómo leer un estado de cuenta de corretaje: ¿qué estás mirando en realidad?
 
-## Objetivos de Aprendizaje
-1. Identificar los componentes fundamentales de un plan de inversión básico.
-2. Explicar por qué las metas y el horizonte de tiempo deben preceder la selección de inversiones específicas.
-3. Reconocer que un plan debe revisarse periódicamente, no fijarse permanentemente.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*ASUNCIÓN:* Un plan de inversión básico a largo plazo comúnmente comienza definiendo las metas (para qué es el dinero), el horizonte de tiempo (cuándo se necesita), y la tolerancia al riesgo — antes de seleccionar inversiones específicas, ya que estos factores generalmente deben guiar las elecciones de inversión, no al revés.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Los planes generalmente se benefician de una revisión periódica, ya que las circunstancias de vida, metas, y horizontes de tiempo pueden cambiar — un plan construido una vez y nunca revisado puede que ya no encaje con la situación actual de un inversionista.
+- Identificar las secciones principales de un estado de cuenta de corretaje típico.
+- Explicar lo que te dice realmente cada sección.
+- Relacionar los términos del estado de cuenta con conceptos vistos antes en este nivel.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* En lugar de elegir inversiones primero y descubrir un propósito después, una inversionista comienza identificando su meta (retiro en 30 años), horizonte de tiempo (largo, apoyando una mayor tolerancia al riesgo), y comodidad con la volatilidad. Solo después de establecer esto selecciona una asignación de activos e inversiones específicas que coincidan con ese perfil — y planea revisar este plan cada pocos años a medida que sus circunstancias evolucionen.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué debería generalmente definirse antes de seleccionar inversiones específicas?
-2. ¿Por qué importa el horizonte de tiempo para las decisiones del plan de inversión?
-3. Verdadero/Falso: Un buen plan de inversión nunca necesita revisarse una vez creado.
-4. ¿Con qué componentes fundamentales comúnmente comienza un plan de inversión básico?
+### Las secciones principales de un estado de cuenta
 
-## Clave de Respuestas
-1. Metas, horizonte de tiempo, y tolerancia al riesgo   2. Afecta la tolerancia al riesgo apropiada y la asignación de activos   3. Falso   4. Metas, horizonte de tiempo, tolerancia al riesgo
+Un estado de cuenta de corretaje típico suele incluir: las posiciones de la cuenta (qué se tiene y cuánto), el historial de transacciones (compras, ventas y dividendos recientes) y un resumen de desempeño, aunque el formato exacto varía según la casa de corretaje.
 
-## Respuestas y Explicaciones
-1. Estos factores fundamentales generalmente deben preceder la selección de inversiones específicas.
-2. Los horizontes más largos generalmente apoyan enfoques de riesgo diferentes a los más cortos.
-3. Los planes generalmente se benefician de una revisión periódica a medida que cambian las circunstancias.
-4. Este es el punto de partida comúnmente citado para la planificación de inversión básica.
+### Lo que te dice cada sección
 
-## Puntos Clave para Recordar
-- Define metas, horizonte de tiempo, y tolerancia al riesgo antes de seleccionar inversiones específicas.
-- Estos factores generalmente deben guiar las elecciones de inversión, no al revés.
-- Revisa y ajusta el plan periódicamente a medida que cambian las circunstancias de vida.
+La sección de posiciones muestra las inversiones actuales y su valor de mercado. El historial de transacciones muestra la actividad reciente, incluidos los pagos de dividendos (vistos antes en este nivel). El resumen de desempeño suele informar algo como un rendimiento ponderado por tiempo (visto en la lección anterior), y no necesariamente la experiencia personal ponderada por dinero de un inversionista.
+
+### Cómo se conecta con los conceptos de este nivel
+
+Leer bien un estado de cuenta significa reconocer términos ya vistos: acciones que se tienen, valor de mercado, dividendos recibidos y la diferencia entre el rendimiento que informa el fondo y el rendimiento personal real de una persona según el momento de sus propios aportes.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que revisa su estado de cuenta ve que tiene participaciones de un ETF, nota un pago reciente de dividendos en el historial de transacciones y ve un rendimiento informado del año hasta la fecha; reconoce que esa cifra probablemente refleja el desempeño ponderado por tiempo, y no necesariamente su propio rendimiento personal exacto si añadió dinero a mitad de año.
+
+## Prueba de práctica
+
+1. La sección de posiciones de un estado de cuenta de corretaje suele mostrar:
+   A. Solo las comisiones de la casa de corretaje
+   B. Las inversiones actuales y su valor de mercado
+   C. Solo la declaración de impuestos del inversionista
+   D. Una lista de empresas sin relación
+2. Verdadero o falso: el resumen de desempeño de un estado de cuenta siempre refleja el rendimiento personal exacto ponderado por dinero del inversionista.
+3. ¿Qué suele incluir la sección de historial de transacciones?
+   A. Solo las operaciones futuras planificadas
+   B. Las compras, ventas y pagos de dividendos recientes
+   C. Los estados financieros completos de una empresa
+   D. Las declaraciones de impuestos ante el gobierno
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Las posiciones muestran las inversiones actuales y su valor de mercado.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El desempeño informado suele ser ponderado por tiempo, y no necesariamente el rendimiento personal ponderado por dinero del inversionista.
+
+### Pregunta 3
+
+Respuesta correcta: B. El historial de transacciones cubre la actividad reciente de la cuenta.
+
+## Puntos clave
+
+- Un estado de cuenta de corretaje suele incluir las posiciones, el historial de transacciones y un resumen de desempeño.
+- El desempeño informado suele ser ponderado por tiempo, y no automáticamente el rendimiento personal del inversionista.
+- Leer bien un estado de cuenta se apoya en conceptos vistos a lo largo de este nivel.

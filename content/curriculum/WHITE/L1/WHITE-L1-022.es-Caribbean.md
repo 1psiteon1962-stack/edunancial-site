@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 22
 locale: es-Caribbean
-title: "El Aporte Igualado del Empleador Explicado"
-summary: "*OPINIÓN:* Debido a que el aporte igualado del empleador es efectivamente compensación adicional gratuita ligada a la participación, muchos educadores financieros comúnmente sugieren contribuir al menos lo suficiente para capturar todo el aporte igualado antes de priorizar otras metas de ahorro — aunque las circunstancias financieras individuales varían."
-sourceVersion: "1.0"
+title: "¿Qué es el promedio de costo en dólares?"
+summary: "Aprende qué es el promedio de costo en dólares y por qué invertir una cantidad fija con regularidad puede suavizar la volatilidad de los precios."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-022: El Aporte Igualado del Empleador Explicado
+# ¿Qué es el promedio de costo en dólares?
 
-## Objetivos de Aprendizaje
-1. Definir el aporte igualado del empleador en el contexto de un plan de retiro.
-2. Explicar por qué las contribuciones no igualadas a menudo se describen como "dejar dinero sobre la mesa."
-3. Calcular un escenario sencillo de aporte igualado del empleador.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-El aporte igualado del empleador significa que un empleador contribuye dinero adicional a la cuenta de retiro de un empleado basado en las contribuciones propias del empleado, hasta cierto límite. *HECHO VERIFICADO:* Una estructura común de igualación es igualar un porcentaje de las contribuciones del empleado hasta un porcentaje específico del salario, aunque las fórmulas exactas varían significativamente por empleador.
+Al final de esta lección, deberías poder:
 
-*OPINIÓN:* Debido a que el aporte igualado del empleador es efectivamente compensación adicional gratuita ligada a la participación, muchos educadores financieros comúnmente sugieren contribuir al menos lo suficiente para capturar todo el aporte igualado antes de priorizar otras metas de ahorro — aunque las circunstancias financieras individuales varían.
+- Definir el promedio de costo en dólares en términos sencillos.
+- Explicar cómo interactúa con la volatilidad de los precios.
+- Reconocerlo como una estrategia, no como una garantía de ganancia.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* El empleador de Devon iguala el 50% de las contribuciones hasta el 6% de su salario de $50,000. Si él contribuye el 6% ($3,000), su empleador añade $1,500 adicionales (50% de $3,000) — dinero gratis añadido a su cuenta simplemente por contribuir lo suficiente para capturar todo el aporte igualado. Si él hubiera contribuido solo el 2%, habría recibido un aporte igualado menor y efectivamente habría perdido parte de ese beneficio disponible.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es el aporte igualado del empleador?
-2. En una contribución de $3,000 con un aporte igualado del 50%, ¿cuánto añade el empleador?
-3. Verdadero/Falso: El aporte igualado del empleador típicamente no tiene límite sin importar la cantidad de contribución.
-4. ¿Por qué se describe comúnmente el no capturar todo el aporte igualado como "dejar dinero sobre la mesa"?
+### Qué es el promedio de costo en dólares
 
-## Clave de Respuestas
-1. Contribuciones adicionales del empleador basadas en las contribuciones del empleado, hasta un límite   2. $1,500   3. Falso   4. Representa compensación gratuita disponible que el empleado no reclamó
+El promedio de costo en dólares (dollar-cost averaging) consiste en invertir una cantidad fija de dinero a intervalos regulares (por ejemplo, cada mes), sin importar el precio del momento, en vez de invertir una suma grande de una sola vez.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental del aporte igualado del empleador.
-2. 50% × $3,000 = $1,500.
-3. Los aportes igualados típicamente tienen un tope en un porcentaje específico del salario o la contribución.
-4. Los fondos de aporte igualado no capturados representan compensación disponible no reclamada.
+### Cómo interactúa con la volatilidad
 
-## Puntos Clave para Recordar
-- El aporte igualado del empleador añade fondos del empleador basados en las contribuciones del empleado, hasta un tope.
-- Las estructuras y límites de igualación varían significativamente por empleador.
-- La guía comúnmente citada sugiere contribuir lo suficiente para capturar todo el aporte igualado disponible.
+Como la cantidad invertida se mantiene fija, se compran más acciones cuando los precios están más bajos y menos acciones cuando están más altos; esto promedia de forma natural el precio de compra con el tiempo, sin que el inversionista tenga que predecir los movimientos de precio.
+
+### No es una garantía
+
+El promedio de costo en dólares no garantiza una ganancia ni protege contra las pérdidas: es una forma disciplinada de invertir a lo largo del tiempo, no una manera de eliminar todo el riesgo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista pone $200 en una inversión cada mes. Cuando el precio está bajo, esos $200 compran más acciones; cuando el precio está alto, compran menos. A lo largo de un año, esto produce un precio de compra promedio sin que ella tenga que adivinar el mejor momento del mercado.
+
+## Prueba de práctica
+
+1. El promedio de costo en dólares consiste en:
+   A. Invertir una suma grande de una sola vez
+   B. Invertir una cantidad fija a intervalos regulares, sin importar el precio
+   C. Invertir solo cuando los precios están bajos
+   D. Evitar todos los activos de papel
+2. Verdadero o falso: el promedio de costo en dólares garantiza una ganancia.
+3. Con el promedio de costo en dólares, ¿qué pasa con el número de acciones compradas cuando el precio está más bajo?
+   A. Se compran menos acciones
+   B. Se compran más acciones con la misma cantidad fija de dinero
+   C. No se compra ninguna acción
+   D. La cantidad invertida aumenta automáticamente
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una cantidad fija, a intervalos regulares, sin importar el precio.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es una estrategia disciplinada, no una garantía.
+
+### Pregunta 3
+
+Respuesta correcta: B. Una cantidad fija de dinero compra más acciones cuando el precio está más bajo.
+
+## Puntos clave
+
+- El promedio de costo en dólares consiste en invertir una cantidad fija a intervalos regulares.
+- De forma natural, compra más acciones cuando los precios están bajos y menos cuando están altos.
+- Es una estrategia disciplinada, no una garantía contra las pérdidas.

@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 29
 locale: es-Caribbean
-title: "El Rol de un Asesor Financiero"
-summary: "*HECHO VERIFICADO:* Los asesores comúnmente reciben compensación de diferentes maneras: **solo honorarios** (pagados directamente por el cliente, sin comisiones por productos), **basado en comisiones** (ganando dinero de los productos vendidos), o un híbrido de ambos — la estructura de compensación puede influir en qué está incentivado a recomendar un asesor."
-sourceVersion: "1.0"
+title: "¿Qué es el riesgo de crédito de un bono?"
+summary: "Aprende qué significa el riesgo de crédito en un bono y cómo se relaciona con el hecho de que algunos bonos paguen más intereses que otros."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-029: El Rol de un Asesor Financiero
+# ¿Qué es el riesgo de crédito de un bono?
 
-## Objetivos de Aprendizaje
-1. Definir el rol general de un asesor financiero.
-2. Distinguir entre un asesor de solo honorarios y uno basado en comisiones.
-3. Explicar por qué entender la estructura de compensación importa.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un asesor financiero provee orientación sobre planificación financiera, inversión, retiro, y decisiones relacionadas. *REGLA ESPECÍFICA DE LA REGIÓN:* Las licencias, la regulación, y los estándares fiduciarios para los asesores varían significativamente por jurisdicción.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Los asesores comúnmente reciben compensación de diferentes maneras: **solo honorarios** (pagados directamente por el cliente, sin comisiones por productos), **basado en comisiones** (ganando dinero de los productos vendidos), o un híbrido de ambos — la estructura de compensación puede influir en qué está incentivado a recomendar un asesor.
+- Definir el riesgo de crédito en términos sencillos.
+- Explicar cómo se relaciona el riesgo de crédito con la tasa de interés de un bono.
+- Reconocer que no todos los emisores de bonos tienen el mismo riesgo de crédito.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Dos asesores recomiendan diferentes productos de inversión al mismo cliente. Uno es de solo honorarios, cobrando una tarifa fija sin importar qué se recomiende. El otro gana una comisión sobre el producto específico vendido. Entender esta diferencia ayuda al cliente a evaluar si una recomendación está puramente basada en su necesidad o potencialmente influenciada por la estructura de compensación del asesor.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué provee generalmente un asesor financiero?
-2. ¿Qué es un asesor "de solo honorarios"?
-3. ¿Qué es un asesor "basado en comisiones"?
-4. ¿Por qué importa la estructura de compensación al evaluar un consejo?
+### Qué es el riesgo de crédito
 
-## Clave de Respuestas
-1. Orientación sobre planificación financiera, inversión, y decisiones relacionadas   2. Pagado directamente por el cliente, sin comisiones por productos   3. Gana dinero de los productos vendidos   4. Puede influir en qué está incentivado a recomendar el asesor
+El riesgo de crédito es el riesgo de que el emisor de un bono no pueda hacer los pagos de intereses prometidos o devolver el principal al vencimiento; en otras palabras, el riesgo de impago.
 
-## Respuestas y Explicaciones
-1. Este es el alcance general del rol de un asesor financiero.
-2. Esto define el modelo de compensación de solo honorarios.
-3. Esto define el modelo de compensación basado en comisiones.
-4. La estructura de compensación puede crear conflictos de interés potenciales que vale la pena entender.
+### Cómo se relaciona con la tasa de interés
 
-## Puntos Clave para Recordar
-- Los asesores financieros proveen orientación en planificación, inversión, y decisiones relacionadas.
-- Las estructuras de compensación (solo honorarios, basado en comisiones, híbrida) varían y pueden influir en las recomendaciones.
-- Las licencias y estándares regulatorios varían significativamente por jurisdicción.
+Los emisores que se consideran de mayor riesgo de crédito en general tienen que ofrecer una tasa de cupón más alta para atraer prestamistas, compensando a los inversionistas por asumir ese riesgo adicional. Los emisores que se consideran de muy bajo riesgo (como los gobiernos estables) en general pueden tomar prestado a tasas más bajas.
+
+### No todos los emisores son iguales
+
+Una empresa grande y financieramente estable y una empresa más pequeña con dificultades financieras que emiten bonos no tienen el mismo riesgo de crédito, aunque sus bonos se parezcan a primera vista; por eso existen las calificaciones de bonos (que se ven en el Nivel 2), para ayudar a evaluar este riesgo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un gobierno financieramente sólido podría emitir bonos a una tasa de interés baja, lo que refleja un riesgo de crédito bajo. Una empresa con dificultades financieras podría necesitar ofrecer una tasa de interés mucho más alta en sus bonos para atraer inversionistas dispuestos a asumir el riesgo adicional de impago.
+
+## Prueba de práctica
+
+1. El riesgo de crédito de un bono se refiere a:
+   A. El riesgo de perder un certificado de papel
+   B. El riesgo de que el emisor no pague los intereses o el principal según lo prometido
+   C. El riesgo de un desdoblamiento de acciones
+   D. El riesgo de una caída de todo el mercado
+2. Verdadero o falso: los emisores con mayor riesgo de crédito suelen ofrecer tasas de interés más bajas.
+3. ¿Por qué una empresa con dificultades financieras podría necesitar ofrecer una tasa de interés más alta en sus bonos?
+   A. Para compensar a los inversionistas por un mayor riesgo de impago
+   B. Porque el gobierno lo exige
+   C. Para reducir su capitalización de mercado
+   D. Los bonos siempre tienen la misma tasa, sin importar el riesgo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El riesgo de crédito es el riesgo de impago de los intereses o del principal.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los emisores con mayor riesgo de crédito en general tienen que ofrecer tasas más altas.
+
+### Pregunta 3
+
+Respuesta correcta: A. Las tasas más altas compensan a los inversionistas por asumir el riesgo de impago.
+
+## Puntos clave
+
+- El riesgo de crédito es el riesgo de que un emisor no pague un bono.
+- Un riesgo de crédito más alto suele significar una tasa de interés ofrecida más alta.
+- No todos los emisores de bonos tienen el mismo nivel de riesgo de crédito.

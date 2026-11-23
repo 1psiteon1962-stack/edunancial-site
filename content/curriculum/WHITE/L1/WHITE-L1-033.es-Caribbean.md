@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 33
 locale: es-Caribbean
-title: "¿Qué Es una División de Acciones?"
-summary: "Lección WHITE-L1-033 en español caribeño."
-sourceVersion: "1.0"
+title: "¿Qué es un fondo del mercado monetario?"
+summary: "Aprende qué es un fondo del mercado monetario y por qué en general se considera una opción de menor riesgo y más líquida que otros fondos."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-033: ¿Qué Es una División de Acciones?
+# ¿Qué es un fondo del mercado monetario?
 
-## Objetivos de Aprendizaje
-1. Definir una división de acciones.
-2. Explicar por qué una división no cambia el valor total de la inversión.
-3. Distinguir una división directa de una división inversa.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una división de acciones aumenta (o disminuye) el número de acciones en circulación mientras ajusta el precio proporcionalmente, así que el valor total de una tenencia se mantiene igual inmediatamente después de la división. *HECHO VERIFICADO:* En una **división directa** (por ejemplo, 2 por 1), los accionistas reciben más acciones a un precio proporcionalmente más bajo por acción. En una **división inversa** (por ejemplo, 1 por 10), los accionistas reciben menos acciones a un precio proporcionalmente más alto por acción.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversionista posee 100 acciones que valen $200 cada una ($20,000 en total) antes de una división de 2 por 1. Después de la división, posee 200 acciones que valen $100 cada una — todavía $20,000 en total. Nada sobre su participación de propiedad real o el valor de la compañía cambió; solo el número de acciones y el precio por acción se ajustaron proporcionalmente.
+- Definir un fondo del mercado monetario en términos sencillos.
+- Explicar en qué suele invertir.
+- Explicar por qué en general se considera de menor riesgo que un fondo de acciones.
 
-## Quiz Práctico
-1. ¿Qué es una división de acciones?
-2. En una división directa de 2 por 1, ¿qué pasa con el número de acciones y el precio?
-3. Verdadero/Falso: Una división de acciones cambia el valor total de una tenencia existente.
-4. ¿Qué es una división inversa?
+## Contenido principal
 
-## Clave de Respuestas
-1. Un ajuste a las acciones en circulación y el precio que mantiene el valor total constante   2. El número de acciones se duplica; el precio por acción se reduce aproximadamente a la mitad   3. Falso   4. Una división que reduce el número de acciones mientras aumenta el precio por acción proporcionalmente
+### Qué es un fondo del mercado monetario
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de una división de acciones.
-2. Esto describe el mecanismo estándar de una división directa.
-3. El valor total de la tenencia permanece igual inmediatamente después de una división — solo cambian el número de acciones y el precio.
-4. Las divisiones inversas funcionan de manera opuesta a las divisiones directas.
+Un fondo del mercado monetario (money market fund) es un tipo de fondo mutuo que invierte en instrumentos de deuda a corto plazo y, en general, de alta calidad, con el objetivo de dar estabilidad y liquidez más que un crecimiento importante.
 
-## Puntos Clave para Recordar
-- Una división de acciones ajusta el número de acciones y el precio manteniendo el mismo valor total.
-- Las divisiones directas aumentan las acciones y bajan el precio por acción; las inversas hacen lo opuesto.
-- Las divisiones no cambian el valor subyacente de una inversión.
+### En qué suele invertir
+
+Los fondos del mercado monetario suelen tener cosas como deuda del gobierno a corto plazo y otros préstamos a muy corto plazo de alta calidad crediticia: inversiones que en general se eligen por su estabilidad y no por su potencial de crecimiento.
+
+### Por qué en general es de menor riesgo
+
+Como tiene deuda a corto plazo y de alta calidad, un fondo del mercado monetario en general se considera de menor riesgo y de valor más estable que un fondo de acciones, aunque no está totalmente libre de riesgo y, a cambio, suele ofrecer rendimientos más modestos.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista que quiere un lugar relativamente estable para tener efectivo que quizá necesite pronto, ganando algo de rendimiento, podría usar un fondo del mercado monetario en vez de un fondo centrado en acciones, con más volatilidad.
+
+## Prueba de práctica
+
+1. Un fondo del mercado monetario suele invertir en:
+   A. Acciones de tecnología de alto crecimiento
+   B. Instrumentos de deuda a corto plazo y de alta calidad
+   C. Bienes raíces de forma directa
+   D. Exclusivamente criptomonedas
+2. Verdadero o falso: los fondos del mercado monetario en general se consideran de mayor riesgo que los fondos de acciones.
+3. ¿Por qué un inversionista podría usar un fondo del mercado monetario?
+   A. Para maximizar el potencial de crecimiento a largo plazo
+   B. Por su relativa estabilidad y liquidez
+   C. Para evitar por completo cualquier tipo de riesgo
+   D. Para comprar bienes raíces
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Los fondos del mercado monetario tienen deuda a corto plazo y de alta calidad.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general se consideran de menor riesgo que los fondos de acciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. La estabilidad y la liquidez son su principal atractivo.
+
+## Puntos clave
+
+- Un fondo del mercado monetario invierte en deuda a corto plazo y de alta calidad.
+- En general se considera de menor riesgo y más estable que los fondos de acciones.
+- Cambia un mayor potencial de crecimiento por estabilidad y liquidez.

@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 9
 locale: es-Caribbean
-title: "Ganancias de Capital vs. Pérdidas de Capital"
-summary: "*REGLA ESPECÍFICA DE LA REGIÓN:* El tratamiento fiscal de las ganancias de capital (tasas, requisitos de período de tenencia) varía significativamente por país e incluso según cuánto tiempo se mantuvo un activo — siempre verifica las reglas fiscales locales actuales."
-sourceVersion: "1.0"
+title: "¿Qué es un ETF? (Una canasta, no una sola acción)"
+summary: "Aprende qué es un ETF, en qué se diferencia de comprar una sola acción y por qué importa esa estructura de canasta."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-009: Ganancias de Capital vs. Pérdidas de Capital
+# ¿Qué es un ETF? (Una canasta, no una sola acción)
 
-## Objetivos de Aprendizaje
-1. Definir ganancia de capital y pérdida de capital.
-2. Distinguir entre ganancias/pérdidas realizadas y no realizadas.
-3. Explicar por qué la distinción importa para los impuestos.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una ganancia de capital ocurre cuando una inversión se vende por más de su precio de compra; una pérdida de capital ocurre cuando se vende por menos. *HECHO VERIFICADO:* Las ganancias y pérdidas son "no realizadas" (solo en papel) hasta que la inversión realmente se vende — solo las ganancias/pérdidas realizadas típicamente generan consecuencias fiscales en la mayoría de las jurisdicciones.
+Al final de esta lección, deberías poder:
 
-*REGLA ESPECÍFICA DE LA REGIÓN:* El tratamiento fiscal de las ganancias de capital (tasas, requisitos de período de tenencia) varía significativamente por país e incluso según cuánto tiempo se mantuvo un activo — siempre verifica las reglas fiscales locales actuales.
+- Definir un ETF en términos sencillos.
+- Explicar en qué se diferencia de comprar una sola acción.
+- Explicar un beneficio práctico de la estructura de canasta.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Kenji compra una acción por $2,000. Su valor sube a $2,800 — una ganancia no realizada de $800 que existe solo en papel y todavía no está sujeta a impuestos. Él la vende, realizando una ganancia de capital de $800, la cual ahora puede estar sujeta a impuestos dependiendo de su jurisdicción y cuánto tiempo mantuvo la inversión.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es una ganancia de capital?
-2. ¿Qué significa "no realizada" en este contexto?
-3. Verdadero/Falso: Las ganancias no realizadas típicamente se gravan de inmediato.
-4. ¿Qué típicamente activa una ganancia o pérdida "realizada"?
+### Qué es un ETF
 
-## Clave de Respuestas
-1. Ganancia de vender una inversión por encima de su precio de compra   2. Una ganancia/pérdida que existe solo en papel, aún no concretada mediante una venta   3. Falso   4. Vender realmente la inversión
+Un ETF (fondo cotizado en bolsa, por sus siglas en inglés) es un fondo que tiene un conjunto de activos (a menudo muchas acciones o bonos) y cuyas participaciones se negocian en una bolsa a lo largo del día, igual que una acción individual.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de una ganancia de capital.
-2. El estado no realizado refleja cambios de valor en papel antes de que ocurra cualquier venta.
-3. La mayoría de las jurisdicciones no gravan las ganancias no realizadas — típicamente solo las realizadas.
-4. Vender el activo convierte una ganancia/pérdida en papel en una realizada.
+### En qué se diferencia de una sola acción
 
-## Puntos Clave para Recordar
-- Las ganancias/pérdidas de capital ocurren cuando las inversiones se venden por encima/debajo del precio de compra.
-- Las ganancias y pérdidas son "no realizadas" hasta que realmente se venden.
-- El tratamiento fiscal varía significativamente por jurisdicción y período de tenencia — verifica localmente.
+Comprar una acción de una sola empresa te da exposición únicamente a esa empresa. Comprar una participación de un ETF te da exposición a todo lo que hay dentro de esa canasta a la vez: posiblemente decenas o cientos de inversiones subyacentes, con una sola compra.
+
+### Un beneficio práctico de la estructura de canasta
+
+Como un ETF reparte la exposición entre muchas inversiones a la vez, el mal desempeño de cualquiera de ellas tiene un impacto menor sobre el ETF en su conjunto que el que tendría si fuera la única inversión del inversionista: es una forma básica de diversificación, que se ve con más detalle en una lección posterior.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* En vez de elegir una sola empresa en la cual invertir, un inversionista compra una participación de un ETF que tiene acciones de 500 empresas distintas, y así reparte su exposición entre las 500 con una sola compra.
+
+## Prueba de práctica
+
+1. La mejor descripción de un ETF es:
+   A. La acción de una sola empresa
+   B. Un fondo que tiene un conjunto de activos y se negocia como una acción
+   C. Un tipo de cuenta de ahorros
+   D. Un bono del gobierno
+2. Verdadero o falso: comprar una participación de un ETF solo da exposición a una empresa subyacente.
+3. ¿Cuál es un beneficio práctico de la estructura de canasta de un ETF?
+   A. Garantiza ganancias
+   B. Reparte la exposición entre muchas inversiones a la vez
+   C. Elimina todo riesgo de inversión
+   D. Obliga a elegir acciones individuales
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un ETF es un fondo negociable que tiene varios activos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una participación de un ETF suele dar exposición a muchas inversiones subyacentes a la vez.
+
+### Pregunta 3
+
+Respuesta correcta: B. Repartir la exposición entre muchas inversiones es el beneficio central.
+
+## Puntos clave
+
+- Un ETF es un fondo que tiene un conjunto de activos y se negocia como una acción.
+- Una participación de un ETF puede dar exposición a muchas inversiones subyacentes a la vez.
+- Esta estructura de canasta ofrece una forma básica de diversificación.

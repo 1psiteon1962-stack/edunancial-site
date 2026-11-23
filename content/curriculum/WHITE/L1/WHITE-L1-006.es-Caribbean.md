@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 6
 locale: es-Caribbean
-title: "¿Qué Es una Cuenta de Corretaje?"
-summary: "Los tipos comunes de cuenta incluyen cuentas individuales (un solo dueño), cuentas conjuntas (múltiples dueños), y cuentas de retiro con ventajas fiscales (como un 401(k) o un IRA, cubiertas en lecciones posteriores), cada una con diferente tratamiento fiscal y reglas."
-sourceVersion: "1.0"
+title: "¿Qué es un dividendo?"
+summary: "Aprende qué es un dividendo, cómo se paga y por qué nunca está garantizado."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-006: ¿Qué Es una Cuenta de Corretaje?
+# ¿Qué es un dividendo?
 
-## Objetivos de Aprendizaje
-1. Definir una cuenta de corretaje.
-2. Distinguir una cuenta de corretaje de una cuenta bancaria.
-3. Identificar los tipos básicos de cuenta (individual, conjunta, de retiro).
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una cuenta de corretaje es una cuenta que le permite a un inversionista comprar y vender valores como acciones, bonos, fondos mutuos, y ETFs, abierta a través de una casa de corretaje autorizada. *HECHO VERIFICADO:* A diferencia de una cuenta bancaria, el dinero en una cuenta de corretaje típicamente está invertido, no simplemente guardado como efectivo, y su valor puede subir o bajar con las condiciones del mercado.
+Al final de esta lección, deberías poder:
 
-Los tipos comunes de cuenta incluyen cuentas individuales (un solo dueño), cuentas conjuntas (múltiples dueños), y cuentas de retiro con ventajas fiscales (como un 401(k) o un IRA, cubiertas en lecciones posteriores), cada una con diferente tratamiento fiscal y reglas.
+- Definir un dividendo en términos sencillos.
+- Explicar cómo se pagan normalmente los dividendos.
+- Explicar por qué los dividendos nunca están garantizados.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Aisha abre una cuenta de corretaje individual y deposita $1,000. A diferencia de una cuenta de ahorros donde ese $1,000 se quedaría como efectivo ganando un interés modesto, ella lo usa para comprar acciones de una compañía. Su balance ahora fluctúa diariamente con el precio de esa acción — podría ver $1,100 o $900 dependiendo del movimiento del mercado, un perfil de riesgo fundamentalmente diferente al de una cuenta bancaria.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Para qué se usa una cuenta de corretaje?
-2. ¿En qué se diferencia una cuenta de corretaje de una cuenta bancaria típica?
-3. Nombra dos tipos comunes de propiedad de cuenta.
-4. Verdadero/Falso: El dinero en una cuenta de corretaje siempre gana un retorno fijo y predecible como una cuenta de ahorros.
+### Qué es un dividendo
 
-## Clave de Respuestas
-1. Comprar y vender valores   2. Los fondos de corretaje típicamente están invertidos y pueden fluctuar; los fondos bancarios típicamente se mantienen como efectivo estable   3. Individual, conjunta (entre otras)   4. Falso
+Un dividendo es una parte de las ganancias de una empresa que se reparte entre los accionistas, en proporción a cuántas acciones tiene cada uno.
 
-## Respuestas y Explicaciones
-1. Esta es la función principal de una cuenta de corretaje.
-2. El riesgo de inversión y la fluctuación distinguen las cuentas de corretaje de los depósitos bancarios.
-3. Estas son estructuras estándar de propiedad de cuenta.
-4. El valor de una cuenta de corretaje depende de las inversiones subyacentes, no de una tasa fija.
+### Cómo se pagan normalmente
 
-## Puntos Clave para Recordar
-- Una cuenta de corretaje permite comprar y vender valores.
-- A diferencia de las cuentas bancarias, los fondos de corretaje típicamente están invertidos y pueden fluctuar en valor.
-- Los tipos de cuenta (individual, conjunta, de retiro) tienen diferentes reglas y tratamiento fiscal.
+Los dividendos suelen pagarse en efectivo, con una frecuencia regular (a menudo trimestral), directamente a los accionistas según cuántas acciones tengan en una fecha de registro específica.
+
+### Por qué nunca están garantizados
+
+La junta directiva de una empresa decide si se paga un dividendo y de cuánto; no hay ninguna obligación legal de hacerlo. Las empresas pueden reducir, suspender o no empezar nunca a pagar dividendos, a menudo según su rentabilidad y sus planes de crecimiento.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista que tiene 100 acciones de una empresa que paga un dividendo trimestral de $0.50 por acción recibiría $50 ese trimestre, una cantidad que podría cambiar en trimestres futuros a criterio de la empresa.
+
+## Prueba de práctica
+
+1. Un dividendo es:
+   A. Un pago fijo garantizado
+   B. Una parte de las ganancias de la empresa que se reparte entre los accionistas
+   C. Un tipo de pago de intereses de un bono
+   D. Un impuesto que se debe por tener acciones
+2. Verdadero o falso: las empresas están obligadas por ley a pagar dividendos.
+3. ¿Quién decide si se paga un dividendo y de cuánto?
+   A. Cada accionista por separado
+   B. La junta directiva de la empresa
+   C. La bolsa de valores
+   D. El gobierno
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un dividendo es un reparto de ganancias entre los accionistas.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El pago de dividendos es discrecional, no una obligación legal.
+
+### Pregunta 3
+
+Respuesta correcta: B. La junta directiva decide el pago de dividendos.
+
+## Puntos clave
+
+- Un dividendo es una parte de las ganancias que se reparte entre los accionistas.
+- Los pagos suelen ser en efectivo y con una frecuencia regular.
+- Los dividendos nunca están garantizados: son una decisión de la junta directiva.

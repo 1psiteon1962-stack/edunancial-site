@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 10
 locale: es-ES
-title: "Riesgo y Recompensa — La Relación Básica"
-summary: "*ASUNCIÓN:* El nivel de riesgo apropiado para un inversor depende de factores como el horizonte temporal, los objetivos financieros, y la tolerancia personal al riesgo — no hay un único nivel de riesgo \"correcto\" para todos."
-sourceVersion: "1.0"
+title: "¿Qué es un fondo de inversión y en qué se diferencia de un ETF?"
+summary: "Aprende qué es un fondo de inversión y las principales diferencias prácticas entre los fondos de inversión y los ETF."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-010: Riesgo y Recompensa — La Relación Básica
+# ¿Qué es un fondo de inversión y en qué se diferencia de un ETF?
 
-## Objetivos de Aprendizaje
-1. Explicar la relación general entre riesgo y rendimiento potencial.
-2. Identificar por qué los rendimientos potenciales más altos generalmente vienen con más riesgo.
-3. Reconocer que esto es una tendencia general, no una garantía.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*HECHO VERIFICADO:* En general, las inversiones que ofrecen rendimientos potenciales más altos tienden a llevar más riesgo de pérdida, y las inversiones de menor riesgo tienden a ofrecer rendimientos potenciales más modestos — esta es una relación fundamental en la inversión, aunque no es una regla absoluta para cada inversión individual.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* El nivel de riesgo apropiado para un inversor depende de factores como el horizonte temporal, los objetivos financieros, y la tolerancia personal al riesgo — no hay un único nivel de riesgo "correcto" para todos.
+- Definir un fondo de inversión en términos sencillos.
+- Explicar en qué se parecen los fondos de inversión y los ETF.
+- Nombrar al menos una diferencia práctica entre ellos.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Malia compara dos opciones: una cuenta de ahorro que paga un interés modesto garantizado, y acciones individuales de crecimiento con rendimientos medios históricos mucho más altos pero con volatilidad significativa año tras año, incluyendo pérdidas potenciales. Ella está ahorrando para la jubilación dentro de 30 años, lo cual le da tiempo para superar la volatilidad — una situación muy distinta a la de alguien que necesita ese dinero en un año.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Cuál es la relación general entre riesgo y rendimiento potencial?
-2. Verdadero/Falso: Toda inversión de alto riesgo garantiza un rendimiento alto.
-3. Nombra un factor que afecta el nivel de riesgo apropiado para un inversor.
-4. ¿Por qué podría un horizonte temporal largo cambiar la tolerancia al riesgo?
+### Qué es un fondo de inversión
 
-## Clave de Respuestas
-1. Los rendimientos potenciales más altos generalmente vienen con más riesgo   2. Falso   3. Horizonte temporal, objetivos financieros, tolerancia al riesgo (entre otros)   4. Más tiempo permite superar la volatilidad a corto plazo
+Igual que un ETF, un fondo de inversión reúne el dinero de muchos inversores para comprar un conjunto de activos. Ambos comparten el concepto básico de "canasta" de la lección anterior.
 
-## Respuestas y Explicaciones
-1. Esta es la relación fundamental entre riesgo y rendimiento en la inversión.
-2. Más riesgo significa más potencial — y más potencial de pérdida — no una garantía.
-3. Estos son factores fundamentales que dan forma al nivel de riesgo apropiado de cada persona.
-4. Los horizontes más largos dan más tiempo para recuperarse de las caídas antes de necesitar el dinero.
+### En qué se parecen
 
-## Puntos Clave para Recordar
-- Un rendimiento potencial más alto generalmente se correlaciona con más riesgo.
-- Esta es una tendencia general, no una garantía para ninguna inversión específica.
-- El nivel de riesgo apropiado depende del horizonte temporal, los objetivos, y la tolerancia personal.
+Tanto los fondos de inversión como los ETF ofrecen una exposición diversificada a una canasta de inversiones mediante una sola inversión, y ambos pueden gestionarse de forma activa o pasiva.
+
+### Una diferencia práctica clave
+
+A diferencia de los ETF, que se negocian a lo largo del día en una bolsa a precios que cambian constantemente, las participaciones de un fondo de inversión normalmente se valoran y se negocian solo una vez al día, después del cierre de los mercados, según el valor calculado de ese día.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversor que compra un ETF puede ver cómo cambia su precio minuto a minuto durante el horario del mercado. Un inversor que compra un fondo de inversión hace su orden y recibe un precio calculado al final de esa jornada, no en tiempo real.
+
+## Cuestionario de práctica
+
+1. Un fondo de inversión es:
+   A. La acción de una sola empresa
+   B. Un fondo común que invierte en un conjunto de activos, parecido en concepto a un ETF
+   C. Exclusivamente un tipo de bono
+   D. Un programa de ahorro del gobierno
+2. Verdadero o falso: las participaciones de un fondo de inversión se negocian de forma continua a lo largo del día, como las de un ETF.
+3. ¿Cuál es una diferencia práctica clave entre los fondos de inversión y los ETF?
+   A. Los fondos de inversión no pueden tener acciones
+   B. Los fondos de inversión normalmente se valoran una vez al día; los ETF se negocian a lo largo del día
+   C. Los ETF no pueden estar diversificados
+   D. No hay ninguna diferencia real
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo de inversión reúne dinero en una canasta diversificada, parecido en concepto a un ETF.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los fondos de inversión normalmente se valoran una vez al día, a diferencia de los ETF.
+
+### Pregunta 3
+
+Respuesta correcta: B. La frecuencia con la que se fija el precio es una diferencia práctica clave.
+
+## Puntos clave
+
+- Un fondo de inversión reúne el dinero de los inversores en una canasta diversificada, parecido a un ETF.
+- Ambos ofrecen una exposición diversificada mediante una sola inversión.
+- Los fondos de inversión normalmente se valoran una vez al día; los ETF se negocian a lo largo del día.

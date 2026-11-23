@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 1
 locale: es-Caribbean
-title: "¿Qué Son los Activos de Papel?"
-summary: "Las categorías comunes incluyen acciones (equity), renta fija (bonos), e inversiones agrupadas (fondos mutuos, ETFs) — cada una representando una manera diferente de obtener exposición financiera sin poseer un activo físico directamente."
-sourceVersion: "1.0"
+title: "¿Qué es un activo de papel? (Y por qué lo llamamos así)"
+summary: "Aprende qué representa realmente un activo de papel y en qué se diferencia de ser dueño de una propiedad física."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-001: ¿Qué Son los Activos de Papel?
+# ¿Qué es un activo de papel? (Y por qué lo llamamos así)
 
-## Objetivos de Aprendizaje
-1. Definir los activos de papel en términos sencillos.
-2. Distinguir los activos de papel de los bienes raíces y activos físicos.
-3. Identificar las categorías comunes de activos de papel.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Los activos de papel son instrumentos financieros que representan propiedad o un derecho sobre un valor — acciones, bonos, fondos mutuos, y valores similares — en lugar de propiedad física como bienes raíces u oro. *HECHO VERIFICADO:* El término "papel" es histórico, y se refiere a cuando la propiedad se registraba en certificados físicos; hoy en día estos son casi enteramente registros digitales.
+Al final de esta lección, deberías poder:
 
-Las categorías comunes incluyen acciones (equity), renta fija (bonos), e inversiones agrupadas (fondos mutuos, ETFs) — cada una representando una manera diferente de obtener exposición financiera sin poseer un activo físico directamente.
+- Definir un activo de papel en términos sencillos.
+- Explicar qué representa realmente un activo de papel.
+- Comparar los activos de papel con los bienes raíces como un tipo distinto de valor.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Priya compra 10 acciones de una compañía a través de su aplicación de corretaje. Ella posee un pequeño derecho fraccional sobre el valor y las ganancias futuras de esa compañía — ningún objeto físico cambia de manos, no hay escritura, ni certificado enviado por correo. Su propiedad existe completamente como un registro electrónico en su casa de corretaje.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué son los activos de papel?
-2. ¿Por qué es histórico el término "papel"?
-3. Nombra dos categorías comunes de activos de papel.
-4. Verdadero/Falso: Comprar acciones hoy en día típicamente implica un certificado físico.
+### Qué significa "activo de papel"
 
-## Clave de Respuestas
-1. Instrumentos financieros que representan propiedad o un derecho sobre un valor   2. La propiedad se registraba históricamente en certificados físicos   3. Acciones, renta fija (entre otras)   4. Falso
+Un activo de papel es un derecho financiero (antes un certificado físico, hoy casi siempre un registro digital) que representa propiedad o un derecho a un valor futuro, en lugar de ser en sí mismo una cosa física que se puede usar. Una acción representa la propiedad parcial de una empresa. Un bono representa una promesa de que te devolverán el dinero, con intereses.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental que distingue los activos de papel de la propiedad física.
-2. El nombre refleja una época anterior de registro basado en papel.
-3. Las acciones y los bonos son categorías fundamentales de activos de papel.
-4. La propiedad moderna es casi completamente digital, no certificados físicos.
+### Qué hay debajo de un activo de papel
 
-## Puntos Clave para Recordar
-- Los activos de papel representan propiedad o derechos sobre un valor, no propiedad física.
-- El término es histórico — las tenencias modernas son registros digitales.
-- Acciones, bonos, e inversiones agrupadas son categorías fundamentales de activos de papel.
+Ser dueño de una acción de una empresa no significa ser dueño de un escritorio o una máquina específicos: significa ser dueño de una pequeña porción del valor total de la empresa. El valor del activo de papel depende por completo de lo que hay debajo: la empresa real, el deudor real, el gobierno real que respalda un bono.
+
+### Activos de papel y bienes raíces
+
+Los bienes raíces del bloque RED son físicos: terrenos y estructuras que puedes tocar. Los activos de papel del bloque WHITE son derechos: porciones de propiedad, acuerdos de préstamo, derechos a pagos futuros. Además, los activos de papel suelen ser más fáciles y rápidos de comprar, vender y dividir en partes pequeñas que una propiedad física.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Tener 10 acciones de una empresa significa ser dueño de una porción pequeña y definida del valor total de la empresa, no de ninguna pieza específica de sus activos físicos. Ese valor sube o baja según cambian las perspectivas de la empresa.
+
+## Prueba de práctica
+
+1. La mejor descripción de un activo de papel es:
+   A. Un objeto físico que puedes usar directamente
+   B. Un derecho sobre la propiedad o sobre un valor futuro
+   C. Un tipo de moneda
+   D. Un formulario emitido por el gobierno
+2. Verdadero o falso: el valor de una acción viene principalmente del hecho de que es un registro oficial.
+3. ¿Por qué vender una acción suele ser mucho más rápido que vender una casa?
+   A. Es ilegal tener acciones a largo plazo
+   B. Las acciones son unidades pequeñas y estandarizadas que no requieren encontrar a un comprador específico que encaje
+   C. Las casas valen más
+   D. No hay ninguna diferencia real de rapidez
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un activo de papel representa propiedad o un derecho sobre un valor futuro.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El valor viene de lo que el activo representa, no del papel o del registro en sí.
+
+### Pregunta 3
+
+Respuesta correcta: B. Lo que hace más rápida la venta de acciones es que son unidades pequeñas y estandarizadas que no necesitan un comprador único que encaje.
+
+## Puntos clave
+
+- Un activo de papel es un derecho sobre un valor, no un objeto físico.
+- Su valor viene de lo que hay debajo.
+- Los activos de papel suelen ser más fáciles y rápidos de comprar, vender y dividir que los bienes raíces.

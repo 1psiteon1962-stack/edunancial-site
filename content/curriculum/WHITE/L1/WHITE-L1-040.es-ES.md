@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 40
 locale: es-ES
-title: "Rebalanceando una Cartera"
-summary: "Lección WHITE-L1-040 en español."
-sourceVersion: "1.0"
+title: "¿Qué es un símbolo bursátil?"
+summary: "Aprende qué es un símbolo bursátil y por qué la precisión importa al identificar una acción específica."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-040: Rebalanceando una Cartera
+# ¿Qué es un símbolo bursátil?
 
-## Objetivos de Aprendizaje
-1. Definir el rebalanceo de cartera.
-2. Explicar por qué las distribuciones se desvían con el tiempo sin rebalancear.
-3. Identificar los enfoques comunes de rebalanceo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Rebalancear significa ajustar periódicamente una cartera de vuelta a su distribución de activos objetivo, ya que distintos activos crecen a distintas tasas y causan que la distribución original se desvíe con el tiempo. *ASUNCIÓN:* Los enfoques comunes de rebalanceo incluyen basado en calendario (por ejemplo, anualmente) o basado en umbral (rebalanceando cuando una distribución se desvía un cierto porcentaje del objetivo) — ningún enfoque es universalmente superior.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversor empieza con una distribución objetivo de 70% acciones / 30% bonos. Después de un año fuerte para las acciones, la cartera se desvía a 80% acciones / 20% bonos — ahora llevando más riesgo del originalmente pretendido. Rebalancear significa vender algunas acciones y comprar bonos para volver al objetivo original de 70/30, realineando el nivel de riesgo de la cartera con el plan original del inversor.
+- Definir un símbolo bursátil en términos sencillos.
+- Explicar por qué importa la precisión al usarlo.
+- Reconocer que nombres que suenan parecido pueden tener símbolos muy distintos.
 
-## Cuestionario Práctico
-1. ¿Qué es el rebalanceo de cartera?
-2. ¿Por qué se desvían las distribuciones con el tiempo?
-3. Nombra dos enfoques comunes de rebalanceo.
-4. En el ejemplo práctico, ¿qué le pasó al nivel de riesgo de la cartera antes de rebalancear?
+## Contenido principal
 
-## Clave de Respuestas
-1. Ajustar una cartera de vuelta a su distribución objetivo   2. Distintos activos crecen a distintas tasas   3. Basado en calendario, basado en umbral   4. El riesgo aumentó a medida que la distribución en acciones creció más allá del objetivo
+### Qué es un símbolo bursátil
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental del rebalanceo.
-2. Las tasas de crecimiento diferenciales causan que las distribuciones se desvíen de los objetivos originales.
-3. Estos son los dos enfoques generales de rebalanceo comúnmente citados.
-4. La desviación hacia una mayor distribución en acciones aumentó el perfil de riesgo de la cartera más allá del plan original.
+Un símbolo bursátil (ticker) es un código corto y único (normalmente letras) asignado a la acción de una empresa que cotiza en bolsa, que se usa para identificarla con precisión en una bolsa.
 
-## Puntos Clave para Recordar
-- El rebalanceo restaura una cartera a su distribución objetivo a medida que se desvía con el tiempo.
-- La desviación ocurre porque distintos activos crecen a distintas tasas.
-- Los enfoques comunes incluyen el rebalanceo basado en calendario y basado en umbral.
+### Por qué importa la precisión
+
+Como muchas empresas pueden tener nombres parecidos o relacionados, el símbolo bursátil es lo que identifica de forma real e inequívoca qué acción específica se compra, se vende o se comenta; depender solo del nombre de la empresa puede llevar a errores costosos.
+
+### Nombres parecidos, símbolos distintos
+
+Dos empresas con nombres que suenan parecido pueden tener símbolos bursátiles completamente distintos, y los errores de escritura o la confusión entre símbolos son un riesgo real y evitable al hacer una operación de verdad.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversora que quiere comprar acciones de una empresa específica busca su símbolo bursátil exacto antes de dar la orden, en vez de fiarse de lo que recuerda del nombre de la empresa, para no negociar por error la acción equivocada.
+
+## Cuestionario de práctica
+
+1. Un símbolo bursátil es:
+   A. El nombre legal completo de una empresa
+   B. Un código corto y único que identifica una acción específica en una bolsa
+   C. Un tipo de dividendo
+   D. Un número de identificación fiscal del gobierno
+2. Verdadero o falso: fiarse solo del nombre de una empresa, sin revisar el símbolo bursátil exacto, es una forma segura de asegurar la operación correcta.
+3. ¿Por qué importa la precisión al usar un símbolo bursátil?
+   A. No importa en absoluto
+   B. Nombres de empresas parecidos pueden tener símbolos muy distintos, y los errores son costosos
+   C. Todas las empresas comparten el mismo símbolo bursátil
+   D. Los símbolos bursátiles son opcionales
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un símbolo bursátil identifica de forma única una acción específica.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Fiarse solo del nombre arriesga confundir empresas con nombres parecidos.
+
+### Pregunta 3
+
+Respuesta correcta: B. La precisión evita errores costosos al operar.
+
+## Puntos clave
+
+- Un símbolo bursátil identifica de forma única una acción específica en una bolsa.
+- La precisión importa: los nombres de las empresas pueden parecerse aunque sus símbolos sean completamente distintos.
+- Revisar el símbolo exacto antes de operar evita errores costosos.

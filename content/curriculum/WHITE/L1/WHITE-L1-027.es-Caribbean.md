@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 27
 locale: es-Caribbean
-title: "Las Acciones de Centavo y Sus Riesgos"
-summary: "*HECHO VERIFICADO:* Las acciones de centavo generalmente conllevan riesgo elevado debido a la baja liquidez (más difícil comprar/vender sin mover el precio), información pública limitada, y mayor susceptibilidad a esquemas de manipulación como el \"pump and dump\" (bombeo y descarga), donde los promotores inflan artificialmente un precio antes de vender sus propias acciones a compradores desprevenidos."
-sourceVersion: "1.0"
+title: "¿Qué es el rendimiento?"
+summary: "Aprende qué mide el rendimiento en distintos activos de papel y en qué se diferencia de la apreciación del precio."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-027: Las Acciones de Centavo y Sus Riesgos
+# ¿Qué es el rendimiento?
 
-## Objetivos de Aprendizaje
-1. Definir una acción de centavo.
-2. Identificar por qué las acciones de centavo conllevan riesgo elevado.
-3. Reconocer las señales de advertencia comunes asociadas con esquemas de acciones de centavo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*ESTIMADO:* Las acciones de centavo se definen comúnmente (aunque no de manera perfectamente uniforme) como acciones que se negocian por debajo de $5, a menudo de compañías pequeñas y poco negociadas con información pública limitada disponible.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Las acciones de centavo generalmente conllevan riesgo elevado debido a la baja liquidez (más difícil comprar/vender sin mover el precio), información pública limitada, y mayor susceptibilidad a esquemas de manipulación como el "pump and dump" (bombeo y descarga), donde los promotores inflan artificialmente un precio antes de vender sus propias acciones a compradores desprevenidos.
+- Definir el rendimiento en términos sencillos.
+- Calcular un rendimiento básico a partir del ingreso y el precio.
+- Distinguir el rendimiento de la apreciación del precio.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una acción de centavo se promueve fuertemente en las redes sociales con afirmaciones de retornos masivos garantizados. Su precio se dispara rápidamente mientras nuevos compradores se apresuran a comprar. Poco después, los promotores originales venden sus acciones, causando que el precio colapse — el patrón clásico de un esquema de pump and dump, dejando a los compradores tardíos con pérdidas significativas.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué umbral de precio se cita comúnmente para una acción de centavo?
-2. Nombra dos razones por las que las acciones de centavo conllevan riesgo elevado.
-3. ¿Qué es un esquema de "pump and dump"?
-4. Verdadero/Falso: Las acciones de centavo siempre tienen abundante información pública disponible.
+### Qué significa rendimiento
 
-## Clave de Respuestas
-1. Por debajo de $5   2. Baja liquidez, información pública limitada (entre otras)   3. Un esquema donde los promotores inflan un precio y luego venden antes de que colapse   4. Falso
+El rendimiento (yield) mide en general el ingreso que genera una inversión (como los dividendos de una acción o los intereses de un bono), expresado como porcentaje de su precio.
 
-## Respuestas y Explicaciones
-1. Este es un umbral comúnmente citado, aunque no perfectamente estandarizado.
-2. Estos están entre los principales factores de riesgo de las acciones de centavo.
-3. Este es el patrón clásico de manipulación asociado con las acciones de centavo.
-4. Las acciones de centavo a menudo tienen información pública limitada, a diferencia de las compañías más grandes y bien cubiertas.
+### La fórmula básica
 
-## Puntos Clave para Recordar
-- Las acciones de centavo se definen comúnmente como acciones de bajo precio de compañías pequeñas y poco negociadas.
-- Conllevan riesgo elevado por baja liquidez, información limitada, y potencial de manipulación.
-- Los esquemas de pump and dump son un patrón de riesgo reconocido específico de esta categoría.
+Rendimiento = Ingreso anual ÷ Precio actual. En una acción, el "ingreso" suele referirse a los dividendos; en un bono, suele referirse a los pagos de intereses.
+
+### Rendimiento frente a apreciación del precio
+
+El rendimiento mide específicamente el ingreso, no la ganancia de precio. Una acción puede tener un rendimiento alto por sus dividendos mientras su precio se mantiene estable, o un rendimiento bajo mientras su precio sube mucho: son dos fuentes distintas de rendimiento potencial, no la misma cosa.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una acción se negocia a $50 y paga $2 de dividendos al año. Rendimiento = $2 ÷ $50 = 4%. Esto es aparte del cambio en el precio de la propia acción, que no está incluido.
+
+## Prueba de práctica
+
+1. El rendimiento se calcula como:
+   A. Apreciación del precio ÷ tiempo de tenencia
+   B. Ingreso anual ÷ precio actual
+   C. Total de acciones ÷ ganancia neta
+   D. Precio de la acción ÷ EPS
+2. Verdadero o falso: el rendimiento mide la apreciación del precio, no el ingreso.
+3. Un bono paga $40 al año y su precio es de $1,000. ¿Cuál es su rendimiento?
+   A. 0.4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Rendimiento = Ingreso anual ÷ Precio actual.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El rendimiento mide el ingreso, no la apreciación del precio.
+
+### Pregunta 3
+
+Respuesta correcta: B. $40 ÷ $1,000 = 4%.
+
+## Puntos clave
+
+- Rendimiento = Ingreso anual ÷ Precio actual.
+- Mide el ingreso (dividendos o intereses), no la apreciación del precio.
+- El ingreso y la apreciación del precio son dos fuentes distintas de rendimiento potencial.

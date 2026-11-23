@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 37
 locale: es-ES
-title: "Entendiendo la Rentabilidad"
-summary: "Lección WHITE-L1-037 en español."
-sourceVersion: "1.0"
+title: "¿Qué es el escenario alcista y el escenario bajista de una acción?"
+summary: "Aprende qué significa construir un escenario alcista o un escenario bajista para una acción y por qué importa considerar ambos."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-037: Entendiendo la Rentabilidad
+# ¿Qué es el escenario alcista y el escenario bajista de una acción?
 
-## Objetivos de Aprendizaje
-1. Definir la rentabilidad en términos generales de inversión.
-2. Distinguir la rentabilidad del rendimiento total.
-3. Calcular un ejemplo sencillo de rentabilidad.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-La rentabilidad generalmente mide el ingreso generado por una inversión (como dividendos o intereses) en relación a su precio, expresado como un porcentaje. *HECHO VERIFICADO:* La rentabilidad difiere del rendimiento total, que también incluye la apreciación o depreciación del precio — la rentabilidad captura solo el componente de ingreso, no la ganancia o pérdida general.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un bono comprado a $1.000 paga $50 de interés anual — una rentabilidad del 5%. Si el precio de mercado de ese mismo bono luego sube a $1.050 mientras el inversor todavía lo mantiene, su cálculo de rentabilidad (basado en el coste original) permanece conceptualmente ligado al ingreso, mientras que su rendimiento total ahora también reflejaría esa apreciación de precio si decidiera vender.
+- Definir en términos sencillos un escenario alcista y un escenario bajista.
+- Explicar por qué importa construir los dos, no solo uno.
+- Aplicar el concepto a un ejemplo hipotético básico.
 
-## Cuestionario Práctico
-1. ¿Qué mide generalmente la rentabilidad?
-2. ¿En qué se diferencia la rentabilidad del rendimiento total?
-3. Si una inversión de $500 paga $25 de ingreso anual, ¿cuál es la rentabilidad?
-4. Verdadero/Falso: La rentabilidad tiene en cuenta la apreciación de precio.
+## Contenido principal
 
-## Clave de Respuestas
-1. El ingreso generado en relación al precio   2. El rendimiento total también incluye la apreciación/depreciación de precio   3. 5%   4. Falso
+### Qué es un escenario alcista
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de la rentabilidad.
-2. Esta es la distinción clave entre rentabilidad y rendimiento total.
-3. $25 ÷ $500 = 0,05 = 5%.
-4. La rentabilidad captura solo el ingreso, no el movimiento de precio.
+Un escenario alcista (bull case) es un argumento razonado de por qué una acción (u otra inversión) podría tener un buen desempeño, basado en factores concretos como el potencial de crecimiento, las ventajas competitivas o las tendencias favorables.
 
-## Puntos Clave para Recordar
-- La rentabilidad mide el ingreso en relación al precio, como porcentaje.
-- La rentabilidad es distinta del rendimiento total, que también incluye los cambios de precio.
-- Entender esta distinción evita confundir el ingreso con el comportamiento general de la inversión.
+### Qué es un escenario bajista
+
+Un escenario bajista (bear case) es un argumento razonado de por qué una acción podría tener un mal desempeño, basado en riesgos, debilidades o tendencias desfavorables concretas.
+
+### Por qué importa considerar ambos
+
+Construir solo un escenario alcista (o solo uno bajista) crea una visión parcial y posiblemente demasiado confiada. Considerar de verdad ambas perspectivas, incluso con una inversión que a alguien le entusiasma, lleva a entender de forma más realista los riesgos y el potencial reales.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversora que considera una empresa en crecimiento podría construir un escenario alcista en torno a su mercado en expansión y sus buenos productos, y también un escenario bajista en torno a la nueva competencia y el aumento de los costos, y sopesar ambos antes de decidir.
+
+## Cuestionario de práctica
+
+1. Un escenario alcista es:
+   A. Un argumento razonado de por qué una inversión podría tener un mal desempeño
+   B. Un argumento razonado de por qué una inversión podría tener un buen desempeño
+   C. Una predicción garantizada del desempeño futuro
+   D. Un tipo de bono
+2. Verdadero o falso: construir solo un escenario alcista de una inversión da una visión completa y equilibrada.
+3. ¿Por qué importa considerar tanto un escenario alcista como uno bajista?
+   A. No importa en absoluto
+   B. Lleva a una comprensión más realista y equilibrada de una inversión
+   C. Garantiza un resultado rentable
+   D. Solo es relevante para los bonos
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un escenario alcista argumenta un posible desempeño positivo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una visión parcial pasa por alto riesgos o debilidades reales.
+
+### Pregunta 3
+
+Respuesta correcta: B. Considerar ambos lleva a una visión más equilibrada y realista.
+
+## Puntos clave
+
+- Un escenario alcista argumenta un posible desempeño positivo; un escenario bajista, un posible desempeño negativo.
+- Construir solo un lado crea una visión incompleta y demasiado confiada.
+- Considerar ambos lleva a tomar decisiones de inversión más realistas.

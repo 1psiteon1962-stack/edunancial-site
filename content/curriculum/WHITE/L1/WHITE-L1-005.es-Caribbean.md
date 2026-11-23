@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 5
 locale: es-Caribbean
-title: "ETFs vs. Fondos Mutuos"
-summary: "*ESTIMADO:* Los ETFs comúnmente (aunque no universalmente) tienen ratios de gastos más bajos que los fondos mutuos administrados activamente, ya que muchos ETFs siguen un índice de manera pasiva en lugar de emplear selección activa de acciones."
-sourceVersion: "1.0"
+title: "Acciones y bonos: ¿cuál es el verdadero equilibrio entre ambos?"
+summary: "Aprende el verdadero equilibrio entre acciones y bonos (potencial de crecimiento frente a prioridad de pago), no solo \"riesgoso frente a seguro\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-005: ETFs vs. Fondos Mutuos
+# Acciones y bonos: ¿cuál es el verdadero equilibrio entre ambos?
 
-## Objetivos de Aprendizaje
-1. Definir un ETF (Fondo Cotizado en Bolsa).
-2. Identificar las diferencias estructurales clave entre los ETFs y los fondos mutuos.
-3. Explicar por qué la flexibilidad de negociación difiere entre los dos.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un ETF es similar a un fondo mutuo en que posee una canasta diversificada de valores, pero se negocia en una bolsa durante todo el día como una acción, en lugar de calcularse una vez al día. *HECHO VERIFICADO:* Esto significa que los precios de los ETFs pueden fluctuar durante el día de negociación, y los inversionistas pueden comprar o vender en cualquier momento en que los mercados estén abiertos, a diferencia de los fondos mutuos que solo se calculan al final del día.
+Al final de esta lección, deberías poder:
 
-*ESTIMADO:* Los ETFs comúnmente (aunque no universalmente) tienen ratios de gastos más bajos que los fondos mutuos administrados activamente, ya que muchos ETFs siguen un índice de manera pasiva en lugar de emplear selección activa de acciones.
+- Explicar la diferencia estructural central entre acciones y bonos.
+- Explicar por qué, en general, a los tenedores de bonos se les paga antes que a los accionistas.
+- Evitar la visión simplificada de que "las acciones son riesgosas y los bonos son seguros".
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Wei quiere invertir en un fondo diversificado a las 11am cuando nota una caída en el mercado. Con un ETF, puede ejecutar esa transacción inmediatamente al precio de mercado actual. Si en cambio hubiera elegido un fondo mutuo equivalente, su orden no se ejecutaría hasta que se calcule el NAV de ese día después del cierre del mercado — pierde la capacidad de reaccionar a los movimientos de precio durante el día.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Cuál es una diferencia clave de negociación entre los ETFs y los fondos mutuos?
-2. Verdadero/Falso: Los precios de los ETFs son fijos una vez al día, como los fondos mutuos.
-3. ¿Qué tienen comúnmente muchos ETFs que puede hacerlos costar menos que los fondos mutuos administrados activamente?
-4. ¿Por qué podría un inversionista valorar la flexibilidad de negociación de los ETFs?
+### La diferencia estructural
 
-## Clave de Respuestas
-1. Los ETFs se negocian durante todo el día; los fondos mutuos se calculan una vez al día   2. Falso   3. Ratios de gastos más bajos, debido al seguimiento pasivo de índices   4. Capacidad de reaccionar a los movimientos de precio durante el día
+Una acción representa propiedad; un bono representa un préstamo. Esta sola diferencia explica la mayoría de las diferencias prácticas entre ellos, que se ven en esta lección.
 
-## Respuestas y Explicaciones
-1. Esta es la diferencia estructural definitoria entre los dos vehículos.
-2. Los precios de los ETFs fluctúan durante el día de negociación, a diferencia de los fondos mutuos.
-3. La administración pasiva comúnmente reduce los costos comparada con la administración activa.
-4. La negociación durante el día permite un momento de entrada y salida más receptivo.
+### La prioridad de pago
 
-## Puntos Clave para Recordar
-- Los ETFs se negocian durante el día como las acciones; los fondos mutuos se calculan una vez al día.
-- Los ETFs comúnmente tienen ratios de gastos más bajos debido a la administración pasiva, aunque no universalmente.
-- La flexibilidad de negociación es una diferencia práctica clave que los inversionistas deben considerar.
+Si una empresa tiene problemas financieros graves, los tenedores de bonos (como prestamistas) en general tienen el derecho legal de cobrar antes de que los accionistas (como dueños) reciban algo. Es una prioridad estructural real, no solo una fama general de seguridad.
+
+### Más allá de "riesgoso o seguro"
+
+Decir simplemente que las acciones son "riesgosas" y los bonos "seguros" simplifica demasiado un equilibrio más matizado: las acciones ofrecen el potencial de la propiedad (crecimiento ilimitado, pero sin garantía de devolución), mientras que los bonos ofrecen términos de devolución definidos por contrato (pero un rendimiento potencial limitado y sus propios riesgos reales, como que el emisor no pague).
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Si una empresa quiebra, en general sus tenedores de bonos están en la fila para cobrar con los activos que queden antes de que sus accionistas reciban algo; el derecho de los accionistas va al final, lo que refleja la diferencia estructural entre propiedad y préstamo.
+
+## Prueba de práctica
+
+1. La diferencia estructural central entre acciones y bonos es que:
+   A. Las acciones siempre son más riesgosas que los bonos
+   B. Las acciones representan propiedad; los bonos representan un préstamo
+   C. Los bonos siempre pagan rendimientos más altos
+   D. No hay ninguna diferencia real
+2. Verdadero o falso: en la quiebra de una empresa, los tenedores de bonos en general tienen un derecho de cobro anterior al de los accionistas.
+3. ¿Por qué "las acciones son riesgosas, los bonos son seguros" es una simplificación excesiva?
+   A. Es completamente exacto, sin matices
+   B. Ambos tienen equilibrios reales y distintos entre riesgo y recompensa
+   C. Los bonos no tienen ningún riesgo
+   D. Las acciones siempre pierden dinero
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Propiedad frente a préstamo es la diferencia estructural central.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. En general, los tenedores de bonos tienen prioridad de cobro sobre los accionistas.
+
+### Pregunta 3
+
+Respuesta correcta: B. Ambos tienen tipos de riesgo reales y distintos; la visión simplificada pasa por alto ese matiz.
+
+## Puntos clave
+
+- Las acciones representan propiedad; los bonos representan un préstamo.
+- En general, los tenedores de bonos tienen prioridad de cobro sobre los accionistas.
+- "Riesgoso frente a seguro" simplifica demasiado un equilibrio más matizado entre ambos.

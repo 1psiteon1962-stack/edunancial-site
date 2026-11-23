@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 43
 locale: es-Caribbean
-title: "Cómo Leer el Reporte Anual de una Compañía — Lo Básico"
-summary: "Un reporte anual generalmente le provee a los accionistas el desempeño financiero y una visión general del negocio de la compañía para el año. Las secciones comunes incluyen: una carta de la gerencia, estados financieros (estado de resultados, balance general, estado de flujo de efectivo), discusión de la gerencia sobre los resultados, y divulgaciones de riesgo."
-sourceVersion: "1.0"
+title: "¿Qué es la asignación de activos?"
+summary: "Aprende qué significa la asignación de activos y en qué se diferencia de la diversificación dentro de un solo tipo de activo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-043: Cómo Leer el Reporte Anual de una Compañía — Lo Básico
+# ¿Qué es la asignación de activos?
 
-## Objetivos de Aprendizaje
-1. Identificar el propósito general de un reporte anual.
-2. Nombrar las secciones comunes que se encuentran en un reporte anual.
-3. Explicar por qué los reportes anuales importan para los inversionistas individuales.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* Los requisitos y formatos de los reportes anuales (como la presentación 10-K de EE. UU.) varían por país y jurisdicción regulatoria.
+Al final de esta lección, deberías poder:
 
-Un reporte anual generalmente le provee a los accionistas el desempeño financiero y una visión general del negocio de la compañía para el año. Las secciones comunes incluyen: una carta de la gerencia, estados financieros (estado de resultados, balance general, estado de flujo de efectivo), discusión de la gerencia sobre los resultados, y divulgaciones de riesgo.
+- Definir la asignación de activos en términos sencillos.
+- Distinguirla de la diversificación dentro de una sola categoría de activos.
+- Explicar por qué a menudo se describe como una decisión fundamental del portafolio.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversionista considerando una compañía lee la sección de divulgación de riesgo de su reporte anual y descubre que la compañía enfrenta un litigio pendiente significativo no ampliamente cubierto en las noticias casuales. Este detalle, encontrado en el reporte formal en lugar de los titulares, informa la decisión del inversionista de una manera que la investigación superficial podría haber pasado por alto.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué le provee generalmente un reporte anual a los accionistas?
-2. Nombra dos secciones comunes de un reporte anual.
-3. Verdadero/Falso: Los formatos de los reportes anuales son idénticos en todo el mundo.
-4. ¿Por qué podría leer el reporte completo revelar información que las noticias casuales pasan por alto?
+### Qué es la asignación de activos
 
-## Clave de Respuestas
-1. El desempeño financiero y una visión general del negocio para el año   2. Estados financieros, divulgaciones de riesgo (entre otras)   3. Falso   4. Las divulgaciones formales a menudo incluyen detalles no cubiertos prominentemente en las noticias generales
+La asignación de activos se refiere a cómo un inversionista reparte su portafolio total entre distintas categorías amplias de activos (como acciones, bonos y efectivo), y no a qué inversiones específicas elige dentro de cada categoría.
 
-## Respuestas y Explicaciones
-1. Este es el propósito general de un reporte anual.
-2. Estas están entre las secciones estándar encontradas en la mayoría de los reportes anuales.
-3. Los formatos y requisitos varían por país y jurisdicción regulatoria.
-4. Las divulgaciones formales detalladas pueden revelar riesgos o detalles subreportados en otros lugares.
+### En qué se diferencia de la diversificación
 
-## Puntos Clave para Recordar
-- Los reportes anuales proveen a los accionistas una visión formal del desempeño financiero anual.
-- Las secciones comunes incluyen estados financieros, discusión de la gerencia, y divulgaciones de riesgo.
-- Leer el reporte completo puede revelar detalles no cubiertos en las noticias generales.
+La diversificación (que vimos antes en este nivel) se refiere en general a repartir las inversiones dentro de una categoría, como tener muchas acciones distintas. La asignación de activos opera un nivel más arriba: decidir cuánto va a acciones en total, cuánto a bonos en total y cuánto a efectivo en total.
+
+### Por qué es fundamental
+
+La asignación de activos se describe a menudo como una de las decisiones más importantes al construir un portafolio, porque la combinación amplia entre categorías de activos (no solo qué acciones específicas se eligen) tiene un efecto importante sobre el riesgo y el rendimiento potencial totales.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista podría decidir una asignación del 70% en acciones, 25% en bonos y 5% en efectivo, una decisión que toma antes de elegir qué acciones o bonos específicos tendrá dentro de esa estructura.
+
+## Prueba de práctica
+
+1. La asignación de activos se refiere a:
+   A. Elegir acciones individuales específicas
+   B. Repartir un portafolio entre categorías amplias como acciones, bonos y efectivo
+   C. Un tipo de dividendo
+   D. Un programa de retiro del gobierno
+2. Verdadero o falso: la asignación de activos y la diversificación dentro de una categoría significan exactamente lo mismo.
+3. ¿Por qué la asignación de activos se describe a menudo como una decisión fundamental?
+   A. Tiene poco efecto sobre un portafolio
+   B. La combinación amplia entre categorías afecta de forma importante el riesgo y el rendimiento totales
+   C. Solo importa en los bonos
+   D. Reemplaza la necesidad de cualquier otra decisión de inversión
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La asignación de activos es el reparto del portafolio a nivel de categorías amplias.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La asignación es a nivel de categorías; la diversificación es dentro de una categoría.
+
+### Pregunta 3
+
+Respuesta correcta: B. La combinación amplia de categorías afecta de forma importante el comportamiento total del portafolio.
+
+## Puntos clave
+
+- La asignación de activos es cómo se reparte un portafolio entre categorías amplias.
+- Es una decisión distinta y de nivel más alto que la diversificación dentro de una categoría.
+- Se considera una decisión fundamental al construir un portafolio.
