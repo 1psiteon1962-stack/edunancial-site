@@ -1,0 +1,454 @@
+===== PURPLE-L5-011
+TITLE: Testament ou fiducie entre vifs révocable : homologation, confidentialité et coût
+SUMMARY: Un testament passe souvent par une procédure judiciaire publique, alors qu'une fiducie révocable correctement dotée transmet souvent les biens plus rapidement et plus discrètement; l'étape que la plupart oublient est d'y transférer réellement les biens.
+KEYWORDS: testament ou fiducie entre vifs, fiducie révocable, éviter l'homologation, notions de planification successorale, doter une fiducie
+# Testament ou fiducie entre vifs révocable : homologation, confidentialité et coût
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez que les marchés immobilier et du crédit à la consommation d'un pays très peuplé, après des années d'expansion rapide, commencent à montrer des signes d'une correction marquée à mesure que les défauts de paiement augmentent.
+Appliquez-le ici : Pendant une correction immobilière marquée, un propriétaire décède. Posez la question pour plusieurs couleurs : la famille pourra-t-elle vendre ou refinancer l'immeuble rapidement (ROUGE), ou sera-t-il bloqué dans une procédure judiciaire pendant des mois? Les comptes de placement (BLANC) seront-ils transmis sans heurts? La réponse change-t-elle selon que le propriétaire a utilisé un testament ou une fiducie (VIOLET)?
+
+## Objectifs d'apprentissage
+- Comparer la façon dont les testaments et les fiducies révocables transfèrent les biens
+- Expliquer l'homologation et pourquoi les gens planifient en fonction de celle-ci
+- Repérer l'étape que la plupart des gens oublient : doter la fiducie
+
+## Contenu principal
+Au niveau 2, vous avez appris ce que sont les testaments et les fiducies. Au niveau 5, vous les comparez comme outils qui coordonnent l'immobilier, les placements et les participations dans des entreprises au moment du décès ou de l'inaptitude.
+Un testament est un document juridique qui indique qui reçoit vos biens et qui administre votre succession. Dans de nombreux endroits, un testament passe par l'homologation, une procédure supervisée par un tribunal qui confirme le testament, paie les dettes et transfère les biens.
+Une fiducie entre vifs révocable est un arrangement juridique dans lequel vous (à titre de fiduciaire) détenez le titre de biens à votre propre bénéfice de votre vivant, puis un fiduciaire remplaçant prend la relève à votre décès ou en cas d'inaptitude. Comme c'est la fiducie, et non vous personnellement, qui détient les biens, ceux-ci sont souvent transmis sans homologation. Vous pouvez modifier ou annuler une fiducie révocable de votre vivant.
+FAIT VÉRIFIÉ : Les dossiers d'homologation sont publics dans de nombreux territoires. L'administration d'une fiducie est habituellement plus confidentielle.
+Comment les couleurs sont reliées :
+- ROUGE : Un immeuble détenu dans une fiducie peut souvent être vendu ou géré par le fiduciaire remplaçant sans attendre un tribunal. Posséder des immeubles dans plus d'un État, d'une province ou d'un pays peut entraîner plus d'une procédure d'homologation s'ils ne sont pas dans une fiducie. RÈGLE PROPRE À LA RÉGION; en France, par exemple, le testament peut être authentique devant notaire ou olographe, la loi réserve une part de la succession aux enfants, et c'est le notaire qui règle la succession sans procédure judiciaire de type probate, à confirmer avec un notaire.
+- BLANC : Les comptes de courtage peuvent être inscrits au nom de la fiducie ou faire l'objet d'une désignation de transfert au décès, selon le droit local.
+- BLEU : Les participations dans une entreprise peuvent nécessiter la permission prévue dans la convention d'exploitation avant d'être transférées à une fiducie.
+- VERT : RÈGLE PROPRE À LA RÉGION : Dans de nombreux systèmes, une fiducie révocable ne change pas l'impôt sur le revenu de votre vivant et ne réduit pas à elle seule les impôts successoraux.
+L'échec le plus courant : la dotation. Une fiducie ne contrôle que les biens qui y ont réellement été transférés. Les gens signent une fiducie, paient l'avocat, puis ne modifient jamais le titre de la maison ou des comptes. Au décès, ces biens peuvent quand même passer par l'homologation.
+HYPOTHÈSE/OPINION : Une fiducie coûte habituellement plus cher au départ; l'homologation peut coûter plus cher plus tard. Pour une personne qui possède des biens dans plusieurs territoires, des participations dans des entreprises ou des préoccupations de confidentialité, une fiducie a souvent du sens. Pour une personne dont la succession est simple, dans un endroit où l'homologation est rapide et peu coûteuse, un testament peut suffire. La plupart des plans fondés sur une fiducie comprennent quand même un testament « de déversement » pour recueillir tout ce qui aurait été oublié.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Elena possède une maison, un immeuble locatif dans un autre État, un compte de courtage et 30 % d'une SARL de restaurant familial.
+Option 1 : Testament seulement. Sa succession pourrait devoir passer par l'homologation dans son État de résidence et par une deuxième procédure là où se trouve l'immeuble locatif. Sa part du restaurant est transmise selon le testament, sous réserve de la convention d'exploitation.
+Option 2 : Fiducie révocable avec testament de déversement. Elle transfère le titre des deux immeubles à la fiducie, désigne la fiducie sur son compte de courtage (ou utilise une désignation de transfert au décès) et obtient le consentement écrit de ses associés du restaurant pour céder sa participation dans la SARL à la fiducie.
+À son décès, son fiduciaire remplaçant peut gérer l'immeuble locatif, continuer de percevoir les loyers et vendre la maison sans attendre l'approbation d'un tribunal. Les associés du restaurant avaient déjà accepté le transfert; il n'y a donc aucun différend.
+HYPOTHÈSE/OPINION : Les frais juridiques initiaux d'Elena sont plus élevés, mais elle évite deux procédures d'homologation et garde ses affaires confidentielles. La clé n'était pas de signer la fiducie. C'était de terminer la dotation.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce que l'homologation?**
+A) Un impôt sur le revenu
+B) Une procédure supervisée par un tribunal pour confirmer un testament, payer les dettes et transférer les biens
+C) Un type de fiducie
+D) Un permis d'entreprise
+
+**Q2. Pourquoi une fiducie révocable peut-elle souvent éviter l'homologation?**
+A) Il est illégal d'homologuer une fiducie
+B) Les tribunaux ignorent les fiducies
+C) Les fiducies ne paient pas d'impôt
+D) C'est la fiducie, et non la personne, qui détient les biens qui y ont été transférés
+
+**Q3. Quel est l'échec le plus courant avec les fiducies révocables?**
+A) Ne jamais transférer de biens dans la fiducie
+B) Choisir le mauvais nom de fiduciaire
+C) Utiliser un testament de déversement
+D) La garder confidentielle
+
+**Q4. Pourquoi Elena avait-elle besoin du consentement de ses associés du restaurant?**
+A) C'était une règle fiscale
+B) La banque l'exigeait
+C) Les fiducies ne peuvent pas détenir d'entreprises
+D) La convention d'exploitation peut restreindre le transfert des participations dans une SARL
+
+**Q5. Que fait un testament de déversement?**
+A) Il transfère de l'argent dans une banque
+B) Il recueille les biens laissés hors de la fiducie et les envoie dans celle-ci
+C) Il annule la fiducie
+D) Il paie les impôts successoraux
+
+## Corrigé
+Q1: B
+Q2: D
+Q3: A
+Q4: D
+Q5: B
+
+## Réponses et explications
+**Q1.** L'homologation est la procédure judiciaire que traversent de nombreuses successions, surtout celles qui sont transmises par testament.
+**Q2.** Les biens inscrits au nom de la fiducie sont transmis selon les conditions de la fiducie.
+**Q3.** Une fiducie non dotée ne contrôle rien.
+**Q4.** De nombreuses conventions d'exploitation limitent les transferts, même vers la propre fiducie du propriétaire.
+**Q5.** C'est un filet de sécurité pour tout ce qui n'a pas été transféré dans la fiducie de son vivant.
+
+## Points clés
+- Les testaments passent souvent par l'homologation; les fiducies révocables dotées l'évitent souvent
+- L'homologation est souvent publique; l'administration d'une fiducie est habituellement plus confidentielle
+- Une fiducie ne fonctionne que si les biens y sont réellement transférés
+- Les participations dans une entreprise peuvent nécessiter le consentement des associés avant d'être transférées
+
+===== PURPLE-L5-012
+TITLE: Les fiducies irrévocables et le compromis sur le contrôle
+SUMMARY: Une fiducie irrévocable échange le contrôle contre de possibles avantages fiscaux, de protection et de legs; elle ne doit jamais servir à déjouer des créanciers existants, et il ne faut y transférer que ce dont on peut réellement se départir.
+KEYWORDS: fiducie irrévocable, renoncer au contrôle, planification de l'impôt successoral, fiducie avec clause d'incessibilité, protection par fiducie
+# Les fiducies irrévocables et le compromis sur le contrôle
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez la monnaie d'une économie de taille moyenne qui perd une grande part de sa valeur par rapport aux principales monnaies de réserve en quelques mois, sous l'effet de la fuite des capitaux hors du pays et de l'érosion de la confiance des investisseurs.
+Appliquez-le ici : La monnaie nationale d'une famille perd une grande partie de sa valeur en quelques mois. Certains membres de la famille veulent déplacer rapidement des biens à l'étranger ou les convertir sous d'autres formes. Posez la question pour plusieurs couleurs : si ces biens se trouvent dans une fiducie irrévocable (VIOLET), la famille peut-elle les déplacer librement? Dans quoi le document de fiducie permet-il au fiduciaire d'investir (BLANC/OR)? Quels sont les effets fiscaux (VERT)?
+
+## Objectifs d'apprentissage
+- Expliquer la différence entre les fiducies révocables et irrévocables
+- Décrire les avantages qui découlent de la renonciation au contrôle
+- Évaluer si le compromis convient aux objectifs d'une famille
+
+## Contenu principal
+Une fiducie révocable (PURPLE-L5-011) vous permet de conserver un plein contrôle. Vous pouvez la modifier ou l'annuler. Comme vous conservez le contrôle, le droit de nombreux systèmes traite les biens comme vous appartenant encore aux fins fiscales et à l'égard des créanciers.
+Une fiducie irrévocable est différente. Une fois les biens transférés, la personne qui l'a créée (le constituant) ne peut habituellement pas les reprendre ni en modifier les conditions sans remplir des conditions juridiques précises. RÈGLE PROPRE À LA RÉGION.
+Pourquoi quelqu'un renoncerait-il au contrôle? Parce que, dans de nombreux systèmes, cette même perte de contrôle est ce qui crée certains avantages :
+- VERT : Les biens transférés dans certaines fiducies irrévocables peuvent ne plus faire partie de la succession imposable du constituant. La croissance future peut se produire hors de la succession. RÈGLE PROPRE À LA RÉGION : Les règles, les montants d'exemption et les taux d'imposition des fiducies varient et changent; en France, par exemple, la fiducie existe dans le Code civil depuis 2007 mais reste très encadrée, et les trusts étrangers sont soumis à des obligations déclaratives et à une fiscalité particulière, à confirmer avec un conseiller fiscal.
+- VIOLET : Les biens détenus dans certaines fiducies bien structurées, mises en place à l'avance et non pour tromper des créanciers existants, peuvent être protégés contre les créanciers futurs des bénéficiaires. De nombreuses fiducies comprennent une clause d'« incessibilité » qui empêche un bénéficiaire de mettre en gage ou de vendre son droit futur.
+- STEWARD : Une fiducie peut transmettre des biens d'une génération à l'autre selon des règles écrites, comme financer les études, égaler le revenu gagné ou verser les sommes par étapes.
+Ce à quoi on renonce :
+- Le contrôle des biens.
+- La souplesse si la vie change.
+- Souvent, une fiscalité plus simple. Dans certains systèmes, les fiducies peuvent payer des taux d'imposition plus élevés à des niveaux de revenu plus bas.
+Limites : Le Cadre philosophique est clair. Les fiducies ne sont enseignées qu'à des fins légales. Transférer des biens dans une fiducie pour échapper à un créancier envers qui vous êtes déjà endetté, à un jugement ou à une réclamation juridique d'un conjoint peut être annulé comme un transfert frauduleux et entraîner des pénalités.
+HYPOTHÈSE/OPINION : Une fiducie irrévocable est puissante lorsque les objectifs de la famille sont à long terme et stables. Elle peut sembler une cage si la situation de la famille change rapidement, comme dans le scénario. Une bonne rédaction prévoit une certaine souplesse, comme un protecteur de fiducie ou de vastes pouvoirs de placement.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Gabriel, 60 ans, possède des placements d'une valeur de plusieurs millions. Il veut financer les études de ses petits-enfants et garder la croissance hors de sa succession imposable.
+Avec l'aide d'un conseiller juridique, il crée une fiducie irrévocable :
+- Il transfère 1 million de euros en fonds indiciels.
+- Le fiduciaire est un cousin de confiance, accompagné d'un cofiduciaire professionnel.
+- Distributions : les droits de scolarité et les livres sont payés directement aux établissements; après 30 ans, chaque petit-enfant peut recevoir un versement égal à ce qu'il a gagné de son travail cette année-là.
+- Un protecteur de fiducie peut mettre à jour les règles de placement et déplacer le domicile juridique de la fiducie si les lois changent.
+Dix ans plus tard, le fonds a atteint 1,9 million de euros. Selon les règles locales, cette croissance peut se trouver hors de la succession de Gabriel. La clause d'incessibilité protège la part de chaque petit-enfant contre ses créanciers futurs.
+Mais lorsque Gabriel fait face à une importante facture médicale, il ne peut pas retirer d'argent de la fiducie. HYPOTHÈSE/OPINION : Gabriel a accepté ce compromis en connaissance de cause et a gardé suffisamment de biens hors de la fiducie pour ses propres besoins. C'est l'essentiel d'une bonne utilisation des fiducies irrévocables : n'y transférer que ce dont on peut réellement se départir.
+
+## Questionnaire pratique
+**Q1. Quelle est une différence clé entre les fiducies révocables et irrévocables?**
+A) Les fiducies irrévocables peuvent être annulées en tout temps
+B) Il n'y a aucune différence
+C) Les fiducies révocables ne paient pas d'impôt
+D) Le constituant d'une fiducie irrévocable ne peut habituellement pas reprendre les biens ni modifier librement les conditions
+
+**Q2. Pourquoi renoncer au contrôle peut-il créer des avantages?**
+A) Dans de nombreux systèmes, les biens que vous ne contrôlez plus peuvent ne plus être considérés comme les vôtres aux fins successorales ou à l'égard des créanciers
+B) Les lois récompensent la confusion
+C) Les fiducies sont invisibles
+D) Les banques les préfèrent
+
+**Q3. Que fait une clause d'incessibilité?**
+A) Elle permet aux bénéficiaires de dépenser librement
+B) Elle annule la fiducie
+C) Elle empêche un bénéficiaire de mettre en gage ou de vendre son droit futur
+D) Elle fixe les règles de placement
+
+**Q4. Quand un transfert dans une fiducie peut-il être annulé?**
+A) Quand la fiducie fait de l'argent
+B) Quand le fiduciaire change
+C) Quand il a été fait pour échapper à un créancier existant ou à une réclamation juridique
+D) Jamais
+
+**Q5. Quelle était la règle clé de Gabriel pour utiliser une fiducie irrévocable?**
+A) Tout y transférer
+B) N'y transférer que ce dont on peut réellement se départir
+C) Ne jamais nommer de fiduciaire
+D) Éviter l'aide professionnelle
+
+## Corrigé
+Q1: D
+Q2: A
+Q3: C
+Q4: C
+Q5: B
+
+## Réponses et explications
+**Q1.** La renonciation au contrôle est la caractéristique déterminante d'une fiducie irrévocable.
+**Q2.** C'est la perte de contrôle qui peut faire sortir les biens de la succession du constituant. RÈGLE PROPRE À LA RÉGION.
+**Q3.** Elle aide à protéger la part d'un bénéficiaire contre ses propres créanciers.
+**Q4.** Les transferts faits pour tromper des créanciers existants peuvent être annulés comme transferts frauduleux.
+**Q5.** Il a gardé suffisamment de biens hors de la fiducie pour ses propres besoins.
+
+## Points clés
+- Les fiducies irrévocables échangent le contrôle contre de possibles avantages fiscaux, de protection et de legs
+- Les avantages et les règles varient selon la région et changent avec le temps
+- Les fiducies sont des outils légaux, jamais un moyen de tromper des créanciers existants
+- Ne transférez que ce dont vous pouvez réellement vous départir, et prévoyez une certaine souplesse dans la rédaction
+
+===== PURPLE-L5-013
+TITLE: La façon dont vous détenez le titre d'un immeuble change tout
+SUMMARY: La forme du titre d'un immeuble détermine qui en hérite, si un copropriétaire peut forcer la vente et comment l'immeuble est imposé; une convention de copropriété écrite permet de remplacer les règles par défaut par vos intentions réelles.
+KEYWORDS: titre de propriété immobilière, propriété conjointe avec droit de survie, copropriété indivise, formes de propriété, titre et succession
+# La façon dont vous détenez le titre d'un immeuble change tout
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur de façon marquée et répétée en quelques mois seulement pour combattre la hausse de l'inflation.
+Appliquez-le ici : La hausse des taux amène un frère et une sœur copropriétaires d'un immeuble locatif à ne plus s'entendre : l'un veut vendre, l'autre veut conserver. Posez la question pour plusieurs couleurs : l'un d'eux peut-il forcer la vente (VIOLET)? Si l'un décède, sa part va-t-elle à l'autre ou à ses propres enfants? Qu'arrive-t-il au prêt (BLEU) et au prix de base fiscal (VERT)?
+
+## Objectifs d'apprentissage
+- Comparer les formes courantes de titre immobilier
+- Expliquer comment le titre influe sur la succession, la responsabilité et l'impôt
+- Choisir une forme de titre adaptée à un objectif précis
+
+## Contenu principal
+Beaucoup de gens signent les documents de clôture sans prêter attention à une seule ligne : la façon dont le titre de l'immeuble est détenu. Cette seule ligne détermine qui hérite, si un copropriétaire peut forcer une vente, comment les créanciers peuvent atteindre l'immeuble et comment il est imposé lors d'un transfert.
+Formes courantes (les noms et les règles relèvent d'une RÈGLE PROPRE À LA RÉGION) :
+- Propriété exclusive : Une seule personne en est propriétaire. Au décès, l'immeuble est transmis par testament, par fiducie ou selon le droit successoral local.
+- Propriété conjointe avec droit de survie : Les copropriétaires le détiennent ensemble. Au décès de l'un d'eux, sa part passe généralement automatiquement aux survivants, en dehors du testament.
+- Copropriété indivise (tenancy in common) : Chaque copropriétaire détient une part distincte (qui peut être inégale). Au décès de l'un d'eux, sa part passe à ses propres héritiers, et non automatiquement aux autres propriétaires.
+- Formes matrimoniales : Certains territoires ont des formes particulières pour les couples mariés, comme la communauté de biens ou la propriété en commun entre époux, avec leurs propres règles à l'égard des créanciers et de la succession.
+- Propriété en fiducie : Le fiduciaire détient le titre pour les bénéficiaires (voir PURPLE-L5-011 et -012).
+- Propriété par une entité : Une SARL ou une société détient le titre (voir PURPLE-L5-004).
+Comment les couleurs sont reliées :
+- ROUGE : Un copropriétaire peut-il forcer une vente? Dans de nombreux endroits, les copropriétaires peuvent demander à un tribunal de partager ou de vendre l'immeuble (« partage »), à moins qu'une entente ne prévoie autre chose.
+- BLEU : Les prêteurs peuvent exiger que tous les titulaires du titre signent l'hypothèque. Modifier le titre peut déclencher des clauses du prêt.
+- VERT : RÈGLE PROPRE À LA RÉGION : Dans certains systèmes, les héritiers peuvent recevoir un prix de base fiscal « majoré » au décès, alors qu'un bien donné de son vivant conserve le prix de base initial. La forme du titre peut changer l'ampleur du rajustement du prix de base; en France, par exemple, les copropriétaires d'un bien sont en général en indivision sans droit d'accroissement au profit du survivant, sauf s'ils ont prévu une clause de tontine, à confirmer avec un notaire.
+- VIOLET : Une convention de copropriété écrite peut écarter les droits de partage par défaut et fixer les conditions de rachat.
+HYPOTHÈSE/OPINION : La propriété conjointe avec droit de survie est souvent utilisée entre conjoints par souci de simplicité, mais entre frères et sœurs ou entre associés, elle peut produire des résultats surprenants, comme le fait que la famille d'un associé ne reçoive rien.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Nia et son frère Jordan achètent ensemble un duplex.
+Version 1 : Ils détiennent le titre en propriété conjointe avec droit de survie. Jordan décède. Sa moitié passe automatiquement à Nia. Les deux enfants de Jordan ne reçoivent rien du duplex, même si son testament leur lègue « tout ». Dans de nombreux territoires, le testament ne régit pas un bien détenu en propriété conjointe avec droit de survie.
+Version 2 : Ils détiennent le titre en copropriété indivise, à 50/50, et signent une convention de copropriété :
+- Aucun des deux ne peut forcer une vente pendant cinq ans.
+- Après ce délai, l'un ou l'autre peut offrir de racheter la part de l'autre à un prix établi par évaluation.
+- Si l'un d'eux décède, sa part passe à ses héritiers, et le survivant a un droit de premier achat.
+Jordan décède. Ses enfants héritent de sa moitié. Nia a le droit de premier achat au prix évalué. Les enfants peuvent recevoir de l'argent plutôt que de devenir copropriétaires d'un immeuble locatif avec leur tante.
+HYPOTHÈSE/OPINION : La version 2 a demandé un document supplémentaire et quelques heures avec un avocat. Elle correspondait à ce que le frère et la sœur voulaient réellement.
+
+## Questionnaire pratique
+**Q1. En propriété conjointe avec droit de survie, qu'arrive-t-il habituellement au décès de l'un des propriétaires?**
+A) Sa part va à ses héritiers
+B) La banque la prend
+C) L'immeuble doit être vendu
+D) Sa part passe automatiquement aux propriétaires survivants
+
+**Q2. En quoi la copropriété indivise diffère-t-elle de la propriété conjointe avec droit de survie?**
+A) La part de chaque propriétaire passe à ses propres héritiers, et non automatiquement aux autres
+B) Les parts doivent être égales
+C) Seuls les couples mariés peuvent l'utiliser
+D) Il n'y a aucune différence
+
+**Q3. Qu'est-ce que le partage?**
+A) Un mur à l'intérieur d'un immeuble
+B) Un impôt
+C) Un type d'hypothèque
+D) Une division ou une vente ordonnée par un tribunal d'un bien détenu en copropriété
+
+**Q4. Pourquoi les enfants de Jordan n'ont-ils rien reçu dans la version 1?**
+A) Son testament était invalide
+B) La banque a pris sa part
+C) La propriété conjointe avec droit de survie a transmis sa part à Nia en dehors du testament
+D) Les enfants l'ont refusée
+
+**Q5. Qu'a ajouté la convention de copropriété de la version 2?**
+A) Des limites à la vente forcée, des conditions de rachat et un droit de premier achat
+B) Des impôts plus élevés
+C) Une deuxième hypothèque
+D) Un nouveau propriétaire
+
+## Corrigé
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: A
+
+## Réponses et explications
+**Q1.** Le droit de survie transmet la part en dehors du testament dans de nombreux territoires.
+**Q2.** Les copropriétaires indivis détiennent des parts distinctes qui peuvent être transmises par succession.
+**Q3.** Dans de nombreux endroits, les copropriétaires peuvent demander à un tribunal de partager ou de vendre le bien.
+**Q4.** Le droit de survie l'emporte généralement sur un testament pour ce bien.
+**Q5.** La convention a remplacé les règles par défaut par les volontés réelles du frère et de la sœur.
+
+## Points clés
+- La forme du titre détermine la succession, les droits des copropriétaires et les résultats fiscaux
+- La propriété conjointe avec droit de survie l'emporte souvent sur un testament pour ce bien
+- La copropriété indivise accompagnée d'une convention écrite donne plus de contrôle
+- Confirmez toujours les règles sur les titres localement avant de signer à la clôture
+
+===== PURPLE-L5-014
+TITLE: Les désignations de bénéficiaire : les formulaires qui l'emportent sur votre testament
+SUMMARY: Les comptes de retraite, les polices d'assurance et certains comptes de placement sont souvent versés directement au bénéficiaire désigné, quoi que dise votre testament; tenez une liste à jour et révisez-la après chaque grand événement de vie.
+KEYWORDS: désignation de bénéficiaire, transfert au décès, payable au décès, bénéficiaire d'un compte de retraite, coordination du plan successoral
+# Les désignations de bénéficiaire : les formulaires qui l'emportent sur votre testament
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une institution financière d'importance systémique qui révèle soudainement une perte importante jusque-là non divulguée, ce qui fait craindre que le risque de contrepartie se propage dans l'ensemble du système bancaire.
+Appliquez-le ici : Les difficultés d'une institution financière poussent beaucoup de gens à transférer leurs comptes ailleurs. Posez la question pour plusieurs couleurs : lorsqu'un compte est transféré (BLANC), l'ancien formulaire de désignation de bénéficiaire suit-il, ou le nouveau compte commence-t-il vierge (VIOLET)? S'il est vierge, où va l'argent au décès? Quel en est l'effet sur l'impôt des héritiers (VERT)?
+
+## Objectifs d'apprentissage
+- Expliquer pourquoi les désignations de bénéficiaire l'emportent souvent sur un testament
+- Repérer les comptes qui utilisent des formulaires de désignation de bénéficiaire
+- Établir une routine pour garder les désignations alignées sur le plan successoral
+
+## Contenu principal
+FAIT VÉRIFIÉ : De nombreux comptes financiers sont transmis par contrat, et non par testament. Lorsque vous désignez un bénéficiaire sur un compte de retraite, une police d'assurance vie, une rente ou un compte payable au décès ou transférable au décès, l'institution paie généralement cette personne directement, quoi que dise votre testament. RÈGLE PROPRE À LA RÉGION : La disponibilité et les exceptions varient.
+C'est puissant et dangereux. Puissant parce que cela évite l'homologation et que le paiement est rapide. Dangereux parce que des formulaires désuets l'emportent discrètement sur des plans rédigés avec soin.
+Problèmes courants :
+- Un ex-conjoint est encore désigné des années après un divorce.
+- Un bénéficiaire est décédé le premier, et aucun bénéficiaire subsidiaire n'a été désigné.
+- Un enfant mineur est désigné directement, ce qui peut exiger qu'un tuteur supervisé par un tribunal gère l'argent. RÈGLE PROPRE À LA RÉGION.
+- « Ma succession » est désignée, ce qui renvoie l'argent à l'homologation et peut faire perdre des avantages fiscaux.
+- Un compte est transféré dans une nouvelle institution, et un nouveau formulaire n'est jamais rempli.
+Comment les couleurs sont reliées :
+- BLANC : Les comptes de retraite et de courtage contiennent les soldes les plus importants de nombreuses familles.
+- VERT : RÈGLE PROPRE À LA RÉGION : Les comptes de retraite hérités comportent souvent des échéanciers de retrait et un traitement fiscal précis. Désigner une fiducie plutôt qu'une personne peut changer ces échéanciers; en France, par exemple, l'épargne retraite et l'assurance vie sont transmises au bénéficiaire désigné selon des règles fiscales propres qui dépendent du contrat et de l'âge lors des versements, à confirmer avec un conseiller fiscal.
+- OR : Le produit de l'assurance constitue souvent les liquidités les plus rapidement accessibles à une famille après un décès.
+- VIOLET : Le testament et la fiducie fixent le plan; les formulaires de désignation de bénéficiaire doivent correspondre au plan.
+L'habitude de niveau 5 : tenir une seule liste de chaque compte, des bénéficiaires principal et subsidiaire désignés, et de la date de la dernière vérification. Révisez-la après chaque grand événement de vie : mariage, divorce, naissance, décès et transfert de comptes.
+HYPOTHÈSE/OPINION : Pour de nombreuses familles, les formulaires de désignation de bénéficiaire contrôlent plus d'argent que le testament. Ils méritent la même attention.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Carlos rédige un testament qui lègue tout à parts égales à ses trois enfants adultes. Il a aussi :
+- Un compte de retraite qui désigne sa première épouse, dont il a divorcé il y a 12 ans.
+- Une police d'assurance vie qui désigne seulement son aîné, datant d'avant la naissance des deux autres.
+- Un compte de courtage sans bénéficiaire.
+À son décès :
+- Le compte de retraite peut aller à son ex-épouse, selon les règles locales sur le divorce et les formulaires de désignation de bénéficiaire. RÈGLE PROPRE À LA RÉGION.
+- L'assurance va entièrement à son aîné.
+- Seul le compte de courtage suit le testament, par l'homologation.
+Le plan de « parts égales » de son testament ne contrôle qu'une petite partie de son patrimoine.
+Solution : Carlos révise chaque compte avec son planificateur. Il désigne ses trois enfants comme bénéficiaires principaux à parts égales sur le compte de retraite et la police, ajoute sa fiducie révocable comme bénéficiaire subsidiaire et ajoute une désignation de transfert au décès au compte de courtage. HYPOTHÈSE/OPINION : Un après-midi de paperasse a permis de réaliser l'intention de son testament.
+
+## Questionnaire pratique
+**Q1. Pourquoi les désignations de bénéficiaire l'emportent-elles souvent sur un testament?**
+A) Ces comptes sont transmis par contrat directement au bénéficiaire désigné
+B) Les testaments sont toujours invalides
+C) Les banques ignorent les testaments par habitude
+D) Les tribunaux préfèrent les formulaires
+
+**Q2. Qu'est-ce qu'un bénéficiaire subsidiaire?**
+A) Le bénéficiaire principal
+B) Un remplaçant qui reçoit l'argent si le bénéficiaire principal ne le peut pas
+C) Un employé de banque
+D) Le liquidateur
+
+**Q3. Pourquoi désigner « ma succession » comme bénéficiaire peut-il poser problème?**
+A) Cela peut renvoyer l'argent à l'homologation et faire perdre des avantages fiscaux
+B) C'est illégal
+C) Cela paie trop rapidement
+D) Cela désigne trop de personnes
+
+**Q4. Dans l'exemple pratique, quelle partie du patrimoine de Carlos son testament contrôlait-il réellement?**
+A) La totalité
+B) Seulement le compte de courtage sans bénéficiaire
+C) Seulement l'assurance
+D) Aucune
+
+**Q5. Quand faut-il réviser les désignations de bénéficiaire?**
+A) Une seule fois, à l'ouverture du compte
+B) Après chaque grand événement de vie et lors du transfert de comptes
+C) Tous les 20 ans
+D) Jamais
+
+## Corrigé
+Q1: A
+Q2: B
+Q3: A
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La convention de compte détermine qui reçoit l'argent.
+**Q2.** Désigner un bénéficiaire subsidiaire évite les vides si le bénéficiaire principal est décédé.
+**Q3.** Désigner la succession annule l'avantage d'éviter l'homologation.
+**Q4.** Les formulaires de désignation de bénéficiaire contrôlaient le reste.
+**Q5.** Le mariage, le divorce, les naissances, les décès et les transferts de comptes exigent tous une révision.
+
+## Points clés
+- Les formulaires de désignation de bénéficiaire l'emportent souvent sur le testament pour ces comptes
+- Des formulaires désuets défont discrètement des plans successoraux soignés
+- Désignez des bénéficiaires subsidiaires et évitez de désigner directement des mineurs ou « ma succession »
+- Tenez une liste de chaque compte et révisez-la après chaque événement de vie
+
+===== PURPLE-L5-015
+TITLE: La planification de la relève pour les propriétaires d'entreprise
+SUMMARY: Tout propriétaire finit par quitter son entreprise; un plan de relève commencé des années à l'avance coordonne la préparation d'un successeur, les documents juridiques, le financement de l'acheteur et le moment fiscal.
+KEYWORDS: planification de la relève d'entreprise, transition d'une entreprise familiale, vente aux employés, relève de la direction, planification de la sortie
+# La planification de la relève pour les propriétaires d'entreprise
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui interrompt le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui paralyse les chaînes d'approvisionnement de nombreuses industries à la fois.
+Appliquez-le ici : Une longue perturbation oblige un propriétaire vieillissant à se retirer de façon inattendue. Posez la question pour plusieurs couleurs : y a-t-il quelqu'un de formé pour diriger (NOIR)? Les documents juridiques (VIOLET) précisent-ils qui prend le contrôle? Existe-t-il une façon de payer équitablement le propriétaire (BLEU) sans écraser l'entreprise sous la dette? Quel est le coût fiscal de chaque voie (VERT)?
+
+## Objectifs d'apprentissage
+- Comparer les principales voies de relève d'une entreprise
+- Coordonner les étapes juridiques, fiscales, de financement et de leadership dans un seul plan
+- Expliquer pourquoi la planification de la relève doit commencer des années avant la sortie
+
+## Contenu principal
+Chaque propriétaire d'entreprise finit par partir, que ce soit par choix, pour des raisons de santé ou en raison d'un décès. La planification de la relève détermine si l'entreprise survit à ce moment et si le propriétaire et sa famille reçoivent une juste valeur.
+Principales voies :
+1. Transfert à la famille.
+2. Vente à des employés clés ou à une équipe de direction.
+3. Vente à l'ensemble des employés, au moyen d'une structure d'actionnariat des employés là où elle existe. RÈGLE PROPRE À LA RÉGION.
+4. Vente à un acheteur externe ou à un concurrent.
+5. Liquidation ordonnée.
+Chaque voie coordonne plusieurs couleurs :
+- NOIR : Un successeur est-il prêt? Le leadership prend des années à bâtir. La prise de conscience des systèmes des niveaux antérieurs s'applique : une entreprise qui dépend entièrement de son propriétaire ne peut pas être vendue à sa pleine valeur, parce que l'acheteur achète un emploi, et non une entreprise.
+- VIOLET : Les conventions de rachat (PURPLE-L5-008), des conventions d'exploitation mises à jour, des procurations en cas d'inaptitude et les documents successoraux.
+- BLEU : Comment l'acheteur paiera-t-il? Financement par le vendeur, prêts bancaires, paiements conditionnels aux résultats ou ventes à tempérament. Les acheteurs familiaux et les employés ont rarement l'argent comptant nécessaire.
+- VERT : RÈGLE PROPRE À LA RÉGION : La vente ou le don, l'échéancier des paiements échelonnés et la vente d'actifs ou d'actions entraînent chacun des résultats fiscaux différents; en France, par exemple, la plus-value de cession de titres relève en principe du prélèvement forfaitaire unique ou, sur option, du barème, et la transmission d'une entreprise familiale peut bénéficier d'un pacte Dutreil sous conditions, à confirmer avec un conseiller fiscal.
+- STEWARD : Pour les transferts familiaux, la génération suivante doit être préparée comme gardienne du patrimoine, et non seulement comme bénéficiaire.
+Pourquoi commencer tôt? Parce que les meilleurs résultats exigent du temps : du temps pour former un successeur, pour documenter les systèmes, pour mettre de l'ordre dans les livres afin qu'un acheteur leur fasse confiance, et pour utiliser une planification fiscale qui s'étale sur plusieurs années.
+HYPOTHÈSE/OPINION : De nombreux propriétaires évitent la planification de la relève parce qu'elle les oblige à envisager leur départ. Ce retard est la décision la plus coûteuse que prennent bien des propriétaires. Un plan établi à 55 ans offre des options qu'un plan établi en pleine crise à 70 ans n'offre pas.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Hector, 58 ans, possède une entreprise de fournitures de plomberie d'une valeur d'environ 2 millions de euros. Sa fille travaille dans l'entreprise, mais n'est pas prête à la diriger. Deux gestionnaires de longue date sont compétents.
+Son plan sur sept ans, établi avec un avocat, un CPA et un planificateur financier :
+- Années 1 à 3 (NOIR) : Documenter les systèmes, donner un véritable pouvoir aux gestionnaires et confier à sa fille la direction d'une succursale.
+- Année 2 (VIOLET) : Mettre à jour la convention d'exploitation, signer une convention de rachat financée par l'assurance et préparer des procurations.
+- Années 4 à 7 (BLEU + VERT) : Vendre 40 % aux deux gestionnaires au moyen d'un billet financé par le vendeur et payé à même les bénéfices de l'entreprise. Transférer graduellement 30 % à sa fille au moyen d'une combinaison de vente et de dons planifiés, selon les règles locales. Conserver 30 % jusqu'à la retraite définitive.
+Lorsque Hector a un problème de santé à la cinquième année, l'entreprise fonctionne normalement parce que la direction et les documents sont déjà en place.
+HYPOTHÈSE/OPINION : Le plan combinait le développement du leadership, les documents juridiques, le financement et le moment fiscal. Aucun de ces éléments n'aurait suffi à lui seul.
+
+## Questionnaire pratique
+**Q1. Pourquoi une entreprise qui dépend entièrement de son propriétaire est-elle difficile à vendre à sa pleine valeur?**
+A) Les acheteurs préfèrent les petites entreprises
+B) Les impôts sont plus élevés
+C) Elle a trop de systèmes
+D) L'acheteur achète un emploi, et non une entreprise
+
+**Q2. Laquelle des voies suivantes n'est PAS une voie de relève principale énumérée dans la leçon?**
+A) Le transfert à la famille
+B) La vente à des employés clés
+C) Ignorer la question jusqu'à la retraite
+D) La vente à un acheteur externe
+
+**Q3. Pourquoi les acheteurs familiaux et les employés ont-ils souvent besoin d'un financement par le vendeur ou d'outils semblables?**
+A) Ils ont rarement assez d'argent pour acheter comptant
+B) Ils préfèrent la dette
+C) C'est exigé par la loi
+D) Les banques refusent tous les prêts
+
+**Q4. Pourquoi la planification de la relève doit-elle commencer des années avant la sortie?**
+A) Former des successeurs, documenter les systèmes et planifier la fiscalité sur plusieurs années prennent tous du temps
+B) Les avocats facturent moins cher tôt
+C) C'est exigé par la loi
+D) Cela réduit la valeur de l'entreprise
+
+**Q5. Qu'est-ce qui a fait fonctionner le plan d'Hector pendant son problème de santé?**
+A) La chance
+B) Sa fille a pris la relève du jour au lendemain
+C) Il a tout vendu immédiatement
+D) La direction et les documents juridiques étaient déjà en place
+
+## Corrigé
+Q1: D
+Q2: C
+Q3: A
+Q4: A
+Q5: D
+
+## Réponses et explications
+**Q1.** Sans systèmes ni dirigeants, la valeur part avec le propriétaire.
+**Q2.** Ignorer la question n'est pas une voie. C'est le choix le plus coûteux.
+**Q3.** Les outils de financement permettent aux acheteurs internes d'acheter graduellement à même les bénéfices de l'entreprise.
+**Q4.** Les meilleures options exigent du temps.
+**Q5.** La planification préalable a permis à l'entreprise de fonctionner normalement.
+
+## Points clés
+- Chaque propriétaire finit par partir; le plan détermine si l'entreprise survit
+- La relève coordonne le leadership, les documents juridiques, le financement et le moment fiscal
+- Les entreprises qui dépendent de leur propriétaire se vendent moins cher
+- Commencez des années à l'avance; une crise élimine des options

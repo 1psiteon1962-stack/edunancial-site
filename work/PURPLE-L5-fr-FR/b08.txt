@@ -1,0 +1,482 @@
+===== PURPLE-L5-036
+TITLE: Le droit de la vie privée et des données dans le marketing moderne
+SUMMARY: Les lois sur la protection des renseignements personnels régissent la collecte, l'utilisation, la conservation et le transfert des données; le consentement, la minimisation, les droits, la sécurité et les contrats avec les fournisseurs bâtissent la conformité et la confiance.
+KEYWORDS: droit de la vie privée et marketing, protection des données des clients, consentement et marketing, atteinte à la sécurité des données, conformité en matière de vie privée
+# Le droit de la vie privée et des données dans le marketing moderne
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez deux grandes puissances économiques qui intensifient les contrôles à l'exportation l'une contre l'autre sur une catégorie de composants technologiques de pointe utilisés dans de nombreuses industries.
+Appliquez-le ici : Alors que deux grandes puissances restreignent le commerce technologique, une entreprise qui conserve des données de clients dans un pays fait face à de nouvelles règles sur l'endroit où ces données peuvent être conservées. Posez la question pour plusieurs couleurs : qu'exige le droit de la vie privée (VIOLET) quant à la conservation et au transfert des données? Quel effet cela a-t-il sur les campagnes de marketing (ORANGE)? Combien coûterait une atteinte à la sécurité des données à l'entreprise (BLEU)?
+
+## Objectifs d'apprentissage
+- Décrire les principes courants du droit de la vie privée et de la protection des données
+- Expliquer comment les règles sur la vie privée façonnent les pratiques de marketing
+- Relier la conformité en matière de données à la valeur et au risque de l'entreprise
+
+## Contenu principal
+Le marketing moderne fonctionne grâce aux données : les listes de e-mail, l'analyse des sites Web, l'historique des achats et le ciblage publicitaire. Les lois sur la vie privée et la protection des données régissent la façon dont ces données peuvent être recueillies et utilisées.
+Principes courants dans de nombreuses lois sur la vie privée (les détails relèvent d'une RÈGLE PROPRE À LA RÉGION) :
+- L'avis : dire aux gens quelles données vous recueillez et pourquoi.
+- Le fondement juridique ou le consentement : avoir une raison valable d'utiliser les données. Certaines utilisations, comme certains e-mails de marketing ou le suivi, peuvent exiger un consentement.
+- La limitation des fins : n'utiliser les données qu'aux fins divulguées.
+- La minimisation des données : ne recueillir que ce dont vous avez besoin.
+- Les droits des personnes : les gens peuvent avoir le droit d'accéder à leurs données, de les corriger, de les faire supprimer ou de refuser certaines utilisations.
+- La sécurité : protéger les données au moyen de mesures raisonnables.
+- L'avis d'atteinte : certaines lois exigent d'aviser les personnes ou les organismes de réglementation après une atteinte à la sécurité des données.
+- Les transferts transfrontaliers : certaines lois restreignent l'envoi de renseignements personnels vers d'autres pays sans mesures de protection.
+Comment les couleurs sont reliées :
+- ORANGE : Le marketing par e-mail, les publicités de reciblage et le profilage des clients doivent respecter les règles de consentement et de désabonnement. Une liste de e-mail bâtie sans consentement valable peut être inutilisable à certains endroits.
+- BLEU : Les atteintes à la sécurité des données entraînent des coûts : avis, enquête, réclamations juridiques et perte de clients.
+- VIOLET : Les politiques de confidentialité, les contrats avec les fournisseurs (plateformes de e-mail, stockage infonuagique et outils d'analyse) et les procédures internes constituent le dossier de conformité.
+- BLANC : Les acheteurs et les investisseurs examinent de plus en plus les pratiques en matière de données lors de la vérification diligente.
+- NOIR : La confiance des clients est un actif à long terme.
+HYPOTHÈSE/OPINION : Traiter la vie privée uniquement comme un coût juridique, c'est rater une occasion. Les clients qui font confiance à la façon dont vous traitez leurs données sont plus disposés à les communiquer, et un partage volontaire des données rend le marketing plus efficace.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : La boutique en ligne de Pablo vend à des clients de plusieurs pays. Il veut lancer une campagne de e-mails personnalisés.
+Son examen de la conformité en matière de vie privée :
+- Le consentement : dans certains marchés, les clients doivent consentir activement à recevoir des e-mails de marketing. RÈGLE PROPRE À LA RÉGION; en France, par exemple, la prospection commerciale par e-mail exige en principe le consentement préalable du destinataire, et les violations de données personnelles doivent être notifiées à la CNIL dans les 72 heures, à confirmer avec un avocat. Sa page de paiement comportait une case précochée, ce qui pourrait ne pas constituer un consentement valable à certains endroits. Il la remplace par une case non cochée.
+- La minimisation des données : il cesse de recueillir les dates de naissance, qu'il n'utilisait jamais.
+- Les fournisseurs : il signe des ententes de traitement des données avec sa plateforme de e-mail et son fournisseur d'analyse.
+- Les transferts transfrontaliers : son stockage infonuagique se trouve dans un autre pays. Son avocat l'aide à mettre en place les mesures de protection exigées pour les clients des territoires qui restreignent les transferts.
+- Les droits : il ajoute un lien de désabonnement facile et un processus de traitement des demandes de suppression.
+Sa liste de e-mail diminue de 20 % après la reconfirmation du consentement. Mais le taux d'ouverture augmente parce que les abonnés restants veulent réellement recevoir les e-mails. HYPOTHÈSE/OPINION : Une liste plus petite, fondée sur la permission, produit souvent de meilleurs résultats marketing qu'une liste plus grande bâtie sur un consentement douteux.
+
+## Questionnaire pratique
+**Q1. Lequel des énoncés suivants est un principe courant du droit de la vie privée?**
+A) Recueillir le plus de données possible
+B) La minimisation des données : ne recueillir que ce dont on a besoin
+C) Partager les données librement
+D) Ne jamais rien dire aux clients
+
+**Q2. Pourquoi une liste de e-mail bâtie sans consentement valable pourrait-elle poser problème?**
+A) Elle est trop petite
+B) Elle augmente les impôts
+C) Les e-mails sont illégaux
+D) Elle pourrait être inutilisable pour le marketing dans certains territoires
+
+**Q3. Pourquoi Pablo a-t-il signé des ententes de traitement des données avec ses fournisseurs?**
+A) Les fournisseurs qui traitent les données des clients font partie du dossier de conformité
+B) Pour réduire les prix
+C) Pour échapper à toutes les lois
+D) Les fournisseurs refusaient sinon de le servir
+
+**Q4. Qu'est-il arrivé après que Pablo a reconfirmé le consentement?**
+A) Son entreprise a fermé
+B) Rien n'a changé
+C) Il a reçu une amende
+D) Sa liste a diminué, mais son taux d'ouverture a augmenté
+
+**Q5. Comment la leçon présente-t-elle la vie privée au-delà du coût juridique?**
+A) Comme inutile
+B) Comme un actif de confiance qui peut rendre le marketing plus efficace
+C) Comme un impôt
+D) Comme réservée aux grandes entreprises
+
+## Corrigé
+Q1: B
+Q2: D
+Q3: A
+Q4: D
+Q5: B
+
+## Réponses et explications
+**Q1.** La minimisation réduit le risque et constitue une exigence courante.
+**Q2.** Les exigences de consentement peuvent rendre inutilisables les listes bâties de façon irrégulière. RÈGLE PROPRE À LA RÉGION.
+**Q3.** Les contrats avec les fournisseurs aident à garantir la protection des données.
+**Q4.** Les listes fondées sur la permission peuvent donner de meilleurs résultats.
+**Q5.** La confiance encourage le partage volontaire des données.
+
+## Points clés
+- Les lois sur la vie privée régissent la collecte, l'utilisation, la conservation et le transfert des données
+- Le consentement, la minimisation, les droits, la sécurité et les avis d'atteinte sont des principes courants
+- Les contrats avec les fournisseurs et les transferts transfrontaliers exigent de l'attention
+- Des pratiques dignes de confiance en matière de données peuvent améliorer les résultats marketing
+
+===== PURPLE-L5-037
+TITLE: La conformité réglementaire, un coût des affaires au-delà des frontières
+SUMMARY: Chaque entreprise exerce ses activités dans un cadre de règles locales qui varient beaucoup; ces différences sont décrites de façon neutre, et la conformité doit être budgétée comme un poste du plan d'affaires plutôt que subie comme une surprise.
+KEYWORDS: conformité réglementaire en affaires internationales, exigences de permis d'entreprise, coût de la conformité, réglementation et entrée sur un marché
+# La conformité réglementaire, un coût des affaires au-delà des frontières
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez un grand bloc commercial qui impose soudainement des droits de douane élevés sur une vaste catégorie de produits manufacturés importés, ce qui augmente les coûts des entreprises qui dépendent de ces importations comme intrants.
+Appliquez-le ici : De nouveaux droits de douane poussent une entreprise à envisager de déplacer sa production vers une autre région. Posez la question pour plusieurs couleurs : quels permis, quelles inscriptions et quelles étapes de conformité (VIOLET) le nouvel emplacement exigerait-il? Combien de temps et d'argent coûteraient-ils (BLEU)? Quel serait leur effet sur les impôts (VERT) et sur la charge de travail de l'équipe de direction (NOIR)?
+
+## Objectifs d'apprentissage
+- Repérer les catégories courantes de réglementation des entreprises
+- Comparer la façon dont les coûts de conformité influent sur les décisions d'emplacement et de marché
+- Planifier la conformité dans le cadre de la stratégie, décrite de façon neutre
+
+## Contenu principal
+Chaque entreprise exerce ses activités dans un ensemble de règles : l'immatriculation de l'entreprise, les permis d'exploitation, les permis propres à l'industrie, les règles d'emploi, les normes de sécurité des produits, l'inscription aux fins fiscales, la protection des données et les exigences d'importation ou d'exportation. Ces règles diffèrent beaucoup d'un pays et d'une région à l'autre.
+Le programme décrit ces différences de façon neutre et descriptive. Les leçons précédentes ont donné des exemples de goulots d'étranglement propres à certaines régions :
+- Dans certaines parties de l'Europe, des coûts de démarrage plus élevés et des exigences formelles peuvent rendre le lancement d'une entreprise plus coûteux au départ.
+- Dans certaines parties de l'Amérique centrale et de l'Amérique du Sud, le coût élevé de la constitution en société peut pousser certaines entreprises vers l'informalité, ce qui peut ensuite limiter leur accès aux services bancaires.
+- Dans certaines parties de l'Afrique, de longs délais logistiques transfrontaliers peuvent toucher les chaînes d'approvisionnement et le fonds de roulement.
+Chaque système reflète des choix et des compromis locaux. Des règles plus strictes peuvent offrir une meilleure protection aux consommateurs ou aux travailleurs. Des règles plus légères peuvent permettre des démarrages plus rapides. Le principe sous-jacent : les gens devraient avoir le choix et la capacité de faire de leur mieux selon leur propre situation.
+Comment les couleurs sont reliées :
+- BLEU : Les coûts de conformité influent sur le budget de démarrage, le délai de lancement et les frais généraux continus. Un emplacement moins coûteux où les permis sont plus lents peut coûter plus cher au total.
+- VIOLET : Les permis et les inscriptions sont des exigences légales. Exercer ses activités sans eux peut entraîner des amendes, une fermeture ou une responsabilité personnelle.
+- VERT : L'inscription déclenche habituellement des obligations fiscales. Exercer ses activités de façon informelle peut sembler moins coûteux, mais peut bloquer l'accès aux services bancaires, aux prêts et aux clients plus importants.
+- NOIR : Le temps que la direction consacre à la conformité est du temps qu'elle ne consacre pas à la croissance. Embaucher des experts locaux peut libérer les dirigeants pour qu'ils se concentrent.
+- ORANGE : Certains gros clients exigent une preuve de conformité avant d'acheter.
+HYPOTHÈSE/OPINION : Traitez la conformité comme un poste du plan d'affaires, et non comme une surprise. Un budget de conformité réaliste fait souvent la différence entre un emplacement qui fonctionne sur papier et un emplacement qui fonctionne dans la réalité.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Abena dirige une entreprise qui assemble des lampes solaires. Après la modification des droits de douane, elle compare deux nouveaux emplacements d'assemblage possibles.
+Emplacement 1 : des coûts de main-d'œuvre plus bas, mais l'immatriculation de l'entreprise prend plusieurs mois, les permis d'importation exigent l'intervention de plusieurs organismes et l'expédition transfrontalière est souvent retardée.
+Emplacement 2 : des coûts de main-d'œuvre plus élevés, mais l'immatriculation prend quelques semaines et le dédouanement est plus rapide.
+Son analyse comprend :
+- Le délai avant la première expédition : 8 mois contre 3 mois.
+- Le fonds de roulement immobilisé dans des stocks retardés.
+- Le personnel ou les consultants locaux en conformité nécessaires.
+- L'accès aux comptes bancaires et au financement locaux après l'immatriculation.
+Le coût total sur trois ans est plus serré que les taux de main-d'œuvre ne le laissaient croire. Abena choisit l'emplacement 2 pour sa première expansion, tout en bâtissant des relations dans l'emplacement 1 en vue d'une deuxième phase ultérieure.
+HYPOTHÈSE/OPINION : Abena n'a jugé aucun des deux emplacements meilleur ou pire. Elle a mesuré comment chaque ensemble de règles touchait son entreprise précise et a planifié en conséquence.
+
+## Questionnaire pratique
+**Q1. Comment le programme décrit-il les différences réglementaires entre les régions?**
+A) Comme des échecs politiques
+B) De façon neutre et descriptive
+C) Comme sans importance
+D) Comme toujours mauvaises
+
+**Q2. Pourquoi exercer ses activités de façon informelle peut-il coûter cher à long terme?**
+A) C'est toujours plus rapide
+B) Cela peut bloquer l'accès aux services bancaires, aux prêts et aux clients plus importants
+C) Cela réduit le risque
+D) Cela améliore le crédit
+
+**Q3. Qu'a révélé l'analyse d'Abena?**
+A) Le coût de la main-d'œuvre était le seul facteur
+B) Le coût total sur trois ans était plus serré que les taux de main-d'œuvre ne le laissaient croire
+C) L'emplacement 1 était gratuit
+D) La conformité n'a pas d'importance
+
+**Q4. Quel principe sous-tend la vision du programme en matière de réglementation?**
+A) Toutes les règles devraient être supprimées
+B) Les gens devraient avoir le choix et la capacité de faire de leur mieux selon leur propre situation
+C) Seules les grandes entreprises comptent
+D) La réglementation devrait être ignorée
+
+**Q5. Comment la conformité devrait-elle être traitée dans un plan d'affaires?**
+A) Comme une surprise
+B) Comme un poste planifié
+C) Comme facultative
+D) Seulement comme un outil de marketing
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les différences sont présentées comme des compromis locaux.
+**Q2.** L'informalité peut limiter les possibilités de croissance.
+**Q3.** Le temps, le fonds de roulement et les coûts de conformité ont changé le portrait.
+**Q4.** Ce principe guide la présentation neutre.
+**Q5.** Budgéter la conformité rend les plans réalistes.
+
+## Points clés
+- Chaque entreprise exerce ses activités dans un cadre de règles locales qui varient beaucoup
+- Les différences régionales sont décrites de façon neutre, comme des compromis locaux
+- La conformité influe sur le temps, les liquidités, les impôts et la concentration de la direction
+- Budgétez la conformité comme un poste, et non comme une surprise
+
+===== PURPLE-L5-038
+TITLE: Les contrats transfrontaliers : loi applicable, tribunal compétent et arbitrage
+SUMMARY: Un contrat transfrontalier devrait préciser la loi applicable et le lieu de règlement des différends; l'arbitrage peut offrir neutralité et exécution internationale, mais un droit ne vaut que ce qu'on peut réellement recouvrer.
+KEYWORDS: clause de choix de la loi applicable, élection de for, arbitrage international, différends contractuels transfrontaliers, caractère exécutoire
+# Les contrats transfrontaliers : loi applicable, tribunal compétent et arbitrage
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez la monnaie d'une économie de taille moyenne qui perd une grande part de sa valeur par rapport aux principales monnaies de réserve en quelques mois, sous l'effet de la fuite des capitaux hors du pays et de l'érosion de la confiance des investisseurs.
+Appliquez-le ici : Un fournisseur situé dans un pays dont la monnaie s'est effondrée cesse de livrer à un acheteur étranger. Posez la question pour plusieurs couleurs : quelle loi nationale régit le contrat (VIOLET)? Où l'acheteur peut-il intenter une poursuite? Un jugement ou une sentence pourrait-il réellement être recouvré (BLEU)? Les fluctuations de change (BLANC) changeraient-elles le montant dû?
+
+## Objectifs d'apprentissage
+- Expliquer les clauses de choix de la loi applicable et d'élection de for
+- Comparer les poursuites judiciaires et l'arbitrage pour les différends transfrontaliers
+- Tenir compte du caractère exécutoire lors de la rédaction de contrats internationaux
+
+## Contenu principal
+Lorsque deux parties de pays différents signent un contrat, trois questions comptent si les choses tournent mal :
+1. Quelle loi s'applique? (Le choix de la loi applicable)
+2. Où les différends seront-ils tranchés? (L'élection de for)
+3. Le résultat peut-il réellement être exécuté là où se trouvent les biens de l'autre partie? (Le caractère exécutoire)
+Le choix de la loi applicable : le contrat peut désigner la loi de quel territoire le régit. Sans cette clause, les tribunaux appliquent les règles de conflit de lois pour en décider, ce qui peut être imprévisible. RÈGLE PROPRE À LA RÉGION; en France, par exemple, le règlement européen Rome I permet en général aux parties de choisir la loi applicable à leur contrat, et la France est partie à la Convention de New York sur les sentences arbitrales étrangères, à confirmer avec un avocat.
+L'élection de for : le contrat peut désigner les tribunaux qui entendront les différends. Plaider devant un tribunal étranger peut signifier des procédures inconnues, des obstacles linguistiques, des avocats locaux et des déplacements.
+L'arbitrage : au lieu des tribunaux, les parties peuvent convenir d'un arbitrage privé, souvent selon les règles d'une institution d'arbitrage reconnue. Caractéristiques :
+- Les parties peuvent choisir des arbitres neutres et un lieu neutre.
+- Les procédures sont souvent plus confidentielles que devant les tribunaux.
+- FAIT VÉRIFIÉ : Des traités internationaux permettent que les sentences arbitrales soient reconnues et exécutées dans de nombreux pays qui y ont adhéré, ce qui peut les rendre plus faciles à exécuter au-delà des frontières que certains jugements.
+- Les appels sont habituellement très limités.
+- Les coûts peuvent être importants.
+Comment les couleurs sont reliées :
+- BLEU : Un droit contractuel ne vaut que la capacité de recouvrer. Savoir où l'autre partie a ses biens compte.
+- BLANC : Les contrats devraient préciser la monnaie de paiement et la façon dont les taux de change s'appliquent (voir PURPLE-L5-039).
+- ORANGE : Les clauses de règlement des différends se négocient comme toute autre condition. La partie qui a le plus de pouvoir de négociation obtient souvent son propre for.
+- VIOLET : Des étapes de médiation avant l'arbitrage peuvent régler de nombreux différends à faible coût.
+HYPOTHÈSE/OPINION : Pour de nombreux contrats commerciaux transfrontaliers, une clause d'arbitrage neutre précédée d'une étape de médiation offre un équilibre pratique. Mais le bon choix dépend de la taille du contrat, de l'endroit où se trouvent les biens et de la relation.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : L'entreprise de Kofi achète un tissu spécialisé à un fournisseur étranger. Leur contrat initial ne comportait aucune clause de choix de la loi applicable ni de règlement des différends.
+Après l'effondrement de la monnaie du fournisseur, celui-ci cesse ses expéditions et exige une hausse de prix de 40 %. Kofi a versé un acompte de 60 000 €.
+Problèmes :
+- On ne sait pas clairement quelle loi s'applique.
+- Poursuivre devant les tribunaux de son propre pays pourrait produire un jugement que le pays du fournisseur pourrait ne pas exécuter. RÈGLE PROPRE À LA RÉGION.
+- Poursuivre dans le pays du fournisseur exigerait d'embaucher des avocats locaux et de travailler dans une autre langue.
+Kofi finit par négocier un remboursement partiel et un prix révisé. Pour son prochain contrat d'approvisionnement, il inclut :
+- La loi applicable d'un territoire commercial neutre et bien développé.
+- La médiation d'abord, puis l'arbitrage selon les règles d'une institution reconnue, dans une ville neutre.
+- Des prix exprimés dans une monnaie de réserve stable.
+- Des acomptes détenus en fiducie jusqu'à l'expédition.
+HYPOTHÈSE/OPINION : Le premier contrat a coûté du temps et de l'argent à Kofi. Le deuxième ne peut pas empêcher les problèmes, mais il lui donne une voie claire et exécutoire s'ils se produisent.
+
+## Questionnaire pratique
+**Q1. Que détermine une clause de choix de la loi applicable?**
+A) L'emplacement du bureau
+B) La loi de quel territoire régit le contrat
+C) Le prix du contrat
+D) Qui signe
+
+**Q2. Qu'est-ce qu'une clause d'élection de for?**
+A) Un forum de marketing
+B) Un choix fiscal
+C) Une clause qui désigne les tribunaux qui entendront les différends
+D) Une condition d'expédition
+
+**Q3. Pourquoi les sentences arbitrales sont-elles parfois plus faciles à exécuter au-delà des frontières?**
+A) Elles ne sont jamais exécutées
+B) Des traités internationaux permettent leur reconnaissance et leur exécution dans de nombreux pays
+C) Les arbitres sont des policiers
+D) Les tribunaux doivent leur obéir sans examen
+
+**Q4. Qu'est-ce qui a rendu le premier différend de Kofi difficile?**
+A) Le fournisseur était sympathique
+B) L'acompte était petit
+C) L'absence de clause de choix de la loi applicable et de règlement des différends, et un caractère exécutoire incertain
+D) Il a utilisé une fiducie
+
+**Q5. Pourquoi la leçon dit-elle qu'un droit contractuel ne vaut que la capacité de recouvrer?**
+A) Parce que les tribunaux sont lents
+B) Parce que les impôts le réduisent
+C) Parce que les contrats expirent
+D) Parce qu'un jugement ou une sentence doit être exécutoire là où se trouvent les biens de l'autre partie
+
+## Corrigé
+Q1: B
+Q2: C
+Q3: B
+Q4: C
+Q5: D
+
+## Réponses et explications
+**Q1.** Elle élimine l'incertitude quant à la loi applicable.
+**Q2.** Elle fixe l'endroit où les différends sont tranchés.
+**Q3.** Les cadres établis par traité favorisent l'exécution transfrontalière.
+**Q4.** L'absence de clauses a créé de l'incertitude.
+**Q5.** Le caractère exécutoire détermine la valeur réelle.
+
+## Points clés
+- Les contrats transfrontaliers devraient préciser la loi applicable et le for des différends
+- L'arbitrage peut offrir la neutralité et l'exécution transfrontalière
+- Sachez où se trouvent les biens de l'autre partie
+- Ajoutez d'abord une médiation et précisez clairement la monnaie de paiement
+
+===== PURPLE-L5-039
+TITLE: Les clauses de change et la force majeure en période d'incertitude
+SUMMARY: La force majeure excuse l'exécution lors d'événements extraordinaires énumérés; les hausses de coûts exigent souvent une clause distincte de rajustement des prix ou d'imprévision, et les clauses de change partagent le risque de change.
+KEYWORDS: clause de force majeure, clause d'imprévision, clause de change, rajustement du prix dans un contrat, répartition des risques contractuels
+# Les clauses de change et la force majeure en période d'incertitude
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une grande région productrice d'énergie frappée par un conflit régional soudain qui met hors service du jour au lendemain une grande part de sa capacité de production, resserrant l'offre mondiale d'énergie presque sans avertissement.
+Appliquez-le ici : Un conflit régional réduit l'approvisionnement en énergie, et un fabricant ne peut pas livrer à temps. Posez la question pour plusieurs couleurs : la clause de force majeure du contrat (VIOLET) excuse-t-elle le retard? Une clause de rajustement des prix permet-elle au fabricant de répercuter la hausse des coûts de l'énergie (BLEU)? Si le paiement se fait en devise étrangère, qui assume les fluctuations de change (BLANC)?
+
+## Objectifs d'apprentissage
+- Expliquer les clauses de force majeure et d'imprévision
+- Décrire les clauses de rajustement des prix et de change
+- Rédiger des contrats qui répartissent clairement les risques incertains
+
+## Contenu principal
+Les contrats sont rédigés en supposant que le monde se comportera à peu près comme prévu. Quand ce n'est pas le cas, des clauses précises déterminent qui assume le coût.
+La force majeure : une clause qui excuse ou suspend l'exécution d'une partie lorsque certains événements indépendants de sa volonté rendent l'exécution impossible ou sérieusement impraticable. Points clés :
+- La clause énumère habituellement les événements couverts (catastrophes naturelles, guerre, ordres gouvernementaux, épidémies, etc.). RÈGLE PROPRE À LA RÉGION : Les tribunaux interprètent souvent ces listes de façon restrictive.
+- Elle exige souvent un avis rapide et des efforts pour réduire les effets.
+- La seule hausse des coûts ne constitue souvent pas un cas de force majeure, à moins que la clause le prévoie.
+- Certains territoires ont des doctrines juridiques générales qui peuvent excuser l'exécution même en l'absence de clause, mais elles sont souvent étroites. RÈGLE PROPRE À LA RÉGION; en France, par exemple, l'article 1218 du Code civil définit la force majeure, et depuis 2016 l'article 1195 permet de demander la renégociation d'un contrat en cas de changement imprévisible des circonstances, à confirmer avec un avocat.
+Les clauses d'imprévision : elles obligent les parties à renégocier si des événements rendent l'exécution beaucoup plus coûteuse, même si elle demeure possible.
+Les clauses de rajustement des prix : elles lient les prix à un indice (comme un indice de l'énergie ou des matériaux) ou permettent des rajustements lorsque le coût des intrants dépasse un seuil.
+Les clauses de change : elles précisent la monnaie de paiement et peuvent :
+- Fixer un taux de change.
+- Partager les variations du taux de change au-delà d'une fourchette.
+- Permettre une renégociation si une monnaie varie de plus d'un pourcentage fixé.
+Comment les couleurs sont reliées :
+- BLEU : Ces clauses protègent les marges et les flux de trésorerie pendant les chocs.
+- BLANC : Les clauses de change sont une forme de couverture contractuelle, liée aux notions de risque de change vues dans le BLANC.
+- ORANGE : Les clients peuvent résister aux clauses de rajustement des prix. La négociation peut aboutir à des plafonds ou à des fourchettes partagées.
+- VIOLET : Les clauses doivent concorder avec la couverture d'assurance (PURPLE-L5-017).
+HYPOTHÈSE/OPINION : Le meilleur moment pour négocier qui assumera un choc, c'est avant qu'il se produise, quand aucune des parties ne sait qui sera touchée.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : L'usine de Lucia signe un contrat d'un an pour fournir des pièces à un client étranger.
+Ses clauses négociées :
+- Force majeure : elle couvre la guerre, les ordres gouvernementaux, les catastrophes naturelles et les épidémies. Elle exige un avis dans les 10 jours et des efforts de bonne foi pour trouver des solutions de rechange. Les délais de livraison sont prolongés pendant l'événement.
+- Rajustement des prix : si un indice publié des prix de l'énergie augmente de plus de 20 % au-dessus du niveau de départ, les prix se rajustent selon une formule établie, plafonnée à une hausse de 12 % par trimestre.
+- Change : les prix sont exprimés dans la monnaie du client. Si le taux de change varie de plus de 10 % par rapport au taux de départ, les deux parties partagent également les variations au-delà de cette fourchette.
+Six mois plus tard, le choc énergétique survient. L'indice de l'énergie augmente de 45 %. Un ordre gouvernemental limite brièvement les activités de l'usine.
+Résultats : les délais de livraison sont prolongés pendant l'ordre gouvernemental en vertu de la force majeure. Les prix se rajustent dans les limites du plafond. Lucia absorbe une partie du coût de l'énergie, mais pas la totalité. Le client connaissait les règles à l'avance, de sorte que la relation tient bon. HYPOTHÈSE/OPINION : Sans ces clauses, Lucia aurait pu faire face à des pénalités pour livraison tardive tout en perdant de l'argent sur chaque pièce.
+
+## Questionnaire pratique
+**Q1. Que fait généralement une clause de force majeure?**
+A) Elle garantit un profit
+B) Elle augmente automatiquement les prix
+C) Elle excuse ou suspend l'exécution lorsque certains événements indépendants de la volonté des parties surviennent
+D) Elle met fin à tous les contrats
+
+**Q2. La seule hausse des coûts constitue-t-elle habituellement un cas de force majeure?**
+A) Oui, toujours
+B) Seulement pour les services
+C) Seulement pour l'énergie
+D) Souvent non, à moins que la clause le prévoie
+
+**Q3. Qu'exige habituellement une clause d'imprévision?**
+A) Une renégociation si l'exécution devient beaucoup plus coûteuse
+B) Une résiliation immédiate
+C) Le paiement de frais doubles
+D) Rien
+
+**Q4. Comment fonctionnait la clause de change de Lucia?**
+A) Les variations au-delà d'une fourchette de 10 % étaient partagées également
+B) Elle assumait tout le risque de change
+C) Le client assumait tout le risque
+D) Les prix étaient fixés pour toujours
+
+**Q5. Quel est le meilleur moment pour négocier qui assumera un choc?**
+A) Après qu'il se produit
+B) Avant qu'il se produise, quand personne ne sait qui sera touché
+C) Pendant une poursuite
+D) Jamais
+
+## Corrigé
+Q1: C
+Q2: D
+Q3: A
+Q4: A
+Q5: B
+
+## Réponses et explications
+**Q1.** Elle vise les événements extraordinaires qui empêchent l'exécution.
+**Q2.** De nombreuses clauses et de nombreux tribunaux ne considèrent pas la seule hausse des coûts comme un cas de force majeure. RÈGLE PROPRE À LA RÉGION.
+**Q3.** Les clauses d'imprévision visent une exécution coûteuse mais encore possible.
+**Q4.** La fourchette a permis de partager les fortes variations de change.
+**Q5.** Des clauses négociées à l'avance sont plus équitables et plus faciles à accepter.
+
+## Points clés
+- La force majeure excuse l'exécution lors d'événements extraordinaires énumérés
+- Les hausses de coûts exigent souvent une clause distincte de rajustement des prix ou d'imprévision
+- Les clauses de change partagent le risque de change
+- Négociez la répartition des chocs avant qu'ils surviennent
+
+===== PURPLE-L5-040
+TITLE: La stratégie de règlement des différends : négocier, recourir à la médiation, à l'arbitrage ou aux tribunaux
+SUMMARY: Choisissez délibérément entre la négociation, la médiation, l'arbitrage et les tribunaux; estimez votre MESORE de façon réaliste, et un règlement supérieur à cette solution de rechange vaut souvent la peine d'être accepté.
+KEYWORDS: modes de règlement des différends, médiation ou arbitrage, stratégie de litige, MESORE et différends juridiques, règlement
+# La stratégie de règlement des différends : négocier, recourir à la médiation, à l'arbitrage ou aux tribunaux
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez que les marchés immobilier et du crédit à la consommation d'un pays très peuplé, après des années d'expansion rapide, commencent à montrer des signes d'une correction marquée à mesure que les défauts de paiement augmentent.
+Appliquez-le ici : Pendant une correction du marché du crédit, un promoteur immobilier et un entrepreneur s'affrontent au sujet de factures impayées. Posez la question pour plusieurs couleurs : quelle est la meilleure solution de rechange de chaque partie si les discussions échouent (ORANGE)? Combien coûterait une poursuite en temps et en argent (BLEU)? Quel processus (VIOLET) préserve la relation d'affaires (NOIR)?
+
+## Objectifs d'apprentissage
+- Comparer les quatre principaux modes de règlement des différends
+- Utiliser l'analyse de la MESORE pour guider la stratégie dans un différend
+- Choisir un processus en fonction du coût, du temps, de la confidentialité et des relations
+
+## Contenu principal
+Les différends font partie des affaires. La compétence de niveau 5 consiste à choisir le bon processus, et pas seulement à gagner un débat.
+Quatre modes principaux :
+1. La négociation : les parties discutent directement ou par l'entremise de représentants. C'est le mode le moins coûteux et le plus rapide. Le contrôle reste entre les mains des parties.
+2. La médiation : un médiateur neutre aide les parties à conclure leur propre entente. Le médiateur ne tranche pas. Elle est souvent confidentielle et relativement peu coûteuse.
+3. L'arbitrage : un arbitre ou un tribunal arbitral privé entend la preuve et rend une décision exécutoire. Il est plus formel que la médiation, souvent confidentiel, et les appels sont limités (PURPLE-L5-038).
+4. Les tribunaux : une instance judiciaire devant un juge (et parfois un jury). Elle est publique, formelle, souvent lente et coûteuse, et comporte des droits d'appel. RÈGLE PROPRE À LA RÉGION : Les procédures et les délais varient beaucoup; en France, par exemple, une tentative préalable de règlement amiable est obligatoire avant de saisir le juge pour certains litiges, et le juge peut inviter les parties à une médiation, à confirmer avec un avocat.
+Lien avec l'ORANGE : la MESORE, vue en ORANGE-L4, est votre meilleure solution de rechange à un accord négocié. Dans un différend, votre MESORE est habituellement l'arbitrage ou les tribunaux. Estimez-la de façon réaliste :
+- La probabilité de gagner.
+- Le montant que vous recouvreriez ou paieriez vraisemblablement.
+- Les honoraires et les frais juridiques.
+- Le temps nécessaire pour obtenir un résultat.
+- La possibilité de recouvrer tout jugement.
+- L'atteinte aux relations et à la réputation.
+Une offre de règlement supérieure à votre MESORE réaliste vaut souvent la peine d'être acceptée, même si elle semble injuste.
+Comment les couleurs sont reliées :
+- BLEU : Les frais juridiques et le temps drainent les flux de trésorerie et l'attention de la direction.
+- NOIR : Les dirigeants doivent décider quand se battre et quand régler.
+- VIOLET : Les contrats exigent souvent des étapes précises, comme la négociation, puis la médiation, puis l'arbitrage.
+- VERT : RÈGLE PROPRE À LA RÉGION : Les règlements et les frais juridiques peuvent avoir des conséquences fiscales.
+HYPOTHÈSE/OPINION : De nombreux différends sont tranchés moins par la question de savoir qui a raison que par celle de savoir qui a les moyens de continuer. Connaître votre MESORE vous protège à la fois contre l'abandon trop hâtif et contre un combat trop long.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un entrepreneur, Ravi, soutient qu'un promoteur lui doit 180 000 €. Le promoteur affirme que les travaux comportaient des défauts d'une valeur de 70 000 €.
+L'analyse de la MESORE de Ravi avec son avocat :
+- Les chances de gagner au procès : environ 65 %.
+- Le montant probable accordé s'il gagne : de 140 000 € à 180 000 €.
+- Les frais juridiques jusqu'au procès : environ 60 000 €.
+- Le délai : de 18 à 24 mois.
+- La possibilité de recouvrer : le promoteur subit des pressions financières dans la correction du marché.
+Valeur attendue : environ 65 % x 160 000 € = 104 000 €, moins 60 000 € de frais = environ 44 000 €, reçus dans deux ans, avec un risque de recouvrement.
+Leur contrat exige d'abord une médiation. Pendant la médiation, le promoteur offre 110 000 € payables dans les 60 jours.
+HYPOTHÈSE/OPINION : L'offre est bien supérieure à la MESORE réaliste de Ravi, arrive rapidement et évite le risque de recouvrement. Il l'accepte. Il conserve aussi le promoteur comme client potentiel futur lorsque le marché se rétablira.
+
+## Questionnaire pratique
+**Q1. En quoi la médiation diffère-t-elle de l'arbitrage?**
+A) Elles sont identiques
+B) L'arbitrage n'est jamais exécutoire
+C) La médiation est toujours publique
+D) Un médiateur aide les parties à s'entendre; un arbitre tranche
+
+**Q2. Qu'est-ce que la MESORE dans un différend?**
+A) Le meilleur résultat possible
+B) Des honoraires juridiques
+C) Un type de tribunal
+D) La meilleure solution de rechange si la négociation échoue, souvent l'arbitrage ou les tribunaux
+
+**Q3. Quel facteur devrait faire partie d'une estimation réaliste de la MESORE?**
+A) Seulement le montant réclamé
+B) Seulement les honoraires juridiques
+C) La probabilité de gagner, les coûts, le temps, la possibilité de recouvrer et l'atteinte aux relations
+D) Seulement les émotions
+
+**Q4. Pourquoi Ravi a-t-il accepté l'offre de 110 000 €?**
+A) Il était fatigué
+B) Il avait perdu sa cause
+C) Le médiateur l'y a forcé
+D) Elle était bien supérieure à sa MESORE réaliste et arrivait rapidement, sans risque de recouvrement
+
+**Q5. Selon la leçon, qu'est-ce qui tranche souvent les différends?**
+A) Seulement qui a raison
+B) La météo
+C) Qui a les moyens de continuer
+D) Le hasard
+
+## Corrigé
+Q1: D
+Q2: D
+Q3: C
+Q4: D
+Q5: C
+
+## Réponses et explications
+**Q1.** Les médiateurs facilitent; les arbitres tranchent.
+**Q2.** La MESORE aide à évaluer les offres de règlement.
+**Q3.** Une MESORE complète comprend tous les facteurs importants.
+**Q4.** L'offre était meilleure que sa solution de rechange réaliste.
+**Q5.** Les ressources influent sur les résultats, ce qui explique l'importance de la MESORE.
+
+## Points clés
+- Choisissez délibérément entre la négociation, la médiation, l'arbitrage et les tribunaux
+- Estimez votre MESORE de façon réaliste, y compris les coûts, le temps et la possibilité de recouvrer
+- Les règlements supérieurs à votre MESORE valent souvent la peine d'être acceptés
+- Préservez les relations lorsque c'est possible

@@ -1,0 +1,449 @@
+===== PURPLE-L5-006
+TITLE: Propriété économique ou contrôle de l'entreprise
+SUMMARY: Détenir une part de la valeur d'une entreprise n'équivaut pas à contrôler ses décisions; les catégories d'actions, les votes par action et les préférences de liquidation séparent ces droits, et il faut les comprendre avant de signer.
+KEYWORDS: droits de vote ou droits économiques, catégories d'actions, contrôle par le fondateur, actions à droits de vote multiples, préférence de liquidation
+# Propriété économique ou contrôle de l'entreprise
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez deux grandes puissances économiques qui intensifient leurs contrôles à l'exportation l'une contre l'autre sur une catégorie de composants technologiques avancés utilisés dans de nombreuses industries.
+Appliquez-le ici : Des contrôles à l'exportation coupent soudainement une entreprise technologique d'un fournisseur clé. Le conseil d'administration doit décider rapidement s'il faut repenser le produit ou vendre l'entreprise. Posez la question pour plusieurs couleurs : qui a réellement le droit de trancher (VIOLET/NOIR)? Les personnes qui ont investi le plus d'argent (BLANC/BLEU), ou celles qui ont le plus de votes? Ce ne sont pas toujours les mêmes personnes.
+
+## Objectifs d'apprentissage
+- Distinguer les droits économiques des droits de vote et de contrôle
+- Expliquer comment les catégories d'actions et les préférences de liquidation les séparent
+- Évaluer les compromis des structures de contrôle par le fondateur, pour les fondateurs comme pour les investisseurs
+
+## Contenu principal
+Le Cadre philosophique des cours avancés fait valoir un point qui surprend de nombreux apprenants : détenir une part de l'argent d'une entreprise n'équivaut pas à contrôler ce que fait l'entreprise.
+Les droits de propriété peuvent être divisés en ensembles distincts :
+- Droits économiques : le droit de participer aux bénéfices, aux dividendes et au produit d'une vente.
+- Droits de vote : le droit d'élire les administrateurs ou les gestionnaires et d'approuver les décisions importantes.
+- Droits en cas de liquidation : l'ordre dans lequel les propriétaires sont payés si l'entreprise est vendue ou liquidée.
+- Droits à l'information : le droit de consulter les états financiers et les registres.
+FAIT VÉRIFIÉ : De nombreux systèmes juridiques permettent aux sociétés d'émettre différentes catégories d'actions assorties de différentes combinaisons de ces droits. Par exemple, une catégorie peut comporter plus de votes par action, tandis qu'une autre comporte une préférence pour être payée en premier lors d'une vente.
+Comment cela coordonne les couleurs :
+- BLANC : Un investisseur dans une société cotée en bourse qui compte plusieurs catégories d'actions peut détenir une valeur économique tout en ayant peu de pouvoir de vote. Cela influe sur sa capacité à influencer la direction.
+- BLEU : Les fondateurs qui recueillent des fonds peuvent vendre de la valeur économique tout en conservant le contrôle au moyen d'actions votantes ou de sièges au conseil. Mais les investisseurs demandent souvent des dispositions protectrices, comme un droit de veto sur la vente de l'entreprise.
+- VIOLET : Les statuts de la société et les conventions entre actionnaires sont l'endroit où tout cela est écrit.
+- NOIR : Le contrôle détermine qui dirige pendant une crise, comme celle du scénario.
+La préférence de liquidation mérite une attention particulière. EXEMPLE ILLUSTRATIF : Si un investisseur a une préférence de 1x sur 2 millions de euros, il récupère ses 2 millions de euros avant que les actionnaires ordinaires ne reçoivent quoi que ce soit lors d'une vente. Si l'entreprise est vendue 3 millions de euros, les actionnaires ordinaires se partagent seulement le million de euros restant, même s'ils « détiennent » la plupart des actions.
+HYPOTHÈSE/OPINION : Le contrôle par le fondateur peut protéger une vision à long terme contre la pression à court terme. Il peut aussi soustraire une direction faible à toute reddition de comptes. Aucun des deux points de vue n'a automatiquement raison. L'essentiel est de comprendre ce que vous cédez ou obtenez avant de signer.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Ana fonde une entreprise et recueille des fonds à deux reprises. Après les deux rondes :
+- Ana détient 40 % des actions, toutes de catégorie B, avec 10 votes par action.
+- Les investisseurs détiennent 60 % des actions, toutes privilégiées de catégorie A, avec 1 vote par action et une préférence de liquidation de 1x sur les 5 millions de euros qu'ils ont investis.
+Votes : Ana a 40 x 10 = 400 unités de vote. Les investisseurs ont 60 x 1 = 60 unités de vote. Ana contrôle environ 87 % des votes tout en ne détenant que 40 % de la valeur économique.
+Puis le scénario survient. Un acheteur offre 6 millions de euros.
+- Les investisseurs touchent d'abord leur préférence de 5 millions de euros.
+- Le million de euros restant est partagé selon les statuts. Si les actions des investisseurs participent aussi au reste (actions privilégiées participantes), la part d'Ana de ce reste diminue encore davantage.
+Ana a les votes nécessaires pour refuser la vente. Mais les investisseurs peuvent détenir un veto protecteur sur d'autres décisions clés. HYPOTHÈSE/OPINION : Le pouvoir réel d'Ana ne tient pas seulement à son nombre de votes. Il tient à l'ensemble des conditions des statuts, des dispositions protectrices et de sa relation avec son conseil d'administration.
+
+## Questionnaire pratique
+**Q1. Quelle est la différence entre les droits économiques et les droits de vote?**
+A) Il n'y a aucune différence
+B) Les droits économiques donnent une part de l'argent; les droits de vote déterminent qui contrôle les décisions
+C) Les droits de vote versent des dividendes
+D) Les droits économiques élisent le conseil d'administration
+
+**Q2. Que signifie une préférence de liquidation de 1x?**
+A) L'investisseur est payé en dernier
+B) L'investisseur récupère son placement avant que les actionnaires ordinaires ne reçoivent quoi que ce soit lors d'une vente
+C) L'investisseur obtient 1 vote
+D) L'investisseur ne peut jamais vendre
+
+**Q3. Dans l'exemple pratique, pourquoi Ana contrôle-t-elle la plupart des votes tout en détenant 40 % des actions?**
+A) Elle a investi le plus d'argent
+B) Les investisseurs lui ont cédé leurs votes
+C) La loi donne le contrôle aux fondateurs
+D) Ses actions de catégorie B comportent 10 votes chacune
+
+**Q4. Où ces droits sont-ils habituellement consignés?**
+A) Dans un plan de marketing
+B) Dans les déclarations de revenus seulement
+C) Dans les statuts de la société et les conventions entre actionnaires
+D) Dans les relevés bancaires
+
+**Q5. Quelle est une vision équilibrée du contrôle par le fondateur?**
+A) Il est toujours bon
+B) Il est illégal
+C) Il est toujours mauvais
+D) Il peut protéger une vision à long terme, mais peut aussi soustraire une direction faible à toute reddition de comptes
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: D
+Q4: C
+Q5: D
+
+## Réponses et explications
+**Q1.** Ce sont des ensembles distincts qui peuvent être détenus par des personnes différentes.
+**Q2.** Une préférence de 1x rembourse d'abord l'argent de l'investisseur.
+**Q3.** Les actions à droits de vote multiples séparent le contrôle de la propriété économique.
+**Q4.** Les statuts et les conventions entre actionnaires définissent les catégories d'actions et leurs droits.
+**Q5.** Cette réponse porte la mention HYPOTHÈSE/OPINION parce que des personnes raisonnables ne sont pas d'accord.
+
+## Points clés
+- La propriété économique et le contrôle de l'entreprise sont des ensembles de droits distincts
+- Les catégories d'actions, les votes par action et les préférences de liquidation les séparent
+- Les statuts et les conventions entre actionnaires définissent qui décide réellement
+- Comprenez ce que vous cédez ou obtenez avant de signer
+
+===== PURPLE-L5-007
+TITLE: La dilution, l'antidilution et la protection de la position du fondateur
+SUMMARY: L'émission de nouvelles actions réduit votre pourcentage, et une clause d'antidilution à cliquet intégral peut transférer beaucoup de propriété vers les premiers investisseurs lors d'une ronde à la baisse; négociez la formule aussi attentivement que l'évaluation.
+KEYWORDS: dilution, dispositions antidilution, ronde à la baisse, cliquet intégral, moyenne pondérée, participation du fondateur
+# La dilution, l'antidilution et la protection de la position du fondateur
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une institution financière d'importance systémique qui révèle soudainement une perte importante jusque-là non divulguée, ce qui fait craindre que le risque de contrepartie se propage dans l'ensemble du système bancaire.
+Appliquez-le ici : La perte cachée d'une grande banque ébranle la confiance des investisseurs, et le financement des jeunes entreprises se tarit. Une entreprise qui a recueilli des fonds l'an dernier à une évaluation élevée doit maintenant en recueillir de nouveau à une évaluation plus basse. Posez la question pour plusieurs couleurs : quelle participation diminue le plus (BLEU)? Que disent les conditions du contrat (VIOLET)? Comment le fondateur doit-il négocier (ORANGE)?
+
+## Objectifs d'apprentissage
+- Calculer comment un nouvel investissement dilue les propriétaires existants
+- Expliquer le fonctionnement des clauses d'antidilution lors d'une ronde à la baisse
+- Négocier les conditions de financement en tenant compte de l'ensemble du portrait de la dilution et du contrôle
+
+## Contenu principal
+FAIT VÉRIFIÉ : Lorsqu'une entreprise émet de nouvelles actions, le pourcentage de chaque propriétaire existant diminue, même si le nombre d'actions qu'il détient reste le même. C'est ce qu'on appelle la dilution.
+La dilution n'est pas automatiquement mauvaise. Si l'argent frais aide l'entreprise à croître, un pourcentage plus petit d'une entreprise plus grande peut valoir davantage. La question de niveau 5 est de savoir si les conditions qui accompagnent l'argent vous transfèrent plus de risque que vous ne le croyez.
+Les clauses d'antidilution protègent les investisseurs si l'entreprise vend plus tard des actions à un prix inférieur (une « ronde à la baisse »). Deux formes courantes :
+- Cliquet intégral : Le prix du premier investisseur est rajusté jusqu'au nouveau prix plus bas, comme s'il avait acheté à ce prix au départ. Cela peut transférer une grande part de la propriété des fondateurs et des employés.
+- Moyenne pondérée : Le prix du premier investisseur est rajusté en partie à la baisse, selon le montant des nouveaux fonds et le prix auquel ils entrent. C'est habituellement moins sévère.
+Cela coordonne plusieurs couleurs :
+- BLEU : Quel montant est réellement nécessaire, et une levée de fonds plus modeste pourrait-elle suffire?
+- VIOLET : Quelle formule d'antidilution figure dans les documents, et y a-t-il des exclusions (par exemple, pour les actions émises aux employés)?
+- ORANGE : Le pouvoir de négociation. Les fondateurs qui ont des solutions de rechange (une solide MESORE, selon ORANGE-L4) obtiennent de meilleures conditions.
+- BLANC : La logique de l'évaluation. Une évaluation antérieure très élevée peut préparer une ronde à la baisse douloureuse plus tard.
+- NOIR : Le moral des employés. Si les options des employés perdent de la valeur, la rétention peut en souffrir.
+HYPOTHÈSE/OPINION : Un fondateur qui court après l'évaluation la plus élevée possible dans un bon marché peut se tendre un piège pour un mauvais marché. Une évaluation juste et défendable assortie de conditions claires vieillit souvent mieux.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Une entreprise compte 1 000 000 d'actions. Le fondateur en détient 800 000 (80 %). Un investisseur a acheté 200 000 actions à 5 € chacune (20 %, 1 000 000 €).
+Un an plus tard, le scénario survient. L'entreprise recueille 500 000 € à 2,50 € par action, en émettant 200 000 nouvelles actions.
+Sans antidilution : Total des actions = 1 200 000. Fondateur = 800 000 / 1 200 000 = 66,7 %. Premier investisseur = 16,7 %. Nouvel investisseur = 16,7 %.
+Avec un cliquet intégral : Le prix du premier investisseur est rajusté à 2,50 €. Son 1 000 000 € se convertit maintenant en 400 000 actions au lieu de 200 000. Total = 1 400 000. Fondateur = 800 000 / 1 400 000 = environ 57,1 %. Premier investisseur = environ 28,6 %. Nouvel investisseur = environ 14,3 %.
+Avec une clause de moyenne pondérée, le rajustement du premier investisseur se situerait quelque part entre ces deux résultats.
+HYPOTHÈSE/OPINION : L'écart entre 66,7 % et 57,1 % est important. Il peut même changer qui contrôle le conseil d'administration. C'est pourquoi la formule d'antidilution mérite autant d'attention dans la négociation que l'évaluation elle-même.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce que la dilution?**
+A) La réduction du pourcentage d'un propriétaire lorsque de nouvelles actions sont émises
+B) La perte d'actions à la suite d'un vol
+C) Une pénalité fiscale
+D) Une baisse des revenus
+
+**Q2. Qu'est-ce qu'une ronde à la baisse?**
+A) Une partie de golf
+B) Un fractionnement d'actions
+C) Le remboursement d'un prêt
+D) Recueillir des fonds à un prix par action inférieur au précédent
+
+**Q3. Quelle formule d'antidilution est habituellement la plus sévère pour les fondateurs?**
+A) La moyenne pondérée
+B) Le cliquet intégral
+C) L'absence d'antidilution
+D) Elles sont identiques
+
+**Q4. Dans l'exemple, quelle était la participation du fondateur après la ronde à la baisse avec un cliquet intégral?**
+A) 80 %
+B) Environ 66,7 %
+C) Environ 57,1 %
+D) Environ 28,6 %
+
+**Q5. Pourquoi courir après l'évaluation la plus élevée peut-il être risqué?**
+A) Les évaluations élevées sont illégales
+B) Les investisseurs ne les acceptent jamais
+C) Cela peut préparer une ronde à la baisse douloureuse plus tard si les conditions se détériorent
+D) Cela augmente l'impôt
+
+## Corrigé
+Q1: A
+Q2: D
+Q3: B
+Q4: C
+Q5: C
+
+## Réponses et explications
+**Q1.** Votre nombre d'actions reste le même, mais votre pourcentage diminue à mesure que le total des actions augmente.
+**Q2.** Les rondes à la baisse surviennent lorsque les évaluations chutent, souvent dans des marchés de financement serrés.
+**Q3.** Le cliquet intégral rajuste le prix du premier investisseur jusqu'en bas.
+**Q4.** 800 000 divisé par 1 400 000 donne environ 57,1 %.
+**Q5.** Un prix antérieur gonflé rend plus probables les rondes à la baisse et les rajustements d'antidilution ultérieurs.
+
+## Points clés
+- La dilution réduit le pourcentage, et non le nombre d'actions
+- Les clauses d'antidilution transfèrent le risque d'une ronde à la baisse des investisseurs vers les fondateurs et les employés
+- Le cliquet intégral est plus sévère que la moyenne pondérée
+- Négociez la formule aussi soigneusement que l'évaluation
+
+===== PURPLE-L5-008
+TITLE: Les conventions de rachat financées par l'assurance
+SUMMARY: Une convention de rachat prévoit qui achète la part d'un associé qui décède, devient invalide ou quitte, à quel prix et avec quel argent; l'assurance fournit les fonds, et une évaluation à jour évite les litiges.
+KEYWORDS: convention de rachat, achat croisé, rachat par l'entité, assurance de personne clé, financement de la relève d'entreprise
+# Les conventions de rachat financées par l'assurance
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui interrompt le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui paralyse les chaînes d'approvisionnement de nombreuses industries à la fois.
+Appliquez-le ici : Pendant une perturbation de santé publique généralisée, des propriétaires d'entreprise se rendent compte que la maladie soudaine ou le décès d'un propriétaire pourrait plonger les associés, les familles et les employés dans le chaos. Posez la question pour plusieurs couleurs : une convention de rachat écrite (VIOLET) précise-t-elle qui achète la part? D'où vient l'argent (BLEU/BLANC)? Comment le paiement est-il imposé (VERT)?
+
+## Objectifs d'apprentissage
+- Expliquer l'objectif d'une convention de rachat
+- Comparer les structures d'achat croisé et de rachat par l'entité
+- Décrire comment l'assurance finance un rachat et pourquoi les conditions d'évaluation importent
+
+## Contenu principal
+Une convention de rachat répond à une question pénible mais nécessaire : si un propriétaire décède, devient invalide, prend sa retraite ou quitte, qui achète sa part, à quel prix et avec quel argent?
+Sans convention, la part d'un propriétaire décédé peut passer à un conjoint ou à un enfant qui n'a ni l'intérêt ni la compétence pour diriger l'entreprise. Les propriétaires survivants peuvent se retrouver avec un associé non désiré. La famille peut se retrouver propriétaire d'une partie d'une entreprise qu'elle ne peut pas vendre. Les employés peuvent perdre leur emploi pendant que tout le monde se dispute.
+Structures courantes :
+- Achat croisé : Les propriétaires conviennent d'acheter mutuellement leurs parts. Chaque propriétaire détient souvent une assurance sur la vie des autres.
+- Rachat par l'entité : L'entreprise elle-même rachète la part du propriétaire qui part. L'entreprise détient souvent l'assurance.
+- Structure hybride : Un mélange, qui donne parfois la première option à l'entreprise et la seconde aux propriétaires.
+Cela coordonne plusieurs couleurs :
+- VIOLET : La convention fixe les événements déclencheurs (décès, invalidité, divorce, retraite, manquement), la méthode d'évaluation et les modalités de paiement.
+- BLEU/OR : L'assurance vie et l'assurance invalidité fournissent des liquidités au moment où on en a besoin. Sans financement, une convention de rachat n'est qu'une promesse que personne n'a les moyens de tenir.
+- VERT : RÈGLE PROPRE À LA RÉGION : La structure influe sur la façon dont le produit de l'assurance est imposé, sur le nouveau prix de base des acheteurs et sur la question de savoir si le paiement est traité comme une vente ou une distribution; en France, par exemple, les capitaux décès d'une assurance vie sont en principe hors succession avec une fiscalité propre, et le rachat des parts d'un associé décédé peut avoir ses propres conséquences fiscales, à confirmer avec un conseiller fiscal.
+- NOIR : La convention maintient la stabilité de la direction et rassure les employés, les prêteurs et les clients.
+L'évaluation est l'endroit où de nombreuses conventions échouent. Un prix fixe inscrit il y a des années peut être très éloigné de la valeur actuelle. De meilleures options comprennent une formule liée aux bénéfices, une valeur convenue chaque année que les propriétaires mettent réellement à jour, ou une évaluation indépendante au moment de l'événement déclencheur.
+HYPOTHÈSE/OPINION : Une clause d'évaluation désuète est l'une des sources les plus courantes de poursuites entre la famille et les associés dans les petites entreprises.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Luis et Mei détiennent chacun 50 % d'un atelier d'usinage évalué à environ 1,2 million de euros. Ils signent une convention de rachat par achat croisé :
+- Événement déclencheur : décès ou invalidité de longue durée.
+- Prix : évaluation indépendante au moment de l'événement déclencheur.
+- Financement : chacun détient une police d'assurance vie de 600 000 € et une police d'assurance invalidité pour rachat sur l'autre.
+Trois ans plus tard, Mei décède de façon inattendue. Luis reçoit 600 000 € de la police et s'en sert pour acheter les actions de Mei à sa succession. Sa famille reçoit la juste valeur en argent. Luis détient maintenant 100 % et continue d'exploiter l'atelier. Les employés conservent leur emploi.
+Une complication : l'évaluation arrive à 1,4 million de euros; la part de Mei est donc de 700 000 €. La convention prévoit que tout montant supérieur à l'assurance est payé sur cinq ans au moyen d'un billet à ordre. HYPOTHÈSE/OPINION : Parce qu'ils avaient prévu cet écart par écrit, la différence a entraîné un ajustement, et non une poursuite.
+
+## Questionnaire pratique
+**Q1. À quelle question une convention de rachat répond-elle?**
+A) Qui achète la part d'un propriétaire qui part, à quel prix et avec quel argent
+B) Comment faire la mise en marché de l'entreprise
+C) Comment réduire l'impôt chaque année
+D) Qui sont les clients de l'entreprise
+
+**Q2. Dans une structure d'achat croisé, qui achète la part du propriétaire qui part?**
+A) Les propriétaires restants
+B) L'entreprise
+C) Le gouvernement
+D) Les employés du propriétaire qui part
+
+**Q3. Pourquoi l'assurance est-elle importante pour une convention de rachat?**
+A) Elle augmente la valeur de l'entreprise
+B) Elle remplace la convention
+C) Elle fournit des liquidités au moment où le rachat est nécessaire
+D) Elle est légalement obligatoire partout
+
+**Q4. Quelle est une faiblesse courante des conventions de rachat?**
+A) Le recours à des évaluations indépendantes
+B) Le fait d'avoir une assurance
+C) L'inclusion de l'invalidité comme événement déclencheur
+D) Une évaluation fixe désuète
+
+**Q5. Comment la convention de Luis et Mei a-t-elle traité l'écart entre l'assurance et la valeur?**
+A) Un billet à ordre payé sur cinq ans
+B) Ils l'ont ignoré
+C) Les employés l'ont payé
+D) Un tribunal l'a tranché
+
+## Corrigé
+Q1: A
+Q2: A
+Q3: C
+Q4: D
+Q5: A
+
+## Réponses et explications
+**Q1.** Elle planifie la transition de la propriété avant que l'événement déclencheur ne survienne.
+**Q2.** Dans l'achat croisé, les propriétaires achètent directement les parts les uns des autres.
+**Q3.** Sans financement, les propriétaires pourraient ne pas avoir les moyens de procéder au rachat.
+**Q4.** Un prix fixé il y a des années peut être très éloigné de la valeur actuelle et déclencher des différends.
+**Q5.** Prévoir l'écart par écrit a évité un différend.
+
+## Points clés
+- Une convention de rachat planifie le transfert de la propriété avant une crise
+- L'achat croisé et le rachat par l'entité ont des effets juridiques et fiscaux différents
+- L'assurance transforme la promesse en liquidités au moment où on en a besoin
+- Gardez les conditions d'évaluation à jour et prévoyez les écarts de financement
+
+===== PURPLE-L5-009
+TITLE: Les garanties personnelles dans les prêts aux entreprises
+SUMMARY: Une garantie personnelle permet au prêteur d'atteindre vos biens personnels pour ce prêt précis; négociez une garantie limitée ou dégressive, méfiez-vous de la solidarité entre cautions et prévoyez une entente de remboursement avec vos associés.
+KEYWORDS: garantie personnelle, garantie de prêt d'entreprise, garantie limitée, clause dégressive, négociation avec le prêteur
+# Les garanties personnelles dans les prêts aux entreprises
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur de façon marquée et répétée en quelques mois seulement pour combattre la hausse de l'inflation.
+Appliquez-le ici : Une banque centrale relève fortement les taux, et le versement du prêt à taux variable d'une petite entreprise grimpe. Posez la question pour plusieurs couleurs : si l'entreprise ne peut pas payer, le prêteur peut-il atteindre la maison du propriétaire (ROUGE) et ses épargnes (BLANC), même si le prêt est au nom de l'entreprise (BLEU)? La réponse dépend de ce que le propriétaire a signé (VIOLET).
+
+## Objectifs d'apprentissage
+- Expliquer comment une garantie personnelle touche la protection contre la responsabilité qu'offre une entité
+- Comparer les garanties illimitées, limitées et dégressives
+- Négocier les conditions d'une garantie dans le cadre d'une décision de financement globale
+
+## Contenu principal
+Au niveau 2, vous avez appris qu'une SARL ou une société par actions peut séparer les dettes de l'entreprise des biens personnels. Au niveau 5, vous apprenez la façon la plus courante dont les propriétaires renoncent à cette protection : la garantie personnelle.
+FAIT VÉRIFIÉ : De nombreux prêteurs, surtout pour les petites et les nouvelles entreprises, exigent que les propriétaires garantissent personnellement le prêt. Si l'entreprise fait défaut, le prêteur peut poursuivre les biens personnels de la caution, sous réserve du droit local.
+Cela signifie que l'entité vous protège encore contre de nombreux autres risques, comme certaines réclamations de clients ou certains différends avec des fournisseurs. Mais pour ce prêt précis, le mur entre les biens de l'entreprise et les biens personnels comporte une porte, et vous avez donné la clé au prêteur.
+Types de garanties :
+- Illimitée : Vous garantissez la totalité du prêt, plus les intérêts et les frais de recouvrement.
+- Limitée : Vous ne garantissez qu'un montant en euros ou un pourcentage déterminé.
+- Dégressive : La garantie diminue ou prend fin une fois que l'entreprise atteint certains objectifs, comme un nombre de versements à temps ou un ratio dette-revenu.
+- Conjointe ou solidaire : Lorsqu'il y a plusieurs propriétaires, une garantie « solidaire » signifie habituellement que le prêteur peut recouvrer le montant total auprès de n'importe laquelle des cautions. RÈGLE PROPRE À LA RÉGION.
+Cela coordonne plusieurs couleurs :
+- BLEU : Le montant, le taux et la durée du prêt.
+- VIOLET : Les conditions de la garantie, les règles sur le consentement du conjoint et les biens qui peuvent être protégés en vertu des lois locales sur les biens insaisissables (RÈGLE PROPRE À LA RÉGION; en France, par exemple, il n'existe pas d'insaisissabilité générale du logement comme le homestead de certains États américains, mais la résidence principale de l'entrepreneur individuel est insaisissable par ses créanciers professionnels, à confirmer avec un avocat).
+- ROUGE : Si le prêteur veut aussi une hypothèque sur votre maison.
+- BLANC : Si vos comptes d'épargne ou de placement peuvent être atteints.
+- NOIR : Quel risque personnel vous êtes prêt à prendre pour cette entreprise.
+HYPOTHÈSE/OPINION : Les garanties sont souvent négociables, surtout pour les entreprises qui ont des antécédents. Une garantie limitée ou dégressive peut coûter un taux légèrement plus élevé, et cet échange peut valoir largement la peine.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : L'entreprise de Sofia emprunte 300 000 € pour ouvrir un deuxième emplacement. La première ébauche du prêteur exige une garantie personnelle illimitée de Sofia et de son associé, solidaire, plus une hypothèque sur la maison de Sofia.
+La contre-proposition de Sofia, préparée avec son avocate :
+- Une garantie limitée à 50 % du solde impayé.
+- Une garantie qui prend fin après 36 versements à temps si l'entreprise maintient un ratio de couverture du service de la dette déterminé.
+- Aucune hypothèque sur sa maison; le prêteur obtient plutôt une sûreté sur l'équipement du nouvel emplacement.
+- Chaque associé garantit sa propre part (garantie conjointe), et non le montant total.
+Le prêteur accepte la limite et la clause dégressive, mais insiste sur la responsabilité solidaire. En échange, il ajoute 0,25 % au taux.
+HYPOTHÈSE/OPINION : Sofia paie un peu plus d'intérêts, mais plafonne son exposition personnelle et garde sa maison hors de l'entente. Elle signe aussi une entente écrite avec son associé selon laquelle chacun remboursera l'autre de tout montant payé au-delà de sa part.
+
+## Questionnaire pratique
+**Q1. Que fait une garantie personnelle?**
+A) Elle permet au prêteur de poursuivre les biens personnels du propriétaire si l'entreprise fait défaut
+B) Elle réduit automatiquement le taux d'intérêt
+C) Elle rend le prêt libre d'impôt
+D) Elle met fin à l'existence de l'entité
+
+**Q2. Qu'est-ce qu'une garantie dégressive?**
+A) Une garantie qui double avec le temps
+B) Une garantie sur l'assurance incendie
+C) Une garantie qui diminue ou prend fin lorsque l'entreprise atteint des objectifs déterminés
+D) Une garantie sans limites
+
+**Q3. Que signifie habituellement une garantie « solidaire » lorsqu'il y a plusieurs cautions?**
+A) Chacun ne paie que sa part
+B) Personne n'a à payer
+C) Le prêteur peut recouvrer le montant total auprès de n'importe laquelle des cautions
+D) Seule l'entreprise paie
+
+**Q4. Qu'a cédé Sofia pour obtenir une garantie limitée et dégressive?**
+A) Sa maison
+B) Sa part de propriété
+C) Un taux d'intérêt légèrement plus élevé
+D) Rien
+
+**Q5. Pourquoi Sofia a-t-elle signé une entente distincte avec son associé?**
+A) Pour éviter l'impôt
+B) Pour que chacun rembourse l'autre des paiements au-delà de sa part
+C) Pour vendre l'entreprise
+D) Parce que le prêteur l'exigeait
+
+## Corrigé
+Q1: A
+Q2: C
+Q3: C
+Q4: C
+Q5: B
+
+## Réponses et explications
+**Q1.** Une garantie rouvre l'exposition personnelle pour cette dette précise.
+**Q2.** Les conditions dégressives réduisent l'exposition personnelle à mesure que l'entreprise fait ses preuves.
+**Q3.** Chaque caution peut être responsable de la totalité de la dette. RÈGLE PROPRE À LA RÉGION.
+**Q4.** Elle a accepté 0,25 % d'intérêt de plus en échange d'une exposition plafonnée.
+**Q5.** Cette entente protège chaque associé si le prêteur recouvre auprès d'un seul.
+
+## Points clés
+- Une garantie personnelle rouvre l'exposition personnelle pour ce prêt précis
+- Les garanties illimitées, limitées et dégressives comportent des risques très différents
+- La responsabilité solidaire peut obliger un associé à payer pour tous
+- Les conditions de garantie sont souvent négociables; une légère hausse de taux peut valoir un plafond
+
+===== PURPLE-L5-010
+TITLE: Garder le mur debout : les formalités corporatives et la levée du voile corporatif
+SUMMARY: La protection qu'offre une entité ne tient que si elle est traitée comme réellement distincte; mélanger les fonds, sous-capitaliser l'entreprise ou négliger les formalités peut permettre à un tribunal d'atteindre vos biens personnels.
+KEYWORDS: levée du voile corporatif, formalités corporatives, confusion des fonds, alter ego, sous-capitalisation
+# Garder le mur debout : les formalités corporatives et la levée du voile corporatif
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez le gouvernement souverain d'un pays de taille moyenne qui laisse entendre qu'il pourrait être incapable d'effectuer un prochain paiement sur ses obligations, ce qui accroît le risque de défaut sur sa dette.
+Appliquez-le ici : À mesure que la crise de la dette d'un gouvernement s'aggrave, les prêteurs et les fournisseurs deviennent plus agressifs pour recouvrer leurs créances auprès des entreprises en difficulté. Posez la question pour plusieurs couleurs : si un créancier intente une poursuite, l'entité de l'entreprise (VIOLET) tiendra-t-elle le coup? Ou une tenue de livres négligée (VERT) et des comptes bancaires mélangés (BLEU) permettront-elles au créancier d'atteindre les biens personnels du propriétaire (ROUGE/BLANC)?
+
+## Objectifs d'apprentissage
+- Expliquer ce qu'est la levée du voile corporatif et pourquoi les tribunaux y ont recours
+- Repérer les comportements courants qui affaiblissent la protection d'une entité
+- Établir une routine simple qui maintient une séparation solide de l'entité
+
+## Contenu principal
+Chaque structure des neuf premières leçons de ce niveau dépend d'une chose : l'entité doit réellement être traitée comme distincte de ses propriétaires. Si elle ne l'est pas, un tribunal peut décider qu'elle ne mérite pas non plus d'être traitée comme distincte.
+FAIT VÉRIFIÉ : De nombreux systèmes juridiques permettent aux tribunaux, dans certaines situations, de faire abstraction d'une entité et de tenir les propriétaires personnellement responsables. C'est ce qu'on appelle couramment « lever le voile corporatif ». Le critère exact est une RÈGLE PROPRE À LA RÉGION; en France, par exemple, les tribunaux ne lèvent le voile social qu'en cas de fictivité ou de confusion des patrimoines, et les dirigeants peuvent répondre de l'insuffisance d'actif en cas de faute de gestion, à confirmer avec un avocat; mais les tribunaux examinent souvent des signaux d'alarme semblables.
+Signaux d'alarme courants :
+- Confusion des fonds : L'argent personnel et l'argent de l'entreprise sont mélangés dans le même compte, ou l'argent de l'entreprise sert à payer des factures personnelles sans aucun registre.
+- Sous-capitalisation : L'entreprise a été constituée avec beaucoup trop peu d'argent ou d'assurance pour respecter ses obligations prévisibles.
+- Formalités négligées : Aucun registre des décisions importantes, aucune déclaration annuelle, aucun contrat distinct.
+- Alter ego : Le propriétaire traite l'entreprise comme une extension de lui-même, et non comme une personne distincte en droit.
+- Fraude ou injustice : L'entité a servi à tromper les créanciers.
+C'est ici que les couleurs travaillent ensemble :
+- VERT : Des livres bien tenus et une documentation adéquate des prélèvements, des salaires et des prêts du propriétaire protègent aussi la séparation juridique.
+- BLEU : Un compte bancaire d'entreprise distinct, une carte de crédit d'entreprise et un capital de départ suffisant.
+- VIOLET : Signer les contrats au nom de l'entreprise et avec son titre (« Jane Lee, gestionnaire, Lee Services SARL »), tenir des procès-verbaux ou des consentements écrits pour les décisions importantes et produire les déclarations annuelles.
+- ROUGE : Si l'entité possède un immeuble, les loyers et les dépenses passent par le compte de l'entité.
+HYPOTHÈSE/OPINION : L'échec le plus courant n'est pas la fraude. C'est la négligence ordinaire. Les propriétaires paient une facture personnelle à partir du compte de l'entreprise « juste cette fois », jusqu'à ce que cela devienne une habitude.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Deux propriétaires, deux résultats.
+La propriétaire A exploite une SARL d'entrepreneur en construction. Elle a un compte d'entreprise distinct, se paie au moyen de prélèvements documentés, signe les contrats à titre de « gestionnaire », tient un dossier de consentements écrits pour les décisions importantes et produit ses déclarations annuelles à temps. Elle détient une assurance responsabilité. Un client intente une poursuite pour un montant supérieur à la couverture de la police. Le tribunal traite la SARL comme distincte. La réclamation se limite aux biens de l'entreprise.
+Le propriétaire B exploite une SARL semblable. Il paie son hypothèque et son prêt automobile à partir du compte de l'entreprise, dépose certains chèques de clients dans son compte personnel, ne produit jamais ses déclarations annuelles et a lancé l'entreprise avec presque aucun capital ni assurance. Un client intente une poursuite. L'avocat du client démontre la confusion des comptes et les déclarations manquantes. Le tribunal conclut que la SARL était son alter ego et permet à la réclamation d'atteindre ses biens personnels.
+HYPOTHÈSE/OPINION : Les deux propriétaires avaient le même type d'entité. La différence tenait au comportement. Une routine mensuelle simple (rapprocher les comptes, consigner les prélèvements, produire tout ce qui est dû) est une assurance peu coûteuse.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce que « lever le voile corporatif »?**
+A) Constituer une nouvelle société
+B) Un tribunal qui fait abstraction d'une entité et tient les propriétaires personnellement responsables
+C) Produire ses déclarations de revenus tôt
+D) Vendre des actions de l'entreprise
+
+**Q2. Lequel de ces éléments est un signal d'alarme courant de levée du voile corporatif?**
+A) Un compte bancaire d'entreprise distinct
+B) La confusion de l'argent personnel et de l'argent de l'entreprise
+C) La production des déclarations annuelles
+D) Le fait de détenir une assurance responsabilité
+
+**Q3. Que signifie la sous-capitalisation?**
+A) Constituer une entreprise avec beaucoup trop peu d'argent ou d'assurance pour ses obligations prévisibles
+B) Avoir trop d'argent
+C) Payer trop d'impôt
+D) Avoir trop de propriétaires
+
+**Q4. Comment un propriétaire doit-il signer les contrats pour soutenir la séparation?**
+A) Avec son nom personnel seulement
+B) Au nom de l'entreprise, avec son titre
+C) Sans aucun nom
+D) Avec un surnom
+
+**Q5. Selon la leçon, quelle est la cause la plus courante des problèmes de levée du voile corporatif?**
+A) La fraude
+B) Les impôts élevés
+C) Trop d'avocats
+D) Une négligence ordinaire qui devient une habitude
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: D
+
+## Réponses et explications
+**Q1.** Les tribunaux peuvent faire abstraction de l'entité dans certaines situations. Le critère varie selon la région.
+**Q2.** Mélanger les fonds laisse croire que l'entité n'est pas réellement distincte.
+**Q3.** Les tribunaux peuvent considérer qu'une entité sous-financée a été constituée pour éviter ses responsabilités.
+**Q4.** Signer à titre de dirigeant de l'entreprise montre que c'est l'entreprise, et non la personne, qui est partie au contrat.
+**Q5.** De petits raccourcis, répétés, affaiblissent la séparation avec le temps.
+
+## Points clés
+- La protection d'une entité dépend du fait de la traiter comme réellement distincte
+- La confusion des fonds, la sous-capitalisation et les formalités négligées sont des signaux d'alarme
+- Des livres bien tenus (VERT) et des comptes distincts (BLEU) protègent le mur juridique (VIOLET)
+- Une routine mensuelle simple est une assurance peu coûteuse

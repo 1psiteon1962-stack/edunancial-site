@@ -1,0 +1,476 @@
+===== PURPLE-L5-021
+TITLE: Déclarations, garanties et indemnités dans une acquisition
+SUMMARY: Dans un achat d'entreprise, les déclarations énoncent des faits, les garanties les promettent et les indemnités paient les manquements; les plafonds, les franchises et les sommes entiercées déterminent la protection réelle.
+KEYWORDS: déclarations et garanties, indemnisation, convention d'acquisition, retenue en fiducie, achat d'une entreprise
+# Déclarations, garanties et indemnités dans une acquisition
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez un grand bloc commercial qui impose soudainement des droits de douane élevés sur une vaste catégorie de produits manufacturés importés, ce qui augmente les coûts des entreprises qui dépendent de ces importations comme intrants.
+Appliquez-le ici : Juste après qu'un acheteur a acquis une entreprise, de nouveaux droits de douane entrent en vigueur et un client prétend que l'entreprise a violé un contrat d'approvisionnement avant la vente. Posez la question pour plusieurs couleurs : le vendeur a-t-il promis (VIOLET) qu'il n'y avait aucun litige en cours? Une partie du prix d'achat (BLEU) est-elle retenue pour couvrir cette promesse? Comment la négociation (ORANGE) détermine-t-elle qui assume ce risque?
+
+## Objectifs d'apprentissage
+- Définir les déclarations, les garanties et les indemnités
+- Expliquer comment les sommes entiercées, les plafonds et les franchises limitent ou garantissent les réclamations d'indemnisation
+- Relier la répartition des risques au prix d'achat et au financement
+
+## Contenu principal
+Lorsque vous achetez une entreprise, vous ne pouvez pas tout voir. Le vendeur en sait plus que vous. La convention d'achat comble cet écart au moyen de trois outils :
+- Les déclarations : des énoncés de faits du vendeur à une date donnée (« Il n'y a aucune poursuite en cours. » « Les états financiers sont exacts. »).
+- Les garanties : des promesses que ces énoncés sont vrais, souvent utilisées avec les déclarations.
+- Les indemnités : des promesses de payer les pertes de l'autre partie si une déclaration se révèle fausse ou si un risque précis se concrétise.
+Limites et protections courantes :
+- La période de survie : la durée, après la clôture, pendant laquelle l'acheteur peut présenter une réclamation.
+- La franchise (ou seuil) : les petites réclamations sous un montant fixé ne sont pas payées, pour éviter des différends mineurs sans fin.
+- Le plafond : le montant maximal que le vendeur paiera, souvent un pourcentage du prix.
+- L'entiercement ou la retenue : une partie du prix d'achat est retenue pendant une certaine période pour garantir les réclamations d'indemnisation.
+- Les indemnités particulières : des promesses distinctes pour des risques connus, comme une vérification fiscale en cours.
+Comment les couleurs sont reliées :
+- BLEU : Un acheteur qui ne peut pas obtenir de solides déclarations peut réduire le prix ou recourir au financement par le vendeur, ce qui lui donne un moyen de compenser les réclamations avec les paiements du billet (si la convention le permet).
+- ORANGE : Tout ici se négocie. Un vendeur qui a de nombreux acheteurs intéressés peut résister à des indemnités étendues. Un acheteur qui présente la seule offre a plus de pouvoir de négociation.
+- VERT : RÈGLE PROPRE À LA RÉGION : Les paiements d'indemnité peuvent être traités comme des rajustements du prix aux fins fiscales; en France, par exemple, le traitement fiscal d'une somme versée au titre d'une garantie d'actif et de passif peut être une réduction du prix ou un produit selon la rédaction de la clause, à confirmer avec un conseiller fiscal.
+- VIOLET : La vérification diligente (PURPLE-L5-022) et les déclarations fonctionnent ensemble. La vérification trouve ce qu'elle peut. Les déclarations couvrent ce qu'elle ne peut pas trouver.
+HYPOTHÈSE/OPINION : Un acheteur ne devrait pas considérer les déclarations comme un substitut à la vérification diligente. Il peut être difficile de recouvrer une somme auprès d'un vendeur qui a déjà dépensé le produit de la vente. L'entiercement et les retenues transforment une promesse en argent comptant.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Maya achète une entreprise de distribution pour 1,5 million de euros.
+Conditions clés :
+- Le vendeur déclare qu'il n'y a aucun litige avec des clients en cours ou appréhendé.
+- Plafond d'indemnisation : 20 % du prix (300 000 €). Franchise : 15 000 €.
+- Entiercement : 150 000 € retenus pendant 18 mois.
+- Survie : 18 mois pour les déclarations générales; plus longtemps pour les déclarations fiscales.
+- Maya paie aussi 300 000 € du prix au moyen d'un billet du vendeur, et la convention lui permet de compenser les réclamations d'indemnisation valides avec le billet.
+Trois mois après la clôture, un client réclame 90 000 € pour une violation de contrat antérieure à la vente. Le vendeur avait reçu une lettre d'avertissement avant la clôture, mais ne l'avait pas divulguée.
+La réclamation de Maya : 90 000 € dépasse la franchise de 15 000 €. Selon le libellé du contrat, elle récupère soit le montant total, soit le montant au-delà de la franchise, à même les sommes entiercées. Si celles-ci étaient épuisées, elle pourrait opérer compensation avec le billet du vendeur.
+HYPOTHÈSE/OPINION : L'entiercement et le droit de compensation ont compté davantage que la déclaration elle-même. Sans eux, Maya poursuivrait un vendeur déjà passé à autre chose.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qu'une déclaration dans une convention d'achat?**
+A) Un énoncé de faits du vendeur à une date donnée
+B) Une affirmation publicitaire
+C) Un formulaire fiscal
+D) Un prêt
+
+**Q2. Que fait une indemnité?**
+A) Elle augmente le prix
+B) Elle transfère les employés
+C) Elle annule la vente
+D) Elle promet de payer les pertes de l'autre partie si une déclaration est fausse ou si un risque précis se concrétise
+
+**Q3. Qu'est-ce qu'un entiercement ou une retenue?**
+A) Un remboursement d'impôt
+B) Des frais de prêteur
+C) Une apport personnel sur une maison
+D) Une partie du prix retenue pendant une période pour garantir les réclamations d'indemnisation
+
+**Q4. Que fait une franchise?**
+A) Elle plafonne le total des réclamations
+B) Elle empêche le paiement des petites réclamations sous un montant fixé
+C) Elle détient de l'argent
+D) Elle fixe les taux d'intérêt
+
+**Q5. Selon la leçon, pourquoi l'entiercement a-t-il compté davantage que la déclaration elle-même?**
+A) Les déclarations sont illégales
+B) Il peut être difficile de recouvrer une somme auprès d'un vendeur qui a dépensé l'argent
+C) L'entiercement rapporte des intérêts
+D) Le tribunal l'exigeait
+
+## Corrigé
+Q1: A
+Q2: D
+Q3: D
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les déclarations énoncent des faits sur lesquels l'acheteur se fie.
+**Q2.** Les indemnités transfèrent le coût des problèmes cachés.
+**Q3.** L'entiercement transforme une promesse d'indemnisation en argent disponible.
+**Q4.** Les franchises évitent les différends sur des montants mineurs.
+**Q5.** De l'argent garanti est plus fiable qu'une promesse.
+
+## Points clés
+- Les déclarations énoncent des faits; les garanties les promettent; les indemnités paient les manquements
+- Les plafonds, les franchises, les périodes de survie et les entiercements déterminent la protection réelle
+- Les billets du vendeur assortis d'un droit de compensation ajoutent une couche de plus
+- Les déclarations complètent la vérification diligente; elles ne la remplacent pas
+
+===== PURPLE-L5-022
+TITLE: La vérification diligente juridique avant l'achat d'une entreprise
+SUMMARY: La vérification diligente juridique révèle des risques que les états financiers ne montrent pas; ses constats déterminent le prix, la structure, les déclarations, les entiercements et les conditions de clôture.
+KEYWORDS: liste de vérification diligente juridique, vérification diligente d'acquisition, examen juridique de l'achat d'une entreprise, examen des contrats
+# La vérification diligente juridique avant l'achat d'une entreprise
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez deux grandes puissances économiques qui intensifient les contrôles à l'exportation l'une contre l'autre sur une catégorie de composants technologiques de pointe utilisés dans de nombreuses industries.
+Appliquez-le ici : Un acheteur est à quelques jours de la clôture de l'achat d'une entreprise qui vend des produits technologiques. De nouveaux contrôles à l'exportation limitent soudain un fournisseur clé. Posez la question pour plusieurs couleurs : le contrat d'approvisionnement de l'entreprise (VIOLET) permet-il la résiliation dans cette situation? Sa valeur financière (BLEU/BLANC) dépend-elle de ce fournisseur? Y a-t-il des licences ou des permis (VIOLET) qui pourraient être révoqués?
+
+## Objectifs d'apprentissage
+- Énumérer les principales catégories de la vérification diligente juridique
+- Relier les constats juridiques aux décisions sur le prix, la structure et le financement
+- Décider quand un constat devrait modifier ou arrêter une transaction
+
+## Contenu principal
+La vérification diligente est l'enquête que fait un acheteur avant la clôture. La vérification financière (BLEU/VERT) examine les chiffres. La vérification juridique (VIOLET) examine les droits, les obligations et les risques que les chiffres peuvent ne pas montrer.
+Une liste de vérification juridique pratique :
+1. L'entité et la propriété : l'entreprise est-elle en règle? Qui en est réellement propriétaire? Existe-t-il des options ou des promesses de propriété en faveur d'autres personnes?
+2. Les contrats importants : les conventions avec les clients, les fournisseurs, les bailleurs, les prêteurs et les associés. Recherchez les clauses de changement de contrôle qui permettent à l'autre partie de résilier si la propriété change.
+3. L'emploi : les contrats de travail, la qualification des travailleurs autonomes (PURPLE-L5-031), les obligations liées aux avantages sociaux, les clauses de non-concurrence et les réclamations en cours.
+4. La propriété intellectuelle : l'entreprise est-elle réellement propriétaire de sa marque, de ses logiciels et de son contenu, ou appartiennent-ils aux fondateurs ou à des travailleurs autonomes? (PURPLE-L5-028)
+5. L'immobilier : le titre des immeubles détenus, les conditions des baux, le zonage et les questions environnementales.
+6. Les litiges : les poursuites en cours ou appréhendées, les enquêtes gouvernementales et l'historique des règlements.
+7. La réglementation : les licences, les permis, la conformité en matière de protection des renseignements personnels, les règles d'exportation et d'importation. RÈGLE PROPRE À LA RÉGION; en France, par exemple, certaines activités exigent une autorisation administrative, l'exportation de biens à double usage nécessite une licence, et certains investissements étrangers sont soumis au contrôle du ministre de l'Économie, à confirmer avec un avocat.
+8. Les dettes et les sûretés : les prêts, les garanties et les sûretés grevant les actifs de l'entreprise.
+Comment les constats modifient la transaction :
+- BLEU : Un contrat avec un client clé qui peut être résilié en cas de changement de contrôle peut réduire le prix ou exiger le consentement du client avant la clôture.
+- VIOLET : Les constats déterminent les déclarations particulières, les indemnités et la taille des entiercements (PURPLE-L5-021).
+- VERT : Les risques fiscaux influent sur le choix entre un achat d'actifs et un achat d'actions (PURPLE-L5-023).
+- NOIR : Certains constats devraient arrêter complètement une transaction. Connaître à l'avance vos conditions de retrait vous protège de la fièvre de la transaction.
+HYPOTHÈSE/OPINION : La compétence la plus importante en vérification diligente n'est pas de lire des documents. C'est de se demander : « Qu'arrive-t-il à la valeur de cette entreprise si ce contrat, cette licence ou cette personne disparaît? »
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : André achète une petite entreprise d'accessoires électroniques pour 2 millions de euros.
+Constats de la vérification diligente :
+- 45 % des revenus proviennent d'un seul détaillant, et ce contrat permet la résiliation en cas de changement de contrôle.
+- La conception du principal produit de l'entreprise a été créée par un designer pigiste sans cession écrite de propriété intellectuelle.
+- Le fournisseur clé se trouve dans une région maintenant touchée par les contrôles à l'exportation du scénario.
+- Un litige en cours avec un client d'une valeur d'environ 40 000 €.
+Réponses d'André :
+- Il fait de la clôture une condition du consentement écrit du détaillant au changement de contrôle.
+- Il exige que le vendeur obtienne une cession signée de propriété intellectuelle du designer avant la clôture.
+- Il réduit son offre à 1,7 million de euros pour tenir compte du risque d'approvisionnement, avec un paiement conditionnel de 200 000 € si les revenus se maintiennent pendant deux ans.
+- Il ajoute une indemnité particulière et un entiercement pour le litige en cours.
+HYPOTHÈSE/OPINION : Aucune de ces questions n'apparaissait dans les états financiers. Chacune aurait pu réduire fortement la valeur de l'entreprise après la clôture.
+
+## Questionnaire pratique
+**Q1. Sur quoi porte la vérification diligente juridique?**
+A) Les droits, les obligations et les risques que les chiffres peuvent ne pas montrer
+B) Seulement les chiffres des revenus
+C) Les plans de marketing
+D) Les anniversaires des employés
+
+**Q2. Qu'est-ce qu'une clause de changement de contrôle?**
+A) Une clause sur la formation en leadership
+B) Une clause sur les serrures des bureaux
+C) Une clause fiscale
+D) Une clause qui permet à l'autre partie de résilier ou de renégocier si la propriété change
+
+**Q3. Pourquoi André a-t-il exigé une cession de propriété intellectuelle du designer pigiste?**
+A) Sans elle, l'entreprise pourrait ne pas être réellement propriétaire de la conception de son principal produit
+B) Pour réduire les impôts
+C) Les pigistes doivent être embauchés
+D) C'était une exigence de la banque
+
+**Q4. Comment André a-t-il géré le risque d'approvisionnement?**
+A) Il l'a ignoré
+B) Il a acheté le fournisseur
+C) Il a annulé la transaction
+D) Il a réduit le prix et ajouté un paiement conditionnel lié aux revenus
+
+**Q5. Selon la leçon, quelle est la question clé de la vérification diligente?**
+A) Les bureaux sont-ils beaux?
+B) Combien y a-t-il d'employés?
+C) Qu'arrive-t-il à la valeur si ce contrat, cette licence ou cette personne disparaît?
+D) Quel est le logo?
+
+## Corrigé
+Q1: A
+Q2: D
+Q3: A
+Q4: D
+Q5: C
+
+## Réponses et explications
+**Q1.** La vérification juridique complète la vérification financière.
+**Q2.** Ces clauses peuvent mettre en péril des contrats clés lors d'une acquisition.
+**Q3.** Les travailleurs autonomes peuvent être propriétaires de ce qu'ils créent, à moins que les droits soient cédés par écrit.
+**Q4.** Le prix et le paiement conditionnel ont été rajustés en fonction d'un risque incertain.
+**Q5.** La dépendance envers des points de défaillance uniques détermine le risque pour la valeur.
+
+## Points clés
+- La vérification diligente juridique révèle des risques que les états financiers ne montrent pas
+- Vérifiez l'entité, les contrats, l'emploi, la propriété intellectuelle, l'immobilier, les litiges, la réglementation et les dettes
+- Les constats déterminent le prix, la structure, les déclarations, les entiercements et les conditions de clôture
+- Fixez vos conditions de retrait à l'avance
+
+===== PURPLE-L5-023
+TITLE: L'achat d'actifs ou l'achat d'actions
+SUMMARY: Un achat d'actions prend toute l'entreprise, avec ses dettes; un achat d'actifs choisit les biens et les dettes, mais exige des cessions et des consentements; le prix peut se rajuster pour partager l'avantage fiscal.
+KEYWORDS: achat d'actifs ou d'actions, vente d'actions, structure d'acquisition, fiscalité de l'acheteur et du vendeur, dettes prises en charge
+# L'achat d'actifs ou l'achat d'actions
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur de façon marquée et répétée en quelques mois seulement pour combattre la hausse de l'inflation.
+Appliquez-le ici : Avec des taux d'intérêt élevés, un acheteur a moins de capacité d'emprunt et veut limiter le risque dans une acquisition. Posez la question pour plusieurs couleurs : n'acheter que les actifs (VIOLET) peut permettre de laisser derrière les anciennes dettes, mais peut exiger la cession de chaque contrat. Quelle structure produit de meilleurs résultats fiscaux (VERT)? Laquelle est plus facile à financer (BLEU)?
+
+## Objectifs d'apprentissage
+- Expliquer la différence entre l'achat d'actifs et l'achat d'actions
+- Comparer la façon dont chacun déplace les dettes et les obligations contractuelles
+- Expliquer pourquoi l'acheteur et le vendeur préfèrent souvent des structures différentes
+
+## Contenu principal
+Il existe deux façons fondamentales d'acheter une entreprise :
+- L'achat d'actions : l'acheteur achète les actions ou les parts des propriétaires. L'entreprise elle-même reste la même, avec tous ses actifs, ses contrats et ses dettes, connus et inconnus.
+- L'achat d'actifs : la société de l'acheteur achète certains actifs (équipement, stocks, listes de clients, propriété intellectuelle, parfois des immeubles) et ne prend en charge que les dettes qu'elle accepte d'assumer. La société du vendeur conserve tout le reste.
+Comment les couleurs sont reliées :
+- VIOLET : Dans un achat d'actions, les contrats restent habituellement en place (sauf s'ils comportent des clauses de changement de contrôle). Dans un achat d'actifs, de nombreux contrats, licences et permis doivent être cédés, ce qui peut exiger le consentement de l'autre partie. Certaines licences ne peuvent pas être transférées du tout. RÈGLE PROPRE À LA RÉGION.
+- VIOLET (responsabilité) : Les achats d'actifs permettent généralement aux acheteurs de laisser derrière les dettes inconnues, bien que certaines lois imposent une responsabilité au successeur dans certaines situations, comme certaines obligations fiscales ou liées à l'emploi. RÈGLE PROPRE À LA RÉGION.
+- VERT : RÈGLE PROPRE À LA RÉGION : Dans de nombreux systèmes, les acheteurs préfèrent l'achat d'actifs parce qu'ils peuvent souvent attribuer aux actifs de nouvelles valeurs fiscales plus élevées et les amortir. Les vendeurs préfèrent souvent la vente d'actions parce que la vente peut être imposée plus favorablement pour eux. Cette différence est un point de négociation courant; en France, par exemple, la plus-value sur la vente d'actions relève en principe du prélèvement forfaitaire unique de 30 % ou, sur option, du barème progressif avec d'éventuels abattements, à confirmer avec un conseiller fiscal.
+- BLEU : Les prêteurs peuvent préférer l'achat d'actifs parce que les actifs achetés peuvent servir de garantie nette.
+- ORANGE : Comme les acheteurs et les vendeurs veulent des choses différentes, le prix se rajuste souvent. Un vendeur qui accepte une vente d'actifs peut demander un prix plus élevé pour compenser un traitement fiscal moins avantageux.
+HYPOTHÈSE/OPINION : Aucune structure n'est toujours meilleure. La meilleure structure est celle dont les résultats juridiques, fiscaux et de financement combinés conviennent aux deux parties, avec un prix rajusté pour partager l'avantage équitablement.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Farah veut acheter une imprimerie. Le vendeur demande 900 000 €.
+Option A : Achat d'actions à 900 000 €.
+- Tous les contrats avec les clients et le bail restent automatiquement en place.
+- Farah hérite des dettes inconnues, protégée seulement par les déclarations et l'entiercement.
+- Son prix de base fiscal dans l'équipement reste à l'ancienne valeur basse du vendeur, de sorte que les déductions pour amortissement sont faibles.
+Option B : Achat d'actifs à 900 000 €.
+- La nouvelle société de Farah achète l'équipement, les listes de clients et la marque.
+- Le bailleur doit consentir à la cession du bail; deux clients importants doivent signer de nouveaux contrats.
+- Les anciennes dettes restent pour la plupart chez le vendeur.
+- Farah peut attribuer des valeurs fiscales plus élevées à l'équipement et les amortir. RÈGLE PROPRE À LA RÉGION.
+- La facture fiscale du vendeur est plus élevée.
+Négociation : Le vendeur accepte une vente d'actifs si le prix passe à 960 000 €. Le CPA de Farah estime que ses économies d'impôt sur plusieurs années dépassent 60 000 €, et son prêteur préfère la structure d'achat d'actifs. HYPOTHÈSE/OPINION : Les deux parties s'en tirent mieux qu'avec leurs positions de départ.
+
+## Questionnaire pratique
+**Q1. Dans un achat d'actions, qu'arrive-t-il aux dettes de l'entreprise?**
+A) Elles disparaissent
+B) Elles restent dans l'entreprise, que l'acheteur possède maintenant
+C) Le gouvernement les paie
+D) Elles vont aux employés
+
+**Q2. Qu'est-ce qui est souvent exigé dans un achat d'actifs, mais pas dans un achat d'actions?**
+A) Aucun contrat
+B) Seulement des votes des actionnaires
+C) Un nouveau nom d'entreprise
+D) Le consentement à la cession de nombreux contrats, licences et baux
+
+**Q3. Pourquoi les acheteurs préfèrent-ils souvent l'achat d'actifs pour des raisons fiscales?**
+A) Ils peuvent souvent attribuer des valeurs fiscales plus élevées aux actifs et les amortir
+B) Aucun impôt n'est dû
+C) Les vendeurs paient les impôts de l'acheteur
+D) Les actifs sont libres d'impôt
+
+**Q4. Pourquoi le vendeur a-t-il accepté une vente d'actifs dans l'exemple?**
+A) Farah a augmenté le prix à 960 000 €
+B) La loi l'exigeait
+C) Le bailleur a insisté
+D) Le vendeur voulait payer plus d'impôt
+
+**Q5. Que dit la leçon sur la meilleure structure?**
+A) L'achat d'actifs est toujours meilleur
+B) Cela n'a pas d'importance
+C) L'achat d'actions est toujours meilleur
+D) La meilleure structure convient aux deux parties, avec un prix rajusté équitablement
+
+## Corrigé
+Q1: B
+Q2: D
+Q3: A
+Q4: A
+Q5: D
+
+## Réponses et explications
+**Q1.** L'acheteur prend l'entreprise telle qu'elle est, y compris les dettes inconnues.
+**Q2.** Les actifs et les contrats doivent être transférés un par un, souvent avec un consentement.
+**Q3.** Un nouveau prix de base fiscal peut créer des déductions plus importantes. RÈGLE PROPRE À LA RÉGION.
+**Q4.** Un rajustement du prix a partagé l'avantage fiscal de l'acheteur.
+**Q5.** C'est le résultat juridique, fiscal et de financement combiné qui compte.
+
+## Points clés
+- L'achat d'actions prend toute l'entreprise, dettes comprises
+- L'achat d'actifs choisit les actifs et les dettes, mais exige des transferts et des consentements
+- Les acheteurs et les vendeurs préfèrent souvent des structures différentes pour des raisons fiscales
+- Un rajustement du prix peut partager l'avantage de la meilleure structure
+
+===== PURPLE-L5-024
+TITLE: Les documents de financement par le vendeur : billets, sûretés et défaut
+SUMMARY: Le financement par le vendeur fait du vendeur un prêteur; le billet, l'acte de sûreté, la garantie et la convention de subordination, avec des clauses claires de défaut et de correction, protègent les deux parties.
+KEYWORDS: documents de financement par le vendeur, billet à ordre, convention de sûreté, hypothèque immobilière, recours en cas de défaut
+# Les documents de financement par le vendeur : billets, sûretés et défaut
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur de façon marquée et répétée en quelques mois seulement pour combattre la hausse de l'inflation.
+Appliquez-le ici : Lorsque les taux bancaires grimpent, plus d'acheteurs se tournent vers le financement par le vendeur pour acheter des entreprises et des immeubles. Posez la question pour plusieurs couleurs : quels documents (VIOLET) rendent le prêt du vendeur exécutoire? Quelle garantie (ROUGE/BLEU) le protège? Qu'arrive-t-il si l'acheteur manque des paiements, et comment le vendeur déclare-t-il le revenu (VERT)?
+
+## Objectifs d'apprentissage
+- Repérer les documents de base d'une transaction financée par le vendeur
+- Expliquer comment la sûreté et le rang protègent le vendeur
+- Décrire les clauses de défaut, de correction et de recours qui protègent les deux parties
+
+## Contenu principal
+Au niveau 3, le BLEU a présenté le financement par le vendeur pour l'acquisition d'entreprises, et le ROUGE a montré comment il peut aider à acheter un immeuble. Au niveau 5, vous apprenez les documents juridiques qui rendent l'arrangement exécutoire et équitable.
+Documents de base :
+1. Le billet à ordre : la promesse écrite de l'acheteur de rembourser. Il fixe le montant, le taux d'intérêt, le calendrier des paiements, la date d'échéance, les frais de retard et les droits de remboursement anticipé.
+2. L'acte de sûreté :
+   - Pour l'immobilier : une hypothèque ou un acte de fiducie publié contre l'immeuble. RÈGLE PROPRE À LA RÉGION; en France, par exemple, l'hypothèque conventionnelle sur un immeuble est constituée par acte notarié et publiée au service de la publicité foncière, à confirmer avec un notaire.
+   - Pour les entreprises : une convention de sûreté qui donne au vendeur un droit sur les actifs de l'entreprise, souvent rendu public par une inscription afin que les autres créanciers en soient informés. RÈGLE PROPRE À LA RÉGION.
+3. La garantie : l'acheteur peut garantir personnellement le billet (voir PURPLE-L5-009).
+4. La convention de subordination : si une banque prête aussi, elle exige habituellement que le prêt du vendeur passe au second rang. Cette convention fixe ce rang.
+Clauses clés qui protègent les deux parties :
+- La définition du défaut : qu'est-ce qui constitue un défaut? Des paiements manqués, le défaut d'assurer le bien, la vente du bien grevé sans consentement.
+- L'avis et la correction : le temps dont dispose l'acheteur pour remédier à un défaut avant que le vendeur puisse agir.
+- Les recours : ce que le vendeur peut faire après un défaut, comme exiger le remboursement immédiat du prêt, exercer ses droits hypothécaires ou reprendre les actifs de l'entreprise. RÈGLE PROPRE À LA RÉGION.
+- Les engagements : des promesses comme maintenir l'assurance, payer les impôts et ne pas contracter d'autres dettes sans consentement.
+- Les droits de compensation : la possibilité pour l'acheteur de réduire ses paiements pour couvrir des réclamations d'indemnisation (PURPLE-L5-021).
+Lien avec le VERT : RÈGLE PROPRE À LA RÉGION : Les vendeurs peuvent parfois déclarer le gain au fil du temps, à mesure que les paiements sont reçus (traitement par versements échelonnés), et l'intérêt doit souvent être égal ou supérieur à certains taux minimaux.
+HYPOTHÈSE/OPINION : Le vendeur devient un prêteur. Un vendeur qui ne prêterait jamais d'argent à un inconnu sans documents ne devrait pas non plus vendre à crédit sans documents.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Walter vend son garage de réparation automobile à Kenji pour 600 000 €. Une banque prête 360 000 €. Walter consent un billet de 180 000 €. Kenji verse une apport personnel de 60 000 €.
+Documents :
+- Billet à ordre : 180 000 €, intérêt de 7 %, remboursement sur 7 ans, paiements mensuels.
+- Convention de sûreté : Walter détient un droit de second rang sur l'équipement et les stocks du garage, inscrit publiquement.
+- Convention de subordination : le prêt de la banque est remboursé en premier.
+- Kenji garantit personnellement le billet, et la garantie diminue à 50 % après 36 paiements effectués à temps.
+- Défaut : 15 jours de retard après un avis écrit, ou défaut de maintenir l'assurance.
+- Engagement : Kenji ne peut pas vendre d'équipement important sans le consentement de Walter.
+À la troisième année, Kenji manque deux paiements après avoir perdu un important client exploitant un parc de véhicules. Walter envoie un avis. Kenji corrige le défaut pendant la période de correction au moyen d'une marge de crédit. Ils conviennent aussi par écrit d'une période de trois mois de paiements d'intérêt seulement.
+HYPOTHÈSE/OPINION : Les documents donnaient à Walter des droits exécutoires, mais ils donnaient aussi aux deux hommes un processus clair. Cette clarté a rendu possible un arrangement pratique plutôt qu'un affrontement.
+
+## Questionnaire pratique
+**Q1. Que fait un billet à ordre?**
+A) Il transfère le titre
+B) Il fixe les taux d'imposition
+C) Il consigne la promesse écrite de l'acheteur de rembourser, avec ses conditions
+D) Il remplace une convention d'achat
+
+**Q2. Que donne un acte de sûreté au vendeur?**
+A) Un droit sur un bien précis donné en garantie si l'acheteur fait défaut
+B) La propriété de l'entreprise
+C) Une déduction fiscale
+D) Des droits de vote
+
+**Q3. Pourquoi une convention de subordination est-elle souvent nécessaire?**
+A) Pour augmenter le taux d'intérêt
+B) Les banques exigent habituellement que leur prêt soit remboursé en premier
+C) Pour annuler le billet
+D) Pour éviter les impôts
+
+**Q4. Qu'est-ce qu'une clause d'avis et de correction?**
+A) Une clause de santé
+B) Un choix fiscal
+C) Une condition de marketing
+D) Un délai accordé à l'acheteur, après un avis, pour remédier à un défaut avant que les recours commencent
+
+**Q5. Qu'est-ce qui a rendu un arrangement possible dans l'exemple?**
+A) La colère de Walter
+B) Des documents clairs qui donnaient aux deux parties un processus défini
+C) Une ordonnance du tribunal
+D) La vente du garage par Kenji
+
+## Corrigé
+Q1: C
+Q2: A
+Q3: B
+Q4: D
+Q5: B
+
+## Réponses et explications
+**Q1.** Le billet définit le montant et les conditions du prêt.
+**Q2.** La sûreté permet au vendeur de se rembourser à même le bien grevé.
+**Q3.** Elle fixe le rang entre la banque et le vendeur.
+**Q4.** Les périodes de correction donnent une chance équitable de corriger les problèmes.
+**Q5.** La clarté a permis une renégociation pratique.
+
+## Points clés
+- Le financement par le vendeur fait du vendeur un prêteur; documentez-le comme tel
+- Documents de base : le billet, l'acte de sûreté, la garantie et la subordination
+- Les clauses de défaut, de correction, de recours et les engagements protègent les deux parties
+- Les règles de déclaration fiscale et d'intérêt minimal varient selon la région
+
+===== PURPLE-L5-025
+TITLE: Les conditions des contrats immobiliers comme outils de gestion du risque
+SUMMARY: Les conditions permettent à un acheteur de se retirer si des éléments clés échouent; les délais doivent être respectés à la lettre, et il ne faut jamais renoncer à une protection qu'on ne peut pas se permettre de perdre.
+KEYWORDS: conditions d'une offre d'achat immobilière, condition de financement, condition d'inspection, écart d'évaluation, acompte
+# Les conditions des contrats immobiliers comme outils de gestion du risque
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur de façon marquée et répétée en quelques mois seulement pour combattre la hausse de l'inflation.
+Appliquez-le ici : Pendant une hausse rapide des taux, un acheteur signe une offre d'achat, puis l'approbation de son prêt tombe à l'eau. Posez la question pour plusieurs couleurs : le contrat (VIOLET) permet-il à l'acheteur d'annuler et de récupérer son acompte? L'acheteur a-t-il renoncé à la condition de financement pour remporter la transaction (ORANGE)? Quelle somme d'acompte (BLANC/BLEU) est maintenant à risque?
+
+## Objectifs d'apprentissage
+- Décrire les principales conditions des contrats immobiliers
+- Expliquer comment les acomptes et les délais interagissent avec les conditions
+- Évaluer le risque de renoncer à des conditions dans un marché concurrentiel
+
+## Contenu principal
+Une condition est une exigence prévue au contrat qui doit être remplie pour que la transaction se poursuive. Si elle n'est pas remplie, la partie protégée peut souvent annuler sans perdre son acompte, pourvu qu'elle respecte les délais et les règles d'avis du contrat.
+Conditions immobilières courantes :
+- Le financement : l'acheteur peut annuler s'il ne peut pas obtenir un prêt aux conditions prévues.
+- L'inspection : l'acheteur peut faire inspecter l'immeuble et annuler ou renégocier selon les constats.
+- L'évaluation : l'acheteur peut annuler ou renégocier si l'immeuble est évalué sous le prix.
+- Le titre : l'acheteur peut annuler si les problèmes de titre ne sont pas réglés.
+- La vente de la propriété de l'acheteur : l'acheteur peut annuler s'il ne peut pas vendre sa propriété actuelle.
+- La vérification diligente (commercial) : du temps pour examiner les baux, le zonage, les rapports environnementaux et les finances.
+RÈGLE PROPRE À LA RÉGION : Les formulaires types, les délais et la façon de traiter les acomptes varient beaucoup selon le territoire; en France, par exemple, l'acheteur signe d'abord une promesse ou un compromis de vente avec un dépôt de garantie, bénéficie d'un délai de rétractation de dix jours pour un logement, puis l'acte authentique est signé devant notaire, à confirmer avec un notaire.
+Comment les couleurs sont reliées :
+- ROUGE : Les constats de l'inspection et de l'évaluation influent sur la valeur de l'immeuble et le coût des réparations.
+- BLEU : Les conditions de financement protègent les acheteurs lorsque les conditions de prêt changent, comme dans le scénario.
+- ORANGE : Dans les marchés concurrentiels, les acheteurs renoncent souvent à des conditions pour rendre leurs offres plus attrayantes. Cela améliore leurs chances de l'emporter, mais leur transfère le risque.
+- BLANC : L'acompte représente souvent une somme importante d'épargne. Le perdre est une perte réelle.
+- VIOLET : Les délais sont essentiels. Manquer un délai d'avis peut faire renoncer à une condition par défaut.
+HYPOTHÈSE/OPINION : Renoncer à une condition est un pari. Avant d'y renoncer, demandez-vous : « Si cela tourne mal, puis-je me permettre de perdre l'acompte, ou de conclure quand même? » Si la réponse est non, la renonciation est un jeu de hasard, et non une stratégie. Des approches partielles, comme raccourcir la période d'une condition au lieu de l'éliminer, peuvent équilibrer la compétitivité et la protection.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Dans un marché effervescent, Beatriz présente une offre sur un petit duplex. Le vendeur a reçu plusieurs offres.
+Son offre :
+- Prix : légèrement au-dessus du prix demandé.
+- Acompte : 25 000 €.
+- Condition d'inspection : raccourcie de 14 à 7 jours, sans renonciation.
+- Condition de financement : maintenue, mais elle fournit une solide préapprobation écrite.
+- Condition d'évaluation : renonciation partielle. Elle accepte de couvrir jusqu'à 15 000 € de tout écart entre l'évaluation et le prix.
+Les taux grimpent fortement avant la clôture. Son prêteur l'approuve, mais à un taux plus élevé. Comme sa condition de financement exigeait une approbation « à un taux ne dépassant pas » un chiffre précis, et que le nouveau taux le dépasse, elle a le choix : annuler et récupérer son acompte, ou aller de l'avant. Après avoir recalculé ses flux de trésorerie, elle va de l'avant, mais négocie une réduction de prix de 10 000 € en se servant de son droit d'annuler comme levier.
+HYPOTHÈSE/OPINION : Beatriz est restée concurrentielle sans renoncer à toutes ses protections. Sa condition de financement soigneusement rédigée a transformé un choc de taux en négociation plutôt qu'en perte.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qu'une condition?**
+A) Une exigence qui doit être remplie pour que la transaction se poursuive
+B) Une pénalité
+C) Un type de prêt
+D) Un impôt
+
+**Q2. Contre quoi une condition de financement protège-t-elle?**
+A) Le mauvais temps
+B) L'taxe foncière
+C) L'impossibilité d'obtenir un prêt aux conditions prévues
+D) Le coût de l'assurance titres
+
+**Q3. Que peut-il arriver si un acheteur manque le délai d'une condition?**
+A) Rien
+B) Il peut être réputé avoir renoncé à la condition par défaut
+C) Le vendeur doit payer l'acheteur
+D) La transaction est automatiquement annulée
+
+**Q4. Comment Beatriz est-elle restée concurrentielle sans renoncer à toutes ses protections?**
+A) Elle a raccourci certaines conditions et renoncé en partie à l'écart d'évaluation
+B) Elle a tout payé comptant
+C) Elle a renoncé à tout
+D) Elle a offert moins que le prix demandé
+
+**Q5. Quelle question un acheteur devrait-il se poser avant de renoncer à une condition?**
+A) Le vendeur m'aimera-t-il?
+B) De quelle couleur est la maison?
+C) À quelle vitesse puis-je conclure?
+D) Si cela tourne mal, puis-je me permettre de perdre l'acompte ou de conclure quand même?
+
+## Corrigé
+Q1: A
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Réponses et explications
+**Q1.** Si une condition n'est pas remplie, la partie protégée peut souvent annuler.
+**Q2.** Elle permet aux acheteurs d'annuler si le financement échoue.
+**Q3.** Les délais et les règles d'avis sont essentiels.
+**Q4.** Des approches partielles ont équilibré le risque et la compétitivité.
+**Q5.** Si la réponse est non, la renonciation est un pari.
+
+## Points clés
+- Les conditions permettent aux acheteurs de se retirer si des éléments clés échouent
+- Les délais et les règles d'avis doivent être respectés exactement
+- Renoncer à des conditions échange la protection contre la compétitivité
+- Des approches partielles peuvent équilibrer les deux; ne renoncez jamais à ce que vous ne pouvez pas vous permettre de perdre
