@@ -95,3 +95,153 @@ Men "poukisa" separasyon sa a pi plis teyorik pase absoli pou anpil ti biznis: j
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou kredi oswa finansman biznis.*
+
+===== BLUE-L3-038
+TITLE: Poukisa yon akò rachte ant asosye ta dwe egziste anvan ou bezwen l
+SUMMARY: Aprann kisa yon akò rachte (buy-sell agreement) fè pou asosye nan biznis, ak poukisa tann yon evènman deklanche rive pou negosye youn twò ta anpil.
+# BLUE-L3-038: Poukisa yon akò rachte ant asosye ta dwe egziste anvan ou bezwen l
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon akò rachte (buy-sell agreement) fèt pou l trete
+- Idantifye evènman deklanche komen yon akò rachte ta dwe prevwa
+- Esplike poukisa negosye akò sa a davans pi efikas pase negosye l apre yon evènman deklanche
+
+## Kontni prensipal
+
+Yon **akò rachte (buy-sell agreement)** se yon kontra ant asosye oswa ko-pwopriyetè yon biznis ki etabli, davans, kisa ki rive pati pwopriyete yon mèt nan biznis la si yon evènman deklanche espesifik rive — yon asosye ki vle ale poukont li, lanmò oswa enfimite yon asosye, divòs, oswa yon gwo diskisyon ant asosye yo ki pa ka rezoud.
+
+Men "poukisa" sa sanble anpil ak yon konsèp yo kouvri nan tras RED kourikoulòm sa a sou estrikti dèt nan asosyasyon ak antrepriz konjwen: asosye yo souvan kòmanse yon biznis ak anpil konfyans ak objektif ki aliyen, men sikonstans yo chanje ak tan, e san yon akò yo deja fikse, yon evènman deklanche ka kreye gwo konfli — dezakò sou konbyen pati yon asosye k ap pati vrèman vo, kiyès ki gen dwa (oswa obligasyon) pou achte l, e anba ki kondisyon.
+
+[FÈ VERIFYE] Yon akò rachte ki byen ekri anjeneral trete metòd evalyasyon an (kijan yo pral evalye biznis la, oswa pati yon asosye k ap pati, lè yon evènman deklanche rive), mwayen finansman yo (kijan yo pral vrèman peye pou rachte a, pafwa ak asirans vi espesyalman pou yon rachte lanmò deklanche), ak pwosesis espesifik yo pral swiv — tout negosye ak kalm, davans, anvan okenn vrè evènman deklanche kreye presyon emosyonèl oswa finansye ki fè yon negosyasyon jis vin pi difisil anpil.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] De asosye kòmanse yon konpayi ansanm ak yon gwo amitye pèsonèl e san okenn akò rachte fòmèl. Plizyè ane apre, youn nan asosye yo toudenkou vle kite biznis la pou rezon pèsonèl. San yon akò yo te deja fikse, yo jwenn tèt yo nan yon negosyasyon difisil, chaje ak emosyon sou konbyen pati asosye k ap pati a vrèman vo ak kijan asosye ki rete a pral finanse rachte a — yon diskisyon yo te ka evite nèt si yo te etabli kondisyon evalyasyon ak finansman klè nan yon akò rachte plizyè ane anvan, anvan sikonstans oswa enterè espesifik okenn nan asosye yo te an jwèt nan negosyasyon patikilye sa a.
+
+## Egzamen pratik
+
+1. Kisa yon akò rachte fèt pou l trete?
+2. Nonmen de evènman deklanche komen yon akò rachte ta dwe prevwa.
+3. Poukisa negosye akò sa a davans pi efikas pase negosye l apre yon evènman deklanche rive?
+
+## Kle repons yo
+
+1. Kisa ki rive pati pwopriyete yon mèt nan yon biznis si yon evènman deklanche espesifik rive, yo etabli davans ant asosye oswa ko-pwopriyetè biznis la.
+2. Nenpòt de nan: yon asosye ki ale poukont li, lanmò oswa enfimite yon asosye, divòs, oswa yon gwo diskisyon ant asosye ki pa ka rezoud.
+3. Paske negosye davans fèt ak kalm, anvan okenn vrè evènman deklanche kreye presyon emosyonèl oswa finansye ki fè yon negosyasyon jis vin pi difisil anpil pou tout moun ki konsène.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa teste si w konprann ki sitiyasyon akò sa a ta dwe kouvri nan pratik.
+3. Sa a se rezonman pratik santral ki dèyè etabli akò sa a davans olye an reyaksyon.
+
+## Pwen kle yo
+- Yon akò rachte etabli davans kisa ki rive pati yon asosye nan yon biznis si yon evènman deklanche espesifik rive.
+- Evènman deklanche komen yo gen ladan yo yon asosye ki ale poukont li, lanmò, enfimite, divòs, oswa yon diskisyon ki pa ka rezoud.
+- Negosye akò sa a ak kalm davans evite negosyasyon difisil, anba gwo presyon ki parèt si yon evènman deklanche rive san yon plan yo te deja fikse.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon avoka ki gen lisans anvan ou ekri nenpòt akò asosyasyon.*
+
+===== BLUE-L3-039
+TITLE: Poukisa asirans moun kle pwoteje yon biznis kont pèt byen ki pi kritik li
+SUMMARY: Aprann kisa asirans moun kle (key person insurance) kouvri, ak poukisa kèk biznis fè fas ak yon risk ki depase pwopòsyon akoz pèt yon sèl moun kritik.
+# BLUE-L3-039: Poukisa asirans moun kle pwoteje yon biznis kont pèt byen ki pi kritik li
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa asirans moun kle (key person insurance) fèt pou l pwoteje kont li
+- Esplike poukisa kèk biznis ekspoze sitou a risk espesifik sa a
+- Konekte konsèp sa a ak diskisyon sou akò rachte nan Leson 38
+
+## Kontni prensipal
+
+**Asirans moun kle (key person insurance)** se yon polis asirans vi (oswa pafwa enfimite) yon biznis pran sou yon moun kritik nan konpayi a — souvan yon fondatè, pi bon vandè a, oswa yon moun ki gen konesans oswa relasyon trè espesyalize ki ta vrèman difisil pou ranplase vit — ak biznis la li menm kòm benefisyè si moun sa a mouri oswa li vin enfim.
+
+Men "poukisa" risk espesifik sa a merite yon kouvèti asirans pou li sèlman: kèk biznis depann yon fason ki depase pwopòsyon de yon sèl moun oswa yon ti ponyen moun — sèl moun ki gen relasyon pwofon ak gwo kliyan yo, fondatè teknik la ki gen konesans kritik, difisil pou ranplase sou yon sistèm kle. Pèt toudenkou, sanzatann moun sa a ka kreye ni yon vrè dezòd nan operasyon yo ni yon vrè twou finansye, egzakteman nan moman biznis la pi pa ka absòbe l.
+
+[FÈ VERIFYE] Lajan asirans lan anjeneral gen pou l ede biznis la kouvri efè finansye pèt sa a — finanse kou pou jwenn e fòme yon ranplasan, kouvri revni yo pèdi pandan yon peryòd dezòd, oswa, an lyen dirèk ak Leson 38, petèt finanse yon obligasyon akò rachte si moun kle a te yon asosye biznis tou ki gen pati pwopriyete li yo bezwen rachte apre lanmò li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ti biznis depann anpil de fondatè teknik li, ki gen yon konesans espesyalize ki kritik pou pwodui prensipal konpayi a, san okenn lòt anplwaye ki kapab kounye a ranplase konesans sa a nèt. Biznis la pran yon polis asirans moun kle sou fondatè a, li mete biznis la li menm kòm benefisyè. [SIPOZISYON] Si fondatè a mouri sanzatann, lajan asirans lan ta ka ede biznis la finanse rechèch ak fòmasyon yon ranplasan, kouvri revni ki ka pèdi pandan peryòd tranzisyon sa a, e — si fondatè a te yon ko-pwopriyetè tou — ede finanse rachte pati pwopriyete li dapre yon akò rachte (Leson 38), olye kite biznis la nan yon kriz finansye touswit anplis dezòd nan operasyon yo.
+
+## Egzamen pratik
+
+1. Kisa asirans moun kle fèt pou l pwoteje kont li?
+2. Poukisa kèk biznis ekspoze sitou a risk espesifik sa a?
+3. Kijan asirans moun kle konekte ak konsèp akò rachte Leson 38 la?
+
+## Kle repons yo
+
+1. Efè finansye ak operasyonèl pèt yon moun kritik nan yon biznis, akoz lanmò oswa enfimite.
+2. Paske yo depann yon fason ki depase pwopòsyon de yon sèl moun oswa yon ti ponyen moun ki gen relasyon, konesans, oswa konpetans ki difisil pou ranplase.
+3. Si moun kle a te yon asosye biznis tou, lajan asirans lan ka ede finanse obligasyon rachte yon akò rachte kreye apre lanmò li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se objektif debaz leson an.
+2. Sa esplike ki kalite biznis ki fè fas ak risk sa a pi fò.
+3. Sa konekte leson an klèman ak konsèp akò rachte yo te prezante nan Leson 38 la.
+
+## Pwen kle yo
+- Asirans moun kle pwoteje yon biznis kont efè finansye pèt yon moun kritik akoz lanmò oswa enfimite.
+- Biznis ki depann anpil de yon sèl oswa kèk moun ki gen konesans oswa relasyon difisil pou ranplase fè fas ak yon ekspozisyon ki sitou fò a risk sa a.
+- Lajan asirans lan ka ede finanse rechèch yon ranplasan, kouvri dezòd nan revni, oswa finanse yon obligasyon rachte dapre yon akò rachte.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl asirans ki gen lisans anvan ou pran desizyon sou asirans biznis.*
+
+===== BLUE-L3-040
+TITLE: Poukisa asirans biznis se yon fason pou transfere risk, pa yon depans pou koupe an premye
+SUMMARY: Aprann poukisa asirans biznis fonksyone kòm yon transfè risk, ak poukisa trete l kòm yon kou ou ka koupe lè w vle ka ekspoze yon biznis a yon pèt katastwofik.
+# BLUE-L3-040: Poukisa asirans biznis se yon fason pou transfere risk, pa yon depans pou koupe an premye
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike konsèp jeneral asirans kòm yon transfè risk
+- Esplike poukisa trete asirans kòm yon kou ou ka koupe lè w vle ka yon erè
+- Konekte konsèp sa a ak tèm jesyon risk ki pase nan tout tras sa a
+
+## Kontni prensipal
+
+**Asirans biznis**, nan diferan fòm li yo (responsablite jeneral, pwopriyete, responsablite pwofesyonèl, ak lòt ki enpòtan pou yon biznis espesifik), fonksyone kòm yon fòm **transfè risk**: an echanj pou yon prim ou ka prevwa, ou konnen, biznis la transfere risk finansye yon pèt espesifik, ki ka pi gwo anpil, ou pa ka prevwa, bay yon konpayi asirans.
+
+Men "poukisa" sa konekte ak tèm jesyon risk ki pi laj ki pase nan tout tras sa a: yon mèt biznis, sitou youn k ap jere yon flou kach ki sere (Leson 13), ta ka gen tantasyon pou l wè prim asirans kòm yon kou li ka koupe lè l vle pou l prezève kach nan kout tèm. Sa bliye sa asirans lan vrèman ap fè: li fè yon ti kou ou ka prevwa, ou ka mete nan bidjè, vin yon pwoteksyon kont yon gwo pèt ou pa ka prevwa ki ta ka otreman menase siviv biznis la nèt — yon pwosè, yon dife, yon gwo reklamasyon responsablite.
+
+[FÈ VERIFYE] Kalite ak kantite kouvèti asirans ki apwopriye pou yon biznis depann anpil de endistri li, gwosè li, ak risk espesifik li ekspoze a — pa gen yon sèl pake asirans ki bon pou tout moun, e yo ta dwe evalye bezwen kouvèti yo ak yon pwofesyonèl asirans ki gen lisans selon vrè pwofil risk biznis espesifik la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon mèt ti biznis, k ap eseye diminye depans chak mwa pandan yon peryòd kote flou kach la sere, ap konsidere anile asirans responsablite jeneral li pou l ekonomize sou prim chak mwa a. [SIPOZISYON] Si yon kliyan blese pita nan lokal biznis la e li depoze yon gwo reklamasyon responsablite, biznis la — san asirans pou transfere risk espesifik sa a — ta ka fè fas ak yon pèt finansye ki pi gwo anpil pase ti ekonomi sou prim nan te janm bay, sa ki ta ka menase siviv biznis la. Prim nan, lè w konprann li kòrèkteman kòm yon transfè risk olye yon kou ou ka koupe lè w vle, t ap pwoteje kont egzakteman kalite evènman ki gen ti chans rive men ki ka katastwofik sa a.
+
+## Egzamen pratik
+
+1. Kisa asirans biznis fonksyone kòm, dapre fason leson sa a prezante l?
+2. Poukisa trete prim asirans kòm yon kou ou ka koupe lè w vle ka yon erè?
+3. Poukisa pa gen yon sèl pake asirans ki apwopriye pou chak biznis?
+
+## Kle repons yo
+
+1. Yon fòm transfè risk — fè yon ti prim ou ka prevwa vin yon pwoteksyon kont yon gwo pèt posib ou pa ka prevwa.
+2. Paske fè sa retire pwoteksyon kont egzakteman kalite evènman ki gen ti chans rive men ki ka katastwofik ki ta ka otreman menase siviv biznis la.
+3. Paske kalite ak kantite kouvèti ki apwopriye depann anpil de endistri espesifik, gwosè, ak risk yon biznis ekspoze a, ki varye anpil de yon biznis a yon lòt.
+
+## Repons ak eksplikasyon
+
+1. Sa a se nouvo fason pou wè bagay la leson an bati sou li.
+2. Sa a se avètisman santral kont trete asirans kòm yon senp liy depans ou ka koupe.
+3. Sa ranfòse bezwen pou yon konsèy pwofesyonèl, ki adapte a chak moun, olye sipozisyon jeneral.
+
+## Pwen kle yo
+- Asirans biznis fonksyone kòm yon transfè risk, li fè yon prim ou ka prevwa vin yon pwoteksyon kont yon gwo pèt posib ou pa ka prevwa.
+- Trete prim yo kòm yon kou ou ka koupe lè w vle ka ekspoze yon biznis a yon risk katastwofik ki ka menase siviv li.
+- Kouvèti ki apwopriye depann anpil de endistri espesifik, gwosè, ak risk yon biznis ekspoze a, sa ki mande yon konsèy pwofesyonèl ki adapte a li.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl asirans ki gen lisans pou konsèy ki espesifik pou biznis ou.*
