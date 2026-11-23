@@ -1,0 +1,303 @@
+===== RED-L2-028
+TITLE: Analiz kredi pou bilding plizyè fanmi: konbine plizyè pyès an menm tan
+SUMMARY: Analiz kredi (underwriting), nan kontèks sa a, vle di analize chif yon pwopriyete pou estime pèfòmans finansye li gen chans genyen anvan w achte l – konbine revni, inite vid, depans, NOI, finansman, ak cap rate.
+## RED-L2-028
+### Analiz kredi pou bilding plizyè fanmi: konbine plizyè pyès an menm tan
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Dekri konsèp jeneral analiz kredi (underwriting) pou yon pwopriyete plizyè fanmi.
+- Idantifye done kle yo konbine nan yon analiz kredi debaz.
+- Esplike poukisa analiz kredi se yon konpetans Nivo 2 ki mande plizyè pyès an menm tan.
+
+**2. Kontni prensipal**
+Analiz kredi (underwriting), nan kontèks sa a, vle di pwosesis pou analize chif yon pwopriyete pou estime pèfòmans finansye li gen chans genyen anvan w achte l. Pou pwopriyete plizyè fanmi, sa anjeneral konbine plizyè pyès nivo sa a deja kouvri: revni lwaye, sipozisyon sou inite vid (Leson 9), depans operasyon, NOI (Leson 26), kondisyon finansman ak efè lefye (Leson 7–8), ak estimasyon valè ki baze sou cap rate (Leson 26–27).
+
+Yon egzèsis analiz kredi debaz estime lwaye potansyèl brit la, li retire yon pwovizyon pou inite vid, li retire depans operasyon pou rive nan NOI, apre sa li aplike sipozisyon finansman pou estime cash flow apre sèvis dèt, pandan l itilize tou sipozisyon cap rate pou verifye si pri acha a rezonab konpare ak pri mache konparab.
+
+Nou prezante sa espre kòm yon leson sentèz: olye l prezante yon nouvo konsèp, li mande elèv la konbine plizyè pyès li te aprann anvan nan yon sèl analiz — esans panse Nivo 2 "kijan pyès yo travay ansanm," ki ale pi lwen pase konprann chak pyès pou kont li.
+
+**3. Egzanp pratik**
+Yon envestisè ap evalye yon bilding apatman 12 inite. Yo estime lwaye potansyèl brit la a $180,000 pa ane. Lè l aplike yon pwovizyon konsèvatè 7% pou inite vid, revni efektif la desann rive anviwon $167,400. Depans operasyon estime yo (taks, asirans, antretyen, jesyon) fè $67,000 an total, sa ki bay yon NOI estime anviwon $100,400.
+
+Lè l tcheke NOI sa a kont cap rate lokal konparab (pa egzanp, 6.5%), sa sijere yon valè estime toupre $1,545,000. Apre sa envestisè a ajoute sipozisyon finansman — yon avans ak yon to enterè espesifik — pou estime si cash flow ki pwojte apre peman ipotèk la rive nan objektif li, anvan l deside si pri yo mande a rezonab konpare ak tout pòtre analiz kredi sa a.
+
+**4. Egzamen pratik**
+1. Kisa analiz kredi ye, nan kontèks sa a?
+   a) Ekri yon anons lokasyon
+   b) Analize chif yon pwopriyete pou estime pèfòmans finansye li gen chans genyen anvan acha
+   c) Yon kalite polis asirans
+   d) Yon dokiman legal ki transfere tit
+
+2. Kilès nan sa yo yo PA anjeneral konbine nan yon analiz kredi debaz pou bilding plizyè fanmi?
+   a) Sipozisyon sou inite vid
+   b) NOI ak cap rate
+   c) Kondisyon finansman
+   d) Koulè prefere lokatè a
+
+3. Vrè oswa Fo: Analiz kredi chita sou yon sèl chif izole olye l konbine plizyè pyès.
+
+4. Ki konpetans Nivo 2 leson sa a sitou ranfòse?
+   a) Aprann yon sèl nouvo fòmil pa kè
+   b) Konbine plizyè pyès ou te aprann anvan nan yon sèl analiz sentèz
+   c) Inyore inite vid ak depans
+   d) Evite tout konsiderasyon finansman
+
+**5. Kle repons yo**
+1. b  2. d  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Analiz kredi se pwosesis analitik pou estime pèfòmans finansye yon pwopriyete gen chans genyen anvan w angaje w pou achte l.
+2. Inite vid, NOI/cap rate, ak kondisyon finansman se tout done estanda nan analiz kredi; koulè prefere yon lokatè se pa yon done finansye.
+3. Yon analiz kredi efikas konbine espre plizyè pyès — revni, depans, finansman, ak pri mache — ansanm.
+4. Leson sa a se yon egzèsis sentèz, li ranfòse konbinezon pyès endividyèl ou te aprann anvan nan yon sèl analiz.
+
+**7. Pwen kle yo**
+- Analiz kredi konbine revni lwaye, inite vid, depans operasyon, NOI, finansman, ak cap rate nan yon sèl analiz.
+- Pwosesis la deplase soti nan revni brit pou rive nan NOI, apre sa nan valè estime ak cash flow pwojte, etap pa etap.
+- Leson sa a se yon sentèz espre pyès anvan yo, ki reflete vrè panse Nivo 2 "pyès k ap travay ansanm."
+- Yon analiz kredi rezonab ede verifye si yon pri yo mande rezonab konpare ak pèfòmans yon pwopriyete gen chans genyen.
+
+===== RED-L2-029
+TITLE: Asosyasyon ak sendikasyon: pataje tablo a ak lòt moun
+SUMMARY: Se pa tout envestisman imobilye yo fè poukont yo; asosyasyon ak sendikasyon pèmèt plizyè moun konbine kapital, konpetans, oswa efò – ak nouvo risk pou evalye.
+## RED-L2-029
+### Asosyasyon ak sendikasyon: pataje tablo a ak lòt moun
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral yon asosyasyon imobilye ak yon sendikasyon.
+- Fè diferans ant wòl aktif ak wòl pasif nan estrikti sa yo.
+- Idantifye risk ak konsiderasyon kle lè w envesti ak lòt moun.
+
+**2. Kontni prensipal**
+Se pa tout envestisman imobilye yo fè poukont yo. Yon asosyasyon anjeneral gen de pati oswa plis ki konbine kapital, konpetans, oswa efò pou achte e jere pwopriyete ansanm, ak wòl ak pataj benefis yon kontra asosyasyon defini. Yon sendikasyon se yon aranjman ki pi estriktire, souvan ak yon "sponsò" oswa "asosye jeneral" ki jwenn, jere, e opere pwopriyete a, ak plizyè "asosye limite" oswa envestisè pasif ki kontribye kapital an echanj pou yon pati nan benefis yo, san yo pa pran yon wòl jesyon aktif.
+
+Estrikti sa yo ka louvri aksè ak pi gwo pwopriyete pase sa yon moun ta ka achte poukont li, e yo ka pèmèt envestisè pasif patisipe nan imobilye san yo pa jere lokatè oswa renovasyon dirèkteman. Men yo mete nouvo pyès pou evalye: istorik sponsò a ak aliyman enterè yo, kondisyon espesifik pataj benefis ak frè, estrikti legal la ak pwoteksyon envestisè yo, ak mank likidite jeneral pifò envestisman sa yo (lajan an souvan angaje pou plizyè ane ak yon kapasite limite pou soti bonè).
+
+Sa a se yon domèn ki mande anpil diliyans e souvan revizyon yon avoka ki espesyalize nan valè mobilye (securities), paske kèk sendikasyon estriktire kòm ofri valè mobilye ki sijè a kondisyon règleman espesifik — yon lòt domèn RÈG ESPESIFIK POU REJYON AN ki depann de estrikti a pwogram sa a pa p senplifye nan yon règ ki bon pou tout moun.
+
+**3. Egzanp pratik**
+Olye l achte yon ti pwopriyete poukont li, Devin deside envesti kòm asosye limite nan yon sendikasyon k ap achte yon gwo konplèks apatman, li kontribye kapital ansanm ak plizyè lòt envestisè pasif pandan yon sponsò ki gen eksperyans ap jere acha a ak operasyon yo.
+
+Anvan l envesti, Devin revize istorik sponsò a sou afè ki sanble nan tan pase, li li dokiman òf yo ak atansyon (ak èd yon avoka ki gen eksperyans nan estrikti sa yo), e li konfime li konprann estrikti frè yo, peryòd kenbe yo atann lan, ak sikonstans kote li ta ka pèdi yon pati oswa tout envestisman li. Li trete sa kòm yon angajman serye ki mande menm diliyans ak achte yon pwopriyete dirèkteman — se pa yon fason pasif e san risk pou "posede imobilye san travay."
+
+**4. Egzamen pratik**
+1. Ki wòl yon "sponsò" oswa "asosye jeneral" anjeneral jwe nan yon sendikasyon?
+   a) Yon envestisè konplètman pasif
+   b) Pati ki jwenn, jere, e opere pwopriyete a
+   c) Yon lokatè
+   d) Yon regilatè gouvènman
+
+2. Ki yon konsiderasyon risk kle nan sendikasyon, dapre leson sa a?
+   a) Yo toujou san risk
+   b) Mank likidite, aliyman sponsò a, ak estrikti frè mande revizyon ak atansyon
+   c) Yo pa mande okenn diliyans
+   d) Yo idantik ak achte aksyon sou yon bous
+
+3. Vrè oswa Fo: Tout sendikasyon ak asosyasyon ofri likidite imedya e li fasil pou soti ladan yo nenpòt ki lè.
+
+4. Poukisa Devin te fè rechèch sou istorik sponsò a anvan l envesti?
+   a) Lalwa te mande sa nan tout ka
+   b) Pèfòmans ak aliyman sponsò a afekte rezilta envestisman an dirèkteman
+   c) Sa pa t gen okenn enpak sou desizyon li
+   d) Li t ap envesti yon ti kantite sèlman
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Sponsò a oswa asosye jeneral la aktivman jwenn, jere, e opere pwopriyete a nan non envestisè yo.
+2. Mank likidite, aliyman sponsò a, ak estrikti frè se faktè risk santral ki mande revizyon ak atansyon anvan w envesti.
+3. Pifò sendikasyon ak asosyasyon gen yon gwo mank likidite, ak kapital ki angaje pou peryòd ki long.
+4. Paske envestisè pasif konte anpil sou desizyon sponsò a, istorik li ak aliyman enterè yo se faktè diliyans ki enpòtan anpil.
+
+**7. Pwen kle yo**
+- Asosyasyon ak sendikasyon pèmèt envestisè konbine kapital, konpetans, oswa jwenn aksè ak pi gwo afè ansanm.
+- Sendikasyon anjeneral separe yon sponsò aktif ak asosye limite ki pasif.
+- Risk kle yo gen ladan mank likidite, estrikti frè, ak aliyman enterè sponsò a.
+- Estrikti sa yo souvan gen règleman valè mobilye e yo mande yon diliyans konplè, souvan ak konsèy legal.
+
+===== RED-L2-030
+TITLE: Diliyans: enspeksyon, tit, ak verifikasyon anviwònman
+SUMMARY: Diliyans (due diligence) se pwosesis envestigasyon yon achtè fè anvan l finalize yon acha imobilye, pou dekouvri pwoblèm fizik, legal, ak anviwònman anvan yo vin pwoblèm achtè a.
+## RED-L2-030
+### Diliyans: enspeksyon, tit, ak verifikasyon anviwònman
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon diliyans nan kontèks yon tranzaksyon imobilye.
+- Idantifye objektif jeneral enspeksyon, rechèch tit, ak verifikasyon anviwònman.
+- Esplike poukisa sote diliyans ogmante risk anpil.
+
+**2. Kontni prensipal**
+Diliyans (due diligence) se pwosesis envestigasyon yon achtè fè anvan l finalize yon acha imobilye, pou dekouvri pwoblèm fizik, legal, ak anviwònman anvan yo vin pwoblèm achtè a. Twa eleman kouran se enspeksyon fizik, rechèch tit, ak evalyasyon anviwònman.
+
+Yon enspeksyon fizik egzamine kondisyon estriktirèl, mekanik, ak sistèm pwopriyete a (do kay, fondasyon, plonbri, elektrisite, ak plis ankò), sa ki ede yon achtè konprann bezwen reparasyon e negosye an konsekans, oswa kite yon pwopriyete ki gen gwo pwoblèm yo pa t divilge.
+
+Yon rechèch tit egzamine dosye piblik pou konfime vandè a gen toutbon yon pwopriyete legal klè pou l vann, e pou dekouvri privilèj, reklamasyon ki pa rezoud, oswa lòt defo tit ki ta ka konplike oswa menase pwopriyete achtè a nan lavni. Asirans tit (nou pral prezante l nan pwochen leson an) travay ansanm ak pwosesis sa a.
+
+Yon evalyasyon anviwònman egzamine si yon pwopriyete gen kontaminasyon oswa danje anviwònman (sa varye anpil selon kalite pwopriyete ak ansyen itilizasyon, ak pwopriyete komèsyal ak endistriyèl ki souvan mande yon revizyon pi laj pase acha rezidansyèl tipik).
+
+Sote oswa prese diliyans pou "genyen" yon afè ki gen konkirans ka ekspoze yon achtè a sipriz ki koute chè, pafwa katastwofik, apre fèmti — pwoblèm ou te souvan ka dekouvri, e se te souvan responsablite vandè a pou l divilge yo yon fason oswa yon lòt, anvan afè a te fèmen.
+
+**3. Egzanp pratik**
+Nan yon mache ki gen anpil konkirans, Nadia tante renonse a kondisyon enspeksyon li pou fè òf li pi enteresan pou yon vandè ki gen plizyè òf. Olye sa, li negosye yon peryòd enspeksyon ki pi kout men ki toujou reyèl, sa ki bay enspektè pwofesyonèl li ase tan pou l idantifye yon gwo pwoblèm fondasyon ki pa t vizib pandan yon ti vizit rapid.
+
+Ak enfòmasyon sa a, Nadia swa renegosye pri a pou kont reparasyon ki nesesè a swa li kite afè a — kèlkeswa sa, li evite eritye yon pwoblèm ki koute chè e ki te kache, sa ki montre poukisa pwoteksyon diliyans raman vo lapèn pou w renonse a li nèt, menm anba presyon konkirans.
+
+**4. Egzamen pratik**
+1. Ki objektif jeneral yon rechèch tit?
+   a) Enspekte do kay la
+   b) Konfime yon pwopriyete legal klè e dekouvri privilèj oswa reklamasyon
+   c) Teste pou kontaminasyon anviwònman
+   d) Fikse to enterè a
+
+2. Kisa yon enspeksyon fizik sitou evalye?
+   a) Revni vandè a
+   b) Kondisyon estriktirèl, mekanik, ak sistèm pwopriyete a
+   c) Istorik zonaj katye a
+   d) Nòt kredi achtè a
+
+3. Vrè oswa Fo: Renonse a tout kondisyon diliyans pa mete okenn risk anplis pou achtè a.
+
+4. Kisa peryòd enspeksyon Nadia ki pi kout men reyèl la te pèmèt li dekouvri?
+   a) Yon erè nan pri
+   b) Yon gwo pwoblèm fondasyon ki te kache
+   c) Yon vyolasyon zonaj
+   d) Yon defo tit
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon rechèch tit konfime pwopriyete klè e li idantifye privilèj oswa reklamasyon sou pwopriyete a.
+2. Enspeksyon fizik konsantre sou kondisyon estriktirèl, mekanik, ak sistèm pwopriyete a.
+3. Renonse a kondisyon diliyans ogmante anpil ekspozisyon achtè a a pwoblèm yo pa dekouvri.
+4. Enspeksyon Nadia te dekouvri yon gwo pwoblèm fondasyon ki ta vin pwoblèm li apre fèmti.
+
+**7. Pwen kle yo**
+- Diliyans fè envestigasyon sou pwoblèm fizik, legal, ak anviwònman anvan yo finalize yon acha.
+- Enspeksyon fizik, rechèch tit, ak evalyasyon anviwònman chak trete diferan kategori risk.
+- Sote oswa prese diliyans pou genyen yon afè ki gen konkirans ka ekspoze yon achtè a sipriz grav ki koute chè.
+- Yon pwoteksyon diliyans reyèl, menm si l pi kout, raman vo lapèn pou w renonse a li nèt.
+
+===== RED-L2-031
+TITLE: Asirans tit ak privilèj: pwoteje pwopriyete w
+SUMMARY: Asirans tit se yon polis ki pwoteje yon achtè (e anjeneral yon moun k ap prete) kont sèten pèt ki soti nan defo nan tit yon pwopriyete yo pa t dekouvri pandan rechèch tit la.
+## RED-L2-031
+### Asirans tit ak privilèj: pwoteje pwopriyete w
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon asirans tit ak objektif jeneral li.
+- Esplike kisa yon privilèj (lien) ye e kijan li ka afekte yon pwopriyete.
+- Dekri rapò ant rechèch tit, asirans tit, ak privilèj.
+
+**2. Kontni prensipal**
+Sou baz leson anvan an, asirans tit se yon polis ki pwoteje yon achtè (e anjeneral yon moun k ap prete) kont sèten pèt ki soti nan defo nan tit yon pwopriyete yo pa t dekouvri pandan rechèch tit la — tankou yon eritye yo pa t konnen ki gen yon reklamasyon, yon ansyen dokiman ki te fo, oswa yon ansyen privilèj ki pa t rezoud. Kontrèman ak anpil kalite asirans ki pwoteje kont evènman nan lavni, asirans tit anjeneral pwoteje kont pwoblèm nan tan pase yo pa t dekouvri.
+
+Yon privilèj (lien) se yon reklamasyon legal sou yon pwopriyete, souvan pou garanti yon dèt oswa yon obligasyon, ki anjeneral dwe rezoud anvan yon tit klè ka transfere bay yon nouvo pwopriyetè. Privilèj ka soti nan taks pwopriyete ki pa peye, bòdwo kontraktè ki pa peye (privilèj mekanisyen), jijman tribinal ki pa rezoud, oswa yon prè ipotèk ki egziste ki poko peye nèt nan moman fèmti a.
+
+Rechèch tit la (leson anvan an) se pwosesis envestigasyon an; asirans tit se polis pwoteksyon ki kanpe dèyè envestigasyon sa a, ki kouvri achtè a si yo te rate yon bagay. Ansanm, yo fòme yon kouch pwoteksyon kle sou sa ki souvan pi gwo byen yon achtè genyen.
+
+**3. Egzanp pratik**
+Apre l fin fèmen acha nouvo kay li, Renata dekouvri yon kontraktè ansyen pwopriyetè a te anboche plizyè ane anvan pa t janm resevwa tout lajan l e li te depoze yon privilèj mekanisyen sou pwopriyete a — youn yo te rate yon fason oswa yon lòt pandan pwosesis rechèch tit la.
+
+Paske Renata te achte yon polis asirans tit pou pwopriyetè nan moman fèmti a, konpayi asirans tit li a antre an aksyon pou rezoud reklamasyon an dapre kondisyon polis la, sa ki pwoteje Renata pou l pa oblije peye ansyen dèt la nan pòch li oswa riske pèdi pwopriyete klè kay li pou yon pwoblèm ki te egziste anvan l te janm achte pwopriyete a.
+
+**4. Egzamen pratik**
+1. Kont kisa asirans tit anjeneral pwoteje?
+   a) Domaj do kay nan lavni
+   b) Sèten defo nan tit yon pwopriyete ki soti nan tan pase e yo pa t dekouvri
+   c) To enterè k ap monte
+   d) Lokatè ki pa peye
+
+2. Kisa yon privilèj ye?
+   a) Yon kalite asirans
+   b) Yon reklamasyon legal sou yon pwopriyete, souvan pou garanti yon dèt oswa yon obligasyon
+   c) Yon klasifikasyon zonaj
+   d) Yon kalite prè ipotèk
+
+3. Vrè oswa Fo: Asirans tit ak yon rechèch tit fè egzakteman menm fonksyon e ou ka ranplase youn ak lòt.
+
+4. Kisa ki te pwoteje Renata kont privilèj mekanisyen yo pa t dekouvri a apre fèmti?
+   a) Asirans pwopriyetè kay li
+   b) Polis asirans tit li
+   c) Bòn volonte moun ki te prete l la
+   d) Anyen — li te oblije peye l li menm
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Asirans tit anjeneral pwoteje kont sèten defo tit ki soti nan tan pase e yo pa t dekouvri.
+2. Yon privilèj se yon reklamasyon legal sou yon pwopriyete, anjeneral pou garanti yon dèt oswa yon obligasyon ki pa peye.
+3. Rechèch tit la fè envestigasyon; asirans tit pwoteje kont sa envestigasyon sa a ta ka rate — yo konplete youn lòt, yo pa idantik.
+4. Polis asirans tit Renata te kouvri privilèj mekanisyen yo pa t dekouvri a dapre kondisyon li.
+
+**7. Pwen kle yo**
+- Asirans tit pwoteje kont sèten defo nan tit yon pwopriyete ki soti nan tan pase e yo pa t dekouvri.
+- Yon privilèj se yon reklamasyon legal sou yon pwopriyete ki anjeneral dwe rezoud anvan yon tit klè ka transfere.
+- Rechèch tit la fè envestigasyon sou pwoblèm posib; asirans tit bay yon pwoteksyon si yo rate yon bagay.
+- Ansanm, pwoteksyon sa yo pwoteje youn nan pi gwo angajman finansye yon achtè.
+
+===== RED-L2-032
+TITLE: Kontra imobilye: kondisyon ak enteraksyon yo
+SUMMARY: Yon kondisyon (contingency) se yon klòz nan yon kontra acha imobilye ki dwe satisfè pou afè a avanse, ki bay yon pati (anjeneral achtè a) dwa pou l renegosye oswa kite kontra a si kondisyon an pa satisfè.
+## RED-L2-032
+### Kontra imobilye: kondisyon ak enteraksyon yo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon kondisyon (contingency) nan yon kontra imobilye.
+- Idantifye kalite kondisyon kouran ak objektif yo.
+- Esplike kijan retire oswa mete kondisyon chanje risk yon achtè ak jan òf li konpetitif.
+
+**2. Kontni prensipal**
+Yon kondisyon (contingency) se yon klòz nan yon kontra acha imobilye ki dwe satisfè pou afè a avanse, ki bay yon pati (anjeneral achtè a) dwa pou l renegosye oswa kite kontra a, souvan ak depo garanti (earnest money) li pwoteje, si kondisyon an pa satisfè. Kondisyon kouran gen ladan yon kondisyon finansman (afè a depann de achtè a jwenn yon finansman apwouve), yon kondisyon enspeksyon (afè a depann de yon rezilta enspeksyon ki akseptab), ak yon kondisyon evalyasyon (afè a depann de pwopriyete a evalye nan pri acha a oswa pi wo).
+
+Kondisyon pwoteje achtè men yo ka fè yon òf mwens enteresan pou vandè, sitou nan mache ki gen anpil konkirans, paske yon òf ki gen kondisyon gen plis fason pou l tonbe. Sa kreye yon enteraksyon dirèk ak estrateji negosyasyon (pwochen leson an): yon achtè ta ka konsidere retire sèten kondisyon pou fè òf li pi fò, men sa ogmante ekspozisyon li a risk — retire yon kondisyon finansman, pa egzanp, ta ka vle di pèdi depo garanti a si finansman an alafen pa mache.
+
+Pa gen yon apwòch ki kòrèk pou tout moun; bon ekilib la depann de nivo konkirans mache a, konfyans achtè a nan finansman li ak nan kondisyon pwopriyete a, ak konbyen risk li dispoze aksepte an echanj pou yon òf ki pi konpetitif.
+
+**3. Egzanp pratik**
+Nan yon sitiyasyon kote plizyè moun ap fè òf, Aisha konsidere retire kondisyon evalyasyon li pou fè òf li parèt pi fò, paske plizyè lòt achtè ap fè menm bagay la. Anvan l deside, li kalkile risk finansye espesifik la: si pwopriyete a evalye pi ba pase pri òf li a, li ta bezwen kouvri diferans lan an kach oswa riske pèdi depo garanti li si li pa kapab oswa si l chwazi pa avanse.
+
+Apre l fin fè kalkil yo e konfime li gen ase kach anplis pou kouvri yon diferans evalyasyon rezonab si sa nesesè, Aisha deside retire kondisyon evalyasyon an men li kenbe kondisyon enspeksyon li, paske li pa alèz ditou pou l aksepte yon risk fizik li pa konnen konpare ak yon diferans finansye li ka mezire e li te deja planifye pou li.
+
+**4. Egzamen pratik**
+1. Kisa yon kondisyon ye nan yon kontra imobilye?
+   a) Yon dat fèmti garanti
+   b) Yon klòz ki dwe satisfè pou afè a avanse
+   c) Yon kalite prè ipotèk
+   d) Yon fòm taks
+
+2. Ki yon konpwomi kouran lè w retire kondisyon pou fè yon òf pi konpetitif?
+   a) Pa gen konpwomi
+   b) Plis ekspozisyon a risk pou achtè a
+   c) Yon pri acha pi ba garanti
+   d) Apwobasyon prè otomatik
+
+3. Vrè oswa Fo: Gen yon sèl kantite kondisyon ki kòrèk pou tout moun pou mete nan chak òf.
+
+4. Poukisa Aisha te retire kondisyon evalyasyon li men li te kenbe kondisyon enspeksyon li?
+   a) Tou de risk yo pa t enpòtan pou li
+   b) Li te planifye pou risk evalyasyon an e li te ka tolere l, men se pa risk fizik li pa konnen an
+   c) Ajan li te mande sa
+   d) Se te yon obligasyon legal
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon kondisyon se yon klòz ki dwe satisfè pou kontra a avanse jan yo te dakò a.
+2. Retire kondisyon pou fè yon òf pi fò anjeneral ogmante ekspozisyon achtè a a risk espesifik.
+3. Bon estrikti kondisyon an depann de kondisyon mache a ak tolerans pou risk ak preparasyon espesifik achtè a.
+4. Aisha te fè yon distenksyon espre e kalkile ant yon risk li te planifye pou li ak youn li te konsidere twò ensèten pou l aksepte.
+
+**7. Pwen kle yo**
+- Kondisyon se klòz ki pwoteje yon achtè, ki pèmèt li soti oswa renegosye si yo pa satisfè.
+- Kalite kouran gen ladan kondisyon finansman, enspeksyon, ak evalyasyon.
+- Retire kondisyon ka fè yon òf pi fò nan konkirans men li ogmante ekspozisyon achtè a a risk.
+- Bon ekilib la depann de kondisyon mache a ak tolerans pou risk ak preparasyon espesifik achtè a, se pa yon règ fiks.
