@@ -47,3 +47,153 @@ Konpwomi sa a konekte dirèkteman ak wòl lò sipoze jwe, li pa yon bliye nan ko
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-022
+TITLE: Poukisa objè koleksyon ak byen altènatif difisil pou evalye objektivman
+SUMMARY: Aprann poukisa bagay tankou travay atistik, diven, oswa objè koleksyon ki ra reziste kalite evalyasyon objektif ki posib pou aksyon oswa obligasyon, ak poukisa sa kreye yon risk inik.
+# GOLD-L3-022: Poukisa objè koleksyon ak byen altènatif difisil pou evalye objektivman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa objè koleksyon reziste evalyasyon objektif jan yo ka analize aksyon oswa obligasyon
+- Esplike poukisa sibjektivite sa a kreye yon risk inik pou yon envestisè
+- Esplike poukisa pwofondè mache a enpòtan sitou pou kategori byen sa a
+
+## Kontni prensipal
+
+**Objè koleksyon** (collectibles) — travay atistik, diven ki ra, objè ansyen, ak lòt byen ki sanble — pouse defi evalyasyon yo te prezante pou lò nan Leson 8 la pi lwen ankò. Kontrèman ak lò, ki omwen gen yon mache aktif, transparan, ki negosye nan lemond antye e ki etabli yon pri moun rekonèt toupatou, yo souvan evalye objè koleksyon sitou selon gou sibjektif, tandans aktyèl, ak opinyon espesifik yon gwoup relativman limite achtè ki enterese ak ekspè evalyatè.
+
+Men "poukisa" sa kreye yon risk inik ki depase mank likidite sèlman (yo deja kouvri l nan Leson 10): [FÈ VERIFYE] de evalyatè ki kalifye ta ka rive rezonabman nan evalyasyon ki diferan anpil pou menm objè espesifik la, e valè yon moso ka afekte anpil pa gou ak tandans k ap chanje, oswa pa repitasyon ak preferans espesifik yon ti kantite kolektè — faktè ki pi sibjektif anpil e ki mwens fasil pou verifye an jeneral pase dinamik ofri ak demann ki afekte lò, oswa dinamik lajan k ap sikile ki afekte yon aksyon oswa yon obligasyon.
+
+Se poutèt sa pwofondè mache a — konbyen achtè ki vrèman enterese ki egziste pou yon objè espesifik nan yon moman — enpòtan sitou pou kategori byen sa a: yon objè koleksyon ki sanble gen valè ka vin vrèman difisil pou vann nan nenpòt pri ki pre valè yo te estime anvan si gwoup achtè ki enterese nan kalite objè patikilye sa a mens oswa li deja ale sou lòt tandans aktyèl.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kolektè achte yon travay atistik selon yon evalyasyon pwofesyonèl ki estime valè li. [SIPOZISYON] Plizyè ane pita, lè l vle vann li, li jwenn gou kolektè yo kounye a chanje, yo kite estil oswa atis patikilye sa a, sa ki retresi anpil gwoup achtè ki vrèman enterese yo, e pri li vrèman ka jwenn lan pi ba anpil pase evalyasyon orijinal la — sa ki montre ni sibjektivite evalyasyon orijinal la ni risk pwofondè mache ki espesifik pou kategori byen sa a, ki diferan de risk mank likidite jeneral ki aplike pou byen altènatif an jeneral.
+
+## Egzamen pratik
+
+1. Poukisa objè koleksyon reziste evalyasyon objektif menm plis pase lò?
+2. Poukisa de evalyatè ki kalifye ka rive rezonabman nan diferan evalyasyon pou menm objè koleksyon an?
+3. Poukisa pwofondè mache a enpòtan sitou pou kategori byen sa a?
+
+## Kle repons yo
+
+1. Paske yo evalye objè koleksyon sitou selon gou sibjektif, tandans aktyèl, ak opinyon limite ekspè oswa kolektè, kontrèman ak lò, ki gen yon mache aktif, transparan, ki negosye nan lemond antye.
+2. Paske evalyasyon pou kategori sa a depann anpil de faktè sibjektif tankou gou ak tandans, olye done ou ka verifye objektivman tankou lajan k ap sikile oswa yon mache laj, transparan.
+3. Paske yon objè ki sanble gen valè ka vin vrèman difisil pou vann toupre valè yo estime a si gwoup achtè ki enterese nan kalite objè sa a mens oswa li deja ale sou lòt tandans aktyèl.
+
+## Repons ak eksplikasyon
+
+1. Sa pwolonje tèm difikilte evalyasyon Leson 8 la nan yon kategori byen ki pi sibjektif ankò.
+2. Sa a se eksplikasyon santral sibjektivite leson an dekri a.
+3. Sa prezante yon risk espesifik pou kategori sa a, ki diferan de risk mank likidite jeneral yo kouvri nan Leson 10.
+
+## Pwen kle yo
+- Objè koleksyon reziste evalyasyon objektif menm plis pase lò, paske valè yo depann anpil de gou sibjektif ak opinyon limite ekspè.
+- De evalyatè ki kalifye ka rive rezonabman nan evalyasyon ki diferan anpil pou menm objè a.
+- Pwofondè mache a — vrè gwoup achtè ki enterese nan yon moman — se yon risk apa, enpòtan ki espesifik pou kategori byen sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon evalyatè oswa yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman nan objè koleksyon.*
+
+===== GOLD-L3-023
+TITLE: Poukisa pwopriyete fraksyonè chanje aksè a envestisman altènatif
+SUMMARY: Aprann kijan platfòm pwopriyete fraksyonè louvri klas byen ki te rezève pou envestisè rich, ak poukisa aksè sa a vini ak pwòp nouvo konsiderasyon pa li.
+# GOLD-L3-023: Poukisa pwopriyete fraksyonè chanje aksè a envestisman altènatif
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa pwopriyete fraksyonè anjeneral pèmèt envestisè fè
+- Esplike poukisa sa chanje aksè a kategori byen altènatif ki te rezève istorikman pou envestisè rich
+- Konekte konsèp sa a ak etid ka sou aksyon fraksyonè yo mansyone lòt kote nan kourikoulòm sa a
+
+## Kontni prensipal
+
+Platfòm **pwopriyete fraksyonè** (fractional ownership) anjeneral pèmèt plizyè envestisè posede ansanm yon pati nan yon sèl byen — yon moso imobilye, yon objè koleksyon ki gen valè, oswa menm ti kantite lò — olye yo mande okenn sèl envestisè achte tout byen an nèt.
+
+Men "poukisa" sa reprezante yon chanjman enpòtan nan aksè: anpil nan kategori byen altènatif yo diskite nan tout tras sa a — posede imobilye dirèkteman, travay atistik, ak lòt — istorikman te mande anpil kapital pou patisipe ditou, sa ki an reyalite te limite aksè a envestisè ki pi rich ki te ka achte tout yon byen nèt. [FÈ VERIFYE] Estrikti pwopriyete fraksyonè pèmèt envestisè ki gen kantite kapital pi modès jwenn ekspozisyon nan menm kategori byen sa yo, yo achte yon pati pwopòsyonèl olye yo bezwen tout pri acha a.
+
+Sa konekte ak yon prensip pi laj yo mansyone lòt kote nan kourikoulòm sa a atravè etid ka sou aksyon fraksyonè: mezire yon envestisman pou pèt posib yo reyèl e ou santi yo, men yo pa janm katastwofik, se yon zouti jesyon risk estrikti fraksyonè fè vin pi aksesib anpil — yo aplike l la pou envestisman an aksyon, e li aplike isit la tou pou kategori byen altènatif. Aksè sa a vini ak pwòp konsiderasyon pa li, sepandan: estrikti pwopriyete fraksyonè prezante pwòp kondisyon espesifik yo, frè, e souvan mwens likidite oswa kontwòl konpare ak yon pwopriyete konplè, dirèk sou byen debaz la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè ki gen yon kapital modès vle ekspozisyon nan imobilye oswa nan travay atistik men li pa gen mwayen pou l achte tout yon pwopriyete oswa yon moso nèt. Lè l itilize yon platfòm pwopriyete fraksyonè, li achte yon pati pwopòsyonèl nan yon byen espesifik, ansanm ak lòt envestisè k ap fè menm bagay la. [SIPOZISYON] Sa ba l yon ekspozisyon enpòtan nan yon kategori byen ki pa t ap aksesib ditou otreman nan nivo kapital li, menm si li ta dwe konprann tou avèk swen estrikti frè espesifik platfòm lan, kondisyon ki gouvène pati fraksyonè li, ak likidite ak kontwòl ki pi piti konpare ak si l te posede tout byen an dirèkteman li menm.
+
+## Egzamen pratik
+
+1. Kisa pwopriyete fraksyonè anjeneral pèmèt envestisè fè?
+2. Poukisa sa reprezante yon chanjman enpòtan nan aksè a kèk kategori byen altènatif?
+3. Ki konsiderasyon espesifik ki vini ak estrikti pwopriyete fraksyonè, dapre leson sa a?
+
+## Kle repons yo
+
+1. Posede ansanm yon pati pwopòsyonèl nan yon sèl byen ak lòt envestisè, olye yo mande okenn sèl envestisè achte tout byen an nèt.
+2. Paske li pèmèt envestisè ki gen kapital pi modès jwenn ekspozisyon nan kategori byen, tankou imobilye oswa travay atistik, ki istorikman te mande anpil kapital pou rive jwenn yo ditou.
+3. Pwòp kondisyon espesifik yo, frè, e souvan mwens likidite oswa kontwòl konpare ak yon pwopriyete konplè, dirèk sou byen debaz la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike aksè estrikti sa a bay.
+3. Sa a se yon avètisman enpòtan, balanse kont sipoze aksè fraksyonè idantik ak yon pwopriyete konplè.
+
+## Pwen kle yo
+- Pwopriyete fraksyonè pèmèt envestisè posede ansanm yon pati pwopòsyonèl nan yon byen olye yo achte l nèt.
+- Sa elaji anpil aksè a kategori byen altènatif ki te rezève istorikman pou envestisè ki pi rich.
+- Estrikti fraksyonè vini ak pwòp kondisyon yo, frè, e anjeneral mwens likidite ak kontwòl konpare ak yon pwopriyete konplè.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-024
+TITLE: Poukisa diliyans dwe sou yon manadjè fon diferan de diliyans dwe sou yon konpayi
+SUMMARY: Aprann poukisa evalye yon manadjè fon mande evalye jijman, pwosesis, ak dosye pèfòmans, olye analiz ki baze sou lajan k ap sikile yo itilize pou yon biznis.
+# GOLD-L3-024: Poukisa diliyans dwe sou yon manadjè fon diferan de diliyans dwe sou yon konpayi
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa evalye yon manadjè fon mande yon lòt kalite diliyans dwe pase evalye yon konpayi dirèkteman
+- Idantifye plizyè faktè espesifik ki enpòtan pou evalye yon manadjè fon
+- Esplike poukisa pèfòmans pase poukont li se yon baz ki pa konplè pou evalyasyon sa a
+
+## Kontni prensipal
+
+Leson 13 te etabli ke envestisman ki pa likid mande yon diliyans dwe davans ki konplè sitou. Men "poukisa" diliyans sa a sanble diferan anpil lè envestisman an se yon fon yon lòt moun ap jere, olye yon pati dirèk nan yon konpayi oswa yon pwopriyete espesifik: yon envestisè nan yon fon pa sèlman ap evalye byen debaz fon an ta ka finalman kenbe — anpil nan yo ka poko menm chwazi nan moman premye desizyon envestisman an — li ap evalye sitou jijman, pwosesis, ak dosye pèfòmans manadjè a pou l fè bon chwa alavni sa yo.
+
+[FÈ VERIFYE] Faktè ki enpòtan pou evalye yon manadjè fon anjeneral gen ladan dosye pèfòmans istorik li (menm si, jan tras WHITE la avèti sou pèfòmans pase, sa pa garanti rezilta alavni), pwosesis envestisman espesifik li ak estrateji li deklare, kijan pwòp enterè li òganize konpare ak rezilta envestisè yo, fòs ak eksperyans ekip pi laj li, ak transparans li ak kominikasyon li ak envestisè yo ak tan.
+
+Se poutèt sa diliyans dwe sou yon manadjè fon sanble, nan kèk fason, ak diliyans dwe yon moun ta ka aplike sou yon patnè biznis kle oswa yon anplwaye kle (sa ki reflete konsèp risk moun kle tras BLUE kourikoulòm sa a) plis pase analiz lajan k ap sikile yo aplike pou evalye yon biznis espesifik dirèkteman — fondamantalman se yon evalyasyon jijman ak pwosesis kontinyèl yon moun oswa yon ekip, pa yon seri byen fiks ki deja egziste.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè k ap konsidere yon fon envestisman prive revize dosye pèfòmans istorik manadjè a nan fon anvan yo, men li pa kanpe la — li egzamine tou pwosesis envestisman manadjè a deklare, kijan konpansasyon pwòp manadjè a òganize konpare ak rannman envestisè yo (sa ki aliyen oswa ki ka mal aliyen enterè yo), pwofondè ak eksperyans ekip pi laj la pi lwen pase manadjè prensipal la sèlman, ak konbyen transparans manadjè a te genyen istorikman nan kominikasyon li ak envestisè yo pandan peryòd siksè ak peryòd difisil. [SIPOZISYON] Evalyasyon pi konplè sa a ba li yon tablo pi konplè sou jijman ak pwosesis manadjè a gen chans genyen alavni pase si l te konte sèlman sou chif dosye pèfòmans istorik la.
+
+## Egzamen pratik
+
+1. Poukisa evalye yon manadjè fon mande yon lòt kalite diliyans dwe pase evalye yon konpayi oswa yon pwopriyete espesifik dirèkteman?
+2. Bay de faktè, pi lwen pase dosye pèfòmans istorik, ki enpòtan pou evalye yon manadjè fon.
+3. Poukisa yo konpare diliyans dwe sou yon manadjè fon ak evalye yon patnè biznis kle oswa yon anplwaye kle?
+
+## Kle repons yo
+
+1. Paske yon envestisè ap evalye sitou jijman ak pwosesis manadjè a pou fè chwa envestisman alavni, anpil nan yo poko fèt, olye yon seri byen fiks ki deja egziste.
+2. Nenpòt de nan: pwosesis envestisman ak estrateji yo deklare, estrikti enterè konpare ak rezilta envestisè yo, fòs ak eksperyans ekip la, transparans ak kominikasyon ak envestisè yo.
+3. Paske fondamantalman se yon evalyasyon jijman ak pwosesis kontinyèl yon moun oswa yon ekip, menm jan ak kalite evalyasyon yo aplike pou yon moun kle oswa yon patnè ki gen desizyon k ap fòme rezilta alavni.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans santral leson an bati sou li.
+2. Sa tcheke konpreyansyon sou kantite pratik faktè ki enpòtan pou kalite diliyans dwe espesifik sa a.
+3. Sa konekte leson an ak yon konsèp paralèl yo kouvri lòt kote nan tras BLUE kourikoulòm sa a.
+
+## Pwen kle yo
+- Evalye yon manadjè fon mande evalye jijman, pwosesis, ak dosye pèfòmans, pa sèlman analize yon seri byen fiks ki deja egziste.
+- Faktè ki enpòtan yo gen ladan dosye pèfòmans, pwosesis envestisman, aliyman enterè, fòs ekip la, ak transparans.
+- Kalite diliyans dwe sa a sanble plis ak evalye yon moun kle oswa yon patnè pase analize lajan k ap sikile yon konpayi dirèkteman.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
