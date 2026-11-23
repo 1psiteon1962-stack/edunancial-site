@@ -1,0 +1,356 @@
+===== WHITE-L1-041
+TITLE: ¿Qué es un asesor robot (robo-advisor)?
+SUMMARY: Aprende qué hace un asesor robot y el equilibrio básico frente a un asesor financiero humano.
+# ¿Qué es un asesor robot (robo-advisor)?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un asesor robot en términos sencillos.
+- Explicar cómo suele construir un portafolio.
+- Identificar un equilibrio básico frente a un asesor humano.
+
+## Contenido principal
+
+### Qué es un asesor robot
+
+Un asesor robot (robo-advisor) es un servicio automatizado que construye y gestiona un portafolio de inversión según las metas y la tolerancia al riesgo de un inversionista, en general mediante algoritmos y no mediante un asesor humano que tome decisiones individuales.
+
+### Cómo suele construir un portafolio
+
+Un asesor robot normalmente hace una serie de preguntas sobre las metas, el horizonte de tiempo y la comodidad con el riesgo, y luego reparte automáticamente el dinero entre una combinación de inversiones (a menudo ETF, que vimos antes en este nivel) que encaje con ese perfil.
+
+### El equilibrio básico frente a un asesor humano
+
+Los asesores robot en general ofrecen comisiones más bajas y un acceso más fácil que un asesor financiero humano, pero suelen dar una orientación menos personalizada para situaciones financieras individuales complejas: un equilibrio real entre costo y personalización.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista con una meta sencilla (como ahorrar en general para el retiro a largo plazo) y una tolerancia al riesgo moderada podría usar un asesor robot para construir y mantener automáticamente un portafolio adecuado a un costo menor que contratar a un asesor humano.
+
+## Prueba de práctica
+
+1. Un asesor robot es:
+   A. Un asesor financiero humano que trabaja a distancia
+   B. Un servicio automatizado que construye y gestiona un portafolio mediante algoritmos
+   C. Un tipo de bono
+   D. Un programa de retiro del gobierno
+2. Verdadero o falso: los asesores robot en general cobran comisiones más altas que los asesores financieros humanos.
+3. ¿Cuál es un equilibrio básico de usar un asesor robot en lugar de un asesor humano?
+   A. No hay ningún equilibrio
+   B. Comisiones más bajas y acceso más fácil, pero normalmente una orientación menos personalizada
+   C. Los asesores robot garantizan rendimientos más altos
+   D. Los asesores humanos siempre son gratis
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un asesor robot automatiza la gestión del portafolio mediante algoritmos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los asesores robot en general cobran comisiones más bajas que los asesores humanos.
+
+### Pregunta 3
+
+Respuesta correcta: B. El menor costo y el acceso fácil se cambian por una orientación menos personalizada.
+
+## Puntos clave
+
+- Un asesor robot automatiza la construcción y la gestión de un portafolio.
+- Normalmente reparte las inversiones según las metas y la tolerancia al riesgo.
+- En general cambia un costo más bajo por una orientación menos personalizada que la de un asesor humano.
+
+===== WHITE-L1-042
+TITLE: ¿Qué es una anualidad? (Versión introductoria)
+SUMMARY: Aprende la idea básica de una anualidad: convertir una suma de dinero en una serie de pagos futuros.
+# ¿Qué es una anualidad? (Versión introductoria)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una anualidad en términos sencillos.
+- Explicar la idea básica de convertir una suma global en pagos.
+- Reconocer que las anualidades varían mucho en estructura y complejidad.
+
+## Contenido principal
+
+### Qué es una anualidad
+
+Una anualidad es un producto financiero, normalmente ofrecido por una compañía de seguros, en el que una persona paga una suma global (o una serie de pagos) a cambio de una serie de pagos futuros; a menudo se usa como fuente de ingresos para el retiro.
+
+### La idea básica
+
+El concepto central es convertir una cantidad de dinero de ahora en una serie de ingresos definida más adelante, lo que da previsibilidad, algo que atrae a las personas a las que les preocupa que se les acaben sus otros ahorros.
+
+### Existe una complejidad real
+
+*SUPUESTO (con fines didácticos):* Las anualidades tienen muchas estructuras distintas, con comisiones, términos y garantías variables. Esta lección introductoria solo cubre el concepto básico; la verdadera variedad y complejidad de los productos de anualidad va más allá del alcance de este nivel.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Los tipos de anualidad disponibles, su tributación y su regulación dependen de cada país y del regulador de seguros correspondiente. Lee el contrato y pide asesoría antes de comprar una.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una persona retirada paga una suma global a una compañía de seguros a cambio de un pago mensual garantizado por el resto de su vida: cambia una suma grande de ahora por un ingreso predecible después.
+
+## Prueba de práctica
+
+1. En general, una anualidad implica:
+   A. Comprar una sola acción
+   B. Convertir una suma global en una serie de pagos futuros
+   C. Un tipo de compra de bienes raíces
+   D. Un reembolso de impuestos del gobierno
+2. Verdadero o falso: todas las anualidades tienen estructuras, comisiones y términos idénticos.
+3. ¿Por qué alguien podría considerar una anualidad?
+   A. Para evitar para siempre todo riesgo financiero
+   B. Por un ingreso predecible, a menudo durante el retiro
+   C. Para no pagar nunca impuestos
+   D. Para eliminar la necesidad de cualquier otro ahorro
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una anualidad convierte una suma global en pagos futuros.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las estructuras, comisiones y términos de las anualidades varían mucho.
+
+### Pregunta 3
+
+Respuesta correcta: B. El ingreso predecible es su principal atractivo.
+
+## Puntos clave
+
+- Una anualidad convierte una suma global en una serie de pagos futuros.
+- A menudo se usa como fuente de ingresos predecibles para el retiro.
+- Las estructuras de las anualidades varían mucho: esto es solo un concepto introductorio.
+
+===== WHITE-L1-043
+TITLE: ¿Qué es la asignación de activos?
+SUMMARY: Aprende qué significa la asignación de activos y en qué se diferencia de la diversificación dentro de un solo tipo de activo.
+# ¿Qué es la asignación de activos?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir la asignación de activos en términos sencillos.
+- Distinguirla de la diversificación dentro de una sola categoría de activos.
+- Explicar por qué a menudo se describe como una decisión fundamental del portafolio.
+
+## Contenido principal
+
+### Qué es la asignación de activos
+
+La asignación de activos se refiere a cómo un inversionista reparte su portafolio total entre distintas categorías amplias de activos (como acciones, bonos y efectivo), y no a qué inversiones específicas elige dentro de cada categoría.
+
+### En qué se diferencia de la diversificación
+
+La diversificación (que vimos antes en este nivel) se refiere en general a repartir las inversiones dentro de una categoría, como tener muchas acciones distintas. La asignación de activos opera un nivel más arriba: decidir cuánto va a acciones en total, cuánto a bonos en total y cuánto a efectivo en total.
+
+### Por qué es fundamental
+
+La asignación de activos se describe a menudo como una de las decisiones más importantes al construir un portafolio, porque la combinación amplia entre categorías de activos (no solo qué acciones específicas se eligen) tiene un efecto importante sobre el riesgo y el rendimiento potencial totales.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista podría decidir una asignación del 70% en acciones, 25% en bonos y 5% en efectivo, una decisión que toma antes de elegir qué acciones o bonos específicos tendrá dentro de esa estructura.
+
+## Prueba de práctica
+
+1. La asignación de activos se refiere a:
+   A. Elegir acciones individuales específicas
+   B. Repartir un portafolio entre categorías amplias como acciones, bonos y efectivo
+   C. Un tipo de dividendo
+   D. Un programa de retiro del gobierno
+2. Verdadero o falso: la asignación de activos y la diversificación dentro de una categoría significan exactamente lo mismo.
+3. ¿Por qué la asignación de activos se describe a menudo como una decisión fundamental?
+   A. Tiene poco efecto sobre un portafolio
+   B. La combinación amplia entre categorías afecta de forma importante el riesgo y el rendimiento totales
+   C. Solo importa en los bonos
+   D. Reemplaza la necesidad de cualquier otra decisión de inversión
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La asignación de activos es el reparto del portafolio a nivel de categorías amplias.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La asignación es a nivel de categorías; la diversificación es dentro de una categoría.
+
+### Pregunta 3
+
+Respuesta correcta: B. La combinación amplia de categorías afecta de forma importante el comportamiento total del portafolio.
+
+## Puntos clave
+
+- La asignación de activos es cómo se reparte un portafolio entre categorías amplias.
+- Es una decisión distinta y de nivel más alto que la diversificación dentro de una categoría.
+- Se considera una decisión fundamental al construir un portafolio.
+
+===== WHITE-L1-044
+TITLE: ¿Qué es reequilibrar un portafolio?
+SUMMARY: Aprende qué significa reequilibrar, por qué las asignaciones se desvían con el tiempo y la mecánica básica para corregir esa desviación.
+# ¿Qué es reequilibrar un portafolio?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir el reequilibrio en términos sencillos.
+- Explicar por qué la asignación de un portafolio se desvía con el tiempo.
+- Explicar la mecánica básica para corregir esa desviación.
+
+## Contenido principal
+
+### Qué es reequilibrar
+
+Reequilibrar significa ajustar periódicamente un portafolio para devolverlo a su asignación de activos objetivo original (vista en la lección anterior), después de que los movimientos del mercado lo hayan alejado de ese objetivo.
+
+### Por qué la asignación se desvía con el tiempo
+
+Si las acciones crecen más rápido que los bonos durante un período, un portafolio que empezó con 70% en acciones y 30% en bonos podría desviarse a 80% en acciones y 20% en bonos solo por el movimiento del mercado, aunque el inversionista nunca haya cambiado nada de forma activa.
+
+### La mecánica básica
+
+Reequilibrar en general implica vender parte de lo que creció hasta quedar sobreponderado y comprar más de lo que quedó infraponderado, para devolver el portafolio a sus porcentajes objetivo originales.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un portafolio se desvía de un objetivo de 70/30 entre acciones y bonos a 80/20 después de que las acciones rinden más. Reequilibrar significa vender suficientes acciones y comprar suficientes bonos para acercar la combinación de nuevo al objetivo original de 70/30.
+
+## Prueba de práctica
+
+1. Reequilibrar significa:
+   A. Elegir nuevas acciones individuales
+   B. Ajustar un portafolio para devolverlo a su asignación objetivo original
+   C. Cerrar una cuenta de inversión
+   D. Aumentar el riesgo total de forma permanente
+2. Verdadero o falso: la asignación de un portafolio se mantiene exactamente igual con el tiempo sin hacer nada.
+3. Si las acciones crecen más rápido que los bonos, ¿qué suele pasar con la asignación a acciones de un portafolio si no se reequilibra?
+   A. Baja automáticamente
+   B. Sube y queda sobreponderada frente al objetivo original
+   C. Se mantiene exactamente igual
+   D. En cambio, los bonos suben automáticamente
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Reequilibrar devuelve un portafolio a su combinación objetivo original.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El movimiento del mercado hace que las asignaciones se desvíen con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Si las acciones crecen más rápido, aumenta su peso en el portafolio cuando no se hace nada.
+
+## Puntos clave
+
+- Reequilibrar devuelve un portafolio a su asignación objetivo original.
+- Las asignaciones se desvían con el tiempo solo por el movimiento del mercado.
+- Reequilibrar implica vender los activos sobreponderados y comprar los infraponderados.
+
+===== WHITE-L1-045
+TITLE: ¿Qué es un fondo con fecha objetivo?
+SUMMARY: Aprende lo que hace automáticamente un fondo con fecha objetivo y por qué su asignación cambia a medida que se acerca la fecha objetivo.
+# ¿Qué es un fondo con fecha objetivo?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un fondo con fecha objetivo en términos sencillos.
+- Explicar cómo cambia su asignación con el tiempo.
+- Explicar por qué esto se relaciona con el concepto de reequilibrio.
+
+## Contenido principal
+
+### Qué es un fondo con fecha objetivo
+
+Un fondo con fecha objetivo (target-date fund) es un fondo construido en torno a una fecha futura específica (a menudo el año previsto de retiro), que gestiona automáticamente su propia asignación de activos para ajustarse al horizonte de tiempo del inversionista.
+
+### Cómo cambia su asignación con el tiempo
+
+Un fondo con fecha objetivo normalmente empieza con una asignación mayor a acciones (por su potencial de crecimiento, dado el horizonte de tiempo largo) y la desplaza poco a poco hacia más bonos y efectivo a medida que se acerca la fecha objetivo (para tener más estabilidad cuando la meta está más cerca), de forma automática, sin que el inversionista tenga que hacer ese ajuste a mano.
+
+### La relación con el reequilibrio
+
+En esencia, un fondo con fecha objetivo automatiza en un solo producto tanto el reequilibrio como la estrategia de asignación que cambia poco a poco: el inversionista no necesita reequilibrarlo periódicamente por su cuenta, como haría con un portafolio construido a mano.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que planea retirarse en 30 años podría elegir un fondo con fecha objetivo para ese año. Al principio tiene sobre todo acciones; a medida que se acerca el año objetivo, se desplaza automáticamente hacia una combinación más conservadora de bonos y efectivo.
+
+## Prueba de práctica
+
+1. Un fondo con fecha objetivo se construye en torno a:
+   A. La acción de una sola empresa
+   B. Una fecha futura específica, a menudo un año previsto de retiro
+   C. Exclusivamente un tipo de bono
+   D. Una fecha límite del gobierno para presentar impuestos
+2. Verdadero o falso: la asignación de un fondo con fecha objetivo se mantiene exactamente igual de principio a fin.
+3. ¿Qué pasa en general con la asignación de un fondo con fecha objetivo a medida que se acerca la fecha objetivo?
+   A. Se desplaza hacia más acciones
+   B. Se desplaza hacia más bonos y efectivo, para tener estabilidad
+   C. Se convierte de inmediato en efectivo por completo
+   D. No cambia nada
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo con fecha objetivo se construye en torno a una fecha futura específica.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Su asignación cambia automáticamente con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Se vuelve más conservador poco a poco a medida que se acerca la fecha.
+
+## Puntos clave
+
+- Un fondo con fecha objetivo se construye en torno a una fecha futura específica.
+- Su asignación pasa automáticamente de centrarse en el crecimiento a ser más conservadora con el tiempo.
+- Automatiza en un solo producto tanto el cambio de asignación como el reequilibrio.
