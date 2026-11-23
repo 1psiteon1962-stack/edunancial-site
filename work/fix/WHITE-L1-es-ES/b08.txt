@@ -1,0 +1,356 @@
+===== WHITE-L1-036
+TITLE: ¿Qué es el valor en dólares frente al valor real (poder de compra)?
+SUMMARY: Aprende la diferencia entre la cantidad de dólares que tienes y su poder de compra real, a partir de la lección sobre la inflación.
+# ¿Qué es el valor en dólares frente al valor real (poder de compra)?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Distinguir el valor en dólares (nominal) del valor real (poder de compra).
+- Explicar por qué comparar cantidades de dólares a lo largo del tiempo puede ser engañoso.
+- Aplicar esta distinción a un ejemplo básico.
+
+## Contenido principal
+
+### Valor en dólares (nominal) frente a valor real
+
+El valor en dólares, o valor nominal, del dinero es simplemente el número que aparece en la cuenta o en la nómina. El valor real es lo que ese dinero puede comprar realmente, después de tener en cuenta la inflación, que vimos en la lección anterior de este nivel.
+
+### Por qué comparar a lo largo del tiempo puede engañar
+
+50.000 € de ingresos hoy y 50.000 € de ingresos hace veinte años no son lo mismo en términos reales, porque los precios han cambiado en ese tiempo. Comparar los números sin ajustarlos por inflación puede dar una imagen engañosa del progreso financiero real.
+
+### Cómo aplicar la distinción
+
+Siempre que compares dinero de distintos momentos (un salario, el rendimiento de una inversión, un precio histórico), el valor real (ajustado por inflación) cuenta una historia más exacta que la cifra en dólares por sí sola.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un salario que pasó de 50.000 € a 55.000 € en cinco años parece crecimiento en términos nominales. Si la inflación de ese período redujo el poder de compra en una cantidad parecida, el valor real de ese salario puede haber crecido muy poco, o incluso haber bajado.
+
+## Cuestionario de práctica
+
+1. El valor real se refiere a:
+   A. El número tal cual aparece en una cuenta
+   B. Lo que el dinero puede comprar realmente, ajustado por inflación
+   C. Un tipo de dividendo
+   D. La capitalización de mercado de una empresa
+2. Verdadero o falso: comparar cantidades de dólares sin ajustar entre distintas décadas siempre da una imagen exacta del progreso financiero.
+3. ¿Por qué un aumento de salario podría verse mejor en términos nominales de lo que es en términos reales?
+   A. El valor nominal y el real siempre son idénticos
+   B. La inflación pudo haber reducido el poder de compra ganado
+   C. Los salarios nunca se ven afectados por la inflación
+   D. El valor real solo se aplica a los bonos
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El valor real refleja el poder de compra real, no solo el número tal cual.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las comparaciones sin ajustar a lo largo del tiempo pueden ser engañosas si no se ajustan por inflación.
+
+### Pregunta 3
+
+Respuesta correcta: B. La inflación puede erosionar el beneficio real de un aumento nominal.
+
+## Puntos clave
+
+- El valor nominal es la cifra en dólares tal cual; el valor real tiene en cuenta el poder de compra.
+- Comparar cantidades de dólares sin ajustar a lo largo del tiempo puede ser engañoso.
+- El valor real da una imagen más exacta del progreso financiero real.
+
+===== WHITE-L1-037
+TITLE: ¿Qué es el escenario alcista y el escenario bajista de una acción?
+SUMMARY: Aprende qué significa construir un escenario alcista o un escenario bajista para una acción y por qué importa considerar ambos.
+# ¿Qué es el escenario alcista y el escenario bajista de una acción?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir en términos sencillos un escenario alcista y un escenario bajista.
+- Explicar por qué importa construir los dos, no solo uno.
+- Aplicar el concepto a un ejemplo hipotético básico.
+
+## Contenido principal
+
+### Qué es un escenario alcista
+
+Un escenario alcista (bull case) es un argumento razonado de por qué una acción (u otra inversión) podría tener un buen desempeño, basado en factores concretos como el potencial de crecimiento, las ventajas competitivas o las tendencias favorables.
+
+### Qué es un escenario bajista
+
+Un escenario bajista (bear case) es un argumento razonado de por qué una acción podría tener un mal desempeño, basado en riesgos, debilidades o tendencias desfavorables concretas.
+
+### Por qué importa considerar ambos
+
+Construir solo un escenario alcista (o solo uno bajista) crea una visión parcial y posiblemente demasiado confiada. Considerar de verdad ambas perspectivas, incluso con una inversión que a alguien le entusiasma, lleva a entender de forma más realista los riesgos y el potencial reales.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversora que considera una empresa en crecimiento podría construir un escenario alcista en torno a su mercado en expansión y sus buenos productos, y también un escenario bajista en torno a la nueva competencia y el aumento de los costos, y sopesar ambos antes de decidir.
+
+## Cuestionario de práctica
+
+1. Un escenario alcista es:
+   A. Un argumento razonado de por qué una inversión podría tener un mal desempeño
+   B. Un argumento razonado de por qué una inversión podría tener un buen desempeño
+   C. Una predicción garantizada del desempeño futuro
+   D. Un tipo de bono
+2. Verdadero o falso: construir solo un escenario alcista de una inversión da una visión completa y equilibrada.
+3. ¿Por qué importa considerar tanto un escenario alcista como uno bajista?
+   A. No importa en absoluto
+   B. Lleva a una comprensión más realista y equilibrada de una inversión
+   C. Garantiza un resultado rentable
+   D. Solo es relevante para los bonos
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un escenario alcista argumenta un posible desempeño positivo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una visión parcial pasa por alto riesgos o debilidades reales.
+
+### Pregunta 3
+
+Respuesta correcta: B. Considerar ambos lleva a una visión más equilibrada y realista.
+
+## Puntos clave
+
+- Un escenario alcista argumenta un posible desempeño positivo; un escenario bajista, un posible desempeño negativo.
+- Construir solo un lado crea una visión incompleta y demasiado confiada.
+- Considerar ambos lleva a tomar decisiones de inversión más realistas.
+
+===== WHITE-L1-038
+TITLE: ¿Qué es el uso de información privilegiada y por qué es ilegal?
+SUMMARY: Aprende qué significa el uso de información privilegiada y el razonamiento básico de por qué está prohibido.
+# ¿Qué es el uso de información privilegiada y por qué es ilegal?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir en términos sencillos el uso de información privilegiada.
+- Explicar el razonamiento básico de por qué está prohibido.
+- Reconocerlo como un límite legal real, no solo como una pauta ética.
+
+## Contenido principal
+
+### Qué es el uso de información privilegiada
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: esta lección describe el concepto general; las leyes concretas varían según el país, y en España y la Unión Europea el abuso de información privilegiada está prohibido por la normativa de abuso de mercado y lo supervisa la CNMV.)* El uso de información privilegiada (insider trading) se refiere en general a comprar o vender una acción basándose en información importante que no es pública: información que todavía no conoce el público y que razonablemente podría afectar el precio de la acción.
+
+### El razonamiento básico de la prohibición
+
+En general, se busca que los mercados funcionen en igualdad de condiciones de información. Quien opera con información no pública tiene una ventaja injusta sobre otros inversores que no tienen acceso a esa misma información, y eso socava la confianza en que los precios del mercado son justos para todos los demás.
+
+### Un límite legal real
+
+No solo se considera poco ético: en muchos países, incluidas las protecciones que establece el derecho de valores de EE. UU., es una violación legal real y perseguible, no simplemente una cuestión de criterio personal.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un empleado de una empresa que se entera, antes de que se anuncie públicamente, de que su empresa está a punto de reportar resultados decepcionantes, y vende sus acciones basándose en ese conocimiento no público antes del anuncio, estaría usando información privilegiada.
+
+## Cuestionario de práctica
+
+1. El uso de información privilegiada se refiere en general a:
+   A. Operar con acciones basándose en información pública
+   B. Operar con acciones basándose en información importante no pública
+   C. Un tipo de pago de dividendos
+   D. Un formulario de divulgación obligatorio
+2. Verdadero o falso: el uso de información privilegiada es solo una pauta ética, no una violación legal real.
+3. ¿Por qué está prohibido en general el uso de información privilegiada?
+   A. No tiene ninguna justificación real
+   B. Crea una ventaja injusta frente a los inversores que no tienen acceso a la misma información
+   C. Solo es ilegal para los ejecutivos de la empresa
+   D. Solo se aplica a los bonos
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El uso de información privilegiada consiste en operar con información importante no pública.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En muchas jurisdicciones es una violación legal real y perseguible, no solo un asunto ético.
+
+### Pregunta 3
+
+Respuesta correcta: B. Socava el acceso justo e igual a la información que mueve el mercado.
+
+## Puntos clave
+
+- El uso de información privilegiada es operar basándose en información importante no pública.
+- Está prohibido porque crea una ventaja de información injusta.
+- Es una violación legal real, no solo una pauta ética.
+
+===== WHITE-L1-039
+TITLE: ¿Qué es una bolsa de valores? (NYSE, Nasdaq: lo que realmente hacen)
+SUMMARY: Aprende lo que realmente hace una bolsa de valores, más allá de ser "donde se negocian las acciones".
+# ¿Qué es una bolsa de valores? (NYSE, Nasdaq: lo que realmente hacen)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una bolsa de valores en términos sencillos.
+- Explicar su función central, más allá de ser "un lugar donde se negocian acciones".
+- Nombrar dos ejemplos muy conocidos.
+
+## Contenido principal
+
+### Qué es una bolsa de valores
+
+Una bolsa de valores es un mercado organizado donde compradores y vendedores se reúnen para negociar acciones de empresas que cotizan en ella, bajo un conjunto común de reglas.
+
+### Su función central
+
+Además de acoger las operaciones, una bolsa permite el descubrimiento de precios (ayuda a determinar un precio actual justo al emparejar a compradores y vendedores reales) y hace cumplir los requisitos que deben cumplir las empresas para cotizar allí, lo que añade una capa de estructura y supervisión al mercado.
+
+### Ejemplos muy conocidos
+
+*(DATO VERIFICADO, sujeto a cambios con el tiempo: las empresas que cotizan van cambiando.)* La Bolsa de Nueva York (NYSE) y el Nasdaq son dos bolsas de valores muy conocidas, cada una con requisitos de cotización y estructuras de negociación algo distintos.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Muchos países tienen sus propias bolsas; por ejemplo, en España operan las Bolsas y Mercados Españoles (BME), con supervisión de la CNMV.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Cuando un inversor da una orden de compra o de venta de una acción, esa orden se envía a la bolsa correspondiente, que la empareja con una orden contraria de compra o de venta a un precio acordado: es el mecanismo básico detrás de "negociar una acción".
+
+## Cuestionario de práctica
+
+1. Una bolsa de valores es:
+   A. La mesa de negociación interna de una sola empresa
+   B. Un mercado organizado para negociar acciones de empresas que cotizan
+   C. Una agencia del gobierno encargada de los impuestos
+   D. Un tipo de fondo de inversión
+2. Verdadero o falso: las bolsas de valores solo acogen operaciones, sin requisitos de cotización ni ningún papel de supervisión.
+3. Nombra una bolsa de valores muy conocida mencionada en esta lección.
+   A. La Reserva Federal
+   B. NYSE o Nasdaq
+   C. El IRS
+   D. La SEC
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una bolsa es un mercado organizado para negociar acciones que cotizan.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las bolsas también permiten el descubrimiento de precios y hacen cumplir requisitos de cotización.
+
+### Pregunta 3
+
+Respuesta correcta: B. NYSE y Nasdaq son ejemplos muy conocidos.
+
+## Puntos clave
+
+- Una bolsa de valores es un mercado organizado para negociar acciones que cotizan.
+- Permite el descubrimiento de precios y hace cumplir los requisitos de cotización.
+- NYSE y Nasdaq son dos ejemplos muy conocidos.
+
+===== WHITE-L1-040
+TITLE: ¿Qué es un símbolo bursátil?
+SUMMARY: Aprende qué es un símbolo bursátil y por qué la precisión importa al identificar una acción específica.
+# ¿Qué es un símbolo bursátil?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un símbolo bursátil en términos sencillos.
+- Explicar por qué importa la precisión al usarlo.
+- Reconocer que nombres que suenan parecido pueden tener símbolos muy distintos.
+
+## Contenido principal
+
+### Qué es un símbolo bursátil
+
+Un símbolo bursátil (ticker) es un código corto y único (normalmente letras) asignado a la acción de una empresa que cotiza en bolsa, que se usa para identificarla con precisión en una bolsa.
+
+### Por qué importa la precisión
+
+Como muchas empresas pueden tener nombres parecidos o relacionados, el símbolo bursátil es lo que identifica de forma real e inequívoca qué acción específica se compra, se vende o se comenta; depender solo del nombre de la empresa puede llevar a errores costosos.
+
+### Nombres parecidos, símbolos distintos
+
+Dos empresas con nombres que suenan parecido pueden tener símbolos bursátiles completamente distintos, y los errores de escritura o la confusión entre símbolos son un riesgo real y evitable al hacer una operación de verdad.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversora que quiere comprar acciones de una empresa específica busca su símbolo bursátil exacto antes de dar la orden, en vez de fiarse de lo que recuerda del nombre de la empresa, para no negociar por error la acción equivocada.
+
+## Cuestionario de práctica
+
+1. Un símbolo bursátil es:
+   A. El nombre legal completo de una empresa
+   B. Un código corto y único que identifica una acción específica en una bolsa
+   C. Un tipo de dividendo
+   D. Un número de identificación fiscal del gobierno
+2. Verdadero o falso: fiarse solo del nombre de una empresa, sin revisar el símbolo bursátil exacto, es una forma segura de asegurar la operación correcta.
+3. ¿Por qué importa la precisión al usar un símbolo bursátil?
+   A. No importa en absoluto
+   B. Nombres de empresas parecidos pueden tener símbolos muy distintos, y los errores son costosos
+   C. Todas las empresas comparten el mismo símbolo bursátil
+   D. Los símbolos bursátiles son opcionales
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un símbolo bursátil identifica de forma única una acción específica.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Fiarse solo del nombre arriesga confundir empresas con nombres parecidos.
+
+### Pregunta 3
+
+Respuesta correcta: B. La precisión evita errores costosos al operar.
+
+## Puntos clave
+
+- Un símbolo bursátil identifica de forma única una acción específica en una bolsa.
+- La precisión importa: los nombres de las empresas pueden parecerse aunque sus símbolos sean completamente distintos.
+- Revisar el símbolo exacto antes de operar evita errores costosos.

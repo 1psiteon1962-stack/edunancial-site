@@ -1,0 +1,354 @@
+===== WHITE-L1-026
+TITLE: ¿Qué es la relación precio/ganancias (P/E)? (Versión introductoria; el método completo, en el Nivel 2)
+SUMMARY: Aprende la fórmula básica de la relación P/E y lo que estima, como introducción a la valoración que se ve con más profundidad en el Nivel 2.
+# ¿Qué es la relación precio/ganancias (P/E)? (Versión introductoria; el método completo, en el Nivel 2)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Enunciar la fórmula básica de la relación P/E.
+- Calcular una relación P/E básica a partir del precio de la acción y las EPS.
+- Explicar, a nivel introductorio, lo que estima esta relación.
+
+## Contenido principal
+
+### La fórmula básica
+
+Relación P/E = Precio de la acción ÷ Ganancias por acción (EPS); se basa directamente en el concepto de EPS de la lección anterior.
+
+### Lo que estima
+
+La relación P/E responde de forma aproximada a esta pregunta: ¿cuánto están pagando hoy los inversores por cada dólar de las ganancias actuales de una empresa? Un número más alto significa que los inversores pagan más por cada dólar de ganancia actual.
+
+### Un adelanto, no el cuadro completo
+
+*SUPUESTO (con fines didácticos):* Esta lección introductoria solo cubre la fórmula básica. El tratamiento completo, incluido cómo comparar entre industrias y cómo las recompras de acciones pueden distorsionar la relación, se ve en el Nivel 2.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una acción se negocia a 60 € con unas EPS de 3.00 €. P/E = 60 € ÷ 3,00 € = 20: los inversores pagan 20 € por cada 1 € de las ganancias actuales de esa empresa.
+
+## Cuestionario de práctica
+
+1. La fórmula de la relación P/E es:
+   A. EPS ÷ Precio de la acción
+   B. Precio de la acción ÷ EPS
+   C. Ganancia neta ÷ Precio de la acción
+   D. Acciones en circulación ÷ EPS
+2. Verdadero o falso: una relación P/E más alta significa que los inversores pagan menos por cada dólar de ganancia actual.
+3. Una acción se negocia a 80 € con unas EPS de 4.00 €. ¿Cuál es su relación P/E?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. P/E = Precio de la acción ÷ EPS.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un P/E más alto significa pagar más por cada dólar de ganancia.
+
+### Pregunta 3
+
+Respuesta correcta: B. 80 € ÷ 4,00 € = 20.
+
+## Puntos clave
+
+- Relación P/E = Precio de la acción ÷ EPS.
+- Estima cuánto pagan los inversores por cada dólar de ganancia actual.
+- Esta es una versión introductoria: el Nivel 2 cubre su aplicación más profunda y sus limitaciones.
+
+===== WHITE-L1-027
+TITLE: ¿Qué es el rendimiento?
+SUMMARY: Aprende qué mide el rendimiento en distintos activos de papel y en qué se diferencia de la apreciación del precio.
+# ¿Qué es el rendimiento?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir el rendimiento en términos sencillos.
+- Calcular un rendimiento básico a partir del ingreso y el precio.
+- Distinguir el rendimiento de la apreciación del precio.
+
+## Contenido principal
+
+### Qué significa rendimiento
+
+El rendimiento (yield) mide en general el ingreso que genera una inversión (como los dividendos de una acción o los intereses de un bono), expresado como porcentaje de su precio.
+
+### La fórmula básica
+
+Rendimiento = Ingreso anual ÷ Precio actual. En una acción, el "ingreso" suele referirse a los dividendos; en un bono, suele referirse a los pagos de intereses.
+
+### Rendimiento frente a apreciación del precio
+
+El rendimiento mide específicamente el ingreso, no la ganancia de precio. Una acción puede tener un rendimiento alto por sus dividendos mientras su precio se mantiene estable, o un rendimiento bajo mientras su precio sube mucho: son dos fuentes distintas de rendimiento potencial, no la misma cosa.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una acción se negocia a 50 € y paga 2 € de dividendos al año. Rendimiento = 2 € ÷ 50 € = 4 %. Esto es aparte del cambio en el precio de la propia acción, que no está incluido.
+
+## Cuestionario de práctica
+
+1. El rendimiento se calcula como:
+   A. Apreciación del precio ÷ tiempo de tenencia
+   B. Ingreso anual ÷ precio actual
+   C. Total de acciones ÷ ganancia neta
+   D. Precio de la acción ÷ EPS
+2. Verdadero o falso: el rendimiento mide la apreciación del precio, no el ingreso.
+3. Un bono paga 40 € al año y su precio es de 1.000 €. ¿Cuál es su rendimiento?
+   A. 0,4 %
+   B. 4 %
+   C. 40 %
+   D. 400 %
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Rendimiento = Ingreso anual ÷ Precio actual.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El rendimiento mide el ingreso, no la apreciación del precio.
+
+### Pregunta 3
+
+Respuesta correcta: B. 40 € ÷ 1.000 € = 4 %.
+
+## Puntos clave
+
+- Rendimiento = Ingreso anual ÷ Precio actual.
+- Mide el ingreso (dividendos o intereses), no la apreciación del precio.
+- El ingreso y la apreciación del precio son dos fuentes distintas de rendimiento potencial.
+
+===== WHITE-L1-028
+TITLE: ¿Qué es la fecha de vencimiento de un bono?
+SUMMARY: Aprende qué es una fecha de vencimiento y por qué los bonos con vencimientos distintos se comportan de forma distinta.
+# ¿Qué es la fecha de vencimiento de un bono?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir la fecha de vencimiento en términos sencillos.
+- Explicar qué pasa al vencimiento.
+- Reconocer que la duración hasta el vencimiento afecta el comportamiento de un bono.
+
+## Contenido principal
+
+### Qué es una fecha de vencimiento
+
+La fecha de vencimiento de un bono es la fecha en que el emisor se comprometió a devolver por completo al tenedor del bono el valor nominal (el principal): el final del plazo del préstamo que se presentó en la lección anterior sobre bonos.
+
+### Qué pasa al vencimiento
+
+Al vencimiento, el tenedor del bono recibe de vuelta el valor nominal y los pagos de intereses se detienen, porque el préstamo se considera totalmente pagado.
+
+### Por qué importa la duración hasta el vencimiento
+
+Los bonos con vencimientos más largos (fechas de devolución más lejanas) suelen ser más sensibles a los cambios en las tasas de interés que los bonos con vencimientos más cortos; es un concepto que se ve con más profundidad en una lección posterior sobre el riesgo de tasa de interés.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un bono a 2 años y uno a 20 años podrían tener hoy tasas de cupón parecidas, pero el precio del bono a 20 años normalmente reaccionará más ante cambios futuros en las tasas de interés, simplemente porque le falta mucho más tiempo para vencer.
+
+## Cuestionario de práctica
+
+1. La fecha de vencimiento de un bono es:
+   A. Cuando empiezan los pagos de intereses
+   B. Cuando el emisor devuelve por completo el valor nominal del bono
+   C. La fecha en que se compró el bono
+   D. Una fecha que fija el tenedor del bono
+2. Verdadero o falso: los pagos de intereses continúan indefinidamente después de que un bono llega a su vencimiento.
+3. ¿Qué tipo de bono suele ser más sensible a los cambios en las tasas de interés?
+   A. Un bono de vencimiento más corto
+   B. Un bono de vencimiento más largo
+   C. La duración hasta el vencimiento no afecta la sensibilidad
+   D. Solo los bonos sin fecha de vencimiento
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El vencimiento es cuando se devuelve por completo el valor nominal.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los pagos de intereses se detienen cuando el bono vence y se devuelve.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los bonos de vencimiento más largo suelen ser más sensibles a los cambios de tasa.
+
+## Puntos clave
+
+- La fecha de vencimiento de un bono es cuando se devuelve por completo el valor nominal.
+- Los pagos de intereses se detienen al llegar el vencimiento.
+- Los bonos de vencimiento más largo suelen ser más sensibles a los cambios en las tasas de interés.
+
+===== WHITE-L1-029
+TITLE: ¿Qué es el riesgo de crédito de un bono?
+SUMMARY: Aprende qué significa el riesgo de crédito en un bono y cómo se relaciona con el hecho de que algunos bonos paguen más intereses que otros.
+# ¿Qué es el riesgo de crédito de un bono?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir el riesgo de crédito en términos sencillos.
+- Explicar cómo se relaciona el riesgo de crédito con la tasa de interés de un bono.
+- Reconocer que no todos los emisores de bonos tienen el mismo riesgo de crédito.
+
+## Contenido principal
+
+### Qué es el riesgo de crédito
+
+El riesgo de crédito es el riesgo de que el emisor de un bono no pueda hacer los pagos de intereses prometidos o devolver el principal al vencimiento; en otras palabras, el riesgo de impago.
+
+### Cómo se relaciona con la tasa de interés
+
+Los emisores que se consideran de mayor riesgo de crédito en general tienen que ofrecer una tasa de cupón más alta para atraer prestamistas, compensando a los inversores por asumir ese riesgo adicional. Los emisores que se consideran de muy bajo riesgo (como los gobiernos estables) en general pueden tomar prestado a tasas más bajas.
+
+### No todos los emisores son iguales
+
+Una empresa grande y financieramente estable y una empresa más pequeña con dificultades financieras que emiten bonos no tienen el mismo riesgo de crédito, aunque sus bonos se parezcan a primera vista; por eso existen las calificaciones de bonos (que se ven en el Nivel 2), para ayudar a evaluar este riesgo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un gobierno financieramente sólido podría emitir bonos a una tasa de interés baja, lo que refleja un riesgo de crédito bajo. Una empresa con dificultades financieras podría necesitar ofrecer una tasa de interés mucho más alta en sus bonos para atraer inversores dispuestos a asumir el riesgo adicional de impago.
+
+## Cuestionario de práctica
+
+1. El riesgo de crédito de un bono se refiere a:
+   A. El riesgo de perder un certificado de papel
+   B. El riesgo de que el emisor no pague los intereses o el principal según lo prometido
+   C. El riesgo de un desdoblamiento de acciones
+   D. El riesgo de una caída de todo el mercado
+2. Verdadero o falso: los emisores con mayor riesgo de crédito suelen ofrecer tasas de interés más bajas.
+3. ¿Por qué una empresa con dificultades financieras podría necesitar ofrecer una tasa de interés más alta en sus bonos?
+   A. Para compensar a los inversores por un mayor riesgo de impago
+   B. Porque el gobierno lo exige
+   C. Para reducir su capitalización de mercado
+   D. Los bonos siempre tienen la misma tasa, sin importar el riesgo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El riesgo de crédito es el riesgo de impago de los intereses o del principal.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los emisores con mayor riesgo de crédito en general tienen que ofrecer tasas más altas.
+
+### Pregunta 3
+
+Respuesta correcta: A. Las tasas más altas compensan a los inversores por asumir el riesgo de impago.
+
+## Puntos clave
+
+- El riesgo de crédito es el riesgo de que un emisor no pague un bono.
+- Un riesgo de crédito más alto suele significar una tasa de interés ofrecida más alta.
+- No todos los emisores de bonos tienen el mismo nivel de riesgo de crédito.
+
+===== WHITE-L1-030
+TITLE: ¿Qué es el riesgo de tasa de interés?
+SUMMARY: Aprende cómo los cambios en las tasas de interés afectan el precio de los bonos existentes y por qué la relación se mueve en direcciones opuestas.
+# ¿Qué es el riesgo de tasa de interés?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir el riesgo de tasa de interés en términos sencillos.
+- Explicar la relación inversa básica entre las tasas y los precios de los bonos.
+- Explicar por qué esto le importa a quien ya tiene un bono.
+
+## Contenido principal
+
+### Qué es el riesgo de tasa de interés
+
+El riesgo de tasa de interés es el riesgo de que los cambios en las tasas de interés generales afecten el valor de mercado de los bonos existentes; es distinto del riesgo de crédito, que tiene que ver con la capacidad de pago del emisor.
+
+### La relación inversa
+
+Cuando las tasas de interés generales suben, el precio de mercado de los bonos existentes con tasas fijas más bajas suele bajar, porque se están emitiendo bonos nuevos a la tasa actual, más alta y más atractiva. Cuando las tasas generales bajan, los bonos existentes con tasas más altas suelen valer más en comparación.
+
+### Por qué le importa a quien ya tiene un bono
+
+El tenedor de un bono que necesita venderlo antes del vencimiento queda expuesto a este movimiento de precio. El tenedor que lo mantiene hasta el vencimiento sigue recibiendo el valor nominal de todos modos: el riesgo de tasa de interés afecta sobre todo el precio de mercado del bono antes del vencimiento, no la devolución final en sí.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversor tiene un bono que paga un 3 % de interés. Las tasas de interés generales suben al 5 %. Los bonos nuevos ofrecen ahora la tasa más atractiva del 5 %, lo que hace que el bono anterior del 3 % sea menos atractivo para un posible comprador: su precio de mercado en general bajaría si se vendiera antes del vencimiento.
+
+## Cuestionario de práctica
+
+1. El riesgo de tasa de interés se refiere a:
+   A. El riesgo de que un emisor no pague
+   B. El riesgo de que los cambios en las tasas afecten el precio de los bonos existentes
+   C. El riesgo de un desdoblamiento de acciones
+   D. El riesgo cambiario
+2. Verdadero o falso: cuando las tasas de interés generales suben, el precio de los bonos existentes con tasas más bajas también suele subir.
+3. ¿El tenedor de un bono que lo mantiene hasta el vencimiento sigue recibiendo el valor nominal completo a pesar del riesgo de tasa de interés?
+   A. No, pierde la diferencia
+   B. Sí, en general el valor nominal se paga igualmente al vencimiento
+   C. Solo si las tasas bajaron
+   D. Solo si el bono se vendió antes
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El riesgo de tasa de interés afecta el precio de mercado de los bonos existentes cuando cambian las tasas.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La subida de las tasas suele empujar a la baja el precio de los bonos existentes con tasas más bajas.
+
+### Pregunta 3
+
+Respuesta correcta: B. Mantener el bono hasta el vencimiento en general sigue dando el valor nominal completo, sin importar las oscilaciones de precio intermedias.
+
+## Puntos clave
+
+- El riesgo de tasa de interés afecta el precio de los bonos existentes cuando cambian las tasas generales.
+- La subida de las tasas suele empujar a la baja el precio de los bonos existentes con tasas más bajas, y al revés.
+- Mantener el bono hasta el vencimiento en general sigue dando el valor nominal, sin importar el movimiento de precio intermedio.

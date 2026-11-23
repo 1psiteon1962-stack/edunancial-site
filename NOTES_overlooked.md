@@ -61,3 +61,5 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - PR 1621: localized evidence labels (~4,950 files), BLUE-L4-040 key, BLACK-L2-042 stray line — MERGED
 - PR 1622: RED L1 it 9 wrong-topic lessons; RED-L1-021 hollow placeholder (en + 11 locales) authored+translated; RED-L1-020/024 fr-CA/fr-FR half-English — in CI
 - L2-L5: topics and structure match English in all locales (checked)
+- PR 1622 RED L1 fixes MERGED; PR 1623 PURPLE L1 es-Caribbean+es-ES (100 files) MERGED; PR 1624 WHITE L1 es-Caribbean+es-ES (100 files) in CI
+- Fidelity tool: /tmp/fidelity.py (answer key + number match vs English); template tool /tmp/tplset.py

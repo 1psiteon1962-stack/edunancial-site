@@ -1,0 +1,354 @@
+===== WHITE-L1-001
+TITLE: ¿Qué es un activo de papel? (Y por qué lo llamamos así)
+SUMMARY: Aprende qué representa realmente un activo de papel y en qué se diferencia de ser dueño de una propiedad física.
+# ¿Qué es un activo de papel? (Y por qué lo llamamos así)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un activo de papel en términos sencillos.
+- Explicar qué representa realmente un activo de papel.
+- Comparar los activos de papel con los bienes inmuebles como un tipo distinto de valor.
+
+## Contenido principal
+
+### Qué significa "activo de papel"
+
+Un activo de papel es un derecho financiero (antes un certificado físico, hoy casi siempre un registro digital) que representa propiedad o un derecho a un valor futuro, en lugar de ser en sí mismo una cosa física que se puede usar. Una acción representa la propiedad parcial de una empresa. Un bono representa una promesa de que te devolverán el dinero, con intereses.
+
+### Qué hay debajo de un activo de papel
+
+Ser propietario de una acción de una empresa no significa ser dueño de un escritorio o una máquina específicos: significa ser dueño de una pequeña porción del valor total de la empresa. El valor del activo de papel depende por completo de lo que hay debajo: la empresa real, el deudor real, el gobierno real que respalda un bono.
+
+### Activos de papel y bienes inmuebles
+
+Los bienes inmuebles del bloque RED son físicos: terrenos y estructuras que puedes tocar. Los activos de papel del bloque WHITE son derechos: porciones de propiedad, acuerdos de préstamo, derechos a pagos futuros. Además, los activos de papel suelen ser más fáciles y rápidos de comprar, vender y dividir en partes pequeñas que una propiedad física.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Tener 10 acciones de una empresa significa ser dueño de una porción pequeña y definida del valor total de la empresa, no de ninguna pieza específica de sus activos físicos. Ese valor sube o baja según cambian las perspectivas de la empresa.
+
+## Cuestionario de práctica
+
+1. La mejor descripción de un activo de papel es:
+   A. Un objeto físico que puedes usar directamente
+   B. Un derecho sobre la propiedad o sobre un valor futuro
+   C. Un tipo de moneda
+   D. Un formulario emitido por el gobierno
+2. Verdadero o falso: el valor de una acción viene principalmente del hecho de que es un registro oficial.
+3. ¿Por qué vender una acción suele ser mucho más rápido que vender una casa?
+   A. Es ilegal tener acciones a largo plazo
+   B. Las acciones son unidades pequeñas y estandarizadas que no requieren encontrar a un comprador específico que encaje
+   C. Las casas valen más
+   D. No hay ninguna diferencia real de rapidez
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un activo de papel representa propiedad o un derecho sobre un valor futuro.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El valor viene de lo que el activo representa, no del papel o del registro en sí.
+
+### Pregunta 3
+
+Respuesta correcta: B. Lo que hace más rápida la venta de acciones es que son unidades pequeñas y estandarizadas que no necesitan un comprador único que encaje.
+
+## Puntos clave
+
+- Un activo de papel es un derecho sobre un valor, no un objeto físico.
+- Su valor viene de lo que hay debajo.
+- Los activos de papel suelen ser más fáciles y rápidos de comprar, vender y dividir que los bienes inmuebles.
+
+===== WHITE-L1-002
+TITLE: ¿Qué es el ROI? (Y por qué la misma idea se ve distinta en cada bloque)
+SUMMARY: Aprende la fórmula del ROI, qué mide y por qué el mismo concepto se aplica a los bienes inmuebles, los negocios y los activos de papel.
+# ¿Qué es el ROI? (Y por qué la misma idea se ve distinta en cada bloque)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Calcular un ROI básico a partir de una ganancia y un costo.
+- Explicar qué mide realmente el ROI.
+- Reconocer el ROI como un concepto que cruza todos los bloques e identificar una de sus limitaciones.
+
+## Contenido principal
+
+### La fórmula del ROI
+
+ROI (retorno de la inversión) = (Ganancia de la inversión − Costo de la inversión) ÷ Costo de la inversión, que normalmente se expresa como porcentaje. Si 1.000 € crecen hasta 1.200 €, la ganancia es de 200 € y el ROI = 200 € ÷ 1.000 € = 20 %.
+
+### El mismo concepto, bloques distintos
+
+El ROI no es una idea exclusiva del bloque WHITE. Un inversor de bienes inmuebles del bloque RED calcula el ROI con los ingresos por alquiler y la plusvalía frente al precio de compra. Un dueño de negocio del bloque BLUE lo calcula con la ganancia generada frente al dinero invertido. La lógica de la fórmula es la misma (la ganancia comparada con el costo), pero lo que cuenta como ganancia y como costo cambia según el bloque.
+
+### Una limitación real
+
+El ROI básico no tiene en cuenta el tiempo. Un ROI del 20 % obtenido en un año es muy distinto del mismo 20 % obtenido en diez años, aunque la fórmula por sí sola no muestra esa diferencia.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* 500 € que crecen hasta 575 € son una ganancia de 75 €: ROI = 75 € ÷ 500 € = 15 %. Una compra de equipo de negocio de 10.000 € que genera 2.500 € de ganancia adicional: ROI = 2.500 € ÷ 10.000 € = 25 %. La misma fórmula, situaciones muy distintas.
+
+## Cuestionario de práctica
+
+1. El ROI mide:
+   A. La cantidad total de dólares ganada
+   B. La ganancia en relación con el costo, como porcentaje
+   C. El valor total de una inversión
+   D. El nivel de riesgo de una inversión
+2. Verdadero o falso: el ROI básico tiene en cuenta cuánto tiempo tomó obtener el rendimiento.
+3. Inviertes 2.000 € y crecen hasta 2.400 €. ¿Cuál es el ROI?
+   A. 10 %
+   B. 15 %
+   C. 20 %
+   D. 40 %
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El ROI es, específicamente, una medida porcentual de la ganancia en relación con el costo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El ROI básico no tiene en cuenta el tiempo: es una limitación real.
+
+### Pregunta 3
+
+Respuesta correcta: C. (2.400 € − 2.000 €) ÷ 2.000 € = 20 %.
+
+## Puntos clave
+
+- ROI = (Ganancia − Costo) ÷ Costo, normalmente expresado como porcentaje.
+- El ROI se aplica por igual a los bienes inmuebles, los negocios y los activos de papel.
+- El ROI básico no tiene en cuenta el tiempo: es una limitación real que hay que tener presente.
+
+===== WHITE-L1-003
+TITLE: ¿Qué es realmente una acción? (Estás comprando una parte de una empresa)
+SUMMARY: Aprende a qué te da derecho realmente ser dueño de una acción, y a qué no.
+# ¿Qué es realmente una acción? (Estás comprando una parte de una empresa)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una acción en términos sencillos.
+- Explicar a qué te da derecho ser accionista, y a qué no.
+- Explicar por qué el total de acciones en circulación importa para lo que representa una acción.
+
+## Contenido principal
+
+### Una acción es una porción de propiedad real
+
+Cuando una empresa cotiza en bolsa, divide su propiedad en un número fijo de acciones. Tener 1.000 acciones de un total de 1.000.000 en circulación significa ser dueño del 0,1 % de esa empresa, de verdad y legalmente.
+
+### A qué te da derecho la propiedad (y a qué no)
+
+Ser propietario de acciones normalmente te da un derecho proporcional sobre las ganancias (si se pagan dividendos) y ciertos derechos de voto en decisiones importantes. NO te da derecho a controlar las operaciones diarias, a un dividendo garantizado ni a un precio que suba de forma garantizada. Además, los accionistas en general no responden personalmente por las deudas de la empresa más allá del valor de sus acciones.
+
+### Por qué importa el total de acciones
+
+Tener 100 acciones de una empresa con 1.000 acciones en circulación es ser dueño del 10 %. Tener 100 acciones de una empresa con 10.000.000 de acciones en circulación es ser dueño del 0,001 %. El número de acciones por sí solo no te dice cuál es tu participación real.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversor que tiene 5.000 acciones de una empresa con 500.000 acciones en circulación es dueño de 5.000 ÷ 500.000 = 1 % de la empresa.
+
+## Cuestionario de práctica
+
+1. Ser propietario de una acción normalmente te da derecho a:
+   A. El control diario de las operaciones de la empresa
+   B. Un derecho proporcional sobre las ganancias y ciertos derechos de voto
+   C. Pagos de dividendos garantizados
+   D. Responder personalmente por las deudas de la empresa
+2. Verdadero o falso: el número de acciones que tienes, por sí solo, te dice tu porcentaje de propiedad.
+3. Una empresa tiene 200.000 acciones en circulación. Un inversor tiene 2.000 acciones. ¿Qué porcentaje posee?
+   A. 0,1 %
+   B. 1 %
+   C. 2 %
+   D. 10 %
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La propiedad te da derechos proporcionales sobre las ganancias y ciertos derechos de voto, no el control de las operaciones.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El porcentaje de propiedad depende de las acciones que tienes en relación con el total de acciones en circulación.
+
+### Pregunta 3
+
+Respuesta correcta: B. 2.000 ÷ 200.000 = 1 %.
+
+## Puntos clave
+
+- Una acción es una propiedad parcial real y legal de una empresa.
+- Ser propietario no significa controlar las operaciones ni tener un dividendo garantizado.
+- Tu participación real depende de las acciones que tienes en relación con el total de acciones en circulación.
+
+===== WHITE-L1-004
+TITLE: ¿Qué es realmente un bono? (Estás prestando dinero, no comprando propiedad)
+SUMMARY: Aprende qué representa realmente un bono (un préstamo, no propiedad) y los términos básicos que lo definen.
+# ¿Qué es realmente un bono? (Estás prestando dinero, no comprando propiedad)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un bono en términos sencillos.
+- Explicar la relación central entre el tenedor de un bono y el emisor.
+- Nombrar los términos básicos que definen un bono.
+
+## Contenido principal
+
+### Un bono es un préstamo, no propiedad
+
+Cuando compras un bono, le estás prestando dinero a quien lo emitió (una empresa o un gobierno); no estás comprando una parte de la propiedad como lo harías con una acción. Esta es la distinción más importante entre las acciones y los bonos.
+
+### La relación central
+
+El emisor promete devolver la cantidad original (el principal o "valor nominal") en una fecha futura fija (el vencimiento) y, normalmente, hacer pagos periódicos de intereses (llamados cupón) mientras tanto, a cambio de usar tu dinero.
+
+### Los términos básicos
+
+Todo bono tiene un valor nominal (la cantidad que se devuelve al vencimiento), una tasa de cupón (la tasa de interés que se paga) y una fecha de vencimiento (cuando se devuelve el préstamo). Estos términos se fijan cuando se emite el bono.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversora compra un bono con un valor nominal de 1.000 €, una tasa de cupón del 4 % y un vencimiento a 10 años. Recibe 40 € al año de intereses (el 4 % de 1.000 €) y recupera sus 1.000 € al cabo de 10 años.
+
+## Cuestionario de práctica
+
+1. Comprar un bono significa:
+   A. Comprar la propiedad parcial de una empresa
+   B. Prestarle dinero al emisor
+   C. Comprar un activo físico
+   D. Convertirte en empleado de una empresa
+2. Verdadero o falso: la tasa de cupón de un bono se refiere a la cantidad que se devuelve al vencimiento.
+3. ¿Qué es el valor nominal de un bono?
+   A. La tasa de interés que se paga
+   B. La cantidad que se le devuelve al tenedor del bono al vencimiento
+   C. El precio actual de mercado del bono
+   D. La deuda total del emisor
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un bono representa prestar dinero, no propiedad.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La tasa de cupón es la tasa de interés; el valor nominal es la cantidad que se devuelve al vencimiento.
+
+### Pregunta 3
+
+Respuesta correcta: B. El valor nominal es el principal que se devuelve al vencimiento.
+
+## Puntos clave
+
+- Un bono representa prestar dinero, no propiedad.
+- El emisor promete devolver el principal al vencimiento, más intereses periódicos (el cupón).
+- El valor nominal, la tasa de cupón y la fecha de vencimiento son los términos centrales que lo definen.
+
+===== WHITE-L1-005
+TITLE: Acciones y bonos: ¿cuál es el verdadero equilibrio entre ambos?
+SUMMARY: Aprende el verdadero equilibrio entre acciones y bonos (potencial de crecimiento frente a prioridad de pago), no solo "riesgoso frente a seguro".
+# Acciones y bonos: ¿cuál es el verdadero equilibrio entre ambos?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Explicar la diferencia estructural central entre acciones y bonos.
+- Explicar por qué, en general, a los tenedores de bonos se les paga antes que a los accionistas.
+- Evitar la visión simplificada de que "las acciones son riesgosas y los bonos son seguros".
+
+## Contenido principal
+
+### La diferencia estructural
+
+Una acción representa propiedad; un bono representa un préstamo. Esta sola diferencia explica la mayoría de las diferencias prácticas entre ellos, que se ven en esta lección.
+
+### La prioridad de pago
+
+Si una empresa tiene problemas financieros graves, los tenedores de bonos (como prestamistas) en general tienen el derecho legal de cobrar antes de que los accionistas (como dueños) reciban algo. Es una prioridad estructural real, no solo una fama general de seguridad.
+
+### Más allá de "riesgoso o seguro"
+
+Decir simplemente que las acciones son "riesgosas" y los bonos "seguros" simplifica demasiado un equilibrio más matizado: las acciones ofrecen el potencial de la propiedad (crecimiento ilimitado, pero sin garantía de devolución), mientras que los bonos ofrecen términos de devolución definidos por contrato (pero un rendimiento potencial limitado y sus propios riesgos reales, como que el emisor no pague).
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Si una empresa quiebra, en general sus tenedores de bonos están en la fila para cobrar con los activos que queden antes de que sus accionistas reciban algo; el derecho de los accionistas va al final, lo que refleja la diferencia estructural entre propiedad y préstamo.
+
+## Cuestionario de práctica
+
+1. La diferencia estructural central entre acciones y bonos es que:
+   A. Las acciones siempre son más riesgosas que los bonos
+   B. Las acciones representan propiedad; los bonos representan un préstamo
+   C. Los bonos siempre pagan rendimientos más altos
+   D. No hay ninguna diferencia real
+2. Verdadero o falso: en la quiebra de una empresa, los tenedores de bonos en general tienen un derecho de cobro anterior al de los accionistas.
+3. ¿Por qué "las acciones son riesgosas, los bonos son seguros" es una simplificación excesiva?
+   A. Es completamente exacto, sin matices
+   B. Ambos tienen equilibrios reales y distintos entre riesgo y recompensa
+   C. Los bonos no tienen ningún riesgo
+   D. Las acciones siempre pierden dinero
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Propiedad frente a préstamo es la diferencia estructural central.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. En general, los tenedores de bonos tienen prioridad de cobro sobre los accionistas.
+
+### Pregunta 3
+
+Respuesta correcta: B. Ambos tienen tipos de riesgo reales y distintos; la visión simplificada pasa por alto ese matiz.
+
+## Puntos clave
+
+- Las acciones representan propiedad; los bonos representan un préstamo.
+- En general, los tenedores de bonos tienen prioridad de cobro sobre los accionistas.
+- "Riesgoso frente a seguro" simplifica demasiado un equilibrio más matizado entre ambos.
