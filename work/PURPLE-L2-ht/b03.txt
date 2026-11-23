@@ -1,0 +1,279 @@
+===== PURPLE-L2-011
+TITLE: Testaman: enstriman legal debaz pou pase byen
+SUMMARY: Yon testaman se yon dokiman legal ki presize kijan pou distribye byen yon moun apre lanmò li, e ki souvan nonmen yon egzekitè (moun ki responsab pou akonpli enstriksyon testaman an) e, kote sa aplike, gadyen pou timoun minè.
+## PURPLE-L2-011
+### Testaman: enstriman legal debaz pou pase byen
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon testaman nan yon nivo konseptyèl.
+- Idantifye eleman jeneral ki souvan nan yon testaman.
+- Rekonèt kondisyon pou testaman kòm yon bagay ki depann de jiridiksyon an.
+
+**2. Kontni prensipal**
+Yon testaman se yon dokiman legal ki presize kijan pou distribye byen yon moun apre lanmò li, e ki souvan nonmen yon egzekitè (moun ki responsab pou akonpli enstriksyon testaman an) e, kote sa aplike, gadyen pou timoun minè. Lè l bati sou fason RED-L2-040 ak WHITE-L2-046 te prezante konsèp planifikasyon siksesyon, leson sa a egzamine testaman an li menm kòm yon enstriman legal fondamantal.
+
+Eleman jeneral ki souvan nan yon testaman se: idantifikasyon moun k ap fè testaman an ("testatè a"), enstriksyon pou distribye byen espesifik oswa tout siksesyon an, nominasyon yon egzekitè, e, kote sa aplike, deziyasyon gadyen pou timoun minè. Pou yon testaman valab, li an jeneral dwe satisfè fòmalite espesifik ki depann de jiridiksyon an — tankou ekri, testatè a siyen l, e yon kantite moun ki presize ki pa benefisye de testaman an sèvi kòm temwen — e si w pa satisfè fòmalite sa yo, sa ka fè yon testaman ki klè e ki gen bon entansyon otreman vin envalid legalman.
+
+**3. Egzanp pratik**
+Pandan l ap redije premye testaman li ak yon avoka, yon papa presize kijan pou divize byen li ant pitit li yo, li nonmen sè l kòm egzekitè pou jere pwosesis la, e li deziyen frè l ak bèlsè l kòm gadyen pou pitit li ki minè yo si ni li ni madanm li pa ta kapab okipe yo. Avoka li asire testaman an satisfè kondisyon espesifik eta li pou siyati ak temwen, paske yon testaman ki te sanble konplè nan kontni li men ki pa t satisfè fòmalite sa yo te ka konteste oswa anile nèt, kèlkeswa jan li te eksprime vrè volonte li klèman.
+
+**4. Egzamen pratik**
+1. Kisa yon testaman ye?
+   a) Yon kalite kontra biznis
+   b) Yon dokiman legal ki presize kijan pou distribye byen yon moun apre lanmò li
+   c) Yon kalite polis asirans
+   d) Yon fòm deklarasyon taks
+
+2. Kisa yon "egzekitè" ye?
+   a) Yon kalite obligasyon
+   b) Moun ki responsab pou akonpli enstriksyon yon testaman
+   c) Yon ajans taks gouvènman
+   d) Yon kalite fidi
+
+3. Vrè oswa Fo: Kondisyon espesifik pou siyati ak temwen yon testaman idantik nan chak jiridiksyon e ou pa janm bezwen verifye yo.
+
+4. Poukisa avoka papa a te asire testaman an satisfè fòmalite espesifik eta a?
+   a) Fòmalite pa gen enpòtans pou validite yon testaman
+   b) Si w pa satisfè fòmalite ki depann de jiridiksyon an, sa ka fè yon testaman ki klè otreman vin envalid legalman
+   c) Tout testaman otomatikman valab kèlkeswa fòm yo
+   d) Se sèlman kontni an ki enpòtan, pa janm fòm lan
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon testaman se yon dokiman legal ki presize kijan pou distribye byen yon moun apre lanmò li.
+2. Yon egzekitè se moun ki responsab pou akonpli enstriksyon yon testaman.
+3. Fòmalite pou testaman varye selon jiridiksyon e ou dwe verifye yo pou yon testaman espesifik valab.
+4. Si w pa satisfè fòmalite espesifik yo, sa ka anile yon testaman ki klè e ki gen bon entansyon otreman.
+
+**7. Pwen kle yo**
+- Yon testaman se yon enstriman legal fondamantal ki presize distribisyon byen e ki souvan nonmen yon egzekitè ak gadyen.
+- Eleman jeneral yo gen ladan idantifikasyon testatè a, enstriksyon distribisyon, nominasyon egzekitè, ak deziyasyon gadyen.
+- Testaman an jeneral dwe satisfè fòmalite espesifik ki depann de jiridiksyon an pou yo valab, tankou kondisyon siyati ak temwen.
+- Si w pa satisfè fòmalite sa yo, sa ka anile yon testaman ki klè e ki gen bon entansyon otreman.
+
+===== PURPLE-L2-012
+TITLE: Fidi (trust): kijan yo diferan de yon testaman
+SUMMARY: Yon fidi se yon aranjman legal kote yon pati (fondatè a oswa "settlor") transfere byen pou yon lòt pati (fidisyè a oswa "trustee") kenbe e jere pou benefis benefisyè yo deziyen, dapre kondisyon fondatè a etabli.
+## PURPLE-L2-012
+### Fidi (trust): kijan yo diferan de yon testaman
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon fidi (trust) nan yon nivo konseptyèl.
+- Esplike wòl jeneral fondatè a, fidisyè a, ak benefisyè a.
+- Fè diferans ant fonksyon debaz yon fidi ak pa yon testaman.
+
+**2. Kontni prensipal**
+Yon fidi se yon aranjman legal kote yon pati (fondatè a, "settlor" oswa "grantor") transfere byen pou yon lòt pati (fidisyè a, "trustee") kenbe e jere pou benefis benefisyè yo deziyen, dapre kondisyon fondatè a etabli. Kontrèman ak yon testaman, ki an jeneral pran efè sèlman e dirije distribisyon apre lanmò, yon fidi ka pran efè pandan lavi fondatè a, li jere e distribye byen aktivman dapre kondisyon li pandan fondatè a toujou vivan, anplis (oswa olye) dirije distribisyon apre lanmò.
+
+Sa kreye yon diferans fonksyonèl ki gen sans konpare ak yon testaman: yon fidi ka bay yon jesyon byen k ap kontinye — itil, pa egzanp, si yon benefisyè se yon minè, li gen bezwen espesyal, oswa fondatè a vle distribisyon yo fèt piti piti avèk tan olye tout yon sèl kou — alòske yon testaman an jeneral bay yon enstriksyon distribisyon yon sèl fwa ki pran efè sèlman lè moun nan mouri, san kalite kapasite jesyon k ap kontinye sa a.
+
+**3. Egzanp pratik**
+Olye l tou senpleman kite yon montan total bay ti pitit li yo ki jèn atravè yon testaman, ki ta an jeneral transfere dirèkteman ba yo (oswa yon gadyen yon tribinal nonmen) lè l mouri, yon grann etabli yon fidi ki nonmen yon fidisyè pou jere lajan an e fè distribisyon piti piti avèk tan — pou depans edikasyon kounye a, ak pi gwo distribisyon yon fwa ti pitit yo rive nan laj ki presize. Estrikti jesyon k ap kontinye sa a, ki pa disponib atravè yon testaman senp pou kont li, reflete objektif espesifik li pou l gide kijan e ki lè yo vrèman itilize lajan an, olye l bay yon distribisyon yon sèl fwa, imedyat, an montan total.
+
+**4. Egzamen pratik**
+1. Kisa yon fidi ye?
+   a) Yon kalite polis asirans
+   b) Yon aranjman legal kote yon fidisyè kenbe e jere byen pou benefisyè, dapre kondisyon fondatè a
+   c) Yon fòm taks gouvènman
+   d) Yon kalite kontra sèlman pou biznis
+
+2. Ki diferans fonksyonèl ki fè diferans ant yon fidi ak yon testaman?
+   a) Yo fonksyone menm jan
+   b) Yon fidi ka bay yon jesyon ak distribisyon k ap kontinye avèk tan, alòske yon testaman an jeneral bay yon distribisyon yon sèl fwa apre lanmò
+   c) Testaman ka jere byen pandan lavi moun nan, alòske fidi pa ka fè sa
+   d) Fidi pa gen okenn fonksyon legal ditou
+
+3. Vrè oswa Fo: Yon testaman ak yon fidi sèvi fonksyon idantik san okenn diferans ki gen enpòtans.
+
+4. Poukisa grann lan te chwazi yon fidi olye yon testaman senp pou ti pitit li yo?
+   a) Li te vle yon distribisyon imedyat, yon sèl fwa, an montan total
+   b) Li te vle yon jesyon k ap kontinye ak distribisyon piti piti avèk tan, yon fidi te ka bay
+   c) Fidi toujou pi senp pase testaman
+   d) Li pa t gen okenn objektif espesifik pou kijan yo ta itilize lajan an
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon fidi se yon aranjman legal kote yon fidisyè kenbe e jere byen pou benefisyè dapre kondisyon fondatè a.
+2. Yon fidi ka bay yon jesyon ak distribisyon k ap kontinye avèk tan, kontrèman ak distribisyon yon testaman ki an jeneral yon sèl fwa, apre lanmò.
+3. Testaman ak fidi sèvi fonksyon ki diferan anpil, malgre tou de se zouti planifikasyon siksesyon.
+4. Objektif grann lan pou distribisyon piti piti e gide avèk tan te pi byen sèvi pa kapasite jesyon k ap kontinye yon fidi.
+
+**7. Pwen kle yo**
+- Yon fidi gen ladan yon fidisyè k ap kenbe e jere byen pou benefisyè dapre kondisyon fondatè a.
+- Kontrèman ak yon testaman, yon fidi ka pran efè pandan lavi fondatè a e bay yon jesyon k ap kontinye.
+- Sa fè fidi itil pou distribisyon piti piti, benefisyè minè, oswa sitiyasyon bezwen espesyal.
+- Yon testaman an jeneral bay yon enstriksyon distribisyon yon sèl fwa ki pran efè sèlman apre lanmò.
+
+===== PURPLE-L2-013
+TITLE: Fidi revokab kont fidi irevokab: yon konparezon
+SUMMARY: Lè l bati sou Leson 12, leson sa a konpare de kategori jeneral fidi.
+## PURPLE-L2-013
+### Fidi revokab kont fidi irevokab: yon konparezon
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant fidi revokab ak fidi irevokab.
+- Esplike konpwomi jeneral ant fleksibilite ak pwoteksyon byen pou chak kalite.
+- Rekonèt sa kòm yon desizyon endividyèl ki mande konsèy pwofesyonèl.
+
+**2. Kontni prensipal**
+Lè l bati sou Leson 12, leson sa a konpare de kategori jeneral fidi. Yon fidi revokab (pafwa yo rele l "fidi vivan") an jeneral pèmèt fondatè a modifye, amande, oswa anile fidi a nèt pandan lavi li, li kenbe anpil fleksibilite ak kontwòl, men an jeneral li bay yon pwoteksyon byen oswa avantaj taks ki pi limite, paske kontwòl fondatè a kenbe a vle di yo souvan toujou trete byen yo kòm pou fondatè a pou kèk rezon legal ak taks. Yon fidi irevokab an jeneral pa ka modifye oswa anile fasilman yon fwa yo etabli l, sa vle di fondatè a abandone anpil kontwòl, men kontwòl ki diminye sa a ka, selon estrikti espesifik la ak jiridiksyon an, bay yon pwoteksyon byen oswa avantaj taks ki pi fò, paske yo trete byen yo pi klèman kòm separe de fondatè a yon fwa yo transfere.
+
+Sa reprezante yon vrè konpwomi ant fleksibilite ak pwoteksyon, olye youn nan kalite yo pi bon pou tout moun — bon chwa a depann de objektif espesifik fondatè a, tolerans risk li konsènan abandone kontwòl, ak pwoteksyon oswa avantaj espesifik li chèche, tout bagay ki mande konsèy yon avoka ki kalifye nan planifikasyon siksesyon akoz konsekans enpòtan e pafwa difisil pou ranvèse chwa sa a.
+
+**3. Egzanp pratik**
+Pandan l ap konpare opsyon fidi ak avoka planifikasyon siksesyon li, Renata konsidere yon fidi revokab, ki ta pèmèt li kenbe tout kontwòl ak fleksibilite pou fè chanjman pandan sikonstans li ap evolye, kont yon fidi irevokab, ki ta bay yon pwoteksyon byen ki ka pi fò pou yon objektif espesifik li genyen nan tèt li, men ki ta mande pou l abandone kapasite pou modifye oswa reprann byen yo yon fwa li transfere yo. Akoz priyorite li pou kenbe fleksibilite pandan yon peryòd gwo chanjman nan lavi li, li chwazi yon fidi revokab pou kounye a, e avoka li note desizyon sa a ta ka revize ansanm ak plan siksesyon pi laj li pandan sikonstans li ap vin pi estab.
+
+**4. Egzamen pratik**
+1. Kisa yon fidi revokab an jeneral pèmèt fondatè a fè?
+   a) Anyen — ou pa ka chanje l yon fwa li kreye
+   b) Modifye, amande, oswa anile fidi a pandan lavi li
+   c) Evite tout taks otomatikman
+   d) Transfere byen san okenn fòmalite legal ditou
+
+2. Ki yon konpwomi jeneral yon fidi irevokab?
+   a) Pa gen okenn konpwomi
+   b) Mwens kontwòl pou fondatè a an echanj pou yon pwoteksyon byen oswa avantaj taks ki ka pi fò
+   c) Fleksibilite konplè san okenn pèt kontwòl
+   d) Eliminasyon garanti tout taks sou siksesyon
+
+3. Vrè oswa Fo: Youn nan kalite fidi yo pi bon pase lòt la pou chak fondatè ak chak sitiyasyon.
+
+4. Poukisa Renata te chwazi yon fidi revokab pou sitiyasyon aktyèl li?
+   a) Li te vle abandone tout kontwòl imedyatman
+   b) Li te bay priyorite a fleksibilite pandan yon peryòd gwo chanjman nan lavi li
+   c) Lalwa toujou mande fidi revokab
+   d) Li pa t gen okenn objektif espesifik ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon fidi revokab an jeneral pèmèt fondatè a modifye, amande, oswa anile l pandan lavi li.
+2. Yon fidi irevokab an jeneral echanje mwens kontwòl pou fondatè a kont yon pwoteksyon byen oswa avantaj taks ki ka pi fò.
+3. Bon chwa a depann de objektif ak sikonstans espesifik fondatè a, se pa yon kalite ki pi bon pou tout moun.
+4. Priyorite Renata pou fleksibilite pandan yon peryòd chanjman te fè yon fidi revokab koresponn pi byen ak sitiyasyon aktyèl li.
+
+**7. Pwen kle yo**
+- Fidi revokab pèmèt modifikasyon ak kontwòl k ap kontinye men an jeneral yo ofri yon pwoteksyon byen ki pi limite.
+- Fidi irevokab diminye kontwòl fondatè a men yo ka bay yon pwoteksyon byen oswa avantaj taks ki pi fò, selon estrikti a.
+- Sa reprezante yon vrè konpwomi ant fleksibilite ak pwoteksyon, se pa youn ki pi bon pou tout moun.
+- Desizyon sa a mande konsèy yon avoka ki kalifye nan planifikasyon siksesyon akoz konsekans enpòtan e pafwa irevèsib li.
+
+===== PURPLE-L2-014
+TITLE: Testaman kont fidi: omologasyon, vi prive, ak kontwòl konpare
+SUMMARY: Lè l bati sou Leson 11–13, leson sa a konpare dirèkteman testaman ak fidi atravè twa dimansyon pratik.
+## PURPLE-L2-014
+### Testaman kont fidi: omologasyon, vi prive, ak kontwòl konpare
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare testaman ak fidi atravè dimansyon omologasyon, vi prive, ak kontwòl.
+- Esplike konsèp jeneral omologasyon (probate).
+- Aplike konparezon sa a nan yon senaryo ipotetik planifikasyon siksesyon.
+
+**2. Kontni prensipal**
+Lè l bati sou Leson 11–13, leson sa a konpare dirèkteman testaman ak fidi atravè twa dimansyon pratik. Omologasyon (probate) se pwosesis yon tribinal sipèvize pou valide yon testaman e siveye distribisyon yon siksesyon, yon testaman an jeneral dwe pase ladan l, sa ki ka gen ladan frè tribinal, reta, e — paske pwosedi omologasyon an jeneral se dosye piblik — mwens vi prive konsènan sa ki nan siksesyon an ak distribisyon li. Yon fidi ki byen finanse (sa vle di yo vrèman transfere byen yo ladan l, se pa sèlman mansyone yo nan kondisyon li) ka souvan pèmèt byen pase bay benefisyè san yo pa pase nan omologasyon, sa ki ka bay yon distribisyon pi rapid ak plis vi prive, paske kondisyon ak administrasyon fidi an jeneral rete prive olye yo vin dosye piblik tribinal.
+
+Kontwòl diferan tou atravè kalite fidi nou te diskite nan Leson 13 yo: yon fidi revokab kenbe anpil kontwòl pou fondatè a pandan lavi li, alòske yon testaman pa bay okenn mekanis kontwòl k ap kontinye ditou, li pran efè sèlman kòm yon enstriksyon yon sèl fwa apre lanmò. Konparezon sa a pa vle di fidi pi bon pase testaman pou tout moun — anpil plan siksesyon itilize tou de enstriman ansanm, ak yon testaman ki trete byen yo pa t transfere nan fidi a, e bon konbinezon espesifik la depann de byen, objektif, ak jiridiksyon moun nan.
+
+**3. Egzanp pratik**
+Pandan l ap konpare opsyon yo ak avoka li, yon mèt biznis rekonèt si l konte sèlman sou yon testaman, sa ta vle di siksesyon li, ki gen ladan detay sansib sou pwopriyete biznis li, ta vin fè pati dosye omologasyon piblik la apre lanmò li, e ke omologasyon ta ka retade tranzisyon pwopriyete biznis li pandan yon peryòd ki ka vilnerab. Pito, li etabli yon fidi revokab ki byen finanse pou kenbe enterè pwopriyete biznis li, sa ki pèmèt yon tranzisyon pi rapid e pi prive bay siksesè li, pandan l toujou kenbe yon testaman senp "pour-over" (ki vide nan fidi a) pou trete nenpòt byen li pa t transfere fòmèlman nan fidi a anvan lanmò li.
+
+**4. Egzamen pratik**
+1. Kisa omologasyon (probate) ye?
+   a) Yon kalite fidi
+   b) Pwosesis yon tribinal sipèvize pou valide yon testaman e siveye distribisyon siksesyon an
+   c) Yon fòm deklarasyon taks
+   d) Yon kalite prè biznis
+
+2. Ki yon avantaj jeneral yon fidi ki byen finanse sou yon testaman, konsènan vi prive?
+   a) Fidi toujou pi piblik pase testaman
+   b) Kondisyon ak administrasyon fidi an jeneral rete prive, kontrèman ak pwosedi omologasyon piblik
+   c) Pa gen okenn diferans vi prive ant de yo
+   d) Testaman pa janm fè pati okenn dosye piblik
+
+3. Vrè oswa Fo: Fidi pi bon pase testaman nan chak sitiyasyon, sa ki fè testaman vin totalman demode.
+
+4. Poukisa mèt biznis la te etabli yon fidi anplis yon testaman senp?
+   a) Li te vle detay biznis li vin dosye piblik
+   b) Li te vle yon tranzisyon pi rapid e pi prive pou pwopriyete biznis li, pou evite reta omologasyon
+   c) Lalwa mande fidi pou tout mèt biznis
+   d) Li pa t gen okenn enterè pwopriyete biznis pou l pwoteje
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Omologasyon se pwosesis yon tribinal sipèvize pou valide yon testaman e siveye distribisyon siksesyon an.
+2. Yon fidi ki byen finanse an jeneral pèmèt byen evite omologasyon piblik, sa ki bay plis vi prive pase yon testaman pou kont li.
+3. Anpil plan siksesyon itilize ni testaman ni fidi ansanm, ak bon konbinezon an ki depann de sikonstans endividyèl.
+4. Fidi mèt biznis la te bay yon tranzisyon pi rapid e pi prive pou enterè pwopriyete biznis sansib li, pou evite omologasyon.
+
+**7. Pwen kle yo**
+- Omologasyon se pwosesis yon tribinal sipèvize, an jeneral piblik, yon testaman dwe pase ladan l pou validasyon ak distribisyon.
+- Yon fidi ki byen finanse ka souvan evite omologasyon, sa ki bay yon distribisyon pi rapid ak plis vi prive.
+- Kontwòl diferan tou: yon fidi revokab kenbe kontwòl fondatè a pandan lavi li, alòske yon testaman pran efè sèlman apre lanmò.
+- Anpil plan siksesyon itilize tou de enstriman ansanm, ak bon konbinezon an ki depann de sikonstans endividyèl.
+
+===== PURPLE-L2-015
+TITLE: Prokirasyon: kalite ak objektif jeneral
+SUMMARY: Yon prokirasyon (POA) se yon dokiman legal ki bay yon moun (mandatè a, "agent" oswa "attorney-in-fact") otorite pou aji nan non yon lòt moun (mandan an, "principal"), an jeneral pou zafè finansye oswa legal.
+## PURPLE-L2-015
+### Prokirasyon: kalite ak objektif jeneral
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon prokirasyon (power of attorney) nan yon nivo konseptyèl.
+- Fè diferans ant prokirasyon jeneral ak prokirasyon dirab.
+- Esplike poukisa enstriman sa a trete enkapasite, pa sèlman lanmò.
+
+**2. Kontni prensipal**
+Yon prokirasyon (POA) se yon dokiman legal ki bay yon moun (mandatè a, "agent" oswa "attorney-in-fact") otorite pou aji nan non yon lòt moun (mandan an, "principal"), an jeneral pou zafè finansye oswa legal. Kontrèman ak testaman ak anpil dispozisyon fidi, ki trete sitou sa k rive apre lanmò, yon prokirasyon trete sitiyasyon pandan lavi mandan an, sitou enkapasite — yon gwo maladi oswa yon blesi ki anpeche mandan an jere pwòp zafè li.
+
+Yon prokirasyon jeneral an jeneral bay yon otorite laj men li an jeneral vin envalid si mandan an vin enkapab — egzakteman sitiyasyon kote otorite sa a ta ka pi nesesè, sòf si dokiman an gen espesyalman yon lang "dirab" (durability). Yon prokirasyon dirab gen espesyalman dispozisyon ki asire otorite a rete valab menm si mandan an vin enkapab, sa ki fè l vin enstriman yo pi souvan rekòmande espesyalman pou planifikasyon enkapasite, paske yon prokirasyon estanda ki pa dirab ka echwe egzakteman lè li ta pi nesesè otreman.
+
+**3. Egzanp pratik**
+Anvan l sibi yon operasyon ki planifye ak kèk risk pou yon rekiperasyon difisil, yon gason etabli yon prokirasyon dirab ki nonmen madanm li pou jere zafè finansye li — peye bòdwo, jere kont — espesyalman pou asire otorite sa a ta rete valab menm si konplikasyon te kite l tanporèman enkapab pou jere zafè sa yo li menm. Si pito li te siyen sèlman yon prokirasyon jeneral ki pa dirab, otorite madanm li pou aji nan non li te ka vin envalid egzakteman nan moman enkapasite li te fè l pi nesesè a, sa ki ta detwi tout objektif pou l te prepare otorite sa a davans.
+
+**4. Egzamen pratik**
+1. Kisa yon prokirasyon (POA) ye?
+   a) Yon kalite testaman
+   b) Yon dokiman legal ki bay yon moun otorite pou aji nan non yon lòt
+   c) Yon kalite fidi sèlman pou biznis
+   d) Yon fòm deklarasyon taks
+
+2. Kisa "dirab" ajoute nan yon prokirasyon?
+   a) Anyen ki gen enpòtans
+   b) Dispozisyon ki asire otorite a rete valab menm si mandan an vin enkapab
+   c) Yon garanti ke dokiman an p ap janm ekspire nan okenn sikonstans
+   d) Plis valè finansye pou siksesyon an
+
+3. Vrè oswa Fo: Yon prokirasyon estanda ki pa dirab rete valab menm si mandan an vin enkapab.
+
+4. Poukisa gason an te chwazi espesyalman yon prokirasyon dirab anvan operasyon li?
+   a) Li te vle otorite a vin envalid si l vin enkapab
+   b) Li te vle otorite madanm li rete valab espesyalman pandan yon peryòd enkapasite posib
+   c) Lalwa mande prokirasyon dirab pou tout operasyon
+   d) Li pa t gen okenn enkyetid sou enkapasite ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon prokirasyon bay yon moun otorite legal pou aji nan non yon lòt.
+2. Dirabilite asire otorite prokirasyon an rete valab menm si mandan an vin enkapab.
+3. Yon prokirasyon estanda ki pa dirab an jeneral vin envalid lè mandan an vin enkapab.
+4. Prokirasyon dirab gason an te asire otorite madanm li ta rete valab espesyalman pandan yon peryòd enkapasite posib.
+
+**7. Pwen kle yo**
+- Yon prokirasyon bay yon mandatè otorite pou aji nan non yon mandan, an jeneral pou zafè finansye oswa legal.
+- Kontrèman ak testaman, yon prokirasyon trete sitiyasyon pandan lavi mandan an, sitou enkapasite.
+- Yon prokirasyon jeneral ki pa dirab an jeneral vin envalid lè moun nan vin enkapab, sòf si li gen dispozisyon dirabilite.
+- Yon prokirasyon dirab se an jeneral enstriman yo rekòmande espesyalman pou planifikasyon enkapasite.
