@@ -1,0 +1,60 @@
+---
+id: BLACK-L3-036
+track: BLACK
+officialTrackName: "Leadership"
+level: 3
+lessonNumber: 36
+title: "Poukisa lidèchip mande pou jere anwo, anba, ak sou kote an menm tan"
+summary: "Aprann poukisa yon lidèchip efikas mande pou jere relasyon nan tout direksyon an menm tan — sipèvizè, moun ki rapòte ba ou, ak kòlèg — e poukisa neglije nenpòt nan direksyon sa yo kreye vrè risk pou òganizasyon an."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-10-28"
+locale: "ht"
+source_locale: "en-US"
+---
+# BLACK-L3-036: Poukisa lidèchip mande pou jere anwo, anba, ak sou kote an menm tan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike sa sa vle di pou jere "anwo, anba, ak sou kote" an menm tan
+- Esplike poukisa neglije nenpòt nan twa direksyon sa yo kreye risk espesifik pou òganizasyon an
+- Konekte konsèp sa a ak diskisyon sou gouvènans konsèy administrasyon Leson 18 la
+
+## Kontni prensipal
+
+Souvan yo diskite lidèchip sitou an tèm jere "anba" — dirije moun ki rapòte dirèkteman ba ou ak ekip yo. Men "poukisa" sa vrèman pa konplè: yon lidè bezwen jere "anwo" tou (pwòp sipèvizè li, yon konsèy administrasyon, oswa envestisè, sa ki konekte dirèkteman ak diskisyon Leson 18 la sou gouvènans konsèy administrasyon) ak "sou kote" (lòt lidè ki nan menm nivo ak depatman lidè a pa kontwole fòmèlman men li depann de yo pou yon siksè òganizasyon ki kowòdone).
+
+Men "poukisa" neglije nenpòt nan twa direksyon sa yo kreye yon risk espesifik ou ka rekonèt: yon lidè ki jere anba byen men ki neglije jere anwo ka jwenn li pa gen resous, sipò, oswa konfyans li bezwen nan estrikti sipèvizyon tankou konsèy administrasyon yo diskite nan Leson 18 la, kèlkeswa jan pwòp ekip li bay bon pèfòmans. Yon lidè ki neglije jere sou kote ka jwenn travay ekip li a domaje pa yon move kowòdinasyon ak lòt depatman ki nan menm nivo, paske siksè yon òganizasyon raman depann de pèfòmans izole yon sèl ekip poukont li.
+
+Kiyès nan twa direksyon sa yo — anwo, anba, oswa sou kote — ki resevwa mwens atansyon fèt espre nan apwòch lidèchip ou kounye a, e ki risk espesifik sa te kreye oswa li gen chans kreye?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon lidè envesti anpil pou l jere ekip dirèk li byen, li bati yon bon moral ak yon direksyon klè, alòske l neglije jere aktivman relasyon ak lidè lòt depatman ki nan menm nivo. [SIPOZISYON] Lè yon gwo inisyativ ant depatman mande yon kowòdinasyon lidè sa a pa t kiltive, pèfòmans endividyèl ekselan ekip la domaje pa yon move kowòdinasyon sou kote — sa ki montre poukisa jere anba sèlman, kèlkeswa jan li byen fèt, pa ase san yo pa jere tou espre relasyon sou kote ki afekte rezilta òganizasyon an pi lwen pase kontwòl nenpòt sèl ekip.
+
+## Egzamen pratik
+
+1. Kisa sa vle di pou jere "anwo, anba, ak sou kote" an menm tan?
+2. Ki risk espesifik neglije jere "anwo" kreye, an konekte ak Leson 18?
+3. Ki risk espesifik neglije jere "sou kote" kreye?
+
+## Kle repons yo
+
+1. Jere relasyon ak sipèvizè oswa estrikti sipèvizyon (anwo), moun ki rapòte dirèkteman ba ou ak ekip (anba), ak lidè oswa depatman ki nan menm nivo (sou kote) tout an menm tan.
+2. Yon lidè ka jwenn li pa gen resous, sipò, oswa konfyans li bezwen nan estrikti sipèvizyon tankou konsèy administrasyon an, kèlkeswa jan pwòp ekip li bay bon pèfòmans, sa ki konekte dirèkteman ak diskisyon sou gouvènans konsèy administrasyon nan Leson 18.
+3. Travay ekip yon lidè ka domaje pa yon move kowòdinasyon ak lòt depatman ki nan menm nivo, paske siksè òganizasyon an raman depann de pèfòmans izole yon sèl ekip poukont li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon fondamantal leson an.
+2. Sa konekte leson an klèman ak diskisyon Leson 18 la sou gouvènans konsèy administrasyon.
+3. Sa ranfòse risk espesifik, pratik, ki genyen lè w neglije kowòdinasyon sou kote.
+
+## Pwen kle yo
+- Yon lidèchip efikas mande pou jere relasyon nan twa direksyon an menm tan: anwo, anba, ak sou kote.
+- Neglije jere anwo ka febli resous ak konfyans ou bezwen nan estrikti sipèvizyon, sa ki konekte ak diskisyon Leson 18 la sou gouvènans konsèy administrasyon.
+- Neglije jere sou kote ka domaje menm travay yon ekip ki byen dirije atravè yon move kowòdinasyon ant depatman.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou jesyon òganizasyon.*
