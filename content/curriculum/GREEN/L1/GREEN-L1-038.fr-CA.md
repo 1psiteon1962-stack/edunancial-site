@@ -1,52 +1,90 @@
 ---
 id: GREEN-L1-038
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: Taxes
 level: 1
 lessonNumber: 38
 locale: fr-CA
-title: "Taxes d’accise et taxes sur certains produits"
-summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+title: "Les « taxes sur le péché » et les taxes d’accise"
+summary: "Présente les taxes d’accise, souvent appelées « taxes sur le péché » lorsqu’elles s’appliquent à des produits précis comme l’alcool ou le tabac, comme une catégorie de taxe distincte motivée par des choix de politique publique."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Taxes d’accise et taxes sur certains produits
+# Les « taxes sur le péché » et les taxes d’accise
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal.
-- Reconnaître ses conséquences pratiques.
-- Vérifier les règles applicables avant d’agir.
+
+- Définir une taxe d’accise.
+- Expliquer l’expression « taxe sur le péché » et le raisonnement de politique publique qui la sous-tend.
+- Distinguer les taxes d’accise de la taxe de vente générale.
 
 ## Contenu principal
-Une taxe d’accise vise un produit ou une activité précise plutôt que la consommation générale. Lorsqu’elle touche des produits comme le tabac ou l’alcool, elle peut aussi chercher à modifier les comportements. Les catégories, taux et effets varient selon la juridiction.
 
-Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
+Une taxe d’accise est une taxe appliquée à un bien ou à une activité précise, plutôt qu’aux achats en général comme le fait une taxe de vente générale. Lorsqu’une taxe d’accise vise un produit considéré comme nocif en excès — l’alcool, le tabac et parfois les boissons sucrées en sont des exemples courants — on l’appelle souvent, de façon informelle, une « taxe sur le péché ».
+
+Le raisonnement de politique publique derrière les taxes sur le péché comporte habituellement deux volets : générer des recettes, et décourager la consommation du produit taxé en le rendant plus cher. Contrairement à la taxe de vente générale, qui s’applique de façon large et neutre à la plupart des achats, les taxes d’accise sont volontairement étroites et ciblées, ce qui reflète un jugement de politique publique précis sur ce bien ou cette activité en particulier. La question de savoir si les taxes sur le péché réduisent réellement la consommation de façon efficace, et si elles pèsent de manière disproportionnée sur les consommateurs à faible revenu, fait véritablement débat plutôt que d’être un fait établi.
 
 ## Exemple pratique
-**Question :** Quelle approche protège le mieux votre capacité de décider?
-**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
-**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
+
+**Question :** Un gouvernement ajoute une taxe supplémentaire visant précisément les boissons gazeuses sucrées, en plus de la taxe de vente ordinaire qui s’applique à tous les achats au détail. De quel type de taxe s’agit-il pour ce supplément sur les boissons gazeuses?
+
+**Étudiant :** D’après cette leçon, cela ressemble à une taxe d’accise, puisqu’elle vise précisément un produit plutôt que les achats en général.
+
+**Guide :** Quel est le double objectif probable derrière ce type de taxe ciblée?
+
+**Étudiant :** Générer des recettes, et aussi décourager la consommation de boissons gazeuses en les rendant plus chères.
+
+**Guide :** Exactement — et il vaut la peine de noter que ces deux effets, ainsi que leur équité, font véritablement débat.
 
 ## Quiz pratique
-1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
-2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
-3. Faut-il planifier avant une transaction importante? A) Oui B) Non
-4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
+
+**Question 1.** Une taxe d’accise se décrit le mieux comme :
+
+A) Une taxe générale sur tous les achats
+B) Une taxe ciblant un bien ou une activité précise
+C) La même chose que l’impôt sur le revenu
+D) Un type d’impôt foncier
+
+**Question 2.** Une « taxe sur le péché » est :
+
+A) Sans lien avec les taxes d’accise
+B) Une expression informelle désignant une taxe d’accise sur des produits considérés comme nocifs en excès
+C) Un impôt sur le revenu seulement
+D) Un type de crédit d’impôt
+
+**Question 3.** Le double objectif habituel des taxes sur le péché est de :
+
+A) N’avoir aucun objectif
+B) Générer des recettes et décourager la consommation
+C) Seulement décourager la consommation, sans jamais générer de recettes
+D) Seulement générer des recettes, sans objectif de comportement
+
+**Question 4.** L’efficacité et l’équité des taxes sur le péché sont-elles une question réglée?
+
+A) Oui, tout le monde est d’accord
+B) Non — c’est une question de politique publique qui fait véritablement débat
+C) Elle ne fait débat que dans un seul pays
+D) Elle n’a jamais été discutée
 
 ## Corrigé
-1. B, 2. A, 3. A, 4. A
+
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
-1. Les juridictions ont leurs propres règles.
-2. Les dossiers permettent d’appuyer les faits et calculs.
-3. Planifier à l’avance préserve davantage d’options.
-4. Une aide qualifiée peut réduire les risques dans les situations complexes.
+
+**1.** Les taxes d’accise ciblent un produit ou une activité précise au lieu de s’appliquer de façon générale.
+
+**2.** L’expression « taxe sur le péché » reflète le fait que le produit visé est considéré comme nocif en excès, comme l’alcool ou le tabac.
+
+**3.** La production de recettes et le découragement d’un comportement sont les deux objectifs couramment cités de ces taxes ciblées.
+
+**4.** Des personnes raisonnables ne s’entendent pas sur l’efficacité des taxes sur le péché ni sur qui en supporte réellement le fardeau.
 
 ## Points clés
-- Comprenez avant d’agir.
-- Conservez de bons dossiers.
-- Vérifiez les règles actuelles.
-- Planifiez les décisions importantes.
-- Utilisez l’information pour prendre vos propres décisions éclairées.
+
+- Les taxes d’accise ciblent des biens ou des activités précis, contrairement à la taxe de vente générale.
+- La « taxe sur le péché » est une expression informelle pour les taxes d’accise sur des produits considérés comme nocifs en excès.
+- Les objectifs habituels sont de générer des recettes et de décourager la consommation.
+- L’efficacité et l’équité des taxes sur le péché font encore véritablement débat.

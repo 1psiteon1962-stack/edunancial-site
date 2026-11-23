@@ -1,48 +1,90 @@
 ---
 id: GREEN-L1-034
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 34
 locale: fr-CA
-source_locale: en-US
-title: "L'Impôt sur le Revenu — Les Bases"
-summary: "Explique ce concept fiscal et son application pratique."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Les comptes de retraite avantagés sur le plan fiscal : l’idée de base"
+summary: "Présente la notion générale des comptes de retraite avantagés sur le plan fiscal sans la lier aux noms de comptes précis d’un seul pays."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-034 : L'Impôt sur le Revenu — Les Bases
+# Les comptes de retraite avantagés sur le plan fiscal : l’idée de base
 
-## Objectifs d'Apprentissage
-1. Définir l'impôt sur le revenu en termes simples.
-2. Expliquer le concept général d'un régime fiscal progressif.
-3. Reconnaître que les taux précis varient selon le pays.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE SPÉCIFIQUE À LA RÉGION :* Les taux précis de l'impôt sur le revenu et les structures exactes varient considérablement selon le pays ; cette leçon décrit seulement le concept général.
+- Expliquer le but général des comptes de retraite avantagés sur le plan fiscal.
+- Reconnaître le mécanisme de base : un avantage fiscal en échange de restrictions d’accès.
+- Reconnaître qu’il s’agit d’un outil de politique publique pour encourager l’épargne à long terme.
 
-L'impôt sur le revenu est un impôt généralement appliqué sur le revenu qu'une personne ou une entreprise gagne pendant une période donnée. *SUPPOSITION :* Bien des pays utilisent un régime progressif, où le taux d'imposition augmente généralement à mesure que le niveau de revenu augmente — ça veut dire que les personnes avec des revenus plus élevés paient généralement un pourcentage plus élevé sur ces revenus que les personnes avec des revenus plus bas.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Dans un régime progressif simplifié, quelqu'un pourrait payer un taux de 10 % sur les premiers 20 000 $ de revenu, et un taux de 20 % sur tout revenu additionnel au-dessus de ce montant. Ça veut généralement dire qu'une personne ne paie pas le taux le plus élevé sur tout son revenu, mais seulement sur la partie qui dépasse chaque palier établi.
+De nombreux gouvernements offrent des types de comptes particuliers qui procurent un certain avantage fiscal — l’argent qui y entre n’est pas encore imposé, ou l’argent qui en sort plus tard n’est pas imposé, ou la croissance des placements à l’intérieur du compte n’est pas imposée en cours de route — précisément pour inciter les gens à épargner pour la retraite. En échange de cet avantage, ces comptes s’accompagnent habituellement de restrictions, le plus souvent des limites aux retraits effectués avant un certain âge sans pénalité.
 
-## Quiz Pratique
-1. Qu'est-ce que l'impôt sur le revenu ?
-2. Qu'est-ce qu'un régime fiscal progressif ?
-3. Vrai/Faux : Dans un régime progressif, tout le monde paie exactement le même pourcentage.
-4. Dans l'exemple, quel taux s'appliquerait aux premiers 20 000 $ de revenu ?
+L’échange de fond est simple : le gouvernement renonce à certaines recettes fiscales maintenant (ou plus tard) en échange d’un comportement — l’épargne à long terme — qui réduit la dépendance future envers les systèmes de soutien publics. Les noms précis des comptes, les plafonds de cotisation et les règles varient énormément selon le pays et changent avec le temps, mais la forme de base — un avantage fiscal jumelé à une restriction d’accès, visant à encourager l’épargne-retraite — est un schéma qu’il vaut la peine de reconnaître partout où vous le rencontrez.
+
+## Exemple pratique
+
+**Question :** Un ami demande pourquoi un compte de retraite le pénaliserait s’il retire son propre argent trop tôt. Quelle est la logique générale?
+
+**Étudiant :** D’après cette leçon, l’avantage fiscal est essentiellement un échange — vous obtenez un avantage en échange de votre engagement à laisser l’argent pour la retraite.
+
+**Guide :** Pourquoi un gouvernement se soucierait-il que l’argent serve précisément à la retraite?
+
+**Étudiant :** Parce qu’encourager l’épargne à long terme réduit la dépendance future envers les systèmes de soutien publics; cela vaut donc la peine que le gouvernement renonce à certaines recettes fiscales maintenant.
+
+**Guide :** Exactement — la restriction n’est pas arbitraire, elle est liée au but de l’avantage.
+
+## Quiz pratique
+
+**Question 1.** Les comptes de retraite avantagés sur le plan fiscal offrent généralement :
+
+A) Aucun avantage
+B) Une certaine forme d’avantage fiscal liée à l’épargne-retraite
+C) Des retraits illimités sans pénalité en tout temps
+D) Des avantages seulement pour les entreprises
+
+**Question 2.** En échange de l’avantage fiscal, ces comptes comportent habituellement :
+
+A) Aucune restriction
+B) Des restrictions, couramment des limites aux retraits anticipés sans pénalité
+C) L’obligation de dépenser l’argent immédiatement
+D) Une taxe de vente plus élevée
+
+**Question 3.** Pourquoi un gouvernement pourrait-il offrir ce type d’avantage?
+
+A) Sans véritable raison
+B) Pour encourager l’épargne à long terme et réduire la dépendance future envers le soutien public
+C) Pour augmenter les recettes fiscales à court terme
+D) Seulement pour avantager les banques
+
+**Question 4.** Les noms et les règles précis des comptes restent-ils les mêmes d’un pays à l’autre et au fil du temps?
+
+A) Oui, toujours
+B) Non — ils varient beaucoup et changent avec le temps
+C) Seulement dans les pays riches
+D) Ils n’ont jamais existé
 
 ## Corrigé
-1. Un impôt appliqué sur le revenu gagné pendant une période donnée   2. Un régime où le taux d'imposition augmente à mesure que le revenu augmente   3. Faux   4. 10 %
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'impôt sur le revenu.
-2. Ceci est la définition fondamentale d'un régime fiscal progressif.
-3. Dans un régime progressif, le taux varie généralement selon le niveau de revenu.
-4. Selon l'exemple, le taux de 10 % s'appliquerait aux premiers 20 000 $.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- L'impôt sur le revenu s'applique généralement sur le revenu gagné.
-- Bien des pays utilisent un régime progressif, où le taux augmente avec le niveau de revenu.
-- Les taux précis et les structures varient considérablement selon le pays.
+## Réponses et explications
+
+**1.** L’offre de base dans la plupart des systèmes est une certaine forme d’avantage fiscal liée précisément à l’épargne-retraite.
+
+**2.** Les restrictions sur les retraits anticipés sont la contrepartie courante de l’avantage fiscal.
+
+**3.** Encourager l’épargne réduit le fardeau futur des systèmes publics de retraite et de soutien, et c’est la logique de politique publique.
+
+**4.** Comme pour les crédits, les détails dépendent ici de la juridiction et de l’époque; le schéma compte donc davantage que les règles d’un compte en particulier.
+
+## Points clés
+
+- Les comptes de retraite avantagés sur le plan fiscal échangent un avantage fiscal contre des restrictions sur l’épargne.
+- Les retraits anticipés sont habituellement limités ou pénalisés.
+- L’objectif de politique publique est d’encourager l’épargne à long terme pour réduire la dépendance future envers le soutien public.
+- Les règles précises des comptes varient selon le pays et changent avec le temps — c’est le schéma qui constitue la leçon transférable.

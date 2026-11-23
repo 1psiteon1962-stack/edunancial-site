@@ -1,60 +1,90 @@
 ---
 id: GREEN-L1-006
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: Taxes
 level: 1
 lessonNumber: 6
 locale: fr-FR
-title: "Taxe foncière : imposer ce que vous possédez"
-summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+title: "L’taxe foncière : imposer ce que vous possédez"
+summary: "Une introduction à l’taxe foncière, le plus souvent appliqué à l’immobilier, et à la façon dont il finance les services locaux."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Taxe foncière : imposer ce que vous possédez
+# L’taxe foncière : imposer ce que vous possédez
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept principal.
-- L’appliquer à une situation financière courante.
-- Distinguer le principe général des règles propres à une juridiction.
+- Expliquer à quoi s’applique habituellement l’taxe foncière.
+- Indiquer qui perçoit habituellement l’taxe foncière.
+- Décrire les services locaux couramment financés par l’taxe foncière.
 
 ## Contenu principal
 
-L’taxe foncière porte principalement sur les terrains et immeubles détenus. Contrairement à un impôt déclenché par un achat ou un revenu, il est généralement exigé de façon périodique tant que le bien demeure détenu.
+L’taxe foncière est un impôt sur ce que vous possédez, le plus souvent l’immobilier — le terrain et les bâtiments. Contrairement à l’impôt sur le revenu ou à la taxe de vente, qui sont liés à un événement (gagner un revenu ou acheter), l’taxe foncière est généralement exigé de façon continue, souvent chaque année, simplement parce que vous continuez de posséder le bien.
 
-Les administrations locales sont souvent responsables de sa perception et l’utilisent pour financer des services de proximité comme les écoles publiques, les services policiers et d’incendie, les bibliothèques et l’entretien routier. Puisqu’il dépend de la propriété plutôt que du revenu annuel, la facture ne diminue pas automatiquement lorsque le revenu du propriétaire baisse.
+Les administrations locales — villes, départements ou autorités régionales semblables — sont les percepteurs les plus courants de l’taxe foncière, et celui-ci finance souvent des services de proximité : écoles publiques, services de police et d’incendie locaux, bibliothèques et entretien des routes. Comme il repose sur la propriété plutôt que sur une transaction, l’avis d’taxe foncière continue d’arriver, que le revenu du propriétaire change ou non cette année-là, ce qui explique en partie pourquoi il peut représenter un élément de planification important pour les propriétaires.
 
 ## Exemple pratique
 
-**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+**Question :** Une famille possède une maison, mais a connu une année difficile avec un revenu plus faible. Son avis d’taxe foncière change-t-il parce que son revenu a baissé?
 
-**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+**Étudiant :** Je dirais qu’il reste le même, puisqu’il porte sur la propriété, pas sur le salaire.
 
-**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+**Guide :** Exact — qu’est-ce que cela vous apprend sur la nature de l’taxe foncière par rapport à l’impôt sur le revenu?
+
+**Étudiant :** Il est lié à la propriété, pas à ce qu’on gagne cette année-là, donc il ne s’ajuste pas automatiquement au revenu.
+
+**Guide :** Exactement — c’est une distinction importante pour la planification.
 
 ## Quiz pratique
 
-1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
-2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
-3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
-4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
+**Question 1.** L’taxe foncière s’applique le plus souvent :
+
+A) Aux salaires
+B) À l’immobilier
+C) Aux achats au détail
+D) Aux gains de placement
+
+**Question 2.** L’taxe foncière est habituellement perçu par :
+
+A) Les gouvernements nationaux seulement
+B) Les administrations locales
+C) Aucun gouvernement
+D) Les banques seulement
+
+**Question 3.** L’taxe foncière finance généralement :
+
+A) La défense nationale seulement
+B) Des services locaux comme les écoles et les services d’incendie
+C) Rien de précis
+D) Seulement les autoroutes fédérales
+
+**Question 4.** L’taxe foncière diminue-t-il automatiquement si le revenu du propriétaire baisse?
+
+A) Oui, toujours
+B) Non, il est lié à la propriété, pas au revenu
+C) Seulement pour les entreprises
+D) Seulement dans les pays riches
 
 ## Corrigé
 
-1. B, 2. A, 3. A, 4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
 
-1. Les systèmes fiscaux varient selon les juridictions.
-2. Les taux, seuils et règles peuvent changer avec le temps.
-3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
-4. Il faut toujours vérifier les règles applicables localement.
+**1.** L’immobilier est la cible la plus courante de l’taxe foncière, bien que certains endroits imposent aussi d’autres biens importants que l’on possède.
+
+**2.** Les administrations locales gèrent et perçoivent généralement l’taxe foncière parce qu’il finance les services locaux.
+
+**3.** Les écoles, la police, les pompiers et les routes sont couramment financés, en tout ou en partie, par les recettes locales de l’taxe foncière.
+
+**4.** Comme il est lié à la propriété plutôt qu’au revenu, l’taxe foncière ne varie pas automatiquement avec les gains d’une personne.
 
 ## Points clés
 
-- Comprenez le mécanisme avant de mémoriser des chiffres.
-- Vérifiez les règles de votre juridiction.
-- Utilisez des renseignements actuels.
-- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.
+- L’taxe foncière est exigé sur la propriété, le plus souvent l’immobilier.
+- Il est généralement perçu par les administrations locales.
+- Il finance couramment les écoles, la sécurité publique et les infrastructures locales.
+- Comme il repose sur la propriété, il ne diminue pas automatiquement quand le revenu baisse — un point de planification clé pour les propriétaires.

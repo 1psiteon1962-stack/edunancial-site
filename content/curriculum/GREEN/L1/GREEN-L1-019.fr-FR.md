@@ -1,60 +1,90 @@
 ---
 id: GREEN-L1-019
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: Taxes
 level: 1
 lessonNumber: 19
 locale: fr-FR
-title: "Qu’est-ce qu’une déclaration de revenus et pourquoi la produire?"
-summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+title: "Qu’est-ce qu’une déclaration de revenus, et pourquoi en produit-on une?"
+summary: "Explique le but de la déclaration de revenus : rapprocher les paiements estimés de l’impôt réellement dû pour l’année."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Qu’est-ce qu’une déclaration de revenus et pourquoi la produire?
+# Qu’est-ce qu’une déclaration de revenus, et pourquoi en produit-on une?
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept principal.
-- Reconnaître ses conséquences pratiques.
-- Vérifier les exigences propres à la juridiction avant d’agir.
+- Définir une déclaration de revenus en termes simples.
+- Expliquer le rôle de rapprochement de la déclaration.
+- Relier la déclaration à la leçon précédente sur les retenues à la source.
 
 ## Contenu principal
 
-Une déclaration fiscale communique à l’autorité compétente des renseignements comme le revenu, les déductions, les crédits et l’impôt calculé. Elle permet de rapprocher l’obligation finale des retenues et paiements déjà effectués.
+Une déclaration de revenus est un document que vous soumettez au gouvernement pour déclarer votre revenu, vos déductions, vos crédits et l’impôt que vous calculez devoir pour l’année. Produire une déclaration est la façon dont le système fondé sur des estimations (les retenues à la source, vues plus tôt) est rapproché du montant réel et définitif.
 
-Un trop-payé peut mener à un remboursement et un paiement insuffisant peut laisser un solde. Les obligations de déclaration varient selon le revenu, la résidence, l’âge, l’activité et les règles locales.
+Voyez-la comme un règlement de fin d’année. Tout au long de l’année, l’impôt a été retenu ou des acomptes provisionnels ont été versés selon des prévisions. La déclaration additionne ce qui s’est réellement passé — le revenu réellement gagné, les déductions et crédits réellement demandés — et calcule le montant réellement dû. Si le total déjà payé dépasse ce montant réel, vous recevez un remboursement. S’il est insuffisant, vous devez la différence. Produire sa déclaration n’est pas une simple formalité facultative; dans la plupart des systèmes, c’est l’acte exigé par la loi qui règle définitivement votre obligation fiscale pour l’année.
 
 ## Exemple pratique
 
-**Question :** Quelle approche prudente faut-il adopter?
+**Question :** Si un travailleur s’est fait retenir de l’impôt toute l’année et ne produit jamais de déclaration, son obligation fiscale est-elle officiellement réglée?
 
-**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+**Étudiant :** Je dirais que non, puisque la retenue n’était qu’une estimation.
 
-**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+**Guide :** Que fait réellement la déclaration que la retenue seule ne fait pas?
+
+**Étudiant :** Elle calcule le montant définitif réel en fonction de tout ce qui s’est réellement passé pendant l’année et le compare à ce qui a déjà été payé.
+
+**Guide :** Exact — la déclaration est l’étape de rapprochement, et dans la plupart des systèmes, elle est exigée par la loi, et non facultative.
 
 ## Quiz pratique
 
-1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
-2. Faut-il conserver une documentation appropriée? A) Oui B) Non
-3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
-4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
+**Question 1.** Une déclaration de revenus se décrit le mieux comme :
+
+A) Une suggestion facultative
+B) Un document qui déclare le revenu, les déductions et les crédits pour calculer l’impôt dû
+C) La même chose qu’une retenue à la source
+D) Réservée aux entreprises
+
+**Question 2.** Produire une déclaration sert principalement à :
+
+A) Rapprocher les paiements estimés de l’impôt réellement dû
+B) Remplacer complètement la retenue à la source
+C) Éviter tous les impôts
+D) S’appliquer seulement aux travailleurs indépendants
+
+**Question 3.** Si les montants retenus dépassent l’impôt réellement dû, le résultat habituel est :
+
+A) Une pénalité
+B) Un remboursement
+C) Rien
+D) Une vérification automatique
+
+**Question 4.** La production d’une déclaration est-elle habituellement facultative dans la plupart des systèmes?
+
+A) Oui, toujours facultative
+B) Non, c’est habituellement une obligation légale
+C) Seulement pour les personnes riches
+D) Seulement pour les entreprises
 
 ## Corrigé
 
-1. A, 2. A, 3. B, 4. A
+1. B, 2. A, 3. B, 4. B
 
 ## Réponses et explications
 
-1. Les règles et seuils diffèrent entre juridictions.
-2. La documentation permet d’appuyer les calculs et positions fiscales.
-3. Les règles évoluent et doivent être vérifiées.
-4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+**1.** Une déclaration présente le portrait financier complet nécessaire pour calculer l’obligation fiscale réelle.
+
+**2.** La fonction essentielle de la déclaration est de comparer ce qui a déjà été payé à ce qui est réellement dû.
+
+**3.** Une retenue excédentaire, une fois rapprochée au moyen de la déclaration, revient sous forme de remboursement.
+
+**4.** Dans la plupart des systèmes, produire sa déclaration est une obligation légale, pas une politesse.
 
 ## Points clés
 
-- Planifiez avant les échéances.
-- Conservez des dossiers clairs.
-- Vérifiez les règles applicables.
-- Distinguez les concepts généraux des exigences locales.
+- Une déclaration de revenus présente le revenu, les déductions et les crédits pour calculer l’impôt réellement dû.
+- La déclaration rapproche les paiements estimés (comme les retenues) de l’obligation réelle.
+- Un trop-payé donne lieu à un remboursement; un paiement insuffisant donne lieu à un solde à payer.
+- Produire sa déclaration est habituellement une obligation légale, et non une option.
