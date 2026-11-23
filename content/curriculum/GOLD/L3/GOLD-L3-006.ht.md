@@ -1,0 +1,60 @@
+---
+id: GOLD-L3-006
+track: GOLD
+officialTrackName: "Investing"
+level: 3
+lessonNumber: 6
+title: "Poukisa byen ki konsève valè ak byen kwasans sèvi diferan objektif"
+summary: "Aprann poukisa kenbe lò ak kenbe aksyon kwasans reponn de kesyon envestisman diferan, ak poukisa yon pòtfèy byen reflechi ta ka rezonabman gen tou de."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-10-28"
+locale: "ht"
+source_locale: "en-US"
+---
+# GOLD-L3-006: Poukisa byen ki konsève valè ak byen kwasans sèvi diferan objektif
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferan objektif byen ki konsève valè ak byen kwasans sèvi
+- Esplike poukisa konpare rannman lò dirèkteman ak rannman yon endèks aksyon rate pwen an
+- Esplike poukisa yon pòtfèy ta ka rezonabman kenbe tou de kalite byen yo an menm tan
+
+## Kontni prensipal
+
+Ki baze sou diskisyon Leson 4 ak 5 yo sou byen ki pa pwodiktif: yon fason komen men ki gen defo pou evalye lò se konpare rannman istorik li dirèkteman ak yon envestisman ki vize kwasans tankou yon endèks aksyon, e konkli lò se yon move envestisman paske rannman li souvan rete dèyè pandan lontan.
+
+Men "poukisa" konparezon sa a rate pwen an: lò ak yon envestisman an aksyon ki vize kwasans anjeneral gen entansyon pou yo jwe diferan wòl nan yon pòtfèy, pa pou yo fè konpetisyon youn kont lòt pou menm objektif la. Yon **byen kwasans** vize sitou bati richès ak tan atravè ogmantasyon valè kapital ak, nan anpil ka, revni. Yon **byen ki konsève valè** tankou lò vize sitou prezève pouvwa acha e bay yon estabilite posib, sitou pandan peryòd kote byen kwasans yo ta ka anba presyon — pa maksimize kwasans long tèm.
+
+[FÈ VERIFYE] Evalye lò sèlman sou baz rannman kwasans, e jwenn li pa ase konpare ak aksyon pandan long peryòd istorik, se konpare de byen ak yon estanda se sèlman youn nan yo k ap vrèman eseye satisfè. Se poutèt sa yon pòtfèy byen reflechi ta ka rezonabman kenbe tou de: byen kwasans pou bati richès ak tan, ak kèk pòsyon nan yon byen ki konsève valè pou wòl diferan, konplemantè li gen entansyon jwe a, olye trete desizyon an kòm yon chwa ant youn oswa lòt pami opsyon k ap fè konpetisyon pou menm travay la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè konpare rannman anyèl mwayen lò pandan plizyè dizèn ane ak rannman anyèl mwayen yon endèks aksyon pandan menm peryòd la, e li konkli lò te yon move chwa envestisman paske kwasans li te rete byen dèyè. [SIPOZISYON] Konparezon sa a bliye ke li pa t kenbe lò nan pòtfèy li pou fè konpetisyon ak aksyon pou kwasans — li te kenbe l espesyalman pou kapasite li genyen pou prezève valè e bay estabilite pandan peryòd kote aksyon li yo ta ka anba gwo presyon, yon wòl yon konparezon rannman kwasans sèlman pa kaptire ni rekonèt ditou.
+
+## Egzamen pratik
+
+1. Ki objektif diferan yon byen ki konsève valè sèvi konpare ak yon byen kwasans?
+2. Poukisa konpare rannman lò dirèkteman ak rannman yon endèks aksyon rate pwen an?
+3. Poukisa yon pòtfèy ta ka rezonabman kenbe tou de kalite byen yo an menm tan?
+
+## Kle repons yo
+
+1. Yon byen kwasans vize sitou bati richès atravè ogmantasyon valè ak revni; yon byen ki konsève valè vize sitou prezève pouvwa acha e bay estabilite, sitou pandan peryòd presyon.
+2. Paske li evalye lò dapre yon estanda kwasans li pa t janm gen entansyon satisfè, olye dapre wòl diferan, konplemantè li vrèman sipoze jwe nan yon pòtfèy.
+3. Paske yo sèvi objektif diferan, konplemantè — byen kwasans pou bati richès ak tan, ak yon pòsyon byen ki konsève valè pou estabilite ak prezèvasyon pandan peryòd kote byen kwasans yo ta ka gen difikilte.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz leson an bati sou li.
+2. Sa a se avètisman santral kont yon apwòch evalyasyon komen men ki gen defo.
+3. Sa ranfòse wòl pratik, konplemantè tou de kalite byen yo ka jwe ansanm.
+
+## Pwen kle yo
+- Byen ki konsève valè tankou lò ak byen kwasans tankou aksyon anjeneral sèvi diferan objektif nan yon pòtfèy.
+- Konpare rannman lò dirèkteman ak rannman kwasans yon endèks aksyon evalye l dapre yon estanda li pa t janm gen entansyon satisfè.
+- Yon pòtfèy byen reflechi ta ka rezonabman kenbe tou de, e valorize chak youn pou wòl diferan, konplemantè li jwe.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
