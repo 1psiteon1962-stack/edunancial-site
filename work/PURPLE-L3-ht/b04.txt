@@ -147,3 +147,103 @@ Se poutèt sa nenpòt biznis k ap anboche travayè endepandan (freelancers), kon
 ---
 
 *Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou pwopriyete entelektyèl yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans anvan w anboche moun pou travay kreyatif oswa teknik.*
+
+===== PURPLE-L3-019
+TITLE: Poukisa yon kloz travay sou kòmand (work-for-hire) chanje règ pa defo sou pwopriyete PI
+SUMMARY: Aprann kijan yon dispozisyon travay sou kòmand deplase pwopriyete entelektyèl soti nan kreyatè a pou ale nan pati ki anboche a, ak poukisa eksepsyon sa a gen kondisyon espesifik, limite.
+# PURPLE-L3-019: Poukisa yon kloz travay sou kòmand (work-for-hire) chanje règ pa defo sou pwopriyete PI
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike konsèp jeneral yon "travay sou kòmand" (work for hire)
+- Esplike kijan konsèp sa a chanje règ pa defo sou pwopriyete PI Leson 18 la te etabli a
+- Esplike poukisa yon kloz travay sou kòmand enpòtan sitou lè w ap anboche kontraktè endepandan
+
+## Kontni prensipal
+
+Leson 18 te etabli règ jeneral pa defo a ki di vrè kreyatè a anjeneral posede pwopriyete entelektyèl ki soti nan travay la, si pa gen yon akò espesifik. **Travay sou kòmand** (work for hire) se yon konsèp legal espesifik e, nan kèk jiridiksyon, yon eksepsyon espesifik nan lwa ki chanje règ pa defo sa a nan kèk sikonstans: [FÈ VERIFYE] travay yon anplwaye kreye nan vrè kad travay li souvan yo trete l otomatikman, pa defo, kòm yon bagay patwon an posede, san yo pa bezwen yon akò separe — yon eksepsyon enpòtan nan règ jeneral pwopriyete pou kreyatè a pou relasyon travay espesifik sa a.
+
+Men "poukisa" eksepsyon sa a enpòtan sitou pou kontraktè endepandan, olye anplwaye, sa ki konekte dirèkteman ak Leson 18: [FÈ VERIFYE] règ otomatik pwopriyete patwon an pou vrè anplwaye yo anjeneral pa aplike otomatikman pou kontraktè endepandan menm jan an — pou biznis ki anboche a posede travay yon kontraktè, anpil jiridiksyon anjeneral mande yon akò ekri espesifik, klè ki deziyen travay la kòm "travay sou kòmand" (e, nan kèk ka, deziyasyon sa a li menm limite a kèk kategori travay espesifik, selon lalwa ki aplike a), oswa ki bay pati ki anboche a pwopriyete a klèman otreman.
+
+Se poutèt sa estati espesifik moun k ap kreye pwopriyete entelektyèl la — vrè anplwaye kont kontraktè endepandan, yon diferans yo kouvri pi fon nan leson sou lwa travay kourikoulòm sa a — afekte dirèkteman si yon akò ekri sou pwopriyete PI esansyèl devan lalwa, oswa si règ pa defo ki baze sou travay la deja regle sa.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon vrè anplwaye aplentan nan yon konpayi lojisyèl ekri kòd kòm yon pati nan responsablite travay nòmal li. Dapre konsèp travay sou kòmand lan, patwon an anjeneral posede kòd sa a otomatikman, san yo pa bezwen yon akò PI ekri separe ki trete espesyalman travay sa a. [SIPOZISYON] Si menm konpayi an anboche pito yon kontraktè endepandan pou l ekri yon kòd ki sanble, règ otomatik pwopriyete patwon an anjeneral pa aplike menm jan an — konpayi an bezwen yon akò ekri espesifik ki trete klèman estati travay sou kòmand oswa ki ba li pwopriyete a, otreman li riske pa vrèman posede kòd li te peye kontraktè a pou l kreye a, sa ki reflete dirèkteman règ pa defo ak risk Leson 18 la dekri a.
+
+## Egzamen pratik
+
+1. Kisa "travay sou kòmand" anjeneral vle di?
+2. Kijan konsèp sa a chanje règ pa defo Leson 18 la te etabli a, espesyalman pou vrè anplwaye?
+3. Poukisa eksepsyon sa a enpòtan sitou pou kontraktè endepandan, olye anplwaye?
+
+## Kle repons yo
+
+1. Yon konsèp legal kote travay yon anplwaye kreye nan vrè kad travay li souvan yo trete l otomatikman kòm yon bagay patwon an posede, san yo pa bezwen yon akò separe.
+2. Li ranvèse règ pa defo pwopriyete pou kreyatè a espesyalman pou vrè anplwaye k ap aji nan kad travay yo, li bay patwon an pwopriyete a otomatikman pito.
+3. Paske règ otomatik pwopriyete patwon an anjeneral pa aplike pou kontraktè endepandan menm jan an, sa ki mande yon akò ekri klè pou biznis ki anboche a vrèman posede travay yon kontraktè kreye.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa esplike eksepsyon espesifik la nan règ pa defo Leson 18 la.
+3. Sa ranfòse diferans pratik ant anplwaye ak kontraktè, sa ki konekte dirèkteman ak risk Leson 18 la te idantifye a.
+
+## Pwen kle yo
+- Travay sou kòmand anjeneral ranvèse règ pa defo pwopriyete PI pou vrè anplwaye, li bay patwon an pwopriyete a otomatikman.
+- Règ otomatik sa a anjeneral pa aplike pou kontraktè endepandan menm jan an.
+- Yon akò ekri espesifik esansyèl lè w ap anboche kontraktè pou kreye pwopriyete entelektyèl biznis lan gen entansyon posede.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou travay sou kòmand yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans anvan w anboche moun pou travay kreyatif oswa teknik.*
+
+===== PURPLE-L3-020
+TITLE: Poukisa ou ka pèdi dwa sou yon mak komèsyal si w pa itilize l
+SUMMARY: Aprann poukisa pwoteksyon yon mak komèsyal anjeneral depann de yon itilizasyon kontinyèl, aktif nan komès, ak poukisa senpleman anrejistre yon mak yon fwa pa garanti yon pwoteksyon pèmanan.
+# PURPLE-L3-020: Poukisa ou ka pèdi dwa sou yon mak komèsyal si w pa itilize l
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa dwa sou yon mak komèsyal anjeneral depann de yon itilizasyon kontinyèl, aktif
+- Esplike konsèp jeneral abandon yon mak komèsyal
+- Esplike poukisa sa diferan de lòt fòm pwopriyete entelektyèl yo kouvri lòt kote nan tras sa a
+
+## Kontni prensipal
+
+Yon **mak komèsyal** (trademark) anjeneral pwoteje yon siy idantifikasyon pou yon mak — yon non, yon logo, oswa yon lòt siy ki sanble yo itilize pou fè diferans ant machandiz oswa sèvis yon biznis sou mache a. Men "poukisa" pwoteksyon mak komèsyal anjeneral mande yon itilizasyon kontinyèl, aktif, kontrèman ak kèk lòt fòm pwopriyete entelektyèl: [FÈ VERIFYE] lwa sou mak komèsyal anjeneral chita sou pwoteje konsomatè kont konfizyon nan vrè mache a, e yon mak yo pa vrèman itilize nan komès pa sèvi objektif pwoteksyon debaz sa a, kèlkeswa konbyen yo te ka anrejistre l yon fason valab nan yon moman anvan.
+
+Se poutèt sa anpil jiridiksyon anjeneral rekonèt yon konsèp yo pafwa rele **abandon** (abandonment): si pwopriyetè yon mak komèsyal sispann itilize mak la nan komès pandan yon peryòd enpòtan, long, san entansyon pou rekòmanse itilize l, li ka anjeneral pèdi dwa sou mak komèsyal la — yon biznis pa ka senpleman anrejistre yon mak yon fwa e sipoze li gen yon pwoteksyon pèmanan, san fen, kèlkeswa si li janm vrèman itilize mak sa a pou pi devan.
+
+Sa diferan anpil de yon brevè (patent), pa egzanp (yo kouvri l nan pwochen leson an), ki anjeneral gen yon dire fiks kèlkeswa itilizasyon kontinyèl, oswa yon dwa dotè (copyright), ki anjeneral pa mande yon itilizasyon komèsyal kontinyèl pou l rete pwoteje — egzijans itilizasyon kontinyèl mak komèsyal la se yon karakteristik apa ki reflete objektif debaz espesifik li pou pwoteje rekonesans mak aktif, nan lavi reyèl. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, anrejistreman ak pwoteksyon mak komèsyal yo pase nan Ministè Komès ak Endistri; verifye règ aktyèl yo ak yon avoka ki kalifye.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis anrejistre yon mak komèsyal pou non mak li e li itilize mak sa a aktivman nan komès kontinyèl, li kenbe dwa li sou mak komèsyal la atravè yon vrè itilizasyon kontinyèl. [SIPOZISYON] Si menm biznis sa a pita sispann liy pwodui espesifik ki mare ak mak la, li sispann itilize mak la nan nenpòt kapasite komèsyal pandan yon peryòd enpòtan, long, e li pa gen okenn vrè entansyon pou rekòmanse itilize l, yon tribinal ta ka jwenn yo abandone mak la — sa ki vle di li ta ka pèdi dwa sou mak komèsyal la, e yon lòt biznis ta ka petèt lib pou adopte yon mak ki sanble, malgre anrejistreman orijinal la te nèt valab nan moman yo te jwenn li.
+
+## Egzamen pratik
+
+1. Poukisa pwoteksyon mak komèsyal anjeneral mande yon itilizasyon kontinyèl, aktif?
+2. Kisa "abandon" yon mak komèsyal ye?
+3. Kijan egzijans itilizasyon kontinyèl mak komèsyal la diferan de brevè oswa dwa dotè?
+
+## Kle repons yo
+
+1. Paske lwa sou mak komèsyal anjeneral chita sou pwoteje konsomatè kont konfizyon sou mache a, e yon mak yo pa vrèman itilize nan komès pa sèvi objektif pwoteksyon debaz sa a.
+2. Lè pwopriyetè yon mak komèsyal sispann itilize mak la nan komès pandan yon peryòd enpòtan, long san entansyon pou rekòmanse, sa ki ka fè l pèdi dwa sou mak komèsyal la.
+3. Brevè anjeneral gen yon dire fiks kèlkeswa itilizasyon kontinyèl, e dwa dotè anjeneral pa mande yon itilizasyon komèsyal kontinyèl pou yo rete pwoteje — egzijans itilizasyon kontinyèl mak komèsyal la espesifik pou objektif debaz li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike egzijans itilizasyon kontinyèl inik mak komèsyal la.
+2. Sa a se definisyon debaz konsèp legal espesifik leson an prezante a.
+3. Sa fè diferans ant mak komèsyal ak lòt kalite PI, e li prepare diskisyon sou brevè nan pwochen leson an.
+
+## Pwen kle yo
+- Pwoteksyon mak komèsyal anjeneral mande yon itilizasyon kontinyèl, aktif nan komès, sa ki reflete objektif li pou pwoteje rekonesans konsomatè nan lavi reyèl.
+- Abandon ka fè w pèdi dwa sou yon mak komèsyal si yo pa itilize mak la pandan yon peryòd enpòtan san entansyon pou rekòmanse.
+- Egzijans itilizasyon kontinyèl sa a espesifik pou mak komèsyal, li diferan de brevè ak dwa dotè, ki pa depann de itilizasyon kontinyèl menm jan an anjeneral.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou mak komèsyal yo varye selon jiridiksyon; konsilte yon avoka pwopriyete entelektyèl ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
