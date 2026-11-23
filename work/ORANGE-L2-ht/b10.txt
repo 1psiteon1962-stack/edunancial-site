@@ -1,0 +1,281 @@
+===== ORANGE-L2-046
+TITLE: Bati yon mak pèsonèl kont yon mak biznis
+SUMMARY: Yon mak pèsonèl se repitasyon ak idantite yon moun; yon mak biznis se idantite antite biznis lan – depann twòp sou yon sèl moun kreye menm limit kwasans ak depann sou travay pèsonèl li.
+## ORANGE-L2-046
+### Bati yon mak pèsonèl kont yon mak biznis
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant yon mak pèsonèl ak yon mak biznis.
+- Idantifye konsiderasyon jeneral lè de kalite mak sa yo kwaze.
+- Aplike konparezon sa a nan yon senaryo antreprenè ipotetik.
+
+**2. Kontni prensipal**
+Yon mak pèsonèl an jeneral vle di repitasyon, ekspètiz, ak idantite piblik pwòp yon moun, ki souvan bati atravè pwòp kontni moun nan, jan l pataje ekspètiz li, ak prezans piblik li (sa ki raple diskisyon Leson 15 la sou maketing kontni). Yon mak biznis (Leson 7) vle di idantite ak pèsepsyon antite biznis lan li menm, ki ka mare sere ak mak pèsonèl yon fondatè (sitou nan biznis ki pi piti oswa biznis sèvis, Leson 42) oswa yo ka bati l espre kòm yon antite apa ki endepandan de nenpòt moun.
+
+Diferans sa a leve konsiderasyon pratik ki merite rekonèt dirèkteman: yon mak biznis ki mare sere ak mak pèsonèl yon sèl moun ka benefisye de kredibilite otantik moun sa a ak jan moun ka idantifye ak li, men li ka kreye tou yon vrè risk biznis si moun espesifik sa a vin pa disponib oswa si repitasyon pèsonèl li domaje pou rezon ki pa gen rapò ak biznis lan li menm — yon konsiderasyon ki konekte dirèkteman ak diskisyon BLUE-L2-024 la sou sistèm ak delegasyon, paske yon biznis ki depann twòp sou mak pèsonèl yon moun fè fas ak yon limit kwasans ki sanble ak yon biznis ki depann twòp sou travay pèsonèl moun sa a.
+
+**3. Egzanp pratik**
+Pandan l ap bati biznis konsiltasyon li, yon mèt biznis apiye anpil okòmansman sou pwòp mak pèsonèl li ak jan l pataje ekspètiz li an piblik pou atire kliyan, paske li rekonèt kredibilite otantik sa a bay nan premye etap li yo. Pandan biznis li ap grandi, li kòmanse espre bati yon mak ak yon idantite biznis ki pi endepandan — li fè lòt manm ekip vin ladan l e li divèsifye prezans piblik biznis lan pi lwen pase pwòp pèsonaj endividyèl li sèlman — paske li rekonèt, jan BLUE-L2-024 te diskite sou sistèm, yon biznis ki depann nèt sou pwòp mak pèsonèl li fè fas ak yon limit kwasans ki sanble ak youn ki depann nèt sou travay pèsonèl li.
+
+**4. Egzamen pratik**
+1. Kisa yon mak pèsonèl an jeneral vle di?
+   a) Idantite ak pèsepsyon yon antite biznis, endepandan de nenpòt moun
+   b) Repitasyon, ekspètiz, ak idantite piblik pwòp yon moun
+   c) Yon kalite kredi taks
+   d) Yon estrateji pri espesifik
+
+2. Ki risk ki ka parèt lè yon mak biznis mare sere ak mak pèsonèl yon sèl moun?
+   a) Pa gen okenn risk nan aranjman sa a
+   b) Biznis lan ka fè fas ak yon vrè risk si moun sa a vin pa disponib oswa si repitasyon pèsonèl li domaje pou rezon ki pa gen rapò
+   c) Aranjman sa a garanti yon estabilite biznis pèmanan
+   d) Mak pèsonèl ak mak biznis pa gen okenn rapò youn ak lòt
+
+3. Vrè oswa Fo: Yon biznis pa ta dwe janm bati okenn koneksyon ant mak pèsonèl yon moun ak mak biznis lan, nan okenn sikonstans.
+
+4. Poukisa mèt biznis la te kòmanse bati yon mak biznis ki pi endepandan pandan biznis li t ap grandi?
+   a) Li te vle elimine nèt nenpòt benefis mak pèsonèl li te bay
+   b) Li te rekonèt, jan BLUE-L2-024 di, depann twòp sou mak pèsonèl li te kreye yon limit kwasans ki sanble ak depann twòp sou travay pèsonèl li
+   c) Mak pèsonèl ak mak biznis pa gen okenn rapò ak kwasans biznis
+   d) Li pa t enterese nan kwasans alontèm biznis li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon mak pèsonèl an jeneral vle di repitasyon, ekspètiz, ak idantite piblik pwòp yon moun.
+2. Yon biznis ki depann twòp sou mak pèsonèl yon sèl moun ka fè fas ak yon vrè risk si moun sa a vin pa disponib oswa si repitasyon li domaje.
+3. Mak pèsonèl ak mak biznis ka konekte, sitou nan biznis ki nan premye etap oswa biznis sèvis, menm si depann twòp gen risk.
+4. Chanjman mèt biznis la vè yon konstriksyon mak endepandan te trete yon fason apwopriye limit kwasans depandans sou mak pèsonèl li te kreye.
+
+**7. Pwen kle yo**
+- Yon mak pèsonèl se repitasyon ak idantite pwòp yon moun; yon mak biznis se idantite antite biznis lan li menm.
+- De sa yo ka konekte sere, sitou nan biznis ki pi piti oswa biznis sèvis, men depann twòp gen vrè risk.
+- Sa konekte dirèkteman ak diskisyon BLUE-L2-024 la sou sistèm ak delegasyon, akoz limit kwasans ki sanble a.
+- Bati espre eleman mak biznis endepandan ka trete risk depandans espesifik sa a avèk tan.
+
+===== ORANGE-L2-047
+TITLE: Erè maketing komen ak poukisa yo rive
+SUMMARY: Erè komen yo – kouri dèyè chif pou fè bèl, gaye resous twò mens, neglije retansyon, ak taktik manipilasyon – soti sitou nan mete siyal imedya e vizib anvan yon disiplin ki baze sou prèv.
+## ORANGE-L2-047
+### Erè maketing komen ak poukisa yo rive
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye plizyè erè maketing komen.
+- Konekte chak erè ak leson espesifik anvan yo nan nivo sa a.
+- Ranfòse estrikti akimilatif nivo sa a, sa ki raple leson sou erè nan lòt koulè yo.
+
+**2. Kontni prensipal**
+Lè l raple leson sou erè nan RED-L2, WHITE-L2, BLUE-L2, GREEN-L2, ak GOLD-L2, leson sa a revize erè maketing komen, chak youn konekte ak konsèp nou te deja kouvri. Kouri dèyè chif pou fè bèl olye rezilta biznis ki gen sans (Leson 38) souvan soti nan mete chif ki fasil pou mezire e ki sanble enpresyonan anvan yon vrè konpreyansyon sou CAC, LTV, oswa konvèsyon. Gaye resous maketing mens sou chak chanèl ki disponib (Leson 18) souvan soti nan krent pou w rate yon platfòm espesifik olye yon chwa chanèl ki baze sou prèv (Leson 21). Konsantre sèlman sou akizisyon pandan w neglije retansyon (Leson 33) souvan soti nan lefèt ke akizisyon sanble pi vizib e pi imedya konpare ak retansyon ki mwens vizib e ki kontinyèl. Itilize taktik manipilasyon pou benefis kout tèm (Leson 28) souvan soti nan mete yon vant imedya anvan konfyans ak repitasyon alontèm nivo sa a te mete aksan sou yo tout lasyèl.
+
+Menm jan ak nan lòt koulè yo, yon modèl pi laj se nan rasin pifò nan erè sa yo: mete siyal imedya, vizib, oswa ki fasil pou mezire anvan disiplin ki fèt espre, ki baze sou prèv, e ki konsantre sou relasyon tout nivo sa a te bati vè li — egzakteman disiplin dènye leson nivo sa a yo (48–49) pral rasanble nan yon kad final e pratik.
+
+**3. Egzanp pratik**
+Pandan l ap reflechi sou pwòp premye erè maketing li, yon mèt biznis rekonèt li te konn mete kantite moun ki swiv li sou rezo sosyal anvan vrè chif konvèsyon, li te gaye resous limite li sou twòp platfòm san yon chwa ki baze sou prèv, e li te konsantre prèske sèlman sou akizisyon pandan efò retansyon li te rete dèyè. Lè l konekte chak erè ak konsèp espesifik nivo sa a ki ta anpeche l, li angaje l pou l aplike kad rasanble dènye leson nivo sa a yo pou lavni, olye l kontinye repete modèl komen sa yo ki byen dokimante.
+
+**4. Egzamen pratik**
+1. Kisa "kouri dèyè chif pou fè bèl" souvan soti ladan l, dapre leson sa a?
+   a) Yon atansyon pridan sou vrè konpreyansyon CAC, LTV, ak konvèsyon
+   b) Mete chif ki fasil pou mezire e ki sanble enpresyonan anvan yon vrè konpreyansyon sou rezilta biznis
+   c) Yon absans konplè tout chif
+   d) Twòp atansyon sou rezilta biznis ki gen sans
+
+2. Kisa ki souvan lakòz gaye resous maketing mens sou chak chanèl ki disponib?
+   a) Yon chwa chanèl ki baze sou prèv e ki koresponn ak odyans ak bidjè
+   b) Krent pou w rate yon platfòm espesifik, olye yon chwa ki fèt espre e ki baze sou prèv
+   c) Chwa chanèl pa gen okenn rapò ak separasyon resous maketing
+   d) Yon estrateji ki fèt espre e konsantre toujou pwodui modèl sa a
+
+3. Vrè oswa Fo: Leson sa a prezante konsèp totalman nouvo ki pa gen rapò ak rès ORANGE-L2.
+
+4. Ki modèl pi laj ki nan rasin pifò erè komen leson sa a diskite yo?
+   a) Yon disiplin ki fèt espre, ki baze sou prèv, e ki konsantre sou relasyon
+   b) Mete siyal imedya, vizib, oswa ki fasil pou mezire anvan yon disiplin ki fèt espre, ki baze sou prèv, e ki konsantre sou relasyon
+   c) Twòp prekosyon ak refi pou janm pran okenn aksyon maketing
+   d) Swiv pafètman chak kad nivo sa a diskite
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kouri dèyè chif pou fè bèl souvan soti nan mete chif ki fasil pou mezire e ki sanble enpresyonan anvan yon vrè konpreyansyon sou rezilta biznis.
+2. Gaye resous mens souvan soti nan krent pou w rate yon bagay olye yon chwa chanèl ki fèt espre e ki baze sou prèv.
+3. Leson sa a konekte espre ak konsèp nou te deja kouvri nan tout ORANGE-L2, sa ki ranfòse estrikti nivo a.
+4. Pifò erè soti nan mete siyal imedya e vizib anvan yon disiplin ki fèt espre, ki baze sou prèv, e ki konsantre sou relasyon.
+
+**7. Pwen kle yo**
+- Erè maketing komen yo gen ladan kouri dèyè chif pou fè bèl, gaye resous twò mens, neglije retansyon, ak taktik manipilasyon.
+- Chak erè konekte ak yon konsèp espesifik nou te deja kouvri pi bonè nan nivo sa a.
+- Leson sa a raple leson sou erè nan chak lòt koulè, sa ki ranfòse yon estrikti konsistan nan tout kourikoulòm nan.
+- Pifò erè gen menm rasin: mete siyal imedya e vizib anvan yon disiplin ki fèt espre e ki baze sou prèv.
+
+===== ORANGE-L2-048
+TITLE: Kilè pou anboche yon pwofesyonèl maketing kont fè l poukont ou
+SUMMARY: Plis konpleksite nan chanèl ak mank tan oswa ekspètiz pou fè tès ak mezi kòrèkteman fè èd pwofesyonèl vin gen plis valè – se yon espektròm, se pa yon règ fiks.
+## ORANGE-L2-048
+### Kilè pou anboche yon pwofesyonèl maketing kont fè l poukont ou
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Ranfòse tèm "biznis se yon espò an ekip" aplike espesyalman nan maketing.
+- Idantifye faktè jeneral ki sijere kilè èd maketing pwofesyonèl vin gen valè.
+- Aplike konsèp sa a nan yon senaryo ipotetik nan yon etap kwasans.
+
+**2. Kontni prensipal**
+Lè l raple tèm "biznis se yon espò an ekip" BLUE-L2-031 la ak diskisyon GREEN-L2-038 la sou lojisyèl kont pwofesyonèl, leson sa a trete kilè yon biznis ta ka benefisye de èd maketing pwofesyonèl olye l kontinye jere maketing totalman poukont li. Faktè jeneral ki sijere yon valè k ap ogmante nan gid pwofesyonèl yo gen ladan yon konpleksite k ap grandi atravè plizyè chanèl (sa ki raple diskisyon Leson 21 la sou chwa chanèl), tan oswa ekspètiz entèn ki pa sifi pou egzekite kòrèkteman tès ak mezi ki baze sou prèv (Leson 38–40) nivo sa a te mete aksan sou yo, ak rive nan yon etap kwasans kote efè potansyèl maketing sou revni jistifye yon ekspètiz espesyalize pi lwen pase sa yon mèt biznis ka devlope e kenbe pèsonèlman yon fason rezonab.
+
+Menm jan ak diskisyon paralèl nan lòt koulè yo, sa a se pa yon règ ki di èd pwofesyonèl toujou nesesè, ni ke yon mèt biznis pa ka jere maketing efikasman pèsonèlman, sitou nan premye etap yo ak bezwen ki pi senp; se yon espektròm kote konpleksite ak enpòtans k ap grandi an jeneral fè balans lan panche vè gid pwofesyonèl ki vo kou li, sa ki raple menm prensip espò an ekip yo aplike nan tout kourikoulòm sa a.
+
+**3. Egzanp pratik**
+Nan premye etap biznis li, yon mèt biznis jere pwòp maketing li ak konfyans, akoz senplisite relatif li ak vrè enterè li pou l aprann baz nivo sa a te kouvri yo. Pandan biznis li ap grandi e bezwen maketing li yo ap elaji atravè plizyè chanèl ak egzijans tès ak mezi ki vin pi sofistike, li rekonèt sitiyasyon li vin konplèks ase pou fè èd maketing espesyalize vin ladan l ta pwobableman vo kou li, sa ki raple tèm espò an ekip BLUE-L2-031 la, olye l kontinye etann pwòp tan ak ekspètiz limite li sou yon operasyon maketing ki vin pi konplèks.
+
+**4. Egzamen pratik**
+1. Ki faktè jeneral ki sijere yon valè k ap ogmante nan èd maketing pwofesyonèl, dapre leson sa a?
+   a) Yon sitiyasyon maketing pafètman senp ki pa chanje
+   b) Yon konpleksite k ap grandi atravè plizyè chanèl ak tan oswa ekspètiz ki pa sifi pou tès ak mezi ki baze sou prèv
+   c) Okenn konpleksite pa janm ogmante valè gid pwofesyonèl
+   d) Se sèlman biznis ki trè piti ki janm benefisye de gid pwofesyonèl
+
+2. Kijan leson sa a raple tèm "biznis se yon espò an ekip" BLUE-L2-031 la?
+   a) Li pa gen okenn koneksyon ak tèm sa a ditou
+   b) Li rekonèt konpleksite ak enpòtans k ap grandi ka fè balans lan panche vè gid pwofesyonèl ki vo kou li
+   c) Gid pwofesyonèl pa janm gen valè pou desizyon maketing
+   d) Maketing pa gen okenn rapò ak prensip espò an ekip la
+
+3. Vrè oswa Fo: Gid maketing pwofesyonèl toujou nesesè, kèlkeswa konpleksite sitiyasyon an oswa etap kwasans yon biznis.
+
+4. Poukisa mèt biznis la te konsidere fè èd maketing espesyalize vin ladan l pandan biznis li t ap grandi?
+   a) Sitiyasyon maketing li te rete egzakteman osi senp ke anvan
+   b) Konpleksite k ap grandi atravè plizyè chanèl ak egzijans tès li yo te ogmante valè gid pwofesyonèl
+   c) Èd maketing pwofesyonèl pa gen okenn rapò ak etap kwasans biznis
+   d) Li pa t enterese nan efikasite maketing li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon konpleksite k ap grandi atravè plizyè chanèl ak tan oswa ekspètiz ki pa sifi pou tès ki baze sou prèv ogmante valè gid pwofesyonèl.
+2. Leson sa a raple tèm BLUE-L2-031 la, li rekonèt konpleksite ak enpòtans k ap grandi fè balans lan panche vè gid pwofesyonèl ki vo kou li.
+3. Bon chwa a depann de konpleksite sitiyasyon espesifik biznis lan ak etap kwasans li, se pa yon règ inivèsèl.
+4. Konpleksite k ap grandi mèt biznis la te fè balans lan panche yon fason apwopriye vè konsidere èd maketing espesyalize.
+
+**7. Pwen kle yo**
+- Faktè jeneral ki favorize èd maketing pwofesyonèl gen ladan yon konpleksite chanèl k ap grandi ak tan ki pa sifi pou fè tès ak mezi kòrèkteman.
+- Sa raple tèm "biznis se yon espò an ekip" BLUE-L2-031 la ak diskisyon GREEN-L2-038 la sou lojisyèl kont pwofesyonèl.
+- Sa se yon espektròm, se pa yon règ fiks, ak balans lan k ap chanje pandan konpleksite ak enpòtans ap grandi.
+- Rekonèt kilè konpleksite merite gid pwofesyonèl se li menm yon konpetans Nivo 2 ki gen valè.
+
+===== ORANGE-L2-049
+TITLE: Bati yon kad desizyon pou maketing ak vant
+SUMMARY: Kad sa a rasanble ORANGE-L2 nan kesyon sou pozisyònman, odyans, chanèl, etik, chif ki gen sans, ak balans akizisyon/retansyon – yon abitid lespri, se pa yon lis pou koche mekanikman.
+## ORANGE-L2-049
+### Bati yon kad desizyon pou maketing ak vant
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Rasanble yon seri kesyon estriktire ki soti nan tout nivo sa a nan yon kad desizyon pou maketing ak vant.
+- Aplike kad sa a nan yon desizyon konplè ipotetik.
+- Esplike kijan kad sa a reprezante panse "pyès echèk" Nivo 2 a.
+
+**2. Kontni prensipal**
+Lè l raple kad desizyon nan chak koulè anvan yo, leson sa a rasanble ORANGE-L2 nan yon kad pratik, ki estriktire alantou kesyon ki soti nan leson anvan yo: Ki pozisyònman ak pwopozisyon valè inik mwen genyen, e èske desizyon espesifik sa a koresponn ak yo (Leson 7–9)? Kiyès ki odyans vize mwen ak pèsona mwen, e ki kote yo ye nan vwayaj kliyan yo (Leson 10–13)? Ki melanj chanèl ki koresponn ak odyans, bidjè, ak kalite biznis mwen (Leson 14–21, 42–43)? Èske desizyon sa a reflete yon enfliyans etik ak yon reprezantasyon onèt, oswa èske li riske manipilasyon oswa deklarasyon ki twonpe moun (Leson 28–31)? Kisa chif ki gen sans mwen yo — CAC, LTV, ROAS — vrèman montre, teste olye sipoze (Leson 4–6, 38–40)? E kijan desizyon sa a balanse akizisyon ak retansyon (Leson 33–37)?
+
+Menm jan ak kad lòt koulè yo, sa a se yon abitid lespri olye yon lis rijid pou koche: swiv espre efè yon desizyon maketing oswa vant atravè pozisyònman, odyans, chanèl, etik, chif, ak balans akizisyon/retansyon, olye w aji sou yon sèl taktik atiran oswa yon mòd chanèl poukont li.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere yon nouvo kanpay maketing enpòtan, yon mèt biznis pase espre atravè kad sa a: li konfime kanpay la koresponn ak pozisyònman ak UVP li te deja etabli, li verifye li vize vrè pèsona li nan etap vwayaj ki apwopriye a, li chwazi chanèl ki koresponn ak odyans ak bidjè li, li asire mesaj li reflete yon enfliyans onèt e etik olye presyon fabrike, li planifye pou mezire vrè chif olye chif pou fè bèl, e li konsidere kijan kanpay sa a anfòm nan balans akizisyon-retansyon pi laj li anvan l angaje bidjè li.
+
+**4. Egzamen pratik**
+1. Ki objektif kad desizyon pou maketing ak vant leson sa a prezante a?
+   a) Ranplase tout konsèy maketing pwofesyonèl
+   b) Bay yon abitid estriktire pou swiv efè yon desizyon atravè pozisyònman, odyans, chanèl, etik, chif, ak balans
+   c) Garanti yon rezilta kanpay espesifik
+   d) Elimine bezwen pou nenpòt lòt tès
+
+2. Kiyès nan sa yo ki fè pati kad la?
+   a) Pozisyònman/UVP, odyans/vwayaj, chanèl ki koresponn, etik, chif ki gen sans, ak balans akizisyon/retansyon
+   b) Sèlman konsepsyon vizyèl kanpay la
+   c) Sèlman kanpay yon konkiran kounye a
+   d) Sèlman gwosè bidjè kanpay la
+
+3. Vrè oswa Fo: Kad sa a fèt pou aplike mekanikman san yon vrè analiz desizyon espesifik la.
+
+4. Kisa mèt biznis la te evalye anvan l angaje l nan nouvo kanpay maketing li a?
+   a) Sèlman atrè vizyèl kanpay la
+   b) Ansanm jan l koresponn ak pozisyònman, jan l koresponn ak odyans/vwayaj, chwa chanèl, mesaj etik, vrè chif, ak balans akizisyon/retansyon
+   c) Anyen — li te avanse san okenn analiz
+   d) Sèlman preferans pèsonèl li
+
+**5. Kle repons yo**
+1. b  2. a  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kad sa a bati abitid pou swiv yon fason konplè efè yon desizyon maketing oswa vant atravè plizyè pyès nivo sa a.
+2. Kad la kouvri pozisyònman/UVP, odyans/vwayaj, chanèl ki koresponn, etik, chif ki gen sans, ak balans akizisyon/retansyon.
+3. Kad la fèt pou pouse yon vrè analiz ki espesifik pou sitiyasyon an, se pa koche bwat mekanikman.
+4. Evalyasyon sistematik mèt biznis la atravè plizyè pyès te ranplase yon desizyon ki ta baze sèlman sou yon sèl eleman atiran.
+
+**7. Pwen kle yo**
+- Leson sa a rasanble ORANGE-L2 nan yon kad pratik ki kouvri pozisyònman, odyans, chanèl, etik, chif, ak balans.
+- Kad la se yon abitid lespri, sa ki raple estrikti kad Nivo 2 chak lòt koulè.
+- Aplike l yon fason sistematik ede evite aji sou yon sèl taktik atiran oswa yon mòd poukont li.
+- Kad sa a reprezante panse "pyès echèk" konplè tout nivo sa a te bati vè li.
+
+===== ORANGE-L2-050
+TITLE: Gade pi devan: estrateji kwasans entegre (pon vè Nivo 3)
+SUMMARY: ORANGE-L2 te pase soti nan antonwa ak ekonomi akizisyon rive nan branding, chanèl, etik, retansyon, ak mezi, jiska yon kad desizyon konplè – ORANGE-L3 pral entegre yo nan estrateji kwasans.
+## ORANGE-L2-050
+### Gade pi devan: estrateji kwasans entegre (pon vè Nivo 3)
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Rezime pwogresyon jeneral ORANGE-L2 soti nan Leson 1 rive nan Leson 49.
+- Esplike chanjman jeneral soti nan taktik maketing endividyèl rive nan estrateji kwasans entegre.
+- Bay yon apèsi sou direksyon ORANGE-L3.
+
+**2. Kontni prensipal**
+ORANGE-L2 te kòmanse ak premye entèraksyon ant pyès yo nan yon sèl desizyon maketing, apre sa li te bati pi lwen atravè baz antonwa ak ekonomi akizisyon (Leson 2–6), branding ak pozisyònman (Leson 7–13), chanèl maketing (Leson 14–21), sikoloji pri (Leson 22–23), pwosesis vant lan (Leson 24–27), etik ak konfyans (Leson 28–32), retansyon ak valè kliyan (Leson 33–37), mezi (Leson 38–40), bidjè ak konsiderasyon selon kalite biznis (Leson 41–43), diferansyasyon konkirans (Leson 44–46), e finalman erè komen, gid pwofesyonèl, ak kad konplè (Leson 47–49).
+
+Dènye leson sa a bay yon apèsi sou direksyon ORANGE-L3: soti nan konprann taktik maketing ak vant endividyèl (Nivo 2) rive nan yon estrateji kwasans entegre ki vin pi reyalis — sa ki raple pwogresyon pi laj kourikoulòm sa a, ORANGE-L3 pral pwobableman eksplore kijan maketing, vant, ak estrateji kwasans biznis (sa ki raple etid ka BLUE-L3 la sou achte yon biznis) entegre ansanm nan senaryo ki vin pi konplèks e pi reyalis, sa ki fè elèv la pase soti nan "kijan pyès yo kominike" (Nivo 2) rive nan "itilize konbinezon nan desizyon ki vin pi reyalis" (Nivo 3).
+
+**3. Egzanp pratik**
+Pandan l ap reflechi sou tout sa ORANGE-L2 te kouvri, yon elèv revize pwòp pwogrè li: li te kòmanse san l pa t ka fè diferans ant yon antonwa maketing ak yon antonwa vant, e kounye a li genyen yon kad konplè ki entegre pozisyònman, rechèch sou odyans, chwa chanèl, pèsyazyon etik, ak mezi ki gen sans. Elèv sa a rekonèt ORANGE-L3 pral bati sou fondasyon sa a lè l konbine taktik endividyèl sa yo nan yon estrateji kwasans ki pi konplèks e entegre, menm jan Nivo 3 chak lòt koulè bati sou pwòp fondasyon Nivo 2 li.
+
+**4. Egzamen pratik**
+1. Ki prensipal objektif ORANGE-L2, dapre rezime leson sa a?
+   a) Sèlman lalwa komès entènasyonal avanse
+   b) Baz maketing ak vant, etik, mezi, ak kad entegre
+   c) Sèlman devlopman imobilye
+   d) Sèlman konstriksyon pòtfolyo envestisman
+
+2. Ki chanjman ORANGE-L3 prezante an apèsi, dapre leson sa a?
+   a) Abandone tout sa nou te aprann nan ORANGE-L2
+   b) Avanse vè yon estrateji kwasans entegre ki vin pi reyalis ki konbine maketing, vant, ak kwasans biznis
+   c) Retounen sèlman nan definisyon Nivo 1
+   d) Konsantre sèlman sou yon sèl chanèl maketing
+
+3. Vrè oswa Fo: ORANGE-L2 fini diskisyon sou maketing ak vant nèt, san okenn koneksyon ak nivo k ap vini yo.
+
+4. Sou kisa ORANGE-L3 pral bati dirèkteman nan tèm leson sa a?
+   a) Anyen ki gen rapò ak ORANGE-L2
+   b) Fondasyon ORANGE-L2 a, aplike nan yon estrateji kwasans ki pi konplèks e entegre, ki konekte ak BLUE-L3
+   c) Sèlman teknik sikoloji pri
+   d) Sèlman chwa platfòm rezo sosyal
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Prensipal objektif ORANGE-L2 te kouvri baz maketing ak vant, etik, mezi, ak kad entegre.
+2. Yo prezante ORANGE-L3 an apèsi kòm yon avansman vè yon estrateji kwasans entegre ki vin pi reyalis.
+3. Leson sa a fè pon klèman vè devlopman kontinyèl tèm maketing ak vant sa yo nan Nivo 3.
+4. Yo prezante ORANGE-L3 an apèsi kòm yon nivo ki bati dirèkteman sou fondasyon ORANGE-L2 a, ki konekte tou ak apèsi BLUE-L3 la.
+
+**7. Pwen kle yo**
+- ORANGE-L2 te pwogrese soti nan baz antonwa ak akizisyon atravè branding, chanèl, etik, retansyon, ak mezi.
+- Nivo a te fini nan yon kad desizyon konplè pou maketing ak vant ki raple estrikti Nivo 2 chak lòt koulè.
+- ORANGE-L3 pral bati sou fondasyon sa a, li pral entegre maketing ak vant nan yon estrateji kwasans biznis pi laj.
+- Pwogresyon sa a reflete kad pyès echèk jeneral kourikoulòm nan soti nan Nivo 1 rive nan Nivo 5.
+
+*FEN ORANGE-L2 — TOUT 50 LESON YO FINI (ORANGE-L2-001 rive nan ORANGE-L2-050).*
