@@ -1,0 +1,99 @@
+===== ORANGE-L3-011
+TITLE: Poukisa bouch-a-zòrèy se chanèl ki pi bon mache e ki pi difisil pou kontwole
+SUMMARY: Aprann poukisa maketing bouch-a-zòrèy natirèl pa gen okenn kou dirèk pou jwenn kliyan men li reziste tou kalite kontwòl ak previzyon lòt chanèl peye pèmèt.
+# ORANGE-L3-011: Poukisa bouch-a-zòrèy se chanèl ki pi bon mache e ki pi difisil pou kontwole
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa bouch-a-zòrèy an reyalite pa gen okenn kou dirèk pou jwenn kliyan
+- Esplike poukisa menm chanèl sa a reziste previzyon ak kontwòl lòt chanèl pèmèt
+- Konekte konsèp sa a ak kad konpwomi risk-rannman yo kouvri nan tras GOLD kourikoulòm sa a
+
+## Kontni prensipal
+
+**Bouch-a-zòrèy** (word of mouth) — kliyan ki rekòmande yon biznis bay lòt moun san yon ankourajman yo peye — souvan se chanèl ki pi bon mache yon biznis genyen pou jwenn kliyan, paske li pa gen okenn depans medya dirèk. Men "poukisa" sa pa fè l otomatikman pi bon chanèl pou bati yon estrateji sou li: kontrèman ak piblisite peye, ou ka elaji, teste, e prevwa rezonabman (nan limit pwobabilite yo kouvri nan Leson 3), bouch-a-zòrèy vrèman difisil pou kontwole, prevwa, oswa elaji fè espre lè w bezwen l — li depann de satisfaksyon kliyan ak dinamik sosyal ki sitou deyò kontwòl dirèk biznis lan.
+
+Sa konekte ak kad risk-rannman yo kouvri nan tout tras GOLD la: bouch-a-zòrèy ofri yon "rannman" atiran (kou ba pou chak kliyan yo jwenn) men li vini ak yon vrè ensètitid ak mank kontwòl kòm risk espesifik li — yon biznis ki depann anpil de bouch-a-zòrèy pou kwasans ap fè yon pari sou yon chanèl li ka enfliyanse (atravè yon pwodui ak yon sèvis ekselan) men li pa ka kontwole dirèkteman ni elaji yon fason serye lè li bezwen kwasans sou yon kalandriye espesifik.
+
+Si biznis ou kounye a depann anpil de bouch-a-zòrèy, kisa ki ta rive plan kwasans ou si chanèl sa a senpleman ralanti pou rezon ki deyò kontwòl ou? Ki chanèl ou ka kontwole ou ta bezwen aktive pou konpanse?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis grandi sitou atravè rekòmandasyon bouch-a-zòrèy, li jwi kou ba pou jwenn kliyan ak yon gwo lwayote kliyan. [SIPOZISYON] Lè biznis lan bezwen rive nan yon objektif kwasans espesifik, ki gen yon dat limit, pou yon wonn ranmase lajan, li dekouvri ke li pa ka senpleman elaji bouch-a-zòrèy lè l bezwen jan li ta ka fè ak yon chanèl peye — chanèl ki pi bon mache li a se tou sa ki pi difisil pou kontwole a, sa ki fòse biznis lan envesti nan yon chanèl peye ki pi chè, men li ka kontwole pi dirèkteman, pou l respekte kalandriye espesifik li.
+
+## Egzamen pratik
+
+1. Poukisa bouch-a-zòrèy an reyalite pa gen okenn kou dirèk pou jwenn kliyan?
+2. Poukisa menm chanèl sa a reziste kalite kontwòl ak previzyon lòt chanèl pèmèt?
+3. Kijan sa konekte ak kad konpwomi risk-rannman yo kouvri nan tras GOLD la?
+
+## Kle repons yo
+
+1. Paske li pa mande okenn depans medya dirèk — kliyan yo rekòmande biznis lan san yon ankourajman yo peye.
+2. Paske li depann de satisfaksyon kliyan ak dinamik sosyal ki sitou deyò kontwòl dirèk biznis lan, kontrèman ak yon chanèl peye ou ka elaji fè espre.
+3. Bouch-a-zòrèy ofri yon "rannman" atiran ak kou ba men li gen yon vrè ensètitid ak mank kontwòl kòm "risk" espesifik li — sa ki reflete dirèkteman relasyon risk-rannman tras GOLD la aplike pou yon chanèl maketing.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se konpwomi santral leson an mete an evidans.
+3. Sa konekte leson an klèman ak kad risk-rannman tras GOLD la.
+
+## Pwen kle yo
+- Bouch-a-zòrèy anjeneral se chanèl ki pi bon mache pou jwenn kliyan, paske li pa mande okenn depans dirèk yo peye.
+- Menm chanèl sa a vrèman difisil pou kontwole, prevwa, oswa elaji lè w bezwen l, kontrèman ak chanèl peye.
+- Sa reprezante yon vrè konpwomi risk-rannman, ki sanble nan estrikti ak relasyon risk-rannman yo kouvri nan tout tras GOLD la.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou estrateji maketing.*
+
+===== ORANGE-L3-012
+TITLE: Poukisa chanèl maketing yo gen diferan pwofil risk-rannman
+SUMMARY: Aprann poukisa konpare chanèl maketing sèlman selon kou pou chak kliyan yo jwenn rate diferan risk chak chanèl pote, ak poukisa yon melanj chanèl divèsifye sanble ak divèsifikasyon yon pòtfèy.
+# ORANGE-L3-012: Poukisa chanèl maketing yo gen diferan pwofil risk-rannman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa diferan chanèl maketing gen pwofil risk ki diferan anpil, pa sèlman diferan kou
+- Konekte konsèp sa a ak prensip divèsifikasyon yo kouvri nan tras WHITE ak GOLD kourikoulòm sa a
+- Esplike poukisa konte nèt sou yon sèl chanèl konsantre risk, kèlkeswa jan li sanble efikas
+
+## Kontni prensipal
+
+Tras WHITE ak GOLD kourikoulòm sa a tou de kouvri divèsifikasyon kòm yon fason pou diminye depandans sou nenpòt sèl sous risk ki ka volatil. Men "poukisa" menm prensip sa a aplike dirèkteman pou yon melanj chanèl maketing: chak chanèl — rechèch peye, piblisite sou rezo sosyal, bouch-a-zòrèy (Leson 11), maketing kontni, patenarya — gen pwòp pwofil risk apa li, enkli sansiblite a chanjman algorit platfòm, konkirans k ap monte pou espas piblisite, oswa chanjman règlemantasyon ki afekte yon chanèl espesifik.
+
+Yon biznis ki konsantre jwenn kliyan nèt nan yon sèl chanèl, menm youn ki fè byen kounye a, ap pran yon risk konsantrasyon ki sanble dirèkteman ak kenbe yon sèl aksyon oswa yon sèl klas byen yo kouvri lòt kote nan kourikoulòm sa a — yon sèl chanjman politik yon platfòm, yon mizajou algorit, oswa yon ogmantasyon kou ka deranje pèfòmans chanèl sa a toudenkou e anpil, san okenn lòt chanèl ki pare pou absòbe enpak la.
+
+Si biznis ou kounye a jwenn pifò kliyan li nan yon sèl chanèl ki domine, kisa espesyalman ki ta ka deranje chanèl sa a, e konbyen vit ou ta ka monte yon altènativ yon fason ki gen sans si sa ta rive?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis jwenn gwo majorite kliyan li atravè yon sèl platfòm piblisite, li apresye kou ba li pou chak kliyan kounye a. [SIPOZISYON] Lè platfòm sa a chanje algorit li oswa estrikti pri li anpil, kou biznis lan pou jwenn kliyan monte anpil e volim lan bese anpil, san okenn lòt chanèl ki etabli, ki ase mi pou absòbe twou a — yon risk konsantrasyon ki sanble dirèkteman ak kenbe yon sèl klas byen, jan yo kouvri nan tras WHITE ak GOLD yo, yon melanj chanèl ki pi divèsifye ta ede diminye.
+
+## Egzamen pratik
+
+1. Poukisa diferan chanèl maketing gen pwofil risk ki diferan anpil, pa sèlman diferan kou?
+2. Kijan leson sa a konekte ak prensip divèsifikasyon yo kouvri nan tras WHITE ak GOLD yo?
+3. Ki risk yon biznis pran lè l konsantre jwenn kliyan nèt nan yon sèl chanèl, menm youn ki efikas?
+
+## Kle repons yo
+
+1. Paske chak chanèl gen pwòp vilnerabilite apa li — chanjman algorit platfòm, dinamik konkirans, oswa chanjman règlemantasyon ki espesifik pou chanèl sa a.
+2. Leson sa a aplike dirèkteman menm lojik divèsifikasyon an — gaye ekspozisyon ant sous ki pa tout chanje ansanm — pou chwazi chanèl maketing olye klas byen envestisman.
+3. Yon risk konsantrasyon ki sanble dirèkteman ak kenbe yon sèl aksyon oswa yon sèl klas byen — yon pètibasyon nan yon sèl chanèl sa a ka afekte jwenn kliyan tout biznis lan anpil e toudenkou, san anyen ki pare pou absòbe enpak la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike bezwen pou panse sou chanèl yo konsa.
+2. Sa konekte leson an klèman ak yon konsèp paralèl yo kouvri lòt kote nan kourikoulòm sa a.
+3. Sa ranfòse konsekans pratik, avètisman konsantrasyon chanèl la.
+
+## Pwen kle yo
+- Diferan chanèl maketing gen pwofil risk apa, pa sèlman diferan kou oswa efikasite.
+- Sa sanble dirèkteman ak prensip divèsifikasyon yo kouvri nan tras WHITE ak GOLD yo.
+- Konsantre jwenn kliyan nan yon sèl chanèl kreye yon risk konsantrasyon, menm si chanèl sa a fè byen kounye a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou estrateji maketing.*
