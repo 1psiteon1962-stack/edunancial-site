@@ -1,0 +1,281 @@
+===== GOLD-L2-001
+TITLE: Bati richès kòm yon disiplin: premye enteraksyon ant pyès yo
+SUMMARY: Yon sèl desizyon pou bati richès touche cash flow, taks, alokasyon, ak orizon tan an menm tan – e GOLD-L2 se koulè ki entegre desizyon tout lòt koulè yo nan yon estrateji ki koyeran.
+## GOLD-L2-001
+### Bati richès kòm yon disiplin: premye enteraksyon ant pyès yo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike kijan yon sèl desizyon pou bati richès touche plizyè pyès an menm tan, sa ki raple premye leson chak koulè anvan yo.
+- Idantifye omwen twa fason desizyon pou bati richès gen enteraksyon ak lòt domèn finansye.
+- Aplike panse Nivo 2 "ki lòt bagay mouvman sa a afekte" nan yon senaryo pou bati richès.
+
+**2. Kontni prensipal**
+Nivo 1 te prezante konsèp endividyèl pou bati richès — valè nèt, byen, dèt, epay — kòm pyès separe. Nivo 2 kòmanse, menm jan li te fè nan chak koulè, lè l obsève sa k rive rès tablo a lè w pran yon desizyon pou bati richès.
+
+Konsidere deside ogmante kontribisyon retrèt chak mwa. Mouvman sa a pou kont li touche plizyè pyès an menm tan: cash flow (mwens salè lakay disponib pou depans kounye a, sa ki raple diskisyon GREEN-L2-002 sou brit kont nèt), taks (petèt diminye revni aktyèl ki sijè a taks si w itilize yon kont tradisyonèl, sa ki raple GREEN-L2-025), alokasyon byen (envestisman espesifik ou chwazi anndan kont sa a, sa ki raple WHITE-L2-016), ak orizon tan (plizyè deseni anvan ou bezwen lajan an, sa ki raple WHITE-L2-027). Okenn nan efè sa yo pa otomatikman bon oswa move — se pyès ki kounye a gen enteraksyon yon lòt jan.
+
+GOLD-L2 chita nan yon pozisyon inik nan pwogram sa a: se koulè ki pi klèman sou entegre desizyon atravè chak lòt koulè nan yon estrateji pou bati richès ki koyeran, olye l konsantre sou yon sèl klas byen oswa yon sèl domèn. Leson sa a louvri lè l nonmen wòl entegrasyon sa a dirèkteman.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere ogmante to kontribisyon retrèt li, Devon (sa ki raple GREEN-L2-003) trase pyès yo anvan l aji: salè lakay li kounye a ta diminye yon ti kras, revni li ki sijè a taks ta diminye si l itilize yon kont tradisyonèl (sa ki gen enteraksyon ak diskisyon sou to majinal li nan GREEN-L2), alokasyon byen jeneral li ta bezwen revize pou asire kontribisyon anplis la koresponn ak melanj li vize a (sa ki raple WHITE-L2-016), e orizon tan li ki deja long sipòte yon alokasyon ki pi agresif pou lajan espesifik sa yo. Olye l trete sa kòm yon desizyon senp "ekonomize plis", Devon rekonèt li touche cash flow, taks, alokasyon, ak orizon tan an menm tan.
+
+**4. Egzamen pratik**
+1. Kilès nan sa yo ki PA youn nan pyès yon desizyon pou bati richès tankou ogmante kontribisyon retrèt touche, dapre leson sa a?
+   a) Cash flow
+   b) Taks
+   c) Destinasyon vakans ou pi renmen
+   d) Alokasyon byen
+
+2. Vrè oswa Fo: GOLD-L2 konsantre sou yon sèl klas byen izole, kontrèman ak lòt koulè nan pwogram sa a.
+
+3. Poukisa Devon te konsidere alokasyon byen jeneral li anvan l ogmante kontribisyon li?
+   a) Alokasyon pa gen okenn rapò ak kontribisyon retrèt
+   b) Kontribisyon anplis la te bezwen koresponn ak melanj li vize a, sa ki raple diskisyon pakou WHITE la sou alokasyon
+   c) Li pa t enterese nan orizon tan li
+   d) Kontribisyon retrèt pa janm afekte taks
+
+4. Ki konpetans prensipal Nivo 2 leson sa a bati, sa ki raple premye leson chak koulè anvan yo?
+   a) Aprann yon sèl fòmil envestisman pa kè
+   b) Mande "ki lòt bagay mouvman sa a afekte?" anvan w aji
+   c) Evite tout desizyon pou bati richès nèt
+   d) Inyore efè sou cash flow
+
+**5. Kle repons yo**
+1. c  2. Fo  3. b  4. b
+
+**6. Repons ak eksplikasyon**
+1. Destinasyon vakans ou pi renmen pa gen okenn rapò finansye ak desizyon sa a; twa lòt yo se pyès ki gen enteraksyon dirèkteman.
+2. Yo pozisyone GOLD-L2 klèman kòm koulè entegrasyon an, ki konbine desizyon atravè chak lòt koulè nan yon estrateji pou bati richès ki koyeran.
+3. Kontribisyon anplis Devon te bezwen koresponn ak alokasyon jeneral li vize a, sa ki raple dirèkteman diskisyon pakou WHITE la.
+4. Leson sa a ranfòse menm abitid panse ak plizyè pyès nou te bati atravè Nivo 2 chak koulè anvan yo.
+
+**7. Pwen kle yo**
+- Yon desizyon pou bati richès, tankou ogmante kontribisyon retrèt, touche cash flow, taks, alokasyon, ak orizon tan an menm tan.
+- GOLD-L2 okipe yon pozisyon inik, entegrasyon, nan pwogram sa a, li konbine konsèp atravè chak lòt koulè.
+- Okenn nan efè sa yo pa otomatikman bon oswa move — se pyès ki kounye a gen enteraksyon yon lòt jan.
+- Leson sa a ranfòse menm abitid panse ak plizyè pyès nou te bati atravè Nivo 2 chak koulè anvan yo.
+
+===== GOLD-L2-002
+TITLE: Valè nèt: tablo nòt ki dèyè chak desizyon pou bati richès
+SUMMARY: Valè nèt se total byen mwens total dèt – li kaptire efè nèt akimile tout desizyon pou bati richès, kidonk se li menm, se pa revni, ki tablo nòt prensipal la.
+## GOLD-L2-002
+### Valè nèt: tablo nòt ki dèyè chak desizyon pou bati richès
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon valè nèt nan yon nivo konseptyèl.
+- Esplike poukisa valè nèt, se pa revni, ki tablo nòt prensipal pou bati richès.
+- Kalkile yon valè nèt senp lè yo ba ou chif debaz sou byen ak dèt.
+
+**2. Kontni prensipal**
+Yo kalkile valè nèt (net worth) kòm total byen mwens total dèt — yon sèl chif ki rezime pozisyon finansye jeneral yon moun nan yon moman espesifik. Sa diferan fondamantalman de revni (n ap devlope sa plis nan Leson 4), ki mezire lajan k ap antre pandan yon peryòd, se pa valè akimile sa yon moun vrèman posede apre w retire sa l dwe.
+
+Valè nèt sèvi kòm tablo nòt santral nivo sa a egzakteman paske li kaptire efè nèt chak desizyon pou bati richès nou kouvri atravè pwogram sa a: yon ipotèk ou peye desann (RED-L2), yon biznis ou bati ak vrè valè ekite (BLUE-L2), yon pòtfolyo envestisman ki grandi avèk tan (WHITE-L2), ak dèt ou evite oswa ou peye (diskisyon GREEN-L2 sou dèt) tout parèt nan yon sèl chif sa a. Swiv valè nèt avèk tan, olye konsantre sou yon sèl byen oswa yon sèl chif revni izole, bay pòtre jeneral ki pi klè sou si w vrèman ap bati richès.
+
+**3. Egzanp pratik**
+Lè l ap kalkile valè nèt li pou premye fwa, Renata (sa ki raple RED-L2-036) fè lis byen li yo — ekite kay li, balans kont retrèt li, ak epay li — e li retire dèt li yo — balans ipotèk ki rete, prè machin, ak balans kat kredi — pou l rive nan yon sèl chif valè nèt. Li reyalize chif sa a, se pa revni li sèlman, ki ba l pi klè mezi pou vrè pozisyon finansye li, paske de moun ki gen revni idantik te ka gen chif valè nèt trè diferan selon byen ak dèt yo akimile.
+
+**4. Egzamen pratik**
+1. Kijan yo an jeneral kalkile valè nèt?
+   a) Total revni mwens total depans
+   b) Total byen mwens total dèt
+   c) Sèlman valè kay yon moun
+   d) Yon kalite kredi taks
+
+2. Poukisa leson sa a idantifye valè nèt, olye revni, kòm tablo nòt prensipal pou bati richès?
+   a) Revni ak valè nèt se konsèp idantik
+   b) Valè nèt kaptire efè nèt akimile chak desizyon pou bati richès, se pa sèlman lajan k ap antre
+   c) Valè nèt pa gen okenn rapò ak desizyon pou bati richès
+   d) Revni toujou egal valè nèt
+
+3. Vrè oswa Fo: De moun ki gen revni idantik toujou gen valè nèt idantik.
+
+4. Kisa kalkil valè nèt Renata te revele ke revni li sèlman pa t ap montre?
+   a) Anyen ki diferan de chif revni li
+   b) Vrè pozisyon finansye akimile li, ki reflete byen ak dèt li ansanm
+   c) Sèlman abitid depans li chak mwa
+   d) Revni total patwon li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yo kalkile valè nèt kòm total byen mwens total dèt.
+2. Valè nèt kaptire efè nèt akimile desizyon pou bati richès, kontrèman ak revni, ki mezire koule pandan yon peryòd.
+3. Revni idantik ka bay chif valè nèt trè diferan selon byen ak dèt yo akimile.
+4. Kalkil valè nèt Renata te revele vrè pozisyon finansye akimile li, apa de revni li sèlman.
+
+**7. Pwen kle yo**
+- Yo kalkile valè nèt kòm total byen mwens total dèt, yon foto nan yon moman espesifik.
+- Valè nèt, se pa revni, ki sèvi kòm tablo nòt santral nivo sa a pou bati richès.
+- Valè nèt kaptire efè nèt akimile desizyon atravè chak koulè nan pwogram sa a.
+- De moun ki gen revni idantik ka gen valè nèt trè diferan, selon byen ak dèt yo akimile.
+
+===== GOLD-L2-003
+TITLE: Byen kont dèt: yon gade pi pwofon sou sa ki bati richès
+SUMMARY: Byen se sa ou posede, dèt se sa ou dwe – e pami byen yo, sa ki pwodui revni ka akselere richès lè w reenvesti cash flow yo, alòske lòt yo rete gen valè san efè konpoze sa a.
+## GOLD-L2-003
+### Byen kont dèt: yon gade pi pwofon sou sa ki bati richès
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant byen ak dèt nan yon nivo konseptyèl.
+- Esplike diferans jeneral ant byen ki pwodui revni ak byen ki pa pwodui revni.
+- Aplike diferans sa a nan yon senaryo valè nèt pèsonèl.
+
+**2. Kontni prensipal**
+Lè l bati sou Leson 2, leson sa a egzamine byen ak dèt pi pre. Yon byen (asset) se an jeneral yon bagay ki gen valè yon moun posede; yon dèt (liability) se an jeneral yon bagay yon moun dwe. Pami byen yo, gen yon lòt diferans ki itil: kèk byen pwodui revni oswa cash flow k ap kontinye (yon pwopriyete pou lwe, RED-L2-006; aksyon ki peye dividann, WHITE-L2-021; yon biznis ki fè benefis, BLUE-L2), alòske lòt yo pa pwodui revni men yo ka toujou kenbe oswa ogmante valè (yon kay prensipal ou pa lwe, machin pèsonèl, pifò byen pèsonèl).
+
+Diferans sa a enpòtan pou estrateji pou bati richès: byen ki pwodui revni ka akselere konstriksyon richès lè yo pwodui cash flow ou ka reenvesti li menm (sa ki raple diskisyon WHITE-L2-022 sou reenvesti dividann), alòske byen ki pa pwodui revni, menm si yo vrèman fè pati valè nèt, pa bay menm efè konpoze e ki ranfòse tèt li a. Sa pa fè byen ki pa pwodui revni pa enpòtan — yon kay prensipal bay vrè valè ak estabilite — men rekonèt diferans lan ede fè klè ki byen k ap travay aktivman pou bati plis richès kont ki byen ou tou senpleman kenbe.
+
+**3. Egzanp pratik**
+Lè l ap revize pwòp lis byen li, Renata (nan Leson 2) klase kay prensipal li ak machin pèsonèl li kòm byen ki gen valè men ki pa pwodui revni, alòske pwopriyete pou lwe li ak pòtfolyo envestisman li ki peye dividann se byen ki pwodui revni k ap pwodui cash flow aktivman li ka reenvesti. Rekonèt diferans sa a ede l konprann akselerasyon konstriksyon richès li soti espesyalman nan byen li ki pwodui revni, menm si kay prensipal li rete yon pati ki vrèman gen valè e ki enpòtan nan valè nèt jeneral li.
+
+**4. Egzamen pratik**
+1. Kisa yon byen ye, nan yon nivo konseptyèl?
+   a) Yon bagay yon moun dwe
+   b) Yon bagay ki gen valè yon moun posede
+   c) Yon kalite deklarasyon taks
+   d) Yon pwogram gouvènman
+
+2. Kisa ki fè diferans ant yon byen ki pwodui revni ak youn ki pa pwodui revni?
+   a) Pa gen okenn diferans ki gen enpòtans
+   b) Yon byen ki pwodui revni bay cash flow k ap kontinye ou ka reenvesti; yon byen ki pa pwodui revni pa fè sa
+   c) Se sèlman byen ki pa pwodui revni ki gen vrè valè
+   d) Byen ki pwodui revni pa janm fè pati valè nèt
+
+3. Vrè oswa Fo: Yon kay prensipal ki pa pwodui revni lwaye pa gen okenn enpòtans ditou pou valè nèt jeneral yon moun.
+
+4. Poukisa akselerasyon konstriksyon richès Renata te soti espesyalman nan pwopriyete pou lwe li ak pòtfolyo envestisman li?
+   a) Kay prensipal li te bay plis akselerasyon
+   b) Se te byen li ki pwodui revni, ki bay cash flow li te ka reenvesti, kontrèman ak byen li ki pa pwodui revni
+   c) Tout byen li yo te bay menm akselerasyon
+   d) Li pa t gen okenn byen ki pwodui revni ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon byen se an jeneral yon bagay ki gen valè yon moun posede.
+2. Yon byen ki pwodui revni bay cash flow k ap kontinye ou ka reenvesti, kontrèman ak yon byen ki pa pwodui revni.
+3. Yon byen ki pa pwodui revni tankou yon kay prensipal rete yon pati ki vrèman gen valè e ki enpòtan nan valè nèt jeneral.
+4. Byen Renata ki pwodui revni yo te bay espesyalman cash flow li te ka reenvesti, sa ki te akselere konstriksyon richès li pi lwen pase byen li ki pa pwodui revni.
+
+**7. Pwen kle yo**
+- Yon byen se yon bagay ki gen valè ou posede; yon dèt se yon bagay ou dwe.
+- Byen ki pwodui revni bay cash flow k ap kontinye ou ka reenvesti, sa ki akselere konstriksyon richès.
+- Byen ki pa pwodui revni rete pati ki vrèman gen valè nan valè nèt, san menm efè konpoze sa a.
+- Rekonèt diferans sa a fè klè ki byen k ap travay aktivman pou bati plis richès.
+
+===== GOLD-L2-004
+TITLE: Revni kont richès: poukisa moun ki touche anpil pa toujou rich
+SUMMARY: Revni mezire lajan ou touche pandan yon peryòd; richès mezire valè nèt akimile – yon gwo revni pa otomatikman bay gwo richès si depans yo manje l prèske nèt.
+## GOLD-L2-004
+### Revni kont richès: poukisa moun ki touche anpil pa toujou rich
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans dirèkteman ant revni ak richès.
+- Esplike poukisa yon gwo revni pa otomatikman bay yon gwo valè nèt.
+- Aplike diferans sa a nan yon senaryo konparatif.
+
+**2. Kontni prensipal**
+Lè l bati dirèkteman sou diskisyon Leson 2 sou valè nèt, leson sa a trete yon konfizyon komen ki gen gwo konsekans: revni (lajan ou touche pandan yon peryòd) ak richès (valè nèt akimile) gen rapò men yo diferan, e yon gwo revni pa otomatikman bay yon gwo richès. Yon moun ki touche anpil e ki depanse pifò oswa tout revni li — sa ki raple apèsi GREEN-L2-027 sou enflasyon fason w viv, n ap devlope sa plis nan Leson 27 — ka akimile relativman ti kras valè nèt avèk tan, alòske yon moun ki touche yon fason pi modès e ki ekonomize e envesti yon pòsyon enpòtan nan revni li yon fason konsistan ka akimile anpil richès sou menm peryòd la.
+
+Diferans sa a santral pou tout fason nivo sa a prezante bagay yo: GOLD-L2 pa sou maksimize revni (yon sijè nou touche lòt kote nan pwogram sa a), men sou diferans ant revni ak depans (n ap devlope sa nan Leson 5) ak sa k rive diferans sa a — si w depanse l, ekonomize l, oswa envesti l — se sa ki vrèman detèmine akimilasyon richès alontèm.
+
+**3. Egzanp pratik**
+Lè l ap konpare de kòlèg ki gen revni ki diferan anpil, yon elèv obsève moun ki touche plis la, ki depanse prèske tout revni li sou yon fason viv ki laj, te akimile relativman ti kras valè nèt sou yon deseni, alòske moun ki touche yon fason pi modès la, ki te ekonomize e envesti yon pòsyon enpòtan nan revni li yon fason konsistan pandan menm deseni sa a, te akimile anpil plis valè nèt malgre revni li ki pi ba. Konparezon sa a ilistre dirèkteman poukisa konsantrasyon nivo sa a chita sou diferans ant revni ak depans, se pa revni sèlman.
+
+**4. Egzamen pratik**
+1. Ki rapò jeneral ant revni ak richès, dapre leson sa a?
+   a) Se konsèp idantik
+   b) Yo gen rapò men yo diferan — revni mezire lajan ou touche, richès mezire valè nèt akimile
+   c) Gwo revni toujou garanti gwo richès
+   d) Revni pa gen okenn rapò ak richès ditou
+
+2. Poukisa yon moun ki touche anpil ta ka akimile relativman ti kras valè nèt avèk tan?
+   a) Moun ki touche anpil toujou akimile plis richès otomatikman
+   b) Depanse pifò oswa tout revni li kite ti kras diferans disponib pou ekonomize oswa envesti
+   c) Revni ak depans pa gen okenn rapò ak valè nèt
+   d) Sa pa janm vrèman rive
+
+3. Vrè oswa Fo: Konsantrasyon santral nivo sa a se sou maksimize revni sèlman, olye diferans ant revni ak depans.
+
+4. Kisa konparezon ant de kòlèg yo te ilistre?
+   a) Revni sèlman detèmine valè nèt
+   b) Diferans ant revni ak depans, se pa revni sèlman, ki pouse akimilasyon richès alontèm
+   c) Moun ki touche plis la toujou akimile plis richès
+   d) Abitid depans pa gen okenn efè sou valè nèt
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Revni ak richès gen rapò men yo diferan — revni mezire sa ou touche pandan yon peryòd, richès mezire valè nèt akimile.
+2. Yon moun ki touche anpil e ki depanse pifò oswa tout revni li kite ti kras diferans disponib pou ekonomize oswa envesti, sa ki limite akimilasyon richès.
+3. Konsantrasyon santral nivo sa a se diferans ant revni ak depans, se pa maksimize revni sèlman.
+4. Konparezon an te ilistre diferans ant revni ak depans, se pa revni sèlman, ki te pouse pi gwo akimilasyon richès moun ki touche yon fason pi modès la.
+
+**7. Pwen kle yo**
+- Revni mezire lajan ou touche pandan yon peryòd; richès mezire valè nèt akimile.
+- Yon gwo revni pa otomatikman bay yon gwo richès, sitou si depans yo manje pifò oswa tout li.
+- Konsantrasyon santral nivo sa a se diferans ant revni ak depans, n ap devlope sa plis nan Leson 5.
+- Yon moun ki touche yon fason pi modès e ki ekonomize e envesti yon fason konsistan ka akimile plis pase yon moun ki touche plis e ki pa fè sa.
+
+===== GOLD-L2-005
+TITLE: Ekwasyon pou bati richès: revni, depans, ak diferans ant yo
+SUMMARY: Diferans ant revni ak depans, envesti yon fason konsistan avèk tan, pouse richès alontèm – de levye yo se ogmante revni ak diminye depans, e diferans lan dwe envesti, se pa kite l dòmi.
+## GOLD-L2-005
+### Ekwasyon pou bati richès: revni, depans, ak diferans ant yo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike ekwasyon debaz pou bati richès nan yon nivo konseptyèl.
+- Idantifye de levye jeneral pou elaji diferans ant revni ak depans.
+- Aplike ekwasyon sa a nan yon senaryo ipotetik senp.
+
+**2. Kontni prensipal**
+Lè l bati dirèkteman sou Leson 4, leson sa a fòmalize ekwasyon debaz pou bati richès: diferans ant revni ak depans, envesti yon fason konsistan avèk tan, pouse akimilasyon richès alontèm. Gen sèlman de levye jeneral pou elaji diferans sa a: ogmante revni (atravè kwasans nan karyè, yon travay sou kote ki raple GREEN-L2-014, oswa posede yon biznis ki raple BLUE-L2) oswa diminye depans (atravè yon bidjè ki fèt espre, sa ki raple diskisyon GREEN-L2-015 sou 50/30/20, ak evite enflasyon fason w viv, n ap devlope sa plis nan Leson 27).
+
+Okenn nan levye yo pa pi bon pa nati, e pifò estrateji efikas pou bati richès itilize tou de an menm tan — ogmante revni pandan w kenbe kwasans depans yo espre pi dousman pase kwasans revni, sa ki elaji diferans lan nan tou de direksyon an menm tan. Sa ki pi enpòtan se ke diferans ki soti ladan l lan vrèman envesti (sa ki raple diskisyon Leson 16 sou enterè konpoze), olye tou senpleman akimile kòm lajan kach k ap dòmi, paske se kapital envesti, se pa lajan ou ekonomize men ou pa envesti, ki pouse akselerasyon richès alontèm nivo sa a konsantre sou li.
+
+**3. Egzanp pratik**
+Pandan l ap travay pou elaji pwòp diferans ant revni ak depans li, Marcus (sa ki raple GREEN-L2-010) itilize tou de levye yo an menm tan: li kontinye fè revni travay endepandan li grandi pandan l kenbe espre depans fason l viv yo ap grandi pi dousman pase revni li, olye l kite depans li monte nan menm pwopòsyon ak chak ogmantasyon revni. Apre sa li asire diferans ki soti ladan l lan vrèman envesti chak mwa, olye l tou senpleman akimile nan yon kont chèk ki bay ti enterè, paske li rekonèt diferans lan li menm pouse konstriksyon richès sèlman yon fwa ou mete l travay.
+
+**4. Egzamen pratik**
+1. Kisa ki pouse akimilasyon richès alontèm, dapre ekwasyon debaz pou bati richès la?
+   a) Revni sèlman, kèlkeswa depans yo
+   b) Diferans ant revni ak depans, envesti yon fason konsistan avèk tan
+   c) Depans sèlman, kèlkeswa revni an
+   d) Yon montan fiks espesifik ki pa gen rapò ak revni oswa depans
+
+2. Ki de levye jeneral pou elaji diferans ant revni ak depans?
+   a) Sèlman ogmante revni
+   b) Ogmante revni ak diminye depans
+   c) Sèlman diminye depans
+   d) Okenn nan levye yo pa vrèman egziste
+
+3. Vrè oswa Fo: Tou senpleman akimile diferans ant revni ak depans kòm lajan kach k ap dòmi, ou pa envesti, bay menm akselerasyon richès alontèm ak envesti l.
+
+4. Poukisa Marcus te asire diferans ant revni ak depans li te vrèman envesti, se pa sèlman akimile?
+   a) Lajan kach k ap dòmi bay menm akselerasyon richès ak kapital envesti
+   b) Se kapital envesti, se pa lajan kach k ap dòmi, ki pouse akselerasyon richès alontèm nivo sa a konsantre sou li
+   c) Envestisman pa gen okenn rapò ak bati richès
+   d) Li pa t enterese nan bati richès ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Diferans ant revni ak depans, envesti yon fason konsistan avèk tan, pouse akimilasyon richès alontèm.
+2. Ogmante revni ak diminye depans se de levye jeneral pou elaji diferans sa a.
+3. Se kapital envesti, se pa lajan kach k ap dòmi ou pa envesti, ki pouse akselerasyon richès konpoze nivo sa a konsantre sou li.
+4. Desizyon Marcus pou l envesti diferans li, olye l kite l dòmi, te reflete pwen prensipal la ke envestisman se sa ki aktive efè konstriksyon richès la.
+
+**7. Pwen kle yo**
+- Ekwasyon debaz pou bati richès santre sou diferans ant revni ak depans, envesti yon fason konsistan avèk tan.
+- De levye jeneral pou elaji diferans sa a se ogmante revni ak diminye depans.
+- Pifò estrateji efikas itilize tou de levye yo an menm tan, sa ki elaji diferans lan nan tou de direksyon.
+- Diferans lan dwe vrèman envesti, se pa tou senpleman akimile kòm lajan kach k ap dòmi, pou l pouse akselerasyon richès alontèm.
