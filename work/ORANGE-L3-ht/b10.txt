@@ -1,0 +1,49 @@
+===== ORANGE-L3-046
+TITLE: Poukisa yon chòk mache ipotetik teste chak pati yon estrateji an menm tan
+SUMMARY: Swiv yon chanjman toudenkou ipotetik nan konpòtman kliyan e idantifye, poukont ou, ki konsèp lavant ak maketing nan tras sa a ki ta bezwen reyaji an menm tan.
+# ORANGE-L3-046: Poukisa yon chòk mache ipotetik teste chak pati yon estrateji an menm tan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Swiv kijan yon sèl chòk mache ipotetik afekte akizisyon, kenbe kliyan, pri, ak previzyon an menm tan
+- Idantifye konsèp enpòtan ki te vini pi bonè nan tras sa a san pèsonn pa nonmen yo pou ou
+- Esplike poukisa rezistans, pa prediksyon, se objektif pratik kalite egzèsis sa a
+
+## Kontni prensipal
+
+[SENARYO IPOTETIK — SIPOZISYON, SE PA YON FÈ VERIFYE] Imajine yon chanjman toudenkou nan konpòtman kliyan — petèt akoz yon ralantisman ekonomik pi laj, yon chanjman nan priyorite kliyan, oswa yon nouvo konkiran ki boulvèse mache a — fè to konvèsyon yo bese anpil e kliyan ki la deja yo vin pi sansib a pri yon fason remakab, tout nan yon ti peryòd. Sa a se yon senaryo ipotetik pou teste rezistans, se pa yon prediksyon sou okenn vrè evènman oswa mache espesifik.
+
+Anvan w li egzanp pratik la, reflechi sou sa poukont ou: kisa ki ta rive rapò CAC sou LTV ou si to konvèsyon yo ta bese? Kisa ki ta rive previzyon lavant ou, ki bati sou sipozisyon konvèsyon istorik (Leson 3, Leson 15)? Si kliyan yo vin pi sansib a pri, kisa sa fè kalkil maj Leson 9 la si w gen tantasyon bay rabè pou reyaji? E kisa sa ta fè to churn ou (Leson 31), paske kliyan ki la deja yo afekte tou, pa sèlman nouvo kliyan potansyèl yo?
+
+Eseye trase kaskad sa a anvan w tcheke si repons ou yo koresponn ak rezònman ki anba a.
+
+## Egzanp pratik
+
+[IPOTETIK — ILISTRATIF, SE PA YON PREDIKSYON] Yon biznis k ap fè fas ak kalite chòk ipotetik sa a wè CAC li ap monte pandan to konvèsyon yo ap bese (Leson 1), previzyon lavant li vin pa serye paske yo te bati l sou sipozisyon konvèsyon istorik ki pa kenbe ankò (Leson 3 ak 15), ak presyon pou bay rabè pou kenbe kliyan ki sansib a pri — yon mouvman ki, dapre kalkil maj Leson 9 la, ta mande yon ogmantasyon volim ki pi gwo anpil, san pwopòsyon, jis pou kenbe pwofi aktyèl la, yon ogmantasyon volim menm chòk sa a fè mwens posib, pa plis. Churn kliyan ki la deja yo ka monte tou pandan kliyan yo ap reevalye depans yo an jeneral, sa ki agrave presyon sou LTV ki depann de kenbe kliyan (Leson 6) an menm tan ke jwenn kliyan ap vin pi difisil e pi chè.
+
+## Egzamen pratik
+
+1. Poukisa yo dekri senaryo sa a kòm ipotetik olye yon evènman istorik espesifik?
+2. Nonmen twa konsèp espesifik ki te vini pi bonè nan tras sa a chòk ipotetik sa a ta deklanche an menm tan.
+3. Ki objektif pratik ki genyen lè w travay sou yon senaryo konsa, dapre leson sa a?
+
+## Kle repons yo
+
+1. Paske yo konsevwa l kòm yon egzèsis jeneral pou teste rezistans, pou rezone sou presyon ki miltipliye nan tout yon estrateji, se pa yon deklarasyon sou okenn vrè evènman oswa mache patikilye.
+2. Nenpòt twa nan: CAC (Leson 1), pwobabilite nan antonwa/tiyo lavant (Leson 3, 15), kalkil maj rabè (Leson 9), kenbe kliyan ak churn (Leson 6, 31).
+3. Pou bati rezistans ak kapasite pou rekonèt modèl sou kijan plizyè presyon miltipliye ansanm, pa pou predi okenn evènman espesifik alavni.
+
+## Repons ak eksplikasyon
+
+1. Sa fè diferans ant edikasyon atravè senaryo ak prediksyon.
+2. Sa tcheke si lektè a te idantifye poukont li koneksyon enpòtan ant leson yo.
+3. Sa a se pwen santral, ki mete tout bagay ansanm, nan egzèsis sa a ak nan etap sa a nan kourikoulòm lan.
+
+## Pwen kle yo
+- Yon sèl chòk mache ipotetik ka mete presyon an menm tan sou pri akizisyon, fyabilite previzyon, disiplin sou pri, ak kenbe kliyan.
+- Presyon sa yo miltipliye ansanm olye pou yo aji poukont yo.
+- Valè kalite egzèsis sa a se bati abitid pou w rekonèt koneksyon sa yo poukont ou, pa aprann pa kè yon lis fiks sa ki aplike.
+
+---
+
+*Leson sa a itilize yon senaryo ipotetik pou rezon edikasyon sèlman e li pa dekri ni predi okenn vrè evènman oswa mache espesifik. Li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*

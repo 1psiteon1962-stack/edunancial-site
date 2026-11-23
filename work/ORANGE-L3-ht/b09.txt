@@ -97,3 +97,153 @@ Ki kote nan pwòp pratik maketing ou chwa etik la ak chwa ki diminye risk la kl�
 ---
 
 *Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou pratik maketing ou.*
+
+===== ORANGE-L3-043
+TITLE: Poukisa yon pwogram rekòmandasyon gen dimansyon maketing ak dimansyon legal tou de
+SUMMARY: Aprann poukisa yo bezwen evalye yon pwogram rekòmandasyon kliyan kòm yon òf legal otan ke yon taktik maketing, paske li kreye kondisyon ki ka aplike ak moun ki patisipe yo.
+# ORANGE-L3-043: Poukisa yon pwogram rekòmandasyon gen dimansyon maketing ak dimansyon legal tou de
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon pwogram rekòmandasyon fonksyone kòm yon òf legal bay moun ki patisipe yo, pa sèlman yon taktik maketing
+- Konekte konsèp sa a ak prensip fòmasyon kontra yo kouvri nan tras PURPLE kourikoulòm sa a
+- Esplike poukisa kondisyon pwogram rekòmandasyon ki pa klè kreye vrè risk diskisyon
+
+## Kontni prensipal
+
+Yon pwogram rekòmandasyon kliyan — ofri kliyan ki la deja yon rekonpans pou yo mennen nouvo biznis — se sitou kòm yon taktik maketing yo konsevwa l e yo diskite l. Men "poukisa" li se an menm tan yon òf legal, sa ki konekte dirèkteman ak prensip fòmasyon kontra yo kouvri nan tras PURPLE kourikoulòm sa a: lè yon biznis pibliye kondisyon espesifik pou yon pwogram rekòmandasyon ("rekòmande yon zanmi, resevwa $50"), e yon kliyan aji sou kondisyon sa yo lè l vrèman fè yon rekòmandasyon ki kalifye, sa ka fòme eleman yon akò ki ka aplike — òf, ak akseptasyon atravè aksyon kliyan an — ki oblije biznis lan vrèman bay rekonpans li te pwomèt la dapre kondisyon yo jan yo te deklare yo.
+
+Se poutèt sa kondisyon pwogram rekòmandasyon ki pa klè oswa ki mal presize kreye yon vrè risk diskisyon, sa ki fè eko ak avètisman pi laj tras PURPLE la sou langaj kontra ki pa klè: si pwogram lan pa defini klèman kisa ki konte kòm yon rekòmandasyon "ki kalifye", kilè yo vrèman peye rekonpans lan, oswa sa k ap rive nan ka espesyal (yon kliyan yo rekòmande ki anile yon ti tan apre l enskri, pa egzanp), biznis lan ka fè fas ak diskisyon ak kliyan ki te entèprete kondisyon ki pa klè yo yon fason rezonab an pwòp favè yo.
+
+Anvan w lanse yon pwogram rekòmandasyon, èske kondisyon li yo ase espesifik pou yo defini klèman kisa ki kalifye, kilè yo peye rekonpans lan, ak kijan yo trete ka espesyal — menm estanda klète tras PURPLE la te mete aksan sou li pou nenpòt lòt kontra?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis lanse yon pwogram rekòmandasyon ak yon pwomès senp, ki pa klè: "rekòmande yon zanmi, resevwa yon rekonpans." Yon kliyan rekòmande plizyè zanmi, e kèk nan yo enskri pou yon ti tan e apre sa yo anile prèske touswit. [SIPOZISYON] San kondisyon klè ki presize si yo touche yon rekonpans lè moun nan enskri oswa sèlman apre yon peryòd minimòm li rete kòm kliyan, biznis lan fè fas ak yon vrè diskisyon ak kliyan an sou si rekòmandasyon patikilye sa yo vrèman kalifye — yon pwoblèm yon pwogram ki redije yon fason pi espesifik, ki aplike menm prensip klète kontra yo kouvri nan tras PURPLE la, ta evite depi okòmansman.
+
+## Egzamen pratik
+
+1. Poukisa yon pwogram rekòmandasyon fonksyone kòm yon òf legal bay moun ki patisipe yo, pa sèlman yon taktik maketing?
+2. Kijan leson sa a konekte ak prensip fòmasyon kontra yo kouvri nan tras PURPLE la?
+3. Ki kalite anbigite nan kondisyon pwogram rekòmandasyon kreye vrè risk diskisyon?
+
+## Kle repons yo
+
+1. Paske pibliye kondisyon rekòmandasyon espesifik, ak yon kliyan ki aji sou yo lè l fè yon rekòmandasyon ki kalifye, ka fòme eleman yon akò ki ka aplike, ki oblije biznis lan bay rekonpans li te pwomèt la.
+2. Leson sa a aplike prensip fòmasyon kontra òf-ak-akseptasyon tras PURPLE la dirèkteman pou kondisyon pwogram rekòmandasyon.
+3. Anbigite sou kisa ki konte kòm yon rekòmandasyon "ki kalifye", kilè yo vrèman peye rekonpans lan, ak kijan yo trete ka espesyal (tankou anilasyon bonè).
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki fè nou wè pwogram rekòmandasyon an kòm yon òf legal.
+2. Sa konekte leson an klèman ak prensip fòmasyon kontra tras PURPLE la.
+3. Sa ranfòse estanda redaksyon pratik pou anpeche diskisyon leson an rekòmande.
+
+## Pwen kle yo
+- Kondisyon yon pwogram rekòmandasyon pibliye ka fonksyone kòm yon òf legal, ak aksyon kliyan ki kalifye a ki fòme yon akò ki ka aplike.
+- Sa aplike dirèkteman prensip fòmasyon kontra òf-ak-akseptasyon yo kouvri nan tras PURPLE la.
+- Kondisyon pwogram rekòmandasyon ki klè e espesifik — ki defini kalifikasyon, dat, ak ka espesyal — anpeche kalite diskisyon yon langaj ki pa klè envite.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans anvan w lanse yon pwogram rekòmandasyon kliyan.*
+
+===== ORANGE-L3-044
+TITLE: Poukisa konprann estrikti kou yon konkiran revele estrateji li gen chans genyen
+SUMMARY: Aprann poukisa analize estrikti kou yon konkiran gen chans genyen, pa sèlman pri li afiche yo, ede predi kijan li pral vrèman reyaji ak presyon konkirans.
+# ORANGE-L3-044: Poukisa konprann estrikti kou yon konkiran revele estrateji li gen chans genyen
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa konprann estrikti kou yon konkiran gen chans genyen ede predi konpòtman estratejik li
+- Konekte konsèp sa a ak konsèp maj brit ak estrikti kou yo kouvri nan tras BLUE kourikoulòm sa a
+- Esplike poukisa yon pri ba yon konkiran pa nesesèman vle di li ka kenbe l
+
+## Kontni prensipal
+
+Tras BLUE kourikoulòm sa a te etabli ke maj brit ak estrikti kou detèmine konbyen espas yon biznis vrèman genyen pou l absòbe konkirans sou pri oswa pou l reenvesti nan kwasans. Men "poukisa" dedui estrikti kou yon konkiran gen chans genyen, menm san done finansye entèn li, bay yon vrè konpreyansyon estratejik: yon konkiran ki gen yon modèl operasyon ki fondamantalman koute mwens ka kenbe pri ki pi ba san limit, alòske yon konkiran k ap egale menm pri ba sa a malgre yon estrikti kou debaz ki pi wo gen chans ap fè l yon fason ki pa dirab, petèt pou l genyen pati nan mache pou yon tan oswa paske l anba lòt presyon finansye.
+
+Se poutèt sa yo pa ta dwe sipoze yon pri ba yon konkiran reflete yon pri mache ki estab e pèmanan — sa ki konekte ak diskisyon Leson 9 la sou kalkil rabè, yon konkiran ki koupe pri anba sa pwòp estrikti kou li ka sipòte yon fason dirab souvan ap montre swa yon pouse estratejik tanporè swa yon vrè difikilte finansye, de bagay ki sijere nivo pri sa a ka pa kenbe, olye yon bagay pwòp biznis ou nesesèman bezwen egale san limit.
+
+Kisa ou vrèman konnen oswa ou ka rezonab dedui sou estrikti kou yon konkiran kle — relasyon li gen chans genyen ak founisè, avantaj gwosè, oswa frè jeneral — e èske pri li kounye a sanble dirab dapre estrikti kou ou dedui a, oswa èske li sanble yon mouvman tanporè oswa dezespere?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon konkiran bese pri li anpil anba sa ki sanble yon nivo dirab dapre estrikti kou li gen chans genyen — relasyon ak founisè ki sanble, gwosè ki sanble, okenn avantaj kou ki evidan. [SIPOZISYON] Olye pou l sipoze nouvo pri ki pi ba sa a reprezante nouvo pri mache pèmanan an e pou l egale l touswit (ak konsekans ki manje maj yo diskite nan Leson 9 la), yon biznis ki rezone sou pozisyon kou konkiran an ki gen chans pa dirab ta ka kenbe pwòp pri pa l pito, lè l prevwa kòrèkteman ke pri agresif konkiran an se yon pouse tanporè pwòp estrikti kou li p ap pèmèt li kenbe san limit.
+
+## Egzamen pratik
+
+1. Poukisa konprann estrikti kou yon konkiran gen chans genyen bay yon vrè konpreyansyon estratejik?
+2. Kijan leson sa a konekte ak konsèp maj brit ak estrikti kou yo kouvri nan tras BLUE la?
+3. Poukisa yo pa ta dwe sipoze otomatikman yon pri ba yon konkiran reflete yon pri mache ki estab e pèmanan?
+
+## Kle repons yo
+
+1. Paske estrikti kou yon konkiran detèmine konbyen espas li vrèman genyen pou l kenbe pri ba, sa ki ede predi si pri li kounye a se yon estrateji estab sou long tèm oswa yon mouvman tanporè ki pa dirab.
+2. Leson sa a aplike konsèp maj brit ak estrikti kou tras BLUE la pou analiz konkirans, lè l itilize estrikti kou yo dedui pou entèprete e predi konpòtman pri yon konkiran.
+3. Paske yon konkiran ki fikse pri anba pwòp estrikti kou dirab li ka ap montre yon pouse estratejik tanporè oswa yon difikilte finansye, pa yon nivo pri ki pral nesesèman kenbe.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak konsèp fondamantal tras BLUE la sou estrikti kou.
+3. Sa konekte leson an ak diskisyon Leson 9 la sou kalkil rabè, sa ki ranfòse estrikti entegre tras la.
+
+## Pwen kle yo
+- Estrikti kou yon konkiran gen chans genyen, menm lè yo dedui l san done finansye entèn, ede predi si estrateji pri li dirab.
+- Sa aplike dirèkteman konsèp maj brit ak estrikti kou tras BLUE la pou analiz konkirans.
+- Yon pri ba yon konkiran ka montre yon mouvman tanporè oswa ki pa dirab olye yon nouvo pri mache pèmanan ou oblije egale.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou pri konkiran.*
+
+===== ORANGE-L3-045
+TITLE: Poukisa mezi maketing ta dwe mare ak objektif biznis, pa ak chif pou fè bèl
+SUMMARY: Aprann poukisa mezi tankou enpresyon, "like", oswa kantite abòne ka sanble enpresyonan alòske yo pa di w anyen sou si maketing lan vrèman ap pwodui vrè rezilta biznis.
+# ORANGE-L3-045: Poukisa mezi maketing ta dwe mare ak objektif biznis, pa ak chif pou fè bèl
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon "mezi pou fè bèl" (vanity metric) ye ak poukisa li ka twonpe moun
+- Esplike poukisa mezi maketing ta dwe mare dirèkteman ak vrè objektif biznis
+- Konekte konsèp sa a ak tèm CAC, kenbe kliyan, ak maj yo kouvri pi bonè nan tras sa a
+
+## Kontni prensipal
+
+Yon **mezi pou fè bèl** (vanity metric) anjeneral vle di yon chif ki sanble enpresyonan — enpresyon, kantite abòne, kantite vizit paj, "like" — men ki pa konekte yon fason serye ak si biznis lan vrèman ap rive nan vrè objektif li: jwenn kliyan yon fason pwofitab, kenbe kliyan, revni, oswa maj. Men "poukisa" mezi sa yo ka vrèman twonpe moun olye pou yo senpleman san danje: yon kanpay ki pwodui yon gwo kantite enpresyon oswa "like" ka sanble yon siksè klè, alòske li pwodui kèk kliyan sèlman oswa okenn vrè kliyan, oswa kliyan ki konvèti men ki ale vit, egzakteman pwoblèm kenbe kliyan yo kouvri nan Leson 6.
+
+Se poutèt sa yon apwòch mezi maketing ki gen matirite mare chak mezi yo rapòte ak rezilta biznis espesifik li sipoze reprezante a — pa "èske sa te jwenn anpil atansyon," men "èske sa te kontribye nan jwenn kliyan yon fason pwofitab, ajiste pou CAC (Leson 1) ak kenbe kliyan (Leson 6), yon fason ki vrèman fè vrè pozisyon finansye biznis lan avanse."
+
+Gade mezi ekip maketing ou rapòte kounye a kòm prèv siksè. Pou chak youn, èske ou ka trase yon liy klè, dirèk rive nan yon vrè rezilta biznis — revni, maj, kenbe kliyan — oswa èske li kanpe nan yon bagay ki sèlman sonnen enpresyonan?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kanpay maketing pwodui yon kantite enpresyon trè wo ak anpil angajman sou rezo sosyal, yo rapòte sa anndan konpayi an kòm yon siksè klè. [SIPOZISYON] Lè yo gade pi pre, yo wè atansyon sa a te tounen trè kèk vrè kliyan ki peye, e kèk sa yo ki te konvèti yo te gen yon to churn ki pi wo pase mwayèn lan yon fason ki remakab — mezi pou fè bèl yo te sanble enpresyonan, men vrè rezilta biznis yo te sipoze reprezante yo (kliyan pwofitab ki rete) pa t janm rive, sa ki montre poukisa jan yon mezi enpresyonan poukont li pa di w anyen sou vrè valè biznis li.
+
+## Egzamen pratik
+
+1. Kisa yon mezi pou fè bèl ye, an jeneral?
+2. Poukisa yon mezi pou fè bèl ka vrèman twonpe moun olye pou l senpleman san danje?
+3. Ki tès yo ta dwe aplike pou nenpòt mezi maketing yo rapòte, dapre leson sa a?
+
+## Kle repons yo
+
+1. Yon chif ki sanble enpresyonan — enpresyon, abòne, "like" — men ki pa konekte yon fason serye ak si biznis lan ap rive nan vrè objektif li.
+2. Paske li ka sanble yon siksè klè alòske l kache yon mank vrè akizisyon kliyan pwofitab oswa kenbe kliyan, rezilta ki vrèman enpòtan pou biznis lan.
+3. Si yo ka trase mezi a atravè yon liy klè, dirèk rive nan yon vrè rezilta biznis tankou revni, maj, oswa kenbe kliyan — pa sèlman si li sonnen enpresyonan poukont li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon fondamantal leson an.
+2. Sa a se avètisman santral leson an bati sou li.
+3. Sa ranfòse estanda evalyasyon pratik leson an rekòmande.
+
+## Pwen kle yo
+- Yon mezi pou fè bèl sanble enpresyonan men li pa konekte yon fason serye ak vrè rezilta biznis tankou revni, maj, oswa kenbe kliyan.
+- Mezi sa yo ka vrèman twonpe moun, yo kache yon mank vrè pwogrè nan direksyon objektif ki vrèman enpòtan yo.
+- Yo ta dwe ka trase chak mezi maketing yo rapòte rive nan yon vrè rezilta biznis espesifik, sa ki konekte ak konsèp CAC ak kenbe kliyan yo kouvri pi bonè nan tras sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou fason pou mezire maketing.*
