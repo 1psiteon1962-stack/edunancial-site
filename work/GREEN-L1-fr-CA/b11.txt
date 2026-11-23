@@ -1,0 +1,239 @@
+===== GREEN-L1-036
+TITLE: Les conséquences fiscales de la vente d’une maison
+SUMMARY: Présente les considérations fiscales générales qui se posent lors de la vente d’une résidence principale, en lien avec les leçons sur les gains en capital.
+# Les conséquences fiscales de la vente d’une maison
+
+## Objectifs d’apprentissage
+
+- Relier la vente d’une maison à la notion de gain en capital vue plus tôt.
+- Expliquer pourquoi de nombreux systèmes accordent un traitement favorable à la résidence principale.
+- Reconnaître l’importance de suivre le prix de base d’une maison au fil du temps.
+
+## Contenu principal
+
+Vendre une maison est, au fond, un autre exemple de la notion de gain en capital vue plus tôt : le prix de vente moins le prix de base (en gros, le prix d’achat plus certaines améliorations admissibles) égale le gain. Mais comme la résidence principale relève d’un événement de vie courant et important plutôt que d’une simple opération de placement, de nombreux systèmes fiscaux lui accordent un traitement favorable — comme l’exclusion d’une partie du gain de l’impôt — précisément pour la résidence principale, à la différence, par exemple, d’un immeuble de placement. (Au Canada, on parle notamment de l’exemption pour résidence principale; vérifiez les conditions en vigueur.)
+
+C’est un bon exemple concret de l’importance de suivre son prix de base au fil du temps. Si un propriétaire effectue des améliorations admissibles importantes au fil des ans — un agrandissement, une rénovation majeure — ces coûts peuvent souvent augmenter le prix de base, ce qui réduit le gain imposable lorsque la maison est finalement vendue. Sans dossiers sur ces améliorations, un propriétaire peut finir par payer plus d’impôt que nécessaire simplement parce qu’il ne peut pas prouver ce qu’il a réellement dépensé.
+
+## Exemple pratique
+
+**Question :** Un propriétaire fait construire un agrandissement important à sa maison peu après l’achat, mais ne garde jamais de dossiers sur le coût. Des années plus tard, il vend la maison avec un gain important. Qu’est-ce que cela pourrait lui coûter?
+
+**Étudiant :** D’après cette leçon, sans dossiers sur le coût de l’agrandissement, il ne pourrait peut-être pas augmenter son prix de base, ce qui pourrait signifier payer de l’impôt sur un gain plus élevé que nécessaire.
+
+**Guide :** Qu’est-ce qui aurait évité ce problème?
+
+**Étudiant :** Garder les reçus et les dossiers des coûts d’amélioration au fur et à mesure, ce qui nous ramène à la leçon précédente sur la tenue de dossiers.
+
+**Guide :** Exactement — c’est un exemple très concret et coûteux de l’importance de cette habitude.
+
+## Quiz pratique
+
+**Question 1.** La vente d’une maison est fondamentalement un exemple de :
+
+A) La taxe de vente
+B) La notion de gain en capital — prix de vente moins prix de base
+C) Les cotisations sur la paie
+D) Un crédit d’impôt
+
+**Question 2.** Pourquoi de nombreux systèmes pourraient-ils accorder un traitement favorable précisément à la résidence principale?
+
+A) Sans véritable raison
+B) Elle est considérée comme un événement de vie courant et important plutôt que comme un pur placement
+C) Les maisons ne sont jamais vendues
+D) Seuls les immeubles de placement bénéficient d’un traitement favorable
+
+**Question 3.** Les améliorations admissibles apportées à une maison peuvent généralement :
+
+A) Diminuer le prix de base de la maison
+B) Augmenter le prix de base de la maison, ce qui réduit le gain imposable plus tard
+C) N’avoir aucun effet sur le prix de base
+D) Compter seulement pour les immeubles locatifs
+
+**Question 4.** Sans dossiers sur les coûts d’amélioration, un propriétaire risque :
+
+A) Rien
+B) De payer plus d’impôt que nécessaire lors de la vente
+C) Un remboursement automatique
+D) De perdre la propriété de sa maison
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La vente d’une maison suit le même calcul de gain de base que la vente de tout autre bien en capital.
+
+**2.** Les résidences principales sont souvent traitées différemment, ce qui reflète leur rôle de nécessité de la vie plutôt que de pur véhicule de placement.
+
+**3.** Les améliorations admissibles s’ajoutent généralement au prix de base, ce qui peut réduire sensiblement le gain imposable à la vente.
+
+**4.** L’absence de documents se traduit directement par un gain imposable plus élevé et une facture d’impôt inutilement plus lourde.
+
+## Points clés
+
+- La vente d’une maison suit la même logique de base des gains en capital que la vente d’autres biens.
+- Les résidences principales bénéficient souvent d’un certain traitement fiscal favorable.
+- Les améliorations admissibles peuvent augmenter le prix de base, ce qui réduit le gain imposable plus tard.
+- Une mauvaise tenue de dossiers sur les améliorations domiciliaires peut être une erreur coûteuse et évitable.
+
+===== GREEN-L1-037
+TITLE: Les bases de l’impôt sur les dons et sur l’héritage
+SUMMARY: Présente les notions générales de l’imposition des dons et de l’héritage, de façon large compte tenu des grandes différences entre les systèmes.
+# Les bases de l’impôt sur les dons et sur l’héritage
+
+## Objectifs d’apprentissage
+
+- Expliquer la notion générale de l’imposition des dons.
+- Expliquer la notion générale de l’imposition de l’héritage ou de la succession.
+- Reconnaître que ces règles varient énormément et sont très propres à chaque juridiction.
+
+## Contenu principal
+
+Certains systèmes fiscaux appliquent des règles aux dons importants faits du vivant d’une personne et aux biens transmis après le décès (ce qu’on appelle souvent l’impôt sur l’héritage ou sur la succession). La préoccupation générale des décideurs est le transfert de richesse en dehors du système de revenu gagné — puisqu’un don ou un héritage n’est pas « gagné » au sens traditionnel, il soulève des questions de politique publique différentes de celles d’une paie.
+
+C’est un domaine où généraliser de façon trop précise serait trompeur : l’existence de ces impôts, les seuils à partir desquels ils s’appliquent, qui les doit (le donateur ou le bénéficiaire) et les taux en jeu varient énormément selon le pays, et beaucoup de pays n’ont aucun impôt de ce genre, ou ne l’appliquent qu’au-delà de seuils très élevés qui ne touchent qu’une faible proportion des transferts. La leçon pratique ici n’est pas une règle à mémoriser — c’est un signal d’alerte : si vous êtes le donateur, le bénéficiaire ou l’héritier dans une situation de don ou d’héritage vraiment importante, c’est exactement le genre de scénario qui exige un conseil professionnel plutôt que des suppositions.
+
+## Exemple pratique
+
+**Question :** Une famille prévoit de transmettre une grande entreprise familiale à la génération suivante. Devrait-elle supposer que les règles fiscales qu’elle a entendues de la part d’un ami dans un autre pays s’appliquent à elle?
+
+**Étudiant :** D’après cette leçon, certainement pas — ces règles varient énormément selon le pays et la situation.
+
+**Guide :** Quelle serait la prochaine étape responsable pour cette famille?
+
+**Étudiant :** Obtenir l’avis d’un professionnel qualifié qui connaît les règles de son propre pays, plutôt que de se fier à des renseignements de seconde main venant d’ailleurs.
+
+**Guide :** Exactement — c’est un cas d’école de « consulter un professionnel », selon l’analogie du médecin vue plus tôt dans le cursus.
+
+## Quiz pratique
+
+**Question 1.** Les impôts sur les dons et l’héritage portent généralement sur :
+
+A) Les paies régulières
+B) Les transferts de richesse en dehors du système normal de revenu gagné
+C) La taxe de vente sur l’épicerie
+D) Les retenues sur la paie
+
+**Question 2.** Tous les pays appliquent-ils les mêmes règles d’impôt sur les dons et l’héritage?
+
+A) Oui, partout
+B) Non — les règles varient énormément, et beaucoup de pays n’ont aucun impôt de ce genre ou ont des seuils très élevés
+C) Seuls les pays riches ont des règles
+D) Ces impôts n’ont jamais existé nulle part
+
+**Question 3.** La leçon pratique de ce sujet est de :
+
+A) Mémoriser les seuils précis d’un seul pays
+B) Reconnaître ce sujet comme un signal d’alerte qui appelle un conseil professionnel dans les situations réelles
+C) Ignorer complètement les dons importants
+D) Supposer qu’aucun impôt ne s’applique jamais nulle part
+
+**Question 4.** Cette leçon se rattache à quelle notion vue plus tôt dans le cursus?
+
+A) L’analogie du médecin — consulter un professionnel pour les situations complexes
+B) Les biens publics
+C) La perception de la taxe de vente
+D) Les paliers d’imposition marginaux
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. A
+
+## Réponses et explications
+
+**1.** Ces impôts visent généralement la richesse qui circule en dehors du cadre habituel du revenu gagné.
+
+**2.** Les énormes différences, y compris le fait que de nombreux pays n’ont aucun impôt de ce genre, rendent toute généralisation peu fiable ici.
+
+**3.** Le point à retenir durablement est de reconnaître quand une situation exige l’aide d’un expert, et non de mémoriser des règles qui pourraient même ne pas s’appliquer.
+
+**4.** C’est une application directe et concrète de la leçon précédente qui compare la consultation pour un risque juridique ou fiscal à une visite chez le médecin.
+
+## Points clés
+
+- Les impôts sur les dons et l’héritage portent sur des transferts de richesse en dehors du revenu gagné normal.
+- Les règles varient énormément selon le pays — beaucoup n’en ont aucun, ou ne les appliquent qu’au-delà de seuils élevés.
+- La leçon clé est de reconnaître quand demander un conseil professionnel, et non de mémoriser des règles précises.
+- Les situations de don ou d’héritage importantes ou complexes sont clairement des cas où consulter un professionnel.
+
+===== GREEN-L1-038
+TITLE: Les « taxes sur le péché » et les taxes d’accise
+SUMMARY: Présente les taxes d’accise, souvent appelées « taxes sur le péché » lorsqu’elles s’appliquent à des produits précis comme l’alcool ou le tabac, comme une catégorie de taxe distincte motivée par des choix de politique publique.
+# Les « taxes sur le péché » et les taxes d’accise
+
+## Objectifs d’apprentissage
+
+- Définir une taxe d’accise.
+- Expliquer l’expression « taxe sur le péché » et le raisonnement de politique publique qui la sous-tend.
+- Distinguer les taxes d’accise de la taxe de vente générale.
+
+## Contenu principal
+
+Une taxe d’accise est une taxe appliquée à un bien ou à une activité précise, plutôt qu’aux achats en général comme le fait une taxe de vente générale. Lorsqu’une taxe d’accise vise un produit considéré comme nocif en excès — l’alcool, le tabac et parfois les boissons sucrées en sont des exemples courants — on l’appelle souvent, de façon informelle, une « taxe sur le péché ».
+
+Le raisonnement de politique publique derrière les taxes sur le péché comporte habituellement deux volets : générer des recettes, et décourager la consommation du produit taxé en le rendant plus cher. Contrairement à la taxe de vente générale, qui s’applique de façon large et neutre à la plupart des achats, les taxes d’accise sont volontairement étroites et ciblées, ce qui reflète un jugement de politique publique précis sur ce bien ou cette activité en particulier. La question de savoir si les taxes sur le péché réduisent réellement la consommation de façon efficace, et si elles pèsent de manière disproportionnée sur les consommateurs à faible revenu, fait véritablement débat plutôt que d’être un fait établi.
+
+## Exemple pratique
+
+**Question :** Un gouvernement ajoute une taxe supplémentaire visant précisément les boissons gazeuses sucrées, en plus de la taxe de vente ordinaire qui s’applique à tous les achats au détail. De quel type de taxe s’agit-il pour ce supplément sur les boissons gazeuses?
+
+**Étudiant :** D’après cette leçon, cela ressemble à une taxe d’accise, puisqu’elle vise précisément un produit plutôt que les achats en général.
+
+**Guide :** Quel est le double objectif probable derrière ce type de taxe ciblée?
+
+**Étudiant :** Générer des recettes, et aussi décourager la consommation de boissons gazeuses en les rendant plus chères.
+
+**Guide :** Exactement — et il vaut la peine de noter que ces deux effets, ainsi que leur équité, font véritablement débat.
+
+## Quiz pratique
+
+**Question 1.** Une taxe d’accise se décrit le mieux comme :
+
+A) Une taxe générale sur tous les achats
+B) Une taxe ciblant un bien ou une activité précise
+C) La même chose que l’impôt sur le revenu
+D) Un type d’impôt foncier
+
+**Question 2.** Une « taxe sur le péché » est :
+
+A) Sans lien avec les taxes d’accise
+B) Une expression informelle désignant une taxe d’accise sur des produits considérés comme nocifs en excès
+C) Un impôt sur le revenu seulement
+D) Un type de crédit d’impôt
+
+**Question 3.** Le double objectif habituel des taxes sur le péché est de :
+
+A) N’avoir aucun objectif
+B) Générer des recettes et décourager la consommation
+C) Seulement décourager la consommation, sans jamais générer de recettes
+D) Seulement générer des recettes, sans objectif de comportement
+
+**Question 4.** L’efficacité et l’équité des taxes sur le péché sont-elles une question réglée?
+
+A) Oui, tout le monde est d’accord
+B) Non — c’est une question de politique publique qui fait véritablement débat
+C) Elle ne fait débat que dans un seul pays
+D) Elle n’a jamais été discutée
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les taxes d’accise ciblent un produit ou une activité précise au lieu de s’appliquer de façon générale.
+
+**2.** L’expression « taxe sur le péché » reflète le fait que le produit visé est considéré comme nocif en excès, comme l’alcool ou le tabac.
+
+**3.** La production de recettes et le découragement d’un comportement sont les deux objectifs couramment cités de ces taxes ciblées.
+
+**4.** Des personnes raisonnables ne s’entendent pas sur l’efficacité des taxes sur le péché ni sur qui en supporte réellement le fardeau.
+
+## Points clés
+
+- Les taxes d’accise ciblent des biens ou des activités précis, contrairement à la taxe de vente générale.
+- La « taxe sur le péché » est une expression informelle pour les taxes d’accise sur des produits considérés comme nocifs en excès.
+- Les objectifs habituels sont de générer des recettes et de décourager la consommation.
+- L’efficacité et l’équité des taxes sur le péché font encore véritablement débat.
