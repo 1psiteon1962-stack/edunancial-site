@@ -120,3 +120,4 @@ out/GOLD-L5-001-050-fr-FR.zip 2026-11-22 GOLD L5 France French, 9 France notes
 out/GOLD-L5-001-050-en-GB.zip 2026-11-22 GOLD L5 British English, 9 UK notes
 out/GOLD-L5-001-050-pt-BR.zip 2026-11-22 GOLD L5 Brazilian Portuguese, 9 Brazil notes
 out/GOLD-L5-001-050-pt-PT.zip 2026-11-22 GOLD L5 European Portuguese, 9 Portugal notes
+out/GOLD-L5-001-050-it.zip 2026-11-22 GOLD L5 Italian, 9 Italy notes
