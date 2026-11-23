@@ -137,3 +137,143 @@ Q5: B
 - Rive nan vrè moman aktivasyon pwodwi a predi anpil yon konvèsyon peye pita, paske li bay yon eksperyans dirèk valè y ap vann nan.
 - Yo ta dwe swiv konvèsyon gratis-a-peye kòm pwòp antonwa etap pa etap diferan li, olye yo mete l nan mezi akizisyon jeneral yo.
 - Yon pousantaj konvèsyon ki ba pa nesesèman montre echèk, toutotan ekonomi debaz kliyan k ap peye ki soti nan sa yo rete bon.
+
+===== ORANGE-L4-042
+TITLE: Analiz ankraj nan prezantasyon pri: poukisa lòd ak fason yo prezante pri yo fòme valè moun wè
+SUMMARY: Aplike patipri ankraj pakou GOLD-L4 la nan prezantasyon pri, konprann poukisa montre yon opsyon ki pi chè an premye fè opsyon sib la sanble pi rezonab, kisa yon opsyon pri 'lak' (decoy) ye, ak diferans etik ant itilize ankraj ak yon pri ki jis ak envante fo ekonomi.
+KEYWORDS: ankraj pri, lòd prezantasyon pri, pri lak, fason pou prezante valè moun wè
+# Analiz ankraj nan prezantasyon pri: poukisa lòd ak fason yo prezante pri yo fòme valè moun wè
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak mache kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, k ap kòmanse montre siy yon gwo koreksyon pandan moun ki pa peye dèt yo ap kòmanse ogmante. Pandan yon boom ki te alimante pa kredi ap defèt e achtè ki sansib a pri ap egzamine chak pri ak plis atansyon, biznis yo dekouvri ke egzakteman menm pri a pou egzakteman menm pwodwi a ka sanble chè oswa rezonab selon nèt ki lòt pri yo montre bò kote l, sa ki konekte dirèkteman ak diskisyon patipri ankraj pakou GOLD-L4 la.
+
+## Objektif aprantisaj
+- Aplike diskisyon patipri ankraj pakou GOLD-L4 la espesyalman nan fason yo prezante yon pri pou premye fwa bay yon achtè potansyèl.
+- Esplike poukisa montre yon opsyon ki pi chè an premye, anvan yon opsyon sib, gen tandans fè opsyon sib sa a sanble pi rezonab lè w konpare.
+- Esplike konsèp yon opsyon pri 'lak' (decoy), ak poukisa objektif li se deplase preferans achtè a vè yon opsyon sib espesifik olye vann yon gwo volim li menm.
+- Esplike diferans etik enpòtan ant itilize ankraj pou prezante yon pri ki vrèman jis nan kontèks ak itilize l pou kreye yon fo enpresyon ekonomi ki pa vrèman egziste.
+
+## Kontni prensipal
+Nou bati dirèkteman sou diskisyon patipri ankraj pakou GOLD-L4 la, FÈ VERIFYE, patipri ankraj — tandans ki byen dokimante pou konte twòp sou yon premye enfòmasyon lè w ap fè yon jijman apre — aplike dirèkteman nan fason yon achtè potansyèl wè yon pri espesifik, sa ki vle di egzakteman menm pri a ka sanble chè oswa rezonab selon anpil ki lòt pri oswa pwen referans yo prezante bò kote l.
+
+Men "poukisa" montre yon opsyon ki pi chè an premye, anvan yon opsyon sib, gen tandans fè opsyon sib sa a sanble pi rezonab lè w konpare: depi yo te ankre yon achtè sou yon premye pri ki pi wo, li jije yon pri sib ki pi ba yo prezante apre an konparezon ak premye ank sa a olye apa nèt, sa ki vle di menm pri sib la ki ta ka sanble chè si yo te prezante l poukont li, san okenn ank ki pi wo yo te montre an premye, ka sanble yon valè relativman rezonab, menm atiran, depi achtè a te deja ankre sou yon pwen referans ki pi wo — se egzakteman poukisa anpil biznis fè espre prezante opsyon ki pi chè yo anvan opsyon sib yo, olye yo prezante opsyon yo nan lòd pri k ap monte.
+
+Se poutèt sa yon opsyon pri "lak" egziste espesyalman pou deplase preferans achtè a vè yon opsyon sib espesifik, olye pou l vann yon gwo volim li menm: yo fikse pri ak estrikti yon opsyon lak espesyalman pou fè yon lòt opsyon sib patikilye sanble kòm chwa ki klèman pi bon an lè w konpare (yon lak ki gen yon pri sèlman yon ti kras anba yon opsyon prim, men ki ofri mwens valè anpil, fè opsyon prim nan sanble kòm pi bon zafè relatif la), sa ki vle di pwòp vrè volim vant lak la anjeneral se pa rezon pou yo mete l ditou — fonksyon li se espesyalman deplase ank konparezon an yon fason ki dirije preferans achtè a vè nenpòt opsyon biznis la vrèman vle vann plis la. Se poutèt sa diferans etik enpòtan ant itilize ankraj pou prezante yon pri ki vrèman jis nan kontèks ak itilize l pou kreye yon fo enpresyon ekonomi ki pa vrèman egziste enpòtan anpil, sa ki fè echo ak diskisyon Leson 17 nivo sa a sou vrè rate konpare ak rate envante: prezante yon opsyon prim ki vrèman gen plis valè an premye, sa ki pèmèt yon achtè jije egzakteman vrè valè relatif yon opsyon sib, se yon aplikasyon lejitim ankraj, alòske envante yon "pri orijinal" ki gonfle atifisyèlman yo pa t janm vrèman fè peye, espesyalman pou kreye yon fo enpresyon ekonomi sou yon pri "an rabè" apre, manipile ank achtè a ak fo enfòmasyon olye vrè kontèks — se egzakteman menm diferans diskisyon anvan nivo sa a sou vrè ijans konpare ak ijans envante te trase, e li aplike ak menm fòs la pou ankraj pri espesyalman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis ofri twa nivo sèvis, li fè espre mete nivo ki pi chè a, ki gen tout karakteristik yo, an premye, swiv pa opsyon nivo mitan an, ki se opsyon espesifik biznis la pi vle vann. Paske yo te ankre yo sou premye pri ki pi wo a, achtè potansyèl yo anjeneral wè opsyon nivo mitan an kòm yon valè relativman rezonab, sa ki ogmante kantite fwa yo chwazi l konpare ak lè yo te prezante menm twa nivo yo anvan nan lòd pri k ap monte. Biznis la fè atansyon pou asire pri chak nivo deklare reflete yon vrè pri yo vrèman ofri, olye l envante yon pri referans ki gonfle yo pa t janm vrèman fè peye, sa ki montre egzakteman diferans ant yon aplikasyon lejitim ankraj ak kalite konparezon ki twonpe, envante leson sa a avèti kont li.
+
+## Egzamen pratik
+**Q1. Kijan patipri ankraj, selon diskisyon pakou GOLD-L4 la, aplike dirèkteman nan prezantasyon pri?**
+A) Patipri ankraj pa gen okenn vrè rapò ak jan yon achtè potansyèl wè yon pri espesifik
+B) Egzakteman menm pri a ka sanble chè oswa rezonab selon anpil ki lòt pri oswa pwen referans yo prezante bò kote l, paske yo jije yon pri yo prezante apre an konparezon ak nenpòt premye ank yo te montre an premye
+
+**Q2. Poukisa montre yon opsyon ki pi chè an premye gen tandans fè yon opsyon sib apre sanble pi rezonab?**
+A) Montre yon opsyon ki pi chè an premye toujou fè chak opsyon apre sanble pi chè lè w konpare
+B) Depi yo ankre l sou yon premye pri ki pi wo, yon achtè jije yon pri ki pi ba yo prezante apre an konparezon ak ank sa a olye apa, sa ki vle di menm pri sib la ka sanble pi rezonab pase si yo te prezante l poukont li san okenn ank ki pi wo yo te montre an premye
+
+**Q3. Ki objektif yon opsyon pri 'lak'?**
+A) Yo fèt yon opsyon lak espesyalman pou l vann pi gwo volim posib, plis pase nenpòt lòt opsyon yo ofri
+B) Yo fikse pri ak estrikti yon opsyon lak espesyalman pou fè yon lòt opsyon sib patikilye sanble kòm chwa ki klèman pi bon an lè w konpare, pwòp vrè volim vant li anjeneral se pa rezon pou yo mete l
+
+**Q4. Ki diferans etik enpòtan leson sa a trase konsènan ankraj pri, sa ki fè echo ak Leson 17?**
+A) Pa gen okenn diferans etik enpòtan nan fason yo ka aplike ankraj nan prezantasyon pri
+B) Prezante yon opsyon prim ki vrèman gen plis valè an premye, sa ki pèmèt yon jijman relatif ki egzat, se yon itilizasyon lejitim ankraj, alòske envante yon pri referans ki gonfle atifisyèlman yo pa t janm vrèman fè peye manipile achtè a ak fo enfòmasyon, sa ki fè echo ak premye diferans vrè ijans konpare ak ijans envante a
+
+**Q5. Nan egzanp lan, poukisa yo te konsidere fason biznis la te itilize ankraj la kòm yon aplikasyon lejitim olye youn ki twonpe?**
+A) Biznis la te envante yon pri referans ki gonfle pou nivo prim li yo pa t janm vrèman fè okenn kliyan peye
+B) Pri chak nivo deklare te reflete yon vrè pri yo vrèman ofri, sa ki vle di efè ankraj ki te genyen sou jan achtè yo wè bagay yo te baze sou yon kontèks pri vrè, egzak olye yon konparezon envante
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Aplikasyon dirèk sa a patipri ankraj nan jan moun wè pri se egzakteman poukisa lòd ak fason yo prezante pri yo fòme jan yon achtè vrèman viv yon pri bay.
+
+**Q2.** Jijman relatif sa a ki baze sou ank, olye yon evalyasyon apa, se egzakteman poukisa prezante yon opsyon ki pi wo an premye gen tandans fè yon opsyon sib apre sanble relativman pi rezonab.
+
+**Q3.** Fonksyon sa a pou deplase preferans konparatif vè yon opsyon sib espesifik, olye vann poukont li, se egzakteman objektif yon opsyon pri lak sèvi.
+
+**Q4.** Paralèl sa a ak premye diskisyon vrè rate ak ijans konpare ak rate ak ijans envante se egzakteman diferans etik leson sa a trase pou ankraj pri espesyalman.
+
+**Q5.** Ilistrasyon dirèk sa a sou ankraj yo aplike atravè opsyon vrè ak pri egzak montre egzakteman itilizasyon lejitim teknik sa a leson sa a fè diferan de konparezon pri ki twonpe, envante.
+
+## Pwen kle yo
+- Patipri ankraj aplike dirèkteman nan prezantasyon pri, paske menm pri a ka sanble chè oswa rezonab selon pwen referans yo montre bò kote l.
+- Prezante yon opsyon ki pi chè an premye gen tandans fè yon opsyon sib yo montre apre sanble pi rezonab lè w konpare.
+- Yon opsyon pri lak fèt pou deplase preferans achtè a vè yon opsyon sib espesifik, olye pou l vann yon gwo volim li menm.
+- Itilize ankraj ak opsyon vrè ak pri egzak lejitim, alòske envante yon pri referans ki gonfle pou kreye yon fo enpresyon ekonomi travèse menm liy etik yo te trase nan premye diskisyon vrè ijans konpare ak ijans envante a.
+
+===== ORANGE-L4-043
+TITLE: Analiz kanpay pou fè kliyan tounen (win-back): poukisa reaktive yon kliyan ki te kite diferan de jwenn yon nouvo
+SUMMARY: Konprann poukisa yon ansyen kliyan ki te kite nan yon pozisyon diferan de yon nouvo prospè, poukisa ou dwe konprann rezon espesifik li te kite anvan, poukisa yon òf ki trete vrè rezon an pi bon pase yon senp rabè, ak poukisa kanpay sa yo ka efikas konpare ak akizisyon.
+KEYWORDS: kanpay pou fè kliyan tounen, reaktive ansyen kliyan, dyagnostik rezon depa, konsepsyon òf pou reaktive
+# Analiz kanpay pou fè kliyan tounen (win-back): poukisa reaktive yon kliyan ki te kite diferan de jwenn yon nouvo
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak mache kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, k ap kòmanse montre siy yon gwo koreksyon pandan moun ki pa peye dèt yo ap kòmanse ogmante. Pandan yon boom ki te alimante pa kredi ap defèt e biznis yo ap chèche rekipere revni yon fason efikas, kèk ladan yo dekouvri ke yon ansyen kliyan ki te kite, yon moun ki deja konnen pwodwi a e ki te chwazi ale, mande yon apwòch pou reangaje l ki vrèman diferan de yon nouvo prospè ki pa janm itilize pwodwi a ditou.
+
+## Objektif aprantisaj
+- Esplike poukisa yon ansyen kliyan ki te kite okipe yon pozisyon ki vrèman diferan de yon nouvo prospè, paske li deja fòme yon opinyon espesifik, enfòme sou baz vrè eksperyans li te genyen anvan.
+- Esplike poukisa yon kanpay pou fè kliyan tounen ki efikas anjeneral mande pou w konprann anvan rezon espesifik yon kliyan patikilye te vrèman kite, olye w aplike yon sèl òf pou reaktive jeneral pou tout moun.
+- Esplike poukisa yon òf pou fè kliyan tounen ki trete vrè rezon yon kliyan te kite a gen plis chans reyisi pase yon rabè jeneral poukont li.
+- Esplike poukisa kanpay pou fè kliyan tounen ka yon fason ki vrèman efikas pou itilize resous maketing konpare ak jwenn yon kliyan totalman nouvo, ki konekte ak diskisyon kou pou jwenn kliyan Leson 5 nivo sa a.
+
+## Kontni prensipal
+FÈ VERIFYE: yon ansyen kliyan ki te kite okipe yon pozisyon ki vrèman diferan de yon nouvo prospè ki pa janm itilize pwodwi a ditou, paske kliyan ki te kite a deja fòme yon opinyon espesifik, enfòme sou baz vrè eksperyans dirèk li ak biznis la, sa ki vle di li pa tou senpleman yon prospè ki pa konnen anyen ki bezwen premye edikasyon ak premye konfyans (selon diskisyon etap konsyans Leson 4 nivo sa a), men pito yon moun ki te pran yon desizyon enfòme pou l sispann, pou kèk rezon espesifik, yon efò pou fè l tounen dwe vrèman trete.
+
+Men "poukisa" yon kanpay pou fè kliyan tounen ki efikas anjeneral mande pou w konprann anvan rezon espesifik yon kliyan patikilye te vrèman kite, olye w aplike yon sèl òf pou reaktive jeneral pou tout moun: kliyan yo kite pou rezon espesifik ki vrèman diferan — mekontantman ak yon eksperyans espesifik anvan, yon chanjman pou ale kote yon konkiran espesifik, yon chanjman nan pwòp sitiyasyon yo ki diminye bezwen yo, oswa tou senpleman yon dezangajman piti piti san okenn evènman espesifik ki deklanche l — e yon sèl mesaj oswa yon sèl òf pou fè kliyan tounen jeneral yo aplike yon fason inifòm pou chak ansyen kliyan, kèlkeswa pwòp rezon espesifik yo te kite, pa trete vrè kòz debaz depa okenn kliyan espesifik, sa ki fè echo ak diskisyon Leson 11 nivo sa a sou poukisa trete sèlman sa ki parèt an sifas, san konprann yon enkyetid debaz, anjeneral pa vrèman rezoud li.
+
+Se poutèt sa yon òf pou fè kliyan tounen ki trete vrè rezon yon kliyan te kite a gen plis chans reyisi pase yon rabè jeneral poukont li: yon kliyan ki te kite espesyalman akoz yon vrè pwoblèm sèvis yo te rezoud depi lè sa a gen plis chans reponn a yon mesaj ki rekonèt e trete espesyalman pwoblèm sa a ki rezoud pase a yon òf rabè ki pa gen rapò, alòske yon kliyan ki te kite akoz yon vrè chanjman nan pwòp sitiyasyon li (li pa bezwen pwodwi a ankò ditou) pa gen chans reponn a okenn òf pou reaktive, kèlkeswa jan li byen vize, paske pwoblèm debaz la pa gen anyen pou wè ak pri oswa yon mekontantman espesifik anvan, sa ki vle di dyagnostike kòrèkteman vrè rezon espesifik ki dèyè yon segman ansyen kliyan bay enpòtan anpil pou konsevwa yon apwòch pou fè kliyan tounen ki vrèman gen chans reyisi ak segman patikilye sa a. Se poutèt sa kanpay pou fè kliyan tounen ka yon fason ki vrèman efikas pou itilize resous maketing konpare ak jwenn yon kliyan totalman nouvo, ki konekte ak diskisyon kou pou jwenn kliyan Leson 5 nivo sa a: yon ansyen kliyan ki te kite deja gen yon familyarite dirèk ak pwodwi a, e nan anpil ka, li te deja montre li vle peye pou li, sa ki vle di reyisi reaktive kalite kliyan sa a ka souvan fèt pou yon kou ki pi ba anpil pase jwenn yon prospè totalman nouvo, ki pa t konnen anvan, atravè tout antonwa konsyans-a-konvèsyon nou te diskite nan Leson 4 la, sa ki fè yon efò pou fè kliyan tounen ki byen vize yon konpleman ki vrèman efikas pou depans akizisyon nouvo kliyan, toutotan apwòch reaktivasyon espesifik la vrèman trete pwòp vrè rezon chak segman ansyen kliyan te kite okòmansman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis divize ansyen kliyan li yo selon rezon pwobab yo te kite, sou baz istwa kont ki disponib, li idantifye yon gwoup ki te kite apre yon pwoblèm sèvis espesifik yo te rezoud depi lè sa a, ak yon lòt gwoup apa ki tou senpleman te diminye itilizasyon jeneral yo piti piti san okenn evènman espesifik ki te deklanche sa. Biznis la voye premye gwoup la yon mesaj ki rekonèt espesyalman pwoblèm ki rezoud la e ki envite yo tounen, e li voye dezyèm gwoup la yon mesaj diferan ki mete aksan sou nouvo karakteristik yo te ajoute depi yo te kite, olye l aplike yon òf rabè idantik, jeneral pou tou de gwoup yo — apwòch segmante sa a, ki espesifik pou chak rezon, bay rezilta reaktivasyon ki pi bon anpil pase sa yon sèl mesaj pou fè kliyan tounen jeneral ta gen chans rive fè pou de gwoup ki vrèman diferan yo.
+
+## Egzamen pratik
+**Q1. Poukisa yon ansyen kliyan ki te kite okipe yon pozisyon ki vrèman diferan de yon nouvo prospè?**
+A) Yon ansyen kliyan ki te kite ak yon nouvo prospè mande egzakteman menm apwòch maketing, san okenn diferans enpòtan ant yo
+B) Ansyen kliyan an deja fòme yon opinyon espesifik, enfòme sou baz vrè eksperyans dirèk, sa ki vle di li pa yon prospè ki pa konnen anyen ki bezwen premye edikasyon, men pito yon moun ki te pran yon desizyon enfòme pou l sispann pou kèk rezon espesifik yon efò pou fè l tounen dwe vrèman trete
+
+**Q2. Poukisa yon kanpay pou fè kliyan tounen ki efikas anjeneral mande pou w konprann anvan rezon espesifik yon kliyan te kite?**
+A) Chak ansyen kliyan toujou kite pou egzakteman menm rezon an, sa ki fè dyagnostik endividyèl pa nesesè
+B) Kliyan yo kite pou rezon espesifik ki vrèman diferan, e yon sèl apwòch pou reaktive jeneral yo aplike yon fason inifòm pa trete vrè kòz debaz depa okenn kliyan espesifik, sa ki fè echo ak premye diskisyon an sou trete sa ki parèt an sifas san konprann enkyetid debaz la
+
+**Q3. Poukisa yon òf pou fè kliyan tounen ki trete vrè rezon yon kliyan te kite a gen plis chans reyisi pase yon rabè jeneral poukont li?**
+A) Yon rabè jeneral toujou reyisi kèlkeswa vrè rezon espesifik yon kliyan te kite
+B) Yon kliyan ki te kite akoz yon pwoblèm espesifik yo te rezoud depi lè sa a gen plis chans reponn a yon mesaj ki trete pwoblèm sa a dirèkteman pase a yon rabè ki pa gen rapò, alòske yon kliyan ki te kite akoz bezwen ki diminye pa gen chans reponn a okenn òf kèlkeswa fason espesifik yo prezante l
+
+**Q4. Poukisa kanpay pou fè kliyan tounen ka yon fason ki vrèman efikas pou itilize resous maketing konpare ak akizisyon nouvo kliyan, ki konekte ak Leson 5?**
+A) Kanpay pou fè kliyan tounen toujou pi chè e mwens efikas pase jwenn yon kliyan totalman nouvo
+B) Yon ansyen kliyan ki te kite deja gen yon familyarite dirèk ak pwodwi a e souvan li te deja montre li vle peye, sa ki vle di yon reaktivasyon ki reyisi ka souvan fèt pou yon kou ki pi ba anpil pase jwenn yon prospè totalman nouvo, ki pa konnen anyen atravè tout antonwa akizisyon an
+
+**Q5. Nan egzanp lan, poukisa apwòch segmante, ki espesifik pou chak rezon an te pi bon pase yon sèl mesaj pou fè kliyan tounen jeneral?**
+A) De gwoup ansyen kliyan yo te an reyalite kite pou egzakteman menm rezon debaz la
+B) Biznis la te trete espesyalman pwòp vrè rezon chak gwoup te kite — pwoblèm sèvis ki rezoud la pou yon gwoup ak nouvo karakteristik yo pou lòt la — olye l aplike yon òf rabè idantik, jeneral ki pa t ap trete vrè rezon debaz depa okenn nan gwoup yo
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Eksperyans anvan, enfòme sa a ak desizyon pou kite se egzakteman poukisa yon ansyen kliyan ki te kite mande yon apwòch pou reangaje l ki vrèman diferan de yon nouvo prospè ki pa konnen anyen.
+
+**Q2.** Vrè varyasyon sa a nan poukisa diferan kliyan vrèman kite, ak bezwen pou trete kòz espesifik sa a, se egzakteman poukisa dyagnostik enpòtan anvan w konsevwa yon apwòch pou fè kliyan tounen.
+
+**Q3.** Lyen sa a ant trete vrè kòz debaz la ak chans pou yon reaktivasyon reyisi se egzakteman poukisa yon apwòch ki vize, ki espesifik pou rezon an pi bon pase yon òf rabè jeneral.
+
+**Q4.** Familyarite ki egziste deja sa a ak volonte pou peye yo te deja montre se egzakteman poukisa efò pou fè kliyan tounen ki byen vize ka yon konpleman ki vrèman efikas pou depans akizisyon nouvo kliyan.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon reaktivasyon segmante, ki espesifik pou chak rezon, ki pi bon pase yon apwòch jeneral montre egzakteman poukisa konprann vrè rezon yon ansyen kliyan te kite enpòtan pou konsevwa yon kanpay pou fè kliyan tounen ki efikas.
+
+## Pwen kle yo
+- Yon ansyen kliyan ki te kite okipe yon pozisyon ki vrèman diferan de yon nouvo prospè, paske li deja fòme yon opinyon enfòme e li te pran yon desizyon volontè pou l kite.
+- Kanpay pou fè kliyan tounen ki efikas anjeneral mande pou w konprann anvan rezon espesifik yon kliyan te kite, olye w aplike yon sèl òf jeneral pou tout moun.
+- Yon òf pou fè kliyan tounen ki trete vrè rezon yon kliyan te kite a gen plis chans reyisi pase yon rabè jeneral ki pa gen rapò.
+- Kanpay pou fè kliyan tounen ka vrèman efikas konpare ak akizisyon nouvo kliyan, paske ansyen kliyan yo deja konnen pwodwi a e yo te deja montre yo vle peye.
