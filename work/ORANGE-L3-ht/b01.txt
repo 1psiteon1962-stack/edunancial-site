@@ -1,0 +1,149 @@
+===== ORANGE-L3-001
+TITLE: Poukisa kou pou jwenn yon kliyan (CAC) pa sèlman yon chif maketing
+SUMMARY: Aprann poukisa CAC an reyalite se yon kesyon finansman ak ekonomi pa inite ki kache, sa ki konekte desizyon lavant ak maketing dirèkteman ak sante finansye jeneral yon biznis.
+# ORANGE-L3-001: Poukisa kou pou jwenn yon kliyan (CAC) pa sèlman yon chif maketing
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa CAC mezire ak poukisa yo souvan trete l kòm yon mezi maketing sèlman
+- Esplike poukisa CAC an reyalite se yon kesyon finansman ak siviv biznis, pa sèlman efikasite maketing
+- Idantifye omwen de lòt domèn nan yon biznis yon chanjman nan CAC ta afekte
+
+## Kontni prensipal
+
+Kou pou jwenn yon kliyan (CAC, Customer Acquisition Cost), yo kouvri nan tras BLUE kourikoulòm sa a ansanm ak valè sou tout lavi yon kliyan (LTV), yo souvan diskite l kòm yon mezi pèfòmans maketing — èske kanpay sa a, chanèl sa a, depans piblisite sa a, te pote kliyan yon fason efikas? Men "poukisa" fason sa a pou wè l pa konplè: chak dola yo depanse pou jwenn yon kliyan jodi a se yon dola biznis lan bezwen swa genyen nan men l swa prete, e yo pa pral rekipere l jiskaske kliyan sa a fè ase revni pou remèt li — sa ki vle di CAC an menm tan se yon kesyon maketing ak yon kesyon lajan k ap sikile ak finansman.
+
+Yon biznis ki gen yon CAC k ap monte pa sèlman fè fas ak yon "pwoblèm maketing". Li fè fas ak yon pwoblèm vitès li boule lajan (burn rate, tras BLUE), yon pwoblèm konbyen tan li ka kenbe (runway) si li poko pwofitab, e petèt yon desizyon finansman sou si pou l ranmase kapital, koupe depans, oswa aksepte yon kwasans ki pi dousman. Yon ekip maketing k ap optimize sèlman pou yon CAC ki pi ba san li pa wè pozisyon lajan kach konpayi an ta ka pran yon desizyon ki fè sans lokalman men ki fo pou sitiyasyon finansye reyèl biznis lan an jeneral.
+
+Anvan w li pi lwen: kisa ankò, pi lwen pase maketing ak lajan k ap sikile, yon ogmantasyon CAC ki dire ta ka mete presyon sou li? Konsidere sa ki rive plan konpansasyon yon ekip lavant, konfyans envestisè yo, desizyon sou pri, ak konbyen tan biznis lan vrèman ka kenbe ankò.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] CAC yon konpayi monte 40% pandan de trimès akoz plis konkirans nan piblisite. Ekip maketing lan trete sa kòm yon pwoblèm optimizasyon chanèl pou rezoud ak yon pi bon sib. [SIPOZISYON] Pandan tan sa a, menm ogmantasyon CAC sa a ap pwolonje an silans peryòd remèt sou nouvo kliyan konpayi an, li ap retresi tan li ka kenbe (tras BLUE) pi vit pase ekip finans lan te siyale, e li ap fè ka pou yon wonn ranmase lajan vin pi ijan pase okenn moun nan reyinyon maketing lan rann kont — menm chif la se an menm tan yon mezi maketing, yon siyal lajan k ap sikile, ak yon bagay ki deklanche finansman.
+
+## Egzamen pratik
+
+1. Kisa CAC mezire?
+2. Poukisa CAC pa sèlman yon mezi maketing?
+3. Bay de domèn nan biznis lan, pi lwen pase maketing li menm, yon ogmantasyon CAC ki dire ta ka afekte.
+
+## Kle repons yo
+
+1. Kou mwayen pou jwenn yon nouvo kliyan, anjeneral total depans lavant ak maketing divize pa kantite nouvo kliyan yo jwenn.
+2. Paske chak dola yo depanse pou jwenn kliyan afekte lajan k ap sikile, konbyen tan biznis lan ka kenbe, ak bezwen finansman — yon kesyon efikasite maketing se an menm tan yon kesyon siviv biznis.
+3. Nenpòt de repons rezonab, tankou: konbyen tan biznis lan ka kenbe ak kalandriye finansman, estrikti konpansasyon lavant, estrateji pri, relasyon ak envestisè, oswa estrateji kwasans jeneral.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz la, ki konekte ak tras BLUE la.
+2. Sa a se pwen entegrasyon santral leson an bati sou li.
+3. Sa a fè espre ouvè — objektif la se pou elèv la idantifye koneksyon yo li menm, pa senpleman sonje yon lis yo bay.
+
+## Pwen kle yo
+- CAC se an menm tan yon mezi maketing ak yon siyal lajan k ap sikile/finansman.
+- Yon desizyon maketing ki fè sans lokalman ka fo an jeneral si yo pran l san wè pozisyon lajan kach biznis lan.
+- Desizyon lavant ak maketing gen efè an chèn sou desizyon finansman, konpansasyon, ak estrateji lòt kote nan biznis lan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*
+
+===== ORANGE-L3-002
+TITLE: Poukisa fikse yon pri se yon desizyon finansye, pa sèlman yon desizyon maketing
+SUMMARY: Aprann poukisa fikse yon pri touche maj brit, taks, pozisyònman, ak sikoloji kliyan an menm tan, ak poukisa trete l kòm yon desizyon maketing sèlman rate pi fò sa ki vrèman an jwèt.
+# ORANGE-L3-002: Poukisa fikse yon pri se yon desizyon finansye, pa sèlman yon desizyon maketing
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon pri afekte plis pase sèlman fason moun wè yon pwodui
+- Konekte fikse pri dirèkteman ak konsèp maj brit yo kouvri nan tras BLUE kourikoulòm sa a
+- Idantifye lòt domèn yon desizyon sou pri touche pi lwen pase fason maketing fè moun wè pwodui a
+
+## Kontni prensipal
+
+Yo souvan trete fikse pri kòm yon kesyon maketing ak sikoloji — ki chif ki fè pwodui a sanble gen valè, ki chif ki koresponn ak konkiran yo, ki chif kliyan yo ap aksepte. Tout sa a reyèl. Men "poukisa" fikse pri pa ka separe ak finans: yon pri detèmine dirèkteman maj brit (tras BLUE) — pousantaj nan chak vant ki rete apre kou dirèk yo — sa ki detèmine apre sa konbyen espas biznis lan genyen pou kouvri frè jeneral, envesti nan kwasans, oswa absòbe yon move mwa.
+
+Yon pri ki fikse twò ba pou genyen pati nan mache a ka sanble yon siksè maketing (plis kliyan, plis volim) alòske an silans li grangou biznis lan de maj li bezwen pou l siviv yon bès, finanse pewòl, oswa reyenvesti nan pwodui a. Yon pri yo fikse san yo pa konprann vrè estrikti kou ki dèyè l la pa yon desizyon sou pri ditou — se yon devinèt ki abiye an estrateji.
+
+Anvan w avanse: si yon konkiran ta koupe pri l 20% toudenkou, kisa ou ta bezwen konnen sou pwòp estrikti kou pa w anvan w deside si pou w swiv li? Kisa egalize pri sa a ta vrèman fè maj ou, e kisa refize egalize l ta fè volim vant ou?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon konpayi fikse pri li sitou selon sa ki "sanble bon" konpare ak konkiran yo, san li pa kalkile anvan pwòp maj brit li nan pri sa a. [SIPOZISYON] Volim vant lan sanble fò pandan plizyè mwa, sa ki bay enpresyon yon estrateji pri k ap genyen — men lè w gade vrè maj la pi pre, ou wè biznis lan ap kouvri apèn plis pase kou dirèk li sou chak vant, sa ki kite prèske anyen pou kouvri frè jeneral, depans maketing, oswa yon kousen pou peryòd ki pi dousman. Pri a te "mache" dapre yon mezi maketing (volim) alòske an silans li t ap echwe dapre yon mezi finansye (maj).
+
+## Egzamen pratik
+
+1. Kisa yon pri detèmine dirèkteman, an lyen ak tras BLUE la?
+2. Poukisa yon desizyon sou pri ka sanble reyisi dapre yon mezi maketing alòske li pa solid sou plan finansye?
+3. Si yon konkiran ta koupe pri l anpil, kisa ou ta bezwen konprann sou pwòp biznis ou anvan w reyaji?
+
+## Kle repons yo
+
+1. Maj brit — pousantaj nan chak vant ki rete apre kou dirèk yo.
+2. Paske volim ak fason kliyan wè pwodui a ka sanble fò menm lè maj la twò mens pou kouvri frè jeneral ak lòt kou yon fason dirab.
+3. Pwòp estrikti kou ou ak maj aktyèl ou nan pri ki egziste a, pou w ka kalkile kisa egalize pri konkiran an ta vrèman fè pwofitabilite ou, pa sèlman volim vant ou.
+
+## Repons ak eksplikasyon
+
+1. Sa mare fikse pri dirèkteman ak konsèp maj brit tras BLUE la.
+2. Sa a se avètisman santral leson an bati sou li.
+3. Sa a fè espre ouvè, li mande elèv la idantifye varyab finansye ki konsène a li menm.
+
+## Pwen kle yo
+- Yon desizyon sou pri detèmine dirèkteman maj brit, pa sèlman fason kliyan wè pwodui a.
+- "Siksè" ki baze sou volim ka kache yon desizyon sou pri ki pa dirab sou plan finansye.
+- Reyaji ak yon chanjman pri yon konkiran mande konprann pwòp estrikti kou ou an premye, pa sèlman egalize chif li.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou pri oswa desizyon biznis.*
+
+===== ORANGE-L3-003
+TITLE: Poukisa yon antonwa lavant modelize pwobabilite, pa sètitid
+SUMMARY: Aprann poukisa chak etap nan yon antonwa lavant reprezante yon pwobabilite, pa yon garanti, ak poukisa trete chif antonwa a kòm sèten mennen nan move previzyon ak pi move desizyon finansye.
+# ORANGE-L3-003: Poukisa yon antonwa lavant modelize pwobabilite, pa sètitid
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon antonwa lavant reprezante nan chak etap
+- Esplike poukisa to konvèsyon nan antonwa a se pwobabilite, pa garanti
+- Esplike poukisa trete yon antonwa kòm sèten mennen nan erè nan planifikasyon finansye apre
+
+## Kontni prensipal
+
+Yon **antonwa lavant** (sales funnel) anjeneral swiv kliyan potansyèl atravè etap — konesans, enterè, konsiderasyon, ak finalman acha — ak yon sèten pousantaj ki tonbe nan chak etap. Men "poukisa" ou ta dwe li chak chif nan antonwa sa a kòm yon pwobabilite, pa yon pwomès: yon to konvèsyon 20% soti nan "enterè" rive nan "acha" pa vle di nenpòt kliyan potansyèl espesifik gen 20% chans — sa vle di, nan yon gwoup ki ase gwo, apeprè pati sa a gen tandans konvèti, ak vrè varyasyon de mwa an mwa e san okenn garanti mwa sa a ap koresponn ak mwayèn lan.
+
+Sa konekte dirèkteman ak poukisa previzyon lavant, ak pwojeksyon lajan k ap sikile yo bati sou yo, se estimasyon ki gen vrè ensètitid, pa chif fiks — yon biznis ki planifye anbochaj, envantè, oswa angajman depans lè l trete to konvèsyon mwayen istorik yon antonwa kòm yon rezilta garanti ap bati desizyon finansye sou yon fondasyon ki ka chanje pou rezon ki nèt deyò kontwòl ekip lavant lan.
+
+Kisa ou ta vle konnen anvan w angaje w nan yon gwo nouvo desizyon depans ki baze sou previzyon lavant pwochen trimès la? Konsidere: konbyen vrè to konvèsyon an te varye istorikman, e kisa ki rive pozisyon lajan kach ou si trimès sa a tonbe nan bò ki ba nan seri sa a olye mwayèn lan?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Antonwa lavant yon biznis istorikman konvèti 15% kliyan potansyèl ki kalifye an kliyan k ap peye, e ekip la bati plan anbochaj pwochen trimès la sou sipozisyon menm to 15% sa a. [SIPOZISYON] Si vrè to konvèsyon trimès sa a tonbe nan 10% olye sa — byen anndan varyasyon istorik nòmal — biznis lan te deja angaje l nan pewòl ak lòt kou ki baze sou revni ki pa t rive, yon pwoblèm lajan k ap sikile ki pa soti nan okenn sèl erè men nan trete yon mwayèn kòm yon sètitid.
+
+## Egzamen pratik
+
+1. Kisa yon antonwa lavant anjeneral reprezante nan chak etap?
+2. Poukisa ou ta dwe li to konvèsyon yon antonwa kòm yon pwobabilite olye yon garanti?
+3. Kisa yon biznis ta dwe egzamine anvan l pran yon angajman depans ki baze sou yon previzyon lavant?
+
+## Kle repons yo
+
+1. Etap yon kliyan potansyèl pase ladan yo, ak yon sèten pati ki tonbe nan chak etap.
+2. Paske li reflete yon tandans mwayèn nan yon gwoup, ak vrè varyasyon de mwa an mwa, pa yon rezilta fiks pou okenn peryòd espesifik.
+3. Konbyen vrè to konvèsyon an te varye istorikman, e ki jan pozisyon lajan kach biznis lan ta ye si rezilta yo tonbe anba mwayèn lan olye nan li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se diferans santral leson an bati sou li.
+3. Sa a fè espre ouvè, li mande elèv la konekte ensètitid previzyon lavant ak planifikasyon lajan k ap sikile li menm.
+
+## Pwen kle yo
+- To konvèsyon yon antonwa lavant se pwobabilite ki baze sou mwayèn istorik, pa garanti pou okenn peryòd espesifik.
+- Angajman finansye ki bati sou trete yon to konvèsyon mwayen kòm sèten kreye yon vrè risk lajan k ap sikile.
+- Konprann seri varyasyon istorik la, pa sèlman mwayèn lan, enpòtan pou yon bon planifikasyon finansye.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*
