@@ -147,3 +147,103 @@ Se poutèt sa envestisè ki gen eksperyans e ki disipline pa nesesèman moun ki 
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-034
+TITLE: Poukisa twòp konfyans se yon risk yo dokimante nan desizyon envestisman
+SUMMARY: Aprann poukisa patipri twòp konfyans fè envestisè yo surestime pwòp kapasite yo pou chwazi sa ki pral genyen oswa chwazi moman mache a, ak poukisa envestisè ki gen plis eksperyans pa otomatikman pwoteje kont li.
+# GOLD-L3-034: Poukisa twòp konfyans se yon risk yo dokimante nan desizyon envestisman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini patipri twòp konfyans (overconfidence bias) nan yon kontèks envestisman
+- Esplike poukisa plis konesans oswa eksperyans pa otomatikman elimine patipri sa a
+- Esplike yon konsekans pratik yo dokimante twòp konfyans envestisè yo
+
+## Kontni prensipal
+
+**Patipri twòp konfyans** dekri yon tandans yo dokimante byen kote moun surestime pwòp kapasite yo, konesans yo, oswa egzaktitid prediksyon yo, konpare ak vrè pèfòmans yo mezire objektivman. Aplike nan envestisman, sa ka parèt kòm surestime pwòp kapasite w pou chwazi envestisman endividyèl ki pral genyen yon fason konsistan, chwazi kòrèkteman moman pou antre ak sòti nan mache a, oswa prevwa kondisyon ekonomik alavni yon fason egzak.
+
+Men "poukisa" patipri sa a pa senpleman disparèt ak plis konesans oswa eksperyans: [FÈ VERIFYE] rechèch nan finans konpòtmantal jwenn ke twòp konfyans ka an reyalite pi fò pami moun ki gen plis konesans oswa eksperyans nan yon domèn, paske konnen yon sijè pi byen ka, yon fason paradoksal, ogmante konfyans nan pwòp jijman w pi lwen pase sa konesans anplis sa a poukont li ta jistifye objektivman — sa ki vle di eksperyans ak edikasyon nan envestisman, enkli tout sa yo kouvri nan kourikoulòm sa a, pa otomatikman pwoteje yon moun kont patipri espesifik sa a, e li ka menm fè l vin pi pwobab si pa gen yon konsyans ak yon efò kontrè fè espre.
+
+Yon konsekans pratik yo dokimante: [FÈ VERIFYE] rechèch ki analize vrè konpòtman komès envestisè yo jwenn an jeneral ke komès pi souvan, ki souvan mache ansanm ak plis konfyans envestisè a genyen nan pwòp kapasite li pou prevwa, te asosye ak rannman nèt ki pi ba an mwayèn, konpare ak komès mwens souvan — sa ki konekte dirèkteman ak kou tranzaksyon ak difikilte pou fè pi byen pase mache a yon fason konsistan yo diskite lòt kote nan tras WHITE kourikoulòm sa a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè ki etidye envestisman anpil, enkli anpil nan matyè yo kouvri nan tout kourikoulòm sa a, kòmanse santi l gen konfyans nan kapasite li pou idantifye envestisman espesifik ki pral genyen e chwazi moman mouvman mache yo pi egzakteman pase anvan. [SIPOZISYON] San yon konsyans espesifik sou patipri twòp konfyans ak yon efò kontrè fè espre — tankou kenbe yon plan envestisman ekri (tras WHITE) ak swiv onètman vrè desizyon li yo konpare ak rezilta yo ak tan — konesans li ki ogmante a ta ka, yon fason paradoksal, ogmante konfyans li pi lwen pase sa ki jistifye objektivman, sa ki ta ka mennen nan komès pi souvan e, dapre modèl rechèch yo dokimante, yon rezilta nèt ki pi mal pase yon apwòch ki pi disipline, ke yo ajiste mwens souvan.
+
+## Egzamen pratik
+
+1. Kisa patipri twòp konfyans ye, an jeneral?
+2. Poukisa plis konesans oswa eksperyans pa otomatikman elimine patipri sa a?
+3. Ki konsekans pratik twòp konfyans yo dokimante leson sa a dekri?
+
+## Kle repons yo
+
+1. Yon tandans yo dokimante byen pou surestime pwòp kapasite w, konesans ou, oswa egzaktitid prediksyon w, konpare ak vrè pèfòmans ou mezire objektivman.
+2. Paske rechèch jwenn twòp konfyans ka pi fò pami moun ki gen plis konesans oswa eksperyans, paske konnen yon sijè pi byen ka, yon fason paradoksal, ogmante konfyans pi lwen pase sa konesans sa a poukont li ta jistifye objektivman.
+3. Rechèch jwenn an jeneral ke komès pi souvan, ki souvan mache ansanm ak plis konfyans envestisè a, te asosye ak rannman nèt ki pi ba an mwayèn konpare ak komès mwens souvan.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se konpreyansyon santral, kont entwisyon leson an mete an evidans.
+3. Sa bay patipri abstrè a yon baz nan yon konsekans pratik, konkrè yo dokimante.
+
+## Pwen kle yo
+- Patipri twòp konfyans mennen nan surestime pwòp kapasite envestisman w konpare ak vrè pèfòmans ou.
+- Patipri sa a pa otomatikman diminye ak plis konesans oswa eksperyans, e li ka menm vin pi fò san yon efò kontrè fè espre.
+- Komès pi souvan, souvan mare ak twòp konfyans, te asosye ak rannman nèt mwayèn ki pi ba nan rechèch yo dokimante.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-035
+TITLE: Poukisa yon estrateji kontrè mande yon vrè konviksyon, pa sèlman fè kontrè
+SUMMARY: Aprann poukisa senpleman fè opoze foul la pa yon bon estrateji envestisman poukont li, ak poukisa yon vrè envestisman kontrè mande yon konviksyon espesifik, byen rezone.
+# GOLD-L3-035: Poukisa yon estrateji kontrè mande yon vrè konviksyon, pa sèlman fè kontrè
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon vrè apwòch envestisman kontrè gen ladan l
+- Esplike poukisa senpleman fè opoze santiman ki domine a pa yon bon estrateji poukont li
+- Esplike kisa ki vrèman fè diferans ant yon konviksyon kontrè byen rezone ak senpleman fè kontrè
+
+## Kontni prensipal
+
+Yon apwòch envestisman **kontrè** (contrarian) anjeneral gen ladan l pran pozisyon ki ale kont santiman ki domine sou mache a — achte lè lòt moun pè e vann lè lòt moun antouzyas, sa ki reflete premye leson tras sa a sou difikilte "achte ba, vann wo".
+
+Men "poukisa" senpleman fè kontrè pou fè kontrè pa otomatikman yon bon estrateji: santiman ki domine sou mache a, menm si li pafwa fo, pafwa li kòrèk tou — yon byen k ap bese ta ka ap bese pou rezon nèt lejitim ki kontinye jistifye plis bès, pa sèlman yon panik tanporè. [FÈ VERIFYE] Yon pozisyon kontrè byen rezone mande plis pase senpleman remake ke foul la pa dakò avè w kounye a — li mande yon baz espesifik, byen esplike pou kwè opinyon aktyèl foul la fo, ki chita sou vrè kad evalyasyon ak analiz yo kouvri nan tout kourikoulòm sa a, pa senpleman lefèt ke yon pozisyon pa popilè kounye a.
+
+Sa konekte ak diskisyon Leson 25 la lòt kote nan tras RED kourikoulòm sa a sou levye negatif: aksepte yon pozisyon espesyalman paske li pa popilè, san yon rezon espesifik, byen esplike pou atann yon rezilta diferan de konsansis aktyèl la, pi pre yon jistifikasyon pase yon vrè tèz envestisman — menm avètisman an aplike isit la, adapte pou envestisman kontrè an jeneral.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè konsidere pran yon gwo pozisyon nan yon byen ki bese anpil e ki pa popilè kounye a ak pifò lòt envestisè. [SIPOZISYON] Si rezònman li se senpleman "tout lòt moun twonpe paske yo twò pesimis", san yon baz espesifik, byen esplike ki chita sou yon vrè analiz fondamantal oswa evalyasyon byen debaz la, sa pi pre fè kontrè pou fè kontrè pase yon vrè konviksyon envestisman. Si okontrè li fè travay analiz espesifik la — egzamine vrè kad evalyasyon ki enpòtan pou kalite byen sa a, jan yo kouvri nan tout tras sa a, e idantifye yon baz espesifik, byen rezone pou kwè santiman aktyèl la pa reflete reyalite debaz byen an — pozisyon kontrè li reflete yon vrè konviksyon, pa senpleman yon pari reflèks kont foul la.
+
+## Egzamen pratik
+
+1. Kisa yon vrè apwòch envestisman kontrè gen ladan l?
+2. Poukisa senpleman fè opoze santiman ki domine a pa otomatikman yon bon estrateji?
+3. Kisa ki vrèman fè diferans ant yon konviksyon kontrè byen rezone ak senpleman fè kontrè, dapre leson sa a?
+
+## Kle repons yo
+
+1. Pran pozisyon ki ale kont santiman ki domine sou mache a, achte lè lòt moun pè e vann lè lòt moun antouzyas.
+2. Paske santiman ki domine a pafwa kòrèk, pa sèlman fo — yon byen k ap bese ta ka ap bese pou rezon lejitim ki kontinye jistifye plis bès, pa sèlman yon panik tanporè.
+3. Yon baz espesifik, byen esplike pou kwè opinyon aktyèl foul la fo, ki chita sou vrè kad evalyasyon ak analiz — pa senpleman lefèt ke yon pozisyon pa popilè kounye a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se avètisman santral kont fè kontrè pou fè kontrè.
+3. Sa a se tès pratik leson an etabli pou fè diferans lan, ki konekte ak yon avètisman paralèl yo kouvri lòt kote nan kourikoulòm sa a.
+
+## Pwen kle yo
+- Yon apwòch kontrè pran pozisyon kont santiman ki domine sou mache a, men santiman an pafwa kòrèk, pa sèlman fo.
+- Senpleman fè opoze foul la pa otomatikman yon bon estrateji san yon baz espesifik, byen rezone.
+- Yon vrè konviksyon kontrè mande yon analiz espesifik ki chita sou vrè kad evalyasyon, pa sèlman lefèt ke yon pozisyon pa popilè.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
