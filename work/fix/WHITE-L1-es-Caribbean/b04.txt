@@ -1,0 +1,354 @@
+===== WHITE-L1-016
+TITLE: ¿Qué es un mercado alcista y qué es un mercado bajista?
+SUMMARY: Aprende qué significan los mercados alcistas y bajistas, y por qué estas etiquetas describen una tendencia, no una garantía de lo que pasará después.
+# ¿Qué es un mercado alcista y qué es un mercado bajista?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un mercado alcista y un mercado bajista.
+- Explicar en qué suelen basarse estas etiquetas.
+- Explicar por qué describen una tendencia y no un futuro garantizado.
+
+## Contenido principal
+
+### Qué significa cada término
+
+Un mercado alcista (bull market) se refiere en general a un período sostenido de precios en alza en todo un mercado. Un mercado bajista (bear market) se refiere en general a un período sostenido de precios en baja, que a menudo se define de forma aproximada como una caída de un porcentaje importante (comúnmente alrededor del 20%) desde un máximo reciente.
+
+### En qué se basan las etiquetas
+
+Estos términos describen una tendencia observada durante un período, no una predicción. Un mercado se suele calificar de "alcista" o "bajista" según el movimiento de precios que ya ocurrió, mirando hacia atrás o a un patrón actual sostenido.
+
+### Por qué no son una garantía
+
+Estar en un mercado alcista o bajista no garantiza lo que pasará después: los mercados pueden pasar de uno a otro, y nadie puede predecir con fiabilidad exactamente cuándo ocurrirá ese cambio. Tratar las etiquetas actuales como un pronóstico es una suposición común, pero riesgosa.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un mercado que ha subido de forma constante durante dos años podría describirse como un mercado alcista, pero esa etiqueta describe lo que ya pasó, no una garantía de que los precios seguirán subiendo.
+
+## Prueba de práctica
+
+1. Un mercado alcista se refiere en general a:
+   A. Un período sostenido de precios en baja
+   B. Un período sostenido de precios en alza
+   C. Un solo día de negociación
+   D. Un tipo de bono
+2. Verdadero o falso: que un mercado se califique de "alcista" garantiza que los precios seguirán subiendo.
+3. ¿En qué suelen basarse las etiquetas de mercado alcista y bajista?
+   A. En un anuncio del gobierno
+   B. En una tendencia de precios observada durante un período
+   C. En el informe de resultados de una sola empresa
+   D. En el clima
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un mercado alcista se refiere a una tendencia sostenida al alza.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La etiqueta describe una tendencia pasada o actual, no un futuro garantizado.
+
+### Pregunta 3
+
+Respuesta correcta: B. Estas etiquetas reflejan una tendencia de precios observada.
+
+## Puntos clave
+
+- Un mercado alcista es una tendencia sostenida al alza; un mercado bajista es una tendencia sostenida a la baja.
+- Estas etiquetas describen una tendencia observada, no una predicción.
+- Los mercados pueden pasar de uno a otro de forma impredecible.
+
+===== WHITE-L1-017
+TITLE: ¿Qué es el interés compuesto? (La idea que todos mencionan, pero pocos explican)
+SUMMARY: Aprende cómo funciona realmente el interés compuesto, paso a paso, y no solo como una palabra de moda.
+# ¿Qué es el interés compuesto? (La idea que todos mencionan, pero pocos explican)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir el interés compuesto en términos sencillos.
+- Distinguirlo del interés simple.
+- Calcular un ejemplo básico de crecimiento compuesto durante algunos períodos.
+
+## Contenido principal
+
+### Qué es el interés compuesto
+
+El interés compuesto es el interés que se calcula no solo sobre la cantidad original invertida, sino también sobre los intereses ya acumulados; es decir, el crecimiento se construye encima del crecimiento anterior, no solo sobre la cantidad inicial.
+
+### Interés compuesto frente a interés simple
+
+El interés simple se calcula solo sobre la cantidad original, en cada período. El interés compuesto se calcula sobre la cantidad original más todos los intereses ganados antes; esa es justamente la razón por la que la capitalización se acelera con el tiempo.
+
+### Un ejemplo paso a paso
+
+Empezando con $1,000 a un interés compuesto anual del 10%: después del año 1, tienes $1,100. Después del año 2, el interés se calcula sobre $1,100 (no solo sobre los $1,000 originales) y llegas a $1,210. Después del año 3, se calcula sobre $1,210 y llegas a $1,331: el crecimiento se acelera porque el interés de cada año se calcula sobre una base más grande.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* $1,000 a un interés simple del 10% ganan exactamente $100 cada año: $1,100, $1,200, $1,300. Los mismos $1,000 a un interés compuesto del 10% llegan a $1,100, $1,210, $1,331: una diferencia pequeña pero creciente, que se amplía mucho en períodos más largos.
+
+## Prueba de práctica
+
+1. El interés compuesto se calcula sobre:
+   A. Solo la cantidad original invertida
+   B. La cantidad original más los intereses ganados antes
+   C. Una tasa fija del gobierno
+   D. Solo el aporte del año más reciente
+2. Verdadero o falso: el interés simple y el interés compuesto producen resultados idénticos con el tiempo.
+3. $1,000 crecen hasta $1,100 después del año 1 a un interés compuesto del 10%. ¿Hasta cuánto crecerían después del año 2?
+   A. $1,100
+   B. $1,200
+   C. $1,210
+   D. $1,300
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El interés compuesto se construye sobre el principal y los intereses acumulados.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El interés compuesto crece más rápido que el interés simple con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: C. $1,100 × 1.10 = $1,210 (un crecimiento del 10% sobre la base nueva, más grande).
+
+## Puntos clave
+
+- El interés compuesto se calcula sobre el principal más los intereses acumulados.
+- Esa es la diferencia clave con el interés simple, que solo usa la cantidad original.
+- La diferencia entre el interés compuesto y el simple se amplía en períodos más largos.
+
+===== WHITE-L1-018
+TITLE: ¿Qué es un 401(k)?
+SUMMARY: Aprende qué es un 401(k), cómo funciona normalmente y un beneficio común del empleador ligado a él.
+# ¿Qué es un 401(k)?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un 401(k) en términos sencillos.
+- Explicar cómo funcionan normalmente los aportes.
+- Explicar qué es el aporte equivalente del empleador.
+
+## Contenido principal
+
+### Qué es un 401(k)
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: este es un tipo de cuenta de retiro propio de EE. UU. Puerto Rico tiene además sus propias reglas para los planes de retiro de empleadores, y en la República Dominicana el ahorro para el retiro de los trabajadores se organiza principalmente mediante las Administradoras de Fondos de Pensiones, AFP.)* Un 401(k) es una cuenta de ahorro para el retiro patrocinada por el empleador, que permite a los empleados aportar una parte de su salario, a menudo con ventajas contributivas, a su ahorro para el retiro a largo plazo.
+
+### Cómo funcionan normalmente los aportes
+
+En general, los empleados eligen un porcentaje o una cantidad de su salario para aportar de forma automática, que luego se invierte en las opciones que ofrece el plan del empleador (a menudo una lista de fondos, incluidas opciones como los ETF y los fondos mutuos que vimos antes en este nivel).
+
+### Qué es el aporte equivalente del empleador
+
+Muchos empleadores ofrecen un "aporte equivalente" (match): aportan dinero adicional según lo que aporte el empleado, hasta cierto límite. En la práctica es una compensación extra ligada específicamente a participar en el plan, y no aprovechar por completo un aporte equivalente disponible es una oportunidad perdida que se menciona con frecuencia.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un empleador ofrece igualar el 50% de los aportes del empleado hasta el 6% del salario. Una empleada que gana $50,000 y aporta el 6% ($3,000) recibe $1,500 adicionales del aporte equivalente del empleador, un dinero que no recibiría si no aportara.
+
+## Prueba de práctica
+
+1. Un 401(k) es:
+   A. Un tipo de cuenta de cheques
+   B. Una cuenta de ahorro para el retiro patrocinada por el empleador
+   C. Una pensión del gobierno que se paga automáticamente
+   D. Un tipo de bono
+2. Verdadero o falso: todos los empleadores están obligados a ofrecer un aporte equivalente.
+3. ¿Qué es el aporte equivalente del empleador?
+   A. Una multa contributiva
+   B. Aportes adicionales del empleador según lo que aporte el empleado
+   C. Un tipo de préstamo
+   D. Un pago fijo del gobierno
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un 401(k) es una cuenta de retiro patrocinada por el empleador.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El aporte equivalente es común, pero no es obligatorio ni se ofrece en todos los casos.
+
+### Pregunta 3
+
+Respuesta correcta: B. El aporte equivalente es dinero adicional del empleador ligado a los aportes del empleado.
+
+## Puntos clave
+
+- Un 401(k) es una cuenta de ahorro para el retiro patrocinada por el empleador.
+- Los aportes suelen ser automáticos, mediante descuentos del salario.
+- El aporte equivalente del empleador, cuando se ofrece, es en la práctica una compensación extra por participar.
+
+===== WHITE-L1-019
+TITLE: ¿Qué es una IRA y en qué se diferencia de un 401(k)?
+SUMMARY: Aprende qué es una IRA y la diferencia central entre ella y un 401(k) patrocinado por el empleador.
+# ¿Qué es una IRA y en qué se diferencia de un 401(k)?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una IRA en términos sencillos.
+- Explicar la diferencia central entre una IRA y un 401(k).
+- Reconocer que ambas sirven al mismo propósito general de ahorrar para el retiro.
+
+## Contenido principal
+
+### Qué es una IRA
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: este es un tipo de cuenta propio de EE. UU.; Puerto Rico tiene sus propias reglas para las cuentas IRA, y otros países, como la República Dominicana, organizan el ahorro para el retiro con sistemas distintos.)* Una IRA (cuenta individual de retiro, por sus siglas en inglés) es una cuenta de ahorro para el retiro que una persona abre por su cuenta, sin depender de un empleador, a menudo en un banco o una casa de corretaje.
+
+### La diferencia central con un 401(k)
+
+Un 401(k) está ligado a un empleador y normalmente solo está disponible mientras se trabaja allí. Una IRA la abre una persona por su cuenta y no está ligada a ningún empleador específico: alguien puede tener una IRA tenga o no un empleo con un 401(k) disponible.
+
+### El mismo propósito general
+
+A pesar de la diferencia estructural, ambos tipos de cuenta sirven al mismo propósito central: fomentar y ofrecer formas de ahorrar para el retiro con ventajas contributivas.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Alguien que trabaja por cuenta propia y no tiene un 401(k) de un empleador puede abrir una IRA y aportar a ella por su cuenta: la cuenta no depende en absoluto de tener un empleador específico.
+
+## Prueba de práctica
+
+1. Una IRA es:
+   A. Algo que solo está disponible a través de un empleador
+   B. Una cuenta de retiro que una persona abre por su cuenta
+   C. Un tipo de cuenta de cheques
+   D. Una pensión del gobierno
+2. Verdadero o falso: un 401(k) y una IRA están ligados a un empleador exactamente de la misma manera.
+3. ¿Puede alguien sin un 401(k) patrocinado por un empleador ahorrar igualmente para el retiro mediante una IRA?
+   A. No, siempre se necesita un empleador
+   B. Sí, una IRA se abre sin depender de ningún empleador
+   C. Solo si ya está retirado
+   D. Solo los empleados del gobierno pueden abrir una IRA
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una IRA la abre una persona por su cuenta.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un 401(k) está ligado al empleador; una IRA no.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las IRA no dependen del patrocinio de un empleador.
+
+## Puntos clave
+
+- Una IRA es una cuenta de retiro que se abre por cuenta propia, sin estar ligada a un empleador.
+- Esa es la diferencia estructural central con un 401(k).
+- Ambas sirven al mismo propósito general: ahorrar para el retiro con ventajas contributivas.
+
+===== WHITE-L1-020
+TITLE: Tradicional o Roth: ¿qué cambia realmente en el tratamiento contributivo?
+SUMMARY: Aprende la diferencia central de momento de tributación entre las cuentas de retiro tradicionales y las Roth.
+# Tradicional o Roth: ¿qué cambia realmente en el tratamiento contributivo?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Explicar la diferencia central de momento de tributación entre las cuentas tradicionales y las Roth.
+- Explicar cuándo tributa una cuenta tradicional.
+- Explicar cuándo tributa una cuenta Roth.
+
+## Contenido principal
+
+### La diferencia central de momento de tributación
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: esto describe un concepto contributivo de EE. UU.; las reglas de Puerto Rico y de otros países pueden ser distintas.)* Tanto las cuentas tradicionales como las Roth (disponibles en versiones 401(k) o IRA) ofrecen ventajas contributivas; la diferencia real es CUÁNDO se aplica el beneficio contributivo, no que una sea mejor en todas las situaciones.
+
+### Cuentas tradicionales
+
+Los aportes a una cuenta tradicional suelen hacerse antes de impuestos, y los retiros durante la jubilación en general tributan como ingreso en ese momento posterior.
+
+### Cuentas Roth
+
+Los aportes a una cuenta Roth se hacen con dinero que ya pagó impuestos, pero los retiros que cumplen los requisitos durante la jubilación en general están libres de impuestos: el impuesto se paga al principio y no después.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un aporte a una cuenta tradicional reduce el ingreso tributable ahora, y el impuesto se paga después, en los retiros. Un aporte a una cuenta Roth no da ningún beneficio contributivo ahora, pero los retiros que cumplen los requisitos después en general están libres de impuestos: el mismo dólar, gravado en un momento distinto.
+
+## Prueba de práctica
+
+1. La diferencia central entre las cuentas tradicionales y las Roth es:
+   A. Solo las cuentas tradicionales permiten invertir en acciones
+   B. Cuándo se aplica la ventaja contributiva: ahora o después
+   C. Las cuentas Roth son solo para empleadores
+   D. No hay ninguna diferencia real
+2. Verdadero o falso: los aportes a una cuenta tradicional suelen hacerse con dinero que ya pagó impuestos.
+3. ¿Cuándo tributan en general los retiros de una Roth que cumplen los requisitos?
+   A. Al momento de aportar
+   B. En general no tributan al retirarse, porque el impuesto se pagó al principio
+   C. Dos veces: al aportar y al retirar
+   D. Nunca se aporta con dinero real
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El momento de la ventaja contributiva es la diferencia central.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los aportes tradicionales suelen hacerse antes de impuestos.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las cuentas Roth pagan el impuesto al principio, así que los retiros que cumplen los requisitos en general están libres de impuestos después.
+
+## Puntos clave
+
+- Tanto las cuentas tradicionales como las Roth ofrecen ventajas contributivas, en momentos distintos.
+- Tradicional: a menudo con ventaja contributiva ahora y tributación después, al retirar.
+- Roth: tributa ahora y, en general, está libre de impuestos al retirar después si se cumplen los requisitos.
