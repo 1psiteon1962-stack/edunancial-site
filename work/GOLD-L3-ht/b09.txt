@@ -97,3 +97,151 @@ Diferans sa a konekte dirèkteman ak diskisyon sou "refij" Leson 20 la: pou yon 
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-043
+TITLE: Poukisa risk jeopolitik parèt yon fason diferan nan chak klas byen
+SUMMARY: Swiv yon senaryo jeopolitik ipotetik reyalis e gade kijan menm evènman an gen efè diferan an menm tan sou imobilye, finansman biznis, ak byen sou papye.
+# GOLD-L3-043: Poukisa risk jeopolitik parèt yon fason diferan nan chak klas byen
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Swiv kijan yon sèl evènman jeopolitik ipotetik afekte plizyè klas byen yon fason diferan
+- Aplike konsèp "refij" ak pwoteksyon kont enflasyon yo kouvri pi bonè nan tras sa a sou yon senaryo ipotetik espesifik
+- Esplike poukisa konprann reyaksyon diferan ant koulè yo fè jijman jeneral sou pòtfèy la vin pi file
+
+## Kontni prensipal
+
+[SENARYO IPOTETIK — SIPOZISYON, SE PA YON FÈ VERIFYE] Imajine yon gwo konfli jeopolitik deranje yon gwo wout transpò maritim mondyal, sa ki fè kou transpò monte anpil e ki kreye ensètitid nan tout mache mondyal yo. Sa a se yon senaryo tès estrès ipotetik, pa yon prediksyon sou okenn evènman, peyi, oswa konfli reyèl espesifik.
+
+Nan senaryo ipotetik sa a, pètibasyon an ta gen chans touche plizyè klas byen yo kouvri nan kourikoulòm sa a an menm tan, chak youn atravè yon mekanis diferan. Dapre tèm tras WHITE la: mache yo ta ka wè yon gwo volatilite pandan ensètitid sou chèn apwovizyònman ak benefis konpayi yo ap ogmante, e estrateji opsyon tankou yon straddle (parye sou mouvman olye direksyon, tras WHITE) ta ka vin pi atiran akoz vrè ensètitid sou ki direksyon mache yo pral pran. Dapre tèm tras RED la: valè imobilye ak kou finansman nan rejyon ki dirèkteman afekte yo ta ka chanje, alòske rejyon ki byen plase pou benefisye de komès ki pran yon lòt wout ta ka wè efè opoze a. Dapre tèm tras BLUE la: yon startup ki ofri yon solisyon altènatif pou transpò maritim oswa lojistik ta ka toudenkou jwenn li pi fasil pou ranmase finansman, akoz plis enterè envestisè yo genyen pou solisyon a pètibasyon an. Anndan tras GOLD sa a espesyalman: lò, dapre diskisyon sou "refij" Leson 20 la, ta ka wè plis demann pandan envestisè yo ap chèche byen ki deyò sistèm ki dirèkteman afekte a, alòske pri matyè premyè an jeneral ta ka chanje selon machandiz espesifik wout transpò ki deranje a afekte.
+
+## Egzanp pratik
+
+[IPOTETIK — ILISTRATIF, SE PA YON PREDIKSYON] Yon envestisè ki gen yon pòtfèy divèsifye ant kalite byen yo kouvri nan tout kourikoulòm sa a viv pètibasyon ipotetik sa a yon fason diferan nan diferan envestisman li: pòsyon lò li, an akò ak diskisyon sou "refij" Leson 20 la, kenbe oswa menm ogmante valè; imobilye li nan rejyon ki afekte a wè valè yo bese, alòske yon lòt imobilye separe li genyen nan yon rejyon ki benefisye de komès ki pran yon lòt wout fè pi byen; aksyon li yo viv yon volatilite jeneral, ak konpayi ki depann de wout ki deranje a ki fè mwens byen e konpayi ki ofri altènativ ki fè pi byen. Olye l sezi pa reyaksyon espesifik nenpòt sèl byen, konpreyansyon li sou sansiblite diferan chak klas byen — ke li bati atravè diferan tras kourikoulòm sa a — ede l entèprete sa k ap pase nan tout pòtfèy li yon fason kowerant.
+
+## Egzamen pratik
+
+1. Poukisa yo dekri senaryo sa a kòm ipotetik olye yon evènman istorik espesifik?
+2. Kijan reyaksyon lò nan senaryo ipotetik sa a ta ka konekte ak konsèp "refij" Leson 20 la?
+3. Poukisa konprann reyaksyon diferan byen yo atravè plizyè tras nan kourikoulòm sa a fè jijman jeneral sou pòtfèy la vin pi file?
+
+## Kle repons yo
+
+1. Paske yo konsevwa l kòm yon egzèsis tès estrès jeneral pou rezone sou risk ant byen, pa yon deklarasyon sou okenn evènman, konfli, oswa rejyon reyèl patikilye.
+2. Lò ta ka wè plis demann espesyalman paske envestisè yo ap chèche byen ki deyò sistèm ki dirèkteman deranje a, an akò ak rezònman yo kouvri nan Leson 20.
+3. Paske yon sèl evènman ka afekte diferan klas byen yon fason trè diferan, e konprann sansiblite espesifik chak klas, ke yo bati nan tout kourikoulòm sa a, ede yon envestisè entèprete e reyaji ak yon vrè evènman yon fason kowerant olye l sezi pa konpòtman nenpòt sèl byen.
+
+## Repons ak eksplikasyon
+
+1. Sa fè diferans ant edikasyon atravè senaryo ak prediksyon, sa ki konsistan ak fòma yo itilize pou zouti sa a lòt kote nan kourikoulòm sa a.
+2. Sa aplike kad Leson 20 la dirèkteman sou senaryo ipotetik espesifik la.
+3. Sa a se "poukisa" santral ki entegre lè yo itilize yon senaryo ant koulè kòm zouti ansèyman.
+
+## Pwen kle yo
+- Yon sèl pètibasyon jeopolitik ipotetik ka afekte imobilye, finansman biznis, byen sou papye, ak metal presye yon fason trè diferan, atravè diferan mekanis.
+- Reyaksyon "refij" posib lò se yon modèl espesifik yo te kouvri deja ki ta ka aplike nan kalite senaryo sa a.
+- Konprann sansiblite diferan chak klas byen, ke yo bati atravè diferan tras kourikoulòm sa a, ede envestisè yo entèprete e reyaji ak vrè evènman yon fason ki pi kowerant.
+
+---
+
+*Leson sa a itilize yon senaryo ipotetik pou rezon edikasyon sèlman e li pa dekri ni prevwa okenn evènman, konfli, oswa rejyon espesifik nan monn reyèl la. Li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-044
+TITLE: Poukisa yon estrikti komite envestisman amelyore kalite desizyon yo
+SUMMARY: Aprann poukisa mande plis pase yon pèspektiv anvan yon desizyon envestisman enpòtan gen tandans bay pi bon rezilta pase konte sèlman sou jijman yon sèl moun.
+# GOLD-L3-044: Poukisa yon estrikti komite envestisman amelyore kalite desizyon yo
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike konsèp jeneral yon estrikti komite envestisman
+- Esplike poukisa mande plizyè pèspektiv gen tandans kontrekare patipri endividyèl yo kouvri pi bonè nan tras sa a
+- Esplike poukisa prensip sa a aplike pi lwen pase kad enstitisyonèl fòmèl
+
+## Kontni prensipal
+
+Yon estrikti **komite envestisman** mande pou yon gwoup revize e apwouve desizyon envestisman enpòtan, olye konte nèt sou jijman yon sèl moun; envestisè enstitisyonèl, fon, ak lòt òganizasyon k ap jere anpil kapital itilize l souvan.
+
+Men "poukisa" estrikti sa a gen tandans amelyore kalite desizyon yo, sa ki konekte dirèkteman ak plizyè patipri yo kouvri pi bonè nan tras sa a: yon diskisyon an gwoup fè diferan pèspektiv parèt natirèlman e li ka ede kontrekare patipri twòp konfyans (Leson 34) oswa rezònman ou pa ka montre fo (Leson 37) yon sèl moun, ki konvenk de pwòp tèz li, ta ka pa wè nan pwòp refleksyon li. [FÈ VERIFYE] Mande pou yo esplike yon tèz envestisman ase klè pou lòt moun konprann li e konteste l ranfòse natirèlman tou disiplin kapasite pou montre fo yo diskite nan Leson 37 la — yon tèz ou pa ka esplike e defann klèman devan yon gwoup souvan se yon tèz ou poko reflechi nèt, onètman.
+
+Se poutèt sa prensip sa a aplike pi lwen pase komite enstitisyonèl fòmèl: yon envestisè endividyèl ka aplike yon vèsyon menm disiplin sa a lè l diskite desizyon envestisman enpòtan ak yon zanmi, yon konseye, oswa yon pwofesyonèl li fè konfyans e ki konn sijè a (sa ki reflete prensip "biznis se yon espò an ekip" yo kouvri lòt kote nan kourikoulòm sa a) anvan l angaje anpil kapital, olye l konte nèt sou pwòp jijman endividyèl li, ki ka gen patipri.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon fon enstitisyonèl mande pou yo prezante nenpòt desizyon envestisman enpòtan devan yon komite ki pou apwouve l, olye l pèmèt nenpòt sèl manadjè angaje kapital poukont li. Pwosesis sa a fè kesyon ak defi moun ki te pwopoze l okòmansman an ta ka pa t konsidere parèt natirèlman, sa ki teste kapasite tèz la pou montre fo e ki kontrekare nenpòt twòp konfyans endividyèl anvan yo vrèman angaje kapital la. [SIPOZISYON] Yon envestisè endividyèl k ap konsidere yon envestisman enpòtan li pa abitye ka aplike yon vèsyon menm disiplin sa a lè l diskite desizyon an ak yon konseye li fè konfyans e ki konn sijè a anvan l angaje, sa ki ba li yon kontwòl ki sanble sou pwòp jijman endividyèl li ak patipri li ta ka genyen.
+
+## Egzamen pratik
+
+1. Kisa yon estrikti komite envestisman ye, an jeneral?
+2. Kijan estrikti sa a gen tandans kontrekare patipri twòp konfyans ak rezònman ou pa ka montre fo, tou de yo kouvri pi bonè nan tras sa a?
+3. Kijan yon envestisè endividyèl ka aplike yon vèsyon menm prensip sa a?
+
+## Kle repons yo
+
+1. Yon estrikti ki mande pou yon gwoup revize e apwouve desizyon envestisman enpòtan, olye konte nèt sou jijman yon sèl moun.
+2. Diskisyon an gwoup fè diferan pèspektiv parèt natirèlman, e mande pou yo esplike e defann yon tèz klèman devan lòt moun ranfòse disiplin yon tèz ki byen rezone, ou ka montre fo.
+3. Lè l diskite desizyon envestisman enpòtan ak yon zanmi, yon konseye, oswa yon pwofesyonèl li fè konfyans e ki konn sijè a anvan l angaje kapital, olye l konte nèt sou pwòp jijman endividyèl li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konekte leson an klèman ak de leson espesifik anvan yo, sa ki ranfòse estrikti entegre tras la.
+3. Sa pwolonje konsèp enstitisyonèl la nan yon aplikasyon endividyèl pratik, aksesib.
+
+## Pwen kle yo
+- Yon estrikti komite envestisman mande yon revizyon an gwoup anvan yo angaje anpil kapital, olye konte sou jijman yon sèl moun.
+- Sa kontrekare natirèlman patipri twòp konfyans e li ranfòse disiplin esplike yon tèz klè, ou ka montre fo.
+- Envestisè endividyèl ka aplike yon vèsyon menm prensip sa a lè yo diskite desizyon enpòtan ak yon konseye yo fè konfyans anvan yo angaje.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-045
+TITLE: Poukisa risk konsantrasyon aplike pou estrateji, pa sèlman pou envestisman
+SUMMARY: Aprann poukisa yon pòtfèy ka konsantre nan yon sèl faktè risk debaz menm lè li sanble divèsifye selon kantite envestisman ak kalite byen.
+# GOLD-L3-045: Poukisa risk konsantrasyon aplike pou estrateji, pa sèlman pou envestisman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa risk konsantrasyon ka egziste nan nivo yon estrateji oswa yon faktè risk pataje, pa sèlman nan envestisman endividyèl
+- Bay yon egzanp kijan envestisman ki sanble divèsifye ka pataje yon risk komen ki kache
+- Konekte konsèp sa a ak diskisyon sou korelasyon Leson 16 la
+
+## Kontni prensipal
+
+Tras WHITE kourikoulòm sa a te kouvri konsantrasyon nan yon sektè — anpil aksyon ki sanble divèsifye selon kantite men ki pataje ekspozisyon ak menm risk ki espesifik pou yon endistri. Leson sa a pwolonje menm prensip debaz sa a yon nivo pi lwen, sa ki konekte dirèkteman ak diskisyon sou korelasyon Leson 16 la: yon pòtfèy ka konsantre nan yon **estrateji** pataje oswa yon **faktè risk** debaz, menm lè li sanble vrèman divèsifye ant diferan klas byen ak kalite veyikil.
+
+Men "poukisa" sa a se yon risk ki pi sibtil, ki pi fasil pou rate pase konsantrasyon senp selon kantite envestisman oswa selon sektè: [EGZANP ILISTRATIF] yon envestisè ta ka kenbe yon pòtfèy aksyon, yon envestisman imobilye, ak yon fon altènatif ki tout rive depann anpil de to enterè ki rete ba oswa yon kwasans ekonomik ki rete fò pou yo fè byen — diferan klas byen ak kalite veyikil sou sifas, men tout pataje menm vilnerabilite debaz la a menm faktè risk espesifik la. Si faktè risk pataje sa a rive yon fason ki pa favorab, tout twa envestisman yo ta ka bese ansanm, malgre yo sanble byen divèsifye dapre mezi konvansyonèl.
+
+Se poutèt sa yon revizyon pòtfèy ki vrèman konplè gade pi lwen pase senpleman konte klas byen ak envestisman, e li poze yon kesyon pi fon: ki kondisyon ekonomik oswa faktè risk debaz espesifik pòtfèy sa a, pran an antye, vrèman depann de yo pou l fè byen — e èske depandans sa a pi konsantre pase sa divèsifikasyon sou sifas la sijere?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè kenbe aksyon kwasans, yon envestisman imobilye ak levye, ak yon fon kapital-risk — twa klas byen ak kalite veyikil diferan, ki sanble byen divèsifye. [SIPOZISYON] Lè w gade pi pre, tout twa envestisman yo depann anpil de to enterè ki rete ba ak yon kwasans ekonomik ki fò pou yo fè byen: evalyasyon aksyon kwasans sansib ak to yo, imobilye ak levye afekte dirèkteman pa kou finansman, e konpayi kapital-risk sipòte souvan depann de aksè kontinyèl a kapital kwasans ki vin pi difisil pou ranmase nan yon anviwònman kote to yo pi wo. Si to enterè yo monte anpil e kwasans ekonomik la ralanti, tout twa envestisman yo ta ka bese ansanm, malgre divèsifikasyon yo sanble genyen sou sifas — yon risk konsantrasyon kache nan estrateji ak faktè risk pataje, pa nan envestisman yo.
+
+## Egzamen pratik
+
+1. Kisa risk konsantrasyon nan nivo estrateji oswa faktè risk vle di, pi lwen pase konsantrasyon senp selon kantite envestisman?
+2. Bay yon egzanp, nan leson sa a, envestisman ki sanble divèsifye ki pataje yon risk komen ki kache.
+3. Ki kesyon pi fon yon revizyon pòtfèy konplè ta dwe poze, pi lwen pase senpleman konte klas byen ak envestisman?
+
+## Kle repons yo
+
+1. Yon pòtfèy ka konsantre nan yon faktè risk oswa yon estrateji debaz pataje, menm lè li sanble divèsifye ant diferan klas byen ak kalite veyikil sou sifas.
+2. Aksyon kwasans, imobilye ak levye, ak yon fon kapital-risk ki tout pataje depandans sou to enterè ki rete ba ak yon kwasans ekonomik ki fò.
+3. Ki kondisyon ekonomik oswa faktè risk debaz espesifik pòtfèy la, pran an antye, vrèman depann de yo pou l fè byen, e èske depandans sa a pi konsantre pase sa divèsifikasyon sou sifas la sijere.
+
+## Repons ak eksplikasyon
+
+1. Sa pwolonje konsèp konsantrasyon nan sektè tras WHITE la nan yon prensip pi laj, pi jeneral.
+2. Sa bay konsèp abstrè a yon baz nan yon egzanp konkrè, ilistratif.
+3. Sa ranfòse kesyon analiz pratik, pi fon leson an rekòmande.
+
+## Pwen kle yo
+- Risk konsantrasyon ka egziste nan nivo yon estrateji oswa yon faktè risk debaz pataje, pa sèlman nan envestisman endividyèl oswa sektè.
+- Envestisman ki sanble divèsifye ant diferan klas byen ka pataje yon vilnerabilite komen ki kache.
+- Yon revizyon pòtfèy konplè ta dwe egzamine ki faktè risk debaz tout pòtfèy la vrèman depann de yo, pi lwen pase senpleman konte envestisman ak klas byen.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
