@@ -1,0 +1,473 @@
+===== ORANGE-L5-006
+TITLE: Eine Unternehmensübernahme mit dem ganzen Brett im Blick verhandeln
+SUMMARY: Übernahmen umfassen Preis, Zahlungsform, Struktur, Schutzklauseln und Übergang; die BATNA bestimmt die Verhandlungsmacht, der Tausch von Bedingungen, die beide Seiten unterschiedlich bewerten, schafft Wert für beide, und faire Geschäfte funktionieren nach dem Abschluss oft besser.
+KEYWORDS: Unternehmensübernahme verhandeln, BATNA bei Übernahmen, Verhandlung eines Geschäfts, Bedingungen des Kaufpreises, Earn-out verhandeln
+# Eine Unternehmensübernahme mit dem ganzen Brett im Blick verhandeln
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir einen großen Handelsblock vor, der plötzlich hohe Zölle auf eine breite Kategorie importierter Industriegüter erhebt und damit die Kosten für Unternehmen erhöht, die diese Importe als Vorprodukte nutzen.
+Wende es hier an: Neue Zölle machen ein kleines Importunternehmen weniger profitabel, und der Inhaber will verkaufen. Ein Käufer sieht eine Chance. Frag über die Farben hinweg: Was ist die beste Alternative jeder Seite (ORANGE)? Wie sollte der Preis auf Barzahlung, Verkäuferfinanzierung und einen Earn-out aufgeteilt werden (BLUE)? Welche rechtlichen Schutzklauseln sind am wichtigsten (PURPLE)? Welche steuerliche Struktur nützt beiden Seiten (GREEN)?
+
+## Lernziele
+- BATNA und Ankerwirkung in einer Übernahmeverhandlung anwenden
+- Zwischen Preis, Bedingungen, Schutzklauseln und Struktur tauschen
+- So verhandeln, dass die Beziehung nach dem Abschluss erhalten bleibt
+
+## Hauptinhalt
+Auf Stufe 4 hat ORANGE die Grundlagen des Verhandelns behandelt: die BATNA (die beste Alternative zu einer Verhandlungslösung), die Ankerwirkung, den Reservationspreis und die Wertschöpfung durch Tausch. Auf Stufe 5 nutzt du sie in einer der komplexesten Verhandlungen der Wirtschaft: dem Kauf eines Unternehmens.
+Was sich bei einer Übernahme verhandeln lässt:
+- Preis (ORANGE/WHITE): der Schlagzeilenwert.
+- Zahlungsform (BLUE): Barzahlung beim Abschluss, Verkäuferfinanzierung, an künftige Ergebnisse gebundene Earn-outs oder Anteile am Unternehmen des Käufers.
+- Struktur (GREEN/PURPLE): Kauf der Vermögenswerte oder der Anteile (PURPLE-L5-023 im juristischen Strang), was die Steuern beider Seiten beeinflusst.
+- Schutzklauseln (PURPLE): Zusicherungen, Garantien, Freistellungen, Treuhandkonten und Haftungsobergrenzen (PURPLE-L5-021).
+- Übergang (BLACK): wie lange der Verkäufer bleibt, um zu helfen, und in welcher Rolle.
+- Wettbewerbsverbot (PURPLE): ob der Verkäufer danach in Konkurrenz treten darf.
+- Mitarbeitende (BLACK): ob Schlüsselkräfte bleiben, und zu welchen Bedingungen.
+Wertschöpfung durch Tausch: Weil Käufer und Verkäufer verschiedene Bedingungen unterschiedlich bewerten, kann ein Geschäft für beide besser sein als reines Feilschen um den Preis. Ein Verkäufer, dem vor allem der Gesamtpreis wichtig ist, akzeptiert vielleicht einen Earn-out. Ein Käufer, dem vor allem die Begrenzung des Risikos wichtig ist, zahlt vielleicht einen höheren Preis gegen ein größeres Treuhandkonto.
+BATNA bei einer Übernahme:
+- BATNA des Verkäufers: ein anderer Käufer, das Unternehmen weiterführen oder es abwickeln.
+- BATNA des Käufers: ein anderes Übernahmeziel, bei null anfangen oder nicht kaufen.
+Eine stärkere BATNA gibt mehr Verhandlungsmacht. Die Zölle aus dem Szenario können die BATNA des Verkäufers schwächen, wenn das Weiterführen weniger attraktiv wird.
+ANNAHME/MEINUNG: Einen Verkäufer zu stark zu drücken, kann nach hinten losgehen. Wenn der Verkäufer für den Übergang bleibt oder ein Darlehen an den Käufer hält, kann ein verbitterter Verkäufer den Übergang erschweren. Faire Geschäfte bringen nach dem Abschluss oft bessere Ergebnisse.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Tomas will ein Importunternehmen kaufen. Der Verkäufer verlangt 1,2 Millionen Euro. Die Zölle haben die Gewinne gesenkt.
+BATNA-Analyse:
+- Verkäufer: keine anderen ernsthaften Käufer. Weitermachen heißt geringere Gewinne unter den Zöllen. Die BATNA ist schwach.
+- Tomas: zwei andere Unternehmen in der Prüfung, wenn auch weniger attraktiv. Die BATNA ist mittelstark.
+Tomas' Angebot: 950.000 Euro, so aufgeteilt:
+- 500.000 Euro in bar beim Abschluss.
+- 250.000 Euro Verkäuferdarlehen über 5 Jahre zu einem fairen Zins.
+- Bis zu 250.000 Euro Earn-out, wenn der Umsatz innerhalb von 2 Jahren das Niveau vor den Zöllen erreicht.
+- Kauf der Vermögenswerte zum steuerlichen Vorteil von Tomas. LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel kann der Käufer beim Kauf der Vermögenswerte nach verfügbaren Informationen in der Regel den Firmenwert und die Wirtschaftsgüter abschreiben, fällt bei Grundstücken Grunderwerbsteuer an und gehen die Arbeitsverhältnisse grundsätzlich auf den Erwerber über, während ein Verkäufer, der als Privatperson Anteile veräußert, den Gewinn nach besonderen Regeln versteuert, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater.
+- Ein Treuhandbetrag von 10 % für 18 Monate.
+- Der Verkäufer bleibt 6 Monate als bezahlter Berater.
+Der Verkäufer kontert mit insgesamt 1,1 Millionen Euro. Sie einigen sich auf 1,05 Millionen Euro: 500.000 Euro in bar, 300.000 Euro Verkäuferdarlehen und bis zu 250.000 Euro Earn-out. Der Verkäufer erhält mehr Gesamtwert, wenn sich das Unternehmen erholt. Tomas begrenzt die Barmittel, die er sofort aufbringen muss, und teilt das Risiko mit dem Verkäufer.
+ANNAHME/MEINUNG: Der Earn-out hat ihre Meinungsverschiedenheit über die Zukunft überbrückt. Der Verkäufer hielt eine Erholung für wahrscheinlich; Tomas war unsicher. Der Earn-out ließ beide recht haben.
+
+## Übungsquiz
+**Q1. Wofür steht BATNA?**
+A) Eine Vereinbarung über verfügbare Steuern und Schuldscheine
+B) Eine Grundvereinbarung, immer zu verhandeln
+C) Ein Gesetz über die Übertragung von Unternehmensvermögen
+D) Die beste Alternative zu einer Verhandlungslösung
+**Q2. Wie kann ein Geschäft für beide Seiten besser sein als reines Feilschen um den Preis?**
+A) Durch den Tausch von Bedingungen, die jede Seite anders bewertet
+B) Durch Lügen
+C) Durch das Ignorieren von Steuern
+D) Durch den Verzicht auf Anwälte
+**Q3. Wie haben die Zölle die BATNA des Verkäufers beeinflusst?**
+A) Sie haben sie gestärkt
+B) Sie haben die Optionen des Käufers beseitigt
+C) Sie hatten keine Wirkung
+D) Sie haben sie geschwächt, weil das Weiterführen weniger attraktiv wurde
+**Q4. Welche Rolle spielte der Earn-out?**
+A) Er senkte die Steuern
+B) Er ersetzte den Treuhandbetrag
+C) Er überbrückte die Meinungsverschiedenheit darüber, ob sich das Unternehmen erholen würde
+D) Er bezahlte den Käufer
+**Q5. Warum kann es nach hinten losgehen, einen Verkäufer zu stark zu drücken?**
+A) Verkäufer lassen sich nicht drücken
+B) Es erhöht die Steuern
+C) Ein verbitterter Verkäufer mit einem Darlehen oder einer Rolle im Übergang kann die Dinge erschweren
+D) Es ist illegal
+
+## Lösungsschlüssel
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: C
+
+## Antworten und Erklärungen
+**Q1.** Die BATNA ist deine beste Option, wenn das Geschäft scheitert.
+**Q2.** Wertschöpfung entsteht aus unterschiedlichen Prioritäten.
+**Q3.** Eine schwächere Alternative verringert die Verhandlungsmacht.
+**Q4.** Mit Earn-outs teilen Käufer und Verkäufer die Unsicherheit.
+**Q5.** Die Beziehung nach dem Abschluss zählt.
+
+## Das Wichtigste in Kürze
+- Übernahmen umfassen Preis, Zahlungsform, Struktur, Schutzklauseln und Übergang
+- Die BATNA bestimmt die Verhandlungsmacht
+- Der Tausch unterschiedlich bewerteter Bedingungen schafft Wert für beide Seiten
+- Faire Geschäfte funktionieren nach dem Abschluss oft besser
+
+===== ORANGE-L5-007
+TITLE: Immobilien mit Verkäuferfinanzierung verhandeln
+SUMMARY: Verkäuferfinanzierung macht den Verkäufer zum Kreditgeber; Preis, Anzahlung, Zins, Laufzeit und Sicherheiten werden gemeinsam verhandelt, in Märkten mit hohen Zinsen kann sie festgefahrene Geschäfte lösen, und es kommt darauf an, was jede Seite wirklich braucht.
+KEYWORDS: Verkäuferfinanzierung verhandeln, Finanzierung durch den Eigentümer bei Immobilien, Immobiliengeschäfte verhandeln, kreative Finanzierungsbedingungen
+# Immobilien mit Verkäuferfinanzierung verhandeln
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine Zentralbank vor, die ihren Leitzins innerhalb weniger Monate kräftig und wiederholt anhebt, um eine steigende Inflation zu bekämpfen.
+Wende es hier an: Bei hohen Bankzinsen kann sich ein Käufer kein übliches Darlehen für ein kleines Mehrfamilienhaus leisten, und die Verkäuferin findet keine anderen Käufer. Frag über die Farben hinweg: Was braucht jede Seite wirklich (ORANGE)? Könnte eine Verkäuferfinanzierung zu einem niedrigeren Zins das Geschäft möglich machen (BLUE/RED)? Welche Dokumente schützen die Verkäuferin (PURPLE)? Wie könnte eine Zahlung in Raten ihre Steuern beeinflussen (GREEN)?
+
+## Lernziele
+- Die Prioritäten jeder Seite bei einem Geschäft mit Verkäuferfinanzierung erkennen
+- Den Preis gegen Zins, Anzahlung und Laufzeit tauschen
+- Ein Geschäft so gestalten, dass es den Verkäufer schützt und für den Käufer funktioniert
+
+## Hauptinhalt
+Auf Stufe 2 hat RED die kreative Finanzierung eingeführt. Auf Stufe 3 hat BLUE die Verkäuferfinanzierung bei Unternehmenskäufen behandelt. Auf Stufe 5 zeigt ORANGE, wie man solche Geschäfte so verhandelt, dass beide Seiten gewinnen.
+Bei der Verkäuferfinanzierung tritt der Verkäufer als Kreditgeber auf und erhält Zahlungen über die Zeit statt des gesamten Preises in bar beim Abschluss.
+Was jede Seite oft will:
+- Käufer: niedrigere Anzahlung, niedrigerer Zins, längere Laufzeit, Flexibilität.
+- Verkäufer: höherer Gesamtpreis, verlässliche Zahlungen, Sicherheit, mögliche Steuervorteile durch Verteilung des Gewinns über die Zeit (LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel ist der Gewinn aus dem Verkauf einer privat gehaltenen Immobilie nach verfügbaren Informationen in der Regel nur steuerpflichtig, wenn zwischen Kauf und Verkauf weniger als zehn Jahre liegen, mit Ausnahmen für selbst genutztes Wohneigentum, und die Ratenzahlung wird meist durch eine notariell bestellte Grundschuld gesichert, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater und einer Notarin oder einem Notar) und manchmal ein stetiges Einkommen im Ruhestand.
+Wichtige Verhandlungsgrößen:
+- Preis
+- Anzahlung
+- Zinssatz
+- Laufzeit und Tilgungsplan (einschließlich einer großen Schlussrate)
+- Recht auf vorzeitige Rückzahlung
+- Sicherheiten und persönliche Bürgschaften
+Das Tauschprinzip: Ein Verkäufer akzeptiert vielleicht einen niedrigeren Zins gegen einen höheren Preis oder einen niedrigeren Preis gegen eine größere Anzahlung. Ein Käufer akzeptiert vielleicht einen höheren Preis gegen einen niedrigeren Zins, der die Monatsraten tragbar macht.
+Wie die Farben zusammenhängen:
+- RED: Die Einnahmen der Immobilie müssen die Zahlungen tragen.
+- BLUE: Vergleiche den Zins des Verkäufers mit den Bankzinsen. Wenn die Bankzinsen hoch sind, kann eine Verkäuferfinanzierung ein großer Vorteil für Käufer sein.
+- PURPLE: Schuldschein, Grundpfandrecht und Bedingungen für den Zahlungsverzug (PURPLE-L5-024). Prüfe, ob der Verkäufer ein bestehendes Darlehen hat, das bei einem Verkauf sofort fällig wird.
+- GREEN: Verkäufer können die Steuer auf den Gewinn eventuell über den Zahlungszeitraum verteilen. Zinsen müssen oft Mindestsätze erreichen. LÄNDERSPEZIFISCHE REGEL.
+- WHITE: Für den Verkäufer wird die Forderung zur Kapitalanlage. Vergleiche ihre erwartete Rendite und ihr Risiko mit anderen Optionen.
+ANNAHME/MEINUNG: In Märkten mit hohen Zinsen kann eine Verkäuferfinanzierung einen festgefahrenen Verkauf in ein Geschäft verwandeln. Der Schlüssel ist, sich darauf zu konzentrieren, was jede Seite wirklich braucht, nicht nur auf den Schlagzeilenpreis.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Rosa, 68, besitzt schuldenfrei ein Haus mit 6 Wohnungen. Sie will in den Ruhestand gehen und bietet es seit Monaten für 900.000 Euro an, ohne annehmbare Angebote. Die Bankzinsen sind hoch.
+Ben will kaufen, kann sich die Raten aber nur leisten, wenn der Zins niedriger ist als bei den Banken.
+Verhandlung:
+- Rosas Prioritäten: Gesamtwert, verlässliches monatliches Einkommen und Verteilung der Steuern über die Zeit.
+- Bens Prioritäten: tragbare Monatsraten und eine machbare Anzahlung.
+Geschäft:
+- Preis: 920.000 Euro (mehr als ihr Angebotspreis).
+- Anzahlung: 20 % (184.000 Euro).
+- Verkäuferdarlehen: 736.000 Euro zu 5,5 % (unter den Bankzinsen), Tilgung über 25 Jahre mit einer Schlussrate nach 10 Jahren.
+- Sicherheit: ein eingetragenes Grundpfandrecht an der Immobilie. Ben gibt eine begrenzte persönliche Bürgschaft.
+- Zahlungsverzug: 30 Tage zur Heilung.
+Rosa erhält mehr Gesamtwert und ein stetiges Monatseinkommen. Ben bekommt tragbare Raten. Ihr Steuerberater erklärt, wie die Ratenzahlung ihre Steuern verteilen kann. LÄNDERSPEZIFISCHE REGEL.
+ANNAHME/MEINUNG: Ein Preis von 920.000 Euro mit einem Zins von 5,5 % war für beide besser als 880.000 Euro mit einer Bankfinanzierung, die Ben sich nicht leisten konnte.
+
+## Übungsquiz
+**Q1. Wer tritt bei einer Verkäuferfinanzierung als Kreditgeber auf?**
+A) Der Verkäufer
+B) Die Bank
+C) Der Staat
+D) Der Makler
+**Q2. Welchen Tausch akzeptiert ein Verkäufer vielleicht?**
+A) Gar keine Zahlung
+B) Einen niedrigeren Zins gegen einen höheren Preis
+C) Die Immobilie verschenken
+D) Keine Sicherheit
+**Q3. Warum kann eine Verkäuferfinanzierung bei hohen Bankzinsen besonders nützlich sein?**
+A) Banken lehnen alle Kredite ab
+B) Verkäufer können niedrigere Zinsen bieten, die die Raten tragbar machen
+C) Sie vermeidet alle Steuern
+D) Sie braucht keine Dokumente
+**Q4. Was sollte geprüft werden, wenn der Verkäufer ein bestehendes Darlehen hat?**
+A) Die Wandfarbe
+B) Die Hobbys des Käufers
+C) Das Einkommen des Mieters
+D) Ob es bei einem Verkauf sofort fällig wird
+**Q5. Warum hat Rosa einen Zins unter dem Bankzins akzeptiert?**
+A) Sie wurde dazu gezwungen
+B) Sie mochte keine Banken
+C) Sie hatte keine Wahl
+D) Sie erhielt einen höheren Preis, ein stetiges Einkommen und eine mögliche Verteilung der Steuern
+
+## Lösungsschlüssel
+Q1: A
+Q2: B
+Q3: B
+Q4: D
+Q5: D
+
+## Antworten und Erklärungen
+**Q1.** Der Verkäufer erhält Zahlungen über die Zeit.
+**Q2.** Verkäufer können den Zins gegen den Preis tauschen.
+**Q3.** Niedrigere Verkäuferzinsen können festgefahrene Geschäfte lösen.
+**Q4.** Bestehende Kredite können eine Verkäuferfinanzierung einschränken.
+**Q5.** Ihre Prioritäten wurden durch Tausch erfüllt.
+
+## Das Wichtigste in Kürze
+- Verkäuferfinanzierung macht den Verkäufer zum Kreditgeber
+- Verhandle Preis, Anzahlung, Zins, Laufzeit und Sicherheit gemeinsam
+- In Märkten mit hohen Zinsen kann eine Verkäuferfinanzierung Geschäfte lösen
+- Konzentriere dich darauf, was jede Seite wirklich braucht
+
+===== ORANGE-L5-008
+TITLE: Vergütung im Vertrieb: Anreize, Steuern und Einstufung
+SUMMARY: Vergütung steuert Verhalten und sollte bewusst gestaltet werden; belohne bezahlte, profitable, dauerhafte und ehrliche Verkäufe, bedenke, dass Regeln zur Einstufung, zu Lohnabgaben und Provisionen je nach Land verschieden sind, und halte Pläne klar fest, einschließlich Rückforderungen und Ausscheiden.
+KEYWORDS: Vergütungsplan im Vertrieb, Provisionsstruktur, Verkaufsanreize, Steuern auf Provisionen, Vergütung des Vertriebsteams
+# Vergütung im Vertrieb: Anreize, Steuern und Einstufung
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir vor, dass die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes nach Jahren schnellen Wachstums Anzeichen einer scharfen Korrektur zeigen, während die Zahlungsausfälle zunehmen.
+Wende es hier an: Während sich ein Kreditmarkt korrigiert, wird das Vertriebsteam eines Kreditgebers weiterhin nach Kreditvolumen bezahlt, obwohl die Ausfälle steigen. Frag über die Farben hinweg: Welches Verhalten belohnt der Vergütungsplan (ORANGE/BLACK)? Sind die Verkäufer Angestellte oder Selbstständige (PURPLE)? Wie werden Provisionen besteuert, und wann sind sie fällig (GREEN)? Kann sich das Unternehmen den Plan leisten, wenn der Absatz nachlässt (BLUE)?
+
+## Lernziele
+- Eine Vergütung gestalten, die das richtige Verhalten belohnt
+- Die Gestaltung der Vergütung mit Steuer- und Einstufungsregeln verbinden
+- Die Vertriebsvergütung auf Cashflow und langfristigen Kundenwert ausrichten
+
+## Hauptinhalt
+Die Vergütung im Vertrieb prägt Verhalten stärker als fast jedes andere Führungsinstrument. Menschen tun meist das, wofür sie bezahlt werden.
+Gängige Strukturen:
+- Nur Gehalt: stabil, fördert Teamarbeit und Service, kann aber den Antrieb verringern.
+- Nur Provision: starke Motivation, aber unsicheres Einkommen, und sie kann aggressive Taktiken fördern.
+- Gehalt plus Provision: ein Gleichgewicht aus Stabilität und Motivation.
+- Boni: gebunden an Ziele wie Teamergebnisse, Kundenbindung oder Gewinn.
+- Rückforderungen: Provisionen, die zurückgezahlt werden, wenn ein Kunde kündigt oder innerhalb einer Frist nicht zahlt.
+Was sollte die Vergütung belohnen? Auf Stufe 5 hängt die Antwort mit dem ganzen Unternehmen zusammen:
+- Bezahlte Verkäufe, nicht nur unterschriebene (Cashflow von BLUE).
+- Profitable Verkäufe, nicht nur Umsatz (Marge).
+- Kunden, die bleiben (Kundenwert aus ORANGE-L5-003).
+- Ehrliche Verkaufspraktiken (PURPLE und BLACK).
+Wie die Farben zusammenhängen:
+- PURPLE: Wer nur auf Provision arbeitet, kann nach den Einstufungskriterien trotzdem angestellt sein (PURPLE-L5-031 im juristischen Strang). Provisionspläne sollten klar festgehalten werden, auch wann Provisionen verdient sind und was passiert, wenn jemand ausscheidet. LÄNDERSPEZIFISCHE REGEL: Manche Länder haben besondere Regeln zur Zahlung von Provisionen; in Deutschland zum Beispiel sind Provisionen für Angestellte nach verfügbaren Informationen in der Regel Arbeitslohn, für den Lohnsteuer und Sozialversicherungsbeiträge anfallen, muss die Gesamtvergütung den Mindestlohn erreichen, und kann eine scheinbar selbstständige Person, die tatsächlich weisungsgebunden arbeitet, als Beschäftigte eingestuft werden, also prüfe dies mit einer Fachanwältin oder einem Fachanwalt für Arbeitsrecht.
+- GREEN: Provisionen an Angestellte unterliegen in der Regel Lohnabgaben und Einbehalten. LÄNDERSPEZIFISCHE REGEL.
+- BLUE: Variable Vergütung bewegt sich mit dem Absatz, was den Cashflow in ruhigen Zeiten schützt. Aber Provisionen zu zahlen, bevor Kunden zahlen, kann die Liquidität belasten.
+- BLACK: Vergütung spiegelt die Werte des Unternehmens. Ein Plan, der belohnt, dass Produkte Kunden aufgedrängt werden, die sie nicht brauchen, kann Kultur und Ruf beschädigen.
+ANNAHME/MEINUNG: Ein Vergütungsplan, der kurzfristiges Volumen auf Kosten der Kundenqualität belohnt, kann Probleme schaffen, die erst Monate später sichtbar werden, wie das Szenario zeigt.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Marco führt ein Unternehmen, das Solaranlagen installiert. Seine Verkäufer erhalten 8 % Provision auf unterschriebene Verträge.
+Es treten Probleme auf:
+- Manche Kunden, die unterschrieben haben, kündigen später oder bekommen keine Finanzierung.
+- Manche Verkäufe erfolgen mit hohen Rabatten, die wenig Marge lassen.
+- Einige Verkäufer übertreiben die Energieeinsparung, um Abschlüsse zu erzielen.
+Neuer Plan:
+- Grundgehalt plus Provision, was die Vergütungsstruktur klarer macht und die Einstufung als Angestellte stützt. LÄNDERSPEZIFISCHE REGEL.
+- Provision in zwei Teilen: 50 %, wenn die Finanzierung des Kunden genehmigt ist, 50 % nach Installation und Zahlung.
+- Provisionssatz an die Marge gebunden: höhere Provision bei Verkäufen zum Standardpreis, niedrigere bei rabattierten Verkäufen.
+- Quartalsbonus für niedrige Stornoquoten und positive Kundenbewertungen.
+- Ein klarer schriftlicher Plan mit Regeln zur Rückforderung und dazu, was beim Ausscheiden mit offenen Provisionen geschieht.
+- Schulung zu korrekten Aussagen über Einsparungen (siehe PURPLE-L5-035 im juristischen Strang).
+Das Verkaufsvolumen sinkt leicht, aber die Stornierungen gehen zurück, die Margen steigen und die Beschwerden nehmen ab. ANNAHME/MEINUNG: Marcos Unternehmen wurde profitabler und vertrauenswürdiger, obwohl insgesamt weniger Verträge unterschrieben wurden.
+
+## Übungsquiz
+**Q1. Warum ist die Vergütung im Vertrieb ein so starkes Führungsinstrument?**
+A) Sie ist gesetzlich vorgeschrieben
+B) Sie senkt die Steuern
+C) Menschen tun meist das, wofür sie bezahlt werden
+D) Sie ersetzt Schulungen
+**Q2. Was ist eine Rückforderung?**
+A) Provisionen, die zurückgezahlt werden, wenn ein Kunde kündigt oder nicht zahlt
+B) Ein Bonus
+C) Eine Art Gehalt
+D) Eine Steuer
+**Q3. Warum sollte die Vergütung bezahlte statt unterschriebener Verkäufe belohnen?**
+A) Unterschriebene Verkäufe sind illegal
+B) Bezahlte Verkäufe spiegeln das Geld, das tatsächlich hereinkommt
+C) Sie sind leichter zu verfolgen
+D) Kunden bevorzugen es
+**Q4. Wie hat Marco die Rabatte verringert?**
+A) Er hat Rabatte verboten
+B) Er hat Verkäufer entlassen
+C) Er hat die Provisionssätze an die Marge gebunden
+D) Er hat die Preise erhöht
+**Q5. Was war das Ergebnis von Marcos neuem Plan?**
+A) Ein Einbruch des Absatzes
+B) Mehr Stornierungen
+C) Keine Veränderung
+D) Etwas weniger Volumen, aber höhere Margen, weniger Stornierungen und weniger Beschwerden
+
+## Lösungsschlüssel
+Q1: C
+Q2: A
+Q3: B
+Q4: C
+Q5: D
+
+## Antworten und Erklärungen
+**Q1.** Vergütung prägt Verhalten.
+**Q2.** Rückforderungen richten die Vergütung an echten Ergebnissen aus.
+**Q3.** Der Cashflow hängt von Zahlungen ab, nicht von Unterschriften.
+**Q4.** Margenbasierte Provisionen haben hohe Rabatte unattraktiv gemacht.
+**Q5.** Bessere Anreize haben die Gesundheit des ganzen Unternehmens verbessert.
+
+## Das Wichtigste in Kürze
+- Vergütung steuert Verhalten; gestalte sie bewusst
+- Belohne bezahlte, profitable, dauerhafte und ehrliche Verkäufe
+- Regeln zur Einstufung, zu Lohnabgaben und Provisionen sind je nach Land verschieden
+- Halte Pläne klar fest, einschließlich Rückforderungen und Ausscheiden
+
+===== ORANGE-L5-009
+TITLE: Ein eigenes Vertriebsteam aufbauen oder den Vertrieb auslagern
+SUMMARY: Eigene Teams bieten Kontrolle, Auslagerung bietet Flexibilität und geringere Fixkosten; Verträge mit Handelsvertretern und Händlern müssen Gebiet, Beendigung und Eigentum an den Kundenbeziehungen regeln, die Verantwortung als Arbeitgeber gehört zur Entscheidung, und das Vertriebsmodell muss zu jedem Markt passen.
+KEYWORDS: eigenes Team oder ausgelagerter Vertrieb, Handelsvertreter, eigenes Vertriebsteam, ausgelagerter Vertrieb, Händler oder Direktvertrieb
+# Ein eigenes Vertriebsteam aufbauen oder den Vertrieb auslagern
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine weitreichende Gesundheitskrise vor, die Schifffahrt und Produktion weltweit über längere Zeit lahmlegt und die Lieferketten vieler Branchen gleichzeitig ins Stocken bringt.
+Wende es hier an: Nach einer langen Störung muss ein Unternehmen seinen Vertrieb schnell wieder aufbauen. Frag über die Farben hinweg: Soll es Angestellte einstellen (BLACK) oder externe Vertreter einsetzen (ORANGE)? Welche Option kostet jetzt und auf Dauer weniger (BLUE)? Welche Vertrags- und Einstufungsfragen entstehen (PURPLE)? Wie wirkt sich jede Option auf die Familien der beteiligten Menschen aus?
+
+## Lernziele
+- Eigene Vertriebsteams mit ausgelagerten Optionen vergleichen
+- Die Abwägung zwischen Kosten, Kontrolle und Flexibilität beurteilen
+- Rechtliche Pflichten und die Verantwortung als Arbeitgeber berücksichtigen
+
+## Hauptinhalt
+Ein Unternehmen kann über eigene Angestellte oder über externe Partner verkaufen. Jeder Ansatz hat Stärken.
+Eigenes Vertriebsteam:
+- Volle Kontrolle über Schulung, Botschaften und Kundenerlebnis.
+- Tiefes Produktwissen und Loyalität über die Zeit.
+- Höhere Fixkosten: Gehälter, Zusatzleistungen, Lohnabgaben, Führung.
+- Pflichten als Arbeitgeber (BLACK/PURPLE).
+Ausgelagerte Optionen:
+- Selbstständige Handelsvertreter: vor allem auf Provision bezahlt. Geringere Fixkosten, aber weniger Kontrolle, und sie vertreten oft auch andere Unternehmen.
+- Händler: kaufen Produkte und verkaufen sie weiter. Sie tragen das Lagerrisiko, nehmen aber auch Marge und Kundenbeziehungen.
+- Ausgelagerte Vertriebsfirmen: stellen gegen Bezahlung geschulte Teams.
+Wie die Farben zusammenhängen:
+- BLUE: Auslagerung senkt Fixkosten und Anfangsinvestitionen. Eigene Teams kosten anfangs meist mehr, können aber bei größerem Umfang effizienter sein.
+- PURPLE: Verträge mit Vertretern und Händlern sollten Gebiet, Exklusivität, Provision, Beendigung und das Eigentum an den Kundenbeziehungen regeln. LÄNDERSPEZIFISCHE REGEL: Manche Länder geben Handelsvertretern oder Händlern besonderen Schutz, etwa eine Entschädigung bei Vertragsende; in Deutschland zum Beispiel kann ein Handelsvertreter nach verfügbaren Informationen bei Vertragsende einen Ausgleichsanspruch von bis zu einer Jahresprovision haben, und es gelten gesetzliche Kündigungsfristen, also prüfe dies mit einer Anwältin oder einem Anwalt. Vertreter, die wie Angestellte arbeiten, müssen eventuell als Angestellte eingestuft werden (PURPLE-L5-031).
+- GREEN: Angestellte erfordern Lohnabgaben. Zahlungen an Selbstständige und Vertreter unterliegen anderen Meldepflichten. LÄNDERSPEZIFISCHE REGEL.
+- BLACK: Das Thema der Verantwortung als Arbeitgeber: Mitarbeitende direkt einzustellen unterstützt ihre Familien, besonders in Volkswirtschaften, in denen feste Arbeitsplätze knapp sind. Angestellte verdienen Würde und faire Behandlung.
+- WHITE: Unternehmen, die ihre Kundenbeziehungen selbst besitzen, werden oft höher bewertet als solche, die von Händlern abhängen.
+Ein häufiger Weg: mit Vertretern oder Händlern beginnen, um Märkte günstig zu testen, und dann dort ein eigenes Team aufbauen, wo der Absatz bewiesen ist und das Volumen es rechtfertigt.
+ANNAHME/MEINUNG: Den Vertrieb auszulagern kann am Anfang klug sein, aber ein Unternehmen, das nie eigene Kundenbeziehungen aufbaut, stellt vielleicht fest, dass sein eigentlicher Wert jemand anderem gehört.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Kemis Unternehmen stellt Küchengeräte für Restaurants her. Nach einer langen Störung muss sie den Vertrieb in drei Regionen wieder aufbauen.
+Option 1: 6 Verkäufer einstellen. Jährliche Kosten: etwa 480.000 Euro für Gehälter, Zusatzleistungen und Lohnabgaben, plus Führungszeit.
+Option 2: in allen drei Regionen selbstständige Vertreter einsetzen, mit 10 % Provision.
+Option 3: ein gemischter Ansatz.
+Sie wählt Option 3:
+- Region A (ihr größter Markt): Sie stellt 3 Angestellte ein. Sie will Kontrolle und direkte Kundenbeziehungen.
+- Regionen B und C: Sie schließt Vertreterverträge über 2 Jahre, mit klaren Bedingungen zu Gebiet, Provision, Beendigung und Eigentum an den Kunden. Ihre Anwältin prüft die örtlichen Schutzregeln für Vertreter. LÄNDERSPEZIFISCHE REGEL.
+- Sie legt einen Plan fest, um die Umstellung von Region B auf Angestellte zu prüfen, wenn der Absatz ein bestimmtes Niveau übersteigt.
+Die Angestellten in Region A haben ein stabiles Einkommen, und Kemi investiert in ihre Schulung. Die Vertreter sorgen schnell für Abdeckung in kleineren Regionen ohne hohe Fixkosten.
+ANNAHME/MEINUNG: Kemi hat jedes Vertriebsmodell an die Größe und die strategische Bedeutung jedes Marktes angepasst, statt ein Modell für alles zu wählen.
+
+## Übungsquiz
+**Q1. Was ist ein wichtiger Vorteil eines eigenen Vertriebsteams?**
+A) Volle Kontrolle über Schulung, Botschaften und Kundenerlebnis
+B) Keine Kosten
+C) Keine rechtlichen Pflichten
+D) Keine Führung nötig
+**Q2. Was ist ein wichtiger Vorteil selbstständiger Handelsvertreter?**
+A) Volle Kontrolle
+B) Garantierte Loyalität
+C) Keine Verträge nötig
+D) Geringere Fixkosten
+**Q3. Warum sollten Vertreterverträge das Eigentum an den Kunden regeln?**
+A) Um Steuern zu vermeiden
+B) Damit das Unternehmen seine Kundenbeziehungen behält, wenn der Vertreter geht
+C) Vertreter verlangen es
+D) Es ist Dekoration
+**Q4. Welchen besonderen Schutz gewähren manche Länder Handelsvertretern?**
+A) Eine Entschädigung bei Vertragsende
+B) Kostenlose Unterkunft
+C) Automatisches Eigentum
+D) Steuerbefreiungen
+**Q5. Warum hat Kemi einen gemischten Ansatz gewählt?**
+A) Sie hat jedes Vertriebsmodell an die Größe und Bedeutung jedes Marktes angepasst
+B) Er war am billigsten
+C) Das Gesetz verlangte es
+D) Sie konnte sich nicht entscheiden
+
+## Lösungsschlüssel
+Q1: A
+Q2: D
+Q3: B
+Q4: A
+Q5: A
+
+## Antworten und Erklärungen
+**Q1.** Eigene Teams bieten Kontrolle und Loyalität.
+**Q2.** Vertreter werden vor allem nach Ergebnis bezahlt.
+**Q3.** Kundenbeziehungen sind wertvolle Vermögenswerte.
+**Q4.** Der Schutz von Vertretern ist unterschiedlich. LÄNDERSPEZIFISCHE REGEL.
+**Q5.** Unterschiedliche Märkte rechtfertigten unterschiedliche Modelle.
+
+## Das Wichtigste in Kürze
+- Eigene Teams bieten Kontrolle; Auslagerung bietet Flexibilität und geringere Fixkosten
+- Verträge mit Vertretern und Händlern müssen Gebiet, Beendigung und Eigentum an den Kunden regeln
+- Die Verantwortung als Arbeitgeber gehört zur Entscheidung
+- Passe das Vertriebsmodell an jeden Markt an
+
+===== ORANGE-L5-010
+TITLE: Die Marke als Vermögenswert: aufbauen, bewerten und schützen
+SUMMARY: Marken schaffen Preissetzungsmacht, Loyalität, Widerstandskraft und Lizenzeinnahmen; rechtlicher Schutz ist für den Markenwert unverzichtbar, die Stärke einer Marke beeinflusst die Unternehmensbewertung, und Marken entstehen dadurch, dass Versprechen beständig gehalten werden, nicht durch Werbung allein.
+KEYWORDS: Markenwert, die Marke als Vermögenswert, Markenkapital, Schutz der eingetragenen Marke, Markenbewertung
+# Die Marke als Vermögenswert: aufbauen, bewerten und schützen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir vor, die Währung einer mittelgroßen Volkswirtschaft verliert innerhalb weniger Monate einen großen Teil ihres Werts gegenüber den wichtigsten Reservewährungen, getrieben von Kapitalflucht und schwindendem Vertrauen der Investoren.
+Wende es hier an: In einem Land, dessen Währung zusammengebrochen ist, behält eine bekannte einheimische Marke ihre treuen Kunden, auch während die Preise steigen, während Anbieter ohne Marke Absatz verlieren. Frag über die Farben hinweg: Was hat die Marke wertvoll gemacht (ORANGE)? Ist sie rechtlich geschützt (PURPLE)? Wie beeinflusst die Stärke der Marke den Wert des Unternehmens für Investoren (WHITE)? Kann die Marke im Ausland lizenziert werden, um Einnahmen in stärkeren Währungen zu erzielen (BLUE)?
+
+## Lernziele
+- Erklären, wie Marken finanziellen Wert schaffen
+- Beschreiben, wie der Markenwert rechtlich und durch Marketing geschützt wird
+- Die Stärke einer Marke mit Preissetzungsmacht und Unternehmensbewertung verbinden
+
+## Hauptinhalt
+Eine Marke ist mehr als ein Logo. Sie ist die Gesamtheit der Erwartungen, die Kunden an ein Unternehmen haben: Qualität, Verlässlichkeit, Werte und Erlebnis. Wenn diese Erwartungen positiv und beständig sind, schafft die Marke echten finanziellen Wert.
+Wie Marken Wert schaffen:
+- Preissetzungsmacht: Kunden zahlen für eine Marke, der sie vertrauen, eventuell mehr.
+- Loyalität: Stammkunden kosten weniger als neue (ORANGE-L5-003).
+- Widerstandskraft: In schweren Zeiten bleiben Kunden oft bei Marken, denen sie vertrauen, wie im Szenario.
+- Erweiterung: Eine starke Marke lässt sich leichter auf neue Produkte oder Märkte ausdehnen.
+- Lizenzen: Die Marke kann über andere Einnahmen bringen (PURPLE-L5-030 im juristischen Strang).
+Wie die Farben zusammenhängen:
+- PURPLE: Eintragung und Durchsetzung der Marke schützen sie rechtlich (PURPLE-L5-028 und -029). Ohne Schutz können Konkurrenten oder Fälscher den Namen nutzen.
+- WHITE: Investoren bewerten Unternehmen mit starken Marken oft höher, wegen der Preissetzungsmacht und der stabilen Gewinne. LÄNDERSPEZIFISCHE REGEL: Wie der Markenwert in der Bilanz erscheint, hängt von den Rechnungslegungsregeln ab. Selbst aufgebaute Marken werden oft nicht zum vollen Wert erfasst, gekaufte Marken dagegen schon; in Deutschland zum Beispiel dürfen selbst geschaffene Marken nach verfügbaren Informationen im Handelsrecht nicht als Vermögensgegenstand aktiviert werden, während eine erworbene Marke aktiviert und abgeschrieben werden kann, und die Eintragung beim Deutschen Patent- und Markenamt oder beim EUIPO schützt die Marke, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater.
+- BLUE: Investitionen in die Marke (Werbung, Kundendienst, Qualitätskontrolle) kosten heute Geld für späteren Wert.
+- GREEN: LÄNDERSPEZIFISCHE REGEL: Markenbezogene Ausgaben und Lizenzeinnahmen werden steuerlich eigens behandelt; das Eigentum an einer Marke zwischen verbundenen Unternehmen wirft Fragen der Verrechnungspreise auf.
+- BLACK: Eine Marke entsteht durch beständiges Verhalten im ganzen Unternehmen, nicht nur durch Marketing.
+Eine Marke kann schnell beschädigt werden: Ein Qualitätsproblem, eine irreführende Aussage oder schlechter Umgang mit Kunden kann jahrelanges Vertrauen zerstören.
+ANNAHME/MEINUNG: Die beständigsten Marken entstehen, indem Versprechen immer wieder gehalten werden. Werbung kann eine Marke bekannt machen, aber nur beständiges Liefern hält sie am Leben.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Kaffeeröstereien arbeiten in einem Land, dessen Währung zusammenbricht.
+Rösterei A hat in 15 Jahren eine Marke aufgebaut: beständige Qualität, fairer Umgang mit den Bauern und klare Verpackungen. Ihre Marke ist im Inland und in zwei Exportmärkten eingetragen.
+Rösterei B verkauft Kaffee ohne Marke zu niedrigen Preisen.
+Als die Währung zusammenbricht und die Importkosten in die Höhe schießen:
+- Rösterei A erhöht die Preise um 30 %. Die meisten Kunden bleiben, weil sie der Qualität vertrauen.
+- Rösterei B erhöht die Preise um 30 %. Viele Kunden wechseln zur billigsten verfügbaren Option.
+Rösterei A lizenziert ihre Marke außerdem gegen eine Lizenzgebühr an einen Händler in einem Exportmarkt mit stärkerer Währung (PURPLE-L5-030) und erzielt so Einnahmen in Fremdwährung.
+Zwei Jahre später bewertet ein Investor Rösterei A mit einem viel höheren Gewinnmultiplikator als Rösterei B und verweist auf die Stärke der Marke, die treuen Kunden und die Lizenzeinnahmen.
+ANNAHME/MEINUNG: Die Marke von Rösterei A wurde langsam durch beständige Qualität und faire Praktiken aufgebaut. Diese Investition zahlte sich am meisten in der Krise aus, als die Kunden entscheiden mussten, wem sie vertrauen.
+
+## Übungsquiz
+**Q1. Was ist laut der Lektion eine Marke?**
+A) Die Gesamtheit der Erwartungen, die Kunden an ein Unternehmen haben
+B) Nur ein Logo
+C) Eine Art Steuer
+D) Eine juristische Person
+**Q2. Wie schafft eine Marke Preissetzungsmacht?**
+A) Kunden zahlen für eine Marke, der sie vertrauen, eventuell mehr
+B) Durch Kostensenkung
+C) Durch rechtliches Umgehen des Wettbewerbs
+D) Durch Steuersenkung
+**Q3. Warum werden selbst aufgebaute Marken oft nicht zum vollen Wert in der Bilanz erfasst?**
+A) Sie haben keinen Wert
+B) Sie sind geheim
+C) Sie sind illegal
+D) Rechnungslegungsregeln behandeln sie oft anders als gekaufte Marken
+**Q4. Warum hat Rösterei A nach der Preiserhöhung die meisten Kunden behalten?**
+A) Die Kunden vertrauten ihrer beständigen Qualität
+B) Sie hatte keine Konkurrenten
+C) Der Staat verlangte es
+D) Sie senkte die Qualität
+**Q5. Was hält laut der Lektion eine Marke am Leben?**
+A) Nur viel Werbung
+B) Ein geschicktes Logo
+C) Versprechen beständig über die Zeit halten
+D) Niedrige Preise
+
+## Lösungsschlüssel
+Q1: A
+Q2: A
+Q3: D
+Q4: A
+Q5: C
+
+## Antworten und Erklärungen
+**Q1.** Marken entstehen aus den Erwartungen der Kunden.
+**Q2.** Vertrauen stützt höhere Preise.
+**Q3.** Die bilanzielle Behandlung ist unterschiedlich. LÄNDERSPEZIFISCHE REGEL.
+**Q4.** Vertrauen in die Marke schuf Widerstandskraft.
+**Q5.** Beständiges Liefern erhält, was Werbung bekannt macht.
+
+## Das Wichtigste in Kürze
+- Marken schaffen Preissetzungsmacht, Loyalität, Widerstandskraft und Lizenzeinnahmen
+- Rechtlicher Schutz ist für den Markenwert unverzichtbar
+- Die Stärke einer Marke beeinflusst die Unternehmensbewertung
+- Marken entstehen durch beständiges Liefern, nicht durch Werbung allein
