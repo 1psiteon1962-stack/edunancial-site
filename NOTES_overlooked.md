@@ -75,3 +75,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - 2026-11-23: PURPLE L4 ht 001-050 complete (check45 0 problems); PR 1632 opened, merge running. check45 ht heading map fixed to site convention "Senaryo pou louvri leson an"; extra hedged Haiti REGION tags allowed (matches merged GOLD/GREEN/BLUE L4 ht). Next: ORANGE L4 ht, BLACK L4 ht.
 - 2026-11-23: PURPLE L4 ht merged (PR 1632, smoke success). ORANGE L4 ht 001-050 complete, PR opened. Next: BLACK L4 ht.
 - 2026-11-23: BLACK L4 ht 001-050 merged (PR 1634). Smoke dispatched. Started L3 ht: BLUE (work/BLUE-L3-ht), check3/pcheck3 now support ht (7 H2 + '---' italic disclaimer, tag map FÈ VERIFYE/EGZANP ILISTRATIF/SIPOZISYON/ESTIMASYON).
+- 2026-11-23: PR 1634 smoke success. BLUE L3 ht 001-031 written (b01-b07, pcheck3 0 problems). Next: BLUE L3 ht 032-050, then check3.sh BLUE ht, place, PR. Then GREEN, GOLD, PURPLE, ORANGE, BLACK L3 ht.
