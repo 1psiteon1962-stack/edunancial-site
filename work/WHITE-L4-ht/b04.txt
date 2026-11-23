@@ -1,0 +1,399 @@
+===== WHITE-L4-016
+TITLE: Analiz straddle: poukisa parye sou volatilite diferan de parye sou direksyon
+SUMMARY: Konprann kijan yon straddle opsyon pèmèt yon envestisè fè benefis sou yon gwo mouvman pri nan nenpòt direksyon, sa ki fè diferans ant pari sou volatilite ak pari sou direksyon.
+KEYWORDS: straddle opsyon, komès volatilite, direksyon ensèten, estrateji opsyon
+# Analiz straddle: poukisa parye sou volatilite diferan de parye sou direksyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine lajan yon ekonomi mwayen ki pèdi yon gwo pati nan valè li konpare ak gwo lajan rezèv yo sou kèk mwa, akoz kapital k ap kouri kite peyi a e konfyans envestisè k ap fin manje. Pandan lajan yon ekonomi mwayen ap balanse yon fason enprevizib nan mitan fwit kapital, yon envestisè k ap swiv yon aksyon ki gen rapò e ki ekspoze a lajan sa a kwè yon gwo mouvman pri ap vini — men li pa gen okenn konviksyon fò sou ki direksyon. Leson sa a prezante estrateji yo fè egzakteman pou kalite ensètitid sa a.
+
+## Objektif aprantisaj
+- Esplike estrikti yon estrateji opsyon straddle long.
+- Esplike poukisa yon straddle fè benefis sou yon gwo mouvman pri nan nenpòt direksyon.
+- Idantifye kondisyon kote yon straddle gen chans pèdi lajan.
+- Fè diferans ant yon pari sou direksyon ak yon pari sou volatilite lè w itilize egzanp straddle la.
+
+## Kontni prensipal
+Yon straddle long konbine achte ni yon opsyon call ni yon opsyon put sou menm aksyon anba a, ak menm pri egzèsis ak menm dat ekspirasyon. FÈ VERIFYE: paske pozisyon an gen ladan l ni yon call (ki pran valè lè aksyon an monte) ni yon put (ki pran valè lè aksyon an bese), yon straddle ka vin bay benefis si aksyon an fè yon gwo mouvman nan nenpòt direksyon, sa ki fè l fondamantalman diferan de yon senp pari sou direksyon tankou achte yon call sèlman (Leson 14) oswa yon put sèlman (Leson 15).
+
+Men "poukisa" yo dekri sa kòm yon pari sou volatilite olye direksyon: yon envestisè ki pa sèten ki bò yon aksyon ki ekspoze a lajan pral deplase nan mitan ensètitid senaryo pi wo a, men ki gen konfyans yon mouvman enpòtan ap vini, nan yon bò oswa nan lòt, ka itilize yon straddle pou pozisyone l pou volatilite sa a li atann san li pa bezwen devine direksyon an kòrèkteman. Prim konbine li peye pou ni call la ni put la reprezante kou total pozisyon sa a, e aksyon an dwe deplase ase lwen nan nenpòt direksyon pou kouvri kou prim konbine sa a anvan pozisyon an vin bay benefis.
+
+Se poutèt sa yon straddle pèdi lajan si aksyon an rete relativman plat, menm si envestisè a te "gen rezon" ke ensètitid te egziste — ni call la ni put la pèdi valè avèk tan (yon konsèp yo rele erozyon tan, time decay, nou kouvri plis nan leson opsyon ki pi avanse) si gwo mouvman yo te atann nan pa rive anvan ekspirasyon. Se poutèt sa pi bon fason pou konprann yon straddle se kòm yon pari pi sou volatilite: envestisè a ap parye ke gwosè mouvman an pral depase sa mache opsyon an te deja mete nan pri a, se pa sou okenn direksyon patikilye ditou.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon aksyon ap vann nan $100. Yon envestisè achte ni yon call ni yon put nan pri egzèsis $100, li peye yon prim konbine $8 pa aksyon ($800 total pou kontra estanda). Si aksyon an balanse rive $130 nan ekspirasyon, call la vo $30 (byen pi plis pase kou konbine $8 la), sa ki bay yon bon benefis malgre put la ekspire san valè. Si aksyon an tonbe nan $70 olye, put la vo $30, sa ki bay yon benefis ki sanble malgre call la ekspire san valè. Men si aksyon an tou senpleman rete nan $102 nan ekspirasyon, tou de opsyon yo vo trè piti, e envestisè a pèdi pi fò oswa tout prim konbine $800 la, sa ki ilistre estrateji a te bezwen yon gwo mouvman, nan nenpòt direksyon, pou l reyisi.
+
+## Egzamen pratik
+**Q1. Kisa yon straddle long konbine?**
+A) De opsyon call nan pri egzèsis diferan
+B) Yon opsyon call ak yon opsyon put sou menm aksyon an, ak menm pri egzèsis ak menm ekspirasyon
+C) Vann yon opsyon call e achte yon aksyon
+D) Yon opsyon put sèlman san okenn call avè l
+
+**Q2. Poukisa yo dekri yon straddle kòm yon pari sou volatilite olye direksyon?**
+A) Li fè benefis sèlman si aksyon an monte, menm jan ak yon opsyon call pou kont li
+B) Li ka vin bay benefis sou yon gwo mouvman pri nan nenpòt direksyon, paske li konbine ni yon call ni yon put
+C) Li fè benefis sèlman si aksyon an rete konplètman plat
+D) Straddle pa gen okenn rapò ak mouvman pri ditou
+
+**Q3. Nan ki kondisyon yon straddle long souvan pèdi lajan?**
+A) Lè aksyon an fè yon trè gwo mouvman nan nenpòt direksyon
+B) Lè aksyon an rete relativman plat, paske ni call la ni put la pa pran ase valè pou kouvri prim konbine yo te peye a
+C) Straddle toujou fè lajan kèlkeswa mouvman aksyon an
+D) Lè envestisè a prevwa direksyon aksyon an kòrèkteman
+
+**Q4. Nan egzanp lan, poukisa envestisè a te fè benefis lè aksyon an te monte rive $130 malgre put la te ekspire san valè?**
+A) Benefis $30 opsyon call la te byen pi plis pase prim konbine $8 yo te peye pou tou de opsyon yo
+B) Opsyon put la te pran valè tou an menm tan
+C) Yo te ranbouse envestisè a prim put ki pa t vo anyen an
+D) Benefis la pa t gen okenn rapò ak valè opsyon call la
+
+**Q5. Poukisa straddle la te pèdi lajan lè aksyon an te rete nan $102 nan egzanp lan?**
+A) Yon mouvman $2 te plis pase ase pou fè benefis ak nenpòt nan opsyon yo
+B) Ni call la ni put la pa t pran ase valè nan yon si ti mouvman pou kouvri prim konbine $800 yo te peye a
+C) Estrateji straddle la toujou pèdi lajan kèlkeswa mouvman aksyon an
+D) Envestisè a te oblije egzèse tou de opsyon yo an menm tan
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Yon straddle mete ansanm espesyalman yon call ak yon put ki gen menm pri egzèsis ak menm ekspirasyon pou pozisyone l pou yon gwo mouvman nan nenpòt direksyon.
+
+**Q2.** Paske tou de pati call ak put la pèmèt pozisyon an fè benefis sou yon gwo mouvman kèlkeswa direksyon, li vize gwosè mouvman an olye direksyon an.
+
+**Q3.** Yon mouvman pri ki pa ase vle di okenn nan de pati straddle la pa pran ase valè pou konpanse prim total yo te peye pou tou de opsyon yo.
+
+**Q4.** Gwo benefis sou call la pou kont li te ase pou plis pase konpanse kou total tou de opsyon yo, menm ak put la ki te ekspire san valè.
+
+**Q5.** Ti mouvman pri a pa t rive nan sa ki te nesesè pou nenpòt opsyon pwodui yon benefis ki ase pou konpanse kou prim total la.
+
+## Pwen kle yo
+- Yon straddle long konbine yon call ak yon put nan menm pri egzèsis ak menm ekspirasyon sou menm aksyon anba a.
+- Estrikti sa a ka fè benefis sou yon gwo mouvman pri nan nenpòt direksyon, sa ki fè l yon pari sou volatilite olye direksyon.
+- Yon straddle pèdi lajan si aksyon an rete relativman plat, paske okenn opsyon pa pran ase valè pou kouvri prim konbine a.
+- Yon straddle reyisi lè vrè mouvman pri a depase sa pri opsyon konbine mache a te antisipe, kèlkeswa direksyon.
+
+===== WHITE-L4-017
+TITLE: Analiz maj (margin): poukisa lajan prete amplifye ni benefis ni pèt nan yon pòtfolyo
+SUMMARY: Konprann kijan achte aksyon sou maj amplifye ni benefis potansyèl ni pèt potansyèl, sa ki raple prensip efè levye nou te kouvri nan imobilye.
+KEYWORDS: komès sou maj, efè levye, apèl maj, risk pòtfolyo
+# Analiz maj (margin): poukisa lajan prete amplifye ni benefis ni pèt nan yon pòtfolyo
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon boom mache kredi te pouse ap defèt e pri byen yo ap tonbe anpil, envestisè ki te prete anpil pou achte aksyon fè fas ak yon eksperyans trè diferan de moun ki te peye kach. Leson sa a esplike poukisa.
+
+## Objektif aprantisaj
+- Esplike kisa komès sou maj vle di nan kontèks yon pòtfolyo aksyon.
+- Esplike poukisa maj amplifye ni benefis an pousantaj ni pèt an pousantaj sou kapital envesti.
+- Esplike kisa yon apèl maj ye e poukisa li ka fòse yon vant nan pi move moman posib.
+- Konpare risk yon pozisyon aksyon sou maj ak yon pozisyon san levye ki menm gwosè.
+
+## Kontni prensipal
+Achte aksyon sou maj vle di prete lajan nan men yon konpayi koutaj (brokerage) pou achte plis aksyon pase sa lajan kach envestisè a pou kont li ta pèmèt, lè l itilize titr li achte yo (e souvan lòt byen nan kont lan) kòm garanti pou prè a. FÈ VERIFYE: sa se konseptyèlman menm mekanis efè levye ak analiz rapò prè sou valè (loan-to-value) nou te kouvri nan imobilye — pwòp kapital envestisè a ("ekite" li nan pozisyon an) vin yon pi piti pati nan pozisyon total la, sa ki grandi benefis ak pèt an pousantaj sou ekite sa a nan tou de direksyon.
+
+Men "poukisa" maj koupe nan de bò yon fason ki sanble anpil ak efè levye nan imobilye: si yon aksyon yo achte sou maj monte, yo mezire benefis la konpare ak ti montan lajan kach envestisè a te vrèman envesti a, sa ki bay yon rannman an pousantaj ki pi wo pase yon acha menm aksyon an tout kach. Men si aksyon an bese, jan sa ta ka rive pandan kalite defèt mache kredi senaryo pi wo a dekri a, yo mezire pèt la konpare ak menm ti baz ekite sa a, e yon bès ki ta jere fasil nan yon pozisyon tout kach ka efase yon pati byen pi gwo, oswa tout, ekite envestisè sou maj la.
+
+Se poutèt sa komès sou maj ajoute yon risk anplis senp kalkil efè levye a: yon apèl maj (margin call). FÈ VERIFYE: si valè garanti kont maj la tonbe anba yon nivo antretyen yo mande, konpayi koutaj la ka mande envestisè a depoze plis lajan imedyatman oswa li pral vann fòse sa envestisè a genyen pou mete kont lan an règ ankò — souvan nan pi move moman posib, pandan yon gwo bès mache, sa ki fè sa ki te ka yon pèt sou papye ou te ka refè tounen yon pèt reyalize pou toujou, paske vant fòse a fèt kèlkeswa pwòp opinyon envestisè a sou chans aksyon an genyen pou l refè finalman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon envestisè achte $20,000 aksyon ak $10,000 nan pwòp lajan kach li e $10,000 li prete sou maj. Si aksyon an monte 20%, pozisyon an fè $4,000 benefis — yon rannman 40% sou $10,000 ekite orijinal envestisè a. Men si aksyon an bese 30% olye, pozisyon an pèdi $6,000, sa ki efase 60% nan ekite orijinal envestisè a, e si bès la ase fò pou depase egzijans maj antretyen koutye a, envestisè a ka fè fas ak yon apèl maj ki fòse yon vant nan pri ki deprime a, sa ki bloke pèt la olye kite tan pou yon rekiperasyon potansyèl.
+
+## Egzamen pratik
+**Q1. Kisa achte aksyon sou maj vle di?**
+A) Peye tout an kach san okenn lajan prete
+B) Prete lajan nan men yon konpayi koutaj pou achte plis aksyon pase sa lajan kach envestisè a pou kont li ta pèmèt
+C) Achte sèlman aksyon ki peye dividann
+D) Achte aksyon sèlman atravè yon kont retrèt
+
+**Q2. Poukisa maj amplifye benefis ak pèt an pousantaj konpare ak yon acha tout kach?**
+A) Yo mezire benefis ak pèt konpare ak pi piti kontribisyon ekite envestisè a olye tout gwosè pozisyon an
+B) Maj pa gen okenn efè sou benefis oswa pèt an pousantaj
+C) Maj amplifye sèlman benefis, janm pèt
+D) Konpayi koutaj absòbe tout pèt sou pozisyon maj otomatikman
+
+**Q3. Kisa yon apèl maj ye?**
+A) Yon apèl telefòn yon koutye fè pou ofri konsèy envestisman
+B) Yon egzijans pou depoze plis lajan oswa fè fas ak yon vant fòse sa ou genyen lè valè garanti kont lan tonbe anba yon nivo antretyen yo mande
+C) Yon peman bonis garanti pou komès sou maj ki reyisi
+D) Yon fòm taks ki gen rapò ak kont maj
+
+**Q4. Poukisa yon apèl maj ka domaje sitou pandan yon gwo bès mache?**
+A) Apèl maj pa janm rive pandan bès mache
+B) Li ka fòse yon vant nan yon pri ki deprime kèlkeswa pwòp opinyon envestisè a sou chans aksyon an pou l refè, sa ki fè yon pèt sou papye tounen yon pèt pou toujou
+C) Apèl maj toujou bay envestisè a yon benefis garanti
+D) Vant fòse pandan yon apèl maj toujou fèt nan pri favorab
+
+**Q5. Nan egzanp lan, ki pèt an pousantaj envestisè a te fè sou ekite orijinal li lè aksyon an te bese 30%?**
+A) 30%
+B) 40%
+C) 60%
+D) 100%
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Komès sou maj gen ladan l espesyalman itilize lajan yo prete nan men yon konpayi koutaj pou ogmante gwosè yon pozisyon aksyon pi lwen pase lajan kach ki disponib.
+
+**Q2.** Paske pwòp kapital envestisè a se yon pi piti pati nan pozisyon total la, menm mouvman an dola bay yon pi gwo efè an pousantaj sou ekite li.
+
+**Q3.** Yon apèl maj deklanche lè valè kont lan tonbe twòp, sa ki mande envestisè a ajoute lajan oswa fè fas ak yon likidasyon pozisyon li san volonte li.
+
+**Q4.** Lefèt ke vant lan fòse e san volonte vle di envestisè a pèdi opsyon pou l tann yon rekiperasyon potansyèl, sa ki bloke pèt yo nan yon move moman.
+
+**Q5.** Yon pèt $6,000 sou yon envestisman ekite orijinal $10,000 reprezante yon pèt 60% sou ekite sa a, menm si aksyon an li menm te bese sèlman 30%.
+
+## Pwen kle yo
+- Komès sou maj itilize lajan prete pou ogmante gwosè pozisyon, konseptyèlman menm jan ak efè levye nan imobilye.
+- Sa amplifye ni benefis an pousantaj ni pèt an pousantaj sou pwòp ekite envestisè a envesti.
+- Yon apèl maj ka fòse yon vant nan yon pri ki deprime pandan yon bès, sa ki fè yon pèt sou papye ou te ka refè tounen yon pèt pou toujou.
+- Risk yon pozisyon sou maj depase anpil risk yon pozisyon ekivalan san levye, tout kach.
+
+===== WHITE-L4-018
+TITLE: Analiz fon endèks: poukisa bat mache a yon fason konsistan ra
+SUMMARY: Konprann poukisa fè pi byen pase yon endèks mache jeneral yon fason konsistan sou peryòd long te pwouve difisil pou pifò manadjè fon pwofesyonèl, ak sa sa vle di pou envestisè yo.
+KEYWORDS: fon endèks, efikasite mache, pèfòmans jesyon aktif, envestisman pasif
+# Analiz fon endèks: poukisa bat mache a yon fason konsistan ra
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon peryòd dezòd mache jeneral, kèk fon ki jere aktivman fè konnen se yo ki te reyisi navige nan dezòd la, alòske fon endèks tou senpleman te swiv mache a desann e remonte. Leson sa a gade sa done pèfòmans alontèm vrèman montre sou istorik jesyon aktif.
+
+## Objektif aprantisaj
+- Esplike kisa yo fè yon fon endèks pou l fè.
+- Esplike poukisa bat yon endèks mache jeneral yon fason konsistan te pwouve difisil pou pifò manadjè pwofesyonèl.
+- Idantifye rezon kle ki dèyè modèl pèfòmans ki pi fèb e ki pèsistan sa a.
+- Fè diferans ant ladrès ak chans lè w ap evalye istorik kout tèm yon manadjè fon.
+
+## Kontni prensipal
+Yo fè yon fon endèks pou swiv pèfòmans yon endèks mache espesifik (tankou yon endèks mache aksyon jeneral) otan sere ke posib, olye eseye chwazi titr endividyèl yo atann ki pral fè pi byen. FÈ VERIFYE: etid alontèm sou pèfòmans fon ki jere aktivman te montre yon fason konsistan ke yon majorite fon ki jere aktivman fè pi mal pase endèks referans yo sou peryòd long (etid yo site souvan montre majorite sa a ogmante sou orizon tan ki pi long, tankou 10-15 ane), menm anvan yo konsidere ineficasite taks ki ka soti nan komès ki pi souvan nan fon ki jere aktivman.
+
+Men "poukisa" modèl pèsistan sa a egziste, sa ki konekte ak analiz rapò depans Leson 5 la: jesyon aktif koute plis (rapò depans ki pi wo pou peye rechèch ak komès), e kou ki pi wo sa a kreye yon ba pèfòmans chak fon ki jere aktivman dwe travèse jis pou l egal rannman nèt yon fon endèks ki koute mwens, pa menm pale de bat li. Anplis kou, mache yo trè konpetitif tou — yon gwo kantite envestisè pwofesyonèl ki gen ladrès e anpil resous ap analize menm enfòmasyon piblik la, sa ki fè li trè difisil pou nenpòt yon sèl manadjè jwenn e eksplwate yon fason konsistan titr ki gen yon move pri anvan lòt yo, yon konsèp nou eksplore plis nan leson sou Ipotèz Mache Efikas la pita nan nivo sa a.
+
+Se poutèt sa yon bon istorik kout tèm yon manadjè fon, menm sou plizyè ane, pa prevwa yon fason fyab ke li pral kontinye fè pi byen: OPINYON ak yon prekosyon estatistik enpòtan, akoz trè gwo kantite fon ki jere aktivman ki egziste, kèk pral fè pi byen sou nenpòt peryòd sèlman pa chans, menm jan kèk moun k ap voye pyès monnen an lè nan yon trè gwo gwoup pral jwenn "tèt" anpil fwa youn dèyè lòt sèlman pa chans, san sa pa reflete okenn vrè ladrès pou prevwa jan pyès la ap tonbe.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Sou yon peryòd 15 ane ki kouvri dezòd senaryo pi wo a dekri a ak sa ki te swiv li, yon fon endèks ki koute piti e ki swiv tout mache a bay 9% chak ane apre frè. Pami yon gwo echantiyon fon ki jere aktivman ki te egziste nan kòmansman peryòd sa a, majorite yo fè pi mal pase rannman nèt 9% sa a yon fwa yo konte frè ki pi wo yo, menm si anpil manadjè endividyèl nan echantiyon sa a te fè pi byen nan kèk ane, sa ki ilistre difikilte pou kenbe yon pi bon pèfòmans yon fason konsistan sou yon sik mache konplè.
+
+## Egzamen pratik
+**Q1. Kisa yo fè yon fon endèks pou l fè?**
+A) Eseye chwazi yon fason konsistan aksyon endividyèl yo atann ki pral fè pi byen pase mache a
+B) Swiv pèfòmans yon endèks mache espesifik otan sere ke posib
+C) Garanti yon rannman fiks chak ane kèlkeswa kondisyon mache yo
+D) Envesti sèlman nan aksyon yon sèl konpayi
+
+**Q2. Kisa etid alontèm te montre yon fason konsistan sou pèfòmans fon ki jere aktivman konpare ak endèks referans?**
+A) Gwo majorite fon ki jere aktivman bat endèks referans yo yon fason konsistan sou peryòd long
+B) Yon majorite fon ki jere aktivman fè pi mal pase endèks referans yo sou peryòd long, sitou sou 10-15 ane oswa plis
+C) Fon ki jere aktivman ak fon endèks toujou fè menm pèfòmans egzakteman
+D) Fon ki jere aktivman pa gen okenn frè ditou
+
+**Q3. Poukisa yon rapò depans ki pi wo kreye yon ba pèfòmans pou fon ki jere aktivman?**
+A) Rapò depans pa gen okenn rapò ak pèfòmans nèt yon fon
+B) Fon an dwe travèse kou anplis la jis pou l egal rannman nèt yon fon endèks ki koute mwens, pa menm pale de bat li
+C) Frè ki pi wo toujou garanti pi bon rechèch envestisman ak pi gwo rannman
+D) Fon aktif egzante de peye okenn frè
+
+**Q4. Poukisa li difisil pou manadjè pwofesyonèl ki gen ladrès jwenn e eksplwate yon fason konsistan titr ki gen yon move pri?**
+A) Okenn envestisè pwofesyonèl pa analize enfòmasyon mache piblik
+B) Yon gwo kantite pwofesyonèl ki gen ladrès e anpil resous ap analize menm enfòmasyon an, sa ki fè li difisil pou eksplwate yon move pri ki pèsiste yon fason konsistan
+C) Titr ki gen yon move pri pa egziste nan okenn mache
+D) Se sèlman envestisè ki pa gen ladrès ki eseye jwenn titr ki gen yon move pri
+
+**Q5. Poukisa yon bon istorik kout tèm yon manadjè fon pa prevwa yon fason fyab ke li pral kontinye fè pi byen?**
+A) Istorik kout tèm toujou prevwa pèfòmans nan lavni yon fason pafè
+B) Ak yon gwo kantite fon ki egziste, kèk pral fè pi byen sou nenpòt peryòd sèlman pa chans, menm jan ak analoji pyès monnen an, san sa pa reflete yon ladrès garanti
+C) Lalwa mande manadjè fon fè pi mal apre yon bon peryòd
+D) Pèfòmans ki pi bon nan kout tèm toujou kontinye pou toujou
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fon endèks vize repwodui pèfòmans yon referans sere sere olye chwazi titr aktivman.
+
+**Q2.** Modèl pèfòmans ki pi fèb sa a te yon rezilta pèsistan e byen dokimante nan anpil etid alontèm.
+
+**Q3.** Jan leson rapò depans pi bonè a te etabli l, kou ki pi wo diminye rannman nèt envestisè dirèkteman, sa ki mande yon pèfòmans brit ki pi fò jis pou kenbe menm ritm ak altènativ ki koute mwens.
+
+**Q4.** Konkirans fò pami patisipan mache ki byen enfòme fè li difisil pou nenpòt yon sèl manadjè jwenn yon fason fyab e repete opòtinite lòt yo rate.
+
+**Q5.** Akoz kantite fon an, yo atann estatistikman kèk pi bon pèfòmans rive pa chans sèlman, sa ki fè li difisil pou fè diferans ant vrè ladrès ak chans nan yon istorik limite.
+
+## Pwen kle yo
+- Fon endèks vize swiv yon referans sere sere olye eseye chwazi titr ki pral fè pi byen.
+- Nan istwa, yon majorite fon ki jere aktivman te fè pi mal pase referans yo sou peryòd long, sitou apre frè.
+- Kou ki pi wo ak konkirans fò pami pwofesyonèl ki gen ladrès tou de kontribiye nan modèl pèfòmans ki pi fèb e ki pèsistan sa a.
+- Yon bon istorik kout tèm pa prevwa yon fason fyab yon pi bon pèfòmans k ap kontinye, paske kèk fon pral fè pi byen pa chans sèlman.
+
+===== WHITE-L4-019
+TITLE: Analiz jesyon aktif kont pasif: poukisa frè se pi bon prediktè rannman nèt
+SUMMARY: Konprann poukisa, nan gwo echantiyon fon, rapò depans te pwouve se youn nan prediktè ki pi fyab pou pèfòmans envestisman nèt relatif.
+KEYWORDS: jesyon aktif, jesyon pasif, frè fon, prediksyon rannman nèt
+# Analiz jesyon aktif kont pasif: poukisa frè se pi bon prediktè rannman nèt
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Apre yon gwo dezòd mache, chèchè finansye ki etidye gwo echantiyon done pèfòmans fon montre yon fason konsistan yon varyab ki te prevwa rezilta relatif pi byen pase prèske nenpòt lòt bagay. Leson sa a esplike ki varyab sa a ye e poukisa li fonksyone yon fason fyab konsa.
+
+## Objektif aprantisaj
+- Esplike diferans fondamantal ant jesyon fon aktif ak pasif.
+- Esplike poukisa rapò depans te pwouve se yon prediktè fò pou pèfòmans fon nèt relatif.
+- Esplike poukisa rapò sa a kenbe menm si ladrès ak pwosesis klèman toujou enpòtan an prensip.
+- Aplike konpreyansyon sa a nan kritè pou chwazi fon.
+
+## Kontni prensipal
+Jesyon aktif gen ladan l yon manadjè fon oswa yon ekip k ap pran desizyon espre sou ki titr pou achte, kenbe, oswa vann, pou eseye fè pi byen pase yon referans. Jesyon pasif, jan Leson 18 te kouvri l, tou senpleman swiv yon endèks referans. FÈ VERIFYE: nan gwo etid akademik ak endistri sou pèfòmans fon, rapò depans te parèt plizyè fwa kòm youn nan sèl prediktè ki pi fò pou pèfòmans nèt relatif yon fon nan lavni nan kategori li — pi fyab, an mwayèn, pase pèfòmans pase, konbyen tan manadjè a la, oswa lòt faktè seleksyon moun site souvan.
+
+Men "poukisa" sa vre menm si ladrès ak pwosesis klèman enpòtan an prensip: nan nenpòt kategori fon, rannman brit (anvan frè) gen tandans rete relativman pre youn ak lòt sou peryòd long, paske, jan Leson 18 te esplike, li vrèman difisil pou nenpòt manadjè fè pi byen pase lòt yo yon fason konsistan e enpòtan lè yo tout ap analize menm mache konpetitif la. Lè rannman brit yo sanble nan anpil fon nan yon kategori, frè chak fon fè peye a vin faktè dominan ki separe rannman nèt yo — fon ki kenbe plis nan rannman brit la pou envestisè a, olye pou konpayi fon an, gen tandans bay pi bon rezilta nèt la, prèske endepandan de ladrès nenpòt manadjè espesifik.
+
+Se poutèt sa nivo frè, kontrèman ak ladrès oswa pèfòmans manadjè nan lavni (ki natirèlman pa ka prevwa davans), se yon varyab ou konnen, ki fiks, e ou ka kontwole nan moman envestisman an. Se poutèt sa anpil analis finansye, OPINYON: tankou yon pati enpòtan nan kominote rechèch envestisman pwofesyonèl la, trete rapò depans kòm youn nan kritè triyaj ki pi itil e ki baze sou prèv ki disponib lè w ap konpare fon ki sanble, jisteman paske ou ka konnen l davans alòske ou pa ka konnen pi bon pèfòmans nan lavni.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Chèchè k ap etidye yon gwo echantiyon fon ki jere aktivman nan yon sèl kategori klase yo an gwoup selon rapò depans, soti nan sa ki koute mwens rive nan sa ki koute plis. Gwoup ki koute mwens lan, an mwayèn, bay envestisè yo rannman nèt ki pi wo yon fason enpòtan pase gwoup ki koute plis la sou yon peryòd 10 ane, menm si kèk fon endividyèl nan gwoup ki koute plis la te afiche bon rezilta nan kèk ane espesifik — sa ki demontre ke, an mwayèn e avèk tan, nivo frè te prevwa rezilta nèt pi fyab pase nenpòt lòt sèl karakteristik yo te egzamine.
+
+## Egzamen pratik
+**Q1. Ki diferans fondamantal ant jesyon aktif ak jesyon pasif?**
+A) Jesyon aktif swiv yon endèks referans egzakteman, alòske jesyon pasif eseye fè pi byen pase l
+B) Jesyon aktif gen ladan l chwazi titr espre pou eseye fè pi byen pase yon referans, alòske jesyon pasif tou senpleman swiv referans lan
+C) Pa gen okenn diferans ki gen sans ant de apwòch yo
+D) Jesyon pasif toujou fè peye pi gwo frè pase jesyon aktif
+
+**Q2. Poukisa rapò depans te pwouve se yon prediktè fò konsa pou pèfòmans fon nèt relatif?**
+A) Rapò depans pa gen okenn vrè rapò ak pèfòmans fon
+B) Paske rannman brit gen tandans rete pre youn ak lòt nan yon kategori, frè chak fon fè peye a vin faktè dominan ki separe rannman nèt yo
+C) Frè ki pi wo toujou bay rannman brit ki pi wo nan menm pwopòsyon
+D) Rapò depans enpòtan sèlman pou fon obligasyon, se pa fon aksyon
+
+**Q3. Poukisa yo konsidere rapò depans kòm yon kritè seleksyon ki pi itil pase pèfòmans pase?**
+A) Pèfòmans pase toujou yon prediktè pafè pou rezilta nan lavni
+B) Rapò depans se yon varyab ou konnen, ki fiks, e ou ka kontwole nan moman envestisman an, alòske ladrès ak pèfòmans manadjè nan lavni natirèlman pa ka prevwa
+C) Rapò depans pa gen okenn enpòtans nan desizyon envestisman ditou
+D) Pèfòmans pase ak rapò depans se egzakteman menm mezi a
+
+**Q4. Nan egzanp lan, kisa chèchè yo te jwenn lè yo te konpare gwoup fon ki koute mwens ak sa ki koute plis sou 10 ane?**
+A) Fon ki koute plis yo te toujou fè pi byen pase fon ki koute mwens yo nan chak ane
+B) Gwoup ki koute mwens lan te bay rannman nèt ki pi wo yon fason enpòtan an mwayèn, malgre kèk fon endividyèl ki koute plis te afiche bon rezilta nan kèk ane espesifik
+C) Pa t gen okenn diferans ant de gwoup yo ditou
+D) Fon ki koute mwens yo te toujou fè pi mal kèlkeswa peryòd tan an
+
+**Q5. Poukisa anpil analis trete rapò depans kòm yon kritè triyaj espesyalman itil e ki baze sou prèv?**
+A) Paske li garanti yon pi bon pèfòmans nan chak ka endividyèl
+B) Paske se yon karakteristik ou konnen, ki fiks, ou ka konnen davans, kontrèman ak pi bon pèfòmans manadjè nan lavni ou pa ka prevwa
+C) Paske chèchè pa janm etidye rapò depans
+D) Paske frè pa gen okenn enpòtans pou rezilta nèt envestisè yo
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Distenksyon prensipal la se si fon an eseye bat yon referans atravè desizyon aktif oswa si li tou senpleman fè menm jan ak li.
+
+**Q2.** Lè fon nan yon kategori pwodui rannman brit ki sanble, diferans frè a vin prensipal motè diferans nan sa envestisè yo vrèman kenbe.
+
+**Q3.** Paske ou konnen nivo frè davans e ou pa konnen pèfòmans nan lavni, rapò depans ofri yon baz ki pi fyab pou konpare nan moman ou dwe pran yon desizyon.
+
+**Q4.** Rezilta mwayèn e pi alontèm lan te favorize gwoup ki koute mwens lan, menm si kèk bon ane izole te rive pami kèk fon ki koute plis.
+
+**Q5.** Previzibilite li ak lefèt ou ka kontwole l, konpare ak enprevizibilite rannman nan lavni, fè l yon zouti triyaj pratik e prèv sipòte.
+
+## Pwen kle yo
+- Jesyon aktif eseye bat yon referans atravè chwa titr espre; jesyon pasif swiv li dirèkteman.
+- Rapò depans te parèt plizyè fwa kòm youn nan prediktè ki pi fò pou pèfòmans fon nèt relatif nan gwo etid.
+- Sa kenbe paske rannman brit gen tandans rete pre youn ak lòt nan yon kategori, sa ki fè nivo frè a faktè dominan ki separe rezilta nèt yo.
+- Paske ou konnen frè yo e ou ka kontwole yo davans, kontrèman ak pèfòmans nan lavni, yo sèvi kòm yon kritè seleksyon fon espesyalman itil.
+
+===== WHITE-L4-020
+TITLE: Analiz rebalansman: poukisa vann sa ki genyen e achte sa ki pèdi se pa kontrarye, se disiplin
+SUMMARY: Konprann poukisa rebalanse yon pòtfolyo detanzantan, ki gen ladan vann sa ki fèk genyen e achte sa ki fè relativman mwens byen, se yon pratik jesyon risk disipline.
+KEYWORDS: rebalansman pòtfolyo, disiplin repatisyon byen, achte ba vann wo, jesyon risk
+# Analiz rebalansman: poukisa vann sa ki genyen e achte sa ki pèdi se pa kontrarye, se disiplin
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon kategori byen ki an plen boom e ke kredi alimante kontinye monte pandan plizyè ane, repatisyon orijinal 60/40 aksyon-obligasyon yon envestisè deplase an silans rive 85/15 pandan aksyon yo depase obligasyon yo. Leson sa a esplike poukisa remete repatisyon sa a nan liy, menm pandan boom nan ap kontinye, se yon kesyon disiplin olye pesimis.
+
+## Objektif aprantisaj
+- Esplike kisa rebalansman pòtfolyo vle di.
+- Esplike poukisa repatisyon yon pòtfolyo yo pa jere deplase lwen sib orijinal li avèk tan.
+- Esplike poukisa rebalansman gen ladan l sistematikman vann sa ki genyen relativman e achte sa ki fè relativman mwens byen.
+- Esplike poukisa pratik sa a baze sou disiplin jesyon risk olye yon prediksyon mache.
+
+## Kontni prensipal
+Rebalansman pòtfolyo vle di ajiste detanzantan sa yon pòtfolyo kenbe pou remete l nan yon repatisyon byen sib yo te fikse davans (tankou 60% aksyon ak 40% obligasyon), yon konsèp ki raple dirèkteman analiz rebalansman pòtfolyo imobilye nou te kouvri pi bonè nan kourikoulòm sa a, kounye a aplike nan yon pòtfolyo envestisman ki gen plizyè kategori byen. FÈ VERIFYE: paske diferan kategori byen bay diferan rannman avèk tan, vrè repatisyon yon pòtfolyo yo pa jere pral deplase lwen sib orijinal li — yon monte aksyon ki fò e ki dire, tankou sa senaryo pi wo a mansyone a, ka pouse yon pòtfolyo 60/40 rive 80/20 oswa plis, sèlman paske aksyon yo fè pi byen pase obligasyon yo, san okenn aksyon espre envestisè a.
+
+Men "poukisa" rebalansman gen ladan l sistematikman vann sa ki genyen relativman e achte sa ki fè relativman mwens byen: remete yon pòtfolyo 80/20 nan sib 60/40 li mande vann yon pati nan aksyon ki kounye a twò lou yo (sa ki fèk genyen an) e achte plis obligasyon (sa ki fèk fè relativman mwens byen an) — sa ki aplike mekanikman yon disiplin "achte ba, vann wo" san envestisè a pa bezwen prevwa ki byen ki pral fè pi byen apre. Sa ka santi l pa konfòtab emosyonèlman, paske sa vle di koupe yon kategori byen ki t ap fè bon pèfòmans e ajoute nan youn ki t ap rete dèyè, men disiplin nan baze sou jesyon risk, se pa sou yon prediksyon ke tandans lan pral vire.
+
+Se poutèt sa rebalansman se fondamantalman yon pratik kontwòl risk olye yon pari sou moman mache: yon pòtfolyo 80/20 pote yon risk ki pi wo yon fason enpòtan pase repatisyon 60/40 envestisè a te vle orijinalman, kèlkeswa si aksyon yo kontinye monte oswa finalman vire, e rebalansman egziste pou kenbe vrè nivo risk pòtfolyo a aliyen ak tolerans risk envestisè a vle, se pa pou prevwa direksyon mache nan kout tèm.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon envestisè kòmanse ak yon pòtfolyo 60/40 aksyon-obligasyon. Apre plizyè ane yon monte aksyon ki fò, repatisyon an deplase rive 82/18. Rebalanse pou retounen nan 60/40 mande vann yon pati nan aksyon yo (toupre pi wo resan yo) e ajoute nan obligasyon yo (ki te rete dèyè). Si aksyon yo bese anpil apre sa, pòtfolyo 60/40 ki rebalanse a konnen yon pèt total ki pi piti pase sa pòtfolyo 82/18 ki te deplase a ta konnen, sa ki ilistre kijan disiplin nan te pwoteje nivo risk envestisè a te vle a kèlkeswa moman espesifik bès final la.
+
+## Egzamen pratik
+**Q1. Kisa rebalansman pòtfolyo vle di nan kontèks sa a?**
+A) Achte sèlman kategori byen ki fè pi bon pèfòmans ki disponib
+B) Ajiste detanzantan sa yon pòtfolyo kenbe pou remete l nan yon repatisyon byen sib yo te fikse davans
+C) Vann tout yon pòtfolyo e ale nan kach pou toujou
+D) Inyore repatisyon yon pòtfolyo nèt yon fwa yo fikse l
+
+**Q2. Poukisa repatisyon yon pòtfolyo yo pa jere deplase lwen sib orijinal li avèk tan?**
+A) Repatisyon pòtfolyo pa janm vrèman chanje yon fwa yo fikse l
+B) Diferan kategori byen bay diferan rannman avèk tan, sa ki fè byen ki fè pi bon pèfòmans lan grandi pou l reprezante yon pi gwo pati nan pòtfolyo total la
+C) Rebalansman fèt otomatikman san okenn aksyon envestisè
+D) Deplasman repatisyon byen rive sèlman nan pòtfolyo ki gen obligasyon sèlman
+
+**Q3. Poukisa rebalansman gen ladan l mekanikman vann sa ki fèk genyen e achte sa ki fèk fè relativman mwens byen?**
+A) Rebalansman mande devine ki byen ki pral fè pi byen apre
+B) Remete yon byen ki twò lou nan sib li vle di nesesèman vann yon pati ladan l e ajoute nan byen ki twò lejè a
+C) Rebalansman toujou vle di vann byen ki fè pi move pèfòmans lan nèt
+D) Modèl sa a rive sèlman nan pòtfolyo obligasyon, se pa pòtfolyo aksyon
+
+**Q4. Poukisa yo konsidere rebalansman kòm yon pratik jesyon risk olye yon pari sou moman mache?**
+A) Li mande prevwa egzakteman pwochen mouvman mache a
+B) Li egziste pou kenbe vrè nivo risk pòtfolyo a aliyen ak tolerans risk envestisè a vle, kèlkeswa si tandans lan kontinye oswa vire
+C) Rebalansman garanti pi gwo rannman pase pa rebalanse
+D) Jesyon risk ak chwazi moman mache se menm konsèp la
+
+**Q5. Nan egzanp lan, poukisa pòtfolyo 60/40 ki rebalanse a te konnen yon pèt ki pi piti pase pòtfolyo 82/18 ki te deplase a pandan bès aksyon ki te swiv la?**
+A) Pòtfolyo ki rebalanse a te gen yon repatisyon aksyon ki pi ba e kidonk mwens ekspozisyon nan bès aksyon an
+B) Pòtfolyo ki te deplase a pa t gen okenn ekspozisyon nan aksyon ditou
+C) Rebalansman te elimine tout risk envestisman nan pòtfolyo a nèt
+D) De pòtfolyo yo te gen repatisyon byen idantik nan moman bès la
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Rebalansman remete espesyalman yon pòtfolyo nan melanj kategori byen sib li te vle orijinalman.
+
+**Q2.** Diferans pèfòmans ant kategori byen yo deplase natirèlman pwopòsyon yon pòtfolyo lwen sib orijinal li yo si pa gen rebalansman espre.
+
+**Q3.** Remete pwopòsyon sib yo mande matematikman koupe sa ki grandi twòp e ajoute nan sa ki rete dèyè, kèlkeswa atant sou lavni.
+
+**Q4.** Disiplin nan konsantre sou kontwole ekspozisyon risk pòtfolyo a konpare ak yon sib yo te fikse davans, se pa sou prevwa direksyon mache nan kout tèm.
+
+**Q5.** Lè l te retabli repatisyon aksyon ki pi ba a, pòtfolyo ki rebalanse a te gen pwopòsyonèlman mwens ekspozisyon nan bès mache aksyon ki te swiv la pase pòtfolyo ki te deplase a, ki te lou an aksyon.
+
+## Pwen kle yo
+- Rebalansman remete yon pòtfolyo nan repatisyon byen sib li te fikse davans apre pèfòmans mache fin lakòz yon deplasman.
+- Pòtfolyo yo pa jere deplase natirèlman pandan diferan kategori byen bay diferan rannman avèk tan.
+- Rebalansman aplike mekanikman vann sa ki genyen relativman e achte sa ki fè relativman mwens byen, san li pa mande prediksyon mache.
+- Disiplin sa a baze sou jesyon vrè nivo risk pòtfolyo a, se pa sou chwazi moman oswa prevwa direksyon mache nan lavni.
