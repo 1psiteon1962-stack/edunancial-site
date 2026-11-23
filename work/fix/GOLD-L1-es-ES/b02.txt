@@ -1,0 +1,219 @@
+===== GOLD-L1-007
+TITLE: Tolerancia al riesgo y horizonte temporal
+SUMMARY: Explica que el nivel de riesgo adecuado depende mucho de cuándo se va a necesitar el dinero.
+# Tolerancia al riesgo y horizonte temporal
+
+## Objetivos de aprendizaje
+- Definir la tolerancia al riesgo y el horizonte temporal en el contexto de la inversión
+- Explicar cómo se relacionan los dos conceptos
+- Practicar cómo emparejar un nivel de riesgo adecuado con un horizonte temporal dado
+
+## Contenido principal
+
+La tolerancia al riesgo es cuánta fluctuación de precio y cuánta pérdida potencial está dispuesto y puede aceptar un inversor en busca de crecimiento. El horizonte temporal es cuándo se va a necesitar realmente el dinero invertido. Estos dos conceptos están muy conectados: un horizonte temporal más largo, en general, permite una mayor tolerancia al riesgo, porque hay más tiempo para que la inversión se recupere de una caída antes de que se necesite el dinero. Un horizonte temporal más corto, en general, requiere una menor tolerancia al riesgo, porque hay menos tiempo para recuperarse si el valor baja justo antes de que se necesite el dinero.
+
+Esto se conecta con la lección anterior de ganar, conservar, hacer crecer y transmitir: el dinero de "hacer crecer", destinado a metas a largo plazo, normalmente puede absorber más volatilidad a corto plazo que el dinero de "conservar", destinado a necesidades cercanas. No emparejar bien la tolerancia al riesgo con el horizonte temporal (asumir un riesgo alto con dinero que se necesita pronto, o ser demasiado cauteloso con dinero que tiene décadas para crecer) suele dar un peor resultado que emparejarlos de forma adecuada.
+
+## Ejemplo práctico
+
+[EJEMPLO ILUSTRATIVO] Un joven de 15 años que añade oro a una posición que va creciendo, con un dinero destinado a una meta que está a diez años o más, puede tolerar razonablemente más fluctuación de precio a corto plazo, ya que hay bastante tiempo para que cualquier caída se recupere antes de que se necesite el dinero. Compáralo con alguien que necesita una cantidad específica de dinero dentro de seis meses para un gasto conocido y fijo: ese dinero, en general, debería estar en algo mucho más estable, porque una caída justo antes de necesitarlo no dejaría tiempo para recuperarse.
+
+## Cuestionario de práctica
+
+1. Define con tus propias palabras la tolerancia al riesgo y el horizonte temporal.
+2. Según esta lección, ¿cómo están conectados la tolerancia al riesgo y el horizonte temporal?
+3. ¿Por qué un horizonte temporal más largo, en general, permite una mayor tolerancia al riesgo?
+4. En el ejemplo práctico, ¿por qué la posición del joven de 15 años puede tolerar razonablemente más fluctuación a corto plazo?
+
+## Clave de respuestas
+1. La tolerancia al riesgo es cuánta fluctuación o pérdida puede aceptar un inversor; el horizonte temporal es cuándo se va a necesitar el dinero.
+2. Un horizonte temporal más largo, en general, permite una mayor tolerancia al riesgo, y viceversa.
+3. Porque hay más tiempo para que la inversión se recupere de una caída antes de que realmente se necesite el dinero.
+4. Porque el dinero está destinado a una meta que está a una década o más, lo que da bastante tiempo para que cualquier caída se recupere.
+
+## Respuestas y explicaciones
+1. Esto define los dos conceptos centrales que la lección conecta.
+2. Esta conexión es la relación central que la lección establece entre el riesgo y el tiempo.
+3. El tiempo de recuperación es el mecanismo que permite que los horizontes más largos absorban más volatilidad a corto plazo.
+4. Este ejemplo aplica directamente al caso de estudio la relación entre la tolerancia al riesgo y el horizonte temporal.
+
+## Puntos clave
+- La tolerancia al riesgo y el horizonte temporal están muy conectados: los horizontes más largos, en general, permiten más riesgo.
+- El dinero que se necesita pronto, en general, debería tener menos riesgo, ya que hay menos tiempo para recuperarse de una caída.
+- Emparejar de forma adecuada la tolerancia al riesgo con el horizonte temporal, en vez de no hacerlo, tiende a dar mejores resultados.
+
+===== GOLD-L1-008
+TITLE: Lo básico de la diversificación
+SUMMARY: Presenta la diversificación como una forma de manejar el riesgo sin depender del desempeño de un solo activo.
+# Lo básico de la diversificación
+
+## Objetivos de aprendizaje
+- Definir la diversificación en términos sencillos
+- Explicar por qué concentrarlo todo en un solo activo aumenta el riesgo
+- Reconocer que tener dos metales distintos es un ejemplo a pequeña escala de diversificación
+
+## Contenido principal
+
+Diversificar significa repartir las inversiones entre distintos activos en vez de ponerlo todo en uno solo, de modo que la caída de un activo no destruya toda la posición. La lógica es sencilla: los distintos activos no siempre se mueven en la misma dirección, al mismo tiempo y por las mismas razones, así que la caída de uno puede compensarse, al menos en parte, con la estabilidad o el crecimiento de otro.
+
+Esto no significa que la diversificación elimine el riesgo por completo: significa que reduce el riesgo específico de depender demasiado del desempeño de un solo activo. Una posición totalmente diversificada todavía puede perder valor si muchos activos distintos bajan a la vez, pero en general es más resistente que una posición concentrada por completo en una sola cosa.
+
+## Ejemplo práctico
+
+[EJEMPLO ILUSTRATIVO] Tener plata y oro, en vez de un solo metal, es una forma de diversificación a pequeña escala dentro de la categoría de los metales preciosos: los dos metales tienen impulsores de demanda distintos (industrial frente a principalmente inversión y joyería), así que no siempre se mueven en perfecta sincronía. Es un ejemplo a mucha menor escala que la diversificación completa de una cartera entre muchas clases de activos distintas (acciones, bienes inmuebles, propiedad de negocios y más), que los niveles posteriores de esta ruta y otras rutas tratarán con más profundidad, pero ilustra el principio de fondo: no poner todos los recursos en una sola apuesta idéntica.
+
+## Cuestionario de práctica
+
+1. Define con tus propias palabras la diversificación.
+2. ¿Por qué repartir las inversiones entre distintos activos reduce el riesgo?
+3. ¿La diversificación elimina el riesgo por completo?
+4. ¿Cómo ilustra la diversificación tener plata y oro, aunque sea a pequeña escala?
+
+## Clave de respuestas
+1. Repartir las inversiones entre distintos activos en vez de ponerlo todo en uno solo.
+2. Porque los distintos activos no siempre se mueven en la misma dirección ni por las mismas razones, lo que puede compensar la caída de uno con la estabilidad de otro.
+3. No: reduce el riesgo de depender de un solo activo, pero no elimina todo el riesgo, sobre todo si muchos activos bajan a la vez.
+4. Porque los dos metales tienen impulsores de demanda distintos, lo que significa que no siempre se mueven en perfecta sincronía, y eso reduce la dependencia de cualquiera de los dos por separado.
+
+## Respuestas y explicaciones
+1. Esto recoge la lógica esencial de la diversificación: repartir el riesgo, no eliminarlo.
+2. Los distintos patrones de movimiento de los activos son el mecanismo detrás del efecto de la diversificación para reducir el riesgo.
+3. Esto aclara un error de concepto común: la diversificación maneja el riesgo, no lo elimina por completo.
+4. Este ejemplo muestra el principio central de la diversificación a una escala pequeña y comprensible dentro de una sola categoría de activos.
+
+## Puntos clave
+- Diversificar significa repartir las inversiones entre distintos activos para reducir la dependencia de uno solo.
+- Reduce el riesgo, pero no lo elimina, sobre todo si muchos activos bajan a la vez.
+- Tener plata y oro, con sus distintos impulsores de demanda, ilustra el principio de la diversificación incluso a pequeña escala.
+
+===== GOLD-L1-009
+TITLE: Qué determina los precios de los metales preciosos
+SUMMARY: Explica los factores básicos de oferta y demanda que mueven los precios del oro y la plata.
+# Qué determina los precios de los metales preciosos
+
+## Objetivos de aprendizaje
+- Identificar los factores básicos de oferta y demanda que afectan los precios de los metales preciosos
+- Explicar por qué la incertidumbre económica a menudo afecta la demanda de oro y plata
+- Reconocer que ningún factor por sí solo determina el precio
+
+## Contenido principal
+
+Como la mayoría de los activos, los precios de los metales preciosos dependen de la oferta y la demanda. Del lado de la oferta: cuánto metal nuevo se extrae y se produce, y cuánto metal existente (del reciclaje o de tenencias privadas) entra al mercado. Del lado de la demanda: la demanda de inversión (personas que lo compran como depósito de valor), la demanda de joyería y, en el caso específico de la plata, la demanda industrial de la manufactura.
+
+[DATO VERIFICADO] Históricamente, los metales preciosos, y el oro en particular, a menudo han tenido una mayor demanda de inversión durante períodos de incertidumbre económica o de inflación alta, ya que algunos inversores los ven como un depósito de valor cuando se tambalea la confianza en otros activos o monedas. Esto no es una garantía: los precios dependen de muchos factores a la vez, y ninguna explicación única (como "la incertidumbre siempre hace subir el oro") es cierta en todas las situaciones. Entender que varios factores interactúan, en vez de buscar una sola regla sencilla de causa y efecto, es una forma más exacta de pensar en los movimientos de los precios.
+
+## Ejemplo práctico
+
+[EJEMPLO ILUSTRATIVO] Durante un período en que los titulares económicos están dominados por la incertidumbre, la demanda de oro podría aumentar porque algunos inversores buscan un depósito de valor percibido, lo que podría hacer subir los precios; al mismo tiempo, si la actividad industrial se está desacelerando, la menor demanda industrial de plata podría compensar en parte cualquier aumento parecido en la demanda de inversión de la plata. Esto muestra por qué los dos metales, aunque ambos sean "metales preciosos", pueden comportarse de forma algo distinta incluso en el mismo entorno económico general.
+
+## Cuestionario de práctica
+
+1. Nombra los factores básicos de la oferta y de la demanda que afectan los precios de los metales preciosos.
+2. Históricamente, ¿qué ha pasado a menudo con la demanda de inversión en oro durante la incertidumbre económica?
+3. ¿Este patrón es una garantía que se cumplirá siempre?
+4. En el ejemplo práctico, ¿por qué el oro y la plata podrían responder de forma distinta al mismo entorno económico?
+
+## Clave de respuestas
+1. Oferta: la minería o producción y el metal reciclado o existente que entra al mercado. Demanda: la inversión, la joyería y (en la plata) la demanda industrial.
+2. A menudo ha aumentado, ya que algunos inversores ven el oro como un depósito de valor en tiempos de incertidumbre.
+3. No: varios factores interactúan a la vez, y ninguna explicación única es cierta en todas las situaciones.
+4. Porque la plata tiene un impulsor adicional de demanda industrial que el oro no tiene, así que los dos pueden responder de forma distinta a las mismas condiciones.
+
+## Respuestas y explicaciones
+1. Esto enumera los componentes básicos de oferta y demanda que mueven el precio de los metales preciosos.
+2. Este DATO VERIFICADO refleja un patrón histórico, presentado sin exagerarlo como si fuera una regla garantizada.
+3. La lección advierte de forma explícita contra el pensamiento simplista de causa y efecto sobre los movimientos de los precios.
+4. Los distintos impulsores de demanda explican por qué el oro y la plata no siempre se mueven igual, incluso en condiciones parecidas.
+
+## Puntos clave
+- Los precios de los metales preciosos dependen de factores de oferta (producción, reciclaje) y de demanda (inversión, joyería y, en la plata, la industria).
+- Históricamente, el oro a menudo ha tenido una mayor demanda de inversión durante la incertidumbre económica, aunque no es un patrón garantizado.
+- Varios factores interactúan a la vez, así que los movimientos de los precios rara vez se explican por una sola causa sencilla.
+
+===== GOLD-L1-010
+TITLE: Entender las medidas de pureza y de peso
+SUMMARY: Presenta las unidades básicas y las medidas de pureza que se usan en el mercado de los metales preciosos.
+# Entender las medidas de pureza y de peso
+
+## Objetivos de aprendizaje
+- Identificar las unidades de peso comunes que se usan para los metales preciosos
+- Explicar qué significa la pureza (ley) y por qué afecta el valor
+- Practicar cómo leer la descripción básica de un producto
+
+## Contenido principal
+
+Los metales preciosos se miden y se describen con unidades específicas que pueden confundir a un principiante. El oro se mide comúnmente en onzas troy (una unidad un poco más pesada que la onza común, propia históricamente de los metales preciosos) o en gramos, sobre todo en las piezas más pequeñas. La plata también se mide sobre todo en onzas troy. [DATO VERIFICADO] Una onza troy equivale aproximadamente a 31,1 gramos, lo que es distinto de la onza común "avoirdupois" (unos 28,3 gramos) que se usa para la mayoría de los artículos de uso diario; esta distinción importa porque usar la conversión equivocada puede crear una confusión real sobre cuánto metal se está comprando realmente.
+
+La pureza, que a menudo se expresa como "ley" (fineness, en inglés), describe qué parte de una pieza es realmente el metal precioso y qué parte son otros metales mezclados para darle durabilidad. La pureza del oro a menudo se describe en quilates (24 quilates es oro puro) o como una ley decimal (0.999 significa 99,9 % puro). Una pureza más alta, en general, significa que el valor de la pieza sigue de forma más cercana y directa el precio al contado del metal, ya que una parte menor del peso es material de relleno no precioso.
+
+## Ejemplo práctico
+
+[EJEMPLO ILUSTRATIVO] Una moneda descrita como "una onza troy de plata de ley 0.999" significa que pesa una onza troy (unos 31,1 gramos) y que es 99,9 % plata pura, con un porcentaje restante muy pequeño de otros materiales en trazas para darle durabilidad. Entender las dos cifras juntas (la unidad de peso y la pureza) es necesario para saber exactamente lo que se compra, ya que una suposición equivocada sobre cualquiera de las dos (usar onzas comunes en vez de onzas troy, o ignorar la pureza) podría llevar a un malentendido real sobre el valor.
+
+## Cuestionario de práctica
+
+1. ¿En qué unidad se miden comúnmente el oro y la plata, y en qué se diferencia de una onza común?
+2. ¿Qué describe la "pureza" o "ley"?
+3. ¿Qué significa una ley de 0.999?
+4. ¿Por qué importa entender juntos el peso y la pureza?
+
+## Clave de respuestas
+1. La onza troy, que con unos 31,1 gramos es más pesada que la onza común avoirdupois (unos 28,3 gramos).
+2. Qué parte de una pieza es realmente el metal precioso y qué parte son otros metales mezclados.
+3. Que la pieza es 99,9 % metal precioso puro, con un porcentaje restante muy pequeño de otros materiales.
+4. Porque una suposición equivocada sobre cualquiera de los dos podría llevar a un malentendido real sobre exactamente cuánto valor se está comprando.
+
+## Respuestas y explicaciones
+1. Esta distinción evita una confusión común de los principiantes entre la onza troy y la onza común.
+2. La pureza describe el contenido real de metal precioso en relación con el peso total de una pieza.
+3. Esto aplica directamente el concepto de ley a un ejemplo concreto y común del mundo real.
+4. Las dos medidas juntas determinan el contenido real de metal precioso que se está comprando.
+
+## Puntos clave
+- Los metales preciosos se miden normalmente en onzas troy o en gramos, y la onza troy es distinta de la onza común.
+- La pureza (ley) describe qué parte de una pieza es realmente metal precioso y qué parte son otros materiales.
+- Entender juntos el peso y la pureza es necesario para saber exactamente lo que se compra.
+
+===== GOLD-L1-016
+TITLE: La psicología de ver fluctuar los precios
+SUMMARY: Aborda el reto emocional de ver subir y bajar el valor de una inversión y cómo manejarlo.
+# La psicología de ver fluctuar los precios
+
+## Objetivos de aprendizaje
+- Explicar por qué ver las fluctuaciones de los precios puede crear presión emocional para actuar de forma impulsiva
+- Identificar las reacciones emocionales comunes ante los vaivenes del precio y sus riesgos
+- Practicar una forma mental más sana de ver los movimientos de precio a corto plazo
+
+## Contenido principal
+
+Cuando alguien ya tiene una inversión, ver su precio subir y bajar puede provocar reacciones emocionales fuertes (entusiasmo cuando sube, ansiedad cuando baja), incluso cuando esos movimientos a corto plazo tienen poco que ver con un plan a largo plazo. Este tirón emocional es una de las razones más comunes por las que los inversores toman decisiones que van en contra de sus propias metas declaradas, como vender por pánico durante una caída temporal o dejarse llevar por el entusiasmo y comprar de forma impulsiva durante una subida rápida.
+
+Un hábito mental útil: recuérdate tu horizonte temporal real (de la lección anterior) cada vez que un vaivén del precio te provoque una reacción emocional fuerte. Si no vas a necesitar el dinero en años, una caída a corto plazo es en gran parte irrelevante para el plan real a largo plazo, aunque en el momento no lo parezca. Revisar los precios constantemente tiende a aumentar esta presión emocional; revisarlos con menos frecuencia, y enfocarse en la tendencia a largo plazo en vez de en el movimiento diario, tiende a favorecer decisiones más tranquilas y disciplinadas.
+
+## Ejemplo práctico
+
+[EJEMPLO ILUSTRATIVO] Alguien que aplica el promedio del coste a la plata cada mes ve que el precio baja de forma notable un mes. El impulso emocional podría ser dejar de comprar, por miedo a "perder dinero". Pero, según el marco del DCA visto antes, un precio más bajo en realidad significa que la inversión fija de ese mes compra más onzas de lo normal: la reacción emocional (el miedo) y la realidad matemática (una oportunidad de compra, dado un horizonte temporal largo) apuntan en direcciones totalmente opuestas. Reconocer esta brecha entre la reacción emocional y la realidad matemática a largo plazo es una destreza central que enseña esta lección.
+
+## Cuestionario de práctica
+
+1. ¿Por qué ver las fluctuaciones de los precios puede provocar presión emocional para actuar de forma impulsiva?
+2. Nombra dos reacciones emocionales comunes ante los vaivenes del precio que se mencionan en esta lección.
+3. ¿Qué hábito mental recomienda esta lección para manejar esta presión?
+4. En el ejemplo práctico, ¿por qué la reacción emocional y la realidad matemática apuntaban en direcciones opuestas?
+
+## Clave de respuestas
+1. Porque los vaivenes del precio a corto plazo pueden provocar emociones fuertes (entusiasmo, ansiedad) incluso cuando tienen poco que ver con un plan a largo plazo.
+2. El entusiasmo durante una subida y la ansiedad durante una caída (que llevan a comprar de forma impulsiva o a vender por pánico).
+3. Recordarte tu horizonte temporal real cada vez que un vaivén del precio te provoque una reacción emocional fuerte.
+4. Porque la reacción emocional era el miedo a "perder dinero", mientras que la realidad matemática con el DCA era que un precio más bajo significaba comprar más onzas con la misma inversión fija.
+
+## Respuestas y explicaciones
+1. La presión emocional de los movimientos de precio a corto plazo es un impulsor bien documentado de las malas decisiones de inversión.
+2. Estas reacciones representan las dos direcciones en las que la presión emocional suele empujar a los inversores.
+3. Volver a conectar con el horizonte temporal real contrarresta el tirón emocional de los movimientos de precio a corto plazo.
+4. Este ejemplo ilustra directamente la brecha entre la reacción emocional y el funcionamiento real del DCA.
+
+## Puntos clave
+- Ver las fluctuaciones de los precios puede provocar una presión emocional que va en contra de las propias metas a largo plazo del inversor.
+- Las reacciones comunes incluyen comprar de forma impulsiva durante las subidas y vender por pánico durante las caídas, ambas a menudo contraproducentes para un plan a largo plazo.
+- Volver a conectar con tu horizonte temporal real, y revisar los precios con menos obsesión, favorece decisiones más tranquilas y disciplinadas.

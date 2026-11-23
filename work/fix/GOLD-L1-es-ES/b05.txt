@@ -1,0 +1,229 @@
+===== GOLD-L1-027
+TITLE: La liquidez de los metales preciosos
+SUMMARY: Explica la liquidez aplicada a los metales preciosos físicos y la compara con otros tipos de activos.
+# La liquidez de los metales preciosos
+
+## Objetivos de aprendizaje
+- Definir la liquidez en el contexto de la inversión
+- Comparar la liquidez de los metales preciosos físicos con la de otros tipos de activos comunes
+- Identificar los factores que influyen en qué tan rápido se puede convertir el metal físico en efectivo
+
+## Contenido principal
+
+La liquidez se refiere a qué tan rápido y con qué facilidad se puede convertir un activo en efectivo sin afectar mucho su precio. El saldo de una cuenta corriente es muy líquido: ya es efectivo. Una acción que se cotiza en bolsa en general es bastante líquida: normalmente se puede vender en un mismo día de negociación a un precio de mercado conocido. Los metales preciosos físicos quedan en algún punto intermedio: en general se pueden vender con relativa rapidez a un comerciante, pero el proceso tiene más fricción que simplemente hacer clic en "vender" una acción, y el precio que se recibe reflejará el diferencial entre compra y venta visto en una lección anterior.
+
+Varios factores influyen en qué tan rápido se puede convertir realmente en efectivo el metal físico: si hay un comerciante local de buena reputación al alcance, si el producto específico que se tiene (una moneda ampliamente reconocida frente a una menos común) es fácil de evaluar y valorar rápidamente para un comerciante, y si la venta se hace en persona o requiere enviar el metal físico a un comerciante, lo que añade tiempo y logística.
+
+Entender este nivel moderado de liquidez importa para la planificación financiera práctica: en general, los metales preciosos físicos no son el activo adecuado con el que contar para necesidades de efectivo de emergencia realmente inmediatas, en comparación con algo como una cuenta de ahorros común, aunque normalmente se pueden convertir en efectivo más rápido que algo como los bienes inmuebles.
+
+## Ejemplo práctico
+
+Si alguien necesitara efectivo en la próxima hora para un gasto urgente, una cuenta corriente o incluso la venta de una acción (que normalmente se liquida en un par de días hábiles) en general serían más útiles de inmediato que la plata o el oro físicos, que requerirían encontrar un comerciante, hacer evaluar el metal y completar una transacción; un proceso que, aunque a menudo se puede lograr en uno o dos días, no es instantáneo como lo es sacar efectivo de una cuenta bancaria.
+
+## Cuestionario de práctica
+
+1. Define con tus propias palabras la liquidez.
+2. En comparación con el efectivo y las acciones, ¿dónde se ubican en general los metales preciosos físicos en la escala de liquidez?
+3. Nombra dos factores que influyen en qué tan rápido se puede convertir el metal físico en efectivo.
+4. ¿Por qué esto importa para la planificación financiera práctica?
+
+## Clave de respuestas
+1. Qué tan rápido y con qué facilidad se puede convertir un activo en efectivo sin afectar mucho su precio.
+2. En algún punto intermedio: más líquidos que algo como los bienes inmuebles, pero menos líquidos de inmediato que el efectivo o la venta de una acción.
+3. Cualesquiera dos de estos: el acceso a un comerciante, qué tan reconocible y fácil de evaluar es el producto específico, si la venta se hace en persona o requiere un envío.
+4. Porque en general no se debería depender de los metales físicos como fuente de efectivo de emergencia realmente inmediato, a diferencia de una cuenta de ahorros común.
+
+## Respuestas y explicaciones
+1. Esto define el concepto central de la liquidez tal como se aplica en toda esta lección.
+2. Esta ubicación comparativa ayuda a ajustar las expectativas realistas sobre convertir el metal en efectivo.
+3. Estos factores influyen directamente en la rapidez práctica con que el metal físico se convierte en efectivo utilizable.
+4. Esto relaciona el concepto de liquidez con una implicación práctica y real para la planificación financiera.
+
+## Puntos clave
+- La liquidez mide qué tan rápido y con qué facilidad un activo se convierte en efectivo sin afectar mucho su precio.
+- Los metales preciosos físicos se ubican en el punto intermedio de la escala de liquidez: más líquidos que los bienes inmuebles, menos líquidos de inmediato que el efectivo o las acciones.
+- En general, no se debería depender de los metales físicos para necesidades de efectivo de emergencia realmente inmediatas, y eso importa para una planificación financiera realista.
+
+===== GOLD-L1-028
+TITLE: Los metales preciosos frente a otras clases de activos
+SUMMARY: Compara a un nivel conceptual básico los metales preciosos con las acciones, los bonos y el efectivo.
+# Los metales preciosos frente a otras clases de activos
+
+## Objetivos de aprendizaje
+- Comparar a un nivel básico los metales preciosos con las acciones, los bonos y el efectivo
+- Identificar el papel distinto que suelen cumplir los metales preciosos en un plan financiero más amplio
+- Entender por qué esta comparación no se trata de clasificar los activos como "mejores" o "peores"
+
+## Contenido principal
+
+Cada clase de activo cumple un propósito algo distinto, y los metales preciosos no son la excepción. Las acciones representan la propiedad de una parte de una empresa y pueden generar rendimientos tanto por la subida del precio como por los dividendos; en general tienen un mayor potencial de crecimiento a largo plazo junto con una mayor volatilidad. Los bonos representan un préstamo a un gobierno o a una empresa; en general ofrecen ingresos más previsibles y menos volatilidad que las acciones, pero normalmente un menor potencial de crecimiento a largo plazo. El efectivo es lo más líquido y estable en términos nominales, pero pierde poder de compra con el tiempo por la inflación, como se vio antes en esta ruta.
+
+Los metales preciosos, como se ha visto a lo largo de esta ruta, funcionan principalmente como depósito de valor y posible protección contra la inflación, sin generar ingresos como pueden hacerlo las acciones o los bonos, y con costes prácticos reales (almacenamiento, primas, el diferencial entre compra y venta) que no se aplican a esos otros tipos de activos. Esto significa que los metales preciosos suelen cumplir un papel distinto en un plan financiero que el de las acciones o los bonos: se trata menos de generar el crecimiento o los ingresos principales y más de preservar el valor y de diversificar frente a riesgos que podrían afectar de forma distinta a la moneda o a otras clases de activos.
+
+Esta comparación no se trata de declarar que una sola clase de activo es universalmente "mejor": cada una cumple una función distinta, y un plan financiero bien pensado (un tema que se trata con más amplitud en otras rutas de este currículo) a menudo incluye una combinación cuidadosa según las metas, el horizonte temporal y la tolerancia al riesgo específicos de cada persona.
+
+## Ejemplo práctico
+
+Un inversor que arma un plan financiero a largo plazo podría tener acciones para el crecimiento principal a largo plazo, bonos para tener más estabilidad y algunos ingresos, una parte en efectivo para las necesidades de liquidez cercanas y metales preciosos específicamente como depósito de valor y protección contra la inflación; cada clase de activo cumple un papel distinto dentro del plan general, en vez de competir por ser por sí sola la "mejor" inversión.
+
+## Cuestionario de práctica
+
+1. ¿Qué papel suelen cumplir las acciones en un plan financiero?
+2. ¿Qué papel suelen cumplir los bonos?
+3. Según esta lección, ¿qué papel suelen cumplir los metales preciosos?
+4. ¿Esta comparación busca clasificar las clases de activos como universalmente "mejores" o "peores"?
+
+## Clave de respuestas
+1. El crecimiento principal a largo plazo, mediante la subida del precio y los dividendos, junto con una mayor volatilidad.
+2. Ingresos más previsibles y menos volatilidad que las acciones, pero normalmente un menor potencial de crecimiento a largo plazo.
+3. Un depósito de valor y una posible protección contra la inflación, sin generar ingresos, junto con costes prácticos reales como el almacenamiento.
+4. No: cada clase de activo cumple una función distinta, y un plan bien pensado a menudo incluye una combinación cuidadosa según las metas de cada persona.
+
+## Respuestas y explicaciones
+1. Este papel refleja el potencial de crecimiento e ingresos de las acciones, basado en la propiedad.
+2. Este papel refleja las características de los bonos, normalmente de ingresos más previsibles y menor volatilidad.
+3. Este papel resume los conceptos de depósito de valor y de protección contra la inflación vistos a lo largo de esta ruta.
+4. Este planteamiento evita la conclusión engañosa de un "mejor activo" a favor de entender la función distinta de cada activo.
+
+## Puntos clave
+- Las acciones, los bonos, el efectivo y los metales preciosos cumplen funciones distintas dentro de un plan financiero más amplio.
+- Los metales preciosos sirven principalmente como depósito de valor y protección contra la inflación, sin generar ingresos y con costes prácticos reales.
+- Esta comparación no busca clasificar las clases de activos: un plan financiero cuidadoso a menudo incluye una combinación según las metas, el horizonte temporal y la tolerancia al riesgo de cada persona.
+
+===== GOLD-L1-029
+TITLE: La correlación con el mercado de valores
+SUMMARY: Presenta el concepto de correlación y cómo se han relacionado históricamente los metales preciosos con los movimientos del mercado de valores.
+# La correlación con el mercado de valores
+
+## Objetivos de aprendizaje
+- Definir la correlación en el contexto de la inversión
+- Explicar la tendencia histórica general de los metales preciosos frente a los movimientos del mercado de valores
+- Entender por qué esta relación apoya el concepto de diversificación
+
+## Contenido principal
+
+La correlación describe qué tan de cerca tienden a moverse dos activos uno en relación con el otro. Dos activos con una correlación alta tienden a subir y bajar juntos; dos activos con una correlación baja o negativa tienden a moverse de forma más independiente entre sí, o incluso en direcciones opuestas durante ciertos períodos.
+
+Históricamente, los metales preciosos han tendido a mostrar una correlación relativamente baja, y a veces negativa, con las acciones: eso significa que, durante algunos períodos en que los mercados de valores bajaron mucho, los precios de los metales preciosos se mantuvieron estables o incluso subieron, aunque esta relación no es perfectamente constante ni está garantizada en todos los períodos del mercado. Esta tendencia general es parte de la razón por la que a menudo se habla de los metales preciosos específicamente en el contexto de la diversificación, presentada brevemente en una lección anterior.
+
+La diversificación funciona precisamente porque no todos los activos se mueven en perfecta sincronía: tener una combinación de activos con distintos patrones de correlación puede reducir la volatilidad general de una cartera, ya que la caída de un tipo de activo puede compensarse en parte con la estabilidad o las ganancias de otro. Es una tendencia general observada en la historia y no una garantía para ningún período futuro específico, en coherencia con el planteamiento cauteloso que esta ruta ha aplicado en todo momento a los patrones históricos.
+
+## Ejemplo práctico
+
+Durante un período de caída importante del mercado de valores provocada por una incertidumbre económica general, los metales preciosos, en varios momentos de la historia, han mantenido su valor o incluso han subido, porque los inversores buscaban un depósito de valor que percibían como más seguro durante esa incertidumbre. Esto no ocurre en todas las caídas del mercado, y no es algo con lo que se pueda contar con certeza para ningún hecho futuro específico, pero esta tendencia histórica general es parte del razonamiento que usan algunos inversores para incluir los metales preciosos como una parte de una cartera diversificada.
+
+## Cuestionario de práctica
+
+1. Define la correlación en el contexto de la inversión.
+2. ¿Cómo ha tendido a ser, en general, la correlación histórica de los metales preciosos con el mercado de valores?
+3. ¿Por qué esta tendencia apoya el concepto de diversificación?
+4. ¿Este patrón de correlación está garantizado para algún período futuro específico del mercado?
+
+## Clave de respuestas
+1. Qué tan de cerca tienden a moverse dos activos uno en relación con el otro.
+2. Una correlación relativamente baja, y a veces negativa: los metales a veces se han mantenido estables o han subido durante las caídas del mercado de valores.
+3. Porque la diversificación funciona combinando activos que no se mueven todos en perfecta sincronía, lo que puede reducir la volatilidad general de una cartera.
+4. No: es una tendencia general observada en la historia, no una garantía para ningún período futuro específico.
+
+## Respuestas y explicaciones
+1. Esto establece el concepto central que está detrás de la relación que se explica en esta lección.
+2. Esta tendencia histórica es el patrón específico que relaciona los metales preciosos con las estrategias de diversificación de una cartera.
+3. Una menor volatilidad general es el beneficio práctico que puede aportar una correlación baja o negativa dentro de una cartera diversificada.
+4. Esta advertencia es esencial y coherente con el tratamiento cauteloso que esta ruta da en todo momento a los patrones históricos.
+
+## Puntos clave
+- La correlación describe qué tan de cerca tienden a moverse juntos dos activos; una correlación baja o negativa significa un movimiento más independiente.
+- Históricamente, los metales preciosos han mostrado una correlación relativamente baja, y a veces negativa, con las acciones, aunque no es una garantía constante.
+- Esta tendencia general es parte de la razón por la que los metales preciosos a menudo se incluyen específicamente con fines de diversificación dentro de una cartera más amplia.
+
+===== GOLD-L1-030
+TITLE: El coste de oportunidad de tener metales
+SUMMARY: Explica el concepto de coste de oportunidad aplicado a destinar dinero a los metales preciosos en vez de a otras inversiones.
+# El coste de oportunidad de tener metales
+
+## Objetivos de aprendizaje
+- Definir el coste de oportunidad en términos sencillos
+- Aplicar el concepto específicamente a los metales preciosos frente a las inversiones que producen ingresos
+- Entender por qué esta disyuntiva importa en las decisiones generales de asignación
+
+## Contenido principal
+
+El coste de oportunidad es el valor de la siguiente mejor alternativa a la que se renuncia al tomar una decisión. Cada euro que se destina a los metales preciosos es un euro que no se destina a otra cosa: posiblemente a una acción que paga dividendos, a un bono que paga intereses o a otra inversión capaz de generar ingresos continuos o de tener otras características de crecimiento.
+
+Como los metales preciosos no producen ingresos por sí solos (un punto que se recalcó en una lección anterior), el coste de oportunidad de tenerlos incluye específicamente los ingresos o el crecimiento que ese mismo dinero podría haber generado en una inversión alternativa. Esto no significa que los metales preciosos sean una mala decisión: significa que su propuesta de valor (depósito de valor, protección contra la inflación, diversificación, temas vistos a lo largo de esta ruta) debe sopesarse con honestidad frente a aquello a lo que se renuncia al no destinar ese mismo dinero a otra parte.
+
+Este concepto refuerza por qué los metales preciosos suelen presentarse como una parte de una cartera diversificada, como se vio en una lección anterior, y no como la única inversión ni la dominante. Una asignación bien pensada sopesa los beneficios específicos que aportan los metales preciosos frente a este coste de oportunidad real, en vez de tratar la decisión como automáticamente obvia en un sentido o en otro.
+
+## Ejemplo práctico
+
+Un inversor con 1.000 € para asignar podría considerar ponerlo todo en plata o repartirlo entre plata y un fondo indexado de acciones que paga dividendos. Decidir poner la cantidad completa en plata significa renunciar a los dividendos y al posible crecimiento que el fondo indexado de acciones podría haber generado durante ese mismo período: ese rendimiento potencial al que se renuncia es el coste de oportunidad de la opción de solo plata. Esto no hace que la opción de la plata sea equivocada; significa que la decisión debería sopesar con honestidad los beneficios específicos de la plata (depósito de valor, diversificación) frente a esta disyuntiva real y cuantificable, en vez de ignorarla.
+
+## Cuestionario de práctica
+
+1. Define con tus propias palabras el coste de oportunidad.
+2. ¿Por qué el coste de oportunidad se aplica específicamente a los metales preciosos, dado que no generan ingresos?
+3. ¿Tener un coste de oportunidad significa que los metales preciosos son automáticamente una mala decisión de inversión?
+4. ¿Cómo se conecta este concepto con la lección sobre la diversificación vista antes en esta ruta?
+
+## Clave de respuestas
+1. El valor de la siguiente mejor alternativa a la que se renuncia al tomar una decisión.
+2. Porque el dinero destinado a metales que no producen ingresos podría haber generado ingresos o crecimiento si se hubiera destinado a una inversión alternativa.
+3. No: significa que la decisión debería sopesar con honestidad los beneficios específicos de los metales preciosos frente a esta disyuntiva real, no que la decisión sea automáticamente equivocada.
+4. Refuerza por qué los metales suelen presentarse como una parte de una cartera diversificada, y no como la única inversión ni la dominante, dado este coste de oportunidad real.
+
+## Respuestas y explicaciones
+1. Esto define el concepto económico fundamental que se aplica en toda esta lección.
+2. Esto relaciona el coste de oportunidad específicamente con la lección anterior sobre la falta de generación de ingresos de los metales.
+3. Esto aclara que el coste de oportunidad es un factor que hay que sopesar con honestidad, no un motivo automático de descarte.
+4. Esta conexión refuerza el tema más amplio de la asignación de una cartera que recorre esta sección de la ruta.
+
+## Puntos clave
+- El coste de oportunidad es el valor de la siguiente mejor alternativa a la que se renuncia al tomar una decisión específica.
+- Como los metales preciosos no generan ingresos, su coste de oportunidad incluye los ingresos o el crecimiento que podría haber producido una inversión alternativa.
+- Esto refuerza la idea de tratar los metales preciosos como una parte de una cartera diversificada, sopesada con honestidad frente a disyuntivas reales, y no como una opción por defecto o dominante.
+
+===== GOLD-L1-031
+TITLE: Lo básico de la autenticación y las falsificaciones
+SUMMARY: Presenta una conciencia básica del riesgo de falsificación y de la autenticación al comprar metales preciosos físicos.
+# Lo básico de la autenticación y las falsificaciones
+
+## Objetivos de aprendizaje
+- Reconocer el riesgo de falsificación como una consideración práctica real al invertir en metales físicos
+- Identificar prácticas básicas que reducen el riesgo de falsificación
+- Entender por qué importa comprar en fuentes de buena reputación
+
+## Contenido principal
+
+Los productos falsificados de metales preciosos (monedas o barras falsas diseñadas para parecer auténticas, pero que contienen poco o nada de metal precioso real) son un riesgo real al invertir en metales físicos, aunque relativamente poco común para los compradores cuidadosos. Este riesgo es parte de la razón por la que importa entender, incluso a un nivel de principiante, lo básico de la autenticación y de las buenas prácticas de compra.
+
+La protección básica más eficaz contra el riesgo de falsificación es comprar a comerciantes establecidos y de buena reputación, en vez de a vendedores individuales no verificados o en mercados en línea desconocidos, sobre todo en el caso de un inversor principiante que quizá todavía no tenga el conocimiento especializado para autenticar por sí mismo un producto. Los comerciantes de buena reputación tienen su propio incentivo de reputación para vender solo productos auténticos, y los comerciantes establecidos normalmente obtienen su inventario de casas de moneda y refinerías verificadas.
+
+Existen técnicas básicas de autenticación (comprobar el peso y las dimensiones, pruebas con un imán, ya que el oro y la plata no son magnéticos, y métodos más avanzados que usan los profesionales), pero para un inversor principiante la protección más sencilla y confiable es escoger fuentes bien establecidas y de buena reputación para cada compra, en vez de depender de verificar personalmente la autenticidad después de comprar.
+
+## Ejemplo práctico
+
+A un inversor principiante que siga el enfoque del caso de estudio biográfico le convendría comprar la plata y el oro a un comerciante establecido y de buena reputación, con un historial verificable, en vez de a un vendedor en línea desconocido que ofrece precios inusualmente bajos; esa es una señal de alerta común, ya que un precio muy por debajo de las tasas vigentes del mercado para un producto auténtico a veces puede indicar un riesgo de falsificación, entre otros posibles problemas.
+
+## Cuestionario de práctica
+
+1. ¿Qué es el riesgo de falsificación en el contexto de los metales preciosos físicos?
+2. ¿Cuál es la protección básica más eficaz contra este riesgo para un inversor principiante?
+3. ¿Por qué los comerciantes de buena reputación tienen un incentivo para vender solo productos auténticos?
+4. ¿Qué podría indicar a veces un precio inusualmente bajo, muy por debajo de las tasas vigentes del mercado?
+
+## Clave de respuestas
+1. El riesgo de comprar monedas o barras falsas diseñadas para parecer auténticas, pero que contienen poco o nada de metal precioso real.
+2. Comprar a comerciantes establecidos y de buena reputación, en vez de a vendedores individuales no verificados o en mercados desconocidos.
+3. Su propio incentivo de reputación y su relación comercial con casas de moneda y refinerías verificadas dependen de vender productos auténticos.
+4. A veces puede indicar un riesgo de falsificación, entre otros posibles problemas, y en general es una señal de alerta que vale la pena investigar.
+
+## Respuestas y explicaciones
+1. Esto define el riesgo práctico específico que esta lección aborda para quienes compran metales físicos.
+2. La reputación de la fuente se presenta como la protección más sencilla y confiable para un inversor principiante.
+3. Los incentivos de reputación y comerciales se alinean a favor de la autenticidad en el caso de los comerciantes establecidos.
+4. Un precio muy por debajo de las tasas del mercado es una señal de alerta práctica que los inversores principiantes deberían tener en cuenta.
+
+## Puntos clave
+- Los productos falsificados de metales preciosos son un riesgo real, aunque relativamente poco común, para los compradores cuidadosos.
+- La protección básica más eficaz para un inversor principiante es comprar únicamente a comerciantes establecidos y de buena reputación.
+- Los precios muy por debajo de las tasas vigentes del mercado son una señal de alerta que vale la pena investigar antes de comprar.
