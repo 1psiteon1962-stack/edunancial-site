@@ -1,0 +1,60 @@
+---
+id: GREEN-L3-036
+track: GREEN
+officialTrackName: "Taxes"
+level: 3
+lessonNumber: 36
+title: "Poukisa bon dosye se pi bon defans ou nan yon odit"
+summary: "Aprann poukisa kenbe dosye òganize nan menm moman tranzaksyon yo fèt se fason ki pi efikas pou w prepare pou yon odit posib alavni anvan li menm rive."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-10-28"
+locale: "ht"
+source_locale: "en-US"
+---
+# GREEN-L3-036: Poukisa bon dosye se pi bon defans ou nan yon odit
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa bon jan jesyon dosye se preparasyon ki pi efikas pou yon odit posib alavni
+- Esplike poukisa dosye yo fè nan menm moman an pi serye pase dosye yo rekonstwi
+- Idantifye kategori jeneral dosye ki vo lapèn kenbe, ak pou konbyen tan
+
+## Kontni prensipal
+
+Leson 35 te etabli ke yon odit ka rive nenpòt moun, kèlkeswa si yo fè yon bagay ki mal oswa non, e rezilta a depann sitou de kapasite kontribyab la pou sipòte sa li te reklame. Men "poukisa" dosye **nan menm moman an** (contemporaneous) — ki fèt nan oswa toupre moman vrè tranzaksyon an oswa depans lan — gen plis valè anpil pase dosye yo rekonstwi pita, apre yon avi odit rive: dosye nan menm moman an reflete vrè detay yo jan yo te rive, alòske yon rekonstriksyon yo eseye fè plizyè mwa oswa plizyè ane pita depann de memwa, ki mwens serye anpil e ki mwens konvenkan anpil kòm prèv pou sipòte.
+
+[FÈ VERIFYE] Kategori dosye ki anjeneral itil pou kenbe gen ladan resi ak fakti ki sipòte dediksyon yo reklame, relve labank ak kat kredi, dokimantasyon ki sipòte tranzaksyon enpòtan (tankou acha oswa vant yon envestisman oswa yon pwopriyete), ak dosye ki sipòte nenpòt kredi yo reklame. Peryòd pou kenbe dosye taks yo varye selon jiridiksyon ak kalite dosye — konsèy jeneral sijere kenbe pifò dosye taks pandan plizyè ane apre depo a, ak yon peryòd pi long ki apwopriye pou dosye ki gen rapò ak pwopriyete, envestisman, oswa lòt eleman ki gen konsekans taks long tèm, men yo ta dwe konfime peryòd espesifik yo pou yon jiridiksyon olye yo sipoze yo.
+
+Se poutèt sa pi bon moman pou òganize dosye taks se pandan tout ane a, pandan tranzaksyon yo vrèman ap fèt — pa ranmase yo nan kouri apre yon avi odit fin rive, lè kapasite pou rekonstwi dokimantasyon egzak e konvenkan pi fèb.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontribyab ki kenbe dosye òganize (fizik oswa dijital) pandan tout ane a — li klase resi, li sove relve ki enpòtan, e li dokimante tranzaksyon enpòtan pandan yo ap fèt — byen prepare si yo chwazi yon eleman espesifik pita pou revizyon odit, paske li ka bay rapidman yon dokimantasyon klè, nan menm moman an, ki sipòte reklamasyon orijinal li. [SIPOZISYON] Yon lòt kontribyab ki jete resi e ki pa òganize dosye pandan ane a, e ki apre sa resevwa yon avi odit pou menm kalite eleman an, fè fas ak yon travay pi difisil anpil pou l eseye rekonstwi yon dokimantasyon konparab apati memwa oswa dosye ki pa konplè — sa ki montre poukisa jesyon dosye proaktif, kontinyèl se yon defans ki pi serye anpil pase rekonstriksyon reyaktif.
+
+## Egzamen pratik
+
+1. Poukisa kenbe dosye nan menm moman an gen plis valè pase rekonstwi dosye pita?
+2. Bay de kategori jeneral dosye ki vo lapèn kenbe pou rezon taks.
+3. Ki pi bon moman pou òganize dosye taks, dapre leson sa a?
+
+## Kle repons yo
+
+1. Paske dosye nan menm moman an reflete vrè detay yo jan yo te rive, alòske rekonstriksyon pita depann de yon memwa ki mwens serye e li mwens konvenkan anpil kòm prèv pou sipòte.
+2. Nenpòt de nan: resi ak fakti ki sipòte dediksyon, relve labank ak kat kredi, dokimantasyon tranzaksyon enpòtan, dosye ki sipòte kredi yo reklame.
+3. Pandan tout ane a, pandan tranzaksyon yo vrèman ap fèt, olye apre yon avi odit fin rive.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike valè dokimantasyon nan menm moman an.
+2. Sa tcheke konpreyansyon sou kantite pratik dosye ki itil.
+3. Sa ranfòse abitid jesyon dosye proaktif, kontinyèl leson an rekòmande.
+
+## Pwen kle yo
+- Dosye nan menm moman an, ki fèt lè vrè tranzaksyon an fèt, pi serye e pi konvenkan anpil pase dosye yo rekonstwi pita.
+- Dosye ki itil gen ladan resi, relve, ak dokimantasyon tranzaksyon enpòtan ak kredi yo reklame, yo kenbe yo pou yon peryòd ki varye selon jiridiksyon ak kalite dosye.
+- Òganize dosye taks pandan tout ane a se preparasyon ki pi efikas pou yon odit posib alavni.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Egzijans pou jesyon ak konsèvasyon dosye yo varye selon jiridiksyon; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
