@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 8
 locale: es-Caribbean
-title: "Empresario Individual vs. Sociedad Colectiva vs. Sociedad Limitada"
-summary: "Los nombres y las normas de las estructuras empresariales varían significativamente según el país; esta lección describe terminología británica común, y los equivalentes difieren en otros lugares (por ejemplo, una LLC en Estados Unidos, o una autónomo/S.L. en España)."
+title: "Subcapítulo C y Subcapítulo S: ¿qué cambia realmente?"
+summary: "Aprende la diferencia central de tratamiento contributivo entre una corporación C y una corporación S."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-008: Empresario Individual vs. Sociedad Colectiva vs. Sociedad Limitada
+# Subcapítulo C y Subcapítulo S: ¿qué cambia realmente?
 
-## Objetivos de Aprendizaje
-1. Distinguir un empresario individual, una sociedad colectiva, y una sociedad limitada.
-2. Identificar la diferencia clave de responsabilidad entre estas estructuras.
-3. Reconocer que los nombres y las normas de las estructuras varían según la jurisdicción.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* Los nombres y las normas de las estructuras empresariales varían significativamente según el país; esta lección describe terminología británica común, y los equivalentes difieren en otros lugares (por ejemplo, una LLC en Estados Unidos, o una autónomo/S.L. en España).
+Al final de esta lección, deberías poder:
 
-Un **empresario individual** (sole trader) es una sola persona que dirige una empresa, sin separación legal entre el propietario y la empresa — el propietario es personalmente responsable de todas las deudas. Una **sociedad colectiva** (partnership) es similar pero implica a dos o más personas compartiendo la propiedad y la responsabilidad. Una **sociedad limitada** (limited company) es una entidad legal separada de sus propietarios, lo que significa que los activos personales de los propietarios están generalmente protegidos si la empresa incurre en deudas, aunque esta protección puede tener excepciones.
+- Explicar a qué se refieren "corporación C" y "corporación S".
+- Explicar la diferencia contributiva central entre ellas.
+- Reconocer que la condición de corporación S tiene límites de elegibilidad reales.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Priya dirige su trabajo de diseño gráfico como empresaria individual. Cuando el negocio asume una disputa de factura impagada que se convierte en deuda, sus ahorros y activos personales están, en principio, expuestos para cubrirla, ya que no existe separación legal entre ella y el negocio. Si lo hubiera estructurado como una sociedad limitada, sus activos personales estarían generalmente protegidos, y los activos de la propia empresa asumirían ese riesgo en su lugar.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es un empresario individual?
-2. ¿Qué es una sociedad colectiva?
-3. Verdadero/Falso: Una sociedad limitada no ofrece ninguna protección entre los activos personales y los empresariales.
-4. ¿Cuál es la diferencia clave de responsabilidad entre un empresario individual y una sociedad limitada?
+### La misma estructura legal, distinto tratamiento contributivo
 
-## Clave de Respuestas
-1. Una sola persona dirigiendo una empresa, sin separación legal del propietario   2. Dos o más personas compartiendo la propiedad y la responsabilidad   3. Falso   4. Una sociedad limitada generalmente protege los activos personales; un empresario individual no
+*(REGLA ESPECÍFICA DE LA REGIÓN: esto describe la ley contributiva federal de EE. UU.; Puerto Rico y otros países, como la República Dominicana, tienen sus propias reglas para la tributación de las sociedades.)* Ambos términos se refieren a la misma estructura de corporación de la lección anterior; la diferencia es qué sección del código contributivo federal se aplica a la forma en que tributa la corporación.
 
-## Respuestas y Explicaciones
-1. Esto define específicamente la estructura de empresario individual.
-2. Esto define específicamente la estructura de sociedad colectiva.
-3. Las sociedades limitadas generalmente sí ofrecen esta separación, con algunas excepciones.
-4. Esta es la distinción central que impulsa la elección de estructura para muchas empresas.
+### La diferencia central: quién paga y cuándo
 
-## Puntos Clave a Recordar
-- Empresario individual: un solo propietario, sin separación legal, responsabilidad personal total.
-- Sociedad colectiva: varios propietarios, responsabilidad compartida.
-- Sociedad limitada: entidad legal separada, generalmente protegiendo los activos personales — los nombres de las estructuras varían según el país.
+Una corporación C en general paga contribución sobre ingresos a nivel corporativo por sus ganancias; si luego reparte dividendos a los accionistas, esos accionistas en general vuelven a pagar contribución por ese ingreso, lo que a veces se llama "doble tributación". Una corporación S en general traslada la ganancia directamente a las planillas personales de los accionistas y evita esa capa de contribución a nivel corporativo.
 
+### Pregúntate esto
+
+Si la condición de corporación S evita esa doble tributación, ¿por qué no la elige toda corporación? Porque la condición de corporación S tiene límites de elegibilidad reales (restricciones sobre el número y el tipo de accionistas, entre otros requisitos) que no toda corporación cumple o quiere cumplir.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina dos corporaciones idénticas con la misma ganancia. Una elige el tratamiento de corporación C; la otra, el de corporación S. Pregúntate: si ambas reparten toda su ganancia a los accionistas, ¿dónde se paga la contribución de forma distinta? En la corporación C, la contribución en general se paga a nivel corporativo y otra vez a nivel del accionista. En la corporación S, en general se paga una sola vez, trasladada directamente a las planillas personales de los accionistas.
+
+## Prueba de práctica
+
+1. ¿A qué se refieren "corporación C" y "corporación S"?
+   A. A dos estructuras legales de negocio totalmente distintas
+   B. A la misma estructura de corporación, que tributa según secciones distintas del código contributivo
+   C. Solo al tamaño de la empresa
+   D. A una distinción que solo importa en las organizaciones sin fines de lucro
+2. Verdadero o falso: una corporación C evita la doble tributación, mientras que una corporación S no.
+3. ¿Por qué no toda corporación elige simplemente la condición de corporación S?
+   A. La condición de corporación S es ilegal en la mayoría de los estados
+   B. La condición de corporación S tiene límites de elegibilidad reales que no toda corporación cumple
+   C. Las corporaciones S siempre tributan más
+   D. No existe la condición de corporación S
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Ambos se refieren a la misma estructura, que tributa de forma distinta según el código contributivo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es al revés: las corporaciones C en general enfrentan una posible doble tributación; las corporaciones S en general la evitan.
+
+### Pregunta 3
+
+Respuesta correcta: B. Requisitos de elegibilidad reales limitan quién puede elegir la condición de corporación S.
+
+## Puntos clave
+
+- Corporación C y corporación S se refieren a la misma estructura, que tributa de forma distinta.
+- Las corporaciones C en general enfrentan una posible doble tributación; las corporaciones S en general trasladan la ganancia una sola vez.
+- La condición de corporación S tiene límites de elegibilidad reales y no está disponible para toda corporación.

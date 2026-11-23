@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 13
 locale: es-Caribbean
-title: "Comprender a los Clientes y Sus Necesidades"
-summary: "Un cliente es la persona u organización que paga por el producto o servicio de una empresa. Toda empresa existe para resolver un problema o satisfacer un deseo de alguien, y la disposición de esa persona a pagar es lo que hace viable a la empresa."
+title: "¿Qué son los gastos generales?"
+summary: "Aprende qué son los gastos generales y por qué existen sin importar cuánto venda un negocio."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-013: Comprender a los Clientes y Sus Necesidades
+# ¿Qué son los gastos generales?
 
-## Objetivos de Aprendizaje
-1. Definir un cliente en términos empresariales.
-2. Distinguir un deseo de una necesidad en el contexto de una compra.
-3. Explicar por qué comprender al cliente es el punto de partida de cualquier empresa.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*HECHO VERIFICADO:* Un cliente es la persona u organización que paga por el producto o servicio de una empresa. Toda empresa existe para resolver un problema o satisfacer un deseo de alguien, y la disposición de esa persona a pagar es lo que hace viable a la empresa.
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* Una "necesidad" es generalmente algo que un cliente requiere para resolver un problema real, mientras que un "deseo" es generalmente algo que mejora su situación sin ser esencial — muchas empresas exitosas se construyen sobre deseos más que sobre necesidades estrictas, por lo que esta distinción da forma al marketing más de lo que determina la viabilidad.
+- Definir los gastos generales en términos sencillos.
+- Distinguir los gastos generales de los costos ligados directamente a una venta.
+- Explicar por qué los gastos generales importan incluso en los períodos flojos.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un fontanero resuelve una necesidad — una tubería rota debe repararse. Una cafetería especializada vende un deseo — los clientes podrían hacer café en casa, pero están dispuestos a pagar por la comodidad, la calidad, y la experiencia. Ambas son empresas totalmente legítimas; comprender cuál de las dos estás ofreciendo da forma a cómo fijas precios, haces marketing, y compites.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es un cliente, en términos empresariales?
-2. ¿Qué distingue generalmente un deseo de una necesidad?
-3. Verdadero/Falso: Solo las empresas que satisfacen una necesidad estricta pueden ser viables.
-4. ¿Por qué importa comprender al cliente como punto de partida?
+### Qué son los gastos generales
 
-## Clave de Respuestas
-1. La persona u organización que paga por un producto o servicio   2. Una necesidad resuelve un problema real; un deseo mejora una situación sin ser esencial   3. Falso   4. La disposición del cliente a pagar es lo que hace viable a una empresa
+Los gastos generales (overhead) son los costos continuos de operar un negocio que no están ligados directamente a producir un producto específico ni a hacer una venta específica: cosas como el alquiler, los seguros y los salarios administrativos.
 
-## Respuestas y Explicaciones
-1. Esta es la definición básica de un cliente.
-2. Esta es la distinción general entre deseos y necesidades.
-3. Muchas empresas viables se construyen en torno a deseos, no solo a necesidades estrictas.
-4. Sin una imagen clara del cliente, una empresa no tiene base para su oferta.
+### Gastos generales frente a costos directos
 
-## Puntos Clave a Recordar
-- Un cliente es quien paga por el producto o servicio que ofrece una empresa.
-- Los deseos y las necesidades son ambos bases legítimas para una empresa viable.
-- Comprender al cliente es el punto de partida para fijar precios, hacer marketing, y competir.
+Pregúntate: si un negocio no hiciera ninguna venta este mes, ¿tendría que pagar el alquiler de todos modos? Sí: ese es el rasgo que define a los gastos generales. Los costos que aumentan directamente con cada venta (como la materia prima de un producto específico) son distintos, y se ven por separado en lecciones posteriores.
 
+### Por qué importan incluso cuando el negocio va lento
+
+Los gastos generales se siguen acumulando entren o no ingresos, y por eso entenderlos importa para planificar: un negocio con gastos generales fijos altos necesita cierto nivel básico de ventas solo para llegar al punto de equilibrio, un concepto que se ve en la próxima lección.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una pequeña tienda paga $2,000 al mes de alquiler sin importar cuántos artículos venda ese mes. Pregúntate: ¿cambian esos $2,000 si las ventas están inusualmente flojas un mes? No: eso es justo lo que los convierte en gastos generales, distintos del costo del inventario específico que se vende.
+
+## Prueba de práctica
+
+1. Los gastos generales se refieren a:
+   A. Los costos ligados directamente a producir una unidad específica vendida
+   B. Los costos continuos de operar el negocio, no ligados directamente a una venta
+   C. Un tipo de licencia de negocio
+   D. Los ingresos totales de una empresa
+2. Verdadero o falso: los gastos generales desaparecen en un mes sin ventas.
+3. ¿Cuál de estos es un gasto general típico?
+   A. La materia prima de un producto específico
+   B. El alquiler mensual del local del negocio
+   C. Una compra única de equipo
+   D. El costo de envío de un pedido específico
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Los gastos generales son continuos y no están ligados a una venta específica.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los gastos generales en general continúan sin importar la actividad de ventas.
+
+### Pregunta 3
+
+Respuesta correcta: B. El alquiler es un gasto general clásico, sin relación con ninguna venta en particular.
+
+## Puntos clave
+
+- Los gastos generales son costos continuos, no ligados a ninguna venta específica.
+- Continúan entren o no ingresos.
+- Marcan un nivel básico que el negocio necesita cubrir con sus ventas, algo que se ve más en la próxima lección.
