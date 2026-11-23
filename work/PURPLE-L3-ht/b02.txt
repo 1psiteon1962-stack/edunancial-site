@@ -47,3 +47,153 @@ Sa reflete dirèkteman prensip Leson 4 la ki di lwa sou kontra anjeneral vize ko
 ---
 
 *Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou domaj fiks davans yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans anvan w ekri oswa dakò ak kalite kloz sa a.*
+
+===== PURPLE-L3-007
+TITLE: Poukisa yon kloz endamnizasyon deplase risk anvan yon diskisyon menm rive
+SUMMARY: Aprann kijan yon kloz endamnizasyon mache, ak poukisa li separe davans responsablite pou kèk pèt alavni, anvan okenn diskisyon espesifik menm parèt.
+# PURPLE-L3-007: Poukisa yon kloz endamnizasyon deplase risk anvan yon diskisyon menm rive
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon kloz endamnizasyon anjeneral fè
+- Esplike poukisa kloz sa a separe risk davans, anvan okenn diskisyon espesifik egziste
+- Esplike poukisa kantite sa kloz endamnizasyon an kouvri enpòtan anpil
+
+## Kontni prensipal
+
+Yon **kloz endamnizasyon** (indemnification clause) (pafwa yo mete l ansanm ak yon fraz "hold harmless", sa vle di pwoteje lòt pati a kont dega) anjeneral oblije yon pati konpanse lòt la pou kèk pèt, domaj, oswa reklamasyon yo presize ki ta ka parèt, souvan ki konekte ak risk espesifik ki gen rapò ak sijè kontra a.
+
+Men "poukisa" kloz sa a fonksyone yon lòt jan pase remèd domaj yo kouvri nan leson anvan yo: olye detèmine konpansasyon apre yon vyolasyon oswa yon diskisyon fin rive, yon kloz endamnizasyon separe responsablite pou kèk kategori risk alavni davans, yon fason proaktif, kòm yon pati nan negosyasyon orijinal kontra a — li deside davans ki pati ki pral pote kou a si yon kalite pèt espesifik oswa yon reklamasyon yon twazyèm moun rive pita, kèlkeswa si okenn nan de pati yo vrèman vyole kontra a li menm.
+
+[FÈ VERIFYE] Kantite espesifik sa yon kloz endamnizasyon kouvri — egzakteman ki kalite pèt oswa reklamasyon li kouvri, ak nenpòt limit oswa eksepsyon — enpòtan anpil, paske yon kloz yo ekri yon fason laj ta ka oblije yon pati kouvri yon seri sitiyasyon pi laj anpil pase yon kloz yo ekri yon fason etwat, avèk swen, sa ki fè lang espesifik kloz sa a yon pwen negosyasyon komen e enpòtan nan kontra enpòtan.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontra ant de biznis gen ladan l yon kloz endamnizasyon ki oblije yon pati kouvri kèk pèt yo presize si yon twazyèm moun pote yon reklamasyon ki gen rapò ak yon aspè espesifik travay yo kontrakte a. [SIPOZISYON] Si kalite reklamasyon espesifik sa a parèt pita nan men yon twazyèm moun, kloz endamnizasyon an detèmine, dapre kondisyon yo te negosye byen davans, kiyès nan de pati kontra yo ki pote kou sa a — yon desizyon yo pran yon fason proaktif pandan negosyasyon kontra a, pa yon bagay yo kite pou pase nan tribinal e deside sèlman apre diskisyon espesifik la fin rive.
+
+## Egzamen pratik
+
+1. Kisa yon kloz endamnizasyon anjeneral fè?
+2. Poukisa kloz sa a separe risk yon lòt jan pase remèd domaj yo kouvri nan leson anvan yo?
+3. Poukisa kantite espesifik sa yon kloz endamnizasyon kouvri enpòtan anpil?
+
+## Kle repons yo
+
+1. Li oblije yon pati konpanse lòt la pou kèk pèt, domaj, oswa reklamasyon yo presize ki ta ka parèt, souvan ki gen rapò ak risk espesifik ki konekte ak kontra a.
+2. Paske li separe responsablite pou risk alavni davans, yon fason proaktif, kòm yon pati nan negosyasyon kontra a, olye detèmine konpansasyon sèlman apre yon vyolasyon oswa yon diskisyon fin rive.
+3. Paske yon kloz yo ekri yon fason laj ta ka oblije yon pati kouvri yon seri sitiyasyon pi laj anpil pase yon kloz yo ekri yon fason etwat, avèk swen, sa ki fè l yon pwen negosyasyon kontra komen e enpòtan.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se diferans santral ant kloz sa a ak remèd apre fè yo kouvri pi bonè nan tras sa a.
+3. Sa ranfòse enpòtans pratik ekri kloz espesifik sa a avèk swen.
+
+## Pwen kle yo
+- Yon kloz endamnizasyon oblije yon pati konpanse lòt la pou kèk pèt oswa reklamasyon alavni yo presize.
+- Sa separe risk davans, yon fason proaktif, kòm yon pati nan negosyasyon kontra a, olye detèmine konpansasyon sèlman apre yon diskisyon rive.
+- Kantite espesifik kloz sa a kouvri enpòtan anpil, sa ki fè lang li yon pwen negosyasyon komen e enpòtan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans anvan w ekri oswa dakò ak yon kloz endamnizasyon.*
+
+===== PURPLE-L3-008
+TITLE: Poukisa yon kloz fòs majè kouvri sèlman sa li vrèman bay nan lis la
+SUMMARY: Aprann poukisa yo entèprete yon kloz fòs majè yon fason etwat, li kouvri sèlman evènman espesifik li bay nan lis li, ak poukisa tribinal yo pa pwolonje l yon fason laj pi lwen pase lang sa a.
+# PURPLE-L3-008: Poukisa yon kloz fòs majè kouvri sèlman sa li vrèman bay nan lis la
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon kloz fòs majè anjeneral fè
+- Esplike poukisa yo anjeneral entèprete kloz sa a yon fason etwat, selon lang espesifik ki nan lis li
+- Esplike poukisa konte sou yon kloz fòs majè ki mal ekri oswa ki twò etwat ka kite yon pati san pwoteksyon
+
+## Kontni prensipal
+
+Yon **kloz fòs majè** (force majeure clause) anjeneral egzante yon pati de akonpli obligasyon kontra li si yon kategori evènman ekstraòdinè espesifik, ki nan lis la, ki depase kontwòl li — ki souvan gen ladan bagay tankou katastwòf natirèl, lagè, oswa aksyon gouvènman, selon lang espesifik kloz la — anpeche l akonpli yo.
+
+Men "poukisa" tribinal yo anjeneral entèprete kloz sa a yon fason etwat: [FÈ VERIFYE] anpil sistèm legal anjeneral aplike yon prensip pou entèprete yon kloz fòs majè selon evènman espesifik li vrèman bay nan lis li, olye pwolonje l yon fason laj pou kouvri nenpòt difikilte ou pa t prevwa yon pati ta ka diskite ki jistifye li pa akonpli — yon kloz ki bay evènman espesifik tankou "lagè" oswa "katastwòf natirèl" anjeneral pa pral otomatikman pwolonje pou egzante akonplisman akoz yon kalite pètibasyon ki pa tonbe rezonabman nan kategori espesifik ki nan lis sa yo, menm si pètibasyon sa a sanble menm jan ekstraòdinè pou pati k ap envoke l la.
+
+Se poutèt sa fason espesifik yo ekri yon kloz fòs majè enpòtan anpil: yon pati ki vle pwoteksyon kont yon seri pètibasyon posib ki laj bezwen asire lang kloz la ekri yon fason ase laj e ase espesifik pou l vrèman kouvri sitiyasyon ki enkyete l, olye l sipoze yon kloz ki ekri yon fason jeneral pral entèprete yon fason laj pou kouvri nenpòt difikilte ou pa t atann ki parèt pita.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontra gen ladan l yon kloz fòs majè ki bay evènman espesifik tankou katastwòf natirèl ak fèmen gouvènman an bay lòd. Si yon evènman ki tonbe klèman nan youn nan kategori espesifik sa yo anpeche yon pati akonpli, kloz la gen chans egzante l jan yo te vle a. [SIPOZISYON] Si okontrè yon lòt kalite evènman ekstraòdinè deranje akonplisman an — youn ki pa tonbe rezonabman nan okenn nan kategori espesifik ki nan lis kloz la — yon tribinal ta ka jwenn kloz la pa aplike, menm si evènman ki deranje a te sanble menm jan ekstraòdinè e li te depase kontwòl pati a, sa ki montre poukisa lang espesifik ki nan lis la, pa lespri jeneral "difikilte ou pa t prevwa", detèmine vrè kantite pwoteksyon kloz la.
+
+## Egzamen pratik
+
+1. Kisa yon kloz fòs majè anjeneral fè?
+2. Poukisa tribinal yo anjeneral entèprete kloz sa a yon fason etwat?
+3. Poukisa fason espesifik yo ekri yon kloz fòs majè enpòtan anpil?
+
+## Kle repons yo
+
+1. Li anjeneral egzante yon pati de akonpli obligasyon li si yon kategori evènman ekstraòdinè espesifik, ki nan lis la, ki depase kontwòl li anpeche l akonpli.
+2. Paske tribinal yo anjeneral entèprete kloz la selon evènman espesifik ki nan lis li, olye pwolonje l yon fason laj pou kouvri nenpòt difikilte ou pa t prevwa, menm youn ki sanble menm jan ekstraòdinè men ki tonbe deyò kategori ki nan lis yo.
+3. Paske yon pati ki vle yon pwoteksyon laj bezwen lang kloz la ekri yon fason ase espesifik e ase laj pou l vrèman kouvri sitiyasyon ki enkyete l, olye l sipoze yo pral entèprete yon kloz ki ekri yon fason jeneral yon fason laj.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike prensip entèpretasyon etwat la.
+3. Sa ranfòse enpòtans pratik ekri kloz sa a avèk swen, yon fason espesifik.
+
+## Pwen kle yo
+- Yon kloz fòs majè egzante akonplisman pou evènman ekstraòdinè espesifik, ki nan lis li, ki depase kontwòl yon pati.
+- Yo anjeneral entèprete kloz sa a yon fason etwat, li kouvri sèlman evènman espesifik li vrèman bay nan lis li, pa nenpòt difikilte ou pa t prevwa an jeneral.
+- Ekri lang kloz sa a avèk swen, yon fason espesifik, esansyèl pou asire li vrèman kouvri sitiyasyon ki enkyete yon pati.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Entèpretasyon fòs majè varye selon jiridiksyon; konsilte yon avoka ki gen lisans anvan w ekri oswa konte sou kalite kloz sa a.*
+
+===== PURPLE-L3-009
+TITLE: Poukisa definisyon "konfidansyèl" nan yon NDA detèmine tout lòt bagay ladan l
+SUMMARY: Aprann poukisa seksyon definisyon yon akò konfidansyalite (NDA) se pati ki pi enpòtan li, paske tout lòt pwoteksyon depann de sa ki vrèman konte kòm konfidansyèl.
+# PURPLE-L3-009: Poukisa definisyon "konfidansyèl" nan yon NDA detèmine tout lòt bagay ladan l
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa definisyon "enfòmasyon konfidansyèl" se pati ki gen plis konsekans nan yon NDA
+- Esplike poukisa yon definisyon twò etwat oswa twò laj chak kreye diferan pwoblèm
+- Esplike poukisa eksklizyon komen sou konfidansyalite anjeneral parèt nan yon NDA ki byen ekri
+
+## Kontni prensipal
+
+Yon **akò konfidansyalite** (NDA, Non-Disclosure Agreement) anjeneral anpeche yon pati divilge enfòmasyon yo deziyen kòm konfidansyèl. Men "poukisa" definisyon espesifik sa ki vrèman konte kòm "enfòmasyon konfidansyèl" nan akò a petèt se sèl pati ki pi enpòtan nan tout dokiman an: chak lòt pwoteksyon ak restriksyon nan NDA a — sa ou pa ka divilge, pou konbyen tan, e nan ki sikonstans — aplike sèlman pou enfòmasyon ki vrèman tonbe nan definisyon sa a.
+
+[FÈ VERIFYE] Yon definisyon twò etwat ka kite enfòmasyon ki vrèman sansib san pwoteksyon si li pa antre teknikman nan kantite espesifik yo defini a. Yon definisyon twò laj — pafwa ki kouvri esansyèlman tout sa pati yo pataje, kèlkeswa si li vrèman sansib — ka kreye pwòp pwoblèm pa li, sa ki ka fè akò a difisil pou respekte nan pratik e, nan kèk ka, mwens pwobab pou yon tribinal fè l respekte yon fason sevè si yo jwenn li twò laj san rezon.
+
+Se poutèt sa NDA ki byen ekri anjeneral gen ladan yo eksklizyon espesifik, byen reflechi nan definisyon konfidansyalite a — souvan yo eskli enfòmasyon ki te deja konnen piblikman, enfòmasyon pati ki resevwa a te deja genyen poukont li anvan divilgasyon an, oswa enfòmasyon yo devlope poukont yo san yo pa itilize enfòmasyon konfidansyèl yo te divilge a — sa ki asire kantite akò a rezonab e li vrèman mare ak pwoteje enfòmasyon ki lejitimman sansib.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] De biznis negosye yon NDA anvan yo pataje enfòmasyon biznis sansib. Si yo ekri definisyon "enfòmasyon konfidansyèl" twò etwat, kèk enfòmasyon enpòtan espesifik yo pataje pita ta ka pa kalifye teknikman pou pwoteksyon, sa ki kite l ekspoze malgre entansyon pati yo te sanble genyen pou pwoteje l. Si okontrè yo ekri definisyon an tèlman laj ke li kouvri prèske nenpòt bagay yo te janm mansyone ant pati yo, enkli enfòmasyon ki disponib piblikman, [SIPOZISYON] yon tribinal ta ka wè aplikasyon akò a kòm yon bagay ki pa pratik oswa ki ale twò lwen nan yon diskisyon espesifik. Yon definisyon ki byen ekri, ak eksklizyon rezonab, estanda ladan l, evite tou de pwoblèm sa yo, sa ki bay yon pwoteksyon ki gen sans, ki gen bon kantite.
+
+## Egzamen pratik
+
+1. Poukisa definisyon "enfòmasyon konfidansyèl" se pati ki gen plis konsekans nan yon NDA?
+2. Ki pwoblèm yon definisyon twò etwat ka kreye?
+3. Ki pwoblèm yon definisyon twò laj ka kreye?
+
+## Kle repons yo
+
+1. Paske chak lòt pwoteksyon ak restriksyon nan NDA a aplike sèlman pou enfòmasyon ki vrèman tonbe nan kantite yo defini sa a.
+2. Enfòmasyon ki vrèman sansib ki pa antre teknikman nan definisyon etwat la ka rete san pwoteksyon.
+3. Akò a ka vin difisil pou respekte nan pratik e, nan kèk ka, mwens pwobab pou yon tribinal fè l respekte yon fason sevè si yo jwenn li twò laj san rezon.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike gwo enpòtans seksyon definisyon an.
+2. Sa esplike yon fason espesifik move redaksyon ka echwe.
+3. Sa esplike fason opoze li ka echwe a, sa ki ranfòse bezwen yon balans ki byen reflechi.
+
+## Pwen kle yo
+- Definisyon "enfòmasyon konfidansyèl" se pati ki gen plis konsekans nan yon NDA, paske li detèmine kantite chak lòt pwoteksyon.
+- Yon definisyon twò etwat ka kite enfòmasyon sansib san pwoteksyon; yon definisyon twò laj ka kreye pwoblèm pou fè l respekte.
+- NDA ki byen ekri anjeneral gen ladan yo eksklizyon rezonab, estanda pou kenbe kantite a byen konsantre.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans anvan w ekri oswa siyen nenpòt NDA.*
