@@ -1,0 +1,87 @@
+---
+id: BLACK-L4-029
+track: BLACK
+officialTrackName: "Leadership & Executive Management"
+level: 4
+lessonNumber: 29
+locale: ht
+title: "Analiz jesyon moun ki gen enterè: poukisa lidè yo dwe balanse enterè lejitim ki vrèman an konpetisyon"
+summary: "Konprann poukisa yon lidè souvan fè fas ak enterè lejitim ki vrèman an konpetisyon pami moun ki gen enterè nan òganizasyon an, poukisa fè sanblan konpetisyon sa a pa egziste bay pi move rezilta, poukisa priyorite yo dwe chita sou prensip konsistan, ak poukisa esplike yon chwa ak transparans prezève plis konfyans."
+version: "1.0"
+author: "Edunancial Faculty"
+date: "2026-10-19"
+---
+Filename: BLACK-L4-029.ht.md
+Folder: BLACK/L4
+Title: Analiz jesyon moun ki gen enterè: poukisa lidè yo dwe balanse enterè lejitim ki vrèman an konpetisyon
+Lesson ID: BLACK-L4-029
+Author: Waldemar M. Caban, JD MA
+Meta Description: Konprann poukisa yon lidè souvan fè fas ak enterè lejitim ki vrèman an konpetisyon pami moun ki gen enterè nan òganizasyon an, poukisa fè sanblan konpetisyon sa a pa egziste bay pi move rezilta, poukisa priyorite yo dwe chita sou prensip konsistan, ak poukisa esplike yon chwa ak transparans prezève plis konfyans.
+SEO Keywords: jesyon moun ki gen enterè, enterè lejitim ki an konpetisyon, chwa ki fèt ak transparans, priyorite ki chita sou prensip
+Slug: stakeholder-management-analysis-why-leaders-must-balance-genuinely-competing-legitimate-interests
+
+# Analiz jesyon moun ki gen enterè: poukisa lidè yo dwe balanse enterè lejitim ki vrèman an konpetisyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komèsyal ki toudenkou mete gwo tarif sou yon kategori laj pwodui fabrike yo enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm materyèl. Pandan tarif yo kreye yon vrè tansyon ant priyorite òganizasyonèl ki an konpetisyon — pwoteje rannman aksyonè yo, kenbe salè anplwaye yo, ak jere pri pou kliyan yo — lidè yo dekouvri ke enterè lejitim moun ki gen enterè sa yo ki vrèman an konpetisyon pa ka satisfè tout ansanm e nèt an menm tan, sa ki mande desizyon onèt, ki chita sou prensip, sou ki chwa pou fè, olye fè sanblan tansyon an pa vrèman egziste.
+
+## Objektif aprantisaj
+- Esplike poukisa yon lidè souvan fè fas ak enterè lejitim ki vrèman an konpetisyon pami diferan moun ki gen enterè nan òganizasyon an — aksyonè, anplwaye, kliyan, ak lòt moun.
+- Esplike poukisa fè sanblan enterè ki an konpetisyon sa yo pa vrèman egziste, olye rekonèt e trete tansyon ki anba a onètman, gen tandans bay pi move rezilta pase pran desizyon ak transparans, sou baz prensip, sou ki chwa pou fè.
+- Esplike poukisa desizyon yon lidè sou priyorite pami moun ki gen enterè ta dwe gide pa prensip ki vrèman konsistan, yo te eksprime anvan, olye yo pran yo yon fason ki pa konsistan, ka pa ka, pou chak sitiyasyon espesifik.
+- Esplike poukisa yon kominikasyon transparan sou kijan e poukisa yo te vrèman pran yon desizyon sou yon chwa espesifik, menm lè desizyon an li menm desevwa yon gwoup moun ki gen enterè espesifik, gen tandans prezève plis konfyans pase yon desizyon yo pa esplike oswa yo kache.
+
+## Kontni prensipal
+FÈ VERIFYE: yon lidè souvan fè fas ak enterè lejitim ki vrèman an konpetisyon pami diferan moun ki gen enterè nan yon òganizasyon — aksyonè ki vrèman enterese nan rannman finansye, anplwaye ki vrèman enterese nan yon salè jis ak bon kondisyon travay, kliyan ki vrèman enterese nan pri favorab ak bon kalite, ak lòt moun ki gen enterè ki gen pwòp enterè yo ki vrèman lejitim tou — e enterè sa yo ki vrèman an konpetisyon souvan pa ka satisfè tout ansanm e nèt an menm tan, sa ki vle di yon lidè k ap fè fas ak yon desizyon espesifik sou distribisyon resous oswa sou estrateji souvan dwe vrèman chwazi kijan pou l balanse e mete priyorite pami enterè sa yo ki vrèman lejitim, men ki vrèman an konpetisyon, olye gen yon desizyon ki ta satisfè nèt enterè chak moun ki gen enterè an menm tan.
+
+Men "poukisa" fè sanblan enterè ki an konpetisyon sa yo pa vrèman egziste gen tandans bay pi move rezilta pase pran desizyon ak transparans, sou baz prensip, sou ki chwa pou fè: yon lidè ki evite rekonèt onètman ke yon desizyon espesifik vrèman favorize enterè yon gwoup moun ki gen enterè pase enterè yon lòt gwoup, ki prezante pito desizyon an tankou si li yon jan kanmenm satisfè nèt enterè chak moun ki gen enterè an menm tan, anjeneral bay yon desizyon ki pa vrèman satisfè vrè atant okenn gwoup moun ki gen enterè, pandan l domaje tou pwòp kredibilite lidè a depi moun ki gen enterè yo finalman rekonèt vrè chwa lidè a te eseye kache okòmansman an, sa ki fè echo ak diskisyon Leson 8 nivo sa a konsènan kou konfyans yon diferans ant pozisyon yo deklare ak vrè reyalite a.
+
+Se poutèt sa desizyon yon lidè sou priyorite pami moun ki gen enterè ta dwe gide pa prensip ki vrèman konsistan, yo te eksprime anvan, olye yo pran yo yon fason ki pa konsistan, ka pa ka: yon lidè ki pran desizyon sou priyorite pami moun ki gen enterè yon fason ki pa konsistan, ki favorize nenpòt gwoup moun ki gen enterè ki genyen plis enfliyans oswa plis fòs touswit nan chak ka espesifik, olye l aplike prensip ki vrèman konsistan nan sitiyasyon ki sanble, riske parèt abitrè oswa san prensip pou moun ki gen enterè k ap obsève mank konsistans sa a ak tan, alòske yon lidè ki te vrèman eksprime prensip konsistan ki gide kijan yo pral anjeneral balanse enterè moun ki gen enterè ki an konpetisyon bay moun ki gen enterè yo yon vrè baz ki previzib pou yo konprann e evalye desizyon espesifik yo, menm lè yon desizyon espesifik pa favorize pwòp enterè patikilye yo nan ka sa a. Se poutèt sa yon kominikasyon transparan sou kijan e poukisa yo te vrèman pran yon desizyon sou yon chwa espesifik gen tandans prezève plis konfyans pase yon desizyon yo pa esplike oswa yo kache, sa ki fè echo ak diskisyon Leson 15 nivo sa a sou kominikasyon nan kriz: yon gwoup moun ki gen enterè ki pa t jwenn enterè li favorize nèt nan yon desizyon espesifik anjeneral reyaji yon fason ki pi konstriktif a yon eksplikasyon onèt, transparan sou vrè rezonman ki dèyè desizyon sou chwa sa a pase a yon desizyon yo pa esplike oswa yon desizyon kote yo kache vrè rezonman ki anba a aktivman, paske yon eksplikasyon transparan omwen bay gwoup moun ki gen enterè sa a yon vrè konpreyansyon sou vrè pwosesis pran desizyon an, menm lè rezilta espesifik la li menm rete desevan pou pwòp enterè patikilye yo.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Lè l ap fè fas ak yon vrè tansyon ant enterè moun ki gen enterè ki an konpetisyon nouvo tarif yo kreye, yon lidè dwe deside kijan pou l distribiye kou ki ogmante yo ant rannman aksyonè ki diminye, salè anplwaye ki diminye, ak pri kliyan ki ogmante. Olye l fè sanblan gen yon desizyon ki satisfè nèt enterè chak moun ki gen enterè an menm tan, lidè a rekonèt onètman vrè chwa ki la a, li aplike prensip konsistan li te eksprime anvan sou kijan òganizasyon an anjeneral balanse kalite enterè ki an konpetisyon sa yo, e li kominike ak transparans vrè rezonman ki dèyè distribisyon espesifik li finalman chwazi a bay chak gwoup moun ki gen enterè ki afekte — apwòch transparan, ki chita sou prensip sa a prezève plis konfyans anpil pami moun ki gen enterè yo pase yon desizyon yo pa esplike, oswa youn yo prezante fosman kòm si li satisfè enterè chak moun ki gen enterè an menm tan, ta ka fè.
+
+## Egzamen pratik
+**Q1. Poukisa yon lidè souvan fè fas ak enterè lejitim ki vrèman an konpetisyon pami diferan moun ki gen enterè nan òganizasyon an?**
+A) Enterè chak gwoup moun ki gen enterè toujou byen aliyen nèt e nenpòt yon sèl desizyon yon lidè ta ka pran ka satisfè yo tout an menm tan
+B) Aksyonè, anplwaye, kliyan, ak lòt moun ki gen enterè chak gen enterè ki vrèman lejitim, men ki souvan an konpetisyon, sa ki vle di yon desizyon espesifik sou distribisyon resous oswa sou estrateji souvan pa ka satisfè nèt enterè chak gwoup moun ki gen enterè an menm tan
+
+**Q2. Poukisa fè sanblan enterè ki an konpetisyon pa vrèman egziste gen tandans bay pi move rezilta pase pran desizyon ak transparans sou ki chwa pou fè?**
+A) Fè sanblan enterè ki an konpetisyon pa egziste toujou bay yon desizyon ki satisfè nèt e vrèman chak gwoup moun ki gen enterè an menm tan
+B) Yon lidè ki evite rekonèt onètman yon vrè chwa anjeneral bay yon desizyon ki pa vrèman satisfè vrè atant okenn gwoup moun ki gen enterè, pandan l domaje kredibilite li tou depi moun ki gen enterè yo finalman rekonèt chwa a, sa ki fè echo ak diskisyon anvan an sou kou konfyans yon diferans ant pozisyon yo deklare ak vrè reyalite a
+
+**Q3. Poukisa desizyon sou priyorite pami moun ki gen enterè ta dwe gide pa prensip ki vrèman konsistan, yo te eksprime anvan?**
+A) Yo ta dwe toujou pran desizyon sou priyorite pami moun ki gen enterè yon fason ki pa konsistan, ki favorize nenpòt gwoup moun ki gen enterè ki genyen plis enfliyans touswit nan chak ka espesifik
+B) Yon lidè ki pran desizyon sou priyorite yon fason ki pa konsistan, ka pa ka riske parèt abitrè oswa san prensip ak tan, alòske prensip konsistan yo te eksprime anvan bay moun ki gen enterè yo yon vrè baz ki previzib pou yo konprann desizyon yo, menm lè yon desizyon espesifik pa favorize pwòp enterè patikilye yo
+
+**Q4. Poukisa yon kominikasyon transparan sou rezonman yon desizyon sou yon chwa gen tandans prezève plis konfyans pase yon desizyon yo pa esplike oswa yo kache?**
+A) Yon eksplikasyon transparan sou rezonman yon desizyon sou yon chwa toujou bay egzakteman menm reyaksyon nan men moun ki gen enterè yo ak yon desizyon yo pa esplike oswa yo kache
+B) Yon gwoup moun ki gen enterè ki pa t jwenn enterè li favorize nèt anjeneral reyaji yon fason ki pi konstriktif a yon eksplikasyon onèt, transparan sou vrè rezonman an pase a yon desizyon yo pa esplike, paske yon eksplikasyon transparan bay yon vrè konpreyansyon sou pwosesis pran desizyon an menm lè rezilta espesifik la rete desevan
+
+**Q5. Nan egzanp lan, poukisa apwòch lidè a pou distribiye ogmantasyon kou tarif yo te koze a te prezève konfyans moun ki gen enterè yo pi byen pase lòt apwòch ta fè?**
+A) Lidè a te an reyalite prezante desizyon an kòm si li te satisfè nèt enterè chak gwoup moun ki gen enterè an menm tan, san okenn vrè chwa ladan l
+B) Lidè a te rekonèt vrè chwa a onètman, li te aplike prensip konsistan li te eksprime anvan, e li te kominike vrè rezonman an ak transparans bay chak gwoup moun ki gen enterè ki afekte, olye l kache chwa a oswa l kite l san eksplikasyon
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fason sa a enterè lejitim diferan moun ki gen enterè vrèman e souvan pa ka mache ansanm se egzakteman poukisa lidè yo dwe vrèman chwazi kijan pou yo balanse e mete priyorite pami yo, olye gen yon desizyon ki satisfè tout moun nèt pou chak sitiyasyon.
+
+**Q2.** Lyen sa a ak diskisyon anvan an sou domaj konfyans yon diferans ant pozisyon yo deklare ak vrè reyalite a bay se egzakteman poukisa kache vrè chwa gen tandans bay pi move rezilta pase yon kominikasyon transparan, onèt sou chwa a.
+
+**Q3.** Vrè baz ki previzib sa a pou konprann desizyon yo, olye parèt abitrè, se egzakteman poukisa prensip konsistan yo te eksprime anvan enpòtan pou yon bon fason mete priyorite pami moun ki gen enterè.
+
+**Q4.** Vrè konpreyansyon sa a eksplikasyon an bay, menm lè rezilta espesifik la desevan, se egzakteman poukisa yon kominikasyon transparan sou rezonman yon chwa gen tandans prezève plis konfyans pami moun ki gen enterè pase yon desizyon yo pa esplike oswa yo kache.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon rekonesans onèt, yon aplikasyon prensip konsistan, ak yon kominikasyon transparan ansanm montre egzakteman apwòch leson sa a rekòmande pou jere enterè moun ki gen enterè ki vrèman an konpetisyon.
+
+## Pwen kle yo
+- Lidè yo souvan fè fas ak enterè lejitim ki vrèman an konpetisyon pami moun ki gen enterè ke yo pa ka satisfè tout ansanm e nèt an menm tan.
+- Fè sanblan enterè ki an konpetisyon sa yo pa egziste gen tandans bay pi move rezilta pase pran desizyon onèt, ak transparans sou ki chwa pou fè, akoz kou konfyans yon reyalite yo kache.
+- Desizyon sou priyorite pami moun ki gen enterè ta dwe gide pa prensip ki vrèman konsistan, yo te eksprime anvan, olye yon favoritis ki pa konsistan, ka pa ka.
+- Yon kominikasyon transparan sou vrè rezonman yon desizyon sou yon chwa gen tandans prezève plis konfyans pami moun ki gen enterè pase yon desizyon yo pa esplike oswa yo kache, menm lè rezilta a li menm desevwa yon gwoup espesifik.
