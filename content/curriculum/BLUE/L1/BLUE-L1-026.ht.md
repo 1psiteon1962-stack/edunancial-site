@@ -1,0 +1,184 @@
+---
+id: BLUE-L1-026
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 26
+locale: ht
+title: "Kisa stòk ye, e konbyen li koute w pou kenbe l?"
+summary: "Esplike kisa stòk machandiz ye ak vrè depans kache ki genyen lè w kenbe l, pi lwen pase pri acha a."
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# BLUE-L1-026: "Kisa stòk ye, e konbyen li koute w pou kenbe l?"
+
+**Pakou:** BLUE (Biznis)
+**Nivo:** 1 — Konsyans ak alfabetizasyon
+**ID leson an:** BLUE-L1-026
+**Otè:** Waldemar M. Caban, JD MA
+**Tan estime:** 15–20 minit
+**Difikilte:** Debitan
+
+---
+
+## Rezime egzekitif
+`BLUE-L1-026-MAIN`
+Stòk ki chita sou yon etajè sanble tankou yon aktif, men li koute lajan an silans tou senpleman paske li la. Leson sa a esplike kisa stòk ye ak vrè depans, ke moun souvan neglije, ki genyen lè w kenbe l.
+
+## Objektif aprantisaj
+- Bay definisyon stòk ak wòl li kòm yon aktif biznis
+- Idantifye depans kache ki genyen lè w kenbe stòk, pi lwen pase pri acha a
+- Esplike poukisa twòp stòk ka fè yon biznis mal menm si li vann li finalman
+
+## Kondisyon preyalab
+BLUE-L1-025
+
+## Tan estime
+15–20 minit
+
+## Difikilte
+Debitan (Nivo 1)
+
+---
+
+## Kontni prensipal
+
+### Sijè 1: Kisa stòk ye
+Stòk (inventory) se machandiz yon biznis kenbe pou l vann bay kliyan — matyè premyè, pwodui k ap fabrike, oswa pwodui fini k ap tann pou yo vann. Sou yon bilan (BLUE-L1-025), stòk konte kòm yon aktif.
+
+### Sijè 2: Depans ki evidan an — pri acha a
+Depans stòk ki pi vizib la se tou senpleman sa li te koute pou achte l oswa pou pwodui l. Se chif sa a pifò nouvo mèt biznis panse an premye.
+
+### Sijè 3: Depans kache yo — frè pou kenbe stòk
+[ESTIMASYON, EGZANP ILISTRATIF] Pi lwen pase pri acha a, stòk pote "frè pou kenbe l": espas pou estoke l (lwaye pou espas li okipe a), asirans, risk pou l domaje oswa gate, risk pou l demode oswa pou yo pa ka vann li ankò, ak pri opòtinite lajan kach ki bloke nan machandiz yo pa vann, lajan ki te ka sèvi yon lòt kote nan biznis la.
+
+### Sijè 4: Poukisa twòp stòk ka fè mal menm biznis ki fè pwofi
+[EGZANP ILISTRATIF] Yon biznis ki achte twòp stòk ka jwenn lajan kach li bloke nan machandiz li pa vann, sa ki konekte dirèkteman ak risk flou lajan kach nan BLUE-L1-016 la — yon biznis ki sanble l ap fè pwofi ka toujou gen difikilte pou peye bòdwo si twòp lajan kach bloke nan stòk ki chita sou etajè.
+
+---
+
+## Definisyon kle
+- **Stòk:** Machandiz yon biznis kenbe pou l vann bay kliyan, sa gen ladan matyè premyè, pwodui k ap fabrike ak pwodui fini.
+- **Frè pou kenbe stòk:** Depans kontinyèl pou estoke ak antretni stòk, pi lwen pase pri acha orijinal li — sa gen ladan espas, asirans, risk pèt, ak pri opòtinite lajan kach ki bloke.
+
+## Egzanp pratik
+[EGZANP ILISTRATIF] Yon machann achte $20,000 machandiz pou yon sezon ki pa vann osi vit jan li te espere. Anplis $20,000 pri acha a, machann nan peye frè estokaj k ap kontinye, e $20,000 lajan kach sa a pa disponib pou achte nouvo stòk ki vann pi vit — yon vrè depans ki grandi pi lwen pase pri ki sou etikèt la.
+
+## Erè kouran
+- Panse depans stòk se sèlman pri acha a
+- Achte twòp stòk paske w ap tann yon demann ki pa rive
+- Inyore efè lajan kach ki bloke nan machandiz yo pa vann genyen sou flou lajan kach
+
+## Kesyon moun poze souvan
+**K: Èske kenbe yon ti stòk toujou move?**
+R: [OPINYON] Non — gen ase stòk pou satisfè demann lan nesesè pou anpil biznis; enkyetid la se espesyalman kenbe plis pase sa w bezwen, pa stòk la li menm.
+
+**K: Kijan yon biznis ka diminye frè pou kenbe stòk?**
+R: [ESTIMASYON] Apwòch kouran yo gen ladan prevwa demann lan pi byen, kòmande pi piti kantite pi souvan, ak amelyore woulman stòk la — estrateji jesyon stòk ki pi pwofon trete nan leson ki pita yo.
+
+## Pwen kle yo
+- Stòk se machandiz yo kenbe pou vann, ki konte kòm yon aktif sou bilan an
+- Pri acha a se sèlman depans ki pi vizib la — frè pou kenbe l ajoute pi lwen pase sa
+- Frè pou kenbe stòk gen ladan espas, asirans, risk pèt, ak pri opòtinite lajan kach ki bloke
+- Twòp stòk ka kreye vrè pwoblèm flou lajan kach menm nan yon biznis ki sanble l ap fè pwofi
+
+## Egzèsis pratik
+Esplike, avèk referans a BLUE-L1-016, kijan twòp stòk ta ka kreye yon pwoblèm flou lajan kach menm pou yon biznis ki finalman vann tout bagay ak pwofi.
+
+---
+
+## Gid ansèyman sokratik
+`BLUE-L1-026-SOCRATIC` (Nivo 1 — "Kisa")
+
+1. **Kesyon pou louvri:** Èske stòk ki chita sou yon etajè koute yon bagay anplis sa yo te peye pou l?
+2. **Konsèp 1 — Definisyon:** Kisa ki konte kòm stòk?
+3. **Kesyon swivi:** Ki kote stòk parèt sou yon bilan?
+4. **Konsèp 2 — Pri acha:** Ki depans ki pi evidan pou stòk?
+5. **Kesyon swivi:** Èske se sèl depans ki genyen?
+6. **Konsèp 3 — Frè pou kenbe stòk:** Bay twa kalite frè pou kenbe stòk anplis pri acha a.
+7. **Kesyon swivi:** Kisa "pri opòtinite" vle di nan kontèks sa a?
+8. **Konsèp 4 — Efè sou flou lajan kach:** Kijan twòp stòk konekte ak risk flou lajan kach nan BLUE-L1-016 la?
+9. **Sentèz:** Èske yon biznis ta ka "fè pwofi" sou papye epi li toujou gen difikilte akoz twòp stòk?
+10. **Refleksyon:** Poukisa yon mèt biznis ta ka tante achte twòp stòk "an ka", malgre depans sa yo?
+
+## Evalyasyon konpetans
+`BLUE-L1-026-ASSESSMENT`
+
+1. (Chwa miltip) Stòk vle di: A) Rezèv lajan kach B) Machandiz yo kenbe pou vann bay kliyan C) Salè anplwaye D) Sèlman ekipman biwo
+2. (Chwa miltip) Kiyès ki se yon "frè pou kenbe stòk" pi lwen pase pri acha a? A) Espas ak asirans B) Sèlman taks sou vant C) Salè anplwaye D) Depans maketing
+3. (Vrè/Fo) Pri acha a se sèl vrè depans pou kenbe stòk.
+4. (Repons kout) Esplike kisa "pri opòtinite" vle di pou lajan kach ki bloke nan stòk.
+5. (Senaryo) Yon machann achte twòp machandiz pou yon sezon epi yo vann dousman. Ki risk flou lajan kach sa kreye?
+6. (Chwa miltip) Ki kote stòk parèt sou yon bilan? A) Kòm yon pasif B) Kòm yon aktif C) Kòm ekite mèt la D) Li pa parèt
+7. (Vrè/Fo) Kenbe nenpòt stòk ditou toujou se yon erè.
+8. (Repons kout) Bay yon fason yon biznis ta ka diminye frè pou kenbe stòk.
+9. (Chwa miltip) Twòp stòk konekte pi dirèkteman ak ki konsèp nou te wè pi bonè? A) Lisans biznis B) Risk flou lajan kach C) Responsablite LLC D) Sèlman kondisyon peman
+10. (Refleksyon) Poukisa yon biznis ka fè pwofi sou papye epi toujou fè fas ak vrè presyon finansye akoz twòp stòk?
+
+## Kle repons yo
+`BLUE-L1-026-ANSWER-KEY`
+
+1. **Kòrèk:** B. **Eksplikasyon:** Sa di dirèkteman nan Sijè 1. **Konpetans yo teste:** Rapèl.
+2. **Kòrèk:** A. **Eksplikasyon:** Sa di nan Sijè 3. **Konpetans yo teste:** Rapèl.
+3. **Kòrèk:** Fo. **Eksplikasyon:** Sijè 3 bay lis lòt frè pou kenbe stòk klèman. **Konpetans yo teste:** Korije yon move konsepsyon.
+4. **Kòrèk:** Lajan kach ki bloke nan stòk yo pa vann pa ka sèvi yon lòt kote nan biznis la, sa ki reprezante yon lòt itilizasyon ou pèdi. **Konpetans yo teste:** Sentèz.
+5. **Kòrèk:** Lajan kach la vin bloke nan machandiz yo pa vann, sa ki riske menm presyon sou flou lajan kach BLUE-L1-016 dekri a. **Konpetans yo teste:** Rezonman aplike ant leson yo.
+6. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 1. **Konpetans yo teste:** Rapèl.
+7. **Kòrèk:** Fo. **Eksplikasyon:** Kesyon moun poze souvan yo note yon stòk rezonab souvan nesesè; enkyetid la se twòp stòk. **Konpetans yo teste:** Korije yon move konsepsyon.
+8. **Kòrèk:** Nenpòt nan sa yo: prevwa demann lan pi byen, kòmand ki pi piti e pi souvan, amelyore woulman an. **Konpetans yo teste:** Rapèl.
+9. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 4. **Konpetans yo teste:** Rapèl.
+10. **Kòrèk:** Repons yo ta dwe mansyone pwofi sou papye pa konte lajan kach ki vrèman bloke nan stòk yo pa vann, sa ki raple diferans ant pwofi ak flou lajan kach nan BLUE-L1-016. **Konpetans yo teste:** Sentèz pwofon.
+
+## Estanda konpetans
+`BLUE-L1-026-COMPETENCY`
+
+KONPETANS YO ANSEYE: Definisyon stòk; frè pou kenbe stòk pi lwen pase pri acha a; risk flou lajan kach twòp stòk.
+KONPETANS YO MEZIRE: Rapèl definisyon; rezonman aplike sou depans; sentèz ant leson yo.
+NÒT MINIMÒM POU METRIZ: 80%
+TACH PRATIK OBLIGATWA: Fè egzèsis pratik la.
+SIJÈ RATRAPAJ: Revize BLUE-L1-016 ak BLUE-L1-025 ankò si w rate K5, K6 oswa K9.
+PWOCHEN LESON DEBLOKE: BLUE-L1-027
+PAKOU KI GEN RAPÒ: Poko gen okenn ki pibliye.
+
+## Lekti anplis
+- BLUE-L1-016 — Kisa flou lajan kach ye nan yon biznis?
+- BLUE-L1-027 — Kisa yon founisè ye, e poukisa fyabilite pi enpòtan pase pri?
+
+## Chemen leson an
+`BLUE-L1-026-LOCALIZATION` (blòk chemen)
+LESON ANVAN AN: BLUE-L1-025
+PWOCHEN LESON: BLUE-L1-027
+KONDISYON PREYALAB OBLIGATWA: BLUE-L1-025
+LESON REVIZYON OPSYONÈL: BLUE-L1-016, BLUE-L1-025
+LESON RATRAPAJ: BLUE-L1-016
+LESON KI GEN RAPÒ NAN LÒT PAKOU: Poko gen okenn ki pibliye
+KONDISYON POU FINI NIVO A: Fini tout leson BLUE-L1 yo (001–050) epi pase evalyasyon konpetans Nivo 1 an.
+
+## Blòk SEO
+`BLUE-L1-026-SEO`
+Tit SEO: Kisa stòk ye? Depans kache pou kenbe l | Edunancial
+Meta deskripsyon: Aprann kisa stòk ye ak depans kache pou kenbe l — espas, asirans, lajan kach ki bloke — pi lwen pase pri acha a.
+Slug URL sijere: /courses/business/level-1/what-is-inventory
+Mo kle prensipal: kisa frè pou kenbe stòk ye
+Mo kle segondè: frè pou kenbe stòk, risk twòp stòk
+Lyen entèn sijere: BLUE-L1-016, BLUE-L1-025, BLUE-L1-027
+Referans ekstèn sijere: Resous jeneral pou alfabetizasyon sou operasyon ti biznis
+Rekòmandasyon schema: Schema Course + LearningResource
+Entansyon rechèch: Enfòmasyonèl, nivo debitan
+Opòtinite pou "featured snippet": "Konbyen sa koute pou kenbe stòk?"
+Kesyon pou FAQ Schema: "Èske kenbe stòk toujou move?"; "Kijan yon biznis ka diminye frè pou kenbe stòk?"
+
+## Blòk sipò IA
+`BLUE-L1-026-AI`
+Rezime IA: Bay definisyon stòk kòm yon aktif sou bilan an epi li esplike frè kache pou kenbe l (espas, asirans, risk, pri opòtinite) pi lwen pase pri acha a, epi li konekte twòp stòk ak risk flou lajan kach.
+Nòt ansèyman pou IA: Ranfòse lyen ak BLUE-L1-016 (flou lajan kach) kòm benefis pratik leson sa a.
+
+## Blòk lokalizasyon
+`BLUE-L1-026-LOCALIZATION`
+Estati tradiksyon: tradiksyon an kreyòl ayisyen fini apati sous angle a.
+
+## Blòk referans ak verifikasyon
+`BLUE-L1-026-REFERENCES`
+Nou pa itilize okenn estatistik ni okenn sitasyon ekstèn. Kategori frè pou kenbe stòk ak estrateji pou diminye yo make kòm ESTIMASYON.

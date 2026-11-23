@@ -1,0 +1,184 @@
+---
+id: BLUE-L1-032
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 32
+locale: ht
+title: "Kisa yon plan maketing ye, nan fòm ki pi debaz li?"
+summary: "Divize yon plan maketing debaz an kat kesyon santral, ki bati dirèkteman sou konsèp mache sib la."
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# BLUE-L1-032: "Kisa yon plan maketing ye, nan fòm ki pi debaz li?"
+
+**Pakou:** BLUE (Biznis)
+**Nivo:** 1 — Konsyans ak alfabetizasyon
+**ID leson an:** BLUE-L1-032
+**Otè:** Waldemar M. Caban, JD MA
+**Tan estime:** 15–20 minit
+**Difikilte:** Debitan
+
+---
+
+## Rezime egzekitif
+`BLUE-L1-032-MAIN`
+Nan fòm ki pi debaz li, yon plan maketing se tou senpleman repons pou kèk kesyon santral — ki bati dirèkteman sou konsèp mache sib nan dènye leson an. Leson sa a dekoupe kesyon sa yo.
+
+## Objektif aprantisaj
+- Bay definisyon yon plan maketing nan yon nivo debaz e fondamantal
+- Idantifye kesyon santral yon plan maketing debaz reponn
+- Konekte planifikasyon maketing dirèkteman ak konsèp mache sib la
+
+## Kondisyon preyalab
+BLUE-L1-031
+
+## Tan estime
+15–20 minit
+
+## Difikilte
+Debitan (Nivo 1)
+
+---
+
+## Kontni prensipal
+
+### Sijè 1: Kisa yon plan maketing ye, san dekorasyon
+Yon plan maketing, nan fon li, se yon plan pou kijan yon biznis ap rive jwenn mache sib li epi konvenk li achte — tout bagay ki pi elabore bati sou fondasyon debaz sa a.
+
+### Sijè 2: Premye kesyon santral la — Kiyès?
+Sa soti dirèkteman nan BLUE-L1-031: yon plan maketing dwe kòmanse ak yon mache sib ki byen defini. San sa, okenn nan kesyon ki swiv yo pa ka jwenn yon repons ki gen sans.
+
+### Sijè 3: Dezyèm kesyon santral la — Ki mesaj?
+[EGZANP ILISTRATIF] Ki valè espesifik oswa ki benefis pou rezoud pwoblèm pwodui a ofri mache sib sa a, e kijan pou w kominike sa? Yon mesaj ki pale byen ak yon mache sib ka pa fè okenn efè sou yon lòt.
+
+### Sijè 4: Twazyèm ak katriyèm kesyon santral yo — Ki kote ak konbyen?
+Ki kote mache sib la ap vrèman wè mesaj sa a (ki kanal — rezo sosyal, piblisite lokal, bouch an bouch, elatriye), e ki bidjè ki reyalis ki disponib pou rive jwenn yo la? Yon plan maketing debaz reponn tout kat kesyon yo ansanm, menm nan yon fòm trè senp.
+
+---
+
+## Definisyon kle
+- **Plan maketing:** Yon plan pou kijan yon biznis ap rive jwenn mache sib li epi konvenk li achte, ki bati sou repons pou kiyès, ki mesaj, ki kote ak konbyen.
+- **Kanal maketing:** Yon mwayen oswa yon platfòm espesifik (tankou rezo sosyal, piblisite lokal oswa bouch an bouch) yo itilize pou rive jwenn yon mache sib.
+
+## Egzanp pratik
+[EGZANP ILISTRATIF] Plan maketing debaz yon boulanjri lokal: Kiyès — moun ki rete toupre a ki enterese nan pen ak patisri fre. Ki mesaj — kuit fre chak jou, fèt ak engredyan ki gen bon kalite. Ki kote — gwoup rezo sosyal lokal yo ak afich nan boutik la. Konbyen — yon bidjè modès chak mwa pou pwomosyon sou rezo sosyal.
+
+## Erè kouran
+- Kòmanse yon plan maketing san w pa reponn kesyon mache sib la an premye
+- Chwazi kanal maketing mache sib la pa vrèman itilize
+- Fikse yon bidjè san w pa konekte l ak gwosè ak pòte kanal ou chwazi yo bezwen
+
+## Kesyon moun poze souvan
+**K: Èske yon plan maketing bezwen konplike pou l efikas?**
+R: [OPINYON] Non — yon repons senp e klè pou kat kesyon debaz sa yo ka pi efikas anpil pase yon plan elabore ki bati sou yon mache sib oswa yon mesaj ki pa klè.
+
+**K: Èske yon ti biznis ki gen yon bidjè trè limite ka toujou gen yon plan maketing?**
+R: Wi — kesyon "konbyen" an tou senpleman reflete nenpòt bidjè ki disponib vrèman; yon plan maketing adapte l ak resous ou genyen, menm si yo trè modès.
+
+## Pwen kle yo
+- Yon plan maketing debaz reponn kiyès, ki mesaj, ki kote ak konbyen
+- Li bati dirèkteman sou lefèt ou gen yon mache sib ki byen defini an premye
+- Mesaj la ta dwe adapte espesyalman pou mache sib sa a
+- Chwa kanal ak bidjè yo ta dwe aliyen ak kote ou ka vrèman rive jwenn mache sib la
+
+## Egzèsis pratik
+Itilize kat kesyon santral leson sa a pou w ekri yon repons yon sèl fraz pou chak, pou yon ti biznis ipotetik ou chwazi.
+
+---
+
+## Gid ansèyman sokratik
+`BLUE-L1-032-SOCRATIC` (Nivo 1 — "Kisa")
+
+1. **Kesyon pou louvri:** Si w te oblije esplike yon plan maketing nan yon sèl fraz, kisa li ta ye?
+2. **Konsèp 1 — Fondasyon:** Ki kesyon santral ki dwe jwenn repons anvan tout lòt yo?
+3. **Kesyon swivi:** Poukisa sa konekte dirèkteman ak BLUE-L1-031?
+4. **Konsèp 2 — Mesaj:** Kisa kesyon "ki mesaj" la mande?
+5. **Kesyon swivi:** Poukisa menm pwodui a ta ka bezwen yon mesaj diferan pou diferan mache sib?
+6. **Konsèp 3 — Kanal:** Kisa "ki kote" vle di nan yon plan maketing?
+7. **Kesyon swivi:** Poukisa chwa kanal la depann de mache sib la?
+8. **Konsèp 4 — Bidjè:** Poukisa kesyon "konbyen" an enpòtan ansanm ak twa lòt yo?
+9. **Sentèz:** Pase nan tout kat kesyon yo pou yon biznis ou konnen.
+10. **Refleksyon:** Poukisa yon plan maketing trè senp ta ka pafwa bay pi bon rezilta pase yon plan konplike?
+
+## Evalyasyon konpetans
+`BLUE-L1-032-ASSESSMENT`
+
+1. (Chwa miltip) Nan fòm ki pi debaz li, yon plan maketing reponn: A) Sèlman kesyon sou pri B) Kiyès, ki mesaj, ki kote ak konbyen C) Sèlman kesyon legal D) Sèlman kesyon sou anbochaj
+2. (Chwa miltip) Ki kesyon ki dwe jwenn repons an premye? A) Konbyen B) Ki kote C) Kiyès (mache sib la) D) Ki mesaj
+3. (Vrè/Fo) Menm mesaj maketing lan mache menm jan pou chak mache sib.
+4. (Repons kout) Esplike poukisa chwazi kanal maketing yo depann de mache sib ki defini a.
+5. (Senaryo) Yon boulanjri vize moun ki rete toupre a. Ki kanal ki ta ka pi bon: yon piblisite televizyon nasyonal oswa gwoup rezo sosyal lokal yo? Poukisa?
+6. (Chwa miltip) Kisa "konbyen" vle di nan yon plan maketing debaz? A) Pri pwodui a B) Bidjè maketing ki disponib C) Kantite anplwaye D) Kantite kliyan
+7. (Vrè/Fo) Yon plan maketing dwe elabore e koute chè pou l efikas.
+8. (Repons kout) Poukisa yon plan maketing ki pa gen yon mache sib defini gen difikilte depi nan kòmansman?
+9. (Chwa miltip) Kiyès nan sa yo ki pi byen reprezante yon "kanal"? A) Yon estrateji pri B) Yon mwayen tankou rezo sosyal oswa piblisite lokal C) Yon estrikti legal D) Yon eta finansye
+10. (Refleksyon) Poukisa yon ti biznis ki gen yon bidjè limite ta ka toujou gen yon plan maketing ki efikas?
+
+## Kle repons yo
+`BLUE-L1-032-ANSWER-KEY`
+
+1. **Kòrèk:** B. **Eksplikasyon:** Sa di dirèkteman nan Sijè 1. **Konpetans yo teste:** Rapèl.
+2. **Kòrèk:** C. **Eksplikasyon:** Sa di nan Sijè 2. **Konpetans yo teste:** Rapèl.
+3. **Kòrèk:** Fo. **Eksplikasyon:** Sijè 3 note klèman efikasite mesaj la varye selon mache sib la. **Konpetans yo teste:** Korije yon move konsepsyon.
+4. **Kòrèk:** Diferan mache sib itilize diferan kanal, kidonk pou w rive jwenn moun yo byen, fòk chwa kanal ou aliyen ak kote mache sib la vrèman ye. **Konpetans yo teste:** Sentèz.
+5. **Kòrèk:** Gwoup rezo sosyal lokal yo — yo pi byen aliyen ak yon mache sib ki etwat sou plan jeyografik, jan egzanp pratik la montre. **Konpetans yo teste:** Rezonman aplike.
+6. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 4. **Konpetans yo teste:** Rapèl.
+7. **Kòrèk:** Fo. **Eksplikasyon:** Kesyon moun poze souvan yo di klèman senplisite ka bay pi bon rezilta pase konpleksite. **Konpetans yo teste:** Korije yon move konsepsyon.
+8. **Kòrèk:** San w pa konnen pou ki moun maketing lan ye, ou pa ka detèmine mesaj la, kanal yo ak bidjè a yon fason ki gen sans. **Konpetans yo teste:** Sentèz pwofon.
+9. **Kòrèk:** B. **Eksplikasyon:** Sa defini nan definisyon kle yo. **Konpetans yo teste:** Rapèl.
+10. **Kòrèk:** Repons yo ta dwe note plan an adapte l ak resous ki disponib — yon bidjè modès ka toujou itilize byen si li aliyen ak twa lòt kesyon yo. **Konpetans yo teste:** Sentèz pwofon.
+
+## Estanda konpetans
+`BLUE-L1-032-COMPETENCY`
+
+KONPETANS YO ANSEYE: Estrikti debaz yon plan maketing (kiyès, mesaj, ki kote, konbyen); depandans dirèk sou definisyon mache sib la.
+KONPETANS YO MEZIRE: Rapèl definisyon; sentèz ant leson yo; rezonman aplike sou senaryo.
+NÒT MINIMÒM POU METRIZ: 80%
+TACH PRATIK OBLIGATWA: Fè egzèsis pratik la (ti plan kat kesyon an).
+SIJÈ RATRAPAJ: Revize BLUE-L1-031 ankò si w rate K2, K4 oswa K8.
+PWOCHEN LESON DEBLOKE: BLUE-L1-033
+PAKOU KI GEN RAPÒ: ORANGE (Vant ak maketing) — devlopman plan maketing trete pi an pwofondè anpil nan nivo ki pi wo nan pakou ORANGE la.
+
+## Lekti anplis
+- BLUE-L1-031 — Kisa yon mache sib ye?
+- BLUE-L1-033 — Kisa yon mak ye, e kijan li diferan de yon logo?
+
+## Chemen leson an
+`BLUE-L1-032-LOCALIZATION` (blòk chemen)
+LESON ANVAN AN: BLUE-L1-031
+PWOCHEN LESON: BLUE-L1-033
+KONDISYON PREYALAB OBLIGATWA: BLUE-L1-031
+LESON REVIZYON OPSYONÈL: BLUE-L1-031
+LESON RATRAPAJ: BLUE-L1-031
+LESON KI GEN RAPÒ NAN LÒT PAKOU: Poko gen okenn ki pibliye nan ORANGE Nivo 1 (referans pou pita sèlman)
+KONDISYON POU FINI NIVO A: Fini tout leson BLUE-L1 yo (001–050) epi pase evalyasyon konpetans Nivo 1 an.
+
+## Blòk SEO
+`BLUE-L1-032-SEO`
+Tit SEO: Kisa yon plan maketing ye? Baz yo esplike | Edunancial
+Meta deskripsyon: Aprann kat kesyon santral yo — kiyès, ki mesaj, ki kote ak konbyen — ki dèyè nenpòt plan maketing debaz.
+Slug URL sijere: /courses/business/level-1/what-is-a-marketing-plan
+Mo kle prensipal: kisa yon plan maketing ye
+Mo kle segondè: kesyon plan maketing debaz, plan maketing pou ti biznis
+Lyen entèn sijere: BLUE-L1-031, BLUE-L1-033
+Referans ekstèn sijere: Resous jeneral pou alfabetizasyon sou maketing ti biznis
+Rekòmandasyon schema: Schema Course + LearningResource
+Entansyon rechèch: Enfòmasyonèl, nivo debitan
+Opòtinite pou "featured snippet": "Ki kesyon yon plan maketing debaz reponn?"
+Kesyon pou FAQ Schema: "Èske yon plan maketing bezwen konplike?"; "Èske yon ti biznis ka gen yon plan efikas ak yon bidjè limite?"
+
+## Blòk sipò IA
+`BLUE-L1-032-AI`
+Rezime IA: Divize yon plan maketing debaz an kat kesyon santral (kiyès, mesaj, ki kote, konbyen), ki bati dirèkteman sou konsèp mache sib BLUE-L1-031 la.
+Nòt ansèyman pou IA: Kenbe leson sa a sou baz fondamantal sèlman — devlopman plan maketing ki pi pwofon se pou pakou ORANGE la.
+
+## Blòk lokalizasyon
+`BLUE-L1-032-LOCALIZATION`
+Estati tradiksyon: tradiksyon an kreyòl ayisyen fini apati sous angle a.
+
+## Blòk referans ak verifikasyon
+`BLUE-L1-032-REFERENCES`
+Nou pa itilize okenn estatistik ni okenn sitasyon ekstèn. Tout egzanp yo make kòm EGZANP ILISTRATIF.

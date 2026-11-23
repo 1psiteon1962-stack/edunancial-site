@@ -1,0 +1,184 @@
+---
+id: BLUE-L1-022
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 22
+locale: ht
+title: "Kisa yon kont labank biznis ye, e poukisa pa jis itilize kont pèsonèl ou?"
+summary: "Esplike poukisa kenbe finans biznis ak finans pèsonèl apa enpòtan, pi lwen pase yon senp konfizyon nan kontablite."
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# BLUE-L1-022: "Kisa yon kont labank biznis ye, e poukisa pa jis itilize kont pèsonèl ou?"
+
+**Pakou:** BLUE (Biznis)
+**Nivo:** 1 — Konsyans ak alfabetizasyon
+**ID leson an:** BLUE-L1-022
+**Otè:** Waldemar M. Caban, JD MA
+**Tan estime:** 15–20 minit
+**Difikilte:** Debitan
+
+---
+
+## Rezime egzekitif
+`BLUE-L1-022-MAIN`
+Itilize yon kont labank pèsonèl pou lajan biznis ka sanble yon ti chemen kout ki pa fè pèsonn mal, men li kreye pwoblèm ki ale pi lwen pase yon senp konfizyon nan kenbe liv. Leson sa a esplike poukisa kenbe finans biznis ak finans pèsonèl apa enpòtan.
+
+## Objektif aprantisaj
+- Bay definisyon yon kont labank biznis ak objektif debaz li
+- Esplike poukisa melanje finans pèsonèl ak finans biznis kreye risk ki pi gwo pase dezòd
+- Konekte konsèp sa a ak pwoteksyon responsablite nou te wè nan BLUE-L1-004
+
+## Kondisyon preyalab
+BLUE-L1-004
+
+## Tan estime
+15–20 minit
+
+## Difikilte
+Debitan (Nivo 1)
+
+---
+
+## Kontni prensipal
+
+### Sijè 1: Kisa yon kont labank biznis ye
+Yon kont labank biznis se yon kont ki nan non biznis la, yo itilize sèlman pou revni ak depans biznis la, apa de kont pèsonèl mèt la.
+
+### Sijè 2: Rezon ki evidan an — klète nan kenbe liv
+Kenbe kont yo apa fè li pi fasil anpil pou swiv revni, depans ak pwofi biznis la — yon kont ki melanje mande pou w triye chak tranzaksyon ak men pou w konnen kiyès ki te vrèman pou biznis la.
+
+### Sijè 3: Rezon ki mwens evidan an — pwoteksyon responsablite
+Sonje nan BLUE-L1-004 ke pwoteksyon responsablite yon LLC oswa yon kòporasyon ka febli si w "melanje" lajan pèsonèl ak lajan biznis (commingling). Melanje kont yo regilyèman se youn nan fason ki pi klè yon mèt ka san fè espre febli oswa pèdi separasyon legal sa a, menm si biznis la byen òganize sou papye.
+
+### Sijè 4: Lòt rezon pratik
+[EGZANP ILISTRATIF] Yon kont biznis apa fè preparasyon taks yo pi senp tou, li bay yon imaj ki pi serye e pi pwofesyonèl bay kliyan ak founisè k ap resevwa peman oswa k ap ekri chèk, e li kreye yon dosye pwòp si biznis la ta janm sibi yon odit oswa si li bezwen montre istwa finansye li pou yon prè.
+
+---
+
+## Definisyon kle
+- **Kont labank biznis:** Yon kont ki nan non yon biznis, yo itilize sèlman pou revni ak depans biznis la.
+- **Melanj lajan (commingling):** Lè w melanje lajan pèsonèl ak lajan biznis, sa ki ka febli pwoteksyon responsablite a epi konplike kenbe liv yo.
+
+## Egzanp pratik
+[EGZANP ILISTRATIF] Mèt yon LLC peye ni pwovizyon manje li ni founiti biznis la ak menm kont pèsonèl la pandan yon ane. Lè biznis la jwenn yon pwosè pita, tribinal la jwenn mèt la pa t kenbe yon vrè separasyon ant finans pèsonèl li ak finans biznis la, sa ki febli plak pwoteksyon responsablite LLC a nan ka sa a.
+
+## Erè kouran
+- Kwè fòme yon LLC oswa yon kòporasyon pou kont li ase, san w pa kenbe finans yo apa tou
+- Itilize "move" kont lan detanzantan pou fasilite w, epi panse sa p ap gen enpòtans
+- Pa konprann konbyen tan kont apa ekonomize pandan sezon taks
+
+## Kesyon moun poze souvan
+**K: Èske lalwa egzije yon kont labank biznis?**
+R: [RÈG ESPESIFIK POU PEYI A] Lalwa pa toujou egzije l klèman pou chak estrikti, men li gen yon gwo lyen ak kenbe pwoteksyon responsablite pou LLC ak kòporasyon, e yo konsidere l lajman kòm yon pi bon pratik kèlkeswa estrikti a.
+
+**K: Èske yon pwopriyetè endividyèl bezwen yon kont apa tou?**
+R: [OPINYON] Menm san yon rezon pwoteksyon responsablite (paske antrepriz endividyèl pa ofri okenn kanmenm, jan BLUE-L1-003 esplike), yon kont apa toujou bay vrè benefis pou kenbe liv ak pou pwofesyonalis.
+
+## Pwen kle yo
+- Yon kont labank biznis kenbe revni ak depans biznis la apa de finans pèsonèl yo
+- Sa bay klète nan kenbe liv, pi lwen pase yon senp fasilite
+- Pou LLC ak kòporasyon, li ede tou prezève pwoteksyon responsablite a lè w evite melanje lajan
+- Menm pwopriyetè endividyèl jwenn benefis òganizasyon ak pwofesyonalis yo
+
+## Egzèsis pratik
+Esplike, avèk referans a BLUE-L1-004, poukisa melanje lajan ta ka espesyalman febli pwoteksyon responsablite yon LLC.
+
+---
+
+## Gid ansèyman sokratik
+`BLUE-L1-022-SOCRATIC` (Nivo 1 — "Kisa")
+
+1. **Kesyon pou louvri:** Ki rezon ki pi senp pou kenbe lajan biznis ak lajan pèsonèl apa?
+2. **Konsèp 1 — Definisyon:** Kisa ki defini yon kont labank biznis?
+3. **Kesyon swivi:** Kijan li diferan de yon kont pèsonèl yo itilize pou zafè biznis?
+4. **Konsèp 2 — Kenbe liv:** Poukisa separasyon an fè li pi fasil pou swiv revni ak depans?
+5. **Kesyon swivi:** Kisa w ta dwe fè pou triye tranzaksyon yon kont ki melanje?
+6. **Konsèp 3 — Lyen ak responsablite:** Kijan melanje lajan konekte ak sa w te aprann sou pwoteksyon responsablite LLC?
+7. **Kesyon swivi:** Èske yon LLC ki byen fòme ta ka toujou pèdi pwoteksyon li lè l melanje lajan?
+8. **Konsèp 4 — Lòt benefis:** Bay de lòt benefis pratik yon kont biznis apa.
+9. **Sentèz:** Poukisa menm yon pwopriyetè endividyèl, ki pa gen okenn pwoteksyon responsablite pou l pèdi, ta ka toujou vle yon kont apa?
+10. **Refleksyon:** Poukisa ou panse melanje lajan se yon erè ki tèlman kouran, menm pami mèt ki konprann pwoteksyon responsablite nan teyori?
+
+## Evalyasyon konpetans
+`BLUE-L1-022-ASSESSMENT`
+
+1. (Chwa miltip) Yo itilize yon kont labank biznis: A) Pou nenpòt objektif mèt la chwazi B) Sèlman pou revni ak depans biznis C) Sèlman pou peye taks D) Sèlman pa kòporasyon
+2. (Vrè/Fo) Melanje finans pèsonèl ak finans biznis se sèlman yon ti difikilte nan kenbe liv, san okenn konsekans legal.
+3. (Chwa miltip) Kisa "melanj lajan" (commingling) ye? A) Yon kalite prè biznis B) Melanje lajan pèsonèl ak lajan biznis C) Yon estati deklarasyon taks D) Yon kalite asirans
+4. (Repons kout) Esplike kijan melanje lajan ta ka febli pwoteksyon responsablite yon LLC.
+5. (Senaryo) Mèt yon LLC itilize yon sèl kont pou ni pwovizyon manje pèsonèl ni founiti biznis pandan yon ane, epi apre sa li jwenn yon pwosè. Ki risk sa kreye?
+6. (Chwa miltip) Kiyès nan sa yo ki PA nan lis benefis yon kont biznis apa? A) Kenbe liv pi fasil B) Prezève pwoteksyon responsablite C) Pwofi garanti D) Imaj ki pi pwofesyonèl
+7. (Vrè/Fo) Lalwa toujou egzije yon kont labank biznis klèman, kèlkeswa estrikti biznis la.
+8. (Repons kout) Poukisa menm yon pwopriyetè endividyèl ta ka jwenn benefis nan yon kont apa, malgre li pa gen okenn pwoteksyon responsablite pou l pèdi?
+9. (Chwa miltip) Kisa yon kont pwòp e apa ede montre moun ki bay prè? A) Anyen ki enpòtan B) Istwa finansye ak kredibilite C) Estati egzanpsyon taks D) Iminite legal
+10. (Refleksyon) Poukisa li pa ase pou w jis fòme yon LLC oswa yon kòporasyon san w pa kenbe separasyon finansye tou?
+
+## Kle repons yo
+`BLUE-L1-022-ANSWER-KEY`
+
+1. **Kòrèk:** B. **Eksplikasyon:** Sa di dirèkteman nan Sijè 1. **Konpetans yo teste:** Rapèl.
+2. **Kòrèk:** Fo. **Eksplikasyon:** Sijè 3 esplike risk pou pwoteksyon responsablite a. **Konpetans yo teste:** Korije yon move konsepsyon.
+3. **Kòrèk:** B. **Eksplikasyon:** Sa defini nan definisyon kle yo. **Konpetans yo teste:** Rapèl.
+4. **Kòrèk:** Repons lan ta dwe mansyone melanje lajan se youn nan fason tribinal yo ka jwenn separasyon legal ant mèt la ak biznis la pa t vrèman kenbe. **Konpetans yo teste:** Sentèz ant leson yo.
+5. **Kòrèk:** Tribinal la ka jwenn separasyon an pa t ase, sa ki febli plak pwoteksyon responsablite LLC a, jan egzanp pratik la montre. **Konpetans yo teste:** Rezonman aplike.
+6. **Kòrèk:** C. **Eksplikasyon:** Pwofi garanti pa nan lis benefis yo. **Konpetans yo teste:** Rapèl.
+7. **Kòrèk:** Fo. **Eksplikasyon:** Kesyon moun poze souvan yo note lalwa pa toujou egzije l klèman, menm si yo rekòmande l fòtman. **Konpetans yo teste:** Korije yon move konsepsyon.
+8. **Kòrèk:** Benefis klète nan kenbe liv ak imaj pwofesyonèl, jan kesyon moun poze souvan yo di. **Konpetans yo teste:** Rezonman aplike.
+9. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 4. **Konpetans yo teste:** Rapèl.
+10. **Kòrèk:** Repons yo ta dwe mansyone estrikti legal la pa kenbe tèt li pou kont li — fòk gen bon konpòtman finansye k ap kontinye (tankou evite melanje lajan) pou prezève pwoteksyon an. **Konpetans yo teste:** Sentèz pwofon.
+
+## Estanda konpetans
+`BLUE-L1-022-COMPETENCY`
+
+KONPETANS YO ANSEYE: Objektif yon kont labank biznis; risk melanje lajan; lyen ak pwoteksyon responsablite LLC ak kòporasyon; benefis pou tout estrikti biznis.
+KONPETANS YO MEZIRE: Rapèl definisyon; sentèz ant leson yo; rezonman aplike sou risk.
+NÒT MINIMÒM POU METRIZ: 80%
+TACH PRATIK OBLIGATWA: Fè egzèsis pratik la.
+SIJÈ RATRAPAJ: Revize BLUE-L1-004 ankò si w rate K3, K4 oswa K5.
+PWOCHEN LESON DEBLOKE: BLUE-L1-023
+PAKOU KI GEN RAPÒ: PURPLE (Lalwa) — "pèse vwal kòporatif la" trete plis nan nivo ki pi wo nan pakou PURPLE la.
+
+## Lekti anplis
+- BLUE-L1-004 — Kisa yon LLC ye?
+- BLUE-L1-023 — Kisa kenbe liv ye, e poukisa fè l menm lè biznis la lan?
+
+## Chemen leson an
+`BLUE-L1-022-LOCALIZATION` (blòk chemen)
+LESON ANVAN AN: BLUE-L1-021
+PWOCHEN LESON: BLUE-L1-023
+KONDISYON PREYALAB OBLIGATWA: BLUE-L1-004
+LESON REVIZYON OPSYONÈL: BLUE-L1-004
+LESON RATRAPAJ: BLUE-L1-004
+LESON KI GEN RAPÒ NAN LÒT PAKOU: Poko gen okenn ki pibliye nan PURPLE Nivo 1 (referans pou pita sèlman)
+KONDISYON POU FINI NIVO A: Fini tout leson BLUE-L1 yo (001–050) epi pase evalyasyon konpetans Nivo 1 an.
+
+## Blòk SEO
+`BLUE-L1-022-SEO`
+Tit SEO: Poukisa w bezwen yon kont labank biznis apa | Edunancial
+Meta deskripsyon: Aprann poukisa melanje finans pèsonèl ak finans biznis riske plis pase konfizyon — sa gen ladan pwoteksyon responsablite w.
+Slug URL sijere: /courses/business/level-1/business-bank-account
+Mo kle prensipal: poukisa m bezwen yon kont labank biznis
+Mo kle segondè: risk melanje lajan, pwoteksyon responsablite llc labank
+Lyen entèn sijere: BLUE-L1-004, BLUE-L1-023
+Referans ekstèn sijere: Resous jeneral pou alfabetizasyon kontablite ti biznis
+Rekòmandasyon schema: Schema Course + LearningResource
+Entansyon rechèch: Enfòmasyonèl, nivo debitan
+Opòtinite pou "featured snippet": "Poukisa m pa ta dwe itilize kont pèsonèl mwen pou biznis?"
+Kesyon pou FAQ Schema: "Èske lalwa egzije yon kont labank biznis?"; "Èske pwopriyetè endividyèl bezwen youn tou?"
+
+## Blòk sipò IA
+`BLUE-L1-022-AI`
+Rezime IA: Esplike poukisa separe kont labank biznis ak kont pèsonèl enpòtan pi lwen pase kenbe liv — li konekte dirèkteman risk melanje lajan ak pwoteksyon responsablite LLC nou te wè nan BLUE-L1-004.
+Nòt ansèyman pou IA: Ranfòse lyen ak BLUE-L1-004 kòm rezon santral "ki mwens evidan" nan leson sa a.
+
+## Blòk lokalizasyon
+`BLUE-L1-022-LOCALIZATION`
+Estati tradiksyon: tradiksyon an kreyòl ayisyen fini apati sous angle a.
+
+## Blòk referans ak verifikasyon
+`BLUE-L1-022-REFERENCES`
+Nou pa itilize okenn estatistik ni okenn sitasyon ekstèn. Deklarasyon sou kondisyon legal yo make kòm RÈG ESPESIFIK POU PEYI A.

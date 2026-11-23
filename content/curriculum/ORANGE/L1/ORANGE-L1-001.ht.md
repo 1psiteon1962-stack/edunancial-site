@@ -14,7 +14,9 @@ date: "2026-08-09"
 
 # Kisa vant ye, toutbon?
 
-## Objektif aprantisaj Nan fen leson sa a, w ap kapab:
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
 
 - Bay definisyon vant an mo senp, san estereyotip negatif yo mare ak li
 - Esplike poukisa chak biznis, chak travay, ak chak lide depann de yon moun ki konvenk de yon bagay
