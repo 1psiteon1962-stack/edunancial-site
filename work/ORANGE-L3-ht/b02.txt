@@ -1,0 +1,49 @@
+===== ORANGE-L3-006
+TITLE: Poukisa valè sou tout lavi yon kliyan depann de kenbe l, pa sèlman jwenn li
+SUMMARY: Aprann poukisa fè revni grandi lè w jwenn nouvo kliyan se sèlman mwatye tablo a, ak poukisa yon bokit kenbe kliyan ki koule ka detwi menm yon maketing ekselan pou jwenn kliyan.
+# ORANGE-L3-006: Poukisa valè sou tout lavi yon kliyan depann de kenbe l, pa sèlman jwenn li
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa valè sou tout lavi yon kliyan depann otan de kenbe l ke de jwenn li
+- Esplike poukisa yon maketing fò pou jwenn kliyan ka kache yon pwoblèm pou kenbe yo
+- Konekte konsèp sa a ak rapò CAC sou LTV yo kouvri nan tras BLUE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras BLUE kourikoulòm sa a te etabli ke yo dwe konpare CAC ak LTV ansanm, paske yon LTV ki ase wo ka toujou jistifye yon CAC ki wo. Men "poukisa" LTV li menm depann anpil de kenbe kliyan, pa sèlman de konbyen yon kliyan depanse pou chak tranzaksyon: yon kliyan ki rete pandan plizyè ane, ki achte plizyè fwa, bay yon valè sou tout lavi li pi gwo anpil pase youn ki fè yon sèl acha e ki pa janm tounen — sa ki vle di to kenbe kliyan yon biznis ap fè pi fò travay ki dèyè nenpòt chif LTV ki finalman jistifye depans li fè pou jwenn kliyan.
+
+Se poutèt sa yon biznis ki gen yon gwo kwasans nan nouvo kliyan ka toujou nan vrè pwoblèm si to kenbe kliyan li ap bese an silans: chif pou jwenn kliyan yo sanble enpresyonan sou yon tablo bò, alòske sipozisyon LTV debaz ki te jistifye depans pou jwenn kliyan yo okòmansman ap febli, sa ki ka kase rapò CAC sou LTV biznis lan depann de li a san pèsonn pa remake jiskaske efè a parèt nan revni jeneral la pi ta anpil.
+
+Kisa ou ta vle swiv, pi lwen pase kantite nouvo kliyan, pou w konnen si depans ou fè pou jwenn kliyan vrèman dirab? Konsidere kisa yon CAC k ap monte ansanm ak yon to kenbe kliyan k ap bese an silans ta vle di pou rapò biznis sa a depann de li a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis selebre yon gwo kwasans mwa apre mwa nan nouvo kliyan, gras a yon kanpay agresif pou jwenn kliyan. [SIPOZISYON] Anba kwasans sa a, to kenbe kliyan li te ap bese an silans pandan de trimès, sa ki vle di vrè valè sou tout lavi pou chak kliyan pi ba pase chif yo te itilize okòmansman pou jistifye depans pou jwenn kliyan yo — rapò CAC sou LTV tras BLUE la vin pi mal an silans, menm si tablo bò kwasans lan sanble nèt pozitif, sa ki montre poukisa yo bezwen swiv kenbe kliyan ansanm ak jwenn kliyan, pa trete l kòm yon mezi separe, segondè.
+
+## Egzamen pratik
+
+1. Poukisa valè sou tout lavi yon kliyan depann anpil de kenbe l, pa sèlman de jwenn li?
+2. Poukisa yon gwo kwasans nan nouvo kliyan ka kache yon vrè pwoblèm debaz?
+3. Kijan leson sa a konekte ak rapò CAC sou LTV yo kouvri nan tras BLUE la?
+
+## Kle repons yo
+
+1. Paske yon kliyan ki rete e ki achte plizyè fwa bay yon valè sou tout lavi li pi gwo anpil pase youn ki fè yon sèl acha, kidonk kenbe kliyan detèmine pi fò nan chif LTV a.
+2. Paske yon kantite kliyan k ap monte ka sanble yon siksè sou yon tablo bò alòske kenbe kliyan, e kidonk vrè LTV a, ap febli an silans anba li.
+3. Yon to kenbe kliyan k ap bese ka fè rapò CAC sou LTV a vin pi mal an silans, sa ki kase jistifikasyon pou depans pou jwenn kliyan menm lè mezi kwasans sou sifas yo sanble fò.
+
+## Repons ak eksplikasyon
+
+1. Sa a se mekanis santral leson an bati sou li.
+2. Sa a se risk pratik leson an mete an evidans.
+3. Sa konekte leson an klèman ak kad CAC-LTV tras BLUE la.
+
+## Pwen kle yo
+- Valè sou tout lavi yon kliyan depann anpil de kenbe l, paske kliyan ki tounen bay plis valè anpil pase achtè ki achte yon sèl fwa.
+- Yon gwo kwasans nan jwenn kliyan ka kache yon to kenbe kliyan k ap bese ki ap detwi vrè ekonomi biznis lan an silans.
+- Yo ta dwe swiv kenbe kliyan ansanm ak jwenn kliyan, paske tou de ansanm detèmine si rapò CAC sou LTV a vrèman kenbe ak tan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*

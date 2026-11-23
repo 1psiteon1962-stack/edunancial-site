@@ -147,3 +147,103 @@ Kisa ou ta vle konnen anvan w angaje w nan yon gwo nouvo desizyon depans ki baze
 ---
 
 *Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*
+
+===== ORANGE-L3-004
+TITLE: Poukisa mak ak repitasyon se byen ki pi difisil pou konvèti an lajan nan yon biznis
+SUMMARY: Aprann poukisa valè yon mak, menm si li reyèl, pa ka konvèti an lajan kach vit ni verifye fasil, ak poukisa sa fè l vilnerab yon fason inik a yon sèl move evènman.
+# ORANGE-L3-004: Poukisa mak ak repitasyon se byen ki pi difisil pou konvèti an lajan nan yon biznis
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa mak ak repitasyon fonksyone kòm yon vrè byen biznis
+- Konekte konsèp sa a ak diskisyon sou bon non (goodwill) yo kouvri nan tras BLUE kourikoulòm sa a
+- Esplike poukisa byen espesifik sa a vilnerab yon fason ki pa nòmal a yon pèt rapid, ki difisil pou ranvèse
+
+## Kontni prensipal
+
+Yon mak ak yon repitasyon ki fò vrèman kontribye nan valè yon biznis — sa ki konekte dirèkteman ak konsèp bon non (goodwill) yo kouvri nan tras BLUE la, kote yon achtè souvan peye byen lwen pase valè byen yon biznis espesyalman pou relasyon li ak kliyan ak repitasyon li. Men "poukisa" byen patikilye sa a konpòte l yon lòt jan pase pifò lòt sou yon bilan: li pran plizyè ane pou bati, li bay yon vrè valè kontinyèl, men ou pa ka vann li, prete sou li, oswa konvèti l an lajan kach vit jan ou ka fè ak envantè oswa ekipman — e kontrèman ak byen konkrè sa yo, yon sèl evènman ka fè l gwo domaj, vit, nan yon fason ki souvan pi difisil anpil e pi dousman pou rebati pase sa li te pran pou konstwi l okòmansman.
+
+Asimetri sa a — dousman pou bati, vit pou pèdi — se poukisa risk repitasyon merite menm atansyon jesyon risk fè espre ak nenpòt risk finansye yo kouvri lòt kote nan kourikoulòm sa a, pa yon bagay yo panse a apre sèlman, yo jere l sèlman yon fason reyaktif apre yon kriz fin rive.
+
+Kisa yon gwo evènman repitasyon ta vrèman koute biznis espesifik ou, pi lwen pase repons relasyon piblik imedya a? Reflechi sou kenbe kliyan, moral anplwaye yo, konfyans ekip lavant lan, ak kijan yon prètè oswa yon envestisè ta ka reevalye valè biznis lan si bon non li te diminye yon fason vizib.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis bati yon repitasyon fò pandan yon dizèn ane, sa ki kontribye anpil nan lwayote kliyan li ak valè vant li finalman, sa ki reflete konsèp bon non tras BLUE la. [SIPOZISYON] Yon sèl ensidan piblik yo jere mal fè repitasyon sa a domaj nan kèk jou — konfyans kliyan yo diminye pi vit pase jan li te bati, kèk relasyon long tèm pèdi, e si yo t ap evalye biznis lan pou yon vant yon ti tan apre, yo ta ka evalye pati bon non li a pi ba anpil pase sa li te ye jis kèk mwa anvan, sa ki montre asimetri ant konbyen dousman byen sa a bati ak konbyen vit li ka pran domaj.
+
+## Egzamen pratik
+
+1. Poukisa mak ak repitasyon fonksyone kòm yon vrè byen biznis, an lyen ak tras BLUE la?
+2. Kisa ki fè byen sa a konpòte l yon lòt jan pase byen konkrè tankou envantè oswa ekipman?
+3. Ki "asimetri" leson sa a dekri konsènan mak ak repitasyon?
+
+## Kle repons yo
+
+1. Paske li kontribye yon vrè valè kontinyèl nan biznis lan, menm jan ak bon non yon achtè peye pou li nan yon akizisyon.
+2. Ou pa ka konvèti l an lajan kach vit ni prete sou li, kontrèman ak byen konkrè, e yon sèl evènman ka fè l gwo domaj pi vit anpil pase jan li te bati.
+3. Li pran plizyè ane pou bati dousman men yon sèl evènman ka fè l gwo domaj trè vit, sa ki fè l vilnerab yon fason inik konpare ak pifò lòt byen biznis.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte leson an dirèkteman ak konsèp bon non tras BLUE la.
+2. Sa a se karakteristik santral ki fè diferans leson an mete an evidans.
+3. Sa a se "poukisa" santral tit leson an bati sou li.
+
+## Pwen kle yo
+- Mak ak repitasyon fonksyone kòm yon vrè byen biznis, ki konekte dirèkteman ak konsèp bon non yo kouvri lòt kote nan kourikoulòm sa a.
+- Kontrèman ak byen konkrè, ou pa ka konvèti byen sa a an lajan vit men li ka pran gwo domaj vit.
+- Asimetri sa a jistifye yon jesyon risk repitasyon fè espre, proaktif, pa sèlman yon repons reyaktif a yon kriz.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*
+
+===== ORANGE-L3-005
+TITLE: Poukisa depans maketing se yon envestisman, pa yon depans
+SUMMARY: Aprann poukisa trete depans maketing menm jan ou ta evalye nenpòt lòt envestisman, ak yon jijman ajiste pou risk, bay pi bon desizyon pase trete l kòm yon kou fiks pou diminye.
+# ORANGE-L3-005: Poukisa depans maketing se yon envestisman, pa yon depans
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa li pi bon pou evalye depans maketing kòm yon envestisman olye yon depans fiks
+- Konekte konsèp sa a ak kad jijman ajiste pou risk yo kouvri nan tras GOLD kourikoulòm sa a
+- Esplike kou opòtinite yon dola maketing yo depanse mal
+
+## Kontni prensipal
+
+Kontablite souvan trete depans maketing kòm yon depans fonksyònman — lajan ki soti e ki ale. Men "poukisa" fason sa a pou wè l pa montre sa depans maketing vrèman ye: yon dola maketing se yon desizyon pou separe kapital, ki fè konkirans pou menm resous limite ak nenpòt lòt envestisman yon biznis ta ka fè — anbochaj, envantè, ekipman, oswa peye dèt. Lè w evalye l konsa, kesyon an pa sèlman "èske kanpay sa a te depanse bidjè li" men "èske se te pi bon fason pou itilize dola sa a, konpare ak chak lòt kote li te ka ale, ajiste pou risk pou l pa mache" — sa ki aplike dirèkteman kad jijman ajiste pou risk yo kouvri nan tout tras GOLD la.
+
+Nouvo fason sa a pou wè l enpòtan paske yon bidjè maketing yo evalye sèlman konpare ak pwòp depans li anvan ("nou te depanse 10% plis e nou jwenn 8% plis kliyan potansyèl, sa bon") rate kou opòtinite (tras GOLD) sa menm kapital sa a te ka touche lòt kote nan biznis lan — yon evalyasyon ki vrèman jis mande si rannman depans maketing lan, ajiste pou pwòp ensètitid li, te bat altènativ reyalis yo.
+
+Anvan w angaje w nan yon gwo nouvo depans maketing, kisa ankò menm kapital sa a te ka fè pou biznis lan? Kisa ou ta bezwen kwè sou rannman depans maketing lan gen chans bay pou l vrèman se pi bon chwa a?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis konsidere yon gwo ogmantasyon nan depans piblisite, li jistifye l anndan konpayi an lè l konpare l sèlman ak bidjè ane pase a ki te pi piti ak yon rezilta yon ti jan pi wo. [SIPOZISYON] Lè ekip la aplike pito kad ajiste pou risk tras GOLD la, li konpare desizyon depans sa a ak altènativ reyalis pou itilize menm kapital sa a pou peye yon dèt ki gen gwo enterè oswa pou finanse devlopman pwodui ki gen rannman pi sèten — yon konparezon fason senp ane-pa-ane a pa t janm vrèman fè, sa ki montre ke depans maketing lan, menm si li pa t san rezon, pa t klèman pi bon fason pou itilize kapital sa a depi yo te konsidere vrè altènativ yo.
+
+## Egzamen pratik
+
+1. Poukisa li pi bon pou konprann depans maketing kòm yon envestisman olye yon depans fiks?
+2. Kijan leson sa a aplike kad jijman ajiste pou risk tras GOLD la?
+3. Ki kesyon yo ta dwe poze anvan yo angaje anpil kapital nan yon ogmantasyon depans maketing?
+
+## Kle repons yo
+
+1. Paske li fè konkirans pou menm kapital limite ak nenpòt lòt envestisman biznis, e yo ta dwe evalye l selon vrè rannman li konpare ak altènativ, pa sèlman konpare ak pwòp depans li anvan.
+2. Lè l mande si rannman depans maketing lan, ajiste pou ensètitid, bat itilizasyon altènatif reyalis menm kapital sa a, olye evalye l poukont li.
+3. Kisa ankò kapital sa a te ka fè pou biznis lan, e kisa ki ta bezwen vre sou rannman depans maketing lan pou l vrèman se pi bon chwa a pami altènativ yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se nouvo fason pou wè bagay yo santral leson an bati sou li.
+2. Sa konekte leson an klèman ak konsèp jijman ajiste pou risk tras GOLD la.
+3. Sa a fè espre ouvè, li mande elèv la aplike kad kou opòtinite a li menm.
+
+## Pwen kle yo
+- Depans maketing se yon desizyon pou separe kapital ki fè konkirans ak chak lòt fason pou itilize lajan sa a, pa yon depans fiks pou senpleman diminye oswa ogmante.
+- Konpare depans lan sèlman ak pwòp ane anvan li rate vrè kesyon kou opòtinite a.
+- Aplike yon jijman ajiste pou risk sou depans maketing, menm jan tras GOLD la aplike l sou envestisman, bay yon evalyasyon ki pi onèt.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*
