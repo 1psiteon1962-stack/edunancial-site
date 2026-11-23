@@ -1,0 +1,315 @@
+===== GREEN-L1-030
+TITLE: Contratista independiente frente a empleado: el lado del dueño del negocio
+SUMMARY: Retoma la distinción entre empleado y contratista desde el punto de vista del dueño del negocio, con énfasis en por qué la clasificación errónea es un riesgo grave.
+# Contratista independiente frente a empleado: el lado del dueño del negocio
+
+## Objetivos de aprendizaje
+- Explicar por qué las decisiones de clasificación le importan al negocio, no solo al trabajador.
+- Identificar el riesgo general de la clasificación errónea.
+- Relacionar esta lección con la lección anterior sobre el W-2 y el 1099.
+
+## Contenido principal
+
+Antes, esta ruta vio la distinción entre empleado y contratista desde el lado del trabajador. Ahora considere el lado del dueño del negocio: la forma en que se clasifica a un trabajador determina si el negocio debe el impuesto sobre la nómina, si tiene que retener el impuesto sobre la renta y si asume otras obligaciones propias del patrono. Clasificar como contratista a un trabajador al que legalmente debería tratarse como empleado se llama clasificación errónea, y es un riesgo grave para un negocio, no un atajo inofensivo de papeleo.
+
+La tentación de clasificar erróneamente es comprensible: tratar a todos como contratistas evita las obligaciones y el papeleo del impuesto sobre la nómina. Pero la clasificación no es algo que el negocio pueda escoger libremente: en general depende de factores reales, como cuánto control ejerce el negocio sobre cómo, cuándo y dónde se hace el trabajo. Si una autoridad tributaria determina más adelante que un trabajador estaba mal clasificado, el negocio puede enfrentar impuestos atrasados, penalidades e intereses, a veces por varios trabajadores durante varios años. Este es exactamente el tipo de riesgo que se conecta directamente con la analogía del médico: una consulta rápida con un profesional calificado antes de tomar decisiones de clasificación a gran escala es mucho más barata que las posibles consecuencias.
+
+## Ejemplo práctico
+
+**Pregunta:** La dueña de un negocio en crecimiento clasifica como contratistas a sus diez trabajadores nuevos para evitar el papeleo del impuesto sobre la nómina, aunque ella fija sus horarios y supervisa de cerca su trabajo. ¿Qué riesgo está asumiendo?
+
+**Estudiante:** Según esta lección, se arriesga a una clasificación errónea, porque el nivel de control que se describe se parece más a una relación de empleo.
+
+**Guía:** ¿Qué podría pasar si una autoridad tributaria más adelante no está de acuerdo con su clasificación?
+
+**Estudiante:** Podría deber impuestos atrasados, penalidades e intereses, posiblemente por los diez trabajadores y por todos los años que haya durado la clasificación errónea.
+
+**Guía:** Exactamente, y por eso este es un caso en el que pedir asesoría desde el principio es mucho más barato que corregirlo después.
+
+## Prueba práctica
+
+**Pregunta 1.** La clasificación de un trabajador determina, entre otras cosas:
+
+A) Nada relevante para el negocio
+B) Si el negocio tiene obligaciones de impuesto sobre la nómina y de retención
+C) Solo el título del puesto del trabajador
+D) Solo los días de vacaciones del trabajador
+
+**Pregunta 2.** La clasificación errónea se refiere a:
+
+A) Una decisión de papeleo inofensiva
+B) Clasificar de forma incorrecta como contratista a un trabajador que legalmente debería ser empleado
+C) Pagarle demasiado a un trabajador
+D) Un tipo de crédito tributario
+
+**Pregunta 3.** En general, la clasificación depende de:
+
+A) Solo la libre preferencia del negocio
+B) Factores reales, como el nivel de control sobre cómo, cuándo y dónde se hace el trabajo
+C) Solo la edad del trabajador
+D) Una asignación al azar
+
+**Pregunta 4.** ¿Cuál es una consecuencia realista de una clasificación errónea si se descubre más adelante?
+
+A) Nada
+B) Impuestos atrasados, penalidades e intereses, posiblemente por varios trabajadores y varios años
+C) Un reembolso automático
+D) Un crédito tributario
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La clasificación no es solo una etiqueta: activa obligaciones reales y continuas para el negocio.
+
+**2.** La clasificación errónea significa tratar una relación que legalmente se parece a un empleo como una relación con un contratista, a menudo para eludir las obligaciones del patrono.
+
+**3.** El control sobre el trabajo (el horario, la supervisión, los métodos) es un factor clave que examinan las autoridades tributarias, y no solo cómo llama el negocio al acuerdo.
+
+**4.** Como el riesgo se acumula por trabajadores y por años, esta es un área de mucho en juego que conviene hacer bien desde el principio.
+
+## Puntos clave
+
+- La clasificación de los trabajadores determina obligaciones tributarias reales y continuas para el negocio.
+- La clasificación errónea es un riesgo legal y financiero grave, no un atajo inofensivo.
+- La clasificación depende de factores reales, sobre todo del grado de control sobre el trabajo, y no solo de la preferencia del negocio.
+- Recibir orientación profesional desde el principio es mucho más barato que el posible costo de que más adelante se determine una clasificación errónea.
+
+===== GREEN-L1-031
+TITLE: Las ganancias de capital: impuestos sobre la ganancia de las inversiones
+SUMMARY: Presenta el concepto de las ganancias de capital (la ganancia de vender un activo por más de su precio de compra) y en qué se diferencian del ingreso ordinario.
+# Las ganancias de capital: impuestos sobre la ganancia de las inversiones
+
+## Objetivos de aprendizaje
+- Definir una ganancia de capital en términos sencillos.
+- Explicar el cálculo básico de una ganancia de capital.
+- Reconocer por qué las ganancias solo se realizan (y normalmente solo tributan) al vender, y no mientras simplemente se tiene un activo.
+
+## Contenido principal
+
+Una ganancia de capital es la ganancia que se obtiene al vender un activo (como una acción o un bien inmueble) por más de lo que se pagó por él. El cálculo básico es sencillo: el precio de venta menos el precio de compra (a menudo llamado «base») es igual a la ganancia. Si el activo se vendió por menos que su base, se trata, en cambio, de una pérdida de capital.
+
+Un matiz importante: en la mayoría de los sistemas, una ganancia solo se «realiza», y en general solo tributa, cuando el activo se vende realmente. Si el valor de una acción se duplica pero usted nunca la vende, en general todavía no debe impuesto sobre las ganancias de capital por ese aumento: es una ganancia no realizada, o «en papel». Esta distinción importa para planificar las inversiones, porque vender un activo que se ha valorizado suele ser una decisión deliberada, cuyo momento se puede escoger y que tiene consecuencias tributarias, y no algo que ocurre automáticamente solo porque el valor del activo subió.
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista compra una acción por $1,000. Dos años después vale $3,000, pero no la ha vendido. ¿Debe ahora mismo el impuesto sobre las ganancias de capital?
+
+**Estudiante:** Según esta lección, probablemente todavía no, porque la ganancia no se ha realizado mediante una venta.
+
+**Guía:** ¿Qué activaría el impuesto y cómo se calcularía si vendiera a $3,000?
+
+**Estudiante:** La venta lo activaría: la ganancia sería $3,000 menos su base de $1,000, es decir, una ganancia de capital de $2,000.
+
+**Guía:** Exactamente, y ese momento es algo sobre lo que ella tiene cierto control, lo que es una palanca real de planificación.
+
+## Prueba práctica
+
+**Pregunta 1.** Una ganancia de capital se calcula como:
+
+A) El precio de compra menos el precio de venta
+B) El precio de venta menos el precio de compra (base)
+C) Solo el precio de compra
+D) Una cantidad fija que fija el gobierno
+
+**Pregunta 2.** Si un activo se vende por menos que su base, eso se llama:
+
+A) Ganancia de capital
+B) Pérdida de capital
+C) Crédito tributario
+D) Reembolso
+
+**Pregunta 3.** En general, una ganancia de capital tributa:
+
+A) En el momento en que aumenta el valor del activo, sin importar si se vende
+B) Cuando la ganancia se realiza, normalmente al vender
+C) Nunca
+D) Solo si el activo es un bien inmueble
+
+**Pregunta 4.** Una ganancia no realizada, o «en papel», se refiere a:
+
+A) Una ganancia que ya tributó
+B) Un aumento de valor que todavía no se ha asegurado mediante una venta
+C) Un tipo de crédito tributario
+D) Una pérdida de capital
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El cálculo de la ganancia compara el precio al que vendió el activo con lo que pagó originalmente.
+
+**2.** Una pérdida es simplemente lo contrario de una ganancia: vender por menos que la base original.
+
+**3.** La realización mediante la venta es lo que, en general, activa el impuesto sobre las ganancias de capital en la mayoría de los sistemas.
+
+**4.** El valor puede subir en papel sin activar el impuesto, ya que todavía no se ha vendido nada.
+
+## Puntos clave
+
+- Una ganancia de capital es el precio de venta menos el precio de compra (base).
+- Vender por debajo de la base produce, en cambio, una pérdida de capital.
+- En general, las ganancias tributan al realizarse, normalmente cuando se vende el activo.
+- Las ganancias no realizadas todavía no tributan, lo que hace del momento de la venta una verdadera decisión de planificación.
+
+===== GREEN-L1-032
+TITLE: Ganancias de capital a corto plazo frente a largo plazo
+SUMMARY: Explica por qué muchos sistemas gravan las ganancias de forma distinta según cuánto tiempo se tuvo el activo antes de venderlo.
+# Ganancias de capital a corto plazo frente a largo plazo
+
+## Objetivos de aprendizaje
+- Definir las ganancias de capital a corto plazo frente a las de largo plazo.
+- Explicar el razonamiento general de política detrás de favorecer los períodos de tenencia más largos.
+- Reconocer el período de tenencia como una consideración de planificación.
+
+## Contenido principal
+
+Muchos sistemas tributarios distinguen entre las ganancias de capital a corto plazo (de activos que se tuvieron durante un período más corto, a menudo menos de un año) y las ganancias de capital a largo plazo (de activos que se tuvieron durante más tiempo), y a menudo gravan las ganancias a largo plazo con una tasa más favorable. El umbral exacto del período de tenencia y la diferencia de tasas varían según el país y cambian con el tiempo, pero el patrón general (premiar la paciencia) es común.
+
+El razonamiento general de política es fomentar la inversión a más largo plazo y desalentar el exceso de operaciones a corto plazo, aunque hay personas razonables que debaten qué tan bien funciona esto en la práctica. Para un inversionista individual, la conclusión práctica es que el período de tenencia es una palanca real de planificación: vender un activo un poco antes o un poco después de un umbral clave puede cambiar de forma importante el resultado tributario, y por eso los inversionistas a veces programan a propósito una venta en torno a un hito del período de tenencia.
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista está cerca del umbral de largo plazo en una acción con ganancias y está decidiendo si vender ahora o esperar unas semanas más. ¿Qué debería considerar?
+
+**Estudiante:** Según esta lección, esperar hasta pasar el umbral de largo plazo podría significar una tasa más favorable sobre la ganancia.
+
+**Guía:** ¿El tratamiento tributario debería ser el único factor de esa decisión?
+
+**Estudiante:** Probablemente no: el precio de la acción también podría moverse mientras tanto, así que es una disyuntiva real entre el momento tributario y el riesgo de la inversión, no una decisión puramente tributaria.
+
+**Guía:** Exactamente: la planificación tributaria es un factor, no toda la decisión.
+
+## Prueba práctica
+
+**Pregunta 1.** En general, las ganancias de capital a corto plazo vienen de activos:
+
+A) Que se tuvieron durante un período más largo
+B) Que se tuvieron durante un período más corto, a menudo menos de un año
+C) Que nunca se vendieron
+D) Solo los bienes inmuebles
+
+**Pregunta 2.** Las ganancias de capital a largo plazo a menudo se gravan:
+
+A) Con una tasa menos favorable que las de corto plazo
+B) Con una tasa más favorable que las de corto plazo, en muchos sistemas
+C) Exactamente igual que las de corto plazo en todas partes
+D) Nunca, en absoluto
+
+**Pregunta 3.** El razonamiento general de política detrás de esta distinción es:
+
+A) Castigar a los inversionistas a largo plazo
+B) Fomentar la inversión a más largo plazo en vez del exceso de operaciones a corto plazo
+C) Aumentar la recaudación del gobierno sin ningún otro propósito
+D) Simplificar el código tributario
+
+**Pregunta 4.** La mejor forma de entender el período de tenencia es como:
+
+A) Algo irrelevante para la planificación tributaria
+B) Una palanca real de planificación que puede afectar el resultado tributario de una venta
+C) Algo fijo e inmutable
+D) Algo relevante solo para los negocios
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** En general, las ganancias a corto plazo vienen de activos que se tuvieron durante un período relativamente breve antes de venderlos.
+
+**2.** Muchos sistemas aplican, como cuestión de política, una tasa más favorable a las ganancias a largo plazo.
+
+**3.** La meta general es empujar a los inversionistas hacia la paciencia en vez de las operaciones frecuentes a corto plazo, aunque se debate qué tan eficaz es en la práctica.
+
+**4.** Como el momento puede cambiar los resultados tributarios, el período de tenencia es un factor alrededor del cual los inversionistas pueden planificar a propósito.
+
+## Puntos clave
+
+- Las ganancias a corto plazo suelen venir de activos que se tuvieron poco tiempo; las de largo plazo, de activos que se tuvieron más tiempo.
+- Las ganancias a largo plazo a menudo tributan de forma más favorable, aunque los detalles varían y cambian.
+- La meta de política, en general, es fomentar una inversión paciente y a más largo plazo.
+- El período de tenencia es una palanca de planificación real y controlable para los inversionistas.
+
+===== GREEN-L1-033
+TITLE: Los dividendos y los intereses: cómo tributa el ingreso de las inversiones
+SUMMARY: Presenta los dividendos y los intereses como dos formas comunes de ingreso de las inversiones distintas de las ganancias de capital, ya que se generan por tener un activo, no por venderlo.
+# Los dividendos y los intereses: cómo tributa el ingreso de las inversiones
+
+## Objetivos de aprendizaje
+- Distinguir los dividendos y los intereses de las ganancias de capital.
+- Explicar que el ingreso por dividendos e intereses, en general, tributa en el año en que se recibe.
+- Reconocerlos como fuentes de ingreso continuas, no como hechos de venta de una sola vez.
+
+## Contenido principal
+
+Hasta ahora, esta ruta se ha enfocado mucho en las ganancias de capital: la ganancia de vender un activo. Pero hay otras dos formas comunes de ingreso de las inversiones que no requieren vender nada: los dividendos (una parte de las ganancias de una empresa que se paga a los accionistas, a menudo de forma periódica) y los intereses (los pagos que se ganan por el dinero prestado, como en una cuenta de ahorros o un bono).
+
+A diferencia de las ganancias de capital, que normalmente se activan con una venta, el ingreso por dividendos e intereses en general tributa en el año en que se recibe, sin importar si la inversión de fondo se vende alguna vez. Una inversionista que tiene durante décadas una acción que paga dividendos, sin vender ni una sola acción, en general seguirá debiendo cada año el impuesto sobre los dividendos recibidos durante ese tiempo. Reconocerlos como fuentes de ingreso distintas y continuas, separadas del funcionamiento de las ganancias de capital que se activa con la venta, completa el cuadro básico de cómo tributa el ingreso de las inversiones.
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista tiene una acción durante 15 años sin venderla nunca, pero la empresa paga un dividendo cada trimestre. ¿Evita todo impuesto sobre esa acción por no venderla nunca?
+
+**Estudiante:** Según esta lección, no: los dividendos en sí, en general, tributan cada año en que los recibe, aunque no haya una venta.
+
+**Guía:** Entonces, ¿qué tributa realmente cada año y qué solo tributaría si al final la vendiera?
+
+**Estudiante:** Los dividendos tributan a medida que se reciben. La valorización del precio de la acción solo se convertiría en una ganancia de capital tributable si llega a venderla y cuando la venda.
+
+**Guía:** Exactamente: dos fuentes de ingreso distintas, dos detonantes distintos.
+
+## Prueba práctica
+
+**Pregunta 1.** Un dividendo es:
+
+A) Un tipo de préstamo
+B) Una parte de las ganancias de una empresa que se paga a los accionistas
+C) Lo mismo que una ganancia de capital
+D) Un crédito tributario del gobierno
+
+**Pregunta 2.** En general, los intereses son:
+
+A) La ganancia de vender un activo
+B) El pago que se gana por el dinero prestado, como en los ahorros o los bonos
+C) Lo mismo que un dividendo
+D) Algo relevante solo para los negocios
+
+**Pregunta 3.** A diferencia de las ganancias de capital, el ingreso por dividendos e intereses en general tributa:
+
+A) Solo al vender el activo de fondo
+B) En el año en que se recibe, sin importar si hay una venta
+C) Nunca
+D) Solo después de diez años
+
+**Pregunta 4.** ¿Puede una inversionista evitar todo impuesto sobre una acción simplemente por no venderla nunca?
+
+A) Sí, siempre
+B) No: los dividendos recibidos a lo largo del camino, en general, siguen tributando
+C) Solo si la acción pierde valor
+D) Solo en el caso de los bonos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Un dividendo es una distribución de las ganancias de la empresa a los accionistas, distinta de una transacción de venta.
+
+**2.** Los intereses son la compensación por prestar dinero, ya sea mediante una cuenta bancaria, un bono o un instrumento parecido.
+
+**3.** Estos tipos de ingreso tributan a medida que se reciben, a diferencia de las ganancias de capital, que esperan a una venta para activar el impuesto.
+
+**4.** El ingreso continuo, como los dividendos, sigue generando obligaciones tributarias año tras año, sin importar si el activo se vende alguna vez.
+
+## Puntos clave
+
+- Los dividendos y los intereses son tipos de ingreso de las inversiones distintos de las ganancias de capital.
+- En general, tributan en el año en que se reciben, no al vender.
+- Tener un activo sin venderlo no evita el impuesto sobre el ingreso que genera a lo largo del camino.
+- Reconocerlos como fuentes distintas y continuas completa el cuadro básico del ingreso de las inversiones.
