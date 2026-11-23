@@ -1,0 +1,438 @@
+===== RED-L1-007
+TITLE: Juros fixos ou variáveis: dois tipos de financiamento imobiliário
+SUMMARY: Aprenda a diferença real entre um financiamento com juros fixos e um com juros variáveis, e o equilíbrio que cada um representa.
+# Juros fixos ou variáveis: dois tipos de financiamento imobiliário
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- Definir um financiamento com juros fixos e um com juros variáveis.
+- Explicar o equilíbrio entre previsibilidade e possível economia.
+- Identificar um risco que só existe nos juros variáveis.
+
+## Conteúdo principal
+
+### Financiamentos com juros fixos
+
+Um financiamento com juros fixos trava a mesma taxa de juros durante todo o prazo do empréstimo. A parcela de amortização e juros permanece igual do primeiro ao último pagamento, o que torna o orçamento previsível. *(REGRA ESPECÍFICA DO PAÍS: No Brasil, muitos financiamentos têm juros fixos mais um índice de correção, como a TR ou o IPCA, que pode alterar o saldo e as parcelas; confira o seu contrato.)*
+
+### Financiamentos com juros variáveis
+
+Um financiamento com juros variáveis costuma começar com uma taxa menor que a de um financiamento fixo comparável, mas, depois de um período inicial fixo, essa taxa pode mudar periodicamente conforme as condições gerais de juros. As parcelas podem subir ou descer com o tempo.
+
+### O equilíbrio real
+
+Os empréstimos com juros fixos trocam uma taxa inicial possivelmente maior por previsibilidade a longo prazo. Os variáveis trocam previsibilidade por um custo inicial possivelmente menor – com o risco real de as parcelas subirem depois. Nenhum é sempre melhor; depende de quanto tempo a pessoa pretende manter o empréstimo e de quanta incerteza nas parcelas ela tolera.
+
+## Exemplo prático
+
+Um tomador com juros fixos paga o mesmo valor no ano 1 e no ano 15. Um tomador com juros variáveis pode pagar menos no ano 1 do que o de juros fixos, mas, se os juros subirem, pode estar pagando mais no ano 6 – o exato oposto também pode acontecer se os juros caírem.
+
+## Teste de prática
+
+1. Um financiamento com juros fixos:
+   A. Muda de taxa automaticamente todo ano
+   B. Mantém a mesma taxa de juros durante todo o prazo
+   C. Está disponível só para quem compra o primeiro imóvel
+   D. Sempre tem parcela maior que um financiamento variável
+
+2. Verdadeiro ou falso: A parcela de um financiamento com juros variáveis nunca pode subir depois do período inicial.
+
+3. Qual é o principal equilíbrio entre juros fixos e variáveis?
+   A. Previsibilidade versus um custo inicial possivelmente menor com risco de mudança
+   B. Tipos de empréstimo legais versus ilegais
+   C. Empréstimos com apoio do governo versus privados
+   D. Propriedade de curto versus de longo prazo
+
+## Gabarito
+
+1. B
+2. Falso
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um financiamento com juros fixos mantém a mesma taxa durante todo o prazo.
+
+### Pergunta 2
+
+Resposta correta: Falso. As parcelas com juros variáveis podem subir (ou cair) depois do período inicial fixo, conforme as condições de juros.
+
+### Pergunta 3
+
+Resposta correta: A. O equilíbrio central é previsibilidade a longo prazo versus um custo inicial possivelmente menor com risco futuro de juros.
+
+## Pontos-chave
+
+- Financiamentos com juros fixos oferecem uma taxa travada e previsível durante todo o prazo.
+- Os variáveis costumam começar mais baixos, mas podem mudar depois de um período inicial.
+- A escolha certa depende de quanto tempo a pessoa pretende manter o empréstimo e do seu conforto com parcelas incertas.
+
+===== RED-L1-008
+TITLE: O que é o PMI (seguro hipotecário privado) e quando você paga?
+SUMMARY: Aprenda o que o PMI cobre, quem ele realmente protege e quando ele se aplica a um financiamento.
+# O que é o PMI (seguro hipotecário privado) e quando você paga?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- Definir o PMI em palavras simples.
+- Explicar quem o PMI realmente protege.
+- Explicar quando o PMI costuma ser exigido e quando pode deixar de existir.
+
+## Conteúdo principal
+
+### O que é o PMI
+
+*(REGRA ESPECÍFICA DO PAÍS: O PMI (Private Mortgage Insurance) é um conceito do mercado hipotecário dos EUA; no Brasil não existe nesse formato – lá os financiamentos trazem seguros obrigatórios como o MIP (morte e invalidez) e o DFI (danos físicos ao imóvel), que funcionam de outro jeito.)* O PMI é um seguro que protege o credor – não o tomador – se o tomador deixar de pagar o empréstimo. É um custo mensal extra somado à parcela do financiamento.
+
+### Quem ele realmente protege
+
+Esta é a parte mais mal compreendida: o PMI não protege o proprietário de perder o imóvel. Ele existe para reduzir o risco do credor em empréstimos em que o comprador tem menos patrimônio como colchão, para que o credor fique mais disposto a aprovar o empréstimo.
+
+### Quando ele é exigido e quando termina
+
+O PMI costuma ser exigido em empréstimos convencionais nos EUA quando a entrada fica abaixo de um certo limite (muitas vezes 20%), porque uma entrada menor significa menos colchão de patrimônio para o credor. Muitas vezes, ele pode ser retirado quando o patrimônio do tomador no imóvel chega a um limite parecido, seja pelos pagamentos, seja pela valorização.
+
+## Exemplo prático
+
+Um comprador nos EUA dá 10% de entrada em vez de 20%. Como o colchão de patrimônio é menor, o credor exige o PMI como condição para aprovar o empréstimo – um custo mensal extra até que se construa patrimônio suficiente.
+
+## Teste de prática
+
+1. O PMI protege principalmente:
+   A. O proprietário
+   B. O credor
+   C. O corretor de imóveis
+   D. A prefeitura
+
+2. Verdadeiro ou falso: O PMI costuma ser exigido quando a entrada fica abaixo de um certo limite, muitas vezes 20%.
+
+3. O PMI pode algum dia ser retirado de um empréstimo?
+   A. Não, ele dura todo o prazo do empréstimo
+   B. Sim, muitas vezes quando já se construiu patrimônio suficiente
+   C. Só se o tomador refinanciar com outro credor
+   D. Só depois que o empréstimo estiver totalmente quitado
+
+## Gabarito
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O PMI protege o risco do credor, não o proprietário.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Entradas menores (abaixo de cerca de 20% em muitos empréstimos convencionais nos EUA) costumam gerar a exigência de PMI.
+
+### Pergunta 3
+
+Resposta correta: B. O PMI muitas vezes pode ser retirado quando o patrimônio chega a um limite suficiente.
+
+## Pontos-chave
+
+- O PMI protege o credor, não o proprietário.
+- Ele costuma ser exigido quando a entrada fica abaixo de um certo limite.
+- O PMI muitas vezes pode ser retirado quando já se construiu patrimônio suficiente.
+
+===== RED-L1-009
+TITLE: O que é o imposto sobre o imóvel, e quem o define?
+SUMMARY: Aprenda como o imposto sobre o imóvel é calculado, quem de fato define a alíquota e por que ele pode mudar mesmo que o dono não faça nada.
+# O que é o imposto sobre o imóvel, e quem o define?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- Explicar o que o imposto sobre o imóvel geralmente financia.
+- Explicar os fatores básicos que determinam o valor do imposto.
+- Explicar por que o valor do imposto pode mudar sem que o dono faça nada.
+
+## Conteúdo principal
+
+### O que o imposto sobre o imóvel geralmente financia
+
+O imposto sobre o imóvel é um imposto recorrente que os proprietários pagam ao governo local, com base no valor do imóvel. Ele costuma financiar serviços locais como escolas, ruas e serviços de emergência, embora o uso exato varie conforme o lugar.
+
+### O que determina o valor
+
+*(REGRA ESPECÍFICA DO PAÍS: Os sistemas de imposto sobre imóveis variam muito de país para país e até entre municípios; o texto a seguir descreve o funcionamento comum nos EUA. No Brasil, esse imposto é o IPTU, calculado sobre o valor venal do imóvel com alíquotas definidas por cada prefeitura.)* O imposto é calculado, em geral, multiplicando o valor avaliado do imóvel por uma alíquota local, definida por órgãos do governo local (como um condado ou um distrito escolar) – não pelo proprietário.
+
+### Por que o valor pode mudar sem que o dono faça nada
+
+Se o governo local aumentar a alíquota, ou se o valor avaliado do imóvel subir por causa de uma reavaliação local, o imposto pode aumentar mesmo que o dono não tenha mudado nada no imóvel.
+
+## Exemplo prático
+
+Um imóvel avaliado em US$ 250.000 em uma cidade dos EUA com alíquota de 1,2% deveria cerca de US$ 3.000 por ano de imposto sobre o imóvel – antes de qualquer isenção ou ajuste.
+
+## Teste de prática
+
+1. O imposto sobre o imóvel geralmente é pago:
+   A. Ao governo federal
+   B. Ao governo local
+   C. Diretamente ao credor, sem participação do governo local
+   D. À seguradora do proprietário
+
+2. Verdadeiro ou falso: O imposto sobre o imóvel de um proprietário pode subir mesmo que ele não tenha feito nenhuma mudança no imóvel.
+
+3. Quais dois fatores geralmente determinam o valor do imposto sobre o imóvel?
+   A. A renda e o score de crédito do proprietário
+   B. O valor avaliado do imóvel e a alíquota local
+   C. A taxa de juros e o prazo do financiamento
+   D. O tamanho da entrada
+
+## Gabarito
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O imposto sobre o imóvel é um imposto do governo local.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Um aumento de alíquota ou uma reavaliação pode elevar o imposto independentemente do que o dono faça.
+
+### Pergunta 3
+
+Resposta correta: B. O valor avaliado e a alíquota local são os dados centrais.
+
+## Pontos-chave
+
+- O imposto sobre o imóvel é um imposto local recorrente baseado no valor do imóvel.
+- Ele é calculado a partir do valor avaliado e de uma alíquota local.
+- O valor pode mudar por decisões locais, não só pelas ações do proprietário.
+
+===== RED-L1-010
+TITLE: O que é um ônus (gravame) sobre um imóvel?
+SUMMARY: Aprenda o que um ônus sobre um imóvel realmente é, como ele fica vinculado ao imóvel e por que pode travar uma venda até ser resolvido.
+# O que é um ônus (gravame) sobre um imóvel?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- Definir um ônus (em inglês, "lien") em palavras simples.
+- Citar pelo menos dois tipos comuns de ônus.
+- Explicar por que um ônus pode afetar a venda de um imóvel.
+
+## Conteúdo principal
+
+### O que é um ônus
+
+Um ônus é um direito legal sobre um imóvel, normalmente para garantir uma dívida. Exemplos comuns incluem a garantia do financiamento (o direito do credor, visto antes), um ônus por impostos sobre o imóvel não pagos e – nos EUA – o "mechanic's lien", um direito de um empreiteiro não pago pelo trabalho feito no imóvel. *(REGRA ESPECÍFICA DO PAÍS: Os tipos de ônus e como funcionam variam por país; no Brasil, ônus como hipoteca, alienação fiduciária e penhora aparecem na matrícula do imóvel no Cartório de Registro de Imóveis.)*
+
+### Como um ônus fica vinculado
+
+Um ônus normalmente é registrado em um órgão público e fica vinculado ao próprio imóvel, não só ao dono pessoalmente – ou seja, pode acompanhar o imóvel até depois de uma venda, se não for resolvido antes.
+
+### Por que ele pode travar uma venda
+
+Como o ônus está vinculado ao imóvel, a maioria dos compradores e credores exige que ele seja baixado antes de a venda ser concluída. Um ônus não resolvido é um motivo comum para a venda de um imóvel atrasar ou não dar certo.
+
+## Exemplo prático
+
+Uma proprietária contrata um empreiteiro para uma reforma e não paga a última fatura. O empreiteiro pode registrar um ônus sobre o imóvel, que precisaria ser resolvido antes de a casa ser vendida livre e desembaraçada.
+
+## Teste de prática
+
+1. Um ônus é melhor descrito como:
+   A. Um tipo de seguro residencial
+   B. Um direito legal sobre um imóvel, normalmente para garantir uma dívida
+   C. Um auxílio do governo para compradores de imóveis
+   D. Uma vistoria obrigatória do imóvel
+
+2. Verdadeiro ou falso: Um ônus afeta apenas o dono atual pessoalmente, não o próprio imóvel.
+
+3. O que é um "mechanic's lien"?
+   A. Um direito registrado por um empreiteiro não pago pelo trabalho feito no imóvel
+   B. Um tipo de financiamento de carro
+   C. Um imposto do governo sobre construções novas
+   D. Uma forma de seguro de título
+
+## Gabarito
+
+1. B
+2. Falso
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um ônus é um direito legal sobre um imóvel, normalmente ligado a uma dívida.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os ônus ficam vinculados ao próprio imóvel, e é por isso que podem acompanhá-lo após uma venda.
+
+### Pergunta 3
+
+Resposta correta: A. Um "mechanic's lien" é registrado por um empreiteiro não pago pelo trabalho feito no imóvel.
+
+## Pontos-chave
+
+- Um ônus é um direito legal sobre um imóvel, normalmente para garantir uma dívida.
+- Os ônus ficam vinculados ao imóvel, não só ao dono pessoalmente.
+- Ônus não resolvidos costumam travar ou atrasar vendas de imóveis.
+
+===== RED-L1-011
+TITLE: Estados com "tax lien" e com "tax deed" nos EUA: qual é a diferença real?
+SUMMARY: Aprenda como os estados americanos com sistema de "tax lien" e de "tax deed" tratam de forma diferente os impostos sobre imóveis não pagos, e o que um investidor de fato recebe em cada caso.
+# Estados com "tax lien" e com "tax deed" nos EUA: qual é a diferença real?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- Explicar o que acontece em um estado de "tax lien" quando o imposto sobre o imóvel não é pago.
+- Explicar o que acontece em um estado de "tax deed" quando o imposto sobre o imóvel não é pago.
+- Identificar a diferença central entre o que um investidor recebe em cada caso.
+
+## Conteúdo principal
+
+### Estados de "tax lien"
+
+*(REGRA ESPECÍFICA DO PAÍS: Isso varia por estado americano; nem todos os estados usam esse sistema, e fora dos EUA os procedimentos são bem diferentes.)* Em um estado de "tax lien", quando um dono não paga o imposto sobre o imóvel, o governo local vende um certificado de ônus a um investidor, que paga os impostos atrasados no lugar do dono. O investidor não fica com o imóvel – ele fica com o direito de cobrar a dívida mais juros legais. Se o dono não pagar dentro de um prazo de resgate definido, o investidor pode pedir à justiça a propriedade do imóvel.
+
+### Estados de "tax deed"
+
+Em um estado de "tax deed", impostos não pagos podem levar o próprio imóvel a leilão. Quem dá o maior lance em geral se torna o novo dono, às vezes de imediato e às vezes depois de um curto prazo de resgate, dependendo do estado.
+
+### A diferença central
+
+Em um estado de "lien", o investidor compra primeiro uma dívida, não o imóvel. Em um estado de "deed", o investidor dá lances no próprio imóvel. Os prazos de resgate e as regras específicas variam muito por estado – esta lição trata do mecanismo geral, não do cronograma exato de nenhum estado.
+
+## Exemplo prático
+
+Uma investidora em um estado de "tax lien" paga US$ 2.000 para cobrir os impostos atrasados de um proprietário. Ela passa a ter um ônus que rende juros legais. Se o dono não pagar dentro do prazo de resgate do estado, ela pode buscar a propriedade na justiça.
+
+## Teste de prática
+
+1. Em um estado de "tax lien", o que um investidor recebe primeiro ao pagar os impostos atrasados de alguém?
+   A. A propriedade imediata do imóvel
+   B. Um certificado de ônus que representa a dívida, mais juros
+   C. Um contrato de aluguel com o dono
+   D. Uma hipoteca sobre outro imóvel
+
+2. Verdadeiro ou falso: Em um estado de "tax deed", o próprio imóvel costuma ser leiloado por impostos não pagos.
+
+3. O que é um prazo de resgate?
+   A. Um período em que o dono inadimplente pode pagar e ficar com o imóvel
+   B. O prazo de um financiamento imobiliário
+   C. Um período obrigatório para a vistoria do imóvel
+   D. Um tipo de isenção do imposto sobre o imóvel
+
+## Gabarito
+
+1. B
+2. Verdadeiro
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Em um estado de "lien", o investidor compra a dívida (por meio de um certificado de ônus), não o próprio imóvel.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Os estados de "tax deed" costumam leiloar o imóvel diretamente.
+
+### Pergunta 3
+
+Resposta correta: A. O prazo de resgate dá ao dono original um período para pagar antes de perder o imóvel.
+
+## Pontos-chave
+
+- Estados de "tax lien" vendem a dívida (um ônus); estados de "tax deed" vendem o próprio imóvel.
+- Investidores de "lien" ganham juros e podem acabar buscando a propriedade se não houver pagamento.
+- Investidores de "deed" podem se tornar donos de forma mais direta, muitas vezes mais rápido.
+- As regras e os prazos de resgate variam muito por estado.
+
+===== RED-L1-012
+TITLE: O que é uma avaliação, e por que ela não é o mesmo que o preço?
+SUMMARY: Aprenda o que a avaliação de um imóvel realmente mede, quem a solicita e por que o valor de avaliação e o preço de venda podem ser diferentes.
+# O que é uma avaliação, e por que ela não é o mesmo que o preço?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- Definir uma avaliação em palavras simples.
+- Explicar quem normalmente solicita uma avaliação e por quê.
+- Explicar por que o valor de avaliação e o preço de venda podem ser números diferentes.
+
+## Conteúdo principal
+
+### O que é uma avaliação
+
+Uma avaliação é uma estimativa profissional e independente do valor de um imóvel, feita por um avaliador habilitado. Ela se baseia em fatores como vendas comparáveis, estado de conservação e localização.
+
+### Quem a solicita e por quê
+
+Os credores normalmente exigem uma avaliação antes de aprovar um financiamento, para confirmar que o imóvel vale mais ou menos o valor que está sendo emprestado sobre ele – isso protege a garantia do credor, e não só ajuda o comprador.
+
+### Por que os números podem ser diferentes
+
+O valor de avaliação e o preço de venda combinado são dois números diferentes, definidos de duas formas diferentes: o preço de venda é o que comprador e vendedor combinaram, enquanto a avaliação é uma estimativa profissional independente. Se o imóvel for avaliado abaixo do preço combinado, isso pode criar um problema real de financiamento, já que o credor em geral não empresta mais do que o valor de avaliação permite.
+
+## Exemplo prático
+
+Um comprador combina pagar R$ 320.000 por uma casa, mas a avaliação sai em R$ 305.000. O credor normalmente só financia com base no valor de avaliação mais baixo, então o comprador pode precisar de uma entrada maior ou o preço pode ter de ser renegociado.
+
+## Teste de prática
+
+1. Uma avaliação é:
+   A. O preço que comprador e vendedor combinam
+   B. Uma estimativa profissional independente do valor de um imóvel
+   C. Um tipo de seguro residencial
+   D. Um lançamento de imposto do governo
+
+2. Verdadeiro ou falso: Os credores normalmente exigem uma avaliação para proteger a própria garantia, não só para ajudar o comprador.
+
+3. O que pode acontecer se um imóvel for avaliado abaixo do preço de venda combinado?
+   A. Nada – a venda segue exatamente como combinado
+   B. O credor pode financiar só até o valor de avaliação, criando uma lacuna no financiamento
+   C. A avaliação é anulada automaticamente
+   D. O imposto sobre o imóvel diminui
+
+## Gabarito
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma avaliação é uma estimativa profissional e independente de valor – separada do preço negociado.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. A avaliação protege a posição de garantia do credor no empréstimo.
+
+### Pergunta 3
+
+Resposta correta: B. Uma avaliação baixa pode criar uma lacuna no financiamento que comprador, vendedor ou ambos precisam resolver.
+
+## Pontos-chave
+
+- Uma avaliação é uma estimativa independente de valor, não o preço de venda.
+- Os credores a exigem para proteger a própria garantia.
+- Uma avaliação baixa em relação ao preço de venda pode criar problemas reais de financiamento.
