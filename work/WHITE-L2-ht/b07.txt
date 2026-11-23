@@ -1,0 +1,279 @@
+===== WHITE-L2-031
+TITLE: Plis-valè kapital: kout tèm kont long tèm
+SUMMARY: Yon plis-valè kapital anjeneral vle di benefis ou reyalize lè w vann yon envestisman pou plis pase pri acha orijinal li; anpil jiridiksyon fè diferans ant plis-valè kout tèm ak long tèm.
+## WHITE-L2-031
+### Plis-valè kapital: kout tèm kont long tèm
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon plis-valè kapital nan yon nivo konseptyèl.
+- Fè diferans ant plis-valè kapital kout tèm ak long tèm yon fason konseptyèl.
+- Esplike poukisa peryòd kenbe a ka enpòtan nan desizyon yon envestisè.
+
+**2. Kontni prensipal**
+Yon plis-valè kapital (capital gain) anjeneral vle di benefis ou reyalize lè w vann yon envestisman pou plis pase pri acha orijinal li (yon pèt kapital rive nan sitiyasyon kontrè a). Anpil jiridiksyon, tankou Etazini, fè diferans ant plis-valè kapital kout tèm (anjeneral sou byen ou kenbe pou yon peryòd pi kout, souvan yo taxe yo menm jan ak revni òdinè) ak plis-valè kapital long tèm (anjeneral sou byen ou kenbe pi lontan pase yon limit ki presize, souvan yo taxe yo nan to diferan, pafwa pi favorab) — menm si limit peryòd kenbe espesifik ak to yo depann de jiridiksyon an, yo chanje ak lejislasyon, e yo mande yon konfimasyon pwofesyonèl ki ajou olye yon sipozisyon jeneral.
+
+Akoz diferans jeneral sa a (nan jiridiksyon kote li aplike), peryòd kenbe a ka vin yon faktè yon envestisè konsidere, ansanm ak vrè tèz envestisman li — menm si leson sa a mete aksan sou lide ke konsiderasyon taks ta dwe anjeneral enfòme, se pa ranplase, yon bon desizyon envestisman. Vann yon envestisman ki ap febli nan fondamantal li sèlman pou evite yon to kout tèm, oswa kenbe yon envestisman ki fò nan fondamantal li pi lwen pase moman ou ta dwe vann li sèlman pou rive nan yon limit long tèm, tou de reprezante kite yon konsiderasyon taks defòme yon desizyon envestisman ki otreman ta bon.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere vann yon aksyon li kenbe, Julian remake li sèlman kèk semèn anvan l travèse limit peryòd kenbe long tèm jiridiksyon li. Olye l pran desizyon li sèlman dapre tèz envestisman ki anba a, li mete konsiderasyon moman sa a kòm yon done, li diskite ak pwofesyonèl taks li si tann kèk semèn sa yo chanje anpil rezilta li apre taks, pandan l konfime fondamantal envestisman an toujou sipòte kenbe l yon ti tan anplis kèlkeswa konsiderasyon taks la — sa ki evite yon senaryo kote moman taks sèlman ta jistifye kenbe yon pozisyon k ap deteryore nan fondamantal li.
+
+**4. Egzamen pratik**
+1. Kisa yon plis-valè kapital ye?
+   a) Yon kalite dividann
+   b) Benefis ou reyalize lè w vann yon envestisman pou plis pase pri acha li
+   c) Yon retou chak ane garanti
+   d) Peman koupon yon obligasyon
+
+2. Kisa ki anjeneral fè diferans ant plis-valè kapital kout tèm ak long tèm, kote diferans sa a aplike?
+   a) Endistri konpayi an
+   b) Longè tan ou te kenbe byen an anvan w vann li
+   c) Laj envestisè a
+   d) Randman dividann aksyon an
+
+3. Vrè oswa Fo: Konsiderasyon taks ta dwe toujou pase devan tèz envestisman ki anba a lè w ap deside si pou w vann.
+
+4. Poukisa Julian te konsidere limit peryòd kenbe long tèm k ap pwoche a, pandan l toujou konfime tèz envestisman li an premye?
+   a) Moman taks se te sèl konsiderasyon li
+   b) Li te vle mete moman taks kòm yon done ansanm ak, se pa olye, yon bon rezònman envestisman
+   c) Li te inyore peryòd kenbe a nèt
+   d) Li pa t gen okenn tèz envestisman ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon plis-valè kapital se benefis ou reyalize lè w vann yon envestisman pou plis pase pri acha li.
+2. Peryòd kenbe a anjeneral fè diferans ant tretman plis-valè kapital kout tèm ak long tèm, kote diferans sa a aplike.
+3. Konsiderasyon taks ta dwe anjeneral enfòme, se pa ranplase, yon bon desizyon envestisman.
+4. Julian te trete peryòd kenbe a kòmsadwa kòm yon faktè ansanm ak tèz envestisman li, se pa yon ranplasman pou li.
+
+**7. Pwen kle yo**
+- Yon plis-valè kapital se benefis ou fè lè w vann yon envestisman pi wo pase pri acha li.
+- Anpil jiridiksyon fè diferans ant plis-valè kout tèm ak long tèm, souvan ak diferan tretman taks, dapre peryòd kenbe a.
+- To ak limit espesifik depann de jiridiksyon an e yo mande yon konfimasyon pwofesyonèl ki ajou.
+- Konsiderasyon taks ta dwe enfòme, se pa ranplase, yon bon desizyon envestisman.
+
+===== WHITE-L2-032
+TITLE: Baz opsyon: call ak put kòm konsèp
+SUMMARY: Yon opsyon se yon kontra ki bay achtè li dwa, men se pa obligasyon, pou l achte oswa vann yon byen ki anba l (souvan yon aksyon) nan yon pri ki presize nan yon peryòd ki presize, an echanj pou yon peman davans yo rele yon prim.
+## WHITE-L2-032
+### Baz opsyon: call ak put kòm konsèp
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon opsyon call ak yon opsyon put nan yon nivo konseptyèl.
+- Esplike konsèp jeneral yon prim.
+- Rekonèt opsyon kòm yon kategori risk ki diferan fondamantalman de posede aksyon dirèkteman.
+
+**2. Kontni prensipal**
+Yon opsyon se yon kontra ki bay achtè li dwa, men se pa obligasyon, pou l achte oswa vann yon byen ki anba l (souvan yon aksyon) nan yon pri ki presize ("pri egzèsis" oswa strike price) nan yon peryòd ki presize, an echanj pou yon peman davans yo rele yon prim. Yon opsyon call bay achtè a dwa pou l achte byen ki anba a nan pri egzèsis la; yon opsyon put bay achtè a dwa pou l vann byen ki anba a nan pri egzèsis la.
+
+Leson sa a prezante opsyon sèlman kòm yon blòk konstriksyon konseptyèl, se pa kòm yon estrateji yo rekòmande. Opsyon diferan fondamantalman de posede aksyon dirèkteman: yon moun ki posede aksyon patisipe pwopòsyonèlman nan pwopriyete ak rezilta yon konpayi sou yon orizon tan san limit, alòske pozisyon yon achtè opsyon gen yon dat ekspirasyon fiks e li ka ekspire san okenn valè si pri byen ki anba a pa deplase yon fason favorab konpare ak pri egzèsis la nan peryòd espesifik sa a, sa vle di ou ka pèdi tout prim ou te peye a — yon pwofil risk ki diferan anpil de tou senpleman posede pa.
+
+**3. Egzanp pratik**
+Lè l ap aprann sou opsyon pou premye fwa, Priscilla etidye yon egzanp ipotetik: yon opsyon call ki bay achtè a dwa pou l achte yon aksyon nan yon pri egzèsis espesifik anvan yon dat ekspirasyon espesifik, an echanj pou yon prim li peye davans. Li note ke si pri aksyon an rete anba pri egzèsis la jiska ekspirasyon, opsyon call la ta ekspire san valè, e achtè a ta pèdi tout prim li te peye a — yon kontras byen klè ak posede aksyon an dirèkteman, kote yon pri ki rete plat tou senpleman vle di pa gen benefis ni pèt, san yon dat limit fiks ki fòse yon rezilta.
+
+**4. Egzamen pratik**
+1. Kisa yon opsyon call bay achtè li?
+   a) Obligasyon pou l vann yon byen
+   b) Dwa, men se pa obligasyon, pou l achte yon byen nan yon pri ki presize nan yon tan ki presize
+   c) Pwopriyete garanti nan yon konpayi
+   d) Yon peman dividann fiks
+
+2. Kisa yon "prim" ye nan kontèks yon opsyon?
+   a) Yon kalite dividann
+   b) Peman davans ou fè pou jwenn kontra opsyon an
+   c) Valè nominal yon obligasyon
+   d) Yon taks sou posede aksyon
+
+3. Vrè oswa Fo: Yon opsyon, tankou yon aksyon, pa gen dat ekspirasyon e li pa ka vin san valè.
+
+4. Ki risk kle ki fè diferans ant yon opsyon ak posede aksyon dirèkteman, dapre leson sa a?
+   a) Opsyon pa gen okenn risk ditou
+   b) Yon opsyon ka ekspire san valè, ou pèdi tout prim lan, akoz limit tan fiks li
+   c) Aksyon toujou ekspire san valè
+   d) Pa gen diferans ant de yo
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon opsyon call bay achtè a dwa, men se pa obligasyon, pou l achte yon byen nan yon pri ki presize nan yon tan ki presize.
+2. Yon prim se peman davans achtè opsyon an fè pou l jwenn kontra a.
+3. Kontrèman ak posede aksyon, opsyon gen yon dat ekspirasyon fiks e yo ka ekspire san okenn valè.
+4. Dat ekspirasyon fiks la ki kreye posiblite pou w pèdi tout prim lan se yon risk kle ki fè diferans ant opsyon ak posede aksyon.
+
+**7. Pwen kle yo**
+- Yon opsyon bay achtè a dwa, men se pa obligasyon, pou l achte (call) oswa vann (put) yon byen nan yon pri ki presize nan yon tan ki presize.
+- Prim lan se pri davans ou peye pou jwenn yon kontra opsyon.
+- Opsyon gen yon dat ekspirasyon fiks e yo ka ekspire san okenn valè, kontrèman ak posede aksyon dirèkteman.
+- Leson sa a prezante opsyon kòm yon konsèp sèlman, se pa kòm yon estrateji yo rekòmande pou okenn elèv espesifik.
+
+===== WHITE-L2-033
+TITLE: Poukisa opsyon se yon kategori risk diferan
+SUMMARY: Sou baz leson anvan an, leson sa a esplike pi espesyalman poukisa yo anjeneral trete opsyon kòm yon kategori risk apa e pi espesyalize – tankou depresyasyon tan ak pèt ki ka depase envestisman orijinal la.
+## WHITE-L2-033
+### Poukisa opsyon se yon kategori risk diferan
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike poukisa yo anjeneral konsidere opsyon kòm yon kategori risk ki pi wo e pi espesyalize pase posede aksyon dirèkteman.
+- Idantifye konsèp depresyasyon tan (time decay) nan yon nivo konseptyèl.
+- Rekonèt poukisa opsyon mande konesans espesifik ak prekosyon anvan w itilize yo.
+
+**2. Kontni prensipal**
+Sou baz leson anvan an, leson sa a esplike pi espesyalman poukisa yo anjeneral trete opsyon kòm yon kategori risk apa e pi espesyalize. "Depresyasyon tan" (time decay) vle di tandans valè yon opsyon pou l manje pandan l ap pwoche dat ekspirasyon li, si tout lòt bagay rete menm jan, paske mwens tan rete pou pri byen ki anba a deplase yon fason favorab — sa vle di yon achtè opsyon ap travay kont yon fenèt tan k ap retresi san rete, kontrèman ak yon moun ki posede aksyon ki pa fè fas a okenn presyon tan ekivalan.
+
+Anplis, kèk estrateji opsyon (sitou sa ki gen ladan vann, oswa "ekri," sèten kalite opsyon) ka ekspoze yon envestisè a pèt ki depase envestisman orijinal li, yon pwofil risk ki diferan fondamantalman de tou senpleman achte yon aksyon, kote pèt maksimòm posib la limite a montan ou envesti a. Konpleksite sa a ak varyete pwofil risk posib yo se rezon ki fè anpil konpayi kourtaj mande nivo apwobasyon espesifik oswa rekonesans edikatif anvan yo pèmèt negosye opsyon, e poukisa pwogram sa a trete opsyon sèlman kòm yon entwodiksyon konseptyèl olye yon estrateji pou swiv san anpil plis edikasyon espesyalize.
+
+**3. Egzanp pratik**
+Kirye sou opsyon apre l fin aprann baz yo, Emmanuel fè plis rechèch e li dekouvri ke sèten estrateji opsyon ka teyorikman ekspoze l a pèt ki pi gwo pase envestisman inisyal li — yon pwofil risk totalman diferan de achte yon aksyon, kote pèt maksimòm posib li limite a sa l te peye. Lè l rekonèt nivo konpleksite sa a mande yon edikasyon espesyalize byen lwen pase leson entwodiksyon sa a, Emmanuel deside kontinye bati konesans fondamantal li sou envestisman an jeneral anvan l konsidere si e kijan opsyon ta ka janm antre nan estrateji li, olye l aji ak yon konpreyansyon pasyèl.
+
+**4. Egzamen pratik**
+1. Kisa "depresyasyon tan" ye, nan kontèks opsyon?
+   a) Istwa dividann yon aksyon
+   b) Tandans valè yon opsyon pou l manje pandan l ap pwoche ekspirasyon, si tout lòt bagay rete menm jan
+   c) Yon kalite nòt obligasyon
+   d) Yon mekanis benefis garanti
+
+2. Ki yon diferans risk kle ant sèten estrateji opsyon ak tou senpleman achte yon aksyon?
+   a) Aksyon ka pèdi plis pase montan ou envesti; opsyon pa ka
+   b) Sèten estrateji opsyon ka ekspoze yon envestisè a pèt ki depase envestisman orijinal li, kontrèman ak achte yon aksyon dirèkteman
+   c) Pa gen diferans nan risk
+   d) Opsyon garanti benefis
+
+3. Vrè oswa Fo: Tout estrateji opsyon gen menm risk limite, ekivalan ak tou senpleman posede yon aksyon.
+
+4. Poukisa Emmanuel te deside kontinye bati konesans fondamantal anvan l avanse plis ak opsyon?
+   a) Li te deja konprann tout estrateji opsyon nèt
+   b) Li te rekonèt konpleksite ak risk la mande yon edikasyon espesyalize pi lwen pase leson entwodiksyon sa a
+   c) Li ilegal pou aprann sou opsyon
+   d) Li pa t enterese nan envestisman ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Depresyasyon tan dekri tandans yon opsyon pou l pèdi valè pandan ekspirasyon li ap pwoche, si tout lòt bagay rete menm jan.
+2. Sèten estrateji opsyon ka ekspoze yon envestisè a pèt ki depase envestisman orijinal li, kontrèman ak tou senpleman achte aksyon.
+3. Diferan estrateji opsyon gen pwofil risk ki diferan anpil, e pafwa ki pi wo anpil.
+4. Emmanuel te rekonèt kòmsadwa bezwen pou plis edikasyon espesyalize anvan l aji ak yon konesans pasyèl sou opsyon.
+
+**7. Pwen kle yo**
+- Depresyasyon tan dekri tandans yon opsyon pou l pèdi valè pandan ekspirasyon ap pwoche, sa ki travay kont achtè a.
+- Sèten estrateji opsyon ka ekspoze yon envestisè a pèt ki depase envestisman orijinal li.
+- Konpleksite risk sa a se rezon ki fè yo trete opsyon kòm yon kategori risk apa e pi espesyalize.
+- Pwogram sa a prezante opsyon yon fason konseptyèl sèlman, se pa kòm yon estrateji pou swiv san plis edikasyon espesyalize.
+
+===== WHITE-L2-034
+TITLE: Maj ak efè lefye nan byen an papye
+SUMMARY: Prete sou maj pèmèt yon envestisè prete lajan nan men konpayi kourtaj li, ak envestisman li deja genyen kòm garanti, pou l achte plis valè mobilye pase sa kach li sèlman ta pèmèt – yon paralèl dirèk ak efè lefye nan pakou RED la.
+## WHITE-L2-034
+### Maj ak efè lefye nan byen an papye
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon prete sou maj nan yon nivo konseptyèl.
+- Esplike kijan maj fonksyone kòm efè lefye nan byen an papye, sa ki raple diskisyon sou efè lefye nan pakou RED la.
+- Idantifye risk jeneral prete sou maj.
+
+**2. Kontni prensipal**
+Prete sou maj (margin) pèmèt yon envestisè prete lajan nan men konpayi kourtaj li, ak envestisman li deja genyen kòm garanti, pou l achte plis valè mobilye pase sa kach li sèlman ta pèmèt — yon paralèl dirèk nan byen an papye ak konsèp efè lefye nou te prezante nan pakou RED la (RED-L2-007), kote yo itilize lajan prete pou kontwole yon pozisyon byen ki pi gwo pase sa kach sèlman ta pèmèt.
+
+Menm jan ak efè lefye nan imobilye, maj ogmante ni benefis ni pèt: si valè mobilye ou achte yo monte, retou an pousantaj envestisè a sou pwòp kach li envesti vin pi gwo; si valè mobilye yo desann, pèt yo vin pi gwo menm jan an, e envestisè a toujou dwe montan li te prete a kèlkeswa jan envestisman an fè. Prete sou maj anjeneral gen frè enterè k ap kontinye sou montan ou prete a tou, sa ki ajoute yon pri ou dwe depase pou estrateji a rantab an jeneral.
+
+**3. Egzanp pratik**
+Lè l konpare pwòp apwòch li ak apwòch yon zanmi, Xavier envesti ak pwòp kach li sèlman, alòske zanmi l itilize prete sou maj pou l achte de fwa valè mobilye li te ka achte ak kach sèlman. Lè mache yo pataje a konnen yon bès, pèt Xavier yo limite a pwòp kach li te envesti, alòske pèt zanmi l yo vin pi gwo akoz pozisyon ak efè lefye a — e zanmi l toujou dwe konpayi kourtaj la montan li te prete a kèlkeswa valè pòtfolyo a ki diminye, plis frè enterè k ap kontinye sou prè a, sa ki montre risk anplifye ki vini ak prete sou maj.
+
+**4. Egzamen pratik**
+1. Kisa prete sou maj anjeneral pèmèt yon envestisè fè?
+   a) Evite tout risk envestisman
+   b) Prete lajan nan men konpayi kourtaj li, ak envestisman li deja genyen kòm garanti, pou l achte plis valè mobilye
+   c) Elimine bezwen pou nenpòt envestisman an kach
+   d) Garanti yon retou espesifik
+
+2. Kijan prete sou maj paralèl ak diskisyon sou efè lefye nan pakou RED la?
+   a) Li pa gen rapò ak konsèp efè lefye nan imobilye
+   b) Tou de itilize lajan prete pou kontwole yon pozisyon pi gwo pase sa kach sèlman ta pèmèt, sa ki ogmante benefis ak pèt
+   c) Prete sou maj elimine tout efè lefye
+   d) Efè lefye nan imobilye ak prete sou maj idantik legalman
+
+3. Vrè oswa Fo: Prete sou maj ogmante sèlman benefis e li pa janm ogmante pèt.
+
+4. Ki pri anplis prete sou maj anjeneral genyen, pi lwen pase risk anplifye a li menm?
+   a) Pa gen okenn pri anplis ditou
+   b) Frè enterè k ap kontinye sou montan ou prete a
+   c) Yon taks gouvènman yon sèl fwa
+   d) Yon peman dividann obligatwa
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Prete sou maj pèmèt yon envestisè prete sou envestisman li deja genyen pou l achte plis valè mobilye.
+2. Prete sou maj paralèl dirèkteman ak efè lefye nan imobilye, li itilize lajan prete pou kontwole yon pozisyon pi gwo e li ogmante ni benefis ni pèt.
+3. Prete sou maj ogmante ni benefis ni pèt, pa sèlman benefis.
+4. Prete sou maj anjeneral gen frè enterè k ap kontinye sou montan ou prete a, yon pri anplis ou dwe depase.
+
+**7. Pwen kle yo**
+- Prete sou maj pèmèt achte plis valè mobilye ak lajan prete ki garanti pa envestisman ou deja genyen.
+- Sa paralèl dirèkteman ak konsèp efè lefye nan pakou RED la, li ogmante ni benefis ni pèt.
+- Ou dwe ranbouse montan ou prete a ak enterè li kèlkeswa pèfòmans envestisman an.
+- Prete sou maj mete frè enterè k ap kontinye ou dwe depase pou estrateji a rantab.
+
+===== WHITE-L2-035
+TITLE: Risk apèl maj
+SUMMARY: Yon apèl maj (margin call) rive lè valè kont sou maj yon envestisè desann ase pou l pa respekte nivo garanti minimòm konpayi kourtaj la mande ankò, sa ki pouse konpayi kourtaj la mande plis lajan oswa vann byen otomatikman.
+## WHITE-L2-035
+### Risk apèl maj
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon apèl maj nan yon nivo konseptyèl.
+- Esplike poukisa apèl maj ka fòse vant nan move moman.
+- Dekri kijan risk sa a vin pi grav pandan bès mache.
+
+**2. Kontni prensipal**
+Sou baz leson anvan an, yon apèl maj (margin call) rive lè valè kont sou maj yon envestisè desann ase pou l pa respekte nivo garanti minimòm konpayi kourtaj la mande ankò, sa ki pouse konpayi kourtaj la mande envestisè a depoze plis kach oswa valè mobilye, sinon yo pral vann kèk nan byen li yo otomatikman (souvan san plis konsiltasyon) pou remete kont lan an konfòmite.
+
+Sa kreye yon risk espesifik ki vin pi grav pandan bès mache: pandan pri valè mobilye yo ap desann, yon envestisè k ap itilize maj ka oblije vann byen li yo egzakteman nan pi move moman posib — pandan yon bès — espesyalman pou l reponn a yon apèl maj, sa ki fè sa ki ta ka yon eksperyans volatilite tanporè (Leson 26) tounen yon pèt reyalize ki bloke, e li ka rate nenpòt remonte ki vini apre nèt. Dinamik vant fòse sa a se yon rezon kle ki fè yo anjeneral konsidere prete sou maj apwopriye sèlman pou envestisè ki gen anpil eksperyans, tolerans pou risk, ak kapasite finansye pou jere risk espesifik sa a.
+
+**3. Egzanp pratik**
+Pandan yon bès mache sevè, kont sou maj Nadim desann anba nivo antretyen konpayi kourtaj li mande a, sa ki deklanche yon apèl maj. Paske li pa gen plis kach disponib fasil pou reponn a apèl la, konpayi kourtaj la vann otomatikman yon pati nan byen li yo nan pri mache ki ba kounye a pou remete kont li an konfòmite — sa ki bloke pèt sou pozisyon li ta ka kenbe otreman atravè bès la e jiska yon remonte apre, si l pa t ap itilize maj e kidonk li pa t sijè a yon vant fòse nan moman espesifik sa a ki te move.
+
+**4. Egzamen pratik**
+1. Kisa yon apèl maj ye?
+   a) Yon apèl telefòn yon kourtye ki ofri konsèy envestisman
+   b) Yon demann konpayi kourtaj pou plis garanti lè valè yon kont sou maj desann anba yon nivo obligatwa
+   c) Yon kalite peman dividann
+   d) Yon avi taks gouvènman
+
+2. Poukisa apèl maj ka fòse vant nan move moman?
+   a) Yo rive sèlman lè pri yo ap monte
+   b) Yo souvan rive pandan bès, sa ki fòse vant nan pri ki ba pou respekte kondisyon garanti a
+   c) Yo pa gen rapò ak moman mache
+   d) Yo garanti yon vant ki rantab
+
+3. Vrè oswa Fo: Yon envestisè ki fè fas a yon apèl maj toujou gen ase tan ak resous pou evite yon vant fòse.
+
+4. Kisa ki te rive Nadim akoz apèl maj li a?
+   a) Yo te vann byen li yo nan pri favorab e wo
+   b) Yo te vann yon pati nan byen li yo otomatikman nan pri ki ba, sa ki te bloke pèt
+   c) Li te resevwa yon peman dividann pito
+   d) Kont li pa t afekte
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon apèl maj se yon demann konpayi kourtaj pou plis garanti lè yon kont sou maj desann anba yon nivo antretyen obligatwa.
+2. Apèl maj souvan rive pandan bès mache, sa ki fòse vant nan pri ki ba pou remete konfòmite.
+3. Envestisè ki fè fas a apèl maj ka pa gen ase tan oswa resous pou evite yon vant fòse nan move moman.
+4. Yo te vann byen Nadim yo pa fòs nan pri ki ba pandan bès la, sa ki te bloke pèt li ta ka evite otreman.
+
+**7. Pwen kle yo**
+- Yon apèl maj mande plis garanti lè valè yon kont sou maj desann anba yon nivo obligatwa.
+- Apèl maj souvan rive pandan bès, sa ki fòse vant egzakteman nan pi move moman posib.
+- Sa ka fè volatilite tanporè tounen yon pèt pèmanan ki bloke.
+- Risk vant fòse sa a se yon rezon kle ki fè maj anjeneral bon sèlman pou envestisè ki gen eksperyans e ki gen bon kapital.
