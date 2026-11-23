@@ -1,0 +1,519 @@
+===== BLACK-L1-031
+TITLE: Marcos para delegar
+SUMMARY: Ofrece un marco práctico para decidir cuánta supervisión aplicar al delegar una tarea.
+<!-- Learning Objectives -->
+# Marcos para delegar
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Identificar distintos niveles de delegación y cuándo usar cada uno
+- Explicar por qué importa ajustar el nivel de supervisión al riesgo de la tarea y a la experiencia de la persona
+- Practicar cómo escoger un nivel de delegación adecuado para un escenario determinado
+
+## Contenido principal
+
+No toda delegación debe verse igual. Delegar una tarea de poco riesgo a un miembro del equipo con experiencia requiere un nivel de supervisión muy distinto del que requiere delegar una tarea de mucho riesgo a alguien más nuevo en el puesto. Un marco útil tiene varios niveles: «hazlo y cuéntame lo que hiciste» (autonomía total, adecuada para personas con experiencia en tareas de menor riesgo), «hazlo, pero consúltame antes de finalizar» (autonomía parcial, adecuada para tareas de más riesgo o para personas con menos experiencia) y «hagámoslo juntos» (colaboración cercana, adecuada para situaciones nuevas, de mucho riesgo o inusualmente complejas).
+
+Escoger el nivel equivocado, en cualquier dirección, causa problemas. Demasiada supervisión en una tarea que alguien es perfectamente capaz de gestionar desperdicia el tiempo de ambas personas y puede sentirse como falta de confianza. Muy poca supervisión en una tarea en la que alguien de verdad necesita más apoyo puede llevar a errores costesos y a una experiencia desalentadora para la persona a la que no se le dieron las condiciones para tener éxito.
+
+El nivel adecuado no es fijo para siempre: a medida que alguien gana experiencia y demuestra confiabilidad en un tipo de tarea, el nivel de supervisión adecuado debe disminuir con el tiempo, lo cual es en sí mismo una forma de invertir en su crecimiento.
+
+## Ejemplo práctico
+
+A una persona recién contratada se le asigna una tarea frente al cliente, con ingresos reales en juego, en el nivel de «hazlo y cuéntame lo que hiciste», sin una preparación adecuada, y comete un error costeso que un nivel más apropiado de «hagámoslo juntos» habría detectado. Compare eso con exigirle a un miembro del equipo con experiencia que consulte cada pequeña decisión en una tarea rutinaria que ha manejado con éxito docenas de veces: eso desperdicia tiempo y puede empezar a sentirse como falta de confianza. Ajustar el nivel de delegación tanto a lo que está en juego en la tarea como a la experiencia real de la persona evita ambos tipos de falla.
+
+## Cuestionario práctico
+
+1. Nombre los tres niveles de delegación que describe esta lección.
+2. ¿Qué dos factores deben determinar qué nivel es el adecuado?
+3. ¿Qué pasa cuando se aplica demasiada supervisión a una persona capaz en una tarea de poco riesgo?
+4. ¿Qué pasa cuando se aplica muy poca supervisión a alguien que necesita más apoyo?
+
+## Clave de respuestas
+
+1. «Hazlo y cuéntame», «hazlo, pero consúltame antes de finalizar» y «hagámoslo juntos».
+2. Lo que está en juego o el nivel de riesgo de la tarea, y la experiencia real de la persona con ese tipo de tarea.
+3. Desperdicia el tiempo de ambas personas y puede sentirse como falta de confianza.
+4. Puede llevar a errores costesos y a una experiencia desalentadora para alguien a quien no se le dieron las condiciones para tener éxito.
+
+## Respuestas y explicaciones
+
+1. Estos tres niveles representan un espectro práctico de supervisión al delegar.
+2. Ajustar la supervisión tanto al riesgo de la tarea como a la experiencia de la persona es el principio central del marco.
+3. El exceso de supervisión tiene costes reales, no solo la falta de supervisión, que suele ser el tipo de falla del que más se habla.
+4. La falta de supervisión en una tarea realmente difícil o de mucho riesgo crea sus propios riesgos reales.
+
+## Puntos clave
+
+- La delegación debe adaptarse a distintos niveles de supervisión, desde la autonomía total hasta la colaboración cercana.
+- El nivel adecuado depende tanto de lo que está en juego en la tarea como de la experiencia real de la persona con ese tipo de trabajo.
+- El nivel de supervisión debe disminuir con el tiempo a medida que alguien demuestra confiabilidad, lo cual es en sí mismo una inversión en su crecimiento.
+
+===== BLACK-L1-032
+TITLE: Gestionar hacia arriba: cómo tratar con sus propios inversores, su junta o su jefe
+SUMMARY: Presenta la habilidad de gestionar las relaciones con las personas ante quienes un líder rinde cuentas, y no solo con las personas que le rinden cuentas a él.
+<!-- Learning Objectives -->
+# Gestionar hacia arriba: cómo tratar con sus propios inversores, su junta o su jefe
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Explicar por qué el liderazgo incluye gestionar las relaciones hacia arriba, y no solo hacia abajo
+- Identificar prácticas que construyen confianza con los inversores, las juntas o los supervisores
+- Reconocer el coste de evitar dar noticias difíciles a las personas ante quienes usted rinde cuentas
+
+## Contenido principal
+
+Las conversaciones sobre liderazgo a menudo se enfocan por completo en dirigir a las personas que le rinden cuentas a usted, pero todo líder también le rinde cuentas a alguien: inversores, una junta, un supervisor o un cliente. Manejar bien esa relación es tanto una habilidad de liderazgo como dirigir a un equipo directo, aunque se hable de ella con mucha menos frecuencia.
+
+Un error común es comunicar hacia arriba solo las buenas noticias, y evitar o suavizar las noticias difíciles por miedo a cómo serán recibidas. Esto tiende a salir mal de la misma forma en que sale mal evitar la retroalimentación difícil con un equipo directo: las personas ante quienes usted rinde cuentas pierden la confianza una vez que descubren que usted estaba manejando su percepción en lugar de darles una imagen honesta, y empiezan a verificar dos veces todo lo que les dice de ahí en adelante.
+
+Gestionar bien hacia arriba significa una comunicación proactiva y honesta: señalar los problemas temprano y no solo cuando ya son innegables, llegar con un plan y no solo con un problema cuando sea posible, y tratar la relación como una alianza y no como una obligación de informar en una sola dirección.
+
+## Ejemplo práctico
+
+Un fundador nota una tendencia preocupante en los datos de retención de clientes dos meses antes de la próxima reunión programada de la junta. Gestionar mal hacia arriba significa esperar hasta la reunión programada para mencionarla, o restarle importancia cuando le preguntan directamente. Gestionar bien hacia arriba significa comunicarse con la junta de forma proactiva y antes: «Quiero señalarles una tendencia de retención que estoy viendo; esta es mi lectura de lo que la está causando y este es el plan que estoy probando para atenderla». Esto construye confianza porque demuestra que el fundador detecta los problemas temprano y trae soluciones, no solo malas noticias entregadas tarde.
+
+## Cuestionario práctico
+
+1. ¿Por qué gestionar hacia arriba se considera una habilidad de liderazgo, aunque se hable menos de ella?
+2. ¿Qué error común cometen los líderes al comunicarse con las personas ante quienes rinden cuentas?
+3. ¿Por qué comunicar hacia arriba solo las buenas noticias termina saliendo mal?
+4. Según esta lección, ¿qué incluye normalmente gestionar bien hacia arriba?
+
+## Clave de respuestas
+
+1. Porque todo líder le rinde cuentas a alguien, y gestionar bien esa relación requiere una habilidad real, igual que dirigir a un equipo directo.
+2. Evitar o suavizar las noticias difíciles por miedo a cómo serán recibidas.
+3. Porque las personas que dependen de recibir información exacta terminan descubriendo el patrón y pierden la confianza, lo que lleva a un escrutinio mayor de ahí en adelante.
+4. Una comunicación proactiva y honesta que señala los problemas temprano y, cuando es posible, viene acompañada de un plan propuesto.
+
+## Respuestas y explicaciones
+
+1. Esto corrige la suposición común de que la habilidad de liderazgo solo se aplica a las relaciones hacia abajo.
+2. Este error refleja la lección anterior sobre evitar la retroalimentación difícil, aplicada en dirección hacia arriba.
+3. Descubrir que se estaba ocultando un patrón daña la confianza de la que dependen las relaciones hacia arriba.
+4. La honestidad proactiva acompañada de soluciones es la práctica específica que recomienda la lección.
+
+## Puntos clave
+
+- Manejar las relaciones con los inversores, las juntas o los supervisores es una habilidad de liderazgo real, no un asunto aparte de dirigir a un equipo.
+- Evitar o suavizar las malas noticias hacia arriba suele salir mal una vez que se descubre, y daña la confianza.
+- Gestionar bien hacia arriba significa una comunicación proactiva y honesta que señala los problemas temprano, idealmente con un plan.
+
+===== BLACK-L1-033
+TITLE: Leer un estado de ganancias y pérdidas básico como líder
+SUMMARY: Enseña a los líderes a leer un estado de ganancias y pérdidas lo bastante bien como para tomar decisiones informadas, sin necesidad de ser expertos en contabilidad.
+<!-- Learning Objectives -->
+# Leer un estado de ganancias y pérdidas básico como líder
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Identificar las secciones básicas de un estado de ganancias y pérdidas
+- Explicar qué debe buscar un líder al revisar un estado de ganancias y pérdidas
+- Practicar cómo interpretar un ejemplo simplificado de estado de ganancias y pérdidas
+
+## Contenido principal
+
+Un estado de ganancias y pérdidas (en inglés, *profit and loss statement* o P&L; también llamado estado de resultados) resume los ingresos, los gastos y la ganancia o pérdida resultante durante un periodo específico. Un líder no necesita ser contador para leerlo de forma útil: necesita entender la estructura básica lo suficientemente bien como para detectar tendencias y hacer buenas preguntas.
+
+La estructura básica: los ingresos arriba (todo el dinero que entra), luego los gastos divididos en categorías (coste de los bienes vendidos, gastos de operación como el alquiler y los salarios, y otros costes), y la ganancia o pérdida abajo, después de restar todos los gastos de los ingresos. Un líder que revisa un estado de ganancias y pérdidas debe buscar tendencias a lo largo del tiempo (si los ingresos crecen o se reducen, si ciertas categorías de gastos crecen más rápido que los ingresos), y no solo la cifra final de un periodo aislado.
+
+La meta no es reemplazar el conocimiento de un tenedor de libros o de un contador: es estar lo bastante informado como para hacer preguntas precisas, notar temprano las tendencias preocupantes y tomar decisiones (según la lección anterior sobre alfabetización financiera) basadas en números reales y no en una sensación general sobre cómo le va al negocio.
+
+## Ejemplo práctico
+
+Una líder que revisa los estados de ganancias y pérdidas de tres meses nota que los ingresos se han mantenido más o menos estables, pero que una categoría de gastos específica —las suscripciones de programas— ha subido poco a poco un 40 % en el mismo periodo, sin un aumento claro y correspondiente en el uso o el valor. Esta tendencia no sería evidente en la foto de un solo mes, pero comparar periodos la revela con claridad. Esa observación lleva a una pregunta útil y específica para el equipo: ¿por qué ha crecido este coste, y está aportando un valor proporcional?
+
+## Cuestionario práctico
+
+1. ¿Cuáles son los tres componentes básicos de un estado de ganancias y pérdidas?
+2. Además de la cifra final, ¿qué debe buscar un líder al revisar un estado de ganancias y pérdidas?
+3. ¿Es la meta de esta habilidad reemplazar a un tenedor de libros o a un contador?
+4. En el ejemplo práctico, ¿qué tendencia específica reveló la comparación de varios periodos?
+
+## Clave de respuestas
+
+1. Los ingresos, los gastos (divididos en categorías) y la ganancia o pérdida resultante.
+2. Las tendencias a lo largo del tiempo: si los ingresos y las categorías de gastos crecen, se reducen o se mueven de forma desproporcionada entre sí.
+3. No: la meta es estar lo bastante informado como para hacer preguntas precisas y notar tendencias, no reemplazar el conocimiento de los especialistas.
+4. El coste de las suscripciones de programas subió un 40 % sin un aumento correspondiente en el uso o el valor, mientras los ingresos se mantuvieron estables.
+
+## Respuestas y explicaciones
+
+1. Esta estructura es el modelo básico de todo estado de ganancias y pérdidas.
+2. El análisis de tendencias revela patrones que una sola foto pasaría por alto por completo.
+3. La lección presenta esto de forma explícita como una supervisión informada, no como un reemplazo de los especialistas financieros.
+4. Este ejemplo demuestra el valor de comparar varios periodos en lugar de una sola cifra aislada.
+
+## Puntos clave
+
+- Un estado de ganancias y pérdidas muestra los ingresos, los gastos y la ganancia o pérdida resultante durante un periodo.
+- Los líderes deben buscar tendencias entre periodos, no solo una cifra final aislada.
+- La meta es una supervisión informada y preguntas precisas, no reemplazar el conocimiento de un tenedor de libros o de un contador.
+
+===== BLACK-L1-034
+TITLE: Lo que un líder necesita saber sobre el flujo de caja
+SUMMARY: Explica el flujo de caja como algo distinto de la ganancia y por qué los líderes deben vigilarlo por separado.
+<!-- Learning Objectives -->
+# Lo que un líder necesita saber sobre el flujo de caja
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Distinguir el flujo de caja de la ganancia
+- Explicar por qué un negocio rentable puede tener de todos modos problemas serios
+- Identificar prácticas básicas que ayudan a un líder a vigilar el flujo de caja
+
+## Contenido principal
+
+La ganancia y el flujo de caja no son lo mismo, y confundirlos es uno de los errores más peligrosos que puede cometer un líder. La ganancia es lo que queda después de restar los gastos de los ingresos, en papel, durante un periodo. El flujo de caja tiene que ver con el tiempo: cuándo llega realmente el dinero y cuándo tiene que salir realmente. Un negocio puede ser rentable en papel y aun así quedarse sin efectivo real para pagar sus facturas, si los ingresos llegan después de la fecha en que vencen los gastos.
+
+Esto ocurre comúnmente cuando un negocio les da crédito a sus clientes (le deben dinero, pero todavía no han pagado) mientras sigue teniendo que pagar sus propias facturas —alquiler, nómina, proveedores— según un calendario fijo. El negocio puede ser rentable en el sentido de que con el tiempo cobrará más de lo que debe, pero si los tiempos no coinciden, puede enfrentar una verdadera crisis de efectivo a pesar de ser rentable en papel.
+
+Los líderes deben llevar el control del flujo de caja por separado de la ganancia: cuánto efectivo hay realmente disponible ahora mismo, qué va a entrar y cuándo, y qué va a salir y cuándo. Una proyección sencilla del flujo de caja —que estime el efectivo que se espera que entre y salga en las próximas semanas o meses— detecta los problemas de tiempo antes de que se conviertan en emergencias.
+
+## Ejemplo práctico
+
+Un negocio de consultoría les factura a sus clientes con plazos de pago de 60 días, pero tiene que pagarles a sus propios contratistas en un plazo de 15 días. Aunque el negocio es realmente rentable —los clientes terminan pagando más de lo que cuestan los contratistas—, el desfase entre pagarles rápido a los contratistas y cobrarles despacio a los clientes puede crear una escasez real de efectivo mientras tanto. Un líder que lleve el control del flujo de caja por separado de la ganancia vería venir este desfase y podría acordar una solución a corto plazo (una línea de crédito, ajustar los plazos de pago) antes de que se convierta en una emergencia, en lugar de que lo tome por sorpresa un negocio «rentable» que de repente no puede pagar la nómina.
+
+## Cuestionario práctico
+
+1. ¿Cuál es la diferencia entre la ganancia y el flujo de caja?
+2. ¿Por qué un negocio rentable puede quedarse sin efectivo de todos modos?
+3. ¿Qué causa comúnmente este tipo de desfase de tiempo?
+4. ¿Qué práctica ayuda a un líder a detectar los problemas de flujo de caja antes de que se conviertan en emergencias?
+
+## Clave de respuestas
+
+1. La ganancia es lo que queda después de los gastos, en papel, durante un periodo; el flujo de caja tiene que ver con el tiempo real en que el dinero entra y sale.
+2. Porque los ingresos pueden llegar después de la fecha en que vencen los gastos, lo que crea un desfase de tiempo aunque el negocio sea rentable en conjunto.
+3. Darles crédito a los clientes mientras el negocio sigue teniendo sus propias obligaciones fijas de pago con un calendario más rápido.
+4. Una proyección sencilla del flujo de caja que estime el efectivo que se espera que entre y salga en las próximas semanas o meses.
+
+## Respuestas y explicaciones
+
+1. Esta distinción es el concepto central que enseña la lección: la ganancia y el flujo de caja responden preguntas distintas.
+2. Los desfases de tiempo, y no la falta de rentabilidad de fondo, son la causa real de muchas crisis de efectivo.
+3. Los desfases entre los plazos de pago de lo que un negocio debe y de lo que le deben son una fuente común de este problema.
+4. La proyección saca a la luz los desfases de tiempo de forma proactiva, antes de que se conviertan en emergencias urgentes.
+
+## Puntos clave
+
+- La ganancia y el flujo de caja son conceptos distintos: la ganancia está en papel; el flujo de caja tiene que ver con el tiempo real.
+- Un negocio realmente rentable puede tener de todos modos problemas serios si los tiempos del efectivo no coinciden.
+- Llevar el control del flujo de caja por separado, con una proyección sencilla, detecta los problemas de tiempo antes de que se conviertan en crisis.
+
+===== BLACK-L1-035
+TITLE: Hacer el presupuesto de un departamento o de una empresa pequeña
+SUMMARY: Presenta los fundamentos prácticos del presupuesto para los líderes responsables del presupuesto de un departamento o de un pequeño negocio.
+<!-- Learning Objectives -->
+# Hacer el presupuesto de un departamento o de una empresa pequeña
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Explicar el propósito básico de un presupuesto como herramienta de planificación
+- Identificar la diferencia entre los costes fijos y los variables en un presupuesto
+- Practicar cómo armar el esquema de un presupuesto sencillo para una operación pequeña
+
+## Contenido principal
+
+Un presupuesto es un plan de cómo se gastará el dinero durante un periodo, elaborado antes de que ocurra el gasto, para que las decisiones puedan tomarse de forma deliberada y no reactiva. Su propósito no es restringir el gasto de manera arbitraria: es obligar a que la conversación sobre las prioridades (de la lección sobre la asignación de recursos) ocurra desde el principio, en lugar de resolverse al azar a medida que surgen los gastos.
+
+Los presupuestos normalmente separan los costes fijos (gastos que se mantienen más o menos iguales sin importar el nivel de actividad, como el alquiler o un salario base) de los costes variables (gastos que cambian según la actividad, como los materiales o la mano de obra por hora vinculada al volumen de proyectos). Entender esta distinción importa porque cambia lo que realmente se puede controlar a corto plazo: los costes fijos normalmente quedan comprometidos por un tiempo, mientras que los costes variables a menudo pueden ajustarse con más rapidez ante condiciones cambiantes.
+
+Un presupuesto básico debe revisarse con regularidad, no fijarse una vez y olvidarse. Comparar el gasto real con el plan presupuestado revela si las suposiciones eran realistas y dónde hacen falta ajustes de ahí en adelante.
+
+## Ejemplo práctico
+
+Un departamento pequeño presupuesta 10.000 € mensuales: 6.000 € en costes fijos (salarios, suscripciones de programas) y 4.000 € en costes variables (horas de contratistas vinculadas al volumen de proyectos). Tres meses después, comparar el gasto real con el presupuesto revela que el coste de los contratistas ha estado constantemente un 20 % por encima de lo presupuestado, mientras que las suscripciones de programas casi no se han usado en comparación con lo que cuestan. Esta comparación, posible solo porque existía un presupuesto con el cual comparar, saca a la luz dos problemas específicos y atendibles, en lugar de una vaga sensación de que «se está gastando mucho».
+
+## Cuestionario práctico
+
+1. ¿Cuál es el propósito básico de un presupuesto?
+2. ¿Cuál es la diferencia entre los costes fijos y los variables?
+3. ¿Por qué debe revisarse un presupuesto con regularidad en lugar de fijarse una sola vez?
+4. En el ejemplo práctico, ¿qué reveló la comparación del gasto real con el presupuesto?
+
+## Clave de respuestas
+
+1. Un plan de gasto elaborado de antemano, que obliga a tomar las decisiones de prioridad de forma deliberada y no reactiva.
+2. Los costes fijos se mantienen más o menos iguales sin importar el nivel de actividad; los costes variables cambian según la actividad o el volumen.
+3. Porque comparar el gasto real con el plan revela si las suposiciones eran realistas y dónde hacen falta ajustes.
+4. Que el coste de los contratistas estaba constantemente por encima de lo presupuestado y que las suscripciones de programas casi no se usaban.
+
+## Respuestas y explicaciones
+
+1. Esto define el presupuesto como una herramienta de planificación proactiva y no como un mecanismo de control restrictivo.
+2. Esta distinción aclara qué se puede ajustar realmente a corto plazo y qué está más comprometido.
+3. La comparación continua con lo real es lo que convierte el presupuesto en una herramienta de gestión útil y no en un documento estático.
+4. Este ejemplo muestra el valor práctico de tener un presupuesto con el cual comparar el gasto real.
+
+## Puntos clave
+
+- Un presupuesto es un plan de gasto proactivo que obliga a tomar las decisiones de prioridad desde el principio.
+- Los costes fijos se mantienen más o menos constantes; los costes variables cambian con la actividad, y esta distinción afecta lo que se puede ajustar a corto plazo.
+- Comparar con regularidad el gasto real con el presupuesto saca a la luz problemas específicos y atendibles, en lugar de una vaga sensación de que algo anda mal.
+
+===== BLACK-L1-036
+TITLE: El coste de una mala contratación
+SUMMARY: Cuantifica el coste real de una mala decisión de contratación, más allá del salario pagado.
+<!-- Learning Objectives -->
+# El coste de una mala contratación
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Identificar toda la gama de costes asociados a una mala contratación, más allá del salario
+- Explicar por qué las malas contrataciones a menudo cuestan más de lo que parecen al principio
+- Reconocer cómo este coste debe orientar la urgencia y el proceso de contratación
+
+## Contenido principal
+
+Cuando una decisión de contratación sale mal, el coste visible —el salario pagado durante el tiempo que estuvo esa persona— es solo una parte del coste real. El coste completo incluye: el tiempo dedicado a reclutar y adiestrar a esa persona, el tiempo dedicado a gestionar problemas de desempeño o errores, el impacto en el ánimo del equipo y en el trabajo de otras personas que tuvieron que cubrir los vacíos, cualquier coste directo de los errores que cometió la persona y, después, todo el coste de reclutar y adiestrar a un reemplazo, empezando de nuevo todo el proceso.
+
+Esta imagen completa explica por qué las decisiones de contratación merecen un cuidado real y no deben apresurarse solo para llenar un vacío urgente. Una contratación apresurada que sale mal a menudo cuesta bastante más, en total, que tomarse un poco más de tiempo para encontrar a la persona adecuada desde el principio, aunque en el momento la decisión apresurada se sienta más rápida.
+
+Entender este coste debe orientar qué tan rápido actúa un líder una vez que queda claro que una contratación no está funcionando. Aplazar la decisión difícil de separarse, con la esperanza de que la situación mejore por sí sola, normalmente solo prolonga y agrava el coste total en lugar de evitarlo.
+
+## Ejemplo práctico
+
+Un pequeño negocio se apresura a llenar un puesto urgente y se salta la verificación de referencias para avanzar más rápido. La persona contratada tiene dificultades durante seis meses antes de que el negocio finalmente atienda el asunto; durante ese tiempo bajó el ánimo, otros miembros del equipo absorbieron en silencio trabajo adicional y ocurrió un error costeso con un cliente. El coste total, una vez que se toman en cuenta el salario, la productividad perdida, la tensión en el equipo, el error y el coste final de contratar y adiestrar a un reemplazo, supera por mucho lo que habría costado un proceso de contratación inicial un poco más largo y cuidadoso.
+
+## Cuestionario práctico
+
+1. Además del salario, ¿qué costes forman parte del coste completo de una mala contratación?
+2. ¿Por qué una decisión de contratación apresurada podría terminar costando más que una cuidadosa?
+3. ¿Qué sugiere entender este coste completo sobre cómo actuar ante un error de contratación?
+4. En el ejemplo práctico, ¿qué costes específicos se acumularon durante los seis meses?
+
+## Clave de respuestas
+
+1. El tiempo de reclutamiento y adiestramiento, el tiempo de manejo del desempeño, el ánimo del equipo y el trabajo para cubrir los vacíos, el coste de los errores y el coste final del reemplazo.
+2. Porque una persona que no encaja genera costes en varias categorías que a menudo superan el tiempo que se ahorró al apresurar la decisión inicial.
+3. Que aplazar una decisión difícil para atender un error de contratación normalmente agrava el coste total en lugar de evitarlo.
+4. La baja en el ánimo, el trabajo adicional que absorbieron otros, un error costeso con un cliente y el coste final de reemplazar a la persona contratada.
+
+## Respuestas y explicaciones
+
+1. Esta cuenta completa revela el verdadero alcance del coste, más allá de la partida visible del salario.
+2. Apresurarse implica saltarse pasos (como la verificación de referencias) que reducen el riesgo de exactamente este tipo de resultado costeso.
+3. La naturaleza acumulativa de estos costes es un argumento para atender los errores de contratación con prontitud en lugar de aplazarlos.
+4. Este ejemplo práctico suma las categorías de coste nombradas antes en la lección.
+
+## Puntos clave
+
+- El coste real de una mala contratación incluye el reclutamiento, el adiestramiento, el manejo del desempeño, la tensión en el equipo, los errores y el reemplazo final, mucho más allá del salario.
+- Las decisiones de contratación apresuradas a menudo cuestan más en total que un proceso más cuidadoso y un poco más lento.
+- Una vez que queda claro que una contratación no funciona, aplazar la acción normalmente agrava el coste total en lugar de evitarlo.
+
+===== BLACK-L1-037
+TITLE: Pensar en el rendimiento de la inversión (ROI) aplicado a las decisiones de liderazgo
+SUMMARY: Enseña a los líderes a evaluar las decisiones con la lente del rendimiento de la inversión, más allá del gasto financiero.
+<!-- Learning Objectives -->
+# Pensar en el rendimiento de la inversión (ROI) aplicado a las decisiones de liderazgo
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Definir el pensamiento de rendimiento de la inversión en términos sencillos
+- Aplicar el pensamiento de rendimiento de la inversión a decisiones de liderazgo no financieras
+- Practicar cómo evaluar una decisión de liderazgo con la lente del rendimiento de la inversión
+
+## Contenido principal
+
+El ROI, o rendimiento de la inversión (en inglés, *return on investment*), normalmente se discute en términos financieros: cuánto rendimiento genera un euro gastado. Pero la lógica de fondo —sopesar lo que usted pone frente a lo que probablemente recibirá a cambio— se aplica con la misma utilidad a decisiones de liderazgo no financieras, como dónde invertir el tiempo, la atención o la energía de la organización.
+
+Aplicar el pensamiento de rendimiento de la inversión al liderazgo significa preguntarse, ante cualquier inversión importante de tiempo o energía: ¿cuál es el rendimiento esperado aquí, y es proporcional a lo que se está invirtiendo? Un líder que pasa horas perfeccionando un documento interno de poca importancia está invirtiendo tiempo con un rendimiento esperado muy bajo, mientras que esas mismas horas dedicadas a atender un verdadero cuello de botella que está frenando a todo el equipo tendrían un rendimiento mucho mayor.
+
+No se trata de reducir cada decisión a un cálculo frío: algunas inversiones (como construir relaciones o la cultura del equipo) tienen rendimientos reales, pero más difíciles de cuantificar. Se trata de mantenerse consciente de la proporcionalidad: ajustar el tamaño de una inversión de tiempo y energía al valor esperado real del resultado, en lugar de dedicar un esfuerzo desproporcionado a actividades de poco valor por costumbre o para evitar una prioridad más difícil.
+
+## Ejemplo práctico
+
+Una líder pasa toda una tarde perfeccionando el formato de un memorando interno que solo unas pocas personas leerán una vez, mientras un verdadero cuello de botella continuo en el proceso de despacho de pedidos le sigue costando al negocio dinero real y la satisfacción de los clientes. Aplicar el pensamiento de rendimiento de la inversión redirigiría esa tarde hacia el cuello de botella del despacho: un rendimiento esperado mucho mayor por la misma cantidad de tiempo y energía invertidos.
+
+## Cuestionario práctico
+
+1. Defina el pensamiento de rendimiento de la inversión con sus propias palabras, más allá de su definición puramente financiera.
+2. ¿Qué pregunta hace el pensamiento de rendimiento de la inversión sobre una inversión de tiempo o energía?
+3. ¿Significa el pensamiento de rendimiento de la inversión reducir cada decisión a un cálculo frío?
+4. En el ejemplo práctico, ¿qué redistribución sugeriría el pensamiento de rendimiento de la inversión?
+
+## Clave de respuestas
+
+1. Sopesar lo que se invierte frente al rendimiento esperado, aplicado de forma amplia al tiempo y a la energía, no solo al dinero.
+2. ¿Cuál es el rendimiento esperado aquí, y es proporcional a lo que se está invirtiendo?
+3. No: algunas inversiones tienen rendimientos reales, pero más difíciles de cuantificar, como construir relaciones o la cultura.
+4. Redirigir la tarde del formato del memorando hacia el cuello de botella del despacho, que tiene más valor.
+
+## Respuestas y explicaciones
+
+1. Esto amplía el concepto financiero tradicional del rendimiento de la inversión a la toma de decisiones de liderazgo en general.
+2. Esta pregunta pone en práctica el pensamiento de rendimiento de la inversión como una herramienta de liderazgo.
+3. La lección evita de forma explícita reducir todas las decisiones a un cálculo puramente cuantitativo.
+4. Este ejemplo aplica directamente el principio de proporcionalidad a un escenario de liderazgo específico.
+
+## Puntos clave
+
+- El pensamiento de rendimiento de la inversión se aplica más allá de las finanzas: a cualquier inversión de tiempo, atención o energía de la organización.
+- La pregunta central es si el rendimiento esperado de una inversión es proporcional a lo que se pone.
+- Mantenerse consciente de la proporcionalidad evita dedicar un esfuerzo desproporcionado a actividades de poco valor a costa de prioridades de más valor.
+
+===== BLACK-L1-038
+TITLE: Cuándo recurrir a expertos externos
+SUMMARY: Aplica la analogía del médico a las decisiones de liderazgo sobre cuándo vale la pena pagar por ayuda profesional.
+<!-- Learning Objectives -->
+# Cuándo recurrir a expertos externos
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Explicar la analogía del médico para la consulta profesional
+- Identificar situaciones en las que vale la pena pagar por expertos externos
+- Reconocer el riesgo de evitar la ayuda profesional para ahorrar dinero a corto plazo
+
+## Contenido principal
+
+Si su negocio está «enfermo» —enfrenta un riesgo legal, una complicación tributaria, un problema técnico especializado—, usted acude al profesional adecuado, de la misma forma en que iría al médico por un problema de salud en lugar de intentar diagnosticarlo y tratarlo usted mismo. Esto replantea los honorarios de una consulta profesional no como un gasto que se puede evitar, sino como un seguro contra un perjuicio mucho mayor si el problema no se atiende o lo maneja mal alguien sin la pericia adecuada.
+
+Los líderes a veces evitan recurrir a expertos externos para ahorrar dinero a corto plazo, sobre todo en un pequeño negocio donde cada gasto se siente importante. Eso puede salir bien en asuntos realmente menores, pero en cualquier asunto con un riesgo legal, financiero o especializado real, el coste de un error —un mal contrato, un error en una planilla de impuestos, una falla técnica— a menudo empequeñece el coste de la consulta que lo habría evitado.
+
+Una pregunta útil para decidir: si esto sale mal porque lo manejé sin la pericia adecuada, ¿cuál es el perjuicio realista en comparación con el coste de obtener ayuda profesional ahora? En los asuntos en que ese perjuicio es grande o difícil de revertir, normalmente vale la pena pagar por expertos externos.
+
+## Ejemplo práctico
+
+El dueño de un pequeño negocio redacta su propio contrato para una relación de negocios nueva e importante, para evitar los honorarios de un abogado. El contrato tiene un vacío que se convierte, un año después, en una disputa seria y costesa: un problema que una consulta legal de honorarios modestos desde el principio muy probablemente habría evitado. La analogía del médico se aplica directamente: tratar un «síntoma» legal sin el profesional adecuado llevó a un coste mucho mayor del que habría tenido el «seguro» de la consulta.
+
+## Cuestionario práctico
+
+1. Explique la analogía del médico para la consulta profesional.
+2. ¿Cómo replantea esta analogía los honorarios de una consulta?
+3. ¿Qué pregunta ayuda a decidir si vale la pena pagar por expertos externos?
+4. En el ejemplo práctico, ¿cuál fue el coste real de evitar la consulta legal?
+
+## Clave de respuestas
+
+1. Si su negocio está «enfermo» con un problema legal, tributario o especializado, usted acude al profesional adecuado, de la misma forma en que iría al médico por un problema de salud.
+2. Como un seguro contra un perjuicio mucho mayor, y no como un gasto que se puede evitar.
+3. Si esto sale mal porque lo manejé sin pericia, ¿cuál es el perjuicio realista en comparación con el coste de obtener ayuda ahora?
+4. Una disputa seria y costesa un año después, que una consulta legal de honorarios modestos muy probablemente habría evitado.
+
+## Respuestas y explicaciones
+
+1. Esta analogía replantea la ayuda profesional como una respuesta normal y esperada ante un tipo específico de problema.
+2. Este replanteamiento cambia el valor que se percibe en los honorarios de consulta: de coste a protección.
+3. Esta pregunta pone en práctica la decisión de cuándo realmente vale la pena pagar por expertos externos.
+4. Este ejemplo demuestra el riesgo financiero real de evitar la ayuda profesional adecuada.
+
+## Puntos clave
+
+- La analogía del médico replantea la consulta profesional como la respuesta adecuada ante un tipo específico de «enfermedad» del negocio.
+- Los honorarios de consulta funcionan como un seguro contra un perjuicio mucho mayor, no como un gasto que se puede evitar.
+- Sopese el perjuicio realista de gestionar un asunto riesgoso sin pericia frente al coste de obtener ayuda ahora.
+
+===== BLACK-L1-039
+TITLE: La tolerancia al riesgo como rasgo de liderazgo
+SUMMARY: Explica cómo la tolerancia al riesgo de un líder moldea la toma de decisiones y cómo calibrarla de forma deliberada.
+<!-- Learning Objectives -->
+# La tolerancia al riesgo como rasgo de liderazgo
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Explicar qué significa la tolerancia al riesgo en el contexto del liderazgo
+- Identificar la diferencia entre una tolerancia al riesgo sana y la imprudencia
+- Practicar cómo calibrar la tolerancia al riesgo según lo que realmente está en juego en una decisión específica
+
+## Contenido principal
+
+La tolerancia al riesgo es cuánta incertidumbre y cuánto perjuicio posible está dispuesto a aceptar un líder en busca de un beneficio posible. Todo líder tiene una tendencia natural hacia la cautela o hacia la audacia, pero el liderazgo eficaz no consiste en tener un nivel fijo de tolerancia al riesgo: consiste en calibrar esa tolerancia de forma adecuada a lo que realmente está en juego en cada decisión específica, en lugar de aplicar el mismo instinto a todo.
+
+Una tolerancia al riesgo sana asume riesgos reales y pensados cuando el beneficio posible lo justifica y el perjuicio es soportable. La imprudencia asume riesgos sin evaluar con honestidad el perjuicio, a menudo impulsada por el exceso de confianza o la impaciencia. La cautela excesiva, en el extremo opuesto, evita riesgos razonables aun cuando el beneficio posible claramente los justifica, por miedo y no por un análisis genuino.
+
+Esto se conecta directamente con la lección anterior sobre la reversibilidad en la toma de decisiones: la tolerancia al riesgo de un líder generalmente debe ser mayor en las decisiones reversibles con un perjuicio soportable, y menor en las decisiones irreversibles con un perjuicio potencialmente catastrófico, en lugar de aplicar en todas partes un mismo nivel fijo de comodidad.
+
+## Ejemplo práctico
+
+Un líder considera dos decisiones en la misma semana: probar un canal de marketing nuevo y no comprobado con un presupuesto pequeño y definido (poco en juego, reversible, vale la pena intentarlo aun sin certeza de éxito), y asumir una deuda grande para financiar una expansión rápida basada en proyecciones optimistas (mucho en juego, difícil de revertir, merece mucha más cautela y análisis). Tratar ambas decisiones con la misma tolerancia al riesgo —uniformemente cauteloso o uniformemente audaz— sería un error. Calibrar la tolerancia al riesgo según lo que realmente está en juego en cada decisión produce mejores resultados que una disposición personal fija aplicada a todo.
+
+## Cuestionario práctico
+
+1. Defina la tolerancia al riesgo en el contexto del liderazgo.
+2. ¿Cuál es la diferencia entre una tolerancia al riesgo sana y la imprudencia?
+3. ¿Cuál es la diferencia entre una tolerancia al riesgo sana y la cautela excesiva?
+4. ¿Cómo debe relacionarse la tolerancia al riesgo con la reversibilidad de una decisión?
+
+## Clave de respuestas
+
+1. Cuánta incertidumbre y cuánto perjuicio posible está dispuesto a aceptar un líder en busca de un beneficio posible.
+2. La tolerancia al riesgo sana evalúa con honestidad un perjuicio soportable frente a un beneficio justificado; la imprudencia ignora el perjuicio, a menudo por exceso de confianza.
+3. La tolerancia al riesgo sana asume riesgos justificados; la cautela excesiva evita riesgos razonables por miedo y no por un análisis genuino.
+4. La tolerancia al riesgo generalmente debe ser mayor en las decisiones reversibles y soportables, y menor en las irreversibles y potencialmente catastróficas.
+
+## Respuestas y explicaciones
+
+1. Esto define el concepto central que presenta la lección.
+2. La distinción se basa en evaluar con honestidad el perjuicio frente a ignorarlo.
+3. La distinción se basa en un análisis genuino frente a evitar por miedo un riesgo justificado.
+4. Esto conecta la tolerancia al riesgo directamente con el marco de decisión anterior sobre la reversibilidad.
+
+## Puntos clave
+
+- La tolerancia al riesgo debe calibrarse según lo que está en juego en cada decisión específica, no aplicarse como una disposición personal fija.
+- Una tolerancia al riesgo sana sopesa con honestidad un perjuicio soportable frente a un beneficio justificado; tanto la imprudencia como la cautela excesiva se saltan esa evaluación honesta.
+- Una tolerancia al riesgo mayor corresponde a las decisiones reversibles y soportables; una menor, a las irreversibles y de mucho en juego.
+
+===== BLACK-L1-040
+TITLE: Decisiones de crecimiento: cuándo crecer y cuándo esperar
+SUMMARY: Presenta un marco para decidir si un negocio está realmente listo para crecer o si primero debe consolidarse.
+<!-- Learning Objectives -->
+# Decisiones de crecimiento: cuándo crecer y cuándo esperar
+
+## Objetivos de aprendizaje
+<!-- Core Content -->
+
+- Explicar por qué crecer no siempre es la meta inmediata correcta
+- Identificar señales de que un negocio está realmente listo para crecer
+- Identificar señales de que un negocio debe consolidarse antes de seguir creciendo
+
+## Contenido principal
+
+El crecimiento a menudo se trata como algo bueno que no se cuestiona, pero crecer antes de que un negocio esté realmente listo puede amplificar los problemas existentes en lugar de resolverlos. Añadir más clientes, locales o personal a un negocio con problemas operativos sin resolver no corrige esos problemas: normalmente multiplica su impacto, porque ahora los mismos problemas ocurren a mayor escala, con más personas y más dinero afectados.
+
+Entre las señales de que un negocio puede estar realmente listo para crecer están: un éxito constante y repetible con las operaciones actuales (no un resultado de suerte de una sola vez), sistemas y documentación lo bastante sólidos como para que el crecimiento no dependa por completo de una o dos personas sobrecargadas, y una demanda comprobada que supera la capacidad actual. Entre las señales de que primero debe venir la consolidación están: una calidad o unos resultados inconstantes, procesos centrales que todavía existen solo en la cabeza de alguien en lugar de estar documentados, y operaciones actuales que ya están sobrecargadas sin añadir más volumen.
+
+La disciplina aquí se conecta con la lección anterior sobre la revelación de los sistemas: crecer multiplica lo que ya es cierto en un negocio. Hacer crecer un sistema que funciona bien multiplica el éxito; hacer crecer uno inestable multiplica la disfunción.
+
+## Ejemplo práctico
+
+Un restaurante considera abrir un segundo local después de tener ventas sólidas en el primero. Antes de crecer, un líder cuidadoso verifica: ¿son los buenos resultados constantes y explicables, o en parte cuestión de suerte? ¿Están las recetas, el adiestramiento y los procesos operativos lo bastante documentados como para que un segundo local pueda reproducir la calidad del primero, o todo depende del instinto no documentado de un chef específico? Si la respuesta revela que el éxito del primer local depende mucho de una persona irremplazable y de procesos no documentados, abrir un segundo local ahora mismo probablemente multiplicaría la sobrecarga y la inconstancia en lugar de multiplicar el éxito: primero deben venir la consolidación y la documentación.
+
+## Cuestionario práctico
+
+1. ¿Por qué crecer no siempre es la meta inmediata correcta para un negocio?
+2. Nombre dos señales de que un negocio puede estar realmente listo para crecer.
+3. Nombre dos señales de que la consolidación debe venir antes del crecimiento.
+4. En el ejemplo práctico, ¿qué habría multiplicado probablemente un crecimiento prematuro?
+
+## Clave de respuestas
+
+1. Porque crecer antes de que un negocio esté listo puede amplificar los problemas operativos existentes en lugar de resolverlos.
+2. Dos cualesquiera de estas: un éxito constante y repetible, sistemas y documentación sólidos que no dependan de una sola persona, una demanda comprobada que supera la capacidad actual.
+3. Dos cualesquiera de estas: una calidad o unos resultados inconstantes, procesos no documentados que existen solo en la cabeza de alguien, operaciones actuales sobrecargadas.
+4. La sobrecarga y la inconstancia, porque el éxito del primer local dependía de una persona irremplazable y no documentada.
+
+## Respuestas y explicaciones
+
+1. Crecer multiplica lo que ya es cierto en un negocio, incluidos los problemas sin resolver.
+2. Estas señales de preparación indican que el negocio puede reproducir su éxito de forma confiable a mayor escala.
+3. Estas señales indican que crecer amplificaría la disfunción existente y no una fortaleza genuina.
+4. Este ejemplo ilustra cómo un crecimiento prematuro puede multiplicar una debilidad sin resolver en lugar del éxito.
+
+## Puntos clave
+
+- Crecer no es automáticamente bueno: crecer antes de que un negocio esté listo amplifica los problemas existentes.
+- Entre las señales de preparación están los resultados constantes, los sistemas sólidos y documentados y una demanda comprobada que supera la capacidad.
+- Entre las señales de alerta están la inconstancia, los procesos no documentados y unas operaciones actuales ya sobrecargadas: primero debe venir la consolidación.
