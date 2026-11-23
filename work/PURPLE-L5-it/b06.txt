@@ -1,0 +1,459 @@
+===== PURPLE-L5-026
+TITLE: Le clausole della locazione commerciale che determinano il valore dell'impresa
+SUMMARY: Il contratto di locazione può decidere se un'impresa sopravvive a una crisi, cresce o può essere venduta; i diritti di rinnovo e di cessione contano quanto il canone, e il momento per negoziare l'intero contratto è prima di firmare.
+KEYWORDS: clausole della locazione commerciale, cessione della locazione, opzione di rinnovo, aggiornamento del canone, valore dell'impresa e locazione
+# Le clausole della locazione commerciale che determinano il valore dell'impresa
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un'ampia crisi sanitaria che blocca per un lungo periodo il trasporto marittimo e la produzione industriale nel mondo, inceppando le catene di approvvigionamento di molti settori contemporaneamente.
+Applicalo qui: Una lunga crisi fa chiudere un ristorante per mesi. Chiediti attraverso i colori: il contratto di locazione (PURPLE) esonera dal canone durante una chiusura forzata? Il titolare può vendere l'impresa (BLUE) se la locazione non può essere ceduta a un acquirente? Chi possiede le attrezzature della cucina installate nell'edificio (RED)?
+
+## Obiettivi di apprendimento
+- Individuare le clausole della locazione commerciale che incidono sul valore dell'impresa
+- Spiegare come le condizioni di cessione e di rinnovo incidono su una vendita
+- Negoziare le condizioni della locazione tenendo presente l'intero piano d'impresa
+
+## Contenuto principale
+Per molte imprese, il contratto di locazione è uno dei contratti più importanti che firmano. Può decidere in silenzio se l'impresa sopravvive a una crisi, cresce o può essere venduta.
+Clausole chiave:
+- Durata e opzioni di rinnovo: Quanto dura la locazione e se il conduttore può prolungarla. Un acquirente può pagare molto meno per un'impresa con un solo anno di locazione residuo e nessuna opzione di rinnovo.
+- Cessione e sublocazione: Il conduttore può trasferire la locazione a un acquirente? Molti contratti richiedono il consenso del locatore. Le clausole migliori dicono che il consenso "non sarà negato senza un motivo ragionevole".
+- Aggiornamenti del canone: Aumenti fissi, aumenti legati a un indice di inflazione o un canone in percentuale sulle vendite.
+- Spese di gestione: Chi paga le imposte sull'immobile, l'assicurazione e la manutenzione? Le locazioni in cui il conduttore paga quasi tutto trasferiscono su di lui più costi. REGOLA SPECIFICA DELLA REGIONE quanto alla terminologia; in Italia, per esempio, secondo le informazioni disponibili, la locazione commerciale dura in genere almeno sei anni rinnovabili per altri sei, il conduttore ha diritto in certi casi a un'indennità per la perdita dell'avviamento e può cedere il contratto insieme all'azienda, e l'IMU resta per legge a carico del proprietario, quindi verificalo con un avvocato.
+- Clausola di destinazione d'uso: Quale attività è permessa. Una clausola d'uso stretta può impedire un futuro cambio di modello di business.
+- Esclusiva: Protezione contro il locatore che affitta uno spazio vicino a un concorrente diretto.
+- Migliorie e impianti: A chi restano le migliorie installate dal conduttore quando la locazione finisce.
+- Garanzia personale: Spesso richiesta alle piccole imprese (vedi PURPLE-L5-009).
+- Forza maggiore e riduzione del canone: Se il canone viene ridotto o sospeso durante certi eventi. Molti contratti non esonerano affatto dal canone.
+Come si collegano i colori:
+- BLUE: La durata della locazione e la possibilità di cederla incidono direttamente sul valore di vendita dell'impresa.
+- RED: Il finanziamento e il valore dell'immobile del locatore dipendono da conduttori affidabili, il che incide su quanto è disposto a negoziare.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: I costi delle migliorie del conduttore e i contributi del locatore hanno un proprio trattamento fiscale.
+- ORANGE: Il potere negoziale è massimo prima della firma.
+IPOTESI/OPINIONE: Un conduttore che negozia la locazione solo sul canone mensile spesso rinuncia a molto più valore nelle altre clausole.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Omar apre un bar. Il locatore offre una locazione di 5 anni senza rinnovo, cessione solo con il consenso "a sua esclusiva discrezione" e una garanzia personale illimitata.
+La locazione negoziata da Omar:
+- 5 anni più due opzioni di rinnovo di 5 anni al canone di mercato.
+- Cessione a un acquirente qualificato, con un consenso che non può essere negato senza un motivo ragionevole.
+- Garanzia personale limitata a 12 mesi di canone, che si estingue dopo 3 anni di pagamenti puntuali.
+- Esclusiva: nessun altro bar nel centro commerciale.
+- Riduzione del canone se i locali non possono legalmente funzionare per più di 30 giorni a causa di un provvedimento delle autorità.
+Omar accetta un canone iniziale leggermente più alto per ottenere queste condizioni.
+Sei anni dopo, vende il bar. Poiché l'acquirente può subentrare nella locazione con due opzioni di rinnovo ancora disponibili, paga molto di più di quanto pagherebbe per un bar con una locazione breve. IPOTESI/OPINIONE: Le condizioni della locazione di Omar sono valse molte volte più della differenza di canone.
+
+## Quiz di esercitazione
+**Q1. Perché la durata residua della locazione incide sul valore di vendita di un'impresa?**
+A) Non incide
+B) Gli acquirenti preferiscono sempre locazioni brevi
+C) Le locazioni aumentano le imposte
+D) Un acquirente può pagare meno se l'impresa rischia di perdere presto i suoi locali
+**Q2. Che cosa fa l'espressione "consenso che non può essere negato senza un motivo ragionevole" in una clausola di cessione?**
+A) Permette al locatore di rifiutare per qualsiasi motivo
+B) Limita la possibilità del locatore di rifiutare un acquirente qualificato
+C) Vieta tutti i trasferimenti
+D) Elimina la garanzia
+**Q3. Da che cosa protegge una clausola di esclusiva?**
+A) Dagli aumenti del canone
+B) Dal locatore che affitta uno spazio vicino a un concorrente diretto
+C) Dalle imposte sull'immobile
+D) Dai sinistri assicurativi
+**Q4. Che cosa ha concesso Omar in cambio di condizioni migliori nella locazione?**
+A) La sua quota
+B) Un canone iniziale leggermente più alto
+C) Il nome del suo bar
+D) Le sue attrezzature
+**Q5. Contro quale errore mette in guardia la lezione?**
+A) Negoziare solo sul canone mensile
+B) Leggere il contratto di locazione
+C) Chiedere opzioni di rinnovo
+D) Rivolgersi a un avvocato
+
+## Chiave delle risposte
+Q1: D
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Risposte e spiegazioni
+**Q1.** La sicurezza dei locali fa parte del valore dell'impresa.
+**Q2.** Dà al conduttore una strada più equa per vendere.
+**Q3.** L'esclusiva protegge il mercato del conduttore.
+**Q4.** Ha pagato un po' più di canone per clausole di maggior valore.
+**Q5.** Le altre clausole spesso valgono più del canone.
+
+## Punti chiave
+- Le condizioni della locazione possono decidere sopravvivenza, crescita e valore di vendita
+- I diritti di rinnovo e di cessione contano quanto il canone
+- Garanzie, esclusiva e riduzione del canone sono negoziabili
+- Negozia l'intera locazione prima di firmare, quando il potere negoziale è massimo
+
+===== PURPLE-L5-027
+TITLE: Il diritto delle locazioni in diverse giurisdizioni
+SUMMARY: Il diritto delle locazioni è molto locale; regole sui canoni, tempi di sfratto, depositi cauzionali e licenze incidono sui rendimenti, quindi l'attrito giuridico va messo nel prezzo delle offerte e nelle riserve, e la ricerca giuridica fa parte della due diligence immobiliare.
+KEYWORDS: differenze nel diritto delle locazioni, controllo dei canoni, regole sullo sfratto, investire in più giurisdizioni, tutele degli inquilini
+# Il diritto delle locazioni in diverse giurisdizioni
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina i mercati immobiliare e del credito al consumo di un paese molto popoloso che, dopo anni di rapida espansione, cominciano a mostrare segnali di una forte correzione mentre le insolvenze iniziano a crescere.
+Applicalo qui: Durante una correzione del mercato immobiliare, due investitori possiedono immobili in affitto in luoghi diversi. Una giurisdizione permette uno sfratto abbastanza rapido per morosità. L'altra ha procedure lunghe e limiti ai canoni. Chiediti attraverso i colori: come cambia la legge locale (PURPLE) il rischio di flusso di cassa di ciascun investitore (RED)? Il suo rischio di finanziamento (BLUE)? Il valore di rivendita dell'immobile (confronto WHITE)?
+
+## Obiettivi di apprendimento
+- Individuare le principali aree in cui il diritto delle locazioni differisce
+- Spiegare come le differenze giuridiche incidono su rendimento e rischio dell'investimento
+- Includere la ricerca giuridica nella due diligence immobiliare
+
+## Contenuto principale
+Il diritto delle locazioni è una delle aree più locali del diritto. Due immobili con numeri identici possono avere rischi molto diversi a causa del luogo in cui si trovano.
+Principali aree di variazione (tutte REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, non esiste un blocco generale dei canoni nei contratti a canone libero, ma accanto a questi ci sono i contratti a canone concordato con vantaggi fiscali, il deposito cauzionale nelle locazioni abitative è in genere limitato a tre mensilità, e lo sfratto richiede un procedimento davanti al tribunale, quindi verificalo con un avvocato):
+- Regolazione dei canoni: Alcuni luoghi limitano quanto o quanto spesso il canone può salire. Altri non hanno limiti.
+- Procedura di sfratto: I motivi ammessi, i termini di preavviso, i tempi dei tribunali e le tutele degli inquilini variano molto.
+- Depositi cauzionali: Importi massimi, dove devono essere custoditi, obblighi di interessi e termini di restituzione.
+- Abitabilità e riparazioni: Standard minimi e diritti degli inquilini quando le riparazioni non vengono fatte.
+- Registrazione e licenze: Alcuni luoghi richiedono la registrazione degli immobili in affitto, ispezioni o licenze.
+- Regole sugli affitti brevi: Molte città limitano o vietano gli affitti di breve durata.
+- Regole contro la discriminazione: Le categorie protette e il modo in cui le regole vengono applicate.
+Come si collegano i colori:
+- RED: Le regole giuridiche incidono direttamente sui costi di sfitto, sulle perdite per mancati pagamenti e sulla rapidità con cui si risolve la situazione di un inquilino problematico.
+- BLUE: I finanziatori possono considerare le regole locali nella valutazione del credito. Le riserve di liquidità dovrebbero essere maggiori dove la soluzione richiede più tempo.
+- WHITE: Quando si confrontano gli immobili con le attività finanziarie, l'attrito giuridico fa parte del rischio e della scarsa liquidità degli immobili.
+- GREEN: Le regole su depositi e riparazioni incidono sulla pianificazione delle spese.
+- PURPLE: I contratti di locazione devono rispettare la legge locale. Le clausole che violano la legge locale possono non essere valide.
+Questa lezione descrive le differenze in modo neutrale. Alcune giurisdizioni danno priorità alla stabilità dell'inquilino. Altre danno priorità alla flessibilità del proprietario. Ogni approccio riflette scelte politiche locali, e gli investitori dovrebbero capirle invece di presumere che ogni luogo funzioni come quello che conoscono.
+IPOTESI/OPINIONE: Un investitore che compra in un luogo nuovo senza studiarne il diritto delle locazioni sta comprando un rischio sconosciuto. Quella ricerca fa parte della due diligence, insieme all'ispezione e alla perizia.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Grace confronta due edifici simili con quattro unità, ciascuno a 800.000 euro e con canoni simili.
+Immobile A: In una giurisdizione senza regolazione dei canoni e con tempi di sfratto per morosità relativamente brevi.
+Immobile B: In una giurisdizione con limiti annuali all'aumento dei canoni e procedure di sfratto che spesso richiedono diversi mesi.
+La sua analisi:
+- Crescita dei canoni: L'immobile A può seguire il mercato. Gli aumenti dell'immobile B hanno un tetto. In dieci anni il reddito previsto è più basso per B.
+- Rischio di mancati pagamenti: In B, un inquilino che non paga può occupare un'unità per diversi mesi. Grace aumenta la sua riserva per B.
+- Stabilità degli inquilini: Le regole di B possono portare a locazioni mediamente più lunghe e a costi di ricambio più bassi.
+- Rivendita: Gli acquirenti di B terranno conto delle stesse regole nel prezzo.
+Grace non conclude che uno sia "buono" e l'altro "cattivo". IPOTESI/OPINIONE: Conclude che l'immobile B dovrebbe costare meno per riflettere la sua minore flessibilità e fa un'offerta di conseguenza. Il venditore di B, che riceve offerte simili da altri acquirenti informati, accetta un prezzo più basso.
+
+## Quiz di esercitazione
+**Q1. Perché due immobili con numeri identici possono avere rischi diversi?**
+A) Il colore della vernice
+B) Le imposte sono identiche ovunque
+C) Gli inquilini sono sempre gli stessi
+D) Le leggi locali sulle locazioni sono diverse
+**Q2. Quale di queste è un'area in cui il diritto delle locazioni varia comunemente?**
+A) Il clima
+B) Solo le regole sul colore degli edifici
+C) I tempi della procedura di sfratto
+D) Il calcolo degli interessi del mutuo
+**Q3. Che cosa succede alle clausole di locazione che violano la legge locale?**
+A) Prevalgono sulla legge
+B) Creano nuove imposte
+C) Raddoppiano il canone
+D) Possono non essere valide
+**Q4. Come descrive la lezione le differenze tra le giurisdizioni?**
+A) In modo neutrale, come diverse scelte politiche locali
+B) Alcune sono giuste e altre sbagliate
+C) Come errori politici
+D) Come irrilevanti
+**Q5. Che cosa ha concluso Grace sull'immobile B?**
+A) Non comprarlo mai
+B) Dovrebbe costare meno per riflettere la sua minore flessibilità
+C) È sempre migliore
+D) Le sue regole non contano
+
+## Chiave delle risposte
+Q1: D
+Q2: C
+Q3: D
+Q4: A
+Q5: B
+
+## Risposte e spiegazioni
+**Q1.** La legge locale cambia il flusso di cassa e il rischio di risoluzione dei problemi.
+**Q2.** Le procedure di sfratto variano molto. REGOLA SPECIFICA DELLA REGIONE.
+**Q3.** I contratti di locazione devono rispettare la legge locale.
+**Q4.** Il programma presenta le differenze regionali in modo descrittivo.
+**Q5.** Il rischio giuridico è stato messo nel prezzo della sua offerta.
+
+## Punti chiave
+- Il diritto delle locazioni è molto locale e specifico per regione
+- Regole sui canoni, tempi di sfratto, depositi e licenze incidono sui rendimenti
+- Metti l'attrito giuridico nel prezzo delle offerte e nelle riserve
+- La ricerca giuridica fa parte della due diligence immobiliare
+
+===== PURPLE-L5-028
+TITLE: La proprietà intellettuale come attività di bilancio
+SUMMARY: La proprietà intellettuale può essere l'attività più preziosa di un'impresa; marchi, diritti d'autore, brevetti e segreti commerciali proteggono cose diverse, e la titolarità va garantita per iscritto al momento della creazione, soprattutto con i collaboratori esterni.
+KEYWORDS: valore della proprietà intellettuale, titolarità della proprietà intellettuale, marchi diritti d'autore brevetti segreti commerciali, cessione della proprietà intellettuale
+# La proprietà intellettuale come attività di bilancio
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina due grandi potenze economiche che inaspriscono i controlli sulle esportazioni l'una contro l'altra su una categoria di componenti tecnologici avanzati usati in molti settori.
+Applicalo qui: I controlli sulle esportazioni impediscono a un'impresa di comprare un componente tecnologico chiave. L'unica strada è progettare una propria versione. Chiediti attraverso i colori: chi possiederà il nuovo progetto (PURPLE): l'impresa, gli ingegneri o i collaboratori esterni? Il nuovo progetto può essere concesso in licenza ad altri per ottenere un reddito (ORANGE/BLUE)? Aumenta il valore dell'impresa (WHITE)?
+
+## Obiettivi di apprendimento
+- Descrivere i principali tipi di proprietà intellettuale
+- Spiegare come le imprese si assicurano la titolarità della proprietà intellettuale
+- Collegare la proprietà intellettuale a finanziamento, licenze e valore dell'impresa
+
+## Contenuto principale
+La proprietà intellettuale (PI) è la titolarità giuridica delle creazioni della mente. Per molte imprese moderne, la PI vale più degli edifici o delle attrezzature.
+Tipi principali (dettagli REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, marchi e brevetti si registrano presso l'Ufficio italiano brevetti e marchi (UIBM) in base al Codice della proprietà industriale, e i diritti sui programmi per elaboratore creati dal dipendente nello svolgimento delle sue mansioni spettano in genere al datore di lavoro, quindi verificalo con un avvocato):
+- Marchi: Nomi, loghi e slogan che identificano i prodotti o i servizi di un'impresa.
+- Diritti d'autore: Opere creative originali come testi, codice software, video e disegni.
+- Brevetti: Invenzioni che soddisfano i requisiti di legge, concessi per un tempo limitato in cambio della divulgazione pubblica.
+- Segreti commerciali: Informazioni di valore mantenute riservate, come ricette, processi o dati dei clienti, protette finché misure ragionevoli le mantengono segrete.
+Garantirsi la titolarità è il punto in cui molte imprese falliscono:
+- Dipendenti: In molti sistemi il lavoro creato dai dipendenti nell'ambito delle loro mansioni può appartenere al datore di lavoro, ma non sempre. Accordi scritti chiari aiutano.
+- Collaboratori e freelance: Spesso possiedono ciò che creano, a meno che non ci sia una cessione scritta. (Vedi l'esempio di PURPLE-L5-022.)
+- Fondatori: La PI creata prima che l'impresa esistesse può appartenere personalmente al fondatore finché non viene ceduta.
+- Registrazione: Registrare marchi e brevetti, dove possibile, rafforza la tutela.
+Come si collegano i colori:
+- BLUE: Investitori e acquirenti controllano la titolarità della PI nella due diligence. Una titolarità poco chiara può ridurre il valore o far saltare un affare.
+- ORANGE: Marchi e contenuti sono beni di marketing. Concederli in licenza può creare nuovo reddito (PURPLE-L5-030).
+- WHITE: Le imprese ricche di PI vengono spesso valutate in base al potenziale di utili più che ai beni materiali.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: I costi di sviluppo della PI, i redditi da licenza e i trasferimenti di PI tra società collegate hanno regole fiscali.
+- PURPLE: Gli accordi di riservatezza (da PURPLE-L2) proteggono i segreti commerciali durante le trattative.
+IPOTESI/OPINIONE: Il momento più economico per garantirsi la titolarità della PI è quando viene creata. Sistemarla dopo, quando un collaboratore sa che l'impresa ha bisogno della sua firma, può costare caro.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Nadia gestisce una piccola impresa che produce sensori intelligenti per il giardino. Nello scenario deve riprogettare internamente un componente.
+I suoi passi sulla PI:
+- Ogni dipendente firma un accordo che cede all'impresa le invenzioni create nell'ambito delle sue mansioni.
+- Ingaggia un collaboratore esterno di ingegneria con un contratto che contiene una chiara clausola di cessione della PI, firmato prima dell'inizio del lavoro.
+- Deposita una domanda di brevetto per il nuovo progetto dove ne ha i requisiti. REGOLA SPECIFICA DELLA REGIONE.
+- Registra il nome del suo marchio nei suoi mercati principali.
+- I file del progetto sono mantenuti riservati, con accesso limitato e accordi di riservatezza per le trattative con i fornitori.
+Due anni dopo, un'impresa più grande si offre di prendere in licenza il progetto in cambio di royalty e poi valuta di comprare l'impresa di Nadia. Il suo team di due diligence trova una titolarità della PI pulita, il che sostiene una valutazione forte.
+IPOTESI/OPINIONE: Il lavoro di Nadia sulla PI è costato una somma modesta all'inizio. Ha trasformato una riprogettazione imposta da una crisi in una nuova fonte di reddito e in un'impresa di maggior valore.
+
+## Quiz di esercitazione
+**Q1. Quale tipo di PI protegge il nome o il logo di un marchio?**
+A) Il brevetto
+B) Solo il diritto d'autore
+C) Il segreto commerciale
+D) Il marchio
+**Q2. Chi possiede spesso il lavoro creato da un collaboratore indipendente senza una cessione scritta?**
+A) L'impresa, automaticamente
+B) Lo Stato
+C) Il collaboratore
+D) Nessuno
+**Q3. Come viene protetto un segreto commerciale?**
+A) Con misure ragionevoli per mantenerlo riservato
+B) Solo con la registrazione
+C) Pubblicandolo
+D) Brevettandolo
+**Q4. Perché una titolarità della PI pulita conta in un'acquisizione?**
+A) Riduce le imposte
+B) È richiesta per tutti i prestiti
+C) Gli acquirenti la controllano nella due diligence, e una titolarità poco chiara può ridurre il valore o far saltare un affare
+D) Cambia il nome dell'impresa
+**Q5. Qual è il momento più economico per garantirsi la titolarità della PI?**
+A) Quando la PI viene creata
+B) Dopo una causa
+C) Quando si vende l'impresa
+D) Mai
+
+## Chiave delle risposte
+Q1: D
+Q2: C
+Q3: A
+Q4: C
+Q5: A
+
+## Risposte e spiegazioni
+**Q1.** I marchi identificano l'origine dei prodotti o dei servizi.
+**Q2.** I collaboratori spesso restano titolari, a meno che i diritti non siano ceduti per iscritto.
+**Q3.** La protezione del segreto commerciale dipende dalla riservatezza.
+**Q4.** La titolarità della PI è un punto centrale della due diligence.
+**Q5.** Sistemare la titolarità dopo può costare caro.
+
+## Punti chiave
+- La PI può essere l'attività più preziosa di un'impresa
+- Marchi, diritti d'autore, brevetti e segreti commerciali proteggono cose diverse
+- Garantisci per iscritto la titolarità quando la PI viene creata, soprattutto con i collaboratori
+- Una PI pulita sostiene i redditi da licenza e valutazioni più alte
+
+===== PURPLE-L5-029
+TITLE: Proteggere un marchio oltre i confini
+SUMMARY: I diritti di marchio sono in genere territoriali e in alcuni luoghi spettano a chi registra per primo; prima di entrare in un mercato vanno verificati la disponibilità giuridica e il significato culturale, bisogna registrare presto e garantire la titolarità del marchio nei contratti con i partner.
+KEYWORDS: marchio internazionale, protezione del marchio in più paesi, registrazione del marchio all'estero, aspetti legali dell'ingresso in un mercato
+# Proteggere un marchio oltre i confini
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un grande blocco commerciale che impone all'improvviso dazi elevati su un'ampia categoria di prodotti manifatturieri importati, aumentando i costi delle imprese che dipendono da quelle importazioni come materie prime.
+Applicalo qui: I nuovi dazi spingono un'impresa a ripensare in quali paesi vendere. Pensa di entrare rapidamente in un nuovo mercato. Chiediti attraverso i colori: il marchio dell'impresa (PURPLE) la protegge in quel nuovo paese, o solo in patria? Qualcun altro potrebbe già possedere il nome lì? Come inciderebbe questo sul piano di marketing (ORANGE) e sui costi (BLUE)?
+
+## Obiettivi di apprendimento
+- Spiegare perché i diritti di marchio sono in genere territoriali
+- Descrivere i rischi di espandersi senza protezione del marchio
+- Pianificare la protezione del marchio come parte dell'ingresso nei mercati internazionali
+
+## Contenuto principale
+FATTO VERIFICATO: I diritti di marchio sono in genere territoriali. Un marchio registrato in un paese di solito protegge il nome solo in quel paese. REGOLA SPECIFICA DELLA REGIONE: Alcuni sistemi regionali permettono a una sola domanda di coprire più paesi, e i sistemi di deposito internazionale possono semplificare le domande, ma la protezione dipende comunque da ogni giurisdizione coperta; in Italia, per esempio, secondo le informazioni disponibili, il diritto al marchio spetta in genere a chi lo registra per primo, salvo alcune tutele per il preuso, il marchio dell'Unione europea presso l'EUIPO copre tutti gli Stati membri con una sola domanda, e l'Italia aderisce al sistema di Madrid, quindi verificalo con un consulente in proprietà industriale.
+Alcune giurisdizioni danno i diritti a chi registra per primo, non a chi ha usato per primo il marchio. In quei luoghi, un'impresa che arriva tardi può scoprire che il proprio nome è già stato registrato da qualcun altro, a volte da un distributore locale o da una persona che registra marchi stranieri noti sperando di rivenderli.
+Come si collegano i colori:
+- ORANGE: Il lancio di marketing in un nuovo paese dipende dal poter usare il nome del marchio. Un conflitto sul nome può costringere a un cambio di marchio e far sprecare la spesa di marketing.
+- ORANGE (localizzazione): Il nome di un marchio può avere un significato infelice in un'altra lingua. Tradurre non è localizzare (dal protocollo di traduzione del programma). Verifica sia la disponibilità giuridica sia il significato culturale.
+- BLUE: I contratti di distribuzione e di licenza dovrebbero dire chiaramente che il marchio appartiene all'impresa, non al distributore, e che deve essere restituito quando il rapporto finisce.
+- PURPLE: In alcuni paesi i sistemi doganali permettono ai titolari dei marchi di registrarli per aiutare a fermare le importazioni contraffatte. REGOLA SPECIFICA DELLA REGIONE.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: Il luogo in cui la PI appartiene giuridicamente può incidere sulla tassazione delle royalty.
+Passi di pianificazione:
+1. Elenca i mercati attuali e i probabili mercati futuri.
+2. Cerca i conflitti in ogni mercato prima del lancio.
+3. Deposita presto nei mercati chiave, anche prima di vendervi.
+4. Inserisci clausole sulla titolarità del marchio in ogni contratto con distributori o partner.
+IPOTESI/OPINIONE: Le tasse di deposito in pochi mercati chiave sono spesso piccole rispetto al costo di un cambio di marchio dopo un conflitto. Depositare è un'assicurazione economica per un marchio che si vuole far crescere.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: L'impresa di Leo vende prodotti per la cura della pelle con il marchio "Solara" nel suo paese. Dopo il cambio dei dazi, pensa di entrare in due nuovi mercati.
+La sua ricerca sui marchi mostra:
+- Mercato 1: "Solara" è disponibile. Deposita subito.
+- Mercato 2: Un'impresa locale ha registrato "Solara" per i cosmetici tre anni fa. Quella giurisdizione segue il sistema di chi registra per primo.
+Opzioni per il Mercato 2:
+- Cercare di comprare o prendere in licenza il nome dal titolare locale.
+- Contestare la registrazione se ci sono motivi giuridici. REGOLA SPECIFICA DELLA REGIONE.
+- Lanciarsi con un nome di marchio diverso in quel mercato.
+Leo scopre anche che in una lingua parlata nel Mercato 2 "Solara" suona simile a una parola gergale. Il suo consulente di marketing locale consiglia comunque un altro nome.
+Si lancia come "Lumeva" nel Mercato 2, lo registra per primo e firma un contratto di distribuzione che dice che tutti i diritti sul marchio appartengono alla sua impresa. IPOTESI/OPINIONE: Fare questo lavoro prima del lancio è costato settimane. Scoprirlo dopo il lancio avrebbe potuto costare l'intero ingresso nel mercato.
+
+## Quiz di esercitazione
+**Q1. Che cosa significa che i diritti di marchio sono in genere territoriali?**
+A) Di solito proteggono il marchio solo nelle giurisdizioni in cui sono stati ottenuti
+B) Proteggono automaticamente in tutto il mondo
+C) Scadono dopo un anno
+D) Valgono solo online
+**Q2. Che cos'è un sistema in cui vale chi registra per primo?**
+A) Chi usa per primo possiede sempre il marchio
+B) Solo i governi possono depositare
+C) Non è permesso depositare
+D) I diritti possono spettare a chi registra per primo
+**Q3. Perché i contratti con i distributori dovrebbero occuparsi della titolarità del marchio?**
+A) Per chiarire che il marchio appartiene all'impresa, non al distributore
+B) Per abbassare i prezzi
+C) Per evitare le imposte
+D) Lo esigono i distributori
+**Q4. Quali due verifiche doveva fare Leo prima di lanciare un nome nel Mercato 2?**
+A) Prezzo e colore
+B) Disponibilità giuridica e significato culturale
+C) Clima e spedizioni
+D) Aliquota fiscale e tasso di interesse
+**Q5. Che cosa dice la lezione sul depositare presto nei mercati chiave?**
+A) È uno spreco
+B) È un'assicurazione economica rispetto a un cambio di marchio dopo un conflitto
+C) È illegale
+D) Garantisce le vendite
+
+## Chiave delle risposte
+Q1: A
+Q2: D
+Q3: A
+Q4: B
+Q5: B
+
+## Risposte e spiegazioni
+**Q1.** La protezione dipende in genere da ogni giurisdizione.
+**Q2.** In alcuni luoghi, per stabilire la titolarità la registrazione conta prima dell'uso. REGOLA SPECIFICA DELLA REGIONE.
+**Q3.** Clausole chiare impediscono ai distributori di rivendicare il marchio.
+**Q4.** Sia i conflitti giuridici sia le questioni linguistiche possono far deragliare un marchio.
+**Q5.** Il deposito anticipato protegge l'espansione futura.
+
+## Punti chiave
+- I diritti di marchio sono in genere territoriali
+- Alcuni luoghi danno i diritti a chi registra per primo
+- Verifica disponibilità giuridica e significato culturale prima di entrare in un mercato
+- Deposita presto nei mercati chiave e garantisci la titolarità del marchio nei contratti con i partner
+
+===== PURPLE-L5-030
+TITLE: Licenze e royalty come fonte di reddito
+SUMMARY: Le licenze generano reddito senza perdere la titolarità della PI; ambito, territorio, esclusiva, royalty, verifiche e controllo della qualità sono le clausole centrali, e le royalty minime e i diritti di approvazione proteggono il reddito e il marchio.
+KEYWORDS: licenze di PI, reddito da royalty, clausole del contratto di licenza, franchising o licenza, reddito passivo dalla PI
+# Licenze e royalty come fonte di reddito
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina la moneta di un'economia di medie dimensioni che perde in pochi mesi gran parte del suo valore rispetto alle principali valute di riserva, spinta dalla fuga dei capitali dal paese e dal calo della fiducia degli investitori.
+Applicalo qui: La moneta del paese di un'impresa crolla. L'impresa possiede contenuti e progetti di valore. Chiediti attraverso i colori: concedere in licenza quella PI a partner in altri paesi (PURPLE/ORANGE) potrebbe portare reddito in valute più forti (WHITE)? Come andrebbero calcolate e pagate le royalty? Come vengono tassate le royalty tra paesi diversi (GREEN)?
+
+## Obiettivi di apprendimento
+- Spiegare come le licenze creano reddito mantenendo la titolarità
+- Individuare le clausole chiave di un contratto di licenza
+- Collegare le licenze al rischio di cambio, fiscale e di marchio
+
+## Contenuto principale
+La fase MAKE del Quadro Filosofico include la proprietà intellettuale come uno dei modi per creare reddito. La licenza permette a un titolare di guadagnare dalla PI mantenendone la titolarità. Il licenziatario ottiene il permesso di usare la PI a condizioni specifiche.
+Clausole chiave della licenza:
+- Ambito: Quale PI, quali prodotti, quali usi.
+- Territorio: Quali paesi o regioni.
+- Esclusiva: Esclusiva (solo questo licenziatario), non esclusiva (molti licenziatari) o unica (il licenziatario più il titolare).
+- Durata e risoluzione: Per quanto tempo, e che cosa la fa finire prima.
+- Royalty: Una percentuale delle vendite, un importo fisso per unità, un pagamento minimo annuo o un importo iniziale.
+- Diritti di verifica: Il diritto del titolare di controllare le registrazioni delle vendite del licenziatario.
+- Controllo della qualità: Soprattutto per i marchi. REGOLA SPECIFICA DELLA REGIONE: In alcuni sistemi concedere in licenza un marchio senza controllarne la qualità può indebolire i diritti del titolare; in Italia, per esempio, secondo le informazioni disponibili, le royalty pagate a soggetti esteri hanno spesso una ritenuta alla fonte, che può essere ridotta da una convenzione contro le doppie imposizioni o dalle regole dell'Unione europea, e le licenze di marchio dovrebbero prevedere il controllo della qualità per non ingannare il pubblico, quindi verificalo con un commercialista e un avvocato.
+- Valuta e pagamento: In quale valuta vengono pagate le royalty e come si applicano i tassi di cambio.
+Come si collegano i colori:
+- ORANGE: Le licenze ampliano la portata di un marchio senza creare nuovi team di vendita in ogni mercato.
+- BLUE: Il reddito da licenza può essere stabile e ad alto margine, ma dipende dai risultati del licenziatario.
+- WHITE: Le royalty pagate in valute più forti possono diversificare il reddito di un'impresa, come nello scenario.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: Le royalty tra paesi diversi possono subire ritenute alla fonte, e le convenzioni fiscali possono ridurle. La PI detenuta in una società e concessa in licenza a un'altra società collegata deve di solito avere un prezzo di mercato.
+- PURPLE: Una licenza debole può permettere a un licenziatario di danneggiare il marchio o di dichiarare meno vendite.
+La licenza non è la stessa cosa del franchising. Il franchising di solito include un sistema d'impresa completo, formazione e assistenza continua, e in alcune giurisdizioni è molto regolato, con obblighi di informazione. REGOLA SPECIFICA DELLA REGIONE.
+IPOTESI/OPINIONE: Le royalty minime proteggono il titolare da un licenziatario che prende una licenza esclusiva e poi ne fa poco.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Rafael possiede una serie di video educativi e un marchio. La moneta del suo paese perde il 35% in diversi mesi.
+Firma una licenza con un editore di un paese con una valuta più forte:
+- Ambito: Versioni tradotte dei video e un quaderno di esercizi complementare.
+- Territorio: Solo quel paese. Non esclusiva per l'uso online; esclusiva per la stampa.
+- Royalty: 10% delle vendite nette, con una royalty minima annua di 20.000 euro, pagata ogni trimestre nella valuta dell'editore.
+- Diritti di verifica una volta all'anno.
+- Controllo della qualità: Rafael approva le traduzioni prima dell'uscita.
+Primo anno: Le vendite sono lente, ma la royalty minima garantisce 20.000 euro in una valuta forte. La convenzione tra i due paesi riduce la ritenuta, e il suo commercialista presenta i moduli necessari. REGOLA SPECIFICA DELLA REGIONE.
+IPOTESI/OPINIONE: Rafael ha trasformato contenuti già esistenti in reddito in valuta estera senza vendere la sua PI né aprire un ufficio all'estero. La royalty minima e i diritti di approvazione hanno protetto sia il suo reddito sia il suo marchio.
+
+## Quiz di esercitazione
+**Q1. Che cosa permette di fare la licenza al titolare della PI?**
+A) Guadagnare un reddito mantenendo la titolarità
+B) Vendere per sempre la PI
+C) Evitare tutte le imposte
+D) Rinunciare al controllo della qualità
+**Q2. Che cos'è una royalty minima?**
+A) La licenza più piccola possibile
+B) Una prova gratuita
+C) Un'imposta
+D) Un pagamento garantito indipendentemente dalle vendite
+**Q3. Perché il controllo della qualità è importante nelle licenze di marchio?**
+A) Riduce i costi
+B) I licenziatari lo preferiscono
+C) In alcuni sistemi concedere licenze senza controllo della qualità può indebolire i diritti del titolare
+D) È richiesto solo per i brevetti
+**Q4. Come possono incidere le convenzioni fiscali sulle royalty tra paesi?**
+A) Raddoppiano le imposte
+B) Non hanno effetto
+C) Vietano le royalty
+D) Possono ridurre le ritenute alla fonte
+**Q5. In che cosa il franchising differisce dalla licenza?**
+A) Sono identici
+B) Il franchising costa sempre meno
+C) Il franchising di solito include un sistema d'impresa completo e può essere molto regolato
+D) La licenza richiede formazione
+
+## Chiave delle risposte
+Q1: A
+Q2: D
+Q3: C
+Q4: D
+Q5: C
+
+## Risposte e spiegazioni
+**Q1.** La licenza concede un permesso d'uso, non la titolarità.
+**Q2.** I minimi proteggono i titolari dai licenziatari inattivi.
+**Q3.** La protezione del marchio dipende dal controllo della qualità. REGOLA SPECIFICA DELLA REGIONE.
+**Q4.** Le convenzioni possono ridurre le ritenute. REGOLA SPECIFICA DELLA REGIONE.
+**Q5.** Il franchising è più ampio e spesso regolato.
+
+## Punti chiave
+- La licenza genera reddito mantenendo la titolarità della PI
+- Ambito, territorio, esclusiva, royalty, verifiche e controllo della qualità sono le clausole centrali
+- Le royalty tra paesi comportano questioni valutarie e fiscali specifiche per regione
+- Le royalty minime e i diritti di approvazione proteggono reddito e marchio
