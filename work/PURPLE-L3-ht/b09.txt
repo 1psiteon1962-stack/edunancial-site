@@ -97,3 +97,153 @@ Se poutèt sa yon biznis bezwen swiv e jere tou de kalite obligasyon yo separema
 ---
 
 *Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Egzijans règlemantè yo varye anpil selon endistri ak jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou biznis ou.*
+
+===== PURPLE-L3-043
+TITLE: Poukisa yon lèt mizan demeure (cease and desist) pa yon pwosè, men li vini anvan youn
+SUMMARY: Aprann sa yon lèt ki mande pou sispann yon aktivite vrèman fè devan lalwa, ak poukisa li fonksyone kòm yon avètisman ak yon zouti negosyasyon olye yon depo devan tribinal.
+# PURPLE-L3-043: Poukisa yon lèt mizan demeure (cease and desist) pa yon pwosè, men li vini anvan youn
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike sa yon lèt mizan demeure anjeneral ye ak sa li pa ye
+- Esplike poukisa kalite lèt sa a fonksyone kòm yon avètisman ak yon zouti negosyasyon
+- Esplike seri repons jeneral ki disponib pou yon moun ki resevwa youn
+
+## Kontni prensipal
+
+Yon **lèt mizan demeure** (cease and desist letter) anjeneral mande moun ki resevwa l la sispann (cease) yon aktivite espesifik e pa rekòmanse l (desist), souvan li site yon baz legal espesifik pou poukisa moun ki voye l la kwè aktivite a ilegal oswa pa kòrèk. Men "poukisa" lèt sa a, menm si li souvan sanble fòmèl e menasan, anjeneral pa gen okenn fòs legal poukont li: [FÈ VERIFYE] yon lèt mizan demeure pa yon lòd tribinal e li pa oblije moun ki resevwa l la fè anyen poukont li — se yon kominikasyon ki eksprime pozisyon ak entansyon moun ki voye l la, pa yon lòd legal ki obligatwa.
+
+Se poutèt sa lèt la anjeneral fonksyone kòm yon avètisman e, souvan, yon envitasyon kache pou negosye oswa rezoud zafè a anvan yon vrè pwosè kòmanse: [FÈ VERIFYE] voye kalite lèt sa a souvan se yon etap yo fè espre anvan yo depoze yon vrè pwosè, sa ki bay moun ki resevwa l la yon opòtinite pou l sispann aktivite yo ap diskite a, reponn ak pwòp pozisyon pa l, oswa otreman rezoud zafè a san kou ak fòmalite pwosedi devan tribinal — menm si li ka sèvi tou pou etabli yon dosye klè ke moun ki voye l la te leve pwoblèm lan, sa ki ta ka vin enpòtan si yon pwosè rive finalman.
+
+Yon moun ki resevwa youn anjeneral gen plizyè repons posib: fè sa yo mande a, konteste reklamasyon legal oswa fè ki nan lèt la, eseye negosye yon rezolisyon, oswa senpleman pa fè anyen (menm si dènye opsyon sa a gen risk ke moun ki voye l la ka monte nan yon vrè pwosè si diskisyon debaz la pa rezoud).
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis resevwa yon lèt mizan demeure ki di youn nan aktivite li yo vyole dwa sou mak komèsyal yon lòt pati, e li mande pou aktivite a sispann touswit. [SIPOZISYON] Biznis lan pa oblije devan lalwa fè sa lèt la mande senpleman paske li resevwa l — li ka evalye reklamasyon debaz la, petèt konsilte yon avoka ki gen lisans pou evalye si li valab, e chwazi swa fè sa yo mande a, swa konteste reklamasyon an, swa negosye, swa pa fè anyen, alòske li konprann ke si li pa rezoud zafè a sa ka mennen moun ki voye l la finalman depoze yon vrè pwosè si li kwè pozisyon legal debaz li fò ase pou l kontinye.
+
+## Egzamen pratik
+
+1. Kisa yon lèt mizan demeure anjeneral mande?
+2. Poukisa kalite lèt sa a pa gen okenn fòs legal poukont li?
+3. Bay de repons jeneral ki disponib pou yon moun ki resevwa yon lèt mizan demeure.
+
+## Kle repons yo
+
+1. Pou moun ki resevwa l la sispann yon aktivite espesifik e pa rekòmanse l, souvan li site yon baz legal espesifik.
+2. Paske li pa yon lòd tribinal — se yon kominikasyon ki eksprime pozisyon ak entansyon moun ki voye l la, pa yon lòd legal ki obligatwa ki fòse moun aji poukont li.
+3. Nenpòt de nan: fè sa yo mande a, konteste reklamasyon debaz yo, eseye negosye yon rezolisyon, oswa pa fè anyen (ak risk yon pwosè posib si zafè a pa rezoud).
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se klarifikasyon santral, moun souvan konprann mal, leson an trete.
+3. Sa tcheke konpreyansyon sou seri repons pratik ki disponib yo.
+
+## Pwen kle yo
+- Yon lèt mizan demeure mande pou moun ki resevwa l la sispann yon aktivite espesifik, men li pa gen okenn fòs legal poukont li.
+- Li anjeneral fonksyone kòm yon avètisman ak yon zouti negosyasyon, souvan li vini anvan yon vrè pwosè olye l se pwosè a li menm.
+- Moun ki resevwa l la gen plizyè repons posib, enkli fè sa yo mande a, konteste, negosye, oswa pa fè anyen, chak youn ak pwòp risk ak konsiderasyon pa l.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans si w voye oswa resevwa yon lèt mizan demeure.*
+
+===== PURPLE-L3-044
+TITLE: Poukisa yon akò amiab se rezilta pifò diskisyon legal, pa yon jijman
+SUMMARY: Aprann poukisa pifò diskisyon legal yo rezoud atravè yon akò amiab olye yon jijman konplè, ak poukisa modèl sa a reflete yon pran desizyon rasyonèl, ki baze sou risk, nan tou de bò.
+# PURPLE-L3-044: Poukisa yon akò amiab se rezilta pifò diskisyon legal, pa yon jijman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa pifò diskisyon legal fini ak yon akò amiab olye yo ale jiska yon jijman konplè
+- Esplike rezònman jeneral ki baze sou risk ki dèyè modèl komen sa a
+- Konekte konsèp sa a ak tèm risk ak ensètitid yo kouvri lòt kote nan kourikoulòm sa a
+
+## Kontni prensipal
+
+Jan yo souvan montre diskisyon legal nan medya yo konsantre anpil sou jijman dramatik, men men "poukisa" vrè rezilta tipik la sanble trè diferan: [FÈ VERIFYE] gwo majorite diskisyon legal sivil yo vrèman depoze anjeneral rezoud atravè yon **akò amiab** (settlement) — yon akò pati yo negosye — olye yo ale jiska nan yon jijman konplè ak yon desizyon final tribinal.
+
+Men rezònman jeneral ki dèyè modèl komen sa a, ki reflete tèm risk ak ensètitid yo kouvri nan tout tras GOLD kourikoulòm sa a: rezilta yon jijman vrèman ensèten pou tou de bò, kèlkeswa konbyen fò chak pati kwè pwòp ka pa l ye — jiri ak jij ka rive nan konklizyon moun pa t atann, yo ka eskli prèv kle oswa entèprete yo yon fason ki pa favorab, e tan ak depans enpòtan pou prepare jijman ak pwosedi yo ajoute yon vrè kou kèlkeswa rezilta final la. [FÈ VERIFYE] Yon akò amiab pèmèt tou de pati yo evite vrè ensètitid sa a ak depans anplis sa a, yo aksepte yon rezilta negosye, ki pi previzib olye sa — yon desizyon rasyonèl, ki baze sou risk, ki reflete, nan yon kontèks legal, rezònman jesyon risk jeneral yo kouvri nan lòt tras kourikoulòm sa a.
+
+Se poutèt sa yon avoka ki gen eksperyans anjeneral evalye yon òf akò amiab pa lè l mande "èske sa a se yon rezilta pafè" men lè l mande "èske rezilta sa a pi bon, ajiste pou vrè risk ak kou pou kontinye, pase seri rezilta reyalis yon jijman ta ka vrèman bay" — sa ki reflete dirèkteman prensip jijman ajiste pou risk yo kouvri nan tras GOLD kourikoulòm sa a, aplike isit la espesyalman pou estrateji pwosè.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] De pati nan yon diskisyon legal chak kwè yo gen yon ka ki rezonabman fò, men yo rekonèt ke ale nan jijman gen yon vrè ensètitid sou vrè rezilta a, ansanm ak anpil tan ak depans anplis kèlkeswa kiyès ki finalman genyen. [SIPOZISYON] Olye yo aksepte risk ak kou konbine sa a, yo negosye yon akò amiab tou de bò yo wè kòm yon rezilta akseptab, ki pi previzib — menm si okenn bò pa jwenn tout sa yo te ka espere nan pi bon senaryo jijman an, akò amiab la reflete yon desizyon rasyonèl, ajiste pou risk, tou de pati yo pran, sa ki reflete prensip jijman ajiste pou risk yo aplike pou envestisman lòt kote nan kourikoulòm sa a.
+
+## Egzamen pratik
+
+1. Ki rezilta tipik pou gwo majorite diskisyon legal sivil yo vrèman depoze?
+2. Ki rezònman jeneral ki baze sou risk ki dèyè poukisa pati yo souvan chwazi yon akò amiab olye ale nan jijman?
+3. Kijan leson sa a konekte ak tèm jijman ajiste pou risk yo kouvri lòt kote nan tras GOLD kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Yon akò amiab — yon akò pati yo negosye — olye yon jijman konplè ki ale jiska yon desizyon final tribinal.
+2. Paske rezilta yon jijman vrèman ensèten pou tou de bò, e ale nan jijman ajoute anpil tan ak depans kèlkeswa rezilta final la, sa ki fè yon akò amiab previzib, negosye, yon chwa rasyonèl ki baze sou risk.
+3. Evalye yon òf akò amiab lè w konpare l ak seri rezilta jijman reyalis, ajiste pou risk, reflete dirèkteman prensip jijman ajiste pou risk tras GOLD la mete aksan sou li nan kad pou pran desizyon envestisman.
+
+## Repons ak eksplikasyon
+
+1. Sa korije yon fo konsepsyon komen, medya enfliyanse, sou rezilta tipik diskisyon legal.
+2. Sa a se "poukisa" santral ki esplike modèl komen an.
+3. Sa konekte leson an klèman ak yon konsèp paralèl lòt kote nan kourikoulòm nan, sa ki ranfòse aprantisaj ant tras yo.
+
+## Pwen kle yo
+- Gwo majorite diskisyon legal sivil yo rezoud atravè yon akò amiab, pa yon jijman konplè.
+- Sa reflete yon pran desizyon rasyonèl, ki baze sou risk, paske rezilta jijman yo vrèman ensèten e kontinye ajoute anpil tan ak depans kèlkeswa rezilta a.
+- Evalye òf akò amiab atravè yon lantiy ajiste pou risk reflete dirèkteman prensip jijman ajiste pou risk yo mete aksan sou li lòt kote nan kourikoulòm sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou nenpòt vrè diskisyon legal.*
+
+===== PURPLE-L3-045
+TITLE: Poukisa diskisyon sou kouvèti asirans souvan depann de lang espesifik kontra a
+SUMMARY: Aprann poukisa si yon reklamasyon asirans vrèman kouvri souvan depann de mo egzak kontra asirans lan li menm, pa sèlman yon santiman jeneral sou sa ki sanble jis.
+# PURPLE-L3-045: Poukisa diskisyon sou kouvèti asirans souvan depann de lang espesifik kontra a
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa diskisyon sou kouvèti asirans anjeneral depann de lang espesifik kontra asirans lan
+- Esplike wòl jeneral definisyon ak eksklizyon nan yon kontra asirans
+- Konekte konsèp sa a ak diskisyon sou asirans biznis yo kouvri lòt kote nan kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras BLUE kourikoulòm sa a kouvri asirans biznis kòm yon fòm transfè risk. Men "poukisa" legal espesifik ki fè diskisyon sou kouvèti souvan depann de lang kontra a ki egzak, teknik, olye yon santiman jeneral sou jistis oswa sa yon moun rezonab ta ka atann pou yo kouvri: [FÈ VERIFYE] yon kontra asirans (polis) li menm se yon kontra, e tankou nenpòt kontra (dapre diskisyon debaz Leson 1 la), kondisyon espesifik li — enkli definisyon egzak mo kle yo ak lis eksklizyon espesifik li yo — anjeneral gouvène sa ki vrèman kouvri ak sa ki pa kouvri, kèlkeswa sa yon moun ki gen asirans te ka sipoze oswa espere kouvèti li te gen ladan l an jeneral.
+
+Se poutèt sa seksyon definisyon ak eksklizyon yo, ki souvan nan yon lang kontra ki dans, teknik anpil moun ki gen asirans ka pa li avèk swen nan moman acha a, enpòtan anpil lè yon vrè reklamasyon parèt: [FÈ VERIFYE] yon evènman espesifik ta ka sanble, yon fason jeneral, ak bon sans, se egzakteman kalite sitiyasyon asirans ta dwe kouvri, men si li tonbe teknikman nan yon eksklizyon espesifik nan kontra a, oswa li pa satisfè yon definisyon teknik espesifik yo itilize lòt kote nan kontra a, yo ka refize reklamasyon an yon fason lejitim dapre vrè kondisyon kontra a, kèlkeswa atant jeneral rezonab moun ki gen asirans lan.
+
+Se poutèt sa revize avèk swen definisyon ak eksklizyon espesifik yon kontra asirans anvan yon reklamasyon menm parèt — idealman avèk èd yon pwofesyonèl asirans ki gen lisans, sa ki reflete tèm jeneral "asirans kòm transfè risk" ak konsèy pwofesyonèl yo kouvri lòt kote nan kourikoulòm sa a — enpòtan pi plis anpil pase sipoze yon kouvèti jeneral selon non jeneral kontra a oswa deskripsyon maketing jeneral li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon mèt biznis sibi yon kalite pèt espesifik e li depoze yon reklamasyon asirans, li vrèman kwè se egzakteman kalite sitiyasyon kontra li te sipoze kouvri. [SIPOZISYON] Lè yo revize l, konpayi asirans lan detèmine ke sikonstans espesifik pèt sa a tonbe teknikman nan yon eksklizyon espesifik ki nan lis kondisyon detaye kontra a, oswa yo pa satisfè yon definisyon egzak yo itilize lòt kote nan kontra a, e li refize reklamasyon an sou baz kontra espesifik sa a — yon rezilta ki ta ka sanble pa jis konpare ak atant jeneral mèt biznis lan, men ki reflete vrè kondisyon espesifik kontra asirans li te achte a, sa ki montre poukisa konprann lang egzak yon kontra enpòtan anpil anvan yon vrè pèt rive, pa sèlman apre.
+
+## Egzamen pratik
+
+1. Poukisa diskisyon sou kouvèti asirans souvan depann de lang espesifik kontra a, olye jistis jeneral?
+2. Ki wòl definisyon ak eksklizyon jwe nan yon kontra asirans?
+3. Kijan leson sa a konekte ak diskisyon sou asirans biznis yo kouvri lòt kote nan kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Paske yon kontra asirans li menm se yon kontra, e se kondisyon espesifik li — pa atant jeneral — ki gouvène sa ki vrèman kouvri ak sa ki pa kouvri, menm jan ak nenpòt lòt kontra yo diskite nan tout tras sa a.
+2. Yo defini kantite teknik egzak kouvèti a — yon evènman espesifik ta ka sanble kouvri natirèlman men li eskli, oswa li pa satisfè yon definisyon espesifik nan kontra a, sa ki bay yon refi reklamasyon lejitim dapre vrè kondisyon kontra a.
+3. Leson sa a esplike mekanis legal ki fè "asirans kòm transfè risk", yo diskite lòt kote nan kourikoulòm sa a, mande yon atansyon avèk swen sou lang espesifik kontra a, pa sèlman sipozisyon jeneral selon non kontra a oswa deskripsyon maketing li.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte leson an dirèkteman ak prensip debaz entèpretasyon kontra Leson 1 la.
+2. Sa a se "poukisa" santral ki esplike kijan yo vrèman rezoud diskisyon sou kouvèti.
+3. Sa konekte leson an klèman ak yon diskisyon paralèl lòt kote nan kourikoulòm nan, sa ki ranfòse aprantisaj ant tras yo.
+
+## Pwen kle yo
+- Diskisyon sou kouvèti asirans anjeneral depann de lang espesifik, egzak kontra asirans lan, pa atant jeneral sou jistis.
+- Seksyon definisyon ak eksklizyon detèmine vrè kantite teknik kouvèti a, ki ka diferan de sipozisyon jeneral yon moun ki gen asirans.
+- Revize avèk swen lang espesifik yon kontra anvan yon reklamasyon parèt esansyèl, idealman ak konsèy pwofesyonèl, akoz konbyen diskisyon sa yo depann de kondisyon kontra egzak.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Kondisyon kontra asirans yo varye anpil; konsilte yon pwofesyonèl asirans oswa yon avoka ki gen lisans pou konsèy ki espesifik pou kontra ou.*
