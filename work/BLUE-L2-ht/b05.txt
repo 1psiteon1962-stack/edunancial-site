@@ -1,0 +1,279 @@
+===== BLUE-L2-021
+TITLE: Anboche premye anplwaye ou: kisa ki chanje
+SUMMARY: Anboche premye anplwaye chanje obligasyon salè, kondisyon asirans, estrikti depans, ak demann jesyon an menm tan – yon limit enpòtan ki mande planifikasyon cash flow ak rezèv davans.
+## BLUE-L2-021
+### Anboche premye anplwaye ou: kisa ki chanje
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye gwo pyès operasyonèl ak finansye ki chanje lè yon biznis anboche premye anplwaye li.
+- Esplike poukisa tranzisyon sa a se yon limit enpòtan, se pa yon ti etap administratif.
+- Aplike tèm responsablite patwon an (Leson 20) nan yon senaryo premye anbochaj.
+
+**2. Kontni prensipal**
+Anboche yon premye anplwaye chanje plizyè pyès an menm tan, sa ki raple diskisyon sou limit nan pakou RED la (RED-L2-003): obligasyon salè (payroll) kòmanse (Leson 22), kondisyon asirans konpansasyon travayè souvan aplike (sa varye selon jiridiksyon), obligasyon asirans chomaj ka kòmanse, e estrikti depans jeneral biznis lan deplase, paske konpansasyon anplwaye anjeneral vin yon gwo depans fiks oswa semi-fiks (Leson 15). Pi lwen pase pyès finansye yo, responsablite jesyon kòmanse toutbon — pwopriyetè a dwe kounye a fòme, dirije, e evalye travay yon lòt moun, yon seri konpetans ki diferan fondamantalman de fè travay la poukont ou.
+
+Sa a se yon limit enpòtan egzakteman paske souvan ou pa ka ranvèse l nan pratik, menm lè w ka ranvèse l legalman: yon premye anbochaj ki mal planifye ka mete presyon sou cash flow (Leson 11), alòske youn ki byen planifye ka premye etap nan bati sistèm ak delege (Leson 24, 26) ki alafen pèmèt yon biznis grandi pi lwen pase sa pwopriyetè a poukont li ka pwodui.
+
+**3. Egzanp pratik**
+Anvan l anboche premye anplwaye li, yon mèt biznis trase tout pòtre finansye a: salè estime, kontribisyon taks sou salè obligatwa, prim asirans konpansasyon travayè, ak tan administratif ki nesesè pou resevwa e fòme yon nouvo moun kòmsadwa. Li konfime cash flow li (Leson 11) ak rezèv li (Leson 34) ka sipòte nouvo depans fiks sa a menm pandan yon mwa ki pi lan, olye l sipoze revni kounye a li ki pa konsistan ap kouvri l yon fason fyab poukont li — li trete limit sa a ak serye tèm responsablite patwon an (Leson 20) mande a.
+
+**4. Egzamen pratik**
+1. Ki yon obligasyon finansye ki anjeneral kòmanse lè yon biznis anboche premye anplwaye li?
+   a) Eliminasyon tout depans biznis
+   b) Kontribisyon taks sou salè e souvan asirans konpansasyon travayè
+   c) Rantabilite otomatik
+   d) Pa gen chanjman nan estrikti depans
+
+2. Poukisa yo konsidere anboche yon premye anplwaye kòm yon limit enpòtan?
+   a) Li pa gen okenn vrè efè sou biznis lan
+   b) Li chanje estrikti depans, li mande nouvo konpetans jesyon, e souvan li difisil pou ranvèse nan pratik
+   c) Se yon fòmalite administratif sèlman
+   d) Li garanti echèk biznis
+
+3. Vrè oswa Fo: Yon mèt biznis ta dwe sipoze revni kounye a ki pa konsistan ap kouvri depans yon nouvo anplwaye yon fason fyab poukont li san plis planifikasyon.
+
+4. Kisa mèt biznis la te konfime anvan l anboche premye anplwaye li?
+   a) Anyen patikilye
+   b) Ke cash flow li ak rezèv li te ka sipòte nouvo depans fiks la menm pandan yon mwa ki pi lan
+   c) Ke li pa t ap janm bezwen jere pèsonn
+   d) Ke taks sou salè pa t aplike pou li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kontribisyon taks sou salè e souvan asirans konpansasyon travayè se nouvo obligasyon kouran lè w anboche yon premye anplwaye.
+2. Limit sa a chanje estrikti depans ak demann jesyon e souvan li difisil pou ranvèse nan pratik, sa ki fè l enpòtan.
+3. Yon planifikasyon ak atansyon, sa gen ladan rezèv, ta dwe sipòte depans yon nouvo anbochaj olye w sipoze revni ki pa konsistan ap ase poukont li.
+4. Mèt biznis la te konfime cash flow li ak rezèv li te ka sipòte depans nouvo anplwaye a menm pandan peryòd ki pi lan.
+
+**7. Pwen kle yo**
+- Anboche yon premye anplwaye chanje obligasyon salè, kondisyon asirans, estrikti depans, ak demann jesyon an menm tan.
+- Sa a se yon limit enpòtan, souvan ou pa ka ranvèse l nan pratik, sa ki raple diskisyon sou limit nan pakou RED la.
+- Yon planifikasyon cash flow ak rezèv ak atansyon ta dwe vini anvan desizyon sa a, se pa apre.
+- Tèm responsablite patwon an (Leson 20) ta dwe enfòme jan w apwoche limit sa a ak serye.
+
+===== BLUE-L2-022
+TITLE: Salè, taks, ak konfòmite lè w anboche
+SUMMARY: Anboche anplwaye deklanche obligasyon taks sou salè ak konfòmite ki varye anpil selon jiridiksyon – sa ki fè pifò ti biznis itilize lojisyèl oswa sèvis salè pwofesyonèl.
+## BLUE-L2-022
+### Salè, taks, ak konfòmite lè w anboche
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye obligasyon taks sou salè jeneral ki parèt lè w anboche anplwaye.
+- Esplike konsèp jeneral konfòmite salè.
+- Rekonèt sa kòm yon domèn ki depann de jiridiksyon an e ki mande konsèy pwofesyonèl.
+
+**2. Kontni prensipal**
+Anboche anplwaye anjeneral deklanche obligasyon taks sou salè espesifik, ki varye anpil selon jiridiksyon (yon sijè ki fò RÈG ESPESIFIK POU REJYON AN anndan Etazini ak entènasyonalman). Ozetazini, kòm yon egzanp ilistratif, sa anjeneral gen ladan retni taks sou revni sou chèk anplwaye yo, retni e mete menm kantite kontribisyon Sekirite Sosyal ak Medicare, ak peye taks chomaj federal ak eta — chak youn ak dat limit, fòm, ak règ kalkil espesifik ki chanje de tanzantan atravè lejislasyon.
+
+Konfòmite salè gen ladan tou bon klasifikasyon travayè (Leson 23), kenbe dosye travay obligatwa, ak swiv lwa sou salè ak èdtan ki aplike (salè minimòm, règ èdtan siplemantè), ki varye selon jiridiksyon e pafwa selon endistri. Akoz konpleksite a, pri erè yo (sa gen ladan penalite posib), ak frekans chanjman lejislatif nan domèn sa a, pifò ti mèt biznis itilize lojisyèl salè oswa yon founisè sèvis salè, e yo konsilte yon kontab oswa yon pwofesyonèl salè, olye yo eseye jere sa a alamen ak edikasyon jeneral sèlman.
+
+**3. Egzanp pratik**
+Anvan l trete premye peman salè li, yon mèt biznis fè rechèch sou obligasyon espesifik eta li ak obligasyon federal, men olye l eseye kalkile e depoze tout bagay alamen, li angaje yon founisè sèvis salè kontab li te rekòmande, espesyalman pou asire retni yo egzak, depo taks yo fèt alè, e fòm obligatwa yo depoze kòmsadwa. Desizyon sa a reflete tèm "biznis se yon espò ekip" (Leson 31): rekonèt yon domèn ki vrèman konplike e mennen sipò pwofesyonèl kòmsadwa olye w riske erè konfòmite ki koute chè lè w jere l nèt poukont ou.
+
+**4. Egzamen pratik**
+1. Ki yon obligasyon taks sou salè kouran yo ilistre ak Etazini kòm egzanp?
+   a) Pa gen okenn obligasyon lè w anboche
+   b) Retni taks sou revni ak kontribisyon Sekirite Sosyal/Medicare
+   c) Yon frè fiks yon sèl fwa san obligasyon k ap kontinye
+   d) Se sèlman taks sou vant ki aplike
+
+2. Poukisa pifò ti mèt biznis itilize lojisyèl salè oswa yon founisè sèvis?
+   a) Lalwa mande sa nan chak ka
+   b) Akoz konpleksite a ak pri erè yo, sipò pwofesyonèl ede asire yon konfòmite egzak
+   c) Konfòmite salè senp e li pa mande okenn atansyon espesyal
+   d) Li elimine tout obligasyon taks sou salè
+
+3. Vrè oswa Fo: Règ ak obligasyon taks sou salè idantik nan chak jiridiksyon e yo pa janm chanje.
+
+4. Poukisa mèt biznis la te angaje yon founisè sèvis salè olye l jere salè alamen?
+   a) Li te vle evite tout depans biznis
+   b) Li te rekonèt konpleksite a e li te vle asire yon konfòmite egzak, pou l evite erè ki koute chè
+   c) Li ilegal pou trete salè poukont ou
+   d) Li pa t gen okenn anplwaye pou l peye
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Retni taks sou revni ak kontribisyon Sekirite Sosyal/Medicare se yon obligasyon salè kouran, yo ilistre l ak Etazini kòm egzanp.
+2. Konpleksite a ak pri posib erè konfòmite yo fè sipò salè pwofesyonèl vin yon chwa kouran e saj pou ti biznis.
+3. Règ taks sou salè varye anpil selon jiridiksyon e yo chanje de tanzantan atravè lejislasyon.
+4. Mèt biznis la te rekonèt konpleksite sa a kòmsadwa e li te chèche sipò pwofesyonèl pou evite erè konfòmite ki koute chè.
+
+**7. Pwen kle yo**
+- Anboche anplwaye deklanche obligasyon taks sou salè ki varye anpil selon jiridiksyon e ki chanje de tanzantan.
+- Konfòmite salè gen ladan klasifikasyon travayè, kenbe dosye, ak respekte lwa sou salè/èdtan.
+- Akoz konpleksite sa a, pifò ti biznis itilize lojisyèl salè oswa yon founisè sèvis pwofesyonèl.
+- Sa reflete tèm "biznis se yon espò ekip" — mennen sipò ekspè pou domèn ki vrèman konplike.
+
+===== BLUE-L2-023
+TITLE: Kontraktè kont anplwaye: yon diferans enpòtan anpil
+SUMMARY: Fè diferans ant yon kontraktè endepandan ak yon anplwaye depann de vrè fè relasyon travay la, se pa etikèt ki nan kontra a – e move klasifikasyon gen vrè risk.
+## BLUE-L2-023
+### Kontraktè kont anplwaye: yon diferans enpòtan anpil
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike diferans jeneral ant yon kontraktè endepandan ak yon anplwaye.
+- Idantifye poukisa move klasifikasyon gen vrè risk pou yon biznis.
+- Rekonèt sa kòm yon detèminasyon ki depann de fè yo ak jiridiksyon an.
+
+**2. Kontni prensipal**
+Yon kontraktè endepandan anjeneral fonksyone kòm yon biznis separe ki bay sèvis, li anjeneral kenbe kontwòl sou kijan e kilè travay la fèt, li itilize pwòp zouti ak metòd li, e souvan li sèvi plizyè kliyan. Yon anplwaye anjeneral travay anba direksyon ak kontwòl patwon an, li swiv orè ak metòd patwon an, e li sijè a obligasyon retni sou salè ak benefis nou te diskite nan Leson 22.
+
+Diferans sa a enpòtan anpil paske klase yon anplwaye pa erè kòm kontraktè endepandan (yo souvan fè sa, pafwa san fè espre, pou evite obligasyon taks sou salè ak benefis) gen vrè risk legal ak finansye, sa gen ladan taks an reta posib, penalite, ak lòt responsablite si yon ajans gouvènman oswa yon tribinal detèmine klasifikasyon an te pa kòrèk. Vrè detèminasyon an depann de fè espesifik sou relasyon travay la (nivo kontwòl, eksklizivite, bay zouti, ak lòt faktè ki varye selon jiridiksyon ak tès ki aplike), se pa tou senpleman sou jan yon kontra rele relasyon an oswa ki etikèt yon biznis prefere itilize.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere kijan pou l mennen plis èd, yon mèt biznis sipoze okòmansman li ka tou senpleman rele yon nouvo travayè "kontraktè endepandan" pou evite obligasyon taks sou salè, paske sa ta pi senp administrativman. Anvan l avanse, li konsilte yon avoka nan dwa travay, ki esplike ke dapre vrè nati relasyon travay li planifye a — orè fiks, sipèvizyon dirèk, itilizasyon ekipman konpayi an, ak travay eksklizif pou biznis li — travayè sa a ta gen anpil chans klase legalman kòm anplwaye kèlkeswa etikèt papye yo itilize, e klase relasyon an pa erè ta ka ekspoze l a gwo taks an reta ak penalite si yo konteste l.
+
+**4. Egzamen pratik**
+1. Kisa ki anjeneral karakterize yon kontraktè endepandan, kontrèman ak yon anplwaye?
+   a) Travay anba orè dirèk ak kontwòl patwon an
+   b) Anjeneral kenbe kontwòl sou kijan e kilè travay la fèt, souvan sèvi plizyè kliyan
+   c) Resevwa retni salè estanda
+   d) Pa gen diferans ant de yo
+
+2. Ki risk klase yon anplwaye pa erè kòm kontraktè endepandan genyen?
+   a) Okenn risk ditou
+   b) Taks an reta posib, penalite, ak lòt responsablite si yo konteste l
+   c) Ekonomi taks garanti san okenn dezavantaj
+   d) Siksè biznis otomatik
+
+3. Vrè oswa Fo: Yon kontra ki tou senpleman rele yon moun "kontraktè endepandan" garanti klasifikasyon sa a kòrèk legalman.
+
+4. Poukisa avoka a te konseye pa klase nouvo travayè a kòm kontraktè endepandan?
+   a) Kontraktè endepandan ilegal nan tout ka
+   b) Fè espesifik vrè relasyon travay la te montre nan direksyon klasifikasyon anplwaye, kèlkeswa etikèt yo itilize
+   c) Mèt biznis la pa t gen okenn anplwaye ditou
+   d) Kontraktè toujou koute plis pase anplwaye
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kontraktè endepandan anjeneral kenbe kontwòl sou kijan e kilè travay la fèt e souvan yo sèvi plizyè kliyan.
+2. Move klasifikasyon gen vrè risk taks an reta, penalite, ak lòt responsablite si yo konteste l e yo jwenn li pa kòrèk.
+3. Vrè klasifikasyon an depann de fè espesifik relasyon travay la, se pa sèlman etikèt yo itilize nan yon kontra.
+4. Fè espesifik relasyon travay yo te planifye a te montre nan direksyon klasifikasyon anplwaye, kèlkeswa etikèt yo te vle itilize a.
+
+**7. Pwen kle yo**
+- Kontraktè endepandan anjeneral kontwole pwòp metòd travay ak orè yo; anplwaye travay anba direksyon patwon an.
+- Move klasifikasyon gen vrè risk legal ak finansye, sa gen ladan taks an reta posib ak penalite.
+- Bon klasifikasyon an depann de vrè fè relasyon travay la, se pa etikèt yo itilize nan yon kontra.
+- Sa a se yon detèminasyon ki depann de fè yo ak jiridiksyon an e ki mande atansyon, souvan ak konsèy legal.
+
+===== BLUE-L2-024
+TITLE: Bati sistèm: poukisa yon biznis ki depann de ou pa ka grandi
+SUMMARY: Yon biznis ki depann nèt de prezans pwopriyetè a gen yon limit kwasans; "revelasyon sistèm yo" rekonèt ke sistèm dokimante ak anplwaye se sa ki pèmèt yon biznis grandi pi lwen pase limit sa a.
+## BLUE-L2-024
+### Bati sistèm: poukisa yon biznis ki depann de ou pa ka grandi
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp "revelasyon sistèm yo": poukisa biznis ki depann de pwopriyetè a gen difikilte pou grandi.
+- Dekri konsèp jeneral yon sistèm biznis.
+- Aplike konsèp sa a nan yon senaryo kwasans ipotetik.
+
+**2. Kontni prensipal**
+Yon biznis ki depann nèt de prezans ak efò pèsonèl pwopriyetè li pou chak fonksyon — vant, pwodiksyon, sèvis kliyan, jesyon — fè fas a yon plafon kwasans ki di: pwopriyetè a gen yon kantite èdtan limite sèlman, e biznis lan pa ka pwodui plis revni pase sa pwopriyetè a ka pwodui oswa sipèvize pèsonèlman. Sa a se "revelasyon sistèm yo" (systems epiphany), yon tèm prensipal ki retounen nan pwogram sa a: sistèm e alafen anplwaye se sa ki pèmèt yon biznis grandi pi lwen pase sa nenpòt yon sèl moun ka pwodui poukont li.
+
+Yon sistèm, nan kontèks sa a, se yon pwosesis dokimante ou ka repete ki pèmèt yon travay fèt yon fason konsistan, kit pwopriyetè a fè l pèsonèlman kit li pa fè l — sa raple pwosedi operasyon estanda nou diskite plis nan Leson 27. Bati sistèm pa konsiste nan pwopriyetè a vin mwens enplike akoz parès; li konsiste nan kaptire espre kijan travay la ta dwe fèt pou kapasite biznis lan pa limite ankò pa kapasite pèsonèl pwopriyetè a sèlman.
+
+**3. Egzanp pratik**
+Pandan l ap jere biznis ti gato li nèt poukont li, Marisol reyalize li rive nan yon plafon: li kwit chak kòmand pèsonèlman, li okipe chak entèraksyon ak kliyan, e li jere chak aspè biznis lan, sa ki pa kite l okenn kapasite pou l pran plis kòmand kèlkeswa konbyen demann ki egziste. Lè l rekonèt revelasyon sistèm yo, li kòmanse dokimante resèt li yo, pwosesis li yo, ak apwòch sèvis kliyan li nan pwosedi klè ou ka repete espesyalman pou yon anplwaye nan lavni ta ka alafen fè travay sa yo yon fason konsistan — premye etap espre nan direksyon yon biznis ki pa depann nèt de prezans pèsonèl e dirèk li pou chak kòmand.
+
+**4. Egzamen pratik**
+1. Kisa "revelasyon sistèm yo" ye, jan leson sa a dekri l?
+   a) Lide ke biznis pa ta dwe janm grandi
+   b) Rekonèt ke sistèm ak anplwaye se sa ki pèmèt yon biznis grandi pi lwen pase kapasite pèsonèl pwopriyetè a
+   c) Yon kalite lojisyèl kontabilite
+   d) Yon règleman gouvènman
+
+2. Kisa yon "sistèm," nan kontèks sa a, anjeneral vle di?
+   a) Yon apwòch o aza ki pa dokimante
+   b) Yon pwosesis dokimante ou ka repete ki pèmèt yon travay fèt yon fason konsistan
+   c) Yon kalite prè biznis
+   d) Yon kondisyon deklarasyon taks
+
+3. Vrè oswa Fo: Yon biznis ki depann nèt de prezans pèsonèl pwopriyetè li gen yon potansyèl kwasans san limit.
+
+4. Poukisa Marisol te kòmanse dokimante resèt li yo ak pwosesis li yo?
+   a) Li te vle kenbe tout konesans nan pwòp tèt li sèlman
+   b) Pou kaptire pwosedi ou ka repete ki ta ka alafen pèmèt yon lòt moun fè travay sa yo yon fason konsistan
+   c) Li pa t enterese nan fè biznis li grandi
+   d) Lalwa te mande sa
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Revelasyon sistèm yo rekonèt ke sistèm ak anplwaye, se pa sèlman efò pwopriyetè a, se sa ki pèmèt yon biznis grandi.
+2. Yon sistèm se yon pwosesis dokimante ou ka repete ki pèmèt yon travay fèt yon fason konsistan kèlkeswa moun ki fè l.
+3. Biznis ki depann de pwopriyetè a fè fas a yon plafon kwasans ki di, limite pa kapasite pèsonèl pwopriyetè a.
+4. Efò dokimantasyon Marisol se te premye etap espre nan bati sistèm ki pa depann nèt de prezans pèsonèl li.
+
+**7. Pwen kle yo**
+- Yon biznis ki depann nèt de pwopriyetè li fè fas a yon plafon kwasans ki di, limite pa kapasite pèsonèl li.
+- "Revelasyon sistèm yo" rekonèt ke sistèm dokimante ou ka repete pèmèt yon biznis grandi pi lwen pase plafon sa a.
+- Bati sistèm vle di kaptire kijan travay la ta dwe fèt, se pa tou senpleman diminye patisipasyon pwopriyetè a akoz parès.
+- Konsèp sa a se yon tèm prensipal ki retounen, yo valide l nan kontèks divès atravè pwogram sa a.
+
+===== BLUE-L2-025
+TITLE: Travay pou kont ou kont posede yon biznis: diferans nan fonksyon
+SUMMARY: Travay pou kont ou vle di revni ki depann nèt de travay pèsonèl ou; vrè pwopriyete biznis vle di yon biznis ki ka fonksyone yon sèten nivo san prezans konstan pwopriyetè a – yon diferans fonksyonèl, se pa yon jijman valè.
+## BLUE-L2-025
+### Travay pou kont ou kont posede yon biznis: diferans nan fonksyon
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant travay pou kont ou ak vrè pwopriyete biznis nan yon nivo fonksyonèl.
+- Aplike diferans sa a ak yon etid ka mantora reyèl.
+- Konekte diferans sa a ak konsèp sistèm Leson 24 la.
+
+**2. Kontni prensipal**
+Sou baz dirèk Leson 24, leson sa a nonmen yon diferans fonksyonèl enpòtan: travay pou kont ou (self-employment) dekri yon sitiyasyon kote yon moun esansyèlman kreye yon travay pou tèt li — biznis lan pwodui revni sèlman lè moun nan travay pèsonèlman, san okenn sistèm oswa anplwaye ki elaji kapasite pi lwen pase moun sa a. Vrè pwopriyete biznis dekri yon sitiyasyon kote biznis lan ka pwodui revni e fonksyone, omwen nan yon sèten nivo, endepandan de prezans konstan, pèsonèl, e dirèk pwopriyetè a, ak sipò sistèm ak anplwaye nou te diskite nan Leson 24.
+
+Yon etid ka mantora reyèl ilistre diferans sa a: yon ti boutik rad yon sèl moun jere nèt, san sistèm ni anplwaye, fonksyone kòm travay pou kont ou — si pwopriyetè a sispann travay, revni an sispann nèt. Sa a se pa yon kritik sou travay pou kont ou, ki se yon etap oswa yon chwa lejitim e souvan apwopriye; se yon deskripsyon fonksyonèl ki prepare pwochen mach la nan nechèl la: rekonèt travay pou kont ou kòm yon bagay diferan de, e souvan anvan, bati yon vrè biznis atravè sistèm ak delegasyon nou pral diskite nan leson k ap vini yo.
+
+**3. Egzanp pratik**
+Yon mantò reflechi sou boutik rad yon grann: li te jere l ak konpetans pandan plizyè deseni, li te rantab, e se te yon vrè sous lavi, men li te depann nèt de prezans ak efò pèsonèl li chak jou, san sistèm dokimante ni anplwaye ki elaji kapasite boutik la pi lwen pase sa l te ka pwodui pèsonèlman. Mantò a itilize egzanp sa a espesyalman pou ede yon moun l ap gide konprann diferans fonksyonèl ant travay pou kont ou (sa boutik rad la te reprezante) ak vrè pwopriyete biznis (sa ou ta ka bati ak sistèm ak anplwaye ki fèt espre) — se pa pou diminye vrè valè boutik rad la, men pou klarifye yon diferans reyèl e itil pandan moun l ap gide a ap konsidere direksyon pwòp biznis li nan lavni.
+
+**4. Egzamen pratik**
+1. Kisa ki anjeneral karakterize travay pou kont ou, jan leson sa a dekri l?
+   a) Revni ki kontinye kèlkeswa efò pèsonèl moun nan
+   b) Yon sitiyasyon kote revni depann de moun nan k ap travay pèsonèlman, san okenn sistèm oswa anplwaye ki gen sans
+   c) Yon gwo konpayi ak plizyè milye anplwaye
+   d) Yon pwogram gouvènman
+
+2. Kisa ki anjeneral karakterize vrè pwopriyete biznis, dapre diferans sa a?
+   a) Idantik ak travay pou kont ou nan tout aspè
+   b) Biznis lan ka pwodui revni e fonksyone nan yon sèten nivo endepandan de prezans konstan e pèsonèl pwopriyetè a
+   c) Yon biznis ki pa janm gen yon sèl kliyan
+   d) Yon biznis ki pa mande okenn sistèm ditou
+
+3. Vrè oswa Fo: Leson sa a kritike travay pou kont ou kòm yon chwa ki pa lejitim oswa ki enferyè.
+
+4. Ki objektif mantò a te genyen lè l te itilize egzanp boutik rad la?
+   a) Pou diminye vrè valè ak siksè boutik rad la
+   b) Pou klarifye diferans fonksyonèl ant travay pou kont ou ak vrè pwopriyete biznis
+   c) Pou dekouraje nenpòt fòm antreprenarya
+   d) Pou rekòmande fèmen boutik rad la
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Travay pou kont ou dekri revni ki depann de efò pèsonèl, san sistèm oswa anplwaye ki gen sans ki elaji kapasite.
+2. Vrè pwopriyete biznis dekri yon biznis ki ka fonksyone, nan yon sèten nivo, endepandan de prezans pèsonèl konstan pwopriyetè a.
+3. Leson sa a prezante travay pou kont ou klèman kòm yon etap oswa yon chwa lejitim, se pa yon chwa enferyè.
+4. Mantò a te itilize egzanp lan espesyalman pou klarifye yon diferans fonksyonèl itil, se pa pou diminye vrè valè boutik rad la.
+
+**7. Pwen kle yo**
+- Travay pou kont ou dekri revni ki depann nèt de travay pèsonèl yon moun, san sistèm ni anplwaye.
+- Vrè pwopriyete biznis dekri yon biznis ki ka fonksyone nan yon sèten nivo endepandan de prezans konstan pwopriyetè a.
+- Sa a se yon diferans fonksyonèl, se pa yon jijman valè — travay pou kont ou se yon etap oswa yon chwa lejitim e souvan apwopriye.
+- Diferans sa a prepare konsèp sistèm, delegasyon, ak kwasans nou pral eksplore nan leson k ap vini yo.
