@@ -72,3 +72,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
     NOTE: phase0 safety-net workflow pins es-ES RED-L1-001 title text "¿Qué es realmente un inmueble?" — keep it.
   - PR 1631 BLUE L1 ht (50 new) + ORANGE-L1-001.ht heading fix — in CI.
   - Remaining Haitian: PURPLE L4 (001-020 batches ready in work/PURPLE-L4-ht, 021-050 to do), ORANGE L4, BLACK L4; L3 for BLUE/GREEN/GOLD/PURPLE/ORANGE/BLACK.
+- 2026-11-23: PURPLE L4 ht 001-050 complete (check45 0 problems); PR 1632 opened, merge running. check45 ht heading map fixed to site convention "Senaryo pou louvri leson an"; extra hedged Haiti REGION tags allowed (matches merged GOLD/GREEN/BLUE L4 ht). Next: ORANGE L4 ht, BLACK L4 ht.

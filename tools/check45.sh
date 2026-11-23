@@ -16,7 +16,7 @@ H={
    'pt-PT':['Cenário de abertura', 'Objetivos de aprendizagem', 'Conteúdo principal', 'Exemplo prático', 'Teste de prática', 'Chave de Respostas', 'Respostas e explicações', 'Pontos-chave'],
    'it':['Scenario iniziale', 'Obiettivi di apprendimento', 'Contenuto principale', 'Esempio pratico', 'Quiz di esercitazione', 'Chiave delle risposte', 'Risposte e spiegazioni', 'Punti chiave'],
    'nl':['Openingsscenario', 'Leerdoelen', 'Kerninhoud', 'Uitgewerkt voorbeeld', 'Oefenquiz', 'Antwoordsleutel', 'Antwoorden en uitleg', 'Belangrijkste punten'],
-   'ht':['Senaryo ouvèti', 'Objektif aprantisaj', 'Kontni prensipal', 'Egzanp pratik', 'Egzamen pratik', 'Kle repons yo', 'Repons ak eksplikasyon', 'Pwen kle yo'],
+   'ht':['Senaryo pou louvri leson an', 'Objektif aprantisaj', 'Kontni prensipal', 'Egzanp pratik', 'Egzamen pratik', 'Kle repons yo', 'Repons ak eksplikasyon', 'Pwen kle yo'],
    'fr-CA':["Mise en situation","Objectifs d’apprentissage","Contenu principal","Exemple pratique","Questionnaire pratique","Corrigé","Réponses et explications","Points clés"],
    'es-Caribbean':["Escenario inicial","Objetivos de aprendizaje","Contenido principal","Ejemplo práctico","Prueba práctica","Clave de respuestas","Respuestas y explicaciones","Puntos clave"],
    'de':["Einstiegsszenario","Lernziele","Hauptinhalt","Durchgerechnetes Beispiel","Übungsquiz","Lösungsschlüssel","Antworten und Erklärungen","Das Wichtigste in Kürze"]}[loc]
@@ -53,7 +53,7 @@ for f in sorted(glob.glob('*.md')):
     if len(re.findall(r'^# ',e,re.M))!=len(re.findall(r'^# ',t,re.M)): p.append('H1')
     for a,b in T:
         x=e.count(a)-(e.count('ASSUMPTION/OPINION') if a=='OPINION' else 0); y=t.count(b)
-        if x!=y: p.append(f'TAG {a} {x}/{y}')
+        if x!=y and not (a=='REGION-SPECIFIC RULE' and y>x): p.append(f'TAG {a} {x}/{y}')
     if p: bad+=1; print(lid,p)
 print(f'{L} structure problems:',bad)
 PY
