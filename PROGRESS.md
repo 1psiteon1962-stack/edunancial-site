@@ -88,3 +88,4 @@ Status:
 - NOTE: bash glob order of work/*/b*.txt is odd in this shell; python sorted() is lesson order. Write note lists in LESSON order.
 - ORANGE-L5 fr-FR DONE 2026-11-22
 - ORANGE-L5 pt-BR DONE 2026-11-22
+- ORANGE-L5 pt-PT DONE 2026-11-22
