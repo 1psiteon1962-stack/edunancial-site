@@ -1,0 +1,339 @@
+===== WHITE-L1-001
+TITLE: Qu’est-ce qu’un actif papier? (Et pourquoi l’appelle-t-on ainsi)
+SUMMARY: Découvrez ce que représente réellement un actif papier et en quoi il diffère de la possession d’un bien physique.
+# Qu’est-ce qu’un actif papier? (Et pourquoi l’appelle-t-on ainsi)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un actif papier en termes simples.
+- Expliquer ce que représente réellement un actif papier.
+- Comparer les actifs papier à l’immobilier en tant que type de valeur différent.
+
+## Contenu principal
+
+### Ce que signifie « actif papier »
+
+Un actif papier est un droit financier — autrefois un certificat physique, aujourd’hui presque toujours un registre numérique — qui représente une propriété ou un droit à une valeur future, plutôt que d’être lui-même un objet physique et utilisable. Une action représente une part de propriété dans une entreprise. Une obligation représente une promesse de remboursement, avec intérêts.
+
+### Ce qu’il y a derrière un actif papier
+
+Posséder une action d’une entreprise ne veut pas dire posséder un bureau ou une machine en particulier — cela veut dire posséder une infime part de la valeur de l’entreprise tout entière. La valeur de l’actif papier dépend entièrement de ce qu’il y a derrière : l’entreprise réelle, l’emprunteur réel, le gouvernement réel qui garantit une obligation.
+
+### Actifs papier ou immobilier
+
+L’immobilier du volet RED est physique : des terrains et des bâtiments qu’on peut toucher. Les actifs papier du volet WHITE sont des droits : des parts de propriété, des ententes de prêt, des droits à des paiements futurs. Les actifs papier sont aussi généralement plus faciles et plus rapides à acheter, à vendre et à diviser en petites parts que les biens physiques.
+
+## Exemple pratique
+
+Posséder 10 actions d’une entreprise, c’est posséder une petite part définie de la valeur globale de l’entreprise — et non un élément précis de ses actifs physiques. Cette valeur monte ou descend selon l’évolution des perspectives de l’entreprise.
+
+## Quiz pratique
+
+1. Un actif papier se décrit le mieux comme :
+   A. Un objet physique qu’on peut utiliser directement
+   B. Un droit de propriété ou un droit à une valeur future
+   C. Un type de monnaie
+   D. Un formulaire émis par le gouvernement
+2. Vrai ou faux : la valeur d’une action vient surtout du fait qu’il s’agit d’un registre officiel.
+3. Pourquoi la vente d’une action est-elle habituellement beaucoup plus rapide que la vente d’une maison?
+   A. Il est illégal de détenir des actions à long terme
+   B. Les actions sont de petites unités normalisées qui n’exigent pas de trouver un acheteur précis et assorti
+   C. Les maisons ont plus de valeur
+   D. Il n’y a aucune réelle différence de rapidité
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un actif papier représente une propriété ou un droit à une valeur future.
+
+### Question 2
+Bonne réponse : Faux. La valeur vient de ce que l’actif représente, et non du papier ou du registre lui-même.
+
+### Question 3
+Bonne réponse : B. Ce sont les petites unités normalisées, qui n’exigent pas de trouver un acheteur unique et assorti, qui rendent la vente d’actions plus rapide.
+
+## Points clés
+
+- Un actif papier est un droit sur une valeur, et non un objet physique.
+- Sa valeur vient de ce qu’il y a derrière.
+- Les actifs papier sont généralement plus faciles et plus rapides à acheter, à vendre et à diviser que l’immobilier.
+
+===== WHITE-L1-002
+TITLE: Qu’est-ce que le RCI? (Et pourquoi la même idée prend une forme différente dans chaque volet)
+SUMMARY: Découvrez la formule du RCI, ce qu’elle mesure et pourquoi la même notion s’applique à l’immobilier, aux entreprises et aux actifs papier.
+# Qu’est-ce que le RCI? (Et pourquoi la même idée prend une forme différente dans chaque volet)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Calculer un RCI de base à partir d’un gain et d’un coût.
+- Expliquer ce que le RCI mesure réellement.
+- Reconnaître le RCI comme une notion commune à tous les volets, et en nommer une limite.
+
+## Contenu principal
+
+### La formule du RCI
+
+RCI (rendement du capital investi, ou ROI en anglais) = (gain tiré de l’investissement − coût de l’investissement) ÷ coût de l’investissement, habituellement exprimé en pourcentage. Si 1 000 $ deviennent 1 200 $, le gain est de 200 $, et le RCI = 200 $ ÷ 1 000 $ = 20 %.
+
+### La même notion, des volets différents
+
+Le RCI n’est pas une idée propre au volet WHITE. Un investisseur immobilier du volet RED calcule le RCI à partir des revenus locatifs et de la plus-value par rapport au prix d’achat. Un propriétaire d’entreprise du volet BLUE le calcule à partir du bénéfice généré par rapport à l’argent investi. La logique de la formule reste la même — le gain comparé au coût —, mais ce qui compte comme gain et comme coût change selon le volet.
+
+### Une limite réelle
+
+Le RCI de base ne tient pas compte du temps. Un RCI de 20 % obtenu en un an est très différent du même 20 % obtenu en dix ans, même si la formule à elle seule ne montre pas cette différence.
+
+## Exemple pratique
+
+500 $ qui deviennent 575 $, c’est un gain de 75 $ : RCI = 75 $ ÷ 500 $ = 15 %. Un achat d’équipement d’entreprise de 10 000 $ qui génère 2 500 $ de bénéfice supplémentaire : RCI = 2 500 $ ÷ 10 000 $ = 25 % — même formule, situations très différentes.
+
+## Quiz pratique
+
+1. Le RCI mesure :
+   A. Le montant total gagné, en dollars
+   B. Le gain par rapport au coût, en pourcentage
+   C. La valeur totale d’un investissement
+   D. Le niveau de risque d’un investissement
+2. Vrai ou faux : le RCI de base tient compte du temps qu’il a fallu pour obtenir le rendement.
+3. Vous investissez 2 000 $ et cette somme passe à 2 400 $. Quel est le RCI?
+   A. 10 %
+   B. 15 %
+   C. 20 %
+   D. 40 %
+
+## Corrigé
+
+1. B
+2. Faux
+3. C
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le RCI est précisément une mesure, en pourcentage, du gain par rapport au coût.
+
+### Question 2
+Bonne réponse : Faux. Le RCI de base ne tient pas compte du temps — une limite réelle.
+
+### Question 3
+Bonne réponse : C. (2 400 $ − 2 000 $) ÷ 2 000 $ = 20 %.
+
+## Points clés
+
+- RCI = (gain − coût) ÷ coût, habituellement exprimé en pourcentage.
+- Le RCI s’applique aussi bien à l’immobilier qu’aux entreprises et aux actifs papier.
+- Le RCI de base ne tient pas compte du temps — une limite réelle à garder en tête.
+
+===== WHITE-L1-003
+TITLE: Qu’est-ce qu’une action, au fond? (Vous achetez une part d’entreprise)
+SUMMARY: Découvrez ce à quoi la possession d’une action vous donne réellement droit, et ce à quoi elle ne vous donne pas droit.
+# Qu’est-ce qu’une action, au fond? (Vous achetez une part d’entreprise)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une action en termes simples.
+- Expliquer ce à quoi la possession d’actions donne droit, et ce à quoi elle ne donne pas droit.
+- Expliquer pourquoi le nombre total d’actions en circulation compte dans ce que représente une action.
+
+## Contenu principal
+
+### Une action est une part de propriété réelle
+
+Lorsqu’une entreprise est cotée en bourse, sa propriété est divisée en un nombre fixe d’actions. Posséder 1 000 actions sur 1 000 000 en circulation, c’est posséder 0,1 % de cette entreprise — réellement et légalement.
+
+### Ce à quoi la propriété donne droit (et ce à quoi elle ne donne pas droit)
+
+La propriété donne habituellement droit à une part proportionnelle des bénéfices (si des dividendes sont versés) et à certains droits de vote sur les décisions importantes. Elle NE donne PAS droit au contrôle des activités quotidiennes, à un dividende garanti ni à un cours en hausse garanti. Les actionnaires ne sont généralement pas non plus personnellement responsables des dettes de l’entreprise au-delà de la valeur de leurs actions.
+
+### Pourquoi le nombre total d’actions compte
+
+Posséder 100 actions d’une entreprise qui compte 1 000 actions en circulation, c’est détenir 10 % de la propriété. Posséder 100 actions d’une entreprise qui compte 10 000 000 d’actions en circulation, c’est en détenir 0,001 %. Le nombre brut d’actions ne suffit pas à indiquer votre participation réelle.
+
+## Exemple pratique
+
+Un investisseur qui possède 5 000 actions d’une entreprise qui compte 500 000 actions en circulation possède 5 000 ÷ 500 000 = 1 % de l’entreprise.
+
+## Quiz pratique
+
+1. Posséder une action vous donne habituellement droit à :
+   A. Un contrôle quotidien des activités de l’entreprise
+   B. Une part proportionnelle des bénéfices et certains droits de vote
+   C. Des versements de dividendes garantis
+   D. Une responsabilité personnelle à l’égard des dettes de l’entreprise
+2. Vrai ou faux : le nombre d’actions que vous possédez, à lui seul, indique votre pourcentage de propriété.
+3. Une entreprise compte 200 000 actions en circulation. Un investisseur en possède 2 000. Quel pourcentage possède-t-il?
+   A. 0,1 %
+   B. 1 %
+   C. 2 %
+   D. 10 %
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La propriété donne droit à une part proportionnelle des bénéfices et à certains droits de vote, et non au contrôle des activités.
+
+### Question 2
+Bonne réponse : Faux. Le pourcentage de propriété dépend du nombre d’actions détenues par rapport au nombre total d’actions en circulation.
+
+### Question 3
+Bonne réponse : B. 2 000 ÷ 200 000 = 1 %.
+
+## Points clés
+
+- Une action est une part de propriété réelle et légale dans une entreprise.
+- La propriété ne signifie ni contrôle des activités ni dividende garanti.
+- Votre participation réelle dépend du nombre d’actions détenues par rapport au nombre total d’actions en circulation.
+
+===== WHITE-L1-004
+TITLE: Qu’est-ce qu’une obligation, au fond? (Vous prêtez de l’argent, vous n’achetez pas une part de propriété)
+SUMMARY: Découvrez ce que représente réellement une obligation — un prêt, et non une part de propriété — et les modalités de base qui la définissent.
+# Qu’est-ce qu’une obligation, au fond? (Vous prêtez de l’argent, vous n’achetez pas une part de propriété)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une obligation en termes simples.
+- Expliquer la relation de base entre le détenteur d’une obligation et l’émetteur.
+- Nommer les modalités de base qui définissent une obligation.
+
+## Contenu principal
+
+### Une obligation est un prêt, et non une part de propriété
+
+Lorsque vous achetez une obligation, vous prêtez de l’argent à celui qui l’a émise (une entreprise ou un gouvernement); vous n’achetez pas une part de propriété comme le ferait une action. C’est la distinction la plus importante entre les actions et les obligations.
+
+### La relation de base
+
+L’émetteur promet de rembourser le montant initial (le capital, ou « valeur nominale ») à une date future fixée (l’échéance) et, habituellement, de verser des intérêts périodiques (appelés coupon) en cours de route, en échange de l’utilisation de votre argent.
+
+### Les modalités de base
+
+Toute obligation a une valeur nominale (le montant remboursé à l’échéance), un taux de coupon (le taux d’intérêt versé) et une date d’échéance (le moment où le prêt est remboursé). Ces modalités sont fixées au moment de l’émission de l’obligation.
+
+## Exemple pratique
+
+Un investisseur achète une obligation d’une valeur nominale de 1 000 $, avec un taux de coupon de 4 % et une échéance de 10 ans. Il reçoit 40 $ d’intérêts par année (4 % de 1 000 $) et récupère ses 1 000 $ après 10 ans.
+
+## Quiz pratique
+
+1. Acheter une obligation signifie :
+   A. Acheter une part de propriété dans une entreprise
+   B. Prêter de l’argent à l’émetteur
+   C. Acheter un bien physique
+   D. Devenir employé de l’entreprise
+2. Vrai ou faux : le taux de coupon d’une obligation désigne le montant remboursé à l’échéance.
+3. Qu’est-ce que la valeur nominale d’une obligation?
+   A. Le taux d’intérêt versé
+   B. Le montant remboursé au détenteur à l’échéance
+   C. Le prix actuel de l’obligation sur le marché
+   D. La dette totale de l’émetteur
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une obligation représente un prêt d’argent, et non une part de propriété.
+
+### Question 2
+Bonne réponse : Faux. Le taux de coupon est le taux d’intérêt; la valeur nominale est le montant remboursé à l’échéance.
+
+### Question 3
+Bonne réponse : B. La valeur nominale est le capital remboursé à l’échéance.
+
+## Points clés
+
+- Une obligation représente un prêt d’argent, et non une part de propriété.
+- L’émetteur promet de rembourser le capital à l’échéance, en plus de verser des intérêts périodiques (le coupon).
+- La valeur nominale, le taux de coupon et la date d’échéance sont les modalités de base qui la définissent.
+
+===== WHITE-L1-005
+TITLE: Actions ou obligations : quel est le véritable compromis?
+SUMMARY: Découvrez le véritable compromis entre les actions et les obligations — potentiel de croissance ou priorité de remboursement —, et pas seulement « risqué ou sûr ».
+# Actions ou obligations : quel est le véritable compromis?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Expliquer la différence structurelle de base entre les actions et les obligations.
+- Expliquer pourquoi les détenteurs d’obligations sont généralement remboursés avant les actionnaires.
+- Éviter le cadrage simpliste selon lequel « les actions sont risquées, les obligations sont sûres ».
+
+## Contenu principal
+
+### La différence structurelle
+
+Une action représente une part de propriété; une obligation représente un prêt. Cette seule différence explique la plupart des différences pratiques entre les deux, présentées dans cette leçon.
+
+### La priorité de remboursement
+
+Si une entreprise connaît de graves difficultés financières, les détenteurs d’obligations (en tant que prêteurs) ont généralement un droit légal d’être remboursés avant que les actionnaires (en tant que propriétaires) reçoivent quoi que ce soit. C’est une priorité structurelle réelle, et pas seulement une réputation générale de sécurité.
+
+### Au-delà de « risqué ou sûr »
+
+Qualifier simplement les actions de « risquées » et les obligations de « sûres » simplifie à l’excès un compromis plus nuancé : les actions offrent le potentiel de hausse de la propriété (un potentiel de croissance illimité, mais aucune garantie de remboursement), alors que les obligations offrent des modalités de remboursement définies et contractuelles (mais un rendement potentiel plafonné, et leurs propres risques réels, comme le défaut de paiement de l’émetteur).
+
+## Exemple pratique
+
+Si une entreprise fait faillite, ses détenteurs d’obligations sont généralement en file pour être remboursés à même les actifs restants avant que ses actionnaires reçoivent quoi que ce soit — le droit des actionnaires passe en dernier, ce qui reflète la différence structurelle entre propriété et prêt.
+
+## Quiz pratique
+
+1. La différence structurelle de base entre les actions et les obligations est la suivante :
+   A. Les actions sont toujours plus risquées que les obligations
+   B. Les actions représentent une part de propriété; les obligations représentent un prêt
+   C. Les obligations rapportent toujours davantage
+   D. Il n’y a aucune réelle différence
+2. Vrai ou faux : en cas de faillite d’une entreprise, les détenteurs d’obligations ont généralement un droit de remboursement qui passe avant celui des actionnaires.
+3. Pourquoi « les actions sont risquées, les obligations sont sûres » est-il une simplification excessive?
+   A. C’est tout à fait exact, sans aucune nuance
+   B. Les deux comportent des compromis réels et différents entre risque et rendement
+   C. Les obligations ne comportent aucun risque
+   D. Les actions font toujours perdre de l’argent
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La différence entre propriété et prêt est la différence structurelle de base.
+
+### Question 2
+Bonne réponse : Vrai. Les détenteurs d’obligations ont généralement la priorité de remboursement sur les actionnaires.
+
+### Question 3
+Bonne réponse : B. Les deux comportent des types de risques réels et distincts — le cadrage simpliste passe à côté de cette nuance.
+
+## Points clés
+
+- Les actions représentent une part de propriété; les obligations représentent un prêt.
+- Les détenteurs d’obligations ont généralement la priorité de remboursement sur les actionnaires.
+- « Risqué ou sûr » simplifie à l’excès un compromis plus nuancé entre les deux.
