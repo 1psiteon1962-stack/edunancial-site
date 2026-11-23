@@ -1,0 +1,147 @@
+===== GREEN-L3-016
+TITLE: Poukisa penalite pou peman ki pa ase pini lè revni rantre yon fason inegal
+SUMMARY: Aprann poukisa otorite taks yo ka penalize peman taks inegal pandan ane a, menm si w finalman peye tout kantite ou dwe a alè.
+# GREEN-L3-016: Poukisa penalite pou peman ki pa ase pini lè revni rantre yon fason inegal
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon penalite pou peman ki pa ase ka aplike menm si w finalman peye tout fakti taks la
+- Dekri konsèp jeneral yon règ "pwoteksyon" (safe harbor)
+- Konekte konsèp sa a ak prensip peye pandan w ap touche Leson 15 la
+
+## Kontni prensipal
+
+Leson 15 te etabli prensip peye pandan w ap touche ki anba taks estimasyon chak twa mwa yo. Men "poukisa" yon penalite ka aplike menm pou yon kontribyab ki finalman peye tout fakti taks li: paske sistèm nan konsevwa espesyalman pou peye taks pandan tout ane a pandan w ap touche revni, peye twò piti pandan ane a — menm si yo peye tout sa ki te manke a nèt lè w depoze deklarasyon an — ka bay yon **penalite pou peman ki pa ase** (underpayment penalty), paske se tan peman an li menm, pa sèlman kantite total final la, ki konte nan sistèm sa a.
+
+[FÈ VERIFYE] Anpil sistèm taks gen yon règ **pwoteksyon** (safe harbor), ki anjeneral pèmèt yon kontribyab evite penalite sa a si total retni li ak peman estimasyon li pandan ane a rive nan kèk nivo — souvan ki baze swa sou yon pousantaj taks li dwe pou ane aktyèl la, swa sou yon pousantaj taks li te dwe pou ane anvan an, selon ki kalkil ki aplike dapre règ espesifik ki an vigè yo. Konprann e planifye otou nivo pwoteksyon sa yo se yon estrateji planifikasyon taks komen e lejitim espesyalman pou evite penalite pou peman ki pa ase, sitou pou kontribyab ki gen revni ki varye oswa ki pa previzib.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontribyab k ap travay poukont li gen yon dènye trimès ane a ki trè fò, sa ki bay yon gwo fakti taks li peye nèt lè l depoze deklarasyon li, alè e pou kantite kòrèk la. [SIPOZISYON] Sepandan, si peman estimasyon li yo pandan premye trimès ane a te twò ba konpare ak revni li te genyen nan moman sa a — e li pa t rive nan yon nivo pwoteksyon ki aplike — li ta ka toujou fè fas ak yon penalite pou peman ki pa ase pou premye trimès sa yo, malgre li finalman peye tout obligasyon taks li kòrèkteman e alè, sa ki montre sistèm nan penalize tan peman an, pa sèlman kantite total final ou dwe a.
+
+## Egzamen pratik
+
+1. Poukisa yon penalite pou peman ki pa ase ka aplike menm pou yon kontribyab ki finalman peye tout fakti taks li alè?
+2. Kisa yon règ "pwoteksyon" (safe harbor) anjeneral fèt pou fè?
+3. Kijan leson sa a konekte ak prensip peye pandan w ap touche Leson 15 la?
+
+## Kle repons yo
+
+1. Paske sistèm nan konsevwa otou peye taks pandan tout ane a pandan w ap touche revni, kidonk peye twò piti pandan ane a, menm si yo korije sa lè w depoze deklarasyon an, ka bay yon penalite ki baze sou mank sa a nan tan peman an pi bonè.
+2. Pèmèt yon kontribyab evite penalite pou peman ki pa ase si retni li ak peman estimasyon li pandan ane a rive nan kèk nivo, souvan ki baze sou taks ane aktyèl la oswa ane anvan an.
+3. Leson sa a esplike mekanis aplikasyon an (penalite a) ki egziste espesyalman pou ranfòse prensip peye pandan w ap touche Leson 15 la dekri a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se konpreyansyon santral, yon ti jan kont entwisyon, leson an bati sou li.
+2. Sa prezante mekanis pwoteksyon espesifik ki disponib pou evite penalite a.
+3. Sa konekte leson an klèman ak Leson 15, sa ki ranfòse estrikti entegre tras la.
+
+## Pwen kle yo
+- Penalite pou peman ki pa ase ka aplike selon tan peman taks yo pandan ane a, pa sèlman selon kantite total final ou dwe a.
+- Règ pwoteksyon yo anjeneral pèmèt evite penalite sa a si retni ak peman estimasyon yo rive nan kèk nivo ki mare ak taks ane aktyèl la oswa ane anvan an.
+- Estrikti penalite sa a egziste espesyalman pou ranfòse prensip peye pandan w ap touche ki anba sistèm taks la an jeneral.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ penalite pou peman ki pa ase ak nivo pwoteksyon yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-017
+TITLE: Poukisa estrikti biznis lan chanje fason yo taxe revni an
+SUMMARY: Aprann poukisa menm kantite pwofi biznis ka taxe yon fason trè diferan selon si biznis lan se yon antrepriz endividyèl, yon asosyasyon, oswa yon sosyete.
+# GREEN-L3-017: Poukisa estrikti biznis lan chanje fason yo taxe revni an
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa chwa estrikti biznis lan afekte dirèkteman fason yo taxe pwofi a
+- Dekri diferans jeneral nan fason yo trete taks nan estrikti biznis komen yo
+- Prepare konsèp transmisyon (pass-through) ak doub taksasyon yo kouvri nan de pwochen leson yo
+
+## Kontni prensipal
+
+Estrikti legal yon biznis — antrepriz endividyèl, asosyasyon (partnership), sosyete (corporation), oswa lòt fòm ki disponib, ki varye selon jiridiksyon — se pa sèlman yon kesyon legal oswa responsablite; li detèmine dirèkteman tou fason yo taxe pwofi biznis lan.
+
+Men "poukisa" sa enpòtan otan, oswa plis, pase lòt konsiderasyon pou kreye yon biznis: diferan estrikti yo taxe dapre règ ki vrèman diferan. [FÈ VERIFYE] Kèk estrikti (yo souvan rele yo antite transmisyon, yo kouvri nan pwochen leson an) fè pwofi biznis lan "pase" bay deklarasyon taks pèsonèl mèt yo, yo taxe l yon sèl fwa nan nivo endividyèl. Lòt estrikti (tankou yon sosyete tradisyonèl, yo kouvri nan leson apre sa a) ka taxe kòm yon antite separe poukont li, sa ki ka kreye yon sitiyasyon kote yo taxe menm pwofi a nan nivo sosyete a e yon lòt fwa ankò lè yo distribiye l bay mèt yo.
+
+Se poutèt sa chwazi yon estrikti biznis se, pami lòt konsiderasyon enpòtan tankou pwoteksyon responsablite, fondamantalman yon desizyon planifikasyon taks tou — menm biznis debaz la, ki fè menm pwofi a, ka fè fas ak yon chaj taks total ki diferan anpil sèlman selon ki estrikti li òganize. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, fòm biznis yo (pa egzanp antrepriz endividyèl oswa sosyete anonim) ak fason yo taxe yo gen pwòp règ pa yo; verifye ak yon avoka oswa yon kontab ki kalifye anvan w chwazi.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] De biznis fè menm pwofi anyèl la men yo òganize anba diferan estrikti legal. Youn, ki òganize kòm yon antite transmisyon, gen pwofi sa a ki taxe yon sèl fwa, dirèkteman sou deklarasyon taks pèsonèl mèt la nan to taks endividyèl li. Lòt la, ki òganize kòm yon sosyete tradisyonèl, gen menm pwofi sa a ki ka taxe yon fwa nan nivo sosyete a, e yon lòt fwa ankò si e lè yo distribiye l bay mèt la kòm yon dividann. [SIPOZISYON] Malgre pèfòmans biznis debaz yo idantik, de biznis sa yo ta ka fè fas ak rezilta taks total ki diferan anpil sèlman akoz estrikti legal yo chwazi a — yon diferans ki vo lapèn konprann anvan, pa apre, ou chwazi kijan pou w òganize yon nouvo biznis.
+
+## Egzamen pratik
+
+1. Poukisa chwa estrikti biznis lan afekte dirèkteman fason yo taxe pwofi yon biznis?
+2. Ki diferans jeneral nan fason yo trete taks ant yon antite transmisyon ak yon sosyete tradisyonèl, jan leson sa a prezante l?
+3. Poukisa yo konsidere chwazi yon estrikti biznis kòm yon desizyon planifikasyon taks, pa sèlman yon konsiderasyon responsablite?
+
+## Kle repons yo
+
+1. Paske diferan estrikti legal yo taxe dapre règ ki vrèman diferan — kèk fè pwofi a pase bay deklarasyon pèsonèl mèt yo, lòt ka taxe kòm yon antite separe.
+2. Yon antite transmisyon gen pwofi ki taxe yon sèl fwa, sou deklarasyon pèsonèl mèt yo; yon sosyete tradisyonèl ka taxe nan nivo sosyete a, e petèt yon lòt fwa ankò lè yo distribiye pwofi a bay mèt yo.
+3. Paske menm biznis debaz la ak menm pwofi a ka fè fas ak yon chaj taks total ki diferan anpil sèlman selon estrikti yo chwazi a, sa ki fè l yon vrè konsiderasyon planifikasyon taks ansanm ak pwoteksyon responsablite.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike premis debaz leson an.
+2. Sa prepare konsèp espesifik yo kouvri nan de pwochen leson yo.
+3. Sa ranfòse nati pratik, ak de objektif, desizyon sou estrikti biznis lan.
+
+## Pwen kle yo
+- Estrikti biznis lan detèmine dirèkteman fason yo taxe pwofi yon biznis, pa sèlman pwoteksyon responsablite li.
+- Antite transmisyon yo taxe pwofi a yon sèl fwa, sou deklarasyon pèsonèl mèt yo; sosyete tradisyonèl yo ka taxe separeman, sa ki ka kreye yon sitiyasyon doub taksasyon.
+- Yo ta dwe trete chwa estrikti biznis lan kòm yon vrè desizyon planifikasyon taks, ki vo lapèn konprann anvan w kreye biznis lan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks pou antite biznis yo varye selon jiridiksyon e yo chanje ak tan; konsilte pwofesyonèl legal ak taks ki gen lisans anvan w chwazi yon estrikti biznis.*
+
+===== GREEN-L3-018
+TITLE: Poukisa antite transmisyon yo evite doub taksasyon
+SUMMARY: Aprann kijan estrikti biznis transmisyon (pass-through) evite taxe pwofi a de fwa, ak poukisa sa fè yo yon chwa komen pou anpil ti biznis.
+# GREEN-L3-018: Poukisa antite transmisyon yo evite doub taksasyon
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kijan yo taxe pwofi yon antite transmisyon
+- Esplike poukisa estrikti sa a evite posiblite doub taksasyon Leson 17 la te prezante a
+- Idantifye egzanp komen kalite antite transmisyon
+
+## Kontni prensipal
+
+Yon **antite transmisyon** (pass-through entity) — egzanp komen gen ladan antrepriz endividyèl, asosyasyon, e, nan anpil jiridiksyon, LLC ki chwazi tretman sa a — pa peye enpo sou revni kòm yon antite separe li menm. Olye sa, pwofi biznis lan "pase" dirèkteman bay mèt yo, ki deklare e ki peye taks sou pwofi sa a kòm yon pati nan pwòp deklarasyon taks pèsonèl yo.
+
+Men "poukisa" sa evite sitiyasyon doub taksasyon Leson 17 la te prezante a: paske yo pa taxe biznis lan li menm kòm yon antite separe, pa gen okenn premye kouch taks nan nivo biznis lan anvan pwofi a menm rive jwenn mèt la — yo taxe pwofi a egzakteman yon sèl fwa, nan to taks pèsonèl mèt la, kèlkeswa si yo distribiye pwofi sa a an reyalite bay mèt la an lajan kach oswa si yo senpleman kenbe l nan biznis lan.
+
+[FÈ VERIFYE] Taksasyon yon sèl kouch sa a se yon gwo rezon ki fè estrikti transmisyon yo komen pou anpil ti biznis ak biznis mwayen, menm si règ taks espesifik yo, enkli fason taks travayè endepandan (Leson 14) aplike ak si yon biznis espesifik kalifye pou kèk dediksyon tankou dediksyon sou revni biznis ki kalifye (Qualified Business Income, yo kouvri l nan yon leson pita), varye selon kalite antite transmisyon espesifik la ak jiridiksyon an.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ti biznis ki òganize kòm yon LLC ki chwazi tretman taks transmisyon fè $100,000 pwofi anyèl. Yo deklare $100,000 sa a sou deklarasyon taks pèsonèl mèt la e yo taxe l yon sèl fwa, nan to taks endividyèl mèt la, kèlkeswa si mèt la te retire pwofi sa a an reyalite an lajan kach oswa li te reyenvesti l nan biznis lan. [SIPOZISYON] Pa gen okenn taks separe nan nivo sosyete ki aplike sou $100,000 sa a anvan l rive sou deklarasyon pèsonèl mèt la — sa ki montre taksasyon yon sèl kouch ki fè diferans ant tretman transmisyon ak posiblite doub taksasyon yo diskite pou sosyete tradisyonèl nan pwochen leson an.
+
+## Egzamen pratik
+
+1. Kijan yo anjeneral taxe pwofi yon antite transmisyon?
+2. Poukisa estrikti sa a evite sitiyasyon doub taksasyon Leson 17 la te prezante a?
+3. Bay de egzanp komen kalite antite transmisyon.
+
+## Kle repons yo
+
+1. Pwofi a pase dirèkteman bay mèt yo, ki deklare e ki peye taks sou li kòm yon pati nan pwòp deklarasyon taks pèsonèl yo, olye yo taxe biznis lan separeman kòm pwòp antite pa li.
+2. Paske pa gen okenn taks separe nan nivo antite biznis lan — yo taxe pwofi a egzakteman yon sèl fwa, nan to pèsonèl mèt la, kit yo distribiye l kit yo kenbe l.
+3. Nenpòt de nan: antrepriz endividyèl, asosyasyon, LLC ki chwazi tretman transmisyon.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa esplike dirèkteman mekanis taksasyon yon sèl kouch lan, an kontras ak sitiyasyon doub taksasyon Leson 17 la.
+3. Sa bay konsèp abstrè a yon baz nan egzanp konkrè e komen.
+
+## Pwen kle yo
+- Yo taxe pwofi yon antite transmisyon yon sèl fwa, dirèkteman sou deklarasyon taks pèsonèl mèt yo, pa nan nivo antite biznis lan.
+- Sa evite posiblite doub taksasyon ki ka aplike pou sosyete tradisyonèl yo.
+- Estrikti transmisyon komen yo gen ladan antrepriz endividyèl, asosyasyon, ak LLC ki chwazi tretman sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks pou antite biznis yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
