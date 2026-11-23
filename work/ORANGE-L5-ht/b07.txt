@@ -1,0 +1,461 @@
+===== ORANGE-L5-031
+TITLE: Pouvwa sou pri ak tranche ki pwoteje kont konkirans
+SUMMARY: Pouvwa sou pri reflete yon tranche dirab ki pwoteje biznis la; tranche yo soti nan mak, depans pou chanje, efè rezo, avantaj depans, pwoteksyon legal ak byen inik, yo sipòte pi gwo valè ak rezistans pandan enflasyon, e yo dwe antretni e yo ka bati espre.
+KEYWORDS: pouvwa sou pri, tranche kont konkirans, depans pou chanje, efè rezo, avantaj konkirans dirab
+# Pouvwa sou pri ak tranche ki pwoteje kont konkirans
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: Enflasyon an monte, e chak biznis fè fas ak depans ki pi wo. Gen kèk ki ka monte pri fasil; lòt pèdi kliyan lè yo eseye. Poze kesyon atravè koulè yo: Kisa ki fè kliyan yon konpayi rete (ORANGE)? Èske avantaj li yo pwoteje legalman (PURPLE)? Kijan envestisè yo evalye konpayi ki gen tranche fò (WHITE)? Kijan pouvwa sou pri pwoteje lajan k ap antre (BLUE)?
+
+## Objektif aprantisaj
+- Defini pouvwa sou pri ak tranche ki pwoteje kont konkirans
+- Idantifye sous avantaj dirab ki komen
+- Konekte tranche yo ak valè, estrateji ak rezistans pandan enflasyon
+
+## Kontni prensipal
+Pouvwa sou pri se kapasite yon biznis genyen pou l monte pri san l pa pèdi anpil kliyan. Se youn nan siy ki pi klè ke yon biznis fò, sitou pandan enflasyon.
+Pouvwa sou pri an jeneral soti nan yon tranche kont konkirans: yon avantaj dirab ki pwoteje yon biznis kont konkiran, tankou yon tranche dlo bò kote yon chato.
+Sous tranche ki komen:
+- Mak: Kliyan yo fè mak la konfyans e yo prefere l (ORANGE-L5-010).
+- Depans pou chanje: Chanje pou yon konkiran koute chè, pran tan oswa riske pou kliyan yo (pa egzanp, lojisyèl biznis ki bati byen fon nan operasyon yo).
+- Efè rezo: Pwodui a gen plis valè plis moun sèvi avè l (mache sou entènèt, platfòm kominikasyon).
+- Avantaj depans: Biznis la ka pwodui pou mwens lajan akoz gwosè, kote li ye oswa pwosesis li.
+- Pwoteksyon legal: Brevè, mak komèsyal, lisans oswa apwobasyon otorite (PURPLE).
+- Byen inik: Kote, relasyon oswa done konkiran pa ka kopye fasil.
+Kijan koulè yo konekte:
+- WHITE: Envestisè yo souvan bay biznis ki gen tranche dirab plis valè paske pwofi pita yo pi fasil pou prevwa. Leson WHITE yo sou evalyasyon aplike isit la.
+- BLUE: Pouvwa sou pri pwoteje maj ak lajan k ap antre lè depans yo monte.
+- PURPLE: Pwoteksyon legal ka ranfòse tranche yo, men pifò ekspire oswa moun ka konteste yo.
+- ORANGE: Maketing ranfòse tranche mak la e li kominike valè ki fè chanje koute chè.
+- BLACK: Lidè yo dwe envesti pou kenbe tranche yo. Tranche yo fonn si yo neglije yo.
+Tranche yo raman pou toutan. Teknoloji chanje, konkiran adapte, e preferans kliyan yo deplase.
+SIPOZISYON/OPINYON: Yon bon tès pou pouvwa sou pri: si w te monte pri 10% demen, ki pati nan kliyan yo ki t ap ale? Si se trè kèk, ou gen yon tranche pwobableman. Si se anpil, avantaj ou ka pi fèb pase jan ou panse.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Twa biznis fè fas ak 12% ogmantasyon depans akoz enflasyon.
+Biznis A: Lojisyèl kontablite ti konpayi sèvi avè l chak jou. Chanje ta mande deplase plizyè ane done e refòme anplwaye yo. Li monte pri 10%. Trè kèk kliyan ale.
+Biznis B: Yon boulanjri lokal ki gen kliyan fidèl ak yon mak fò. Li monte pri 8%. Pifò kliyan regilye rete; kèk kliyan ki sansib ak pri achte mwens souvan.
+Biznis C: Yon revandè materyèl biwo san mak espesyal ki fè konkirans sitou sou pri. Li eseye monte pri 8% e li pèdi anpil kliyan bay machann sou entènèt ki pi bon mache. Li retire ogmantasyon an e li absòbe depans yo, sa ki koupe maj li.
+Analiz:
+- Biznis A: Tranche fò ki soti nan depans pou chanje.
+- Biznis B: Tranche mwayen ki soti nan mak la.
+- Biznis C: Ti tranche oswa pa gen tranche ditou.
+Yon envestisè ki konpare twa yo t ap pwobableman bay A pi gwo miltip sou benefis, B nan mitan, e C pi ba (WHITE).
+Repons estratejik Biznis C: bati yon tranche lè l espesyalize nan yon nich (materyèl pou kabinè dantis), ofri yon sèvis rekòmande otomatik ki kreye fasilite ak depans pou chanje, e amelyore sèvis la. SIPOZISYON/OPINYON: Ou ka bati tranche espre, men sa mande tan ak envestisman.
+
+## Egzamen pratik
+**Q1. Kisa pouvwa sou pri ye?**
+A) Kapasite pou bese pri
+B) Kapasite pou monte pri san pèdi anpil kliyan
+C) Yon règ pri gouvènman
+D) Yon to taks
+**Q2. Kisa yon depans pou chanje ye?**
+A) Yon frè transpò
+B) Depans, tan oswa risk kliyan yo fè fas lè yo chanje pou yon konkiran
+C) Yon taks
+D) Yon rabè
+**Q3. Kisa efè rezo ye?**
+A) Yon pwodui ki gen plis valè plis moun sèvi avè l
+B) Vitès entènèt
+C) Rezo anplwaye
+D) Kantite moun piblisite rive jwenn
+**Q4. Poukisa Biznis C pèdi kliyan lè l monte pri?**
+A) Li te fè konkirans sitou sou pri e li te gen ti tranche
+B) Pwodui li yo te entèdi
+C) Li te monte pri twò piti
+D) Li te gen gwo depans pou chanje
+**Q5. Ki tès pouvwa sou pri leson an sijere?**
+A) Konte anplwaye
+B) Mezire gwosè magazen an
+C) Tcheke to taks
+D) Mande ki pati nan kliyan yo ki t ap ale apre yon ogmantasyon pri 10%
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: A
+Q4: A
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Pouvwa sou pri montre yon biznis fò.
+**Q2.** Gwo depans pou chanje kenbe kliyan.
+**Q3.** Efè rezo vin pi fò ak kwasans.
+**Q4.** San tranche, kliyan chanje fasil.
+**Q5.** Reyaksyon kliyan yo montre fòs tranche a.
+
+## Pwen kle yo
+- Pouvwa sou pri reflete yon tranche dirab kont konkirans
+- Tranche yo soti nan mak, depans pou chanje, efè rezo, avantaj depans, pwoteksyon legal ak byen inik
+- Tranche yo sipòte pi gwo valè ak rezistans pandan enflasyon
+- Tranche yo dwe antretni e yo ka bati espre
+
+===== ORANGE-L5-032
+TITLE: Pwomosyon ki konsidere taks: rabè, ranbousman ak kado
+SUMMARY: Pwomosyon ki sanble ka gen efè trè diferan; tretman fiskal, kontab ak legal yo varye selon estrikti ak jiridiksyon, kat kado ak pwen fidelite kreye obligasyon pou pita, e chwazi pwomosyon yo selon vrè pri yo, pa selon jenewozite ki parèt la.
+KEYWORDS: tretman fiskal pwomosyon, ranbousman oswa rabè, kontablite kat kado, obligasyon pwogram fidelite, estrateji pwomosyon
+# Pwomosyon ki konsidere taks: rabè, ranbousman ak kado
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: Ak konsomatè yo ki sere akoz to ki wo, yon detayan planifye pwomosyon pou fè vant yo monte. Poze kesyon atravè koulè yo: Èske yon rabè, yon ranbousman oswa yon kat kado pi bon pou kliyan yo (ORANGE)? Kijan chak afekte taks sou vant ak deklarasyon revni (GREEN)? Èske kat kado oswa pwen fidelite ki pa itilize kreye obligasyon (PURPLE)? Ki estrikti ki pi bon pou lajan k ap antre (BLUE)?
+
+## Objektif aprantisaj
+- Konpare estrikti pwomosyon ki komen
+- Eksplike kijan pwomosyon ka gen tretman fiskal ak kontab diferan
+- Chwazi pwomosyon ki kowòdone objektif maketing ak lajan k ap antre ak konfòmite
+
+## Kontni prensipal
+Pwomosyon ka sanble menm jan pou kliyan yo men yo mache trè diferan pou biznis la.
+Estrikti pwomosyon ki komen:
+- Rabè sou pri: Pri pi ba lè w achte. Senp. RÈG ESPESIFIK POU REJYON AN: Nan anpil sistèm, yo kalkile taks sou vant sou pri apre rabè a; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, TCA a kalkile sou pri ki fakture apre rabè, e kat kado ak pwen fidelite pa gen anpil règ espesifik, men kontab yo konseye konte yo kòm dèt jiskaske kliyan an itilize yo, kidonk verifye sa ak yon kontab oswa yon konseye fiskal.
+- Ranbousman: Kliyan an peye tout pri a, epi li reklame lajan pita. Kèk kliyan pa janm reklame, sa ki afekte vrè pri a. Biznis la ka kolekte taks sou vant sou tout pri a, selon règ yo.
+- Achte youn jwenn youn oswa atik gratis: Tretman fiskal ak kontab varye. RÈG ESPESIFIK POU REJYON AN.
+- Kat kado: Kliyan yo peye davans pou acha pita. Lajan an antre bonè. RÈG ESPESIFIK POU REJYON AN: Anpil jiridiksyon regle dat ekspirasyon, frè ak balans ki pa reklame, e règ kontab souvan trete kat kado ki pa itilize kòm yon dèt jiskaske yo itilize yo.
+- Pwen fidelite: Kliyan yo ranmase rekonpans pou pita. Règ kontab ka mande mete yon pati nan revni an sou kote pou pwen ki poko itilize. RÈG ESPESIFIK POU REJYON AN.
+- Kado biznis ak resepsyon pou kliyan: Dediksyon yo souvan limite. RÈG ESPESIFIK POU REJYON AN.
+Kijan koulè yo konekte:
+- ORANGE: Ki pwomosyon ki motive kliyan ou vize a?
+- GREEN: Kalkil taks sou vant, fason pou konte revni ak dediksyon ka diferan selon estrikti a.
+- BLUE: Kat kado fè lajan antre bonè; ranbousman fè lajan soti pita; pwen fidelite kreye obligasyon pou pita.
+- PURPLE: Règ pwoteksyon konsomatè sou pwomosyon, tankou kondisyon klè, règ sou kat kado ak limit sou òf "gratis" ki twonpe moun.
+- WHITE: Rabè ki pwofon e souvan ka aprann kliyan yo tann pwomosyon, sa ki fè pouvwa sou pri vin pi fèb (ORANGE-L5-031).
+SIPOZISYON/OPINYON: Pi bon pwomosyon an pa toujou sa ki pi jenere a. Se sa ki rive nan objektif maketing lan pou vrè pri ki pi ba a, apre taks, lè lajan an antre ak obligasyon pita yo.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Clara gen yon magazen bagay pou kay. Li konpare twa pwomosyon pou yon atik 100 dola:
+Opsyon 1: 20% rabè touswit. Kliyan an peye 80 dola. Nan jiridiksyon li, yo kalkile taks sou vant sou 80 dola. RÈG ESPESIFIK POU REJYON AN. Pri pou Clara: 20 dola pa vant.
+Opsyon 2: 20 dola ranbousman pa lapòs. Kliyan an peye 100 dola, epi li reklame 20 dola. Kontab Clara eksplike kijan ranbousman an afekte deklarasyon taks li. RÈG ESPESIFIK POU REJYON AN. Kèk kliyan pa janm reklame, kidonk pri mwayèn li pi ba pase 20 dola. Men kliyan yo souvan jwenn ranbousman yo anbetan, sa ki ka fè mal ak mak li.
+Opsyon 3: Achte pou 100 dola, jwenn yon kat kado 20 dola pou yon lòt vizit. Kliyan an peye 100 dola. Clara resevwa tout lajan an kounye a. Kontab li eksplike valè kat kado a ka gen pou trete kòm yon dèt jiskaske yo itilize l. RÈG ESPESIFIK POU REJYON AN. Avoka li konfime règ kat kado yo sou ekspirasyon. Kliyan yo retounen pou itilize kat la, e yo souvan depanse plis.
+Clara chwazi Opsyon 3 pandan yon sezon ki lan. Li fè kliyan yo retounen, li sipòte lajan k ap antre, e li respekte règ kat kado yo.
+SIPOZISYON/OPINYON: "Menm" pwomosyon 20 dola a te gen twa efè trè diferan sou lajan kach, taks, obligasyon legal ak konpòtman kliyan yo.
+
+## Egzamen pratik
+**Q1. Kijan yon ranbousman diferan de yon rabè touswit?**
+A) Pa gen diferans
+B) Kliyan an peye tout pri a, epi li reklame lajan pita
+C) Ranbousman toujou entèdi
+D) Yo peye rabè pita
+**Q2. Poukisa yo ka trete kat kado ki pa itilize kòm yon dèt?**
+A) Yo pa vo anyen
+B) Se prè bay kliyan
+C) Se taks
+D) Biznis la dwe machandiz oswa sèvis jiskaske yo itilize yo
+**Q3. Ki risk rabè ki pwofon e souvan kreye?**
+A) Pri pi wo
+B) Aprann kliyan yo tann pwomosyon, sa ki fè pouvwa sou pri vin pi fèb
+C) Plis règleman
+D) Depans pi ba
+**Q4. Poukisa Clara chwazi pwomosyon kat kado a?**
+A) Li pa t gen depans
+B) Lalwa te mande l
+C) Li fè kliyan yo retounen, li sipòte lajan k ap antre, e li respekte règ yo
+D) Li evite taks sou vant
+**Q5. Dapre leson an, kisa pi bon pwomosyon an ye?**
+A) Sa ki pi jenere a
+B) Sa konkiran yo itilize a
+C) Sa ki rive nan objektif la pou vrè pri ki pi ba a
+D) Sa ki pi senp lan
+
+## Kle repons yo
+Q1: B
+Q2: D
+Q3: B
+Q4: C
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Ranbousman fè ekonomi kliyan an rive pita.
+**Q2.** Kontablite souvan trete yo kòm obligasyon. RÈG ESPESIFIK POU REJYON AN.
+**Q3.** Rabè souvan ka fè pouvwa sou pri fonn.
+**Q4.** Li balanse maketing, lajan kach ak konfòmite.
+**Q5.** Vrè pri a gen ladan taks, lè lajan an antre ak obligasyon.
+
+## Pwen kle yo
+- Pwomosyon ki sanble ka gen efè trè diferan
+- Tretman fiskal, kontab ak legal varye selon estrikti ak jiridiksyon
+- Kat kado ak pwen fidelite kreye obligasyon pou pita
+- Chwazi pwomosyon yo selon vrè pri yo, pa selon jenewozite ki parèt la
+
+===== ORANGE-L5-033
+TITLE: Vann nan plizyè jiridiksyon: taks sou vant ak TVA
+SUMMARY: Sistèm taks sou vant ak TVA mache diferan e yo varye anpil; vann nan nouvo rejyon ka kreye obligasyon menm san prezans fizik, adapte fason pou montre pri, sistèm ak anrejistreman, e kenbe taks ou kolekte apa; se pa lajan pa w.
+KEYWORDS: taks sou vant nan plizyè rejyon, TVA atravè fwontyè, lyen ekonomik, platfòm mache entènèt, taks sou vant sou entènèt
+# Vann nan plizyè jiridiksyon: taks sou vant ak TVA
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo blòk komèsyal ki mete toudenkou gwo tarif sou yon pakèt kalite machandiz manifaktire ki enpòte, sa ki fè depans monte pou konpayi ki depann de enpòtasyon sa yo pou pwodiksyon yo.
+Aplike l isit la: Tarif pouse yon konpayi vann dirèkteman bay kliyan nan anpil nouvo rejyon sou entènèt. Poze kesyon atravè koulè yo: Èske vann nan chak rejyon kreye yon obligasyon pou kolekte taks (GREEN)? Èske pri kliyan yo wè yo dwe gen taks ladan yo (ORANGE)? Ki obligasyon anrejistreman ak deklarasyon ki aplike (PURPLE)? Èske sistèm konpayi an ka jere anpil to taks (BLUE)?
+
+## Objektif aprantisaj
+- Eksplike kijan taks sou vant ak TVA an jeneral mache
+- Idantifye kilè vann nan yon nouvo rejyon ka kreye obligasyon taks
+- Adapte pri, sistèm ak maketing pou vant nan plizyè jiridiksyon
+
+## Kontni prensipal
+Anpil jiridiksyon taks vant machandiz ak sèvis. De pi gwo sistèm yo:
+- Taks sou vant: Souvan kolekte yon sèl fwa, nan dènye vant bay konsomatè a.
+- Taks sou valè ajoute (TVA) oswa taks sou machandiz ak sèvis: Kolekte nan chak etap pwodiksyon ak distribisyon, ak biznis yo an jeneral kapab rekipere taks yo te peye sou sa yo achte pou pwodiksyon.
+RÈG ESPESIFIK POU REJYON AN: To, règ, egzanpsyon ak limit varye anpil; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, Taks sou Chif Afè (TCA) a se anviwon 10% sou pifò vant machandiz ak sèvis, gen kèk pwodui ki egzante, e enpòtasyon yo peye dwa ladwàn ak TCA lè yo antre, kidonk verifye sa ak yon kontab oswa yon konseye fiskal.
+Kilè obligasyon yo parèt? Tradisyonèlman, yon biznis te dwe kolekte taks kote li te gen yon prezans fizik. Anpil jiridiksyon kounye a mande kolekte tou lè yon vandè depase sèten montan vant oswa sèten kantite tranzaksyon nan zòn sa a, menm san prezans fizik. RÈG ESPESIFIK POU REJYON AN. Kèk jiridiksyon mande anrejistreman TVA pou vandè etranje ki vann sèvis dijital oswa machandiz depi premye vant lan.
+Règ pou mache sou entènèt: Kèk kote, mache sou entènèt yo dwe kolekte taks pou vandè yo. RÈG ESPESIFIK POU REJYON AN.
+Kijan koulè yo konekte:
+- GREEN: Anrejistreman, kolekte, deklarasyon ak peman.
+- ORANGE: Fason pou montre pri. Nan kèk mache, konsomatè yo atann pri ki gen taks ladan (komen nan sistèm TVA). Nan lòt, yo ajoute taks la lè w ap peye. Sezi kliyan ak taks lè y ap peye ka fè yo pa achte.
+- PURPLE: Si w pa anrejistre e kolekte, ou ka dwe taks ki pa t peye, enterè ak penalite, pafwa ak responsablite pèsonèl pou moun ki responsab yo. RÈG ESPESIFIK POU REJYON AN.
+- BLUE: Taks ou kolekte se pou leta, pa pou biznis la. Melanje l ak lajan operasyon se yon erè komen e danjere. Sistèm oswa lojisyèl ki kalkile to yo selon kote a ka nesesè.
+- WHITE: Taks ki pa kolekte bese valè biznis la pandan verifikasyon apwofondi.
+SIPOZISYON/OPINYON: Elaji vant sou entènèt san tcheke obligasyon taks se youn nan erè ki pi komen e ki pi chè biznis k ap grandi fè. Tcheke anvan w elaji koute pi piti anpil pase korije apre.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi Tariq vann akseswa telefòn sou entènèt. Li elaji soti nan rejyon lakay li pou rive jwenn kliyan nan anpil rejyon ak de peyi etranje.
+Revizyon taks ak kontab li:
+- Rejyon lakay: Deja anrejistre e l ap kolekte.
+- Plizyè lòt rejyon: Vant li kounye a depase limit ki mande pou l anrejistre e kolekte. RÈG ESPESIFIK POU REJYON AN.
+- Vant sou mache entènèt: Mache a kolekte taks pou vant sa yo nan kèk rejyon. RÈG ESPESIFIK POU REJYON AN.
+- Peyi etranje 1: Mande anrejistreman TVA pou vandè etranje ki vann machandiz bay konsomatè anwo yon limit, e moun atann pri ki gen taks ladan.
+- Peyi etranje 2: Kolekte TVA sou enpòtasyon nan fwontyè nan kèk ka, sa ki afekte eksperyans kliyan an.
+Aksyon Tariq:
+- Li anrejistre kote sa nesesè.
+- Li enstale yon lojisyèl pou kalkile taks.
+- Li montre pri ki gen taks ladan sou sit li pou Peyi 1.
+- Li louvri yon kont bank apa pou taks li kolekte.
+- Li revize limit yo chak twa mwa pandan vant yo ap grandi.
+SIPOZISYON/OPINYON: Depans konfòmite Tariq monte, men li evite akimile taks ki pa t peye ak penalite ki te ka menase biznis li pita.
+
+## Egzamen pratik
+**Q1. Ki pi gwo diferans ant taks sou vant ak TVA?**
+A) Pa gen diferans
+B) Taks sou vant souvan kolekte yon sèl fwa nan dènye vant lan; TVA kolekte nan chak etap
+C) TVA se pou sèvis sèlman
+D) Taks sou vant toujou pi wo
+**Q2. Èske vann nan yon rejyon ka kreye obligasyon taks san prezans fizik?**
+A) Janm
+B) Sèlman pou sèvis
+C) Sèlman pou gwo konpayi
+D) Wi, nan anpil jiridiksyon, lè vant yo depase sèten limit
+**Q3. Poukisa taks ou kolekte yo dwe rete apa lajan operasyon?**
+A) Pou touche enterè
+B) Bank yo mande sa
+C) Taks la se pou leta, pa pou biznis la
+D) Li bese taks
+**Q4. Poukisa Tariq montre pri ki gen taks ladan nan Peyi 1?**
+A) Pou monte pri
+B) Konsomatè yo la atann pri ki gen taks ladan
+C) Mache sou entènèt la te mande sa
+D) Pou evite taks
+**Q5. Kisa leson an di sou elaji vant sou entènèt san tcheke obligasyon taks?**
+A) Li toujou bon
+B) Li bese taks
+C) Se yon erè komen e ki chè
+D) Li obligatwa
+
+## Kle repons yo
+Q1: B
+Q2: D
+Q3: C
+Q4: B
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Yo òganize diferan.
+**Q2.** Anpil kote sèvi ak limit ki baze sou vant. RÈG ESPESIFIK POU REJYON AN.
+**Q3.** Depanse taks ou kolekte danjere.
+**Q4.** Fason pou montre pri dwe koresponn ak sa moun atann sou plas.
+**Q5.** Tcheke davans pi bon mache pase korije apre.
+
+## Pwen kle yo
+- Sistèm taks sou vant ak TVA mache diferan e yo varye anpil
+- Vann nan nouvo rejyon ka kreye obligasyon menm san prezans fizik
+- Adapte fason pou montre pri, sistèm ak anrejistreman
+- Kenbe taks ou kolekte apa; se pa lajan pa w
+
+===== ORANGE-L5-034
+TITLE: Jere repitasyon nan yon kriz
+SUMMARY: Fason ou reyaji nan yon kriz souvan pi enpòtan pase kriz la; reyaji vit, onètman e ak solisyon ki jis, kowòdone ekip legal ak ekip kominikasyon san tonbe nan silans, e lidè yo dwe pran responsablite devan tout moun.
+KEYWORDS: kominikasyon nan kriz, jesyon repitasyon, kominikasyon pou rapèl pwodui, kriz relasyon piblik, repons nan kriz mak
+# Jere repitasyon nan yon kriz
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo kriz sante piblik ki kanpe transpò ak fabrikasyon nan lemonn pou yon bon bout tan, sa ki bloke chèn pwovizyon nan anpil endistri an menm tan.
+Aplike l isit la: Pandan yon gwo dezòd, pwodui yon konpayi echwe pou anpil kliyan, e plent yo gaye sou entènèt. Poze kesyon atravè koulè yo: Kisa konpayi an ta dwe di an piblik, e konbyen vit (ORANGE)? Ki risk legal ki vini ak admèt fòt (PURPLE)? Ki solisyon konpayi an ka peye (BLUE)? Ki moun nan lidèchip la ki pran responsablite (BLACK)?
+
+## Objektif aprantisaj
+- Dekri etap repons nan yon kriz
+- Balanse onètete, vitès ak konsiderasyon legal
+- Kowòdone solisyon, kominikasyon ak responsablite lidè yo
+
+## Kontni prensipal
+Yon kriz repitasyon ka soti nan yon echèk pwodui, yon pàn nan sèvis, move konpòtman yon anplwaye, yon vyolasyon done oswa yon plent ki gaye toupatou. Fason yon biznis reyaji souvan pi enpòtan pase pwoblèm orijinal la.
+Etap repons nan yon kriz:
+1. Detekte: Siveye kòmantè kliyan, revi ak rezo sosyal pou kenbe pwoblèm yo bonè.
+2. Evalye: Konprann sa ki te pase, konbyen moun ki touche, e si sekirite moun an jwèt.
+3. Reyaji vit: Rekonèt pwoblèm nan an piblik, menm anvan w gen tout repons yo.
+4. Pran responsablite kote sa apwopriye: Eksplike sa w ap fè pou korije l.
+5. Ofri solisyon: Ranbousman, ranplasman, reparasyon oswa lòt solisyon ki jis.
+6. Bay nouvèl: Kenbe moun yo enfòme pandan w ap aprann plis.
+7. Aprann e amelyore: Korije kòz rasin lan e pataje sa ki chanje.
+Balanse onètete ak risk legal:
+- PURPLE: Avoka ka pè admèt fòt ogmante responsablite. Kominikasyon an dwe onèt pandan l evite spekilasyon oswa deklarasyon ki depase fè yo konnen. RÈG ESPESIFIK POU REJYON AN: Kèk jiridiksyon gen règ sou eskiz ak admisyon. Pwoblèm sekirite ka mande rapò obligatwa oswa rapèl pwodui; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, pa gen yon gwo sistèm rapèl pwodui, men vandè a ka reponn pou defo kache ak domaj yon pwodui ki gen defo lakòz dapre Kòd Sivil la, kidonk verifye sa ak yon avoka.
+- Kowòdone ekip legal ak ekip kominikasyon, men pa kite prekosyon legal fè w rete an silans, sa ki souvan fè konfyans plis mal.
+Kijan koulè yo konekte:
+- ORANGE: Kominikasyon klè e imen nan tout kanal yo.
+- PURPLE: Obligasyon legal, avize asirans lan (PURPLE-L5-017 nan chemen lalwa) ak chwa mo ak swen.
+- BLUE: Solisyon yo koute lajan. Asirans ka kouvri yon pati nan depans yo.
+- BLACK: Responsablite lidè yo devan tout moun.
+- WHITE: Kriz ki byen jere ka limite domaj sou valè biznis la.
+SIPOZISYON/OPINYON: Kliyan yo souvan padone erè. Yo raman padone silans, chèche eskiz oswa malonètete.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi Leilani vann ti chofaj pòtatif. Pandan yon dezòd, yon pyès ki gen defo nan men yon founisè fè kèk chofaj vin twò cho. Pèsonn pa blese, men videyo gaye sou entènèt.
+Repons li:
+- Èdtan 1 (Detekte/Evalye): Ekip li konfime pwoblèm nan touche yon lo pwodiksyon espesifik.
+- Èdtan 4 (Reyaji): Li pibliye yon deklarasyon klè: "Nou aprann kèk chofaj nan lo 2204 ka vin twò cho. Tanpri sispann sèvi ak yo. N ap envestige e n ap bay ranplasman gratis oswa ranbousman total."
+- Lalwa (PURPLE): Avoka li konfime obligasyon pou fè rapò bay otorite sekirite pwodui yo e li ede kowòdone yon rapèl volontè. RÈG ESPESIFIK POU REJYON AN. Li avize asirans li.
+- Solisyon (BLUE): Ranplasman gratis oswa ranbousman, ak transpò pou retounen pwodui a peye davans.
+- Lidèchip (BLACK): Leilani anrejistre yon videyo ki eksplike sa ki te pase ak sa konpayi an ap fè.
+- Nouvèl: Nouvèl chak jou pandan premye semèn nan.
+- Amelyorasyon: Li ajoute tès sou pyès founisè yo anvan monte yo e li pataje chanjman sa a an piblik.
+Kèk mwa apre, sondaj kliyan yo montre konfyans la refè anpil. Plizyè kliyan fè lwanj pou repons lan an piblik.
+SIPOZISYON/OPINYON: Pyès ki te gen defo a pa t fòt Leilani dirèkteman, men pran responsablite vit te fè yon kriz tounen yon demonstrasyon ke yo ka fè l konfyans.
+
+## Egzamen pratik
+**Q1. Kisa ki souvan pi enpòtan pase pwoblèm orijinal la nan yon kriz?**
+A) Fason biznis la reyaji
+B) Pri pwodui a
+C) Tan an
+D) Aksyon konkiran yo
+**Q2. Poukisa konpayi yo ta dwe reyaji vit menm san tout repons yo?**
+A) Pou evite revizyon legal
+B) Lalwa toujou mande sa
+C) Silans souvan fè konfyans plis mal pase rekonèt pwoblèm nan
+D) Pou fini kriz la touswit
+**Q3. Kijan pou balanse onètete ak risk legal?**
+A) Pa di anyen
+B) Blame founisè yo an piblik
+C) Admèt tout bagay touswit san tcheke
+D) Rete onèt pandan w evite spekilasyon ki depase fè yo konnen
+**Q4. Kisa Leilani te fè pou adrese kòz rasin lan?**
+A) Li chanje founisè an kachèt
+B) Li inyore l
+C) Li sispann vann chofaj
+D) Li ajoute tès sou pyès founisè yo e li pataje chanjman an an piblik
+**Q5. Dapre leson an, kisa kliyan yo raman padone?**
+A) Erè
+B) Nouvèl
+C) Ranbousman
+D) Silans, chèche eskiz oswa malonètete
+
+## Kle repons yo
+Q1: A
+Q2: C
+Q3: D
+Q4: D
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Repons lan deside rezilta pou repitasyon an.
+**Q2.** Rekonèt bonè bati konfyans.
+**Q3.** Onètete ak swen pwoteje ni konfyans ni pozisyon legal.
+**Q4.** Korije e kominike amelyorasyon yo te refè konfyans.
+**Q5.** Repons onèt kenbe konfyans.
+
+## Pwen kle yo
+- Fason ou reyaji nan yon kriz souvan pi enpòtan pase kriz la
+- Reyaji vit, onètman e ak solisyon ki jis
+- Kowòdone ekip legal ak ekip kominikasyon san tonbe nan silans
+- Lidè yo dwe pran responsablite devan tout moun
+
+===== ORANGE-L5-035
+TITLE: Mak fondatè a kont mak konpayi an
+SUMMARY: Mak fondatè bati konfyans ak diferans; twòp depandans kreye risk moun kle e li bese valè, klarifye ki moun ki posede kont, kontni ak dwa sou non an, e bati mak konpayi an, sistèm ak ekip pou biznis la ka prospere pi lwen pase fondatè a.
+KEYWORDS: mak pèsonèl fondatè, mak konpayi, risk moun kle nan maketing, lidèchip nan panse, kredibilite fondatè
+# Mak fondatè a kont mak konpayi an
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon peyi ki gen anpil moun, kote mache imobilye ak kredi pou konsomatè, apre plizyè ane kwasans rapid, kòmanse montre siy yon gwo korektasyon pandan moun ki pa peye dèt yo ap ogmante.
+Aplike l isit la: Nan yon korektasyon mache, kliyan yo vin mefyan e yo prefere biznis yo fè konfyans pèsonèlman. Repitasyon pèsonèl yon fondatè pote kliyan. Poze kesyon atravè koulè yo: Èske mak fondatè a se yon byen oswa yon risk pou konpayi an (ORANGE/WHITE)? Ki moun ki posede kontni ak kont rezo sosyal fondatè a (PURPLE)? Kisa k ap pase si fondatè a ale oswa li pa disponib ankò (BLACK)?
+
+## Objektif aprantisaj
+- Eksplike kijan mak fondatè bati kredibilite
+- Idantifye risk moun kle nan mak pèsonèl
+- Balanse mak fondatè a ak mak konpayi an pou valè biznis la sou tan
+
+## Kontni prensipal
+Anpil biznis, sitou ti biznis, bati sou repitasyon pèsonèl fondatè a. Kliyan yo fè konpetans, istwa ak valè fondatè a konfyans. Kourikoulòm nan li menm reflete sa: kredibilite ki soti nan eksperyans ou viv olye diplòm fè pati egzijans vwa ak ton an.
+Avantaj yon mak fondatè ki fò:
+- Konfyans: Moun achte nan men moun yo fè konfyans.
+- Diferans: Istwa ak pwen de vi yon fondatè difisil pou kopye.
+- Maketing ki pa koute chè: Kontni, diskou ak rezo pèsonèl ka atire kliyan.
+Risk:
+- Risk moun kle: Si biznis la depann nèt de fondatè a, li ka pèdi valè si fondatè a ale, tonbe malad oswa domaje repitasyon li. Achtè yo ka bese valè biznis la (WHITE).
+- Kapasite pou grandi: Fondatè a pa ka toupatou.
+- Konfizyon sou pwopriyete: Ki moun ki posede kontni, kont rezo sosyal ak lis imel ki bati anba non fondatè a?
+Kijan koulè yo konekte:
+- ORANGE: Kontni fondatè a ka yon maketing ki gen anpil fòs.
+- PURPLE: Akò klè sou ki moun ki posede kont, kontni, mak komèsyal ak dwa sou non an (PURPLE-L5-028 nan chemen lalwa). Si yon fondatè vann konpayi an, èske achtè a ka sèvi ak non fondatè a?
+- WHITE: Biznis ki depann de yon sèl moun souvan resevwa valè ki pi ba.
+- BLACK: Devlope lòt ekspè ak lidè vizib gaye kredibilite a nan tout ekip la.
+- BLUE: Asirans moun kle ka pwoteje kont yon pèt toudenkou (PURPLE-L5-017).
+Balans: Sèvi ak kredibilite fondatè a pou lanse e bati konfyans, epi bati mak konpayi an, sistèm yo ak ekip la pa ti kras pou biznis la ka prospere pi lwen pase nenpòt yon sèl moun. Sa konekte ak dekouvèt sou sistèm yo: yon biznis ki depann nèt de mèt li pa ka grandi.
+SIPOZISYON/OPINYON: Mak fondatè a dwe louvri pòt la. Mak konpayi an, sistèm li ak ekip li dwe kenbe kliyan yo andedan.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Raymond se yon konseye fiskal anpil moun konnen ki gen anpil moun k ap swiv li. Kliyan kabinè li yo vini sitou akoz li.
+Pwoblèm: Lè Raymond konsidere vann kabinè li, achtè yo di valè li depann twòp de li. Si l ale, kliyan yo ka swiv li.
+Plan senk an li:
+- Mak: Li deplase maketing lan pa ti kras soti nan "konsèy Raymond" pou ale nan "ekip konseye kabinè a", e li mete lòt konseye yo devan nan kontni ak evènman.
+- Ekip: Li devlope de konseye ki gen eksperyans pou yo vin ekspè vizib ak pwòp relasyon kliyan yo.
+- Lalwa (PURPLE): Li klarifye pa ekri ke kabinè a posede sit entènèt li, lis imel li ak kont rezo sosyal kabinè a. Raymond kenbe kont pèsonèl li men li dakò ak yon plan tranzisyon ak yon lisans limite pou achtè a ka site non l pandan yon peryòd apre vant lan.
+- Sistèm: Li dokimante pwosesis sèvis kliyan yo.
+- Asirans: Li achte yon asirans moun kle.
+Senk an apre, mwens pase mwatye nan nouvo kliyan yo site Raymond pa non. Yon achtè bay kabinè a yon valè ki pi wo anpil pase anvan.
+SIPOZISYON/OPINYON: Mak pèsonèl Raymond te bati kabinè a. Bati pwòp mak kabinè a te fè l gen valè pi lwen pase li.
+
+## Egzamen pratik
+**Q1. Poukisa mak yon fondatè ka bati konfyans?**
+A) Moun souvan achte nan men moun yo fè konfyans
+B) Fondatè yo toujou gen rezon
+C) Lalwa mande sa
+D) Li bese taks
+**Q2. Kisa risk moun kle ye?**
+A) Pèdi yon kle
+B) Yon pwoblèm seri
+C) Anboche twòp moun
+D) Valè biznis la depann anpil de yon sèl moun
+**Q3. Poukisa pwopriyete kont ak kontni yo dwe klarifye pa ekri?**
+A) Pou bese depans
+B) Se dekorasyon
+C) Platfòm yo mande sa
+D) Pou evite konfizyon sou ki moun ki posede yo, sitou nan yon vant
+**Q4. Kijan Raymond diminye risk moun kle a?**
+A) Li sispann travay
+B) Li kache non l
+C) Li monte pri
+D) Li devlope lòt konseye vizib, li chanje pou yon mak kabinè, e li dokimante sistèm yo
+**Q5. Dapre leson an, kisa mak fondatè a dwe fè?**
+A) Ranplase konpayi an
+B) Rete kache
+C) Louvri pòt la, pandan mak konpayi an, sistèm li ak ekip li kenbe kliyan yo
+D) Se sèl mak la
+
+## Kle repons yo
+Q1: A
+Q2: D
+Q3: D
+Q4: D
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Kredibilite pèsonèl atire kliyan.
+**Q2.** Depandans sou yon sèl moun kreye vilnerabilite.
+**Q3.** Pwopriyete klè anpeche diskisyon.
+**Q4.** Gaye kredibilite nan ekip la ogmante valè.
+**Q5.** Mak fondatè a lanse; mak konpayi an kenbe.
+
+## Pwen kle yo
+- Mak fondatè bati konfyans ak diferans
+- Twòp depandans kreye risk moun kle e li bese valè
+- Klarifye ki moun ki posede kont, kontni ak dwa sou non an
+- Bati mak konpayi an, sistèm ak ekip pou biznis la ka prospere pi lwen pase fondatè a
