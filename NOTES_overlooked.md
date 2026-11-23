@@ -78,3 +78,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - 2026-11-23: PR 1634 smoke success. BLUE L3 ht 001-031 written (b01-b07, pcheck3 0 problems). Next: BLUE L3 ht 032-050, then check3.sh BLUE ht, place, PR. Then GREEN, GOLD, PURPLE, ORANGE, BLACK L3 ht.
 - 2026-11-23: BLUE L3 ht 001-050 complete (check3 0 problems), PR 1635 opened, merge running. Next: GREEN L3 ht.
 - 2026-11-23: GREEN L3 ht 50/50 done, PR 1636 merging. BLUE PR 1635 merged + smoke success. Next GOLD L3 ht.
+- 2026-11-23: PR 1637 (exclude glibc sharp; server fn 244->226MB) merged. GREEN PR 1636 merged. GOLD 50/50 -> PR 1638. PURPLE in progress (24/50).
