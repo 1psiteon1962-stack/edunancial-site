@@ -20,8 +20,11 @@ for i in range(1,51):
         en=open(f'{R}/{C}/L1/{lid}.md').read(); fm=en.split('---',2)[1].strip('\n').split('\n')
         q=lambda s:'"'+s.replace('"','\\"')+'"'
         nf=[]
+        hassum=any(l.startswith('summary:') for l in fm)
         for l in fm:
-            if l.startswith('title:'): nf.append('title: '+q(title))
+            if l.startswith('title:'):
+                nf.append('title: '+q(title))
+                if not hassum: nf.append('summary: '+q(summ))
             elif l.startswith('summary:'): nf.append('summary: '+q(summ))
             else: nf.append(l)
             if l.startswith('lessonNumber:'): nf.append(f'locale: {loc}')

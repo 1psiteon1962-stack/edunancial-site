@@ -1,0 +1,135 @@
+===== BLUE-L1-019
+TITLE: Qu’est-ce qu’une facture, et pourquoi les modalités de paiement comptent-elles autant?
+SUMMARY: Découvrez ce qu’est une facture, et comment les modalités de paiement se rattachent directement à la leçon sur les flux de trésorerie.
+# Qu’est-ce qu’une facture, et pourquoi les modalités de paiement comptent-elles autant?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une facture en termes simples.
+- Définir les modalités de paiement et en donner un exemple.
+- Relier directement les modalités de paiement à la leçon sur les flux de trésorerie.
+
+## Contenu principal
+
+### Ce qu’est une facture
+
+Une facture est une demande de paiement officielle, envoyée par une entreprise à un client, qui détaille ce qui a été fourni et le montant dû.
+
+### Ce que sont les modalités de paiement
+
+Les modalités de paiement précisent à quel moment le paiement est réellement exigible — souvent exprimées sous une forme comme « net 30 jours », ce qui signifie que le paiement est exigible 30 jours après la date de la facture.
+
+### Le lien direct avec les flux de trésorerie
+
+Demandez-vous : en quoi le fait d’offrir des modalités « net 60 jours » plutôt que « net 30 jours » influe-t-il sur les flux de trésorerie d’une entreprise, même pour une vente identique? Des modalités de paiement plus longues signifient attendre plus longtemps avant de recevoir réellement l’argent, ce qui élargit exactement le type de décalage vu dans la leçon sur les flux de trésorerie — un facteur réel, et que l’entreprise peut maîtriser, de sa propre situation de trésorerie.
+
+## Exemple pratique
+
+Une entreprise offre des modalités de net 30 jours à un nouveau client et de net 60 jours à un client plus important, de longue date, qui a négocié de meilleures conditions. Demandez-vous : cela crée-t-il un calendrier de trésorerie différent pour des ventes de même taille? Oui — le paiement du client à net 60 jours arrive un mois complet plus tard, ce qui signifie que l’entreprise doit couvrir ses propres dépenses d’autant plus longtemps avant d’encaisser.
+
+## Quiz pratique
+
+1. Une facture est :
+   A. Un type de permis d’exploitation
+   B. Une demande de paiement officielle qui détaille ce qui est dû
+   C. Les états financiers annuels d’une entreprise
+   D. Un document de marketing
+2. Vrai ou faux : « net 30 jours » signifie que le paiement est exigible dès la réception de la facture.
+3. Comment des modalités de paiement plus longues influent-elles sur les flux de trésorerie d’une entreprise?
+   A. Elles n’ont aucun effet
+   B. Elles élargissent le décalage avant que l’argent soit réellement reçu
+   C. Elles garantissent un paiement plus rapide
+   D. Elles éliminent le besoin de facturer
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une facture est une demande de paiement officielle.
+
+### Question 2
+Bonne réponse : Faux. « Net 30 jours » signifie que le paiement est exigible 30 jours après la date de la facture, et non immédiatement.
+
+### Question 3
+Bonne réponse : B. Des modalités plus longues élargissent le décalage de trésorerie.
+
+## Points clés
+
+- Une facture est une demande de paiement officielle.
+- Les modalités de paiement précisent à quel moment le paiement est réellement exigible.
+- Des modalités de paiement plus longues élargissent directement le décalage de trésorerie d’une entreprise.
+
+===== BLUE-L1-020
+TITLE: Qu’est-ce qu’un permis d’exploitation, et pourquoi s’en passer coûte plus cher plus tard?
+SUMMARY: Découvrez ce que couvre généralement un permis d’exploitation, et pourquoi exercer sans permis crée un risque réel qui s’alourdit avec le temps.
+# Qu’est-ce qu’un permis d’exploitation, et pourquoi s’en passer coûte plus cher plus tard?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un permis d’exploitation en termes simples.
+- Expliquer pourquoi les exigences varient selon l’endroit et le secteur d’activité.
+- Expliquer pourquoi se passer de permis tend à créer de plus gros problèmes plus tard.
+
+## Contenu principal
+
+### Ce qu’est généralement un permis d’exploitation
+
+*(RÈGLE PROPRE À LA RÉGION : les exigences varient considérablement selon l’endroit et le secteur d’activité.)* Un permis d’exploitation est une autorisation délivrée par le gouvernement qui permet à une entreprise d’exercer légalement ses activités, souvent exigée à l’échelle municipale, régionale, provinciale ou de l’État, parfois en plus de permis propres à un secteur.
+
+### Pourquoi les exigences varient autant
+
+Il n’existe pas de permis universel unique — une entreprise alimentaire, un entrepreneur en construction et un consultant à domicile peuvent tous faire face à des exigences de permis très différentes, même dans la même ville, parce que différents secteurs soulèvent des préoccupations différentes en matière de sécurité publique ou de réglementation.
+
+### Posez-vous cette question
+
+Si une entreprise exerce pendant un an sans les permis requis et ne se fait jamais prendre, s’en passer a-t-il vraiment été gratuit? Souvent non — exercer sans permis peut créer une réelle exposition : amendes, fermeture forcée, impossibilité de faire exécuter certains contrats dans certains cas, et complications si l’entreprise fait un jour l’objet d’une poursuite ou d’une enquête. Le risque ne disparaît pas simplement parce qu’il ne s’est pas encore concrétisé.
+
+## Exemple pratique
+
+Une boulangère à domicile commence à vendre depuis sa cuisine sans vérifier les exigences locales en matière de permis pour les entreprises alimentaires. Demandez-vous : qu’arrive-t-il si un client tombe malade et que l’entreprise fait l’objet d’une enquête? Au-delà du problème initial, l’absence des permis requis peut elle-même devenir un problème distinct et grave — qui s’ajoute à tout le reste.
+
+## Quiz pratique
+
+1. Un permis d’exploitation est :
+   A. Une autorisation universelle identique partout
+   B. Une autorisation délivrée par le gouvernement qui permet d’exercer légalement, variable selon l’endroit et le secteur
+   C. Un type de compte bancaire d’entreprise
+   D. Exigé seulement pour les sociétés par actions
+2. Vrai ou faux : les exigences en matière de permis d’exploitation sont les mêmes pour tous les types d’entreprises.
+3. Pourquoi se passer des permis requis peut-il devenir un plus gros problème plus tard?
+   A. Cela ne devient jamais un problème
+   B. Cela crée une réelle exposition à des amendes, à une fermeture ou à des complications si l’entreprise a des ennuis juridiques
+   C. Les permis n’ont aucun lien avec le risque juridique
+   D. Seules les grandes entreprises ont besoin de permis
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Les exigences en matière de permis varient selon l’endroit et le secteur.
+
+### Question 2
+Bonne réponse : Faux. Différents secteurs et endroits ont des exigences différentes.
+
+### Question 3
+Bonne réponse : B. Exercer sans permis crée une exposition juridique et financière réelle, qui s’alourdit avec le temps.
+
+## Points clés
+
+- Un permis d’exploitation est une autorisation gouvernementale dont les exigences varient selon l’endroit et le secteur.
+- Il n’existe pas de permis universel unique — différentes entreprises sont soumises à des règles différentes.
+- Se passer des permis requis crée un risque réel qui s’alourdit si l’entreprise a un jour d’autres ennuis.
