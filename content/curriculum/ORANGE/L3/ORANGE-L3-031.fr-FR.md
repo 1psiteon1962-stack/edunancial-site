@@ -32,7 +32,7 @@ C'est pourquoi attendre que les revenus globaux baissent visiblement avant d'enq
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Le taux d'attrition d'une entreprise commence à augmenter au cours d'un mois donné, mais comme les clients restants et les nouveaux clients acquis génèrent encore des revenus, le revenu total de l'entreprise ne montre une baisse claire que plusieurs mois plus tard. [ASSUMPTION] Une équipe qui ne surveille que le chiffre de revenus retardé ne remarque un problème qu'au moment où cette baisse ultérieure apparaît, alors que le problème de fond qui fait fuir les clients a eu des mois pour s'aggraver. Une équipe qui surveille directement l'attrition comme indicateur avancé aurait repéré le même problème des mois plus tôt, avec beaucoup plus de temps pour enquêter et réagir avant qu'il ne se concrétise pleinement dans les revenus.
+[EXEMPLE ILLUSTRATIF] Le taux d'attrition d'une entreprise commence à augmenter au cours d'un mois donné, mais comme les clients restants et les nouveaux clients acquis génèrent encore des revenus, le revenu total de l'entreprise ne montre une baisse claire que plusieurs mois plus tard. [HYPOTHÈSE] Une équipe qui ne surveille que le chiffre de revenus retardé ne remarque un problème qu'au moment où cette baisse ultérieure apparaît, alors que le problème de fond qui fait fuir les clients a eu des mois pour s'aggraver. Une équipe qui surveille directement l'attrition comme indicateur avancé aurait repéré le même problème des mois plus tôt, avec beaucoup plus de temps pour enquêter et réagir avant qu'il ne se concrétise pleinement dans les revenus.
 
 ## Quiz de pratique
 

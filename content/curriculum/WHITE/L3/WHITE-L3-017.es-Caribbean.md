@@ -24,7 +24,7 @@ Al terminar esta lección, podrás:
 
 ## Contenido principal
 
-Es fácil pensar en el pago de un dividendo como dinero extra por encima del valor que ya tiene una acción, como un premio por tener la acción. Este es el "por qué" de que esa forma de verlo sea engañosa: una empresa paga dividendos con su propio efectivo, lo que reduce los activos que le quedan. [VERIFIED FACT] En la fecha ex-dividendo, el precio de una acción normalmente baja aproximadamente en la cantidad del dividendo pagado, lo que refleja que la empresa ahora vale un poco menos, porque repartió parte de su efectivo entre los accionistas.
+Es fácil pensar en el pago de un dividendo como dinero extra por encima del valor que ya tiene una acción, como un premio por tener la acción. Este es el "por qué" de que esa forma de verlo sea engañosa: una empresa paga dividendos con su propio efectivo, lo que reduce los activos que le quedan. [DATO VERIFICADO] En la fecha ex-dividendo, el precio de una acción normalmente baja aproximadamente en la cantidad del dividendo pagado, lo que refleja que la empresa ahora vale un poco menos, porque repartió parte de su efectivo entre los accionistas.
 
 Esto significa que un dividendo no es riqueza nueva que aparece de la nada: es una redistribución de valor que ya existía dentro de la empresa, que ahora pasa al bolsillo del accionista como efectivo en vez de quedarse como parte del precio de la acción. El accionista no es realmente más rico en el momento en que se paga el dividendo; simplemente tiene el mismo valor total, repartido entre un precio de acción un poco más bajo y el dividendo en efectivo que recibió.
 
@@ -32,7 +32,7 @@ Por eso el **rendimiento total**, que combina la subida del precio y los dividen
 
 ## Ejemplo práctico
 
-[ILLUSTRATIVE EXAMPLE] Una acción se cotiza a $100 el día antes de pagar un dividendo de $2 por acción. En la fecha ex-dividendo, si todo lo demás sigue igual, el precio de la acción normalmente se ajusta hacia abajo a aproximadamente $98, lo que refleja los $2 por acción que acaban de salir de la empresa como pago en efectivo. Un inversionista con una acción ahora tiene $98 en acciones más $2 en efectivo: sigue siendo $100 de valor total, lo mismo que antes de que se pagara el dividendo. El dividendo no creó riqueza nueva; simplemente convirtió $2 de valor que ya estaba en la acción en $2 de efectivo.
+[EJEMPLO ILUSTRATIVO] Una acción se cotiza a $100 el día antes de pagar un dividendo de $2 por acción. En la fecha ex-dividendo, si todo lo demás sigue igual, el precio de la acción normalmente se ajusta hacia abajo a aproximadamente $98, lo que refleja los $2 por acción que acaban de salir de la empresa como pago en efectivo. Un inversionista con una acción ahora tiene $98 en acciones más $2 en efectivo: sigue siendo $100 de valor total, lo mismo que antes de que se pagara el dividendo. El dividendo no creó riqueza nueva; simplemente convirtió $2 de valor que ya estaba en la acción en $2 de efectivo.
 
 ## Prueba de práctica
 

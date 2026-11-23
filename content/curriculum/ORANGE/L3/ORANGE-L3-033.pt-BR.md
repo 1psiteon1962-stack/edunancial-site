@@ -30,7 +30,7 @@ Antes de lançar uma campanha de marketing importante em torno de um novo nome o
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio cria um novo nome de marca e investe pesado em marketing e em reconhecimento pelos clientes antes de fazer qualquer busca de anterioridade da marca. [ASSUMPTION] Depois desse investimento considerável, o negócio descobre que outra empresa do mesmo setor já tem os direitos de marca de um nome parecido a ponto de causar confusão — o que o obriga a um rebranding caro e a jogar fora o investimento de marketing já feito, mostrando por que o custo modesto de uma busca de anterioridade e de um pedido de registro feitos antes do investimento em branding teria sido muito menor do que o resultado real.
+[EXEMPLO ILUSTRATIVO] Um negócio cria um novo nome de marca e investe pesado em marketing e em reconhecimento pelos clientes antes de fazer qualquer busca de anterioridade da marca. [SUPOSIÇÃO] Depois desse investimento considerável, o negócio descobre que outra empresa do mesmo setor já tem os direitos de marca de um nome parecido a ponto de causar confusão — o que o obriga a um rebranding caro e a jogar fora o investimento de marketing já feito, mostrando por que o custo modesto de uma busca de anterioridade e de um pedido de registro feitos antes do investimento em branding teria sido muito menor do que o resultado real.
 
 ## Teste de prática
 

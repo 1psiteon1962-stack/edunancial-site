@@ -30,7 +30,7 @@ Pour une décision que tu reportes en ce moment en recueillant plus d'informatio
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader qui fait face à une décision importante continue de recueillir des données et des opinions supplémentaires pendant des semaines, en espérant obtenir assez de certitude pour se sentir pleinement confiant avant d'agir. [ASSUMPTION] En examinant honnêtement ce schéma, ce leader reconnaît que la collecte d'information supplémentaire récente n'a pas réellement changé sa décision probable — elle a simplement reporté un choix qu'il avait déjà assez d'information pour faire, en écho au point du parcours ORANGE selon lequel des études supplémentaires finissent par cesser de réduire l'incertitude de façon significative et commencent simplement à retarder l'action, le délai lui-même comportant un coût réel et cumulatif.
+[EXEMPLE ILLUSTRATIF] Un leader qui fait face à une décision importante continue de recueillir des données et des opinions supplémentaires pendant des semaines, en espérant obtenir assez de certitude pour se sentir pleinement confiant avant d'agir. [HYPOTHÈSE] En examinant honnêtement ce schéma, ce leader reconnaît que la collecte d'information supplémentaire récente n'a pas réellement changé sa décision probable — elle a simplement reporté un choix qu'il avait déjà assez d'information pour faire, en écho au point du parcours ORANGE selon lequel des études supplémentaires finissent par cesser de réduire l'incertitude de façon significative et commencent simplement à retarder l'action, le délai lui-même comportant un coût réel et cumulatif.
 
 ## Quiz de pratique
 

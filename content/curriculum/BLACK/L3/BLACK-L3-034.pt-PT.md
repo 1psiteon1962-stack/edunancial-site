@@ -30,7 +30,7 @@ Se lidera, ou pretende liderar, uma equipa num contexto cultural ou económico d
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder acostumado a um estilo de retorno direto e informal num contexto cultural passa a liderar uma equipa em outro ambiente cultural, em que um retorno direto em público geralmente é considerado desrespeitoso e se espera uma abordagem mais indireta e reservada. [ASSUMPTION] Continuar aplicando o estilo de retorno direto a que ele está acostumado, sem adaptação, cria atritos reais e prejudica a confiança da nova equipa, o que mostra por que exportar um estilo de gestão sem mudanças, por mais bem-intencionado ou eficaz que ele seja no contexto de origem, não reflete o respeito real pelos funcionários destacado pelo tema mais amplo da responsabilidade do empregador da Lição 14.
+[EXEMPLO ILUSTRATIVO] Um líder acostumado a um estilo de retorno direto e informal num contexto cultural passa a liderar uma equipa em outro ambiente cultural, em que um retorno direto em público geralmente é considerado desrespeitoso e se espera uma abordagem mais indireta e reservada. [SUPOSIÇÃO] Continuar aplicando o estilo de retorno direto a que ele está acostumado, sem adaptação, cria atritos reais e prejudica a confiança da nova equipa, o que mostra por que exportar um estilo de gestão sem mudanças, por mais bem-intencionado ou eficaz que ele seja no contexto de origem, não reflete o respeito real pelos funcionários destacado pelo tema mais amplo da responsabilidade do empregador da Lição 14.
 
 ## Teste de prática
 

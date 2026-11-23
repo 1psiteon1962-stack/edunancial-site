@@ -30,7 +30,7 @@ Existe agora, na sua equipa, alguma tensão ou discordância não resolvida que 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder percebe uma tensão crescente entre dois membros da equipa, mas evita tratar disso diretamente, dizendo a si mesmo que está a dar espaço para a situação se resolver naturalmente. [ASSUMPTION] Meses depois, a tensão se transformou num conflito aberto, afetando a dinâmica e a produtividade de toda a equipa — um problema que teria sido muito mais fácil de tratar quando surgiu, o que mostra que a "paciência" do líder funcionou exatamente como o padrão de adiamento acumulado contra o qual a Lição 5 alertou, só que aplicado a um conflito entre pessoas, e não a uma decisão de despedimento.
+[EXEMPLO ILUSTRATIVO] Um líder percebe uma tensão crescente entre dois membros da equipa, mas evita tratar disso diretamente, dizendo a si mesmo que está a dar espaço para a situação se resolver naturalmente. [SUPOSIÇÃO] Meses depois, a tensão se transformou num conflito aberto, afetando a dinâmica e a produtividade de toda a equipa — um problema que teria sido muito mais fácil de tratar quando surgiu, o que mostra que a "paciência" do líder funcionou exatamente como o padrão de adiamento acumulado contra o qual a Lição 5 alertou, só que aplicado a um conflito entre pessoas, e não a uma decisão de despedimento.
 
 ## Teste de prática
 

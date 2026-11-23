@@ -26,11 +26,11 @@ Mit einem **Wertpapierkredit** (auch Lombardkredit oder Margin-Kredit genannt) l
 
 Hier das „Warum“, weshalb derselbe Vervielfachungseffekt gilt: Deine prozentuale Rendite wird im Verhältnis zu deinem eigenen eingesetzten Geld berechnet, nicht zur gesamten Positionsgröße. Gewinnt die Position an Wert, wird dieser Gewinn an einer kleineren Basis gemessen – deine prozentuale Rendite wird verstärkt. Verliert die Position an Wert, verstärkt dieselbe Rechnung deinen prozentualen Verlust genau auf die gleiche Weise, und du schuldest weiterhin den vollen geliehenen Betrag, egal wie sich die Anlage entwickelt.
 
-[VERIFIED FACT] Für Wertpapierkredite fallen in der Regel Zinsen an, die laufende Kosten verursachen, und Broker verlangen, dass im Depot ein Mindestanteil an Eigenkapital gehalten wird – fällt der Depotwert zu stark, kann das eine Nachschussforderung (Margin Call) auslösen, die in der nächsten Lektion behandelt wird.
+[GEPRÜFTE TATSACHE] Für Wertpapierkredite fallen in der Regel Zinsen an, die laufende Kosten verursachen, und Broker verlangen, dass im Depot ein Mindestanteil an Eigenkapital gehalten wird – fällt der Depotwert zu stark, kann das eine Nachschussforderung (Margin Call) auslösen, die in der nächsten Lektion behandelt wird.
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Anleger hat 10.000 € Eigenkapital und kauft mit einem Wertpapierkredit Aktien im Wert von 20.000 € (die anderen 10.000 € sind geliehen). Steigt die Aktie um 10 %, gewinnt die Position 2.000 € – eine Rendite von 20 % auf seine ursprünglichen 10.000 €, nicht 10 %. Fällt die Aktie stattdessen um 10 %, verliert die Position 2.000 € – ein Verlust von 20 % auf die ursprünglichen 10.000 €, und er schuldet weiterhin die vollen geliehenen 10.000 €, unabhängig vom neuen, niedrigeren Wert der Aktie.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Anleger hat 10.000 € Eigenkapital und kauft mit einem Wertpapierkredit Aktien im Wert von 20.000 € (die anderen 10.000 € sind geliehen). Steigt die Aktie um 10 %, gewinnt die Position 2.000 € – eine Rendite von 20 % auf seine ursprünglichen 10.000 €, nicht 10 %. Fällt die Aktie stattdessen um 10 %, verliert die Position 2.000 € – ein Verlust von 20 % auf die ursprünglichen 10.000 €, und er schuldet weiterhin die vollen geliehenen 10.000 €, unabhängig vom neuen, niedrigeren Wert der Aktie.
 
 ## Übungsquiz
 1. Was ermöglicht der Kauf auf Kredit (auf Margin) einem Anleger?

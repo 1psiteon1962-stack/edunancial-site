@@ -30,7 +30,7 @@ Quelles habitudes de leadership t'ont bien servi quand ton équipe était plus p
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader qui a bâti une petite équipe en examinant personnellement chaque décision et en restant engagé de près dans chaque projet garde la même approche alors que l'organisation devient beaucoup plus grande. [ASSUMPTION] Ce qui assurait autrefois la qualité et la cohésion crée maintenant un goulot d'étranglement — les décisions s'accumulent en attendant l'attention personnelle de ce leader, les membres de l'équipe ne se sentent pas habilités à agir sans approbation explicite, et le rythme de l'organisation ralentit pour suivre ce qu'une seule personne peut examiner, plutôt que ce que l'équipe, maintenant plus grande, pourrait réellement accomplir si on lui faisait confiance et qu'on l'habilitait, avec des systèmes appropriés en place.
+[EXEMPLE ILLUSTRATIF] Un leader qui a bâti une petite équipe en examinant personnellement chaque décision et en restant engagé de près dans chaque projet garde la même approche alors que l'organisation devient beaucoup plus grande. [HYPOTHÈSE] Ce qui assurait autrefois la qualité et la cohésion crée maintenant un goulot d'étranglement — les décisions s'accumulent en attendant l'attention personnelle de ce leader, les membres de l'équipe ne se sentent pas habilités à agir sans approbation explicite, et le rythme de l'organisation ralentit pour suivre ce qu'une seule personne peut examiner, plutôt que ce que l'équipe, maintenant plus grande, pourrait réellement accomplir si on lui faisait confiance et qu'on l'habilitait, avec des systèmes appropriés en place.
 
 ## Quiz de pratique
 

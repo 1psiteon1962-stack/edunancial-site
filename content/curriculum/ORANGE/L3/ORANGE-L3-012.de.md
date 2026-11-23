@@ -30,7 +30,7 @@ Wenn dein Unternehmen derzeit die meisten Kunden über einen dominanten Kanal ge
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen gewinnt den weitaus größten Teil seiner Kunden über eine einzige Werbeplattform und schätzt deren derzeit niedrige Kosten pro gewonnenem Kunden. [ASSUMPTION] Als diese Plattform ihren Algorithmus oder ihre Preisstruktur deutlich ändert, schießen die Kosten der Kundengewinnung in die Höhe und das Volumen bricht stark ein, ohne dass ein anderer etablierter Kanal reif genug wäre, die Lücke zu füllen – ein Konzentrationsrisiko, das direkt dem Halten einer einzigen Anlageklasse entspricht, wie im WEISSEN und im GOLDENEN Lernpfad behandelt, und das ein breiter gestreuter Kanalmix hätte abmildern können.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen gewinnt den weitaus größten Teil seiner Kunden über eine einzige Werbeplattform und schätzt deren derzeit niedrige Kosten pro gewonnenem Kunden. [ANNAHME] Als diese Plattform ihren Algorithmus oder ihre Preisstruktur deutlich ändert, schießen die Kosten der Kundengewinnung in die Höhe und das Volumen bricht stark ein, ohne dass ein anderer etablierter Kanal reif genug wäre, die Lücke zu füllen – ein Konzentrationsrisiko, das direkt dem Halten einer einzigen Anlageklasse entspricht, wie im WEISSEN und im GOLDENEN Lernpfad behandelt, und das ein breiter gestreuter Kanalmix hätte abmildern können.
 
 ## Übungsquiz
 1. Warum haben verschiedene Marketingkanäle deutlich unterschiedliche Risikoprofile und nicht nur unterschiedliche Kosten?

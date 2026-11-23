@@ -30,7 +30,7 @@ Is er een moeilijke personeelsbeslissing die je nu uitstelt? Wat zijn de werkeli
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider heeft echt, goed gedocumenteerd bewijs dat een bepaalde medewerker niet aan de eisen van de functie voldoet, maar stelt het ontslaggesprek maandenlang uit in de hoop dat de situatie vanzelf verbetert. [ASSUMPTION] In die maanden brokkelt de moraal van het team zichtbaar af, terwijl andere teamleden het extra werk opvangen en zien dat het probleem niet wordt aangepakt. Als het ontslag er uiteindelijk toch komt, krijgt de onderneming te maken met dezelfde kosten voor vervanging en inwerken als maanden eerder – plus de opgelopen kosten in moraal en productiviteit door het uitstel zelf. Dit laat zien waarom vastberaden handelen, zodra dat echt gerechtvaardigd is, meestal een betere totale uitkomst geeft dan langdurig vermijden.
+[ILLUSTRATIEF VOORBEELD] Een leider heeft echt, goed gedocumenteerd bewijs dat een bepaalde medewerker niet aan de eisen van de functie voldoet, maar stelt het ontslaggesprek maandenlang uit in de hoop dat de situatie vanzelf verbetert. [AANNAME] In die maanden brokkelt de moraal van het team zichtbaar af, terwijl andere teamleden het extra werk opvangen en zien dat het probleem niet wordt aangepakt. Als het ontslag er uiteindelijk toch komt, krijgt de onderneming te maken met dezelfde kosten voor vervanging en inwerken als maanden eerder – plus de opgelopen kosten in moraal en productiviteit door het uitstel zelf. Dit laat zien waarom vastberaden handelen, zodra dat echt gerechtvaardigd is, meestal een betere totale uitkomst geeft dan langdurig vermijden.
 
 ## Oefenquiz
 

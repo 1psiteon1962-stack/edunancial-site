@@ -30,7 +30,7 @@ La prossima volta che senti un istinto forte e immediato in una situazione stres
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader alle prese con una crisi in corso sente un istinto forte e immediato di reagire in un certo modo, spinto soprattutto dall'informazione più allarmante appena arrivata. [ASSUMPTION] Concedendosi una breve pausa deliberata (pochi minuti, non un lungo ritardo) per chiedersi se questo istinto rifletta un giudizio davvero solido o solo una reazione di stress acuto all'informazione più recente e allarmante, questo leader si rende conto che l'istinto è stato condizionato in modo sproporzionato dal pregiudizio di recenza. Passa così a una risposta più misurata, che rispetta comunque i requisiti di rapidità descritti nella Lezione 16 ed evita la distorsione specifica che la breve pausa doveva intercettare.
+[ESEMPIO ILLUSTRATIVO] Un leader alle prese con una crisi in corso sente un istinto forte e immediato di reagire in un certo modo, spinto soprattutto dall'informazione più allarmante appena arrivata. [IPOTESI] Concedendosi una breve pausa deliberata (pochi minuti, non un lungo ritardo) per chiedersi se questo istinto rifletta un giudizio davvero solido o solo una reazione di stress acuto all'informazione più recente e allarmante, questo leader si rende conto che l'istinto è stato condizionato in modo sproporzionato dal pregiudizio di recenza. Passa così a una risposta più misurata, che rispetta comunque i requisiti di rapidità descritti nella Lezione 16 ed evita la distorsione specifica che la breve pausa doveva intercettare.
 
 ## Quiz di esercitazione
 

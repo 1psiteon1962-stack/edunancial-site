@@ -24,14 +24,14 @@ AANNAME/MENING (hypothetisch scenario uitsluitend voor onderwijsdoeleinden): Ste
 - Uitleggen waarom een lage volatiliteit niet altijd een laag totaal risico betekent.
 
 ## Kerninhoud
-Bèta meet de volatiliteit van een aandeel ten opzichte van de bredere markt, waarbij de markt zelf een bèta van 1 krijgt. VERIFIED FACT: een aandeel met een bèta van 1,5 is historisch gemiddeld 50% meer in beide richtingen bewogen dan de markt, terwijl een aandeel met een bèta van 0,6 historisch ongeveer 60% zoveel is bewogen als de markt.
+Bèta meet de volatiliteit van een aandeel ten opzichte van de bredere markt, waarbij de markt zelf een bèta van 1 krijgt. GEVERIFIEERD FEIT: een aandeel met een bèta van 1,5 is historisch gemiddeld 50% meer in beide richtingen bewogen dan de markt, terwijl een aandeel met een bèta van 0,6 historisch ongeveer 60% zoveel is bewogen als de markt.
 
 Dit is het "waarom" bèta slechts een deel van het risicobeeld weergeeft: bèta meet systematisch risico, het deel van de beweging van een aandeel dat samenhangt met schommelingen van de bredere markt, zoals het soort sectorbrede volatiliteit dat in het scenario hierboven is beschreven. Het geeft geen bedrijfsspecifiek (niet-systematisch) risico weer, het risico dat een bepaald bedrijf slecht nieuws krijgt dat los staat van de bredere markt, zoals een boekhoudschandaal, een mislukte productlancering of het vertrek van een belangrijke bestuurder. Een aandeel kan een lage bèta hebben en ten opzichte van de markt rustig lijken, terwijl het toch een aanzienlijk bedrijfsspecifiek risico draagt dat bèta eenvoudigweg niet meet.
 
 Daarom is het gelijkstellen van lage volatiliteit (een lage bèta) aan een laag totaal risico een gangbare maar onvolledige manier van denken over risico. Een bedrijf met een lage bèta dat te maken krijgt met een echte bedreiging voor het voortbestaan van zijn onderneming, los van bewegingen van de bredere markt, kan nog steeds het grootste deel of zelfs al zijn waarde verliezen: een risico waar bèta alleen nooit op zou hebben gewezen, omdat bedrijfsspecifiek risico op een volledig andere as werkt dan het meebewegen met de markt dat bèta moet vastleggen.
 
 ## Uitgewerkt voorbeeld
-ILLUSTRATIVE EXAMPLE: Een aandeel heeft een bèta van 0,7, wat wijst op een relatief lage gevoeligheid voor schommelingen van de brede markt, en een belegger gaat ervan uit dat het daardoor een "veilige" positie is. Het bedrijf maakt vervolgens een aanzienlijke, bedrijfsspecifieke boekhoudkundige onregelmatigheid bekend die los staat van enige bredere marktomstandigheid, en het aandeel verliest op één dag 40% van zijn waarde: een risico waarvan bèta, dat alleen het marktgerelateerde meebewegen meet, geen enkele aanwijzing had gegeven.
+ILLUSTRATIEF VOORBEELD: Een aandeel heeft een bèta van 0,7, wat wijst op een relatief lage gevoeligheid voor schommelingen van de brede markt, en een belegger gaat ervan uit dat het daardoor een "veilige" positie is. Het bedrijf maakt vervolgens een aanzienlijke, bedrijfsspecifieke boekhoudkundige onregelmatigheid bekend die los staat van enige bredere marktomstandigheid, en het aandeel verliest op één dag 40% van zijn waarde: een risico waarvan bèta, dat alleen het marktgerelateerde meebewegen meet, geen enkele aanwijzing had gegeven.
 
 ## Oefenquiz
 **V1. Wat zegt een bèta van 1,5 over een aandeel?**

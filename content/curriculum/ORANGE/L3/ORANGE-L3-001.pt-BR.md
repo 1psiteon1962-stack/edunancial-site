@@ -30,7 +30,7 @@ Antes de continuar: além do marketing e do fluxo de caixa, sobre o que mais um 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] O CAC de uma empresa sobe 40% em dois trimestres por causa do aumento da concorrência por anúncios. O time de marketing trata isso como um problema de otimização de canais, a ser resolvido com uma segmentação melhor. [ASSUMPTION] Enquanto isso, esse mesmo aumento do CAC está, em silêncio, alongando o prazo de retorno do investimento em novos clientes, encurtando o fôlego financeiro da empresa (trilha BLUE) mais rápido do que o time financeiro sinalizou e tornando uma rodada de captação mais urgente do que qualquer pessoa naquela reunião de marketing percebe — o mesmo número é, ao mesmo tempo, uma métrica de marketing, um sinal de fluxo de caixa e um gatilho de financiamento.
+[EXEMPLO ILUSTRATIVO] O CAC de uma empresa sobe 40% em dois trimestres por causa do aumento da concorrência por anúncios. O time de marketing trata isso como um problema de otimização de canais, a ser resolvido com uma segmentação melhor. [SUPOSIÇÃO] Enquanto isso, esse mesmo aumento do CAC está, em silêncio, alongando o prazo de retorno do investimento em novos clientes, encurtando o fôlego financeiro da empresa (trilha BLUE) mais rápido do que o time financeiro sinalizou e tornando uma rodada de captação mais urgente do que qualquer pessoa naquela reunião de marketing percebe — o mesmo número é, ao mesmo tempo, uma métrica de marketing, um sinal de fluxo de caixa e um gatilho de financiamento.
 
 ## Teste de prática
 

@@ -32,7 +32,7 @@ Que voudrais-tu savoir avant de t'engager dans une nouvelle dépense importante 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] L'entonnoir de vente d'une entreprise a historiquement converti 15 % des clients potentiels qualifiés en clients payants, et l'équipe bâtit le plan d'embauche du prochain trimestre en supposant ce même taux de 15 %. [ASSUMPTION] Si le taux de conversion réel de ce trimestre se situe plutôt à 10 % — bien à l'intérieur de la variation historique normale —, l'entreprise s'est déjà engagée envers des coûts de paie et d'autres coûts fondés sur des revenus qui ne se sont pas concrétisés, un problème de trésorerie créé non pas par une seule erreur, mais par le fait d'avoir traité une moyenne comme une certitude.
+[EXEMPLE ILLUSTRATIF] L'entonnoir de vente d'une entreprise a historiquement converti 15 % des clients potentiels qualifiés en clients payants, et l'équipe bâtit le plan d'embauche du prochain trimestre en supposant ce même taux de 15 %. [HYPOTHÈSE] Si le taux de conversion réel de ce trimestre se situe plutôt à 10 % — bien à l'intérieur de la variation historique normale —, l'entreprise s'est déjà engagée envers des coûts de paie et d'autres coûts fondés sur des revenus qui ne se sont pas concrétisés, un problème de trésorerie créé non pas par une seule erreur, mais par le fait d'avoir traité une moyenne comme une certitude.
 
 ## Quiz de pratique
 

@@ -30,7 +30,7 @@ Als er familieleden bij je onderneming betrokken zijn, welke formele structuren 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een familiebedrijf werkt jarenlang zonder formele vastlegging van rollen, beslissingsbevoegdheid of een opvolgingsplan, in de veronderstelling dat familievertrouwen zo'n structuur overbodig maakt. [ASSUMPTION] Als er uiteindelijk een flink meningsverschil over de koers van het bedrijf tussen familieleden ontstaat, betekent het ontbreken van elke vooraf vastgelegde structuur of overeenkomst – precies het risico waarvoor de bespreking van vennootschapsovereenkomsten in het PURPLE-traject waarschuwde – dat het conflict nu zowel het bedrijf als de familierelaties tegelijk bedreigt, zonder een duidelijke procedure om het op te lossen waarover de partijen het eerder eens waren geworden.
+[ILLUSTRATIEF VOORBEELD] Een familiebedrijf werkt jarenlang zonder formele vastlegging van rollen, beslissingsbevoegdheid of een opvolgingsplan, in de veronderstelling dat familievertrouwen zo'n structuur overbodig maakt. [AANNAME] Als er uiteindelijk een flink meningsverschil over de koers van het bedrijf tussen familieleden ontstaat, betekent het ontbreken van elke vooraf vastgelegde structuur of overeenkomst – precies het risico waarvoor de bespreking van vennootschapsovereenkomsten in het PURPLE-traject waarschuwde – dat het conflict nu zowel het bedrijf als de familierelaties tegelijk bedreigt, zonder een duidelijke procedure om het op te lossen waarover de partijen het eerder eens waren geworden.
 
 ## Oefenquiz
 

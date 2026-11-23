@@ -30,7 +30,7 @@ Per questo la misura finale della padronanza in questo percorso non è saper rec
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una professionista del marketing che ha fatto proprio l'intero percorso, davanti a una nuova proposta di campagna, non la valuta solo in base ai suoi meriti di marketing. Si chiede d'istinto che effetto avrebbe sul CAC e sui tempi dei flussi di cassa (Lezioni 1 e 18), se le affermazioni coinvolte richiedano una documentazione giuridica (Lezione 7), quali siano le implicazioni per provvigioni o incentivi del team vendite (Lezioni 19 e 37) e se l'economia unitaria di fondo sostenga la crescita che la campagna dovrebbe produrre (Lezione 35). Lo fa non perché glielo dica una checklist, ma perché ora vede una decisione di marketing come inseparabile dal resto dell'impresa che dovrebbe servire.
+[ESEMPIO ILLUSTRATIVO] Una professionista del marketing che ha fatto proprio l'intero percorso, davanti a una nuova proposta di campagna, non la valuta solo in base ai suoi meriti di marketing. Si chiede d'istinto che effetto avrebbe sul CAC e sui tempi dei flussi di cassa (Lezioni 1 e 18), se le affermazioni coinvolte richiedano una documentazione giuridica (Lezione 7), quali siano le implicazioni per provvigioni o incentivi del team vendite (Lezioni 19 e 37) e se l'economia unitaria di fondo sostenga la crescita che la campagna dovrebbe produrre (Lezione 35). Lo fa non perché glielo dica una checklist, ma perché ora vede una decisione di marketing come inseparabile dal resto dell'impresa che dovrebbe servire.
 
 ## Quiz di esercitazione
 

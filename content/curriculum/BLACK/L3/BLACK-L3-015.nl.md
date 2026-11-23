@@ -30,7 +30,7 @@ Zou je nu een echt geïnformeerde vervolgvraag kunnen stellen over de belangrijk
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider delegeert alle financiële analyse en rapportage volledig aan een vertrouwde financiële specialist en ontwikkelt nooit genoeg eigen begrip om geïnformeerde vragen te stellen over de rapporten die daaruit voortkomen. [ASSUMPTION] Als die specialist een eerlijke maar grote fout maakt in een financiële prognose, heeft de leider geen eigen basis om het probleem op te merken, omdat hij nooit het basisbegrip heeft ontwikkeld dat nodig is om de cijfers zelf te beoordelen. Dit laat zien waarom goed delegeren van financiële analyse nog steeds vraagt dat een leider genoeg eigen financiële kennis houdt om echt toezicht te houden, en niet alleen onvoorwaardelijk te vertrouwen.
+[ILLUSTRATIEF VOORBEELD] Een leider delegeert alle financiële analyse en rapportage volledig aan een vertrouwde financiële specialist en ontwikkelt nooit genoeg eigen begrip om geïnformeerde vragen te stellen over de rapporten die daaruit voortkomen. [AANNAME] Als die specialist een eerlijke maar grote fout maakt in een financiële prognose, heeft de leider geen eigen basis om het probleem op te merken, omdat hij nooit het basisbegrip heeft ontwikkeld dat nodig is om de cijfers zelf te beoordelen. Dit laat zien waarom goed delegeren van financiële analyse nog steeds vraagt dat een leider genoeg eigen financiële kennis houdt om echt toezicht te houden, en niet alleen onvoorwaardelijk te vertrouwen.
 
 ## Oefenquiz
 

@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Het BLUE-traject van dit programma behandelt de bijdrage van intellectueel eigendom aan de totale waarde van een onderneming. Hier is een juridische basisregel die onder die bespreking ligt: [VERIFIED FACT] in veel rechtsgebieden is de algemene standaardregel dat de werkelijke **maker** van een werk – de persoon die de code schreef, het ontwerp maakte of de inhoud schreef – de eerste eigenaar is van het intellectuele eigendom dat eruit voortkomt, ongeacht wie voor het werk betaalde, tenzij een specifieke overeenkomst dat eigendom overdraagt.
+Het BLUE-traject van dit programma behandelt de bijdrage van intellectueel eigendom aan de totale waarde van een onderneming. Hier is een juridische basisregel die onder die bespreking ligt: [GEVERIFIEERD FEIT] in veel rechtsgebieden is de algemene standaardregel dat de werkelijke **maker** van een werk – de persoon die de code schreef, het ontwerp maakte of de inhoud schreef – de eerste eigenaar is van het intellectuele eigendom dat eruit voortkomt, ongeacht wie voor het werk betaalde, tenzij een specifieke overeenkomst dat eigendom overdraagt.
 
 Hier is het "waarom" dit veel ondernemers verrast: het voelt logisch om aan te nemen dat iemand betalen om iets te maken automatisch betekent dat de betaler eigenaar is van wat er wordt gemaakt, net zoals betalen voor een fysiek product betekent dat je eigenaar bent van dat product. Intellectueel eigendom werkt standaard over het algemeen anders – het makerschap bepaalt over het algemeen het eigendom van de maker, tenzij een specifiek contract of, in sommige gevallen, een specifieke wettelijke uitzondering (die in de volgende les aan bod komt) dat eigendom overdraagt of aan iemand anders toekent.
 
@@ -30,7 +30,7 @@ Daarom heeft elke onderneming die freelancers, opdrachtnemers of zelfs bepaalde 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf huurt een zelfstandige freelance ontwerper in om een specifiek logo te maken, en betaalt de afgesproken vergoeding na oplevering, maar zonder schriftelijke overeenkomst die specifiek over het intellectuele eigendom gaat. [ASSUMPTION] Volgens de algemene standaardregel kan de freelance ontwerper, als de werkelijke maker, eigenaar blijven van het onderliggende intellectuele eigendom van het ontwerp, ook al is hij voor het werk betaald. Het bedrijf heeft dan misschien alleen een beperkte licentie om het logo te gebruiken, en geen volledig eigendom, tenzij de oorspronkelijke overeenkomst dat eigendom specifiek en duidelijk aan het bedrijf overdroeg.
+[ILLUSTRATIEF VOORBEELD] Een bedrijf huurt een zelfstandige freelance ontwerper in om een specifiek logo te maken, en betaalt de afgesproken vergoeding na oplevering, maar zonder schriftelijke overeenkomst die specifiek over het intellectuele eigendom gaat. [AANNAME] Volgens de algemene standaardregel kan de freelance ontwerper, als de werkelijke maker, eigenaar blijven van het onderliggende intellectuele eigendom van het ontwerp, ook al is hij voor het werk betaald. Het bedrijf heeft dan misschien alleen een beperkte licentie om het logo te gebruiken, en geen volledig eigendom, tenzij de oorspronkelijke overeenkomst dat eigendom specifiek en duidelijk aan het bedrijf overdroeg.
 
 ## Oefenquiz
 

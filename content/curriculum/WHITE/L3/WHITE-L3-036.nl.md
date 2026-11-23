@@ -24,7 +24,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Veel landen en rechtsgebieden bieden bepaalde soorten beleggingsrekeningen aan, vaak gekoppeld aan sparen voor je pensioen, die specifieke belastingvoordelen geven. Denk aan groei met uitgestelde belasting (je betaalt later belasting, vaak pas in je pensioen) of belastingvrije groei (onder specifieke voorwaarden). [VERIFIED FACT] De specifieke soorten rekeningen, regels, maximale inleg en belastingregels verschillen sterk per land en veranderen in de loop van de tijd door nieuwe wetgeving. Specifieke details van regelingen moet je dus zelf direct controleren, en die vallen buiten deze algemene les.
+Veel landen en rechtsgebieden bieden bepaalde soorten beleggingsrekeningen aan, vaak gekoppeld aan sparen voor je pensioen, die specifieke belastingvoordelen geven. Denk aan groei met uitgestelde belasting (je betaalt later belasting, vaak pas in je pensioen) of belastingvrije groei (onder specifieke voorwaarden). [GEVERIFIEERD FEIT] De specifieke soorten rekeningen, regels, maximale inleg en belastingregels verschillen sterk per land en veranderen in de loop van de tijd door nieuwe wetgeving. Specifieke details van regelingen moet je dus zelf direct controleren, en die vallen buiten deze algemene les.
 
 Dit is het "waarom" dit een apart begrip is, los van het kiezen van beleggingen: precies dezelfde onderliggende belegging, hetzelfde aandeel of fonds, kan na belasting een duidelijk ander resultaat opleveren, afhankelijk van of je die aanhoudt op een gewone rekening waarover je belasting betaalt, of op een rekening met een vorm van belastingvoordeel. Dit is een beslissingslaag die helemaal losstaat van *welke* beleggingen je aanhoudt: het gaat erom *waar* (op wat voor soort rekening) je die beleggingen aanhoudt.
 
@@ -32,7 +32,7 @@ Daarom zien ervaren beleggers de keuze van de rekening en de keuze van belegging
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belegger heeft toegang tot een pensioenrekening met belastingvoordeel die groei met uitgestelde belasting biedt, en ook tot een gewone beleggingsrekening bij een broker waarover belasting wordt geheven. [ASSUMPTION] Als hij dezelfde belegging aanhoudt op de rekening met belastingvoordeel in plaats van op de gewone rekening, kan dat over een lange periode een duidelijk ander resultaat na belasting opleveren, puur door het verschil in belastingbehandeling. Dat geldt ook al zijn de onderliggende belegging, de prestaties en het risico in beide gevallen precies hetzelfde. Dit laat zien waarom de keuze van het soort rekening een aparte, bewuste afweging verdient, los van de keuze van de belegging zelf.
+[ILLUSTRATIEF VOORBEELD] Een belegger heeft toegang tot een pensioenrekening met belastingvoordeel die groei met uitgestelde belasting biedt, en ook tot een gewone beleggingsrekening bij een broker waarover belasting wordt geheven. [AANNAME] Als hij dezelfde belegging aanhoudt op de rekening met belastingvoordeel in plaats van op de gewone rekening, kan dat over een lange periode een duidelijk ander resultaat na belasting opleveren, puur door het verschil in belastingbehandeling. Dat geldt ook al zijn de onderliggende belegging, de prestaties en het risico in beide gevallen precies hetzelfde. Dit laat zien waarom de keuze van het soort rekening een aparte, bewuste afweging verdient, los van de keuze van de belegging zelf.
 
 ## Oefenquiz
 

@@ -22,15 +22,15 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-**Verjaring** legt over het algemeen een specifieke termijn vast waarbinnen een juridische vordering moet worden ingesteld; daarna is de vordering over het algemeen volledig geblokkeerd, ongeacht de inhoudelijke gegrondheid. [VERIFIED FACT] Specifieke termijnen verschillen sterk per rechtsgebied en per soort vordering – verschillende categorieën juridische vorderingen (contractgeschillen, vorderingen wegens letselschade en andere) hebben vaak verschillende verjaringstermijnen.
+**Verjaring** legt over het algemeen een specifieke termijn vast waarbinnen een juridische vordering moet worden ingesteld; daarna is de vordering over het algemeen volledig geblokkeerd, ongeacht de inhoudelijke gegrondheid. [GEVERIFIEERD FEIT] Specifieke termijnen verschillen sterk per rechtsgebied en per soort vordering – verschillende categorieën juridische vorderingen (contractgeschillen, vorderingen wegens letselschade en andere) hebben vaak verschillende verjaringstermijnen.
 
-Hier is het algemene "waarom" achter deze tijdslimiet: [VERIFIED FACT] verjaringstermijnen zijn over het algemeen bedoeld om te stimuleren dat vorderingen worden ingesteld zolang bewijs en herinneringen van getuigen nog relatief vers en betrouwbaar zijn, en om mogelijke gedaagden uiteindelijk enige zekerheid en rust te geven, in plaats van dat ze onbeperkt rekening moeten houden met een rechtszaak over gebeurtenissen die misschien vele jaren eerder hebben plaatsgevonden.
+Hier is het algemene "waarom" achter deze tijdslimiet: [GEVERIFIEERD FEIT] verjaringstermijnen zijn over het algemeen bedoeld om te stimuleren dat vorderingen worden ingesteld zolang bewijs en herinneringen van getuigen nog relatief vers en betrouwbaar zijn, en om mogelijke gedaagden uiteindelijk enige zekerheid en rust te geven, in plaats van dat ze onbeperkt rekening moeten houden met een rechtszaak over gebeurtenissen die misschien vele jaren eerder hebben plaatsgevonden.
 
 Daarom kan een verder volledig geldige, gegronde vordering voorgoed worden geblokkeerd, alleen omdat ze na het verstrijken van de toepasselijke termijn is ingesteld – de inhoudelijke gegrondheid van de vordering wordt juridisch over het algemeen irrelevant zodra de verjaringstermijn is verstreken. De toepasselijke termijn begrijpen en bewaken is dus net zo belangrijk als de kracht van de vordering zelf.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Iemand heeft een echt geldige juridische vordering die voortkomt uit een specifieke gebeurtenis, maar onderneemt pas actie om die vordering in te stellen ruim nadat de toepasselijke verjaringstermijn voor dat soort vordering al is verstreken. [ASSUMPTION] Ook al was de onderliggende vordering misschien volledig gegrond, een rechter zou haar waarschijnlijk afwijzen omdat ze verjaard is, aangezien de verjaringstermijn al was verstreken. Dit laat zien waarom het moment waarop je een vordering instelt net zo belangrijk kan zijn als, of zelfs belangrijker dan, de werkelijke kracht van de onderliggende feiten.
+[ILLUSTRATIEF VOORBEELD] Iemand heeft een echt geldige juridische vordering die voortkomt uit een specifieke gebeurtenis, maar onderneemt pas actie om die vordering in te stellen ruim nadat de toepasselijke verjaringstermijn voor dat soort vordering al is verstreken. [AANNAME] Ook al was de onderliggende vordering misschien volledig gegrond, een rechter zou haar waarschijnlijk afwijzen omdat ze verjaard is, aangezien de verjaringstermijn al was verstreken. Dit laat zien waarom het moment waarop je een vordering instelt net zo belangrijk kan zijn als, of zelfs belangrijker dan, de werkelijke kracht van de onderliggende feiten.
 
 ## Oefenquiz
 

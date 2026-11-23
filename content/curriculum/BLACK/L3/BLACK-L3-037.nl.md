@@ -30,7 +30,7 @@ Hoeveel van je professionele netwerk heb je vooraf opgebouwd, in rustige periode
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die voor een moeilijke, onbekende strategische beslissing staat, wendt zich tot een collega met wie hij al jaren een echte, doorlopende relatie onderhoudt, en krijgt openhartig, goed onderbouwd advies dat steunt op echt vertrouwen en kennis van de context. [ASSUMPTION] Een andere leider met een vergelijkbare beslissing, die in rustigere periodes nooit heeft geïnvesteerd in echte professionele relaties, heeft niemand om zich tot te wenden voor dit soort openhartige blik van buiten op precies het moment dat die het meest waard zou zijn – wat laat zien waarom een netwerk een bezit is dat risico's beperkt en dat, net als andere bezittingen in dit programma, een investering vooraf vraagt, ruim voor het moment dat het werkelijk nodig is.
+[ILLUSTRATIEF VOORBEELD] Een leider die voor een moeilijke, onbekende strategische beslissing staat, wendt zich tot een collega met wie hij al jaren een echte, doorlopende relatie onderhoudt, en krijgt openhartig, goed onderbouwd advies dat steunt op echt vertrouwen en kennis van de context. [AANNAME] Een andere leider met een vergelijkbare beslissing, die in rustigere periodes nooit heeft geïnvesteerd in echte professionele relaties, heeft niemand om zich tot te wenden voor dit soort openhartige blik van buiten op precies het moment dat die het meest waard zou zijn – wat laat zien waarom een netwerk een bezit is dat risico's beperkt en dat, net als andere bezittingen in dit programma, een investering vooraf vraagt, ruim voor het moment dat het werkelijk nodig is.
 
 ## Oefenquiz
 

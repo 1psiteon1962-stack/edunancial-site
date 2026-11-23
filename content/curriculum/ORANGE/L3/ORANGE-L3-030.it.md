@@ -30,7 +30,7 @@ Prima di lanciare la tua prossima campagna: quale risultato specifico, deciso in
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un team di marketing lancia una nuova campagna con un tasso di conversione ipotizzato già incorporato nel budget, ma senza alcun punto di verifica deciso in anticipo per rivalutare quell'ipotesi. [ASSUMPTION] Quando i primi risultati arrivano molto sotto il tasso ipotizzato, il team continua a spendere, trattando il divario come temporaneo e aspettandosi che migliori. È lo stesso schema di ragionamento non falsificabile da cui metteva in guardia il percorso GOLD, che assorbe le prove contrarie invece di trattarle come un vero segnale per fermarsi: un errore che un punto di verifica deciso in anticipo ("rivalutare se la conversione è sotto X entro la seconda settimana") avrebbe evitato in modo specifico.
+[ESEMPIO ILLUSTRATIVO] Un team di marketing lancia una nuova campagna con un tasso di conversione ipotizzato già incorporato nel budget, ma senza alcun punto di verifica deciso in anticipo per rivalutare quell'ipotesi. [IPOTESI] Quando i primi risultati arrivano molto sotto il tasso ipotizzato, il team continua a spendere, trattando il divario come temporaneo e aspettandosi che migliori. È lo stesso schema di ragionamento non falsificabile da cui metteva in guardia il percorso GOLD, che assorbe le prove contrarie invece di trattarle come un vero segnale per fermarsi: un errore che un punto di verifica deciso in anticipo ("rivalutare se la conversione è sotto X entro la seconda settimana") avrebbe evitato in modo specifico.
 
 ## Quiz di esercitazione
 

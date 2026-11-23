@@ -30,7 +30,7 @@ Vivi le critiche alla tua impresa come un riscontro su una strategia, oppure com
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un fondatore che ha costruito la propria impresa in molti anni vive ogni critica significativa alla direzione dell'azienda come qualcosa di profondamente personale, e reagisce sulla difensiva anche a riscontri costruttivi e ben intenzionati di consulenti di fiducia. [ASSUMPTION] Questa fusione d'identità, che va oltre la resistenza ad ammettere un errore dettata dall'ego descritta nella Lezione 17, rende davvero difficile per questo fondatore valutare in modo obiettivo le reali esigenze dell'impresa. Ogni riscontro sull'azienda viene vissuto come un riscontro su di sé, creando un punto cieco a cui un fondatore con più separazione tra identità personale e andamento dell'impresa sarebbe meno esposto.
+[ESEMPIO ILLUSTRATIVO] Un fondatore che ha costruito la propria impresa in molti anni vive ogni critica significativa alla direzione dell'azienda come qualcosa di profondamente personale, e reagisce sulla difensiva anche a riscontri costruttivi e ben intenzionati di consulenti di fiducia. [IPOTESI] Questa fusione d'identità, che va oltre la resistenza ad ammettere un errore dettata dall'ego descritta nella Lezione 17, rende davvero difficile per questo fondatore valutare in modo obiettivo le reali esigenze dell'impresa. Ogni riscontro sull'azienda viene vissuto come un riscontro su di sé, creando un punto cieco a cui un fondatore con più separazione tra identità personale e andamento dell'impresa sarebbe meno esposto.
 
 ## Quiz di esercitazione
 

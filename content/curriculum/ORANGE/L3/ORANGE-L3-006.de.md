@@ -30,7 +30,7 @@ Was würdest du über die reine Zahl der Neukunden hinaus beobachten wollen, um 
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen feiert ein starkes monatliches Wachstum bei den Neukunden, angetrieben von einer aggressiven Gewinnungskampagne. [ASSUMPTION] Unter diesem Wachstum ist seine Kundenbindungsquote seit zwei Quartalen unbemerkt gesunken, sodass der tatsächliche Kundenwert pro Kunde niedriger ist als der Wert, mit dem die Ausgaben für die Kundengewinnung ursprünglich begründet wurden – das Verhältnis von CAC zu LTV aus dem BLAUEN Lernpfad hat sich still verschlechtert, obwohl das Wachstums-Dashboard durchweg positiv aussieht. Das zeigt, warum die Kundenbindung zusammen mit der Kundengewinnung verfolgt werden muss und nicht als getrennte, nachrangige Kennzahl.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen feiert ein starkes monatliches Wachstum bei den Neukunden, angetrieben von einer aggressiven Gewinnungskampagne. [ANNAHME] Unter diesem Wachstum ist seine Kundenbindungsquote seit zwei Quartalen unbemerkt gesunken, sodass der tatsächliche Kundenwert pro Kunde niedriger ist als der Wert, mit dem die Ausgaben für die Kundengewinnung ursprünglich begründet wurden – das Verhältnis von CAC zu LTV aus dem BLAUEN Lernpfad hat sich still verschlechtert, obwohl das Wachstums-Dashboard durchweg positiv aussieht. Das zeigt, warum die Kundenbindung zusammen mit der Kundengewinnung verfolgt werden muss und nicht als getrennte, nachrangige Kennzahl.
 
 ## Übungsquiz
 1. Warum hängt der Kundenwert über die gesamte Kundenbeziehung stark von der Kundenbindung ab und nicht nur von der Kundengewinnung?

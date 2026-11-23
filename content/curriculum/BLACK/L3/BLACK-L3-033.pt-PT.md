@@ -30,7 +30,7 @@ Se deixasse o seu cargo amanhã, com que rapidez e tranquilidade a organização
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder que passou anos construindo sistemas documentados, desenvolvendo ativamente possíveis sucessores e distribuindo o conhecimento crítico pela equipa descobre que, quando finalmente dá um passo atrás — para uma transição planeada, uma licença longa ou simplesmente para se concentrar numa nova oportunidade —, a organização continua a funcionar sem problemas. [ASSUMPTION] Em vez de ameaçar a posição ou o valor dele, essa substituibilidade reflete a aplicação completa dos princípios de delegação, planeamento sucessório e redução do risco de pessoa-chave vistos ao longo desta trilha e, paradoxalmente, aumenta o valor real e as opções desse líder, já que ele deixou de ser o gargalo que limita o que a organização pode buscar.
+[EXEMPLO ILUSTRATIVO] Um líder que passou anos construindo sistemas documentados, desenvolvendo ativamente possíveis sucessores e distribuindo o conhecimento crítico pela equipa descobre que, quando finalmente dá um passo atrás — para uma transição planeada, uma licença longa ou simplesmente para se concentrar numa nova oportunidade —, a organização continua a funcionar sem problemas. [SUPOSIÇÃO] Em vez de ameaçar a posição ou o valor dele, essa substituibilidade reflete a aplicação completa dos princípios de delegação, planeamento sucessório e redução do risco de pessoa-chave vistos ao longo desta trilha e, paradoxalmente, aumenta o valor real e as opções desse líder, já que ele deixou de ser o gargalo que limita o que a organização pode buscar.
 
 ## Teste de prática
 

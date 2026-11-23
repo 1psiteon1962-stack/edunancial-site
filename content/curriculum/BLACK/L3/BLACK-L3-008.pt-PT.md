@@ -30,7 +30,7 @@ Quem na sua organização poderia assumir amanhã um papel-chave de liderança, 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder com boa saúde e sem planos de sair em breve considera o planeamento sucessório desnecessário por enquanto e se concentra totalmente nas prioridades operacionais do momento. [ASSUMPTION] Se esse líder ficar indisponível de forma inesperada — por uma doença, uma saída repentina ou uma oportunidade súbita em outro lugar —, a organização descobre que ninguém foi desenvolvido ou preparado ativamente para assumir o papel de liderança, criando exatamente o tipo de ruptura e incerteza contra o qual as lições sobre planeamento patrimonial pessoal alertaram no nível da família, agora acontecendo numa organização inteira e com todos os funcionários dela.
+[EXEMPLO ILUSTRATIVO] Um líder com boa saúde e sem planos de sair em breve considera o planeamento sucessório desnecessário por enquanto e se concentra totalmente nas prioridades operacionais do momento. [SUPOSIÇÃO] Se esse líder ficar indisponível de forma inesperada — por uma doença, uma saída repentina ou uma oportunidade súbita em outro lugar —, a organização descobre que ninguém foi desenvolvido ou preparado ativamente para assumir o papel de liderança, criando exatamente o tipo de ruptura e incerteza contra o qual as lições sobre planeamento patrimonial pessoal alertaram no nível da família, agora acontecendo numa organização inteira e com todos os funcionários dela.
 
 ## Teste de prática
 

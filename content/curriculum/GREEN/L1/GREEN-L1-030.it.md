@@ -34,11 +34,11 @@ Molti sistemi guardano alla realtà del rapporto, non al nome sul contratto. Cri
 
 Classificare per errore un dipendente come collaboratore autonomo può comportare il recupero di imposte arretrate, sanzioni e interessi, oltre a problemi di diritto del lavoro. È un tema in cui i percorsi GREEN e PURPLE si incontrano, e conviene sentire un professionista prima di decidere.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Un'azienda chiama Luca "collaboratore". Ma lui lavora 40 ore a settimana, negli orari decisi dal capo, con il computer dell'azienda e solo per lei. Sembra un collaboratore?
 

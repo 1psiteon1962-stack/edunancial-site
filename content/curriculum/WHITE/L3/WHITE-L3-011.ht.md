@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" vant a dekouvè gen yon fòm risk ki diferan nèt de senpleman posede yon aksyon: pri yon aksyon ka desann sèlman jiska zewo, kidonk pi gwo pwofi posib pou yon moun k ap vann a dekouvè gen limit (tout valè aksyon an, si li tonbe a zewo). Men pri yon aksyon pa gen okenn limit anwo an teyori — li ka kontinye monte san fen, sa vle di pèt potansyèl moun k ap vann a dekouvè a, ki oblije finalman achte tounen aksyon li te prete yo nan nenpòt pri yo monte rive, pa gen limit an teyori.
 
-[VERIFIED FACT] Risk sa a ka akselere atravè yon **short squeeze** (yon peze sou vandè a dekouvè yo) — si pri yon aksyon anpil moun vann a dekouvè kòmanse monte, vandè a dekouvè k ap fè fas ak pèt k ap grandi ka oblije (pafwa atravè mekanis ki sanble ak yon margin call, Leson 10) achte tounen aksyon pou limite pèt yo, e presyon acha sa a menm ka pouse pri a monte plis toujou, sa ki fè plis vandè a dekouvè fè menm bagay la nan yon sik ki ranfòse tèt li.
+[FÈ VERIFYE] Risk sa a ka akselere atravè yon **short squeeze** (yon peze sou vandè a dekouvè yo) — si pri yon aksyon anpil moun vann a dekouvè kòmanse monte, vandè a dekouvè k ap fè fas ak pèt k ap grandi ka oblije (pafwa atravè mekanis ki sanble ak yon margin call, Leson 10) achte tounen aksyon pou limite pèt yo, e presyon acha sa a menm ka pouse pri a monte plis toujou, sa ki fè plis vandè a dekouvè fè menm bagay la nan yon sik ki ranfòse tèt li.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè prete e vann a dekouvè 100 aksyon yon konpayi k ap fè komès a $50, paske li atann pri a desann. Si pri a vrèman desann a $30, li ka achte tounen aksyon yo pou $3,000 e remèt yo, e li mete diferans $2,000 la nan pòch li (anvan frè) — yon bon pwofi, men ki gen limit, paske aksyon an te ka desann sèlman jiska zewo pi plis. Si okontrè aksyon an monte san li pa t atann a $150, li ta bezwen depanse $15,000 pou achte tounen aksyon li te vann pou $5,000 yo — yon pèt $10,000, e si pri a te kontinye monte plis, pèt sa a ta kontinye grandi san okenn limit anwo.
+[EGZANP ILISTRATIF] Yon envestisè prete e vann a dekouvè 100 aksyon yon konpayi k ap fè komès a $50, paske li atann pri a desann. Si pri a vrèman desann a $30, li ka achte tounen aksyon yo pou $3,000 e remèt yo, e li mete diferans $2,000 la nan pòch li (anvan frè) — yon bon pwofi, men ki gen limit, paske aksyon an te ka desann sèlman jiska zewo pi plis. Si okontrè aksyon an monte san li pa t atann a $150, li ta bezwen depanse $15,000 pou achte tounen aksyon li te vann pou $5,000 yo — yon pèt $10,000, e si pri a te kontinye monte plis, pèt sa a ta kontinye grandi san okenn limit anwo.
 
 ## Egzamen pratik
 

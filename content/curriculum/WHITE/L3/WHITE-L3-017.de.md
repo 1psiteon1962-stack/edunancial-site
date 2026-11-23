@@ -22,7 +22,7 @@ Am Ende dieser Lektion kannst du:
 
 ## Hauptinhalt
 
-Man stellt sich eine Dividendenzahlung leicht als zusätzliches Geld obendrauf auf den bestehenden Wert einer Aktie vor – eine Belohnung dafür, die Aktie zu halten. Hier das „Warum“, weshalb diese Sichtweise irreführt: Ein Unternehmen zahlt Dividenden aus seinen eigenen liquiden Mitteln, was sein verbleibendes Vermögen verringert. [VERIFIED FACT] Am Ex-Dividenden-Tag fällt der Aktienkurs typischerweise ungefähr um den ausgeschütteten Dividendenbetrag (der sogenannte Dividendenabschlag) – ein Zeichen dafür, dass das Unternehmen jetzt etwas weniger wert ist, weil es einen Teil seiner liquiden Mittel an die Aktionärinnen und Aktionäre ausgeschüttet hat.
+Man stellt sich eine Dividendenzahlung leicht als zusätzliches Geld obendrauf auf den bestehenden Wert einer Aktie vor – eine Belohnung dafür, die Aktie zu halten. Hier das „Warum“, weshalb diese Sichtweise irreführt: Ein Unternehmen zahlt Dividenden aus seinen eigenen liquiden Mitteln, was sein verbleibendes Vermögen verringert. [GEPRÜFTE TATSACHE] Am Ex-Dividenden-Tag fällt der Aktienkurs typischerweise ungefähr um den ausgeschütteten Dividendenbetrag (der sogenannte Dividendenabschlag) – ein Zeichen dafür, dass das Unternehmen jetzt etwas weniger wert ist, weil es einen Teil seiner liquiden Mittel an die Aktionärinnen und Aktionäre ausgeschüttet hat.
 
 Eine Dividende ist also kein neues Vermögen, das aus dem Nichts entsteht – sie ist eine Umverteilung von Wert, der bereits im Unternehmen steckte und nun als Bargeld in die Tasche der Aktionäre wandert, statt Teil des Aktienkurses zu bleiben. Die Aktionärin ist im Moment der Auszahlung nicht spürbar reicher; sie hält einfach denselben Gesamtwert, aufgeteilt auf einen etwas niedrigeren Aktienkurs und die erhaltene Bardividende.
 
@@ -30,7 +30,7 @@ Deshalb ist die **Gesamtrendite** – Kurssteigerung und Dividenden zusammen –
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Aktie notiert am Tag vor der Zahlung einer Dividende von 2 € je Aktie bei 100 €. Am Ex-Dividenden-Tag passt sich der Kurs bei sonst gleichen Bedingungen typischerweise auf ungefähr 98 € an – ein Spiegel der 2 € je Aktie, die das Unternehmen gerade als Barzahlung verlassen haben. Eine Anlegerin mit einer Aktie hält nun 98 € in der Aktie plus 2 € in bar – insgesamt immer noch 100 €, genauso viel wie vor der Dividendenzahlung. Die Dividende hat kein neues Vermögen geschaffen; sie hat nur 2 € bestehenden Aktienwert in 2 € Bargeld umgewandelt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Aktie notiert am Tag vor der Zahlung einer Dividende von 2 € je Aktie bei 100 €. Am Ex-Dividenden-Tag passt sich der Kurs bei sonst gleichen Bedingungen typischerweise auf ungefähr 98 € an – ein Spiegel der 2 € je Aktie, die das Unternehmen gerade als Barzahlung verlassen haben. Eine Anlegerin mit einer Aktie hält nun 98 € in der Aktie plus 2 € in bar – insgesamt immer noch 100 €, genauso viel wie vor der Dividendenzahlung. Die Dividende hat kein neues Vermögen geschaffen; sie hat nur 2 € bestehenden Aktienwert in 2 € Bargeld umgewandelt.
 
 ## Übungsquiz
 1. Was passiert typischerweise am Ex-Dividenden-Tag mit dem Aktienkurs, und warum?

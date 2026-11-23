@@ -34,11 +34,11 @@ Il vantaggio può arrivare in momenti diversi: al versamento, mentre il denaro c
 
 In cambio, questi conti hanno di solito regole: limiti di versamento, età minima per prelevare senza penalità e condizioni specifiche. Lo Stato offre l'incentivo perché vuole che le persone risparmino per il futuro.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Due persone investono lo stesso importo con lo stesso rendimento. Una paga le imposte sui rendimenti ogni anno; l'altra usa un conto con vantaggi fiscali. Quale cresce più in fretta?
 

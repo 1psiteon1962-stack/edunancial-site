@@ -34,11 +34,11 @@ Per questo, in molti sistemi, l'autonomo paga entrambe le quote. Negli Stati Uni
 
 La lezione pratica è: quando fissa i prezzi, l'autonomo deve includere questo costo. Chiedere la stessa tariffa oraria che guadagna un dipendente di solito lascia all'autonomo meno denaro alla fine, perché paga anche contributi extra e attrezzature e non ha benefit pagati da un'azienda.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Una dipendente e un freelance guadagnano entrambi $50.000 l'anno. Chi paga più contributi di tasca propria?
 

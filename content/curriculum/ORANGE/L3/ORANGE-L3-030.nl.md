@@ -30,7 +30,7 @@ Voordat je je volgende campagne lanceert: welk specifiek, vooraf vastgelegd resu
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een marketingteam lanceert een nieuwe campagne met een aangenomen conversiepercentage dat in het budget is verwerkt, maar zonder vooraf vastgelegd controlemoment om die aanname opnieuw te beoordelen. [ASSUMPTION] Als de eerste resultaten ruim onder het aangenomen percentage uitkomen, blijft het team uitgeven, in de veronderstelling dat het tekort tijdelijk is en zal verbeteren – precies het niet-falsifieerbare redeneerpatroon waarvoor het GOLD-traject waarschuwde, waarbij tegenbewijs wordt weggeredeneerd in plaats van als echt signaal om te pauzeren te worden gezien. Een vooraf vastgelegd controlemoment ("opnieuw beoordelen als de conversie in week 2 onder X ligt") had die fout specifiek voorkomen.
+[ILLUSTRATIEF VOORBEELD] Een marketingteam lanceert een nieuwe campagne met een aangenomen conversiepercentage dat in het budget is verwerkt, maar zonder vooraf vastgelegd controlemoment om die aanname opnieuw te beoordelen. [AANNAME] Als de eerste resultaten ruim onder het aangenomen percentage uitkomen, blijft het team uitgeven, in de veronderstelling dat het tekort tijdelijk is en zal verbeteren – precies het niet-falsifieerbare redeneerpatroon waarvoor het GOLD-traject waarschuwde, waarbij tegenbewijs wordt weggeredeneerd in plaats van als echt signaal om te pauzeren te worden gezien. Een vooraf vastgelegd controlemoment ("opnieuw beoordelen als de conversie in week 2 onder X ligt") had die fout specifiek voorkomen.
 
 ## Oefenquiz
 

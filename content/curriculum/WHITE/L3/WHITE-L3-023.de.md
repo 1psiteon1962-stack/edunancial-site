@@ -26,11 +26,11 @@ Ein **Indexfonds** soll einen bestimmten Marktindex (zum Beispiel einen breiten 
 
 Hier das „Warum“, weshalb das eine grundlegend andere Wette ist: Eine Indexanlegerin setzt nicht auf ein einzelnes Unternehmen oder auf das Auswahlgeschick einer bestimmten Fondsmanagerin – sie setzt auf das langfristige Gesamtwachstum des breiteren Markts (oder Marktsegments), den der Index abbildet. Damit fällt eine ganze Risikoebene weg, die aktives Anlegen mit sich bringt: das Risiko, dass deine ausgewählten Aktien oder die Auswahl deiner gewählten Managerin schlechter abschneiden als der Markt insgesamt.
 
-[VERIFIED FACT] Das heißt nicht, dass Indexinvesting das Risiko vollständig beseitigt – Indexfonds tragen weiterhin das Risiko, dass der breitere Markt selbst fällt, weil sie gerade dafür gebaut sind, sich mit diesem Markt zu bewegen, nicht um vor seinen Abschwüngen zu schützen.
+[GEPRÜFTE TATSACHE] Das heißt nicht, dass Indexinvesting das Risiko vollständig beseitigt – Indexfonds tragen weiterhin das Risiko, dass der breitere Markt selbst fällt, weil sie gerade dafür gebaut sind, sich mit diesem Markt zu bewegen, nicht um vor seinen Abschwüngen zu schützen.
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Wer einen aktiv gemanagten Fonds wählt, wettet stillschweigend darauf, dass die Fondsmanagerin einzelne Positionen auswählen kann, die zusammen nach Kosten besser abschneiden als der breite Markt – eine Wette auf das Können und die Entscheidungen genau dieser Managerin. Wer stattdessen einen breiten Marktindexfonds wählt, wettet darauf, dass der Gesamtmarkt über die Zeit wächst, ohne herausfinden zu müssen, welche Unternehmen oder welche Managerin die Auswahl treffen. [ASSUMPTION] Steigt der breite Markt während der Haltedauer, nimmt die Indexanlegerin an diesem Wachstum teil, egal welche einzelnen Unternehmen es getragen haben – sie musste die konkreten Gewinner nicht im Voraus richtig erkennen.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Wer einen aktiv gemanagten Fonds wählt, wettet stillschweigend darauf, dass die Fondsmanagerin einzelne Positionen auswählen kann, die zusammen nach Kosten besser abschneiden als der breite Markt – eine Wette auf das Können und die Entscheidungen genau dieser Managerin. Wer stattdessen einen breiten Marktindexfonds wählt, wettet darauf, dass der Gesamtmarkt über die Zeit wächst, ohne herausfinden zu müssen, welche Unternehmen oder welche Managerin die Auswahl treffen. [ANNAHME] Steigt der breite Markt während der Haltedauer, nimmt die Indexanlegerin an diesem Wachstum teil, egal welche einzelnen Unternehmen es getragen haben – sie musste die konkreten Gewinner nicht im Voraus richtig erkennen.
 
 ## Übungsquiz
 1. Was versucht ein Indexfonds zu tun?

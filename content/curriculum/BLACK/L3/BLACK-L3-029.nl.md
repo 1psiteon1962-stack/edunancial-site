@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Het PURPLE-traject van dit programma definieerde fiduciaire plicht als de wettelijke verplichting om in het belang van een andere partij te handelen, met de plicht van bestuurders van een vennootschap tegenover aandeelhouders als veelgenoemd voorbeeld. [VERIFIED FACT] De formele, juridisch afdwingbare fiduciaire plicht geldt in de meeste structuren van ondernemingsbestuur specifiek tegenover de vennootschap en haar aandeelhouders, en niet in dezelfde formele juridische zin tegenover medewerkers – een belangrijk, juist onderscheid dat deze les niet wil vervagen.
+Het PURPLE-traject van dit programma definieerde fiduciaire plicht als de wettelijke verplichting om in het belang van een andere partij te handelen, met de plicht van bestuurders van een vennootschap tegenover aandeelhouders als veelgenoemd voorbeeld. [GEVERIFIEERD FEIT] De formele, juridisch afdwingbare fiduciaire plicht geldt in de meeste structuren van ondernemingsbestuur specifiek tegenover de vennootschap en haar aandeelhouders, en niet in dezelfde formele juridische zin tegenover medewerkers – een belangrijk, juist onderscheid dat deze les niet wil vervagen.
 
 Hier is het "waarom" de verantwoordelijkheid van het leiderschap tegenover medewerkers, besproken in Les 14, belangrijke kenmerken deelt met fiduciaire plicht, ook zonder formeel identiek te zijn: medewerkers hebben hun levensonderhoud, en vaak een flinke persoonlijke en loopbaaninvestering, toevertrouwd aan de beslissingen van een leider, op manieren die echte afhankelijkheid en kwetsbaarheid scheppen – in lijn met het vertrouwen en de kwetsbaarheid die ten grondslag liggen aan de formele fiduciaire relaties uit het PURPLE-traject, ook waar de specifieke juridische verplichtingen verschillen.
 
@@ -32,7 +32,7 @@ Weerspiegelen je beslissingen als leider, naast de specifieke juridische verplic
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider neemt een belangrijke organisatorische beslissing die formeel voldoet aan zijn fiduciaire plicht tegenover aandeelhouders volgens de definitie uit het PURPLE-traject, maar staat inhoudelijk weinig stil bij de gevolgen van de beslissing voor medewerkers die hun loopbaan en levensonderhoud hebben opgebouwd rond de stabiliteit van de organisatie. [ASSUMPTION] Hoewel deze leider geen enkele formele juridische fiduciaire verplichting heeft geschonden, stelt deze les dat hij het inhoudelijke gewicht heeft gemist van het vertrouwen dat medewerkers in zijn oordeel hebben gelegd, in lijn met het punt uit Les 14 dat echte verantwoordelijkheid als werkgever verder gaat dan welke specifieke wettelijke minimumeisen of technische verplichtingen ook formeel gelden.
+[ILLUSTRATIEF VOORBEELD] Een leider neemt een belangrijke organisatorische beslissing die formeel voldoet aan zijn fiduciaire plicht tegenover aandeelhouders volgens de definitie uit het PURPLE-traject, maar staat inhoudelijk weinig stil bij de gevolgen van de beslissing voor medewerkers die hun loopbaan en levensonderhoud hebben opgebouwd rond de stabiliteit van de organisatie. [AANNAME] Hoewel deze leider geen enkele formele juridische fiduciaire verplichting heeft geschonden, stelt deze les dat hij het inhoudelijke gewicht heeft gemist van het vertrouwen dat medewerkers in zijn oordeel hebben gelegd, in lijn met het punt uit Les 14 dat echte verantwoordelijkheid als werkgever verder gaat dan welke specifieke wettelijke minimumeisen of technische verplichtingen ook formeel gelden.
 
 ## Oefenquiz
 

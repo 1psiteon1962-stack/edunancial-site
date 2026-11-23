@@ -30,7 +30,7 @@ Como seria, no seu negócio, um sistema de alerta realmente antecipado para um p
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] A taxa de perda de clientes de um negócio começa a subir em determinado mês, mas, como os clientes que ficaram e os recém-conquistados ainda geram receita, o número de receita total da empresa só mostra uma queda clara vários meses depois. [ASSUMPTION] Um time que acompanha só o número atrasado de receita não percebe o problema até essa queda posterior aparecer, e, a essa altura, o problema de fundo que afasta os clientes já teve meses para piorar. Um time que acompanha diretamente a perda de clientes como indicador antecedente teria identificado o mesmo problema meses antes, com muito mais tempo para investigar e reagir antes de ele se concretizar por completo na receita.
+[EXEMPLO ILUSTRATIVO] A taxa de perda de clientes de um negócio começa a subir em determinado mês, mas, como os clientes que ficaram e os recém-conquistados ainda geram receita, o número de receita total da empresa só mostra uma queda clara vários meses depois. [SUPOSIÇÃO] Um time que acompanha só o número atrasado de receita não percebe o problema até essa queda posterior aparecer, e, a essa altura, o problema de fundo que afasta os clientes já teve meses para piorar. Um time que acompanha diretamente a perda de clientes como indicador antecedente teria identificado o mesmo problema meses antes, com muito mais tempo para investigar e reagir antes de ele se concretizar por completo na receita.
 
 ## Teste de prática
 

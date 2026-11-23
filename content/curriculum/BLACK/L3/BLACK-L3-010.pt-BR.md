@@ -30,7 +30,7 @@ A sua organização tem alguém que realmente tenha liberdade para questionar o 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder confiante e experiente toma uma decisão estratégica importante e demonstra forte convicção em uma reunião de equipe. [ASSUMPTION] Os membros da equipe, acatando a confiança e o cargo do líder, não expressam as reservas reais que têm nem questionam de forma independente as suposições de fundo — retomando a discussão sobre excesso de confiança da trilha GOLD, o viés individual do líder se espalha pelo processo de decisão da equipe sem o freio natural que um conjunto variado de perspectivas, com liberdade real para falar, poderia ter oferecido, o que mostra por que criar mecanismos estruturais para uma contestação real importa mais, e não menos, à medida que a confiança e a autoridade de um líder crescem.
+[EXEMPLO ILUSTRATIVO] Um líder confiante e experiente toma uma decisão estratégica importante e demonstra forte convicção em uma reunião de equipe. [SUPOSIÇÃO] Os membros da equipe, acatando a confiança e o cargo do líder, não expressam as reservas reais que têm nem questionam de forma independente as suposições de fundo — retomando a discussão sobre excesso de confiança da trilha GOLD, o viés individual do líder se espalha pelo processo de decisão da equipe sem o freio natural que um conjunto variado de perspectivas, com liberdade real para falar, poderia ter oferecido, o que mostra por que criar mecanismos estruturais para uma contestação real importa mais, e não menos, à medida que a confiança e a autoridade de um líder crescem.
 
 ## Teste de prática
 

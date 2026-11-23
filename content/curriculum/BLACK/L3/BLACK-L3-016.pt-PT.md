@@ -30,7 +30,7 @@ Já pensou, com antecedência, em como o seu estilo natural de liderança precis
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder acostumado a consultas amplas e à construção de consenso antes de qualquer decisão importante enfrenta uma crise que avança rápido e exige uma resposta pública imediata. [ASSUMPTION] Aplicando o mesmo processo de consulta ampla usado nas decisões estratégicas normais, esse líder adia por dias uma resposta pública enquanto reúne a opinião de todas as partes interessadas — um ritmo adequado à liderança em tempos normais, mas que, durante uma crise de verdade, cria um vazio que outros preenchem com a própria versão dos factos, o que mostra por que liderar numa crise exige uma ação mais rápida e firme, mesmo com menos certeza do que o processo normal de decisão do líder preferiria.
+[EXEMPLO ILUSTRATIVO] Um líder acostumado a consultas amplas e à construção de consenso antes de qualquer decisão importante enfrenta uma crise que avança rápido e exige uma resposta pública imediata. [SUPOSIÇÃO] Aplicando o mesmo processo de consulta ampla usado nas decisões estratégicas normais, esse líder adia por dias uma resposta pública enquanto reúne a opinião de todas as partes interessadas — um ritmo adequado à liderança em tempos normais, mas que, durante uma crise de verdade, cria um vazio que outros preenchem com a própria versão dos factos, o que mostra por que liderar numa crise exige uma ação mais rápida e firme, mesmo com menos certeza do que o processo normal de decisão do líder preferiria.
 
 ## Teste de prática
 

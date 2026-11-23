@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-Lorsqu'un employeur retient l'impôt sur le revenu et les charges sociales sur la paie d'un employé (selon la leçon 4), ce montant retenu n'appartient pas à l'employeur — c'est de l'argent que l'employeur détient temporairement pour le compte des autorités fiscales, dû au nom de l'employé aux fins de l'impôt, mais perçu par l'employeur à titre d'intermédiaire. Les employeurs font généralement face à des échéances strictes et précises pour verser ces montants retenus, [VERIFIED FACT] la fréquence des versements et les échéances précises dépendant souvent de la taille de la masse salariale de l'employeur et d'autres facteurs, fixés par l'autorité fiscale concernée.
+Lorsqu'un employeur retient l'impôt sur le revenu et les charges sociales sur la paie d'un employé (selon la leçon 4), ce montant retenu n'appartient pas à l'employeur — c'est de l'argent que l'employeur détient temporairement pour le compte des autorités fiscales, dû au nom de l'employé aux fins de l'impôt, mais perçu par l'employeur à titre d'intermédiaire. Les employeurs font généralement face à des échéances strictes et précises pour verser ces montants retenus, [FAIT VÉRIFIÉ] la fréquence des versements et les échéances précises dépendant souvent de la taille de la masse salariale de l'employeur et d'autres facteurs, fixés par l'autorité fiscale concernée.
 
 Voici « pourquoi » ces échéances sont traitées avec une sévérité particulière par rapport à certaines autres obligations financières d'une entreprise : comme cet argent retenu n'a jamais vraiment appartenu à l'employeur au départ — il a été perçu pour le compte des employés et des autorités fiscales —, l'utiliser à d'autres fins commerciales, même temporairement pendant un resserrement de trésorerie, est traité beaucoup plus sérieusement qu'un paiement en retard habituel à un fournisseur.
 
@@ -32,7 +32,7 @@ Cette distinction prépare directement la notion d'impôts détenus en fiducie a
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise qui traverse un manque de liquidités temporaire est tentée de retarder brièvement son versement de retenues sur la paie, en prévoyant de rattraper le retard une fois sa trésorerie améliorée — en le traitant à peu près comme elle traiterait un paiement en retard à un fournisseur. [ASSUMPTION] Comme les retenues sur la paie sont considérées comme des fonds détenus pour le compte des employés et des autorités fiscales, plutôt que comme l'encaisse d'exploitation de l'entreprise, ce genre de retard entraîne des conséquences beaucoup plus graves qu'un paiement en retard à un fournisseur, ce qui prépare exactement le risque de responsabilité personnelle abordé dans la notion d'impôts détenus en fiducie de la prochaine leçon.
+[EXEMPLE ILLUSTRATIF] Une entreprise qui traverse un manque de liquidités temporaire est tentée de retarder brièvement son versement de retenues sur la paie, en prévoyant de rattraper le retard une fois sa trésorerie améliorée — en le traitant à peu près comme elle traiterait un paiement en retard à un fournisseur. [HYPOTHÈSE] Comme les retenues sur la paie sont considérées comme des fonds détenus pour le compte des employés et des autorités fiscales, plutôt que comme l'encaisse d'exploitation de l'entreprise, ce genre de retard entraîne des conséquences beaucoup plus graves qu'un paiement en retard à un fournisseur, ce qui prépare exactement le risque de responsabilité personnelle abordé dans la notion d'impôts détenus en fiducie de la prochaine leçon.
 
 ## Quiz de pratique
 

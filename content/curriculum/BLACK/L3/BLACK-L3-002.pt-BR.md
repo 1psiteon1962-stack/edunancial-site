@@ -30,7 +30,7 @@ Se você ficasse de repente indisponível por um mês, o que realmente pararia d
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder delega tarefas administrativas rotineiras para liberar tempo, achando que isso é uma boa prática de delegação. [ASSUMPTION] Todos os relacionamentos importantes com clientes, todas as decisões estratégicas e todo o conhecimento operacional crítico continuam totalmente concentrados nesse líder — quando ele fica indisponível de forma inesperada por um longo período, a organização descobre que a delegação que tinha liberado a agenda dele não fez nada para tratar o risco real de pessoa-chave concentrado nos relacionamentos e conhecimentos que ele não delegou, exatamente o risco que a discussão sobre seguro de pessoa-chave da trilha BLUE queria tratar.
+[EXEMPLO ILUSTRATIVO] Um líder delega tarefas administrativas rotineiras para liberar tempo, achando que isso é uma boa prática de delegação. [SUPOSIÇÃO] Todos os relacionamentos importantes com clientes, todas as decisões estratégicas e todo o conhecimento operacional crítico continuam totalmente concentrados nesse líder — quando ele fica indisponível de forma inesperada por um longo período, a organização descobre que a delegação que tinha liberado a agenda dele não fez nada para tratar o risco real de pessoa-chave concentrado nos relacionamentos e conhecimentos que ele não delegou, exatamente o risco que a discussão sobre seguro de pessoa-chave da trilha BLUE queria tratar.
 
 ## Teste de prática
 

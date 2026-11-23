@@ -32,7 +32,7 @@ Avant de conclure un partenariat avec un influenceur, quelles protections contra
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise s'associe à un influenceur populaire pour promouvoir son produit, sans contrat clairement rédigé précisant les normes de contenu, les exigences de divulgation ou une disposition de sortie si la relation doit prendre fin. [ASSUMPTION] L'influenceur se retrouve plus tard mêlé à une controverse publique sans lien, et l'entreprise voit sa propre réputation touchée par association, sans aucun mécanisme contractuel clair pour mettre rapidement fin au partenariat ou prendre ses distances — ce qui illustre à la fois la lacune contractuelle dont prévient cette leçon et le risque précis de lien de réputation propre à ce type de partenariat marketing.
+[EXEMPLE ILLUSTRATIF] Une entreprise s'associe à un influenceur populaire pour promouvoir son produit, sans contrat clairement rédigé précisant les normes de contenu, les exigences de divulgation ou une disposition de sortie si la relation doit prendre fin. [HYPOTHÈSE] L'influenceur se retrouve plus tard mêlé à une controverse publique sans lien, et l'entreprise voit sa propre réputation touchée par association, sans aucun mécanisme contractuel clair pour mettre rapidement fin au partenariat ou prendre ses distances — ce qui illustre à la fois la lacune contractuelle dont prévient cette leçon et le risque précis de lien de réputation propre à ce type de partenariat marketing.
 
 ## Quiz de pratique
 

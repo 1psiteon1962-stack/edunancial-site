@@ -30,7 +30,7 @@ Was sagen die Fluktuationsdaten deiner Organisation, und insbesondere die Ergebn
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Organisation bemerkt über mehrere Monate steigende Fluktuation bei Leistungsträgern, untersucht die zugrunde liegende Ursache aber nicht und wartet stattdessen ab, ob die Gesamtkennzahlen zur Produktivität sinken, bevor sie den Trend ernst nimmt. [ASSUMPTION] Als die Produktivität schließlich sichtbar sinkt – der Spätindikator holt endlich auf –, hatte das zugrunde liegende Führungsproblem, das die Fluktuation antreibt, bereits Monate Zeit, sich zu verschärfen und einen größeren Kreis von Beschäftigten zu betreffen – genau das Muster verspäteter Reaktion, vor dem der ORANGE Lernpfad bei der Kundenabwanderung gewarnt hat, hier angewendet auf die Bindung von Beschäftigten.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Organisation bemerkt über mehrere Monate steigende Fluktuation bei Leistungsträgern, untersucht die zugrunde liegende Ursache aber nicht und wartet stattdessen ab, ob die Gesamtkennzahlen zur Produktivität sinken, bevor sie den Trend ernst nimmt. [ANNAHME] Als die Produktivität schließlich sichtbar sinkt – der Spätindikator holt endlich auf –, hatte das zugrunde liegende Führungsproblem, das die Fluktuation antreibt, bereits Monate Zeit, sich zu verschärfen und einen größeren Kreis von Beschäftigten zu betreffen – genau das Muster verspäteter Reaktion, vor dem der ORANGE Lernpfad bei der Kundenabwanderung gewarnt hat, hier angewendet auf die Bindung von Beschäftigten.
 
 ## Übungsquiz
 1. Wie wendet diese Lektion den Rahmen aus Früh- und Spätindikatoren aus dem ORANGE Lernpfad auf die Fluktuation von Beschäftigten an?

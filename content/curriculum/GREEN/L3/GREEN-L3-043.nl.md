@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Een **aftrek voor een thuiskantoor** (home office deduction) maakt het in het algemeen mogelijk om een deel van de woonkosten af te trekken voor een ruimte die regelmatig voor het bedrijf wordt gebruikt. [VERIFIED FACT] In veel belastingstelsels vereist deze aftrek in het algemeen dat de specifieke ruimte **uitsluitend** voor het bedrijf wordt gebruikt – dus niet voor zowel zakelijke als belangrijke persoonlijke doeleinden – en daarnaast regelmatig voor bedrijfsactiviteiten.
+Een **aftrek voor een thuiskantoor** (home office deduction) maakt het in het algemeen mogelijk om een deel van de woonkosten af te trekken voor een ruimte die regelmatig voor het bedrijf wordt gebruikt. [GEVERIFIEERD FEIT] In veel belastingstelsels vereist deze aftrek in het algemeen dat de specifieke ruimte **uitsluitend** voor het bedrijf wordt gebruikt – dus niet voor zowel zakelijke als belangrijke persoonlijke doeleinden – en daarnaast regelmatig voor bedrijfsactiviteiten.
 
 Hier is het "waarom" deze eis van exclusief gebruik bestaat: zonder die eis zou het echt lastig worden om legitieme zakelijke woonkosten te onderscheiden van gewone persoonlijke kosten van levensonderhoud, en om dat te controleren en te handhaven. Een eettafel die af en toe voor werk wordt gebruikt maar vooral voor gezinsmaaltijden, mengt bijvoorbeeld persoonlijk en zakelijk gebruik op een manier die het moeilijk maakt een heldere, verdedigbare zakelijke aftrek te berekenen. Zonder duidelijke scheidslijn zou dat bovendien bijzonder gevoelig zijn voor misbruik.
 
@@ -30,7 +30,7 @@ Daarom komt een kamer of duidelijk afgebakende ruimte die uitsluitend en regelma
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een zelfstandig adviseur maakt van een logeerkamer een eigen kantoorruimte, die uitsluitend wordt gebruikt voor klantgesprekken en zakelijk werk, zonder enig ander persoonlijk gebruik van die specifieke kamer. Deze ruimte komt onder een gangbare eis van exclusief gebruik waarschijnlijk in aanmerking voor de aftrek van een thuiskantoor. [ASSUMPTION] Een andere zelfstandige die vanaf de keukentafel werkt, die dagelijks ook voor gezinsmaaltijden en andere huishoudelijke bezigheden wordt gebruikt, komt voor die ruimte waarschijnlijk niet in aanmerking voor dezelfde aftrek, ook al doet ze daar echt zakelijk werk, omdat de ruimte niet uitsluitend voor het bedrijf wordt gebruikt. Dat laat zien waarom het specifieke, afgebakende karakter van de ruimte net zo belangrijk is als het werk dat er echt wordt gedaan.
+[ILLUSTRATIEF VOORBEELD] Een zelfstandig adviseur maakt van een logeerkamer een eigen kantoorruimte, die uitsluitend wordt gebruikt voor klantgesprekken en zakelijk werk, zonder enig ander persoonlijk gebruik van die specifieke kamer. Deze ruimte komt onder een gangbare eis van exclusief gebruik waarschijnlijk in aanmerking voor de aftrek van een thuiskantoor. [AANNAME] Een andere zelfstandige die vanaf de keukentafel werkt, die dagelijks ook voor gezinsmaaltijden en andere huishoudelijke bezigheden wordt gebruikt, komt voor die ruimte waarschijnlijk niet in aanmerking voor dezelfde aftrek, ook al doet ze daar echt zakelijk werk, omdat de ruimte niet uitsluitend voor het bedrijf wordt gebruikt. Dat laat zien waarom het specifieke, afgebakende karakter van de ruimte net zo belangrijk is als het werk dat er echt wordt gedaan.
 
 ## Oefenquiz
 

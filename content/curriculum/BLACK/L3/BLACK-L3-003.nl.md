@@ -30,7 +30,7 @@ Wat zeggen de manier waarop je organisatie werkelijk bevordert en beloont over w
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider benadrukt tijdens bedrijfsbijeenkomsten regelmatig teamwork en samenwerking, terwijl het promotie- en bonussysteem van de organisatie uitsluitend individuele prestatiecijfers beloont, zonder enige aandacht voor bijdragen aan samenwerking. [ASSUMPTION] Medewerkers reageren rationeel op de werkelijke prikkelstructuur in plaats van op de uitgesproken boodschap, en stellen individuele prestaties boven echte samenwerking – precies volgens het principe uit het ORANGE-traject dat mensen zich richten op wat werkelijk wordt beloond. De cultuur die ontstaat, weerspiegelt de inrichting van de prikkels en niet de toespraken, hoe oprecht die ook waren.
+[ILLUSTRATIEF VOORBEELD] Een leider benadrukt tijdens bedrijfsbijeenkomsten regelmatig teamwork en samenwerking, terwijl het promotie- en bonussysteem van de organisatie uitsluitend individuele prestatiecijfers beloont, zonder enige aandacht voor bijdragen aan samenwerking. [AANNAME] Medewerkers reageren rationeel op de werkelijke prikkelstructuur in plaats van op de uitgesproken boodschap, en stellen individuele prestaties boven echte samenwerking – precies volgens het principe uit het ORANGE-traject dat mensen zich richten op wat werkelijk wordt beloond. De cultuur die ontstaat, weerspiegelt de inrichting van de prikkels en niet de toespraken, hoe oprecht die ook waren.
 
 ## Oefenquiz
 

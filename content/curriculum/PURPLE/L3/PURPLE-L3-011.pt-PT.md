@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Abrir uma LLC (Limited Liability Company, um tipo de empresa de responsabilidade limitada dos EUA) geralmente serve para criar uma separação jurídica entre a empresa e os donos, protegendo o património pessoal dos donos da maior parte das responsabilidades da empresa. Este é o "porquê" de essa proteção não ser garantida automaticamente só pelo ato de abertura: [VERIFIED FACT] muitos sistemas jurídicos geralmente esperam que uma LLC (e entidades parecidas) seja mantida e administrada como uma entidade realmente separada dos donos, por meio de certas formalidades contínuas, para que os tribunais continuem a respeitar essa separação jurídica.
+Abrir uma LLC (Limited Liability Company, um tipo de empresa de responsabilidade limitada dos EUA) geralmente serve para criar uma separação jurídica entre a empresa e os donos, protegendo o património pessoal dos donos da maior parte das responsabilidades da empresa. Este é o "porquê" de essa proteção não ser garantida automaticamente só pelo ato de abertura: [FACTO VERIFICADO] muitos sistemas jurídicos geralmente esperam que uma LLC (e entidades parecidas) seja mantida e administrada como uma entidade realmente separada dos donos, por meio de certas formalidades contínuas, para que os tribunais continuem a respeitar essa separação jurídica.
 
 Essas formalidades geralmente incluem manter realmente separadas as finanças da empresa e as pessoais (um tema aprofundado na Lição 13), manter registos adequados da empresa, seguir os documentos de constituição da própria entidade e quaisquer procedimentos internos exigidos e, de forma geral, tratar a empresa como uma entidade jurídica distinta nas relações dela, e não como uma simples extensão dos assuntos pessoais do dono.
 
@@ -30,7 +30,7 @@ Essas formalidades geralmente incluem manter realmente separadas as finanças da
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresária abre uma LLC, esperando que isso proteja automaticamente o património pessoal dela de qualquer responsabilidade futura da empresa. [ASSUMPTION] Se, depois, ela não mantiver registos adequados da empresa, não seguir os procedimentos internos exigidos pela própria entidade e, de forma geral, tratar as finanças e os assuntos da empresa como se fossem iguais aos dela pessoalmente, um tribunal que avalie uma futura reclamação de responsabilidade pode concluir que a LLC não estava, de facto, sendo mantida e administrada como uma entidade realmente separada — possivelmente enfraquecendo justamente a proteção de responsabilidade que ela achava que a abertura inicial tinha garantido de forma automática e permanente.
+[EXEMPLO ILUSTRATIVO] Uma empresária abre uma LLC, esperando que isso proteja automaticamente o património pessoal dela de qualquer responsabilidade futura da empresa. [SUPOSIÇÃO] Se, depois, ela não mantiver registos adequados da empresa, não seguir os procedimentos internos exigidos pela própria entidade e, de forma geral, tratar as finanças e os assuntos da empresa como se fossem iguais aos dela pessoalmente, um tribunal que avalie uma futura reclamação de responsabilidade pode concluir que a LLC não estava, de facto, sendo mantida e administrada como uma entidade realmente separada — possivelmente enfraquecendo justamente a proteção de responsabilidade que ela achava que a abertura inicial tinha garantido de forma automática e permanente.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Se oggi la tua impresa ottiene la maggior parte dei clienti da un solo canale do
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa ottiene la grande maggioranza dei nuovi clienti tramite una sola piattaforma pubblicitaria, apprezzandone il costo per acquisizione oggi basso. [ASSUMPTION] Quando quella piattaforma cambia in modo significativo l'algoritmo o la struttura dei prezzi, il costo di acquisizione dell'impresa schizza in alto e i volumi crollano, senza alcun altro canale consolidato abbastanza maturo da colmare il vuoto. È un rischio di concentrazione del tutto analogo al detenere una sola classe di attività, come visto nei percorsi WHITE e GOLD, che un mix di canali più diversificato avrebbe aiutato a mitigare.
+[ESEMPIO ILLUSTRATIVO] Un'impresa ottiene la grande maggioranza dei nuovi clienti tramite una sola piattaforma pubblicitaria, apprezzandone il costo per acquisizione oggi basso. [IPOTESI] Quando quella piattaforma cambia in modo significativo l'algoritmo o la struttura dei prezzi, il costo di acquisizione dell'impresa schizza in alto e i volumi crollano, senza alcun altro canale consolidato abbastanza maturo da colmare il vuoto. È un rischio di concentrazione del tutto analogo al detenere una sola classe di attività, come visto nei percorsi WHITE e GOLD, che un mix di canali più diversificato avrebbe aiutato a mitigare.
 
 ## Quiz di esercitazione
 

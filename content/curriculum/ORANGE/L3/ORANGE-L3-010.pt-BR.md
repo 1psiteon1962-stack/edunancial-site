@@ -30,7 +30,7 @@ Antes de fazer uma promoção com produto isca: que dados específicos você pre
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio vende um produto específico com prejuízo, supondo que os clientes vão depois comprar um complemento separado e lucrativo com frequência suficiente para que a estratégia como um todo valha a pena. [ASSUMPTION] O produto com prejuízo fica muito popular, e o negócio trata essa popularidade como prova de que a estratégia está dando certo — sem nunca medir, de fato, que porcentagem desses clientes compra depois o complemento lucrativo. Se essa frequência de compra seguinte for, na verdade, bem menor do que se supunha, o negócio pode estar tocando uma estratégia popular, mas realmente sem lucro, justamente por nunca ter acompanhado a economia unitária de que a estratégia depende.
+[EXEMPLO ILUSTRATIVO] Um negócio vende um produto específico com prejuízo, supondo que os clientes vão depois comprar um complemento separado e lucrativo com frequência suficiente para que a estratégia como um todo valha a pena. [SUPOSIÇÃO] O produto com prejuízo fica muito popular, e o negócio trata essa popularidade como prova de que a estratégia está dando certo — sem nunca medir, de fato, que porcentagem desses clientes compra depois o complemento lucrativo. Se essa frequência de compra seguinte for, na verdade, bem menor do que se supunha, o negócio pode estar tocando uma estratégia popular, mas realmente sem lucro, justamente por nunca ter acompanhado a economia unitária de que a estratégia depende.
 
 ## Teste de prática
 

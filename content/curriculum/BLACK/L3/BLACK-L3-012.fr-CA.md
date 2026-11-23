@@ -30,7 +30,7 @@ Y a-t-il en ce moment dans ton équipe une tension ou un désaccord non réglé 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader remarque une tension croissante entre deux membres de l'équipe, mais évite de l'aborder directement, en se disant qu'il laisse à la situation l'espace nécessaire pour se régler naturellement. [ASSUMPTION] Des mois plus tard, la tension s'est durcie en conflit ouvert, ce qui touche la dynamique et la productivité de l'équipe dans son ensemble — un problème qui aurait été bien plus facile à régler au moment où il est apparu, ce qui montre que la « patience » du leader a fonctionné exactement comme le schéma de report cumulatif contre lequel prévenait la leçon 5, simplement appliqué à un conflit interpersonnel plutôt qu'à une décision de cessation d'emploi.
+[EXEMPLE ILLUSTRATIF] Un leader remarque une tension croissante entre deux membres de l'équipe, mais évite de l'aborder directement, en se disant qu'il laisse à la situation l'espace nécessaire pour se régler naturellement. [HYPOTHÈSE] Des mois plus tard, la tension s'est durcie en conflit ouvert, ce qui touche la dynamique et la productivité de l'équipe dans son ensemble — un problème qui aurait été bien plus facile à régler au moment où il est apparu, ce qui montre que la « patience » du leader a fonctionné exactement comme le schéma de report cumulatif contre lequel prévenait la leçon 5, simplement appliqué à un conflit interpersonnel plutôt qu'à une décision de cessation d'emploi.
 
 ## Quiz de pratique
 

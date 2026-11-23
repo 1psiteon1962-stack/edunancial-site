@@ -30,7 +30,7 @@ O que realmente sabe, ou consegue deduzir com razoabilidade, sobre a estrutura d
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um concorrente baixa os preços de forma significativa, abaixo do que parece ser um nível sustentável considerando a provável estrutura de custos dele — relações parecidas com fornecedores, escala parecida, nenhuma vantagem de custo evidente. [ASSUMPTION] Em vez de supor que esse novo preço mais baixo é o novo preço de mercado permanente e igualá-lo imediatamente (com as consequências de desgaste da margem discutidas na Lição 9), um negócio que raciocina sobre a posição de custos provavelmente insustentável do concorrente pode, em vez disso, manter o próprio preço, prevendo corretamente que o preço agressivo do concorrente é uma investida temporária que a própria estrutura de custos dele não vai permitir sustentar indefinidamente.
+[EXEMPLO ILUSTRATIVO] Um concorrente baixa os preços de forma significativa, abaixo do que parece ser um nível sustentável considerando a provável estrutura de custos dele — relações parecidas com fornecedores, escala parecida, nenhuma vantagem de custo evidente. [SUPOSIÇÃO] Em vez de supor que esse novo preço mais baixo é o novo preço de mercado permanente e igualá-lo imediatamente (com as consequências de desgaste da margem discutidas na Lição 9), um negócio que raciocina sobre a posição de custos provavelmente insustentável do concorrente pode, em vez disso, manter o próprio preço, prevendo corretamente que o preço agressivo do concorrente é uma investida temporária que a própria estrutura de custos dele não vai permitir sustentar indefinidamente.
 
 ## Teste de prática
 

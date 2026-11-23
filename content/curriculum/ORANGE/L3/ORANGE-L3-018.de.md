@@ -32,7 +32,7 @@ Bevor du dich zu einer deutlichen Erhöhung der Marketingausgaben verpflichtest:
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen erhöht seine Marketingausgaben deutlich und erwartet, dass das daraus folgende Umsatzwachstum den Betrieb des nächsten Quartals finanziert. [ASSUMPTION] Das Marketing wirkt tatsächlich – Interessenten werden in der erwarteten Quote zu Käufern –, aber das Geld aus diesen Verkäufen kommt bei dem für das Unternehmen typischen Zahlungsziel von 60 Tagen aus der Behandlung im BLAUEN Lernpfad erst lange nach Fälligkeit der Marketingrechnungen an. So entsteht ein Liquiditätsengpass, obwohl die Marketingkampagne nach ihren eigenen Kennzahlen ein klarer Erfolg war.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen erhöht seine Marketingausgaben deutlich und erwartet, dass das daraus folgende Umsatzwachstum den Betrieb des nächsten Quartals finanziert. [ANNAHME] Das Marketing wirkt tatsächlich – Interessenten werden in der erwarteten Quote zu Käufern –, aber das Geld aus diesen Verkäufen kommt bei dem für das Unternehmen typischen Zahlungsziel von 60 Tagen aus der Behandlung im BLAUEN Lernpfad erst lange nach Fälligkeit der Marketingrechnungen an. So entsteht ein Liquiditätsengpass, obwohl die Marketingkampagne nach ihren eigenen Kennzahlen ein klarer Erfolg war.
 
 ## Übungsquiz
 1. Was misst der Geldumschlagszyklus aus dem BLAUEN Lernpfad?

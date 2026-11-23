@@ -26,11 +26,11 @@ Aan het einde van deze les kun je:
 
 Hier is het "waarom" crowdfunding een dubbel doel heeft, naast alleen kapitaal ophalen: een geslaagde campagne laat rechtstreeks zien dat echte mensen bereid zijn echt geld te zetten op een product of idee, nog voordat het helemaal is gemaakt of gelanceerd. Dat is een vorm van marktvalidatie die meer zegt dan antwoorden op een enquête of alleen uitgesproken interesse, omdat geldgevers een echte financiële verplichting aangaan.
 
-[VERIFIED FACT] Dat betekent dat de uitkomst van een crowdfundingcampagne, of die haar doel nu haalt of niet, echte marktinformatie oplevert. Een sterke reactie wijst op echte vraag die het waard is verder op in te gaan. Een zwakke reactie – ook al is die vanuit puur financieel oogpunt teleurstellend – kan waardevolle informatie zijn dat het product, de prijs of de positionering moet worden heroverwogen voordat je er meer middelen in steekt.
+[GEVERIFIEERD FEIT] Dat betekent dat de uitkomst van een crowdfundingcampagne, of die haar doel nu haalt of niet, echte marktinformatie oplevert. Een sterke reactie wijst op echte vraag die het waard is verder op in te gaan. Een zwakke reactie – ook al is die vanuit puur financieel oogpunt teleurstellend – kan waardevolle informatie zijn dat het product, de prijs of de positionering moet worden heroverwogen voordat je er meer middelen in steekt.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een ondernemer start een crowdfundingcampagne voor een nieuw productidee, met een financieringsdoel dat de eerste productiekosten dekt. De campagne gaat binnen een paar dagen ruim over het doel heen, met een groot aantal geldgevers die echt geld toezeggen terwijl het product nog niet eens bestaat. [ASSUMPTION] Die reactie geeft de ondernemer, naast het opgehaalde geld zelf, het vertrouwen dat er echte vraag in de markt is die het waard is om meer middelen in te steken. Dat is een ander soort bevestiging dan gewoon aan mogelijke klanten vragen of ze interesse zouden hebben, want de geldgevers hebben hun interesse al met echt geld onderbouwd.
+[ILLUSTRATIEF VOORBEELD] Een ondernemer start een crowdfundingcampagne voor een nieuw productidee, met een financieringsdoel dat de eerste productiekosten dekt. De campagne gaat binnen een paar dagen ruim over het doel heen, met een groot aantal geldgevers die echt geld toezeggen terwijl het product nog niet eens bestaat. [AANNAME] Die reactie geeft de ondernemer, naast het opgehaalde geld zelf, het vertrouwen dat er echte vraag in de markt is die het waard is om meer middelen in te steken. Dat is een ander soort bevestiging dan gewoon aan mogelijke klanten vragen of ze interesse zouden hebben, want de geldgevers hebben hun interesse al met echt geld onderbouwd.
 
 ## Oefenquiz
 

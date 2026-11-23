@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Stel je voor dat een onderneming onder echte financiële druk flink in haar personeelsbestand moet snijden om levensvatbaar te blijven. Dit is een hypothetisch stresstestscenario, geen voorspelling over een specifiek echt bedrijf of een specifieke echte gebeurtenis.
+[HYPOTHETISCH SCENARIO — AANNAME, GEEN GEVERIFIEERD FEIT] Stel je voor dat een onderneming onder echte financiële druk flink in haar personeelsbestand moet snijden om levensvatbaar te blijven. Dit is een hypothetisch stresstestscenario, geen voorspelling over een specifiek echt bedrijf of een specifieke echte gebeurtenis.
 
 Denk hier eerst over na voordat je verder leest, met alles wat in dit hele programma aan bod kwam, niet alleen in dit traject: welke wettelijke eisen (PURPLE-traject) gelden voor opzegtermijnen, ontslagvergoedingen en mogelijke discriminatieclaims bij de manier waarop wordt gekozen wie er vertrekt? Wat vraagt de situatie rond kasstroom en runway van de onderneming (BLUE-traject) werkelijk, tegenover wat emotioneel makkelijker voelt? Hoe weerspiegelen de timing en de manier van communiceren het thema van de verantwoordelijkheid van de werkgever (Les 14), en hoe vermijden ze de valkuil van conflicten uit de weg gaan (Les 12)? Wat zegt deze beslissing, en de manier waarop ze wordt uitgevoerd, aan de blijvende medewerkers over wat het leiderschap werkelijk waardeert (Lessen 3, 22)? En wat stelt dit op de proef van het ego van de leider, het samenvallen van zijn identiteit met de onderneming en zijn vermogen om vastberaden te handelen onder echte onzekerheid (Lessen 17, 30, 31, 39)?
 

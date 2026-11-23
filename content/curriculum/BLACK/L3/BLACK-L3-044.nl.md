@@ -30,7 +30,7 @@ Kies een belangrijke eerdere beslissing die goed uitpakte en een die niet goed u
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider met vele jaren ervaring blijft bij belangrijke beslissingen hetzelfde soort denkfout maken, omdat hij eerdere beslissingen nooit grondig genoeg heeft nagelopen om het patroon op te merken. [ASSUMPTION] Een andere leider met een vergelijkbaar aantal jaren ervaring loopt eerdere beslissingen bewust na met het onderscheid tussen redenering en uitkomst uit deze les, en scheidt eerlijk de gevallen waarin een goede redenering toevallig een slechte uitkomst had van de gevallen waarin een gebrekkige redenering toevallig geluk had – juist deze gewoonte van bewuste reflectie, en niet het ruwe opbouwen van jaren, maakt het oordeel van deze tweede leider in de loop van de tijd werkelijk beter, op een manier die de even lange staat van dienst van de eerste leider nooit heeft opgeleverd.
+[ILLUSTRATIEF VOORBEELD] Een leider met vele jaren ervaring blijft bij belangrijke beslissingen hetzelfde soort denkfout maken, omdat hij eerdere beslissingen nooit grondig genoeg heeft nagelopen om het patroon op te merken. [AANNAME] Een andere leider met een vergelijkbaar aantal jaren ervaring loopt eerdere beslissingen bewust na met het onderscheid tussen redenering en uitkomst uit deze les, en scheidt eerlijk de gevallen waarin een goede redenering toevallig een slechte uitkomst had van de gevallen waarin een gebrekkige redenering toevallig geluk had – juist deze gewoonte van bewuste reflectie, en niet het ruwe opbouwen van jaren, maakt het oordeel van deze tweede leider in de loop van de tijd werkelijk beter, op een manier die de even lange staat van dienst van de eerste leider nooit heeft opgeleverd.
 
 ## Oefenquiz
 

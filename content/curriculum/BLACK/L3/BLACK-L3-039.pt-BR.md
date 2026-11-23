@@ -30,7 +30,7 @@ Escolha uma decisão que você está defendendo ou continua apoiando. Aplique es
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder continua defendendo uma decisão estratégica que ele mesmo defendeu, apesar das evidências crescentes de que ela não está funcionando, retomando os padrões de ego e de custo irrecuperável da Lição 17. [ASSUMPTION] Ao aplicar a técnica desta lição — perguntar o que recomendaria se outro líder tivesse tomado exatamente essa decisão e ele a avaliasse do zero —, esse líder percebe que fica bem mais difícil justificar a continuidade da estratégia que está falhando só pelos méritos atuais dela, criando distância psicológica suficiente do apego pessoal à decisão original para enxergar a situação com mais clareza e fazer uma escolha mais objetiva.
+[EXEMPLO ILUSTRATIVO] Um líder continua defendendo uma decisão estratégica que ele mesmo defendeu, apesar das evidências crescentes de que ela não está funcionando, retomando os padrões de ego e de custo irrecuperável da Lição 17. [SUPOSIÇÃO] Ao aplicar a técnica desta lição — perguntar o que recomendaria se outro líder tivesse tomado exatamente essa decisão e ele a avaliasse do zero —, esse líder percebe que fica bem mais difícil justificar a continuidade da estratégia que está falhando só pelos méritos atuais dela, criando distância psicológica suficiente do apego pessoal à decisão original para enxergar a situação com mais clareza e fazer uma escolha mais objetiva.
 
 ## Teste de prática
 

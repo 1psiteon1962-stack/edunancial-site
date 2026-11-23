@@ -30,7 +30,7 @@ Pour ta principale priorité stratégique actuelle, quelles preuves précises, s
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader confiant envers une orientation stratégique actuelle a bâti une équipe qui jouit d'une vraie sécurité psychologique et qui a l'habitude d'exprimer son désaccord, selon les leçons 11 et 19. [ASSUMPTION] Plutôt que d'attendre simplement de voir si des preuves contraires finissent par émerger grâce à cette structure, ce leader demande activement et précisément à l'équipe : « qu'est-ce qui nous dirait que cette stratégie ne fonctionne pas, et avons-nous réellement vérifié ces preuves précises récemment? » — ce qui combine les conditions structurelles vers lesquelles ce parcours a progressé avec l'effort délibéré et actif du leader lui-même pour chercher la réfutation, plutôt que de l'attendre passivement ou de la filtrer inconsciemment.
+[EXEMPLE ILLUSTRATIF] Un leader confiant envers une orientation stratégique actuelle a bâti une équipe qui jouit d'une vraie sécurité psychologique et qui a l'habitude d'exprimer son désaccord, selon les leçons 11 et 19. [HYPOTHÈSE] Plutôt que d'attendre simplement de voir si des preuves contraires finissent par émerger grâce à cette structure, ce leader demande activement et précisément à l'équipe : « qu'est-ce qui nous dirait que cette stratégie ne fonctionne pas, et avons-nous réellement vérifié ces preuves précises récemment? » — ce qui combine les conditions structurelles vers lesquelles ce parcours a progressé avec l'effort délibéré et actif du leader lui-même pour chercher la réfutation, plutôt que de l'attendre passivement ou de la filtrer inconsciemment.
 
 ## Quiz de pratique
 

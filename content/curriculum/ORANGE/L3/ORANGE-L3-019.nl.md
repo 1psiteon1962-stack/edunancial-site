@@ -30,7 +30,7 @@ Als je huidige provisiestructuur X beloont, welk gedrag stimuleert die dan werke
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming betaalt provisie uitsluitend over nieuw gesloten verkopen, zonder enige aandacht voor klantbehoud. [ASSUMPTION] Verkopers, die rationeel op deze structuur reageren, geven voorrang aan het sluiten van zoveel mogelijk deals, soms met klanten die slecht passen en waarschijnlijk snel vertrekken – de provisie wordt hoe dan ook verdiend. Zo heeft de structuur onbedoeld precies het soort groei met weinig klantbehoud aangemoedigd dat de van LTV afhankelijke gezondheid van de onderneming uit Les 6 ondermijnt, ook al heeft geen enkele verkoper iets gedaan wat tegen de letter van zijn beloningsregeling ingaat.
+[ILLUSTRATIEF VOORBEELD] Een onderneming betaalt provisie uitsluitend over nieuw gesloten verkopen, zonder enige aandacht voor klantbehoud. [AANNAME] Verkopers, die rationeel op deze structuur reageren, geven voorrang aan het sluiten van zoveel mogelijk deals, soms met klanten die slecht passen en waarschijnlijk snel vertrekken – de provisie wordt hoe dan ook verdiend. Zo heeft de structuur onbedoeld precies het soort groei met weinig klantbehoud aangemoedigd dat de van LTV afhankelijke gezondheid van de onderneming uit Les 6 ondermijnt, ook al heeft geen enkele verkoper iets gedaan wat tegen de letter van zijn beloningsregeling ingaat.
 
 ## Oefenquiz
 

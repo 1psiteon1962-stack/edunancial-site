@@ -30,7 +30,7 @@ Prima di lanciare una promozione con sconto: qual è il tuo margine di contribuz
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa con un margine di contribuzione di $40 per unità offre uno sconto del 20%, che porta il margine per unità a $20. [ASSUMPTION] I volumi di vendita aumentano del 30%, il che sembra un successo evidente. Ma poiché il margine per unità si è dimezzato, quell'aumento del 30% produce in realtà un utile totale più basso di prima dello sconto, non più alto. Questo mostra perché il ragionamento intuitivo "lo sconto porta più vendite, più vendite significano più utile" trascura l'impatto sproporzionato dell'erosione del margine.
+[ESEMPIO ILLUSTRATIVO] Un'impresa con un margine di contribuzione di $40 per unità offre uno sconto del 20%, che porta il margine per unità a $20. [IPOTESI] I volumi di vendita aumentano del 30%, il che sembra un successo evidente. Ma poiché il margine per unità si è dimezzato, quell'aumento del 30% produce in realtà un utile totale più basso di prima dello sconto, non più alto. Questo mostra perché il ragionamento intuitivo "lo sconto porta più vendite, più vendite significano più utile" trascura l'impatto sproporzionato dell'erosione del margine.
 
 ## Quiz di esercitazione
 

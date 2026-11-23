@@ -30,7 +30,7 @@ Was würdest du wissen wollen, bevor du dich auf Grundlage der Absatzprognose f�
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Der Vertriebstrichter eines Unternehmens hat in der Vergangenheit 15 % der qualifizierten Interessenten in zahlende Kunden umgewandelt, und das Team plant die Einstellungen für das nächste Quartal unter der Annahme genau dieser Quote von 15 %. [ASSUMPTION] Liegt die tatsächliche Umwandlungsquote in diesem Quartal stattdessen bei 10 % – durchaus im Rahmen der normalen historischen Schwankungen –, hat sich das Unternehmen bereits zu Gehältern und anderen Kosten verpflichtet, die auf Umsätzen beruhen, die nicht eingetreten sind; ein Liquiditätsproblem, das nicht durch einen einzelnen Fehler entstanden ist, sondern dadurch, dass ein Durchschnitt wie eine Gewissheit behandelt wurde.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Der Vertriebstrichter eines Unternehmens hat in der Vergangenheit 15 % der qualifizierten Interessenten in zahlende Kunden umgewandelt, und das Team plant die Einstellungen für das nächste Quartal unter der Annahme genau dieser Quote von 15 %. [ANNAHME] Liegt die tatsächliche Umwandlungsquote in diesem Quartal stattdessen bei 10 % – durchaus im Rahmen der normalen historischen Schwankungen –, hat sich das Unternehmen bereits zu Gehältern und anderen Kosten verpflichtet, die auf Umsätzen beruhen, die nicht eingetreten sind; ein Liquiditätsproblem, das nicht durch einen einzelnen Fehler entstanden ist, sondern dadurch, dass ein Durchschnitt wie eine Gewissheit behandelt wurde.
 
 ## Übungsquiz
 1. Was stellt ein Vertriebstrichter auf jeder Stufe grundsätzlich dar?

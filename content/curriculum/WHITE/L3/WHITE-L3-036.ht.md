@@ -26,7 +26,7 @@ Lè w fin fè leson sa a, w ap kapab:
 
 ## Kontni prensipal
 
-Anpil peyi ak rejyon ofri sèten kalite kont envestisman — souvan ki gen rapò ak ekonomi pou retrèt — ki bay avantaj taks espesifik, tankou kwasans ak taks ranvwaye (ou peye taks pita, souvan lè w pran retrèt) oswa kwasans san taks (anba sèten kondisyon espesifik). [VERIFIED FACT] Kalite kont espesifik yo, règ yo, limit kontribisyon yo, ak tretman taks ki disponib yo varye anpil dapre peyi e yo chanje avèk tan ak nouvo lwa, kidonk ou dwe verifye detay chak pwogram espesifik dirèkteman, e yo depase kad leson jeneral sa a.
+Anpil peyi ak rejyon ofri sèten kalite kont envestisman — souvan ki gen rapò ak ekonomi pou retrèt — ki bay avantaj taks espesifik, tankou kwasans ak taks ranvwaye (ou peye taks pita, souvan lè w pran retrèt) oswa kwasans san taks (anba sèten kondisyon espesifik). [FÈ VERIFYE] Kalite kont espesifik yo, règ yo, limit kontribisyon yo, ak tretman taks ki disponib yo varye anpil dapre peyi e yo chanje avèk tan ak nouvo lwa, kidonk ou dwe verifye detay chak pwogram espesifik dirèkteman, e yo depase kad leson jeneral sa a.
 
 Men "poukisa" sa enpòtan kòm yon konsèp ki diferan de chwa envestisman yo: egzakteman menm envestisman an — menm aksyon an oswa menm fon an — ka bay yon rezilta apre taks ki diferan anpil dapre si li nan yon kont taksab nòmal oswa nan yon kont ki ofri kèk fòm avantaj taks. Sa se yon nivo desizyon ki totalman separe de *ki* envestisman pou w kenbe — se sou *ki kote* (nan ki kalite kont) ou kenbe envestisman sa yo.
 
@@ -34,7 +34,7 @@ Se pou sa envestisè ki gen eksperyans souvan konsidere chwa kont ak chwa envest
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè gen aksè a yon kont retrèt ki gen avantaj taks ki ofri kwasans ak taks ranvwaye, ansanm ak yon kont koutye (brokerage account) taksab nòmal. [ASSUMPTION] Kenbe menm envestisman an nan kont ki gen avantaj taks la olye kont taksab la ta ka bay yon rezilta apre taks ki diferan anpil sou yon long peryòd, sèlman akoz diferans nan tretman taks la — menm si envestisman an, pèfòmans li, ak risk li egzakteman menm bagay nan toude ka yo. Sa montre poukisa desizyon sou kalite kont lan merite yon refleksyon separe e byen panse, apa desizyon sou chwa envestisman an li menm.
+[EGZANP ILISTRATIF] Yon envestisè gen aksè a yon kont retrèt ki gen avantaj taks ki ofri kwasans ak taks ranvwaye, ansanm ak yon kont koutye (brokerage account) taksab nòmal. [SIPOZISYON] Kenbe menm envestisman an nan kont ki gen avantaj taks la olye kont taksab la ta ka bay yon rezilta apre taks ki diferan anpil sou yon long peryòd, sèlman akoz diferans nan tretman taks la — menm si envestisman an, pèfòmans li, ak risk li egzakteman menm bagay nan toude ka yo. Sa montre poukisa desizyon sou kalite kont lan merite yon refleksyon separe e byen panse, apa desizyon sou chwa envestisman an li menm.
 
 ## Egzamen pratik
 

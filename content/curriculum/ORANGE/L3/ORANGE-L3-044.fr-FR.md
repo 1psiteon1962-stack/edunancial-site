@@ -32,7 +32,7 @@ Que sais-tu réellement, ou que peux-tu raisonnablement déduire, de la structur
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un concurrent baisse ses prix nettement sous ce qui semble être un niveau soutenable compte tenu de sa structure de coûts probable — des relations semblables avec les fournisseurs, une taille semblable, aucun avantage de coûts évident. [ASSUMPTION] Plutôt que de supposer que ce nouveau prix plus bas représente le nouveau prix de marché permanent et de l'égaler immédiatement (avec les conséquences d'érosion des marges abordées à la leçon 9), une entreprise qui analyse la position de coûts probablement insoutenable du concurrent pourrait plutôt maintenir son propre prix, en prévoyant correctement que les prix agressifs du concurrent sont une poussée temporaire que sa propre structure de coûts ne lui permettra pas de maintenir indéfiniment.
+[EXEMPLE ILLUSTRATIF] Un concurrent baisse ses prix nettement sous ce qui semble être un niveau soutenable compte tenu de sa structure de coûts probable — des relations semblables avec les fournisseurs, une taille semblable, aucun avantage de coûts évident. [HYPOTHÈSE] Plutôt que de supposer que ce nouveau prix plus bas représente le nouveau prix de marché permanent et de l'égaler immédiatement (avec les conséquences d'érosion des marges abordées à la leçon 9), une entreprise qui analyse la position de coûts probablement insoutenable du concurrent pourrait plutôt maintenir son propre prix, en prévoyant correctement que les prix agressifs du concurrent sont une poussée temporaire que sa propre structure de coûts ne lui permettra pas de maintenir indéfiniment.
 
 ## Quiz de pratique
 

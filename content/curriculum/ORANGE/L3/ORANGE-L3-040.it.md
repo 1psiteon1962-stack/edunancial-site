@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Immagina che un'impresa si trovi di fronte a un'improvvisa polemica pubblica (un problema di prodotto, il reclamo di un cliente diventato virale o un passo falso pubblico di un dirigente) che genera in pochi giorni un'attenzione negativa significativa. È uno scenario ipotetico di prova, non una previsione su un'azienda o un evento reali.
+[SCENARIO IPOTETICO — IPOTESI, NON FATTO VERIFICATO] Immagina che un'impresa si trovi di fronte a un'improvvisa polemica pubblica (un problema di prodotto, il reclamo di un cliente diventato virale o un passo falso pubblico di un dirigente) che genera in pochi giorni un'attenzione negativa significativa. È uno scenario ipotetico di prova, non una previsione su un'azienda o un evento reali.
 
 Invece di ripercorrere per te ogni conseguenza, pensa a ciò che hai imparato in questo programma e individua: quale esposizione giuridica potrebbe creare, e quali concetti specifici del percorso PURPLE si applicherebbero? Che cosa succede ai flussi di cassa se i clienti sospendono o annullano gli ordini, e in che modo l'attuale posizione di capitale circolante dell'impresa (percorso BLUE) incide sul tempo che ha per reagire? Che cosa succede all'attività di avviamento e reputazione discussa in precedenza in questo percorso, e quanto in fretta potrebbe erodersi quel valore? Quali decisioni spettano in modo specifico alla leadership, e che cosa invece si può gestire a livello operativo? E che ruolo ha la copertura assicurativa esistente dell'impresa (percorsi BLUE e PURPLE) nel fatto che una parte dell'impatto finanziario sia davvero coperta?
 

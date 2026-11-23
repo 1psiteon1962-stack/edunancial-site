@@ -30,7 +30,7 @@ Is er een beslissing die nu voor je ligt waarbij je eigen financiële situatie s
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider onder grote persoonlijke financiële druk overweegt een riskante maar direct zeer winstgevende zakelijke deal. [ASSUMPTION] Zonder te erkennen hoe zijn eigen financiële stress deze beoordeling kan beïnvloeden, onderschat de leider misschien de werkelijke risico's van de deal voor de organisatie, vertekend door een onbewuste voorkeur voor de verlichting op korte termijn die de opbrengst hem persoonlijk zou geven – een vertekening die een structurele waarborg, zoals een verplicht echt onafhankelijk perspectief voordat belangrijke beslissingen definitief worden (in lijn met Les 10), kan helpen opsporen en corrigeren.
+[ILLUSTRATIEF VOORBEELD] Een leider onder grote persoonlijke financiële druk overweegt een riskante maar direct zeer winstgevende zakelijke deal. [AANNAME] Zonder te erkennen hoe zijn eigen financiële stress deze beoordeling kan beïnvloeden, onderschat de leider misschien de werkelijke risico's van de deal voor de organisatie, vertekend door een onbewuste voorkeur voor de verlichting op korte termijn die de opbrengst hem persoonlijk zou geven – een vertekening die een structurele waarborg, zoals een verplicht echt onafhankelijk perspectief voordat belangrijke beslissingen definitief worden (in lijn met Les 10), kan helpen opsporen en corrigeren.
 
 ## Oefenquiz
 

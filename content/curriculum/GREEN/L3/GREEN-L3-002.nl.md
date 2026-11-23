@@ -26,11 +26,11 @@ Les 1 legde uit dat alleen het inkomen binnen een bepaalde schijf tegen het tari
 
 Hier is het "waarom" dit getal bijna altijd duidelijk lager is dan je hoogste marginale tarief: omdat de lagere schijven op weg naar je hoogste schijf tegen lagere tarieven worden belast, trekt het samennemen van al die tarieven tot één gemiddelde het effectieve tarief altijd onder het hoogste marginale tarief, dat alleen geldt voor de laatste dollars die je verdient.
 
-[VERIFIED FACT] Daarom wordt het effectieve tarief vaak gezien als een bruikbaardere maatstaf voor echte financiële planning en voor het vergelijken van de belastingdruk tussen inkomensniveaus of perioden: het weerspiegelt je werkelijke totale belastingdruk, en niet alleen het tarief dat toevallig geldt voor je hoogst verdiende dollar. Wie het marginale tarief aanziet voor het totale tarief, laat iemands belastingsituatie zwaarder lijken dan die werkelijk is.
+[GEVERIFIEERD FEIT] Daarom wordt het effectieve tarief vaak gezien als een bruikbaardere maatstaf voor echte financiële planning en voor het vergelijken van de belastingdruk tussen inkomensniveaus of perioden: het weerspiegelt je werkelijke totale belastingdruk, en niet alleen het tarief dat toevallig geldt voor je hoogst verdiende dollar. Wie het marginale tarief aanziet voor het totale tarief, laat iemands belastingsituatie zwaarder lijken dan die werkelijk is.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Met dezelfde vereenvoudigde schijvenopbouw als in Les 1 (10% over de eerste $10,000, 20% daarboven) betaalt iemand die $15,000 verdient $1,000 (10% van $10,000) plus $1,000 (20% van de resterende $5,000), samen $2,000 belasting. Zijn hoogste marginale tarief is 20%, maar zijn effectieve tarief is $2,000 gedeeld door $15,000, ofwel ongeveer 13,3% – duidelijk lager dan het marginale tarief van 20%, dat zijn belastingsituatie zwaarder zou kunnen laten lijken dan die werkelijk is.
+[ILLUSTRATIEF VOORBEELD] Met dezelfde vereenvoudigde schijvenopbouw als in Les 1 (10% over de eerste $10,000, 20% daarboven) betaalt iemand die $15,000 verdient $1,000 (10% van $10,000) plus $1,000 (20% van de resterende $5,000), samen $2,000 belasting. Zijn hoogste marginale tarief is 20%, maar zijn effectieve tarief is $2,000 gedeeld door $15,000, ofwel ongeveer 13,3% – duidelijk lager dan het marginale tarief van 20%, dat zijn belastingsituatie zwaarder zou kunnen laten lijken dan die werkelijk is.
 
 ## Oefenquiz
 

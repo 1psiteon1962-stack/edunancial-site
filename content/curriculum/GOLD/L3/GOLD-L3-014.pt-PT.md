@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-As economias geralmente passam por ciclos — períodos de expansão (crescimento, aumento do emprego, mais atividade económica) e períodos de contração (desaceleração, aumento do desemprego, menos atividade económica), influenciados por muitos fatores que interagem entre si. [VERIFIED FACT] O momento exato, a duração e a gravidade de cada ciclo não podem ser previstos com antecedência de forma confiável, embora o padrão geral de ciclos que se repetem ao longo do tempo seja uma observação económica bem estabelecida.
+As economias geralmente passam por ciclos — períodos de expansão (crescimento, aumento do emprego, mais atividade económica) e períodos de contração (desaceleração, aumento do desemprego, menos atividade económica), influenciados por muitos fatores que interagem entre si. [FACTO VERIFICADO] O momento exato, a duração e a gravidade de cada ciclo não podem ser previstos com antecedência de forma confiável, embora o padrão geral de ciclos que se repetem ao longo do tempo seja uma observação económica bem estabelecida.
 
 Este é o "porquê" de classes de ativos diferentes tenderem a reagir de formas diferentes no mesmo ponto desse ciclo: as ações geralmente refletem as expectativas sobre os lucros futuros das empresas, muitas vezes indo bem na expansão e sofrendo na contração. Os títulos, principalmente os de alta qualidade, às vezes vão relativamente melhor nas contrações, já que os investidores buscam uma segurança relativa e as taxas de juro muitas vezes se movem de um forma que pode beneficiar os preços dos títulos já existentes (ligando à relação entre taxas de juro e preços dos títulos vista na trilha WHITE). Os imóveis muitas vezes reagem a fatores próprios de oferta e demanda, mais locais, além das condições económicas gerais. O ouro, pelo papel discutido nas lições anteriores, às vezes vai relativamente bem em períodos de forte tensão económica ou monetária.
 
@@ -30,7 +30,7 @@ Este é o motivo de fundo do conceito de diversificação entre classes de ativo
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Durante um período de expansão económica, as ações de uma investidora vão muito bem, refletindo lucros crescentes das empresas e otimismo. Na contração económica seguinte, essas mesmas ações enfrentam dificuldades, mas a parte separada dela em títulos de alta qualidade e uma posição modesta em ouro vão comparativamente melhor nesse mesmo período, compensando em parte a queda das ações. [ASSUMPTION] Ao longo de todo o ciclo, a combinação diversificada de classes de ativos dela provavelmente traz uma experiência geral mais estável do que se ela estivesse totalmente concentrada em ações, o que mostra o valor prático do conceito de diversificação entre classes de ativos ao qual esta lição se liga.
+[EXEMPLO ILUSTRATIVO] Durante um período de expansão económica, as ações de uma investidora vão muito bem, refletindo lucros crescentes das empresas e otimismo. Na contração económica seguinte, essas mesmas ações enfrentam dificuldades, mas a parte separada dela em títulos de alta qualidade e uma posição modesta em ouro vão comparativamente melhor nesse mesmo período, compensando em parte a queda das ações. [SUPOSIÇÃO] Ao longo de todo o ciclo, a combinação diversificada de classes de ativos dela provavelmente traz uma experiência geral mais estável do que se ela estivesse totalmente concentrada em ações, o que mostra o valor prático do conceito de diversificação entre classes de ativos ao qual esta lição se liga.
 
 ## Teste de prática
 

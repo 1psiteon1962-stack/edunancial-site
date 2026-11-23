@@ -28,11 +28,11 @@ El **margen** le permite a un inversor tomar dinero prestado de una casa de corr
 
 Este es el "por qué" de que aplique el mismo efecto multiplicador: tu rendimiento porcentual se calcula en relación con tu propio efectivo invertido, no con el tamaño total de la posición; así que si la posición gana valor, esa ganancia se mide contra una base más pequeña, lo que amplifica tu rendimiento porcentual. Si la posición pierde valor, la misma matemática amplifica tu pérdida porcentual exactamente de la misma forma, y todavía debes la cantidad total prestada sin importar cómo le vaya a la inversión.
 
-[VERIFIED FACT] Los préstamos de margen normalmente cobran intereses, lo que añade un coste continuo a la posición, y las casas de corretaje exigen mantener un nivel mínimo de capital propio en la cuenta; si el valor de la cuenta baja demasiado, esto puede provocar una llamada de margen, que se cubre en la próxima lección.
+[DATO VERIFICADO] Los préstamos de margen normalmente cobran intereses, lo que añade un coste continuo a la posición, y las casas de corretaje exigen mantener un nivel mínimo de capital propio en la cuenta; si el valor de la cuenta baja demasiado, esto puede provocar una llamada de margen, que se cubre en la próxima lección.
 
 ## Ejemplo práctico
 
-[ILLUSTRATIVE EXAMPLE] Una inversor tiene 10.000 € en efectivo y usa margen para comprar 20.000 € en acciones (tomando prestados los otros 10.000 €). Si la acción sube 10%, la posición gana 2.000 €: un rendimiento de 20% sobre los 10.000 € originales de la inversor, no de 10%. Si, en cambio, la acción baja 10%, la posición pierde 2.000 €: una pérdida de 20% sobre los 10.000 € originales, y la inversor todavía debe los 10.000 € completos que tomó prestados, sin importar el nuevo valor, más bajo, de la acción.
+[EJEMPLO ILUSTRATIVO] Una inversor tiene 10.000 € en efectivo y usa margen para comprar 20.000 € en acciones (tomando prestados los otros 10.000 €). Si la acción sube 10%, la posición gana 2.000 €: un rendimiento de 20% sobre los 10.000 € originales de la inversor, no de 10%. Si, en cambio, la acción baja 10%, la posición pierde 2.000 €: una pérdida de 20% sobre los 10.000 € originales, y la inversor todavía debe los 10.000 € completos que tomó prestados, sin importar el nuevo valor, más bajo, de la acción.
 
 ## Prueba de práctica
 

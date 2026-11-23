@@ -28,7 +28,7 @@ Em vez de responder a fundo a cada uma dessas questões aqui, pense: se está a 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio começa a fazer marketing direto para clientes num novo país, focado principalmente em traduzir a mensagem e escolher os canais populares no local. [ASSUMPTION] Só depois de gerar vendas significativas o negócio descobre que pode ter criado obrigações tributárias nesse país (retomando a discussão sobre nexo da trilha GREEN), que algumas das afirmações de marketing dele não cumprem as regras de publicidade específicas desse país (retomando a trilha PURPLE) e que as oscilações do câmbio reduziram bastante o valor real da receita no exterior depois de convertida (retomando a trilha WHITE) — três questões diferentes, de três áreas diferentes deste currículo, todas causadas por uma única decisão de expansão do marketing planeada como se fosse só uma questão de marketing.
+[EXEMPLO ILUSTRATIVO] Um negócio começa a fazer marketing direto para clientes num novo país, focado principalmente em traduzir a mensagem e escolher os canais populares no local. [SUPOSIÇÃO] Só depois de gerar vendas significativas o negócio descobre que pode ter criado obrigações tributárias nesse país (retomando a discussão sobre nexo da trilha GREEN), que algumas das afirmações de marketing dele não cumprem as regras de publicidade específicas desse país (retomando a trilha PURPLE) e que as oscilações do câmbio reduziram bastante o valor real da receita no exterior depois de convertida (retomando a trilha WHITE) — três questões diferentes, de três áreas diferentes deste currículo, todas causadas por uma única decisão de expansão do marketing planeada como se fosse só uma questão de marketing.
 
 ## Teste de prática
 

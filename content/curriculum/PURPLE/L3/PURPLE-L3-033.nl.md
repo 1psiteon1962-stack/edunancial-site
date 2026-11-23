@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Volledig eigenaar zijn van onroerend goed, met volledig juridisch eigendom, lijkt misschien te betekenen dat je het helemaal vrij kunt gebruiken zoals je wilt. Hier is het "waarom" dat in de meeste rechtsgebieden niet klopt: [VERIFIED FACT] lokale **bestemmingsregels** (bijvoorbeeld een bestemmingsplan of omgevingsplan) verdelen de grond binnen een gebied over het algemeen in verschillende bestemmingen – wonen, bedrijvigheid, industrie en diverse subcategorieën – elk met specifieke regels over welke soorten gebruik, bouwwerken en activiteiten zijn toegestaan, ongeacht wat een individuele eigenaar zelf met zijn grond wil doen.
+Volledig eigenaar zijn van onroerend goed, met volledig juridisch eigendom, lijkt misschien te betekenen dat je het helemaal vrij kunt gebruiken zoals je wilt. Hier is het "waarom" dat in de meeste rechtsgebieden niet klopt: [GEVERIFIEERD FEIT] lokale **bestemmingsregels** (bijvoorbeeld een bestemmingsplan of omgevingsplan) verdelen de grond binnen een gebied over het algemeen in verschillende bestemmingen – wonen, bedrijvigheid, industrie en diverse subcategorieën – elk met specifieke regels over welke soorten gebruik, bouwwerken en activiteiten zijn toegestaan, ongeacht wat een individuele eigenaar zelf met zijn grond wil doen.
 
 Hier is het algemene beleidsdoel achter deze beperking van individuele eigendomsrechten: bestemmingsregels zijn over het algemeen bedoeld om het belang van een individuele eigenaar om zijn grond vrij te gebruiken in evenwicht te brengen met het bredere belang van de gemeenschap bij voorspelbaar, verenigbaar grondgebruik. Ze voorkomen bijvoorbeeld dat er een industrieel bedrijf midden in een bestaande woonwijk wordt gebouwd, wat de waarde, veiligheid en het karakter van de omliggende woningen sterk kan aantasten – ook al zou het precies zijn wat een specifieke eigenaar op zijn eigen grond wilde bouwen.
 
@@ -30,7 +30,7 @@ Daarom maakt de specifieke bestemming van een stuk grond veel uit voor wat een e
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een eigenaar van een perceel met een woonbestemming wil op dat perceel een commercieel bedrijf beginnen, in de veronderstelling dat ze, omdat ze volledig eigenaar is, het mag gebruiken zoals ze wil. [ASSUMPTION] Onder de toepasselijke woonbestemming is dit specifieke commerciële gebruik waarschijnlijk verboden, ongeacht haar volledige eigendom – ze zou over het algemeen een formele aanvraag voor een afwijking of uitzondering moeten indienen bij de bevoegde lokale overheid, en er is geen garantie dat die aanvraag wordt goedgekeurd. Dit laat zien waarom volledig eigendom niet gelijkstaat aan onbeperkte gebruiksvrijheid.
+[ILLUSTRATIEF VOORBEELD] Een eigenaar van een perceel met een woonbestemming wil op dat perceel een commercieel bedrijf beginnen, in de veronderstelling dat ze, omdat ze volledig eigenaar is, het mag gebruiken zoals ze wil. [AANNAME] Onder de toepasselijke woonbestemming is dit specifieke commerciële gebruik waarschijnlijk verboden, ongeacht haar volledige eigendom – ze zou over het algemeen een formele aanvraag voor een afwijking of uitzondering moeten indienen bij de bevoegde lokale overheid, en er is geen garantie dat die aanvraag wordt goedgekeurd. Dit laat zien waarom volledig eigendom niet gelijkstaat aan onbeperkte gebruiksvrijheid.
 
 ## Oefenquiz
 

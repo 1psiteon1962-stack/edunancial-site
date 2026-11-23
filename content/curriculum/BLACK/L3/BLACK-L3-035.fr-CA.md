@@ -30,7 +30,7 @@ Y a-t-il en ce moment dans ton organisation une question visible sur laquelle tu
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader choisit de ne pas aborder publiquement un conflit visible et continu entre deux membres de l'équipe, en croyant que rester neutre et silencieux évite de prendre parti ou d'aggraver la situation. [ASSUMPTION] Les membres de l'équipe, qui observent ce silence prolongé, l'interprètent non pas comme de la neutralité, mais comme une tolérance tacite du conflit en cours — en écho au point de la leçon 22 sur la tolérance qui façonne la culture —, ce qui montre pourquoi l'« inaction neutre » voulue par le leader a en fait fonctionné comme un message précis et concret selon lequel le conflit pouvait se poursuivre.
+[EXEMPLE ILLUSTRATIF] Un leader choisit de ne pas aborder publiquement un conflit visible et continu entre deux membres de l'équipe, en croyant que rester neutre et silencieux évite de prendre parti ou d'aggraver la situation. [HYPOTHÈSE] Les membres de l'équipe, qui observent ce silence prolongé, l'interprètent non pas comme de la neutralité, mais comme une tolérance tacite du conflit en cours — en écho au point de la leçon 22 sur la tolérance qui façonne la culture —, ce qui montre pourquoi l'« inaction neutre » voulue par le leader a en fait fonctionné comme un message précis et concret selon lequel le conflit pouvait se poursuivre.
 
 ## Quiz de pratique
 

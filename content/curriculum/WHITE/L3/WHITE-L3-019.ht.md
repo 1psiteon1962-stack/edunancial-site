@@ -30,11 +30,11 @@ Obligasyon peye yon to enterè fiks (koupon an) yo fikse lè yo emèt yo. Men, t
 
 Si to enterè yo monte apre yo fin emèt yon obligasyon, nouvo obligasyon sòti ak peman fiks ki pi wo pase to fiks ansyen obligasyon an — sa ki fè ansyen obligasyon ki peye mwens lan mwens atiran lè w konpare yo. Pou ansyen obligasyon an rete konpetitif pou yon moun ki ta ka achte l, pri li oblije desann, sa ki an efè ogmante rannman li (rannman an pa rapò ak pri li) pou l koresponn ak kondisyon mache aktyèl yo. Se kontrè a ki rive si to enterè yo desann: peman fiks ansyen obligasyon an, ki relativman pi wo, parèt pi atiran pase sa ki disponib tou nèf, kidonk pri li monte.
 
-[VERIFIED FACT] Relasyon sa a aplike a pri yon obligasyon si ou vann li anvan echeyans — yon envestisè ki kenbe yon obligasyon jiska tout echeyans li toujou resevwa peman fiks orijinal yo ak ranbousman prensipal la jan yo te pwomèt (si pa gen defo peman), kèlkeswa sa ki rive ak to enterè yo oswa pri obligasyon an pandan tan sa a.
+[FÈ VERIFYE] Relasyon sa a aplike a pri yon obligasyon si ou vann li anvan echeyans — yon envestisè ki kenbe yon obligasyon jiska tout echeyans li toujou resevwa peman fiks orijinal yo ak ranbousman prensipal la jan yo te pwomèt (si pa gen defo peman), kèlkeswa sa ki rive ak to enterè yo oswa pri obligasyon an pandan tan sa a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè kenbe yon obligasyon ki peye yon to fiks 3%. Apre sa, to enterè nan mache a an jeneral monte, e nouvo obligasyon ki sanble ofri 5% kounye a. Si li te vle vann obligasyon 3% li a anvan echeyans, li ta bezwen ofri l nan yon pri ki pi ba pase sa li te peye a, paske sinon yon achtè ta ka senpleman achte yon nouvo obligasyon 5% pito — se ajisteman pri a ki fè ansyen obligasyon li a, ki peye mwens, vin konpetitif ankò. Si okontrè li kenbe obligasyon an jiska echeyans, li kontinye resevwa peman 3% orijinal yo ak prensipal li tounen jan yo te pwomèt, san sa ki te rive ak to ki an vigè yo pandan tan sa a pa afekte l.
+[EGZANP ILISTRATIF] Yon envestisè kenbe yon obligasyon ki peye yon to fiks 3%. Apre sa, to enterè nan mache a an jeneral monte, e nouvo obligasyon ki sanble ofri 5% kounye a. Si li te vle vann obligasyon 3% li a anvan echeyans, li ta bezwen ofri l nan yon pri ki pi ba pase sa li te peye a, paske sinon yon achtè ta ka senpleman achte yon nouvo obligasyon 5% pito — se ajisteman pri a ki fè ansyen obligasyon li a, ki peye mwens, vin konpetitif ankò. Si okontrè li kenbe obligasyon an jiska echeyans, li kontinye resevwa peman 3% orijinal yo ak prensipal li tounen jan yo te pwomèt, san sa ki te rive ak to ki an vigè yo pandan tan sa a pa afekte l.
 
 ## Egzamen pratik
 

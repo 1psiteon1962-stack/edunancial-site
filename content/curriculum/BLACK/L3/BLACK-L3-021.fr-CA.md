@@ -30,7 +30,7 @@ Regarde ton agenda de la semaine dernière. Quels engagements auraient survécu 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader évalue soigneusement chaque dépense financière importante au moyen d'une analyse coûts-avantages rigoureuse, tout en acceptant presque chaque demande de réunion et chaque engagement à son agenda sans appliquer quoi que ce soit qui ressemble au même examen. [ASSUMPTION] En appliquant précisément au temps la même discipline de coût d'opportunité que celle des parcours GOLD et ORANGE, ce leader reconnaît que bien des engagements à son agenda ne survivraient pas à la même évaluation qu'une dépense financière comparable — ce qui l'amène à adopter une approche plus délibérée et disciplinée de la répartition de son temps, qui traite les heures avec la même rigueur que celle autrefois réservée aux dollars.
+[EXEMPLE ILLUSTRATIF] Un leader évalue soigneusement chaque dépense financière importante au moyen d'une analyse coûts-avantages rigoureuse, tout en acceptant presque chaque demande de réunion et chaque engagement à son agenda sans appliquer quoi que ce soit qui ressemble au même examen. [HYPOTHÈSE] En appliquant précisément au temps la même discipline de coût d'opportunité que celle des parcours GOLD et ORANGE, ce leader reconnaît que bien des engagements à son agenda ne survivraient pas à la même évaluation qu'une dépense financière comparable — ce qui l'amène à adopter une approche plus délibérée et disciplinée de la répartition de son temps, qui traite les heures avec la même rigueur que celle autrefois réservée aux dollars.
 
 ## Quiz de pratique
 

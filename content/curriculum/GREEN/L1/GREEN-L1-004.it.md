@@ -34,11 +34,11 @@ Ci sono tre fonti comuni di reddito. La prima è lo stipendio che ricevi come di
 
 Non tutti i redditi sono trattati allo stesso modo. Molti sistemi usano regole diverse per stipendio, utile d'impresa e investimenti. Vedremo queste differenze nelle prossime lezioni. Per ora ricorda: per un'attività, l'imposta di solito si applica all'utile, non a tutto ciò che entra in cassa.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Carlo ha un food truck. Ha incassato $40.000 nell'anno e speso $30.000 per ingredienti, gas e manutenzione. Su quanto paga probabilmente l'imposta sul reddito?
 

@@ -30,7 +30,7 @@ Quelles tâches ou décisions précises de ton entreprise exigent actuellement t
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un propriétaire d'entreprise gère personnellement chaque relation client importante, chaque décision de prix et chaque contrôle de la qualité, ce qui veut dire que la production totale de l'entreprise est plafonnée par le nombre d'heures que cette seule personne peut travailler. [ASSUMPTION] En documentant les critères de décision utilisés pour fixer les prix, en formant un membre de l'équipe à gérer les relations avec la clientèle à l'aide d'un guide clair et en établissant un système de contrôle de la qualité qui n'exige pas que le propriétaire examine personnellement chaque article, l'entreprise n'est plus limitée à ce qu'une seule personne peut faire — en écho direct au principe selon lequel les systèmes permettent la croissance, au cœur de l'outil pédagogique fondamental de ce programme.
+[EXEMPLE ILLUSTRATIF] Un propriétaire d'entreprise gère personnellement chaque relation client importante, chaque décision de prix et chaque contrôle de la qualité, ce qui veut dire que la production totale de l'entreprise est plafonnée par le nombre d'heures que cette seule personne peut travailler. [HYPOTHÈSE] En documentant les critères de décision utilisés pour fixer les prix, en formant un membre de l'équipe à gérer les relations avec la clientèle à l'aide d'un guide clair et en établissant un système de contrôle de la qualité qui n'exige pas que le propriétaire examine personnellement chaque article, l'entreprise n'est plus limitée à ce qu'une seule personne peut faire — en écho direct au principe selon lequel les systèmes permettent la croissance, au cœur de l'outil pédagogique fondamental de ce programme.
 
 ## Quiz de pratique
 

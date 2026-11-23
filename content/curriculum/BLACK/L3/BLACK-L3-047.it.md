@@ -30,7 +30,7 @@ Per la tua attuale priorità strategica principale, quali prove specifiche, se l
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sicuro della direzione strategica attuale ha costruito un team con una vera sicurezza psicologica e una storia di dissenso, come nelle Lezioni 11 e 19. [ASSUMPTION] Invece di aspettare semplicemente che le prove contrarie emergano per caso attraverso questa struttura, questo leader chiede al team in modo attivo e specifico: "che cosa ci direbbe che questa strategia non funziona, e abbiamo verificato di recente proprio quelle prove?". Unisce così le condizioni strutturali che questo percorso ha costruito all'impegno deliberato e attivo del leader stesso nel cercare le smentite, invece di aspettarle passivamente o di filtrarle senza accorgersene.
+[ESEMPIO ILLUSTRATIVO] Un leader sicuro della direzione strategica attuale ha costruito un team con una vera sicurezza psicologica e una storia di dissenso, come nelle Lezioni 11 e 19. [IPOTESI] Invece di aspettare semplicemente che le prove contrarie emergano per caso attraverso questa struttura, questo leader chiede al team in modo attivo e specifico: "che cosa ci direbbe che questa strategia non funziona, e abbiamo verificato di recente proprio quelle prove?". Unisce così le condizioni strutturali che questo percorso ha costruito all'impegno deliberato e attivo del leader stesso nel cercare le smentite, invece di aspettarle passivamente o di filtrarle senza accorgersene.
 
 ## Quiz di esercitazione
 

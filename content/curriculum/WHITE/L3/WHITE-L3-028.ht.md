@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" sa defòme desizyon envestisman yo: apre yon long peryòd kote mache a monte anpil, prejije sa ki fèk pase ka fè rannman fò k ap kontinye yo sanble se sitiyasyon nòmal la, sa n ap tann — sa mennen envestisè yo pran plis risk oswa envesti pi agresivman juste nan moman kondisyon yo ka ap chanje. Apre yon long bès, menm prejije a ka fè bès k ap kontinye yo sanble inevitab, sa mennen envestisè yo vann oswa evite envesti juste nan moman modèl istorik yo (ak diskisyon Leson 1 an sou pwen "ba" ki sanble evidan sèlman apre koutfè) ta ka sijere yon rekiperasyon te ka vini finalman.
 
-[VERIFIED FACT] Prejije sa a se yon modèl ki byen dokimante nan rechèch sou konpòtman, e li diferan de yon mizajou rasyonèl atant yo ki baze sou enfòmasyon ki vrèman nouvo — prejije sa ki fèk pase bay modèl *ki pi resan an* twòp pwa espesyalman, olye li konsidere tout seri rezilta istorik yo ak diferan chans yo genyen pou rive.
+[FÈ VERIFYE] Prejije sa a se yon modèl ki byen dokimante nan rechèch sou konpòtman, e li diferan de yon mizajou rasyonèl atant yo ki baze sou enfòmasyon ki vrèman nouvo — prejije sa ki fèk pase bay modèl *ki pi resan an* twòp pwa espesyalman, olye li konsidere tout seri rezilta istorik yo ak diferan chans yo genyen pou rive.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Apre plizyè ane kote mache a monte fò e regilye, yon envestisè vin santi vitès kwasans sa a se atant nòmal la pou pita, sa mennen l pran plis risk envestisman pase sa li te gen entansyon okòmansman. Apre yon gwo bès ki vini apre, menm santiman an vire lanvè — bès ki fèk pase a kounye a sanble li pral senpleman kontinye, sa mennen l vann toupre pi ba pwen an epi evite reenvesti menm lè kondisyon yo kòmanse estabilize. [ASSUMPTION] Nan toude ka yo, atant li yo te fòme twòp pa peryòd ki pi resan an olye yon pèspektiv istorik pi laj sou jan mache yo deplase atravè sik monte ak desann yo avèk tan.
+[EGZANP ILISTRATIF] Apre plizyè ane kote mache a monte fò e regilye, yon envestisè vin santi vitès kwasans sa a se atant nòmal la pou pita, sa mennen l pran plis risk envestisman pase sa li te gen entansyon okòmansman. Apre yon gwo bès ki vini apre, menm santiman an vire lanvè — bès ki fèk pase a kounye a sanble li pral senpleman kontinye, sa mennen l vann toupre pi ba pwen an epi evite reenvesti menm lè kondisyon yo kòmanse estabilize. [SIPOZISYON] Nan toude ka yo, atant li yo te fòme twòp pa peryòd ki pi resan an olye yon pèspektiv istorik pi laj sou jan mache yo deplase atravè sik monte ak desann yo avèk tan.
 
 ## Egzamen pratik
 

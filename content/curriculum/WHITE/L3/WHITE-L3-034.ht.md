@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 **Repatisyon byen** (asset allocation) se fason yon pòtfolyo divize ant gwo kategori envestisman — aksyon, obligasyon, imobilye, kach, ak lòt — olye ki tit espesifik ou chwazi nan chak kategori.
 
-Men "poukisa" repatisyon an gen tandans pi enpòtan pase chwa endividyèl yo pou pifò envestisè alontèm: [VERIFIED FACT] yon seri rechèch akademik ak nan endistri a sou rannman pòtfolyo jeneralman jwenn desizyon sou gwo repatisyon byen yo esplike yon gwo pati nan varyasyon pèfòmans pòtfolyo alontèm ant diferan envestisè, plis pase tit espesifik yo chwazi nan chak kategori byen — byenke rezilta ak metòd yo varye ant diferan etid, e chwa tit endividyèl ka toujou afekte rezilta yo yon fason ki enpòtan andedan yon repatisyon done.
+Men "poukisa" repatisyon an gen tandans pi enpòtan pase chwa endividyèl yo pou pifò envestisè alontèm: [FÈ VERIFYE] yon seri rechèch akademik ak nan endistri a sou rannman pòtfolyo jeneralman jwenn desizyon sou gwo repatisyon byen yo esplike yon gwo pati nan varyasyon pèfòmans pòtfolyo alontèm ant diferan envestisè, plis pase tit espesifik yo chwazi nan chak kategori byen — byenke rezilta ak metòd yo varye ant diferan etid, e chwa tit endividyèl ka toujou afekte rezilta yo yon fason ki enpòtan andedan yon repatisyon done.
 
 Sa konekte ak konsèp ki kouvri atravè tras sa a: piske divèsifikasyon andedan yon kategori byen (Leson 2 ak 3) deja diminye anpil nan risk ki espesifik pou chak konpayi, pi gwo faktè ki rete pou detèmine karaktè risk ak rannman total yon pòtfolyo se gwo melanj ant kategori byen ki vrèman gen karakteristik risk ak rannman diferan — aksyon jeneralman ofri plis potansyèl kwasans alontèm ak plis volatilite, obligasyon jeneralman ofri plis estabilite ak mwens potansyèl kwasans alontèm, elatriye.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] De envestisè toude gen pòtfolyo ki byen divèsifye andedan kategori byen yo chwazi yo, men Envestisè A mete 80% nan aksyon ak 20% nan obligasyon, pandan Envestisè B mete 30% nan aksyon ak 70% nan obligasyon. [ASSUMPTION] Sou yon long peryòd, diferans nan pèfòmans total ak volatilite pòtfolyo yo gen anpil chans soti an gwo pati nan diferans repatisyon jeneral sa a, olye nan aksyon oswa obligasyon endividyèl espesifik chak envestisè te chwazi andedan repatisyon pa yo — menm si toude te fè chwa endividyèl ki rezonab.
+[EGZANP ILISTRATIF] De envestisè toude gen pòtfolyo ki byen divèsifye andedan kategori byen yo chwazi yo, men Envestisè A mete 80% nan aksyon ak 20% nan obligasyon, pandan Envestisè B mete 30% nan aksyon ak 70% nan obligasyon. [SIPOZISYON] Sou yon long peryòd, diferans nan pèfòmans total ak volatilite pòtfolyo yo gen anpil chans soti an gwo pati nan diferans repatisyon jeneral sa a, olye nan aksyon oswa obligasyon endividyèl espesifik chak envestisè te chwazi andedan repatisyon pa yo — menm si toude te fè chwa endividyèl ki rezonab.
 
 ## Egzamen pratik
 

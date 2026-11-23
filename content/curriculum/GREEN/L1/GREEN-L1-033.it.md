@@ -34,11 +34,11 @@ La differenza con la plusvalenza è che ricevi dividendi e interessi mentre mant
 
 Per questo di solito si tassano nell'anno in cui li ricevi, anche se reinvesti il denaro. Molti sistemi trattano interessi e dividendi in modo diverso tra loro, e alcuni tipi di dividendi o titoli possono avere un trattamento speciale.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Letizia ha azioni che hanno pagato $200 di dividendi e un conto deposito che ha reso $80 di interessi. Ha venduto qualcosa?
 

@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Esta trilha tratou bastante dos contratos como acordos geralmente negociáveis entre as partes. Este é o "porquê" de um contrato de locação residencial ser uma exceção importante à negociação contratual totalmente livre: [VERIFIED FACT] muitas jurisdições têm leis específicas sobre locação que estabelecem proteções e exigências mínimas obrigatórias — em áreas como padrões de habitabilidade, tratamento do depósito caução, exigências de aviso prévio para a entrada no imóvel ou o fim da locação e procedimentos específicos de despejo (vistos na próxima lição) — que geralmente se aplicam independentemente do que um contrato de locação específico possa dizer.
+Esta trilha tratou bastante dos contratos como acordos geralmente negociáveis entre as partes. Este é o "porquê" de um contrato de locação residencial ser uma exceção importante à negociação contratual totalmente livre: [FACTO VERIFICADO] muitas jurisdições têm leis específicas sobre locação que estabelecem proteções e exigências mínimas obrigatórias — em áreas como padrões de habitabilidade, tratamento do depósito caução, exigências de aviso prévio para a entrada no imóvel ou o fim da locação e procedimentos específicos de despejo (vistos na próxima lição) — que geralmente se aplicam independentemente do que um contrato de locação específico possa dizer.
 
 Este é o "porquê" de essas proteções específicas geralmente não poderem ser simplesmente renunciadas ou afastadas por contrato, ao contrário de muitas outras cláusulas contratuais comuns: as leis de locação geralmente existem para proteger os inquilinos, muitas vezes considerados a parte com menos poder de negociação nessa relação específica, de cláusulas que, de outra forma, poderiam ser muito desequilibradas — uma cláusula do contrato que tente fazer o inquilino renunciar a um direito garantido por lei (como o direito a um imóvel habitável) pode simplesmente não ter validade, independentemente de o inquilino ter aparentemente concordado com ela por escrito.
 
@@ -30,7 +30,7 @@ Este é o "porquê" de essas proteções específicas geralmente não poderem se
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um contrato de locação traz uma cláusula que tenta fazer o inquilino renunciar ao direito a um imóvel habitável, ou que tenta contornar os prazos de aviso prévio exigidos por lei para a entrada do locador no imóvel. [ASSUMPTION] Mesmo que o inquilino tenha assinado esse contrato, um tribunal que aplique a lei de locação pertinente pode considerar essas cláusulas específicas sem validade, já que elas tentam afastar proteções que a lei geralmente garante independentemente do que o contrato diga — o que mostra por que é a lei, e não só o contrato, que, no fim, rege aspectos importantes desse tipo específico de relação.
+[EXEMPLO ILUSTRATIVO] Um contrato de locação traz uma cláusula que tenta fazer o inquilino renunciar ao direito a um imóvel habitável, ou que tenta contornar os prazos de aviso prévio exigidos por lei para a entrada do locador no imóvel. [SUPOSIÇÃO] Mesmo que o inquilino tenha assinado esse contrato, um tribunal que aplique a lei de locação pertinente pode considerar essas cláusulas específicas sem validade, já que elas tentam afastar proteções que a lei geralmente garante independentemente do que o contrato diga — o que mostra por que é a lei, e não só o contrato, que, no fim, rege aspectos importantes desse tipo específico de relação.
 
 ## Teste de prática
 

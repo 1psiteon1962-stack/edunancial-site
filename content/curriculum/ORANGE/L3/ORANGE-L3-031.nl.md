@@ -30,7 +30,7 @@ Hoe zou een echt vroegtijdig waarschuwingssysteem voor een probleem met klantbeh
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Het klantverloop van een onderneming begint in een bepaalde maand te stijgen, maar omdat de overgebleven en nieuw geworven klanten nog omzet opleveren, laat het totale omzetcijfer pas enkele maanden later een duidelijke daling zien. [ASSUMPTION] Een team dat alleen het achterlopende omzetcijfer volgt, merkt pas een probleem op als die latere daling verschijnt, en tegen die tijd heeft het onderliggende probleem dat klanten wegjaagt al maanden kunnen verergeren. Een team dat klantverloop rechtstreeks volgt als voorlopende indicator, had hetzelfde probleem maanden eerder ontdekt, met veel meer tijd om het te onderzoeken en te reageren voordat het volledig in de omzet zichtbaar werd.
+[ILLUSTRATIEF VOORBEELD] Het klantverloop van een onderneming begint in een bepaalde maand te stijgen, maar omdat de overgebleven en nieuw geworven klanten nog omzet opleveren, laat het totale omzetcijfer pas enkele maanden later een duidelijke daling zien. [AANNAME] Een team dat alleen het achterlopende omzetcijfer volgt, merkt pas een probleem op als die latere daling verschijnt, en tegen die tijd heeft het onderliggende probleem dat klanten wegjaagt al maanden kunnen verergeren. Een team dat klantverloop rechtstreeks volgt als voorlopende indicator, had hetzelfde probleem maanden eerder ontdekt, met veel meer tijd om het te onderzoeken en te reageren voordat het volledig in de omzet zichtbaar werd.
 
 ## Oefenquiz
 

@@ -36,7 +36,7 @@ Pagare un professionista non è un costo da evitare. È come un'assicurazione co
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Claudio apre un'impresa e assume due dipendenti. Dice: "Il commercialista costa, faccio tutto da solo." Ha senso?
 

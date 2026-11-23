@@ -30,7 +30,7 @@ Is er op dit moment onopgeloste spanning of onenigheid in je team die je hebt om
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider merkt groeiende spanning tussen twee teamleden, maar gaat die niet direct aan en houdt zichzelf voor dat hij de situatie ruimte geeft om vanzelf op te lossen. [ASSUMPTION] Maanden later is de spanning verhard tot een openlijk conflict dat de dynamiek en productiviteit van het hele team raakt – een probleem dat veel makkelijker aan te pakken was geweest toen het net ontstond. Dit laat zien dat het "geduld" van de leider precies zo werkte als het opstapelende uitstelpatroon waarvoor Les 5 waarschuwde, alleen nu toegepast op een conflict tussen mensen in plaats van op een ontslagbeslissing.
+[ILLUSTRATIEF VOORBEELD] Een leider merkt groeiende spanning tussen twee teamleden, maar gaat die niet direct aan en houdt zichzelf voor dat hij de situatie ruimte geeft om vanzelf op te lossen. [AANNAME] Maanden later is de spanning verhard tot een openlijk conflict dat de dynamiek en productiviteit van het hele team raakt – een probleem dat veel makkelijker aan te pakken was geweest toen het net ontstond. Dit laat zien dat het "geduld" van de leider precies zo werkte als het opstapelende uitstelpatroon waarvoor Les 5 waarschuwde, alleen nu toegepast op een conflict tussen mensen in plaats van op een ontslagbeslissing.
 
 ## Oefenquiz
 

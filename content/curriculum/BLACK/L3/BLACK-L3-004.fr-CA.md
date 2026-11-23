@@ -30,7 +30,7 @@ Comment la rigueur de ton processus d'embauche actuel se compare-t-elle à celle
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise mène une évaluation poussée, obtient plusieurs approbations et fait une analyse coûts-avantages attentive avant d'acheter un équipement d'un montant précis, alors que son processus d'embauche pour un poste dont la durée prévue est de plusieurs années et dont le coût total de rémunération dépasse de loin cet achat d'équipement repose sur une évaluation beaucoup plus légère et moins structurée. [ASSUMPTION] Compte tenu de l'effet de levier exceptionnellement élevé et de l'effet cumulatif de l'embauche, ce décalage de rigueur d'évaluation représente un vrai sous-investissement dans la décision qui comporte en réalité des enjeux financiers totaux plus importants et des conséquences à plus long terme que l'achat d'équipement qui a reçu un examen bien plus attentif.
+[EXEMPLE ILLUSTRATIF] Une entreprise mène une évaluation poussée, obtient plusieurs approbations et fait une analyse coûts-avantages attentive avant d'acheter un équipement d'un montant précis, alors que son processus d'embauche pour un poste dont la durée prévue est de plusieurs années et dont le coût total de rémunération dépasse de loin cet achat d'équipement repose sur une évaluation beaucoup plus légère et moins structurée. [HYPOTHÈSE] Compte tenu de l'effet de levier exceptionnellement élevé et de l'effet cumulatif de l'embauche, ce décalage de rigueur d'évaluation représente un vrai sous-investissement dans la décision qui comporte en réalité des enjeux financiers totaux plus importants et des conséquences à plus long terme que l'achat d'équipement qui a reçu un examen bien plus attentif.
 
 ## Quiz de pratique
 

@@ -28,13 +28,13 @@ A Lição 37 explicou que os investidores muitas vezes querem reinvestir rápido
 
 Veja o "porquê" de essa regra existir: sem ela, um investidor poderia vender um investimento só para realizar uma perda fiscal e, logo em seguida, recomprar exatamente o mesmo investimento (ou um substancialmente idêntico), mantendo na prática exatamente a mesma posição e ainda assim declarando um benefício fiscal. Muitas autoridades fiscais consideram isso um abuso do conceito de realização de perdas, e não uma mudança real na posição de investimento.
 
-[VERIFIED FACT] Os mecanismos específicos de uma regra do tipo wash sale (incluindo o prazo exato durante o qual recomprar o mesmo ativo ou um substancialmente idêntico anula a perda, e como "substancialmente idêntico" é definido) variam de país para país e são estabelecidos por leis tributárias específicas. Por isso, esta é uma área em que uma orientação atual e específica para cada país importa mais do que suposições gerais.
+[FATO VERIFICADO] Os mecanismos específicos de uma regra do tipo wash sale (incluindo o prazo exato durante o qual recomprar o mesmo ativo ou um substancialmente idêntico anula a perda, e como "substancialmente idêntico" é definido) variam de país para país e são estabelecidos por leis tributárias específicas. Por isso, esta é uma área em que uma orientação atual e específica para cada país importa mais do que suposições gerais.
 
 É por isso que o tax-loss harvesting, como apresentado na Lição 37, normalmente envolve reinvestir em um investimento realmente diferente (embora parecido em estratégia ou exposição), e não no mesmo investimento, para cumprir esse tipo de regra e ainda manter uma posição de mercado comparável.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora vende um fundo com prejuízo para colher o benefício fiscal e, logo no dia seguinte, recompra exatamente o mesmo fundo, com a intenção de declarar a perda no seu imposto de renda. [ASSUMPTION] Se uma regra do tipo wash sale no país dela anular perdas em recompras do mesmo ativo ou de um substancialmente idêntico dentro de um certo prazo, essa transação pode não gerar o benefício fiscal pretendido: a perda pode ser anulada por essa regra, apesar da intenção dela de colhê-la. Comprar, em vez disso, um fundo realmente diferente, embora com posicionamento parecido, normalmente evitaria esse problema específico, sujeito às regras aplicáveis.
+[EXEMPLO ILUSTRATIVO] Uma investidora vende um fundo com prejuízo para colher o benefício fiscal e, logo no dia seguinte, recompra exatamente o mesmo fundo, com a intenção de declarar a perda no seu imposto de renda. [SUPOSIÇÃO] Se uma regra do tipo wash sale no país dela anular perdas em recompras do mesmo ativo ou de um substancialmente idêntico dentro de um certo prazo, essa transação pode não gerar o benefício fiscal pretendido: a perda pode ser anulada por essa regra, apesar da intenção dela de colhê-la. Comprar, em vez disso, um fundo realmente diferente, embora com posicionamento parecido, normalmente evitaria esse problema específico, sujeito às regras aplicáveis.
 
 ## Teste de prática
 

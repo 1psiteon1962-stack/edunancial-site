@@ -34,11 +34,11 @@ Un paradiso fiscale è un territorio con imposte molto basse, o nulle, su certi 
 
 C'è una differenza importante: usare le regole di altri Paesi in modo dichiarato e legale è diverso dal nascondere denaro per non pagare l'imposta dovuta. Il primo può essere consentito; il secondo è reato nella maggior parte dei luoghi. Molti Paesi hanno anche creato regole e accordi per limitare gli abusi. Il tema è dibattuto pubblicamente, e questa lezione presenta il concetto senza prendere posizione.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Perché un piccolo Paese offrirebbe imposte molto basse alle imprese?
 

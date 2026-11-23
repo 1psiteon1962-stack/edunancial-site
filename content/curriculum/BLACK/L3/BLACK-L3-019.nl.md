@@ -30,7 +30,7 @@ Kijk naar je huidige leiderschapsteam of je naaste adviseurs. Wie van hen is het
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider merkt dat elk voorstel aan zijn leiderschapsteam snel en unaniem wordt goedgekeurd, en ziet dat eerst als bewijs van een sterk, eensgezind team. [ASSUMPTION] Bij nader inzien, in aansluiting op de zorg over psychologische veiligheid uit Les 11, beseft deze leider dat zo'n makkelijke instemming eerder kan wijzen op een team dat heeft geleerd dat tegenspraak niet welkom is dan op echte overeenstemming. Dat leidt tot een bewuste inspanning om teamleden te werven die bekendstaan om hun onafhankelijke oordeel en om afwijkende meningen actief uit te nodigen en te belonen, in plaats van gemakkelijke instemming te blijven zien als teken van een sterk team.
+[ILLUSTRATIEF VOORBEELD] Een leider merkt dat elk voorstel aan zijn leiderschapsteam snel en unaniem wordt goedgekeurd, en ziet dat eerst als bewijs van een sterk, eensgezind team. [AANNAME] Bij nader inzien, in aansluiting op de zorg over psychologische veiligheid uit Les 11, beseft deze leider dat zo'n makkelijke instemming eerder kan wijzen op een team dat heeft geleerd dat tegenspraak niet welkom is dan op echte overeenstemming. Dat leidt tot een bewuste inspanning om teamleden te werven die bekendstaan om hun onafhankelijke oordeel en om afwijkende meningen actief uit te nodigen en te belonen, in plaats van gemakkelijke instemming te blijven zien als teken van een sterk team.
 
 ## Oefenquiz
 

@@ -28,11 +28,11 @@ Een **glijpad** (glide path) is een vooraf vastgesteld plan om de assetallocatie
 
 Dit is het "waarom" deze timing belangrijk is, en het sluit direct aan bij het volgorderisico van rendementen uit Les 15: een portefeuille waar je nog vele jaren niet aan hoeft te komen, heeft meer tijd om te herstellen van een daling. Die kan zich dus meestal veroorloven om meer aandelen aan te houden, vanwege hun hogere groeipotentieel op lange termijn. Naarmate de doeldatum dichterbij komt en de tijd om van een mogelijke daling te herstellen kleiner wordt, verkleint een geleidelijke verschuiving naar stabielere bezittingen (zoals obligaties) het risico op een slecht getimede, grote daling vlak voordat je het geld nodig hebt. Dat is precies het risico dat in Les 15 werd beschreven.
 
-[VERIFIED FACT] Verschillende ontwerpen van glijpaden verschillen in hoe offensief of defensief ze in de loop van de tijd verschuiven, en in of de verschuiving doorgaat nadat de doeldatum is bereikt. Er bestaat niet één universeel glijpad, en het juiste tempo van aanpassen hangt af van je persoonlijke situatie en risicobereidheid.
+[GEVERIFIEERD FEIT] Verschillende ontwerpen van glijpaden verschillen in hoe offensief of defensief ze in de loop van de tijd verschuiven, en in of de verschuiving doorgaat nadat de doeldatum is bereikt. Er bestaat niet één universeel glijpad, en het juiste tempo van aanpassen hangt af van je persoonlijke situatie en risicobereidheid.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een doeldatumfonds dat is ontworpen voor iemand die over ongeveer 30 jaar met pensioen gaat, kan beginnen met een portefeuille die zwaar in aandelen zit. Zo maakt het gebruik van de lange beleggingshorizon om zich mogelijk te herstellen van dalingen onderweg. Naarmate de beoogde pensioendatum in die decennia dichterbij komt, verhoogt het fonds geleidelijk het aandeel obligaties en verlaagt het de blootstelling aan aandelen. Het doel is om de portefeuille minder kwetsbaar te maken voor een slecht getimede daling precies op het moment dat de belegger misschien geld moet gaan opnemen.
+[ILLUSTRATIEF VOORBEELD] Een doeldatumfonds dat is ontworpen voor iemand die over ongeveer 30 jaar met pensioen gaat, kan beginnen met een portefeuille die zwaar in aandelen zit. Zo maakt het gebruik van de lange beleggingshorizon om zich mogelijk te herstellen van dalingen onderweg. Naarmate de beoogde pensioendatum in die decennia dichterbij komt, verhoogt het fonds geleidelijk het aandeel obligaties en verlaagt het de blootstelling aan aandelen. Het doel is om de portefeuille minder kwetsbaar te maken voor een slecht getimede daling precies op het moment dat de belegger misschien geld moet gaan opnemen.
 
 ## Oefenquiz
 

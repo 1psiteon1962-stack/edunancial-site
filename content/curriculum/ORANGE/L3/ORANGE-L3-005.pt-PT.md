@@ -30,7 +30,7 @@ Antes de assumir um grande gasto novo com marketing, o que mais esse mesmo capit
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio avalia um grande aumento no gasto com anúncios, justificado internamente comparando-o só com o orçamento menor do ano anterior e com um resultado um pouco maior. [ASSUMPTION] Aplicando, em vez disso, o modelo ajustado ao risco da trilha GOLD, o time compara essa decisão de gasto com a alternativa realista de usar esse mesmo capital para quitar uma dívida com juros altos ou financiar o desenvolvimento do produto, com retornos mais certos — uma comparação que a simples visão de um ano contra o outro nunca chegou a fazer, revelando que o gasto com marketing, embora não fosse absurdo, não era claramente o uso mais forte desse capital depois que as alternativas reais foram levadas em conta.
+[EXEMPLO ILUSTRATIVO] Um negócio avalia um grande aumento no gasto com anúncios, justificado internamente comparando-o só com o orçamento menor do ano anterior e com um resultado um pouco maior. [SUPOSIÇÃO] Aplicando, em vez disso, o modelo ajustado ao risco da trilha GOLD, o time compara essa decisão de gasto com a alternativa realista de usar esse mesmo capital para quitar uma dívida com juros altos ou financiar o desenvolvimento do produto, com retornos mais certos — uma comparação que a simples visão de um ano contra o outro nunca chegou a fazer, revelando que o gasto com marketing, embora não fosse absurdo, não era claramente o uso mais forte desse capital depois que as alternativas reais foram levadas em conta.
 
 ## Teste de prática
 

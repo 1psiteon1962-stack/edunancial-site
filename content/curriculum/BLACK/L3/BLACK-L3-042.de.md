@@ -30,7 +30,7 @@ Wenn dein Unternehmen Familienmitglieder einbezieht: Welche formalen Strukturen 
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Familienunternehmen arbeitet jahrelang ohne formale Dokumentation von Rollen, Entscheidungsbefugnissen oder einem Nachfolgeplan und verlässt sich auf die Annahme, familiäres Vertrauen mache solche Strukturen überflüssig. [ASSUMPTION] Als schließlich eine bedeutende Meinungsverschiedenheit über die Richtung des Unternehmens zwischen Familienmitgliedern entsteht, bedeutet das Fehlen jeder vorab festgelegten Struktur oder Vereinbarung – genau das Risiko, vor dem die Behandlung des Gesellschaftsvertrags im LILA Lernpfad gewarnt hat –, dass der Konflikt nun das Unternehmen und die familiären Beziehungen zugleich bedroht, ohne ein klares Verfahren zur Lösung, auf das sich beide Seiten zuvor geeinigt hätten.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Familienunternehmen arbeitet jahrelang ohne formale Dokumentation von Rollen, Entscheidungsbefugnissen oder einem Nachfolgeplan und verlässt sich auf die Annahme, familiäres Vertrauen mache solche Strukturen überflüssig. [ANNAHME] Als schließlich eine bedeutende Meinungsverschiedenheit über die Richtung des Unternehmens zwischen Familienmitgliedern entsteht, bedeutet das Fehlen jeder vorab festgelegten Struktur oder Vereinbarung – genau das Risiko, vor dem die Behandlung des Gesellschaftsvertrags im LILA Lernpfad gewarnt hat –, dass der Konflikt nun das Unternehmen und die familiären Beziehungen zugleich bedroht, ohne ein klares Verfahren zur Lösung, auf das sich beide Seiten zuvor geeinigt hätten.
 
 ## Übungsquiz
 1. Warum haben Familienunternehmen eine besondere Überschneidung persönlicher und beruflicher Beziehungen?

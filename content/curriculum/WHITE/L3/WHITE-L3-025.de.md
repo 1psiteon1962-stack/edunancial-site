@@ -22,7 +22,7 @@ Am Ende dieser Lektion kannst du:
 
 ## Hauptinhalt
 
-Es liegt nahe anzunehmen, dass ein Fonds, der zuletzt gut gelaufen ist, wahrscheinlich weiter gut laufen wird – schließlich muss er ja etwas richtig machen. Hier das „Warum“, weshalb diese Intuition oft nicht trägt: [VERIFIED FACT] Umfangreiche Untersuchungen, die die historischen Ranglisten von Fonds über verschiedene Zeiträume vergleichen, haben im Allgemeinen nur eine schwache Beständigkeit festgestellt – die besten Fonds eines Zeitraums sind also nicht verlässlich auch die besten im folgenden Zeitraum. Auch Aufsichtsbehörden haben dieses Muster festgehalten; das ist ein Grund, warum vorgeschriebene Anlegerinformationen den Hinweis enthalten, dass frühere Wertentwicklungen kein verlässlicher Indikator für künftige Ergebnisse sind.
+Es liegt nahe anzunehmen, dass ein Fonds, der zuletzt gut gelaufen ist, wahrscheinlich weiter gut laufen wird – schließlich muss er ja etwas richtig machen. Hier das „Warum“, weshalb diese Intuition oft nicht trägt: [GEPRÜFTE TATSACHE] Umfangreiche Untersuchungen, die die historischen Ranglisten von Fonds über verschiedene Zeiträume vergleichen, haben im Allgemeinen nur eine schwache Beständigkeit festgestellt – die besten Fonds eines Zeitraums sind also nicht verlässlich auch die besten im folgenden Zeitraum. Auch Aufsichtsbehörden haben dieses Muster festgehalten; das ist ein Grund, warum vorgeschriebene Anlegerinformationen den Hinweis enthalten, dass frühere Wertentwicklungen kein verlässlicher Indikator für künftige Ergebnisse sind.
 
 Mehrere Faktoren tragen zu dieser schwachen Beständigkeit bei: Eine starke jüngste Wertentwicklung kann ein vorübergehend günstiges Umfeld für den Stil oder die Branche des Fonds widerspiegeln statt eines wiederholbaren Könnensvorteils; bei Strategien oder Branchen, die gut laufen, ändern sich oft die Bedingungen oder sie werden überlaufen, was den künftigen Vorteil schmälert; und Managerwechsel, das Wachstum des Fondsvermögens und andere Faktoren können die künftigen Ergebnisse eines Fonds unabhängig von seiner Vergangenheit beeinflussen.
 
@@ -30,7 +30,7 @@ Deshalb wird das Hinterherlaufen hinter den jüngsten Spitzenreitern – Geld in
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Anleger bemerkt, dass ein Fonds in den vergangenen drei Jahren die besten Renditen seiner Kategorie erzielt hat, und investiert wegen dieser Bilanz einen großen Betrag. [ASSUMPTION] War die starke Wertentwicklung des Fonds vor allem einem vorübergehend günstigen Umfeld für seinen Anlagestil zu verdanken und ändert sich dieses Umfeld in den folgenden Jahren, kann der Fonds künftig schlechter abschneiden – und der Anleger macht eine enttäuschende Erfahrung, obwohl er nach einer beeindruckend wirkenden Erfolgsbilanz ausgewählt hat.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Anleger bemerkt, dass ein Fonds in den vergangenen drei Jahren die besten Renditen seiner Kategorie erzielt hat, und investiert wegen dieser Bilanz einen großen Betrag. [ANNAHME] War die starke Wertentwicklung des Fonds vor allem einem vorübergehend günstigen Umfeld für seinen Anlagestil zu verdanken und ändert sich dieses Umfeld in den folgenden Jahren, kann der Fonds künftig schlechter abschneiden – und der Anleger macht eine enttäuschende Erfahrung, obwohl er nach einer beeindruckend wirkenden Erfolgsbilanz ausgewählt hat.
 
 ## Übungsquiz
 1. Was hat die Forschung im Allgemeinen über die Beständigkeit der Spitzenleistung von Fonds über verschiedene Zeiträume herausgefunden?

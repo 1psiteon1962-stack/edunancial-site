@@ -26,11 +26,11 @@ Aan het einde van deze les kun je:
 
 Hier is het "waarom" deze berekening een nuttige, vroege toets van een bedrijfsidee is: ze maakt van een abstract ondernemingsplan een concrete vraag die je kunt beantwoorden. Hoeveel stuks, of hoeveel omzet, moet dit bedrijf echt halen alleen al om de kosten te dekken, nog voordat er winst is? Als dat getal onrealistisch lijkt, gezien de werkelijke omvang van de markt of redelijke verkoopverwachtingen, is dat een signaal om de aannames van het plan te herzien voordat je veel kapitaal investeert.
 
-[VERIFIED FACT] Het break-evenpunt in stuks wordt meestal berekend door de vaste kosten te delen door het verschil tussen de prijs per stuk en de variabele kosten per stuk (dat verschil heet soms de dekkingsbijdrage per stuk). Die formule koppelt de kostenstructuur van een bedrijf rechtstreeks aan een specifiek, toetsbaar verkoopdoel.
+[GEVERIFIEERD FEIT] Het break-evenpunt in stuks wordt meestal berekend door de vaste kosten te delen door het verschil tussen de prijs per stuk en de variabele kosten per stuk (dat verschil heet soms de dekkingsbijdrage per stuk). Die formule koppelt de kostenstructuur van een bedrijf rechtstreeks aan een specifiek, toetsbaar verkoopdoel.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf heeft $50,000 aan vaste kosten per jaar, verkoopt zijn product voor $25 per stuk en heeft $15 variabele kosten per stuk: een dekkingsbijdrage van $10 per stuk. Het break-evenpunt is $50,000 gedeeld door $10, dus 5.000 stuks per jaar. [ASSUMPTION] Als realistisch marktonderzoek laat zien dat het bedrijf in zijn doelmarkt redelijkerwijs maar 2.000 stuks per jaar kan verkopen, legt deze break-evenberekening een ernstig probleem in het plan bloot, nog voordat er kapitaal is vastgelegd. Dat is aanleiding om de prijs, de kostenstructuur of het hele bedrijfsmodel te heroverwegen.
+[ILLUSTRATIEF VOORBEELD] Een bedrijf heeft $50,000 aan vaste kosten per jaar, verkoopt zijn product voor $25 per stuk en heeft $15 variabele kosten per stuk: een dekkingsbijdrage van $10 per stuk. Het break-evenpunt is $50,000 gedeeld door $10, dus 5.000 stuks per jaar. [AANNAME] Als realistisch marktonderzoek laat zien dat het bedrijf in zijn doelmarkt redelijkerwijs maar 2.000 stuks per jaar kan verkopen, legt deze break-evenberekening een ernstig probleem in het plan bloot, nog voordat er kapitaal is vastgelegd. Dat is aanleiding om de prijs, de kostenstructuur of het hele bedrijfsmodel te heroverwegen.
 
 ## Oefenquiz
 

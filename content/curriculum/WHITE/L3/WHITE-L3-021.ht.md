@@ -30,13 +30,13 @@ Ni **ETF (exchange-traded funds, fon ki fè komès sou labous)** ni **fon mityè
 
 Men "poukisa" komès la diferan: ETF fè komès pandan tout jounen an sou yon labous, tankou aksyon endividyèl, nan pri ki chanje tout tan selon aktivite mache a. Fon mityèl anjeneral gen yon pri e yo fè komès sèlman yon fwa pa jou, apre mache a fèmen, nan valè nèt byen yo (net asset value) yo kalkile pou jou sa a — ou pa konnen pri egzak tranzaksyon an lè w pase yon lòd pou yon fon mityèl pandan jounen komès la.
 
-[VERIFIED FACT] ETF souvan pi efikas pou taks tou pase fon mityèl ki sanble ak yo, sitou akoz yon mekanis estriktirèl nan fason yo kreye e rachte pa ETF yo, ki gen tandans pwodui mwens distribisyon plis-value (pwofi sou kapital) ki taksab pou aksyonè yo pase pwosesis anpil fon mityèl itilize — byenke sa varye selon chak fon e li pa otomatik pou chak ETF.
+[FÈ VERIFYE] ETF souvan pi efikas pou taks tou pase fon mityèl ki sanble ak yo, sitou akoz yon mekanis estriktirèl nan fason yo kreye e rachte pa ETF yo, ki gen tandans pwodui mwens distribisyon plis-value (pwofi sou kapital) ki taksab pou aksyonè yo pase pwosesis anpil fon mityèl itilize — byenke sa varye selon chak fon e li pa otomatik pou chak ETF.
 
 Estrikti frè yo ka diferan tou: anpil ETF, sitou sa ki swiv gwo endèks jeneral, gen tandans gen pi ba ratio depans (expense ratio) pase fon mityèl ki jere aktivman, byenke fon mityèl endèks ki pa koute chè egziste tou — ou ta dwe konpare frè yo fon pa fon olye w sipoze yo selon kalite estrikti a sèlman.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè vle achte pa nan yon fon endèks S&P 500 (yon endèks ki swiv 500 gwo konpayi ameriken). Si li chwazi vèsyon ETF a, li ka pase yon lòd pandan lè mache a louvri e wè pri tranzaksyon an touswit, menm jan ak lè w achte yon aksyon. Si okontrè li chwazi vèsyon fon mityèl la, lòd li egzekite nan valè nèt byen fon an yo kalkile apre mache a fèmen jou sa a — li pa p konnen pri egzak la jiskaske jounen komès la fini. [ASSUMPTION] Sou plizyè ane, si vèsyon ETF a rive pwodui mwens distribisyon plis-value ki taksab gras a mekanis estriktirèl li, envestisè ETF a ka fini ak yon rannman apre taks ki yon ti jan pi bon, menm si pozisyon ki anndan fon yo ak pèfòmans yo anvan taks sanble anpil.
+[EGZANP ILISTRATIF] Yon envestisè vle achte pa nan yon fon endèks S&P 500 (yon endèks ki swiv 500 gwo konpayi ameriken). Si li chwazi vèsyon ETF a, li ka pase yon lòd pandan lè mache a louvri e wè pri tranzaksyon an touswit, menm jan ak lè w achte yon aksyon. Si okontrè li chwazi vèsyon fon mityèl la, lòd li egzekite nan valè nèt byen fon an yo kalkile apre mache a fèmen jou sa a — li pa p konnen pri egzak la jiskaske jounen komès la fini. [SIPOZISYON] Sou plizyè ane, si vèsyon ETF a rive pwodui mwens distribisyon plis-value ki taksab gras a mekanis estriktirèl li, envestisè ETF a ka fini ak yon rannman apre taks ki yon ti jan pi bon, menm si pozisyon ki anndan fon yo ak pèfòmans yo anvan taks sanble anpil.
 
 ## Egzamen pratik
 

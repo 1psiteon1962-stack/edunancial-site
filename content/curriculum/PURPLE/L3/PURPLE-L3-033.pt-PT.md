@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Ser dono pleno de um imóvel, com título jurídico completo, pode parecer sinônimo de liberdade total para usar esse imóvel como o proprietário quiser. Este é o "porquê" de isso não ser verdade na maioria das jurisdições: [VERIFIED FACT] as **leis de zonamento** locais geralmente dividem o território em diferentes zonas — residencial, comercial, industrial e diversas subcategorias —, cada uma com regras específicas sobre quais tipos de uso, construções e atividades são permitidos, independentemente do que um proprietário específico queira fazer com o próprio terreno.
+Ser dono pleno de um imóvel, com título jurídico completo, pode parecer sinônimo de liberdade total para usar esse imóvel como o proprietário quiser. Este é o "porquê" de isso não ser verdade na maioria das jurisdições: [FACTO VERIFICADO] as **leis de zonamento** locais geralmente dividem o território em diferentes zonas — residencial, comercial, industrial e diversas subcategorias —, cada uma com regras específicas sobre quais tipos de uso, construções e atividades são permitidos, independentemente do que um proprietário específico queira fazer com o próprio terreno.
 
 Este é o objetivo geral dessa limitação aos direitos individuais de propriedade: o zonamento geralmente existe para equilibrar o interesse do proprietário individual em usar o imóvel livremente com o interesse mais amplo da comunidade num uso do solo previsível e compatível — evitando, por exemplo, que uma instalação industrial seja construída no meio de um bairro residencial já consolidado, o que poderia afetar muito o valor, a segurança e o caráter dos imóveis vizinhos, mesmo que fosse exatamente o que aquele proprietário queria construir no próprio terreno.
 
@@ -30,7 +30,7 @@ Este é o objetivo geral dessa limitação aos direitos individuais de proprieda
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] A dona de um imóvel numa zona residencial quer abrir um negócio comercial no imóvel, acreditando que, por ser a dona plena, deveria ter liberdade para usá-lo como quiser. [ASSUMPTION] Pelo zonamento residencial aplicável, esse uso comercial específico provavelmente é proibido, independentemente da propriedade plena — ela geralmente precisaria fazer um pedido formal de exceção ou de mudança de zonamento junto à autoridade local competente, e não há garantia de que o pedido seja aprovado, o que mostra por que a propriedade plena não equivale a liberdade de uso ilimitada.
+[EXEMPLO ILUSTRATIVO] A dona de um imóvel numa zona residencial quer abrir um negócio comercial no imóvel, acreditando que, por ser a dona plena, deveria ter liberdade para usá-lo como quiser. [SUPOSIÇÃO] Pelo zonamento residencial aplicável, esse uso comercial específico provavelmente é proibido, independentemente da propriedade plena — ela geralmente precisaria fazer um pedido formal de exceção ou de mudança de zonamento junto à autoridade local competente, e não há garantia de que o pedido seja aprovado, o que mostra por que a propriedade plena não equivale a liberdade de uso ilimitada.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Pegue a sua principal prioridade de liderança atual e aplique essa pergunta por
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder que avalia se continua mantendo um ritmo pessoal muito exigente aplica a essa decisão toda a estrutura desta trilha: para o que eu estou otimizando (talvez para provar que sou indispensável, retomando as Lições 31 e 33) e quanto isso está custando (o risco de esgotamento e o risco de continuidade que vem com ele, segundo a Lição 38; a concentração do risco de pessoa-chave contra a qual a Lição 2 alertou; o exemplo de um ritmo insustentável que, de acordo com a Lição 22, vai moldar as expectativas de toda a organização)? Nomear com honestidade o objetivo real da otimização, em vez do mais elogioso "só estou trabalhando duro pela missão", revela custos que esse líder nunca tinha ligado a uma única decisão coerente.
+[EXEMPLO ILUSTRATIVO] Um líder que avalia se continua mantendo um ritmo pessoal muito exigente aplica a essa decisão toda a estrutura desta trilha: para o que eu estou otimizando (talvez para provar que sou indispensável, retomando as Lições 31 e 33) e quanto isso está custando (o risco de esgotamento e o risco de continuidade que vem com ele, segundo a Lição 38; a concentração do risco de pessoa-chave contra a qual a Lição 2 alertou; o exemplo de um ritmo insustentável que, de acordo com a Lição 22, vai moldar as expectativas de toda a organização)? Nomear com honestidade o objetivo real da otimização, em vez do mais elogioso "só estou trabalhando duro pela missão", revela custos que esse líder nunca tinha ligado a uma única decisão coerente.
 
 ## Teste de prática
 

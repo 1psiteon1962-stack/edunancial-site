@@ -30,7 +30,7 @@ Ecco il "perché" ricondurre ogni concetto a questa chiave di lettura porta a un
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] La titolare di un'impresa che valuta diverse situazioni molto diverse (redigere un nuovo contratto, rispettare gli adempimenti formali della sua LLC e aggiornare la propria pianificazione successoria) pone a ciascuna la stessa domanda di fondo: ho definito con chiarezza chi ha esattamente quali diritti e obblighi specifici, in un modo che lasci il minimo spazio ad ambiguità o controversie future? [ASSUMPTION] Invece di trattare la redazione dei contratti, la gestione dell'ente e la pianificazione successoria come compiti giuridici del tutto separati e scollegati, riconosce che sono tutte varianti dello stesso principio di chiarezza, e questo le permette di affrontare ambiti giuridici molto diversi con un unico criterio coerente.
+[ESEMPIO ILLUSTRATIVO] La titolare di un'impresa che valuta diverse situazioni molto diverse (redigere un nuovo contratto, rispettare gli adempimenti formali della sua LLC e aggiornare la propria pianificazione successoria) pone a ciascuna la stessa domanda di fondo: ho definito con chiarezza chi ha esattamente quali diritti e obblighi specifici, in un modo che lasci il minimo spazio ad ambiguità o controversie future? [IPOTESI] Invece di trattare la redazione dei contratti, la gestione dell'ente e la pianificazione successoria come compiti giuridici del tutto separati e scollegati, riconosce che sono tutte varianti dello stesso principio di chiarezza, e questo le permette di affrontare ambiti giuridici molto diversi con un unico criterio coerente.
 
 ## Quiz di esercitazione
 

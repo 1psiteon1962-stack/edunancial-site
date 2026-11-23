@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-A **dedução padrão** é um valor fixo em dólares que os contribuintes podem subtrair da renda (segundo o conceito de dedução da Lição 7) sem precisar comprovar ou detalhar nenhuma despesa específica, com um valor que normalmente varia conforme a situação de declaração (filing status). [VERIFIED FACT] O valor específico da dedução padrão é definido pela legislação tributária, reajustado periodicamente (muitas vezes pela inflação) e varia conforme a jurisdição — os valores atuais devem ser conferidos diretamente, e não presumidos.
+A **dedução padrão** é um valor fixo em dólares que os contribuintes podem subtrair da renda (segundo o conceito de dedução da Lição 7) sem precisar comprovar ou detalhar nenhuma despesa específica, com um valor que normalmente varia conforme a situação de declaração (filing status). [FATO VERIFICADO] O valor específico da dedução padrão é definido pela legislação tributária, reajustado periodicamente (muitas vezes pela inflação) e varia conforme a jurisdição — os valores atuais devem ser conferidos diretamente, e não presumidos.
 
 Este é o "porquê" de ela existir como ferramenta de simplificação: sem a opção da dedução padrão, todo contribuinte que quisesse qualquer dedução teria de acompanhar, comprovar e justificar uma a uma as despesas dedutíveis específicas (juros de financiamento imobiliário, doações a instituições de caridade, certas despesas médicas e outras) — um trabalho grande de guardar comprovantes. A dedução padrão oferece uma alternativa simples: um valor de dedução garantido, que não exige nenhum comprovante, disponível para qualquer contribuinte que tenha direito a ela, não importa quais sejam as despesas que ele poderia detalhar.
 
@@ -30,7 +30,7 @@ Isso cria a escolha básica aprofundada na próxima lição: o contribuinte pode
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma contribuinte com despesas dedutíveis relativamente modestas — sem financiamento imobiliário, doações modestas, sem despesas médicas significativas — teria de gastar bastante tempo comprovando e somando uma a uma essas despesas menores se quisesse alguma dedução além do básico. Ficando com a dedução padrão, ela recebe um valor de dedução garantido e relevante, sem nenhum comprovante, já que as despesas dedutíveis reais dela provavelmente não passariam desse valor padrão de qualquer forma. [ASSUMPTION] Para essa contribuinte, a opção da dedução padrão economiza muito tempo e complicação sem custar nenhum benefício tributário real, já que as despesas dedutíveis reais dela provavelmente não somariam mais do que o valor padrão de qualquer jeito.
+[EXEMPLO ILUSTRATIVO] Uma contribuinte com despesas dedutíveis relativamente modestas — sem financiamento imobiliário, doações modestas, sem despesas médicas significativas — teria de gastar bastante tempo comprovando e somando uma a uma essas despesas menores se quisesse alguma dedução além do básico. Ficando com a dedução padrão, ela recebe um valor de dedução garantido e relevante, sem nenhum comprovante, já que as despesas dedutíveis reais dela provavelmente não passariam desse valor padrão de qualquer forma. [SUPOSIÇÃO] Para essa contribuinte, a opção da dedução padrão economiza muito tempo e complicação sem custar nenhum benefício tributário real, já que as despesas dedutíveis reais dela provavelmente não somariam mais do que o valor padrão de qualquer jeito.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Honnêtement, à quel point ton rythme actuel comme leader est-il soutenable? Si
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader maintient un rythme insoutenable pendant une longue période, en traitant le repos et la délégation comme des luxes à prendre en compte seulement une fois que les exigences urgentes du moment se seront calmées. [ASSUMPTION] Cet épuisement chronique finit par se manifester par une crise de santé qui exige une absence imprévue et prolongée — exactement le genre d'indisponibilité soudaine contre laquelle prévenait la discussion de la leçon 2 sur le risque lié à une personne clé, ce qui montre pourquoi un rythme soutenable pour le leader lui-même est une vraie préoccupation de continuité pour l'organisation, et pas simplement une question de bien-être personnel distincte des risques d'affaires abordés tout au long de ce parcours.
+[EXEMPLE ILLUSTRATIF] Un leader maintient un rythme insoutenable pendant une longue période, en traitant le repos et la délégation comme des luxes à prendre en compte seulement une fois que les exigences urgentes du moment se seront calmées. [HYPOTHÈSE] Cet épuisement chronique finit par se manifester par une crise de santé qui exige une absence imprévue et prolongée — exactement le genre d'indisponibilité soudaine contre laquelle prévenait la discussion de la leçon 2 sur le risque lié à une personne clé, ce qui montre pourquoi un rythme soutenable pour le leader lui-même est une vraie préoccupation de continuité pour l'organisation, et pas simplement une question de bien-être personnel distincte des risques d'affaires abordés tout au long de ce parcours.
 
 ## Quiz de pratique
 

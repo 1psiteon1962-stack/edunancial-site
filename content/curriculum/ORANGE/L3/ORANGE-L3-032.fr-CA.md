@@ -32,7 +32,7 @@ Si tu entrais dans un nouveau segment de marché dont le cycle de vente est deux
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise dont le cycle de vente est habituellement court, d'un mois, s'étend à un nouveau segment de marché où les transactions prennent habituellement six mois à se conclure. [ASSUMPTION] L'entreprise établit le budget du nouveau segment en augmentant simplement de façon proportionnelle ses dépenses de vente existantes, sans tenir compte de l'écart beaucoup plus long entre ces dépenses et les revenus qui en découlent — ce qui crée un manque de fonds de roulement pendant la longue période qui précède le moment où les ventes du nouveau segment commencent réellement à se convertir en revenus, une conséquence de financement directement liée à la durée du cycle de vente qu'un plan simplement proportionnel au budget a négligée.
+[EXEMPLE ILLUSTRATIF] Une entreprise dont le cycle de vente est habituellement court, d'un mois, s'étend à un nouveau segment de marché où les transactions prennent habituellement six mois à se conclure. [HYPOTHÈSE] L'entreprise établit le budget du nouveau segment en augmentant simplement de façon proportionnelle ses dépenses de vente existantes, sans tenir compte de l'écart beaucoup plus long entre ces dépenses et les revenus qui en découlent — ce qui crée un manque de fonds de roulement pendant la longue période qui précède le moment où les ventes du nouveau segment commencent réellement à se convertir en revenus, une conséquence de financement directement liée à la durée du cycle de vente qu'un plan simplement proportionnel au budget a négligée.
 
 ## Quiz de pratique
 

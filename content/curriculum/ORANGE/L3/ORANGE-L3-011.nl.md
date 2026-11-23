@@ -30,7 +30,7 @@ Als je onderneming nu sterk afhankelijk is van mond-tot-mondreclame, wat zou er 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming is vooral gegroeid via aanbevelingen van klanten, met lage wervingskosten en sterke klantloyaliteit. [ASSUMPTION] Als de onderneming een specifieke groeidoelstelling binnen een bepaalde termijn moet halen voor een financieringsronde, ontdekt ze dat mond-tot-mondreclame niet zomaar op afroep kan worden opgeschaald, zoals bij een betaald kanaal wel kan. Haar goedkoopste kanaal is ook haar minst beheersbare, waardoor ze moet investeren in een duurder, maar directer stuurbaar betaald kanaal om haar specifieke termijn te halen.
+[ILLUSTRATIEF VOORBEELD] Een onderneming is vooral gegroeid via aanbevelingen van klanten, met lage wervingskosten en sterke klantloyaliteit. [AANNAME] Als de onderneming een specifieke groeidoelstelling binnen een bepaalde termijn moet halen voor een financieringsronde, ontdekt ze dat mond-tot-mondreclame niet zomaar op afroep kan worden opgeschaald, zoals bij een betaald kanaal wel kan. Haar goedkoopste kanaal is ook haar minst beheersbare, waardoor ze moet investeren in een duurder, maar directer stuurbaar betaald kanaal om haar specifieke termijn te halen.
 
 ## Oefenquiz
 

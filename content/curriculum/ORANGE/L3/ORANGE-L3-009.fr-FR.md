@@ -32,7 +32,7 @@ Avant de lancer une promotion avec rabais, quelle est ta marge sur coûts variab
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise dont la marge sur coûts variables est de 40 € par unité offre un rabais de 20 %, ce qui fait baisser la marge par unité à 20 €. [ASSUMPTION] Le volume de ventes augmente de 30 %, ce qui ressemble à une victoire claire — mais comme la marge par unité a été réduite de moitié, cette hausse de volume de 30 % produit en réalité moins de profit total qu'avant le rabais, et non plus, ce qui montre pourquoi le raisonnement intuitif selon lequel « un rabais amène plus de ventes, et plus de ventes veut dire plus de profit » passe à côté de l'effet disproportionné de l'érosion de la marge.
+[EXEMPLE ILLUSTRATIF] Une entreprise dont la marge sur coûts variables est de 40 € par unité offre un rabais de 20 %, ce qui fait baisser la marge par unité à 20 €. [HYPOTHÈSE] Le volume de ventes augmente de 30 %, ce qui ressemble à une victoire claire — mais comme la marge par unité a été réduite de moitié, cette hausse de volume de 30 % produit en réalité moins de profit total qu'avant le rabais, et non plus, ce qui montre pourquoi le raisonnement intuitif selon lequel « un rabais amène plus de ventes, et plus de ventes veut dire plus de profit » passe à côté de l'effet disproportionné de l'érosion de la marge.
 
 ## Quiz de pratique
 

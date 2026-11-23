@@ -36,7 +36,7 @@ Esiste anche l'imposta proporzionale, o ad aliquota unica (flat tax), che chiede
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Due persone comprano lo stesso cellulare e pagano $50 di imposta. Una guadagna $1.000 al mese, l'altra $10.000. Che percentuale del reddito ha pagato ciascuna?
 

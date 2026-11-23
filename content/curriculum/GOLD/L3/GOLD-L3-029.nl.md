@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-**Macro-economische indicatoren** – inflatiecijfers, werkgelegenheidscijfers, bbp-groei en vergelijkbare brede economische maatstaven – worden vaak gebruikt om het beleggingsoordeel over de bredere economische omgeving uit dit traject te onderbouwen. Hier is het "waarom" deze indicatoren werken als nuttige signalen en niet als zekere voorspellingen: [VERIFIED FACT] elke indicator weerspiegelt een specifiek deel van de economische activiteit, wordt vaak met enige vertraging gepubliceerd en kan later worden herzien, en geen enkele indicator vangt op een bepaald moment het volledige, complexe beeld van een economie.
+**Macro-economische indicatoren** – inflatiecijfers, werkgelegenheidscijfers, bbp-groei en vergelijkbare brede economische maatstaven – worden vaak gebruikt om het beleggingsoordeel over de bredere economische omgeving uit dit traject te onderbouwen. Hier is het "waarom" deze indicatoren werken als nuttige signalen en niet als zekere voorspellingen: [GEVERIFIEERD FEIT] elke indicator weerspiegelt een specifiek deel van de economische activiteit, wordt vaak met enige vertraging gepubliceerd en kan later worden herzien, en geen enkele indicator vangt op een bepaald moment het volledige, complexe beeld van een economie.
 
 Daarom kan het misleidend zijn om één indicator los te interpreteren – één werkgelegenheidsrapport of één inflatiecijfer zien als een definitief signaal over de toekomstige richting van de markt. Ervaren analisten kijken over het algemeen naar meerdere indicatoren samen, en naar hun verloop in de tijd in plaats van naar één datapunt, om een vollediger – al blijft het van nature onzeker – beeld te vormen van de huidige economische omstandigheden.
 
@@ -30,7 +30,7 @@ Dit sluit rechtstreeks aan op de bespreking van cycli in Les 14 en de waarschuwi
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belegger ziet één economisch rapport dat op een bepaalde trend wijst, en overweegt op basis van alleen dat ene datapunt een grote wijziging in zijn portefeuille. [ASSUMPTION] Een meer afgewogen aanpak zou dat ene rapport bekijken naast andere relevante indicatoren en hun verloop over de afgelopen maanden. Daarbij erken je dat één datapunt ruis kan bevatten, later kan worden herzien of een tijdelijke in plaats van een blijvende verschuiving kan weerspiegelen – en behandel je de indicator als één nuttig signaal tussen meerdere, en niet als een zekere, op zichzelf staande basis voor een grote beslissing.
+[ILLUSTRATIEF VOORBEELD] Een belegger ziet één economisch rapport dat op een bepaalde trend wijst, en overweegt op basis van alleen dat ene datapunt een grote wijziging in zijn portefeuille. [AANNAME] Een meer afgewogen aanpak zou dat ene rapport bekijken naast andere relevante indicatoren en hun verloop over de afgelopen maanden. Daarbij erken je dat één datapunt ruis kan bevatten, later kan worden herzien of een tijdelijke in plaats van een blijvende verschuiving kan weerspiegelen – en behandel je de indicator als één nuttig signaal tussen meerdere, en niet als een zekere, op zichzelf staande basis voor een grote beslissing.
 
 ## Oefenquiz
 

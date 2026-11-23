@@ -30,7 +30,7 @@ Probeer bij je volgende belangrijke beslissing over verkoop of marketing deze vr
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming beoordeelt een belangrijk nieuw marketinginitiatief niet met de vraag "trekt dit aandacht?" of "doen concurrenten iets vergelijkbaars?", maar met dezelfde grondigheid die elders in dit programma wordt gebruikt om elke investering te beoordelen: ze schat een realistische spreiding van uitkomsten, beoordeelt eerlijk de specifieke risico's (in lijn met Lessen 1, 5 en 38) en vergelijkt het voor risico gecorrigeerde verwachte rendement met echte alternatieven – personeel aannemen, productontwikkeling, schuldafbouw – die met hetzelfde kapitaal betaald zouden kunnen worden. Dat levert een wezenlijk andere, grondigere beoordeling op dan de marketingbeslissing te behandelen als een aparte categorie die van die toetsing is vrijgesteld.
+[ILLUSTRATIEF VOORBEELD] Een onderneming beoordeelt een belangrijk nieuw marketinginitiatief niet met de vraag "trekt dit aandacht?" of "doen concurrenten iets vergelijkbaars?", maar met dezelfde grondigheid die elders in dit programma wordt gebruikt om elke investering te beoordelen: ze schat een realistische spreiding van uitkomsten, beoordeelt eerlijk de specifieke risico's (in lijn met Lessen 1, 5 en 38) en vergelijkt het voor risico gecorrigeerde verwachte rendement met echte alternatieven – personeel aannemen, productontwikkeling, schuldafbouw – die met hetzelfde kapitaal betaald zouden kunnen worden. Dat levert een wezenlijk andere, grondigere beoordeling op dan de marketingbeslissing te behandelen als een aparte categorie die van die toetsing is vrijgesteld.
 
 ## Oefenquiz
 

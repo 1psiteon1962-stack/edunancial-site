@@ -30,7 +30,7 @@ Wenn dein Unternehmen derzeit stark von Mundpropaganda abhängt: Was würde mit 
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen ist vor allem durch Weiterempfehlungen gewachsen und profitiert von niedrigen Kosten für die Kundengewinnung und starker Kundentreue. [ASSUMPTION] Als das Unternehmen für eine Finanzierungsrunde ein konkretes, zeitlich festgelegtes Wachstumsziel erreichen muss, stellt es fest, dass sich Mundpropaganda nicht einfach auf Abruf ausweiten lässt wie ein bezahlter Kanal – sein günstigster Kanal ist zugleich sein am wenigsten steuerbarer, und das Unternehmen muss in einen teureren, aber direkter steuerbaren bezahlten Kanal investieren, um seinen konkreten Zeitplan einzuhalten.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen ist vor allem durch Weiterempfehlungen gewachsen und profitiert von niedrigen Kosten für die Kundengewinnung und starker Kundentreue. [ANNAHME] Als das Unternehmen für eine Finanzierungsrunde ein konkretes, zeitlich festgelegtes Wachstumsziel erreichen muss, stellt es fest, dass sich Mundpropaganda nicht einfach auf Abruf ausweiten lässt wie ein bezahlter Kanal – sein günstigster Kanal ist zugleich sein am wenigsten steuerbarer, und das Unternehmen muss in einen teureren, aber direkter steuerbaren bezahlten Kanal investieren, um seinen konkreten Zeitplan einzuhalten.
 
 ## Übungsquiz
 1. Warum verursacht Mundpropaganda praktisch keine direkten Kosten für die Kundengewinnung?

@@ -24,13 +24,13 @@ Aan het einde van deze les kun je:
 
 Les 21 besprak het ontbrekende rendement van goud als opportuniteitskosten. Hier zijn verwante, extra kosten die specifiek horen bij het aanhouden van een **fysieke**, tastbare vorm van een bezitting zoals goud, in plaats van een papieren of digitaal equivalent (een onderscheid dat in de volgende les verder wordt uitgewerkt): fysiek bezit brengt echte, doorlopende kosten met zich mee die een puur financiële bezitting – een aandeel, een obligatie of zelfs een papieren aanspraak op goud – gewoon niet heeft.
 
-[VERIFIED FACT] Die kosten omvatten over het algemeen veilige opslag (een kluisje bij de bank, een kluis thuis of een professionele opslagfaciliteit, elk met eigen kosten en afwegingen) en een verzekering tegen diefstal, verlies of schade – allebei echte, doorlopende uitgaven die het werkelijke nettorendement van de fysieke bezitting verlagen, bovenop de opportuniteitskosten die al in Les 21 zijn besproken.
+[GEVERIFIEERD FEIT] Die kosten omvatten over het algemeen veilige opslag (een kluisje bij de bank, een kluis thuis of een professionele opslagfaciliteit, elk met eigen kosten en afwegingen) en een verzekering tegen diefstal, verlies of schade – allebei echte, doorlopende uitgaven die het werkelijke nettorendement van de fysieke bezitting verlagen, bovenop de opportuniteitskosten die al in Les 21 zijn besproken.
 
 Daarom moet een eerlijke beoordeling van de werkelijke totale kosten van het bezitten van fysiek goud deze doorlopende uitgaven meenemen, en niet alleen de prijsstijging of -daling van het metaal zelf. Twee beleggers met wat lijkt op precies dezelfde hoeveelheid goud kunnen een duidelijk ander werkelijk nettorendement hebben, afhankelijk van hoeveel elk van hen uitgeeft aan opslag en verzekering van hun goud.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belegger bewaart fysiek goud in een professionele, beveiligde opslagfaciliteit en betaalt daarvoor een jaarlijkse vergoeding, plus een aparte verzekeringspremie tegen diefstal of verlies. [ASSUMPTION] Op den duur verlagen deze doorlopende kosten, hoewel ze elk afzonderlijk bescheiden zijn, haar werkelijke nettorendement op het goud flink ten opzichte van alleen de ruwe prijsstijging van het metaal. Een eerlijke berekening van de werkelijke prestaties van haar belegging moet deze echte, doorlopende kosten aftrekken, en niet alleen de prijsbeweging van het metaal volgen die in de krantenkoppen staat.
+[ILLUSTRATIEF VOORBEELD] Een belegger bewaart fysiek goud in een professionele, beveiligde opslagfaciliteit en betaalt daarvoor een jaarlijkse vergoeding, plus een aparte verzekeringspremie tegen diefstal of verlies. [AANNAME] Op den duur verlagen deze doorlopende kosten, hoewel ze elk afzonderlijk bescheiden zijn, haar werkelijke nettorendement op het goud flink ten opzichte van alleen de ruwe prijsstijging van het metaal. Een eerlijke berekening van de werkelijke prestaties van haar belegging moet deze echte, doorlopende kosten aftrekken, en niet alleen de prijsbeweging van het metaal volgen die in de krantenkoppen staat.
 
 ## Oefenquiz
 

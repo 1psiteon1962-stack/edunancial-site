@@ -24,7 +24,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-Muitos países oferecem certos tipos de contas de investimento (muitas vezes ligadas à poupança para a aposentadoria) com vantagens fiscais específicas, como crescimento com imposto diferido (pagar os impostos depois, muitas vezes na aposentadoria) ou crescimento isento de impostos (sob condições específicas). [VERIFIED FACT] Os tipos de conta, as regras, os limites de contribuição e os tratamentos tributários disponíveis variam muito de país para país e mudam com o tempo conforme a legislação, então os detalhes de cada programa devem ser verificados diretamente e estão fora do escopo desta lição geral.
+Muitos países oferecem certos tipos de contas de investimento (muitas vezes ligadas à poupança para a aposentadoria) com vantagens fiscais específicas, como crescimento com imposto diferido (pagar os impostos depois, muitas vezes na aposentadoria) ou crescimento isento de impostos (sob condições específicas). [FATO VERIFICADO] Os tipos de conta, as regras, os limites de contribuição e os tratamentos tributários disponíveis variam muito de país para país e mudam com o tempo conforme a legislação, então os detalhes de cada programa devem ser verificados diretamente e estão fora do escopo desta lição geral.
 
 Veja o "porquê" de isso importar como um conceito separado da escolha dos investimentos: exatamente o mesmo investimento (a mesma ação ou o mesmo fundo) pode gerar um resultado bem diferente depois dos impostos, dependendo de estar em uma conta tributável comum ou em uma conta com algum tipo de vantagem fiscal. Essa é uma camada de decisão totalmente separada de *quais* investimentos ter: trata-se de *onde* (em que tipo de conta) esses investimentos ficam.
 
@@ -32,7 +32,7 @@ Veja o "porquê" de isso importar como um conceito separado da escolha dos inves
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora tem acesso a uma conta de aposentadoria com vantagem fiscal que oferece crescimento com imposto diferido, e também a uma conta comum tributável em uma corretora. [ASSUMPTION] Manter o mesmo investimento dentro da conta com vantagem fiscal, em vez da conta tributável, pode gerar um resultado bem diferente depois dos impostos ao longo de um período longo, apenas por causa da diferença de tratamento tributário, mesmo que o investimento em si, seu desempenho e seu risco sejam idênticos nos dois casos. Isso mostra por que a decisão sobre o tipo de conta merece uma análise separada e cuidadosa, à parte da decisão sobre a escolha do investimento.
+[EXEMPLO ILUSTRATIVO] Uma investidora tem acesso a uma conta de aposentadoria com vantagem fiscal que oferece crescimento com imposto diferido, e também a uma conta comum tributável em uma corretora. [SUPOSIÇÃO] Manter o mesmo investimento dentro da conta com vantagem fiscal, em vez da conta tributável, pode gerar um resultado bem diferente depois dos impostos ao longo de um período longo, apenas por causa da diferença de tratamento tributário, mesmo que o investimento em si, seu desempenho e seu risco sejam idênticos nos dois casos. Isso mostra por que a decisão sobre o tipo de conta merece uma análise separada e cuidadosa, à parte da decisão sobre a escolha do investimento.
 
 ## Teste de prática
 

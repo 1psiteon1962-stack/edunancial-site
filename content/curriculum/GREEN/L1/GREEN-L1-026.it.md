@@ -34,11 +34,11 @@ La logica più comune è: lo spazio deve essere usato in modo regolare e, in mol
 
 Un metodo comune è calcolare la proporzione di superficie. Se l'ufficio occupa il 10% della casa, circa il 10% di certe spese può essere considerato. Regole, metodi e limiti variano molto; è un'area in cui conviene parlare con un professionista.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Fernando vive in un appartamento di 100 m² e usa una stanza di 15 m² solo come ufficio. Qual è la proporzione?
 

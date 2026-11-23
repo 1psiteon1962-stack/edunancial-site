@@ -26,7 +26,7 @@ summary: "Découvrez pourquoi la durée pendant laquelle vous détenez un invest
 
 ## Contenu principal
 
-De nombreux systèmes fiscaux font la distinction entre les gains sur des investissements détenus pendant une période plus courte et ceux détenus pendant une période plus longue avant leur vente, en appliquant souvent des taux d'imposition différents à chaque catégorie. [VERIFIED FACT] Les seuils de durée de détention et les taux d'imposition applicables varient considérablement selon les pays et sont fixés par une législation fiscale précise : il est utile de connaître le concept de manière générale, mais les chiffres exacts doivent être vérifiés pour une situation et un pays donnés.
+De nombreux systèmes fiscaux font la distinction entre les gains sur des investissements détenus pendant une période plus courte et ceux détenus pendant une période plus longue avant leur vente, en appliquant souvent des taux d'imposition différents à chaque catégorie. [FAIT VÉRIFIÉ] Les seuils de durée de détention et les taux d'imposition applicables varient considérablement selon les pays et sont fixés par une législation fiscale précise : il est utile de connaître le concept de manière générale, mais les chiffres exacts doivent être vérifiés pour une situation et un pays donnés.
 
 Voici « pourquoi » cette distinction existe couramment : de nombreux systèmes fiscaux sont conçus, au moins en partie, pour encourager la détention d'investissements à long terme plutôt que les transactions fréquentes à court terme, souvent en imposant les gains sur les investissements détenus moins longtemps à un taux plus élevé que ceux sur les investissements détenus plus longtemps.
 
@@ -34,7 +34,7 @@ Cela crée une véritable incitation, voulue, qui mérite d'être comprise : un 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une investisseuse envisage de vendre un investissement qui a fortement pris de la valeur, et elle est sur le point d'atteindre un seuil de durée de détention plus long qui, dans son pays, appliquerait un taux d'imposition plus favorable au gain. [ASSUMPTION] Si ses perspectives globales pour cette position n'ont pas sensiblement changé, attendre encore un peu pour franchir ce seuil pourrait réduire le montant total d'impôt dû lors de la vente, même si cela doit être mis en balance avec son avis réel sur les perspectives et le risque de l'investissement à court terme, et non considéré comme une raison qui l'emporte automatiquement sur ces considérations.
+[EXEMPLE ILLUSTRATIF] Une investisseuse envisage de vendre un investissement qui a fortement pris de la valeur, et elle est sur le point d'atteindre un seuil de durée de détention plus long qui, dans son pays, appliquerait un taux d'imposition plus favorable au gain. [HYPOTHÈSE] Si ses perspectives globales pour cette position n'ont pas sensiblement changé, attendre encore un peu pour franchir ce seuil pourrait réduire le montant total d'impôt dû lors de la vente, même si cela doit être mis en balance avec son avis réel sur les perspectives et le risque de l'investissement à court terme, et non considéré comme une raison qui l'emporte automatiquement sur ces considérations.
 
 ## Quiz d'entraînement
 

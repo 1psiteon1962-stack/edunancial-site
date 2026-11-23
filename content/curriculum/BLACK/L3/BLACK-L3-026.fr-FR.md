@@ -30,7 +30,7 @@ Sur quelles habitudes informelles, liées à la présence, ton approche de leade
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader habitué à sentir le moral de l'équipe et à repérer les petits problèmes par une observation informelle, en personne, se met à diriger une équipe entièrement à distance en continuant de s'appuyer sur la même approche informelle. [ASSUMPTION] Sans systèmes délibérés pour remplacer ce que la présence physique offrait auparavant — des rencontres de suivi régulières et structurées, une documentation explicite, des normes de communication claires —, ce leader manque des signaux qu'il aurait auparavant captés automatiquement, ce qui montre pourquoi le leadership à distance exige une structure plus délibérée, et non simplement une version plus souple de la gestion en personne, en écho au principe des systèmes de la leçon 7 appliqué précisément aux équipes réparties.
+[EXEMPLE ILLUSTRATIF] Un leader habitué à sentir le moral de l'équipe et à repérer les petits problèmes par une observation informelle, en personne, se met à diriger une équipe entièrement à distance en continuant de s'appuyer sur la même approche informelle. [HYPOTHÈSE] Sans systèmes délibérés pour remplacer ce que la présence physique offrait auparavant — des rencontres de suivi régulières et structurées, une documentation explicite, des normes de communication claires —, ce leader manque des signaux qu'il aurait auparavant captés automatiquement, ce qui montre pourquoi le leadership à distance exige une structure plus délibérée, et non simplement une version plus souple de la gestion en personne, en écho au principe des systèmes de la leçon 7 appliqué précisément aux équipes réparties.
 
 ## Quiz de pratique
 

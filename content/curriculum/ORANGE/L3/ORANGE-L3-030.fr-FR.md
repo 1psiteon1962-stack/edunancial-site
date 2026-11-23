@@ -32,7 +32,7 @@ Avant de lancer ta prochaine campagne, quel résultat précis et déterminé d'a
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une équipe marketing lance une nouvelle campagne dont le budget intègre un taux de conversion supposé, mais sans aucun point de contrôle déterminé d'avance pour réévaluer cette hypothèse. [ASSUMPTION] Lorsque les premiers résultats sont bien inférieurs au taux supposé, l'équipe continue de dépenser, en traitant l'écart comme temporaire et en s'attendant à ce qu'il s'améliore — le même schéma de raisonnement irréfutable contre lequel le parcours GOLD mettait en garde, qui absorbe les preuves contraires plutôt que de les traiter comme un vrai signal de pause, une erreur qu'un point de contrôle déterminé d'avance (« réévaluer si la conversion est inférieure à X à la semaine 2 ») aurait précisément empêchée.
+[EXEMPLE ILLUSTRATIF] Une équipe marketing lance une nouvelle campagne dont le budget intègre un taux de conversion supposé, mais sans aucun point de contrôle déterminé d'avance pour réévaluer cette hypothèse. [HYPOTHÈSE] Lorsque les premiers résultats sont bien inférieurs au taux supposé, l'équipe continue de dépenser, en traitant l'écart comme temporaire et en s'attendant à ce qu'il s'améliore — le même schéma de raisonnement irréfutable contre lequel le parcours GOLD mettait en garde, qui absorbe les preuves contraires plutôt que de les traiter comme un vrai signal de pause, une erreur qu'un point de contrôle déterminé d'avance (« réévaluer si la conversion est inférieure à X à la semaine 2 ») aurait précisément empêchée.
 
 ## Quiz de pratique
 

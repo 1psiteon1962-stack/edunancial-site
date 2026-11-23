@@ -30,7 +30,7 @@ Com honestidade, quão sustentável é o seu ritmo atual como líder? Se a respo
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder mantém por muito tempo um ritmo insustentável, tratando o descanso e a delegação como luxos que só serão resolvidos quando as demandas urgentes do momento diminuírem. [ASSUMPTION] Esse esgotamento crônico acaba se manifestando como uma crise de saúde que exige uma ausência longa e inesperada — exatamente o tipo de indisponibilidade repentina contra o qual a discussão sobre risco de pessoa-chave da Lição 2 alertou, o que mostra por que o ritmo sustentável de um líder é uma questão real de continuidade para a organização, e não só uma questão de bem-estar pessoal separada dos riscos de negócio vistos ao longo desta trilha.
+[EXEMPLO ILUSTRATIVO] Um líder mantém por muito tempo um ritmo insustentável, tratando o descanso e a delegação como luxos que só serão resolvidos quando as demandas urgentes do momento diminuírem. [SUPOSIÇÃO] Esse esgotamento crônico acaba se manifestando como uma crise de saúde que exige uma ausência longa e inesperada — exatamente o tipo de indisponibilidade repentina contra o qual a discussão sobre risco de pessoa-chave da Lição 2 alertou, o que mostra por que o ritmo sustentável de um líder é uma questão real de continuidade para a organização, e não só uma questão de bem-estar pessoal separada dos riscos de negócio vistos ao longo desta trilha.
 
 ## Teste de prática
 

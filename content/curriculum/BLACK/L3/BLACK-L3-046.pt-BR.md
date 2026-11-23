@@ -30,7 +30,7 @@ Olhe para uma decisão recente tomada principalmente para bater uma meta de curt
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder pressionado a mostrar bons resultados trimestrais corta os gastos com desenvolvimento da liderança e com iniciativas de engajamento dos funcionários, melhorando os números financeiros do trimestre atual. [ASSUMPTION] Nos trimestres seguintes, o desgaste da capacidade de gestão e do moral dos funcionários que esses cortes criaram em silêncio começa a aparecer em uma rotatividade maior e em uma queda do desempenho — um custo atrasado que o líder não comparou totalmente com o benefício imediato de curto prazo, retomando o ponto da trilha WHITE de que o momento e a sequência importam tanto quanto o resultado médio, aplicado aqui às decisões de liderança, e não aos retornos de investimentos.
+[EXEMPLO ILUSTRATIVO] Um líder pressionado a mostrar bons resultados trimestrais corta os gastos com desenvolvimento da liderança e com iniciativas de engajamento dos funcionários, melhorando os números financeiros do trimestre atual. [SUPOSIÇÃO] Nos trimestres seguintes, o desgaste da capacidade de gestão e do moral dos funcionários que esses cortes criaram em silêncio começa a aparecer em uma rotatividade maior e em uma queda do desempenho — um custo atrasado que o líder não comparou totalmente com o benefício imediato de curto prazo, retomando o ponto da trilha WHITE de que o momento e a sequência importam tanto quanto o resultado médio, aplicado aqui às decisões de liderança, e não aos retornos de investimentos.
 
 ## Teste de prática
 

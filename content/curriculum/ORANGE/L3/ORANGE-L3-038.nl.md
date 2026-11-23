@@ -30,7 +30,7 @@ Voordat je de ROI van een marketingcampagne als succes presenteert: omvat de ber
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een campagne meldt dat er een bepaald bedrag aan advertenties is uitgegeven en dat er een veelvoud van dat bedrag aan omzet is opgeleverd, wat intern wordt gepresenteerd als een duidelijk ROI-succes. [ASSUMPTION] Een volledigere berekening – inclusief de flinke tijd die het marketingteam aan het beheren van de campagne besteedde, de volledige kosten van het werkelijk leveren van het product aan de nieuwe klanten en de opportuniteitskosten van de aandacht van het team die elders had kunnen worden ingezet – laat zien dat het werkelijke rendement van de campagne veel bescheidener is dan het cijfer in de kop deed vermoeden. Dit laat zien waarom een eenvoudige verhouding tussen advertentie-uitgaven en omzet een misleidend rooskleurig beeld kan geven van de werkelijke marketingprestaties.
+[ILLUSTRATIEF VOORBEELD] Een campagne meldt dat er een bepaald bedrag aan advertenties is uitgegeven en dat er een veelvoud van dat bedrag aan omzet is opgeleverd, wat intern wordt gepresenteerd als een duidelijk ROI-succes. [AANNAME] Een volledigere berekening – inclusief de flinke tijd die het marketingteam aan het beheren van de campagne besteedde, de volledige kosten van het werkelijk leveren van het product aan de nieuwe klanten en de opportuniteitskosten van de aandacht van het team die elders had kunnen worden ingezet – laat zien dat het werkelijke rendement van de campagne veel bescheidener is dan het cijfer in de kop deed vermoeden. Dit laat zien waarom een eenvoudige verhouding tussen advertentie-uitgaven en omzet een misleidend rooskleurig beeld kan geven van de werkelijke marketingprestaties.
 
 ## Oefenquiz
 

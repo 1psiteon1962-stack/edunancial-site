@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A **quebra de contrato** acontece quando uma parte não cumpre as obrigações que assumiu num acordo. Este é o "porquê" de nem toda quebra ser tratada da mesma forma: [VERIFIED FACT] muitos sistemas jurídicos geralmente diferenciam o **descumprimento grave** (material breach) — uma falha importante, que compromete o propósito essencial do contrato — do **descumprimento leve** (minor breach) — uma falha menos importante, que não anula o propósito geral do contrato, embora ainda seja, tecnicamente, um cumprimento diferente do combinado.
+A **quebra de contrato** acontece quando uma parte não cumpre as obrigações que assumiu num acordo. Este é o "porquê" de nem toda quebra ser tratada da mesma forma: [FACTO VERIFICADO] muitos sistemas jurídicos geralmente diferenciam o **descumprimento grave** (material breach) — uma falha importante, que compromete o propósito essencial do contrato — do **descumprimento leve** (minor breach) — uma falha menos importante, que não anula o propósito geral do contrato, embora ainda seja, tecnicamente, um cumprimento diferente do combinado.
 
 Essa diferença importa porque geralmente define qual remédio jurídico está disponível: um descumprimento grave pode permitir que a parte que cumpriu trate o contrato inteiro como encerrado e busque indenização pela falha completa. Um descumprimento leve geralmente não libera a parte que cumpriu das próprias obrigações restantes no contrato — ela pode ter direito a indenização pelo dano específico e limitado causado pelo descumprimento leve, mas o contrato em si geralmente continua a valer, e as duas partes devem continuar a cumprir as obrigações restantes.
 
@@ -30,7 +30,7 @@ Essa diferença importa porque geralmente define qual remédio jurídico está d
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um contrato para uma obra importante define uma data de conclusão. Se a construtora atrasar essa data num único dia por causa de um problema pequeno e fácil de corrigir, isso pode ser tratado como descumprimento leve — o proprietário provavelmente não pode simplesmente abandonar o contrato inteiro, mas pode ter direito a um remédio específico por esse atraso limitado, como um pequeno desconto negociado, se o contrato ou a lei aplicável preverem isso. [ASSUMPTION] Se, em vez disso, a construtora abandonar completamente a obra no meio do caminho, sem entregar nada parecido com o que foi combinado, isso provavelmente seria tratado como descumprimento grave — comprometendo o propósito essencial do contrato e possivelmente permitindo que o proprietário encerre o acordo inteiro e busque indenização pela falha completa.
+[EXEMPLO ILUSTRATIVO] Um contrato para uma obra importante define uma data de conclusão. Se a construtora atrasar essa data num único dia por causa de um problema pequeno e fácil de corrigir, isso pode ser tratado como descumprimento leve — o proprietário provavelmente não pode simplesmente abandonar o contrato inteiro, mas pode ter direito a um remédio específico por esse atraso limitado, como um pequeno desconto negociado, se o contrato ou a lei aplicável preverem isso. [SUPOSIÇÃO] Se, em vez disso, a construtora abandonar completamente a obra no meio do caminho, sem entregar nada parecido com o que foi combinado, isso provavelmente seria tratado como descumprimento grave — comprometendo o propósito essencial do contrato e possivelmente permitindo que o proprietário encerre o acordo inteiro e busque indenização pela falha completa.
 
 ## Teste de prática
 

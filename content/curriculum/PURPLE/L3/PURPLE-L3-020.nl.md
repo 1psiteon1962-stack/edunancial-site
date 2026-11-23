@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Een **merk** beschermt over het algemeen een onderscheidingsteken – een naam, logo of vergelijkbaar teken dat wordt gebruikt om de goederen of diensten van een onderneming op de markt te onderscheiden. Hier is het "waarom" merkbescherming over het algemeen blijvend, actief gebruik vraagt, anders dan sommige andere vormen van intellectueel eigendom: [VERIFIED FACT] het merkenrecht is over het algemeen bedoeld om consumenten te beschermen tegen verwarring op de echte markt, en een merk dat niet echt in het handelsverkeer wordt gebruikt, dient dat onderliggende beschermende doel niet, hoe geldig het op een eerder moment ook is ingeschreven.
+Een **merk** beschermt over het algemeen een onderscheidingsteken – een naam, logo of vergelijkbaar teken dat wordt gebruikt om de goederen of diensten van een onderneming op de markt te onderscheiden. Hier is het "waarom" merkbescherming over het algemeen blijvend, actief gebruik vraagt, anders dan sommige andere vormen van intellectueel eigendom: [GEVERIFIEERD FEIT] het merkenrecht is over het algemeen bedoeld om consumenten te beschermen tegen verwarring op de echte markt, en een merk dat niet echt in het handelsverkeer wordt gebruikt, dient dat onderliggende beschermende doel niet, hoe geldig het op een eerder moment ook is ingeschreven.
 
 Daarom erkennen veel rechtsgebieden over het algemeen een begrip dat soms **prijsgeven** (abandonment) wordt genoemd: als een merkhouder een merk gedurende een flinke, lange periode niet meer in het handelsverkeer gebruikt, zonder het voornemen het gebruik te hervatten, kunnen de merkrechten over het algemeen verloren gaan. Een onderneming kan niet zomaar één keer een merk inschrijven en aannemen dat ze blijvend en onbeperkt beschermd is, ongeacht of ze het merk daarna ooit echt gebruikt.
 
@@ -30,7 +30,7 @@ Dat verschilt duidelijk van bijvoorbeeld een octrooi (dat in de volgende les aan
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming schrijft een merk in voor haar merknaam en gebruikt dat merk actief in het doorlopende handelsverkeer, waardoor haar merkrechten door blijvend, echt gebruik in stand blijven. [ASSUMPTION] Als diezelfde onderneming later de specifieke productlijn stopzet die bij het merk hoort, het merk gedurende een flinke, lange periode op geen enkele commerciële manier meer gebruikt en niet echt van plan is het gebruik te hervatten, kan een rechter oordelen dat het merk is prijsgegeven. De merkrechten kunnen dan verloren gaan, en een andere onderneming kan mogelijk vrij zijn om een vergelijkbaar merk te gaan gebruiken, ook al was de oorspronkelijke inschrijving op het moment van verkrijgen volledig geldig.
+[ILLUSTRATIEF VOORBEELD] Een onderneming schrijft een merk in voor haar merknaam en gebruikt dat merk actief in het doorlopende handelsverkeer, waardoor haar merkrechten door blijvend, echt gebruik in stand blijven. [AANNAME] Als diezelfde onderneming later de specifieke productlijn stopzet die bij het merk hoort, het merk gedurende een flinke, lange periode op geen enkele commerciële manier meer gebruikt en niet echt van plan is het gebruik te hervatten, kan een rechter oordelen dat het merk is prijsgegeven. De merkrechten kunnen dan verloren gaan, en een andere onderneming kan mogelijk vrij zijn om een vergelijkbaar merk te gaan gebruiken, ook al was de oorspronkelijke inschrijving op het moment van verkrijgen volledig geldig.
 
 ## Oefenquiz
 

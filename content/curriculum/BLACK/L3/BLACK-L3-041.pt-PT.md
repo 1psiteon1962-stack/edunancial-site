@@ -30,7 +30,7 @@ Quem realmente se beneficiou da sua mentoria intencional? E já pensou nesse inv
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder dedica muito tempo, ao longo dos anos, a ser mentor de vários membros da equipa de forma intencional, ensinando não só habilidades específicas, mas também o julgamento e o raciocínio de fundo que ele desenvolveu. [ASSUMPTION] Anos depois de esse líder ter ido para outro cargo ou outra organização, várias dessas pessoas acompanhadas viraram mentoras de outras, levando adiante e multiplicando o investimento original — um retorno acumulado que continuou a gerar valor muito depois de o envolvimento direto do líder original ter terminado, o que mostra exatamente por que a mentoria merece a avaliação de investimento que a Lição 24 recomenda para o desenvolvimento da liderança em geral.
+[EXEMPLO ILUSTRATIVO] Um líder dedica muito tempo, ao longo dos anos, a ser mentor de vários membros da equipa de forma intencional, ensinando não só habilidades específicas, mas também o julgamento e o raciocínio de fundo que ele desenvolveu. [SUPOSIÇÃO] Anos depois de esse líder ter ido para outro cargo ou outra organização, várias dessas pessoas acompanhadas viraram mentoras de outras, levando adiante e multiplicando o investimento original — um retorno acumulado que continuou a gerar valor muito depois de o envolvimento direto do líder original ter terminado, o que mostra exatamente por que a mentoria merece a avaliação de investimento que a Lição 24 recomenda para o desenvolvimento da liderança em geral.
 
 ## Teste de prática
 

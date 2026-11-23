@@ -30,7 +30,7 @@ Y a-t-il une décision que tu dois prendre en ce moment où ta propre situation 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader qui subit une forte pression financière personnelle évalue s'il doit conclure une entente d'affaires risquée, mais lucrative à court terme. [ASSUMPTION] Sans reconnaître comment son propre stress financier pourrait influencer cette évaluation, le leader pourrait sous-estimer les vrais risques de l'entente pour l'organisation, faussé par une préférence inconsciente pour le soulagement à court terme que les produits de l'entente lui apporteraient personnellement — une distorsion qu'une mesure de protection structurelle, comme l'obligation d'obtenir un point de vue vraiment indépendant avant de finaliser des décisions importantes (en écho à la leçon 10), pourrait aider à repérer et à corriger.
+[EXEMPLE ILLUSTRATIF] Un leader qui subit une forte pression financière personnelle évalue s'il doit conclure une entente d'affaires risquée, mais lucrative à court terme. [HYPOTHÈSE] Sans reconnaître comment son propre stress financier pourrait influencer cette évaluation, le leader pourrait sous-estimer les vrais risques de l'entente pour l'organisation, faussé par une préférence inconsciente pour le soulagement à court terme que les produits de l'entente lui apporteraient personnellement — une distorsion qu'une mesure de protection structurelle, comme l'obligation d'obtenir un point de vue vraiment indépendant avant de finaliser des décisions importantes (en écho à la leçon 10), pourrait aider à repérer et à corriger.
 
 ## Quiz de pratique
 

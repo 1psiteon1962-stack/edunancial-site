@@ -30,7 +30,7 @@ La prochaine fois que tu ressens un réflexe fort et immédiat dans une situatio
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader qui fait face à une crise en cours ressent un réflexe fort et immédiat de réagir d'une façon précise, motivé en grande partie par l'information la plus alarmante qui vient d'arriver. [ASSUMPTION] En prenant une brève pause délibérée — quelques minutes, et non un long délai — pour se demander si ce réflexe reflète un jugement vraiment solide ou simplement une réaction de stress aigu à l'information la plus récente et la plus alarmante, ce leader reconnaît que son réflexe était façonné de façon disproportionnée par le biais de récence, et s'ajuste vers une réponse plus mesurée qui respecte quand même les exigences de rapidité décrites à la leçon 16, tout en évitant la distorsion précise que cette brève pause visait à repérer.
+[EXEMPLE ILLUSTRATIF] Un leader qui fait face à une crise en cours ressent un réflexe fort et immédiat de réagir d'une façon précise, motivé en grande partie par l'information la plus alarmante qui vient d'arriver. [HYPOTHÈSE] En prenant une brève pause délibérée — quelques minutes, et non un long délai — pour se demander si ce réflexe reflète un jugement vraiment solide ou simplement une réaction de stress aigu à l'information la plus récente et la plus alarmante, ce leader reconnaît que son réflexe était façonné de façon disproportionnée par le biais de récence, et s'ajuste vers une réponse plus mesurée qui respecte quand même les exigences de rapidité décrites à la leçon 16, tout en évitant la distorsion précise que cette brève pause visait à repérer.
 
 ## Quiz de pratique
 

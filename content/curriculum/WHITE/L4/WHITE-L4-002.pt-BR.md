@@ -24,14 +24,14 @@ SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine
 - Identificar sinais de que uma distribuição de dividendos pode ser insustentável.
 
 ## Conteúdo principal
-O dividend yield é igual aos dividendos anuais por ação divididos pelo preço da ação. VERIFIED FACT: o dividend yield sobe de duas maneiras muito diferentes, ou o pagamento de dividendos aumenta, ou o preço da ação cai, e essas duas causas significam coisas muito diferentes para um investidor.
+O dividend yield é igual aos dividendos anuais por ação divididos pelo preço da ação. FATO VERIFICADO: o dividend yield sobe de duas maneiras muito diferentes, ou o pagamento de dividendos aumenta, ou o preço da ação cai, e essas duas causas significam coisas muito diferentes para um investidor.
 
 Eis o "porquê" de o rendimento sozinho enganar: um preço da ação em queda, muitas vezes por causa da deterioração dos fundamentos do negócio (como a pressão do aperto de crédito no cenário acima), empurra mecanicamente o dividend yield para cima mesmo enquanto a empresa subjacente fica mais fraca, e não mais forte. Um yield excepcionalmente alto em comparação com o próprio histórico da empresa ou com as concorrentes do setor é frequentemente um sinal do mercado de que os investidores esperam um corte de dividendos, e não uma oportunidade de garantir uma renda fora do comum.
 
 É por isso que o retorno total, ou seja, os dividendos mais a valorização ou desvalorização do preço, é a medida mais completa, em linha com a distinção entre retorno cash-on-cash e retorno total da análise imobiliária. Uma empresa com um yield modesto de 2%, mas com lucros e preço da ação em crescimento constante, pode facilmente ter desempenho melhor do que uma empresa com um yield de 8% apoiada em um negócio em encolhimento e sob estresse financeiro, especialmente se esse yield de 8% for cortado e, como resultado, o preço da ação cair ainda mais.
 
 ## Exemplo prático
-ILLUSTRATIVE EXAMPLE: O dividend yield de uma empresa sobe de 3% para 9% ao longo de um ano, não porque a administração aumentou o dividendo, mas porque o preço da ação caiu dois terços em meio a estresse financeiro. Um investidor atraído apenas pelo chamativo yield de 9%, sem verificar o payout (os dividendos como parcela do lucro) nem o motivo da queda do preço, compra pouco antes de a empresa anunciar que precisa cortar totalmente o dividendo para preservar caixa, fazendo o preço da ação, e o retorno total do investidor, cair ainda mais.
+EXEMPLO ILUSTRATIVO: O dividend yield de uma empresa sobe de 3% para 9% ao longo de um ano, não porque a administração aumentou o dividendo, mas porque o preço da ação caiu dois terços em meio a estresse financeiro. Um investidor atraído apenas pelo chamativo yield de 9%, sem verificar o payout (os dividendos como parcela do lucro) nem o motivo da queda do preço, compra pouco antes de a empresa anunciar que precisa cortar totalmente o dividendo para preservar caixa, fazendo o preço da ação, e o retorno total do investidor, cair ainda mais.
 
 ## Teste de prática
 **P1. Como se calcula o dividend yield?**

@@ -30,7 +30,7 @@ Welke prikkel heeft je verkoopteam nu om CRM-gegevens nauwkeurig en actueel te h
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een verkoopteam laat deals in het CRM consequent op "wordt binnenkort waarschijnlijk gesloten" staan, lang nadat die deals werkelijk zijn bekoeld, omdat een optimistisch label geen specifieke gevolgen heeft en het enig voordeel oplevert om productief te lijken. [ASSUMPTION] Het financiële team, dat deze CRM-gegevens gebruikt om de naar kans gewogen prognose uit Les 15 op te stellen, maakt een omzetprognose die systematisch te optimistisch is – niet omdat de rekenmethode van de prognose fout is, maar omdat de onderliggende gegevens die erin gaan onbetrouwbaar waren. Dit laat zien waarom de kwaliteit van CRM-gegevens een kwestie van financiële planning is, en niet alleen van verkoopbeheer.
+[ILLUSTRATIEF VOORBEELD] Een verkoopteam laat deals in het CRM consequent op "wordt binnenkort waarschijnlijk gesloten" staan, lang nadat die deals werkelijk zijn bekoeld, omdat een optimistisch label geen specifieke gevolgen heeft en het enig voordeel oplevert om productief te lijken. [AANNAME] Het financiële team, dat deze CRM-gegevens gebruikt om de naar kans gewogen prognose uit Les 15 op te stellen, maakt een omzetprognose die systematisch te optimistisch is – niet omdat de rekenmethode van de prognose fout is, maar omdat de onderliggende gegevens die erin gaan onbetrouwbaar waren. Dit laat zien waarom de kwaliteit van CRM-gegevens een kwestie van financiële planning is, en niet alleen van verkoopbeheer.
 
 ## Oefenquiz
 

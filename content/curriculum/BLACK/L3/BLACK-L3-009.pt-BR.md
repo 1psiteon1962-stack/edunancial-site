@@ -30,7 +30,7 @@ Que hábitos de liderança ajudaram você quando a sua equipe era menor e que ag
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder que montou uma equipe pequena revisando pessoalmente cada decisão e se mantendo muito envolvido em cada projeto continua com essa mesma abordagem enquanto a organização fica bem maior. [ASSUMPTION] O que antes garantia qualidade e coesão agora cria um gargalo — as decisões se acumulam esperando a atenção pessoal desse líder, os membros da equipe se sentem sem autonomia para agir sem aprovação explícita e o ritmo da organização cai até o que uma pessoa consegue revisar pessoalmente, em vez do que a equipe, agora maior, realmente poderia realizar se tivesse confiança, autonomia e sistemas adequados.
+[EXEMPLO ILUSTRATIVO] Um líder que montou uma equipe pequena revisando pessoalmente cada decisão e se mantendo muito envolvido em cada projeto continua com essa mesma abordagem enquanto a organização fica bem maior. [SUPOSIÇÃO] O que antes garantia qualidade e coesão agora cria um gargalo — as decisões se acumulam esperando a atenção pessoal desse líder, os membros da equipe se sentem sem autonomia para agir sem aprovação explícita e o ritmo da organização cai até o que uma pessoa consegue revisar pessoalmente, em vez do que a equipe, agora maior, realmente poderia realizar se tivesse confiança, autonomia e sistemas adequados.
 
 ## Teste de prática
 

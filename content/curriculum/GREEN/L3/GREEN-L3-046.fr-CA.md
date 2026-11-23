@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Imagine qu'un gouvernement, aux prises avec d'importantes pressions budgétaires, adopte une loi générale qui augmente de façon importante les taux d'imposition du revenu dans la plupart des tranches, en vigueur pour les années à venir. C'est un scénario hypothétique servant de test de résistance, et non une prédiction sur une politique ou un pays réel précis.
+[SCÉNARIO HYPOTHÉTIQUE — HYPOTHÈSE, PAS UN FAIT VÉRIFIÉ] Imagine qu'un gouvernement, aux prises avec d'importantes pressions budgétaires, adopte une loi générale qui augmente de façon importante les taux d'imposition du revenu dans la plupart des tranches, en vigueur pour les années à venir. C'est un scénario hypothétique servant de test de résistance, et non une prédiction sur une politique ou un pays réel précis.
 
 Dans ce scénario hypothétique, la décision entre compte traditionnel et compte Roth de la leçon 12 change de façon importante : les contribuables qui ont profité d'une déduction pour un compte traditionnel aux taux plus bas d'aujourd'hui, en prévoyant retirer l'argent et payer l'impôt plus tard, feraient maintenant face à cet impôt futur sur les retraits aux nouveaux taux plus élevés — un résultat moins avantageux que prévu au moment de la cotisation. Les contribuables qui ont plutôt choisi des comptes Roth, en payant l'impôt d'avance aux taux plus bas d'aujourd'hui, sembleraient en meilleure posture après coup, puisque leurs retraits futurs admissibles restent non imposables, peu importe les nouveaux taux plus élevés.
 

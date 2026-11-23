@@ -26,11 +26,11 @@ Als je een bedrijf overneemt dat als vennootschap (bv, nv of vergelijkbaar) is o
 
 Hier is het "waarom" kopers en verkopers vaak een tegenovergestelde structuur verkiezen: bij een activa-overname kan de koper meestal kiezen welke bezittingen en schulden hij overneemt, en vermijdt hij in het algemeen onbekende of ongewenste schulden die binnen de vennootschap zelf kunnen bestaan (bijvoorbeeld niet-gemelde rechtszaken). Dat is een belangrijke reden waarom kopers vaak deze structuur verkiezen. Bij een aandelenovername draagt de verkoper de hele entiteit over, inclusief alle schulden, bekend of onbekend. Daarom verkiezen verkopers vaak deze structuur: die geeft een schonere, volledigere uitstap uit elk aspect van het bedrijf, bekend en onbekend.
 
-[VERIFIED FACT] Ook de fiscale behandeling verschilt vaak sterk tussen de twee structuren, zowel voor de koper als voor de verkoper, en kan zwaar wegen bij de structuur waarover uiteindelijk wordt onderhandeld. De precieze fiscale gevolgen hangen af van de regels in elk land en moeten bij elke echte transactie met professionele hulp worden beoordeeld.
+[GEVERIFIEERD FEIT] Ook de fiscale behandeling verschilt vaak sterk tussen de twee structuren, zowel voor de koper als voor de verkoper, en kan zwaar wegen bij de structuur waarover uiteindelijk wordt onderhandeld. De precieze fiscale gevolgen hangen af van de regels in elk land en moeten bij elke echte transactie met professionele hulp worden beoordeeld.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een koper wil een productiebedrijf overnemen, maar maakt zich zorgen over mogelijke niet-gemelde milieuaansprakelijkheden die met de geschiedenis van de vennootschap samenhangen. Als hij de deal als activa-overname opzet, kan hij precies de machines, voorraad en klantcontracten kopen die hij wil, zonder automatisch onbekende schulden van de vennootschap zelf over te nemen. De verkoper kan echter juist een aandelenovername verkiezen om volledig en schoon uit het bedrijf te stappen, inclusief schulden die bij de activa-overname van de koper anders bij de verkoper zouden achterblijven.
+[ILLUSTRATIEF VOORBEELD] Een koper wil een productiebedrijf overnemen, maar maakt zich zorgen over mogelijke niet-gemelde milieuaansprakelijkheden die met de geschiedenis van de vennootschap samenhangen. Als hij de deal als activa-overname opzet, kan hij precies de machines, voorraad en klantcontracten kopen die hij wil, zonder automatisch onbekende schulden van de vennootschap zelf over te nemen. De verkoper kan echter juist een aandelenovername verkiezen om volledig en schoon uit het bedrijf te stappen, inclusief schulden die bij de activa-overname van de koper anders bij de verkoper zouden achterblijven.
 
 ## Oefenquiz
 

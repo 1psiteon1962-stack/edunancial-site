@@ -30,7 +30,7 @@ Voordat je je vastlegt op een flinke verhoging van je marketinguitgaven: hoe lan
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming verhoogt haar marketinguitgaven flink, in de verwachting dat de resulterende verkoopgroei de bedrijfsvoering van het volgende kwartaal financiert. [ASSUMPTION] De marketing werkt echt – leads worden in het verwachte tempo verkopen – maar het werkelijke geld uit die verkopen komt, gezien de gebruikelijke incassotermijn van 60 dagen van de onderneming uit de bespreking in het BLUE-traject, pas ruim nadat de marketingrekeningen moesten worden betaald. Zo ontstaat er een kastekort, terwijl de marketingcampagne volgens haar eigen maatstaven een duidelijk succes is.
+[ILLUSTRATIEF VOORBEELD] Een onderneming verhoogt haar marketinguitgaven flink, in de verwachting dat de resulterende verkoopgroei de bedrijfsvoering van het volgende kwartaal financiert. [AANNAME] De marketing werkt echt – leads worden in het verwachte tempo verkopen – maar het werkelijke geld uit die verkopen komt, gezien de gebruikelijke incassotermijn van 60 dagen van de onderneming uit de bespreking in het BLUE-traject, pas ruim nadat de marketingrekeningen moesten worden betaald. Zo ontstaat er een kastekort, terwijl de marketingcampagne volgens haar eigen maatstaven een duidelijk succes is.
 
 ## Oefenquiz
 

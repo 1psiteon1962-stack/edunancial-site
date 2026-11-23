@@ -30,7 +30,7 @@ Olhe para a sua equipe de liderança atual ou para os seus conselheiros mais pr�
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder percebe que toda proposta apresentada à equipe de liderança recebe uma concordância rápida e unânime e, no começo, interpreta isso como a prova de uma equipe forte e alinhada. [ASSUMPTION] Pensando melhor, ligando-se à preocupação com a segurança psicológica da Lição 11, esse líder reconhece que uma concordância tão fácil pode refletir uma equipe que aprendeu que discordar não é bem-vindo, e não um consenso real — o que o leva a um esforço intencional para buscar membros conhecidos pelo julgamento independente e para convidar e recompensar ativamente as opiniões divergentes, em vez de continuar interpretando a concordância confortável como sinal da força da equipe.
+[EXEMPLO ILUSTRATIVO] Um líder percebe que toda proposta apresentada à equipe de liderança recebe uma concordância rápida e unânime e, no começo, interpreta isso como a prova de uma equipe forte e alinhada. [SUPOSIÇÃO] Pensando melhor, ligando-se à preocupação com a segurança psicológica da Lição 11, esse líder reconhece que uma concordância tão fácil pode refletir uma equipe que aprendeu que discordar não é bem-vindo, e não um consenso real — o que o leva a um esforço intencional para buscar membros conhecidos pelo julgamento independente e para convidar e recompensar ativamente as opiniões divergentes, em vez de continuar interpretando a concordância confortável como sinal da força da equipe.
 
 ## Teste de prática
 

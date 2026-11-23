@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-Uma política de reembolso costuma ser tratada como uma decisão de atendimento ao cliente ou de tom da marca — simpática e generosa, ou rígida e protetora da margem. Este é o "porquê" de ela ser também, ao mesmo tempo, uma declaração de condições juridicamente vinculante: [VERIFIED FACT] em muitas jurisdições, a política de reembolso declarada por um negócio passa a fazer parte das condições de venda, e as leis de proteção ao consumidor podem impor exigências mínimas adicionais, independentemente do que a política do próprio negócio diga (como o direito de arrependimento em certas compras fora do estabelecimento), retomando a discussão da trilha PURPLE sobre proteções legais obrigatórias que não podem simplesmente ser afastadas por contrato.
+Uma política de reembolso costuma ser tratada como uma decisão de atendimento ao cliente ou de tom da marca — simpática e generosa, ou rígida e protetora da margem. Este é o "porquê" de ela ser também, ao mesmo tempo, uma declaração de condições juridicamente vinculante: [FATO VERIFICADO] em muitas jurisdições, a política de reembolso declarada por um negócio passa a fazer parte das condições de venda, e as leis de proteção ao consumidor podem impor exigências mínimas adicionais, independentemente do que a política do próprio negócio diga (como o direito de arrependimento em certas compras fora do estabelecimento), retomando a discussão da trilha PURPLE sobre proteções legais obrigatórias que não podem simplesmente ser afastadas por contrato.
 
 É por isso que uma política de reembolso exige o mesmo cuidado na redação que qualquer outro documento juridicamente importante — uma redação vaga cria ambiguidade que leva a disputas, enquanto uma política restritiva demais, mesmo que tecnicamente legal, pode causar o dano à reputação visto na Lição 4 quando os clientes se sentem tratados de forma injusta e contam a experiência publicamente, independentemente de alguma lei ter sido, de fato, violada.
 
@@ -30,7 +30,7 @@ Antes de aprovar uma política de reembolso: ela trata com clareza as situaçõe
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio redige uma política de reembolso com uma linguagem vaga sobre "circunstâncias razoáveis" para um reembolso, sem especificar com clareza o que isso significa na prática. [ASSUMPTION] Quando um cliente pede um reembolso em circunstâncias que o negócio considera não razoáveis, mas que o cliente considera totalmente razoáveis, essa ambiguidade cria uma disputa que uma política redigida com mais clareza teria evitado — e, dependendo das exigências de proteção ao consumidor da jurisdição aplicável, a interpretação restritiva do negócio pode nem ter validade jurídica, independentemente do que a própria política diga.
+[EXEMPLO ILUSTRATIVO] Um negócio redige uma política de reembolso com uma linguagem vaga sobre "circunstâncias razoáveis" para um reembolso, sem especificar com clareza o que isso significa na prática. [SUPOSIÇÃO] Quando um cliente pede um reembolso em circunstâncias que o negócio considera não razoáveis, mas que o cliente considera totalmente razoáveis, essa ambiguidade cria uma disputa que uma política redigida com mais clareza teria evitado — e, dependendo das exigências de proteção ao consumidor da jurisdição aplicável, a interpretação restritiva do negócio pode nem ter validade jurídica, independentemente do que a própria política diga.
 
 ## Teste de prática
 

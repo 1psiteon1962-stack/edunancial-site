@@ -30,7 +30,7 @@ In quali punti delle tue pratiche di marketing la scelta etica e la scelta che r
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa valuta se documentare con rigore un'affermazione di marketing prima di pubblicarla, oppure pubblicarne una versione più d'effetto ma verificata con meno rigore. [ASSUMPTION] La versione documentata con rigore è sia la scelta più etica sia la scelta a rischio più basso, data l'esposizione giuridica discussa nella Lezione 7 e la vulnerabilità reputazionale discussa nella Lezione 4. In questo caso etica e gestione del rischio vanno nella stessa direzione e la decisione è semplice, anche se un professionista del marketing davvero etico farebbe la stessa scelta onesta anche in un'ipotetica situazione in cui il rischio giuridico o reputazionale dell'esagerazione fosse più basso.
+[ESEMPIO ILLUSTRATIVO] Un'impresa valuta se documentare con rigore un'affermazione di marketing prima di pubblicarla, oppure pubblicarne una versione più d'effetto ma verificata con meno rigore. [IPOTESI] La versione documentata con rigore è sia la scelta più etica sia la scelta a rischio più basso, data l'esposizione giuridica discussa nella Lezione 7 e la vulnerabilità reputazionale discussa nella Lezione 4. In questo caso etica e gestione del rischio vanno nella stessa direzione e la decisione è semplice, anche se un professionista del marketing davvero etico farebbe la stessa scelta onesta anche in un'ipotetica situazione in cui il rischio giuridico o reputazionale dell'esagerazione fosse più basso.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ Pense à un problème récent qui est devenu plus coûteux ou plus visible qu'il
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Dans une organisation sans vraie sécurité psychologique, un membre de l'équipe remarque tôt un problème important dans le calendrier d'un projet, mais ne soulève pas la préoccupation, de peur d'être perçu comme négatif ou peu utile. [ASSUMPTION] Le problème, laissé sans réponse, s'aggrave et finit par devenir un échec beaucoup plus visible et coûteux qu'il ne l'aurait été s'il avait été soulevé et réglé tôt — une conséquence financière directe de l'absence de sécurité psychologique, ce qui montre pourquoi ce n'est pas seulement une préférence culturelle, mais un facteur qui a un effet réel et mesurable sur le rendement de l'organisation.
+[EXEMPLE ILLUSTRATIF] Dans une organisation sans vraie sécurité psychologique, un membre de l'équipe remarque tôt un problème important dans le calendrier d'un projet, mais ne soulève pas la préoccupation, de peur d'être perçu comme négatif ou peu utile. [HYPOTHÈSE] Le problème, laissé sans réponse, s'aggrave et finit par devenir un échec beaucoup plus visible et coûteux qu'il ne l'aurait été s'il avait été soulevé et réglé tôt — une conséquence financière directe de l'absence de sécurité psychologique, ce qui montre pourquoi ce n'est pas seulement une préférence culturelle, mais un facteur qui a un effet réel et mesurable sur le rendement de l'organisation.
 
 ## Quiz de pratique
 

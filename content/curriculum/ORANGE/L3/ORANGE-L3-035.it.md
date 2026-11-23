@@ -30,7 +30,7 @@ Prima di festeggiare un successo del marketing per la crescita: hai verificato c
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un team di marketing festeggia un trimestre di successo con una rapida crescita dei clienti, trainata da una campagna di acquisizione aggressiva e costosa. [ASSUMPTION] Uno sguardo più attento all'economia unitaria dietro questa specifica crescita rivela che ogni nuovo cliente, una volta considerati per intero il costo di acquisizione e il valore atteso nel tempo, è in realtà una perdita netta per l'impresa. Questo trimestre di crescita "di successo", esattamente come avvertiva il percorso BLUE, ha quindi accelerato il problema finanziario di fondo dell'impresa invece di risolverlo, anche se ogni metrica di marketing in superficie sembrava positiva.
+[ESEMPIO ILLUSTRATIVO] Un team di marketing festeggia un trimestre di successo con una rapida crescita dei clienti, trainata da una campagna di acquisizione aggressiva e costosa. [IPOTESI] Uno sguardo più attento all'economia unitaria dietro questa specifica crescita rivela che ogni nuovo cliente, una volta considerati per intero il costo di acquisizione e il valore atteso nel tempo, è in realtà una perdita netta per l'impresa. Questo trimestre di crescita "di successo", esattamente come avvertiva il percorso BLUE, ha quindi accelerato il problema finanziario di fondo dell'impresa invece di risolverlo, anche se ogni metrica di marketing in superficie sembrava positiva.
 
 ## Quiz di esercitazione
 

@@ -26,11 +26,11 @@ Ein **Gleitpfad** beschreibt einen vorab festgelegten Plan, die Vermögensauftei
 
 Hier das „Warum“, weshalb dieser Zeitpunkt wichtig ist – direkt verbunden mit dem Reihenfolgerisiko der Renditen aus Lektion 15: Ein Portfolio, auf das noch viele Jahre lang nicht zugegriffen werden muss, hat mehr Zeit, sich von einem Abschwung zu erholen, und kann daher in der Regel mehr Aktien halten, um von deren höherem langfristigem Wachstumspotenzial zu profitieren. Rückt der Zieltermin näher und schrumpft die Zeit, sich von einem möglichen Abschwung zu erholen, senkt eine schrittweise Umschichtung in stabilere Anlagen (wie Anleihen) das Risiko, einen ungünstig getimten großen Rückgang genau dann zu erleben, wenn das Geld gebraucht wird – genau das Risiko aus Lektion 15.
 
-[VERIFIED FACT] Verschiedene Gleitpfade unterscheiden sich darin, wie offensiv oder defensiv sie über die Zeit umschichten und ob die Umschichtung auch nach Erreichen des Zieltermins weitergeht – es gibt keinen einheitlichen Gleitpfad für alle, und das passende Tempo der Anpassung hängt von den persönlichen Umständen und der Risikotoleranz ab.
+[GEPRÜFTE TATSACHE] Verschiedene Gleitpfade unterscheiden sich darin, wie offensiv oder defensiv sie über die Zeit umschichten und ob die Umschichtung auch nach Erreichen des Zieltermins weitergeht – es gibt keinen einheitlichen Gleitpfad für alle, und das passende Tempo der Anpassung hängt von den persönlichen Umständen und der Risikotoleranz ab.
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Zielfonds für jemanden, der in etwa 30 Jahren in den Ruhestand geht, könnte mit einem stark aktienlastigen Portfolio starten und den langen Zeithorizont nutzen, um sich unterwegs von Abschwüngen erholen zu können. Je näher der angestrebte Ruhestandstermin über diese Jahrzehnte rückt, desto mehr erhöht der Fonds schrittweise seinen Anleiheanteil und senkt den Aktienanteil – mit dem Ziel, das Portfolio weniger anfällig für einen ungünstig getimten Abschwung zu machen, gerade wenn die Anlegerin womöglich mit Entnahmen beginnen muss.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Zielfonds für jemanden, der in etwa 30 Jahren in den Ruhestand geht, könnte mit einem stark aktienlastigen Portfolio starten und den langen Zeithorizont nutzen, um sich unterwegs von Abschwüngen erholen zu können. Je näher der angestrebte Ruhestandstermin über diese Jahrzehnte rückt, desto mehr erhöht der Fonds schrittweise seinen Anleiheanteil und senkt den Aktienanteil – mit dem Ziel, das Portfolio weniger anfällig für einen ungünstig getimten Abschwung zu machen, gerade wenn die Anlegerin womöglich mit Entnahmen beginnen muss.
 
 ## Übungsquiz
 1. Was beschreibt ein „Gleitpfad“?

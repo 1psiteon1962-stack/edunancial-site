@@ -30,7 +30,7 @@ Prima di tagliare la spesa per lo sviluppo della leadership in un periodo di bud
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] In un periodo di riduzione del budget, un'impresa taglia per primo il suo programma di sviluppo della leadership, ritenendo che il suo impatto sia più difficile da indicare direttamente rispetto ad altre spese. [ASSUMPTION] Mesi dopo, il turnover dei responsabili aumenta e la qualità delle decisioni peggiora in modo visibile. Anche se è difficile attribuirlo con precisione a quel taglio specifico, è proprio il tipo di valore invisibile che il percorso PURPLE ha descritto per la pianificazione legale preventiva: la spesa per lo sviluppo della leadership offriva un valore reale, anche se difficile da misurare, che l'ipotesi comoda del "è discrezionale" non ha saputo confrontare correttamente con le vere alternative.
+[ESEMPIO ILLUSTRATIVO] In un periodo di riduzione del budget, un'impresa taglia per primo il suo programma di sviluppo della leadership, ritenendo che il suo impatto sia più difficile da indicare direttamente rispetto ad altre spese. [IPOTESI] Mesi dopo, il turnover dei responsabili aumenta e la qualità delle decisioni peggiora in modo visibile. Anche se è difficile attribuirlo con precisione a quel taglio specifico, è proprio il tipo di valore invisibile che il percorso PURPLE ha descritto per la pianificazione legale preventiva: la spesa per lo sviluppo della leadership offriva un valore reale, anche se difficile da misurare, che l'ipotesi comoda del "è discrezionale" non ha saputo confrontare correttamente con le vere alternative.
 
 ## Quiz di esercitazione
 

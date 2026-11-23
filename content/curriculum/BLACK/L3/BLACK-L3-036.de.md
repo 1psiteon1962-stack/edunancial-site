@@ -30,7 +30,7 @@ Welche dieser drei Richtungen – nach oben, nach unten oder zur Seite – erhä
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft investiert viel in die gute Führung ihres eigenen Teams, baut starke Moral und klare Ausrichtung auf, vernachlässigt aber die aktive Pflege der Beziehungen zu den Leitungen gleichrangiger Abteilungen. [ASSUMPTION] Als eine bedeutende abteilungsübergreifende Initiative eine Abstimmung verlangt, die diese Führungskraft nie gepflegt hat, wird die hervorragende Einzelleistung ihres Teams durch schlechte Abstimmung zur Seite untergraben. Das zeigt, warum Führung nach unten allein, so gut sie umgesetzt sein mag, nicht ausreicht, ohne auch die seitlichen Beziehungen bewusst zu gestalten, die Ergebnisse der Organisation jenseits der Kontrolle eines einzelnen Teams beeinflussen.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft investiert viel in die gute Führung ihres eigenen Teams, baut starke Moral und klare Ausrichtung auf, vernachlässigt aber die aktive Pflege der Beziehungen zu den Leitungen gleichrangiger Abteilungen. [ANNAHME] Als eine bedeutende abteilungsübergreifende Initiative eine Abstimmung verlangt, die diese Führungskraft nie gepflegt hat, wird die hervorragende Einzelleistung ihres Teams durch schlechte Abstimmung zur Seite untergraben. Das zeigt, warum Führung nach unten allein, so gut sie umgesetzt sein mag, nicht ausreicht, ohne auch die seitlichen Beziehungen bewusst zu gestalten, die Ergebnisse der Organisation jenseits der Kontrolle eines einzelnen Teams beeinflussen.
 
 ## Übungsquiz
 1. Was bedeutet es, gleichzeitig „nach oben, nach unten und zur Seite“ zu führen?

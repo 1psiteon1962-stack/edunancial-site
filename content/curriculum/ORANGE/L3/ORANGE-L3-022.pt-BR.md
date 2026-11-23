@@ -30,7 +30,7 @@ Antes de fechar uma parceria com influenciador: que proteções contratuais voc�
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio faz parceria com um influenciador popular para promover o produto dele, sem um contrato redigido com clareza que defina padrões de conteúdo, exigências de informação ou uma cláusula de saída caso a relação precise terminar. [ASSUMPTION] Depois, o influenciador se envolve em uma polêmica pública sem relação com a parceria, e o negócio vê a própria reputação afetada por associação, sem nenhum mecanismo contratual claro para encerrar rapidamente a parceria ou se distanciar — o que mostra tanto a lacuna contratual sobre a qual esta lição alerta quanto o risco específico de vínculo de reputação próprio desse tipo de parceria de marketing.
+[EXEMPLO ILUSTRATIVO] Um negócio faz parceria com um influenciador popular para promover o produto dele, sem um contrato redigido com clareza que defina padrões de conteúdo, exigências de informação ou uma cláusula de saída caso a relação precise terminar. [SUPOSIÇÃO] Depois, o influenciador se envolve em uma polêmica pública sem relação com a parceria, e o negócio vê a própria reputação afetada por associação, sem nenhum mecanismo contratual claro para encerrar rapidamente a parceria ou se distanciar — o que mostra tanto a lacuna contratual sobre a qual esta lição alerta quanto o risco específico de vínculo de reputação próprio desse tipo de parceria de marketing.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Chi ha davvero tratto beneficio dal tuo mentoring deliberato? E hai mai pensato 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader dedica negli anni molto tempo a fare deliberatamente da mentore a diversi membri del team, insegnando non solo competenze specifiche ma anche il giudizio e il ragionamento di fondo che ha sviluppato. [ASSUMPTION] Anni dopo che questo leader è passato a un altro ruolo o a un'altra organizzazione, diverse di quelle persone fanno a loro volta da mentori ad altri, portando avanti e moltiplicando l'investimento originale. È un rendimento cumulativo che ha continuato a generare valore molto dopo la fine del coinvolgimento diretto del leader originale, e mostra proprio perché il mentoring merita la valutazione da investimento che la Lezione 24 raccomanda per lo sviluppo della leadership in generale.
+[ESEMPIO ILLUSTRATIVO] Un leader dedica negli anni molto tempo a fare deliberatamente da mentore a diversi membri del team, insegnando non solo competenze specifiche ma anche il giudizio e il ragionamento di fondo che ha sviluppato. [IPOTESI] Anni dopo che questo leader è passato a un altro ruolo o a un'altra organizzazione, diverse di quelle persone fanno a loro volta da mentori ad altri, portando avanti e moltiplicando l'investimento originale. È un rendimento cumulativo che ha continuato a generare valore molto dopo la fine del coinvolgimento diretto del leader originale, e mostra proprio perché il mentoring merita la valutazione da investimento che la Lezione 24 raccomanda per lo sviluppo della leadership in generale.
 
 ## Quiz di esercitazione
 

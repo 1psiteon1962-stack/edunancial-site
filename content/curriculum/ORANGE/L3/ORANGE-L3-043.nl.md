@@ -30,7 +30,7 @@ Zijn de voorwaarden van je referralprogramma, voordat je het lanceert, specifiek
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming lanceert een referralprogramma met een eenvoudige, vage belofte: "breng een vriend aan en word beloond". Een klant brengt verschillende vrienden aan, van wie sommigen zich kort aanmelden en vrijwel meteen weer opzeggen. [ASSUMPTION] Zonder duidelijke voorwaarden die vastleggen of een beloning bij aanmelding wordt verdiend of pas na een minimale periode als klant, krijgt de onderneming een echt geschil met de klant over de vraag of deze doorverwijzingen wel geldig zijn – een probleem dat een specifieker opgesteld programma, met dezelfde beginselen van duidelijke contracttaal uit het PURPLE-traject, vanaf het begin had voorkomen.
+[ILLUSTRATIEF VOORBEELD] Een onderneming lanceert een referralprogramma met een eenvoudige, vage belofte: "breng een vriend aan en word beloond". Een klant brengt verschillende vrienden aan, van wie sommigen zich kort aanmelden en vrijwel meteen weer opzeggen. [AANNAME] Zonder duidelijke voorwaarden die vastleggen of een beloning bij aanmelding wordt verdiend of pas na een minimale periode als klant, krijgt de onderneming een echt geschil met de klant over de vraag of deze doorverwijzingen wel geldig zijn – een probleem dat een specifieker opgesteld programma, met dezelfde beginselen van duidelijke contracttaal uit het PURPLE-traject, vanaf het begin had voorkomen.
 
 ## Oefenquiz
 

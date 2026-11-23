@@ -30,7 +30,7 @@ Existe agora, na sua organização, alguma questão visível sobre a qual você 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder escolhe não tratar publicamente de um conflito visível e contínuo entre dois membros da equipe, acreditando que ficar neutro e em silêncio evita tomar partido ou piorar a situação. [ASSUMPTION] Os membros da equipe, observando esse silêncio prolongado, o interpretam não como neutralidade, mas como tolerância tácita ao conflito em andamento — retomando o ponto da Lição 22 de que a tolerância molda a cultura —, o que mostra por que a "omissão neutra" pretendida pelo líder funcionou, na verdade, como uma mensagem específica e de fundo de que o conflito podia continuar.
+[EXEMPLO ILUSTRATIVO] Um líder escolhe não tratar publicamente de um conflito visível e contínuo entre dois membros da equipe, acreditando que ficar neutro e em silêncio evita tomar partido ou piorar a situação. [SUPOSIÇÃO] Os membros da equipe, observando esse silêncio prolongado, o interpretam não como neutralidade, mas como tolerância tácita ao conflito em andamento — retomando o ponto da Lição 22 de que a tolerância molda a cultura —, o que mostra por que a "omissão neutra" pretendida pelo líder funcionou, na verdade, como uma mensagem específica e de fundo de que o conflito podia continuar.
 
 ## Teste de prática
 

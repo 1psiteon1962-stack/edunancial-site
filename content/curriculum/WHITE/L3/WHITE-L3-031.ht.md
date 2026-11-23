@@ -30,11 +30,11 @@ Lè yon envestisè achte yon envestisman entènasyonal — pa egzanp, yon aksyon
 
 Men "poukisa" sa kreye de faktè separe nan rannman total la: envestisman an ta ka pèfòme byen nan lajan lokal li, men si lajan lokal sa a vin pi fèb anpil konpare ak lajan peyi envestisè a anvan konvèsyon an, yon pati oswa tout benefis sa a ta ka disparèt. Okontrè, yon rannman modès nan lajan lokal la, ansanm ak yon lajan ki vin pi fò konpare ak lajan peyi envestisè a, ta ka bay yon pi bon rannman total pase pèfòmans lokal la pou kont li ta sijere.
 
-[VERIFIED FACT] Mouvman lajan etranje ka difisil pou predi e anpil faktè enfliyanse yo, tankou diferans to enterè ant peyi yo, kondisyon ekonomik, ak santiman jeneral mache a — kèk fon entènasyonal ofri vèsyon ki pwoteje kont risk lajan etranje (currency-hedged) ki fèt espesyalman pou diminye risk sa a, sa ki fè rannman envestisè a pi pre pèfòmans lokal envestisman an pou kont li, byenke pwoteksyon sa a li menm gen pwòp depans li ak pwòp konpwomi li.
+[FÈ VERIFYE] Mouvman lajan etranje ka difisil pou predi e anpil faktè enfliyanse yo, tankou diferans to enterè ant peyi yo, kondisyon ekonomik, ak santiman jeneral mache a — kèk fon entènasyonal ofri vèsyon ki pwoteje kont risk lajan etranje (currency-hedged) ki fèt espesyalman pou diminye risk sa a, sa ki fè rannman envestisè a pi pre pèfòmans lokal envestisman an pou kont li, byenke pwoteksyon sa a li menm gen pwòp depans li ak pwòp konpwomi li.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè achte aksyon nan yon konpayi etranje ki monte 10% nan lajan lokal li sou yon ane. Si lajan lokal sa a vin 8% pi fèb konpare ak lajan peyi envestisè a pandan menm peryòd la, rannman reyèl li, lè yo fin konvèti l, pi pre anviwon 2% — pifò benefis lokal la te disparèt akoz move mouvman lajan an. [ASSUMPTION] Si okontrè lajan lokal sa a te vin 8% pi fò konpare ak lajan peyi li, rannman konvèti li ta ka pi pre 18% — mouvman lajan an t ap travay an favè l anplis benefis 10% envestisman an.
+[EGZANP ILISTRATIF] Yon envestisè achte aksyon nan yon konpayi etranje ki monte 10% nan lajan lokal li sou yon ane. Si lajan lokal sa a vin 8% pi fèb konpare ak lajan peyi envestisè a pandan menm peryòd la, rannman reyèl li, lè yo fin konvèti l, pi pre anviwon 2% — pifò benefis lokal la te disparèt akoz move mouvman lajan an. [SIPOZISYON] Si okontrè lajan lokal sa a te vin 8% pi fò konpare ak lajan peyi li, rannman konvèti li ta ka pi pre 18% — mouvman lajan an t ap travay an favè l anplis benefis 10% envestisman an.
 
 ## Egzamen pratik
 

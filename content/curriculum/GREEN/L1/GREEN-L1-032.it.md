@@ -34,11 +34,11 @@ Negli Stati Uniti, per esempio, il limite comune è di un anno: i guadagni su be
 
 L'idea di fondo è incentivare l'investimento paziente invece della speculazione rapida. In pratica, a volte aspettare un po' di più per vendere può cambiare l'imposta. Ma l'imposta non dovrebbe mai essere l'unico motivo di una decisione d'investimento.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Nel nostro esempio, i guadagni a breve termine pagano il 25% e quelli a lungo termine il 15%. Rodrigo ha un guadagno di $1.000. Quanto paga se vende ora, dopo 10 mesi?
 

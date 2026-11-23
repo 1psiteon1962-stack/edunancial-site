@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-La **ditta individuale** (sole proprietorship) è in genere la forma d'impresa predefinita che esiste automaticamente quando una persona svolge un'attività senza costituire un'entità giuridica separata. Ecco il "perché" questa forma non offre alcuna separazione di responsabilità, in modo fondamentalmente diverso dai concetti sulle LLC trattati nelle Lezioni da 11 a 13: [VERIFIED FACT] poiché non è mai stata costituita un'entità giuridica separata, non esiste alcuno schermo societario da superare. Il titolare e l'impresa sono, per la legge, la stessa persona: il titolare risponde quindi personalmente di tutti i debiti e gli obblighi dell'impresa, senza alcuna protezione legata a un'entità.
+La **ditta individuale** (sole proprietorship) è in genere la forma d'impresa predefinita che esiste automaticamente quando una persona svolge un'attività senza costituire un'entità giuridica separata. Ecco il "perché" questa forma non offre alcuna separazione di responsabilità, in modo fondamentalmente diverso dai concetti sulle LLC trattati nelle Lezioni da 11 a 13: [FATTO VERIFICATO] poiché non è mai stata costituita un'entità giuridica separata, non esiste alcuno schermo societario da superare. Il titolare e l'impresa sono, per la legge, la stessa persona: il titolare risponde quindi personalmente di tutti i debiti e gli obblighi dell'impresa, senza alcuna protezione legata a un'entità.
 
 È una situazione fondamentalmente diversa dal rischio di superamento dello schermo di una LLC discusso nelle lezioni precedenti: il titolare di una LLC che non rispetta le formalità rischia di perdere una protezione che altrimenti avrebbe avuto. Il titolare di una ditta individuale quella protezione non l'ha mai avuta: semplicemente non c'è alcuna entità separata tra il patrimonio personale e le responsabilità dell'impresa.
 
@@ -30,7 +30,7 @@ Per questo la ditta individuale, pur essendo spesso la forma più semplice ed ec
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una persona gestisce una piccola attività come ditta individuale, senza costituire una LLC o un'altra entità giuridica separata. Se l'attività deve affrontare un'importante richiesta di risarcimento o un debito che non riesce a coprire, [ASSUMPTION] il patrimonio personale della persona (risparmi, beni personali e altre ricchezze personali) è in genere direttamente esposto per soddisfare quella pretesa, perché non c'è alcuna separazione giuridica tra il titolare e l'impresa. È un profilo di rischio fondamentalmente diverso da quello del titolare di una LLC esposto a un possibile superamento dello schermo, perché il titolare della ditta individuale non ha mai avuto una protezione legata a un'entità da perdere.
+[ESEMPIO ILLUSTRATIVO] Una persona gestisce una piccola attività come ditta individuale, senza costituire una LLC o un'altra entità giuridica separata. Se l'attività deve affrontare un'importante richiesta di risarcimento o un debito che non riesce a coprire, [IPOTESI] il patrimonio personale della persona (risparmi, beni personali e altre ricchezze personali) è in genere direttamente esposto per soddisfare quella pretesa, perché non c'è alcuna separazione giuridica tra il titolare e l'impresa. È un profilo di rischio fondamentalmente diverso da quello del titolare di una LLC esposto a un possibile superamento dello schermo, perché il titolare della ditta individuale non ha mai avuto una protezione legata a un'entità da perdere.
 
 ## Quiz di esercitazione
 

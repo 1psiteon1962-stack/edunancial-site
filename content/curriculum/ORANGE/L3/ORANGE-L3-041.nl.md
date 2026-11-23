@@ -30,7 +30,7 @@ Voordat je je verkoopprognose behandelt als vaste input voor grote beslissingen 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming voorspelt een bepaald omzetcijfer voor het komende kwartaal, en dat getal wordt de basis voor de inkoop van voorraad, een personeelsplan en een verhoging van het marketingbudget. [ASSUMPTION] Als de werkelijke verkopen 20% onder die prognose uitkomen, is het effect geen beperkte misser van 20% – voorraad die op basis van de opgeblazen aanname is ingekocht blijft onverkocht, de salarissen van nieuwe medewerkers worden niet gedragen door de werkelijke omzet, en de hogere marketinguitgaven zetten de kas nog verder onder druk. De oorspronkelijke prognosefout is zo opgestapeld tot een flink grotere financiële impact zodra elke afhankelijke beslissing die erop is gebouwd wordt meegerekend.
+[ILLUSTRATIEF VOORBEELD] Een onderneming voorspelt een bepaald omzetcijfer voor het komende kwartaal, en dat getal wordt de basis voor de inkoop van voorraad, een personeelsplan en een verhoging van het marketingbudget. [AANNAME] Als de werkelijke verkopen 20% onder die prognose uitkomen, is het effect geen beperkte misser van 20% – voorraad die op basis van de opgeblazen aanname is ingekocht blijft onverkocht, de salarissen van nieuwe medewerkers worden niet gedragen door de werkelijke omzet, en de hogere marketinguitgaven zetten de kas nog verder onder druk. De oorspronkelijke prognosefout is zo opgestapeld tot een flink grotere financiële impact zodra elke afhankelijke beslissing die erop is gebouwd wordt meegerekend.
 
 ## Oefenquiz
 

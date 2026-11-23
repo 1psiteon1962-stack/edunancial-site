@@ -30,7 +30,7 @@ Se o seu negócio envolve familiares, que estruturas formais — papéis claros,
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa familiar funciona por anos sem documentação formal de papéis, de autoridade de decisão ou de um plano de sucessão, apoiada na suposição de que a confiança familiar torna esse tipo de estrutura desnecessário. [ASSUMPTION] Quando finalmente surge uma discordância importante entre os familiares sobre o rumo do negócio, a falta de qualquer estrutura ou acordo definido com antecedência — exatamente o risco contra o qual a discussão sobre acordo de sócios da trilha PURPLE alertou — faz com que o conflito passe a ameaçar ao mesmo tempo o negócio e os relacionamentos familiares, sem nenhum processo claro de solução com que as partes tivessem concordado antes.
+[EXEMPLO ILUSTRATIVO] Uma empresa familiar funciona por anos sem documentação formal de papéis, de autoridade de decisão ou de um plano de sucessão, apoiada na suposição de que a confiança familiar torna esse tipo de estrutura desnecessário. [SUPOSIÇÃO] Quando finalmente surge uma discordância importante entre os familiares sobre o rumo do negócio, a falta de qualquer estrutura ou acordo definido com antecedência — exatamente o risco contra o qual a discussão sobre acordo de sócios da trilha PURPLE alertou — faz com que o conflito passe a ameaçar ao mesmo tempo o negócio e os relacionamentos familiares, sem nenhum processo claro de solução com que as partes tivessem concordado antes.
 
 ## Teste de prática
 

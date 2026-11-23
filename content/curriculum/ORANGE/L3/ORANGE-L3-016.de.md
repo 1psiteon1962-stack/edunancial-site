@@ -32,7 +32,7 @@ Bevor ein Verkäufer ein konkretes Versprechen macht, um einen Abschluss zu erre
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Verkäufer, der unbedingt abschließen will, verspricht mündlich einen Liefertermin, den die Betriebsabteilung des Unternehmens nicht bestätigt hat. [ASSUMPTION] Als sich die Lieferung weit über diesen versprochenen Termin hinaus verzögert, fühlt sich der Kunde getäuscht, macht womöglich einen rechtlichen Anspruch geltend, der an die Grundsätze zu falschen Darstellungen aus dem LILA Lernpfad anknüpft, und teilt gesondert seine negative Erfahrung öffentlich – so entstehen aus einem einzigen überzogenen Versprechen sowohl ein rechtliches als auch ein Reputationsrisiko. Das zeigt, warum Ehrlichkeit im Vertrieb weit über das einzelne Geschäft hinaus zählt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Verkäufer, der unbedingt abschließen will, verspricht mündlich einen Liefertermin, den die Betriebsabteilung des Unternehmens nicht bestätigt hat. [ANNAHME] Als sich die Lieferung weit über diesen versprochenen Termin hinaus verzögert, fühlt sich der Kunde getäuscht, macht womöglich einen rechtlichen Anspruch geltend, der an die Grundsätze zu falschen Darstellungen aus dem LILA Lernpfad anknüpft, und teilt gesondert seine negative Erfahrung öffentlich – so entstehen aus einem einzigen überzogenen Versprechen sowohl ein rechtliches als auch ein Reputationsrisiko. Das zeigt, warum Ehrlichkeit im Vertrieb weit über das einzelne Geschäft hinaus zählt.
 
 ## Übungsquiz
 1. Warum kann das Versprechen eines Verkäufers, selbst ein mündliches, ein rechtliches Risiko schaffen?

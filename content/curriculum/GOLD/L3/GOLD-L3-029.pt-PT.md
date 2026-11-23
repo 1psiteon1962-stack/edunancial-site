@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Os **indicadores macroeconômicos** — dados de inflação, números de emprego, crescimento do PIB e medidas económicas gerais parecidas — costumam ser usados para embasar o julgamento de investimento sobre o ambiente económico mais amplo discutido ao longo desta trilha. Este é o "porquê" de esses indicadores funcionarem como sinais úteis, e não como previsões certas: [VERIFIED FACT] cada indicador reflete uma parte específica da atividade económica, muitas vezes é divulgado com algum atraso e está sujeito a revisões posteriores, e nenhum indicador sozinho capta o quadro completo e complexo de uma economia num dado momento.
+Os **indicadores macroeconômicos** — dados de inflação, números de emprego, crescimento do PIB e medidas económicas gerais parecidas — costumam ser usados para embasar o julgamento de investimento sobre o ambiente económico mais amplo discutido ao longo desta trilha. Este é o "porquê" de esses indicadores funcionarem como sinais úteis, e não como previsões certas: [FACTO VERIFICADO] cada indicador reflete uma parte específica da atividade económica, muitas vezes é divulgado com algum atraso e está sujeito a revisões posteriores, e nenhum indicador sozinho capta o quadro completo e complexo de uma economia num dado momento.
 
 É por isso que interpretar um único indicador isoladamente — tratar um relatório de emprego ou um dado de inflação como um sinal definitivo sobre a direção futura do mercado — pode ser enganoso. Analistas experientes geralmente olham vários indicadores juntos, e a tendência deles ao longo do tempo em vez de um único dado, para formar um quadro mais completo, ainda que por natureza incerto, das condições económicas atuais.
 
@@ -30,7 +30,7 @@ Isso se liga diretamente à discussão sobre ciclos da Lição 14 e ao alerta so
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um investidor vê um único relatório económico que sugere uma certa tendência e pensa em fazer uma mudança importante na carteira só com base nesse dado. [ASSUMPTION] Uma abordagem mais ponderada consideraria esse relatório junto com outros indicadores relevantes e a tendência deles nos últimos meses, reconhecendo que um único dado pode ter ruído, ser revisado depois ou refletir uma mudança temporária, e não duradoura — tratando o indicador como um sinal útil entre vários, e não como uma base certa e isolada para uma decisão importante.
+[EXEMPLO ILUSTRATIVO] Um investidor vê um único relatório económico que sugere uma certa tendência e pensa em fazer uma mudança importante na carteira só com base nesse dado. [SUPOSIÇÃO] Uma abordagem mais ponderada consideraria esse relatório junto com outros indicadores relevantes e a tendência deles nos últimos meses, reconhecendo que um único dado pode ter ruído, ser revisado depois ou refletir uma mudança temporária, e não duradoura — tratando o indicador como um sinal útil entre vários, e não como uma base certa e isolada para uma decisão importante.
 
 ## Teste de prática
 

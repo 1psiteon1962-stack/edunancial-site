@@ -30,7 +30,7 @@ Quale di queste tre direzioni (verso l'alto, verso il basso o lateralmente) rice
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader investe molto nel gestire bene il proprio team diretto, costruendo un morale alto e una direzione chiara, ma trascura di gestire attivamente le relazioni con i responsabili dei reparti pari grado. [ASSUMPTION] Quando un'importante iniziativa tra reparti richiede un coordinamento che questo leader non ha coltivato, l'ottimo rendimento individuale del team viene compromesso da uno scarso coordinamento laterale. Questo mostra perché la sola gestione verso il basso, per quanto ben fatta, non basta senza gestire deliberatamente anche le relazioni laterali, che incidono su risultati dell'organizzazione al di fuori del controllo di qualsiasi singolo team.
+[ESEMPIO ILLUSTRATIVO] Un leader investe molto nel gestire bene il proprio team diretto, costruendo un morale alto e una direzione chiara, ma trascura di gestire attivamente le relazioni con i responsabili dei reparti pari grado. [IPOTESI] Quando un'importante iniziativa tra reparti richiede un coordinamento che questo leader non ha coltivato, l'ottimo rendimento individuale del team viene compromesso da uno scarso coordinamento laterale. Questo mostra perché la sola gestione verso il basso, per quanto ben fatta, non basta senza gestire deliberatamente anche le relazioni laterali, che incidono su risultati dell'organizzazione al di fuori del controllo di qualsiasi singolo team.
 
 ## Quiz di esercitazione
 

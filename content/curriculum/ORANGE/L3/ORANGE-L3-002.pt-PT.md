@@ -30,7 +30,7 @@ Antes de seguir: se um concorrente cortasse de repente os preços em 20%, o que 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa define o preço principalmente com base no que "parece certo" em relação aos concorrentes, sem calcular antes a própria margem bruta nesse nível de preço. [ASSUMPTION] Durante vários meses, o volume de vendas parece forte, dando a impressão de uma estratégia de preços vencedora — mas uma olhada mais atenta na margem real mostra que o negócio cobre pouco mais do que os custos diretos em cada venda, sobrando quase nada para as despesas fixas, o gasto com marketing ou uma reserva para períodos mais fracos. O preço "funcionou" por uma medida de marketing (volume) enquanto falhava, em silêncio, por uma medida financeira (margem).
+[EXEMPLO ILUSTRATIVO] Uma empresa define o preço principalmente com base no que "parece certo" em relação aos concorrentes, sem calcular antes a própria margem bruta nesse nível de preço. [SUPOSIÇÃO] Durante vários meses, o volume de vendas parece forte, dando a impressão de uma estratégia de preços vencedora — mas uma olhada mais atenta na margem real mostra que o negócio cobre pouco mais do que os custos diretos em cada venda, sobrando quase nada para as despesas fixas, o gasto com marketing ou uma reserva para períodos mais fracos. O preço "funcionou" por uma medida de marketing (volume) enquanto falhava, em silêncio, por uma medida financeira (margem).
 
 ## Teste de prática
 

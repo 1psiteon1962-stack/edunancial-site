@@ -30,7 +30,7 @@ Wat kiest je huidige verkoop- en marketingstrategie bewust níet te doen? Als he
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming probeert actief aanwezig te zijn op elk beschikbaar marketingkanaal en tegelijk elk denkbaar klantsegment te bedienen, in de overtuiging dat ze zo haar totale kansen zo groot mogelijk maakt. [ASSUMPTION] Met een beperkt budget en beperkte teamcapaciteit die zo dun zijn uitgesmeerd, krijgt geen enkel kanaal of segment de gerichte aandacht die nodig is voor echt goede uitvoering, en blijven de totale resultaten achter bij een concurrent die bewust de meeste kanalen en segmenten uitsloot om zich volledig te richten op de paar die voor zijn specifieke klanten het belangrijkst waren – rechtstreeks in lijn met het principe van verdedigbaarheid door focus dat in Les 26 voor nichestrategie werd vastgesteld.
+[ILLUSTRATIEF VOORBEELD] Een onderneming probeert actief aanwezig te zijn op elk beschikbaar marketingkanaal en tegelijk elk denkbaar klantsegment te bedienen, in de overtuiging dat ze zo haar totale kansen zo groot mogelijk maakt. [AANNAME] Met een beperkt budget en beperkte teamcapaciteit die zo dun zijn uitgesmeerd, krijgt geen enkel kanaal of segment de gerichte aandacht die nodig is voor echt goede uitvoering, en blijven de totale resultaten achter bij een concurrent die bewust de meeste kanalen en segmenten uitsloot om zich volledig te richten op de paar die voor zijn specifieke klanten het belangrijkst waren – rechtstreeks in lijn met het principe van verdedigbaarheid door focus dat in Les 26 voor nichestrategie werd vastgesteld.
 
 ## Oefenquiz
 

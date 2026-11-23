@@ -30,7 +30,7 @@ Voordat je flink marketingbudget vastlegt in een sponsoring of partnerschap: wat
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming legt een flink marketingbudget vast om een bekend evenement of een bekende organisatie te sponsoren, vooral beoordeeld op het bereik en de passendheid bij het merk die de sponsoring belooft. [ASSUMPTION] Zonder verdere due diligence op de financiële stabiliteit van de gesponsorde organisatie krijgt die organisatie later zelf ernstige financiële of reputatieproblemen. Dat zet de waarde van de sponsoring op het spel en schept reputatierisico via associatie (in lijn met Les 4) – een risico dat grondigere due diligence op beleggingsniveau, vergelijkbaar met de beoordeling van fondsbeheerders uit het GOLD-traject, misschien had opgemerkt voordat de verplichting werd aangegaan.
+[ILLUSTRATIEF VOORBEELD] Een onderneming legt een flink marketingbudget vast om een bekend evenement of een bekende organisatie te sponsoren, vooral beoordeeld op het bereik en de passendheid bij het merk die de sponsoring belooft. [AANNAME] Zonder verdere due diligence op de financiële stabiliteit van de gesponsorde organisatie krijgt die organisatie later zelf ernstige financiële of reputatieproblemen. Dat zet de waarde van de sponsoring op het spel en schept reputatierisico via associatie (in lijn met Les 4) – een risico dat grondigere due diligence op beleggingsniveau, vergelijkbaar met de beoordeling van fondsbeheerders uit het GOLD-traject, misschien had opgemerkt voordat de verplichting werd aangegaan.
 
 ## Oefenquiz
 

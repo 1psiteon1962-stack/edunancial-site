@@ -24,7 +24,7 @@ Alla fine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Viene spontaneo pensare che un fondo andato bene di recente probabilmente continuerà ad andare bene: dopotutto, deve fare qualcosa di giusto. Ecco il "perché" questa intuizione spesso non regge: [VERIFIED FACT] ampie ricerche che confrontano le classifiche storiche dei risultati dei fondi in periodi diversi hanno trovato in genere una persistenza debole. Questo significa che i fondi migliori in un periodo non sono in modo affidabile i migliori anche nel periodo successivo, e questo schema è stato notato anche dalle autorità di regolamentazione, ed è uno dei motivi per cui le informative standard includono frasi che ricordano che i risultati passati non garantiscono i risultati futuri.
+Viene spontaneo pensare che un fondo andato bene di recente probabilmente continuerà ad andare bene: dopotutto, deve fare qualcosa di giusto. Ecco il "perché" questa intuizione spesso non regge: [FATTO VERIFICATO] ampie ricerche che confrontano le classifiche storiche dei risultati dei fondi in periodi diversi hanno trovato in genere una persistenza debole. Questo significa che i fondi migliori in un periodo non sono in modo affidabile i migliori anche nel periodo successivo, e questo schema è stato notato anche dalle autorità di regolamentazione, ed è uno dei motivi per cui le informative standard includono frasi che ricordano che i risultati passati non garantiscono i risultati futuri.
 
 Diversi fattori contribuiscono a questa persistenza debole: gli ottimi risultati recenti possono riflettere un ambiente temporaneamente favorevole allo stile o al settore particolare di quel fondo, invece di un vantaggio di abilità ripetibile; le strategie o i settori che vanno bene spesso vedono cambiare le condizioni o diventano più affollati, riducendo il vantaggio futuro; e i cambi di gestore, la crescita delle somme gestite e altri fattori possono tutti influire sui risultati futuri di un fondo, indipendentemente dai suoi risultati passati.
 
@@ -32,7 +32,7 @@ Per questo inseguire i fondi migliori del momento, cioè spostare i soldi verso 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un investitore nota che un fondo ha ottenuto i rendimenti migliori della sua categoria negli ultimi tre anni e decide di investirci molto sulla base di quei risultati. [ASSUMPTION] Se gli ottimi risultati di quel fondo erano dovuti soprattutto a un ambiente temporaneamente favorevole al suo specifico stile di investimento, e quell'ambiente cambia negli anni successivi, il fondo potrebbe rendere di meno in futuro, lasciando l'investitore con un'esperienza deludente nonostante abbia scelto sulla base di risultati passati all'apparenza impressionanti.
+[ESEMPIO ILLUSTRATIVO] Un investitore nota che un fondo ha ottenuto i rendimenti migliori della sua categoria negli ultimi tre anni e decide di investirci molto sulla base di quei risultati. [IPOTESI] Se gli ottimi risultati di quel fondo erano dovuti soprattutto a un ambiente temporaneamente favorevole al suo specifico stile di investimento, e quell'ambiente cambia negli anni successivi, il fondo potrebbe rendere di meno in futuro, lasciando l'investitore con un'esperienza deludente nonostante abbia scelto sulla base di risultati passati all'apparenza impressionanti.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ Prima di trattare il risultato di qualsiasi A/B test come una scoperta reale: qu
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un team di marketing fa un test cambiando contemporaneamente il titolo, l'immagine e il colore del pulsante di un annuncio, e la nuova versione funziona meglio. [ASSUMPTION] Il team conclude che il fattore vincente è stato il nuovo titolo e lo estende ovunque. Ma poiché sono cambiate tre variabili insieme, in realtà non ha alcun modo affidabile di sapere se il miglioramento sia dovuto al titolo, all'immagine o al colore del pulsante, o se uno di questi cambiamenti stesse in realtà peggiorando i risultati mentre un altro li migliorava ancora di più. È un'ambiguità che un test ben isolato su una sola variabile avrebbe evitato del tutto.
+[ESEMPIO ILLUSTRATIVO] Un team di marketing fa un test cambiando contemporaneamente il titolo, l'immagine e il colore del pulsante di un annuncio, e la nuova versione funziona meglio. [IPOTESI] Il team conclude che il fattore vincente è stato il nuovo titolo e lo estende ovunque. Ma poiché sono cambiate tre variabili insieme, in realtà non ha alcun modo affidabile di sapere se il miglioramento sia dovuto al titolo, all'immagine o al colore del pulsante, o se uno di questi cambiamenti stesse in realtà peggiorando i risultati mentre un altro li migliorava ancora di più. È un'ambiguità che un test ben isolato su una sola variabile avrebbe evitato del tutto.
 
 ## Quiz di esercitazione
 

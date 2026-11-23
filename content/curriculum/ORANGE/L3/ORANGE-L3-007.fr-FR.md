@@ -32,7 +32,7 @@ Avant de finaliser un texte publicitaire qui fait une affirmation factuelle pré
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] L'équipe marketing d'une entreprise rédige une publicité affirmant qu'un produit précis « réduit les coûts d'énergie de 30 % », en se fondant sur une estimation interne plutôt que sur des essais rigoureux et vérifiables. [ASSUMPTION] Si un organisme de réglementation ou un concurrent conteste cette affirmation et que l'entreprise ne peut pas justifier le chiffre précis de 30 % au moyen de preuves crédibles, elle pourrait subir des conséquences juridiques pour publicité fausse ou trompeuse, en lien direct avec les principes plus larges du parcours PURPLE sur les fausses déclarations — peu importe que l'équipe marketing ait cru l'affirmation à peu près exacte ou qu'elle n'ait eu aucune intention de nuire.
+[EXEMPLE ILLUSTRATIF] L'équipe marketing d'une entreprise rédige une publicité affirmant qu'un produit précis « réduit les coûts d'énergie de 30 % », en se fondant sur une estimation interne plutôt que sur des essais rigoureux et vérifiables. [HYPOTHÈSE] Si un organisme de réglementation ou un concurrent conteste cette affirmation et que l'entreprise ne peut pas justifier le chiffre précis de 30 % au moyen de preuves crédibles, elle pourrait subir des conséquences juridiques pour publicité fausse ou trompeuse, en lien direct avec les principes plus larges du parcours PURPLE sur les fausses déclarations — peu importe que l'équipe marketing ait cru l'affirmation à peu près exacte ou qu'elle n'ait eu aucune intention de nuire.
 
 ## Quiz de pratique
 

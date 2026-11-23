@@ -24,7 +24,7 @@ Alla fine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-È facile pensare al pagamento di un dividendo come a soldi in più che si aggiungono al valore esistente di un'azione, un premio per averla tenuta. Ecco il "perché" questo modo di vederla è fuorviante: un'azienda paga i dividendi con la propria liquidità, e questo riduce le attività che le restano. [VERIFIED FACT] Nella data di stacco del dividendo (ex-dividend date), il prezzo di un'azione di solito scende più o meno dell'importo del dividendo pagato, a indicare che l'azienda ora vale un po' meno, dopo aver distribuito una parte della sua liquidità agli azionisti.
+È facile pensare al pagamento di un dividendo come a soldi in più che si aggiungono al valore esistente di un'azione, un premio per averla tenuta. Ecco il "perché" questo modo di vederla è fuorviante: un'azienda paga i dividendi con la propria liquidità, e questo riduce le attività che le restano. [FATTO VERIFICATO] Nella data di stacco del dividendo (ex-dividend date), il prezzo di un'azione di solito scende più o meno dell'importo del dividendo pagato, a indicare che l'azienda ora vale un po' meno, dopo aver distribuito una parte della sua liquidità agli azionisti.
 
 Questo significa che un dividendo non è ricchezza nuova che compare dal nulla: è una redistribuzione di valore che esisteva già dentro l'azienda, ora spostato nelle tasche dell'azionista sotto forma di contanti invece di restare come parte del prezzo dell'azione. L'azionista non diventa davvero più ricco nel momento in cui viene pagato il dividendo; ha semplicemente lo stesso valore totale, diviso tra un prezzo dell'azione un po' più basso e il dividendo in contanti ricevuto.
 
@@ -32,7 +32,7 @@ Per questo il **rendimento totale**, che combina la crescita del prezzo e i divi
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'azione vale $100 il giorno prima di pagare un dividendo di $2 per azione. Nella data di stacco del dividendo, a parità di tutto il resto, il prezzo dell'azione di solito si aggiusta verso il basso fino a circa $98, a indicare i $2 per azione appena usciti dall'azienda come pagamento in contanti. Un investitore che possiede un'azione ora ha $98 in azioni più $2 in contanti: sempre $100 di valore totale, come prima del pagamento del dividendo. Il dividendo non ha creato ricchezza nuova; ha semplicemente trasformato $2 di valore azionario esistente in $2 di contanti.
+[ESEMPIO ILLUSTRATIVO] Un'azione vale $100 il giorno prima di pagare un dividendo di $2 per azione. Nella data di stacco del dividendo, a parità di tutto il resto, il prezzo dell'azione di solito si aggiusta verso il basso fino a circa $98, a indicare i $2 per azione appena usciti dall'azienda come pagamento in contanti. Un investitore che possiede un'azione ora ha $98 in azioni più $2 in contanti: sempre $100 di valore totale, come prima del pagamento del dividendo. Il dividendo non ha creato ricchezza nuova; ha semplicemente trasformato $2 di valore azionario esistente in $2 di contanti.
 
 ## Quiz di esercitazione
 

@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" sa atake risk tan an espesyalman, e li konekte ak Leson 1: paske w ap achte nan anpil pri diferan avèk tan, ou evite risk pou w envesti tout kantite lajan ou jis anvan yon gwo bès ki tonbe nan move moman. Gen kèk acha ki fèt nan pri ki pi wo, gen kèk nan pri ki pi ba, e kou mwayèn chak aksyon an vin pi egal sou tout peryòd envestisman an.
 
-[VERIFIED FACT] DCA pa diminye vrè risk oswa volatilite envestisman an li menm — aksyon an, fon an, oswa byen w ap achte a toujou gen menm karakteristik risk fondamantal yo kèlkeswa jan ou chwazi moman pou w achte l. Sa DCA chanje se ekspozisyon ou a yon sèl move pwen antre, pa jan envestisman an aji natirèlman yon fwa ou posede l.
+[FÈ VERIFYE] DCA pa diminye vrè risk oswa volatilite envestisman an li menm — aksyon an, fon an, oswa byen w ap achte a toujou gen menm karakteristik risk fondamantal yo kèlkeswa jan ou chwazi moman pou w achte l. Sa DCA chanje se ekspozisyon ou a yon sèl move pwen antre, pa jan envestisman an aji natirèlman yon fwa ou posede l.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè gen $12,000 pou l envesti. Si li envesti tout yon sèl kou jis anvan yon gwo bès nan mache a, tout kantite lajan an ta ekspoze touswit a bès sa a. Si olye sa li envesti $1,000 pa mwa pandan 12 mwa, se sèlman premye kontribisyon yo ki ta ekspoze a tout bès la si li rive bonè nan peryòd sa a — kontribisyon pita yo achte nan pri ki vin pi ba yo, sa ki fè mwayèn kou total envestisè a. [ASSUMPTION] Si okontrè mache a monte regilyèman pandan tout 12 mwa yo, DCA ta bay yon kou mwayèn ki pi wo pase si li te envesti tout sòm nan touswit — DCA pwoteje kont yon sitiyasyon move moman espesifik, men li pa garanti yon pi bon rezilta pase envesti yon sèl kou nan tout sitiyasyon (pwochen leson an konpare sa dirèkteman).
+[EGZANP ILISTRATIF] Yon envestisè gen $12,000 pou l envesti. Si li envesti tout yon sèl kou jis anvan yon gwo bès nan mache a, tout kantite lajan an ta ekspoze touswit a bès sa a. Si olye sa li envesti $1,000 pa mwa pandan 12 mwa, se sèlman premye kontribisyon yo ki ta ekspoze a tout bès la si li rive bonè nan peryòd sa a — kontribisyon pita yo achte nan pri ki vin pi ba yo, sa ki fè mwayèn kou total envestisè a. [SIPOZISYON] Si okontrè mache a monte regilyèman pandan tout 12 mwa yo, DCA ta bay yon kou mwayèn ki pi wo pase si li te envesti tout sòm nan touswit — DCA pwoteje kont yon sitiyasyon move moman espesifik, men li pa garanti yon pi bon rezilta pase envesti yon sèl kou nan tout sitiyasyon (pwochen leson an konpare sa dirèkteman).
 
 ## Egzamen pratik
 

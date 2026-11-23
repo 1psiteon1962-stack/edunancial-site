@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Een **contract** is over het algemeen een juridisch afdwingbare afspraak tussen partijen. [VERIFIED FACT] Hoewel de specifieke eisen verschillen per rechtsgebied en soort contract, vragen de meeste rechtsstelsels over het algemeen drie basiselementen voordat een contract afdwingbaar is: een **aanbod** (de ene partij stelt specifieke voorwaarden voor), een **aanvaarding** (de andere partij gaat akkoord met precies die voorwaarden) en een **tegenprestatie** (iets van waarde dat tussen de partijen wordt uitgewisseld, verder uitgewerkt in de volgende les).
+Een **contract** is over het algemeen een juridisch afdwingbare afspraak tussen partijen. [GEVERIFIEERD FEIT] Hoewel de specifieke eisen verschillen per rechtsgebied en soort contract, vragen de meeste rechtsstelsels over het algemeen drie basiselementen voordat een contract afdwingbaar is: een **aanbod** (de ene partij stelt specifieke voorwaarden voor), een **aanvaarding** (de andere partij gaat akkoord met precies die voorwaarden) en een **tegenprestatie** (iets van waarde dat tussen de partijen wordt uitgewisseld, verder uitgewerkt in de volgende les).
 
 Hier is het "waarom" elk element een eigen doel dient: de eis van aanbod en aanvaarding zorgt ervoor dat er echte, aanwijsbare wilsovereenstemming is – dat beide partijen het echt eens zijn over dezelfde specifieke voorwaarden, en niet alleen een vaag, algemeen idee delen. De eis van een tegenprestatie zorgt ervoor dat de afspraak een echte uitwisseling is, en niet alleen een niet-afdwingbare belofte van één partij om iets cadeau te doen of een gunst te verlenen zonder dat er iets tegenover staat.
 
@@ -30,7 +30,7 @@ Daarom houdt een afspraak waarin een van deze elementen ontbreekt mogelijk geen 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Het ene bedrijf stelt het andere specifieke voorwaarden voor – een bepaalde prijs voor een bepaalde hoeveelheid goederen, geleverd vóór een bepaalde datum (het aanbod). Het tweede bedrijf gaat akkoord met precies die voorwaarden (de aanvaarding). Er wordt geld betaald in ruil voor de goederen (de tegenprestatie). Alle drie de elementen zijn aanwezig, en zo ontstaat een juridisch afdwingbaar contract. [ASSUMPTION] Als het ene bedrijf in plaats daarvan alleen een vaag, algemeen voornemen had uitgesproken om "ooit waarschijnlijk wel eens zaken te doen", zonder dat er ooit specifieke voorwaarden werden voorgesteld en aanvaard, en zonder dat er iets van waarde werd beloofd in ruil, zou deze lossere regeling waarschijnlijk niet de basisdrempel voor een afdwingbaar contract halen, ondanks de goede bedoelingen van beide partijen.
+[ILLUSTRATIEF VOORBEELD] Het ene bedrijf stelt het andere specifieke voorwaarden voor – een bepaalde prijs voor een bepaalde hoeveelheid goederen, geleverd vóór een bepaalde datum (het aanbod). Het tweede bedrijf gaat akkoord met precies die voorwaarden (de aanvaarding). Er wordt geld betaald in ruil voor de goederen (de tegenprestatie). Alle drie de elementen zijn aanwezig, en zo ontstaat een juridisch afdwingbaar contract. [AANNAME] Als het ene bedrijf in plaats daarvan alleen een vaag, algemeen voornemen had uitgesproken om "ooit waarschijnlijk wel eens zaken te doen", zonder dat er ooit specifieke voorwaarden werden voorgesteld en aanvaard, en zonder dat er iets van waarde werd beloofd in ruil, zou deze lossere regeling waarschijnlijk niet de basisdrempel voor een afdwingbaar contract halen, ondanks de goede bedoelingen van beide partijen.
 
 ## Oefenquiz
 

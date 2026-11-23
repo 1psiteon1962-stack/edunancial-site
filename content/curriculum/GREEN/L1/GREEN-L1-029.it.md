@@ -34,11 +34,11 @@ Questo significa che il costo di un dipendente è più alto dello stipendio conc
 
 Le somme trattenute ai dipendenti sono denaro loro, custodito in fiducia dal datore di lavoro. In molti luoghi, non versarle è considerato molto grave. Assumere persone è anche una responsabilità verso le loro famiglie, quindi l'organizzazione qui non è facoltativa.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Clara vuole assumere qualcuno per $3.000 al mese. Ha previsto esattamente $3.000 nel budget. È corretto?
 

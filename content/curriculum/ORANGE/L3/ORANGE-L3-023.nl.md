@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Een retourbeleid wordt vaak behandeld als een keuze voor klantenservice of voor de toon van het merk – vriendelijk en ruimhartig, of streng en gericht op het beschermen van de marge. Hier is het "waarom" het tegelijk ook een juridisch bindende vastlegging van voorwaarden is: [VERIFIED FACT] in veel rechtsgebieden wordt het gemelde retourbeleid van een onderneming onderdeel van de verkoopvoorwaarden, en kan consumentenwetgeving aanvullende minimumeisen stellen, ongeacht wat het eigen beleid van een onderneming zegt (zoals een herroepingsrecht bij bepaalde aankopen op afstand). Dat sluit aan op de bespreking in het PURPLE-traject van dwingende wettelijke beschermingen die je niet zomaar contractueel kunt omzeilen.
+Een retourbeleid wordt vaak behandeld als een keuze voor klantenservice of voor de toon van het merk – vriendelijk en ruimhartig, of streng en gericht op het beschermen van de marge. Hier is het "waarom" het tegelijk ook een juridisch bindende vastlegging van voorwaarden is: [GEVERIFIEERD FEIT] in veel rechtsgebieden wordt het gemelde retourbeleid van een onderneming onderdeel van de verkoopvoorwaarden, en kan consumentenwetgeving aanvullende minimumeisen stellen, ongeacht wat het eigen beleid van een onderneming zegt (zoals een herroepingsrecht bij bepaalde aankopen op afstand). Dat sluit aan op de bespreking in het PURPLE-traject van dwingende wettelijke beschermingen die je niet zomaar contractueel kunt omzeilen.
 
 Daarom vraagt een retourbeleid dezelfde zorgvuldige formulering als elk ander juridisch belangrijk document – vage formuleringen scheppen onduidelijkheid die tot geschillen leidt, terwijl een te streng beleid, ook als het technisch rechtmatig is, de reputatieschade uit Les 4 kan veroorzaken als klanten zich oneerlijk behandeld voelen en die ervaring publiekelijk delen, ongeacht of er werkelijk een wet is overtreden.
 
@@ -30,7 +30,7 @@ Voordat je een retourbeleid definitief maakt: regelt het duidelijk de specifieke
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming stelt een retourbeleid op met vage formuleringen over "redelijke omstandigheden" voor een terugbetaling, zonder duidelijk aan te geven wat dat in de praktijk betekent. [ASSUMPTION] Als een klant om terugbetaling vraagt in omstandigheden die de onderneming onredelijk vindt maar de klant volkomen redelijk, leidt deze onduidelijkheid tot een geschil dat een duidelijker opgesteld beleid had voorkomen – en afhankelijk van de consumentenbeschermingsregels in het toepasselijke rechtsgebied is de strenge uitleg van de onderneming misschien niet eens juridisch afdwingbaar, ongeacht wat haar eigen beleid zegt.
+[ILLUSTRATIEF VOORBEELD] Een onderneming stelt een retourbeleid op met vage formuleringen over "redelijke omstandigheden" voor een terugbetaling, zonder duidelijk aan te geven wat dat in de praktijk betekent. [AANNAME] Als een klant om terugbetaling vraagt in omstandigheden die de onderneming onredelijk vindt maar de klant volkomen redelijk, leidt deze onduidelijkheid tot een geschil dat een duidelijker opgesteld beleid had voorkomen – en afhankelijk van de consumentenbeschermingsregels in het toepasselijke rechtsgebied is de strenge uitleg van de onderneming misschien niet eens juridisch afdwingbaar, ongeacht wat haar eigen beleid zegt.
 
 ## Oefenquiz
 

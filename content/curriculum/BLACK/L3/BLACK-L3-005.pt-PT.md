@@ -30,7 +30,7 @@ Existe alguma decisão difícil sobre pessoal que está a adiar agora? Qual é o
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder tem evidências reais e bem documentadas de que um funcionário específico não está a atender aos requisitos da função, mas adia por meses a conversa de despedimento, esperando que a situação melhore sozinha. [ASSUMPTION] Durante esses meses, o moral da equipa se desgasta de forma visível, enquanto os outros membros absorvem o trabalho extra e percebem o problema sem resposta, e, quando a despedimento acaba acontecendo de qualquer forma, o negócio enfrenta o mesmo custo de substituição e integração que teria enfrentado meses antes — mais o custo acumulado em moral e produtividade causado pelo próprio adiamento, o que mostra por que a ação firme, quando realmente justificada, geralmente gera um resultado total melhor do que evitar o problema por muito tempo.
+[EXEMPLO ILUSTRATIVO] Um líder tem evidências reais e bem documentadas de que um funcionário específico não está a atender aos requisitos da função, mas adia por meses a conversa de despedimento, esperando que a situação melhore sozinha. [SUPOSIÇÃO] Durante esses meses, o moral da equipa se desgasta de forma visível, enquanto os outros membros absorvem o trabalho extra e percebem o problema sem resposta, e, quando a despedimento acaba acontecendo de qualquer forma, o negócio enfrenta o mesmo custo de substituição e integração que teria enfrentado meses antes — mais o custo acumulado em moral e produtividade causado pelo próprio adiamento, o que mostra por que a ação firme, quando realmente justificada, geralmente gera um resultado total melhor do que evitar o problema por muito tempo.
 
 ## Teste de prática
 

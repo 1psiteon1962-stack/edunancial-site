@@ -30,7 +30,7 @@ Sente as críticas ao seu negócio como um retorno sobre uma estratégia, ou ela
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um fundador que construiu o negócio ao longo de muitos anos sente qualquer crítica importante ao rumo da empresa como algo profundamente pessoal e reage de forma defensiva até a retornos construtivos e bem-intencionados de conselheiros de confiança. [ASSUMPTION] Essa fusão de identidade, que vai além da resistência movida pelo ego em admitir um erro descrita na Lição 17, torna realmente difícil para esse fundador avaliar de forma objetiva as necessidades reais do negócio — todo retorno sobre a empresa parece um retorno sobre ele mesmo, criando um ponto cego a que um fundador com mais separação entre a identidade pessoal e o desempenho do negócio estaria menos sujeito.
+[EXEMPLO ILUSTRATIVO] Um fundador que construiu o negócio ao longo de muitos anos sente qualquer crítica importante ao rumo da empresa como algo profundamente pessoal e reage de forma defensiva até a retornos construtivos e bem-intencionados de conselheiros de confiança. [SUPOSIÇÃO] Essa fusão de identidade, que vai além da resistência movida pelo ego em admitir um erro descrita na Lição 17, torna realmente difícil para esse fundador avaliar de forma objetiva as necessidades reais do negócio — todo retorno sobre a empresa parece um retorno sobre ele mesmo, criando um ponto cego a que um fundador com mais separação entre a identidade pessoal e o desempenho do negócio estaria menos sujeito.
 
 ## Teste de prática
 

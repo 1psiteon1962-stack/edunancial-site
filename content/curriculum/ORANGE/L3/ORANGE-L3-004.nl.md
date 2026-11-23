@@ -30,7 +30,7 @@ Wat zou een ernstige reputatiekwestie jouw specifieke onderneming werkelijk kost
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming bouwt in tien jaar een sterke reputatie op, die flink bijdraagt aan klantloyaliteit en aan haar uiteindelijke verkoopwaarde, in lijn met het begrip goodwill uit het BLUE-traject. [ASSUMPTION] Eén slecht afgehandeld publiek incident beschadigt die reputatie binnen enkele dagen – het vertrouwen van klanten brokkelt sneller af dan het is opgebouwd, sommige langdurige relaties gaan verloren, en als de onderneming kort daarna voor een verkoop zou worden gewaardeerd, kan haar goodwillcomponent duidelijk lager worden ingeschat dan een paar maanden eerder. Dit laat de asymmetrie zien tussen hoe langzaam dit bezit wordt opgebouwd en hoe snel het kan worden beschadigd.
+[ILLUSTRATIEF VOORBEELD] Een onderneming bouwt in tien jaar een sterke reputatie op, die flink bijdraagt aan klantloyaliteit en aan haar uiteindelijke verkoopwaarde, in lijn met het begrip goodwill uit het BLUE-traject. [AANNAME] Eén slecht afgehandeld publiek incident beschadigt die reputatie binnen enkele dagen – het vertrouwen van klanten brokkelt sneller af dan het is opgebouwd, sommige langdurige relaties gaan verloren, en als de onderneming kort daarna voor een verkoop zou worden gewaardeerd, kan haar goodwillcomponent duidelijk lager worden ingeschat dan een paar maanden eerder. Dit laat de asymmetrie zien tussen hoe langzaam dit bezit wordt opgebouwd en hoe snel het kan worden beschadigd.
 
 ## Oefenquiz
 

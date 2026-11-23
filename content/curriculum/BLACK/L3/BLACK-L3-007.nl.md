@@ -30,7 +30,7 @@ Welke specifieke taken of beslissingen in je onderneming vragen nu je directe, p
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een eigenaar doet zelf elke belangrijke klantrelatie, elke prijsbeslissing en elke kwaliteitscontrole, waardoor de totale output van de onderneming wordt begrensd door het aantal uren dat deze ene persoon zelf kan werken. [ASSUMPTION] Door de beslissingscriteria voor prijzen vast te leggen, een medewerker op te leiden om klantrelaties te onderhouden met een duidelijk draaiboek, en een kwaliteitscontrolesysteem in te richten waarbij de eigenaar niet elk item zelf hoeft te controleren, wordt de capaciteit van de onderneming niet langer begrensd door wat één persoon zelf kan doen – rechtstreeks in lijn met het principe dat systemen groei mogelijk maken, de kern van het basale onderwijsmiddel van dit programma.
+[ILLUSTRATIEF VOORBEELD] Een eigenaar doet zelf elke belangrijke klantrelatie, elke prijsbeslissing en elke kwaliteitscontrole, waardoor de totale output van de onderneming wordt begrensd door het aantal uren dat deze ene persoon zelf kan werken. [AANNAME] Door de beslissingscriteria voor prijzen vast te leggen, een medewerker op te leiden om klantrelaties te onderhouden met een duidelijk draaiboek, en een kwaliteitscontrolesysteem in te richten waarbij de eigenaar niet elk item zelf hoeft te controleren, wordt de capaciteit van de onderneming niet langer begrensd door wat één persoon zelf kan doen – rechtstreeks in lijn met het principe dat systemen groei mogelijk maken, de kern van het basale onderwijsmiddel van dit programma.
 
 ## Oefenquiz
 

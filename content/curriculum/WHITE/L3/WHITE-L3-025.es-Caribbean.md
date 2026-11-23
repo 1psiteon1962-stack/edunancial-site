@@ -24,7 +24,7 @@ Al terminar esta lección, podrás:
 
 ## Contenido principal
 
-Es intuitivo suponer que a un fondo al que le ha ido bien recientemente probablemente le seguirá yendo bien; después de todo, algo debe estar haciendo bien. Este es el "por qué" de que esa intuición a menudo no se sostenga: [VERIFIED FACT] una amplia investigación que compara las clasificaciones históricas de rendimiento de los fondos en distintos períodos en general ha encontrado una persistencia débil, lo que significa que los fondos con mejor rendimiento en un período no son, de forma confiable, los de mejor rendimiento en el período siguiente; y este patrón lo han señalado los reguladores, lo cual es parte de la razón por la que las divulgaciones estandarizadas incluyen un texto que advierte que el rendimiento pasado no garantiza resultados futuros.
+Es intuitivo suponer que a un fondo al que le ha ido bien recientemente probablemente le seguirá yendo bien; después de todo, algo debe estar haciendo bien. Este es el "por qué" de que esa intuición a menudo no se sostenga: [DATO VERIFICADO] una amplia investigación que compara las clasificaciones históricas de rendimiento de los fondos en distintos períodos en general ha encontrado una persistencia débil, lo que significa que los fondos con mejor rendimiento en un período no son, de forma confiable, los de mejor rendimiento en el período siguiente; y este patrón lo han señalado los reguladores, lo cual es parte de la razón por la que las divulgaciones estandarizadas incluyen un texto que advierte que el rendimiento pasado no garantiza resultados futuros.
 
 Varios factores contribuyen a esta persistencia débil: un buen rendimiento reciente puede reflejar un ambiente temporalmente favorable para el estilo o sector particular de ese fondo, en vez de una ventaja de habilidad que se pueda repetir; las estrategias o sectores que rinden bien a menudo ven cambiar sus condiciones o se llenan de más competencia, lo que reduce su ventaja futura; y los cambios de administrador, el crecimiento de los activos y otros factores pueden afectar los resultados futuros de un fondo independientemente de su historial.
 
@@ -32,7 +32,7 @@ Por eso ir detrás de los fondos con mejor rendimiento reciente (mover dinero al
 
 ## Ejemplo práctico
 
-[ILLUSTRATIVE EXAMPLE] Un inversionista nota que un fondo ha tenido los mejores rendimientos de su categoría en los últimos tres años y decide invertir mucho basándose en ese historial. [ASSUMPTION] Si el buen rendimiento de ese fondo se debió en gran parte a un ambiente temporalmente favorable para su estilo de inversión específico, y ese ambiente cambia en los años siguientes, el fondo podría rendir menos de aquí en adelante, lo que le dejaría al inversionista una experiencia decepcionante a pesar de haberlo escogido por un historial que se veía impresionante.
+[EJEMPLO ILUSTRATIVO] Un inversionista nota que un fondo ha tenido los mejores rendimientos de su categoría en los últimos tres años y decide invertir mucho basándose en ese historial. [SUPUESTO] Si el buen rendimiento de ese fondo se debió en gran parte a un ambiente temporalmente favorable para su estilo de inversión específico, y ese ambiente cambia en los años siguientes, el fondo podría rendir menos de aquí en adelante, lo que le dejaría al inversionista una experiencia decepcionante a pesar de haberlo escogido por un historial que se veía impresionante.
 
 ## Prueba de práctica
 

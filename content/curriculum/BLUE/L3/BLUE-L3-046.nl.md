@@ -26,11 +26,11 @@ Aan het einde van deze les kun je:
 
 Hier is het "waarom" terugkerende omzet een meerprijs oplevert bij de waardering, in rechtstreekse aansluiting op de bespreking van sectorgebonden multiples in Les 45: voorspelbaarheid verkleint het risico voor een koper of investeerder. Een bedrijf dat $1 miljoen vooral via terugkerende abonnementsomzet verdient, geeft veel meer vertrouwen over de waarschijnlijke omzet van volgend jaar dan een bedrijf dat dezelfde $1 miljoen vooral verdient met eenmalige projecten, die stuk voor stuk weer vanaf nul moeten worden binnengehaald.
 
-[VERIFIED FACT] Dat is een belangrijke reden waarom sectoren die draaien op abonnementen of terugkerende contracten vaak hogere waarderingsmultiples krijgen dan verder vergelijkbare bedrijven die vooral op eenmalige verkopen leunen: de markt beloont juist de kleinere onzekerheid over toekomstige omzet die terugkerende modellen bieden.
+[GEVERIFIEERD FEIT] Dat is een belangrijke reden waarom sectoren die draaien op abonnementen of terugkerende contracten vaak hogere waarderingsmultiples krijgen dan verder vergelijkbare bedrijven die vooral op eenmalige verkopen leunen: de markt beloont juist de kleinere onzekerheid over toekomstige omzet die terugkerende modellen bieden.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Bedrijf A haalt $2 miljoen omzet per jaar, bijna helemaal uit terugkerende maandabonnementen met weinig opzeggingen van klanten. Dat geeft redelijk vertrouwen dat een vergelijkbaar omzetniveau volgend jaar doorloopt. Bedrijf B haalt dezelfde $2 miljoen omzet per jaar, maar helemaal uit eenmalige projecten die elk jaar opnieuw, klant voor klant, moeten worden binnengehaald, zonder gegarandeerde voortzetting. [ASSUMPTION] Ook al halen ze in het huidige jaar precies dezelfde omzet, bedrijf A krijgt waarschijnlijk een duidelijk hogere waarderingsmultiple dan bedrijf B. Dat weerspiegelt hoe de markt de grotere voorspelbaarheid en het kleinere risico van zijn model met terugkerende omzet beloont.
+[ILLUSTRATIEF VOORBEELD] Bedrijf A haalt $2 miljoen omzet per jaar, bijna helemaal uit terugkerende maandabonnementen met weinig opzeggingen van klanten. Dat geeft redelijk vertrouwen dat een vergelijkbaar omzetniveau volgend jaar doorloopt. Bedrijf B haalt dezelfde $2 miljoen omzet per jaar, maar helemaal uit eenmalige projecten die elk jaar opnieuw, klant voor klant, moeten worden binnengehaald, zonder gegarandeerde voortzetting. [AANNAME] Ook al halen ze in het huidige jaar precies dezelfde omzet, bedrijf A krijgt waarschijnlijk een duidelijk hogere waarderingsmultiple dan bedrijf B. Dat weerspiegelt hoe de markt de grotere voorspelbaarheid en het kleinere risico van zijn model met terugkerende omzet beloont.
 
 ## Oefenquiz
 

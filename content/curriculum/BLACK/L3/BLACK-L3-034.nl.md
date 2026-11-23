@@ -30,7 +30,7 @@ Als je leiding geeft, of van plan bent leiding te geven, aan een team in een and
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die in de ene culturele context gewend is aan een directe, informele feedbackstijl, gaat leidinggeven aan een team in een andere culturele omgeving waar directe feedback in het openbaar meestal als respectloos wordt gezien en een meer indirecte, persoonlijke aanpak wordt verwacht. [ASSUMPTION] Als hij de vertrouwde directe feedbackstijl zonder aanpassing blijft toepassen, ontstaat er echte wrijving en lijdt het vertrouwen van het nieuwe team eronder. Dit laat zien waarom het ongewijzigd exporteren van een managementstijl, hoe goedbedoeld of doeltreffend ook in de oorspronkelijke context, niet het echte respect voor medewerkers weerspiegelt dat het bredere thema van de verantwoordelijkheid van de werkgever uit Les 14 benadrukt.
+[ILLUSTRATIEF VOORBEELD] Een leider die in de ene culturele context gewend is aan een directe, informele feedbackstijl, gaat leidinggeven aan een team in een andere culturele omgeving waar directe feedback in het openbaar meestal als respectloos wordt gezien en een meer indirecte, persoonlijke aanpak wordt verwacht. [AANNAME] Als hij de vertrouwde directe feedbackstijl zonder aanpassing blijft toepassen, ontstaat er echte wrijving en lijdt het vertrouwen van het nieuwe team eronder. Dit laat zien waarom het ongewijzigd exporteren van een managementstijl, hoe goedbedoeld of doeltreffend ook in de oorspronkelijke context, niet het echte respect voor medewerkers weerspiegelt dat het bredere thema van de verantwoordelijkheid van de werkgever uit Les 14 benadrukt.
 
 ## Oefenquiz
 

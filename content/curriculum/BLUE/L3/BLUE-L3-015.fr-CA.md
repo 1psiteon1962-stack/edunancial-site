@@ -26,11 +26,11 @@ Les **coûts fixes** sont des dépenses qui restent à peu près les mêmes, peu
 
 Voici le « pourquoi » ce calcul est une vérification utile et précoce d'une idée d'entreprise : il transforme un plan d'affaires abstrait en une question concrète à laquelle on peut répondre. Combien d'unités, ou combien de revenus, cette entreprise doit-elle vraiment générer simplement pour couvrir ses coûts, avant même de faire un profit? Si ce chiffre semble irréaliste compte tenu de la taille réelle du marché ou d'attentes de ventes raisonnables, c'est un signal qu'il faut revoir les hypothèses du plan avant d'investir un capital important.
 
-[VERIFIED FACT] Le seuil de rentabilité en unités se calcule généralement en divisant les coûts fixes par la différence entre le prix par unité et le coût variable par unité (cette différence s'appelle parfois la marge sur coûts variables par unité). Cette formule relie directement la structure de coûts d'une entreprise à un objectif de ventes précis et vérifiable.
+[FAIT VÉRIFIÉ] Le seuil de rentabilité en unités se calcule généralement en divisant les coûts fixes par la différence entre le prix par unité et le coût variable par unité (cette différence s'appelle parfois la marge sur coûts variables par unité). Cette formule relie directement la structure de coûts d'une entreprise à un objectif de ventes précis et vérifiable.
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise a 50 000 $ de coûts fixes par année, vend son produit 25 $ l'unité et a des coûts variables de 15 $ l'unité, soit une marge sur coûts variables de 10 $ par unité. Son seuil de rentabilité est de 50 000 $ divisé par 10 $, soit 5 000 unités par année. [ASSUMPTION] Si une étude de marché réaliste indique que l'entreprise peut raisonnablement vendre seulement 2 000 unités par année dans son marché cible, ce calcul révèle un problème sérieux dans le plan tel qu'il est structuré, avant qu'aucun capital ne soit engagé. Il faut alors revoir le prix, la structure de coûts ou le modèle d'affaires dans son ensemble.
+[EXEMPLE ILLUSTRATIF] Une entreprise a 50 000 $ de coûts fixes par année, vend son produit 25 $ l'unité et a des coûts variables de 15 $ l'unité, soit une marge sur coûts variables de 10 $ par unité. Son seuil de rentabilité est de 50 000 $ divisé par 10 $, soit 5 000 unités par année. [HYPOTHÈSE] Si une étude de marché réaliste indique que l'entreprise peut raisonnablement vendre seulement 2 000 unités par année dans son marché cible, ce calcul révèle un problème sérieux dans le plan tel qu'il est structuré, avant qu'aucun capital ne soit engagé. Il faut alors revoir le prix, la structure de coûts ou le modèle d'affaires dans son ensemble.
 
 ## Quiz d'entraînement
 

@@ -26,11 +26,11 @@ Aan het einde van deze les kun je:
 
 Hier is het "waarom" dat verschil in de praktijk zo belangrijk is: een bedrijf kan op papier winstgevend zijn, omdat een verkoop als omzet wordt geboekt zodra die plaatsvindt, terwijl de echte betaling voor die verkoop nog niet binnen is, bijvoorbeeld omdat de klant 60 dagen betaaltermijn heeft gekregen (een onderwerp dat samenhangt met de kasconversiecyclus uit Les 14). Intussen moet het bedrijf zijn eigen medewerkers en leveranciers wel met echt geld betalen, volgens hun eigen schema, of de klanten nu al betaald hebben of niet.
 
-[VERIFIED FACT] Dit verschil is een belangrijke, goed gedocumenteerde oorzaak van faillissementen bij kleine bedrijven: een bedrijf kan in de winst-en-verliesrekening winst laten zien terwijl het echt te weinig geld heeft om zijn directe verplichtingen na te komen. Dat wordt vaak omschreven als "winstgevend maar krap bij kas".
+[GEVERIFIEERD FEIT] Dit verschil is een belangrijke, goed gedocumenteerde oorzaak van faillissementen bij kleine bedrijven: een bedrijf kan in de winst-en-verliesrekening winst laten zien terwijl het echt te weinig geld heeft om zijn directe verplichtingen na te komen. Dat wordt vaak omschreven als "winstgevend maar krap bij kas".
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf rondt een groot project af en boekt voor die maand $100,000 omzet en $70,000 winst, omdat de kosten van het project $30,000 waren. Volgens de afgesproken contractvoorwaarden hoeft de klant echter pas na 60 dagen te betalen. [ASSUMPTION] Intussen moet het bedrijf zijn medewerkers en leveranciers wel meteen in geld betalen. Als het niet genoeg kasreserves of andere financiering heeft om die 60 dagen te overbruggen, kan het echt in geldnood komen, ook al laat het op papier voor dezelfde periode een stevige, echte winst zien.
+[ILLUSTRATIEF VOORBEELD] Een bedrijf rondt een groot project af en boekt voor die maand $100,000 omzet en $70,000 winst, omdat de kosten van het project $30,000 waren. Volgens de afgesproken contractvoorwaarden hoeft de klant echter pas na 60 dagen te betalen. [AANNAME] Intussen moet het bedrijf zijn medewerkers en leveranciers wel meteen in geld betalen. Als het niet genoeg kasreserves of andere financiering heeft om die 60 dagen te overbruggen, kan het echt in geldnood komen, ook al laat het op papier voor dezelfde periode een stevige, echte winst zien.
 
 ## Oefenquiz
 

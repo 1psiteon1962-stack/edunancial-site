@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-La **deduzione per l'ufficio in casa** (home office deduction) permette in genere di dedurre una parte delle spese legate alla casa per uno spazio usato regolarmente per l'attività. [VERIFIED FACT] In molti sistemi fiscali questa deduzione richiede in genere che lo spazio specifico sia usato **esclusivamente** per l'attività (e non sia usato sia per l'attività sia per scopi personali importanti), oltre a essere usato regolarmente per l'attività.
+La **deduzione per l'ufficio in casa** (home office deduction) permette in genere di dedurre una parte delle spese legate alla casa per uno spazio usato regolarmente per l'attività. [FATTO VERIFICATO] In molti sistemi fiscali questa deduzione richiede in genere che lo spazio specifico sia usato **esclusivamente** per l'attività (e non sia usato sia per l'attività sia per scopi personali importanti), oltre a essere usato regolarmente per l'attività.
 
 Ecco il "perché" esiste questo requisito di uso esclusivo: senza di esso, distinguere le spese domestiche legittimamente legate all'attività dalle normali spese di vita personale diventerebbe davvero difficile da verificare e da far rispettare. Un tavolo da pranzo usato ogni tanto per lavorare ma soprattutto per i pasti in famiglia, per esempio, mescola uso personale e uso professionale in un modo che rende difficile calcolare una deduzione professionale chiara e difendibile, e sarebbe particolarmente esposto ad abusi se fosse ammesso senza una linea di confine chiara.
 
@@ -30,7 +30,7 @@ Per questo una stanza o uno spazio ben definito, usato esclusivamente e regolarm
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Una consulente che lavora in proprio trasforma una camera degli ospiti in un ufficio dedicato, usato esclusivamente per incontri con i clienti e lavoro professionale, senza alcun altro uso personale di quella stanza. Questo spazio avrebbe probabilmente i requisiti per la deduzione dell'ufficio in casa con un normale requisito di uso esclusivo. [ASSUMPTION] Un'altra persona che lavora in proprio dal tavolo della cucina, usato ogni giorno anche per i pasti in famiglia e per altre attività domestiche, probabilmente non avrebbe diritto alla stessa deduzione per quello spazio, pur facendo lì un vero lavoro professionale, perché lo spazio non è usato esclusivamente per l'attività. L'esempio mostra perché la natura specifica e dedicata dello spazio conta quanto il lavoro che vi si svolge davvero.
+[ESEMPIO ILLUSTRATIVO] Una consulente che lavora in proprio trasforma una camera degli ospiti in un ufficio dedicato, usato esclusivamente per incontri con i clienti e lavoro professionale, senza alcun altro uso personale di quella stanza. Questo spazio avrebbe probabilmente i requisiti per la deduzione dell'ufficio in casa con un normale requisito di uso esclusivo. [IPOTESI] Un'altra persona che lavora in proprio dal tavolo della cucina, usato ogni giorno anche per i pasti in famiglia e per altre attività domestiche, probabilmente non avrebbe diritto alla stessa deduzione per quello spazio, pur facendo lì un vero lavoro professionale, perché lo spazio non è usato esclusivamente per l'attività. L'esempio mostra perché la natura specifica e dedicata dello spazio conta quanto il lavoro che vi si svolge davvero.
 
 ## Quiz di esercitazione
 

@@ -30,7 +30,7 @@ Wat zou een korte, bewuste pauze – al is het maar een paar minuten – je de v
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die met een zich ontwikkelende crisis te maken heeft, voelt een sterke, directe ingeving om op een bepaalde manier te reageren, vooral gedreven door het meest alarmerende stuk informatie dat net binnenkwam. [ASSUMPTION] Door een korte, bewuste pauze te nemen – een paar minuten, geen lang uitstel – om zich af te vragen of deze ingeving een echt goed oordeel weerspiegelt of alleen een acute stressreactie op de meest recente, alarmerende informatie, beseft deze leider dat de ingeving onevenredig sterk werd gevormd door recentheidsbias. Hij kiest daarom voor een meer afgewogen reactie die nog steeds voldoet aan de snelheidseisen uit Les 16, terwijl hij de specifieke vertekening vermijdt die deze korte pauze moest opvangen.
+[ILLUSTRATIEF VOORBEELD] Een leider die met een zich ontwikkelende crisis te maken heeft, voelt een sterke, directe ingeving om op een bepaalde manier te reageren, vooral gedreven door het meest alarmerende stuk informatie dat net binnenkwam. [AANNAME] Door een korte, bewuste pauze te nemen – een paar minuten, geen lang uitstel – om zich af te vragen of deze ingeving een echt goed oordeel weerspiegelt of alleen een acute stressreactie op de meest recente, alarmerende informatie, beseft deze leider dat de ingeving onevenredig sterk werd gevormd door recentheidsbias. Hij kiest daarom voor een meer afgewogen reactie die nog steeds voldoet aan de snelheidseisen uit Les 16, terwijl hij de specifieke vertekening vermijdt die deze korte pauze moest opvangen.
 
 ## Oefenquiz
 

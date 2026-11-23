@@ -30,7 +30,7 @@ Antes de tratar o resultado de qualquer teste A/B como uma descoberta real: qual
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um time de marketing faz um teste mudando, ao mesmo tempo, o título, a imagem e a cor do botão de um anúncio, e a nova versão tem desempenho melhor. [ASSUMPTION] O time conclui que o título novo foi o fator vencedor e o leva para todos os lugares — mas, como três variáveis mudaram de uma vez, na verdade ele não tem nenhuma forma confiável de saber se a melhora veio do título, da imagem ou da cor do botão, ou se uma dessas mudanças estava, na verdade, prejudicando o desempenho enquanto outra ajudava ainda mais, uma ambiguidade que um teste bem isolado, com uma única variável, teria evitado por completo.
+[EXEMPLO ILUSTRATIVO] Um time de marketing faz um teste mudando, ao mesmo tempo, o título, a imagem e a cor do botão de um anúncio, e a nova versão tem desempenho melhor. [SUPOSIÇÃO] O time conclui que o título novo foi o fator vencedor e o leva para todos os lugares — mas, como três variáveis mudaram de uma vez, na verdade ele não tem nenhuma forma confiável de saber se a melhora veio do título, da imagem ou da cor do botão, ou se uma dessas mudanças estava, na verdade, prejudicando o desempenho enquanto outra ajudava ainda mais, uma ambiguidade que um teste bem isolado, com uma única variável, teria evitado por completo.
 
 ## Teste de prática
 

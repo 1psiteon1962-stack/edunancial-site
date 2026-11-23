@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Het oprichten van een LLC (Limited Liability Company, een Amerikaanse rechtsvorm met beperkte aansprakelijkheid) is over het algemeen bedoeld om een juridische scheiding aan te brengen tussen de onderneming en haar eigenaren, zodat het privévermogen van de eigenaren beschermd is tegen de meeste zakelijke aansprakelijkheden. Hier is het "waarom" die bescherming niet automatisch gegarandeerd is door alleen de oprichting: [VERIFIED FACT] veel rechtsstelsels verwachten over het algemeen dat een LLC (en vergelijkbare rechtsvormen) via bepaalde doorlopende formaliteiten in stand wordt gehouden en wordt geleid als een echt aparte entiteit van haar eigenaren, zodat rechters die juridische scheiding blijven respecteren.
+Het oprichten van een LLC (Limited Liability Company, een Amerikaanse rechtsvorm met beperkte aansprakelijkheid) is over het algemeen bedoeld om een juridische scheiding aan te brengen tussen de onderneming en haar eigenaren, zodat het privévermogen van de eigenaren beschermd is tegen de meeste zakelijke aansprakelijkheden. Hier is het "waarom" die bescherming niet automatisch gegarandeerd is door alleen de oprichting: [GEVERIFIEERD FEIT] veel rechtsstelsels verwachten over het algemeen dat een LLC (en vergelijkbare rechtsvormen) via bepaalde doorlopende formaliteiten in stand wordt gehouden en wordt geleid als een echt aparte entiteit van haar eigenaren, zodat rechters die juridische scheiding blijven respecteren.
 
 Die formaliteiten omvatten over het algemeen: zakelijke en privéfinanciën echt gescheiden houden (een onderwerp dat in Les 13 verder wordt uitgewerkt), een goede zakelijke administratie bijhouden, de eigen oprichtingsdocumenten en eventueel vereiste interne procedures van de entiteit volgen, en de onderneming in haar contacten in het algemeen behandelen als een aparte juridische entiteit, en niet als een verlengstuk van de privézaken van de eigenaar.
 
@@ -30,7 +30,7 @@ Daarom garandeert alleen het indienen van de papieren om een LLC op te richten, 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een ondernemer richt een LLC op en verwacht dat dit haar privévermogen voortaan automatisch beschermt tegen alle zakelijke aansprakelijkheden. [ASSUMPTION] Als ze daarna geen goede zakelijke administratie bijhoudt, de vereiste interne procedures van de entiteit niet volgt en de financiën en zaken van het bedrijf in het algemeen niet onderscheidt van haar eigen privézaken, kan een rechter die een toekomstige aansprakelijkheidsclaim beoordeelt, vinden dat de LLC eigenlijk niet als echt aparte entiteit in stand werd gehouden en werd geleid. Dat kan precies de aansprakelijkheidsbescherming ondermijnen waarvan ze dacht dat de oprichting die automatisch en blijvend had geregeld.
+[ILLUSTRATIEF VOORBEELD] Een ondernemer richt een LLC op en verwacht dat dit haar privévermogen voortaan automatisch beschermt tegen alle zakelijke aansprakelijkheden. [AANNAME] Als ze daarna geen goede zakelijke administratie bijhoudt, de vereiste interne procedures van de entiteit niet volgt en de financiën en zaken van het bedrijf in het algemeen niet onderscheidt van haar eigen privézaken, kan een rechter die een toekomstige aansprakelijkheidsclaim beoordeelt, vinden dat de LLC eigenlijk niet als echt aparte entiteit in stand werd gehouden en werd geleid. Dat kan precies de aansprakelijkheidsbescherming ondermijnen waarvan ze dacht dat de oprichting die automatisch en blijvend had geregeld.
 
 ## Oefenquiz
 

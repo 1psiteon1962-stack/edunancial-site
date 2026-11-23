@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Les 3 liet zien dat de ernst van een tekortkoming bepaalt welke remedie beschikbaar is. Hier is het "waarom" achter de algemene aard van die remedie zelf: [VERIFIED FACT] het contractenrecht is er over het algemeen op gericht de partij die wel nakomt in de positie te brengen waarin ze zou hebben verkeerd als het contract goed was nagekomen – vaak het positieve contractsbelang (expectation) genoemd – en niet om de partij die tekortschiet te straffen voor het breken van haar belofte.
+Les 3 liet zien dat de ernst van een tekortkoming bepaalt welke remedie beschikbaar is. Hier is het "waarom" achter de algemene aard van die remedie zelf: [GEVERIFIEERD FEIT] het contractenrecht is er over het algemeen op gericht de partij die wel nakomt in de positie te brengen waarin ze zou hebben verkeerd als het contract goed was nagekomen – vaak het positieve contractsbelang (expectation) genoemd – en niet om de partij die tekortschiet te straffen voor het breken van haar belofte.
 
 Daarom is **compenserende schadevergoeding** – een bedrag dat de werkelijke, aantoonbare financiële schade door de tekortkoming moet dekken – de standaardremedie, en daarom is een **punitieve schadevergoeding** – een vergoeding die specifiek bedoeld is om de overtreder te straffen bovenop het vergoeden van de werkelijke schade van de ander – in de meeste rechtsstelsels over het algemeen niet beschikbaar in een gewone zaak over wanprestatie, zelfs niet bij een bewuste, opzettelijke tekortkoming.
 
@@ -30,7 +30,7 @@ Deze algemene aanpak weerspiegelt een specifieke rechtsopvatting: het contracten
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf komt een contract niet na, waardoor de andere partij een specifiek, aantoonbaar financieel verlies lijdt. De partij die wel nakwam, kan over het algemeen compenserende schadevergoeding krijgen die die specifieke financiële schade weerspiegelt, zodat ze ongeveer in de positie komt waarin ze zou hebben verkeerd als het contract was nagekomen zoals afgesproken. [ASSUMPTION] Zelfs als de tekortkoming bewust was en kan worden gezien als een berekende zakelijke beslissing om de belofte te breken, kan de partij die wel nakwam over het algemeen geen extra punitieve schadevergoeding krijgen alleen om die bewuste keuze te straffen, bovenop het werkelijke compenserende bedrag voor haar echte financiële schade. Dat weerspiegelt de algemene gerichtheid van het contractenrecht op vergoeding in plaats van straf.
+[ILLUSTRATIEF VOORBEELD] Een bedrijf komt een contract niet na, waardoor de andere partij een specifiek, aantoonbaar financieel verlies lijdt. De partij die wel nakwam, kan over het algemeen compenserende schadevergoeding krijgen die die specifieke financiële schade weerspiegelt, zodat ze ongeveer in de positie komt waarin ze zou hebben verkeerd als het contract was nagekomen zoals afgesproken. [AANNAME] Zelfs als de tekortkoming bewust was en kan worden gezien als een berekende zakelijke beslissing om de belofte te breken, kan de partij die wel nakwam over het algemeen geen extra punitieve schadevergoeding krijgen alleen om die bewuste keuze te straffen, bovenop het werkelijke compenserende bedrag voor haar echte financiële schade. Dat weerspiegelt de algemene gerichtheid van het contractenrecht op vergoeding in plaats van straf.
 
 ## Oefenquiz
 

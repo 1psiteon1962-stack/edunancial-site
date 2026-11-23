@@ -75,7 +75,7 @@ D) The advisor's reframing had no actual effect on the owner's eventual decision
 
 ## Answer Key
 Q1: B
-Q2: B
+Q2: A
 Q3: B
 Q4: B
 Q5: B

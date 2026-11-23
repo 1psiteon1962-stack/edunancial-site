@@ -30,7 +30,7 @@ Che cosa dice il modo reale in cui la tua organizzazione promuove e premia su ci
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sottolinea regolarmente il lavoro di squadra e la collaborazione nelle riunioni aziendali, mentre il sistema di promozioni e bonus dell'organizzazione premia esclusivamente le metriche di rendimento individuale, senza alcuna considerazione del contributo collaborativo. [ASSUMPTION] I dipendenti, rispondendo razionalmente alla struttura di incentivi reale e non al messaggio dichiarato, mettono i risultati individuali davanti a una vera collaborazione, proprio secondo il principio del percorso ORANGE per cui le persone si orientano verso ciò che viene davvero premiato. La cultura che emerge riflette il sistema di incentivi, e non i discorsi, per quanto sinceri fossero.
+[ESEMPIO ILLUSTRATIVO] Un leader sottolinea regolarmente il lavoro di squadra e la collaborazione nelle riunioni aziendali, mentre il sistema di promozioni e bonus dell'organizzazione premia esclusivamente le metriche di rendimento individuale, senza alcuna considerazione del contributo collaborativo. [IPOTESI] I dipendenti, rispondendo razionalmente alla struttura di incentivi reale e non al messaggio dichiarato, mettono i risultati individuali davanti a una vera collaborazione, proprio secondo il principio del percorso ORANGE per cui le persone si orientano verso ciò che viene davvero premiato. La cultura che emerge riflette il sistema di incentivi, e non i discorsi, per quanto sinceri fossero.
 
 ## Quiz di esercitazione
 

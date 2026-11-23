@@ -30,7 +30,7 @@ Sieh dir deinen Kalender der vergangenen Woche an. Welche Verpflichtungen hätte
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft prüft jede bedeutende finanzielle Ausgabe sorgfältig mit einer gründlichen Kosten-Nutzen-Analyse, nimmt aber fast jede Meetinganfrage und Verpflichtung in ihrem Kalender an, ohne auch nur annähernd dieselbe Prüfung anzuwenden. [ASSUMPTION] Indem sie dieselbe Disziplin der Opportunitätskosten aus dem GOLDENEN und dem ORANGE Lernpfad gezielt auf Zeit anwendet, erkennt diese Führungskraft, dass viele Termine in ihrem Kalender die Bewertung nicht überstehen würden, der sich eine vergleichbare finanzielle Ausgabe stellen müsste – und geht daraufhin bewusster und disziplinierter mit ihrer Zeit um, indem sie Stunden mit derselben Gründlichkeit behandelt, die sie bisher nur Euro vorbehalten hatte.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft prüft jede bedeutende finanzielle Ausgabe sorgfältig mit einer gründlichen Kosten-Nutzen-Analyse, nimmt aber fast jede Meetinganfrage und Verpflichtung in ihrem Kalender an, ohne auch nur annähernd dieselbe Prüfung anzuwenden. [ANNAHME] Indem sie dieselbe Disziplin der Opportunitätskosten aus dem GOLDENEN und dem ORANGE Lernpfad gezielt auf Zeit anwendet, erkennt diese Führungskraft, dass viele Termine in ihrem Kalender die Bewertung nicht überstehen würden, der sich eine vergleichbare finanzielle Ausgabe stellen müsste – und geht daraufhin bewusster und disziplinierter mit ihrer Zeit um, indem sie Stunden mit derselben Gründlichkeit behandelt, die sie bisher nur Euro vorbehalten hatte.
 
 ## Übungsquiz
 1. Warum sollte die Zeit einer Führungskraft mit derselben Disziplin bewertet werden wie finanzielles Kapital?

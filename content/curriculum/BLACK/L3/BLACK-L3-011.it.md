@@ -30,7 +30,7 @@ Pensa a un problema recente che è diventato più costoso o visibile del necessa
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] In un'organizzazione senza una vera sicurezza psicologica, un membro del team nota presto un problema significativo nei tempi di un progetto, ma non lo segnala per paura di sembrare negativo o poco collaborativo. [ASSUMPTION] Il problema, rimasto irrisolto, si aggrava e alla fine diventa un fallimento molto più visibile e costoso di quanto sarebbe stato se fosse stato segnalato e affrontato subito. È una conseguenza finanziaria diretta della mancanza di sicurezza psicologica, che mostra perché non si tratta solo di una preferenza culturale, ma di un fattore con un impatto reale e misurabile sui risultati dell'organizzazione.
+[ESEMPIO ILLUSTRATIVO] In un'organizzazione senza una vera sicurezza psicologica, un membro del team nota presto un problema significativo nei tempi di un progetto, ma non lo segnala per paura di sembrare negativo o poco collaborativo. [IPOTESI] Il problema, rimasto irrisolto, si aggrava e alla fine diventa un fallimento molto più visibile e costoso di quanto sarebbe stato se fosse stato segnalato e affrontato subito. È una conseguenza finanziaria diretta della mancanza di sicurezza psicologica, che mostra perché non si tratta solo di una preferenza culturale, ma di un fattore con un impatto reale e misurabile sui risultati dell'organizzazione.
 
 ## Quiz di esercitazione
 

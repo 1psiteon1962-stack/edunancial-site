@@ -30,7 +30,7 @@ Wenn dein aktuelles Provisionsmodell X belohnt: Welches Verhalten fördert es ta
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen zahlt Provision allein für neu abgeschlossene Verkäufe, ohne die Kundenbindung zu berücksichtigen. [ASSUMPTION] Die Verkäufer reagieren rational auf dieses Modell und schließen möglichst viele Geschäfte ab, manchmal mit Kunden, die schlecht passen und wahrscheinlich schnell wieder abwandern – die Provision wird so oder so verdient, sodass das Modell ungewollt genau die Art von Wachstum mit geringer Kundenbindung gefördert hat, die die vom Kundenwert abhängige wirtschaftliche Gesundheit aus Lektion 6 untergräbt, obwohl kein einzelner Verkäufer gegen den Wortlaut seines Vergütungsplans verstoßen hat.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen zahlt Provision allein für neu abgeschlossene Verkäufe, ohne die Kundenbindung zu berücksichtigen. [ANNAHME] Die Verkäufer reagieren rational auf dieses Modell und schließen möglichst viele Geschäfte ab, manchmal mit Kunden, die schlecht passen und wahrscheinlich schnell wieder abwandern – die Provision wird so oder so verdient, sodass das Modell ungewollt genau die Art von Wachstum mit geringer Kundenbindung gefördert hat, die die vom Kundenwert abhängige wirtschaftliche Gesundheit aus Lektion 6 untergräbt, obwohl kein einzelner Verkäufer gegen den Wortlaut seines Vergütungsplans verstoßen hat.
 
 ## Übungsquiz
 1. Warum prägt ein Provisionsmodell das Verhalten von Verkäufern direkt, gewollt oder nicht?

@@ -30,7 +30,7 @@ Laquelle de ces trois directions — vers le haut, vers le bas ou latéralement 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader investit beaucoup dans la bonne gestion de son équipe directe, en bâtissant un moral solide et une orientation claire, tout en négligeant de gérer activement ses relations avec les leaders des services pairs. [ASSUMPTION] Lorsqu'une initiative interservices importante exige une coordination que ce leader n'a pas cultivée, l'excellent rendement individuel de l'équipe est miné par une mauvaise coordination latérale — ce qui montre pourquoi gérer seulement vers le bas, aussi bien que ce soit fait, ne suffit pas sans gérer aussi délibérément les relations latérales qui influent sur des résultats de l'organisation qui échappent au contrôle d'une seule équipe.
+[EXEMPLE ILLUSTRATIF] Un leader investit beaucoup dans la bonne gestion de son équipe directe, en bâtissant un moral solide et une orientation claire, tout en négligeant de gérer activement ses relations avec les leaders des services pairs. [HYPOTHÈSE] Lorsqu'une initiative interservices importante exige une coordination que ce leader n'a pas cultivée, l'excellent rendement individuel de l'équipe est miné par une mauvaise coordination latérale — ce qui montre pourquoi gérer seulement vers le bas, aussi bien que ce soit fait, ne suffit pas sans gérer aussi délibérément les relations latérales qui influent sur des résultats de l'organisation qui échappent au contrôle d'une seule équipe.
 
 ## Quiz de pratique
 

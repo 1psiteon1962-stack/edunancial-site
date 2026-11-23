@@ -30,7 +30,7 @@ Quanto da sua rede profissional foi construído com antecedência, em períodos 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder diante de uma decisão estratégica difícil e pouco conhecida procura um colega com quem mantém há anos um relacionamento real e contínuo e recebe um conselho franco e bem informado, apoiado numa confiança real e no conhecimento do contexto. [ASSUMPTION] Outro líder, diante de uma decisão parecida, que nunca investiu em construir relacionamentos profissionais reais nos períodos mais tranquilos, se vê sem ninguém a quem recorrer para esse tipo de visão de fora franca justamente quando ela seria mais valiosa — o que mostra por que uma rede é um ativo para reduzir riscos que, como outros ativos vistos ao longo deste currículo, exige um investimento antecipado, bem antes do momento em que ela é realmente necessária.
+[EXEMPLO ILUSTRATIVO] Um líder diante de uma decisão estratégica difícil e pouco conhecida procura um colega com quem mantém há anos um relacionamento real e contínuo e recebe um conselho franco e bem informado, apoiado numa confiança real e no conhecimento do contexto. [SUPOSIÇÃO] Outro líder, diante de uma decisão parecida, que nunca investiu em construir relacionamentos profissionais reais nos períodos mais tranquilos, se vê sem ninguém a quem recorrer para esse tipo de visão de fora franca justamente quando ela seria mais valiosa — o que mostra por que uma rede é um ativo para reduzir riscos que, como outros ativos vistos ao longo deste currículo, exige um investimento antecipado, bem antes do momento em que ela é realmente necessária.
 
 ## Teste de prática
 

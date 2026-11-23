@@ -30,7 +30,7 @@ Wenn du in ein neues Marktsegment mit einem doppelt so langen Verkaufszyklus wie
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen mit einem typischerweise kurzen Verkaufszyklus von einem Monat expandiert in ein neues Marktsegment, in dem Geschäfte typischerweise sechs Monate bis zum Abschluss brauchen. [ASSUMPTION] Das Unternehmen plant das Budget für das neue Segment, indem es seine bestehenden Vertriebsausgaben einfach proportional erhöht, ohne die viel längere Lücke zwischen diesen Ausgaben und dem daraus folgenden Umsatz zu berücksichtigen – so entsteht ein Engpass beim Betriebskapital während der verlängerten Zeit, bevor die Verkäufe im neuen Segment tatsächlich zu Umsatz werden; eine Finanzierungsfolge, die direkt mit der Länge des Verkaufszyklus zusammenhängt und die ein rein budgetproportionaler Plan übersehen hat.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen mit einem typischerweise kurzen Verkaufszyklus von einem Monat expandiert in ein neues Marktsegment, in dem Geschäfte typischerweise sechs Monate bis zum Abschluss brauchen. [ANNAHME] Das Unternehmen plant das Budget für das neue Segment, indem es seine bestehenden Vertriebsausgaben einfach proportional erhöht, ohne die viel längere Lücke zwischen diesen Ausgaben und dem daraus folgenden Umsatz zu berücksichtigen – so entsteht ein Engpass beim Betriebskapital während der verlängerten Zeit, bevor die Verkäufe im neuen Segment tatsächlich zu Umsatz werden; eine Finanzierungsfolge, die direkt mit der Länge des Verkaufszyklus zusammenhängt und die ein rein budgetproportionaler Plan übersehen hat.
 
 ## Übungsquiz
 1. Was misst die Länge des Verkaufszyklus?

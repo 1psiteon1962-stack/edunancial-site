@@ -30,7 +30,7 @@ Qui a vraiment profité de ton mentorat délibéré, et as-tu déjà pensé à c
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader investit beaucoup de temps, au fil des ans, à encadrer délibérément plusieurs membres de son équipe, en leur enseignant non seulement des compétences précises, mais aussi le jugement et le raisonnement sous-jacents qu'il a développés. [ASSUMPTION] Des années après que ce leader est passé à un autre poste ou à une autre organisation, plusieurs des personnes encadrées en encadrent maintenant d'autres à leur tour, ce qui prolonge et multiplie l'investissement initial — un rendement cumulatif qui a continué de générer de la valeur longtemps après la fin de l'intervention directe du leader initial, ce qui montre exactement pourquoi le mentorat mérite l'évaluation digne d'un placement que la leçon 24 recommande pour le développement du leadership en général.
+[EXEMPLE ILLUSTRATIF] Un leader investit beaucoup de temps, au fil des ans, à encadrer délibérément plusieurs membres de son équipe, en leur enseignant non seulement des compétences précises, mais aussi le jugement et le raisonnement sous-jacents qu'il a développés. [HYPOTHÈSE] Des années après que ce leader est passé à un autre poste ou à une autre organisation, plusieurs des personnes encadrées en encadrent maintenant d'autres à leur tour, ce qui prolonge et multiplie l'investissement initial — un rendement cumulatif qui a continué de générer de la valeur longtemps après la fin de l'intervention directe du leader initial, ce qui montre exactement pourquoi le mentorat mérite l'évaluation digne d'un placement que la leçon 24 recommande pour le développement du leadership en général.
 
 ## Quiz de pratique
 

@@ -30,7 +30,7 @@ Voordat je een belangrijke schriftelijke boodschap verstuurt – een beoordeling
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider schrijft een informele, losse e-mail aan een collega met een opmerking over de prestaties van een medewerker die een persoonlijk kenmerk raakt dat niets met de werkelijke prestaties te maken heeft. [ASSUMPTION] Als die medewerker later om een legitieme, prestatiegerelateerde reden wordt ontslagen en een discriminatieclaim indient, wordt deze eerdere e-mail – nooit bedoeld als meer dan een losse opmerking – duurzaam, schriftelijk bewijs dat een rechter relevant kan vinden voor de claim. Dit laat zien waarom wat een leider dagelijks schrijft juridisch gewicht heeft, hoe losjes en spontaan het ook bedoeld was.
+[ILLUSTRATIEF VOORBEELD] Een leider schrijft een informele, losse e-mail aan een collega met een opmerking over de prestaties van een medewerker die een persoonlijk kenmerk raakt dat niets met de werkelijke prestaties te maken heeft. [AANNAME] Als die medewerker later om een legitieme, prestatiegerelateerde reden wordt ontslagen en een discriminatieclaim indient, wordt deze eerdere e-mail – nooit bedoeld als meer dan een losse opmerking – duurzaam, schriftelijk bewijs dat een rechter relevant kan vinden voor de claim. Dit laat zien waarom wat een leider dagelijks schrijft juridisch gewicht heeft, hoe losjes en spontaan het ook bedoeld was.
 
 ## Oefenquiz
 

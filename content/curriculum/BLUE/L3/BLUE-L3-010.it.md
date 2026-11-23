@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Negli Stati Uniti, la Small Business Administration (SBA) offre programmi di prestito in cui lo Stato garantisce una parte di un prestito concesso da un finanziatore privato aderente, invece di prestare direttamente il denaro. (In Italia, il Fondo di garanzia per le PMI segue una logica simile.) [VERIFIED FACT] Le condizioni specifiche dei programmi, i requisiti di accesso e le percentuali di garanzia sono stabiliti dalla SBA e cambiano periodicamente: i dettagli attuali del programma vanno verificati direttamente, non dati per scontati.
+Negli Stati Uniti, la Small Business Administration (SBA) offre programmi di prestito in cui lo Stato garantisce una parte di un prestito concesso da un finanziatore privato aderente, invece di prestare direttamente il denaro. (In Italia, il Fondo di garanzia per le PMI segue una logica simile.) [FATTO VERIFICATO] Le condizioni specifiche dei programmi, i requisiti di accesso e le percentuali di garanzia sono stabiliti dalla SBA e cambiano periodicamente: i dettagli attuali del programma vanno verificati direttamente, non dati per scontati.
 
 Ecco il "perché" questa garanzia pubblica è importante, in collegamento con la discussione della Lezione 1 sul motivo per cui i finanziatori tradizionali esitano spesso a finanziare per intero l'acquisizione di piccole imprese: poiché lo Stato garantisce una parte significativa del prestito se il debitore non paga, i finanziatori aderenti si assumono un rischio molto minore rispetto a un prestito tradizionale senza alcuna garanzia, e sono quindi disposti a offrire un finanziamento, spesso a condizioni più favorevoli (come un anticipo più basso o tempi di rimborso più lunghi), che altrimenti forse non concederebbero per l'acquisizione di una piccola impresa.
 
@@ -30,7 +30,7 @@ Per questo i prestiti SBA si affiancano di solito al finanziamento del venditore
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un acquirente vuole comprare una piccola impresa per $500,000. Una banca che aderisce a un programma di prestito SBA accetta di prestare la grande maggioranza di questa cifra, con lo Stato che garantisce una parte del prestito in caso di mancato pagamento: una struttura che dà alla banca abbastanza fiducia da concedere un finanziamento che probabilmente non offrirebbe senza alcuna garanzia per questo tipo di acquisizione. Il saldo restante si divide tra una parte più piccola finanziata dal venditore e l'anticipo in contanti dell'acquirente, e insieme finanziano per intero l'acquisto.
+[ESEMPIO ILLUSTRATIVO] Un acquirente vuole comprare una piccola impresa per $500,000. Una banca che aderisce a un programma di prestito SBA accetta di prestare la grande maggioranza di questa cifra, con lo Stato che garantisce una parte del prestito in caso di mancato pagamento: una struttura che dà alla banca abbastanza fiducia da concedere un finanziamento che probabilmente non offrirebbe senza alcuna garanzia per questo tipo di acquisizione. Il saldo restante si divide tra una parte più piccola finanziata dal venditore e l'anticipo in contanti dell'acquirente, e insieme finanziano per intero l'acquisto.
 
 ## Quiz di esercitazione
 

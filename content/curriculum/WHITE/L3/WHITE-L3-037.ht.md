@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" sa mande yon vant reyèl: toutotan ou senpleman kenbe yon envestisman ki vo mwens pase pri ou te achte l, jeneralman yo konsidere sa kòm yon pèt ki poko reyalize — li egziste sou papye men li poko "fèmen" atravè yon tranzaksyon, e nan anpil sistèm taks, se sèlman yon pèt ki reyalize ou ka itilize pou taks. Lè w vann pozisyon an, pèt sou papye sa a vin yon pèt reyalize.
 
-[VERIFIED FACT] Paske anpil envestisè vle kenbe ekspozisyon jeneral yo nan mache a oswa estrateji envestisman yo menm pandan y ap rekòlte yon pèt, yo souvan reenvesti lajan vant lan nan yon envestisman ki sanble (men ki pa idantik) touswit — sa mennen nan yon règ enpòtan ki kouvri nan pwochen leson an, ki limite konbyen vit ou ka rachte yon envestisman ki prèske idantik epi toujou reklame pèt taks la.
+[FÈ VERIFYE] Paske anpil envestisè vle kenbe ekspozisyon jeneral yo nan mache a oswa estrateji envestisman yo menm pandan y ap rekòlte yon pèt, yo souvan reenvesti lajan vant lan nan yon envestisman ki sanble (men ki pa idantik) touswit — sa mennen nan yon règ enpòtan ki kouvri nan pwochen leson an, ki limite konbyen vit ou ka rachte yon envestisman ki prèske idantik epi toujou reklame pèt taks la.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè gen yon fon ki pèdi anpil valè depi li te achte l. Olye li senpleman kontinye kenbe l, li vann pozisyon an, li reyalize pèt la pou taks, epi li reenvesti lajan an nan yon fon ki sanble, men ki pa idantik, pou l kenbe apeprè menm ekspozisyon nan mache a. [ASSUMPTION] Li ka petèt itilize pèt reyalize a, dapre règ taks ki aplike yo, pou konpanse lòt benefis taksab li genyen yon lòt kote nan pòtfolyo li ane sa a, sa ki fè sa ki te sanble yon rezilta totalman negatif tounen omwen yon avantaj taks pasyèl e pratik.
+[EGZANP ILISTRATIF] Yon envestisè gen yon fon ki pèdi anpil valè depi li te achte l. Olye li senpleman kontinye kenbe l, li vann pozisyon an, li reyalize pèt la pou taks, epi li reenvesti lajan an nan yon fon ki sanble, men ki pa idantik, pou l kenbe apeprè menm ekspozisyon nan mache a. [SIPOZISYON] Li ka petèt itilize pèt reyalize a, dapre règ taks ki aplike yo, pou konpanse lòt benefis taksab li genyen yon lòt kote nan pòtfolyo li ane sa a, sa ki fè sa ki te sanble yon rezilta totalman negatif tounen omwen yon avantaj taks pasyèl e pratik.
 
 ## Egzamen pratik
 

@@ -30,7 +30,7 @@ Olhe para a sua agenda da semana passada. Quais compromissos passariam pela mesm
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder avalia com cuidado cada gasto financeiro importante usando uma análise rigorosa de custo-benefício, enquanto aceita quase todo pedido de reunião e todo compromisso na agenda sem aplicar nada parecido com esse mesmo exame. [ASSUMPTION] Aplicando especificamente ao tempo a mesma disciplina de custo de oportunidade das trilhas GOLD e ORANGE, esse líder percebe que muitos compromissos na agenda não passariam pela mesma avaliação que um gasto financeiro equivalente enfrentaria — o que o leva a uma forma mais intencional e disciplinada de distribuir o tempo, tratando as horas com o mesmo rigor que antes ele reservava só para o dinheiro.
+[EXEMPLO ILUSTRATIVO] Um líder avalia com cuidado cada gasto financeiro importante usando uma análise rigorosa de custo-benefício, enquanto aceita quase todo pedido de reunião e todo compromisso na agenda sem aplicar nada parecido com esse mesmo exame. [SUPOSIÇÃO] Aplicando especificamente ao tempo a mesma disciplina de custo de oportunidade das trilhas GOLD e ORANGE, esse líder percebe que muitos compromissos na agenda não passariam pela mesma avaliação que um gasto financeiro equivalente enfrentaria — o que o leva a uma forma mais intencional e disciplinada de distribuir o tempo, tratando as horas com o mesmo rigor que antes ele reservava só para o dinheiro.
 
 ## Teste de prática
 

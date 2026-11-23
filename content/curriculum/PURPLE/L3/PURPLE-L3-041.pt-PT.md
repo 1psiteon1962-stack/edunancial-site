@@ -22,15 +22,15 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A **prescrição** geralmente define um limite de tempo específico dentro do qual uma pretensão jurídica precisa de ser apresentada; depois disso, a pretensão geralmente fica totalmente impedida, independentemente do mérito dela. [VERIFIED FACT] Os prazos específicos variam muito conforme a jurisdição e o tipo de pretensão — diferentes categorias de ações judiciais (disputas contratuais, pedidos de indenização por danos pessoais e outras) muitas vezes têm prazos de prescrição diferentes.
+A **prescrição** geralmente define um limite de tempo específico dentro do qual uma pretensão jurídica precisa de ser apresentada; depois disso, a pretensão geralmente fica totalmente impedida, independentemente do mérito dela. [FACTO VERIFICADO] Os prazos específicos variam muito conforme a jurisdição e o tipo de pretensão — diferentes categorias de ações judiciais (disputas contratuais, pedidos de indenização por danos pessoais e outras) muitas vezes têm prazos de prescrição diferentes.
 
-Este é o "porquê" geral de esse limite de tempo existir: [VERIFIED FACT] a prescrição geralmente serve para incentivar que as pretensões sejam apresentadas enquanto as provas e a memória das testemunhas ainda estão relativamente frescas e confiáveis, e para dar aos possíveis réus, no fim, alguma segurança e tranquilidade, em vez de deixá-los sujeitos para sempre a um processo por factos que podem ter acontecido muitos anos antes.
+Este é o "porquê" geral de esse limite de tempo existir: [FACTO VERIFICADO] a prescrição geralmente serve para incentivar que as pretensões sejam apresentadas enquanto as provas e a memória das testemunhas ainda estão relativamente frescas e confiáveis, e para dar aos possíveis réus, no fim, alguma segurança e tranquilidade, em vez de deixá-los sujeitos para sempre a um processo por factos que podem ter acontecido muitos anos antes.
 
 É por isso que uma pretensão totalmente válida e fundamentada pode ficar impedida para sempre só porque foi apresentada depois do fim do prazo aplicável — uma vez consumada a prescrição, o mérito da pretensão geralmente se torna juridicamente irrelevante, o que significa que entender e acompanhar o prazo aplicável importa tanto quanto a força da própria pretensão.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma pessoa tem uma pretensão jurídica realmente válida, que surgiu de um facto específico, mas só toma providências para apresentá-la muito depois de o prazo de prescrição aplicável a esse tipo de pretensão já ter terminado. [ASSUMPTION] Mesmo que a pretensão pudesse ser totalmente fundamentada, um tribunal provavelmente a rejeitaria por estar prescrita, já que o prazo de prescrição já tinha acabado — o que mostra por que o momento de apresentar uma pretensão pode importar tanto quanto, ou até mais do que, a força real dos factos por trás dela.
+[EXEMPLO ILUSTRATIVO] Uma pessoa tem uma pretensão jurídica realmente válida, que surgiu de um facto específico, mas só toma providências para apresentá-la muito depois de o prazo de prescrição aplicável a esse tipo de pretensão já ter terminado. [SUPOSIÇÃO] Mesmo que a pretensão pudesse ser totalmente fundamentada, um tribunal provavelmente a rejeitaria por estar prescrita, já que o prazo de prescrição já tinha acabado — o que mostra por que o momento de apresentar uma pretensão pode importar tanto quanto, ou até mais do que, a força real dos factos por trás dela.
 
 ## Teste de prática
 

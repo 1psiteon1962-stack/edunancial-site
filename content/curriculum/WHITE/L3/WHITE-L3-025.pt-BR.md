@@ -24,7 +24,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-É intuitivo supor que um fundo que foi bem recentemente provavelmente vai continuar indo bem; afinal, ele deve estar fazendo algo certo. Este é o "porquê" de essa intuição muitas vezes não se sustentar: [VERIFIED FACT] pesquisas extensas que comparam as posições dos fundos nos rankings de desempenho histórico em diferentes períodos geralmente encontraram uma persistência fraca; ou seja, os fundos com melhor desempenho em um período não são, de forma confiável, os melhores no período seguinte, e esse padrão já foi observado pelos órgãos reguladores, o que é parte do motivo pelo qual os avisos padronizados incluem a frase de que desempenho passado não garante resultados futuros.
+É intuitivo supor que um fundo que foi bem recentemente provavelmente vai continuar indo bem; afinal, ele deve estar fazendo algo certo. Este é o "porquê" de essa intuição muitas vezes não se sustentar: [FATO VERIFICADO] pesquisas extensas que comparam as posições dos fundos nos rankings de desempenho histórico em diferentes períodos geralmente encontraram uma persistência fraca; ou seja, os fundos com melhor desempenho em um período não são, de forma confiável, os melhores no período seguinte, e esse padrão já foi observado pelos órgãos reguladores, o que é parte do motivo pelo qual os avisos padronizados incluem a frase de que desempenho passado não garante resultados futuros.
 
 Vários fatores contribuem para essa persistência fraca: um desempenho recente forte pode refletir um ambiente temporariamente favorável ao estilo ou ao setor específico daquele fundo, e não uma vantagem de habilidade que possa se repetir; estratégias ou setores que vão bem muitas vezes veem as condições mudarem ou ficarem mais concorridas, o que reduz a vantagem futura; e mudanças de gestor, o crescimento do patrimônio do fundo e outros fatores podem afetar os resultados futuros de um fundo, independentemente do seu histórico.
 
@@ -32,7 +32,7 @@ Vários fatores contribuem para essa persistência fraca: um desempenho recente 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um investidor percebe que um fundo teve os melhores retornos da sua categoria nos últimos três anos e decide investir pesado com base nesse histórico. [ASSUMPTION] Se o desempenho forte desse fundo foi impulsionado principalmente por um ambiente temporariamente favorável ao seu estilo de investimento específico, e esse ambiente mudar nos anos seguintes, o fundo pode ter desempenho pior daqui para frente, deixando o investidor com uma experiência decepcionante, apesar de ter escolhido com base em um histórico que parecia impressionante.
+[EXEMPLO ILUSTRATIVO] Um investidor percebe que um fundo teve os melhores retornos da sua categoria nos últimos três anos e decide investir pesado com base nesse histórico. [SUPOSIÇÃO] Se o desempenho forte desse fundo foi impulsionado principalmente por um ambiente temporariamente favorável ao seu estilo de investimento específico, e esse ambiente mudar nos anos seguintes, o fundo pode ter desempenho pior daqui para frente, deixando o investidor com uma experiência decepcionante, apesar de ter escolhido com base em um histórico que parecia impressionante.
 
 ## Teste de prática
 

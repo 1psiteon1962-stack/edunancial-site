@@ -30,7 +30,7 @@ C'è una decisione che stai affrontando in questo momento in cui la tua situazio
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sotto una forte pressione finanziaria personale sta valutando se portare avanti un affare rischioso ma subito molto redditizio. [ASSUMPTION] Senza riconoscere quanto il proprio stress finanziario possa influenzare questa valutazione, il leader potrebbe sottovalutare i rischi reali dell'affare per l'organizzazione, distorto da una preferenza inconsapevole per il sollievo immediato che i proventi gli darebbero sul piano personale. È una distorsione che una protezione strutturale, come l'obbligo di avere una prospettiva davvero indipendente prima di chiudere decisioni importanti (come nella Lezione 10), potrebbe aiutare a individuare e correggere.
+[ESEMPIO ILLUSTRATIVO] Un leader sotto una forte pressione finanziaria personale sta valutando se portare avanti un affare rischioso ma subito molto redditizio. [IPOTESI] Senza riconoscere quanto il proprio stress finanziario possa influenzare questa valutazione, il leader potrebbe sottovalutare i rischi reali dell'affare per l'organizzazione, distorto da una preferenza inconsapevole per il sollievo immediato che i proventi gli darebbero sul piano personale. È una distorsione che una protezione strutturale, come l'obbligo di avere una prospettiva davvero indipendente prima di chiudere decisioni importanti (come nella Lezione 10), potrebbe aiutare a individuare e correggere.
 
 ## Quiz di esercitazione
 

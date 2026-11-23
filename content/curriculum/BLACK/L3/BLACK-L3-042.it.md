@@ -30,7 +30,7 @@ Se la tua impresa coinvolge familiari, quali strutture formali (ruoli chiari, au
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa familiare opera per anni senza una documentazione formale di ruoli, autorità decisionale o piano di successione, contando sull'idea che la fiducia familiare renda superflua questo tipo di struttura. [ASSUMPTION] Quando alla fine nasce tra i familiari un disaccordo significativo sulla direzione dell'impresa, l'assenza di qualsiasi struttura o accordo predefinito (proprio il rischio da cui metteva in guardia la discussione sugli accordi tra soci del percorso PURPLE) fa sì che il conflitto minacci contemporaneamente l'impresa e i rapporti familiari, senza alcuna procedura chiara di risoluzione su cui le parti si fossero accordate in precedenza.
+[ESEMPIO ILLUSTRATIVO] Un'impresa familiare opera per anni senza una documentazione formale di ruoli, autorità decisionale o piano di successione, contando sull'idea che la fiducia familiare renda superflua questo tipo di struttura. [IPOTESI] Quando alla fine nasce tra i familiari un disaccordo significativo sulla direzione dell'impresa, l'assenza di qualsiasi struttura o accordo predefinito (proprio il rischio da cui metteva in guardia la discussione sugli accordi tra soci del percorso PURPLE) fa sì che il conflitto minacci contemporaneamente l'impresa e i rapporti familiari, senza alcuna procedura chiara di risoluzione su cui le parti si fossero accordate in precedenza.
 
 ## Quiz di esercitazione
 

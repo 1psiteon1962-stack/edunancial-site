@@ -30,7 +30,7 @@ A sua própria estrutura de remuneração, ou a da alta liderança da sua organi
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] A liderança de uma empresa destaca em público o crescimento sustentável de longo prazo e o desenvolvimento dos funcionários como prioridades centrais, enquanto a remuneração dos executivos é montada quase inteiramente em torno de métricas financeiras trimestrais de curto prazo. [ASSUMPTION] Os funcionários de toda a organização percebem esse desalinhamento e tiram a conclusão razoável de que as prioridades de longo prazo declaradas são menos verdadeiras do que as métricas de curto prazo que realmente movem os incentivos financeiros da própria liderança — exatamente a distância entre incentivos e discursos discutida nas Lições 3 e 19, agora aplicada à remuneração da própria liderança, e não à de uma equipa de vendas.
+[EXEMPLO ILUSTRATIVO] A liderança de uma empresa destaca em público o crescimento sustentável de longo prazo e o desenvolvimento dos funcionários como prioridades centrais, enquanto a remuneração dos executivos é montada quase inteiramente em torno de métricas financeiras trimestrais de curto prazo. [SUPOSIÇÃO] Os funcionários de toda a organização percebem esse desalinhamento e tiram a conclusão razoável de que as prioridades de longo prazo declaradas são menos verdadeiras do que as métricas de curto prazo que realmente movem os incentivos financeiros da própria liderança — exatamente a distância entre incentivos e discursos discutida nas Lições 3 e 19, agora aplicada à remuneração da própria liderança, e não à de uma equipa de vendas.
 
 ## Teste de prática
 

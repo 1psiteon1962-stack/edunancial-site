@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Un **contratto** è in genere un accordo tra parti che si può far valere per legge. [VERIFIED FACT] Anche se i requisiti specifici cambiano a seconda dell'ordinamento e del tipo di contratto, la maggior parte dei sistemi giuridici richiede in genere tre elementi di base perché un contratto sia vincolante: una **proposta** (una parte propone condizioni specifiche), un'**accettazione** (l'altra parte accetta proprio quelle condizioni) e un **corrispettivo** (qualcosa di valore scambiato tra le parti, approfondito nella prossima lezione).
+Un **contratto** è in genere un accordo tra parti che si può far valere per legge. [FATTO VERIFICATO] Anche se i requisiti specifici cambiano a seconda dell'ordinamento e del tipo di contratto, la maggior parte dei sistemi giuridici richiede in genere tre elementi di base perché un contratto sia vincolante: una **proposta** (una parte propone condizioni specifiche), un'**accettazione** (l'altra parte accetta proprio quelle condizioni) e un **corrispettivo** (qualcosa di valore scambiato tra le parti, approfondito nella prossima lezione).
 
 Ecco il "perché" ciascun elemento svolge una funzione distinta: il requisito di proposta e accettazione garantisce che ci sia un vero incontro delle volontà, chiaro e identificabile, cioè che entrambe le parti siano davvero d'accordo sulle stesse condizioni specifiche, e non solo su un'intesa vaga e generica. Il requisito del corrispettivo garantisce che l'accordo sia un vero scambio, e non semplicemente la promessa non vincolante di una parte di fare un regalo o un favore senza ricevere nulla in cambio.
 
@@ -30,7 +30,7 @@ Per questo un accordo a cui manca uno di questi elementi potrebbe non reggere co
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa propone a un'altra condizioni specifiche: un prezzo preciso per una quantità precisa di merce consegnata entro una data precisa (la proposta). La seconda impresa accetta esattamente quelle condizioni (l'accettazione). Il denaro passa di mano in cambio della merce (il corrispettivo). Ci sono tutti e tre gli elementi, e si forma un contratto giuridicamente vincolante. [ASSUMPTION] Se invece un'impresa avesse semplicemente espresso un'intenzione vaga e generica di "probabilmente fare affari insieme prima o poi", senza che fossero mai state proposte e accettate condizioni specifiche e senza alcuna promessa di qualcosa di valore in cambio, questo accordo più vago probabilmente non raggiungerebbe la soglia minima di un contratto vincolante, nonostante le buone intenzioni di entrambe le parti.
+[ESEMPIO ILLUSTRATIVO] Un'impresa propone a un'altra condizioni specifiche: un prezzo preciso per una quantità precisa di merce consegnata entro una data precisa (la proposta). La seconda impresa accetta esattamente quelle condizioni (l'accettazione). Il denaro passa di mano in cambio della merce (il corrispettivo). Ci sono tutti e tre gli elementi, e si forma un contratto giuridicamente vincolante. [IPOTESI] Se invece un'impresa avesse semplicemente espresso un'intenzione vaga e generica di "probabilmente fare affari insieme prima o poi", senza che fossero mai state proposte e accettate condizioni specifiche e senza alcuna promessa di qualcosa di valore in cambio, questo accordo più vago probabilmente non raggiungerebbe la soglia minima di un contratto vincolante, nonostante le buone intenzioni di entrambe le parti.
 
 ## Quiz di esercitazione
 

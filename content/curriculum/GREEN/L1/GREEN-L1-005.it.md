@@ -34,11 +34,11 @@ In alcuni luoghi l'imposta viene aggiunta alla cassa, dopo il prezzo sul cartell
 
 Questo tipo di imposta riguarda tutti quelli che comprano, indipendentemente da quanto guadagnano. Per questo pesa di più su chi guadagna meno, perché queste persone spendono una parte maggiore del reddito in acquisti. Torneremo su questa idea nella lezione sulle imposte regressive.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Il cartellino di uno zaino dice $50. L'imposta sulle vendite, nel nostro esempio, è dell'8%. Quanto paghi alla cassa?
 

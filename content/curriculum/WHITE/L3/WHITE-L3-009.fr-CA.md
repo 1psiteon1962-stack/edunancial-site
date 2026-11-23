@@ -30,11 +30,11 @@ La **marge** permet à un investisseur d'emprunter de l'argent à son courtier p
 
 Voici le « pourquoi » le même effet multiplicateur s'applique : votre rendement en pourcentage est calculé par rapport à vos propres liquidités investies, et non par rapport à la taille totale de la position. Si la position prend de la valeur, ce gain est mesuré par rapport à une base plus petite, ce qui amplifie votre rendement en pourcentage. Si la position perd de la valeur, le même calcul amplifie votre perte en pourcentage exactement de la même manière, et vous devez toujours la totalité du montant emprunté, quelle que soit la performance de l'investissement.
 
-[VERIFIED FACT] Les prêts sur marge sont généralement assortis d'intérêts, ce qui ajoute un coût permanent à la position, et les courtiers exigent le maintien d'un niveau minimal de capitaux propres dans le compte ; si la valeur du compte baisse trop, cela peut déclencher un appel de marge, abordé dans la prochaine leçon.
+[FAIT VÉRIFIÉ] Les prêts sur marge sont généralement assortis d'intérêts, ce qui ajoute un coût permanent à la position, et les courtiers exigent le maintien d'un niveau minimal de capitaux propres dans le compte ; si la valeur du compte baisse trop, cela peut déclencher un appel de marge, abordé dans la prochaine leçon.
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un investisseur dispose de 10 000 $ en liquidités et utilise la marge pour acheter pour 20 000 $ d'actions (en empruntant les 10 000 $ restants). Si l'action monte de 10 %, la position gagne 2 000 $, soit un rendement de 20 % sur les 10 000 $ de départ de l'investisseur, et non de 10 %. Si l'action baisse plutôt de 10 %, la position perd 2 000 $, soit une perte de 20 % sur les 10 000 $ de départ, et l'investisseur doit toujours la totalité des 10 000 $ empruntés, quelle que soit la nouvelle valeur, plus faible, de l'action.
+[EXEMPLE ILLUSTRATIF] Un investisseur dispose de 10 000 $ en liquidités et utilise la marge pour acheter pour 20 000 $ d'actions (en empruntant les 10 000 $ restants). Si l'action monte de 10 %, la position gagne 2 000 $, soit un rendement de 20 % sur les 10 000 $ de départ de l'investisseur, et non de 10 %. Si l'action baisse plutôt de 10 %, la position perd 2 000 $, soit une perte de 20 % sur les 10 000 $ de départ, et l'investisseur doit toujours la totalité des 10 000 $ empruntés, quelle que soit la nouvelle valeur, plus faible, de l'action.
 
 ## Quiz d'entraînement
 

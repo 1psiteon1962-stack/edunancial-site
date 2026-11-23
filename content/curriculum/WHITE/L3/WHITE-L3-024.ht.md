@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Leson 22 te montre ki jan frè akimile kont yon envestisè avèk tan. Men "poukisa" sa kreye yon defi espesifik pou fon ki jere aktivman: paske fon aktif anjeneral chaje pi gwo frè pase fon endèks (Leson 21), yon manadjè pa sèlman bezwen chwazi envestisman ki fè pi byen pase mache a — li bezwen fè pi byen ase pou kouvri diferans frè ki pi wo sa a, sinon envestisè a fini nan yon pi move pozisyon pase si li te senpleman posede yon fon endèks ki pa koute chè, menm si chwa manadjè a teknikman "bat mache a" anvan frè.
 
-[VERIFIED FACT] Bat mache a regilyèman, apre frè, sou peryòd ki long, istorikman te difisil pou fon mwayèn ki jere aktivman, dapre etid ki konpare pèfòmans fon aktif ak endèks referans ki koresponn yo sou peryòd plizyè ane — byenke fon ak manadjè endividyèl ka fè e fè pi byen nan peryòd espesifik, e rezilta yo varye selon fon an, estrateji a, ak peryòd tan an.
+[FÈ VERIFYE] Bat mache a regilyèman, apre frè, sou peryòd ki long, istorikman te difisil pou fon mwayèn ki jere aktivman, dapre etid ki konpare pèfòmans fon aktif ak endèks referans ki koresponn yo sou peryòd plizyè ane — byenke fon ak manadjè endividyèl ka fè e fè pi byen nan peryòd espesifik, e rezilta yo varye selon fon an, estrateji a, ak peryòd tan an.
 
 Se pou sa, pou evalye yon fon aktif, konparezon an pa ta dwe "èske manadjè a te chwazi bon envestisman?" men pito "èske chwa manadjè a te fè ase pi byen pou depase diferans frè a konpare ak yon lòt opsyon endèks ki pa koute chè e ki konparab?" — yon ba ki pi wo anpil pase senpleman bat mache a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon fon ki jere aktivman chaje yon ratio depans 1.2%; yon fon endèks konparab chaje 0.05% — yon diferans apeprè 1.15 pwen pousantaj chak ane. Si chwa aksyon fon aktif la fè 0.8% pi byen pase endèks la anvan frè nan yon ane, fon an toujou fè mwens byen pase opsyon endèks ki pa koute chè a lè w konte frè yo, paske pèfòmans anplis manadjè a pa t ase gwo pou l kouvri diferans frè a. [ASSUMPTION] Sou anpil ane, yon fon aktif ta bezwen fè pi byen regilyèman pa plis pase diferans frè sa a, pa sèlman detanzantan oswa pa yon ti maj, pou l vrèman ajoute valè nèt konpare ak opsyon endèks la.
+[EGZANP ILISTRATIF] Yon fon ki jere aktivman chaje yon ratio depans 1.2%; yon fon endèks konparab chaje 0.05% — yon diferans apeprè 1.15 pwen pousantaj chak ane. Si chwa aksyon fon aktif la fè 0.8% pi byen pase endèks la anvan frè nan yon ane, fon an toujou fè mwens byen pase opsyon endèks ki pa koute chè a lè w konte frè yo, paske pèfòmans anplis manadjè a pa t ase gwo pou l kouvri diferans frè a. [SIPOZISYON] Sou anpil ane, yon fon aktif ta bezwen fè pi byen regilyèman pa plis pase diferans frè sa a, pa sèlman detanzantan oswa pa yon ti maj, pou l vrèman ajoute valè nèt konpare ak opsyon endèks la.
 
 ## Egzamen pratik
 

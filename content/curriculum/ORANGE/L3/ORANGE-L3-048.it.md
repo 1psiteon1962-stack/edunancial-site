@@ -30,7 +30,7 @@ Che cosa sta scegliendo deliberatamente di non fare la tua attuale strategia di 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa cerca di mantenere una presenza attiva su ogni canale di marketing disponibile, rivolgendosi contemporaneamente a ogni segmento di clientela plausibile, convinta che così massimizzi le proprie opportunità complessive. [ASSUMPTION] Con budget e capacità del team limitati e distribuiti in modo così sottile, nessun singolo canale o segmento riceve l'attenzione mirata necessaria per un'esecuzione davvero buona, e i risultati complessivi restano sotto quelli di un concorrente che ha escluso deliberatamente la maggior parte di canali e segmenti per concentrarsi intensamente sui pochi più importanti per i suoi clienti specifici. È un'eco diretta del principio di difendibilità tramite la concentrazione stabilito per la strategia di nicchia nella Lezione 26.
+[ESEMPIO ILLUSTRATIVO] Un'impresa cerca di mantenere una presenza attiva su ogni canale di marketing disponibile, rivolgendosi contemporaneamente a ogni segmento di clientela plausibile, convinta che così massimizzi le proprie opportunità complessive. [IPOTESI] Con budget e capacità del team limitati e distribuiti in modo così sottile, nessun singolo canale o segmento riceve l'attenzione mirata necessaria per un'esecuzione davvero buona, e i risultati complessivi restano sotto quelli di un concorrente che ha escluso deliberatamente la maggior parte di canali e segmenti per concentrarsi intensamente sui pochi più importanti per i suoi clienti specifici. È un'eco diretta del principio di difendibilità tramite la concentrazione stabilito per la strategia di nicchia nella Lezione 26.
 
 ## Quiz di esercitazione
 

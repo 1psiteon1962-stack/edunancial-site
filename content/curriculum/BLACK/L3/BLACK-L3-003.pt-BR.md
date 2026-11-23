@@ -30,7 +30,7 @@ O que o padrão real de promoções e recompensas da sua organização diz sobre
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder destaca com frequência o trabalho em equipe e a colaboração nas reuniões da empresa, enquanto a estrutura de promoções e bônus da organização recompensa exclusivamente métricas de desempenho individual, sem nenhuma consideração pela contribuição colaborativa. [ASSUMPTION] Os funcionários, reagindo de forma racional à estrutura real de incentivos e não à mensagem declarada, priorizam as conquistas individuais em vez de uma colaboração de verdade, exatamente de acordo com o princípio da trilha ORANGE de que as pessoas se orientam pelo que é realmente recompensado — a cultura que surge reflete o desenho dos incentivos, e não os discursos, por mais sinceros que eles tenham sido.
+[EXEMPLO ILUSTRATIVO] Um líder destaca com frequência o trabalho em equipe e a colaboração nas reuniões da empresa, enquanto a estrutura de promoções e bônus da organização recompensa exclusivamente métricas de desempenho individual, sem nenhuma consideração pela contribuição colaborativa. [SUPOSIÇÃO] Os funcionários, reagindo de forma racional à estrutura real de incentivos e não à mensagem declarada, priorizam as conquistas individuais em vez de uma colaboração de verdade, exatamente de acordo com o princípio da trilha ORANGE de que as pessoas se orientam pelo que é realmente recompensado — a cultura que surge reflete o desenho dos incentivos, e não os discursos, por mais sinceros que eles tenham sido.
 
 ## Teste de prática
 

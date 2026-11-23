@@ -30,7 +30,7 @@ Prima di inviare una comunicazione scritta importante (una valutazione delle pre
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader scrive a un collega un'email informale e disinvolta in cui commenta il rendimento di un dipendente toccando una caratteristica personale che non ha nulla a che fare con il rendimento effettivo sul lavoro. [ASSUMPTION] Se in seguito quel dipendente viene licenziato per un motivo legittimo legato al rendimento e avvia una causa per discriminazione, questa email precedente, mai pensata come qualcosa di più di un commento informale, diventa una prova scritta e duratura che un tribunale potrebbe considerare rilevante per la causa. Questo mostra perché ciò che un leader scrive ogni giorno ha un peso giuridico, a prescindere dall'intenzione informale e improvvisata.
+[ESEMPIO ILLUSTRATIVO] Un leader scrive a un collega un'email informale e disinvolta in cui commenta il rendimento di un dipendente toccando una caratteristica personale che non ha nulla a che fare con il rendimento effettivo sul lavoro. [IPOTESI] Se in seguito quel dipendente viene licenziato per un motivo legittimo legato al rendimento e avvia una causa per discriminazione, questa email precedente, mai pensata come qualcosa di più di un commento informale, diventa una prova scritta e duratura che un tribunale potrebbe considerare rilevante per la causa. Questo mostra perché ciò che un leader scrive ogni giorno ha un peso giuridico, a prescindere dall'intenzione informale e improvvisata.
 
 ## Quiz di esercitazione
 

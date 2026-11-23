@@ -30,7 +30,7 @@ Waar wijzen in je eigen marketingpraktijken de ethische keuze en de keuze die he
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming overweegt of ze een marketingclaim grondig onderbouwt voordat ze die publiceert, of een indrukwekkender klinkende maar minder grondig gecontroleerde versie publiceert. [ASSUMPTION] De grondig onderbouwde versie is zowel de ethischere keuze als de keuze met het laagste risico, gezien de juridische risico's uit Les 7 en de reputatiekwetsbaarheid uit Les 4. In dit geval wijzen ethiek en risicobeheer dezelfde kant op en is de beslissing eenvoudig, ook al zou een echt ethische marketeer dezelfde eerlijke keuze maken in een hypothetische situatie waarin het juridische of reputatierisico van overdrijven toevallig lager was.
+[ILLUSTRATIEF VOORBEELD] Een onderneming overweegt of ze een marketingclaim grondig onderbouwt voordat ze die publiceert, of een indrukwekkender klinkende maar minder grondig gecontroleerde versie publiceert. [AANNAME] De grondig onderbouwde versie is zowel de ethischere keuze als de keuze met het laagste risico, gezien de juridische risico's uit Les 7 en de reputatiekwetsbaarheid uit Les 4. In dit geval wijzen ethiek en risicobeheer dezelfde kant op en is de beslissing eenvoudig, ook al zou een echt ethische marketeer dezelfde eerlijke keuze maken in een hypothetische situatie waarin het juridische of reputatierisico van overdrijven toevallig lager was.
 
 ## Oefenquiz
 

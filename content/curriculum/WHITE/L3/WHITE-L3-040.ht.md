@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 **Baz pri** (cost basis) jeneralman se valè orijinal yo itilize pou detèmine yon benefis oswa yon pèt taksab lè yo vann yon envestisman finalman — nan fòm ki pi senp li, se pri acha a. Men "poukisa" li souvan pi konplike pase deskripsyon senp sa a: baz pri ka ajiste pa plizyè faktè pandan peryòd ou kenbe envestisman an, tankou dividann ki reenvesti (Leson 17) yo te itilize pou achte plis aksyon, paske chak reenvestisman nòmalman etabli pwòp baz pri pa l nan pri acha sa a.
 
-[VERIFIED FACT] Swiv baz pri kòrèkteman enpòtan dirèkteman paske se li ki detèmine benefis taksab yo kalkile (pri vant mwens baz pri) lè yo vann yon envestisman finalman — si ou mete baz pri a twò ba, ou mete benefis taksab la twò wo, sa ki ka fè w peye plis taks pase sa ki nesesè, pandan si ou mete baz pri a twò wo, ou mete benefis la twò ba, sa ki ka kreye pwoblèm pou respekte lalwa.
+[FÈ VERIFYE] Swiv baz pri kòrèkteman enpòtan dirèkteman paske se li ki detèmine benefis taksab yo kalkile (pri vant mwens baz pri) lè yo vann yon envestisman finalman — si ou mete baz pri a twò ba, ou mete benefis taksab la twò wo, sa ki ka fè w peye plis taks pase sa ki nesesè, pandan si ou mete baz pri a twò wo, ou mete benefis la twò ba, sa ki ka kreye pwoblèm pou respekte lalwa.
 
 Nan anpil peyi, koutye (brokerages) yo oblije swiv e rapòte enfòmasyon sou baz pri pou anpil kalite kont, sa ki fè travay sa a mwens lou pou envestisè yo fè ak men pase anvan — men li toujou itil pou w konprann konsèp la, sitou nan sitiyasyon kote gen plizyè acha avèk tan, dividann ki reenvesti, oswa kont ak sitiyasyon kote swiv baz pri a ka mwens otomatik.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè achte aksyon nan yon fon sou plizyè ane, li ajoute nan pozisyon li nan diferan moman, e dividann yo reenvesti otomatikman nan plis aksyon sou wout la tou. Chak nan acha sa yo — premye acha yo ak chak reenvestisman dividann — etabli pwòp baz pri pa l nan pri tranzaksyon espesifik sa a. [ASSUMPTION] Lè li vann yon pati nan pozisyon total li finalman, benefis taksab yo kalkile a depann de ki aksyon espesifik (ak baz pri ki mache ak yo) yo konsidere ki vann, dapre metòd kontablite yo itilize a — sa montre poukisa si w senpleman itilize premye pri acha a kòm "baz pri a" pou tout pozisyon an, sa ta gen anpil chans pa kòrèk.
+[EGZANP ILISTRATIF] Yon envestisè achte aksyon nan yon fon sou plizyè ane, li ajoute nan pozisyon li nan diferan moman, e dividann yo reenvesti otomatikman nan plis aksyon sou wout la tou. Chak nan acha sa yo — premye acha yo ak chak reenvestisman dividann — etabli pwòp baz pri pa l nan pri tranzaksyon espesifik sa a. [SIPOZISYON] Lè li vann yon pati nan pozisyon total li finalman, benefis taksab yo kalkile a depann de ki aksyon espesifik (ak baz pri ki mache ak yo) yo konsidere ki vann, dapre metòd kontablite yo itilize a — sa montre poukisa si w senpleman itilize premye pri acha a kòm "baz pri a" pou tout pozisyon an, sa ta gen anpil chans pa kòrèk.
 
 ## Egzamen pratik
 

@@ -26,7 +26,7 @@ Lè w fin fè leson sa a, w ap kapab:
 
 ## Kontni prensipal
 
-Li natirèl pou w sipoze yon fon ki te mache byen dènyèman gen chans kontinye mache byen — apre tout, li dwe ap fè yon bagay byen. Men "poukisa" entwisyon sa a souvan pa kenbe: [VERIFIED FACT] anpil rechèch ki konpare klasman pèfòmans istorik fon yo sou diferan peryòd tan jeneralman jwenn yon pèsistans fèb — sa vle di fon ki te pi bon nan yon peryòd pa toujou, yon fason ou ka konte sou li, pi bon nan peryòd ki vin apre a, e otorite regilasyon yo te remake modèl sa a, se youn nan rezon ki fè divilgasyon estanda yo gen yon fraz ki di rezilta sot pase pa garanti rezilta alavni.
+Li natirèl pou w sipoze yon fon ki te mache byen dènyèman gen chans kontinye mache byen — apre tout, li dwe ap fè yon bagay byen. Men "poukisa" entwisyon sa a souvan pa kenbe: [FÈ VERIFYE] anpil rechèch ki konpare klasman pèfòmans istorik fon yo sou diferan peryòd tan jeneralman jwenn yon pèsistans fèb — sa vle di fon ki te pi bon nan yon peryòd pa toujou, yon fason ou ka konte sou li, pi bon nan peryòd ki vin apre a, e otorite regilasyon yo te remake modèl sa a, se youn nan rezon ki fè divilgasyon estanda yo gen yon fraz ki di rezilta sot pase pa garanti rezilta alavni.
 
 Plizyè faktè kontribye nan pèsistans fèb sa a: bon pèfòmans resan ka reflete yon anviwònman tanporè ki te favorab pou stil oswa sektè espesifik fon an olye yon avantaj talan ki ka repete; estrateji oswa sektè ki mache byen souvan wè kondisyon yo chanje oswa yo vin twò chaje moun, sa ki diminye avantaj alavni; e chanjman manadjè, kwasans byen yo, ak lòt faktè ka tout afekte rezilta alavni yon fon san rapò ak dosye sot pase li.
 
@@ -34,7 +34,7 @@ Se pou sa kouri dèyè fon ki te pi bon dènyèman yo — deplase lajan nan nenp
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè remake yon fon te afiche pi bon rannman nan kategori li pandan twa dènye ane yo e li deside envesti anpil dapre dosye sa a. [ASSUMPTION] Si bon pèfòmans fon sa a te sitou soti nan yon anviwònman tanporè ki te favorab pou stil envestisman espesifik li, e anviwònman sa a chanje nan ane ki vin apre yo, fon an ka fè mwens byen pita — sa ki kite envestisè a ak yon eksperyans desevan malgre li te chwazi dapre yon dosye ki te parèt enpresyonan.
+[EGZANP ILISTRATIF] Yon envestisè remake yon fon te afiche pi bon rannman nan kategori li pandan twa dènye ane yo e li deside envesti anpil dapre dosye sa a. [SIPOZISYON] Si bon pèfòmans fon sa a te sitou soti nan yon anviwònman tanporè ki te favorab pou stil envestisman espesifik li, e anviwònman sa a chanje nan ane ki vin apre yo, fon an ka fè mwens byen pita — sa ki kite envestisè a ak yon eksperyans desevan malgre li te chwazi dapre yon dosye ki te parèt enpresyonan.
 
 ## Egzamen pratik
 

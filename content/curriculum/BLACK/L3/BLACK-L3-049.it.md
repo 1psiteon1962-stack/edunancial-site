@@ -30,7 +30,7 @@ Prendi la tua attuale priorità di leadership principale e applica questa domand
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader che valuta se continuare a mantenere un ritmo personale molto impegnativo applica alla decisione l'intero schema di questo percorso. Per che cosa sto ottimizzando? Forse per dimostrare di essere indispensabile, come nelle Lezioni 31 e 33. E quanto mi costa? Il rischio di burnout e il rischio per la continuità che ne deriva (Lezione 38), la concentrazione del rischio su una persona chiave da cui metteva in guardia la Lezione 2, e l'esempio di un ritmo insostenibile che, secondo la Lezione 22, plasmerà le aspettative di tutta l'organizzazione. Nominare con onestà il vero obiettivo dell'ottimizzazione, invece di quello più lusinghiero "sto solo lavorando sodo per la missione", fa emergere costi che questo leader non aveva mai collegato a un'unica decisione coerente.
+[ESEMPIO ILLUSTRATIVO] Un leader che valuta se continuare a mantenere un ritmo personale molto impegnativo applica alla decisione l'intero schema di questo percorso. Per che cosa sto ottimizzando? Forse per dimostrare di essere indispensabile, come nelle Lezioni 31 e 33. E quanto mi costa? Il rischio di burnout e il rischio per la continuità che ne deriva (Lezione 38), la concentrazione del rischio su una persona chiave da cui metteva in guardia la Lezione 2, e l'esempio di un ritmo insostenibile che, secondo la Lezione 22, plasmerà le aspettative di tutta l'organizzazione. Nominare con onestà il vero obiettivo dell'ottimizzazione, invece di quello più lusinghiero "sto solo lavorando sodo per la missione", fa emergere costi che questo leader non aveva mai collegato a un'unica decisione coerente.
 
 ## Quiz di esercitazione
 

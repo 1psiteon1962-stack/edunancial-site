@@ -30,7 +30,7 @@ Regarde une décision récente prise surtout pour atteindre une cible à court t
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader sous pression pour afficher de solides résultats trimestriels coupe les dépenses consacrées au développement du leadership et aux initiatives de mobilisation des employés, ce qui améliore les chiffres financiers du trimestre en cours. [ASSUMPTION] Au cours des trimestres suivants, l'érosion des capacités de gestion et du moral des employés que ces coupes ont discrètement créée commence à se manifester par un roulement plus élevé et un rendement en baisse — un coût différé que le leader n'a pas pleinement mis en balance avec l'avantage immédiat à court terme, en écho au point du parcours WHITE selon lequel le moment et la séquence comptent autant que le résultat moyen, appliqué ici à la prise de décision en leadership plutôt qu'aux rendements de placement.
+[EXEMPLE ILLUSTRATIF] Un leader sous pression pour afficher de solides résultats trimestriels coupe les dépenses consacrées au développement du leadership et aux initiatives de mobilisation des employés, ce qui améliore les chiffres financiers du trimestre en cours. [HYPOTHÈSE] Au cours des trimestres suivants, l'érosion des capacités de gestion et du moral des employés que ces coupes ont discrètement créée commence à se manifester par un roulement plus élevé et un rendement en baisse — un coût différé que le leader n'a pas pleinement mis en balance avec l'avantage immédiat à court terme, en écho au point du parcours WHITE selon lequel le moment et la séquence comptent autant que le résultat moyen, appliqué ici à la prise de décision en leadership plutôt qu'aux rendements de placement.
 
 ## Quiz de pratique
 

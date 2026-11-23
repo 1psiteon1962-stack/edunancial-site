@@ -30,7 +30,7 @@ Pourrais-tu, en ce moment, poser une question de suivi vraiment éclairée sur l
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader délègue entièrement toute l'analyse et la production de rapports financiers à un spécialiste des finances de confiance, sans jamais développer une compréhension indépendante suffisante pour poser des questions éclairées sur les rapports qui en découlent. [ASSUMPTION] Lorsque ce spécialiste commet une erreur honnête, mais importante, dans une projection financière, le leader n'a aucune base indépendante pour remarquer le problème, puisqu'il n'a jamais développé la compréhension de base nécessaire pour évaluer lui-même les chiffres — ce qui montre pourquoi une saine délégation de l'analyse financière exige quand même qu'un leader garde une littératie indépendante suffisante pour exercer une vraie surveillance, et pas simplement une confiance inconditionnelle.
+[EXEMPLE ILLUSTRATIF] Un leader délègue entièrement toute l'analyse et la production de rapports financiers à un spécialiste des finances de confiance, sans jamais développer une compréhension indépendante suffisante pour poser des questions éclairées sur les rapports qui en découlent. [HYPOTHÈSE] Lorsque ce spécialiste commet une erreur honnête, mais importante, dans une projection financière, le leader n'a aucune base indépendante pour remarquer le problème, puisqu'il n'a jamais développé la compréhension de base nécessaire pour évaluer lui-même les chiffres — ce qui montre pourquoi une saine délégation de l'analyse financière exige quand même qu'un leader garde une littératie indépendante suffisante pour exercer une vraie surveillance, et pas simplement une confiance inconditionnelle.
 
 ## Quiz de pratique
 

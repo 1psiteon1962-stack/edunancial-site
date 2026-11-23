@@ -30,7 +30,7 @@ Wenn dein größter Kunde morgen ginge, was würde mit deinem Umsatz, deinem Tea
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Vertriebsteam gewinnt einen einzelnen Großkunden, der schnell 50 % des Gesamtumsatzes des Unternehmens ausmacht, und das Team feiert das als großen Erfolg. [ASSUMPTION] Monate später gerät dieser Kunde selbst in finanzielle Schwierigkeiten und reduziert seine Bestellungen deutlich – der Umsatz des Unternehmens wird sofort und schwer getroffen, eine aktuelle Folge des Klumpenrisikos, das sich die ganze Zeit aufgebaut hatte, lange bevor ein künftiger Verkauf oder eine Bewertung dieses Risiko auf dem Papier sichtbar gemacht hätte, wie im BLAUEN Lernpfad beschrieben.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Vertriebsteam gewinnt einen einzelnen Großkunden, der schnell 50 % des Gesamtumsatzes des Unternehmens ausmacht, und das Team feiert das als großen Erfolg. [ANNAHME] Monate später gerät dieser Kunde selbst in finanzielle Schwierigkeiten und reduziert seine Bestellungen deutlich – der Umsatz des Unternehmens wird sofort und schwer getroffen, eine aktuelle Folge des Klumpenrisikos, das sich die ganze Zeit aufgebaut hatte, lange bevor ein künftiger Verkauf oder eine Bewertung dieses Risiko auf dem Papier sichtbar gemacht hätte, wie im BLAUEN Lernpfad beschrieben.
 
 ## Übungsquiz
 1. Warum ist die Kundenkonzentration ein aktuelles Risiko für Vertrieb und Umsatz und nicht nur ein künftiges Bewertungsthema?

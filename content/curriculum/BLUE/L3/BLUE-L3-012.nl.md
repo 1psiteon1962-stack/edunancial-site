@@ -26,11 +26,11 @@ Aan het einde van deze les kun je:
 
 Hier is het "waarom" het makkelijk wordt onderschat: een koper die zich richt op onderhandelen over en financieren van de koopprijs, kan over het hoofd zien dat het bedrijf vanaf de eerste dag van het nieuwe eigenaarschap gewoon geld nodig heeft om te draaien. Lonen stoppen niet tijdens een overdracht, en leveranciers verwachten nog steeds betaling volgens hun gebruikelijke voorwaarden. Als een koper al zijn financiering aan de koopprijs zelf heeft besteed, zonder iets over te houden voor die lopende behoeften, kan het bedrijf direct na de overdracht in geldnood komen, ook al was de aankoop zelf redelijk geprijsd en gefinancierd.
 
-[VERIFIED FACT] Daarom nemen ervaren kopers en hun adviseurs meestal een aparte werkkapitaalreserve op in het totale financieringsplan van de overname, los van de koopprijs. En daarom omvat het boekenonderzoek (Les 7) vaak een zorgvuldige controle van de gebruikelijke werkkapitaalbehoefte en -cycli van het bedrijf.
+[GEVERIFIEERD FEIT] Daarom nemen ervaren kopers en hun adviseurs meestal een aparte werkkapitaalreserve op in het totale financieringsplan van de overname, los van de koopprijs. En daarom omvat het boekenonderzoek (Les 7) vaak een zorgvuldige controle van de gebruikelijke werkkapitaalbehoefte en -cycli van het bedrijf.
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een koper financiert met succes de koopprijs van $500,000 voor een bedrijf, met een combinatie van een banklening, financiering door de verkoper en zijn eigen inbreng in contanten, maar zet geen extra geld opzij voor de lopende bedrijfsvoering. [ASSUMPTION] In de weken direct na de overdracht krijgt het bedrijf een normale seizoensdip in de binnenkomende geldstroom, terwijl lonen en betalingen aan leveranciers gewoon doorgaan. Zonder werkkapitaalreserve in zijn financieringsplan moet de koper bijna meteen na de overname haastig op zoek naar geld voor de korte termijn, ook al heeft hij een overname tegen een eerlijke prijs afgerond.
+[ILLUSTRATIEF VOORBEELD] Een koper financiert met succes de koopprijs van $500,000 voor een bedrijf, met een combinatie van een banklening, financiering door de verkoper en zijn eigen inbreng in contanten, maar zet geen extra geld opzij voor de lopende bedrijfsvoering. [AANNAME] In de weken direct na de overdracht krijgt het bedrijf een normale seizoensdip in de binnenkomende geldstroom, terwijl lonen en betalingen aan leveranciers gewoon doorgaan. Zonder werkkapitaalreserve in zijn financieringsplan moet de koper bijna meteen na de overname haastig op zoek naar geld voor de korte termijn, ook al heeft hij een overname tegen een eerlijke prijs afgerond.
 
 ## Oefenquiz
 

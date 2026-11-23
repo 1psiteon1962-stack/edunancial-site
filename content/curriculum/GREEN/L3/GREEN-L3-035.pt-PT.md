@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-Uma **fiscalização tributária** (audit) é um processo de revisão em que a autoridade fiscal examina a declaração e os comprovantes de um contribuinte com mais detalhe do que o processo normal de entrega envolve. Este é o "porquê" de ser selecionado para esse processo não significar automaticamente que o contribuinte fez algo errado: [VERIFIED FACT] as declarações podem ser selecionadas para fiscalização por vários motivos, incluindo seleção aleatória em amostragens de rotina de conformidade, anomalias estatísticas em relação aos padrões típicos de contribuintes com perfil parecido ou itens específicos da declaração (como deduções muito altas em relação à receita) que simplesmente merecem um olhar mais atento, sem que nenhuma irregularidade tenha sido de facto encontrada.
+Uma **fiscalização tributária** (audit) é um processo de revisão em que a autoridade fiscal examina a declaração e os comprovantes de um contribuinte com mais detalhe do que o processo normal de entrega envolve. Este é o "porquê" de ser selecionado para esse processo não significar automaticamente que o contribuinte fez algo errado: [FACTO VERIFICADO] as declarações podem ser selecionadas para fiscalização por vários motivos, incluindo seleção aleatória em amostragens de rotina de conformidade, anomalias estatísticas em relação aos padrões típicos de contribuintes com perfil parecido ou itens específicos da declaração (como deduções muito altas em relação à receita) que simplesmente merecem um olhar mais atento, sem que nenhuma irregularidade tenha sido de facto encontrada.
 
 Isso importa porque a ansiedade que um aviso de fiscalização pode causar é compreensível, mas não deve ser tratada como prova de um problema antes de a revisão realmente acontecer. Muitas fiscalizações terminam sem nenhuma mudança na declaração entregue, depois que o contribuinte apresenta os comprovantes pedidos para sustentar o que foi declarado.
 
@@ -30,7 +30,7 @@ Isso importa porque a ansiedade que um aviso de fiscalização pode causar é co
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma contribuinte recebe um aviso de que uma dedução específica da declaração dela foi selecionada para fiscalização. Em vez de presumir que fez algo errado, ela reúne com calma os comprovantes dessa dedução específica — recibos, registos e outras provas reunidos e organizados na época em que a dedução foi declarada. [ASSUMPTION] Depois da análise dos comprovantes, a fiscalização termina sem nenhuma mudança na declaração, confirmando que a dedução sempre foi legítima — o que mostra que a seleção para fiscalização foi um processo de revisão de rotina, e não uma acusação, e que uma boa organização dos registos (um tema aprofundado na próxima lição) tornou o processo simples de resolver.
+[EXEMPLO ILUSTRATIVO] Uma contribuinte recebe um aviso de que uma dedução específica da declaração dela foi selecionada para fiscalização. Em vez de presumir que fez algo errado, ela reúne com calma os comprovantes dessa dedução específica — recibos, registos e outras provas reunidos e organizados na época em que a dedução foi declarada. [SUPOSIÇÃO] Depois da análise dos comprovantes, a fiscalização termina sem nenhuma mudança na declaração, confirmando que a dedução sempre foi legítima — o que mostra que a seleção para fiscalização foi um processo de revisão de rotina, e não uma acusação, e que uma boa organização dos registos (um tema aprofundado na próxima lição) tornou o processo simples de resolver.
 
 ## Teste de prática
 

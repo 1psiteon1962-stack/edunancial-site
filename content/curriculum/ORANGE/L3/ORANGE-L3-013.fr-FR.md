@@ -32,7 +32,7 @@ Avant de traiter un résultat de test A/B comme une vraie découverte, quelle é
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une équipe marketing mène un test qui change en même temps le titre, l'image et la couleur du bouton d'une publicité, et la nouvelle version fonctionne mieux. [ASSUMPTION] L'équipe conclut que le nouveau titre était le facteur gagnant et le déploie partout — mais comme trois variables ont changé à la fois, elle n'a en réalité aucun moyen fiable de savoir si c'est le titre, l'image ou la couleur du bouton qui a entraîné l'amélioration, ni si l'un de ces changements nuisait en fait au rendement pendant qu'un autre aidait encore plus, une ambiguïté qu'un test bien isolé portant sur une seule variable aurait complètement évitée.
+[EXEMPLE ILLUSTRATIF] Une équipe marketing mène un test qui change en même temps le titre, l'image et la couleur du bouton d'une publicité, et la nouvelle version fonctionne mieux. [HYPOTHÈSE] L'équipe conclut que le nouveau titre était le facteur gagnant et le déploie partout — mais comme trois variables ont changé à la fois, elle n'a en réalité aucun moyen fiable de savoir si c'est le titre, l'image ou la couleur du bouton qui a entraîné l'amélioration, ni si l'un de ces changements nuisait en fait au rendement pendant qu'un autre aidait encore plus, une ambiguïté qu'un test bien isolé portant sur une seule variable aurait complètement évitée.
 
 ## Quiz de pratique
 

@@ -36,7 +36,7 @@ Un sistema semplice funziona meglio di un sistema perfetto che nessuno usa. Foto
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Paolo ha dichiarato $2.000 di spese per materiali della sua attività. L'ufficio fiscale chiede le ricevute. Lui non ne ha conservata nessuna. Che cosa può succedere?
 

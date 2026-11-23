@@ -32,7 +32,7 @@ Si ton plus gros client partait demain, qu'arriverait-il à tes revenus, à ton 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une équipe de vente conclut un seul gros compte qui en vient rapidement à représenter 50 % des revenus totaux de l'entreprise, et l'équipe célèbre ça comme une victoire majeure. [ASSUMPTION] Des mois plus tard, ce client connaît ses propres difficultés financières et réduit fortement ses commandes — les revenus de l'entreprise sont immédiatement et gravement touchés, une conséquence actuelle du risque de concentration qui s'accumulait depuis le début, bien avant qu'une vente ou une évaluation future n'ait rendu ce risque visible sur papier, comme le décrit le parcours BLUE.
+[EXEMPLE ILLUSTRATIF] Une équipe de vente conclut un seul gros compte qui en vient rapidement à représenter 50 % des revenus totaux de l'entreprise, et l'équipe célèbre ça comme une victoire majeure. [HYPOTHÈSE] Des mois plus tard, ce client connaît ses propres difficultés financières et réduit fortement ses commandes — les revenus de l'entreprise sont immédiatement et gravement touchés, une conséquence actuelle du risque de concentration qui s'accumulait depuis le début, bien avant qu'une vente ou une évaluation future n'ait rendu ce risque visible sur papier, comme le décrit le parcours BLUE.
 
 ## Quiz de pratique
 

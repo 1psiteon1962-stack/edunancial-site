@@ -30,7 +30,7 @@ Antes de lançar um programa de indicação, as condições dele são específic
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio lança um programa de indicação com uma promessa simples e vaga: "indique um amigo e ganhe uma recompensa". Um cliente indica vários amigos, e alguns deles se cadastram por pouco tempo e cancelam quase imediatamente. [ASSUMPTION] Sem condições claras dizendo se a recompensa é conquistada no registo ou só depois de um período mínimo como cliente, o negócio enfrenta uma disputa real com o cliente sobre se essas indicações específicas são de facto válidas — um problema que um programa redigido de forma mais específica, aplicando os mesmos princípios de clareza contratual vistos na trilha PURPLE, teria evitado desde o começo.
+[EXEMPLO ILUSTRATIVO] Um negócio lança um programa de indicação com uma promessa simples e vaga: "indique um amigo e ganhe uma recompensa". Um cliente indica vários amigos, e alguns deles se cadastram por pouco tempo e cancelam quase imediatamente. [SUPOSIÇÃO] Sem condições claras dizendo se a recompensa é conquistada no registo ou só depois de um período mínimo como cliente, o negócio enfrenta uma disputa real com o cliente sobre se essas indicações específicas são de facto válidas — um problema que um programa redigido de forma mais específica, aplicando os mesmos princípios de clareza contratual vistos na trilha PURPLE, teria evitado desde o começo.
 
 ## Teste de prática
 

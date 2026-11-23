@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-Être pleinement propriétaire d'un bien, avec un titre juridique complet, pourrait sembler impliquer la liberté complète de l'utiliser comme le propriétaire le souhaite. Voici « pourquoi » ce n'est pas exact dans la plupart des territoires : [VERIFIED FACT] les **règlements de zonage** locaux divisent généralement le territoire d'une municipalité en différentes catégories désignées — résidentielle, commerciale, industrielle et diverses sous-catégories —, chacune avec des règles précises sur les types d'usages, de constructions et d'activités permis, peu importe ce qu'un propriétaire précis pourrait personnellement vouloir faire de son propre terrain.
+Être pleinement propriétaire d'un bien, avec un titre juridique complet, pourrait sembler impliquer la liberté complète de l'utiliser comme le propriétaire le souhaite. Voici « pourquoi » ce n'est pas exact dans la plupart des territoires : [FAIT VÉRIFIÉ] les **règlements de zonage** locaux divisent généralement le territoire d'une municipalité en différentes catégories désignées — résidentielle, commerciale, industrielle et diverses sous-catégories —, chacune avec des règles précises sur les types d'usages, de constructions et d'activités permis, peu importe ce qu'un propriétaire précis pourrait personnellement vouloir faire de son propre terrain.
 
 Voici le but général de politique derrière cette restriction des droits de propriété individuels : le zonage vise généralement à équilibrer l'intérêt d'un propriétaire à utiliser librement son bien et l'intérêt plus large de la collectivité à avoir des schémas d'utilisation du sol prévisibles et compatibles — en empêchant, par exemple, qu'une installation industrielle soit construite au milieu d'un quartier résidentiel établi, ce qui pourrait toucher fortement la valeur, la sécurité et le caractère des propriétés voisines, même si c'est exactement ce qu'un propriétaire précis voulait personnellement construire sur son propre terrain.
 
@@ -32,7 +32,7 @@ C'est pourquoi le zonage précis applicable à un bien compte beaucoup pour ce q
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une propriétaire dans une zone résidentielle désignée veut ouvrir un commerce sur sa propriété, en croyant que, puisqu'elle en est pleinement propriétaire, elle devrait être libre de l'utiliser comme elle le souhaite. [ASSUMPTION] Selon le zonage résidentiel applicable, cet usage commercial précis est probablement interdit, peu importe qu'elle en soit pleinement propriétaire — elle devrait généralement présenter une demande officielle de dérogation ou d'exception au zonage auprès de l'autorité locale compétente, sans aucune garantie que cette demande soit approuvée, ce qui montre pourquoi être pleinement propriétaire ne veut pas dire avoir une liberté d'usage illimitée.
+[EXEMPLE ILLUSTRATIF] Une propriétaire dans une zone résidentielle désignée veut ouvrir un commerce sur sa propriété, en croyant que, puisqu'elle en est pleinement propriétaire, elle devrait être libre de l'utiliser comme elle le souhaite. [HYPOTHÈSE] Selon le zonage résidentiel applicable, cet usage commercial précis est probablement interdit, peu importe qu'elle en soit pleinement propriétaire — elle devrait généralement présenter une demande officielle de dérogation ou d'exception au zonage auprès de l'autorité locale compétente, sans aucune garantie que cette demande soit approuvée, ce qui montre pourquoi être pleinement propriétaire ne veut pas dire avoir une liberté d'usage illimitée.
 
 ## Quiz de pratique
 

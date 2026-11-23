@@ -30,7 +30,7 @@ Antes de tratar os resultados de uma pesquisa de mercado como confirmação de q
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio faz uma pesquisa de mercado ampla antes de lançar um novo produto, e os entrevistados demonstram forte interesse e dizem estar dispostos a comprar. [ASSUMPTION] No lançamento de facto, o comportamento de compra real fica bem abaixo do que a pesquisa sugeria — um padrão comum que reflete a diferença real entre intenções declaradas de forma hipotética e decisões de compra reais, com dinheiro de verdade, o que mostra por que a pesquisa foi valiosa para reduzir o risco e orientar o lançamento, mas nunca eliminou a incerteza de fundo da forma como um teste de mercado real, retomando o conceito de MVP da trilha BLUE, teria revelado com mais confiança.
+[EXEMPLO ILUSTRATIVO] Um negócio faz uma pesquisa de mercado ampla antes de lançar um novo produto, e os entrevistados demonstram forte interesse e dizem estar dispostos a comprar. [SUPOSIÇÃO] No lançamento de facto, o comportamento de compra real fica bem abaixo do que a pesquisa sugeria — um padrão comum que reflete a diferença real entre intenções declaradas de forma hipotética e decisões de compra reais, com dinheiro de verdade, o que mostra por que a pesquisa foi valiosa para reduzir o risco e orientar o lançamento, mas nunca eliminou a incerteza de fundo da forma como um teste de mercado real, retomando o conceito de MVP da trilha BLUE, teria revelado com mais confiança.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Sieh dir dein aktuelles Führungsteam oder deine engsten Berater an. Wer von ihn
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft bemerkt, dass jeder Vorschlag in ihrem Führungsteam schnelle, einstimmige Zustimmung erhält, und deutet das zunächst als Beleg für ein starkes, geeintes Team. [ASSUMPTION] Bei genauerem Nachdenken, in Verbindung mit der Sorge um psychologische Sicherheit aus Lektion 11, erkennt diese Führungskraft, dass die mühelose Zustimmung womöglich eher ein Team widerspiegelt, das gelernt hat, dass Widerspruch nicht willkommen ist, als echten Konsens – und unternimmt daraufhin gezielte Anstrengungen, Teammitglieder zu gewinnen, die für eigenständiges Urteil bekannt sind, und abweichende Ansichten aktiv einzuladen und zu würdigen, statt bequeme Zustimmung weiter als Zeichen der Stärke des Teams zu deuten.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft bemerkt, dass jeder Vorschlag in ihrem Führungsteam schnelle, einstimmige Zustimmung erhält, und deutet das zunächst als Beleg für ein starkes, geeintes Team. [ANNAHME] Bei genauerem Nachdenken, in Verbindung mit der Sorge um psychologische Sicherheit aus Lektion 11, erkennt diese Führungskraft, dass die mühelose Zustimmung womöglich eher ein Team widerspiegelt, das gelernt hat, dass Widerspruch nicht willkommen ist, als echten Konsens – und unternimmt daraufhin gezielte Anstrengungen, Teammitglieder zu gewinnen, die für eigenständiges Urteil bekannt sind, und abweichende Ansichten aktiv einzuladen und zu würdigen, statt bequeme Zustimmung weiter als Zeichen der Stärke des Teams zu deuten.
 
 ## Übungsquiz
 1. Warum verbessert der gezielte Aufbau eines Teams, das widerspricht, die Entscheidungsqualität?

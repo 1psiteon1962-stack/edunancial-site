@@ -30,7 +30,7 @@ Beloont je eigen beloningsstructuur, of die van de top van je organisatie, werke
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Het leiderschap van een bedrijf benadrukt publiek duurzame groei op lange termijn en de ontwikkeling van medewerkers als kernprioriteiten, terwijl de beloning van bestuurders bijna volledig is opgebouwd rond financiële kwartaalcijfers op korte termijn. [ASSUMPTION] Medewerkers in de hele organisatie zien deze mismatch en trekken de redelijke conclusie dat de uitgesproken langetermijnprioriteiten minder gemeend zijn dan de kortetermijncijfers die werkelijk de financiële prikkels van het leiderschap zelf sturen – precies de kloof tussen prikkels en toespraken uit Lessen 3 en 19, nu toegepast op de beloning van het leiderschap zelf in plaats van op die van een verkoopteam.
+[ILLUSTRATIEF VOORBEELD] Het leiderschap van een bedrijf benadrukt publiek duurzame groei op lange termijn en de ontwikkeling van medewerkers als kernprioriteiten, terwijl de beloning van bestuurders bijna volledig is opgebouwd rond financiële kwartaalcijfers op korte termijn. [AANNAME] Medewerkers in de hele organisatie zien deze mismatch en trekken de redelijke conclusie dat de uitgesproken langetermijnprioriteiten minder gemeend zijn dan de kortetermijncijfers die werkelijk de financiële prikkels van het leiderschap zelf sturen – precies de kloof tussen prikkels en toespraken uit Lessen 3 en 19, nu toegepast op de beloning van het leiderschap zelf in plaats van op die van een verkoopteam.
 
 ## Oefenquiz
 

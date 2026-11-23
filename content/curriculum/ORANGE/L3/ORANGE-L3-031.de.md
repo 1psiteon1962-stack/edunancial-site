@@ -30,7 +30,7 @@ Wie sähe ein wirklich frühes Warnsystem für ein Problem bei der Kundenbindung
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Die Abwanderungsrate eines Unternehmens beginnt in einem bestimmten Monat zu steigen, doch weil verbleibende und neu gewonnene Kunden noch Umsatz bringen, zeigt die Gesamtumsatzzahl erst mehrere Monate später einen klaren Rückgang. [ASSUMPTION] Ein Team, das nur die Umsatzzahl als Spätindikator beobachtet, bemerkt das Problem erst, als dieser spätere Rückgang erscheint – zu diesem Zeitpunkt hatte das zugrunde liegende Problem, das Kunden vertreibt, bereits Monate Zeit, sich zu verschärfen. Ein Team, das die Abwanderungsrate direkt als Frühindikator beobachtet, hätte dasselbe Problem Monate früher erkannt und viel mehr Zeit gehabt, es zu untersuchen und zu reagieren, bevor es sich vollständig im Umsatz niederschlägt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Die Abwanderungsrate eines Unternehmens beginnt in einem bestimmten Monat zu steigen, doch weil verbleibende und neu gewonnene Kunden noch Umsatz bringen, zeigt die Gesamtumsatzzahl erst mehrere Monate später einen klaren Rückgang. [ANNAHME] Ein Team, das nur die Umsatzzahl als Spätindikator beobachtet, bemerkt das Problem erst, als dieser spätere Rückgang erscheint – zu diesem Zeitpunkt hatte das zugrunde liegende Problem, das Kunden vertreibt, bereits Monate Zeit, sich zu verschärfen. Ein Team, das die Abwanderungsrate direkt als Frühindikator beobachtet, hätte dasselbe Problem Monate früher erkannt und viel mehr Zeit gehabt, es zu untersuchen und zu reagieren, bevor es sich vollständig im Umsatz niederschlägt.
 
 ## Übungsquiz
 1. Was ist der Unterschied zwischen einem Frühindikator und einem Spätindikator?

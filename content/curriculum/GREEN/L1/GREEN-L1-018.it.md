@@ -34,11 +34,11 @@ Categorie comuni sono: single; coniugati con dichiarazione congiunta; coniugati 
 
 La logica è che una famiglia con persone a carico ha costi diversi da una persona sola. Non tutti i Paesi usano questo sistema: in molti, come in Italia, ognuno dichiara individualmente e i familiari a carico si considerano in altro modo. Eventi come matrimonio, divorzio o la nascita di un figlio possono cambiare il tuo stato, quindi rivedilo quando la vita cambia.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Camilla non è sposata e mantiene il figlio di 8 anni, che vive con lei. Negli Stati Uniti, quale categoria probabilmente si applica?
 

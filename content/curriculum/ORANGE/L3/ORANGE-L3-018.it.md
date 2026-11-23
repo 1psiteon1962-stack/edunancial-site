@@ -30,7 +30,7 @@ Prima di impegnarti in un aumento significativo della spesa di marketing: nella 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa aumenta in modo significativo la spesa di marketing, aspettandosi che la crescita delle vendite che ne deriva finanzi l'attività del trimestre successivo. [ASSUMPTION] Il marketing funziona davvero (i contatti diventano vendite al tasso previsto), ma la liquidità effettiva di quelle vendite, dato il tipico ciclo di incasso di 60 giorni dell'impresa visto nella discussione del percorso BLUE, arriva solo molto dopo la scadenza delle fatture del marketing. Si crea così una carenza di liquidità nonostante la campagna di marketing sia, secondo le sue stesse metriche, un chiaro successo.
+[ESEMPIO ILLUSTRATIVO] Un'impresa aumenta in modo significativo la spesa di marketing, aspettandosi che la crescita delle vendite che ne deriva finanzi l'attività del trimestre successivo. [IPOTESI] Il marketing funziona davvero (i contatti diventano vendite al tasso previsto), ma la liquidità effettiva di quelle vendite, dato il tipico ciclo di incasso di 60 giorni dell'impresa visto nella discussione del percorso BLUE, arriva solo molto dopo la scadenza delle fatture del marketing. Si crea così una carenza di liquidità nonostante la campagna di marketing sia, secondo le sue stesse metriche, un chiaro successo.
 
 ## Quiz di esercitazione
 

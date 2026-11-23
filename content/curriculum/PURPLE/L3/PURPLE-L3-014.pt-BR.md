@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-A **empresa individual** (sole proprietorship) é, de forma geral, a estrutura de negócio padrão que existe automaticamente quando uma pessoa toca um negócio sem abrir uma entidade jurídica separada. Este é o "porquê" de essa estrutura não oferecer nenhuma separação de responsabilidade, de forma fundamentalmente diferente dos conceitos sobre LLC vistos nas Lições 11 a 13: [VERIFIED FACT] como nenhuma entidade jurídica separada foi aberta, não existe personalidade jurídica a ser desconsiderada — o dono e o negócio são, juridicamente, a mesma pessoa, o que quer dizer que o dono responde pessoalmente por todas as dívidas e obrigações do negócio, sem nenhuma proteção baseada em uma entidade.
+A **empresa individual** (sole proprietorship) é, de forma geral, a estrutura de negócio padrão que existe automaticamente quando uma pessoa toca um negócio sem abrir uma entidade jurídica separada. Este é o "porquê" de essa estrutura não oferecer nenhuma separação de responsabilidade, de forma fundamentalmente diferente dos conceitos sobre LLC vistos nas Lições 11 a 13: [FATO VERIFICADO] como nenhuma entidade jurídica separada foi aberta, não existe personalidade jurídica a ser desconsiderada — o dono e o negócio são, juridicamente, a mesma pessoa, o que quer dizer que o dono responde pessoalmente por todas as dívidas e obrigações do negócio, sem nenhuma proteção baseada em uma entidade.
 
 Essa é uma situação fundamentalmente diferente do risco de desconsideração da personalidade jurídica de uma LLC discutido nas lições anteriores: o dono de uma LLC que não mantém as formalidades corre o risco de perder uma proteção que, de outra forma, teria. O dono de uma empresa individual nunca teve essa proteção — simplesmente não existe uma entidade separada entre o patrimônio pessoal e as responsabilidades do negócio.
 
@@ -30,7 +30,7 @@ Essa é uma situação fundamentalmente diferente do risco de desconsideração 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma pessoa toca um pequeno negócio como empresa individual, sem abrir uma LLC nem nenhuma outra entidade jurídica separada. Se o negócio enfrentar uma reclamação de responsabilidade importante ou uma dívida que não consegue pagar, [ASSUMPTION] o patrimônio pessoal dessa pessoa — poupança, bens pessoais e outros recursos pessoais — geralmente fica diretamente exposto para pagar essa reclamação, já que não existe nenhuma separação jurídica entre o dono e o negócio. Esse é um perfil de risco fundamentalmente diferente do de um dono de LLC que enfrenta uma possível desconsideração da personalidade jurídica, já que o dono da empresa individual nunca teve uma proteção baseada em entidade para perder.
+[EXEMPLO ILUSTRATIVO] Uma pessoa toca um pequeno negócio como empresa individual, sem abrir uma LLC nem nenhuma outra entidade jurídica separada. Se o negócio enfrentar uma reclamação de responsabilidade importante ou uma dívida que não consegue pagar, [SUPOSIÇÃO] o patrimônio pessoal dessa pessoa — poupança, bens pessoais e outros recursos pessoais — geralmente fica diretamente exposto para pagar essa reclamação, já que não existe nenhuma separação jurídica entre o dono e o negócio. Esse é um perfil de risco fundamentalmente diferente do de um dono de LLC que enfrenta uma possível desconsideração da personalidade jurídica, já que o dono da empresa individual nunca teve uma proteção baseada em entidade para perder.
 
 ## Teste de prática
 

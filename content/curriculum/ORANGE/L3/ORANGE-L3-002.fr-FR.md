@@ -32,7 +32,7 @@ Avant de poursuivre : si un concurrent réduisait soudainement ses prix de 20 %,
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise fixe son prix surtout selon ce qui « semble juste » par rapport à ses concurrents, sans d'abord calculer sa propre marge brute à ce prix. [ASSUMPTION] Le volume de ventes semble solide pendant plusieurs mois, ce qui donne l'impression d'une stratégie de prix gagnante — mais un examen plus attentif de la marge réelle révèle que l'entreprise couvre à peine plus que ses coûts directs sur chaque vente, ce qui ne laisse presque rien pour couvrir les frais généraux, les dépenses de marketing ou un coussin pour les périodes plus lentes. Le prix a « fonctionné » selon une mesure marketing (le volume), tout en échouant discrètement selon une mesure financière (la marge).
+[EXEMPLE ILLUSTRATIF] Une entreprise fixe son prix surtout selon ce qui « semble juste » par rapport à ses concurrents, sans d'abord calculer sa propre marge brute à ce prix. [HYPOTHÈSE] Le volume de ventes semble solide pendant plusieurs mois, ce qui donne l'impression d'une stratégie de prix gagnante — mais un examen plus attentif de la marge réelle révèle que l'entreprise couvre à peine plus que ses coûts directs sur chaque vente, ce qui ne laisse presque rien pour couvrir les frais généraux, les dépenses de marketing ou un coussin pour les périodes plus lentes. Le prix a « fonctionné » selon une mesure marketing (le volume), tout en échouant discrètement selon une mesure financière (la marge).
 
 ## Quiz de pratique
 

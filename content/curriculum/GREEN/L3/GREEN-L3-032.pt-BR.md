@@ -24,13 +24,13 @@ Ao final desta lição, você será capaz de:
 
 Muitos créditos tributários, incluindo créditos comuns ligados a dependentes em várias jurisdições, não valem do mesmo jeito em todos os níveis de renda. Em vez disso, muitas vezes têm uma **redução gradual** (phase-out) — um mecanismo em que o valor do crédito diminui aos poucos e acaba desaparecendo de vez conforme a renda do contribuinte (muitas vezes medida pela AGI, apresentada na Lição 10) passa de um certo limite.
 
-Este é o "porquê" geral de esse desenho ser tão comum: [VERIFIED FACT] muitos desses créditos foram pensados justamente para dar um alívio direcionado aos contribuintes de renda baixa e média, e o mecanismo de redução gradual é a forma de fazer esse direcionamento — em vez de dar o mesmo benefício em qualquer nível de renda, o crédito foi pensado para pesar mais para quem tem renda mais modesta e ir diminuindo aos poucos conforme a renda sobe e, pode-se argumentar, a necessidade desse alívio específico diminui.
+Este é o "porquê" geral de esse desenho ser tão comum: [FATO VERIFICADO] muitos desses créditos foram pensados justamente para dar um alívio direcionado aos contribuintes de renda baixa e média, e o mecanismo de redução gradual é a forma de fazer esse direcionamento — em vez de dar o mesmo benefício em qualquer nível de renda, o crédito foi pensado para pesar mais para quem tem renda mais modesta e ir diminuindo aos poucos conforme a renda sobe e, pode-se argumentar, a necessidade desse alívio específico diminui.
 
 É por isso que o ponto da Lição 10 sobre os efeitos em cadeia da AGI importa diretamente aqui: uma dedução "above the line" que reduz a AGI às vezes pode ajudar o contribuinte a ficar abaixo do limite de redução gradual de outro crédito, mantendo o direito a um benefício que, com uma AGI mais alta, poderia ter sido reduzido ou eliminado.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um crédito tributário ligado a dependentes começa a ser reduzido quando a AGI do contribuinte passa de um certo limite, diminuindo aos poucos conforme a renda sobe acima desse ponto, até desaparecer de vez em um nível de renda mais alto. [ASSUMPTION] Uma contribuinte cuja AGI está um pouco acima do limite de redução pode descobrir que usar uma dedução "above the line" disponível (Lição 10) traz a AGI dela de volta para baixo desse limite, mantendo o direito integral ao crédito — o que mostra diretamente o conceito de efeito em cadeia da AGI apresentado antes nesta trilha.
+[EXEMPLO ILUSTRATIVO] Um crédito tributário ligado a dependentes começa a ser reduzido quando a AGI do contribuinte passa de um certo limite, diminuindo aos poucos conforme a renda sobe acima desse ponto, até desaparecer de vez em um nível de renda mais alto. [SUPOSIÇÃO] Uma contribuinte cuja AGI está um pouco acima do limite de redução pode descobrir que usar uma dedução "above the line" disponível (Lição 10) traz a AGI dela de volta para baixo desse limite, mantendo o direito integral ao crédito — o que mostra diretamente o conceito de efeito em cadeia da AGI apresentado antes nesta trilha.
 
 ## Teste de prática
 

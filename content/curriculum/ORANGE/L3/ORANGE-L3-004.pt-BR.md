@@ -30,7 +30,7 @@ Quanto um acontecimento grave para a reputação custaria, de fato, ao seu negó
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio constrói, ao longo de uma década, uma reputação forte, que contribui muito para a fidelidade dos clientes e para o futuro valor de venda dele, retomando o conceito de fundo de comércio da trilha BLUE. [ASSUMPTION] Um único incidente público mal administrado prejudica essa reputação em poucos dias — a confiança dos clientes se desgasta mais rápido do que foi construída, alguns relacionamentos de longo prazo se perdem e, se o negócio fosse avaliado para uma venda logo depois, o componente de fundo de comércio dele poderia ser estimado bem abaixo do que era poucos meses antes, o que mostra a assimetria entre a lentidão com que esse ativo é construído e a rapidez com que pode ser prejudicado.
+[EXEMPLO ILUSTRATIVO] Um negócio constrói, ao longo de uma década, uma reputação forte, que contribui muito para a fidelidade dos clientes e para o futuro valor de venda dele, retomando o conceito de fundo de comércio da trilha BLUE. [SUPOSIÇÃO] Um único incidente público mal administrado prejudica essa reputação em poucos dias — a confiança dos clientes se desgasta mais rápido do que foi construída, alguns relacionamentos de longo prazo se perdem e, se o negócio fosse avaliado para uma venda logo depois, o componente de fundo de comércio dele poderia ser estimado bem abaixo do que era poucos meses antes, o que mostra a assimetria entre a lentidão com que esse ativo é construído e a rapidez com que pode ser prejudicado.
 
 ## Teste de prática
 

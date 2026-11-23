@@ -24,7 +24,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-É fácil pensar no pagamento de um dividendo como dinheiro extra, somado ao valor que a ação já tem; um bônus por manter a ação. Este é o "porquê" de essa forma de ver enganar: uma empresa paga dividendos com o próprio caixa, o que reduz os ativos que sobram para a empresa. [VERIFIED FACT] Na data ex-dividendo, o preço de uma ação normalmente cai aproximadamente o valor do dividendo pago, refletindo que a empresa agora vale um pouco menos, por ter distribuído parte do seu caixa aos acionistas.
+É fácil pensar no pagamento de um dividendo como dinheiro extra, somado ao valor que a ação já tem; um bônus por manter a ação. Este é o "porquê" de essa forma de ver enganar: uma empresa paga dividendos com o próprio caixa, o que reduz os ativos que sobram para a empresa. [FACTO VERIFICADO] Na data ex-dividendo, o preço de uma ação normalmente cai aproximadamente o valor do dividendo pago, refletindo que a empresa agora vale um pouco menos, por ter distribuído parte do seu caixa aos acionistas.
 
 Isso significa que um dividendo não é riqueza nova surgindo do nada; é uma redistribuição de um valor que já existia dentro da empresa, que agora passa para o bolso do acionista em dinheiro, em vez de continuar como parte do preço da ação. O acionista não fica realmente mais rico no momento em que o dividendo é pago; ele simplesmente tem o mesmo valor total, dividido entre um preço de ação um pouco menor e o dividendo recebido em dinheiro.
 
@@ -32,7 +32,7 @@ Isso significa que um dividendo não é riqueza nova surgindo do nada; é uma re
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma ação é negociada a $100 no dia anterior ao pagamento de um dividendo de $2 por ação. Na data ex-dividendo, com todo o resto igual, o preço da ação normalmente se ajusta para baixo, para aproximadamente $98, refletindo os $2 por ação que acabaram de sair da empresa como pagamento em dinheiro. Um investidor com uma ação agora tem $98 em ação mais $2 em dinheiro: continua com $100 de valor total, o mesmo de antes do pagamento do dividendo. O dividendo não criou riqueza nova; ele simplesmente converteu $2 de valor que já existia na ação em $2 em dinheiro.
+[EXEMPLO ILUSTRATIVO] Uma ação é negociada a $100 no dia anterior ao pagamento de um dividendo de $2 por ação. Na data ex-dividendo, com todo o resto igual, o preço da ação normalmente se ajusta para baixo, para aproximadamente $98, refletindo os $2 por ação que acabaram de sair da empresa como pagamento em dinheiro. Um investidor com uma ação agora tem $98 em ação mais $2 em dinheiro: continua com $100 de valor total, o mesmo de antes do pagamento do dividendo. O dividendo não criou riqueza nova; ele simplesmente converteu $2 de valor que já existia na ação em $2 em dinheiro.
 
 ## Teste de prática
 

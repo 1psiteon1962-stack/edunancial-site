@@ -30,7 +30,7 @@ Voordat je een marketingtekst met een specifieke feitelijke claim definitief maa
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Het marketingteam van een onderneming schrijft een advertentie waarin staat dat een specifiek product "de energiekosten met 30% verlaagt", op basis van een interne schatting en niet van grondige, controleerbare tests. [ASSUMPTION] Als een toezichthouder of concurrent deze claim aanvecht en de onderneming het specifieke cijfer van 30% niet met geloofwaardig bewijs kan onderbouwen, kan ze juridische gevolgen ondervinden wegens onjuiste of misleidende reclame – rechtstreeks gekoppeld aan de bredere beginselen over onjuiste voorstellingen uit het PURPLE-traject – ongeacht of het marketingteam de claim ongeveer juist vond of geen kwade bedoelingen had.
+[ILLUSTRATIEF VOORBEELD] Het marketingteam van een onderneming schrijft een advertentie waarin staat dat een specifiek product "de energiekosten met 30% verlaagt", op basis van een interne schatting en niet van grondige, controleerbare tests. [AANNAME] Als een toezichthouder of concurrent deze claim aanvecht en de onderneming het specifieke cijfer van 30% niet met geloofwaardig bewijs kan onderbouwen, kan ze juridische gevolgen ondervinden wegens onjuiste of misleidende reclame – rechtstreeks gekoppeld aan de bredere beginselen over onjuiste voorstellingen uit het PURPLE-traject – ongeacht of het marketingteam de claim ongeveer juist vond of geen kwade bedoelingen had.
 
 ## Oefenquiz
 

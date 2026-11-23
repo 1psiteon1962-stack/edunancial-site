@@ -32,7 +32,7 @@ Bevor du eine Rabattaktion startest: Wie hoch ist dein tatsächlicher Deckungsbe
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen mit einem Deckungsbeitrag von 40 € pro Stück gewährt einen Rabatt von 20 %, wodurch der Deckungsbeitrag pro Stück auf 20 € sinkt. [ASSUMPTION] Der Absatz steigt um 30 %, was nach einem klaren Erfolg klingt – aber weil die Marge pro Stück halbiert wurde, bringt diese Mengensteigerung von 30 % tatsächlich weniger Gesamtgewinn als vor dem Rabatt, nicht mehr: Aus 100 Stück mit je 40 € (4.000 €) werden 130 Stück mit je 20 € (2.600 €). Das zeigt, warum die intuitive Überlegung „Rabatt bringt mehr Verkäufe, mehr Verkäufe bringen mehr Gewinn“ die überproportionale Wirkung der schrumpfenden Marge übersieht.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen mit einem Deckungsbeitrag von 40 € pro Stück gewährt einen Rabatt von 20 %, wodurch der Deckungsbeitrag pro Stück auf 20 € sinkt. [ANNAHME] Der Absatz steigt um 30 %, was nach einem klaren Erfolg klingt – aber weil die Marge pro Stück halbiert wurde, bringt diese Mengensteigerung von 30 % tatsächlich weniger Gesamtgewinn als vor dem Rabatt, nicht mehr: Aus 100 Stück mit je 40 € (4.000 €) werden 130 Stück mit je 20 € (2.600 €). Das zeigt, warum die intuitive Überlegung „Rabatt bringt mehr Verkäufe, mehr Verkäufe bringen mehr Gewinn“ die überproportionale Wirkung der schrumpfenden Marge übersieht.
 
 ## Übungsquiz
 1. Warum verringert ein prozentualer Rabatt den Deckungsbeitrag um einen größeren Prozentsatz als den Rabatt selbst?

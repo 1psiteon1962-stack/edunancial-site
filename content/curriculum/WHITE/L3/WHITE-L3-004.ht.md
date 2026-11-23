@@ -30,11 +30,11 @@ Nan langaj envestisman chak jou, moun souvan itilize "volatilite" ak "risk" tank
 
 Men "poukisa" yo pa menm bagay: yon aksyon ka trè volatil — k ap monte desann anpil — pandan li toujou sou wout pou bay bon rannman sou long tèm, depi biznis ki dèyè l la rete solid e ou pa bezwen vann pandan yon bès. Okontrè, yon envestisman ka parèt kalm ak ti volatilite sou sifas la pandan li gen yon vrè risk pèt pèmanan — pa egzanp, yon obligasyon yon emetè ki gen pwoblèm finansye bay, ki fè komès nan yon pri estab jiskaske li vrèman fè defo (li pa ka peye).
 
-[VERIFIED FACT] Diferans sa a enpòtan sitou pou jan yon envestisè ta dwe reyaji lè pri a bouje: volatilite poukont li, san okenn chanjman nan fondamantal yo oswa nan pwòp orizon tan pa w, pa nesesèman yon siyal pou vann — men yon vrè chanjman nan risk pèt pèmanan yon envestisman se yon siyal ki pi serye anpil, ki merite pou w aji.
+[FÈ VERIFYE] Diferans sa a enpòtan sitou pou jan yon envestisè ta dwe reyaji lè pri a bouje: volatilite poukont li, san okenn chanjman nan fondamantal yo oswa nan pwòp orizon tan pa w, pa nesesèman yon siyal pou vann — men yon vrè chanjman nan risk pèt pèmanan yon envestisman se yon siyal ki pi serye anpil, ki merite pou w aji.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Aksyon A monte desann anpil de mwa an mwa men li se pou yon konpayi ki an bon sante finansye e k ap grandi; yon envestisè ki kenbe l sou long tèm, san kout balanse sa yo pa deranje l, ka wè bon rannman avèk tan malgre wout la pa dous. Aksyon B fè komès nan yon ti ranje pri estab pandan plizyè mwa, sa ki bay aparans sekirite — men konpayi ki dèyè l la ap pran yon dèt li pa ka sipòte an kachèt. [ASSUMPTION] Lè pwoblèm dèt sa a finalman vin piblik, pri "estab" Aksyon B a ta ka desann anpil e pou tout tan — ti volatilite ki te la anvan sa a te kache yon vrè risk k ap grandi olye li te reflete yon vrè sekirite.
+[EGZANP ILISTRATIF] Aksyon A monte desann anpil de mwa an mwa men li se pou yon konpayi ki an bon sante finansye e k ap grandi; yon envestisè ki kenbe l sou long tèm, san kout balanse sa yo pa deranje l, ka wè bon rannman avèk tan malgre wout la pa dous. Aksyon B fè komès nan yon ti ranje pri estab pandan plizyè mwa, sa ki bay aparans sekirite — men konpayi ki dèyè l la ap pran yon dèt li pa ka sipòte an kachèt. [SIPOZISYON] Lè pwoblèm dèt sa a finalman vin piblik, pri "estab" Aksyon B a ta ka desann anpil e pou tout tan — ti volatilite ki te la anvan sa a te kache yon vrè risk k ap grandi olye li te reflete yon vrè sekirite.
 
 ## Egzamen pratik
 

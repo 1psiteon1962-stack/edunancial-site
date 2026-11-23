@@ -30,11 +30,11 @@ Leson 5 te montre achte yon opsyon ba w yon dwa, ak yon pèt limite (prim nan) a
 
 Men "poukisa" sa ranvèse pwofil risk la: pi gwo pwofi vandè a ka fè limite a prim li touche a — se sa a ki pi plis li ka janm fè sou pozisyon an. Men pèt potansyèl li, sitou pou yon vandè ki pa deja posede byen ki dèyè l la (yon pozisyon "toutouni" oswa ki pa kouvri), ka pi gwo anpil, paske pri byen an ka bouje anpil kont li e li toujou oblije respekte kontra a.
 
-[VERIFIED FACT] Yon **covered call** (call kouvri) — vann yon opsyon call sou yon aksyon vandè a deja posede — limite risk pratik pozisyon espesifik sa a, paske si achtè a egzèse, vandè a senpleman livre aksyon li deja genyen, olye li bezwen achte yo nan yon pri mache ki ka pi wo anpil. Vann opsyon san ou pa deja posede byen ki dèyè l la (vant "toutouni") gen plis risk anpil e anjeneral yo konsidere l kòm yon estrateji avanse.
+[FÈ VERIFYE] Yon **covered call** (call kouvri) — vann yon opsyon call sou yon aksyon vandè a deja posede — limite risk pratik pozisyon espesifik sa a, paske si achtè a egzèse, vandè a senpleman livre aksyon li deja genyen, olye li bezwen achte yo nan yon pri mache ki ka pi wo anpil. Vann opsyon san ou pa deja posede byen ki dèyè l la (vant "toutouni") gen plis risk anpil e anjeneral yo konsidere l kòm yon estrateji avanse.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè vann yon covered call sou yon aksyon li deja posede, k ap fè komès kounye a a $50, ak yon pri egzèsis $55, e li touche yon prim $2. Si aksyon an rete anba $55, opsyon an ekspire san valè, e li kenbe prim $2 la kòm pwofi pi, anplis li toujou posede aksyon li. Si aksyon an monte a $70, achtè a egzèse opsyon an, e li oblije vann aksyon li yo a $55 — li rate pwofi anplis ki anwo $55 la, men risk li te limite paske li te deja posede aksyon l ap vann yo. Konpare sa ak yon vandè call toutouni ki pa gen aksyon: a $70, li ta oblije achte aksyon nan pri mache aktyèl la jis pou l livre yo a $55, yon pèt ki ka gwo e ki, an prensip, pa gen limit.
+[EGZANP ILISTRATIF] Yon envestisè vann yon covered call sou yon aksyon li deja posede, k ap fè komès kounye a a $50, ak yon pri egzèsis $55, e li touche yon prim $2. Si aksyon an rete anba $55, opsyon an ekspire san valè, e li kenbe prim $2 la kòm pwofi pi, anplis li toujou posede aksyon li. Si aksyon an monte a $70, achtè a egzèse opsyon an, e li oblije vann aksyon li yo a $55 — li rate pwofi anplis ki anwo $55 la, men risk li te limite paske li te deja posede aksyon l ap vann yo. Konpare sa ak yon vandè call toutouni ki pa gen aksyon: a $70, li ta oblije achte aksyon nan pri mache aktyèl la jis pou l livre yo a $55, yon pèt ki ka gwo e ki, an prensip, pa gen limit.
 
 ## Egzamen pratik
 

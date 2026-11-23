@@ -30,7 +30,7 @@ Voordat je een agressieve marketingactie richting een nieuwe geografische regio 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming start een geslaagde, bewuste marketingcampagne gericht op een specifieke nieuwe staat, en realiseert daar binnen een paar maanden sterke verkoopgroei. [ASSUMPTION] Diezelfde verkoopgroei, rechtstreeks aangedreven door de marketingcampagne, overschrijdt de drempel voor economische nexus voor het innen van omzetbelasting in die staat, zoals besproken in het GREEN-traject – maar omdat marketing en fiscale naleving bij deze uitbreiding niet samenwerkten, beseft de onderneming pas dat ze in die staat omzetbelasting moet gaan innen en afdragen ruim nadat de verplichting al is ontstaan. Dat levert een nalevingsprobleem met terugwerkende kracht op dat een eenvoudige controle vóór de uitbreiding had voorkomen.
+[ILLUSTRATIEF VOORBEELD] Een onderneming start een geslaagde, bewuste marketingcampagne gericht op een specifieke nieuwe staat, en realiseert daar binnen een paar maanden sterke verkoopgroei. [AANNAME] Diezelfde verkoopgroei, rechtstreeks aangedreven door de marketingcampagne, overschrijdt de drempel voor economische nexus voor het innen van omzetbelasting in die staat, zoals besproken in het GREEN-traject – maar omdat marketing en fiscale naleving bij deze uitbreiding niet samenwerkten, beseft de onderneming pas dat ze in die staat omzetbelasting moet gaan innen en afdragen ruim nadat de verplichting al is ontstaan. Dat levert een nalevingsprobleem met terugwerkende kracht op dat een eenvoudige controle vóór de uitbreiding had voorkomen.
 
 ## Oefenquiz
 

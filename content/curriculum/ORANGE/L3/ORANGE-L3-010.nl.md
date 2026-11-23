@@ -30,7 +30,7 @@ Voordat je een actie met een lokkertje start: welke specifieke gegevens zou je m
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming verkoopt een specifiek product met verlies, in de veronderstelling dat klanten daarna vaak genoeg een apart, winstgevend aanvullend product kopen om de strategie als geheel de moeite waard te maken. [ASSUMPTION] Het verliesgevende product wordt erg populair, en de onderneming ziet die populariteit als bewijs dat de strategie slaagt – zonder ooit werkelijk te meten welk percentage van die klanten daarna het winstgevende aanvullende product koopt. Als dat percentage vervolgaankopen in werkelijkheid veel lager is dan aangenomen, kan de onderneming een strategie uitvoeren die populair is maar echt verliesgevend, juist omdat ze de unit economics waarop de strategie rust nooit heeft gevolgd.
+[ILLUSTRATIEF VOORBEELD] Een onderneming verkoopt een specifiek product met verlies, in de veronderstelling dat klanten daarna vaak genoeg een apart, winstgevend aanvullend product kopen om de strategie als geheel de moeite waard te maken. [AANNAME] Het verliesgevende product wordt erg populair, en de onderneming ziet die populariteit als bewijs dat de strategie slaagt – zonder ooit werkelijk te meten welk percentage van die klanten daarna het winstgevende aanvullende product koopt. Als dat percentage vervolgaankopen in werkelijkheid veel lager is dan aangenomen, kan de onderneming een strategie uitvoeren die populair is maar echt verliesgevend, juist omdat ze de unit economics waarop de strategie rust nooit heeft gevolgd.
 
 ## Oefenquiz
 

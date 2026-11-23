@@ -30,7 +30,7 @@ Ta propre structure de rémunération, ou celle de la haute direction de ton org
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] La direction d'une entreprise insiste publiquement sur une croissance durable à long terme et sur le développement des employés comme priorités fondamentales, alors que la rémunération des cadres est structurée presque entièrement autour d'indicateurs financiers trimestriels à court terme. [ASSUMPTION] Les employés de toute l'organisation remarquent ce décalage et en tirent la conclusion raisonnable que les priorités à long terme déclarées sont moins sincères que les indicateurs à court terme qui guident réellement les incitatifs financiers de la direction elle-même — en écho exact à l'écart entre incitatifs et discours abordé aux leçons 3 et 19, maintenant appliqué à la propre rémunération de la direction plutôt qu'à celle d'une équipe de vente.
+[EXEMPLE ILLUSTRATIF] La direction d'une entreprise insiste publiquement sur une croissance durable à long terme et sur le développement des employés comme priorités fondamentales, alors que la rémunération des cadres est structurée presque entièrement autour d'indicateurs financiers trimestriels à court terme. [HYPOTHÈSE] Les employés de toute l'organisation remarquent ce décalage et en tirent la conclusion raisonnable que les priorités à long terme déclarées sont moins sincères que les indicateurs à court terme qui guident réellement les incitatifs financiers de la direction elle-même — en écho exact à l'écart entre incitatifs et discours abordé aux leçons 3 et 19, maintenant appliqué à la propre rémunération de la direction plutôt qu'à celle d'une équipe de vente.
 
 ## Quiz de pratique
 

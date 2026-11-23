@@ -32,7 +32,7 @@ Avant de lancer une campagne marketing importante autour d'un nouveau nom de mar
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise crée un nouveau nom de marque et investit beaucoup dans le marketing et la notoriété auprès des clients sans jamais faire de recherche de marque de commerce. [ASSUMPTION] Après cet investissement important, l'entreprise découvre qu'une autre entreprise détient déjà des droits de marque de commerce sur un nom semblable au point de prêter à confusion dans le même secteur — ce qui la force à une refonte coûteuse de son image de marque, à abandonner l'investissement marketing déjà fait, et montre pourquoi le coût modeste d'une recherche et d'une demande de marque de commerce préalables, faites avant l'investissement dans l'image de marque, aurait été bien moins élevé que le résultat réel.
+[EXEMPLE ILLUSTRATIF] Une entreprise crée un nouveau nom de marque et investit beaucoup dans le marketing et la notoriété auprès des clients sans jamais faire de recherche de marque de commerce. [HYPOTHÈSE] Après cet investissement important, l'entreprise découvre qu'une autre entreprise détient déjà des droits de marque de commerce sur un nom semblable au point de prêter à confusion dans le même secteur — ce qui la force à une refonte coûteuse de son image de marque, à abandonner l'investissement marketing déjà fait, et montre pourquoi le coût modeste d'une recherche et d'une demande de marque de commerce préalables, faites avant l'investissement dans l'image de marque, aurait été bien moins élevé que le résultat réel.
 
 ## Quiz de pratique
 

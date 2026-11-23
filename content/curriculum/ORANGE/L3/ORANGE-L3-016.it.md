@@ -30,7 +30,7 @@ Prima che un venditore faccia una promessa specifica per chiudere un affare: è 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un venditore, desideroso di chiudere un affare, promette a voce dei tempi di consegna che il team operativo dell'impresa non ha mai confermato di poter rispettare. [ASSUMPTION] Quando la consegna arriva molto oltre i tempi promessi, il cliente si sente ingannato. Potrebbe avanzare una pretesa legale collegata ai principi sulle rappresentazioni false del percorso PURPLE e, separatamente, raccontare pubblicamente la sua esperienza negativa. Da un'unica promessa eccessiva nascono così sia un'esposizione giuridica sia un'esposizione reputazionale, e questo mostra perché l'integrità nelle vendite ha una posta in gioco che va ben oltre il singolo affare da chiudere.
+[ESEMPIO ILLUSTRATIVO] Un venditore, desideroso di chiudere un affare, promette a voce dei tempi di consegna che il team operativo dell'impresa non ha mai confermato di poter rispettare. [IPOTESI] Quando la consegna arriva molto oltre i tempi promessi, il cliente si sente ingannato. Potrebbe avanzare una pretesa legale collegata ai principi sulle rappresentazioni false del percorso PURPLE e, separatamente, raccontare pubblicamente la sua esperienza negativa. Da un'unica promessa eccessiva nascono così sia un'esposizione giuridica sia un'esposizione reputazionale, e questo mostra perché l'integrità nelle vendite ha una posta in gioco che va ben oltre il singolo affare da chiudere.
 
 ## Quiz di esercitazione
 

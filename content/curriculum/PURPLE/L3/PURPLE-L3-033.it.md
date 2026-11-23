@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-Essere pieni proprietari di un immobile, con un titolo giuridico completo, potrebbe sembrare sinonimo di libertà totale di usarlo come si vuole. Ecco il "perché" nella maggior parte degli ordinamenti non è così: [VERIFIED FACT] le **norme urbanistiche** locali dividono in genere il territorio in diverse zone (residenziale, commerciale, industriale e varie sottocategorie), ciascuna con regole specifiche su quali usi, costruzioni e attività sono consentiti, a prescindere da ciò che il singolo proprietario vorrebbe fare del proprio terreno.
+Essere pieni proprietari di un immobile, con un titolo giuridico completo, potrebbe sembrare sinonimo di libertà totale di usarlo come si vuole. Ecco il "perché" nella maggior parte degli ordinamenti non è così: [FATTO VERIFICATO] le **norme urbanistiche** locali dividono in genere il territorio in diverse zone (residenziale, commerciale, industriale e varie sottocategorie), ciascuna con regole specifiche su quali usi, costruzioni e attività sono consentiti, a prescindere da ciò che il singolo proprietario vorrebbe fare del proprio terreno.
 
 Ecco lo scopo generale di questo limite ai diritti di proprietà individuali: l'urbanistica serve in genere a bilanciare l'interesse del singolo proprietario a usare liberamente il proprio immobile con l'interesse più ampio della comunità a un uso del territorio prevedibile e compatibile. Evita, per esempio, che un impianto industriale venga costruito in mezzo a un quartiere residenziale consolidato, cosa che potrebbe incidere molto sul valore, sulla sicurezza e sul carattere degli immobili vicini, anche se fosse proprio ciò che quel proprietario voleva costruire sul proprio terreno.
 
@@ -30,7 +30,7 @@ Per questo la destinazione urbanistica specifica di un immobile conta molto per 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] La proprietaria di un immobile in una zona residenziale vuole aprirvi un'attività commerciale, convinta che, essendone piena proprietaria, debba essere libera di usarlo come vuole. [ASSUMPTION] In base alla destinazione residenziale applicabile, questo specifico uso commerciale è probabilmente vietato, a prescindere dalla piena proprietà: in genere dovrebbe presentare una domanda formale di deroga o di variante urbanistica all'autorità locale competente, e non c'è alcuna garanzia che la domanda venga approvata. Questo mostra perché la piena proprietà non equivale a una libertà d'uso illimitata.
+[ESEMPIO ILLUSTRATIVO] La proprietaria di un immobile in una zona residenziale vuole aprirvi un'attività commerciale, convinta che, essendone piena proprietaria, debba essere libera di usarlo come vuole. [IPOTESI] In base alla destinazione residenziale applicabile, questo specifico uso commerciale è probabilmente vietato, a prescindere dalla piena proprietà: in genere dovrebbe presentare una domanda formale di deroga o di variante urbanistica all'autorità locale competente, e non c'è alcuna garanzia che la domanda venga approvata. Questo mostra perché la piena proprietà non equivale a una libertà d'uso illimitata.
 
 ## Quiz di esercitazione
 

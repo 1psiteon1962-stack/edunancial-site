@@ -32,7 +32,7 @@ Avant qu'un vendeur fasse une promesse précise pour conclure une transaction, c
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un vendeur pressé de conclure une transaction promet verbalement un délai de livraison que l'équipe des opérations de l'entreprise n'a pas réellement confirmé pouvoir respecter. [ASSUMPTION] Lorsque la livraison est retardée bien au-delà du délai promis, le client se sent trompé, ce qui pourrait donner lieu à une réclamation juridique liée aux principes de fausse déclaration du parcours PURPLE et, séparément, l'amener à raconter publiquement son expérience négative — ce qui crée à la fois une exposition juridique et une exposition en matière de réputation à partir d'une seule promesse excessive, et montre pourquoi l'intégrité en vente comporte des enjeux qui vont bien au-delà de la transaction individuelle conclue.
+[EXEMPLE ILLUSTRATIF] Un vendeur pressé de conclure une transaction promet verbalement un délai de livraison que l'équipe des opérations de l'entreprise n'a pas réellement confirmé pouvoir respecter. [HYPOTHÈSE] Lorsque la livraison est retardée bien au-delà du délai promis, le client se sent trompé, ce qui pourrait donner lieu à une réclamation juridique liée aux principes de fausse déclaration du parcours PURPLE et, séparément, l'amener à raconter publiquement son expérience négative — ce qui crée à la fois une exposition juridique et une exposition en matière de réputation à partir d'une seule promesse excessive, et montre pourquoi l'intégrité en vente comporte des enjeux qui vont bien au-delà de la transaction individuelle conclue.
 
 ## Quiz de pratique
 

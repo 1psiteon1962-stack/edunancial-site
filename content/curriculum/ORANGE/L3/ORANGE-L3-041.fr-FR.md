@@ -32,7 +32,7 @@ Avant de traiter ta prévision de ventes comme un intrant fixe pour des décisio
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise prévoit un chiffre de revenus précis pour le prochain trimestre, et ce chiffre devient la base de ses achats de stocks, d'un plan d'embauche et d'une hausse du budget de marketing. [ASSUMPTION] Lorsque les ventes réelles sont inférieures de 20 % à cette prévision, l'effet n'est pas un écart limité de 20 % — les stocks achetés selon l'hypothèse gonflée restent invendus, la paie des nouvelles recrues n'est pas soutenue par les revenus réels, et la hausse des dépenses de marketing ajoute une pression supplémentaire sur la trésorerie, ce qui veut dire que l'erreur de prévision initiale s'est multipliée pour donner des répercussions financières beaucoup plus importantes une fois prise en compte chaque décision dépendante construite à partir d'elle.
+[EXEMPLE ILLUSTRATIF] Une entreprise prévoit un chiffre de revenus précis pour le prochain trimestre, et ce chiffre devient la base de ses achats de stocks, d'un plan d'embauche et d'une hausse du budget de marketing. [HYPOTHÈSE] Lorsque les ventes réelles sont inférieures de 20 % à cette prévision, l'effet n'est pas un écart limité de 20 % — les stocks achetés selon l'hypothèse gonflée restent invendus, la paie des nouvelles recrues n'est pas soutenue par les revenus réels, et la hausse des dépenses de marketing ajoute une pression supplémentaire sur la trésorerie, ce qui veut dire que l'erreur de prévision initiale s'est multipliée pour donner des répercussions financières beaucoup plus importantes une fois prise en compte chaque décision dépendante construite à partir d'elle.
 
 ## Quiz de pratique
 

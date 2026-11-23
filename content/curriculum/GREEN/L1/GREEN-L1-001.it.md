@@ -34,11 +34,11 @@ Chi la riscuote? Dipende dal Paese. In molti luoghi esistono più livelli di gov
 
 Perché paghiamo? Perché strade, scuole pubbliche, vigili del fuoco e tribunali costano, e qualcuno deve pagarli. Le imposte sono il modo principale con cui gli Stati finanziano questi servizi. Pagare le imposte non è facoltativo: è un obbligo di legge. Capire come funzionano è il primo passo per prendere decisioni finanziarie migliori.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Immagina 100 famiglie in una strada senza illuminazione. Una famiglia da sola può pagare tutti i lampioni?
 

@@ -34,11 +34,11 @@ Per calcolare l'imposta, calcoli ogni scaglione separatamente e sommi tutto. La 
 
 I limiti e le aliquote reali cambiano da Paese a Paese e spesso di anno in anno. I numeri qui sotto sono solo un esempio per esercitarsi con il metodo. Conta il metodo: funziona in qualsiasi sistema a scaglioni progressivi.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Tabella di esempio: fino a $10.000 paga il 10%; da $10.000 a $40.000 paga il 20%; oltre $40.000 paga il 30%. Pietro guadagna $50.000. Andiamo per parti. Quanto paga nel primo scaglione?
 

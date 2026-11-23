@@ -30,7 +30,7 @@ Hai riflettuto in anticipo su come dovrebbe cambiare il tuo stile di leadership 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader abituato ad ampie consultazioni e alla costruzione del consenso prima di ogni decisione importante si trova ad affrontare una crisi in rapida evoluzione che richiede una risposta pubblica immediata. [ASSUMPTION] Applicando lo stesso processo di ampia consultazione usato per le normali decisioni strategiche, questo leader rimanda di giorni una risposta pubblica mentre raccoglie il parere di tutte le parti interessate. È un ritmo adatto alla leadership dei periodi normali, ma durante una vera crisi crea un vuoto che altri riempiono con la propria versione dei fatti. Questo mostra perché la leadership in una crisi richiede un'azione più rapida e decisa, anche con meno certezze di quelle che il normale processo decisionale del leader preferirebbe.
+[ESEMPIO ILLUSTRATIVO] Un leader abituato ad ampie consultazioni e alla costruzione del consenso prima di ogni decisione importante si trova ad affrontare una crisi in rapida evoluzione che richiede una risposta pubblica immediata. [IPOTESI] Applicando lo stesso processo di ampia consultazione usato per le normali decisioni strategiche, questo leader rimanda di giorni una risposta pubblica mentre raccoglie il parere di tutte le parti interessate. È un ritmo adatto alla leadership dei periodi normali, ma durante una vera crisi crea un vuoto che altri riempiono con la propria versione dei fatti. Questo mostra perché la leadership in una crisi richiede un'azione più rapida e decisa, anche con meno certezze di quelle che il normale processo decisionale del leader preferirebbe.
 
 ## Quiz di esercitazione
 

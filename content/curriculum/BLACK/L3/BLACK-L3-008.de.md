@@ -30,7 +30,7 @@ Wer in deiner Organisation könnte morgen bei Bedarf in eine wichtige Führungsr
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine gesunde Führungskraft ohne baldige Ausstiegspläne hält Nachfolgeplanung derzeit für unnötig und konzentriert sich vollständig auf aktuelle betriebliche Prioritäten. [ASSUMPTION] Fällt diese Führungskraft unerwartet aus – durch Krankheit, einen unerwarteten Weggang oder eine plötzliche Gelegenheit anderswo –, stellt die Organisation fest, dass niemand aktiv entwickelt oder darauf vorbereitet wurde, die Führungsrolle zu übernehmen. So entsteht genau die Art von Störung und Unsicherheit, vor der die Lektionen zur persönlichen Nachlassplanung an anderer Stelle dieses Lehrplans auf Familienebene gewarnt haben – nun aber in einer ganzen Organisation mit all ihren Beschäftigten.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine gesunde Führungskraft ohne baldige Ausstiegspläne hält Nachfolgeplanung derzeit für unnötig und konzentriert sich vollständig auf aktuelle betriebliche Prioritäten. [ANNAHME] Fällt diese Führungskraft unerwartet aus – durch Krankheit, einen unerwarteten Weggang oder eine plötzliche Gelegenheit anderswo –, stellt die Organisation fest, dass niemand aktiv entwickelt oder darauf vorbereitet wurde, die Führungsrolle zu übernehmen. So entsteht genau die Art von Störung und Unsicherheit, vor der die Lektionen zur persönlichen Nachlassplanung an anderer Stelle dieses Lehrplans auf Familienebene gewarnt haben – nun aber in einer ganzen Organisation mit all ihren Beschäftigten.
 
 ## Übungsquiz
 1. Wie unterscheidet sich die Nachfolgeplanung für Führungsrollen in einer Organisation von der persönlichen Nachlassplanung an anderer Stelle dieses Lehrplans?

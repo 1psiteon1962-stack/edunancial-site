@@ -34,11 +34,11 @@ Nelle competenze vedi lo stipendio lordo, gli straordinari e i bonus. Nelle trat
 
 Conviene controllare la busta paga ogni mese. Gli errori capitano: ore non pagate, trattenute doppie o dati personali sbagliati. Prima li scopri, più è facile correggerli. I nomi delle voci cambiano da Paese a Paese, ma la struttura è simile.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Nella busta paga di Diego ci sono: stipendio $2.500, straordinari $300, ritenuta d'imposta $350, contributi $210 e assicurazione sanitaria $140. Qual è il lordo?
 

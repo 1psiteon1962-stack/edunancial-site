@@ -30,7 +30,7 @@ Este é o "porquê" de ligar toda decisão a essa lente levar a um julgamento ma
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora que avalia várias oportunidades muito diferentes — uma parte em ouro, um compromisso com um fundo privado e uma decisão de rebalanceamento entre as ações e os títulos dela — aplica a mesma pergunta de fundo a cada uma: que risco específico isso envolve (falta de liquidez, custo de oportunidade de um ativo não produtivo, volatilidade), e o benefício potencial é uma compensação adequada por esse risco específico, considerando meu horizonte de tempo e meus objetivos? [ASSUMPTION] Em vez de avaliar cada decisão com uma estrutura totalmente separada e sem relação com as outras, ela percebe que todas são variações da mesma pergunta de fundo sobre julgamento ajustado ao risco, o que lhe permite raciocinar sobre tipos de ativo muito diferentes com uma única abordagem coerente.
+[EXEMPLO ILUSTRATIVO] Uma investidora que avalia várias oportunidades muito diferentes — uma parte em ouro, um compromisso com um fundo privado e uma decisão de rebalanceamento entre as ações e os títulos dela — aplica a mesma pergunta de fundo a cada uma: que risco específico isso envolve (falta de liquidez, custo de oportunidade de um ativo não produtivo, volatilidade), e o benefício potencial é uma compensação adequada por esse risco específico, considerando meu horizonte de tempo e meus objetivos? [SUPOSIÇÃO] Em vez de avaliar cada decisão com uma estrutura totalmente separada e sem relação com as outras, ela percebe que todas são variações da mesma pergunta de fundo sobre julgamento ajustado ao risco, o que lhe permite raciocinar sobre tipos de ativo muito diferentes com uma única abordagem coerente.
 
 ## Teste de prática
 

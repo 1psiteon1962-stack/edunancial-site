@@ -30,7 +30,7 @@ Gibt es in deiner Organisation gerade ein sichtbares Thema, bei dem du dich für
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft entscheidet sich, einen sichtbaren, anhaltenden Konflikt zwischen zwei Teammitgliedern nicht offen anzusprechen, weil sie glaubt, dass neutrales Schweigen vermeidet, Partei zu ergreifen oder die Lage zu verschlimmern. [ASSUMPTION] Die Teammitglieder beobachten dieses anhaltende Schweigen und deuten es nicht als Neutralität, sondern als stillschweigende Duldung des anhaltenden Konflikts – ganz im Sinne des Punkts aus Lektion 22, dass Duldung die Kultur prägt. Das zeigt, warum das beabsichtigte „neutrale Nichthandeln“ der Führungskraft tatsächlich als konkrete, inhaltliche Botschaft wirkte, dass der Konflikt weitergehen dürfe.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft entscheidet sich, einen sichtbaren, anhaltenden Konflikt zwischen zwei Teammitgliedern nicht offen anzusprechen, weil sie glaubt, dass neutrales Schweigen vermeidet, Partei zu ergreifen oder die Lage zu verschlimmern. [ANNAHME] Die Teammitglieder beobachten dieses anhaltende Schweigen und deuten es nicht als Neutralität, sondern als stillschweigende Duldung des anhaltenden Konflikts – ganz im Sinne des Punkts aus Lektion 22, dass Duldung die Kultur prägt. Das zeigt, warum das beabsichtigte „neutrale Nichthandeln“ der Führungskraft tatsächlich als konkrete, inhaltliche Botschaft wirkte, dass der Konflikt weitergehen dürfe.
 
 ## Übungsquiz
 1. Warum ist das Schweigen einer Führungskraft zu einem sichtbaren Thema eine echte Entscheidung und kein neutrales Nichthandeln?

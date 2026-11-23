@@ -28,11 +28,11 @@ La leçon 1 a expliqué que seul le revenu compris dans une tranche donnée est 
 
 Voici « pourquoi » ce chiffre est presque toujours nettement plus bas que ton taux marginal le plus élevé : comme les tranches inférieures sont imposées à des taux plus bas en chemin vers ta tranche la plus élevée, la combinaison de tous ces taux en une seule moyenne fait toujours descendre le taux effectif global sous le taux marginal le plus élevé, qui ne s'applique qu'à tes derniers euros gagnés.
 
-[VERIFIED FACT] C'est pourquoi on considère souvent le taux d'imposition effectif comme un chiffre plus utile pour une vraie planification financière et pour comparer le fardeau fiscal entre différents niveaux de revenu ou différentes périodes : il reflète ton fardeau fiscal global réel, plutôt que seulement le taux qui s'applique à ton euro le mieux rémunéré, ce qui peut faire paraître la situation fiscale d'une personne plus lourde qu'elle ne l'est réellement si on confond le taux marginal avec le taux global.
+[FAIT VÉRIFIÉ] C'est pourquoi on considère souvent le taux d'imposition effectif comme un chiffre plus utile pour une vraie planification financière et pour comparer le fardeau fiscal entre différents niveaux de revenu ou différentes périodes : il reflète ton fardeau fiscal global réel, plutôt que seulement le taux qui s'applique à ton euro le mieux rémunéré, ce qui peut faire paraître la situation fiscale d'une personne plus lourde qu'elle ne l'est réellement si on confond le taux marginal avec le taux global.
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Avec la même structure de tranches simplifiée que dans la leçon 1 (10 % sur les premiers 10 000 €, 20 % au-delà), une personne qui gagne 15 000 € paie 1 000 € (10 % de 10 000 €) plus 1 000 € (20 % des 5 000 € restants), pour un total de 2 000 € d'impôt. Son taux marginal le plus élevé est de 20 %, mais son taux d'imposition effectif est de 2 000 € divisés par 15 000 €, soit environ 13,3 % — nettement plus bas que le taux marginal de 20 %, qui pourrait faire paraître sa situation fiscale plus lourde qu'elle ne l'est réellement.
+[EXEMPLE ILLUSTRATIF] Avec la même structure de tranches simplifiée que dans la leçon 1 (10 % sur les premiers 10 000 €, 20 % au-delà), une personne qui gagne 15 000 € paie 1 000 € (10 % de 10 000 €) plus 1 000 € (20 % des 5 000 € restants), pour un total de 2 000 € d'impôt. Son taux marginal le plus élevé est de 20 %, mais son taux d'imposition effectif est de 2 000 € divisés par 15 000 €, soit environ 13,3 % — nettement plus bas que le taux marginal de 20 %, qui pourrait faire paraître sa situation fiscale plus lourde qu'elle ne l'est réellement.
 
 ## Quiz de pratique
 

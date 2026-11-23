@@ -30,7 +30,7 @@ Quanto costerebbe davvero alla tua impresa un grave evento reputazionale, al di 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa costruisce in dieci anni una reputazione solida, che contribuisce in modo significativo alla fedeltà dei clienti e al suo futuro valore di vendita, riprendendo il concetto di avviamento del percorso BLUE. [ASSUMPTION] Un singolo episodio pubblico gestito male danneggia quella reputazione in pochi giorni: la fiducia dei clienti si erode più in fretta di quanto si fosse costruita, alcuni rapporti di lungo periodo vanno persi e, se poco dopo l'impresa venisse valutata per una vendita, la sua componente di avviamento potrebbe essere stimata in modo significativamente più basso di pochi mesi prima. Questo mostra l'asimmetria tra la lentezza con cui questa attività si costruisce e la rapidità con cui può essere danneggiata.
+[ESEMPIO ILLUSTRATIVO] Un'impresa costruisce in dieci anni una reputazione solida, che contribuisce in modo significativo alla fedeltà dei clienti e al suo futuro valore di vendita, riprendendo il concetto di avviamento del percorso BLUE. [IPOTESI] Un singolo episodio pubblico gestito male danneggia quella reputazione in pochi giorni: la fiducia dei clienti si erode più in fretta di quanto si fosse costruita, alcuni rapporti di lungo periodo vanno persi e, se poco dopo l'impresa venisse valutata per una vendita, la sua componente di avviamento potrebbe essere stimata in modo significativamente più basso di pochi mesi prima. Questo mostra l'asimmetria tra la lentezza con cui questa attività si costruisce e la rapidità con cui può essere danneggiata.
 
 ## Quiz di esercitazione
 

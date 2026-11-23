@@ -30,7 +30,7 @@ Antes da sua próxima decisão importante de liderança — uma contratação, u
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder evita, por meses, tratar com um funcionário que vem a ter desempenho abaixo do esperado de forma constante, apresentando o adiamento como uma forma de dar a ele "mais tempo para crescer" — uma justificativa focada em pessoas e que parece não ser financeira. [ASSUMPTION] Durante esses meses, a produção geral da equipa cai, os outros membros da equipa ficam frustrados ao ver o baixo desempenho sem resposta, e o custo final de substituir essa pessoa (recrutamento, integração, produtividade perdida durante a transição) cresce quanto mais a decisão é adiada — a "decisão sobre pessoas" foi uma decisão financeira o tempo todo, só que o líder não a tinha nomeado assim de forma explícita.
+[EXEMPLO ILUSTRATIVO] Um líder evita, por meses, tratar com um funcionário que vem a ter desempenho abaixo do esperado de forma constante, apresentando o adiamento como uma forma de dar a ele "mais tempo para crescer" — uma justificativa focada em pessoas e que parece não ser financeira. [SUPOSIÇÃO] Durante esses meses, a produção geral da equipa cai, os outros membros da equipa ficam frustrados ao ver o baixo desempenho sem resposta, e o custo final de substituir essa pessoa (recrutamento, integração, produtividade perdida durante a transição) cresce quanto mais a decisão é adiada — a "decisão sobre pessoas" foi uma decisão financeira o tempo todo, só que o líder não a tinha nomeado assim de forma explícita.
 
 ## Teste de prática
 

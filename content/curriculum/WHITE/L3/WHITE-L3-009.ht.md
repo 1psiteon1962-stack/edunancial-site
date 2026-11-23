@@ -30,11 +30,11 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Men "poukisa" menm efè miltiplikatè a aplike: yo kalkile rannman ou an pousantaj pa rapò ak pwòp lajan kach ou envesti, pa gwosè tout pozisyon an — kidonk si pozisyon an pran valè, yo mezire pwofi sa a sou yon baz ki pi piti, sa ki grandi rannman ou an pousantaj. Si pozisyon an pèdi valè, menm kalkil la grandi pèt ou an pousantaj egzakteman menm jan an, e ou toujou dwe tout kantite lajan ou te prete a, kèlkeswa jan envestisman an mache.
 
-[VERIFIED FACT] Prè sou maj anjeneral chaje enterè, sa ki ajoute yon depans kontinyèl sou pozisyon an, e koutye yo mande pou w kenbe yon nivo minimòm ekite (valè ki pou ou nèt) nan kont lan — si valè kont lan desann twòp, sa ka lakòz yon margin call (apèl maj), pwochen leson an ap kouvri sa.
+[FÈ VERIFYE] Prè sou maj anjeneral chaje enterè, sa ki ajoute yon depans kontinyèl sou pozisyon an, e koutye yo mande pou w kenbe yon nivo minimòm ekite (valè ki pou ou nèt) nan kont lan — si valè kont lan desann twòp, sa ka lakòz yon margin call (apèl maj), pwochen leson an ap kouvri sa.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè gen $10,000 an kach e li itilize maj pou l achte $20,000 aksyon (li prete lòt $10,000 yo). Si aksyon an monte 10%, pozisyon an genyen $2,000 — yon rannman 20% sou $10,000 orijinal envestisè a, pa 10%. Si okontrè aksyon an desann 10%, pozisyon an pèdi $2,000 — yon pèt 20% sou $10,000 orijinal la, e envestisè a toujou dwe tout $10,000 li te prete a kèlkeswa nouvo valè aksyon an, ki pi ba.
+[EGZANP ILISTRATIF] Yon envestisè gen $10,000 an kach e li itilize maj pou l achte $20,000 aksyon (li prete lòt $10,000 yo). Si aksyon an monte 10%, pozisyon an genyen $2,000 — yon rannman 20% sou $10,000 orijinal envestisè a, pa 10%. Si okontrè aksyon an desann 10%, pozisyon an pèdi $2,000 — yon pèt 20% sou $10,000 orijinal la, e envestisè a toujou dwe tout $10,000 li te prete a kèlkeswa nouvo valè aksyon an, ki pi ba.
 
 ## Egzamen pratik
 

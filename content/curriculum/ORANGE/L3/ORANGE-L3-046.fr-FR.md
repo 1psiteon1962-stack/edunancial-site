@@ -24,7 +24,7 @@ source_locale: "en-US"
 
 ## Contenu principal
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Imagine qu'un changement soudain du comportement des clients — peut-être causé par un ralentissement économique général, un changement dans les priorités des clients ou un nouveau concurrent perturbateur — fait chuter fortement les taux de conversion et rend les clients existants nettement plus sensibles aux prix, le tout en peu de temps. C'est un scénario hypothétique servant de test de résistance, et non une prédiction sur un événement ou un marché réels précis.
+[SCÉNARIO HYPOTHÉTIQUE — HYPOTHÈSE, PAS UN FAIT VÉRIFIÉ] Imagine qu'un changement soudain du comportement des clients — peut-être causé par un ralentissement économique général, un changement dans les priorités des clients ou un nouveau concurrent perturbateur — fait chuter fortement les taux de conversion et rend les clients existants nettement plus sensibles aux prix, le tout en peu de temps. C'est un scénario hypothétique servant de test de résistance, et non une prédiction sur un événement ou un marché réels précis.
 
 Avant de lire l'exemple pratique, réfléchis-y par toi-même : qu'arriverait-il à ton ratio CAC/valeur à vie du client (LTV) si les taux de conversion baissaient? Qu'arriverait-il à ta prévision de ventes, construite sur des hypothèses de conversion historiques (leçon 3, leçon 15)? Si les clients deviennent plus sensibles aux prix, qu'est-ce que ça fait aux calculs de marge de la leçon 9 si tu es tenté d'offrir des rabais en réaction? Et qu'est-ce que ça ferait à ton taux d'attrition (leçon 31), étant donné que les clients existants sont aussi touchés, et pas seulement les nouveaux clients potentiels?
 

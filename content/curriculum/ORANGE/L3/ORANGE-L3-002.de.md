@@ -32,7 +32,7 @@ Bevor du weitermachst: Wenn ein Konkurrent seine Preise plötzlich um 20 % senkt
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen legt seinen Preis vor allem danach fest, was sich im Vergleich zur Konkurrenz „richtig anfühlt“, ohne zuerst seine eigene Bruttomarge bei diesem Preis zu berechnen. [ASSUMPTION] Die Absatzzahlen sehen mehrere Monate lang gut aus und erwecken den Eindruck einer erfolgreichen Preisstrategie – doch ein genauerer Blick auf die tatsächliche Marge zeigt, dass das Unternehmen mit jedem Verkauf kaum mehr als seine direkten Kosten deckt und fast nichts für Gemeinkosten, Marketingausgaben oder einen Puffer für schwächere Zeiten übrig bleibt. Die Preisgestaltung hat nach einem Marketingmaßstab (Menge) „funktioniert“, nach einem finanziellen Maßstab (Marge) aber unbemerkt versagt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen legt seinen Preis vor allem danach fest, was sich im Vergleich zur Konkurrenz „richtig anfühlt“, ohne zuerst seine eigene Bruttomarge bei diesem Preis zu berechnen. [ANNAHME] Die Absatzzahlen sehen mehrere Monate lang gut aus und erwecken den Eindruck einer erfolgreichen Preisstrategie – doch ein genauerer Blick auf die tatsächliche Marge zeigt, dass das Unternehmen mit jedem Verkauf kaum mehr als seine direkten Kosten deckt und fast nichts für Gemeinkosten, Marketingausgaben oder einen Puffer für schwächere Zeiten übrig bleibt. Die Preisgestaltung hat nach einem Marketingmaßstab (Menge) „funktioniert“, nach einem finanziellen Maßstab (Marge) aber unbemerkt versagt.
 
 ## Übungsquiz
 1. Was bestimmt ein Preis direkt, in Verbindung mit dem BLAUEN Lernpfad?

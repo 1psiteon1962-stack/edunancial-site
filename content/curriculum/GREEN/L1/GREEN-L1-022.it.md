@@ -34,11 +34,11 @@ La soluzione comune sono gli acconti, spesso trimestrali. Stimi quanto guadagner
 
 Non pagare le rate può comportare sanzioni, anche se paghi tutto alla fine. Un'abitudine pratica è mettere una percentuale di ogni pagamento ricevuto su un conto solo per le imposte. Così il denaro c'è quando la rata scade.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Giulia è fotografa autonoma. Riceve $3.000 da un cliente. Può spendere tutto?
 

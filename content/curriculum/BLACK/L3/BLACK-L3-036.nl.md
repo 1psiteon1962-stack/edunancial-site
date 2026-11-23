@@ -30,7 +30,7 @@ Welke van deze drie richtingen – naar boven, naar beneden of opzij – krijgt 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider investeert veel in het goed managen van zijn directe team, met een sterke moraal en een duidelijke koers, maar verwaarloost het actief onderhouden van relaties met leidinggevenden van collega-afdelingen. [ASSUMPTION] Als een belangrijk afdelingsoverstijgend initiatief afstemming vraagt die deze leider niet heeft opgebouwd, wordt de uitstekende prestatie van het team ondermijnd door slechte afstemming opzij – wat laat zien waarom alleen naar beneden managen, hoe goed ook uitgevoerd, niet genoeg is als je niet ook bewust de relaties opzij onderhoudt die invloed hebben op resultaten van de organisatie buiten de zeggenschap van één team.
+[ILLUSTRATIEF VOORBEELD] Een leider investeert veel in het goed managen van zijn directe team, met een sterke moraal en een duidelijke koers, maar verwaarloost het actief onderhouden van relaties met leidinggevenden van collega-afdelingen. [AANNAME] Als een belangrijk afdelingsoverstijgend initiatief afstemming vraagt die deze leider niet heeft opgebouwd, wordt de uitstekende prestatie van het team ondermijnd door slechte afstemming opzij – wat laat zien waarom alleen naar beneden managen, hoe goed ook uitgevoerd, niet genoeg is als je niet ook bewust de relaties opzij onderhoudt die invloed hebben op resultaten van de organisatie buiten de zeggenschap van één team.
 
 ## Oefenquiz
 

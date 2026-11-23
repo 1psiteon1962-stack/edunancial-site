@@ -24,13 +24,13 @@ Ao final desta lição, você será capaz de:
 
 A Lição 21 discutiu a falta de rendimento do ouro como custo de oportunidade. Aqui está um custo relacionado e adicional, específico de ter uma versão **física** e tangível de um ativo como o ouro, em vez de um equivalente em papel ou digital (uma diferença aprofundada na próxima lição): a posse física traz custos reais e contínuos que um ativo puramente financeiro — uma ação, um título ou até um direito em papel sobre o ouro — simplesmente não tem.
 
-[VERIFIED FACT] Esses custos geralmente incluem a guarda segura (um cofre de banco, um cofre em casa ou um depósito profissional, cada um com o próprio custo e as próprias vantagens e desvantagens) e o seguro contra roubo, perda ou dano — duas despesas reais e contínuas que reduzem o retorno líquido efetivo do ativo físico, além do custo de oportunidade já discutido na Lição 21.
+[FATO VERIFICADO] Esses custos geralmente incluem a guarda segura (um cofre de banco, um cofre em casa ou um depósito profissional, cada um com o próprio custo e as próprias vantagens e desvantagens) e o seguro contra roubo, perda ou dano — duas despesas reais e contínuas que reduzem o retorno líquido efetivo do ativo físico, além do custo de oportunidade já discutido na Lição 21.
 
 É por isso que uma avaliação honesta do custo total real de ter ouro físico precisa incluir essas despesas contínuas, e não só a valorização ou a desvalorização do próprio metal — dois investidores com o que parece ser a mesma quantidade de ouro podem ter retornos líquidos efetivos bem diferentes, dependendo de quanto cada um gasta com a guarda e o seguro do próprio ouro.
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma investidora guarda ouro físico em um depósito de segurança profissional, pagando uma taxa anual pela guarda e um prêmio de seguro separado contra roubo ou perda. [ASSUMPTION] Com o tempo, esses custos contínuos, embora modestos um a um, reduzem bastante o retorno líquido efetivo dela com o ouro em comparação com a valorização bruta do preço do metal — um cálculo honesto do desempenho real do investimento dela precisa descontar esses custos reais e contínuos, e não só acompanhar o movimento do preço do metal que aparece nas manchetes.
+[EXEMPLO ILUSTRATIVO] Uma investidora guarda ouro físico em um depósito de segurança profissional, pagando uma taxa anual pela guarda e um prêmio de seguro separado contra roubo ou perda. [SUPOSIÇÃO] Com o tempo, esses custos contínuos, embora modestos um a um, reduzem bastante o retorno líquido efetivo dela com o ouro em comparação com a valorização bruta do preço do metal — um cálculo honesto do desempenho real do investimento dela precisa descontar esses custos reais e contínuos, e não só acompanhar o movimento do preço do metal que aparece nas manchetes.
 
 ## Teste de prática
 

@@ -30,7 +30,7 @@ Il consiglio di amministrazione della tua organizzazione (o la struttura di cont
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Il consiglio di amministrazione di un'azienda approva sistematicamente ogni proposta della leadership esecutiva senza obiezioni sostanziali né un vero esame indipendente, vantandosi di riunioni tranquille e armoniose. [ASSUMPTION] Questa apparente armonia riflette in realtà un fallimento della governance, e non un successo: secondo la discussione del percorso PURPLE, il dovere fiduciario del consiglio è verso l'organizzazione e i suoi portatori di interessi, e un consiglio che non esercita mai il vero confronto critico descritto nella Lezione 10 non svolge la funzione di controllo per cui esiste, per quanto comodo sembri il rapporto con la leadership esecutiva.
+[ESEMPIO ILLUSTRATIVO] Il consiglio di amministrazione di un'azienda approva sistematicamente ogni proposta della leadership esecutiva senza obiezioni sostanziali né un vero esame indipendente, vantandosi di riunioni tranquille e armoniose. [IPOTESI] Questa apparente armonia riflette in realtà un fallimento della governance, e non un successo: secondo la discussione del percorso PURPLE, il dovere fiduciario del consiglio è verso l'organizzazione e i suoi portatori di interessi, e un consiglio che non esercita mai il vero confronto critico descritto nella Lezione 10 non svolge la funzione di controllo per cui esiste, per quanto comodo sembri il rapporto con la leadership esecutiva.
 
 ## Quiz di esercitazione
 

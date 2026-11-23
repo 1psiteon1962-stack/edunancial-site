@@ -41,7 +41,6 @@ Recognising his supervisor consistently prefers concise, data-focused updates ra
    b) It illustrates that genuine influence, not formal authority, can be exercised even in the upward organisational direction
    c) Influence only applies in the downward organisational direction, never upward
    d) Managing up requires formal authority to be effective
-2. (renumbered)
 3. True or False: Leadership skills like trust-building and clear communication have no useful application when directed toward a supervisor rather than a subordinate.
 4. Why did the team member adapt his communication style to his supervisor's preferences?
    a) He wanted his supervisor to adapt entirely to his own default style instead

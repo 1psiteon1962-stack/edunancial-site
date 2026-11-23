@@ -30,7 +30,7 @@ Choisis une décision que tu défends ou continues d'appuyer en ce moment. Appli
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un leader continue de défendre une décision stratégique qu'il a lui-même défendue avec conviction, malgré des preuves de plus en plus nombreuses qu'elle ne fonctionne pas, en écho aux schémas d'ego et de coûts irrécupérables de la leçon 17. [ASSUMPTION] En appliquant la technique de cette leçon — se demander ce qu'il recommanderait si un autre leader avait pris exactement cette décision et qu'il l'évaluait de façon neuve —, ce leader trouve beaucoup plus difficile de justifier la poursuite de la stratégie qui échoue uniquement selon ses mérites actuels, ce qui crée assez de distance psychologique par rapport à son attachement personnel à la décision initiale pour voir la situation plus clairement et prendre une décision plus objective.
+[EXEMPLE ILLUSTRATIF] Un leader continue de défendre une décision stratégique qu'il a lui-même défendue avec conviction, malgré des preuves de plus en plus nombreuses qu'elle ne fonctionne pas, en écho aux schémas d'ego et de coûts irrécupérables de la leçon 17. [HYPOTHÈSE] En appliquant la technique de cette leçon — se demander ce qu'il recommanderait si un autre leader avait pris exactement cette décision et qu'il l'évaluait de façon neuve —, ce leader trouve beaucoup plus difficile de justifier la poursuite de la stratégie qui échoue uniquement selon ses mérites actuels, ce qui crée assez de distance psychologique par rapport à son attachement personnel à la décision initiale pour voir la situation plus clairement et prendre une décision plus objective.
 
 ## Quiz de pratique
 

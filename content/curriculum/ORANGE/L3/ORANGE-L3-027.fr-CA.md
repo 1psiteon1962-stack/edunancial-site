@@ -32,7 +32,7 @@ Avant de lancer une poussée marketing agressive dans une nouvelle région géog
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise lance une campagne marketing délibérée et réussie qui cible un nouvel État précis, ce qui génère une forte croissance des ventes sur place en quelques mois. [ASSUMPTION] Cette même croissance des ventes, directement alimentée par la campagne marketing, dépasse le seuil du lien économique de l'État pour la perception de la taxe de vente, abordé dans le parcours GREEN — mais comme le marketing et la conformité fiscale ne se coordonnaient pas sur cette expansion, l'entreprise ne se rend compte qu'elle doit commencer à percevoir et à remettre la taxe de vente dans cet État que bien après que l'obligation a déjà commencé, ce qui crée un problème de conformité rétroactif qu'une simple vérification avant l'expansion aurait évité.
+[EXEMPLE ILLUSTRATIF] Une entreprise lance une campagne marketing délibérée et réussie qui cible un nouvel État précis, ce qui génère une forte croissance des ventes sur place en quelques mois. [HYPOTHÈSE] Cette même croissance des ventes, directement alimentée par la campagne marketing, dépasse le seuil du lien économique de l'État pour la perception de la taxe de vente, abordé dans le parcours GREEN — mais comme le marketing et la conformité fiscale ne se coordonnaient pas sur cette expansion, l'entreprise ne se rend compte qu'elle doit commencer à percevoir et à remettre la taxe de vente dans cet État que bien après que l'obligation a déjà commencé, ce qui crée un problème de conformité rétroactif qu'une simple vérification avant l'expansion aurait évité.
 
 ## Quiz de pratique
 

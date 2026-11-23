@@ -30,7 +30,7 @@ Wat zou je naast het aantal nieuwe klanten willen volgen om te weten of je wervi
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming viert sterke groei van maand tot maand in nieuwe klanten, aangedreven door een agressieve wervingscampagne. [ASSUMPTION] Onder die groei daalt haar klantbehoudpercentage al twee kwartalen ongemerkt, waardoor de werkelijke levensduurwaarde per klant lager is dan het cijfer dat oorspronkelijk werd gebruikt om de wervingsuitgaven te rechtvaardigen. De verhouding tussen CAC en LTV uit het BLUE-traject is stilletjes verslechterd, ook al ziet het groeidashboard er volledig positief uit. Dit laat zien waarom klantbehoud naast werving moet worden gevolgd, en niet als een aparte, ondergeschikte maatstaf mag worden behandeld.
+[ILLUSTRATIEF VOORBEELD] Een onderneming viert sterke groei van maand tot maand in nieuwe klanten, aangedreven door een agressieve wervingscampagne. [AANNAME] Onder die groei daalt haar klantbehoudpercentage al twee kwartalen ongemerkt, waardoor de werkelijke levensduurwaarde per klant lager is dan het cijfer dat oorspronkelijk werd gebruikt om de wervingsuitgaven te rechtvaardigen. De verhouding tussen CAC en LTV uit het BLUE-traject is stilletjes verslechterd, ook al ziet het groeidashboard er volledig positief uit. Dit laat zien waarom klantbehoud naast werving moet worden gevolgd, en niet als een aparte, ondergeschikte maatstaf mag worden behandeld.
 
 ## Oefenquiz
 

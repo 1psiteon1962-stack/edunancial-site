@@ -30,7 +30,7 @@ Voordat je een groeisucces van marketing viert: heb je bevestigd dat de unit eco
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een marketingteam viert een succesvol kwartaal met snelle klantgroei, aangedreven door een agressieve, dure wervingscampagne. [ASSUMPTION] Een nadere blik op de unit economics achter deze specifieke groei laat zien dat elke nieuwe klant, als de wervingskosten en de verwachte levensduurwaarde volledig worden meegerekend, in werkelijkheid een nettoverlies voor de onderneming is. Dit "succesvolle" groeikwartaal heeft dus, precies zoals het BLUE-traject waarschuwde, het onderliggende financiële probleem van de onderneming versneld in plaats van opgelost, ook al zag elk marketingcijfer aan de oppervlakte er positief uit.
+[ILLUSTRATIEF VOORBEELD] Een marketingteam viert een succesvol kwartaal met snelle klantgroei, aangedreven door een agressieve, dure wervingscampagne. [AANNAME] Een nadere blik op de unit economics achter deze specifieke groei laat zien dat elke nieuwe klant, als de wervingskosten en de verwachte levensduurwaarde volledig worden meegerekend, in werkelijkheid een nettoverlies voor de onderneming is. Dit "succesvolle" groeikwartaal heeft dus, precies zoals het BLUE-traject waarschuwde, het onderliggende financiële probleem van de onderneming versneld in plaats van opgelost, ook al zag elk marketingcijfer aan de oppervlakte er positief uit.
 
 ## Oefenquiz
 

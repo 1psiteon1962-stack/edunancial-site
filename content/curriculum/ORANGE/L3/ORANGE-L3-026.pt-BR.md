@@ -30,7 +30,7 @@ A sua estratégia atual tenta agradar a todo mundo, ou atende de propósito, de 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio tenta, no começo, agradar à base de clientes mais ampla possível, competindo com muitos concorrentes maiores e com mais recursos no próprio terreno amplo deles. [ASSUMPTION] Ao mudar para uma estratégia de nicho intencional — focando especificamente em um segmento de clientes menor, com necessidades próprias que os concorrentes amplos atendem mal —, o negócio constrói conhecimento profundo e fidelidade nesse segmento, criando uma posição defensável que um concorrente muito maior e generalista teria dificuldade de copiar sem diluir o próprio posicionamento no mercado amplo, retomando a ênfase da trilha BLUE em um SOM crível e realista, em vez de um TAM impressionante, mas irreal.
+[EXEMPLO ILUSTRATIVO] Um negócio tenta, no começo, agradar à base de clientes mais ampla possível, competindo com muitos concorrentes maiores e com mais recursos no próprio terreno amplo deles. [SUPOSIÇÃO] Ao mudar para uma estratégia de nicho intencional — focando especificamente em um segmento de clientes menor, com necessidades próprias que os concorrentes amplos atendem mal —, o negócio constrói conhecimento profundo e fidelidade nesse segmento, criando uma posição defensável que um concorrente muito maior e generalista teria dificuldade de copiar sem diluir o próprio posicionamento no mercado amplo, retomando a ênfase da trilha BLUE em um SOM crível e realista, em vez de um TAM impressionante, mas irreal.
 
 ## Teste de prática
 

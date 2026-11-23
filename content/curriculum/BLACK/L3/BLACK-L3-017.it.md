@@ -30,7 +30,7 @@ C'è una strategia o una decisione che continui a sostenere, almeno in parte, pe
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader sostiene pubblicamente una specifica direzione strategica e, mentre si accumulano le prove che non funziona, continua a difenderla e finanziarla invece di riconoscere l'errore. [ASSUMPTION] Come nell'avvertenza del percorso GOLD sul ragionamento non falsificabile, questo leader tratta ogni prova contraria come un motivo per aggiustare la tattica invece che per riconsiderare la strategia di fondo, e continua a impegnare risorse dell'organizzazione in una direzione fallimentare proprio per evitare il disagio personale di ammettere l'errore. È un costo finanziario diretto e misurabile creato dall'ego, e non dai meriti della strategia.
+[ESEMPIO ILLUSTRATIVO] Un leader sostiene pubblicamente una specifica direzione strategica e, mentre si accumulano le prove che non funziona, continua a difenderla e finanziarla invece di riconoscere l'errore. [IPOTESI] Come nell'avvertenza del percorso GOLD sul ragionamento non falsificabile, questo leader tratta ogni prova contraria come un motivo per aggiustare la tattica invece che per riconsiderare la strategia di fondo, e continua a impegnare risorse dell'organizzazione in una direzione fallimentare proprio per evitare il disagio personale di ammettere l'errore. È un costo finanziario diretto e misurabile creato dall'ego, e non dai meriti della strategia.
 
 ## Quiz di esercitazione
 

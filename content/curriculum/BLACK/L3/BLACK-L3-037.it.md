@@ -30,7 +30,7 @@ Quanta parte della tua rete professionale è stata costruita in modo preventivo,
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader alle prese con una decisione strategica difficile e poco familiare si rivolge a un pari grado con cui mantiene da anni un rapporto autentico e continuo, e riceve un consiglio franco e ben informato, fondato su una fiducia reale e sulla conoscenza del contesto. [ASSUMPTION] Un altro leader, davanti a una decisione simile, non avendo mai investito nella costruzione di relazioni professionali autentiche nei periodi più tranquilli, si ritrova senza nessuno a cui chiedere questo tipo di prospettiva esterna franca proprio quando sarebbe più preziosa. Questo mostra perché una rete è una risorsa per ridurre i rischi che, come le altre risorse trattate in tutto questo programma, richiede un investimento preventivo molto prima del momento in cui serve davvero.
+[ESEMPIO ILLUSTRATIVO] Un leader alle prese con una decisione strategica difficile e poco familiare si rivolge a un pari grado con cui mantiene da anni un rapporto autentico e continuo, e riceve un consiglio franco e ben informato, fondato su una fiducia reale e sulla conoscenza del contesto. [IPOTESI] Un altro leader, davanti a una decisione simile, non avendo mai investito nella costruzione di relazioni professionali autentiche nei periodi più tranquilli, si ritrova senza nessuno a cui chiedere questo tipo di prospettiva esterna franca proprio quando sarebbe più preziosa. Questo mostra perché una rete è una risorsa per ridurre i rischi che, come le altre risorse trattate in tutto questo programma, richiede un investimento preventivo molto prima del momento in cui serve davvero.
 
 ## Quiz di esercitazione
 

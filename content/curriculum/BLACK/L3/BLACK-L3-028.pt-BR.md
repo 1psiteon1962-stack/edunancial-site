@@ -30,7 +30,7 @@ O que os dados de rotatividade da sua organização, e especificamente o que sur
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma organização percebe, por vários meses, uma rotatividade crescente entre as pessoas de melhor desempenho, mas não investiga a causa de fundo e prefere esperar para ver se as métricas gerais de produtividade caem antes de levar a tendência a sério. [ASSUMPTION] Quando a produtividade finalmente cai de forma visível — o indicador consequente enfim alcançando o problema —, o problema de liderança de fundo que causa a rotatividade já teve meses para piorar e afetar um grupo maior de funcionários, exatamente o padrão de reação tardia contra o qual a trilha ORANGE alertou no caso do cancelamento de clientes, aplicado aqui à permanência dos funcionários.
+[EXEMPLO ILUSTRATIVO] Uma organização percebe, por vários meses, uma rotatividade crescente entre as pessoas de melhor desempenho, mas não investiga a causa de fundo e prefere esperar para ver se as métricas gerais de produtividade caem antes de levar a tendência a sério. [SUPOSIÇÃO] Quando a produtividade finalmente cai de forma visível — o indicador consequente enfim alcançando o problema —, o problema de liderança de fundo que causa a rotatividade já teve meses para piorar e afetar um grupo maior de funcionários, exatamente o padrão de reação tardia contra o qual a trilha ORANGE alertou no caso do cancelamento de clientes, aplicado aqui à permanência dos funcionários.
 
 ## Teste de prática
 

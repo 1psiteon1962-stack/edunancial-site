@@ -30,7 +30,7 @@ Se guidi, o pensi di guidare, un team in un contesto culturale o economico diver
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader abituato a uno stile di riscontro diretto e informale in un contesto culturale inizia a guidare un team in un altro contesto, dove un riscontro diretto in pubblico è in genere considerato irrispettoso e ci si aspetta un approccio più indiretto e riservato. [ASSUMPTION] Continuare ad applicare lo stile di riscontro diretto a cui è abituato, senza adattarlo, crea vere tensioni e danneggia la fiducia del nuovo team. Questo mostra perché esportare uno stile di gestione senza modifiche, per quanto ben intenzionato o efficace nel suo contesto d'origine, non riflette il vero rispetto per i dipendenti sottolineato dal tema più ampio della responsabilità del datore di lavoro della Lezione 14.
+[ESEMPIO ILLUSTRATIVO] Un leader abituato a uno stile di riscontro diretto e informale in un contesto culturale inizia a guidare un team in un altro contesto, dove un riscontro diretto in pubblico è in genere considerato irrispettoso e ci si aspetta un approccio più indiretto e riservato. [IPOTESI] Continuare ad applicare lo stile di riscontro diretto a cui è abituato, senza adattarlo, crea vere tensioni e danneggia la fiducia del nuovo team. Questo mostra perché esportare uno stile di gestione senza modifiche, per quanto ben intenzionato o efficace nel suo contesto d'origine, non riflette il vero rispetto per i dipendenti sottolineato dal tema più ampio della responsabilità del datore di lavoro della Lezione 14.
 
 ## Quiz di esercitazione
 

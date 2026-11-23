@@ -30,7 +30,7 @@ Op welke informele, aanwezigheidsgebonden gewoonten heeft je manier van leidingg
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die gewend is de stemming in het team aan te voelen en kleine problemen op te vangen via informele observatie ter plekke, gaat leidinggeven aan een volledig team op afstand en blijft op dezelfde informele aanpak vertrouwen. [ASSUMPTION] Zonder bewuste systemen ter vervanging van wat fysieke aanwezigheid eerder bood – gestructureerde, regelmatige check-ins, expliciete documentatie, duidelijke communicatieafspraken – mist deze leider signalen die hij eerder vanzelf zou hebben opgevangen. Dit laat zien waarom leidinggeven op afstand meer bewuste structuur vraagt, en niet gewoon een lossere versie van leidinggeven ter plekke, in lijn met het systeemprincipe uit Les 7, specifiek toegepast op verspreide teams.
+[ILLUSTRATIEF VOORBEELD] Een leider die gewend is de stemming in het team aan te voelen en kleine problemen op te vangen via informele observatie ter plekke, gaat leidinggeven aan een volledig team op afstand en blijft op dezelfde informele aanpak vertrouwen. [AANNAME] Zonder bewuste systemen ter vervanging van wat fysieke aanwezigheid eerder bood – gestructureerde, regelmatige check-ins, expliciete documentatie, duidelijke communicatieafspraken – mist deze leider signalen die hij eerder vanzelf zou hebben opgevangen. Dit laat zien waarom leidinggeven op afstand meer bewuste structuur vraagt, en niet gewoon een lossere versie van leidinggeven ter plekke, in lijn met het systeemprincipe uit Les 7, specifiek toegepast op verspreide teams.
 
 ## Oefenquiz
 

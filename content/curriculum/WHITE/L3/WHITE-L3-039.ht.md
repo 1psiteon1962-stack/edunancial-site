@@ -26,7 +26,7 @@ Lè w fin fè leson sa a, w ap kapab:
 
 ## Kontni prensipal
 
-Anpil sistèm taks fè diferans ant benefis sou envestisman ou kenbe pou yon peryòd kout konpare ak yon peryòd long anvan ou vann yo, e yo souvan aplike diferan to taks pou chak kategori. [VERIFIED FACT] Limit peryòd espesifik yo ak to taks ki aplike yo varye anpil dapre peyi ak rejyon e se lwa taks espesifik ki fikse yo — li itil pou w konnen konsèp la an jeneral, men ou dwe verifye chif egzak yo pou yon sitiyasyon ak yon peyi espesifik.
+Anpil sistèm taks fè diferans ant benefis sou envestisman ou kenbe pou yon peryòd kout konpare ak yon peryòd long anvan ou vann yo, e yo souvan aplike diferan to taks pou chak kategori. [FÈ VERIFYE] Limit peryòd espesifik yo ak to taks ki aplike yo varye anpil dapre peyi ak rejyon e se lwa taks espesifik ki fikse yo — li itil pou w konnen konsèp la an jeneral, men ou dwe verifye chif egzak yo pou yon sitiyasyon ak yon peyi espesifik.
 
 Men "poukisa" diferans sa a souvan egziste: anpil sistèm taks fèt, omwen an pati, pou ankouraje moun kenbe envestisman pou pi lontan olye y ap achte e vann souvan nan kout tèm, souvan lè yo mete yon to taks ki pi wo sou benefis envestisman yo kenbe pou yon peryòd kout pase sou benefis envestisman yo kenbe pi lontan.
 
@@ -34,7 +34,7 @@ Sa kreye yon vrè motivasyon, ki fèt espre, ki merite pou w konprann: yon enves
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè ap konsidere vann yon envestisman ki pran anpil valè, e li toupre rive nan yon limit peryòd ki pi long ki, nan peyi l, ta aplike yon to taks ki pi favorab sou benefis la. [ASSUMPTION] Si jan li wè avni pozisyon an an jeneral pa chanje yon fason ki enpòtan, tann yon ti peryòd anplis pou depase limit sa a ta ka bay yon taks total ki pi ba sou vant la finalman — byenke li ta dwe peze sa kont opinyon reyèl li sou avni envestisman an nan kout tèm ak risk li, pa trete l kòm yon bagay ki otomatikman pase devan konsiderasyon sa yo.
+[EGZANP ILISTRATIF] Yon envestisè ap konsidere vann yon envestisman ki pran anpil valè, e li toupre rive nan yon limit peryòd ki pi long ki, nan peyi l, ta aplike yon to taks ki pi favorab sou benefis la. [SIPOZISYON] Si jan li wè avni pozisyon an an jeneral pa chanje yon fason ki enpòtan, tann yon ti peryòd anplis pou depase limit sa a ta ka bay yon taks total ki pi ba sou vant la finalman — byenke li ta dwe peze sa kont opinyon reyèl li sou avni envestisman an nan kout tèm ak risk li, pa trete l kòm yon bagay ki otomatikman pase devan konsiderasyon sa yo.
 
 ## Egzamen pratik
 

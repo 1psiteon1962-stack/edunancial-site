@@ -30,7 +30,7 @@ Olhe para as métricas que o seu time de marketing apresenta hoje como prova de 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma campanha de marketing gera um número muito alto de impressões e de engajamento nas redes sociais, apresentado internamente como um sucesso evidente. [ASSUMPTION] Uma análise mais cuidadosa mostra que essa atenção se transformou em pouquíssimos clientes pagantes reais, e os poucos que converteram tiveram uma taxa de cancelamento bem acima da média — as métricas de vaidade pareciam impressionantes, mas os resultados reais do negócio que elas deveriam representar (clientes lucrativos e retidos) nunca aconteceram, o que mostra por que o quanto uma métrica é impressionante, por si só, não diz nada sobre o valor real dela para o negócio.
+[EXEMPLO ILUSTRATIVO] Uma campanha de marketing gera um número muito alto de impressões e de engajamento nas redes sociais, apresentado internamente como um sucesso evidente. [SUPOSIÇÃO] Uma análise mais cuidadosa mostra que essa atenção se transformou em pouquíssimos clientes pagantes reais, e os poucos que converteram tiveram uma taxa de cancelamento bem acima da média — as métricas de vaidade pareciam impressionantes, mas os resultados reais do negócio que elas deveriam representar (clientes lucrativos e retidos) nunca aconteceram, o que mostra por que o quanto uma métrica é impressionante, por si só, não diz nada sobre o valor real dela para o negócio.
 
 ## Teste de prática
 

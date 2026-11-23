@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Stel je voor dat een overheid onder flinke begrotingsdruk brede wetgeving invoert die de tarieven van de inkomstenbelasting in de meeste schijven duidelijk verhoogt, met ingang van toekomstige jaren. Dit is een hypothetisch stresstestscenario, geen voorspelling over een specifiek echt beleid of land.
+[HYPOTHETISCH SCENARIO — AANNAME, GEEN GEVERIFIEERD FEIT] Stel je voor dat een overheid onder flinke begrotingsdruk brede wetgeving invoert die de tarieven van de inkomstenbelasting in de meeste schijven duidelijk verhoogt, met ingang van toekomstige jaren. Dit is een hypothetisch stresstestscenario, geen voorspelling over een specifiek echt beleid of land.
 
 In dit hypothetische scenario verschuift de afweging tussen Traditional en Roth uit Les 12 flink. Belastingbetalers die de Traditional-aftrek namen tegen de lagere tarieven van nu, met het plan om later op te nemen en dan belasting te betalen, krijgen bij die toekomstige opname nu te maken met de nieuwe, hogere tarieven – een minder gunstige uitkomst dan verwacht toen ze inlegden. Belastingbetalers die juist voor Roth-rekeningen kozen en vooraf belasting betaalden tegen de lagere tarieven van nu, staan achteraf gezien relatief beter, omdat hun toekomstige opnames die aan de voorwaarden voldoen onbelast blijven, ondanks de nieuwe hogere tarieven.
 

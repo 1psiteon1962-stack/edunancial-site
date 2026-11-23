@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-Uma **marca** geralmente protege um sinal de identificação — um nome, um logotipo ou um sinal parecido usado para diferenciar os produtos ou serviços de um negócio no mercado. Este é o "porquê" de a proteção da marca geralmente exigir uso contínuo e efetivo, ao contrário de algumas outras formas de propriedade intelectual: [VERIFIED FACT] o direito de marcas, de forma geral, existe para proteger os consumidores de confusão no mercado real, e uma marca que não está sendo de fato usada no comércio não cumpre essa função de proteção de fundo, por mais válido que tenha sido o registro dela em algum momento anterior.
+Uma **marca** geralmente protege um sinal de identificação — um nome, um logotipo ou um sinal parecido usado para diferenciar os produtos ou serviços de um negócio no mercado. Este é o "porquê" de a proteção da marca geralmente exigir uso contínuo e efetivo, ao contrário de algumas outras formas de propriedade intelectual: [FATO VERIFICADO] o direito de marcas, de forma geral, existe para proteger os consumidores de confusão no mercado real, e uma marca que não está sendo de fato usada no comércio não cumpre essa função de proteção de fundo, por mais válido que tenha sido o registro dela em algum momento anterior.
 
 É por isso que muitas jurisdições geralmente reconhecem um conceito às vezes chamado de **abandono** (ou caducidade por falta de uso): se o titular de uma marca deixar de usá-la no comércio por um período longo e significativo, sem intenção de voltar a usá-la, os direitos de marca geralmente podem ser perdidos — um negócio não pode simplesmente registrar uma marca uma vez e presumir uma proteção permanente e ilimitada, independentemente de usar de fato essa marca daqui para a frente.
 
@@ -30,7 +30,7 @@ Isso é bem diferente, por exemplo, de uma patente (vista na próxima lição), 
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio registra uma marca para o próprio nome comercial e usa essa marca de forma ativa no comércio, mantendo os direitos de marca por meio do uso contínuo e real. [ASSUMPTION] Se esse mesmo negócio depois encerrar a linha de produtos específica ligada à marca, deixar de usar a marca de qualquer forma comercial por um período longo e significativo e não tiver nenhuma intenção real de voltar a usá-la, um tribunal pode concluir que a marca foi abandonada — o que significa que os direitos de marca podem ser perdidos e que outro negócio pode, possivelmente, ficar livre para adotar uma marca parecida, apesar de o registro original ter sido totalmente válido na época em que foi obtido.
+[EXEMPLO ILUSTRATIVO] Um negócio registra uma marca para o próprio nome comercial e usa essa marca de forma ativa no comércio, mantendo os direitos de marca por meio do uso contínuo e real. [SUPOSIÇÃO] Se esse mesmo negócio depois encerrar a linha de produtos específica ligada à marca, deixar de usar a marca de qualquer forma comercial por um período longo e significativo e não tiver nenhuma intenção real de voltar a usá-la, um tribunal pode concluir que a marca foi abandonada — o que significa que os direitos de marca podem ser perdidos e que outro negócio pode, possivelmente, ficar livre para adotar uma marca parecida, apesar de o registro original ter sido totalmente válido na época em que foi obtido.
 
 ## Teste de prática
 

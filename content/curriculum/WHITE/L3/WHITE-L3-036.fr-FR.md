@@ -26,7 +26,7 @@ summary: "Découvrez pourquoi le type de compte par lequel vous investissez peut
 
 ## Contenu principal
 
-De nombreux pays proposent certains types de comptes d'investissement, souvent associés à l'épargne retraite, qui offrent des avantages fiscaux précis, comme une croissance à imposition différée (on paie l'impôt plus tard, souvent à la retraite) ou une croissance exonérée d'impôt (sous certaines conditions précises). [VERIFIED FACT] Les types de comptes, les règles, les plafonds de versement et les traitements fiscaux disponibles varient considérablement d'un pays à l'autre et évoluent avec la législation ; les détails de chaque dispositif doivent donc être vérifiés directement et dépassent le cadre de cette leçon générale.
+De nombreux pays proposent certains types de comptes d'investissement, souvent associés à l'épargne retraite, qui offrent des avantages fiscaux précis, comme une croissance à imposition différée (on paie l'impôt plus tard, souvent à la retraite) ou une croissance exonérée d'impôt (sous certaines conditions précises). [FAIT VÉRIFIÉ] Les types de comptes, les règles, les plafonds de versement et les traitements fiscaux disponibles varient considérablement d'un pays à l'autre et évoluent avec la législation ; les détails de chaque dispositif doivent donc être vérifiés directement et dépassent le cadre de cette leçon générale.
 
 Voici « pourquoi » c'est un concept distinct du choix des investissements : exactement le même investissement sous-jacent (la même action ou le même fonds) peut donner un résultat après impôts sensiblement différent selon qu'il est détenu sur un compte imposable classique ou sur un compte offrant une forme d'avantage fiscal. C'est un niveau de décision totalement distinct du choix des investissements *à détenir* : il s'agit de savoir *où* (dans quel type de compte) ces investissements sont détenus.
 
@@ -34,7 +34,7 @@ C'est pourquoi les investisseurs expérimentés considèrent souvent le choix du
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Un investisseur a accès à un compte de retraite fiscalement avantageux offrant une croissance à imposition différée, ainsi qu'à un compte-titres imposable classique chez un courtier. [ASSUMPTION] Détenir le même investissement sur le compte fiscalement avantageux plutôt que sur le compte imposable pourrait donner un résultat après impôts sensiblement différent sur une longue période de détention, uniquement en raison de la différence de traitement fiscal, alors que l'investissement sous-jacent, sa performance et son risque sont identiques dans les deux cas. Cela montre pourquoi la décision du type de compte mérite une réflexion séparée et délibérée, distincte de la décision de choix des investissements elle-même.
+[EXEMPLE ILLUSTRATIF] Un investisseur a accès à un compte de retraite fiscalement avantageux offrant une croissance à imposition différée, ainsi qu'à un compte-titres imposable classique chez un courtier. [HYPOTHÈSE] Détenir le même investissement sur le compte fiscalement avantageux plutôt que sur le compte imposable pourrait donner un résultat après impôts sensiblement différent sur une longue période de détention, uniquement en raison de la différence de traitement fiscal, alors que l'investissement sous-jacent, sa performance et son risque sont identiques dans les deux cas. Cela montre pourquoi la décision du type de compte mérite une réflexion séparée et délibérée, distincte de la décision de choix des investissements elle-même.
 
 ## Quiz d'entraînement
 

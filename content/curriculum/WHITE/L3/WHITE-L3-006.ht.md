@@ -30,11 +30,11 @@ Leson 5 te prezante call ak put kòm paryaj sou direksyon: yon call (opsyon pou 
 
 Yon **straddle** konbine achte ni yon call ni yon put sou menm byen an, ak menm pri egzèsis ak menm dat ekspirasyon. Men "poukisa" sa chanje paryaj la: olye parye sou direksyon, yon straddle parye sou **gwosè mouvman an** — li fè pwofi si byen ki dèyè l la bouje anpil nan nenpòt direksyon, ase pou kouvri pri total de prim yo, e li pèdi valè si pri a rete plis oswa mwens plat, paske toude opsyon yo ta ekspire ak ti valè.
 
-[VERIFIED FACT] Paske yon straddle mande pou w achte de opsyon olye yon sèl, li koute plis davans pase yon sèl call oswa put — sa vle di byen ki dèyè l la bezwen bouje pi lwen, nan nenpòt direksyon, jis pou w rive kase egal (pa genyen, pa pèdi) sou pozisyon konbine a.
+[FÈ VERIFYE] Paske yon straddle mande pou w achte de opsyon olye yon sèl, li koute plis davans pase yon sèl call oswa put — sa vle di byen ki dèyè l la bezwen bouje pi lwen, nan nenpòt direksyon, jis pou w rive kase egal (pa genyen, pa pèdi) sou pozisyon konbine a.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè atann anons benefis k ap vini yon konpayi pral lakòz yon gwo balanse nan pri a, men li pa gen yon opinyon fò sou si se pral bon oswa move nouvèl. Olye li achte sèlman yon call (parye monte) oswa sèlman yon put (parye desann), li achte yon straddle — yon call ak yon put nan menm pri egzèsis la. [ASSUMPTION] Si aksyon an monte anpil apre anons benefis la, call la pran ase valè pou l plis pase kouvri pèt put la ak tout prim li te peye yo, sa ki bay yon pwofi. Si okontrè aksyon an desann anpil, put la fè menm travay la nan sans opoze. Men si aksyon an prèske pa bouje nan okenn direksyon, toude opsyon yo ka ekspire ak ti valè, e li pèdi pifò oswa tout prim konbine li te peye yo.
+[EGZANP ILISTRATIF] Yon envestisè atann anons benefis k ap vini yon konpayi pral lakòz yon gwo balanse nan pri a, men li pa gen yon opinyon fò sou si se pral bon oswa move nouvèl. Olye li achte sèlman yon call (parye monte) oswa sèlman yon put (parye desann), li achte yon straddle — yon call ak yon put nan menm pri egzèsis la. [SIPOZISYON] Si aksyon an monte anpil apre anons benefis la, call la pran ase valè pou l plis pase kouvri pèt put la ak tout prim li te peye yo, sa ki bay yon pwofi. Si okontrè aksyon an desann anpil, put la fè menm travay la nan sans opoze. Men si aksyon an prèske pa bouje nan okenn direksyon, toude opsyon yo ka ekspire ak ti valè, e li pèdi pifò oswa tout prim konbine li te peye yo.
 
 ## Egzamen pratik
 

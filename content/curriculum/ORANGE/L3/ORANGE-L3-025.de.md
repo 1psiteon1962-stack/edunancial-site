@@ -30,7 +30,7 @@ Mit wem vergleichen dich deine Kunden tatsächlich, wenn sie entscheiden, ob sie
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen nimmt an, dass seine Hauptwettbewerber andere Firmen mit einem technisch ähnlichen Produkt sind, und richtet Preise und Botschaften entsprechend aus. [ASSUMPTION] Eine Kundenbefragung zeigt, dass viele Kunden dieses Produkt tatsächlich mit einer anderen, breiteren Kategorie von Lösungen vergleichen, die denselben zugrunde liegenden Bedarf auf andere Weise erfüllen – die tatsächliche, von den Kunden wahrgenommene Wettbewerbergruppe des Unternehmens unterscheidet sich also von der angenommenen, und seine Preis- und Botschaftsstrategie, die auf die falsche Vergleichsgruppe ausgerichtet ist, verfehlt womöglich die Entscheidung, die Kunden tatsächlich treffen.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen nimmt an, dass seine Hauptwettbewerber andere Firmen mit einem technisch ähnlichen Produkt sind, und richtet Preise und Botschaften entsprechend aus. [ANNAHME] Eine Kundenbefragung zeigt, dass viele Kunden dieses Produkt tatsächlich mit einer anderen, breiteren Kategorie von Lösungen vergleichen, die denselben zugrunde liegenden Bedarf auf andere Weise erfüllen – die tatsächliche, von den Kunden wahrgenommene Wettbewerbergruppe des Unternehmens unterscheidet sich also von der angenommenen, und seine Preis- und Botschaftsstrategie, die auf die falsche Vergleichsgruppe ausgerichtet ist, verfehlt womöglich die Entscheidung, die Kunden tatsächlich treffen.
 
 ## Übungsquiz
 1. Was bezeichnet Positionierung grundsätzlich?

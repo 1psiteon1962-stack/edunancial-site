@@ -30,7 +30,7 @@ Prima della tua prossima trattativa importante, chi altro dovrebbe essere coinvo
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un leader negozia un accordo importante completamente da solo, senza consultare un legale né coinvolgere un consulente di fiducia, convinto che questo dimostri sicurezza e indipendenza. [ASSUMPTION] La controparte, rendendosi conto di trattare con il giudizio di una sola persona invece che con una posizione collettiva e ponderata, insiste di più su specifiche condizioni di quanto avrebbe fatto con un team visibilmente sostenuto da una revisione legale e da una prospettiva esterna. L'approccio solitario del leader, pensato per trasmettere forza, ha in realtà indebolito il suo potere negoziale in modi di cui forse non si è accorto, riprendendo il principio "gli affari sono un gioco di squadra" trattato altrove in questo programma.
+[ESEMPIO ILLUSTRATIVO] Un leader negozia un accordo importante completamente da solo, senza consultare un legale né coinvolgere un consulente di fiducia, convinto che questo dimostri sicurezza e indipendenza. [IPOTESI] La controparte, rendendosi conto di trattare con il giudizio di una sola persona invece che con una posizione collettiva e ponderata, insiste di più su specifiche condizioni di quanto avrebbe fatto con un team visibilmente sostenuto da una revisione legale e da una prospettiva esterna. L'approccio solitario del leader, pensato per trasmettere forza, ha in realtà indebolito il suo potere negoziale in modi di cui forse non si è accorto, riprendendo il principio "gli affari sono un gioco di squadra" trattato altrove in questo programma.
 
 ## Quiz di esercitazione
 

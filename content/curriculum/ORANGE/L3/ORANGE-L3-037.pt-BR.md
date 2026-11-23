@@ -30,7 +30,7 @@ Que tipo de cultura de vendas você realmente quer construir — e a sua estrutu
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio desenha o plano de remuneração de vendas só para maximizar o desempenho individual de vendas no curto prazo, delegando toda a decisão a um time financeiro focado nas metas de receita imediatas. [ASSUMPTION] Com o tempo, essa estrutura incentiva uma competição interna que mina a colaboração e um foco em fechamentos rápidos que prejudica os relacionamentos de longo prazo com os clientes — resultados que refletem uma escolha real de liderança sobre a cultura e as prioridades da organização, mesmo que ninguém tenha decidido de forma explícita "vamos minar a colaboração", o que mostra por que o desenho da remuneração merece uma avaliação, no nível da liderança, das consequências culturais dele, e não só do funcionamento imediato dos incentivos.
+[EXEMPLO ILUSTRATIVO] Um negócio desenha o plano de remuneração de vendas só para maximizar o desempenho individual de vendas no curto prazo, delegando toda a decisão a um time financeiro focado nas metas de receita imediatas. [SUPOSIÇÃO] Com o tempo, essa estrutura incentiva uma competição interna que mina a colaboração e um foco em fechamentos rápidos que prejudica os relacionamentos de longo prazo com os clientes — resultados que refletem uma escolha real de liderança sobre a cultura e as prioridades da organização, mesmo que ninguém tenha decidido de forma explícita "vamos minar a colaboração", o que mostra por que o desenho da remuneração merece uma avaliação, no nível da liderança, das consequências culturais dele, e não só do funcionamento imediato dos incentivos.
 
 ## Teste de prática
 

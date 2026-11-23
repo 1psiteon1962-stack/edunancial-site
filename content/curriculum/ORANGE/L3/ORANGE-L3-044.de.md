@@ -30,7 +30,7 @@ Was weißt du über die Kostenstruktur eines wichtigen Wettbewerbers oder kannst
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Wettbewerber senkt seine Preise deutlich unter ein Niveau, das angesichts seiner wahrscheinlichen Kostenstruktur tragfähig erscheint – ähnliche Lieferantenbeziehungen, ähnliche Größe, kein erkennbarer Kostenvorteil. [ASSUMPTION] Statt anzunehmen, dass dieser neue, niedrigere Preis das neue dauerhafte Marktniveau ist, und sofort nachzuziehen (mit den margenzehrenden Folgen aus Lektion 9), könnte ein Unternehmen, das die wahrscheinlich nicht tragfähige Kostenlage des Wettbewerbers durchdenkt, seinen eigenen Preis halten – in der zutreffenden Erwartung, dass die aggressive Preisgestaltung des Wettbewerbers ein vorübergehender Vorstoß ist, den seine eigene Kostenstruktur nicht dauerhaft zulässt.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Wettbewerber senkt seine Preise deutlich unter ein Niveau, das angesichts seiner wahrscheinlichen Kostenstruktur tragfähig erscheint – ähnliche Lieferantenbeziehungen, ähnliche Größe, kein erkennbarer Kostenvorteil. [ANNAHME] Statt anzunehmen, dass dieser neue, niedrigere Preis das neue dauerhafte Marktniveau ist, und sofort nachzuziehen (mit den margenzehrenden Folgen aus Lektion 9), könnte ein Unternehmen, das die wahrscheinlich nicht tragfähige Kostenlage des Wettbewerbers durchdenkt, seinen eigenen Preis halten – in der zutreffenden Erwartung, dass die aggressive Preisgestaltung des Wettbewerbers ein vorübergehender Vorstoß ist, den seine eigene Kostenstruktur nicht dauerhaft zulässt.
 
 ## Übungsquiz
 1. Warum liefert das Verständnis der wahrscheinlichen Kostenstruktur eines Wettbewerbers echte strategische Einsichten?

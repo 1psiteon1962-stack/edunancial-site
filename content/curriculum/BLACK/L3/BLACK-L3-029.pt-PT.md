@@ -22,7 +22,7 @@ No final desta lição, será capaz de:
 
 ## Conteúdo principal
 
-A trilha PURPLE deste currículo definiu o dever fiduciário como a obrigação legal de agir no melhor interesse de outra parte, citando o dever dos conselheiros de uma empresa com os acionistas como um exemplo comum. [VERIFIED FACT] O dever fiduciário formal e juridicamente exigível, na maioria das estruturas de governança corporativa, é específico com a empresa e os acionistas dela, e não com os funcionários no mesmo sentido jurídico formal — uma distinção importante e correta, que esta lição não pretende confundir.
+A trilha PURPLE deste currículo definiu o dever fiduciário como a obrigação legal de agir no melhor interesse de outra parte, citando o dever dos conselheiros de uma empresa com os acionistas como um exemplo comum. [FACTO VERIFICADO] O dever fiduciário formal e juridicamente exigível, na maioria das estruturas de governança corporativa, é específico com a empresa e os acionistas dela, e não com os funcionários no mesmo sentido jurídico formal — uma distinção importante e correta, que esta lição não pretende confundir.
 
 Este é o "porquê" de a responsabilidade da liderança com os funcionários, discutida na Lição 14, ter características importantes em comum com o dever fiduciário, mesmo sem ser formalmente idêntica: os funcionários confiaram às decisões de um líder o próprio sustento e, muitas vezes, um investimento pessoal e profissional significativo, de formas que criam dependência e vulnerabilidade reais — retomando a confiança e a vulnerabilidade que estão na base das relações fiduciárias formais vistas na trilha PURPLE, mesmo quando as obrigações jurídicas específicas são diferentes.
 
@@ -32,7 +32,7 @@ Além das obrigações jurídicas específicas que se aplicam formalmente, as su
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder toma uma decisão importante para a organização que cumpre formalmente o dever fiduciário dele com os acionistas, segundo a definição da trilha PURPLE, mas dá pouca atenção real ao impacto da decisão sobre os funcionários que construíram carreiras e o próprio sustento em torno da estabilidade da organização. [ASSUMPTION] Embora esse líder não tenha violado nenhuma obrigação fiduciária jurídica formal, esta lição defende que ele deixou de lado o peso real da confiança que os funcionários depositaram no julgamento dele, retomando o ponto da Lição 14 de que a responsabilidade real do empregador vai além de quaisquer mínimos legais ou obrigações técnicas específicas que se apliquem formalmente.
+[EXEMPLO ILUSTRATIVO] Um líder toma uma decisão importante para a organização que cumpre formalmente o dever fiduciário dele com os acionistas, segundo a definição da trilha PURPLE, mas dá pouca atenção real ao impacto da decisão sobre os funcionários que construíram carreiras e o próprio sustento em torno da estabilidade da organização. [SUPOSIÇÃO] Embora esse líder não tenha violado nenhuma obrigação fiduciária jurídica formal, esta lição defende que ele deixou de lado o peso real da confiança que os funcionários depositaram no julgamento dele, retomando o ponto da Lição 14 de que a responsabilidade real do empregador vai além de quaisquer mínimos legais ou obrigações técnicas específicas que se apliquem formalmente.
 
 ## Teste de prática
 

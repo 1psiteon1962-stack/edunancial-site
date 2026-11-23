@@ -30,7 +30,7 @@ Welk specifiek bewijs zou je, voor je huidige belangrijkste strategische priorit
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider die vertrouwen heeft in de huidige strategische koers, heeft een team opgebouwd met echte psychologische veiligheid en een geschiedenis van onenigheid, zoals in Lessen 11 en 19. [ASSUMPTION] In plaats van gewoon af te wachten of er via deze structuur toevallig tegenbewijs opduikt, vraagt deze leider het team actief en specifiek: "wat zou ons vertellen dat deze strategie niet werkt, en hebben we onlangs werkelijk naar dat specifieke bewijs gekeken?" – waarmee hij de structurele omstandigheden waar dit traject naartoe heeft gewerkt combineert met zijn eigen bewuste, actieve inspanning om tegenbewijs te zoeken, in plaats van er passief op te wachten of het onbewust weg te filteren.
+[ILLUSTRATIEF VOORBEELD] Een leider die vertrouwen heeft in de huidige strategische koers, heeft een team opgebouwd met echte psychologische veiligheid en een geschiedenis van onenigheid, zoals in Lessen 11 en 19. [AANNAME] In plaats van gewoon af te wachten of er via deze structuur toevallig tegenbewijs opduikt, vraagt deze leider het team actief en specifiek: "wat zou ons vertellen dat deze strategie niet werkt, en hebben we onlangs werkelijk naar dat specifieke bewijs gekeken?" – waarmee hij de structurele omstandigheden waar dit traject naartoe heeft gewerkt combineert met zijn eigen bewuste, actieve inspanning om tegenbewijs te zoeken, in plaats van er passief op te wachten of het onbewust weg te filteren.
 
 ## Oefenquiz
 

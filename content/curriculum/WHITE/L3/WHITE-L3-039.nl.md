@@ -24,7 +24,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Veel belastingstelsels maken onderscheid tussen winsten op beleggingen die korter worden aangehouden en winsten op beleggingen die langer worden aangehouden voordat ze worden verkocht, en passen vaak verschillende belastingtarieven toe op elke categorie. [VERIFIED FACT] De specifieke drempels voor de aanhoudperiode en de geldende belastingtarieven verschillen sterk per rechtsgebied en zijn vastgelegd in specifieke belastingwetgeving. Het is nuttig om het begrip in het algemeen te kennen, maar de precieze cijfers moet je controleren voor een specifieke situatie en een specifiek rechtsgebied.
+Veel belastingstelsels maken onderscheid tussen winsten op beleggingen die korter worden aangehouden en winsten op beleggingen die langer worden aangehouden voordat ze worden verkocht, en passen vaak verschillende belastingtarieven toe op elke categorie. [GEVERIFIEERD FEIT] De specifieke drempels voor de aanhoudperiode en de geldende belastingtarieven verschillen sterk per rechtsgebied en zijn vastgelegd in specifieke belastingwetgeving. Het is nuttig om het begrip in het algemeen te kennen, maar de precieze cijfers moet je controleren voor een specifieke situatie en een specifiek rechtsgebied.
 
 Dit is het "waarom" dit onderscheid vaak bestaat: veel belastingstelsels zijn, in ieder geval deels, ontworpen om het langer aanhouden van beleggingen aan te moedigen boven het vaak kortstondig handelen. Dat gebeurt vaak door winsten op beleggingen die korter zijn aangehouden tegen een hoger tarief te belasten dan winsten op beleggingen die langer zijn aangehouden.
 
@@ -32,7 +32,7 @@ Dit levert een echte, bewuste prikkel op die de moeite waard is om te begrijpen:
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een belegster overweegt een belegging te verkopen die flink in waarde is gestegen, en ze zit dicht bij een drempel voor een langere aanhoudperiode waarbij in haar rechtsgebied een gunstiger belastingtarief op de winst zou gelden. [ASSUMPTION] Als haar totale verwachting voor de positie niet duidelijk is veranderd, kan nog een korte periode wachten om die drempel te passeren leiden tot minder belasting in totaal bij de uiteindelijke verkoop. Dit moet ze wel afwegen tegen haar echte kijk op de vooruitzichten en het risico van de belegging op korte termijn, en het mag die overwegingen niet automatisch opzijzetten.
+[ILLUSTRATIEF VOORBEELD] Een belegster overweegt een belegging te verkopen die flink in waarde is gestegen, en ze zit dicht bij een drempel voor een langere aanhoudperiode waarbij in haar rechtsgebied een gunstiger belastingtarief op de winst zou gelden. [AANNAME] Als haar totale verwachting voor de positie niet duidelijk is veranderd, kan nog een korte periode wachten om die drempel te passeren leiden tot minder belasting in totaal bij de uiteindelijke verkoop. Dit moet ze wel afwegen tegen haar echte kijk op de vooruitzichten en het risico van de belegging op korte termijn, en het mag die overwegingen niet automatisch opzijzetten.
 
 ## Oefenquiz
 

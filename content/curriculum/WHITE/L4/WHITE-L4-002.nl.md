@@ -24,14 +24,14 @@ AANNAME/MENING (hypothetisch scenario uitsluitend voor onderwijsdoeleinden): Ste
 - Signalen herkennen dat een dividenduitkering mogelijk niet houdbaar is.
 
 ## Kerninhoud
-Het dividendrendement is gelijk aan het jaarlijkse dividend per aandeel gedeeld door de aandelenkoers. VERIFIED FACT: het dividendrendement stijgt op twee heel verschillende manieren, namelijk doordat de dividendbetaling stijgt of doordat de aandelenkoers daalt, en die twee oorzaken betekenen voor een belegger iets heel anders.
+Het dividendrendement is gelijk aan het jaarlijkse dividend per aandeel gedeeld door de aandelenkoers. GEVERIFIEERD FEIT: het dividendrendement stijgt op twee heel verschillende manieren, namelijk doordat de dividendbetaling stijgt of doordat de aandelenkoers daalt, en die twee oorzaken betekenen voor een belegger iets heel anders.
 
 Dit is het "waarom" rendement alleen misleidt: een dalende aandelenkoers, vaak door verslechterende bedrijfsfundamenten (zoals de druk van de kredietverkrapping in het scenario hierboven), duwt het dividendrendement mechanisch omhoog, zelfs terwijl het onderliggende bedrijf zwakker wordt in plaats van sterker. Een ongewoon hoog rendement in vergelijking met de eigen geschiedenis van een bedrijf of met zijn branchegenoten is vaak een marktsignaal dat beleggers een dividendverlaging verwachten, geen kans om een buitensporig inkomen vast te leggen.
 
 Daarom is het totaalrendement, dat wil zeggen dividend plus koersstijging of koersdaling, de completere maatstaf, in lijn met het onderscheid tussen cash-on-cash-rendement en totaalrendement uit de vastgoedanalyse. Een bedrijf met een bescheiden rendement van 2% maar met gestaag groeiende winst en aandelenkoers kan gemakkelijk beter presteren dan een bedrijf met een rendement van 8% dat rust op een krimpende, financieel gestreste onderneming, vooral als dat rendement van 8% wordt verlaagd en de aandelenkoers daardoor nog verder daalt.
 
 ## Uitgewerkt voorbeeld
-ILLUSTRATIVE EXAMPLE: Het dividendrendement van een bedrijf stijgt in een jaar van 3% naar 9%, niet omdat het management het dividend heeft verhoogd, maar omdat de aandelenkoers met twee derde is gedaald te midden van financiële stress. Een belegger die alleen wordt aangetrokken door het opvallende rendement van 9%, zonder de uitkeringsratio (het dividend als deel van de winst) of de reden voor de koersdaling te controleren, stapt in vlak voordat het bedrijf aankondigt dat het zijn dividend volledig moet schrappen om liquiditeit te behouden, waardoor de aandelenkoers, en het totaalrendement van de belegger, nog verder dalen.
+ILLUSTRATIEF VOORBEELD: Het dividendrendement van een bedrijf stijgt in een jaar van 3% naar 9%, niet omdat het management het dividend heeft verhoogd, maar omdat de aandelenkoers met twee derde is gedaald te midden van financiële stress. Een belegger die alleen wordt aangetrokken door het opvallende rendement van 9%, zonder de uitkeringsratio (het dividend als deel van de winst) of de reden voor de koersdaling te controleren, stapt in vlak voordat het bedrijf aankondigt dat het zijn dividend volledig moet schrappen om liquiditeit te behouden, waardoor de aandelenkoers, en het totaalrendement van de belegger, nog verder dalen.
 
 ## Oefenquiz
 **V1. Hoe wordt het dividendrendement berekend?**

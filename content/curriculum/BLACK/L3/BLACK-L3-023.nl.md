@@ -30,7 +30,7 @@ Wie zou er, vóór je volgende belangrijke onderhandeling, nog meer betrokken mo
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een leider onderhandelt volledig alleen over een belangrijke deal, zonder juridisch advies in te winnen of een vertrouwde adviseur erbij te halen, in de overtuiging dat dit zelfvertrouwen en onafhankelijkheid laat zien. [ASSUMPTION] De tegenpartij merkt dat ze onderhandelt met het oordeel van één persoon in plaats van met een doordacht, gezamenlijk standpunt, en zet harder in op specifieke voorwaarden dan ze zou hebben gedaan tegenover een team met zichtbare juridische toetsing en een blik van buiten – de aanpak van de leider om alleen te onderhandelen, bedoeld om kracht uit te stralen, verzwakte zijn onderhandelingsmacht juist, op manieren die hij misschien niet heeft gezien, in lijn met het principe "zakendoen is teamwerk" uit andere delen van dit programma.
+[ILLUSTRATIEF VOORBEELD] Een leider onderhandelt volledig alleen over een belangrijke deal, zonder juridisch advies in te winnen of een vertrouwde adviseur erbij te halen, in de overtuiging dat dit zelfvertrouwen en onafhankelijkheid laat zien. [AANNAME] De tegenpartij merkt dat ze onderhandelt met het oordeel van één persoon in plaats van met een doordacht, gezamenlijk standpunt, en zet harder in op specifieke voorwaarden dan ze zou hebben gedaan tegenover een team met zichtbare juridische toetsing en een blik van buiten – de aanpak van de leider om alleen te onderhandelen, bedoeld om kracht uit te stralen, verzwakte zijn onderhandelingsmacht juist, op manieren die hij misschien niet heeft gezien, in lijn met het principe "zakendoen is teamwerk" uit andere delen van dit programma.
 
 ## Oefenquiz
 

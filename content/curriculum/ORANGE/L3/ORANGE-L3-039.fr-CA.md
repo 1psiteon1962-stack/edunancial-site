@@ -32,7 +32,7 @@ Ta stratégie d'acquisition actuelle correspond-elle réellement à ton étape d
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise autofinancée observe un concurrent financé par du capital de risque qui dépense agressivement, à perte, pour acquérir des clients et gagner des parts de marché, et adopte une stratégie d'acquisition semblable. [ASSUMPTION] Sans le coussin de capital externe du concurrent financé par du capital de risque, l'entreprise autofinancée se heurte rapidement exactement aux problèmes de trésorerie et de marge de manœuvre financière dont prévenait la discussion du parcours BLUE sur l'autofinancement — la stratégie d'acquisition n'était pas mauvaise en soi, mais elle ne correspondait pas à la structure de financement réelle de cette entreprise, ce qui montre pourquoi la « bonne » stratégie dépend du contexte de financement, et pas seulement de ce qu'un concurrent fait visiblement.
+[EXEMPLE ILLUSTRATIF] Une entreprise autofinancée observe un concurrent financé par du capital de risque qui dépense agressivement, à perte, pour acquérir des clients et gagner des parts de marché, et adopte une stratégie d'acquisition semblable. [HYPOTHÈSE] Sans le coussin de capital externe du concurrent financé par du capital de risque, l'entreprise autofinancée se heurte rapidement exactement aux problèmes de trésorerie et de marge de manœuvre financière dont prévenait la discussion du parcours BLUE sur l'autofinancement — la stratégie d'acquisition n'était pas mauvaise en soi, mais elle ne correspondait pas à la structure de financement réelle de cette entreprise, ce qui montre pourquoi la « bonne » stratégie dépend du contexte de financement, et pas seulement de ce qu'un concurrent fait visiblement.
 
 ## Quiz de pratique
 

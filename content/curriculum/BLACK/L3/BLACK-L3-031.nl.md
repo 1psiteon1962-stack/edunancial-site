@@ -30,7 +30,7 @@ Ervaar je kritiek op je onderneming als feedback over een strategie, of voelt he
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een oprichter die zijn onderneming in vele jaren heeft opgebouwd, ervaart elke serieuze kritiek op de koers van het bedrijf als diep persoonlijk, en reageert defensief, zelfs op goedbedoelde, opbouwende feedback van vertrouwde adviseurs. [ASSUMPTION] Dit samenvallen van identiteit, dat verder gaat dan de door ego gedreven weerstand om een fout toe te geven uit Les 17, maakt het voor deze oprichter echt moeilijk om de werkelijke behoeften van de onderneming objectief te beoordelen – elke feedback over het bedrijf voelt als feedback over hemzelf, wat een blinde vlek oplevert waar een oprichter met meer afstand tussen persoonlijke identiteit en bedrijfsprestaties minder gevoelig voor zou zijn.
+[ILLUSTRATIEF VOORBEELD] Een oprichter die zijn onderneming in vele jaren heeft opgebouwd, ervaart elke serieuze kritiek op de koers van het bedrijf als diep persoonlijk, en reageert defensief, zelfs op goedbedoelde, opbouwende feedback van vertrouwde adviseurs. [AANNAME] Dit samenvallen van identiteit, dat verder gaat dan de door ego gedreven weerstand om een fout toe te geven uit Les 17, maakt het voor deze oprichter echt moeilijk om de werkelijke behoeften van de onderneming objectief te beoordelen – elke feedback over het bedrijf voelt als feedback over hemzelf, wat een blinde vlek oplevert waar een oprichter met meer afstand tussen persoonlijke identiteit en bedrijfsprestaties minder gevoelig voor zou zijn.
 
 ## Oefenquiz
 

@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Immagina che un governo, sotto una forte pressione sui conti pubblici, approvi una legge che aumenta in modo significativo le aliquote dell'imposta sul reddito nella maggior parte degli scaglioni, con effetto negli anni futuri. È uno scenario ipotetico per un test di resistenza, non una previsione su una politica reale o su un Paese specifico.
+[SCENARIO IPOTETICO — IPOTESI, NON FATTO VERIFICATO] Immagina che un governo, sotto una forte pressione sui conti pubblici, approvi una legge che aumenta in modo significativo le aliquote dell'imposta sul reddito nella maggior parte degli scaglioni, con effetto negli anni futuri. È uno scenario ipotetico per un test di resistenza, non una previsione su una politica reale o su un Paese specifico.
 
 In questo scenario ipotetico, la decisione Traditional/Roth della Lezione 12 cambia molto: i contribuenti che hanno preso la deduzione Traditional alle aliquote basse di oggi, pensando di prelevare e pagare l'imposta più tardi, dovrebbero ora pagare l'imposta su quel prelievo futuro alle nuove aliquote più alte, un risultato meno favorevole di quanto previsto al momento del versamento. I contribuenti che invece hanno scelto conti Roth, pagando l'imposta all'inizio alle aliquote basse di oggi, risulterebbero a posteriori in una posizione relativamente migliore, perché i loro prelievi futuri che rispettano le condizioni restano esenti nonostante le nuove aliquote più alte.
 

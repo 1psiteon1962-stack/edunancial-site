@@ -30,7 +30,7 @@ Als je grootste klant morgen zou vertrekken, wat zou er dan gebeuren met je omze
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een verkoopteam haalt één grote klant binnen die al snel 50% van de totale omzet van de onderneming vertegenwoordigt, en het team viert dit als een grote overwinning. [ASSUMPTION] Maanden later krijgt die klant zelf financiële problemen en vermindert hij zijn bestellingen flink – de omzet van de onderneming wordt direct en ernstig geraakt. Dat is een actueel gevolg van het concentratierisico dat al die tijd aan het groeien was, ruim voordat een toekomstige verkoop of waardering dat risico op papier zichtbaar zou hebben gemaakt, zoals het BLUE-traject beschrijft.
+[ILLUSTRATIEF VOORBEELD] Een verkoopteam haalt één grote klant binnen die al snel 50% van de totale omzet van de onderneming vertegenwoordigt, en het team viert dit als een grote overwinning. [AANNAME] Maanden later krijgt die klant zelf financiële problemen en vermindert hij zijn bestellingen flink – de omzet van de onderneming wordt direct en ernstig geraakt. Dat is een actueel gevolg van het concentratierisico dat al die tijd aan het groeien was, ruim voordat een toekomstige verkoop of waardering dat risico op papier zichtbaar zou hebben gemaakt, zoals het BLUE-traject beschrijft.
 
 ## Oefenquiz
 

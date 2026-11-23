@@ -30,7 +30,7 @@ Prima di trattare la tua previsione di vendita come un dato fisso per decisioni 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa prevede una certa cifra di ricavi per il trimestre successivo, e quel numero diventa la base per l'acquisto delle scorte, un piano di assunzioni e un aumento del budget di marketing. [ASSUMPTION] Quando le vendite reali arrivano il 20% sotto quella previsione, l'effetto non è uno scarto contenuto del 20%: le scorte acquistate sull'ipotesi gonfiata restano invendute, gli stipendi dei nuovi assunti non sono sostenuti dai ricavi reali e l'aumento della spesa di marketing aggiunge ulteriore tensione sulla liquidità. L'errore di previsione iniziale si è quindi moltiplicato in un impatto finanziario molto più grande, una volta considerata ogni decisione dipendente costruita sopra di esso.
+[ESEMPIO ILLUSTRATIVO] Un'impresa prevede una certa cifra di ricavi per il trimestre successivo, e quel numero diventa la base per l'acquisto delle scorte, un piano di assunzioni e un aumento del budget di marketing. [IPOTESI] Quando le vendite reali arrivano il 20% sotto quella previsione, l'effetto non è uno scarto contenuto del 20%: le scorte acquistate sull'ipotesi gonfiata restano invendute, gli stipendi dei nuovi assunti non sono sostenuti dai ricavi reali e l'aumento della spesa di marketing aggiunge ulteriore tensione sulla liquidità. L'errore di previsione iniziale si è quindi moltiplicato in un impatto finanziario molto più grande, una volta considerata ogni decisione dipendente costruita sopra di esso.
 
 ## Quiz di esercitazione
 

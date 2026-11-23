@@ -30,7 +30,7 @@ Quali compiti o decisioni specifiche della tua impresa richiedono oggi il tuo co
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Il titolare di un'impresa gestisce personalmente ogni relazione importante con i clienti, ogni decisione sui prezzi e ogni controllo di qualità, per cui la produzione totale dell'impresa è limitata da quante ore questa sola persona riesce a lavorare. [ASSUMPTION] Documentando i criteri decisionali usati per i prezzi, formando un collaboratore a gestire le relazioni con i clienti seguendo un manuale chiaro e creando un sistema di controllo della qualità che non richieda la revisione personale di ogni elemento da parte del titolare, la capacità dell'impresa non è più limitata a ciò che una persona può fare da sola. È un'eco diretta del principio secondo cui i sistemi permettono di crescere, al centro dello strumento didattico di base di questo programma.
+[ESEMPIO ILLUSTRATIVO] Il titolare di un'impresa gestisce personalmente ogni relazione importante con i clienti, ogni decisione sui prezzi e ogni controllo di qualità, per cui la produzione totale dell'impresa è limitata da quante ore questa sola persona riesce a lavorare. [IPOTESI] Documentando i criteri decisionali usati per i prezzi, formando un collaboratore a gestire le relazioni con i clienti seguendo un manuale chiaro e creando un sistema di controllo della qualità che non richieda la revisione personale di ogni elemento da parte del titolare, la capacità dell'impresa non è più limitata a ciò che una persona può fare da sola. È un'eco diretta del principio secondo cui i sistemi permettono di crescere, al centro dello strumento didattico di base di questo programma.
 
 ## Quiz di esercitazione
 

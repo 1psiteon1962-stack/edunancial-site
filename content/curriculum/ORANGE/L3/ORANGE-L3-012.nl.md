@@ -30,7 +30,7 @@ Als je onderneming nu de meeste klanten uit één dominant kanaal haalt: wat zou
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming haalt het overgrote deel van haar nieuwe klanten via één advertentieplatform, blij met de huidige lage kosten per werving. [ASSUMPTION] Als dat platform zijn algoritme of prijsstructuur flink wijzigt, schieten de wervingskosten van de onderneming omhoog en daalt het volume sterk, terwijl er geen ander gevestigd kanaal volwassen genoeg is om het gat op te vullen. Dat is een concentratierisico dat rechtstreeks vergelijkbaar is met het aanhouden van één beleggingscategorie, zoals in de WHITE- en GOLD-trajecten besproken, en dat een meer gespreide kanaalmix had helpen beperken.
+[ILLUSTRATIEF VOORBEELD] Een onderneming haalt het overgrote deel van haar nieuwe klanten via één advertentieplatform, blij met de huidige lage kosten per werving. [AANNAME] Als dat platform zijn algoritme of prijsstructuur flink wijzigt, schieten de wervingskosten van de onderneming omhoog en daalt het volume sterk, terwijl er geen ander gevestigd kanaal volwassen genoeg is om het gat op te vullen. Dat is een concentratierisico dat rechtstreeks vergelijkbaar is met het aanhouden van één beleggingscategorie, zoals in de WHITE- en GOLD-trajecten besproken, en dat een meer gespreide kanaalmix had helpen beperken.
 
 ## Oefenquiz
 

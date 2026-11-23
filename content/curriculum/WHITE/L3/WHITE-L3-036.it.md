@@ -24,7 +24,7 @@ Alla fine di questa lezione, sarai in grado di:
 
 ## Contenuto principale
 
-Molti ordinamenti offrono alcuni tipi di conti di investimento, spesso legati al risparmio per la pensione, che danno vantaggi fiscali specifici, come la crescita con imposte differite (si pagano le tasse più tardi, spesso in pensione) o la crescita esentasse (a condizioni specifiche). [VERIFIED FACT] I tipi di conto disponibili, le regole, i limiti di versamento e i trattamenti fiscali variano molto da paese a paese e cambiano nel tempo con le leggi, quindi i dettagli dei programmi specifici vanno verificati direttamente e non rientrano in questa lezione generale.
+Molti ordinamenti offrono alcuni tipi di conti di investimento, spesso legati al risparmio per la pensione, che danno vantaggi fiscali specifici, come la crescita con imposte differite (si pagano le tasse più tardi, spesso in pensione) o la crescita esentasse (a condizioni specifiche). [FATTO VERIFICATO] I tipi di conto disponibili, le regole, i limiti di versamento e i trattamenti fiscali variano molto da paese a paese e cambiano nel tempo con le leggi, quindi i dettagli dei programmi specifici vanno verificati direttamente e non rientrano in questa lezione generale.
 
 Ecco il "perché" questo conta come concetto distinto dalla scelta degli investimenti: lo stesso identico investimento sottostante (la stessa azione o lo stesso fondo) può produrre un risultato al netto delle tasse sensibilmente diverso a seconda che sia tenuto in un normale conto tassabile o in un conto che offre qualche forma di vantaggio fiscale. Questo è un livello di decisione del tutto separato da *quali* investimenti tenere: riguarda *dove* (in che tipo di conto) quegli investimenti vengono tenuti.
 
@@ -32,7 +32,7 @@ Per questo gli investitori esperti spesso considerano la scelta del conto e la s
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un investitore ha accesso a un conto pensionistico a vantaggio fiscale che offre crescita con imposte differite, e anche a un normale conto di intermediazione (brokerage) tassabile. [ASSUMPTION] Tenere lo stesso investimento nel conto a vantaggio fiscale invece che nel conto tassabile potrebbe portare a un risultato al netto delle tasse sensibilmente diverso su un lungo periodo di detenzione, solo per la differenza di trattamento fiscale, anche se l'investimento sottostante, il suo andamento e il suo rischio sono identici in entrambi i casi. Questo mostra perché la decisione sul tipo di conto merita una riflessione separata e consapevole rispetto alla decisione sulla scelta degli investimenti.
+[ESEMPIO ILLUSTRATIVO] Un investitore ha accesso a un conto pensionistico a vantaggio fiscale che offre crescita con imposte differite, e anche a un normale conto di intermediazione (brokerage) tassabile. [IPOTESI] Tenere lo stesso investimento nel conto a vantaggio fiscale invece che nel conto tassabile potrebbe portare a un risultato al netto delle tasse sensibilmente diverso su un lungo periodo di detenzione, solo per la differenza di trattamento fiscale, anche se l'investimento sottostante, il suo andamento e il suo rischio sono identici in entrambi i casi. Questo mostra perché la decisione sul tipo di conto merita una riflessione separata e consapevole rispetto alla decisione sulla scelta degli investimenti.
 
 ## Quiz di esercitazione
 

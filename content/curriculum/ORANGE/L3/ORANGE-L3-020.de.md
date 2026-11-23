@@ -30,7 +30,7 @@ Welchen Anreiz hat dein Vertriebsteam derzeit, die CRM-Daten genau und aktuell z
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Vertriebsteam lässt Geschäfte im CRM regelmäßig noch lange als „baldiger Abschluss wahrscheinlich“ markiert, nachdem sie tatsächlich eingeschlafen sind, weil optimistische Kennzeichnungen keine konkreten Folgen haben und es sogar Vorteile bringt, produktiv zu wirken. [ASSUMPTION] Die Finanzabteilung, die mit diesen CRM-Daten die wahrscheinlichkeitsgewichtete Prognose aus Lektion 15 erstellt, erhält eine Umsatzprognose, die systematisch zu optimistisch ist – nicht weil die Prognoserechnung falsch wäre, sondern weil die zugrunde liegenden Daten unzuverlässig waren. Das zeigt, warum die Qualität der CRM-Daten eine Frage der Finanzplanung ist und nicht nur der Vertriebssteuerung.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Vertriebsteam lässt Geschäfte im CRM regelmäßig noch lange als „baldiger Abschluss wahrscheinlich“ markiert, nachdem sie tatsächlich eingeschlafen sind, weil optimistische Kennzeichnungen keine konkreten Folgen haben und es sogar Vorteile bringt, produktiv zu wirken. [ANNAHME] Die Finanzabteilung, die mit diesen CRM-Daten die wahrscheinlichkeitsgewichtete Prognose aus Lektion 15 erstellt, erhält eine Umsatzprognose, die systematisch zu optimistisch ist – nicht weil die Prognoserechnung falsch wäre, sondern weil die zugrunde liegenden Daten unzuverlässig waren. Das zeigt, warum die Qualität der CRM-Daten eine Frage der Finanzplanung ist und nicht nur der Vertriebssteuerung.
 
 ## Übungsquiz
 1. Warum zählen CRM-Daten weit über das Vertriebsteam hinaus?

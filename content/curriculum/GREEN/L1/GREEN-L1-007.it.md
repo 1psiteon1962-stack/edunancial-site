@@ -34,11 +34,11 @@ In molti sistemi il costo è diviso: una parte viene trattenuta dallo stipendio 
 
 Questi contributi sono diversi dall'imposta sul reddito. L'imposta sul reddito va nel bilancio generale. I contributi sui salari sono spesso destinati a programmi specifici, come pensioni e sanità.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** Giovanni guadagna $3.000 al mese. In busta paga compaiono due trattenute con nomi diversi. Perché secondo te sono due?
 

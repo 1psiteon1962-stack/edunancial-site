@@ -30,7 +30,7 @@ Avant de couper les dépenses de développement du leadership pendant une pério
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Pendant une période de resserrement budgétaire, une entreprise coupe d'abord son programme de développement du leadership, en se disant que son effet est plus difficile à pointer directement que celui des autres dépenses. [ASSUMPTION] Des mois plus tard, le roulement chez les gestionnaires augmente et la qualité des décisions baisse visiblement, d'une façon qui, bien qu'elle soit difficile à attribuer clairement à cette coupe précise, rappelle exactement le genre de valeur invisible que le parcours PURPLE décrivait pour la planification juridique préventive — les dépenses de développement du leadership apportaient une valeur réelle, même si difficile à mesurer, que l'hypothèse facile du « c'est discrétionnaire » n'a pas correctement comparée à de vraies options de rechange.
+[EXEMPLE ILLUSTRATIF] Pendant une période de resserrement budgétaire, une entreprise coupe d'abord son programme de développement du leadership, en se disant que son effet est plus difficile à pointer directement que celui des autres dépenses. [HYPOTHÈSE] Des mois plus tard, le roulement chez les gestionnaires augmente et la qualité des décisions baisse visiblement, d'une façon qui, bien qu'elle soit difficile à attribuer clairement à cette coupe précise, rappelle exactement le genre de valeur invisible que le parcours PURPLE décrivait pour la planification juridique préventive — les dépenses de développement du leadership apportaient une valeur réelle, même si difficile à mesurer, que l'hypothèse facile du « c'est discrétionnaire » n'a pas correctement comparée à de vraies options de rechange.
 
 ## Quiz de pratique
 

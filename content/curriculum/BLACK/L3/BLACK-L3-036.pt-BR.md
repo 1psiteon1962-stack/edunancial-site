@@ -30,7 +30,7 @@ Qual dessas três direções — para cima, para baixo ou para os lados — rece
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder investe muito em gerir bem a própria equipe direta, criando um moral alto e uma direção clara, mas deixa de cuidar ativamente dos relacionamentos com os líderes das áreas de mesmo nível. [ASSUMPTION] Quando uma iniciativa importante entre áreas exige uma coordenação que esse líder não cultivou, o excelente desempenho individual da equipe é prejudicado pela má coordenação para os lados — o que mostra por que gerir só para baixo, por mais bem-feito que seja, não basta sem também cuidar de forma intencional dos relacionamentos para os lados, que afetam resultados da organização fora do controle de qualquer equipe isolada.
+[EXEMPLO ILUSTRATIVO] Um líder investe muito em gerir bem a própria equipe direta, criando um moral alto e uma direção clara, mas deixa de cuidar ativamente dos relacionamentos com os líderes das áreas de mesmo nível. [SUPOSIÇÃO] Quando uma iniciativa importante entre áreas exige uma coordenação que esse líder não cultivou, o excelente desempenho individual da equipe é prejudicado pela má coordenação para os lados — o que mostra por que gerir só para baixo, por mais bem-feito que seja, não basta sem também cuidar de forma intencional dos relacionamentos para os lados, que afetam resultados da organização fora do controle de qualquer equipe isolada.
 
 ## Teste de prática
 

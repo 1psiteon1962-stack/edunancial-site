@@ -32,7 +32,7 @@ Si ton entreprise dépend actuellement beaucoup du bouche-à-oreille, qu'arriver
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise a surtout grandi grâce aux recommandations de bouche-à-oreille, en profitant de faibles coûts d'acquisition et d'une forte fidélité de la clientèle. [ASSUMPTION] Lorsque l'entreprise doit atteindre un objectif de croissance précis, assorti d'une échéance, en vue d'une ronde de financement, elle découvre que le bouche-à-oreille ne peut pas simplement être amplifié sur demande comme pourrait l'être un canal payant — son canal le moins cher est aussi son canal le moins contrôlable, ce qui l'oblige à investir dans un canal payant plus coûteux, mais plus directement contrôlable, pour respecter son échéancier précis.
+[EXEMPLE ILLUSTRATIF] Une entreprise a surtout grandi grâce aux recommandations de bouche-à-oreille, en profitant de faibles coûts d'acquisition et d'une forte fidélité de la clientèle. [HYPOTHÈSE] Lorsque l'entreprise doit atteindre un objectif de croissance précis, assorti d'une échéance, en vue d'une ronde de financement, elle découvre que le bouche-à-oreille ne peut pas simplement être amplifié sur demande comme pourrait l'être un canal payant — son canal le moins cher est aussi son canal le moins contrôlable, ce qui l'oblige à investir dans un canal payant plus coûteux, mais plus directement contrôlable, pour respecter son échéancier précis.
 
 ## Quiz de pratique
 

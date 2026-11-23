@@ -30,7 +30,7 @@ Pelo seu modelo atual de contrato de venda, o que acontece se um cliente simples
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um time de vendas usa um acordo de venda simples e redigido de forma informal para uma transação importante, focado em fechar o negócio rapidamente, e não na redação específica do contrato. [ASSUMPTION] Quando o cliente depois deixa de pagar em dia, o negócio descobre que o acordo de venda dele não especifica com clareza as consequências do atraso, os juros ou um processo de resolução de disputas — exatamente o tipo de ambiguidade que, como a trilha PURPLE alertou, cria disputas mais difíceis de resolver, transformando o que deveria ser uma simples cobrança em uma situação bem mais difícil e cara.
+[EXEMPLO ILUSTRATIVO] Um time de vendas usa um acordo de venda simples e redigido de forma informal para uma transação importante, focado em fechar o negócio rapidamente, e não na redação específica do contrato. [SUPOSIÇÃO] Quando o cliente depois deixa de pagar em dia, o negócio descobre que o acordo de venda dele não especifica com clareza as consequências do atraso, os juros ou um processo de resolução de disputas — exatamente o tipo de ambiguidade que, como a trilha PURPLE alertou, cria disputas mais difíceis de resolver, transformando o que deveria ser uma simples cobrança em uma situação bem mais difícil e cara.
 
 ## Teste de prática
 

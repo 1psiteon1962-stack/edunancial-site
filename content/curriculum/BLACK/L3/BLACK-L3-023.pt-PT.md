@@ -30,7 +30,7 @@ Antes da sua próxima negociação importante, quem mais deveria estar envolvido
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder negocia um acordo importante totalmente sozinho, sem consultar um advogado nem trazer um consultor de confiança, acreditando que isso demonstra confiança e independência. [ASSUMPTION] A contraparte, percebendo que está a negociar com o julgamento de uma única pessoa, e não com uma posição coletiva e pensada, pressiona mais em condições específicas do que pressionaria diante de uma equipa com revisão jurídica e visão de fora visíveis — a abordagem solitária do líder, pensada para transmitir força, na verdade enfraqueceu o poder de negociação dele de formas que talvez ele nem tenha percebido, retomando o princípio "negócio é um desporto de equipa" visto em outras partes deste currículo.
+[EXEMPLO ILUSTRATIVO] Um líder negocia um acordo importante totalmente sozinho, sem consultar um advogado nem trazer um consultor de confiança, acreditando que isso demonstra confiança e independência. [SUPOSIÇÃO] A contraparte, percebendo que está a negociar com o julgamento de uma única pessoa, e não com uma posição coletiva e pensada, pressiona mais em condições específicas do que pressionaria diante de uma equipa com revisão jurídica e visão de fora visíveis — a abordagem solitária do líder, pensada para transmitir força, na verdade enfraqueceu o poder de negociação dele de formas que talvez ele nem tenha percebido, retomando o princípio "negócio é um desporto de equipa" visto em outras partes deste currículo.
 
 ## Teste de prática
 

@@ -32,7 +32,7 @@ Avant de t'engager dans une nouvelle dépense de marketing importante, que pourr
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise envisage une forte hausse de ses dépenses publicitaires, justifiée à l'interne en la comparant seulement au budget plus modeste de l'année précédente et à des résultats légèrement plus élevés. [ASSUMPTION] En appliquant plutôt le cadre ajusté au risque du parcours GOLD, l'équipe compare cette décision de dépense à la solution de rechange réaliste qui consiste à utiliser ce même capital pour rembourser une dette à taux d'intérêt élevé ou financer le développement de produits dont le rendement est plus certain — une comparaison que la simple comparaison d'une année à l'autre n'avait jamais faite, et qui révèle que la dépense de marketing, sans être déraisonnable, n'était pas manifestement la meilleure utilisation de ce capital une fois les vraies alternatives prises en compte.
+[EXEMPLE ILLUSTRATIF] Une entreprise envisage une forte hausse de ses dépenses publicitaires, justifiée à l'interne en la comparant seulement au budget plus modeste de l'année précédente et à des résultats légèrement plus élevés. [HYPOTHÈSE] En appliquant plutôt le cadre ajusté au risque du parcours GOLD, l'équipe compare cette décision de dépense à la solution de rechange réaliste qui consiste à utiliser ce même capital pour rembourser une dette à taux d'intérêt élevé ou financer le développement de produits dont le rendement est plus certain — une comparaison que la simple comparaison d'une année à l'autre n'avait jamais faite, et qui révèle que la dépense de marketing, sans être déraisonnable, n'était pas manifestement la meilleure utilisation de ce capital une fois les vraies alternatives prises en compte.
 
 ## Quiz de pratique
 

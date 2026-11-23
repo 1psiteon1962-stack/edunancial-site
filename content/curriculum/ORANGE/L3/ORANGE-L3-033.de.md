@@ -32,7 +32,7 @@ Bevor du eine bedeutende Marketingkampagne für einen neuen Markennamen oder ein
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Ein Unternehmen entwickelt einen neuen Markennamen und investiert erheblich in Marketing und Bekanntheit bei Kunden, bevor es überhaupt eine Markenrecherche durchführt. [ASSUMPTION] Nach dieser erheblichen Investition stellt das Unternehmen fest, dass ein anderes Unternehmen in derselben Branche bereits Markenrechte an einem verwechselbar ähnlichen Namen hält – das erzwingt eine teure Umbenennung, macht die bereits getätigte Marketinginvestition wertlos und zeigt, warum die bescheidenen Kosten einer vorgelagerten Markenrecherche und Anmeldung vor der Investition in die Marke weit günstiger gewesen wären als das tatsächliche Ergebnis.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Ein Unternehmen entwickelt einen neuen Markennamen und investiert erheblich in Marketing und Bekanntheit bei Kunden, bevor es überhaupt eine Markenrecherche durchführt. [ANNAHME] Nach dieser erheblichen Investition stellt das Unternehmen fest, dass ein anderes Unternehmen in derselben Branche bereits Markenrechte an einem verwechselbar ähnlichen Namen hält – das erzwingt eine teure Umbenennung, macht die bereits getätigte Marketinginvestition wertlos und zeigt, warum die bescheidenen Kosten einer vorgelagerten Markenrecherche und Anmeldung vor der Investition in die Marke weit günstiger gewesen wären als das tatsächliche Ergebnis.
 
 ## Übungsquiz
 1. Warum sollte der Markenschutz grundsätzlich vor und nicht nach einer großen Investition in die Marke gesichert werden?

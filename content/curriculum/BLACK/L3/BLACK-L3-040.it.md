@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-[HYPOTHETICAL SCENARIO — ASSUMPTION, NOT VERIFIED FACT] Immagina che un'impresa sotto una reale pressione finanziaria debba ridurre in modo significativo il personale per restare in piedi. È uno scenario ipotetico di prova, non una previsione su un'azienda o un evento reali.
+[SCENARIO IPOTETICO — IPOTESI, NON FATTO VERIFICATO] Immagina che un'impresa sotto una reale pressione finanziaria debba ridurre in modo significativo il personale per restare in piedi. È uno scenario ipotetico di prova, non una previsione su un'azienda o un evento reali.
 
 Prima di proseguire, ragionaci usando tutto ciò che è stato trattato in questo programma, e non solo in questo percorso: quali obblighi di legge (percorso PURPLE) regolano preavviso, indennità di fine rapporto e possibili cause per discriminazione nel modo in cui vengono scelte le persone coinvolte? Che cosa richiede davvero la situazione di liquidità e di autonomia finanziaria dell'impresa (percorso BLUE), rispetto a ciò che sembra emotivamente più facile? In che modo i tempi e il modo della comunicazione riflettono il tema della responsabilità del datore di lavoro (Lezione 14) ed evitano la trappola dell'evitamento dei conflitti (Lezione 12)? Che cosa segnala questa decisione, e il modo in cui viene gestita, ai dipendenti che restano su ciò che la leadership apprezza davvero (Lezioni 3 e 22)? E che cosa mette alla prova dell'ego del leader, della sua fusione d'identità con l'impresa e della sua capacità di agire con decisione in una vera incertezza (Lezioni 17, 30, 31 e 39)?
 

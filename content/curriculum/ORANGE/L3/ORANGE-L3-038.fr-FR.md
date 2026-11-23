@@ -32,7 +32,7 @@ Avant d'annoncer le rendement d'une campagne marketing comme une réussite, le c
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une campagne déclare avoir dépensé un montant précis en publicité et généré plusieurs fois ce montant en revenus, ce qui est présenté à l'interne comme une réussite claire en matière de rendement. [ASSUMPTION] Une comptabilité plus complète — qui comprend le temps important que l'équipe marketing a consacré à gérer la campagne, le coût complet de la livraison réelle du produit aux clients qui en découlent et le coût d'opportunité de l'attention de cette équipe qui aurait pu être dirigée ailleurs — révèle que le vrai rendement de la campagne est beaucoup plus modeste que ce que laissait croire le chiffre affiché, ce qui montre pourquoi un simple ratio dépenses publicitaires-revenus peut créer un portrait trompeur et trop rose du rendement marketing réel.
+[EXEMPLE ILLUSTRATIF] Une campagne déclare avoir dépensé un montant précis en publicité et généré plusieurs fois ce montant en revenus, ce qui est présenté à l'interne comme une réussite claire en matière de rendement. [HYPOTHÈSE] Une comptabilité plus complète — qui comprend le temps important que l'équipe marketing a consacré à gérer la campagne, le coût complet de la livraison réelle du produit aux clients qui en découlent et le coût d'opportunité de l'attention de cette équipe qui aurait pu être dirigée ailleurs — révèle que le vrai rendement de la campagne est beaucoup plus modeste que ce que laissait croire le chiffre affiché, ce qui montre pourquoi un simple ratio dépenses publicitaires-revenus peut créer un portrait trompeur et trop rose du rendement marketing réel.
 
 ## Quiz de pratique
 

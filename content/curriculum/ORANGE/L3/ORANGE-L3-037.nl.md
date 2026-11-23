@@ -30,7 +30,7 @@ Wat voor verkoopcultuur wil je werkelijk opbouwen – en moedigt je huidige belo
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een onderneming ontwerpt haar beloningsregeling voor de verkoop puur om individuele verkoopprestaties op korte termijn te maximaliseren, en laat de beslissing volledig over aan een financieel team dat stuurt op directe omzetdoelen. [ASSUMPTION] Na verloop van tijd moedigt deze structuur interne concurrentie aan die samenwerking ondermijnt, en een focus op snel sluiten die langetermijnrelaties met klanten beschadigt. Die uitkomsten weerspiegelen een echte leiderschapskeuze over organisatiecultuur en prioriteiten, ook al heeft niemand ooit uitdrukkelijk besloten "laten we samenwerking ondermijnen". Dit laat zien waarom het ontwerp van beloning op leiderschapsniveau moet worden bekeken op zijn culturele gevolgen, en niet alleen op de directe werking van de prikkels.
+[ILLUSTRATIEF VOORBEELD] Een onderneming ontwerpt haar beloningsregeling voor de verkoop puur om individuele verkoopprestaties op korte termijn te maximaliseren, en laat de beslissing volledig over aan een financieel team dat stuurt op directe omzetdoelen. [AANNAME] Na verloop van tijd moedigt deze structuur interne concurrentie aan die samenwerking ondermijnt, en een focus op snel sluiten die langetermijnrelaties met klanten beschadigt. Die uitkomsten weerspiegelen een echte leiderschapskeuze over organisatiecultuur en prioriteiten, ook al heeft niemand ooit uitdrukkelijk besloten "laten we samenwerking ondermijnen". Dit laat zien waarom het ontwerp van beloning op leiderschapsniveau moet worden bekeken op zijn culturele gevolgen, en niet alleen op de directe werking van de prikkels.
 
 ## Oefenquiz
 

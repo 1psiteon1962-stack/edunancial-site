@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Leson 3 te montre se korelasyon an, pa sèlman kantite envestisman yo, ki detèmine vrè divèsifikasyon. **Konsantrasyon nan yon sektè** se yon fason espesifik e komen risk korelasyon parèt: yon pòtfolyo ki gen anpil konpayi diferan ki tout travay nan menm endistri oswa menm sektè a.
 
-Men "poukisa" sa enpòtan: konpayi ki nan menm sektè a souvan reyaji a anpil nan menm fòs ekonomik ak regleman yo — konpayi teknoloji afekte pa menm chanjman nan depans sou teknoloji, konpayi enèji afekte pa menm mouvman pri matyè premyè, konpayi sante afekte pa menm chanjman nan regleman. [VERIFIED FACT] Sansiblite yo pataje sa a vle di yon pòtfolyo ka gen yon gwo kantite aksyon endividyèl epi toujou konpòte l, an total, prèske tankou yon pari konsantre sou sò yon sèl sektè — korelasyon ant envestisman yo detwi avantaj divèsifikasyon kantite envestisman yo pou kont li ta sijere.
+Men "poukisa" sa enpòtan: konpayi ki nan menm sektè a souvan reyaji a anpil nan menm fòs ekonomik ak regleman yo — konpayi teknoloji afekte pa menm chanjman nan depans sou teknoloji, konpayi enèji afekte pa menm mouvman pri matyè premyè, konpayi sante afekte pa menm chanjman nan regleman. [FÈ VERIFYE] Sansiblite yo pataje sa a vle di yon pòtfolyo ka gen yon gwo kantite aksyon endividyèl epi toujou konpòte l, an total, prèske tankou yon pari konsantre sou sò yon sèl sektè — korelasyon ant envestisman yo detwi avantaj divèsifikasyon kantite envestisman yo pou kont li ta sijere.
 
 Se pou sa, lè w ap evalye divèsifikasyon yon pòtfolyo, ou dwe gade ekspozisyon pa sektè espesyalman, pa sèlman yon senp kont konbyen konpayi diferan ou genyen.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon envestisè gen 25 aksyon diferan, e li santi li byen divèsifye sèlman akoz kantite a. Lè li gade pi pre, 20 nan 25 sa yo se konpayi teknoloji. Si yon gwo bès afekte sektè teknoloji a espesyalman — pa egzanp, yon chanjman nan to enterè ki fè valè konpayi teknoloji ki grandi vit yo mal patikilyèman — pifò gwo pati pòtfolyo li ekspoze a menm presyon sa a an menm tan, malgre kantite envestisman an sanble divèsifye. [ASSUMPTION] Yon pòtfolyo ki gen menm 25 envestisman total yo, men ki gaye pi egal atravè plizyè sektè diferan, ta gen plis chans soufri yon pi piti enpak total nan menm bès espesifik sektè sa a.
+[EGZANP ILISTRATIF] Yon envestisè gen 25 aksyon diferan, e li santi li byen divèsifye sèlman akoz kantite a. Lè li gade pi pre, 20 nan 25 sa yo se konpayi teknoloji. Si yon gwo bès afekte sektè teknoloji a espesyalman — pa egzanp, yon chanjman nan to enterè ki fè valè konpayi teknoloji ki grandi vit yo mal patikilyèman — pifò gwo pati pòtfolyo li ekspoze a menm presyon sa a an menm tan, malgre kantite envestisman an sanble divèsifye. [SIPOZISYON] Yon pòtfolyo ki gen menm 25 envestisman total yo, men ki gaye pi egal atravè plizyè sektè diferan, ta gen plis chans soufri yon pi piti enpak total nan menm bès espesifik sektè sa a.
 
 ## Egzamen pratik
 

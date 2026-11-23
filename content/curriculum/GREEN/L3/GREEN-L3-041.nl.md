@@ -22,7 +22,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Wanneer een werkgever inkomstenbelasting en loonheffingen inhoudt op het loon van een werknemer (zoals in Les 4), is dat ingehouden bedrag niet van de werkgever. Het is geld dat de werkgever tijdelijk aanhoudt namens de belastingdienst: verschuldigd door de werknemer voor de belasting, maar door de werkgever als tussenpersoon geïnd. Werkgevers hebben in het algemeen strikte, specifieke termijnen om deze ingehouden bedragen af te dragen, [VERIFIED FACT] waarbij de afdrachtfrequentie en de specifieke termijnen vaak afhangen van de omvang van de loonsom van de werkgever en andere factoren, vastgesteld door de bevoegde belastingdienst.
+Wanneer een werkgever inkomstenbelasting en loonheffingen inhoudt op het loon van een werknemer (zoals in Les 4), is dat ingehouden bedrag niet van de werkgever. Het is geld dat de werkgever tijdelijk aanhoudt namens de belastingdienst: verschuldigd door de werknemer voor de belasting, maar door de werkgever als tussenpersoon geïnd. Werkgevers hebben in het algemeen strikte, specifieke termijnen om deze ingehouden bedragen af te dragen, [GEVERIFIEERD FEIT] waarbij de afdrachtfrequentie en de specifieke termijnen vaak afhangen van de omvang van de loonsom van de werkgever en andere factoren, vastgesteld door de bevoegde belastingdienst.
 
 Hier is het "waarom" deze termijnen strenger worden behandeld dan sommige andere financiële verplichtingen van een bedrijf: omdat dit ingehouden geld nooit echt het eigen geld van de werkgever was – het werd namens werknemers en de belastingdienst geïnd – wordt het gebruiken ervan voor andere bedrijfsdoeleinden, zelfs tijdelijk tijdens een krappe periode, veel ernstiger opgevat dan een gewone late betaling aan een leverancier.
 
@@ -30,7 +30,7 @@ Dit onderscheid bereidt rechtstreeks het begrip "trust fund"-belastingen uit de 
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een bedrijf met een tijdelijk tekort aan liquide middelen komt in de verleiding om de afdracht van loonheffingen even uit te stellen, met het plan om die in te halen zodra de kasstroom verbetert – net zoals het een late betaling aan een leverancier zou behandelen. [ASSUMPTION] Omdat ingehouden loonheffingen worden gezien als geld dat namens werknemers en de belastingdienst wordt aangehouden, en niet als eigen bedrijfsgeld, heeft zo'n uitstel veel ernstigere gevolgen dan een late betaling aan een leverancier. Dat bereidt precies het risico op persoonlijke aansprakelijkheid voor dat de volgende les bespreekt bij het begrip "trust fund"-belastingen.
+[ILLUSTRATIEF VOORBEELD] Een bedrijf met een tijdelijk tekort aan liquide middelen komt in de verleiding om de afdracht van loonheffingen even uit te stellen, met het plan om die in te halen zodra de kasstroom verbetert – net zoals het een late betaling aan een leverancier zou behandelen. [AANNAME] Omdat ingehouden loonheffingen worden gezien als geld dat namens werknemers en de belastingdienst wordt aangehouden, en niet als eigen bedrijfsgeld, heeft zo'n uitstel veel ernstigere gevolgen dan een late betaling aan een leverancier. Dat bereidt precies het risico op persoonlijke aansprakelijkheid voor dat de volgende les bespreekt bij het begrip "trust fund"-belastingen.
 
 ## Oefenquiz
 

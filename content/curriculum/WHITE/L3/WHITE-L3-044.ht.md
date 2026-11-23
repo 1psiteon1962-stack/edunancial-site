@@ -28,13 +28,13 @@ Lè w fin fè leson sa a, w ap kapab:
 
 Yon **IPO (Initial Public Offering, sa vle di premye òf piblik)** se pwosesis kote yon konpayi prive vann aksyon bay piblik la pou premye fwa, e li vin yon konpayi ki gen aksyon piblik. Men "poukisa" envesti bò kote yon IPO gen yon risk diferan konpare ak achte yon konpayi piblik ki deja etabli: yon konpayi ki fèk vin piblik nòmalman gen yon istwa piblik ki pi kout anpil — mwens done istorik sou jan aksyon li achte e vann, jan direksyon an kominike ak aksyonè piblik yo, ak jan biznis la pèfòme anba siveyans ak egzijans rapò yon konpayi piblik.
 
-[VERIFIED FACT] Pri aksyon nan yon IPO nòmalman fikse dapre pwòp pwojeksyon konpayi an ak evalyasyon bank envestisman yo, olye yon long peryòd tranzaksyon reyèl sou mache piblik la, e aksyon ki fèk vin piblik yo, istorikman, souvan konnen gwo volatilite pri nan premye peryòd tranzaksyon yo, pandan mache a an jeneral ap fòme pwòp opinyon endepandan li sou valè konpayi an, ki ka diferan anpil de pri IPO a.
+[FÈ VERIFYE] Pri aksyon nan yon IPO nòmalman fikse dapre pwòp pwojeksyon konpayi an ak evalyasyon bank envestisman yo, olye yon long peryòd tranzaksyon reyèl sou mache piblik la, e aksyon ki fèk vin piblik yo, istorikman, souvan konnen gwo volatilite pri nan premye peryòd tranzaksyon yo, pandan mache a an jeneral ap fòme pwòp opinyon endepandan li sou valè konpayi an, ki ka diferan anpil de pri IPO a.
 
 Sa konekte ak diferans ant volatilite ak risk nan Leson 4: volatilite sa a nan kòmansman an pa nesesèman reflete yon chanjman nan biznis la li menm — li ka senpleman reflete pwosesis dekouvèt pri mache a k ap travay ak anpil mwens enfòmasyon piblik pase sa ki egziste pou yon konpayi ki deja etabli.
 
 ## Egzanp pratik
 
-[ILLUSTRATIVE EXAMPLE] Yon konpayi fin fè IPO li nan yon pri òf ki fikse. [ASSUMPTION] Nan premye semèn ak premye mwa tranzaksyon piblik li yo, aksyon an ta ka monte e desann anpil pi wo ak pi ba pri òf sa a, pandan diferan envestisè ap fòme opinyon diferan sou valè li ak yon ti kras done tranzaksyon istorik pou apiye opinyon sa yo. Yon envestisè ki achte touswit nan pri IPO a ekspoze a volatilite dekouvèt pri sa a nan kòmansman an yon fason yon envestisè ki achte aksyon nan yon konpayi ki gen plizyè ane istwa tranzaksyon piblik nòmalman pa ekspoze.
+[EGZANP ILISTRATIF] Yon konpayi fin fè IPO li nan yon pri òf ki fikse. [SIPOZISYON] Nan premye semèn ak premye mwa tranzaksyon piblik li yo, aksyon an ta ka monte e desann anpil pi wo ak pi ba pri òf sa a, pandan diferan envestisè ap fòme opinyon diferan sou valè li ak yon ti kras done tranzaksyon istorik pou apiye opinyon sa yo. Yon envestisè ki achte touswit nan pri IPO a ekspoze a volatilite dekouvèt pri sa a nan kòmansman an yon fason yon envestisè ki achte aksyon nan yon konpayi ki gen plizyè ane istwa tranzaksyon piblik nòmalman pa ekspoze.
 
 ## Egzamen pratik
 

@@ -28,11 +28,11 @@ Un'**opzione** è un contratto che dà a chi lo compra il diritto, ma non l'obbl
 
 Ecco il "perché" questo è diverso dal semplice possesso dell'azione: visto che sei obbligato ad agire solo se ti conviene, la perdita massima di chi compra l'opzione è limitata a quanto ha pagato per il contratto, il cosiddetto **premio**, mentre il guadagno potenziale può essere consistente se l'attività sottostante si muove nella direzione favorevole. Questa asimmetria (perdita limitata, guadagno potenziale più grande) è proprio ciò per cui paga chi compra.
 
-[VERIFIED FACT] Il venditore (o "writer") di un'opzione sta dall'altra parte di questa operazione e si assume l'obbligo di rispettare il contratto se chi compra decide di esercitare il suo diritto: per questo vendere opzioni ha un profilo di rischio fondamentalmente diverso, di cui si parla in una lezione successiva. Il premio non è arbitrario: riflette il prezzo attuale dell'attività sottostante, il prezzo di esercizio, il tempo che manca alla scadenza e la volatilità attesa dell'attività.
+[FATTO VERIFICATO] Il venditore (o "writer") di un'opzione sta dall'altra parte di questa operazione e si assume l'obbligo di rispettare il contratto se chi compra decide di esercitare il suo diritto: per questo vendere opzioni ha un profilo di rischio fondamentalmente diverso, di cui si parla in una lezione successiva. Il premio non è arbitrario: riflette il prezzo attuale dell'attività sottostante, il prezzo di esercizio, il tempo che manca alla scadenza e la volatilità attesa dell'attività.
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'investitrice compra un'opzione call su un'azione che oggi vale $50, con un prezzo di esercizio di $55, pagando un premio di $2 per azione. Se l'azione sale a $65 prima della scadenza, lei può esercitare il suo diritto di comprare a $55, ben sotto il prezzo di mercato, con un guadagno interessante, meno i $2 di premio pagati. Se l'azione resta sotto i $55 o scende, lei lascia semplicemente scadere l'opzione, e la sua perdita totale è limitata ai $2 di premio che ha pagato: non è mai stata obbligata a comprare a $55 se non aveva senso farlo.
+[ESEMPIO ILLUSTRATIVO] Un'investitrice compra un'opzione call su un'azione che oggi vale $50, con un prezzo di esercizio di $55, pagando un premio di $2 per azione. Se l'azione sale a $65 prima della scadenza, lei può esercitare il suo diritto di comprare a $55, ben sotto il prezzo di mercato, con un guadagno interessante, meno i $2 di premio pagati. Se l'azione resta sotto i $55 o scende, lei lascia semplicemente scadere l'opzione, e la sua perdita totale è limitata ai $2 di premio che ha pagato: non è mai stata obbligata a comprare a $55 se non aveva senso farlo.
 
 ## Quiz di esercitazione
 

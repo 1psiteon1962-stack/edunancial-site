@@ -30,7 +30,7 @@ Prima di trattare i risultati di una ricerca di mercato come la conferma che un 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa svolge un'ampia ricerca di mercato prima di lanciare un nuovo prodotto, e gli intervistati esprimono un forte interesse e una dichiarata disponibilità ad acquistare. [ASSUMPTION] Al lancio effettivo, il comportamento d'acquisto reale resta significativamente al di sotto di quanto suggeriva la ricerca. È uno schema comune, che riflette il vero divario tra intenzioni dichiarate in modo ipotetico e decisioni d'acquisto reali che coinvolgono soldi veri. Questo mostra perché la ricerca è stata utile per ridurre il rischio e informare il lancio, ma non ha mai eliminato l'incertezza di fondo nel modo in cui l'avrebbe rivelata in modo più affidabile una vera prova di mercato, riprendendo il concetto di MVP del percorso BLUE.
+[ESEMPIO ILLUSTRATIVO] Un'impresa svolge un'ampia ricerca di mercato prima di lanciare un nuovo prodotto, e gli intervistati esprimono un forte interesse e una dichiarata disponibilità ad acquistare. [IPOTESI] Al lancio effettivo, il comportamento d'acquisto reale resta significativamente al di sotto di quanto suggeriva la ricerca. È uno schema comune, che riflette il vero divario tra intenzioni dichiarate in modo ipotetico e decisioni d'acquisto reali che coinvolgono soldi veri. Questo mostra perché la ricerca è stata utile per ridurre il rischio e informare il lancio, ma non ha mai eliminato l'incertezza di fondo nel modo in cui l'avrebbe rivelata in modo più affidabile una vera prova di mercato, riprendendo il concetto di MVP del percorso BLUE.
 
 ## Quiz di esercitazione
 

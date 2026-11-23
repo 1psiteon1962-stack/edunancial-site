@@ -30,7 +30,7 @@ Prima di impegnare un budget di marketing significativo in una sponsorizzazione 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa impegna un budget di marketing significativo per sponsorizzare un evento o un'organizzazione molto conosciuti, valutando la sponsorizzazione soprattutto in base alla portata del pubblico e alla coerenza con il marchio che promette. [ASSUMPTION] Senza un'ulteriore due diligence sulla stabilità finanziaria dell'organizzazione sponsorizzata, quell'organizzazione attraversa in seguito gravi difficoltà finanziarie o reputazionali proprie, compromettendo il valore della sponsorizzazione e creando un rischio reputazionale per associazione (come nella Lezione 4). È un rischio che una due diligence più approfondita e da investimento, simile alla valutazione dei gestori di fondi del percorso GOLD, avrebbe potuto individuare prima di prendere l'impegno.
+[ESEMPIO ILLUSTRATIVO] Un'impresa impegna un budget di marketing significativo per sponsorizzare un evento o un'organizzazione molto conosciuti, valutando la sponsorizzazione soprattutto in base alla portata del pubblico e alla coerenza con il marchio che promette. [IPOTESI] Senza un'ulteriore due diligence sulla stabilità finanziaria dell'organizzazione sponsorizzata, quell'organizzazione attraversa in seguito gravi difficoltà finanziarie o reputazionali proprie, compromettendo il valore della sponsorizzazione e creando un rischio reputazionale per associazione (come nella Lezione 4). È un rischio che una due diligence più approfondita e da investimento, simile alla valutazione dei gestori di fondi del percorso GOLD, avrebbe potuto individuare prima di prendere l'impegno.
 
 ## Quiz di esercitazione
 

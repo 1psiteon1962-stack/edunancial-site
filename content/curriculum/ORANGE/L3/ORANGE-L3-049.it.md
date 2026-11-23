@@ -30,7 +30,7 @@ Prendi una qualsiasi decisione di vendita o marketing che hai davanti in questo 
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa che valuta una nuova opportunità di sponsorizzazione applica la versione completa di questa domanda. Il costo include non solo la quota di sponsorizzazione, ma anche l'impegno di verifica sulla solidità del partner (Lezione 36) e il rischio reputazionale dell'associazione (Lezione 4). Il rendimento include non solo la stima del pubblico raggiunto, ma anche la probabilità realistica che quel pubblico si converta in clienti reali, paganti e fidelizzati (Lezioni 3, 6 e 15), confrontata onestamente con ciò che lo stesso budget potrebbe ottenere altrove (Lezione 38). Questa versione completa della domanda produce una valutazione davvero diversa e più rigorosa rispetto a una più ristretta che chiede solo "quanto costa la sponsorizzazione e quante persone la vedranno".
+[ESEMPIO ILLUSTRATIVO] Un'impresa che valuta una nuova opportunità di sponsorizzazione applica la versione completa di questa domanda. Il costo include non solo la quota di sponsorizzazione, ma anche l'impegno di verifica sulla solidità del partner (Lezione 36) e il rischio reputazionale dell'associazione (Lezione 4). Il rendimento include non solo la stima del pubblico raggiunto, ma anche la probabilità realistica che quel pubblico si converta in clienti reali, paganti e fidelizzati (Lezioni 3, 6 e 15), confrontata onestamente con ciò che lo stesso budget potrebbe ottenere altrove (Lezione 38). Questa versione completa della domanda produce una valutazione davvero diversa e più rigorosa rispetto a una più ristretta che chiede solo "quanto costa la sponsorizzazione e quante persone la vedranno".
 
 ## Quiz di esercitazione
 

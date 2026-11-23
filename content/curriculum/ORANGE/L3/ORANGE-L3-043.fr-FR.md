@@ -32,7 +32,7 @@ Avant de lancer un programme de recommandation, ses conditions sont-elles assez 
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise lance un programme de recommandation avec une promesse simple et vague : « recommande un ami, sois récompensé ». Un client recommande plusieurs amis, dont certains s'inscrivent brièvement, puis annulent presque immédiatement. [ASSUMPTION] Sans conditions claires précisant si une récompense est gagnée au moment de l'inscription ou seulement après une période minimale de fidélisation, l'entreprise fait face à un vrai différend avec le client sur la question de savoir si ces recommandations en particulier sont réellement admissibles — un problème qu'un programme rédigé de façon plus précise, appliquant les mêmes principes de clarté contractuelle abordés dans le parcours PURPLE, aurait évité dès le départ.
+[EXEMPLE ILLUSTRATIF] Une entreprise lance un programme de recommandation avec une promesse simple et vague : « recommande un ami, sois récompensé ». Un client recommande plusieurs amis, dont certains s'inscrivent brièvement, puis annulent presque immédiatement. [HYPOTHÈSE] Sans conditions claires précisant si une récompense est gagnée au moment de l'inscription ou seulement après une période minimale de fidélisation, l'entreprise fait face à un vrai différend avec le client sur la question de savoir si ces recommandations en particulier sont réellement admissibles — un problème qu'un programme rédigé de façon plus précise, appliquant les mêmes principes de clarté contractuelle abordés dans le parcours PURPLE, aurait évité dès le départ.
 
 ## Quiz de pratique
 

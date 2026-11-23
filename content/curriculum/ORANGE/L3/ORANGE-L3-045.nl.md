@@ -30,7 +30,7 @@ Kijk naar de statistieken die je marketingteam nu rapporteert als bewijs van suc
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een marketingcampagne levert een zeer groot aantal vertoningen en veel interactie op sociale media op, wat intern wordt gerapporteerd als een duidelijk succes. [ASSUMPTION] Bij nadere beschouwing blijkt deze aandacht te hebben geleid tot heel weinig echte betalende klanten, en de paar die wel converteerden, vertrokken duidelijk vaker dan gemiddeld. De ijdelheidsstatistieken zagen er indrukwekkend uit, maar de echte bedrijfsresultaten die ze moesten weergeven – winstgevende klanten die blijven – kwamen er nooit. Dit laat zien waarom hoe indrukwekkend een statistiek is, op zich niets zegt over de echte waarde ervan voor de onderneming.
+[ILLUSTRATIEF VOORBEELD] Een marketingcampagne levert een zeer groot aantal vertoningen en veel interactie op sociale media op, wat intern wordt gerapporteerd als een duidelijk succes. [AANNAME] Bij nadere beschouwing blijkt deze aandacht te hebben geleid tot heel weinig echte betalende klanten, en de paar die wel converteerden, vertrokken duidelijk vaker dan gemiddeld. De ijdelheidsstatistieken zagen er indrukwekkend uit, maar de echte bedrijfsresultaten die ze moesten weergeven – winstgevende klanten die blijven – kwamen er nooit. Dit laat zien waarom hoe indrukwekkend een statistiek is, op zich niets zegt over de echte waarde ervan voor de onderneming.
 
 ## Oefenquiz
 

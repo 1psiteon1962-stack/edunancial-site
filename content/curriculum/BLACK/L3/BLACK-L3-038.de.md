@@ -30,7 +30,7 @@ Ganz ehrlich: Wie nachhaltig ist dein aktuelles Tempo als Führungskraft? Wenn d
 
 ## Durchgerechnetes Beispiel
 
-[ILLUSTRATIVE EXAMPLE] Eine Führungskraft hält über lange Zeit ein nicht nachhaltiges Tempo durch und behandelt Erholung und Delegieren als Luxus, um den sie sich erst kümmern will, wenn die aktuellen dringenden Anforderungen nachlassen. [ASSUMPTION] Diese chronische Erschöpfung zeigt sich schließlich in einer gesundheitlichen Krise, die eine unerwartete, längere Abwesenheit erfordert – genau die Art plötzlichen Ausfalls, vor der die Behandlung des Schlüsselpersonenrisikos in Lektion 2 gewarnt hat. Das zeigt, warum das eigene nachhaltige Tempo einer Führungskraft eine echte Frage der Fortführung der Organisation ist und nicht bloß eine Frage des persönlichen Wohlbefindens, getrennt von den geschäftlichen Risiken in diesem Lernpfad.
+[BEISPIEL ZUR VERANSCHAULICHUNG] Eine Führungskraft hält über lange Zeit ein nicht nachhaltiges Tempo durch und behandelt Erholung und Delegieren als Luxus, um den sie sich erst kümmern will, wenn die aktuellen dringenden Anforderungen nachlassen. [ANNAHME] Diese chronische Erschöpfung zeigt sich schließlich in einer gesundheitlichen Krise, die eine unerwartete, längere Abwesenheit erfordert – genau die Art plötzlichen Ausfalls, vor der die Behandlung des Schlüsselpersonenrisikos in Lektion 2 gewarnt hat. Das zeigt, warum das eigene nachhaltige Tempo einer Führungskraft eine echte Frage der Fortführung der Organisation ist und nicht bloß eine Frage des persönlichen Wohlbefindens, getrennt von den geschäftlichen Risiken in diesem Lernpfad.
 
 ## Übungsquiz
 1. Warum ist Burnout in der Führung ein echtes Risiko für die Fortführung des Unternehmens und nicht nur eine Frage des persönlichen Wohlbefindens?

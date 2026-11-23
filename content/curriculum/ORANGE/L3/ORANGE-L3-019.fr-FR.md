@@ -32,7 +32,7 @@ Si ta structure de commissions actuelle récompense X, quel comportement encoura
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une entreprise verse des commissions uniquement sur les nouvelles ventes conclues, sans aucune considération pour la fidélisation de la clientèle. [ASSUMPTION] Les vendeurs, qui réagissent rationnellement à cette structure, priorisent la conclusion du plus grand nombre possible de transactions, parfois avec des clients mal adaptés et susceptibles de partir rapidement — la commission est gagnée de toute façon, de sorte que la structure a, sans le vouloir, encouragé exactement le genre de croissance à faible fidélisation qui mine la santé de l'entreprise dépendante de la VVC abordée à la leçon 6, même si aucun vendeur individuel n'a rien fait de contraire à la lettre de son régime de rémunération.
+[EXEMPLE ILLUSTRATIF] Une entreprise verse des commissions uniquement sur les nouvelles ventes conclues, sans aucune considération pour la fidélisation de la clientèle. [HYPOTHÈSE] Les vendeurs, qui réagissent rationnellement à cette structure, priorisent la conclusion du plus grand nombre possible de transactions, parfois avec des clients mal adaptés et susceptibles de partir rapidement — la commission est gagnée de toute façon, de sorte que la structure a, sans le vouloir, encouragé exactement le genre de croissance à faible fidélisation qui mine la santé de l'entreprise dépendante de la VVC abordée à la leçon 6, même si aucun vendeur individuel n'a rien fait de contraire à la lettre de son régime de rémunération.
 
 ## Quiz de pratique
 

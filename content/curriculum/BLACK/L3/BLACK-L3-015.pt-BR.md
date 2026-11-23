@@ -30,7 +30,7 @@ Hoje você conseguiria fazer uma pergunta de acompanhamento realmente bem inform
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um líder delega toda a análise e os relatórios financeiros a um especialista financeiro de confiança, sem nunca desenvolver uma compreensão própria suficiente para fazer perguntas bem informadas sobre os relatórios que resultam disso. [ASSUMPTION] Quando esse especialista comete um erro honesto, mas significativo, em uma projeção financeira, o líder não tem nenhuma base própria para perceber o problema, já que nunca desenvolveu a compreensão básica necessária para avaliar os números por conta própria — o que mostra por que uma boa delegação da análise financeira ainda exige que o líder mantenha educação financeira própria suficiente para exercer uma supervisão real, e não só uma confiança incondicional.
+[EXEMPLO ILUSTRATIVO] Um líder delega toda a análise e os relatórios financeiros a um especialista financeiro de confiança, sem nunca desenvolver uma compreensão própria suficiente para fazer perguntas bem informadas sobre os relatórios que resultam disso. [SUPOSIÇÃO] Quando esse especialista comete um erro honesto, mas significativo, em uma projeção financeira, o líder não tem nenhuma base própria para perceber o problema, já que nunca desenvolveu a compreensão básica necessária para avaliar os números por conta própria — o que mostra por que uma boa delegação da análise financeira ainda exige que o líder mantenha educação financeira própria suficiente para exercer uma supervisão real, e não só uma confiança incondicional.
 
 ## Teste de prática
 

@@ -24,14 +24,14 @@ AANNAME/MENING (hypothetisch scenario uitsluitend voor onderwijsdoeleinden): Ste
 - Het denken in Sharpe-ratio's toepassen om twee hypothetische beleggingsstrategieën te vergelijken.
 
 ## Kerninhoud
-De Sharpe-ratio meet het rendement dat per eenheid genomen risico wordt behaald, berekend als (beleggingsrendement min de risicovrije rente) gedeeld door de standaardafwijking van de belegging (een gangbare maatstaf voor volatiliteit). VERIFIED FACT: een hogere Sharpe-ratio wijst op een gunstiger risicogecorrigeerd rendement, dat wil zeggen meer rendement voor elke eenheid genomen risico.
+De Sharpe-ratio meet het rendement dat per eenheid genomen risico wordt behaald, berekend als (beleggingsrendement min de risicovrije rente) gedeeld door de standaardafwijking van de belegging (een gangbare maatstaf voor volatiliteit). GEVERIFIEERD FEIT: een hogere Sharpe-ratio wijst op een gunstiger risicogecorrigeerd rendement, dat wil zeggen meer rendement voor elke eenheid genomen risico.
 
 Dit is het "waarom" dit belangrijker is dan alleen ruwe rendementen vergelijken, wat rechtstreeks aansluit bij het principe van risicogecorrigeerd rendement uit de vastgoedanalyse: twee beleggingsstrategieën kunnen over een periode identieke ruwe rendementen opleveren, maar als de ene dat rendement behaalde met veel meer volatiliteit (grotere schommelingen omhoog en omlaag onderweg) dan de andere, heeft de gelijkmatigere strategie met minder volatiliteit een hogere Sharpe-ratio en wordt die over het algemeen beschouwd als de vakkundiger of veiliger opgebouwde van de twee, ook al lijken de koprendementen hetzelfde.
 
 Daarom kan het najagen van het hoogste historische ruwe rendement, zonder de volatiliteit en het risico te onderzoeken die nodig waren om het te behalen, een belegger naar strategieën leiden die in sterke perioden indrukwekkend lijken (zoals de door krediet aangejaagde groei uit het scenario hierboven), maar die een verborgen kwetsbaarheid hebben die pas zichtbaar wordt als de omstandigheden omslaan, omdat het onderliggende risico dat het ruwe rendement opblies ook de uiteindelijke neerwaartse beweging versterkt.
 
 ## Uitgewerkt voorbeeld
-ILLUSTRATIVE EXAMPLE: Fonds A rendeert 12% per jaar met een standaardafwijking van 8%, terwijl Fonds B ook 12% per jaar rendeert maar met een standaardafwijking van 20%, uitgaande van een risicovrije rente van 3%. De Sharpe-ratio van Fonds A is (12-3)/8 = 1,13, terwijl die van Fonds B (12-3)/20 = 0,45 is. Ondanks identieke ruwe rendementen behaalde Fonds A dat rendement veel efficiënter, met veel minder risico per eenheid rendement, waardoor het van de twee de aantrekkelijkste presteerder is op risicogecorrigeerde basis.
+ILLUSTRATIEF VOORBEELD: Fonds A rendeert 12% per jaar met een standaardafwijking van 8%, terwijl Fonds B ook 12% per jaar rendeert maar met een standaardafwijking van 20%, uitgaande van een risicovrije rente van 3%. De Sharpe-ratio van Fonds A is (12-3)/8 = 1,13, terwijl die van Fonds B (12-3)/20 = 0,45 is. Ondanks identieke ruwe rendementen behaalde Fonds A dat rendement veel efficiënter, met veel minder risico per eenheid rendement, waardoor het van de twee de aantrekkelijkste presteerder is op risicogecorrigeerde basis.
 
 ## Oefenquiz
 **V1. Wat meet de Sharpe-ratio?**

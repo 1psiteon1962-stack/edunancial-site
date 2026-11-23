@@ -24,7 +24,7 @@ Aan het einde van deze les kun je:
 
 ## Kerninhoud
 
-Het is verleidelijk om een dividenduitkering te zien als extra geld bovenop de bestaande waarde van een aandeel, een bonus voor het aanhouden van het aandeel. Dit is het "waarom" dat die voorstelling misleidend is: een bedrijf betaalt dividend uit zijn eigen kas, waardoor de resterende bezittingen van het bedrijf kleiner worden. [VERIFIED FACT] Op de ex-dividenddatum daalt de koers van een aandeel meestal met ongeveer het uitgekeerde dividendbedrag, omdat het bedrijf nu iets minder waard is, nadat het een deel van zijn kas aan aandeelhouders heeft uitgekeerd.
+Het is verleidelijk om een dividenduitkering te zien als extra geld bovenop de bestaande waarde van een aandeel, een bonus voor het aanhouden van het aandeel. Dit is het "waarom" dat die voorstelling misleidend is: een bedrijf betaalt dividend uit zijn eigen kas, waardoor de resterende bezittingen van het bedrijf kleiner worden. [GEVERIFIEERD FEIT] Op de ex-dividenddatum daalt de koers van een aandeel meestal met ongeveer het uitgekeerde dividendbedrag, omdat het bedrijf nu iets minder waard is, nadat het een deel van zijn kas aan aandeelhouders heeft uitgekeerd.
 
 Dit betekent dat dividend geen nieuw vermogen is dat uit het niets verschijnt. Het is een herverdeling van waarde die al in het bedrijf zat en die nu als contant geld in de zak van de aandeelhouder terechtkomt, in plaats van onderdeel te blijven van de koers van het aandeel. De aandeelhouder is op het moment van uitkering niet wezenlijk rijker; die heeft gewoon dezelfde totale waarde, verdeeld over een iets lagere aandelenkoers en het ontvangen contante dividend.
 
@@ -32,7 +32,7 @@ Daarom is **totaalrendement**, dus koersstijging en dividend samen, de completer
 
 ## Uitgewerkt voorbeeld
 
-[ILLUSTRATIVE EXAMPLE] Een aandeel staat op $100 de dag voordat het een dividend van $2 per aandeel uitkeert. Op de ex-dividenddatum past de koers zich, bij verder gelijke omstandigheden, meestal aan tot ongeveer $98, wat de $2 per aandeel weerspiegelt die het bedrijf zojuist als contante uitkering heeft verlaten. Een belegger met één aandeel heeft nu $98 aan aandelen plus $2 aan contant geld: nog steeds $100 aan totale waarde, net als vóór de uitkering van het dividend. Het dividend creëerde geen nieuw vermogen; het zette alleen $2 aan bestaande aandelenwaarde om in $2 contant geld.
+[ILLUSTRATIEF VOORBEELD] Een aandeel staat op $100 de dag voordat het een dividend van $2 per aandeel uitkeert. Op de ex-dividenddatum past de koers zich, bij verder gelijke omstandigheden, meestal aan tot ongeveer $98, wat de $2 per aandeel weerspiegelt die het bedrijf zojuist als contante uitkering heeft verlaten. Een belegger met één aandeel heeft nu $98 aan aandelen plus $2 aan contant geld: nog steeds $100 aan totale waarde, net als vóór de uitkering van het dividend. Het dividend creëerde geen nieuw vermogen; het zette alleen $2 aan bestaande aandelenwaarde om in $2 contant geld.
 
 ## Oefenquiz
 

@@ -34,11 +34,11 @@ I sistemi variano molto. In alcuni paga chi dona o l'eredità; in altri, chi ric
 
 Il punto centrale è che trasferire patrimonio tra generazioni può avere costi fiscali, e questi costi si possono ridurre in modo legale con la pianificazione. È un'area in cui i percorsi GREEN, PURPLE e GOLD si incontrano, e in cui un professionista fa molta differenza.
 
-**[REGION-SPECIFIC RULE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
 
 ## Esempio pratico
 
-**[ILLUSTRATIVE EXAMPLE]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
 
 **Insegnante:** La signora Rosa vuole lasciare la casa ai nipoti. Perché dovrebbe pensare alle imposte già ora?
 

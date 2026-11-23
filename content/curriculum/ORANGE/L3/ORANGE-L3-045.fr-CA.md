@@ -32,7 +32,7 @@ Regarde les indicateurs que ton équipe marketing déclare actuellement comme pr
 
 ## Exemple pratique
 
-[ILLUSTRATIVE EXAMPLE] Une campagne marketing génère un nombre très élevé d'impressions et d'interactions sur les réseaux sociaux, ce qui est présenté à l'interne comme une réussite claire. [ASSUMPTION] Un examen plus attentif révèle que cette attention s'est traduite par très peu de vrais clients payants, et que les rares qui se sont convertis avaient un taux d'attrition nettement plus élevé que la moyenne — les indicateurs de vanité semblaient impressionnants, mais les vrais résultats d'affaires qu'ils étaient censés représenter (des clients rentables et fidélisés) ne se sont jamais concrétisés, ce qui montre pourquoi le caractère impressionnant d'un indicateur, à lui seul, ne te dit rien sur sa vraie valeur d'affaires.
+[EXEMPLE ILLUSTRATIF] Une campagne marketing génère un nombre très élevé d'impressions et d'interactions sur les réseaux sociaux, ce qui est présenté à l'interne comme une réussite claire. [HYPOTHÈSE] Un examen plus attentif révèle que cette attention s'est traduite par très peu de vrais clients payants, et que les rares qui se sont convertis avaient un taux d'attrition nettement plus élevé que la moyenne — les indicateurs de vanité semblaient impressionnants, mais les vrais résultats d'affaires qu'ils étaient censés représenter (des clients rentables et fidélisés) ne se sont jamais concrétisés, ce qui montre pourquoi le caractère impressionnant d'un indicateur, à lui seul, ne te dit rien sur sa vraie valeur d'affaires.
 
 ## Quiz de pratique
 

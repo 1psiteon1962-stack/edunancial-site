@@ -22,7 +22,7 @@ Al termine di questa lezione sarai in grado di:
 
 ## Contenuto principale
 
-La Lezione 41 ha stabilito che le ritenute sulle retribuzioni vengono custodite dal datore di lavoro quasi come un fiduciario, per conto dei dipendenti e del fisco. Ecco il "perché" questa classificazione ha conseguenze serie se questi importi non vengono versati: [VERIFIED FACT] molte autorità fiscali hanno regole specifiche che permettono di rivalersi personalmente sulle persone responsabili della riscossione e del versamento di queste imposte "trust fund" (spesso titolari, amministratori o altre persone con il controllo delle finanze dell'impresa) se l'impresa non le versa, indipendentemente dalla forma giuridica dell'impresa.
+La Lezione 41 ha stabilito che le ritenute sulle retribuzioni vengono custodite dal datore di lavoro quasi come un fiduciario, per conto dei dipendenti e del fisco. Ecco il "perché" questa classificazione ha conseguenze serie se questi importi non vengono versati: [FATTO VERIFICATO] molte autorità fiscali hanno regole specifiche che permettono di rivalersi personalmente sulle persone responsabili della riscossione e del versamento di queste imposte "trust fund" (spesso titolari, amministratori o altre persone con il controllo delle finanze dell'impresa) se l'impresa non le versa, indipendentemente dalla forma giuridica dell'impresa.
 
 Questo si collega direttamente alle discussioni sulle garanzie personali trattate nei percorsi RED e BLUE di questo programma: proprio come una garanzia personale può creare una responsabilità personale per un prestito nonostante una LLC o una società, la responsabilità per le imposte "trust fund" può allo stesso modo superare la tutela della responsabilità limitata per questa specifica categoria di imposta non versata, perché quel denaro non è mai stato legittimamente dell'impresa: è stato riscosso in custodia per qualcun altro.
 
@@ -30,7 +30,7 @@ Per questo i titolari d'impresa e chi prende le decisioni finanziarie devono tra
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa in difficoltà finanziaria non versa al fisco le ritenute sulle retribuzioni per un lungo periodo, pur continuando a trattenere il denaro dalle buste paga dei dipendenti. [ASSUMPTION] Anche se l'impresa è organizzata come LLC per proteggere il patrimonio personale del titolare dalla maggior parte dei debiti aziendali, il titolare, individuato come persona responsabile con il controllo delle finanze dell'impresa, potrebbe essere chiamato a rispondere personalmente di questo specifico debito per imposte "trust fund" non versate: un'eccezione alla tutela generale della responsabilità limitata che la struttura di LLC offrirebbe altrimenti per la maggior parte degli altri tipi di debiti aziendali.
+[ESEMPIO ILLUSTRATIVO] Un'impresa in difficoltà finanziaria non versa al fisco le ritenute sulle retribuzioni per un lungo periodo, pur continuando a trattenere il denaro dalle buste paga dei dipendenti. [IPOTESI] Anche se l'impresa è organizzata come LLC per proteggere il patrimonio personale del titolare dalla maggior parte dei debiti aziendali, il titolare, individuato come persona responsabile con il controllo delle finanze dell'impresa, potrebbe essere chiamato a rispondere personalmente di questo specifico debito per imposte "trust fund" non versate: un'eccezione alla tutela generale della responsabilità limitata che la struttura di LLC offrirebbe altrimenti per la maggior parte degli altri tipi di debiti aziendali.
 
 ## Quiz di esercitazione
 

@@ -22,7 +22,7 @@ Ao final desta lição, você será capaz de:
 
 ## Conteúdo principal
 
-A Lição 41 mostrou que os tributos retidos da folha ficam com o empregador quase como um fiduciário, em nome dos funcionários e das autoridades fiscais. Este é o "porquê" de essa classificação trazer consequências sérias se esses valores não forem recolhidos: [VERIFIED FACT] muitas autoridades fiscais têm regras específicas que permitem cobrar pessoalmente as pessoas responsáveis por reter e recolher esses tributos "trust fund" — muitas vezes donos, diretores ou outras pessoas com controle sobre as finanças da empresa — se a empresa não os recolher, independentemente da estrutura jurídica da empresa.
+A Lição 41 mostrou que os tributos retidos da folha ficam com o empregador quase como um fiduciário, em nome dos funcionários e das autoridades fiscais. Este é o "porquê" de essa classificação trazer consequências sérias se esses valores não forem recolhidos: [FATO VERIFICADO] muitas autoridades fiscais têm regras específicas que permitem cobrar pessoalmente as pessoas responsáveis por reter e recolher esses tributos "trust fund" — muitas vezes donos, diretores ou outras pessoas com controle sobre as finanças da empresa — se a empresa não os recolher, independentemente da estrutura jurídica da empresa.
 
 Isso se liga diretamente às discussões sobre garantia pessoal vistas nas trilhas RED e BLUE deste currículo: assim como uma garantia pessoal pode criar responsabilidade pessoal por um empréstimo apesar de uma estrutura de LLC ou sociedade, a responsabilidade pelos tributos "trust fund" também pode atravessar a proteção da empresa justamente para essa categoria de tributo não recolhido, porque esse dinheiro nunca foi legitimamente da própria empresa — ele foi cobrado sob guarda para outra pessoa.
 
@@ -30,7 +30,7 @@ Isso se liga diretamente às discussões sobre garantia pessoal vistas nas trilh
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Uma empresa com dificuldades financeiras deixa de recolher às autoridades fiscais os tributos retidos da folha durante um longo período, mesmo continuando a reter esse dinheiro dos salários dos funcionários. [ASSUMPTION] Mesmo que a empresa esteja organizada como uma LLC pensada para proteger o patrimônio pessoal do dono contra a maioria das dívidas da empresa, o dono, identificado como pessoa responsável com controle sobre as finanças da empresa, pode ser cobrado pessoalmente por essa dívida específica de tributos "trust fund" não recolhidos — uma exceção à proteção geral de responsabilidade que a estrutura de LLC daria para a maioria dos outros tipos de dívida da empresa.
+[EXEMPLO ILUSTRATIVO] Uma empresa com dificuldades financeiras deixa de recolher às autoridades fiscais os tributos retidos da folha durante um longo período, mesmo continuando a reter esse dinheiro dos salários dos funcionários. [SUPOSIÇÃO] Mesmo que a empresa esteja organizada como uma LLC pensada para proteger o patrimônio pessoal do dono contra a maioria das dívidas da empresa, o dono, identificado como pessoa responsável com controle sobre as finanças da empresa, pode ser cobrado pessoalmente por essa dívida específica de tributos "trust fund" não recolhidos — uma exceção à proteção geral de responsabilidade que a estrutura de LLC daria para a maioria dos outros tipos de dívida da empresa.
 
 ## Teste de prática
 

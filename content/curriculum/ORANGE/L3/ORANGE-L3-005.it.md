@@ -30,7 +30,7 @@ Prima di impegnarti in una grossa nuova spesa di marketing: che cos'altro potreb
 
 ## Esempio pratico
 
-[ILLUSTRATIVE EXAMPLE] Un'impresa valuta un forte aumento della spesa pubblicitaria, giustificato internamente confrontandolo solo con il budget più piccolo dell'anno precedente e con risultati un po' più alti. [ASSUMPTION] Applicando invece lo schema corretto per il rischio del percorso GOLD, il team confronta questa decisione di spesa con l'alternativa realistica di usare lo stesso capitale per ridurre un debito ad alto interesse o finanziare lo sviluppo del prodotto con rendimenti più certi. È un confronto che la semplice lettura anno su anno non aveva mai fatto, e rivela che la spesa di marketing, pur non essendo irragionevole, non era chiaramente l'uso più forte di quel capitale una volta considerate le vere alternative.
+[ESEMPIO ILLUSTRATIVO] Un'impresa valuta un forte aumento della spesa pubblicitaria, giustificato internamente confrontandolo solo con il budget più piccolo dell'anno precedente e con risultati un po' più alti. [IPOTESI] Applicando invece lo schema corretto per il rischio del percorso GOLD, il team confronta questa decisione di spesa con l'alternativa realistica di usare lo stesso capitale per ridurre un debito ad alto interesse o finanziare lo sviluppo del prodotto con rendimenti più certi. È un confronto che la semplice lettura anno su anno non aveva mai fatto, e rivela che la spesa di marketing, pur non essendo irragionevole, non era chiaramente l'uso più forte di quel capitale una volta considerate le vere alternative.
 
 ## Quiz di esercitazione
 

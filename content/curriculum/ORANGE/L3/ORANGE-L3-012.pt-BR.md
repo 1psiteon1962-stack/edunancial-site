@@ -30,7 +30,7 @@ Se hoje o seu negócio consegue a maior parte dos clientes por um único canal d
 
 ## Exemplo prático
 
-[ILLUSTRATIVE EXAMPLE] Um negócio consegue a grande maioria dos novos clientes por uma única plataforma de anúncios, satisfeito com o custo por aquisição hoje baixo. [ASSUMPTION] Quando essa plataforma muda de forma significativa o algoritmo ou a estrutura de preços, o custo de aquisição do negócio dispara e o volume despenca, sem nenhum outro canal consolidado e maduro o bastante para cobrir a lacuna — um risco de concentração diretamente comparável a manter uma única classe de ativos, como visto nas trilhas WHITE e GOLD, que uma combinação de canais mais diversificada teria ajudado a reduzir.
+[EXEMPLO ILUSTRATIVO] Um negócio consegue a grande maioria dos novos clientes por uma única plataforma de anúncios, satisfeito com o custo por aquisição hoje baixo. [SUPOSIÇÃO] Quando essa plataforma muda de forma significativa o algoritmo ou a estrutura de preços, o custo de aquisição do negócio dispara e o volume despenca, sem nenhum outro canal consolidado e maduro o bastante para cobrir a lacuna — um risco de concentração diretamente comparável a manter uma única classe de ativos, como visto nas trilhas WHITE e GOLD, que uma combinação de canais mais diversificada teria ajudado a reduzir.
 
 ## Teste de prática
 
