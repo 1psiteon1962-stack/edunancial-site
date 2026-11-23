@@ -137,3 +137,143 @@ Q5: B
 - Fè diferans ant yon vrè fenèt ak yon fo siyal mande pou konfime onètman ni enpòtans pwoblèm debaz la ni pwòp vrè kapasite biznis la pou l aji, sa ki fè echo ak premye diskisyon moman lansman an.
 - Antre yon fason desizif depi yo konfime yon vrè fenèt diferan fondamantalman de yon enpilsyon ki pa reflechi, ki pa gen prèv, paske desizyon fèm nan vini apre yon evalyasyon atantif anvan.
 - Leson sa a bay disiplin espesifik sou moman kad atak-konpare-ak-defans ki pi laj la mande: konfime fenèt la vre, apre sa aji anndan l anvan li fèmen.
+
+===== ORANGE-L4-048
+TITLE: Analiz estrateji pri agresif ak kaptire pati mache: poukisa yon mouvman ki fèt a mwatye gaspiye opòtinite a
+SUMMARY: Konprann poukisa, depi yon biznis deside pouswiv yon estrateji agresif, yon vèsyon ki fèt a mwatye ka pi mal pase angaje nèt oswa pa fè anyen, poukisa yon mouvman pri agresif mande ase gwosè ak dire, poukisa mank resous envite yon repons konkiran, ak lyen ak tèm resous ase pwogram nan.
+KEYWORDS: estrateji pri agresif, angajman pou kaptire pati mache, efò konkirans ki pa gen ase fòs, resous ase pou estrateji yo chwazi
+# Analiz estrateji pri agresif ak kaptire pati mache: poukisa yon mouvman ki fèt a mwatye gaspiye opòtinite a
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak mache kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, k ap kòmanse montre siy yon gwo koreksyon pandan moun ki pa peye dèt yo ap kòmanse ogmante. Pandan yon boom ki te alimante pa kredi ap defèt e pozisyon fèb yon konkiran k ap lite kreye yon vrè ouvèti, yon biznis ki te deside pouswiv yon estrateji pri agresif ak kaptire pati mache dekouvri ke angaje sèlman yon pati nan resous yo nan efò espesifik sa a bay pi move rezilta nan de bò yo: kou yon mouvman agresif san vrè rezilta yon efò ki angaje nèt ta bay.
+
+## Objektif aprantisaj
+- Esplike poukisa, depi yon biznis vrèman deside pouswiv yon estrateji agresif pou kaptire pati mache, yon vèsyon estrateji sa a ki fèt a mwatye, ki pa gen ase fòs ka pi mal pase swa yon angajman konplè swa pa fè anyen ditou.
+- Esplike poukisa yon mouvman pri agresif mande espesyalman ase gwosè ak dire pou l vrèman rive nan efè kaptire pati mache yo vle a, olye yon jès kout, senbolik.
+- Esplike poukisa mank resous pou yon estrateji agresif yo chwazi ka envite pwòp repons efikas yon konkiran anvan estrateji a te gen okenn chans pou l reyisi.
+- Esplike poukisa prensip leson sa a konekte ak tèm ki pi laj pwogram nan ke si yon apwòch estratejik espesifik vrèman jistifye, yo ta dwe pouswiv li ak resous ki vrèman ase, pa yon vèsyon ki fèb, ki pa gen ase fòs.
+
+## Kontni prensipal
+FÈ VERIFYE: depi yon biznis vrèman detèmine ak atansyon, atravè kalite evalyasyon disipline Leson 46 ak 47 nivo sa a dekri, ke yon estrateji pri agresif oswa yon estrateji pou kaptire pati mache vrèman jistifye pa kondisyon aktyèl yo, angaje ase resous pou egzekite estrateji espesifik sa a nèt esansyèl, paske yon vèsyon yon estrateji agresif ki fèt a mwatye, ki pa gen ase fòs riske bay pi move nan de rezilta ki disponib yo: biznis la pote vrè kou yon mouvman pri agresif tipikman genyen (mwens maj nan kout tèm, plis presyon operasyonèl pou sèvi demann ki ogmante) san kou sa yo vrèman bay rezilta yo vle a, paske yon efò ki pa gen ase resous anjeneral pa rive nan gwosè oswa dire yon vrè estrateji kaptire pati mache vrèman mande pou l reyisi.
+
+Men "poukisa" yon mouvman pri agresif mande espesyalman ase gwosè ak dire pou l vrèman rive nan efè kaptire pati mache yo vle a, olye yon jès kout, senbolik: kaptire yon pati mache enpòtan nan men yon konkiran anjeneral mande yon mouvman pri oswa pozisyònman ki gwo ase e ki dire ase pou l vrèman motive yon kantite kliyan enpòtan pou yo vrèman chanje, e pou kenbe yo depi yo chanje, sa ki vle di yon ti rabè pri kout, yo retire vit, pa gen chans bay kalite vrè efè chanjman kliyan sa a, paske kliyan k ap konsidere si yon mouvman espesifik vo efò ak risk pou chanje founisè anjeneral bezwen wè yon ankourajman ki gwo ase e ki dire ase anvan yo vrèman aji sou li.
+
+Se poutèt sa mank resous pou yon estrateji agresif yo chwazi ka envite pwòp repons efikas yon konkiran anvan estrateji a te gen okenn chans pou l reyisi: yon mouvman agresif ki piti, ki fasil pou egale montre entansyon espesifik yon biznis bay yon konkiran san l pa vrèman rive nan yon rezilta desizif, sa ki bay konkiran sa a ni avètisman ni tan pou l reponn yon fason efikas (egale mouvman pri a, oswa kontre l yon lòt fason) anvan pwòp efò ki pi limite biznis ki te kòmanse a te gen okenn vrè opòtinite pou l vrèman kaptire pati yo te vle a, sa ki vle di yon mouvman agresif ki pa gen ase fòs ka kite yon biznis ki te revele entansyon estratejik li e ki te sipòte vrè kou, alòske yon mouvman ki angaje nèt, ki gen ase resous ta ka pito rive nan rezilta li te vle a anvan yon konkiran te ka monte yon repons efikas. Se poutèt sa prensip leson sa a konekte ak tèm ki pi laj pwogram nan ke si yon apwòch estratejik espesifik vrèman jistifye, yo ta dwe pouswiv li ak resous ki vrèman ase, pa yon vèsyon ki fèb, ki pa gen ase fòs: sa reflete menm lojik debaz pwogram sa a te aplike yon lòt kote pou fè angajman resous koresponn ak yon apwòch estratejik yo chwazi — yon desizyon pou pouswiv yon estrateji espesifik ditou ta dwe mache ansanm ak yon evalyasyon onèt sou ki nivo angajman estrateji sa a vrèman mande pou l vrèman reyisi, paske chwazi aji, men pa bay aksyon sa a ase resous konpare ak sa sitiyasyon an vrèman mande, anjeneral bay yon rezilta ki pi mal pase swa angaje nèt resous ki nesesè yo swa, si resous sa yo pa vrèman disponib, chwazi pa pouswiv estrateji agresif espesifik sa a ditou an favè defo ki pi pasyan, ki pi disipline Leson 46 nivo sa a te idantifye kòm anjeneral apwopriye.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis, apre li fin konfime vrèman atravè yon evalyasyon atantif ke pozisyon fèb yon konkiran k ap lite kreye yon vrè opòtinite pou kaptire pati mache, konsidere yon ti rabè pri kout olye mouvman pri ki pi gwo e ki dire plis pwòp analiz li montre ta vrèman nesesè pou motive yon chanjman kliyan enpòtan. Li rekonèt ke ti mouvman sa a ta pote vrè kou pandan konkiran an ta ka egale l fasil e vit, san l pa rive nan rezilta kaptire pati mache yo vle a, biznis la angaje pito nan yon mouvman pri ki vrèman ase, ki dire pou egzakteman dire pwòp analiz li montre ki vrèman nesesè a, li rive fè yon chanjman kliyan enpòtan anvan konkiran ki fèb la ka monte yon repons efikas — sa ki montre egzakteman poukisa yon angajman konplè nan yon estrateji agresif ki vrèman jistifye pi bon pase yon vèsyon menm apwòch debaz la ki fèt a mwatye, ki fasil pou egale.
+
+## Egzamen pratik
+**Q1. Poukisa yon estrateji agresif ki fèt a mwatye, ki pa gen ase fòs ka pi mal pase swa yon angajman konplè swa pa fè anyen ditou?**
+A) Yon estrateji agresif ki fèt a mwatye toujou bay rezilta idantik ak youn ki angaje nèt, san okenn diferans enpòtan
+B) Biznis la pote vrè kou yon mouvman agresif tipikman genyen san kou sa yo vrèman bay rezilta yo vle a, paske yon efò ki pa gen ase resous anjeneral pa rive nan gwosè oswa dire yon vrè estrateji kaptire pati mache vrèman mande pou l reyisi
+
+**Q2. Poukisa yon mouvman pri agresif mande espesyalman ase gwosè ak dire pou l rive nan efè yo vle a?**
+A) Nenpòt ti mouvman pri kout, kèlkeswa gwosè oswa dire li, toujou rive nan menm efè kaptire pati mache ak youn ki gwo, ki dire
+B) Kaptire yon pati mache enpòtan anjeneral mande yon mouvman ki gwo ase e ki dire ase pou l vrèman motive kliyan yo pou yo vrèman chanje e pou yo rete chanje, sa ki vle di yon ti mouvman kout yo retire vit pa gen chans bay kalite vrè efè chanjman kliyan sa a
+
+**Q3. Poukisa mank resous pou yon estrateji agresif yo chwazi ka envite yon repons efikas yon konkiran anvan estrateji a reyisi?**
+A) Mank resous toujou anpeche yon konkiran remake oswa reponn a mouvman agresif yon biznis ditou
+B) Yon ti mouvman ki fasil pou egale montre entansyon estratejik yon biznis bay yon konkiran san l pa rive nan yon rezilta desizif, sa ki bay konkiran sa a ni avètisman ni tan pou l reponn yon fason efikas anvan efò ki pi limite biznis ki te kòmanse a te gen okenn vrè opòtinite pou l reyisi
+
+**Q4. Kijan prensip leson sa a konekte ak tèm ki pi laj pwogram nan sou fè angajman resous koresponn ak yon estrateji yo chwazi?**
+A) Leson sa a pa gen okenn vrè rapò ak okenn tèm ki pi laj pwogram nan sou angajman resous
+B) Yon desizyon pou pouswiv yon estrateji espesifik ditou ta dwe mache ansanm ak yon evalyasyon onèt sou ki nivo angajman estrateji sa a vrèman mande pou l reyisi, paske aji men pa bay aksyon sa a ase resous konpare ak sa sitiyasyon an mande anjeneral bay yon rezilta ki pi mal pase swa yon angajman konplè swa chwazi pa pouswiv estrateji sa a ditou
+
+**Q5. Nan egzanp lan, poukisa desizyon biznis la pou l angaje nèt nan yon mouvman pri ki gwo, ki dire te pi bon pase ti opsyon li te konsidere okòmansman an?**
+A) Ti rabè pri kout la ta an reyalite rive nan menm rezilta kaptire pati mache idantik ak mouvman ki angaje nèt la
+B) Ti mouvman an ta pote vrè kou pandan konkiran an ta ka egale l fasil e vit san l pa rive nan rezilta yo vle a, alòske mouvman ki angaje nèt, ki dire ase a te rive fè yon chanjman kliyan enpòtan anvan konkiran ki fèb la te ka monte yon repons efikas
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fason sa a pou pote vrè kou san rive nan rezilta yo vle a se egzakteman poukisa yon estrateji agresif ki fèt a mwatye ka bay pi move nan de rezilta ki disponib yo.
+
+**Q2.** Bezwen sa a pou ase gwosè ak dire pou vrèman motive yon vrè chanjman kliyan ki dire se egzakteman poukisa yon mouvman pri agresif mande kalite gwo angajman sa a pou l reyisi.
+
+**Q3.** Fason sa a pou revele entansyon estratejik san rive nan yon rezilta desizif, sa ki bay konkiran an tan pou l reponn, se egzakteman poukisa mouvman agresif ki pa gen ase fòs ka envite yon repons konkiran efikas, nan bon moman.
+
+**Q4.** Lyen sa a ak tèm ki pi laj sou fè yon vrè angajman koresponn ak yon apwòch estratejik yo chwazi, olye febli l, se egzakteman jan prensip leson sa a antre nan kad estratejik ki pi gwo pwogram sa a.
+
+**Q5.** Kontras dirèk sa a ant yon mouvman ki fasil pou egale, ki pa gen ase fòs ak youn ki angaje nèt, ki dire ase montre egzakteman poukisa yon angajman konplè nan yon estrateji agresif ki vrèman jistifye pi bon pase yon vèsyon menm apwòch la ki fèt a mwatye.
+
+## Pwen kle yo
+- Yon estrateji agresif ki fèt a mwatye ka bay pi move nan de rezilta yo: pote vrè kou san rive nan rezilta kaptire pati mache yo vle a.
+- Yon mouvman pri agresif mande ase gwosè ak dire pou l vrèman motive yon vrè chanjman kliyan ki dire, diferan de yon ti jès kout.
+- Mank resous ka revele entansyon estratejik yon biznis bay yon konkiran pandan l bay konkiran sa a tan pou l reponn yon fason efikas anvan estrateji a reyisi.
+- Yon desizyon pou pouswiv yon estrateji agresif ta dwe mache ansanm ak resous ki vrèman ase pou estrateji espesifik sa a, olye yon vèsyon ki fèb, ki pa gen ase fòs.
+
+===== ORANGE-L4-049
+TITLE: Analiz repons konkirans: ki lè pou w ogmante efò a konpare ak ki lè pou w fè bak e reòganize w
+SUMMARY: Konprann poukisa desizyon pou ogmante oswa fè bak nan yon efò konkirans dwe reevalye san rete, ki prèv ki ta dwe enfòme yon desizyon pou ogmante, ki prèv ki ta dwe enfòme yon desizyon pou fè bak, ak poukisa fè bak pou reòganize se yon chwa estratejik lejitim.
+KEYWORDS: desizyon pou ogmante nan konkirans, reòganizasyon estratejik, reevalyasyon kontinyèl, retrè disipline
+# Analiz repons konkirans: ki lè pou w ogmante efò a konpare ak ki lè pou w fè bak e reòganize w
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gouvènman souveren mwayen ki montre li ka pa kapab fè yon peman obligasyon ki gen pou vini, sa ki ogmante risk defo sou dèt li. Pandan yon gouvènman souveren mwayen montre yon risk defo posib, sa ki kreye yon vrè toumant sou mache a, yon biznis ki deja angaje nan yon pouse konkirans agresif dwe deside si kondisyon k ap chanje yo mande ogmante efò aktyèl li oswa yon bak estratejik, disipline, sa ki montre poukisa desizyon espesifik sa a mande yon reevalyasyon ki vrèman kontinyèl olye yon sèl angajman fiks yo pran okòmansman.
+
+## Objektif aprantisaj
+- Esplike poukisa desizyon pou ogmante oswa fè bak nan yon efò konkirans k ap kontinye ta dwe reevalye san rete, olye yo trete l kòm yon sèl angajman fiks yo pran yon sèl fwa, okòmansman.
+- Esplike prèv espesifik ki ta dwe enfòme yon desizyon pou ogmante yon repons konkirans: si opòtinite orijinal la rete vre e si pwòp pozisyon biznis la vrèman amelyore.
+- Esplike prèv espesifik ki ta dwe enfòme pito yon desizyon pou fè bak e reòganize: si opòtinite orijinal la vrèman diminye oswa si pwòp kapasite biznis la vin vrèman anba presyon.
+- Esplike poukisa chwazi fè bak e reòganize se yon chwa estratejik lejitim, disipline, pa yon echèk oswa yon kontradiksyon ak leson anvan nivo sa a ki gen rapò ak agresivite.
+
+## Kontni prensipal
+FÈ VERIFYE: desizyon pou konnen si pou ogmante yon efò konkirans k ap kontinye oswa pito fè bak e reòganize ta dwe vrèman reevalye san rete pandan vrè kondisyon yo ap devlope, olye yo trete l kòm yon sèl angajman fiks yo pran yon sèl fwa, okòmansman yon pouse konkirans espesifik, paske menm kalite evalyasyon onèt, ki baze sou prèv Leson 46 rive 48 nivo sa a te aplike pou premye desizyon pou aji a ta dwe kontinye aplike pandan tout efò a, pandan vrè nouvo enfòmasyon ap vin disponib.
+
+Men "poukisa" prèv espesifik ta dwe enfòme yon desizyon pou ogmante: yon desizyon pou ogmante yon repons konkirans — angaje plis resous, pwolonje dire efò a, oswa elaji lajè li — anjeneral jistifye espesyalman lè prèv yo montre opòtinite orijinal la rete vre e, idealman, ke pwòp pozisyon biznis la vrèman vin pi solid depi efò a te kòmanse (premye rezilta ki konfime yon vrè chanjman kliyan, oswa feblès yon konkiran ki montre li dire plis pase yo te panse okòmansman), sa ki vle di ogmantasyon an ta dwe reflete yon vrè aliyman ki kontinye ant kondisyon orijinal ki te jistifye aji okòmansman an ak pwòp vrè kapasite kontinyèl biznis la pou l soutni e elaji angajman sa a.
+
+Se poutèt sa prèv espesifik ta dwe enfòme pito yon desizyon pou fè bak e reòganize: fè bak anjeneral jistifye espesyalman lè prèv yo montre opòtinite orijinal la vrèman diminye (feblès yon konkiran ki rezoud pi vit pase yo te atann, oswa kondisyon mache ki pi laj ki chanje yon fason ki mine rezon orijinal la, tankou kalite vrè toumant sou mache yon senaryo risk defo souveren ka kreye) oswa ke pwòp kapasite biznis la vin vrèman anba presyon (vrè kou efò a ki montre li pi enpòtan pase yo te prevwa, oswa pwòp pozisyon prensipal biznis la ki kòmanse montre vrè siy presyon akoz resous yo te angaje nan pouse konkirans lan), sa ki vle di desizyon sa a, egzakteman tankou premye desizyon pou aji a, ta dwe baze sou prèv onèt, aktyèl olye swa yon pèsistans fè tèt di malgre nouvo prèv ki vrèman pa favorab swa yon abandon twò bonè malgre prèv ki montre opòtinite orijinal la an reyalite rete solid. Se poutèt sa chwazi fè bak e reòganize se yon chwa estratejik lejitim, disipline, pa yon echèk oswa yon kontradiksyon ak leson anvan nivo sa a ki gen rapò ak agresivite: kad batay kouto ak carpe diem ki pi laj pwogram sa a te toujou mete diskisyon li sou aksyon konkirans desizif ansanm ak yon rekonesans ki gen menm aksan ke yon bon estrateji chwazi pasyans ak yon pozisyònman disipline pa defo pi fò nan tan an, sa ki vle di rekonèt ke kondisyon debaz yon efò konkirans espesifik vrèman chanje, e reponn lè w fè bak pou reòganize e pwoteje pwòp pozisyon prensipal biznis la, reflete egzakteman menm jijman disipline, ki baze sou prèv nivo sa a te mete aksan sou li tout tan, olye l reprezante yon retrè nan jijman sa a — biznis ki ka rekonèt onètman ki lè pou l ogmante e ki lè pou l fè bak, sou baz vrè prèv kontinyèl olye atachman a kou ki deja fèt nan premye desizyon li, ap aplike tout kad estratejik nivo sa a kòrèkteman, li konplete tout sik la soti nan defo disipline a, rive nan opòtinite yo rekonèt la, rive nan aksyon ki angaje a, rive nan reevalyasyon onèt, kontinyèl la.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis ki angaje nan yon efò agresif pou kaptire pati mache ki mande anpil resous kont yon konkiran ki fèb ap siveye sitiyasyon an pandan yon senaryo risk defo souveren kreye yon toumant sou mache a ki pi laj. Premye prèv yo te konfime yon vrè chanjman kliyan, sa ki te soutni okòmansman yon desizyon pou ogmante efò a plis. Lè toumant sou mache ki pi laj la kòmanse mete presyon sou pwòp operasyon prensipal biznis la e konkiran orijinal la estabilize pi vit pase yo te atann san yo pa t prevwa, biznis la reevalye sitiyasyon an onètman e li fè espre fè bak nan pouse agresif la, li redirije resous pou pwoteje pwòp pozisyon prensipal li, olye l kontinye ogmante yon efò nouvo prèv yo pa soutni klèman ankò — sa ki montre egzakteman poukisa kalite reevalyasyon onèt, kontinyèl sa a, olye yon angajman fiks, yon sèl fwa, reprezante yon bon aplikasyon tout kad estrateji konkirans nivo sa a.
+
+## Egzamen pratik
+**Q1. Poukisa desizyon pou ogmante oswa fè bak ta dwe reevalye san rete, olye yo trete l kòm yon sèl angajman fiks?**
+A) Premye desizyon pou ogmante oswa fè bak la ta dwe toujou rete fiks e san chanjman kèlkeswa okenn nouvo prèv ki vin apre
+B) Menm kalite evalyasyon onèt, ki baze sou prèv yo te aplike pou premye desizyon pou aji a ta dwe kontinye aplike pandan tout efò a, pandan vrè nouvo enfòmasyon ap vin disponib, olye yo trete l kòm yon sèl angajman yon sèl fwa yo pran sèlman okòmansman
+
+**Q2. Ki prèv ki ta dwe enfòme yon desizyon pou ogmante yon repons konkirans?**
+A) Okenn prèv espesifik pa vrèman enpòtan pou deside si pou ogmante yon repons konkirans
+B) Prèv ki montre opòtinite orijinal la rete vre e, idealman, ke pwòp pozisyon biznis la vrèman vin pi solid depi efò a te kòmanse, tankou premye rezilta ki konfime yon vrè chanjman kliyan oswa feblès yon konkiran ki montre li dire plis pase yo te atann
+
+**Q3. Ki prèv ki ta dwe enfòme pito yon desizyon pou fè bak e reòganize?**
+A) Fè bak pa janm vrèman yon repons lejitim oswa jistifye nan okenn sitiyasyon
+B) Prèv ki montre opòtinite orijinal la vrèman diminye, oswa ke pwòp kapasite biznis la vin vrèman anba presyon, tankou vrè kou efò a ki montre li pi enpòtan pase yo te prevwa oswa pozisyon prensipal biznis la ki montre vrè siy presyon
+
+**Q4. Poukisa chwazi fè bak e reòganize se yon chwa estratejik lejitim, disipline, olye yon echèk oswa yon kontradiksyon ak leson anvan nivo sa a?**
+A) Fè bak toujou reprezante yon vrè echèk e li kontredi dirèkteman tout sa leson anvan nivo sa a ki gen rapò ak agresivite te anseye
+B) Pwogram sa a te toujou mete aksyon konkirans desizif ansanm ak yon rekonesans ki gen menm aksan ke yon bon estrateji chwazi pasyans pa defo pi fò nan tan an, sa ki vle di rekonèt kondisyon ki chanje e fè bak reflete menm jijman disipline, ki baze sou prèv nivo sa a te mete aksan sou li tout tan
+
+**Q5. Nan egzanp lan, poukisa desizyon biznis la pou l fè bak te reflete yon bon aplikasyon tout kad estratejik nivo sa a?**
+A) Biznis la te kontinye ogmante efò li san fen kèlkeswa okenn prèv ki te chanje, kontrè a sa egzanp lan dekri
+B) Biznis la te reevalye sitiyasyon an onètman pandan nouvo prèv t ap parèt — konkiran an ki estabilize pi vit pase yo te atann ak pwòp operasyon biznis la ki vin anba presyon — e li te reponn lè l fè bak pou pwoteje pozisyon prensipal li, olye l kontinye ogmante yon efò prèv ki te chanje yo pa t soutni klèman ankò
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Bezwen sa a pou yon reevalyasyon onèt ki kontinye pandan nouvo prèv ap parèt, olye yon sèl angajman fiks, se egzakteman poukisa desizyon sa a mande yon evalyasyon kontinyèl pandan tout efò konkirans lan.
+
+**Q2.** Prèv espesifik sa a sou yon opòtinite ki kontinye ak yon pozisyon ki vin pi solid se egzakteman sa ki ta dwe enfòme yon vrè desizyon pou ogmante yon efò konkirans k ap kontinye.
+
+**Q3.** Prèv espesifik sa a sou yon opòtinite ki diminye oswa yon kapasite ki anba presyon se egzakteman sa ki ta dwe enfòme yon vrè desizyon disipline pou fè bak e reòganize.
+
+**Q4.** Konsistans sa a ak kad disipline, ki baze sou prèv ki pi laj nivo sa a te mete aksan sou li tout tan se egzakteman poukisa fè bak, lè prèv yo vrèman jistifye l, reprezante yon bon jijman estratejik olye yon echèk.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon reevalyasyon onèt, kontinyèl ki mennen nan yon bak disipline montre egzakteman poukisa modèl pou pran desizyon sa a konplete yon bon aplikasyon tout kad estrateji konkirans nivo sa a.
+
+## Pwen kle yo
+- Desizyon pou ogmante oswa fè bak nan yon efò konkirans ta dwe reevalye san rete pandan vrè nouvo prèv ap parèt, pa fikse okòmansman.
+- Ogmante efò a anjeneral jistifye lè prèv yo konfime opòtinite orijinal la rete vre e pwòp pozisyon biznis la vin pi solid.
+- Fè bak anjeneral jistifye lè prèv yo montre opòtinite orijinal la diminye oswa pwòp kapasite biznis la vin vrèman anba presyon.
+- Fè bak e reòganize, lè prèv yo vrèman jistifye l, se yon chwa estratejik disipline ki an akò ak kad ki pi laj nivo sa a, pa yon echèk oswa yon kontradiksyon ak li.
