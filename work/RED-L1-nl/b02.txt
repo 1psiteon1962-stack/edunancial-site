@@ -1,0 +1,438 @@
+===== RED-L1-007
+TITLE: Vaste of variabele rente: twee soorten hypotheken
+SUMMARY: Leer het echte verschil tussen een hypotheek met vaste rente en een met variabele rente, en welke afweging elk ervan inhoudt.
+# Vaste of variabele rente: twee soorten hypotheken
+
+## Leerdoelen
+
+Aan het einde van deze les moet je het volgende kunnen:
+
+- Een hypotheek met vaste rente en een met variabele rente omschrijven.
+- De afweging tussen voorspelbaarheid en mogelijke besparing uitleggen.
+- Eén risico noemen dat alleen bij variabele rente bestaat.
+
+## Kerninhoud
+
+### Hypotheken met vaste rente
+
+Een hypotheek met vaste rente legt hetzelfde rentepercentage vast voor de hele looptijd. De maandbetaling voor aflossing en rente blijft van de eerste tot de laatste betaling gelijk, wat budgetteren voorspelbaar maakt. *(LANDSPECIFIEKE REGEL: In Nederland wordt de rente meestal voor een rentevaste periode vastgezet, bijvoorbeeld 10 of 20 jaar, en niet altijd voor de hele looptijd.)*
+
+### Hypotheken met variabele rente
+
+Een hypotheek met variabele rente begint vaak met een lagere rente dan een vergelijkbare vaste rente, maar na een eerste vaste periode kan die rente periodiek veranderen, afhankelijk van de algemene rentestand. Betalingen kunnen in de loop van de tijd stijgen of dalen.
+
+### De echte afweging
+
+Leningen met vaste rente ruilen een mogelijk hogere beginrente in voor voorspelbaarheid op lange termijn. Variabele leningen ruilen voorspelbaarheid in voor mogelijk lagere beginkosten – met het echte risico dat de betalingen later stijgen. Geen van beide is altijd beter; het hangt af van hoe lang iemand de lening wil houden en hoeveel onzekerheid over de betaling hij aankan.
+
+## Praktijkvoorbeeld
+
+Een lener met vaste rente betaalt in jaar 1 en in jaar 15 hetzelfde bedrag. Een lener met variabele rente betaalt in jaar 1 misschien minder dan de lener met vaste rente, maar als de rente stijgt, kan hij in jaar 6 meer betalen – als de rente daalt, kan ook precies het omgekeerde gebeuren.
+
+## Oefenquiz
+
+1. Een hypotheek met vaste rente:
+   A. Verandert elk jaar automatisch van rente
+   B. Houdt hetzelfde rentepercentage voor de hele looptijd
+   C. Is alleen beschikbaar voor starters
+   D. Heeft altijd een hogere betaling dan een variabele hypotheek
+
+2. Waar of onwaar: De betaling van een hypotheek met variabele rente kan na de eerste periode nooit stijgen.
+
+3. Wat is de belangrijkste afweging tussen vaste en variabele rente?
+   A. Voorspelbaarheid tegenover mogelijk lagere beginkosten met het risico van verandering
+   B. Legale tegenover illegale soorten leningen
+   C. Leningen met overheidsgarantie tegenover particuliere leningen
+   D. Kort tegenover lang woningbezit
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. A
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een hypotheek met vaste rente houdt dezelfde rente voor de hele (afgesproken) looptijd.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Betalingen bij variabele rente kunnen na de eerste vaste periode stijgen (of dalen), afhankelijk van de rentestand.
+
+### Vraag 3
+
+Juist antwoord: A. De kernafweging is voorspelbaarheid op lange termijn tegenover mogelijk lagere beginkosten met toekomstig renterisico.
+
+## Belangrijkste inzichten
+
+- Hypotheken met vaste rente bieden een vastgezette, voorspelbare rente voor de afgesproken periode.
+- Variabele hypotheken beginnen vaak lager, maar kunnen na een eerste periode veranderen.
+- De juiste keuze hangt af van hoe lang iemand de lening wil houden en hoe goed hij omgaat met onzekere betalingen.
+
+===== RED-L1-008
+TITLE: Wat is PMI (particuliere hypotheekverzekering), en wanneer betaal je die?
+SUMMARY: Leer wat PMI dekt, wie ze eigenlijk beschermt en wanneer ze bij een hypotheek van toepassing is.
+# Wat is PMI (particuliere hypotheekverzekering), en wanneer betaal je die?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je het volgende kunnen:
+
+- PMI in gewone woorden omschrijven.
+- Uitleggen wie PMI eigenlijk beschermt.
+- Uitleggen wanneer PMI doorgaans verplicht is en wanneer ze kan vervallen.
+
+## Kerninhoud
+
+### Wat PMI is
+
+*(LANDSPECIFIEKE REGEL: PMI (Private Mortgage Insurance) is een begrip uit de Amerikaanse hypotheekmarkt; in Nederland bestaat ze in deze vorm niet – daar spelen onder meer de Nationale Hypotheek Garantie (NHG) en renteopslagen bij een hoge lening ten opzichte van de woningwaarde een rol.)* PMI is een verzekering die de geldverstrekker beschermt – niet de lener – als de lener stopt met het betalen van de lening. Het is een extra maandelijkse kostenpost bovenop de hypotheekbetaling.
+
+### Wie ze eigenlijk beschermt
+
+Dit is het meest onbegrepen deel: PMI beschermt de eigenaar niet tegen het verliezen van zijn woning. Ze bestaat om het risico van de geldverstrekker te verkleinen bij leningen waarbij de koper minder eigen vermogen als buffer heeft, zodat de geldverstrekker eerder bereid is de lening goed te keuren.
+
+### Wanneer ze verplicht is en wanneer ze eindigt
+
+PMI is bij gangbare Amerikaanse leningen doorgaans verplicht als de eigen inbreng onder een bepaalde grens ligt (vaak 20%), omdat een kleinere inbreng minder buffer voor de geldverstrekker betekent. Ze kan vaak vervallen zodra het eigen vermogen van de lener een vergelijkbare grens bereikt, door aflossing of waardestijging.
+
+## Praktijkvoorbeeld
+
+Een koper in de VS brengt 10% in plaats van 20% eigen geld in. Omdat zijn buffer kleiner is, eist de geldverstrekker PMI als voorwaarde voor de lening – een extra maandelijkse kostenpost totdat er genoeg eigen vermogen is opgebouwd.
+
+## Oefenquiz
+
+1. PMI beschermt in de eerste plaats:
+   A. De eigenaar
+   B. De geldverstrekker
+   C. De makelaar
+   D. De gemeente
+
+2. Waar of onwaar: PMI is doorgaans verplicht als de eigen inbreng onder een bepaalde grens ligt, vaak 20%.
+
+3. Kan PMI ooit van een lening worden verwijderd?
+   A. Nee, ze geldt voor de hele looptijd
+   B. Ja, vaak zodra er genoeg eigen vermogen is opgebouwd
+   C. Alleen als de lener oversluit bij een andere geldverstrekker
+   D. Pas als de lening volledig is afbetaald
+
+## Antwoordsleutel
+
+1. B
+2. Waar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. PMI beschermt het risico van de geldverstrekker, niet de eigenaar.
+
+### Vraag 2
+
+Juist antwoord: Waar. Een kleinere eigen inbreng (onder ongeveer 20% bij veel gangbare Amerikaanse leningen) leidt vaak tot een PMI-verplichting.
+
+### Vraag 3
+
+Juist antwoord: B. PMI kan vaak worden verwijderd zodra het eigen vermogen een voldoende grens bereikt.
+
+## Belangrijkste inzichten
+
+- PMI beschermt de geldverstrekker, niet de eigenaar.
+- Ze is doorgaans verplicht als de eigen inbreng onder een bepaalde grens ligt.
+- PMI kan vaak vervallen zodra er genoeg eigen vermogen is opgebouwd.
+
+===== RED-L1-009
+TITLE: Wat is onroerendezaakbelasting, en wie stelt die vast?
+SUMMARY: Leer hoe belasting op vastgoed wordt berekend, wie het tarief eigenlijk vaststelt en waarom ze kan veranderen, zelfs als de eigenaar niets doet.
+# Wat is onroerendezaakbelasting, en wie stelt die vast?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je het volgende kunnen:
+
+- Uitleggen wat onroerendezaakbelasting in het algemeen financiert.
+- De basisfactoren uitleggen die de hoogte van de aanslag bepalen.
+- Uitleggen waarom de aanslag kan veranderen zonder dat de eigenaar iets doet.
+
+## Kerninhoud
+
+### Wat onroerendezaakbelasting in het algemeen financiert
+
+Onroerendezaakbelasting is een terugkerende belasting die eigenaren aan de lokale overheid betalen, gebaseerd op de waarde van hun vastgoed. Ze financiert vaak lokale voorzieningen zoals scholen, wegen en hulpdiensten, al verschilt het precieze gebruik per plaats.
+
+### Wat de aanslag bepaalt
+
+*(LANDSPECIFIEKE REGEL: Systemen voor vastgoedbelasting verschillen sterk per land en zelfs per gemeente; het volgende beschrijft de gangbare werkwijze in de VS. In Nederland heet deze belasting de OZB en is ze gebaseerd op de WOZ-waarde en een tarief dat de gemeente vaststelt.)* De aanslag wordt in het algemeen berekend door de vastgestelde waarde van het vastgoed te vermenigvuldigen met een lokaal tarief, vastgesteld door lokale overheden (zoals een county of schooldistrict) – niet door de eigenaar.
+
+### Waarom de aanslag kan veranderen zonder dat de eigenaar iets doet
+
+Verhoogt de lokale overheid haar tarief of stijgt de vastgestelde waarde door een nieuwe taxatie, dan kan de aanslag stijgen, ook als de eigenaar niets aan het vastgoed heeft veranderd.
+
+## Praktijkvoorbeeld
+
+Een woning met een vastgestelde waarde van $250.000 in een Amerikaanse gemeente met een tarief van 1,2% zou ongeveer $3.000 per jaar aan belasting verschuldigd zijn – vóór eventuele vrijstellingen of aanpassingen.
+
+## Oefenquiz
+
+1. Onroerendezaakbelasting wordt in het algemeen betaald aan:
+   A. De rijksoverheid
+   B. De lokale overheid
+   C. Rechtstreeks aan de geldverstrekker, zonder betrokkenheid van de lokale overheid
+   D. De woonverzekeraar van de eigenaar
+
+2. Waar of onwaar: De onroerendezaakbelasting van een eigenaar kan stijgen, zelfs als hij niets aan het vastgoed heeft veranderd.
+
+3. Welke twee factoren bepalen in het algemeen de hoogte van de aanslag?
+   A. Het inkomen en de kredietwaardigheid van de eigenaar
+   B. De vastgestelde waarde van het vastgoed en het lokale tarief
+   C. De hypotheekrente en de looptijd
+   D. De hoogte van de eigen inbreng
+
+## Antwoordsleutel
+
+1. B
+2. Waar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Onroerendezaakbelasting is een belasting van de lokale overheid.
+
+### Vraag 2
+
+Juist antwoord: Waar. Een hoger tarief of een nieuwe taxatie kan de aanslag verhogen, los van wat de eigenaar doet.
+
+### Vraag 3
+
+Juist antwoord: B. Vastgestelde waarde en lokaal tarief zijn de kerngegevens.
+
+## Belangrijkste inzichten
+
+- Onroerendezaakbelasting is een terugkerende lokale belasting op basis van de waarde van vastgoed.
+- Ze wordt berekend uit de vastgestelde waarde en een lokaal tarief.
+- De aanslag kan veranderen door lokale besluiten, niet alleen door wat de eigenaar doet.
+
+===== RED-L1-010
+TITLE: Wat is een pandrecht (beslag of zekerheidsrecht) op vastgoed?
+SUMMARY: Leer wat een zekerheidsrecht op vastgoed eigenlijk is, hoe het aan het vastgoed vastzit en waarom het een verkoop kan blokkeren totdat het is opgelost.
+# Wat is een pandrecht (beslag of zekerheidsrecht) op vastgoed?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je het volgende kunnen:
+
+- Een zekerheidsrecht (in het Engels "lien") in gewone woorden omschrijven.
+- Minstens twee veelvoorkomende soorten noemen.
+- Uitleggen waarom zo'n recht een verkoop van vastgoed kan beïnvloeden.
+
+## Kerninhoud
+
+### Wat een lien is
+
+Een lien is een juridische aanspraak op vastgoed, meestal als zekerheid voor een schuld. Veelvoorkomende voorbeelden zijn het hypotheekrecht (de aanspraak van de geldverstrekker, eerder behandeld), een aanspraak wegens onbetaalde vastgoedbelasting en – in de VS – de "mechanic's lien", een aanspraak van een onbetaalde aannemer voor werk aan het vastgoed. *(LANDSPECIFIEKE REGEL: Welke rechten er bestaan en hoe ze werken, verschilt per land; in Nederland worden hypotheken en beslagen in het Kadaster ingeschreven.)*
+
+### Hoe een lien aan het vastgoed vastzit
+
+Een lien wordt doorgaans in een openbaar register ingeschreven en zit vast aan het vastgoed zelf, niet alleen aan de eigenaar persoonlijk – het kan het vastgoed dus zelfs bij een verkoop volgen als het niet eerst wordt opgelost.
+
+### Waarom het een verkoop kan blokkeren
+
+Omdat de lien aan het vastgoed vastzit, eisen de meeste kopers en geldverstrekkers dat het wordt doorgehaald voordat een verkoop wordt afgerond. Een onopgeloste lien is een veelvoorkomende reden waarom een verkoop vertraging oploopt of niet doorgaat.
+
+## Praktijkvoorbeeld
+
+Een eigenaar huurt een aannemer in voor een verbouwing en betaalt de laatste factuur niet. De aannemer kan een aanspraak op het vastgoed laten inschrijven, die opgelost moet zijn voordat de woning met een onbezwaarde eigendom kan worden verkocht.
+
+## Oefenquiz
+
+1. Een lien is het best te omschrijven als:
+   A. Een soort woonverzekering
+   B. Een juridische aanspraak op vastgoed, meestal als zekerheid voor een schuld
+   C. Een overheidssubsidie voor kopers
+   D. Een verplichte bouwkundige keuring
+
+2. Waar of onwaar: Een lien raakt alleen de huidige eigenaar persoonlijk, niet het vastgoed zelf.
+
+3. Wat is een "mechanic's lien"?
+   A. Een aanspraak die een onbetaalde aannemer inschrijft voor werk aan het vastgoed
+   B. Een soort autolening
+   C. Een overheidsbelasting op nieuwbouw
+   D. Een vorm van titelverzekering
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. A
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een lien is een juridische aanspraak op vastgoed, meestal gekoppeld aan een schuld.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Liens zitten vast aan het vastgoed zelf, daarom kunnen ze het bij een verkoop volgen.
+
+### Vraag 3
+
+Juist antwoord: A. Een "mechanic's lien" wordt ingeschreven door een onbetaalde aannemer voor werk aan het vastgoed.
+
+## Belangrijkste inzichten
+
+- Een lien is een juridische aanspraak op vastgoed, meestal als zekerheid voor een schuld.
+- Liens zitten vast aan het vastgoed, niet alleen aan de eigenaar persoonlijk.
+- Onopgeloste liens blokkeren of vertragen vaak de verkoop van vastgoed.
+
+===== RED-L1-011
+TITLE: Amerikaanse staten met "tax lien" en met "tax deed": wat is het echte verschil?
+SUMMARY: Leer hoe Amerikaanse staten met een "tax lien"- of "tax deed"-systeem onbetaalde vastgoedbelasting verschillend behandelen en wat een belegger in elk geval eigenlijk krijgt.
+# Amerikaanse staten met "tax lien" en met "tax deed": wat is het echte verschil?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je het volgende kunnen:
+
+- Uitleggen wat er in een "tax lien"-staat gebeurt als vastgoedbelasting onbetaald blijft.
+- Uitleggen wat er in een "tax deed"-staat gebeurt als vastgoedbelasting onbetaald blijft.
+- Het kernverschil noemen tussen wat een belegger in elk geval krijgt.
+
+## Kerninhoud
+
+### "Tax lien"-staten
+
+*(LANDSPECIFIEKE REGEL: Dit verschilt per Amerikaanse staat; niet alle staten gebruiken dit systeem, en buiten de VS gelden heel andere procedures.)* In een "tax lien"-staat verkoopt de lokale overheid, als een eigenaar zijn vastgoedbelasting niet betaalt, een lien-certificaat aan een belegger, die de achterstallige belasting namens de eigenaar betaalt. De belegger krijgt het vastgoed niet – hij krijgt het recht om de schuld plus wettelijke rente te innen. Betaalt de eigenaar niet binnen een vastgestelde aflossingstermijn terug, dan kan de belegger de rechter verzoeken om de eigendom van het vastgoed.
+
+### "Tax deed"-staten
+
+In een "tax deed"-staat kan onbetaalde vastgoedbelasting ertoe leiden dat het vastgoed zelf wordt geveild. De hoogste bieder wordt in het algemeen de nieuwe eigenaar, soms direct en soms na een korte aflossingstermijn, afhankelijk van de staat.
+
+### Het kernverschil
+
+In een lien-staat koopt de belegger eerst een schuld, niet het vastgoed. In een deed-staat biedt de belegger op het vastgoed zelf. Aflossingstermijnen en specifieke regels verschillen sterk per staat – deze les behandelt het algemene mechanisme, niet de precieze tijdlijn van één staat.
+
+## Praktijkvoorbeeld
+
+Een belegger in een "tax lien"-staat betaalt $2.000 om de onbetaalde belasting van een eigenaar te voldoen. De belegger heeft nu een lien die wettelijke rente oplevert. Betaalt de eigenaar niet terug binnen de aflossingstermijn van de staat, dan kan de belegger via de rechter de eigendom proberen te verkrijgen.
+
+## Oefenquiz
+
+1. Wat krijgt een belegger in een "tax lien"-staat eerst als hij de achterstallige belasting van iemand anders betaalt?
+   A. Direct eigendom van het vastgoed
+   B. Een lien-certificaat voor de schuld, plus rente
+   C. Een huurovereenkomst met de eigenaar
+   D. Een hypotheek op ander vastgoed
+
+2. Waar of onwaar: In een "tax deed"-staat wordt het vastgoed zelf doorgaans geveild wegens onbetaalde belasting.
+
+3. Wat is een aflossingstermijn?
+   A. Een periode waarin een eigenaar met achterstand kan terugbetalen en het vastgoed kan houden
+   B. De looptijd van een hypotheek
+   C. Een verplichte periode voor een bouwkundige keuring
+   D. Een soort vrijstelling van vastgoedbelasting
+
+## Antwoordsleutel
+
+1. B
+2. Waar
+3. A
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. In een lien-staat koopt de belegger de schuld (via een lien-certificaat), niet het vastgoed zelf.
+
+### Vraag 2
+
+Juist antwoord: Waar. "Tax deed"-staten veilen het vastgoed doorgaans rechtstreeks.
+
+### Vraag 3
+
+Juist antwoord: A. Een aflossingstermijn geeft de oorspronkelijke eigenaar de tijd om terug te betalen voordat hij het vastgoed verliest.
+
+## Belangrijkste inzichten
+
+- "Tax lien"-staten verkopen de schuld (een lien); "tax deed"-staten verkopen het vastgoed zelf.
+- Lien-beleggers verdienen rente en kunnen bij niet-betaling uiteindelijk de eigendom nastreven.
+- Deed-beleggers kunnen directer, en vaak sneller, eigenaar worden.
+- Regels en aflossingstermijnen verschillen sterk per staat.
+
+===== RED-L1-012
+TITLE: Wat is een taxatie, en waarom is die niet hetzelfde als de prijs?
+SUMMARY: Leer wat een taxatie van vastgoed eigenlijk meet, wie die aanvraagt en waarom de getaxeerde waarde en de koopprijs kunnen verschillen.
+# Wat is een taxatie, en waarom is die niet hetzelfde als de prijs?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je het volgende kunnen:
+
+- Een taxatie in gewone woorden omschrijven.
+- Uitleggen wie een taxatie doorgaans aanvraagt en waarom.
+- Uitleggen waarom getaxeerde waarde en koopprijs verschillende getallen kunnen zijn.
+
+## Kerninhoud
+
+### Wat een taxatie is
+
+Een taxatie is een professionele, onafhankelijke schatting van de waarde van vastgoed, uitgevoerd door een erkende taxateur. Ze is gebaseerd op factoren zoals vergelijkbare verkopen, staat van onderhoud en ligging.
+
+### Wie die aanvraagt en waarom
+
+Geldverstrekkers eisen doorgaans een taxatie voordat ze een hypotheek goedkeuren, om te bevestigen dat het vastgoed ongeveer zoveel waard is als erop wordt geleend – dat beschermt het onderpand van de geldverstrekker, en helpt niet alleen de koper.
+
+### Waarom de getallen kunnen verschillen
+
+De getaxeerde waarde en de afgesproken koopprijs zijn twee aparte getallen die op twee aparte manieren tot stand komen: de koopprijs is wat koper en verkoper hebben afgesproken, de taxatie is een onafhankelijke professionele schatting. Valt de taxatie lager uit dan de afgesproken prijs, dan kan dat een echt financieringsprobleem opleveren, omdat de geldverstrekker in het algemeen niet meer leent dan de getaxeerde waarde rechtvaardigt.
+
+## Praktijkvoorbeeld
+
+Een koper spreekt af € 320.000 te betalen voor een woning, maar de taxatie komt uit op € 305.000. De geldverstrekker financiert doorgaans alleen op basis van de lagere getaxeerde waarde, waardoor de koper misschien meer eigen geld moet inbrengen of de koopprijs opnieuw moet worden onderhandeld.
+
+## Oefenquiz
+
+1. Een taxatie is:
+   A. De prijs die koper en verkoper afspreken
+   B. Een onafhankelijke professionele schatting van de waarde van vastgoed
+   C. Een soort woonverzekering
+   D. Een belastingaanslag van de overheid
+
+2. Waar of onwaar: Geldverstrekkers eisen doorgaans een taxatie om hun eigen onderpand te beschermen, niet alleen om de koper te helpen.
+
+3. Wat kan er gebeuren als een woning lager wordt getaxeerd dan de afgesproken koopprijs?
+   A. Niets – de verkoop gaat precies door zoals afgesproken
+   B. De geldverstrekker financiert misschien alleen tot de getaxeerde waarde, waardoor een financieringsgat ontstaat
+   C. De taxatie wordt automatisch ongedaan gemaakt
+   D. De vastgoedbelasting daalt
+
+## Antwoordsleutel
+
+1. B
+2. Waar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een taxatie is een onafhankelijke, professionele waardeschatting – los van de onderhandelde prijs.
+
+### Vraag 2
+
+Juist antwoord: Waar. De taxatie beschermt de positie van de geldverstrekker ten aanzien van het onderpand.
+
+### Vraag 3
+
+Juist antwoord: B. Een lage taxatie kan een financieringsgat veroorzaken dat koper, verkoper of beiden moeten oplossen.
+
+## Belangrijkste inzichten
+
+- Een taxatie is een onafhankelijke waardeschatting, niet de koopprijs.
+- Geldverstrekkers eisen die om hun eigen onderpand te beschermen.
+- Een lage taxatie ten opzichte van de koopprijs kan echte financieringsproblemen veroorzaken.
