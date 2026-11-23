@@ -19,6 +19,7 @@ for blk in re.split(r'^===== ',src,flags=re.M):
     kv=lambda k:[x for x in sec[k] if x.strip()]
     C,_,N=lid.split('-')
     comp=kv('COMP'); path=kv('PATH'); seo=kv('SEO'); ai=kv('AI')
+    locnote=('\n'+g('LOCNOTE')) if 'LOCNOTE' in sec else ''
     o=f"""===== {lid}
 TITLE: {hdr['TITLE']}
 SUMMARY: {hdr['SUMMARY']}
@@ -137,7 +138,7 @@ Notes d’enseignement IA : {ai[1]}
 
 ## Bloc de localisation
 `{lid}-LOCALIZATION`
-État de la traduction : Version française (fr-CA) fidèle à la source anglaise.
+État de la traduction : Version française (fr-CA) fidèle à la source anglaise.{locnote}
 
 ## Bloc de références et de vérification
 `{lid}-REFERENCES`
