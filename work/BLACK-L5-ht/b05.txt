@@ -1,0 +1,419 @@
+===== BLACK-L5-021
+TITLE: Transfòmasyon teknolojik: oksestre envestisman, jesyon chanjman ak risk operasyon
+SUMMARY: Aprann poukisa anpil pwojè teknoloji echwe akòz moun ak pwosedi plis pase lojisyèl, epi kijan yon lidè kowòdone envestisman, jesyon chanjman, done ak risk pandan yon gwo chanjman teknoloji.
+KEYWORDS: transfòmasyon dijital, adopte teknoloji, jesyon chanjman, mete lojisyèl an plas, risk operasyon
+# Transfòmasyon teknolojik: oksestre envestisman, jesyon chanjman ak risk operasyon
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Yon distribitè an gwo achte yon nouvo sistèm envantè ak kòmand ki koute chè. Sis mwa apre, anplwaye yo toujou ap kenbe dosye papye "pou sekirite", erè nan kòmand yo ogmante, e founisè sistèm nan ap blame pwosedi konpayi an.
+
+## Objektif aprantisaj
+- Eksplike poukisa pwojè teknoloji souvan echwe lè moun dwe adopte yo plis pase lè yo enstale yo.
+- Idantifye eleman moun, pwosedi, done ak risk nan yon chanjman teknoloji.
+- Eksplike kijan pou fè yon chanjman teknoloji pa etap pou pwoteje operasyon yo.
+- Aplike yon plan oksestre pou yon transfòmasyon teknolojik.
+
+## Kontni prensipal
+PRENSIP: Teknoloji chanje fason moun travay. Si moun ak pwosedi yo pa chanje avè l, teknoloji a raman bay valè li te pwomèt. Nivo 4 te eksplike anpil efò chanjman echwe nan moman adopsyon an; pwojè teknoloji se yon egzanp kouran.
+
+Lidè yo dwe kowòdone kat eleman. Moun: itilizatè yo bezwen konprann poukisa chanjman an enpòtan, resevwa bon fòmasyon, epi gen vwa nan fason yo regle sistèm nan. Pwosedi: sistèm nan ta dwe sipòte pwosedi ki amelyore, pa jis otomatize ansyen pwosedi ki pa efikas. Done: ansyen enfòmasyon dwe netwaye e transfere kòrèkteman, sinon nouvo sistèm nan kòmanse ak move done. Risk: operasyon yo dwe kontinye pandan tranzisyon an, kidonk plan rezèv ak tès esansyèl.
+
+Envestisman an gen plis pase pri acha a. Tan fòmasyon, pèt pwodiktivite pou yon ti tan, konsiltan, migrasyon done, ak sipò ki kontinye tout dwe nan bidjè a. Lè w pa estime depans sa yo byen, ou fè enstalasyon an prese prese.
+
+Fè l pa etap diminye risk. Yon esè ak yon sèl ekip, yon sèl kote, oswa yon sèl liy pwodwi fè pwoblèm yo parèt pandan yo toujou piti. Fè ansyen ak nouvo sistèm mache ansanm pou yon tan limite ka pwoteje operasyon kritik, menm si sa mande plis efò. Mezi siksè ki klè montre lè òganizasyon an pare pou avanse.
+
+Responsablite enpòtan. Yon pwojè bezwen yon lidè anndan biznis la — pa sèlman founisè a — ki responsab pou rezilta yo e ki gen pouvwa pou pran desizyon.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pwopriyetè distribitè a rekòmanse pwojè a. Yon sipèvizè depo moun respekte vin responsab pwojè a anndan konpayi an. Ekip la fè kat jan kòmand yo sikile vre epi li retire twa etap apwobasyon ki pa nesesè anvan yo regle sistèm nan ankò. Yo netwaye done envantè yo e yo konte yo ankò. Yon depo chanje nèt, alòske dezyèm lan kenbe ansyen pwosedi a pandan sis semèn. Anplwaye yo resevwa fòmasyon pratik ak yon ti gid senp. Lè esè a rive nan objektif presizyon li, dezyèm depo a chanje tou. Erè nan kòmand yo desann pi ba pase nivo yo te ye okòmansman.
+
+## Egzamen pratik
+**Q1. Poukisa pwojè teknoloji souvan echwe?**
+A) Lojisyèl pa janm mache
+B) Teknoloji toujou twò bon mache
+C) Moun ak pwosedi yo pa chanje ansanm ak teknoloji a
+D) Founisè yo pa janm bay fòmasyon
+
+**Q2. Poukisa ou ta dwe amelyore pwosedi yo anvan w otomatize yo?**
+A) Pwosedi pa janm bezwen amelyore
+B) Otomatize yon pwosedi ki pa efikas jis fè ensifizans lan pi rapid
+C) Lojisyèl ranje chak pwosedi otomatikman
+D) Founisè a mande l
+
+**Q3. Ki depans ki dwe nan bidjè teknoloji a apa pri acha a?**
+A) Fòmasyon, pèt pwodiktivite, migrasyon done, konsiltan, ak sipò ki kontinye
+B) Okenn
+C) Frè lisans founisè a sèlman
+D) Materyèl sèlman
+
+**Q4. Poukisa yon esè itil?**
+A) Li ranvwaye pwojè a pou tout tan
+B) Li retire bezwen fòmasyon
+C) Li garanti siksè
+D) Li fè pwoblèm parèt pandan yo toujou piti
+
+**Q5. Nan egzanp lan, kiyès ki te dirije rekòmansman pwojè a?**
+A) Founisè a
+B) Yon konsiltan deyò sèlman
+C) Yon sipèvizè depo moun respekte anndan biznis la
+D) Pèsonn
+
+## Kle repons yo
+Q1: C
+Q2: B
+Q3: A
+Q4: D
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Valè a soti nan konpòtman ki chanje, pa sèlman nan lojisyèl ki enstale.
+
+**Q2.** Otomatizasyon grosi nenpòt pwosedi li sipòte, kit li bon kit li pa bon.
+
+**Q3.** Depans total la gen ladan l efò moun yo ak efò tranzisyon an.
+
+**Q4.** Tès sou ti echèl montre pwoblèm anvan yo afekte tout biznis la.
+
+**Q5.** Yon responsab anndan konpayi an ki gen kredibilite te pouse adopsyon an ak responsablite a.
+
+## Pwen kle yo
+- Teknoloji bay valè sèlman lè moun ak pwosedi chanje avè l.
+- Kowòdone moun, pwosedi, done ak risk.
+- Mete tout depans chanjman an nan bidjè a, pa sèlman pri acha a.
+- Fè esè, avanse pa etap, epi bay yon moun anndan konpayi an responsablite pou rezilta yo.
+
+===== BLACK-L5-022
+TITLE: Jesyon risk nan tèt òganizasyon: oksestre risk asirans, legal, finansye ak repitasyon
+SUMMARY: Aprann kijan yon lidè bati yon vizyon pratik sou risk òganizasyon an ap fè fas, epi kijan li kowòdone asirans, kontra, rezèv finansye, kontwòl ak jesyon repitasyon pou redui yo.
+KEYWORDS: jesyon risk antrepriz, asirans biznis, evalyasyon risk, risk repitasyon, rezèv finansye
+# Jesyon risk nan tèt òganizasyon: oksestre risk asirans, legal, finansye ak repitasyon
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Yon konpayi ki òganize evènman grandi vit. Pwopriyetè a reyalize konpayi an pa janm reflechi fòmèlman sou sa ki ta ka mal tounen — yon festival anile, yon envite blese, done ki vole, oswa pèdi yon anplwaye kle.
+
+## Objektif aprantisaj
+- Eksplike objektif yon evalyasyon risk pou òganizasyon an.
+- Idantifye prensipal kategori risk biznis.
+- Eksplike kat repons debaz pou risk: evite, redui, transfere, ak aksepte.
+- Aplike yon apwòch oksestre pou bati yon plan risk pratik.
+
+## Kontni prensipal
+PRENSIP: Chak òganizasyon pran risk; objektif la se pran yo avèk konesans. Yon lis senp, mete ajou regilyèman, sou gwo risk yo ede lidè yo prepare olye yo jis reyaji.
+
+Kategori risk kouran yo gen ladan yo risk operasyon (ekipman ki an pan, pwoblèm ak founisè, depandans sou moun kle), risk finansye (mank lajan kach, kliyan ki pa peye, chanjman to enterè), risk legal ak konfòmite (kontra, règleman, dispit), risk sekirite (anplwaye oswa kliyan ki blese), risk teknoloji (pèt done, atak sou entènèt), ak risk repitasyon (plent piblik, kritik sou rezo sosyal, fot etik).
+
+Lidè yo ka reponn a chak risk nan kat fason. Evite l lè yo pa fè aktivite ki riske a. Redui l avèk kontwòl, fòmasyon ak pi bon pwosedi. Transfere l avèk asirans oswa kontra ki deplase responsablite a. Aksepte l lè sa li ta koute pou okipe l pi plis pase efè li ta genyen, souvan ak rezèv pou sipòte l.
+
+Oksestrasyon vle di chwazi repons ki mache ansanm. Asirans (yon transfè) pi efikas lè l mache ak pratik sekirite (yon rediksyon). Kontra konseye legal revize (PURPLE) ka separe risk ak kliyan ak founisè. Rezèv lajan kach (WHITE ak BLUE) absòbe risk ou aksepte yo. Yo pwoteje repitasyon avèk konduit etik ak yon plan kominikasyon pou kriz.
+
+Plan risk yo ta dwe revize detanzantan e apre gwo chanjman, tankou antre nan yon nouvo mache oswa lanse yon nouvo sèvis.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pwopriyetè konpayi evènman an fè yon atelye risk demi jounen avèk ekip la epi yo fè lis dis pi gwo risk yo. Pou envite ki ka blese, konpayi an amelyore lis verifikasyon sekirite yo (redui) epi li revize asirans responsablite sivil li (transfere). Pou anilasyon, yo mete ajou kontra kliyan yo avèk kondisyon anilasyon klè apre yon revizyon legal (transfere). Pou risk moun kle, de anplwaye resevwa fòmasyon pou yo konnen gwo kont kliyan yo youn lòt (redui). Pou ti pèt ekipman, konpayi an aksepte risk la epi li bati yon rezèv. Yo revize lis la chak sis mwa.
+
+## Egzamen pratik
+**Q1. Ki prensipal objektif jesyon risk?**
+A) Elimine tout risk
+B) Pran risk avèk konesans epi prepare pou yo
+C) Evite chak nouvo opòtinite
+D) Konte sou asirans sèlman
+
+**Q2. Ki repons ki deplase responsablite yon risk sou yon lòt moun?**
+A) Transfere, tankou avèk asirans oswa kontra
+B) Evite
+C) Redui
+D) Aksepte
+
+**Q3. Ki lè yon lidè ka aksepte yon risk?**
+A) Janm
+B) Sèlman lè pa gen asirans
+C) Lè se pi gwo risk konpayi an genyen
+D) Lè sa li ta koute pou okipe l pi plis pase efè li ta genyen, souvan ak rezèv pou sipòte l
+
+**Q4. Poukisa repons pou risk yo ta dwe kowòdone?**
+A) Kowòdonasyon pa nesesè
+B) Ou ta dwe toujou sèvi ak yon sèl repons
+C) Repons yo mache pi byen ansanm, tankou asirans ak pratik sekirite
+D) Kowòdonasyon ogmante risk
+
+**Q5. Nan egzanp lan, kijan konpayi an okipe risk moun kle?**
+A) Li achte plis ekipman
+B) Li fòme anplwaye pou yo konnen gwo kont kliyan yo youn lòt
+C) Li anile evènman
+D) Li inyore l
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: D
+Q4: C
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Ou pa ka elimine risk, men ou ka konprann li e jere l.
+
+**Q2.** Transfere risk deplase konsekans finansye l sou yon lòt pati.
+
+**Q3.** Risk ki piti oswa ki pa gen anpil chans rive ka koute mwens pou absòbe pase pou asire oswa anpeche.
+
+**Q4.** Repons ki mache ansanm ranfòse youn lòt e yo kouvri plis risk.
+
+**Q5.** Fòmasyon kwaze a te diminye depandans sou yon sèl moun.
+
+## Pwen kle yo
+- Pran risk avèk konesans lè w kenbe yon lis pratik, mete ajou, sou gwo risk yo.
+- Kouvri risk operasyon, finansye, legal, sekirite, teknoloji ak repitasyon.
+- Reponn lè w evite, redui, transfere oswa aksepte — souvan ansanm.
+- Revize plan risk la regilyèman e apre gwo chanjman.
+
+===== BLACK-L5-023
+TITLE: Lidèchip nan règleman ak konfòmite: oksestre lalwa, kilti ak depans
+SUMMARY: Aprann poukisa konfòmite se yon responsablite lidèchip ak kilti otan ke yon responsablite legal, epi kijan lidè yo kowòdone kondisyon legal, sistèm pratik, fòmasyon ak depans pou òganizasyon an swiv règ yo toutan.
+KEYWORDS: lidèchip konfòmite, konfòmite ak règleman, etik ak konfòmite, kilti konfòmite, règleman biznis
+# Lidèchip nan règleman ak konfòmite: oksestre lalwa, kilti ak depans
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Yon ajans swen sante nan kay resevwa yon avètisman nan men yon otorite paske plizyè moun k ap bay swen pa t ranpli dokiman obligatwa yo. Pwopriyetè a dekouvri anplwaye yo te konsidere papye yo "opsyonèl lè gen twòp travay".
+
+## Objektif aprantisaj
+- Eksplike poukisa konfòmite depann de kilti ak sistèm, pa sèlman de règ.
+- Idantifye pati yon pwogram konfòmite pratik.
+- Eksplike kijan lidè yo balanse depans konfòmite ak risk.
+- Aplike yon apwòch oksestre pou ranfòse konfòmite.
+
+## Kontni prensipal
+PRENSIP: Règ ki sou papye pa garanti moun ap swiv yo. Moun swiv règ toutan lè yo konprann poukisa règ yo enpòtan, lè sistèm yo fè konfòmite pratik, e lè lidè yo trete konfòmite kòm yon pati nan fè travay la byen.
+
+Yon pwogram konfòmite pratik gen ladan l: konnen ki lwa ak règleman ki aplike (avèk konsèy pwofesyonèl, PURPLE); politik klè ki ekri nan langaj senp; fòmasyon ki eksplike ni kisa ni poukisa; sistèm ki fè bon aksyon an fasil, tankou lis verifikasyon oswa jaden obligatwa nan lojisyèl; swivi pou jwenn pwoblèm bonè; ak yon fason ki an sekirite pou anplwaye yo leve enkyetid yo.
+
+Kilti a deside. Si lidè yo fè lwanj rezilta pandan yo inyore kijan yo te rive la, anplwaye yo aprann chemen kout yo akseptab. Si lidè yo montre egzanp e rekonpanse konpòtman ki konfòm, li vin nòmal.
+
+Depans enpòtan, men lè w pa konfòm sa souvan koute pi chè atravè amann, lisans ou pèdi, pwosè ak domaj repitasyon. Lidè yo ta dwe fè konfòmite a yon fason efikas — retire papye ki pa nesesè pandan yo pwoteje sa ki obligatwa.
+
+Konfòmite se yon avantaj konpetitif tou. Kliyan, patnè ak otorite fè konfyans òganizasyon ki gen yon bon dosye.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pwopriyetè ajans lan travay ak yon konseye pou klarifye kondisyon dokiman yo. Yo ranplase fòm papye yo ak yon aplikasyon telefòn ki mande jaden kle yo anvan yo ka fèmen yon vizit. Moun k ap bay swen yo swiv yon ti fòmasyon ki eksplike kijan dokiman pwoteje pasyan yo ak pwòp travay yo. Sipèvizè yo revize yon echantiyon dosye chak semèn epi yo rekonèt ekip ki gen dokiman konplè. Pwopriyetè a retire tou de fòm ki te repete travay san yon rezon legal. Prèske tout vizit yo vin gen dokiman konplè, e pwochen enspeksyon an pa jwenn pwoblèm.
+
+## Egzamen pratik
+**Q1. Poukisa règ ki sou papye pa garanti konfòmite?**
+A) Moun swiv règ toutan lè yo konprann yo e sistèm yo fè konfòmite pratik
+B) Règ yo toujou pa klè
+C) Anplwaye pa janm li politik yo
+D) Otorite yo pa fè respekte règ yo
+
+**Q2. Ki yon pati nan yon pwogram konfòmite pratik?**
+A) Evite fòmasyon pou ekonomize tan
+B) Kache politik yo pou anplwaye pa wè yo
+C) Pini nenpòt moun ki leve yon enkyetid
+D) Sistèm ki fè bon aksyon an fasil
+
+**Q3. Kijan lidè yo fòme kilti konfòmite?**
+A) Lè yo fè lwanj rezilta kèlkeswa jan yo te rive la
+B) Lè yo kite konfòmite nèt nan men avoka
+C) Lè yo montre egzanp e rekonpanse konpòtman ki konfòm
+D) Lè yo inyore ti vyolasyon
+
+**Q4. Poukisa lè w pa konfòm souvan koute pi chè pase konfòmite?**
+A) Konfòmite toujou gratis
+B) Amann, lisans ou pèdi, pwosè ak domaj repitasyon ka pi chè pase depans konfòmite
+C) Pa konfòm pa gen konsekans
+D) Otorite yo rekonpanse moun ki pa konfòm
+
+**Q5. Nan egzanp lan, kisa ki te fè dokiman yo pi fasil?**
+A) Yon aplikasyon telefòn ki mande jaden kle anvan yo fèmen yon vizit
+B) Plis fòm papye
+C) Retire tout kondisyon dokiman
+D) Anboche plis enspektè
+
+## Kle repons yo
+Q1: A
+Q2: D
+Q3: C
+Q4: B
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Konprann ak sistèm pratik mennen nan yon konpòtman ki toujou menm.
+
+**Q2.** Sistèm ki byen fèt gide moun nan aksyon ki konfòm.
+
+**Q3.** Sa lidè yo montre ak sa yo rekonpanse defini sa anplwaye yo konsidere nòmal.
+
+**Q4.** Konsekans vyolasyon yo ka grav e yo ka dire lontan.
+
+**Q5.** Jaden obligatwa yo te mete konfòmite a anndan travay la menm.
+
+## Pwen kle yo
+- Konfòmite depann de konpreyansyon, sistèm ak kilti — pa sèlman règ.
+- Bati pwogram avèk politik klè, fòmasyon, sistèm pratik, swivi, ak fason ki an sekirite pou rapòte.
+- Lidè yo fòme konfòmite atravè sa yo montre ak sa yo rekonpanse.
+- Fè konfòmite yon fason efikas; lè w pa konfòm sa souvan koute pi chè.
+
+===== BLACK-L5-024
+TITLE: Oksestre repitasyon: kowòdone kominikasyon, etik, risk legal ak pati ki konsène yo
+SUMMARY: Aprann kijan repitasyon bati avèk yon konpòtman ki toujou menm sou tan e kijan pou pwoteje l nan moman difisil, epi kijan lidè yo kowòdone kominikasyon, konduit etik, konsèy legal ak relasyon ak pati ki konsène yo.
+KEYWORDS: jesyon repitasyon, repitasyon konpayi, kominikasyon ak pati ki konsène, etik, relasyon piblik
+# Oksestre repitasyon: kowòdone kominikasyon, etik, risk legal ak pati ki konsène yo
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Yon jimnaz lokal ki popilè resevwa yon piblikasyon ki gaye toupatou sou entènèt ki akize l kòmkwa li inyore plent sou asèlman. Manm yo ap poze kesyon, yon medya lokal enterese, e anplwaye yo boulvèse.
+
+## Objektif aprantisaj
+- Eksplike kijan repitasyon bati e poukisa li ka domaje vit.
+- Idantifye pati ki konsène ki gen konfyans ki fòme repitasyon an.
+- Eksplike kijan lidè yo balanse kominikasyon onèt ak prekosyon legal.
+- Aplike yon repons oksestre sou yon defi repitasyon.
+
+## Kontni prensipal
+PRENSIP: Repitasyon se total sa moun kwè sou yon òganizasyon dapre konpòtman li sou tan. Li bati dousman avèk aksyon ki toujou menm, e yon sèl ensidan ki mal jere ka domaje l vit.
+
+Pati ki konsène yo gen ladan yo kliyan, anplwaye, founisè, envestisè, otorite ak kominote a. Chak gwoup ka bezwen enfòmasyon ak rasirans diferan, men mesaj prensipal la dwe menm.
+
+Lè yo atake repitasyon an, lidè yo ta dwe chèche konnen laverite anvan — vit e serye. Rejte enkyetid yo oswa reponn sou defansiv souvan fè bagay yo vin pi mal. Si òganizasyon an fè erè, rekonèt yo e eksplike aksyon pou korije yo bati kredibilite.
+
+Konsèy legal (PURPLE) ede evite deklarasyon ki kreye responsablite ki pa nesesè oswa ki vyole vi prive. Men prekosyon legal pa dwe tounen silans oswa sove kò w. Pi fò fwa repitasyon refèt lè gen onètete, responsablite, ak aksyon espesifik ansanm.
+
+Se etik ki pwoteje repitasyon sou lontan, pa relasyon piblik. Òganizasyon ki trete moun jis, ki kenbe pwomès yo, e ki korije erè yo bati yon rezèv konfyans ki ede yo travèse moman difisil.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pwopriyetè jimnaz la reponn nan kèk èdtan avèk yon ti deklarasyon piblik ki rekonèt enkyetid yo e ki anonse yon envestigasyon endepandan. Avèk konsèy legal, pwopriyetè a pwoteje vi prive moun yo pandan l kominike ouvètman sou pwosesis la. Anplwaye yo rankontre pwopriyetè a menm jou a. Envestigasyon an jwenn plent yo pa t monte kote yo te dwe ale, kidonk jimnaz la mete an plas yon nouvo pwosedi pou rapòte, li fòme tout anplwaye yo, epi li pibliye yon rezime chanjman yo. Anpil manm apresye transparans lan, e kantite manm yo vin estab.
+
+## Egzamen pratik
+**Q1. Kijan repitasyon bati?**
+A) Avèk yon sèl kanpay piblisite
+B) Lè w evite tout kominikasyon
+C) Avèk deklarasyon legal sèlman
+D) Avèk yon konpòtman ki toujou menm sou tan
+
+**Q2. Kisa lidè yo ta dwe fè an premye lè yo atake repitasyon an?**
+A) Nye tout bagay touswit
+B) Inyore enkyetid la jiskaske li disparèt
+C) Chèche konnen laverite vit e serye
+D) Blame moun ki te pote plent lan
+
+**Q3. Kijan prekosyon legal ak kominikasyon onèt ta dwe mache ansanm?**
+A) Prekosyon legal ta dwe toujou vle di silans
+B) Konsèy legal ta dwe ede fòme yon kominikasyon onèt san l pa tounen sove kò w
+C) Onètete ta dwe inyore vi prive ak enkyetid legal
+D) Se avoka sèlman ki ta dwe kominike
+
+**Q4. Kisa ki pwoteje repitasyon plis sou lontan?**
+A) Konduit etik, tretman jis, ak kenbe pwomès
+B) Kanpay relasyon piblik sèlman
+C) Evite kliyan
+D) Repons agresif kont kritik
+
+**Q5. Nan egzanp lan, kisa jimnaz la te fè apre envestigasyon an?**
+A) Li fèmen pou tout tan
+B) Li inyore rezilta yo
+C) Li revoke tout anplwaye yo
+D) Li mete an plas yon nouvo pwosedi pou rapòte, li fòme anplwaye yo, epi li pibliye yon rezime chanjman yo
+
+## Kle repons yo
+Q1: D
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Repitasyon reflete eksperyans moun akimile sou jan yon òganizasyon konpòte l.
+
+**Q2.** Reponn san konnen laverite riske fè erè e pèdi kredibilite.
+
+**Q3.** Konsèy legal ta dwe sipòte, pa ranplase, yon kominikasyon onèt.
+
+**Q4.** Etik ki toujou menm bati yon konfyans ki siviv moman difisil.
+
+**Q5.** Aksyon korektif moun ka wè te montre yo te pran enkyetid yo oserye.
+
+## Pwen kle yo
+- Repitasyon bati dousman avèk konpòtman e li ka domaje vit.
+- Kominike menm jan ak chak gwoup pati ki konsène.
+- Chèche laverite oserye, rekonèt erè, epi fè aksyon korektif moun ka wè.
+- Se etik, pa relasyon piblik, ki pwoteje repitasyon sou lontan.
+
+===== BLACK-L5-025
+TITLE: Estrateji talan: oksestre reminerasyon, devlopman, kilti ak planifikasyon anplwaye
+SUMMARY: Aprann kijan lidè yo kreye yon estrateji talan ki konekte bezwen biznis la nan lavni ak anbochaj, devlopman, reminerasyon, kilti ak kenbe moun, olye yo ranpli pòs yo youn pa youn.
+KEYWORDS: estrateji talan, planifikasyon anplwaye, devlopman anplwaye, kenbe moun, estrateji anbochaj, lidèchip
+# Estrateji talan: oksestre reminerasyon, devlopman, kilti ak planifikasyon anplwaye
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Yon konpayi jeni rejyonal genyen pi gwo pwojè chak ane, men li toujou gen difikilte pou jwenn manadjè pwojè ki gen eksperyans. Yo ranpli chak pòs prese prese, souvan ak moun deyò ki kite nan dezan.
+
+## Objektif aprantisaj
+- Eksplike diferans ant anboche lè bezwen parèt ak yon estrateji talan.
+- Idantifye eleman planifikasyon anplwaye.
+- Eksplike poukisa devlope moun anndan an ka pi efikas pase anboche deyò chak fwa.
+- Aplike yon plan talan oksestre ki konekte ak objektif biznis la.
+
+## Kontni prensipal
+PRENSIP: Òganizasyon raman depase estrateji yo; yo depase moun yo. Yon estrateji talan mande ki kapasite òganizasyon an ap bezwen nan lavni e li bati yon plan pou genyen yo.
+
+Planifikasyon anplwaye kòmanse ak plan biznis la. Ki pwojè, mache oswa sèvis yo prevwa? Ki wòl ki pral nesesè, e konbyen? Ki konpetans ki ra? Ki kote retrèt oswa depa gen chans rive?
+
+Apre sa lidè yo deside kijan pou satisfè bezwen sa yo: bati (devlope anplwaye ki la deja), achte (anboche deyò), prete (kontraktè oswa patnè), oswa kenbe (kenbe moun ki esansyèl yo). Pi fò òganizasyon sèvi ak yon melanj.
+
+Devlopman souvan bay pi bon rezilta sou lontan. Anplwaye ki grandi anndan òganizasyon an konprann kilti l, kliyan l ak sistèm li. Chemen karyè klè, mantora, fòmasyon ak travay ki pouse moun fè efò fè devlopman an fèt avèk entansyon.
+
+Reminerasyon ak kilti afekte si moun rete. Yon salè ki konpetitif enpòtan, men moun rete tou pou travay ki gen sans, respè, opòtinite pou grandi, ak bon manadjè. Entèvyou depa ak sondaj angajman montre poukisa moun kite.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi jeni an kreye yon plan talan pou twazan. Li idantifye dis enjenyè ki gen potansyèl lidèchip epi li kòmanse yon pwogram devlopman pou jesyon pwojè avèk mantora ak responsablite k ap ogmante piti piti. Li mete salè manadjè pwojè yo nan nivo mache a e li prezante yon echèl karyè klè. Anbochaj deyò kontinye pou wòl espesyalize, men pwomosyon anndan vin prensipal sous manadjè pwojè. Nan twazan, kantite moun ki kite wòl sa yo bese anpil, e livrezon pwojè yo amelyore.
+
+## Egzamen pratik
+**Q1. Ki prensipal diferans ant anboche lè bezwen parèt ak yon estrateji talan?**
+A) Pa gen diferans
+B) Anboche lè bezwen parèt toujou pi bon mache
+C) Yon estrateji talan planifye kapasite pou lavni olye ranpli pòs vid youn pa youn
+D) Estrateji talan pa janm gen anbochaj ladan yo
+
+**Q2. Kisa "bati" vle di nan planifikasyon talan?**
+A) Konstwi nouvo biwo
+B) Devlope anplwaye ki la deja
+C) Anboche sèlman kandida deyò
+D) Sèvi ak kontraktè sèlman
+
+**Q3. Poukisa devlopman anndan ka bay pi bon rezilta sou lontan?**
+A) Anplwaye anndan yo deja konprann kilti, kliyan ak sistèm yo
+B) Anplwaye anndan yo pa janm kite
+C) Devlopman pa koute anyen
+D) Kandida deyò pa janm kalifye
+
+**Q4. Apa salè, kisa ki ede moun rete?**
+A) Plis lè travay
+B) Mwens opòtinite karyè
+C) Mwens kominikasyon
+D) Travay ki gen sans, respè, opòtinite pou grandi, ak bon manadjè
+
+**Q5. Nan egzanp lan, ki sa ki te vin prensipal sous manadjè pwojè?**
+A) Ajans rekritman deyò
+B) Kontraktè
+C) Pwomosyon anndan atravè yon pwogram devlopman
+D) Konpetitè
+
+## Kle repons yo
+Q1: C
+Q2: B
+Q3: A
+Q4: D
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Estrateji talan konekte bezwen biznis la nan lavni ak plan pou moun yo.
+
+**Q2.** Bati vle di fè kapasite grandi anndan ekip ki la deja a.
+
+**Q3.** Konesans ak relasyon ki la deja fè moun vin efikas pi vit.
+
+**Q4.** Moun rete kote yo santi yo gen valè e kote yo wè yon avni.
+
+**Q5.** Yon pwogram devlopman ki fèt avèk entansyon te kreye yon sous moun anndan ou ka konte sou li.
+
+## Pwen kle yo
+- Òganizasyon depase moun yo anvan yo depase estrateji yo.
+- Planifye kapasite pou lavni dapre plan biznis la.
+- Mete estrateji bati, achte, prete ak kenbe ansanm avèk entansyon.
+- Kenbe moun depann de salè, kwasans, kilti ak bon jesyon.
