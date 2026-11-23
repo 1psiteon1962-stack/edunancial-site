@@ -86,3 +86,4 @@ Status:
 - ORANGE English R counts (O0 all): 001:2 002:3 003:1 004:4 005:2 006:1 007:3 008:3 009:4 010:3 011:2 012:1 013:2 014:5 015:1 016:3 017:4 018:1 019:1 020:3 021:2 022:4 023:5 024:1 025:1 026:2 027:4 028:2 029:4 030:6 031:0 032:9 033:7 034:2 035:0 036:1 037:3 038:1 039:0 040:2 041:4 042:1 043:2 044:0 045:3 046:1 047:0 048:0 049:3 050:0
 - NOTE: earlier en-GB packs (RED..PURPLE) kept US "colors" (engb.py bug, fixed 11/22 for ORANGE onward). Not changed in live packs (approved-lesson rule); ask owner before backfilling.
 - NOTE: bash glob order of work/*/b*.txt is odd in this shell; python sorted() is lesson order. Write note lists in LESSON order.
+- ORANGE-L5 fr-FR DONE 2026-11-22
