@@ -1,0 +1,60 @@
+---
+id: GOLD-L3-036
+track: GOLD
+officialTrackName: "Investing"
+level: 3
+lessonNumber: 36
+title: "Poukisa gwosè pozisyon aplike pou chak klas byen, pa sèlman pou aksyon"
+summary: "Aprann poukisa disiplin gwosè pozisyon yo kouvri pou aksyon ak biznis aplike menm jan pou lò, envestisman altènatif, ak nenpòt lòt klas byen."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-10-28"
+locale: "ht"
+source_locale: "en-US"
+---
+# GOLD-L3-036: Poukisa gwosè pozisyon aplike pou chak klas byen, pa sèlman pou aksyon
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa gwosè pozisyon se yon prensip inivèsèl, pa espesifik pou okenn sèl klas byen
+- Esplike poukisa sa aplike espesyalman pou envestisman altènatif ak envestisman ki pa likid yo kouvri nan tout tras sa a
+- Konekte konsèp sa a ak etid ka sou aksyon fraksyonè yo mansyone lòt kote nan kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras WHITE ak BLUE kourikoulòm sa a tou de kouvri gwosè pozisyon (position sizing) — limite konbyen nan yon pòtfèy ou angaje nan nenpòt sèl envestisman, pou yon sèl move rezilta pa vin katastwofik. Men "poukisa" prensip sa a aplike ak menm fòs la, e petèt plis fòs ankò, pou envestisman altènatif ak envestisman ki pa likid yo kouvri nan tout tras GOLD sa a: akoz likidite ki pi piti (Leson 10), evalyasyon ki pi difisil (Leson 8), ak estrikti frè ki souvan konplike (Leson 25) yo kouvri nan tout tras sa a, yon pozisyon ki pa gen bon gwosè nan youn nan kalite byen sa yo ka pi difisil anpil pou korije oswa pou sòti ladan l pase yon pozisyon twò gwo nan yon aksyon likid, ki negosye piblikman.
+
+[FÈ VERIFYE] Sa konekte dirèkteman ak etid ka sou aksyon fraksyonè yo mansyone lòt kote nan kourikoulòm sa a: bay nenpòt sèl envestisman — kit se yon aksyon, yon pòsyon lò, oswa yon angajman nan yon fon prive — yon gwosè pou yon rezilta ki desevwa se yon reveye ki reyèl, ou santi l, men li pa janm katastwofik, se yon prensip inivèsèl, pa yon bagay espesifik pou okenn sèl kategori byen yo kouvri nan diferan tras kourikoulòm sa a.
+
+Sa enpòtan sitou akoz aksan tras sa a mete sou envestisman altènatif ki pa likid, ki pi difisil pou evalye: kòm sòti nan yon move desizyon pi difisil anpil nan kategori sa yo pase ak yon aksyon likid, jwenn bon gwosè pozisyon an davans gen plis pwa ankò pase pou envestisman likid ou ka ajiste pi fasil.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè bay pozisyon li yo yon gwosè avèk swen nan tout pòtfèy li: yon pòsyon modès nan aksyon endividyèl, yon pòsyon modès nan lò, ak yon angajman modès, byen reflechi nan yon fon prive ki pa likid — chak youn gen yon gwosè pou menm yon rezilta ki desevwa anpil nan nenpòt sèl pozisyon pa ta menase sitiyasyon finansye jeneral li. [SIPOZISYON] Si envestisman li nan fon prive a fè mwens byen anpil, gwosè pozisyon li te chwazi avèk swen an vle di sa se yon reveye ki reyèl, li santi l, men se pa youn ki mete estabilite finansye pi laj li an danje — egzakteman paske li te aplike menm prensip gwosè disipline a pou pozisyon sa a ki pa likid, ki pi difisil pou sòti ladan l, li te aplike pou envestisman likid li ka ajiste pi fasil yo.
+
+## Egzamen pratik
+
+1. Poukisa gwosè pozisyon aplike pou tout klas byen, pa sèlman pou aksyon?
+2. Poukisa prensip sa a enpòtan ak yon fòs patikilye pou envestisman altènatif ak envestisman ki pa likid yo kouvri nan tout tras sa a?
+3. Kijan leson sa a konekte ak etid ka sou aksyon fraksyonè yo mansyone lòt kote nan kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Paske prensip debaz la — limite konbyen yon sèl move rezilta ka fè mal pòtfèy la an jeneral — inivèsèl, li aplike pou nenpòt kalite byen, se pa yon bagay espesifik pou aksyon.
+2. Paske likidite ki pi piti, evalyasyon ki pi difisil, ak estrikti frè konplike fè yon pozisyon ki pa gen bon gwosè nan kalite byen sa yo pi difisil anpil pou korije oswa pou sòti ladan l pase yon pozisyon twò gwo nan yon aksyon likid.
+3. Leson sa a pwolonje dirèkteman prensip etid ka sa a — bay envestisman yon gwosè pou pèt yo reyèl e ou santi yo men yo pa janm katastwofik — pou lò ak envestisman altènatif, sa ki ranfòse l kòm yon prensip inivèsèl nan tout kourikoulòm sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki ini leson an.
+2. Sa a se rezònman espesifik ki esplike poukisa prensip sa a enpòtan plis ankò pou kategori byen espesifik tras sa a.
+3. Sa konekte leson an klèman ak yon etid ka espesifik yo mansyone lòt kote nan kourikoulòm sa a, sa ki ranfòse kontinwite.
+
+## Pwen kle yo
+- Gwosè pozisyon se yon prensip inivèsèl, ki aplike pou chak klas byen, pa sèlman pou aksyon.
+- Sa enpòtan ak yon fòs patikilye pou envestisman altènatif ki pa likid, ki pi difisil pou evalye, paske korije yon pozisyon twò gwo pi difisil anpil pase ak yon aksyon likid.
+- Prensip debaz etid ka sou aksyon fraksyonè a — pèt ki reyèl, ou santi yo, men ki pa janm katastwofik — aplike menm jan pou lò ak envestisman altènatif.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*

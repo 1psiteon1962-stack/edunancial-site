@@ -1,0 +1,60 @@
+---
+id: GOLD-L3-021
+track: GOLD
+officialTrackName: "Investing"
+level: 3
+lessonNumber: 21
+title: "Poukisa lò pa bay rannman e poukisa se sa ki pwen an"
+summary: "Aprann poukisa lefèt lò pa bay rannman se yon konpwomi fè espre ki mare dirèkteman ak wòl li kòm rezèv valè, pa yon defo ni yon bliye."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-10-28"
+locale: "ht"
+source_locale: "en-US"
+---
+# GOLD-L3-021: Poukisa lò pa bay rannman e poukisa se sa ki pwen an
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa lò, kontrèman ak obligasyon oswa aksyon ki peye dividann, pa bay okenn rannman
+- Esplike poukisa mank rannman sa a reprezante yon vrè kou opòtinite
+- Esplike poukisa konpwomi sa a konekte dirèkteman ak wòl lò sipoze jwe, olye l se yon bliye
+
+## Kontni prensipal
+
+Leson 4 ak 5 yo te etabli lò kòm yon byen ki pa pwodiktif. Men "poukisa" espesifik ki dèyè lefèt li pa bay okenn rannman ditou, ak poukisa sa a pa senpleman yon mank malere: lò pa peye enterè tankou yon obligasyon, dividann tankou kèk aksyon, oswa lwaye tankou imobilye, paske li pa kreye okenn aktivite ekonomik debaz — li senpleman la, fizikman san chanjman, kit yo kenbe l pou yon ane kit pou senkant ane.
+
+Men "poukisa" sa reprezante yon vrè kou opòtinite, kontinyèl ki vo lapèn rekonèt onètman: [FÈ VERIFYE] lajan yo kenbe an lò pa touche an menm tan enterè, dividann, oswa revni lwaye jan li ta ka touche si yo te envesti l nan yon byen pwodiktif olye sa — sa a se yon vrè kou pou kenbe lò, pa yon bagay pou inyore, e li vin pi enpòtan plis rannman ki disponib sou byen altènatif, pwodiktif yo wo nan yon moman (sa ki konekte dirèkteman ak diskisyon Leson 15 la sou to enterè ki afekte atraksyon relatif lò).
+
+Konpwomi sa a konekte dirèkteman ak wòl lò sipoze jwe, li pa yon bliye nan konsepsyon li: egzakteman paske lò pa bay rannman, li pa pote tou okenn nan risk ki mare ak rannman sa a — pa gen depandans sou pwofitabilite kontinyèl yon konpayi, pa gen depandans sou kapasite kontinyèl yon prete pou l peye enterè. Mank rannman ak mank risk ki mare ak rannman se de fas menm karakteristik debaz la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè kenbe yon pòsyon nan pòtfèy li an lò olye nan yon obligasyon ki ofri yon rannman enpòtan. Pandan plizyè ane, li rate revni enterè li ta touche nan obligasyon an — yon vrè kou opòtinite, ou ka mezire, pòsyon lò li a. [SIPOZISYON] An echanj, li evite tou risk espesifik ki mare ak obligasyon sa a — posiblite pou emetè a pa peye oswa pa fè peman enterè yo — paske lò li a pa gen okenn depandans ekivalan sou kapasite kontinyèl okenn prete espesifik pou l peye. Li echanje rannman, ak risk ki mare ak rannman sa a, pou yon lòt seri karakteristik lò ofri pito.
+
+## Egzamen pratik
+
+1. Poukisa lò pa bay rannman, kontrèman ak yon obligasyon oswa yon aksyon ki peye dividann?
+2. Poukisa mank rannman sa a reprezante yon vrè kou opòtinite, kontinyèl?
+3. Poukisa mank rannman an konekte dirèkteman ak wòl lò sipoze jwe, olye l se senpleman yon defo?
+
+## Kle repons yo
+
+1. Paske lò pa kreye okenn aktivite ekonomik debaz — li pa pwodui enterè, dividann, oswa lwaye jan yon byen pwodiktif fè l.
+2. Paske lajan yo kenbe an lò pa touche an menm tan revni li ta ka touche nan yon altènativ pwodiktif, yon vrè kou kontinyèl ki vin pi enpòtan lè rannman ki disponib lòt kote pi wo.
+3. Paske mank rannman vle di tou mank risk ki mare ak rannman — pa gen depandans sou pwofitabilite yon konpayi oswa sou kapasite yon prete pou l peye — sa yo se de fas menm karakteristik debaz ki pa pwodiktif la.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte dirèkteman ak klasifikasyon lò kòm byen ki pa pwodiktif nan Leson 4 ak 5.
+2. Sa a se rekonesans santral, onèt vrè kou lò.
+3. Sa fè wè mank rannman an kòm yon konpwomi fè espre ki mare ak wòl lò, pa yon bliye.
+
+## Pwen kle yo
+- Lò pa bay rannman paske li pa pwodui okenn aktivite ekonomik debaz, kontrèman ak obligasyon, aksyon ki peye dividann, oswa pwopriyete lokasyon.
+- Sa reprezante yon vrè kou opòtinite, kontinyèl, ki vin pi gwo lè rannman ki disponib lòt kote pi wo.
+- Mank rannman ak mank risk ki mare ak rannman konekte dirèkteman — yon konpwomi fè espre ki mare ak wòl lò sipoze jwe, pa yon defo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
