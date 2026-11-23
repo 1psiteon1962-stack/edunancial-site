@@ -1,0 +1,289 @@
+===== WHITE-L2-011
+TITLE: Debanti ak dèt san garanti: yon gade pi pre
+SUMMARY: Yon debanti (debenture) se yon kalite obligasyon ki pa garanti pa yon byen espesifik – pwomès emetè a pou l peye chita sou kredibilite jeneral li ak kapasite li pou pwodui revni nan lavni.
+## WHITE-L2-011
+### Debanti ak dèt san garanti: yon gade pi pre
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon debanti nan yon nivo konseptyèl.
+- Fè diferans ant dèt san garanti ak dèt ki garanti.
+- Esplike poukisa dèt san garanti anjeneral gen yon risk diferan de dèt ki garanti.
+
+**2. Kontni prensipal**
+Yon debanti (debenture) se yon kalite obligasyon ki pa garanti pa yon byen espesifik — pwomès emetè a pou l peye chita sou kredibilite jeneral li ak kapasite li pou pwodui revni nan lavni, olye sou yon byen espesifik yo bay an garanti pou dèt la. Sa diferan de dèt ki garanti, kote yo bay byen espesifik an garanti (sa raple diskisyon sou prè ipotèk nan pakou RED la, kote pwopriyete a li menm garanti prè a).
+
+Paske moun ki kenbe debanti gen yon dwa sèlman sou byen jeneral ak kredibilite emetè a, olye sou yon byen espesifik yo bay an garanti, debanti anjeneral gen yon ti jan plis risk pase dèt ki garanti ki konparab nan men menm emetè a, e nan ka defo oswa fayit, moun ki kenbe debanti san garanti anjeneral resevwa ranbousman apre kreyansye ki garanti yo fin jwenn sa yo dwe nan garanti espesifik yo, men anvan moun ki kenbe aksyon (ekite) nan pifò estrikti kapital estanda.
+
+Sa a se yon eko itil ant koulè ak konsèp prè ki garanti nan pakou RED la (prè ipotèk, privilèj), aplike isit la nan kontèks WHITE (Byen an papye) — prensip ki anba a sou dwa ki garanti kont dwa ki pa garanti retounen atravè diferan kategori byen.
+
+**3. Egzanp pratik**
+Lè l ap konpare de obligasyon menm konpayi an, Halima remake youn se yon obligasyon ki garanti pa ekipman espesifik konpayi an, alòske lòt la se yon debanti san garanti ki chita sèlman sou kredibilite jeneral konpayi an. Debanti a ofri yon to koupon yon ti jan pi wo pase obligasyon ki garanti a, pou konpanse envestisè yo pou risk li ki konparativman pi wo si konpayi an ta fè fas a difikilte finansye, paske moun ki kenbe debanti ta gen yon dwa pi fèb sou byen espesifik pase moun ki kenbe obligasyon ki garanti nan senaryo sa a.
+
+**4. Egzamen pratik**
+1. Kisa ki chita dèyè yon debanti?
+   a) Yon byen espesifik yo bay an garanti
+   b) Kredibilite jeneral emetè a, san garanti espesifik
+   c) Imobilye sèlman
+   d) Garanti gouvènman
+
+2. Nan yon senaryo defo, kijan yo anjeneral trete moun ki kenbe debanti konpare ak kreyansye ki garanti?
+   a) Yo resevwa ranbousman an premye, anvan kreyansye ki garanti yo
+   b) Yo anjeneral resevwa ranbousman apre kreyansye ki garanti yo fin jwenn sa yo dwe nan garanti yo
+   c) Yo pa resevwa anyen nan okenn sikonstans
+   d) Pa gen diferans nan tretman
+
+3. Vrè oswa Fo: Debanti ak obligasyon ki garanti gen menm nivo risk nan men menm emetè a.
+
+4. Poukisa debanti nan egzanp pratik la te ofri yon to koupon pi wo pase obligasyon ki garanti a?
+   a) Se te yon envestisman ki pi an sekirite
+   b) Li te konpanse envestisè yo pou yon risk konparativman pi wo akoz li pa t gen garanti espesifik
+   c) Li te gen yon echeyans pi kout
+   d) Gouvènman te garanti l
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon debanti chita sou kredibilite jeneral emetè a olye sou yon byen espesifik yo bay an garanti.
+2. Moun ki kenbe debanti anjeneral resevwa ranbousman apre kreyansye ki garanti yo fin rekipere nan garanti espesifik yo nan yon senaryo defo.
+3. Debanti anjeneral gen plis risk pase dèt ki garanti ki konparab nan men menm emetè a, akoz yo pa gen garanti espesifik.
+4. To koupon ki pi wo a te konpanse moun ki kenbe debanti pou dwa yo ki konparativman pi fèb nan yon senaryo defo posib.
+
+**7. Pwen kle yo**
+- Yon debanti se yon obligasyon san garanti ki chita sou kredibilite jeneral emetè a, se pa sou yon garanti espesifik.
+- Dèt ki garanti chita sou byen espesifik yo bay an garanti, sa ki raple konsèp pakou RED la.
+- Debanti anjeneral gen plis risk, e souvan plis randman, pase dèt ki garanti ki konparab.
+- Nan ka defo, kreyansye ki garanti yo anjeneral resevwa nan garanti a anvan yo ranbouse moun ki kenbe debanti san garanti.
+
+===== WHITE-L2-012
+TITLE: Nòt obligasyon ak risk kredi
+SUMMARY: Ajans notasyon kredi evalye e bay nòt pou emetè obligasyon (e pafwa pou emisyon espesifik), sa ki reflete yon estimasyon sou kapasite ak volonte emetè a pou l respekte obligasyon dèt li.
+## WHITE-L2-012
+### Nòt obligasyon ak risk kredi
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike objektif jeneral nòt kredi obligasyon.
+- Fè diferans ant obligasyon kategori envestisman ak obligasyon gwo randman (espekilatif) nan yon nivo konseptyèl.
+- Esplike kijan risk kredi gen enteraksyon ak randman.
+
+**2. Kontni prensipal**
+Ajans notasyon kredi evalye e bay nòt pou emetè obligasyon (e pafwa pou emisyon obligasyon espesifik), sa ki reflete yon estimasyon sou kapasite ak volonte emetè a pou l respekte obligasyon dèt li. Nòt sa yo anjeneral gwoupe nan de gwo kategori: kategori envestisman (investment-grade, ki montre yon risk kredi yo evalye ki relativman pi ba) ak gwo randman oswa "kategori espekilatif" (pafwa yo rele yo yon fason enfòmèl "obligasyon pakotiy" oswa junk bonds, ki montre yon risk kredi yo evalye ki relativman pi wo).
+
+Nòt se evalyasyon, se pa garanti — yon emetè ki gen yon bon nòt ka toujou fè defo, e yon emetè ki gen yon nòt pi ba ka toujou respekte obligasyon li nèt. Nòt se yon done pou evalye risk kredi, se pa yon ranplasman pou konprann vrè kondisyon finansye yon emetè.
+
+Risk kredi gen enteraksyon dirèk ak randman: obligasyon moun wè ki gen plis risk defo anjeneral dwe ofri plis randman pou atire envestisè ki dispoze aksepte risk sa a, alòske obligasyon moun wè ki pi an sekirite anjeneral ofri mwens randman. Sa a se yon aplikasyon espesifik yon rapò risk/retou pi laj ki retounen atravè tout byen an papye.
+
+**3. Egzanp pratik**
+Lè l ap konpare de obligasyon, Teo remake youn gen yon nòt kategori envestisman ki wo e li ofri yon randman modès, alòske yon lòt gen yon nòt gwo randman (kategori espekilatif) e li ofri yon randman anpil pi wo. Olye l sipoze obligasyon ki gen plis randman an tou senpleman yon "pi bon afè," Teo rekonèt plis randman an egziste espesyalman pou konpanse yon risk kredi yo evalye ki pi wo — e li fè plis rechèch sou vrè kondisyon finansye emetè a anvan l deside si risk anplis sa a koresponn ak pwòp tolerans li pou risk ak objektif li.
+
+**4. Egzamen pratik**
+1. Kisa nòt kredi obligasyon anjeneral evalye?
+   a) Direksyon jeneral mache aksyon an
+   b) Kapasite ak volonte yon emetè pou l respekte obligasyon dèt li
+   c) Dat echeyans obligasyon an sèlman
+   d) Valè imobilye
+
+2. Kisa yon obligasyon "gwo randman" oswa kategori espekilatif anjeneral montre?
+   a) Yon risk kredi yo evalye ki pi ba
+   b) Yon risk kredi yo evalye ki pi wo
+   c) Ranbousman garanti
+   d) Pa gen risk defo
+
+3. Vrè oswa Fo: Yon nòt kredi obligasyon se yon garanti ke emetè a pap janm fè defo.
+
+4. Poukisa obligasyon gwo randman nan egzanp pratik la te ofri yon randman anpil pi wo pase obligasyon kategori envestisman an?
+   a) Li pa t gen risk
+   b) Plis randman an konpanse yon risk kredi yo evalye ki pi wo
+   c) Li te gen yon echeyans pi kout
+   d) Imobilye te garanti l
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Nòt obligasyon evalye kapasite ak volonte yon emetè pou l respekte obligasyon dèt li.
+2. Nòt gwo randman/kategori espekilatif montre yon risk kredi yo evalye ki relativman pi wo.
+3. Nòt se evalyasyon, se pa garanti — menm emetè ki gen bon nòt ka fè defo.
+4. Plis randman sou obligasyon kategori espekilatif la konpanse envestisè yo paske yo aksepte yon risk kredi yo evalye ki pi wo.
+
+**7. Pwen kle yo**
+- Nòt kredi obligasyon evalye kapasite ak volonte yon emetè pou l respekte obligasyon dèt li.
+- Nòt yo anjeneral gwoupe nan kategori envestisman ak gwo randman (kategori espekilatif).
+- Nòt se evalyasyon, se pa garanti ranbousman oswa defo.
+- Yon risk kredi yo evalye ki pi wo anjeneral koresponn ak plis randman yo mande, sa ki reflete yon rapò risk/retou prensipal.
+
+===== WHITE-L2-013
+TITLE: Fon mityèl kont ETF: diferans nan estrikti
+SUMMARY: Fon mityèl ak fon ki negosye sou bous (ETF) tou de mete lajan envestisè yo ansanm nan yon panye byen divèsifye, men estrikti yo diferan nan fason pratik.
+## WHITE-L2-013
+### Fon mityèl kont ETF: diferans nan estrikti
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare fon mityèl ak ETF sou mekanis negosyasyon, pri, ak minimòm tipik.
+- Esplike kijan chak estrikti afekte eksperyans pratik yon envestisè.
+- Rekonèt ke tou de ka swiv estrateji envestisman ki sanble.
+
+**2. Kontni prensipal**
+Fon mityèl ak fon ki negosye sou bous (ETF) tou de mete lajan envestisè yo ansanm nan yon panye byen divèsifye, men estrikti yo diferan nan fason pratik. Yo anjeneral achte e vann pa fon mityèl yon fwa pa jou nan yon sèl pri yo kalkile (valè nèt byen yo, oswa NAV) yo detèmine apre mache yo fèmen, e kèk fon mityèl gen kondisyon envestisman minimòm. Pa ETF, okontrè, anjeneral negosye pandan tout jounen an sou yon bous tankou yon aksyon, ak pri k ap varye san rete dapre òf ak demann (ki anjeneral swiv valè byen ki anba yo byen pre, menm si se pa pafètman nan chak moman), e souvan san okenn envestisman minimòm pi lwen pase pri yon sèl pa (oswa yon moso pa, kote sa disponib).
+
+Tou de estrikti yo ka swiv estrateji ki sanble — yon fon mityèl ak yon ETF ka chak swiv menm endis la, oswa chak swiv yon estrateji valè oswa kwasans ki jere aktivman. Chwa ant yo souvan depann de fleksibilite pou negosye, estrikti pri (Leson 15), ak disponiblite fon espesifik, olye youn nan estrikti yo pi bon pou tout estrateji.
+
+**3. Egzanp pratik**
+Lè l ap konpare de fon ki swiv menm endis mache laj la, youn estriktire kòm fon mityèl e youn kòm ETF, Renee remake fon mityèl la pèmèt negosye sèlman nan pri NAV nan fen jounen an, alòske ou ka achte oswa vann ETF a nenpòt ki lè pandan è mache a nan pri l ap negosye kounye a. Pou sitiyasyon espesifik li — ti acha detanzantan pandan mwa a olye yon sèl gwo tranzaksyon — li jwenn fleksibilite ETF a ak mank kondisyon envestisman minimòm li koresponn pi byen ak bezwen pratik li, menm si tou de fon yo swiv egzakteman menm endis la.
+
+**4. Egzamen pratik**
+1. Kilè yo anjeneral bay pri e negosye pa fon mityèl?
+   a) San rete pandan tout jounen an
+   b) Yon fwa pa jou, nan yon valè nèt byen yo kalkile apre mache yo fèmen
+   c) Janm — ou pa ka negosye yo
+   d) Yon fwa pa ane sèlman
+
+2. Kijan pa ETF anjeneral negosye?
+   a) Yon fwa pa jou sèlman
+   b) Pandan tout jounen an sou yon bous, tankou yon aksyon
+   c) Sèlman atravè yon bank
+   d) Ou pa ka achte ni vann yo
+
+3. Vrè oswa Fo: Fon mityèl ak ETF pa ka janm swiv menm estrateji envestisman oswa yon estrateji ki sanble.
+
+4. Poukisa Renee te prefere estrikti ETF a pou sitiyasyon espesifik li?
+   a) Se te sèl opsyon ki te disponib
+   b) Fleksibilite pou negosye pandan jounen an ak mank minimòm li te koresponn ak ti acha li fè pi souvan
+   c) Fon mityèl la te ilegal
+   d) ETF garanti retou ki pi wo
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yo anjeneral bay pri e negosye fon mityèl yon fwa pa jou nan yon NAV yo kalkile apre mache yo fèmen.
+2. ETF anjeneral negosye pandan tout jounen an sou yon bous, ak pri k ap varye san rete.
+3. Tou de estrikti yo ka swiv estrateji ki sanble oswa menm idantik, tankou swiv menm endis la.
+4. Fason pratik Renee negosye a te byen sèvi pa fleksibilite ETF a pandan jounen an ak mank envestisman minimòm.
+
+**7. Pwen kle yo**
+- Fon mityèl negosye yon fwa pa jou nan yon NAV yo kalkile; ETF negosye pandan tout jounen an tankou aksyon.
+- ETF souvan pa gen kondisyon envestisman minimòm pi lwen pase pri yon sèl pa; kèk fon mityèl gen minimòm.
+- Tou de estrikti yo ka swiv estrateji envestisman ki sanble oswa idantik.
+- Bon chwa a souvan depann de bezwen fleksibilite pou negosye ak estrikti pri, se pa yon siperyorite inivèsèl.
+
+===== WHITE-L2-014
+TITLE: Mekanis ETF: kreyasyon, rachta, ak swivi
+SUMMARY: Sou baz konparezon leson anvan an, leson sa a esplike yon fason konseptyèl poukisa pri ETF anjeneral swiv valè byen ki anba yo byen pre pandan tout jounen an.
+## WHITE-L2-014
+### Mekanis ETF: kreyasyon, rachta, ak swivi
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike, nan yon nivo konseptyèl, kijan mekanis kreyasyon/rachta ETF ede kenbe pri yo aliyen ak valè ki anba a.
+- Bay definisyon "erè swivi" (tracking error) an tèm jeneral.
+- Rekonèt ke mekanis sa a fonksyone sitou dèyè sèn nan pou envestisè tipik.
+
+**2. Kontni prensipal**
+Sou baz konparezon leson anvan an, leson sa a esplike yon fason konseptyèl poukisa pri ETF anjeneral swiv valè byen ki anba yo byen pre pandan tout jounen an. Patisipan enstitisyonèl espesyalize (yo souvan rele yo "patisipan otorize") ka kreye nouvo pa ETF lè yo livre yon panye byen ki anba yo bay fon an, oswa yo ka rachte pa ETF lè yo resevwa byen ki anba yo tounen, an gwo blòk. Mekanis sa a kreye yon motivasyon ki baze sou abitraj: si pri negosyasyon yon ETF deplase twò lwen valè ki anba l, patisipan sa yo ka fè benefis lè yo kreye oswa rachte pa, yon aksyon ki gen tandans pouse pri ETF a retounen nan direksyon valè ki anba l.
+
+Pou pifò envestisè chak jou, mekanis sa a rive nèt dèyè sèn nan e li pa mande okenn aksyon dirèk ni konpreyansyon pou itilize yon ETF yon fason efikas — li tou senpleman ede esplike poukisa pri ETF anjeneral rete rezonab pre valè ki anba yo pandan jounen negosyasyon an, olye yo deplase yon fason abitrè.
+
+"Erè swivi" (tracking error) vle di nan ki nivo vrè pèfòmans yon ETF (oswa yon fon mityèl endis) diferan de pèfòmans endis li vize a avèk tan — idealman piti, men li pa janm garanti pou l egzakteman zewo, akoz frè, pri tranzaksyon, ak lòt faktè estriktirèl.
+
+**3. Egzanp pratik**
+Pandan l ap fè rechèch sou de ETF ki swiv menm endis la, Kwame remake youn montre yon erè swivi ki pi piti yon fason konsistan avèk tan pase lòt la, sa vle di vrè retou li te koresponn pi byen ak retou endis ki anba a. San l pa bezwen konprann tout mekanis patisipan otorize ak pwosesis kreyasyon/rachta a, Kwame itilize konparezon erè swivi sa a kòm yon faktè pratik (ansanm ak rapò depans, nou pral kouvri l nan pwochen leson an) pou l chwazi ant de opsyon ETF ki sanble yo.
+
+**4. Egzamen pratik**
+1. Ki objektif jeneral mekanis kreyasyon/rachta ETF la?
+   a) Garanti yon pri espesifik
+   b) Ede kenbe pri negosyasyon yon ETF aliyen ak valè byen ki anba l
+   c) Elimine tout frè
+   d) Anpeche nenpòt negosyasyon pandan jounen an
+
+2. Kisa "erè swivi" ye?
+   a) Yon kalite defo obligasyon
+   b) Nan ki nivo vrè pèfòmans yon fon diferan de pèfòmans endis li vize a
+   c) Yon envestisman minimòm fon mityèl
+   d) Yon penalite taks
+
+3. Vrè oswa Fo: Envestisè chak jou dwe pèsonèlman konprann e patisipe nan mekanis kreyasyon/rachta a pou yo itilize ETF yon fason efikas.
+
+4. Kijan Kwame te itilize erè swivi nan desizyon li?
+   a) Li te inyore l nèt
+   b) Li te itilize l kòm yon faktè pratik pou konpare de ETF ki sanble
+   c) Li te sipoze erè swivi toujou egzakteman zewo
+   d) Li te konsidere sèlman non fon an
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Mekanis kreyasyon/rachta a ede kenbe pri negosyasyon yon ETF aliyen ak valè byen ki anba l atravè yon pwosesis ki baze sou abitraj.
+2. Erè swivi mezire konbyen vrè retou yon fon koresponn ak retou endis li vize a.
+3. Mekanis sa a fonksyone dèyè sèn nan atravè patisipan otorize; envestisè chak jou pa bezwen patisipe dirèkteman.
+4. Kwame te itilize erè swivi kòm yon faktè konparezon pratik, ansanm ak rapò depans, lè l t ap chwazi ant ETF ki sanble.
+
+**7. Pwen kle yo**
+- Patisipan otorize itilize yon mekanis kreyasyon/rachta ki ede kenbe pri ETF aliyen ak valè ki anba a.
+- Pwosesis sa a prèske envizib pou envestisè chak jou men li esplike konpòtman pri ETF pandan jounen an.
+- Erè swivi mezire konbyen vrè pèfòmans yon fon koresponn ak endis li vize a.
+- Yon erè swivi ki pi piti anjeneral pi bon, menm si li pa janm garanti pou l egzakteman zewo.
+
+===== WHITE-L2-015
+TITLE: Rapò depans: pri ki konpoze an silans
+SUMMARY: Yon rapò depans (expense ratio) se frè chak ane yon fon chaje, eksprime an pousantaj byen yo, pou kouvri depans operasyon fon an – yon pri ki konpoze an silans avèk tan.
+## WHITE-L2-015
+### Rapò depans: pri ki konpoze an silans
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon rapò depans e esplike kijan yo chaje l.
+- Esplike poukisa diferans ki sanble piti nan rapò depans ka konpoze anpil sou orizon tan ki long.
+- Konpare rapò depans kòm yon faktè pami plizyè lè w ap evalye yon fon.
+
+**2. Kontni prensipal**
+Yon rapò depans (expense ratio) se frè chak ane yon fon chaje, eksprime an pousantaj byen yo, pou kouvri depans operasyon fon an. Anjeneral yo retire l otomatikman e piti piti nan retou fon an, olye yo voye l kòm yon fakti separe ou ka wè — sa ki fè li fasil pou envestisè yo pa apresye ase enpak alontèm li, paske yo pa janm wè yon fakti klè.
+
+Paske frè sa a konpoze avèk tan ansanm ak envestisman an li menm, diferans ki sanble piti (pa egzanp, 0.05% kont 0.75% chak ane) ka akimile pou vin yon gwo diferans nan valè final pòtfolyo a sou orizon tan ki long, sitou nan peryòd ki gen longè yon retrèt anpil envestisè pakou WHITE ap planifye otou yo. Sa a se yon aplikasyon dirèk konsèp enterè konpoze Nivo 1 a, aplike isit la sou yon pri ki an silans olye yon benefis ou ka wè.
+
+Rapò depans pa sèl faktè pou chwazi yon fon — erè swivi (Leson 14), estrateji ak lantiy espesifik la (Leson 2–7), ak pwòp objektif yon envestisè tout enpòtan tou — men li merite yon atansyon espre egzakteman paske li fasil pou neglije enpak li.
+
+**3. Egzanp pratik**
+Lè l ap konpare de fon ki swiv menm endis laj la, Fon A chaje yon rapò depans 0.05% chak ane e Fon B chaje yon rapò depans 0.75% chak ane. Lè l modèl yon envestisman alontèm ipotetik li kenbe pandan plizyè deseni, yon envestisè ka wè diferans ki sanble piti sa a konpoze pou vin yon gwo diferans nan valè final pòtfolyo a sou peryòd sa a, sèlman akoz diferans nan depans kontinyèl yo — si pèfòmans ki anba a sanble otreman, paske tou de fon yo swiv egzakteman menm endis la.
+
+Egzèsis sa a ede envestisè a apresye poukisa rapò depans, menm si l an silans e li fasil pou neglije, merite menm atansyon espre ak desizyon envestisman ou ka wè pi fasil.
+
+**4. Egzamen pratik**
+1. Kisa yon rapò depans ye?
+   a) Yon frè acha yon sèl fwa
+   b) Frè chak ane yon fon chaje, an pousantaj byen yo, pou kouvri depans operasyon
+   c) Yon taks gouvènman
+   d) Yon retou garanti
+
+2. Poukisa ti diferans nan rapò depans ka enpòtan anpil sou orizon tan ki long?
+   a) Yo pa enpòtan ditou
+   b) Depans lan konpoze avèk tan ansanm ak envestisman an li menm
+   c) Yo chaje rapò depans yon sèl fwa
+   d) Yo toujou idantik nan tout fon
+
+3. Vrè oswa Fo: Yo anjeneral voye rapò depans bay envestisè a kòm yon fakti separe ki trè vizib.
+
+4. Kisa egzanp pratik la te montre sou Fon A ak Fon B?
+   a) Diferans rapò depans yo pa t gen okenn efè avèk tan
+   b) Yon diferans rapò depans ki sanble piti te konpoze pou vin yon gwo diferans nan valè final
+   c) Fon B te toujou depase Fon A malgre frè ki pi wo a
+   d) Rapò depans pa gen rapò ak fon endis
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon rapò depans se frè chak ane, ki baze sou byen yo, yon fon chaje pou kouvri depans operasyon li.
+2. Paske frè sa a konpoze avèk tan ansanm ak envestisman an, menm ti diferans ka akimile anpil.
+3. Yo anjeneral retire rapò depans an silans nan retou fon an olye yo voye l kòm yon fakti separe ou ka wè.
+4. Egzanp pratik la te montre kijan yon ti diferans rapò depans konpoze pou vin yon gwo diferans sou yon orizon tan ki long.
+
+**7. Pwen kle yo**
+- Rapò depans se frè chak ane, an pousantaj, yon fon chaje pou depans operasyon li.
+- Paske yo retire l an silans olye yo voye l yon fason vizib, li fasil pou pa apresye ase enpak alontèm li.
+- Ti diferans nan rapò depans konpoze anpil sou orizon tan ki long.
+- Rapò depans se yon faktè enpòtan pami plizyè — estrateji, erè swivi, ak objektif pèsonèl enpòtan tou.
