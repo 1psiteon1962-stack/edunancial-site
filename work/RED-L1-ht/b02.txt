@@ -1,0 +1,438 @@
+===== RED-L1-007
+TITLE: Prè ipotekè ak to fiks kont prè ak to varyab
+SUMMARY: Aprann vrè diferans ant yon prè ipotekè ak to fiks ak yon prè ak to varyab, ak ki konpwomi chak nan yo reprezante.
+# Prè ipotekè ak to fiks kont prè ak to varyab
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon prè ipotekè ak to fiks ak yon prè ipotekè ak to varyab.
+- Esplike konpwomi ant previzibilite ak ekonomi posib.
+- Idantifye yon risk ki egziste sèlman ak prè to varyab.
+
+## Kontni prensipal
+
+### Prè ipotekè ak to fiks
+
+Yon prè ipotekè ak to fiks bloke menm to enterè a pou tout dire prè a. Peman chak mwa pou kapital ak enterè rete menm jan depi premye peman rive nan dènye a, sa ki fè bidjè a fasil pou prevwa.
+
+### Prè ipotekè ak to varyab (ARM)
+
+Yon prè ipotekè ak to varyab kòmanse ak yon to ki souvan pi ba pase yon to fiks ki konparab, men apre yon premye peryòd fiks, to sa a ka chanje de tanzantan, selon kondisyon to enterè an jeneral. Peman yo ka monte oswa desann avèk tan.
+
+### Vrè konpwomi an
+
+Prè ak to fiks echanje yon to depa ki ka pi wo kont previzibilite sou lontan. Prè ak to varyab echanje previzibilite kont yon depans depa ki ka pi ba – ak yon vrè risk pou peman yo monte pita. Okenn nan yo pa toujou pi bon; sa depann de konbyen tan yon moun planifye pou l kenbe prè a ak konbyen ensètitid sou peman l ka sipòte.
+
+## Egzanp pratik
+
+Yon moun ki gen yon prè to fiks peye menm montan an nan ane 1 ak nan ane 15. Yon moun ki gen yon prè to varyab ka peye mwens pase l nan ane 1, men si to yo monte, li ka ap peye plis nan ane 6 – egzakteman opoze a ka rive tou si to yo desann.
+
+## Egzamen pratik
+
+1. Yon prè ipotekè ak to fiks:
+   A. Chanje to otomatikman chak ane
+   B. Kenbe menm to enterè a pou tout dire prè a
+   C. Disponib sèlman pou moun k ap achte premye kay yo
+   D. Toujou gen yon peman ki pi wo pase yon prè to varyab
+
+2. Vrè oswa fo: Peman yon prè ipotekè ak to varyab pa janm ka monte apre premye peryòd la.
+
+3. Ki pi gwo konpwomi ant prè to fiks ak prè to varyab?
+   A. Previzibilite kont yon depans depa ki ka pi ba ak risk chanjman
+   B. Kalite prè legal kont ilegal
+   C. Prè gouvènman garanti kont prè prive
+   D. Pwopriyete a kout tèm kont a long tèm
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. A
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon prè ipotekè ak to fiks kenbe menm to a pou tout dire prè a.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Peman prè to varyab ka monte (oswa desann) apre premye peryòd fiks la, selon kondisyon to yo.
+
+### Kesyon 3
+
+Repons kòrèk: A. Konpwomi santral la se previzibilite sou lontan kont yon depans depa ki ka pi ba ak risk to nan lavni.
+
+## Pwen kle yo
+
+- Prè to fiks bay yon to bloke ki fasil pou prevwa pou tout dire a.
+- Prè to varyab souvan kòmanse pi ba, men yo ka chanje apre yon premye peryòd.
+- Bon chwa a depann de konbyen tan yon moun planifye pou l kenbe prè a ak kijan li alèz ak ensètitid sou peman.
+
+===== RED-L1-008
+TITLE: Kisa PMI (asirans prè ipotekè prive) ye, e kilè ou peye l?
+SUMMARY: Aprann kisa PMI pwoteje, kiyès li pwoteje toutbon, ak kilè li aplike sou yon prè ipotekè.
+# Kisa PMI (asirans prè ipotekè prive) ye, e kilè ou peye l?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon PMI an mo senp.
+- Esplike kiyès PMI pwoteje toutbon.
+- Esplike kilè yo anjeneral mande PMI, ak kilè li ka disparèt.
+
+## Kontni prensipal
+
+### Kisa PMI ye
+
+*(RÈG ESPESIFIK POU PEYI A: PMI se yon konsèp nan mache prè ipotekè Etazini; nan anpil lòt peyi, tankou Ayiti, li pa egziste nan fòm sa a.)* Private Mortgage Insurance (PMI) se yon asirans ki pwoteje moun ki bay prè a – se pa moun ki prete a – si moun ki prete a sispann peye prè a. Se yon depans anplis chak mwa yo ajoute sou peman prè ipotekè a.
+
+### Kiyès li pwoteje toutbon
+
+Sa se pati moun pi mal konprann: PMI pa pwoteje mèt kay la pou l pa pèdi kay li. Li la pou diminye risk moun ki bay prè a sou prè kote achtè a gen mwens ekite kòm kousen, pou moun ki bay prè a pi dakò apwouve prè a depi okòmansman.
+
+### Kilè yo mande l, ak kilè li fini
+
+Yo anjeneral mande PMI sou prè konvansyonèl lè avans lan pi ba pase yon sèten limit (souvan 20%), paske yon avans ki pi piti vle di mwens kousen ekite pou moun ki bay prè a. Souvan yo ka retire l lè ekite moun ki prete a nan kay la rive nan yon limit ki sanble, swa atravè peman, swa atravè apresyasyon.
+
+## Egzanp pratik
+
+Yon achtè bay 10% avans olye 20% sou yon kay. Paske kousen ekite li pi piti, moun ki bay prè a mande PMI kòm kondisyon pou apwouve prè a – yon depans anplis chak mwa jiskaske ase ekite bati.
+
+## Egzamen pratik
+
+1. PMI pwoteje sitou:
+   A. Mèt kay la
+   B. Moun ki bay prè a
+   C. Ajan imobilye a
+   D. Gouvènman lokal la
+
+2. Vrè oswa fo: Yo anjeneral mande PMI lè avans lan pi ba pase yon sèten limit, souvan 20%.
+
+3. Èske yo ka janm retire PMI sou yon prè?
+   A. Non, li dire pou tout prè a
+   B. Wi, souvan lè ase ekite bati
+   C. Sèlman si moun ki prete a refinanse ak yon lòt moun ki bay prè
+   D. Sèlman apre prè a fin peye nèt
+
+## Kle repons yo
+
+1. B
+2. Vrè
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. PMI pwoteje risk moun ki bay prè a, se pa mèt kay la.
+
+### Kesyon 2
+
+Repons kòrèk: Vrè. Avans ki pi piti (anba anviwon 20% sou anpil prè konvansyonèl) souvan lakòz yo mande PMI.
+
+### Kesyon 3
+
+Repons kòrèk: B. Souvan yo ka retire PMI lè ekite rive nan yon limit ki ase.
+
+## Pwen kle yo
+
+- PMI pwoteje moun ki bay prè a, se pa mèt kay la.
+- Yo anjeneral mande l lè avans lan pi ba pase yon sèten limit.
+- Souvan yo ka retire PMI lè ase ekite bati.
+
+===== RED-L1-009
+TITLE: Kisa taks sou pwopriyete ye, e kiyès ki fikse l?
+SUMMARY: Aprann kijan yo kalkile taks sou pwopriyete, kiyès ki fikse to a toutbon, ak poukisa li ka chanje menm si mèt la pa fè anyen.
+# Kisa taks sou pwopriyete ye, e kiyès ki fikse l?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Esplike kisa taks sou pwopriyete anjeneral finanse.
+- Esplike faktè debaz ki detèmine montan taks sou pwopriyete a.
+- Esplike poukisa montan taks la ka chanje san mèt la pa fè anyen.
+
+## Kontni prensipal
+
+### Kisa taks sou pwopriyete anjeneral finanse
+
+Taks sou pwopriyete se yon taks ki repete, mèt yo peye bay gouvènman lokal la, ki baze sou valè pwopriyete yo. Li souvan finanse sèvis lokal tankou lekòl, wout, ak sèvis ijans, byenke kijan yo itilize l egzakteman varye selon kote a.
+
+### Kisa ki detèmine montan an
+
+*(RÈG ESPESIFIK POU PEYI A: Sistèm taks sou pwopriyete varye anpil de yon peyi a yon lòt e menm de yon komin a yon lòt; sa ki swiv la dekri jan sa mache an jeneral Ozetazini. Ann Ayiti, gen kontribisyon fonsyè sou pwopriyete bati (CFPB); verifye règ ki aplike pou ou ak yon kontab oswa ak DGI.)* Yo kalkile taks sou pwopriyete a anjeneral lè yo miltipliye valè evalye pwopriyete a pa yon to taks lokal, ke otorite lokal yo fikse (tankou yon konte oswa yon distri lekòl) – se pa mèt pwopriyete a.
+
+### Poukisa montan an ka chanje san mèt la pa fè anyen
+
+Si gouvènman lokal la ogmante to taks li, oswa si valè evalye pwopriyete a monte akoz yon nouvo evalyasyon lokal, taks la ka ogmante menm si mèt la pa chanje anyen sou pwopriyete a.
+
+## Egzanp pratik
+
+Yon kay ki evalye a $250,000 nan yon zòn ki gen yon to taks 1.2% ta dwe anviwon $3,000 pa ane taks sou pwopriyete – anvan nenpòt egzanpsyon oswa ajisteman.
+
+## Egzamen pratik
+
+1. Yo anjeneral peye taks sou pwopriyete bay:
+   A. Gouvènman federal la
+   B. Gouvènman lokal la
+   C. Dirèkteman moun ki bay prè a, san gouvènman lokal la pa nan sa
+   D. Konpayi asirans mèt kay la
+
+2. Vrè oswa fo: Taks sou pwopriyete yon mèt kay ka monte menm si li pa fè okenn chanjman sou pwopriyete a.
+
+3. Ki de faktè ki anjeneral detèmine montan taks sou pwopriyete a?
+   A. Revni ak nòt kredi mèt kay la
+   B. Valè evalye pwopriyete a ak to taks lokal la
+   C. To enterè ak dire prè ipotekè a
+   D. Gwosè avans lan
+
+## Kle repons yo
+
+1. B
+2. Vrè
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Taks sou pwopriyete se yon taks gouvènman lokal.
+
+### Kesyon 2
+
+Repons kòrèk: Vrè. Yon ogmantasyon to oswa yon nouvo evalyasyon ka fè montan an monte, kèlkeswa sa mèt la fè.
+
+### Kesyon 3
+
+Repons kòrèk: B. Valè evalye ak to taks lokal se de done prensipal yo.
+
+## Pwen kle yo
+
+- Taks sou pwopriyete se yon taks lokal ki repete, ki baze sou valè pwopriyete a.
+- Yo kalkile l apati valè evalye a ak yon to taks lokal.
+- Montan an ka chanje akoz desizyon lokal, se pa sèlman akoz sa mèt la fè.
+
+===== RED-L1-010
+TITLE: Kisa yon privilèj (lien) sou yon pwopriyete ye?
+SUMMARY: Aprann kisa yon privilèj ye toutbon, kijan li kole sou yon pwopriyete, ak poukisa li ka bloke yon vant jiskaske yo rezoud li.
+# Kisa yon privilèj (lien) sou yon pwopriyete ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon privilèj an mo senp.
+- Nonmen omwen de kalite privilèj kouran.
+- Esplike poukisa yon privilèj ka afekte vant yon pwopriyete.
+
+## Kontni prensipal
+
+### Kisa yon privilèj ye
+
+Yon privilèj (an anglè, "lien") se yon reklamasyon legal sou yon pwopriyete, anjeneral pou garanti yon dèt. Egzanp kouran se privilèj prè ipotekè a (reklamasyon moun ki bay prè a, nou te wè l deja), yon privilèj pou taks (taks sou pwopriyete ki pa peye), ak yon "mechanic's lien" (reklamasyon yon antreprenè yo pa peye pou travay li fè sou pwopriyete a). *(RÈG ESPESIFIK POU PEYI A: Kalite privilèj yo ak fason yo mache varye selon peyi a.)*
+
+### Kijan yon privilèj kole
+
+Anjeneral, yo anrejistre yon privilèj ak gouvènman lokal la, epi li kole sou pwopriyete a li menm, se pa sèlman sou mèt la pèsonèlman – sa vle di li ka swiv pwopriyete a menm apre yon vant si yo pa rezoud li anvan.
+
+### Poukisa li ka bloke yon vant
+
+Paske privilèj la kole sou pwopriyete a, pifò achtè ak moun ki bay prè ap mande pou yo efase l anvan vant lan fini. Yon privilèj ki pa rezoud se yon rezon kouran ki fè vant yon pwopriyete pran reta oswa tonbe.
+
+## Egzanp pratik
+
+Yon mèt kay anplwaye yon antreprenè pou yon renovasyon epi li pa peye dènye fakti a. Antreprenè a ka depoze yon "mechanic's lien" sou pwopriyete a, ke yo ta dwe rezoud anvan yo ka vann kay la ak yon tit pwòp.
+
+## Egzamen pratik
+
+1. Pi bon fason pou dekri yon privilèj se:
+   A. Yon kalite asirans kay
+   B. Yon reklamasyon legal sou yon pwopriyete, anjeneral pou garanti yon dèt
+   C. Yon sibvansyon gouvènman pou moun k ap achte kay
+   D. Yon enspeksyon kay ki obligatwa
+
+2. Vrè oswa fo: Yon privilèj afekte sèlman mèt aktyèl la pèsonèlman, se pa pwopriyete a li menm.
+
+3. Kisa yon "mechanic's lien" ye?
+   A. Yon reklamasyon yon antreprenè yo pa peye depoze pou travay li fè sou pwopriyete a
+   B. Yon kalite prè machin
+   C. Yon taks gouvènman sou nouvo konstriksyon
+   D. Yon fòm asirans tit
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. A
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon privilèj se yon reklamasyon legal sou yon pwopriyete, anjeneral mare ak yon dèt.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Privilèj yo kole sou pwopriyete a li menm, se pou sa yo ka swiv li apre yon vant.
+
+### Kesyon 3
+
+Repons kòrèk: A. Yon antreprenè yo pa peye depoze yon "mechanic's lien" pou travay li fè sou pwopriyete a.
+
+## Pwen kle yo
+
+- Yon privilèj se yon reklamasyon legal sou yon pwopriyete, anjeneral pou garanti yon dèt.
+- Privilèj yo kole sou pwopriyete a, se pa sèlman sou mèt la pèsonèlman.
+- Privilèj ki pa rezoud souvan bloke oswa retade vant pwopriyete.
+
+===== RED-L1-011
+TITLE: Eta "tax lien" kont eta "tax deed" Ozetazini: kisa vrè diferans lan ye?
+SUMMARY: Aprann kijan eta "tax lien" ak eta "tax deed" yo jere taks sou pwopriyete ki pa peye yon fason diferan, ak kisa yon envestisè resevwa toutbon nan chak ka.
+# Eta "tax lien" kont eta "tax deed" Ozetazini: kisa vrè diferans lan ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Esplike sa ki rive nan yon eta "tax lien" lè moun pa peye taks sou pwopriyete.
+- Esplike sa ki rive nan yon eta "tax deed" lè moun pa peye taks sou pwopriyete.
+- Idantifye diferans santral ant sa yon envestisè resevwa nan chak ka.
+
+## Kontni prensipal
+
+### Eta "tax lien"
+
+*(RÈG ESPESIFIK POU PEYI A: Sa varye selon eta ameriken an; se pa tout eta ki itilize sistèm sa a, e andeyò Etazini pwosedi yo diferan nèt.)* Nan yon eta "tax lien", lè yon mèt pa peye taks sou pwopriyete li, gouvènman lokal la vann yon sètifika privilèj bay yon envestisè, ki peye taks an reta yo pou mèt la. Envestisè a pa jwenn pwopriyete a – li jwenn dwa pou l kolekte dèt la plis enterè lalwa fikse. Si mèt la pa remèt lajan an nan yon peryòd rachte ki fikse, envestisè a ka mande tribinal la tit pwopriyete a.
+
+### Eta "tax deed"
+
+Nan yon eta "tax deed", taks ki pa peye ka mennen nan vann pwopriyete a li menm aozanchè. Moun ki ofri pi gwo pri a anjeneral vin nouvo mèt la, pafwa touswit e pafwa apre yon ti peryòd rachte, selon eta a.
+
+### Diferans santral la
+
+Nan yon eta "lien", envestisè a achte yon dèt okòmansman, se pa pwopriyete a. Nan yon eta "deed", envestisè a ap fè òf sou pwopriyete a li menm. Peryòd rachte ak règ espesifik yo varye anpil de yon eta a yon lòt – leson sa a pale de mekanis jeneral la, se pa kalandriye egzak okenn eta.
+
+## Egzanp pratik
+
+Yon envestisè nan yon eta "tax lien" peye $2,000 pou kouvri taks yon mèt pa t peye. Envestisè a kounye a gen yon privilèj k ap rapòte enterè lalwa fikse. Si mèt la pa remèt lajan an nan peryòd rachte eta a, envestisè a ka chèche tit la nan tribinal.
+
+## Egzamen pratik
+
+1. Nan yon eta "tax lien", kisa yon envestisè resevwa okòmansman lè l peye taks an reta yon lòt moun?
+   A. Pwopriyete a touswit
+   B. Yon sètifika privilèj ki reprezante dèt la, plis enterè
+   C. Yon kontra lwaye ak mèt la
+   D. Yon prè ipotekè sou yon lòt pwopriyete
+
+2. Vrè oswa fo: Nan yon eta "tax deed", yo anjeneral vann pwopriyete a li menm aozanchè pou taks ki pa peye.
+
+3. Kisa yon peryòd rachte ye?
+   A. Yon peryòd kote yon mèt ki an reta ka peye epi kenbe pwopriyete a
+   B. Dire yon prè ipotekè
+   C. Yon peryòd obligatwa pou enspeksyon kay
+   D. Yon kalite egzanpsyon taks sou pwopriyete
+
+## Kle repons yo
+
+1. B
+2. Vrè
+3. A
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Nan yon eta "lien", envestisè a achte dèt la (atravè yon sètifika privilèj), se pa pwopriyete a li menm.
+
+### Kesyon 2
+
+Repons kòrèk: Vrè. Eta "tax deed" yo anjeneral vann pwopriyete a dirèkteman aozanchè.
+
+### Kesyon 3
+
+Repons kòrèk: A. Yon peryòd rachte bay premye mèt la yon tan pou l peye anvan li pèdi pwopriyete a.
+
+## Pwen kle yo
+
+- Eta "tax lien" vann dèt la (yon privilèj); eta "tax deed" vann pwopriyete a li menm.
+- Envestisè "lien" yo touche enterè e yo ka chèche tit la pita si moun nan pa peye.
+- Envestisè "deed" yo ka vin mèt pi dirèkteman, souvan pi vit.
+- Règ yo ak peryòd rachte yo varye anpil selon eta a.
+
+===== RED-L1-012
+TITLE: Kisa yon evalyasyon ye, e poukisa li pa menm bagay ak pri a?
+SUMMARY: Aprann kisa evalyasyon yon pwopriyete mezire toutbon, kiyès ki mande l, ak poukisa valè evalyasyon an ak pri vant lan ka diferan.
+# Kisa yon evalyasyon ye, e poukisa li pa menm bagay ak pri a?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon evalyasyon an mo senp.
+- Esplike kiyès ki anjeneral mande yon evalyasyon ak poukisa.
+- Esplike poukisa valè evalyasyon an ak pri vant lan ka de chif diferan.
+
+## Kontni prensipal
+
+### Kisa yon evalyasyon ye
+
+Yon evalyasyon se yon estimasyon pwofesyonèl, endepandan, sou valè yon pwopriyete, ke yon evalyatè ki gen lisans fè. Li baze sou faktè tankou vant ki konparab, eta pwopriyete a, ak kote li ye.
+
+### Kiyès ki mande l, ak poukisa
+
+Moun ki bay prè yo anjeneral mande yon evalyasyon anvan yo apwouve yon prè ipotekè, pou konfime pwopriyete a vo apeprè sa y ap prete sou li – sa pwoteje garanti moun ki bay prè a, se pa sèlman ede achtè a.
+
+### Poukisa chif yo ka diferan
+
+Valè evalyasyon an ak pri vant yo te dakò a se de chif separe ki soti de fason separe: pri vant lan se sa achtè a ak vandè a te dakò, alòske evalyasyon an se yon estimasyon pwofesyonèl endepandan. Si evalyasyon yon kay soti pi ba pase pri vant yo te dakò a, sa ka kreye yon vrè pwoblèm pou finansman, paske moun ki bay prè a anjeneral p ap prete plis pase sa valè evalyasyon an sipòte.
+
+## Egzanp pratik
+
+Yon achtè dakò pou l peye $320,000 pou yon kay, men evalyasyon an soti $305,000. Moun ki bay prè a anjeneral ap finanse sèlman sou baz valè evalyasyon ki pi ba a, sa vle di achtè a ka bezwen yon avans ki pi gwo oswa yo ka oblije renegosye pri vant lan.
+
+## Egzamen pratik
+
+1. Yon evalyasyon se:
+   A. Pri achtè a ak vandè a dakò
+   B. Yon estimasyon pwofesyonèl endepandan sou valè yon pwopriyete
+   C. Yon kalite asirans kay
+   D. Yon evalyasyon taks gouvènman
+
+2. Vrè oswa fo: Moun ki bay prè yo anjeneral mande yon evalyasyon pou pwoteje pwòp garanti yo, se pa sèlman pou ede achtè a.
+
+3. Kisa ki ka rive si evalyasyon yon kay soti pi ba pase pri vant yo te dakò a?
+   A. Anyen – vant lan kontinye egzakteman jan yo te dakò
+   B. Moun ki bay prè a ka finanse sèlman jiska valè evalyasyon an, sa ki kreye yon twou nan finansman
+   C. Yo anile evalyasyon an otomatikman
+   D. Taks sou pwopriyete a desann
+
+## Kle repons yo
+
+1. B
+2. Vrè
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon evalyasyon se yon estimasyon valè pwofesyonèl, endepandan – separe de pri yo negosye a.
+
+### Kesyon 2
+
+Repons kòrèk: Vrè. Evalyasyon an pwoteje pozisyon garanti moun ki bay prè a sou prè a.
+
+### Kesyon 3
+
+Repons kòrèk: B. Yon evalyasyon ki ba ka kreye yon twou nan finansman ke achtè a, vandè a, oswa tou de dwe rezoud.
+
+## Pwen kle yo
+
+- Yon evalyasyon se yon estimasyon endepandan sou valè, se pa pri vant lan.
+- Moun ki bay prè yo mande l pou pwoteje pwòp garanti yo.
+- Yon evalyasyon ki ba konpare ak pri vant lan ka kreye vrè pwoblèm finansman.
