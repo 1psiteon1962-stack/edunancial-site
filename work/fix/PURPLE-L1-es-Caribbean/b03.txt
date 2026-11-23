@@ -1,0 +1,325 @@
+===== PURPLE-L1-009
+TITLE: Derecho civil y derecho penal: por qué importa la distinción
+SUMMARY: Aclara la distinción fundamental entre el derecho civil y el derecho penal, y por qué este currículo se centra casi por completo en el lado civil.
+# Derecho civil y derecho penal: por qué importa la distinción
+
+## Objetivos de aprendizaje
+
+- Distinguir el derecho civil del derecho penal.
+- Explicar las distintas consecuencias y cargas de la prueba que intervienen.
+- Reconocer por qué el alcance de PURPLE es principalmente civil y no penal.
+
+## Contenido principal
+
+El derecho civil rige las disputas entre particulares (incumplimientos de contrato, daños extracontractuales, disputas sobre propiedades), donde el remedio típico es dinero o una orden judicial, no la cárcel. El derecho penal rige las infracciones contra la sociedad misma, perseguidas por el Estado, donde la posible consecuencia incluye multas y prisión. Los dos sistemas también difieren en la carga de la prueba: los casos penales exigen prueba "más allá de toda duda razonable", un estándar muy alto, mientras que los casos civiles suelen usar un estándar más bajo, a menudo la "preponderancia de la prueba" (que algo sea más probable que no).
+
+Casi todo lo que cubre esta ruta PURPLE (contratos, derecho de la propiedad, regulación de valores, estructuras de negocio) está en el lado civil de esta distinción. Es intencional: los riesgos legales más directamente relacionados con crear riqueza mediante bienes raíces, inversiones y negocios son riesgos civiles (que te demanden, perder un negocio, enfrentar sanciones regulatorias), no riesgos penales. El derecho penal importa, pero es un área distinta y más especializada, y una exposición penal seria es justamente el tipo de situación que exige representación legal inmediata y dedicada, más allá de una alfabetización general.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Los nombres de los estándares de prueba y la forma de aplicarlos varían según el país. Los términos usados aquí siguen el sistema de EE. UU.; en sistemas de derecho civil, como el de la República Dominicana, la distinción entre lo civil y lo penal existe, pero las reglas procesales concretas son distintas.
+
+## Ejemplo práctico
+
+**Pregunta:** Un antiguo cliente demanda a un dueño de negocio por una disputa contractual. ¿Es un asunto civil o penal, y por qué importa la distinción en la práctica?
+
+**Estudiante:** Según esta lección, es un asunto civil: una disputa privada sobre un contrato, no una infracción perseguida por el Estado.
+
+**Guía:** ¿Cómo afecta eso a lo que realmente está en juego para el dueño del negocio?
+
+**Estudiante:** La consecuencia típica sería dinero o una orden judicial, no la cárcel, y la carga de la prueba que tendría que cumplir el cliente es más baja que el estándar penal de "más allá de toda duda razonable".
+
+**Guía:** Exacto: entender en qué sistema estás cambia lo que realmente está en juego y qué estándar se aplica.
+
+## Prueba práctica
+
+**Pregunta 1.** En general, el derecho civil rige:
+
+A) Las infracciones contra la sociedad, perseguidas por el Estado
+B) Las disputas entre particulares, que suelen resolverse con dinero u órdenes judiciales
+C) Solo los asuntos penales
+D) Ninguna disputa legal real
+
+**Pregunta 2.** La carga de la prueba en el derecho penal suele ser:
+
+A) Más baja que el estándar del derecho civil
+B) "Más allá de toda duda razonable", un estándar muy alto
+C) Idéntica al estándar del derecho civil
+D) Inaplicable en cualquier sistema legal
+
+**Pregunta 3.** La mayor parte de lo que cubre PURPLE pertenece al:
+
+A) Derecho penal
+B) Derecho civil
+C) Ni al derecho civil ni al penal
+D) Solo al derecho internacional
+
+**Pregunta 4.** ¿Por qué esta ruta se centra principalmente en el derecho civil?
+
+A) El derecho penal es irrelevante para todos
+B) Los riesgos legales más relevantes para crear riqueza mediante RED, WHITE y BLUE son riesgos civiles
+C) El derecho civil en realidad no existe
+D) No se da ninguna razón de peso
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El derecho civil atiende las disputas privadas con remedios que suelen limitarse a dinero u órdenes judiciales, no a la privación de libertad.
+
+**2.** El estándar penal más exigente refleja la gravedad de las posibles consecuencias, incluida la pérdida de la libertad.
+
+**3.** Los contratos, la propiedad, los valores y las estructuras de negocio, que son el contenido central de esta ruta, son todos temas de derecho civil.
+
+**4.** Como el riesgo civil es el que amenaza más directamente las actividades para crear riqueza, ahí debe estar el enfoque de alfabetización de esta ruta.
+
+## Puntos clave
+
+- El derecho civil rige las disputas privadas; el derecho penal rige las infracciones contra la sociedad.
+- La carga de la prueba en el derecho penal es mucho más alta que en el derecho civil.
+- PURPLE se centra casi por completo en el derecho civil, que es directamente relevante para RED, WHITE y BLUE.
+- Una exposición penal seria exige representación legal inmediata y dedicada, más allá del alcance de esta ruta.
+
+===== PURPLE-L1-010
+TITLE: La analogía del médico, otra vez: cuándo llamar a un abogado
+SUMMARY: Aplica la analogía del médico, ya establecida en el currículo, específicamente a las situaciones legales, y da señales concretas de cuándo conviene buscar ayuda legal profesional.
+# La analogía del médico, otra vez: cuándo llamar a un abogado
+
+## Objetivos de aprendizaje
+
+- Recordar la analogía del médico y aplicarla específicamente a las decisiones legales.
+- Identificar señales concretas de que una situación requiere un abogado.
+- Reforzar que la alfabetización jurídica y la representación legal se complementan, no se sustituyen.
+
+## Contenido principal
+
+Este currículo ha usado una y otra vez la analogía del médico: cuando algo es complejo, de alto riesgo o incierto, los honorarios de un profesional son un seguro contra una pérdida mucho mayor, no solo un costo que evitar. En ningún campo se aplica esto de forma más directa que en el derecho. Los errores legales (un contrato mal redactado, un requisito de divulgación que se pasó por alto, una entidad de negocio constituida de forma incorrecta) pueden ser carísimos de corregir después, mucho más que lo que cuesta hacerlo bien desde el principio.
+
+Entre las señales concretas de que una situación requiere un abogado están: cualquier transacción que involucre mucho dinero (la compra de un inmueble, la venta de un negocio), cualquier documento que no entiendas por completo antes de firmarlo, constituir o reestructurar una entidad de negocio, enfrentar una disputa o una demanda real, y cualquier situación en la que el enfoque "estándar" no encaje del todo con tus hechos concretos. Como en lecciones anteriores sobre este tema, el objetivo de PURPLE no es que seas tu propio abogado, sino que seas un cliente más agudo e informado: alguien que hace mejores preguntas, entiende el consejo que recibe y reconoce temprano cuándo una situación ya pasó al terreno de la ayuda profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien redacta su propio contrato de compraventa de un inmueble con una plantilla encontrada en internet, para una compra importante de seis cifras, sin ninguna revisión legal. ¿Qué sugiere esta lección sobre ese enfoque?
+
+**Estudiante:** Según esta lección, una transacción con tanto dinero es justamente el tipo de situación que exige una revisión legal profesional, no solo una plantilla genérica.
+
+**Guía:** ¿Cuál es la comparación real de costos que se está haciendo aquí?
+
+**Estudiante:** El costo de la revisión de un abogado al principio frente al costo, posiblemente mucho mayor, de un error legal descubierto después, cuando ya hay dinero real y una propiedad real de por medio.
+
+**Guía:** Exacto: esa es la analogía del médico aplicada directamente a esta situación.
+
+## Prueba práctica
+
+**Pregunta 1.** Aplicada al derecho, la analogía del médico sugiere que:
+
+A) Nunca hay que contratar a un abogado
+B) Los honorarios de un abogado son un seguro contra una pérdida posiblemente mucho mayor
+C) Solo las personas ricas necesitan abogados
+D) Los errores legales siempre son baratos de corregir
+
+**Pregunta 2.** Una señal concreta de que una situación requiere un abogado es:
+
+A) Cualquier transacción que involucre mucho dinero
+B) Ninguna: los abogados nunca son necesarios
+C) Solo los asuntos penales
+D) Solo las disputas que ya llegaron a los tribunales
+
+**Pregunta 3.** Según esta lección, ¿cuál es el objetivo declarado de PURPLE?
+
+A) Que el estudiante sea su propio abogado
+B) Que el estudiante sea un cliente más agudo e informado
+C) Eliminar por completo la necesidad de abogados
+D) Enseñar solo derecho penal
+
+**Pregunta 4.** El marco de esta lección retoma ¿qué tema anterior del currículo?
+
+A) La revelación de los sistemas
+B) La analogía del médico
+C) La relatividad del logro
+D) La paradoja de la elección
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La lógica central del seguro contra una pérdida mayor se aplica con especial fuerza al riesgo legal, por lo costosos que pueden ser los errores.
+
+**2.** Las transacciones financieras importantes se mencionan de forma explícita como una señal clara para buscar una revisión legal profesional.
+
+**3.** El objetivo explícito declarado en toda esta ruta es la alfabetización y el comportamiento de un cliente informado, no ejercer el derecho por cuenta propia.
+
+**4.** Es una reutilización directa y explícita de la analogía del médico establecida antes en el currículo, aplicada específicamente a las decisiones legales.
+
+## Puntos clave
+
+- La analogía del médico se aplica directamente al derecho: los honorarios profesionales son un seguro contra una pérdida mayor.
+- Las transacciones importantes, los documentos desconocidos, la constitución de entidades y las disputas son señales claras para llamar a un abogado.
+- PURPLE busca que seas un cliente más agudo e informado, no un sustituto de la representación legal.
+- Esto cierra la sección de fundamentos antes de que la ruta pase a temas legales específicos de RED, WHITE y BLUE.
+
+===== PURPLE-L1-011
+TITLE: Estructuras de negocio, otra vez: una mirada legal
+SUMMARY: Retoma el concepto de estructura de negocio de BLUE y GREEN desde una perspectiva específicamente legal: la exposición a la responsabilidad, en lugar del tratamiento contributivo.
+# Estructuras de negocio, otra vez: una mirada legal
+
+## Objetivos de aprendizaje
+
+- Recordar las estructuras de negocio vistas en rutas anteriores.
+- Replantear la decisión de estructura en torno a la responsabilidad legal y no al tratamiento contributivo.
+- Adelantar las próximas lecciones, que examinan la exposición legal de cada estructura.
+
+## Contenido principal
+
+Las rutas anteriores trataron las estructuras de negocio desde una perspectiva contributiva (GREEN) y desde una perspectiva operativa (BLUE). Esta sección añade una tercera mirada, fundamental: la responsabilidad legal. La estructura que usa un negocio no solo afecta cómo tributa; determina de forma fundamental quién responde personalmente si el negocio es demandado, no paga una deuda o enfrenta cualquier otra reclamación legal.
+
+Esta distinción importa porque la "mejor" estructura desde el punto de vista contributivo y la "mejor" estructura para protegerse de la responsabilidad no siempre son la misma elección, y a veces los dueños de negocios descubren esa diferencia solo después de que surge un problema, cuando ya es demasiado tarde para corregirla. Las próximas lecciones recorren la empresa individual, la LLC, la corporación y la sociedad desde este ángulo de responsabilidad legal, para construir una visión más amplia y completa de lo que significa realmente "elegir una estructura de negocio" cuando se consideran juntos los impuestos, la operación y la exposición legal.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las estructuras que se describen en esta sección siguen el modelo de EE. UU. Otros países tienen figuras propias (por ejemplo, la República Dominicana regula sociedades como la SRL y la SA, y la empresa individual de responsabilidad limitada, EIRL), con reglas distintas. Verifica las opciones disponibles en tu jurisdicción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un dueño de negocio eligió su estructura solo porque parecía la más sencilla de establecer, sin considerar en absoluto la exposición a la responsabilidad. ¿Qué brecha sugiere esta lección que podría tener esa decisión?
+
+**Estudiante:** Según esta lección, puede haber pasado por alto cuánta protección de responsabilidad personal ofrece realmente esa estructura, que es una pregunta distinta de la sencillez o del tratamiento contributivo.
+
+**Guía:** ¿Por qué esa brecha podría hacerse evidente solo más tarde y no al momento de decidir?
+
+**Estudiante:** Porque la protección de responsabilidad solo se pone a prueba de verdad si algo sale mal, como una demanda o el impago de una deuda del negocio, y eso podría no pasar hasta mucho después de haber elegido la estructura.
+
+**Guía:** Exacto: por eso entender esto desde el principio importa más que descubrirlo bajo presión.
+
+## Prueba práctica
+
+**Pregunta 1.** ¿Qué mirada añade esta lección a la discusión sobre estructuras de negocio?
+
+A) La estrategia de mercadeo
+B) La responsabilidad legal
+C) La moral de los empleados
+D) La ubicación de la oficina
+
+**Pregunta 2.** La "mejor" estructura desde el punto de vista contributivo:
+
+A) Siempre es idéntica a la mejor estructura para protegerse de la responsabilidad
+B) No siempre es la misma que la mejor estructura para protegerse de la responsabilidad
+C) Es irrelevante para la responsabilidad
+D) Es lo único que importa
+
+**Pregunta 3.** ¿Qué determina quién responde personalmente si un negocio es demandado o no paga una deuda?
+
+A) El presupuesto de mercadeo del negocio
+B) La estructura legal que usa el negocio
+C) Solo la forma en que el negocio presenta sus impuestos
+D) Nada: es aleatorio
+
+**Pregunta 4.** ¿Qué cubren las próximas lecciones de esta sección?
+
+A) Solo las tasas contributivas
+B) La empresa individual, la LLC, la corporación y la sociedad desde el ángulo de la responsabilidad
+C) Solo la estrategia de mercadeo
+D) Solo el derecho inmobiliario
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La responsabilidad legal es el ángulo nuevo y específico que esta sección añade a las perspectivas contributiva y operativa anteriores.
+
+**2.** La eficiencia contributiva y la protección frente a la responsabilidad son dimensiones distintas que no siempre coinciden en la misma estructura.
+
+**3.** La elección de estructura es el principal factor legal que determina la exposición personal al riesgo del negocio.
+
+**4.** Esta sección recorre de forma sistemática cada tipo principal de estructura, específicamente desde la perspectiva de la responsabilidad.
+
+## Puntos clave
+
+- La estructura del negocio determina la exposición a la responsabilidad legal, una pregunta distinta del tratamiento contributivo.
+- La estructura óptima para los impuestos y la óptima para la responsabilidad no siempre son la misma.
+- Esa diferencia a menudo solo se nota después de que surge un problema, y por eso importa entenderla desde el principio.
+- Las próximas lecciones examinan cada tipo principal de estructura desde esta mirada específica de la responsabilidad.
+
+===== PURPLE-L1-012
+TITLE: La empresa individual: la exposición legal de la estructura más sencilla
+SUMMARY: Explica las implicaciones de responsabilidad legal de operar como empresa individual, la estructura por defecto, la más sencilla y la que menos protege.
+# La empresa individual: la exposición legal de la estructura más sencilla
+
+## Objetivos de aprendizaje
+
+- Definir legalmente la empresa individual.
+- Explicar por qué no ofrece ninguna separación entre la responsabilidad del negocio y la personal.
+- Reconocer el riesgo práctico que esto crea.
+
+## Contenido principal
+
+La empresa individual (sole proprietorship) es la estructura por defecto de un negocio de un solo dueño que no ha registrado ninguna entidad formal: legalmente, el negocio y el dueño se tratan como la misma persona. Es la estructura más sencilla para empezar (a menudo no requiere ningún trámite formal), pero tiene una contrapartida legal crítica: no hay separación de responsabilidad entre el negocio y los bienes personales del dueño.
+
+Esto significa que si el negocio es demandado, no paga una deuda o enfrenta cualquier otra reclamación legal, los bienes personales del dueño (su casa, sus ahorros personales, sus pertenencias) quedan directamente expuestos, no solo lo que el negocio posee. Es un riesgo legal importante que muchos nuevos dueños de negocios no valoran del todo cuando empiezan a operar de manera informal sin crear una estructura más protectora. Aquí la sencillez tiene un costo real, y es específicamente un costo legal relacionado con la responsabilidad, distinto de la sencillez contributiva que se vio en GREEN.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Algunas jurisdicciones ofrecen alternativas para un solo dueño con responsabilidad limitada; por ejemplo, la República Dominicana tiene la empresa individual de responsabilidad limitada (EIRL). Las reglas y protecciones exactas dependen de cada país.
+
+## Ejemplo práctico
+
+**Pregunta:** Un consultor independiente opera como empresa individual y un cliente lo demanda por una disputa, con una sentencia mayor que los bienes del negocio. ¿Qué pasa con la casa y los ahorros personales del consultor?
+
+**Estudiante:** Según esta lección, como no hay separación legal entre el negocio y el dueño, los bienes personales del consultor podrían quedar expuestos para cubrir esa sentencia.
+
+**Guía:** ¿Habría cambiado este resultado otra estructura de negocio?
+
+**Estudiante:** Posiblemente: una estructura con una verdadera separación de responsabilidad podría haber protegido los bienes personales frente a una sentencia relacionada con el negocio, de una forma que la empresa individual no lo hace.
+
+**Guía:** Exacto: esa es la contrapartida legal central de elegir la sencillez en lugar de la protección frente a la responsabilidad.
+
+## Prueba práctica
+
+**Pregunta 1.** Legalmente, una empresa individual es:
+
+A) Una entidad completamente separada de su dueño
+B) La misma persona que su dueño, sin separación de responsabilidad
+C) Siempre la estructura que más protege
+D) Algo disponible solo para grandes corporaciones
+
+**Pregunta 2.** Si demandan a una empresa individual, ¿qué bienes podrían quedar expuestos?
+
+A) Solo los bienes del negocio, nunca los personales
+B) Tanto los bienes del negocio como los personales, porque no hay separación legal
+C) Nunca hay bienes en riesgo
+D) Solo los bienes de los socios del negocio
+
+**Pregunta 3.** ¿Qué tipo de costo tiene la sencillez de una empresa individual?
+
+A) Ningún costo
+B) Un costo de responsabilidad legal: la falta de protección de los bienes personales
+C) Solo un costo contributivo
+D) Solo un costo de mercadeo
+
+**Pregunta 4.** La discusión sobre responsabilidad de esta lección es distinta del tratamiento de la empresa individual ¿en qué ruta anterior?
+
+A) En la discusión de RED
+B) En la discusión de GREEN, centrada en los impuestos
+C) En la discusión de WHITE
+D) Ninguna ruta anterior trató este tema
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Legalmente, no se hace ninguna distinción entre el negocio y la persona que lo dirige.
+
+**2.** Sin un escudo de responsabilidad, los bienes personales quedan directamente expuestos junto con los del negocio.
+
+**3.** La sencillez se paga con protección legal, un costo distinto de la sencillez contributiva que se trata en otra parte.
+
+**4.** Esta lección añade a propósito el ángulo de la responsabilidad que el tratamiento contributivo de GREEN no cubrió.
+
+## Puntos clave
+
+- La empresa individual no ofrece ninguna separación legal entre el negocio y el dueño.
+- Eso significa que los bienes personales quedan directamente expuestos a las reclamaciones legales relacionadas con el negocio.
+- La sencillez tiene un costo real de responsabilidad legal.
+- Es una preocupación distinta del tratamiento contributivo de la empresa individual que se vio en GREEN.
