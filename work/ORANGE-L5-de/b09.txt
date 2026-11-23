@@ -1,0 +1,474 @@
+===== ORANGE-L5-041
+TITLE: Immobilienanlagen gegenüber Investoren vermarkten
+SUMMARY: Gemeinschaftliche Immobilienvorhaben bündeln Geld von Investoren für Immobiliengeschäfte; meist gelten Wertpapier- oder Anlegerschutzregeln und umfassende Offenlegungspflichten, Prognosen sollten als Schätzungen gekennzeichnet werden, ein ungünstiges Szenario enthalten und alle Gebühren offenlegen, und ehrliches Marketing zieht geduldige Investoren an.
+KEYWORDS: gemeinschaftliches Immobilienvorhaben, Marketing gegenüber Investoren, Kapital für Immobilien beschaffen, Beziehungen zwischen Initiator und Investoren, private Immobilienbeteiligung
+# Immobilienanlagen gegenüber Investoren vermarkten
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir vor, dass die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes nach Jahren schnellen Wachstums Anzeichen einer scharfen Korrektur zeigen, während die Zahlungsausfälle zunehmen.
+Wende es hier an: Ein Immobilienmarkt beginnt sich zu korrigieren. Ein Initiator, der Geld von Investoren bündelt, um Mehrfamilienhäuser zu kaufen, will Geld für ein neues Geschäft zu niedrigeren Preisen beschaffen. Frag über die Farben hinweg: Wie sollte die Gelegenheit ehrlich dargestellt werden (ORANGE)? Welche Wertpapierregeln gelten (PURPLE)? Wie ist das Geschäft aufgebaut und finanziert (RED/BLUE)? Wie sollten Risiken und Prognosen gezeigt werden (WHITE)?
+
+## Lernziele
+- Erklären, wie Immobilieninitiatoren Geld von Investoren beschaffen
+- Immobilienangebote ehrlich und innerhalb der rechtlichen Grenzen vermarkten
+- Struktur des Geschäfts, Prognosen und Kommunikation mit Investoren abstimmen
+
+## Hauptinhalt
+Bei einem gemeinschaftlichen Immobilienvorhaben findet, kauft und verwaltet ein Initiator eine Immobilie, während die Investoren den größten Teil des Geldes einbringen. Der Initiator erhält in der Regel Gebühren und einen Anteil am Gewinn; die Investoren erhalten Ausschüttungen und einen Anteil am Verkaufserlös.
+Die Vermarktung dieser Gelegenheiten verbindet ORANGE, RED, WHITE, BLUE und PURPLE.
+Rechtlicher Rahmen (PURPLE):
+- Der Verkauf von Anteilen an einer gebündelten Immobilienanlage ist oft ein Wertpapierangebot (PURPLE-L5-033 im juristischen Strang). LÄNDERSPEZIFISCHE REGEL: Ausnahmen können begrenzen, wer investieren darf, wie das Angebot beworben werden darf und welche Offenlegungen nötig sind; in Deutschland zum Beispiel kann ein gemeinschaftliches Immobilienvorhaben mit Geld von Anlegern nach verfügbaren Informationen als Investmentvermögen nach dem Kapitalanlagegesetzbuch oder als Vermögensanlage mit Prospektpflicht gelten, beides unter Aufsicht der BaFin, also prüfe dies mit einer Anwältin oder einem Anwalt.
+- Angebotsunterlagen umfassen meist einen Gesellschaftsvertrag, eine Zeichnungsvereinbarung und ein Offenlegungsdokument, das die Immobilie, den Geschäftsplan, die Gebühren, die Risiken und die Interessenkonflikte beschreibt.
+Ehrliches Marketing:
+- Prognosen, die als Schätzungen mit klaren Annahmen gekennzeichnet sind (Mietentwicklung, Leerstand, Kosten, Zinsen, Verkaufspreis).
+- Mehrere Szenarien, darunter ein ungünstiger Fall.
+- Alle Gebühren offengelegt: Erwerb, Verwaltung und der Gewinnanteil des Initiators.
+- Vergangene Wertentwicklung mit Kontext dargestellt, nicht als Versprechen.
+- Eine klare Darstellung der Risiken: fehlende Liquidität, Fremdkapitalhebel, Marktveränderungen und Zinsrisiko.
+Wie die Farben zusammenhängen:
+- RED: Analyse der Immobilie, Geschäftsplan und Verwaltung.
+- BLUE: Kreditbedingungen und Fremdkapitalhebel. Ein höherer Hebel erhöht sowohl die Rendite als auch das Risiko.
+- WHITE: Investoren vergleichen das Angebot mit anderen Anlagen. Gemeinschaftliche Immobilienvorhaben sind meist über Jahre nicht liquide.
+- GREEN: LÄNDERSPEZIFISCHE REGEL: Investoren können Vorteile aus Abschreibungen erhalten und müssen ihren Anteil am Einkommen angeben.
+- BLACK: Die Integrität und die Kommunikation des Initiators in schlechten Zeiten zählen am meisten.
+ANNAHME/MEINUNG: In einem sich korrigierenden Markt kann der Kauf zu niedrigeren Preisen attraktiv sein, aber Initiatoren müssen vermeiden anzudeuten, die Preise hätten ihren Tiefpunkt erreicht. Das weiß niemand im Voraus.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Darius ist ein Initiator, der 3 Millionen Euro beschafft, um ein Mehrfamilienhaus mit 40 Wohnungen zu einem Preis 15 % unter den Vergleichsverkäufen des Vorjahres zu kaufen.
+Sein Vorgehen beim Angebot:
+- Recht (PURPLE): Er nutzt mit seinem Anwalt für Kapitalmarktrecht eine Ausnahme, beschränkt das Angebot auf qualifizierte Investoren und erstellt ein vollständiges Offenlegungsdokument. LÄNDERSPEZIFISCHE REGEL.
+- Prognosen (WHITE): drei Szenarien: vorsichtig (Mieten stagnieren, Leerstand steigt, Verkaufspreis unter dem Kaufpreis), Basis und stark. Alle klar als Schätzungen gekennzeichnet.
+- Kredit (BLUE): mäßiger Hebel mit festem Zinssatz, um das Zinsrisiko zu verringern.
+- Gebühren: jede Gebühr in einfacher Sprache aufgeführt, mit einer Tabelle, die zeigt, wie die Gebühren die Rendite der Investoren in jedem Szenario beeinflussen.
+- Darstellung der Risiken: fehlende Liquidität (Investoren können vielleicht 5 bis 7 Jahre nicht aussteigen), Marktrisiko und die Möglichkeit, Geld zu verlieren.
+- Botschaft (ORANGE): "Kauf unter den jüngsten Preisen mit vorsichtiger Finanzierung" statt "die Preise haben ihren Tiefpunkt erreicht".
+Er beschafft das Geld langsamer als in heißen Märkten, aber von Investoren, die das Geschäft verstehen. Als die Mieten im ersten Jahr stagnieren, sind die Investoren nicht überrascht und bleiben zuversichtlich.
+ANNAHME/MEINUNG: Darius' Ehrlichkeit hat geduldige Investoren hervorgebracht, und genau das braucht ein Immobilienplan während einer Korrektur.
+
+## Übungsquiz
+**Q1. Was ist ein gemeinschaftliches Immobilienvorhaben?**
+A) Ein Initiator bündelt Geld von Investoren, um Immobilien zu kaufen und zu verwalten
+B) Der Kauf eines Einfamilienhauses
+C) Eine Hypothek
+D) Eine Grundsteuer
+**Q2. Warum gelten für gemeinschaftliche Immobilienvorhaben oft Wertpapierregeln?**
+A) Der Verkauf von Anteilen an einer gebündelten Anlage ist oft ein Wertpapierangebot
+B) Immobilien sind immer Wertpapiere
+C) Banken verlangen es
+D) Es senkt die Steuern
+**Q3. Warum sollten Prognosen ein ungünstiges Szenario enthalten?**
+A) Um Investoren abzuschrecken
+B) Es ist Dekoration
+C) Um ehrlich zu zeigen, was passieren könnte, wenn sich die Bedingungen verschlechtern
+D) Um Gebühren zu senken
+**Q4. Warum hat Darius vermieden zu sagen, "die Preise haben ihren Tiefpunkt erreicht"?**
+A) Es war zu positiv
+B) Investoren mögen keinen Optimismus
+C) Niemand weiß im Voraus, wann die Preise ihren Tiefpunkt erreichen
+D) Es war zu lang
+**Q5. Was war das Ergebnis von Darius' ehrlichem Vorgehen?**
+A) Er hat kein Geld beschafft
+B) Höhere Gebühren
+C) Strafen der Aufsicht
+D) Geduldige Investoren, die von stagnierenden Mieten nicht überrascht waren
+
+## Lösungsschlüssel
+Q1: A
+Q2: A
+Q3: C
+Q4: C
+Q5: D
+
+## Antworten und Erklärungen
+**Q1.** Gemeinschaftliche Vorhaben bündeln Kapital für größere Geschäfte.
+**Q2.** Anteile an gebündelten Anlagen sind oft reguliert. LÄNDERSPEZIFISCHE REGEL.
+**Q3.** Ungünstige Fälle geben ein realistisches Bild.
+**Q4.** Solche Aussagen lassen sich nicht wissen und können irreführen.
+**Q5.** Ehrlichkeit hat geduldiges Kapital aufgebaut.
+
+## Das Wichtigste in Kürze
+- Gemeinschaftliche Immobilienvorhaben bündeln Geld von Investoren für Immobiliengeschäfte
+- Meist gelten Wertpapierregeln und umfassende Offenlegungspflichten
+- Kennzeichne Prognosen als Schätzungen, nimm ungünstige Fälle auf und lege alle Gebühren offen
+- Ehrliches Marketing zieht geduldige Investoren an
+
+===== ORANGE-L5-042
+TITLE: Upselling und Cross-Selling innerhalb ethischer Grenzen
+SUMMARY: Upselling und Cross-Selling können den Kundenwert steigern, wenn sie zu echten Bedürfnissen passen; Druck, versteckte Zusatzleistungen und ungeeignete Verkäufe schaden Kunden und Unternehmen, Verbraucherschutz- und Geeignetheitsregeln gelten, und Erfolg sollte an den Ergebnissen für die Kunden gemessen werden.
+KEYWORDS: Ethik beim Upselling, Strategie für Cross-Selling, Kundenwert, Verkaufsdruck, Wachstum des Kundenwerts
+# Upselling und Cross-Selling innerhalb ethischer Grenzen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine Zentralbank vor, die ihren Leitzins innerhalb weniger Monate kräftig und wiederholt anhebt, um eine steigende Inflation zu bekämpfen.
+Wende es hier an: Bei steigenden Zinsen verlangsamt sich das Wachstum an Neukunden eines Unternehmens, und die Führung drängt die Mitarbeitenden, bestehenden Kunden mehr zu verkaufen. Frag über die Farben hinweg: Welche zusätzlichen Produkte helfen den Kunden wirklich (ORANGE)? Könnte der Druck, Ziele zu erreichen, zu ungeeigneten Verkäufen führen (BLACK)? Welche rechtlichen Grenzen gelten (PURPLE)? Wie beeinflussen ethische Praktiken den langfristigen Kundenwert (BLUE/WHITE)?
+
+## Lernziele
+- Hilfreiches Upselling von schädlichem Druck unterscheiden
+- Cross-Selling gestalten, das den Kundenwert steigert
+- Ethisches Verkaufen mit rechtlicher Regelkonformität und langfristigem Umsatz verbinden
+
+## Hauptinhalt
+Upselling bedeutet, eine bessere oder größere Version dessen anzubieten, was der Kunde kauft. Cross-Selling bedeutet, verwandte Produkte anzubieten. Beides kann den Kundenwert über die gesamte Beziehung steigern (ORANGE-L5-003), ohne die Kosten der Suche nach neuen Kunden.
+Gut gemacht hilft es den Kunden: eine Garantie, die sie wirklich schützt, ein Zubehör, das sie tatsächlich nutzen, oder ein Upgrade, das ihnen über die Zeit Geld spart.
+Schlecht gemacht schadet es Kunden und Unternehmen:
+- Druckmittel, die Menschen zu Käufen drängen, die sie nicht brauchen.
+- Versteckte Zusatzleistungen oder vorab angekreuzte Kästchen.
+- Verkauf von Produkten, die für die Lage des Kunden ungeeignet sind.
+- Verkaufsziele, die so aggressiv sind, dass sie Mitarbeitende zu Abkürzungen verleiten.
+Wie die Farben zusammenhängen:
+- ORANGE: Upselling wirkt am besten, wenn es ein echtes Problem des Kunden löst.
+- PURPLE: Verbraucherschutzgesetze können täuschende Praktiken, versteckte Gebühren und nicht genehmigte Zusatzleistungen verbieten. Finanz- und Versicherungsprodukte haben oft Geeignetheitsregeln (ORANGE-L5-027). LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel muss eine Vereinbarung über Zusatzzahlungen mit Verbrauchern nach verfügbaren Informationen ausdrücklich getroffen werden, im Onlinehandel nicht über vorab angekreuzte Kästchen, aggressive geschäftliche Handlungen sind nach dem Wettbewerbsrecht verboten, und beim Vertrieb von Versicherungen gelten Beratungs- und Dokumentationspflichten, also prüfe dies mit einer Anwältin oder einem Anwalt.
+- BLACK: Vergütung und Ziele prägen das Verhalten (ORANGE-L5-008). Führungskräfte, die unrealistische Ziele für Cross-Selling durchsetzen, können Kulturen schaffen, in denen Mitarbeitende Kunden täuschen.
+- BLUE/WHITE: Auf kurzfristigen Umsatz durch Verkauf unter Druck können Erstattungen, Beschwerden, Strafen und verlorene Kunden folgen, was dem langfristigen Wert schadet.
+Grundsätze für ethisches Upselling:
+1. Zuerst die Bedürfnisse des Kunden verstehen.
+2. Nur empfehlen, was wirklich passt.
+3. Kosten und Nutzen klar erklären.
+4. Das Neinsagen leicht machen.
+5. Erfolg an den Ergebnissen für die Kunden messen, nicht nur am Absatz.
+ANNAHME/MEINUNG: Das beste Upselling ist eines, für das der Kunde dir später dankt. Das schlimmste ist eines, über das er sich bei anderen beschwert.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Fahrradläden versuchen, den Umsatz pro Kunde zu steigern.
+Laden A setzt aggressive Ziele: Jeder Verkauf muss eine verlängerte Garantie und mindestens zwei Zubehörteile enthalten. Die Mitarbeitenden erhalten Prämien pro Zusatzleistung. Kunden beginnen, sich über Druck zu beschweren. Einige stellen fest, dass Garantien ohne klare Erklärung hinzugefügt wurden. Die Onlinebewertungen sinken, und einige Kunden reichen Beschwerden bei einer Verbraucherschutzstelle ein.
+Laden B schult die Mitarbeitenden, zuerst Fragen zu stellen: Wie wirst du das Fahrrad nutzen? Wie weit fährst du? Wo wirst du es abstellen?
+- Pendlern werden Lichter, Schlösser und Schutzbleche gezeigt, mit einer Erklärung der Sicherheits- und Diebstahlrisiken.
+- Gelegenheitsfahrern wird gesagt, dass ein einfacher Wartungsplan reichen kann, ohne verlängerte Garantie.
+- Alle Zusatzleistungen werden mit Preisen erklärt, und die Kunden wählen frei.
+- Die Prämien der Mitarbeitenden beruhen auf Kundenzufriedenheit und Wiederkäufen, nicht auf der Zahl der Zusatzleistungen.
+Nach einem Jahr ist der durchschnittliche Verkauf in Laden B etwas niedriger als in Laden A, aber die Quote wiederkehrender Kunden und die Empfehlungen sind viel höher. Sein Gesamtumsatz wächst schneller.
+ANNAHME/MEINUNG: Laden B hat mehr verdient, indem er Kunden geholfen hat, das zu kaufen, was sie tatsächlich brauchten.
+
+## Übungsquiz
+**Q1. Was ist Cross-Selling?**
+A) Verwandte Produkte anbieten
+B) An Konkurrenten verkaufen
+C) Preise senken
+D) Ins Ausland verkaufen
+**Q2. Wann hilft Upselling den Kunden?**
+A) Wenn es ein echtes Problem des Kunden löst
+B) Immer
+C) Wenn es Druck nutzt
+D) Wenn es Kosten versteckt
+**Q3. Warum können aggressive Ziele für Cross-Selling gefährlich sein?**
+A) Sie senken den Absatz
+B) Sie sind überall illegal
+C) Sie können Mitarbeitende dazu verleiten, Kunden zu täuschen
+D) Sie erhöhen die Steuern
+**Q4. Wie hat Laden B Prämien gezahlt?**
+A) Pro verkaufter Zusatzleistung
+B) Nach Kundenzufriedenheit und Wiederkäufen
+C) Nur nach verkauften Garantien
+D) Gar keine Prämien
+**Q5. Was war das langfristige Ergebnis von Laden B?**
+A) Geringerer Gesamtumsatz
+B) Mehr Beschwerden
+C) Mehr wiederkehrende Kunden, mehr Empfehlungen und schnelleres Umsatzwachstum
+D) Strafen der Aufsicht
+
+## Lösungsschlüssel
+Q1: A
+Q2: A
+Q3: C
+Q4: B
+Q5: C
+
+## Antworten und Erklärungen
+**Q1.** Cross-Selling fügt verwandte Artikel hinzu.
+**Q2.** Hilfreiches Upselling passt zu echten Bedürfnissen.
+**Q3.** Ziele prägen das Verhalten.
+**Q4.** Ergebnisorientierte Anreize haben ethisches Verkaufen unterstützt.
+**Q5.** Ethisches Verkaufen hat dauerhaften Wert geschaffen.
+
+## Das Wichtigste in Kürze
+- Upselling und Cross-Selling können den Kundenwert steigern, wenn sie zu echten Bedürfnissen passen
+- Druck, versteckte Zusatzleistungen und ungeeignete Verkäufe schaden Kunden und Unternehmen
+- Verbraucherschutz- und Geeignetheitsregeln gelten
+- Miss den Erfolg an den Ergebnissen für die Kunden
+
+===== ORANGE-L5-043
+TITLE: Die Rendite des Marketings nach Steuern und Zeit messen
+SUMMARY: Marketing sollte am Gewinn gemessen werden, nicht am Umsatz; Kundenwert über die Beziehung, Zeitwert des Geldes und Steuern gehören dazu, die Amortisationsdauer zählt, wenn Geld teuer ist, und weil die Zuordnung unvollkommen ist, sollte eine Messung angestrebt werden, die in die richtige Richtung weist.
+KEYWORDS: Rendite des Marketings, Rendite von Marketinginvestitionen, Zuordnung im Marketing, Zeitwert des Geldes im Marketing, Rendite nach Steuern
+# Die Rendite des Marketings nach Steuern und Zeit messen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine Zentralbank vor, die ihren Leitzins innerhalb weniger Monate kräftig und wiederholt anhebt, um eine steigende Inflation zu bekämpfen.
+Wende es hier an: Bei hohen Zinsen muss ein Unternehmen sein Budget kürzen und will nur das Marketing behalten, das sich wirklich lohnt. Frag über die Farben hinweg: Welche Kampagnen bringen profitable Kunden, nicht nur Umsatz (ORANGE)? Warum zählt die Zeit bis zur Amortisation, wenn Geld teuer ist (WHITE/BLUE)? Wie beeinflussen Steuern die tatsächlichen Kosten und Erträge (GREEN)?
+
+## Lernziele
+- Die Rendite des Marketings mit dem Rohertrag berechnen, nicht mit dem Umsatz
+- Kundenwert über die Beziehung, Zeitwert des Geldes und Steuern einbeziehen
+- Die Grenzen der Zuordnung bei der Messung des Marketings erkennen
+
+## Hauptinhalt
+Viele Unternehmen messen Marketing am Umsatz: "Diese Kampagne hat 100.000 Euro Umsatz gebracht." Aber Umsatz ist nicht Gewinn. Die Messung auf Stufe 5 bezieht das ganze Brett ein.
+Grundlegende Rendite des Marketings:
+Rendite = (Rohertrag aus der Kampagne - Kosten der Kampagne) / Kosten der Kampagne
+BEISPIEL ZUR VERANSCHAULICHUNG: Eine Kampagne für 10.000 Euro bringt 50.000 Euro Umsatz bei einer Rohertragsmarge von 40 %. Rohertrag = 20.000 Euro. Rendite = (20.000 Euro - 10.000 Euro) / 10.000 Euro = 100 %.
+Verbesserungen für Stufe 5:
+- Kundenwert über die Beziehung: Wenn Kunden nach dem ersten Kauf weiter kaufen, wird der erwartete künftige Rohertrag einbezogen (ORANGE-L5-003), bereinigt um die Abwanderung.
+- Zeitwert des Geldes (WHITE): Gewinn, der in zwei Jahren eingeht, ist weniger wert als Gewinn heute, besonders bei hohen Zinsen. Die Abzinsung künftiger Gewinne ergibt ein realistischeres Bild.
+- Steuern (GREEN): LÄNDERSPEZIFISCHE REGEL: Marketingkosten sind oft abziehbar, was ihre Kosten nach Steuern für profitable Unternehmen senkt. Gewinne werden besteuert. Vergleiche nach Steuern können die Rangfolge zwischen Optionen ändern; in Deutschland zum Beispiel sind Werbekosten nach verfügbaren Informationen in der Regel als Betriebsausgaben abziehbar, während der Gewinn je nach Rechtsform der Einkommen- oder Körperschaftsteuer und meist der Gewerbesteuer unterliegt, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater.
+- Amortisationsdauer (BLUE): Wie lange dauert es, bis die Kosten der Kampagne zurückgeholt sind? Eine schnellere Amortisation verringert die Belastung der Liquidität.
+Schwierigkeiten bei der Zuordnung:
+- Kunden sehen vor dem Kauf oft mehrere Marketingkontakte. Welcher erhält das Verdienst?
+- Manches Marketing (Markenaufbau, Inhalte) wirkt langsam und ist schwer direkt zu messen.
+- Werkzeuge zur Zuordnung sind unvollkommen und von Datenschutzgrenzen betroffen (ORANGE-L5-021).
+Praktische Ansätze: Kampagnen wo möglich gegen Kontrollgruppen testen, die Herkunft des Kunden beim Kauf erfassen und Trends über die Zeit vergleichen, statt einer einzelnen Zahl zu vertrauen.
+ANNAHME/MEINUNG: Eine genaue Rendite des Marketings ist oft unmöglich. Eine Messung, die in die richtige Richtung weist und Gewinn, Zeit und Steuern einbezieht, ist weit besser als die genaue Messung der falschen Größe (nur des Umsatzes).
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Maria vergleicht zwei Kampagnen, die jeweils 20.000 Euro kosten.
+Kampagne 1: Rabattanzeigen. Sie bringt im ersten Monat 80.000 Euro Umsatz bei einer Rohertragsmarge von 25 % (wegen des Rabatts). Rohertrag: 20.000 Euro. Wenige Kunden kommen wieder.
+Rendite (nur erster Kauf): (20.000 Euro - 20.000 Euro) / 20.000 Euro = 0 %.
+Kampagne 2: Bildungsinhalte und eine E-Mail-Serie. Sie bringt im ersten Monat 40.000 Euro Umsatz bei einer Marge von 45 %. Rohertrag: 18.000 Euro. Aber die Kunden kommen wieder: Der erwartete zusätzliche Rohertrag über zwei Jahre beträgt 30.000 Euro.
+Anpassungen:
+- Zeitwert: Wegen der hohen Zinsen zinst Maria die künftigen 30.000 Euro auf etwa 26.000 Euro heutigen Werts ab. (Zur Veranschaulichung; der tatsächliche Betrag hängt vom verwendeten Zinssatz und vom Zeitpunkt ab.)
+- Rohertrag von Kampagne 2 über die Beziehung (heutiger Wert): 18.000 Euro + 26.000 Euro = 44.000 Euro.
+- Rendite: (44.000 Euro - 20.000 Euro) / 20.000 Euro = 120 %.
+- Steuern: In ihrer Rechtsordnung sind die Kosten beider Kampagnen abziehbar und die Gewinne steuerpflichtig, sodass die Rangfolge nach Steuern bestehen bleibt. LÄNDERSPEZIFISCHE REGEL.
+Der Umsatz ließ Kampagne 1 besser aussehen. Gewinn, Kundenwert über die Beziehung und Zeitwert zeigen, dass Kampagne 2 weit besser ist. ANNAHME/MEINUNG: Maria verlagert ihr Budget zum Ansatz von Kampagne 2.
+
+## Übungsquiz
+**Q1. Warum ist der Umsatz allein ein schlechtes Maß für den Erfolg des Marketings?**
+A) Der Umsatz ist immer falsch
+B) Steuern gelten nicht
+C) Der Umsatz lässt sich nicht messen
+D) Umsatz ist nicht Gewinn; Margen und Kosten zählen
+**Q2. Wie wird die grundlegende Rendite des Marketings berechnet?**
+A) (Rohertrag - Kosten der Kampagne) / Kosten der Kampagne
+B) Umsatz geteilt durch Kosten
+C) Kosten minus Umsatz
+D) Absatz mal Marge
+**Q3. Warum zählt der Zeitwert des Geldes bei der Rendite des Marketings?**
+A) Er zählt nicht
+B) Künftige Gewinne sind weniger wert als Gewinne heute, besonders bei hohen Zinsen
+C) Er senkt die Steuern
+D) Er erhöht den Umsatz
+**Q4. Was ist eine Schwierigkeit bei der Zuordnung?**
+A) Ein Rechtsstreit
+B) Ein Steuerproblem
+C) Zu entscheiden, welcher Marketingkontakt das Verdienst erhält, wenn Kunden mehrere sehen
+D) Ein Preisfehler
+**Q5. Warum hat Kampagne 2 in Marias Analyse besser abgeschnitten?**
+A) Höhere Margen und wiederkehrende Kunden, auch nach Abzinsung des künftigen Gewinns
+B) Höherer Umsatz im ersten Monat
+C) Niedrigere Kosten
+D) Keine Steuern
+
+## Lösungsschlüssel
+Q1: D
+Q2: A
+Q3: B
+Q4: C
+Q5: A
+
+## Antworten und Erklärungen
+**Q1.** Der Gewinn, nicht der Umsatz, zeigt die tatsächliche Rendite.
+**Q2.** Die Rendite vergleicht den erzielten Gewinn mit den Kosten.
+**Q3.** Die Abzinsung künftiger Gewinne ergibt ein realistisches Bild.
+**Q4.** Mehrere Kontakte machen die Zuordnung des Verdiensts schwer.
+**Q5.** Der Gewinn über die Beziehung hat den Unterschied gemacht.
+
+## Das Wichtigste in Kürze
+- Miss Marketing am Gewinn, nicht am Umsatz
+- Beziehe Kundenwert über die Beziehung, Zeitwert des Geldes und Steuern ein
+- Die Amortisationsdauer zählt, wenn Geld teuer ist
+- Die Zuordnung ist unvollkommen; strebe eine Messung an, die in die richtige Richtung weist
+
+===== ORANGE-L5-044
+TITLE: Die Vertriebspipeline als Entscheidungssystem
+SUMMARY: Eine Pipeline ist ein Entscheidungssystem, nicht nur ein Werkzeug zur Verfolgung; Kennzahlen zu Umwandlung, Zykluslänge, Abdeckung und Konzentration sollten genutzt werden, Entscheidungsregeln für Einstellungen, Ausgaben und Strategie sollten festgelegt werden, und der Wert der Pipeline hängt von ehrlichen Daten ab.
+KEYWORDS: Steuerung der Vertriebspipeline, Kennzahlen der Pipeline, Entscheidungen aus Absatzprognosen, Umwandlungsquoten, Planung der Vertriebskapazität
+# Die Vertriebspipeline als Entscheidungssystem
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine weitreichende Gesundheitskrise vor, die Schifffahrt und Produktion weltweit über längere Zeit lahmlegt und die Lieferketten vieler Branchen gleichzeitig ins Stocken bringt.
+Wende es hier an: Eine lange Störung macht künftige Verkäufe unsicher. Die Führung muss entscheiden, ob sie einstellt, Kosten senkt oder investiert. Frag über die Farben hinweg: Was zeigen die Daten der Pipeline tatsächlich (ORANGE)? Wie sollten Einstellungen und Ausgaben reagieren (BLUE/BLACK)? Wie viel Unsicherheit steckt in der Prognose (WHITE)? Welche Bindungen aus bestehenden Verträgen beeinflussen die Entscheidungen (PURPLE)?
+
+## Lernziele
+- Kennzahlen der Pipeline nutzen, um die Gesundheit des Vertriebs zu verstehen
+- Daten der Pipeline mit Entscheidungen über Einstellungen, Ausgaben und Liquidität verbinden
+- Entscheidungsregeln auf Grundlage von Signalen der Pipeline aufstellen
+
+## Hauptinhalt
+Eine Vertriebspipeline verfolgt mögliche Kunden auf ihrem Weg durch die Phasen: Interessent, qualifizierte Gelegenheit, Angebot, Verhandlung und Abschluss (gewonnen oder verloren). Viele Unternehmen nutzen sie nur, um Geschäfte zu verfolgen. Auf Stufe 5 wird sie zu einem Entscheidungssystem.
+Wichtige Kennzahlen der Pipeline:
+- Wert der Pipeline: der Gesamtwert offener Gelegenheiten.
+- Gewichtete Pipeline: der Wert, bereinigt um die Abschlusswahrscheinlichkeit (ORANGE-L5-028).
+- Umwandlungsquoten: der Anteil der Gelegenheiten, die von jeder Phase in die nächste gelangen.
+- Länge des Vertriebszyklus: die durchschnittliche Zeit vom ersten Kontakt bis zum Abschluss.
+- Gewinnquote: der Anteil gewonnener Gelegenheiten.
+- Abdeckung der Pipeline: die gewichtete Pipeline im Vergleich zu den Absatzzielen.
+Die Pipeline für Entscheidungen nutzen:
+- Einstellungen (BLACK/BLUE): Wenn die gewichtete Pipeline dauerhaft mehr übersteigt, als das Team bewältigen kann, können Einstellungen gerechtfertigt sein. Schrumpft sie, sollten Einstellungen pausieren.
+- Ausgaben (BLUE): Marketingbudgets lassen sich danach anpassen, ob sich der Anfang der Pipeline füllt.
+- Liquidität (BLUE): Erwartete Abschlusstermine und Zahlungsbedingungen helfen bei der Prognose des Cashflows.
+- Strategie (ORANGE): Eine sinkende Umwandlung in einer bestimmten Phase zeigt, wo der Vertriebsprozess Arbeit braucht.
+- Risiko (WHITE): Eine Konzentration der Pipeline auf wenige große Geschäfte zeigt eine höhere Unsicherheit an.
+Entscheidungsregeln helfen der Führung, einheitlich zu handeln:
+- BEISPIEL ZUR VERANSCHAULICHUNG: "Fällt die gewichtete Pipeline für das nächste Quartal unter 80 % der Kosten, werden Einstellungen gestoppt und frei verfügbare Ausgaben überprüft." "Übersteigt sie zwei Quartale lang 150 % der Kapazität des Teams, beginnt die Personalsuche."
+Wie die Farben zusammenhängen:
+- PURPLE: Bestehende Verträge (Mietverträge, Arbeitsverträge, Lieferverpflichtungen) begrenzen, wie schnell sich die Kosten ändern lassen.
+- BLACK: Entscheidungsregeln verhindern emotionale Überreaktionen auf einzelne gute oder schlechte Wochen.
+ANNAHME/MEINUNG: Eine Pipeline ist nur so gut wie die Ehrlichkeit ihrer Daten. Verkäufer, die Wahrscheinlichkeiten aufblähen, um gut auszusehen, können die Führung zu schlechten Entscheidungen verleiten.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Obinna führt ein Unternehmen für Gebäudereinigung. Während einer Störung setzen Kunden Verträge aus, und neue Angebote verlangsamen sich.
+Seine Prüfung der Pipeline:
+- Gewichtete Pipeline für das nächste Quartal: 180.000 Euro, gesunken von 300.000 Euro.
+- Umwandlung vom Angebot zum Abschluss: gesunken von 40 % auf 25 %.
+- Vertriebszyklus: gewachsen von 30 auf 55 Tage.
+- Zwei große Angebote machen 60 % der gewichteten Pipeline aus (Konzentrationsrisiko).
+Seine Entscheidungsregeln (vor der Störung festgelegt):
+- Gewichtete Pipeline unter 80 % der Quartalskosten (250.000 Euro x 80 % = 200.000 Euro): Einstellungen stoppen und frei verfügbare Ausgaben kürzen. Ausgelöst.
+- Umwandlung unter 30 %: Angebote und Preise überprüfen. Ausgelöst.
+Maßnahmen:
+- Er stoppt Einstellungen und senkt Ausgaben (BLUE).
+- Er prüft verlorene Angebote und erfährt, dass Kunden jetzt flexible, monatlich kündbare Verträge wollen. Er passt seine Angebote an (ORANGE).
+- Er prüft seine Miet- und Geräteverträge, um zu sehen, welche Kosten er anpassen kann (PURPLE).
+- Er verlangt von den Verkäufern, Wahrscheinlichkeiten mit konkreten Belegen zu begründen, um die Ehrlichkeit der Daten zu verbessern (BLACK).
+Zwei Quartale später erholt sich die Umwandlung mit dem neuen flexiblen Angebot auf 35 %. ANNAHME/MEINUNG: Die Pipeline hat nicht nur den Rückgang verfolgt; sie hat Obinna gesagt, was er ändern muss.
+
+## Übungsquiz
+**Q1. Was ist eine gewichtete Pipeline?**
+A) Der Wert der Gelegenheiten, bereinigt um die Abschlusswahrscheinlichkeit
+B) Die Gesamtzahl der Geschäfte
+C) Ein Versandplan
+D) Ein Steuerbericht
+**Q2. Wie können Daten der Pipeline Einstellungen leiten?**
+A) Gar nicht
+B) Eine dauerhaft starke Pipeline kann Einstellungen rechtfertigen; eine schrumpfende spricht für eine Pause
+C) Einstellen, sobald der Absatz eine Woche lang gut ist
+D) Einstellungen haben nichts mit dem Absatz zu tun
+**Q3. Warum sind Entscheidungsregeln nützlich?**
+A) Sie ersetzen die Führung
+B) Sie verhindern emotionale Überreaktionen und unterstützen einheitliches Handeln
+C) Sie sind gesetzlich vorgeschrieben
+D) Sie garantieren Erfolg
+**Q4. Was hat Obinna aus verlorenen Angeboten gelernt?**
+A) Kunden wollten höhere Preise
+B) Konkurrenten hatten geschlossen
+C) Kunden mochten keine Reinigung
+D) Kunden wollten flexible, monatlich kündbare Verträge
+**Q5. Warum ist die Ehrlichkeit der Daten in einer Pipeline wichtig?**
+A) Sie ist nicht wichtig
+B) Sie senkt die Steuern
+C) Aufgeblähte Wahrscheinlichkeiten können die Führung zu schlechten Entscheidungen verleiten
+D) Kunden sehen die Daten
+
+## Lösungsschlüssel
+Q1: A
+Q2: B
+Q3: B
+Q4: D
+Q5: C
+
+## Antworten und Erklärungen
+**Q1.** Die Gewichtung ergibt realistische Erwartungen.
+**Q2.** Signale der Pipeline fließen in Entscheidungen über Kapazität ein.
+**Q3.** Vorab festgelegte Regeln unterstützen Disziplin.
+**Q4.** Die Analyse der Pipeline hat veränderte Bedürfnisse der Kunden gezeigt.
+**Q5.** Entscheidungen hängen von genauen Daten ab.
+
+## Das Wichtigste in Kürze
+- Eine Pipeline ist ein Entscheidungssystem, nicht nur ein Werkzeug zur Verfolgung
+- Nutze Kennzahlen zu Umwandlung, Zykluslänge, Abdeckung und Konzentration
+- Lege Entscheidungsregeln für Einstellungen, Ausgaben und Strategie fest
+- Der Wert der Pipeline hängt von ehrlichen Daten ab
+
+===== ORANGE-L5-045
+TITLE: Der integrierte Plan für den Markteintritt
+SUMMARY: Integrierte Pläne für den Markteintritt stimmen jede Farbe ab; sie umfassen Kunde, Positionierung, Preise, Vertriebswege, Finanzierung, Recht, Steuern, Versorgung, Kennzahlen und Risiken, Marketing scheitert, wenn andere Teile brechen, und der Plan sollte als lebendes Dokument behandelt werden.
+KEYWORDS: Plan für den Markteintritt, integrierter Marketingplan, Strategie für den Produktstart, Plan für den Eintritt in einen Markt, bereichsübergreifende Strategie
+# Der integrierte Plan für den Markteintritt
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir zwei große Wirtschaftsmächte vor, die gegenseitig ihre Exportkontrollen für eine Kategorie fortschrittlicher technischer Bauteile verschärfen, die in vielen Branchen verwendet werden.
+Wende es hier an: Exportkontrollen zwingen ein Unternehmen, ein neu gestaltetes Produkt in neuen Märkten einzuführen. Frag über die Farben hinweg: Wer ist der Zielkunde, und warum wird er kaufen (ORANGE)? Wie wird der Start finanziert (BLUE)? Welcher rechtliche Schutz und welcher Schutz des geistigen Eigentums sind nötig (PURPLE)? Welche Steuerpflichten entstehen in jedem Markt (GREEN)? Wer leitet welchen Teil (BLACK)? Das ist das ganze Brett in einem Plan.
+
+## Lernziele
+- Die Bestandteile eines integrierten Plans für den Markteintritt benennen
+- Marketingentscheidungen mit Finanzen, Recht, Steuern und Führung abstimmen
+- Einen Plan aufstellen, der sich anpasst, während Ergebnisse eingehen
+
+## Hauptinhalt
+Ein Plan für den Markteintritt beschreibt, wie ein Unternehmen ein Produkt oder eine Leistung zu den Kunden bringt. Auf Stufe 5 verbinden diese Pläne jede Farbe zu einer Strategie.
+Bestandteile eines integrierten Plans für den Markteintritt:
+1. Zielkunde (ORANGE): Wer, welches Problem und warum jetzt?
+2. Positionierung (ORANGE): Warum uns statt der Alternativen wählen?
+3. Preise (ORANGE/BLUE/GREEN): Preisniveau, Struktur, Zeitpunkt der Zahlungen und Steuern (ORANGE-L5-002).
+4. Vertriebswege (ORANGE/PURPLE): direkt, Händler, Marktplätze und ihre Verträge (ORANGE-L5-016).
+5. Marketing und Vertrieb (ORANGE/BLACK): Kampagnen, Team und Vergütung (ORANGE-L5-008).
+6. Finanzierung (BLUE/WHITE): Kapitalbedarf, Reichweite und gestufte Meilensteine (ORANGE-L5-039).
+7. Recht (PURPLE): Marken, Regelkonformität von Aussagen, Datenschutz, Verträge und Produktvorschriften.
+8. Steuern (GREEN): Verkaufssteuer oder Mehrwertsteuer, grenzüberschreitende Pflichten und Struktur. LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel muss sich ein ausländisches Unternehmen nach verfügbaren Informationen oft für die Umsatzsteuer registrieren, und eine feste Geschäftseinrichtung im Land kann eine Betriebsstätte mit eigener Ertragsteuerpflicht begründen, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater.
+9. Betrieb und Versorgung (BLUE): Lieferanten, Lagerbestand und Auslieferung (ORANGE-L5-040).
+10. Kennzahlen und Entscheidungsregeln (BLACK): Welche Ergebnisse lösen Ausweitung, Anpassung oder Pause aus (ORANGE-L5-044)?
+11. Risiken und Notfallpläne: Was könnte schiefgehen, und wie lautet der Plan für jeden Fall?
+Warum Integration zählt: Ein glänzender Marketingplan scheitert, wenn dem Unternehmen das Geld ausgeht, es gegen Werberegeln verstößt, keine Produkte liefern kann oder auf unerwartete Steuern trifft. Jeder Teil hängt von den anderen ab.
+Der Vergleich mit dem Schach: Jeder Bestandteil ist eine Figur. Der Plan für den Markteintritt stimmt sie auf das Schachmatt ab: Kunden, die profitabel, nachhaltig und rechtmäßig kaufen.
+ANNAHME/MEINUNG: Die besten Pläne für den Markteintritt sind lebende Dokumente. Sie legen eine klare Ausgangsstrategie fest und ändern sich dann, während Kundendaten und Marktbedingungen zeigen, was funktioniert.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Hye-jins Unternehmen muss einen neu gestalteten Luftreiniger einführen, nachdem Exportkontrollen ein wichtiges Bauteil abgeschnitten haben. Sie stellt einen integrierten Plan für den Markteintritt auf:
+- Ziel: kleine Büros und Kliniken in zwei neuen regionalen Märkten.
+- Positionierung: "Verlässlich saubere Luft mit Service vor Ort."
+- Preise: ein mittlerer Preis mit einem Serviceabonnement (wiederkehrender Umsatz, ORANGE-L5-017). Option zur jährlichen Vorauszahlung.
+- Vertriebswege: Direktvertrieb an Kliniken; ein regionaler Händler für kleine Büros, mit einem Vertrag, der Gebiet und Eigentum an den Kunden festlegt.
+- Vertrieb: zwei Verkäufer mit Gehalt plus margenbasierter Provision.
+- Finanzierung: gestufter Start, wobei Stufe 1 aus bestehenden Reserven finanziert wird; Stufe 2 aus einer Kreditlinie, wenn die Meilensteine erreicht sind.
+- Recht: Marke in beiden Märkten angemeldet; Aussagen zur Luftqualität durch unabhängige Tests belegt (PURPLE-L5-035); Produktzertifizierung in jedem Markt. LÄNDERSPEZIFISCHE REGEL.
+- Steuern: Registrierung für die Mehrwertsteuer in beiden Märkten. LÄNDERSPEZIFISCHE REGEL.
+- Versorgung: zwei Lieferanten für das Bauteil, um Konzentration zu vermeiden.
+- Kennzahlen: Stufe 2 beginnt, wenn 50 Kliniken unterschreiben und die monatliche Abwanderung beim Abonnement unter 3 % liegt.
+- Risiken: Verzögerungen bei Bauteilen (Ersatzlieferant), langsame Annahme (flexible Pilotprojekte).
+Nach sechs Monaten übertreffen die Verkäufe an Kliniken die Ziele, während die Verkäufe an kleine Büros zurückbleiben. Sie verlagert Ressourcen zu den Kliniken. ANNAHME/MEINUNG: Der Plan hat funktioniert, weil er von Anfang an integriert und flexibel genug für Anpassungen war.
+
+## Übungsquiz
+**Q1. Was ist ein Plan für den Markteintritt?**
+A) Eine Steuererklärung
+B) Ein Rechtsvertrag
+C) Ein Versandplan
+D) Eine Beschreibung, wie ein Unternehmen ein Produkt oder eine Leistung zu den Kunden bringt
+**Q2. Warum müssen Pläne für den Markteintritt jede Farbe einbeziehen?**
+A) Marketing kann scheitern, wenn Probleme bei Liquidität, Recht, Steuern oder Versorgung entstehen
+B) Um Seiten hinzuzufügen
+C) Es ist gesetzlich vorgeschrieben
+D) Um Investoren zu beeindrucken
+**Q3. Welche Rolle spielen Kennzahlen und Entscheidungsregeln in einem Plan für den Markteintritt?**
+A) Keine
+B) Sie ersetzen das Marketing
+C) Sie legen fest, welche Ergebnisse Ausweitung, Anpassung oder Pause auslösen
+D) Sie legen Steuern fest
+**Q4. Wie hat Hye-jin ihren Plan nach sechs Monaten angepasst?**
+A) Sie hat den Start abgesagt
+B) Sie hat Ressourcen zu den Kliniken verlagert, wo die Verkäufe die Ziele übertrafen
+C) Sie hat die Preise erhöht
+D) Sie hat alle Verkäufe eingestellt
+**Q5. Was sagt die Lektion über die besten Pläne für den Markteintritt?**
+A) Sie ändern sich nie
+B) Sie sind lebende Dokumente, die sich ändern, während Ergebnisse eingehen
+C) Sie sind geheim
+D) Sie konzentrieren sich nur auf Marketing
+
+## Lösungsschlüssel
+Q1: D
+Q2: A
+Q3: C
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Pläne für den Markteintritt leiten Produktstarts.
+**Q2.** Jeder Teil hängt von den anderen ab.
+**Q3.** Regeln leiten die Anpassung.
+**Q4.** Die Ergebnisse haben die Verteilung der Ressourcen geleitet.
+**Q5.** Flexibilität verbessert die Ergebnisse.
+
+## Das Wichtigste in Kürze
+- Integrierte Pläne für den Markteintritt stimmen jede Farbe ab
+- Sie umfassen Kunde, Positionierung, Preise, Vertriebswege, Finanzierung, Recht, Steuern, Versorgung, Kennzahlen und Risiken
+- Marketing scheitert, wenn andere Teile brechen
+- Behandle den Plan als lebendes Dokument
