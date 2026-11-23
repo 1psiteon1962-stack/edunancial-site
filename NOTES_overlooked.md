@@ -8,3 +8,4 @@
 
 ## PURPLE-L4-011 cross-reference (2026-11-23)
 - English says workers comp is "this level's Lesson 21"; it is Lesson 13. ht uses Lesson 13. Other locales unchanged (owner approval needed).
+- RESOLVED 2026-11-23 (owner OK): GOLD-L4-049 figures and PURPLE-L4-011 lesson ref fixed in all locales — PR 1620 merged (f6849205), registry/inventory checksums updated.
