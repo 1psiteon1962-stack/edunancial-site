@@ -1,0 +1,364 @@
+===== WHITE-L1-041
+TITLE: O que é um robo-advisor (consultor automatizado)?
+SUMMARY: Aprenda o que faz um robo-advisor e qual é a troca básica em comparação com um consultor financeiro humano.
+# O que é um robo-advisor (consultor automatizado)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir robo-advisor em termos simples.
+- explicar como constrói normalmente uma carteira.
+- identificar uma troca básica face a um consultor humano.
+
+## Conteúdo principal
+
+### O que é um robo-advisor
+
+Um robo-advisor é um serviço automatizado que constrói e gere uma carteira de investimentos com base nos objetivos e na tolerância ao risco de um investidor, utilizando geralmente algoritmos em vez de um consultor humano que toma decisões individuais.
+
+### Como constrói normalmente uma carteira
+
+Um robo-advisor faz normalmente uma série de perguntas sobre objetivos, horizonte temporal e conforto com o risco e, depois, distribui automaticamente o dinheiro por uma combinação de investimentos (muitas vezes ETF, vistos anteriormente neste nível) adequada a esse perfil.
+
+### A troca básica face a um consultor humano
+
+Os robo-advisors oferecem geralmente comissões mais baixas e um acesso mais fácil do que um consultor financeiro humano, mas oferecem normalmente uma orientação menos personalizada para situações financeiras complexas e individuais: uma troca real entre custo e personalização.
+
+## Exemplo prático
+
+Um investidor com um objetivo simples (como uma poupança geral de longo prazo para a reforma) e uma tolerância ao risco moderada pode usar um robo-advisor para construir e manter automaticamente uma carteira adequada, a um custo inferior ao de contratar um consultor humano.
+
+## Teste de prática
+
+1. Um robo-advisor é:
+   A. Um consultor financeiro humano que trabalha à distância
+   B. Um serviço automatizado que constrói e gere uma carteira através de algoritmos
+   C. Um tipo de obrigação
+   D. Um programa de reforma do Estado
+
+2. Verdadeiro ou falso: os robo-advisors cobram geralmente comissões mais elevadas do que os consultores financeiros humanos.
+
+3. Qual é uma troca básica de usar um robo-advisor em vez de um consultor humano?
+   A. Não existe qualquer troca
+   B. Comissões mais baixas e acesso mais fácil, mas normalmente uma orientação menos personalizada
+   C. Os robo-advisors garantem retornos mais elevados
+   D. Os consultores humanos são sempre gratuitos
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um robo-advisor automatiza a gestão da carteira através de algoritmos.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os robo-advisors cobram geralmente comissões mais baixas do que os consultores humanos.
+
+### Pergunta 3
+
+Resposta correta: B. Custo mais baixo e acesso fácil são trocados por uma orientação menos personalizada.
+
+## Pontos-chave
+
+- Um robo-advisor automatiza a construção e a gestão de uma carteira.
+- Distribui normalmente os investimentos com base nos objetivos e na tolerância ao risco.
+- Face a um consultor humano, troca geralmente um custo mais baixo por uma orientação menos personalizada.
+
+===== WHITE-L1-042
+TITLE: O que é uma anuidade (renda vitalícia)? (Versão introdutória)
+SUMMARY: Aprenda a ideia básica por detrás de uma anuidade: converter uma quantia de dinheiro num fluxo de pagamentos futuros.
+# O que é uma anuidade (renda vitalícia)? (Versão introdutória)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir anuidade em termos simples.
+- explicar a ideia básica de converter um montante único em pagamentos.
+- reconhecer que as anuidades variam muito em estrutura e complexidade.
+
+## Conteúdo principal
+
+### O que é uma anuidade
+
+Uma anuidade (em inglês, "annuity"; em Portugal, semelhante a uma renda vitalícia contratada a uma seguradora) é um produto financeiro, normalmente oferecido por uma companhia de seguros, em que a pessoa paga um montante único (ou uma série de pagamentos) em troca de um fluxo de pagamentos futuros, muitas vezes usado como fonte de rendimento na reforma.
+
+### A ideia básica
+
+O conceito central é converter uma quantia de dinheiro agora num fluxo de rendimento definido mais tarde: isto proporciona previsibilidade, o que atrai quem receia viver mais tempo do que as suas outras poupanças.
+
+### Existe uma complexidade real
+
+*PRESSUPOSTO (para fins didáticos):* As anuidades existem em muitas estruturas diferentes, com comissões, condições e garantias variadas. Esta lição introdutória trata apenas do conceito básico: a verdadeira variedade e complexidade dos produtos de anuidade está para além do âmbito deste nível.
+
+## Exemplo prático
+
+Um reformado paga um montante único a uma companhia de seguros em troca de um pagamento mensal garantido para o resto da vida: troca uma grande quantia agora por um rendimento previsível mais tarde.
+
+## Teste de prática
+
+1. Uma anuidade envolve geralmente:
+   A. Comprar uma única ação
+   B. Converter um montante único num fluxo de pagamentos futuros
+   C. Um tipo de compra de imóvel
+   D. Um reembolso de impostos do Estado
+
+2. Verdadeiro ou falso: todas as anuidades têm estruturas, comissões e condições idênticas.
+
+3. Porque é que alguém poderia considerar uma anuidade?
+   A. Para evitar para sempre qualquer risco financeiro
+   B. Por um rendimento previsível, muitas vezes na reforma
+   C. Para nunca pagar impostos
+   D. Para deixar de precisar de quaisquer outras poupanças
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma anuidade converte um montante único em pagamentos futuros.
+
+### Pergunta 2
+
+Resposta correta: Falso. As estruturas, comissões e condições das anuidades variam muito.
+
+### Pergunta 3
+
+Resposta correta: B. O rendimento previsível é o atrativo central.
+
+## Pontos-chave
+
+- Uma anuidade converte um montante único num fluxo de pagamentos futuros.
+- É muitas vezes usada como fonte de rendimento previsível na reforma.
+- As estruturas das anuidades variam muito: este é apenas um conceito introdutório.
+
+===== WHITE-L1-043
+TITLE: O que é a alocação de ativos?
+SUMMARY: Aprenda o que significa alocação de ativos e em que difere da diversificação dentro de um único tipo de ativo.
+# O que é a alocação de ativos?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir alocação de ativos em termos simples.
+- distingui-la da diversificação dentro de uma categoria de ativos.
+- explicar porque é que é muitas vezes descrita como uma decisão fundamental da carteira.
+
+## Conteúdo principal
+
+### O que é a alocação de ativos
+
+A alocação de ativos refere-se à forma como um investidor divide a sua carteira global por diferentes grandes categorias de ativos, como ações, obrigações e liquidez, e não a quais investimentos específicos escolher dentro de cada categoria.
+
+### Em que difere da diversificação
+
+A diversificação (vista anteriormente neste nível) refere-se geralmente a distribuir os investimentos dentro de uma categoria, como deter muitas ações diferentes. A alocação de ativos atua um nível acima: decide quanto vai, no total, para ações, quanto para obrigações e quanto para liquidez.
+
+### Porque é que é fundamental
+
+A alocação de ativos é muitas vezes descrita como uma das decisões mais importantes na construção de uma carteira, porque a combinação geral entre categorias de ativos (e não apenas as ações específicas escolhidas) tem um efeito considerável no risco global e no retorno potencial.
+
+## Exemplo prático
+
+Um investidor pode decidir-se por uma alocação de 70% em ações, 25% em obrigações e 5% em liquidez: uma decisão tomada antes mesmo de escolher quais as ações ou obrigações específicas a deter dentro dessa estrutura.
+
+## Teste de prática
+
+1. A alocação de ativos refere-se a:
+   A. Escolher ações individuais específicas
+   B. Dividir uma carteira por grandes categorias como ações, obrigações e liquidez
+   C. Um tipo de dividendo
+   D. Um programa de reforma do Estado
+
+2. Verdadeiro ou falso: a alocação de ativos e a diversificação dentro de uma categoria significam exatamente a mesma coisa.
+
+3. Porque é que a alocação de ativos é muitas vezes descrita como uma decisão fundamental?
+   A. Tem pouco efeito numa carteira
+   B. A combinação geral entre categorias afeta consideravelmente o risco e o retorno globais
+   C. Só importa para obrigações
+   D. Substitui qualquer outra decisão de investimento
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A alocação de ativos é a divisão da carteira ao nível das grandes categorias.
+
+### Pergunta 2
+
+Resposta correta: Falso. A alocação faz-se ao nível da categoria; a diversificação, dentro da categoria.
+
+### Pergunta 3
+
+Resposta correta: B. A combinação geral das categorias afeta consideravelmente o comportamento global da carteira.
+
+## Pontos-chave
+
+- A alocação de ativos é a forma como uma carteira é dividida por grandes categorias.
+- É uma decisão diferente e de nível superior à diversificação dentro de uma categoria.
+- É considerada uma decisão fundamental na construção de uma carteira.
+
+===== WHITE-L1-044
+TITLE: O que é reequilibrar uma carteira?
+SUMMARY: Aprenda o que significa reequilibrar, porque é que a alocação se desvia ao longo do tempo e a mecânica básica para corrigir esse desvio.
+# O que é reequilibrar uma carteira?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir reequilíbrio em termos simples.
+- explicar porque é que a alocação de uma carteira se desvia ao longo do tempo.
+- explicar a mecânica básica para corrigir esse desvio.
+
+## Conteúdo principal
+
+### O que é o reequilíbrio
+
+Reequilibrar significa ajustar periodicamente uma carteira para a sua alocação de ativos-alvo original (vista na lição anterior), depois de os movimentos do mercado a terem afastado desse alvo.
+
+### Porque é que a alocação se desvia ao longo do tempo
+
+Se as ações crescerem mais depressa do que as obrigações durante um período, uma carteira que começou com 70% em ações / 30% em obrigações pode desviar-se para 80% em ações / 20% em obrigações apenas por efeito dos movimentos do mercado, mesmo que o investidor nunca tenha alterado nada ativamente.
+
+### A mecânica básica
+
+O reequilíbrio implica geralmente vender parte do que ficou sobreponderado e comprar mais do que ficou subponderado, trazendo a carteira de volta para junto das percentagens-alvo originais.
+
+## Exemplo prático
+
+Uma carteira desvia-se de um alvo de 70/30 (ações/obrigações) para 80/20 depois de as ações terem tido um melhor desempenho. Reequilibrar significa vender ações e comprar obrigações em quantidade suficiente para aproximar a combinação do alvo original de 70/30.
+
+## Teste de prática
+
+1. Reequilibrar significa:
+   A. Escolher novas ações individuais
+   B. Ajustar uma carteira para a sua alocação-alvo original
+   C. Encerrar uma conta de investimento
+   D. Aumentar permanentemente o risco global
+
+2. Verdadeiro ou falso: a alocação de uma carteira mantém-se exatamente igual ao longo do tempo sem qualquer ação.
+
+3. Se as ações crescerem mais depressa do que as obrigações, o que acontece normalmente ao peso das ações numa carteira sem reequilíbrio?
+   A. Diminui automaticamente
+   B. Aumenta, ficando sobreponderado face ao alvo original
+   C. Mantém-se exatamente igual
+   D. São as obrigações que aumentam automaticamente
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O reequilíbrio repõe a combinação-alvo original de uma carteira.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os movimentos do mercado fazem a alocação desviar-se ao longo do tempo.
+
+### Pergunta 3
+
+Resposta correta: B. O crescimento mais rápido das ações aumenta o seu peso na carteira sem qualquer ação.
+
+## Pontos-chave
+
+- O reequilíbrio repõe a alocação-alvo original de uma carteira.
+- A alocação desvia-se ao longo do tempo apenas por efeito dos movimentos do mercado.
+- Reequilibrar implica vender ativos sobreponderados e comprar ativos subponderados.
+
+===== WHITE-L1-045
+TITLE: O que é um fundo com data-alvo (target-date fund)?
+SUMMARY: Aprenda o que um fundo com data-alvo faz automaticamente e porque é que a sua alocação muda à medida que a data-alvo se aproxima.
+# O que é um fundo com data-alvo (target-date fund)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir fundo com data-alvo em termos simples.
+- explicar como a sua alocação muda ao longo do tempo.
+- explicar porque é que isto se relaciona com o conceito de reequilíbrio.
+
+## Conteúdo principal
+
+### O que é um fundo com data-alvo
+
+Um fundo com data-alvo (em inglês, "target-date fund"; também chamado fundo de ciclo de vida) é um fundo construído em torno de uma data futura específica (muitas vezes o ano previsto para a reforma), que gere automaticamente a sua própria alocação de ativos de acordo com o horizonte temporal do investidor.
+
+### Como a sua alocação muda ao longo do tempo
+
+Um fundo com data-alvo começa normalmente com um peso maior em ações (pelo potencial de crescimento, dado o horizonte longo) e desloca-se gradualmente para mais obrigações e liquidez à medida que a data-alvo se aproxima (para mais estabilidade quando o objetivo está perto), de forma automática, sem que o investidor tenha de fazer esse ajuste manualmente.
+
+### A relação com o reequilíbrio
+
+Um fundo com data-alvo automatiza, na prática, tanto o reequilíbrio como a estratégia de deslocação gradual da alocação num único produto: o investidor não precisa de o reequilibrar periodicamente por si próprio, como faria com uma carteira construída manualmente.
+
+## Exemplo prático
+
+Um investidor que planeie reformar-se daqui a 30 anos pode escolher um fundo com data-alvo para esse ano. No início, detém sobretudo ações; à medida que o ano-alvo se aproxima, desloca-se automaticamente para uma combinação mais conservadora de obrigações e liquidez.
+
+## Teste de prática
+
+1. Um fundo com data-alvo é construído em torno de:
+   A. A ação de uma única empresa
+   B. Uma data futura específica, muitas vezes o ano previsto para a reforma
+   C. Exclusivamente um tipo de obrigação
+   D. Um prazo de entrega da declaração de impostos
+
+2. Verdadeiro ou falso: a alocação de um fundo com data-alvo mantém-se exatamente igual do início ao fim.
+
+3. O que acontece geralmente à alocação de um fundo com data-alvo à medida que a data-alvo se aproxima?
+   A. Desloca-se para mais ações
+   B. Desloca-se para mais obrigações e liquidez, em busca de estabilidade
+   C. Passa de imediato a ser 100% liquidez
+   D. Nada muda
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um fundo com data-alvo é construído em torno de uma data futura específica.
+
+### Pergunta 2
+
+Resposta correta: Falso. A sua alocação desloca-se automaticamente ao longo do tempo.
+
+### Pergunta 3
+
+Resposta correta: B. Torna-se gradualmente mais conservador à medida que a data se aproxima.
+
+## Pontos-chave
+
+- Um fundo com data-alvo é construído em torno de uma data futura específica.
+- A sua alocação desloca-se automaticamente, ao longo do tempo, de orientada para o crescimento para mais conservadora.
+- Automatiza num único produto tanto a deslocação da alocação como o reequilíbrio.

@@ -1,0 +1,364 @@
+===== WHITE-L1-041
+TITLE: Che cos'è un robo-advisor?
+SUMMARY: Scopri che cosa fa un robo-advisor e qual è il compromesso di base rispetto a un consulente finanziario in carne e ossa.
+# Che cos'è un robo-advisor?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un robo-advisor in termini semplici.
+- spiegare come costruisce di solito un portafoglio.
+- individuare un compromesso di base rispetto a un consulente umano.
+
+## Contenuto principale
+
+### Che cos'è un robo-advisor
+
+Un robo-advisor è un servizio automatizzato che costruisce e gestisce un portafoglio di investimento in base agli obiettivi e alla tolleranza al rischio di un investitore, usando in genere algoritmi invece di un consulente umano che prende decisioni individuali.
+
+### Come costruisce di solito un portafoglio
+
+Un robo-advisor pone di solito una serie di domande su obiettivi, orizzonte temporale e propensione al rischio, poi ripartisce automaticamente il denaro su un mix di investimenti (spesso ETF, trattati in precedenza in questo livello) adatto a quel profilo.
+
+### Il compromesso di base rispetto a un consulente umano
+
+I robo-advisor offrono in genere commissioni più basse e un accesso più semplice rispetto a un consulente finanziario umano, ma di solito una consulenza meno personalizzata per situazioni finanziarie complesse e individuali: un vero compromesso tra costo e personalizzazione.
+
+## Esempio svolto
+
+Un investitore con un obiettivo semplice (come un generico risparmio a lungo termine per la pensione) e una tolleranza al rischio moderata potrebbe usare un robo-advisor per costruire e mantenere automaticamente un portafoglio adeguato, a un costo inferiore rispetto a un consulente umano.
+
+## Quiz di esercitazione
+
+1. Un robo-advisor è:
+   A. Un consulente finanziario umano che lavora a distanza
+   B. Un servizio automatizzato che costruisce e gestisce un portafoglio tramite algoritmi
+   C. Un tipo di obbligazione
+   D. Un programma previdenziale statale
+
+2. Vero o falso: i robo-advisor applicano in genere commissioni più alte dei consulenti finanziari umani.
+
+3. Qual è un compromesso di base nell'usare un robo-advisor invece di un consulente umano?
+   A. Non esiste alcun compromesso
+   B. Commissioni più basse e accesso più semplice, ma di solito una consulenza meno personalizzata
+   C. I robo-advisor garantiscono rendimenti più alti
+   D. I consulenti umani sono sempre gratuiti
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un robo-advisor automatizza la gestione del portafoglio tramite algoritmi.
+
+### Domanda 2
+
+Risposta corretta: Falso. I robo-advisor applicano in genere commissioni più basse dei consulenti umani.
+
+### Domanda 3
+
+Risposta corretta: B. Costi più bassi e accesso facile si scambiano con una consulenza meno personalizzata.
+
+## Punti chiave
+
+- Un robo-advisor automatizza la costruzione e la gestione del portafoglio.
+- Di solito ripartisce gli investimenti in base agli obiettivi e alla tolleranza al rischio.
+- Rispetto a un consulente umano, scambia in genere costi più bassi con una consulenza meno personalizzata.
+
+===== WHITE-L1-042
+TITLE: Che cos'è una rendita (annuity)? (Versione introduttiva)
+SUMMARY: Scopri l'idea di base di una rendita: convertire una somma di denaro in un flusso di pagamenti futuri.
+# Che cos'è una rendita (annuity)? (Versione introduttiva)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una rendita in termini semplici.
+- spiegare l'idea di base di convertire una somma unica in pagamenti.
+- riconoscere che le rendite variano molto per struttura e complessità.
+
+## Contenuto principale
+
+### Che cos'è una rendita
+
+Una rendita (in inglese "annuity"; in Italia simile a una polizza di rendita vitalizia) è un prodotto finanziario, offerto di solito da una compagnia assicurativa, in cui una persona versa una somma unica (o una serie di versamenti) in cambio di un flusso di pagamenti futuri, spesso usato come fonte di reddito in pensione.
+
+### L'idea di base
+
+Il concetto centrale è convertire una somma di denaro oggi in un flusso di reddito definito domani: questo offre prevedibilità, cosa che attrae chi teme di sopravvivere ai propri altri risparmi.
+
+### Esiste una complessità reale
+
+*IPOTESI (a scopo didattico):* Le rendite esistono in molte strutture diverse, con commissioni, condizioni e garanzie variabili. Questa lezione introduttiva tratta solo il concetto di base: la reale varietà e complessità dei prodotti di rendita va oltre l'ambito di questo livello.
+
+## Esempio svolto
+
+Un pensionato versa una somma unica a una compagnia assicurativa in cambio di un pagamento mensile garantito per il resto della vita: scambia una grossa somma oggi con un reddito prevedibile domani.
+
+## Quiz di esercitazione
+
+1. Una rendita comporta in genere:
+   A. L'acquisto di una singola azione
+   B. La conversione di una somma unica in un flusso di pagamenti futuri
+   C. Un tipo di acquisto immobiliare
+   D. Un rimborso fiscale statale
+
+2. Vero o falso: tutte le rendite hanno strutture, commissioni e condizioni identiche.
+
+3. Perché qualcuno potrebbe prendere in considerazione una rendita?
+   A. Per evitare per sempre ogni rischio finanziario
+   B. Per un reddito prevedibile, spesso in pensione
+   C. Per non pagare mai le tasse
+   D. Per non aver più bisogno di altri risparmi
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una rendita converte una somma unica in pagamenti futuri.
+
+### Domanda 2
+
+Risposta corretta: Falso. Strutture, commissioni e condizioni delle rendite variano molto.
+
+### Domanda 3
+
+Risposta corretta: B. Il reddito prevedibile è il vantaggio principale.
+
+## Punti chiave
+
+- Una rendita converte una somma unica in un flusso di pagamenti futuri.
+- È spesso usata come fonte di reddito prevedibile in pensione.
+- Le strutture delle rendite variano molto: questo è solo un concetto introduttivo.
+
+===== WHITE-L1-043
+TITLE: Che cos'è l'asset allocation (allocazione del patrimonio)?
+SUMMARY: Scopri che cosa significa asset allocation e in che cosa differisce dalla diversificazione all'interno di un unico tipo di attività.
+# Che cos'è l'asset allocation (allocazione del patrimonio)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire l'asset allocation in termini semplici.
+- distinguerla dalla diversificazione all'interno di una categoria di attività.
+- spiegare perché viene spesso descritta come una decisione fondamentale per il portafoglio.
+
+## Contenuto principale
+
+### Che cos'è l'asset allocation
+
+L'asset allocation indica come un investitore suddivide il proprio portafoglio complessivo tra diverse grandi categorie di attività, come azioni, obbligazioni e liquidità, e non quali investimenti specifici scegliere all'interno di ciascuna categoria.
+
+### In che cosa differisce dalla diversificazione
+
+La diversificazione (trattata in precedenza in questo livello) indica in genere la distribuzione degli investimenti all'interno di una categoria, come possedere molte azioni diverse. L'asset allocation opera un livello più in alto: decide quanto va complessivamente in azioni, quanto in obbligazioni e quanto in liquidità.
+
+### Perché è fondamentale
+
+L'asset allocation è spesso descritta come una delle decisioni più importanti nella costruzione di un portafoglio, perché il mix generale tra le categorie di attività (non solo quali azioni specifiche si scelgono) ha un effetto notevole sul rischio complessivo e sul rendimento potenziale.
+
+## Esempio svolto
+
+Un investitore potrebbe decidere un'allocazione del 70% in azioni, 25% in obbligazioni e 5% in liquidità: una decisione presa prima ancora di scegliere quali azioni o obbligazioni specifiche detenere all'interno di quella struttura.
+
+## Quiz di esercitazione
+
+1. L'asset allocation indica:
+   A. La scelta di singole azioni specifiche
+   B. La suddivisione di un portafoglio tra grandi categorie come azioni, obbligazioni e liquidità
+   C. Un tipo di dividendo
+   D. Un programma previdenziale statale
+
+2. Vero o falso: asset allocation e diversificazione all'interno di una categoria significano esattamente la stessa cosa.
+
+3. Perché l'asset allocation è spesso descritta come una decisione fondamentale?
+   A. Ha poco effetto su un portafoglio
+   B. Il mix generale tra le categorie incide notevolmente su rischio e rendimento complessivi
+   C. Conta solo per le obbligazioni
+   D. Sostituisce qualsiasi altra decisione di investimento
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'asset allocation è la suddivisione di un portafoglio a livello di grandi categorie.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'allocazione avviene a livello di categoria; la diversificazione all'interno della categoria.
+
+### Domanda 3
+
+Risposta corretta: B. Il mix generale delle categorie incide notevolmente sul comportamento complessivo del portafoglio.
+
+## Punti chiave
+
+- L'asset allocation è il modo in cui un portafoglio viene suddiviso tra grandi categorie.
+- È una decisione diversa e di livello superiore rispetto alla diversificazione all'interno di una categoria.
+- È considerata una decisione fondamentale nella costruzione di un portafoglio.
+
+===== WHITE-L1-044
+TITLE: Che cosa significa ribilanciare un portafoglio?
+SUMMARY: Scopri che cosa significa ribilanciare, perché l'allocazione si sposta nel tempo e come si corregge, in linea di massima, questo spostamento.
+# Che cosa significa ribilanciare un portafoglio?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il ribilanciamento in termini semplici.
+- spiegare perché l'allocazione di un portafoglio si sposta nel tempo.
+- spiegare il meccanismo di base per correggere questo spostamento.
+
+## Contenuto principale
+
+### Che cos'è il ribilanciamento
+
+Ribilanciare significa riportare periodicamente un portafoglio alla sua asset allocation obiettivo originale (trattata nella lezione precedente), dopo che i movimenti di mercato lo hanno allontanato da quell'obiettivo.
+
+### Perché l'allocazione si sposta nel tempo
+
+Se in un certo periodo le azioni crescono più delle obbligazioni, un portafoglio partito con il 70% in azioni e il 30% in obbligazioni potrebbe spostarsi all'80% in azioni e al 20% in obbligazioni solo per effetto dei movimenti di mercato, anche se l'investitore non ha mai cambiato nulla attivamente.
+
+### Il meccanismo di base
+
+Il ribilanciamento comporta in genere vendere parte di ciò che è diventato sovrappesato e comprare di più di ciò che è diventato sottopesato, riportando il portafoglio verso le percentuali obiettivo originali.
+
+## Esempio svolto
+
+Un portafoglio si sposta da un obiettivo 70/30 (azioni/obbligazioni) a 80/20 dopo che le azioni hanno fatto meglio. Ribilanciare significa vendere abbastanza azioni e comprare abbastanza obbligazioni da riportare il mix più vicino all'obiettivo originale di 70/30.
+
+## Quiz di esercitazione
+
+1. Ribilanciare significa:
+   A. Scegliere nuove singole azioni
+   B. Riportare un portafoglio alla sua allocazione obiettivo originale
+   C. Chiudere un conto di investimento
+   D. Aumentare per sempre il rischio complessivo
+
+2. Vero o falso: l'allocazione di un portafoglio resta esattamente uguale nel tempo senza alcun intervento.
+
+3. Se le azioni crescono più delle obbligazioni, che cosa succede di solito alla quota azionaria di un portafoglio senza ribilanciamento?
+   A. Diminuisce automaticamente
+   B. Aumenta, diventando sovrappesata rispetto all'obiettivo originale
+   C. Resta esattamente uguale
+   D. Aumentano invece automaticamente le obbligazioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il ribilanciamento ripristina il mix obiettivo originale di un portafoglio.
+
+### Domanda 2
+
+Risposta corretta: Falso. I movimenti di mercato fanno spostare l'allocazione nel tempo.
+
+### Domanda 3
+
+Risposta corretta: B. Una crescita più rapida delle azioni ne aumenta la quota nel portafoglio senza alcun intervento.
+
+## Punti chiave
+
+- Il ribilanciamento riporta un portafoglio alla sua allocazione obiettivo originale.
+- L'allocazione si sposta nel tempo solo per effetto dei movimenti di mercato.
+- Ribilanciare significa vendere le attività sovrappesate e comprare quelle sottopesate.
+
+===== WHITE-L1-045
+TITLE: Che cos'è un fondo target date (a scadenza obiettivo)?
+SUMMARY: Scopri che cosa fa automaticamente un fondo target date e perché la sua allocazione cambia man mano che si avvicina la data obiettivo.
+# Che cos'è un fondo target date (a scadenza obiettivo)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un fondo target date in termini semplici.
+- spiegare come cambia la sua allocazione nel tempo.
+- spiegare perché questo si collega al concetto di ribilanciamento.
+
+## Contenuto principale
+
+### Che cos'è un fondo target date
+
+Un fondo target date (o fondo "life cycle") è un fondo costruito attorno a una data futura specifica (spesso l'anno previsto per il pensionamento), che gestisce automaticamente la propria asset allocation in base all'orizzonte temporale dell'investitore.
+
+### Come cambia la sua allocazione nel tempo
+
+Un fondo target date parte di solito con una quota più alta di azioni (per il potenziale di crescita, dato il lungo orizzonte temporale) e si sposta gradualmente verso più obbligazioni e liquidità man mano che si avvicina la data obiettivo (per una maggiore stabilità quando il traguardo è vicino), in modo automatico, senza che l'investitore debba fare questo aggiustamento a mano.
+
+### Il collegamento con il ribilanciamento
+
+Un fondo target date automatizza di fatto sia il ribilanciamento sia la strategia di spostamento graduale dell'allocazione in un unico prodotto: l'investitore non deve ribilanciarlo periodicamente da solo, come farebbe con un portafoglio costruito manualmente.
+
+## Esempio svolto
+
+Un investitore che prevede di andare in pensione tra 30 anni potrebbe scegliere un fondo target date per quell'anno. All'inizio detiene soprattutto azioni; man mano che l'anno obiettivo si avvicina, si sposta automaticamente verso un mix più prudente di obbligazioni e liquidità.
+
+## Quiz di esercitazione
+
+1. Un fondo target date è costruito attorno a:
+   A. L'azione di una singola azienda
+   B. Una data futura specifica, spesso l'anno previsto per il pensionamento
+   C. Esclusivamente un tipo di obbligazione
+   D. Una scadenza fiscale statale
+
+2. Vero o falso: l'allocazione di un fondo target date resta esattamente uguale dall'inizio alla fine.
+
+3. Che cosa succede in genere all'allocazione di un fondo target date man mano che si avvicina la data obiettivo?
+   A. Si sposta verso più azioni
+   B. Si sposta verso più obbligazioni e liquidità, per stabilità
+   C. Diventa subito interamente liquidità
+   D. Non cambia nulla
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un fondo target date è costruito attorno a una data futura specifica.
+
+### Domanda 2
+
+Risposta corretta: Falso. La sua allocazione si sposta automaticamente nel tempo.
+
+### Domanda 3
+
+Risposta corretta: B. Diventa gradualmente più prudente man mano che la data si avvicina.
+
+## Punti chiave
+
+- Un fondo target date è costruito attorno a una data futura specifica.
+- La sua allocazione passa automaticamente da orientata alla crescita a più prudente nel tempo.
+- Automatizza in un unico prodotto sia lo spostamento dell'allocazione sia il ribilanciamento.

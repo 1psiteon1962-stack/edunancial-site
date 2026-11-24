@@ -1,0 +1,364 @@
+===== WHITE-L1-041
+TITLE: Wat is een robo-adviseur?
+SUMMARY: Leer wat een robo-adviseur doet en wat de basisafweging is ten opzichte van een menselijke financieel adviseur.
+# Wat is een robo-adviseur?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een robo-adviseur in eenvoudige woorden te definiëren.
+- uit te leggen hoe hij doorgaans een portefeuille samenstelt.
+- een basisafweging ten opzichte van een menselijke adviseur te benoemen.
+
+## Kerninhoud
+
+### Wat een robo-adviseur is
+
+Een robo-adviseur is een geautomatiseerde dienst die een beleggingsportefeuille samenstelt en beheert op basis van de doelen en de risicobereidheid van een belegger, doorgaans met algoritmes in plaats van een menselijke adviseur die afzonderlijke beslissingen neemt.
+
+### Hoe hij doorgaans een portefeuille samenstelt
+
+Een robo-adviseur stelt doorgaans een reeks vragen over doelen, beleggingshorizon en risicobereidheid, en verdeelt het geld vervolgens automatisch over een mix van beleggingen (vaak ETF's, die eerder in dit niveau aan bod kwamen) die bij dat profiel past.
+
+### De basisafweging ten opzichte van een menselijke adviseur
+
+Robo-adviseurs bieden doorgaans lagere kosten en een gemakkelijkere toegang dan een menselijke financieel adviseur, maar meestal minder persoonlijk advies voor complexe, individuele financiële situaties: een echte afweging tussen kosten en maatwerk.
+
+## Praktijkvoorbeeld
+
+Een belegger met een eenvoudig doel (zoals algemeen sparen voor later op lange termijn) en een gemiddelde risicobereidheid kan een robo-adviseur gebruiken om automatisch een passende portefeuille te laten opbouwen en onderhouden, tegen lagere kosten dan bij een menselijke adviseur.
+
+## Oefenquiz
+
+1. Een robo-adviseur is:
+   A. Een menselijke financieel adviseur die op afstand werkt
+   B. Een geautomatiseerde dienst die met algoritmes een portefeuille samenstelt en beheert
+   C. Een soort obligatie
+   D. Een pensioenregeling van de overheid
+
+2. Waar of onwaar: robo-adviseurs rekenen doorgaans hogere kosten dan menselijke financieel adviseurs.
+
+3. Wat is een basisafweging als je een robo-adviseur gebruikt in plaats van een menselijke adviseur?
+   A. Er is geen afweging
+   B. Lagere kosten en gemakkelijkere toegang, maar meestal minder persoonlijk advies
+   C. Robo-adviseurs garanderen hogere rendementen
+   D. Menselijke adviseurs zijn altijd gratis
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een robo-adviseur automatiseert het portefeuillebeheer met algoritmes.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Robo-adviseurs rekenen doorgaans lagere kosten dan menselijke adviseurs.
+
+### Vraag 3
+
+Juist antwoord: B. Lagere kosten en gemakkelijke toegang staan tegenover minder persoonlijk advies.
+
+## Belangrijkste punten
+
+- Een robo-adviseur automatiseert het samenstellen en beheren van een portefeuille.
+- Hij verdeelt beleggingen doorgaans op basis van doelen en risicobereidheid.
+- Vergeleken met een menselijke adviseur ruilt hij doorgaans lagere kosten in voor minder persoonlijk advies.
+
+===== WHITE-L1-042
+TITLE: Wat is een annuïteit (lijfrente-uitkering)? (Inleidende versie)
+SUMMARY: Leer het basisidee achter een annuïteit: een geldbedrag omzetten in een stroom toekomstige betalingen.
+# Wat is een annuïteit (lijfrente-uitkering)? (Inleidende versie)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een annuïteit in eenvoudige woorden te definiëren.
+- het basisidee uit te leggen van het omzetten van een eenmalig bedrag in betalingen.
+- te herkennen dat annuïteiten sterk verschillen in opbouw en complexiteit.
+
+## Kerninhoud
+
+### Wat een annuïteit is
+
+Een annuïteit (in het Engels "annuity"; in Nederland en België vergelijkbaar met een lijfrente-uitkering of een direct ingaande lijfrente) is een financieel product, doorgaans aangeboden door een verzekeraar, waarbij iemand een eenmalig bedrag (of een reeks betalingen) inlegt in ruil voor een stroom toekomstige betalingen, vaak gebruikt als inkomensbron na het pensioen.
+
+### Het basisidee
+
+De kern is een geldbedrag nu omzetten in een vastgelegde inkomensstroom later: dat geeft voorspelbaarheid, wat aantrekkelijk is voor mensen die bang zijn hun overige spaargeld te overleven.
+
+### Er is echte complexiteit
+
+*AANNAME (voor onderwijsdoeleinden):* Annuïteiten bestaan in veel verschillende vormen, met uiteenlopende kosten, voorwaarden en garanties. Deze inleidende les behandelt alleen het basisbegrip: de werkelijke verscheidenheid en complexiteit van annuïteitsproducten valt buiten dit niveau.
+
+## Praktijkvoorbeeld
+
+Een gepensioneerde betaalt een eenmalig bedrag aan een verzekeraar in ruil voor een gegarandeerde maandelijkse uitkering voor de rest van zijn leven: hij ruilt een groot bedrag nu in voor voorspelbaar inkomen later.
+
+## Oefenquiz
+
+1. Een annuïteit houdt doorgaans in:
+   A. Het kopen van één enkel aandeel
+   B. Het omzetten van een eenmalig bedrag in een stroom toekomstige betalingen
+   C. Een soort vastgoedaankoop
+   D. Een belastingteruggave van de overheid
+
+2. Waar of onwaar: alle annuïteiten hebben dezelfde opbouw, kosten en voorwaarden.
+
+3. Waarom zou iemand een annuïteit overwegen?
+   A. Om elk financieel risico voorgoed te vermijden
+   B. Voor voorspelbaar inkomen, vaak na het pensioen
+   C. Om nooit meer belasting te betalen
+   D. Om geen ander spaargeld meer nodig te hebben
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een annuïteit zet een eenmalig bedrag om in toekomstige betalingen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Opbouw, kosten en voorwaarden van annuïteiten verschillen sterk.
+
+### Vraag 3
+
+Juist antwoord: B. Voorspelbaar inkomen is de kern van de aantrekkingskracht.
+
+## Belangrijkste punten
+
+- Een annuïteit zet een eenmalig bedrag om in een stroom toekomstige betalingen.
+- Ze wordt vaak gebruikt als bron van voorspelbaar inkomen na het pensioen.
+- Annuïteiten verschillen sterk: dit is slechts een inleidend begrip.
+
+===== WHITE-L1-043
+TITLE: Wat is assetallocatie (vermogensverdeling)?
+SUMMARY: Leer wat assetallocatie betekent en hoe die verschilt van spreiding binnen één soort bezitting.
+# Wat is assetallocatie (vermogensverdeling)?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- assetallocatie in eenvoudige woorden te definiëren.
+- haar te onderscheiden van spreiding binnen één beleggingscategorie.
+- uit te leggen waarom ze vaak wordt beschreven als een fundamentele portefeuillebeslissing.
+
+## Kerninhoud
+
+### Wat assetallocatie is
+
+Assetallocatie verwijst naar hoe een belegger zijn totale portefeuille verdeelt over verschillende brede beleggingscategorieën, zoals aandelen, obligaties en contant geld, en niet naar welke specifieke beleggingen hij binnen elke categorie kiest.
+
+### Hoe ze verschilt van spreiding
+
+Spreiding (eerder in dit niveau behandeld) verwijst doorgaans naar het verdelen van beleggingen binnen een categorie, zoals het bezitten van veel verschillende aandelen. Assetallocatie werkt een niveau hoger: ze bepaalt hoeveel er in totaal naar aandelen gaat, hoeveel in totaal naar obligaties en hoeveel in totaal naar contant geld.
+
+### Waarom ze fundamenteel is
+
+Assetallocatie wordt vaak beschreven als een van de belangrijkste beslissingen bij het opbouwen van een portefeuille, omdat de brede mix tussen beleggingscategorieën (niet alleen welke specifieke aandelen je kiest) een aanzienlijke invloed heeft op het totale risico en het mogelijke rendement.
+
+## Praktijkvoorbeeld
+
+Een belegger kan kiezen voor een verdeling van 70% aandelen, 25% obligaties en 5% contant geld: een beslissing die wordt genomen voordat hij ook maar kiest welke specifieke aandelen of obligaties hij binnen die structuur aanhoudt.
+
+## Oefenquiz
+
+1. Assetallocatie verwijst naar:
+   A. Het kiezen van specifieke afzonderlijke aandelen
+   B. Het verdelen van een portefeuille over brede categorieën zoals aandelen, obligaties en contant geld
+   C. Een soort dividend
+   D. Een pensioenregeling van de overheid
+
+2. Waar of onwaar: assetallocatie en spreiding binnen één categorie betekenen precies hetzelfde.
+
+3. Waarom wordt assetallocatie vaak beschreven als een fundamentele beslissing?
+   A. Ze heeft weinig invloed op een portefeuille
+   B. De brede mix tussen categorieën beïnvloedt het totale risico en rendement aanzienlijk
+   C. Ze is alleen belangrijk voor obligaties
+   D. Ze vervangt alle andere beleggingsbeslissingen
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Assetallocatie is de verdeling van een portefeuille op het niveau van brede categorieën.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Allocatie gebeurt op categorieniveau; spreiding binnen een categorie.
+
+### Vraag 3
+
+Juist antwoord: B. De brede mix van categorieën beïnvloedt het gedrag van de totale portefeuille aanzienlijk.
+
+## Belangrijkste punten
+
+- Assetallocatie is hoe een portefeuille over brede categorieën wordt verdeeld.
+- Het is een andere beslissing, op een hoger niveau, dan spreiding binnen een categorie.
+- Ze wordt beschouwd als een fundamentele beslissing bij het opbouwen van een portefeuille.
+
+===== WHITE-L1-044
+TITLE: Wat is het herbalanceren van een portefeuille?
+SUMMARY: Leer wat herbalanceren betekent, waarom de verdeling in de loop van de tijd verschuift, en hoe je die verschuiving in grote lijnen corrigeert.
+# Wat is het herbalanceren van een portefeuille?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- herbalanceren in eenvoudige woorden te definiëren.
+- uit te leggen waarom de verdeling van een portefeuille in de loop van de tijd verschuift.
+- de basiswerking van het corrigeren van die verschuiving uit te leggen.
+
+## Kerninhoud
+
+### Wat herbalanceren is
+
+Herbalanceren betekent een portefeuille periodiek terugbrengen naar de oorspronkelijke doelverdeling (assetallocatie, behandeld in de vorige les), nadat marktbewegingen haar daarvan hebben doen afwijken.
+
+### Waarom de verdeling in de loop van de tijd verschuift
+
+Als aandelen in een periode harder groeien dan obligaties, kan een portefeuille die begon met 70% aandelen / 30% obligaties alleen al door marktbewegingen verschuiven naar 80% aandelen / 20% obligaties, ook al heeft de belegger zelf nooit iets veranderd.
+
+### De basiswerking
+
+Herbalanceren houdt doorgaans in dat je een deel verkoopt van wat overwogen is geraakt en meer koopt van wat onderwogen is geraakt, zodat de portefeuille weer richting de oorspronkelijke doelpercentages gaat.
+
+## Praktijkvoorbeeld
+
+Een portefeuille verschuift van een doel van 70/30 (aandelen/obligaties) naar 80/20 nadat aandelen beter hebben gepresteerd. Herbalanceren betekent zoveel aandelen verkopen en zoveel obligaties kopen dat de mix weer dichter bij het oorspronkelijke doel van 70/30 komt.
+
+## Oefenquiz
+
+1. Herbalanceren betekent:
+   A. Nieuwe afzonderlijke aandelen kiezen
+   B. Een portefeuille terugbrengen naar de oorspronkelijke doelverdeling
+   C. Een beleggingsrekening sluiten
+   D. Het totale risico voorgoed verhogen
+
+2. Waar of onwaar: de verdeling van een portefeuille blijft in de loop van de tijd zonder enige actie precies gelijk.
+
+3. Als aandelen harder groeien dan obligaties, wat gebeurt er zonder herbalanceren doorgaans met het aandelendeel van een portefeuille?
+   A. Het daalt automatisch
+   B. Het stijgt en raakt overwogen ten opzichte van het oorspronkelijke doel
+   C. Het blijft precies gelijk
+   D. In plaats daarvan stijgen de obligaties automatisch
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Herbalanceren herstelt de oorspronkelijke doelmix van een portefeuille.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Marktbewegingen zorgen ervoor dat de verdeling in de loop van de tijd verschuift.
+
+### Vraag 3
+
+Juist antwoord: B. Snellere groei van aandelen vergroot zonder actie hun aandeel in de portefeuille.
+
+## Belangrijkste punten
+
+- Herbalanceren brengt een portefeuille terug naar de oorspronkelijke doelverdeling.
+- De verdeling verschuift in de loop van de tijd puur door marktbewegingen.
+- Herbalanceren houdt in dat je overwogen bezittingen verkoopt en onderwogen bezittingen koopt.
+
+===== WHITE-L1-045
+TITLE: Wat is een doeldatumfonds (target-date fund)?
+SUMMARY: Leer wat een doeldatumfonds automatisch doet en waarom de verdeling verandert naarmate de doeldatum dichterbij komt.
+# Wat is een doeldatumfonds (target-date fund)?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een doeldatumfonds in eenvoudige woorden te definiëren.
+- uit te leggen hoe de verdeling ervan in de loop van de tijd verandert.
+- uit te leggen hoe dit samenhangt met het begrip herbalanceren.
+
+## Kerninhoud
+
+### Wat een doeldatumfonds is
+
+Een doeldatumfonds (in het Engels "target-date fund"; ook wel levensloopfonds genoemd) is een fonds dat is opgebouwd rond een specifieke toekomstige datum (vaak een gepland pensioenjaar) en zijn eigen assetallocatie automatisch afstemt op de beleggingshorizon van de belegger.
+
+### Hoe de verdeling in de loop van de tijd verandert
+
+Een doeldatumfonds begint doorgaans met een groter aandeel aandelen (voor groeipotentieel, gezien de lange beleggingshorizon) en verschuift geleidelijk naar meer obligaties en contant geld naarmate de doeldatum dichterbij komt (voor meer stabiliteit als het doel nadert), automatisch, zonder dat de belegger die aanpassing zelf hoeft te doen.
+
+### Het verband met herbalanceren
+
+Een doeldatumfonds automatiseert in feite zowel het herbalanceren als de geleidelijk verschuivende verdelingsstrategie in één product: een belegger hoeft het niet zelf periodiek te herbalanceren, zoals hij dat bij een zelf samengestelde portefeuille wel zou moeten doen.
+
+## Praktijkvoorbeeld
+
+Een belegger die over 30 jaar met pensioen wil, kan een doeldatumfonds voor dat jaar kiezen. In het begin bestaat het vooral uit aandelen; naarmate het doeljaar nadert, verschuift het automatisch naar een voorzichtigere mix van obligaties en contant geld.
+
+## Oefenquiz
+
+1. Een doeldatumfonds is opgebouwd rond:
+   A. Het aandeel van één bedrijf
+   B. Een specifieke toekomstige datum, vaak een gepland pensioenjaar
+   C. Uitsluitend één soort obligatie
+   D. Een deadline voor de belastingaangifte van de overheid
+
+2. Waar of onwaar: de verdeling van een doeldatumfonds blijft van begin tot eind precies gelijk.
+
+3. Wat gebeurt er doorgaans met de verdeling van een doeldatumfonds naarmate de doeldatum nadert?
+   A. Ze verschuift naar meer aandelen
+   B. Ze verschuift naar meer obligaties en contant geld, voor stabiliteit
+   C. Ze bestaat meteen volledig uit contant geld
+   D. Er verandert helemaal niets
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een doeldatumfonds is opgebouwd rond een specifieke toekomstige datum.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. De verdeling ervan verschuift in de loop van de tijd automatisch.
+
+### Vraag 3
+
+Juist antwoord: B. Het wordt geleidelijk voorzichtiger naarmate de datum nadert.
+
+## Belangrijkste punten
+
+- Een doeldatumfonds is opgebouwd rond een specifieke toekomstige datum.
+- De verdeling verschuift in de loop van de tijd automatisch van groeigericht naar voorzichtiger.
+- Het automatiseert zowel het verschuiven van de verdeling als het herbalanceren in één product.
