@@ -1,0 +1,364 @@
+===== WHITE-L1-006
+TITLE: O que é um dividendo?
+SUMMARY: Aprenda o que é um dividendo, como ele é pago e por que nunca é garantido.
+# O que é um dividendo?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um dividendo em termos simples.
+- explicar como os dividendos costumam ser pagos.
+- explicar por que os dividendos nunca são garantidos.
+
+## Conteúdo principal
+
+### O que é um dividendo
+
+Um dividendo é uma parte do lucro de uma empresa distribuída aos acionistas, proporcionalmente ao número de ações que possuem.
+
+### Como costumam ser pagos
+
+Os dividendos costumam ser pagos em dinheiro, em uma periodicidade regular (muitas vezes trimestral), diretamente aos acionistas, com base no número de ações que eles têm em uma data de corte específica.
+
+### Por que nunca são garantidos
+
+É o conselho de administração da empresa que decide se paga um dividendo, e quanto: não existe obrigação legal de fazê-lo. As empresas podem reduzir, suspender ou nunca começar a pagar dividendos, muitas vezes conforme sua lucratividade e seus planos de crescimento. (No Brasil, a lei e o estatuto podem prever um dividendo mínimo obrigatório para sociedades anônimas lucrativas, com exceções; confirme as regras com um profissional.)
+
+## Exemplo prático
+
+Um investidor que tem 100 ações de uma empresa que paga um dividendo trimestral de US$ 0,50 por ação receberia US$ 50 naquele trimestre: um valor que pode mudar nos trimestres seguintes, a critério da empresa.
+
+## Teste de prática
+
+1. Um dividendo é:
+   A. Um pagamento fixo garantido
+   B. Uma parte do lucro da empresa distribuída aos acionistas
+   C. Um tipo de pagamento de juros de títulos
+   D. Um imposto devido por ter ações
+
+2. Verdadeiro ou falso: as empresas são obrigadas por lei a pagar dividendos.
+
+3. Quem decide se e quanto de dividendo será pago?
+   A. Os acionistas individualmente
+   B. O conselho de administração da empresa
+   C. A bolsa de valores
+   D. O governo
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um dividendo é uma distribuição de lucro aos acionistas.
+
+### Pergunta 2
+
+Resposta correta: Falso. O pagamento de dividendos é, em geral, uma decisão da empresa, e não uma obrigação legal.
+
+### Pergunta 3
+
+Resposta correta: B. O conselho de administração decide sobre o pagamento de dividendos.
+
+## Pontos-chave
+
+- Um dividendo é uma parte do lucro distribuída aos acionistas.
+- Os pagamentos costumam ser em dinheiro, em uma periodicidade regular.
+- Os dividendos nunca são garantidos: são uma decisão do conselho.
+
+===== WHITE-L1-007
+TITLE: O que é o preço de uma ação, e o que o faz mudar?
+SUMMARY: Aprenda o que determina o preço de uma ação no dia a dia, além de simplesmente "oferta e demanda".
+# O que é o preço de uma ação, e o que o faz mudar?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir o preço de uma ação em termos simples.
+- explicar o mecanismo básico de oferta e demanda por trás das mudanças de preço.
+- citar fatores que podem deslocar essa oferta e essa demanda.
+
+## Conteúdo principal
+
+### O que é o preço de uma ação
+
+O preço de uma ação é o valor pelo qual ela está sendo negociada no mercado naquele momento: o preço que o último comprador e o último vendedor combinaram.
+
+### O mecanismo básico
+
+No fundo, o preço de uma ação se move conforme a oferta e a demanda: mais compradores do que vendedores a determinado preço tende a empurrar o preço para cima; mais vendedores do que compradores tende a empurrá-lo para baixo.
+
+### O que desloca a oferta e a demanda
+
+Notícias específicas da empresa (resultados, novos produtos, mudanças na liderança), as condições econômicas gerais, as tendências do setor e o humor dos investidores podem mudar quantas pessoas querem comprar ou vender a determinado preço: é por isso que os preços podem mudar mesmo sem nenhuma mudança na própria empresa.
+
+## Exemplo prático
+
+Uma empresa divulga lucros acima do esperado. Mais investidores querem comprar ações ao preço atual do que há vendedores dispostos a vender, empurrando o preço para cima até se chegar a um novo equilíbrio.
+
+## Teste de prática
+
+1. O preço de uma ação é determinado fundamentalmente por:
+   A. Regras definidas pelo governo
+   B. Oferta e demanda
+   C. A data de fundação da empresa
+   D. O código de negociação da ação
+
+2. Verdadeiro ou falso: o preço de uma ação só pode mudar se algo mudar na própria empresa.
+
+3. Qual é um fator que pode deslocar a oferta e a demanda de uma ação?
+   A. Notícias sobre os resultados da empresa
+   B. O código de negociação da ação
+   C. A data de fundação da empresa
+   D. A cor do logotipo da empresa
+
+## Gabarito
+
+1. B
+2. Falso
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A oferta e a demanda determinam fundamentalmente o preço de uma ação.
+
+### Pergunta 2
+
+Resposta correta: Falso. As condições gerais do mercado e o humor dos investidores podem mover os preços sem nenhuma mudança específica na empresa.
+
+### Pergunta 3
+
+Resposta correta: A. Notícias sobre resultados são um motor comum de mudanças na oferta e na demanda.
+
+## Pontos-chave
+
+- O preço de uma ação reflete o último preço de negociação combinado.
+- A oferta e a demanda determinam fundamentalmente o movimento do preço.
+- Notícias da empresa, condições econômicas e o humor dos investidores podem deslocar a oferta e a demanda.
+
+===== WHITE-L1-008
+TITLE: O que é capitalização de mercado?
+SUMMARY: Aprenda o que a capitalização de mercado mede, como é calculada e por que não é o mesmo que o caixa ou o valor total de uma empresa.
+# O que é capitalização de mercado?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- enunciar a fórmula da capitalização de mercado.
+- calcular a capitalização de mercado a partir do preço da ação e do total de ações em circulação.
+- explicar por que a capitalização de mercado não é o mesmo que o caixa ou o total de ativos de uma empresa.
+
+## Conteúdo principal
+
+### A fórmula
+
+Capitalização de mercado = preço da ação × total de ações em circulação. Ela representa o valor de mercado total de todas as ações de uma empresa somadas.
+
+### O que ela realmente mede
+
+A capitalização de mercado reflete quanto os investidores, em conjunto, acreditam que a propriedade da empresa vale neste momento: uma estimativa de mercado em tempo real, e não um número auditado ou fixo.
+
+### Por que não é o mesmo que caixa ou valor total
+
+A capitalização de mercado não é o mesmo que o dinheiro em caixa de uma empresa, sua receita total ou mesmo seu total de ativos. Uma empresa pode ter uma grande capitalização de mercado e relativamente pouco caixa, porque a capitalização reflete as expectativas dos investidores sobre o valor futuro, e não um retrato atual do balanço.
+
+## Exemplo prático
+
+Uma empresa com 10.000.000 de ações em circulação negociadas a US$ 50 cada tem capitalização de mercado de 10.000.000 × US$ 50 = US$ 500.000.000, independentemente de quanto caixa a empresa realmente tem.
+
+## Teste de prática
+
+1. A capitalização de mercado é calculada como:
+   A. Receita total × número de funcionários
+   B. Preço da ação × total de ações em circulação
+   C. Total de ativos − total de passivos
+   D. Lucro anual ÷ ações em circulação
+
+2. Verdadeiro ou falso: a capitalização de mercado é a mesma coisa que o dinheiro em caixa de uma empresa.
+
+3. Uma empresa tem 2.000.000 de ações em circulação negociadas a US$ 30 cada. Qual é a sua capitalização de mercado?
+   A. US$ 6.000
+   B. US$ 60.000
+   C. US$ 6.000.000
+   D. US$ 60.000.000
+
+## Gabarito
+
+1. B
+2. Falso
+3. D
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Capitalização de mercado = preço da ação × ações em circulação.
+
+### Pergunta 2
+
+Resposta correta: Falso. A capitalização de mercado reflete o valor de mercado, e não o dinheiro em caixa.
+
+### Pergunta 3
+
+Resposta correta: D. 2.000.000 × US$ 30 = US$ 60.000.000.
+
+## Pontos-chave
+
+- Capitalização de mercado = preço da ação × total de ações em circulação.
+- Ela reflete a avaliação coletiva do mercado sobre a propriedade total.
+- Não é o mesmo que o caixa, a receita ou o total de ativos de uma empresa.
+
+===== WHITE-L1-009
+TITLE: O que é um ETF? (Uma cesta, não uma ação isolada)
+SUMMARY: Aprenda o que é um ETF, em que ele difere de comprar uma ação isolada e por que essa estrutura de cesta importa.
+# O que é um ETF? (Uma cesta, não uma ação isolada)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um ETF em termos simples.
+- explicar em que ele difere de comprar uma ação isolada.
+- explicar um benefício prático da estrutura de cesta.
+
+## Conteúdo principal
+
+### O que é um ETF
+
+Um ETF (Exchange-Traded Fund, fundo de índice negociado em bolsa) é um fundo que detém um conjunto de ativos (muitas vezes várias ações ou títulos), com cotas negociadas em bolsa ao longo do dia, como uma ação isolada.
+
+### Em que difere de uma ação isolada
+
+Comprar uma ação de uma única empresa dá exposição só a essa empresa. Comprar uma cota de um ETF dá exposição a tudo o que está dentro da cesta de uma vez: potencialmente dezenas ou centenas de ativos subjacentes, com uma só compra.
+
+### Um benefício prático da estrutura de cesta
+
+Como um ETF distribui a exposição entre muitos ativos ao mesmo tempo, o mau desempenho de um único ativo dentro dele tem um impacto menor no ETF como um todo do que teria se esse fosse o único investimento do investidor: uma forma básica de diversificação, tratada com mais profundidade em uma lição posterior.
+
+## Exemplo prático
+
+Em vez de escolher uma empresa para investir, um investidor compra uma cota de um ETF que detém ações de 500 empresas diferentes, distribuindo sua exposição entre todas as 500 com uma única compra.
+
+## Teste de prática
+
+1. Um ETF é mais bem descrito como:
+   A. A ação de uma única empresa
+   B. Um fundo que detém um conjunto de ativos, negociável como uma ação
+   C. Um tipo de conta poupança
+   D. Um título público
+
+2. Verdadeiro ou falso: comprar uma cota de um ETF dá exposição a apenas uma empresa subjacente.
+
+3. Qual é um benefício prático da estrutura de cesta de um ETF?
+   A. Garante lucro
+   B. Distribui a exposição entre muitos ativos ao mesmo tempo
+   C. Elimina todo risco de investimento
+   D. Exige escolher ações individuais
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um ETF é um fundo negociável que detém vários ativos.
+
+### Pergunta 2
+
+Resposta correta: Falso. Uma cota de ETF normalmente dá exposição a muitos ativos subjacentes ao mesmo tempo.
+
+### Pergunta 3
+
+Resposta correta: B. Distribuir a exposição entre muitos ativos é o benefício central.
+
+## Pontos-chave
+
+- Um ETF é um fundo que detém um conjunto de ativos, negociável como uma ação.
+- Uma única cota de ETF pode dar exposição a muitos ativos subjacentes ao mesmo tempo.
+- Essa estrutura de cesta oferece uma forma básica de diversificação.
+
+===== WHITE-L1-010
+TITLE: O que é um fundo de investimento, e em que ele difere de um ETF?
+SUMMARY: Aprenda o que é um fundo de investimento tradicional e as principais diferenças práticas entre esses fundos e os ETFs.
+# O que é um fundo de investimento, e em que ele difere de um ETF?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um fundo de investimento em termos simples.
+- explicar em que os fundos de investimento e os ETFs se parecem.
+- citar pelo menos uma diferença prática entre eles.
+
+## Conteúdo principal
+
+### O que é um fundo de investimento
+
+Assim como um ETF, um fundo de investimento tradicional (em inglês, "mutual fund") reúne dinheiro de muitos investidores para comprar um conjunto de ativos. Os dois compartilham o conceito básico de "cesta" da lição anterior.
+
+### Em que se parecem
+
+Tanto os fundos de investimento quanto os ETFs oferecem exposição diversificada a uma cesta de ativos com um único investimento, e ambos podem ter gestão ativa ou passiva.
+
+### Uma diferença prática central
+
+Ao contrário dos ETFs, que são negociados em bolsa ao longo do dia a preços que mudam o tempo todo, as cotas dos fundos de investimento normalmente são precificadas e negociadas apenas uma vez por dia, depois do fechamento dos mercados, com base no valor calculado naquele dia.
+
+## Exemplo prático
+
+Um investidor que compra um ETF pode ver o preço mudar minuto a minuto durante o pregão. Um investidor que aplica em um fundo de investimento faz seu pedido e recebe um preço calculado no fim daquele dia de negociação, e não em tempo real.
+
+## Teste de prática
+
+1. Um fundo de investimento é:
+   A. A ação de uma única empresa
+   B. Um fundo coletivo que investe em um conjunto de ativos, semelhante em conceito a um ETF
+   C. Exclusivamente um tipo de título de dívida
+   D. Um programa de poupança do governo
+
+2. Verdadeiro ou falso: as cotas de fundos de investimento são negociadas continuamente ao longo do dia, como as cotas de ETFs.
+
+3. Qual é uma diferença prática central entre fundos de investimento e ETFs?
+   A. Os fundos de investimento não podem deter ações
+   B. Os fundos de investimento normalmente são precificados uma vez por dia; os ETFs são negociados ao longo do dia
+   C. Os ETFs não podem ser diversificados
+   D. Não há diferença real
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um fundo de investimento reúne dinheiro em uma cesta diversificada, conceitualmente semelhante a um ETF.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os fundos de investimento normalmente são precificados uma vez por dia, ao contrário dos ETFs.
+
+### Pergunta 3
+
+Resposta correta: B. A frequência de precificação é uma diferença prática central.
+
+## Pontos-chave
+
+- Um fundo de investimento reúne o dinheiro dos investidores em uma cesta diversificada, semelhante a um ETF.
+- Ambos oferecem exposição diversificada com um único investimento.
+- Os fundos de investimento normalmente são precificados uma vez por dia; os ETFs são negociados ao longo do dia.

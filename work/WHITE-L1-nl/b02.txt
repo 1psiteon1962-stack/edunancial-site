@@ -1,0 +1,364 @@
+===== WHITE-L1-006
+TITLE: Wat is dividend?
+SUMMARY: Leer wat dividend is, hoe het wordt uitgekeerd en waarom het nooit gegarandeerd is.
+# Wat is dividend?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- dividend in eenvoudige woorden te definiëren.
+- uit te leggen hoe dividend doorgaans wordt uitgekeerd.
+- uit te leggen waarom dividend nooit gegarandeerd is.
+
+## Kerninhoud
+
+### Wat dividend is
+
+Dividend is een deel van de winst van een bedrijf dat aan aandeelhouders wordt uitgekeerd, in verhouding tot het aantal aandelen dat ze bezitten.
+
+### Hoe het doorgaans wordt uitgekeerd
+
+Dividend wordt meestal in contanten uitgekeerd, volgens een vast schema (vaak per kwartaal), rechtstreeks aan aandeelhouders op basis van het aantal aandelen dat ze op een bepaalde registratiedatum bezitten.
+
+### Waarom het nooit gegarandeerd is
+
+Het bestuur van een bedrijf beslist of er dividend wordt uitgekeerd, en hoeveel: er is geen wettelijke verplichting om dat te doen. Bedrijven kunnen dividend verlagen, opschorten of er nooit mee beginnen, vaak afhankelijk van hun winstgevendheid en groeiplannen.
+
+## Praktijkvoorbeeld
+
+Een belegger met 100 aandelen van een bedrijf dat een kwartaaldividend van $ 0,50 per aandeel uitkeert, zou dat kwartaal $ 50 ontvangen: een bedrag dat in volgende kwartalen naar goeddunken van het bedrijf kan veranderen.
+
+## Oefenquiz
+
+1. Dividend is:
+   A. Een gegarandeerde vaste betaling
+   B. Een deel van de bedrijfswinst dat aan aandeelhouders wordt uitgekeerd
+   C. Een soort rentebetaling op obligaties
+   D. Een belasting op aandelenbezit
+
+2. Waar of onwaar: bedrijven zijn wettelijk verplicht dividend uit te keren.
+
+3. Wie beslist of er dividend wordt uitgekeerd, en hoeveel?
+   A. Individuele aandeelhouders
+   B. Het bestuur van het bedrijf
+   C. De effectenbeurs
+   D. De overheid
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Dividend is een winstuitkering aan aandeelhouders.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Dividenduitkeringen zijn een keuze, geen wettelijke verplichting.
+
+### Vraag 3
+
+Juist antwoord: B. Het bestuur beslist over dividenduitkeringen.
+
+## Belangrijkste punten
+
+- Dividend is een deel van de winst dat aan aandeelhouders wordt uitgekeerd.
+- Uitkeringen gebeuren meestal in contanten, volgens een vast schema.
+- Dividend is nooit gegarandeerd: het is een beslissing van het bestuur.
+
+===== WHITE-L1-007
+TITLE: Wat is een aandelenkoers, en wat beweegt die?
+SUMMARY: Leer wat een aandelenkoers van dag tot dag bepaalt, verder dan alleen "vraag en aanbod".
+# Wat is een aandelenkoers, en wat beweegt die?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een aandelenkoers in eenvoudige woorden te definiëren.
+- het basismechanisme van vraag en aanbod achter koersveranderingen uit te leggen.
+- factoren te noemen die die vraag en dat aanbod kunnen verschuiven.
+
+## Kerninhoud
+
+### Wat een aandelenkoers is
+
+De aandelenkoers is het bedrag waarvoor een aandeel op dat moment op de markt wordt verhandeld: de prijs waarover de laatste koper en verkoper het eens werden.
+
+### Het basismechanisme
+
+In de kern beweegt een aandelenkoers op basis van vraag en aanbod: meer kopers dan verkopers bij een bepaalde prijs duwt de koers doorgaans omhoog; meer verkopers dan kopers duwt hem doorgaans omlaag.
+
+### Wat vraag en aanbod verschuift
+
+Bedrijfsspecifiek nieuws (winstcijfers, nieuwe producten, wisselingen in de leiding), bredere economische omstandigheden, trends in de sector en het sentiment van beleggers kunnen allemaal veranderen hoeveel mensen bij een bepaalde prijs willen kopen of verkopen: daarom kunnen koersen bewegen, zelfs zonder enige verandering in het bedrijf zelf.
+
+## Praktijkvoorbeeld
+
+Een bedrijf meldt een hogere winst dan verwacht. Meer beleggers willen aandelen kopen tegen de huidige koers dan er verkopers zijn die willen verkopen, waardoor de koers stijgt tot er een nieuw evenwicht is bereikt.
+
+## Oefenquiz
+
+1. Een aandelenkoers wordt in de kern bepaald door:
+   A. Door de overheid vastgestelde regels
+   B. Vraag en aanbod
+   C. De oprichtingsdatum van het bedrijf
+   D. Het tickersymbool van het aandeel
+
+2. Waar of onwaar: een aandelenkoers kan alleen veranderen als er iets verandert aan het bedrijf zelf.
+
+3. Wat is een factor die vraag en aanbod van een aandeel kan verschuiven?
+   A. Nieuws over de winst van het bedrijf
+   B. Het tickersymbool van het aandeel
+   C. De oprichtingsdatum van het bedrijf
+   D. De kleur van het bedrijfslogo
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. A
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Vraag en aanbod bepalen in de kern de aandelenkoers.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Bredere marktomstandigheden en sentiment kunnen koersen bewegen zonder enige bedrijfsspecifieke verandering.
+
+### Vraag 3
+
+Juist antwoord: A. Winstnieuws is een veelvoorkomende aanjager van verschuivingen in vraag en aanbod.
+
+## Belangrijkste punten
+
+- De aandelenkoers weerspiegelt de laatst overeengekomen transactieprijs.
+- Vraag en aanbod bepalen in de kern de koersbeweging.
+- Bedrijfsnieuws, economische omstandigheden en sentiment kunnen allemaal vraag en aanbod verschuiven.
+
+===== WHITE-L1-008
+TITLE: Wat is marktkapitalisatie?
+SUMMARY: Leer wat marktkapitalisatie meet, hoe die wordt berekend en waarom die niet hetzelfde is als het kasgeld of de totale waarde van een bedrijf.
+# Wat is marktkapitalisatie?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de formule voor marktkapitalisatie te noemen.
+- de marktkapitalisatie te berekenen op basis van de aandelenkoers en het aantal uitstaande aandelen.
+- uit te leggen waarom marktkapitalisatie niet hetzelfde is als het kasgeld of de totale activa van een bedrijf.
+
+## Kerninhoud
+
+### De formule
+
+Marktkapitalisatie = aandelenkoers × totaal aantal uitstaande aandelen. Ze vertegenwoordigt de totale marktwaarde van alle aandelen van een bedrijf samen.
+
+### Wat ze werkelijk meet
+
+Marktkapitalisatie weerspiegelt wat beleggers samen denken dat het eigendom van het bedrijf op dit moment waard is: een realtime-inschatting van de markt, geen gecontroleerd of vast cijfer.
+
+### Waarom het niet hetzelfde is als kasgeld of totale waarde
+
+Marktkapitalisatie is niet hetzelfde als hoeveel kasgeld een bedrijf heeft, zijn totale omzet of zelfs zijn totale activa. Een bedrijf kan een grote marktkapitalisatie hebben terwijl het relatief weinig kasgeld heeft, omdat marktkapitalisatie de verwachtingen van beleggers over toekomstige waarde weerspiegelt, niet een momentopname van de balans.
+
+## Praktijkvoorbeeld
+
+Een bedrijf met 10.000.000 uitstaande aandelen die op $ 50 per aandeel noteren, heeft een marktkapitalisatie van 10.000.000 × $ 50 = $ 500.000.000, ongeacht hoeveel kasgeld het bedrijf werkelijk heeft.
+
+## Oefenquiz
+
+1. Marktkapitalisatie wordt berekend als:
+   A. Totale omzet × aantal werknemers
+   B. Aandelenkoers × totaal aantal uitstaande aandelen
+   C. Totale activa − totale passiva
+   D. Jaarwinst ÷ uitstaande aandelen
+
+2. Waar of onwaar: marktkapitalisatie is hetzelfde als het kasgeld van een bedrijf.
+
+3. Een bedrijf heeft 2.000.000 uitstaande aandelen die op $ 30 per aandeel noteren. Wat is de marktkapitalisatie?
+   A. $ 6.000
+   B. $ 60.000
+   C. $ 6.000.000
+   D. $ 60.000.000
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. D
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Marktkapitalisatie = aandelenkoers × uitstaande aandelen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Marktkapitalisatie weerspiegelt marktwaarde, geen kasgeld.
+
+### Vraag 3
+
+Juist antwoord: D. 2.000.000 × $ 30 = $ 60.000.000.
+
+## Belangrijkste punten
+
+- Marktkapitalisatie = aandelenkoers × totaal aantal uitstaande aandelen.
+- Ze weerspiegelt de gezamenlijke waardering door de markt van het totale eigendom.
+- Ze is niet hetzelfde als het kasgeld, de omzet of de totale activa van een bedrijf.
+
+===== WHITE-L1-009
+TITLE: Wat is een ETF? (Een mandje, geen los aandeel)
+SUMMARY: Leer wat een ETF is, hoe die verschilt van het kopen van één los aandeel en waarom die mandjesstructuur ertoe doet.
+# Wat is een ETF? (Een mandje, geen los aandeel)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een ETF in eenvoudige woorden te definiëren.
+- uit te leggen hoe die verschilt van het kopen van één los aandeel.
+- één praktisch voordeel van de mandjesstructuur uit te leggen.
+
+## Kerninhoud
+
+### Wat een ETF is
+
+Een ETF (Exchange-Traded Fund, beursverhandeld fonds) is een fonds dat een verzameling bezittingen aanhoudt (vaak veel aandelen of obligaties), waarvan de deelbewijzen de hele dag op een beurs worden verhandeld, net als een los aandeel.
+
+### Hoe het verschilt van een los aandeel
+
+Eén aandeel van één bedrijf kopen geeft alleen blootstelling aan dat ene bedrijf. Eén deelbewijs van een ETF kopen geeft in één keer blootstelling aan alles in dat mandje: mogelijk tientallen of honderden onderliggende posities, via één aankoop.
+
+### Een praktisch voordeel van de mandjesstructuur
+
+Omdat een ETF de blootstelling over veel posities tegelijk spreidt, heeft het slechte resultaat van één positie erin minder invloed op de ETF als geheel dan wanneer dat de enige positie van de belegger was: een basisvorm van spreiding, die in een latere les uitgebreider aan bod komt.
+
+## Praktijkvoorbeeld
+
+In plaats van één bedrijf te kiezen om in te beleggen, koopt een belegger één deelbewijs van een ETF die aandelen van 500 verschillende bedrijven bezit, en spreidt zo zijn blootstelling over alle 500 via één aankoop.
+
+## Oefenquiz
+
+1. Een ETF wordt het best omschreven als:
+   A. Het aandeel van één bedrijf
+   B. Een fonds met een verzameling bezittingen, verhandelbaar als een aandeel
+   C. Een soort spaarrekening
+   D. Een staatsobligatie
+
+2. Waar of onwaar: één deelbewijs van een ETF kopen geeft alleen blootstelling aan één onderliggend bedrijf.
+
+3. Wat is een praktisch voordeel van de mandjesstructuur van een ETF?
+   A. Het garandeert winst
+   B. Het spreidt de blootstelling over veel posities tegelijk
+   C. Het neemt alle beleggingsrisico weg
+   D. Het vereist het kiezen van losse aandelen
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een ETF is een verhandelbaar fonds met meerdere bezittingen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een deelbewijs van een ETF geeft doorgaans blootstelling aan veel onderliggende posities tegelijk.
+
+### Vraag 3
+
+Juist antwoord: B. Het spreiden van blootstelling over veel posities is het kernvoordeel.
+
+## Belangrijkste punten
+
+- Een ETF is een fonds met een verzameling bezittingen, verhandelbaar als een aandeel.
+- Eén deelbewijs van een ETF kan blootstelling geven aan veel onderliggende posities tegelijk.
+- Deze mandjesstructuur biedt een basisvorm van spreiding.
+
+===== WHITE-L1-010
+TITLE: Wat is een beleggingsfonds, en hoe verschilt het van een ETF?
+SUMMARY: Leer wat een (traditioneel) beleggingsfonds is, en wat de belangrijkste praktische verschillen zijn tussen beleggingsfondsen en ETF's.
+# Wat is een beleggingsfonds, en hoe verschilt het van een ETF?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een beleggingsfonds in eenvoudige woorden te definiëren.
+- uit te leggen hoe beleggingsfondsen en ETF's op elkaar lijken.
+- ten minste één praktisch verschil tussen beide te noemen.
+
+## Kerninhoud
+
+### Wat een beleggingsfonds is
+
+Net als een ETF bundelt een (traditioneel) beleggingsfonds geld van veel beleggers om een verzameling bezittingen te kopen. Beide delen het basisidee van het "mandje" uit de vorige les.
+
+### Hoe ze op elkaar lijken
+
+Zowel beleggingsfondsen als ETF's bieden via één belegging een gespreide blootstelling aan een mandje posities, en beide kunnen actief of passief worden beheerd.
+
+### Een belangrijk praktisch verschil
+
+Anders dan ETF's, die de hele dag op een beurs tegen voortdurend wisselende koersen worden verhandeld, worden deelbewijzen van een beleggingsfonds doorgaans maar één keer per dag geprijsd en verhandeld, na het sluiten van de markten, op basis van de die dag berekende waarde.
+
+## Praktijkvoorbeeld
+
+Een belegger die een ETF koopt, kan de koers tijdens de beursuren minuut voor minuut zien veranderen. Een belegger die een beleggingsfonds koopt, plaatst zijn order en krijgt een prijs die aan het einde van die handelsdag wordt berekend, niet in realtime.
+
+## Oefenquiz
+
+1. Een beleggingsfonds is:
+   A. Het aandeel van één bedrijf
+   B. Een gebundeld fonds dat in een verzameling bezittingen belegt, vergelijkbaar met een ETF
+   C. Uitsluitend een soort obligatie
+   D. Een spaarprogramma van de overheid
+
+2. Waar of onwaar: deelbewijzen van een beleggingsfonds worden net als die van een ETF de hele dag doorlopend verhandeld.
+
+3. Wat is een belangrijk praktisch verschil tussen beleggingsfondsen en ETF's?
+   A. Beleggingsfondsen kunnen geen aandelen bezitten
+   B. Beleggingsfondsen worden doorgaans één keer per dag geprijsd; ETF's worden de hele dag verhandeld
+   C. ETF's kunnen niet gespreid zijn
+   D. Er is geen echt verschil
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een beleggingsfonds bundelt geld in een gespreid mandje, vergelijkbaar met een ETF.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Beleggingsfondsen worden doorgaans één keer per dag geprijsd, anders dan ETF's.
+
+### Vraag 3
+
+Juist antwoord: B. De frequentie van prijsvorming is een belangrijk praktisch verschil.
+
+## Belangrijkste punten
+
+- Een beleggingsfonds bundelt geld van beleggers in een gespreid mandje, vergelijkbaar met een ETF.
+- Beide bieden gespreide blootstelling via één belegging.
+- Beleggingsfondsen worden doorgaans één keer per dag geprijsd; ETF's worden de hele dag verhandeld.

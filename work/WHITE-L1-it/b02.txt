@@ -1,0 +1,364 @@
+===== WHITE-L1-006
+TITLE: Che cos'è un dividendo?
+SUMMARY: Scopri che cos'è un dividendo, come viene pagato e perché non è mai garantito.
+# Che cos'è un dividendo?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un dividendo.
+- spiegare come vengono pagati di solito i dividendi.
+- spiegare perché i dividendi non sono mai garantiti.
+
+## Contenuto principale
+
+### Che cos'è un dividendo
+
+Un dividendo è una parte dell'utile di un'azienda distribuita agli azionisti, in proporzione al numero di azioni che possiedono.
+
+### Come vengono pagati di solito
+
+I dividendi sono pagati di solito in contanti, con una cadenza regolare (spesso trimestrale), direttamente agli azionisti in base al numero di azioni che detengono a una determinata data di registrazione.
+
+### Perché non sono mai garantiti
+
+È il consiglio di amministrazione dell'azienda a decidere se pagare un dividendo e quanto: non c'è alcun obbligo legale di farlo. Le aziende possono ridurre, sospendere o non iniziare mai a pagare dividendi, spesso in base alla loro redditività e ai loro piani di crescita.
+
+## Esempio svolto
+
+Un investitore che possiede 100 azioni di un'azienda che paga un dividendo trimestrale di 0,50 $ per azione riceverebbe 50 $ in quel trimestre: un importo che potrebbe cambiare nei trimestri successivi a discrezione dell'azienda.
+
+## Quiz di esercitazione
+
+1. Un dividendo è:
+   A. Un pagamento fisso garantito
+   B. Una parte dell'utile dell'azienda distribuita agli azionisti
+   C. Un tipo di pagamento di interessi obbligazionari
+   D. Un'imposta dovuta sul possesso di azioni
+
+2. Vero o falso: le aziende sono obbligate per legge a pagare dividendi.
+
+3. Chi decide se pagare un dividendo e di quale importo?
+   A. I singoli azionisti
+   B. Il consiglio di amministrazione dell'azienda
+   C. La borsa valori
+   D. Lo Stato
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un dividendo è una distribuzione di utili agli azionisti.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il pagamento dei dividendi è discrezionale, non obbligatorio per legge.
+
+### Domanda 3
+
+Risposta corretta: B. È il consiglio di amministrazione a decidere il pagamento dei dividendi.
+
+## Punti chiave
+
+- Un dividendo è una parte dell'utile distribuita agli azionisti.
+- Di solito i pagamenti avvengono in contanti, con cadenza regolare.
+- I dividendi non sono mai garantiti: sono una decisione del consiglio di amministrazione.
+
+===== WHITE-L1-007
+TITLE: Che cos'è il prezzo di un'azione e che cosa lo fa muovere?
+SUMMARY: Scopri che cosa determina giorno per giorno il prezzo di un'azione, oltre al semplice "domanda e offerta".
+# Che cos'è il prezzo di un'azione e che cosa lo fa muovere?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici il prezzo di un'azione.
+- spiegare il meccanismo di base di domanda e offerta dietro le variazioni di prezzo.
+- indicare i fattori che possono spostare quella domanda e quell'offerta.
+
+## Contenuto principale
+
+### Che cos'è il prezzo di un'azione
+
+Il prezzo di un'azione è l'importo al quale un'azione viene scambiata in quel momento sul mercato: il prezzo concordato dall'ultimo acquirente e dall'ultimo venditore.
+
+### Il meccanismo di base
+
+In sostanza, il prezzo di un'azione si muove in base alla domanda e all'offerta: più acquirenti che venditori a un certo prezzo tende a spingere il prezzo verso l'alto; più venditori che acquirenti tende a spingerlo verso il basso.
+
+### Che cosa sposta domanda e offerta
+
+Le notizie specifiche sull'azienda (utili, nuovi prodotti, cambi al vertice), le condizioni economiche generali, le tendenze del settore e il sentiment degli investitori possono tutti cambiare quante persone vogliono comprare o vendere a un certo prezzo: per questo i prezzi possono muoversi anche senza alcun cambiamento nell'azienda stessa.
+
+## Esempio svolto
+
+Un'azienda annuncia utili migliori del previsto. Più investitori vogliono comprare azioni al prezzo attuale di quanti venditori siano disposti a vendere, e il prezzo sale finché non si raggiunge un nuovo equilibrio.
+
+## Quiz di esercitazione
+
+1. Il prezzo di un'azione è determinato fondamentalmente da:
+   A. Regole fissate dallo Stato
+   B. Domanda e offerta
+   C. La data di fondazione dell'azienda
+   D. Il simbolo di borsa dell'azione
+
+2. Vero o falso: il prezzo di un'azione può cambiare solo se cambia qualcosa nell'azienda stessa.
+
+3. Qual è un fattore che può spostare la domanda e l'offerta di un'azione?
+   A. Le notizie sugli utili dell'azienda
+   B. Il simbolo di borsa dell'azione
+   C. La data di fondazione dell'azienda
+   D. Il colore del logo dell'azienda
+
+## Soluzioni
+
+1. B
+2. Falso
+3. A
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Domanda e offerta determinano fondamentalmente il prezzo di un'azione.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le condizioni generali del mercato e il sentiment possono muovere i prezzi senza alcun cambiamento specifico nell'azienda.
+
+### Domanda 3
+
+Risposta corretta: A. Le notizie sugli utili sono un motore frequente dei cambiamenti di domanda e offerta.
+
+## Punti chiave
+
+- Il prezzo di un'azione riflette l'ultimo prezzo di scambio concordato.
+- Domanda e offerta determinano fondamentalmente il movimento del prezzo.
+- Notizie sull'azienda, condizioni economiche e sentiment possono tutti spostare domanda e offerta.
+
+===== WHITE-L1-008
+TITLE: Che cos'è la capitalizzazione di mercato?
+SUMMARY: Scopri che cosa misura la capitalizzazione di mercato, come si calcola e perché non coincide con la liquidità o con il valore totale di un'azienda.
+# Che cos'è la capitalizzazione di mercato?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- enunciare la formula della capitalizzazione di mercato.
+- calcolare la capitalizzazione di mercato dati il prezzo dell'azione e le azioni in circolazione.
+- spiegare perché la capitalizzazione di mercato non coincide con la liquidità o con il totale dell'attivo di un'azienda.
+
+## Contenuto principale
+
+### La formula
+
+Capitalizzazione di mercato = prezzo dell'azione × totale delle azioni in circolazione. Rappresenta il valore di mercato complessivo di tutte le azioni di un'azienda messe insieme.
+
+### Che cosa misura davvero
+
+La capitalizzazione di mercato riflette quanto gli investitori, nel loro insieme, ritengono valga in questo momento la proprietà dell'azienda: una stima di mercato in tempo reale, non una cifra certificata o fissa.
+
+### Perché non coincide con la liquidità o con il valore totale
+
+La capitalizzazione di mercato non coincide con la liquidità di cui dispone un'azienda, con i suoi ricavi totali e nemmeno con il totale dell'attivo. Un'azienda può avere una grande capitalizzazione di mercato pur avendo relativamente poca liquidità, perché la capitalizzazione riflette le aspettative degli investitori sul valore futuro, non una fotografia attuale del bilancio.
+
+## Esempio svolto
+
+Un'azienda con 10.000.000 di azioni in circolazione scambiate a 50 $ l'una ha una capitalizzazione di mercato di 10.000.000 × 50 $ = 500.000.000 $, indipendentemente dalla liquidità effettiva che detiene.
+
+## Quiz di esercitazione
+
+1. La capitalizzazione di mercato si calcola come:
+   A. Ricavi totali × numero di dipendenti
+   B. Prezzo dell'azione × totale delle azioni in circolazione
+   C. Totale dell'attivo − totale del passivo
+   D. Utile annuo ÷ azioni in circolazione
+
+2. Vero o falso: la capitalizzazione di mercato è la stessa cosa della liquidità di un'azienda.
+
+3. Un'azienda ha 2.000.000 di azioni in circolazione scambiate a 30 $ l'una. Qual è la sua capitalizzazione di mercato?
+   A. 6.000 $
+   B. 60.000 $
+   C. 6.000.000 $
+   D. 60.000.000 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. D
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Capitalizzazione di mercato = prezzo dell'azione × azioni in circolazione.
+
+### Domanda 2
+
+Risposta corretta: Falso. La capitalizzazione di mercato riflette il valore di mercato, non la liquidità detenuta.
+
+### Domanda 3
+
+Risposta corretta: D. 2.000.000 × 30 $ = 60.000.000 $.
+
+## Punti chiave
+
+- Capitalizzazione di mercato = prezzo dell'azione × totale delle azioni in circolazione.
+- Riflette la valutazione collettiva del mercato sulla proprietà complessiva.
+- Non coincide con la liquidità, i ricavi o il totale dell'attivo di un'azienda.
+
+===== WHITE-L1-009
+TITLE: Che cos'è un ETF? (Un paniere, non una singola azione)
+SUMMARY: Scopri che cos'è un ETF, in che cosa differisce dal comprare una singola azione e perché la struttura a paniere è importante.
+# Che cos'è un ETF? (Un paniere, non una singola azione)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un ETF.
+- spiegare in che cosa differisce dal comprare una singola azione.
+- spiegare un vantaggio pratico della struttura a paniere.
+
+## Contenuto principale
+
+### Che cos'è un ETF
+
+Un ETF (Exchange-Traded Fund, fondo negoziato in borsa) è un fondo che detiene un insieme di attività (spesso molte azioni o obbligazioni), le cui quote si scambiano in borsa durante tutta la giornata, come una singola azione.
+
+### In che cosa differisce da una singola azione
+
+Comprare un'azione di una singola azienda dà esposizione solo a quell'azienda. Comprare una quota di un ETF dà esposizione a tutto ciò che c'è nel paniere in una volta sola: potenzialmente decine o centinaia di titoli sottostanti, con un solo acquisto.
+
+### Un vantaggio pratico della struttura a paniere
+
+Poiché un ETF distribuisce l'esposizione su molti titoli contemporaneamente, il cattivo andamento di un singolo titolo al suo interno pesa meno sull'ETF nel suo complesso di quanto peserebbe se fosse l'unico investimento dell'investitore: una forma di base di diversificazione, approfondita in una lezione successiva.
+
+## Esempio svolto
+
+Invece di scegliere una sola azienda in cui investire, un investitore compra una quota di un ETF che detiene azioni di 500 aziende diverse, distribuendo la propria esposizione su tutte e 500 con un solo acquisto.
+
+## Quiz di esercitazione
+
+1. Un ETF si descrive meglio come:
+   A. L'azione di una singola azienda
+   B. Un fondo che detiene un insieme di attività, negoziabile come un'azione
+   C. Un tipo di conto di risparmio
+   D. Un titolo di Stato
+
+2. Vero o falso: comprare una quota di un ETF dà esposizione a una sola azienda sottostante.
+
+3. Qual è un vantaggio pratico della struttura a paniere di un ETF?
+   A. Garantisce un profitto
+   B. Distribuisce l'esposizione su molti titoli contemporaneamente
+   C. Elimina ogni rischio d'investimento
+   D. Richiede di scegliere singole azioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un ETF è un fondo negoziabile che detiene più attività.
+
+### Domanda 2
+
+Risposta corretta: Falso. Una quota di ETF dà di solito esposizione a molti titoli sottostanti contemporaneamente.
+
+### Domanda 3
+
+Risposta corretta: B. Distribuire l'esposizione su molti titoli è il vantaggio principale.
+
+## Punti chiave
+
+- Un ETF è un fondo che detiene un insieme di attività, negoziabile come un'azione.
+- Una sola quota di ETF può dare esposizione a molti titoli sottostanti contemporaneamente.
+- Questa struttura a paniere offre una forma di base di diversificazione.
+
+===== WHITE-L1-010
+TITLE: Che cos'è un fondo comune d'investimento e in che cosa differisce da un ETF?
+SUMMARY: Scopri che cos'è un fondo comune d'investimento e le principali differenze pratiche tra fondi comuni ed ETF.
+# Che cos'è un fondo comune d'investimento e in che cosa differisce da un ETF?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un fondo comune d'investimento.
+- spiegare in che cosa si somigliano fondi comuni ed ETF.
+- indicare almeno una differenza pratica tra i due.
+
+## Contenuto principale
+
+### Che cos'è un fondo comune d'investimento
+
+Come un ETF, un fondo comune d'investimento raccoglie denaro da molti investitori per acquistare un insieme di attività. Entrambi condividono il concetto di base di "paniere" visto nella lezione precedente.
+
+### In che cosa si somigliano
+
+Sia i fondi comuni sia gli ETF offrono un'esposizione diversificata a un paniere di titoli con un unico investimento, ed entrambi possono essere a gestione attiva o passiva.
+
+### Una differenza pratica fondamentale
+
+A differenza degli ETF, che si scambiano in borsa durante tutta la giornata a prezzi in continuo cambiamento, le quote dei fondi comuni vengono di solito valorizzate e negoziate una sola volta al giorno, dopo la chiusura dei mercati, in base al valore calcolato quel giorno.
+
+## Esempio svolto
+
+Un investitore che compra un ETF può vederne il prezzo cambiare minuto per minuto durante l'orario di borsa. Un investitore che compra un fondo comune inserisce il suo ordine e riceve un prezzo calcolato alla fine di quella giornata di borsa, non in tempo reale.
+
+## Quiz di esercitazione
+
+1. Un fondo comune d'investimento è:
+   A. L'azione di una singola azienda
+   B. Un fondo collettivo che investe in un insieme di attività, simile nel concetto a un ETF
+   C. Esclusivamente un tipo di obbligazione
+   D. Un programma di risparmio statale
+
+2. Vero o falso: le quote dei fondi comuni si scambiano continuamente durante la giornata come le quote degli ETF.
+
+3. Qual è una differenza pratica fondamentale tra fondi comuni ed ETF?
+   A. I fondi comuni non possono detenere azioni
+   B. I fondi comuni sono valorizzati di solito una volta al giorno; gli ETF si scambiano durante tutta la giornata
+   C. Gli ETF non possono essere diversificati
+   D. Non c'è una vera differenza
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un fondo comune raccoglie denaro in un paniere diversificato, concettualmente simile a un ETF.
+
+### Domanda 2
+
+Risposta corretta: Falso. I fondi comuni sono valorizzati di solito una volta al giorno, a differenza degli ETF.
+
+### Domanda 3
+
+Risposta corretta: B. La frequenza di valorizzazione è una differenza pratica fondamentale.
+
+## Punti chiave
+
+- Un fondo comune raccoglie il denaro degli investitori in un paniere diversificato, simile a un ETF.
+- Entrambi offrono un'esposizione diversificata con un unico investimento.
+- I fondi comuni sono valorizzati di solito una volta al giorno; gli ETF si scambiano durante tutta la giornata.

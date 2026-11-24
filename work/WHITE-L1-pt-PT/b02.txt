@@ -1,0 +1,364 @@
+===== WHITE-L1-006
+TITLE: O que é um dividendo?
+SUMMARY: Aprenda o que é um dividendo, como é pago e porque é que nunca é garantido.
+# O que é um dividendo?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir um dividendo em termos simples.
+- explicar como os dividendos são normalmente pagos.
+- explicar porque é que os dividendos nunca são garantidos.
+
+## Conteúdo principal
+
+### O que é um dividendo
+
+Um dividendo é uma parte do lucro de uma empresa distribuída aos acionistas, proporcionalmente ao número de ações que possuem.
+
+### Como são normalmente pagos
+
+Os dividendos são normalmente pagos em dinheiro, com uma periodicidade regular (muitas vezes trimestral nos Estados Unidos, frequentemente anual na Europa), diretamente aos acionistas, com base no número de ações que detêm numa data de referência específica.
+
+### Porque é que nunca são garantidos
+
+São os órgãos da empresa que decidem se pagam um dividendo, e de que montante: não existe uma obrigação legal geral de o fazer. As empresas podem reduzir, suspender ou nunca começar a pagar dividendos, muitas vezes consoante a sua rentabilidade e os seus planos de crescimento.
+
+## Exemplo prático
+
+Um investidor com 100 ações de uma empresa que paga um dividendo trimestral de 0,50 $ por ação receberia 50 $ nesse trimestre: um montante que pode mudar nos trimestres seguintes, por decisão da empresa.
+
+## Teste de prática
+
+1. Um dividendo é:
+   A. Um pagamento fixo garantido
+   B. Uma parte do lucro da empresa distribuída aos acionistas
+   C. Um tipo de pagamento de juros de obrigações
+   D. Um imposto devido por ter ações
+
+2. Verdadeiro ou falso: as empresas são legalmente obrigadas a pagar dividendos.
+
+3. Quem decide se é pago um dividendo, e de que montante?
+   A. Os acionistas individualmente
+   B. O conselho de administração da empresa
+   C. A bolsa de valores
+   D. O Estado
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um dividendo é uma distribuição de lucro aos acionistas.
+
+### Pergunta 2
+
+Resposta correta: Falso. O pagamento de dividendos é discricionário, e não uma obrigação legal geral.
+
+### Pergunta 3
+
+Resposta correta: B. O conselho de administração decide sobre o pagamento de dividendos (em muitos sistemas, com aprovação dos acionistas).
+
+## Pontos-chave
+
+- Um dividendo é uma parte do lucro distribuída aos acionistas.
+- Os pagamentos são normalmente em dinheiro, com uma periodicidade regular.
+- Os dividendos nunca são garantidos: são uma decisão dos órgãos da empresa.
+
+===== WHITE-L1-007
+TITLE: O que é a cotação de uma ação, e o que a faz mexer?
+SUMMARY: Aprenda o que determina a cotação de uma ação no dia a dia, para além de simplesmente "oferta e procura".
+# O que é a cotação de uma ação, e o que a faz mexer?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir a cotação de uma ação em termos simples.
+- explicar o mecanismo básico de oferta e procura por detrás das variações de preço.
+- indicar fatores que podem deslocar essa oferta e essa procura.
+
+## Conteúdo principal
+
+### O que é a cotação de uma ação
+
+A cotação de uma ação é o valor pelo qual é negociada no mercado nesse momento: o preço acordado pelo último comprador e pelo último vendedor.
+
+### O mecanismo básico
+
+No essencial, a cotação de uma ação move-se em função da oferta e da procura: mais compradores do que vendedores a um determinado preço tende a empurrar a cotação para cima; mais vendedores do que compradores tende a empurrá-la para baixo.
+
+### O que desloca a oferta e a procura
+
+Notícias específicas da empresa (resultados, novos produtos, mudanças na liderança), as condições económicas gerais, as tendências do setor e o sentimento dos investidores podem mudar quantas pessoas querem comprar ou vender a um determinado preço: é por isso que as cotações podem mexer mesmo sem qualquer mudança na própria empresa.
+
+## Exemplo prático
+
+Uma empresa anuncia lucros acima do esperado. Mais investidores querem comprar ações à cotação atual do que há vendedores dispostos a vender, o que empurra a cotação para cima até se atingir um novo equilíbrio.
+
+## Teste de prática
+
+1. A cotação de uma ação é determinada fundamentalmente por:
+   A. Regras fixadas pelo Estado
+   B. Oferta e procura
+   C. A data de fundação da empresa
+   D. O código de negociação da ação
+
+2. Verdadeiro ou falso: a cotação de uma ação só pode mudar se algo mudar na própria empresa.
+
+3. Qual é um fator que pode deslocar a oferta e a procura de uma ação?
+   A. Notícias sobre os resultados da empresa
+   B. O código de negociação da ação
+   C. A data de fundação da empresa
+   D. A cor do logótipo da empresa
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A oferta e a procura determinam fundamentalmente a cotação de uma ação.
+
+### Pergunta 2
+
+Resposta correta: Falso. As condições gerais do mercado e o sentimento podem mexer as cotações sem qualquer mudança específica na empresa.
+
+### Pergunta 3
+
+Resposta correta: A. As notícias sobre resultados são um motor comum de mudanças na oferta e na procura.
+
+## Pontos-chave
+
+- A cotação de uma ação reflete o último preço de negociação acordado.
+- A oferta e a procura determinam fundamentalmente o movimento da cotação.
+- Notícias da empresa, condições económicas e sentimento podem deslocar a oferta e a procura.
+
+===== WHITE-L1-008
+TITLE: O que é a capitalização bolsista?
+SUMMARY: Aprenda o que mede a capitalização bolsista, como se calcula e porque é que não é o mesmo que a liquidez ou o valor total de uma empresa.
+# O que é a capitalização bolsista?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- enunciar a fórmula da capitalização bolsista.
+- calcular a capitalização bolsista a partir da cotação e do total de ações em circulação.
+- explicar porque é que a capitalização bolsista não é o mesmo que a liquidez ou o total do ativo de uma empresa.
+
+## Conteúdo principal
+
+### A fórmula
+
+Capitalização bolsista = cotação da ação × total de ações em circulação. Representa o valor de mercado total de todas as ações de uma empresa somadas.
+
+### O que mede realmente
+
+A capitalização bolsista reflete quanto os investidores, em conjunto, consideram que vale neste momento a propriedade da empresa: uma estimativa de mercado em tempo real, e não um valor auditado ou fixo.
+
+### Porque é que não é o mesmo que liquidez ou valor total
+
+A capitalização bolsista não é o mesmo que o dinheiro de que uma empresa dispõe, as suas receitas totais ou mesmo o total do seu ativo. Uma empresa pode ter uma grande capitalização bolsista e relativamente pouca liquidez, porque a capitalização reflete as expectativas dos investidores sobre o valor futuro, e não uma fotografia atual do balanço.
+
+## Exemplo prático
+
+Uma empresa com 10 000 000 de ações em circulação cotadas a 50 $ cada tem uma capitalização bolsista de 10 000 000 × 50 $ = 500 000 000 $, independentemente da liquidez que a empresa tenha efetivamente.
+
+## Teste de prática
+
+1. A capitalização bolsista calcula-se como:
+   A. Receitas totais × número de trabalhadores
+   B. Cotação da ação × total de ações em circulação
+   C. Total do ativo − total do passivo
+   D. Lucro anual ÷ ações em circulação
+
+2. Verdadeiro ou falso: a capitalização bolsista é a mesma coisa que o dinheiro de que uma empresa dispõe.
+
+3. Uma empresa tem 2 000 000 de ações em circulação cotadas a 30 $ cada. Qual é a sua capitalização bolsista?
+   A. 6000 $
+   B. 60 000 $
+   C. 6 000 000 $
+   D. 60 000 000 $
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. D
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Capitalização bolsista = cotação da ação × ações em circulação.
+
+### Pergunta 2
+
+Resposta correta: Falso. A capitalização bolsista reflete o valor de mercado, e não a liquidez detida.
+
+### Pergunta 3
+
+Resposta correta: D. 2 000 000 × 30 $ = 60 000 000 $.
+
+## Pontos-chave
+
+- Capitalização bolsista = cotação da ação × total de ações em circulação.
+- Reflete a avaliação coletiva do mercado sobre a propriedade total.
+- Não é o mesmo que a liquidez, as receitas ou o total do ativo de uma empresa.
+
+===== WHITE-L1-009
+TITLE: O que é um ETF? (Um cabaz, não uma ação isolada)
+SUMMARY: Aprenda o que é um ETF, em que difere de comprar uma ação isolada e porque é que essa estrutura de cabaz importa.
+# O que é um ETF? (Um cabaz, não uma ação isolada)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir um ETF em termos simples.
+- explicar em que difere de comprar uma ação isolada.
+- explicar um benefício prático da estrutura de cabaz.
+
+## Conteúdo principal
+
+### O que é um ETF
+
+Um ETF (Exchange-Traded Fund, fundo negociado em bolsa) é um fundo que detém um conjunto de ativos (muitas vezes várias ações ou obrigações), com unidades de participação negociadas em bolsa ao longo do dia, como uma ação isolada.
+
+### Em que difere de uma ação isolada
+
+Comprar uma ação de uma única empresa dá exposição apenas a essa empresa. Comprar uma unidade de participação de um ETF dá exposição a tudo o que está dentro do cabaz de uma só vez: potencialmente dezenas ou centenas de ativos subjacentes, com uma única compra.
+
+### Um benefício prático da estrutura de cabaz
+
+Como um ETF distribui a exposição por muitos ativos ao mesmo tempo, o mau desempenho de um único ativo dentro dele tem um impacto menor no ETF como um todo do que teria se fosse o único investimento do investidor: uma forma básica de diversificação, tratada com mais profundidade numa lição posterior.
+
+## Exemplo prático
+
+Em vez de escolher uma empresa onde investir, um investidor compra uma unidade de participação de um ETF que detém ações de 500 empresas diferentes, distribuindo a sua exposição pelas 500 com uma única compra.
+
+## Teste de prática
+
+1. Um ETF descreve-se melhor como:
+   A. A ação de uma única empresa
+   B. Um fundo que detém um conjunto de ativos, negociável como uma ação
+   C. Um tipo de conta poupança
+   D. Uma obrigação do Tesouro
+
+2. Verdadeiro ou falso: comprar uma unidade de participação de um ETF dá exposição a apenas uma empresa subjacente.
+
+3. Qual é um benefício prático da estrutura de cabaz de um ETF?
+   A. Garante lucro
+   B. Distribui a exposição por muitos ativos ao mesmo tempo
+   C. Elimina todo o risco de investimento
+   D. Exige escolher ações individuais
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um ETF é um fundo negociável que detém vários ativos.
+
+### Pergunta 2
+
+Resposta correta: Falso. Uma unidade de participação de um ETF dá normalmente exposição a muitos ativos subjacentes ao mesmo tempo.
+
+### Pergunta 3
+
+Resposta correta: B. Distribuir a exposição por muitos ativos é o benefício central.
+
+## Pontos-chave
+
+- Um ETF é um fundo que detém um conjunto de ativos, negociável como uma ação.
+- Uma única unidade de participação de um ETF pode dar exposição a muitos ativos subjacentes ao mesmo tempo.
+- Esta estrutura de cabaz oferece uma forma básica de diversificação.
+
+===== WHITE-L1-010
+TITLE: O que é um fundo de investimento, e em que difere de um ETF?
+SUMMARY: Aprenda o que é um fundo de investimento tradicional e as principais diferenças práticas entre estes fundos e os ETF.
+# O que é um fundo de investimento, e em que difere de um ETF?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir um fundo de investimento em termos simples.
+- explicar em que se assemelham os fundos de investimento e os ETF.
+- indicar pelo menos uma diferença prática entre eles.
+
+## Conteúdo principal
+
+### O que é um fundo de investimento
+
+Tal como um ETF, um fundo de investimento tradicional (em inglês, "mutual fund") reúne dinheiro de muitos investidores para comprar um conjunto de ativos. Ambos partilham o conceito básico de "cabaz" da lição anterior.
+
+### Em que se assemelham
+
+Tanto os fundos de investimento como os ETF oferecem exposição diversificada a um cabaz de ativos com um único investimento, e ambos podem ter gestão ativa ou passiva.
+
+### Uma diferença prática central
+
+Ao contrário dos ETF, que são negociados em bolsa ao longo do dia a preços em constante mudança, as unidades de participação dos fundos de investimento são normalmente avaliadas e negociadas apenas uma vez por dia, após o fecho dos mercados, com base no valor calculado nesse dia.
+
+## Exemplo prático
+
+Um investidor que compra um ETF pode ver o preço mudar minuto a minuto durante a sessão. Um investidor que subscreve um fundo de investimento dá a sua ordem e recebe um preço calculado no fim desse dia de negociação, e não em tempo real.
+
+## Teste de prática
+
+1. Um fundo de investimento é:
+   A. A ação de uma única empresa
+   B. Um fundo coletivo que investe num conjunto de ativos, semelhante em conceito a um ETF
+   C. Exclusivamente um tipo de obrigação
+   D. Um programa de poupança do Estado
+
+2. Verdadeiro ou falso: as unidades de participação dos fundos de investimento são negociadas continuamente ao longo do dia, como as dos ETF.
+
+3. Qual é uma diferença prática central entre fundos de investimento e ETF?
+   A. Os fundos de investimento não podem deter ações
+   B. Os fundos de investimento são normalmente avaliados uma vez por dia; os ETF são negociados ao longo do dia
+   C. Os ETF não podem ser diversificados
+   D. Não há diferença real
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um fundo de investimento reúne dinheiro num cabaz diversificado, conceptualmente semelhante a um ETF.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os fundos de investimento são normalmente avaliados uma vez por dia, ao contrário dos ETF.
+
+### Pergunta 3
+
+Resposta correta: B. A frequência de avaliação é uma diferença prática central.
+
+## Pontos-chave
+
+- Um fundo de investimento reúne o dinheiro dos investidores num cabaz diversificado, semelhante a um ETF.
+- Ambos oferecem exposição diversificada com um único investimento.
+- Os fundos de investimento são normalmente avaliados uma vez por dia; os ETF são negociados ao longo do dia.
