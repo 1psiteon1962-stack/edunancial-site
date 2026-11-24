@@ -1,0 +1,399 @@
+===== PURPLE-L1-011
+TITLE: Le forme d'impresa riviste: la lente giuridica
+SUMMARY: Riprende il tema delle forme d'impresa di BLUE e GREEN con una lente specificamente giuridica: l'esposizione alla responsabilità invece del trattamento fiscale.
+# Le forme d'impresa riviste: la lente giuridica
+
+## Obiettivi di apprendimento
+
+- Richiamare le forme d'impresa dei percorsi precedenti.
+- Reimpostare la scelta della forma attorno alla responsabilità giuridica invece che al trattamento fiscale.
+- Anticipare le prossime lezioni, che esaminano l'esposizione giuridica di ciascuna forma.
+
+## Contenuto principale
+
+I percorsi precedenti hanno trattato le forme d'impresa da una prospettiva fiscale (GREEN) e operativa (BLUE). Questa sezione aggiunge una terza lente, decisiva: la responsabilità giuridica. La forma che un'impresa adotta non incide solo su come viene tassata, ma determina in modo fondamentale chi risponde personalmente se l'impresa viene citata in giudizio, non paga i debiti o affronta comunque una pretesa giuridica.
+
+Questa distinzione conta perché la forma “migliore” a fini fiscali e quella “migliore” per la protezione dalla responsabilità non sono sempre la stessa scelta, e a volte gli imprenditori scoprono questo divario solo dopo che è sorto un problema, quando è ormai troppo tardi per rimediare. Le prossime lezioni esaminano l'impresa individuale, le LLC (paragonabili in parte alla S.r.l. italiana), le società di capitali e le società di persone proprio da questa prospettiva della responsabilità, costruendo un quadro più completo di che cosa significhi davvero “scegliere una forma d'impresa” quando si considerano insieme fisco, operatività ed esposizione giuridica.
+
+## Esempio svolto
+
+**Domanda:** Un imprenditore ha scelto la forma della sua impresa solo in base a quella che sembrava più semplice da costituire, senza considerare affatto l'esposizione alla responsabilità. Quale lacuna potrebbe avere questa decisione, secondo questa lezione?
+
+**Studente:** Secondo questa lezione, potrebbe aver trascurato quanta protezione dalla responsabilità personale offra davvero quella forma, che è una questione diversa dalla semplicità o dal trattamento fiscale.
+
+**Guida:** Perché questa lacuna potrebbe diventare evidente solo più tardi e non al momento della decisione?
+
+**Studente:** Perché la protezione dalla responsabilità viene davvero messa alla prova solo se qualcosa va storto – una causa o un debito dell'impresa non pagato –, cosa che potrebbe accadere molto dopo la scelta della forma.
+
+**Guida:** Esatto: ecco perché capirlo in anticipo conta più che scoprirlo sotto pressione.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Questa lezione aggiunge quale lente alla discussione sulle forme d'impresa?
+
+A) Strategia di marketing
+B) Responsabilità giuridica
+C) Morale dei dipendenti
+D) Ubicazione dell'ufficio
+
+**Domanda 2.** La forma “migliore” a fini fiscali è:
+
+A) Sempre identica alla migliore per la protezione dalla responsabilità
+B) Non sempre la stessa della migliore per la protezione dalla responsabilità
+C) Irrilevante per la responsabilità
+D) L'unica considerazione che conta
+
+**Domanda 3.** Che cosa determina chi risponde personalmente se un'impresa viene citata in giudizio o non paga i debiti?
+
+A) Il budget di marketing dell'impresa
+B) La forma giuridica che l'impresa adotta
+C) Solo la posizione fiscale dell'impresa
+D) Nulla: è casuale
+
+**Domanda 4.** Che cosa trattano le prossime lezioni di questa sezione?
+
+A) Solo le aliquote fiscali
+B) Impresa individuale, LLC, società di capitali e società di persone dal punto di vista della responsabilità
+C) Solo la strategia di marketing
+D) Solo il diritto immobiliare
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La responsabilità giuridica è la nuova prospettiva specifica che questa sezione aggiunge a quelle fiscale e operativa precedenti.
+
+**2.** Efficienza fiscale e protezione dalla responsabilità sono dimensioni separate che non sempre coincidono nella stessa scelta di forma.
+
+**3.** La scelta della forma è il principale fattore giuridico che determina l'esposizione personale al rischio d'impresa.
+
+**4.** Questa sezione esamina in modo sistematico ogni forma principale proprio dal punto di vista della responsabilità.
+
+## Punti chiave
+
+- La forma d'impresa determina l'esposizione alla responsabilità giuridica, una questione diversa dal trattamento fiscale.
+- La forma ottimale dal punto di vista fiscale e quella ottimale per la responsabilità non sono sempre la stessa scelta.
+- Questo divario spesso diventa evidente solo dopo che sorge un problema, ed è per questo che capirlo in anticipo conta.
+- Le prossime lezioni esaminano ogni forma principale proprio attraverso questa lente della responsabilità.
+
+===== PURPLE-L1-012
+TITLE: Impresa individuale: l'esposizione giuridica della forma più semplice
+SUMMARY: Spiega le implicazioni in termini di responsabilità dell'operare come impresa individuale, la forma predefinita, più semplice e meno protettiva.
+# Impresa individuale: l'esposizione giuridica della forma più semplice
+
+## Obiettivi di apprendimento
+
+- Definire giuridicamente un'impresa individuale.
+- Spiegare perché non offre separazione tra responsabilità dell'impresa e responsabilità personale.
+- Riconoscere il rischio pratico che ne deriva.
+
+## Contenuto principale
+
+L'impresa individuale è la forma predefinita per un'attività con un unico titolare senza la costituzione formale di una società: giuridicamente, impresa e titolare sono trattati come lo stesso identico soggetto. È la forma più semplice da avviare (spesso servono pochissimi adempimenti), ma comporta un compromesso giuridico decisivo: non c'è alcuna separazione di responsabilità tra l'impresa e il patrimonio personale del titolare. (Anche in Italia il titolare di un'impresa individuale risponde delle obbligazioni dell'impresa con tutto il proprio patrimonio personale.)
+
+Questo significa che se l'impresa viene citata in giudizio, non paga un debito o affronta comunque una pretesa giuridica, il patrimonio personale del titolare – la casa, i risparmi, i beni personali – è direttamente esposto, non solo ciò che l'impresa stessa possiede. È un rischio giuridico significativo che molti nuovi imprenditori non colgono pienamente quando iniziano a operare in modo informale senza adottare una forma più protettiva. Qui la semplicità ha un costo reale, e si tratta proprio di un costo giuridico, legato alla responsabilità, diverso dalla semplicità fiscale trattata in GREEN.
+
+## Esempio svolto
+
+**Domanda:** Un consulente freelance opera come impresa individuale e viene citato in giudizio da un cliente; la condanna supera il patrimonio dell'attività. Che cosa succede alla casa e ai risparmi personali del consulente?
+
+**Studente:** Secondo questa lezione, poiché non c'è separazione giuridica tra impresa e titolare, il patrimonio personale del consulente potrebbe essere aggredito per soddisfare quella condanna.
+
+**Guida:** Una forma d'impresa diversa avrebbe cambiato questo esito?
+
+**Studente:** Potenzialmente sì: una forma con una vera separazione di responsabilità avrebbe potuto proteggere il patrimonio personale da una condanna legata all'attività, cosa che l'impresa individuale non fa.
+
+**Guida:** Esatto: è il compromesso giuridico centrale di scegliere la semplicità invece della protezione dalla responsabilità.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un'impresa individuale è giuridicamente:
+
+A) Un soggetto completamente separato dal titolare
+B) Lo stesso soggetto del titolare, senza separazione di responsabilità
+C) Sempre la forma più protettiva
+D) Disponibile solo per le grandi società
+
+**Domanda 2.** Se un'impresa individuale viene citata in giudizio, quale patrimonio è potenzialmente esposto?
+
+A) Solo quello dell'impresa, mai quello personale
+B) Sia quello dell'impresa sia quello personale, perché non c'è separazione giuridica
+C) Nessun patrimonio è mai a rischio
+D) Solo il patrimonio dei soci
+
+**Domanda 3.** La semplicità dell'impresa individuale ha quale tipo di costo?
+
+A) Nessun costo
+B) Un costo di responsabilità giuridica: la mancata protezione del patrimonio personale
+C) Solo un costo fiscale
+D) Solo un costo di marketing
+
+**Domanda 4.** La discussione sulla responsabilità di questa lezione si distingue dal trattamento dell'impresa individuale in quale percorso precedente?
+
+A) La discussione di RED
+B) La discussione fiscale di GREEN
+C) La discussione di WHITE
+D) Nessun percorso precedente ne ha parlato
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Giuridicamente non si fa alcuna distinzione tra l'impresa e la persona che la gestisce.
+
+**2.** Senza uno scudo di responsabilità, il patrimonio personale è direttamente esposto insieme a quello dell'impresa.
+
+**3.** La semplicità rinuncia alla protezione giuridica, un costo diverso dalla semplicità fiscale discussa altrove.
+
+**4.** Questa lezione aggiunge volutamente la prospettiva della responsabilità che il trattamento fiscale di GREEN non copriva.
+
+## Punti chiave
+
+- L'impresa individuale non offre alcuna separazione giuridica tra impresa e titolare.
+- Ciò significa che il patrimonio personale è direttamente esposto alle pretese legate all'attività.
+- La semplicità comporta un costo reale in termini di responsabilità giuridica.
+- È una questione distinta dal trattamento fiscale dell'impresa individuale visto in GREEN.
+
+===== PURPLE-L1-013
+TITLE: LLC: la responsabilità limitata spiegata con precisione
+SUMMARY: Spiega che cosa significa davvero, sul piano giuridico, la “responsabilità limitata” di una LLC e chiarisce i malintesi comuni su quanta protezione offra realmente.
+# LLC: la responsabilità limitata spiegata con precisione
+
+## Obiettivi di apprendimento
+
+- Definire la caratteristica giuridica centrale di una LLC.
+- Spiegare da che cosa protegge davvero la “responsabilità limitata”.
+- Riconoscere che la protezione della LLC non è assoluta.
+
+## Contenuto principale
+
+Una Limited Liability Company (LLC) è una forma d'impresa pensata proprio per creare una separazione giuridica tra l'impresa e i suoi titolari (chiamati members), così che, in generale, il patrimonio personale dei members non sia esposto ai debiti e alle responsabilità giuridiche dell'impresa. È la risposta giuridica diretta al problema dell'impresa individuale visto nella lezione precedente: la LLC esiste proprio per tracciare la linea di responsabilità che l'impresa individuale non traccia. (In Italia la forma più vicina è la S.r.l., simile ma non identica; le regole precise, per esempio sulla responsabilità degli amministratori, vanno chiarite con un professionista.)
+
+È importante essere precisi su che cosa copra davvero questa protezione. In generale, una LLC protegge i members dal rispondere personalmente dei debiti e delle cause derivanti dalla normale attività d'impresa. Non protegge automaticamente un member dalla responsabilità per un proprio illecito personale: se un member commette personalmente una frode o agisce con negligenza, quella persona può comunque essere chiamata a rispondere personalmente, a prescindere dalla struttura della LLC. Capire questa portata precisa evita un malinteso pericoloso: una LLC è uno scudo di responsabilità reale e prezioso, ma non un campo di forza incondizionato contro ogni conseguenza.
+
+## Esempio svolto
+
+**Domanda:** Un member di una LLC commette personalmente una frode mentre svolge affari tramite la LLC. La struttura della LLC protegge quel member dalla responsabilità personale per la frode?
+
+**Studente:** Secondo questa lezione, probabilmente no: la protezione della LLC non copre gli illeciti personali di un member, come la frode.
+
+**Guida:** Che cosa rivela questo sulla portata effettiva della protezione della LLC?
+
+**Studente:** Che non è uno scudo incondizionato contro tutto: protegge dalle normali responsabilità d'impresa, ma non dal comportamento scorretto personale di un member.
+
+**Guida:** Esatto: questa precisione è ciò che separa una comprensione corretta da un malinteso pericoloso.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una LLC è pensata per:
+
+A) Eliminare del tutto ogni rischio d'impresa
+B) Creare una separazione giuridica tra l'impresa e il patrimonio personale dei titolari
+C) Aumentare l'esposizione alla responsabilità personale
+D) Avvantaggiare solo le grandi società
+
+**Domanda 2.** I members di una LLC sono in genere protetti dalla responsabilità personale per:
+
+A) Le proprie frodi o i propri illeciti personali
+B) I debiti dell'impresa e le cause derivanti dalla normale attività
+C) Nulla
+D) Solo le questioni penali
+
+**Domanda 3.** La protezione della LLC copre la frode personale di un member?
+
+A) Sì, sempre
+B) No: gli illeciti personali in genere non sono coperti dalla struttura della LLC
+C) Solo se la frode è stata redditizia
+D) La protezione della LLC non ha alcun limite
+
+**Domanda 4.** Quale malinteso questa lezione cerca specificamente di evitare?
+
+A) Che le LLC non offrano alcuna protezione
+B) Che una LLC sia uno scudo incondizionato contro ogni conseguenza
+C) Che le LLC siano illegali
+D) Che le LLC esistano solo per ragioni fiscali
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La separazione giuridica tra titolare e soggetto è lo scopo strutturale che definisce la LLC.
+
+**2.** I debiti e le pretese legati alla normale attività sono la categoria centrale di rischio da cui la LLC protegge i members.
+
+**3.** L'illecito personale in genere supera la protezione della LLC, perché non è una normale responsabilità d'impresa.
+
+**4.** Questa lezione corregge esplicitamente l'eccessiva fiducia diffusa che la protezione della LLC sia totale e incondizionata.
+
+## Punti chiave
+
+- Una LLC crea una separazione giuridica che protegge il patrimonio personale dei members dalle normali responsabilità d'impresa.
+- Questa protezione in genere non si estende agli illeciti personali di un member, come frode o negligenza.
+- Capire questa portata precisa evita un'eccessiva fiducia pericolosa nella protezione della LLC.
+- Una LLC è uno scudo reale e prezioso, ma non incondizionato.
+
+===== PURPLE-L1-014
+TITLE: Società di capitali: personalità giuridica e conseguenze
+SUMMARY: Spiega la società di capitali come “persona” giuridica distinta, integrando la lezione fiscale sulle società di GREEN con una lente centrata sulla responsabilità.
+# Società di capitali: personalità giuridica e conseguenze
+
+## Obiettivi di apprendimento
+
+- Spiegare il concetto di personalità giuridica della società.
+- Collegarlo alla protezione dalla responsabilità che le società di capitali offrono.
+- Richiamare come contesto il compromesso della doppia imposizione visto in GREEN.
+
+## Contenuto principale
+
+Una società di capitali (in inglese “corporation”, paragonabile in parte alla S.p.A.) è trattata giuridicamente come una “persona” autonoma, separata dai suoi titolari (gli azionisti), capace di possedere beni, stipulare contratti, agire e essere convenuta in giudizio, tutto in nome proprio. Questa personalità giuridica è la base della protezione dalla responsabilità che le società di capitali offrono: poiché è la società stessa, e non i suoi azionisti, a essere giuridicamente responsabile dei propri debiti e obblighi, il patrimonio personale degli azionisti è in genere protetto dalle responsabilità della società, in uno spirito simile a quello della LLC.
+
+Questo si ricollega direttamente al trattamento fiscale delle società visto prima in GREEN: la stessa personalità giuridica che crea la protezione dalla responsabilità è anche ciò che crea la doppia imposizione: l'utile della società viene tassato una volta a livello societario (perché la società è un contribuente a sé) e di nuovo quando viene distribuito agli azionisti. (Anche in Italia gli utili delle società di capitali sono tassati a livello di società e poi, in modo diverso, al momento della distribuzione ai soci; i dettagli differiscono dal sistema statunitense e vanno chiariti con un professionista.) È un esempio chiaro di come un unico concetto giuridico – la personalità della società – produca nello stesso momento un beneficio reale (protezione dalla responsabilità) e un costo reale (doppia imposizione), ed è proprio per questo che la scelta della forma richiede di valutare più fattori insieme, non di scegliere in base a una sola considerazione.
+
+## Esempio svolto
+
+**Domanda:** Un'azionista di una società chiede perché la stessa caratteristica giuridica che protegge il suo patrimonio personale causi anche il problema della doppia imposizione visto prima in GREEN. Come spiegheresti il collegamento?
+
+**Studente:** Secondo questa lezione, è perché la società è trattata come una persona giuridica separata: è proprio questo che protegge il patrimonio personale dell'azionista, ma è anche ciò che rende la società un contribuente separato.
+
+**Guida:** Quindi la personalità giuridica è solo un beneficio, solo un costo o qualcos'altro?
+
+**Studente:** Qualcos'altro: produce sia un beneficio reale, la protezione dalla responsabilità, sia un costo reale, la doppia imposizione, dallo stesso identico concetto giuridico di fondo.
+
+**Guida:** Esatto: ecco perché la scelta della forma deve valutare più fattori insieme.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una società di capitali è trattata giuridicamente come:
+
+A) Lo stesso soggetto dei suoi azionisti
+B) Una “persona” giuridica autonoma, separata dai suoi titolari
+C) Non un soggetto giuridico
+D) Rilevante solo a fini fiscali
+
+**Domanda 2.** La personalità giuridica della società è la base di:
+
+A) Nulla di importante
+B) La protezione dalla responsabilità che le società offrono agli azionisti
+C) Solo la strategia di marketing
+D) Solo i benefici per i dipendenti
+
+**Domanda 3.** A quale concetto di una lezione precedente si collega direttamente?
+
+A) Le lezioni di diritto immobiliare di RED
+B) La lezione di GREEN sulla doppia imposizione delle società
+C) La lezione di WHITE sui dividendi
+D) Non esiste alcun collegamento precedente
+
+**Domanda 4.** Che cosa dimostra questa lezione sulla personalità giuridica della società?
+
+A) È puramente vantaggiosa, senza compromessi
+B) Produce sia un beneficio reale (protezione dalla responsabilità) sia un costo reale (doppia imposizione)
+C) È puramente costosa, senza benefici
+D) Non ha alcun collegamento con la tassazione
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questo concetto di persona distinta è la base strutturale di tutto ciò che le società offrono, compresa la protezione dalla responsabilità.
+
+**2.** Poiché la società stessa è giuridicamente responsabile, gli azionisti ottengono uno scudo di responsabilità significativo.
+
+**3.** Questa lezione si ricollega esplicitamente alla spiegazione di GREEN sul perché l'utile societario venga tassato due volte.
+
+**4.** Vedere entrambi i lati dello stesso concetto di fondo rafforza la necessità di decisioni sulla forma globali e basate su più fattori.
+
+## Punti chiave
+
+- Una società di capitali è una “persona” giuridica distinta, separata dai suoi azionisti.
+- Questa personalità crea protezione dalla responsabilità per gli azionisti.
+- Lo stesso concetto di personalità produce anche la doppia imposizione vista in GREEN.
+- Un unico concetto giuridico può creare contemporaneamente un beneficio reale e un costo reale.
+
+===== PURPLE-L1-015
+TITLE: Società di persone: proprietà condivisa, responsabilità condivisa
+SUMMARY: Introduce la società di persone semplice e la sua caratteristica di responsabilità distintiva e spesso sottovalutata: la responsabilità solidale tra i soci.
+# Società di persone: proprietà condivisa, responsabilità condivisa
+
+## Obiettivi di apprendimento
+
+- Definire una società di persone semplice (in inglese “general partnership”).
+- Spiegare il concetto di responsabilità solidale.
+- Riconoscere perché questo rende la scelta dei soci una seria decisione giuridica.
+
+## Contenuto principale
+
+Una general partnership è un'impresa posseduta da due o più persone che non hanno costituito un soggetto più formale con responsabilità limitata: giuridicamente, è simile a un'impresa individuale ma con più titolari che condividono sia gli utili sia l'esposizione giuridica. La caratteristica decisiva, e spesso sottovalutata, di questa forma è la responsabilità solidale: ogni socio può essere chiamato a rispondere personalmente e per intero dei debiti e degli obblighi della società – non solo per la propria quota proporzionale, ma potenzialmente per l'intero importo –, a prescindere da quale socio abbia effettivamente causato il problema. (In Italia, per esempio nella società in nome collettivo, i soci rispondono in genere solidalmente e illimitatamente delle obbligazioni sociali; verifica i dettagli con un professionista.)
+
+Questo significa che se un socio commette un errore costoso, firma un cattivo affare o tiene un comportamento scorretto, gli altri soci possono essere chiamati a rispondere personalmente di tutte le conseguenze, anche senza alcun coinvolgimento diretto. È proprio per questo che la scelta dei soci ha un peso giuridico reale, che va oltre la compatibilità o la fiducia: in una general partnership sei giuridicamente esposto alle decisioni e agli errori dei tuoi soci, non solo ai tuoi, il che è un forte argomento per considerare una forma che limiti la responsabilità (come una LLC o una S.r.l.) anche per un'impresa con più titolari.
+
+## Esempio svolto
+
+**Domanda:** Due persone costituiscono una società di persone semplice. Uno dei soci, senza dirlo all'altro, firma a nome dell'impresa un affare grande, costoso e sbagliato. Il socio non coinvolto può comunque essere chiamato a rispondere?
+
+**Studente:** Secondo questa lezione, sì: con la responsabilità solidale ogni socio può essere chiamato a rispondere per intero degli obblighi della società, anche di quelli in cui non era coinvolto personalmente.
+
+**Guida:** Che cosa suggerisce questo su quanto seriamente valutare un possibile socio prima di entrare in una società di questo tipo?
+
+**Studente:** Molto seriamente: poiché sei giuridicamente esposto alle decisioni e agli errori del tuo socio, non solo ai tuoi, scegliere un socio è una vera decisione giuridica e non solo una questione di compatibilità.
+
+**Guida:** Esatto: ed è un forte argomento per considerare una forma che limiti la responsabilità anche con un socio di fiducia.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una general partnership è:
+
+A) Un'impresa con un solo titolare
+B) Un'impresa posseduta da due o più persone senza un soggetto più formale a responsabilità limitata
+C) La stessa cosa di una società di capitali
+D) Automaticamente protetta dalla responsabilità
+
+**Domanda 2.** “Responsabilità solidale” significa:
+
+A) Ogni socio risponde solo della propria quota proporzionale
+B) Ogni socio può essere chiamato a rispondere per intero dell'obbligazione della società, a prescindere dalla colpa
+C) Nessun socio risponde mai di nulla
+D) Solo il soggetto societario stesso può rispondere
+
+**Domanda 3.** Se un socio causa un problema costoso all'insaputa dell'altro, l'altro socio può comunque rispondere?
+
+A) No, mai
+B) Sì, potenzialmente per l'intero importo con la responsabilità solidale
+C) Solo se l'aveva approvato personalmente
+D) Solo nei casi penali
+
+**Domanda 4.** Perché questa lezione sostiene che la scelta dei soci ha un peso giuridico reale?
+
+A) Non lo ha: le società di persone non comportano alcun rischio giuridico reale
+B) Perché sei giuridicamente esposto alle decisioni e agli errori dei tuoi soci, non solo ai tuoi
+C) Conta solo la compatibilità, non l'esposizione giuridica
+D) Questa lezione non sostiene nulla del genere
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Una general partnership condivide molte caratteristiche di responsabilità con l'impresa individuale, solo estese a più titolari.
+
+**2.** Responsabilità solidale significa che l'intera obbligazione può ricadere su qualsiasi singolo socio, non solo una parte proporzionale.
+
+**3.** La mancanza di coinvolgimento diretto non protegge un socio da questa esposizione condivisa con la responsabilità solidale.
+
+**4.** Questa struttura di responsabilità trasforma direttamente la scelta dei soci da questione personale a vera decisione sul rischio giuridico.
+
+## Punti chiave
+
+- Una società di persone semplice condivide la proprietà e, soprattutto, l'esposizione giuridica tra i soci.
+- Responsabilità solidale significa che qualsiasi socio può essere chiamato a rispondere dell'intera obbligazione.
+- Questo espone i soci agli errori e alle decisioni degli altri, non solo ai propri.
+- È un forte argomento per considerare forme che limitino la responsabilità, anche tra soci di fiducia.
