@@ -1,0 +1,339 @@
+===== WHITE-L1-036
+TITLE: Qu’est-ce que la valeur nominale par rapport à la valeur réelle (le pouvoir d’achat)?
+SUMMARY: Découvrez la différence entre le montant d’argent en euros et son pouvoir d’achat réel, en vous appuyant directement sur la leçon sur l’inflation.
+# Qu’est-ce que la valeur nominale par rapport à la valeur réelle (le pouvoir d’achat)?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Distinguer la valeur en euros (nominale) de la valeur réelle (le pouvoir d’achat).
+- Expliquer pourquoi comparer des montants en euros à des époques différentes peut induire en erreur.
+- Appliquer cette distinction à un exemple simple.
+
+## Contenu principal
+
+### Valeur en euros (nominale) ou valeur réelle
+
+La valeur en euros, ou valeur nominale, de l’argent est simplement le chiffre inscrit dans le compte ou sur le bulletin de paie. La valeur réelle est ce que cet argent permet réellement d’acheter, une fois l’inflation prise en compte, comme on l’a vu dans la leçon précédente de ce niveau.
+
+### Pourquoi comparer des époques différentes peut induire en erreur
+
+Un revenu de 50 000 € aujourd’hui et un revenu de 50 000 € il y a vingt ans ne sont pas équivalents en termes réels, parce que les prix ont changé pendant cette période. Comparer les chiffres bruts sans tenir compte de l’inflation peut donner une image trompeuse des progrès financiers réels.
+
+### Appliquer la distinction
+
+Chaque fois qu’on compare de l’argent à des moments différents — un salaire, un rendement de placement, un prix historique —, la valeur réelle (ajustée en fonction de l’inflation) donne un portrait plus exact que le seul chiffre brut en euros.
+
+## Exemple pratique
+
+Un salaire qui est passé de 50 000 € à 55 000 € en cinq ans semble avoir augmenté en termes nominaux. Si l’inflation au cours de cette période a réduit le pouvoir d’achat d’à peu près autant, la valeur réelle de ce salaire a peut-être à peine augmenté, voire diminué.
+
+## Quiz pratique
+
+1. La valeur réelle désigne :
+   A. Le chiffre brut inscrit dans un compte
+   B. Ce que l’argent permet réellement d’acheter, ajusté en fonction de l’inflation
+   C. Un type de dividende
+   D. La capitalisation boursière d’une entreprise
+2. Vrai ou faux : comparer des montants bruts en euros d’une décennie à l’autre donne toujours une image exacte des progrès financiers.
+3. Pourquoi une augmentation de salaire pourrait-elle sembler meilleure en termes nominaux qu’elle ne l’est réellement en termes réels?
+   A. La valeur nominale et la valeur réelle sont toujours identiques
+   B. L’inflation a peut-être réduit le pouvoir d’achat gagné
+   C. Les salaires ne sont jamais touchés par l’inflation
+   D. La valeur réelle ne s’applique qu’aux obligations
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La valeur réelle reflète le pouvoir d’achat réel, et non seulement le chiffre brut.
+
+### Question 2
+Bonne réponse : Faux. Les comparaisons brutes dans le temps peuvent induire en erreur si l’on ne tient pas compte de l’inflation.
+
+### Question 3
+Bonne réponse : B. L’inflation peut éroder l’avantage réel d’une augmentation nominale.
+
+## Points clés
+
+- La valeur nominale est le chiffre brut en euros; la valeur réelle tient compte du pouvoir d’achat.
+- Comparer des montants bruts en euros à des époques différentes peut induire en erreur.
+- La valeur réelle donne un portrait plus exact des progrès financiers réels.
+
+===== WHITE-L1-037
+TITLE: Qu’est-ce que le scénario haussier et le scénario baissier pour une action?
+SUMMARY: Découvrez ce que signifie bâtir un scénario haussier ou un scénario baissier pour une action, et pourquoi il est important de considérer les deux.
+# Qu’est-ce que le scénario haussier et le scénario baissier pour une action?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un scénario haussier et un scénario baissier en termes simples.
+- Expliquer pourquoi il est important de bâtir les deux, et pas seulement l’un des deux.
+- Appliquer la notion à un exemple hypothétique simple.
+
+## Contenu principal
+
+### Ce qu’est un scénario haussier
+
+Un scénario haussier (*bull case*) est un argument raisonné expliquant pourquoi une action (ou un autre placement) pourrait avoir un bon rendement, fondé sur des facteurs précis comme le potentiel de croissance, des avantages concurrentiels ou des tendances favorables.
+
+### Ce qu’est un scénario baissier
+
+Un scénario baissier (*bear case*) est un argument raisonné expliquant pourquoi une action pourrait avoir un mauvais rendement, fondé sur des risques, des faiblesses ou des tendances défavorables précis.
+
+### Pourquoi il est important de considérer les deux
+
+Ne bâtir qu’un scénario haussier (ou qu’un scénario baissier) donne une vision partiale et possiblement trop confiante. Considérer sérieusement les deux points de vue — même pour un placement qui nous enthousiasme — mène à une compréhension plus réaliste des risques et du potentiel réels.
+
+## Exemple pratique
+
+Une personne qui envisage une entreprise en croissance pourrait bâtir un scénario haussier autour de son marché en expansion et de ses produits solides, tout en bâtissant un scénario baissier autour de la nouvelle concurrence et de la hausse des coûts — et peser les deux avant de décider.
+
+## Quiz pratique
+
+1. Un scénario haussier est :
+   A. Un argument raisonné expliquant pourquoi un placement pourrait avoir un mauvais rendement
+   B. Un argument raisonné expliquant pourquoi un placement pourrait avoir un bon rendement
+   C. Une prévision garantie du rendement futur
+   D. Un type d’obligation
+2. Vrai ou faux : ne bâtir qu’un scénario haussier pour un placement donne une vision complète et équilibrée.
+3. Pourquoi est-il important de considérer à la fois un scénario haussier et un scénario baissier?
+   A. Cela n’a aucune importance
+   B. Cela mène à une compréhension plus réaliste et équilibrée d’un placement
+   C. Cela garantit un résultat rentable
+   D. Cela ne concerne que les obligations
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un scénario haussier défend la possibilité d’un rendement positif.
+
+### Question 2
+Bonne réponse : Faux. Une vision partiale passe à côté de risques ou de faiblesses réels.
+
+### Question 3
+Bonne réponse : B. Considérer les deux mène à une vision plus équilibrée et plus réaliste.
+
+## Points clés
+
+- Un scénario haussier défend la possibilité d’un rendement positif; un scénario baissier, celle d’un rendement négatif.
+- Ne bâtir qu’un seul côté donne une vision incomplète et trop confiante.
+- Considérer les deux mène à des décisions de placement plus réalistes.
+
+===== WHITE-L1-038
+TITLE: Qu’est-ce qu’une opération d’initié, et pourquoi est-ce illégal?
+SUMMARY: Découvrez ce que signifie une opération d’initié, et le raisonnement de base qui explique pourquoi elle est interdite.
+# Qu’est-ce qu’une opération d’initié, et pourquoi est-ce illégal?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une opération d’initié en termes simples.
+- Expliquer le raisonnement de base qui explique pourquoi elle est interdite.
+- Reconnaître qu’il s’agit d’une véritable limite juridique, et pas seulement d’une ligne directrice éthique.
+
+## Contenu principal
+
+### Ce qu’est une opération d’initié
+
+*(RÈGLE PROPRE À LA RÉGION : cette leçon décrit la notion générale; les lois précises varient selon le pays. En France, ces opérations sont encadrées notamment par le Code monétaire et financier et par l’Autorité des marchés financiers (AMF).)* Une opération d’initié (le délit d’initié) désigne généralement l’achat ou la vente d’une action sur la base d’une information importante et non publique — une information qui n’est pas encore accessible au grand public et qui pourrait raisonnablement influer sur le cours de l’action.
+
+### Le raisonnement de base derrière l’interdiction
+
+Les marchés sont généralement censés fonctionner sur un pied d’égalité en matière d’information. Une personne qui négocie sur la base d’une information non publique a un avantage injuste sur les autres investisseurs qui n’ont pas accès à cette même information — ce qui mine la confiance de tous les autres dans l’équité des prix du marché.
+
+### Une véritable limite juridique
+
+Ce n’est pas seulement considéré comme contraire à l’éthique — dans de nombreux pays, y compris en vertu des protections prévues par le droit américain des valeurs mobilières, c’est une véritable infraction juridique passible de poursuites, et pas simplement une question de jugement personnel.
+
+## Exemple pratique
+
+Une employée qui apprend, avant l’annonce publique, que son entreprise s’apprête à publier des résultats décevants, et qui vend ses actions sur la base de cette information non publique avant l’annonce, commettrait une opération d’initié.
+
+## Quiz pratique
+
+1. Une opération d’initié désigne généralement :
+   A. Le fait de négocier une action sur la base d’une information publique
+   B. Le fait de négocier une action sur la base d’une information importante et non publique
+   C. Un type de versement de dividende
+   D. Un formulaire de déclaration obligatoire
+2. Vrai ou faux : une opération d’initié n’est qu’une ligne directrice éthique, et non une véritable infraction juridique.
+3. Pourquoi les opérations d’initiés sont-elles généralement interdites?
+   A. Cette interdiction n’a aucune justification réelle
+   B. Elles créent un avantage injuste sur les investisseurs qui n’ont pas accès à la même information
+   C. Elles ne sont illégales que pour les dirigeants d’entreprise
+   D. Elles ne concernent que les obligations
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une opération d’initié consiste à négocier sur la base d’une information importante et non publique.
+
+### Question 2
+Bonne réponse : Faux. C’est une véritable infraction juridique passible de poursuites dans de nombreux territoires, et pas seulement une question d’éthique.
+
+### Question 3
+Bonne réponse : B. Elle mine l’accès égal et équitable à l’information susceptible d’influer sur le marché.
+
+## Points clés
+
+- Une opération d’initié consiste à négocier sur la base d’une information importante et non publique.
+- Elle est interdite parce qu’elle crée un avantage injuste en matière d’information.
+- C’est une véritable infraction juridique, et pas seulement une ligne directrice éthique.
+
+===== WHITE-L1-039
+TITLE: Qu’est-ce qu’une bourse? (NYSE, Nasdaq — ce qu’elles font réellement)
+SUMMARY: Découvrez ce que fait réellement une bourse, au-delà du simple fait d’être « l’endroit où l’on négocie des actions ».
+# Qu’est-ce qu’une bourse? (NYSE, Nasdaq — ce qu’elles font réellement)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une bourse en termes simples.
+- Expliquer sa fonction principale, au-delà d’« un endroit où l’on négocie des actions ».
+- Nommer deux exemples bien connus.
+
+## Contenu principal
+
+### Ce qu’est une bourse
+
+Une bourse est un marché organisé où acheteurs et vendeurs se rencontrent pour négocier les actions de sociétés inscrites à la cote, selon un ensemble de règles communes.
+
+### Sa fonction principale
+
+Au-delà du simple fait d’accueillir des transactions, une bourse assure la découverte des prix (elle aide à déterminer un prix actuel équitable en jumelant de vrais acheteurs et de vrais vendeurs) et applique des normes d’inscription que les sociétés doivent respecter pour y être négociées, ce qui ajoute une couche de structure et de surveillance au marché.
+
+### Des exemples bien connus
+
+*(FAIT VÉRIFIÉ, susceptible de changer avec le temps — les inscriptions des sociétés évoluent.)* La Bourse de New York (NYSE) et le Nasdaq sont deux bourses bien connues, chacune ayant des exigences d’inscription et des structures de négociation quelque peu différentes. (En France, la principale bourse est Euronext Paris.)
+
+## Exemple pratique
+
+Lorsqu’une personne passe un ordre d’achat ou de vente d’une action, cet ordre est acheminé vers la bourse concernée, qui le jumelle avec un ordre d’achat ou de vente correspondant à un prix convenu — le mécanisme de base derrière le fait de « négocier une action ».
+
+## Quiz pratique
+
+1. Une bourse est :
+   A. Le bureau de négociation interne d’une seule entreprise
+   B. Un marché organisé où l’on négocie les actions de sociétés inscrites
+   C. Un organisme fiscal gouvernemental
+   D. Un type de fonds commun de placement
+2. Vrai ou faux : les bourses ne font qu’accueillir des transactions, sans normes d’inscription ni rôle de surveillance.
+3. Nommez une bourse bien connue mentionnée dans cette leçon.
+   A. La Réserve fédérale
+   B. Le NYSE ou le Nasdaq
+   C. L’IRS
+   D. La SEC
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une bourse est un marché organisé où l’on négocie des actions inscrites.
+
+### Question 2
+Bonne réponse : Faux. Les bourses assurent aussi la découverte des prix et appliquent des normes d’inscription.
+
+### Question 3
+Bonne réponse : B. Le NYSE et le Nasdaq sont des exemples bien connus.
+
+## Points clés
+
+- Une bourse est un marché organisé où l’on négocie des actions inscrites.
+- Elle assure la découverte des prix et applique des normes d’inscription.
+- Le NYSE et le Nasdaq sont deux exemples bien connus.
+
+===== WHITE-L1-040
+TITLE: Qu’est-ce qu’un symbole boursier?
+SUMMARY: Découvrez ce qu’est un symbole boursier, et pourquoi la précision est importante pour désigner une action précise.
+# Qu’est-ce qu’un symbole boursier?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un symbole boursier en termes simples.
+- Expliquer pourquoi la précision est importante quand on l’utilise.
+- Reconnaître que des noms semblables peuvent avoir des symboles très différents.
+
+## Contenu principal
+
+### Ce qu’est un symbole boursier
+
+Un symbole boursier (*ticker*) est un code court et unique (habituellement composé de lettres) attribué à l’action d’une société cotée en bourse, qui sert à la désigner précisément sur une bourse.
+
+### Pourquoi la précision est importante
+
+Comme de nombreuses entreprises peuvent avoir des noms semblables ou apparentés, c’est le symbole boursier qui désigne réellement et sans ambiguïté l’action précise que l’on achète, que l’on vend ou dont on parle — se fier uniquement au nom d’une entreprise peut mener à des erreurs coûteuses.
+
+### Noms semblables, symboles différents
+
+Deux entreprises aux noms semblables peuvent avoir des symboles boursiers complètement différents, et les fautes de frappe ou la confusion entre symboles constituent un risque réel, et évitable, au moment de passer une véritable transaction.
+
+## Exemple pratique
+
+Une personne qui veut acheter les actions d’une entreprise précise vérifie le symbole boursier exact de celle-ci avant de passer son ordre, plutôt que de se fier à son seul souvenir du nom de l’entreprise, afin d’éviter de négocier par erreur la mauvaise action.
+
+## Quiz pratique
+
+1. Un symbole boursier est :
+   A. Le nom légal complet d’une entreprise
+   B. Un code court et unique qui désigne une action précise sur une bourse
+   C. Un type de dividende
+   D. Un numéro d’identification fiscale gouvernemental
+2. Vrai ou faux : se fier uniquement au nom d’une entreprise, sans vérifier le symbole boursier exact, est une façon sûre de s’assurer de passer la bonne transaction.
+3. Pourquoi la précision est-elle importante quand on utilise un symbole boursier?
+   A. Cela n’a aucune importance
+   B. Des noms d’entreprises semblables peuvent avoir des symboles très différents, et les erreurs coûtent cher
+   C. Toutes les entreprises ont le même symbole boursier
+   D. Les symboles boursiers sont facultatifs
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un symbole boursier désigne une action précise de façon unique.
+
+### Question 2
+Bonne réponse : Faux. Se fier au seul nom risque de faire confondre des entreprises aux noms semblables.
+
+### Question 3
+Bonne réponse : B. La précision évite des erreurs de transaction coûteuses.
+
+## Points clés
+
+- Un symbole boursier désigne de façon unique une action précise sur une bourse.
+- La précision est importante — les noms d’entreprises peuvent se ressembler même si leurs symboles boursiers sont complètement différents.
+- Vérifier le symbole exact avant de négocier évite des erreurs coûteuses.

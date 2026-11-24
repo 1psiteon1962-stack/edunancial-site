@@ -1,0 +1,339 @@
+===== WHITE-L1-026
+TITLE: Qu’est-ce que le ratio cours-bénéfice (C/B)? (Version d’introduction — méthode complète au niveau 2)
+SUMMARY: Découvrez la formule de base du ratio cours-bénéfice et ce qu’il estime, en guise d’introduction à l’évaluation approfondie au niveau 2.
+# Qu’est-ce que le ratio cours-bénéfice (C/B)? (Version d’introduction — méthode complète au niveau 2)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énoncer la formule de base du ratio cours-bénéfice.
+- Calculer un ratio cours-bénéfice de base à partir du cours de l’action et du BPA.
+- Expliquer, à un niveau d’introduction, ce que le ratio estime.
+
+## Contenu principal
+
+### La formule de base
+
+Ratio cours-bénéfice (C/B, ou P/E en anglais) = cours de l’action ÷ bénéfice par action (BPA), en s’appuyant directement sur la notion de BPA vue dans la leçon précédente.
+
+### Ce qu’il estime
+
+Le ratio cours-bénéfice répond approximativement à la question suivante : combien les investisseurs paient-ils aujourd’hui pour chaque euro du bénéfice actuel d’une entreprise? Un chiffre plus élevé signifie que les investisseurs paient davantage pour chaque euro de bénéfice actuel.
+
+### Un aperçu, et non le portrait complet
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Cette leçon d’introduction ne présente que la formule de base. Un traitement complet — y compris la façon de comparer des secteurs différents et la façon dont les rachats d’actions peuvent fausser le ratio — est présenté au niveau 2.
+
+## Exemple pratique
+
+Une action se négocie à 60 € et son BPA est de 3,00 €. C/B = 60 € ÷ 3,00 € = 20 — les investisseurs paient 20 € pour chaque euro du bénéfice actuel de cette entreprise.
+
+## Quiz pratique
+
+1. La formule du ratio cours-bénéfice est :
+   A. BPA ÷ cours de l’action
+   B. Cours de l’action ÷ BPA
+   C. Bénéfice net ÷ cours de l’action
+   D. Actions en circulation ÷ BPA
+2. Vrai ou faux : un ratio cours-bénéfice plus élevé signifie que les investisseurs paient moins pour chaque euro de bénéfice actuel.
+3. Une action se négocie à 80 € et son BPA est de 4,00 €. Quel est son ratio cours-bénéfice?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. C/B = cours de l’action ÷ BPA.
+
+### Question 2
+Bonne réponse : Faux. Un ratio plus élevé signifie qu’on paie davantage pour chaque euro de bénéfice.
+
+### Question 3
+Bonne réponse : B. 80 € ÷ 4,00 € = 20.
+
+## Points clés
+
+- Ratio cours-bénéfice = cours de l’action ÷ BPA.
+- Il estime combien les investisseurs paient pour chaque euro de bénéfice actuel.
+- Il s’agit d’une version d’introduction — le niveau 2 en présente l’application approfondie et les limites.
+
+===== WHITE-L1-027
+TITLE: Qu’est-ce que le rendement courant?
+SUMMARY: Découvrez ce que mesure le rendement courant pour différents actifs papier, et en quoi il diffère de la plus-value.
+# Qu’est-ce que le rendement courant?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le rendement courant en termes simples.
+- Calculer un rendement courant de base à partir du revenu et du prix.
+- Distinguer le rendement courant de la plus-value.
+
+## Contenu principal
+
+### Ce que signifie le rendement courant
+
+Le rendement courant (en anglais *yield*) mesure généralement le revenu que produit un placement (comme les dividendes d’une action ou les intérêts d’une obligation), exprimé en pourcentage de son prix.
+
+### La formule de base
+
+Rendement courant = revenu annuel ÷ prix actuel. Pour une action, le « revenu » désigne habituellement les dividendes; pour une obligation, il désigne habituellement les versements d’intérêts.
+
+### Rendement courant ou plus-value
+
+Le rendement courant mesure précisément le revenu, et non la hausse du prix. Une action pourrait avoir un rendement courant élevé grâce à ses dividendes alors que son prix stagne, ou un faible rendement courant alors que son prix monte beaucoup — ce sont deux sources distinctes de rendement potentiel, et non la même chose.
+
+## Exemple pratique
+
+Une action se négocie à 50 € et verse 2 € de dividendes annuels. Rendement courant = 2 € ÷ 50 € = 4 %. Ce rendement est distinct de toute variation du prix de l’action elle-même et ne l’inclut pas.
+
+## Quiz pratique
+
+1. Le rendement courant se calcule ainsi :
+   A. Plus-value ÷ durée de détention
+   B. Revenu annuel ÷ prix actuel
+   C. Nombre total d’actions ÷ bénéfice net
+   D. Cours de l’action ÷ BPA
+2. Vrai ou faux : le rendement courant mesure la plus-value, et non le revenu.
+3. Une obligation verse 40 € par année et se négocie à 1 000 €. Quel est son rendement courant?
+   A. 0,4 %
+   B. 4 %
+   C. 40 %
+   D. 400 %
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Rendement courant = revenu annuel ÷ prix actuel.
+
+### Question 2
+Bonne réponse : Faux. Le rendement courant mesure le revenu, et non la plus-value.
+
+### Question 3
+Bonne réponse : B. 40 € ÷ 1 000 € = 4 %.
+
+## Points clés
+
+- Rendement courant = revenu annuel ÷ prix actuel.
+- Il mesure le revenu (dividendes ou intérêts), et non la plus-value.
+- Le revenu et la plus-value sont deux sources distinctes de rendement potentiel.
+
+===== WHITE-L1-028
+TITLE: Qu’est-ce que la date d’échéance d’une obligation?
+SUMMARY: Découvrez ce qu’est une date d’échéance, et pourquoi des obligations d’échéances différentes se comportent différemment.
+# Qu’est-ce que la date d’échéance d’une obligation?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir la date d’échéance en termes simples.
+- Expliquer ce qui se passe à l’échéance.
+- Reconnaître que la durée jusqu’à l’échéance influe sur le comportement d’une obligation.
+
+## Contenu principal
+
+### Ce qu’est une date d’échéance
+
+La date d’échéance d’une obligation est la date à laquelle l’émetteur s’est engagé à rembourser intégralement la valeur nominale de l’obligation (le capital) à son détenteur — la fin de la durée du prêt présentée dans la leçon précédente sur les obligations.
+
+### Ce qui se passe à l’échéance
+
+À l’échéance, le détenteur de l’obligation récupère la valeur nominale de l’obligation, et les versements d’intérêts cessent, puisque le prêt est considéré comme entièrement remboursé.
+
+### Pourquoi la durée jusqu’à l’échéance compte
+
+Les obligations dont l’échéance est plus longue (une date de remboursement plus lointaine) sont généralement plus sensibles à l’évolution des taux d’intérêt que les obligations dont l’échéance est plus courte — une notion approfondie dans une leçon ultérieure sur le risque de taux d’intérêt.
+
+## Exemple pratique
+
+Une obligation de 2 ans et une obligation de 20 ans pourraient avoir des taux de coupon semblables aujourd’hui, mais le prix de l’obligation de 20 ans réagira habituellement de façon plus marquée aux variations futures des taux d’intérêt, simplement parce qu’il lui reste beaucoup plus de temps avant l’échéance.
+
+## Quiz pratique
+
+1. La date d’échéance d’une obligation est :
+   A. Le moment où les versements d’intérêts commencent
+   B. Le moment où l’émetteur rembourse intégralement la valeur nominale de l’obligation
+   C. La date à laquelle l’obligation a été achetée
+   D. Une date fixée par le détenteur de l’obligation
+2. Vrai ou faux : les versements d’intérêts se poursuivent indéfiniment après l’échéance d’une obligation.
+3. Quel type d’obligation est généralement plus sensible aux variations des taux d’intérêt?
+   A. Une obligation à échéance plus courte
+   B. Une obligation à échéance plus longue
+   C. La durée jusqu’à l’échéance n’a aucun effet sur la sensibilité
+   D. Seulement les obligations sans date d’échéance
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’échéance est le moment où la valeur nominale est remboursée intégralement.
+
+### Question 2
+Bonne réponse : Faux. Les versements d’intérêts cessent une fois que l’obligation arrive à échéance et qu’elle est remboursée.
+
+### Question 3
+Bonne réponse : B. Les obligations à échéance plus longue sont généralement plus sensibles aux variations des taux.
+
+## Points clés
+
+- La date d’échéance d’une obligation est le moment où la valeur nominale est remboursée intégralement.
+- Les versements d’intérêts cessent une fois l’échéance atteinte.
+- Les obligations à échéance plus longue sont généralement plus sensibles aux variations des taux d’intérêt.
+
+===== WHITE-L1-029
+TITLE: Qu’est-ce que le risque de crédit d’une obligation?
+SUMMARY: Découvrez ce que signifie le risque de crédit pour une obligation, et quel est son lien avec le fait que certaines obligations versent des intérêts plus élevés que d’autres.
+# Qu’est-ce que le risque de crédit d’une obligation?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le risque de crédit en termes simples.
+- Expliquer le lien entre le risque de crédit et le taux d’intérêt d’une obligation.
+- Reconnaître que les émetteurs d’obligations ne comportent pas tous le même risque de crédit.
+
+## Contenu principal
+
+### Ce qu’est le risque de crédit
+
+Le risque de crédit est le risque qu’un émetteur d’obligations ne puisse pas verser les intérêts promis ou rembourser le capital à l’échéance — autrement dit, le risque de défaut de paiement.
+
+### Le lien avec le taux d’intérêt
+
+Les émetteurs perçus comme présentant un risque de crédit plus élevé doivent généralement offrir un taux de coupon plus élevé pour attirer des prêteurs, afin de compenser les investisseurs pour ce risque supplémentaire. Les émetteurs perçus comme très peu risqués (comme les gouvernements stables) peuvent généralement emprunter à des taux plus bas.
+
+### Tous les émetteurs ne se valent pas
+
+Une grande entreprise financièrement stable et une plus petite entreprise en difficulté financière qui émettent des obligations ne comportent pas le même risque de crédit, même si leurs obligations se ressemblent en apparence — c’est pourquoi les notations de crédit des obligations (présentées au niveau 2) existent : pour aider à évaluer ce risque.
+
+## Exemple pratique
+
+Un gouvernement financièrement solide pourrait émettre des obligations à un faible taux d’intérêt, ce qui reflète un faible risque de crédit. Une entreprise en difficulté financière pourrait devoir offrir un taux d’intérêt beaucoup plus élevé sur ses obligations pour attirer des investisseurs prêts à assumer le risque de défaut supplémentaire.
+
+## Quiz pratique
+
+1. Le risque de crédit d’une obligation désigne :
+   A. Le risque de perdre un certificat papier
+   B. Le risque que l’émetteur ne rembourse pas les intérêts ou le capital comme promis
+   C. Le risque d’un fractionnement d’actions
+   D. Le risque d’une baisse générale du marché
+2. Vrai ou faux : les émetteurs qui présentent un risque de crédit plus élevé offrent généralement des taux d’intérêt plus bas.
+3. Pourquoi une entreprise en difficulté financière pourrait-elle devoir offrir un taux d’intérêt plus élevé sur ses obligations?
+   A. Pour compenser les investisseurs pour un risque de défaut plus élevé
+   B. Parce que le gouvernement l’exige
+   C. Pour réduire sa capitalisation boursière
+   D. Les obligations ont toujours le même taux, peu importe le risque
+
+## Corrigé
+
+1. B
+2. Faux
+3. A
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le risque de crédit est le risque de défaut sur les intérêts ou le capital.
+
+### Question 2
+Bonne réponse : Faux. Les émetteurs qui présentent un risque de crédit plus élevé doivent généralement offrir des taux plus élevés.
+
+### Question 3
+Bonne réponse : A. Des taux plus élevés compensent les investisseurs qui assument un risque de défaut.
+
+## Points clés
+
+- Le risque de crédit est le risque qu’un émetteur fasse défaut sur une obligation.
+- Un risque de crédit plus élevé signifie généralement un taux d’intérêt offert plus élevé.
+- Les émetteurs d’obligations ne comportent pas tous le même niveau de risque de crédit.
+
+===== WHITE-L1-030
+TITLE: Qu’est-ce que le risque de taux d’intérêt?
+SUMMARY: Découvrez comment l’évolution des taux d’intérêt influe sur le prix des obligations existantes, et pourquoi les deux évoluent en sens inverse.
+# Qu’est-ce que le risque de taux d’intérêt?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le risque de taux d’intérêt en termes simples.
+- Expliquer la relation inverse de base entre les taux et le prix des obligations.
+- Expliquer pourquoi c’est important pour le détenteur d’une obligation existante.
+
+## Contenu principal
+
+### Ce qu’est le risque de taux d’intérêt
+
+Le risque de taux d’intérêt est le risque que l’évolution des taux d’intérêt en général influe sur la valeur marchande des obligations existantes — un risque distinct du risque de crédit, qui porte sur la capacité de l’émetteur à payer.
+
+### La relation inverse
+
+Lorsque les taux d’intérêt en général augmentent, le prix sur le marché des obligations existantes à taux fixe plus bas diminue généralement, parce que de nouvelles obligations sont émises au taux actuel, plus élevé et plus attrayant. Lorsque les taux en général baissent, les obligations existantes à taux plus élevé prennent généralement plus de valeur en comparaison.
+
+### Pourquoi c’est important pour le détenteur d’une obligation existante
+
+Le détenteur qui doit vendre avant l’échéance est exposé à ces variations de prix. Le détenteur qui conserve l’obligation jusqu’à l’échéance reçoit quand même la valeur nominale — le risque de taux d’intérêt touche surtout le prix de l’obligation sur le marché avant l’échéance, et non le remboursement final lui-même.
+
+## Exemple pratique
+
+Une investisseuse détient une obligation qui verse 3 % d’intérêt. Les taux d’intérêt en général montent à 5 %. Les nouvelles obligations offrent maintenant le taux plus attrayant de 5 %, ce qui rend son ancienne obligation à 3 % moins attrayante pour un acheteur éventuel — son prix sur le marché diminuerait généralement si elle la vendait avant l’échéance.
+
+## Quiz pratique
+
+1. Le risque de taux d’intérêt désigne :
+   A. Le risque qu’un émetteur fasse défaut
+   B. Le risque que l’évolution des taux influe sur le prix des obligations existantes
+   C. Le risque d’un fractionnement d’actions
+   D. Le risque de change
+2. Vrai ou faux : lorsque les taux d’intérêt en général augmentent, le prix des obligations existantes à taux plus bas augmente généralement aussi.
+3. Le détenteur qui conserve une obligation jusqu’à l’échéance reçoit-il quand même la valeur nominale complète, malgré le risque de taux d’intérêt?
+   A. Non, il perd la différence
+   B. Oui, la valeur nominale est généralement versée à l’échéance malgré tout
+   C. Seulement si les taux ont baissé
+   D. Seulement si l’obligation a été vendue plus tôt
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le risque de taux d’intérêt touche le prix sur le marché des obligations existantes à mesure que les taux changent.
+
+### Question 2
+Bonne réponse : Faux. La hausse des taux fait généralement baisser le prix des obligations existantes à taux plus bas.
+
+### Question 3
+Bonne réponse : B. Conserver l’obligation jusqu’à l’échéance permet généralement de toucher quand même la valeur nominale complète, malgré les variations de prix entre-temps.
+
+## Points clés
+
+- Le risque de taux d’intérêt touche le prix des obligations existantes à mesure que les taux en général changent.
+- La hausse des taux fait généralement baisser le prix des obligations existantes à taux plus bas, et inversement.
+- Conserver l’obligation jusqu’à l’échéance permet généralement de toucher la valeur nominale, malgré les variations de prix entre-temps.

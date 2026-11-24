@@ -1,0 +1,339 @@
+===== WHITE-L1-016
+TITLE: Qu’est-ce qu’un marché haussier, et qu’est-ce qu’un marché baissier?
+SUMMARY: Découvrez ce que signifient les marchés haussier et baissier, et pourquoi ces étiquettes décrivent une tendance, et non une garantie de ce qui va suivre.
+# Qu’est-ce qu’un marché haussier, et qu’est-ce qu’un marché baissier?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un marché haussier et un marché baissier.
+- Expliquer sur quoi ces étiquettes reposent habituellement.
+- Expliquer pourquoi elles décrivent une tendance, et non un avenir garanti.
+
+## Contenu principal
+
+### Ce que signifie chaque expression
+
+Un marché haussier (*bull market*) désigne généralement une période soutenue de hausse des prix sur un marché. Un marché baissier (*bear market*) désigne généralement une période soutenue de baisse des prix, souvent définie de façon approximative comme un recul d’un pourcentage important (couramment d’environ 20 %) par rapport à un sommet récent.
+
+### Sur quoi reposent ces étiquettes
+
+Ces expressions décrivent une tendance observée sur une période, et non une prévision. Un marché est habituellement qualifié de « haussier » ou de « baissier » selon des variations de prix qui se sont déjà produites, en regardant en arrière ou en observant une tendance soutenue actuelle.
+
+### Pourquoi ce n’est pas une garantie
+
+Se trouver dans un marché haussier ou baissier ne garantit pas ce qui va suivre — les marchés peuvent passer de l’un à l’autre, et personne ne peut prédire de façon fiable le moment exact de ce passage. Traiter les étiquettes actuelles comme une prévision est une supposition courante, mais risquée.
+
+## Exemple pratique
+
+Un marché qui a monté de façon constante pendant deux ans pourrait être qualifié de marché haussier — mais cette étiquette décrit ce qui s’est déjà produit, et ne garantit pas que les prix continueront de monter.
+
+## Quiz pratique
+
+1. Un marché haussier désigne généralement :
+   A. Une période soutenue de baisse des prix
+   B. Une période soutenue de hausse des prix
+   C. Une seule journée de bourse
+   D. Un type d’obligation
+2. Vrai ou faux : le fait d’être qualifié de « marché haussier » garantit que les prix continueront de monter.
+3. Sur quoi reposent habituellement les étiquettes de marché haussier et de marché baissier?
+   A. Une annonce gouvernementale
+   B. Une tendance des prix observée sur une période
+   C. Le rapport de résultats d’une seule entreprise
+   D. La météo
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un marché haussier désigne une tendance soutenue à la hausse.
+
+### Question 2
+Bonne réponse : Faux. L’étiquette décrit une tendance passée ou actuelle, et non un avenir garanti.
+
+### Question 3
+Bonne réponse : B. Ces étiquettes reflètent une tendance des prix observée.
+
+## Points clés
+
+- Un marché haussier est une tendance soutenue à la hausse; un marché baissier, une tendance soutenue à la baisse.
+- Ces étiquettes décrivent une tendance observée, et non une prévision.
+- Les marchés peuvent passer de l’un à l’autre, de façon imprévisible.
+
+===== WHITE-L1-017
+TITLE: Qu’est-ce que l’intérêt composé? (L’idée dont tout le monde parle, mais que peu expliquent)
+SUMMARY: Découvrez comment fonctionne réellement l’intérêt composé, étape par étape, et pas seulement comme un mot à la mode.
+# Qu’est-ce que l’intérêt composé? (L’idée dont tout le monde parle, mais que peu expliquent)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l’intérêt composé en termes simples.
+- Le distinguer de l’intérêt simple.
+- Calculer un exemple de base de croissance composée sur quelques périodes.
+
+## Contenu principal
+
+### Ce qu’est l’intérêt composé
+
+L’intérêt composé est un intérêt calculé non seulement sur le montant initialement investi, mais aussi sur les intérêts déjà accumulés — ce qui signifie que la croissance s’ajoute à la croissance précédente, et pas seulement au montant de départ.
+
+### Intérêt composé ou intérêt simple
+
+L’intérêt simple est calculé seulement sur le montant initial, à chaque période. L’intérêt composé est calculé sur le montant initial plus tous les intérêts déjà gagnés — c’est précisément la raison pour laquelle la capitalisation s’accélère avec le temps.
+
+### Un exemple étape par étape
+
+En partant de 1 000 € à un intérêt composé annuel de 10 % : après la première année, on obtient 1 100 €. Après la deuxième année, l’intérêt est calculé sur 1 100 € (et non seulement sur les 1 000 € de départ), ce qui donne 1 210 €. Après la troisième année, il est calculé sur 1 210 €, ce qui donne 1 331 € — la croissance s’accélère parce que l’intérêt de chaque année est calculé sur une base plus grande.
+
+## Exemple pratique
+
+1 000 € à un intérêt simple de 10 % rapportent exactement 100 € chaque année : 1 100 €, 1 200 €, 1 300 €. Les mêmes 1 000 € à un intérêt composé de 10 % donnent 1 100 €, 1 210 €, 1 331 € — un écart petit, mais croissant, qui s’élargit beaucoup sur de plus longues périodes.
+
+## Quiz pratique
+
+1. L’intérêt composé est calculé sur :
+   A. Seulement le montant initialement investi
+   B. Le montant initial plus les intérêts déjà gagnés
+   C. Un taux fixe établi par le gouvernement
+   D. Seulement la cotisation de l’année la plus récente
+2. Vrai ou faux : l’intérêt simple et l’intérêt composé donnent des résultats identiques avec le temps.
+3. 1 000 € passent à 1 100 € après la première année à un intérêt composé de 10 %. À combien la somme passerait-elle après la deuxième année?
+   A. 1 100 €
+   B. 1 200 €
+   C. 1 210 €
+   D. 1 300 €
+
+## Corrigé
+
+1. B
+2. Faux
+3. C
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’intérêt composé s’appuie à la fois sur le capital et sur les intérêts accumulés.
+
+### Question 2
+Bonne réponse : Faux. L’intérêt composé fait croître la somme plus vite que l’intérêt simple avec le temps.
+
+### Question 3
+Bonne réponse : C. 1 100 € × 1,10 = 1 210 € (une croissance de 10 % sur la nouvelle base, plus grande).
+
+## Points clés
+
+- L’intérêt composé est calculé sur le capital plus les intérêts accumulés.
+- C’est la principale différence avec l’intérêt simple, qui n’utilise que le montant initial.
+- L’écart entre l’intérêt composé et l’intérêt simple s’élargit sur de plus longues périodes.
+
+===== WHITE-L1-018
+TITLE: Qu’est-ce qu’un 401(k)?
+SUMMARY: Découvrez ce qu’est un 401(k), comment il fonctionne habituellement et un avantage courant offert par l’employeur qui y est lié.
+# Qu’est-ce qu’un 401(k)?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un 401(k) en termes simples.
+- Expliquer comment fonctionnent habituellement les cotisations.
+- Expliquer ce qu’est une cotisation de contrepartie de l’employeur.
+
+## Contenu principal
+
+### Ce qu’est un 401(k)
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit d’un type de compte de retraite propre aux États-Unis. En France, les dispositifs les plus proches sont l’épargne salariale et les plans d’épargne retraite d’entreprise (comme le PER collectif), qui peuvent comporter un abondement de l’employeur; les règles diffèrent, alors vérifiez-les auprès de votre employeur ou d’un professionnel.)* Un 401(k) est un compte d’épargne-retraite offert par l’employeur, qui permet aux employés de verser une partie de leur salaire, souvent avec des avantages fiscaux, en vue de leur épargne-retraite à long terme.
+
+### Comment fonctionnent habituellement les cotisations
+
+Les employés choisissent généralement un pourcentage ou un montant de leur salaire à verser automatiquement, qui est ensuite investi dans les options offertes par le régime de l’employeur (souvent un éventail de fonds, y compris des options comme les ETF et les fonds communs de placement vus plus tôt dans ce niveau).
+
+### Ce qu’est une cotisation de contrepartie de l’employeur
+
+De nombreux employeurs offrent une « contrepartie » — ils versent une somme supplémentaire selon ce que l’employé cotise, jusqu’à une certaine limite. Il s’agit en fait d’une rémunération supplémentaire liée précisément à la participation au régime, et ne pas profiter pleinement d’une contrepartie offerte est souvent cité comme une occasion manquée.
+
+## Exemple pratique
+
+Un employeur offre de verser une contrepartie égale à 50 % des cotisations de l’employé, jusqu’à 6 % du salaire. Un employé qui gagne 50 000 € et qui cotise 6 % (3 000 €) reçoit 1 500 € de plus grâce à la contrepartie de l’employeur — une somme qu’il ne recevrait pas sans cotiser.
+
+## Quiz pratique
+
+1. Un 401(k) est :
+   A. Un type de compte courant
+   B. Un compte d’épargne-retraite offert par l’employeur
+   C. Une pension gouvernementale versée automatiquement
+   D. Un type d’obligation
+2. Vrai ou faux : tous les employeurs sont tenus d’offrir une cotisation de contrepartie.
+3. Qu’est-ce qu’une cotisation de contrepartie de l’employeur?
+   A. Une pénalité fiscale
+   B. Des cotisations supplémentaires de l’employeur selon ce que l’employé cotise
+   C. Un type de prêt
+   D. Un paiement gouvernemental fixe
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un 401(k) est un compte de retraite offert par l’employeur.
+
+### Question 2
+Bonne réponse : Faux. La contrepartie de l’employeur est courante, mais elle n’est ni obligatoire ni offerte partout.
+
+### Question 3
+Bonne réponse : B. La contrepartie est une somme supplémentaire versée par l’employeur, liée aux cotisations de l’employé.
+
+## Points clés
+
+- Un 401(k) est un compte d’épargne-retraite offert par l’employeur.
+- Les cotisations sont habituellement automatiques, au moyen de retenues sur le bulletin de paie.
+- Une contrepartie de l’employeur, lorsqu’elle est offerte, est en fait une rémunération supplémentaire pour la participation.
+
+===== WHITE-L1-019
+TITLE: Qu’est-ce qu’un IRA, et en quoi diffère-t-il d’un 401(k)?
+SUMMARY: Découvrez ce qu’est un IRA, et la différence fondamentale entre ce compte et un 401(k) offert par l’employeur.
+# Qu’est-ce qu’un IRA, et en quoi diffère-t-il d’un 401(k)?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un IRA en termes simples.
+- Expliquer la différence fondamentale entre un IRA et un 401(k).
+- Reconnaître que les deux servent le même objectif général d’épargne-retraite.
+
+## Contenu principal
+
+### Ce qu’est un IRA
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit d’un type de compte propre aux États-Unis. En France, l’équivalent le plus proche est le plan d’épargne retraite individuel (PER individuel), que l’on ouvre soi-même auprès d’un établissement financier; les règles diffèrent, alors vérifiez-les auprès des autorités ou d’un professionnel.)* Un IRA (*Individual Retirement Account*, compte de retraite individuel) est un compte d’épargne-retraite qu’une personne ouvre elle-même, indépendamment d’un employeur, souvent auprès d’une banque ou d’une société de courtage.
+
+### La différence fondamentale avec un 401(k)
+
+Un 401(k) est lié à un employeur et n’est habituellement accessible que pendant qu’on y travaille. Un IRA est ouvert de façon indépendante par une personne et n’est lié à aucun employeur précis — on peut avoir un IRA qu’on ait ou non un emploi offrant un 401(k).
+
+### Le même objectif général
+
+Malgré la différence structurelle, les deux types de comptes servent le même objectif de base : encourager l’épargne-retraite et offrir des moyens fiscalement avantageux d’y parvenir.
+
+## Exemple pratique
+
+Une personne travailleuse autonome, qui n’a accès à aucun 401(k) offert par un employeur, peut quand même ouvrir un IRA et y cotiser de façon indépendante — le compte n’est pas du tout lié au fait d’avoir un employeur précis.
+
+## Quiz pratique
+
+1. Un IRA est :
+   A. Accessible seulement par l’intermédiaire d’un employeur
+   B. Un compte de retraite qu’une personne ouvre de façon indépendante
+   C. Un type de compte courant
+   D. Une pension gouvernementale
+2. Vrai ou faux : un 401(k) et un IRA sont liés à un employeur exactement de la même façon.
+3. Une personne qui n’a pas accès à un 401(k) offert par un employeur peut-elle quand même épargner pour la retraite au moyen d’un IRA?
+   A. Non, un employeur est toujours nécessaire
+   B. Oui, un IRA s’ouvre indépendamment de tout employeur
+   C. Seulement si elle est déjà retraitée
+   D. Seuls les employés du gouvernement peuvent ouvrir un IRA
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un IRA est ouvert de façon indépendante par une personne.
+
+### Question 2
+Bonne réponse : Faux. Un 401(k) est lié à un employeur; un IRA ne l’est pas.
+
+### Question 3
+Bonne réponse : B. Les IRA sont indépendants de tout régime offert par un employeur.
+
+## Points clés
+
+- Un IRA est un compte de retraite ouvert de façon indépendante, qui n’est pas lié à un employeur.
+- C’est la différence structurelle fondamentale avec un 401(k).
+- Les deux servent le même objectif général : une épargne-retraite fiscalement avantageuse.
+
+===== WHITE-L1-020
+TITLE: Traditionnel ou Roth : qu’est-ce qui diffère réellement dans le traitement fiscal?
+SUMMARY: Découvrez la différence fondamentale de moment d’imposition entre les comptes de retraite traditionnels et les comptes Roth.
+# Traditionnel ou Roth : qu’est-ce qui diffère réellement dans le traitement fiscal?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Expliquer la différence fondamentale de moment d’imposition entre les comptes traditionnels et les comptes Roth.
+- Expliquer à quel moment un compte traditionnel est imposé.
+- Expliquer à quel moment un compte Roth est imposé.
+
+## Contenu principal
+
+### La différence fondamentale de moment d’imposition
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit d’une notion fiscale américaine. En France, la comparaison la plus proche oppose le PER, dont les versements peuvent généralement être déduits du revenu imposable mais dont les sorties sont imposées, et des enveloppes comme l’assurance-vie ou le PEA, qui n’offrent pas de déduction à l’entrée mais bénéficient d’une fiscalité allégée à la sortie sous conditions; ce n’est qu’une analogie, alors vérifiez les règles auprès des autorités ou d’un professionnel.)* Les comptes traditionnels et les comptes Roth (offerts en version 401(k) ou IRA) procurent tous deux des avantages fiscaux — la vraie différence porte sur le MOMENT où l’avantage fiscal s’applique, et non sur le fait que l’un soit meilleur dans toutes les situations.
+
+### Les comptes traditionnels
+
+Les cotisations à un compte traditionnel sont souvent faites avant impôt, et les retraits à la retraite sont généralement imposés comme un revenu à ce moment-là.
+
+### Les comptes Roth
+
+Les cotisations à un compte Roth sont faites avec de l’argent après impôt, mais les retraits admissibles à la retraite sont généralement libres d’impôt — l’impôt est payé au départ plutôt que plus tard.
+
+## Exemple pratique
+
+Une cotisation à un compte traditionnel réduit le revenu imposable maintenant, l’impôt étant payé plus tard sur les retraits. Une cotisation à un compte Roth ne procure aucun allègement fiscal maintenant, mais les retraits admissibles sont généralement libres d’impôt plus tard — le même euro, imposé à un moment différent.
+
+## Quiz pratique
+
+1. La différence fondamentale entre les comptes traditionnels et les comptes Roth est la suivante :
+   A. Seuls les comptes traditionnels permettent d’investir en actions
+   B. Le moment où l’avantage fiscal s’applique — maintenant ou plus tard
+   C. Les comptes Roth sont réservés aux employeurs
+   D. Il n’y a aucune réelle différence
+2. Vrai ou faux : les cotisations à un compte traditionnel sont généralement faites avec de l’argent après impôt.
+3. Quand les retraits admissibles d’un compte Roth sont-ils généralement imposés?
+   A. Au moment de la cotisation
+   B. Ils ne sont généralement pas imposés au retrait, puisque l’impôt a été payé au départ
+   C. Deux fois — à la cotisation et au retrait
+   D. Ils ne sont jamais financés avec de l’argent réel
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le moment de l’avantage fiscal est la différence fondamentale.
+
+### Question 2
+Bonne réponse : Faux. Les cotisations à un compte traditionnel sont souvent faites avant impôt.
+
+### Question 3
+Bonne réponse : B. Avec un compte Roth, l’impôt est payé au départ, de sorte que les retraits admissibles sont généralement libres d’impôt plus tard.
+
+## Points clés
+
+- Les comptes traditionnels et Roth offrent tous deux des avantages fiscaux, à des moments différents.
+- Compte traditionnel : souvent un avantage fiscal maintenant, et de l’impôt plus tard au retrait.
+- Compte Roth : de l’impôt maintenant, et généralement aucun impôt au retrait admissible plus tard.
