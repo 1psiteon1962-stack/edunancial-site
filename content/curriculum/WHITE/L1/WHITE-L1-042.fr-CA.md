@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 42
 locale: fr-CA
-title: "WHITE-L1-042 : Erreurs Comportementales de Placement à Éviter"
-summary: "Leçon WHITE-L1-042 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’une rente? (Version d’introduction)"
+summary: "Découvrez l’idée de base derrière une rente — convertir une somme d’argent en une série de paiements futurs."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-042 : Erreurs Comportementales de Placement à Éviter
+# Qu’est-ce qu’une rente? (Version d’introduction)
 
-## Objectifs d'Apprentissage
-1. Identifier les biais psychologiques courants affectant les décisions de placement.
-2. Expliquer la vente panique et ses conséquences typiques.
-3. Reconnaître l'intérêt d'avoir un plan avant que les émotions ne prennent le dessus.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*OPINION :* La recherche en finance comportementale identifie couramment plusieurs erreurs récurrentes des investisseurs, notamment : la **vente panique** (vendre pendant les baisses par peur, figeant souvent des pertes qui auraient pu se résorber), **poursuivre la performance** (acheter ce qui a récemment bien performé, souvent après que l'essentiel du gain a déjà eu lieu), et l'**excès de confiance** (sous-estimer le risque en s'appuyant sur un succès récent).
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Pendant une baisse de marché, un investisseur sans plan préétabli panique et vend tout près du point bas, figeant des pertes importantes. Des mois plus tard, le marché se redresse — mais ayant vendu, l'investisseur a totalement manqué le redressement. Un investisseur disposant d'un plan préétabli (et de la discipline pour le suivre) aurait pu conserver ses positions pendant la baisse, voire poursuivre des versements réguliers à des cours plus bas.
+- Définir une rente en termes simples.
+- Expliquer l’idée de base qui consiste à convertir une somme forfaitaire en paiements.
+- Reconnaître que les rentes varient beaucoup dans leur structure et leur complexité.
 
-## Quiz Pratique
-1. Qu'est-ce que la vente panique ?
-2. Qu'est-ce que « poursuivre la performance » ?
-3. Vrai/Faux : La prise de décision émotionnelle améliore généralement les résultats de placement.
-4. Qu'est-ce qui peut aider un investisseur à éviter des décisions émotionnelles pendant une baisse ?
+## Contenu principal
+
+### Ce qu’est une rente
+
+Une rente (*annuity*) est un produit financier, habituellement offert par une compagnie d’assurance, dans lequel une personne verse une somme forfaitaire (ou une série de versements) en échange d’une série de paiements futurs, souvent utilisée comme source de revenu de retraite.
+
+### L’idée de base
+
+La notion centrale consiste à convertir une somme d’argent actuelle en un revenu défini plus tard — ce qui procure une prévisibilité qui attire les personnes qui craignent de survivre à leurs autres économies.
+
+### Une complexité réelle
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Les rentes existent sous de nombreuses structures différentes, avec des frais, des modalités et des garanties variables. Cette leçon d’introduction ne présente que la notion de base — la variété et la complexité réelles des produits de rente dépassent la portée de ce niveau.
+
+## Exemple pratique
+
+Une personne retraitée verse une somme forfaitaire à une compagnie d’assurance en échange d’un paiement mensuel garanti pour le reste de sa vie — elle échange une grosse somme maintenant contre un revenu prévisible plus tard.
+
+## Quiz pratique
+
+1. Une rente consiste généralement à :
+   A. Acheter une seule action
+   B. Convertir une somme forfaitaire en une série de paiements futurs
+   C. Faire un type d’achat immobilier
+   D. Obtenir un remboursement d’impôt gouvernemental
+2. Vrai ou faux : toutes les rentes ont des structures, des frais et des modalités identiques.
+3. Pourquoi une personne pourrait-elle envisager une rente?
+   A. Pour éviter définitivement tout risque financier
+   B. Pour obtenir un revenu prévisible, souvent à la retraite
+   C. Pour ne jamais payer d’impôt
+   D. Pour éliminer le besoin de toute autre épargne
 
 ## Corrigé
-1. Vendre pendant les baisses par peur, figeant souvent des pertes   2. Acheter des placements récemment performants, souvent après que l'essentiel des gains a eu lieu   3. Faux   4. Disposer d'un plan préétabli avant que les émotions ne prennent le dessus
 
-## Réponses et Explications
-1. Ceci est une erreur comportementale de placement couramment citée.
-2. Ceci décrit le fait de poursuivre la performance récente plutôt que de suivre une stratégie disciplinée.
-3. Les décisions émotionnelles et réactives sont couramment associées à de moins bons résultats.
-4. Les plans préétablis fournissent un cadre à suivre plutôt que de réagir émotionnellement sur le moment.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La vente panique et le fait de poursuivre la performance sont des erreurs comportementales de placement couramment citées.
-- Les décisions émotionnelles et réactives peuvent figer des pertes ou faire manquer des redressements.
-- Disposer d'un plan préétabli peut aider les investisseurs à éviter des décisions émotionnelles coûteuses.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une rente convertit une somme forfaitaire en paiements futurs.
+
+### Question 2
+Bonne réponse : Faux. Les structures, les frais et les modalités des rentes varient beaucoup.
+
+### Question 3
+Bonne réponse : B. Un revenu prévisible est leur principal attrait.
+
+## Points clés
+
+- Une rente convertit une somme forfaitaire en une série de paiements futurs.
+- Elle est souvent utilisée comme source de revenu de retraite prévisible.
+- Les structures de rentes varient beaucoup — il ne s’agit ici que d’une notion d’introduction.

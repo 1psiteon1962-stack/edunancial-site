@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 22
 locale: fr-FR
-title: "WHITE-L1-022 : L'Abondement de l'Employeur Expliqué"
-summary: "*OPINION :* L'abondement de l'employeur constituant en pratique une rémunération supplémentaire gratuite liée à la participation, de nombreux formateurs en finance suggèrent couramment de verser au moins assez pour capter la totalité de l'abondement avant de privilégier d'autres objectifs d'épargne — bien que les circonstances financières de chacun varient."
-sourceVersion: "1.0"
+title: "Qu’est-ce que la méthode des achats périodiques (dollar-cost averaging)?"
+summary: "Découvrez ce qu’est la méthode des achats périodiques, et pourquoi investir régulièrement un montant fixe peut atténuer l’effet de la volatilité des prix."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-022 : L'Abondement de l'Employeur Expliqué
+# Qu’est-ce que la méthode des achats périodiques (dollar-cost averaging)?
 
-## Objectifs d'Apprentissage
-1. Définir l'abondement de l'employeur dans le cadre d'un plan de retraite.
-2. Expliquer pourquoi les versements non abondés sont souvent qualifiés d'« argent laissé sur la table ».
-3. Calculer un scénario simple d'abondement de l'employeur.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-L'abondement de l'employeur signifie qu'un employeur verse des fonds supplémentaires sur le compte de retraite d'un salarié en fonction des versements propres du salarié, jusqu'à un certain plafond. *FAIT VÉRIFIÉ :* Une structure d'abondement courante consiste à égaler un pourcentage des versements du salarié jusqu'à un pourcentage précis du salaire, bien que les formules exactes varient considérablement selon l'employeur.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*OPINION :* L'abondement de l'employeur constituant en pratique une rémunération supplémentaire gratuite liée à la participation, de nombreux formateurs en finance suggèrent couramment de verser au moins assez pour capter la totalité de l'abondement avant de privilégier d'autres objectifs d'épargne — bien que les circonstances financières de chacun varient.
+- Définir la méthode des achats périodiques en termes simples.
+- Expliquer comment elle interagit avec la volatilité des prix.
+- La reconnaître comme une stratégie, et non comme une garantie de profit.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* L'employeur de Devon abonde 50 % des versements jusqu'à 6 % de son salaire de 50 000 $. S'il verse 6 % (3 000 $), son employeur ajoute 1 500 $ supplémentaires (50 % de 3 000 $) — de l'argent gratuit ajouté à son compte simplement pour avoir versé assez pour capter la totalité de l'abondement. S'il n'avait versé que 2 %, il aurait reçu un abondement moindre et aurait effectivement perdu une partie de cet avantage disponible.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que l'abondement de l'employeur ?
-2. Sur un versement de 3 000 $ avec un abondement de 50 %, combien l'employeur ajoute-t-il ?
-3. Vrai/Faux : L'abondement de l'employeur n'a typiquement aucun plafond, quel que soit le montant versé.
-4. Pourquoi qualifie-t-on couramment le fait de ne pas capter la totalité de l'abondement d'« argent laissé sur la table » ?
+### Ce qu’est la méthode des achats périodiques
+
+La méthode des achats périodiques (en anglais *dollar-cost averaging*) consiste à investir un montant fixe à intervalles réguliers (par exemple chaque mois), peu importe le prix du moment, plutôt que d’investir une grosse somme forfaitaire d’un seul coup.
+
+### Comment elle interagit avec la volatilité
+
+Comme le montant investi reste fixe, on achète plus de parts quand les prix sont bas et moins de parts quand les prix sont élevés — ce qui fait naturellement la moyenne du prix d’achat avec le temps, sans exiger de l’investisseur qu’il prédise les variations de prix.
+
+### Ce n’est pas une garantie
+
+La méthode des achats périodiques ne garantit aucun profit et ne protège pas contre les pertes — c’est une approche disciplinée de l’investissement dans le temps, et non un moyen d’éliminer complètement le risque.
+
+## Exemple pratique
+
+Une investisseuse place 200 € dans un placement chaque mois. Quand le prix est bas, ces 200 € achètent plus de parts; quand le prix est élevé, ils en achètent moins — sur une année, cela produit un prix d’achat moyen sans qu’elle ait à essayer de deviner le bon moment pour entrer sur le marché.
+
+## Quiz pratique
+
+1. La méthode des achats périodiques consiste à :
+   A. Investir une grosse somme forfaitaire d’un seul coup
+   B. Investir un montant fixe à intervalles réguliers, peu importe le prix
+   C. N’investir que lorsque les prix sont bas
+   D. Éviter tous les actifs papier
+2. Vrai ou faux : la méthode des achats périodiques garantit un profit.
+3. Selon la méthode des achats périodiques, qu’arrive-t-il au nombre de parts achetées lorsque le prix est plus bas?
+   A. On achète moins de parts
+   B. On achète plus de parts avec le même montant fixe
+   C. On n’achète aucune part
+   D. Le montant investi augmente automatiquement
 
 ## Corrigé
-1. Des versements supplémentaires de l'employeur en fonction des versements du salarié, jusqu'à un plafond   2. 1 500 $   3. Faux   4. Cela représente une rémunération gratuite disponible que le salarié n'a pas réclamée
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'abondement de l'employeur.
-2. 50 % × 3 000 $ = 1 500 $.
-3. Les abondements sont typiquement plafonnés à un pourcentage précis du salaire ou du versement.
-4. Les fonds d'abondement non captés représentent une rémunération disponible non réclamée.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- L'abondement de l'employeur ajoute des fonds de l'employeur en fonction des versements du salarié, jusqu'à un plafond.
-- Les structures et plafonds d'abondement varient considérablement selon l'employeur.
-- L'orientation couramment citée suggère de verser assez pour capter la totalité de l'abondement disponible.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un montant fixe, à intervalles réguliers, peu importe le prix.
+
+### Question 2
+Bonne réponse : Faux. C’est une stratégie disciplinée, et non une garantie.
+
+### Question 3
+Bonne réponse : B. Un montant fixe achète plus de parts lorsque le prix est plus bas.
+
+## Points clés
+
+- La méthode des achats périodiques consiste à investir un montant fixe à intervalles réguliers.
+- Elle achète naturellement plus de parts quand les prix sont bas, et moins quand ils sont élevés.
+- C’est une stratégie disciplinée, et non une garantie contre les pertes.

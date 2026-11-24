@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 15
 locale: fr-CA
-title: "WHITE-L1-015 : Les Intérêts Composés et la Croissance"
-summary: "*HYPOTHÈSE :* Parce que les intérêts composés se construisent sur eux-mêmes, commencer plus tôt a généralement un impact démesurément important à long terme comparé à verser davantage plus tard — bien que les résultats réels dépendent des taux de rendement présumés, qui ne sont jamais garantis."
-sourceVersion: "1.0"
+title: "Qu’est-ce que la volatilité?"
+summary: "Découvrez ce que mesure la volatilité, et pourquoi elle est différente du risque de perte permanente."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-015 : Les Intérêts Composés et la Croissance
+# Qu’est-ce que la volatilité?
 
-## Objectifs d'Apprentissage
-1. Définir la croissance/les intérêts composés.
-2. Distinguer les intérêts composés des intérêts simples.
-3. Expliquer pourquoi le temps est un facteur déterminant dans les intérêts composés.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La croissance composée signifie percevoir un rendement non seulement sur le placement initial, mais aussi sur le rendement accumulé précédemment. *FAIT VÉRIFIÉ :* Ceci diffère des intérêts simples, qui calculent le rendement uniquement sur le capital initial, jamais sur les gains précédents.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Parce que les intérêts composés se construisent sur eux-mêmes, commencer plus tôt a généralement un impact démesurément important à long terme comparé à verser davantage plus tard — bien que les résultats réels dépendent des taux de rendement présumés, qui ne sont jamais garantis.
+- Définir la volatilité en termes simples.
+- Expliquer ce que mesure précisément la volatilité.
+- Distinguer la volatilité d’une perte permanente.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* 10 000 $ investis à un rendement annuel moyen présumé de 7 % atteignent environ 19 700 $ après 10 ans et environ 38 700 $ après 20 ans — pas le double, mais presque le quadruple, car la croissance de la seconde décennie se compose sur une base bien plus importante que celle de la première décennie. Ceci illustre pourquoi la courbe de croissance s'accélère avec le temps plutôt que de rester linéaire.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la croissance composée ?
-2. En quoi les intérêts composés diffèrent-ils des intérêts simples ?
-3. Vrai/Faux : Commencer à investir plus tard n'a aucun désavantage comparé à commencer plus tôt, à versements totaux identiques.
-4. Pourquoi la courbe de croissance des intérêts composés s'accélère-t-elle avec le temps ?
+### Ce que signifie la volatilité
+
+La volatilité désigne l’ampleur et la rapidité avec lesquelles le prix d’un actif monte et descend sur une période donnée. Un actif très volatil connaît des variations de prix importantes et fréquentes; un actif peu volatil évolue de façon plus graduelle.
+
+### Ce qu’elle mesure précisément
+
+La volatilité mesure les variations de prix, et pas nécessairement leur direction ni le résultat final. Un actif peut être très volatil tout en finissant plus haut avec le temps — la volatilité décrit les secousses du trajet, et non automatiquement la destination.
+
+### Volatilité ou perte permanente
+
+Une baisse temporaire du prix d’un actif volatil n’est pas la même chose qu’une perte permanente — si le prix remonte plus tard, une personne qui n’a pas vendu pendant la baisse vit de la volatilité sans perte durable. Une perte n’est « matérialisée » que si l’actif est vendu au prix plus bas.
+
+## Exemple pratique
+
+Le cours d’une action oscille entre 80 $ et 120 $ pendant quelques mois avant de se stabiliser près de 115 $ — très volatil en cours de route, mais une personne qui a conservé l’action malgré les variations termine près d’un gain, et non d’une perte.
+
+## Quiz pratique
+
+1. La volatilité mesure :
+   A. Une perte garantie
+   B. L’ampleur et la rapidité avec lesquelles un prix monte et descend
+   C. Le bénéfice total d’une entreprise
+   D. Le nombre d’actions en circulation
+2. Vrai ou faux : une baisse temporaire de prix est automatiquement la même chose qu’une perte permanente.
+3. Quand une perte sur papier due à la volatilité devient-elle une perte matérialisée?
+   A. Jamais
+   B. Lorsque l’actif est vendu au prix plus bas
+   C. Automatiquement après un an
+   D. Dès que le prix baisse le moindrement
 
 ## Corrigé
-1. Percevoir un rendement à la fois sur le placement initial et sur les gains accumulés précédemment   2. Les intérêts simples calculent uniquement sur le capital initial   3. Faux   4. La croissance ultérieure se compose sur une base de plus en plus importante
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la croissance composée.
-2. Ceci est la distinction clé par rapport aux calculs d'intérêts simples.
-3. Le temps passé sur le marché importe considérablement en raison des intérêts composés — commencer plus tôt aide généralement.
-4. La croissance de chaque période se construit sur une base accumulée plus importante que la période précédente.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La croissance composée génère un rendement à la fois sur le capital et sur les gains précédents.
-- Ceci diffère des intérêts simples, calculés uniquement sur le capital initial.
-- Le temps est un facteur déterminant des intérêts composés — commencer plus tôt a généralement un impact démesuré à long terme.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La volatilité mesure l’ampleur des variations de prix.
+
+### Question 2
+Bonne réponse : Faux. Une baisse temporaire n’est pas une perte permanente, à moins que l’actif soit réellement vendu à ce prix plus bas.
+
+### Question 3
+Bonne réponse : B. C’est la vente au prix plus bas qui matérialise la perte.
+
+## Points clés
+
+- La volatilité mesure l’ampleur et la rapidité des variations de prix.
+- Elle décrit les variations de prix, et non automatiquement un résultat final.
+- Une baisse temporaire n’est pas une perte permanente, à moins de vendre à ce prix.

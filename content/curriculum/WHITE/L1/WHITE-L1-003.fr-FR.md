@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 3
 locale: fr-FR
-title: "WHITE-L1-003 : Les Obligations — Prêter Ton Argent Contre des Intérêts"
-summary: "*FAIT VÉRIFIÉ :* Les cours des obligations et les taux d'intérêt évoluent généralement de manière inverse — quand les taux d'intérêt du marché montent, les cours des obligations existantes ont tendance à baisser, et inversement, car les nouvelles obligations offrent des taux plus compétitifs."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’une action, au fond? (Vous achetez une part d’entreprise)"
+summary: "Découvrez ce à quoi la possession d’une action vous donne réellement droit, et ce à quoi elle ne vous donne pas droit."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-003 : Les Obligations — Prêter Ton Argent Contre des Intérêts
+# Qu’est-ce qu’une action, au fond? (Vous achetez une part d’entreprise)
 
-## Objectifs d'Apprentissage
-1. Définir une obligation en termes simples.
-2. Distinguer le fait d'être détenteur d'obligations de celui d'être actionnaire.
-3. Expliquer la relation entre les cours des obligations et les taux d'intérêt.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Une obligation est essentiellement un prêt qu'un investisseur accorde à un émetteur (un État ou une entreprise), qui s'engage à verser des intérêts périodiques et à rembourser le capital à l'échéance. *FAIT VÉRIFIÉ :* Contrairement à un actionnaire, un détenteur d'obligations est un créancier, pas un propriétaire — il n'a généralement aucun droit de propriété ni de vote dans l'entreprise émettrice.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* Les cours des obligations et les taux d'intérêt évoluent généralement de manière inverse — quand les taux d'intérêt du marché montent, les cours des obligations existantes ont tendance à baisser, et inversement, car les nouvelles obligations offrent des taux plus compétitifs.
+- Définir une action en termes simples.
+- Expliquer ce à quoi la possession d’actions donne droit, et ce à quoi elle ne donne pas droit.
+- Expliquer pourquoi le nombre total d’actions en circulation compte dans ce que représente une action.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Elena achète une obligation de 1 000 $ rapportant 4 % d'intérêt annuel, échéant dans 10 ans. Chaque année, elle perçoit 40 $ d'intérêts, et à l'échéance, elle récupère ses 1 000 $ initiaux. Si les taux d'intérêt du marché montent à 6 % avant l'échéance, son obligation à 4 % devient moins attractive comparée aux nouvelles obligations, et son prix de revente baisserait typiquement si elle voulait la vendre avant l'échéance.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une obligation, en termes simples ?
-2. Un détenteur d'obligations est-il un propriétaire ou un créancier ?
-3. Vrai/Faux : Les cours des obligations et les taux d'intérêt évoluent typiquement dans la même direction.
-4. Sur une obligation de 1 000 $ rapportant 4 % par an, combien d'intérêts sont versés chaque année ?
+### Une action est une part de propriété réelle
+
+Lorsqu’une entreprise est cotée en bourse, sa propriété est divisée en un nombre fixe d’actions. Posséder 1 000 actions sur 1 000 000 en circulation, c’est posséder 0,1 % de cette entreprise — réellement et légalement.
+
+### Ce à quoi la propriété donne droit (et ce à quoi elle ne donne pas droit)
+
+La propriété donne habituellement droit à une part proportionnelle des bénéfices (si des dividendes sont versés) et à certains droits de vote sur les décisions importantes. Elle NE donne PAS droit au contrôle des activités quotidiennes, à un dividende garanti ni à un cours en hausse garanti. Les actionnaires ne sont généralement pas non plus personnellement responsables des dettes de l’entreprise au-delà de la valeur de leurs actions.
+
+### Pourquoi le nombre total d’actions compte
+
+Posséder 100 actions d’une entreprise qui compte 1 000 actions en circulation, c’est détenir 10 % de la propriété. Posséder 100 actions d’une entreprise qui compte 10 000 000 d’actions en circulation, c’est en détenir 0,001 %. Le nombre brut d’actions ne suffit pas à indiquer votre participation réelle.
+
+## Exemple pratique
+
+Un investisseur qui possède 5 000 actions d’une entreprise qui compte 500 000 actions en circulation possède 5 000 ÷ 500 000 = 1 % de l’entreprise.
+
+## Quiz pratique
+
+1. Posséder une action vous donne habituellement droit à :
+   A. Un contrôle quotidien des activités de l’entreprise
+   B. Une part proportionnelle des bénéfices et certains droits de vote
+   C. Des versements de dividendes garantis
+   D. Une responsabilité personnelle à l’égard des dettes de l’entreprise
+2. Vrai ou faux : le nombre d’actions que vous possédez, à lui seul, indique votre pourcentage de propriété.
+3. Une entreprise compte 200 000 actions en circulation. Un investisseur en possède 2 000. Quel pourcentage possède-t-il?
+   A. 0,1 %
+   B. 1 %
+   C. 2 %
+   D. 10 %
 
 ## Corrigé
-1. Un prêt de l'investisseur à l'émetteur   2. Un créancier   3. Faux   4. 40 $
 
-## Réponses et Explications
-1. Ceci est la relation fondamentale de prêt que représente une obligation.
-2. Les détenteurs d'obligations prêtent de l'argent ; ils ne détiennent pas de participation dans l'émetteur.
-3. Les cours des obligations et les taux évoluent généralement de manière inverse, pas ensemble.
-4. 1 000 $ × 0,04 = 40 $ d'intérêts annuels.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Une obligation est un prêt à un émetteur, remboursé avec des intérêts périodiques.
-- Les détenteurs d'obligations sont des créanciers, pas des propriétaires.
-- Les cours des obligations et les taux d'intérêt évoluent typiquement de manière inverse.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La propriété donne droit à une part proportionnelle des bénéfices et à certains droits de vote, et non au contrôle des activités.
+
+### Question 2
+Bonne réponse : Faux. Le pourcentage de propriété dépend du nombre d’actions détenues par rapport au nombre total d’actions en circulation.
+
+### Question 3
+Bonne réponse : B. 2 000 ÷ 200 000 = 1 %.
+
+## Points clés
+
+- Une action est une part de propriété réelle et légale dans une entreprise.
+- La propriété ne signifie ni contrôle des activités ni dividende garanti.
+- Votre participation réelle dépend du nombre d’actions détenues par rapport au nombre total d’actions en circulation.

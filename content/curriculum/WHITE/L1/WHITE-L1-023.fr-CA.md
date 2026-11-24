@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 23
 locale: fr-CA
-title: "WHITE-L1-023 : Comment Lire une Cotation d'Action"
-summary: "Leçon WHITE-L1-023 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un fractionnement d’actions?"
+summary: "Découvrez ce qu’un fractionnement d’actions change, et ce qu’il ne change pas, à la valeur d’une entreprise."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-023 : Comment Lire une Cotation d'Action
+# Qu’est-ce qu’un fractionnement d’actions?
 
-## Objectifs d'Apprentissage
-1. Identifier les éléments courants présentés dans une cotation d'action.
-2. Distinguer le cours actuel de la variation quotidienne.
-3. Expliquer ce qu'indique le volume de transactions.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Une cotation d'action indique typiquement : le cours actuel, la variation du jour (en dollars et en pourcentage), le volume de transactions (actions échangées ce jour-là), et souvent l'écart plus haut/plus bas du jour. *FAIT VÉRIFIÉ :* Le volume reflète combien d'actions ont changé de mains, ce qui peut indiquer le niveau d'intérêt ou d'activité que suscite une action un jour donné.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une cotation indique : Cours 145,20 $, Variation +2,10 $ (+1,47 %), Volume 3,2 M, Écart du Jour 142,80 $-146,00 $. Ceci indique à un investisseur que l'action se négocie actuellement à 145,20 $, en hausse de 2,10 $ (1,47 %) par rapport à la clôture précédente, avec 3,2 millions d'actions échangées ce jour-là, fluctuant entre 142,80 $ et 146,00 $ pendant la séance.
+- Définir un fractionnement d’actions en termes simples.
+- Expliquer ce qui change et ce qui ne change pas lors d’un fractionnement.
+- Calculer de façon simple le nombre d’actions et le prix après un fractionnement.
 
-## Quiz Pratique
-1. Que montre le chiffre de « variation » dans une cotation d'action ?
-2. Qu'indique le volume de transactions ?
-3. Vrai/Faux : L'écart plus haut/plus bas du jour montre l'écart de cours historique de l'action.
-4. Si la variation d'une action affiche +2 %, qu'est-ce que cela signifie ?
+## Contenu principal
+
+### Ce qu’est un fractionnement d’actions
+
+Un fractionnement d’actions divise chaque action existante en plusieurs nouvelles actions, ce qui réduit proportionnellement le prix par action tout en augmentant le nombre d’actions en circulation.
+
+### Ce qui change, et ce qui ne change pas
+
+Le nombre d’actions que possède un investisseur augmente, et le prix par action diminue proportionnellement. Ce qui NE change PAS : la valeur totale du placement de l’investisseur et la capitalisation boursière globale de l’entreprise — la tarte est coupée en plus de pointes, mais la tarte elle-même reste de la même taille.
+
+### Pourquoi les entreprises le font
+
+Les entreprises fractionnent parfois leurs actions pour ramener le prix par action dans une fourchette plus accessible aux investisseurs, même si cela ne change en rien la valeur sous-jacente de l’entreprise.
+
+## Exemple pratique
+
+Une investisseuse qui possède 10 actions à 100 $ chacune (1 000 $ au total) voit ses actions faire l’objet d’un fractionnement de deux pour une. Elle possède maintenant 20 actions à 50 $ chacune — toujours 1 000 $ au total, simplement répartis en un plus grand nombre d’actions moins chères.
+
+## Quiz pratique
+
+1. Un fractionnement d’actions :
+   A. Augmente la valeur marchande totale d’une entreprise
+   B. Divise les actions existantes en un plus grand nombre d’actions, à un prix proportionnellement plus bas
+   C. Réduit le nombre d’actions en circulation
+   D. Change les activités sous-jacentes de l’entreprise
+2. Vrai ou faux : un fractionnement d’actions change la valeur totale du placement d’un investisseur.
+3. Un investisseur possède 5 actions à 200 $ chacune. Après un fractionnement de deux pour une, combien d’actions possède-t-il, et à quel prix?
+   A. 5 actions à 400 $
+   B. 10 actions à 100 $
+   C. 2,5 actions à 200 $
+   D. 10 actions à 200 $
 
 ## Corrigé
-1. Le mouvement de cours depuis la clôture précédente   2. Combien d'actions ont été échangées ce jour-là / le niveau d'activité   3. Faux   4. Le cours a augmenté de 2 % par rapport à la clôture précédente
 
-## Réponses et Explications
-1. Ceci est la mesure standard de « variation » dans une cotation d'action.
-2. Le volume reflète l'activité de transactions, pas la direction du cours lui-même.
-3. L'écart du jour ne montre que l'écart de cette séance de négociation, pas tout l'historique.
-4. Une variation en pourcentage positive indique que le cours a augmenté par rapport à la clôture précédente.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Une cotation d'action présente au minimum le cours, la variation, le volume, et l'écart du jour.
-- Le volume reflète l'activité de transactions, distincte du mouvement de cours.
-- L'écart du jour reflète uniquement cette séance, pas l'écart historique de l'action.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fractionnement divise les actions proportionnellement sans changer la valeur totale.
+
+### Question 2
+Bonne réponse : Faux. La valeur totale du placement reste la même immédiatement après un fractionnement.
+
+### Question 3
+Bonne réponse : B. 5 actions × 2 = 10 actions; 200 $ ÷ 2 = 100 $ par action.
+
+## Points clés
+
+- Un fractionnement d’actions divise les actions en un plus grand nombre d’actions, à un prix proportionnellement plus bas.
+- Le fractionnement en soi ne change ni la valeur totale du placement ni la capitalisation boursière.
+- Les entreprises fractionnent leurs actions surtout pour rendre le prix par action plus accessible.

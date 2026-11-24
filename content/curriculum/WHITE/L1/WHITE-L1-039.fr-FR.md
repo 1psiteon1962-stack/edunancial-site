@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 39
 locale: fr-FR
-title: "WHITE-L1-039 : La Valeur Temps de l'Argent"
-summary: "Leçon WHITE-L1-039 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’une bourse? (NYSE, Nasdaq — ce qu’elles font réellement)"
+summary: "Découvrez ce que fait réellement une bourse, au-delà du simple fait d’être « l’endroit où l’on négocie des actions »."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-039 : La Valeur Temps de l'Argent
+# Qu’est-ce qu’une bourse? (NYSE, Nasdaq — ce qu’elles font réellement)
 
-## Objectifs d'Apprentissage
-1. Définir le concept de la valeur temps de l'argent.
-2. Expliquer pourquoi un dollar aujourd'hui vaut généralement plus qu'un dollar plus tard.
-3. Reconnaître que ce concept sous-tend les intérêts composés et les décisions de placement.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La valeur temps de l'argent est le principe selon lequel un montant d'argent donné vaut généralement plus aujourd'hui que le même montant dans le futur, car l'argent d'aujourd'hui peut être investi et fructifier dans le temps. *FAIT VÉRIFIÉ :* Ce concept sous-tend la plupart des calculs de placement et de planification financière, y compris les intérêts composés (Leçon 015) et la planification de la retraite.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Face au choix entre 1 000 $ aujourd'hui ou 1 000 $ dans cinq ans, un investisseur rationnel préférerait généralement les 1 000 $ aujourd'hui — car cet argent, investi même modestement, pourrait dépasser 1 000 $ d'ici cinq ans. Les 1 000 $ différés ont en réalité moins de valeur aujourd'hui que les 1 000 $ immédiats, en raison de l'occasion de croissance perdue.
+- Définir une bourse en termes simples.
+- Expliquer sa fonction principale, au-delà d’« un endroit où l’on négocie des actions ».
+- Nommer deux exemples bien connus.
 
-## Quiz Pratique
-1. Qu'est-ce que la valeur temps de l'argent ?
-2. Pourquoi l'argent d'aujourd'hui vaut-il généralement plus que le même montant plus tard ?
-3. Vrai/Faux : Ce concept n'a aucun lien avec les intérêts composés.
-4. Entre 1 000 $ aujourd'hui et 1 000 $ dans cinq ans, lequel un investisseur rationnel préférerait-il généralement ?
+## Contenu principal
+
+### Ce qu’est une bourse
+
+Une bourse est un marché organisé où acheteurs et vendeurs se rencontrent pour négocier les actions de sociétés inscrites à la cote, selon un ensemble de règles communes.
+
+### Sa fonction principale
+
+Au-delà du simple fait d’accueillir des transactions, une bourse assure la découverte des prix (elle aide à déterminer un prix actuel équitable en jumelant de vrais acheteurs et de vrais vendeurs) et applique des normes d’inscription que les sociétés doivent respecter pour y être négociées, ce qui ajoute une couche de structure et de surveillance au marché.
+
+### Des exemples bien connus
+
+*(FAIT VÉRIFIÉ, susceptible de changer avec le temps — les inscriptions des sociétés évoluent.)* La Bourse de New York (NYSE) et le Nasdaq sont deux bourses bien connues, chacune ayant des exigences d’inscription et des structures de négociation quelque peu différentes. (En France, la principale bourse est Euronext Paris.)
+
+## Exemple pratique
+
+Lorsqu’une personne passe un ordre d’achat ou de vente d’une action, cet ordre est acheminé vers la bourse concernée, qui le jumelle avec un ordre d’achat ou de vente correspondant à un prix convenu — le mécanisme de base derrière le fait de « négocier une action ».
+
+## Quiz pratique
+
+1. Une bourse est :
+   A. Le bureau de négociation interne d’une seule entreprise
+   B. Un marché organisé où l’on négocie les actions de sociétés inscrites
+   C. Un organisme fiscal gouvernemental
+   D. Un type de fonds commun de placement
+2. Vrai ou faux : les bourses ne font qu’accueillir des transactions, sans normes d’inscription ni rôle de surveillance.
+3. Nommez une bourse bien connue mentionnée dans cette leçon.
+   A. La Réserve fédérale
+   B. Le NYSE ou le Nasdaq
+   C. L’IRS
+   D. La SEC
 
 ## Corrigé
-1. L'argent aujourd'hui vaut généralement plus que le même montant dans le futur   2. Il peut être investi et fructifier pendant ce temps   3. Faux   4. 1 000 $ aujourd'hui
 
-## Réponses et Explications
-1. Ceci est le principe fondamental de la valeur temps de l'argent.
-2. L'occasion de croissance est la raison fondamentale de cette préférence.
-3. Ce concept est fondamental pour comprendre les intérêts composés.
-4. L'argent immédiat dispose d'un potentiel de croissance que le montant différé n'a pas.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- L'argent aujourd'hui vaut généralement plus que le même montant dans le futur.
-- C'est parce que l'argent d'aujourd'hui a l'occasion d'être investi et de fructifier.
-- Ce principe sous-tend la plupart des calculs de placement et de planification financière.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une bourse est un marché organisé où l’on négocie des actions inscrites.
+
+### Question 2
+Bonne réponse : Faux. Les bourses assurent aussi la découverte des prix et appliquent des normes d’inscription.
+
+### Question 3
+Bonne réponse : B. Le NYSE et le Nasdaq sont des exemples bien connus.
+
+## Points clés
+
+- Une bourse est un marché organisé où l’on négocie des actions inscrites.
+- Elle assure la découverte des prix et applique des normes d’inscription.
+- Le NYSE et le Nasdaq sont deux exemples bien connus.

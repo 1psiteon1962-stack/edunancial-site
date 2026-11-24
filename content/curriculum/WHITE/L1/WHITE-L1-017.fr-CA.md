@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 17
 locale: fr-CA
-title: "WHITE-L1-017 : Actions Individuelles vs. Fonds Indiciels"
-summary: "*OPINION :* De nombreux formateurs en finance suggèrent couramment les fonds indiciels comme point de départ raisonnable pour les débutants, étant donné leur diversification intégrée et leur charge de recherche moindre — bien que ceci soit une orientation générale, pas un conseil personnalisé, et choisir des actions individuelles demeure une stratégie valable pour les investisseurs avertis."
-sourceVersion: "1.0"
+title: "Qu’est-ce que l’intérêt composé? (L’idée dont tout le monde parle, mais que peu expliquent)"
+summary: "Découvrez comment fonctionne réellement l’intérêt composé, étape par étape, et pas seulement comme un mot à la mode."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-017 : Actions Individuelles vs. Fonds Indiciels
+# Qu’est-ce que l’intérêt composé? (L’idée dont tout le monde parle, mais que peu expliquent)
 
-## Objectifs d'Apprentissage
-1. Distinguer choisir des actions individuelles et investir dans des fonds indiciels.
-2. Expliquer les compromis entre les deux approches.
-3. Identifier pourquoi les fonds indiciels sont souvent recommandés aux débutants.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Choisir des **actions individuelles** signifie sélectionner des entreprises précises dans lesquelles investir, ce qui exige de la recherche et comporte un risque concentré. Investir dans un **fonds indiciel** signifie acheter un fonds qui suit un indice de marché large, répartissant automatiquement le risque entre de nombreuses entreprises.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*OPINION :* De nombreux formateurs en finance suggèrent couramment les fonds indiciels comme point de départ raisonnable pour les débutants, étant donné leur diversification intégrée et leur charge de recherche moindre — bien que ceci soit une orientation générale, pas un conseil personnalisé, et choisir des actions individuelles demeure une stratégie valable pour les investisseurs avertis.
+- Définir l’intérêt composé en termes simples.
+- Le distinguer de l’intérêt simple.
+- Calculer un exemple de base de croissance composée sur quelques périodes.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux amis se lancent dans l'investissement. Diego passe des heures à faire des recherches et choisit 5 actions individuelles, concentrant son risque sur un petit nombre d'entreprises. Fatima achète un seul fonds indiciel S&P 500, obtenant instantanément une exposition à 500 entreprises sans recherche spécifique pour chacune. L'approche de Diego pourrait surperformer ou sous-performer considérablement selon ses choix précis ; l'approche de Fatima suit la performance moyenne du marché plus large.
+## Contenu principal
 
-## Quiz Pratique
-1. Que nécessite le choix d'actions individuelles ?
-2. Que procure automatiquement un fonds indiciel ?
-3. Vrai/Faux : Les fonds indiciels garantissent de meilleurs rendements que le choix d'actions individuelles.
-4. Pourquoi les fonds indiciels sont-ils souvent suggérés aux débutants ?
+### Ce qu’est l’intérêt composé
+
+L’intérêt composé est un intérêt calculé non seulement sur le montant initialement investi, mais aussi sur les intérêts déjà accumulés — ce qui signifie que la croissance s’ajoute à la croissance précédente, et pas seulement au montant de départ.
+
+### Intérêt composé ou intérêt simple
+
+L’intérêt simple est calculé seulement sur le montant initial, à chaque période. L’intérêt composé est calculé sur le montant initial plus tous les intérêts déjà gagnés — c’est précisément la raison pour laquelle la capitalisation s’accélère avec le temps.
+
+### Un exemple étape par étape
+
+En partant de 1 000 $ à un intérêt composé annuel de 10 % : après la première année, on obtient 1 100 $. Après la deuxième année, l’intérêt est calculé sur 1 100 $ (et non seulement sur les 1 000 $ de départ), ce qui donne 1 210 $. Après la troisième année, il est calculé sur 1 210 $, ce qui donne 1 331 $ — la croissance s’accélère parce que l’intérêt de chaque année est calculé sur une base plus grande.
+
+## Exemple pratique
+
+1 000 $ à un intérêt simple de 10 % rapportent exactement 100 $ chaque année : 1 100 $, 1 200 $, 1 300 $. Les mêmes 1 000 $ à un intérêt composé de 10 % donnent 1 100 $, 1 210 $, 1 331 $ — un écart petit, mais croissant, qui s’élargit beaucoup sur de plus longues périodes.
+
+## Quiz pratique
+
+1. L’intérêt composé est calculé sur :
+   A. Seulement le montant initialement investi
+   B. Le montant initial plus les intérêts déjà gagnés
+   C. Un taux fixe établi par le gouvernement
+   D. Seulement la cotisation de l’année la plus récente
+2. Vrai ou faux : l’intérêt simple et l’intérêt composé donnent des résultats identiques avec le temps.
+3. 1 000 $ passent à 1 100 $ après la première année à un intérêt composé de 10 %. À combien la somme passerait-elle après la deuxième année?
+   A. 1 100 $
+   B. 1 200 $
+   C. 1 210 $
+   D. 1 300 $
 
 ## Corrigé
-1. De la recherche et une analyse précise des entreprises   2. La diversification entre de nombreuses entreprises   3. Faux   4. La diversification intégrée et la charge de recherche moindre
 
-## Réponses et Explications
-1. Choisir des actions exige d'évaluer les perspectives d'entreprises individuelles.
-2. Les fonds indiciels répartissent automatiquement l'exposition entre les avoirs de l'indice qu'ils suivent.
-3. Aucune approche ne garantit de surpasser l'autre — les résultats varient.
-4. Ceci reflète l'orientation pédagogique courante, pas une règle universelle pour chaque investisseur.
+1. B
+2. Faux
+3. C
 
-## Points Clés à Retenir
-- Choisir des actions individuelles exige de la recherche et comporte un risque concentré.
-- Les fonds indiciels procurent une diversification instantanée avec une charge de recherche moindre.
-- Les fonds indiciels sont couramment suggérés aux débutants, bien que les deux approches soient valables.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’intérêt composé s’appuie à la fois sur le capital et sur les intérêts accumulés.
+
+### Question 2
+Bonne réponse : Faux. L’intérêt composé fait croître la somme plus vite que l’intérêt simple avec le temps.
+
+### Question 3
+Bonne réponse : C. 1 100 $ × 1,10 = 1 210 $ (une croissance de 10 % sur la nouvelle base, plus grande).
+
+## Points clés
+
+- L’intérêt composé est calculé sur le capital plus les intérêts accumulés.
+- C’est la principale différence avec l’intérêt simple, qui n’utilise que le montant initial.
+- L’écart entre l’intérêt composé et l’intérêt simple s’élargit sur de plus longues périodes.

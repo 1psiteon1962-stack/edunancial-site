@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 43
 locale: fr-FR
-title: "WHITE-L1-043 : Comment Lire le Rapport Annuel d'une Entreprise — Les Bases"
-summary: "Un rapport annuel fournit généralement aux actionnaires la performance financière et un aperçu de l'activité de l'entreprise sur l'année. Les sections courantes incluent : une lettre de la direction, les états financiers (compte de résultat, bilan, tableau des flux de trésorerie), le commentaire de la direction sur les résultats, et les informations sur les risques."
-sourceVersion: "1.0"
+title: "Qu’est-ce que la répartition de l’actif?"
+summary: "Découvrez ce que signifie la répartition de l’actif, et en quoi elle diffère de la diversification au sein d’un seul type d’actif."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-043 : Comment Lire le Rapport Annuel d'une Entreprise — Les Bases
+# Qu’est-ce que la répartition de l’actif?
 
-## Objectifs d'Apprentissage
-1. Identifier l'objectif général d'un rapport annuel.
-2. Nommer les sections courantes d'un rapport annuel.
-3. Expliquer pourquoi les rapports annuels importent pour les investisseurs individuels.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Les exigences et formats des rapports annuels (comme le dépôt 10-K aux États-Unis) varient selon le pays et la juridiction réglementaire.
+À la fin de cette leçon, vous devriez pouvoir :
 
-Un rapport annuel fournit généralement aux actionnaires la performance financière et un aperçu de l'activité de l'entreprise sur l'année. Les sections courantes incluent : une lettre de la direction, les états financiers (compte de résultat, bilan, tableau des flux de trésorerie), le commentaire de la direction sur les résultats, et les informations sur les risques.
+- Définir la répartition de l’actif en termes simples.
+- La distinguer de la diversification au sein d’une seule catégorie d’actifs.
+- Expliquer pourquoi on la décrit souvent comme une décision fondamentale pour un portefeuille.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur qui envisage une entreprise lit la section sur les risques de son rapport annuel et découvre que l'entreprise fait face à un litige important non largement couvert par l'actualité générale. Ce détail, trouvé dans le rapport officiel plutôt que dans les gros titres, éclaire la décision de l'investisseur d'une façon qu'une recherche superficielle aurait pu manquer.
+## Contenu principal
 
-## Quiz Pratique
-1. Que fournit généralement un rapport annuel aux actionnaires ?
-2. Cite deux sections courantes d'un rapport annuel.
-3. Vrai/Faux : Les formats des rapports annuels sont identiques partout dans le monde.
-4. Pourquoi lire le rapport complet pourrait-il révéler des informations que l'actualité générale ne mentionne pas ?
+### Ce qu’est la répartition de l’actif
+
+La répartition de l’actif désigne la façon dont un investisseur divise l’ensemble de son portefeuille entre différentes grandes catégories d’actifs — comme les actions, les obligations et les liquidités —, plutôt que le choix des placements précis au sein de chaque catégorie.
+
+### En quoi elle diffère de la diversification
+
+La diversification (vue plus tôt dans ce niveau) désigne généralement le fait de répartir ses placements au sein d’une catégorie, par exemple en possédant de nombreuses actions différentes. La répartition de l’actif se situe un niveau plus haut — elle consiste à décider quelle part va aux actions dans l’ensemble, aux obligations dans l’ensemble et aux liquidités dans l’ensemble.
+
+### Pourquoi elle est fondamentale
+
+La répartition de l’actif est souvent décrite comme l’une des décisions les plus importantes dans la constitution d’un portefeuille, parce que le dosage global entre les catégories d’actifs (et pas seulement le choix d’actions précises) a un effet important sur le risque et le rendement potentiel d’ensemble.
+
+## Exemple pratique
+
+Une investisseuse pourrait opter pour une répartition de 70 % en actions, 25 % en obligations et 5 % en liquidités — une décision prise avant même de choisir les actions ou les obligations précises qu’elle détiendra dans cette structure.
+
+## Quiz pratique
+
+1. La répartition de l’actif désigne :
+   A. Le choix d’actions individuelles précises
+   B. La division d’un portefeuille entre de grandes catégories comme les actions, les obligations et les liquidités
+   C. Un type de dividende
+   D. Un programme de retraite gouvernemental
+2. Vrai ou faux : la répartition de l’actif et la diversification au sein d’une catégorie veulent dire exactement la même chose.
+3. Pourquoi la répartition de l’actif est-elle souvent décrite comme une décision fondamentale?
+   A. Elle a peu d’effet sur un portefeuille
+   B. Le dosage global entre les catégories influe beaucoup sur le risque et le rendement d’ensemble
+   C. Elle ne compte que pour les obligations
+   D. Elle remplace le besoin de toute autre décision de placement
 
 ## Corrigé
-1. La performance financière et un aperçu de l'activité sur l'année   2. Les états financiers, les informations sur les risques (entre autres)   3. Faux   4. Les informations officielles incluent souvent des détails peu couverts dans l'actualité générale
 
-## Réponses et Explications
-1. Ceci est l'objectif général d'un rapport annuel.
-2. Celles-ci figurent parmi les sections standard des rapports annuels.
-3. Les formats et exigences varient selon le pays et la juridiction réglementaire.
-4. Les informations officielles détaillées peuvent révéler des risques ou détails sous-couverts ailleurs.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les rapports annuels fournissent aux actionnaires un aperçu officiel de la performance financière annuelle.
-- Les sections courantes incluent les états financiers, le commentaire de la direction, et les informations sur les risques.
-- Lire le rapport complet peut révéler des détails non couverts dans l'actualité générale.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La répartition de l’actif est la division d’un portefeuille au niveau des grandes catégories.
+
+### Question 2
+Bonne réponse : Faux. La répartition se fait au niveau des catégories; la diversification, au sein d’une catégorie.
+
+### Question 3
+Bonne réponse : B. Le dosage global entre les catégories influe beaucoup sur le comportement d’ensemble du portefeuille.
+
+## Points clés
+
+- La répartition de l’actif est la façon dont un portefeuille est divisé entre de grandes catégories.
+- C’est une décision différente, de niveau supérieur, par rapport à la diversification au sein d’une catégorie.
+- Elle est considérée comme une décision fondamentale dans la constitution d’un portefeuille.

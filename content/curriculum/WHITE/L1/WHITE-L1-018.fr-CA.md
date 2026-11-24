@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 18
 locale: fr-CA
-title: "WHITE-L1-018 : Comprendre les Frais de Gestion"
-summary: "*HYPOTHÈSE :* Parce que les frais de gestion se composent sur de longues durées de détention, même de faibles différences (comme 0,05 % contre 0,5 %) peuvent affecter considérablement les rendements à long terme — l'impact exact dépend du taux de croissance du placement et de la durée de détention."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un 401(k)?"
+summary: "Découvrez ce qu’est un 401(k), comment il fonctionne habituellement et un avantage courant offert par l’employeur qui y est lié."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-018 : Comprendre les Frais de Gestion
+# Qu’est-ce qu’un 401(k)?
 
-## Objectifs d'Apprentissage
-1. Définir des frais de gestion.
-2. Calculer le coût en dollars des frais de gestion d'un fonds.
-3. Expliquer pourquoi de faibles différences dans les frais de gestion importent avec le temps.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les frais de gestion représentent le coût annuel qu'un fonds facture, exprimé en pourcentage des actifs investis, couvrant les coûts de gestion et de fonctionnement. *FAIT VÉRIFIÉ :* Ces frais sont déduits automatiquement du rendement du fonds — les investisseurs ne les paient pas sous forme de facture séparée, mais ils réduisent la performance globale.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Parce que les frais de gestion se composent sur de longues durées de détention, même de faibles différences (comme 0,05 % contre 0,5 %) peuvent affecter considérablement les rendements à long terme — l'impact exact dépend du taux de croissance du placement et de la durée de détention.
+- Définir un 401(k) en termes simples.
+- Expliquer comment fonctionnent habituellement les cotisations.
+- Expliquer ce qu’est une cotisation de contrepartie de l’employeur.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur détient 50 000 $ dans un fonds avec des frais de gestion de 0,5 %, coûtant environ 250 $ par an. Un fonds similaire avec des frais de gestion de 0,05 % coûterait environ 25 $ par an — une différence annuelle de 225 $ qui, composée sur des décennies, peut représenter un montant substantiel, même si la différence annuelle en dollars paraît minime à première vue.
+## Contenu principal
 
-## Quiz Pratique
-1. Que sont des frais de gestion ?
-2. Comment les frais de gestion sont-ils typiquement payés ?
-3. Sur 50 000 $ investis, combien coûtent annuellement des frais de gestion de 0,5 % ?
-4. Vrai/Faux : De faibles différences dans les frais de gestion n'ont pas d'impact important à long terme.
+### Ce qu’est un 401(k)
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit d’un type de compte de retraite propre aux États-Unis. Au Canada, les équivalents les plus proches sont les régimes offerts par l’employeur, comme un REER collectif ou un régime de retraite collectif; les règles diffèrent, alors vérifiez-les auprès de votre employeur ou d’un professionnel.)* Un 401(k) est un compte d’épargne-retraite offert par l’employeur, qui permet aux employés de verser une partie de leur paie, souvent avec des avantages fiscaux, en vue de leur épargne-retraite à long terme.
+
+### Comment fonctionnent habituellement les cotisations
+
+Les employés choisissent généralement un pourcentage ou un montant de leur paie à verser automatiquement, qui est ensuite investi dans les options offertes par le régime de l’employeur (souvent un éventail de fonds, y compris des options comme les FNB et les fonds communs de placement vus plus tôt dans ce niveau).
+
+### Ce qu’est une cotisation de contrepartie de l’employeur
+
+De nombreux employeurs offrent une « contrepartie » — ils versent une somme supplémentaire selon ce que l’employé cotise, jusqu’à une certaine limite. Il s’agit en fait d’une rémunération supplémentaire liée précisément à la participation au régime, et ne pas profiter pleinement d’une contrepartie offerte est souvent cité comme une occasion manquée.
+
+## Exemple pratique
+
+Un employeur offre de verser une contrepartie égale à 50 % des cotisations de l’employé, jusqu’à 6 % du salaire. Un employé qui gagne 50 000 $ et qui cotise 6 % (3 000 $) reçoit 1 500 $ de plus grâce à la contrepartie de l’employeur — une somme qu’il ne recevrait pas sans cotiser.
+
+## Quiz pratique
+
+1. Un 401(k) est :
+   A. Un type de compte chèques
+   B. Un compte d’épargne-retraite offert par l’employeur
+   C. Une pension gouvernementale versée automatiquement
+   D. Un type d’obligation
+2. Vrai ou faux : tous les employeurs sont tenus d’offrir une cotisation de contrepartie.
+3. Qu’est-ce qu’une cotisation de contrepartie de l’employeur?
+   A. Une pénalité fiscale
+   B. Des cotisations supplémentaires de l’employeur selon ce que l’employé cotise
+   C. Un type de prêt
+   D. Un paiement gouvernemental fixe
 
 ## Corrigé
-1. Le coût annuel qu'un fonds facture en pourcentage des actifs   2. Déduits automatiquement du rendement du fonds   3. 250 $   4. Faux
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale des frais de gestion d'un fonds.
-2. Les investisseurs ne reçoivent pas de facture séparée — les frais réduisent le rendement directement.
-3. 50 000 $ × 0,005 = 250 $.
-4. Composées sur de longues durées, même de faibles différences de frais peuvent affecter considérablement les résultats.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les frais de gestion sont des coûts annuels de fonds, exprimés en pourcentage des actifs.
-- Ils sont déduits automatiquement, réduisant le rendement global.
-- Même de faibles différences dans les frais de gestion peuvent se composer en un impact important à long terme.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un 401(k) est un compte de retraite offert par l’employeur.
+
+### Question 2
+Bonne réponse : Faux. La contrepartie de l’employeur est courante, mais elle n’est ni obligatoire ni offerte partout.
+
+### Question 3
+Bonne réponse : B. La contrepartie est une somme supplémentaire versée par l’employeur, liée aux cotisations de l’employé.
+
+## Points clés
+
+- Un 401(k) est un compte d’épargne-retraite offert par l’employeur.
+- Les cotisations sont habituellement automatiques, au moyen de retenues sur la paie.
+- Une contrepartie de l’employeur, lorsqu’elle est offerte, est en fait une rémunération supplémentaire pour la participation.

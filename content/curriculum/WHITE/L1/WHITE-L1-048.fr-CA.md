@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 48
 locale: fr-CA
-title: "WHITE-L1-048 : L'Investissement Socialement Responsable et ESG"
-summary: "Leçon WHITE-L1-048 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le rendement pondéré en dollars par rapport au rendement pondéré dans le temps? (Pourquoi deux personnes peuvent obtenir des rendements différents sur le « même » placement)"
+summary: "Découvrez pourquoi deux investisseurs dans le même fonds peuvent obtenir des rendements personnels réellement différents, selon le moment où ils ont ajouté ou retiré de l’argent."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-048 : L'Investissement Socialement Responsable et ESG
+# Qu’est-ce que le rendement pondéré en dollars par rapport au rendement pondéré dans le temps? (Pourquoi deux personnes peuvent obtenir des rendements différents sur le « même » placement)
 
-## Objectifs d'Apprentissage
-1. Définir l'investissement ESG.
-2. Expliquer l'objectif général de cette approche de placement.
-3. Reconnaître que les critères et normes peuvent varier selon les fonds/fournisseurs.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-L'investissement ESG prend en compte les facteurs Environnementaux, Sociaux, et de Gouvernance en complément de l'analyse financière traditionnelle lors de la sélection des placements. *HYPOTHÈSE :* Les investisseurs qui adoptent cette approche cherchent couramment à aligner leurs placements sur des valeurs personnelles ou des critères précis, bien que ce qui constitue le respect des normes ESG puisse varier considérablement d'un fonds ou d'un fournisseur de notation à l'autre — il n'existe pas de norme ESG unique et universelle.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une investisseuse intéressée par la durabilité environnementale examine deux fonds, tous deux étiquetés « ESG ». En approfondissant sa recherche, elle découvre qu'ils utilisent des critères différents — l'un exclut totalement les entreprises des combustibles fossiles, tandis que l'autre privilégie simplement les entreprises aux meilleures pratiques environnementales au sein de leur secteur, y compris certaines entreprises énergétiques. « ESG » n'étant pas une définition unique et normalisée, elle doit examiner la méthodologie précise de chaque fonds plutôt que de présumer que l'étiquette à elle seule lui apporte l'information nécessaire.
+- Définir le rendement pondéré dans le temps et le rendement pondéré en dollars en termes simples.
+- Expliquer pourquoi ils peuvent donner des chiffres différents pour le même fonds.
+- Reconnaître pourquoi le moment des cotisations compte dans le rendement personnel.
 
-## Quiz Pratique
-1. Que prend en compte l'investissement ESG en complément de l'analyse financière traditionnelle ?
-2. Quel est un objectif général de l'investissement ESG ?
-3. Vrai/Faux : Tous les fonds étiquetés « ESG » utilisent des critères de sélection identiques.
-4. Pourquoi une investisseuse devrait-elle examiner la méthodologie précise d'un fonds ESG ?
+## Contenu principal
+
+### Le rendement pondéré dans le temps
+
+Le rendement pondéré dans le temps mesure le rendement du placement lui-même sur une période, indépendamment du moment où de l’argent a été ajouté ou retiré — c’est le chiffre habituellement publié par le fonds lui-même.
+
+### Le rendement pondéré en dollars
+
+Le rendement pondéré en dollars mesure le rendement personnel réel d’un investisseur, qui dépend beaucoup du MOMENT où il a ajouté ou retiré de l’argent — le même fonds peut produire des rendements pondérés en dollars très différents pour des investisseurs différents, selon leur propre calendrier.
+
+### Pourquoi ils peuvent différer
+
+*EXEMPLE ILLUSTRATIF :* Si une personne ajoute une grosse somme juste avant un repli, son rendement personnel pondéré en dollars sera moins bon que le rendement pondéré dans le temps du fonds pour cette période, même si elle est investie exactement dans le même fonds qu’une personne qui a investi plus tôt.
+
+## Exemple pratique
+
+Un fonds publie un rendement pondéré dans le temps de 10 % pour l’année. Une personne qui a ajouté une grosse somme forfaitaire juste avant un bref repli au cours de cette année, puis qui a conservé son placement pendant la reprise, pourrait avoir un rendement personnel pondéré en dollars sensiblement différent de ces 10 % publiés — même fonds, expérience personnelle très différente selon le moment choisi.
+
+## Quiz pratique
+
+1. Le rendement pondéré dans le temps mesure :
+   A. Le rendement personnel d’un investisseur, fondé sur son propre calendrier
+   B. Le rendement du placement lui-même, indépendamment du moment des cotisations
+   C. Seulement le revenu de dividendes
+   D. La capitalisation boursière d’une entreprise
+2. Vrai ou faux : le rendement pondéré en dollars n’est pas touché par le moment où un investisseur ajoute ou retire de l’argent.
+3. Pourquoi deux investisseurs dans le même fonds peuvent-ils obtenir des rendements personnels différents?
+   A. Les fonds communiquent des chiffres différents à chaque investisseur
+   B. Leur rendement personnel pondéré en dollars dépend du moment de leurs cotisations
+   C. Cela ne se produit jamais réellement
+   D. Seuls les frais du fonds diffèrent d’un investisseur à l’autre
 
 ## Corrigé
-1. Les facteurs Environnementaux, Sociaux, et de Gouvernance   2. Aligner les placements sur des valeurs personnelles ou des critères précis   3. Faux   4. Parce que les critères et normes varient considérablement selon les fournisseurs
 
-## Réponses et Explications
-1. Ceci définit les domaines d'intérêt fondamentaux de l'investissement ESG.
-2. Ceci est la motivation générale de cette approche.
-3. Les critères ESG varient de façon significative d'un fonds ou fournisseur à l'autre.
-4. L'étiquette « ESG » seule ne garantit pas que des critères précis correspondent aux attentes d'une investisseuse.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- L'investissement ESG intègre les facteurs Environnementaux, Sociaux, et de Gouvernance dans la sélection des placements.
-- L'objectif général est d'aligner les placements sur des valeurs personnelles ou des critères précis.
-- Les critères ESG varient considérablement selon les fonds — examine la méthodologie précise plutôt que de présumer.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le rendement pondéré dans le temps mesure le rendement du fonds lui-même, indépendamment du moment des cotisations.
+
+### Question 2
+Bonne réponse : Faux. Le rendement pondéré en dollars est précisément façonné par le moment des cotisations.
+
+### Question 3
+Bonne réponse : B. Le moment personnel des cotisations explique les différences de rendement pondéré en dollars.
+
+## Points clés
+
+- Le rendement pondéré dans le temps mesure le rendement du placement lui-même.
+- Le rendement pondéré en dollars mesure le rendement personnel d’une personne, qui dépend de son propre calendrier.
+- Deux investisseurs dans le même fonds peuvent obtenir des rendements personnels réellement différents.

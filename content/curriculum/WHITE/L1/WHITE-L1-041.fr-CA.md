@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 41
 locale: fr-CA
-title: "WHITE-L1-041 : Comprendre les Corrections de Marché"
-summary: "*HYPOTHÈSE :* Les corrections sont survenues historiquement avec une certaine régularité et sont généralement considérées comme faisant partie normale des cycles de marché, bien que leur moment précis et leur ampleur ne puissent pas être prédits de façon fiable à l'avance."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un conseiller-robot?"
+summary: "Découvrez ce que fait un conseiller-robot, et le compromis de base par rapport à un conseiller financier humain."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-041 : Comprendre les Corrections de Marché
+# Qu’est-ce qu’un conseiller-robot?
 
-## Objectifs d'Apprentissage
-1. Définir une correction de marché.
-2. Distinguer une correction d'un marché baissier selon les seuils courants.
-3. Reconnaître les corrections comme une caractéristique normale et récurrente du marché.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*ESTIMATION :* Une correction de marché est couramment définie (bien que pas de façon parfaitement uniforme) comme une baisse d'environ 10 % par rapport aux sommets récents — inférieure au seuil d'environ 20 % couramment cité pour un marché baissier (Leçon 014).
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Les corrections sont survenues historiquement avec une certaine régularité et sont généralement considérées comme faisant partie normale des cycles de marché, bien que leur moment précis et leur ampleur ne puissent pas être prédits de façon fiable à l'avance.
+- Définir un conseiller-robot en termes simples.
+- Expliquer comment il bâtit habituellement un portefeuille.
+- Repérer un compromis de base par rapport à un conseiller humain.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Après une période de gains constants, le marché chute de 12 % sur plusieurs semaines — entrant en territoire de correction selon le seuil courant, mais sans encore atteindre le territoire de marché baissier. Historiquement, de nombreuses corrections se sont résorbées sans dégénérer en marchés baissiers complets, bien que certaines l'aient fait — la distinction importe, mais ne permet pas de prédire quelle voie prendra une baisse précise.
+## Contenu principal
 
-## Quiz Pratique
-1. Quel pourcentage de baisse est couramment cité comme seuil de correction de marché ?
-2. Comment une correction se compare-t-elle généralement en ampleur à un marché baissier ?
-3. Vrai/Faux : Les corrections sont des événements historiques rares et uniques.
-4. Peut-on prédire de façon fiable qu'une correction dégénérera en marché baissier ?
+### Ce qu’est un conseiller-robot
+
+Un conseiller-robot (*robo-advisor*) est un service automatisé qui bâtit et gère un portefeuille de placements en fonction des objectifs et de la tolérance au risque d’un investisseur, généralement au moyen d’algorithmes plutôt que de décisions individuelles prises par un conseiller humain.
+
+### Comment il bâtit habituellement un portefeuille
+
+Un conseiller-robot pose habituellement une série de questions sur les objectifs, l’horizon de placement et l’aisance face au risque, puis répartit automatiquement l’argent entre un ensemble de placements (souvent des FNB, vus plus tôt dans ce niveau) qui correspond à ce profil.
+
+### Le compromis de base par rapport à un conseiller humain
+
+Les conseillers-robots offrent généralement des frais moins élevés et un accès plus facile qu’un conseiller financier humain, mais ils offrent habituellement des conseils moins personnalisés pour les situations financières individuelles complexes — un réel compromis entre le coût et la personnalisation.
+
+## Exemple pratique
+
+Une personne qui a un objectif simple (comme une épargne-retraite générale à long terme) et une tolérance au risque modérée pourrait utiliser un conseiller-robot pour bâtir et maintenir automatiquement un portefeuille approprié, à un coût moindre que celui d’un conseiller humain.
+
+## Quiz pratique
+
+1. Un conseiller-robot est :
+   A. Un conseiller financier humain qui travaille à distance
+   B. Un service automatisé qui bâtit et gère un portefeuille au moyen d’algorithmes
+   C. Un type d’obligation
+   D. Un programme de retraite gouvernemental
+2. Vrai ou faux : les conseillers-robots facturent généralement des frais plus élevés que les conseillers financiers humains.
+3. Quel est un compromis de base lié au recours à un conseiller-robot plutôt qu’à un conseiller humain?
+   A. Il n’existe aucun compromis
+   B. Des frais moins élevés et un accès plus facile, mais des conseils habituellement moins personnalisés
+   C. Les conseillers-robots garantissent des rendements plus élevés
+   D. Les conseillers humains sont toujours gratuits
 
 ## Corrigé
-1. Environ 10 %   2. Une correction est généralement moins ample/moins grave   3. Faux   4. Non, pas de façon fiable
 
-## Réponses et Explications
-1. Ceci est le seuil de correction couramment cité.
-2. Les corrections représentent une baisse moins ample que le seuil de marché baissier.
-3. Les corrections sont survenues avec une certaine régularité tout au long de l'histoire des marchés.
-4. La poursuite d'une correction au-delà de ce seuil ne peut pas être prédite de façon fiable à l'avance.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Une correction est couramment définie comme une baisse d'environ 10 % par rapport aux sommets récents.
-- Ceci est inférieur au seuil de marché baissier d'environ 20 %.
-- Les corrections constituent une caractéristique normale et récurrente du marché, bien qu'imprévisible dans son moment et son issue.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un conseiller-robot automatise la gestion d’un portefeuille au moyen d’algorithmes.
+
+### Question 2
+Bonne réponse : Faux. Les conseillers-robots facturent généralement des frais moins élevés que les conseillers humains.
+
+### Question 3
+Bonne réponse : B. Un coût moindre et un accès plus facile ont pour contrepartie des conseils moins personnalisés.
+
+## Points clés
+
+- Un conseiller-robot automatise la constitution et la gestion d’un portefeuille.
+- Il répartit habituellement les placements selon les objectifs et la tolérance au risque.
+- Il échange généralement un coût moindre contre des conseils moins personnalisés qu’un conseiller humain.

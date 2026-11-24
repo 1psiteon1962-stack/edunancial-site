@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 16
 locale: fr-CA
-title: "WHITE-L1-016 : L'Investissement Programmé (Moyenne d'Achat)"
-summary: "*HYPOTHÈSE :* Cette méthode ne garantit pas de meilleurs résultats qu'un placement en une seule fois — historiquement, placer une somme forfaitaire a souvent surpassé l'investissement programmé dans les marchés haussiers, l'argent étant investi (et fructifiant) plus tôt. L'avantage principal de cette méthode est de réduire le risque émotionnel et de chronométrage, non de maximiser le rendement dans chaque scénario."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un marché haussier, et qu’est-ce qu’un marché baissier?"
+summary: "Découvrez ce que signifient les marchés haussier et baissier, et pourquoi ces étiquettes décrivent une tendance, et non une garantie de ce qui va suivre."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-016 : L'Investissement Programmé (Moyenne d'Achat)
+# Qu’est-ce qu’un marché haussier, et qu’est-ce qu’un marché baissier?
 
-## Objectifs d'Apprentissage
-1. Définir l'investissement programmé (« dollar-cost averaging »).
-2. Expliquer comment cette méthode peut réduire l'impact d'essayer de prédire le marché.
-3. Reconnaître les compromis de cette méthode comparée à un placement en une seule fois.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-L'investissement programmé consiste à investir un montant fixe à intervalles réguliers, quel que soit le cours, plutôt que de placer une somme forfaitaire en une seule fois. *FAIT VÉRIFIÉ :* Cette approche achète davantage de parts lorsque les cours sont bas et moins lorsqu'ils sont élevés, lissant le prix d'achat moyen dans le temps et réduisant l'impact de tout achat mal chronométré.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Cette méthode ne garantit pas de meilleurs résultats qu'un placement en une seule fois — historiquement, placer une somme forfaitaire a souvent surpassé l'investissement programmé dans les marchés haussiers, l'argent étant investi (et fructifiant) plus tôt. L'avantage principal de cette méthode est de réduire le risque émotionnel et de chronométrage, non de maximiser le rendement dans chaque scénario.
+- Définir un marché haussier et un marché baissier.
+- Expliquer sur quoi ces étiquettes reposent habituellement.
+- Expliquer pourquoi elles décrivent une tendance, et non un avenir garanti.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Plutôt que d'investir 12 000 $ en une seule fois, Yara investit 1 000 $ chaque mois pendant un an. Certains mois, elle achète des parts à des cours plus élevés, d'autres mois à des cours plus bas — son coût moyen par part finit par être plus régulier que si elle avait investi la totalité au pire moment possible.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que l'investissement programmé ?
-2. Que fait cette méthode lorsque les cours sont bas ?
-3. Vrai/Faux : Cette méthode surpasse toujours un placement en une seule fois.
-4. Quel est l'avantage principal de cette méthode, selon la leçon ?
+### Ce que signifie chaque expression
+
+Un marché haussier (*bull market*) désigne généralement une période soutenue de hausse des prix sur un marché. Un marché baissier (*bear market*) désigne généralement une période soutenue de baisse des prix, souvent définie de façon approximative comme un recul d’un pourcentage important (couramment d’environ 20 %) par rapport à un sommet récent.
+
+### Sur quoi reposent ces étiquettes
+
+Ces expressions décrivent une tendance observée sur une période, et non une prévision. Un marché est habituellement qualifié de « haussier » ou de « baissier » selon des variations de prix qui se sont déjà produites, en regardant en arrière ou en observant une tendance soutenue actuelle.
+
+### Pourquoi ce n’est pas une garantie
+
+Se trouver dans un marché haussier ou baissier ne garantit pas ce qui va suivre — les marchés peuvent passer de l’un à l’autre, et personne ne peut prédire de façon fiable le moment exact de ce passage. Traiter les étiquettes actuelles comme une prévision est une supposition courante, mais risquée.
+
+## Exemple pratique
+
+Un marché qui a monté de façon constante pendant deux ans pourrait être qualifié de marché haussier — mais cette étiquette décrit ce qui s’est déjà produit, et ne garantit pas que les prix continueront de monter.
+
+## Quiz pratique
+
+1. Un marché haussier désigne généralement :
+   A. Une période soutenue de baisse des prix
+   B. Une période soutenue de hausse des prix
+   C. Une seule journée de bourse
+   D. Un type d’obligation
+2. Vrai ou faux : le fait d’être qualifié de « marché haussier » garantit que les prix continueront de monter.
+3. Sur quoi reposent habituellement les étiquettes de marché haussier et de marché baissier?
+   A. Une annonce gouvernementale
+   B. Une tendance des prix observée sur une période
+   C. Le rapport de résultats d’une seule entreprise
+   D. La météo
 
 ## Corrigé
-1. Investir un montant fixe à intervalles réguliers quel que soit le cours   2. Achète davantage de parts   3. Faux   4. Réduire le risque émotionnel et de chronométrage, non garantir des rendements plus élevés
 
-## Réponses et Explications
-1. Ceci est le mécanisme fondamental de l'investissement programmé.
-2. Les montants fixes achètent davantage de parts lorsque les cours sont plus bas.
-3. Un placement en une seule fois a souvent historiquement surpassé cette méthode dans les marchés haussiers.
-4. La valeur de cette méthode est principalement comportementale/réductrice de risque, non un amplificateur garanti de rendements.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Cette méthode investit des montants fixes régulièrement, achetant davantage de parts lorsque les cours sont bas.
-- Elle lisse le coût d'achat moyen mais ne garantit pas de meilleurs rendements qu'un placement en une seule fois.
-- Son avantage principal est de réduire le risque de chronométrage et émotionnel, non de maximiser les rendements.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un marché haussier désigne une tendance soutenue à la hausse.
+
+### Question 2
+Bonne réponse : Faux. L’étiquette décrit une tendance passée ou actuelle, et non un avenir garanti.
+
+### Question 3
+Bonne réponse : B. Ces étiquettes reflètent une tendance des prix observée.
+
+## Points clés
+
+- Un marché haussier est une tendance soutenue à la hausse; un marché baissier, une tendance soutenue à la baisse.
+- Ces étiquettes décrivent une tendance observée, et non une prévision.
+- Les marchés peuvent passer de l’un à l’autre, de façon imprévisible.

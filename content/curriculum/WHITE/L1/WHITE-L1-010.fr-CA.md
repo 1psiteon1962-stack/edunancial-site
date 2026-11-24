@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 10
 locale: fr-CA
-title: "WHITE-L1-010 : Risque et Rendement — La Relation de Base"
-summary: "*HYPOTHÈSE :* Le niveau de risque approprié pour un investisseur dépend de facteurs comme l'horizon de placement, les objectifs financiers, et la tolérance personnelle au risque — il n'existe pas un seul niveau de risque « correct » pour tout le monde."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un fonds commun de placement, et en quoi diffère-t-il d’un FNB?"
+summary: "Découvrez ce qu’est un fonds commun de placement et les principales différences pratiques entre les fonds communs de placement et les FNB."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-010 : Risque et Rendement — La Relation de Base
+# Qu’est-ce qu’un fonds commun de placement, et en quoi diffère-t-il d’un FNB?
 
-## Objectifs d'Apprentissage
-1. Expliquer la relation générale entre le risque et le rendement potentiel.
-2. Identifier pourquoi les rendements potentiels plus élevés s'accompagnent généralement de plus de risque.
-3. Reconnaître qu'il s'agit d'une tendance générale, pas d'une garantie.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* En général, les placements offrant des rendements potentiels plus élevés ont tendance à comporter plus de risque de perte, et les placements à risque plus faible ont tendance à offrir des rendements potentiels plus modestes — ceci est une relation fondamentale en matière de placement, bien que ce ne soit pas une règle absolue pour chaque placement pris individuellement.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Le niveau de risque approprié pour un investisseur dépend de facteurs comme l'horizon de placement, les objectifs financiers, et la tolérance personnelle au risque — il n'existe pas un seul niveau de risque « correct » pour tout le monde.
+- Définir un fonds commun de placement en termes simples.
+- Expliquer en quoi les fonds communs de placement et les FNB se ressemblent.
+- Nommer au moins une différence pratique entre les deux.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Malia compare deux options : un compte d'épargne offrant un intérêt modeste garanti, et des actions individuelles de croissance avec des rendements moyens historiques bien plus élevés mais une volatilité importante d'une année sur l'autre, incluant des pertes potentielles. Elle épargne pour la retraite dans 30 ans, ce qui lui laisse le temps de traverser la volatilité — une situation très différente de celle de quelqu'un qui a besoin de cet argent dans un an.
+## Contenu principal
 
-## Quiz Pratique
-1. Quelle est la relation générale entre le risque et le rendement potentiel ?
-2. Vrai/Faux : Tout placement à risque élevé garantit un rendement élevé.
-3. Cite un facteur qui influence le niveau de risque approprié pour un investisseur.
-4. Pourquoi un horizon de placement long pourrait-il modifier la tolérance au risque ?
+### Ce qu’est un fonds commun de placement
+
+Comme un FNB, un fonds commun de placement met en commun l’argent de nombreux investisseurs pour acheter un ensemble d’actifs. Les deux partagent la notion de base de « panier » vue dans la leçon précédente.
+
+### En quoi ils se ressemblent
+
+Les fonds communs de placement et les FNB offrent tous deux une exposition diversifiée à un panier de placements au moyen d’un seul investissement, et les deux peuvent être gérés de façon active ou passive.
+
+### Une différence pratique clé
+
+Contrairement aux FNB, qui se négocient en bourse tout au long de la journée à des prix qui changent constamment, les parts de fonds communs de placement sont habituellement évaluées et négociées une seule fois par jour, après la fermeture des marchés, selon la valeur calculée ce jour-là.
+
+## Exemple pratique
+
+Une personne qui achète un FNB peut voir son prix changer de minute en minute pendant les heures de marché. Une personne qui achète un fonds commun de placement passe son ordre et obtient un prix calculé à la fin de cette journée de bourse, et non en temps réel.
+
+## Quiz pratique
+
+1. Un fonds commun de placement est :
+   A. L’action d’une seule entreprise
+   B. Un fonds commun qui investit dans un ensemble d’actifs, semblable dans son principe à un FNB
+   C. Exclusivement un type d’obligation
+   D. Un programme d’épargne gouvernemental
+2. Vrai ou faux : les parts de fonds communs de placement se négocient en continu tout au long de la journée, comme les parts de FNB.
+3. Quelle est une différence pratique clé entre les fonds communs de placement et les FNB?
+   A. Les fonds communs de placement ne peuvent pas détenir d’actions
+   B. Les fonds communs de placement sont habituellement évalués une fois par jour; les FNB se négocient tout au long de la journée
+   C. Les FNB ne peuvent pas être diversifiés
+   D. Il n’y a aucune réelle différence
 
 ## Corrigé
-1. Les rendements potentiels plus élevés s'accompagnent généralement de plus de risque   2. Faux   3. Horizon de placement, objectifs financiers, tolérance au risque (entre autres)   4. Plus de temps permet de traverser la volatilité à court terme
 
-## Réponses et Explications
-1. Ceci est la relation fondamentale entre risque et rendement en matière de placement.
-2. Plus de risque signifie plus de potentiel — et plus de potentiel de perte — pas une garantie.
-3. Ce sont des facteurs fondamentaux qui façonnent le niveau de risque approprié à chaque individu.
-4. Les horizons plus longs laissent plus de temps pour se remettre des baisses avant d'avoir besoin de l'argent.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Un rendement potentiel plus élevé est généralement corrélé à plus de risque.
-- Ceci est une tendance générale, pas une garantie pour un placement précis.
-- Le niveau de risque approprié dépend de l'horizon de placement, des objectifs, et de la tolérance personnelle.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fonds commun de placement met l’argent en commun dans un panier diversifié, semblable dans son principe à un FNB.
+
+### Question 2
+Bonne réponse : Faux. Les fonds communs de placement sont habituellement évalués une fois par jour, contrairement aux FNB.
+
+### Question 3
+Bonne réponse : B. La fréquence d’évaluation est une différence pratique clé.
+
+## Points clés
+
+- Un fonds commun de placement met en commun l’argent des investisseurs dans un panier diversifié, semblable à un FNB.
+- Les deux offrent une exposition diversifiée au moyen d’un seul investissement.
+- Les fonds communs de placement sont habituellement évalués une fois par jour; les FNB se négocient tout au long de la journée.

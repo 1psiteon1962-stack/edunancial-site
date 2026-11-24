@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 13
 locale: fr-CA
-title: "WHITE-L1-013 : Les Indices Boursiers (S&P 500 et Autres)"
-summary: "*RÈGLE PROPRE À LA RÉGION :* D'autres indices importants suivent différents marchés ou segments (par exemple, différents pays ou tailles d'entreprise) — l'indice le plus pertinent dépend du segment de marché qui intéresse un investisseur."
-sourceVersion: "1.0"
+title: "Qu’est-ce que la diversification, en termes simples?"
+summary: "Découvrez ce que la diversification fait réellement et ce qu’elle ne fait pas — elle réduit un certain risque, mais n’élimine pas tout risque."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-013 : Les Indices Boursiers (S&P 500 et Autres)
+# Qu’est-ce que la diversification, en termes simples?
 
-## Objectifs d'Apprentissage
-1. Définir un indice boursier.
-2. Expliquer ce que mesure un indice comme le S&P 500.
-3. Identifier pourquoi les indices sont utilisés comme références.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un indice boursier suit la performance d'un groupe précis d'actions, utilisé comme référence pour un segment du marché. *FAIT VÉRIFIÉ :* Le S&P 500, par exemple, suit 500 grandes entreprises américaines et est couramment utilisé comme référence pour la performance générale du marché boursier américain des grandes capitalisations.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*RÈGLE PROPRE À LA RÉGION :* D'autres indices importants suivent différents marchés ou segments (par exemple, différents pays ou tailles d'entreprise) — l'indice le plus pertinent dépend du segment de marché qui intéresse un investisseur.
+- Définir la diversification en termes simples.
+- Expliquer quel type de risque elle réduit.
+- Expliquer pourquoi elle n’élimine pas tout risque.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un bulletin d'informations financières annonce « le marché a progressé de 1,5 % aujourd'hui », faisant typiquement référence à un indice majeur comme le S&P 500 progressant de ce montant. Un investisseur détenant un fonds indiciel S&P 500 verrait la valeur de son fonds évoluer de façon similaire, puisque le fonds est conçu pour suivre de près la performance de cet indice.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un indice boursier ?
-2. Que suit le S&P 500 ?
-3. Vrai/Faux : Tous les indices suivent le même groupe d'entreprises.
-4. Pourquoi les indices sont-ils utilisés comme références ?
+### Ce qu’est la diversification
+
+La diversification consiste à répartir ses placements entre plusieurs actifs différents plutôt que de tout concentrer dans un seul — l’idée de base derrière la structure en « panier » des FNB et des fonds communs de placement vue précédemment.
+
+### Quel type de risque elle réduit
+
+La diversification réduit précisément le risque de concentration — le risque qu’un seul placement ait un mauvais rendement et entraîne vers le bas tout un portefeuille. Si un placement parmi plusieurs a un mauvais rendement, son effet sur l’ensemble est moindre que s’il s’agissait du seul placement.
+
+### Pourquoi elle n’élimine pas tout risque
+
+La diversification ne protège pas contre les baisses générales du marché qui touchent un grand nombre ou la plupart des placements à la fois, et elle ne garantit aucun profit. Elle gère un type précis de risque, et non tous les risques possibles.
+
+## Exemple pratique
+
+Une personne qui détient les actions d’une seule entreprise perd beaucoup si cette entreprise a un mauvais rendement. Une personne qui détient des actions de 50 entreprises différentes est beaucoup moins touchée par le mauvais rendement d’une seule d’entre elles — même si un repli général du marché pourrait quand même toucher les 50.
+
+## Quiz pratique
+
+1. La diversification consiste à :
+   A. Tout investir dans un seul actif
+   B. Répartir ses placements entre plusieurs actifs différents
+   C. Éviter tout risque d’investissement
+   D. Garantir un profit
+2. Vrai ou faux : la diversification élimine tout risque d’investissement.
+3. Quel type précis de risque la diversification réduit-elle surtout?
+   A. Le risque lié à l’ensemble du marché
+   B. Le risque de concentration (dépendance excessive envers un seul placement)
+   C. Exclusivement le risque de change
+   D. Exclusivement le risque d’inflation
 
 ## Corrigé
-1. Un outil qui suit la performance d'un groupe précis d'actions   2. 500 grandes entreprises américaines   3. Faux   4. Ils fournissent un point de référence pour un segment du marché
 
-## Réponses et Explications
-1. Ceci est la fonction fondamentale d'un indice de marché.
-2. Ceci est la composition précise du S&P 500.
-3. Différents indices suivent différents marchés, tailles, ou régions.
-4. Les points de référence permettent aux investisseurs de comparer la performance par rapport à un segment de marché pertinent.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Un indice de marché suit un groupe défini d'actions comme référence de performance.
-- Le S&P 500 suit précisément 500 grandes entreprises américaines.
-- Différents indices servent de référence pour différents segments du marché.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La diversification consiste à répartir ses placements entre plusieurs actifs.
+
+### Question 2
+Bonne réponse : Faux. Elle réduit un certain risque, mais n’élimine pas tout risque, surtout celui des baisses générales du marché.
+
+### Question 3
+Bonne réponse : B. Le risque de concentration est le risque précis que la diversification permet de gérer.
+
+## Points clés
+
+- La diversification consiste à répartir ses placements entre plusieurs actifs.
+- Elle réduit précisément le risque de concentration.
+- Elle n’élimine pas tout risque et ne garantit aucun profit.

@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 4
 locale: fr-FR
-title: "WHITE-L1-004 : Les Fonds Communs de Placement Expliqués"
-summary: "Les parts des fonds communs de placement sont valorisées une fois par jour selon la **valeur liquidative (VL)** du fonds — la valeur totale des avoirs du fonds divisée par le nombre de parts en circulation — contrairement aux actions individuelles, qui se négocient en continu pendant la journée."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’une obligation, au fond? (Vous prêtez de l’argent, vous n’achetez pas une part de propriété)"
+summary: "Découvrez ce que représente réellement une obligation — un prêt, et non une part de propriété — et les modalités de base qui la définissent."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-004 : Les Fonds Communs de Placement Expliqués
+# Qu’est-ce qu’une obligation, au fond? (Vous prêtez de l’argent, vous n’achetez pas une part de propriété)
 
-## Objectifs d'Apprentissage
-1. Définir un fonds commun de placement.
-2. Expliquer comment la mise en commun de l'argent profite aux investisseurs individuels.
-3. Identifier comment le prix des parts d'un fonds commun de placement est calculé.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un fonds commun de placement met en commun l'argent de nombreux investisseurs pour acheter un portefeuille diversifié d'actions, d'obligations, ou d'autres titres, géré par un gestionnaire de fonds professionnel. *FAIT VÉRIFIÉ :* Cette mise en commun permet aux investisseurs individuels d'accéder à une diversification et une gestion professionnelle qu'ils n'obtiendraient peut-être pas efficacement seuls avec des sommes plus modestes.
+À la fin de cette leçon, vous devriez pouvoir :
 
-Les parts des fonds communs de placement sont valorisées une fois par jour selon la **valeur liquidative (VL)** du fonds — la valeur totale des avoirs du fonds divisée par le nombre de parts en circulation — contrairement aux actions individuelles, qui se négocient en continu pendant la journée.
+- Définir une obligation en termes simples.
+- Expliquer la relation de base entre le détenteur d’une obligation et l’émetteur.
+- Nommer les modalités de base qui définissent une obligation.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Tomás investit 2 000 $ dans un fonds commun de placement détenant 500 actions différentes. Acheter ne serait-ce qu'une action de chacune de ces 500 entreprises individuellement exigerait bien plus d'argent et de recherche qu'il n'en dispose. Grâce au fonds, ses 2 000 $ lui donnent une exposition proportionnelle aux 500 avoirs à la fois, gérés par des professionnels qui sélectionnent et surveillent ces entreprises.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un fonds commun de placement ?
-2. Qu'est-ce que la VL ?
-3. Vrai/Faux : Les parts des fonds communs de placement se négocient en continu pendant la journée comme les actions individuelles.
-4. Quel avantage la mise en commun de l'argent apporte-t-elle aux investisseurs individuels ?
+### Une obligation est un prêt, et non une part de propriété
+
+Lorsque vous achetez une obligation, vous prêtez de l’argent à celui qui l’a émise (une entreprise ou un gouvernement); vous n’achetez pas une part de propriété comme le ferait une action. C’est la distinction la plus importante entre les actions et les obligations.
+
+### La relation de base
+
+L’émetteur promet de rembourser le montant initial (le capital, ou « valeur nominale ») à une date future fixée (l’échéance) et, habituellement, de verser des intérêts périodiques (appelés coupon) en cours de route, en échange de l’utilisation de votre argent.
+
+### Les modalités de base
+
+Toute obligation a une valeur nominale (le montant remboursé à l’échéance), un taux de coupon (le taux d’intérêt versé) et une date d’échéance (le moment où le prêt est remboursé). Ces modalités sont fixées au moment de l’émission de l’obligation.
+
+## Exemple pratique
+
+Un investisseur achète une obligation d’une valeur nominale de 1 000 €, avec un taux de coupon de 4 % et une échéance de 10 ans. Il reçoit 40 € d’intérêts par année (4 % de 1 000 €) et récupère ses 1 000 € après 10 ans.
+
+## Quiz pratique
+
+1. Acheter une obligation signifie :
+   A. Acheter une part de propriété dans une entreprise
+   B. Prêter de l’argent à l’émetteur
+   C. Acheter un bien physique
+   D. Devenir employé de l’entreprise
+2. Vrai ou faux : le taux de coupon d’une obligation désigne le montant remboursé à l’échéance.
+3. Qu’est-ce que la valeur nominale d’une obligation?
+   A. Le taux d’intérêt versé
+   B. Le montant remboursé au détenteur à l’échéance
+   C. Le prix actuel de l’obligation sur le marché
+   D. La dette totale de l’émetteur
 
 ## Corrigé
-1. Un véhicule de placement collectif achetant un portefeuille diversifié   2. Valeur liquidative — la valeur totale des avoirs du fonds divisée par les parts en circulation   3. Faux   4. L'accès à la diversification et à la gestion professionnelle
 
-## Réponses et Explications
-1. Ceci définit la structure fondamentale d'un fonds commun de placement.
-2. La VL est le mécanisme standard de valorisation des fonds communs de placement.
-3. Les fonds communs de placement sont valorisés une fois par jour selon la VL, contrairement aux actions négociées en continu.
-4. Mettre l'argent en commun permet aux investisseurs plus modestes d'accéder à une diversification autrement hors de portée.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les fonds communs de placement mettent en commun l'argent des investisseurs dans un portefeuille diversifié et géré professionnellement.
-- Les parts sont valorisées une fois par jour selon la VL, pas en continu comme les actions individuelles.
-- La mise en commun donne aux investisseurs plus modestes accès à la diversification et à la gestion professionnelle.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une obligation représente un prêt d’argent, et non une part de propriété.
+
+### Question 2
+Bonne réponse : Faux. Le taux de coupon est le taux d’intérêt; la valeur nominale est le montant remboursé à l’échéance.
+
+### Question 3
+Bonne réponse : B. La valeur nominale est le capital remboursé à l’échéance.
+
+## Points clés
+
+- Une obligation représente un prêt d’argent, et non une part de propriété.
+- L’émetteur promet de rembourser le capital à l’échéance, en plus de verser des intérêts périodiques (le coupon).
+- La valeur nominale, le taux de coupon et la date d’échéance sont les modalités de base qui la définissent.

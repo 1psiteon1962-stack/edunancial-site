@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 25
 locale: fr-CA
-title: "WHITE-L1-025 : Actions de Croissance vs. Actions de Valeur"
-summary: "*HYPOTHÈSE :* Aucune catégorie ne surpasse durablement l'autre sur toutes les périodes — le leadership du marché a historiquement alterné entre croissance et valeur selon les époques, et prédire lequel dominera à l'avenir n'est pas fiable."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le bénéfice par action (BPA)?"
+summary: "Découvrez ce que mesure le BPA et comment le calculer, en préparation des leçons ultérieures sur l’évaluation."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-025 : Actions de Croissance vs. Actions de Valeur
+# Qu’est-ce que le bénéfice par action (BPA)?
 
-## Objectifs d'Apprentissage
-1. Distinguer les actions de croissance des actions de valeur.
-2. Identifier les caractéristiques générales de chaque catégorie.
-3. Reconnaître qu'aucune catégorie n'est universellement supérieure.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les **actions de croissance** sont des entreprises dont les bénéfices sont censés croître plus vite que la moyenne, réinvestissant souvent leurs bénéfices plutôt que de verser des dividendes, et se négociant souvent à des valorisations plus élevées par rapport aux bénéfices actuels. Les **actions de valeur** sont des entreprises perçues comme se négociant en dessous de leur valeur intrinsèque, souvent plus établies, versant parfois des dividendes, avec des valorisations plus basses par rapport aux bénéfices.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Aucune catégorie ne surpasse durablement l'autre sur toutes les périodes — le leadership du marché a historiquement alterné entre croissance et valeur selon les époques, et prédire lequel dominera à l'avenir n'est pas fiable.
+- Énoncer la formule du BPA.
+- Calculer un BPA de base à partir du bénéfice net et du nombre d’actions en circulation.
+- Expliquer en termes simples ce que représente le BPA.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux investisseurs constituent des portefeuilles différents. L'un privilégie les actions de croissance — des entreprises plus jeunes en expansion rapide qui réinvestissent massivement, sans dividendes actuels. L'autre privilégie les actions de valeur — des entreprises établies et stables versant des dividendes réguliers mais avec une croissance plus lente. Les deux constituent des philosophies de placement valables ; laquelle performera mieux sur une période donnée n'est pas prévisible de façon fiable à l'avance.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qui caractérise généralement les actions de croissance ?
-2. Qu'est-ce qui caractérise généralement les actions de valeur ?
-3. Vrai/Faux : Les actions de croissance surpassent toujours les actions de valeur.
-4. Qu'est-il arrivé historiquement au leadership de la croissance et de la valeur au fil du temps ?
+### La formule du BPA
+
+Bénéfice par action (BPA, ou EPS en anglais) = bénéfice net ÷ actions en circulation. Il répartit le bénéfice total d’une entreprise entre chacune de ses actions.
+
+### Ce que représente le BPA
+
+Le BPA représente la part du bénéfice attribuable à chaque action — une façon d’exprimer le bénéfice total d’une entreprise par action, ce qui facilite la comparaison entre des entreprises de tailles différentes.
+
+### Pourquoi c’est important pour la suite
+
+Le BPA est la base de plusieurs notions d’évaluation approfondies au niveau 2 — comprendre maintenant ce qu’il mesure prépare cette matière ultérieure.
+
+## Exemple pratique
+
+Une entreprise dont le bénéfice net est de 5 000 000 $ et qui compte 1 000 000 d’actions en circulation a un BPA de 5 000 000 $ ÷ 1 000 000 = 5,00 $ par action.
+
+## Quiz pratique
+
+1. Le BPA se calcule ainsi :
+   A. Cours de l’action ÷ bénéfice net
+   B. Bénéfice net ÷ actions en circulation
+   C. Chiffre d’affaires total ÷ dépenses totales
+   D. Actions en circulation ÷ bénéfice net
+2. Vrai ou faux : le BPA représente le bénéfice total d’une entreprise, et non un montant par action.
+3. Une entreprise a un bénéfice net de 2 000 000 $ et compte 500 000 actions en circulation. Quel est son BPA?
+   A. 0,25 $
+   B. 2,50 $
+   C. 4,00 $
+   D. 250 $
 
 ## Corrigé
-1. Une croissance des bénéfices attendue plus rapide, réinvestissant souvent les bénéfices   2. Une sous-évaluation perçue, souvent plus établies, versant parfois des dividendes   3. Faux   4. Le leadership a historiquement alterné entre les deux catégories
 
-## Réponses et Explications
-1. Ceci est le profil général des actions de croissance.
-2. Ceci est le profil général des actions de valeur.
-3. Aucune catégorie ne surpasse durablement l'autre sur toutes les périodes.
-4. L'alternance historique entre styles dominants est une tendance de marché couramment observée.
+1. B
+2. Faux
+3. C
 
-## Points Clés à Retenir
-- Les actions de croissance privilégient l'expansion et le réinvestissement ; les actions de valeur privilégient la sous-évaluation perçue.
-- Aucune catégorie n'est universellement supérieure sur toutes les périodes.
-- Le leadership du marché a historiquement alterné entre les styles croissance et valeur.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. BPA = bénéfice net ÷ actions en circulation.
+
+### Question 2
+Bonne réponse : Faux. Le BPA exprime précisément le bénéfice par action.
+
+### Question 3
+Bonne réponse : C. 2 000 000 $ ÷ 500 000 = 4,00 $.
+
+## Points clés
+
+- BPA = bénéfice net ÷ actions en circulation.
+- Il exprime le bénéfice d’une entreprise par action.
+- C’est une notion de base pour les notions d’évaluation approfondies plus tard.
