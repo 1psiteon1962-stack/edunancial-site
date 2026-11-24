@@ -1,0 +1,364 @@
+===== WHITE-L1-021
+TITLE: O que é uma conta em corretora? (E em que ela difere de uma conta de aposentadoria?)
+SUMMARY: Aprenda o que é uma conta comum em corretora e em que ela difere, em propósito e flexibilidade, de uma conta de aposentadoria.
+# O que é uma conta em corretora? (E em que ela difere de uma conta de aposentadoria?)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir uma conta em corretora em termos simples.
+- explicar em que ela difere de uma conta de aposentadoria como um 401(k) ou uma IRA.
+- explicar a troca básica entre flexibilidade e vantagens fiscais.
+
+## Conteúdo principal
+
+### O que é uma conta em corretora
+
+Uma conta em corretora (em inglês, "brokerage account") é uma conta de investimento comum que permite a uma pessoa comprar e vender ações, títulos, ETFs e outros ativos de papel, sem as regras fiscais específicas de aposentadoria de um 401(k) ou de uma IRA.
+
+### Em que ela difere de uma conta de aposentadoria
+
+Ao contrário das contas de aposentadoria, uma conta comum em corretora geralmente não tem vantagens fiscais especiais, mas também não tem restrições sobre quando o dinheiro pode ser retirado: flexibilidade total para colocar ou tirar dinheiro a qualquer momento.
+
+### A troca entre flexibilidade e vantagem fiscal
+
+As contas de aposentadoria trocam um pouco de flexibilidade (muitas vezes restringindo o acesso fácil antes de certa idade) por benefícios fiscais reais. As contas em corretora trocam esses benefícios fiscais por flexibilidade total. Muitos investidores usam as duas, para propósitos diferentes.
+
+## Exemplo prático
+
+Um investidor que poupa especificamente para uma aposentadoria daqui a décadas pode priorizar um 401(k) ou uma IRA por causa dos benefícios fiscais. O mesmo investidor, se estiver poupando para um objetivo nos próximos anos e precisar de acesso flexível, pode usar uma conta comum em corretora.
+
+## Teste de prática
+
+1. Uma conta em corretora é:
+   A. Exclusivamente para poupança de aposentadoria
+   B. Uma conta de investimento comum, sem regras fiscais específicas de aposentadoria
+   C. Um tipo de título de poupança
+   D. Disponível apenas para empregadores
+
+2. Verdadeiro ou falso: uma conta comum em corretora tem as mesmas restrições de saque de um 401(k).
+
+3. Qual é a troca básica entre contas de aposentadoria e contas comuns em corretora?
+   A. Não há troca
+   B. Vantagens fiscais e acesso restrito versus flexibilidade total com menos benefícios fiscais
+   C. Contas em corretora são ilegais
+   D. Contas de aposentadoria não têm nenhum benefício fiscal
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma conta em corretora é uma conta de investimento comum e flexível.
+
+### Pergunta 2
+
+Resposta correta: Falso. As contas em corretora geralmente permitem saques a qualquer momento, ao contrário das contas de aposentadoria.
+
+### Pergunta 3
+
+Resposta correta: B. Essa é a troca central entre os dois tipos de conta.
+
+## Pontos-chave
+
+- Uma conta em corretora é uma conta de investimento comum, sem regras específicas de aposentadoria.
+- Ela oferece flexibilidade total, mas geralmente nenhuma vantagem fiscal especial.
+- As contas de aposentadoria trocam um pouco de flexibilidade por benefícios fiscais reais.
+
+===== WHITE-L1-022
+TITLE: O que é investimento periódico (dollar-cost averaging)?
+SUMMARY: Aprenda o que é o investimento periódico de valor fixo e por que investir regularmente um valor fixo pode suavizar a volatilidade dos preços.
+# O que é investimento periódico (dollar-cost averaging)?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir o investimento periódico em termos simples.
+- explicar como ele interage com a volatilidade dos preços.
+- reconhecê-lo como uma estratégia, e não como garantia de lucro.
+
+## Conteúdo principal
+
+### O que é o investimento periódico
+
+O investimento periódico (em inglês, "dollar-cost averaging", ou preço médio) significa investir um valor fixo em intervalos regulares (por exemplo, todo mês), independentemente do preço do momento, em vez de investir uma grande quantia de uma só vez.
+
+### Como ele interage com a volatilidade
+
+Como o valor investido continua fixo, compram-se mais cotas quando os preços estão mais baixos e menos cotas quando os preços estão mais altos: isso faz a média do preço de compra se formar naturalmente com o tempo, sem que o investidor precise prever os movimentos de preço.
+
+### Não é uma garantia
+
+O investimento periódico não garante lucro nem protege contra perdas: é uma forma disciplinada de investir ao longo do tempo, e não uma maneira de eliminar totalmente o risco.
+
+## Exemplo prático
+
+Um investidor aplica US$ 200 em um investimento todo mês. Quando o preço está baixo, esses US$ 200 compram mais cotas; quando o preço está alto, compram menos: ao longo de um ano, isso produz um preço médio de compra sem que o investidor precise acertar o momento do mercado.
+
+## Teste de prática
+
+1. O investimento periódico significa:
+   A. Investir uma grande quantia de uma só vez
+   B. Investir um valor fixo em intervalos regulares, independentemente do preço
+   C. Investir apenas quando os preços estão baixos
+   D. Evitar todos os ativos de papel
+
+2. Verdadeiro ou falso: o investimento periódico garante lucro.
+
+3. O que acontece com o número de cotas compradas quando o preço está mais baixo, no investimento periódico?
+   A. Compram-se menos cotas
+   B. Compram-se mais cotas com o mesmo valor fixo
+   C. Não se compra nenhuma cota
+   D. O valor investido aumenta automaticamente
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Valor fixo, intervalos regulares, independentemente do preço.
+
+### Pergunta 2
+
+Resposta correta: Falso. É uma estratégia disciplinada, e não uma garantia.
+
+### Pergunta 3
+
+Resposta correta: B. Um valor fixo compra mais cotas quando o preço está mais baixo.
+
+## Pontos-chave
+
+- O investimento periódico significa investir um valor fixo em intervalos regulares.
+- Ele compra naturalmente mais cotas quando os preços estão baixos e menos quando estão altos.
+- É uma estratégia disciplinada, e não uma garantia contra perdas.
+
+===== WHITE-L1-023
+TITLE: O que é um desdobramento de ações (split)?
+SUMMARY: Aprenda o que um desdobramento de ações muda e o que não muda no valor de uma empresa.
+# O que é um desdobramento de ações (split)?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um desdobramento de ações em termos simples.
+- explicar o que muda e o que não muda em um desdobramento.
+- calcular uma quantidade básica de ações e um preço depois do desdobramento.
+
+## Conteúdo principal
+
+### O que é um desdobramento de ações
+
+Um desdobramento de ações (em inglês, "stock split") divide cada ação existente em várias ações novas, reduzindo proporcionalmente o preço por ação e aumentando o número de ações em circulação.
+
+### O que muda e o que não muda
+
+O número de ações do investidor aumenta, e o preço por ação diminui na mesma proporção. O que NÃO muda: o valor total da posição do investidor e a capitalização de mercado total da empresa. A pizza é cortada em mais fatias, mas a pizza continua do mesmo tamanho.
+
+### Por que as empresas fazem isso
+
+As empresas às vezes desdobram as ações para trazer o preço por ação para uma faixa mais acessível aos investidores, embora isso não mude em nada o valor subjacente da empresa.
+
+## Exemplo prático
+
+Um investidor que tem 10 ações de US$ 100 cada (US$ 1.000 no total) passa por um desdobramento de 2 para 1. Agora ele tem 20 ações de US$ 50 cada: continuam sendo US$ 1.000 no total, apenas divididos em mais ações, mais baratas.
+
+## Teste de prática
+
+1. Um desdobramento de ações:
+   A. Aumenta o valor de mercado total de uma empresa
+   B. Divide as ações existentes em mais ações a um preço proporcionalmente menor
+   C. Reduz o número de ações em circulação
+   D. Muda o negócio subjacente da empresa
+
+2. Verdadeiro ou falso: um desdobramento de ações muda o valor total da posição de um investidor.
+
+3. Um investidor tem 5 ações de US$ 200 cada. Depois de um desdobramento de 2 para 1, quantas ações ele tem, e a que preço?
+   A. 5 ações a US$ 400
+   B. 10 ações a US$ 100
+   C. 2,5 ações a US$ 200
+   D. 10 ações a US$ 200
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um desdobramento divide as ações proporcionalmente, sem mudar o valor total.
+
+### Pergunta 2
+
+Resposta correta: Falso. O valor total da posição continua o mesmo logo depois de um desdobramento.
+
+### Pergunta 3
+
+Resposta correta: B. 5 ações × 2 = 10 ações; US$ 200 ÷ 2 = US$ 100 por ação.
+
+## Pontos-chave
+
+- Um desdobramento divide as ações em mais ações a um preço proporcionalmente menor.
+- O valor total da posição e a capitalização de mercado não mudam por causa do desdobramento em si.
+- As empresas desdobram ações principalmente para tornar o preço por ação mais acessível.
+
+===== WHITE-L1-024
+TITLE: O que são frações de ações?
+SUMMARY: Aprenda o que são frações de ações, como elas reduzem a barreira para investir e como podem ser usadas para dimensionar o risco de forma adequada para um iniciante.
+# O que são frações de ações?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir uma fração de ação em termos simples.
+- explicar o problema de acesso que as frações de ações resolvem.
+- explicar como as frações de ações podem ser usadas para dimensionar o risco de forma adequada, e não só para conseguir comprar uma ação de preço alto.
+
+## Conteúdo principal
+
+### O que são frações de ações
+
+Uma fração de ação é uma parte de uma única ação, menor que uma ação inteira, que permite ao investidor comprar menos de uma ação completa de cada vez.
+
+### O problema de acesso que elas resolvem
+
+Antes de as frações de ações se tornarem comuns, o investidor precisava de dinheiro suficiente para comprar pelo menos uma ação inteira: uma barreira real para ações de preço mais alto. As frações permitem que um investidor com uma quantia menor ainda tenha exposição proporcional àquela mesma ação.
+
+### Um segundo uso, menos óbvio: dimensionar o risco de propósito
+
+Pergunte a si mesmo: se você está ensinando alguém a investir pela primeira vez – talvez um jovem com muito pouco dinheiro –, qual é o perigo real? Não é só "não conseguir pagar uma ação". É a possibilidade de uma perda grande o bastante para realmente machucar. Um pai ou uma mãe que ensina um adolescente a investir, por exemplo, pode usar uma conta com frações de ações justamente para que uma perda real fique pequena o bastante para ser uma lição de verdade, e não um desastre. O tamanho da posição, e não só o que cabe no bolso, é uma escolha deliberada.
+
+## Exemplo prático
+
+Imagine um pai que abre uma pequena conta com frações de ações para o filho adolescente. Por que frações, em vez de esperar até que ele pudesse comprar uma ação inteira? Não só para que ele pudesse tecnicamente ser dono de um pedaço de uma ação cara, mas para que, se o investimento perdesse valor, a perda fosse pequena o bastante para ser realmente absorvida e servir de aprendizado, e não algo que pudesse prejudicá-lo seriamente. A lição não era só "agora você pode investir", mas "agora você pode errar, com segurança, enquanto ainda está aprendendo".
+
+## Teste de prática
+
+1. Uma fração de ação é:
+   A. Uma ação inteira
+   B. Uma parte de uma única ação, menor que uma ação inteira
+   C. Um tipo de título de dívida
+   D. Um pagamento garantido de dividendos
+
+2. Verdadeiro ou falso: as frações de ações exigem que o investidor tenha dinheiro suficiente para pelo menos uma ação inteira.
+
+3. Além do preço acessível, que outro motivo real pode levar alguém a escolher frações de ações para um investidor iniciante?
+   A. Garantir lucro
+   B. Dimensionar a posição para que uma possível perda fique pequena o bastante para ser uma lição real e segura
+   C. Nunca perder dinheiro
+   D. Dispensar qualquer pesquisa
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma fração de ação é menos que uma ação inteira.
+
+### Pergunta 2
+
+Resposta correta: Falso. As frações de ações eliminam justamente essa exigência.
+
+### Pergunta 3
+
+Resposta correta: B. Dimensionar uma posição para que uma perda seja suportável e educativa, e não prejudicial, é um uso deliberado e concreto do investimento em frações.
+
+## Pontos-chave
+
+- Uma fração de ação é uma parte de uma ação inteira.
+- Ela elimina a barreira de precisar do preço de uma ação inteira para investir.
+- Ela também pode ser usada de forma deliberada para dimensionar uma posição de modo que o risco continue adequado: algo especialmente importante ao ensinar um iniciante.
+
+===== WHITE-L1-025
+TITLE: O que é lucro por ação (LPA)?
+SUMMARY: Aprenda o que o lucro por ação (LPA, em inglês EPS) mede e como é calculado, como base para lições posteriores sobre avaliação.
+# O que é lucro por ação (LPA)?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- enunciar a fórmula do LPA.
+- calcular um LPA básico a partir do lucro líquido e das ações em circulação.
+- explicar em termos simples o que o LPA representa.
+
+## Conteúdo principal
+
+### A fórmula do LPA
+
+Lucro por ação (LPA; em inglês, "earnings per share", EPS) = lucro líquido ÷ ações em circulação. Ele divide o lucro total de uma empresa por cada ação individual.
+
+### O que o LPA representa
+
+O LPA representa quanto do lucro pode ser atribuído a cada ação individual: uma forma de expressar o lucro total de uma empresa por ação, o que facilita a comparação entre empresas de tamanhos diferentes.
+
+### Por que isso importa daqui para a frente
+
+O LPA é a base de vários conceitos de avaliação tratados com mais profundidade no Nível 2: entender agora o que ele mede prepara esse conteúdo posterior.
+
+## Exemplo prático
+
+Uma empresa com US$ 5.000.000 de lucro líquido e 1.000.000 de ações em circulação tem LPA de US$ 5.000.000 ÷ 1.000.000 = US$ 5,00 por ação.
+
+## Teste de prática
+
+1. O LPA é calculado como:
+   A. Preço da ação ÷ lucro líquido
+   B. Lucro líquido ÷ ações em circulação
+   C. Receita total ÷ despesas totais
+   D. Ações em circulação ÷ lucro líquido
+
+2. Verdadeiro ou falso: o LPA representa o lucro total de uma empresa, e não um valor por ação.
+
+3. Uma empresa tem US$ 2.000.000 de lucro líquido e 500.000 ações em circulação. Qual é o seu LPA?
+   A. US$ 0,25
+   B. US$ 2,50
+   C. US$ 4,00
+   D. US$ 250
+
+## Gabarito
+
+1. B
+2. Falso
+3. C
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. LPA = lucro líquido ÷ ações em circulação.
+
+### Pergunta 2
+
+Resposta correta: Falso. O LPA expressa especificamente o lucro por ação.
+
+### Pergunta 3
+
+Resposta correta: C. US$ 2.000.000 ÷ 500.000 = US$ 4,00.
+
+## Pontos-chave
+
+- LPA = lucro líquido ÷ ações em circulação.
+- Ele expressa o lucro de uma empresa por ação.
+- É a base de conceitos de avaliação tratados com mais profundidade adiante.

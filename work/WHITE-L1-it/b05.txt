@@ -1,0 +1,364 @@
+===== WHITE-L1-021
+TITLE: Che cos'è un conto titoli? (E in che cosa differisce da un conto previdenziale?)
+SUMMARY: Scopri che cos'è un normale conto titoli e in che cosa differisce, per scopo e flessibilità, da un conto previdenziale.
+# Che cos'è un conto titoli? (E in che cosa differisce da un conto previdenziale?)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un conto titoli.
+- spiegare in che cosa differisce da un conto previdenziale come un 401(k) o un IRA.
+- spiegare il compromesso di base tra flessibilità e vantaggi fiscali.
+
+## Contenuto principale
+
+### Che cos'è un conto titoli
+
+Un conto titoli (in inglese "brokerage account") è un normale conto d'investimento che permette a una persona di comprare e vendere azioni, obbligazioni, ETF e altre attività di carta, senza le regole fiscali specifiche per la pensione di un 401(k) o di un IRA.
+
+### In che cosa differisce da un conto previdenziale
+
+A differenza dei conti previdenziali, un normale conto titoli in genere non ha vantaggi fiscali particolari, ma nemmeno limiti su quando si può prelevare il denaro: piena flessibilità di aggiungere o togliere denaro in qualsiasi momento.
+
+### Il compromesso tra flessibilità e vantaggio fiscale
+
+I conti previdenziali scambiano un po' di flessibilità (spesso limitando l'accesso facile prima di una certa età) con vantaggi fiscali reali. I conti titoli scambiano quei vantaggi fiscali con una piena flessibilità. Molti investitori usano entrambi, per scopi diversi.
+
+## Esempio svolto
+
+Un investitore che risparmia specificamente per una pensione lontana decenni potrebbe dare priorità a un 401(k) o a un IRA per i vantaggi fiscali. Lo stesso investitore, se risparmia per un obiettivo nei prossimi anni e ha bisogno di un accesso flessibile, potrebbe invece usare un normale conto titoli.
+
+## Quiz di esercitazione
+
+1. Un conto titoli è:
+   A. Esclusivamente per il risparmio previdenziale
+   B. Un normale conto d'investimento senza regole fiscali specifiche per la pensione
+   C. Un tipo di buono di risparmio
+   D. Disponibile solo per i datori di lavoro
+
+2. Vero o falso: un normale conto titoli ha gli stessi limiti di prelievo di un 401(k).
+
+3. Qual è il compromesso di base tra conti previdenziali e normali conti titoli?
+   A. Non c'è alcun compromesso
+   B. Vantaggi fiscali e accesso limitato contro piena flessibilità con meno vantaggi fiscali
+   C. I conti titoli sono illegali
+   D. I conti previdenziali non hanno alcun vantaggio fiscale
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un conto titoli è un normale conto d'investimento flessibile.
+
+### Domanda 2
+
+Risposta corretta: Falso. I conti titoli permettono in genere di prelevare in qualsiasi momento, a differenza dei conti previdenziali.
+
+### Domanda 3
+
+Risposta corretta: B. È questo il compromesso fondamentale tra i due tipi di conto.
+
+## Punti chiave
+
+- Un conto titoli è un normale conto d'investimento senza regole specifiche per la pensione.
+- Offre piena flessibilità, ma in genere nessun vantaggio fiscale particolare.
+- I conti previdenziali scambiano un po' di flessibilità con vantaggi fiscali reali.
+
+===== WHITE-L1-022
+TITLE: Che cos'è il piano di accumulo (dollar-cost averaging)?
+SUMMARY: Scopri che cos'è il piano di accumulo e perché investire regolarmente un importo fisso può attenuare la volatilità dei prezzi.
+# Che cos'è il piano di accumulo (dollar-cost averaging)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici il piano di accumulo.
+- spiegare come interagisce con la volatilità dei prezzi.
+- riconoscerlo come una strategia, non come una garanzia di profitto.
+
+## Contenuto principale
+
+### Che cos'è il piano di accumulo
+
+Il piano di accumulo (PAC; in inglese "dollar-cost averaging") consiste nell'investire un importo fisso a intervalli regolari (per esempio ogni mese), indipendentemente dal prezzo del momento, invece di investire una grossa somma tutta in una volta.
+
+### Come interagisce con la volatilità
+
+Poiché l'importo investito resta fisso, si comprano più quote quando i prezzi sono più bassi e meno quote quando i prezzi sono più alti: in questo modo il prezzo di acquisto si media naturalmente nel tempo, senza che l'investitore debba prevedere i movimenti dei prezzi.
+
+### Non è una garanzia
+
+Il piano di accumulo non garantisce un profitto né protegge dalle perdite: è un approccio disciplinato per investire nel tempo, non un modo per eliminare del tutto il rischio.
+
+## Esempio svolto
+
+Un investitore versa 200 $ in un investimento ogni mese. Quando il prezzo è basso, quei 200 $ comprano più quote; quando il prezzo è alto, ne comprano meno: nell'arco di un anno si ottiene così un prezzo medio di acquisto senza che l'investitore debba cercare il momento giusto per entrare nel mercato.
+
+## Quiz di esercitazione
+
+1. Il piano di accumulo significa:
+   A. Investire una grossa somma tutta in una volta
+   B. Investire un importo fisso a intervalli regolari, indipendentemente dal prezzo
+   C. Investire solo quando i prezzi sono bassi
+   D. Evitare tutte le attività di carta
+
+2. Vero o falso: il piano di accumulo garantisce un profitto.
+
+3. Che cosa succede al numero di quote acquistate quando il prezzo è più basso, con il piano di accumulo?
+   A. Si comprano meno quote
+   B. Con lo stesso importo fisso si comprano più quote
+   C. Non si compra alcuna quota
+   D. L'importo investito aumenta automaticamente
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Importo fisso, intervalli regolari, indipendentemente dal prezzo.
+
+### Domanda 2
+
+Risposta corretta: Falso. È una strategia disciplinata, non una garanzia.
+
+### Domanda 3
+
+Risposta corretta: B. Un importo fisso compra più quote quando il prezzo è più basso.
+
+## Punti chiave
+
+- Il piano di accumulo consiste nell'investire un importo fisso a intervalli regolari.
+- Compra naturalmente più quote quando i prezzi sono bassi e meno quando sono alti.
+- È una strategia disciplinata, non una garanzia contro le perdite.
+
+===== WHITE-L1-023
+TITLE: Che cos'è il frazionamento azionario (stock split)?
+SUMMARY: Scopri che cosa cambia e che cosa non cambia, nel valore di un'azienda, con un frazionamento azionario.
+# Che cos'è il frazionamento azionario (stock split)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un frazionamento azionario.
+- spiegare che cosa cambia e che cosa non cambia con un frazionamento.
+- calcolare un numero di azioni e un prezzo di base dopo il frazionamento.
+
+## Contenuto principale
+
+### Che cos'è un frazionamento azionario
+
+Un frazionamento azionario divide ogni azione esistente in più azioni nuove, riducendo proporzionalmente il prezzo per azione e aumentando il numero di azioni in circolazione.
+
+### Che cosa cambia e che cosa no
+
+Il numero di azioni possedute dall'investitore aumenta e il prezzo per azione diminuisce in proporzione. Che cosa NON cambia: il valore totale della partecipazione dell'investitore e la capitalizzazione di mercato complessiva dell'azienda. La torta viene tagliata in più fette, ma la torta resta della stessa grandezza.
+
+### Perché le aziende lo fanno
+
+Le aziende a volte frazionano le azioni per portare il prezzo per azione in una fascia più accessibile agli investitori, anche se questo non cambia affatto il valore sottostante dell'azienda.
+
+## Esempio svolto
+
+Un investitore che possiede 10 azioni a 100 $ l'una (1.000 $ in totale) vive un frazionamento 2 per 1. Ora possiede 20 azioni a 50 $ l'una: sempre 1.000 $ in totale, solo suddivisi in più azioni meno care.
+
+## Quiz di esercitazione
+
+1. Un frazionamento azionario:
+   A. Aumenta il valore di mercato totale di un'azienda
+   B. Divide le azioni esistenti in più azioni a un prezzo proporzionalmente più basso
+   C. Riduce il numero di azioni in circolazione
+   D. Cambia l'attività sottostante dell'azienda
+
+2. Vero o falso: un frazionamento azionario cambia il valore totale della partecipazione di un investitore.
+
+3. Un investitore possiede 5 azioni a 200 $ l'una. Dopo un frazionamento 2 per 1, quante azioni possiede e a quale prezzo?
+   A. 5 azioni a 400 $
+   B. 10 azioni a 100 $
+   C. 2,5 azioni a 200 $
+   D. 10 azioni a 200 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un frazionamento divide le azioni in proporzione senza cambiare il valore totale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il valore totale della partecipazione resta lo stesso subito dopo un frazionamento.
+
+### Domanda 3
+
+Risposta corretta: B. 5 azioni × 2 = 10 azioni; 200 $ ÷ 2 = 100 $ per azione.
+
+## Punti chiave
+
+- Un frazionamento divide le azioni in più azioni a un prezzo proporzionalmente più basso.
+- Il valore totale della partecipazione e la capitalizzazione di mercato non cambiano per effetto del frazionamento.
+- Le aziende frazionano le azioni soprattutto per rendere più accessibile il prezzo per azione.
+
+===== WHITE-L1-024
+TITLE: Che cosa sono le azioni frazionate?
+SUMMARY: Scopri che cosa sono le azioni frazionate, come abbassano la soglia d'ingresso negli investimenti e come si possono usare per dimensionare in modo adeguato il rischio per un principiante.
+# Che cosa sono le azioni frazionate?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un'azione frazionata.
+- spiegare il problema di accessibilità che le azioni frazionate risolvono.
+- spiegare come le azioni frazionate si possano usare per dimensionare il rischio in modo adeguato, non solo per permettersi un'azione dal prezzo alto.
+
+## Contenuto principale
+
+### Che cosa sono le azioni frazionate
+
+Un'azione frazionata è una parte di una singola azione, più piccola di un'azione intera, che permette a un investitore di comprare meno di un'azione completa alla volta.
+
+### Il problema di accessibilità che risolvono
+
+Prima che le azioni frazionate fossero diffuse, un investitore doveva avere abbastanza denaro per comprare almeno un'azione intera: un vero ostacolo per le azioni dal prezzo più alto. Le azioni frazionate permettono a un investitore con una somma più piccola di ottenere comunque un'esposizione proporzionale a quella stessa azione.
+
+### Un secondo uso, meno evidente: dimensionare il rischio di proposito
+
+Chiediti: se stai insegnando a qualcuno a investire per la prima volta – magari a un giovane con pochissimo denaro –, qual è il vero pericolo? Non è solo "non potersi permettere un'azione". È la possibilità di una perdita abbastanza grande da fargli davvero male. Un genitore che insegna a un adolescente a investire, per esempio, potrebbe usare un conto con azioni frazionate proprio perché una perdita reale resti abbastanza piccola da essere una vera lezione, non un disastro. La dimensione della posizione, non solo ciò che ci si può permettere, è una scelta deliberata.
+
+## Esempio svolto
+
+Immagina un genitore che apre un piccolo conto con azioni frazionate per il figlio adolescente. Perché le frazioni, invece di aspettare che potesse permettersi un'azione intera? Non solo perché potesse tecnicamente possedere un pezzo di un'azione costosa, ma perché, se l'investimento avesse perso valore, la perdita sarebbe stata abbastanza piccola da poterla davvero assorbire e trarne una lezione, non qualcosa che potesse farlo arretrare seriamente. La lezione non era solo "ora puoi permetterti di investire", ma "puoi permetterti di sbagliare, in sicurezza, mentre stai ancora imparando".
+
+## Quiz di esercitazione
+
+1. Un'azione frazionata è:
+   A. Un'azione intera
+   B. Una parte di una singola azione, più piccola di un'azione intera
+   C. Un tipo di obbligazione
+   D. Un pagamento di dividendi garantito
+
+2. Vero o falso: le azioni frazionate richiedono che l'investitore abbia abbastanza denaro per almeno un'azione intera.
+
+3. Oltre all'accessibilità economica, quale altro motivo reale può portare a scegliere le azioni frazionate per un investitore principiante?
+   A. Garantire un profitto
+   B. Dimensionare la posizione in modo che una possibile perdita resti abbastanza piccola da essere una lezione reale e sicura
+   C. Non perdere mai denaro
+   D. Eliminare la necessità di qualsiasi ricerca
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un'azione frazionata è meno di un'azione intera.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le azioni frazionate eliminano proprio questo requisito.
+
+### Domanda 3
+
+Risposta corretta: B. Dimensionare una posizione in modo che una perdita sia sopportabile e istruttiva, e non dannosa, è un uso deliberato e concreto dell'investimento frazionato.
+
+## Punti chiave
+
+- Un'azione frazionata è una parte di un'azione intera.
+- Elimina l'ostacolo di dover disporre del prezzo di un'azione intera per investire.
+- Si può anche usare deliberatamente per dimensionare una posizione in modo che il rischio resti adeguato: particolarmente importante quando si insegna a un principiante.
+
+===== WHITE-L1-025
+TITLE: Che cos'è l'utile per azione (EPS)?
+SUMMARY: Scopri che cosa misura l'EPS e come si calcola, come base per le lezioni successive sulla valutazione.
+# Che cos'è l'utile per azione (EPS)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- enunciare la formula dell'EPS.
+- calcolare un EPS di base dati l'utile netto e le azioni in circolazione.
+- spiegare in parole semplici che cosa rappresenta l'EPS.
+
+## Contenuto principale
+
+### La formula dell'EPS
+
+Utile per azione (EPS, earnings per share) = utile netto ÷ azioni in circolazione. Suddivide l'utile totale di un'azienda su ogni singola azione.
+
+### Che cosa rappresenta l'EPS
+
+L'EPS rappresenta quanta parte dell'utile è attribuibile a ogni singola azione: un modo di esprimere l'utile totale di un'azienda per azione, che rende più facile il confronto tra aziende di dimensioni diverse.
+
+### Perché conta per il seguito
+
+L'EPS è la base di diversi concetti di valutazione approfonditi nel Livello 2: capire ora che cosa misura prepara a quei contenuti successivi.
+
+## Esempio svolto
+
+Un'azienda con 5.000.000 $ di utile netto e 1.000.000 di azioni in circolazione ha un EPS di 5.000.000 $ ÷ 1.000.000 = 5,00 $ per azione.
+
+## Quiz di esercitazione
+
+1. L'EPS si calcola come:
+   A. Prezzo dell'azione ÷ utile netto
+   B. Utile netto ÷ azioni in circolazione
+   C. Ricavi totali ÷ costi totali
+   D. Azioni in circolazione ÷ utile netto
+
+2. Vero o falso: l'EPS rappresenta l'utile totale di un'azienda, non un dato per azione.
+
+3. Un'azienda ha 2.000.000 $ di utile netto e 500.000 azioni in circolazione. Qual è il suo EPS?
+   A. 0,25 $
+   B. 2,50 $
+   C. 4,00 $
+   D. 250 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. C
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. EPS = utile netto ÷ azioni in circolazione.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'EPS esprime specificamente l'utile per azione.
+
+### Domanda 3
+
+Risposta corretta: C. 2.000.000 $ ÷ 500.000 = 4,00 $.
+
+## Punti chiave
+
+- EPS = utile netto ÷ azioni in circolazione.
+- Esprime l'utile di un'azienda per azione.
+- È fondamentale per i concetti di valutazione approfonditi più avanti.
