@@ -1,0 +1,364 @@
+===== WHITE-L1-011
+TITLE: O que é um índice? (O que "o mercado" significa realmente quando as pessoas falam dele)
+SUMMARY: Aprenda o que é realmente um índice de mercado e o que significa quando as pessoas dizem que "o mercado subiu".
+# O que é um índice? (O que "o mercado" significa realmente quando as pessoas falam dele)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir um índice de mercado em termos simples.
+- explicar o que significa quando alguém diz que "o mercado subiu".
+- reconhecer que um índice acompanha um grupo definido, e não literalmente tudo.
+
+## Conteúdo principal
+
+### O que é um índice
+
+Um índice de mercado é um conjunto definido de ações (ou de outros ativos) acompanhadas em conjunto para representar o desempenho de um segmento específico do mercado: é um instrumento de medida, e não algo que se detenha diretamente.
+
+### O que "o mercado subiu" significa realmente
+
+Quando as pessoas dizem que "o mercado subiu hoje", referem-se normalmente a um índice específico e conhecido que se valorizou, e não literalmente a todas as ações do mundo. Índices diferentes podem mexer em sentidos diferentes no mesmo dia.
+
+### Um grupo definido, não tudo
+
+Um índice acompanha um conjunto específico e definido de empresas (escolhidas segundo regras específicas), e não a economia mundial inteira. Perceber que empresas fazem realmente parte de um índice é importante para perceber o que o seu movimento representa de facto.
+
+## Exemplo prático
+
+Um título de jornal que diz "o mercado subiu 1% hoje" refere-se normalmente a um índice específico, composto por um grupo definido de empresas: outro índice, que acompanha outro grupo de empresas, pode ter mexido de forma diferente no mesmo dia.
+
+## Teste de prática
+
+1. Um índice de mercado é:
+   A. A ação de uma única empresa
+   B. Um conjunto definido de ativos acompanhados para representar um segmento do mercado
+   C. Um tipo de conta bancária
+   D. Um relatório económico do Estado
+
+2. Verdadeiro ou falso: "o mercado subiu" significa sempre que literalmente todas as ações do mundo subiram nesse dia.
+
+3. Porque é que importa que empresas fazem realmente parte de um índice?
+   A. Não importa nada
+   B. Determina o que o movimento desse índice representa realmente
+   C. Todos os índices têm as mesmas empresas
+   D. Os índices nunca mudam a sua composição
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um índice é um conjunto definido e acompanhado que representa um segmento do mercado.
+
+### Pergunta 2
+
+Resposta correta: Falso. Refere-se a um índice específico, e não literalmente a todas as ações.
+
+### Pergunta 3
+
+Resposta correta: B. A composição determina o que o movimento do índice reflete realmente.
+
+## Pontos-chave
+
+- Um índice de mercado acompanha um conjunto definido de ativos.
+- "O mercado subiu" refere-se normalmente a um índice específico, e não a tudo.
+- Perceber a composição real de um índice é importante para interpretar o seu movimento.
+
+===== WHITE-L1-012
+TITLE: O que são os encargos correntes de um fundo, e porque é que uma pequena percentagem importa?
+SUMMARY: Aprenda o que são os encargos correntes (expense ratio) de um fundo e porque é que uma percentagem anual aparentemente pequena importa ao longo do tempo.
+# O que são os encargos correntes de um fundo, e porque é que uma pequena percentagem importa?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir os encargos correntes em termos simples.
+- calcular o custo anual aproximado a partir do saldo num fundo e dos encargos correntes.
+- explicar porque é que pequenas diferenças percentuais importam ao longo do tempo.
+
+## Conteúdo principal
+
+### O que são os encargos correntes
+
+Os encargos correntes (em inglês, "expense ratio") são a comissão anual que um fundo (como um ETF ou um fundo de investimento) cobra, expressa como percentagem do montante investido, para cobrir os seus custos de funcionamento. (Na Europa, fala-se muitas vezes de "encargos correntes" ou TER, indicados nos documentos de informação fundamental.)
+
+### Calcular o custo
+
+Encargos correntes de 0,50% sobre um investimento de 10 000 $ custam cerca de 50 $ por ano, retirados automaticamente dos retornos do fundo: normalmente o investidor não os paga como uma fatura separada.
+
+### Porque é que pequenas percentagens importam ao longo do tempo
+
+Como os encargos correntes são cobrados todos os anos, até pequenas diferenças se acumulam de forma significativa em períodos longos. Uma comissão de 0,10% contra uma de 1,00% sobre o mesmo investimento, mantido durante décadas, pode resultar num custo total bem diferente, embora a diferença anual pareça pequena.
+
+## Exemplo prático
+
+Um investimento de 10 000 $ com encargos correntes de 1,00% custa cerca de 100 $ por ano em comissões. O mesmo investimento com encargos de 0,10% custa cerca de 10 $ por ano: uma diferença de 90 $ que se acumula de forma significativa se o investimento for mantido durante muitos anos.
+
+## Teste de prática
+
+1. Os encargos correntes são:
+   A. Uma comissão única cobrada na compra
+   B. Uma comissão anual calculada como percentagem do montante investido
+   C. Um imposto devido sobre dividendos
+   D. Uma comissão cobrada apenas na venda
+
+2. Verdadeiro ou falso: as diferenças de encargos correntes são demasiado pequenas para importarem ao longo do tempo.
+
+3. Um investimento de 20 000 $ tem encargos correntes de 0,40%. Quanto custa isso, aproximadamente, por ano?
+   A. 8 $
+   B. 40 $
+   C. 80 $
+   D. 400 $
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. C
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Os encargos correntes são uma comissão anual baseada numa percentagem.
+
+### Pergunta 2
+
+Resposta correta: Falso. Pequenas diferenças anuais acumulam-se de forma significativa em períodos longos.
+
+### Pergunta 3
+
+Resposta correta: C. 20 000 $ × 0,40% = 80 $.
+
+## Pontos-chave
+
+- Os encargos correntes são uma comissão anual, calculada como percentagem do património investido.
+- São deduzidos automaticamente dos retornos do fundo, e não faturados à parte.
+- Pequenas diferenças de encargos podem acumular-se em custos significativos ao longo do tempo.
+
+===== WHITE-L1-013
+TITLE: O que é a diversificação, em termos simples?
+SUMMARY: Aprenda o que a diversificação faz e não faz realmente: reduz um certo tipo de risco, mas não elimina todo o risco.
+# O que é a diversificação, em termos simples?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir a diversificação em termos simples.
+- explicar que tipo de risco reduz.
+- explicar porque é que não elimina todo o risco.
+
+## Conteúdo principal
+
+### O que é a diversificação
+
+Diversificar significa distribuir os investimentos por vários ativos diferentes, em vez de concentrar tudo num só: a ideia básica por detrás da estrutura de "cabaz" dos ETF e dos fundos de investimento vista antes.
+
+### Que tipo de risco reduz
+
+A diversificação reduz especificamente o risco de concentração: o risco de um único ativo correr mal e arrastar para baixo a carteira inteira. Se um entre muitos ativos correr mal, o seu impacto no total é menor do que seria se fosse o único ativo.
+
+### Porque é que não elimina todo o risco
+
+A diversificação não protege contra quedas generalizadas do mercado, que atingem muitos ou a maioria dos ativos ao mesmo tempo, e não garante lucro. Gere um tipo específico de risco, e não todos os riscos possíveis.
+
+## Exemplo prático
+
+Um investidor que tem ações de apenas uma empresa perde muito se essa empresa correr mal. Um investidor com ações de 50 empresas diferentes é muito menos afetado pelo mau desempenho de qualquer empresa isolada, embora uma queda generalizada do mercado ainda possa atingir as 50.
+
+## Teste de prática
+
+1. Diversificar significa:
+   A. Investir tudo num único ativo
+   B. Distribuir os investimentos por vários ativos diferentes
+   C. Evitar todo o risco de investimento
+   D. Garantir lucro
+
+2. Verdadeiro ou falso: a diversificação elimina todo o risco de investimento.
+
+3. Que tipo específico de risco reduz sobretudo a diversificação?
+   A. O risco de mercado generalizado
+   B. O risco de concentração (dependência excessiva de um único ativo)
+   C. Exclusivamente o risco cambial
+   D. Exclusivamente o risco de inflação
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Diversificar significa distribuir os investimentos por vários ativos.
+
+### Pergunta 2
+
+Resposta correta: Falso. Reduz um certo risco, mas não elimina todo o risco, sobretudo as quedas generalizadas do mercado.
+
+### Pergunta 3
+
+Resposta correta: B. O risco de concentração é o risco específico que a diversificação trata.
+
+## Pontos-chave
+
+- Diversificar significa distribuir os investimentos por vários ativos.
+- Reduz especificamente o risco de concentração.
+- Não elimina todo o risco nem garante lucro.
+
+===== WHITE-L1-014
+TITLE: O que é o risco, e porque é que não é o mesmo que "mau"?
+SUMMARY: Aprenda como este curso define o risco de investimento e porque é que risco e "mau" não são o mesmo conceito.
+# O que é o risco, e porque é que não é o mesmo que "mau"?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir o risco de investimento em termos simples.
+- explicar porque é que risco e "mau" são conceitos diferentes.
+- explicar a relação geral entre risco e retorno potencial.
+
+## Conteúdo principal
+
+### O que significa aqui risco
+
+Nos investimentos, o risco refere-se em geral à incerteza de um resultado: especificamente, à probabilidade de o retorno real de um investimento ser diferente do esperado, incluindo a possibilidade de perda.
+
+### O risco não é o mesmo que "mau"
+
+O risco descreve incerteza, e não um resultado negativo garantido. Um investimento "arriscado" não é automaticamente uma má escolha: significa que o leque de resultados possíveis é mais amplo, para melhor ou para pior, do que o de uma opção de menor risco.
+
+### A relação geral entre risco e retorno
+
+Em geral, os investimentos com retornos potenciais mais elevados tendem a ter mais risco, e os investimentos com mais certeza ou segurança tendem a oferecer retornos potenciais mais baixos. Não é uma garantia rígida em todos os casos, mas é um padrão comum que vale a pena compreender.
+
+## Exemplo prático
+
+Uma obrigação do Tesouro de um emitente estável é geralmente considerada de menor risco, com um retorno correspondentemente modesto. A ação de uma empresa nova é geralmente considerada de maior risco, com potencial para um retorno muito mais alto (ou muito mais baixo) do que o da obrigação.
+
+## Teste de prática
+
+1. Nos investimentos, o risco refere-se em geral a:
+   A. Uma perda garantida
+   B. A incerteza do resultado real de um investimento
+   C. Um tipo de dividendo
+   D. Uma regra do Estado
+
+2. Verdadeiro ou falso: um investimento "arriscado" é automaticamente uma má escolha.
+
+3. Qual é a relação geral entre risco e retorno potencial?
+   A. Um risco mais alto não tem em geral relação com o retorno potencial
+   B. Retornos potenciais mais altos vêm em geral com risco mais alto
+   C. Um risco mais baixo significa sempre retornos mais altos
+   D. Risco e retorno são sempre idênticos
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O risco refere-se à incerteza do resultado, e não a uma perda garantida.
+
+### Pergunta 2
+
+Resposta correta: Falso. O risco descreve incerteza, e não um resultado automaticamente mau.
+
+### Pergunta 3
+
+Resposta correta: B. Retornos potenciais mais altos estão em geral ligados a risco mais alto.
+
+## Pontos-chave
+
+- O risco refere-se à incerteza do resultado, e não a um resultado mau garantido.
+- Um investimento arriscado não é automaticamente uma má escolha.
+- Retornos potenciais mais altos vêm em geral com risco mais alto, como padrão geral.
+
+===== WHITE-L1-015
+TITLE: O que é a volatilidade?
+SUMMARY: Aprenda o que mede a volatilidade e porque é que é diferente do risco de perda permanente.
+# O que é a volatilidade?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir a volatilidade em termos simples.
+- explicar o que mede especificamente a volatilidade.
+- distinguir a volatilidade de uma perda permanente.
+
+## Conteúdo principal
+
+### O que significa volatilidade
+
+A volatilidade refere-se a quanto e quão depressa o preço de um ativo sobe e desce num dado período. Um ativo muito volátil oscila de preço de forma ampla e frequente; um ativo pouco volátil mexe-se de forma mais gradual.
+
+### O que mede especificamente
+
+A volatilidade mede o movimento do preço, e não necessariamente o sentido ou o resultado final. Um ativo pode ser muito volátil e mesmo assim acabar mais alto ao longo do tempo: a volatilidade descreve os solavancos da viagem, e não automaticamente o destino.
+
+### Volatilidade e perda permanente
+
+Uma queda temporária do preço de um ativo volátil não é o mesmo que uma perda permanente: se o preço recuperar mais tarde, o investidor que não vendeu durante a queda passa pela volatilidade sem uma perda duradoura. A perda só fica "consolidada" se o ativo for vendido ao preço mais baixo.
+
+## Exemplo prático
+
+O preço de uma ação oscila entre 80 $ e 120 $ durante alguns meses antes de estabilizar perto de 115 $: muito volátil pelo caminho, mas o investidor que manteve a ação durante as oscilações acabou perto de um ganho, e não de uma perda.
+
+## Teste de prática
+
+1. A volatilidade mede:
+   A. Perda garantida
+   B. Quanto e quão depressa um preço sobe e desce
+   C. O lucro total de uma empresa
+   D. O número de ações em circulação
+
+2. Verdadeiro ou falso: uma queda temporária do preço é automaticamente o mesmo que uma perda permanente.
+
+3. Quando é que uma perda potencial causada pela volatilidade se torna uma perda consolidada?
+   A. Nunca
+   B. Quando o ativo é vendido ao preço mais baixo
+   C. Automaticamente ao fim de um ano
+   D. Assim que o preço desce, por pouco que seja
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A volatilidade mede o grau de movimento do preço.
+
+### Pergunta 2
+
+Resposta correta: Falso. Uma queda temporária não é uma perda permanente, a não ser que o ativo seja efetivamente vendido a esse preço mais baixo.
+
+### Pergunta 3
+
+Resposta correta: B. Vender ao preço mais baixo é o que consolida a perda.
+
+## Pontos-chave
+
+- A volatilidade mede quanto e quão depressa o preço se mexe.
+- Descreve o movimento do preço, e não automaticamente um resultado final.
+- Uma queda temporária não é uma perda permanente, a não ser que se venda a esse preço.

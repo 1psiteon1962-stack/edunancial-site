@@ -1,0 +1,364 @@
+===== WHITE-L1-011
+TITLE: Che cos'è un indice? (Che cosa significa davvero "il mercato" quando se ne parla)
+SUMMARY: Scopri che cos'è davvero un indice di mercato e che cosa significa quando si dice "il mercato è salito".
+# Che cos'è un indice? (Che cosa significa davvero "il mercato" quando se ne parla)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un indice di mercato.
+- spiegare che cosa significa quando qualcuno dice "il mercato è salito".
+- riconoscere che un indice segue un gruppo definito, non letteralmente tutto.
+
+## Contenuto principale
+
+### Che cos'è un indice
+
+Un indice di mercato è un insieme definito di azioni (o di altre attività) seguite insieme per rappresentare l'andamento di uno specifico segmento di mercato: è uno strumento di misura, non qualcosa che si possiede direttamente.
+
+### Che cosa significa davvero "il mercato è salito"
+
+Quando si dice "oggi il mercato è salito", di solito ci si riferisce a un indice specifico e molto noto che è cresciuto di valore, non letteralmente a tutte le azioni del mondo. Indici diversi possono muoversi in direzioni diverse nello stesso giorno.
+
+### Un gruppo definito, non tutto
+
+Un indice segue un insieme specifico e definito di aziende (scelte secondo regole precise), non l'intera economia mondiale. Capire quali aziende fanno effettivamente parte di un indice è importante per capire che cosa rappresenta davvero il suo movimento.
+
+## Esempio svolto
+
+Un titolo di giornale che dice "oggi il mercato è salito dell'1%" si riferisce di solito a un indice specifico composto da un gruppo definito di aziende: un altro indice, che segue un gruppo diverso di aziende, potrebbe essersi mosso in modo diverso lo stesso giorno.
+
+## Quiz di esercitazione
+
+1. Un indice di mercato è:
+   A. L'azione di una singola azienda
+   B. Un insieme definito di attività seguite per rappresentare un segmento di mercato
+   C. Un tipo di conto bancario
+   D. Un rapporto economico dello Stato
+
+2. Vero o falso: "il mercato è salito" significa sempre che letteralmente tutte le azioni del mondo sono salite quel giorno.
+
+3. Perché è importante sapere quali aziende fanno effettivamente parte di un indice?
+   A. Non ha alcuna importanza
+   B. Determina che cosa rappresenta davvero il movimento di quell'indice
+   C. Tutti gli indici contengono le stesse aziende
+   D. Gli indici non cambiano mai la loro composizione
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un indice è un insieme definito e seguito che rappresenta un segmento di mercato.
+
+### Domanda 2
+
+Risposta corretta: Falso. Si riferisce a un indice specifico, non letteralmente a tutte le azioni.
+
+### Domanda 3
+
+Risposta corretta: B. La composizione determina che cosa riflette davvero il movimento dell'indice.
+
+## Punti chiave
+
+- Un indice di mercato segue un insieme definito di attività.
+- "Il mercato è salito" si riferisce di solito a un indice specifico, non a tutto.
+- Capire la composizione effettiva di un indice è importante per interpretarne il movimento.
+
+===== WHITE-L1-012
+TITLE: Che cos'è il costo annuo di un fondo (expense ratio) e perché una piccola percentuale conta?
+SUMMARY: Scopri che cos'è l'expense ratio di un fondo e perché una percentuale annua apparentemente piccola conta nel tempo.
+# Che cos'è il costo annuo di un fondo (expense ratio) e perché una piccola percentuale conta?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici l'expense ratio.
+- calcolare il costo annuo approssimativo dati il capitale investito in un fondo e l'expense ratio.
+- spiegare perché piccole differenze percentuali contano nel tempo.
+
+## Contenuto principale
+
+### Che cos'è l'expense ratio
+
+L'expense ratio è la commissione annua che un fondo (come un ETF o un fondo comune) applica, espressa come percentuale dell'importo investito, per coprire i costi di gestione del fondo. (In Europa si parla spesso di "costi correnti" o TER.)
+
+### Calcolare il costo
+
+Un expense ratio dello 0,50% su un investimento di 10.000 $ costa circa 50 $ all'anno, prelevati automaticamente dai rendimenti del fondo: di solito gli investitori non lo pagano come una fattura separata.
+
+### Perché le piccole percentuali contano nel tempo
+
+Poiché l'expense ratio viene applicato ogni anno, anche piccole differenze si accumulano in modo significativo su periodi lunghi. Una commissione dello 0,10% rispetto a una dell'1,00% sullo stesso investimento, mantenuto per decenni, può portare a un costo totale molto diverso, anche se la differenza annua sembra piccola.
+
+## Esempio svolto
+
+Un investimento di 10.000 $ con un expense ratio dell'1,00% costa circa 100 $ all'anno di commissioni. Lo stesso investimento con un expense ratio dello 0,10% costa circa 10 $ all'anno: una differenza di 90 $ che si accumula in modo significativo se l'investimento viene mantenuto per molti anni.
+
+## Quiz di esercitazione
+
+1. L'expense ratio è:
+   A. Una commissione una tantum all'acquisto
+   B. Una commissione annua applicata come percentuale dell'importo investito
+   C. Un'imposta dovuta sui dividendi
+   D. Una commissione applicata solo alla vendita
+
+2. Vero o falso: le differenze di expense ratio sono troppo piccole per contare nel tempo.
+
+3. Un investimento di 20.000 $ ha un expense ratio dello 0,40%. Quanto costa approssimativamente all'anno?
+   A. 8 $
+   B. 40 $
+   C. 80 $
+   D. 400 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. C
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'expense ratio è una commissione annua basata su una percentuale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Piccole differenze annue si accumulano in modo significativo su periodi lunghi.
+
+### Domanda 3
+
+Risposta corretta: C. 20.000 $ × 0,40% = 80 $.
+
+## Punti chiave
+
+- L'expense ratio è una commissione annua, applicata come percentuale del capitale investito.
+- Viene dedotto automaticamente dai rendimenti del fondo, non fatturato a parte.
+- Piccole differenze di expense ratio possono accumularsi in costi significativi nel tempo.
+
+===== WHITE-L1-013
+TITLE: Che cos'è la diversificazione, in parole semplici?
+SUMMARY: Scopri che cosa fa e che cosa non fa davvero la diversificazione: riduce un certo tipo di rischio, ma non elimina ogni rischio.
+# Che cos'è la diversificazione, in parole semplici?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici la diversificazione.
+- spiegare quale tipo di rischio riduce.
+- spiegare perché non elimina ogni rischio.
+
+## Contenuto principale
+
+### Che cos'è la diversificazione
+
+Diversificare significa distribuire gli investimenti su più attività diverse invece di concentrare tutto in una sola: l'idea di base dietro la struttura a "paniere" degli ETF e dei fondi comuni vista in precedenza.
+
+### Quale tipo di rischio riduce
+
+La diversificazione riduce specificamente il rischio di concentrazione: il rischio che un singolo titolo vada male e trascini giù l'intero portafoglio. Se uno tra molti titoli va male, il suo impatto sul totale è minore di quanto sarebbe se fosse l'unico titolo.
+
+### Perché non elimina ogni rischio
+
+La diversificazione non protegge dai cali generalizzati del mercato che colpiscono molti o quasi tutti i titoli contemporaneamente, e non garantisce un profitto. Gestisce un tipo specifico di rischio, non ogni rischio possibile.
+
+## Esempio svolto
+
+Un investitore che possiede solo le azioni di un'azienda perde molto se quell'azienda va male. Un investitore che possiede azioni di 50 aziende diverse risente molto meno del cattivo andamento di una singola azienda, anche se un ribasso generale del mercato potrebbe comunque colpire tutte e 50.
+
+## Quiz di esercitazione
+
+1. Diversificare significa:
+   A. Investire tutto in una sola attività
+   B. Distribuire gli investimenti su più attività diverse
+   C. Evitare ogni rischio d'investimento
+   D. Garantire un profitto
+
+2. Vero o falso: la diversificazione elimina ogni rischio d'investimento.
+
+3. Quale tipo specifico di rischio riduce principalmente la diversificazione?
+   A. Il rischio di mercato generalizzato
+   B. Il rischio di concentrazione (dipendenza eccessiva da un solo titolo)
+   C. Esclusivamente il rischio di cambio
+   D. Esclusivamente il rischio di inflazione
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Diversificare significa distribuire gli investimenti su più attività.
+
+### Domanda 2
+
+Risposta corretta: Falso. Riduce un certo rischio ma non elimina ogni rischio, soprattutto i cali generalizzati del mercato.
+
+### Domanda 3
+
+Risposta corretta: B. Il rischio di concentrazione è il rischio specifico che la diversificazione affronta.
+
+## Punti chiave
+
+- Diversificare significa distribuire gli investimenti su più attività.
+- Riduce specificamente il rischio di concentrazione.
+- Non elimina ogni rischio né garantisce un profitto.
+
+===== WHITE-L1-014
+TITLE: Che cos'è il rischio, e perché non è la stessa cosa di "negativo"?
+SUMMARY: Scopri come questo corso definisce il rischio d'investimento e perché rischio e "negativo" non sono lo stesso concetto.
+# Che cos'è il rischio, e perché non è la stessa cosa di "negativo"?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici il rischio d'investimento.
+- spiegare perché rischio e "negativo" sono concetti diversi.
+- spiegare il rapporto generale tra rischio e rendimento potenziale.
+
+## Contenuto principale
+
+### Che cosa significa qui rischio
+
+Negli investimenti, il rischio indica in genere l'incertezza di un risultato: in particolare, la possibilità che il rendimento effettivo di un investimento sia diverso da quello atteso, compresa la possibilità di una perdita.
+
+### Il rischio non è la stessa cosa di "negativo"
+
+Il rischio descrive un'incertezza, non un esito negativo garantito. Un investimento "rischioso" non è automaticamente una cattiva scelta: significa che la gamma dei risultati possibili è più ampia, nel bene o nel male, rispetto a un'opzione meno rischiosa.
+
+### Il rapporto generale tra rischio e rendimento
+
+In genere, gli investimenti con rendimenti potenziali più alti tendono a comportare un rischio maggiore, e quelli più certi o sicuri tendono a offrire rendimenti potenziali più bassi. Non è una garanzia rigida in ogni singolo caso, ma è uno schema comune che vale la pena capire.
+
+## Esempio svolto
+
+Un titolo di Stato di un emittente stabile è generalmente considerato a basso rischio, con un rendimento corrispondentemente modesto. Le azioni di un'azienda nuova sono generalmente considerate ad alto rischio, con la possibilità di un rendimento molto più alto (o molto più basso) di quello dell'obbligazione.
+
+## Quiz di esercitazione
+
+1. Negli investimenti, il rischio indica in genere:
+   A. Una perdita garantita
+   B. L'incertezza del risultato effettivo di un investimento
+   C. Un tipo di dividendo
+   D. Una regola dello Stato
+
+2. Vero o falso: un investimento "rischioso" è automaticamente una cattiva scelta.
+
+3. Qual è il rapporto generale tra rischio e rendimento potenziale?
+   A. Un rischio più alto non ha in genere alcun rapporto con il rendimento potenziale
+   B. Rendimenti potenziali più alti comportano in genere un rischio più alto
+   C. Un rischio più basso significa sempre rendimenti più alti
+   D. Rischio e rendimento sono sempre identici
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il rischio indica l'incertezza del risultato, non una perdita garantita.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rischio descrive un'incertezza, non un esito automaticamente negativo.
+
+### Domanda 3
+
+Risposta corretta: B. Rendimenti potenziali più alti sono in genere legati a un rischio più alto.
+
+## Punti chiave
+
+- Il rischio indica l'incertezza del risultato, non un esito negativo garantito.
+- Un investimento rischioso non è automaticamente una cattiva scelta.
+- Rendimenti potenziali più alti comportano in genere un rischio più alto, come schema generale.
+
+===== WHITE-L1-015
+TITLE: Che cos'è la volatilità?
+SUMMARY: Scopri che cosa misura la volatilità e perché è diversa dal rischio di una perdita permanente.
+# Che cos'è la volatilità?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici la volatilità.
+- spiegare che cosa misura specificamente la volatilità.
+- distinguere la volatilità da una perdita permanente.
+
+## Contenuto principale
+
+### Che cosa significa volatilità
+
+La volatilità indica quanto e quanto rapidamente il prezzo di un'attività sale e scende in un dato periodo. Un'attività molto volatile oscilla di prezzo in modo ampio e frequente; un'attività poco volatile si muove in modo più graduale.
+
+### Che cosa misura specificamente
+
+La volatilità misura il movimento del prezzo, non necessariamente la direzione o il risultato finale. Un'attività può essere molto volatile e finire comunque più in alto nel tempo: la volatilità descrive gli scossoni del viaggio, non automaticamente la destinazione.
+
+### Volatilità e perdita permanente
+
+Un calo temporaneo del prezzo di un'attività volatile non è la stessa cosa di una perdita permanente: se il prezzo poi si riprende, un investitore che non ha venduto durante il calo vive la volatilità senza una perdita duratura. La perdita diventa "definitiva" solo se l'attività viene venduta al prezzo più basso.
+
+## Esempio svolto
+
+Il prezzo di un'azione oscilla tra 80 $ e 120 $ per qualche mese prima di stabilizzarsi intorno a 115 $: molto volatile lungo il percorso, ma un investitore che ha mantenuto l'azione durante le oscillazioni si ritrova vicino a un guadagno, non a una perdita.
+
+## Quiz di esercitazione
+
+1. La volatilità misura:
+   A. Una perdita garantita
+   B. Quanto e quanto rapidamente un prezzo sale e scende
+   C. L'utile totale di un'azienda
+   D. Il numero di azioni in circolazione
+
+2. Vero o falso: un calo temporaneo del prezzo è automaticamente la stessa cosa di una perdita permanente.
+
+3. Quando una perdita sulla carta dovuta alla volatilità diventa una perdita definitiva?
+   A. Mai
+   B. Quando l'attività viene venduta al prezzo più basso
+   C. Automaticamente dopo un anno
+   D. Non appena il prezzo scende anche di poco
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. La volatilità misura l'ampiezza del movimento del prezzo.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un calo temporaneo non è una perdita permanente, a meno che l'attività non venga effettivamente venduta a quel prezzo più basso.
+
+### Domanda 3
+
+Risposta corretta: B. Vendere al prezzo più basso è ciò che rende definitiva la perdita.
+
+## Punti chiave
+
+- La volatilità misura quanto e quanto rapidamente si muove il prezzo.
+- Descrive il movimento del prezzo, non automaticamente un risultato finale.
+- Un calo temporaneo non è una perdita permanente, a meno di vendere a quel prezzo.

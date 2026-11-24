@@ -1,0 +1,364 @@
+===== WHITE-L1-011
+TITLE: Wat is een index? (Wat "de markt" werkelijk betekent als mensen het erover hebben)
+SUMMARY: Leer wat een marktindex werkelijk is, en wat het betekent als mensen zeggen "de markt is gestegen".
+# Wat is een index? (Wat "de markt" werkelijk betekent als mensen het erover hebben)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een marktindex in eenvoudige woorden te definiëren.
+- uit te leggen wat het betekent als iemand zegt "de markt is gestegen".
+- te herkennen dat een index een afgebakende groep volgt, niet letterlijk alles.
+
+## Kerninhoud
+
+### Wat een index is
+
+Een marktindex is een afgebakende verzameling aandelen (of andere bezittingen) die samen worden gevolgd om de prestaties van een specifiek marktsegment weer te geven: het is een meetinstrument, niet iets wat je rechtstreeks bezit.
+
+### Wat "de markt is gestegen" werkelijk betekent
+
+Als mensen zeggen "de markt is vandaag gestegen", bedoelen ze meestal dat een specifieke, bekende index in waarde is gestegen, niet letterlijk elk aandeel overal. Verschillende indexen kunnen op dezelfde dag verschillende kanten op gaan.
+
+### Een afgebakende groep, niet alles
+
+Een index volgt een specifieke, afgebakende groep bedrijven (gekozen volgens vaste regels), niet de hele wereldeconomie. Begrijpen welke bedrijven er werkelijk in een index zitten, is belangrijk om te begrijpen wat de beweging ervan werkelijk vertegenwoordigt.
+
+## Praktijkvoorbeeld
+
+Een krantenkop als "de markt steeg vandaag 1%" verwijst doorgaans naar een specifieke index die bestaat uit een afgebakende groep bedrijven: een andere index die een andere groep bedrijven volgt, kan die dag anders hebben bewogen.
+
+## Oefenquiz
+
+1. Een marktindex is:
+   A. Het aandeel van één bedrijf
+   B. Een afgebakende verzameling bezittingen die wordt gevolgd om een marktsegment weer te geven
+   C. Een soort bankrekening
+   D. Een economisch rapport van de overheid
+
+2. Waar of onwaar: "de markt is gestegen" betekent altijd dat letterlijk elk aandeel ter wereld die dag is gestegen.
+
+3. Waarom doet het ertoe welke bedrijven er werkelijk in een index zitten?
+   A. Het doet er helemaal niet toe
+   B. Het bepaalt wat de beweging van die index werkelijk vertegenwoordigt
+   C. Alle indexen bevatten dezelfde bedrijven
+   D. Indexen veranderen nooit van samenstelling
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een index is een afgebakende, gevolgde verzameling die een marktsegment weergeeft.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het verwijst naar een specifieke index, niet letterlijk naar elk aandeel.
+
+### Vraag 3
+
+Juist antwoord: B. De samenstelling bepaalt wat de beweging van de index werkelijk weerspiegelt.
+
+## Belangrijkste punten
+
+- Een marktindex volgt een afgebakende verzameling bezittingen.
+- "De markt is gestegen" verwijst doorgaans naar één specifieke index, niet naar alles.
+- Begrijpen hoe een index werkelijk is samengesteld, is belangrijk om de beweging ervan te interpreteren.
+
+===== WHITE-L1-012
+TITLE: Wat zijn de lopende kosten van een fonds (expense ratio), en waarom doet een klein percentage ertoe?
+SUMMARY: Leer wat de expense ratio van een fonds is, en waarom een ogenschijnlijk klein jaarlijks percentage op lange termijn ertoe doet.
+# Wat zijn de lopende kosten van een fonds (expense ratio), en waarom doet een klein percentage ertoe?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de expense ratio in eenvoudige woorden te definiëren.
+- de geschatte jaarlijkse kosten te berekenen op basis van een fondssaldo en de expense ratio.
+- uit te leggen waarom kleine procentuele verschillen op lange termijn ertoe doen.
+
+## Kerninhoud
+
+### Wat de expense ratio is
+
+De expense ratio is de jaarlijkse vergoeding die een fonds (zoals een ETF of beleggingsfonds) in rekening brengt, uitgedrukt als percentage van het belegde bedrag, om de bedrijfskosten van het fonds te dekken. (In Europa spreekt men vaak van "lopende kosten" of TER.)
+
+### De kosten berekenen
+
+Een expense ratio van 0,50% op een belegging van $ 10.000 kost ongeveer $ 50 per jaar, automatisch ingehouden op het rendement van het fonds: beleggers betalen het doorgaans niet als aparte rekening.
+
+### Waarom kleine percentages op lange termijn ertoe doen
+
+Omdat de expense ratio elk jaar wordt berekend, lopen zelfs kleine verschillen over lange perioden flink op. Een vergoeding van 0,10% tegenover 1,00% op dezelfde belegging, die tientallen jaren wordt aangehouden, kan oplopen tot een betekenisvol ander totaalbedrag aan kosten, ook al lijkt het jaarlijkse verschil klein.
+
+## Praktijkvoorbeeld
+
+Een belegging van $ 10.000 met een expense ratio van 1,00% kost ongeveer $ 100 per jaar aan kosten. Dezelfde belegging met een expense ratio van 0,10% kost ongeveer $ 10 per jaar: een verschil van $ 90 dat flink oploopt als de belegging vele jaren wordt aangehouden.
+
+## Oefenquiz
+
+1. De expense ratio is:
+   A. Een eenmalige aankoopvergoeding
+   B. Een jaarlijkse vergoeding, berekend als percentage van het belegde bedrag
+   C. Een belasting op dividend
+   D. Een vergoeding die alleen bij verkoop wordt berekend
+
+2. Waar of onwaar: verschillen in expense ratio zijn te klein om op lange termijn ertoe te doen.
+
+3. Een belegging van $ 20.000 heeft een expense ratio van 0,40%. Hoeveel kost dat ongeveer per jaar?
+   A. $ 8
+   B. $ 40
+   C. $ 80
+   D. $ 400
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. C
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. De expense ratio is een jaarlijkse vergoeding op basis van een percentage.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Kleine jaarlijkse verschillen lopen over lange perioden flink op.
+
+### Vraag 3
+
+Juist antwoord: C. $ 20.000 × 0,40% = $ 80.
+
+## Belangrijkste punten
+
+- De expense ratio is een jaarlijkse vergoeding, berekend als percentage van het belegde vermogen.
+- Ze wordt automatisch ingehouden op het rendement van het fonds, niet apart in rekening gebracht.
+- Kleine verschillen in expense ratio kunnen op lange termijn oplopen tot betekenisvolle kosten.
+
+===== WHITE-L1-013
+TITLE: Wat is spreiding, in eenvoudige woorden?
+SUMMARY: Leer wat spreiding werkelijk wel en niet doet: het vermindert een bepaald risico, maar neemt niet alle risico weg.
+# Wat is spreiding, in eenvoudige woorden?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- spreiding in eenvoudige woorden te definiëren.
+- uit te leggen welk soort risico het vermindert.
+- uit te leggen waarom het niet alle risico wegneemt.
+
+## Kerninhoud
+
+### Wat spreiding is
+
+Spreiding (diversificatie) betekent beleggingen verdelen over meerdere verschillende bezittingen in plaats van alles in één te concentreren: het basisidee achter de "mandjes"-structuur van ETF's en beleggingsfondsen uit eerdere lessen.
+
+### Welk soort risico het vermindert
+
+Spreiding vermindert specifiek het concentratierisico: het risico dat één enkele positie slecht presteert en een hele portefeuille omlaag trekt. Als één positie van de vele slecht presteert, is de impact op het totaal kleiner dan wanneer het de enige positie was.
+
+### Waarom het niet alle risico wegneemt
+
+Spreiding beschermt niet tegen bredere, marktbrede dalingen die veel of de meeste posities tegelijk raken, en het garandeert geen winst. Het beheerst één specifiek soort risico, niet elk mogelijk risico.
+
+## Praktijkvoorbeeld
+
+Een belegger met aandelen van slechts één bedrijf verliest veel als dat ene bedrijf slecht presteert. Een belegger met aandelen in 50 verschillende bedrijven wordt veel minder geraakt door de slechte prestaties van één bedrijf, al kan een brede marktdaling nog steeds alle 50 raken.
+
+## Oefenquiz
+
+1. Spreiding betekent:
+   A. Alles in één bezitting beleggen
+   B. Beleggingen verdelen over meerdere verschillende bezittingen
+   C. Alle beleggingsrisico vermijden
+   D. Winst garanderen
+
+2. Waar of onwaar: spreiding neemt alle beleggingsrisico weg.
+
+3. Welk specifiek soort risico vermindert spreiding vooral?
+   A. Marktbreed risico
+   B. Concentratierisico (te grote afhankelijkheid van één positie)
+   C. Uitsluitend valutarisico
+   D. Uitsluitend inflatierisico
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Spreiding betekent beleggingen verdelen over meerdere bezittingen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het vermindert een bepaald risico, maar neemt niet alle risico weg, vooral niet bij brede marktdalingen.
+
+### Vraag 3
+
+Juist antwoord: B. Concentratierisico is het specifieke risico dat spreiding aanpakt.
+
+## Belangrijkste punten
+
+- Spreiding betekent beleggingen verdelen over meerdere bezittingen.
+- Het vermindert specifiek het concentratierisico.
+- Het neemt niet alle risico weg en garandeert geen winst.
+
+===== WHITE-L1-014
+TITLE: Wat is risico, en waarom is het niet hetzelfde als "slecht"?
+SUMMARY: Leer hoe deze cursus beleggingsrisico definieert, en waarom risico en "slecht" niet hetzelfde begrip zijn.
+# Wat is risico, en waarom is het niet hetzelfde als "slecht"?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- beleggingsrisico in eenvoudige woorden te definiëren.
+- uit te leggen waarom risico en "slecht" verschillende begrippen zijn.
+- de algemene relatie tussen risico en mogelijk rendement uit te leggen.
+
+## Kerninhoud
+
+### Wat risico hier betekent
+
+Bij beleggen verwijst risico doorgaans naar de onzekerheid van een uitkomst: specifiek de kans dat het werkelijke rendement van een belegging afwijkt van wat werd verwacht, inclusief de mogelijkheid van verlies.
+
+### Risico is niet hetzelfde als "slecht"
+
+Risico beschrijft onzekerheid, geen gegarandeerd negatieve uitkomst. Een "riskante" belegging is niet automatisch een slechte keuze: het betekent dat de reeks mogelijke uitkomsten breder is, ten goede of ten kwade, dan bij een minder riskante optie.
+
+### De algemene relatie tussen risico en rendement
+
+Over het algemeen brengen beleggingen met een hoger mogelijk rendement meer risico met zich mee, en bieden beleggingen met meer zekerheid of veiligheid een lager mogelijk rendement. Dit is geen strikte garantie in elk afzonderlijk geval, maar het is een veelvoorkomend patroon dat het waard is te begrijpen.
+
+## Praktijkvoorbeeld
+
+Een staatsobligatie van een stabiele uitgever wordt doorgaans als minder riskant beschouwd, met een navenant bescheiden rendement. Het aandeel van een nieuw bedrijf wordt doorgaans als riskanter beschouwd, met de mogelijkheid van een veel hoger (of veel lager) rendement dan de obligatie.
+
+## Oefenquiz
+
+1. Bij beleggen verwijst risico doorgaans naar:
+   A. Een gegarandeerd verlies
+   B. De onzekerheid over de werkelijke uitkomst van een belegging
+   C. Een soort dividend
+   D. Een overheidsregel
+
+2. Waar of onwaar: een "riskante" belegging is automatisch een slechte keuze.
+
+3. Wat is de algemene relatie tussen risico en mogelijk rendement?
+   A. Hoger risico heeft doorgaans geen relatie met mogelijk rendement
+   B. Een hoger mogelijk rendement gaat doorgaans samen met hoger risico
+   C. Lager risico betekent altijd een hoger rendement
+   D. Risico en rendement zijn altijd identiek
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Risico verwijst naar onzekerheid over de uitkomst, niet naar gegarandeerd verlies.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Risico beschrijft onzekerheid, geen automatisch slechte uitkomst.
+
+### Vraag 3
+
+Juist antwoord: B. Een hoger mogelijk rendement hangt doorgaans samen met hoger risico.
+
+## Belangrijkste punten
+
+- Risico verwijst naar onzekerheid over de uitkomst, niet naar een gegarandeerd slecht resultaat.
+- Een riskante belegging is niet automatisch een slechte keuze.
+- Een hoger mogelijk rendement gaat doorgaans samen met hoger risico, als algemeen patroon.
+
+===== WHITE-L1-015
+TITLE: Wat is volatiliteit?
+SUMMARY: Leer wat volatiliteit meet, en waarom het iets anders is dan het risico van blijvend verlies.
+# Wat is volatiliteit?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- volatiliteit in eenvoudige woorden te definiëren.
+- uit te leggen wat volatiliteit specifiek meet.
+- volatiliteit te onderscheiden van blijvend verlies.
+
+## Kerninhoud
+
+### Wat volatiliteit betekent
+
+Volatiliteit verwijst naar hoeveel en hoe snel de prijs van een bezitting in een bepaalde periode op en neer beweegt. Een zeer volatiele bezitting schommelt flink en vaak in prijs; een weinig volatiele bezitting beweegt geleidelijker.
+
+### Wat het specifiek meet
+
+Volatiliteit meet prijsbeweging, niet per se de richting of de uiteindelijke uitkomst. Een bezitting kan zeer volatiel zijn en op termijn toch hoger uitkomen: volatiliteit beschrijft hoe hobbelig de rit is, niet automatisch de bestemming.
+
+### Volatiliteit en blijvend verlies
+
+Een tijdelijke prijsdaling bij een volatiele bezitting is niet hetzelfde als een blijvend verlies: als de prijs later herstelt, ervaart een belegger die tijdens de dip niet verkocht volatiliteit zonder blijvend verlies. Een verlies wordt pas "vastgezet" als de bezitting tegen de lagere prijs wordt verkocht.
+
+## Praktijkvoorbeeld
+
+De koers van een aandeel schommelt een paar maanden tussen $ 80 en $ 120 en komt daarna rond $ 115 uit: onderweg zeer volatiel, maar een belegger die de schommelingen uitzat, kwam dicht bij winst uit, niet bij verlies.
+
+## Oefenquiz
+
+1. Volatiliteit meet:
+   A. Gegarandeerd verlies
+   B. Hoeveel en hoe snel een prijs op en neer beweegt
+   C. De totale winst van een bedrijf
+   D. Het aantal uitstaande aandelen
+
+2. Waar of onwaar: een tijdelijke prijsdaling is automatisch hetzelfde als een blijvend verlies.
+
+3. Wanneer wordt een papieren verlies door volatiliteit een vastgezet verlies?
+   A. Nooit
+   B. Als de bezitting tegen de lagere prijs wordt verkocht
+   C. Automatisch na één jaar
+   D. Zodra de prijs ook maar daalt
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Volatiliteit meet de mate van prijsbeweging.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een tijdelijke daling is geen blijvend verlies, tenzij de bezitting werkelijk tegen die lagere prijs wordt verkocht.
+
+### Vraag 3
+
+Juist antwoord: B. Verkopen tegen de lagere prijs is wat het verlies vastzet.
+
+## Belangrijkste punten
+
+- Volatiliteit meet hoeveel en hoe snel de prijs beweegt.
+- Het beschrijft prijsbeweging, niet automatisch een uiteindelijke uitkomst.
+- Een tijdelijke daling is geen blijvend verlies, tenzij je tegen die prijs verkoopt.
