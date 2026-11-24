@@ -1,0 +1,319 @@
+===== PURPLE-L1-029
+TITLE: La conclusion de la vente : les étapes juridiques d’une transaction immobilière
+SUMMARY: Passe en revue la conclusion de la vente en tant qu’aboutissement juridique d’une transaction immobilière, en reliant les notions d’acte, de titre et de contrat vues dans les leçons précédentes.
+# La conclusion de la vente : les étapes juridiques d’une transaction immobilière
+
+## Objectifs d’apprentissage
+
+- Décrire le but général de la conclusion d’une vente immobilière.
+- Déterminer comment la conclusion de la vente relie les notions d’acte, de titre et de contrat des leçons précédentes.
+- Reconnaître la conclusion de la vente comme le moment où la propriété juridique est officiellement transférée.
+
+## Contenu principal
+
+La conclusion de la vente (en anglais *closing*) est la dernière étape juridique d’une transaction immobilière, au cours de laquelle la propriété est officiellement transférée du vendeur à l’acheteur. Cette leçon relie presque tout ce qui a été vu jusqu’ici dans cette section : on confirme que les conditions de la promesse d’achat sont remplies, une dernière recherche de titre confirme que le titre est libre (ou règle les privilèges trouvés), l’acte de transfert est signé et préparé pour l’enregistrement, les fonds sont transférés, et l’acte est enregistré dans les registres publics, ce qui rend la nouvelle propriété publique.
+
+La conclusion de la vente fait habituellement intervenir plusieurs parties au-delà de l’acheteur et du vendeur — souvent une société d’assurance titres ou un avocat qui facilite le processus (en France, c’est le notaire qui reçoit l’acte de vente), un prêteur si un financement est en jeu, et parfois des agents immobiliers représentant chaque partie. La portée juridique de la conclusion de la vente est précise : avant la conclusion, l’acheteur a généralement des droits contractuels, mais pas encore la propriété; après la conclusion et l’enregistrement, la propriété juridique a réellement été transférée. Comprendre cette étape comme un jalon juridique officiel, et non comme une simple formalité administrative, montre pourquoi toutes les leçons précédentes de cette section — contrats, actes, titre, privilèges — convergent vers ce moment unique et juridiquement décisif.
+
+## Exemple pratique
+
+**Question :** Un acheteur se demande à quel moment précis il devient légalement propriétaire du bien qu’il achète — est-ce à la signature de la promesse d’achat, ou à un autre moment?
+
+**Étudiant :** D’après cette leçon, ce n’est pas à la signature de la promesse — la propriété juridique est réellement transférée à la conclusion de la vente, lorsque l’acte est signé, que les fonds sont transférés et que l’acte est enregistré.
+
+**Guide :** Qu’est-ce que l’acheteur détient avant la conclusion de la vente, si ce n’est pas encore la propriété?
+
+**Étudiant :** Des droits contractuels en vertu de la promesse d’achat — le droit de recevoir éventuellement la propriété si tout se déroule comme convenu —, mais pas la propriété elle-même tant que la vente n’est pas réellement conclue.
+
+**Guide :** Exactement — c’est la distinction juridique précise que fait cette leçon.
+
+## Quiz pratique
+
+**Question 1.** La conclusion de la vente est :
+
+A) Le moment où la promesse d’achat est signée
+B) La dernière étape juridique, au cours de laquelle la propriété est officiellement transférée
+C) Sans pertinence pour les transactions immobilières
+D) La même chose qu’une inspection
+
+**Question 2.** Quelles notions antérieures convergent à la conclusion de la vente?
+
+A) Aucune des leçons précédentes de cette section
+B) Les conditions, le titre, l’acte et le règlement des privilèges
+C) Seulement des considérations fiscales
+D) Seulement le zonage
+
+**Question 3.** Avant la conclusion de la vente, que détient généralement l’acheteur?
+
+A) La pleine propriété juridique
+B) Des droits contractuels en vertu de la promesse d’achat, mais pas encore la propriété
+C) Rien de juridiquement significatif
+D) Les mêmes droits qu’après la conclusion
+
+**Question 4.** Qu’est-ce qui rend la nouvelle propriété « publique »?
+
+A) La signature de la promesse d’achat
+B) L’enregistrement de l’acte après la conclusion de la vente
+C) Le versement du dépôt
+D) La prise de rendez-vous pour une inspection
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La conclusion de la vente marque le moment juridique précis où la propriété passe officiellement du vendeur à l’acheteur.
+
+**2.** Cette leçon rassemble délibérément les fils conducteurs antérieurs de la section en un seul événement culminant.
+
+**3.** Les droits contractuels et la propriété réelle sont juridiquement distincts, la conclusion de la vente marquant le passage de l’un à l’autre.
+
+**4.** C’est précisément l’enregistrement de l’acte qui fait du transfert une information publique.
+
+## Points clés
+
+- La conclusion de la vente est la dernière étape juridique, au cours de laquelle la propriété d’un bien immobilier est officiellement transférée.
+- La conclusion de la vente relie les conditions, le titre, l’acte et le règlement des privilèges vus dans les leçons précédentes.
+- Avant la conclusion, l’acheteur a des droits contractuels, mais pas encore la propriété réelle.
+- L’enregistrement de l’acte après la conclusion de la vente rend la nouvelle propriété publique.
+
+===== PURPLE-L1-030
+TITLE: Les notions de base de la saisie hypothécaire : le processus juridique en cas de défaut de paiement
+SUMMARY: Présente le processus juridique général de la saisie hypothécaire, pertinent à la fois pour les investisseurs immobiliers qui gèrent le risque lié à leurs dettes et pour ceux qui envisagent l’achat de biens en difficulté.
+# Les notions de base de la saisie hypothécaire : le processus juridique en cas de défaut de paiement
+
+## Objectifs d’apprentissage
+
+- Définir la saisie hypothécaire en termes simples.
+- Expliquer le processus juridique général, dans ses grandes lignes.
+- Reconnaître la pertinence de la saisie hypothécaire à la fois pour les emprunteurs et pour les investisseurs.
+
+## Contenu principal
+
+La saisie hypothécaire (en anglais *foreclosure*) est le processus juridique par lequel un prêteur fait valoir une hypothèque (rappelez-vous la leçon sur les privilèges) lorsqu’un emprunteur ne rembourse pas son prêt, ce qui force finalement la vente du bien pour récupérer la dette impayée. Le processus général, même si les détails varient beaucoup selon le territoire, comprend habituellement : un avis officiel de défaut après des paiements manqués, une période d’attente ou de régularisation exigée par la loi, qui donne à l’emprunteur l’occasion de rattraper son retard, et — si le défaut n’est pas réglé — une vente forcée, soit par un processus judiciaire (saisie judiciaire), soit par un processus hors cour autorisé par les documents hypothécaires eux-mêmes (saisie non judiciaire), selon le territoire. (En France, la saisie immobilière est une procédure judiciaire encadrée par le Code des procédures civiles d’exécution. Vérifiez auprès d’un professionnel.)
+
+Cela compte des deux côtés de l’univers du volet RED. Pour une personne qui gère sa propre dette hypothécaire, comprendre ce processus — et en particulier qu’il existe habituellement une période de régularisation, et non une perte instantanée du bien au premier paiement manqué — compte directement pour la gestion du risque et pour savoir quelles options existent si des difficultés financières surviennent. Pour un investisseur qui envisage l’achat de biens en difficulté ou liés à une saisie, comprendre le processus juridique, y compris les droits de rachat que les anciens propriétaires peuvent conserver même après une vente dans certains territoires, est essentiel avant de supposer qu’un achat lié à une saisie est aussi simple que l’achat de tout autre bien.
+
+## Exemple pratique
+
+**Question :** Une emprunteuse manque un paiement hypothécaire et suppose qu’elle a déjà perdu le bien définitivement. Selon cette leçon, cette supposition est-elle exacte?
+
+**Étudiant :** D’après cette leçon, probablement pas — la saisie hypothécaire comporte généralement un avis officiel de défaut et une période de régularisation exigée par la loi, et non une perte instantanée après un seul paiement manqué.
+
+**Guide :** Pourquoi comprendre cette période de régularisation est-il important en pratique pour une personne en difficulté financière?
+
+**Étudiant :** Parce que cela signifie qu’il existe habituellement une réelle période et des options définies pour régler la situation avant que le bien soit réellement perdu, plutôt que de supposer que le pire est déjà arrivé.
+
+**Guide :** Exactement — comprendre le processus réel compte pour une véritable gestion du risque, et pas seulement pour la peur.
+
+## Quiz pratique
+
+**Question 1.** La saisie hypothécaire est :
+
+A) Une vente volontaire d’un bien
+B) Le processus juridique par lequel un prêteur fait valoir une hypothèque après un défaut de paiement
+C) Un type de bail
+D) Sans pertinence pour la dette hypothécaire
+
+**Question 2.** Le processus général de saisie hypothécaire comprend habituellement :
+
+A) Une perte immédiate du bien, sans préavis
+B) Un avis officiel de défaut et une période de régularisation avant toute vente forcée
+C) Aucun processus juridique
+D) Seulement une procédure devant un tribunal pénal
+
+**Question 3.** Pourquoi comprendre la période de régularisation est-il important pour un emprunteur en difficulté financière?
+
+A) Cela n’a aucune importance
+B) Cela révèle une réelle période et des options avant que le bien soit réellement perdu
+C) Les périodes de régularisation n’existent jamais réellement
+D) Cette information est sans pertinence pour la gestion du risque
+
+**Question 4.** Selon cette leçon, que devrait comprendre un investisseur qui envisage un achat lié à une saisie hypothécaire?
+
+A) Rien de différent d’un achat normal
+B) Le processus juridique, y compris les droits de rachat que les anciens propriétaires peuvent conserver
+C) Les achats liés à une saisie ne comportent aucune considération particulière
+D) Les droits de rachat ne s’appliquent jamais nulle part
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La saisie hypothécaire est précisément le mécanisme d’exécution lié à une hypothèque en défaut.
+
+**2.** Un processus défini, avec un avis et une période de régularisation, est une caractéristique structurelle courante, et non une saisie instantanée.
+
+**3.** Cette compréhension favorise directement des décisions éclairées plutôt que la panique pendant des difficultés financières.
+
+**4.** Les droits de rachat et les détails du processus sont exactement le genre de détails qui distinguent les achats liés à une saisie des achats ordinaires.
+
+## Points clés
+
+- La saisie hypothécaire est le processus juridique qui permet de faire valoir une hypothèque après un défaut de paiement.
+- Le processus comprend habituellement un avis de défaut et une période de régularisation avant toute vente forcée.
+- C’est important pour les emprunteurs qui gèrent leur risque et pour les investisseurs qui envisagent l’achat de biens en difficulté.
+- Les détails propres au territoire, comme les droits de rachat, comptent beaucoup dans les situations de saisie hypothécaire.
+
+===== PURPLE-L1-031
+TITLE: Qu’est-ce qu’une valeur mobilière, sur le plan juridique?
+SUMMARY: Ouvre la section sur le droit des placements et des valeurs mobilières en définissant ce qui constitue juridiquement une « valeur mobilière », en lien direct avec le contenu sur le placement du volet WHITE.
+# Qu’est-ce qu’une valeur mobilière, sur le plan juridique?
+
+## Objectifs d’apprentissage
+
+- Définir une valeur mobilière en termes juridiques.
+- Repérer des exemples courants de valeurs mobilières.
+- Expliquer pourquoi la définition juridique compte au-delà de la compréhension courante.
+
+## Contenu principal
+
+Cette leçon ouvre la section du volet PURPLE consacrée au droit des placements, en lien direct avec le volet WHITE. Une valeur mobilière (en anglais *security*) est, de façon générale, une catégorie de placement définie par la loi — un instrument qui représente une participation dans la propriété, une relation de dette ou des droits sur des bénéfices tirés des efforts d’autrui. Les exemples courants et évidents comprennent les actions et les obligations, toutes deux présentées en profondeur dans le volet WHITE. Mais la définition juridique d’une valeur mobilière est en réalité plus large et plus nuancée que la plupart des gens ne le pensent — elle peut s’étendre à certains contrats d’investissement, à certaines formes d’ententes de partage des bénéfices et à d’autres structures qui ne ressemblent pas du tout à un certificat d’actions traditionnel.
+
+Cette définition juridique plus large compte, parce que le droit des valeurs mobilières impose des exigences réelles — inscription, divulgation et autres protections des investisseurs — qui s’appliquent selon que quelque chose constitue juridiquement une valeur mobilière ou non, et non selon le nom qu’on lui donne couramment. Une occasion de placement présentée sous un tout autre nom (une « adhésion », un « club de partage des bénéfices », une « entente de partage des revenus ») peut quand même être juridiquement une valeur mobilière si elle répond au critère légal, ce qui signifie qu’elle reste soumise à la réglementation des valeurs mobilières, peu importe l’étiquette utilisée pour la commercialiser. (En France, cette réglementation relève notamment de l’Autorité des marchés financiers, l’AMF.) Comprendre cela prépare les prochaines leçons, qui expliquent pourquoi cette réglementation existe et contre quoi elle vise à protéger.
+
+## Exemple pratique
+
+**Question :** Un promoteur présente une occasion de placement comme un « club de partage des bénéfices », en évitant explicitement les mots « valeur mobilière » ou « action ». Ce choix d’étiquette détermine-t-il si le droit des valeurs mobilières s’applique réellement?
+
+**Étudiant :** D’après cette leçon, non — la définition juridique d’une valeur mobilière dépend de ce qu’est réellement l’entente, et non de son nom, alors un « club de partage des bénéfices » pourrait quand même être juridiquement une valeur mobilière s’il répond au critère légal.
+
+**Guide :** Pourquoi est-ce important pour une personne qui envisage cette occasion de placement?
+
+**Étudiant :** Parce que si elle constitue juridiquement une valeur mobilière, elle reste soumise aux exigences d’inscription, de divulgation et aux autres exigences de protection des investisseurs, peu importe la façon dont elle a été commercialisée ou nommée.
+
+**Guide :** Exactement — la substance de l’entente compte davantage que l’étiquette utilisée pour la décrire.
+
+## Quiz pratique
+
+**Question 1.** Une valeur mobilière se définit de façon générale comme :
+
+A) Seulement des actions et des obligations, rien d’autre
+B) Un instrument qui représente une propriété, une dette ou des droits sur des bénéfices tirés des efforts d’autrui
+C) Seulement des actifs physiques
+D) Un type de police d’assurance
+
+**Question 2.** Les exemples courants et évidents de valeurs mobilières comprennent :
+
+A) Les actes de transfert immobiliers
+B) Les actions et les obligations
+C) Les contrats de travail
+D) Les permis de zonage
+
+**Question 3.** Un placement commercialisé sous une étiquette autre que celle de valeur mobilière peut-il quand même constituer juridiquement une valeur mobilière?
+
+A) Non, l’étiquette détermine toujours le statut juridique
+B) Oui — la définition juridique dépend de la substance de l’entente, et non de l’étiquette utilisée
+C) Seulement s’il est explicitement appelé « action »
+D) L’étiquette n’a aucun rapport avec le droit des valeurs mobilières
+
+**Question 4.** Pourquoi la définition juridique de « valeur mobilière » compte-t-elle en pratique?
+
+A) Elle n’a aucune importance pratique
+B) Le droit des valeurs mobilières impose des exigences réelles — inscription, divulgation, protections — selon la qualification juridique, et non selon l’étiquette commerciale
+C) Seules les actions et les obligations sont réglementées
+D) Cette définition ne compte que pour les avocats, jamais pour les investisseurs
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Cette définition large vise délibérément à englober un vaste éventail d’ententes semblables à des placements, et pas seulement les exemples évidents.
+
+**2.** Les actions et les obligations sont les exemples les plus clairs et les plus familiers, présentés en profondeur ailleurs dans ce programme.
+
+**3.** C’est la substance juridique, et non le langage commercial, qui déclenche réellement la réglementation des valeurs mobilières.
+
+**4.** C’est précisément cette portée réglementaire qui protège les investisseurs contre les ententes conçues pour y échapper au moyen d’étiquettes astucieuses.
+
+## Points clés
+
+- Une valeur mobilière est, de façon générale, tout instrument qui représente des droits de propriété, de créance ou de partage des bénéfices.
+- Les actions et les obligations sont les exemples les plus familiers, mais la définition juridique va plus loin.
+- Ce n’est pas le nom donné à quelque chose qui détermine son statut juridique — c’est sa substance réelle.
+- Cela prépare les prochaines leçons, qui expliquent pourquoi la réglementation des valeurs mobilières existe et ce qu’elle protège.
+
+===== PURPLE-L1-032
+TITLE: Pourquoi le droit des valeurs mobilières existe : protéger les investisseurs
+SUMMARY: Explique la raison d’être historique et pratique de la réglementation des valeurs mobilières, en la présentant comme une infrastructure de protection des investisseurs plutôt que comme une bureaucratie arbitraire.
+# Pourquoi le droit des valeurs mobilières existe : protéger les investisseurs
+
+## Objectifs d’apprentissage
+
+- Expliquer la motivation historique générale du droit des valeurs mobilières.
+- Repérer le problème central auquel répond le droit des valeurs mobilières.
+- Relier cela à la confiance et à la participation aux marchés en général.
+
+## Contenu principal
+
+Le droit des valeurs mobilières n’est pas apparu de nulle part — il s’est développé en grande partie en réponse à des problèmes historiques réels : des investisseurs qui perdaient des sommes importantes dans des stratagèmes de placement frauduleux ou trompeurs, souvent parce qu’ils n’avaient aucun moyen fiable de vérifier la situation financière réelle d’une entreprise ou la véracité des affirmations faites pour attirer leur argent. Le problème central auquel répond le droit des valeurs mobilières est l’asymétrie d’information — l’entreprise ou le promoteur qui offre un placement en sait presque toujours beaucoup plus sur sa situation réelle et ses risques que l’investisseur à qui l’on demande d’y placer de l’argent.
+
+Le droit des valeurs mobilières comble cet écart surtout au moyen de la divulgation obligatoire — en exigeant que les entreprises qui offrent des valeurs mobilières communiquent publiquement des renseignements financiers et des renseignements sur les risques précis et exacts, ce qui donne aux investisseurs une véritable base pour évaluer une occasion plutôt que de s’en remettre uniquement aux affirmations d’un promoteur. Cela rejoint une idée vue dans le volet WHITE : les marchés fonctionnent mieux, et plus de gens sont prêts à y participer, lorsqu’il existe une confiance de base dans le fait que l’information disponible est au moins raisonnablement fiable. Le droit des valeurs mobilières est, en ce sens, une infrastructure pour un marché de placement qui fonctionne — sans lui, la supposition raisonnable de tout investisseur serait de se méfier par défaut de toute affirmation, ce qui rendrait les marchés beaucoup moins utiles pour tout le monde.
+
+## Exemple pratique
+
+**Question :** Une personne demande pourquoi la réglementation des valeurs mobilières existe, en soutenant que les investisseurs devraient simplement faire leurs propres recherches et accepter le risque qui en découle. Quel problème central, relevé par cette leçon, cet argument néglige-t-il?
+
+**Étudiant :** D’après cette leçon, le problème central est l’asymétrie d’information — les investisseurs ne peuvent souvent pas réellement accéder par eux-mêmes à l’information véritable nécessaire pour évaluer correctement une occasion, peu importe l’ampleur des recherches qu’ils tentent de faire.
+
+**Guide :** Pourquoi la divulgation obligatoire répond-elle directement à ce problème?
+
+**Étudiant :** Parce qu’elle exige que les entreprises communiquent réellement des renseignements précis et exacts de façon publique, ce qui donne aux investisseurs une véritable base d’évaluation au lieu de s’en remettre uniquement à des affirmations non vérifiées.
+
+**Guide :** Exactement — « faites simplement vos recherches » ne fonctionne pas si l’information nécessaire à ces recherches n’est pas fiablement disponible au départ.
+
+## Quiz pratique
+
+**Question 1.** Le droit des valeurs mobilières s’est développé en grande partie en réponse à :
+
+A) Aucun problème historique réel
+B) Des cas historiques réels d’investisseurs qui ont perdu de l’argent dans des stratagèmes frauduleux ou trompeurs
+C) Une volonté de créer une bureaucratie inutile
+D) Seulement des préoccupations modernes liées à l’ère d’Internet
+
+**Question 2.** Le problème central auquel répond le droit des valeurs mobilières est :
+
+A) Une trop grande quantité d’information disponible
+B) L’asymétrie d’information entre les entreprises ou les promoteurs et les investisseurs
+C) Une prudence excessive des investisseurs
+D) L’absence de tout problème réel
+
+**Question 3.** Le droit des valeurs mobilières répond à ce problème surtout au moyen :
+
+A) De l’interdiction de tout placement
+B) De la divulgation obligatoire de renseignements financiers et de renseignements sur les risques précis et exacts
+C) De l’élimination de tout risque de placement
+D) De l’obligation pour les investisseurs de n’avoir aucune information
+
+**Question 4.** Selon le volet WHITE, comment cette leçon relie-t-elle le droit des valeurs mobilières au fonctionnement général des marchés?
+
+A) Il n’existe aucun lien
+B) C’est la confiance de base dans l’information disponible qui rend les gens prêts à participer aux marchés
+C) Les marchés fonctionnent mieux sans aucune réglementation
+D) Cette leçon n’a aucun lien avec le volet WHITE
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La fraude et la tromperie historiques sont explicitement citées comme la motivation pratique de ce domaine du droit.
+
+**2.** L’asymétrie d’information — le déséquilibre entre ce que savent les entreprises et ce que les investisseurs peuvent vérifier — est le problème précis relevé.
+
+**3.** La divulgation obligatoire cible directement l’écart d’information en exigeant que les entreprises communiquent ce dont les investisseurs ont besoin pour évaluer le risque.
+
+**4.** Cela relie la réglementation des valeurs mobilières au thème plus large de la confiance comme infrastructure de marchés qui fonctionnent, vu dans le volet WHITE.
+
+## Points clés
+
+- Le droit des valeurs mobilières s’est développé en réponse à des préjudices historiques réels subis par des investisseurs à cause de la fraude et de la tromperie.
+- Le problème central est l’asymétrie d’information entre les entreprises et les investisseurs.
+- La divulgation obligatoire est le principal outil qu’utilise le droit des valeurs mobilières pour combler cet écart.
+- Cette réglementation sert d’infrastructure de confiance qui rend possible une participation plus large aux marchés.

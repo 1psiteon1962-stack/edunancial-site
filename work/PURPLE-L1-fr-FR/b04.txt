@@ -1,0 +1,319 @@
+===== PURPLE-L1-013
+TITLE: La LLC : la responsabilité limitée, expliquée avec précision
+SUMMARY: Explique ce que signifie juridiquement la « responsabilité limitée » d’une LLC, et clarifie les idées fausses courantes sur le degré réel de protection qu’elle offre.
+# La LLC : la responsabilité limitée, expliquée avec précision
+
+## Objectifs d’apprentissage
+
+- Définir la caractéristique juridique centrale d’une LLC.
+- Expliquer contre quoi la « responsabilité limitée » protège réellement.
+- Reconnaître que la protection d’une LLC n’est pas absolue.
+
+## Contenu principal
+
+Une LLC (*Limited Liability Company*, société à responsabilité limitée) est une structure d’entreprise conçue précisément pour créer une séparation juridique entre l’entreprise et ses propriétaires (appelés membres), de sorte que, en règle générale, les biens personnels des membres ne soient pas exposés aux dettes et aux responsabilités juridiques de l’entreprise. (La LLC est une structure surtout américaine; en France, ce sont souvent la SARL ou la SAS qui jouent un rôle comparable.) C’est la réponse juridique directe au problème de l’entreprise individuelle vu dans la leçon précédente — la LLC existe précisément pour tracer la ligne de responsabilité que l’entreprise individuelle ne trace pas.
+
+Il est important d’être précis sur ce que couvre réellement cette protection. En règle générale, une LLC protège ses membres contre une responsabilité personnelle pour les dettes de l’entreprise et les poursuites découlant de ses activités normales. Elle ne protège pas automatiquement un membre contre la responsabilité découlant de ses propres fautes personnelles — si un membre commet personnellement une fraude ou une négligence, cette personne peut quand même être tenue personnellement responsable, peu importe la structure de LLC. Comprendre cette portée précise prévient une idée fausse dangereuse : une LLC est une protection réelle et précieuse contre la responsabilité, mais ce n’est pas un bouclier inconditionnel contre toutes les conséquences.
+
+## Exemple pratique
+
+**Question :** Un membre d’une LLC commet personnellement une fraude dans le cadre des activités de la LLC. La structure de LLC protège-t-elle ce membre contre une responsabilité personnelle pour la fraude?
+
+**Étudiant :** D’après cette leçon, probablement pas — la protection d’une LLC ne couvre pas les fautes personnelles d’un membre, comme la fraude.
+
+**Guide :** Qu’est-ce que cela révèle sur la portée réelle de la protection d’une LLC?
+
+**Étudiant :** Ce n’est pas un bouclier inconditionnel contre tout — elle protège contre les responsabilités normales de l’entreprise, mais pas contre l’inconduite personnelle d’un membre.
+
+**Guide :** Exactement — c’est cette précision qui distingue une compréhension exacte d’une idée fausse dangereuse.
+
+## Quiz pratique
+
+**Question 1.** Une LLC est conçue pour :
+
+A) Éliminer complètement tout risque d’entreprise
+B) Créer une séparation juridique entre l’entreprise et les biens personnels de ses propriétaires
+C) Augmenter l’exposition à la responsabilité personnelle
+D) Avantager seulement les grandes sociétés
+
+**Question 2.** Les membres d’une LLC sont généralement protégés contre une responsabilité personnelle pour :
+
+A) Leur propre fraude ou leurs propres fautes personnelles
+B) Les dettes de l’entreprise et les poursuites découlant de ses activités normales
+C) Rien du tout
+D) Seulement les affaires pénales
+
+**Question 3.** La protection d’une LLC couvre-t-elle la fraude personnelle d’un membre?
+
+A) Oui, toujours
+B) Non — les fautes personnelles ne sont généralement pas couvertes par la structure de LLC
+C) Seulement si la fraude a été rentable
+D) La protection d’une LLC n’a aucune limite
+
+**Question 4.** Quelle idée fausse cette leçon cherche-t-elle précisément à prévenir?
+
+A) Que les LLC n’offrent aucune protection
+B) Qu’une LLC est un bouclier inconditionnel contre toutes les conséquences
+C) Que les LLC sont illégales
+D) Que les LLC n’existent qu’à des fins fiscales
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La séparation juridique entre le propriétaire et l’entité est la raison d’être structurelle de la LLC.
+
+**2.** Les dettes et les réclamations normales liées à l’entreprise constituent la principale catégorie de risques contre laquelle la LLC protège ses membres.
+
+**3.** Les fautes personnelles percent généralement la protection de la LLC, puisqu’il ne s’agit pas d’une responsabilité normale de l’entreprise.
+
+**4.** Cette leçon vise explicitement à corriger l’excès de confiance courant selon lequel la protection d’une LLC serait totale et inconditionnelle.
+
+## Points clés
+
+- Une LLC crée une séparation juridique qui protège les biens personnels des membres contre les responsabilités normales de l’entreprise.
+- Cette protection ne s’étend généralement pas aux fautes personnelles d’un membre, comme la fraude ou la négligence.
+- Comprendre cette portée précise prévient un excès de confiance dangereux envers la protection d’une LLC.
+- Une LLC est une protection réelle et précieuse — mais pas inconditionnelle.
+
+===== PURPLE-L1-014
+TITLE: La société par actions : la personnalité juridique et ses conséquences
+SUMMARY: Explique la notion de société par actions en tant que « personne » juridique distincte, en ajoutant un angle axé sur la responsabilité à la leçon du volet GREEN centrée sur la fiscalité.
+# La société par actions : la personnalité juridique et ses conséquences
+
+## Objectifs d’apprentissage
+
+- Expliquer la notion de personnalité juridique d’une société par actions.
+- La relier à la protection contre la responsabilité qu’offrent les sociétés par actions.
+- Rappeler, en contexte, le compromis de la double imposition vu dans le volet GREEN.
+
+## Contenu principal
+
+Une société par actions est traitée, sur le plan juridique, comme sa propre « personne » distincte — séparée de ses propriétaires (les actionnaires), capable de posséder des biens, de conclure des contrats, de poursuivre et d’être poursuivie, le tout en son propre nom. Cette personnalité juridique est le fondement de la protection contre la responsabilité qu’offrent les sociétés par actions : comme c’est la société elle-même, et non ses actionnaires, qui est juridiquement responsable de ses propres dettes et obligations, les biens personnels des actionnaires sont généralement protégés contre les responsabilités de la société, dans un esprit semblable à la protection d’une LLC.
+
+Cela renvoie directement à la présentation antérieure de la fiscalité des sociétés dans le volet GREEN : la même personnalité juridique qui crée la protection contre la responsabilité est aussi ce qui crée la question de la double imposition — le bénéfice d’une société est imposé une première fois au niveau de la société (parce que la société est son propre contribuable), puis de nouveau lorsqu’il est distribué aux actionnaires. (Les règles fiscales précises, y compris les mécanismes qui atténuent cette double imposition selon les pays, varient; vérifiez auprès d’un professionnel.) C’est un exemple clair de la façon dont une seule notion juridique — la personnalité de la société — produit à la fois un avantage réel (la protection contre la responsabilité) et un coût réel (la double imposition), et c’est précisément pourquoi le choix d’une structure exige de peser plusieurs facteurs ensemble, plutôt que de se fonder sur une seule considération.
+
+## Exemple pratique
+
+**Question :** Un actionnaire d’une société par actions demande pourquoi la même caractéristique juridique qui protège ses biens personnels cause aussi le problème de double imposition vu plus tôt dans le volet GREEN. Comment expliqueriez-vous ce lien?
+
+**Étudiant :** D’après cette leçon, c’est parce que la société est traitée comme sa propre personne juridique distincte — c’est exactement ce qui protège les biens personnels de l’actionnaire, mais c’est aussi ce qui fait de la société son propre contribuable distinct.
+
+**Guide :** La personnalité juridique est-elle donc purement un avantage, purement un coût, ou autre chose?
+
+**Étudiant :** Autre chose — elle produit à la fois un avantage réel, la protection contre la responsabilité, et un coût réel, la double imposition, à partir de la même notion juridique sous-jacente.
+
+**Guide :** Exactement — c’est pourquoi le choix d’une structure doit peser plusieurs facteurs ensemble.
+
+## Quiz pratique
+
+**Question 1.** Sur le plan juridique, une société par actions est traitée comme :
+
+A) La même entité que ses actionnaires
+B) Sa propre « personne » juridique distincte, séparée de ses propriétaires
+C) Aucunement une entité juridique
+D) Une notion pertinente seulement à des fins fiscales
+
+**Question 2.** La personnalité juridique d’une société par actions est le fondement :
+
+A) De rien d’important
+B) De la protection contre la responsabilité qu’offrent les sociétés par actions à leurs actionnaires
+C) Seulement de la stratégie de marketing
+D) Seulement des avantages sociaux des employés
+
+**Question 3.** À quelle notion d’une leçon antérieure cela se rattache-t-il directement?
+
+A) Aux leçons sur le droit des biens du volet RED
+B) À la leçon sur la double imposition des sociétés du volet GREEN
+C) À la leçon sur les dividendes du volet WHITE
+D) Il n’existe aucun lien antérieur
+
+**Question 4.** Que démontre cette leçon au sujet de la personnalité juridique d’une société par actions?
+
+A) Elle est purement avantageuse, sans compromis
+B) Elle produit à la fois un avantage réel (la protection contre la responsabilité) et un coût réel (la double imposition)
+C) Elle est purement coûteuse, sans avantages
+D) Elle n’a aucun lien avec la fiscalité
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Cette notion de personnalité distincte est la base structurelle de tout ce qu’offrent les sociétés par actions, y compris la protection contre la responsabilité.
+
+**2.** Comme c’est la société elle-même qui porte la responsabilité juridique, les actionnaires bénéficient d’une protection importante contre la responsabilité.
+
+**3.** Cette leçon renvoie explicitement à l’explication antérieure du volet GREEN sur les raisons pour lesquelles le bénéfice d’une société est imposé deux fois.
+
+**4.** Voir les deux côtés d’une même notion sous-jacente renforce le besoin de décisions globales, fondées sur plusieurs facteurs, quant à la structure.
+
+## Points clés
+
+- Une société par actions est une « personne » juridique distincte, séparée de ses actionnaires.
+- Cette personnalité crée une protection contre la responsabilité pour les actionnaires.
+- La même notion de personnalité produit aussi la question de la double imposition vue dans le volet GREEN.
+- Une seule notion juridique peut créer à la fois un avantage réel et un coût réel.
+
+===== PURPLE-L1-015
+TITLE: La société de personnes : propriété partagée, responsabilité partagée
+SUMMARY: Présente la société en nom collectif et sa caractéristique distinctive, souvent sous-estimée, en matière de responsabilité : la responsabilité solidaire des associés.
+# La société de personnes : propriété partagée, responsabilité partagée
+
+## Objectifs d’apprentissage
+
+- Définir la société en nom collectif.
+- Expliquer la notion de responsabilité solidaire.
+- Reconnaître pourquoi cela fait du choix des associés une décision juridique sérieuse.
+
+## Contenu principal
+
+Une société en nom collectif (SNC, en anglais *general partnership*) est une entreprise appartenant à deux personnes ou plus qui n’ont pas constitué d’entité plus officielle limitant leur responsabilité — sur le plan juridique, elle ressemble à une entreprise individuelle, mais avec plusieurs propriétaires qui partagent à la fois les bénéfices et l’exposition juridique. La caractéristique essentielle, souvent sous-estimée, d’une société en nom collectif est la responsabilité solidaire : chaque associé peut être tenu personnellement responsable de la totalité des dettes et des obligations de la société — et pas seulement de sa propre part proportionnelle, mais possiblement du montant entier, peu importe quel associé a réellement causé le problème. (En France, les associés d’une SNC sont indéfiniment et solidairement responsables des dettes sociales; les règles précises relèvent du Code de commerce. Vérifiez auprès d’un professionnel.)
+
+Cela signifie que si un associé fait une erreur coûteuse, signe une mauvaise entente ou commet une inconduite, les autres associés peuvent être personnellement responsables de toutes les conséquences, même s’ils n’y ont pas participé directement. C’est précisément pourquoi le choix d’associés a un réel poids juridique, au-delà de la simple compatibilité ou de la confiance — dans une société en nom collectif, vous êtes juridiquement exposé aux décisions et aux erreurs de vos associés, et pas seulement aux vôtres, ce qui constitue un argument solide pour envisager une structure qui limite davantage la responsabilité (comme une LLC ou une société par actions), même pour une entreprise à plusieurs propriétaires.
+
+## Exemple pratique
+
+**Question :** Deux personnes forment une société en nom collectif. L’un des associés, sans en parler à l’autre, signe au nom de l’entreprise une entente importante, coûteuse et désavantageuse. L’associé qui n’y a pas participé peut-il quand même être tenu responsable?
+
+**Étudiant :** D’après cette leçon, oui — selon la responsabilité solidaire, chaque associé peut être tenu responsable de la totalité des obligations de la société, même celles auxquelles il n’a pas participé personnellement.
+
+**Guide :** Qu’est-ce que cela laisse croire quant au sérieux avec lequel il faut évaluer un associé potentiel avant de former une société en nom collectif?
+
+**Étudiant :** Beaucoup de sérieux — puisqu’on est juridiquement exposé aux décisions et aux erreurs de son associé, et pas seulement aux siennes, choisir un associé est une véritable décision juridique, et pas seulement une question de compatibilité.
+
+**Guide :** Exactement — et c’est un argument solide pour envisager une structure qui limite davantage la responsabilité, même avec un associé de confiance.
+
+## Quiz pratique
+
+**Question 1.** Une société en nom collectif est :
+
+A) Une entreprise appartenant à une seule personne
+B) Une entreprise appartenant à deux personnes ou plus, sans entité plus officielle limitant la responsabilité
+C) La même chose qu’une société par actions
+D) Automatiquement protégée contre la responsabilité
+
+**Question 2.** La « responsabilité solidaire » signifie :
+
+A) Chaque associé n’est responsable que de sa propre part proportionnelle
+B) Chaque associé peut être tenu responsable de la totalité de l’obligation de la société, peu importe la faute
+C) Aucun associé n’est jamais responsable de quoi que ce soit
+D) Seule l’entité commerciale elle-même peut être responsable
+
+**Question 3.** Si un associé cause un problème coûteux à l’insu de l’autre, l’autre associé peut-il quand même être responsable?
+
+A) Non, jamais
+B) Oui, possiblement pour le montant entier, selon la responsabilité solidaire
+C) Seulement s’il l’a personnellement approuvé
+D) Seulement dans les affaires pénales
+
+**Question 4.** Pourquoi cette leçon soutient-elle que le choix des associés a un réel poids juridique?
+
+A) Ce n’est pas le cas — les sociétés de personnes ne comportent aucun risque juridique réel
+B) Parce qu’on est juridiquement exposé aux décisions et aux erreurs de ses associés, et pas seulement aux siennes
+C) Seule la compatibilité compte, pas l’exposition juridique
+D) Cette leçon ne présente aucun argument de ce genre
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Une société en nom collectif partage de nombreuses caractéristiques de responsabilité avec une entreprise individuelle, simplement étendues à plusieurs propriétaires.
+
+**2.** La responsabilité solidaire signifie que la totalité de l’obligation peut retomber sur n’importe quel associé, et pas seulement une part proportionnelle.
+
+**3.** L’absence de participation directe ne protège pas un associé contre cette exposition partagée, selon la responsabilité solidaire.
+
+**4.** Cette structure de responsabilité fait directement passer le choix des associés d’une question personnelle à une véritable décision de risque juridique.
+
+## Points clés
+
+- Une société en nom collectif partage la propriété et, surtout, l’exposition juridique entre les associés.
+- La responsabilité solidaire signifie que n’importe quel associé peut être tenu responsable de la totalité de l’obligation.
+- Cela expose les associés aux erreurs et aux décisions des autres, et pas seulement aux leurs.
+- C’est un argument solide pour envisager des structures qui limitent davantage la responsabilité, même entre associés de confiance.
+
+===== PURPLE-L1-016
+TITLE: Lever le voile de la personnalité morale : quand la responsabilité « limitée » ne l’est plus
+SUMMARY: Explique la notion de levée du voile de la personnalité morale — les circonstances dans lesquelles les tribunaux peuvent écarter entièrement la protection contre la responsabilité d’une LLC ou d’une société par actions.
+# Lever le voile de la personnalité morale : quand la responsabilité « limitée » ne l’est plus
+
+## Objectifs d’apprentissage
+
+- Définir la « levée du voile de la personnalité morale ».
+- Repérer les raisons courantes pour lesquelles les tribunaux lèvent le voile.
+- Renforcer les habitudes pratiques qui protègent contre ce risque.
+
+## Contenu principal
+
+La « levée du voile de la personnalité morale » désigne le fait qu’un tribunal écarte la protection contre la responsabilité qu’offre normalement une LLC ou une société par actions, en tenant les propriétaires personnellement responsables malgré la structure officielle. Ce n’est pas courant, mais ce n’est pas assez rare pour être ignoré non plus, et cela compromet directement la raison même de constituer une entité protectrice — c’est précisément pourquoi il est important de comprendre ce qui la déclenche.
+
+Les raisons courantes pour lesquelles les tribunaux lèvent le voile comprennent : ne pas maintenir de séparation entre les finances de l’entreprise et les finances personnelles (utiliser le compte bancaire de l’entreprise pour des dépenses personnelles, confondre les fonds), ne pas respecter les formalités de base d’une société (ne pas tenir de registres adéquats, agir comme si l’entité n’existait pas vraiment), une sous-capitalisation importante par rapport aux risques évidents de l’entreprise, ou l’utilisation de l’entité précisément pour commettre une fraude ou se soustraire à des obligations juridiques existantes. La leçon pratique est directe : constituer une LLC ou une société par actions est nécessaire, mais ne suffit pas à assurer la protection contre la responsabilité — il faut aussi l’exploiter réellement comme une entité véritablement distincte, de façon constante, sinon la protection que vous avez payée pour mettre en place peut s’évaporer précisément au moment où vous en avez le plus besoin.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise constitue une LLC, mais utilise régulièrement le compte bancaire de l’entreprise pour payer ses factures personnelles, ne tient jamais de registres distincts et traite l’argent de l’entreprise et son argent personnel comme essentiellement interchangeables. Quel risque cela crée-t-il?
+
+**Étudiant :** D’après cette leçon, ce genre de confusion des fonds est exactement le type de comportement qui pourrait amener un tribunal à lever le voile de la personnalité morale et à écarter la protection contre la responsabilité de la LLC.
+
+**Guide :** Pourquoi un tribunal ferait-il cela, alors que la LLC a été constituée correctement sur papier?
+
+**Étudiant :** Parce que si la propriétaire n’a jamais réellement traité l’entreprise comme une entité véritablement distincte en pratique, le tribunal peut raisonnablement conclure que la séparation n’a jamais été réelle et écarter la protection en conséquence.
+
+**Guide :** Exactement — constituer l’entité est nécessaire, mais ne suffit pas; il faut réellement l’exploiter comme une entité distincte.
+
+## Quiz pratique
+
+**Question 1.** « Lever le voile de la personnalité morale » signifie :
+
+A) Constituer une nouvelle société par actions
+B) Qu’un tribunal écarte la protection contre la responsabilité d’une LLC ou d’une société par actions et tient les propriétaires personnellement responsables
+C) Un type d’inexécution de contrat
+D) Une exigence de déclaration fiscale
+
+**Question 2.** Une raison courante pour laquelle les tribunaux lèvent le voile est :
+
+A) Le maintien adéquat de finances distinctes pour l’entreprise et la personne
+B) La confusion des fonds de l’entreprise et des fonds personnels
+C) Le respect de toutes les formalités de la société
+D) Une capitalisation adéquate
+
+**Question 3.** Selon cette leçon, qu’est-ce qui est nécessaire, mais ne suffit pas à assurer la protection contre la responsabilité?
+
+A) Ne jamais constituer d’entité
+B) Constituer la LLC ou la société par actions — il faut aussi l’exploiter réellement comme une entité véritablement distincte
+C) Seulement payer ses impôts à temps
+D) Rien d’autre n’est exigé au-delà de la constitution
+
+**Question 4.** Quelle habitude pratique protège contre le risque de levée du voile?
+
+A) Traiter l’argent de l’entreprise et l’argent personnel comme interchangeables
+B) Maintenir une véritable séparation entre les finances et les formalités de l’entreprise et celles de la personne
+C) Éviter toute tenue de registres
+D) Ignorer complètement les formalités de la société
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Cette notion décrit précisément l’effondrement de la protection contre la responsabilité en raison de la façon dont l’entité a réellement été exploitée.
+
+**2.** La confusion des fonds est l’un des déclencheurs le plus souvent cités pour lesquels un tribunal écarte la protection d’une entité.
+
+**3.** La constitution à elle seule ne garantit pas la protection — c’est une séparation opérationnelle réelle et continue qui la maintient.
+
+**4.** Une séparation financière et formelle constante est la protection pratique contre ce risque.
+
+## Points clés
+
+- Lever le voile de la personnalité morale signifie qu’un tribunal écarte la protection d’une LLC ou d’une société par actions, ce qui expose personnellement les propriétaires.
+- La confusion des fonds et le non-respect des formalités sont des déclencheurs courants.
+- Constituer l’entité est nécessaire, mais ne suffit pas — il faut réellement l’exploiter comme une entité véritablement distincte.
+- Une séparation constante et disciplinée est la défense pratique contre ce risque.

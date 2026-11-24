@@ -1,0 +1,319 @@
+===== PURPLE-L1-033
+TITLE: Les investisseurs qualifiés : ce que signifie juridiquement cette étiquette
+SUMMARY: Explique la notion d’investisseur qualifié, un mécanisme juridique courant qui restreint l’accès à certaines occasions de placement, et le raisonnement qui la sous-tend.
+# Les investisseurs qualifiés : ce que signifie juridiquement cette étiquette
+
+## Objectifs d’apprentissage
+
+- Définir, en termes généraux, l’« investisseur qualifié ».
+- Expliquer le raisonnement général derrière cette classification.
+- Reconnaître qu’il s’agit d’une réelle restriction d’accès pertinente pour certaines occasions du volet WHITE.
+
+## Contenu principal
+
+Dans de nombreux régimes de réglementation des valeurs mobilières, certaines occasions de placement — en particulier les placements privés, moins réglementés — sont légalement réservées aux « investisseurs qualifiés » (en anglais *accredited investors*), une catégorie généralement définie par le respect de seuils précis de revenu, de valeur nette ou de connaissances professionnelles. Les seuils chiffrés précis varient selon le territoire et changent avec le temps; cette leçon porte donc sur la notion sous-jacente plutôt que sur un montant précis. (En Europe, des notions comparables existent, comme celle d’« investisseur qualifié » ou de client professionnel; vérifiez les critères en vigueur auprès des autorités ou d’un professionnel.)
+
+Le raisonnement général derrière cette restriction rejoint directement le thème de la divulgation de la leçon précédente : les placements privés ne sont souvent pas tenus de fournir le même niveau de divulgation publique obligatoire que les placements publics, plus fortement réglementés. L’exigence d’investisseur qualifié est un compromis de politique — au lieu d’exiger une divulgation publique complète, elle restreint l’accès aux investisseurs présumés avoir soit les ressources financières nécessaires pour absorber une perte, soit les connaissances nécessaires pour évaluer le risque sans ce même niveau de protection par la divulgation. C’est directement pertinent pour certaines occasions de placement du volet WHITE (entreprises privées, certains fonds, certaines syndications immobilières) qui exigent précisément le statut d’investisseur qualifié, ce qui en fait un élément pratique, et pas seulement théorique, de la littératie juridique.
+
+## Exemple pratique
+
+**Question :** Un investisseur est enthousiasmé par une occasion de placement privé, mais apprend qu’elle est réservée aux investisseurs qualifiés et qu’il ne remplit pas actuellement les critères. Selon cette leçon, quelle est la logique de politique sous-jacente à cette restriction?
+
+**Étudiant :** D’après cette leçon, comme ce placement privé n’offre pas le même niveau de divulgation obligatoire qu’un placement public, la restriction vise à limiter l’accès aux investisseurs présumés capables d’absorber une perte ou d’évaluer le risque sans cette même protection par la divulgation.
+
+**Guide :** Cette restriction porte-t-elle surtout sur la qualité du placement, ou sur une autre préoccupation sous-jacente?
+
+**Étudiant :** Sur une autre préoccupation — elle porte sur le compromis entre les exigences de divulgation et la protection des investisseurs, et pas nécessairement sur un jugement quant à la qualité de cette occasion précise.
+
+**Guide :** Exactement — le statut d’investisseur qualifié est un mécanisme de politique, et non un sceau de qualité du placement.
+
+## Quiz pratique
+
+**Question 1.** Un « investisseur qualifié » se définit généralement par :
+
+A) Un tirage au sort
+B) Le respect de seuils précis de revenu, de valeur nette ou de connaissances professionnelles
+C) La possession d’un nombre quelconque d’actions
+D) Seulement l’obtention d’un diplôme universitaire
+
+**Question 2.** Pourquoi cette leçon évite-t-elle de citer un seuil précis en euros?
+
+A) Aucun seuil n’existe nulle part
+B) Les seuils précis varient selon le territoire et changent avec le temps
+C) Les seuils n’ont aucun rapport avec cette notion
+D) Cette leçon fournit un chiffre universel exact
+
+**Question 3.** Le raisonnement de politique sous-jacent se rattache au thème de quelle leçon précédente?
+
+A) La conclusion d’une vente immobilière
+B) La divulgation obligatoire et l’asymétrie d’information
+C) Le zonage
+D) Le processus de saisie hypothécaire
+
+**Question 4.** À quel volet du programme la notion d’investisseur qualifié se rattache-t-elle directement?
+
+A) GREEN
+B) WHITE
+C) Seulement RED
+D) Seulement BLUE
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Des critères financiers et de connaissances sont la base générale de cette classification, et non le hasard ou des facteurs sans lien.
+
+**2.** Les variations d’un territoire à l’autre et les changements dans le temps rendent un chiffre précis peu fiable à enseigner comme un fait établi.
+
+**3.** Cette restriction est une réponse de politique directe aux exigences de divulgation réduites des placements privés.
+
+**4.** Certaines occasions de placement du volet WHITE exigent précisément ce statut, ce qui rend le lien pratique, et non abstrait.
+
+## Points clés
+
+- Le statut d’investisseur qualifié repose généralement sur des seuils de revenu, de valeur nette ou de connaissances professionnelles.
+- Les seuils précis varient selon le territoire et changent avec le temps.
+- Cette restriction reflète un compromis de politique entre les exigences de divulgation et la protection des investisseurs.
+- C’est directement pertinent pour certaines occasions de placement privé du volet WHITE.
+
+===== PURPLE-L1-034
+TITLE: Les exigences de divulgation : pourquoi les entreprises doivent dire la vérité
+SUMMARY: Approfondit la notion de divulgation présentée plus tôt, en expliquant ce que les entreprises doivent généralement divulguer et les conséquences juridiques d’une divulgation fausse ou trompeuse.
+# Les exigences de divulgation : pourquoi les entreprises doivent dire la vérité
+
+## Objectifs d’apprentissage
+
+- Repérer les grandes catégories de divulgation obligatoire.
+- Expliquer les conséquences juridiques d’une divulgation fausse ou trompeuse.
+- Relier la qualité de la divulgation à des décisions de placement éclairées.
+
+## Contenu principal
+
+Dans la foulée de la leçon précédente qui expliquait pourquoi les exigences de divulgation existent, cette leçon examine ce qui est réellement exigé en règle générale. Les entreprises qui offrent des valeurs mobilières au public doivent habituellement divulguer : des états financiers (un portrait véridique de leur situation financière réelle), les risques importants (les facteurs qui pourraient influer de façon importante sur la valeur du placement ou sur les perspectives de l’entreprise) et les faits importants pertinents pour la décision d’un investisseur (des événements importants, des conflits d’intérêts ou d’autres renseignements qu’un investisseur raisonnable voudrait connaître avant d’investir).
+
+Les conséquences juridiques d’une divulgation fausse ou trompeuse sont graves, ce qui reflète à quel point une divulgation véridique est au cœur de tout le système présenté dans les deux dernières leçons : les entreprises et les personnes peuvent faire face à des sanctions réglementaires, à des poursuites civiles intentées par des investisseurs lésés et, dans les cas graves, à une responsabilité pénale pour fraude. Pour un investisseur, comprendre que les documents de divulgation ont un réel poids juridique — qu’il ne s’agit pas simplement de matériel promotionnel — devrait changer la façon de les lire : comme une source d’information réelle et juridiquement importante, qui mérite une lecture attentive, et non comme quelque chose à survoler pour arriver aux parties excitantes d’une présentation de placement.
+
+## Exemple pratique
+
+**Question :** Un investisseur survole la section des facteurs de risque divulgués par une entreprise, en se concentrant uniquement sur les projections de croissance excitantes d’un prospectus. Que suggère cette leçon au sujet de cette approche?
+
+**Étudiant :** D’après cette leçon, cette section des facteurs de risque a un réel poids juridique et vise précisément à éclairer la décision de l’investisseur — la survoler, c’est manquer de l’information que l’entreprise était légalement tenue de divulguer.
+
+**Guide :** Pourquoi la gravité juridique d’une fausse divulgation rend-elle cette section particulièrement digne d’une lecture attentive?
+
+**Étudiant :** Parce que les entreprises font face à de réelles conséquences juridiques en cas de divulgation trompeuse, les risques divulgués reflètent probablement des préoccupations réelles et importantes sur lesquelles l’entreprise est légalement tenue d’être honnête, et non un simple texte type à survoler.
+
+**Guide :** Exactement — les documents de divulgation méritent d’être lus comme une information juridiquement importante, et non comme du remplissage promotionnel.
+
+## Quiz pratique
+
+**Question 1.** Les entreprises qui offrent des valeurs mobilières doivent habituellement divulguer :
+
+A) Rien d’important
+B) Des états financiers, les risques importants et les faits importants pertinents pour les décisions des investisseurs
+C) Seulement les bonnes nouvelles de l’entreprise
+D) Seulement la biographie personnelle des fondateurs
+
+**Question 2.** Quelles sont les conséquences juridiques d’une divulgation fausse ou trompeuse?
+
+A) Il n’existe aucune conséquence réelle
+B) Des sanctions réglementaires, des poursuites civiles et possiblement une responsabilité pénale pour fraude
+C) Seulement une lettre d’avertissement mineure
+D) Les conséquences ne s’appliquent qu’aux petites entreprises
+
+**Question 3.** Pourquoi ces conséquences graves comptent-elles dans la façon dont un investisseur devrait lire les documents de divulgation?
+
+A) Elles n’ont aucun effet sur la façon de lire les documents
+B) Elles laissent croire que les documents de divulgation ont un réel poids juridique et méritent une lecture attentive, et non un survol
+C) Des conséquences graves signifient qu’on peut ignorer sans risque les documents de divulgation
+D) Cela n’a aucune incidence sur le comportement des investisseurs
+
+**Question 4.** Cette leçon s’appuie le plus directement sur le thème de quelle leçon précédente?
+
+A) Le zonage
+B) Pourquoi le droit des valeurs mobilières existe — protéger les investisseurs au moyen de la divulgation
+C) Les notions de base de la saisie hypothécaire
+D) La conclusion d’une vente immobilière
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La situation financière, les facteurs de risque et les faits importants forment ensemble les principales catégories de divulgation obligatoire.
+
+**2.** La gravité de ces conséquences souligne à quel point une divulgation véridique est au cœur de tout le système de réglementation.
+
+**3.** Reconnaître le poids juridique de ces documents devrait changer le soin et le sérieux avec lesquels un investisseur les aborde.
+
+**4.** Cette leçon est une suite directe et pratique de la raison d’être de la divulgation établie deux leçons plus tôt.
+
+## Points clés
+
+- Les divulgations obligatoires comprennent généralement les états financiers, les risques importants et les faits importants.
+- Une divulgation fausse ou trompeuse entraîne de graves conséquences juridiques, y compris une possible responsabilité pour fraude.
+- Ce poids juridique signifie que les documents de divulgation méritent une lecture attentive et sérieuse, et non un survol.
+- Cette leçon s’appuie directement sur la leçon antérieure qui expliquait pourquoi les exigences de divulgation existent.
+
+===== PURPLE-L1-035
+TITLE: Les opérations d’initiés : ce qu’elles sont et pourquoi elles sont illégales
+SUMMARY: Explique la notion d’opération d’initié, pourquoi elle est interdite et son lien avec les principes d’équité qui sous-tendent la réglementation des valeurs mobilières.
+# Les opérations d’initiés : ce qu’elles sont et pourquoi elles sont illégales
+
+## Objectifs d’apprentissage
+
+- Définir une opération d’initié.
+- Expliquer la raison d’équité qui justifie son interdiction.
+- Reconnaître les situations courantes où ce risque se présente.
+
+## Contenu principal
+
+Une opération d’initié désigne généralement l’achat ou la vente d’une valeur mobilière sur la base d’une information importante et non publique — une information importante qui n’est pas encore accessible au grand public investisseur —, obtenue grâce à une position de confiance ou d’accès, comme le fait d’être employé ou dirigeant d’une entreprise, ou d’avoir reçu cette information de façon irrégulière d’un initié. C’est interdit par le droit des valeurs mobilières dans la plupart des régimes, et le raisonnement rejoint directement le principe d’équité qui sous-tend les exigences de divulgation vues dans les leçons précédentes. (En France, ces règles relèvent notamment du règlement européen sur les abus de marché, appliqué par l’Autorité des marchés financiers, l’AMF.)
+
+Le problème central que crée une opération d’initié est un avantage d’information injuste : si certains participants au marché peuvent négocier sur la base d’une information à laquelle les autres n’ont pas accès, cela mine l’équité de base qui rend les gens prêts à participer aux marchés — précisément l’infrastructure de confiance présentée plus tôt dans cette section. Cela ne se limite pas aux dirigeants d’entreprise; toute personne qui reçoit une information importante non publique et qui négocie sur cette base, ou qui la communique de façon irrégulière à quelqu’un qui négocie sur cette base, peut potentiellement engager sa responsabilité. C’est une mise en garde pratique pertinente pour toute personne qui a un accès privilégié, quel qu’il soit, à de l’information non publique sur une entreprise — y compris, dans certaines circonstances, des professionnels qui travaillent étroitement avec des entreprises dans des contextes des volets RED ou BLUE et qui investissent aussi par l’intermédiaire du volet WHITE.
+
+## Exemple pratique
+
+**Question :** Un consultant en affaires apprend, pendant un mandat, une information confidentielle et importante au sujet d’une entreprise cliente, puis négocie les actions de cette entreprise avant que l’information soit rendue publique. Quel problème juridique cela illustre-t-il?
+
+**Étudiant :** D’après cette leçon, cela ressemble à un exemple clair d’opération d’initié — négocier sur la base d’une information importante et non publique obtenue grâce à une position de confiance ou d’accès.
+
+**Guide :** Pourquoi est-ce interdit, si l’on revient au thème de l’équité des leçons précédentes?
+
+**Étudiant :** Parce que cela crée un avantage d’information injuste sur les autres participants au marché qui n’ont pas accès à cette même information non publique, ce qui mine la confiance qui permet aux marchés de fonctionner équitablement.
+
+**Guide :** Exactement — et ce risque ne se limite pas aux initiés de l’entreprise; il s’applique à toute personne qui a un accès privilégié à une information importante non publique.
+
+## Quiz pratique
+
+**Question 1.** Une opération d’initié désigne généralement :
+
+A) Toute transaction boursière effectuée par un employé d’une entreprise
+B) Le fait de négocier une valeur mobilière sur la base d’une information importante et non publique obtenue grâce à une position de confiance
+C) Le fait de négocier uniquement sur la base d’information publique
+D) Une stratégie de placement tout à fait légale
+
+**Question 2.** Le problème central que crée une opération d’initié est :
+
+A) Il n’existe aucun problème réel
+B) Un avantage d’information injuste qui mine la confiance et l’équité des marchés
+C) Une transparence excessive du marché
+D) Une trop grande quantité d’information publique
+
+**Question 3.** La responsabilité liée aux opérations d’initiés est-elle limitée aux dirigeants d’entreprise?
+
+A) Oui, seuls les dirigeants peuvent être responsables
+B) Non — toute personne qui négocie sur la base d’une information importante non publique, ou qui la communique de façon irrégulière, peut potentiellement engager sa responsabilité
+C) Seuls les employés du gouvernement peuvent être responsables
+D) La responsabilité ne s’applique jamais réellement à personne
+
+**Question 4.** Cette leçon relie l’interdiction des opérations d’initiés à quel thème antérieur?
+
+A) Le zonage
+B) L’équité et la confiance comme infrastructure de marchés qui fonctionnent
+C) Le processus de saisie hypothécaire
+D) Les obligations du propriétaire et du locataire
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La caractéristique déterminante est le fait de négocier sur la base d’une information privilégiée et non publique obtenue grâce à une relation de confiance.
+
+**2.** Cet avantage injuste mine directement la confiance des marchés que la réglementation des valeurs mobilières vise à protéger.
+
+**3.** La responsabilité s’étend au-delà des initiés officiels à toute personne qui obtient ou utilise de façon irrégulière une telle information.
+
+**4.** Cela prolonge directement la raison d’être fondée sur la confiance et l’équité établie dans les leçons antérieures sur la divulgation.
+
+## Points clés
+
+- Une opération d’initié consiste à négocier sur la base d’une information importante et non publique obtenue grâce à une position de confiance ou d’accès.
+- Cela mine l’équité et la confiance qui permettent aux marchés de fonctionner, en lien avec les leçons précédentes.
+- La responsabilité s’étend au-delà des dirigeants d’entreprise à toute personne qui utilise de façon irrégulière une telle information.
+- C’est une mise en garde pratique pour toute personne qui a un accès privilégié à de l’information non publique sur une entreprise.
+
+===== PURPLE-L1-036
+TITLE: L’obligation fiduciaire : ce que cela signifie quand quelqu’un gère votre argent
+SUMMARY: Explique la notion juridique d’obligation fiduciaire, une norme élevée de diligence et de loyauté que doivent certains professionnels qui gèrent l’argent ou les biens d’autrui.
+# L’obligation fiduciaire : ce que cela signifie quand quelqu’un gère votre argent
+
+## Objectifs d’apprentissage
+
+- Définir l’obligation fiduciaire.
+- Distinguer une norme fiduciaire d’une norme moins exigeante de convenance.
+- Expliquer pourquoi cette distinction compte quand on choisit à qui confier son argent.
+
+## Contenu principal
+
+Une obligation fiduciaire est une obligation juridique d’agir dans l’intérêt supérieur d’une autre personne, avant son propre intérêt, lorsqu’on gère son argent ou qu’on prend des décisions en son nom — l’une des normes de diligence et de loyauté les plus élevées reconnues en droit. Certains professionnels, dans certains rôles, sont légalement tenus à cette obligation; d’autres sont soumis à une norme moins exigeante, et comprendre la différence compte en pratique pour toute personne des volets RED, WHITE ou BLUE qui s’en remet à un professionnel pour gérer son argent ou lui donner des conseils financiers.
+
+La principale distinction pratique se situe entre une norme fiduciaire (l’obligation légale d’agir dans l’intérêt supérieur du client, même avant l’intérêt financier du conseiller) et une norme de convenance moins exigeante (l’obligation seulement de recommander quelque chose de raisonnablement convenable pour le client, ce qui peut quand même permettre une recommandation avantageuse pour le conseiller, comme un produit assorti d’une commission plus élevée, tant qu’elle n’est pas clairement inappropriée). Ce n’est pas un détail technique mineur — cela peut influer de façon importante sur la qualité et l’objectivité des conseils reçus. (En France et dans l’Union européenne, les obligations des conseillers dépendent de leur statut et de la réglementation applicable; renseignez-vous directement auprès du conseiller et des autorités.) Un élément pratique de littératie juridique : demander directement si un conseiller est légalement tenu à une obligation fiduciaire, plutôt que de supposer que tous les professionnels de la finance sont soumis à la même norme.
+
+## Exemple pratique
+
+**Question :** Un investisseur suppose que chaque conseiller financier avec qui il pourrait travailler a automatiquement l’obligation légale d’agir uniquement dans son intérêt supérieur. Que suggère cette leçon au sujet de cette supposition?
+
+**Étudiant :** D’après cette leçon, ce n’est pas nécessairement exact — certains professionnels sont soumis à une norme fiduciaire, mais d’autres ne sont soumis qu’à une norme de convenance moins exigeante, ce qui représente une différence réelle et importante.
+
+**Guide :** Quelle question pratique cela devrait-il amener l’investisseur à poser avant de travailler avec un conseiller?
+
+**Étudiant :** Demander directement si ce conseiller est légalement tenu à une obligation fiduciaire, plutôt que de le supposer, puisque la réponse influe de façon importante sur l’objectivité des conseils qu’il pourrait recevoir.
+
+**Guide :** Exactement — c’est un élément concret et applicable de littératie juridique, et pas seulement une notion juridique abstraite.
+
+## Quiz pratique
+
+**Question 1.** Une obligation fiduciaire est :
+
+A) Une obligation juridique d’agir dans l’intérêt supérieur d’une autre personne, avant son propre intérêt
+B) Un terme promotionnel sans portée juridique
+C) La même chose qu’une norme de convenance
+D) Une notion pertinente seulement pour les transactions immobilières
+
+**Question 2.** Une norme de convenance, par contraste, exige généralement :
+
+A) D’agir uniquement dans l’intérêt supérieur du client
+B) De recommander quelque chose de raisonnablement convenable, ce qui peut quand même permettre des choix avantageux pour le conseiller
+C) Aucune norme de diligence
+D) Exactement la même protection qu’une norme fiduciaire
+
+**Question 3.** Pourquoi la distinction entre norme fiduciaire et norme de convenance compte-t-elle en pratique?
+
+A) Elle n’a aucun effet pratique réel
+B) Elle peut influer de façon importante sur l’objectivité et la qualité des conseils financiers reçus
+C) Tous les professionnels de la finance sont automatiquement des fiduciaires
+D) Seuls les professionnels de l’immobilier sont touchés par cette distinction
+
+**Question 4.** Quelle action pratique cette leçon recommande-t-elle?
+
+A) Supposer que chaque conseiller est un fiduciaire
+B) Demander directement si un conseiller donné est légalement tenu à une obligation fiduciaire
+C) Éviter complètement tous les professionnels de la finance
+D) Cette leçon ne recommande aucune action précise
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La norme fiduciaire se définit précisément par le fait de placer l’intérêt du client avant celui du fiduciaire.
+
+**2.** La norme de convenance permet un éventail plus large de recommandations, y compris certaines qui avantagent le conseiller.
+
+**3.** Cette distinction détermine directement quels intérêts orientent réellement les conseils donnés.
+
+**4.** Cette question concrète est présentée comme un élément de littératie juridique réellement applicable par l’apprenant.
+
+## Points clés
+
+- Une obligation fiduciaire exige d’agir dans l’intérêt supérieur d’une autre personne, avant son propre intérêt.
+- Une norme de convenance moins exigeante permet des recommandations simplement raisonnables, et pas nécessairement optimales pour le client.
+- Cette distinction influe de façon importante sur l’objectivité des conseils financiers reçus.
+- Demander directement quelle norme juridique s’applique à un conseiller est un élément concret et pratique de littératie juridique.

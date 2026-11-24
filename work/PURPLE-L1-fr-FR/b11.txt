@@ -1,0 +1,319 @@
+===== PURPLE-L1-041
+TITLE: La responsabilité : comprendre ce que vous pourriez légalement devoir
+SUMMARY: Propose une définition claire et générale de la responsabilité juridique, en faisant la synthèse de la façon dont elle est apparue dans les contrats, la responsabilité civile et les structures d’entreprise tout au long de ce volet.
+# La responsabilité : comprendre ce que vous pourriez légalement devoir
+
+## Objectifs d’apprentissage
+
+- Définir la responsabilité juridique en termes simples.
+- Reconnaître les différentes sources de responsabilité présentées tout au long de ce volet.
+- Renforcer la responsabilité comme la notion unificatrice derrière la majeure partie du contenu du volet PURPLE.
+
+## Contenu principal
+
+La responsabilité, au sens juridique, désigne le fait d’être légalement responsable de quelque chose — le plus souvent, de devoir de l’argent ou un autre recours en raison d’une obligation juridique ou d’une faute. Cette leçon prend du recul pour nommer explicitement ce qui a été le fil conducteur d’une grande partie de ce volet : la responsabilité contractuelle (devoir des dommages-intérêts pour une inexécution, vue au début de ce volet), la responsabilité civile délictuelle (devoir des dommages-intérêts pour un préjudice causé en dehors de tout contrat) et la responsabilité liée à la structure d’entreprise (le fait que des biens personnels soient exposés ou non aux obligations de l’entreprise) sont toutes, fondamentalement, des sources différentes de la même notion sous-jacente.
+
+Reconnaître la responsabilité comme ce fil unificateur aide à organiser tout ce qui a été vu jusqu’ici en un portrait cohérent plutôt qu’en une liste de sujets déconnectés : les contrats créent une responsabilité s’ils sont rompus; les délits civils créent une responsabilité lorsqu’un préjudice est causé; la structure d’entreprise détermine quels biens sont réellement exposés à cette responsabilité; et l’assurance et la protection des actifs, présentées dans les leçons voisines, sont des outils précisément conçus pour gérer l’exposition à la responsabilité une fois qu’on la comprend comme un risque réel et toujours présent dans les activités des volets RED, WHITE et BLUE. Chaque sujet juridique précis de ce volet est, en un sens, une variation sur la même question centrale : dans quelles circonstances pourriez-vous devenir légalement responsable de quelque chose, et qu’est-ce qui détermine l’étendue de cette responsabilité?
+
+## Exemple pratique
+
+**Question :** En repensant à l’ensemble de ce volet, comment expliqueriez-vous à quelqu’un que les contrats, la responsabilité civile et les structures d’entreprise sont en réalité des sujets liés, et non distincts?
+
+**Étudiant :** D’après cette leçon, ce sont toutes des sources différentes de la même notion sous-jacente — la responsabilité juridique, c’est-à-dire le fait d’être légalement responsable de quelque chose, que cela découle d’un contrat rompu, d’un préjudice causé en dehors d’un contrat ou d’une exposition liée à la structure d’entreprise.
+
+**Guide :** Comment l’assurance et la protection des actifs s’intègrent-elles à ce portrait unifié?
+
+**Étudiant :** Ce sont des outils précisément conçus pour gérer cette exposition à la responsabilité une fois qu’on la comprend comme un risque réel et toujours présent, plutôt que des sujets distincts et sans lien.
+
+**Guide :** Exactement — la responsabilité est le fil qui relie l’ensemble du contenu de ce volet.
+
+## Quiz pratique
+
+**Question 1.** La responsabilité juridique désigne généralement :
+
+A) Le fait d’être légalement responsable de quelque chose, comme devoir de l’argent ou un autre recours
+B) Un type de police d’assurance
+C) Une notion pertinente seulement dans les affaires pénales
+D) La même chose qu’un contrat
+
+**Question 2.** La responsabilité contractuelle découle :
+
+A) D’un préjudice causé en dehors de toute entente
+B) De la rupture d’une entente juridiquement contraignante
+C) De la propriété d’un bien immobilier
+D) De rien qui ait trait aux contrats
+
+**Question 3.** La responsabilité civile délictuelle découle :
+
+A) De la rupture d’un contrat
+B) D’un préjudice causé à une autre personne, indépendamment de tout contrat
+C) Seulement de décisions sur la structure d’entreprise
+D) De rien qui ait trait au droit civil
+
+**Question 4.** Selon la synthèse de cette leçon, quel rôle jouent l’assurance et la protection des actifs?
+
+A) Elles créent de la responsabilité plutôt que de la gérer
+B) Ce sont des outils précisément conçus pour gérer l’exposition à la responsabilité
+C) Elles n’ont aucun rapport avec la responsabilité
+D) Elles ne s’appliquent qu’aux affaires pénales
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Cette définition large saisit le sens central commun à chaque type précis de responsabilité présenté dans ce volet.
+
+**2.** Cela reprend directement les leçons antérieures sur l’inexécution des contrats et leur caractère exécutoire.
+
+**3.** Cela reprend directement la leçon antérieure qui distinguait les réclamations fondées sur un préjudice des réclamations contractuelles.
+
+**4.** Cette leçon recadre explicitement ces outils comme des instruments de gestion de la responsabilité, ce qui relie l’ensemble du volet.
+
+## Points clés
+
+- La responsabilité juridique signifie être légalement responsable de quelque chose, habituellement en devant de l’argent ou un autre recours.
+- La responsabilité contractuelle, la responsabilité civile délictuelle et la responsabilité liée à la structure d’entreprise sont toutes des variations de cette même notion sous-jacente.
+- Cette vision unificatrice organise le contenu de tout le volet autour d’une seule question centrale et cohérente.
+- L’assurance et la protection des actifs, présentées autour de cette leçon, sont des outils de gestion de l’exposition à la responsabilité.
+
+===== PURPLE-L1-042
+TITLE: Les garanties personnelles : quand vous vous portez légalement garant d’une dette de l’entreprise
+SUMMARY: Explique la notion juridique de garantie personnelle (cautionnement), une façon courante de percer délibérément et volontairement la protection contre la responsabilité offerte par la structure d’entreprise.
+# Les garanties personnelles : quand vous vous portez légalement garant d’une dette de l’entreprise
+
+## Objectifs d’apprentissage
+
+- Définir une garantie personnelle.
+- Expliquer pourquoi les prêteurs en exigent souvent malgré la protection contre la responsabilité offerte par l’entité.
+- Relier directement cela aux leçons antérieures sur la responsabilité dans les LLC et les sociétés par actions.
+
+## Contenu principal
+
+Une garantie personnelle (ou cautionnement personnel) est une entente distincte et volontaire par laquelle une personne — souvent un propriétaire d’entreprise — promet personnellement de rembourser une dette de l’entreprise si l’entreprise elle-même ne le fait pas. C’est directement lié à la protection contre la responsabilité offerte par les LLC et les sociétés par actions vue plus tôt dans ce volet, et en réelle tension avec elle : même avec une entité protectrice correctement constituée et correctement exploitée, signer une garantie personnelle crée délibérément et volontairement exactement l’exposition à la responsabilité personnelle que la structure de l’entité visait à empêcher, précisément pour cette dette.
+
+Les prêteurs exigent couramment des garanties personnelles des propriétaires de petites entreprises précisément parce qu’ils comprennent la protection contre la responsabilité qu’offre l’entité — un prêteur qui accorde du crédit à une LLC plus récente ou plus petite n’est souvent pas prêt à se fier uniquement aux actifs et à l’historique limités de l’entreprise; il exige donc que le propriétaire garantisse personnellement la dette comme condition du prêt. C’est un élément essentiel de la littératie juridique pratique : des propriétaires d’entreprise croient parfois que leur LLC les protège entièrement, sans se rendre compte qu’ils ont séparément renoncé à cette protection pour des dettes précises au moyen d’une garantie personnelle — ce qui signifie que l’étendue réelle de la responsabilité personnelle d’une personne ne peut être comprise qu’en examinant à la fois la structure de l’entité et les garanties personnelles qui s’y superposent.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise croit que sa LLC protège entièrement ses biens personnels contre toutes les dettes de l’entreprise, mais elle ne se souvient pas si elle a signé une garantie personnelle en contractant un prêt d’entreprise. Pourquoi est-ce important?
+
+**Étudiant :** D’après cette leçon, si elle a signé une garantie personnelle pour ce prêt, elle a volontairement créé une responsabilité personnelle pour cette dette précise, peu importe ce que la LLC protégerait autrement.
+
+**Guide :** Pourquoi un prêteur aurait-il exigé cette garantie au départ, alors qu’il prêtait à une LLC correctement constituée?
+
+**Étudiant :** Parce que les prêteurs ne sont souvent pas prêts à se fier uniquement aux actifs limités d’une entreprise plus récente ou plus petite; ils exigent donc la garantie personnelle du propriétaire comme condition pour accorder le crédit.
+
+**Guide :** Exactement — c’est pourquoi comprendre sa responsabilité réelle exige d’examiner à la fois la structure de l’entité et les garanties qui s’y superposent.
+
+## Quiz pratique
+
+**Question 1.** Une garantie personnelle est :
+
+A) Une caractéristique automatique de toute LLC
+B) Une entente distincte et volontaire de rembourser personnellement une dette de l’entreprise si l’entreprise ne le fait pas
+C) La même chose que la constitution d’une LLC
+D) Illégale dans la plupart des territoires
+
+**Question 2.** Quel est le lien entre une garantie personnelle et la protection contre la responsabilité d’une LLC ou d’une société par actions?
+
+A) Elle n’a aucun lien avec la protection de l’entité
+B) Elle crée volontairement une responsabilité personnelle pour une dette précise, malgré la protection de l’entité qui s’appliquerait autrement
+C) Elle renforce automatiquement la protection de l’entité
+D) Elle est exigée pour toute dette d’entreprise, sans exception
+
+**Question 3.** Pourquoi les prêteurs exigent-ils souvent des garanties personnelles des propriétaires de petites entreprises?
+
+A) Sans raison réelle, c’est arbitraire
+B) Les prêteurs ne sont souvent pas prêts à se fier uniquement aux actifs limités d’une entreprise plus récente ou plus petite
+C) Les garanties personnelles sont légalement exigées pour tous les prêts
+D) Les prêteurs n’exigent jamais cela en réalité
+
+**Question 4.** Qu’est-ce que cette leçon présente comme un élément essentiel de la littératie juridique pratique?
+
+A) Supposer qu’une LLC protège toujours entièrement les biens personnels
+B) Comprendre que la responsabilité personnelle réelle exige d’examiner à la fois la structure de l’entité et toute garantie personnelle signée
+C) Ne jamais signer aucun document d’entreprise
+D) Les LLC éliminent le besoin de vérifier les garanties personnelles
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Une garantie est un engagement juridique distinct et séparé, et non une caractéristique automatique d’un type d’entité.
+
+**2.** C’est précisément cette dérogation volontaire qui explique qu’une garantie personnelle puisse compromettre, pour une obligation précise, une protection de l’entité par ailleurs solide.
+
+**3.** Cette pratique de prêt reflète une réponse rationnelle aux limites réelles de la solvabilité propre des entités commerciales plus récentes ou plus petites.
+
+**4.** Cette compréhension combinée est présentée comme essentielle pour évaluer avec exactitude son exposition juridique réelle.
+
+## Points clés
+
+- Une garantie personnelle est une promesse distincte et volontaire de rembourser personnellement une dette de l’entreprise.
+- Elle crée une responsabilité personnelle pour cette dette précise, qui se superpose à une structure d’entité par ailleurs protectrice.
+- Les prêteurs exigent souvent des garanties des propriétaires de petites entreprises comme condition pour accorder du crédit.
+- Comprendre sa véritable responsabilité personnelle exige de vérifier à la fois la structure de l’entité et toute garantie signée.
+
+===== PURPLE-L1-043
+TITLE: Les fiducies : des outils juridiques pour détenir et protéger des actifs
+SUMMARY: Présente la notion générale de fiducie en tant qu’outil juridique de détention d’actifs, en lien à la fois avec le thème de la protection des actifs et avec le contenu sur la planification successorale du volet GOLD.
+# Les fiducies : des outils juridiques pour détenir et protéger des actifs
+
+## Objectifs d’apprentissage
+
+- Définir une fiducie en termes généraux.
+- Expliquer les rôles généraux en jeu (constituant, fiduciaire, bénéficiaire).
+- Relier les fiducies à la fois à la protection des actifs et à la planification successorale.
+
+## Contenu principal
+
+Une fiducie (en anglais *trust*) est un arrangement juridique dans lequel une partie (le constituant) transfère des actifs afin qu’ils soient détenus et administrés par une autre partie (le fiduciaire) au profit d’une troisième partie (le bénéficiaire), selon les modalités établies par le constituant. Les fiducies servent plusieurs fins juridiques pertinentes pour ce programme : certaines structures de fiducie offrent un certain degré de protection des actifs, en séparant la propriété juridique de la propriété personnelle d’une façon qui peut protéger des actifs contre certaines réclamations futures; d’autres servent surtout d’outils de planification successorale, en lien direct avec les notions de planification successorale présentées dans la section « Transmettre » du volet GOLD. (En France, la fiducie existe dans le Code civil depuis 2007, mais son usage est encadré et moins courant que celui des trusts des pays de common law.)
+
+Les effets juridiques, les protections et les exigences précis des différents types de fiducies varient énormément selon le territoire et selon le type de fiducie utilisé — c’est un territoire juridique réellement complexe, plus que la plupart des autres sujets de ce volet, et c’est un cas clair où il faut des conseils professionnels plutôt qu’une mise en œuvre par soi-même. Le point pratique à retenir à ce niveau de littératie est de reconnaître ce qu’est structurellement une fiducie (un arrangement à trois parties qui sépare la propriété juridique de la propriété bénéficiaire) et qu’il s’agit d’un outil réel et légitime dont il vaut la peine de discuter avec un professionnel, tant pour la protection des actifs que pour la planification successorale, plutôt que d’une notion mystérieuse ou réservée aux personnes riches.
+
+## Exemple pratique
+
+**Question :** Une personne suppose que les fiducies ne concernent que les personnes extrêmement riches et écarte l’idée d’en discuter un jour avec un professionnel. Que suggère cette leçon au sujet de cette supposition?
+
+**Étudiant :** D’après cette leçon, ce n’est pas tout à fait exact — les fiducies sont décrites comme un outil réel et légitime, tant pour la protection des actifs que pour la planification successorale, et non comme une notion réservée aux personnes riches.
+
+**Guide :** Pourquoi cette leçon insiste-t-elle aussi fortement sur les conseils professionnels pour les fiducies en particulier, davantage que pour d’autres sujets de ce volet?
+
+**Étudiant :** Parce que le droit des fiducies est décrit comme réellement complexe et très propre à chaque territoire, plus que la plupart des autres sujets présentés, ce qui en fait un cas clair de mise en œuvre professionnelle plutôt que d’une tentative en solo.
+
+**Guide :** Exactement — reconnaître l’outil et savoir quand faire appel à un professionnel est le véritable objectif de littératie ici.
+
+## Quiz pratique
+
+**Question 1.** Une fiducie est :
+
+A) Seulement un type d’entité commerciale
+B) Un arrangement juridique dans lequel un constituant transfère des actifs à un fiduciaire qui les détient au profit d’un bénéficiaire
+C) La même chose qu’un testament
+D) Sans pertinence pour la protection des actifs ou la succession
+
+**Question 2.** Les trois rôles généraux d’une fiducie sont :
+
+A) L’acheteur, le vendeur et le prêteur
+B) Le constituant, le fiduciaire et le bénéficiaire
+C) Le propriétaire, le locataire et le mandataire
+D) Le demandeur, le défendeur et le juge
+
+**Question 3.** Comment cette leçon relie-t-elle les fiducies au contenu antérieur du programme?
+
+A) Il n’existe aucun lien
+B) À la fois aux thèmes de la protection des actifs de ce volet et aux notions de planification successorale du volet GOLD
+C) Seulement au droit immobilier
+D) Seulement au droit des valeurs mobilières
+
+**Question 4.** Pourquoi cette leçon insiste-t-elle particulièrement sur les conseils professionnels pour les fiducies?
+
+A) Les fiducies n’exigent aucune complexité ni aucun conseil réels
+B) Le droit des fiducies est réellement complexe et très propre à chaque territoire, plus que la plupart des autres sujets de ce volet
+C) Les fiducies sont illégales sans la présence d’un avocat
+D) Cette leçon n’insiste pas sur les conseils professionnels
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Cette structure à trois parties, qui sépare la propriété juridique de la propriété bénéficiaire, est la caractéristique déterminante d’une fiducie.
+
+**2.** Ces trois rôles définissent la relation structurelle de base au cœur de tout arrangement de fiducie.
+
+**3.** Cette leçon relie délibérément les fiducies à la fois au thème de la protection des actifs d’ici et au contenu sur la planification successorale présenté plus tôt dans le volet GOLD.
+
+**4.** La leçon signale explicitement qu’il s’agit d’un territoire inhabituellement complexe, qui justifie une prudence supplémentaire quant aux conseils professionnels.
+
+## Points clés
+
+- Une fiducie est un arrangement juridique à trois parties : le constituant, le fiduciaire et le bénéficiaire.
+- Les fiducies peuvent servir à la fois à la protection des actifs et à la planification successorale.
+- Cela se rattache directement au contenu antérieur du volet GOLD sur la planification successorale.
+- Le droit des fiducies est réellement complexe et propre à chaque territoire, ce qui rend les conseils professionnels particulièrement importants ici.
+
+===== PURPLE-L1-044
+TITLE: Les procurations : le pouvoir légal d’agir au nom d’une autre personne
+SUMMARY: Présente la procuration comme un outil juridique qui accorde à une personne le pouvoir d’agir au nom d’une autre, pertinent à la fois pour la continuité des affaires et pour la planification en cas d’inaptitude.
+# Les procurations : le pouvoir légal d’agir au nom d’une autre personne
+
+## Objectifs d’apprentissage
+
+- Définir une procuration.
+- Distinguer la procuration générale de la procuration limitée.
+- Relier cela aux contextes de planification d’affaires et de planification personnelle.
+
+## Contenu principal
+
+Une procuration (en anglais *power of attorney*) est un document juridique qui accorde à une personne (le mandataire ou fondé de pouvoir) le pouvoir d’agir au nom d’une autre personne (le mandant) dans des affaires précisées. Une **procuration générale** accorde un pouvoir étendu en matière financière et juridique; une **procuration limitée (ou spéciale)** accorde un pouvoir seulement pour un but ou une transaction précis, comme la signature des documents de conclusion d’une vente immobilière lorsque le mandant ne peut pas être présent.
+
+Cet outil compte dans les contextes d’affaires comme dans les contextes personnels de ce programme. Dans le contexte d’une entreprise du volet BLUE, une procuration pourrait permettre à une personne de confiance de signer des documents ou de prendre certaines décisions lorsqu’un propriétaire n’est pas disponible, ce qui favorise la continuité des affaires. Dans un contexte plus large de planification personnelle — en lien avec les leçons du volet GOLD sur la planification successorale —, une procuration est souvent conçue précisément pour prendre effet si le mandant devient inapte, afin que quelqu’un ait le pouvoir légal de gérer ses affaires sans exiger de procédure judiciaire, ce qui correspond exactement au genre de planification proactive sur laquelle la section du volet GOLD consacrée à la succession insistait, bien avant que cela semble urgent. (En France, le mandat de protection future permet d’anticiper une éventuelle inaptitude; ses conditions de mise en œuvre sont encadrées. Vérifiez auprès d’un professionnel.)
+
+## Exemple pratique
+
+**Question :** Une personne prévoit la conclusion d’une vente immobilière, mais sait qu’elle sera en voyage et ne pourra pas y assister en personne. Quel outil juridique de cette leçon pourrait répondre à cette situation?
+
+**Étudiant :** D’après cette leçon, une procuration limitée pourrait fonctionner — elle accorde à quelqu’un le pouvoir nécessaire pour cette transaction précise, comme la signature des documents de conclusion, sans lui donner un pouvoir plus large au-delà de ce but.
+
+**Guide :** En quoi cela diffère-t-il d’une procuration générale?
+
+**Étudiant :** Une procuration générale accorderait un pouvoir beaucoup plus étendu en matière financière et juridique, alors qu’une procuration limitée est circonscrite au seul but nécessaire, comme cette conclusion de vente.
+
+**Guide :** Exactement — faire correspondre l’étendue du pouvoir au besoin réel est le point pratique ici.
+
+## Quiz pratique
+
+**Question 1.** Une procuration est :
+
+A) Un type d’ordonnance du tribunal
+B) Un document juridique qui accorde à une personne le pouvoir d’agir au nom d’une autre
+C) La même chose qu’un testament
+D) Sans pertinence pour la planification d’affaires ou personnelle
+
+**Question 2.** Une procuration générale accorde :
+
+A) Un pouvoir pour un seul but étroit et précis
+B) Un pouvoir étendu en matière financière et juridique
+C) Aucun pouvoir réel
+D) Seulement un pouvoir sur l’immobilier
+
+**Question 3.** Une procuration limitée est utile dans des situations comme :
+
+A) L’octroi d’un pouvoir illimité à vie
+B) La signature des documents de conclusion d’une transaction précise lorsque le mandant ne peut pas être présent
+C) Rien de pratique
+D) Seulement les affaires pénales
+
+**Question 4.** Comment cette leçon relie-t-elle la procuration au contenu antérieur du volet GOLD?
+
+A) Il n’existe aucun lien
+B) Une procuration peut être conçue pour prendre effet en cas d’inaptitude, en écho au thème de la planification successorale proactive du volet GOLD
+C) Seulement au contenu sur les métaux précieux du volet GOLD
+D) Seulement à la leçon sur la capitalisation du volet GOLD
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Ce document crée précisément un pouvoir juridique délégué au profit du mandataire désigné.
+
+**2.** Un pouvoir étendu et général est la caractéristique qui distingue ce type de la procuration limitée.
+
+**3.** Ce pouvoir étroitement circonscrit est une utilisation pratique et courante d’une procuration limitée dans la vie réelle.
+
+**4.** Cela se rattache directement à l’insistance du volet GOLD sur une planification proactive qui anticipe l’inaptitude, faite avant que cela semble urgent.
+
+## Points clés
+
+- Une procuration accorde un pouvoir juridique délégué d’agir au nom d’une autre personne.
+- Les procurations générales accordent un pouvoir étendu; les procurations limitées sont circonscrites à un but précis.
+- Cet outil favorise à la fois la continuité des affaires et la planification en cas d’inaptitude personnelle.
+- Cela se rattache directement au thème de la planification proactive de la section du volet GOLD consacrée à la succession.

@@ -1,0 +1,319 @@
+===== PURPLE-L1-025
+TITLE: Le droit du logement locatif : droits et obligations de base
+SUMMARY: Présente le cadre juridique de base qui régit la relation entre propriétaire et locataire, pertinent pour les propriétaires d’immeubles locatifs du volet RED.
+# Le droit du logement locatif : droits et obligations de base
+
+## Objectifs d’apprentissage
+
+- Repérer les obligations générales du propriétaire.
+- Repérer les obligations et les protections générales du locataire.
+- Reconnaître que les détails varient beaucoup selon le territoire.
+
+## Contenu principal
+
+Le droit du logement locatif régit la relation juridique créée par un bail — une cession temporaire du droit de posséder et d’utiliser un bien (rappelez-vous la leçon sur le faisceau de droits) en échange d’un loyer. En règle générale, les propriétaires (ou locateurs) ont des obligations qui comprennent couramment : maintenir le bien en bon état d’habitabilité, suivre les procédures juridiques appropriées en matière d’expulsion plutôt que de se faire justice soi-même, par exemple en changeant les serrures ou en retirant les biens du locataire, et respecter le droit du locataire à la vie privée quant aux préavis d’entrée. Les locataires ont généralement des obligations qui comprennent : payer le loyer comme convenu, ne pas causer de dommages au-delà de l’usure normale et respecter les modalités du bail.
+
+Ce domaine du droit est très propre à chaque territoire, avec de réelles différences quant aux protections des locataires, aux règles sur les dépôts, aux exigences de préavis et aux procédures d’expulsion d’une région, d’une ville ou d’un pays à l’autre. (En France, ces règles relèvent notamment de la loi du 6 juillet 1989 sur les baux d’habitation, et le dépôt de garantie est strictement encadré. Vérifiez les règles locales auprès d’un professionnel.) Pour un propriétaire du volet RED, il ne s’agit pas de connaissances générales facultatives — mal gérer une expulsion, retenir illégalement un dépôt ou ne pas maintenir l’habitabilité peut créer une réelle responsabilité juridique, comportant parfois des pénalités bien au-delà du simple remboursement de ce qui a été retenu à tort. C’est un exemple clair et pratique de la raison pour laquelle la connaissance du droit local compte précisément pour les investisseurs immobiliers qui exploitent des immeubles locatifs, et pas seulement une compréhension générale à l’échelle nationale.
+
+## Exemple pratique
+
+**Question :** Un propriétaire, exaspéré par un locataire qui ne paie pas, change les serrures et retire les biens du locataire sans passer par aucune procédure juridique officielle. Quel problème cela illustre-t-il?
+
+**Étudiant :** D’après cette leçon, cela ressemble exactement au genre de moyen de se faire justice soi-même contre lequel cette leçon met en garde — les propriétaires doivent généralement suivre les procédures juridiques d’expulsion appropriées, et non régler eux-mêmes la situation.
+
+**Guide :** Quel risque réel cela crée-t-il pour le propriétaire, même si le locataire ne payait vraiment pas son loyer?
+
+**Étudiant :** Le propriétaire pourrait lui-même engager une réelle responsabilité juridique, possiblement avec des pénalités, même s’il avait un grief légitime quant au loyer impayé.
+
+**Guide :** Exactement — avoir une plainte valable n’excuse pas le recours à une procédure juridique inappropriée pour la régler.
+
+## Quiz pratique
+
+**Question 1.** Le droit du logement locatif régit :
+
+A) La relation créée par un bail
+B) Seulement l’immobilier commercial
+C) Seulement les ventes de biens
+D) Rien qui ait trait à l’immobilier
+
+**Question 2.** Une obligation courante du propriétaire comprend :
+
+A) Changer les serrures pour expulser immédiatement les locataires qui ne paient pas
+B) Maintenir le bien en bon état d’habitabilité et suivre les procédures d’expulsion appropriées
+C) Les propriétaires n’ont aucune obligation
+D) Ignorer complètement la vie privée du locataire
+
+**Question 3.** Pourquoi ce domaine du droit est-il décrit comme très propre à chaque territoire?
+
+A) Ce n’est pas le cas — les règles sont identiques partout
+B) Les protections des locataires, les règles sur les dépôts et les procédures d’expulsion varient beaucoup selon l’endroit
+C) Seules les grandes villes ont des règles sur le logement locatif
+D) Cette leçon n’affirme rien de tel
+
+**Question 4.** Quel risque réel court un propriétaire qui expulse un locataire de façon inappropriée, même un locataire qui ne paie réellement pas?
+
+A) Aucun risque, puisque le locataire était en tort
+B) Une réelle responsabilité juridique, comportant parfois des pénalités au-delà du litige de départ
+C) Le rejet automatique de toute réclamation du locataire
+D) Cette situation n’a aucune portée juridique
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Tout ce domaine du droit existe précisément pour encadrer la relation fondée sur le bail entre le propriétaire et le locataire.
+
+**2.** L’habitabilité et le respect des procédures juridiques sont couramment cités comme des obligations centrales du propriétaire dans de nombreux territoires.
+
+**3.** Les variations réelles et importantes d’un territoire à l’autre sont explicitement soulignées comme une caractéristique déterminante de ce domaine du droit.
+
+**4.** Une procédure inappropriée, même avec une plainte de départ légitime, est exactement le genre d’erreur qui crée une réelle responsabilité pour le propriétaire.
+
+## Points clés
+
+- Le droit du logement locatif régit la relation fondée sur le bail, avec des obligations des deux côtés.
+- Les propriétaires doivent généralement maintenir l’habitabilité et suivre les procédures juridiques d’expulsion appropriées.
+- Ce domaine du droit varie beaucoup selon le territoire — la connaissance du droit local compte.
+- Se faire justice soi-même, même contre un locataire qui ne paie réellement pas, crée une réelle responsabilité pour le propriétaire.
+
+===== PURPLE-L1-026
+TITLE: Le zonage : ce que vous pouvez et ne pouvez pas faire avec un bien
+SUMMARY: Présente le zonage comme une restriction imposée par les autorités publiques à l’usage des biens, pertinente à la fois pour l’usage actuel et pour les projets d’aménagement futurs du volet RED.
+# Le zonage : ce que vous pouvez et ne pouvez pas faire avec un bien
+
+## Objectifs d’apprentissage
+
+- Définir le zonage en termes simples.
+- Expliquer le but général des règlements de zonage.
+- Reconnaître pourquoi le zonage compte à la fois pour l’usage actuel et pour les projets d’aménagement.
+
+## Contenu principal
+
+Le zonage est une réglementation municipale qui divise le territoire en catégories désignées (résidentielle, commerciale, industrielle, mixte, etc.) et qui restreint ce qui peut légalement être construit ou exploité sur un bien donné. C’est une limite imposée par les autorités publiques au faisceau de droits vu plus tôt — même une pleine propriété ne comprend pas un droit illimité d’utiliser un terrain comme le propriétaire le souhaite, puisque le zonage encadre ce qui est réellement permis.
+
+Le zonage compte de deux façons pratiques distinctes pour les investisseurs du volet RED. D’abord, pour l’usage actuel : un bien situé dans une zone résidentielle ne peut généralement pas servir légalement à exploiter une entreprise de fabrication, peu importe ce que préférerait le propriétaire. Ensuite, et c’est souvent négligé, pour les projets d’aménagement futurs : un investisseur qui prévoit rénover, agrandir ou changer l’usage d’un bien doit confirmer que son projet est réellement permis selon le zonage actuel — ou demander une dérogation (une exception précise, parfois difficile à obtenir) s’il ne l’est pas. Un bien qui semble parfait sur papier peut devenir un problème coûteux si l’usage prévu ne correspond pas à son zonage réel, et c’est exactement pourquoi la vérification du zonage doit se faire tôt dans la vérification diligente, et non comme une découverte après coup, une fois l’achat conclu.
+
+## Exemple pratique
+
+**Question :** Un investisseur achète un bien situé dans une zone résidentielle, en prévoyant de le transformer en petit commerce de détail, sans vérifier d’abord les règles de zonage. Quel risque cela illustre-t-il?
+
+**Étudiant :** D’après cette leçon, le zonage du bien pourrait ne pas permettre un usage commercial, ce qui pourrait signifier que le projet de l’investisseur n’est pas légalement permis sans demander une dérogation, si une telle dérogation est même possible.
+
+**Guide :** Selon cette leçon, quand ce genre de vérification aurait-il dû se faire?
+
+**Étudiant :** Tôt dans la vérification diligente, avant l’achat, plutôt que d’être découvert après coup comme un problème coûteux.
+
+**Guide :** Exactement — la vérification du zonage doit se faire au début du processus, et non comme une réflexion après coup.
+
+## Quiz pratique
+
+**Question 1.** Le zonage est :
+
+A) Une règle fiscale fédérale
+B) Une réglementation municipale qui restreint ce qui peut être construit ou exploité sur un terrain
+C) Un type d’acte de transfert
+D) Sans pertinence pour l’usage d’un bien
+
+**Question 2.** Le zonage représente une limite :
+
+A) À rien qui ait trait à la propriété
+B) Au faisceau de droits — même la propriété ne comprend pas des droits d’usage illimités
+C) Seulement aux immeubles locatifs
+D) Seulement aux immeubles commerciaux
+
+**Question 3.** De quelles deux façons le zonage compte-t-il pour les investisseurs du volet RED?
+
+A) Seulement pour l’usage actuel, jamais pour les projets futurs
+B) Pour l’usage légal actuel et pour les projets futurs d’aménagement ou de changement d’usage
+C) Ni pour l’usage actuel ni pour les projets futurs
+D) Seulement pour le traitement fiscal
+
+**Question 4.** Quand la vérification du zonage devrait-elle idéalement se faire?
+
+A) Après l’achat, une fois qu’un problème survient
+B) Tôt dans la vérification diligente, avant l’achat
+C) La vérification du zonage n’est jamais nécessaire
+D) Seulement après le début de la construction
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Le zonage est précisément un outil des autorités publiques pour encadrer les catégories d’usage permis des terrains.
+
+**2.** Cela limite directement les droits d’usage autrement étendus du faisceau de la propriété.
+
+**3.** Les deux dimensions — ce qui est permis maintenant et ce qui est permis pour les projets futurs — ont un réel poids pratique pour les investisseurs.
+
+**4.** Faire cette vérification en premier évite la mauvaise surprise coûteuse d’un achat inutilisable ou restreint.
+
+## Points clés
+
+- Le zonage est une réglementation municipale qui restreint l’usage permis des terrains.
+- Le zonage limite même les droits d’usage d’une pleine propriété, selon la notion de faisceau de droits.
+- Le zonage compte à la fois pour l’usage légal actuel et pour les projets futurs d’aménagement ou de changement d’usage.
+- La vérification du zonage doit se faire tôt dans la vérification diligente, et non être découverte comme un problème après l’achat.
+
+===== PURPLE-L1-027
+TITLE: Les servitudes : quand quelqu’un d’autre a un droit légal sur votre terrain
+SUMMARY: Explique la notion de servitude en tant que droit précis et limité accordé à un tiers sur le bien d’une autre personne, en s’appuyant directement sur le cadre du faisceau de droits.
+# Les servitudes : quand quelqu’un d’autre a un droit légal sur votre terrain
+
+## Objectifs d’apprentissage
+
+- Définir une servitude.
+- Repérer les types et les buts courants des servitudes.
+- Relier directement les servitudes à la notion de faisceau de droits.
+
+## Contenu principal
+
+Une servitude est un droit légal qui permet à une partie précise d’utiliser une portion du bien d’une autre personne à une fin précise et limitée, sans transfert de propriété. C’est une application directe et concrète de la notion de faisceau de droits : une servitude découpe une petite partie du droit d’exclusion du propriétaire et l’accorde à quelqu’un d’autre, tandis que le propriétaire conserve tout le reste du faisceau.
+
+Les exemples courants comprennent la servitude d’utilité publique (qui permet à une entreprise de services publics d’accéder à un bien pour y installer et y entretenir des lignes électriques ou des conduites) et la servitude de passage (qui permet à un voisin de traverser un bien pour atteindre le sien, lorsqu’il n’existe aucun autre accès raisonnable). Les servitudes « suivent le terrain » en règle générale — c’est-à-dire qu’elles subsistent même lorsque le bien est vendu à un nouveau propriétaire, et c’est précisément pourquoi elles apparaissent dans une recherche de titre et comptent dans la vérification diligente d’un acheteur. Un acheteur qui ne se rend pas compte qu’une servitude importante grève un bien pourrait être surpris de constater qu’il ne peut pas utiliser une partie de « son » terrain comme il le prévoyait, même s’il en détient par ailleurs la pleine propriété.
+
+## Exemple pratique
+
+**Question :** Un acheteur achète un bien sans vérifier les servitudes existantes, puis découvre qu’une entreprise de services publics a le droit légal d’accéder à une partie de la cour arrière chaque fois que c’est nécessaire. Pourquoi la pleine propriété n’a-t-elle pas empêché cela?
+
+**Étudiant :** D’après cette leçon, une servitude découpe un droit précis du faisceau de la propriété et l’accorde à quelqu’un d’autre, tandis que l’acheteur détient toujours tout le reste du faisceau.
+
+**Guide :** Pourquoi cette servitude continue-t-elle de s’appliquer même si le bien a été vendu à un nouveau propriétaire?
+
+**Étudiant :** Parce que les servitudes « suivent le terrain » en règle générale — elles subsistent lors d’une vente au lieu de disparaître quand la propriété change de mains.
+
+**Guide :** Exactement — c’est pourquoi il est si important de vérifier les servitudes pendant la vérification diligente, en même temps que la recherche de titre.
+
+## Quiz pratique
+
+**Question 1.** Une servitude est :
+
+A) Un transfert complet de la propriété d’un bien
+B) Un droit légal qui permet à une partie précise d’utiliser une portion du bien d’une autre personne à une fin limitée
+C) Un type de privilège
+D) Sans pertinence en droit des biens
+
+**Question 2.** Une servitude d’utilité publique permet habituellement :
+
+A) À une entreprise de services publics d’accéder à un bien pour y entretenir des lignes ou des conduites
+B) Au propriétaire de vendre librement le bien
+C) Rien qui ait trait à l’accès au bien
+D) Seulement un usage résidentiel du bien
+
+**Question 3.** Les servitudes sont-elles habituellement transférées à un nouveau propriétaire lorsqu’un bien est vendu?
+
+A) Non, elles disparaissent à la vente
+B) Oui — les servitudes « suivent le terrain » en règle générale
+C) Seulement si le nouveau propriétaire y consent explicitement
+D) Les servitudes ne sont jamais pertinentes lors d’une vente
+
+**Question 4.** Comment cette leçon relie-t-elle les servitudes à la notion de faisceau de droits?
+
+A) Il n’y a aucun lien
+B) Une servitude découpe un droit précis (comme l’exclusion) du faisceau et l’accorde à quelqu’un d’autre
+C) Les servitudes transfèrent tout le faisceau de droits
+D) Les servitudes n’ont aucun lien avec quelque cadre de droits que ce soit
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Une servitude accorde des droits d’usage précis et limités sans transférer la propriété sous-jacente elle-même.
+
+**2.** Les servitudes d’utilité publique sont un exemple classique et largement reconnu de ce genre de droit d’accès limité.
+
+**3.** Le fait de subsister lors d’une vente (« suivre le terrain ») est une caractéristique déterminante de la plupart des servitudes.
+
+**4.** Cette leçon présente explicitement les servitudes comme une application directe et concrète de la notion antérieure de faisceau de droits.
+
+## Points clés
+
+- Une servitude accorde un droit précis et limité d’utiliser une partie d’un bien, sans transfert de propriété.
+- Les servitudes d’utilité publique et de passage en sont des exemples courants.
+- Les servitudes « suivent le terrain » en règle générale et subsistent lors des ventes.
+- C’est une application directe et pratique de la notion de faisceau de droits vue plus tôt dans cette section.
+
+===== PURPLE-L1-028
+TITLE: Les contrats immobiliers : la promesse d’achat expliquée
+SUMMARY: Applique les leçons générales sur les contrats précisément à la promesse d’achat immobilière, en passant en revue les modalités clés propres à ce type de transaction.
+# Les contrats immobiliers : la promesse d’achat expliquée
+
+## Objectifs d’apprentissage
+
+- Appliquer le cadre général des contrats précisément à une promesse d’achat immobilière.
+- Repérer les modalités clés propres aux promesses d’achat immobilières.
+- Reconnaître les conditions courantes et leur but.
+
+## Contenu principal
+
+Une promesse d’achat immobilière (ou offre d’achat) est une application directe des principes contractuels vus plus tôt dans ce volet : elle comporte une offre (le prix et les modalités proposés), une acceptation (l’accord du vendeur sur ces modalités) et une contrepartie (l’échange d’argent contre le bien). Au-delà de la structure contractuelle générale, les promesses d’achat immobilières comprennent habituellement plusieurs modalités propres à ce type de transaction qu’il vaut la peine de comprendre.
+
+Les **conditions** sont des exigences qui doivent être remplies pour que la transaction se poursuive — une condition de financement (la transaction tombe si l’acheteur ne peut pas obtenir de prêt), une condition d’inspection (l’acheteur peut se retirer ou renégocier selon les résultats de l’inspection) et une condition d’évaluation (qui protège l’acheteur si le bien est évalué à moins que le prix convenu). Le **dépôt** (en anglais *earnest money*) est une somme versée en signe de bonne foi, habituellement détenue par un tiers neutre et appliquée au prix d’achat à la conclusion de la vente, ou perdue dans certaines circonstances si l’acheteur se retire sans motif valable lié à une condition. (Les pratiques varient selon le pays; en France, par exemple, l’acheteur verse souvent un dépôt de garantie à la signature de l’avant-contrat et bénéficie d’un délai légal de rétractation. Vérifiez auprès d’un professionnel.) Comprendre ces mécanismes précis — et pas seulement les notions contractuelles générales des leçons précédentes — est ce qui transforme la littératie contractuelle en littératie contractuelle propre à l’immobilier.
+
+## Exemple pratique
+
+**Question :** Un acheteur signe une promesse d’achat assortie d’une condition de financement, puis il est incapable d’obtenir un prêt. Que lui permet généralement cette condition?
+
+**Étudiant :** D’après cette leçon, une condition de financement signifie généralement que la transaction tombe — l’acheteur peut se retirer — s’il ne peut pas obtenir de financement, plutôt que d’être obligé de conclure l’achat ou de perdre son dépôt.
+
+**Guide :** Comment cela se compare-t-il à un acheteur qui se retire sans aucun motif valable lié à une condition?
+
+**Étudiant :** Sans condition valable, se retirer risque de faire perdre le dépôt, puisqu’il n’y a aucun motif protégé pour abandonner la transaction.
+
+**Guide :** Exactement — ce sont précisément les conditions qui créent une façon protégée de se retirer de la transaction dans des circonstances définies.
+
+## Quiz pratique
+
+**Question 1.** Quels éléments contractuels généraux une promesse d’achat immobilière comporte-t-elle?
+
+A) Aucun des éléments vus plus tôt
+B) L’offre, l’acceptation et la contrepartie, appliquées à une transaction immobilière
+C) Seulement une signature, rien d’autre
+D) Des éléments sans lien avec le droit des contrats
+
+**Question 2.** Une condition de financement protège généralement l’acheteur en :
+
+A) Garantissant l’approbation du prêt
+B) Lui permettant de se retirer s’il ne peut pas obtenir de financement
+C) L’obligeant à payer comptant, peu importe le financement
+D) N’ayant aucune fonction de protection réelle
+
+**Question 3.** Le dépôt est :
+
+A) Le prix d’achat complet payé à l’avance
+B) Une somme versée en signe de bonne foi, habituellement appliquée au prix d’achat ou perdue dans certaines conditions
+C) Un type d’assurance
+D) Sans pertinence pour les contrats immobiliers
+
+**Question 4.** Que se passe-t-il si un acheteur se retire sans motif valable lié à une condition?
+
+A) Rien — le dépôt est toujours entièrement remboursé
+B) Il risque de perdre son dépôt
+C) C’est plutôt le vendeur qui est automatiquement pénalisé
+D) Le contrat est automatiquement annulé, sans conséquence
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** C’est une application directe et concrète du cadre offre-acceptation-contrepartie à un type de transaction précis.
+
+**2.** Les conditions de financement protègent précisément les acheteurs contre l’obligation de conclure un achat qu’ils ne peuvent pas réellement financer.
+
+**3.** Le dépôt sert d’engagement de bonne foi, avec des règles définies pour son application ou sa perte.
+
+**4.** L’absence de motif valable lié à une condition est précisément la situation où le risque de perdre le dépôt devient réel.
+
+## Points clés
+
+- Une promesse d’achat immobilière applique le cadre général offre-acceptation-contrepartie.
+- Les conditions (financement, inspection, évaluation) créent des circonstances protégées permettant de se retirer d’une transaction.
+- Le dépôt est une somme versée en signe de bonne foi, appliquée à la conclusion de la vente ou possiblement perdue.
+- Comprendre ces mécanismes précis est ce qui rend la littératie contractuelle applicable à l’immobilier en particulier.
