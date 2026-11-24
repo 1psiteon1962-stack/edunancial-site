@@ -1,0 +1,364 @@
+===== WHITE-L1-026
+TITLE: O que é o índice preço/lucro (P/L)? (Versão introdutória – método completo no Nível 2)
+SUMMARY: Aprenda a fórmula básica do índice P/L e o que ele estima, como introdução à avaliação tratada com mais profundidade no Nível 2.
+# O que é o índice preço/lucro (P/L)? (Versão introdutória – método completo no Nível 2)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- enunciar a fórmula básica do índice P/L.
+- calcular um P/L básico a partir do preço da ação e do LPA.
+- explicar, em nível introdutório, o que o índice estima.
+
+## Conteúdo principal
+
+### A fórmula básica
+
+Índice P/L (em inglês, "P/E ratio") = preço da ação ÷ lucro por ação (LPA), construído diretamente sobre o conceito de LPA da lição anterior.
+
+### O que ele estima
+
+O índice P/L responde, de forma aproximada: quanto os investidores estão pagando hoje por cada dólar do lucro atual de uma empresa? Um número maior significa que os investidores estão pagando mais por dólar de lucro atual.
+
+### Uma prévia, não o quadro completo
+
+*SUPOSIÇÃO (para fins didáticos):* Esta lição introdutória trata apenas da fórmula básica. Um tratamento completo – incluindo como comparar entre setores e como a recompra de ações pode distorcer o índice – vem no Nível 2.
+
+## Exemplo prático
+
+Uma ação é negociada a US$ 60 com LPA de US$ 3,00. P/L = US$ 60 ÷ US$ 3,00 = 20: os investidores estão pagando US$ 20 por cada US$ 1 do lucro atual dessa empresa.
+
+## Teste de prática
+
+1. A fórmula do índice P/L é:
+   A. LPA ÷ preço da ação
+   B. Preço da ação ÷ LPA
+   C. Lucro líquido ÷ preço da ação
+   D. Ações em circulação ÷ LPA
+
+2. Verdadeiro ou falso: um P/L maior significa que os investidores estão pagando menos por dólar de lucro atual.
+
+3. Uma ação é negociada a US$ 80 com LPA de US$ 4,00. Qual é o seu P/L?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. P/L = preço da ação ÷ LPA.
+
+### Pergunta 2
+
+Resposta correta: Falso. Um P/L maior significa pagar mais por dólar de lucro.
+
+### Pergunta 3
+
+Resposta correta: B. US$ 80 ÷ US$ 4,00 = 20.
+
+## Pontos-chave
+
+- Índice P/L = preço da ação ÷ LPA.
+- Ele estima quanto os investidores estão pagando por dólar de lucro atual.
+- Esta é uma versão introdutória: o Nível 2 trata da aplicação mais profunda e das limitações.
+
+===== WHITE-L1-027
+TITLE: O que é rendimento (yield)?
+SUMMARY: Aprenda o que o rendimento mede nos diferentes ativos de papel e em que ele difere da valorização do preço.
+# O que é rendimento (yield)?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir rendimento em termos simples.
+- calcular um rendimento básico a partir da renda e do preço.
+- distinguir rendimento de valorização do preço.
+
+## Conteúdo principal
+
+### O que rendimento significa
+
+O rendimento (em inglês, "yield") geralmente mede a renda que um investimento gera (como dividendos de uma ação ou juros de um título), expressa como percentual do seu preço. (Para ações, é comum falar em "dividend yield".)
+
+### A fórmula básica
+
+Rendimento = renda anual ÷ preço atual. Para uma ação, "renda" normalmente significa dividendos; para um título, normalmente significa pagamentos de juros.
+
+### Rendimento e valorização do preço
+
+O rendimento mede especificamente a renda, e não o ganho de preço. Uma ação pode ter um rendimento alto por causa dos dividendos enquanto o preço fica parado, ou um rendimento baixo enquanto o preço sobe muito: são duas fontes separadas de retorno potencial, e não a mesma coisa.
+
+## Exemplo prático
+
+Uma ação é negociada a US$ 50 e paga US$ 2 de dividendos por ano. Rendimento = US$ 2 ÷ US$ 50 = 4%. Isso é separado de qualquer mudança no próprio preço da ação e não a inclui.
+
+## Teste de prática
+
+1. O rendimento é calculado como:
+   A. Valorização do preço ÷ tempo de posse
+   B. Renda anual ÷ preço atual
+   C. Total de ações ÷ lucro líquido
+   D. Preço da ação ÷ LPA
+
+2. Verdadeiro ou falso: o rendimento mede a valorização do preço, e não a renda.
+
+3. Um título paga US$ 40 por ano e custa US$ 1.000. Qual é o seu rendimento?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Rendimento = renda anual ÷ preço atual.
+
+### Pergunta 2
+
+Resposta correta: Falso. O rendimento mede a renda, e não a valorização do preço.
+
+### Pergunta 3
+
+Resposta correta: B. US$ 40 ÷ US$ 1.000 = 4%.
+
+## Pontos-chave
+
+- Rendimento = renda anual ÷ preço atual.
+- Ele mede a renda (dividendos ou juros), e não a valorização do preço.
+- Renda e valorização do preço são duas fontes separadas de retorno potencial.
+
+===== WHITE-L1-028
+TITLE: O que é a data de vencimento de um título?
+SUMMARY: Aprenda o que é uma data de vencimento e por que títulos com prazos diferentes se comportam de forma diferente.
+# O que é a data de vencimento de um título?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir data de vencimento em termos simples.
+- explicar o que acontece no vencimento.
+- reconhecer que o prazo até o vencimento afeta o comportamento de um título.
+
+## Conteúdo principal
+
+### O que é uma data de vencimento
+
+A data de vencimento de um título é a data em que o emissor se comprometeu a devolver integralmente ao detentor o valor de face (o principal): o fim do prazo do empréstimo apresentado na lição anterior sobre títulos.
+
+### O que acontece no vencimento
+
+No vencimento, o detentor recebe de volta o valor de face, e os pagamentos de juros param, já que o empréstimo é considerado totalmente pago.
+
+### Por que o prazo importa
+
+Títulos com prazos mais longos (datas de pagamento mais distantes) geralmente são mais sensíveis a mudanças nas condições de juros do que títulos com prazos mais curtos: um conceito tratado com mais profundidade em uma lição posterior sobre risco de taxa de juros.
+
+## Exemplo prático
+
+Um título de 2 anos e um de 20 anos podem ter taxas de cupom parecidas hoje, mas o preço do título de 20 anos normalmente reage de forma muito mais forte a mudanças futuras nos juros, simplesmente porque falta muito mais tempo até o vencimento.
+
+## Teste de prática
+
+1. A data de vencimento de um título é:
+   A. Quando começam os pagamentos de juros
+   B. Quando o emissor devolve integralmente o valor de face
+   C. A data em que o título foi comprado
+   D. Uma data definida pelo detentor do título
+
+2. Verdadeiro ou falso: os pagamentos de juros continuam indefinidamente depois que um título vence.
+
+3. Que tipo de título geralmente é mais sensível a mudanças nos juros?
+   A. Um título de prazo mais curto
+   B. Um título de prazo mais longo
+   C. O prazo não tem efeito sobre a sensibilidade
+   D. Apenas títulos sem data de vencimento
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O vencimento é quando o valor de face é devolvido integralmente.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os pagamentos de juros param quando o título vence e é pago.
+
+### Pergunta 3
+
+Resposta correta: B. Títulos de prazo mais longo geralmente são mais sensíveis a mudanças nos juros.
+
+## Pontos-chave
+
+- A data de vencimento de um título é quando o valor de face é devolvido integralmente.
+- Os pagamentos de juros param quando se chega ao vencimento.
+- Títulos de prazo mais longo geralmente são mais sensíveis a mudanças nos juros.
+
+===== WHITE-L1-029
+TITLE: O que é risco de crédito em um título?
+SUMMARY: Aprenda o que o risco de crédito significa para um título e como ele se liga ao fato de alguns títulos pagarem juros maiores que outros.
+# O que é risco de crédito em um título?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir risco de crédito em termos simples.
+- explicar como o risco de crédito se relaciona com a taxa de juros de um título.
+- reconhecer que nem todos os emissores de títulos têm o mesmo risco de crédito.
+
+## Conteúdo principal
+
+### O que é risco de crédito
+
+Risco de crédito é o risco de que um emissor não consiga pagar os juros prometidos ou devolver o principal no vencimento: em outras palavras, o risco de calote (inadimplência).
+
+### Como ele se relaciona com a taxa de juros
+
+Emissores vistos como de maior risco de crédito geralmente precisam oferecer uma taxa de cupom maior para atrair credores, compensando os investidores pelo risco extra. Emissores vistos como de risco muito baixo (como governos estáveis) geralmente conseguem tomar dinheiro emprestado a taxas menores.
+
+### Nem todos os emissores são iguais
+
+Uma empresa grande e financeiramente estável e uma empresa menor e com dificuldades financeiras que emitem títulos não têm o mesmo risco de crédito, mesmo que seus títulos pareçam parecidos à primeira vista: é por isso que existem as classificações de risco de títulos (tratadas no Nível 2), que ajudam a avaliar esse risco.
+
+## Exemplo prático
+
+Um governo financeiramente forte pode emitir títulos a uma taxa de juros baixa, refletindo baixo risco de crédito. Uma empresa com dificuldades financeiras pode precisar oferecer uma taxa bem maior em seus títulos para atrair investidores dispostos a correr o risco extra de calote.
+
+## Teste de prática
+
+1. O risco de crédito em um título se refere a:
+   A. O risco de perder um certificado de papel
+   B. O risco de o emissor não pagar juros ou principal como prometido
+   C. O risco de um desdobramento de ações
+   D. O risco de uma queda ampla do mercado
+
+2. Verdadeiro ou falso: emissores com maior risco de crédito geralmente oferecem taxas de juros menores.
+
+3. Por que uma empresa com dificuldades financeiras pode precisar oferecer uma taxa maior em seus títulos?
+   A. Para compensar os investidores por um risco maior de calote
+   B. Porque o governo exige
+   C. Para reduzir sua capitalização de mercado
+   D. Os títulos sempre têm a mesma taxa, independentemente do risco
+
+## Gabarito
+
+1. B
+2. Falso
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O risco de crédito é o risco de calote nos juros ou no principal.
+
+### Pergunta 2
+
+Resposta correta: Falso. Emissores com maior risco de crédito geralmente precisam oferecer taxas maiores.
+
+### Pergunta 3
+
+Resposta correta: A. Taxas maiores compensam os investidores por assumirem o risco de calote.
+
+## Pontos-chave
+
+- Risco de crédito é o risco de um emissor dar calote em um título.
+- Maior risco de crédito geralmente significa uma taxa de juros oferecida maior.
+- Nem todos os emissores de títulos têm o mesmo nível de risco de crédito.
+
+===== WHITE-L1-030
+TITLE: O que é risco de taxa de juros?
+SUMMARY: Aprenda como as mudanças nas taxas de juros afetam os preços dos títulos já existentes e por que eles se movem em direções opostas.
+# O que é risco de taxa de juros?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir risco de taxa de juros em termos simples.
+- explicar a relação inversa básica entre juros e preços dos títulos.
+- explicar por que isso importa para quem já tem um título.
+
+## Conteúdo principal
+
+### O que é risco de taxa de juros
+
+Risco de taxa de juros é o risco de que mudanças nas taxas de juros em geral afetem o valor de mercado dos títulos já existentes: algo separado do risco de crédito, que diz respeito à capacidade de pagamento do emissor.
+
+### A relação inversa
+
+Quando as taxas de juros em geral sobem, o preço de mercado dos títulos existentes com taxas fixas mais baixas geralmente cai, porque novos títulos estão sendo emitidos à taxa atual, mais alta e mais atraente. Quando as taxas em geral caem, os títulos existentes com taxas mais altas geralmente ficam mais valiosos em comparação.
+
+### Por que isso importa para quem já tem um título
+
+Um detentor que precisa vender antes do vencimento fica exposto a esse movimento de preço. Um detentor que mantém o título até o vencimento ainda recebe o valor de face: o risco de taxa de juros afeta principalmente o preço de mercado do título antes do vencimento, e não o pagamento final em si.
+
+## Exemplo prático
+
+Um investidor tem um título que paga 3% de juros. As taxas em geral sobem para 5%. Os novos títulos agora oferecem os 5%, mais atraentes, o que torna o título antigo de 3% menos atraente para um possível comprador: seu preço de mercado geralmente cairia se ele fosse vendido antes do vencimento.
+
+## Teste de prática
+
+1. O risco de taxa de juros se refere a:
+   A. O risco de calote de um emissor
+   B. O risco de que mudanças nos juros afetem os preços dos títulos existentes
+   C. O risco de um desdobramento de ações
+   D. O risco cambial
+
+2. Verdadeiro ou falso: quando as taxas de juros em geral sobem, os preços dos títulos existentes com taxas mais baixas geralmente sobem também.
+
+3. Um detentor que mantém o título até o vencimento ainda recebe o valor de face integral, apesar do risco de taxa de juros?
+   A. Não, ele perde a diferença
+   B. Sim, o valor de face geralmente é pago no vencimento de qualquer forma
+   C. Só se os juros tiverem caído
+   D. Só se o título tiver sido vendido antes
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O risco de taxa de juros afeta os preços de mercado dos títulos existentes quando os juros mudam.
+
+### Pergunta 2
+
+Resposta correta: Falso. Juros em alta geralmente empurram para baixo os preços dos títulos existentes com taxas mais baixas.
+
+### Pergunta 3
+
+Resposta correta: B. Quem mantém até o vencimento geralmente ainda recebe o valor de face integral, independentemente das oscilações de preço no meio do caminho.
+
+## Pontos-chave
+
+- O risco de taxa de juros afeta os preços dos títulos existentes quando as taxas em geral mudam.
+- Juros em alta geralmente empurram para baixo os preços dos títulos existentes com taxas mais baixas, e vice-versa.
+- Quem mantém até o vencimento geralmente ainda recebe o valor de face, independentemente dos movimentos de preço no meio do caminho.

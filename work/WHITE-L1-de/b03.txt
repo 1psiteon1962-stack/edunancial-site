@@ -1,0 +1,364 @@
+===== WHITE-L1-026
+TITLE: Was ist das Kurs-Gewinn-Verhältnis (KGV)? (Einführung – die vollständige Methode folgt in Level 2)
+SUMMARY: Lernen Sie die Grundformel des KGV und was es abschätzt – als Einführung in die Bewertung, die in Level 2 vertieft wird.
+# Was ist das Kurs-Gewinn-Verhältnis (KGV)? (Einführung – die vollständige Methode folgt in Level 2)
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- die Grundformel des KGV angeben können.
+- ein einfaches KGV aus Aktienkurs und EPS berechnen können.
+- auf einführendem Niveau erklären können, was die Kennzahl abschätzt.
+
+## Kerninhalt
+
+### Die Grundformel
+
+KGV (englisch "P/E ratio") = Aktienkurs ÷ Ergebnis je Aktie (EPS); es baut direkt auf dem EPS-Konzept der vorigen Lektion auf.
+
+### Was es abschätzt
+
+Das KGV beantwortet grob die Frage: Wie viel zahlen Anleger heute für jeden Dollar des aktuellen Gewinns eines Unternehmens? Eine höhere Zahl bedeutet, dass Anleger pro Dollar aktuellen Gewinns mehr bezahlen.
+
+### Ein Ausblick, nicht das ganze Bild
+
+*ANNAHME (zu Lehrzwecken):* Diese einführende Lektion behandelt nur die Grundformel. Eine vollständige Behandlung – einschließlich des Vergleichs über Branchen hinweg und der Frage, wie Aktienrückkäufe die Kennzahl verzerren können – folgt in Level 2.
+
+## Durchgerechnetes Beispiel
+
+Eine Aktie notiert bei 60 $ je Aktie bei einem EPS von 3,00 $. KGV = 60 $ ÷ 3,00 $ = 20 – Anleger zahlen 20 $ für jeden Dollar des aktuellen Gewinns dieses Unternehmens.
+
+## Übungsquiz
+
+1. Die Formel des KGV lautet:
+   A. EPS ÷ Aktienkurs
+   B. Aktienkurs ÷ EPS
+   C. Jahresüberschuss ÷ Aktienkurs
+   D. Ausstehende Aktien ÷ EPS
+
+2. Richtig oder falsch: Ein höheres KGV bedeutet, dass Anleger pro Dollar aktuellen Gewinns weniger zahlen.
+
+3. Eine Aktie notiert bei 80 $ bei einem EPS von 4,00 $. Wie hoch ist ihr KGV?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. KGV = Aktienkurs ÷ EPS.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Ein höheres KGV bedeutet, pro Dollar Gewinn mehr zu zahlen.
+
+### Frage 3
+
+Richtige Antwort: B. 80 $ ÷ 4,00 $ = 20.
+
+## Wichtigste Erkenntnisse
+
+- KGV = Aktienkurs ÷ EPS.
+- Es schätzt ab, wie viel Anleger pro Dollar aktuellen Gewinns zahlen.
+- Dies ist eine einführende Fassung – Level 2 behandelt die vertiefte Anwendung und die Grenzen.
+
+===== WHITE-L1-027
+TITLE: Was ist die Rendite (Ertragsrendite)?
+SUMMARY: Lernen Sie, was die laufende Rendite bei verschiedenen Papiervermögenswerten misst und wie sie sich von Kurssteigerungen unterscheidet.
+# Was ist die Rendite (Ertragsrendite)?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- die laufende Rendite in einfachen Worten definieren können.
+- eine einfache Rendite aus Ertrag und Preis berechnen können.
+- die Rendite von Kurssteigerungen unterscheiden können.
+
+## Kerninhalt
+
+### Was Rendite bedeutet
+
+Die laufende Rendite (englisch "yield") misst im Allgemeinen den Ertrag, den eine Anlage abwirft (etwa Dividenden einer Aktie oder Zinsen einer Anleihe), ausgedrückt als Prozentsatz ihres Preises.
+
+### Die Grundformel
+
+Rendite = jährlicher Ertrag ÷ aktueller Preis. Bei einer Aktie bedeutet „Ertrag“ üblicherweise Dividenden, bei einer Anleihe üblicherweise Zinszahlungen.
+
+### Rendite und Kurssteigerung
+
+Die Rendite misst gezielt den Ertrag, nicht den Kursgewinn. Eine Aktie kann über Dividenden eine hohe Rendite haben, während ihr Kurs gleich bleibt, oder eine niedrige Rendite, während ihr Kurs deutlich steigt – das sind zwei getrennte Quellen möglicher Rendite, nicht dasselbe.
+
+## Durchgerechnetes Beispiel
+
+Eine Aktie notiert bei 50 $ und zahlt jährlich 2 $ Dividende. Rendite = 2 $ ÷ 50 $ = 4 %. Diese ist getrennt von jeder Veränderung des Aktienkurses selbst und schließt sie nicht ein.
+
+## Übungsquiz
+
+1. Die Rendite wird berechnet als:
+   A. Kurssteigerung ÷ Haltedauer
+   B. jährlicher Ertrag ÷ aktueller Preis
+   C. Gesamtzahl der Aktien ÷ Jahresüberschuss
+   D. Aktienkurs ÷ EPS
+
+2. Richtig oder falsch: Die Rendite misst die Kurssteigerung, nicht den Ertrag.
+
+3. Eine Anleihe zahlt jährlich 40 $ und kostet 1.000 $. Wie hoch ist ihre Rendite?
+   A. 0,4 %
+   B. 4 %
+   C. 40 %
+   D. 400 %
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Rendite = jährlicher Ertrag ÷ aktueller Preis.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die Rendite misst den Ertrag, nicht die Kurssteigerung.
+
+### Frage 3
+
+Richtige Antwort: B. 40 $ ÷ 1.000 $ = 4 %.
+
+## Wichtigste Erkenntnisse
+
+- Rendite = jährlicher Ertrag ÷ aktueller Preis.
+- Sie misst den Ertrag (Dividenden oder Zinsen), nicht die Kurssteigerung.
+- Ertrag und Kurssteigerung sind zwei getrennte Quellen möglicher Rendite.
+
+===== WHITE-L1-028
+TITLE: Was ist das Fälligkeitsdatum einer Anleihe?
+SUMMARY: Lernen Sie, was ein Fälligkeitsdatum ist und warum sich Anleihen mit unterschiedlichen Laufzeiten unterschiedlich verhalten.
+# Was ist das Fälligkeitsdatum einer Anleihe?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- das Fälligkeitsdatum in einfachen Worten definieren können.
+- erklären können, was bei Fälligkeit geschieht.
+- erkennen können, dass die Laufzeit das Verhalten einer Anleihe beeinflusst.
+
+## Kerninhalt
+
+### Was ein Fälligkeitsdatum ist
+
+Das Fälligkeitsdatum einer Anleihe ist der Tag, an dem der Emittent zugesagt hat, dem Anleihegläubiger den Nennwert (den Kapitalbetrag) vollständig zurückzuzahlen – das Ende der Darlehenslaufzeit, die in der früheren Anleihe-Lektion eingeführt wurde.
+
+### Was bei Fälligkeit geschieht
+
+Bei Fälligkeit erhält der Anleihegläubiger den Nennwert zurück, und die Zinszahlungen enden, da das Darlehen als vollständig zurückgezahlt gilt.
+
+### Warum die Laufzeit wichtig ist
+
+Anleihen mit längerer Laufzeit (weiter entfernten Rückzahlungsterminen) reagieren in der Regel empfindlicher auf sich ändernde Zinsbedingungen als Anleihen mit kürzerer Laufzeit – ein Konzept, das in einer späteren Lektion zum Zinsänderungsrisiko vertieft wird.
+
+## Durchgerechnetes Beispiel
+
+Eine Anleihe mit 2 Jahren und eine mit 20 Jahren Laufzeit können heute ähnliche Kuponzinssätze haben, aber der Kurs der 20-jährigen Anleihe reagiert in der Regel deutlich stärker auf künftige Zinsänderungen, einfach weil sie noch viel länger bis zur Fälligkeit hat.
+
+## Übungsquiz
+
+1. Das Fälligkeitsdatum einer Anleihe ist:
+   A. der Beginn der Zinszahlungen
+   B. der Zeitpunkt, an dem der Emittent den Nennwert vollständig zurückzahlt
+   C. das Kaufdatum der Anleihe
+   D. ein vom Anleihegläubiger festgelegtes Datum
+
+2. Richtig oder falsch: Die Zinszahlungen laufen nach Fälligkeit einer Anleihe unbegrenzt weiter.
+
+3. Welche Art von Anleihe reagiert in der Regel empfindlicher auf Zinsänderungen?
+   A. eine Anleihe mit kürzerer Laufzeit
+   B. eine Anleihe mit längerer Laufzeit
+   C. Die Laufzeit hat keinen Einfluss auf die Empfindlichkeit
+   D. nur Anleihen ohne Fälligkeitsdatum
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Bei Fälligkeit wird der Nennwert vollständig zurückgezahlt.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die Zinszahlungen enden, sobald die Anleihe fällig und zurückgezahlt ist.
+
+### Frage 3
+
+Richtige Antwort: B. Anleihen mit längerer Laufzeit reagieren in der Regel empfindlicher auf Zinsänderungen.
+
+## Wichtigste Erkenntnisse
+
+- Das Fälligkeitsdatum einer Anleihe ist der Zeitpunkt, an dem der Nennwert vollständig zurückgezahlt wird.
+- Die Zinszahlungen enden mit Erreichen der Fälligkeit.
+- Anleihen mit längerer Laufzeit reagieren in der Regel empfindlicher auf Zinsänderungen.
+
+===== WHITE-L1-029
+TITLE: Was ist das Kreditrisiko einer Anleihe?
+SUMMARY: Lernen Sie, was das Kreditrisiko für eine Anleihe bedeutet und wie es damit zusammenhängt, dass manche Anleihen höhere Zinsen zahlen als andere.
+# Was ist das Kreditrisiko einer Anleihe?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- das Kreditrisiko in einfachen Worten definieren können.
+- erklären können, wie das Kreditrisiko mit dem Zinssatz einer Anleihe zusammenhängt.
+- erkennen können, dass nicht alle Emittenten von Anleihen dasselbe Kreditrisiko tragen.
+
+## Kerninhalt
+
+### Was Kreditrisiko ist
+
+Das Kreditrisiko ist das Risiko, dass ein Emittent die zugesagten Zinszahlungen nicht leisten oder den Kapitalbetrag bei Fälligkeit nicht zurückzahlen kann – mit anderen Worten: das Ausfallrisiko.
+
+### Wie es mit dem Zinssatz zusammenhängt
+
+Emittenten mit höherem Kreditrisiko müssen in der Regel einen höheren Kuponzinssatz bieten, um Geldgeber zu gewinnen, und entschädigen Anleger so für das zusätzliche Risiko. Emittenten mit sehr geringem Risiko (etwa stabile Staaten) können sich in der Regel zu niedrigeren Zinsen Geld leihen.
+
+### Nicht alle Emittenten sind gleich
+
+Ein großes, finanziell stabiles Unternehmen und ein kleineres, finanziell angeschlagenes Unternehmen, die Anleihen begeben, tragen nicht dasselbe Kreditrisiko, auch wenn ihre Anleihen auf den ersten Blick ähnlich aussehen – deshalb gibt es Anleihe-Ratings (in Level 2 behandelt), die helfen, dieses Risiko einzuschätzen.
+
+## Durchgerechnetes Beispiel
+
+Ein finanziell starker Staat kann Anleihen zu einem niedrigen Zinssatz begeben, was ein geringes Kreditrisiko widerspiegelt. Ein finanziell angeschlagenes Unternehmen muss für seine Anleihen möglicherweise einen deutlich höheren Zinssatz bieten, um Anleger zu gewinnen, die bereit sind, das zusätzliche Ausfallrisiko zu tragen.
+
+## Übungsquiz
+
+1. Das Kreditrisiko einer Anleihe bezeichnet:
+   A. das Risiko, ein Papierzertifikat zu verlieren
+   B. das Risiko, dass der Emittent Zinsen oder Kapital nicht wie zugesagt zurückzahlt
+   C. das Risiko eines Aktiensplits
+   D. das Risiko eines marktweiten Rückgangs
+
+2. Richtig oder falsch: Emittenten mit höherem Kreditrisiko bieten in der Regel niedrigere Zinssätze.
+
+3. Warum muss ein finanziell angeschlagenes Unternehmen möglicherweise einen höheren Anleihezins bieten?
+   A. Um Anleger für ein höheres Ausfallrisiko zu entschädigen
+   B. Weil der Staat es vorschreibt
+   C. Um seine Marktkapitalisierung zu senken
+   D. Anleihen haben unabhängig vom Risiko immer denselben Zinssatz
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. A
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Das Kreditrisiko ist das Risiko eines Ausfalls bei Zinsen oder Kapital.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Emittenten mit höherem Kreditrisiko müssen in der Regel höhere Zinsen bieten.
+
+### Frage 3
+
+Richtige Antwort: A. Höhere Zinsen entschädigen Anleger dafür, ein Ausfallrisiko zu übernehmen.
+
+## Wichtigste Erkenntnisse
+
+- Das Kreditrisiko ist das Risiko, dass ein Emittent bei einer Anleihe ausfällt.
+- Ein höheres Kreditrisiko bedeutet in der Regel einen höheren angebotenen Zinssatz.
+- Nicht alle Emittenten von Anleihen tragen dasselbe Kreditrisiko.
+
+===== WHITE-L1-030
+TITLE: Was ist das Zinsänderungsrisiko?
+SUMMARY: Lernen Sie, wie sich ändernde Zinsen auf die Kurse bestehender Anleihen auswirken und warum sich beide in entgegengesetzte Richtungen bewegen.
+# Was ist das Zinsänderungsrisiko?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- das Zinsänderungsrisiko in einfachen Worten definieren können.
+- den grundlegenden umgekehrten Zusammenhang zwischen Zinsen und Anleihekursen erklären können.
+- erklären können, warum das für einen bestehenden Anleihegläubiger wichtig ist.
+
+## Kerninhalt
+
+### Was Zinsänderungsrisiko ist
+
+Das Zinsänderungsrisiko ist das Risiko, dass Veränderungen des allgemeinen Zinsniveaus den Marktwert bestehender Anleihen beeinflussen – getrennt vom Kreditrisiko, bei dem es um die Zahlungsfähigkeit des Emittenten geht.
+
+### Der umgekehrte Zusammenhang
+
+Steigen die allgemeinen Zinsen, fällt in der Regel der Marktpreis bestehender Anleihen mit niedrigerem festem Zins, weil neue Anleihen zum höheren, attraktiveren aktuellen Zins ausgegeben werden. Sinken die allgemeinen Zinsen, werden bestehende Anleihen mit höherem Zins im Vergleich in der Regel wertvoller.
+
+### Warum das für einen bestehenden Anleihegläubiger wichtig ist
+
+Ein Anleihegläubiger, der vor Fälligkeit verkaufen muss, ist dieser Kursbewegung ausgesetzt. Ein Anleihegläubiger, der bis zur Fälligkeit hält, erhält trotzdem den Nennwert – das Zinsänderungsrisiko betrifft vor allem den Marktpreis der Anleihe vor Fälligkeit, nicht die Rückzahlung selbst.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger hält eine Anleihe mit 3 % Zinsen. Die allgemeinen Zinsen steigen auf 5 %. Neue Anleihen bieten nun den attraktiveren Satz von 5 %, wodurch die ältere 3-%-Anleihe des Anlegers für einen möglichen Käufer weniger attraktiv wird – ihr Marktpreis würde bei einem Verkauf vor Fälligkeit in der Regel fallen.
+
+## Übungsquiz
+
+1. Das Zinsänderungsrisiko bezeichnet:
+   A. das Risiko, dass ein Emittent ausfällt
+   B. das Risiko, dass sich ändernde Zinsen die Kurse bestehender Anleihen beeinflussen
+   C. das Risiko eines Aktiensplits
+   D. das Wechselkursrisiko
+
+2. Richtig oder falsch: Wenn die allgemeinen Zinsen steigen, steigen in der Regel auch die Kurse bestehender niedriger verzinster Anleihen.
+
+3. Erhält ein Anleihegläubiger, der bis zur Fälligkeit hält, trotz Zinsänderungsrisiko den vollen Nennwert?
+   A. Nein, er verliert die Differenz
+   B. Ja, der Nennwert wird bei Fälligkeit in der Regel trotzdem gezahlt
+   C. Nur wenn die Zinsen gefallen sind
+   D. Nur wenn die Anleihe vorzeitig verkauft wurde
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Das Zinsänderungsrisiko beeinflusst die Marktpreise bestehender Anleihen, wenn sich die Zinsen ändern.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Steigende Zinsen drücken in der Regel die Kurse bestehender niedriger verzinster Anleihen.
+
+### Frage 3
+
+Richtige Antwort: B. Wer bis zur Fälligkeit hält, erhält in der Regel trotzdem den vollen Nennwert, unabhängig von zwischenzeitlichen Kursschwankungen.
+
+## Wichtigste Erkenntnisse
+
+- Das Zinsänderungsrisiko beeinflusst die Kurse bestehender Anleihen, wenn sich das allgemeine Zinsniveau ändert.
+- Steigende Zinsen drücken in der Regel die Kurse bestehender niedriger verzinster Anleihen, und umgekehrt.
+- Wer bis zur Fälligkeit hält, erhält in der Regel trotzdem den Nennwert, unabhängig von zwischenzeitlichen Kursbewegungen.

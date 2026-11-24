@@ -1,0 +1,364 @@
+===== WHITE-L1-026
+TITLE: Che cos'è il rapporto prezzo/utili (P/E)? (Versione introduttiva – il metodo completo nel Livello 2)
+SUMMARY: Scopri la formula di base del rapporto P/E e che cosa stima, come introduzione alla valutazione approfondita nel Livello 2.
+# Che cos'è il rapporto prezzo/utili (P/E)? (Versione introduttiva – il metodo completo nel Livello 2)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- enunciare la formula di base del rapporto P/E.
+- calcolare un rapporto P/E di base dati il prezzo dell'azione e l'EPS.
+- spiegare, a livello introduttivo, che cosa stima il rapporto.
+
+## Contenuto principale
+
+### La formula di base
+
+Rapporto P/E = prezzo dell'azione ÷ utile per azione (EPS), costruito direttamente sul concetto di EPS della lezione precedente.
+
+### Che cosa stima
+
+Il rapporto P/E risponde grosso modo a questa domanda: quanto pagano oggi gli investitori per ogni dollaro degli utili attuali di un'azienda? Un numero più alto significa che gli investitori pagano di più per ogni dollaro di utile attuale.
+
+### Un'anteprima, non il quadro completo
+
+*IPOTESI (a scopo didattico):* Questa lezione introduttiva tratta solo la formula di base. Una trattazione completa – compreso come confrontare settori diversi e come i riacquisti di azioni proprie possano distorcere il rapporto – si trova nel Livello 2.
+
+## Esempio svolto
+
+Un'azione quota 60 $ con un EPS di 3,00 $. P/E = 60 $ ÷ 3,00 $ = 20: gli investitori pagano 20 $ per ogni dollaro degli utili attuali di quell'azienda.
+
+## Quiz di esercitazione
+
+1. La formula del rapporto P/E è:
+   A. EPS ÷ prezzo dell'azione
+   B. Prezzo dell'azione ÷ EPS
+   C. Utile netto ÷ prezzo dell'azione
+   D. Azioni in circolazione ÷ EPS
+
+2. Vero o falso: un rapporto P/E più alto significa che gli investitori pagano meno per ogni dollaro di utile attuale.
+
+3. Un'azione quota 80 $ con un EPS di 4,00 $. Qual è il suo rapporto P/E?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. P/E = prezzo dell'azione ÷ EPS.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un P/E più alto significa pagare di più per ogni dollaro di utile.
+
+### Domanda 3
+
+Risposta corretta: B. 80 $ ÷ 4,00 $ = 20.
+
+## Punti chiave
+
+- Rapporto P/E = prezzo dell'azione ÷ EPS.
+- Stima quanto pagano gli investitori per ogni dollaro di utile attuale.
+- È una versione introduttiva: il Livello 2 tratta l'applicazione approfondita e i limiti.
+
+===== WHITE-L1-027
+TITLE: Che cos'è il rendimento cedolare o da dividendo (yield)?
+SUMMARY: Scopri che cosa misura il rendimento nelle diverse attività di carta e in che cosa differisce dalla rivalutazione del prezzo.
+# Che cos'è il rendimento cedolare o da dividendo (yield)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici il rendimento (yield).
+- calcolare un rendimento di base dati il reddito e il prezzo.
+- distinguere il rendimento dalla rivalutazione del prezzo.
+
+## Contenuto principale
+
+### Che cosa significa rendimento
+
+Il rendimento (yield) misura in genere il reddito che un investimento genera (come i dividendi di un'azione o gli interessi di un'obbligazione), espresso come percentuale del suo prezzo.
+
+### La formula di base
+
+Rendimento = reddito annuo ÷ prezzo attuale. Per un'azione, il "reddito" indica di solito i dividendi; per un'obbligazione, di solito i pagamenti di interessi.
+
+### Rendimento e rivalutazione del prezzo
+
+Il rendimento misura specificamente il reddito, non il guadagno di prezzo. Un'azione può avere un rendimento alto grazie ai dividendi mentre il prezzo resta fermo, oppure un rendimento basso mentre il prezzo sale molto: sono due fonti separate di rendimento potenziale, non la stessa cosa.
+
+## Esempio svolto
+
+Un'azione quota 50 $ e paga 2 $ di dividendi annui. Rendimento = 2 $ ÷ 50 $ = 4%. È un dato separato e non include alcuna variazione del prezzo dell'azione stessa.
+
+## Quiz di esercitazione
+
+1. Il rendimento si calcola come:
+   A. Rivalutazione del prezzo ÷ periodo di detenzione
+   B. Reddito annuo ÷ prezzo attuale
+   C. Totale delle azioni ÷ utile netto
+   D. Prezzo dell'azione ÷ EPS
+
+2. Vero o falso: il rendimento misura la rivalutazione del prezzo, non il reddito.
+
+3. Un'obbligazione paga 40 $ all'anno e costa 1.000 $. Qual è il suo rendimento?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Rendimento = reddito annuo ÷ prezzo attuale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rendimento misura il reddito, non la rivalutazione del prezzo.
+
+### Domanda 3
+
+Risposta corretta: B. 40 $ ÷ 1.000 $ = 4%.
+
+## Punti chiave
+
+- Rendimento = reddito annuo ÷ prezzo attuale.
+- Misura il reddito (dividendi o interessi), non la rivalutazione del prezzo.
+- Reddito e rivalutazione del prezzo sono due fonti separate di rendimento potenziale.
+
+===== WHITE-L1-028
+TITLE: Che cos'è la data di scadenza di un'obbligazione?
+SUMMARY: Scopri che cos'è una data di scadenza e perché le obbligazioni con scadenze diverse si comportano in modo diverso.
+# Che cos'è la data di scadenza di un'obbligazione?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici la data di scadenza.
+- spiegare che cosa succede alla scadenza.
+- riconoscere che la durata alla scadenza influisce sul comportamento di un'obbligazione.
+
+## Contenuto principale
+
+### Che cos'è una data di scadenza
+
+La data di scadenza di un'obbligazione è la data in cui l'emittente si è impegnato a rimborsare interamente all'obbligazionista il valore nominale (il capitale): la fine della durata del prestito introdotta nella precedente lezione sulle obbligazioni.
+
+### Che cosa succede alla scadenza
+
+Alla scadenza l'obbligazionista riceve indietro il valore nominale e i pagamenti di interessi si fermano, perché il prestito si considera interamente rimborsato.
+
+### Perché la durata conta
+
+Le obbligazioni con scadenze più lunghe (date di rimborso più lontane) sono in genere più sensibili alle variazioni dei tassi di interesse rispetto a quelle con scadenze più brevi: un concetto approfondito in una lezione successiva sul rischio di tasso.
+
+## Esempio svolto
+
+Un'obbligazione a 2 anni e una a 20 anni possono avere oggi tassi cedolari simili, ma il prezzo dell'obbligazione a 20 anni reagirà di solito in modo molto più marcato alle future variazioni dei tassi, semplicemente perché le manca molto più tempo alla scadenza.
+
+## Quiz di esercitazione
+
+1. La data di scadenza di un'obbligazione è:
+   A. Quando iniziano i pagamenti di interessi
+   B. Quando l'emittente rimborsa interamente il valore nominale
+   C. La data di acquisto dell'obbligazione
+   D. Una data fissata dall'obbligazionista
+
+2. Vero o falso: i pagamenti di interessi continuano all'infinito dopo che un'obbligazione arriva a scadenza.
+
+3. Quale tipo di obbligazione è in genere più sensibile alle variazioni dei tassi?
+   A. Un'obbligazione a scadenza più breve
+   B. Un'obbligazione a scadenza più lunga
+   C. La durata non ha alcun effetto sulla sensibilità
+   D. Solo le obbligazioni senza data di scadenza
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. La scadenza è il momento in cui il valore nominale viene rimborsato interamente.
+
+### Domanda 2
+
+Risposta corretta: Falso. I pagamenti di interessi si fermano quando l'obbligazione scade e viene rimborsata.
+
+### Domanda 3
+
+Risposta corretta: B. Le obbligazioni a scadenza più lunga sono in genere più sensibili alle variazioni dei tassi.
+
+## Punti chiave
+
+- La data di scadenza di un'obbligazione è il momento in cui il valore nominale viene rimborsato interamente.
+- I pagamenti di interessi si fermano alla scadenza.
+- Le obbligazioni a scadenza più lunga sono in genere più sensibili alle variazioni dei tassi.
+
+===== WHITE-L1-029
+TITLE: Che cos'è il rischio di credito di un'obbligazione?
+SUMMARY: Scopri che cosa significa il rischio di credito per un'obbligazione e come si collega al fatto che alcune obbligazioni pagano interessi più alti di altre.
+# Che cos'è il rischio di credito di un'obbligazione?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici il rischio di credito.
+- spiegare come il rischio di credito si collega al tasso di interesse di un'obbligazione.
+- riconoscere che non tutti gli emittenti di obbligazioni hanno lo stesso rischio di credito.
+
+## Contenuto principale
+
+### Che cos'è il rischio di credito
+
+Il rischio di credito è il rischio che un emittente non riesca a pagare gli interessi promessi o a rimborsare il capitale alla scadenza: in altre parole, il rischio di insolvenza.
+
+### Come si collega al tasso di interesse
+
+Gli emittenti considerati a rischio di credito più alto devono in genere offrire un tasso cedolare più alto per attirare i finanziatori, compensando gli investitori per il rischio aggiuntivo. Gli emittenti considerati a rischio molto basso (come gli Stati stabili) possono in genere indebitarsi a tassi più bassi.
+
+### Non tutti gli emittenti sono uguali
+
+Una grande azienda finanziariamente solida e un'azienda più piccola in difficoltà finanziarie che emettono obbligazioni non hanno lo stesso rischio di credito, anche se le loro obbligazioni sembrano simili in superficie: per questo esistono i rating delle obbligazioni (trattati nel Livello 2), che aiutano a valutare questo rischio.
+
+## Esempio svolto
+
+Uno Stato finanziariamente solido può emettere obbligazioni a un tasso di interesse basso, che riflette un basso rischio di credito. Un'azienda in difficoltà finanziarie potrebbe dover offrire un tasso molto più alto sulle sue obbligazioni per attirare investitori disposti ad assumersi il rischio di insolvenza aggiuntivo.
+
+## Quiz di esercitazione
+
+1. Il rischio di credito di un'obbligazione indica:
+   A. Il rischio di perdere un certificato cartaceo
+   B. Il rischio che l'emittente non paghi interessi o capitale come promesso
+   C. Il rischio di un frazionamento azionario
+   D. Il rischio di un calo generalizzato del mercato
+
+2. Vero o falso: gli emittenti a rischio di credito più alto offrono in genere tassi di interesse più bassi.
+
+3. Perché un'azienda in difficoltà finanziarie potrebbe dover offrire un tasso più alto sulle sue obbligazioni?
+   A. Per compensare gli investitori per un rischio di insolvenza più alto
+   B. Perché lo Stato lo impone
+   C. Per ridurre la sua capitalizzazione di mercato
+   D. Le obbligazioni hanno sempre lo stesso tasso, a prescindere dal rischio
+
+## Soluzioni
+
+1. B
+2. Falso
+3. A
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il rischio di credito è il rischio di insolvenza su interessi o capitale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Gli emittenti a rischio di credito più alto devono in genere offrire tassi più alti.
+
+### Domanda 3
+
+Risposta corretta: A. Tassi più alti compensano gli investitori per l'assunzione del rischio di insolvenza.
+
+## Punti chiave
+
+- Il rischio di credito è il rischio che un emittente sia insolvente su un'obbligazione.
+- Un rischio di credito più alto significa in genere un tasso di interesse offerto più alto.
+- Non tutti gli emittenti di obbligazioni hanno lo stesso livello di rischio di credito.
+
+===== WHITE-L1-030
+TITLE: Che cos'è il rischio di tasso di interesse?
+SUMMARY: Scopri come le variazioni dei tassi di interesse influiscono sui prezzi delle obbligazioni già esistenti e perché si muovono in direzioni opposte.
+# Che cos'è il rischio di tasso di interesse?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici il rischio di tasso di interesse.
+- spiegare il rapporto inverso di base tra tassi e prezzi delle obbligazioni.
+- spiegare perché questo conta per chi possiede già un'obbligazione.
+
+## Contenuto principale
+
+### Che cos'è il rischio di tasso di interesse
+
+Il rischio di tasso di interesse è il rischio che le variazioni dei tassi di interesse generali influiscano sul valore di mercato delle obbligazioni già esistenti: è distinto dal rischio di credito, che riguarda la capacità dell'emittente di pagare.
+
+### Il rapporto inverso
+
+Quando i tassi generali salgono, il prezzo di mercato delle obbligazioni esistenti con tassi fissi più bassi in genere scende, perché vengono emesse nuove obbligazioni al tasso attuale più alto e più interessante. Quando i tassi generali scendono, le obbligazioni esistenti a tasso più alto diventano in genere più preziose al confronto.
+
+### Perché conta per chi possiede già un'obbligazione
+
+Un obbligazionista che deve vendere prima della scadenza è esposto a questo movimento di prezzo. Un obbligazionista che mantiene il titolo fino alla scadenza riceve comunque il valore nominale: il rischio di tasso riguarda soprattutto il prezzo di mercato dell'obbligazione prima della scadenza, non il rimborso finale in sé.
+
+## Esempio svolto
+
+Un investitore possiede un'obbligazione che paga il 3% di interessi. I tassi generali salgono al 5%. Le nuove obbligazioni offrono ora il più interessante 5%, rendendo la vecchia obbligazione al 3% meno appetibile per un possibile acquirente: il suo prezzo di mercato scenderebbe in genere in caso di vendita prima della scadenza.
+
+## Quiz di esercitazione
+
+1. Il rischio di tasso di interesse indica:
+   A. Il rischio di insolvenza di un emittente
+   B. Il rischio che le variazioni dei tassi influiscano sui prezzi delle obbligazioni esistenti
+   C. Il rischio di un frazionamento azionario
+   D. Il rischio di cambio
+
+2. Vero o falso: quando i tassi generali salgono, in genere salgono anche i prezzi delle obbligazioni esistenti a tasso più basso.
+
+3. Un obbligazionista che mantiene il titolo fino alla scadenza riceve comunque l'intero valore nominale, nonostante il rischio di tasso?
+   A. No, perde la differenza
+   B. Sì, in genere il valore nominale viene comunque pagato alla scadenza
+   C. Solo se i tassi sono scesi
+   D. Solo se l'obbligazione è stata venduta in anticipo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il rischio di tasso influisce sui prezzi di mercato delle obbligazioni esistenti quando i tassi cambiano.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'aumento dei tassi spinge in genere al ribasso i prezzi delle obbligazioni esistenti a tasso più basso.
+
+### Domanda 3
+
+Risposta corretta: B. Chi mantiene il titolo fino alla scadenza riceve in genere comunque l'intero valore nominale, a prescindere dalle oscillazioni intermedie del prezzo.
+
+## Punti chiave
+
+- Il rischio di tasso influisce sui prezzi delle obbligazioni esistenti quando cambiano i tassi generali.
+- L'aumento dei tassi spinge in genere al ribasso i prezzi delle obbligazioni esistenti a tasso più basso, e viceversa.
+- Chi mantiene il titolo fino alla scadenza riceve in genere comunque il valore nominale, a prescindere dai movimenti intermedi del prezzo.

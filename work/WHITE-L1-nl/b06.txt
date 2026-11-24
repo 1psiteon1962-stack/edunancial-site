@@ -1,0 +1,364 @@
+===== WHITE-L1-026
+TITLE: Wat is de koers-winstverhouding (K/W)? (Inleidende versie – volledige methode in niveau 2)
+SUMMARY: Leer de basisformule van de koers-winstverhouding en wat die inschat, als inleiding op waardering die in niveau 2 dieper aan bod komt.
+# Wat is de koers-winstverhouding (K/W)? (Inleidende versie – volledige methode in niveau 2)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de basisformule van de koers-winstverhouding te noemen.
+- een eenvoudige koers-winstverhouding te berekenen op basis van de aandelenkoers en de EPS.
+- op inleidend niveau uit te leggen wat de verhouding inschat.
+
+## Kerninhoud
+
+### De basisformule
+
+Koers-winstverhouding (K/W, in het Engels "P/E ratio") = aandelenkoers ÷ winst per aandeel (EPS), rechtstreeks voortbouwend op het EPS-begrip uit de vorige les.
+
+### Wat het inschat
+
+De koers-winstverhouding beantwoordt grofweg de vraag: hoeveel betalen beleggers vandaag voor elke dollar van de huidige winst van een bedrijf? Een hoger getal betekent dat beleggers meer betalen per dollar huidige winst.
+
+### Een vooruitblik, niet het hele plaatje
+
+*AANNAME (voor onderwijsdoeleinden):* Deze inleidende les behandelt alleen de basisformule. Een volledige behandeling – inclusief hoe je tussen sectoren vergelijkt en hoe de inkoop van eigen aandelen de verhouding kan vertekenen – komt in niveau 2 aan bod.
+
+## Praktijkvoorbeeld
+
+Een aandeel noteert op $ 60 per aandeel met een EPS van $ 3,00. K/W = $ 60 ÷ $ 3,00 = 20: beleggers betalen $ 20 voor elke $ 1 van de huidige winst van dat bedrijf.
+
+## Oefenquiz
+
+1. De formule van de koers-winstverhouding is:
+   A. EPS ÷ aandelenkoers
+   B. Aandelenkoers ÷ EPS
+   C. Nettowinst ÷ aandelenkoers
+   D. Uitstaande aandelen ÷ EPS
+
+2. Waar of onwaar: een hogere koers-winstverhouding betekent dat beleggers minder betalen per dollar huidige winst.
+
+3. Een aandeel noteert op $ 80 met een EPS van $ 4,00. Wat is de koers-winstverhouding?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. K/W = aandelenkoers ÷ EPS.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een hogere K/W betekent meer betalen per dollar winst.
+
+### Vraag 3
+
+Juist antwoord: B. $ 80 ÷ $ 4,00 = 20.
+
+## Belangrijkste punten
+
+- Koers-winstverhouding = aandelenkoers ÷ EPS.
+- Ze schat in hoeveel beleggers betalen per dollar huidige winst.
+- Dit is een inleidende versie: niveau 2 behandelt diepere toepassing en beperkingen.
+
+===== WHITE-L1-027
+TITLE: Wat is het (direct) rendement?
+SUMMARY: Leer wat het direct rendement meet bij verschillende papieren bezittingen, en hoe het verschilt van koersstijging.
+# Wat is het (direct) rendement?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- het direct rendement in eenvoudige woorden te definiëren.
+- een eenvoudig rendement te berekenen op basis van inkomsten en prijs.
+- rendement te onderscheiden van koersstijging.
+
+## Kerninhoud
+
+### Wat rendement betekent
+
+Het direct rendement (in het Engels "yield") meet doorgaans de inkomsten die een belegging oplevert (zoals dividend van een aandeel of rente van een obligatie), uitgedrukt als percentage van de prijs.
+
+### De basisformule
+
+Rendement = jaarlijkse inkomsten ÷ huidige prijs. Bij een aandeel betekent "inkomsten" doorgaans dividend; bij een obligatie doorgaans rentebetalingen.
+
+### Rendement en koersstijging
+
+Rendement meet specifiek inkomsten, geen koerswinst. Een aandeel kan via dividend een hoog rendement hebben terwijl de koers gelijk blijft, of een laag rendement terwijl de koers flink stijgt: dat zijn twee aparte bronnen van mogelijk rendement, niet hetzelfde.
+
+## Praktijkvoorbeeld
+
+Een aandeel noteert op $ 50 en keert jaarlijks $ 2 dividend uit. Rendement = $ 2 ÷ $ 50 = 4%. Dit staat los van, en omvat geen, verandering in de koers van het aandeel zelf.
+
+## Oefenquiz
+
+1. Rendement wordt berekend als:
+   A. Koersstijging ÷ aanhoudperiode
+   B. Jaarlijkse inkomsten ÷ huidige prijs
+   C. Totaal aantal aandelen ÷ nettowinst
+   D. Aandelenkoers ÷ EPS
+
+2. Waar of onwaar: rendement meet koersstijging, geen inkomsten.
+
+3. Een obligatie betaalt jaarlijks $ 40 en kost $ 1.000. Wat is het rendement?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Rendement = jaarlijkse inkomsten ÷ huidige prijs.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Rendement meet inkomsten, geen koersstijging.
+
+### Vraag 3
+
+Juist antwoord: B. $ 40 ÷ $ 1.000 = 4%.
+
+## Belangrijkste punten
+
+- Rendement = jaarlijkse inkomsten ÷ huidige prijs.
+- Het meet inkomsten (dividend of rente), geen koersstijging.
+- Inkomsten en koersstijging zijn twee aparte bronnen van mogelijk rendement.
+
+===== WHITE-L1-028
+TITLE: Wat is de vervaldatum van een obligatie?
+SUMMARY: Leer wat een vervaldatum is, en waarom obligaties met verschillende looptijden zich verschillend gedragen.
+# Wat is de vervaldatum van een obligatie?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de vervaldatum in eenvoudige woorden te definiëren.
+- uit te leggen wat er op de vervaldatum gebeurt.
+- te herkennen dat de looptijd het gedrag van een obligatie beïnvloedt.
+
+## Kerninhoud
+
+### Wat een vervaldatum is
+
+De vervaldatum van een obligatie is de datum waarop de uitgevende instelling heeft toegezegd de nominale waarde (de hoofdsom) volledig aan de obligatiehouder terug te betalen: het einde van de looptijd van de lening die in de eerdere les over obligaties werd geïntroduceerd.
+
+### Wat er op de vervaldatum gebeurt
+
+Op de vervaldatum krijgt de obligatiehouder de nominale waarde terug en stoppen de rentebetalingen, omdat de lening als volledig terugbetaald wordt beschouwd.
+
+### Waarom de looptijd ertoe doet
+
+Obligaties met een langere looptijd (verder weg gelegen terugbetalingsdata) zijn doorgaans gevoeliger voor veranderende rentestanden dan obligaties met een kortere looptijd: een begrip dat in een latere les over renterisico dieper aan bod komt.
+
+## Praktijkvoorbeeld
+
+Een obligatie met een looptijd van 2 jaar en een van 20 jaar kunnen vandaag vergelijkbare couponrentes hebben, maar de koers van de 20-jarige obligatie reageert doorgaans veel sterker op toekomstige renteveranderingen, simpelweg omdat die nog veel langer heeft tot de vervaldatum.
+
+## Oefenquiz
+
+1. De vervaldatum van een obligatie is:
+   A. Het moment waarop de rentebetalingen beginnen
+   B. Het moment waarop de uitgevende instelling de nominale waarde volledig terugbetaalt
+   C. De datum waarop de obligatie is gekocht
+   D. Een datum die de obligatiehouder vaststelt
+
+2. Waar of onwaar: rentebetalingen gaan na de vervaldatum van een obligatie onbeperkt door.
+
+3. Welk type obligatie is doorgaans gevoeliger voor renteveranderingen?
+   A. Een obligatie met een kortere looptijd
+   B. Een obligatie met een langere looptijd
+   C. De looptijd heeft geen invloed op de gevoeligheid
+   D. Alleen obligaties zonder vervaldatum
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Op de vervaldatum wordt de nominale waarde volledig terugbetaald.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. De rentebetalingen stoppen zodra de obligatie vervalt en wordt terugbetaald.
+
+### Vraag 3
+
+Juist antwoord: B. Obligaties met een langere looptijd zijn doorgaans gevoeliger voor renteveranderingen.
+
+## Belangrijkste punten
+
+- De vervaldatum van een obligatie is het moment waarop de nominale waarde volledig wordt terugbetaald.
+- De rentebetalingen stoppen zodra de vervaldatum is bereikt.
+- Obligaties met een langere looptijd zijn doorgaans gevoeliger voor renteveranderingen.
+
+===== WHITE-L1-029
+TITLE: Wat is kredietrisico bij een obligatie?
+SUMMARY: Leer wat kredietrisico betekent voor een obligatie, en hoe het samenhangt met het feit dat sommige obligaties meer rente betalen dan andere.
+# Wat is kredietrisico bij een obligatie?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- kredietrisico in eenvoudige woorden te definiëren.
+- uit te leggen hoe kredietrisico samenhangt met de rente van een obligatie.
+- te herkennen dat niet alle uitgevers van obligaties hetzelfde kredietrisico hebben.
+
+## Kerninhoud
+
+### Wat kredietrisico is
+
+Kredietrisico is het risico dat een uitgevende instelling de beloofde rente niet kan betalen of de hoofdsom op de vervaldatum niet kan terugbetalen: met andere woorden, het risico op wanbetaling.
+
+### Hoe het samenhangt met de rente
+
+Uitgevers met een hoger kredietrisico moeten doorgaans een hogere couponrente bieden om geldverstrekkers aan te trekken, als vergoeding voor het extra risico dat beleggers nemen. Uitgevers met een zeer laag risico (zoals stabiele overheden) kunnen doorgaans tegen een lagere rente lenen.
+
+### Niet alle uitgevers zijn gelijk
+
+Een groot, financieel stabiel bedrijf en een kleiner bedrijf dat financieel onder druk staat, hebben niet hetzelfde kredietrisico als ze obligaties uitgeven, ook al lijken hun obligaties op het eerste gezicht op elkaar: daarom bestaan er kredietbeoordelingen van obligaties (in niveau 2 behandeld), die helpen dit risico in te schatten.
+
+## Praktijkvoorbeeld
+
+Een financieel sterke overheid kan obligaties uitgeven tegen een lage rente, wat een laag kredietrisico weerspiegelt. Een bedrijf dat financieel worstelt, moet mogelijk een veel hogere rente op zijn obligaties bieden om beleggers aan te trekken die bereid zijn het extra risico op wanbetaling te nemen.
+
+## Oefenquiz
+
+1. Kredietrisico bij een obligatie verwijst naar:
+   A. Het risico een papieren certificaat kwijt te raken
+   B. Het risico dat de uitgevende instelling rente of hoofdsom niet terugbetaalt zoals beloofd
+   C. Het risico van een aandelensplitsing
+   D. Het risico van een marktbrede daling
+
+2. Waar of onwaar: uitgevers met een hoger kredietrisico bieden doorgaans een lagere rente.
+
+3. Waarom moet een bedrijf dat financieel worstelt mogelijk een hogere rente op obligaties bieden?
+   A. Om beleggers te vergoeden voor een hoger risico op wanbetaling
+   B. Omdat de overheid dat verplicht
+   C. Om zijn marktkapitalisatie te verlagen
+   D. Obligaties hebben altijd dezelfde rente, ongeacht het risico
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. A
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Kredietrisico is het risico op wanbetaling van rente of hoofdsom.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Uitgevers met een hoger kredietrisico moeten doorgaans een hogere rente bieden.
+
+### Vraag 3
+
+Juist antwoord: A. Een hogere rente vergoedt beleggers voor het nemen van risico op wanbetaling.
+
+## Belangrijkste punten
+
+- Kredietrisico is het risico dat een uitgevende instelling op een obligatie in gebreke blijft.
+- Een hoger kredietrisico betekent doorgaans een hogere aangeboden rente.
+- Niet alle uitgevers van obligaties hebben hetzelfde niveau van kredietrisico.
+
+===== WHITE-L1-030
+TITLE: Wat is renterisico?
+SUMMARY: Leer hoe veranderende rentes de koersen van bestaande obligaties beïnvloeden, en waarom ze in tegengestelde richting bewegen.
+# Wat is renterisico?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- renterisico in eenvoudige woorden te definiëren.
+- de omgekeerde basisrelatie tussen rentes en obligatiekoersen uit te leggen.
+- uit te leggen waarom dit ertoe doet voor iemand die al een obligatie bezit.
+
+## Kerninhoud
+
+### Wat renterisico is
+
+Renterisico is het risico dat veranderingen in de algemene rentestand de marktwaarde van bestaande obligaties beïnvloeden: iets anders dan kredietrisico, dat gaat over het vermogen van de uitgevende instelling om te betalen.
+
+### De omgekeerde relatie
+
+Als de algemene rente stijgt, daalt doorgaans de marktprijs van bestaande obligaties met een lagere vaste rente, omdat er nieuwe obligaties worden uitgegeven tegen de hogere, aantrekkelijkere huidige rente. Als de algemene rente daalt, worden bestaande obligaties met een hogere rente in vergelijking doorgaans meer waard.
+
+### Waarom dit ertoe doet voor een bestaande obligatiehouder
+
+Een obligatiehouder die vóór de vervaldatum moet verkopen, staat bloot aan deze koersbeweging. Een obligatiehouder die tot de vervaldatum aanhoudt, ontvangt toch de nominale waarde: renterisico raakt vooral de marktprijs van de obligatie vóór de vervaldatum, niet de uiteindelijke terugbetaling zelf.
+
+## Praktijkvoorbeeld
+
+Een belegger heeft een obligatie die 3% rente betaalt. De algemene rente stijgt naar 5%. Nieuwe obligaties bieden nu de aantrekkelijkere 5%, waardoor de oudere 3%-obligatie van de belegger minder aantrekkelijk wordt voor een mogelijke koper: de marktprijs zou bij verkoop vóór de vervaldatum doorgaans dalen.
+
+## Oefenquiz
+
+1. Renterisico verwijst naar:
+   A. Het risico dat een uitgevende instelling in gebreke blijft
+   B. Het risico dat veranderende rentes de koersen van bestaande obligaties beïnvloeden
+   C. Het risico van een aandelensplitsing
+   D. Het valutarisico
+
+2. Waar of onwaar: als de algemene rente stijgt, stijgen de koersen van bestaande obligaties met een lagere rente doorgaans ook.
+
+3. Ontvangt een obligatiehouder die tot de vervaldatum aanhoudt ondanks renterisico toch de volledige nominale waarde?
+   A. Nee, hij verliest het verschil
+   B. Ja, de nominale waarde wordt op de vervaldatum doorgaans toch betaald
+   C. Alleen als de rente is gedaald
+   D. Alleen als de obligatie vroegtijdig is verkocht
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Renterisico beïnvloedt de marktprijzen van bestaande obligaties als de rente verandert.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een stijgende rente duwt de koersen van bestaande obligaties met een lagere rente doorgaans omlaag.
+
+### Vraag 3
+
+Juist antwoord: B. Wie tot de vervaldatum aanhoudt, ontvangt doorgaans toch de volledige nominale waarde, ongeacht tussentijdse koersschommelingen.
+
+## Belangrijkste punten
+
+- Renterisico beïnvloedt de koersen van bestaande obligaties als de algemene rente verandert.
+- Een stijgende rente duwt de koersen van bestaande obligaties met een lagere rente doorgaans omlaag, en omgekeerd.
+- Wie tot de vervaldatum aanhoudt, ontvangt doorgaans toch de nominale waarde, ongeacht tussentijdse koersbewegingen.

@@ -1,0 +1,364 @@
+===== WHITE-L1-026
+TITLE: O que é o rácio preço/lucro (PER)? (Versão introdutória – método completo no Nível 2)
+SUMMARY: Aprenda a fórmula básica do rácio preço/lucro e o que ele estima, como introdução à avaliação tratada com mais profundidade no Nível 2.
+# O que é o rácio preço/lucro (PER)? (Versão introdutória – método completo no Nível 2)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- enunciar a fórmula básica do rácio preço/lucro.
+- calcular um rácio preço/lucro básico a partir do preço da ação e do LPA.
+- explicar, a nível introdutório, o que o rácio estima.
+
+## Conteúdo principal
+
+### A fórmula básica
+
+Rácio preço/lucro (PER; em inglês, "P/E ratio") = preço da ação ÷ lucro por ação (LPA), construído diretamente sobre o conceito de LPA da lição anterior.
+
+### O que ele estima
+
+O rácio preço/lucro responde, de forma aproximada: quanto estão os investidores a pagar hoje por cada dólar do lucro atual de uma empresa? Um número mais elevado significa que os investidores estão a pagar mais por dólar de lucro atual.
+
+### Uma antevisão, não o quadro completo
+
+*PRESSUPOSTO (para fins didáticos):* Esta lição introdutória trata apenas da fórmula básica. Um tratamento completo – incluindo como comparar entre setores e como a recompra de ações próprias pode distorcer o rácio – surge no Nível 2.
+
+## Exemplo prático
+
+Uma ação é negociada a 60 USD com um LPA de 3,00 USD. PER = 60 USD ÷ 3,00 USD = 20: os investidores estão a pagar 20 USD por cada 1 USD do lucro atual dessa empresa.
+
+## Teste de prática
+
+1. A fórmula do rácio preço/lucro é:
+   A. LPA ÷ preço da ação
+   B. Preço da ação ÷ LPA
+   C. Resultado líquido ÷ preço da ação
+   D. Ações em circulação ÷ LPA
+
+2. Verdadeiro ou falso: um rácio preço/lucro mais elevado significa que os investidores estão a pagar menos por dólar de lucro atual.
+
+3. Uma ação é negociada a 80 USD com um LPA de 4,00 USD. Qual é o seu rácio preço/lucro?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. PER = preço da ação ÷ LPA.
+
+### Pergunta 2
+
+Resposta correta: Falso. Um PER mais elevado significa pagar mais por dólar de lucro.
+
+### Pergunta 3
+
+Resposta correta: B. 80 USD ÷ 4,00 USD = 20.
+
+## Pontos-chave
+
+- Rácio preço/lucro = preço da ação ÷ LPA.
+- Estima quanto os investidores estão a pagar por dólar de lucro atual.
+- Esta é uma versão introdutória: o Nível 2 trata da aplicação mais aprofundada e das limitações.
+
+===== WHITE-L1-027
+TITLE: O que é a rendibilidade (yield)?
+SUMMARY: Aprenda o que a rendibilidade mede nos diferentes ativos de papel e em que difere da valorização do preço.
+# O que é a rendibilidade (yield)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir rendibilidade em termos simples.
+- calcular uma rendibilidade básica a partir do rendimento e do preço.
+- distinguir rendibilidade de valorização do preço.
+
+## Conteúdo principal
+
+### O que significa rendibilidade
+
+A rendibilidade (em inglês, "yield") mede geralmente o rendimento que um investimento gera (como dividendos de uma ação ou juros de uma obrigação), expresso em percentagem do seu preço.
+
+### A fórmula básica
+
+Rendibilidade = rendimento anual ÷ preço atual. Numa ação, "rendimento" significa normalmente dividendos; numa obrigação, significa normalmente pagamentos de juros.
+
+### Rendibilidade e valorização do preço
+
+A rendibilidade mede especificamente o rendimento, e não o ganho de preço. Uma ação pode ter uma rendibilidade elevada graças aos dividendos enquanto o preço se mantém estável, ou uma rendibilidade baixa enquanto o preço sobe muito: são duas fontes distintas de retorno potencial, e não a mesma coisa.
+
+## Exemplo prático
+
+Uma ação é negociada a 50 USD e paga 2 USD de dividendos por ano. Rendibilidade = 2 USD ÷ 50 USD = 4%. Isto é separado de qualquer variação no próprio preço da ação e não a inclui.
+
+## Teste de prática
+
+1. A rendibilidade é calculada como:
+   A. Valorização do preço ÷ período de detenção
+   B. Rendimento anual ÷ preço atual
+   C. Total de ações ÷ resultado líquido
+   D. Preço da ação ÷ LPA
+
+2. Verdadeiro ou falso: a rendibilidade mede a valorização do preço, e não o rendimento.
+
+3. Uma obrigação paga 40 USD por ano e custa 1000 USD. Qual é a sua rendibilidade?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Rendibilidade = rendimento anual ÷ preço atual.
+
+### Pergunta 2
+
+Resposta correta: Falso. A rendibilidade mede o rendimento, e não a valorização do preço.
+
+### Pergunta 3
+
+Resposta correta: B. 40 USD ÷ 1000 USD = 4%.
+
+## Pontos-chave
+
+- Rendibilidade = rendimento anual ÷ preço atual.
+- Mede o rendimento (dividendos ou juros), e não a valorização do preço.
+- Rendimento e valorização do preço são duas fontes distintas de retorno potencial.
+
+===== WHITE-L1-028
+TITLE: O que é a data de vencimento de uma obrigação?
+SUMMARY: Aprenda o que é uma data de vencimento e porque é que obrigações com prazos diferentes se comportam de forma diferente.
+# O que é a data de vencimento de uma obrigação?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir data de vencimento em termos simples.
+- explicar o que acontece no vencimento.
+- reconhecer que o prazo até ao vencimento afeta o comportamento de uma obrigação.
+
+## Conteúdo principal
+
+### O que é uma data de vencimento
+
+A data de vencimento de uma obrigação é a data em que o emitente se comprometeu a reembolsar integralmente ao obrigacionista o valor nominal (o capital): o fim do prazo do empréstimo apresentado na lição anterior sobre obrigações.
+
+### O que acontece no vencimento
+
+No vencimento, o obrigacionista recebe de volta o valor nominal e os pagamentos de juros param, uma vez que o empréstimo é considerado totalmente reembolsado.
+
+### Porque é que o prazo importa
+
+As obrigações com prazos mais longos (datas de reembolso mais distantes) são geralmente mais sensíveis a alterações nas condições das taxas de juro do que as obrigações com prazos mais curtos: um conceito tratado com mais profundidade numa lição posterior sobre o risco de taxa de juro.
+
+## Exemplo prático
+
+Uma obrigação a 2 anos e outra a 20 anos podem ter hoje taxas de cupão semelhantes, mas o preço da obrigação a 20 anos reage normalmente de forma muito mais forte a futuras alterações das taxas de juro, simplesmente porque falta muito mais tempo até ao vencimento.
+
+## Teste de prática
+
+1. A data de vencimento de uma obrigação é:
+   A. Quando começam os pagamentos de juros
+   B. Quando o emitente reembolsa integralmente o valor nominal
+   C. A data em que a obrigação foi comprada
+   D. Uma data fixada pelo obrigacionista
+
+2. Verdadeiro ou falso: os pagamentos de juros continuam indefinidamente depois de uma obrigação vencer.
+
+3. Que tipo de obrigação é geralmente mais sensível a alterações das taxas de juro?
+   A. Uma obrigação de prazo mais curto
+   B. Uma obrigação de prazo mais longo
+   C. O prazo não tem efeito na sensibilidade
+   D. Apenas obrigações sem data de vencimento
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O vencimento é quando o valor nominal é reembolsado integralmente.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os pagamentos de juros param quando a obrigação vence e é reembolsada.
+
+### Pergunta 3
+
+Resposta correta: B. As obrigações de prazo mais longo são geralmente mais sensíveis a alterações das taxas de juro.
+
+## Pontos-chave
+
+- A data de vencimento de uma obrigação é quando o valor nominal é reembolsado integralmente.
+- Os pagamentos de juros param quando se atinge o vencimento.
+- As obrigações de prazo mais longo são geralmente mais sensíveis a alterações das taxas de juro.
+
+===== WHITE-L1-029
+TITLE: O que é o risco de crédito numa obrigação?
+SUMMARY: Aprenda o que o risco de crédito significa para uma obrigação e como se relaciona com o facto de algumas obrigações pagarem juros mais elevados do que outras.
+# O que é o risco de crédito numa obrigação?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir risco de crédito em termos simples.
+- explicar como o risco de crédito se relaciona com a taxa de juro de uma obrigação.
+- reconhecer que nem todos os emitentes de obrigações têm o mesmo risco de crédito.
+
+## Conteúdo principal
+
+### O que é o risco de crédito
+
+O risco de crédito é o risco de um emitente não conseguir pagar os juros prometidos ou reembolsar o capital no vencimento: por outras palavras, o risco de incumprimento.
+
+### Como se relaciona com a taxa de juro
+
+Os emitentes considerados de maior risco de crédito precisam geralmente de oferecer uma taxa de cupão mais elevada para atrair credores, compensando os investidores pelo risco adicional. Os emitentes considerados de risco muito baixo (como governos estáveis) conseguem geralmente financiar-se a taxas mais baixas.
+
+### Nem todos os emitentes são iguais
+
+Uma empresa grande e financeiramente estável e uma empresa mais pequena e com dificuldades financeiras que emitem obrigações não têm o mesmo risco de crédito, mesmo que as suas obrigações pareçam semelhantes à primeira vista: é por isso que existem as notações de risco de obrigações (tratadas no Nível 2), que ajudam a avaliar esse risco.
+
+## Exemplo prático
+
+Um governo financeiramente sólido pode emitir obrigações a uma taxa de juro baixa, refletindo um baixo risco de crédito. Uma empresa com dificuldades financeiras pode ter de oferecer uma taxa bem mais elevada nas suas obrigações para atrair investidores dispostos a correr o risco adicional de incumprimento.
+
+## Teste de prática
+
+1. O risco de crédito numa obrigação refere-se a:
+   A. O risco de perder um certificado em papel
+   B. O risco de o emitente não pagar juros ou capital como prometido
+   C. O risco de um desdobramento de ações
+   D. O risco de uma descida generalizada do mercado
+
+2. Verdadeiro ou falso: os emitentes com maior risco de crédito oferecem geralmente taxas de juro mais baixas.
+
+3. Porque é que uma empresa com dificuldades financeiras pode ter de oferecer uma taxa mais elevada nas suas obrigações?
+   A. Para compensar os investidores por um risco de incumprimento mais elevado
+   B. Porque o governo o exige
+   C. Para reduzir a sua capitalização bolsista
+   D. As obrigações têm sempre a mesma taxa, independentemente do risco
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. A
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O risco de crédito é o risco de incumprimento nos juros ou no capital.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os emitentes com maior risco de crédito precisam geralmente de oferecer taxas mais elevadas.
+
+### Pergunta 3
+
+Resposta correta: A. Taxas mais elevadas compensam os investidores por assumirem o risco de incumprimento.
+
+## Pontos-chave
+
+- O risco de crédito é o risco de um emitente entrar em incumprimento numa obrigação.
+- Maior risco de crédito significa geralmente uma taxa de juro oferecida mais elevada.
+- Nem todos os emitentes de obrigações têm o mesmo nível de risco de crédito.
+
+===== WHITE-L1-030
+TITLE: O que é o risco de taxa de juro?
+SUMMARY: Aprenda como as alterações das taxas de juro afetam os preços das obrigações já existentes e porque é que se movem em sentidos opostos.
+# O que é o risco de taxa de juro?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir risco de taxa de juro em termos simples.
+- explicar a relação inversa básica entre taxas de juro e preços das obrigações.
+- explicar porque é que isto importa para quem já detém uma obrigação.
+
+## Conteúdo principal
+
+### O que é o risco de taxa de juro
+
+O risco de taxa de juro é o risco de as alterações das taxas de juro em geral afetarem o valor de mercado das obrigações já existentes: algo distinto do risco de crédito, que diz respeito à capacidade de pagamento do emitente.
+
+### A relação inversa
+
+Quando as taxas de juro em geral sobem, o preço de mercado das obrigações existentes com taxas fixas mais baixas desce geralmente, porque estão a ser emitidas novas obrigações à taxa atual, mais elevada e mais atrativa. Quando as taxas em geral descem, as obrigações existentes com taxas mais elevadas tornam-se geralmente mais valiosas em comparação.
+
+### Porque é que isto importa para quem já detém uma obrigação
+
+Um obrigacionista que precise de vender antes do vencimento fica exposto a este movimento de preço. Um obrigacionista que mantenha a obrigação até ao vencimento recebe na mesma o valor nominal: o risco de taxa de juro afeta sobretudo o preço de mercado da obrigação antes do vencimento, e não o reembolso final em si.
+
+## Exemplo prático
+
+Um investidor detém uma obrigação que paga 3% de juros. As taxas em geral sobem para 5%. As novas obrigações oferecem agora os 5%, mais atrativos, o que torna a obrigação antiga a 3% menos atrativa para um potencial comprador: o seu preço de mercado desceria geralmente se fosse vendida antes do vencimento.
+
+## Teste de prática
+
+1. O risco de taxa de juro refere-se a:
+   A. O risco de incumprimento de um emitente
+   B. O risco de as alterações das taxas de juro afetarem os preços das obrigações existentes
+   C. O risco de um desdobramento de ações
+   D. O risco cambial
+
+2. Verdadeiro ou falso: quando as taxas de juro em geral sobem, os preços das obrigações existentes com taxas mais baixas sobem geralmente também.
+
+3. Um obrigacionista que mantenha a obrigação até ao vencimento recebe na mesma o valor nominal integral, apesar do risco de taxa de juro?
+   A. Não, perde a diferença
+   B. Sim, o valor nominal é geralmente pago no vencimento de qualquer forma
+   C. Só se as taxas tiverem descido
+   D. Só se a obrigação tiver sido vendida antecipadamente
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O risco de taxa de juro afeta os preços de mercado das obrigações existentes quando as taxas mudam.
+
+### Pergunta 2
+
+Resposta correta: Falso. A subida das taxas empurra geralmente para baixo os preços das obrigações existentes com taxas mais baixas.
+
+### Pergunta 3
+
+Resposta correta: B. Quem mantém até ao vencimento recebe geralmente na mesma o valor nominal integral, independentemente das oscilações de preço pelo caminho.
+
+## Pontos-chave
+
+- O risco de taxa de juro afeta os preços das obrigações existentes quando as taxas em geral mudam.
+- A subida das taxas empurra geralmente para baixo os preços das obrigações existentes com taxas mais baixas, e vice-versa.
+- Quem mantém até ao vencimento recebe geralmente na mesma o valor nominal, independentemente dos movimentos de preço pelo caminho.
