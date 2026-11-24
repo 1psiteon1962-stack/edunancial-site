@@ -86,3 +86,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - BLUE L1 fr-CA/fr-FR retranslated 001-050 → PR 1643 (2026-11-23)
 - WHITE L1 fr-CA/fr-FR retranslated 001-050 → PR 1644 (2026-11-23)
 - PURPLE L1 fr-CA/fr-FR retranslated 001-050 → PR 1645 (2026-11-23). French L1 now done for BLUE/WHITE/PURPLE/GREEN.
+- 2026-11-23: GOLD L1 fr-CA 002-050 + fr-FR 001-050 faithful; PR 1646 (114192a). PURPLE PR 1645 merged c0b8f37.

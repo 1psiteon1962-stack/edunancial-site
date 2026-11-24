@@ -1,0 +1,219 @@
+===== GOLD-L1-005
+TITLE: Les notions de base de la méthode des achats périodiques
+SUMMARY: Présente la méthode des achats périodiques comme une approche d’investissement disciplinée qui résiste aux émotions.
+# Les notions de base de la méthode des achats périodiques
+
+## Objectifs d’apprentissage
+- Définir la méthode des achats périodiques en termes simples
+- Expliquer pourquoi cette approche réduit l’effet des tentatives de deviner le moment parfait pour acheter
+- S’exercer à appliquer la notion à un exemple simple
+
+## Contenu principal
+
+La méthode des achats périodiques (en anglais *dollar-cost averaging*, souvent abrégé DCA) consiste à investir un montant fixe à intervalles réguliers — par exemple chaque mois —, peu importe l’évolution du prix à ce moment-là, plutôt que d’essayer de faire un seul gros achat au moment « parfait ». Comme le montant investi reste le même à chaque fois, on achète naturellement plus d’unités quand le prix est bas et moins d’unités quand le prix est élevé, sans avoir besoin de rien prédire.
+
+C’est important parce qu’il est extrêmement difficile de prédire de façon constante le meilleur moment pour acheter, même pour des professionnels, et que le fait d’essayer mène souvent à de l’hésitation, à des occasions manquées ou à des achats faits à de mauvais moments sous l’effet des émotions (comme acheter quand les prix montent et que tout le monde est enthousiaste, puis hésiter quand les prix baissent et que tout le monde est nerveux — exactement l’inverse de l’idéal). La méthode des achats périodiques élimine entièrement cette décision en rendant le moment des achats automatique et constant.
+
+## Exemple pratique
+
+EXEMPLE ILLUSTRATIF : Supposons qu’une personne investisse 50 € chaque mois dans l’argent, peu importe le prix. Un mois où l’argent coûte 25 € l’once, ces 50 € achètent 2 onces. Un mois où le prix tombe à 20 € l’once, les mêmes 50 € achètent 2,5 onces — on achète automatiquement plus quand c’est moins cher. Sur de nombreux mois, cela égalise le prix moyen payé par once, sans que l’investisseur ait jamais à deviner quel mois était le « meilleur » moment pour acheter.
+
+## Questionnaire pratique
+
+1. Définissez la méthode des achats périodiques dans vos propres mots.
+2. Selon cette méthode, qu’arrive-t-il au nombre d’unités achetées quand le prix est bas?
+3. Pourquoi est-il difficile d’essayer de faire un seul achat au moment « parfait »?
+4. Si une personne investit 100 € chaque mois et que le prix est de 10 € un mois et de 20 € le mois suivant, combien d’unités possède-t-elle au total après ces deux mois?
+
+## Corrigé
+1. Investir un montant fixe à intervalles réguliers, peu importe le prix, plutôt que d’essayer de choisir le moment d’un achat unique.
+2. On achète plus d’unités quand le prix est bas, puisque le montant fixe va plus loin.
+3. Parce qu’il est extrêmement difficile de prédire de façon constante les variations de prix, même pour des professionnels.
+4. 10 unités le premier mois (100 € ÷ 10 €) plus 5 unités le deuxième mois (100 € ÷ 20 €), soit 15 unités au total.
+
+## Réponses et explications
+1. Cela saisit le mécanisme central de la méthode : un montant fixe, à intervalles réguliers, sans aucune prédiction de prix.
+2. C’est l’avantage intégré de la méthode : acheter automatiquement davantage quand les prix sont favorables.
+3. La difficulté de prédire est la raison sous-jacente pour laquelle la méthode des achats périodiques est une solution de rechange utile, qui résiste aux émotions.
+4. Appliquer directement la formule aux deux mois montre le fonctionnement pratique de la méthode.
+
+## Points clés à retenir
+- La méthode des achats périodiques consiste à investir un montant fixe à intervalles réguliers, peu importe le prix.
+- Elle permet naturellement d’acheter plus d’unités quand les prix sont bas et moins quand ils sont élevés, sans exiger de prédiction.
+- Elle élimine le défi difficile, souvent dicté par les émotions, qui consiste à essayer de choisir le moment « parfait » pour acheter.
+
+===== GOLD-L1-006
+TITLE: La croissance composée expliquée simplement
+SUMMARY: Présente la notion de capitalisation et explique pourquoi le temps est l’une des forces les plus puissantes de l’investissement.
+# La croissance composée expliquée simplement
+
+## Objectifs d’apprentissage
+- Définir la capitalisation en termes simples
+- Expliquer pourquoi commencer tôt a un effet démesuré sur les résultats à long terme
+- S’exercer à un calcul simple de capitalisation
+
+## Contenu principal
+
+La capitalisation, c’est une croissance qui s’ajoute à la croissance précédente, plutôt qu’une croissance qui ne s’applique jamais qu’au montant initial. Si un placement croît et que cette croissance reste investie, la croissance de la période suivante s’applique au nouveau total, plus grand, et pas seulement au montant de départ — ce qui signifie que la croissance s’accélère avec le temps, d’une façon facile à sous-estimer au début et spectaculaire à constater plus tard.
+
+C’est pourquoi commencer tôt compte autant, même avec de petites sommes. Le temps est l’une des rares ressources réellement gratuites en investissement — de l’argent investi pendant 20 ans a beaucoup plus de temps pour profiter de la capitalisation que le même argent investi pendant 5 ans, même si les montants réellement investis sont semblables. C’est en partie pour cela que prendre tôt l’habitude d’investir, même avec de petites sommes, a tendance à compter davantage qu’attendre de commencer plus tard avec une somme plus importante.
+
+## Exemple pratique
+
+EXEMPLE ILLUSTRATIF : Supposons qu’une petite position croisse d’un pourcentage constant chaque année. La première année, la croissance ne s’applique qu’au montant initial. La dixième année, ce même pourcentage de croissance s’applique à un total beaucoup plus grand, parce que neuf années de croissance antérieure se sont déjà ajoutées au montant initial. Le montant en euros de la croissance de la dixième année est sensiblement plus élevé que celui de la première année, même si le taux en pourcentage n’a pas changé — c’est l’effet visible de la capitalisation qui s’appuie sur elle-même au fil du temps.
+
+## Questionnaire pratique
+
+1. Définissez la capitalisation dans vos propres mots.
+2. Pourquoi commencer tôt a-t-il un effet démesuré sur les résultats à long terme?
+3. Pourquoi prendre tôt l’habitude d’investir avec de petites sommes pourrait-il compter davantage qu’attendre une somme plus importante plus tard?
+4. Dans l’exemple pratique, pourquoi le montant en euros de la croissance était-il plus élevé la dixième année que la première, malgré le même taux en pourcentage?
+
+## Corrigé
+1. Une croissance qui s’ajoute à la croissance précédente, plutôt qu’une croissance qui ne s’applique qu’au montant de départ.
+2. Parce que le temps est une ressource limitée et irrécupérable, et que plus de temps signifie plus de cycles de capitalisation qui s’ajoutent les uns aux autres.
+3. Parce que les années supplémentaires de capitalisation comptent souvent davantage que la somme supplémentaire investie plus tard.
+4. Parce que la croissance s’appliquait à un total beaucoup plus grand (le montant initial plus neuf années de croissance antérieure), et pas seulement au montant de départ.
+
+## Réponses et explications
+1. Cela définit le mécanisme central — une croissance qui s’ajoute à la croissance antérieure — au cœur de la capitalisation.
+2. Le caractère irrécupérable du temps est la raison principale pour laquelle un départ hâtif a un effet aussi disproportionné à long terme.
+3. Cela présente la prise d’habitude hâtive comme souvent plus précieuse qu’un placement plus important, mais commencé plus tard.
+4. Cet exemple montre l’effet d’accélération visible de la capitalisation au moyen d’une croissance en pourcentage constante sur une base qui grandit.
+
+## Points clés à retenir
+- La capitalisation, c’est une croissance qui s’ajoute à la croissance précédente, et pas seulement au montant initial.
+- Comme le temps ne se récupère pas une fois écoulé, commencer tôt a un effet démesuré sur les résultats à long terme.
+- Prendre tôt l’habitude d’investir, même avec de petites sommes, compte souvent davantage qu’attendre de commencer plus tard avec une somme plus importante.
+
+===== GOLD-L1-007
+TITLE: La tolérance au risque et l’horizon de placement
+SUMMARY: Explique que le niveau de risque approprié dépend beaucoup du moment où l’on aura besoin de l’argent.
+# La tolérance au risque et l’horizon de placement
+
+## Objectifs d’apprentissage
+- Définir la tolérance au risque et l’horizon de placement dans un contexte d’investissement
+- Expliquer le lien entre ces deux notions
+- S’exercer à associer un niveau de risque approprié à un horizon de placement donné
+
+## Contenu principal
+
+La tolérance au risque, c’est le degré de fluctuation des prix et de perte possible qu’un investisseur est prêt et apte à accepter pour viser la croissance. L’horizon de placement, c’est le moment où l’on aura réellement besoin de l’argent investi. Ces deux notions sont étroitement liées : un horizon plus long permet généralement une plus grande tolérance au risque, parce qu’il y a plus de temps pour que le placement se rétablisse après une baisse avant qu’on ait réellement besoin de l’argent. Un horizon plus court exige généralement une tolérance au risque plus faible, parce qu’il y a moins de temps pour se rétablir si la valeur baisse juste avant qu’on ait besoin de l’argent.
+
+Cela renvoie à la leçon précédente sur Gagner/Conserver/Faire fructifier/Transmettre — l’argent destiné à « Faire fructifier », prévu pour des objectifs à long terme, peut habituellement absorber plus de volatilité à court terme que l’argent à « Conserver », prévu pour des besoins à court terme. Mal faire correspondre la tolérance au risque et l’horizon de placement — prendre des risques élevés avec de l’argent dont on aura besoin bientôt, ou être trop prudent avec de l’argent qui a des décennies pour croître — donne habituellement un moins bon résultat que de les faire correspondre adéquatement.
+
+## Exemple pratique
+
+EXEMPLE ILLUSTRATIF : Un jeune de 15 ans qui ajoute de l’or à une position en croissance, avec de l’argent destiné à un objectif situé dans dix ans ou plus, peut raisonnablement tolérer plus de fluctuations de prix à court terme, puisqu’il y a beaucoup de temps pour qu’une baisse se résorbe avant qu’il ait besoin de l’argent. Comparez cela à une personne qui a besoin d’une somme précise dans six mois pour une dépense connue et fixe — cet argent devrait généralement être placé dans quelque chose de beaucoup plus stable, parce qu’une baisse juste avant qu’elle en ait besoin ne lui laisserait aucun temps pour se rétablir.
+
+## Questionnaire pratique
+
+1. Définissez la tolérance au risque et l’horizon de placement dans vos propres mots.
+2. Selon cette leçon, quel est le lien entre la tolérance au risque et l’horizon de placement?
+3. Pourquoi un horizon plus long permet-il généralement une plus grande tolérance au risque?
+4. Dans l’exemple pratique, pourquoi la position du jeune de 15 ans peut-elle raisonnablement tolérer plus de fluctuations à court terme?
+
+## Corrigé
+1. La tolérance au risque est le degré de fluctuation ou de perte qu’un investisseur peut accepter; l’horizon de placement est le moment où l’on aura besoin de l’argent.
+2. Un horizon plus long permet généralement une plus grande tolérance au risque, et inversement.
+3. Parce qu’il y a plus de temps pour que le placement se rétablisse après une baisse avant qu’on ait réellement besoin de l’argent.
+4. Parce que l’argent est destiné à un objectif situé dans une décennie ou plus, ce qui laisse beaucoup de temps pour qu’une baisse se résorbe.
+
+## Réponses et explications
+1. Cela définit les deux notions centrales que la leçon relie entre elles.
+2. Ce lien est la relation centrale que la leçon établit entre le risque et le temps.
+3. Le temps de rétablissement est le mécanisme qui permet aux horizons plus longs d’absorber plus de volatilité à court terme.
+4. Cet exemple applique directement la relation entre tolérance au risque et horizon de placement à l’étude de cas.
+
+## Points clés à retenir
+- La tolérance au risque et l’horizon de placement sont étroitement liés — les horizons plus longs permettent généralement plus de risque.
+- L’argent dont on aura besoin bientôt devrait généralement comporter moins de risque, puisqu’il y a moins de temps pour se rétablir après une baisse.
+- Faire correspondre adéquatement la tolérance au risque à l’horizon de placement, plutôt que de mal les associer, a tendance à donner de meilleurs résultats.
+
+===== GOLD-L1-008
+TITLE: Les notions de base de la diversification
+SUMMARY: Présente la diversification comme une façon de gérer le risque en ne dépendant pas du rendement d’un seul actif.
+# Les notions de base de la diversification
+
+## Objectifs d’apprentissage
+- Définir la diversification en termes simples
+- Expliquer pourquoi tout concentrer dans un seul actif augmente le risque
+- Reconnaître que détenir deux métaux différents est un exemple à petite échelle de diversification
+
+## Contenu principal
+
+La diversification consiste à répartir ses placements entre différents actifs plutôt que de tout placer dans un seul, afin que la baisse d’un seul actif ne ruine pas l’ensemble de la position. La logique est simple : différents actifs n’évoluent pas toujours dans la même direction, au même moment et pour les mêmes raisons, de sorte qu’une baisse de l’un peut être compensée, au moins en partie, par la stabilité ou la croissance d’un autre.
+
+Cela ne veut pas dire que la diversification élimine entièrement le risque — cela veut dire qu’elle réduit le risque précis de dépendre excessivement du rendement d’un seul actif. Une position entièrement diversifiée peut quand même perdre de la valeur si de nombreux actifs différents baissent en même temps, mais elle est généralement plus résistante qu’une position entièrement concentrée dans une seule chose.
+
+## Exemple pratique
+
+EXEMPLE ILLUSTRATIF : Détenir à la fois de l’argent et de l’or, plutôt qu’un seul métal, est une forme de diversification à petite échelle au sein de la catégorie des métaux précieux — les deux métaux ont des facteurs de demande différents (industriels, d’une part, et surtout liés à l’investissement et à la bijouterie, d’autre part), de sorte qu’ils n’évoluent pas toujours exactement de concert. C’est un exemple à bien plus petite échelle que la diversification complète d’un portefeuille entre de nombreuses catégories d’actifs (actions, immobilier, propriété d’entreprise, etc.), que les niveaux ultérieurs de ce parcours et d’autres parcours présenteront plus en profondeur, mais il illustre le principe sous-jacent : ne pas placer toutes ses ressources dans un seul pari identique.
+
+## Questionnaire pratique
+
+1. Définissez la diversification dans vos propres mots.
+2. Pourquoi répartir ses placements entre différents actifs réduit-il le risque?
+3. La diversification élimine-t-elle entièrement le risque?
+4. Comment le fait de détenir à la fois de l’argent et de l’or illustre-t-il la diversification, même à petite échelle?
+
+## Corrigé
+1. Répartir ses placements entre différents actifs plutôt que de tout placer dans un seul.
+2. Parce que différents actifs n’évoluent pas toujours dans la même direction pour les mêmes raisons, ce qui peut compenser la baisse de l’un par la stabilité d’un autre.
+3. Non — elle réduit le risque de dépendance envers un seul actif, mais n’élimine pas tout risque, surtout si de nombreux actifs baissent ensemble.
+4. Parce que les deux métaux ont des facteurs de demande différents, ce qui signifie qu’ils n’évoluent pas toujours exactement de concert, ce qui réduit la dépendance envers l’un ou l’autre seul.
+
+## Réponses et explications
+1. Cela saisit la logique essentielle de la diversification : répartir le risque, et non l’éliminer.
+2. Les comportements différents des actifs sont le mécanisme qui explique l’effet de réduction du risque de la diversification.
+3. Cela clarifie une idée fausse courante — la diversification gère le risque, elle ne l’élimine pas entièrement.
+4. Cet exemple montre le principe central de la diversification à une échelle petite et compréhensible, au sein d’une seule catégorie d’actifs.
+
+## Points clés à retenir
+- La diversification consiste à répartir ses placements entre différents actifs pour réduire la dépendance envers un seul.
+- Elle réduit le risque, mais ne l’élimine pas, surtout si de nombreux actifs baissent ensemble.
+- Détenir à la fois de l’argent et de l’or, avec leurs facteurs de demande différents, illustre le principe de la diversification, même à petite échelle.
+
+===== GOLD-L1-009
+TITLE: Ce qui détermine le prix des métaux précieux
+SUMMARY: Explique les facteurs de base de l’offre et de la demande qui déterminent le prix de l’or et de l’argent.
+# Ce qui détermine le prix des métaux précieux
+
+## Objectifs d’apprentissage
+- Repérer les facteurs de base de l’offre et de la demande qui influent sur le prix des métaux précieux
+- Expliquer pourquoi l’incertitude économique influe souvent sur la demande d’or et d’argent
+- Reconnaître qu’aucun facteur à lui seul ne détermine le prix
+
+## Contenu principal
+
+Comme la plupart des actifs, le prix des métaux précieux dépend de l’offre et de la demande. Du côté de l’offre : la quantité de nouveau métal extraite et produite, et la quantité de métal existant (issu du recyclage ou de réserves privées) qui arrive sur le marché. Du côté de la demande : la demande liée à l’investissement (des personnes qui en achètent comme réserve de valeur), la demande de la bijouterie et, pour l’argent en particulier, la demande industrielle du secteur manufacturier.
+
+FAIT VÉRIFIÉ : Les métaux précieux, et l’or en particulier, ont souvent connu par le passé une hausse de la demande liée à l’investissement pendant les périodes d’incertitude économique ou d’inflation élevée, certains investisseurs les considérant comme une réserve de valeur lorsque la confiance envers d’autres actifs ou devises est ébranlée. Ce n’est pas une garantie — les prix sont influencés par de nombreux facteurs à la fois, et aucune explication unique (comme « l’incertitude fait toujours monter l’or ») ne se vérifie dans toutes les situations. Comprendre que plusieurs facteurs interagissent, plutôt que de chercher une seule règle simple de cause à effet, est une façon plus juste de penser aux variations de prix.
+
+## Exemple pratique
+
+EXEMPLE ILLUSTRATIF : Pendant une période où les manchettes économiques sont dominées par l’incertitude, la demande d’or pourrait augmenter, certains investisseurs cherchant une réserve de valeur perçue, ce qui pourrait faire monter les prix — alors qu’au même moment, si l’activité industrielle ralentit, une baisse de la demande industrielle d’argent pourrait compenser en partie une hausse semblable de la demande d’argent liée à l’investissement. Cela montre pourquoi les deux métaux, bien qu’ils soient tous deux des « métaux précieux », peuvent se comporter quelque peu différemment, même dans le même contexte économique général.
+
+## Questionnaire pratique
+
+1. Nommez les facteurs de base de l’offre et de la demande qui influent sur le prix des métaux précieux.
+2. Qu’est-il souvent arrivé, par le passé, à la demande d’or liée à l’investissement pendant les périodes d’incertitude économique?
+3. Cette tendance est-elle une garantie qui se produira chaque fois?
+4. Dans l’exemple pratique, pourquoi l’or et l’argent pourraient-ils réagir différemment au même contexte économique?
+
+## Corrigé
+1. Offre : l’extraction et la production, et le métal recyclé ou existant qui arrive sur le marché. Demande : l’investissement, la bijouterie et (pour l’argent) la demande industrielle.
+2. Elle a souvent augmenté, certains investisseurs considérant l’or comme une réserve de valeur en période d’incertitude.
+3. Non — plusieurs facteurs interagissent en même temps, et aucune explication unique ne se vérifie dans toutes les situations.
+4. Parce que l’argent a un facteur de demande industrielle supplémentaire que l’or n’a pas, de sorte que les deux peuvent réagir différemment aux mêmes conditions.
+
+## Réponses et explications
+1. Cela énumère les éléments de base de l’offre et de la demande qui déterminent le prix des métaux précieux.
+2. Ce FAIT VÉRIFIÉ reflète une tendance historique, présentée sans l’exagérer comme une règle garantie.
+3. La leçon met explicitement en garde contre une vision trop simpliste de cause à effet des variations de prix.
+4. Des facteurs de demande différents expliquent pourquoi l’or et l’argent n’évoluent pas toujours de la même façon, même dans des conditions semblables.
+
+## Points clés à retenir
+- Le prix des métaux précieux dépend de facteurs d’offre (production, recyclage) et de facteurs de demande (investissement, bijouterie et, pour l’argent, industrie).
+- L’or a souvent connu par le passé une hausse de la demande liée à l’investissement en période d’incertitude économique, même si cette tendance n’est pas garantie.
+- Plusieurs facteurs interagissent en même temps, de sorte que les variations de prix s’expliquent rarement par une seule cause simple.
