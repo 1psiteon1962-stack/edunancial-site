@@ -1,0 +1,229 @@
+===== BLACK-L1-026
+TITLE: Rollen statt Personen: Warum der Platz wichtiger ist als die Person darauf
+SUMMARY: Vermittelt den Unterschied zwischen der Gestaltung dauerhafter Rollen und einer Struktur, die um bestimmte Personen herum aufgebaut ist.
+# Rollen statt Personen: Warum der Platz wichtiger ist als die Person darauf
+
+## Lernziele
+- Eine Rolle von der Person unterscheiden, die sie gerade ausfüllt
+- Erklären, warum eine Struktur um Personen statt um Rollen Anfälligkeit schafft
+- Üben, eine Rolle unabhängig von einer bestimmten Person zu definieren
+
+## Kerninhalt
+
+Gerade in einem kleinen Unternehmen liegt es nahe, die Struktur um bestimmte Personen herum aufzubauen – „Maria kümmert sich um alle Kundenbeziehungen“ statt „Es gibt eine Rolle für Kundenbeziehungen, die derzeit Maria ausfüllt“. Dieser Unterschied wirkt fein, ist aber für die Widerstandsfähigkeit einer Organisation enorm wichtig. Wenn Maria geht, krank wird oder in eine andere Rolle wechseln möchte, tut sich ein Unternehmen, das um „Maria“ persönlich herum aufgebaut ist, viel schwerer mit der Anpassung als eines, das um eine klar definierte Rolle herum aufgebaut ist, die Maria derzeit zufällig innehat.
+
+Rollen unabhängig von der Person zu definieren, die sie ausfüllt, bedeutet zu dokumentieren, was die Rolle tatsächlich erfordert – Aufgaben, wichtige Beziehungen, notwendige Fähigkeiten –, getrennt von der besonderen Arbeitsweise dieser einen Person. Das macht das Unternehmen widerstandsfähiger gegenüber Fluktuation und klarer darin, was zutreffen muss, damit jemand auf diesem Platz erfolgreich ist, statt vollständig von Marias Persönlichkeit oder Gewohnheiten abzuhängen.
+
+Das heißt nicht, Menschen als austauschbar zu behandeln oder individuelle Stärken zu ignorieren. Es heißt, dass die Kernfunktionen des Unternehmens nicht so eng an eine bestimmte Person gekoppelt sein sollten, dass ihr Verlust eine strukturelle Krise statt eines beherrschbaren Übergangs auslöst.
+
+## Praxisbeispiel
+
+Ein kleines Unternehmen hat sich immer auf einen Mitarbeiter verlassen, der „einfach weiß“, wie die Lieferantenbeziehungen funktionieren – ohne dass etwas dokumentiert wäre. Als dieser Mitarbeiter unerwartet geht, verliert das Unternehmen nicht nur eine Person, sondern die gesamte Funktion, weil die Rolle nie wirklich definiert war – sie existierte nur in seinem Kopf. Ein Unternehmen, das die Rolle für Lieferantenbeziehungen (wichtige Ansprechpartner, Verhandlungsmuster, Verlängerungsfristen) unabhängig von diesem Mitarbeiter dokumentiert hätte, hätte eine Nachfolge viel reibungsloser einarbeiten können.
+
+## Übungsquiz
+
+1. Was ist der Unterschied zwischen einer Rolle und der Person, die sie gerade ausfüllt?
+2. Warum schafft eine Struktur um bestimmte Personen Anfälligkeit?
+3. Bedeutet es, Rollen unabhängig zu definieren, Menschen als austauschbar zu behandeln?
+4. Was genau hat im Praxisbeispiel dazu geführt, dass das Unternehmen nach dem Weggang des Mitarbeiters in Schwierigkeiten geriet?
+
+## Lösungsschlüssel
+1. Eine Rolle ist ein definiertes Bündel von Aufgaben und Anforderungen; die Person ist, wer diese Rolle gerade innehat.
+2. Weil der Verlust genau dieser Person eine strukturelle Krise statt eines beherrschbaren Übergangs auslöst.
+3. Nein – es bedeutet, dass die Kernfunktionen des Unternehmens nicht vollständig vom undokumentierten Wissen einer Person abhängen sollten.
+4. Die Funktion Lieferantenbeziehungen existierte nur im Kopf dieses Mitarbeiters, ohne unabhängig von ihm dokumentiert zu sein.
+
+## Antworten und Erklärungen
+1. Diese Unterscheidung ist das Kernkonzept, das die Lektion für die Widerstandsfähigkeit einer Organisation einführt.
+2. Undokumentierte, personengebundene Funktionen schaffen einzelne Schwachstellen, an denen das ganze Unternehmen hängt.
+3. Die Lektion trennt die Definition von Rollen ausdrücklich davon, individuellen Wert oder Stärken zu missachten.
+4. Das veranschaulicht die praktischen Kosten, wenn man die Rolle nie von der Person trennt, die sie ausfüllt.
+
+## Wichtigste Erkenntnisse
+- Unterscheiden Sie die Rolle (definierte Aufgaben) von der Person, die sie gerade ausfüllt.
+- Eine Struktur um bestimmte Personen statt um definierte Rollen schafft Anfälligkeit und einzelne Schwachstellen.
+- Rollen unabhängig von Personen zu dokumentieren, macht ein Unternehmen widerstandsfähiger gegenüber Fluktuation und Übergängen.
+
+===== BLACK-L1-027
+TITLE: Kennzahlen festlegen, die auch ohne MBA nutzbar sind
+SUMMARY: Führt Leistungskennzahlen in einfachen, praktischen Worten für Führungskräfte ohne formale betriebswirtschaftliche Ausbildung ein.
+# Kennzahlen festlegen, die auch ohne MBA nutzbar sind
+
+## Lernziele
+- Eine Leistungskennzahl (KPI) in einfachen, praktischen Worten definieren
+- Die Eigenschaften einer nützlichen Kennzahl erkennen
+- Üben, eine einfache Kennzahl für ein schlichtes Unternehmensziel festzulegen
+
+## Kerninhalt
+
+KPI steht für Key Performance Indicator, also Leistungskennzahl – eine konkrete, nachverfolgbare Zahl, die zeigt, ob etwas Wichtiges gut läuft oder nicht. Das klingt nach Konzernjargon, aber die Grundidee ist einfach: Wählen Sie eine Zahl, die den Fortschritt auf ein Ziel hin tatsächlich widerspiegelt, und prüfen Sie sie regelmäßig, damit Sie wissen, ob Sie auf Kurs sind, ohne raten zu müssen.
+
+Eine nützliche Kennzahl ist konkret, messbar und direkt an etwas gebunden, das wirklich zählt. „Das Unternehmen wachsen lassen“ ist keine Kennzahl – es ist ein vager Wunsch. „Neukunden pro Monat“ oder „Abschlussquote von Angebot zu Auftrag“ sind Kennzahlen, weil es konkrete Zahlen sind, die sich verfolgen und über die Zeit vergleichen lassen.
+
+Der Fehler, den es zu vermeiden gilt: zu viele Kennzahlen auf einmal wählen oder solche, die leicht zu messen sind, aber nicht widerspiegeln, was zählt (eine „Eitelkeitskennzahl“ wie Follower in sozialen Medien, wenn das eigentliche Ziel Umsatz ist). Wenige Kennzahlen, die die tatsächliche Gesundheit des Unternehmens wirklich abbilden, sind nützlicher als ein Dashboard voller Zahlen, die mit nichts Wichtigem verbunden sind.
+
+## Praxisbeispiel
+
+Ein kleines Beratungsunternehmen möchte wachsen. Statt eines vagen Ziels wie „mehr Kunden gewinnen“ wählt die Inhaberin drei konkrete Kennzahlen: Anzahl neu versandter Angebote pro Monat, Abschlussquote von Angebot zu Auftrag und durchschnittlicher Umsatz pro Kunde. Diese drei Zahlen, monatlich verfolgt, zeigen ihr genau, wo sie ansetzen muss – wenn viele Angebote verschickt werden, die Abschlussquote aber niedrig ist, liegt das Problem im Verkaufsprozess, nicht in der Gewinnung von Interessenten. Das ist weit nützlicher als ein vages Gefühl wie „Das Geschäft läuft diesen Monat schleppend“.
+
+## Übungsquiz
+
+1. Definieren Sie KPI in einfachen Worten.
+2. Was macht laut dieser Lektion eine Kennzahl nützlich?
+3. Was ist eine „Eitelkeitskennzahl“, und warum ist es ein Fehler, sich auf sie zu verlassen?
+4. Legen Sie eine einfache Kennzahl für eine Bäckerei fest, die Lebensmittelabfälle verringern möchte.
+
+## Lösungsschlüssel
+1. Eine konkrete, nachverfolgbare Zahl, die zeigt, ob etwas Wichtiges gut läuft oder nicht.
+2. Konkret und messbar zu sein und direkt an etwas gebunden zu sein, das wirklich zählt.
+3. Eine Zahl, die leicht zu messen ist, aber nicht widerspiegelt, was für die eigentlichen Unternehmensziele zählt, etwa Follower statt Umsatz.
+4. Die Antworten variieren (Beispiel: „Anteil der zubereiteten Waren, die am Tagesende weggeworfen werden, wöchentlich erfasst.“)
+
+## Antworten und Erklärungen
+1. Das definiert KPI in verständlicher Sprache ohne Fachjargon.
+2. Konkretheit, Messbarkeit und Relevanz sind die drei Eigenschaften, die eine Kennzahl wirklich nützlich machen.
+3. Eitelkeitskennzahlen sehen gut aus, ohne zwingend die tatsächliche Gesundheit des Unternehmens abzubilden, was Entscheidungen in die Irre führen kann.
+4. Eine richtige Antwort wählt eine konkrete, nachverfolgbare Zahl, die direkt mit dem genannten Ziel (weniger Abfall) verbunden ist.
+
+## Wichtigste Erkenntnisse
+- Eine Kennzahl ist einfach eine konkrete, nachverfolgbare Zahl, die den Fortschritt auf etwas Wichtiges hin widerspiegelt.
+- Nützliche Kennzahlen sind konkret, messbar und direkt an echte Unternehmensziele gebunden – keine Eitelkeitskennzahlen.
+- Wenige aussagekräftige Kennzahlen sind besser als ein überladenes Dashboard voller Zahlen, die nicht mit dem verbunden sind, was wirklich zählt.
+
+===== BLACK-L1-028
+TITLE: Disziplin in Besprechungen
+SUMMARY: Zeigt, wie man Besprechungen leitet, die tatsächlich zu Entscheidungen führen, statt gemeinsame Zeit zu verschwenden.
+# Disziplin in Besprechungen
+
+## Lernziele
+- Erklären, warum schlecht geführte Besprechungen versteckte Kosten für eine Organisation sind
+- Die Bestandteile einer disziplinierten, wirksamen Besprechung erkennen
+- Üben, eine einfache Tagesordnung für eine Besprechung zu gestalten
+
+## Kerninhalt
+
+Besprechungen gehören zu den häufigsten Wegen, auf denen eine Organisation still und leise Zeit verschwendet, weil sich die Kosten auf viele Personen gleichzeitig verteilen und selten so erfasst werden wie ein Posten im Budget. Eine einstündige Besprechung mit sechs Personen kostet nicht eine Stunde – sie kostet sechs Stunden gemeinsamer Zeit, und wenn sie keine klare Entscheidung oder kein klares Ergebnis hervorbringt, ist diese Zeit im Grunde verloren, ohne dass etwas vorzuweisen ist.
+
+Eine disziplinierte Besprechung hat einen vorab genannten klaren Zweck (Entscheidung, Ideensammlung, Statusbericht – jeder erfordert ein anderes Format), eine konkrete Tagesordnung, damit die Teilnehmenden wissen, was behandelt wird, und endet mit klaren nächsten Schritten und Verantwortlichen, nicht nur mit dem vagen Gefühl, „das war ein gutes Gespräch“. Besprechungen ohne genannten Zweck neigen dazu abzuschweifen und behandeln, was gerade aufkommt, statt dessen, was tatsächlich eine Entscheidung braucht.
+
+Eine nützliche Disziplin: Fragen Sie vor der Planung einer Besprechung, ob sie wirklich eine Diskussion in Echtzeit erfordert oder ob dasselbe Ergebnis auch mit einer schriftlichen Information erreicht werden könnte. Nicht alles braucht eine Besprechung, und Besprechungen standardmäßig für Dinge anzusetzen, die keine brauchen, ist eine der häufigsten Quellen von Zeitverschwendung in Organisationen.
+
+## Praxisbeispiel
+
+Ein Team hat eine feste wöchentliche einstündige Besprechung, die größtenteils zu Statusberichten geworden ist, die man ebenso gut schriftlich teilen könnte. Eine Führungskraft gestaltet sie um: Statusberichte wandern in ein gemeinsames schriftliches Dokument, das jeder zeitversetzt liest, und die Besprechung schrumpft auf 20 Minuten, ausschließlich für Entscheidungen, die wirklich eine Diskussion in Echtzeit brauchen. Das Team gewinnt jede Woche 40 Minuten zurück, und die Besprechung selbst wird fokussierter und nützlicher, weil sie nicht mehr mit Inhalten aufgebläht ist, für die es keine Live-Diskussion brauchte.
+
+## Übungsquiz
+
+1. Warum gelten schlecht geführte Besprechungen als versteckte Kosten für eine Organisation?
+2. Nennen Sie die drei Bestandteile einer disziplinierten Besprechung.
+3. Welche Frage sollte man vor der Planung einer Besprechung stellen?
+4. Welche Änderung hat im Praxisbeispiel dem Team Zeit zurückgegeben, ohne dass etwas Wichtiges verloren ging?
+
+## Lösungsschlüssel
+1. Weil sich die Kosten mit der Zeit jedes Teilnehmenden vervielfachen und oft nicht so erfasst werden wie andere Kosten.
+2. Ein klar genannter Zweck, eine konkrete Tagesordnung und am Ende klare nächste Schritte mit Verantwortlichen.
+3. Erfordert das wirklich eine Diskussion in Echtzeit, oder ließe sich dasselbe Ergebnis mit einer schriftlichen Information erreichen?
+4. Statusberichte in ein gemeinsames schriftliches Dokument zu verlagern und die Besprechung auf die Punkte zu beschränken, die eine Diskussion in Echtzeit brauchen.
+
+## Antworten und Erklärungen
+1. Die Vervielfachung der Zeitkosten über alle Teilnehmenden macht Besprechungen zu einem größeren Kostenfaktor, als es scheint.
+2. Diese drei Elemente richten eine Besprechung darauf aus, ein tatsächliches Ergebnis statt bloßer Diskussion hervorzubringen.
+3. Diese Frage filtert Besprechungen heraus, die nicht wirklich gemeinsame Echtzeit erfordern.
+4. Dieses Beispiel zeigt eine praktische Anwendung des Filters „Braucht das eine Besprechung?“.
+
+## Wichtigste Erkenntnisse
+- Die Zeitkosten einer Besprechung vervielfachen sich mit jedem Teilnehmenden, was schlecht geführte Besprechungen zu erheblichen versteckten Kosten macht.
+- Disziplinierte Besprechungen haben einen klaren Zweck, eine konkrete Tagesordnung und enden mit klaren nächsten Schritten und Verantwortlichen.
+- Fragen Sie vor der Planung einer Besprechung, ob sie wirklich eine Diskussion in Echtzeit erfordert oder ob eine schriftliche Information genügt.
+
+===== BLACK-L1-029
+TITLE: Grundlagen der Ressourcenverteilung
+SUMMARY: Führt in die Führungsdisziplin ein, zu entscheiden, wohin begrenzte Zeit, begrenztes Geld und begrenzte Personalkapazität fließen sollen.
+# Grundlagen der Ressourcenverteilung
+
+## Lernziele
+- Erklären, warum Ressourcenverteilung eine zentrale Führungsverantwortung ist
+- Die Abwägung erkennen, die jede Verteilungsentscheidung mit sich bringt
+- Üben, begrenzte Ressourcen auf konkurrierende Bedürfnisse zu verteilen
+
+## Kerninhalt
+
+Jede Organisation, unabhängig von ihrer Größe, hat begrenzte Zeit, begrenztes Geld und begrenzte Personalkapazität – und zu entscheiden, wohin diese begrenzten Ressourcen fließen, ist eine der folgenreichsten und beständigsten Aufgaben einer Führungskraft. Jeder Euro und jede Stunde, die in eine Priorität fließen, stehen per Definition für eine andere nicht zur Verfügung. Ressourcenverteilung ist also im Grunde eine Reihe von Abwägungsentscheidungen, ob eine Führungskraft sie ausdrücklich so betrachtet oder nicht.
+
+Gute Ressourcenverteilung beginnt mit Klarheit über Prioritäten – was gerade wirklich am wichtigsten ist, gemessen an den tatsächlichen Zielen des Unternehmens, nicht nur an dem, was sich im Moment am dringendsten anfühlt. Dringend und wichtig sind nicht dasselbe, und eine Führungskraft, die rein danach verteilt, was am lautesten oder neuesten ist, vernachlässigt oft Dinge, die still und leise wichtiger sind.
+
+Eine einfache Disziplin: Fragen Sie, bevor Sie eine knappe Ressource zuteilen, worauf Sie verzichten, wenn Sie sie hier statt woanders einsetzen. Diese Abwägung ausdrücklich zu machen, statt sie ungeprüft zu lassen, führt zu bewussteren, besser begründbaren Entscheidungen.
+
+## Praxisbeispiel
+
+Ein Kleinunternehmer hat ein begrenztes Marketingbudget und muss zwischen einer bezahlten Werbekampagne und der Investition desselben Geldes in die Verbesserung des Produkts aufgrund jüngster Kundenbeschwerden wählen. Die laute, dringende Option ist mehr Werbung, um neue Kunden zu gewinnen. Die leisere, wohl wichtigere Option ist, das Produktproblem zu beheben, das bereits gewonnene Kunden vertreibt. Eine Führungskraft, die die Abwägung ausdrücklich bedenkt – „Wenn ich das Geld für Werbung statt für die Behebung des Produktproblems ausgebe, entscheide ich mich für die Gewinnung neuer Kunden statt für die Bindung derer, die ich schon habe“ –, trifft eine bewusstere Wahl als eine, die automatisch die Option wählt, die sich am dringendsten anfühlt.
+
+## Übungsquiz
+
+1. Warum ist Ressourcenverteilung eine ständige Führungsverantwortung?
+2. Welche Abwägung bringt jede Verteilungsentscheidung mit sich?
+3. Warum ist es ein Fehler, rein danach zu verteilen, was sich am dringendsten anfühlt?
+4. Welche Disziplin schlägt diese Lektion vor, bevor man eine knappe Ressource zuteilt?
+
+## Lösungsschlüssel
+1. Weil Ressourcen immer begrenzt sind und die Entscheidung, wohin sie fließen, eine fortlaufende, folgenreiche Entscheidung ist.
+2. Was man in einem Bereich gewinnt, ist per Definition das, was man nicht für einen anderen ausgibt.
+3. Weil dringend und wichtig nicht dasselbe sind und still wichtige Prioritäten vernachlässigt werden können.
+4. Ausdrücklich fragen, worauf man verzichtet, wenn man die Ressource hier statt woanders einsetzt.
+
+## Antworten und Erklärungen
+1. Begrenzte Ressourcen machen die Verteilung zu einer wiederkehrenden, unvermeidlichen Führungsaufgabe.
+2. Diese Betrachtung als Abwägung ist die zentrale Perspektive, die die Lektion auf Ressourcenentscheidungen anwendet.
+3. Laute Dringlichkeit kann leisere, aber folgenreichere Prioritäten verdrängen, wenn die Verteilung nicht bewusst erfolgt.
+4. Diese ausdrückliche Abwägungsfrage ist die praktische Disziplin, die die Lektion konsequent anzuwenden empfiehlt.
+
+## Wichtigste Erkenntnisse
+- Ressourcenverteilung ist eine ständige Führungsverantwortung, da Zeit, Geld und Personalkapazität immer begrenzt sind.
+- Jede Verteilungsentscheidung ist eine Abwägung – was hier ausgegeben wird, fehlt anderswo.
+- Ausdrücklich zu fragen, worauf man verzichtet, führt zu bewussteren, besser begründbaren Verteilungsentscheidungen.
+
+===== BLACK-L1-030
+TITLE: Grundlagen der Konfliktlösung
+SUMMARY: Führt in ein einfaches Vorgehen ein, um Konflikte zwischen Teammitgliedern konstruktiv zu lösen.
+# Grundlagen der Konfliktlösung
+
+## Lernziele
+- Erklären, warum ungelöste Konflikte mehr kosten als das Unbehagen, sie anzusprechen
+- Die grundlegenden Schritte konstruktiver Konfliktlösung erkennen
+- Üben, einen einfachen Konflikt zwischen zwei Personen zu moderieren
+
+## Kerninhalt
+
+Konflikte zwischen Teammitgliedern sind in jeder Gruppe von Menschen, die eng zusammenarbeiten, normal und unvermeidlich. Der Fehler vieler Führungskräfte besteht darin, ihnen aus dem Weg zu gehen und zu hoffen, dass sie sich von selbst erledigen. Ungelöste Konflikte verschwinden selten – meist schwelen sie weiter und beeinträchtigen Stimmung, Zusammenarbeit und schließlich die Leistung, oft auf eine Weise, die schwerer zu beheben ist, als es die ursprüngliche Meinungsverschiedenheit gewesen wäre.
+
+Ein einfaches konstruktives Vorgehen: Hören Sie zunächst beide Seiten getrennt an, ohne vorschnell anzunehmen, wer recht hat, bevor Sie das ganze Bild kennen; ermitteln Sie das eigentliche zugrunde liegende Problem, das sich oft von der vordergründigen Beschwerde unterscheidet; und moderieren Sie ein Gespräch, das sich auf einen Weg nach vorn konzentriert, statt erneut zu verhandeln, wer genau mehr Schuld trägt.
+
+Die Rolle der Führungskraft besteht nicht unbedingt darin zu entscheiden, wer recht hat, sondern beiden zu helfen, von einer festgefahrenen, gegnerischen Haltung zu einer tragfähigen Lösung zu kommen – ähnlich der Unterscheidung zwischen Interessen und Positionen aus der Lektion über Verhandlungen, hier angewandt auf einen zwischenmenschlichen Konflikt statt auf ein Geschäft.
+
+## Praxisbeispiel
+
+Zwei Teammitglieder stehen in anhaltender Spannung darüber, wie ein gemeinsames Projekt angegangen werden soll – eine fühlt sich vom anderen ausgebremst, der andere fühlt sich gehetzt und nicht unterstützt. Eine Führungskraft, die dem Konflikt ausweicht, lässt zu, dass er weiter die Stimmung im ganzen Team belastet. Eine Führungskraft, die konstruktive Konfliktlösung anwendet, hört zuerst jede Person getrennt an, stellt fest, dass das eigentliche Problem unklare Zuständigkeiten für bestimmte Aufgaben sind (und nicht einfach unvereinbare Persönlichkeiten), und moderiert ein Gespräch, um die Zuständigkeiten künftig zu klären – und löst damit die tatsächliche Ursache, statt beiden nur zu sagen, sie sollten „sich vertragen“.
+
+## Übungsquiz
+
+1. Warum wird ein ungelöster Konflikt oft teurer, als ihn direkt anzugehen?
+2. Nennen Sie die drei grundlegenden Schritte konstruktiver Konfliktlösung, die diese Lektion beschreibt.
+3. Ist es zwingend die Rolle der Führungskraft, in einem Konflikt zu entscheiden, wer recht hat?
+4. Was war im Praxisbeispiel das eigentliche Problem hinter der vordergründigen Spannung?
+
+## Lösungsschlüssel
+1. Weil er weiter schwelt und Stimmung und Leistung auf eine Weise beeinträchtigt, die oft schwerer zu beheben ist als die ursprüngliche Meinungsverschiedenheit.
+2. Beide Seiten getrennt anhören, das eigentliche zugrunde liegende Problem ermitteln, ein Gespräch moderieren, das sich auf einen Weg nach vorn konzentriert.
+3. Nein – die Rolle besteht darin, beiden zu einer tragfähigen Lösung zu verhelfen, nicht zwingend darin, Schuld zuzuweisen.
+4. Unklare Zuständigkeiten für Aufgaben, nicht einfach unvereinbare Persönlichkeiten, wie es die vordergründige Darstellung nahegelegt hatte.
+
+## Antworten und Erklärungen
+1. Ausweichen beseitigt Konflikte nicht – es erhöht ihre Kosten in der Regel mit der Zeit.
+2. Diese dreistufige Struktur bietet einen praktischen Rahmen für konstruktive Konfliktlösung.
+3. Das lenkt die Rolle der Führungskraft weg vom Urteilen hin zum Moderieren.
+4. Das zeigt, wie das Aufdecken des eigentlichen Problems zu einer wirksameren, dauerhaften Lösung führte.
+
+## Wichtigste Erkenntnisse
+- Ungelöste Konflikte schwelen meist weiter und kosten mehr, als es ihre direkte Klärung getan hätte.
+- Konstruktive Konfliktlösung bedeutet, beide Seiten anzuhören, das eigentliche Problem zu ermitteln und einen Weg nach vorn zu moderieren.
+- Die Rolle einer Führungskraft im Konflikt ist oft die Moderation hin zu einer Lösung, nicht zwingend die Entscheidung, wer recht hatte.
