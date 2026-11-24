@@ -1,0 +1,399 @@
+===== PURPLE-L1-006
+TITLE: Wanprestatie: wat er gebeurt als iemand zijn verplichtingen niet nakomt
+SUMMARY: Introduceert het begrip wanprestatie (contractbreuk) en de algemene soorten rechtsmiddelen die beschikbaar zijn als één partij haar deel van de afspraak niet nakomt.
+# Wanprestatie: wat er gebeurt als iemand zijn verplichtingen niet nakomt
+
+## Leerdoelen
+
+- Wanprestatie (in het Engels "breach of contract") definiëren.
+- De algemene soorten rechtsmiddelen bij wanprestatie benoemen.
+- Wanprestatie herkennen als een voorzienbaar bedrijfsrisico, geen ongewone gebeurtenis.
+
+## Kerninhoud
+
+Wanprestatie doet zich voor wanneer een partij haar verplichtingen uit een afdwingbare overeenkomst niet nakomt: een betaling missen, een pand niet leveren, afgesproken werk niet afmaken. Als er wanprestatie optreedt, heeft de partij die wel nakomt in het algemeen juridische rechtsmiddelen tot haar beschikking, al hangen de precieze mogelijkheden af van de overeenkomst en het rechtsstelsel.
+
+Veelvoorkomende soorten rechtsmiddelen zijn: schadevergoeding in geld (compensatie voor het financiële verlies dat door de wanprestatie is veroorzaakt), nakoming (een rechterlijk bevel dat de partij die tekortschiet verplicht om werkelijk te doen wat zij heeft beloofd; dit komt vaker voor bij vastgoed, omdat het pand zelf uniek is) en ontbinding van de overeenkomst (waardoor de partij die wel nakomt wordt bevrijd van haar eigen resterende verplichtingen). Begrijpen dat wanprestatie een voorzienbaar, ingepland risico is – geen ongewone ramp – hoort bij volwassen contractgeletterdheid: goed opgestelde overeenkomsten leggen vaak vooraf vast wat er gebeurt als een van beide partijen tekortschiet, en daarom is een zorgvuldige controle van een overeenkomst belangrijk vóór het tekenen, niet pas als er iets misgaat. (In Nederland en België is nakoming in beginsel een algemeen beschikbaar rechtsmiddel, niet alleen bij vastgoed; laat de details door een professional controleren.)
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een koper tekent een overeenkomst om een bepaald pand te kopen, waarna de verkoper zich terugtrekt en het aan iemand anders verkoopt. Welk rechtsmiddel kan hier bijzonder relevant zijn, gezien het feit dat het pand uniek is?
+
+**Cursist:** Volgens deze les kan nakoming relevant zijn, omdat een rechter mogelijk de voltooiing van de verkoop kan bevelen in plaats van alleen geld toe te kennen.
+
+**Begeleider:** Waarom zou nakoming logischer zijn bij een uniek pand dan bijvoorbeeld bij een standaardproduct?
+
+**Cursist:** Omdat het pand zelf uniek is: geld alleen vervangt misschien niet echt wat de koper specifiek wilde, anders dan bij een standaardproduct dat gewoon ergens anders opnieuw kan worden gekocht.
+
+**Begeleider:** Precies: daarom komt nakoming vooral vaak voor bij geschillen over vastgoedovereenkomsten.
+
+## Oefenquiz
+
+**Vraag 1.** Wanprestatie doet zich voor wanneer:
+
+A) Beide partijen afspreken de deal te annuleren
+B) Een partij haar verplichtingen uit de overeenkomst niet nakomt
+C) Een overeenkomst wordt getekend
+D) Er nooit een afspraak tot stand is gekomen
+
+**Vraag 2.** Schadevergoeding in geld is:
+
+A) Nooit beschikbaar als rechtsmiddel
+B) Compensatie voor het financiële verlies dat door wanprestatie is veroorzaakt
+C) Alleen relevant voor strafzaken
+D) Hetzelfde als nakoming
+
+**Vraag 3.** Nakoming is:
+
+A) Een rechterlijk bevel om te voltooien wat was beloofd
+B) Altijd hetzelfde als schadevergoeding in geld
+C) Nooit gebruikt bij vastgoed
+D) Irrelevant voor het overeenkomstenrecht
+
+**Vraag 4.** Waarom wordt wanprestatie beschreven als een "voorzienbaar, ingepland risico" in plaats van een ongewone ramp?
+
+A) Wanprestatie komt in werkelijkheid nooit voor
+B) Goed opgestelde overeenkomsten leggen vaak vooraf vast wat er gebeurt als een van beide partijen tekortschiet
+C) Overeenkomsten gaan nooit op deze mogelijkheid in
+D) Deze voorstelling is onjuist
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. A, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Wanprestatie is specifiek het niet nakomen van verplichtingen die juridisch zijn afgesproken.
+
+**2.** Schadevergoeding is erop gericht de partij die wel nakomt financieel schadeloos te stellen voor haar verlies.
+
+**3.** Nakoming is vooral relevant wanneer het onderwerp, zoals een uniek pand, niet simpelweg door geld kan worden vervangen.
+
+**4.** Volwassen overeenkomsten anticiperen op wanprestatie en leggen de gevolgen vooraf vast, als een reële mogelijkheid om op in te spelen.
+
+## Belangrijkste punten
+
+- Wanprestatie doet zich voor wanneer een partij haar contractuele verplichtingen niet nakomt.
+- Rechtsmiddelen zijn onder meer schadevergoeding in geld, nakoming en ontbinding van de overeenkomst.
+- Nakoming is vooral relevant voor unieke bezittingen zoals vastgoed.
+- Wanprestatie is een voorzienbaar risico waarop goed opgestelde overeenkomsten vooraf inspelen.
+
+===== PURPLE-L1-007
+TITLE: Een overeenkomst lezen: een praktische doorloop
+SUMMARY: Biedt een praktisch kader om een onbekende overeenkomst te benaderen en maakt die minder intimiderend door haar op te delen in hanteerbare onderdelen.
+# Een overeenkomst lezen: een praktische doorloop
+
+## Leerdoelen
+
+- De gebruikelijke onderdelen van de meeste overeenkomsten benoemen.
+- Een praktische, stapsgewijze aanpak toepassen bij het lezen van een onbekende overeenkomst.
+- Herkennen welke onderdelen de meeste aandacht verdienen.
+
+## Kerninhoud
+
+De meeste overeenkomsten, hoe lang en intimiderend ook, hebben een gemeenschappelijke algemene structuur: partijen (wie erbij betrokken zijn), overwegingen (achtergrond en context, vaak beginnend met "overwegende dat"), voorwaarden (de eigenlijke verplichtingen: prijs, timing, wat elke kant moet doen), verklaringen en garanties (uitspraken die elke partij doet over feiten, zoals eigendom of bevoegdheid om te tekenen), tekortkoming en rechtsmiddelen (wat er gebeurt als iemand niet nakomt, in lijn met de vorige les) en handtekeningen (de formele ondertekening).
+
+Een praktische aanpak om een onbekende overeenkomst te lezen: stel eerst vast wie de partijen werkelijk zijn en wat elk van hen belooft te doen. Zoek daarna de kernvoorwaarden – prijs, data, te leveren prestaties – omdat die het meeste directe praktische gewicht hebben. Let vervolgens goed op het onderdeel over tekortkoming en rechtsmiddelen, want daar lees je wat er werkelijk gebeurt als er iets misgaat. Noteer tot slot alles wat ongewoon, eenzijdig of onduidelijk aanvoelt, en leg het voor aan een professional in plaats van naar de betekenis te raden. Deze gestructureerde aanpak verandert een intimiderende muur van tekst in een hanteerbare checklist.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Iemand krijgt een overeenkomst van 20 pagina's en voelt zich overweldigd, zonder te weten waar te beginnen. Welke aanpak zou deze les als startpunt voorstellen?
+
+**Cursist:** Volgens deze les begin je met vaststellen wie de partijen zijn en wat elk van hen werkelijk belooft, in plaats van te proberen het hele document in één keer te verwerken.
+
+**Begeleider:** Wat is daarna het volgende belangrijkste om naar te zoeken?
+
+**Cursist:** De kernvoorwaarden – prijs, data, te leveren prestaties –, omdat die het meeste directe praktische gewicht hebben, en dan het onderdeel over tekortkoming en rechtsmiddelen, voor wat er gebeurt als er iets misgaat.
+
+**Begeleider:** Precies: door het in die volgorde op te delen, wordt een intimiderend document een hanteerbare checklist.
+
+## Oefenquiz
+
+**Vraag 1.** Gebruikelijke onderdelen van de meeste overeenkomsten zijn:
+
+A) Partijen, voorwaarden, verklaringen, tekortkoming/rechtsmiddelen, handtekeningen
+B) Slechts één alinea
+C) Helemaal geen herkenbare structuur
+D) Alleen een prijs en een datum
+
+**Vraag 2.** Het onderdeel "verklaringen en garanties" bevat in het algemeen:
+
+A) Willekeurige, niet-gerelateerde informatie
+B) Uitspraken die elke partij doet over feiten, zoals eigendom of bevoegdheid
+C) Alleen de titel van de overeenkomst
+D) De handtekeningen
+
+**Vraag 3.** Een praktische eerste stap bij het lezen van een onbekende overeenkomst is:
+
+A) Meteen naar de handtekeningpagina gaan
+B) Vaststellen wie de partijen zijn en wat elk van hen belooft te doen
+C) Het document helemaal negeren
+D) Alleen de laatste alinea lezen
+
+**Vraag 4.** Wat moet je doen met alles wat in een overeenkomst ongewoon, eenzijdig of onduidelijk is?
+
+A) Het negeren en toch tekenen
+B) Het voorleggen aan een professional in plaats van naar de betekenis te raden
+C) Ervan uitgaan dat het een tikfout is
+D) Dat onderdeel eenzijdig schrappen
+
+## Antwoordsleutel
+
+1. A, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Deze algemene structuur keert terug in de meeste overeenkomsten, ongeacht lengte of onderwerp.
+
+**2.** Verklaringen en garanties zijn feitelijke toezeggingen van elke partij, die ertoe doen als ze later onjuist blijken.
+
+**3.** Begrijpen wie erbij betrokken is en wat er wordt beloofd, is het natuurlijke startpunt om de rest te kunnen plaatsen.
+
+**4.** Onduidelijke of ongewone voorwaarden voorleggen voor professionele controle, in plaats van te raden, is de verantwoorde aanpak.
+
+## Belangrijkste punten
+
+- De meeste overeenkomsten hebben een gemeenschappelijke structuur: partijen, voorwaarden, verklaringen, tekortkoming/rechtsmiddelen, handtekeningen.
+- Een praktische leesaanpak: eerst de partijen, dan de kernvoorwaarden, dan tekortkoming/rechtsmiddelen, en markeer alles wat onduidelijk is.
+- Deze gestructureerde aanpak maakt lange, onbekende documenten minder intimiderend.
+- Ongewone of onduidelijke voorwaarden moeten worden voorgelegd voor professionele controle, niet geraden.
+
+===== PURPLE-L1-008
+TITLE: Onrechtmatige daad en overeenkomst: twee soorten juridische vorderingen
+SUMMARY: Onderscheidt het recht van de onrechtmatige daad (civiele onrechtmatigheden buiten een overeenkomst om) van het overeenkomstenrecht en geeft cursisten een duidelijkere kaart van het bredere civiele rechtslandschap.
+# Onrechtmatige daad en overeenkomst: twee soorten juridische vorderingen
+
+## Leerdoelen
+
+- Een onrechtmatige daad (in het Engels "tort") in eenvoudige woorden definiëren.
+- Vorderingen uit onrechtmatige daad onderscheiden van vorderingen uit overeenkomst.
+- Voorbeelden benoemen die relevant zijn voor RED, WHITE en BLUE.
+
+## Kerninhoud
+
+Een onrechtmatige daad is een civiele onrechtmatigheid die een ander schade toebrengt, los van een eventuele overeenkomst tussen hen: nalatigheid, zaakschade of smaad zijn veelvoorkomende voorbeelden. Dit verschilt van een contractgeschil, dat ontstaat uit een gebroken belofte tussen partijen die een afspraak hadden. Een onrechtmatige daad kan zich voordoen tussen mensen die nooit een overeenkomst hebben gehad: als het slordige werk van een aannemer een naburig pand beschadigt, is dat een vordering uit onrechtmatige daad, geen vordering uit overeenkomst, als de buurman en de aannemer geen afspraak met elkaar hadden.
+
+Dit onderscheid is in de praktijk belangrijk in dit hele lesprogramma: een eigenaar van vastgoed (RED) kan op grond van onrechtmatige daad worden aangesproken als onveilige omstandigheden op zijn terrein iemand verwonden, los van een huur- of koopovereenkomst. Een ondernemer (BLUE) kan aansprakelijk zijn op grond van onrechtmatige daad voor schade die door een product of een onvoorzichtige werknemer is veroorzaakt, los van een overeenkomst met een klant. Begrijpen dat juridisch risico niet beperkt is tot gebroken beloften – dat schade buiten een afspraak om ook aansprakelijkheid kan scheppen – is een belangrijke uitbreiding van juridische geletterdheid voorbij alleen overeenkomsten.
+
+## Praktijkvoorbeeld
+
+**Vraag:** De slecht onderhouden trap van een vastgoedeigenaar verwondt een bezorger die helemaal geen overeenkomst met de eigenaar heeft. Welk soort juridische vordering is dit waarschijnlijk?
+
+**Cursist:** Volgens deze les klinkt dit als een vordering uit onrechtmatige daad, omdat er geen overeenkomst is tussen de eigenaar en de bezorger: de schade bestaat los van een afspraak.
+
+**Begeleider:** Waarom doet het ontbreken van een overeenkomst hier ertoe?
+
+**Cursist:** Omdat het laat zien dat juridische aansprakelijkheid niet beperkt is tot gebroken beloften tussen contractpartijen: schade buiten een afspraak om kan ook juridische blootstelling scheppen.
+
+**Begeleider:** Precies: daarom moeten vastgoedeigenaren nadenken over het risico van onrechtmatige daad, niet alleen over contractrisico.
+
+## Oefenquiz
+
+**Vraag 1.** Een onrechtmatige daad is:
+
+A) Een soort overeenkomst
+B) Een civiele onrechtmatigheid die schade veroorzaakt, los van een overeenkomst
+C) Alleen relevant voor het strafrecht
+D) Hetzelfde als wanprestatie
+
+**Vraag 2.** Hoe verschilt een vordering uit onrechtmatige daad van een vordering uit overeenkomst?
+
+A) Ze zijn identiek
+B) Een onrechtmatige daad kan zich voordoen tussen partijen die helemaal geen overeenkomst met elkaar hebben
+C) Onrechtmatige daad geldt alleen voor bedrijven
+D) Bij overeenkomsten is nooit echte schade betrokken
+
+**Vraag 3.** Onveilige omstandigheden bij een vastgoedeigenaar die een bezoeker zonder overeenkomst met de eigenaar verwonden, zijn een voorbeeld van:
+
+A) Een contractgeschil
+B) Een mogelijke vordering uit onrechtmatige daad
+C) Noch een kwestie van onrechtmatige daad, noch van overeenkomst
+D) Alleen een strafzaak
+
+**Vraag 4.** Waarom is dit onderscheid belangrijk voor wie actief is in RED en BLUE?
+
+A) Het doet er helemaal niet toe
+B) Juridisch risico is niet beperkt tot gebroken beloften: schade buiten een afspraak om kan ook aansprakelijkheid scheppen
+C) Alleen contractrisico is ooit relevant
+D) Onrechtmatige daad geldt alleen voor WHITE
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Bij onrechtmatige daad gaat het in de kern om het veroorzaken van schade, niet om gebroken afspraken.
+
+**2.** Het ontbreken van een overeenkomst is precies wat veel situaties van onrechtmatige daad onderscheidt van contractgeschillen.
+
+**3.** Deze situatie is een klassieke illustratie van aansprakelijkheid uit onrechtmatige daad zonder enige contractuele relatie.
+
+**4.** Dit bredere aansprakelijkheidslandschap herkennen maakt het beeld van juridisch risico voor vastgoed- en bedrijfseigenaren vollediger.
+
+## Belangrijkste punten
+
+- Een onrechtmatige daad is een civiele onrechtmatigheid die schade veroorzaakt, iets anders dan een gebroken overeenkomst.
+- Een onrechtmatige daad kan zich voordoen, zelfs tussen partijen zonder enige overeenkomst.
+- Vastgoedeigenaren en ondernemers lopen risico op aansprakelijkheid uit onrechtmatige daad, los van elk contractrisico.
+- Juridische geletterdheid omvat begrip van aansprakelijkheid op basis van schade, niet alleen op basis van afspraken.
+
+===== PURPLE-L1-009
+TITLE: Burgerlijk recht en strafrecht: waarom het onderscheid ertoe doet
+SUMMARY: Verduidelijkt het fundamentele onderscheid tussen burgerlijk recht en strafrecht, en waarom dit lesprogramma zich bijna volledig op de civiele kant richt.
+# Burgerlijk recht en strafrecht: waarom het onderscheid ertoe doet
+
+## Leerdoelen
+
+- Burgerlijk recht onderscheiden van strafrecht.
+- De verschillende gevolgen en bewijsmaatstaven uitleggen.
+- Herkennen waarom het bereik van PURPLE vooral civiel is, niet strafrechtelijk.
+
+## Kerninhoud
+
+Het burgerlijk (civiel) recht regelt geschillen tussen private partijen – wanprestatie, onrechtmatige daad, eigendomsgeschillen –, waarbij het gebruikelijke rechtsmiddel geld of een rechterlijk bevel is, geen gevangenisstraf. Het strafrecht regelt strafbare feiten tegen de samenleving zelf, vervolgd door de overheid, waarbij de mogelijke gevolgen boetes en gevangenisstraf omvatten. De twee systemen verschillen ook in bewijsmaatstaf: in strafzaken is in veel landen bewijs "buiten redelijke twijfel" nodig, een zeer hoge maatstaf, terwijl civiele zaken doorgaans een lagere maatstaf hanteren, vaak "aannemelijkheid op basis van het overwicht van het bewijs" (waarschijnlijker wel dan niet). (In Nederland spreekt men in het strafrecht van "wettig en overtuigend bewezen"; de terminologie verschilt per land, maar het principe van een hogere drempel in strafzaken is vergelijkbaar.)
+
+Bijna alles wat in dit PURPLE-traject aan bod komt – overeenkomsten, vastgoedrecht, effectentoezicht, ondernemingsvormen – valt aan de civiele kant van dit onderscheid. Dat is bewust: de juridische risico's die het meest direct relevant zijn voor vermogensopbouw via vastgoed, beleggen en ondernemen zijn civiele risico's (aangeklaagd worden, een deal verliezen, toezichtsboetes krijgen), geen strafrechtelijke risico's. Strafrecht doet ertoe, maar het is een ander, meer gespecialiseerd gebied, en ernstige strafrechtelijke blootstelling is precies het soort situatie dat om onmiddellijke, toegewijde juridische bijstand vraagt in plaats van algemene geletterdheid.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een ondernemer wordt door een voormalige klant aangeklaagd vanwege een contractgeschil. Is dit een civiele zaak of een strafzaak, en waarom doet het onderscheid er in de praktijk toe?
+
+**Cursist:** Volgens deze les is dat een civiele zaak: een privaat geschil over een overeenkomst, geen strafbaar feit dat door de overheid wordt vervolgd.
+
+**Begeleider:** Hoe beïnvloedt dat wat er voor de ondernemer werkelijk op het spel staat?
+
+**Cursist:** Het gebruikelijke gevolg zou geld of een rechterlijk bevel zijn, geen gevangenisstraf, en de bewijsmaatstaf waaraan de klant moet voldoen is lager dan de maatstaf "buiten redelijke twijfel" van een strafzaak.
+
+**Begeleider:** Precies: begrijpen in welk systeem je zit, verandert wat er realistisch op het spel staat en welke maatstaf geldt.
+
+## Oefenquiz
+
+**Vraag 1.** Het burgerlijk recht regelt in het algemeen:
+
+A) Strafbare feiten tegen de samenleving, vervolgd door de overheid
+B) Geschillen tussen private partijen, doorgaans opgelost met geld of rechterlijke bevelen
+C) Alleen strafzaken
+D) Helemaal geen echte juridische geschillen
+
+**Vraag 2.** De bewijsmaatstaf in het strafrecht is doorgaans:
+
+A) Lager dan de civiele maatstaf
+B) "Buiten redelijke twijfel", een zeer hoge maatstaf
+C) Identiek aan de civiele maatstaf
+D) In geen enkel rechtssysteem van toepassing
+
+**Vraag 3.** Het grootste deel van wat PURPLE behandelt, valt onder:
+
+A) Strafrecht
+B) Burgerlijk recht
+C) Noch burgerlijk recht, noch strafrecht
+D) Alleen internationaal recht
+
+**Vraag 4.** Waarom richt dit traject zich vooral op het burgerlijk recht?
+
+A) Strafrecht is voor iedereen irrelevant
+B) De juridische risico's die het meest relevant zijn voor vermogensopbouw via RED, WHITE en BLUE zijn civiele risico's
+C) Burgerlijk recht bestaat eigenlijk niet
+D) Er wordt geen betekenisvolle reden gegeven
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Het burgerlijk recht behandelt private geschillen met rechtsmiddelen die doorgaans beperkt zijn tot geld of rechterlijke bevelen, geen vrijheidsbeneming.
+
+**2.** De hogere strafrechtelijke maatstaf weerspiegelt de ernst van de mogelijke gevolgen, waaronder verlies van vrijheid.
+
+**3.** Overeenkomsten, eigendom, effecten en ondernemingsvormen – de kerninhoud van dit traject – zijn allemaal onderwerpen van burgerlijk recht.
+
+**4.** Omdat civiel risico vermogensopbouw het meest direct bedreigt, hoort de focus van dit traject op geletterdheid daar te liggen.
+
+## Belangrijkste punten
+
+- Het burgerlijk recht regelt private geschillen; het strafrecht regelt strafbare feiten tegen de samenleving.
+- De bewijsmaatstaf in het strafrecht is veel hoger dan in het burgerlijk recht.
+- PURPLE richt zich bijna volledig op het burgerlijk recht, dat rechtstreeks relevant is voor RED, WHITE en BLUE.
+- Ernstige strafrechtelijke blootstelling vraagt om onmiddellijke, toegewijde juridische bijstand, buiten het bereik van dit traject.
+
+===== PURPLE-L1-010
+TITLE: De doktersvergelijking opnieuw bekeken: wanneer je een advocaat inschakelt
+SUMMARY: Past de vaste doktersvergelijking van het lesprogramma specifiek toe op juridische situaties en geeft cursisten concrete signalen voor wanneer professionele juridische hulp nodig is.
+# De doktersvergelijking opnieuw bekeken: wanneer je een advocaat inschakelt
+
+## Leerdoelen
+
+- De doktersvergelijking in herinnering brengen en specifiek toepassen op juridische beslissingen.
+- Concrete signalen benoemen dat een situatie om een advocaat vraagt.
+- Versterken dat juridische geletterdheid en juridische bijstand elkaar aanvullen en niet vervangen.
+
+## Kerninhoud
+
+Dit lesprogramma heeft de doktersvergelijking herhaaldelijk gebruikt: wanneer iets complex, belangrijk of onzeker is, is het honorarium van een professional een verzekering tegen een veel groter nadeel, niet zomaar een kostenpost om te vermijden. Nergens geldt dit directer dan in het recht. Juridische fouten – een slecht opgestelde overeenkomst, een gemiste informatieplicht, een onjuist opgerichte onderneming – kunnen achteraf buitengewoon duur zijn om te herstellen, veel duurder dan de kosten om het vooraf goed te doen.
+
+Concrete signalen dat een situatie om een advocaat vraagt, zijn onder meer: elke transactie waarbij veel geld is betrokken (een vastgoedaankoop, de verkoop van een bedrijf), elk document dat je niet volledig begrijpt voordat je tekent, het oprichten of herstructureren van een onderneming, een daadwerkelijk geschil of een rechtszaak, en elke situatie waarin de "standaard" aanpak niet goed past bij jouw specifieke feiten. Net als in eerdere lessen over dit thema is het doel van PURPLE niet om je je eigen advocaat te maken, maar om je een scherpere, beter geïnformeerde cliënt te maken: iemand die betere vragen kan stellen, het advies dat hij krijgt begrijpt en vroeg herkent wanneer een situatie het terrein van professionele hulp is binnengegaan.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Iemand stelt zelf een koopovereenkomst voor vastgoed op met een sjabloon dat online is gevonden, voor een aankoop van een flink zescijferig bedrag, zonder enige juridische controle. Wat zegt deze les over die aanpak?
+
+**Cursist:** Volgens deze les is een transactie met zoveel geld precies het soort situatie dat om professionele juridische controle vraagt, niet alleen om een algemeen sjabloon.
+
+**Begeleider:** Welke echte kostenvergelijking wordt hier gemaakt?
+
+**Cursist:** De kosten van een controle door een advocaat vooraf tegenover de mogelijk veel hogere kosten van een juridische fout die later wordt ontdekt, als er al echt geld en een echt pand mee gemoeid zijn.
+
+**Begeleider:** Precies: dat is de doktersvergelijking rechtstreeks toegepast op deze situatie.
+
+## Oefenquiz
+
+**Vraag 1.** De doktersvergelijking toegepast op het recht suggereert:
+
+A) Schakel nooit een advocaat in
+B) Het honorarium van een advocaat is een verzekering tegen een mogelijk veel groter nadeel
+C) Alleen rijke mensen hebben advocaten nodig
+D) Juridische fouten zijn altijd goedkoop te herstellen
+
+**Vraag 2.** Een concreet signaal dat een situatie om een advocaat vraagt, is onder meer:
+
+A) Elke transactie waarbij veel geld is betrokken
+B) Niets: advocaten zijn nooit nodig
+C) Alleen strafzaken
+D) Alleen geschillen die al bij de rechter liggen
+
+**Vraag 3.** Wat is volgens deze les het uitgesproken doel van PURPLE?
+
+A) De cursist zijn eigen advocaat maken
+B) De cursist een scherpere, beter geïnformeerde cliënt maken
+C) De behoefte aan advocaten volledig wegnemen
+D) Alleen strafrecht onderwijzen
+
+**Vraag 4.** Het kader van deze les sluit aan bij welk eerder thema van het lesprogramma?
+
+A) Het systeeminzicht
+B) De doktersvergelijking
+C) De relativiteit van prestaties
+D) De keuzeparadox
+
+## Antwoordsleutel
+
+1. B, 2. A, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** De kernlogica van verzekering tegen nadeel geldt bijzonder sterk voor juridisch risico, gezien hoe duur fouten kunnen zijn.
+
+**2.** Grote financiële transacties worden uitdrukkelijk genoemd als duidelijke aanleiding voor professionele juridische controle.
+
+**3.** Geletterdheid en geïnformeerd cliëntgedrag, geen doe-het-zelfrechtspraktijk, is het uitdrukkelijke doel in dit hele traject.
+
+**4.** Dit is een direct, uitdrukkelijk hergebruik van de doktersvergelijking uit eerder in het lesprogramma, specifiek toegepast op juridische beslissingen.
+
+## Belangrijkste punten
+
+- De doktersvergelijking geldt rechtstreeks voor het recht: professionele honoraria zijn een verzekering tegen een groter nadeel.
+- Grote transacties, onbekende documenten, de oprichting van een onderneming en geschillen zijn allemaal duidelijke signalen om een advocaat in te schakelen.
+- PURPLE wil je een scherpere, beter geïnformeerde cliënt maken, geen vervanging voor juridische bijstand.
+- Hiermee wordt het fundamentele deel afgesloten voordat het traject overgaat naar juridische onderwerpen die specifiek zijn voor RED, WHITE en BLUE.
