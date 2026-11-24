@@ -1,0 +1,175 @@
+===== GOLD-L1-006
+TITLE: Juros compostos explicados de forma simples
+SUMMARY: Apresenta o conceito de capitalização composta e porque o tempo é uma das forças mais poderosas do investimento.
+# Juros compostos explicados de forma simples
+
+## Objetivos de aprendizagem
+- Definir capitalização composta em termos simples
+- Explicar porque começar cedo tem um efeito desproporcional nos resultados de longo prazo
+- Praticar um cálculo simples de capitalização composta
+
+## Conteúdo principal
+
+Capitalização composta significa crescimento que se acumula sobre o crescimento anterior, em vez de crescimento que se aplica sempre apenas ao valor original. Se um investimento cresce e esse crescimento continua investido, o crescimento do período seguinte aplica-se ao novo total, maior, e não apenas ao valor inicial – o que significa que o crescimento se acelera com o tempo de uma forma fácil de subestimar no início e impressionante de ver depois.
+
+É por isso que começar cedo importa tanto, mesmo com valores modestos. O tempo é um dos poucos recursos realmente gratuitos do investimento: dinheiro investido por 20 anos tem muito mais tempo para a capitalização composta funcionar do que o mesmo dinheiro investido por 5 anos, mesmo que os valores efetivamente investidos sejam parecidos. Isto explica em parte porque criar cedo o hábito de investir, mesmo com pouco, tende a importar mais do que esperar para começar com um valor maior depois.
+
+## Exemplo prático
+
+EXEMPLO ILUSTRATIVO: Suponha que uma pequena posição cresça a uma porcentagem constante a cada ano. No primeiro ano, o crescimento aplica-se apenas ao valor original. No décimo ano, essa mesma porcentagem de crescimento aplica-se a um total muito maior, porque nove anos de crescimento anterior já se acumularam sobre o valor original. O valor em dinheiro do crescimento no décimo ano é bem maior do que no primeiro, embora a taxa percentual não tenha mudado – esse é o efeito visível da capitalização composta que se acumula sobre si mesma com o tempo.
+
+## Teste de prática
+
+1. Defina capitalização composta com suas próprias palavras.
+2. Porque é que começar cedo tem um efeito desproporcional nos resultados de longo prazo?
+3. Porque é que criar cedo um hábito com pequenos valores pode importar mais do que esperar por um valor maior depois?
+4. No exemplo prático, porque o valor em dinheiro do crescimento foi maior no décimo ano do que no primeiro, apesar da mesma taxa percentual?
+
+## Chave de Respostas
+1. Crescimento que se acumula sobre o crescimento anterior, em vez de se aplicar apenas ao valor inicial.
+2. Porque o tempo é um recurso limitado e irrecuperável, e mais tempo significa mais ciclos de capitalização se acumulando uns sobre os outros.
+3. Porque os anos extras de capitalização muitas vezes importam mais do que o valor extra investido mais tarde.
+4. Porque o crescimento estava se aplicando a um total muito maior (valor original mais nove anos de crescimento anterior), e não apenas ao valor inicial.
+
+## Respostas e explicações
+1. Isto define o mecanismo central – crescimento sobre crescimento anterior – no coração da capitalização composta.
+2. A natureza irrecuperável do tempo é a razão-chave pela qual começar cedo tem um efeito tão desproporcional no longo prazo.
+3. Isto apresenta a criação precoce do hábito como muitas vezes mais valiosa do que um investimento maior, porém iniciado mais tarde.
+4. Este exemplo demonstra o efeito visível de aceleração da capitalização composta, com uma porcentagem constante sobre uma base crescente.
+
+## Pontos-chave
+- Capitalização composta significa crescimento que se acumula sobre o crescimento anterior, não apenas sobre o valor original.
+- Como o tempo não pode ser recuperado depois que passa, começar cedo tem um efeito desproporcional nos resultados de longo prazo.
+- Criar cedo o hábito de investir, mesmo com pequenos valores, muitas vezes importa mais do que esperar um valor maior para começar depois.
+
+===== GOLD-L1-007
+TITLE: Tolerância ao risco e horizonte de tempo
+SUMMARY: Explica como o nível adequado de risco depende muito de quando o dinheiro será necessário.
+# Tolerância ao risco e horizonte de tempo
+
+## Objetivos de aprendizagem
+- Definir tolerância ao risco e horizonte de tempo no contexto do investimento
+- Explicar como os dois conceitos se relacionam
+- Praticar a escolha de um nível de risco adequado a determinado horizonte de tempo
+
+## Conteúdo principal
+
+Tolerância ao risco é o quanto de oscilação de preço e de perda potencial um investidor está disposto e apto a aceitar em busca de crescimento. Horizonte de tempo é quando o dinheiro investido realmente será necessário. Os dois conceitos estão muito ligados: um horizonte de tempo mais longo geralmente permite mais tolerância ao risco, porque há mais tempo para o investimento se recuperar de uma queda antes que o dinheiro seja de facto necessário. Um horizonte mais curto geralmente pede menos tolerância ao risco, porque há menos tempo para se recuperar se o valor cair pouco antes de o dinheiro ser necessário.
+
+Isto se liga à lição anterior sobre Ganhar/Conservar/Crescer/Transmitir: o dinheiro de "Crescer", destinado a objetivos de longo prazo, normalmente consegue absorver mais volatilidade de curto prazo do que o dinheiro de "Conservar", destinado a necessidades próximas. Desalinhar tolerância ao risco e horizonte de tempo – correr muito risco com dinheiro que será necessário logo, ou ser cauteloso demais com dinheiro que tem décadas para crescer – costuma produzir um resultado pior do que alinhá-los adequadamente.
+
+## Exemplo prático
+
+EXEMPLO ILUSTRATIVO: Um jovem de 15 anos que acrescenta ouro a uma posição em crescimento, com o dinheiro destinado a um objetivo daqui a dez anos ou mais, pode razoavelmente tolerar mais oscilação de preço no curto prazo, já que há bastante tempo para qualquer queda se recuperar antes que o dinheiro seja necessário. Compare isso com alguém que precisa de um valor específico daqui a seis meses para uma despesa conhecida e fixa: esse dinheiro geralmente deveria ficar em algo muito mais estável, porque uma queda pouco antes de ser necessário não deixaria tempo para recuperação.
+
+## Teste de prática
+
+1. Defina tolerância ao risco e horizonte de tempo com suas próprias palavras.
+2. Segundo esta lição, como tolerância ao risco e horizonte de tempo estão ligados?
+3. Porque é que um horizonte de tempo mais longo geralmente permite mais tolerância ao risco?
+4. No exemplo prático, porque a posição do jovem de 15 anos pode razoavelmente tolerar mais oscilação no curto prazo?
+
+## Chave de Respostas
+1. Tolerância ao risco é o quanto de oscilação/perda um investidor consegue aceitar; horizonte de tempo é quando o dinheiro será necessário.
+2. Um horizonte de tempo mais longo geralmente permite mais tolerância ao risco, e vice-versa.
+3. Porque há mais tempo para o investimento se recuperar de uma queda antes que o dinheiro seja de facto necessário.
+4. Porque o dinheiro se destina a um objetivo daqui a uma década ou mais, o que dá bastante tempo para qualquer queda se recuperar.
+
+## Respostas e explicações
+1. Isto define os dois conceitos centrais que a lição conecta.
+2. Essa ligação é a relação central que a lição estabelece entre risco e tempo.
+3. O tempo de recuperação é o mecanismo que permite que horizontes mais longos absorvam mais volatilidade de curto prazo.
+4. Este exemplo aplica diretamente a relação entre tolerância ao risco e horizonte de tempo ao estudo de caso.
+
+## Pontos-chave
+- Tolerância ao risco e horizonte de tempo estão muito ligados: horizontes mais longos geralmente permitem mais risco.
+- O dinheiro que será necessário logo geralmente deve correr menos risco, pois há menos tempo para se recuperar de uma queda.
+- Alinhar adequadamente a tolerância ao risco ao horizonte de tempo, em vez de desalinhá-los, tende a produzir melhores resultados.
+
+===== GOLD-L1-008
+TITLE: Noções básicas de diversificação
+SUMMARY: Apresenta a diversificação como forma de administrar o risco sem depender do desempenho de um único ativo.
+# Noções básicas de diversificação
+
+## Objetivos de aprendizagem
+- Definir diversificação em termos simples
+- Explicar porque concentrar tudo num único ativo aumenta o risco
+- Reconhecer como ter dois metais diferentes é um exemplo de diversificação em pequena escala
+
+## Conteúdo principal
+
+Diversificação significa distribuir os investimentos entre ativos diferentes em vez de colocar tudo num só, para que a queda de um único ativo não arrase a posição inteira. A lógica é simples: ativos diferentes nem sempre se movem na mesma direção, ao mesmo tempo e pelos mesmos motivos, então a queda de um pode ser compensada, ao menos em parte, pela estabilidade ou pelo crescimento de outro.
+
+Isto não significa que a diversificação elimine totalmente o risco: significa que ela reduz o risco específico de depender demais do desempenho de um único ativo. Uma posição totalmente diversificada ainda pode perder valor se muitos ativos diferentes caírem ao mesmo tempo, mas em geral ela é mais resistente do que uma posição concentrada inteiramente numa coisa só.
+
+## Exemplo prático
+
+EXEMPLO ILUSTRATIVO: Ter prata e ouro, em vez de apenas um metal, é uma forma de diversificação em pequena escala dentro da categoria dos metais preciosos: os dois metais têm fatores de procura diferentes (industrial versus principalmente investimento/joalheria), por isso nem sempre se movem exatamente juntos. É um exemplo em escala muito menor do que a diversificação completa de uma carteira entre muitas classes de ativos diferentes (ações, imóveis, propriedade de um negócio e outros), que níveis posteriores deste percurso e outros percursos tratarão com mais profundidade, mas ilustra o princípio de fundo: não colocar todos os recursos numa única aposta idêntica.
+
+## Teste de prática
+
+1. Defina diversificação com suas próprias palavras.
+2. Porque é que distribuir os investimentos entre ativos diferentes reduz o risco?
+3. A diversificação elimina totalmente o risco?
+4. Como ter prata e ouro ilustra a diversificação, mesmo em pequena escala?
+
+## Chave de Respostas
+1. Distribuir os investimentos entre ativos diferentes em vez de colocar tudo num só.
+2. Porque ativos diferentes nem sempre se movem na mesma direção pelos mesmos motivos, o que pode compensar a queda de um com a estabilidade de outro.
+3. Não – ela reduz o risco de dependência de um único ativo, mas não elimina todo o risco, sobretudo se muitos ativos caírem juntos.
+4. Porque os dois metais têm fatores de procura diferentes, ou seja, nem sempre se movem exatamente juntos, o que reduz a dependência de qualquer um deles isoladamente.
+
+## Respostas e explicações
+1. Isto capta a lógica essencial da diversificação como distribuição do risco, e não sua eliminação.
+2. Os padrões diferentes de movimento entre ativos são o mecanismo por trás do efeito redutor de risco da diversificação.
+3. Isto esclarece um equívoco comum: a diversificação administra o risco, não o remove por completo.
+4. Este exemplo demonstra o princípio central da diversificação numa escala pequena e compreensível, dentro de uma única categoria de ativos.
+
+## Pontos-chave
+- Diversificação significa distribuir os investimentos entre ativos diferentes para reduzir a dependência de qualquer um deles.
+- Ela reduz o risco, mas não o elimina, sobretudo se muitos ativos caírem juntos.
+- Ter prata e ouro, com seus fatores de procura diferentes, ilustra o princípio da diversificação mesmo em pequena escala.
+
+===== GOLD-L1-009
+TITLE: O que determina o preço dos metais preciosos
+SUMMARY: Explica os fatores básicos de oferta e procura que movem o preço do ouro e da prata.
+# O que determina o preço dos metais preciosos
+
+## Objetivos de aprendizagem
+- Identificar os fatores básicos de oferta e procura que afetam o preço dos metais preciosos
+- Explicar porque a incerteza económica muitas vezes afeta a procura por ouro e prata
+- Reconhecer que nenhum fator isolado determina o preço sozinho
+
+## Conteúdo principal
+
+Como a maioria dos ativos, o preço dos metais preciosos é movido pela oferta e pela procura. Do lado da oferta: quanto metal novo é extraído e produzido e quanto metal já existente (vindo da reciclagem ou de posses privadas) entra no mercado. Do lado da procura: a procura de investimento (pessoas comprando o metal como reserva de valor), a procura da joalheria e, no caso específico da prata, a procura industrial da fabricação.
+
+FACTO VERIFICADO: Os metais preciosos, e o ouro em particular, historicamente tiveram muitas vezes aumento da procura de investimento em períodos de incerteza económica ou de inflação alta, pois alguns investidores os veem como reserva de valor quando a confiança em outros ativos ou moedas é abalada. Isto não é uma garantia: os preços são influenciados por muitos fatores ao mesmo tempo, e nenhuma explicação isolada (como "a incerteza sempre faz o ouro subir") vale em todas as situações. Entender que vários fatores interagem, em vez de procurar uma regra simples de causa e efeito, é uma forma mais precisa de pensar sobre as variações de preço.
+
+## Exemplo prático
+
+EXEMPLO ILUSTRATIVO: Num período em que o noticiário económico é dominado pela incerteza, a procura por ouro pode aumentar à medida que alguns investidores buscam uma reserva de valor percebida, o que pode fazer os preços subirem – enquanto, ao mesmo tempo, se a atividade industrial estiver a desacelerar, a menor procura industrial por prata pode compensar em parte qualquer aumento semelhante na procura de investimento por prata. Isto mostra porque os dois metais, apesar de serem ambos "metais preciosos", podem comportar-se de modo um pouco diferente, mesmo no mesmo ambiente económico.
+
+## Teste de prática
+
+1. Cite os fatores básicos do lado da oferta e do lado da procura que afetam o preço dos metais preciosos.
+2. O que historicamente aconteceu muitas vezes com a procura de investimento por ouro em períodos de incerteza económica?
+3. Esse padrão é uma garantia que vai repetir-se toda vez?
+4. No exemplo prático, porque o ouro e a prata podem reagir de forma diferente ao mesmo ambiente económico?
+
+## Chave de Respostas
+1. Oferta: mineração/produção e metal reciclado/existente que entra no mercado. Demanda: investimento, joalheria e (para a prata) procura industrial.
+2. Muitas vezes aumentou, pois alguns investidores veem o ouro como reserva de valor em tempos incertos.
+3. Não – vários fatores interagem ao mesmo tempo, e nenhuma explicação isolada vale em todas as situações.
+4. Porque a prata tem um fator adicional de procura industrial que o ouro não tem, então os dois podem reagir de forma diferente às mesmas condições.
+
+## Respostas e explicações
+1. Isto lista os componentes básicos de oferta e procura que formam o preço dos metais preciosos.
+2. Este FACTO VERIFICADO reflete um padrão histórico, apresentado sem exagerá-lo como regra garantida.
+3. A lição alerta explicitamente contra o raciocínio simplista de causa e efeito sobre as variações de preço.
+4. Fatores de procura diferentes explicam porque o ouro e a prata nem sempre se movem da mesma forma, mesmo em condições semelhantes.
+
+## Pontos-chave
+- O preço dos metais preciosos é movido por fatores de oferta (produção, reciclagem) e de procura (investimento, joalheria e, para a prata, uso industrial).
+- Historicamente, o ouro muitas vezes teve aumento da procura de investimento em períodos de incerteza económica, embora esse padrão não seja garantido.
+- Vários fatores interagem ao mesmo tempo, por isso as variações de preço raramente se explicam por uma única causa simples.
