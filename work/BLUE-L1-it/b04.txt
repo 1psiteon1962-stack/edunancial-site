@@ -1,0 +1,364 @@
+===== BLUE-L1-016
+TITLE: Che cos'è il flusso di cassa in un'impresa? (Perché anche le imprese in utile restano senza soldi)
+SUMMARY: Scopri che cosa significa flusso di cassa per un'impresa e perché essere in utile sulla carta non garantisce di avere liquidità quando serve.
+# Che cos'è il flusso di cassa in un'impresa? (Perché anche le imprese in utile restano senza soldi)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il flusso di cassa nel contesto di un'impresa.
+- spiegare perché utile e flusso di cassa non sono la stessa cosa.
+- spiegare come gli sfasamenti temporali possono creare veri problemi di liquidità.
+
+## Contenuto principale
+
+### Che cosa significa flusso di cassa
+
+Il flusso di cassa (in inglese "cash flow") è il movimento effettivo di denaro in entrata e in uscita da un'impresa: non l'utile contabile, ma il denaro reale effettivamente disponibile in un dato momento.
+
+### Chiediti questo
+
+Un'impresa può essere in utile sulla carta e non avere comunque abbastanza liquidità per pagare i conti di questa settimana? Sì: è una delle lezioni più controintuitive e importanti nella gestione di un'impresa. L'utile si calcola su un periodo di tempo; il flusso di cassa riguarda i tempi, momento per momento.
+
+### Come gli sfasamenti temporali creano problemi reali
+
+Se un'impresa vende un grosso ordine ma il cliente paga dopo 60 giorni, mentre i fornitori e l'affitto dell'impresa vanno pagati entro 30 giorni, l'impresa può essere in utile sulla carta (la vendita conta come ricavo) e restare comunque a corto di liquidità per pagare nel frattempo i propri conti.
+
+## Esempio svolto
+
+Un'impresa ottiene un ottimo nuovo contratto da 50.000 $: chiaramente un affare redditizio. Ma il cliente paga 60 giorni dopo la consegna, mentre l'impresa ha dovuto pagare in anticipo materiali e manodopera. Chiediti: essere in utile su quel contratto garantisce che l'impresa abbia la liquidità per pagare gli stipendi la settimana prossima? Non necessariamente: il vero pericolo è lo sfasamento temporale, a prescindere dal fatto che l'affare in sé fosse buono.
+
+## Quiz di esercitazione
+
+1. Il flusso di cassa indica:
+   A. La stessa cosa dell'utile contabile
+   B. Il movimento effettivo di denaro in entrata e in uscita da un'impresa
+   C. I ricavi totali annui di un'impresa
+   D. Un tipo di licenza commerciale
+
+2. Vero o falso: un'impresa in utile non può mai restare a corto di liquidità.
+
+3. Che cosa può creare un vero problema di flusso di cassa anche per un affare redditizio?
+   A. Niente: l'utile garantisce la liquidità disponibile
+   B. Uno sfasamento temporale tra il pagamento dei costi e l'incasso effettivo dei ricavi
+   C. Avere troppi costi generali
+   D. Avere troppo pochi clienti
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il flusso di cassa è il movimento effettivo di denaro, distinto dall'utile contabile.
+
+### Domanda 2
+
+Risposta corretta: Falso. Gli sfasamenti tra pagamenti e incassi possono creare vere carenze di liquidità anche nelle imprese in utile.
+
+### Domanda 3
+
+Risposta corretta: B. Gli sfasamenti tra il pagamento dei costi e l'incasso dei ricavi sono il pericolo principale.
+
+## Punti chiave
+
+- Il flusso di cassa è il movimento effettivo di denaro, distinto dall'utile contabile.
+- Un'impresa in utile può comunque restare a corto di liquidità per una questione di tempi.
+- Gli sfasamenti tra pagamenti e incassi sono un rischio reale e comune.
+
+===== BLUE-L1-017
+TITLE: Che cos'è il capitale di avviamento, e da dove arriva davvero?
+SUMMARY: Scopri a che cosa serve il capitale di avviamento e le fonti comuni a cui le persone attingono prima ancora di cercare investitori esterni.
+# Che cos'è il capitale di avviamento, e da dove arriva davvero?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il capitale di avviamento in termini semplici.
+- indicare le fonti comuni del capitale di avviamento.
+- riconoscere che l'investimento esterno è solo una delle diverse strade.
+
+## Contenuto principale
+
+### Che cos'è il capitale di avviamento
+
+Il capitale di avviamento è il denaro necessario per lanciare un'impresa: copre cose come le scorte iniziali, l'attrezzatura, le licenze e abbastanza costi generali per sopravvivere finché l'impresa non genera ricavi propri.
+
+### Da dove arriva davvero
+
+Chiediti: ogni impresa parte con l'assegno di un investitore? Le fonti comuni comprendono i risparmi personali, il denaro di amici o familiari, i prestiti per piccole imprese e il reddito reinvestito da un altro lavoro o da un'attività secondaria: gli investitori esterni e il venture capital, spesso la prima cosa che si immagina, sono solo una strada tra tante, e non sempre la più comune per una piccola impresa.
+
+### Perché è importante
+
+Capire queste diverse fonti è importante perché ognuna comporta compromessi diversi: un prestito va restituito a prescindere da come va l'impresa; un investitore di solito vuole in cambio una quota di capitale (proprietà), un concetto approfondito nel materiale OPM del Livello 3.
+
+## Esempio svolto
+
+Chi avvia una piccola attività di giardinaggio potrebbe usare i risparmi personali per l'attrezzatura, non cercare affatto investitori esterni e crescere con i primi ricavi dell'attività. Chiediti: è un modo più piccolo o meno "vero" di avviare un'impresa rispetto a raccogliere denaro da investitori? Per nulla: è semplicemente una fonte di capitale diversa, con compromessi diversi.
+
+## Quiz di esercitazione
+
+1. Il capitale di avviamento è:
+   A. Solo il denaro raccolto da investitori
+   B. Il denaro necessario per lanciare un'impresa
+   C. I ricavi annui di un'impresa
+   D. Un tipo di imposta d'impresa
+
+2. Vero o falso: gli investitori esterni sono la fonte più comune di capitale di avviamento per le piccole imprese.
+
+3. Qual è un compromesso chiave nell'usare un prestito come capitale di avviamento, rispetto al denaro di un investitore?
+   A. I prestiti non vanno mai restituiti
+   B. Un prestito va in genere restituito a prescindere da come va l'impresa
+   C. I prestiti richiedono sempre di cedere una quota di proprietà
+   D. Non c'è una vera differenza
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il capitale di avviamento è il denaro necessario per lanciare un'impresa.
+
+### Domanda 2
+
+Risposta corretta: Falso. I risparmi personali e altre fonti sono comuni, spesso più degli investitori esterni per le piccole imprese.
+
+### Domanda 3
+
+Risposta corretta: B. Un prestito in genere va restituito a prescindere dai risultati dell'impresa, a differenza dell'investimento in capitale.
+
+## Punti chiave
+
+- Il capitale di avviamento è il denaro necessario per lanciare un'impresa.
+- Le fonti comuni includono risparmi personali, famiglia e amici, prestiti e reddito reinvestito, non solo investitori esterni.
+- Ogni fonte comporta compromessi diversi, in particolare tra restituzione e proprietà.
+
+===== BLUE-L1-018
+TITLE: Che cos'è il bootstrapping?
+SUMMARY: Scopri che cosa significa bootstrapping, quali sono i suoi veri compromessi e perché è una strategia deliberata, non solo "non avere soldi".
+# Che cos'è il bootstrapping?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il bootstrapping in termini semplici.
+- spiegare il compromesso centrale del bootstrapping.
+- riconoscerlo come strategia deliberata, non solo come ripiego.
+
+## Contenuto principale
+
+### Che cosa significa bootstrapping
+
+Bootstrapping significa costruire un'impresa usando solo i suoi ricavi e le risorse personali del titolare, evitando deliberatamente investimenti esterni o debiti significativi.
+
+### Il compromesso centrale
+
+Chiediti: a che cosa rinuncia un titolare accettando un investimento esterno, e a che cosa rinuncia non accettandolo? L'investimento esterno spesso significa crescere più in fretta, ma cedere una parte della proprietà e del controllo. Il bootstrapping significa mantenere piena proprietà e controllo, ma spesso crescere più lentamente, limitati dalla liquidità disponibile dell'impresa.
+
+### Una strategia deliberata, non solo "nessun'altra scelta"
+
+Alcune imprese fanno bootstrapping perché non hanno accesso a finanziamenti esterni, ma molti titolari lo scelgono deliberatamente: danno abbastanza valore al pieno controllo e alla proprietà da accettare in cambio una crescita più lenta, non perché non avessero alternative.
+
+## Esempio svolto
+
+Un imprenditore rifiuta l'offerta di un investitore interessato e sceglie invece di crescere usando solo gli utili dell'impresa. Chiediti: è un errore? Non necessariamente: se per quell'imprenditore mantenere pieno controllo e proprietà conta più del potenziale di crescita più rapida, il bootstrapping è una scelta razionale e deliberata, non un'occasione persa.
+
+## Quiz di esercitazione
+
+1. Bootstrapping significa:
+   A. Raccogliere denaro esclusivamente dal venture capital
+   B. Costruire un'impresa usando solo i suoi ricavi e le risorse del titolare
+   C. Assumere debiti d'impresa significativi
+   D. Vendere l'impresa a un concorrente
+
+2. Vero o falso: il bootstrapping è sempre il segno che un'impresa non è riuscita a ottenere investimenti esterni.
+
+3. Qual è il compromesso centrale del bootstrapping rispetto all'accettare investimenti esterni?
+   A. Non esiste alcun compromesso
+   B. Piena proprietà e controllo, spesso al prezzo di una crescita più lenta
+   C. Una crescita più rapida garantita
+   D. Il bootstrapping elimina ogni rischio d'impresa
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Bootstrapping significa contare sulle risorse proprie dell'impresa.
+
+### Domanda 2
+
+Risposta corretta: Falso. Molti titolari fanno bootstrapping deliberatamente, per scelta.
+
+### Domanda 3
+
+Risposta corretta: B. Pieno controllo e proprietà, spesso in cambio di una crescita più lenta.
+
+## Punti chiave
+
+- Bootstrapping significa far crescere un'impresa usando solo le sue risorse.
+- Il compromesso centrale è piena proprietà e controllo contro una crescita spesso più lenta.
+- È spesso una scelta strategica deliberata, non solo una mancanza di alternative.
+
+===== BLUE-L1-019
+TITLE: Che cos'è una fattura, e perché i termini di pagamento contano così tanto?
+SUMMARY: Scopri che cos'è una fattura e come i termini di pagamento si collegano direttamente alla lezione sul flusso di cassa.
+# Che cos'è una fattura, e perché i termini di pagamento contano così tanto?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una fattura in termini semplici.
+- definire i termini di pagamento e fare un esempio.
+- collegare i termini di pagamento direttamente alla lezione sul flusso di cassa.
+
+## Contenuto principale
+
+### Che cos'è una fattura
+
+Una fattura è una richiesta formale di pagamento, inviata da un'impresa a un cliente, che indica che cosa è stato fornito e quanto è dovuto.
+
+### Che cosa sono i termini di pagamento
+
+I termini di pagamento indicano quando il pagamento è effettivamente dovuto: di solito espressi con formule come "Net 30" (in Italia spesso "30 giorni data fattura"), cioè pagamento entro 30 giorni dalla data della fattura.
+
+### Il collegamento diretto con il flusso di cassa
+
+Chiediti: concedere termini "Net 60" invece di "Net 30" come influisce sul flusso di cassa di un'impresa, anche a parità di vendita? Termini di pagamento più lunghi significano aspettare di più per incassare davvero, allargando proprio il tipo di sfasamento temporale visto nella lezione sul flusso di cassa: un fattore reale e controllabile della liquidità dell'impresa.
+
+## Esempio svolto
+
+Un'impresa concede termini Net 30 a un nuovo cliente e Net 60 a un cliente più grande e di lunga data che ha negoziato condizioni migliori. Chiediti: questo crea tempi di incasso diversi per vendite di pari importo? Sì: il pagamento del cliente Net 60 arriva un mese intero dopo, quindi l'impresa deve coprire i propri costi per tutto quel tempo in più prima di incassare.
+
+## Quiz di esercitazione
+
+1. Una fattura è:
+   A. Un tipo di licenza commerciale
+   B. Una richiesta formale di pagamento che indica quanto è dovuto
+   C. Il bilancio annuale di un'azienda
+   D. Un documento di marketing
+
+2. Vero o falso: "Net 30" significa che il pagamento è dovuto subito al ricevimento della fattura.
+
+3. Come influiscono termini di pagamento più lunghi sul flusso di cassa di un'impresa?
+   A. Non hanno alcun effetto
+   B. Allargano lo sfasamento temporale prima di incassare davvero
+   C. Garantiscono pagamenti più rapidi
+   D. Eliminano la necessità di emettere fatture
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una fattura è una richiesta formale di pagamento.
+
+### Domanda 2
+
+Risposta corretta: Falso. "Net 30" significa pagamento entro 30 giorni dalla data della fattura, non subito.
+
+### Domanda 3
+
+Risposta corretta: B. Termini più lunghi allargano lo sfasamento temporale del flusso di cassa.
+
+## Punti chiave
+
+- Una fattura è una richiesta formale di pagamento.
+- I termini di pagamento indicano quando il pagamento è effettivamente dovuto.
+- Termini di pagamento più lunghi allargano direttamente lo sfasamento del flusso di cassa di un'impresa.
+
+===== BLUE-L1-020
+TITLE: Che cos'è una licenza commerciale, e perché saltarla costa di più dopo?
+SUMMARY: Scopri che cosa copre in genere una licenza commerciale e perché operare senza crea un rischio reale che si accumula.
+# Che cos'è una licenza commerciale, e perché saltarla costa di più dopo?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una licenza commerciale in termini semplici.
+- spiegare perché i requisiti variano per luogo e settore.
+- spiegare perché saltare le autorizzazioni tende a creare problemi più grandi in seguito.
+
+## Contenuto principale
+
+### Che cos'è in genere una licenza commerciale
+
+*(REGOLA SPECIFICA PER PAESE: i requisiti variano molto per luogo e settore. In Italia, per molte attività servono per esempio la SCIA al Comune o autorizzazioni specifiche di settore, oltre all'iscrizione alla Camera di Commercio; verifica con lo Sportello Unico per le Attività Produttive (SUAP) o un commercialista.)* Una licenza commerciale è un'autorizzazione rilasciata da un'autorità pubblica che permette a un'impresa di operare legalmente, spesso richiesta a livello comunale, provinciale o statale, a volte insieme a permessi specifici di settore.
+
+### Perché i requisiti variano così tanto
+
+Non esiste un'unica licenza universale: un'attività alimentare, un'impresa edile e un consulente che lavora da casa possono avere requisiti molto diversi, anche nella stessa città, perché settori diversi comportano diverse esigenze di sicurezza pubblica o di regolamentazione.
+
+### Chiediti questo
+
+Se un'impresa opera per un anno senza le autorizzazioni corrette e non viene mai scoperta, saltarle è stato davvero gratis? Spesso no: operare senza autorizzazioni può creare un'esposizione reale: multe, chiusura forzata, in alcuni casi l'impossibilità di far valere i contratti, e complicazioni se l'impresa viene citata in giudizio o sottoposta a indagine. Il rischio non scompare solo perché non si è ancora concretizzato.
+
+## Esempio svolto
+
+Una pasticciera casalinga inizia a vendere dalla propria cucina senza verificare i requisiti locali per le attività alimentari. Chiediti: che cosa succede se un cliente si sente male e l'attività viene sottoposta a indagine? Oltre al problema originale, la mancanza delle autorizzazioni corrette può diventare di per sé un problema separato e grave, che si aggiunge a tutto il resto.
+
+## Quiz di esercitazione
+
+1. Una licenza commerciale è:
+   A. Un'autorizzazione universale identica ovunque
+   B. Un'autorizzazione pubblica che permette di operare legalmente, che varia per luogo e settore
+   C. Un tipo di conto bancario aziendale
+   D. Richiesta solo per le società di capitali
+
+2. Vero o falso: i requisiti di licenza sono gli stessi per ogni tipo di impresa.
+
+3. Perché saltare le autorizzazioni corrette può diventare un problema più grande in seguito?
+   A. Non diventa mai un problema
+   B. Crea un'esposizione reale a multe, chiusura o complicazioni se l'impresa ha guai legali
+   C. Le autorizzazioni non hanno alcun legame con il rischio legale
+   D. Solo le grandi imprese hanno bisogno di licenze
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I requisiti di licenza variano per luogo e settore.
+
+### Domanda 2
+
+Risposta corretta: Falso. Settori e luoghi diversi hanno requisiti diversi.
+
+### Domanda 3
+
+Risposta corretta: B. Operare senza autorizzazioni crea un'esposizione legale e finanziaria reale, che si accumula.
+
+## Punti chiave
+
+- Una licenza commerciale è un'autorizzazione pubblica, con requisiti che variano per luogo e settore.
+- Non esiste un'unica licenza universale: imprese diverse hanno regole diverse.
+- Saltare le autorizzazioni corrette crea un rischio reale che si accumula se l'impresa ha altri problemi.
