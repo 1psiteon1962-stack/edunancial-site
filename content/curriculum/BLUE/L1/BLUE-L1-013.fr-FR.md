@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 13
 locale: fr-FR
-title: "Comprendre les Clients et Leurs Besoins"
-summary: "Un client est la personne ou l'organisation qui paie pour le produit ou le service d'une entreprise. Toute entreprise existe pour résoudre un problème ou satisfaire un désir pour quelqu'un, et la volonté de cette personne à payer est ce qui rend l'entreprise viable."
+title: "Que sont les frais généraux?"
+summary: "Découvrez ce que sont les frais généraux, et pourquoi ils existent peu importe le volume des ventes d’une entreprise."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-013 : Comprendre les Clients et Leurs Besoins
+# Que sont les frais généraux?
 
-## Objectifs d'Apprentissage
-1. Définir un client en termes d'entreprise.
-2. Distinguer un désir d'un besoin dans le contexte d'un achat.
-3. Expliquer pourquoi comprendre le client est le point de départ de toute entreprise.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un client est la personne ou l'organisation qui paie pour le produit ou le service d'une entreprise. Toute entreprise existe pour résoudre un problème ou satisfaire un désir pour quelqu'un, et la volonté de cette personne à payer est ce qui rend l'entreprise viable.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Un « besoin » est généralement quelque chose qu'un client doit satisfaire pour résoudre un problème réel, tandis qu'un « désir » est généralement quelque chose qui améliore sa situation sans être essentiel — de nombreuses entreprises prospères sont bâties sur des désirs plutôt que sur des besoins stricts, donc cette distinction façonne le marketing plus qu'elle ne détermine la viabilité.
+- Définir les frais généraux en termes simples.
+- Distinguer les frais généraux des coûts directement liés à une vente.
+- Expliquer pourquoi les frais généraux comptent même pendant les périodes creuses.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un plombier résout un besoin — une canalisation cassée doit être réparée. Un café spécialisé vend un désir — les clients pourraient préparer leur café chez eux, mais ils sont prêts à payer pour la commodité, la qualité, et l'expérience. Les deux sont des entreprises entièrement légitimes ; comprendre laquelle des deux tu offres façonne comment tu fixes les prix, fais le marketing, et affrontes la concurrence.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un client, en termes d'entreprise ?
-2. Qu'est-ce qui distingue généralement un désir d'un besoin ?
-3. Vrai/Faux : Seules les entreprises qui répondent à un besoin strict peuvent être viables.
-4. Pourquoi comprendre le client importe-t-il comme point de départ ?
+### Ce que sont les frais généraux
+
+Les frais généraux désignent les coûts continus liés au fonctionnement d’une entreprise qui ne sont pas directement liés à la production d’un produit précis ou à une vente précise — par exemple le loyer, les assurances et les salaires administratifs.
+
+### Frais généraux ou coûts directs
+
+Demandez-vous : si une entreprise ne réalisait aucune vente ce mois-ci, le loyer serait-il quand même dû? Oui — c’est la caractéristique déterminante des frais généraux. Les coûts qui varient directement avec chaque vente (comme les matières premières d’un produit précis) sont différents, et sont abordés séparément dans des leçons ultérieures.
+
+### Pourquoi ils comptent même quand les affaires sont au ralenti
+
+Les frais généraux continuent de s’accumuler, que des revenus entrent ou non, c’est pourquoi il est important de les comprendre pour la planification — une entreprise qui a des frais généraux fixes élevés a besoin d’un certain niveau de ventes de base simplement pour atteindre son seuil de rentabilité, une notion abordée dans la prochaine leçon.
+
+## Exemple pratique
+
+Un petit commerce de détail paie 2 000 € par mois de loyer, peu importe le nombre d’articles qu’il vend ce mois-là. Demandez-vous : ces 2 000 € changent-ils si les ventes sont exceptionnellement faibles un mois donné? Non — c’est exactement ce qui en fait des frais généraux, distincts du coût des marchandises précises vendues.
+
+## Quiz pratique
+
+1. Les frais généraux désignent :
+   A. Les coûts directement liés à la production d’une unité précise vendue
+   B. Les coûts continus liés au fonctionnement de l’entreprise, sans lien direct avec une vente
+   C. Un type de permis d’exploitation
+   D. Le total des revenus d’une entreprise
+2. Vrai ou faux : les frais généraux disparaissent pendant un mois sans ventes.
+3. Lequel de ces éléments est un frais général typique?
+   A. Les matières premières d’un produit précis
+   B. Le loyer mensuel du local de l’entreprise
+   C. Un achat d’équipement ponctuel
+   D. Les frais d’expédition d’une commande précise
 
 ## Corrigé
-1. La personne ou l'organisation qui paie pour un produit ou un service   2. Un besoin résout un problème réel ; un désir améliore une situation sans être essentiel   3. Faux   4. La volonté du client à payer est ce qui rend une entreprise viable
 
-## Réponses et Explications
-1. Ceci est la définition de base d'un client.
-2. Ceci est la distinction générale entre les désirs et les besoins.
-3. De nombreuses entreprises viables sont bâties autour de désirs, pas seulement de besoins stricts.
-4. Sans une image claire du client, une entreprise n'a aucune base pour son offre.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Un client est quiconque paie pour le produit ou le service qu'une entreprise propose.
-- Les désirs et les besoins sont tous deux des bases légitimes pour une entreprise viable.
-- Comprendre le client est le point de départ pour fixer les prix, faire le marketing, et affronter la concurrence.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Les frais généraux sont continus, et non liés à une vente précise.
+
+### Question 2
+Bonne réponse : Faux. Les frais généraux continuent généralement, peu importe l’activité de vente.
+
+### Question 3
+Bonne réponse : B. Le loyer est un frais général classique, sans lien avec une vente en particulier.
+
+## Points clés
+
+- Les frais généraux sont des coûts continus, qui ne sont liés à aucune vente précise.
+- Ils continuent, que des revenus entrent ou non.
+- Ils fixent un niveau de base que l’entreprise doit couvrir par ses ventes, comme on le verra dans la prochaine leçon.

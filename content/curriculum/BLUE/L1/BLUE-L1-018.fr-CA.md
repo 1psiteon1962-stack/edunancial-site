@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 18
 locale: fr-CA
-title: "La Tarification Basée sur la Valeur"
-summary: "La tarification basée sur la valeur fixe le prix selon ce que le client pense que le produit ou le service vaut pour lui, plutôt qu'en partant du coût de production. *HYPOTHÈSE :* Cette approche exige généralement une solide compréhension du client — ses alternatives, son budget, et la valeur qu'il accorde au problème spécifique résolu — ce qui peut la rendre plus difficile à appliquer que la tarification basée sur les coûts."
+title: "Qu’est-ce que l’autofinancement (bootstrapping)?"
+summary: "Découvrez ce que signifie l’autofinancement, ses véritables compromis, et pourquoi c’est une stratégie délibérée, et pas seulement le fait de « ne pas avoir d’argent »."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-018 : La Tarification Basée sur la Valeur
+# Qu’est-ce que l’autofinancement (bootstrapping)?
 
-## Objectifs d'Apprentissage
-1. Définir la tarification basée sur la valeur.
-2. Distinguer la tarification basée sur la valeur de celle basée sur les coûts.
-3. Identifier pourquoi la tarification basée sur la valeur peut être plus difficile à appliquer.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La tarification basée sur la valeur fixe le prix selon ce que le client pense que le produit ou le service vaut pour lui, plutôt qu'en partant du coût de production. *HYPOTHÈSE :* Cette approche exige généralement une solide compréhension du client — ses alternatives, son budget, et la valeur qu'il accorde au problème spécifique résolu — ce qui peut la rendre plus difficile à appliquer que la tarification basée sur les coûts.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* La tarification basée sur la valeur peut aboutir à des prix bien supérieurs au coût de production lorsque les clients accordent une grande valeur à un résultat, comme la rapidité, l'exclusivité, ou l'expertise, et bien inférieurs à ce que suggérerait la tarification basée sur les coûts lorsque le marché ne supporte tout simplement pas un prix plus élevé.
+- Définir l’autofinancement en termes simples.
+- Expliquer le compromis central de l’autofinancement.
+- Reconnaître qu’il s’agit d’une stratégie délibérée, et pas seulement d’un choix par défaut.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un consultant spécialisé capable de résoudre en une journée le problème coûteux d'un client pourrait facturer 5 000 $ pour cette journée, même si ses coûts réels (temps, petit matériel) ne représentent qu'une fraction infime de ce montant. Le prix reflète la valeur du résultat pour le client — éviter une perte bien plus importante — plutôt que le coût pour le consultant de le fournir.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la tarification basée sur la valeur?
-2. En quoi la tarification basée sur la valeur diffère-t-elle de celle basée sur les coûts?
-3. Vrai/Faux : La tarification basée sur la valeur aboutit toujours à des prix plus bas que celle basée sur les coûts.
-4. Pourquoi la tarification basée sur la valeur peut-elle être plus difficile à appliquer que celle basée sur les coûts?
+### Ce que signifie l’autofinancement
+
+L’autofinancement (en anglais, bootstrapping) consiste à bâtir une entreprise uniquement avec ses propres revenus et les ressources personnelles du propriétaire, en évitant délibérément l’investissement externe ou un endettement important.
+
+### Le compromis central
+
+Demandez-vous : à quoi un propriétaire renonce-t-il en acceptant un investissement externe, et à quoi renonce-t-il en le refusant? L’investissement externe signifie souvent une croissance plus rapide, mais la cession d’une partie de la propriété et du contrôle. L’autofinancement permet de garder la pleine propriété et le plein contrôle, mais signifie souvent une croissance plus lente, limitée par les liquidités dont l’entreprise dispose elle-même.
+
+### Une stratégie délibérée, et pas seulement « faute d’autre option »
+
+Même si certaines entreprises s’autofinancent parce qu’elles n’ont pas accès à du financement externe, de nombreux propriétaires le choisissent délibérément — ils accordent assez de valeur au plein contrôle et à la pleine propriété pour accepter une croissance plus lente comme contrepartie, et non parce qu’ils n’avaient pas d’autre choix.
+
+## Exemple pratique
+
+Une entrepreneure refuse l’offre d’un investisseur intéressé et choisit plutôt de croître uniquement grâce aux bénéfices de son entreprise. Demandez-vous : est-ce une erreur? Pas nécessairement — si garder le plein contrôle et la pleine propriété compte plus pour elle que la possibilité d’une croissance plus rapide, l’autofinancement est un choix rationnel et délibéré, et non une occasion manquée.
+
+## Quiz pratique
+
+1. L’autofinancement signifie :
+   A. Obtenir de l’argent exclusivement auprès de sociétés de capital de risque
+   B. Bâtir une entreprise uniquement avec ses propres revenus et les ressources du propriétaire
+   C. Contracter une dette d’entreprise importante
+   D. Vendre l’entreprise à un concurrent
+2. Vrai ou faux : l’autofinancement est toujours le signe qu’une entreprise n’a pas réussi à obtenir d’investissement externe.
+3. Quel est le compromis central de l’autofinancement par rapport à l’investissement externe?
+   A. Il n’existe aucun compromis
+   B. La pleine propriété et le plein contrôle, souvent au prix d’une croissance plus lente
+   C. Une croissance plus rapide garantie
+   D. L’autofinancement élimine tout risque d’affaires
 
 ## Corrigé
-1. Fixer le prix selon ce que le client pense que l'offre vaut   2. Celle basée sur la valeur part de la perception du client; celle basée sur les coûts part du coût de production   3. Faux   4. Elle exige une solide compréhension des alternatives du client et de la valeur qu'il accorde au résultat
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la tarification basée sur la valeur.
-2. Ceci est la distinction clé entre les deux approches de tarification.
-3. La tarification basée sur la valeur peut aboutir à des prix plus élevés ou plus bas que celle basée sur les coûts, selon la valeur perçue.
-4. Estimer la valeur perçue par le client est généralement plus difficile que de calculer les coûts internes.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La tarification basée sur la valeur fixe le prix selon la valeur perçue par le client, pas le coût de production.
-- Elle peut aboutir à des prix bien supérieurs ou inférieurs à ce que suggérerait la tarification basée sur les coûts.
-- Bien l'appliquer exige une solide compréhension du client et de ses alternatives.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. L’autofinancement consiste à compter sur les propres ressources de l’entreprise.
+
+### Question 2
+Bonne réponse : Faux. De nombreux propriétaires s’autofinancent délibérément, par choix.
+
+### Question 3
+Bonne réponse : B. Le plein contrôle et la pleine propriété, souvent échangés contre une croissance plus lente.
+
+## Points clés
+
+- L’autofinancement consiste à faire croître une entreprise uniquement avec ses propres ressources.
+- Le compromis central oppose la pleine propriété et le plein contrôle à une croissance souvent plus lente.
+- C’est souvent un choix stratégique délibéré, et pas seulement un manque d’options.

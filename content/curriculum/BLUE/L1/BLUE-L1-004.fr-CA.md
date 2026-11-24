@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 4
 locale: fr-CA
-title: "Marge Brute vs. Marge Nette"
-summary: "La marge brute mesure combien d'argent reste des ventes après avoir soustrait seulement le coût direct de production de ce qui a été vendu (coût des marchandises vendues). *FAIT VÉRIFIÉ :* Marge Brute = (Chiffre d'Affaires − Coût des Marchandises Vendues) ÷ Chiffre d'Affaires, exprimée en pourcentage."
+title: "Qu’est-ce qu’une LLC?"
+summary: "Découvrez ce qu’une LLC protège réellement, et en quoi sa structure diffère de celle d’une entreprise individuelle."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-004 : Marge Brute vs. Marge Nette
+# Qu’est-ce qu’une LLC?
 
-## Objectifs d'Apprentissage
-1. Définir la marge brute et la marge nette.
-2. Expliquer ce que révèle chaque marge sur une entreprise.
-3. Calculer une marge brute simple.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La marge brute mesure combien d'argent reste des ventes après avoir soustrait seulement le coût direct de production de ce qui a été vendu (coût des marchandises vendues). *FAIT VÉRIFIÉ :* Marge Brute = (Chiffre d'Affaires − Coût des Marchandises Vendues) ÷ Chiffre d'Affaires, exprimée en pourcentage.
+À la fin de cette leçon, vous devriez pouvoir :
 
-La marge nette va plus loin, en soustrayant *toutes* les dépenses — y compris le loyer, les salaires, le marketing, et les impôts — pas seulement le coût direct des marchandises. *HYPOTHÈSE :* Une entreprise peut avoir une marge brute saine mais une marge nette faible si ses frais généraux (loyer, personnel, marketing) sont trop élevés par rapport aux ventes — les deux chiffres racontent des parties différentes de l'histoire.
+- Définir une LLC en termes simples.
+- Expliquer ce que la « responsabilité limitée » limite réellement.
+- Expliquer pourquoi cela change le portrait du risque par rapport à une entreprise individuelle.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une boutique de vêtements vend un manteau 100 $ dont la fabrication a coûté 40 $. Marge Brute = (100 $ − 40 $) ÷ 100 $ = 60 %. Cela paraît sain. Mais une fois le loyer, les salaires du personnel, et le marketing pris en compte, l'entreprise pourrait ne conserver que 8 $ de ces 100 $ comme profit réel — une marge nette de seulement 8 %, révélant que les frais généraux absorbent la majeure partie du profit brut.
+## Contenu principal
 
-## Quiz Pratique
-1. Quelle est la formule de la marge brute?
-2. Que soustrait la marge nette que la marge brute ne soustrait pas?
-3. Vrai/Faux : Une marge brute saine signifie toujours une marge nette saine.
-4. Si le chiffre d'affaires est de 200 $ et le coût des marchandises vendues de 80 $, quelle est la marge brute?
+### Ce que signifie LLC, et ce qu’elle fait
+
+LLC signifie « Limited Liability Company », c’est-à-dire société à responsabilité limitée, une structure répandue notamment aux États-Unis (au Canada, c’est souvent la société par actions qui joue un rôle comparable). Demandez-vous : quel est le problème de la dernière leçon que cette structure existe pour régler? La responsabilité personnelle illimitée. Une LLC crée une séparation juridique entre le propriétaire (appelé « membre ») et l’entreprise — l’entreprise devient sa propre entité juridique.
+
+### Ce que « limitée » limite réellement
+
+Si une LLC est poursuivie ou ne peut pas payer une dette, les biens personnels du membre sont généralement protégés — ce sont les biens de l’entreprise elle-même qui sont à risque, et non la maison ou les économies personnelles du propriétaire, *à condition* que le propriétaire respecte les formalités exigées par l’État (garder séparées les finances de l’entreprise et les finances personnelles, effectuer les dépôts requis, etc.).
+
+### Le piège à connaître dès maintenant
+
+*(RÈGLE PROPRE À LA RÉGION : les exigences de constitution et de formalités varient selon l’État, la province ou le pays.)* Cette protection n’est ni automatique ni inconditionnelle — elle dépend du fait de traiter réellement la LLC comme une entité distincte dans la pratique, et pas seulement sur papier. Des leçons ultérieures de ce volet expliquent à quoi ressemblent ces formalités.
+
+## Exemple pratique
+
+Comparez la photographe pigiste de la dernière leçon à une version d’elle-même qui a constitué une LLC. Même bris d’équipement, même poursuite. Demandez-vous : qu’est-ce qui est différent cette fois? Si elle a respecté les formalités de la LLC, la réclamation atteint généralement les biens de l’entreprise — et non ses biens personnels. Même événement, exposition juridique différente, uniquement en raison de la structure.
+
+## Quiz pratique
+
+1. LLC signifie :
+   A. Limited Liability Corporation
+   B. Limited Liability Company
+   C. Legal License Certificate
+   D. Local Licensed Contractor
+2. Vrai ou faux : la protection de la responsabilité d’une LLC est automatique et s’applique peu importe ce que fait le propriétaire.
+3. Que protège principalement une LLC, par rapport à une entreprise individuelle?
+   A. Le taux d’imposition de l’entreprise
+   B. Les biens personnels du propriétaire contre les dettes et les poursuites de l’entreprise
+   C. Le budget marketing de l’entreprise
+   D. Les employés du propriétaire
 
 ## Corrigé
-1. (Chiffre d'Affaires − Coût des Marchandises Vendues) ÷ Chiffre d'Affaires   2. Toutes les autres dépenses, comme le loyer, les salaires, et le marketing   3. Faux   4. 60 %
 
-## Réponses et Explications
-1. Ceci est le calcul standard de la marge brute.
-2. La marge nette tient compte du coût total de gestion de l'entreprise, pas seulement de la production du produit.
-3. Une entreprise peut avoir une marge brute solide mais une marge nette faible si les frais généraux sont trop élevés.
-4. (200 $ − 80 $) ÷ 200 $ = 0,60 = 60 %.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La marge brute mesure la rentabilité après seulement les coûts de production directs.
-- La marge nette mesure la rentabilité après toutes les dépenses.
-- Une marge brute solide ne garantit pas une marge nette solide — les frais généraux comptent aussi.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. LLC signifie Limited Liability Company (société à responsabilité limitée).
+
+### Question 2
+Bonne réponse : Faux. La protection dépend du respect des formalités exigées; elle n’est pas automatique du seul fait de constituer la LLC.
+
+### Question 3
+Bonne réponse : B. La protection des biens personnels est l’avantage central par rapport à une entreprise individuelle.
+
+## Points clés
+
+- Une LLC crée une séparation juridique entre le propriétaire et l’entreprise.
+- Cela protège généralement les biens personnels contre les dettes et les poursuites de l’entreprise.
+- Cette protection dépend du respect des formalités exigées, et pas seulement du dépôt de documents une seule fois.

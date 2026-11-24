@@ -5,45 +5,78 @@ officialTrackName: Business
 level: 1
 lessonNumber: 1
 locale: fr-CA
-title: "Qu'est-ce Qu'une Entreprise, Vraiment?"
-summary: "Une entreprise est une activité organisée qui fournit un produit ou un service à des clients en échange d'un paiement, avec l'intention de générer un profit. À la base, toute entreprise repose sur un échange simple : quelqu'un a un problème ou un désir, et l'entreprise offre une solution en échange d'argent."
+title: "Qu’est-ce qu’une entreprise? (Travail autonome ou propriété d’entreprise)"
+summary: "Découvrez la différence fonctionnelle entre le travail autonome et la véritable propriété d’entreprise, et pourquoi un seul des deux peut prendre de l’ampleur."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-001 : Qu'est-ce Qu'une Entreprise, Vraiment?
+# Qu’est-ce qu’une entreprise? (Travail autonome ou propriété d’entreprise)
 
-## Objectifs d'Apprentissage
-1. Définir une entreprise en termes simples.
-2. Identifier l'échange fondamental sur lequel repose toute entreprise.
-3. Distinguer une entreprise d'un passe-temps ou d'un emploi.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une entreprise est une activité organisée qui fournit un produit ou un service à des clients en échange d'un paiement, avec l'intention de générer un profit. À la base, toute entreprise repose sur un échange simple : quelqu'un a un problème ou un désir, et l'entreprise offre une solution en échange d'argent.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Ce qui distingue généralement une entreprise d'un passe-temps, c'est l'intention de générer un profit et la régularité de l'activité — un passe-temps qui rapporte occasionnellement de l'argent ne devient pas automatiquement une entreprise, bien que la limite puisse être floue selon l'échelle et l'intention.
+- Définir le travail autonome et la propriété d’entreprise en termes fonctionnels.
+- Appliquer un test simple pour classer dans l’une ou l’autre catégorie n’importe quelle entreprise que vous connaissez.
+- Expliquer pourquoi cette distinction détermine si une entreprise peut prendre de l’ampleur.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Maria fait du pain pour sa famille chaque fin de semaine — c'est un passe-temps. Quand ses voisins commencent à lui demander de leur en vendre, et qu'elle commence à en vendre régulièrement avec l'intention de gagner un revenu, cette activité franchit la limite pour devenir une entreprise, même si elle reste petite et gérée depuis sa propre cuisine.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une entreprise, en termes simples?
-2. Sur quel échange fondamental repose toute entreprise?
-3. Vrai/Faux : Toute activité qui rapporte occasionnellement de l'argent est automatiquement une entreprise.
-4. Qu'est-ce qui distingue généralement une entreprise d'un passe-temps?
+### La question derrière les mots
+
+Demandez-vous : si le propriétaire d’une entreprise disparaissait pendant un mois, qu’arriverait-il à l’entreprise? Continuerait-elle de fonctionner, ou s’arrêterait-elle? Cette seule question constitue la vraie différence entre le travail autonome et la véritable propriété d’entreprise — pas ce que disent les documents officiels, ni la façon dont quelqu’un se présente.
+
+### Les définitions fonctionnelles
+
+**Travail autonome** : l’entreprise, c’est la personne. Les revenus s’arrêtent ou chutent fortement dès que la personne cesse de travailler — il n’y a aucune couche de personnel ou de système entre son travail et l’argent qui entre.
+
+**Propriété d’entreprise** : l’entreprise est un système — personnel, processus, structure — capable de générer des revenus en dépendant peu ou pas du travail heure par heure du propriétaire.
+
+Aucun des deux n’est « meilleur ». Une photographe pigiste qui réserve elle-même ses clients est travailleuse autonome selon cette définition; la même photographe, après avoir embauché et formé une associée pour s’occuper du travail auprès des clients, se rapproche de la propriété d’entreprise. Même personne, structure différente.
+
+### Pourquoi cela détermine si vous pouvez prendre de l’ampleur
+
+Une personne n’a qu’un nombre limité d’heures. Le revenu d’un travailleur autonome est plafonné par ses propres heures, peu importe son talent. Une véritable entreprise, bâtie comme un système, n’est pas plafonnée de la même façon — parce qu’elle ne dépend pas des heures d’une seule personne pour fonctionner. Ce n’est pas un jugement sur le travail autonome, que bien des gens choisissent délibérément — c’est simplement la raison mécanique pour laquelle un seul des deux peut croître au-delà d’un certain point.
+
+## Exemple pratique
+
+Pensez à la grand-mère de Ntege, propriétaire d’une boutique de robes en Ouganda. Aux yeux de sa famille, elle est sans aucun doute propriétaire d’entreprise. Mais posez la question de la disparition pendant un mois : si elle n’ouvrait pas la boutique, celle-ci rapporterait-elle quand même de l’argent cette semaine-là? Pour sa boutique, la réponse est non — l’entreprise, c’est son travail entouré d’une vitrine. Ce n’est pas une critique. C’est simplement le test fonctionnel à l’œuvre, et c’est le premier échelon d’une échelle que tout ce volet continuera de gravir.
+
+## Quiz pratique
+
+1. Quelle question permet le mieux de déterminer s’il s’agit de travail autonome ou de véritable propriété d’entreprise?
+   A. Combien d’argent rapporte-t-elle?
+   B. Qu’arriverait-il si le propriétaire disparaissait pendant un mois?
+   C. Est-elle légalement constituée en société?
+   D. Combien de clients a-t-elle?
+2. Vrai ou faux : le travail autonome est toujours une version inférieure ou ratée de la propriété d’entreprise.
+3. Pourquoi le travail autonome a-t-il un plafond de revenu que la véritable propriété d’entreprise n’a pas?
+   A. Les travailleurs autonomes sont moins compétents
+   B. Le revenu est plafonné par les heures disponibles d’une seule personne
+   C. Les travailleurs autonomes paient plus d’impôts
+   D. Il n’y a aucun véritable plafond dans un cas comme dans l’autre
 
 ## Corrigé
-1. Une activité organisée fournissant un produit ou un service en échange d'un paiement, avec l'intention de générer un profit   2. Résoudre un problème ou satisfaire un désir en échange d'argent   3. Faux   4. L'intention de générer un profit et la régularité de l'activité
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une entreprise.
-2. Cet échange — de la valeur contre un paiement — est au cœur de tout modèle d'affaires.
-3. Des revenus occasionnels ne transforment pas automatiquement quelque chose en entreprise; l'intention et la régularité comptent.
-4. Ce sont les facteurs couramment cités qui distinguent une entreprise d'un passe-temps.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Une entreprise échange un produit ou un service contre un paiement avec l'intention de générer un profit.
-- Toute entreprise résout un problème ou satisfait un désir pour ses clients.
-- L'intention de générer un profit et la régularité distinguent généralement une entreprise d'un passe-temps.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Le test de la « disparition pendant un mois » révèle si l’entreprise dépend du travail continu du propriétaire.
+
+### Question 2
+Bonne réponse : Faux. Le travail autonome peut être un choix délibéré, valable et réussi — cette leçon ne classe pas les deux.
+
+### Question 3
+Bonne réponse : B. Une personne dispose d’un nombre d’heures fixe; une entreprise fondée sur un système n’est pas plafonnée de la même façon.
+
+## Points clés
+
+- Le vrai test : l’entreprise dépend-elle du travail continu du propriétaire, ou fonctionne-t-elle comme un système?
+- La structure juridique ne détermine pas la réponse — c’est le fonctionnement qui la détermine.
+- Seule une entreprise fondée sur un système peut croître au-delà des limites du temps d’une seule personne.

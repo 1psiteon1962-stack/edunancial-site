@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 2
 locale: fr-FR
-title: "Chiffre d'Affaires vs. Bénéfice — La Différence Fondamentale"
-summary: "Le chiffre d'affaires est le montant total d'argent qu'une entreprise encaisse grâce à ses ventes, avant déduction de tout coût. *FAIT VÉRIFIÉ :* Bénéfice = Chiffre d'Affaires − Dépenses — c'est ce qui reste après tout ce que l'entreprise a dû dépenser pour générer ce chiffre d'affaires."
+title: "Toute entreprise vend l’une de deux choses : un produit, un service, ou les deux"
+summary: "Découvrez la grille produit ou service pour comprendre n’importe quelle entreprise, et pourquoi la plupart sont en réalité un mélange des deux."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-002 : Chiffre d'Affaires vs. Bénéfice — La Différence Fondamentale
+# Toute entreprise vend l’une de deux choses : un produit, un service, ou les deux
 
-## Objectifs d'Apprentissage
-1. Définir séparément le chiffre d'affaires et le bénéfice.
-2. Expliquer pourquoi un chiffre d'affaires élevé ne garantit pas une entreprise saine.
-3. Calculer un bénéfice simple à partir du chiffre d'affaires et des dépenses.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Le chiffre d'affaires est le montant total d'argent qu'une entreprise encaisse grâce à ses ventes, avant déduction de tout coût. *FAIT VÉRIFIÉ :* Bénéfice = Chiffre d'Affaires − Dépenses — c'est ce qui reste après tout ce que l'entreprise a dû dépenser pour générer ce chiffre d'affaires.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Une entreprise peut avoir un chiffre d'affaires très élevé et pourtant perdre de l'argent si ses dépenses sont suffisamment élevées — le chiffre d'affaires seul ne dit rien sur la santé financière réelle d'une entreprise.
+- Définir un produit et un service en termes d’affaires.
+- Classer une entreprise réelle comme fondée sur des produits, sur des services, ou mixte.
+- Appliquer cette grille à une entreprise que vous connaissez personnellement.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un magasin encaisse 200 000 $ de chiffre d'affaires cette année — un chiffre impressionnant. Mais après avoir payé le stock, les salaires du personnel, le loyer, et d'autres coûts totalisant 210 000 $, l'entreprise a en réalité perdu 10 000 $. Le chiffre d'affaires élevé ne racontait qu'une partie de l'histoire ; le bénéfice a révélé la réalité.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que le chiffre d'affaires ?
-2. Quelle est la formule du bénéfice ?
-3. Vrai/Faux : Un chiffre d'affaires élevé signifie toujours qu'une entreprise est rentable.
-4. Si une entreprise a 150 000 $ de chiffre d'affaires et 120 000 $ de dépenses, quel est son bénéfice ?
+### Deux questions à poser sur n’importe quelle entreprise
+
+Quand vous examinez une entreprise, demandez-vous : avec quoi le client repart-il — quelque chose qu’il peut garder, ou quelque chose que quelqu’un a fait pour lui? Un **produit** est une chose remise au client. Un **service** est une action, un effort ou une expertise fournis au client.
+
+### Pourquoi la plupart des entreprises sont un mélange
+
+Pensez à un restaurant. Vend-il de la nourriture, ou l’expérience d’être servi? Les deux — la nourriture est le produit, le fait d’être placé à une table et servi est le service. Très peu d’entreprises réelles se situent purement d’un seul côté.
+
+### Appliquer cette grille à l’éducation financière
+
+Prenez une plateforme qui enseigne la littératie financière. Quel est le produit? Quel est le service? Le service, c’est l’enseignement lui-même — guider la compréhension, développer les compétences. Le produit, c’est le livrable concret — les leçons, les évaluations, les exercices structurés. Nommer ces éléments séparément, au lieu de simplement dire « nous enseignons aux gens », rend beaucoup plus clair ce qui est réellement en train d’être bâti.
+
+## Exemple pratique
+
+Imaginez un ébéniste qui vend des chaises — c’est le produit. Imaginez maintenant le même ébéniste qui offre la réparation de meubles sur mesure — c’est un service qui s’ajoute à une entreprise de produits. Demandez-vous : si ce service de réparation prenait assez d’ampleur, l’entreprise serait-elle toujours « un fabricant de meubles », ou serait-elle discrètement devenue autre chose?
+
+## Quiz pratique
+
+1. Un produit se définit le mieux comme :
+   A. Une action effectuée pour un client
+   B. Une chose matérielle ou numérique que le client reçoit et garde
+   C. Le plan marketing d’une entreprise
+   D. Un type de permis d’exploitation
+2. Vrai ou faux : la plupart des entreprises réelles sont purement fondées sur des produits ou purement fondées sur des services, avec peu de mélange.
+3. Dans l’exemple de l’éducation financière, qu’est-ce qui compte comme le « service »?
+   A. Les leçons et les exercices eux-mêmes
+   B. L’enseignement et l’accompagnement eux-mêmes
+   C. Le logo de l’entreprise
+   D. La structure de prix
 
 ## Corrigé
-1. Le montant total d'argent encaissé grâce aux ventes, avant les coûts   2. Chiffre d'Affaires − Dépenses   3. Faux   4. 30 000 $
 
-## Réponses et Explications
-1. Ceci est la définition centrale du chiffre d'affaires comme chiffre de tête.
-2. Ceci est le calcul standard du bénéfice.
-3. Une entreprise peut avoir un chiffre d'affaires élevé et fonctionner tout de même à perte si les dépenses sont suffisamment élevées.
-4. 150 000 $ − 120 000 $ = 30 000 $.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Le chiffre d'affaires est l'argent total encaissé ; le bénéfice est ce qui reste après les dépenses.
-- Bénéfice = Chiffre d'Affaires − Dépenses est la formule standard.
-- Un chiffre d'affaires élevé ne garantit pas la rentabilité — les dépenses comptent tout autant.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Un produit est une chose matérielle ou numérique remise au client.
+
+### Question 2
+Bonne réponse : Faux. La plupart des entreprises réelles combinent les deux dans une certaine mesure.
+
+### Question 3
+Bonne réponse : B. L’enseignement et l’accompagnement sont le service; les leçons elles-mêmes sont le produit.
+
+## Points clés
+
+- Un produit est remis au client; un service est fait pour quelqu’un.
+- La plupart des entreprises réelles combinent les deux, plutôt que d’être purement l’un ou l’autre.
+- Nommer la part produit et la part service de toute entreprise clarifie ce qui est réellement livré.

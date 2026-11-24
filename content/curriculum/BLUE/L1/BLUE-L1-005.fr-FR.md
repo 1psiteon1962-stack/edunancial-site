@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 5
 locale: fr-FR
-title: "Coûts Fixes vs. Coûts Variables"
-summary: "Les coûts fixes restent à peu près les mêmes quel que soit le volume de ventes d'une entreprise — le loyer, les assurances, et le salaire d'un responsable en sont des exemples courants. *FAIT VÉRIFIÉ :* Les coûts variables augmentent et diminuent avec le volume des ventes — les matières premières, l'emballage, et les commissions de vente sont des coûts variables typiques, puisque plus de ventes exigent généralement plus de ces intrants."
+title: "Qu’est-ce qu’une LLP, et en quoi diffère-t-elle d’une LLC?"
+summary: "Découvrez ce qu’est une LLP, et en quoi sa protection de la responsabilité diffère de celle d’une LLC."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-005 : Coûts Fixes vs. Coûts Variables
+# Qu’est-ce qu’une LLP, et en quoi diffère-t-elle d’une LLC?
 
-## Objectifs d'Apprentissage
-1. Définir les coûts fixes et les coûts variables.
-2. Identifier des exemples de chacun.
-3. Expliquer pourquoi cette distinction importe pour la planification.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les coûts fixes restent à peu près les mêmes quel que soit le volume de ventes d'une entreprise — le loyer, les assurances, et le salaire d'un responsable en sont des exemples courants. *FAIT VÉRIFIÉ :* Les coûts variables augmentent et diminuent avec le volume des ventes — les matières premières, l'emballage, et les commissions de vente sont des coûts variables typiques, puisque plus de ventes exigent généralement plus de ces intrants.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Comprendre cette répartition importe pour la planification, car les coûts fixes doivent être payés même durant un mois calme avec peu de revenus, tandis que les coûts variables diminuent naturellement quand les ventes ralentissent.
+- Définir une LLP en termes simples.
+- Expliquer qui utilise habituellement cette structure.
+- Expliquer une différence clé entre la protection de la responsabilité d’une LLP et celle d’une LLC.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une boulangerie paie 1 500 $ de loyer chaque mois, quel que soit le nombre de pains vendus — un coût fixe. La farine, en revanche, coûte environ 0,50 $ par pain cuit ; plus on vend de pains, plus on achète de farine. Lors d'un mois calme avec moins de ventes, la facture de farine diminue en conséquence, mais les 1 500 $ de loyer sont dus tout de même.
+## Contenu principal
 
-## Quiz Pratique
-1. Que sont les coûts fixes ?
-2. Que sont les coûts variables ?
-3. Vrai/Faux : Le loyer est typiquement un coût variable.
-4. Pourquoi la distinction fixe/variable importe-t-elle pour la planification ?
+### Ce que signifie LLP
+
+LLP signifie « Limited Liability Partnership », c’est-à-dire société de personnes à responsabilité limitée (en France, par exemple, la société d’exercice libéral à responsabilité limitée, ou SELARL, joue un rôle comparable pour certaines professions réglementées) — une structure conçue pour plusieurs propriétaires (des associés) plutôt qu’un seul membre, couramment utilisée par des cabinets professionnels comme les cabinets d’avocats ou de comptables.
+
+### Qui l’utilise habituellement
+
+*(RÈGLE PROPRE À LA RÉGION : la disponibilité et les règles varient selon l’État, la province, le pays et la profession.)* Les LLP sont souvent utilisées par des professionnels autorisés qui sont tenus, ou qui choisissent, d’exercer en tant qu’associés, chaque associé demeurant directement responsable de son propre travail professionnel.
+
+### La différence clé en matière de responsabilité
+
+Demandez-vous : si un associé du cabinet commet une erreur coûteuse, les biens personnels de tous les autres associés devraient-ils être exposés? Dans une LLP, un associé est généralement protégé de la responsabilité personnelle pour la faute professionnelle ou les actes répréhensibles des autres associés — une distinction qui compte précisément dans les milieux professionnels à plusieurs associés.
+
+## Exemple pratique
+
+Imaginez un petit cabinet d’avocats de trois associés structuré en LLP. Un associé commet une grave erreur dans le dossier d’un client. Demandez-vous : la maison des deux autres associés est-elle menacée à cause de l’erreur de cet associé? Dans une LLP, généralement pas — l’exposition de chaque associé à la responsabilité pour les actes des autres est limitée, même s’ils partagent l’entreprise.
+
+## Quiz pratique
+
+1. LLP signifie :
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+2. Vrai ou faux : les LLP sont habituellement structurées pour un seul propriétaire.
+3. Que vise généralement la protection de la responsabilité d’une LLP?
+   A. La protection contre toutes les dettes de l’entreprise, de toute nature
+   B. La protection contre la responsabilité personnelle pour la faute professionnelle ou les actes répréhensibles des autres associés
+   C. La protection contre le paiement de tout impôt
+   D. La protection contre toute poursuite
 
 ## Corrigé
-1. Des coûts qui restent à peu près identiques quel que soit le volume de ventes   2. Des coûts qui augmentent et diminuent avec le volume de ventes   3. Faux   4. Les coûts fixes doivent être payés même durant les mois calmes ; les coûts variables s'ajustent naturellement avec les ventes
 
-## Réponses et Explications
-1. Ceci est la définition standard d'un coût fixe.
-2. Ceci est la définition standard d'un coût variable.
-3. Le loyer est un coût fixe classique, pas variable.
-4. Cette distinction aide une entreprise à anticiper ses besoins de trésorerie pendant les périodes plus calmes.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les coûts fixes restent constants quel que soit le volume de ventes.
-- Les coûts variables augmentent et diminuent selon ce que vend une entreprise.
-- Les coûts fixes créent un risque en période calme puisqu'ils doivent être payés indépendamment des revenus.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. LLP signifie Limited Liability Partnership (société de personnes à responsabilité limitée).
+
+### Question 2
+Bonne réponse : Faux. Les LLP sont structurées pour plusieurs associés, et non pour un seul propriétaire.
+
+### Question 3
+Bonne réponse : B. Les LLP visent précisément la responsabilité liée aux actes des autres associés.
+
+## Points clés
+
+- Une LLP est conçue pour plusieurs associés, souvent dans des professions réglementées.
+- Elle protège généralement un associé de la responsabilité pour la faute professionnelle ou les actes répréhensibles des autres associés.
+- C’est une protection différente du bouclier de responsabilité général d’une LLC.

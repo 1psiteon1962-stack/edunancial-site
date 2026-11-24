@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 3
 locale: fr-FR
-title: "Comprendre les Dépenses"
-summary: "Une dépense d'entreprise est tout coût engagé dans le cadre de la gestion de l'entreprise et de la génération de revenus. *FAIT VÉRIFIÉ :* Les dépenses sont couramment réparties entre dépenses d'exploitation (coûts récurrents comme le loyer, les salaires, et les charges) et dépenses exceptionnelles (coûts irréguliers comme un nouvel équipement ou un règlement judiciaire)."
+title: "Qu’est-ce qu’une entreprise individuelle?"
+summary: "Découvrez ce qu’est une entreprise individuelle, comment elle est créée et quel est son plus grand risque juridique — la responsabilité personnelle illimitée."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-003 : Comprendre les Dépenses
+# Qu’est-ce qu’une entreprise individuelle?
 
-## Objectifs d'Apprentissage
-1. Définir une dépense d'entreprise.
-2. Distinguer les dépenses d'exploitation des dépenses exceptionnelles.
-3. Identifier les catégories courantes de dépenses d'entreprise.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Une dépense d'entreprise est tout coût engagé dans le cadre de la gestion de l'entreprise et de la génération de revenus. *FAIT VÉRIFIÉ :* Les dépenses sont couramment réparties entre dépenses d'exploitation (coûts récurrents comme le loyer, les salaires, et les charges) et dépenses exceptionnelles (coûts irréguliers comme un nouvel équipement ou un règlement judiciaire).
+À la fin de cette leçon, vous devriez pouvoir :
 
-Les catégories de dépenses courantes incluent : le coût des marchandises vendues (matériaux, stock), les salaires du personnel, le loyer et les charges, le marketing, les assurances, et les honoraires professionnels (comptables, avocats).
+- Définir une entreprise individuelle en termes simples.
+- Expliquer comment elle est créée.
+- Expliquer le plus grand risque juridique propre à cette structure.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Les dépenses d'exploitation mensuelles d'un petit café incluent 2 000 $ de loyer, 3 500 $ de salaires du personnel, 800 $ d'ingrédients et de stock, et 200 $ de charges — des coûts récurrents qu'il peut anticiper chaque mois. Quand le four tombe en panne et doit être remplacé pour 1 500 $, c'est une dépense exceptionnelle — imprévisible et ne faisant pas partie du schéma mensuel habituel.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une dépense d'entreprise ?
-2. Quelle est la différence entre les dépenses d'exploitation et les dépenses exceptionnelles ?
-3. Vrai/Faux : Les salaires du personnel sont typiquement classés comme une dépense exceptionnelle.
-4. Nomme deux catégories courantes de dépenses d'entreprise.
+### La structure la plus simple qui soit
+
+Une entreprise individuelle est une entreprise détenue et exploitée par une seule personne, sans séparation juridique entre le propriétaire et l’entreprise. Aucune entité juridique distincte n’existe — aux yeux de la loi, l’entreprise est tout simplement la personne.
+
+### Comment elle est créée
+
+*(RÈGLE PROPRE À LA RÉGION : les lois varient selon le pays.)* Dans bien des endroits, aucune formalité n’est requise — si quelqu’un commence à faire des affaires sous son propre nom sans autre structure, il devient automatiquement propriétaire d’une entreprise individuelle. Un permis local ou l’enregistrement d’un nom commercial peuvent tout de même s’appliquer.
+
+### Le vrai risque : posez-vous cette question
+
+Si cette entreprise est poursuivie en justice, ou ne peut pas payer une dette, l’argent de qui est en jeu? Comme il n’y a aucune séparation juridique entre la personne et l’entreprise, la réponse est : le compte bancaire personnel du propriétaire, sa voiture, potentiellement sa maison. C’est le plus grand compromis de cette structure — et c’est exactement pourquoi des leçons ultérieures présentent les SARL (LLC) et les sociétés par actions, conçues précisément pour changer cette réponse.
+
+## Exemple pratique
+
+Une photographe pigiste réserve ses clients sous son propre nom — pas de société, aucun document au-delà d’un permis de base. Elle est propriétaire d’une entreprise individuelle par défaut. Imaginez maintenant que son équipement fasse défaut et endommage les biens d’un client. Demandez-vous : quels biens une poursuite pourrait-elle atteindre? Comme il n’y a aucune séparation, ce sont les siens personnellement — et pas seulement ceux de « l’entreprise ».
+
+## Quiz pratique
+
+1. Une entreprise individuelle se définit le mieux comme :
+   A. Une entreprise qui a plusieurs propriétaires juridiques
+   B. Une entreprise sans séparation juridique entre le propriétaire et l’entreprise
+   C. Une entreprise qui doit déposer des documents de constitution
+   D. Une entreprise qui protège les biens personnels contre les poursuites
+2. Vrai ou faux : dans bien des endroits, aucune formalité n’est requise pour commencer à exploiter une entreprise individuelle.
+3. Quel est le plus grand risque juridique d’une entreprise individuelle?
+   A. Des impôts élevés
+   B. La responsabilité personnelle illimitée
+   C. Des heures d’ouverture limitées
+   D. L’approbation obligatoire du gouvernement pour chaque vente
 
 ## Corrigé
-1. Tout coût engagé dans la gestion de l'entreprise et la génération de revenus   2. Les dépenses d'exploitation sont récurrentes ; les dépenses exceptionnelles sont irrégulières et imprévisibles   3. Faux   4. Le coût des marchandises vendues, les salaires du personnel (entre autres)
 
-## Réponses et Explications
-1. Ceci est la définition centrale d'une dépense d'entreprise.
-2. Ceci distingue les deux catégories générales de coûts d'entreprise.
-3. Les salaires sont une dépense d'exploitation récurrente classique, pas une dépense exceptionnelle.
-4. Celles-ci figurent parmi les catégories de dépenses standard que la plupart des entreprises suivent.
+1. B
+2. Vrai
+3. B
 
-## Points Clés à Retenir
-- Une dépense d'entreprise est tout coût lié à la gestion de l'entreprise.
-- Les dépenses d'exploitation sont récurrentes ; les dépenses exceptionnelles sont irrégulières.
-- Suivre les catégories de dépenses aide une entreprise à comprendre où va réellement son argent.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. L’absence de séparation juridique entre le propriétaire et l’entreprise est sa caractéristique déterminante.
+
+### Question 2
+Bonne réponse : Vrai. Bien des endroits n’exigent aucune formalité pour la structure elle-même.
+
+### Question 3
+Bonne réponse : B. La responsabilité personnelle illimitée est le risque central de cette structure.
+
+## Points clés
+
+- Une entreprise individuelle n’a aucune séparation juridique entre le propriétaire et l’entreprise.
+- Elle exige généralement peu ou pas de formalités pour commencer.
+- Son plus grand risque est la responsabilité personnelle illimitée.
