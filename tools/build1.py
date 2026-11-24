@@ -33,7 +33,8 @@ for i in range(1,51):
             if l.startswith('lessonNumber:'): nf.append(f'locale: {loc}')
         out[lid]='---\n'+'\n'.join(nf)+'\n---\n\n'+body
     elif i in K:
-        out[lid]=open(f'{R}/{C}/L1/{lid}.{loc}.md').read()
+        kp=f'{R}/{C}/L1/{lid}.{loc}.md'
+        if os.path.exists(kp): out[lid]=open(kp).read()
     else: miss.append(lid)
 print('have',len(out),'new',len([k for k in out if k in ch]),'missing',miss[:8])
 if not miss:

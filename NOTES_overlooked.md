@@ -92,3 +92,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - 2026-11-24 PR 1650 PURPLE L1 de/it/nl/pt-BR/pt-PT merged 249224d, smoke OK. WHITE in progress (it/nl/pt-BR/pt-PT 1-20, de 19-25).
 - PR 1651 WHITE L1 de/it/nl/pt-BR/pt-PT merged 649da38 (232 files)
 - BLUE pt-BR 021-050 were MISSING on site (not defective): BLUE total = 228 lessons. BLUE nl uses WHITE nl labels; kept nl 003/006 untouched.
+- BLUE 021-050 English source is the LONG format (exec summary, FAQ, Socratic guide, assessment, SEO/AI/localization blocks; ~3x longer). Needs separate tooling (pcheck1/show1 do not parse it). Remaining BLUE: de 21-50, it 21-50, nl 21-50, pt-BR 21-50 (missing), pt-PT 21-50 = 150 long lessons.
