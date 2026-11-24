@@ -85,3 +85,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - 2026-11-23: BLACK L3 ht PR 1641 merged, smoke success. GREEN L1 fr-CA+fr-FR all 50 retranslated (001-005 were templates too) -> PR 1642.
 - BLUE L1 fr-CA/fr-FR retranslated 001-050 → PR 1643 (2026-11-23)
 - WHITE L1 fr-CA/fr-FR retranslated 001-050 → PR 1644 (2026-11-23)
+- PURPLE L1 fr-CA/fr-FR retranslated 001-050 → PR 1645 (2026-11-23). French L1 now done for BLUE/WHITE/PURPLE/GREEN.
