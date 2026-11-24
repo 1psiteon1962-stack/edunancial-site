@@ -1,0 +1,399 @@
+===== PURPLE-L1-041
+TITLE: Responsabilità: capire che cosa potresti dovere giuridicamente
+SUMMARY: Offre una definizione chiara e generale di responsabilità giuridica, sintetizzando come si è presentata in questo percorso in contratti, illeciti e forme d'impresa.
+# Responsabilità: capire che cosa potresti dovere giuridicamente
+
+## Obiettivi di apprendimento
+
+- Definire in termini semplici la responsabilità giuridica.
+- Riconoscere le diverse fonti di responsabilità viste in questo percorso.
+- Rafforzare la responsabilità come concetto unificante dietro la maggior parte dei contenuti di PURPLE.
+
+## Contenuto principale
+
+La responsabilità, in senso giuridico, significa essere giuridicamente responsabili di qualcosa: più comunemente, dovere denaro o un altro rimedio a causa di un obbligo giuridico o di un illecito. Questa lezione fa un passo indietro per nominare esplicitamente quello che è stato il filo conduttore di gran parte di questo percorso: la responsabilità contrattuale (dovere un risarcimento per inadempimento, vista all'inizio del percorso), la responsabilità per fatto illecito (dovere un risarcimento per un danno causato al di fuori di qualsiasi contratto) e la responsabilità legata alla forma d'impresa (se il patrimonio personale è esposto agli obblighi dell'impresa) sono tutte, in sostanza, fonti diverse dello stesso concetto di fondo.
+
+Riconoscere la responsabilità come questo filo unificante aiuta a organizzare tutto ciò che è stato visto finora in un quadro coerente invece che in un elenco di argomenti scollegati: i contratti creano responsabilità se vengono violati; gli illeciti creano responsabilità quando si causa un danno; la forma d'impresa determina quale patrimonio sia effettivamente esposto a quella responsabilità; e assicurazione e protezione del patrimonio, trattate nelle lezioni vicine, sono strumenti pensati proprio per gestire l'esposizione alla responsabilità una volta che la si capisce come un rischio reale e sempre presente in RED, WHITE e BLUE. Ogni tema giuridico specifico di questo percorso è, in un certo senso, una variante della stessa domanda centrale: in quali circostanze potresti diventare giuridicamente responsabile di qualcosa, e che cosa determina la portata di quella responsabilità?
+
+## Esempio svolto
+
+**Domanda:** Guardando all'intero percorso, come spiegheresti a qualcuno che contratti, illeciti e forme d'impresa sono in realtà argomenti collegati e non separati?
+
+**Studente:** Secondo questa lezione, sono tutte fonti diverse dello stesso concetto di fondo – la responsabilità giuridica –, cioè essere giuridicamente responsabili di qualcosa, che derivi da un contratto violato, da un danno causato al di fuori di un contratto o da un'esposizione legata alla forma d'impresa.
+
+**Guida:** Come si inseriscono assicurazione e protezione del patrimonio in questo quadro unificato?
+
+**Studente:** Sono strumenti pensati proprio per gestire quell'esposizione alla responsabilità una volta che la si capisce come un rischio reale e sempre presente, invece di essere argomenti separati e scollegati.
+
+**Guida:** Esatto: la responsabilità è il filo che tiene insieme i contenuti di tutto questo percorso.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La responsabilità giuridica indica in genere:
+
+A) Essere giuridicamente responsabili di qualcosa, come dovere denaro o un altro rimedio
+B) Un tipo di polizza assicurativa
+C) Qualcosa di rilevante solo nei casi penali
+D) La stessa cosa di un contratto
+
+**Domanda 2.** La responsabilità contrattuale nasce da:
+
+A) Un danno causato al di fuori di qualsiasi accordo
+B) La violazione di un accordo giuridicamente vincolante
+C) La proprietà di un immobile
+D) Nulla che riguardi i contratti
+
+**Domanda 3.** La responsabilità per fatto illecito nasce da:
+
+A) La violazione di un contratto
+B) Un danno causato a un'altra persona, indipendentemente da qualsiasi contratto
+C) Solo le decisioni sulla forma d'impresa
+D) Nulla che riguardi il diritto civile
+
+**Domanda 4.** Quale ruolo hanno assicurazione e protezione del patrimonio, secondo la sintesi di questa lezione?
+
+A) Creano responsabilità invece di gestirla
+B) Sono strumenti pensati proprio per gestire l'esposizione alla responsabilità
+C) Non hanno alcun rapporto con la responsabilità
+D) Si applicano solo alle questioni penali
+
+## Soluzioni
+
+1. A, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questa definizione ampia coglie il significato centrale comune a ogni tipo specifico di responsabilità visto in questo percorso.
+
+**2.** Riprende direttamente le lezioni precedenti sui contratti, sull'inadempimento e sulla vincolatività.
+
+**3.** Riprende direttamente la lezione precedente che distingueva le pretese basate sul danno da quelle basate sul contratto.
+
+**4.** Questa lezione reinterpreta esplicitamente questi strumenti come strumenti di gestione della responsabilità, tenendo insieme l'intero percorso.
+
+## Punti chiave
+
+- La responsabilità giuridica significa essere giuridicamente responsabili di qualcosa, di solito dovendo denaro o un altro rimedio.
+- Responsabilità contrattuale, per fatto illecito e legata alla forma d'impresa sono tutte varianti dello stesso concetto di fondo.
+- Questa visione unificata organizza i contenuti dell'intero percorso attorno a un'unica domanda centrale coerente.
+- Assicurazione e protezione del patrimonio, trattate attorno a questa lezione, sono strumenti per gestire l'esposizione alla responsabilità.
+
+===== PURPLE-L1-042
+TITLE: Garanzie personali: quando ti fai garante di un debito dell'impresa
+SUMMARY: Spiega il concetto giuridico di garanzia personale, un modo comune in cui la protezione dalla responsabilità della forma d'impresa viene superata in modo deliberato e volontario.
+# Garanzie personali: quando ti fai garante di un debito dell'impresa
+
+## Obiettivi di apprendimento
+
+- Definire una garanzia personale.
+- Spiegare perché i finanziatori la richiedono spesso nonostante la protezione della forma d'impresa.
+- Collegare tutto questo direttamente alle lezioni precedenti sulla responsabilità di LLC e società.
+
+## Contenuto principale
+
+Una garanzia personale è un accordo separato e volontario con cui una persona – spesso il titolare di un'impresa – promette personalmente di rimborsare un debito dell'impresa se l'impresa stessa non lo fa. È direttamente rilevante per la protezione dalla responsabilità di LLC e società vista prima in questo percorso, e in reale tensione con essa: anche con un soggetto protettivo costituito e gestito correttamente, firmare una garanzia personale crea in modo deliberato e volontario proprio l'esposizione alla responsabilità personale che la forma d'impresa doveva evitare, specificamente per quel debito. (In Italia la forma più comune è la fideiussione; leggila con particolare attenzione e, se serve, falla esaminare da un professionista prima di firmare.)
+
+I finanziatori richiedono spesso garanzie personali ai titolari di piccole imprese proprio perché conoscono la protezione della forma d'impresa: un finanziatore che concede credito a una LLC più nuova o più piccola spesso non è disposto a contare solo sul patrimonio limitato e sulla breve storia dell'impresa, e quindi chiede al titolare di garantire personalmente il debito come condizione del prestito. È un elemento decisivo di cultura giuridica pratica: a volte gli imprenditori credono che la loro LLC li protegga completamente, senza rendersi conto di aver rinunciato separatamente a quella protezione per certi debiti con una garanzia personale; la portata effettiva della responsabilità personale di qualcuno si può quindi capire solo guardando sia la forma d'impresa sia le garanzie personali sovrapposte.
+
+## Esempio svolto
+
+**Domanda:** Un imprenditore crede che la sua LLC protegga completamente il suo patrimonio personale da tutti i debiti dell'impresa, ma non ricorda se ha firmato una garanzia personale quando ha ottenuto un prestito aziendale. Perché questo conta?
+
+**Studente:** Secondo questa lezione, se ha firmato una garanzia personale per quel prestito, ha creato volontariamente una responsabilità personale per quel debito specifico, a prescindere da ciò che la LLC altrimenti proteggerebbe.
+
+**Guida:** Perché un finanziatore avrebbe potuto richiedere quella garanzia, pur prestando a una LLC costituita correttamente?
+
+**Studente:** Perché spesso i finanziatori non vogliono contare solo sul patrimonio limitato di un'impresa più nuova o più piccola, e quindi richiedono la garanzia personale del titolare come condizione per concedere il credito.
+
+**Guida:** Esatto: ed è per questo che capire la tua responsabilità effettiva richiede di guardare sia la forma d'impresa sia le garanzie sovrapposte.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una garanzia personale è:
+
+A) Una caratteristica automatica di ogni LLC
+B) Un accordo separato e volontario per rimborsare personalmente un debito dell'impresa se l'impresa non lo fa
+C) La stessa cosa di costituire una LLC
+D) Illegale nella maggior parte degli ordinamenti
+
+**Domanda 2.** Che rapporto c'è tra una garanzia personale e la protezione dalla responsabilità di LLC/società?
+
+A) Non ha alcun rapporto con la protezione del soggetto
+B) Crea volontariamente una responsabilità personale per un debito specifico, nonostante la protezione del soggetto si applicherebbe altrimenti
+C) Rafforza automaticamente la protezione del soggetto
+D) È richiesta per ogni debito d'impresa senza eccezioni
+
+**Domanda 3.** Perché i finanziatori richiedono spesso garanzie personali ai titolari di piccole imprese?
+
+A) Senza un vero motivo, è arbitrario
+B) Spesso non vogliono contare solo sul patrimonio limitato di un'impresa più nuova o più piccola
+C) Le garanzie personali sono richieste per legge per tutti i prestiti
+D) I finanziatori in realtà non lo richiedono mai
+
+**Domanda 4.** Che cosa indica questa lezione come elemento decisivo di cultura giuridica pratica?
+
+A) Presumere che una LLC protegga sempre completamente il patrimonio personale
+B) Capire che la responsabilità personale effettiva richiede di guardare sia la forma d'impresa sia le garanzie personali firmate
+C) Non firmare mai alcun documento aziendale
+D) Le LLC eliminano la necessità di verificare le garanzie personali
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Una garanzia è un impegno giuridico distinto e separato, non una caratteristica automatica di alcuna forma d'impresa.
+
+**2.** Proprio questo superamento volontario spiega perché una garanzia personale può minare una protezione del soggetto altrimenti solida per un obbligo specifico.
+
+**3.** Questa prassi di finanziamento è una risposta razionale ai limiti reali dell'affidabilità creditizia delle imprese più nuove o più piccole.
+
+**4.** Questa visione combinata è presentata come essenziale per valutare con precisione la propria effettiva esposizione giuridica.
+
+## Punti chiave
+
+- Una garanzia personale è una promessa separata e volontaria di rimborsare personalmente un debito dell'impresa.
+- Crea una responsabilità personale per quel debito specifico, sovrapposta a una forma d'impresa altrimenti protettiva.
+- I finanziatori richiedono spesso garanzie ai titolari di piccole imprese come condizione per concedere credito.
+- Capire la vera responsabilità personale richiede di verificare sia la forma d'impresa sia le garanzie firmate.
+
+===== PURPLE-L1-043
+TITLE: Trust: strumenti giuridici per detenere e proteggere i beni
+SUMMARY: Introduce il concetto generale di trust come strumento giuridico per detenere beni, collegandolo sia al tema della protezione del patrimonio sia alla pianificazione successoria di GOLD.
+# Trust: strumenti giuridici per detenere e proteggere i beni
+
+## Obiettivi di apprendimento
+
+- Definire in termini generali un trust.
+- Spiegare i ruoli generali coinvolti (disponente, trustee, beneficiario).
+- Collegare i trust sia alla protezione del patrimonio sia alla pianificazione successoria.
+
+## Contenuto principale
+
+Un trust è un assetto giuridico in cui una parte (il disponente, in inglese “settlor” o “grantor”) trasferisce beni che vengono detenuti e gestiti da un'altra parte (il trustee) a beneficio di una terza parte (il beneficiario), secondo le condizioni stabilite dal disponente. I trust servono a più scopi giuridici rilevanti per questo programma: alcune strutture offrono un certo grado di protezione del patrimonio, separando la proprietà giuridica da quella personale in modi che possono proteggere i beni da certe pretese future; altre servono soprattutto come strumenti di pianificazione successoria, collegandosi direttamente ai concetti di pianificazione patrimoniale della sezione Tramandare di GOLD. (In Italia il trust è riconosciuto in base alla Convenzione dell'Aia ed è usato soprattutto nella forma di trust disciplinati da leggi straniere; esistono anche istituti interni con scopi in parte simili, come il fondo patrimoniale o il vincolo di destinazione.)
+
+Gli effetti giuridici, le tutele e i requisiti specifici dei diversi tipi di trust variano enormemente secondo l'ordinamento e il tipo di trust usato: è un terreno giuridico davvero complesso, più della maggior parte degli altri temi di questo percorso, e un caso chiaro in cui serve una guida professionale invece del fai-da-te. Il messaggio pratico a questo livello di cultura giuridica è riconoscere che cosa sia strutturalmente un trust (un assetto a tre parti che separa proprietà giuridica e godimento economico) e che si tratta di uno strumento reale e legittimo di cui vale la pena parlare con un professionista sia per la protezione del patrimonio sia per la pianificazione successoria, e non di un concetto misterioso o riservato solo ai ricchi.
+
+## Esempio svolto
+
+**Domanda:** Qualcuno presume che i trust siano rilevanti solo per persone estremamente ricche e scarta l'idea di parlarne mai con un professionista. Che cosa suggerisce questa lezione su questa supposizione?
+
+**Studente:** Secondo questa lezione, non è del tutto corretta: i trust sono descritti come uno strumento reale e legittimo per la protezione del patrimonio e la pianificazione successoria, non come un concetto riservato ai ricchi.
+
+**Guida:** Perché questa lezione insiste così tanto sulla guida professionale proprio per i trust, più che per alcuni altri temi di questo percorso?
+
+**Studente:** Perché il diritto dei trust è descritto come davvero complesso e fortemente legato all'ordinamento, più della maggior parte degli altri temi, il che lo rende un caso chiaro per un'attuazione professionale invece di tentare da soli.
+
+**Guida:** Esatto: riconoscere lo strumento e sapere quando coinvolgere un professionista è il vero obiettivo di cultura giuridica qui.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un trust è:
+
+A) Solo un tipo di forma d'impresa
+B) Un assetto giuridico in cui un disponente trasferisce beni a un trustee che li detiene a beneficio di un beneficiario
+C) La stessa cosa di un testamento
+D) Irrilevante per la protezione del patrimonio o la successione
+
+**Domanda 2.** I tre ruoli generali di un trust sono:
+
+A) Acquirente, venditore e finanziatore
+B) Disponente, trustee e beneficiario
+C) Locatore, conduttore e agente
+D) Attore, convenuto e giudice
+
+**Domanda 3.** Come collega questa lezione i trust ai contenuti precedenti del programma?
+
+A) Non c'è alcun collegamento
+B) Sia ai temi di protezione del patrimonio di questo percorso sia ai concetti di pianificazione successoria di GOLD
+C) Solo al diritto immobiliare
+D) Solo al diritto dei mercati finanziari
+
+**Domanda 4.** Perché questa lezione insiste in modo particolare sulla guida professionale per i trust?
+
+A) I trust non richiedono alcuna complessità o guida reale
+B) Il diritto dei trust è davvero complesso e fortemente legato all'ordinamento, più della maggior parte degli altri temi di questo percorso
+C) I trust sono illegali senza un avvocato presente
+D) Questa lezione non insiste sulla guida professionale
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questa struttura a tre parti, che separa proprietà giuridica e godimento economico, è la caratteristica che definisce un trust.
+
+**2.** Questi tre ruoli definiscono il rapporto strutturale di base al centro di qualsiasi trust.
+
+**3.** Questa lezione collega volutamente i trust sia al tema della protezione del patrimonio qui sia ai contenuti di pianificazione successoria visti prima in GOLD.
+
+**4.** La lezione segnala espressamente questo terreno come insolitamente complesso, il che giustifica una particolare cautela e una guida professionale.
+
+## Punti chiave
+
+- Un trust è un assetto giuridico a tre parti: disponente, trustee e beneficiario.
+- I trust possono servire sia alla protezione del patrimonio sia alla pianificazione successoria.
+- Questo si collega direttamente ai contenuti di pianificazione patrimoniale visti prima in GOLD.
+- Il diritto dei trust è davvero complesso e legato all'ordinamento, il che rende qui la guida professionale particolarmente importante.
+
+===== PURPLE-L1-044
+TITLE: Procure: l'autorità giuridica di agire per conto di un altro
+SUMMARY: Introduce la procura come strumento giuridico che conferisce a qualcuno il potere di agire per conto di un altro, rilevante sia per la continuità d'impresa sia per la pianificazione in caso di incapacità.
+# Procure: l'autorità giuridica di agire per conto di un altro
+
+## Obiettivi di apprendimento
+
+- Definire una procura (in inglese “power of attorney”).
+- Distinguere la procura generale da quella speciale.
+- Collegarla sia ai contesti d'impresa sia alla pianificazione personale.
+
+## Contenuto principale
+
+Una procura è un documento giuridico che conferisce a una persona (il procuratore) il potere di agire per conto di un'altra persona (il rappresentato) in determinate questioni. Una **procura generale** conferisce un potere ampio in materia finanziaria e giuridica; una **procura speciale** conferisce un potere solo per uno scopo o un'operazione specifici, come firmare i documenti di un rogito immobiliare quando il rappresentato non può essere presente.
+
+Questo strumento conta sia nei contesti d'impresa sia in quelli personali di questo programma. In un contesto d'impresa del percorso BLUE, una procura può consentire a una persona di fiducia di firmare documenti o prendere certe decisioni quando il titolare non è disponibile, sostenendo la continuità dell'impresa. In un contesto più ampio di pianificazione personale – collegato alle lezioni di pianificazione patrimoniale di GOLD –, una procura è spesso pensata proprio per avere effetto se il rappresentato diventa incapace, garantendo che qualcuno abbia l'autorità giuridica di gestire i suoi affari senza bisogno di un procedimento giudiziario, proprio il tipo di pianificazione preventiva che la sezione successoria di GOLD raccomandava di fare ben prima che sembri urgente. (In Italia, in caso di incapacità, si ricorre spesso all'amministrazione di sostegno nominata dal giudice, e i limiti di una procura preventiva vanno valutati con un professionista; per gli atti immobiliari la procura richiede di norma la forma dell'atto pubblico o della scrittura privata autenticata.)
+
+## Esempio svolto
+
+**Domanda:** Qualcuno sta pianificando un rogito immobiliare ma sa che sarà in viaggio e non potrà partecipare di persona. Quale strumento giuridico di questa lezione potrebbe risolvere la situazione?
+
+**Studente:** Secondo questa lezione, potrebbe funzionare una procura speciale: conferisce a qualcuno il potere per quella specifica operazione, come firmare i documenti del rogito, senza dargli un'autorità più ampia oltre quello scopo.
+
+**Guida:** In che cosa differisce da una procura generale?
+
+**Studente:** Una procura generale conferirebbe un'autorità molto più ampia in materia finanziaria e giuridica, mentre una speciale è limitata strettamente allo scopo specifico necessario, come questo rogito.
+
+**Guida:** Esatto: adattare la portata dell'autorità al bisogno reale è il punto pratico qui.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una procura è:
+
+A) Un tipo di ordine del tribunale
+B) Un documento giuridico che conferisce a una persona il potere di agire per conto di un'altra
+C) La stessa cosa di un testamento
+D) Irrilevante per la pianificazione d'impresa o personale
+
+**Domanda 2.** Una procura generale conferisce:
+
+A) Un potere per un solo scopo ristretto e specifico
+B) Un potere ampio in materia finanziaria e giuridica
+C) Nessun potere reale
+D) Solo un potere sugli immobili
+
+**Domanda 3.** Una procura speciale è utile in situazioni come:
+
+A) Conferire un'autorità illimitata per tutta la vita
+B) Firmare i documenti di un rogito per un'operazione specifica quando il rappresentato non può essere presente
+C) Nulla di pratico
+D) Solo le questioni penali
+
+**Domanda 4.** Come collega questa lezione la procura ai contenuti precedenti di GOLD?
+
+A) Non c'è alcun collegamento
+B) Una procura può essere pensata per avere effetto in caso di incapacità, riprendendo il tema della pianificazione successoria preventiva di GOLD
+C) Solo ai contenuti di GOLD sui metalli preziosi
+D) Solo alla lezione di GOLD sull'interesse composto
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questo documento crea proprio un'autorità giuridica delegata a favore del procuratore indicato.
+
+**2.** Un'autorità ampia e generale è la caratteristica che distingue questo tipo dalla procura speciale.
+
+**3.** Questa autorità limitata è un uso pratico e comune di una procura speciale.
+
+**4.** Questo si collega direttamente all'insistenza di GOLD su una pianificazione preventiva che anticipi l'incapacità, fatta prima che sembri urgente.
+
+## Punti chiave
+
+- Una procura conferisce un'autorità giuridica delegata per agire per conto di un altro.
+- Le procure generali conferiscono un potere ampio; quelle speciali sono limitate a uno scopo specifico.
+- Questo strumento sostiene sia la continuità d'impresa sia la pianificazione personale in caso di incapacità.
+- Si collega direttamente al tema della pianificazione preventiva della sezione successoria di GOLD.
+
+===== PURPLE-L1-045
+TITLE: Prescrizione: perché le pretese giuridiche si estinguono
+SUMMARY: Introduce il concetto di prescrizione, spiegando perché le pretese giuridiche non sono disponibili all'infinito e perché questo conta sia per farle valere sia per difendersi.
+# Prescrizione: perché le pretese giuridiche si estinguono
+
+## Obiettivi di apprendimento
+
+- Definire in termini semplici la prescrizione (in inglese “statute of limitations”).
+- Spiegare la logica di politica del diritto generale della limitazione temporale delle pretese.
+- Riconoscere la rilevanza pratica sia per i possibili attori sia per i convenuti.
+
+## Contenuto principale
+
+La prescrizione è un limite di tempo giuridico entro cui una pretesa deve essere fatta valere, dopo il quale in genere non può più essere perseguita in giudizio, a prescindere dalla sua fondatezza. Tipi diversi di pretese (controversie contrattuali, pretese per fatto illecito e altre) hanno spesso termini diversi, e questi termini variano da un ordinamento all'altro: non esiste un unico numero universale da memorizzare, ma il concetto di fondo vale in modo ampio. (In Italia il termine di prescrizione ordinario è in genere di dieci anni, mentre per molte pretese, come il risarcimento del danno da fatto illecito, il termine è di cinque anni; ci sono numerose eccezioni, quindi verifica con un professionista.)
+
+La logica di politica del diritto generale è duplice: prove e ricordi si deteriorano davvero con il tempo, rendendo più difficile risolvere in modo equo le pretese vecchie, e c'è un reale interesse sociale alla certezza finale, cioè permettere a persone e imprese di andare avanti senza un'esposizione indefinita a pretese del lontano passato. Questo conta nella pratica da entrambe le parti: chi ha una lamentela legittima deve capire che c'è una scadenza reale per farla valere, non un tempo illimitato per decidere; e chi affronta una possibile pretesa dovrebbe capire che pretese abbastanza vecchie possono essere del tutto prescritte, il che è un contesto rilevante (ma non un sostituto di un vero parere legale) nel valutare l'esposizione reale a una vecchia controversia.
+
+## Esempio svolto
+
+**Domanda:** Qualcuno scopre una legittima controversia contrattuale di molti anni fa e si chiede se possa ancora fare causa oggi. Che cosa suggerisce questa lezione di verificare per prima cosa?
+
+**Studente:** Secondo questa lezione, dovrebbe verificare se il termine di prescrizione per quel tipo di pretesa è già scaduto, perché in genere le pretese non possono essere perseguite dopo quel limite, a prescindere dalla fondatezza.
+
+**Guida:** Perché la sola fondatezza della pretesa potrebbe non bastare a garantire che possa ancora essere fatta valere?
+
+**Studente:** Perché la prescrizione esiste proprio per limitare nel tempo le pretese, per ragioni come il deterioramento delle prove e l'interesse alla certezza finale: anche una pretesa del tutto legittima può diventare giuridicamente indisponibile se è passato troppo tempo.
+
+**Guida:** Esatto: fondatezza e disponibilità giuridica sono due questioni separate.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La prescrizione è:
+
+A) Un diritto permanente di fare causa in qualsiasi momento
+B) Un limite di tempo giuridico entro cui una pretesa deve essere fatta valere
+C) Rilevante solo nei casi penali
+D) Uguale in ogni ordinamento e per ogni tipo di pretesa
+
+**Domanda 2.** La logica di politica del diritto generale della limitazione temporale delle pretese comprende:
+
+A) Non esiste alcuna logica reale
+B) Il deterioramento delle prove nel tempo e l'interesse alla certezza finale
+C) Solo la protezione dei convenuti ricchi
+D) L'incoraggiamento di contenziosi indefiniti
+
+**Domanda 3.** I diversi tipi di pretese hanno in genere lo stesso termine?
+
+A) Sì, sempre identico
+B) No: tipi di pretese e ordinamenti diversi hanno spesso termini diversi
+C) I termini sono irrilevanti per il tipo di pretesa
+D) Nessuna pretesa ha un termine
+
+**Domanda 4.** Perché questo conta per chi affronta una possibile pretesa vecchia?
+
+A) Non ha alcuna rilevanza pratica
+B) Pretese abbastanza vecchie possono essere del tutto prescritte, il che è un contesto rilevante nel valutare l'esposizione
+C) Le pretese vecchie sono sempre automaticamente valide
+D) Questa lezione conta solo per gli attori, mai per i convenuti
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questo meccanismo di scadenza giuridica è proprio ciò che la prescrizione stabilisce.
+
+**2.** Sia il deterioramento delle prove sia il valore della certezza finale sono indicati come logica di fondo.
+
+**3.** La variazione per tipo di pretesa e ordinamento è indicata espressamente, invece di presumere un unico numero universale.
+
+**4.** È un contesto pratico e direttamente utile per valutare l'esposizione reale a una vecchia controversia, da entrambe le parti di una possibile pretesa.
+
+## Punti chiave
+
+- La prescrizione limita giuridicamente il tempo entro cui una pretesa può essere fatta valere.
+- Riflette preoccupazioni legate al deterioramento delle prove e al valore della certezza finale.
+- I termini variano per tipo di pretesa e ordinamento: nessun numero vale ovunque.
+- Questo conta nella pratica sia per i possibili attori sia per i convenuti che valutano vecchie controversie.
