@@ -1,0 +1,399 @@
+===== PURPLE-L1-006
+TITLE: Incumprimento contratual: o que acontece quando alguém não cumpre
+SUMMARY: Apresenta o conceito de incumprimento contratual e as categorias gerais de meios de reação disponíveis quando uma das partes não cumpre a sua parte.
+# Incumprimento contratual: o que acontece quando alguém não cumpre
+
+## Objetivos de aprendizagem
+
+- Definir o incumprimento contratual (em inglês, "breach of contract").
+- Identificar as categorias gerais de meios de reação ao incumprimento.
+- Reconhecer o incumprimento como um risco de negócio previsível, e não como um acontecimento invulgar.
+
+## Conteúdo principal
+
+O incumprimento ocorre quando uma parte não cumpre as suas obrigações num acordo exigível: falhar um pagamento, não entregar um imóvel, não concluir um trabalho acordado. Quando há incumprimento, a parte que cumpriu dispõe em geral de meios jurídicos de reação, embora as opções concretas dependam do contrato e do ordenamento jurídico.
+
+Categorias comuns de meios de reação incluem: indemnização em dinheiro (compensação pela perda financeira causada pelo incumprimento), execução específica (uma decisão judicial que obriga a parte faltosa a fazer realmente o que prometeu; mais frequente no imobiliário, porque o imóvel em si é único) e resolução do contrato (que liberta a parte que cumpriu das suas próprias obrigações restantes). Compreender que o incumprimento é um risco previsível e planeado – e não uma catástrofe invulgar – faz parte de uma literacia contratual madura: os contratos bem redigidos preveem muitas vezes de antemão o que acontece se qualquer uma das partes não cumprir, e é precisamente por isso que uma revisão cuidadosa do contrato importa antes de assinar, e não só depois de algo correr mal. (Em Portugal, o Código Civil prevê, por exemplo, a execução específica do contrato-promessa em certos casos; confirme os pormenores com um profissional.)
+
+## Exemplo prático
+
+**Pergunta:** Um comprador assina um contrato para comprar um imóvel específico e, depois, o vendedor desiste e vende a outra pessoa. Que meio de reação pode ser especialmente relevante aqui, tendo em conta que o imóvel é único?
+
+**Aluno:** Com base nesta lição, a execução específica pode ser relevante, já que um tribunal poderia ordenar a conclusão da venda em vez de apenas atribuir dinheiro.
+
+**Guia:** Porque é que a execução específica faria mais sentido para um imóvel único do que, por exemplo, para um produto comum?
+
+**Aluno:** Porque o imóvel em si é único: o dinheiro sozinho talvez não substitua de facto aquilo que o comprador queria especificamente, ao contrário de um produto comum que poderia simplesmente ser comprado noutro lado.
+
+**Guia:** Exatamente: é por isso que a execução específica aparece com tanta frequência em litígios sobre contratos imobiliários.
+
+## Teste de prática
+
+**Pergunta 1.** O incumprimento contratual ocorre quando:
+
+A) As duas partes acordam cancelar o negócio
+B) Uma parte não cumpre as suas obrigações previstas no acordo
+C) Um contrato é assinado
+D) Nunca se chegou a acordo
+
+**Pergunta 2.** A indemnização em dinheiro é:
+
+A) Nunca disponível como meio de reação
+B) Compensação pela perda financeira causada pelo incumprimento
+C) Relevante apenas para processos-crime
+D) O mesmo que execução específica
+
+**Pergunta 3.** A execução específica é:
+
+A) Uma decisão judicial que obriga a cumprir o que foi prometido
+B) Sempre o mesmo que indemnização em dinheiro
+C) Nunca usada no imobiliário
+D) Irrelevante para o direito dos contratos
+
+**Pergunta 4.** Porque é que o incumprimento é descrito como um "risco previsível e planeado", e não como uma catástrofe invulgar?
+
+A) O incumprimento nunca acontece realmente
+B) Os contratos bem redigidos preveem muitas vezes de antemão o que acontece se qualquer uma das partes não cumprir
+C) Os contratos nunca tratam desta possibilidade
+D) Esta descrição é inexata
+
+## Chave de Respostas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respostas e explicações
+
+**1.** O incumprimento é especificamente a falta de cumprimento de obrigações juridicamente acordadas.
+
+**2.** A indemnização procura deixar a parte que cumpriu financeiramente indemne pela sua perda.
+
+**3.** A execução específica é especialmente relevante quando o objeto, como um imóvel único, não pode simplesmente ser substituído por dinheiro.
+
+**4.** Os contratos maduros antecipam o incumprimento e preveem as consequências, tratando-o como uma possibilidade real a planear.
+
+## Pontos-chave
+
+- O incumprimento ocorre quando uma parte não cumpre as suas obrigações contratuais.
+- Os meios de reação incluem indemnização em dinheiro, execução específica e resolução do contrato.
+- A execução específica é especialmente relevante para bens únicos, como os imóveis.
+- O incumprimento é um risco previsível que os contratos bem redigidos planeiam de antemão.
+
+===== PURPLE-L1-007
+TITLE: Como ler um contrato: um guia prático passo a passo
+SUMMARY: Oferece uma estrutura prática para abordar um contrato desconhecido, reduzindo a intimidação ao dividi-lo em partes geríveis.
+# Como ler um contrato: um guia prático passo a passo
+
+## Objetivos de aprendizagem
+
+- Identificar as secções comuns presentes na maioria dos contratos.
+- Aplicar uma abordagem prática, passo a passo, à leitura de um contrato desconhecido.
+- Reconhecer quais as secções que merecem mais atenção.
+
+## Conteúdo principal
+
+A maioria dos contratos, por mais longos e intimidantes que sejam, partilha uma estrutura geral comum: partes (quem está envolvido), considerandos (contexto, muitas vezes iniciados por "considerando que"), cláusulas (as obrigações propriamente ditas: preço, prazos, o que cada lado tem de fazer), declarações e garantias (afirmações que cada parte faz sobre factos, como a titularidade ou os poderes para assinar), incumprimento e meios de reação (o que acontece se alguém não cumprir, retomando a lição anterior) e assinaturas (a formalização).
+
+Uma abordagem prática para ler um contrato desconhecido: primeiro, identificar quem são realmente as partes e o que cada uma promete fazer. Segundo, encontrar os termos comerciais centrais – preço, datas, prestações –, porque têm o peso prático mais imediato. Terceiro, prestar muita atenção à secção de incumprimento e meios de reação, porque é aí que se fica a saber o que acontece realmente se algo correr mal. Quarto, assinalar tudo o que pareça invulgar, desequilibrado ou pouco claro e levá-lo a um profissional, em vez de tentar adivinhar o significado. Esta abordagem estruturada transforma uma parede de texto intimidante numa lista de verificação gerível.
+
+## Exemplo prático
+
+**Pergunta:** Alguém recebe um contrato de 20 páginas e sente-se esmagado, sem saber sequer por onde começar. Que abordagem inicial sugeriria esta lição?
+
+**Aluno:** Com base nesta lição, começar por identificar as partes e o que cada uma está realmente a prometer, em vez de tentar absorver o documento inteiro de uma só vez.
+
+**Guia:** Depois disso, qual seria a coisa seguinte mais importante a procurar?
+
+**Aluno:** Os termos comerciais centrais – preço, datas, prestações –, porque têm o peso prático mais imediato, e depois a secção de incumprimento e meios de reação, para saber o que acontece se algo correr mal.
+
+**Guia:** Exatamente: dividir nesta sequência transforma um documento intimidante numa lista de verificação gerível.
+
+## Teste de prática
+
+**Pergunta 1.** As secções comuns presentes na maioria dos contratos incluem:
+
+A) Partes, cláusulas, declarações, incumprimento/meios de reação, assinaturas
+B) Apenas um parágrafo
+C) Nenhuma estrutura identificável
+D) Apenas um preço e uma data
+
+**Pergunta 2.** A secção de "declarações e garantias" contém em geral:
+
+A) Informação aleatória e sem relação
+B) Afirmações que cada parte faz sobre factos, como a titularidade ou os poderes
+C) Apenas o título do contrato
+D) As assinaturas
+
+**Pergunta 3.** Um primeiro passo prático na leitura de um contrato desconhecido é:
+
+A) Ir diretamente para a página das assinaturas
+B) Identificar as partes e o que cada uma promete fazer
+C) Ignorar completamente o documento
+D) Ler apenas o último parágrafo
+
+**Pergunta 4.** O que fazer com tudo o que for invulgar, desequilibrado ou pouco claro num contrato?
+
+A) Ignorar e assinar na mesma
+B) Levar a um profissional, em vez de adivinhar o significado
+C) Partir do princípio de que é uma gralha
+D) Apagar essa secção por iniciativa própria
+
+## Chave de Respostas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Esta estrutura geral repete-se na maioria dos contratos, independentemente da extensão ou do assunto.
+
+**2.** As declarações e garantias são afirmações factuais de cada parte, que importam se mais tarde se revelarem falsas.
+
+**3.** Perceber quem está envolvido e o que está a ser prometido é o ponto de partida natural para dar sentido ao resto.
+
+**4.** Levar os termos pouco claros ou invulgares a revisão profissional, em vez de adivinhar, é a abordagem responsável.
+
+## Pontos-chave
+
+- A maioria dos contratos tem uma estrutura comum: partes, cláusulas, declarações, incumprimento/meios de reação, assinaturas.
+- Uma abordagem prática de leitura: primeiro as partes, depois os termos centrais, depois o incumprimento/meios de reação, e assinalar o que não estiver claro.
+- Esta abordagem estruturada reduz a intimidação perante documentos longos e desconhecidos.
+- Os termos invulgares ou pouco claros devem ser levados a revisão profissional, não adivinhados.
+
+===== PURPLE-L1-008
+TITLE: Responsabilidade extracontratual e contratos: dois tipos de pretensão jurídica
+SUMMARY: Distingue o direito dos factos ilícitos (danos civis fora de um contrato) do direito dos contratos, dando ao aluno um mapa mais claro do panorama civil mais amplo.
+# Responsabilidade extracontratual e contratos: dois tipos de pretensão jurídica
+
+## Objetivos de aprendizagem
+
+- Definir um facto ilícito civil (em inglês, "tort") em termos simples.
+- Distinguir as pretensões por facto ilícito das pretensões contratuais.
+- Identificar exemplos relevantes para RED, WHITE e BLUE.
+
+## Conteúdo principal
+
+Um facto ilícito civil é uma conduta que causa dano a outra pessoa, independentemente de qualquer contrato entre elas: negligência, danos em bens ou difamação são exemplos comuns. Isto é diferente de um litígio contratual, que nasce de uma promessa quebrada entre partes que tinham um acordo. Os factos ilícitos podem acontecer entre pessoas que nunca tiveram qualquer contrato: se o trabalho descuidado de um empreiteiro danifica o imóvel vizinho, trata-se de uma pretensão por facto ilícito, e não contratual, se o vizinho e o empreiteiro não tinham qualquer acordo entre si. (Em Portugal, isto corresponde à responsabilidade civil extracontratual, prevista no Código Civil.)
+
+Esta distinção importa na prática em todo este currículo: um proprietário de imóveis (RED) pode ser demandado por facto ilícito se condições inseguras no seu imóvel ferirem alguém, independentemente de qualquer contrato de arrendamento ou de compra. Um empresário (BLUE) pode responder por facto ilícito por danos causados por um produto ou por um trabalhador descuidado, à margem de qualquer contrato com um cliente. Compreender que o risco jurídico não se limita a promessas quebradas – que um dano causado fora de qualquer acordo também pode gerar responsabilidade – é um alargamento importante da literacia jurídica para lá dos contratos.
+
+## Exemplo prático
+
+**Pergunta:** As escadas mal conservadas de um proprietário ferem um estafeta que não tem qualquer contrato com ele. Que tipo de pretensão jurídica representa isto provavelmente?
+
+**Aluno:** Com base nesta lição, parece uma pretensão por facto ilícito, já que não há contrato entre o proprietário e o estafeta: o dano existe independentemente de qualquer acordo.
+
+**Guia:** Porque é que a ausência de contrato importa aqui?
+
+**Aluno:** Porque mostra que a responsabilidade jurídica não se limita a promessas quebradas entre contraentes: um dano causado fora de qualquer acordo também pode gerar exposição jurídica.
+
+**Guia:** Exatamente: é por isso que os proprietários de imóveis têm de pensar no risco de factos ilícitos, e não apenas no risco contratual.
+
+## Teste de prática
+
+**Pergunta 1.** Um facto ilícito civil é:
+
+A) Um tipo de contrato
+B) Uma conduta civil que causa dano, independentemente de qualquer contrato
+C) Relevante apenas para o direito penal
+D) O mesmo que incumprimento contratual
+
+**Pergunta 2.** Em que difere uma pretensão por facto ilícito de uma pretensão contratual?
+
+A) São idênticas
+B) Um facto ilícito pode surgir entre partes que não têm qualquer contrato entre si
+C) Os factos ilícitos só se aplicam a empresas
+D) Os contratos nunca envolvem um dano real
+
+**Pergunta 3.** Condições inseguras no imóvel de um proprietário que ferem um visitante sem contrato com ele são um exemplo de:
+
+A) Um litígio contratual
+B) Uma possível pretensão por facto ilícito
+C) Nem uma questão de facto ilícito, nem contratual
+D) Apenas um caso criminal
+
+**Pergunta 4.** Porque é que esta distinção importa para quem atua em RED e BLUE?
+
+A) Não importa nada
+B) O risco jurídico não se limita a promessas quebradas: um dano fora de qualquer acordo também pode gerar responsabilidade
+C) Só o risco contratual é relevante
+D) Os factos ilícitos só se aplicam a WHITE
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os factos ilícitos dizem respeito, fundamentalmente, a causar dano, e não a acordos quebrados.
+
+**2.** A ausência de contrato é precisamente o que distingue muitas situações de facto ilícito dos litígios contratuais.
+
+**3.** Esta situação é uma ilustração clássica de responsabilidade por facto ilícito sem qualquer relação contratual.
+
+**4.** Reconhecer este panorama mais amplo de responsabilidade completa o quadro do risco jurídico para proprietários de imóveis e de empresas.
+
+## Pontos-chave
+
+- Um facto ilícito civil é uma conduta que causa dano, distinta de um contrato quebrado.
+- Os factos ilícitos podem surgir mesmo entre partes sem qualquer contrato.
+- Os proprietários de imóveis e de empresas enfrentam um risco de factos ilícitos distinto de qualquer risco contratual.
+- A literacia jurídica inclui compreender a responsabilidade baseada no dano, e não apenas a baseada em acordos.
+
+===== PURPLE-L1-009
+TITLE: Direito civil e direito penal: porque é que a distinção importa
+SUMMARY: Esclarece a distinção fundamental entre direito civil e direito penal, e porque é que este currículo se concentra quase inteiramente no lado civil.
+# Direito civil e direito penal: porque é que a distinção importa
+
+## Objetivos de aprendizagem
+
+- Distinguir o direito civil do direito penal.
+- Explicar as diferentes consequências e os diferentes padrões de prova envolvidos.
+- Reconhecer porque é que o âmbito do PURPLE é sobretudo civil, e não penal.
+
+## Conteúdo principal
+
+O direito civil regula litígios entre particulares – incumprimento contratual, factos ilícitos, litígios sobre propriedade –, em que o meio de reação típico é dinheiro ou uma decisão judicial, e não a prisão. O direito penal regula infrações contra a própria sociedade, perseguidas pelo Estado, em que a consequência possível inclui multas e prisão. Os dois sistemas diferem também no padrão de prova: em muitos países, os processos-crime exigem prova "para além de qualquer dúvida razoável", um padrão muito elevado, enquanto os processos civis usam normalmente um padrão mais baixo, muitas vezes a "preponderância da prova" (mais provável que sim do que que não). (Em Portugal, o processo penal orienta-se pelo princípio "in dubio pro reo"; a terminologia varia de país para país, mas a ideia de um patamar mais elevado no penal é semelhante.)
+
+Quase tudo o que este percurso PURPLE aborda – contratos, direito imobiliário, regulação dos valores mobiliários, estruturas empresariais – situa-se do lado civil desta distinção. Isso é intencional: os riscos jurídicos mais diretamente relevantes para construir património através do imobiliário, do investimento e dos negócios são riscos civis (ser demandado, perder um negócio, sofrer sanções regulatórias), e não riscos penais. O direito penal importa, mas é uma área diferente e mais especializada, e uma exposição penal séria é exatamente o tipo de situação que exige representação jurídica imediata e dedicada, e não apenas literacia geral.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário é demandado por um antigo cliente devido a um litígio contratual. Trata-se de uma questão civil ou penal, e porque é que a distinção importa na prática?
+
+**Aluno:** Com base nesta lição, é uma questão civil: um litígio privado sobre um contrato, e não uma infração perseguida pelo Estado.
+
+**Guia:** Como é que isso afeta o que está realmente em jogo para o empresário?
+
+**Aluno:** A consequência típica seria dinheiro ou uma decisão judicial, e não a prisão, e o padrão de prova que o cliente teria de atingir é mais baixo do que o padrão "para além de qualquer dúvida razoável" de um processo-crime.
+
+**Guia:** Exatamente: perceber em que sistema se está muda o que está realisticamente em jogo e o padrão que se aplica.
+
+## Teste de prática
+
+**Pergunta 1.** O direito civil regula em geral:
+
+A) Infrações contra a sociedade, perseguidas pelo Estado
+B) Litígios entre particulares, normalmente resolvidos com dinheiro ou decisões judiciais
+C) Apenas questões criminais
+D) Nenhum litígio jurídico real
+
+**Pergunta 2.** O padrão de prova do direito penal é normalmente:
+
+A) Mais baixo do que o padrão civil
+B) "Para além de qualquer dúvida razoável", um padrão muito elevado
+C) Idêntico ao padrão civil
+D) Inaplicável em qualquer sistema jurídico
+
+**Pergunta 3.** A maior parte do que o PURPLE aborda enquadra-se no:
+
+A) Direito penal
+B) Direito civil
+C) Nem direito civil, nem penal
+D) Apenas direito internacional
+
+**Pergunta 4.** Porque é que este percurso se concentra sobretudo no direito civil?
+
+A) O direito penal é irrelevante para toda a gente
+B) Os riscos jurídicos mais relevantes para construir património através de RED, WHITE e BLUE são riscos civis
+C) O direito civil não existe realmente
+D) Não é apresentada nenhuma razão relevante
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O direito civil trata de litígios privados, com meios de reação normalmente limitados a dinheiro ou a decisões judiciais, e não à prisão.
+
+**2.** O padrão penal mais elevado reflete a gravidade das consequências possíveis, incluindo a perda da liberdade.
+
+**3.** Contratos, propriedade, valores mobiliários e estrutura empresarial – o conteúdo central deste percurso – são todos temas de direito civil.
+
+**4.** Como o risco civil é o que ameaça mais diretamente as atividades de construção de património, é aí que deve estar o foco de literacia deste percurso.
+
+## Pontos-chave
+
+- O direito civil regula litígios privados; o direito penal regula infrações contra a sociedade.
+- O padrão de prova do direito penal é muito mais elevado do que o do direito civil.
+- O PURPLE concentra-se quase inteiramente no direito civil, diretamente relevante para RED, WHITE e BLUE.
+- Uma exposição penal séria exige representação jurídica imediata e dedicada, fora do âmbito deste percurso.
+
+===== PURPLE-L1-010
+TITLE: A analogia do médico revisitada: quando chamar um advogado
+SUMMARY: Aplica a já conhecida analogia do médico especificamente a situações jurídicas, dando ao aluno sinais concretos de quando a ajuda jurídica profissional é necessária.
+# A analogia do médico revisitada: quando chamar um advogado
+
+## Objetivos de aprendizagem
+
+- Recordar a analogia do médico e aplicá-la especificamente às decisões jurídicas.
+- Identificar sinais concretos de que uma situação exige um advogado.
+- Reforçar que a literacia jurídica e a representação jurídica se complementam e não se substituem.
+
+## Conteúdo principal
+
+Este currículo usou repetidamente a analogia do médico: quando algo é complexo, de alto risco ou incerto, os honorários de um profissional são um seguro contra um prejuízo muito maior, e não apenas um custo a evitar. Em nenhum outro lugar isto se aplica de forma mais direta do que no direito. Os erros jurídicos – um contrato mal redigido, um dever de informação não cumprido, uma empresa constituída de forma inadequada – podem ser extraordinariamente caros de corrigir depois, muito mais do que o custo de fazer bem desde o início.
+
+Sinais concretos de que uma situação exige um advogado incluem: qualquer transação que envolva muito dinheiro (a compra de um imóvel, a venda de uma empresa), qualquer documento que não se compreenda totalmente antes de assinar, constituir ou reestruturar uma empresa, enfrentar um litígio ou um processo real, e qualquer situação em que a abordagem "padrão" não se ajuste bem aos factos concretos. Tal como nas lições anteriores sobre este tema, o objetivo do PURPLE não é fazer de cada aluno o seu próprio advogado, mas torná-lo um cliente mais perspicaz e mais bem informado: alguém capaz de fazer melhores perguntas, de compreender o conselho que recebe e de reconhecer cedo quando uma situação entrou no território da ajuda profissional.
+
+## Exemplo prático
+
+**Pergunta:** Alguém redige o seu próprio contrato de compra de um imóvel com um modelo encontrado na internet, para uma compra de seis dígitos, sem qualquer revisão jurídica. O que sugere esta lição sobre esta abordagem?
+
+**Aluno:** Com base nesta lição, uma transação com tanto dinheiro envolvido é exatamente o tipo de situação que exige revisão jurídica profissional, e não apenas um modelo genérico.
+
+**Guia:** Qual é a verdadeira comparação de custos que aqui se faz?
+
+**Aluno:** O custo da revisão de um advogado no início versus o custo potencialmente muito maior de um erro jurídico descoberto mais tarde, quando já há dinheiro real e um imóvel real envolvidos.
+
+**Guia:** Exatamente: é a analogia do médico aplicada diretamente a esta situação.
+
+## Teste de prática
+
+**Pergunta 1.** A analogia do médico aplicada ao direito sugere que:
+
+A) Nunca se deve contratar um advogado
+B) Os honorários de um advogado são um seguro contra um prejuízo potencialmente muito maior
+C) Só as pessoas ricas precisam de advogado
+D) Os erros jurídicos são sempre baratos de corrigir
+
+**Pergunta 2.** Um sinal concreto de que uma situação exige um advogado inclui:
+
+A) Qualquer transação que envolva muito dinheiro
+B) Nada: os advogados nunca são necessários
+C) Apenas questões criminais
+D) Apenas litígios que já chegaram a tribunal
+
+**Pergunta 3.** Qual é, segundo esta lição, o objetivo declarado do PURPLE?
+
+A) Fazer do aluno o seu próprio advogado
+B) Tornar o aluno um cliente mais perspicaz e mais bem informado
+C) Eliminar totalmente a necessidade de advogados
+D) Ensinar apenas direito penal
+
+**Pergunta 4.** A estrutura desta lição retoma que tema anterior do currículo?
+
+A) A epifania dos sistemas
+B) A analogia do médico
+C) A relatividade das conquistas
+D) O paradoxo da escolha
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A lógica central de seguro contra o prejuízo aplica-se com especial força ao risco jurídico, dado o quanto os erros podem custar.
+
+**2.** As transações financeiras significativas são referidas explicitamente como um claro sinal para a revisão jurídica profissional.
+
+**3.** A literacia e o comportamento de cliente informado, e não a prática jurídica por conta própria, são o objetivo explícito em todo este percurso.
+
+**4.** Trata-se de uma reutilização direta e explícita da analogia do médico estabelecida antes no currículo, aplicada especificamente às decisões jurídicas.
+
+## Pontos-chave
+
+- A analogia do médico aplica-se diretamente ao direito: os honorários profissionais são um seguro contra um prejuízo maior.
+- Transações significativas, documentos desconhecidos, constituição de empresas e litígios são sinais claros para chamar um advogado.
+- O PURPLE procura tornar cada aluno um cliente mais perspicaz e mais bem informado, não um substituto da representação jurídica.
+- Isto encerra a secção de fundamentos antes de o percurso passar aos temas jurídicos específicos de RED, WHITE e BLUE.
