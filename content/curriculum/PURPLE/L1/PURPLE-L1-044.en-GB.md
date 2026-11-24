@@ -1,47 +1,98 @@
 ---
 id: PURPLE-L1-044
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 44
-title: "Non-Compete Clauses"
-summary: "A non-compete clause is a contractual provision, commonly found in an employment contract, that prevents a person from working for a competitor or starting a competing business for a set period after leaving their role. ASSUMPTION: Factors that generally affect the enforceability of a non-compete clause include the duration of the restriction, the geographic scope, and whether the restriction is reasonably necessary to protect a legitimate business interest, such as confidential information or customer relationships."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Powers of Attorney: Legal Authority to Act for Someone Else"
+summary: "Introduces the power of attorney as a legal tool granting someone authority to act on another's behalf, relevant to both business continuity and personal incapacity planning."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-044: Non-Compete Clauses
+
+# Powers of Attorney: Legal Authority to Act for Someone Else
 
 ## Learning Objectives
-1. Define a non-compete clause in general terms.
-2. Recognise factors that generally affect the enforceability of a non-compete clause.
-3. Recognise that enforceability varies significantly by legal system.
+
+- Define a power of attorney.
+- Distinguish general and limited powers of attorney.
+- Connect this to both business and personal planning contexts.
 
 ## Core Content
-*REGION-SPECIFIC RULE:* The enforceability of non-compete clauses varies enormously by country and region — some legal systems ban them almost entirely, while others allow them under certain conditions; this lesson describes only general concepts.
 
-A non-compete clause is a contractual provision, commonly found in an employment contract, that prevents a person from working for a competitor or starting a competing business for a set period after leaving their role. *ASSUMPTION:* Factors that generally affect the enforceability of a non-compete clause include the duration of the restriction, the geographic scope, and whether the restriction is reasonably necessary to protect a legitimate business interest, such as confidential information or customer relationships.
+A power of attorney (POA) is a legal document granting one person (the agent or attorney-in-fact) the authority to act on behalf of another person (the principal) in specified matters. A **general power of attorney** grants broad authority across financial and legal matters; a **limited (or special) power of attorney** grants authority only for a specific purpose or transaction, like signing closing documents for a real estate deal when the principal can't be present.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* A non-compete clause banning a former employee from working in any industry, anywhere in the world, for ten years would probably be considered excessively broad and unreasonable in many legal systems that do allow this type of clause. A more limited clause — such as banning working for a specific direct competitor within the same city for six months — would generally have a better chance of being considered reasonable and enforceable where such clauses are permitted.
+This tool matters in both business and personal contexts across this curriculum. In a BLUE-track business context, a POA might allow a trusted person to sign documents or make certain decisions when an owner is unavailable, supporting business continuity. In a broader personal planning context — connecting to GOLD's estate planning lessons — a POA is often specifically designed to take effect if the principal becomes incapacitated, ensuring someone has legal authority to manage their affairs without requiring a court proceeding, which is exactly the kind of proactive planning GOLD's succession section emphasised doing well before it feels urgent.
 
-## Practical Quiz
-1. What is a non-compete clause?
-2. Name a factor that generally affects the enforceability of a non-compete clause.
-3. True/False: Non-compete clauses are treated identically across all legal systems.
-4. Why might a ten-year clause with no geographic limit be considered unreasonable?
+For UK readers: the UK equivalent is usually a Lasting Power of Attorney (in England and Wales), which must be registered with the Office of the Public Guardian before it can be used; Scotland and Northern Ireland have their own rules.
+
+## Worked Example
+
+**Question:** Someone is planning a real estate closing but knows they'll be travelling and unable to attend in person. What legal tool from this lesson might address that situation?
+
+**Student:** Based on this lesson, a limited power of attorney could work — granting someone authority for that specific transaction, like signing the closing documents, without giving them broader authority beyond that purpose.
+
+**Guide:** How does that differ from a general power of attorney?
+
+**Student:** A general power of attorney would grant much broader authority across financial and legal matters, while a limited one is scoped narrowly to just the specific purpose needed, like this one closing.
+
+**Guide:** Exactly — matching the scope of authority to the actual need is the practical point here.
+
+
+## Practice Quiz
+
+
+**Question 1.** A power of attorney is:
+
+A) A type of court order
+B) A legal document granting one person authority to act on behalf of another
+C) The same as a will
+D) Irrelevant to business or personal planning
+
+
+**Question 2.** A general power of attorney grants:
+
+A) Authority for one narrow, specific purpose only
+B) Broad authority across financial and legal matters
+C) No real authority at all
+D) Only authority over real estate
+
+
+**Question 3.** A limited power of attorney is useful for situations like:
+
+A) Granting unlimited lifetime authority
+B) Signing closing documents for a specific transaction when the principal can't be present
+C) Nothing practical
+D) Only criminal matters
+
+
+**Question 4.** How does this lesson connect a power of attorney to GOLD's earlier content?
+
+A) No connection exists
+B) A POA can be designed to take effect upon incapacity, echoing GOLD's proactive succession planning theme
+C) Only to GOLD's precious metals content
+D) Only to GOLD's compounding lesson
+
 
 ## Answer Key
-1. A contractual provision restricting someone from working for a competitor for a set period   2. Duration, geographic scope, or the need to protect a legitimate business interest (among others)   3. False   4. Because of its excessive breadth in duration and scope
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of a non-compete clause.
-2. These are commonly cited factors affecting enforceability.
-3. The enforceability of these clauses varies enormously by legal system.
-4. Its excessive breadth is the commonly cited reason such clauses might be rejected.
 
-## Key Points to Remember
-- A non-compete clause restricts someone from working for a competitor for a set period.
-- Its enforceability generally depends on duration, geographic scope, and the reasonableness of the protected interest.
-- The enforceability of these clauses varies enormously by country and region.
+**1.** This document specifically creates delegated legal authority for the named agent.
+
+**2.** Broad, general authority is the defining feature distinguishing this type from a limited POA.
+
+**3.** This narrowly scoped authority is a practical, common real-world use of a limited power of attorney.
+
+**4.** This connects directly to GOLD's emphasis on proactive, incapacity-anticipating planning, done before it feels urgent.
+
+## Key Takeaways
+
+- A power of attorney grants delegated legal authority to act on someone else's behalf.
+- General POAs grant broad authority; limited POAs are scoped to a specific purpose.
+- This tool supports both business continuity and personal incapacity planning.
+- This connects directly to the proactive planning theme from GOLD's succession section.

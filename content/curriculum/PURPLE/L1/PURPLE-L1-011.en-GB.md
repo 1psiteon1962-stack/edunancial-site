@@ -1,47 +1,96 @@
 ---
 id: PURPLE-L1-011
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 11
-title: "Warranties — Express vs. Implied"
-summary: "A warranty is a promise relating to the quality, performance, or condition of a product or service. VERIFIED FACT: An express warranty is a promise specifically stated, either in writing or verbally, by the seller or manufacturer. An implied warranty generally arises automatically by law, without anyone needing to state it, based on reasonable expectations about the product."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Business Structures Revisited: A Legal Lens"
+summary: "Revisits the business structure concept from BLUE and GREEN through a specifically legal lens: liability exposure rather than tax treatment."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-011: Warranties — Express vs. Implied
+
+# Business Structures Revisited: A Legal Lens
 
 ## Learning Objectives
-1. Define warranty in general terms.
-2. Distinguish an express warranty from an implied warranty.
-3. Recognise a common example of an implied warranty.
+
+- Recall business structures from earlier tracks.
+- Reframe the structure decision around legal liability rather than tax treatment.
+- Preview the next several lessons, which examine each structure's legal exposure.
 
 ## Core Content
-A warranty is a promise relating to the quality, performance, or condition of a product or service. *VERIFIED FACT:* An **express warranty** is a promise specifically stated, either in writing or verbally, by the seller or manufacturer. An **implied warranty** generally arises automatically by law, without anyone needing to state it, based on reasonable expectations about the product.
 
-*ASSUMPTION:* A commonly cited example of an implied warranty is the "warranty of merchantability", which generally suggests that a product sold by a merchant will work reasonably well for its ordinary purpose — though the precise details and exceptions vary by legal system.
+Earlier tracks covered business structures from a tax perspective (GREEN) and an operational perspective (BLUE). This section adds a third, critical lens: legal liability. The structure a business uses doesn't just affect how it's taxed — it fundamentally determines who is personally on the hook if the business is sued, defaults on debt, or otherwise faces a legal claim.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* When an appliance manufacturer states in writing that a washing machine "is guaranteed for two years against defects", this is an express warranty. Even without that written statement, the law would generally implicitly expect a new washing machine to actually wash clothes reasonably well — this basic expectation is what the implied warranty of merchantability covers.
+This distinction matters because the "best" structure for tax purposes and the "best" structure for liability protection aren't always the same choice, and business owners sometimes discover this gap only after a problem arises — by which point it's too late to fix. The next several lessons walk through sole proprietorships, LLCs, corporations, and partnerships specifically from this legal liability angle, building toward a fuller, more complete picture of what "choosing a business structure" actually means when you consider tax, operations, and legal exposure together.
 
-## Practical Quiz
-1. What is an express warranty?
-2. What is an implied warranty?
-3. True/False: An implied warranty must be stated in writing to exist.
-4. Name a commonly cited example of an implied warranty.
+## Worked Example
+
+**Question:** A business owner chose their structure purely based on which one seemed simplest to set up, without considering liability exposure at all. What gap does this lesson suggest that decision might have?
+
+**Student:** Based on this lesson, they may have overlooked how much personal liability protection that structure actually provides, which is a separate question from simplicity or tax treatment.
+
+**Guide:** Why might this gap only become obvious later, rather than at the time of the decision?
+
+**Student:** Because the liability protection only really gets tested if something goes wrong — a lawsuit or a business debt default — which might not happen until well after the structure was chosen.
+
+**Guide:** Exactly — which is why understanding this upfront matters more than discovering it under pressure.
+
+
+## Practice Quiz
+
+
+**Question 1.** This lesson adds which lens to the business structure discussion?
+
+A) Marketing strategy
+B) Legal liability
+C) Employee morale
+D) Office location
+
+
+**Question 2.** The 'best' structure for tax purposes is:
+
+A) Always identical to the best structure for liability protection
+B) Not always the same as the best structure for liability protection
+C) Irrelevant to liability
+D) The only consideration that matters
+
+
+**Question 3.** What determines who is personally on the hook if a business is sued or defaults on debt?
+
+A) The business's marketing budget
+B) The legal structure the business uses
+C) The business's tax filing status alone
+D) Nothing — this is random
+
+
+**Question 4.** What do the next several lessons in this section cover?
+
+A) Only tax rates
+B) Sole proprietorships, LLCs, corporations, and partnerships from a liability angle
+C) Only marketing strategy
+D) Only real estate law
+
 
 ## Answer Key
-1. A promise specifically stated by the seller or manufacturer   2. A promise that arises automatically by law based on reasonable expectations   3. False   4. The warranty of merchantability
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of an express warranty.
-2. This is the fundamental definition of an implied warranty.
-3. Implied warranties arise automatically by law, with no statement required.
-4. This is a commonly cited example, though details vary by legal system.
 
-## Key Points to Remember
-- An express warranty is a promise specifically stated by the seller or manufacturer.
-- An implied warranty arises automatically by law based on reasonable expectations.
-- The warranty of merchantability is a commonly cited example of an implied warranty.
+**1.** Legal liability is the specific new angle this section adds to the earlier tax and operational perspectives.
+
+**2.** Tax efficiency and liability protection are separate dimensions that don't always align in the same structure choice.
+
+**3.** Structure choice is the primary legal determinant of personal exposure to business risk.
+
+**4.** This section systematically works through each major structure type specifically from the liability perspective.
+
+## Key Takeaways
+
+- Business structure determines legal liability exposure, a separate question from tax treatment.
+- The tax-optimal and liability-optimal structures aren't always the same choice.
+- This gap often only becomes apparent after a problem arises, which is why understanding it upfront matters.
+- The next lessons examine each major structure type through this specific liability lens.

@@ -1,47 +1,96 @@
 ---
 id: PURPLE-L1-007
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 7
-title: "What Is a Tort?"
-summary: "What Is a Tort?"
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Reading a Contract: A Practical Walkthrough"
+summary: "Provides a practical framework for approaching an unfamiliar contract, reducing the intimidation factor by breaking it into manageable sections."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-007: What Is a Tort?
+
+# Reading a Contract: A Practical Walkthrough
 
 ## Learning Objectives
-1. Define a tort in simple terms.
-2. Distinguish it from breach of contract.
-3. Recognise the broad categories of tort.
+
+- Identify common sections found in most contracts.
+- Apply a practical, step-by-step approach to reading an unfamiliar contract.
+- Recognise which sections warrant the closest attention.
 
 ## Core Content
-*VERIFIED FACT:* A tort is a harmful act, distinct from a breach of contract, that causes loss or damage to another person, and for which the law allows the injured party to seek compensation.
 
-*ASSUMPTION:* Torts generally fall into broad categories: intentional torts (where someone acts deliberately in a harmful way, such as an assault), negligence (where someone fails to exercise reasonable care, causing harm unintentionally), and strict liability (where someone can be held liable regardless of intent or care, generally in inherently dangerous activities).
+Most contracts, however long and intimidating, share a common general structure: parties (who's involved), recitals (background context, often starting with "whereas"), terms (the actual obligations — price, timing, what each side must do), representations and warranties (statements each party is making about facts, like ownership or authority to sign), default and remedies (what happens if someone doesn't perform, echoing the last lesson), and signatures (formal execution).
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* If a shop leaves the floor wet with no warning signs, and a customer slips and is injured, the shop might be held liable for negligence — it did not act intentionally to harm anyone, but it failed to exercise reasonable care to prevent the harm. This differs from a breach of contract, since there was no agreement between the shop and the customer about this specific matter.
+A practical approach to reading an unfamiliar contract: first, identify who the parties actually are and what each one is promising to do. Second, find the core business terms — price, dates, deliverables — since these carry the most immediate practical weight. Third, pay close attention to the default/remedies section, since that's where you'll learn what actually happens if something goes wrong. Fourth, note anything that feels unusual, one-sided, or unclear, and flag it for a professional rather than guessing at its meaning. This structured approach turns an intimidating wall of text into a manageable checklist.
 
-## Practical Quiz
-1. What is a tort?
-2. How does a tort differ from breach of contract?
-3. Name a broad category of tort.
-4. In the shop example, what type of tort is illustrated?
+## Worked Example
+
+**Question:** Someone receives a 20-page contract and feels overwhelmed, unsure where to even begin. What would this lesson suggest as a starting approach?
+
+**Student:** Based on this lesson, start by identifying the parties and what each one is actually promising, rather than trying to absorb the whole document at once.
+
+**Guide:** After that, what would be the next most important thing to look for?
+
+**Student:** The core business terms — price, dates, deliverables — since those carry the most immediate practical weight, and then the default and remedies section for what happens if something goes wrong.
+
+**Guide:** Exactly — breaking it into that sequence turns an intimidating document into a manageable checklist.
+
+
+## Practice Quiz
+
+
+**Question 1.** Common sections found in most contracts include:
+
+A) Parties, terms, representations, default/remedies, signatures
+B) Only a single paragraph
+C) No identifiable structure at all
+D) Only a price and a date
+
+
+**Question 2.** The 'representations and warranties' section generally contains:
+
+A) Random unrelated information
+B) Statements each party is making about facts, like ownership or authority
+C) Only the contract's title
+D) The signatures
+
+
+**Question 3.** A practical first step in reading an unfamiliar contract is:
+
+A) Skip straight to the signature page
+B) Identify the parties and what each is promising to do
+C) Ignore the document entirely
+D) Only read the last paragraph
+
+
+**Question 4.** What should be done with anything unusual, one-sided, or unclear in a contract?
+
+A) Ignore it and sign anyway
+B) Flag it for a professional rather than guessing at its meaning
+C) Assume it's a typo
+D) Delete that section unilaterally
+
 
 ## Answer Key
-1. A harmful act that causes loss or damage to another person, distinct from breach of contract   2. It does not involve an agreement between the parties, unlike breach of contract   3. Intentional, negligence, or strict liability (among others)   4. Negligence
+
+1. A, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of a tort.
-2. This is the key distinction between torts and breach of contract.
-3. These are the commonly cited broad categories of tort.
-4. The lack of reasonable care without harmful intent characterises negligence.
 
-## Key Points to Remember
-- A tort is a harmful act, distinct from a contract, that causes loss to another person.
-- It differs from breach of contract in that it does not involve an agreement between the parties.
-- The broad categories include intentional torts, negligence, and strict liability.
+**1.** This general structure recurs across most contracts, regardless of length or subject matter.
+
+**2.** Representations and warranties are factual assurances each party is making, which matter if they later turn out to be false.
+
+**3.** Understanding who's involved and what's being promised is the natural starting point for making sense of the rest.
+
+**4.** Flagging unclear or unusual terms for professional review, rather than guessing, is the responsible approach.
+
+## Key Takeaways
+
+- Most contracts share a common structure: parties, terms, representations, default/remedies, signatures.
+- A practical reading approach: parties first, then core terms, then default/remedies, then flag anything unclear.
+- This structured approach reduces the intimidation factor of long, unfamiliar documents.
+- Unusual or unclear terms should be flagged for professional review, not guessed at.

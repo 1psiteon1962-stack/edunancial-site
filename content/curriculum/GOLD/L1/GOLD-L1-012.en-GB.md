@@ -1,228 +1,54 @@
 ---
 id: GOLD-L1-012
 track: GOLD
-officialTrackName: Investing and Wealth Building
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 12
 locale: en-GB
 title: "Premiums, Spreads, and Dealer Basics"
-summary: "This lesson develops premiums and spreads."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductory
-estimatedTime: 35–50 minutes
-prerequisites: "GOLD-L1-011"
-componentIds:
-  - GOLD-L1-012-MAIN
-  - GOLD-L1-012-EXAMPLES
-  - GOLD-L1-012-EXERCISE
-  - GOLD-L1-012-ASSESSMENT
-  - GOLD-L1-012-ANSWER-KEY
-  - GOLD-L1-012-COMPETENCY
-  - GOLD-L1-012-AI
-  - GOLD-L1-012-SEO
-  - GOLD-L1-012-LOCALIZATION
-  - GOLD-L1-012-REFERENCES
+summary: "Explains the difference between the spot price of metal and what a buyer actually pays."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
 # Premiums, Spreads, and Dealer Basics
 
-### GOLD-L1-012-MAIN
-
-## Executive Summary
-
-This lesson develops **premiums and spreads**. The central issue is reference price, purchase premium, dealer bid and the gap between buying and selling. The aim is not to tell a learner what to buy. It is to build the ability to make investment decisions using clear objectives, numbers, costs, risk, alternatives and a disciplined process.
-
 ## Learning Objectives
+- Define spot price, premium, and spread in plain terms
+- Explain why the price paid for physical metal differs from the spot price
+- Recognise the importance of comparing dealers before buying
 
-- **Financial Literacy:** explain premiums and spreads clearly.
-- **Financial Competency:** apply the concept to a practical situation.
-- **Better Judgement:** recognise benefits, limitations and risks.
-- **Better Decisions:** calculate the true economic entry and exit cost.
-- **Wealth Building:** integrate the skill into a long-term process without relying on predictions.
+## Core Content
 
-## Prerequisites
+The spot price is the current market price for a given quantity of unfinished metal — the benchmark price you'll see quoted publicly. When actually buying physical metal from a dealer, the price paid is typically higher than spot, and this difference is called the premium. The premium covers the dealer's costs of fabricating the coin or bar, distribution, and their margin.
 
-GOLD-L1-011.
+The spread is the gap between what a dealer will sell a piece of metal for and what they'll buy the same piece back for — a dealer's buy-back price is typically lower than their sell price, and that gap represents part of the dealer's business margin. Different dealers offer different premiums and spreads, and different products (common coins versus less common bars, for example) can carry different premium levels. Comparing multiple dealers and understanding these costs upfront helps an investor avoid overpaying and understand the real cost of buying and eventually selling physical metal.
 
-## Main Lesson
+## Worked Example
 
-### 1. Understand the Concept
+ILLUSTRATIVE EXAMPLE: If the spot price for an ounce of silver is a certain published amount, a dealer might sell a common silver coin for spot price plus a premium reflecting minting and distribution costs. If that same investor later wants to sell the coin back, the dealer's buy-back offer would typically be somewhat lower than the current sell price — the spread. Understanding both the premium paid when buying and the spread when selling helps an investor realistically estimate what a position is actually worth if it needed to be converted back to cash, rather than assuming it's worth exactly the spot price at all times.
 
-[VERIFIED FACT] An investment decision should begin with an objective, time horizon, liquidity needs and capacity to bear risk. In considering **premiums and spreads**, the learner must understand reference price, purchase premium, dealer bid and the gap between buying and selling.
+## Practice Quiz
 
-An investment may suit one person and be unsuitable for another. Price is only one variable. Costs, resale options, security, applicable taxation, alternatives and the date when the money may be required all matter.
-
-### 2. Think Before Acting
-
-Ask five questions: What is my objective? How much capital is genuinely available? For how long? What can go wrong? What is the best alternative use of this money?
-
-[ILLUSTRATIVE EXAMPLE] A learner has £7,500 in savings, but £5,500 is allocated to an emergency reserve. The account balance therefore does not equal available investment capital. Separating the jobs of money can reduce the chance of a forced sale.
-
-### 3. Costs, Risk and Outcome
-
-Assume the reference metal value in a product is £500, the purchase price is £545 and the immediate dealer buy-back price is £480. The £65 gap between purchase and immediate resale matters before any investment gain can occur.
-
-Risk is broader than a falling market price. It can include liquidity, fraud, counterfeiting, physical loss, concentration, custody costs, taxation and having to sell earlier than planned.
-
-### 4. Apply the Lesson
-
-Turn **premiums and spreads** into an observable decision rule: calculate the true economic entry and exit cost. A written rule established before market movements can help prevent fear, excitement, social media or sales pressure from replacing analysis.
-
-[ASSUMPTION] All monetary figures in this lesson are educational examples. They are not forecasts or promises of return.
-
-### 5. Judge the Process, Not Just the Outcome
-
-A sound decision can have a poor outcome, while a poor decision can benefit from luck. Evaluate the process first: information, costs, alternatives, risks and fit with the objective. Measure the result afterwards and adjust when relevant facts change.
-
-## Key Definitions
-
-- **Asset:** a resource with economic value.
-- **Return:** the gain or loss associated with an investment.
-- **Risk:** the possibility that the outcome differs from expectations.
-- **Liquidity:** the ability to convert an asset into cash promptly without a substantial discount.
-- **Opportunity cost:** the potential benefit of the best alternative forgone.
-- **Premiums and spreads:** the lesson's central concept as applied to investment decision-making.
-
-## Worked Examples
-
-### GOLD-L1-012-EXAMPLES
-
-**Example 1 — entry and exit:** A product costs £2,625 while its reference metal value is £2,500. If the immediate buy-back price is £2,430, the economic gap between purchase and immediate resale is £195.
-
-**Example 2 — concentration:** In a £50,000 portfolio, £2,500 is a 5% position while £25,000 is a 50% position. The same asset can therefore create very different portfolio risk.
-
-**Example 3 — time horizon:** Money required in three months for housing, education or repairs has a different job from capital intended for a ten-year objective.
-
-## Case Study and Decision Lab
-
-Sophie wants to buy precious metals after reading inflation headlines. She has £30,000 in savings and essential monthly expenditure of approximately £7,000. She first separates her emergency reserve, chooses a modest regular contribution, compares total transaction costs and schedules quarterly reviews.
-
-**Decide before reading the analysis:** Gold has risen for two weeks. Should Sophie immediately double her planned purchase? Explain your decision using objective, budget, risk and **premiums and spreads**.
-
-**Analysis:** A recent price rise alone does not change her financial capacity or objective. A plan change should depend on relevant new facts and criteria established in advance.
-
-## Common Mistakes
-
-1. Confusing a compelling narrative with evidence.
-2. Investing emergency savings.
-3. Ignoring premiums, spreads, fees or custody.
-4. Concentrating too much wealth in one idea.
-5. Changing the plan because of ordinary market fluctuations.
-6. Failing to maintain adequate records.
-
-## FAQ
-
-**Does this concept guarantee a profit?** No. No investment process eliminates risk.
-
-**Must I predict the gold price?** No. Disciplined investing does not require precise short-term forecasting.
-
-**Does owning more metal always mean greater safety?** No. Excessive concentration can increase risk.
-
-**When should I review my plan?** At scheduled intervals and when income, goals, liquidity needs or the portfolio materially change.
-
-## Key Takeaways
-
-- Premiums and spreads should be linked to a defined objective.
-- Costs and liquidity affect economic results.
-- Position size changes risk.
-- Written rules can reduce emotional decision-making.
-- Reviews should be driven by evidence and material changes.
-
-## Practical Exercise
-
-### GOLD-L1-012-EXERCISE
-
-Prepare a one-page decision sheet containing: your objective, horizon, genuinely available capital excluding emergency savings, three risks, two costs to verify, one alternative use for the capital, one rule concerning **premiums and spreads**, and the date of your next review.
-
-## Socratic Teaching Guide
-
-### GOLD-L1-012-AI
-
-1. What financial problem does this concept help solve?
-2. How would you explain **premiums and spreads** to a beginner?
-3. What information is required before acting?
-4. What adverse outcome is realistically possible?
-5. Which costs might sit outside an advertised price?
-6. What changes if the money is required in six months?
-7. What happens if the position becomes half of total investable assets?
-8. What is the strongest alternative use of the capital?
-9. Which written rule could reduce an emotional reaction?
-10. What new fact would justify reviewing the plan?
-
-## Competency Assessment
-
-### GOLD-L1-012-ASSESSMENT
-
-1. What should come before selecting an investment? A) Predict tomorrow B) Define objective, horizon and capacity C) Buy the most popular product D) Follow a seller without verification.
-2. True or false: an investment can suit one person and not another.
-3. Purchase price £1,050; immediate resale £970. What is the difference?
-4. Define liquidity.
-5. What is opportunity cost? A) Best alternative forgone B) Only a fee C) Only inflation D) None.
-6. True or false: diversification eliminates all risk.
-7. Name two risks other than a falling market price.
-8. £10,000 in a £50,000 portfolio is what percentage?
-9. Why can a written rule help during volatility?
-10. In two sentences, explain how you would apply **premiums and spreads** before a purchase.
+1. Define spot price, premium, and spread in your own words.
+2. Why does the price paid for physical metal typically exceed the spot price?
+3. What does the spread represent?
+4. Why does understanding premiums and spreads matter for an investor?
 
 ## Answer Key
+1. Spot price is the current market benchmark price; premium is the added cost above spot when buying; spread is the gap between a dealer's buy and sell prices.
+2. Because the premium covers the dealer's fabrication, distribution, and margin costs.
+3. The gap between what a dealer sells for and what they'll buy back for, representing part of the dealer's margin.
+4. It helps an investor realistically estimate the true cost of buying and the true value if selling, rather than assuming a position is worth exactly spot price at all times.
 
-### GOLD-L1-012-ANSWER-KEY
+## Answers and Explanations
+1. These three definitions establish the basic pricing vocabulary for physical metal transactions.
+2. Dealer costs and margin are the practical reasons for the premium above spot price.
+3. The spread reflects a normal part of a dealer's business model, not a hidden or unusual cost.
+4. Realistic value estimation, accounting for both buying and selling costs, is the practical payoff of understanding these terms.
 
-1. **B.** Competency: preparation. Common misconception: start with the product.
-2. **True.** Competency: suitability in context.
-3. **£80.** Competency: entry/exit economics.
-4. **The ability to convert an asset into cash promptly without a substantial discount.**
-5. **A.** Competency: comparing alternatives.
-6. **False.** Diversification can reduce some risks; it cannot remove all risk.
-7. **Examples:** liquidity, fraud, custody, counterparty, concentration or taxation.
-8. **20%.** Competency: concentration.
-9. **It establishes criteria before emotional pressure arises.**
-10. **Expected:** connect the concept with objective, horizon, budget, costs, risks and a decision rule.
-
-## Competency Standard
-
-### GOLD-L1-012-COMPETENCY
-
-- **Mastery threshold:** 8 correct answers out of 10 (80%).
-- **Remediation:** revisit each weak topic, redo one numerical example and explain the decision in the learner's own words.
-- **Progression:** mastery unlocks GOLD-L1-013.
-
-## Further Reading
-
-Use current official educational, regulatory and tax sources relevant to the learner's jurisdiction. Legal, tax and consumer-protection rules should be verified before application and discussed with a suitably qualified professional where appropriate.
-
-## Lesson Path
-
-- **Previous:** GOLD-L1-011
-- **Current:** GOLD-L1-012 — Premiums, Spreads, and Dealer Basics
-- **Next:** GOLD-L1-013
-
-## SEO Block
-
-### GOLD-L1-012-SEO
-
-**Target terms:** premiums and spreads, precious metals, investing, financial education, GOLD Level 1  
-**Meta description:** Understand premiums and spreads and apply the principle to more disciplined investment decisions.
-
-## AI Support Block
-
-### GOLD-L1-012-AI
-
-The tutor should explain concepts, require reasoning, use hypothetical examples and correct misconceptions. It must not guarantee returns, predict prices or provide personalised financial, legal or tax advice.
-
-## Localisation Block
-
-### GOLD-L1-012-LOCALIZATION
-
-- **Global:** objectives, risk, costs, diversification, liquidity and discipline.
-- **United Kingdom:** use British English and pounds sterling. Tax treatment, regulation, consumer protection and product-specific rules must be checked against current UK official sources before being presented as applicable rules.
-
-## References and Verification
-
-### GOLD-L1-012-REFERENCES
-
-- General financial concepts: presented without market forecasts.
-- Monetary figures: illustrative examples.
-- UK-specific rules: current verification required before application.
-- Current market prices or statistics: not used.
+## Key Takeaways
+- Spot price is the market benchmark; the premium is what a dealer adds when selling physical metal.
+- The spread is the gap between a dealer's buy and sell prices, representing part of their margin.
+- Comparing dealers and understanding these costs helps an investor realistically estimate a position's true value.

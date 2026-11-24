@@ -1,47 +1,96 @@
 ---
 id: PURPLE-L1-039
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 39
-title: "Child Custody and Child Support"
-summary: "Child Custody and Child Support"
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Asset Protection: Legally Separating Risk from Reward"
+summary: "Opens the asset protection section, introducing the general legal concept of deliberately structuring assets to reduce exposure to future legal claims."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-039: Child Custody and Child Support
+
+# Asset Protection: Legally Separating Risk from Reward
 
 ## Learning Objectives
-1. Distinguish physical custody from legal custody.
-2. Define child support in general terms.
-3. Explain the general standard courts generally use to decide custody.
+
+- Define asset protection in general legal terms.
+- Distinguish legitimate asset protection from fraudulent asset concealment.
+- Preview the tools covered in the rest of this section.
 
 ## Core Content
-*VERIFIED FACT:* **Physical custody** generally refers to who the child lives with and who provides day-to-day care, while **legal custody** generally refers to who has the right to make important decisions about the child's life, such as education and medical care. These two forms can be shared between parents or awarded predominantly to one of them, depending on the arrangement.
 
-*ASSUMPTION:* Courts generally use the "best interests of the child" standard to decide custody arrangements, meaning parents' preferences are generally secondary to the child's wellbeing, considering factors such as stability, the existing relationship with each parent, and each parent's ability to meet the child's needs.
+Asset protection refers to legally structuring how assets are held and organised to reduce exposure to potential future legal claims — lawsuits, business liabilities, creditor claims — without violating the law. This connects directly back to earlier lessons in this track: business structure choice (LLCs, corporations) is itself a form of asset protection, and the concepts covered in this remaining section — trusts, insurance, careful handling of personal guarantees — add further tools to that same general goal.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* After a divorce, parents might share legal custody — both involved in decisions about the child's schooling and medical care — while predominant physical custody rests with just one parent, with whom the child lives most of the time, and the other parent having regular visitation. Child support would generally be calculated separately, often based on each parent's income and the physical custody arrangement.
+It's essential to draw a sharp, explicit line here: legitimate asset protection is done proactively, before any specific claim exists or is reasonably anticipated, using legal structures transparently. Fraudulent asset concealment — moving or hiding assets specifically to evade a known, existing, or clearly anticipated legal claim — is illegal and can be unwound by a court, sometimes with additional penalties. The timing and transparency of asset protection planning is what separates a legitimate, prudent legal strategy from an illegal attempt to cheat creditors or claimants, which is exactly why this kind of planning benefits from being done early and with genuine professional guidance, not reactively once a problem has already surfaced.
 
-## Practical Quiz
-1. What is physical custody?
-2. What is legal custody?
-3. True/False: Parents' preferences are generally more important than the child's wellbeing when deciding custody.
-4. What general standard do courts use to decide custody arrangements?
+## Worked Example
+
+**Question:** Someone facing an imminent, specific lawsuit suddenly transfers their assets to a family member's name to keep them out of reach. Is this legitimate asset protection, per this lesson?
+
+**Student:** Based on this lesson, no — this sounds like fraudulent asset concealment, since it's happening in response to a known, existing legal claim, not proactive planning done before any specific claim existed.
+
+**Guide:** What could happen legally to this kind of last-minute transfer?
+
+**Student:** A court could potentially unwind the transfer, and there could be additional penalties, since it was done specifically to evade a known claim rather than as legitimate, transparent planning.
+
+**Guide:** Exactly — timing and transparency are what separate legitimate asset protection from illegal concealment.
+
+
+## Practice Quiz
+
+
+**Question 1.** Asset protection refers to:
+
+A) Illegally hiding assets from any legal claim
+B) Legally structuring assets to reduce exposure to potential future claims, without violating the law
+C) Only relevant to criminals
+D) A guarantee against all possible legal risk
+
+
+**Question 2.** Business structure choice, like forming an LLC, is:
+
+A) Unrelated to asset protection
+B) Itself a form of asset protection
+C) Illegal in most jurisdictions
+D) Only relevant to real estate
+
+
+**Question 3.** What distinguishes legitimate asset protection from fraudulent concealment?
+
+A) No real distinction exists
+B) Timing and transparency — proactive, transparent planning before any specific claim exists
+C) The dollar amount involved
+D) Whether a lawyer was involved at any point
+
+
+**Question 4.** What can happen to a transfer made specifically to evade a known, existing legal claim?
+
+A) Nothing — it's always effective
+B) A court can potentially unwind it, with possible additional penalties
+C) It's automatically legal regardless of timing
+D) This scenario never actually happens
+
 
 ## Answer Key
-1. Who the child lives with and who provides day-to-day care   2. Who has the right to make important decisions about the child's life   3. False   4. The "best interests of the child"
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of physical custody.
-2. This is the fundamental definition of legal custody.
-3. The child's wellbeing is generally the priority factor, not the parents' preferences.
-4. This is the commonly cited standard used by courts.
 
-## Key Points to Remember
-- Physical custody concerns who the child lives with; legal custody concerns who makes the important decisions.
-- Both can be shared or awarded predominantly to one parent.
-- Courts generally use the "best interests of the child" standard to decide these arrangements.
+**1.** This structuring must occur within legal bounds, distinguishing it from illegal concealment.
+
+**2.** Structure choice, covered earlier in this track, is explicitly framed as one form of asset protection.
+
+**3.** Proactive, transparent planning before a claim exists is the key legal distinction this lesson draws.
+
+**4.** Courts retain the power to reverse improperly timed transfers, undermining any attempt to evade a known claim.
+
+## Key Takeaways
+
+- Asset protection is legal structuring to reduce future claim exposure, done within legal bounds.
+- Business structure choice is itself one form of asset protection.
+- Legitimate asset protection is proactive and transparent; fraudulent concealment reacts to a known claim.
+- This distinction is why asset protection planning benefits from being done early, with real professional guidance.

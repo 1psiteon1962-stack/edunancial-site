@@ -4,230 +4,53 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 20
-title: "20. Persévérance vs. Entêtement : Savoir Lequel Vous Pratiquez"
-summary: "Cette leçon développe une compétence pratique en persévérance et entêtement. Le participant apprend à reconnaître le problème, distinguer faits et hypothèses, examiner les conséquences humaines, opérationnelles et financières, décider avec des critères et vérifier le résultat."
-locale: "fr-FR"
+locale: fr-FR
+title: "Persévérance ou entêtement : savoir lequel vous pratiquez"
+summary: "Distingue la persévérance saine de l’entêtement nuisible et fournit un cadre permettant de les différencier."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# 20. Persévérance vs. Entêtement : Savoir Lequel Vous Pratiquez
-### BLACK-L1-020-MAIN
-## Résumé exécutif
-Cette leçon développe une compétence pratique en **persévérance et entêtement**. Le participant apprend à reconnaître le problème, distinguer faits et hypothèses, examiner les conséquences humaines, opérationnelles et financières, décider avec des critères et vérifier le résultat.
+
+# Persévérance ou entêtement : savoir lequel vous pratiquez
 
 ## Objectifs d’apprentissage
-- **Culture financière :** reconnaître les ressources consommées, protégées ou créées par la décision.
-- **Compétence financière :** relier le thème aux coûts, recettes, marges, trésorerie et risques pertinents.
-- **Meilleur jugement :** séparer faits, hypothèses, intérêts et options.
-- **Meilleures décisions :** définir critères, responsable, délai et indicateur.
-- **Création de patrimoine :** comprendre comment la discipline protège le capital et la capacité de réinvestissement.
+- Distinguer la persévérance de l’entêtement
+- Identifier un cadre permettant de les différencier sur le moment
+- S’exercer à appliquer ce cadre à une décision réelle ou hypothétique
 
-## Prérequis
-Aucun diplôme de gestion n’est requis. Des calculs simples et la volonté de tester ses hypothèses suffisent.
+## Contenu principal
 
-## Leçon principale
-### Définir le résultat
-Le thème **persévérance et entêtement** devient opérationnel lorsqu’il est relié à un résultat observable. Le dirigeant précise ce qu’il veut obtenir, qui est concerné, les contraintes et ce qui prouvera une amélioration.
+La persévérance et l’entêtement peuvent sembler identiques de l’extérieur : les deux impliquent de continuer malgré la résistance. La différence consiste à savoir si l’approche sous-jacente fonctionne réellement ou est adaptée, plutôt que de répéter la même approche qui a échoué par ego ou par peur de sembler abandonner.
 
-### Séparer faits et hypothèses
-[FAIT VÉRIFIÉ] Une décision disciplinée distingue ce qui est observé de ce qui est supposé. Les hypothèses écrites peuvent être testées au lieu d’être traitées comme des certitudes.
+Un cadre utile : la persévérance maintient l’objectif tout en adaptant la méthode selon ce qui est appris en cours de route. L’entêtement maintient à la fois l’objectif et la méthode, en ignorant les preuves que cette méthode ne fonctionne pas. Une personne qui poursuit un objectif avec persévérance adapte son approche après avoir reçu de la rétroaction; une personne qui le poursuit avec entêtement continue de faire la même chose en espérant un résultat différent.
 
-### Examiner les conséquences
-Chaque choix mobilise temps, argent ou capacité. Il faut examiner coût direct, coût d’opportunité, effet possible sur recettes, marge, trésorerie, productivité, risque et confiance.
+Pour déterminer lequel des deux vous pratiquez, il faut une réflexion personnelle honnête : est-ce que j’adapte mon approche selon ce que j’apprends, ou est-ce que je répète simplement la même chose en espérant qu’elle finira par fonctionner par la seule force de ma volonté? Le premier comportement est une force de leadership. Le deuxième ne l’est généralement pas, même s’ils peuvent sembler identiques de l’intérieur.
 
-### Comparer les options
-Avant d’agir, comparez au moins deux options selon impact, coût, délai, risque et réversibilité. Les critères définis avant la décision réduisent l’influence de l’urgence et de l’ego.
+## Exemple pratique
 
-### Exécuter et réviser
-Une décision exige un responsable, une échéance, un indicateur et une date de révision. Modifier la méthode lorsque les preuves changent n’est pas une faiblesse; c’est une compétence.
+Une personne qui appelait des maisons de disques pour obtenir du contenu vidéo a continué d’appeler différentes entreprises — persévérance, en adaptant les entreprises approchées et en ajoutant éventuellement l’angle de « l’égalité des chances » lorsqu’elle a obtenu une véritable rétroaction sur ce qui fonctionnait — plutôt que d’appeler sans cesse les mêmes quelques entreprises avec un argumentaire identique qui avait déjà échoué, ce qui aurait été de l’entêtement. L’objectif est demeuré le même — obtenir des vidéos — mais la méthode a évolué selon ce qui se produisait réellement pendant les appels.
 
-## Définitions clés
-- **Objectif :** résultat recherché.
-- **Indicateur :** mesure permettant de vérifier un résultat.
-- **Risque :** possibilité d’un résultat défavorable.
-- **Hypothèse :** proposition à tester.
-- **Coût d’opportunité :** valeur de la meilleure option abandonnée.
+## Questionnaire pratique
 
-## Exemple développé
-### BLACK-L1-020-EXAMPLES
-[EXEMPLE ILLUSTRATIF] Une petite organisation doit améliorer persévérance et entêtement. Deux options existent: la première coûte 4 000 € et pourrait créer 6 000 € de valeur supplémentaire sur six mois; la seconde coûte 1 500 € mais ne traite qu’une partie du problème. La responsable vérifie la trésorerie, le risque, les hypothèses et la réversibilité avant de choisir. Le but n’est pas de choisir automatiquement l’option la plus chère ou la moins chère, mais de rendre le raisonnement mesurable.
+1. Qu’ont en commun la persévérance et l’entêtement en apparence?
+2. Quelle est la différence essentielle entre les deux selon le cadre présenté dans cette leçon?
+3. Quelle question peut aider quelqu’un à déterminer lequel des deux il pratique réellement?
+4. Dans l’exemple pratique, qu’est-ce qui démontre qu’il s’agissait de persévérance plutôt que d’entêtement?
 
-## Étude de cas — laboratoire de décision
-[SCÉNARIO] Une équipe de huit personnes rencontre un problème de persévérance et entêtement. Les résultats baissent depuis six semaines et le budget est limité. Avant de lire l’analyse, décidez: quelles trois informations demandez-vous, quelle option testez-vous, quel risque acceptez-vous et quel indicateur observez-vous pendant 30 jours?
+## Corrigé
+1. Les deux impliquent de continuer malgré la résistance ou les revers.
+2. La persévérance adapte la méthode tout en maintenant l’objectif; l’entêtement maintient à la fois l’objectif et une méthode qui échoue.
+3. Est-ce que j’adapte mon approche selon ce que j’apprends, ou est-ce que je répète la même chose en espérant qu’elle finira par fonctionner?
+4. La méthode a évolué — différentes entreprises, ajout de l’angle de « l’égalité des chances » — tandis que l’objectif fondamental est demeuré le même.
 
-**Analyse :** une réponse compétente revient à l’objectif, distingue faits et hypothèses, chiffre les conséquences et fixe un seuil de révision.
+## Réponses et explications
+1. Cette ressemblance apparente explique précisément pourquoi on confond souvent les deux.
+2. L’adaptabilité de la méthode est la variable déterminante qui les sépare.
+3. Cette question d’autoévaluation rend le cadre utilisable en temps réel.
+4. L’adaptation de la méthode, plutôt que la répétition aveugle, est le signe qui distingue ici la persévérance.
 
-## Erreurs fréquentes
-- Confondre vitesse et qualité de décision.
-- Traiter une hypothèse comme un fait.
-- Ignorer le coût de l’inaction.
-- Décider sans responsable ni échéance.
-- Mesurer l’activité au lieu du résultat.
-
-## Questions fréquentes
-### Faut-il tout savoir avant de décider?
-Non. L’information nécessaire dépend du risque, du coût du délai et de la réversibilité.
-### Changer d’avis signifie-t-il échouer?
-Non. Une révision fondée sur de nouvelles preuves peut démontrer un meilleur jugement.
-### Pourquoi intégrer les finances?
-Parce que temps, personnel, qualité et priorités modifient souvent coûts, recettes, trésorerie ou risque.
-
-## Points essentiels
-- Relier l’intention à un résultat observable.
-- Définir les critères avant l’action.
-- Examiner ensemble conséquences humaines et financières.
-- Attribuer responsable, délai et indicateur.
-- Réviser selon les preuves.
-
-## Exercice pratique
-### BLACK-L1-020-EXERCISE
-Choisissez une situation réelle liée à **persévérance et entêtement**. Écrivez: résultat recherché, faits connus, trois incertitudes, personnes touchées, deux options, coût estimé, risque principal, décision, responsable, échéance, indicateur et date de révision.
-
-## Guide socratique
-### BLACK-L1-020-AI
-1. Quel résultat cherchez-vous?
-2. Quels éléments sont des faits?
-3. Quelles hypothèses devez-vous tester?
-4. Qui sera touché?
-5. Quel est le coût d’attendre?
-6. Quelles sont deux options réalistes?
-7. Quel risque est prioritaire?
-8. Quel indicateur montrera un progrès?
-9. Quand réviserez-vous?
-10. Quelle preuve vous ferait changer de méthode?
-
-## Évaluation des compétences — 10 questions
-### BLACK-L1-020-ASSESSMENT
-### Question 1 — Choix multiple
-Quelle démarche démontre le mieux la maîtrise de persévérance et entêtement? A) Agir sans critère. B) Définir le résultat, examiner faits, coûts et risques, décider puis mesurer. C) Attendre une certitude absolue. D) Déléguer sans suivi.
-
-### Question 2 — Vrai ou faux
-Une décision concernant les personnes peut aussi produire un effet financier.
-
-### Question 3 — Réponse courte
-Expliquez en deux phrases pourquoi persévérance et entêtement mérite une méthode de décision explicite.
-
-### Question 4 — Scénario
-Il manque des informations mais attendre a aussi un coût. Que faites-vous?
-
-### Question 5 — Choix multiple
-Quel indicateur est le plus utile? A) Le plus facile à compter. B) Celui directement lié au résultat recherché. C) Le nombre de réunions. D) Le nombre de messages.
-
-### Question 6 — Vrai ou faux
-Continuer uniquement parce que beaucoup a déjà été dépensé constitue toujours une bonne décision.
-
-### Question 7 — Application
-Donnez un effet possible de persévérance et entêtement sur trésorerie, coût, recettes ou productivité.
-
-### Question 8 — Scénario
-Deux personnes compétentes sont en désaccord. Que doit faire le dirigeant?
-
-### Question 9 — Réponse courte
-Quelle différence entre suivi et microgestion?
-
-### Question 10 — Synthèse
-Quelle action précise appliqueriez-vous demain concernant persévérance et entêtement?
-
-## Corrigé commenté
-### BLACK-L1-020-ANSWER-KEY
-### Réponse 1
-**Réponse attendue :** B
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 2
-**Réponse attendue :** Vrai
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 3
-**Réponse attendue :** Relier le thème au résultat, au risque et à l’exécution.
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 4
-**Réponse attendue :** Identifier les inconnues critiques, le coût du délai et l’information proportionnée au risque.
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 5
-**Réponse attendue :** B
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 6
-**Réponse attendue :** Faux
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 7
-**Réponse attendue :** Une relation causale plausible et expliquée.
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 8
-**Réponse attendue :** Revenir à l’objectif et aux critères, écouter preuves et objections, puis attribuer clairement la décision.
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 9
-**Réponse attendue :** Le suivi vérifie résultats et jalons convenus; la microgestion contrôle inutilement chaque étape.
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-### Réponse 10
-**Réponse attendue :** Une action spécifique, vérifiable et assortie d’un délai ou contexte.
-
-**Compétence évaluée :** application raisonnée de persévérance et entêtement.
-
-**Erreur fréquente :** répondre par intuition sans relier la réponse aux critères, conséquences et résultat mesurable.
-
-## Norme de compétence
-### BLACK-L1-020-COMPETENCY
-- **Seuil de maîtrise : 8/10 (80 %).**
-- Sous 80 %, reprendre les notions faibles, résoudre un nouveau scénario et refaire une vérification ciblée.
-- À 80 % ou plus, progression autorisée vers **BLACK-L1-021**.
-
-## Pour approfondir
-Consultez des sources reconnues sur leadership, comportement organisationnel, finance d’entreprise élémentaire et prise de décision. Vérifiez auteur, date, preuves et applicabilité.
-
-## Parcours
-- **Précédent :** BLACK-L1-019
-- **Actuel :** BLACK-L1-020
-- **Suivant :** BLACK-L1-021
-
-## Bloc SEO
-### BLACK-L1-020-SEO
-- **Titre :** Persévérance vs. Entêtement : Savoir Lequel Vous Pratiquez | BLACK Niveau 1 | Edunancial
-- **Description :** Apprendre persévérance et entêtement et relier leadership, exécution et résultats financiers.
-- **Mots-clés :** leadership, gestion, décision, finances d’entreprise, équipe, responsabilité
-
-## Soutien par IA
-Le coach peut simplifier les concepts, créer des scénarios et questionner les hypothèses. Il ne fournit pas de conseil juridique, fiscal, comptable, financier ou professionnel personnalisé.
-
-## Localisation
-### BLACK-L1-020-LOCALIZATION
-Contenu créé directement en français de France. Toute règle juridique, sociale, fiscale ou comptable spécifique doit être confirmée auprès d’une source officielle à jour ou d’un professionnel habilité.
-
-## Références et vérification
-### BLACK-L1-020-REFERENCES
-Principes généraux à vocation éducative. Les montants sont illustratifs. Les lois, taux, normes et statistiques doivent être vérifiés avant application.
+## Points clés à retenir
+- La persévérance et l’entêtement se ressemblent, mais diffèrent selon que la méthode s’adapte ou non à la rétroaction.
+- La persévérance maintient l’objectif tout en ajustant l’approche; l’entêtement répète une méthode qui échoue sans la modifier.
+- Vérifiez régulièrement : est-ce que je m’adapte selon ce que j’apprends, ou est-ce que je répète simplement la même chose par pure volonté?

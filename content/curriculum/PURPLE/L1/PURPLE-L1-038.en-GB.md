@@ -1,49 +1,98 @@
 ---
 id: PURPLE-L1-038
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 38
-title: "Divorce — Basic Concepts"
-summary: "Divorce is the legal process of dissolving a marriage. VERIFIED FACT: An \"uncontested\" divorce generally doesn't require proving that either spouse did anything wrong — it only requires both parties to agree to end the marriage and, often, to the terms of the separation — while a \"contested\" divorce generally means the parties don't reach agreement and the matter must be decided by a court."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Regulatory Bodies: Who Oversees Financial Markets"
+summary: "Closes the securities law section with a brief, generic overview of the concept of financial regulatory bodies, avoiding country-specific detail while establishing the underlying pattern."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-038: Divorce — Basic Concepts
+
+# Regulatory Bodies: Who Oversees Financial Markets
 
 ## Learning Objectives
-1. Define divorce in general terms.
-2. Distinguish an uncontested divorce from a contested one.
-3. Recognise general matters commonly resolved during a divorce.
+
+- Explain the general role of a financial regulatory body.
+- Recognise that specific agency names and structures vary by country.
+- Understand regulatory bodies as the enforcement mechanism behind the concepts covered in this section.
 
 ## Core Content
-*REGION-SPECIFIC RULE:* Specific divorce processes and grounds vary significantly by country; this lesson describes only general concepts.
 
-Divorce is the legal process of dissolving a marriage. *VERIFIED FACT:* An "uncontested" divorce generally doesn't require proving that either spouse did anything wrong — it only requires both parties to agree to end the marriage and, often, to the terms of the separation — while a "contested" divorce generally means the parties don't reach agreement and the matter must be decided by a court.
+Every country with meaningful securities markets generally has some form of regulatory body responsible for enforcing the disclosure, fairness, and fraud-prevention concepts covered throughout this section — reviewing required disclosures, investigating potential violations like insider trading or fraud, and taking enforcement action against violators, which can include fines, sanctions, or referral for criminal prosecution in serious cases.
 
-*ASSUMPTION:* Matters generally resolved during a divorce include the division of property, possible spousal support, and, where children are involved, custody and child support arrangements — these matters can be resolved through mutual agreement or, if the parties don't reach consensus, through a court decision.
+This lesson deliberately stays generic rather than naming a specific agency, since the exact structure, name, and authority of financial regulators vary significantly by country, and this curriculum serves a global audience. The durable, transferable concept is the pattern itself: securities markets generally have a real enforcement body behind the rules discussed throughout this section, which is part of what gives those rules actual teeth rather than being purely theoretical. Knowing that such a body generally exists in a given jurisdiction — and that it can be a resource for reporting suspected fraud or verifying whether an offering is properly registered — is the practical takeaway, regardless of which specific agency applies in any particular country.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* A couple who agree to end their marriage and on how to divide their property might file for an uncontested divorce, which generally proves faster and cheaper. They would still generally need to separately resolve how to divide their house, their savings, and, if they have children, how they will share custody and child support — either through agreement between themselves or, if they don't reach consensus, through a court decision.
+For UK readers: the main UK financial regulators are the Financial Conduct Authority (FCA), which regulates conduct, and the Prudential Regulation Authority (PRA), part of the Bank of England, which supervises banks and insurers.
 
-## Practical Quiz
-1. What is divorce?
-2. What does an "uncontested" divorce generally require?
-3. True/False: A contested divorce generally means the parties agree on all terms.
-4. Name a matter generally resolved during a divorce.
+## Worked Example
+
+**Question:** Someone suspects an investment opportunity may be an unregistered, potentially fraudulent security. Based on this lesson, is there generally a resource for looking into or reporting this concern?
+
+**Student:** Based on this lesson, yes — most countries with securities markets have some regulatory body responsible for this kind of oversight and enforcement, which could be a resource for verifying registration or reporting concerns.
+
+**Guide:** Why does this lesson avoid naming a specific agency?
+
+**Student:** Because the exact agency, name, and structure vary by country, and this curriculum is meant to serve a global audience, so the durable lesson is the general pattern, not one specific country's institution.
+
+**Guide:** Exactly — the pattern of enforcement existing is the transferable, universal takeaway.
+
+
+## Practice Quiz
+
+
+**Question 1.** A financial regulatory body generally is responsible for:
+
+A) Nothing related to securities markets
+B) Enforcing disclosure, fairness, and fraud-prevention rules discussed throughout this section
+C) Only setting real estate planning rules
+D) Only managing government budgets
+
+
+**Question 2.** Why does this lesson avoid naming a specific regulatory agency?
+
+A) No such agencies actually exist
+B) Specific agency names and structures vary significantly by country
+C) This information is irrelevant to the topic
+D) All countries use an identical agency name
+
+
+**Question 3.** What can a regulatory body generally do in response to violations?
+
+A) Nothing at all
+B) Impose fines, sanctions, or refer serious cases for criminal prosecution
+C) Only issue warnings with no real consequence
+D) Only regulate real estate transactions
+
+
+**Question 4.** What is the durable, transferable concept this lesson emphasises?
+
+A) Memorising one specific country's regulator
+B) Recognising that securities markets generally have a real enforcement body giving the rules actual teeth
+C) Regulatory bodies are purely theoretical with no real power
+D) Only wealthy countries have any financial regulation
+
 
 ## Answer Key
-1. The legal process of dissolving a marriage   2. That both parties agree to end the marriage and, often, to the separation terms   3. False   4. Division of property, spousal support, or custody and child support (among others)
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of divorce.
-2. This is the general definition of an uncontested divorce.
-3. A contested divorce specifically means the parties don't reach agreement.
-4. These are matters commonly resolved during the divorce process.
 
-## Key Points to Remember
-- Divorce is the legal process of dissolving a marriage.
-- An uncontested divorce requires the agreement of both parties; a contested one is decided by a court.
-- Commonly resolved matters include division of property, support, and, where applicable, custody of children.
+**1.** Enforcement of exactly the concepts covered throughout this section is the regulatory body's core function.
+
+**2.** Global variation in agency structure is exactly why this lesson deliberately avoids naming one specific institution.
+
+**3.** Real consequences, up to criminal referral in serious cases, are what give these rules practical force.
+
+**4.** The transferable insight is the existence of the pattern, not any single country's specific institution.
+
+## Key Takeaways
+
+- Financial regulatory bodies enforce the disclosure, fairness, and fraud-prevention concepts from this section.
+- The specific agency varies by country — this lesson focuses on the general, transferable pattern.
+- Regulatory bodies can impose real consequences, giving securities rules practical enforcement teeth.
+- This closes the securities law section, connecting the whole section's concepts to real institutional enforcement.

@@ -1,228 +1,54 @@
 ---
 id: GOLD-L1-006
 track: GOLD
-officialTrackName: Investing and Wealth Building
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 6
 locale: en-GB
 title: "Compound Growth Explained Simply"
-summary: "This lesson develops compound growth."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductory
-estimatedTime: 35–50 minutes
-prerequisites: "GOLD-L1-005"
-componentIds:
-  - GOLD-L1-006-MAIN
-  - GOLD-L1-006-EXAMPLES
-  - GOLD-L1-006-EXERCISE
-  - GOLD-L1-006-ASSESSMENT
-  - GOLD-L1-006-ANSWER-KEY
-  - GOLD-L1-006-COMPETENCY
-  - GOLD-L1-006-AI
-  - GOLD-L1-006-SEO
-  - GOLD-L1-006-LOCALIZATION
-  - GOLD-L1-006-REFERENCES
+summary: "Introduces the concept of compounding and why time is one of the most powerful forces in investing."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
 # Compound Growth Explained Simply
 
-### GOLD-L1-006-MAIN
-
-## Executive Summary
-
-This lesson develops **compound growth**. The central issue is reinvesting returns so that prior gains can contribute to future gains. The aim is not to tell a learner what to buy. It is to build the ability to make investment decisions using clear objectives, numbers, costs, risk, alternatives and a disciplined process.
-
 ## Learning Objectives
+- Define compounding in plain terms
+- Explain why starting early has an outsized effect on long-term results
+- Practice a simple compounding calculation
 
-- **Financial Literacy:** explain compound growth clearly.
-- **Financial Competency:** apply the concept to a practical situation.
-- **Better Judgement:** recognise benefits, limitations and risks.
-- **Better Decisions:** connect time, return and reinvestment without implying that physical metal compounds by itself.
-- **Wealth Building:** integrate the skill into a long-term process without relying on predictions.
+## Core Content
 
-## Prerequisites
+Compounding means growth building on top of previous growth, rather than growth only ever applying to the original amount. If an investment grows and that growth stays invested, the next period's growth applies to the larger new total, not just the original starting amount — which means growth accelerates over time in a way that can be easy to underestimate early on and dramatic to see later.
 
-GOLD-L1-005.
+This is why starting early matters so much, even with modest amounts. Time is one of the few genuinely free resources in investing — money invested for 20 years has vastly more time for compounding to work than the same money invested for 5 years, even if the actual cash amounts invested are similar. This is part of why building an investing habit early, even with small amounts, tends to matter more than waiting to start with a larger amount later.
 
-## Main Lesson
+## Worked Example
 
-### 1. Understand the Concept
+ILLUSTRATIVE EXAMPLE: Suppose a small position grows by a steady percentage each year. In year one, growth applies only to the original amount. In year ten, that same percentage growth applies to a much larger total, because nine years of prior growth have already built on top of the original amount. The cash amount of growth in year ten is meaningfully larger than in year one, even though the percentage rate didn't change — this is the visible effect of compounding building on itself over time.
 
-[VERIFIED FACT] An investment decision should begin with an objective, time horizon, liquidity needs and capacity to bear risk. In considering **compound growth**, the learner must understand reinvesting returns so that prior gains can contribute to future gains.
+## Practice Quiz
 
-An investment may suit one person and be unsuitable for another. Price is only one variable. Costs, resale options, security, applicable taxation, alternatives and the date when the money may be required all matter.
-
-### 2. Think Before Acting
-
-Ask five questions: What is my objective? How much capital is genuinely available? For how long? What can go wrong? What is the best alternative use of this money?
-
-[ILLUSTRATIVE EXAMPLE] A learner has £7,500 in savings, but £5,500 is allocated to an emergency reserve. The account balance therefore does not equal available investment capital. Separating the jobs of money can reduce the chance of a forced sale.
-
-### 3. Costs, Risk and Outcome
-
-Assume the reference metal value in a product is £500, the purchase price is £545 and the immediate dealer buy-back price is £480. The £65 gap between purchase and immediate resale matters before any investment gain can occur.
-
-Risk is broader than a falling market price. It can include liquidity, fraud, counterfeiting, physical loss, concentration, custody costs, taxation and having to sell earlier than planned.
-
-### 4. Apply the Lesson
-
-Turn **compound growth** into an observable decision rule: connect time, return and reinvestment without implying that physical metal compounds by itself. A written rule established before market movements can help prevent fear, excitement, social media or sales pressure from replacing analysis.
-
-[ASSUMPTION] All monetary figures in this lesson are educational examples. They are not forecasts or promises of return.
-
-### 5. Judge the Process, Not Just the Outcome
-
-A sound decision can have a poor outcome, while a poor decision can benefit from luck. Evaluate the process first: information, costs, alternatives, risks and fit with the objective. Measure the result afterwards and adjust when relevant facts change.
-
-## Key Definitions
-
-- **Asset:** a resource with economic value.
-- **Return:** the gain or loss associated with an investment.
-- **Risk:** the possibility that the outcome differs from expectations.
-- **Liquidity:** the ability to convert an asset into cash promptly without a substantial discount.
-- **Opportunity cost:** the potential benefit of the best alternative forgone.
-- **Compound growth:** the lesson's central concept as applied to investment decision-making.
-
-## Worked Examples
-
-### GOLD-L1-006-EXAMPLES
-
-**Example 1 — entry and exit:** A product costs £2,625 while its reference metal value is £2,500. If the immediate buy-back price is £2,430, the economic gap between purchase and immediate resale is £195.
-
-**Example 2 — concentration:** In a £50,000 portfolio, £2,500 is a 5% position while £25,000 is a 50% position. The same asset can therefore create very different portfolio risk.
-
-**Example 3 — time horizon:** Money required in three months for housing, education or repairs has a different job from capital intended for a ten-year objective.
-
-## Case Study and Decision Lab
-
-Sophie wants to buy precious metals after reading inflation headlines. She has £30,000 in savings and essential monthly expenditure of approximately £7,000. She first separates her emergency reserve, chooses a modest regular contribution, compares total transaction costs and schedules quarterly reviews.
-
-**Decide before reading the analysis:** Gold has risen for two weeks. Should Sophie immediately double her planned purchase? Explain your decision using objective, budget, risk and **compound growth**.
-
-**Analysis:** A recent price rise alone does not change her financial capacity or objective. A plan change should depend on relevant new facts and criteria established in advance.
-
-## Common Mistakes
-
-1. Confusing a compelling narrative with evidence.
-2. Investing emergency savings.
-3. Ignoring premiums, spreads, fees or custody.
-4. Concentrating too much wealth in one idea.
-5. Changing the plan because of ordinary market fluctuations.
-6. Failing to maintain adequate records.
-
-## FAQ
-
-**Does this concept guarantee a profit?** No. No investment process eliminates risk.
-
-**Must I predict the gold price?** No. Disciplined investing does not require precise short-term forecasting.
-
-**Does owning more metal always mean greater safety?** No. Excessive concentration can increase risk.
-
-**When should I review my plan?** At scheduled intervals and when income, goals, liquidity needs or the portfolio materially change.
-
-## Key Takeaways
-
-- Compound growth should be linked to a defined objective.
-- Costs and liquidity affect economic results.
-- Position size changes risk.
-- Written rules can reduce emotional decision-making.
-- Reviews should be driven by evidence and material changes.
-
-## Practical Exercise
-
-### GOLD-L1-006-EXERCISE
-
-Prepare a one-page decision sheet containing: your objective, horizon, genuinely available capital excluding emergency savings, three risks, two costs to verify, one alternative use for the capital, one rule concerning **compound growth**, and the date of your next review.
-
-## Socratic Teaching Guide
-
-### GOLD-L1-006-AI
-
-1. What financial problem does this concept help solve?
-2. How would you explain **compound growth** to a beginner?
-3. What information is required before acting?
-4. What adverse outcome is realistically possible?
-5. Which costs might sit outside an advertised price?
-6. What changes if the money is required in six months?
-7. What happens if the position becomes half of total investable assets?
-8. What is the strongest alternative use of the capital?
-9. Which written rule could reduce an emotional reaction?
-10. What new fact would justify reviewing the plan?
-
-## Competency Assessment
-
-### GOLD-L1-006-ASSESSMENT
-
-1. What should come before selecting an investment? A) Predict tomorrow B) Define objective, horizon and capacity C) Buy the most popular product D) Follow a seller without verification.
-2. True or false: an investment can suit one person and not another.
-3. Purchase price £1,050; immediate resale £970. What is the difference?
-4. Define liquidity.
-5. What is opportunity cost? A) Best alternative forgone B) Only a fee C) Only inflation D) None.
-6. True or false: diversification eliminates all risk.
-7. Name two risks other than a falling market price.
-8. £10,000 in a £50,000 portfolio is what percentage?
-9. Why can a written rule help during volatility?
-10. In two sentences, explain how you would apply **compound growth** before a purchase.
+1. Define compounding in your own words.
+2. Why does starting early have an outsized effect on long-term results?
+3. Why might building an early habit with small amounts matter more than waiting for a larger amount later?
+4. In the worked example, why was the cash amount of growth larger in year ten than year one, despite the same percentage rate?
 
 ## Answer Key
+1. Growth building on top of previous growth, rather than only applying to the original starting amount.
+2. Because time is a limited, non-recoverable resource, and more time means more compounding cycles to build on each other.
+3. Because the extra years of compounding time often matter more than the extra cash amount invested later.
+4. Because the growth was applying to a much larger total (original amount plus nine years of prior growth), not just the original starting amount.
 
-### GOLD-L1-006-ANSWER-KEY
+## Answers and Explanations
+1. This defines the core mechanism — growth building on prior growth — at the centre of compounding.
+2. Time's non-recoverable nature is the key reason early starts have such a disproportionate long-term effect.
+3. This reframes early habit-building as often more valuable than a larger but later-starting investment.
+4. This example demonstrates compounding's visible acceleration effect using consistent percentage growth on a growing base.
 
-1. **B.** Competency: preparation. Common misconception: start with the product.
-2. **True.** Competency: suitability in context.
-3. **£80.** Competency: entry/exit economics.
-4. **The ability to convert an asset into cash promptly without a substantial discount.**
-5. **A.** Competency: comparing alternatives.
-6. **False.** Diversification can reduce some risks; it cannot remove all risk.
-7. **Examples:** liquidity, fraud, custody, counterparty, concentration or taxation.
-8. **20%.** Competency: concentration.
-9. **It establishes criteria before emotional pressure arises.**
-10. **Expected:** connect the concept with objective, horizon, budget, costs, risks and a decision rule.
-
-## Competency Standard
-
-### GOLD-L1-006-COMPETENCY
-
-- **Mastery threshold:** 8 correct answers out of 10 (80%).
-- **Remediation:** revisit each weak topic, redo one numerical example and explain the decision in the learner's own words.
-- **Progression:** mastery unlocks GOLD-L1-007.
-
-## Further Reading
-
-Use current official educational, regulatory and tax sources relevant to the learner's jurisdiction. Legal, tax and consumer-protection rules should be verified before application and discussed with a suitably qualified professional where appropriate.
-
-## Lesson Path
-
-- **Previous:** GOLD-L1-005
-- **Current:** GOLD-L1-006 — Compound Growth Explained Simply
-- **Next:** GOLD-L1-007
-
-## SEO Block
-
-### GOLD-L1-006-SEO
-
-**Target terms:** compound growth, precious metals, investing, financial education, GOLD Level 1  
-**Meta description:** Understand compound growth and apply the principle to more disciplined investment decisions.
-
-## AI Support Block
-
-### GOLD-L1-006-AI
-
-The tutor should explain concepts, require reasoning, use hypothetical examples and correct misconceptions. It must not guarantee returns, predict prices or provide personalised financial, legal or tax advice.
-
-## Localisation Block
-
-### GOLD-L1-006-LOCALIZATION
-
-- **Global:** objectives, risk, costs, diversification, liquidity and discipline.
-- **United Kingdom:** use British English and pounds sterling. Tax treatment, regulation, consumer protection and product-specific rules must be checked against current UK official sources before being presented as applicable rules.
-
-## References and Verification
-
-### GOLD-L1-006-REFERENCES
-
-- General financial concepts: presented without market forecasts.
-- Monetary figures: illustrative examples.
-- UK-specific rules: current verification required before application.
-- Current market prices or statistics: not used.
+## Key Takeaways
+- Compounding means growth building on top of previous growth, not just the original amount.
+- Because time can't be recovered once passed, starting early has an outsized effect on long-term results.
+- Building an early investing habit, even with small amounts, often matters more than waiting for a larger amount to start later.

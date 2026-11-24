@@ -1,47 +1,96 @@
 ---
 id: PURPLE-L1-032
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 32
-title: "Workplace Harassment"
-summary: "Workplace harassment generally refers to unwanted conduct related to a protected characteristic that is serious or frequent enough to create a hostile work environment, or that results in a detrimental employment decision. ASSUMPTION: Harassment generally differs from an ordinary interpersonal conflict in that it is connected to a protected characteristic (such as sex, race, or religion) and reaches a level of severity or frequency that goes beyond ordinary workplace friction."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Why Securities Law Exists: Protecting Investors"
+summary: "Explains the historical and practical rationale behind securities regulation, framing it as investor protection infrastructure rather than arbitrary bureaucracy."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-032: Workplace Harassment
+
+# Why Securities Law Exists: Protecting Investors
 
 ## Learning Objectives
-1. Define workplace harassment in general terms.
-2. Distinguish harassment from an ordinary interpersonal conflict at work.
-3. Recognise why documentation is generally important in these cases.
+
+- Explain the general historical motivation behind securities law.
+- Identify the core problem securities law addresses.
+- Connect this to trust and market participation broadly.
 
 ## Core Content
-Workplace harassment generally refers to unwanted conduct related to a protected characteristic that is serious or frequent enough to create a hostile work environment, or that results in a detrimental employment decision. *ASSUMPTION:* Harassment generally differs from an ordinary interpersonal conflict in that it is connected to a protected characteristic (such as sex, race, or religion) and reaches a level of severity or frequency that goes beyond ordinary workplace friction.
 
-*VERIFIED FACT:* Documentation is commonly recommended in cases of possible harassment, since written records of incidents, dates, and witnesses generally strengthen a person's ability to demonstrate a pattern of conduct if a formal complaint later needs to be brought.
+Securities law didn't emerge from nowhere — it developed largely in response to real, historical problems: investors losing significant money to fraudulent or deceptive investment schemes, often because they had no reliable way to verify a company's actual financial condition or the truthfulness of claims made to attract their money. The core problem securities law addresses is information asymmetry — the company or promoter offering an investment almost always knows far more about its true condition and risks than the investor being asked to put money in.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* A manager who regularly makes derogatory comments about an employee's religion, creating an environment where that employee constantly feels belittled, would probably be committing harassment connected to a protected characteristic. This differs from a manager who is simply demanding or difficult with all employees equally, with no connection to any protected characteristic.
+Securities law addresses this gap primarily through mandated disclosure — requiring companies offering securities to publicly share specific, accurate financial and risk information, giving investors a genuine basis for evaluating an opportunity rather than relying purely on a promoter's claims. This connects to something covered in WHITE: markets function better, and more people are willing to participate in them, when there's baseline trust that the information available is at least reasonably reliable. Securities law is, in this sense, infrastructure for a functioning investment market — without it, the reasonable assumption for any investor would be to distrust every claim by default, which would make markets far less useful to everyone.
 
-## Practical Quiz
-1. What is workplace harassment, in general terms?
-2. What generally distinguishes harassment from an ordinary interpersonal conflict?
-3. True/False: Documentation generally doesn't matter in cases of possible harassment.
-4. In the manager example, what characteristic was connected to the harassing conduct?
+## Worked Example
+
+**Question:** Someone asks why securities regulation exists at all, arguing investors should simply do their own research and accept whatever risk that involves. What core problem does this lesson identify that argument overlooks?
+
+**Student:** Based on this lesson, the core problem is information asymmetry — investors often can't actually access the true information needed to properly evaluate an opportunity on their own, no matter how much research they attempt.
+
+**Guide:** Why does mandated disclosure address this problem directly?
+
+**Student:** Because it requires companies to actually share specific, accurate information publicly, giving investors a real basis for evaluation instead of relying purely on unverified claims.
+
+**Guide:** Exactly — 'just do your research' doesn't work if the information needed for that research isn't reliably available in the first place.
+
+
+## Practice Quiz
+
+
+**Question 1.** Securities law developed largely in response to:
+
+A) No real historical problem
+B) Real historical instances of investors losing money to fraudulent or deceptive schemes
+C) A desire to create unnecessary bureaucracy
+D) Only modern internet-era concerns
+
+
+**Question 2.** The core problem securities law addresses is:
+
+A) Too much available information
+B) Information asymmetry between companies/promoters and investors
+C) Excessive investor caution
+D) A lack of any real problem
+
+
+**Question 3.** Securities law primarily addresses this problem through:
+
+A) Banning all investment
+B) Mandated disclosure of specific, accurate financial and risk information
+C) Eliminating all investment risk
+D) Requiring investors to have no information at all
+
+
+**Question 4.** How does this lesson connect securities law to broader market function, per WHITE?
+
+A) No connection exists
+B) Baseline trust in available information is what makes people willing to participate in markets at all
+C) Markets function better with zero regulation
+D) This lesson has no connection to WHITE
+
 
 ## Answer Key
-1. Unwanted conduct connected to a protected characteristic that creates a hostile environment   2. Its connection to a protected characteristic and its level of severity or frequency   3. False   4. The employee's religion
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the general definition of workplace harassment.
-2. This is the commonly cited general distinction.
-3. Documentation is commonly recommended to strengthen a possible complaint.
-4. Religion was the protected characteristic connected to the manager's comments.
 
-## Key Points to Remember
-- Workplace harassment involves unwanted conduct connected to a protected characteristic.
-- It differs from an ordinary conflict through its connection to a protected characteristic and its severity.
-- Documenting incidents is commonly recommended to strengthen a possible future complaint.
+**1.** Historical fraud and deception are explicitly cited as the practical motivation behind this area of law.
+
+**2.** Information asymmetry — the imbalance between what companies know and what investors can verify — is the precise problem identified.
+
+**3.** Mandated disclosure directly targets the information gap by requiring companies to share what investors need to evaluate risk.
+
+**4.** This ties securities regulation to the broader theme of trust as infrastructure for functioning markets, covered in WHITE.
+
+## Key Takeaways
+
+- Securities law developed in response to real historical investor harm from fraud and deception.
+- The core problem is information asymmetry between companies and investors.
+- Mandated disclosure is the primary tool securities law uses to address this gap.
+- This regulation functions as trust infrastructure that makes broader market participation possible.
