@@ -1,0 +1,339 @@
+===== WHITE-L1-006
+TITLE: Qu’est-ce qu’un dividende?
+SUMMARY: Découvrez ce qu’est un dividende, comment il est versé et pourquoi il n’est jamais garanti.
+# Qu’est-ce qu’un dividende?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un dividende en termes simples.
+- Expliquer comment les dividendes sont habituellement versés.
+- Expliquer pourquoi les dividendes ne sont jamais garantis.
+
+## Contenu principal
+
+### Ce qu’est un dividende
+
+Un dividende est une partie du bénéfice d’une entreprise distribuée aux actionnaires, proportionnellement au nombre d’actions qu’ils possèdent.
+
+### Comment ils sont habituellement versés
+
+Les dividendes sont couramment versés en argent, selon un calendrier régulier (souvent trimestriel), directement aux actionnaires, en fonction du nombre d’actions qu’ils détiennent à une date de clôture des registres précise.
+
+### Pourquoi ils ne sont jamais garantis
+
+C’est le conseil d’administration de l’entreprise qui décide s’il faut verser un dividende, et de quel montant — aucune obligation légale ne l’y oblige. Les entreprises peuvent réduire ou suspendre leurs dividendes, ou ne jamais commencer à en verser, souvent selon leur rentabilité et leurs projets de croissance.
+
+## Exemple pratique
+
+Un investisseur qui possède 100 actions d’une entreprise qui verse un dividende trimestriel de 0,50 $ par action recevrait 50 $ ce trimestre-là — un montant qui pourrait changer au cours des trimestres suivants, à la discrétion de l’entreprise.
+
+## Quiz pratique
+
+1. Un dividende est :
+   A. Un paiement fixe garanti
+   B. Une partie du bénéfice de l’entreprise distribuée aux actionnaires
+   C. Un type de paiement d’intérêts sur une obligation
+   D. Un impôt dû sur la possession d’actions
+2. Vrai ou faux : les entreprises sont légalement tenues de verser des dividendes.
+3. Qui décide s’il faut verser un dividende, et de quel montant?
+   A. Chaque actionnaire
+   B. Le conseil d’administration de l’entreprise
+   C. La bourse
+   D. Le gouvernement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un dividende est une distribution du bénéfice aux actionnaires.
+
+### Question 2
+Bonne réponse : Faux. Le versement de dividendes est discrétionnaire, et non une obligation légale.
+
+### Question 3
+Bonne réponse : B. C’est le conseil d’administration qui décide du versement des dividendes.
+
+## Points clés
+
+- Un dividende est une partie du bénéfice distribuée aux actionnaires.
+- Les versements se font habituellement en argent, selon un calendrier régulier.
+- Les dividendes ne sont jamais garantis — ils relèvent d’une décision du conseil d’administration.
+
+===== WHITE-L1-007
+TITLE: Qu’est-ce que le cours d’une action, et qu’est-ce qui le fait bouger?
+SUMMARY: Découvrez ce qui détermine le cours d’une action au jour le jour, au-delà de la simple « offre et demande ».
+# Qu’est-ce que le cours d’une action, et qu’est-ce qui le fait bouger?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le cours d’une action en termes simples.
+- Expliquer le mécanisme de base de l’offre et de la demande derrière les variations de cours.
+- Nommer des facteurs qui peuvent faire varier cette offre et cette demande.
+
+## Contenu principal
+
+### Ce qu’est le cours d’une action
+
+Le cours d’une action est le montant auquel une action se négocie actuellement sur le marché — le prix sur lequel le plus récent acheteur et le plus récent vendeur se sont entendus.
+
+### Le mécanisme de base
+
+Au fond, le cours d’une action varie selon l’offre et la demande : plus d’acheteurs que de vendeurs à un prix donné tend à faire monter le cours; plus de vendeurs que d’acheteurs tend à le faire baisser.
+
+### Ce qui fait varier l’offre et la demande
+
+Les nouvelles propres à l’entreprise (résultats, nouveaux produits, changements à la direction), la conjoncture économique générale, les tendances du secteur et le sentiment des investisseurs peuvent tous faire varier le nombre de personnes qui veulent acheter ou vendre à un prix donné — c’est pourquoi les cours peuvent bouger même si rien ne change dans l’entreprise elle-même.
+
+## Exemple pratique
+
+Une entreprise annonce des bénéfices meilleurs que prévu. Plus d’investisseurs veulent acheter des actions au cours actuel qu’il n’y a de vendeurs prêts à vendre, ce qui fait monter le cours jusqu’à ce qu’un nouvel équilibre soit atteint.
+
+## Quiz pratique
+
+1. Le cours d’une action est fondamentalement déterminé par :
+   A. Des règles fixées par le gouvernement
+   B. L’offre et la demande
+   C. La date de fondation de l’entreprise
+   D. Le symbole boursier de l’action
+2. Vrai ou faux : le cours d’une action ne peut changer que si quelque chose change dans l’entreprise elle-même.
+3. Quel est un facteur qui peut faire varier l’offre et la demande pour une action?
+   A. Les nouvelles sur les résultats de l’entreprise
+   B. Le symbole boursier de l’action
+   C. La date de fondation de l’entreprise
+   D. La couleur du logo de l’entreprise
+
+## Corrigé
+
+1. B
+2. Faux
+3. A
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’offre et la demande déterminent fondamentalement le cours d’une action.
+
+### Question 2
+Bonne réponse : Faux. La conjoncture générale du marché et le sentiment des investisseurs peuvent faire bouger les cours sans aucun changement propre à l’entreprise.
+
+### Question 3
+Bonne réponse : A. Les nouvelles sur les résultats sont un facteur courant de variation de l’offre et de la demande.
+
+## Points clés
+
+- Le cours d’une action reflète le prix de la plus récente transaction conclue.
+- L’offre et la demande déterminent fondamentalement les variations de cours.
+- Les nouvelles de l’entreprise, la conjoncture économique et le sentiment des investisseurs peuvent tous faire varier l’offre et la demande.
+
+===== WHITE-L1-008
+TITLE: Qu’est-ce que la capitalisation boursière?
+SUMMARY: Découvrez ce que mesure la capitalisation boursière, comment la calculer et pourquoi elle n’est pas la même chose que l’encaisse ou la valeur totale d’une entreprise.
+# Qu’est-ce que la capitalisation boursière?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énoncer la formule de la capitalisation boursière.
+- Calculer la capitalisation boursière à partir du cours de l’action et du nombre d’actions en circulation.
+- Expliquer pourquoi la capitalisation boursière n’est pas la même chose que l’encaisse ou l’actif total d’une entreprise.
+
+## Contenu principal
+
+### La formule
+
+Capitalisation boursière = cours de l’action × nombre total d’actions en circulation. Elle représente la valeur marchande totale de l’ensemble des actions d’une entreprise.
+
+### Ce qu’elle mesure réellement
+
+La capitalisation boursière reflète ce que les investisseurs, collectivement, croient que vaut la propriété de l’entreprise en ce moment — une estimation du marché en temps réel, et non un chiffre vérifié ou fixe.
+
+### Pourquoi ce n’est pas la même chose que l’encaisse ou la valeur totale
+
+La capitalisation boursière n’est pas la même chose que l’argent dont dispose une entreprise, son chiffre d’affaires total ou même son actif total. Une entreprise peut avoir une capitalisation boursière élevée tout en disposant de relativement peu de liquidités, parce que la capitalisation boursière reflète les attentes des investisseurs quant à la valeur future, et non un instantané du bilan actuel.
+
+## Exemple pratique
+
+Une entreprise qui compte 10 000 000 d’actions en circulation négociées à 50 $ l’action a une capitalisation boursière de 10 000 000 × 50 $ = 500 000 000 $ — peu importe le montant des liquidités que l’entreprise détient réellement.
+
+## Quiz pratique
+
+1. La capitalisation boursière se calcule ainsi :
+   A. Chiffre d’affaires total × nombre d’employés
+   B. Cours de l’action × nombre total d’actions en circulation
+   C. Actif total − passif total
+   D. Bénéfice annuel ÷ actions en circulation
+2. Vrai ou faux : la capitalisation boursière est la même chose que l’encaisse d’une entreprise.
+3. Une entreprise compte 2 000 000 d’actions en circulation négociées à 30 $ l’action. Quelle est sa capitalisation boursière?
+   A. 6 000 $
+   B. 60 000 $
+   C. 6 000 000 $
+   D. 60 000 000 $
+
+## Corrigé
+
+1. B
+2. Faux
+3. D
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Capitalisation boursière = cours de l’action × actions en circulation.
+
+### Question 2
+Bonne réponse : Faux. La capitalisation boursière reflète une valeur marchande, et non les liquidités détenues.
+
+### Question 3
+Bonne réponse : D. 2 000 000 × 30 $ = 60 000 000 $.
+
+## Points clés
+
+- Capitalisation boursière = cours de l’action × nombre total d’actions en circulation.
+- Elle reflète l’évaluation collective, par le marché, de la propriété totale.
+- Ce n’est pas la même chose que l’encaisse, le chiffre d’affaires ou l’actif total d’une entreprise.
+
+===== WHITE-L1-009
+TITLE: Qu’est-ce qu’un FNB? (Un panier, et non une seule action)
+SUMMARY: Découvrez ce qu’est un FNB, en quoi il diffère de l’achat d’une seule action et pourquoi sa structure en panier compte.
+# Qu’est-ce qu’un FNB? (Un panier, et non une seule action)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un FNB en termes simples.
+- Expliquer en quoi il diffère de l’achat d’une seule action.
+- Expliquer un avantage pratique de la structure en panier.
+
+## Contenu principal
+
+### Ce qu’est un FNB
+
+Un FNB (fonds négocié en bourse, ou ETF en anglais) est un fonds qui détient un ensemble d’actifs (souvent de nombreuses actions ou obligations) et dont les parts se négocient en bourse tout au long de la journée, comme une seule action.
+
+### En quoi il diffère d’une seule action
+
+Acheter une action d’une seule entreprise vous expose à cette seule entreprise. Acheter une part d’un FNB vous expose d’un coup à tout ce que contient ce panier — possiblement des dizaines ou des centaines de placements sous-jacents, en un seul achat.
+
+### Un avantage pratique de la structure en panier
+
+Comme un FNB répartit l’exposition entre de nombreux placements à la fois, le mauvais rendement d’un seul de ces placements a un effet moindre sur l’ensemble du FNB que s’il s’agissait du seul placement de l’investisseur — une forme de base de diversification, approfondie dans une leçon ultérieure.
+
+## Exemple pratique
+
+Au lieu de choisir une seule entreprise dans laquelle investir, une investisseuse achète une part d’un FNB qui détient des actions de 500 entreprises différentes — elle répartit ainsi son exposition entre ces 500 entreprises en un seul achat.
+
+## Quiz pratique
+
+1. Un FNB se décrit le mieux comme :
+   A. L’action d’une seule entreprise
+   B. Un fonds qui détient un ensemble d’actifs et qui se négocie comme une action
+   C. Un type de compte d’épargne
+   D. Une obligation gouvernementale
+2. Vrai ou faux : acheter une part d’un FNB n’expose qu’à une seule entreprise sous-jacente.
+3. Quel est un avantage pratique de la structure en panier d’un FNB?
+   A. Elle garantit un profit
+   B. Elle répartit l’exposition entre de nombreux placements à la fois
+   C. Elle élimine tout risque d’investissement
+   D. Elle exige de choisir des actions individuelles
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un FNB est un fonds négociable en bourse qui détient plusieurs actifs.
+
+### Question 2
+Bonne réponse : Faux. Une part de FNB offre habituellement une exposition à de nombreux placements sous-jacents à la fois.
+
+### Question 3
+Bonne réponse : B. Répartir l’exposition entre de nombreux placements est l’avantage principal.
+
+## Points clés
+
+- Un FNB est un fonds qui détient un ensemble d’actifs et qui se négocie comme une action.
+- Une seule part de FNB peut offrir une exposition à de nombreux placements sous-jacents à la fois.
+- Cette structure en panier offre une forme de base de diversification.
+
+===== WHITE-L1-010
+TITLE: Qu’est-ce qu’un fonds commun de placement, et en quoi diffère-t-il d’un FNB?
+SUMMARY: Découvrez ce qu’est un fonds commun de placement et les principales différences pratiques entre les fonds communs de placement et les FNB.
+# Qu’est-ce qu’un fonds commun de placement, et en quoi diffère-t-il d’un FNB?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un fonds commun de placement en termes simples.
+- Expliquer en quoi les fonds communs de placement et les FNB se ressemblent.
+- Nommer au moins une différence pratique entre les deux.
+
+## Contenu principal
+
+### Ce qu’est un fonds commun de placement
+
+Comme un FNB, un fonds commun de placement met en commun l’argent de nombreux investisseurs pour acheter un ensemble d’actifs. Les deux partagent la notion de base de « panier » vue dans la leçon précédente.
+
+### En quoi ils se ressemblent
+
+Les fonds communs de placement et les FNB offrent tous deux une exposition diversifiée à un panier de placements au moyen d’un seul investissement, et les deux peuvent être gérés de façon active ou passive.
+
+### Une différence pratique clé
+
+Contrairement aux FNB, qui se négocient en bourse tout au long de la journée à des prix qui changent constamment, les parts de fonds communs de placement sont habituellement évaluées et négociées une seule fois par jour, après la fermeture des marchés, selon la valeur calculée ce jour-là.
+
+## Exemple pratique
+
+Une personne qui achète un FNB peut voir son prix changer de minute en minute pendant les heures de marché. Une personne qui achète un fonds commun de placement passe son ordre et obtient un prix calculé à la fin de cette journée de bourse, et non en temps réel.
+
+## Quiz pratique
+
+1. Un fonds commun de placement est :
+   A. L’action d’une seule entreprise
+   B. Un fonds commun qui investit dans un ensemble d’actifs, semblable dans son principe à un FNB
+   C. Exclusivement un type d’obligation
+   D. Un programme d’épargne gouvernemental
+2. Vrai ou faux : les parts de fonds communs de placement se négocient en continu tout au long de la journée, comme les parts de FNB.
+3. Quelle est une différence pratique clé entre les fonds communs de placement et les FNB?
+   A. Les fonds communs de placement ne peuvent pas détenir d’actions
+   B. Les fonds communs de placement sont habituellement évalués une fois par jour; les FNB se négocient tout au long de la journée
+   C. Les FNB ne peuvent pas être diversifiés
+   D. Il n’y a aucune réelle différence
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fonds commun de placement met l’argent en commun dans un panier diversifié, semblable dans son principe à un FNB.
+
+### Question 2
+Bonne réponse : Faux. Les fonds communs de placement sont habituellement évalués une fois par jour, contrairement aux FNB.
+
+### Question 3
+Bonne réponse : B. La fréquence d’évaluation est une différence pratique clé.
+
+## Points clés
+
+- Un fonds commun de placement met en commun l’argent des investisseurs dans un panier diversifié, semblable à un FNB.
+- Les deux offrent une exposition diversifiée au moyen d’un seul investissement.
+- Les fonds communs de placement sont habituellement évalués une fois par jour; les FNB se négocient tout au long de la journée.
