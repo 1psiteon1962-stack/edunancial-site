@@ -1,0 +1,399 @@
+===== PURPLE-L1-016
+TITLE: Superare lo schermo societario: quando la responsabilità “limitata” non regge
+SUMMARY: Spiega il concetto di superamento dello schermo societario (piercing the corporate veil): le circostanze in cui i tribunali possono ignorare del tutto la protezione di una LLC o di una società.
+# Superare lo schermo societario: quando la responsabilità “limitata” non regge
+
+## Obiettivi di apprendimento
+
+- Definire il “superamento dello schermo societario” (in inglese “piercing the corporate veil”).
+- Identificare le ragioni comuni per cui i tribunali superano lo schermo.
+- Rafforzare le abitudini pratiche che proteggono da questo rischio.
+
+## Contenuto principale
+
+Superare lo schermo societario significa che un tribunale ignora la protezione dalla responsabilità che una LLC o una società normalmente offre, chiamando i titolari a rispondere personalmente nonostante la struttura formale. Non è frequente, ma nemmeno così raro da poterlo ignorare, e mina direttamente lo scopo stesso di costituire un soggetto protettivo: è proprio per questo che conta capire che cosa lo fa scattare. (In Italia la giurisprudenza ammette solo in casi limitati di superare lo schermo della personalità giuridica, per esempio in presenza di abuso della forma societaria; i dettagli vanno valutati con un professionista.)
+
+Le ragioni comuni per cui i tribunali superano lo schermo includono: non mantenere la separazione tra finanze dell'impresa e finanze personali (usare il conto aziendale per spese personali, mescolare i fondi), non rispettare le formalità societarie di base (non tenere registri adeguati, comportarsi come se il soggetto non esistesse davvero), essere fortemente sottocapitalizzati rispetto ai rischi evidenti dell'attività, oppure usare il soggetto proprio per commettere frodi o eludere obblighi giuridici esistenti. La lezione pratica è diretta: costituire una LLC o una società è necessario ma non sufficiente per la protezione dalla responsabilità; devi anche gestirla davvero come un soggetto separato, con costanza, altrimenti la protezione che hai pagato per costruire può svanire proprio quando ti serve di più.
+
+## Esempio svolto
+
+**Domanda:** Un'imprenditrice costituisce una LLC ma usa abitualmente il conto aziendale per pagare bollette personali, non tiene mai registri separati e tratta il denaro dell'impresa e quello personale come sostanzialmente intercambiabili. Quale rischio crea questo?
+
+**Studente:** Secondo questa lezione, questa commistione è proprio il tipo di comportamento che potrebbe portare un tribunale a superare lo schermo societario, ignorando la protezione dalla responsabilità della LLC.
+
+**Guida:** Perché un tribunale lo farebbe, dato che sulla carta la LLC era costituita correttamente?
+
+**Studente:** Perché se nella pratica la titolare non ha mai trattato davvero l'impresa come un soggetto separato, il tribunale può ragionevolmente concludere che la separazione non è mai stata reale e ignorare di conseguenza la protezione.
+
+**Guida:** Esatto: costituire il soggetto è necessario ma non sufficiente; devi anche gestirlo davvero come separato.
+
+## Quiz di esercitazione
+
+**Domanda 1.** “Superare lo schermo societario” significa:
+
+A) Costituire una nuova società
+B) Un tribunale ignora la protezione di una LLC/società e chiama i titolari a rispondere personalmente
+C) Un tipo di inadempimento contrattuale
+D) Un adempimento fiscale
+
+**Domanda 2.** Una ragione comune per cui i tribunali superano lo schermo è:
+
+A) Mantenere correttamente separate le finanze dell'impresa e quelle personali
+B) Mescolare i fondi dell'impresa con quelli personali
+C) Rispettare tutte le formalità societarie
+D) Essere adeguatamente capitalizzati
+
+**Domanda 3.** Che cosa è, secondo questa lezione, necessario ma non sufficiente per la protezione dalla responsabilità?
+
+A) Non costituire mai alcun soggetto
+B) Costituire la LLC o la società: bisogna anche gestirla davvero come separata
+C) Solo pagare le tasse in tempo
+D) Oltre alla costituzione non serve altro
+
+**Domanda 4.** Quale abitudine pratica protegge dal rischio di superamento dello schermo?
+
+A) Trattare il denaro dell'impresa e quello personale come intercambiabili
+B) Mantenere una vera separazione tra finanze dell'impresa e personali e rispettare le formalità
+C) Evitare qualsiasi tenuta dei registri
+D) Ignorare del tutto le formalità societarie
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questo concetto descrive proprio il venir meno della protezione dalla responsabilità a causa di come il soggetto è stato effettivamente gestito.
+
+**2.** La commistione dei fondi è uno dei motivi più citati per cui un tribunale ignora la protezione del soggetto.
+
+**3.** La costituzione da sola non garantisce la protezione: è la separazione operativa continua e reale a sostenerla davvero.
+
+**4.** Una separazione finanziaria e formale costante è la salvaguardia pratica contro questo rischio.
+
+## Punti chiave
+
+- Superare lo schermo societario significa che un tribunale ignora la protezione di una LLC/società, esponendo personalmente i titolari.
+- La commistione dei fondi e il mancato rispetto delle formalità sono cause comuni.
+- Costituire il soggetto è necessario ma non sufficiente: devi gestirlo davvero come separato.
+- Una separazione costante e disciplinata è la difesa pratica contro questo rischio.
+
+===== PURPLE-L1-017
+TITLE: Licenze e autorizzazioni: il diritto giuridico di operare
+SUMMARY: Introduce il concetto generale di licenze e autorizzazioni come titolo giuridico necessario per operare, distinto dalla costituzione del soggetto.
+# Licenze e autorizzazioni: il diritto giuridico di operare
+
+## Obiettivi di apprendimento
+
+- Distinguere la costituzione del soggetto da licenze e autorizzazioni.
+- Spiegare lo scopo generale di licenze e autorizzazioni.
+- Riconoscere il rischio di operare senza un'autorizzazione adeguata.
+
+## Contenuto principale
+
+Costituire un soggetto (una LLC, una società, ecc.) è un passaggio giuridico distinto dall'ottenere le licenze e le autorizzazioni effettivamente necessarie per esercitare legalmente quell'attività. I requisiti di licenza e autorizzazione variano enormemente per settore, luogo e tipo di attività: un ristorante ha bisogno di autorizzazioni sanitarie che una società di consulenza non richiede; un'impresa edile può aver bisogno di abilitazioni professionali che un negozio al dettaglio non richiede. (In Italia rientrano in questo ambito, per esempio, l'iscrizione al Registro delle imprese e, per molte attività, una segnalazione certificata di inizio attività o specifiche autorizzazioni comunali.) Anche qui “le regole” non sono un'unica lista universale, ma requisiti specifici per ordinamento e settore, da verificare per ogni situazione concreta.
+
+Operare senza le licenze o le autorizzazioni necessarie comporta rischi reali: sanzioni, chiusura forzata, contratti invalidati e, in alcuni casi, esposizione alla responsabilità personale anche per un soggetto altrimenti costituito correttamente. Un errore comune e comprensibile è presumere che costituire una LLC o una società sia l'unico passaggio giuridico necessario per “essere in regola”: ma un soggetto costituito correttamente che opera senza le licenze richieste sta comunque operando illegalmente in senso significativo, e questa lacuna va individuata e colmata prima, non dopo, che emerga un problema.
+
+## Esempio svolto
+
+**Domanda:** Una LLC appena costituita inizia a operare subito dopo la costituzione, senza verificare se servano licenze o autorizzazioni specifiche del settore. Quale lacuna illustra questo?
+
+**Studente:** Secondo questa lezione, costituire la LLC ha risolto la costituzione del soggetto, ma licenze e autorizzazioni sono un requisito giuridico separato che non è stato affrontato affatto.
+
+**Guida:** Quale rischio crea operare senza le licenze richieste, anche per una LLC costituita correttamente?
+
+**Studente:** Un rischio reale: sanzioni, chiusura forzata o persino un'esposizione che mina la protezione che la LLC doveva offrire, perché operare illegalmente può complicare le cose anche con un soggetto costituito correttamente.
+
+**Guida:** Esatto: costituzione del soggetto e autorizzazione giuridica a operare sono due passaggi separati, entrambi necessari.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La costituzione del soggetto e licenze/autorizzazioni sono:
+
+A) Esattamente lo stesso passaggio giuridico
+B) Due requisiti giuridici separati
+C) Rilevanti solo per le imprese individuali
+D) Irrilevanti l'una per le altre
+
+**Domanda 2.** I requisiti di licenza e autorizzazione:
+
+A) Sono identici per ogni attività ovunque
+B) Variano per settore, luogo e tipo di attività
+C) Non si applicano mai ad alcuna attività
+D) Si applicano solo alle società di capitali
+
+**Domanda 3.** Operare senza le licenze richieste può comportare:
+
+A) Nessuna conseguenza
+B) Sanzioni, chiusura forzata, contratti invalidati o esposizione alla responsabilità
+C) Il successo automatico dell'attività
+D) Solo un piccolo inconveniente senza rischio reale
+
+**Domanda 4.** Un errore comune individuato da questa lezione è:
+
+A) Non costituire mai alcun soggetto
+B) Presumere che la sola costituzione renda un'attività pienamente “in regola” e autorizzata
+C) Ottenere troppe licenze
+D) Questa lezione non individua alcun errore comune
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La costituzione stabilisce l'esistenza giuridica del soggetto; la licenza stabilisce il suo permesso giuridico di operare effettivamente.
+
+**2.** I requisiti specifici sono determinati da settore e ordinamento, non da un'unica lista universale.
+
+**3.** Ignorare questo passaggio espone l'attività a una serie di conseguenze reali ed evitabili.
+
+**4.** Questa lezione nomina e corregge direttamente l'idea diffusa che la sola costituzione copra tutta la conformità giuridica.
+
+## Punti chiave
+
+- Costituzione del soggetto e licenze/autorizzazioni sono due requisiti giuridici separati.
+- I requisiti di licenza variano per settore, luogo e tipo di attività.
+- Operare senza le licenze richieste comporta rischi reali, tra cui sanzioni e chiusura forzata.
+- Costituire un soggetto da solo non rende un'attività pienamente autorizzata a operare.
+
+===== PURPLE-L1-018
+TITLE: Basi di diritto del lavoro: dipendente o lavoratore autonomo, sul piano giuridico
+SUMMARY: Riprende la distinzione tra dipendente e lavoratore autonomo di GREEN attraverso la lente della responsabilità giuslavoristica, trattando le conseguenze giuridiche di un inquadramento errato.
+# Basi di diritto del lavoro: dipendente o lavoratore autonomo, sul piano giuridico
+
+## Obiettivi di apprendimento
+
+- Richiamare la distinzione tra dipendente e lavoratore autonomo vista in GREEN.
+- Spiegare le conseguenze giuridiche aggiuntive (non fiscali) di un inquadramento errato.
+- Riconoscere il diritto del lavoro come area di rischio distinta da quella fiscale.
+
+## Contenuto principale
+
+GREEN ha trattato la distinzione tra dipendente e lavoratore autonomo soprattutto attraverso la lente fiscale: un inquadramento errato rischia imposte arretrate, sanzioni e interessi. Questa lezione aggiunge la dimensione del diritto del lavoro: inquadrare male un lavoratore ha anche conseguenze giuridiche del tutto separate dalle imposte, compresa l'esposizione a pretese per straordinari non pagati, violazioni dei minimi retributivi, benefici negati che il lavoratore avrebbe dovuto ricevere e tutele sul lavoro che valgono per i dipendenti ma non per i veri lavoratori autonomi. (In Italia si parla spesso di falso lavoro autonomo; le conseguenze riguardano soprattutto contributi previdenziali da versare e diritti del lavoratore dipendente come ferie, retribuzione minima prevista dai contratti collettivi e tutele contro il licenziamento.)
+
+Il criterio di inquadramento nel contesto giuslavoristico considera spesso fattori simili a quelli fiscali – il grado di controllo su come, quando e dove si svolge il lavoro –, ma le conseguenze di un errore corrono su due binari separati contemporaneamente: un accertamento dell'autorità fiscale o previdenziale e una pretesa di lavoro possono nascere entrambi dallo stesso identico inquadramento errato, moltiplicando l'esposizione complessiva. È un esempio chiaro di come una singola decisione d'impresa – come inquadrare un lavoratore – possa creare responsabilità in più aree del diritto completamente diverse nello stesso momento, il che rafforza il motivo per cui questa decisione merita un'attenzione accurata e spesso professionale.
+
+## Esempio svolto
+
+**Domanda:** Un'impresa inquadra diversi lavoratori come autonomi quando giuridicamente dovrebbero essere dipendenti. Oltre alle conseguenze fiscali viste in GREEN, quale esposizione giuridica aggiuntiva individua questa lezione?
+
+**Studente:** Secondo questa lezione, c'è anche un'esposizione di diritto del lavoro: pretese per straordinari non pagati, violazioni dei minimi retributivi e benefici o tutele negati che i lavoratori avrebbero dovuto ricevere come dipendenti.
+
+**Guida:** In che rapporto stanno questi due tipi di esposizione, fiscale e giuslavoristica?
+
+**Studente:** Possono nascere entrambi dalla stessa identica decisione di inquadramento errato, correndo su binari separati contemporaneamente, il che moltiplica il rischio complessivo oltre le sole conseguenze fiscali.
+
+**Guida:** Esatto: una decisione, più aree simultanee di esposizione giuridica.
+
+## Quiz di esercitazione
+
+**Domanda 1.** GREEN ha trattato l'inquadramento errato dei lavoratori soprattutto attraverso quale lente?
+
+A) Diritto del lavoro
+B) Fisco
+C) Diritto immobiliare
+D) Diritto dei mercati finanziari
+
+**Domanda 2.** Quale conseguenza aggiuntiva dell'inquadramento errato aggiunge questa lezione?
+
+A) Non esiste alcuna conseguenza aggiuntiva
+B) Esposizione giuslavoristica: straordinari non pagati, minimi retributivi, benefici negati, tutele sul lavoro
+C) Solo ulteriori sanzioni fiscali
+D) Solo esposizione penale
+
+**Domanda 3.** Pretese fiscali e di lavoro possono nascere contemporaneamente dallo stesso inquadramento errato?
+
+A) No, se ne può applicare solo una
+B) Sì: entrambe possono nascere dalla stessa identica decisione, moltiplicando l'esposizione complessiva
+C) Le pretese di lavoro non riguardano mai l'inquadramento
+D) Queste due aree sono del tutto scollegate
+
+**Domanda 4.** Che cosa illustra questo su una singola decisione d'impresa come l'inquadramento dei lavoratori?
+
+A) Crea sempre un solo tipo di rischio
+B) Una singola decisione può creare responsabilità in più aree del diritto completamente diverse contemporaneamente
+C) Le decisioni di inquadramento non hanno un reale peso giuridico
+D) Solo le grandi imprese affrontano questo rischio
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il trattamento del percorso GREEN era incentrato sulle conseguenze di ritenute e versamenti fiscali.
+
+**2.** Questa lezione nomina esplicitamente i rischi paralleli di diritto del lavoro che esistono indipendentemente dall'esposizione fiscale.
+
+**3.** L'esposizione simultanea e cumulativa in due aree giuridiche è il punto chiave che questa lezione aggiunge alla discussione precedente.
+
+**4.** È un'illustrazione chiara e concreta di come una decisione di inquadramento possa toccare più ambiti giuridici insieme.
+
+## Punti chiave
+
+- GREEN ha trattato le conseguenze fiscali dell'inquadramento errato; questa lezione aggiunge quelle di diritto del lavoro.
+- L'inquadramento errato può far nascere pretese per straordinari non pagati, minimi retributivi e benefici negati.
+- Esposizione fiscale e giuslavoristica possono nascere contemporaneamente dallo stesso inquadramento errato.
+- È un esempio chiaro di una decisione che crea responsabilità in più aree del diritto insieme.
+
+===== PURPLE-L1-019
+TITLE: Patti di non concorrenza e accordi di riservatezza: che cosa fanno davvero
+SUMMARY: Spiega lo scopo pratico e le questioni di efficacia dei patti di non concorrenza e degli accordi di riservatezza, frequenti nei contesti d'impresa.
+# Patti di non concorrenza e accordi di riservatezza: che cosa fanno davvero
+
+## Obiettivi di apprendimento
+
+- Distinguere un patto di non concorrenza da un accordo di riservatezza.
+- Spiegare lo scopo generale di ciascuno.
+- Riconoscere che l'efficacia varia sensibilmente da un ordinamento all'altro.
+
+## Contenuto principale
+
+Un accordo di riservatezza (in inglese “non-disclosure agreement”, NDA) impedisce a una parte di divulgare determinate informazioni riservate, proteggendo segreti commerciali, piani aziendali o processi proprietari condivisi durante un rapporto d'affari. Un patto di non concorrenza (in inglese “non-compete”) impedisce a una parte (spesso un ex dipendente o chi vende un'impresa) di fare concorrenza all'altra parte per un periodo e in un'area geografica determinati, proteggendo un'impresa da un insider che se ne va e usa subito le conoscenze interne per farle concorrenza diretta.
+
+Entrambi sono comuni nei contesti d'impresa del percorso BLUE – contratti di lavoro, cessioni d'azienda, scioglimenti di società –, ma differiscono molto in quanto siano effettivamente applicabili. Gli accordi di riservatezza sono in genere piuttosto efficaci, perché limitano solo la divulgazione senza restringere in modo ampio la possibilità di guadagnarsi da vivere. I patti di non concorrenza sono molto più variabili: alcuni ordinamenti li applicano volentieri se ragionevoli nella portata, altri li limitano fortemente e altri ancora li vietano quasi del tutto per la maggior parte dei lavoratori, riflettendo una tensione di politica del diritto tra la tutela di interessi aziendali legittimi e il non limitare in modo irragionevole la possibilità di lavorare di una persona. (In Italia il patto di non concorrenza del lavoratore dipendente è valido in genere solo se fatto per iscritto, con un corrispettivo, e limitato per oggetto, tempo e luogo; la durata massima è di cinque anni per i dirigenti e di tre anni negli altri casi. Verifica i dettagli con un professionista.) Questa variabilità è proprio il tipo di dettaglio che rende “il mio patto di non concorrenza è valido?” una domanda davvero legata all'ordinamento, che merita una revisione professionale invece di supposizioni in un senso o nell'altro.
+
+## Esempio svolto
+
+**Domanda:** Un imprenditore in un paese presume che una normale clausola di non concorrenza sarà pienamente applicabile, sulla base di qualcosa che ha letto sulle regole di un altro paese. Che cosa dovrebbe spingerlo a riconsiderare questa lezione?
+
+**Studente:** Secondo questa lezione, l'efficacia dei patti di non concorrenza varia molto da un ordinamento all'altro, quindi presumere che valgano le regole di un altro paese potrebbe essere un vero errore.
+
+**Guida:** Come si confronta questo con l'efficacia degli accordi di riservatezza, secondo questa lezione?
+
+**Studente:** Gli accordi di riservatezza sono descritti come in genere piuttosto efficaci ovunque, mentre i patti di non concorrenza sono molto più variabili e dipendenti dall'ordinamento: quindi non bisogna presumere che funzionino allo stesso modo.
+
+**Guida:** Esatto: per questo l'efficacia dei patti di non concorrenza merita in particolare una revisione professionale legata all'ordinamento.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un accordo di riservatezza impedisce:
+
+A) A una persona di lavorare ovunque
+B) A una parte di divulgare determinate informazioni riservate
+C) Solo le operazioni immobiliari
+D) Nulla di giuridicamente significativo
+
+**Domanda 2.** Un patto di non concorrenza impedisce:
+
+A) Solo la divulgazione di informazioni riservate
+B) A una parte di fare concorrenza all'altra per un periodo e in un'area determinati
+C) Nulla
+D) Solo le attività criminali
+
+**Domanda 3.** Come si confronta in genere l'efficacia degli accordi di riservatezza con quella dei patti di non concorrenza?
+
+A) Sono ugualmente variabili
+B) Gli accordi di riservatezza sono in genere piuttosto efficaci; l'efficacia dei patti di non concorrenza varia molto da un ordinamento all'altro
+C) I patti di non concorrenza sono sempre più efficaci degli accordi di riservatezza
+D) Nessuno dei due è mai efficace
+
+**Domanda 4.** Perché l'efficacia dei patti di non concorrenza varia così tanto da un ordinamento all'altro?
+
+A) Senza un vero motivo, è casuale
+B) Per una tensione tra tutela degli interessi aziendali e il non limitare in modo irragionevole la possibilità di lavorare
+C) Solo i paesi ricchi applicano i patti di non concorrenza
+D) Questa lezione non affronta il motivo
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Gli accordi di riservatezza riguardano proprio la tutela delle informazioni riservate, non la limitazione generale della possibilità di lavorare.
+
+**2.** I patti di non concorrenza limitano specificamente l'attività concorrenziale futura entro limiti definiti.
+
+**3.** Gli accordi di riservatezza incontrano meno ostacoli di efficacia perché non limitano in modo ampio il guadagnarsi da vivere come possono fare i patti di non concorrenza.
+
+**4.** Questa tensione di fondo è proprio il motivo per cui ordinamenti diversi trovano l'equilibrio in modo diverso.
+
+## Punti chiave
+
+- Gli accordi di riservatezza proteggono le informazioni riservate; i patti di non concorrenza limitano la concorrenza futura.
+- Gli accordi di riservatezza sono in genere applicati in modo più uniforme dei patti di non concorrenza.
+- L'efficacia dei patti di non concorrenza varia molto da un ordinamento all'altro, riflettendo una reale tensione di politica del diritto.
+- Questa variabilità rende l'efficacia dei patti di non concorrenza una questione davvero legata all'ordinamento, che merita una revisione professionale.
+
+===== PURPLE-L1-020
+TITLE: Basi di proprietà intellettuale: marchi, diritto d'autore, brevetti
+SUMMARY: Introduce le tre principali categorie di tutela della proprietà intellettuale rilevanti per gli imprenditori, chiudendo la sezione di diritto d'impresa.
+# Basi di proprietà intellettuale: marchi, diritto d'autore, brevetti
+
+## Obiettivi di apprendimento
+
+- Distinguere marchi, diritto d'autore e brevetti.
+- Identificare quale categoria protegge quale tipo di bene aziendale.
+- Riconoscere la proprietà intellettuale come un bene aziendale da proteggere attivamente.
+
+## Contenuto principale
+
+Il diritto della proprietà intellettuale (PI) protegge le creazioni dell'ingegno – marchi, opere creative e invenzioni – come beni giuridicamente riconosciuti e possedibili. Tre categorie principali contano di più per gli imprenditori: i **marchi** proteggono i segni distintivi (nomi d'impresa, loghi, slogan) che distinguono i tuoi prodotti o servizi da quelli dei concorrenti. Il **diritto d'autore** protegge le opere creative originali (testi, design, codice software) dalla copia non autorizzata. I **brevetti** proteggono le invenzioni – processi o prodotti davvero nuovi e utili – dando all'inventore diritti esclusivi per un periodo limitato. (In Italia marchi e brevetti si depositano presso l'Ufficio italiano brevetti e marchi, i marchi validi in tutta l'Unione europea presso l'Ufficio dell'Unione europea per la proprietà intellettuale; il diritto d'autore nasce invece automaticamente con la creazione dell'opera, senza deposito.)
+
+Per un imprenditore del percorso BLUE, la PI non è una categoria giuridica astratta: è spesso un bene aziendale reale e prezioso. Un nome forte protetto da marchio, contenuti proprietari protetti dal diritto d'autore o un prodotto davvero innovativo protetto da brevetto possono essere fonti di un reale vantaggio competitivo e di un reale valore economico, a volte superiore a quello dei beni materiali dell'impresa. Non proteggere la PI – o, peggio, violare inconsapevolmente quella altrui – è un rischio giuridico comune ed evitabile con cui si chiude questa sezione di diritto d'impresa del percorso.
+
+## Esempio svolto
+
+**Domanda:** Un'imprenditrice sviluppa un nome e un logo distintivi ma non registra mai un marchio, presumendo che usarli sia una protezione sufficiente. Quale rischio crea questo?
+
+**Studente:** Secondo questa lezione, senza la tutela del marchio l'identità del marchio potrebbe non essere protetta giuridicamente quanto presume, e un concorrente potrebbe usare qualcosa di simile con meno rischio giuridico per sé.
+
+**Guida:** Perché questo conta per il valore economico effettivo dell'impresa?
+
+**Studente:** Perché un marchio forte e protetto può essere un bene aziendale reale e prezioso: lasciarlo senza protezione rischia di perdere parte di quel valore se qualcun altro lo rivendica o usa qualcosa di confondibile.
+
+**Guida:** Esatto: la tutela della PI è una decisione d'impresa pratica, non solo una formalità giuridica.
+
+## Quiz di esercitazione
+
+**Domanda 1.** I marchi proteggono:
+
+A) Le invenzioni
+B) Segni distintivi come nomi, loghi e slogan
+C) Solo i testi
+D) Nulla che abbia valore aziendale
+
+**Domanda 2.** Il diritto d'autore protegge:
+
+A) I nomi dei marchi
+B) Le opere creative originali, come testi o codice
+C) Solo le invenzioni fisiche
+D) Solo gli immobili
+
+**Domanda 3.** I brevetti proteggono:
+
+A) I loghi dei marchi
+B) Invenzioni, processi o prodotti davvero nuovi e utili
+C) Solo la scrittura creativa
+D) Nulla di giuridicamente significativo
+
+**Domanda 4.** Perché la PI conta nella pratica per un imprenditore?
+
+A) Non ha alcuna rilevanza pratica
+B) La PI può essere un bene aziendale reale e prezioso, a volte di valore superiore ai beni materiali
+C) Solo le grandi società hanno PI
+D) La PI conta solo per gli inventori, mai per i marchi
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il diritto dei marchi riguarda proprio la tutela dei segni che distinguono un'impresa sul mercato.
+
+**2.** Il diritto d'autore copre l'espressione creativa originale, una categoria distinta dall'identità di marca o dalle invenzioni.
+
+**3.** Il diritto dei brevetti premia specificamente l'innovazione reale con diritti esclusivi per un periodo limitato.
+
+**4.** Riconoscere la PI come vero valore aziendale, e non solo come tecnicismo giuridico, è il messaggio pratico di questa lezione.
+
+## Punti chiave
+
+- I marchi proteggono i segni distintivi; il diritto d'autore protegge le opere creative; i brevetti proteggono le invenzioni.
+- La PI può essere un bene aziendale davvero prezioso, a volte superiore al valore dei beni materiali.
+- Non proteggere la PI, o violare inconsapevolmente quella altrui, è un rischio giuridico comune ed evitabile.
+- Questo chiude la sezione di diritto d'impresa prima che il percorso passi al diritto immobiliare.
