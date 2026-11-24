@@ -1,0 +1,177 @@
+===== GOLD-L1-011
+TITLE: La differenza tra investimenti e fondo di emergenza
+SUMMARY: Chiarisce perché il denaro investito e il fondo di emergenza vanno trattati come riserve separate con regole diverse.
+# La differenza tra investimenti e fondo di emergenza
+
+## Obiettivi di apprendimento
+- Distinguere il fondo di emergenza dal denaro investito
+- Spiegare perché mescolare le due riserve crea un rischio reale
+- Esercitarsi a capire a quale riserva appartiene un determinato obiettivo finanziario
+
+## Contenuto principale
+
+Questa lezione applica direttamente il quadro Guadagnare/Conservare/Far crescere/Tramandare della primissima lezione: il fondo di emergenza appartiene alla funzione “Conservare”, mentre il denaro investito – compresa una posizione crescente in metalli preziosi – appartiene alla funzione “Far crescere”. Queste due riserve di denaro vanno trattate separatamente, con regole diverse, perché servono a scopi fondamentalmente diversi.
+
+Il fondo di emergenza deve essere sicuro e subito disponibile, perché le emergenze, per definizione, arrivano in modo imprevedibile e spesso richiedono liquidità in fretta. Il denaro investito può sopportare più oscillazioni di prezzo di breve periodo, perché non è destinato a essere toccato con poco preavviso: il suo valore nasce dal tempo che gli si concede per crescere. Mescolare le due cose – trattare gli investimenti come un fondo di emergenza, o attingere a ciò che dovrebbe essere denaro investito a lungo termine per spese non urgenti – indebolisce entrambe le funzioni contemporaneamente.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Nel caso di studio, la posizione crescente in argento e oro del figlio è denaro investito, destinato a crescere su un lungo orizzonte temporale, e non qualcosa da vendere per una spesa ordinaria non urgente solo perché ha valore in quel momento. Una riserva separata di risparmi facilmente accessibili, tenuta distinta dalla posizione in metalli, sarebbe la risorsa adatta per le vere emergenze e proteggerebbe la posizione di investimento dall'essere interrotta da bisogni di breve periodo che non è mai stata pensata per coprire.
+
+## Quiz di esercitazione
+
+1. Nel quadro Guadagnare/Conservare/Far crescere/Tramandare, a quale funzione appartiene il fondo di emergenza e a quale il denaro investito?
+2. Perché il fondo di emergenza deve essere sicuro e subito disponibile?
+3. Perché il denaro investito può sopportare più oscillazioni di prezzo di breve periodo?
+4. Quale rischio crea mescolare le due riserve?
+
+## Soluzioni
+1. Il fondo di emergenza appartiene a “Conservare”; il denaro investito appartiene a “Far crescere”.
+2. Perché le emergenze arrivano in modo imprevedibile e spesso richiedono liquidità in fretta.
+3. Perché non è destinato a essere toccato con poco preavviso, il che gli dà tempo per riprendersi dalle oscillazioni di breve periodo.
+4. Indebolisce entrambe le funzioni: gli investimenti potrebbero essere venduti nel momento sbagliato per spese non urgenti, oppure i bisogni di emergenza potrebbero non essere coperti se i fondi sono vincolati negli investimenti.
+
+## Risposte e spiegazioni
+1. Si ricollega direttamente al quadro fondamentale della prima lezione.
+2. Imprevedibilità e urgenza sono le caratteristiche che impongono al fondo di emergenza di privilegiare sicurezza e accesso.
+3. L'orizzonte temporale è il meccanismo che permette al denaro investito di sopportare più rischio di breve periodo.
+4. Mescolare le riserve compromette lo scopo specifico che ciascuna deve servire.
+
+## Punti chiave
+- Il fondo di emergenza (“Conservare”) e il denaro investito (“Far crescere”) servono a scopi diversi e richiedono regole diverse.
+- Il fondo di emergenza privilegia sicurezza e accesso immediato; il denaro investito, con il tempo, può sopportare più oscillazioni.
+- Mescolare queste due riserve indebolisce entrambe le funzioni e in genere va evitato.
+
+===== GOLD-L1-012
+TITLE: Premi, spread e nozioni di base sui commercianti
+SUMMARY: Spiega la differenza tra il prezzo spot del metallo e quanto un acquirente paga effettivamente.
+# Premi, spread e nozioni di base sui commercianti
+
+## Obiettivi di apprendimento
+- Definire in termini semplici prezzo spot, premio e spread
+- Spiegare perché il prezzo pagato per il metallo fisico differisce dal prezzo spot
+- Riconoscere l'importanza di confrontare più commercianti prima di acquistare
+
+## Contenuto principale
+
+Il prezzo spot è il prezzo di mercato corrente per una certa quantità di metallo non lavorato: il prezzo di riferimento che si vede quotato pubblicamente. Quando si compra davvero metallo fisico da un commerciante, il prezzo pagato è di solito superiore allo spot, e questa differenza si chiama premio. Il premio copre i costi del commerciante per la fabbricazione della moneta o del lingotto, la distribuzione e il suo margine.
+
+Lo spread è la differenza tra il prezzo a cui un commerciante vende un pezzo di metallo e il prezzo a cui riacquista lo stesso pezzo: il prezzo di riacquisto è di solito inferiore a quello di vendita, e questa differenza rappresenta parte del margine del commerciante. Commercianti diversi applicano premi e spread diversi, e prodotti diversi (per esempio monete comuni rispetto a lingotti meno diffusi) possono avere premi di livello diverso. Confrontare più commercianti e capire questi costi in anticipo aiuta un investitore a non pagare troppo e a conoscere il costo reale dell'acquisto e della successiva vendita di metallo fisico.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Se il prezzo spot di un'oncia d'argento è un certo importo pubblicato, un commerciante potrebbe vendere una moneta d'argento comune al prezzo spot più un premio che riflette i costi di conio e distribuzione. Se lo stesso investitore in seguito volesse rivendere la moneta, l'offerta di riacquisto del commerciante sarebbe di solito un po' più bassa del prezzo di vendita corrente: questo è lo spread. Capire sia il premio pagato all'acquisto sia lo spread alla vendita aiuta un investitore a stimare in modo realistico quanto vale davvero una posizione se dovesse essere riconvertita in contanti, invece di presumere che valga sempre esattamente il prezzo spot.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue prezzo spot, premio e spread.
+2. Perché il prezzo pagato per il metallo fisico supera di solito il prezzo spot?
+3. Che cosa rappresenta lo spread?
+4. Perché è importante per un investitore capire premi e spread?
+
+## Soluzioni
+1. Il prezzo spot è il prezzo di riferimento corrente del mercato; il premio è il costo aggiuntivo sopra lo spot all'acquisto; lo spread è la differenza tra i prezzi di acquisto e di vendita di un commerciante.
+2. Perché il premio copre i costi di fabbricazione, distribuzione e il margine del commerciante.
+3. La differenza tra il prezzo a cui un commerciante vende e quello a cui riacquista, che rappresenta parte del suo margine.
+4. Aiuta un investitore a stimare in modo realistico il costo reale dell'acquisto e il valore reale alla vendita, invece di presumere che una posizione valga sempre esattamente il prezzo spot.
+
+## Risposte e spiegazioni
+1. Queste tre definizioni stabiliscono il vocabolario di base dei prezzi nelle operazioni sul metallo fisico.
+2. I costi e il margine del commerciante sono le ragioni pratiche del premio sopra il prezzo spot.
+3. Lo spread è una parte normale del modello di business di un commerciante, non un costo nascosto o insolito.
+4. Una stima realistica del valore, che tenga conto dei costi di acquisto e di vendita, è il vantaggio pratico di conoscere questi termini.
+
+## Punti chiave
+- Il prezzo spot è il riferimento di mercato; il premio è ciò che un commerciante aggiunge quando vende metallo fisico.
+- Lo spread è la differenza tra i prezzi di acquisto e di vendita di un commerciante e rappresenta parte del suo margine.
+- Confrontare i commercianti e capire questi costi aiuta un investitore a stimare in modo realistico il vero valore di una posizione.
+
+===== GOLD-L1-013
+TITLE: Monete o lingotti
+SUMMARY: Confronta due forme fisiche comuni dei metalli preziosi e i rispettivi pro e contro.
+# Monete o lingotti
+
+## Obiettivi di apprendimento
+- Confrontare monete e lingotti come forme di metalli preziosi fisici
+- Identificare i fattori che possono influenzare la scelta tra i due
+- Riconoscere che nessuna delle due forme è “migliore” in assoluto
+
+## Contenuto principale
+
+I metalli preziosi fisici si presentano comunemente in due forme principali: monete (spesso coniate da uno Stato, con disegni e valori nominali riconosciuti) e lingotti (in genere più semplici, spesso di zecche private, venduti a peso). Entrambe rappresentano la proprietà dello stesso metallo sottostante, ma possono differire per premio, riconoscibilità e liquidità.
+
+Le monete, soprattutto quelle statali molto conosciute, hanno spesso un premio più alto ma possono essere più facili da vendere rapidamente a un'ampia gamma di acquirenti grazie alla loro riconoscibilità e alla fiducia che ispirano. I lingotti hanno spesso un premio più basso per unità di peso, soprattutto nei formati più grandi, ma possono essere un po' meno riconoscibili per un acquirente occasionale, il che a volte può influire sulla rapidità di vendita, anche se dipende dal prodotto e dal commerciante.
+
+Nessuna delle due forme è migliore in assoluto: la scelta giusta dipende da priorità come il costo del premio, la facilità di rivendita e la preferenza personale per unità più piccole e flessibili rispetto a unità più grandi ed efficienti.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Un investitore che accumula argento con piccoli importi mensili potrebbe preferire monete comuni da un'oncia, ampiamente riconosciute, facili da comprare a piccoli passi e in genere semplici da rivendere. Chi fa un acquisto più grande e meno frequente potrebbe considerare un lingotto più grande, che di solito ha un premio per oncia più basso, accettando un'unità singola un po' meno flessibile e più grande in cambio di questa efficienza di costo.
+
+## Quiz di esercitazione
+
+1. Quali sono le due principali forme fisiche dei metalli preziosi trattate in questa lezione?
+2. Qual è un tipico pro e contro delle monete rispetto ai lingotti?
+3. Qual è un tipico pro e contro dei lingotti rispetto alle monete?
+4. Una delle due forme è “migliore” in assoluto dell'altra?
+
+## Soluzioni
+1. Monete e lingotti.
+2. Le monete hanno spesso un premio più alto ma possono essere più facili da vendere rapidamente grazie alla loro ampia riconoscibilità.
+3. I lingotti hanno spesso un premio per unità più basso ma possono essere un po' meno riconoscibili, il che a volte influisce sulla rapidità di rivendita.
+4. No: la scelta giusta dipende da priorità individuali come il costo del premio, la facilità di rivendita e le preferenze personali.
+
+## Risposte e spiegazioni
+1. Sono le due forme principali che un investitore incontrerà più probabilmente.
+2. Riconoscibilità e liquidità sono in questo confronto i principali argomenti a favore delle monete.
+3. L'efficienza di costo per unità è in questo confronto il principale argomento a favore dei lingotti.
+4. Corregge qualsiasi idea che una delle due forme abbia un vantaggio intrinseco e universale sull'altra.
+
+## Punti chiave
+- Monete e lingotti sono le due principali forme fisiche dei metalli preziosi ed entrambi rappresentano la proprietà dello stesso metallo.
+- Le monete tendono ad avere premi più alti ma maggiore riconoscibilità e facilità di rivendita; i lingotti tendono ad avere premi più bassi ma riconoscibilità un po' minore.
+- Nessuna delle due forme è migliore in assoluto: la scelta giusta dipende da priorità e circostanze individuali.
+
+===== GOLD-L1-014
+TITLE: Reinvestire o spendere i guadagni
+SUMMARY: Esamina la scelta tra reinvestire la crescita o usarla, e come questa scelta incide sull'interesse composto.
+# Reinvestire o spendere i guadagni
+
+## Obiettivi di apprendimento
+- Spiegare la differenza tra reinvestire e spendere i guadagni di un investimento
+- Collegare questa decisione al concetto di interesse composto visto in precedenza
+- Riconoscere che non esiste una scelta “giusta” in assoluto, ma solo compromessi
+
+## Contenuto principale
+
+Quando un investimento cresce di valore, prima o poi l'investitore si trova davanti a una scelta: lasciare investita quella crescita (reinvestire) oppure convertirne una parte in contanti da spendere per qualcos'altro. Questa decisione si ricollega direttamente alla lezione sull'interesse composto vista prima in questo percorso: la crescita reinvestita continua a capitalizzarsi, accumulandosi su sé stessa nel tempo, mentre la crescita spesa smette del tutto di contribuire alla capitalizzazione futura, perché non fa più parte della posizione investita.
+
+Nessuna delle due scelte è giusta o sbagliata in assoluto: dipende dallo scopo del denaro e da dove si colloca nel quadro Guadagnare/Conservare/Far crescere/Tramandare. La crescita destinata a un obiettivo di lungo periodo di “Far crescere” trae in genere vantaggio dall'essere reinvestita, lasciando lavorare l'interesse composto. Ma l'investimento esiste per servire, prima o poi, obiettivi e bisogni reali, non per capitalizzarsi all'infinito fine a sé stesso: a un certo punto, soprattutto quando gli obiettivi si avvicinano o arriva un momento di “Tramandare”, trasformare la crescita in un uso concreto diventa la scelta appropriata.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Se la posizione in metalli del caso di studio crescesse di valore e il figlio decidesse di venderne una piccola parte per finanziare qualcos'altro, quell'importo specifico non farebbe più parte della base che genera ulteriore crescita: un compromesso reale e comprensibile, non un errore. Se invece tutta la crescita restasse nella posizione, l'interesse composto continuerebbe ad accumularsi negli anni su una base sempre più grande. La scelta giusta dipende da ciò che il denaro deve realizzare, non da una regola fissa secondo cui reinvestire è sempre corretto.
+
+## Quiz di esercitazione
+
+1. Qual è la differenza tra reinvestire e spendere i guadagni di un investimento?
+2. In che modo questa decisione si collega al concetto di interesse composto visto prima?
+3. Reinvestire è sempre la scelta “giusta”?
+4. Che cosa determina in definitiva se, in una data situazione, ha senso reinvestire o spendere i guadagni?
+
+## Soluzioni
+1. Reinvestire mantiene la crescita nell'investimento perché continui a capitalizzarsi; spendere la converte in contanti per altri usi.
+2. La crescita reinvestita continua a capitalizzarsi, mentre quella spesa smette di contribuire alla capitalizzazione futura perché non è più investita.
+3. No: dipende dallo scopo del denaro e da dove si colloca nel quadro Guadagnare/Conservare/Far crescere/Tramandare.
+4. Ciò che il denaro deve realizzare: gli obiettivi di crescita di lungo periodo favoriscono in genere il reinvestimento, mentre bisogni o obiettivi reali che si avvicinano possono favorire la spesa.
+
+## Risposte e spiegazioni
+1. Definisce il compromesso centrale affrontato dalla lezione.
+2. L'interesse composto agisce solo sul denaro che resta investito, il che collega direttamente questa decisione alla lezione precedente.
+3. Evita una regola semplicistica del tipo “reinvestire sempre” che ignora lo scopo reale dell'investimento.
+4. Le decisioni guidate dallo scopo, legate al quadro delle quattro funzioni, sono l'orientamento pratico offerto dalla lezione.
+
+## Punti chiave
+- Reinvestire mantiene la crescita in capitalizzazione; spendere trasforma la crescita in uso per altri scopi.
+- Questa decisione si collega direttamente alla lezione sull'interesse composto: solo la crescita reinvestita continua ad accumularsi su sé stessa.
+- Nessuna delle due scelte è giusta in assoluto; la decisione corretta dipende dallo scopo effettivo del denaro nel quadro finanziario complessivo.
