@@ -1,252 +1,54 @@
 ---
 id: GOLD-L1-019
 track: GOLD
-officialTrackName: Investimento e Construção de Património
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 19
-title: "Definir um Orçamento de Investimento que Pode Suportar"
-summary: "Ensina a determinar um montante sustentável para investir sem comprometer outras necessidades financeiras."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introdutório
-estimatedTime: 35–50 minutos
-prerequisites: "GOLD-L1-018"
-componentIds:
-  - GOLD-L1-019-MAIN
-  - GOLD-L1-019-EXAMPLES
-  - GOLD-L1-019-EXERCISE
-  - GOLD-L1-019-ASSESSMENT
-  - GOLD-L1-019-ANSWER-KEY
-  - GOLD-L1-019-COMPETENCY
-  - GOLD-L1-019-AI
-  - GOLD-L1-019-SEO
-  - GOLD-L1-019-LOCALIZATION
-  - GOLD-L1-019-REFERENCES
+locale: pt-PT
+title: "Definindo um orçamento de investimento que cabe no seu bolso"
+summary: "Ensina a determinar um valor sustentável para investir sem comprometer outras necessidades financeiras."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Definir um Orçamento de Investimento que Pode Suportar
+# Definindo um orçamento de investimento que cabe no seu bolso
 
-### GOLD-L1-019-MAIN
+## Objetivos de aprendizagem
+- Explicar porque investir mais do que se pode sustentar cria um risco real
+- Identificar os fatores básicos a considerar ao definir um orçamento de investimento
+- Praticar uma abordagem simples para determinar um valor de investimento sustentável
 
-## Resumo Executivo
+## Conteúdo principal
 
-Esta lição desenvolve **orçamento**. O ponto central é compreender investir apenas capital compatível com despesas, reservas, dívidas e objetivos. O objetivo não é convencer o aluno a comprar metais preciosos, mas dar-lhe ferramentas para avaliar decisões de investimento com disciplina, dados, custos, risco e objetivos claramente definidos.
+Antes de investir com regularidade, vale a pena decidir deliberadamente quanto pode realmente ser investido de forma sustentável e contínua – não o máximo teoricamente possível num mês bom, mas um valor que possa razoavelmente continuar mesmo num período mais apertado. Investir mais do que é realmente sustentável cria um risco real: pode levar à necessidade de vender investimentos num mau momento para cobrir uma necessidade sem relação com eles, ou a abandonar totalmente o hábito numa fase difícil, e ambas as situações vão contra a regularidade que este percurso tem destacado como tão valiosa.
 
-## Objetivos de Aprendizagem
+Uma abordagem simples: primeiro garanta que as necessidades básicas e, quando possível, alguma reserva de emergência (a função "Conservar" vista antes) estejam razoavelmente cobertas; depois, a partir do que sobrar, defina um valor de investimento que possa realisticamente continuar mesmo que o rendimento ou a situação fiquem um pouco mais apertadas. Esse valor sempre pode aumentar depois, conforme a situação permitir – começar de forma conservadora e aumentar com o tempo tende a construir um hábito mais duradouro do que começar de forma agressiva e ter de reduzir ou parar completamente.
 
-- **Literacia financeira:** explicar, em linguagem simples, orçamento.
-- **Competência financeira:** aplicar o conceito a uma situação concreta de investimento.
-- **Melhor julgamento:** reconhecer vantagens, limitações e riscos antes de agir.
-- **Melhores decisões:** definir um montante que não force vendas prematuras.
-- **Construção de património:** integrar esta competência num processo de longo prazo sem depender de previsões ou emoções.
+## Exemplo prático
 
-## Pré-requisitos
+EXEMPLO ILUSTRATIVO: No estudo de caso, começar as compras de prata aos 11 anos com um valor modesto e realmente sustentável permitiu que o hábito continuasse de forma regular por anos, sem aperto, em vez de começar com um valor que poderia parecer empolgante no início, mas que se mostraria difícil de manter. Esse orçamento inicial modesto e sustentável é parte do que permitiu que anos de investimento periódico regular realmente acontecessem, construindo a base à qual depois se somaram as compras de ouro, a partir dos 15 anos.
 
-GOLD-L1-018.
+## Teste de prática
 
-## Lição Principal
-
-### 1. O conceito
-
-[FACTO VERIFICÁVEL] Em investimento, uma decisão útil começa por definir o objetivo, o prazo, a necessidade de liquidez e o risco que se pode suportar. Nesta lição, **orçamento** significa analisar investir apenas capital compatível com despesas, reservas, dívidas e objetivos.
-
-Uma ideia pode parecer atraente e, ainda assim, ser inadequada para uma determinada pessoa. O preço de um ativo não é a única variável: custos de transação, armazenamento, impostos, volatilidade, alternativas e momento em que o dinheiro poderá ser necessário também contam.
-
-### 2. Como pensar antes de agir
-
-Use cinco perguntas: Qual é o objetivo? Quanto capital está realmente disponível? Durante quanto tempo? O que pode correr mal? Que alternativa estou a abandonar? Estas perguntas transformam uma reação numa decisão.
-
-[EXEMPLO ILUSTRATIVO] Uma pessoa dispõe de €1 200, mas €900 fazem parte da sua reserva para despesas inesperadas. Tratar os €1 200 como capital de investimento ignora a função dos €900. O montante economicamente disponível pode ser apenas €300.
-
-### 3. Custos, risco e retorno
-
-O retorno deve ser avaliado depois dos custos. Se um produto é comprado por €110 quando o valor do metal nele contido é €100 e poderia ser imediatamente revendido por apenas €97, existe uma diferença económica que o preço do metal terá de superar antes de haver ganho.
-
-Risco não significa apenas “o preço pode cair”. Inclui necessidade de vender cedo, contraparte, fraude, armazenamento, concentração, alterações fiscais e custo de oportunidade. Definir um montante que não force vendas prematuras exige considerar estes riscos em conjunto.
-
-### 4. Aplicação ao tema desta lição
-
-Para **orçamento**, o aluno deve ligar a teoria a uma regra observável: definir um montante que não force vendas prematuras. Uma regra escrita reduz a probabilidade de mudar de estratégia apenas porque uma manchete, um vendedor ou uma oscilação de preço provoca entusiasmo ou medo.
-
-[PRESSUPOSTO] Os números usados nos exemplos são pedagógicos e não representam uma previsão de preços ou retornos.
-
-### 5. Decisão e revisão
-
-Uma boa decisão pode ter um resultado negativo e uma má decisão pode ter sorte. Por isso, avalie primeiro a qualidade do processo: informação utilizada, alternativas consideradas, riscos identificados e coerência com o plano. Depois, acompanhe o resultado e ajuste quando os factos mudarem.
-
-## Definições Essenciais
-
-- **Ativo:** recurso com valor económico que pode ser detido ou negociado.
-- **Retorno:** ganho ou perda de um investimento, normalmente medido em valor ou percentagem.
-- **Risco:** possibilidade de o resultado diferir do esperado, incluindo perda de capital ou liquidez.
-- **Liquidez:** facilidade de converter um ativo em dinheiro sem desconto significativo.
-- **Custo de oportunidade:** benefício potencial da melhor alternativa abandonada.
-- **Orçamento:** conceito central desta lição, aplicado de forma disciplinada ao processo de investimento.
-
-## Exemplos Trabalhados
-
-### GOLD-L1-019-EXAMPLES
-
-**Exemplo 1 — custo real:** Um investidor compra um produto por €525, incluindo €25 de custos acima do valor de referência de €500. Se a recompra imediata for €485, a distância económica inicial é €40. Antes de falar em lucro, deve compreender essa diferença.
-
-**Exemplo 2 — dimensão da posição:** Num património financeiro de €10 000, uma compra de €500 representa 5%. Uma compra de €5 000 representa 50%. O mesmo ativo cria riscos muito diferentes conforme o peso na carteira.
-
-**Exemplo 3 — prazo:** Capital necessário dentro de três meses não deve ser tratado da mesma forma que capital destinado a um objetivo a dez anos.
-
-## Caso de Estudo
-
-Uma investidora chamada Sofia quer começar a acumular metais porque teme inflação. Tem €6 000 de poupanças, despesas essenciais de €1 400 por mês e nenhuma regra escrita de investimento. Em vez de aplicar metade das poupanças de imediato, separa a reserva de emergência, define um orçamento mensal pequeno, compara custos totais e estabelece uma revisão trimestral.
-
-**Decisão antes do resultado:** Deve Sofia aumentar imediatamente a compra porque o preço subiu durante duas semanas? Justifique com base em objetivo, orçamento, risco e orçamento.
-
-**Resultado pedagógico:** A subida recente, por si só, não altera o objetivo nem a capacidade financeira. A decisão deve resultar do plano e de novos factos relevantes, não de perseguição ao preço.
-
-## Erros Comuns
-
-1. Confundir uma narrativa convincente com prova.
-2. Investir dinheiro que poderá ser necessário a curto prazo.
-3. Ignorar prémios, margens, taxas, armazenamento ou fiscalidade.
-4. Concentrar demasiado capital numa única ideia.
-5. Alterar o plano depois de movimentos normais de mercado.
-6. Não manter registos que permitam avaliar a decisão.
-
-## Perguntas Frequentes
-
-**Este conceito garante lucro?** Não. Nenhuma estrutura de decisão elimina risco ou garante retorno.
-
-**Preciso de prever o preço do ouro ou da prata?** Não. Um processo disciplinado pode funcionar sem previsões precisas de curto prazo.
-
-**Mais metal significa necessariamente mais segurança?** Não. Uma posição demasiado concentrada pode criar novos riscos.
-
-**Com que frequência devo rever a decisão?** Use um calendário e reveja também quando houver alterações relevantes na sua situação, objetivo ou carteira.
-
-## Principais Conclusões
-
-- Orçamento deve ser ligado a um objetivo concreto.
-- Custos e liquidez fazem parte do retorno económico.
-- A dimensão da posição altera o risco.
-- Um plano escrito reduz decisões emocionais.
-- O processo deve ser revisto com dados, não apenas com resultados recentes.
-
-## Exercício Prático
-
-### GOLD-L1-019-EXERCISE
-
-Escreva um mini-plano de uma página:
-1. Objetivo do investimento.
-2. Prazo.
-3. Montante máximo disponível sem tocar na reserva de emergência.
-4. Três riscos.
-5. Dois custos que precisam de ser verificados.
-6. Uma alternativa ao investimento.
-7. Uma regra concreta relacionada com **orçamento**.
-8. Data da próxima revisão.
-
-## Guia Socrático de Ensino
-
-### GOLD-L1-019-AI
-
-1. Que problema financeiro esta lição procura resolver?
-2. Como explicaria **orçamento** a alguém sem experiência?
-3. Que informação precisaria antes de investir?
-4. Qual é o pior resultado plausível?
-5. Que custos podem ficar escondidos no preço anunciado?
-6. Como mudaria a decisão se o dinheiro fosse necessário dentro de seis meses?
-7. O que acontece se a posição representar metade do património?
-8. Qual é a melhor alternativa para esse capital?
-9. Que regra reduziria uma decisão emocional?
-10. Que dado faria justificar uma revisão do plano?
-
-## Avaliação de Competência
-
-### GOLD-L1-019-ASSESSMENT
-
-1. Qual deve ser o primeiro passo antes de escolher um investimento?  
-   A) Prever o preço amanhã  
-   B) Definir objetivo, prazo e capacidade financeira  
-   C) Comprar o produto mais popular  
-   D) Seguir uma recomendação sem verificar
-
-2. Verdadeiro ou falso: um ativo pode ser adequado para uma pessoa e inadequado para outra.
-
-3. Um produto custa €210 e poderia ser revendido imediatamente por €194. Qual é a diferença económica inicial?
-
-4. Defina liquidez numa frase.
-
-5. Qual destes é um custo de oportunidade?  
-   A) A alternativa abandonada ao usar capital num investimento  
-   B) Apenas uma comissão bancária  
-   C) Apenas inflação  
-   D) Nenhum dos anteriores
-
-6. Verdadeiro ou falso: diversificação elimina completamente o risco.
-
-7. Indique dois riscos além de uma queda do preço.
-
-8. Se €2 000 de uma carteira de €10 000 estiverem num ativo, qual é o peso percentual dessa posição?
-
-9. Por que razão uma regra escrita pode melhorar decisões durante volatilidade?
-
-10. Em duas frases, explique como aplicaria **orçamento** antes de uma nova compra.
+1. Porque é que investir mais do que é realmente sustentável é um risco real?
+2. Segundo esta lição, o que deve estar razoavelmente coberto antes de definir um orçamento de investimento?
+3. Que abordagem simples esta lição sugere para determinar um valor de investimento sustentável?
+4. No estudo de caso, como começar com um valor modesto e sustentável favoreceu a regularidade de longo prazo?
 
 ## Chave de Respostas
+1. Porque pode levar à necessidade de vender num mau momento ou ao abandono total do hábito de investir numa fase difícil.
+2. As necessidades básicas e, quando possível, alguma reserva de emergência (a função "Conservar").
+3. Determinar um valor que possa realisticamente continuar mesmo que a situação fique um pouco mais apertada, e não o máximo possível num mês bom.
+4. Permitiu que o hábito continuasse de forma regular por anos, sem aperto, construindo a base à qual depois se somaram as compras de ouro.
 
-### GOLD-L1-019-ANSWER-KEY
+## Respostas e explicações
+1. Investir de forma insustentável compromete o princípio da regularidade, central na abordagem deste percurso.
+2. Isto liga a decisão do orçamento de investimento à função "Conservar" do modelo fundamental.
+3. Um dimensionamento conservador e sustentável é a orientação prática oferecida para definir um orçamento de investimento.
+4. Este exemplo liga diretamente um orçamento sustentável à regularidade e ao sucesso de longo prazo do estudo de caso.
 
-1. **B.** Competência: preparação da decisão. Erro comum: começar pelo produto.
-2. **Verdadeiro.** Competência: adequação ao contexto. Erro comum: procurar uma solução universal.
-3. **€16.** Competência: reconhecer diferença entre entrada e saída. Erro comum: olhar apenas para o preço de compra.
-4. **Capacidade de converter um ativo em dinheiro com rapidez e sem desconto significativo.** Competência: liquidez.
-5. **A.** Competência: alternativas. Erro comum: confundir custo de oportunidade com uma taxa cobrada.
-6. **Falso.** Competência: gestão de risco. Diversificação pode reduzir certos riscos, não eliminá-los.
-7. **Exemplos:** liquidez, contraparte, fraude, armazenamento, concentração ou alteração fiscal. Competência: visão multidimensional do risco.
-8. **20%.** Competência: concentração da carteira.
-9. **Porque estabelece critérios antes da pressão emocional e permite comparar a ação com o plano.** Competência: disciplina.
-10. **Resposta esperada:** ligar o conceito ao objetivo, prazo, orçamento, custos, risco e regra de decisão. Competência: integração.
-
-## Norma de Competência
-
-### GOLD-L1-019-COMPETENCY
-
-- **Domínio:** 8/10 respostas corretas (80%).
-- **Remediação:** rever definições, exemplos e os itens errados; refazer um exemplo numérico e explicar a regra de decisão por palavras próprias.
-- **Progressão:** o domínio desbloqueia GOLD-L1-020.
-
-## Leitura Complementar
-
-Consultar fontes educativas e regulatórias oficiais aplicáveis à jurisdição do aluno e documentação transparente de preços, custos e características dos produtos. Para matérias fiscais, legais ou de investimento individualizadas, procurar profissional devidamente qualificado.
-
-## Percurso da Lição
-
-- **Anterior:** GOLD-L1-018
-- **Atual:** GOLD-L1-019 — Definir um Orçamento de Investimento que Pode Suportar
-- **Seguinte:** GOLD-L1-020
-
-## Bloco SEO
-
-### GOLD-L1-019-SEO
-
-**Palavras-chave:** orçamento, metais preciosos, investimento, educação financeira, GOLD Nível 1  
-**Meta descrição:** Aprenda orçamento e como aplicar este princípio a decisões disciplinadas de investimento e construção de património.
-
-## Bloco de Apoio por IA
-
-### GOLD-L1-019-AI
-
-O tutor deve explicar conceitos, pedir ao aluno que mostre o raciocínio, usar exemplos hipotéticos e corrigir equívocos. Não deve prometer retornos, prever preços nem fornecer aconselhamento financeiro, fiscal ou jurídico personalizado.
-
-## Bloco de Localização
-
-### GOLD-L1-019-LOCALIZATION
-
-- **Global:** princípios de objetivo, risco, custos, diversificação, liquidez e disciplina.
-- **Portugal:** utilizar português europeu, euros e terminologia corrente em Portugal. Regras fiscais, proteção do consumidor e tratamento de produtos devem ser confirmados em fontes portuguesas atuais antes de serem apresentados como aplicáveis.
-
-## Referências e Verificação
-
-### GOLD-L1-019-REFERENCES
-
-- Factos gerais: conceitos financeiros fundamentais apresentados sem previsão de mercado.
-- Exemplos numéricos: ilustrativos.
-- Regras específicas de Portugal: não presumidas; exigem verificação atualizada.
-- Estatísticas ou cotações: nenhuma utilizada nesta lição.
+## Pontos-chave
+- Um orçamento de investimento deve ser realmente sustentável, e não o máximo possível num mês bom.
+- As necessidades básicas e a reserva de emergência geralmente devem estar razoavelmente cobertas antes de definir um orçamento de investimento.
+- Começar de forma conservadora e aumentar com o tempo tende a construir um hábito de investimento mais duradouro do que começar de forma agressiva.

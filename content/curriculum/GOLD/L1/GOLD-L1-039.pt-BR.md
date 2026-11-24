@@ -1,227 +1,56 @@
 ---
 id: GOLD-L1-039
 track: GOLD
-officialTrackName: Investimentos e Construção de Patrimônio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 39
-title: "Definindo um Plano Pessoal de Investimento em Metais"
-summary: "Orienta os alunos na elaboração de um plano básico e personalizado de investimento em metais preciosos."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introdutório
-estimatedTime: 35–50 minutos
-prerequisites: "GOLD-L1-038"
-componentIds:
-  - GOLD-L1-039-MAIN
-  - GOLD-L1-039-EXAMPLES
-  - GOLD-L1-039-EXERCISE
-  - GOLD-L1-039-ASSESSMENT
-  - GOLD-L1-039-ANSWER-KEY
-  - GOLD-L1-039-COMPETENCY
-  - GOLD-L1-039-AI
-  - GOLD-L1-039-SEO
-  - GOLD-L1-039-LOCALIZATION
-  - GOLD-L1-039-REFERENCES
+locale: pt-BR
+title: "Montando um plano pessoal de investimento em metais"
+summary: "Orienta os alunos a redigir um plano básico e personalizado de investimento em metais preciosos."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Definindo um Plano Pessoal de Investimento em Metais
+# Montando um plano pessoal de investimento em metais
 
-### GOLD-L1-039-MAIN
+## Objetivos de aprendizagem
+- Identificar os componentes de um plano pessoal básico de investimento em metais preciosos
+- Sintetizar os conceitos desta trilha num plano individual concreto
+- Praticar a redação de um plano simples que aplique os princípios desta trilha
 
-## Resumo Executivo
+## Conteúdo principal
 
-Esta lição desenvolve **o plano pessoal**. O ponto central é compreender objetivo, orçamento, alocação, produtos, frequência, custódia, revisão e saída. O objetivo não é dizer ao aluno o que comprar, mas ensiná-lo a tomar decisões com objetivo claro, números, custos, risco e disciplina.
+Um plano pessoal básico de investimento em metais preciosos não precisa ser complicado, mas colocá-lo por escrito, em vez de deixá-lo como uma intenção vaga, aumenta muito a chance de que seja realmente seguido com regularidade – o que se liga aos temas de acompanhamento e criação de hábito vistos ao longo desta trilha.
 
-## Objetivos de Aprendizagem
+Um plano útil deve responder: qual é o orçamento inicial ou contínuo (de acordo com as lições sobre acessibilidade), qual ou quais metais serão o foco (prata, ouro ou ambos, como mostra a progressão do estudo de caso biográfico), com que frequência as compras serão feitas (um calendário definido de investimento periódico, e não um "quando der" sem estrutura), onde as compras serão feitas (um revendedor confiável específico e verificado) e como a posição será acompanhada e revisada ao longo do tempo (o que remete à lição sobre acompanhamento).
 
-- **Alfabetização financeira:** explicar o plano pessoal de forma simples.
-- **Competência financeira:** aplicar o conceito a uma situação concreta.
-- **Melhor julgamento:** reconhecer benefícios, limitações e riscos.
-- **Melhores decisões:** documentar decisões antes da pressão do mercado.
-- **Construção de patrimônio:** integrar a habilidade a um processo de longo prazo sem depender de previsões.
+Esse plano também deve declarar explicitamente o horizonte de tempo e o propósito – um lembrete, escrito com antecedência, de por que esse investimento está sendo feito, que se torna especialmente valioso em períodos de volatilidade de curto prazo, quando a tentação de abandonar um plano bem pensado por uma reação emocional é maior, o que remete à lição sobre paciência.
 
-## Pré-requisitos
+## Exemplo prático
 
-GOLD-L1-038.
+Um plano escrito simples poderia dizer: "Vou investir R$ 50 em prata no dia 1º de cada mês, comprando de [um revendedor específico e confiável], e registrar tudo num controle simples com data, preço e quantidade. Meu horizonte de tempo é de pelo menos dez anos, e o propósito é a preservação de patrimônio e a diversificação no longo prazo, e não o lucro de curto prazo. Não vou reagir às variações de preço de curto prazo mudando este plano sem antes revisá-lo deliberadamente." Isso reproduz a mesma estrutura disciplinada mostrada ao longo do estudo de caso biográfico, apenas de forma explícita e personalizada.
 
-## Lição Principal
+## Teste de prática
 
-### 1. Compreender o conceito
-
-[FATO VERIFICÁVEL] Uma decisão de investimento deve começar pelo objetivo, prazo, necessidade de liquidez e capacidade de assumir risco. Nesta lição, **o plano pessoal** envolve analisar objetivo, orçamento, alocação, produtos, frequência, custódia, revisão e saída.
-
-Um ativo pode ser adequado para uma pessoa e inadequado para outra. O preço é apenas uma variável. Custos, possibilidade de venda, segurança, tributação, alternativas e o momento em que o dinheiro será necessário também importam.
-
-### 2. Pensar antes de agir
-
-Faça cinco perguntas: Qual é o objetivo? Quanto capital está realmente disponível? Por quanto tempo? O que pode dar errado? Qual alternativa estou deixando de escolher?
-
-[EXEMPLO ILUSTRATIVO] Uma pessoa tem R$ 7.500 guardados, mas R$ 5.500 pertencem à reserva de emergência. O saldo da conta não é necessariamente o capital disponível para investir. Separar as funções do dinheiro reduz o risco de uma venda forçada.
-
-### 3. Custos, risco e resultado
-
-Imagine um produto cujo metal tenha valor de referência de R$ 500, seja vendido por R$ 545 e tenha recompra imediata de R$ 480. Existe uma diferença econômica entre entrar e sair da posição que precisa ser compreendida antes de falar em lucro.
-
-Risco não é apenas queda de preço. Inclui liquidez, fraude, falsificação, perda física, concentração, custos de custódia, tributação e necessidade de vender cedo.
-
-### 4. Aplicação
-
-Para aplicar **o plano pessoal**, transforme a teoria em uma regra observável: documentar decisões antes da pressão do mercado. Uma regra escrita antes das oscilações ajuda a impedir que medo, entusiasmo, redes sociais ou pressão comercial substituam a análise.
-
-[PRESSUPOSTO] Os valores desta lição são exemplos educacionais e não representam preços futuros nem promessa de retorno.
-
-### 5. Avaliar a decisão
-
-Uma boa decisão pode produzir um resultado ruim e uma decisão ruim pode ter sorte. Avalie primeiro o processo: informação, custos, alternativas, riscos e coerência com o objetivo. Depois acompanhe resultados e ajuste quando os fatos mudarem.
-
-## Definições Essenciais
-
-- **Ativo:** recurso com valor econômico que pode ser possuído ou negociado.
-- **Retorno:** ganho ou perda associado a um investimento.
-- **Risco:** possibilidade de o resultado ser diferente do esperado.
-- **Liquidez:** facilidade de converter um ativo em dinheiro sem grande desconto.
-- **Custo de oportunidade:** benefício potencial da melhor alternativa abandonada.
-- **O plano pessoal:** conceito central desta lição aplicado ao processo de investimento.
-
-## Exemplos Trabalhados
-
-### GOLD-L1-039-EXAMPLES
-
-**Exemplo 1 — entrada e saída:** um produto custa R$ 2.625, embora o metal de referência valha R$ 2.500. Se a recompra imediata for R$ 2.430, a diferença econômica entre compra e saída é R$ 195.
-
-**Exemplo 2 — concentração:** em uma carteira de R$ 50.000, uma posição de R$ 2.500 representa 5%; uma de R$ 25.000 representa 50%. O mesmo ativo pode criar riscos muito diferentes.
-
-**Exemplo 3 — prazo:** dinheiro necessário em três meses para aluguel, estudos ou reparos não deve ser tratado como capital destinado a uma meta de dez anos.
-
-## Estudo de Caso
-
-Camila quer começar a comprar metais depois de ler notícias sobre inflação. Ela tem R$ 30.000 em poupança e despesas essenciais de aproximadamente R$ 7.000 por mês. Antes de comprar, separa sua reserva, define um pequeno aporte periódico, compara custos totais e marca uma revisão trimestral.
-
-**Decida antes de ler a análise:** o ouro subiu por duas semanas. Camila deveria dobrar imediatamente sua compra? Justifique usando objetivo, orçamento, risco e **o plano pessoal**.
-
-**Análise:** uma alta recente, isoladamente, não muda a capacidade financeira nem o objetivo. Alterar o plano deve depender de fatos relevantes e critérios previamente definidos.
-
-## Erros Comuns
-
-1. Confundir uma narrativa convincente com evidência.
-2. Investir a reserva de emergência.
-3. Ignorar prêmios, spreads, taxas ou custódia.
-4. Concentrar patrimônio demais em uma única ideia.
-5. Mudar o plano por oscilações normais.
-6. Não manter registros.
-
-## Perguntas Frequentes
-
-**Este conceito garante lucro?** Não. Nenhum processo elimina o risco.
-
-**Preciso prever o preço do ouro?** Não. Disciplina não exige acertar movimentos de curto prazo.
-
-**Mais metal sempre significa mais segurança?** Não. Concentração excessiva pode aumentar o risco.
-
-**Quando devo revisar o plano?** Em datas programadas e quando mudanças importantes afetarem renda, objetivos, necessidades ou carteira.
-
-## Principais Conclusões
-
-- O plano pessoal deve estar ligado a um objetivo.
-- Custos e liquidez afetam o resultado econômico.
-- O tamanho da posição altera o risco.
-- Regras escritas reduzem decisões emocionais.
-- Revisões devem usar dados.
-
-## Exercício Prático
-
-### GOLD-L1-039-EXERCISE
-
-Prepare uma página com: objetivo, prazo, capital disponível sem tocar na reserva, três riscos, dois custos a verificar, uma alternativa para o capital, uma regra ligada a **o plano pessoal** e a data da próxima revisão.
-
-## Guia Socrático de Ensino
-
-### GOLD-L1-039-AI
-
-1. Que problema financeiro este conceito ajuda a resolver?
-2. Como você explicaria **o plano pessoal** a um iniciante?
-3. Quais dados são necessários antes de agir?
-4. Qual resultado negativo é plausível?
-5. Que custos podem estar fora do preço anunciado?
-6. O que muda se o dinheiro for necessário em seis meses?
-7. O que ocorre se a posição for metade do patrimônio?
-8. Qual é a melhor alternativa para esse capital?
-9. Que regra pode reduzir uma reação emocional?
-10. Que fato justificaria revisar o plano?
-
-## Avaliação de Competência
-
-### GOLD-L1-039-ASSESSMENT
-
-1. Qual deve ser o primeiro passo antes de escolher um investimento? A) Prever amanhã B) Definir objetivo, prazo e capacidade C) Comprar o popular D) Seguir um vendedor.
-2. Verdadeiro ou falso: um investimento pode servir para uma pessoa e não para outra.
-3. Você compra por R$ 1.050 e poderia vender imediatamente por R$ 970. Qual é a diferença?
-4. Defina liquidez.
-5. O que é custo de oportunidade? A) Melhor alternativa abandonada B) Só uma taxa C) Só inflação D) Nenhuma.
-6. Verdadeiro ou falso: diversificação elimina todo risco.
-7. Cite dois riscos além de queda de preço.
-8. R$ 10.000 de uma carteira de R$ 50.000 representam qual percentual?
-9. Por que uma regra escrita ajuda durante volatilidade?
-10. Explique em duas frases como aplicaria **o plano pessoal** antes de comprar.
+1. Segundo esta lição, cite os cinco componentes a que um plano pessoal básico de investimento em metais deve responder.
+2. Por que colocar o plano por escrito importa, em vez de deixá-lo como uma intenção vaga?
+3. Por que um plano deve declarar explicitamente seu horizonte de tempo e seu propósito?
+4. Redija em uma frase curta seu próprio plano pessoal de investimento em metais, aplicando a estrutura desta lição.
 
 ## Gabarito
+1. Orçamento inicial/contínuo, qual(is) metal(is), com que frequência serão feitas as compras, onde serão feitas e como a posição será acompanhada.
+2. Um plano escrito tem muito mais chance de ser realmente seguido com regularidade do que uma intenção vaga e não escrita.
+3. Porque ele se torna um lembrete valioso em períodos de volatilidade de curto prazo, quando a tentação de abandonar um plano bem pensado é maior.
+4. As respostas vão variar, mas devem incorporar os cinco componentes identificados nesta lição.
 
-### GOLD-L1-039-ANSWER-KEY
+## Respostas e explicações
+1. Esses cinco componentes sintetizam os conceitos práticos vistos ao longo desta seção da trilha.
+2. Compromissos escritos se mostram sistematicamente mais duradouros do que intenções não escritas.
+3. Isso liga o plano diretamente às lições sobre paciência e volatilidade vistas antes nesta trilha.
+4. Uma resposta correta demonstra uma síntese real dos componentes exigidos do plano num enunciado personalizado.
 
-1. **B.** Competência: preparação. Erro comum: começar pelo produto.
-2. **Verdadeiro.** Competência: adequação ao contexto.
-3. **R$ 80.** Competência: custo de entrada e saída.
-4. **Facilidade de converter um ativo em dinheiro rapidamente sem grande desconto.**
-5. **A.** Competência: comparação de alternativas.
-6. **Falso.** Diversificação pode reduzir certos riscos, não eliminá-los.
-7. **Exemplos:** liquidez, fraude, custódia, contraparte, concentração ou tributação.
-8. **20%.** Competência: concentração.
-9. **Porque define critérios antes da pressão emocional.**
-10. **Resposta esperada:** relacionar conceito, objetivo, prazo, orçamento, custos, riscos e regra de decisão.
-
-## Padrão de Competência
-
-### GOLD-L1-039-COMPETENCY
-
-- **Domínio:** 8/10 respostas corretas (80%).
-- **Remediação:** revisar os conceitos ligados aos erros, refazer um exemplo numérico e explicar a decisão com palavras próprias.
-- **Progressão:** o domínio libera GOLD-L1-040.
-
-## Leitura Complementar
-
-Consulte fontes educacionais e regulatórias oficiais aplicáveis à jurisdição. Regras tributárias, jurídicas e de proteção ao consumidor devem ser verificadas e, quando necessário, discutidas com profissional qualificado.
-
-## Caminho da Lição
-
-- **Anterior:** GOLD-L1-038
-- **Atual:** GOLD-L1-039 — Definindo um Plano Pessoal de Investimento em Metais
-- **Próxima:** GOLD-L1-040
-
-## Bloco de SEO
-
-### GOLD-L1-039-SEO
-
-**Palavras-chave:** o plano pessoal, metais preciosos, investimento, educação financeira, GOLD Nível 1  
-**Descrição:** Entenda o plano pessoal e aplique o princípio a decisões de investimento mais disciplinadas.
-
-## Bloco de Apoio por IA
-
-### GOLD-L1-039-AI
-
-O tutor deve ensinar conceitos, solicitar raciocínio, usar exemplos hipotéticos e corrigir equívocos. Não deve garantir retornos, prever preços nem fornecer aconselhamento financeiro, tributário ou jurídico personalizado.
-
-## Bloco de Localização
-
-### GOLD-L1-039-LOCALIZATION
-
-- **Global:** objetivos, risco, custos, diversificação, liquidez e disciplina.
-- **Brasil:** usar português brasileiro e reais. Tributação, regulamentação, proteção ao consumidor e tratamento de produtos devem ser confirmados em fontes brasileiras atuais antes de serem apresentados como regras aplicáveis.
-
-## Referências e Verificação
-
-### GOLD-L1-039-REFERENCES
-
-- Conceitos financeiros gerais: apresentados sem previsão de mercado.
-- Valores: exemplos ilustrativos.
-- Regras brasileiras: exigem verificação atual.
-- Cotações ou estatísticas atuais: nenhuma utilizada.
+## Pontos-chave
+- Um plano pessoal básico de investimento em metais deve especificar orçamento, metal escolhido, frequência das compras, revendedor e forma de acompanhamento.
+- Colocar o plano por escrito aumenta muito a chance de segui-lo com regularidade, em comparação com uma intenção vaga.
+- Declarar explicitamente o horizonte de tempo e o propósito oferece uma âncora valiosa em períodos de volatilidade de curto prazo.

@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 19
-title: "Definindo um orçamento de investimento sustentável"
-summary: "Ensina a determinar uma quantia sustentável para investir sem comprometer outras necessidades financeiras."
+locale: pt-BR
+title: "Definindo um orçamento de investimento que cabe no seu bolso"
+summary: "Ensina a determinar um valor sustentável para investir sem comprometer outras necessidades financeiras."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "pt-BR"
 ---
 
-# Definindo um orçamento de investimento sustentável
+# Definindo um orçamento de investimento que cabe no seu bolso
 
 ## Objetivos de aprendizagem
-- Compreender o conceito principal da lição.
-- Relacioná-lo às decisões de investimento de longo prazo.
-- Aplicar o princípio a uma situação financeira concreta.
+- Explicar por que investir mais do que se pode sustentar cria um risco real
+- Identificar os fatores básicos a considerar ao definir um orçamento de investimento
+- Praticar uma abordagem simples para determinar um valor de investimento sustentável
 
 ## Conteúdo principal
 
-Antes de investir regularmente, vale decidir quanto realmente pode ser destinado aos investimentos de forma sustentável: não o máximo possível em um mês favorável, mas uma quantia que possa continuar mesmo durante períodos mais apertados. Investir mais do que é sustentável pode obrigar a vender em um momento desfavorável ou abandonar completamente o hábito.
+Antes de investir com regularidade, vale a pena decidir deliberadamente quanto pode realmente ser investido de forma sustentável e contínua – não o máximo teoricamente possível num mês bom, mas um valor que possa razoavelmente continuar mesmo num período mais apertado. Investir mais do que é realmente sustentável cria um risco real: pode levar à necessidade de vender investimentos num mau momento para cobrir uma necessidade sem relação com eles, ou a abandonar totalmente o hábito numa fase difícil, e ambas as situações vão contra a regularidade que esta trilha tem destacado como tão valiosa.
 
-Uma abordagem simples é primeiro cobrir necessidades básicas e, quando possível, parte da reserva de emergência — a função “Conservar” — e então definir uma quantia de investimento que ainda seria viável se a renda ou as circunstâncias piorassem um pouco. O valor pode aumentar depois. Começar de forma prudente e crescer com o tempo tende a criar um hábito mais duradouro.
+Uma abordagem simples: primeiro garanta que as necessidades básicas e, quando possível, alguma reserva de emergência (a função "Conservar" vista antes) estejam razoavelmente cobertas; depois, a partir do que sobrar, defina um valor de investimento que possa realisticamente continuar mesmo que a renda ou a situação fiquem um pouco mais apertadas. Esse valor sempre pode aumentar depois, conforme a situação permitir – começar de forma conservadora e aumentar com o tempo tende a construir um hábito mais duradouro do que começar de forma agressiva e ter de reduzir ou parar completamente.
 
 ## Exemplo prático
 
-EXEMPLO ILUSTRATIVO: o investidor aplica o princípio da lição a uma decisão concreta considerando objetivos, horizonte de tempo, custos, riscos e alternativas antes de agir.
+EXEMPLO ILUSTRATIVO: No estudo de caso, começar as compras de prata aos 11 anos com um valor modesto e realmente sustentável permitiu que o hábito continuasse de forma regular por anos, sem aperto, em vez de começar com um valor que poderia parecer empolgante no início, mas que se mostraria difícil de manter. Esse orçamento inicial modesto e sustentável é parte do que permitiu que anos de investimento periódico regular realmente acontecessem, construindo a base à qual depois se somaram as compras de ouro, a partir dos 15 anos.
 
-## Quiz de verificação
-1. Qual é o conceito principal desta lição?
-2. Por que ele é importante para um investidor?
-3. Qual risco ou compromisso deve ser considerado?
-4. Como ele se conecta a um plano financeiro de longo prazo?
+## Teste de prática
 
-## Soluções
-1. O conceito central explicado no conteúdo principal.
-2. Ele ajuda a tomar decisões mais informadas e disciplinadas.
-3. Toda escolha envolve riscos, custos ou compromissos.
-4. Deve ser aplicado de acordo com objetivos, risco e horizonte de tempo.
+1. Por que investir mais do que é realmente sustentável é um risco real?
+2. Segundo esta lição, o que deve estar razoavelmente coberto antes de definir um orçamento de investimento?
+3. Que abordagem simples esta lição sugere para determinar um valor de investimento sustentável?
+4. No estudo de caso, como começar com um valor modesto e sustentável favoreceu a regularidade de longo prazo?
+
+## Gabarito
+1. Porque pode levar à necessidade de vender num mau momento ou ao abandono total do hábito de investir numa fase difícil.
+2. As necessidades básicas e, quando possível, alguma reserva de emergência (a função "Conservar").
+3. Determinar um valor que possa realisticamente continuar mesmo que a situação fique um pouco mais apertada, e não o máximo possível num mês bom.
+4. Permitiu que o hábito continuasse de forma regular por anos, sem aperto, construindo a base à qual depois se somaram as compras de ouro.
 
 ## Respostas e explicações
-1. A definição estabelece a base conceitual.
-2. A aplicação transforma teoria em capacidade de decisão.
-3. Reconhecer limitações evita conclusões excessivamente simples.
-4. Os conceitos da trilha funcionam juntos em um plano coerente.
+1. Investir de forma insustentável compromete o princípio da regularidade, central na abordagem desta trilha.
+2. Isso liga a decisão do orçamento de investimento à função "Conservar" do modelo fundamental.
+3. Um dimensionamento conservador e sustentável é a orientação prática oferecida para definir um orçamento de investimento.
+4. Este exemplo liga diretamente um orçamento sustentável à regularidade e ao sucesso de longo prazo do estudo de caso.
 
-## Pontos principais
-- Compreender antes de agir.
-- Avaliar riscos, custos e alternativas.
-- Manter as decisões alinhadas ao plano financeiro.
+## Pontos-chave
+- Um orçamento de investimento deve ser realmente sustentável, e não o máximo possível num mês bom.
+- As necessidades básicas e a reserva de emergência geralmente devem estar razoavelmente cobertas antes de definir um orçamento de investimento.
+- Começar de forma conservadora e aumentar com o tempo tende a construir um hábito de investimento mais duradouro do que começar de forma agressiva.

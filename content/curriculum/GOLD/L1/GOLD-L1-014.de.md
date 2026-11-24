@@ -4,212 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 14
-title: "Gewinne Reinvestieren vs. Ausgeben"
-summary: "Diese Lektion behandelt **die Wiederanlage von Gewinnen**. Im Mittelpunkt steht Gewinne für weiteres Wachstum oder gegenwärtige Ziele einzusetzen. Ziel ist nicht, Lernenden einen Kauf vorzuschreiben, sondern Entscheidungen anhand klarer Ziele, Zahlen, Kosten, Risiken und eines disziplinierten Prozesses zu treffen."
+locale: de
+title: "Gewinne reinvestieren oder ausgeben"
+summary: "Untersucht die Entscheidung, Wachstum wieder anzulegen oder zu nutzen, und wie diese Wahl den Zinseszinseffekt beeinflusst."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "de"
 ---
 
-# Gewinne Reinvestieren vs. Ausgeben
-
-### GOLD-L1-014-MAIN
-
-## Zusammenfassung
-
-Diese Lektion behandelt **die Wiederanlage von Gewinnen**. Im Mittelpunkt steht Gewinne für weiteres Wachstum oder gegenwärtige Ziele einzusetzen. Ziel ist nicht, Lernenden einen Kauf vorzuschreiben, sondern Entscheidungen anhand klarer Ziele, Zahlen, Kosten, Risiken und eines disziplinierten Prozesses zu treffen.
+# Gewinne reinvestieren oder ausgeben
 
 ## Lernziele
+- Den Unterschied zwischen dem Reinvestieren und dem Ausgeben von Anlagegewinnen erklären
+- Diese Entscheidung mit dem früher behandelten Zinseszinseffekt verbinden
+- Erkennen, dass es keine grundsätzlich „richtige“ Wahl gibt, sondern nur Abwägungen
 
-- **Finanzielle Grundbildung:** die Wiederanlage von Gewinnen verständlich erklären.
-- **Finanzielle Kompetenz:** das Konzept auf eine konkrete Situation anwenden.
-- **Besseres Urteilsvermögen:** Vorteile, Grenzen und Risiken erkennen.
-- **Bessere Entscheidungen:** nach Plan statt aus Euphorie zu entscheiden.
-- **Vermögensaufbau:** die Fähigkeit langfristig nutzen, ohne von Prognosen abhängig zu sein.
+## Kerninhalt
 
-## Voraussetzungen
+Wenn eine Anlage an Wert gewinnt, steht ein Anleger früher oder später vor einer Wahl: dieses Wachstum angelegt lassen (reinvestieren) oder einen Teil davon in Bargeld umwandeln, um es für etwas anderes auszugeben. Diese Entscheidung knüpft direkt an die frühere Lektion über den Zinseszins in diesem Lernpfad an – reinvestiertes Wachstum wirkt weiter als Zinseszins und baut mit der Zeit auf sich selbst auf, während ausgegebenes Wachstum vollständig aufhört, zum künftigen Zinseszins beizutragen, weil es nicht mehr Teil der angelegten Position ist.
 
-GOLD-L1-013.
+Keine der beiden Entscheidungen ist grundsätzlich richtig oder falsch – es hängt vom Zweck des Geldes ab und davon, wo es im Modell Verdienen/Bewahren/Vermehren/Weitergeben steht. Wachstum, das einem langfristigen Ziel des „Vermehrens“ dienen soll, profitiert in der Regel davon, reinvestiert zu werden, damit der Zinseszins weiterarbeiten kann. Investieren dient aber letztlich echten Zielen und Bedürfnissen, nicht einem Zinseszins um seiner selbst willen ohne Ende – irgendwann, besonders wenn Ziele näher rücken oder ein Moment des „Weitergebens“ kommt, wird es zur angemessenen Wahl, Wachstum tatsächlich zu nutzen.
 
-## Hauptlektion
+## Praxisbeispiel
 
-### 1. Das Konzept verstehen
+BEISPIEL ZUR VERANSCHAULICHUNG: Wenn die wachsende Metallposition aus der Fallstudie an Wert gewönne und der Sohn beschlösse, einen kleinen Teil zu verkaufen, um etwas anderes zu finanzieren, wäre genau dieser Betrag künftig nicht mehr Teil der Basis, die weiteres Wachstum erwirtschaftet – eine echte, nachvollziehbare Abwägung, kein Fehler. Bliebe stattdessen das gesamte Wachstum in der Position, würde der Zinseszins über die Jahre auf einer immer größeren Basis weiter aufbauen. Die richtige Wahl hängt davon ab, was das Geld letztlich bewirken soll, nicht von einer festen Regel, dass Reinvestieren immer richtig sei.
 
-[ÜBERPRÜFBARE TATSACHE] Eine Anlageentscheidung sollte mit Ziel, Zeitraum, Liquiditätsbedarf und Risikotragfähigkeit beginnen. Bei **die Wiederanlage von Gewinnen** geht es darum, Gewinne für weiteres Wachstum oder gegenwärtige Ziele einzusetzen.
+## Übungsquiz
 
-Eine Anlage kann für eine Person sinnvoll und für eine andere ungeeignet sein. Neben dem Preis zählen Kosten, Veräußerbarkeit, Sicherheit, mögliche Steuern, Alternativen und der Zeitpunkt, zu dem das Geld benötigt wird.
-
-### 2. Vor dem Handeln denken
-
-Fünf Fragen helfen: Was ist mein Ziel? Wie viel Kapital ist tatsächlich verfügbar? Für welchen Zeitraum? Was kann schiefgehen? Welche Alternative gebe ich auf?
-
-[ILLUSTRATIVES BEISPIEL] Eine Person besitzt 7.500 €, davon gehören 5.500 € zur Notfallrücklage. Der Kontostand ist deshalb nicht gleichbedeutend mit verfügbarem Anlagekapital. Diese Trennung kann einen späteren Zwangsverkauf verhindern.
-
-### 3. Kosten und Risiko
-
-Angenommen, der Referenzwert des Metalls in einem Produkt beträgt 500 €, der Kaufpreis 545 € und der sofortige Rückkaufpreis 480 €. Vor einem Gewinn muss zunächst diese wirtschaftliche Differenz überwunden werden.
-
-Risiko bedeutet mehr als fallende Kurse. Dazu gehören Liquidität, Betrug, Fälschung, physischer Verlust, Konzentration, Verwahrungskosten, steuerliche Änderungen und ein ungeplanter früher Verkauf.
-
-### 4. Anwendung
-
-Für **die Wiederanlage von Gewinnen** wird Theorie zu einer beobachtbaren Regel: nach Plan statt aus Euphorie zu entscheiden. Eine vorab geschriebene Regel hilft, Angst, Euphorie, soziale Medien oder Verkaufsdruck nicht an die Stelle von Analyse treten zu lassen.
-
-[ANNAHME] Sämtliche Zahlen dienen ausschließlich der Lehre und sind weder Preisprognosen noch Renditeversprechen.
-
-### 5. Die Entscheidung bewerten
-
-Eine gute Entscheidung kann ein schlechtes Ergebnis haben; eine schlechte Entscheidung kann Glück haben. Bewerte deshalb zuerst den Prozess: Informationen, Kosten, Alternativen, Risiken und Übereinstimmung mit dem Ziel. Danach werden Ergebnisse gemessen und bei veränderten Fakten angepasst.
-
-## Wichtige Begriffe
-
-- **Vermögenswert:** wirtschaftlich wertvolle Ressource.
-- **Rendite:** Gewinn oder Verlust einer Anlage.
-- **Risiko:** Möglichkeit, dass das Ergebnis von der Erwartung abweicht.
-- **Liquidität:** Möglichkeit, einen Vermögenswert schnell und ohne großen Abschlag in Geld umzuwandeln.
-- **Opportunitätskosten:** möglicher Nutzen der besten aufgegebenen Alternative.
-- **Die wiederanlage von gewinnen:** das zentrale Thema dieser Lektion im Anlageprozess.
-
-## Durchgerechnete Beispiele
-
-### GOLD-L1-014-EXAMPLES
-
-**Beispiel 1 — Ein- und Ausstieg:** Ein Produkt kostet 2.625 €, obwohl der Referenzwert des Metalls 2.500 € beträgt. Bei einem sofortigen Rückkauf von 2.430 € beträgt die wirtschaftliche Differenz 195 €.
-
-**Beispiel 2 — Konzentration:** In einem Portfolio von 50.000 € entsprechen 2.500 € einer Gewichtung von 5 %, während 25.000 € bereits 50 % ausmachen. Derselbe Vermögenswert kann daher sehr unterschiedliche Risiken erzeugen.
-
-**Beispiel 3 — Zeitraum:** Geld, das in drei Monaten für Wohnen, Ausbildung oder Reparaturen benötigt wird, hat eine andere Aufgabe als Kapital für ein Zehnjahresziel.
-
-## Fallstudie
-
-Anna möchte nach Berichten über Inflation Edelmetalle kaufen. Sie besitzt 30.000 € Ersparnisse und monatliche notwendige Ausgaben von etwa 7.000 €. Zuerst trennt sie ihre Notfallreserve, legt einen kleinen regelmäßigen Betrag fest, vergleicht Gesamtkosten und plant eine vierteljährliche Überprüfung.
-
-**Entscheidung vor der Auflösung:** Gold ist zwei Wochen gestiegen. Sollte Anna ihren Kauf sofort verdoppeln? Begründe mit Ziel, Budget, Risiko und **die Wiederanlage von Gewinnen**.
-
-**Analyse:** Ein kurzfristiger Anstieg verändert nicht automatisch ihre finanzielle Tragfähigkeit oder ihr Ziel. Eine Planänderung braucht relevante neue Fakten und vorher definierte Kriterien.
-
-## Häufige Fehler
-
-1. Eine überzeugende Geschichte mit Belegen verwechseln.
-2. Die Notfallrücklage investieren.
-3. Aufschläge, Spannen, Gebühren oder Verwahrung ignorieren.
-4. Zu viel Vermögen in einer Idee konzentrieren.
-5. Den Plan wegen normaler Schwankungen ändern.
-6. Keine ausreichenden Aufzeichnungen führen.
-
-## Häufige Fragen
-
-**Garantiert dieses Konzept Gewinn?** Nein. Kein Prozess beseitigt Anlagerisiko.
-
-**Muss ich den Goldpreis vorhersagen?** Nein. Disziplin verlangt keine genaue kurzfristige Prognose.
-
-**Bedeutet mehr Metall immer mehr Sicherheit?** Nein. Übermäßige Konzentration kann Risiko erhöhen.
-
-**Wann sollte der Plan überprüft werden?** Zu festgelegten Terminen und bei wesentlichen Änderungen von Einkommen, Zielen, Bedürfnissen oder Portfolio.
-
-## Kernaussagen
-
-- Die wiederanlage von gewinnen muss mit einem Ziel verbunden sein.
-- Kosten und Liquidität beeinflussen das wirtschaftliche Ergebnis.
-- Positionsgröße verändert Risiko.
-- Schriftliche Regeln reduzieren emotionale Entscheidungen.
-- Überprüfungen sollten auf Daten beruhen.
-
-## Praktische Übung
-
-### GOLD-L1-014-EXERCISE
-
-Erstelle eine Seite mit Ziel, Zeitraum, verfügbarem Kapital ohne Notfallreserve, drei Risiken, zwei zu prüfenden Kosten, einer Kapitalalternative, einer Regel zu **die Wiederanlage von Gewinnen** und dem nächsten Überprüfungstermin.
-
-## Sokratischer Lehrleitfaden
-
-### GOLD-L1-014-AI
-
-1. Welches finanzielle Problem hilft dieses Konzept zu lösen?
-2. Wie würdest du **die Wiederanlage von Gewinnen** einem Anfänger erklären?
-3. Welche Daten brauchst du vor einer Entscheidung?
-4. Welches negative Ergebnis ist realistisch?
-5. Welche Kosten können außerhalb des beworbenen Preises liegen?
-6. Was ändert sich, wenn das Geld in sechs Monaten gebraucht wird?
-7. Was passiert bei einer Gewichtung von 50 % des Vermögens?
-8. Was ist die beste Alternative für dieses Kapital?
-9. Welche Regel könnte eine emotionale Reaktion begrenzen?
-10. Welche neue Tatsache würde eine Planüberprüfung rechtfertigen?
-
-## Kompetenzprüfung
-
-### GOLD-L1-014-ASSESSMENT
-
-1. Was kommt vor der Auswahl einer Anlage? A) Morgen vorhersagen B) Ziel, Zeitraum und Tragfähigkeit definieren C) Das populärste Produkt kaufen D) Ungeprüft einem Verkäufer folgen.
-2. Richtig oder falsch: Eine Anlage kann für eine Person passen und für eine andere nicht.
-3. Kaufpreis 1.050 €, sofortiger Verkauf 970 €. Wie groß ist die Differenz?
-4. Definiere Liquidität.
-5. Was sind Opportunitätskosten? A) Beste aufgegebene Alternative B) Nur eine Gebühr C) Nur Inflation D) Nichts davon.
-6. Richtig oder falsch: Diversifikation beseitigt jedes Risiko.
-7. Nenne zwei Risiken außer Kursverlust.
-8. 10.000 € in einem Portfolio von 50.000 € entsprechen welchem Anteil?
-9. Warum hilft eine schriftliche Regel bei Volatilität?
-10. Erkläre in zwei Sätzen, wie du **die Wiederanlage von Gewinnen** vor einem Kauf anwenden würdest.
+1. Was ist der Unterschied zwischen dem Reinvestieren und dem Ausgeben von Anlagegewinnen?
+2. Wie hängt diese Entscheidung mit dem früher behandelten Zinseszinseffekt zusammen?
+3. Ist Reinvestieren immer die „richtige“ Wahl?
+4. Was bestimmt letztlich, ob Reinvestieren oder Ausgeben in einer bestimmten Situation sinnvoll ist?
 
 ## Lösungsschlüssel
+1. Beim Reinvestieren bleibt das Wachstum in der Anlage und wirkt weiter als Zinseszins; beim Ausgeben wird es für andere Zwecke in Bargeld umgewandelt.
+2. Reinvestiertes Wachstum wirkt weiter als Zinseszins, während ausgegebenes Wachstum nicht mehr zum künftigen Zinseszins beiträgt, weil es nicht mehr angelegt ist.
+3. Nein – es hängt vom Zweck des Geldes ab und davon, wo es im Modell Verdienen/Bewahren/Vermehren/Weitergeben steht.
+4. Was das Geld letztlich bewirken soll – langfristige Wachstumsziele sprechen in der Regel für das Reinvestieren, während näher rückende echte Bedürfnisse oder Ziele für das Ausgeben sprechen können.
 
-### GOLD-L1-014-ANSWER-KEY
+## Antworten und Erklärungen
+1. Das definiert die zentrale Abwägung, um die es in der Lektion geht.
+2. Der Zinseszins wirkt nur auf Geld, das angelegt bleibt, was diese Entscheidung direkt mit der früheren Lektion verbindet.
+3. Das vermeidet eine zu vereinfachte Regel „immer reinvestieren“, die den eigentlichen Zweck des Investierens außer Acht lässt.
+4. Zweckorientierte Entscheidungen, verbunden mit dem Modell der vier Funktionen, sind die praktische Orientierung, die die Lektion bietet.
 
-1. **B.** Kompetenz: Vorbereitung. Häufiger Fehler: mit dem Produkt beginnen.
-2. **Richtig.** Kompetenz: Eignung im Kontext.
-3. **80 €.** Kompetenz: Ein- und Ausstiegskosten.
-4. **Schnelle Umwandlung eines Vermögenswerts in Geld ohne großen Preisabschlag.**
-5. **A.** Kompetenz: Alternativenvergleich.
-6. **Falsch.** Diversifikation kann bestimmte Risiken verringern, nicht beseitigen.
-7. **Beispiele:** Liquidität, Betrug, Verwahrung, Gegenpartei, Konzentration oder Steuern.
-8. **20 %.** Kompetenz: Konzentration.
-9. **Weil Kriterien vor emotionalem Druck festgelegt werden.**
-10. **Erwartet:** Konzept mit Ziel, Zeitraum, Budget, Kosten, Risiken und Entscheidungsregel verbinden.
-
-## Kompetenzstandard
-
-### GOLD-L1-014-COMPETENCY
-
-- **Beherrschung:** 8 von 10 Antworten richtig (80 %).
-- **Nacharbeit:** fehlerhafte Themen wiederholen, ein Zahlenbeispiel erneut lösen und die Entscheidung mit eigenen Worten erklären.
-- **Fortschritt:** Beherrschung schaltet GOLD-L1-015 frei.
-
-## Weiterführendes Lernen
-
-Nutze offizielle Bildungs- und Aufsichtsquellen der jeweiligen Rechtsordnung. Steuerliche, rechtliche und verbraucherschutzrechtliche Regeln müssen aktuell geprüft und bei Bedarf mit qualifizierten Fachleuten besprochen werden.
-
-## Lernpfad
-
-- **Vorher:** GOLD-L1-013
-- **Aktuell:** GOLD-L1-014 — Gewinne Reinvestieren vs. Ausgeben
-- **Danach:** GOLD-L1-015
-
-## Suchmaschinen-Block
-
-### GOLD-L1-014-SEO
-
-**Schlüsselbegriffe:** die Wiederanlage von Gewinnen, Edelmetalle, Investieren, Finanzbildung, GOLD Level 1  
-**Beschreibung:** Die wiederanlage von gewinnen verstehen und auf disziplinierte Anlageentscheidungen anwenden.
-
-## KI-Unterstützung
-
-### GOLD-L1-014-AI
-
-Der Tutor soll Konzepte erklären, Begründungen einfordern, hypothetische Beispiele nutzen und Missverständnisse korrigieren. Er darf keine Renditen garantieren, Preise vorhersagen oder individuelle Finanz-, Steuer- oder Rechtsberatung geben.
-
-## Lokalisierung
-
-### GOLD-L1-014-LOCALIZATION
-
-- **Global:** Ziele, Risiko, Kosten, Diversifikation, Liquidität und Disziplin.
-- **Deutschland:** deutsche Standardsprache und Euro verwenden. Steuerliche Behandlung, Regulierung, Verbraucherschutz und produktspezifische Regeln müssen anhand aktueller deutscher Quellen geprüft werden.
-
-## Quellen und Überprüfung
-
-### GOLD-L1-014-REFERENCES
-
-- Allgemeine Finanzkonzepte: ohne Marktprognose dargestellt.
-- Zahlen: illustrative Beispiele.
-- Deutsche Regeln: vor Anwendung aktuell zu verifizieren.
-- Aktuelle Kurse oder Statistiken: nicht verwendet.
+## Wichtigste Erkenntnisse
+- Beim Reinvestieren wirkt das Wachstum weiter als Zinseszins; beim Ausgeben wird es für andere Zwecke genutzt.
+- Diese Entscheidung knüpft direkt an die Lektion über den Zinseszins an – nur reinvestiertes Wachstum baut weiter auf sich selbst auf.
+- Keine der beiden Entscheidungen ist grundsätzlich richtig; die richtige Wahl hängt vom tatsächlichen Zweck des Geldes im größeren finanziellen Gesamtbild ab.

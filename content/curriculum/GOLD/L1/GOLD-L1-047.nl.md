@@ -1,227 +1,54 @@
 ---
 id: GOLD-L1-047
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 47
-title: "Mijlpalen Vaststellen voor een Groeiende Positie"
-summary: "Leer concrete checkpoints gebruiken om voortgang te meten zonder obsessief naar dagelijkse prijzen te kijken."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-046"
-componentIds:
-  - GOLD-L1-047-MAIN
-  - GOLD-L1-047-EXAMPLES
-  - GOLD-L1-047-EXERCISE
-  - GOLD-L1-047-ASSESSMENT
-  - GOLD-L1-047-ANSWER-KEY
-  - GOLD-L1-047-COMPETENCY
-  - GOLD-L1-047-AI
-  - GOLD-L1-047-SEO
-  - GOLD-L1-047-LOCALIZATION
-  - GOLD-L1-047-REFERENCES
+locale: nl
+title: "Mijlpalen stellen voor een groeiende positie"
+summary: "Leert hoe je betekenisvolle tussendoelen stelt voor een beleggingspositie die op lange termijn geleidelijk groeit."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Mijlpalen Vaststellen voor een Groeiende Positie
-
-### GOLD-L1-047-MAIN
-
-## Samenvatting
-
-Deze les behandelt **mijlpalen**. De kern is begrijpen hoe tussenpunten die een accumulatiedoel zichtbaar en aanpasbaar maken. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Mijlpalen stellen voor een groeiende positie
 
 ## Leerdoelen
+- Uitleggen waarom mijlpalen helpen om gemotiveerd te blijven op een lange beleggingsweg
+- Het verschil herkennen tussen resultaatmijlpalen en procesmijlpalen
+- Oefenen met het stellen van een eenvoudige mijlpaal voor een denkbeeldige groeiende positie
 
-- **Financiële geletterdheid:** mijlpalen eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** hoeveelheid, termijn, kosten en evaluatiecriteria vastleggen.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Een lange beleggingsweg, opgebouwd met consequente kleine bijdragen, kan van dag tot dag traag en onopvallend voelen, ook al bouwt hij over de jaren op naar iets aanzienlijks. Bewust mijlpalen stellen – betekenisvolle tussenpunten onderweg – helpt gemotiveerd te blijven en biedt concrete momenten om echte vooruitgang te zien, in plaats van alleen de verre eindbestemming in de toekomst op te merken.
 
-GOLD-L1-046.
+Het helpt om resultaatmijlpalen (een bepaalde totale hoeveelheid of waarde bereiken) te onderscheiden van procesmijlpalen (een consequente gewoonte een bepaalde tijd volhouden, bijvoorbeeld een heel jaar zonder onderbreking maandelijkse inleg). Beide soorten zijn waardevol – resultaatmijlpalen hangen samen met de tastbare groei van de positie, terwijl procesmijlpalen de gewoonte van consequentheid versterken die dit traject steeds heeft benoemd als de echte motor van succes op lange termijn.
 
-## Hoofdles
+## Praktijkvoorbeeld
 
-### 1. Het concept begrijpen
+ILLUSTRATIEF VOORBEELD: In de casus kan het bereiken van een bepaald aantal opgebouwde ounces zilver voor een bepaalde leeftijd dienen als resultaatmijlpaal, terwijl het voltooien van een aantal opeenvolgende jaren consequente maandelijkse inleg zonder er één over te slaan kan dienen als procesmijlpaal. Beide soorten vooruitgang erkennen – niet alleen de groeiende hoeveelheid, maar ook de volgehouden discipline erachter – versterkt de gewoonte zelf als iets waardevols, niet alleen het getal dat eruit voortkomt.
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **mijlpalen** gaat het om tussenpunten die een accumulatiedoel zichtbaar en aanpasbaar maken.
+## Oefenquiz
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+1. Waarom zijn mijlpalen belangrijk voor een lange, geleidelijk groeiende beleggingsweg?
+2. Maak onderscheid tussen resultaatmijlpalen en procesmijlpalen.
+3. Waarom zijn beide soorten mijlpalen waardevol?
+4. Stel voor een denkbeeldig beleggingsplan van vijf jaar één resultaatmijlpaal en één procesmijlpaal op.
 
-### 2. Denken vóór handelen
+## Antwoordsleutel
+1. Omdat een lange weg van dag tot dag traag kan voelen en mijlpalen concrete momenten bieden om echte vooruitgang te zien.
+2. Resultaatmijlpalen meten een bereikte hoeveelheid of waarde; procesmijlpalen meten het volhouden van een consequente gewoonte in de loop van de tijd.
+3. Resultaatmijlpalen hangen samen met tastbare groei; procesmijlpalen versterken de gewoonte van consequentheid die succes op lange termijn aandrijft.
+4. De antwoorden verschillen (voorbeeld: resultaat – 'in totaal 50 ounces zilver bereiken'; proces – 'vijf opeenvolgende jaren maandelijkse inleg voltooien zonder er één over te slaan').
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoorden en uitleg
+1. Mijlpalen pakken de motivatie-uitdaging aan om een lang, geleidelijk proces vol te houden.
+2. Dit onderscheid vangt twee verschillende maar elkaar aanvullende manieren om vooruitgang te meten.
+3. Beide dimensies – resultaat en discipline – zijn belangrijk voor een echt houdbare beleggingsweg op lange termijn.
+4. Een goed antwoord laat begrip zien van beide soorten mijlpalen, toegepast op een concreet voorbeeld.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
-
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **mijlpalen** van theorie een observeerbare regel: hoeveelheid, termijn, kosten en evaluatiecriteria vastleggen. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **Mijlpalen:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-047-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **mijlpalen**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- Mijlpalen moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-047-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **mijlpalen** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-047-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **mijlpalen** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-047-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **mijlpalen** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-047-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-047-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-048.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-046
-- **Huidige:** GOLD-L1-047 — Mijlpalen Vaststellen voor een Groeiende Positie
-- **Volgende:** GOLD-L1-048
-
-## SEO-blok
-
-### GOLD-L1-047-SEO
-
-**Trefwoorden:** mijlpalen, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp mijlpalen en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-047-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-047-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-047-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Mijlpalen helpen gemotiveerd te blijven op een lange, geleidelijke beleggingsweg door onderweg echte vooruitgang te markeren.
+- Resultaatmijlpalen meten bereikte hoeveelheid of waarde; procesmijlpalen meten de consequentheid van de gewoonte in de loop van de tijd.
+- Beide soorten tellen – tastbare groei en volgehouden discipline verdienen het allebei om erkend en gevierd te worden.

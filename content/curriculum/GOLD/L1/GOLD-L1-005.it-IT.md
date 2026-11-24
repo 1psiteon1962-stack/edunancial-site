@@ -4,48 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 5
-title: "Fondamenti del dollar-cost averaging"
-summary: "Introduce il dollar-cost averaging come approccio disciplinato e resistente alle emozioni."
+locale: it-IT
+title: "Fondamenti del piano di accumulo (dollar-cost averaging)"
+summary: "Presenta l'investimento periodico di un importo fisso (piano di accumulo) come approccio disciplinato e resistente alle emozioni."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "it-IT"
 ---
 
-# Fondamenti del dollar-cost averaging
+# Fondamenti del piano di accumulo (dollar-cost averaging)
 
 ## Obiettivi di apprendimento
-- Definire il dollar-cost averaging (DCA).
-- Spiegare perché riduce l'importanza di indovinare il momento perfetto.
-- Applicarlo a un semplice esempio.
+- Definire in termini semplici l'investimento periodico di un importo fisso
+- Spiegare perché questo approccio riduce l'influenza del tentativo di indovinare il momento perfetto per acquistare
+- Esercitarsi ad applicare il concetto a un esempio semplice
 
 ## Contenuto principale
-Il dollar-cost averaging, o DCA, consiste nell'investire una somma fissa a intervalli regolari, per esempio ogni mese, indipendentemente dal prezzo del momento, invece di tentare un unico grande acquisto nel momento "perfetto". Poiché la somma resta uguale, si acquistano naturalmente più unità quando il prezzo è basso e meno quando è alto, senza dover prevedere il mercato.
 
-Prevedere costantemente il momento migliore è estremamente difficile anche per i professionisti. Il tentativo può provocare esitazione, occasioni perse o decisioni emotive, come comprare quando tutti sono entusiasti e i prezzi salgono e fermarsi quando i prezzi scendono. Il DCA elimina gran parte di questa decisione rendendo gli acquisti regolari e coerenti.
+L'investimento periodico di un importo fisso (in inglese dollar-cost averaging, spesso abbreviato DCA; in Italia lo si conosce di solito come piano di accumulo, o PAC) consiste nell'investire una somma fissa a intervalli regolari – per esempio ogni mese – indipendentemente da ciò che sta facendo il prezzo, invece di concentrare un unico grande acquisto nel momento “perfetto”. Poiché l'importo investito resta sempre uguale, si acquistano automaticamente più unità quando il prezzo è basso e meno quando è alto, senza dover prevedere nulla.
 
-## Esempio pratico
-ESEMPIO ILLUSTRATIVO: investendo 50 dollari al mese in argento, a 25 dollari l'oncia si comprano 2 once; se il prezzo scende a 20 dollari, gli stessi 50 dollari comprano 2,5 once. Nel tempo il prezzo medio pagato si distribuisce senza dover indovinare il mese migliore.
+Questo è importante perché prevedere in modo affidabile il momento migliore per acquistare è estremamente difficile anche per i professionisti, e il tentativo porta spesso a esitazioni, occasioni perse o tempi di acquisto sbagliati guidati dalle emozioni (per esempio comprare quando i prezzi salgono e tutti sono entusiasti, ed esitare quando scendono e tutti sono nervosi: esattamente il contrario dell'ideale). Il piano di accumulo elimina del tutto questa decisione, perché il momento è fissato in modo automatico e regolare.
 
-## Quiz di verifica
-1. Definisci il DCA.
-2. Che cosa succede alle unità acquistate quando il prezzo scende?
-3. Perché è difficile individuare il momento perfetto?
-4. Con 100 dollari al mese, a 10 dollari per unità il primo mese e 20 il secondo, quante unità si possiedono?
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Supponiamo che qualcuno investa 50 € al mese in argento, qualunque sia il prezzo. In un mese in cui l'argento costa 25 € l'oncia, quei 50 € comprano 2 once. In un mese in cui il prezzo scende a 20 € l'oncia, gli stessi 50 € comprano 2,5 once: si compra automaticamente di più quando costa meno. Nel corso di molti mesi questo livella il prezzo medio pagato per oncia, senza che l'investitore debba mai indovinare quale mese fosse il “migliore” per comprare.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue l'investimento periodico di un importo fisso.
+2. In un piano di accumulo, che cosa succede al numero di unità acquistate quando il prezzo è basso?
+3. Perché è difficile azzeccare il momento di un unico acquisto “perfetto”?
+4. Se qualcuno investe 100 € al mese e il prezzo è di 10 € in un mese e di 20 € in quello successivo, quante unità possiede in totale dopo i due mesi?
 
 ## Soluzioni
-1. Investire una somma fissa a intervalli regolari indipendentemente dal prezzo.
-2. Se ne acquistano di più.
-3. Perché prevedere costantemente i prezzi è estremamente difficile.
-4. 10 + 5 = 15 unità.
+1. Investire un importo fisso a intervalli regolari, indipendentemente dal prezzo, invece di programmare un unico acquisto.
+2. Si acquistano più unità quando il prezzo è basso, perché l'importo fisso rende di più.
+3. Perché prevedere in modo affidabile i movimenti di prezzo è estremamente difficile, anche per i professionisti.
+4. 10 unità nel primo mese (100 €/10 €) più 5 unità nel secondo mese (100 €/20 €), per un totale di 15 unità.
 
 ## Risposte e spiegazioni
-1. Somma fissa, intervallo regolare e nessuna previsione sono gli elementi essenziali.
-2. È il beneficio automatico del DCA.
-3. La difficoltà di previsione rende utile un metodo disciplinato.
-4. Il calcolo mostra direttamente il funzionamento del DCA.
+1. Coglie il meccanismo centrale: importo fisso, intervallo regolare, nessuna previsione di prezzo necessaria.
+2. È il vantaggio incorporato: quando i prezzi sono bassi si compra automaticamente di più.
+3. La difficoltà di previsione è il motivo per cui questo approccio è un'alternativa utile e resistente alle emozioni.
+4. Applicare direttamente la formula a entrambi i mesi mostra il funzionamento pratico dell'approccio.
 
 ## Punti chiave
-- Il DCA investe somme fisse a intervalli regolari.
-- Compra automaticamente più unità a prezzi bassi e meno a prezzi alti.
-- Riduce la dipendenza dal market timing e dalle emozioni.
+- Il piano di accumulo consiste nell'investire un importo fisso a intervalli regolari, indipendentemente dal prezzo.
+- Così si acquistano automaticamente più unità quando i prezzi sono bassi e meno quando sono alti, senza alcuna previsione.
+- L'approccio elimina il compito difficile, spesso guidato dalle emozioni, di cercare il momento “perfetto” per un acquisto.

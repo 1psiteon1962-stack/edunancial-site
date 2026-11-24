@@ -4,42 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 31
-title: "Autenticação e noções básicas sobre contrafações"
-summary: "Apresenta noções básicas sobre o risco de contrafação e autenticação na compra de metais preciosos físicos."
+locale: pt-PT
+title: "Noções básicas de autenticação e falsificação"
+summary: "Apresenta noções básicas sobre o risco de falsificação e a autenticação na compra de metais preciosos físicos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "pt-PT"
 ---
 
-# Autenticação e noções básicas sobre contrafações
+# Noções básicas de autenticação e falsificação
 
 ## Objetivos de aprendizagem
-- Compreender o conceito principal da lição.
-- Relacioná-lo com decisões de investimento de longo prazo.
-- Aplicar o princípio a uma situação financeira concreta.
+- Reconhecer o risco de falsificação como uma questão prática real no investimento em metais físicos
+- Identificar práticas básicas que reduzem o risco de falsificação
+- Entender porque comprar de fontes confiáveis é importante
 
 ## Conteúdo principal
 
-Produtos contrafeitos são um risco real na compra de metais físicos. A proteção básica mais eficaz é comprar a negociantes estabelecidos e reputados, que normalmente obtêm os seus produtos de casas da moeda e refinarias verificadas. Existem métodos de autenticação, como conferir peso e dimensões, testes magnéticos e técnicas profissionais mais avançadas. Para um principiante, escolher uma fonte fiável é geralmente a proteção mais simples e robusta.
+Produtos falsificados de metais preciosos – moedas ou barras falsas feitas para parecerem autênticas, mas que contêm pouco ou nenhum metal precioso real – são um risco real do investimento em metais físicos, embora relativamente incomum para compradores cuidadosos. Esse risco explica em parte porque é importante, mesmo no nível principiante, ter noções básicas de autenticação e boas práticas de compra.
+
+A proteção básica mais eficaz contra o risco de falsificação é comprar de revendedores confiáveis e estabelecidos, em vez de vendedores individuais não verificados ou de marketplaces on-line desconhecidos, sobretudo para um investidor principiante que talvez ainda não tenha o conhecimento especializado para verificar por conta própria a autenticidade de um produto. Revendedores confiáveis têm seu próprio incentivo de reputação para vender apenas produtos autênticos, e revendedores estabelecidos normalmente compram seu estoque de casas da moeda e refinarias verificadas.
+
+Existem técnicas básicas de autenticação (verificação de peso e dimensões, teste com ímã, já que ouro e prata não são magnéticos, e métodos mais avançados usados por profissionais), mas, para um investidor principiante, a proteção mais simples e confiável é escolher fontes bem estabelecidas e confiáveis em toda compra, em vez de depender de verificar a autenticidade por conta própria depois.
 
 ## Exemplo prático
 
-EXEMPLO ILUSTRATIVO: aplicar o princípio desta lição a uma decisão real significa comparar objetivos, custos, riscos e horizonte temporal antes de agir, em vez de reagir apenas ao movimento de preço do momento.
+Um investidor principiante que segue a abordagem do estudo de caso biográfico faria bem em comprar prata e ouro de um revendedor estabelecido e confiável, com histórico verificável, em vez de um vendedor on-line desconhecido que oferece preços anormalmente baixos – um sinal de alerta comum, já que um preço bem abaixo das cotações vigentes para um produto autêntico às vezes pode indicar risco de falsificação, entre outros problemas possíveis.
 
-## Quiz de verificação
-1. Qual é o conceito central da lição?
-2. Porque é útil para um investidor?
-3. Que risco ou compromisso deve ser considerado?
-4. Como se integra num plano financeiro mais amplo?
+## Teste de prática
 
-## Soluções
-1. O conceito definido no conteúdo principal.
-2. Ajuda a tomar decisões mais conscientes.
-3. Cada escolha envolve limitações, custos ou riscos.
-4. Deve ser aplicado conforme os objetivos e o horizonte temporal.
+1. O que é o risco de falsificação no contexto dos metais preciosos físicos?
+2. Qual é a proteção básica mais eficaz contra esse risco para um investidor principiante?
+3. Porque é que os revendedores confiáveis têm incentivo para vender apenas produtos autênticos?
+4. O que um preço anormalmente baixo, bem abaixo das cotações vigentes, às vezes pode indicar?
 
-## Pontos principais
-- Compreender antes de agir.
-- Avaliar riscos, custos e alternativas.
-- Manter as decisões alinhadas com o plano financeiro.
+## Chave de Respostas
+1. O risco de comprar moedas ou barras falsas feitas para parecerem autênticas, mas que contêm pouco ou nenhum metal precioso real.
+2. Comprar de revendedores confiáveis e estabelecidos, em vez de vendedores individuais não verificados ou marketplaces desconhecidos.
+3. Seu próprio incentivo de reputação e sua relação comercial com casas da moeda e refinarias verificadas dependem de vender produtos autênticos.
+4. Às vezes pode indicar risco de falsificação, entre outros problemas possíveis, e geralmente é um sinal de alerta que vale a pena investigar.
+
+## Respostas e explicações
+1. Isto define o risco prático específico que esta lição aborda para quem compra metais físicos.
+2. A reputação da fonte é apresentada como a proteção mais simples e confiável para um investidor principiante.
+3. Os incentivos de reputação e de negócio se alinham para favorecer a autenticidade nos revendedores estabelecidos.
+4. Preços muito abaixo das cotações de mercado são um sinal de alerta prático que vale a pena notar para investidores principiantes.
+
+## Pontos-chave
+- Produtos falsificados de metais preciosos são um risco real, embora relativamente incomum, para compradores cuidadosos.
+- A proteção básica mais eficaz para um investidor principiante é comprar exclusivamente de revendedores confiáveis e estabelecidos.
+- Preços muito abaixo das cotações vigentes são um sinal de alerta que vale a pena investigar antes de comprar.

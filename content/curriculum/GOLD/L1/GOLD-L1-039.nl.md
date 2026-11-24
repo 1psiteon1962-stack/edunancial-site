@@ -1,227 +1,56 @@
 ---
 id: GOLD-L1-039
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 39
-title: "Een Persoonlijk Beleggingsplan voor Metalen Opstellen"
-summary: "Zet doelen, budget, aankoopritme, opslag en evaluatiemomenten om in een eenvoudig plan."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-038"
-componentIds:
-  - GOLD-L1-039-MAIN
-  - GOLD-L1-039-EXAMPLES
-  - GOLD-L1-039-EXERCISE
-  - GOLD-L1-039-ASSESSMENT
-  - GOLD-L1-039-ANSWER-KEY
-  - GOLD-L1-039-COMPETENCY
-  - GOLD-L1-039-AI
-  - GOLD-L1-039-SEO
-  - GOLD-L1-039-LOCALIZATION
-  - GOLD-L1-039-REFERENCES
+locale: nl
+title: "Een persoonlijk beleggingsplan voor metalen opstellen"
+summary: "Begeleidt leerlingen bij het opstellen van een eenvoudig, persoonlijk plan voor beleggen in edelmetalen."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Een Persoonlijk Beleggingsplan voor Metalen Opstellen
-
-### GOLD-L1-039-MAIN
-
-## Samenvatting
-
-Deze les behandelt **het persoonlijke plan**. De kern is begrijpen hoe doel, budget, allocatie, producten, frequentie, bewaring, evaluatie en uitstapregels. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Een persoonlijk beleggingsplan voor metalen opstellen
 
 ## Leerdoelen
+- De onderdelen van een eenvoudig persoonlijk beleggingsplan voor edelmetalen herkennen
+- Begrippen uit dit traject samenvoegen tot een concreet, persoonlijk plan
+- Oefenen met het opstellen van een eenvoudig plan volgens de principes van dit traject
 
-- **Financiële geletterdheid:** het persoonlijke plan eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** beslissingen vastleggen vóór marktdruk ontstaat.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Een eenvoudig persoonlijk beleggingsplan voor edelmetalen hoeft niet ingewikkeld te zijn, maar het opschrijven in plaats van het als vage intentie te laten, maakt het veel waarschijnlijker dat het echt consequent wordt gevolgd – wat aansluit bij de thema's bijhouden en gewoonten opbouwen die in dit hele traject zijn behandeld.
 
-GOLD-L1-038.
+Een bruikbaar plan geeft antwoord op deze vragen: wat is het start- of doorlopende budget (in lijn met de lessen over toegankelijkheid), op welk metaal of welke metalen ligt de nadruk (zilver, goud of beide, zoals de ontwikkeling in de biografische casus laat zien), hoe vaak wordt er gekocht (een vast schema voor periodiek beleggen in plaats van een ongestructureerd 'wanneer het uitkomt'), waar wordt er gekocht (bij een specifieke, gecontroleerde, betrouwbare handelaar) en hoe wordt de positie in de loop van de tijd bijgehouden en beoordeeld (verbonden met de les over bijhouden)?
 
-## Hoofdles
+Het plan moet ook uitdrukkelijk de beleggingshorizon en het doel noemen – een vooraf opgeschreven herinnering aan waarom deze belegging wordt gedaan, die vooral waardevol wordt in perioden van schommelingen op korte termijn, wanneer de verleiding het grootst is om een goed doordacht plan op te geven vanwege een emotionele reactie – wat aansluit bij de les over geduld.
 
-### 1. Het concept begrijpen
+## Praktijkvoorbeeld
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **het persoonlijke plan** gaat het om doel, budget, allocatie, producten, frequentie, bewaring, evaluatie en uitstapregels.
+Een eenvoudig schriftelijk plan kan luiden: 'Ik beleg op de eerste van elke maand € 50 in zilver, gekocht bij [een specifieke, betrouwbare handelaar], en leg elke aankoop vast in een eenvoudig overzicht met datum, prijs en hoeveelheid. Mijn beleggingshorizon is minstens tien jaar, en het doel is vermogensbehoud en spreiding op lange termijn, geen winst op korte termijn. Ik zal niet op prijsbewegingen op korte termijn reageren door dit plan te veranderen zonder er eerst bewust opnieuw naar te kijken.' Dat weerspiegelt dezelfde gedisciplineerde opbouw die de biografische casus steeds laat zien, alleen expliciet gemaakt en persoonlijk.
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+## Oefenquiz
 
-### 2. Denken vóór handelen
+1. Noem volgens deze les de vijf onderdelen waarop een eenvoudig persoonlijk beleggingsplan voor metalen antwoord moet geven.
+2. Waarom is het belangrijk het plan op te schrijven in plaats van het als vage intentie te laten?
+3. Waarom moet een plan uitdrukkelijk de beleggingshorizon en het doel noemen?
+4. Stel volgens het model van deze les een kort persoonlijk beleggingsplan voor metalen op in één zin.
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoordsleutel
+1. Start-/doorlopend budget, welk metaal of welke metalen, hoe vaak er wordt gekocht, waar er wordt gekocht en hoe de positie wordt bijgehouden.
+2. Een schriftelijk plan wordt veel waarschijnlijker consequent gevolgd dan een vage, niet opgeschreven intentie.
+3. Omdat het in perioden van schommelingen op korte termijn een waardevolle herinnering wordt, wanneer de verleiding het grootst is om een goed doordacht plan op te geven.
+4. De antwoorden verschillen, maar horen de vijf in deze les genoemde onderdelen te bevatten.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
+## Antwoorden en uitleg
+1. Deze vijf onderdelen vatten de praktische begrippen samen die in dit deel van het traject zijn behandeld.
+2. Schriftelijke afspraken blijken telkens duurzamer dan niet opgeschreven intenties.
+3. Dit verbindt het plan direct met de eerder in dit traject behandelde lessen over geduld en volatiliteit.
+4. Een goed antwoord laat zien dat de vereiste onderdelen van het plan echt zijn samengevoegd tot een persoonlijke uitspraak.
 
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **het persoonlijke plan** van theorie een observeerbare regel: beslissingen vastleggen vóór marktdruk ontstaat. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **Het persoonlijke plan:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-039-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **het persoonlijke plan**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- Het persoonlijke plan moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-039-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **het persoonlijke plan** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-039-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **het persoonlijke plan** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-039-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **het persoonlijke plan** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-039-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-039-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-040.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-038
-- **Huidige:** GOLD-L1-039 — Een Persoonlijk Beleggingsplan voor Metalen Opstellen
-- **Volgende:** GOLD-L1-040
-
-## SEO-blok
-
-### GOLD-L1-039-SEO
-
-**Trefwoorden:** het persoonlijke plan, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp het persoonlijke plan en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-039-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-039-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-039-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Een eenvoudig persoonlijk beleggingsplan voor metalen legt budget, gekozen metaal, aankoopritme, handelaar en manier van bijhouden vast.
+- Het plan opschrijven maakt het veel waarschijnlijker dat het consequent wordt gevolgd dan het als vage intentie te laten.
+- De beleggingshorizon en het doel uitdrukkelijk noemen biedt een waardevol houvast in perioden van schommelingen op korte termijn.

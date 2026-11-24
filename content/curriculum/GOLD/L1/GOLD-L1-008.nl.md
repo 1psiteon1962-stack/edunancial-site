@@ -1,227 +1,54 @@
 ---
 id: GOLD-L1-008
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 8
-title: "Basisprincipes van Diversificatie"
-summary: "Begrijp hoe spreiding over verschillende activa concentratierisico kan verminderen zonder beleggingsrisico volledig weg te nemen."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-007"
-componentIds:
-  - GOLD-L1-008-MAIN
-  - GOLD-L1-008-EXAMPLES
-  - GOLD-L1-008-EXERCISE
-  - GOLD-L1-008-ASSESSMENT
-  - GOLD-L1-008-ANSWER-KEY
-  - GOLD-L1-008-COMPETENCY
-  - GOLD-L1-008-AI
-  - GOLD-L1-008-SEO
-  - GOLD-L1-008-LOCALIZATION
-  - GOLD-L1-008-REFERENCES
+locale: nl
+title: "Basisprincipes van spreiding"
+summary: "Introduceert spreiding als manier om risico te beheersen door niet afhankelijk te zijn van één enkel bezit."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Basisprincipes van Diversificatie
-
-### GOLD-L1-008-MAIN
-
-## Samenvatting
-
-Deze les behandelt **diversificatie**. De kern is begrijpen hoe blootstelling spreiden over activa met verschillende risico's en gedragingen. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Basisprincipes van spreiding
 
 ## Leerdoelen
+- Spreiding in eenvoudige woorden definiëren
+- Uitleggen waarom alles op één bezit zetten het risico verhoogt
+- Herkennen waarom het aanhouden van twee verschillende metalen een klein voorbeeld van spreiding is
 
-- **Financiële geletterdheid:** diversificatie eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** overmatige concentratie herkennen.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Spreiding (diversificatie) betekent beleggingen verdelen over verschillende soorten bezit in plaats van alles in één ding te steken, zodat de daling van één bezit niet de hele positie onderuithaalt. De logica is eenvoudig: verschillende soorten bezit bewegen niet altijd tegelijk, in dezelfde richting en om dezelfde redenen, dus een daling bij het ene kan ten minste gedeeltelijk worden opgevangen door stabiliteit of groei bij een ander.
 
-GOLD-L1-007.
+Dat betekent niet dat spreiding het risico helemaal wegneemt – het vermindert het specifieke risico van te grote afhankelijkheid van de ontwikkeling van één bezit. Ook een goed gespreide positie kan in waarde dalen als veel verschillende soorten bezit tegelijk dalen, maar ze is meestal veerkrachtiger dan een positie die volledig op één ding is geconcentreerd.
 
-## Hoofdles
+## Praktijkvoorbeeld
 
-### 1. Het concept begrijpen
+ILLUSTRATIEF VOORBEELD: Zowel zilver als goud aanhouden in plaats van één metaal is een kleine vorm van spreiding binnen de categorie edelmetalen – de twee metalen hebben verschillende vraagfactoren (industrieel tegenover vooral beleggen/sieraden) en bewegen daardoor niet altijd precies gelijk op. Dat is een veel kleiner voorbeeld dan de volledige spreiding van een portefeuille over veel verschillende beleggingscategorieën (aandelen, vastgoed, een eigen bedrijf en meer), die latere niveaus van dit traject en andere trajecten verder uitwerken, maar het laat het onderliggende principe zien: niet al je geld op één en dezelfde gok zetten.
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **diversificatie** gaat het om blootstelling spreiden over activa met verschillende risico's en gedragingen.
+## Oefenquiz
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+1. Definieer spreiding in je eigen woorden.
+2. Waarom vermindert het verdelen van beleggingen over verschillende soorten bezit het risico?
+3. Neemt spreiding het risico helemaal weg?
+4. Hoe laat het aanhouden van zilver en goud spreiding zien, zij het op kleine schaal?
 
-### 2. Denken vóór handelen
+## Antwoordsleutel
+1. Beleggingen verdelen over verschillende soorten bezit in plaats van alles in één te steken.
+2. Omdat verschillende soorten bezit niet altijd om dezelfde redenen in dezelfde richting bewegen, zodat een daling bij het ene kan worden opgevangen door stabiliteit bij een ander.
+3. Nee – het vermindert het risico van afhankelijkheid van één bezit, maar neemt niet alle risico weg, vooral niet als veel soorten bezit samen dalen.
+4. Omdat de twee metalen verschillende vraagfactoren hebben en dus niet altijd gelijk op bewegen, wat de afhankelijkheid van elk afzonderlijk vermindert.
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoorden en uitleg
+1. Dit vangt de wezenlijke logica van spreiding als verdelen, niet wegnemen, van risico.
+2. De verschillende bewegingspatronen van bezittingen zijn het mechanisme achter het risicoverlagende effect van spreiding.
+3. Dit verheldert een veelvoorkomend misverstand – spreiding beheerst risico, het neemt het niet volledig weg.
+4. Dit voorbeeld laat het kernprincipe van spreiding zien op een kleine, begrijpelijke schaal binnen één beleggingscategorie.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
-
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **diversificatie** van theorie een observeerbare regel: overmatige concentratie herkennen. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **Diversificatie:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-008-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **diversificatie**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- Diversificatie moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-008-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **diversificatie** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-008-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **diversificatie** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-008-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **diversificatie** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-008-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-008-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-009.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-007
-- **Huidige:** GOLD-L1-008 — Basisprincipes van Diversificatie
-- **Volgende:** GOLD-L1-009
-
-## SEO-blok
-
-### GOLD-L1-008-SEO
-
-**Trefwoorden:** diversificatie, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp diversificatie en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-008-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-008-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-008-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Spreiding betekent beleggingen verdelen over verschillende soorten bezit om de afhankelijkheid van één te verminderen.
+- Spreiding vermindert risico maar neemt het niet weg, vooral niet als veel soorten bezit samen dalen.
+- Zilver en goud aanhouden, met hun verschillende vraagfactoren, laat het principe van spreiding ook op kleine schaal zien.

@@ -4,48 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
-title: "Monitorare la propria posizione nel tempo"
-summary: "Insegna le basi della registrazione di una posizione d'investimento in accumulo."
+locale: it-IT
+title: "Seguire la propria posizione nel tempo"
+summary: "Insegna le basi della registrazione per una posizione di investimento in accumulo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "it-IT"
 ---
 
-# Monitorare la propria posizione nel tempo
+# Seguire la propria posizione nel tempo
 
 ## Obiettivi di apprendimento
-- Spiegare perché è importante monitorare una posizione.
-- Identificare le informazioni fondamentali da registrare.
-- Impostare una semplice registrazione degli acquisti.
+- Spiegare perché è importante tenere traccia di una posizione di investimento, anche per un bene semplice
+- Identificare le informazioni di base da registrare per ogni acquisto
+- Esercitarsi a impostare un semplice registro
 
 ## Contenuto principale
-Quando una posizione cresce attraverso acquisti regolari, una registrazione semplice diventa sempre più utile. Senza monitoraggio è facile perdere di vista la quantità totale posseduta, il costo effettivo sostenuto nel tempo — importante per capire la performance reale e, successivamente, per finalità fiscali — e l'andamento complessivo dell'accumulo.
 
-Per una posizione in metalli preziosi, una registrazione di base dovrebbe includere almeno: data di ogni acquisto, quantità acquistata in once o grammi, prezzo pagato per unità compreso il premio e importo totale speso. Nel tempo questi dati consentono di calcolare il costo medio reale per unità, collegandosi direttamente al DCA, e di vedere l'intera storia dell'accumulo senza affidarsi alla memoria o a ricevute sparse.
+Quando una posizione di investimento cresce nel tempo grazie ad acquisti regolari, tenere un semplice registro diventa sempre più utile. Senza registrazioni è facile perdere una visione chiara di quanto si possiede in totale, di quanto si è effettivamente pagato nel tempo (importante per capire il rendimento reale e, più avanti, per fini fiscali) e dell'andamento complessivo dell'accumulo.
 
-## Esempio pratico
-ESEMPIO ILLUSTRATIVO: nel caso di studio, registrare gli acquisti d'argento dall'età di 11 anni — data, once, prezzo e totale — permette anni dopo di calcolare chiaramente il costo medio. Quando iniziano gli acquisti d'oro a 15 anni, un registro separato mantiene chiare le due storie di accumulo e facilita le successive revisioni di lungo periodo.
+Un registro di base per una posizione in metalli preziosi dovrebbe includere almeno: la data di ogni acquisto, la quantità acquistata (once o grammi), il prezzo pagato per unità (compreso l'eventuale premio) e l'importo totale speso per quell'acquisto. Con il tempo, questo registro permette a un investitore di calcolare il proprio vero costo medio per unità – collegandosi direttamente al piano di accumulo visto in precedenza – e di vedere a colpo d'occhio l'intera storia dell'accumulo, invece di affidarsi alla memoria o a ricevute sparse.
 
-## Quiz di verifica
-1. Perché è importante monitorare una posizione?
-2. Quali quattro dati minimi vanno registrati?
-3. Quale calcolo diventa possibile?
-4. Perché oro e argento sono registrati separatamente?
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Nel caso di studio, registrare gli acquisti di argento dagli 11 anni in poi in un semplice registro – data, once acquistate, prezzo pagato, totale speso – permette di calcolare chiaramente, anni dopo, il costo medio effettivo per oncia, invece di affidarsi a un vago “compro argento da anni”. Quando a 15 anni iniziano gli acquisti di oro, un registro simile e separato per l'oro mantiene chiare e distinte le storie di accumulo dei due metalli, sostenendo il tipo di revisione di lungo periodo su cui si baseranno le lezioni conclusive di questo percorso.
+
+## Quiz di esercitazione
+
+1. Perché è importante tenere traccia di una posizione di investimento, anche per un bene semplice come i metalli preziosi?
+2. Indica le quattro informazioni di base che un registro dovrebbe contenere per ogni acquisto.
+3. Quale calcolo rende possibile nel tempo un buon registro?
+4. Perché nel caso di studio argento e oro sono registrati separatamente?
 
 ## Soluzioni
-1. Per conoscere quantità, costo reale e andamento dell'accumulo.
-2. Data, quantità, prezzo per unità e totale speso.
-3. Il costo medio reale per unità.
-4. Perché sono metalli distinti con tempi di accumulo diversi.
+1. Perché senza registrazioni è facile perdere una visione chiara del totale posseduto, del costo reale e dell'andamento complessivo dell'accumulo.
+2. Data dell'acquisto, quantità acquistata, prezzo pagato per unità e importo totale speso.
+3. Il vero costo medio per unità nel tempo, collegato direttamente al piano di accumulo.
+4. Perché sono due metalli distinti con tempi di accumulo diversi, e registri separati mantengono ogni storia chiara e distinta.
 
 ## Risposte e spiegazioni
-1. La registrazione evita di affidarsi alla memoria.
-2. Sono i dati minimi per un registro utile.
-3. Il costo medio collega il monitoraggio al DCA.
-4. Registri separati aumentano la chiarezza.
+1. La registrazione evita di dipendere dalla memoria, che diventa inaffidabile man mano che una posizione cresce negli anni.
+2. Questi quattro dati costituiscono il registro minimo utile per qualsiasi posizione in accumulo.
+3. Il calcolo del costo medio collega direttamente la registrazione al concetto centrale della lezione sul piano di accumulo.
+4. Registri separati per ogni metallo favoriscono la chiarezza, soprattutto visti i diversi punti di partenza nel caso di studio.
 
 ## Punti chiave
-- Monitorare evita di affidarsi alla memoria.
-- Registrare data, quantità, prezzo unitario e totale speso.
-- Il monitoraggio consente di calcolare il costo medio reale.
+- Seguire una posizione di investimento nel tempo evita di dipendere dalla memoria e favorisce una comprensione precisa del costo reale.
+- Un registro di base dovrebbe includere data, quantità, prezzo pagato per unità e totale speso per ogni acquisto.
+- Registrare con costanza permette di calcolare il vero costo medio per unità, collegandosi direttamente al piano di accumulo.
