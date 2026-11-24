@@ -1,0 +1,399 @@
+===== PURPLE-L1-006
+TITLE: Inadempimento contrattuale: che cosa succede quando qualcuno non adempie
+SUMMARY: Introduce il concetto di inadempimento contrattuale e le categorie generali di rimedi disponibili quando una parte non rispetta il proprio impegno.
+# Inadempimento contrattuale: che cosa succede quando qualcuno non adempie
+
+## Obiettivi di apprendimento
+
+- Definire l'inadempimento contrattuale.
+- Identificare le categorie generali di rimedi in caso di inadempimento.
+- Riconoscere l'inadempimento come un rischio d'impresa prevedibile, non come un evento insolito.
+
+## Contenuto principale
+
+Si ha inadempimento contrattuale quando una parte non adempie gli obblighi previsti da un accordo vincolante: salta un pagamento, non consegna un immobile, non completa i lavori concordati. Quando si verifica un inadempimento, la parte adempiente dispone in genere di rimedi giuridici, anche se le opzioni specifiche dipendono dal contratto e dall'ordinamento.
+
+Le categorie comuni di rimedi includono: il risarcimento del danno in denaro (compensazione per la perdita economica causata dall'inadempimento), l'esecuzione in forma specifica (un ordine del tribunale che obbliga la parte inadempiente a fare effettivamente ciò che aveva promesso, più frequente negli immobili, dove il bene stesso è unico) e la risoluzione del contratto (che libera la parte adempiente dai propri obblighi residui). Capire che l'inadempimento è un rischio prevedibile, da mettere in conto, e non una catastrofe insolita, fa parte di una cultura contrattuale matura: i contratti ben redatti specificano spesso in anticipo che cosa succede se una delle parti è inadempiente, ed è proprio per questo che un'attenta revisione del contratto conta prima della firma, non solo dopo che qualcosa è andato storto.
+
+## Esempio svolto
+
+**Domanda:** Un acquirente firma un contratto per l'acquisto di un immobile specifico, poi la venditrice si tira indietro e lo vende a qualcun altro. Quale rimedio potrebbe essere particolarmente rilevante qui, dato che l'immobile è unico?
+
+**Studente:** Secondo questa lezione, potrebbe essere rilevante l'esecuzione in forma specifica, perché un tribunale potrebbe ordinare di concludere la vendita invece di riconoscere solo del denaro.
+
+**Guida:** Perché l'esecuzione in forma specifica avrebbe più senso per un immobile unico che, per esempio, per un prodotto generico?
+
+**Studente:** Perché l'immobile è unico nel suo genere: il solo denaro potrebbe non sostituire davvero ciò che l'acquirente voleva, a differenza di un prodotto generico che si potrebbe semplicemente ricomprare altrove.
+
+**Guida:** Esatto: ecco perché l'esecuzione in forma specifica compare così spesso nelle controversie sui contratti immobiliari.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Si ha inadempimento contrattuale quando:
+
+A) Entrambe le parti concordano di annullare l'affare
+B) Una parte non adempie gli obblighi previsti dall'accordo
+C) Un contratto viene firmato
+D) Non è mai stato raggiunto alcun accordo
+
+**Domanda 2.** Il risarcimento del danno in denaro è:
+
+A) Mai disponibile come rimedio
+B) Una compensazione per la perdita economica causata da un inadempimento
+C) Rilevante solo nei casi penali
+D) La stessa cosa dell'esecuzione in forma specifica
+
+**Domanda 3.** L'esecuzione in forma specifica è:
+
+A) Un ordine del tribunale che impone di realizzare ciò che era stato promesso
+B) Sempre la stessa cosa del risarcimento in denaro
+C) Mai usata negli immobili
+D) Irrilevante per il diritto dei contratti
+
+**Domanda 4.** Perché l'inadempimento è descritto come un “rischio prevedibile, da mettere in conto” e non come una catastrofe insolita?
+
+A) L'inadempimento in realtà non accade mai
+B) I contratti ben redatti specificano spesso in anticipo che cosa succede se una delle parti è inadempiente
+C) I contratti non affrontano mai questa possibilità
+D) Questa impostazione è inesatta
+
+## Soluzioni
+
+1. B, 2. B, 3. A, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'inadempimento è proprio il mancato adempimento di obblighi concordati giuridicamente.
+
+**2.** Il risarcimento mira a rimettere economicamente la parte adempiente nella situazione in cui sarebbe stata senza la perdita.
+
+**3.** L'esecuzione in forma specifica è particolarmente rilevante quando l'oggetto, come un immobile unico, non può essere semplicemente sostituito con denaro.
+
+**4.** I contratti maturi prevedono l'inadempimento e ne stabiliscono in anticipo le conseguenze, trattandolo come una possibilità reale da pianificare.
+
+## Punti chiave
+
+- Si ha inadempimento quando una parte non adempie i propri obblighi contrattuali.
+- I rimedi includono il risarcimento in denaro, l'esecuzione in forma specifica e la risoluzione del contratto.
+- L'esecuzione in forma specifica è particolarmente rilevante per beni unici come gli immobili.
+- L'inadempimento è un rischio prevedibile che i contratti ben redatti mettono in conto in anticipo.
+
+===== PURPLE-L1-007
+TITLE: Leggere un contratto: una guida pratica passo dopo passo
+SUMMARY: Offre uno schema pratico per affrontare un contratto sconosciuto, riducendo il timore che incute scomponendolo in sezioni gestibili.
+# Leggere un contratto: una guida pratica passo dopo passo
+
+## Obiettivi di apprendimento
+
+- Identificare le sezioni comuni presenti nella maggior parte dei contratti.
+- Applicare un approccio pratico, passo dopo passo, alla lettura di un contratto sconosciuto.
+- Riconoscere quali sezioni meritano l'attenzione maggiore.
+
+## Contenuto principale
+
+La maggior parte dei contratti, per quanto lunghi e intimidatori, condivide una struttura generale comune: le parti (chi è coinvolto), le premesse (il contesto, nei contratti in inglese spesso introdotte da “whereas”), le condizioni (gli obblighi effettivi: prezzo, tempi, che cosa deve fare ciascuna parte), le dichiarazioni e garanzie (affermazioni di ciascuna parte su fatti, come la proprietà o il potere di firmare), l'inadempimento e i rimedi (che cosa succede se qualcuno non adempie, come nell'ultima lezione) e le firme (la sottoscrizione formale).
+
+Un approccio pratico alla lettura di un contratto sconosciuto: primo, capire chi sono davvero le parti e che cosa promette ciascuna. Secondo, trovare le condizioni economiche essenziali – prezzo, date, prestazioni –, perché hanno il peso pratico più immediato. Terzo, prestare molta attenzione alla sezione su inadempimento e rimedi, perché è lì che scoprirai che cosa succede davvero se qualcosa va storto. Quarto, annotare tutto ciò che sembra insolito, sbilanciato o poco chiaro e segnalarlo a un professionista invece di tirare a indovinare il significato. Questo approccio strutturato trasforma un muro di testo intimidatorio in una lista di controllo gestibile.
+
+## Esempio svolto
+
+**Domanda:** Qualcuno riceve un contratto di 20 pagine e si sente sopraffatto, senza sapere nemmeno da dove cominciare. Quale approccio iniziale suggerirebbe questa lezione?
+
+**Studente:** Secondo questa lezione, cominciare individuando le parti e che cosa promette effettivamente ciascuna, invece di cercare di assorbire tutto il documento in una volta.
+
+**Guida:** Dopo, quale sarebbe la cosa successiva più importante da cercare?
+
+**Studente:** Le condizioni economiche essenziali – prezzo, date, prestazioni –, perché hanno il peso pratico più immediato, e poi la sezione su inadempimento e rimedi, per capire che cosa succede se qualcosa va storto.
+
+**Guida:** Esatto: scomporlo in questa sequenza trasforma un documento intimidatorio in una lista di controllo gestibile.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Le sezioni comuni presenti nella maggior parte dei contratti includono:
+
+A) Parti, condizioni, dichiarazioni, inadempimento/rimedi, firme
+B) Un unico paragrafo
+C) Nessuna struttura riconoscibile
+D) Solo un prezzo e una data
+
+**Domanda 2.** La sezione “dichiarazioni e garanzie” contiene in genere:
+
+A) Informazioni casuali e scollegate
+B) Affermazioni di ciascuna parte su fatti, come la proprietà o il potere di firmare
+C) Solo il titolo del contratto
+D) Le firme
+
+**Domanda 3.** Un primo passo pratico nella lettura di un contratto sconosciuto è:
+
+A) Saltare direttamente alla pagina delle firme
+B) Individuare le parti e che cosa promette di fare ciascuna
+C) Ignorare del tutto il documento
+D) Leggere solo l'ultimo paragrafo
+
+**Domanda 4.** Che cosa bisognerebbe fare con tutto ciò che in un contratto è insolito, sbilanciato o poco chiaro?
+
+A) Ignorarlo e firmare comunque
+B) Segnalarlo a un professionista invece di tirare a indovinare il significato
+C) Presumere che sia un errore di battitura
+D) Eliminare quella sezione unilateralmente
+
+## Soluzioni
+
+1. A, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questa struttura generale si ripete nella maggior parte dei contratti, a prescindere da lunghezza o oggetto.
+
+**2.** Le dichiarazioni e garanzie sono assicurazioni su fatti fornite da ciascuna parte, che contano se in seguito si rivelano false.
+
+**3.** Capire chi è coinvolto e che cosa viene promesso è il punto di partenza naturale per dare senso al resto.
+
+**4.** Segnalare termini poco chiari o insoliti per una revisione professionale, invece di tirare a indovinare, è l'approccio responsabile.
+
+## Punti chiave
+
+- La maggior parte dei contratti condivide una struttura comune: parti, condizioni, dichiarazioni, inadempimento/rimedi, firme.
+- Un ordine di lettura pratico: prima le parti, poi le condizioni essenziali, poi inadempimento/rimedi, poi segnalare ciò che non è chiaro.
+- Questo approccio strutturato riduce il timore che incutono documenti lunghi e sconosciuti.
+- Termini insoliti o poco chiari vanno segnalati per una revisione professionale, non indovinati.
+
+===== PURPLE-L1-008
+TITLE: Illecito civile e contratto: due tipi diversi di pretese giuridiche
+SUMMARY: Distingue la responsabilità per fatto illecito (torti civili al di fuori di un contratto) dal diritto dei contratti, offrendo una mappa più chiara del panorama civile.
+# Illecito civile e contratto: due tipi diversi di pretese giuridiche
+
+## Obiettivi di apprendimento
+
+- Definire in termini semplici un illecito civile (in inglese “tort”).
+- Distinguere le pretese per fatto illecito da quelle contrattuali.
+- Identificare esempi rilevanti per i contesti RED, WHITE e BLUE.
+
+## Contenuto principale
+
+Un illecito civile è un torto che causa un danno a un'altra persona, indipendentemente da qualsiasi contratto tra le parti: negligenza, danni alla proprietà o diffamazione sono esempi comuni. È diverso da una controversia contrattuale, che nasce da una promessa infranta tra parti che avevano un accordo. Gli illeciti possono verificarsi tra persone che non hanno mai avuto alcun contratto: se il lavoro trascurato di un'impresa edile danneggia una proprietà confinante, si tratta di una pretesa per fatto illecito e non contrattuale, se il vicino e l'impresa non avevano alcun accordo tra loro. (Nel diritto italiano è la responsabilità extracontrattuale: chiunque cagioni ad altri un danno ingiusto con un fatto doloso o colposo è obbligato a risarcirlo.)
+
+Questa distinzione conta sul piano pratico in tutto il programma: il proprietario di un immobile (RED) può essere chiamato a rispondere per fatto illecito se condizioni pericolose nella sua proprietà feriscono qualcuno, a prescindere da qualsiasi contratto di locazione o di compravendita. Il titolare di un'impresa (BLUE) può rispondere per fatto illecito dei danni causati da un prodotto o da un dipendente negligente, separatamente da qualsiasi contratto con un cliente. Capire che il rischio giuridico non si limita alle promesse infrante – che anche un danno causato al di fuori di qualsiasi accordo può creare responsabilità – è un ampliamento importante della cultura giuridica oltre i soli contratti.
+
+## Esempio svolto
+
+**Domanda:** La scala mal tenuta di una proprietaria ferisce un corriere che non ha alcun contratto con lei. Che tipo di pretesa giuridica rappresenta probabilmente questo caso?
+
+**Studente:** Secondo questa lezione, sembra una pretesa per fatto illecito, perché non c'è alcun contratto tra la proprietaria e il corriere: il danno esiste indipendentemente da qualsiasi accordo.
+
+**Guida:** Perché qui conta l'assenza di un contratto?
+
+**Studente:** Perché mostra che la responsabilità giuridica non si limita alle promesse infrante tra contraenti: anche un danno causato al di fuori di qualsiasi accordo può creare un'esposizione giuridica.
+
+**Guida:** Esatto: è proprio per questo che i proprietari devono pensare al rischio da fatto illecito, non solo a quello contrattuale.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un illecito civile è:
+
+A) Un tipo di contratto
+B) Un torto civile che causa un danno, indipendentemente da qualsiasi contratto
+C) Rilevante solo per il diritto penale
+D) La stessa cosa di un inadempimento contrattuale
+
+**Domanda 2.** In che cosa una pretesa per fatto illecito differisce da una pretesa contrattuale?
+
+A) Sono identiche
+B) Un illecito può sorgere tra parti che non hanno alcun contratto tra loro
+C) Gli illeciti riguardano solo le imprese
+D) I contratti non comportano mai un danno reale
+
+**Domanda 3.** Condizioni pericolose in una proprietà che feriscono un visitatore senza contratto con il proprietario sono un esempio di:
+
+A) Una controversia contrattuale
+B) Una possibile pretesa per fatto illecito
+C) Né un illecito né una questione contrattuale
+D) Solo una questione penale
+
+**Domanda 4.** Perché questa distinzione conta per chi opera in RED e BLUE?
+
+A) Non conta affatto
+B) Il rischio giuridico non si limita alle promesse infrante: anche un danno al di fuori di qualsiasi accordo può creare responsabilità
+C) Conta solo il rischio contrattuale
+D) Gli illeciti riguardano solo WHITE
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Gli illeciti riguardano fondamentalmente il causare un danno, non gli accordi infranti.
+
+**2.** È proprio l'assenza di un contratto che distingue molti casi di illecito dalle controversie contrattuali.
+
+**3.** Questo caso è un esempio classico di responsabilità per fatto illecito senza alcun rapporto contrattuale.
+
+**4.** Riconoscere questo panorama di responsabilità più ampio completa il quadro del rischio giuridico per proprietari e imprenditori.
+
+## Punti chiave
+
+- Un illecito civile è un torto che causa un danno, distinto da un contratto infranto.
+- Gli illeciti possono sorgere anche tra parti senza alcun contratto.
+- Proprietari e imprenditori affrontano un rischio da fatto illecito separato da qualsiasi rischio contrattuale.
+- La cultura giuridica include la comprensione della responsabilità basata sul danno, non solo di quella basata sugli accordi.
+
+===== PURPLE-L1-009
+TITLE: Diritto civile e diritto penale: perché la distinzione conta
+SUMMARY: Chiarisce la distinzione fondamentale tra diritto civile e penale e perché questo programma si concentra quasi interamente sul lato civile.
+# Diritto civile e diritto penale: perché la distinzione conta
+
+## Obiettivi di apprendimento
+
+- Distinguere il diritto civile dal diritto penale.
+- Spiegare le diverse conseguenze e i diversi standard di prova.
+- Riconoscere perché l'ambito di PURPLE è soprattutto civile e non penale.
+
+## Contenuto principale
+
+Il diritto civile regola le controversie tra privati – inadempimenti contrattuali, illeciti, controversie sulla proprietà –, in cui il rimedio tipico è denaro o un ordine del giudice, non la reclusione. Il diritto penale regola i reati contro la società stessa, perseguiti dallo Stato, con conseguenze che possono includere multe e reclusione. I due sistemi differiscono anche nello standard di prova: nei processi penali la colpevolezza deve essere provata “oltre ogni ragionevole dubbio”, uno standard molto elevato, mentre nelle cause civili si usa in genere uno standard più basso, spesso quello della “preponderanza della prova” (più probabile che non). (In Italia il codice di procedura penale prevede la condanna solo se la colpevolezza è provata oltre ogni ragionevole dubbio; nel processo civile valgono regole proprie sull'onere della prova. Verifica i dettagli con un professionista.)
+
+Quasi tutto ciò che questo percorso PURPLE tratta – contratti, diritto immobiliare, regolamentazione dei mercati finanziari, forme d'impresa – sta dal lato civile di questa distinzione. È voluto: i rischi giuridici più direttamente rilevanti per costruire ricchezza con immobili, investimenti e impresa sono rischi civili (essere citati in giudizio, perdere un affare, subire sanzioni amministrative), non penali. Il diritto penale conta, ma è un ambito diverso e più specialistico, e un serio rischio penale è proprio il tipo di situazione che richiede subito una difesa legale dedicata, non una cultura generale.
+
+## Esempio svolto
+
+**Domanda:** Un imprenditore viene citato in giudizio da un ex cliente per una controversia contrattuale. È una questione civile o penale, e perché la distinzione conta nella pratica?
+
+**Studente:** Secondo questa lezione, è una questione civile: una controversia privata su un contratto, non un reato perseguito dallo Stato.
+
+**Guida:** In che modo questo incide su ciò che è davvero in gioco per l'imprenditore?
+
+**Studente:** La conseguenza tipica sarebbe denaro o un ordine del giudice, non la reclusione, e lo standard di prova che il cliente dovrebbe soddisfare è più basso di quello penale “oltre ogni ragionevole dubbio”.
+
+**Guida:** Esatto: capire in quale sistema ti trovi cambia ciò che è realisticamente in gioco e quale standard si applica.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il diritto civile regola in genere:
+
+A) Reati contro la società, perseguiti dallo Stato
+B) Controversie tra privati, risolte di solito con denaro o ordini del giudice
+C) Solo questioni penali
+D) Nessuna vera controversia giuridica
+
+**Domanda 2.** Lo standard di prova del diritto penale è di solito:
+
+A) Più basso di quello civile
+B) “Oltre ogni ragionevole dubbio”, uno standard molto elevato
+C) Identico a quello civile
+D) Non applicabile in alcun ordinamento
+
+**Domanda 3.** La maggior parte di ciò che PURPLE tratta rientra nel:
+
+A) Diritto penale
+B) Diritto civile
+C) Né diritto civile né penale
+D) Solo diritto internazionale
+
+**Domanda 4.** Perché questo percorso si concentra soprattutto sul diritto civile?
+
+A) Il diritto penale è irrilevante per tutti
+B) I rischi giuridici più rilevanti per costruire ricchezza con RED, WHITE e BLUE sono rischi civili
+C) Il diritto civile in realtà non esiste
+D) Non viene indicata alcuna ragione significativa
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il diritto civile si occupa di controversie private con rimedi di solito limitati a denaro o ordini del giudice, non alla detenzione.
+
+**2.** Lo standard penale più elevato riflette la gravità delle possibili conseguenze, fino alla perdita della libertà.
+
+**3.** Contratti, proprietà, strumenti finanziari e forme d'impresa – i contenuti centrali di questo percorso – sono tutti temi di diritto civile.
+
+**4.** Poiché è il rischio civile a minacciare più direttamente le attività di costruzione della ricchezza, è lì che va concentrata la cultura giuridica di questo percorso.
+
+## Punti chiave
+
+- Il diritto civile regola le controversie private; il diritto penale regola i reati contro la società.
+- Lo standard di prova del diritto penale è molto più elevato di quello civile.
+- PURPLE si concentra quasi interamente sul diritto civile, direttamente rilevante per RED, WHITE e BLUE.
+- Un serio rischio penale richiede subito una difesa legale dedicata, oltre l'ambito di questo percorso.
+
+===== PURPLE-L1-010
+TITLE: L'analogia del medico rivista: quando chiamare un avvocato
+SUMMARY: Applica l'analogia del medico propria di questo programma alle situazioni giuridiche, offrendo segnali concreti di quando serve un aiuto legale professionale.
+# L'analogia del medico rivista: quando chiamare un avvocato
+
+## Obiettivi di apprendimento
+
+- Richiamare l'analogia del medico e applicarla specificamente alle decisioni giuridiche.
+- Identificare segnali concreti che una situazione richiede un avvocato.
+- Rafforzare l'idea che cultura giuridica e assistenza legale sono complementari, non sostitutive.
+
+## Contenuto principale
+
+Questo programma ha usato più volte l'analogia del medico: quando qualcosa è complesso, ad alto rischio o incerto, la parcella di un professionista è un'assicurazione contro un danno molto più grande, non solo un costo da evitare. In nessun ambito questo vale più direttamente che nel diritto. Gli errori giuridici – un contratto redatto male, un obbligo di informativa trascurato, una società costituita in modo scorretto – possono essere straordinariamente costosi da correggere a posteriori, molto più del costo di fare le cose bene fin dall'inizio.
+
+Segnali concreti che una situazione richiede un avvocato includono: qualsiasi operazione che coinvolga somme importanti (l'acquisto di un immobile, la vendita di un'impresa), qualsiasi documento che non capisci pienamente prima di firmarlo, la costituzione o la riorganizzazione di una società, una vera controversia o causa in corso e qualsiasi situazione in cui l'approccio “standard” non si adatta del tutto ai tuoi fatti specifici. Come nelle lezioni precedenti su questo tema, l'obiettivo di PURPLE non è renderti avvocato di te stesso, ma un cliente più attento e informato: qualcuno capace di fare domande migliori, capire i consigli che riceve e riconoscere presto quando una situazione è entrata nel territorio dell'aiuto professionale.
+
+## Esempio svolto
+
+**Domanda:** Qualcuno redige da solo il contratto di acquisto di un immobile da diverse centinaia di migliaia di euro usando un modello trovato online, senza alcuna revisione legale. Che cosa suggerisce questa lezione su questo approccio?
+
+**Studente:** Secondo questa lezione, un'operazione con somme così importanti è proprio il tipo di situazione che richiede una revisione legale professionale, non solo un modello generico.
+
+**Guida:** Qual è il vero confronto di costi in gioco qui?
+
+**Studente:** Il costo della revisione di un avvocato all'inizio contro il costo potenzialmente molto più alto di un errore giuridico scoperto in seguito, quando ormai sono coinvolti soldi veri e un immobile vero.
+
+**Guida:** Esatto: è l'analogia del medico applicata direttamente a questa situazione.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'analogia del medico applicata al diritto suggerisce:
+
+A) Non incaricare mai un avvocato
+B) La parcella di un avvocato è un'assicurazione contro un danno potenzialmente molto più grande
+C) Solo le persone ricche hanno bisogno di avvocati
+D) Gli errori giuridici sono sempre economici da correggere
+
+**Domanda 2.** Un segnale concreto che una situazione richiede un avvocato è:
+
+A) Qualsiasi operazione che coinvolga somme importanti
+B) Nessuno: gli avvocati non servono mai
+C) Solo le questioni penali
+D) Solo le controversie già arrivate in tribunale
+
+**Domanda 3.** Secondo questa lezione, qual è l'obiettivo dichiarato di PURPLE?
+
+A) Rendere chi impara avvocato di sé stesso
+B) Rendere chi impara un cliente più attento e informato
+C) Eliminare del tutto il bisogno di avvocati
+D) Insegnare solo il diritto penale
+
+**Domanda 4.** Lo schema di questa lezione riprende quale tema precedente del programma?
+
+A) La rivelazione dei sistemi
+B) L'analogia del medico
+C) La relatività del successo
+D) Il paradosso della scelta
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La logica centrale dell'assicurazione contro un danno maggiore vale in modo particolare per il rischio giuridico, visto quanto possono costare gli errori.
+
+**2.** Le operazioni finanziarie importanti sono indicate esplicitamente come un chiaro motivo per una revisione legale professionale.
+
+**3.** L'obiettivo dichiarato in tutto il percorso è la cultura e un comportamento informato da cliente, non il fai-da-te giuridico.
+
+**4.** È una ripresa diretta ed esplicita dell'analogia del medico introdotta prima nel programma, applicata alle decisioni giuridiche.
+
+## Punti chiave
+
+- L'analogia del medico vale direttamente per il diritto: le parcelle dei professionisti sono un'assicurazione contro un danno maggiore.
+- Operazioni importanti, documenti sconosciuti, costituzione di società e controversie sono tutti segnali chiari per chiamare un avvocato.
+- PURPLE punta a renderti un cliente più attento e informato, non un sostituto dell'assistenza legale.
+- Questo chiude la sezione di base prima che il percorso passi ai temi giuridici specifici di RED, WHITE e BLUE.
