@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-026
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 26
-title: "Gli Onorari degli Avvocati — Strutture Comuni"
-summary: "Gli Onorari degli Avvocati — Strutture Comuni"
-locale: "it"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: it
+title: "Urbanistica: che cosa puoi e non puoi fare con un immobile"
+summary: "Introduce l'urbanistica (zoning) come limitazione pubblica all'uso degli immobili, rilevante sia per l'uso attuale sia per i futuri progetti di sviluppo in RED."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-026: Gli Onorari degli Avvocati — Strutture Comuni
 
-## Obiettivi di Apprendimento
-1. Riconoscere strutture comuni di onorari degli avvocati.
-2. Spiegare cos'è un accordo a "compenso condizionato".
-3. Riconoscere una situazione tipica in cui viene usata ciascuna struttura.
+# Urbanistica: che cosa puoi e non puoi fare con un immobile
 
-## Contenuto Principale
-*FATTO VERIFICATO:* Le strutture comuni di onorari degli avvocati includono la tariffa oraria (il cliente paga per ogni ora di lavoro dell'avvocato), l'importo fisso (una somma concordata una tantum per un servizio specifico), e il compenso condizionato (l'avvocato viene pagato solo se vince la causa, generalmente ricevendo una percentuale del risarcimento ottenuto).
+## Obiettivi di apprendimento
 
-*SUPPOSIZIONE:* Gli accordi a compenso condizionato sono comunemente usati nei casi di lesioni personali, poiché permettono a chi non ha risorse economiche immediate per pagare gli onorari in anticipo di accedere comunque a rappresentanza legale, con l'avvocato che assume il rischio di non ricevere nulla se la causa non ha successo.
+- Definire in termini semplici la zonizzazione urbanistica.
+- Spiegare lo scopo generale delle norme urbanistiche.
+- Riconoscere perché l'urbanistica conta sia per l'uso attuale sia per i progetti di sviluppo.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Qualcuno che ha bisogno di redigere un testamento semplice potrebbe pagare in anticipo un importo fisso concordato, poiché la portata del lavoro è prevedibile. Qualcuno invece ferito in un incidente d'auto senza denaro disponibile per pagare gli onorari legali in anticipo potrebbe assumere un avvocato con un accordo a compenso condizionato, con l'avvocato che riceve una percentuale solo se viene ottenuto un risarcimento.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è la tariffa oraria?
-2. Cos'è un accordo a compenso condizionato?
-3. Vero/Falso: Con un accordo a compenso condizionato, il cliente paga generalmente onorari indipendentemente dall'esito.
-4. In quale tipo di causa vengono comunemente usati gli accordi a compenso condizionato?
+La zonizzazione (in inglese “zoning”) è una regolamentazione dell'amministrazione locale che divide il territorio in categorie designate (residenziale, commerciale, industriale, mista, ecc.) che limitano che cosa si può legalmente costruire o esercitare su un determinato immobile. È una limitazione imposta dall'autorità pubblica al concetto di fascio di diritti visto prima: anche la piena proprietà non comprende un diritto illimitato di usare il terreno come il proprietario desidera, perché l'urbanistica stabilisce che cosa è effettivamente consentito. (In Italia queste regole derivano soprattutto dagli strumenti urbanistici comunali, come il piano regolatore; costruzioni e cambi di destinazione d'uso richiedono spesso un titolo edilizio, e le deroghe sono possibili solo nei casi previsti.)
 
-## Chiave delle Risposte
-1. Il cliente paga per ogni ora di lavoro dell'avvocato   2. L'avvocato viene pagato solo se vince la causa, generalmente una percentuale del risarcimento   3. Falso   4. Casi di lesioni personali
+L'urbanistica conta per gli investitori del percorso RED in due modi pratici distinti. Primo, per l'uso attuale: un immobile in zona residenziale in genere non può essere usato legalmente per un'attività manifatturiera, qualunque cosa preferisca il proprietario. Secondo, e spesso trascurato, per i progetti futuri: un investitore che intende ristrutturare, ampliare o cambiare la destinazione d'uso di un immobile deve verificare che il progetto sia effettivamente consentito dall'urbanistica vigente, oppure chiedere una deroga (in inglese “variance”, un'eccezione specifica a volte difficile da ottenere) se non lo è. Un immobile che sulla carta sembra perfetto può diventare un problema costoso se l'uso previsto non corrisponde alla sua effettiva destinazione urbanistica, ed è proprio per questo che la verifica urbanistica va fatta all'inizio della due diligence, non scoperta come un ripensamento dopo l'acquisto.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale della tariffa oraria.
-2. Questa è la definizione fondamentale di un accordo a compenso condizionato.
-3. Con il compenso condizionato, l'avvocato generalmente non viene pagato se la causa non ha successo.
-4. I casi di lesioni personali sono comunemente citati come l'uso tipico di questo accordo.
+## Esempio svolto
 
-## Punti Chiave da Ricordare
-- Le strutture comuni di onorari includono la tariffa oraria, l'importo fisso, e il compenso condizionato.
-- Un accordo a compenso condizionato significa che l'avvocato viene pagato solo se vince la causa.
-- Gli accordi a compenso condizionato sono comunemente usati nei casi di lesioni personali.
+**Domanda:** Un investitore compra un immobile in zona residenziale con l'idea di trasformarlo in un piccolo negozio, senza verificare prima le regole urbanistiche. Quale rischio illustra questo?
+
+**Studente:** Secondo questa lezione, la destinazione urbanistica dell'immobile potrebbe non consentire l'uso commerciale, il che potrebbe significare che il progetto dell'investitore non è legalmente permesso senza una deroga, sempre che sia ottenibile.
+
+**Guida:** Quando avrebbe dovuto avvenire questa verifica, secondo questa lezione?
+
+**Studente:** All'inizio della due diligence, prima dell'acquisto, invece di scoprirla dopo come un problema costoso.
+
+**Guida:** Esatto: la verifica urbanistica va fatta all'inizio del processo, non come un ripensamento.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La zonizzazione urbanistica è:
+
+A) Una regola fiscale nazionale
+B) Una regolamentazione dell'amministrazione locale che limita che cosa si può costruire o esercitare su un terreno
+C) Un tipo di atto
+D) Irrilevante per l'uso degli immobili
+
+**Domanda 2.** L'urbanistica rappresenta una limitazione di:
+
+A) Nulla che riguardi la proprietà
+B) Il concetto di fascio di diritti: anche la proprietà non comprende diritti d'uso illimitati
+C) Solo gli immobili in affitto
+D) Solo gli immobili commerciali
+
+**Domanda 3.** L'urbanistica conta per gli investitori del percorso RED in quali due modi?
+
+A) Solo per l'uso attuale, mai per i progetti futuri
+B) Per l'uso legale attuale e per i progetti futuri di sviluppo o di cambio di destinazione
+C) Né per l'uso attuale né per i progetti futuri
+D) Solo per il trattamento fiscale
+
+**Domanda 4.** Quando dovrebbe idealmente avvenire la verifica urbanistica?
+
+A) Dopo l'acquisto, quando sorge un problema
+B) All'inizio della due diligence, prima dell'acquisto
+C) La verifica urbanistica non è mai necessaria
+D) Solo dopo l'inizio dei lavori
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'urbanistica è proprio uno strumento pubblico per regolare le categorie di uso consentite del territorio.
+
+**2.** Questo limita direttamente i diritti d'uso, altrimenti ampi, compresi nel fascio della proprietà.
+
+**3.** Entrambe le dimensioni – ciò che è consentito ora e ciò che è consentito per i progetti futuri – hanno un peso pratico reale per gli investitori.
+
+**4.** Anticipare questa verifica evita la sorpresa costosa di un acquisto inutilizzabile o vincolato.
+
+## Punti chiave
+
+- La zonizzazione è una regolamentazione dell'amministrazione locale che limita l'uso consentito del territorio.
+- L'urbanistica limita anche i diritti d'uso della piena proprietà, secondo il concetto di fascio di diritti.
+- Conta sia per l'uso legale attuale sia per i progetti futuri di sviluppo o di cambio di destinazione.
+- La verifica urbanistica va fatta all'inizio della due diligence, non scoperta come problema dopo l'acquisto.

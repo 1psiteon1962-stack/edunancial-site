@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-043
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 43
-title: "Geheimhoudingsovereenkomsten (NDA)"
-summary: "Geheimhoudingsovereenkomsten (NDA)"
-locale: "nl"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: nl
+title: "Trusts: juridische instrumenten om bezittingen te houden en te beschermen"
+summary: "Introduceert het algemene begrip trust als juridisch instrument om bezittingen te houden, met een verbinding met zowel het thema vermogensbescherming als de nalatenschapsplanning van GOLD."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-043: Geheimhoudingsovereenkomsten (NDA)
+
+# Trusts: juridische instrumenten om bezittingen te houden en te beschermen
 
 ## Leerdoelen
-1. Een geheimhoudingsovereenkomst in algemene bewoordingen definiëren.
-2. Een eenzijdige NDA onderscheiden van een wederzijdse NDA.
-3. Een gangbare situatie uitleggen waarin een NDA wordt gebruikt.
+
+- Een trust in algemene termen definiëren.
+- De algemene rollen uitleggen (insteller, trustee, begunstigde).
+- Trusts verbinden met zowel vermogensbescherming als nalatenschapsplanning.
 
 ## Kerninhoud
-*GEVERIFIEERD FEIT:* Een geheimhoudingsovereenkomst (vaak "NDA" genoemd, van het Engelse "non-disclosure agreement") is een contract waarbij een of meer partijen overeenkomen bepaalde informatie vertrouwelijk te houden en deze niet zonder toestemming aan derden bekend te maken.
 
-*AANNAME:* Een **eenzijdige** NDA houdt doorgaans in dat slechts één partij vertrouwelijke informatie deelt, waarbij de geheimhoudingsplicht uitsluitend bij de andere partij ligt, terwijl een **wederzijdse** NDA doorgaans inhoudt dat beide partijen vertrouwelijke informatie met elkaar delen, waarbij beide tot geheimhouding verplicht zijn.
+Een trust is een juridische regeling waarbij één partij (de insteller, in het Engels "settlor" of "grantor") bezittingen overdraagt die worden gehouden en beheerd door een andere partij (de trustee) ten behoeve van een derde partij (de begunstigde), volgens de voorwaarden die de insteller heeft vastgelegd. Trusts dienen meerdere juridische doelen die relevant zijn voor dit lesprogramma: sommige structuren bieden een zekere mate van vermogensbescherming, doordat ze juridische eigendom scheiden van persoonlijke eigendom op manieren die bezittingen kunnen afschermen tegen bepaalde toekomstige vorderingen; andere dienen vooral als instrument voor nalatenschapsplanning, met een directe verbinding met de begrippen van vermogensplanning uit het deel Doorgeven van GOLD. (Nederland en België kennen zelf geen trust zoals in de common law, maar erkennen buitenlandse trusts onder voorwaarden op grond van het Haagse Trustverdrag; in de praktijk worden soms andere structuren gebruikt, zoals een stichting. Laat dit door een professional controleren.)
 
-## Praktisch Voorbeeld
-*PRAKTISCH VOORBEELD:* Een bedrijf dat een externe consultant inhuurt om zijn vertrouwelijke bedrijfsplannen te beoordelen, zou deze doorgaans vragen een eenzijdige NDA te ondertekenen, aangezien alleen het bedrijf gevoelige informatie deelt. Twee bedrijven die een mogelijke fusie onderzoeken en vertrouwelijke financiële informatie met elkaar moeten delen, zouden daarentegen doorgaans een wederzijdse NDA ondertekenen, aangezien beide partijen gevoelige informatie onthullen.
+De specifieke juridische gevolgen, beschermingen en eisen van verschillende soorten trusts verschillen enorm per rechtsgebied en per soort trust: dit is echt complex juridisch terrein, complexer dan de meeste andere onderwerpen in dit traject, en een duidelijk geval waarin professionele begeleiding nodig is in plaats van doe-het-zelf. De praktische boodschap op dit niveau van juridische geletterdheid is herkennen wat een trust structureel is (een regeling met drie partijen die juridische eigendom en economisch genot scheidt) en dat het een echt, legitiem instrument is dat het waard is met een professional te bespreken, zowel voor vermogensbescherming als voor nalatenschapsplanning, en geen mysterieus begrip dat alleen voor rijken is weggelegd.
 
-## Praktische Toets
-1. Wat is een geheimhoudingsovereenkomst (NDA)?
-2. Wat is een eenzijdige NDA?
-3. Waar/Onwaar: Bij een wederzijdse NDA heeft slechts één partij de geheimhoudingsplicht.
-4. In het fusievoorbeeld — waarom zou een wederzijdse NDA worden gebruikt?
+## Praktijkvoorbeeld
+
+**Vraag:** Iemand gaat ervan uit dat trusts alleen relevant zijn voor extreem rijke mensen en wijst het idee af om er ooit met een professional over te praten. Wat zegt deze les over die aanname?
+
+**Cursist:** Volgens deze les is die niet helemaal juist: trusts worden beschreven als een echt, legitiem instrument voor vermogensbescherming en nalatenschapsplanning, niet als een begrip dat alleen voor rijken is weggelegd.
+
+**Begeleider:** Waarom benadrukt deze les professionele begeleiding juist bij trusts zo sterk, meer dan bij sommige andere onderwerpen in dit traject?
+
+**Cursist:** Omdat trustrecht wordt beschreven als echt complex en sterk afhankelijk van het rechtsgebied, meer dan de meeste andere onderwerpen, wat het een duidelijk geval maakt voor professionele uitvoering in plaats van het zelf te proberen.
+
+**Begeleider:** Precies: het instrument herkennen en weten wanneer je een professional inschakelt, is hier het echte doel van juridische geletterdheid.
+
+## Oefenquiz
+
+**Vraag 1.** Een trust is:
+
+A) Alleen een soort ondernemingsvorm
+B) Een juridische regeling waarbij een insteller bezittingen overdraagt aan een trustee die ze houdt ten behoeve van een begunstigde
+C) Hetzelfde als een testament
+D) Irrelevant voor vermogensbescherming of nalatenschap
+
+**Vraag 2.** De drie algemene rollen in een trust zijn:
+
+A) Koper, verkoper en geldverstrekker
+B) Insteller, trustee en begunstigde
+C) Verhuurder, huurder en agent
+D) Eiser, gedaagde en rechter
+
+**Vraag 3.** Hoe verbindt deze les trusts met eerdere inhoud van het lesprogramma?
+
+A) Er is geen verband
+B) Met zowel de thema's van vermogensbescherming in dit traject als de begrippen van nalatenschapsplanning in GOLD
+C) Alleen met vastgoedrecht
+D) Alleen met effectenrecht
+
+**Vraag 4.** Waarom benadrukt deze les in het bijzonder professionele begeleiding bij trusts?
+
+A) Trusts vragen helemaal geen complexiteit of echte begeleiding
+B) Trustrecht is echt complex en sterk afhankelijk van het rechtsgebied, meer dan de meeste andere onderwerpen in dit traject
+C) Trusts zijn onrechtmatig zonder aanwezigheid van een advocaat
+D) Deze les benadrukt geen professionele begeleiding
 
 ## Antwoordsleutel
-1. Een contract waarbij de partijen overeenkomen bepaalde informatie vertrouwelijk te houden   2. Slechts één partij deelt informatie, en alleen de andere partij heeft de geheimhoudingsplicht   3. Onwaar   4. Omdat beide bedrijven gevoelige informatie met elkaar delen
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een geheimhoudingsovereenkomst.
-2. Dit is de fundamentele definitie van een eenzijdige NDA.
-3. Bij een wederzijdse NDA hebben doorgaans beide partijen de geheimhoudingsplicht.
-4. Dat beide partijen gevoelige informatie delen is de algemene reden om een wederzijdse NDA te gebruiken.
+1. B, 2. B, 3. B, 4. B
 
-## Belangrijkste Punten om te Onthouden
-- Een NDA is een contract waarbij de partijen overeenkomen bepaalde informatie vertrouwelijk te houden.
-- Een eenzijdige NDA houdt in dat slechts één partij informatie deelt; een wederzijdse NDA houdt in dat beide dat doen.
-- De keuze tussen beide hangt doorgaans af van wie gevoelige informatie deelt in de relatie.
+## Antwoorden en uitleg
+
+**1.** Deze structuur met drie partijen, die juridische eigendom en economisch genot scheidt, is het bepalende kenmerk van een trust.
+
+**2.** Deze drie rollen bepalen de structurele basisrelatie in het hart van elke trust.
+
+**3.** Deze les verbindt trusts bewust met zowel het thema vermogensbescherming hier als de inhoud over nalatenschapsplanning eerder in GOLD.
+
+**4.** De les markeert dit terrein uitdrukkelijk als ongewoon complex, wat bijzondere voorzichtigheid en professionele begeleiding rechtvaardigt.
+
+## Belangrijkste punten
+
+- Een trust is een juridische regeling met drie partijen: insteller, trustee en begunstigde.
+- Trusts kunnen dienen voor zowel vermogensbescherming als nalatenschapsplanning.
+- Dit sluit rechtstreeks aan bij de inhoud over vermogensplanning eerder in GOLD.
+- Trustrecht is echt complex en afhankelijk van het rechtsgebied, wat professionele begeleiding hier bijzonder belangrijk maakt.

@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-037
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 37
-title: "O Casamento e as Uniões Legais"
-summary: "O Casamento e as Uniões Legais"
-locale: "pt-BR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-BR
+title: "Sinais de alerta de fraude em investimentos: a perspectiva da alfabetização jurídica"
+summary: "Reúne a seção de direito do mercado de capitais em uma lista prática de sinais de alerta jurídicos de possível fraude, encerrando a parte da trilha ligada a WHITE."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-037: O Casamento e as Uniões Legais
 
-## Objetivos de Aprendizagem
-1. Identificar requisitos gerais comuns para um casamento legal.
-2. Explicar o conceito geral de bens do casal.
-3. Reconhecer que as formas de união legal variam conforme o sistema jurídico.
+# Sinais de alerta de fraude em investimentos: a perspectiva da alfabetização jurídica
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* Os requisitos específicos para o casamento e outras uniões legais variam significativamente conforme o país; esta lição descreve apenas conceitos gerais.
+## Objetivos de aprendizagem
 
-*FATO VERIFICADO:* O casamento é uma união legalmente reconhecida entre pessoas que geralmente cria direitos e obrigações mútuos, incluindo frequentemente direitos relacionados a propriedade, herança, e decisões médicas.
+- Identificar sinais de alerta jurídicos comuns de fraude em investimentos.
+- Ligar esses sinais aos conceitos jurídicos vistos antes nesta seção.
+- Reforçar o propósito prático e protetor da alfabetização jurídica desta seção.
 
-*SUPOSIÇÃO:* Muitos sistemas jurídicos geralmente reconhecem o conceito de "bens do casal" — bens adquiridos durante o casamento geralmente considerados propriedade conjunta de ambos os cônjuges, independentemente de em nome de quem estejam formalmente registrados —, embora as regras específicas sobre o que conta como bem do casal variem.
+## Conteúdo principal
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Se um casal se casa e um dos cônjuges compra uma casa durante o casamento usando renda obtida nesse período, esse bem geralmente poderia ser considerado bem do casal em muitos sistemas jurídicos, mesmo que o título esteja apenas em nome de um dos cônjuges — o que geralmente se torna relevante se o casal mais tarde se divorciar e os bens precisarem ser divididos.
+Esta lição encerra a seção de direito do mercado de capitais reunindo uma lista prática de sinais de alerta jurídicos, cada um ligado diretamente a um conceito visto antes. A relutância ou a recusa em fornecer os documentos normais de divulgação se liga às lições sobre divulgação: ofertas legítimas costumam fornecer essas informações sem problema, porque são obrigadas a isso. Retornos altos garantidos sem nenhum risco real contrariam a realidade básica de que risco e retorno estão ligados, e deveriam despertar ceticismo, por mais segura que a proposta pareça. A pressão para investir rápido, sem tempo para verificar, vai contra todo o processo de diligência prévia que esta seção enfatizou. (No Brasil, esquemas de pirâmide financeira e ofertas sem registro são exemplos frequentes; a CVM mantém alertas públicos que vale consultar.)
 
-## Questionário Prático
-1. O que é o casamento, em termos jurídicos gerais?
-2. O que geralmente são os "bens do casal"?
-3. Verdadeiro/Falso: Os requisitos para o casamento são idênticos em todos os países.
-4. No exemplo da casa, por que ela poderia ser considerada bem do casal mesmo que o título esteja em nome de um só cônjuge?
+Afirmações vagas ou não verificáveis sobre como os retornos são de fato gerados, a relutância em explicar se a oportunidade está estruturada juridicamente como valor mobiliário e quais exigências de acesso se aplicam, e um assessor que não deixa claro se atua sob um padrão fiduciário ou de adequação são todos sinais de alerta ligados diretamente a conceitos jurídicos específicos desta seção. Nenhum desses sinais garante, sozinho, uma fraude, mas reconhecê-los é exatamente o propósito da alfabetização jurídica: não se tornar um advogado especialista em mercado de capitais, mas desenvolver o reconhecimento de padrões para saber quando uma situação pede para desacelerar, fazer perguntas mais afiadas e envolver um profissional antes de comprometer dinheiro.
+
+## Exemplo prático
+
+**Pergunta:** Um investidor é pressionado a comprometer dinheiro em 24 horas em uma oportunidade com retorno garantido, enquanto o promotor reluta em compartilhar os documentos normais de divulgação. Quantos sinais de alerta distintos desta seção isso ilustra?
+
+**Aluno:** Com base nesta lição, pelo menos três: a pressão para investir rápido, a promessa de retorno garantido e a relutância em fornecer documentos de divulgação, todos citados explicitamente como sinais de alerta ligados a conceitos anteriores.
+
+**Guia:** O que a lista desta seção busca, no fim, desenvolver no aluno, em vez de torná-lo um especialista jurídico?
+
+**Aluno:** O reconhecimento de padrões: a capacidade de perceber quando uma situação pede para desacelerar e buscar revisão profissional, em vez de virar especialista em direito do mercado de capitais.
+
+**Guia:** Exatamente: esse é o objetivo prático de toda esta seção de alfabetização jurídica.
+
+## Teste de prática
+
+**Pergunta 1.** A relutância em fornecer os documentos normais de divulgação se liga a qual lição anterior?
+
+A) Zoneamento
+B) As lições sobre obrigações de divulgação
+C) Noções de execução de garantia
+D) Direito locatício
+
+**Pergunta 2.** A promessa de "retorno alto garantido, sem nenhum risco real" deveria despertar:
+
+A) Investimento imediato
+B) Ceticismo, porque risco e retorno estão ligados na essência
+C) Nenhuma reação especial
+D) A convicção de que a promessa é certamente verdadeira
+
+**Pergunta 3.** A pressão para investir rápido, sem tempo para verificar, vai contra:
+
+A) Nada relevante
+B) O processo de diligência prévia enfatizado em toda esta seção
+C) Apenas considerações de zoneamento
+D) O direito locatício
+
+**Pergunta 4.** O que esta lista busca, no fim, desenvolver, segundo esta lição?
+
+A) Especialização jurídica formal em direito do mercado de capitais
+B) Reconhecimento de padrões para saber quando desacelerar e buscar revisão profissional
+C) Evitar totalmente toda oportunidade de investimento
+D) Nada prático
 
 ## Gabarito
-1. Uma união legalmente reconhecida que cria direitos e obrigações mútuos   2. Bens adquiridos durante o casamento, geralmente considerados propriedade conjunta   3. Falso   4. Porque foi adquirida durante o casamento usando renda obtida nesse período
 
-## Respostas e Explicações
-1. Esta é a definição geral do casamento em termos jurídicos.
-2. Esta é a definição geral comumente citada dos bens do casal.
-3. Os requisitos para o casamento variam significativamente conforme o país.
-4. Este é o princípio geral por trás do conceito de bens do casal.
+1. B, 2. B, 3. B, 4. B
 
-## Principais Pontos a Lembrar
-- O casamento é uma união legal que cria direitos e obrigações mútuos.
-- Os bens do casal geralmente são propriedade conjunta, independentemente de em nome de quem estejam registrados.
-- Os requisitos e regras específicas variam significativamente conforme o sistema jurídico.
+## Respostas e explicações
+
+**1.** Esse sinal de alerta reflete diretamente as lições anteriores sobre a importância jurídica da divulgação obrigatória.
+
+**2.** A relação fundamental entre risco e retorno torna intrinsecamente suspeitas as promessas de retornos altos sem risco.
+
+**3.** Decisões apressadas minam o processo de verificação cuidadosa que esta seção enfatizou de forma constante.
+
+**4.** O reconhecimento prático de padrões, e não a especialização jurídica formal, é citado explicitamente como o objetivo real desta seção.
+
+## Pontos-chave
+
+- Esta lição final liga os conceitos jurídicos anteriores em uma lista prática de sinais de alerta de fraude.
+- Divulgação relutante, retornos garantidos e pressão para agir rápido remetem todos diretamente a lições anteriores.
+- Nenhum sinal garante fraude, mas reconhecer padrões é o propósito prático da alfabetização jurídica.
+- Isso encerra a seção de direito do mercado de capitais, ligando-se diretamente às decisões de investimento da trilha WHITE.

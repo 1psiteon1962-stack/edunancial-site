@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-032
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 32
-title: "Le Molestie sul Lavoro"
-summary: "Le molestie sul lavoro si riferiscono generalmente a una condotta indesiderata legata a una caratteristica tutelata, sufficientemente grave o frequente da creare un ambiente di lavoro ostile, o che comporta una decisione lavorativa pregiudizievole. SUPPOSIZIONE: Le molestie si distinguono generalmente da un semplice conflitto interpersonale perché sono legate a una caratteristica tutelata (come il sesso, la razza, o la religione) e raggiungono un livello di gravità o frequenza che va oltre le normali frizioni professionali."
-locale: "it"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: it
+title: "Perché esiste il diritto dei mercati finanziari: proteggere gli investitori"
+summary: "Spiega le ragioni storiche e pratiche della regolamentazione dei mercati finanziari, presentandola come infrastruttura di tutela degli investitori e non come burocrazia arbitraria."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-032: Le Molestie sul Lavoro
 
-## Obiettivi di Apprendimento
-1. Definire le molestie sul lavoro in termini generali.
-2. Distinguere le molestie da un semplice conflitto interpersonale sul lavoro.
-3. Riconoscere perché la documentazione è generalmente importante in questi casi.
+# Perché esiste il diritto dei mercati finanziari: proteggere gli investitori
 
-## Contenuto Principale
-Le molestie sul lavoro si riferiscono generalmente a una condotta indesiderata legata a una caratteristica tutelata, sufficientemente grave o frequente da creare un ambiente di lavoro ostile, o che comporta una decisione lavorativa pregiudizievole. *SUPPOSIZIONE:* Le molestie si distinguono generalmente da un semplice conflitto interpersonale perché sono legate a una caratteristica tutelata (come il sesso, la razza, o la religione) e raggiungono un livello di gravità o frequenza che va oltre le normali frizioni professionali.
+## Obiettivi di apprendimento
 
-*FATTO VERIFICATO:* La documentazione è comunemente raccomandata nei casi di possibile molestia, poiché registri scritti di incidenti, date, e testimoni rafforzano generalmente la capacità di una persona di dimostrare un modello di condotta se in seguito è necessario presentare un reclamo formale.
+- Spiegare la motivazione storica generale del diritto dei mercati finanziari.
+- Identificare il problema centrale che questo diritto affronta.
+- Collegarlo alla fiducia e alla partecipazione ai mercati in senso ampio.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un supervisore che fa regolarmente commenti sprezzanti sulla religione di un dipendente, creando un ambiente in cui quel dipendente si sente costantemente svalutato, starebbe probabilmente commettendo molestie legate a una caratteristica tutelata. Questo è diverso da un supervisore che è semplicemente esigente o difficile con tutti i dipendenti allo stesso modo, senza alcun legame con una caratteristica tutelata.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa sono le molestie sul lavoro, in termini generali?
-2. Cosa distingue generalmente le molestie da un semplice conflitto interpersonale?
-3. Vero/Falso: La documentazione generalmente non è importante nei casi di possibile molestia.
-4. Nell'esempio del supervisore, quale caratteristica era legata alla condotta molesta?
+Il diritto dei mercati finanziari non è nato dal nulla: si è sviluppato in gran parte come risposta a problemi storici reali, con investitori che perdevano somme significative a causa di schemi di investimento fraudolenti o ingannevoli, spesso perché non avevano alcun modo affidabile di verificare la reale situazione finanziaria di un'impresa o la veridicità delle affermazioni usate per attirare il loro denaro. Il problema centrale che questo diritto affronta è l'asimmetria informativa: l'impresa o il promotore che offre un investimento sa quasi sempre molto più dell'investitore a cui si chiede di mettere denaro sulla sua vera situazione e sui suoi rischi.
 
-## Chiave delle Risposte
-1. Condotta indesiderata legata a una caratteristica tutelata che crea un ambiente ostile   2. Il suo legame con una caratteristica tutelata e il suo livello di gravità o frequenza   3. Falso   4. La religione del dipendente
+Il diritto dei mercati finanziari affronta questo divario soprattutto con l'informativa obbligatoria: impone alle imprese che offrono strumenti finanziari di rendere pubbliche informazioni finanziarie e sui rischi specifiche e accurate, dando agli investitori una base reale per valutare un'opportunità invece di affidarsi solo alle affermazioni di un promotore. (Nell'Unione europea è previsto, tra l'altro, l'obbligo di prospetto per le offerte al pubblico; in Italia i prospetti sono approvati dalla Consob.) Questo si collega a qualcosa visto in WHITE: i mercati funzionano meglio, e più persone sono disposte a parteciparvi, quando c'è una fiducia di base nel fatto che le informazioni disponibili siano almeno ragionevolmente affidabili. In questo senso il diritto dei mercati finanziari è un'infrastruttura per un mercato degli investimenti funzionante: senza di esso, per qualsiasi investitore sarebbe ragionevole diffidare per principio di ogni affermazione, il che renderebbe i mercati molto meno utili per tutti.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione generale delle molestie sul lavoro.
-2. Questa è la distinzione generale comunemente citata.
-3. La documentazione è comunemente raccomandata per rafforzare un possibile reclamo.
-4. La religione era la caratteristica tutelata legata ai commenti del supervisore.
+## Esempio svolto
 
-## Punti Chiave da Ricordare
-- Le molestie sul lavoro implicano una condotta indesiderata legata a una caratteristica tutelata.
-- Si distinguono da un conflitto ordinario per il legame con una caratteristica tutelata e per la gravità.
-- Documentare gli incidenti è comunemente raccomandato per rafforzare un possibile futuro reclamo.
+**Domanda:** Qualcuno chiede perché esista la regolamentazione dei mercati finanziari, sostenendo che gli investitori dovrebbero semplicemente fare le proprie ricerche e accettare il rischio che ne deriva. Quale problema centrale individuato da questa lezione trascura questo argomento?
+
+**Studente:** Secondo questa lezione, il problema centrale è l'asimmetria informativa: gli investitori spesso non possono accedere da soli alle vere informazioni necessarie per valutare correttamente un'opportunità, per quante ricerche facciano.
+
+**Guida:** Perché l'informativa obbligatoria affronta direttamente questo problema?
+
+**Studente:** Perché impone alle imprese di condividere davvero pubblicamente informazioni specifiche e accurate, dando agli investitori una base reale di valutazione invece di affidarsi solo ad affermazioni non verificate.
+
+**Guida:** Esatto: “fai le tue ricerche” non funziona se le informazioni necessarie per quelle ricerche non sono affidabilmente disponibili.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il diritto dei mercati finanziari si è sviluppato in gran parte come risposta a:
+
+A) Nessun problema storico reale
+B) Casi storici reali di investitori che perdevano denaro a causa di schemi fraudolenti o ingannevoli
+C) Il desiderio di creare burocrazia inutile
+D) Solo preoccupazioni moderne dell'era di internet
+
+**Domanda 2.** Il problema centrale che questo diritto affronta è:
+
+A) Troppe informazioni disponibili
+B) L'asimmetria informativa tra imprese/promotori e investitori
+C) Un'eccessiva prudenza degli investitori
+D) L'assenza di qualsiasi problema reale
+
+**Domanda 3.** Questo diritto affronta il problema soprattutto attraverso:
+
+A) Il divieto di ogni investimento
+B) L'informativa obbligatoria di informazioni finanziarie e sui rischi specifiche e accurate
+C) L'eliminazione di ogni rischio di investimento
+D) L'obbligo per gli investitori di non avere alcuna informazione
+
+**Domanda 4.** Come collega questa lezione il diritto dei mercati finanziari al funzionamento più ampio dei mercati, secondo WHITE?
+
+A) Non c'è alcun collegamento
+B) Una fiducia di base nelle informazioni disponibili è ciò che rende le persone disposte a partecipare ai mercati
+C) I mercati funzionano meglio senza alcuna regolamentazione
+D) Questa lezione non ha alcun collegamento con WHITE
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Frodi e inganni storici sono citati esplicitamente come motivazione pratica di questo ambito del diritto.
+
+**2.** L'asimmetria informativa – lo squilibrio tra ciò che le imprese sanno e ciò che gli investitori possono verificare – è proprio il problema individuato.
+
+**3.** L'informativa obbligatoria colpisce direttamente il divario informativo imponendo alle imprese di condividere ciò che serve agli investitori per valutare il rischio.
+
+**4.** Questo lega la regolamentazione al tema più ampio della fiducia come infrastruttura dei mercati funzionanti, visto in WHITE.
+
+## Punti chiave
+
+- Il diritto dei mercati finanziari è nato in risposta a danni storici reali subiti dagli investitori per frodi e inganni.
+- Il problema centrale è l'asimmetria informativa tra imprese e investitori.
+- L'informativa obbligatoria è lo strumento principale che questo diritto usa per colmare il divario.
+- Questa regolamentazione funziona come infrastruttura di fiducia che rende possibile una partecipazione ampia ai mercati.

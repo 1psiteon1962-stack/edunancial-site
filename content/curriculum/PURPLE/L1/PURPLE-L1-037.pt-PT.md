@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-037
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 37
-title: "O Casamento e as Uniões Legais"
-summary: "O Casamento e as Uniões Legais"
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "Sinais de alerta de fraude em investimentos: a perspetiva da literacia jurídica"
+summary: "Reúne a secção de direito dos valores mobiliários numa lista prática de sinais de alerta jurídicos de possível fraude, encerrando a parte do percurso ligada a WHITE."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-037: O Casamento e as Uniões Legais
 
-## Objetivos de Aprendizagem
-1. Identificar requisitos gerais comuns para um casamento legal.
-2. Explicar o conceito geral dos bens do casal.
-3. Reconhecer que as formas de união legal variam consoante o ordenamento jurídico.
+# Sinais de alerta de fraude em investimentos: a perspetiva da literacia jurídica
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* Os requisitos específicos para o casamento e outras uniões legais variam significativamente consoante o país; esta lição descreve apenas conceitos gerais.
+## Objetivos de aprendizagem
 
-*FACTO VERIFICADO:* O casamento é uma união legalmente reconhecida entre pessoas que cria geralmente direitos e obrigações mútuos, incluindo frequentemente direitos relacionados com a propriedade, a herança, e as decisões médicas.
+- Identificar sinais de alerta jurídicos comuns de fraude em investimentos.
+- Ligar estes sinais aos conceitos jurídicos vistos antes nesta secção.
+- Reforçar o propósito prático e protetor da literacia jurídica desta secção.
 
-*SUPOSIÇÃO:* Muitos ordenamentos jurídicos reconhecem geralmente o conceito de "bens do casal" — bens adquiridos durante o casamento geralmente considerados propriedade conjunta de ambos os cônjuges, independentemente de em nome de quem estejam formalmente registados —, embora as regras específicas sobre o que conta como bem do casal variem.
+## Conteúdo principal
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Se um casal se casa e um dos cônjuges compra uma casa durante o casamento usando rendimentos obtidos nesse período, esse bem poderia geralmente ser considerado bem do casal em muitos ordenamentos jurídicos, mesmo que o título esteja apenas em nome de um dos cônjuges — o que se torna geralmente relevante se o casal mais tarde se divorciar e os bens tiverem de ser divididos.
+Esta lição encerra a secção de direito dos valores mobiliários reunindo uma lista prática de sinais de alerta jurídicos, cada um ligado diretamente a um conceito visto antes. A relutância ou a recusa em fornecer os documentos habituais de informação liga-se às lições sobre a informação: as ofertas legítimas fornecem normalmente esta informação sem problemas, porque são obrigadas a fazê-lo. Rendimentos elevados garantidos sem qualquer risco real contrariam a realidade básica de que risco e rendimento estão ligados, e deveriam despertar ceticismo, por mais segura que a proposta pareça. A pressão para investir depressa, sem tempo para verificar, vai contra todo o processo de diligência prévia que esta secção sublinhou. (Em Portugal, a CMVM divulga alertas públicos sobre entidades não autorizadas, que vale a pena consultar.)
 
-## Questionário Prático
-1. O que é o casamento, em termos jurídicos gerais?
-2. O que são geralmente os "bens do casal"?
-3. Verdadeiro/Falso: Os requisitos para o casamento são idênticos em todos os países.
-4. No exemplo da casa, por que poderia ela ser considerada bem do casal mesmo que o título esteja em nome de um só cônjuge?
+Afirmações vagas ou não verificáveis sobre a forma como os rendimentos são realmente gerados, a relutância em explicar se a oportunidade está estruturada juridicamente como valor mobiliário e que exigências de acesso se aplicam, e um consultor que não esclarece se atua segundo um padrão fiduciário ou de adequação são todos sinais de alerta ligados diretamente a conceitos jurídicos específicos desta secção. Nenhum destes sinais garante, por si só, uma fraude, mas reconhecê-los é exatamente o propósito da literacia jurídica: não se tornar um advogado especialista em valores mobiliários, mas desenvolver o reconhecimento de padrões para saber quando uma situação pede para abrandar, fazer perguntas mais incisivas e envolver um profissional antes de comprometer dinheiro.
+
+## Exemplo prático
+
+**Pergunta:** Um investidor é pressionado a comprometer dinheiro em 24 horas numa oportunidade com rendimento garantido, enquanto o promotor se mostra relutante em partilhar os documentos habituais de informação. Quantos sinais de alerta distintos desta secção ilustra isto?
+
+**Aluno:** Com base nesta lição, pelo menos três: a pressão para investir depressa, a promessa de rendimento garantido e a relutância em fornecer documentos de informação, todos apontados explicitamente como sinais de alerta ligados a conceitos anteriores.
+
+**Guia:** O que procura a lista desta secção desenvolver, em última análise, no aluno, em vez de o tornar um especialista jurídico?
+
+**Aluno:** O reconhecimento de padrões: a capacidade de perceber quando uma situação pede para abrandar e procurar revisão profissional, em vez de se tornar especialista em direito dos valores mobiliários.
+
+**Guia:** Exatamente: é esse o objetivo prático de toda esta secção de literacia jurídica.
+
+## Teste de prática
+
+**Pergunta 1.** A relutância em fornecer os documentos habituais de informação liga-se a que lição anterior?
+
+A) Ordenamento do território
+B) As lições sobre os deveres de informação
+C) Noções de execução da garantia
+D) Direito do arrendamento
+
+**Pergunta 2.** A promessa de um "rendimento elevado garantido, sem qualquer risco real" deveria despertar:
+
+A) Um investimento imediato
+B) Ceticismo, porque risco e rendimento estão ligados na essência
+C) Nenhuma reação especial
+D) A convicção de que a promessa é certamente verdadeira
+
+**Pergunta 3.** A pressão para investir depressa, sem tempo para verificar, vai contra:
+
+A) Nada de relevante
+B) O processo de diligência prévia sublinhado em toda esta secção
+C) Apenas considerações de ordenamento do território
+D) O direito do arrendamento
+
+**Pergunta 4.** O que procura esta lista desenvolver, em última análise, segundo esta lição?
+
+A) Especialização jurídica formal em direito dos valores mobiliários
+B) Reconhecimento de padrões para saber quando abrandar e procurar revisão profissional
+C) Evitar totalmente todas as oportunidades de investimento
+D) Nada de prático
 
 ## Chave de Respostas
-1. Uma união legalmente reconhecida que cria direitos e obrigações mútuos   2. Bens adquiridos durante o casamento, geralmente considerados propriedade conjunta   3. Falso   4. Porque foi adquirida durante o casamento usando rendimentos obtidos nesse período
 
-## Respostas e Explicações
-1. Esta é a definição geral do casamento em termos jurídicos.
-2. Esta é a definição geral comummente citada dos bens do casal.
-3. Os requisitos para o casamento variam significativamente consoante o país.
-4. Este é o princípio geral por detrás do conceito de bens do casal.
+1. B, 2. B, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- O casamento é uma união legal que cria direitos e obrigações mútuos.
-- Os bens do casal são geralmente propriedade conjunta, independentemente de em nome de quem estejam registados.
-- Os requisitos e regras específicas variam significativamente consoante o ordenamento jurídico.
+## Respostas e explicações
+
+**1.** Este sinal de alerta reflete diretamente as lições anteriores sobre a importância jurídica da informação obrigatória.
+
+**2.** A relação fundamental entre risco e rendimento torna intrinsecamente suspeitas as promessas de rendimentos elevados sem risco.
+
+**3.** As decisões apressadas minam o processo de verificação cuidadosa que esta secção sublinhou de forma constante.
+
+**4.** O reconhecimento prático de padrões, e não a especialização jurídica formal, é apontado explicitamente como o verdadeiro objetivo desta secção.
+
+## Pontos-chave
+
+- Esta lição final liga os conceitos jurídicos anteriores numa lista prática de sinais de alerta de fraude.
+- A informação relutante, os rendimentos garantidos e a pressão para agir depressa remetem todos diretamente para lições anteriores.
+- Nenhum sinal garante fraude, mas reconhecer padrões é o propósito prático da literacia jurídica.
+- Isto encerra a secção de direito dos valores mobiliários, ligando-se diretamente às decisões de investimento do percurso WHITE.

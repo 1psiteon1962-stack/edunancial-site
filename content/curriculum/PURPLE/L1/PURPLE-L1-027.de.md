@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-027
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 27
-title: "Die Anwaltliche Schweigepflicht"
-summary: "Die Anwaltliche Schweigepflicht"
-locale: "de"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: de
+title: "Dienstbarkeiten: wenn jemand anderes ein Recht an Ihrem Grundstück hat"
+summary: "Erklärt die Dienstbarkeit als konkretes, begrenztes Recht, das einem Dritten am Grundstück eines anderen eingeräumt wird, und baut direkt auf dem Konzept des Rechtebündels auf."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-027: Die Anwaltliche Schweigepflicht
+
+# Dienstbarkeiten: wenn jemand anderes ein Recht an Ihrem Grundstück hat
 
 ## Lernziele
-1. Die anwaltliche Schweigepflicht in einfachen Worten definieren.
-2. Den allgemeinen Zweck dieses Schutzes erklären.
-3. Erkennen, dass dieser Schutz üblicherweise bestimmte Ausnahmen hat.
+
+- Eine Dienstbarkeit („easement“) definieren.
+- Häufige Arten und Zwecke von Dienstbarkeiten erkennen.
+- Dienstbarkeiten direkt mit dem Konzept des Rechtebündels verbinden.
 
 ## Kerninhalt
-*FAKT ÜBERPRÜFT:* Die anwaltliche Schweigepflicht ist ein rechtlicher Schutz, der einen Anwalt üblicherweise daran hindert, vertrauliche Kommunikation mit seinem Mandanten ohne dessen Zustimmung zu offenbaren, und üblicherweise verhindert, dass diese Kommunikation vor Gericht offengelegt werden muss.
 
-*ANNAHME:* Der allgemeine Zweck dieses Schutzes ist es, Mandanten zu ermutigen, gegenüber ihren Anwälten völlig ehrlich zu sein, da ein Mandant, der befürchtet, dass mitgeteilte Informationen gegen ihn verwendet werden könnten, wahrscheinlich wichtige Tatsachen verbergen würde, was es dem Anwalt erschwert, eine wirksame Vertretung zu bieten.
+Eine Dienstbarkeit ist ein rechtliches Recht, das einer bestimmten Partei erlaubt, einen Teil des Grundstücks eines anderen für einen bestimmten, begrenzten Zweck zu nutzen, ohne dass das Eigentum übertragen wird. Das ist eine direkte, konkrete Anwendung des Rechtebündels: Eine Dienstbarkeit schneidet ein schmales Stück aus dem Ausschlussrecht des Eigentümers heraus und räumt es jemand anderem ein, während der Eigentümer alles andere im Bündel behält.
 
-## Praktisches Beispiel
-*VERANSCHAULICHENDES BEISPIEL:* Ein Mandant, der seinem Anwalt peinliche Details darüber erzählt, was in einem Fall wirklich geschah, kann üblicherweise darauf vertrauen, dass diese Information privat bleibt, was es dem Anwalt ermöglicht, mit dem vollständigen Bild die bestmögliche Strategie vorzubereiten. Ohne diesen Schutz würden viele Mandanten wahrscheinlich aus Angst wichtige Informationen weglassen, sodass der Anwalt mit einem unvollständigen Bild arbeiten müsste.
+Häufige Beispiele sind ein Leitungsrecht (das einem Versorgungsunternehmen Zugang gewährt, um Strom- oder Rohrleitungen über ein Grundstück zu verlegen und zu warten) und ein Wegerecht (das einem Nachbarn erlaubt, ein Grundstück zu überqueren, um sein eigenes zu erreichen, wenn es keinen anderen vernünftigen Zugang gibt). Dienstbarkeiten „gehen mit dem Grundstück“ – das heißt, sie bestehen auch fort, wenn das Grundstück an einen neuen Eigentümer verkauft wird, und genau deshalb tauchen sie bei einer Titelprüfung auf und sind für die Sorgfaltsprüfung eines Käufers wichtig. (In Deutschland werden Grunddienstbarkeiten wie Wege- oder Leitungsrechte in der Regel in Abteilung II des Grundbuchs eingetragen; daneben kann es öffentlich-rechtliche Baulasten geben, die in einem gesonderten Baulastenverzeichnis stehen.) Ein Käufer, der nicht weiß, dass auf einem Grundstück eine bedeutende Dienstbarkeit besteht, könnte überrascht feststellen, dass er einen Teil „seines“ Grundstücks nicht so nutzen kann wie erwartet, obwohl er ansonsten das volle Eigentum hat.
 
-## Praktisches Quiz
-1. Was ist die anwaltliche Schweigepflicht?
-2. Was ist der allgemeine Zweck dieses Schutzes?
-3. Wahr/Falsch: Die anwaltliche Schweigepflicht hat üblicherweise keine Ausnahmen.
-4. Was könnte geschehen, wenn ein Mandant diesem Schutz nicht vertraut?
+## Praxisbeispiel
+
+**Frage:** Eine Käuferin erwirbt ein Grundstück, ohne nach bestehenden Dienstbarkeiten zu suchen, und stellt dann fest, dass ein Versorgungsunternehmen das Recht hat, einen Teil des Gartens jederzeit bei Bedarf zu betreten. Warum hat das volle Eigentum das nicht verhindert?
+
+**Schüler:** Nach dieser Lektion schneidet eine Dienstbarkeit ein bestimmtes Recht aus dem Eigentumsbündel heraus und räumt es jemand anderem ein, während die Käuferin weiterhin alles andere im Bündel hält.
+
+**Lernbegleiter:** Warum gilt diese Dienstbarkeit weiter, obwohl das Grundstück an eine neue Eigentümerin verkauft wurde?
+
+**Schüler:** Weil Dienstbarkeiten in der Regel „mit dem Grundstück gehen“ – sie bestehen bei einem Verkauf fort, statt zu verschwinden, wenn das Eigentum wechselt.
+
+**Lernbegleiter:** Genau – deshalb ist es so wichtig, bei der Sorgfaltsprüfung neben der Titelprüfung nach Dienstbarkeiten zu suchen.
+
+## Übungsquiz
+
+**Frage 1.** Eine Dienstbarkeit ist:
+
+A) Eine vollständige Übertragung des Grundeigentums
+B) Ein rechtliches Recht, das einer bestimmten Partei erlaubt, einen Teil des Grundstücks eines anderen für einen begrenzten Zweck zu nutzen
+C) Eine Art Pfandrecht
+D) Für das Immobilienrecht ohne Bedeutung
+
+**Frage 2.** Ein Leitungsrecht erlaubt in der Regel:
+
+A) Einem Versorgungsunternehmen, Leitungen oder Rohre über ein Grundstück zu erreichen und zu warten
+B) Dem Eigentümer, das Grundstück frei zu verkaufen
+C) Nichts, was mit dem Zugang zum Grundstück zu tun hat
+D) Nur die Wohnnutzung des Grundstücks
+
+**Frage 3.** Gehen Dienstbarkeiten in der Regel auf einen neuen Eigentümer über, wenn ein Grundstück verkauft wird?
+
+A) Nein, sie erlöschen mit dem Verkauf
+B) Ja – Dienstbarkeiten „gehen“ in der Regel „mit dem Grundstück“
+C) Nur wenn der neue Eigentümer ausdrücklich zustimmt
+D) Dienstbarkeiten sind für Verkäufe nie relevant
+
+**Frage 4.** Wie verbindet diese Lektion Dienstbarkeiten mit dem Konzept des Rechtebündels?
+
+A) Es gibt keine Verbindung
+B) Eine Dienstbarkeit schneidet ein bestimmtes Recht (etwa das Ausschlussrecht) aus dem Bündel heraus und räumt es jemand anderem ein
+C) Dienstbarkeiten übertragen das gesamte Rechtebündel
+D) Dienstbarkeiten haben mit keinem Rechterahmen zu tun
 
 ## Lösungsschlüssel
-1. Ein rechtlicher Schutz, der einen Anwalt daran hindert, vertrauliche Kommunikation mit seinem Mandanten ohne Zustimmung zu offenbaren   2. Mandanten zu völliger Ehrlichkeit gegenüber ihren Anwälten zu ermutigen   3. Falsch   4. Der Mandant würde wahrscheinlich wichtige Tatsachen verbergen, was eine wirksame Vertretung erschwert
+
+1. B, 2. A, 3. B, 4. B
 
 ## Antworten und Erklärungen
-1. Dies ist die grundlegende Definition der anwaltlichen Schweigepflicht.
-2. Dies ist der allgemein häufig genannte Zweck dieses Schutzes.
-3. Dieser Schutz hat üblicherweise bestimmte Ausnahmen, wobei die Details je nach Rechtssystem variieren.
-4. Dies ist die allgemeine Konsequenz, diesem Schutz nicht zu vertrauen.
 
-## Wichtigste Punkte zum Merken
-- Die anwaltliche Schweigepflicht schützt vertrauliche Kommunikation zwischen einem Mandanten und seinem Anwalt.
-- Ihr allgemeiner Zweck ist es, völlige Ehrlichkeit des Mandanten zu fördern, um eine wirksame Vertretung zu ermöglichen.
-- Dieser Schutz hat üblicherweise bestimmte Ausnahmen, je nach Rechtssystem.
+**1.** Eine Dienstbarkeit räumt konkrete, begrenzte Nutzungsrechte ein, ohne das zugrunde liegende Eigentum selbst zu übertragen.
+
+**2.** Leitungsrechte sind ein klassisches, weithin bekanntes Beispiel für diese Art begrenzten Zugangsrechts.
+
+**3.** Das Fortbestehen bei einem Verkauf („mit dem Grundstück gehen“) ist ein bestimmendes Merkmal der meisten Dienstbarkeiten.
+
+**4.** Diese Lektion stellt Dienstbarkeiten ausdrücklich als direkte, konkrete Anwendung des früheren Konzepts des Rechtebündels dar.
+
+## Wichtigste Erkenntnisse
+
+- Eine Dienstbarkeit räumt ein konkretes, begrenztes Recht ein, einen Teil eines Grundstücks zu nutzen, ohne das Eigentum zu übertragen.
+- Leitungs- und Wegerechte sind häufige Beispiele.
+- Dienstbarkeiten „gehen“ in der Regel „mit dem Grundstück“ und bestehen bei Verkäufen fort.
+- Das ist eine direkte, praktische Anwendung des Konzepts des Rechtebündels aus diesem Abschnitt.

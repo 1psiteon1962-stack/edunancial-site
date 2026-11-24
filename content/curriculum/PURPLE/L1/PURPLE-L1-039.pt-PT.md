@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-039
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 39
-title: "A Guarda e a Pensão de Alimentos dos Filhos"
-summary: "A Guarda e a Pensão de Alimentos dos Filhos"
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "Proteção patrimonial: separar juridicamente o risco do rendimento"
+summary: "Abre a secção de proteção patrimonial com o conceito jurídico geral de estruturar deliberadamente os bens para reduzir a exposição a futuras pretensões jurídicas."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-039: A Guarda e a Pensão de Alimentos dos Filhos
 
-## Objetivos de Aprendizagem
-1. Distinguir guarda física de guarda legal.
-2. Definir pensão de alimentos em termos gerais.
-3. Explicar o critério geral que os tribunais costumam usar para decidir a guarda.
+# Proteção patrimonial: separar juridicamente o risco do rendimento
 
-## Conteúdo Principal
-*FACTO VERIFICADO:* A guarda **física** refere-se geralmente a com quem vive o filho e quem trata dos cuidados diários, enquanto a guarda **legal** se refere geralmente a quem tem o direito de tomar decisões importantes sobre a vida do filho, como a educação e os cuidados médicos. Estas duas formas de guarda podem ser partilhadas entre os pais ou atribuídas principalmente a um deles, consoante o arranjo.
+## Objetivos de aprendizagem
 
-*SUPOSIÇÃO:* Os tribunais usam geralmente o critério do "superior interesse da criança" para decidir os arranjos de guarda, o que significa que as preferências dos pais são geralmente secundárias face ao bem-estar da criança, considerando factores como a estabilidade, a relação existente com cada progenitor, e a capacidade de cada um para responder às necessidades da criança.
+- Definir a proteção patrimonial em termos jurídicos gerais.
+- Distinguir a proteção patrimonial legítima da ocultação fraudulenta de bens.
+- Antecipar os instrumentos tratados no resto desta secção.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Após um divórcio, os progenitores poderiam partilhar a guarda legal — ambos a participar nas decisões sobre a escola e os cuidados médicos da criança — enquanto a guarda física principal fica com apenas um dos progenitores, com quem a criança vive a maior parte do tempo, tendo o outro progenitor um regime de visitas regular. A pensão de alimentos seria geralmente calculada separadamente, muitas vezes com base no rendimento de cada progenitor e no arranjo de guarda física.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é a guarda física?
-2. O que é a guarda legal?
-3. Verdadeiro/Falso: As preferências dos pais são geralmente mais importantes do que o bem-estar da criança ao decidir a guarda.
-4. Que critério geral usam os tribunais para decidir os arranjos de guarda?
+A proteção patrimonial refere-se a estruturar juridicamente a forma como os bens são detidos e organizados para reduzir a exposição a possíveis pretensões futuras – processos, responsabilidade empresarial, pretensões de credores – sem violar a lei. Isto liga-se diretamente a lições anteriores deste percurso: a escolha da estrutura empresarial (LLC, corporation) já é, em si, uma forma de proteção patrimonial, e os conceitos tratados no resto desta secção – trusts, seguros, cuidado com as garantias pessoais – acrescentam mais instrumentos ao mesmo objetivo geral.
+
+É essencial traçar aqui uma linha clara e explícita: a proteção patrimonial legítima faz-se de forma preventiva, antes de existir ou ser razoavelmente previsível uma pretensão específica, usando estruturas jurídicas de forma transparente. A ocultação fraudulenta de bens – mover ou esconder bens precisamente para fugir a uma pretensão jurídica conhecida, existente ou claramente previsível – é ilegal e pode ser desfeita por um tribunal, por vezes com sanções adicionais. (Em Portugal, por exemplo, os credores podem reagir contra atos que diminuam a garantia patrimonial do devedor através da impugnação pauliana; confirme com um profissional.) O momento e a transparência do planeamento são o que separa uma estratégia jurídica legítima e prudente de uma tentativa ilegal de defraudar credores ou autores de ações, e é precisamente por isso que este tipo de planeamento beneficia de ser feito cedo e com verdadeira orientação profissional, e não de forma reativa, quando já surgiu um problema.
+
+## Exemplo prático
+
+**Pergunta:** Alguém que está prestes a enfrentar um processo específico e iminente transfere de repente os seus bens para o nome de um familiar, para os colocar fora de alcance. É isto proteção patrimonial legítima, segundo esta lição?
+
+**Aluno:** Com base nesta lição, não: parece ocultação fraudulenta de bens, porque acontece em resposta a uma pretensão jurídica conhecida e existente, e não como planeamento preventivo feito antes de existir uma pretensão específica.
+
+**Guia:** O que pode acontecer juridicamente a este tipo de transferência de última hora?
+
+**Aluno:** Um tribunal pode desfazer a transferência, e pode haver sanções adicionais, porque foi feita precisamente para fugir a uma pretensão conhecida, e não como planeamento legítimo e transparente.
+
+**Guia:** Exatamente: o momento e a transparência são o que separa a proteção patrimonial legítima da ocultação ilegal.
+
+## Teste de prática
+
+**Pergunta 1.** A proteção patrimonial refere-se a:
+
+A) Esconder ilegalmente bens de qualquer pretensão jurídica
+B) Estruturar juridicamente os bens para reduzir a exposição a possíveis pretensões futuras, sem violar a lei
+C) Algo relevante apenas para criminosos
+D) Uma garantia contra todos os riscos jurídicos possíveis
+
+**Pergunta 2.** A escolha da estrutura empresarial, como constituir uma LLC, é:
+
+A) Sem relação com a proteção patrimonial
+B) Em si, uma forma de proteção patrimonial
+C) Ilegal na maioria dos locais
+D) Relevante apenas para imóveis
+
+**Pergunta 3.** O que distingue a proteção patrimonial legítima da ocultação fraudulenta?
+
+A) Não há distinção real
+B) O momento e a transparência: planeamento preventivo e transparente antes de existir uma pretensão específica
+C) O montante envolvido
+D) Se algum advogado esteve envolvido em algum momento
+
+**Pergunta 4.** O que pode acontecer a uma transferência feita precisamente para fugir a uma pretensão jurídica conhecida e existente?
+
+A) Nada: vale sempre
+B) Um tribunal pode desfazê-la, com possíveis sanções adicionais
+C) É automaticamente legal, independentemente do momento
+D) Esta situação na verdade nunca acontece
 
 ## Chave de Respostas
-1. Com quem vive o filho e quem trata dos cuidados diários   2. Quem tem o direito de tomar decisões importantes sobre a vida do filho   3. Falso   4. O "superior interesse da criança"
 
-## Respostas e Explicações
-1. Esta é a definição fundamental da guarda física.
-2. Esta é a definição fundamental da guarda legal.
-3. O bem-estar da criança é geralmente o factor prioritário, não as preferências dos pais.
-4. Este é o critério comummente citado usado pelos tribunais.
+1. B, 2. B, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- A guarda física refere-se a com quem vive o filho; a guarda legal refere-se a quem toma as decisões importantes.
-- Ambas podem ser partilhadas ou atribuídas principalmente a um progenitor.
-- Os tribunais usam geralmente o critério do "superior interesse da criança" para decidir estes arranjos.
+## Respostas e explicações
+
+**1.** Esta estruturação tem de acontecer dentro dos limites da lei, o que a distingue da ocultação ilegal.
+
+**2.** A escolha da estrutura, vista antes neste percurso, é apresentada explicitamente como uma forma de proteção patrimonial.
+
+**3.** O planeamento preventivo e transparente antes de existir uma pretensão é a distinção jurídica central desta lição.
+
+**4.** Os tribunais mantêm o poder de desfazer transferências feitas no momento errado, frustrando qualquer tentativa de fugir a uma pretensão conhecida.
+
+## Pontos-chave
+
+- A proteção patrimonial é a estruturação jurídica para reduzir a exposição a pretensões futuras, dentro dos limites da lei.
+- A escolha da estrutura empresarial é, em si, uma forma de proteção patrimonial.
+- A proteção legítima é preventiva e transparente; a ocultação fraudulenta reage a uma pretensão conhecida.
+- Esta distinção é a razão pela qual o planeamento da proteção patrimonial deve ser feito cedo, com verdadeira orientação profissional.

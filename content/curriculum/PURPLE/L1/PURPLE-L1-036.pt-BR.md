@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-036
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 36
-title: "O Direito de Família — O Básico"
-summary: "O direito de família é a área do direito que trata das relações familiares e assuntos domésticos. FATO VERIFICADO: As áreas comuns cobertas pelo direito de família geralmente incluem casamento, divórcio, guarda de filhos, pensão alimentícia, e adoção."
-locale: "pt-BR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-BR
+title: "Dever fiduciário: o que significa quando alguém administra o seu dinheiro"
+summary: "Explica o conceito jurídico de dever fiduciário, um alto padrão de cuidado e lealdade devido por certos profissionais que administram dinheiro ou bens de outras pessoas."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-036: O Direito de Família — O Básico
 
-## Objetivos de Aprendizagem
-1. Definir direito de família em termos gerais.
-2. Identificar áreas comuns cobertas pelo direito de família.
-3. Reconhecer que as leis de família variam significativamente conforme o sistema jurídico.
+# Dever fiduciário: o que significa quando alguém administra o seu dinheiro
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* As leis de família específicas variam enormemente conforme o país e a região; esta lição descreve apenas áreas gerais.
+## Objetivos de aprendizagem
 
-O direito de família é a área do direito que trata das relações familiares e assuntos domésticos. *FATO VERIFICADO:* As áreas comuns cobertas pelo direito de família geralmente incluem casamento, divórcio, guarda de filhos, pensão alimentícia, e adoção.
+- Definir o dever fiduciário (em inglês, "fiduciary duty").
+- Distinguir um padrão fiduciário de um padrão mais baixo de adequação.
+- Explicar por que essa distinção importa na escolha de a quem confiar o seu dinheiro.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um casal que decide se separar legalmente geralmente precisaria tratar de várias questões de direito de família ao mesmo tempo — como dividir os bens comuns, se cabe pensão alimentícia entre os cônjuges, e, se tiverem filhos, como a guarda e a pensão alimentícia serão compartilhadas. Cada uma dessas questões geralmente é regida por regras específicas dentro do direito de família daquele sistema jurídico.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é o direito de família?
-2. Nomeie duas áreas comuns cobertas pelo direito de família.
-3. Verdadeiro/Falso: As leis de família são idênticas em todos os países.
-4. No exemplo do casal que se separa, que questões geralmente precisariam ser tratadas?
+O dever fiduciário é a obrigação jurídica de agir no melhor interesse de outra pessoa, acima do próprio, ao administrar o dinheiro dela ou tomar decisões em seu nome: um dos mais altos padrões de cuidado e lealdade reconhecidos pelo direito. Alguns profissionais, em certos papéis, estão juridicamente vinculados a esse dever; outros estão sujeitos a um padrão mais baixo, e entender a diferença importa na prática para qualquer pessoa em RED, WHITE ou BLUE que dependa de um profissional para administrar dinheiro ou receber orientação financeira.
+
+A distinção prática principal é entre um padrão fiduciário (juridicamente obrigado a agir no melhor interesse do cliente, mesmo acima do interesse financeiro do assessor) e um padrão mais baixo de adequação (obrigado apenas a recomendar algo razoavelmente adequado ao cliente, o que ainda pode permitir uma recomendação que beneficie o assessor, como um produto com comissão maior, desde que não seja claramente inadequado). (No Brasil, as regras da CVM exigem, por exemplo, a verificação da adequação dos produtos ao perfil do cliente, e existe a figura do consultor de valores mobiliários; ainda assim, vale perguntar sempre como o profissional é remunerado e quais conflitos de interesse ele tem.) Não é um detalhe técnico menor: pode afetar significativamente a qualidade e a objetividade da orientação que você recebe. Uma peça prática de alfabetização jurídica: perguntar diretamente se um assessor está juridicamente vinculado a um dever fiduciário, em vez de supor que todos os profissionais financeiros atuam sob o mesmo padrão.
+
+## Exemplo prático
+
+**Pergunta:** Um investidor supõe que todo assessor financeiro com quem poderia trabalhar tem automaticamente o dever jurídico de agir exclusivamente no seu melhor interesse. O que esta lição sugere sobre essa suposição?
+
+**Aluno:** Com base nesta lição, ela não é necessariamente correta: alguns profissionais estão sujeitos a um padrão fiduciário, mas outros apenas a um padrão mais baixo de adequação, e essa é uma diferença real e significativa.
+
+**Guia:** Que pergunta prática isso deveria levá-lo a fazer antes de trabalhar com qualquer assessor?
+
+**Aluno:** Perguntar diretamente se esse assessor está juridicamente vinculado a um dever fiduciário, em vez de supor, porque a resposta afeta significativamente a objetividade da orientação que ele pode receber.
+
+**Guia:** Exatamente: é uma peça concreta e aplicável de alfabetização jurídica, e não apenas um conceito jurídico abstrato.
+
+## Teste de prática
+
+**Pergunta 1.** O dever fiduciário é:
+
+A) A obrigação jurídica de agir no melhor interesse de outra pessoa, acima do próprio
+B) Um termo de marketing sem peso jurídico
+C) O mesmo que um padrão de adequação
+D) Relevante apenas para transações imobiliárias
+
+**Pergunta 2.** Um padrão de adequação, por outro lado, geralmente exige:
+
+A) Agir exclusivamente no melhor interesse do cliente
+B) Recomendar algo razoavelmente adequado, o que ainda pode permitir escolhas que beneficiem o assessor
+C) Nenhum padrão de cuidado
+D) Exatamente a mesma proteção de um padrão fiduciário
+
+**Pergunta 3.** Por que a distinção entre padrão fiduciário e de adequação importa na prática?
+
+A) Não tem efeito prático real
+B) Pode afetar significativamente a objetividade e a qualidade da orientação financeira recebida
+C) Todos os profissionais financeiros são automaticamente fiduciários
+D) Só profissionais do setor imobiliário são afetados por essa distinção
+
+**Pergunta 4.** Que ação prática esta lição recomenda?
+
+A) Supor que todo assessor é fiduciário
+B) Perguntar diretamente se determinado assessor está juridicamente vinculado a um dever fiduciário
+C) Evitar totalmente os profissionais financeiros
+D) Esta lição não recomenda nenhuma ação específica
 
 ## Gabarito
-1. A área do direito que trata das relações familiares e assuntos domésticos   2. Casamento, divórcio, guarda de filhos, pensão alimentícia, ou adoção (entre outras)   3. Falso   4. Divisão de bens, possível pensão entre cônjuges, e guarda e pensão alimentícia dos filhos
 
-## Respostas e Explicações
-1. Esta é a definição fundamental do direito de família.
-2. Estas são áreas comumente citadas cobertas pelo direito de família.
-3. As leis de família variam enormemente conforme o país e a região.
-4. Estas são as questões comuns que ilustram o alcance do direito de família em uma separação.
+1. A, 2. B, 3. B, 4. B
 
-## Principais Pontos a Lembrar
-- O direito de família trata das relações familiares e assuntos domésticos.
-- As áreas comuns incluem casamento, divórcio, guarda, pensão alimentícia, e adoção.
-- As leis de família específicas variam enormemente conforme o sistema jurídico.
+## Respostas e explicações
+
+**1.** O padrão fiduciário é definido justamente por colocar o interesse do cliente acima do interesse do fiduciário.
+
+**2.** O padrão de adequação permite uma gama mais ampla de recomendações, incluindo algumas que beneficiam o assessor.
+
+**3.** Essa distinção determina diretamente quais interesses de fato orientam a recomendação dada.
+
+**4.** Essa pergunta concreta é apresentada como alfabetização jurídica realmente aplicável pelo aluno.
+
+## Pontos-chave
+
+- O dever fiduciário exige agir no melhor interesse de outra pessoa, acima do próprio.
+- Um padrão mais baixo de adequação permite recomendações apenas razoáveis, não necessariamente ótimas para o cliente.
+- Essa distinção afeta significativamente a objetividade da orientação financeira recebida.
+- Perguntar diretamente qual padrão jurídico se aplica a um assessor é uma peça concreta e prática de alfabetização jurídica.

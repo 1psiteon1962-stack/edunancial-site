@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-038
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 38
-title: "O Divórcio — Conceitos Básicos"
-summary: "O divórcio é o processo legal de dissolução de um casamento. FACTO VERIFICADO: Um divórcio \"por mútuo consentimento\" não exige geralmente provar que um dos cônjuges cometeu alguma falta — exige apenas que ambas as partes concordem em pôr fim ao casamento e, frequentemente, com os termos da separação —, enquanto um divórcio \"litigioso\" implica geralmente que as partes não chegam a acordo, sendo a questão decidida por um tribunal."
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "Reguladores: quem supervisiona os mercados financeiros"
+summary: "Encerra a secção de direito dos valores mobiliários com uma breve visão geral do conceito de regulador, evitando pormenores específicos de cada país e fixando o padrão de fundo."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-038: O Divórcio — Conceitos Básicos
 
-## Objetivos de Aprendizagem
-1. Definir divórcio em termos gerais.
-2. Distinguir o divórcio por mútuo consentimento do divórcio litigioso.
-3. Identificar questões gerais comummente resolvidas durante um divórcio.
+# Reguladores: quem supervisiona os mercados financeiros
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* Os processos e fundamentos específicos de divórcio variam significativamente consoante o país; esta lição descreve apenas conceitos gerais.
+## Objetivos de aprendizagem
 
-O divórcio é o processo legal de dissolução de um casamento. *FACTO VERIFICADO:* Um divórcio "por mútuo consentimento" não exige geralmente provar que um dos cônjuges cometeu alguma falta — exige apenas que ambas as partes concordem em pôr fim ao casamento e, frequentemente, com os termos da separação —, enquanto um divórcio "litigioso" implica geralmente que as partes não chegam a acordo, sendo a questão decidida por um tribunal.
+- Explicar o papel geral de um regulador financeiro.
+- Reconhecer que os nomes e as estruturas específicas dos reguladores variam de país para país.
+- Compreender os reguladores como o mecanismo de aplicação dos conceitos desta secção.
 
-*SUPOSIÇÃO:* As questões geralmente resolvidas durante um divórcio incluem a divisão de bens, uma eventual pensão entre cônjuges, e, havendo filhos, os arranjos de guarda e pensão de alimentos — estas questões podem ser resolvidas por acordo mútuo ou, se as partes não chegarem a consenso, por decisão judicial.
+## Conteúdo principal
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um casal que concorda em pôr fim ao seu casamento e na forma de dividir os seus bens poderia apresentar um pedido de divórcio por mútuo consentimento, o que se revela geralmente mais rápido e menos oneroso. Ainda assim, precisariam geralmente de resolver separadamente como dividir a sua casa, as suas poupanças, e, se tiverem filhos, como partilharão a guarda e a pensão de alimentos — quer por acordo entre eles, quer, se não chegarem a consenso, por decisão judicial.
+Todos os países com mercados financeiros significativos têm normalmente algum tipo de entidade reguladora responsável por fazer cumprir os princípios de informação, equidade e prevenção de fraudes vistos em toda esta secção: analisa a informação obrigatória, investiga possíveis violações, como o abuso de informação privilegiada ou a fraude, e toma medidas contra os infratores, que podem incluir coimas, sanções ou, em casos graves, a comunicação às autoridades judiciárias penais.
 
-## Questionário Prático
-1. O que é o divórcio?
-2. O que exige geralmente um divórcio "por mútuo consentimento"?
-3. Verdadeiro/Falso: O divórcio litigioso significa geralmente que as partes concordam com todos os termos.
-4. Indica uma questão geralmente resolvida durante um divórcio.
+Esta lição mantém-se deliberadamente geral, em vez de nomear um regulador específico, porque a estrutura, o nome e os poderes dos reguladores financeiros variam muito de país para país, e este currículo dirige-se a um público global. O conceito duradouro e transferível é o próprio padrão: por detrás das regras discutidas nesta secção, os mercados financeiros têm normalmente uma entidade real de fiscalização, que dá a essas regras uma eficácia real, em vez de as deixar puramente teóricas. Saber que existe normalmente uma entidade deste tipo num determinado local – e que pode ser um recurso para denunciar uma suspeita de fraude ou verificar se uma oferta está devidamente autorizada – é a mensagem prática, seja qual for o regulador específico aplicável num determinado país.
+
+## Exemplo prático
+
+**Pergunta:** Alguém suspeita que uma oportunidade de investimento possa ser um valor mobiliário não autorizado e potencialmente fraudulento. Segundo esta lição, existe normalmente algum recurso a que possa recorrer para verificar ou denunciar essa suspeita?
+
+**Aluno:** Com base nesta lição, sim: a maioria dos países com mercados financeiros tem uma entidade reguladora responsável por este tipo de supervisão e fiscalização, que pode ser um recurso para verificar uma autorização ou denunciar preocupações.
+
+**Guia:** Porque é que esta lição evita nomear um regulador específico?
+
+**Aluno:** Porque o regulador exato, o nome e a estrutura variam de país para país, e este currículo dirige-se a um público global; por isso a lição duradoura é o padrão geral, e não a instituição de um país específico.
+
+**Guia:** Exatamente: o padrão da existência de fiscalização é a mensagem transferível e universal.
+
+## Teste de prática
+
+**Pergunta 1.** Um regulador financeiro é normalmente responsável por:
+
+A) Nada relacionado com os mercados financeiros
+B) Fazer cumprir as regras de informação, equidade e prevenção de fraudes discutidas nesta secção
+C) Apenas definir regras de ordenamento do território
+D) Apenas gerir orçamentos públicos
+
+**Pergunta 2.** Porque é que esta lição evita nomear um regulador específico?
+
+A) Estes reguladores na verdade não existem
+B) Os nomes e as estruturas específicas dos reguladores variam muito de país para país
+C) Esta informação é irrelevante para o tema
+D) Todos os países usam o mesmo nome para o regulador
+
+**Pergunta 3.** O que pode normalmente fazer um regulador perante violações?
+
+A) Nada
+B) Aplicar coimas e sanções ou comunicar os casos graves às autoridades judiciárias penais
+C) Apenas emitir advertências sem consequências reais
+D) Apenas regular transações imobiliárias
+
+**Pergunta 4.** Que conceito duradouro e transferível sublinha esta lição?
+
+A) Memorizar o regulador de um país específico
+B) Reconhecer que os mercados financeiros têm normalmente uma entidade real de fiscalização, que dá às regras uma eficácia real
+C) Os reguladores são puramente teóricos, sem poder real
+D) Só os países ricos têm regulação financeira
 
 ## Chave de Respostas
-1. O processo legal de dissolução de um casamento   2. Que ambas as partes concordem em pôr fim ao casamento e, frequentemente, com os termos da separação   3. Falso   4. Divisão de bens, pensão entre cônjuges, ou guarda e pensão de alimentos (entre outras)
 
-## Respostas e Explicações
-1. Esta é a definição fundamental do divórcio.
-2. Esta é a definição geral do divórcio por mútuo consentimento.
-3. O divórcio litigioso implica precisamente que as partes não chegam a acordo.
-4. Estas são questões comummente resolvidas durante o processo de divórcio.
+1. B, 2. B, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- O divórcio é o processo legal de dissolução de um casamento.
-- O divórcio por mútuo consentimento exige o acordo de ambas as partes; o litigioso é decidido por um tribunal.
-- As questões comummente resolvidas incluem a divisão de bens, a pensão, e, quando aplicável, a guarda dos filhos.
+## Respostas e explicações
+
+**1.** Fazer cumprir precisamente os conceitos tratados nesta secção é a função central do regulador.
+
+**2.** A variação global na estrutura dos reguladores é exatamente a razão pela qual esta lição evita deliberadamente nomear um específico.
+
+**3.** As consequências reais, incluindo a comunicação penal em casos graves, dão força prática a estas regras.
+
+**4.** A aprendizagem transferível é a existência do padrão, e não a instituição específica de um único país.
+
+## Pontos-chave
+
+- Os reguladores financeiros fazem cumprir os princípios de informação, equidade e prevenção de fraudes desta secção.
+- O regulador específico varia de país para país: esta lição concentra-se no padrão geral e transferível.
+- Os reguladores podem impor consequências reais, dando eficácia prática às regras do mercado.
+- Isto encerra a secção de direito dos valores mobiliários, ligando os seus conceitos a uma fiscalização institucional real.

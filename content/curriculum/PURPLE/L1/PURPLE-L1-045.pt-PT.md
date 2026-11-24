@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-045
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 45
-title: "A Responsabilidade Limitada Sob a Óptica Jurídica"
-summary: "A Responsabilidade Limitada Sob a Óptica Jurídica"
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "Prescrição: porque é que as pretensões jurídicas se extinguem"
+summary: "Apresenta o conceito de prescrição, explicando porque é que as pretensões jurídicas não estão disponíveis para sempre e porque é que isso importa tanto para as fazer valer como para se defender."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-045: A Responsabilidade Limitada Sob a Óptica Jurídica
 
-## Objetivos de Aprendizagem
-1. Rever o conceito geral de responsabilidade limitada sob a óptica jurídica.
-2. Identificar circunstâncias em que a protecção de responsabilidade limitada pode geralmente perder-se.
-3. Explicar o conceito de "levantamento do véu societário".
+# Prescrição: porque é que as pretensões jurídicas se extinguem
 
-## Conteúdo Principal
-*FACTO VERIFICADO:* A responsabilidade limitada significa geralmente que os sócios de uma entidade jurídica (como uma sociedade por quotas) não são pessoalmente responsáveis pelas dívidas e obrigações da entidade, ficando a sua exposição geralmente limitada ao que investiram no negócio.
+## Objetivos de aprendizagem
 
-*SUPOSIÇÃO:* Os tribunais podem por vezes proceder ao "levantamento do véu societário" — ignorando a protecção de responsabilidade limitada e tornando os sócios pessoalmente responsáveis —, geralmente em circunstâncias em que os sócios não trataram a entidade como genuinamente separada das suas finanças pessoais, cometeram fraude, ou usaram a entidade para escapar a obrigações legais.
+- Definir a prescrição (em inglês, "statute of limitations") em termos simples.
+- Explicar a lógica geral de política pública por detrás de limitar as pretensões no tempo.
+- Reconhecer a relevância prática tanto para possíveis autores como para réus.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um sócio que mistura sistematicamente fundos pessoais e da empresa, não mantém registos financeiros separados, e usa a conta bancária da empresa como se fosse a sua própria carteira pessoal poderia correr o risco de um tribunal levantar o véu societário caso a empresa mais tarde enfrente uma acção judicial — o tribunal poderia determinar que a entidade nunca foi tratada como genuinamente separada do sócio, e que, portanto, a protecção de responsabilidade limitada não deveria aplicar-se.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que significa geralmente a responsabilidade limitada?
-2. O que é o "levantamento do véu societário"?
-3. Verdadeiro/Falso: A protecção de responsabilidade limitada nunca pode perder-se, independentemente das circunstâncias.
-4. Indica uma circunstância que pode geralmente levar ao levantamento do véu societário.
+A prescrição é um prazo jurídico dentro do qual uma pretensão tem de ser exercida; depois dele, em geral, já não pode ser feita valer em tribunal, por mais fundada que seja. Os diferentes tipos de pretensão (litígios contratuais, pretensões por facto ilícito e outras) têm muitas vezes prazos diferentes, e esses prazos variam consoante o local: não existe um número universal para decorar, mas o conceito subjacente aplica-se de forma ampla. (Em Portugal, segundo a informação disponível, o prazo ordinário de prescrição do Código Civil é de vinte anos, e o direito de indemnização por responsabilidade extracontratual prescreve, em regra, em três anos a contar do conhecimento do direito; há muitas exceções e regras sobre interrupção, por isso confirme com um profissional.)
+
+A lógica geral de política pública é dupla: as provas e as memórias deterioram-se realmente com o tempo, o que torna mais difícil resolver com justiça pretensões antigas, e existe um interesse social real na segurança jurídica, ou seja, em permitir que pessoas e empresas sigam em frente sem uma exposição indefinida a pretensões de um passado distante. Isto importa na prática dos dois lados: quem tem uma queixa legítima precisa de compreender que existe um prazo real para a exercer, e não tempo ilimitado para decidir; e quem enfrenta uma possível pretensão deve compreender que pretensões suficientemente antigas podem estar totalmente prescritas, o que é um contexto relevante (mas não um substituto de um verdadeiro aconselhamento jurídico) para avaliar a exposição real a um litígio antigo.
+
+## Exemplo prático
+
+**Pergunta:** Alguém descobre um litígio contratual legítimo de há muitos anos e pergunta-se se ainda pode intentar uma ação hoje. O que sugere esta lição verificar primeiro?
+
+**Aluno:** Com base nesta lição, deveria verificar se o prazo de prescrição para esse tipo de pretensão já terminou, porque em geral as pretensões não podem ser feitas valer depois desse limite, por mais fundadas que sejam.
+
+**Guia:** Porque é que o mérito da pretensão, por si só, pode não bastar para garantir que ainda pode ser exercida?
+
+**Aluno:** Porque a prescrição existe precisamente para limitar as pretensões no tempo, por razões como a deterioração das provas e o interesse na segurança jurídica: mesmo uma pretensão totalmente legítima pode tornar-se juridicamente indisponível se passou tempo demais.
+
+**Guia:** Exatamente: o mérito e a disponibilidade jurídica são duas questões separadas.
+
+## Teste de prática
+
+**Pergunta 1.** A prescrição é:
+
+A) Um direito permanente de intentar uma ação a qualquer momento
+B) Um prazo jurídico dentro do qual uma pretensão tem de ser exercida
+C) Relevante apenas em processos-crime
+D) Igual em todo o lado e para todos os tipos de pretensão
+
+**Pergunta 2.** A lógica geral de política pública por detrás de limitar as pretensões no tempo inclui:
+
+A) Não há lógica real
+B) A deterioração das provas com o tempo e o interesse na segurança jurídica
+C) Apenas proteger réus ricos
+D) Incentivar litígios indefinidos
+
+**Pergunta 3.** Os diferentes tipos de pretensão têm normalmente o mesmo prazo?
+
+A) Sim, sempre idêntico
+B) Não: tipos de pretensão e locais diferentes têm muitas vezes prazos diferentes
+C) Os prazos não têm relação com o tipo de pretensão
+D) Nenhuma pretensão tem prazo
+
+**Pergunta 4.** Porque é que isto importa para quem enfrenta uma possível pretensão antiga?
+
+A) Não tem relevância prática
+B) Pretensões suficientemente antigas podem estar totalmente prescritas, o que é um contexto relevante para avaliar a exposição
+C) As pretensões antigas são sempre automaticamente válidas
+D) Esta lição só importa aos autores, nunca aos réus
 
 ## Chave de Respostas
-1. Os sócios não são pessoalmente responsáveis pelas dívidas da entidade   2. Quando um tribunal ignora a protecção de responsabilidade limitada e torna os sócios pessoalmente responsáveis   3. Falso   4. Misturar fundos pessoais e da empresa, ou cometer fraude (entre outras)
 
-## Respostas e Explicações
-1. Esta é a definição geral da responsabilidade limitada.
-2. Esta é a definição fundamental do levantamento do véu societário.
-3. A protecção pode perder-se em certas circunstâncias, como no levantamento do véu societário.
-4. Estas são circunstâncias comummente citadas que podem levar a esta consequência.
+1. B, 2. B, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- A responsabilidade limitada protege geralmente os sócios de serem pessoalmente responsáveis pelas dívidas da entidade.
-- Os tribunais podem por vezes levantar o véu societário, removendo essa protecção.
-- Misturar fundos pessoais e da empresa é uma razão comummente citada para esta consequência.
+## Respostas e explicações
+
+**1.** Este mecanismo de prazo jurídico é exatamente o que a prescrição estabelece.
+
+**2.** Tanto a deterioração das provas como o valor da segurança jurídica são apontados como a lógica subjacente.
+
+**3.** A variação por tipo de pretensão e por local é referida explicitamente, em vez de se presumir um único número universal.
+
+**4.** É um contexto prático e diretamente útil para avaliar a exposição real a um litígio antigo, dos dois lados de uma possível pretensão.
+
+## Pontos-chave
+
+- A prescrição limita juridicamente o tempo dentro do qual uma pretensão pode ser exercida.
+- Reflete preocupações com a deterioração das provas e o valor da segurança jurídica.
+- Os prazos variam por tipo de pretensão e por local: nenhum número se aplica em todo o lado.
+- Isto importa na prática tanto para possíveis autores como para réus que avaliam litígios antigos.

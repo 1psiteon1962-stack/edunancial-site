@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-006
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 6
-title: "L'Inadempimento Contrattuale"
-summary: "L'inadempimento contrattuale si verifica quando una parte non rispetta i propri obblighi derivanti dall'accordo senza una giustificazione giuridicamente valida. FATTO VERIFICATO: I rimedi comuni in caso di inadempimento includono il risarcimento del danno (compensazione per le perdite causate), l'esecuzione in forma specifica (un'ordinanza del tribunale che obbliga la parte inadempiente a eseguire il contratto), o la risoluzione (l'annullamento del contratto)."
-locale: "it"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: it
+title: "Inadempimento contrattuale: che cosa succede quando qualcuno non adempie"
+summary: "Introduce il concetto di inadempimento contrattuale e le categorie generali di rimedi disponibili quando una parte non rispetta il proprio impegno."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-006: L'Inadempimento Contrattuale
 
-## Obiettivi di Apprendimento
-1. Definire l'inadempimento contrattuale.
-2. Riconoscere i rimedi comuni in caso di inadempimento.
-3. Distinguere un inadempimento essenziale da uno lieve.
+# Inadempimento contrattuale: che cosa succede quando qualcuno non adempie
 
-## Contenuto Principale
-L'inadempimento contrattuale si verifica quando una parte non rispetta i propri obblighi derivanti dall'accordo senza una giustificazione giuridicamente valida. *FATTO VERIFICATO:* I rimedi comuni in caso di inadempimento includono il risarcimento del danno (compensazione per le perdite causate), l'esecuzione in forma specifica (un'ordinanza del tribunale che obbliga la parte inadempiente a eseguire il contratto), o la risoluzione (l'annullamento del contratto).
+## Obiettivi di apprendimento
 
-*SUPPOSIZIONE:* Un inadempimento "essenziale" si riferisce generalmente a una violazione abbastanza grave da compromettere l'intero scopo del contratto, mentre un inadempimento "lieve" implica generalmente una piccola deviazione che non vanifica lo scopo generale dell'accordo — questa distinzione influenza spesso quali rimedi sono disponibili.
+- Definire l'inadempimento contrattuale.
+- Identificare le categorie generali di rimedi in caso di inadempimento.
+- Riconoscere l'inadempimento come un rischio d'impresa prevedibile, non come un evento insolito.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un imprenditore edile si impegna a costruire una veranda entro una data specifica ma non inizia mai il lavoro — questo costituirebbe generalmente un inadempimento essenziale, poiché compromette l'intero scopo del contratto. Se invece l'imprenditore completasse la veranda ma con tre giorni di ritardo rispetto alla data concordata, senza causare un danno reale, questo sarebbe generalmente considerato un inadempimento lieve.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è l'inadempimento contrattuale?
-2. Indica un rimedio comune in caso di inadempimento contrattuale.
-3. Vero/Falso: Un inadempimento lieve ha generalmente le stesse conseguenze di uno essenziale.
-4. Cosa distingue generalmente un inadempimento essenziale da uno lieve?
+Si ha inadempimento contrattuale quando una parte non adempie gli obblighi previsti da un accordo vincolante: salta un pagamento, non consegna un immobile, non completa i lavori concordati. Quando si verifica un inadempimento, la parte adempiente dispone in genere di rimedi giuridici, anche se le opzioni specifiche dipendono dal contratto e dall'ordinamento.
 
-## Chiave delle Risposte
-1. Quando una parte non rispetta i propri obblighi contrattuali senza una giustificazione valida   2. Risarcimento del danno, esecuzione in forma specifica, o risoluzione (tra gli altri)   3. Falso   4. Un inadempimento essenziale compromette l'intero scopo del contratto; uno lieve no
+Le categorie comuni di rimedi includono: il risarcimento del danno in denaro (compensazione per la perdita economica causata dall'inadempimento), l'esecuzione in forma specifica (un ordine del tribunale che obbliga la parte inadempiente a fare effettivamente ciò che aveva promesso, più frequente negli immobili, dove il bene stesso è unico) e la risoluzione del contratto (che libera la parte adempiente dai propri obblighi residui). Capire che l'inadempimento è un rischio prevedibile, da mettere in conto, e non una catastrofe insolita, fa parte di una cultura contrattuale matura: i contratti ben redatti specificano spesso in anticipo che cosa succede se una delle parti è inadempiente, ed è proprio per questo che un'attenta revisione del contratto conta prima della firma, non solo dopo che qualcosa è andato storto.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale dell'inadempimento contrattuale.
-2. Questi sono rimedi comunemente citati in caso di inadempimento.
-3. La gravità della violazione influenza generalmente quali rimedi sono disponibili.
-4. Questa è la distinzione generale tra inadempimento essenziale e lieve.
+## Esempio svolto
 
-## Punti Chiave da Ricordare
-- L'inadempimento contrattuale si verifica quando una parte non rispetta i propri obblighi senza giustificazione valida.
-- I rimedi comuni includono il risarcimento del danno, l'esecuzione in forma specifica, e la risoluzione.
-- Un inadempimento essenziale compromette lo scopo del contratto; uno lieve generalmente no.
+**Domanda:** Un acquirente firma un contratto per l'acquisto di un immobile specifico, poi la venditrice si tira indietro e lo vende a qualcun altro. Quale rimedio potrebbe essere particolarmente rilevante qui, dato che l'immobile è unico?
+
+**Studente:** Secondo questa lezione, potrebbe essere rilevante l'esecuzione in forma specifica, perché un tribunale potrebbe ordinare di concludere la vendita invece di riconoscere solo del denaro.
+
+**Guida:** Perché l'esecuzione in forma specifica avrebbe più senso per un immobile unico che, per esempio, per un prodotto generico?
+
+**Studente:** Perché l'immobile è unico nel suo genere: il solo denaro potrebbe non sostituire davvero ciò che l'acquirente voleva, a differenza di un prodotto generico che si potrebbe semplicemente ricomprare altrove.
+
+**Guida:** Esatto: ecco perché l'esecuzione in forma specifica compare così spesso nelle controversie sui contratti immobiliari.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Si ha inadempimento contrattuale quando:
+
+A) Entrambe le parti concordano di annullare l'affare
+B) Una parte non adempie gli obblighi previsti dall'accordo
+C) Un contratto viene firmato
+D) Non è mai stato raggiunto alcun accordo
+
+**Domanda 2.** Il risarcimento del danno in denaro è:
+
+A) Mai disponibile come rimedio
+B) Una compensazione per la perdita economica causata da un inadempimento
+C) Rilevante solo nei casi penali
+D) La stessa cosa dell'esecuzione in forma specifica
+
+**Domanda 3.** L'esecuzione in forma specifica è:
+
+A) Un ordine del tribunale che impone di realizzare ciò che era stato promesso
+B) Sempre la stessa cosa del risarcimento in denaro
+C) Mai usata negli immobili
+D) Irrilevante per il diritto dei contratti
+
+**Domanda 4.** Perché l'inadempimento è descritto come un “rischio prevedibile, da mettere in conto” e non come una catastrofe insolita?
+
+A) L'inadempimento in realtà non accade mai
+B) I contratti ben redatti specificano spesso in anticipo che cosa succede se una delle parti è inadempiente
+C) I contratti non affrontano mai questa possibilità
+D) Questa impostazione è inesatta
+
+## Soluzioni
+
+1. B, 2. B, 3. A, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'inadempimento è proprio il mancato adempimento di obblighi concordati giuridicamente.
+
+**2.** Il risarcimento mira a rimettere economicamente la parte adempiente nella situazione in cui sarebbe stata senza la perdita.
+
+**3.** L'esecuzione in forma specifica è particolarmente rilevante quando l'oggetto, come un immobile unico, non può essere semplicemente sostituito con denaro.
+
+**4.** I contratti maturi prevedono l'inadempimento e ne stabiliscono in anticipo le conseguenze, trattandolo come una possibilità reale da pianificare.
+
+## Punti chiave
+
+- Si ha inadempimento quando una parte non adempie i propri obblighi contrattuali.
+- I rimedi includono il risarcimento in denaro, l'esecuzione in forma specifica e la risoluzione del contratto.
+- L'esecuzione in forma specifica è particolarmente rilevante per beni unici come gli immobili.
+- L'inadempimento è un rischio prevedibile che i contratti ben redatti mettono in conto in anticipo.
