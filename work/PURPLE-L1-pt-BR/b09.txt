@@ -1,0 +1,399 @@
+===== PURPLE-L1-041
+TITLE: Responsabilidade: entendendo o que você pode dever juridicamente
+SUMMARY: Oferece uma definição clara e geral de responsabilidade jurídica, resumindo como ela apareceu nesta trilha em contratos, atos ilícitos e estruturas empresariais.
+# Responsabilidade: entendendo o que você pode dever juridicamente
+
+## Objetivos de aprendizagem
+
+- Definir a responsabilidade jurídica em termos simples.
+- Reconhecer as diferentes fontes de responsabilidade vistas nesta trilha.
+- Reforçar a responsabilidade como o conceito unificador por trás da maior parte do conteúdo do PURPLE.
+
+## Conteúdo principal
+
+Responsabilidade, em sentido jurídico, significa ser juridicamente responsável por algo: mais comumente, dever dinheiro ou outro remédio por causa de uma obrigação jurídica ou de um ilícito. Esta lição dá um passo atrás para nomear explicitamente o que foi o fio condutor de grande parte desta trilha: a responsabilidade contratual (dever indenização por inadimplemento, vista no início da trilha), a responsabilidade por ato ilícito (dever indenização por um dano causado fora de qualquer contrato) e a responsabilidade ligada à estrutura empresarial (se os bens pessoais ficam expostos às obrigações do negócio) são todas, no fundo, fontes diferentes do mesmo conceito subjacente.
+
+Reconhecer a responsabilidade como esse fio unificador ajuda a organizar tudo o que foi visto até aqui em uma estrutura coerente, e não em uma lista de temas desconectados: os contratos criam responsabilidade se forem descumpridos; os atos ilícitos criam responsabilidade quando se causa um dano; a estrutura empresarial determina quais bens ficam de fato expostos a essa responsabilidade; e o seguro e a proteção patrimonial, tratados nas lições próximas, são ferramentas pensadas especificamente para gerir a exposição à responsabilidade, uma vez que você a entenda como um risco real e sempre presente em RED, WHITE e BLUE. Cada tema jurídico específico desta trilha é, de certo modo, uma variação da mesma pergunta central: em que circunstâncias você pode se tornar juridicamente responsável por algo, e o que determina o alcance dessa responsabilidade?
+
+## Exemplo prático
+
+**Pergunta:** Olhando para toda a trilha, como você explicaria a alguém que contratos, atos ilícitos e estruturas empresariais são, na verdade, temas ligados, e não separados?
+
+**Aluno:** Com base nesta lição, todos são fontes diferentes do mesmo conceito subjacente – a responsabilidade jurídica –, ou seja, ser juridicamente responsável por algo, seja por um contrato descumprido, por um dano causado fora de um contrato ou por uma exposição ligada à estrutura empresarial.
+
+**Guia:** Como o seguro e a proteção patrimonial se encaixam nesse quadro unificado?
+
+**Aluno:** São ferramentas pensadas especificamente para gerir essa exposição à responsabilidade, uma vez que ela seja entendida como um risco real e sempre presente, em vez de serem temas separados e desconectados.
+
+**Guia:** Exatamente: a responsabilidade é o fio que mantém unido o conteúdo de toda esta trilha.
+
+## Teste de prática
+
+**Pergunta 1.** A responsabilidade jurídica geralmente significa:
+
+A) Ser juridicamente responsável por algo, como dever dinheiro ou outro remédio
+B) Um tipo de apólice de seguro
+C) Algo relevante apenas em casos criminais
+D) O mesmo que um contrato
+
+**Pergunta 2.** A responsabilidade contratual surge de:
+
+A) Um dano causado fora de qualquer acordo
+B) O descumprimento de um acordo juridicamente vinculante
+C) A propriedade de um imóvel
+D) Nada relacionado a contratos
+
+**Pergunta 3.** A responsabilidade por ato ilícito surge de:
+
+A) O descumprimento de um contrato
+B) Um dano causado a outra pessoa, independentemente de qualquer contrato
+C) Apenas decisões sobre a estrutura empresarial
+D) Nada relacionado ao direito civil
+
+**Pergunta 4.** Que papel o seguro e a proteção patrimonial têm, segundo o resumo desta lição?
+
+A) Criam responsabilidade em vez de geri-la
+B) São ferramentas pensadas especificamente para gerir a exposição à responsabilidade
+C) Não têm nenhuma relação com a responsabilidade
+D) Só se aplicam a questões criminais
+
+## Gabarito
+
+1. A, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Essa definição ampla capta o significado central comum a todo tipo específico de responsabilidade visto nesta trilha.
+
+**2.** Isso remete diretamente às lições anteriores sobre contratos, inadimplemento e vinculação.
+
+**3.** Isso remete diretamente à lição anterior que distinguiu as pretensões baseadas em dano das baseadas em contrato.
+
+**4.** Esta lição reformula explicitamente essas ferramentas como instrumentos de gestão da responsabilidade, unindo toda a trilha.
+
+## Pontos-chave
+
+- Responsabilidade jurídica significa ser juridicamente responsável por algo, normalmente devendo dinheiro ou outro remédio.
+- A responsabilidade contratual, a por ato ilícito e a ligada à estrutura empresarial são todas variações do mesmo conceito subjacente.
+- Essa visão unificada organiza o conteúdo de toda a trilha em torno de uma única pergunta central coerente.
+- O seguro e a proteção patrimonial, tratados em torno desta lição, são ferramentas para gerir a exposição à responsabilidade.
+
+===== PURPLE-L1-042
+TITLE: Garantias pessoais: quando você garante uma dívida da empresa
+SUMMARY: Explica o conceito jurídico de garantia pessoal, uma forma comum pela qual a proteção contra responsabilidade da estrutura empresarial é contornada de modo deliberado e voluntário.
+# Garantias pessoais: quando você garante uma dívida da empresa
+
+## Objetivos de aprendizagem
+
+- Definir uma garantia pessoal.
+- Explicar por que os credores muitas vezes a exigem, apesar da proteção da estrutura empresarial.
+- Ligar isso diretamente às lições anteriores sobre a responsabilidade de LLCs e corporations.
+
+## Conteúdo principal
+
+Uma garantia pessoal é um acordo separado e voluntário pelo qual uma pessoa – muitas vezes o dono de um negócio – promete pessoalmente pagar uma dívida da empresa se a própria empresa não pagar. Isso é diretamente relevante para a proteção contra responsabilidade de LLCs e corporations vista antes nesta trilha, e está em tensão real com ela: mesmo com uma entidade protetora corretamente constituída e administrada, assinar uma garantia pessoal cria, de forma deliberada e voluntária, exatamente a exposição à responsabilidade pessoal que a estrutura empresarial deveria evitar, especificamente para essa dívida. (No Brasil, isso costuma acontecer por meio de fiança ou de aval em títulos de crédito; leia esses documentos com atenção especial e, se necessário, peça a revisão de um profissional antes de assinar.)
+
+Os credores muitas vezes exigem garantias pessoais de donos de pequenos negócios justamente porque conhecem a proteção da estrutura empresarial: um credor que concede crédito a uma LLC mais nova ou menor muitas vezes não está disposto a contar apenas com os bens limitados e o histórico curto do negócio, então pede ao dono que garanta pessoalmente a dívida como condição do empréstimo. É uma peça decisiva de alfabetização jurídica prática: às vezes os empresários acreditam que sua LLC os protege totalmente, sem perceber que abriram mão separadamente dessa proteção para certas dívidas com uma garantia pessoal; o alcance real da responsabilidade pessoal de alguém só pode ser entendido olhando tanto para a estrutura empresarial quanto para as garantias pessoais assinadas por cima dela.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário acredita que sua LLC protege totalmente seus bens pessoais de todas as dívidas da empresa, mas não lembra se assinou uma garantia pessoal quando conseguiu um empréstimo empresarial. Por que isso importa?
+
+**Aluno:** Com base nesta lição, se ele assinou uma garantia pessoal para esse empréstimo, criou voluntariamente uma responsabilidade pessoal por essa dívida específica, independentemente do que a LLC protegeria de outra forma.
+
+**Guia:** Por que um credor teria exigido essa garantia, mesmo emprestando a uma LLC corretamente constituída?
+
+**Aluno:** Porque os credores muitas vezes não querem contar apenas com os bens limitados de um negócio mais novo ou menor, e por isso exigem a garantia pessoal do dono como condição para conceder crédito.
+
+**Guia:** Exatamente: e é por isso que entender sua responsabilidade real exige olhar tanto para a estrutura empresarial quanto para as garantias assinadas por cima dela.
+
+## Teste de prática
+
+**Pergunta 1.** Uma garantia pessoal é:
+
+A) Uma característica automática de toda LLC
+B) Um acordo separado e voluntário de pagar pessoalmente uma dívida da empresa se ela não pagar
+C) O mesmo que constituir uma LLC
+D) Ilegal na maioria dos lugares
+
+**Pergunta 2.** Como uma garantia pessoal se relaciona com a proteção contra responsabilidade de LLC/corporation?
+
+A) Não tem nenhuma relação com a proteção da entidade
+B) Cria voluntariamente responsabilidade pessoal por uma dívida específica, mesmo que a proteção da entidade se aplicasse de outra forma
+C) Reforça automaticamente a proteção da entidade
+D) É exigida para toda dívida empresarial, sem exceção
+
+**Pergunta 3.** Por que os credores muitas vezes exigem garantias pessoais de donos de pequenos negócios?
+
+A) Sem motivo real, é arbitrário
+B) Muitas vezes não querem contar apenas com os bens limitados de um negócio mais novo ou menor
+C) Garantias pessoais são exigidas por lei para todos os empréstimos
+D) Na verdade, os credores nunca as exigem
+
+**Pergunta 4.** O que esta lição aponta como peça decisiva de alfabetização jurídica prática?
+
+A) Supor que uma LLC sempre protege totalmente os bens pessoais
+B) Entender que a responsabilidade pessoal real exige olhar tanto para a estrutura empresarial quanto para as garantias pessoais assinadas
+C) Nunca assinar nenhum documento empresarial
+D) LLCs dispensam a verificação de garantias pessoais
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A garantia é um compromisso jurídico distinto e separado, e não uma característica automática de qualquer estrutura empresarial.
+
+**2.** Justamente esse contorno voluntário explica por que uma garantia pessoal pode enfraquecer, para uma obrigação específica, uma proteção da entidade que de outra forma seria sólida.
+
+**3.** Essa prática de crédito é uma resposta racional aos limites reais da capacidade de crédito de negócios mais novos ou menores.
+
+**4.** Essa visão combinada é apresentada como essencial para avaliar com precisão a própria exposição jurídica real.
+
+## Pontos-chave
+
+- Uma garantia pessoal é uma promessa separada e voluntária de pagar pessoalmente uma dívida da empresa.
+- Ela cria responsabilidade pessoal por essa dívida específica, por cima de uma estrutura empresarial de outra forma protetora.
+- Os credores muitas vezes exigem garantias de donos de pequenos negócios como condição para conceder crédito.
+- Entender a responsabilidade pessoal real exige verificar tanto a estrutura empresarial quanto as garantias assinadas.
+
+===== PURPLE-L1-043
+TITLE: Trusts: instrumentos jurídicos para manter e proteger bens
+SUMMARY: Apresenta o conceito geral de trust como instrumento jurídico para manter bens, ligando-o tanto ao tema da proteção patrimonial quanto ao planejamento sucessório de GOLD.
+# Trusts: instrumentos jurídicos para manter e proteger bens
+
+## Objetivos de aprendizagem
+
+- Definir um trust em termos gerais.
+- Explicar os papéis gerais envolvidos (instituidor, trustee, beneficiário).
+- Ligar os trusts tanto à proteção patrimonial quanto ao planejamento sucessório.
+
+## Conteúdo principal
+
+Um trust é um arranjo jurídico em que uma parte (o instituidor, em inglês "settlor" ou "grantor") transfere bens que passam a ser mantidos e administrados por outra parte (o trustee) em benefício de uma terceira parte (o beneficiário), conforme as condições definidas pelo instituidor. Os trusts servem a vários propósitos jurídicos relevantes para este currículo: algumas estruturas oferecem certo grau de proteção patrimonial, separando a propriedade jurídica da propriedade pessoal de formas que podem proteger os bens de certas pretensões futuras; outras servem principalmente como instrumentos de planejamento sucessório, ligando-se diretamente aos conceitos de planejamento patrimonial da seção Transmitir de GOLD. (O Brasil não tem uma lei de trusts como a da common law; na prática, para objetivos parecidos, costumam ser usadas outras estruturas, como holdings familiares, fundos ou doações com cláusulas; confirme com um profissional.)
+
+Os efeitos jurídicos, as proteções e as exigências específicas dos diferentes tipos de trust variam enormemente conforme o lugar e o tipo de trust usado: é um terreno jurídico realmente complexo, mais do que a maioria dos outros temas desta trilha, e um caso claro em que se precisa de orientação profissional, e não de "faça você mesmo". A mensagem prática neste nível de alfabetização jurídica é reconhecer o que um trust é estruturalmente (um arranjo de três partes que separa a propriedade jurídica do benefício econômico) e que se trata de uma ferramenta real e legítima, que vale a pena discutir com um profissional tanto para proteção patrimonial quanto para planejamento sucessório, e não de um conceito misterioso ou só para ricos.
+
+## Exemplo prático
+
+**Pergunta:** Alguém supõe que trusts só são relevantes para pessoas extremamente ricas e descarta a ideia de algum dia conversar sobre isso com um profissional. O que esta lição sugere sobre essa suposição?
+
+**Aluno:** Com base nesta lição, ela não está totalmente correta: os trusts são descritos como uma ferramenta real e legítima de proteção patrimonial e planejamento sucessório, e não como um conceito só para ricos.
+
+**Guia:** Por que esta lição insiste tanto na orientação profissional especificamente para trusts, mais do que para alguns outros temas desta trilha?
+
+**Aluno:** Porque o direito dos trusts é descrito como realmente complexo e muito dependente do lugar, mais do que a maioria dos outros temas, o que o torna um caso claro para execução profissional, em vez de tentar sozinho.
+
+**Guia:** Exatamente: reconhecer a ferramenta e saber quando chamar um profissional é o objetivo real de alfabetização jurídica aqui.
+
+## Teste de prática
+
+**Pergunta 1.** Um trust é:
+
+A) Apenas um tipo de estrutura empresarial
+B) Um arranjo jurídico em que um instituidor transfere bens a um trustee, que os mantém em benefício de um beneficiário
+C) O mesmo que um testamento
+D) Irrelevante para a proteção patrimonial ou a sucessão
+
+**Pergunta 2.** Os três papéis gerais em um trust são:
+
+A) Comprador, vendedor e credor
+B) Instituidor, trustee e beneficiário
+C) Locador, locatário e corretor
+D) Autor, réu e juiz
+
+**Pergunta 3.** Como esta lição liga os trusts ao conteúdo anterior do currículo?
+
+A) Não há ligação
+B) Tanto aos temas de proteção patrimonial desta trilha quanto aos conceitos de planejamento sucessório de GOLD
+C) Apenas ao direito imobiliário
+D) Apenas ao direito do mercado de capitais
+
+**Pergunta 4.** Por que esta lição insiste especialmente na orientação profissional para trusts?
+
+A) Os trusts não exigem nenhuma complexidade ou orientação real
+B) O direito dos trusts é realmente complexo e muito dependente do lugar, mais do que a maioria dos outros temas desta trilha
+C) Trusts são ilegais sem um advogado presente
+D) Esta lição não insiste na orientação profissional
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Essa estrutura de três partes, que separa a propriedade jurídica do benefício econômico, é a característica que define um trust.
+
+**2.** Esses três papéis definem a relação estrutural básica no centro de qualquer trust.
+
+**3.** Esta lição liga deliberadamente os trusts tanto ao tema da proteção patrimonial aqui quanto ao conteúdo de planejamento sucessório visto antes em GOLD.
+
+**4.** A lição sinaliza explicitamente esse terreno como incomumente complexo, o que justifica cautela especial e orientação profissional.
+
+## Pontos-chave
+
+- Um trust é um arranjo jurídico de três partes: instituidor, trustee e beneficiário.
+- Os trusts podem servir tanto à proteção patrimonial quanto ao planejamento sucessório.
+- Isso se liga diretamente ao conteúdo de planejamento patrimonial visto antes em GOLD.
+- O direito dos trusts é realmente complexo e dependente do lugar, o que torna a orientação profissional especialmente importante aqui.
+
+===== PURPLE-L1-044
+TITLE: Procurações: a autoridade jurídica para agir em nome de outra pessoa
+SUMMARY: Apresenta a procuração como instrumento jurídico que dá a alguém o poder de agir em nome de outra pessoa, relevante tanto para a continuidade do negócio quanto para o planejamento em caso de incapacidade.
+# Procurações: a autoridade jurídica para agir em nome de outra pessoa
+
+## Objetivos de aprendizagem
+
+- Definir uma procuração (em inglês, "power of attorney").
+- Distinguir a procuração geral da procuração específica.
+- Ligá-la tanto a contextos empresariais quanto ao planejamento pessoal.
+
+## Conteúdo principal
+
+Uma procuração é um documento jurídico que dá a uma pessoa (o procurador) o poder de agir em nome de outra pessoa (o outorgante) em determinadas questões. Uma **procuração geral** dá amplos poderes em questões financeiras e jurídicas; uma **procuração específica** dá poderes apenas para um propósito ou uma transação específica, como assinar os documentos da conclusão de uma compra de imóvel quando o outorgante não pode estar presente.
+
+Essa ferramenta importa tanto nos contextos empresariais quanto nos pessoais deste currículo. Em um contexto empresarial da trilha BLUE, uma procuração pode permitir que uma pessoa de confiança assine documentos ou tome certas decisões quando o dono não está disponível, apoiando a continuidade do negócio. Em um contexto mais amplo de planejamento pessoal – ligado às lições de planejamento patrimonial de GOLD –, a procuração é muitas vezes pensada especificamente para produzir efeito se o outorgante se tornar incapaz, garantindo que alguém tenha autoridade jurídica para cuidar de seus assuntos sem precisar de um processo judicial, exatamente o tipo de planejamento preventivo que a seção sucessória de GOLD recomendava fazer bem antes de parecer urgente. (No Brasil, para atos imobiliários a procuração em regra precisa ser pública, lavrada em cartório; em caso de incapacidade, podem ser necessárias medidas judiciais como a curatela, e os limites de uma procuração preventiva devem ser avaliados com um profissional.)
+
+## Exemplo prático
+
+**Pergunta:** Alguém está planejando a conclusão da compra de um imóvel, mas sabe que estará viajando e não poderá comparecer pessoalmente. Que instrumento jurídico desta lição poderia resolver isso?
+
+**Aluno:** Com base nesta lição, uma procuração específica poderia funcionar: ela dá a alguém poderes para aquela transação específica, como assinar os documentos da conclusão, sem lhe dar uma autoridade mais ampla além desse propósito.
+
+**Guia:** Em que isso difere de uma procuração geral?
+
+**Aluno:** Uma procuração geral daria uma autoridade muito mais ampla em questões financeiras e jurídicas, enquanto uma específica fica estritamente limitada ao propósito específico necessário, como essa conclusão.
+
+**Guia:** Exatamente: ajustar o alcance da autoridade à necessidade real é o ponto prático aqui.
+
+## Teste de prática
+
+**Pergunta 1.** Uma procuração é:
+
+A) Um tipo de ordem judicial
+B) Um documento jurídico que dá a uma pessoa o poder de agir em nome de outra
+C) O mesmo que um testamento
+D) Irrelevante para o planejamento empresarial ou pessoal
+
+**Pergunta 2.** Uma procuração geral dá:
+
+A) Poderes para apenas um propósito restrito e específico
+B) Amplos poderes em questões financeiras e jurídicas
+C) Nenhum poder real
+D) Apenas poderes sobre imóveis
+
+**Pergunta 3.** Uma procuração específica é útil em situações como:
+
+A) Dar autoridade ilimitada por toda a vida
+B) Assinar os documentos da conclusão de uma transação específica quando o outorgante não pode estar presente
+C) Nada prático
+D) Apenas questões criminais
+
+**Pergunta 4.** Como esta lição liga a procuração ao conteúdo anterior de GOLD?
+
+A) Não há ligação
+B) Uma procuração pode ser pensada para produzir efeito em caso de incapacidade, retomando o tema do planejamento sucessório preventivo de GOLD
+C) Apenas ao conteúdo de GOLD sobre metais preciosos
+D) Apenas à lição de GOLD sobre juros compostos
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Esse documento cria justamente uma autoridade jurídica delegada ao procurador indicado.
+
+**2.** A autoridade ampla e geral é a característica que distingue esse tipo da procuração específica.
+
+**3.** Essa autoridade limitada é um uso prático e comum de uma procuração específica.
+
+**4.** Isso se liga diretamente à ênfase de GOLD em um planejamento preventivo que antecipe a incapacidade, feito antes de parecer urgente.
+
+## Pontos-chave
+
+- Uma procuração dá autoridade jurídica delegada para agir em nome de outra pessoa.
+- As procurações gerais dão amplos poderes; as específicas se limitam a um propósito específico.
+- Essa ferramenta apoia tanto a continuidade do negócio quanto o planejamento pessoal em caso de incapacidade.
+- Ela se liga diretamente ao tema do planejamento preventivo da seção sucessória de GOLD.
+
+===== PURPLE-L1-045
+TITLE: Prescrição: por que as pretensões jurídicas expiram
+SUMMARY: Apresenta o conceito de prescrição, explicando por que as pretensões jurídicas não ficam disponíveis para sempre e por que isso importa tanto para fazê-las valer quanto para se defender.
+# Prescrição: por que as pretensões jurídicas expiram
+
+## Objetivos de aprendizagem
+
+- Definir a prescrição (em inglês, "statute of limitations") em termos simples.
+- Explicar a lógica geral de política pública por trás de limitar as pretensões no tempo.
+- Reconhecer a relevância prática tanto para possíveis autores quanto para réus.
+
+## Conteúdo principal
+
+A prescrição é um prazo jurídico dentro do qual uma pretensão precisa ser exercida; depois dele, em geral ela não pode mais ser cobrada na justiça, por mais fundada que seja. Diferentes tipos de pretensão (disputas contratuais, pretensões por ato ilícito e outras) costumam ter prazos diferentes, e esses prazos variam conforme o lugar: não existe um número universal para decorar, mas o conceito subjacente vale de forma ampla. (No Brasil, segundo informações disponíveis, o prazo geral de prescrição do Código Civil é de dez anos, e a pretensão de reparação civil por ato ilícito prescreve, em regra, em três anos; há muitas exceções e regras sobre interrupção, então confirme com um profissional.)
+
+A lógica geral de política pública é dupla: provas e lembranças se deterioram de verdade com o tempo, o que torna mais difícil resolver com justiça pretensões antigas, e há um interesse social real na segurança jurídica, ou seja, em permitir que pessoas e empresas sigam em frente sem uma exposição indefinida a pretensões de um passado distante. Isso importa na prática dos dois lados: quem tem uma queixa legítima precisa entender que há um prazo real para exercê-la, e não tempo ilimitado para decidir; e quem enfrenta uma possível pretensão deve entender que pretensões antigas o suficiente podem estar totalmente prescritas, o que é um contexto relevante (mas não um substituto de uma orientação jurídica real) para avaliar a exposição real a uma disputa antiga.
+
+## Exemplo prático
+
+**Pergunta:** Alguém descobre uma disputa contratual legítima de muitos anos atrás e se pergunta se ainda pode processar hoje. O que esta lição sugere verificar primeiro?
+
+**Aluno:** Com base nesta lição, ele deveria verificar se o prazo de prescrição para esse tipo de pretensão já terminou, porque em geral as pretensões não podem ser cobradas depois desse limite, por mais fundadas que sejam.
+
+**Guia:** Por que só o fato de a pretensão ser fundada pode não bastar para garantir que ela ainda possa ser exercida?
+
+**Aluno:** Porque a prescrição existe justamente para limitar as pretensões no tempo, por motivos como a deterioração das provas e o interesse na segurança jurídica: mesmo uma pretensão totalmente legítima pode ficar juridicamente indisponível se passou tempo demais.
+
+**Guia:** Exatamente: o mérito e a disponibilidade jurídica são duas questões separadas.
+
+## Teste de prática
+
+**Pergunta 1.** A prescrição é:
+
+A) Um direito permanente de processar a qualquer momento
+B) Um prazo jurídico dentro do qual uma pretensão precisa ser exercida
+C) Relevante apenas em casos criminais
+D) Igual em todo lugar e para todo tipo de pretensão
+
+**Pergunta 2.** A lógica geral de política pública por trás de limitar as pretensões no tempo inclui:
+
+A) Não há lógica real
+B) A deterioração das provas com o tempo e o interesse na segurança jurídica
+C) Apenas proteger réus ricos
+D) Incentivar litígios indefinidos
+
+**Pergunta 3.** Os diferentes tipos de pretensão costumam ter o mesmo prazo?
+
+A) Sim, sempre idêntico
+B) Não: tipos de pretensão e lugares diferentes costumam ter prazos diferentes
+C) Os prazos não têm relação com o tipo de pretensão
+D) Nenhuma pretensão tem prazo
+
+**Pergunta 4.** Por que isso importa para quem enfrenta uma possível pretensão antiga?
+
+A) Não tem relevância prática
+B) Pretensões antigas o suficiente podem estar totalmente prescritas, o que é um contexto relevante para avaliar a exposição
+C) Pretensões antigas são sempre automaticamente válidas
+D) Esta lição só importa para autores, nunca para réus
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Esse mecanismo de prazo jurídico é exatamente o que a prescrição estabelece.
+
+**2.** Tanto a deterioração das provas quanto o valor da segurança jurídica são citados como a lógica subjacente.
+
+**3.** A variação por tipo de pretensão e por lugar é citada explicitamente, em vez de supor um único número universal.
+
+**4.** É um contexto prático e diretamente útil para avaliar a exposição real a uma disputa antiga, dos dois lados de uma possível pretensão.
+
+## Pontos-chave
+
+- A prescrição limita juridicamente o tempo dentro do qual uma pretensão pode ser exercida.
+- Ela reflete preocupações com a deterioração das provas e o valor da segurança jurídica.
+- Os prazos variam por tipo de pretensão e por lugar: nenhum número vale em todo lugar.
+- Isso importa na prática tanto para possíveis autores quanto para réus que avaliam disputas antigas.
