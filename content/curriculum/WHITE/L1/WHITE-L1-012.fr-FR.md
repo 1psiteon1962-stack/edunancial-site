@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 12
 locale: fr-FR
-title: "WHITE-L1-012 : Les Bases de la Répartition d'Actifs"
-summary: "*HYPOTHÈSE :* Une tendance générale couramment citée veut que les horizons de placement plus longs puissent soutenir des répartitions plus élevées en actions, tandis que les horizons plus courts favorisent souvent davantage d'obligations/liquidités — mais ceci reste une orientation générale, pas une règle applicable à chaque situation individuelle."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le taux de frais courants, et pourquoi un petit pourcentage devrait-il vous importer?"
+summary: "Découvrez ce qu’est le taux de frais courants d’un fonds, et pourquoi un pourcentage annuel apparemment petit compte avec le temps."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-012 : Les Bases de la Répartition d'Actifs
+# Qu’est-ce que le taux de frais courants, et pourquoi un petit pourcentage devrait-il vous importer?
 
-## Objectifs d'Apprentissage
-1. Définir la répartition d'actifs.
-2. Expliquer en quoi la répartition diffère de la diversification.
-3. Identifier les facteurs qui influencent typiquement les décisions de répartition.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La répartition d'actifs, c'est la manière dont un investisseur divise son portefeuille entre de grandes catégories d'actifs — couramment les actions, les obligations, et les liquidités — selon ses objectifs, son horizon de placement, et sa tolérance au risque. *HYPOTHÈSE :* Alors que la diversification répartit le risque au sein d'une catégorie (plusieurs actions différentes), la répartition est la décision de plus haut niveau concernant combien placer dans chaque catégorie en premier lieu.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Une tendance générale couramment citée veut que les horizons de placement plus longs puissent soutenir des répartitions plus élevées en actions, tandis que les horizons plus courts favorisent souvent davantage d'obligations/liquidités — mais ceci reste une orientation générale, pas une règle applicable à chaque situation individuelle.
+- Définir le taux de frais courants en termes simples.
+- Calculer le coût annuel approximatif à partir du solde d’un fonds et de son taux de frais courants.
+- Expliquer pourquoi de petites différences de pourcentage comptent avec le temps.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux investisseurs diversifient bien au sein de leurs avoirs en actions (plusieurs entreprises différentes). L'Investisseur A, à 25 ans de la retraite, répartit 90 % actions / 10 % obligations. L'Investisseur B, à 2 ans de la retraite, répartit 40 % actions / 60 % obligations. Le même principe de diversification est appliqué au sein de chaque catégorie, mais la répartition entre catégories diffère fortement selon l'horizon de placement.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la répartition d'actifs ?
-2. En quoi la répartition diffère-t-elle de la diversification ?
-3. Que pourraient couramment soutenir les horizons de placement plus longs, selon les orientations générales ?
-4. Vrai/Faux : La répartition d'actifs devrait être identique pour chaque investisseur.
+### Ce qu’est le taux de frais courants
+
+Le taux de frais courants (ou *expense ratio* en anglais) est le frais annuel qu’un fonds (comme un ETF ou un fonds commun de placement) facture, exprimé en pourcentage du montant investi, pour couvrir ses coûts de fonctionnement.
+
+### Calculer le coût
+
+Un taux de frais courants de 0,50 % sur un placement de 10 000 € coûte environ 50 € par année, prélevés automatiquement sur le rendement du fonds — les investisseurs ne le paient habituellement pas sous forme de facture distincte.
+
+### Pourquoi de petits pourcentages comptent avec le temps
+
+Comme le taux de frais courants est facturé chaque année, même de petites différences s’accumulent de façon importante sur de longues périodes. Des frais de 0,10 % plutôt que de 1,00 % sur le même placement, détenu pendant des décennies, peuvent représenter un coût total sensiblement différent, même si la différence annuelle semble petite.
+
+## Exemple pratique
+
+Un placement de 10 000 € dont le taux de frais courants est de 1,00 % coûte environ 100 € par année en frais. Le même placement avec un ratio de 0,10 % coûte environ 10 € par année — une différence de 90 € qui s’accumule de façon importante s’il est détenu pendant de nombreuses années.
+
+## Quiz pratique
+
+1. Le taux de frais courants est :
+   A. Un frais d’achat unique
+   B. Un frais annuel facturé en pourcentage du montant investi
+   C. Un impôt dû sur les dividendes
+   D. Un frais facturé seulement au moment de la vente
+2. Vrai ou faux : les différences de taux de frais courants sont trop petites pour compter avec le temps.
+3. Un placement de 20 000 € a un taux de frais courants de 0,40 %. Combien cela coûte-t-il environ par année?
+   A. 8 €
+   B. 40 €
+   C. 80 €
+   D. 400 €
 
 ## Corrigé
-1. La manière dont un portefeuille est divisé entre de grandes catégories d'actifs   2. La répartition est la division au niveau des catégories ; la diversification consiste à répartir au sein d'une catégorie   3. Des répartitions plus élevées en actions (comme tendance générale)   4. Faux
 
-## Réponses et Explications
-1. Ceci définit le concept fondamental de la répartition d'actifs.
-2. Ceci distingue la répartition (catégories) de la diversification (répartition au sein des catégories).
-3. Ceci est une orientation générale couramment citée, pas une règle universelle.
-4. La répartition devrait refléter les objectifs individuels, l'horizon de placement, et la tolérance au risque.
+1. B
+2. Faux
+3. C
 
-## Points Clés à Retenir
-- La répartition d'actifs est la division entre de grandes catégories comme les actions, les obligations, les liquidités.
-- Elle est distincte de la diversification, qui répartit le risque au sein d'une catégorie.
-- L'horizon de placement et la tolérance au risque influencent couramment les décisions de répartition.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le taux de frais courants est un frais annuel calculé en pourcentage.
+
+### Question 2
+Bonne réponse : Faux. De petites différences annuelles s’accumulent de façon importante sur de longues périodes.
+
+### Question 3
+Bonne réponse : C. 20 000 € × 0,40 % = 80 €.
+
+## Points clés
+
+- Le taux de frais courants est un frais annuel, facturé en pourcentage de l’actif investi.
+- Il est déduit automatiquement du rendement du fonds, et non facturé séparément.
+- De petites différences de ratio peuvent s’accumuler en coûts importants avec le temps.

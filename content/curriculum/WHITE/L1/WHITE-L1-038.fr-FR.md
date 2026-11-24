@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 38
 locale: fr-FR
-title: "WHITE-L1-038 : L'Inflation et Son Effet sur les Placements"
-summary: "Leçon WHITE-L1-038 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’une opération d’initié, et pourquoi est-ce illégal?"
+summary: "Découvrez ce que signifie une opération d’initié, et le raisonnement de base qui explique pourquoi elle est interdite."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-038 : L'Inflation et Son Effet sur les Placements
+# Qu’est-ce qu’une opération d’initié, et pourquoi est-ce illégal?
 
-## Objectifs d'Apprentissage
-1. Définir l'inflation en termes généraux.
-2. Expliquer pourquoi l'inflation érode le pouvoir d'achat.
-3. Identifier pourquoi « battre l'inflation » importe pour le placement à long terme.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-L'inflation est la hausse générale des prix dans le temps, ce qui réduit le pouvoir d'achat d'un montant d'argent donné. *FAIT VÉRIFIÉ :* Si le rendement d'un placement ne dépasse pas le taux d'inflation, le pouvoir d'achat réel (corrigé de l'inflation) de l'investisseur peut diminuer même si le solde de son compte progresse nominalement.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un placement rapporte 3 % par an tandis que l'inflation atteint 4 % cette année-là. Le solde du compte progresse nominalement, mais son pouvoir d'achat réel diminue en réalité d'environ 1 %, les prix ayant augmenté plus vite que la valeur du placement. Ceci illustre pourquoi « battre l'inflation » — pas seulement obtenir un rendement positif — importe pour véritablement accroître sa richesse dans le temps.
+- Définir une opération d’initié en termes simples.
+- Expliquer le raisonnement de base qui explique pourquoi elle est interdite.
+- Reconnaître qu’il s’agit d’une véritable limite juridique, et pas seulement d’une ligne directrice éthique.
 
-## Quiz Pratique
-1. Qu'est-ce que l'inflation ?
-2. Qu'advient-il du pouvoir d'achat si l'inflation dépasse le rendement des placements ?
-3. Vrai/Faux : Un solde de compte progressant nominalement signifie toujours un pouvoir d'achat réel croissant.
-4. Si un placement rapporte 5 % et que l'inflation est de 3 %, quel est le rendement réel approximatif ?
+## Contenu principal
+
+### Ce qu’est une opération d’initié
+
+*(RÈGLE PROPRE À LA RÉGION : cette leçon décrit la notion générale; les lois précises varient selon le pays. En France, ces opérations sont encadrées notamment par le Code monétaire et financier et par l’Autorité des marchés financiers (AMF).)* Une opération d’initié (le délit d’initié) désigne généralement l’achat ou la vente d’une action sur la base d’une information importante et non publique — une information qui n’est pas encore accessible au grand public et qui pourrait raisonnablement influer sur le cours de l’action.
+
+### Le raisonnement de base derrière l’interdiction
+
+Les marchés sont généralement censés fonctionner sur un pied d’égalité en matière d’information. Une personne qui négocie sur la base d’une information non publique a un avantage injuste sur les autres investisseurs qui n’ont pas accès à cette même information — ce qui mine la confiance de tous les autres dans l’équité des prix du marché.
+
+### Une véritable limite juridique
+
+Ce n’est pas seulement considéré comme contraire à l’éthique — dans de nombreux pays, y compris en vertu des protections prévues par le droit américain des valeurs mobilières, c’est une véritable infraction juridique passible de poursuites, et pas simplement une question de jugement personnel.
+
+## Exemple pratique
+
+Une employée qui apprend, avant l’annonce publique, que son entreprise s’apprête à publier des résultats décevants, et qui vend ses actions sur la base de cette information non publique avant l’annonce, commettrait une opération d’initié.
+
+## Quiz pratique
+
+1. Une opération d’initié désigne généralement :
+   A. Le fait de négocier une action sur la base d’une information publique
+   B. Le fait de négocier une action sur la base d’une information importante et non publique
+   C. Un type de versement de dividende
+   D. Un formulaire de déclaration obligatoire
+2. Vrai ou faux : une opération d’initié n’est qu’une ligne directrice éthique, et non une véritable infraction juridique.
+3. Pourquoi les opérations d’initiés sont-elles généralement interdites?
+   A. Cette interdiction n’a aucune justification réelle
+   B. Elles créent un avantage injuste sur les investisseurs qui n’ont pas accès à la même information
+   C. Elles ne sont illégales que pour les dirigeants d’entreprise
+   D. Elles ne concernent que les obligations
 
 ## Corrigé
-1. La hausse générale des prix dans le temps   2. Le pouvoir d'achat diminue malgré la progression nominale du compte   3. Faux   4. Environ 2 %
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'inflation.
-2. Ceci illustre la distinction réel/nominal centrale dans cette leçon.
-3. La progression nominale peut masquer une diminution du pouvoir d'achat réel si l'inflation la dépasse.
-4. 5 % − 3 % = environ 2 % de rendement réel (une approximation simplifiée).
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- L'inflation est la hausse générale des prix, érodant le pouvoir d'achat dans le temps.
-- Les rendements nominaux doivent dépasser l'inflation pour que le pouvoir d'achat réel progresse véritablement.
-- « Battre l'inflation » est une référence clé du placement à long terme, pas seulement obtenir un rendement positif.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une opération d’initié consiste à négocier sur la base d’une information importante et non publique.
+
+### Question 2
+Bonne réponse : Faux. C’est une véritable infraction juridique passible de poursuites dans de nombreux territoires, et pas seulement une question d’éthique.
+
+### Question 3
+Bonne réponse : B. Elle mine l’accès égal et équitable à l’information susceptible d’influer sur le marché.
+
+## Points clés
+
+- Une opération d’initié consiste à négocier sur la base d’une information importante et non publique.
+- Elle est interdite parce qu’elle crée un avantage injuste en matière d’information.
+- C’est une véritable infraction juridique, et pas seulement une ligne directrice éthique.

@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 8
 locale: fr-CA
-title: "WHITE-L1-008 : Les Dividendes — Être Payé pour Être Propriétaire"
-summary: "*FAIT VÉRIFIÉ :* Rendement du Dividende = Dividende Annuel Par Action ÷ Cours de l'Action, exprimé en pourcentage, montrant le revenu de dividendes par rapport au coût du placement."
-sourceVersion: "1.0"
+title: "Qu’est-ce que la capitalisation boursière?"
+summary: "Découvrez ce que mesure la capitalisation boursière, comment la calculer et pourquoi elle n’est pas la même chose que l’encaisse ou la valeur totale d’une entreprise."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-008 : Les Dividendes — Être Payé pour Être Propriétaire
+# Qu’est-ce que la capitalisation boursière?
 
-## Objectifs d'Apprentissage
-1. Définir un dividende.
-2. Expliquer pourquoi toutes les entreprises ne versent pas de dividendes.
-3. Calculer un rendement du dividende simple.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un dividende est une partie des bénéfices d'une entreprise distribuée aux actionnaires, habituellement versée trimestriellement. *HYPOTHÈSE :* Le versement de dividendes par une entreprise relève d'une décision de gestion — les entreprises axées sur la croissance réinvestissent souvent leurs bénéfices plutôt que de verser des dividendes, tandis que les entreprises plus matures et stables en versent plus couramment, bien que ce ne soit pas une règle stricte.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* Rendement du Dividende = Dividende Annuel Par Action ÷ Cours de l'Action, exprimé en pourcentage, montrant le revenu de dividendes par rapport au coût du placement.
+- Énoncer la formule de la capitalisation boursière.
+- Calculer la capitalisation boursière à partir du cours de l’action et du nombre d’actions en circulation.
+- Expliquer pourquoi la capitalisation boursière n’est pas la même chose que l’encaisse ou l’actif total d’une entreprise.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une action se négocie à 100 $ l'action et verse un dividende annuel de 3 $ par action. Rendement du Dividende = 3 $ ÷ 100 $ = 3 %. Un investisseur détenant 100 actions (10 000 $ investis) toucherait 300 $ par an en revenu de dividendes, indépendamment de toute plus-value ou moins-value des actions elles-mêmes.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un dividende ?
-2. Quelle est la formule du rendement du dividende ?
-3. Vrai/Faux : Toutes les entreprises cotées en bourse sont tenues de verser des dividendes.
-4. Si une action verse un dividende de 2 $ et se négocie à 50 $, quel est le rendement du dividende ?
+### La formule
+
+Capitalisation boursière = cours de l’action × nombre total d’actions en circulation. Elle représente la valeur marchande totale de l’ensemble des actions d’une entreprise.
+
+### Ce qu’elle mesure réellement
+
+La capitalisation boursière reflète ce que les investisseurs, collectivement, croient que vaut la propriété de l’entreprise en ce moment — une estimation du marché en temps réel, et non un chiffre vérifié ou fixe.
+
+### Pourquoi ce n’est pas la même chose que l’encaisse ou la valeur totale
+
+La capitalisation boursière n’est pas la même chose que l’argent dont dispose une entreprise, son chiffre d’affaires total ou même son actif total. Une entreprise peut avoir une capitalisation boursière élevée tout en disposant de relativement peu de liquidités, parce que la capitalisation boursière reflète les attentes des investisseurs quant à la valeur future, et non un instantané du bilan actuel.
+
+## Exemple pratique
+
+Une entreprise qui compte 10 000 000 d’actions en circulation négociées à 50 $ l’action a une capitalisation boursière de 10 000 000 × 50 $ = 500 000 000 $ — peu importe le montant des liquidités que l’entreprise détient réellement.
+
+## Quiz pratique
+
+1. La capitalisation boursière se calcule ainsi :
+   A. Chiffre d’affaires total × nombre d’employés
+   B. Cours de l’action × nombre total d’actions en circulation
+   C. Actif total − passif total
+   D. Bénéfice annuel ÷ actions en circulation
+2. Vrai ou faux : la capitalisation boursière est la même chose que l’encaisse d’une entreprise.
+3. Une entreprise compte 2 000 000 d’actions en circulation négociées à 30 $ l’action. Quelle est sa capitalisation boursière?
+   A. 6 000 $
+   B. 60 000 $
+   C. 6 000 000 $
+   D. 60 000 000 $
 
 ## Corrigé
-1. Une partie des bénéfices de l'entreprise distribuée aux actionnaires   2. Dividende Annuel Par Action ÷ Cours de l'Action   3. Faux   4. 4 %
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un versement de dividende.
-2. Ceci est le calcul standard du rendement du dividende.
-3. Les dividendes relèvent d'une décision de l'entreprise, non d'une obligation légale.
-4. 2 $ ÷ 50 $ = 0,04 = 4 %.
+1. B
+2. Faux
+3. D
 
-## Points Clés à Retenir
-- Les dividendes distribuent les bénéfices de l'entreprise aux actionnaires, typiquement chaque trimestre.
-- Le versement de dividendes relève d'une décision de gestion, ce n'est ni garanti ni obligatoire.
-- Le rendement du dividende mesure le revenu de dividendes par rapport au prix de l’action.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Capitalisation boursière = cours de l’action × actions en circulation.
+
+### Question 2
+Bonne réponse : Faux. La capitalisation boursière reflète une valeur marchande, et non les liquidités détenues.
+
+### Question 3
+Bonne réponse : D. 2 000 000 × 30 $ = 60 000 000 $.
+
+## Points clés
+
+- Capitalisation boursière = cours de l’action × nombre total d’actions en circulation.
+- Elle reflète l’évaluation collective, par le marché, de la propriété totale.
+- Ce n’est pas la même chose que l’encaisse, le chiffre d’affaires ou l’actif total d’une entreprise.

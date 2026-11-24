@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 11
 locale: fr-CA
-title: "WHITE-L1-011 : La Diversification — Ne Mets Pas Tous Tes Œufs Dans le Même Panier"
-summary: "Leçon WHITE-L1-011 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un indice? (Ce que « le marché » veut réellement dire quand on en parle)"
+summary: "Découvrez ce qu’est réellement un indice boursier, et ce que signifie l’expression « le marché a monté »."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-011 : La Diversification — Ne Mets Pas Tous Tes Œufs Dans le Même Panier
+# Qu’est-ce qu’un indice? (Ce que « le marché » veut réellement dire quand on en parle)
 
-## Objectifs d'Apprentissage
-1. Définir la diversification.
-2. Expliquer comment la diversification peut réduire le risque.
-3. Reconnaître que la diversification n'élimine pas tout le risque.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La diversification consiste à répartir les placements entre différents actifs, secteurs, ou zones géographiques afin que la mauvaise performance d'un domaine ne compromette pas tout le portefeuille. *FAIT VÉRIFIÉ :* La diversification peut réduire l'impact de la mauvaise performance d'un placement pris individuellement, mais elle n'élimine pas tout le risque — des baisses générales du marché peuvent quand même affecter un portefeuille bien diversifié.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Sam investit toutes ses économies dans l'action d'une seule entreprise. Lorsque cette entreprise connaît une mauvaise année et chute de 40 %, tout son portefeuille chute de 40 %. Son ami Ravi répartit ses placements entre 200 entreprises différentes via un fonds indiciel ; lorsque certaines de ces entreprises connaissent de mauvaises années, l'impact global sur le portefeuille de Ravi est bien moindre, car les bonnes performances ailleurs peuvent compenser les faibles.
+- Définir un indice boursier en termes simples.
+- Expliquer ce que veut dire quelqu’un qui affirme que « le marché a monté ».
+- Reconnaître qu’un indice suit un groupe défini, et non littéralement tout.
 
-## Quiz Pratique
-1. Qu'est-ce que la diversification ?
-2. Vrai/Faux : La diversification élimine tout le risque de placement.
-3. Qu'est-il arrivé au portefeuille de Sam lorsque son unique action a chuté de 40 % ?
-4. Pourquoi le portefeuille de Ravi a-t-il été moins affecté par quelques entreprises peu performantes ?
+## Contenu principal
+
+### Ce qu’est un indice
+
+Un indice boursier est un ensemble défini d’actions (ou d’autres actifs) suivies ensemble pour représenter le rendement d’un segment précis du marché — c’est un outil de mesure, et non quelque chose que l’on possède directement.
+
+### Ce que veut réellement dire « le marché a monté »
+
+Lorsque les gens disent que « le marché a monté aujourd’hui », ils parlent habituellement de la hausse d’un indice précis et bien connu — et non littéralement de toutes les actions, partout. Des indices différents peuvent évoluer dans des directions différentes le même jour.
+
+### Un groupe défini, et non tout
+
+Un indice suit un ensemble précis et défini d’entreprises (choisies selon des règles précises), et non l’économie mondiale tout entière. Comprendre quelles entreprises font réellement partie d’un indice est important pour comprendre ce que représente vraiment son évolution.
+
+## Exemple pratique
+
+Un titre de nouvelles qui annonce que « le marché a progressé de 1 % aujourd’hui » fait habituellement référence à un indice précis composé d’un groupe défini d’entreprises — un autre indice, qui suit un autre groupe d’entreprises, aurait pu évoluer différemment ce même jour.
+
+## Quiz pratique
+
+1. Un indice boursier est :
+   A. L’action d’une seule entreprise
+   B. Un ensemble défini d’actifs suivis pour représenter un segment du marché
+   C. Un type de compte bancaire
+   D. Un rapport économique gouvernemental
+2. Vrai ou faux : « le marché a monté » veut toujours dire que littéralement toutes les actions du monde ont monté ce jour-là.
+3. Pourquoi est-il important de savoir quelles entreprises font réellement partie d’un indice?
+   A. Cela n’a aucune importance
+   B. Cela détermine ce que représente réellement l’évolution de cet indice
+   C. Tous les indices contiennent les mêmes entreprises
+   D. Les indices ne changent jamais leur composition
 
 ## Corrigé
-1. Répartir les placements entre différents actifs pour réduire le risque concentré   2. Faux   3. Il a également chuté de 40 %   4. Les bonnes performances ailleurs ont compensé les faibles
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la diversification.
-2. La diversification réduit, mais n'élimine pas, le risque — les baisses générales importent quand même.
-3. Avec tout l'argent placé sur une seule action, sa chute complète a frappé tout son portefeuille.
-4. Répartir le risque entre plusieurs avoirs amortit l'impact de toute performance individuelle faible.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La diversification répartit le risque entre plusieurs placements.
-- Elle réduit (mais n'élimine pas) l'impact de la mauvaise performance d'un placement pris individuellement.
-- Les baisses générales du marché peuvent quand même affecter même les portefeuilles bien diversifiés.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un indice est un ensemble défini et suivi qui représente un segment du marché.
+
+### Question 2
+Bonne réponse : Faux. L’expression fait référence à un indice précis, et non littéralement à toutes les actions.
+
+### Question 3
+Bonne réponse : B. La composition détermine ce que reflète réellement l’évolution de l’indice.
+
+## Points clés
+
+- Un indice boursier suit un ensemble défini d’actifs.
+- « Le marché a monté » fait habituellement référence à un indice précis, et non à tout.
+- Comprendre la composition réelle d’un indice est important pour interpréter son évolution.

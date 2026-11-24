@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 26
 locale: fr-FR
-title: "WHITE-L1-026 : Les Valeurs Vedettes (« Blue-Chip »)"
-summary: "Leçon WHITE-L1-026 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le ratio cours-bénéfice (C/B)? (Version d’introduction — méthode complète au niveau 2)"
+summary: "Découvrez la formule de base du ratio cours-bénéfice et ce qu’il estime, en guise d’introduction à l’évaluation approfondie au niveau 2."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-026 : Les Valeurs Vedettes (« Blue-Chip »)
+# Qu’est-ce que le ratio cours-bénéfice (C/B)? (Version d’introduction — méthode complète au niveau 2)
 
-## Objectifs d'Apprentissage
-1. Définir une valeur vedette (« blue-chip »).
-2. Identifier les caractéristiques générales des entreprises concernées.
-3. Reconnaître que ce statut ne garantit pas de protection contre les pertes.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les valeurs vedettes, ou « blue-chip », désignent généralement des entreprises grandes, bien établies, et financièrement solides avec un long historique de performance fiable. *HYPOTHÈSE :* Bien que souvent perçues comme relativement moins risquées comparées aux entreprises plus petites ou récentes, cette appellation reste une catégorie de réputation générale, pas une classification financière formelle avec une définition juridique précise — et ces valeurs peuvent quand même chuter considérablement en valeur.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur qui constitue une position « socle » dans son portefeuille inclut plusieurs grandes entreprises de longue date avec des décennies d'historique opérationnel constant — couramment qualifiées de valeurs vedettes. Cela ne signifie pas que ces actions ne peuvent pas perdre de valeur ; même les entreprises bien établies peuvent chuter substantiellement lors de baisses générales du marché ou de difficultés propres à l'entreprise.
+- Énoncer la formule de base du ratio cours-bénéfice.
+- Calculer un ratio cours-bénéfice de base à partir du cours de l’action et du BPA.
+- Expliquer, à un niveau d’introduction, ce que le ratio estime.
 
-## Quiz Pratique
-1. Que désigne généralement une valeur « blue-chip » ?
-2. Vrai/Faux : « Blue-chip » est une catégorie financière précise et formellement définie.
-3. Les valeurs vedettes peuvent-elles perdre de la valeur ?
-4. Quelle perception ces valeurs portent-elles souvent, selon la leçon ?
+## Contenu principal
+
+### La formule de base
+
+Ratio cours-bénéfice (C/B, ou P/E en anglais) = cours de l’action ÷ bénéfice par action (BPA), en s’appuyant directement sur la notion de BPA vue dans la leçon précédente.
+
+### Ce qu’il estime
+
+Le ratio cours-bénéfice répond approximativement à la question suivante : combien les investisseurs paient-ils aujourd’hui pour chaque euro du bénéfice actuel d’une entreprise? Un chiffre plus élevé signifie que les investisseurs paient davantage pour chaque euro de bénéfice actuel.
+
+### Un aperçu, et non le portrait complet
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Cette leçon d’introduction ne présente que la formule de base. Un traitement complet — y compris la façon de comparer des secteurs différents et la façon dont les rachats d’actions peuvent fausser le ratio — est présenté au niveau 2.
+
+## Exemple pratique
+
+Une action se négocie à 60 € et son BPA est de 3,00 €. C/B = 60 € ÷ 3,00 € = 20 — les investisseurs paient 20 € pour chaque euro du bénéfice actuel de cette entreprise.
+
+## Quiz pratique
+
+1. La formule du ratio cours-bénéfice est :
+   A. BPA ÷ cours de l’action
+   B. Cours de l’action ÷ BPA
+   C. Bénéfice net ÷ cours de l’action
+   D. Actions en circulation ÷ BPA
+2. Vrai ou faux : un ratio cours-bénéfice plus élevé signifie que les investisseurs paient moins pour chaque euro de bénéfice actuel.
+3. Une action se négocie à 80 € et son BPA est de 4,00 €. Quel est son ratio cours-bénéfice?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
 
 ## Corrigé
-1. Des entreprises grandes, bien établies, et financièrement solides   2. Faux   3. Oui   4. Une stabilité relative perçue comparée aux entreprises plus petites/récentes
 
-## Réponses et Explications
-1. Ceci est la description générale des entreprises « blue-chip ».
-2. C'est un terme de réputation largement utilisé mais informel, pas une classification stricte.
-3. Aucune catégorie d'actions n'est à l'abri d'une perte potentielle.
-4. Cette perception existe mais ne constitue pas une garantie contre la chute.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- « Blue-chip » désigne des entreprises grandes, établies, et historiquement stables.
-- C'est un terme informel largement utilisé, pas une classification financière précise.
-- Ce statut ne garantit pas de protection contre les pertes.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. C/B = cours de l’action ÷ BPA.
+
+### Question 2
+Bonne réponse : Faux. Un ratio plus élevé signifie qu’on paie davantage pour chaque euro de bénéfice.
+
+### Question 3
+Bonne réponse : B. 80 € ÷ 4,00 € = 20.
+
+## Points clés
+
+- Ratio cours-bénéfice = cours de l’action ÷ BPA.
+- Il estime combien les investisseurs paient pour chaque euro de bénéfice actuel.
+- Il s’agit d’une version d’introduction — le niveau 2 en présente l’application approfondie et les limites.

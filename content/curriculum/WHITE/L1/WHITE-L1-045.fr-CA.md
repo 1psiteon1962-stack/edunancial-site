@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 45
 locale: fr-CA
-title: "WHITE-L1-045 : La Vente à Découvert Expliquée"
-summary: "Leçon WHITE-L1-045 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un fonds à date cible?"
+summary: "Découvrez ce qu’un fonds à date cible fait automatiquement, et pourquoi sa répartition change à mesure que la date cible approche."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-045 : La Vente à Découvert Expliquée
+# Qu’est-ce qu’un fonds à date cible?
 
-## Objectifs d'Apprentissage
-1. Définir la vente à découvert.
-2. Expliquer comment un vendeur à découvert réalise un profit (ou une perte).
-3. Identifier pourquoi la vente à découvert comporte un risque théoriquement illimité.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La vente à découvert consiste à emprunter des actions pour les vendre immédiatement, en pariant que le cours baissera, puis à les racheter plus tard à un prix (espérons-le) plus bas afin de les restituer au prêteur — le profit provenant de la différence. *FAIT VÉRIFIÉ :* Contrairement à une position « longue » standard où la perte maximale se limite au montant investi, la vente à découvert comporte un risque théoriquement illimité, car le cours d'une action peut monter indéfiniment, et le vendeur à découvert doit tôt ou tard racheter les actions au prix qu'elles auront atteint.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur emprunte et vend 100 actions à 50 $ chacune (5 000 $), en pariant que le cours chutera. Si le cours descend à 30 $, il rachète 100 actions pour 3 000 $, restitue les actions empruntées, et empoche un profit de 2 000 $. Mais si le cours monte plutôt à 100 $, il devrait dépenser 10 000 $ pour racheter les actions — une perte de 5 000 $, illustrant comment les pertes peuvent dépasser le montant initial engagé si le cours continue de monter.
+- Définir un fonds à date cible en termes simples.
+- Expliquer comment sa répartition change avec le temps.
+- Expliquer pourquoi cela se rattache à la notion de rééquilibrage.
 
-## Quiz Pratique
-1. Qu'est-ce que la vente à découvert ?
-2. Comment un vendeur à découvert réalise-t-il un profit ?
-3. Vrai/Faux : La vente à découvert présente le même profil de risque limité qu'une position longue standard.
-4. Qu'advient-il de la perte potentielle d'un vendeur à découvert si le prix de l’action continue de monter ?
+## Contenu principal
+
+### Ce qu’est un fonds à date cible
+
+Un fonds à date cible est un fonds conçu en fonction d’une date future précise (souvent l’année de retraite prévue), qui gère automatiquement sa propre répartition de l’actif pour l’adapter à l’horizon de placement de l’investisseur.
+
+### Comment sa répartition change avec le temps
+
+Un fonds à date cible commence habituellement avec une part plus élevée d’actions (pour le potentiel de croissance, compte tenu du long horizon de placement) et se déplace graduellement vers davantage d’obligations et de liquidités à mesure que la date cible approche (pour plus de stabilité à l’approche de l’objectif) — automatiquement, sans que l’investisseur ait à faire ce rajustement lui-même.
+
+### Le lien avec le rééquilibrage
+
+Un fonds à date cible automatise essentiellement à la fois le rééquilibrage et la stratégie de répartition qui évolue graduellement, en un seul produit — l’investisseur n’a pas besoin de le rééquilibrer lui-même périodiquement, comme il pourrait devoir le faire avec un portefeuille bâti manuellement.
+
+## Exemple pratique
+
+Une personne qui prévoit prendre sa retraite dans 30 ans pourrait choisir un fonds à date cible correspondant à cette année. Au début, il détient surtout des actions; à mesure que l’année cible approche, il se déplace automatiquement vers un dosage plus prudent d’obligations et de liquidités.
+
+## Quiz pratique
+
+1. Un fonds à date cible est conçu en fonction :
+   A. De l’action d’une seule entreprise
+   B. D’une date future précise, souvent l’année de retraite prévue
+   C. Exclusivement d’un type d’obligation
+   D. D’une date limite gouvernementale de déclaration de revenus
+2. Vrai ou faux : la répartition d’un fonds à date cible reste exactement la même du début à la fin.
+3. Qu’arrive-t-il généralement à la répartition d’un fonds à date cible à mesure que la date cible approche?
+   A. Elle se déplace vers davantage d’actions
+   B. Elle se déplace vers davantage d’obligations et de liquidités, pour plus de stabilité
+   C. Elle passe immédiatement entièrement en liquidités
+   D. Rien ne change
 
 ## Corrigé
-1. Emprunter et vendre des actions, en pariant que le cours chutera   2. En rachetant à un cours plus bas que celui de la vente, empochant la différence   3. Faux   4. La perte potentielle continue de croître, théoriquement sans limite
 
-## Réponses et Explications
-1. Ceci est le mécanisme fondamental de la vente à découvert.
-2. Le profit provient de la chute de cours entre la vente et le rachat.
-3. La vente à découvert comporte un risque théoriquement illimité, contrairement à une position longue standard.
-4. Aucun plafond n'existant à la hausse d'un cours, les pertes peuvent croître sans limite définie.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La vente à découvert parie sur une baisse de cours en empruntant et vendant, puis en rachetant plus tard.
-- Le profit provient de la différence entre le prix de vente et le prix de rachat.
-- La vente à découvert comporte un risque théoriquement illimité, contrairement aux positions longues standards.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fonds à date cible est conçu en fonction d’une date future précise.
+
+### Question 2
+Bonne réponse : Faux. Sa répartition change automatiquement avec le temps.
+
+### Question 3
+Bonne réponse : B. Il devient graduellement plus prudent à mesure que la date approche.
+
+## Points clés
+
+- Un fonds à date cible est conçu en fonction d’une date future précise.
+- Sa répartition passe automatiquement d’une orientation vers la croissance à une orientation plus prudente avec le temps.
+- Il automatise à la fois l’évolution de la répartition et le rééquilibrage en un seul produit.

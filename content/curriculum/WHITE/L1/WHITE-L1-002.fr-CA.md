@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 2
 locale: fr-CA
-title: "WHITE-L1-002 : Les Actions — Posséder une Part d'une Entreprise"
-summary: "La détention d'actions peut générer un rendement de deux façons : la **plus-value** (le prix de l’action augmente) et les **dividendes** (une partie des bénéfices distribuée aux actionnaires, lorsqu'une entreprise choisit de les verser)."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le RCI? (Et pourquoi la même idée prend une forme différente dans chaque volet)"
+summary: "Découvrez la formule du RCI, ce qu’elle mesure et pourquoi la même notion s’applique à l’immobilier, aux entreprises et aux actifs papier."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-002 : Les Actions — Posséder une Part d'une Entreprise
+# Qu’est-ce que le RCI? (Et pourquoi la même idée prend une forme différente dans chaque volet)
 
-## Objectifs d'Apprentissage
-1. Définir une action en termes simples.
-2. Expliquer à quoi ont droit les actionnaires.
-3. Identifier les deux principales façons dont la détention d'actions peut générer un rendement.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Une action représente une propriété partielle dans une entreprise. *FAIT VÉRIFIÉ :* Les actionnaires ont généralement un droit sur les actifs et les bénéfices d'une entreprise proportionnel au nombre d'actions qu'ils détiennent, et peuvent disposer d'un droit de vote sur certaines décisions de l'entreprise.
+À la fin de cette leçon, vous devriez pouvoir :
 
-La détention d'actions peut générer un rendement de deux façons : la **plus-value** (le prix de l’action augmente) et les **dividendes** (une partie des bénéfices distribuée aux actionnaires, lorsqu'une entreprise choisit de les verser).
+- Calculer un RCI de base à partir d’un gain et d’un coût.
+- Expliquer ce que le RCI mesure réellement.
+- Reconnaître le RCI comme une notion commune à tous les volets, et en nommer une limite.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Marcus achète 100 actions d'une entreprise à 50 $ chacune (5 000 $ au total). Un an plus tard, le cours monte à 60 $ l'action — son placement vaut maintenant 6 000 $, soit une plus-value de 1 000 $ sur le papier. Si l'entreprise a aussi versé un dividende annuel de 1 $ par action, il aurait touché 100 $ de plus en liquidités au passage, en plus de l'évolution du cours.
+## Contenu principal
 
-## Quiz Pratique
-1. Que représente la détention d'une action ?
-2. Cite les deux principales façons dont la détention d'actions peut générer un rendement.
-3. Vrai/Faux : Toutes les entreprises sont tenues de verser des dividendes.
-4. Si tu détiens 50 actions et que le cours augmente de 2 $ par action, de combien la valeur de ta position a-t-elle augmenté ?
+### La formule du RCI
+
+RCI (rendement du capital investi, ou ROI en anglais) = (gain tiré de l’investissement − coût de l’investissement) ÷ coût de l’investissement, habituellement exprimé en pourcentage. Si 1 000 $ deviennent 1 200 $, le gain est de 200 $, et le RCI = 200 $ ÷ 1 000 $ = 20 %.
+
+### La même notion, des volets différents
+
+Le RCI n’est pas une idée propre au volet WHITE. Un investisseur immobilier du volet RED calcule le RCI à partir des revenus locatifs et de la plus-value par rapport au prix d’achat. Un propriétaire d’entreprise du volet BLUE le calcule à partir du bénéfice généré par rapport à l’argent investi. La logique de la formule reste la même — le gain comparé au coût —, mais ce qui compte comme gain et comme coût change selon le volet.
+
+### Une limite réelle
+
+Le RCI de base ne tient pas compte du temps. Un RCI de 20 % obtenu en un an est très différent du même 20 % obtenu en dix ans, même si la formule à elle seule ne montre pas cette différence.
+
+## Exemple pratique
+
+500 $ qui deviennent 575 $, c’est un gain de 75 $ : RCI = 75 $ ÷ 500 $ = 15 %. Un achat d’équipement d’entreprise de 10 000 $ qui génère 2 500 $ de bénéfice supplémentaire : RCI = 2 500 $ ÷ 10 000 $ = 25 % — même formule, situations très différentes.
+
+## Quiz pratique
+
+1. Le RCI mesure :
+   A. Le montant total gagné, en dollars
+   B. Le gain par rapport au coût, en pourcentage
+   C. La valeur totale d’un investissement
+   D. Le niveau de risque d’un investissement
+2. Vrai ou faux : le RCI de base tient compte du temps qu’il a fallu pour obtenir le rendement.
+3. Vous investissez 2 000 $ et cette somme passe à 2 400 $. Quel est le RCI?
+   A. 10 %
+   B. 15 %
+   C. 20 %
+   D. 40 %
 
 ## Corrigé
-1. Une propriété partielle dans une entreprise   2. Plus-value, dividendes   3. Faux   4. 100 $
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une action en tant que participation dans le capital.
-2. Ce sont les deux sources fondamentales de rendement pour les actionnaires.
-3. Les dividendes relèvent d'une décision de l'entreprise, non d'une obligation universelle.
-4. 50 actions × 2 $ = 100 $ d'augmentation de la valeur de la position.
+1. B
+2. Faux
+3. C
 
-## Points Clés à Retenir
-- Une action représente une propriété proportionnelle dans une entreprise.
-- Le rendement provient de la plus-value et, éventuellement, des dividendes.
-- Le versement de dividendes relève d'une décision de l'entreprise, ce n'est pas garanti.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le RCI est précisément une mesure, en pourcentage, du gain par rapport au coût.
+
+### Question 2
+Bonne réponse : Faux. Le RCI de base ne tient pas compte du temps — une limite réelle.
+
+### Question 3
+Bonne réponse : C. (2 400 $ − 2 000 $) ÷ 2 000 $ = 20 %.
+
+## Points clés
+
+- RCI = (gain − coût) ÷ coût, habituellement exprimé en pourcentage.
+- Le RCI s’applique aussi bien à l’immobilier qu’aux entreprises et aux actifs papier.
+- Le RCI de base ne tient pas compte du temps — une limite réelle à garder en tête.

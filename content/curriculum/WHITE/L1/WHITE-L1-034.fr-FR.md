@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 34
 locale: fr-FR
-title: "WHITE-L1-034 : Actions de Préférence vs. Actions Ordinaires"
-summary: "*FAIT VÉRIFIÉ :* Les dividendes des actions de préférence sont souvent fixes et doivent typiquement être versés avant tout dividende d'actions ordinaires — offrant aux détenteurs d'actions de préférence une meilleure prévisibilité de revenu, au prix du plus grand potentiel de croissance qu'offrent les actions ordinaires."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un certificat de dépôt (CD)?"
+summary: "Découvrez ce qu’est un certificat de dépôt, comment il immobilise de l’argent en échange d’un rendement, et le véritable compromis lié à un retrait anticipé."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-034 : Actions de Préférence vs. Actions Ordinaires
+# Qu’est-ce qu’un certificat de dépôt (CD)?
 
-## Objectifs d'Apprentissage
-1. Distinguer les actions de préférence des actions ordinaires.
-2. Expliquer les différences de priorité en matière de dividendes et de liquidation.
-3. Identifier un compromis courant des actions de préférence.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les **actions ordinaires** constituent la forme standard de détention, incluant typiquement un droit de vote, avec des dividendes (le cas échéant) versés à la discrétion de l'entreprise. Les **actions de préférence** disposent généralement d'un droit prioritaire par rapport aux actions ordinaires sur les dividendes et les actifs de l'entreprise en cas de liquidation, mais sont habituellement dépourvues de droit de vote et présentent un potentiel de plus-value moins marqué.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* Les dividendes des actions de préférence sont souvent fixes et doivent typiquement être versés avant tout dividende d'actions ordinaires — offrant aux détenteurs d'actions de préférence une meilleure prévisibilité de revenu, au prix du plus grand potentiel de croissance qu'offrent les actions ordinaires.
+- Définir un certificat de dépôt en termes simples.
+- Expliquer le compromis de base qu’offre un certificat de dépôt.
+- Expliquer ce qui se passe habituellement en cas de retrait anticipé.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une entreprise en difficulté financière suspend son dividende sur actions ordinaires. Les détenteurs d'actions de préférence, disposant d'un droit prioritaire, peuvent quand même percevoir leur dividende fixe si l'entreprise est en mesure de le verser, les obligations préférentielles étant généralement satisfaites avant les dividendes ordinaires. En cas de liquidation, les détenteurs d'actions de préférence seraient également payés avant les actionnaires ordinaires, mais après les détenteurs d'obligations.
+## Contenu principal
 
-## Quiz Pratique
-1. Que comportent typiquement les actions ordinaires que les actions de préférence n'ont habituellement pas ?
-2. Quelle priorité de droit ont généralement les actions de préférence par rapport aux actions ordinaires ?
-3. Vrai/Faux : Les dividendes des actions de préférence sont toujours garantis quelle que soit la performance de l'entreprise.
-4. Quel compromis les actions de préférence impliquent-elles typiquement par rapport aux actions ordinaires ?
+### Ce qu’est un certificat de dépôt
+
+Un certificat de dépôt (CD) est un produit d’épargne offert par les banques, dans lequel l’argent est déposé pour une période fixe en échange d’un taux d’intérêt fixe, généralement plus élevé que celui d’un compte d’épargne ordinaire. (En France, le produit équivalent le plus proche est le compte à terme.)
+
+### Le compromis de base
+
+En échange d’un taux d’intérêt garanti habituellement plus élevé, le déposant accepte généralement de ne pas retirer l’argent avant la fin du terme du certificat — il échange de la liquidité (vue dans la leçon précédente) contre un meilleur taux.
+
+### Ce qui se passe en cas de retrait anticipé
+
+Retirer de l’argent d’un certificat de dépôt avant la fin de son terme entraîne généralement une pénalité, qui réduit ou élimine souvent une partie des intérêts gagnés — cette pénalité est le coût réel de la rupture du compromis de liquidité. (Certains produits ne permettent tout simplement pas de retrait avant l’échéance; vérifiez les conditions auprès de l’institution financière.)
+
+## Exemple pratique
+
+Une investisseuse place 5 000 € dans un certificat de dépôt d’un an à taux fixe, en acceptant de ne pas y toucher pendant un an. Si elle a besoin de l’argent après 6 mois, elle peut habituellement le retirer, mais elle subira probablement une pénalité qui réduira les intérêts qu’elle aurait autrement gagnés.
+
+## Quiz pratique
+
+1. Un certificat de dépôt offre généralement :
+   A. Une liquidité totale sans avantage de taux
+   B. Un taux d’intérêt fixe en échange de l’immobilisation de l’argent pendant un terme fixe
+   C. Une part de propriété dans une entreprise
+   D. Des rendements à forte croissance garantis
+2. Vrai ou faux : retirer de l’argent d’un certificat de dépôt avant terme est toujours gratuit, sans pénalité.
+3. Contre quoi un certificat de dépôt échange-t-il un taux d’intérêt habituellement plus élevé?
+   A. La diversification
+   B. La liquidité — l’argent est généralement immobilisé pendant un terme fixe
+   C. Des droits de propriété
+   D. Une protection contre le risque de crédit
 
 ## Corrigé
-1. Le droit de vote   2. Une priorité plus élevée sur les dividendes et les actifs de liquidation   3. Faux   4. Une meilleure prévisibilité de revenu mais un potentiel de croissance moindre
 
-## Réponses et Explications
-1. Les actions ordinaires comportent typiquement un droit de vote que les actions de préférence n'ont habituellement pas.
-2. Les actions de préférence bénéficient généralement d'une priorité, bien que ce ne soit pas une garantie absolue.
-3. Les dividendes des actions de préférence peuvent quand même être suspendus dans des circonstances graves, malgré leur priorité.
-4. Ceci est le compromis général entre les deux catégories d'actions.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les actions ordinaires comportent typiquement un droit de vote ; les actions de préférence, généralement pas.
-- Les actions de préférence bénéficient généralement d'une priorité sur les dividendes et les actifs de liquidation.
-- Les actions de préférence échangent le potentiel de croissance contre une meilleure prévisibilité de revenu.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un certificat de dépôt échange de la liquidité contre un taux fixe, souvent plus élevé.
+
+### Question 2
+Bonne réponse : Faux. Un retrait anticipé entraîne généralement une pénalité.
+
+### Question 3
+Bonne réponse : B. C’est la liquidité qui est échangée contre l’avantage de taux.
+
+## Points clés
+
+- Un certificat de dépôt offre un taux fixe en échange de l’immobilisation de l’argent pendant un terme.
+- Il échange de la liquidité contre un taux d’intérêt habituellement meilleur.
+- Un retrait anticipé entraîne généralement une pénalité réelle.

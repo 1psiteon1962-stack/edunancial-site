@@ -5,42 +5,78 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 50
 locale: fr-CA
-title: "WHITE-L1-050 : Erreurs Courantes de Placement pour Débutants"
-summary: "Leçon WHITE-L1-050 en français."
-sourceVersion: "1.0"
+title: "Projet final : bâtir votre premier portefeuille simple, étape par étape"
+summary: "Appliquez tout ce que vous avez appris au niveau 1 du volet WHITE en suivant, du début à la fin, la constitution d’un premier portefeuille de placement simple."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-050 : Erreurs Courantes de Placement pour Débutants
+# Projet final : bâtir votre premier portefeuille simple, étape par étape
 
-## Objectifs d'Apprentissage
-1. Identifier les erreurs de placement de débutants fréquemment citées.
-2. Expliquer pourquoi le manque de diversification constitue une erreur précoce courante.
-3. Reconnaître l'intérêt de commencer par des connaissances fondamentales avant des stratégies complexes.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*OPINION :* Les erreurs de placement de débutants couramment citées incluent : investir sans disposer au préalable d'une épargne de précaution, une diversification insuffisante (se concentrer excessivement sur une action ou un secteur), tenter d'anticiper le marché, ignorer les frais, et se lancer dans des stratégies complexes (comme les options) avant d'en comprendre les fondamentaux.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un nouvel investisseur place l'essentiel de ses économies sur une seule action à la mode sans disposer d'une épargne de précaution. Lorsque l'action chute et qu'il fait simultanément face à une dépense imprévue, il se voit contraint de vendre des placements à perte pour couvrir cette urgence — une situation qu'une modeste épargne de précaution, constituée avant d'investir massivement, aurait pu éviter.
+- Appliquer les notions de base du niveau 1 du volet WHITE à une même mise en situation.
+- Déterminer quelle notion de ce niveau s’applique à chaque étape.
+- Expliquer comment les éléments de la constitution d’un portefeuille s’articulent en un tout.
 
-## Quiz Pratique
-1. Cite deux erreurs de placement de débutants couramment citées.
-2. Pourquoi disposer d'une épargne de précaution est-il pertinent pour les décisions de placement ?
-3. Vrai/Faux : Se lancer dans des stratégies complexes comme les options est couramment recommandé aux débutants.
-4. Qu'est-il arrivé dans l'exemple pratique en raison de l'absence d'épargne de précaution ?
+## Contenu principal
+
+### La mise en situation
+
+James veut commencer à investir pour la première fois. Il veut comprendre ce qu’il fait réellement à chaque étape, et pas seulement suivre des instructions à l’aveugle.
+
+### Le parcours, étape par étape
+
+James s’assure d’abord d’avoir un fonds d’urgence (leçon 35) placé dans un endroit liquide et peu risqué avant d’investir quoi que ce soit d’autre. Il ouvre un compte de courtage (leçon 21), en comprenant que c’est différent d’un compte de retraite, et vérifie séparément si son employeur offre une contrepartie à un 401(k) (leçon 18) dont il vaudrait la peine de profiter en premier.
+
+Il décide d’investir dans un FNB (leçon 9) plutôt que de choisir des actions individuelles, parce qu’il accorde de la valeur à la diversification (leçon 13) qu’il procure. Il vérifie son ratio des frais de gestion (leçon 12), en comprenant que de petites différences de pourcentage s’accumulent avec le temps. Il décide d’utiliser la méthode des achats périodiques (leçon 22), en investissant un montant fixe chaque mois plutôt qu’en essayant de deviner le bon moment pour entrer sur le marché.
+
+Il fixe une répartition de l’actif (leçon 43) composée surtout d’actions, compte tenu de son long horizon de placement, en comprenant qu’il devra rééquilibrer (leçon 44) son portefeuille périodiquement à mesure que le marché modifiera ce dosage. Il sait que son relevé de compte (leçon 49) présentera ses placements, ses opérations et un chiffre de rendement qui pourrait ne pas correspondre exactement à son rendement personnel pondéré en dollars (leçon 48), puisqu’il cotise graduellement au fil du temps.
+
+### Pourquoi c’est important
+
+Aucune de ces décisions n’est prise isolément dans un vrai portefeuille — elles s’enchaînent en un seul processus, fondé sur la compréhension, et non sur le simple fait de suivre des étapes à l’aveugle.
+
+## Exemple pratique
+
+Si James investit 300 $ par mois selon la méthode des achats périodiques dans un FNB diversifié dont le ratio des frais de gestion est faible, au sein d’un compte de courtage ordinaire, après avoir déjà constitué son fonds d’urgence et profité de toute contrepartie offerte par son employeur, il a appliqué presque toutes les notions importantes de ce niveau dans un seul plan cohérent.
+
+## Quiz pratique
+
+1. Pourquoi James s’est-il assuré d’avoir un fonds d’urgence avant d’investir davantage?
+   A. Ce n’est pas réellement nécessaire
+   B. Cela protège ses autres projets financiers contre les perturbations causées par des dépenses imprévues
+   C. Les fonds d’urgence garantissent des rendements de placement
+   D. Cela n’a aucun lien avec l’investissement
+2. Vrai ou faux : le rendement publié du compte de James correspondra toujours exactement à son rendement personnel pondéré en dollars.
+3. Pourquoi James a-t-il choisi un FNB plutôt que de choisir des actions individuelles?
+   A. Les FNB garantissent des rendements plus élevés
+   B. Il accordait de la valeur à la diversification qu’il procure
+   C. Les FNB n’ont pas de ratio des frais de gestion
+   D. Les actions individuelles sont interdites aux débutants
 
 ## Corrigé
-1. Diversification insuffisante, tentative d'anticiper le marché (entre autres)   2. Cela peut éviter d'être contraint de vendre des placements à perte lors de dépenses imprévues   3. Faux   4. L'investisseur a dû vendre des placements à perte pour couvrir une dépense imprévue
 
-## Réponses et Explications
-1. Celles-ci figurent parmi les erreurs de débutants les plus couramment citées.
-2. Une épargne de précaution constitue un coussin distinct des fonds investis.
-3. Construire des connaissances fondamentales est couramment recommandé avant les stratégies complexes.
-4. Ceci illustre la conséquence réelle d'avoir négligé l'étape de l'épargne de précaution.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les erreurs courantes de débutants incluent une mauvaise diversification, des tentatives d'anticiper le marché, et l'absence d'épargne de précaution.
-- Une épargne de précaution aide à éviter d'être contraint de vendre des placements à perte.
-- Construis des connaissances fondamentales avant de te lancer dans des stratégies complexes comme les options.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fonds d’urgence protège les projets à plus long terme contre les perturbations à court terme, comme on l’a vu à la leçon 35.
+
+### Question 2
+Bonne réponse : Faux. Le rendement publié est souvent pondéré dans le temps, et non son rendement personnel exact pondéré en dollars, comme on l’a vu aux leçons 48 et 49.
+
+### Question 3
+Bonne réponse : B. La diversification est la raison invoquée par James, ce qui renvoie à la leçon 13.
+
+## Points clés
+
+- Bâtir un premier portefeuille relie presque toutes les notions de ce niveau en un seul processus.
+- L’ordre compte : d’abord le fonds d’urgence, puis le type de compte, puis le choix du placement, puis la gestion continue.
+- Ce projet final marque l’achèvement du niveau 1 du volet WHITE — le niveau 2 s’appuie sur cette base avec des notions plus approfondies d’évaluation et de philosophie de placement.

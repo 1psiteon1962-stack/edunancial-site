@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 33
 locale: fr-FR
-title: "WHITE-L1-033 : Qu'est-ce Qu'une Division d'Actions ?"
-summary: "Leçon WHITE-L1-033 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un fonds monétaire?"
+summary: "Découvrez ce qu’est un fonds monétaire, et pourquoi il est généralement considéré comme une option moins risquée et plus liquide que d’autres fonds."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-033 : Qu'est-ce Qu'une Division d'Actions ?
+# Qu’est-ce qu’un fonds monétaire?
 
-## Objectifs d'Apprentissage
-1. Définir une division d'actions.
-2. Expliquer pourquoi une division ne modifie pas la valeur totale du placement.
-3. Distinguer une division classique d'une division inversée.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Une division d'actions augmente (ou diminue) le nombre d'actions en circulation tout en ajustant le cours proportionnellement, de sorte que la valeur totale d'un avoir reste identique immédiatement après l'opération. *FAIT VÉRIFIÉ :* Dans une **division classique** (par exemple, 2 pour 1), les actionnaires reçoivent davantage d'actions à un cours proportionnellement plus bas par action. Dans une **division inversée** (par exemple, 1 pour 10), les actionnaires reçoivent moins d'actions à un cours proportionnellement plus élevé par action.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur détient 100 actions valant 200 $ chacune (20 000 $ au total) avant une division 2 pour 1. Après la division, il détient 200 actions valant 100 $ chacune — toujours 20 000 $ au total. Rien de sa véritable participation ni de la valeur de l'entreprise n'a changé ; seuls le nombre d'actions et le cours par action ont été ajustés proportionnellement.
+- Définir un fonds monétaire en termes simples.
+- Expliquer dans quoi il investit habituellement.
+- Expliquer pourquoi il est généralement considéré comme moins risqué qu’un fonds d’actions.
 
-## Quiz Pratique
-1. Qu'est-ce qu'une division d'actions ?
-2. Dans une division classique 2 pour 1, qu'advient-il du nombre d'actions et du cours ?
-3. Vrai/Faux : Une division d'actions modifie la valeur totale d'un avoir existant.
-4. Qu'est-ce qu'une division inversée ?
+## Contenu principal
+
+### Ce qu’est un fonds monétaire
+
+Un fonds monétaire est un type de fonds commun de placement qui investit dans des titres de créance à court terme, généralement de grande qualité, dans le but d’offrir stabilité et liquidité plutôt qu’une croissance importante.
+
+### Dans quoi il investit habituellement
+
+Les fonds monétaire détiennent couramment des titres comme des créances gouvernementales à court terme et d’autres prêts à très court terme de grande qualité de crédit — des placements généralement choisis pour leur stabilité plutôt que pour leur potentiel de croissance.
+
+### Pourquoi il est généralement moins risqué
+
+Comme il détient des titres de créance à court terme et de grande qualité, un fonds monétaire est généralement considéré comme moins risqué et de valeur plus stable qu’un fonds d’actions — même s’il n’est pas entièrement sans risque, et qu’il offre habituellement des rendements plus modestes en contrepartie.
+
+## Exemple pratique
+
+Une personne qui veut un endroit relativement stable pour garder de l’argent dont elle pourrait avoir besoin bientôt, tout en obtenant un certain rendement, pourrait utiliser un fonds monétaire plutôt qu’un fonds axé sur les actions, plus volatil.
+
+## Quiz pratique
+
+1. Un fonds monétaire investit habituellement dans :
+   A. Des actions technologiques à forte croissance
+   B. Des titres de créance à court terme et de grande qualité
+   C. Directement dans l’immobilier
+   D. Exclusivement dans les cryptomonnaies
+2. Vrai ou faux : les fonds monétaire sont généralement considérés comme plus risqués que les fonds d’actions.
+3. Pourquoi une personne pourrait-elle utiliser un fonds monétaire?
+   A. Pour maximiser son potentiel de croissance à long terme
+   B. Pour sa stabilité relative et sa liquidité
+   C. Pour éviter complètement toute forme de risque
+   D. Pour acheter de l’immobilier
 
 ## Corrigé
-1. Un ajustement des actions en circulation et du cours qui maintient la valeur totale constante   2. Le nombre d'actions double ; le cours par action est environ réduit de moitié   3. Faux   4. Une division qui réduit le nombre d'actions tout en augmentant le cours par action proportionnellement
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une division d'actions.
-2. Ceci décrit le mécanisme standard d'une division classique.
-3. La valeur totale de l'avoir reste identique immédiatement après une division — seuls le nombre d'actions et le cours changent.
-4. Les divisions inversées fonctionnent à l'inverse des divisions classiques.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Une division d'actions ajuste le nombre d'actions et le cours tout en maintenant la même valeur totale.
-- Les divisions classiques augmentent les actions et abaissent le cours par action ; les divisions inversées font l'inverse.
-- Les divisions ne modifient pas la valeur sous-jacente d'un placement.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Les fonds monétaire détiennent des titres de créance à court terme et de grande qualité.
+
+### Question 2
+Bonne réponse : Faux. Ils sont généralement considérés comme moins risqués que les fonds d’actions.
+
+### Question 3
+Bonne réponse : B. La stabilité et la liquidité sont leur principal attrait.
+
+## Points clés
+
+- Un fonds monétaire investit dans des titres de créance à court terme et de grande qualité.
+- Il est généralement considéré comme moins risqué et plus stable que les fonds d’actions.
+- Il échange un potentiel de croissance plus élevé contre la stabilité et la liquidité.

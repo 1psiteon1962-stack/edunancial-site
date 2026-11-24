@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 1
 locale: fr-CA
-title: "WHITE-L1-001 : Que Sont les Actifs Papier ?"
-summary: "Les catégories courantes incluent les actions (titres de participation), les titres à revenu fixe (obligations), et les placements collectifs (fonds communs de placement, ETF) — chacune représentant une manière différente d'obtenir une exposition financière sans posséder directement un actif physique."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un actif papier? (Et pourquoi l’appelle-t-on ainsi)"
+summary: "Découvrez ce que représente réellement un actif papier et en quoi il diffère de la possession d’un bien physique."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-001 : Que Sont les Actifs Papier ?
+# Qu’est-ce qu’un actif papier? (Et pourquoi l’appelle-t-on ainsi)
 
-## Objectifs d'Apprentissage
-1. Définir les actifs papier en termes simples.
-2. Distinguer les actifs papier de l'immobilier et des actifs physiques.
-3. Identifier les catégories courantes d'actifs papier.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les actifs papier sont des instruments financiers représentant la propriété ou un droit sur une valeur — actions, obligations, fonds communs de placement, et titres similaires — plutôt qu'une propriété physique comme l'immobilier ou l'or. *FAIT VÉRIFIÉ :* Le terme « papier » est historique, et fait référence à l'époque où la propriété était inscrite sur des certificats physiques ; aujourd'hui, il s'agit presque entièrement de registres numériques.
+À la fin de cette leçon, vous devriez pouvoir :
 
-Les catégories courantes incluent les actions (titres de participation), les titres à revenu fixe (obligations), et les placements collectifs (fonds communs de placement, ETF) — chacune représentant une manière différente d'obtenir une exposition financière sans posséder directement un actif physique.
+- Définir un actif papier en termes simples.
+- Expliquer ce que représente réellement un actif papier.
+- Comparer les actifs papier à l’immobilier en tant que type de valeur différent.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Priya achète 10 actions d'une entreprise via son application de courtage en ligne. Elle possède un petit droit fractionné sur la valeur et les bénéfices futurs de cette entreprise — aucun objet physique ne change de mains, aucun acte notarié, aucun certificat envoyé par courrier. Sa propriété existe entièrement sous forme de registre électronique chez son courtier.
+## Contenu principal
 
-## Quiz Pratique
-1. Que sont les actifs papier ?
-2. Pourquoi le terme « papier » est-il historique ?
-3. Cite deux catégories courantes d'actifs papier.
-4. Vrai/Faux : Acheter des actions aujourd'hui implique typiquement un certificat physique.
+### Ce que signifie « actif papier »
+
+Un actif papier est un droit financier — autrefois un certificat physique, aujourd’hui presque toujours un registre numérique — qui représente une propriété ou un droit à une valeur future, plutôt que d’être lui-même un objet physique et utilisable. Une action représente une part de propriété dans une entreprise. Une obligation représente une promesse de remboursement, avec intérêts.
+
+### Ce qu’il y a derrière un actif papier
+
+Posséder une action d’une entreprise ne veut pas dire posséder un bureau ou une machine en particulier — cela veut dire posséder une infime part de la valeur de l’entreprise tout entière. La valeur de l’actif papier dépend entièrement de ce qu’il y a derrière : l’entreprise réelle, l’emprunteur réel, le gouvernement réel qui garantit une obligation.
+
+### Actifs papier ou immobilier
+
+L’immobilier du volet RED est physique : des terrains et des bâtiments qu’on peut toucher. Les actifs papier du volet WHITE sont des droits : des parts de propriété, des ententes de prêt, des droits à des paiements futurs. Les actifs papier sont aussi généralement plus faciles et plus rapides à acheter, à vendre et à diviser en petites parts que les biens physiques.
+
+## Exemple pratique
+
+Posséder 10 actions d’une entreprise, c’est posséder une petite part définie de la valeur globale de l’entreprise — et non un élément précis de ses actifs physiques. Cette valeur monte ou descend selon l’évolution des perspectives de l’entreprise.
+
+## Quiz pratique
+
+1. Un actif papier se décrit le mieux comme :
+   A. Un objet physique qu’on peut utiliser directement
+   B. Un droit de propriété ou un droit à une valeur future
+   C. Un type de monnaie
+   D. Un formulaire émis par le gouvernement
+2. Vrai ou faux : la valeur d’une action vient surtout du fait qu’il s’agit d’un registre officiel.
+3. Pourquoi la vente d’une action est-elle habituellement beaucoup plus rapide que la vente d’une maison?
+   A. Il est illégal de détenir des actions à long terme
+   B. Les actions sont de petites unités normalisées qui n’exigent pas de trouver un acheteur précis et assorti
+   C. Les maisons ont plus de valeur
+   D. Il n’y a aucune réelle différence de rapidité
 
 ## Corrigé
-1. Des instruments financiers représentant la propriété ou un droit sur une valeur   2. La propriété était historiquement inscrite sur des certificats physiques   3. Actions, titres à revenu fixe (entre autres)   4. Faux
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale distinguant les actifs papier de la propriété physique.
-2. Le nom reflète une époque antérieure de tenue de registres sur papier.
-3. Les actions et les obligations sont des catégories fondamentales d'actifs papier.
-4. La propriété moderne est presque entièrement numérique, et non des certificats physiques.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les actifs papier représentent la propriété ou des droits sur une valeur, pas une propriété physique.
-- Le terme est historique — les avoirs modernes sont des registres numériques.
-- Actions, obligations, et placements collectifs sont des catégories fondamentales d'actifs papier.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un actif papier représente une propriété ou un droit à une valeur future.
+
+### Question 2
+Bonne réponse : Faux. La valeur vient de ce que l’actif représente, et non du papier ou du registre lui-même.
+
+### Question 3
+Bonne réponse : B. Ce sont les petites unités normalisées, qui n’exigent pas de trouver un acheteur unique et assorti, qui rendent la vente d’actions plus rapide.
+
+## Points clés
+
+- Un actif papier est un droit sur une valeur, et non un objet physique.
+- Sa valeur vient de ce qu’il y a derrière.
+- Les actifs papier sont généralement plus faciles et plus rapides à acheter, à vendre et à diviser que l’immobilier.

@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 21
 locale: fr-FR
-title: "WHITE-L1-021 : Roth vs. Comptes de Retraite Traditionnels"
-summary: "*FAIT VÉRIFIÉ :* Un compte **traditionnel** utilise des versements avant impôt (réduisant le revenu imposable maintenant) avec des retraits imposés à la retraite. Un compte **Roth** utilise des versements après impôt (aucun allègement fiscal immédiat), mais les retraits admissibles à la retraite sont généralement exonérés d'impôt, y compris la croissance."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un compte de courtage? (Et en quoi diffère-t-il d’un compte de retraite?)"
+summary: "Découvrez ce qu’est un compte de courtage ordinaire, et en quoi son objectif et sa souplesse diffèrent de ceux d’un compte de retraite."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-021 : Roth vs. Comptes de Retraite Traditionnels
+# Qu’est-ce qu’un compte de courtage? (Et en quoi diffère-t-il d’un compte de retraite?)
 
-## Objectifs d'Apprentissage
-1. Distinguer le traitement fiscal Roth du traitement traditionnel.
-2. Expliquer la différence de moment où l'impôt est payé.
-3. Reconnaître qu'il s'agit d'un dispositif propre aux États-Unis.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Les structures Roth et traditionnelle sont des dispositifs fiscaux propres aux États-Unis, applicables aussi bien aux 401(k) qu'aux IRA.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* Un compte **traditionnel** utilise des versements avant impôt (réduisant le revenu imposable maintenant) avec des retraits imposés à la retraite. Un compte **Roth** utilise des versements après impôt (aucun allègement fiscal immédiat), mais les retraits admissibles à la retraite sont généralement exonérés d'impôt, y compris la croissance.
+- Définir un compte de courtage en termes simples.
+- Expliquer en quoi il diffère d’un compte de retraite comme un 401(k) ou un IRA.
+- Expliquer le compromis de base entre la souplesse et les avantages fiscaux.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Priya verse 6 000 $ sur un compte traditionnel, réduisant son revenu imposable cette année. Sa collègue verse 6 000 $ sur un compte Roth à la place, payant l'impôt sur ce revenu maintenant mais s'attendant à des retraits exonérés d'impôt des décennies plus tard, y compris toute la croissance accumulée entre-temps — un pari que son taux d'imposition actuel est plus bas qu'il ne le sera à la retraite.
+## Contenu principal
 
-## Quiz Pratique
-1. Quand les versements d'un compte traditionnel sont-ils imposés ?
-2. Quand les retraits admissibles d'un Roth sont-ils typiquement imposés ?
-3. Vrai/Faux : Les versements Roth procurent une déduction fiscale immédiate.
-4. Quelle est la différence générale de moment entre le traitement fiscal Roth et traditionnel ?
+### Ce qu’est un compte de courtage
+
+Un compte de courtage est un compte de placement ordinaire qui permet à une personne d’acheter et de vendre des actions, des obligations, des ETF et d’autres actifs papier — sans les règles fiscales propres à la retraite d’un 401(k) ou d’un IRA. (En France, on parle souvent de compte-titres ordinaire, par opposition à des enveloppes fiscales comme le PEA ou le PER.)
+
+### En quoi il diffère d’un compte de retraite
+
+Contrairement aux comptes de retraite, un compte de courtage ordinaire n’offre généralement aucun avantage fiscal particulier, mais n’impose pas non plus de restrictions sur le moment où l’argent peut être retiré — une souplesse totale pour ajouter ou retirer de l’argent en tout temps.
+
+### Le compromis entre souplesse et avantage fiscal
+
+Les comptes de retraite échangent une partie de la souplesse (souvent en limitant l’accès facile à l’argent avant un certain âge) contre de réels avantages fiscaux. Les comptes de courtage échangent ces avantages fiscaux contre une souplesse totale. Bien des investisseurs utilisent les deux, à des fins différentes.
+
+## Exemple pratique
+
+Une personne qui épargne précisément pour une retraite lointaine de plusieurs décennies pourrait donner la priorité à un 401(k) ou à un IRA pour leurs avantages fiscaux. La même personne, si elle épargne pour un objectif des prochaines années et a besoin d’un accès souple à son argent, pourrait plutôt utiliser un compte de courtage ordinaire.
+
+## Quiz pratique
+
+1. Un compte de courtage est :
+   A. Exclusivement destiné à l’épargne-retraite
+   B. Un compte de placement ordinaire sans règles fiscales propres à la retraite
+   C. Un type d’obligation d’épargne
+   D. Accessible seulement aux employeurs
+2. Vrai ou faux : un compte de courtage ordinaire impose les mêmes restrictions de retrait qu’un 401(k).
+3. Quel est le compromis de base entre les comptes de retraite et les comptes de courtage ordinaires?
+   A. Il n’y a aucun compromis
+   B. Des avantages fiscaux et un accès restreint, ou une souplesse totale avec moins d’avantages fiscaux
+   C. Les comptes de courtage sont illégaux
+   D. Les comptes de retraite n’offrent aucun avantage fiscal
 
 ## Corrigé
-1. Les retraits sont imposés à la retraite   2. Généralement exonérés d'impôt s'ils sont admissibles   3. Faux   4. Le traditionnel impose plus tard ; le Roth impose maintenant
 
-## Réponses et Explications
-1. Les versements traditionnels diffèrent l'impôt jusqu'au retrait.
-2. Les retraits Roth sont généralement exonérés d'impôt lorsqu'ils sont admissibles, l'impôt ayant été payé d'avance.
-3. Les versements Roth se font après impôt, sans déduction pour l'année en cours.
-4. Cette différence de moment est la distinction fondamentale entre les deux dispositifs.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Traditionnel : avant impôt maintenant, imposé au retrait.
-- Roth : imposé maintenant, retraits admissibles généralement exonérés d'impôt plus tard.
-- Le choix entre les deux dépend souvent des taux d'imposition futurs anticipés par rapport aux taux actuels.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un compte de courtage est un compte de placement ordinaire et souple.
+
+### Question 2
+Bonne réponse : Faux. Les comptes de courtage permettent généralement des retraits en tout temps, contrairement aux comptes de retraite.
+
+### Question 3
+Bonne réponse : B. C’est le compromis fondamental entre les deux types de comptes.
+
+## Points clés
+
+- Un compte de courtage est un compte de placement ordinaire, sans règles propres à la retraite.
+- Il offre une souplesse totale, mais généralement aucun avantage fiscal particulier.
+- Les comptes de retraite échangent une partie de la souplesse contre de réels avantages fiscaux.

@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 7
 locale: fr-CA
-title: "WHITE-L1-007 : Ordres au Marché vs. Ordres à Cours Limité"
-summary: "Leçon WHITE-L1-007 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le cours d’une action, et qu’est-ce qui le fait bouger?"
+summary: "Découvrez ce qui détermine le cours d’une action au jour le jour, au-delà de la simple « offre et demande »."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-007 : Ordres au Marché vs. Ordres à Cours Limité
+# Qu’est-ce que le cours d’une action, et qu’est-ce qui le fait bouger?
 
-## Objectifs d'Apprentissage
-1. Définir un ordre au marché et un ordre à cours limité.
-2. Expliquer le compromis entre certitude d'exécution et maîtrise du prix.
-3. Identifier un scénario où chaque type d'ordre est approprié.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un **ordre au marché** achète ou vend un titre immédiatement au meilleur cours disponible à cet instant — privilégiant la rapidité d'exécution au prix exact. Un **ordre à cours limité** fixe un prix précis auquel l'investisseur est disposé à acheter ou vendre — privilégiant la maîtrise du prix, mais l'exécution n'est pas garantie si le marché n'atteint jamais ce prix.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une action se négocie autour de 50 $. Noah passe un ordre au marché pour acheter — il s'exécute presque instantanément, mais sur un marché qui bouge vite, il pourrait payer un peu plus ou moins de 50 $ selon le moment précis de l'exécution. Son amie Devi passe plutôt un ordre à cours limité pour acheter à 48 $ — elle ne paiera pas plus de 48 $, mais si le cours ne descend jamais à 48 $, son ordre ne s'exécute tout simplement jamais.
+- Définir le cours d’une action en termes simples.
+- Expliquer le mécanisme de base de l’offre et de la demande derrière les variations de cours.
+- Nommer des facteurs qui peuvent faire varier cette offre et cette demande.
 
-## Quiz Pratique
-1. Que privilégie un ordre au marché ?
-2. Que privilégie un ordre à cours limité ?
-3. Vrai/Faux : Un ordre à cours limité garantit l'exécution.
-4. Quel type d'ordre utiliserais-tu si conclure l'opération immédiatement importe plus que le prix exact ?
+## Contenu principal
+
+### Ce qu’est le cours d’une action
+
+Le cours d’une action est le montant auquel une action se négocie actuellement sur le marché — le prix sur lequel le plus récent acheteur et le plus récent vendeur se sont entendus.
+
+### Le mécanisme de base
+
+Au fond, le cours d’une action varie selon l’offre et la demande : plus d’acheteurs que de vendeurs à un prix donné tend à faire monter le cours; plus de vendeurs que d’acheteurs tend à le faire baisser.
+
+### Ce qui fait varier l’offre et la demande
+
+Les nouvelles propres à l’entreprise (résultats, nouveaux produits, changements à la direction), la conjoncture économique générale, les tendances du secteur et le sentiment des investisseurs peuvent tous faire varier le nombre de personnes qui veulent acheter ou vendre à un prix donné — c’est pourquoi les cours peuvent bouger même si rien ne change dans l’entreprise elle-même.
+
+## Exemple pratique
+
+Une entreprise annonce des bénéfices meilleurs que prévu. Plus d’investisseurs veulent acheter des actions au cours actuel qu’il n’y a de vendeurs prêts à vendre, ce qui fait monter le cours jusqu’à ce qu’un nouvel équilibre soit atteint.
+
+## Quiz pratique
+
+1. Le cours d’une action est fondamentalement déterminé par :
+   A. Des règles fixées par le gouvernement
+   B. L’offre et la demande
+   C. La date de fondation de l’entreprise
+   D. Le symbole boursier de l’action
+2. Vrai ou faux : le cours d’une action ne peut changer que si quelque chose change dans l’entreprise elle-même.
+3. Quel est un facteur qui peut faire varier l’offre et la demande pour une action?
+   A. Les nouvelles sur les résultats de l’entreprise
+   B. Le symbole boursier de l’action
+   C. La date de fondation de l’entreprise
+   D. La couleur du logo de l’entreprise
 
 ## Corrigé
-1. La rapidité d'exécution   2. La maîtrise du prix   3. Faux   4. Un ordre au marché
 
-## Réponses et Explications
-1. Les ordres au marché s'exécutent au meilleur prix actuellement disponible, privilégiant la rapidité.
-2. Les ordres à cours limité s'exécutent seulement au prix indiqué ou mieux, privilégiant la maîtrise.
-3. Les ordres à cours limité s'exécutent seulement si le marché atteint le prix fixé — ce n'est pas garanti.
-4. Les ordres au marché conviennent aux situations où l'exécution immédiate importe le plus.
+1. B
+2. Faux
+3. A
 
-## Points Clés à Retenir
-- Les ordres au marché privilégient la rapidité ; les ordres à cours limité privilégient la maîtrise du prix.
-- Les ordres à cours limité ne sont pas garantis de s'exécuter si le prix cible n'est pas atteint.
-- Choisis selon si la rapidité ou la précision du prix importe le plus pour cette opération.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’offre et la demande déterminent fondamentalement le cours d’une action.
+
+### Question 2
+Bonne réponse : Faux. La conjoncture générale du marché et le sentiment des investisseurs peuvent faire bouger les cours sans aucun changement propre à l’entreprise.
+
+### Question 3
+Bonne réponse : A. Les nouvelles sur les résultats sont un facteur courant de variation de l’offre et de la demande.
+
+## Points clés
+
+- Le cours d’une action reflète le prix de la plus récente transaction conclue.
+- L’offre et la demande déterminent fondamentalement les variations de cours.
+- Les nouvelles de l’entreprise, la conjoncture économique et le sentiment des investisseurs peuvent tous faire varier l’offre et la demande.

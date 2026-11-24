@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 30
 locale: fr-CA
-title: "WHITE-L1-030 : Les Robo-Advisors Expliqués"
-summary: "*HYPOTHÈSE :* Le compromis se traduit généralement par des conseils moins personnalisés pour des situations financières complexes ou singulières comparé à un conseiller humain, bien que cela varie selon la plateforme, certaines proposant des services hybrides combinant humain et algorithme."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le risque de taux d’intérêt?"
+summary: "Découvrez comment l’évolution des taux d’intérêt influe sur le prix des obligations existantes, et pourquoi les deux évoluent en sens inverse."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-030 : Les Robo-Advisors Expliqués
+# Qu’est-ce que le risque de taux d’intérêt?
 
-## Objectifs d'Apprentissage
-1. Définir un robo-advisor.
-2. Expliquer comment les robo-advisors constituent typiquement des portefeuilles.
-3. Identifier un compromis courant par rapport aux conseillers humains.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un robo-advisor est une plateforme automatisée qui constitue et gère un portefeuille de placement selon les objectifs et la tolérance au risque déclarés par un investisseur, s'appuyant typiquement sur des algorithmes plutôt que sur un conseiller humain pour les décisions courantes. *ESTIMATION :* Les robo-advisors facturent couramment des frais plus bas que les conseillers financiers humains traditionnels, utilisant souvent des fonds indiciels/ETF à faible coût comme placements sous-jacents.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Le compromis se traduit généralement par des conseils moins personnalisés pour des situations financières complexes ou singulières comparé à un conseiller humain, bien que cela varie selon la plateforme, certaines proposant des services hybrides combinant humain et algorithme.
+- Définir le risque de taux d’intérêt en termes simples.
+- Expliquer la relation inverse de base entre les taux et le prix des obligations.
+- Expliquer pourquoi c’est important pour le détenteur d’une obligation existante.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Fatima répond à un questionnaire sur ses objectifs, son horizon de placement, et sa tolérance au risque sur une plateforme de robo-advisor. L'algorithme constitue automatiquement un portefeuille diversifié correspondant à son profil et le rééquilibre périodiquement — tout cela sans qu'elle ait besoin de s'entretenir avec un conseiller humain ni de sélectionner elle-même ses placements.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un robo-advisor ?
-2. Comment les robo-advisors se comparent-ils couramment aux conseillers humains en matière de frais ?
-3. Vrai/Faux : Les robo-advisors n'exigent jamais aucune interaction humaine.
-4. Quel est un compromis général de l'utilisation d'un robo-advisor ?
+### Ce qu’est le risque de taux d’intérêt
+
+Le risque de taux d’intérêt est le risque que l’évolution des taux d’intérêt en général influe sur la valeur marchande des obligations existantes — un risque distinct du risque de crédit, qui porte sur la capacité de l’émetteur à payer.
+
+### La relation inverse
+
+Lorsque les taux d’intérêt en général augmentent, le prix sur le marché des obligations existantes à taux fixe plus bas diminue généralement, parce que de nouvelles obligations sont émises au taux actuel, plus élevé et plus attrayant. Lorsque les taux en général baissent, les obligations existantes à taux plus élevé prennent généralement plus de valeur en comparaison.
+
+### Pourquoi c’est important pour le détenteur d’une obligation existante
+
+Le détenteur qui doit vendre avant l’échéance est exposé à ces variations de prix. Le détenteur qui conserve l’obligation jusqu’à l’échéance reçoit quand même la valeur nominale — le risque de taux d’intérêt touche surtout le prix de l’obligation sur le marché avant l’échéance, et non le remboursement final lui-même.
+
+## Exemple pratique
+
+Une investisseuse détient une obligation qui verse 3 % d’intérêt. Les taux d’intérêt en général montent à 5 %. Les nouvelles obligations offrent maintenant le taux plus attrayant de 5 %, ce qui rend son ancienne obligation à 3 % moins attrayante pour un acheteur éventuel — son prix sur le marché diminuerait généralement si elle la vendait avant l’échéance.
+
+## Quiz pratique
+
+1. Le risque de taux d’intérêt désigne :
+   A. Le risque qu’un émetteur fasse défaut
+   B. Le risque que l’évolution des taux influe sur le prix des obligations existantes
+   C. Le risque d’un fractionnement d’actions
+   D. Le risque de change
+2. Vrai ou faux : lorsque les taux d’intérêt en général augmentent, le prix des obligations existantes à taux plus bas augmente généralement aussi.
+3. Le détenteur qui conserve une obligation jusqu’à l’échéance reçoit-il quand même la valeur nominale complète, malgré le risque de taux d’intérêt?
+   A. Non, il perd la différence
+   B. Oui, la valeur nominale est généralement versée à l’échéance malgré tout
+   C. Seulement si les taux ont baissé
+   D. Seulement si l’obligation a été vendue plus tôt
 
 ## Corrigé
-1. Une plateforme automatisée de gestion de portefeuille   2. Des frais couramment plus bas   3. Faux   4. Généralement des conseils moins personnalisés pour des situations complexes
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un robo-advisor.
-2. Le coût plus faible est un avantage couramment cité des robo-advisors.
-3. Certaines plateformes proposent des services hybrides combinant humain et algorithme.
-4. La personnalisation réduite est un compromis général en échange du coût plus faible et de l'automatisation.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les robo-advisors automatisent la constitution et la gestion de portefeuille selon des objectifs déclarés.
-- Ils proposent couramment des frais plus bas que les conseillers humains traditionnels.
-- Le compromis se traduit généralement par moins de personnalisation, bien que des modèles hybrides existent.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le risque de taux d’intérêt touche le prix sur le marché des obligations existantes à mesure que les taux changent.
+
+### Question 2
+Bonne réponse : Faux. La hausse des taux fait généralement baisser le prix des obligations existantes à taux plus bas.
+
+### Question 3
+Bonne réponse : B. Conserver l’obligation jusqu’à l’échéance permet généralement de toucher quand même la valeur nominale complète, malgré les variations de prix entre-temps.
+
+## Points clés
+
+- Le risque de taux d’intérêt touche le prix des obligations existantes à mesure que les taux en général changent.
+- La hausse des taux fait généralement baisser le prix des obligations existantes à taux plus bas, et inversement.
+- Conserver l’obligation jusqu’à l’échéance permet généralement de toucher la valeur nominale, malgré les variations de prix entre-temps.

@@ -5,42 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 40
 locale: fr-CA
-title: "WHITE-L1-040 : Rééquilibrer un Portefeuille"
-summary: "Leçon WHITE-L1-040 en français."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un symbole boursier?"
+summary: "Découvrez ce qu’est un symbole boursier, et pourquoi la précision est importante pour désigner une action précise."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-040 : Rééquilibrer un Portefeuille
+# Qu’est-ce qu’un symbole boursier?
 
-## Objectifs d'Apprentissage
-1. Définir le rééquilibrage de portefeuille.
-2. Expliquer pourquoi les répartitions dérivent avec le temps sans rééquilibrage.
-3. Identifier les approches courantes de rééquilibrage.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Rééquilibrer signifie ajuster périodiquement un portefeuille pour revenir à sa répartition d'actifs cible, différents actifs croissant à des rythmes différents et faisant dériver la répartition initiale avec le temps. *HYPOTHÈSE :* Les approches courantes de rééquilibrage incluent celle fondée sur le calendrier (par exemple, annuellement) ou celle fondée sur un seuil (rééquilibrer lorsqu'une répartition s'écarte d'un certain pourcentage par rapport à la cible) — aucune approche n'est universellement supérieure.
+À la fin de cette leçon, vous devriez pouvoir :
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur commence avec une répartition cible de 70 % actions / 30 % obligations. Après une bonne année pour les actions, le portefeuille dérive vers 80 % actions / 20 % obligations — comportant désormais plus de risque qu'initialement prévu. Rééquilibrer consiste à vendre une partie des actions et à acheter des obligations pour revenir à la cible initiale de 70/30, réalignant le niveau de risque du portefeuille avec le plan initial de l'investisseur.
+- Définir un symbole boursier en termes simples.
+- Expliquer pourquoi la précision est importante quand on l’utilise.
+- Reconnaître que des noms semblables peuvent avoir des symboles très différents.
 
-## Quiz Pratique
-1. Qu'est-ce que le rééquilibrage de portefeuille ?
-2. Pourquoi les répartitions dérivent-elles avec le temps ?
-3. Cite deux approches courantes de rééquilibrage.
-4. Dans l'exemple pratique, qu'est-il arrivé au niveau de risque du portefeuille avant le rééquilibrage ?
+## Contenu principal
+
+### Ce qu’est un symbole boursier
+
+Un symbole boursier (*ticker*) est un code court et unique (habituellement composé de lettres) attribué à l’action d’une société cotée en bourse, qui sert à la désigner précisément sur une bourse.
+
+### Pourquoi la précision est importante
+
+Comme de nombreuses entreprises peuvent avoir des noms semblables ou apparentés, c’est le symbole boursier qui désigne réellement et sans ambiguïté l’action précise que l’on achète, que l’on vend ou dont on parle — se fier uniquement au nom d’une entreprise peut mener à des erreurs coûteuses.
+
+### Noms semblables, symboles différents
+
+Deux entreprises aux noms semblables peuvent avoir des symboles boursiers complètement différents, et les fautes de frappe ou la confusion entre symboles constituent un risque réel, et évitable, au moment de passer une véritable transaction.
+
+## Exemple pratique
+
+Une personne qui veut acheter les actions d’une entreprise précise vérifie le symbole boursier exact de celle-ci avant de passer son ordre, plutôt que de se fier à son seul souvenir du nom de l’entreprise, afin d’éviter de négocier par erreur la mauvaise action.
+
+## Quiz pratique
+
+1. Un symbole boursier est :
+   A. Le nom légal complet d’une entreprise
+   B. Un code court et unique qui désigne une action précise sur une bourse
+   C. Un type de dividende
+   D. Un numéro d’identification fiscale gouvernemental
+2. Vrai ou faux : se fier uniquement au nom d’une entreprise, sans vérifier le symbole boursier exact, est une façon sûre de s’assurer de passer la bonne transaction.
+3. Pourquoi la précision est-elle importante quand on utilise un symbole boursier?
+   A. Cela n’a aucune importance
+   B. Des noms d’entreprises semblables peuvent avoir des symboles très différents, et les erreurs coûtent cher
+   C. Toutes les entreprises ont le même symbole boursier
+   D. Les symboles boursiers sont facultatifs
 
 ## Corrigé
-1. Ajuster un portefeuille pour revenir à sa répartition cible   2. Différents actifs croissent à des rythmes différents   3. Fondée sur le calendrier, fondée sur un seuil   4. Le risque a augmenté à mesure que la répartition en actions dépassait la cible
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale du rééquilibrage.
-2. Les rythmes de croissance différenciés font dériver les répartitions par rapport aux cibles initiales.
-3. Ce sont les deux approches générales de rééquilibrage couramment citées.
-4. La dérive vers une répartition en actions plus élevée a accru le profil de risque du portefeuille au-delà du plan initial.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Le rééquilibrage restaure un portefeuille à sa répartition cible à mesure qu'il dérive avec le temps.
-- La dérive se produit parce que différents actifs croissent à des rythmes différents.
-- Les approches courantes incluent le rééquilibrage fondé sur le calendrier et celui fondé sur un seuil.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un symbole boursier désigne une action précise de façon unique.
+
+### Question 2
+Bonne réponse : Faux. Se fier au seul nom risque de faire confondre des entreprises aux noms semblables.
+
+### Question 3
+Bonne réponse : B. La précision évite des erreurs de transaction coûteuses.
+
+## Points clés
+
+- Un symbole boursier désigne de façon unique une action précise sur une bourse.
+- La précision est importante — les noms d’entreprises peuvent se ressembler même si leurs symboles boursiers sont complètement différents.
+- Vérifier le symbole exact avant de négocier évite des erreurs coûteuses.

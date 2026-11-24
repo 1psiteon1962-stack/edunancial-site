@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 19
 locale: fr-FR
-title: "WHITE-L1-019 : Qu'est-ce Qu'un 401(k) ?"
-summary: "*FAIT VÉRIFIÉ :* Un 401(k) permet aux salariés de verser une partie de leur rémunération sur un compte de placement destiné à la retraite, souvent avec des versements avant impôt (réduisant le revenu imposable actuel) et une croissance à imposition différée jusqu'au retrait à la retraite."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un IRA, et en quoi diffère-t-il d’un 401(k)?"
+summary: "Découvrez ce qu’est un IRA, et la différence fondamentale entre ce compte et un 401(k) offert par l’employeur."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-019 : Qu'est-ce Qu'un 401(k) ?
+# Qu’est-ce qu’un IRA, et en quoi diffère-t-il d’un 401(k)?
 
-## Objectifs d'Apprentissage
-1. Définir un 401(k) en termes généraux.
-2. Expliquer la nature fiscalement avantageuse du compte.
-3. Reconnaître qu'il s'agit d'un type de compte propre aux États-Unis.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Un 401(k) est un compte de retraite parrainé par l'employeur aux États-Unis ; d'autres pays disposent de dispositifs équivalents différents (comme le plan d'épargne retraite en France), et cette leçon décrit précisément le dispositif américain.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* Un 401(k) permet aux salariés de verser une partie de leur rémunération sur un compte de placement destiné à la retraite, souvent avec des versements avant impôt (réduisant le revenu imposable actuel) et une croissance à imposition différée jusqu'au retrait à la retraite.
+- Définir un IRA en termes simples.
+- Expliquer la différence fondamentale entre un IRA et un 401(k).
+- Reconnaître que les deux servent le même objectif général d’épargne-retraite.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Layla gagne 60 000 $ par an et verse 6 000 $ sur son 401(k). Son revenu imposable pour l'année est ramené à 54 000 $, allégeant sa facture fiscale actuelle. Ces 6 000 $ fructifient à imposition différée dans le compte — elle ne devra pas d'impôt sur la croissance tant qu'elle n'aura pas retiré les fonds, typiquement à la retraite.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un 401(k) ?
-2. Comment les versements avant impôt peuvent-ils affecter le revenu imposable actuel ?
-3. Vrai/Faux : Un 401(k) est disponible pour les salariés du monde entier sous ce nom précis.
-4. Quand l'impôt sur la croissance d'un 401(k) traditionnel devient-il typiquement exigible ?
+### Ce qu’est un IRA
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit d’un type de compte propre aux États-Unis. En France, l’équivalent le plus proche est le plan d’épargne retraite individuel (PER individuel), que l’on ouvre soi-même auprès d’un établissement financier; les règles diffèrent, alors vérifiez-les auprès des autorités ou d’un professionnel.)* Un IRA (*Individual Retirement Account*, compte de retraite individuel) est un compte d’épargne-retraite qu’une personne ouvre elle-même, indépendamment d’un employeur, souvent auprès d’une banque ou d’une société de courtage.
+
+### La différence fondamentale avec un 401(k)
+
+Un 401(k) est lié à un employeur et n’est habituellement accessible que pendant qu’on y travaille. Un IRA est ouvert de façon indépendante par une personne et n’est lié à aucun employeur précis — on peut avoir un IRA qu’on ait ou non un emploi offrant un 401(k).
+
+### Le même objectif général
+
+Malgré la différence structurelle, les deux types de comptes servent le même objectif de base : encourager l’épargne-retraite et offrir des moyens fiscalement avantageux d’y parvenir.
+
+## Exemple pratique
+
+Une personne travailleuse autonome, qui n’a accès à aucun 401(k) offert par un employeur, peut quand même ouvrir un IRA et y cotiser de façon indépendante — le compte n’est pas du tout lié au fait d’avoir un employeur précis.
+
+## Quiz pratique
+
+1. Un IRA est :
+   A. Accessible seulement par l’intermédiaire d’un employeur
+   B. Un compte de retraite qu’une personne ouvre de façon indépendante
+   C. Un type de compte courant
+   D. Une pension gouvernementale
+2. Vrai ou faux : un 401(k) et un IRA sont liés à un employeur exactement de la même façon.
+3. Une personne qui n’a pas accès à un 401(k) offert par un employeur peut-elle quand même épargner pour la retraite au moyen d’un IRA?
+   A. Non, un employeur est toujours nécessaire
+   B. Oui, un IRA s’ouvre indépendamment de tout employeur
+   C. Seulement si elle est déjà retraitée
+   D. Seuls les employés du gouvernement peuvent ouvrir un IRA
 
 ## Corrigé
-1. Un compte de retraite parrainé par l'employeur aux États-Unis   2. Les versements réduisent le revenu imposable actuel   3. Faux   4. Au moment du retrait, typiquement à la retraite
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un 401(k).
-2. Les versements avant impôt allègent le revenu imposable déclaré pour cette année-là.
-3. Ce type de compte précis et son nom sont propres aux États-Unis.
-4. L'impôt est généralement différé jusqu'au retrait, il n'est pas dû pendant la phase de croissance.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Un 401(k) est un compte de retraite parrainé par l'employeur aux États-Unis.
-- Les versements avant impôt peuvent réduire le revenu imposable actuel.
-- La croissance est à imposition différée jusqu'au retrait, typiquement à la retraite.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un IRA est ouvert de façon indépendante par une personne.
+
+### Question 2
+Bonne réponse : Faux. Un 401(k) est lié à un employeur; un IRA ne l’est pas.
+
+### Question 3
+Bonne réponse : B. Les IRA sont indépendants de tout régime offert par un employeur.
+
+## Points clés
+
+- Un IRA est un compte de retraite ouvert de façon indépendante, qui n’est pas lié à un employeur.
+- C’est la différence structurelle fondamentale avec un 401(k).
+- Les deux servent le même objectif général : une épargne-retraite fiscalement avantageuse.

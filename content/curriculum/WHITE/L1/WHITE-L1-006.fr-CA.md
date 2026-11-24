@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 6
 locale: fr-CA
-title: "WHITE-L1-006 : Qu'est-ce Qu'un Compte-Titres ?"
-summary: "Les types de compte courants incluent les comptes individuels (un seul titulaire), les comptes joints (plusieurs titulaires), et les comptes de retraite à avantages fiscaux (comme un 401(k) ou un IRA, abordés dans des leçons ultérieures), chacun avec un traitement fiscal et des règles différents."
-sourceVersion: "1.0"
+title: "Qu’est-ce qu’un dividende?"
+summary: "Découvrez ce qu’est un dividende, comment il est versé et pourquoi il n’est jamais garanti."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-006 : Qu'est-ce Qu'un Compte-Titres ?
+# Qu’est-ce qu’un dividende?
 
-## Objectifs d'Apprentissage
-1. Définir un compte de courtage.
-2. Distinguer un compte de courtage d'un compte bancaire.
-3. Identifier les types de compte de base (individuel, joint, de retraite).
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un compte de courtage est un compte qui permet à un investisseur d'acheter et de vendre des titres comme des actions, des obligations, des fonds communs de placement, et des ETF, ouvert auprès d'un courtier agréé. *FAIT VÉRIFIÉ :* Contrairement à un compte bancaire, l'argent placé sur un compte de courtage est typiquement investi, et non simplement conservé en liquidités, et sa valeur peut monter ou baisser selon les conditions de marché.
+À la fin de cette leçon, vous devriez pouvoir :
 
-Les types de compte courants incluent les comptes individuels (un seul titulaire), les comptes joints (plusieurs titulaires), et les comptes de retraite à avantages fiscaux (comme un 401(k) ou un IRA, abordés dans des leçons ultérieures), chacun avec un traitement fiscal et des règles différents.
+- Définir un dividende en termes simples.
+- Expliquer comment les dividendes sont habituellement versés.
+- Expliquer pourquoi les dividendes ne sont jamais garantis.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Aisha ouvre un compte de courtage individuel et y dépose 1 000 $. Contrairement à un compte d'épargne où ces 1 000 $ resteraient en liquidités générant un intérêt modeste, elle les utilise pour acheter des actions d'une entreprise. Son solde fluctue désormais quotidiennement avec le cours de cette action — elle pourrait voir 1 100 $ ou 900 $ selon l'évolution du marché, un profil de risque fondamentalement différent de celui d'un compte bancaire.
+## Contenu principal
 
-## Quiz Pratique
-1. À quoi sert un compte de courtage ?
-2. En quoi un compte de courtage diffère-t-il d'un compte bancaire classique ?
-3. Cite deux types courants de titularité de compte.
-4. Vrai/Faux : L'argent placé sur un compte de courtage génère toujours un rendement fixe et prévisible comme un compte d'épargne.
+### Ce qu’est un dividende
+
+Un dividende est une partie du bénéfice d’une entreprise distribuée aux actionnaires, proportionnellement au nombre d’actions qu’ils possèdent.
+
+### Comment ils sont habituellement versés
+
+Les dividendes sont couramment versés en argent, selon un calendrier régulier (souvent trimestriel), directement aux actionnaires, en fonction du nombre d’actions qu’ils détiennent à une date de clôture des registres précise.
+
+### Pourquoi ils ne sont jamais garantis
+
+C’est le conseil d’administration de l’entreprise qui décide s’il faut verser un dividende, et de quel montant — aucune obligation légale ne l’y oblige. Les entreprises peuvent réduire ou suspendre leurs dividendes, ou ne jamais commencer à en verser, souvent selon leur rentabilité et leurs projets de croissance.
+
+## Exemple pratique
+
+Un investisseur qui possède 100 actions d’une entreprise qui verse un dividende trimestriel de 0,50 $ par action recevrait 50 $ ce trimestre-là — un montant qui pourrait changer au cours des trimestres suivants, à la discrétion de l’entreprise.
+
+## Quiz pratique
+
+1. Un dividende est :
+   A. Un paiement fixe garanti
+   B. Une partie du bénéfice de l’entreprise distribuée aux actionnaires
+   C. Un type de paiement d’intérêts sur une obligation
+   D. Un impôt dû sur la possession d’actions
+2. Vrai ou faux : les entreprises sont légalement tenues de verser des dividendes.
+3. Qui décide s’il faut verser un dividende, et de quel montant?
+   A. Chaque actionnaire
+   B. Le conseil d’administration de l’entreprise
+   C. La bourse
+   D. Le gouvernement
 
 ## Corrigé
-1. Acheter et vendre des titres   2. Les fonds du compte de courtage sont typiquement investis et peuvent fluctuer ; les fonds bancaires sont typiquement conservés en liquidités stables   3. Individuel, joint (entre autres)   4. Faux
 
-## Réponses et Explications
-1. Ceci est la fonction principale d'un compte de courtage.
-2. Le risque de placement et la fluctuation distinguent les comptes-titres des dépôts bancaires.
-3. Ce sont des structures standard de titularité de compte.
-4. La valeur d'un compte de courtage dépend des placements sous-jacents, pas d'un taux fixe.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Un compte de courtage permet d'acheter et de vendre des titres.
-- Contrairement aux comptes bancaires, les fonds d'un compte de courtage sont typiquement investis et peuvent fluctuer en valeur.
-- Les types de compte (individuel, joint, de retraite) ont des règles et un traitement fiscal différents.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un dividende est une distribution du bénéfice aux actionnaires.
+
+### Question 2
+Bonne réponse : Faux. Le versement de dividendes est discrétionnaire, et non une obligation légale.
+
+### Question 3
+Bonne réponse : B. C’est le conseil d’administration qui décide du versement des dividendes.
+
+## Points clés
+
+- Un dividende est une partie du bénéfice distribuée aux actionnaires.
+- Les versements se font habituellement en argent, selon un calendrier régulier.
+- Les dividendes ne sont jamais garantis — ils relèvent d’une décision du conseil d’administration.

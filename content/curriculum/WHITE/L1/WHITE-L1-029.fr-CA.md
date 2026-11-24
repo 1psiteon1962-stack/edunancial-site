@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 29
 locale: fr-CA
-title: "WHITE-L1-029 : Le Rôle d'un Conseiller Financier"
-summary: "*FAIT VÉRIFIÉ :* Les conseillers sont couramment rémunérés de différentes façons : **uniquement aux honoraires** (payé directement par le client, sans commission sur les produits), **à la commission** (percevant une rémunération sur les produits vendus), ou selon un modèle hybride combinant les deux — la structure de rémunération peut influencer ce qu'un conseiller est incité à recommander."
-sourceVersion: "1.0"
+title: "Qu’est-ce que le risque de crédit d’une obligation?"
+summary: "Découvrez ce que signifie le risque de crédit pour une obligation, et quel est son lien avec le fait que certaines obligations versent des intérêts plus élevés que d’autres."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-029 : Le Rôle d'un Conseiller Financier
+# Qu’est-ce que le risque de crédit d’une obligation?
 
-## Objectifs d'Apprentissage
-1. Définir le rôle général d'un conseiller financier.
-2. Distinguer un conseiller rémunéré uniquement aux honoraires d'un conseiller rémunéré à la commission.
-3. Expliquer pourquoi comprendre la structure de rémunération importe.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un conseiller financier apporte des conseils en matière de planification financière, de placement, de retraite, et de décisions connexes. *RÈGLE PROPRE À LA RÉGION :* Les agréments, la réglementation, et les obligations fiduciaires applicables aux conseillers varient considérablement selon la juridiction.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*FAIT VÉRIFIÉ :* Les conseillers sont couramment rémunérés de différentes façons : **uniquement aux honoraires** (payé directement par le client, sans commission sur les produits), **à la commission** (percevant une rémunération sur les produits vendus), ou selon un modèle hybride combinant les deux — la structure de rémunération peut influencer ce qu'un conseiller est incité à recommander.
+- Définir le risque de crédit en termes simples.
+- Expliquer le lien entre le risque de crédit et le taux d’intérêt d’une obligation.
+- Reconnaître que les émetteurs d’obligations ne comportent pas tous le même risque de crédit.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux conseillers recommandent des produits de placement différents au même client. L'un est rémunéré uniquement aux honoraires, facturant un tarif fixe quel que soit le produit recommandé. L'autre perçoit une commission sur le produit précis vendu. Comprendre cette différence aide le client à évaluer si une recommandation repose purement sur son besoin ou si elle est potentiellement influencée par la structure de rémunération du conseiller.
+## Contenu principal
 
-## Quiz Pratique
-1. Que fournit généralement un conseiller financier ?
-2. Qu'est-ce qu'un conseiller rémunéré « uniquement aux honoraires » ?
-3. Qu'est-ce qu'un conseiller rémunéré « à la commission » ?
-4. Pourquoi la structure de rémunération importe-t-elle lors de l'évaluation d'un conseil ?
+### Ce qu’est le risque de crédit
+
+Le risque de crédit est le risque qu’un émetteur d’obligations ne puisse pas verser les intérêts promis ou rembourser le capital à l’échéance — autrement dit, le risque de défaut de paiement.
+
+### Le lien avec le taux d’intérêt
+
+Les émetteurs perçus comme présentant un risque de crédit plus élevé doivent généralement offrir un taux de coupon plus élevé pour attirer des prêteurs, afin de compenser les investisseurs pour ce risque supplémentaire. Les émetteurs perçus comme très peu risqués (comme les gouvernements stables) peuvent généralement emprunter à des taux plus bas.
+
+### Tous les émetteurs ne se valent pas
+
+Une grande entreprise financièrement stable et une plus petite entreprise en difficulté financière qui émettent des obligations ne comportent pas le même risque de crédit, même si leurs obligations se ressemblent en apparence — c’est pourquoi les cotes de crédit des obligations (présentées au niveau 2) existent : pour aider à évaluer ce risque.
+
+## Exemple pratique
+
+Un gouvernement financièrement solide pourrait émettre des obligations à un faible taux d’intérêt, ce qui reflète un faible risque de crédit. Une entreprise en difficulté financière pourrait devoir offrir un taux d’intérêt beaucoup plus élevé sur ses obligations pour attirer des investisseurs prêts à assumer le risque de défaut supplémentaire.
+
+## Quiz pratique
+
+1. Le risque de crédit d’une obligation désigne :
+   A. Le risque de perdre un certificat papier
+   B. Le risque que l’émetteur ne rembourse pas les intérêts ou le capital comme promis
+   C. Le risque d’un fractionnement d’actions
+   D. Le risque d’une baisse générale du marché
+2. Vrai ou faux : les émetteurs qui présentent un risque de crédit plus élevé offrent généralement des taux d’intérêt plus bas.
+3. Pourquoi une entreprise en difficulté financière pourrait-elle devoir offrir un taux d’intérêt plus élevé sur ses obligations?
+   A. Pour compenser les investisseurs pour un risque de défaut plus élevé
+   B. Parce que le gouvernement l’exige
+   C. Pour réduire sa capitalisation boursière
+   D. Les obligations ont toujours le même taux, peu importe le risque
 
 ## Corrigé
-1. Des conseils en planification financière, placement, et décisions connexes   2. Payé directement par le client, sans commission sur les produits   3. Perçoit une rémunération sur les produits vendus   4. Elle peut influencer ce qu'un conseiller est incité à recommander
 
-## Réponses et Explications
-1. Ceci est le périmètre général du rôle d'un conseiller financier.
-2. Ceci définit le modèle de rémunération uniquement aux honoraires.
-3. Ceci définit le modèle de rémunération à la commission.
-4. La structure de rémunération peut créer des conflits d'intérêts potentiels qu'il convient de comprendre.
+1. B
+2. Faux
+3. A
 
-## Points Clés à Retenir
-- Les conseillers financiers apportent des conseils en planification, placement, et décisions connexes.
-- Les structures de rémunération (honoraires seuls, commission, hybride) varient et peuvent influencer les recommandations.
-- Les agréments et normes réglementaires varient considérablement selon la juridiction.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le risque de crédit est le risque de défaut sur les intérêts ou le capital.
+
+### Question 2
+Bonne réponse : Faux. Les émetteurs qui présentent un risque de crédit plus élevé doivent généralement offrir des taux plus élevés.
+
+### Question 3
+Bonne réponse : A. Des taux plus élevés compensent les investisseurs qui assument un risque de défaut.
+
+## Points clés
+
+- Le risque de crédit est le risque qu’un émetteur fasse défaut sur une obligation.
+- Un risque de crédit plus élevé signifie généralement un taux d’intérêt offert plus élevé.
+- Les émetteurs d’obligations ne comportent pas tous le même niveau de risque de crédit.

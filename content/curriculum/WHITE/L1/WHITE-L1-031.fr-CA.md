@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 31
 locale: fr-CA
-title: "WHITE-L1-031 : Comptes à Avantages Fiscaux vs. Comptes Imposables"
-summary: "*HYPOTHÈSE :* De nombreux investisseurs combinent les deux — comptes à avantages fiscaux pour les objectifs de retraite à long terme, comptes imposables pour des objectifs plus flexibles et à court terme — bien que le bon dosage dépende des circonstances de chacun."
-sourceVersion: "1.0"
+title: "Qu’est-ce que l’inflation, et pourquoi change-t-elle discrètement la valeur de votre argent?"
+summary: "Découvrez ce que signifie l’inflation, et pourquoi elle érode silencieusement le pouvoir d’achat même lorsque le solde d’un compte bancaire reste le même."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-031 : Comptes à Avantages Fiscaux vs. Comptes Imposables
+# Qu’est-ce que l’inflation, et pourquoi change-t-elle discrètement la valeur de votre argent?
 
-## Objectifs d'Apprentissage
-1. Distinguer les comptes à avantages fiscaux des comptes-titres imposables standards.
-2. Identifier un compromis clé des comptes à avantages fiscaux.
-3. Expliquer pourquoi le choix du type de compte peut affecter la stratégie de placement.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Les comptes à avantages fiscaux (comme les 401(k) et les IRA) offrent des avantages fiscaux mais s'accompagnent typiquement de règles restreignant quand et comment les fonds peuvent être retirés sans pénalité. Un compte de courtage imposable standard n'offre aucun traitement fiscal particulier mais permet généralement un accès sans restriction aux fonds à tout moment.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* De nombreux investisseurs combinent les deux — comptes à avantages fiscaux pour les objectifs de retraite à long terme, comptes imposables pour des objectifs plus flexibles et à court terme — bien que le bon dosage dépende des circonstances de chacun.
+- Définir l’inflation en termes simples.
+- Expliquer pourquoi un solde bancaire stable peut quand même perdre de la valeur réelle.
+- Faire le lien entre l’inflation et le coût réel de ne détenir que de l’argent liquide.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Ravi verse des fonds sur son 401(k) pour la retraite, acceptant des restrictions de retrait en échange d'avantages fiscaux, puisqu'il n'aura pas besoin de cet argent avant des décennies. Il conserve aussi un compte de courtage imposable distinct pour un apport personnel en vue d'un achat immobilier auquel il pourrait devoir accéder dans trois ans — une flexibilité qu'un compte de retraite restreint ne fournirait pas aisément.
+## Contenu principal
 
-## Quiz Pratique
-1. Quel est un avantage général des comptes à avantages fiscaux ?
-2. Quel est un compromis général des comptes à avantages fiscaux ?
-3. Qu'offre généralement à la place un compte de courtage imposable ?
-4. Vrai/Faux : Les investisseurs doivent choisir un seul type de compte de façon exclusive.
+### Ce qu’est l’inflation
+
+L’inflation est une hausse générale des prix au fil du temps, ce qui signifie que chaque unité de monnaie permet d’acheter moins qu’auparavant.
+
+### Pourquoi un solde stable peut quand même perdre de la valeur
+
+Si les prix augmentent de 3 % en un an et qu’un solde bancaire ne rapporte aucun intérêt, cet argent permet maintenant d’acheter environ 3 % de moins qu’un an plus tôt — le chiffre dans le compte n’a pas diminué, mais son pouvoir d’achat réel, oui.
+
+### Pourquoi c’est important pour l’investissement
+
+Comme l’inflation érode le pouvoir d’achat avec le temps, détenir de l’argent liquide qui ne rapporte rien n’est pas réellement « sûr » à tous points de vue — cela comporte le risque réel de perdre de la valeur face à la hausse des prix, une raison clé pour laquelle bien des gens investissent plutôt que de simplement garder de l’argent liquide à long terme.
+
+## Exemple pratique
+
+1 000 $ laissés pendant un an dans un compte qui ne rapporte pas d’intérêts, avec une inflation de 3 %, permettent d’acheter l’équivalent d’environ 970 $ de ce qu’ils auraient permis d’acheter un an plus tôt — même si le compte affiche toujours 1 000 $.
+
+## Quiz pratique
+
+1. L’inflation désigne :
+   A. Une baisse des prix au fil du temps
+   B. Une hausse générale des prix au fil du temps
+   C. Un type d’obligation
+   D. Un impôt gouvernemental
+2. Vrai ou faux : un solde bancaire stable est toujours à l’abri d’une perte de valeur réelle.
+3. Pourquoi détenir de l’argent liquide à long terme pourrait-il comporter un risque réel?
+   A. L’argent liquide ne peut jamais perdre de valeur
+   B. L’inflation peut éroder son pouvoir d’achat avec le temps
+   C. L’argent liquide rapporte toujours des intérêts élevés
+   D. Détenir de l’argent liquide ne comporte aucun risque
 
 ## Corrigé
-1. Des avantages fiscaux (report ou exonération)   2. Des restrictions/pénalités de retrait   3. Un accès sans restriction aux fonds   4. Faux
 
-## Réponses et Explications
-1. Ceci constitue l'attrait principal des comptes à avantages fiscaux.
-2. L'accès restreint est le compromis courant en échange de ces avantages fiscaux.
-3. Les comptes imposables privilégient la flexibilité au détriment des avantages fiscaux.
-4. De nombreux investisseurs combinent les deux selon différents objectifs et horizons de placement.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les comptes à avantages fiscaux offrent des avantages fiscaux mais restreignent la flexibilité de retrait.
-- Les comptes imposables offrent de la flexibilité sans traitement fiscal particulier.
-- De nombreux investisseurs combinent les deux selon différents objectifs et horizons de placement.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’inflation est une hausse générale des prix au fil du temps.
+
+### Question 2
+Bonne réponse : Faux. L’inflation peut éroder la valeur réelle, même avec un solde nominal stable.
+
+### Question 3
+Bonne réponse : B. L’inflation érode le pouvoir d’achat, un risque réel lorsqu’on détient de l’argent liquide à long terme.
+
+## Points clés
+
+- L’inflation est une hausse générale des prix, qui réduit le pouvoir d’achat.
+- Un solde de compte stable peut quand même perdre de la valeur réelle à cause de l’inflation.
+- Détenir de l’argent liquide à long terme comporte un risque réel, souvent sous-estimé.

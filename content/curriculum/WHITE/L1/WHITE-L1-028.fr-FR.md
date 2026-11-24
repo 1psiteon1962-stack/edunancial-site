@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 28
 locale: fr-FR
-title: "WHITE-L1-028 : Comprendre la Volatilité"
-summary: "*HYPOTHÈSE :* La tolérance d'un investisseur à la volatilité varie selon l'horizon de placement, la situation financière, et le confort psychologique face aux fluctuations de la valeur du compte — ce qui paraît gérable pour un investisseur peut sembler intolérable pour un autre."
-sourceVersion: "1.0"
+title: "Qu’est-ce que la date d’échéance d’une obligation?"
+summary: "Découvrez ce qu’est une date d’échéance, et pourquoi des obligations d’échéances différentes se comportent différemment."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-028 : Comprendre la Volatilité
+# Qu’est-ce que la date d’échéance d’une obligation?
 
-## Objectifs d'Apprentissage
-1. Définir la volatilité en matière de placement.
-2. Distinguer la volatilité d'une perte réelle.
-3. Expliquer pourquoi la tolérance à la volatilité varie selon l'investisseur.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La volatilité désigne l'ampleur et la rapidité avec lesquelles le cours d'un titre fluctue. *FAIT VÉRIFIÉ :* Une volatilité élevée signifie des variations de cours plus amples et plus fréquentes, dans les deux sens — cela ne signifie pas intrinsèquement qu'un placement perd de la valeur, seulement que son cours évolue de façon plus marquée.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* La tolérance d'un investisseur à la volatilité varie selon l'horizon de placement, la situation financière, et le confort psychologique face aux fluctuations de la valeur du compte — ce qui paraît gérable pour un investisseur peut sembler intolérable pour un autre.
+- Définir la date d’échéance en termes simples.
+- Expliquer ce qui se passe à l’échéance.
+- Reconnaître que la durée jusqu’à l’échéance influe sur le comportement d’une obligation.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux placements affichent tous deux un rendement moyen de 8 % par an sur 10 ans. Le Placement A évolue en douceur avec de faibles variations d'une année sur l'autre. Le Placement B oscille fortement — il chute de 20 % une année, progresse de 35 % la suivante — pour une moyenne identique de 8 % mais avec un parcours bien plus chaotique. Les deux ont techniquement délivré le même rendement moyen, mais la volatilité du Placement B mettrait à l'épreuve la patience de nombreux investisseurs en cours de route.
+## Contenu principal
 
-## Quiz Pratique
-1. Que mesure la volatilité ?
-2. Vrai/Faux : Une volatilité élevée signifie toujours qu'un placement perd de la valeur.
-3. Quels facteurs influencent la tolérance d'un investisseur à la volatilité ?
-4. Qu'est-ce qui était vrai des Placements A et B dans l'exemple pratique malgré leurs parcours différents ?
+### Ce qu’est une date d’échéance
+
+La date d’échéance d’une obligation est la date à laquelle l’émetteur s’est engagé à rembourser intégralement la valeur nominale de l’obligation (le capital) à son détenteur — la fin de la durée du prêt présentée dans la leçon précédente sur les obligations.
+
+### Ce qui se passe à l’échéance
+
+À l’échéance, le détenteur de l’obligation récupère la valeur nominale de l’obligation, et les versements d’intérêts cessent, puisque le prêt est considéré comme entièrement remboursé.
+
+### Pourquoi la durée jusqu’à l’échéance compte
+
+Les obligations dont l’échéance est plus longue (une date de remboursement plus lointaine) sont généralement plus sensibles à l’évolution des taux d’intérêt que les obligations dont l’échéance est plus courte — une notion approfondie dans une leçon ultérieure sur le risque de taux d’intérêt.
+
+## Exemple pratique
+
+Une obligation de 2 ans et une obligation de 20 ans pourraient avoir des taux de coupon semblables aujourd’hui, mais le prix de l’obligation de 20 ans réagira habituellement de façon plus marquée aux variations futures des taux d’intérêt, simplement parce qu’il lui reste beaucoup plus de temps avant l’échéance.
+
+## Quiz pratique
+
+1. La date d’échéance d’une obligation est :
+   A. Le moment où les versements d’intérêts commencent
+   B. Le moment où l’émetteur rembourse intégralement la valeur nominale de l’obligation
+   C. La date à laquelle l’obligation a été achetée
+   D. Une date fixée par le détenteur de l’obligation
+2. Vrai ou faux : les versements d’intérêts se poursuivent indéfiniment après l’échéance d’une obligation.
+3. Quel type d’obligation est généralement plus sensible aux variations des taux d’intérêt?
+   A. Une obligation à échéance plus courte
+   B. Une obligation à échéance plus longue
+   C. La durée jusqu’à l’échéance n’a aucun effet sur la sensibilité
+   D. Seulement les obligations sans date d’échéance
 
 ## Corrigé
-1. L'ampleur et la rapidité avec lesquelles le cours fluctue   2. Faux   3. Horizon de placement, situation financière, confort psychologique   4. Les deux ont eu en moyenne le même rendement annuel de 8 %
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la volatilité.
-2. La volatilité reflète l'ampleur du mouvement de cours, pas la direction ni une perte garantie.
-3. Ce sont les facteurs généraux qui façonnent la tolérance individuelle à la volatilité.
-4. Même rendement moyen, expérience de volatilité très différente en cours de route.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La volatilité mesure l'ampleur et la fréquence des variations de cours.
-- Une volatilité élevée ne signifie pas intrinsèquement une perte — elle signifie un mouvement de cours plus important dans un sens comme dans l'autre.
-- La tolérance à la volatilité est personnelle et dépend de l'horizon de placement et du confort psychologique.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’échéance est le moment où la valeur nominale est remboursée intégralement.
+
+### Question 2
+Bonne réponse : Faux. Les versements d’intérêts cessent une fois que l’obligation arrive à échéance et qu’elle est remboursée.
+
+### Question 3
+Bonne réponse : B. Les obligations à échéance plus longue sont généralement plus sensibles aux variations des taux.
+
+## Points clés
+
+- La date d’échéance d’une obligation est le moment où la valeur nominale est remboursée intégralement.
+- Les versements d’intérêts cessent une fois l’échéance atteinte.
+- Les obligations à échéance plus longue sont généralement plus sensibles aux variations des taux d’intérêt.

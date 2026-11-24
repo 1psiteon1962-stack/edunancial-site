@@ -5,44 +5,74 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 36
 locale: fr-FR
-title: "WHITE-L1-036 : Obligations du Trésor Américain vs. Obligations d'Entreprises"
-summary: "Les **obligations du Trésor américain** sont émises par le gouvernement fédéral des États-Unis et sont généralement considérées comme comportant un risque de défaut très faible, compte tenu du pouvoir du gouvernement de lever l'impôt et de créer de la monnaie. Les **obligations d'entreprises** sont émises par des sociétés et comportent des niveaux de risque variables selon la santé financière de l'émetteur, offrant généralement des rendements plus élevés que des obligations du Trésor comparables"
-sourceVersion: "1.0"
+title: "Qu’est-ce que la valeur nominale par rapport à la valeur réelle (le pouvoir d’achat)?"
+summary: "Découvrez la différence entre le montant d’argent en euros et son pouvoir d’achat réel, en vous appuyant directement sur la leçon sur l’inflation."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-036 : Obligations du Trésor Américain vs. Obligations d'Entreprises
+# Qu’est-ce que la valeur nominale par rapport à la valeur réelle (le pouvoir d’achat)?
 
-## Objectifs d'Apprentissage
-1. Distinguer les obligations du Trésor américain des obligations d'entreprises.
-2. Expliquer la différence générale de risque entre les deux.
-3. Reconnaître qu'il s'agit d'une distinction centrée sur les États-Unis, avec des équivalents ailleurs.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* « Obligations du Trésor » fait précisément référence à la dette du gouvernement fédéral américain ; d'autres pays émettent des obligations souveraines équivalentes sous d'autres noms (comme les OAT en France).
+À la fin de cette leçon, vous devriez pouvoir :
 
-Les **obligations du Trésor américain** sont émises par le gouvernement fédéral des États-Unis et sont généralement considérées comme comportant un risque de défaut très faible, compte tenu du pouvoir du gouvernement de lever l'impôt et de créer de la monnaie. Les **obligations d'entreprises** sont émises par des sociétés et comportent des niveaux de risque variables selon la santé financière de l'émetteur, offrant généralement des rendements plus élevés que des obligations du Trésor comparables pour compenser ce risque additionnel.
+- Distinguer la valeur en euros (nominale) de la valeur réelle (le pouvoir d’achat).
+- Expliquer pourquoi comparer des montants en euros à des époques différentes peut induire en erreur.
+- Appliquer cette distinction à un exemple simple.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un investisseur compare une obligation du Trésor à 10 ans rapportant 4 % à une obligation d'entreprise à 10 ans d'une société stable rapportant 5,5 %. Le 1,5 % supplémentaire de l'obligation d'entreprise compense le risque de défaut additionnel (bien que relativement modeste, pour une entreprise financièrement saine) comparé au Trésor garanti par l'État.
+## Contenu principal
 
-## Quiz Pratique
-1. Qui émet les obligations du Trésor américain ?
-2. Qui émet les obligations d'entreprises ?
-3. Vrai/Faux : Les obligations d'entreprises comportent toujours le même niveau de risque que les obligations du Trésor.
-4. Pourquoi les obligations d'entreprises offrent-elles généralement des rendements plus élevés que des obligations du Trésor comparables ?
+### Valeur en euros (nominale) ou valeur réelle
+
+La valeur en euros, ou valeur nominale, de l’argent est simplement le chiffre inscrit dans le compte ou sur le bulletin de paie. La valeur réelle est ce que cet argent permet réellement d’acheter, une fois l’inflation prise en compte, comme on l’a vu dans la leçon précédente de ce niveau.
+
+### Pourquoi comparer des époques différentes peut induire en erreur
+
+Un revenu de 50 000 € aujourd’hui et un revenu de 50 000 € il y a vingt ans ne sont pas équivalents en termes réels, parce que les prix ont changé pendant cette période. Comparer les chiffres bruts sans tenir compte de l’inflation peut donner une image trompeuse des progrès financiers réels.
+
+### Appliquer la distinction
+
+Chaque fois qu’on compare de l’argent à des moments différents — un salaire, un rendement de placement, un prix historique —, la valeur réelle (ajustée en fonction de l’inflation) donne un portrait plus exact que le seul chiffre brut en euros.
+
+## Exemple pratique
+
+Un salaire qui est passé de 50 000 € à 55 000 € en cinq ans semble avoir augmenté en termes nominaux. Si l’inflation au cours de cette période a réduit le pouvoir d’achat d’à peu près autant, la valeur réelle de ce salaire a peut-être à peine augmenté, voire diminué.
+
+## Quiz pratique
+
+1. La valeur réelle désigne :
+   A. Le chiffre brut inscrit dans un compte
+   B. Ce que l’argent permet réellement d’acheter, ajusté en fonction de l’inflation
+   C. Un type de dividende
+   D. La capitalisation boursière d’une entreprise
+2. Vrai ou faux : comparer des montants bruts en euros d’une décennie à l’autre donne toujours une image exacte des progrès financiers.
+3. Pourquoi une augmentation de salaire pourrait-elle sembler meilleure en termes nominaux qu’elle ne l’est réellement en termes réels?
+   A. La valeur nominale et la valeur réelle sont toujours identiques
+   B. L’inflation a peut-être réduit le pouvoir d’achat gagné
+   C. Les salaires ne sont jamais touchés par l’inflation
+   D. La valeur réelle ne s’applique qu’aux obligations
 
 ## Corrigé
-1. Le gouvernement fédéral des États-Unis   2. Les entreprises   3. Faux   4. Pour compenser le risque de défaut perçu plus important comparé à la dette publique
 
-## Réponses et Explications
-1. Ceci est la caractéristique déterminante des obligations du Trésor américain.
-2. Ceci est la caractéristique déterminante des obligations d'entreprises.
-3. Le risque des obligations d'entreprises varie considérablement selon l'émetteur, dépassant généralement le risque du Trésor.
-4. Un rendement plus élevé compense les investisseurs pour un risque relativement plus important.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Les obligations du Trésor américain sont de la dette de l'État fédéral, généralement à très faible risque de défaut.
-- Les obligations d'entreprises sont émises par des sociétés, le risque variant selon la santé financière de l'émetteur.
-- Les obligations d'entreprises offrent généralement des rendements plus élevés pour compenser le risque additionnel.
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La valeur réelle reflète le pouvoir d’achat réel, et non seulement le chiffre brut.
+
+### Question 2
+Bonne réponse : Faux. Les comparaisons brutes dans le temps peuvent induire en erreur si l’on ne tient pas compte de l’inflation.
+
+### Question 3
+Bonne réponse : B. L’inflation peut éroder l’avantage réel d’une augmentation nominale.
+
+## Points clés
+
+- La valeur nominale est le chiffre brut en euros; la valeur réelle tient compte du pouvoir d’achat.
+- Comparer des montants bruts en euros à des époques différentes peut induire en erreur.
+- La valeur réelle donne un portrait plus exact des progrès financiers réels.
