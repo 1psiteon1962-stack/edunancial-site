@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 29
-title: "Corrélation avec le marché boursier"
-summary: "Présente le concept de corrélation et la relation historique entre métaux précieux et actions."
+locale: fr-FR
+title: "La corrélation avec le marché boursier"
+summary: "Présente la notion de corrélation et la façon dont les métaux précieux se sont historiquement comportés par rapport aux mouvements du marché boursier."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Corrélation avec le marché boursier
+# La corrélation avec le marché boursier
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Définir la corrélation dans le contexte de l’investissement
+- Expliquer la tendance historique générale des métaux précieux par rapport aux mouvements du marché boursier
+- Comprendre pourquoi cette relation soutient la notion de diversification
 
 ## Contenu principal
 
-La corrélation décrit la mesure dans laquelle deux actifs ont tendance à évoluer ensemble. Des actifs fortement corrélés montent et baissent de manière similaire ; une corrélation faible ou négative signifie des mouvements plus indépendants.
+La corrélation décrit à quel point deux actifs ont tendance à évoluer de façon semblable. Deux actifs fortement corrélés ont tendance à monter et à baisser ensemble; deux actifs faiblement ou négativement corrélés ont tendance à évoluer de façon plus indépendante l’un de l’autre, voire en sens opposés pendant certaines périodes.
 
-Historiquement, les métaux précieux ont souvent présenté une corrélation relativement faible, et parfois négative, avec les actions. Pendant certaines fortes baisses boursières, ils ont conservé leur valeur ou progressé, mais cette relation n’est ni parfaite ni garantie.
+Les métaux précieux ont historiquement eu tendance à présenter une corrélation relativement faible, et parfois négative, avec les actions — ce qui signifie que pendant certaines périodes où les marchés boursiers ont fortement reculé, le prix des métaux précieux est resté stable ou a même augmenté, même si cette relation n’est pas parfaitement constante ni garantie pour chaque période de marché. Cette tendance générale explique en partie pourquoi on parle souvent des métaux précieux précisément dans le contexte de la diversification, présentée brièvement dans une leçon précédente.
 
-La diversification fonctionne précisément parce que les actifs n’évoluent pas tous de façon identique. Combiner des actifs présentant des corrélations différentes peut réduire la volatilité globale d’un portefeuille sans garantir les résultats futurs.
+La diversification fonctionne justement parce que tous les actifs n’évoluent pas parfaitement au même rythme — détenir une combinaison d’actifs aux profils de corrélation différents peut réduire la volatilité globale d’un portefeuille, puisqu’une baisse d’un type d’actif peut être compensée en partie par la stabilité ou les gains d’un autre. Il s’agit d’une tendance générale observée historiquement plutôt que d’une garantie pour une période future précise, conformément au cadrage prudent que ce parcours applique tout du long aux tendances historiques.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’investisseur applique le principe à une décision concrète en comparant objectifs, horizon temporel, coûts, risques et alternatives avant d’agir.
+Pendant une période de fort recul du marché boursier causé par une incertitude économique généralisée, les métaux précieux ont, à divers moments de l’histoire, conservé leur valeur ou même augmenté, alors que les investisseurs cherchaient une réserve de valeur perçue comme plus sûre pendant cette incertitude. Cela ne se produit pas lors de chaque repli du marché, et ce n’est pas quelque chose sur quoi compter avec certitude pour un événement futur précis, mais cette tendance historique générale fait partie du raisonnement qu’utilisent certains investisseurs pour inclure les métaux précieux comme un élément d’un portefeuille diversifié.
 
-## Quiz de vérification
-1. Quel est le concept principal de cette leçon ?
-2. Pourquoi est-il important pour un investisseur ?
-3. Quel risque ou compromis faut-il considérer ?
-4. Comment se relie-t-il à un plan de long terme ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il améliore la qualité des décisions financières.
-3. Toute décision comporte des risques, coûts ou compromis.
-4. Il doit être appliqué selon les objectifs et l’horizon temporel.
+1. Définissez la corrélation dans le contexte de l’investissement.
+2. À quoi la corrélation historique des métaux précieux avec le marché boursier a-t-elle généralement eu tendance à ressembler?
+3. Pourquoi cette tendance soutient-elle la notion de diversification?
+4. Ce profil de corrélation est-il garanti pour une période de marché future précise?
+
+## Corrigé
+1. À quel point deux actifs ont tendance à évoluer de façon semblable.
+2. Une corrélation relativement faible, et parfois négative — ce qui signifie que les métaux sont parfois restés stables ou ont augmenté pendant des reculs du marché boursier.
+3. Parce que la diversification fonctionne en combinant des actifs qui n’évoluent pas tous parfaitement au même rythme, ce qui peut réduire la volatilité globale d’un portefeuille.
+4. Non — c’est une tendance générale observée historiquement, et non une garantie pour une période future précise.
 
 ## Réponses et explications
-1. La définition constitue la base de la leçon.
-2. Comprendre le concept permet de l’utiliser plutôt que de réagir impulsivement.
-3. Reconnaître les limites évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Cela établit la notion centrale qui sous-tend la relation présentée dans cette leçon.
+2. Cette tendance historique est le profil précis qui relie les métaux précieux aux stratégies de diversification de portefeuille.
+3. La réduction de la volatilité globale est l’avantage pratique qu’une corrélation faible ou négative peut procurer dans un portefeuille diversifié.
+4. Cette mise en garde est essentielle et conforme au traitement prudent des tendances historiques que ce parcours applique tout du long.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec ses objectifs.
+## Points clés à retenir
+- La corrélation décrit à quel point deux actifs ont tendance à évoluer ensemble; une corrélation faible ou négative signifie une évolution plus indépendante.
+- Les métaux précieux ont historiquement présenté une corrélation relativement faible, et parfois négative, avec les actions, même si ce n’est pas une garantie constante.
+- Cette tendance générale explique en partie pourquoi les métaux précieux sont souvent inclus précisément à des fins de diversification dans un portefeuille plus large.

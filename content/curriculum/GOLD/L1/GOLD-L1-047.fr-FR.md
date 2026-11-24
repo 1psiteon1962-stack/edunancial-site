@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 47
-title: "Définir des jalons pour une position en croissance"
-summary: "Explique comment fixer des points de contrôle significatifs pour une position d’investissement accumulée progressivement."
+locale: fr-FR
+title: "Fixer des jalons pour une position qui grandit"
+summary: "Enseigne comment établir des points de repère significatifs pour une position de placement à long terme qui s’accumule graduellement."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Définir des jalons pour une position en croissance
+# Fixer des jalons pour une position qui grandit
 
 ## Objectifs d’apprentissage
-- Comprendre le concept central et son rôle dans le parcours GOLD.
-- Le relier aux principes étudiés précédemment.
-- Appliquer ces principes à la construction de capacités financières de long terme.
+- Expliquer pourquoi les jalons aident à maintenir la motivation tout au long d’un parcours d’investissement à long terme
+- Repérer la différence entre les jalons de résultat et les jalons de processus
+- S’exercer à fixer un jalon simple pour une position hypothétique qui grandit
 
 ## Contenu principal
 
-Un parcours construit par de petites contributions régulières peut sembler lent au quotidien tout en produisant quelque chose de substantiel sur plusieurs années. Définir des jalons aide à maintenir la motivation et permet de reconnaître concrètement les progrès.
+Un parcours d’investissement à long terme, bâti grâce à de petites cotisations régulières, peut sembler lent et sans éclat au jour le jour, même s’il mène à quelque chose d’important au fil des années. Fixer des jalons délibérés — des points de repère significatifs en cours de route — aide à maintenir la motivation et donne des moments concrets pour reconnaître les progrès réels, plutôt que de ne remarquer que la destination, loin dans l’avenir.
 
-Il est utile de distinguer les jalons de résultat — atteindre une quantité ou une valeur déterminée — des jalons de processus, comme maintenir une année entière de contributions mensuelles sans interruption. Les deux ont de la valeur : les premiers montrent la croissance tangible de la position, tandis que les seconds renforcent l’habitude de régularité qui constitue un moteur essentiel des résultats de long terme.
+Il est utile de distinguer les jalons de résultat (atteindre une quantité ou une valeur totale précise) des jalons de processus (maintenir une habitude régulière pendant une certaine période, comme une année complète de cotisations mensuelles ininterrompues). Les deux types sont précieux — les jalons de résultat sont liés à la croissance tangible de la position, tandis que les jalons de processus renforcent l’habitude de régularité que ce parcours présente tout du long comme le véritable moteur de la réussite à long terme.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’étude de cas du parcours montre comment de petites étapes cohérentes, les connaissances et la discipline peuvent s’accumuler avec le temps. L’objectif est d’appliquer le principe à sa propre situation, et non de reproduire les montants ou les choix d’une autre personne.
+EXEMPLE ILLUSTRATIF : Dans l’étude de cas, atteindre un nombre précis d’onces d’argent accumulées à un certain âge pourrait servir de jalon de résultat, tandis que compléter plusieurs années consécutives de cotisations mensuelles régulières sans en manquer une seule pourrait servir de jalon de processus. Reconnaître les deux types de progrès — non seulement la quantité qui augmente, mais aussi la discipline maintenue qui la rend possible — renforce l’habitude elle-même comme quelque chose qui mérite d’être valorisé, et pas seulement le chiffre qui en résulte.
 
-## Quiz de vérification
-1. Quel est le principe central de cette leçon ?
-2. Comment se relie-t-il aux leçons précédentes ?
-3. Pourquoi est-il utile sur le long terme ?
-4. Comment peut-il s’appliquer au-delà des métaux précieux ?
+## Questionnaire pratique
 
-## Solutions
-1. Le principe décrit dans le contenu principal.
-2. Il intègre discipline, risque, temps et objectifs.
-3. Il aide à construire des capacités et des décisions durables.
-4. Les principes fondamentaux sont transférables à d’autres actifs et situations financières.
+1. Pourquoi les jalons sont-ils importants dans un parcours d’investissement à long terme qui s’accumule graduellement?
+2. Distinguez les jalons de résultat des jalons de processus.
+3. Pourquoi les deux types de jalons sont-ils précieux?
+4. Fixez un jalon de résultat et un jalon de processus pour un plan d’investissement hypothétique de cinq ans.
+
+## Corrigé
+1. Parce qu’un parcours à long terme peut sembler lent au jour le jour, et que les jalons donnent des moments concrets pour reconnaître les progrès réels.
+2. Les jalons de résultat mesurent une quantité ou une valeur précise atteinte; les jalons de processus mesurent le maintien d’une habitude régulière au fil du temps.
+3. Les jalons de résultat sont liés à la croissance tangible; les jalons de processus renforcent l’habitude de régularité qui est le moteur de la réussite à long terme.
+4. Les réponses varieront (exemple : résultat — « atteindre 50 onces d’argent au total »; processus — « compléter cinq années consécutives de cotisations mensuelles sans en manquer une seule »).
 
 ## Réponses et explications
-1. La définition clarifie l’objectif de la leçon.
-2. Le parcours est conçu comme un système de concepts reliés.
-3. Le long terme donne toute leur importance à la régularité et à la qualité des décisions.
-4. La transférabilité constitue un objectif essentiel du Niveau 1.
+1. Les jalons répondent au défi motivationnel que représente le maintien d’un processus long et graduel.
+2. Cette distinction rend compte de deux façons différentes, mais complémentaires, de mesurer les progrès.
+3. Les deux dimensions — le résultat et la discipline — comptent pour un parcours d’investissement à long terme réellement durable.
+4. Une bonne réponse démontre la compréhension des deux types de jalons appliqués à un scénario concret.
 
-## Points clés
-- Mesurer les progrès par rapport à sa propre situation.
-- Construire connaissances et discipline en même temps que les actifs.
-- Appliquer les principes du GOLD au-delà des métaux précieux.
+## Points clés à retenir
+- Les jalons aident à maintenir la motivation tout au long d’un parcours d’investissement long et graduel en marquant les progrès réels en cours de route.
+- Les jalons de résultat mesurent la quantité ou la valeur atteinte; les jalons de processus mesurent la régularité de l’habitude au fil du temps.
+- Les deux types comptent — la croissance tangible et la discipline maintenue méritent toutes deux d’être reconnues et célébrées.

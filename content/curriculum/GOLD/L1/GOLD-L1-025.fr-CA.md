@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 25
 locale: fr-CA
 title: "La volatilité des prix des métaux précieux"
-summary: "Version canadienne-française de la leçon GOLD Level 1 25."
+summary: "Présente la volatilité des prix comme une caractéristique normale de l’investissement dans les métaux précieux, et non comme le signe d’un problème."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
@@ -15,39 +15,42 @@ date: "2026-08-09"
 # La volatilité des prix des métaux précieux
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal et son vocabulaire
-- Relier le concept au risque, au temps et aux objectifs financiers
-- Appliquer le principe à une situation concrète
+- Définir la volatilité dans le contexte de l’investissement
+- Expliquer pourquoi les métaux précieux, surtout l’argent, peuvent connaître une volatilité importante
+- Reconnaître la volatilité comme une caractéristique normale, et non comme un défaut
 
 ## Contenu principal
 
-La volatilité décrit l’ampleur et la rapidité des mouvements de prix. Les métaux précieux, particulièrement l’argent, peuvent connaître des variations importantes en raison des nouvelles économiques, des devises, de la demande industrielle et du sentiment des investisseurs.
+La volatilité désigne l’ampleur et la rapidité des variations du prix d’un actif, dans un sens ou dans l’autre, au cours d’une période donnée. Les métaux précieux, et l’argent en particulier (en raison de la taille plus petite de son marché et de la composante supplémentaire de demande industrielle vue dans une leçon précédente), peuvent connaître une volatilité de prix importante, variant parfois fortement en une seule journée selon les nouvelles économiques, les mouvements des devises ou les changements du sentiment des investisseurs.
 
-La volatilité est une caractéristique normale des actifs négociés, et non automatiquement la preuve qu’une stratégie a échoué. Un investisseur qui connaît son horizon temporel peut mieux replacer les mouvements quotidiens dans leur contexte.
+Cette volatilité est une caractéristique normale de cette catégorie d’actifs, et non la preuve que quelque chose a mal tourné ou que la thèse de placement sous-jacente a échoué. Les nouveaux investisseurs prennent parfois la volatilité à court terme pour le signe d’une mauvaise décision, alors qu’en réalité, pratiquement tous les actifs financiers activement négociés connaissent un certain degré de volatilité — les métaux précieux ne font tout simplement pas exception à cette réalité générale des marchés.
+
+Comprendre la volatilité comme quelque chose de normal, plutôt que d’alarmant, soutient directement les principes de patience et de long horizon de placement vus plus tôt dans ce parcours. Un investisseur qui s’attend à la volatilité et l’accepte comme faisant partie du processus est beaucoup mieux placé pour s’en tenir à une stratégie à long terme qu’un investisseur surpris et ébranlé par chaque variation de prix.
 
 ## Exemple pratique
 
-Une variation importante du prix de l’argent pendant une seule séance peut sembler alarmante. Sur un horizon de plusieurs années, cette journée peut toutefois représenter seulement une petite partie de l’évolution totale.
+Le prix de l’argent pourrait monter ou descendre de plusieurs points de pourcentage en une seule séance de négociation à la suite d’une nouvelle économique — ce qui peut sembler alarmant pour un nouvel investisseur qui vérifie les prix tous les jours, surtout si cela se produit peu après un achat. Mais vu à la lumière de l’horizon de plusieurs années que ce parcours souligne tout du long, en prenant l’étude de cas biographique comme illustration, la volatilité d’une seule journée est une partie normale et attendue de la détention de cette catégorie d’actifs, et non un signal significatif sur la solidité de la stratégie à long terme.
 
 ## Questionnaire pratique
-1. Quel concept principal cette leçon présente-t-elle?
-2. Quel facteur ou compromis influence son application?
-3. Pourquoi faut-il éviter les conclusions absolues?
-4. Comment l’exemple pratique applique-t-il le concept?
+
+1. Définissez la volatilité dans le contexte de l’investissement.
+2. Pourquoi l’argent, en particulier, peut-il connaître une volatilité importante?
+3. La volatilité est-elle le signe qu’un placement a mal tourné?
+4. Comment le fait de comprendre la volatilité comme quelque chose de normal soutient-il le principe de patience vu dans les leçons précédentes?
 
 ## Corrigé
-1. Le concept est celui expliqué dans le contenu principal.
-2. Son application dépend notamment des objectifs, du risque, du temps, des coûts et des circonstances.
-3. Les marchés et les décisions financières dépendent de plusieurs facteurs simultanément.
-4. L’exemple montre comment transformer le principe en raisonnement concret.
+1. L’ampleur et la rapidité des variations du prix d’un actif, dans un sens ou dans l’autre, au cours d’une période donnée.
+2. En raison de la taille plus petite de son marché et de sa composante supplémentaire de demande industrielle, par rapport à l’or.
+3. Non — c’est une caractéristique normale de cette catégorie d’actifs, et non la preuve d’une mauvaise décision ou d’une thèse de placement qui a échoué.
+4. Un investisseur qui s’attend à la volatilité et l’accepte comme normale est mieux placé pour s’en tenir à une stratégie à long terme plutôt que de réagir émotionnellement aux variations de prix à court terme.
 
 ## Réponses et explications
-1. Le vocabulaire permet d’analyser plus précisément une décision.
-2. Comprendre les compromis évite de traiter un seul facteur comme déterminant.
-3. Les tendances historiques ne constituent pas des garanties futures.
-4. L’objectif est de développer la capacité de décider, et non de dicter un placement particulier.
+1. Cela définit la notion centrale de volatilité des prix telle qu’elle est présentée dans cette leçon.
+2. Les caractéristiques propres au marché de l’argent expliquent sa volatilité habituellement plus élevée que celle de l’or.
+3. Cela corrige directement une idée fausse courante chez les nouveaux investisseurs au sujet des variations de prix.
+4. Cela relie directement la compréhension de la volatilité au principe de patience établi plus tôt dans le parcours.
 
 ## Points clés à retenir
-- Les décisions d’investissement doivent être replacées dans leur contexte.
-- Les avantages potentiels doivent être comparés aux risques, coûts et solutions de rechange.
-- Les principes appris peuvent être appliqués à plusieurs catégories d’actifs.
+- La volatilité désigne l’ampleur et la rapidité des variations du prix d’un actif, et c’est une caractéristique normale de l’investissement dans les métaux précieux.
+- L’argent a tendance à être plus volatil que l’or en raison de la taille plus petite de son marché et de sa composante de demande industrielle.
+- Comprendre la volatilité comme quelque chose de normal, plutôt que d’alarmant, aide à s’en tenir à une stratégie de placement patiente et à long terme.

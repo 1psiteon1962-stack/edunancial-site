@@ -5,52 +5,50 @@ officialTrackName: "Investissement"
 level: 1
 lessonNumber: 3
 locale: fr-CA
-title: "Pourquoi les métaux précieux? Une catégorie d’actifs de référence"
-summary: "Présente les métaux précieux comme exemple concret utilisé pour enseigner les principes de l’investissement."
+title: "Pourquoi les métaux précieux? Une catégorie d’actifs servant de point d’ancrage"
+summary: "Présente les métaux précieux comme l’actif concret servant de point d’ancrage tout au long de ce parcours pour enseigner les principes de l’investissement."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Pourquoi les métaux précieux? Une catégorie d’actifs de référence
+# Pourquoi les métaux précieux? Une catégorie d’actifs servant de point d’ancrage
 
 ## Objectifs d’apprentissage
-- Comprendre et expliquer le concept principal de cette leçon
-- Distinguer ce concept des idées connexes
-- Appliquer le principe à une situation d’investissement simple
+- Expliquer pourquoi ce parcours utilise les métaux précieux comme principal exemple pédagogique
+- Repérer les caractéristiques de base qui font de l’or et de l’argent des études de cas utiles en investissement
+- Comprendre que les leçons apprises au moyen des métaux s’appliquent largement à d’autres placements
 
 ## Contenu principal
 
-Ce parcours utilise principalement l’or et l’argent comme points de référence concrets. Ils sont faciles à comprendre physiquement, leurs prix sont publiquement accessibles et ils possèdent une longue histoire de valeur reconnue. Cela permet d’expliquer clairement le risque, la croissance et l’investissement périodique sans ajouter la complexité propre à une entreprise particulière.
+Ce parcours utilise les métaux précieux — surtout l’or et l’argent — comme point d’ancrage concret et constant pour enseigner les principes de l’investissement. Les métaux conviennent bien à cette fin parce qu’ils sont simples à comprendre physiquement (on peut tenir une once d’argent ou un gramme d’or et savoir exactement ce que l’on possède), que leurs prix sont publics et constamment disponibles, et qu’ils ont conservé une valeur reconnue tout au long d’une très longue histoire, ce qui en fait une lentille claire pour des notions comme le risque, la croissance et la méthode des achats périodiques, sans la complexité supplémentaire des facteurs propres à une entreprise.
 
-Le parcours ne prétend pas que les métaux précieux constituent le « meilleur » investissement. Ils servent à enseigner des principes transférables — diversification, tolérance au risque, investissement périodique et vision à long terme — applicables ensuite aux actions, à l’immobilier, aux entreprises et à d’autres actifs.
+Il est important de le comprendre dès le départ : le but de ce parcours n’est pas de soutenir que les métaux précieux sont le « meilleur » placement ni le seul qui vaille la peine d’être fait. Le but est d’utiliser un actif simple et tangible pour enseigner clairement des principes d’investissement, afin que ces mêmes principes — diversification, tolérance au risque, achats périodiques, réflexion à long terme — puissent s’appliquer à n’importe quelle catégorie d’actifs que l’étudiant rencontrera plus tard, y compris les actions, l’immobilier ou la propriété d’une entreprise.
 
 ## Exemple pratique
 
-FAIT VÉRIFIÉ : l’or et l’argent ont servi de réserves de valeur dans de nombreuses cultures et périodes historiques. EXEMPLE ILLUSTRATIF : le parcours suit une accumulation en onces d’argent puis en grammes d’or afin de rendre les calculs et les comportements faciles à observer.
+FAIT VÉRIFIÉ : L’or et l’argent ont servi de réserves de valeur dans de nombreuses cultures et à de nombreuses périodes historiques, ce qui explique en partie qu’ils constituent un point d’entrée utile et largement reconnu pour enseigner les notions d’investissement. EXEMPLE ILLUSTRATIF : Tout au long de ce parcours, un étudiant nommé [l’étudiant de l’étude de cas biographique] servira à montrer ces principes appliqués dans une véritable accumulation au fil des années — en commençant par l’argent en onces, puis en ajoutant l’or en grammes —, non pas parce que les métaux sont présentés comme supérieurs aux autres actifs, mais parce que la simplicité des onces et des grammes physiques rend les calculs et les comportements sous-jacents faciles à suivre clairement.
 
 ## Questionnaire pratique
 
-1. Quel est le concept principal présenté dans cette leçon?
-2. Pourquoi ce concept est-il important pour un investisseur?
-3. Quel risque ou quelle erreur cette leçon aide-t-elle à reconnaître?
-4. Comment l’exemple pratique illustre-t-il le principe?
+1. Pourquoi ce parcours utilise-t-il les métaux précieux comme point d’ancrage pédagogique?
+2. Ce parcours soutient-il que les métaux précieux sont le « meilleur » placement?
+3. Nommez deux caractéristiques qui rendent les métaux utiles pour enseigner les notions d’investissement.
+4. Quel est le but ultime de l’utilisation des métaux comme actif servant de point d’ancrage?
 
 ## Corrigé
-
-1. Le concept principal est celui décrit dans le contenu de la leçon.
-2. Il aide à prendre des décisions fondées sur le risque, le temps, la valeur et les objectifs plutôt que sur l’émotion.
-3. Il aide à reconnaître les décisions qui ne correspondent pas au rôle, au risque ou à l’horizon de l’argent.
-4. L’exemple traduit le principe en situation concrète afin d’en montrer l’application.
+1. Parce qu’ils sont simples, tangibles et d’une valeur largement reconnue, ce qui en fait une lentille claire pour enseigner les notions de base.
+2. Non — le but est d’enseigner des principes transférables, et non de présenter une catégorie d’actifs comme supérieure.
+3. Deux au choix : faciles à comprendre physiquement, prix accessibles publiquement, longue histoire de valeur reconnue.
+4. Enseigner des principes (diversification, risque, achats périodiques, réflexion à long terme) qui s’appliquent largement à d’autres catégories d’actifs par la suite.
 
 ## Réponses et explications
-
-1. Comprendre le concept permet de l’identifier dans une décision réelle.
-2. Une approche structurée améliore la capacité à comparer les choix sans supposer qu’un actif particulier convient à tout le monde.
-3. Reconnaître les risques et les limites fait partie intégrante de la compétence financière.
-4. L’application pratique relie la théorie au comportement de l’investisseur.
+1. La simplicité et la tangibilité font des métaux un point d’entrée accessible pour les notions fondamentales de l’investissement.
+2. Cela corrige explicitement toute supposition selon laquelle le parcours présenterait les métaux comme intrinsèquement supérieurs.
+3. Ces caractéristiques réduisent la complexité, ce qui permet aux notions de base de l’investissement de ressortir clairement.
+4. Le caractère transférable des principes sous-jacents est le véritable but pédagogique, et non la promotion d’un actif.
 
 ## Points clés à retenir
-- Le principe de cette leçon doit être compris dans le contexte des objectifs personnels de l’investisseur.
-- Le risque, le temps et la raison fondamentale d’une décision doivent être considérés ensemble.
-- Le parcours enseigne des principes transférables plutôt que de recommander un actif précis.
+- Ce parcours utilise les métaux précieux comme point d’ancrage simple et tangible pour enseigner les principes de l’investissement, et non pour recommander les métaux plutôt que d’autres actifs.
+- La simplicité des métaux, la transparence de leurs prix et leur longue histoire en font une lentille claire pour les notions fondamentales.
+- Les principes enseignés au moyen des métaux — diversification, risque, achats périodiques, réflexion à long terme — s’appliquent largement à toute catégorie d’actifs que l’étudiant rencontrera plus tard.

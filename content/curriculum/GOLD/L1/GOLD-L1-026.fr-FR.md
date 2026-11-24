@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 26
-title: "Stockage et sécurité des métaux physiques"
-summary: "Présente les principales considérations pour conserver en sécurité des métaux précieux physiques."
+locale: fr-FR
+title: "L’entreposage et la sécurité"
+summary: "Présente les éléments de base à considérer pour entreposer de façon sécuritaire des métaux précieux physiques."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Stockage et sécurité des métaux physiques
+# L’entreposage et la sécurité
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Repérer les options d’entreposage de base pour les métaux précieux physiques
+- Expliquer les compromis entre les différentes approches d’entreposage
+- Reconnaître l’entreposage comme un coût réel et concret de la possession de métal physique
 
 ## Contenu principal
 
-Posséder des métaux précieux physiques impose de décider où et comment les conserver. Les options courantes comprennent un coffre-fort à domicile, un coffre bancaire et un service professionnel de stockage ou de chambre forte.
+Posséder des métaux précieux physiques soulève une question pratique que les placements purement numériques ou papier n’ont pas : où et comment les entreposer en toute sécurité. Les options d’entreposage courantes comprennent un coffre-fort à la maison, un coffre loué à la banque ou un service d’entreposage sécurisé ou de dépôt en chambre forte offert par un tiers et conçu précisément pour les métaux précieux.
 
-Chaque solution comporte des compromis. Un coffre domestique offre un accès immédiat mais laisse au propriétaire la responsabilité de la sécurité et les risques de vol ou de sinistre. Un coffre bancaire offre une forte sécurité physique mais limite l’accès aux horaires de la banque et son contenu n’est généralement pas couvert comme le solde d’un compte bancaire. Un service professionnel peut offrir une sécurité élevée et parfois une assurance, mais entraîne des frais et un accès moins immédiat.
+Chaque option comporte des compromis. Un coffre-fort à la maison offre un accès personnel immédiat, mais oblige l’investisseur à assurer lui-même la sécurité et comporte des risques de vol, d’incendie ou d’autres événements liés à la maison. Un coffre loué à la banque offre une solide sécurité physique, mais limite l’accès aux heures d’ouverture de la banque et, surtout, n’est généralement pas couvert par la garantie des dépôts habituelle, contrairement au solde d’un compte bancaire. Les services de dépôt en chambre forte offerts par des tiers offrent une sécurité de niveau professionnel, parfois avec une assurance incluse, mais entraînent des frais d’entreposage continus et un accès personnel moins immédiat qu’un coffre-fort à la maison.
 
-Le stockage constitue donc un coût pratique réel de la détention physique.
+Il s’agit d’un coût pratique réellement important de la possession de métal physique, qui ne s’applique pas à certains autres types de placements, et il vaut la peine d’en tenir compte dans la décision globale quant à la quantité de métal physique à détenir, en plus des éléments vus ailleurs dans ce parcours (les primes, la liquidité et l’absence de revenu).
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’investisseur applique le principe à une décision concrète en comparant objectifs, horizon temporel, coûts, risques et alternatives avant d’agir.
+Les premiers petits achats d’argent d’un jeune investisseur (tirés de l’étude de cas biographique) pourraient raisonnablement être entreposés à la maison, compte tenu de leur valeur totale modeste et du faible risque pratique à cette échelle. À mesure qu’une position grossit considérablement au fil des années, le calcul pourrait changer — la même famille pourrait raisonnablement décider qu’un coffre loué à la banque ou un service professionnel de dépôt en chambre forte vaut le coût supplémentaire et l’accès moins immédiat, une fois que la valeur totale à protéger justifie cette sécurité accrue.
 
-## Quiz de vérification
-1. Quel est le concept principal de cette leçon ?
-2. Pourquoi est-il important pour un investisseur ?
-3. Quel risque ou compromis faut-il considérer ?
-4. Comment se relie-t-il à un plan de long terme ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il améliore la qualité des décisions financières.
-3. Toute décision comporte des risques, coûts ou compromis.
-4. Il doit être appliqué selon les objectifs et l’horizon temporel.
+1. Nommez les trois options d’entreposage courantes pour les métaux précieux physiques mentionnées dans cette leçon.
+2. Quel est un compromis clé d’un coffre-fort à la maison?
+3. Quel élément important faut-il savoir au sujet des coffres bancaires en ce qui concerne l’assurance?
+4. Pourquoi les décisions d’entreposage pourraient-elles raisonnablement changer à mesure que la valeur d’une position augmente avec le temps?
+
+## Corrigé
+1. Un coffre-fort à la maison, un coffre loué à la banque et un service d’entreposage sécurisé ou de dépôt en chambre forte offert par un tiers.
+2. Un accès personnel immédiat, mais l’investisseur assume lui-même le risque lié à la sécurité (vol, incendie, etc.).
+3. Les coffres bancaires ne sont généralement pas couverts par la garantie des dépôts habituelle, contrairement au solde d’un compte bancaire.
+4. Parce que la valeur à protéger augmente, ce qui fait pencher l’analyse coûts-avantages vers des options d’entreposage plus sécuritaires, quoique moins immédiatement accessibles.
 
 ## Réponses et explications
-1. La définition constitue la base de la leçon.
-2. Comprendre le concept permet de l’utiliser plutôt que de réagir impulsivement.
-3. Reconnaître les limites évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Ces trois options représentent l’éventail habituel des choix d’entreposage offerts à l’investisseur en métaux physiques.
+2. Ce compromis souligne la responsabilité personnelle qu’un coffre-fort à la maison impose à son propriétaire.
+3. C’est un fait pratique important, souvent négligé, au sujet de l’entreposage dans un coffre bancaire.
+4. Cela illustre comment les décisions d’entreposage devraient s’adapter à la valeur de la position à protéger.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec ses objectifs.
+## Points clés à retenir
+- Les métaux précieux physiques exigent de vraies décisions d’entreposage, contrairement aux placements purement numériques ou papier.
+- Les coffres-forts à la maison, les coffres bancaires et les services professionnels de dépôt en chambre forte comportent chacun des compromis différents en matière d’accès, de coût et de sécurité.
+- Les décisions d’entreposage évoluent raisonnablement à mesure que la valeur d’une position augmente; des avoirs plus importants justifient souvent des options d’entreposage professionnelles plus sécuritaires.

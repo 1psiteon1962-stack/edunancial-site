@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 40
-title: "Réviser et ajuster un plan au fil du temps"
-summary: "Explique quand et comment réexaminer puis éventuellement modifier un plan d’investissement en métaux précieux."
+locale: fr-FR
+title: "Examiner et ajuster un plan d’investissement en métaux au fil du temps"
+summary: "Explique comment et quand un plan d’investissement en métaux précieux devrait être examiné honnêtement et, au besoin, ajusté."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Réviser et ajuster un plan au fil du temps
+# Examiner et ajuster un plan d’investissement en métaux au fil du temps
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Expliquer la différence entre le respect discipliné d’un plan et le refus obstiné de l’ajuster
+- Repérer les éléments déclencheurs appropriés et délibérés pour examiner un plan d’investissement en métaux
+- Distinguer un ajustement légitime du plan de son abandon réactif et émotionnel
 
 ## Contenu principal
 
-Un bon plan n’est pas destiné à être suivi aveuglément pour toujours, mais il ne doit pas non plus être abandonné à la première fluctuation de prix. La distinction essentielle oppose une révision périodique et réfléchie à une réaction émotionnelle.
+Un plan personnel bien construit, comme celui de la leçon précédente, n’est pas censé être suivi aveuglément pour toujours, peu importe l’évolution de la situation — mais il ne devrait pas non plus être abandonné de façon réactive au premier signe de volatilité des prix à court terme. La distinction clé se situe entre un examen délibéré et périodique et un abandon réactif et émotionnel, semblable à la distinction entre persévérance et entêtement vue dans le parcours sur le leadership de ce programme.
 
-Des raisons appropriées de revoir le plan comprennent un changement important de revenu ou d’objectifs, l’approche d’une dépense majeure, une révision programmée — par exemple annuelle — ou une modification raisonnée du rôle que les métaux doivent jouer dans la situation financière globale.
+Les éléments déclencheurs appropriés pour examiner un plan comprennent : des changements importants dans la situation financière personnelle (un changement de revenu, de nouveaux objectifs financiers, une dépense importante qui approche), un examen périodique prévu (une fois par année, par exemple, plutôt que constamment) ou un changement réel et bien réfléchi dans la compréhension du rôle que les métaux précieux devraient jouer dans le portrait financier global — et non simplement parce que les prix ont évolué dans une direction inattendue sur une courte période.
 
-Une simple variation de prix de court terme n’est pas, à elle seule, une raison suffisante pour abandonner un plan établi.
+Cette distinction compte parce que tout l’intérêt de mettre un plan par écrit à l’avance, vu dans la leçon précédente, est d’avoir un point de référence stable précisément pour résister aux décisions émotionnelles réactives et à court terme. Un plan abandonné chaque fois que survient de la volatilité à court terme va complètement à l’encontre de son propre but.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : appliquer le principe de cette leçon à une décision réelle signifie comparer les objectifs, les coûts, les risques et l’horizon temporel avant d’agir, plutôt que de réagir uniquement au mouvement de prix du moment.
+Un investisseur qui suit son plan écrit subit une forte baisse de prix à court terme peu après un achat. Le plan lui-même avait prévu ce genre de volatilité (ce qui renvoie à la leçon précédente sur la volatilité); cela seul n’est donc pas un élément déclencheur légitime pour abandonner le plan — c’est exactement le genre de moment que le plan a été rédigé à l’avance pour aider à traverser. Comparons cela à un véritable changement de vie, comme une perte d’emploi qui touche de façon importante le budget mensuel disponible — c’est une raison légitime et délibérée d’examiner et d’ajuster l’élément budgétaire précis du plan, sans avoir à abandonner la stratégie globale à long terme ni le raisonnement qui la sous-tend.
 
-## Quiz de vérification
-1. Quel est le concept central de la leçon ?
-2. Pourquoi est-il utile à un investisseur ?
-3. Quel risque ou compromis faut-il prendre en compte ?
-4. Comment s’intègre-t-il dans un plan financier plus large ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept défini dans le contenu principal.
-2. Il aide à prendre des décisions plus réfléchies.
-3. Chaque choix comporte des limites, coûts ou risques.
-4. Il doit être appliqué selon les objectifs, le risque et l’horizon temporel.
+1. Quelle distinction clé cette leçon établit-elle au sujet de l’ajustement d’un plan?
+2. Nommez deux éléments déclencheurs appropriés et légitimes pour examiner un plan d’investissement en métaux.
+3. Une baisse de prix à court terme constitue-t-elle, à elle seule, un élément déclencheur légitime pour abandonner un plan bien construit?
+4. Pourquoi la leçon relie-t-elle cette notion à la distinction entre persévérance et entêtement du parcours sur le leadership?
+
+## Corrigé
+1. Un examen délibéré et périodique par opposition à un abandon réactif et émotionnel.
+2. Deux parmi les suivants : des changements importants dans la situation financière personnelle, un examen périodique prévu, ou un changement réel et bien réfléchi dans la compréhension.
+3. Non — le plan a été rédigé à l’avance précisément pour aider à traverser exactement ce genre de volatilité à court terme prévue.
+4. Parce que les deux distinctions consistent à rester engagé envers un objectif de fond solide tout en restant réellement ouvert à de vraies raisons délibérées de changer, plutôt que de réagir émotionnellement au bruit à court terme.
 
 ## Réponses et explications
-1. La définition établit la base conceptuelle.
-2. L’application transforme la théorie en capacité de décision.
-3. Reconnaître les compromis évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Cette distinction est la notion centrale que la leçon établit pour bien gérer l’examen d’un plan.
+2. Ces éléments déclencheurs représentent de vraies raisons délibérées d’ajuster le plan, distinctes des réactions à la volatilité.
+3. Cela renforce l’idée qu’une volatilité prévue n’est pas, à elle seule, une raison légitime d’abandonner un plan bien réfléchi.
+4. Ce lien entre les parcours renforce un principe cohérent appliqué dans différents domaines de ce programme.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer les risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec son plan.
+## Points clés à retenir
+- Un plan devrait être examiné de façon délibérée et périodique, et non abandonné de façon réactive à cause de la volatilité des prix à court terme.
+- Les éléments déclencheurs légitimes d’un examen comprennent de vrais changements de situation financière, des examens périodiques prévus ou de réels changements de compréhension — et non les seules variations de prix à court terme.
+- Cela reflète la distinction entre persévérance et entêtement : rester engagé envers un plan solide tout en restant réellement ouvert à de vraies raisons délibérées de changer.

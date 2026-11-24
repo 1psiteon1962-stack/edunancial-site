@@ -5,49 +5,50 @@ officialTrackName: "Investissement"
 level: 1
 lessonNumber: 48
 locale: fr-CA
-title: "Enseigner à la prochaine génération : introduction à « Transmettre »"
-summary: "Version canadienne-française de la leçon GOLD Level 1 48."
+title: "Enseigner à la génération suivante : introduction à « Transmettre »"
+summary: "Présente la quatrième fonction du cadre Gagner/Conserver/Faire croître/Transmettre, en aperçu des niveaux suivants."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Enseigner à la prochaine génération : introduction à « Transmettre »
+# Enseigner à la génération suivante : introduction à « Transmettre »
 
 ## Objectifs d’apprentissage
-- Comprendre et expliquer le principe central
-- Relier ce principe aux notions déjà étudiées
-- Appliquer les connaissances à ses propres objectifs et circonstances
+- Revoir la fonction « Transmettre » du cadre présenté dans la première leçon
+- Expliquer pourquoi enseigner des notions d’investissement à d’autres est en soi une façon de « transmettre » de la valeur
+- Réfléchir à la façon dont les connaissances, et pas seulement les actifs, peuvent faire partie d’un héritage de la fonction « Transmettre »
 
 ## Contenu principal
 
-Le parcours a commencé avec Gagner, Conserver, Faire croître et Transmettre. Après avoir surtout étudié la croissance, cette leçon introduit la transmission, qui sera approfondie dans les niveaux suivants avec des outils comme les testaments, fiducies et désignations de bénéficiaires.
+Ce parcours s’est ouvert avec le cadre Gagner/Conserver/Faire croître/Transmettre et a surtout porté sur la fonction « Faire croître » tout du long. Cette leçon donne un aperçu de la quatrième fonction — Transmettre —, que les niveaux suivants de ce parcours traiteront plus en profondeur, notamment en ce qui concerne les outils officiels comme les testaments, les fiducies et la désignation de bénéficiaires.
 
-Transmettre ne signifie pas seulement transférer des actifs après un décès. Cela comprend aussi la transmission, de son vivant, des connaissances, habitudes et compétences qui permettent à la prochaine génération de construire et gérer elle-même un patrimoine.
+À ce niveau de base, il vaut la peine de reconnaître que « Transmettre » ne consiste pas seulement à transférer des actifs après le décès — cela comprend aussi la transmission de connaissances, d’habitudes et d’une compréhension financière à la génération suivante, pendant qu’on est encore bien présent pour les enseigner directement. Un jeune qui a appris à faire des achats périodiques, à comprendre le risque et l’horizon de placement, et à bâtir une habitude d’investissement régulière a reçu quelque chose de précieux qui comptera probablement davantage au cours de sa vie que n’importe quel actif transféré plus tard — la capacité de bâtir et de gérer lui-même son patrimoine, et pas seulement un patrimoine qu’on lui remet.
 
 ## Exemple pratique
 
-L’étude de cas constitue déjà une forme de transmission : apprendre à un jeune l’investissement périodique, la tolérance au risque, la diversification et la discipline lui transmet une capacité financière avant même tout héritage formel.
+EXEMPLE ILLUSTRATIF : L’ensemble de l’étude de cas qui traverse ce parcours — l’accumulation d’argent par le fils à partir de 11 ans et d’or à partir de 15 ans — est en soi un exemple concret de la fonction « Transmettre » en action, non pas par héritage, mais par l’enseignement direct. Les connaissances sur les achats périodiques, la tolérance au risque, la diversification et la création d’habitudes régulières, transmises grâce à cette expérience d’apprentissage partagée, constituent une forme de transmission du patrimoine entre les générations qui n’a pas besoin d’attendre un transfert successoral officiel pour compter.
 
 ## Questionnaire pratique
-1. Quel est le principe central de cette leçon?
-2. Comment se relie-t-il aux leçons précédentes?
-3. Pourquoi les circonstances personnelles demeurent-elles importantes?
-4. Quelle leçon peut-on tirer de l’exemple?
+
+1. Qu’est-ce que la fonction « Transmettre », présentée de nouveau brièvement à partir de la première leçon?
+2. En plus du transfert d’actifs après le décès, que peut comprendre la fonction « Transmettre »?
+3. Pourquoi la transmission de connaissances et d’habitudes pourrait-elle compter davantage, au cours d’une vie, qu’un seul transfert d’actif?
+4. Comment l’étude de cas qui traverse ce parcours illustre-t-elle la fonction « Transmettre » en action?
 
 ## Corrigé
-1. Le principe central est celui expliqué dans le contenu principal.
-2. Il s’appuie sur les notions de risque, temps, discipline, diversification et objectifs.
-3. Les mêmes principes peuvent mener à des choix différents selon la situation de chaque personne.
-4. L’exemple démontre comment appliquer le principe sans imposer une décision particulière.
+1. La fonction qui consiste à transférer un patrimoine à la génération suivante ou à une cause qui nous tient à cœur.
+2. La transmission de connaissances, d’habitudes et d’une compréhension financière pendant qu’on est encore présent pour les enseigner directement.
+3. Parce que la capacité de bâtir et de gérer soi-même son patrimoine a tendance à compter davantage au cours d’une vie qu’un patrimoine simplement remis à quelqu’un.
+4. L’accumulation continue du fils, guidée et enseignée directement, représente une transmission de connaissances et d’habitudes, et non un héritage officiel — une véritable forme de la fonction « Transmettre » qui se déroule en temps réel.
 
 ## Réponses et explications
-1. Comprendre le principe permet de l’utiliser au-delà d’un seul actif.
-2. La compétence financière vient de la capacité à relier plusieurs concepts.
-3. Une décision appropriée dépend des objectifs et contraintes de l’apprenant.
-4. L’objectif d’EDUNANCIAL est de fournir l’information et les outils permettant à chacun de prendre ses propres décisions.
+1. Cela relie de nouveau la leçon au cadre fondamental établi au début du parcours.
+2. Cela élargit la définition de « Transmettre » au-delà de sa forme la plus couramment supposée (l’héritage après le décès).
+3. La transmission de capacités est présentée comme possiblement plus précieuse que le seul transfert d’actifs.
+4. Cela relie directement l’étude de cas qui traverse tout le parcours à la notion de « Transmettre », ce qui boucle la boucle du cadre.
 
 ## Points clés à retenir
-- Les principes du parcours sont transférables à de nombreuses décisions financières.
-- La constance, le temps et la compréhension des risques comptent autant que le choix de l’actif.
-- L’éducation financière développe la capacité de décider plutôt que de promettre un résultat particulier.
+- « Transmettre », la quatrième fonction présentée dans la première leçon, comprend bien plus que le transfert d’actifs après le décès.
+- Enseigner des connaissances, des habitudes et une compréhension financière pendant qu’on est encore présent est en soi une forme significative de la fonction « Transmettre ».
+- L’ensemble de l’étude de cas de ce parcours illustre la fonction « Transmettre » qui se déroule en temps réel, par l’enseignement direct plutôt que par un héritage officiel.

@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 28
-title: "Métaux précieux et autres classes d’actifs"
-summary: "Compare les métaux précieux aux actions, obligations et liquidités à un niveau fondamental."
+locale: fr-FR
+title: "Les métaux précieux et les autres catégories d’actifs"
+summary: "Compare les métaux précieux aux actions, aux obligations et à l’argent comptant sur le plan conceptuel de base."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Métaux précieux et autres classes d’actifs
+# Les métaux précieux et les autres catégories d’actifs
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Comparer les métaux précieux aux actions, aux obligations et à l’argent comptant, à un niveau de base
+- Repérer le rôle distinct que les métaux précieux jouent habituellement dans un plan financier plus large
+- Comprendre pourquoi cette comparaison ne vise pas à classer les actifs comme « meilleurs » ou « pires »
 
 ## Contenu principal
 
-Chaque classe d’actifs joue un rôle différent. Les actions représentent une propriété dans une entreprise et peuvent générer croissance et dividendes, avec une volatilité importante. Les obligations représentent des prêts à des États ou entreprises et offrent généralement un revenu plus prévisible et une volatilité plus faible que les actions, mais un potentiel de croissance souvent inférieur. Les liquidités sont très accessibles et stables nominalement, mais perdent du pouvoir d’achat avec l’inflation.
+Chaque catégorie d’actifs sert un but quelque peu différent, et les métaux précieux ne font pas exception. Les actions représentent la propriété d’une partie d’une entreprise et peuvent générer des rendements à la fois par l’appréciation du prix et par les dividendes; elles comportent généralement un potentiel de croissance à long terme plus élevé, accompagné d’une volatilité plus élevée. Les obligations représentent un prêt consenti à un gouvernement ou à une entreprise; elles offrent généralement un revenu plus prévisible et une volatilité plus faible que les actions, mais habituellement un potentiel de croissance à long terme plus faible. L’argent comptant est le plus liquide et le plus stable en valeur nominale, mais il perd du pouvoir d’achat avec le temps à cause de l’inflation, comme on l’a vu plus tôt dans ce parcours.
 
-Les métaux précieux servent principalement de réserve de valeur et de protection potentielle contre l’inflation. Ils ne produisent pas de revenu comme les actions ou obligations et comportent des coûts de stockage, primes et écarts.
+Les métaux précieux, comme on l’a vu tout au long de ce parcours, servent surtout de réserve de valeur et de protection possible contre l’inflation, sans générer de revenu comme peuvent le faire les actions ou les obligations, et avec des coûts pratiques réels (l’entreposage, les primes, l’écart entre les prix d’achat et de vente) qui ne s’appliquent pas à ces autres types d’actifs. Cela signifie que les métaux précieux jouent habituellement un rôle différent dans un plan financier de celui des actions ou des obligations — moins axé sur la croissance ou le revenu principal, et davantage sur la préservation de la valeur et la diversification face à des risques qui pourraient toucher différemment les devises ou d’autres catégories d’actifs.
 
-Il ne s’agit pas de déclarer une classe universellement meilleure. Un plan réfléchi peut combiner différents actifs selon les objectifs, l’horizon et la tolérance au risque.
+Cette comparaison ne vise pas à déclarer qu’une catégorie d’actifs serait universellement « meilleure » — chacune remplit une fonction différente, et un plan financier bien réfléchi (un sujet traité plus en profondeur dans d’autres parcours de ce programme) comprend souvent une combinaison réfléchie fondée sur les objectifs précis, l’horizon de placement et la tolérance au risque de chaque personne.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’investisseur applique le principe à une décision concrète en comparant objectifs, horizon temporel, coûts, risques et alternatives avant d’agir.
+Un investisseur qui bâtit un plan financier à long terme pourrait détenir des actions pour la croissance principale à long terme, des obligations pour plus de stabilité et un certain revenu, une portion d’argent comptant pour ses besoins de liquidité à court terme, et des métaux précieux précisément comme réserve de valeur et protection contre l’inflation — chaque catégorie d’actifs jouant un rôle distinct dans le plan global, plutôt que de rivaliser pour être à elle seule le « meilleur » placement.
 
-## Quiz de vérification
-1. Quel est le concept principal de cette leçon ?
-2. Pourquoi est-il important pour un investisseur ?
-3. Quel risque ou compromis faut-il considérer ?
-4. Comment se relie-t-il à un plan de long terme ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il améliore la qualité des décisions financières.
-3. Toute décision comporte des risques, coûts ou compromis.
-4. Il doit être appliqué selon les objectifs et l’horizon temporel.
+1. Quel rôle les actions jouent-elles habituellement dans un plan financier?
+2. Quel rôle les obligations jouent-elles habituellement?
+3. Selon cette leçon, quel rôle les métaux précieux jouent-ils habituellement?
+4. Cette comparaison vise-t-elle à classer les catégories d’actifs comme universellement « meilleures » ou « pires »?
+
+## Corrigé
+1. La croissance principale à long terme, par l’appréciation du prix et les dividendes, accompagnée d’une volatilité plus élevée.
+2. Un revenu plus prévisible et une volatilité plus faible que les actions, mais habituellement un potentiel de croissance à long terme plus faible.
+3. Une réserve de valeur et une protection possible contre l’inflation, sans générer de revenu, avec des coûts pratiques réels comme l’entreposage.
+4. Non — chaque catégorie d’actifs remplit une fonction différente, et un plan bien réfléchi comprend souvent une combinaison réfléchie fondée sur les objectifs de chaque personne.
 
 ## Réponses et explications
-1. La définition constitue la base de la leçon.
-2. Comprendre le concept permet de l’utiliser plutôt que de réagir impulsivement.
-3. Reconnaître les limites évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Ce rôle reflète le potentiel de croissance et de revenu des actions, fondé sur la propriété.
+2. Ce rôle reflète les caractéristiques de revenu habituellement plus prévisible et de volatilité plus faible des obligations.
+3. Ce rôle fait la synthèse des notions de réserve de valeur et de protection contre l’inflation vues tout au long de ce parcours.
+4. Ce cadrage évite une conclusion trompeuse du type « meilleur actif » et favorise plutôt la compréhension de la fonction distincte de chaque actif.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec ses objectifs.
+## Points clés à retenir
+- Les actions, les obligations, l’argent comptant et les métaux précieux remplissent chacun des fonctions différentes dans un plan financier plus large.
+- Les métaux précieux servent surtout de réserve de valeur et de protection contre l’inflation, sans générer de revenu, et comportent des coûts pratiques réels.
+- Cette comparaison ne vise pas à classer les catégories d’actifs — un plan financier réfléchi comprend souvent une combinaison fondée sur les objectifs, l’horizon de placement et la tolérance au risque de chaque personne.

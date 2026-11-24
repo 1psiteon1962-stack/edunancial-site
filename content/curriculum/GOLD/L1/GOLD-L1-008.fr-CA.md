@@ -5,52 +5,50 @@ officialTrackName: "Investissement"
 level: 1
 lessonNumber: 8
 locale: fr-CA
-title: "Les bases de la diversification"
-summary: "Présente la diversification comme un moyen de gérer le risque en évitant de dépendre d’un seul actif."
+title: "Les notions de base de la diversification"
+summary: "Présente la diversification comme une façon de gérer le risque en ne dépendant pas du rendement d’un seul actif."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Les bases de la diversification
+# Les notions de base de la diversification
 
 ## Objectifs d’apprentissage
-- Comprendre et expliquer le concept principal de cette leçon
-- Distinguer ce concept des idées connexes
-- Appliquer le principe à une situation d’investissement simple
+- Définir la diversification en termes simples
+- Expliquer pourquoi tout concentrer dans un seul actif augmente le risque
+- Reconnaître que détenir deux métaux différents est un exemple à petite échelle de diversification
 
 ## Contenu principal
 
-Diversifier signifie répartir les placements entre différents actifs plutôt que de tout concentrer dans un seul. Les actifs ne réagissent pas toujours de la même façon aux mêmes événements; une baisse de l’un peut donc être partiellement compensée par la stabilité ou la croissance d’un autre.
+La diversification consiste à répartir ses placements entre différents actifs plutôt que de tout placer dans un seul, afin que la baisse d’un seul actif ne ruine pas l’ensemble de la position. La logique est simple : différents actifs n’évoluent pas toujours dans la même direction, au même moment et pour les mêmes raisons, de sorte qu’une baisse de l’un peut être compensée, au moins en partie, par la stabilité ou la croissance d’un autre.
 
-La diversification n’élimine pas le risque. Elle réduit surtout le risque de dépendre excessivement d’un actif unique. Même un portefeuille diversifié peut perdre de la valeur lorsque plusieurs catégories d’actifs baissent simultanément.
+Cela ne veut pas dire que la diversification élimine entièrement le risque — cela veut dire qu’elle réduit le risque précis de dépendre excessivement du rendement d’un seul actif. Une position entièrement diversifiée peut quand même perdre de la valeur si de nombreux actifs différents baissent en même temps, mais elle est généralement plus résistante qu’une position entièrement concentrée dans une seule chose.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : détenir de l’or et de l’argent constitue une diversification limitée au sein des métaux précieux, puisque leurs sources de demande diffèrent. Une diversification plus large peut inclure actions, immobilier, entreprises et autres catégories d’actifs.
+EXEMPLE ILLUSTRATIF : Détenir à la fois de l’argent et de l’or, plutôt qu’un seul métal, est une forme de diversification à petite échelle au sein de la catégorie des métaux précieux — les deux métaux ont des facteurs de demande différents (industriels, d’une part, et surtout liés à l’investissement et à la bijouterie, d’autre part), de sorte qu’ils n’évoluent pas toujours exactement de concert. C’est un exemple à bien plus petite échelle que la diversification complète d’un portefeuille entre de nombreuses catégories d’actifs (actions, immobilier, propriété d’entreprise, etc.), que les niveaux ultérieurs de ce parcours et d’autres parcours présenteront plus en profondeur, mais il illustre le principe sous-jacent : ne pas placer toutes ses ressources dans un seul pari identique.
 
 ## Questionnaire pratique
 
-1. Quel est le concept principal présenté dans cette leçon?
-2. Pourquoi ce concept est-il important pour un investisseur?
-3. Quel risque ou quelle erreur cette leçon aide-t-elle à reconnaître?
-4. Comment l’exemple pratique illustre-t-il le principe?
+1. Définissez la diversification dans vos propres mots.
+2. Pourquoi répartir ses placements entre différents actifs réduit-il le risque?
+3. La diversification élimine-t-elle entièrement le risque?
+4. Comment le fait de détenir à la fois de l’argent et de l’or illustre-t-il la diversification, même à petite échelle?
 
 ## Corrigé
-
-1. Le concept principal est celui décrit dans le contenu de la leçon.
-2. Il aide à prendre des décisions fondées sur le risque, le temps, la valeur et les objectifs plutôt que sur l’émotion.
-3. Il aide à reconnaître les décisions qui ne correspondent pas au rôle, au risque ou à l’horizon de l’argent.
-4. L’exemple traduit le principe en situation concrète afin d’en montrer l’application.
+1. Répartir ses placements entre différents actifs plutôt que de tout placer dans un seul.
+2. Parce que différents actifs n’évoluent pas toujours dans la même direction pour les mêmes raisons, ce qui peut compenser la baisse de l’un par la stabilité d’un autre.
+3. Non — elle réduit le risque de dépendance envers un seul actif, mais n’élimine pas tout risque, surtout si de nombreux actifs baissent ensemble.
+4. Parce que les deux métaux ont des facteurs de demande différents, ce qui signifie qu’ils n’évoluent pas toujours exactement de concert, ce qui réduit la dépendance envers l’un ou l’autre seul.
 
 ## Réponses et explications
-
-1. Comprendre le concept permet de l’identifier dans une décision réelle.
-2. Une approche structurée améliore la capacité à comparer les choix sans supposer qu’un actif particulier convient à tout le monde.
-3. Reconnaître les risques et les limites fait partie intégrante de la compétence financière.
-4. L’application pratique relie la théorie au comportement de l’investisseur.
+1. Cela saisit la logique essentielle de la diversification : répartir le risque, et non l’éliminer.
+2. Les comportements différents des actifs sont le mécanisme qui explique l’effet de réduction du risque de la diversification.
+3. Cela clarifie une idée fausse courante — la diversification gère le risque, elle ne l’élimine pas entièrement.
+4. Cet exemple montre le principe central de la diversification à une échelle petite et compréhensible, au sein d’une seule catégorie d’actifs.
 
 ## Points clés à retenir
-- Le principe de cette leçon doit être compris dans le contexte des objectifs personnels de l’investisseur.
-- Le risque, le temps et la raison fondamentale d’une décision doivent être considérés ensemble.
-- Le parcours enseigne des principes transférables plutôt que de recommander un actif précis.
+- La diversification consiste à répartir ses placements entre différents actifs pour réduire la dépendance envers un seul.
+- Elle réduit le risque, mais ne l’élimine pas, surtout si de nombreux actifs baissent ensemble.
+- Détenir à la fois de l’argent et de l’or, avec leurs facteurs de demande différents, illustre le principe de la diversification, même à petite échelle.
