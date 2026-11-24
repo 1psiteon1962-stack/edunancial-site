@@ -1,0 +1,229 @@
+===== BLACK-L1-031
+TITLE: Schemi per delegare
+SUMMARY: Offre uno schema pratico per decidere quanta supervisione applicare quando si delega un compito.
+# Schemi per delegare
+
+## Obiettivi di apprendimento
+- Individuare i diversi livelli di delega e quando usare ciascuno
+- Spiegare perché è importante adeguare il livello di supervisione al rischio del compito e all'esperienza della persona
+- Esercitarsi a scegliere un livello di delega appropriato per uno scenario dato
+
+## Contenuto principale
+
+Non tutte le deleghe dovrebbero essere uguali. Delegare un compito poco rilevante a un collaboratore esperto richiede un livello di supervisione molto diverso dal delegare un compito molto rilevante a qualcuno nuovo nel ruolo. Uno schema utile prevede alcuni livelli: "fallo e dimmi che cosa hai fatto" (piena autonomia, adatta a persone esperte su compiti a rischio più basso), "fallo, ma confrontati con me prima di chiudere" (autonomia parziale, adatta a compiti più rilevanti o a persone meno esperte) e "facciamolo insieme" (collaborazione stretta, adatta a situazioni nuove, molto rilevanti o insolitamente complesse).
+
+Scegliere il livello sbagliato in una direzione o nell'altra crea problemi. Troppa supervisione su un compito che una persona sa gestire pienamente fa perdere tempo a entrambi e può sembrare mancanza di fiducia. Troppo poca supervisione su un compito in cui qualcuno ha davvero bisogno di più sostegno può portare a errori costosi e a un'esperienza scoraggiante per una persona che non è stata messa nelle condizioni di riuscire.
+
+Il livello giusto non è fisso per sempre: man mano che una persona acquisisce esperienza e dimostra affidabilità in un certo tipo di compito, il livello di supervisione appropriato dovrebbe diminuire nel tempo, il che è di per sé un investimento nella sua crescita.
+
+## Esempio svolto
+
+A una persona appena assunta viene affidato, senza una preparazione adeguata, un compito a contatto con i clienti con un reale impatto sui ricavi al livello "fallo e dimmi che cosa hai fatto", e commette un errore costoso che un più appropriato livello "facciamolo insieme" avrebbe intercettato. Confrontalo con un collaboratore esperto costretto a confrontarsi su ogni piccola decisione per un compito di routine che ha già svolto con successo decine di volte: questo fa perdere tempo e può cominciare a sembrare mancanza di fiducia. Adeguare il livello di delega sia alla rilevanza del compito sia all'esperienza reale della persona evita entrambi gli errori.
+
+## Quiz di esercitazione
+
+1. Nomina i tre livelli di delega descritti in questa lezione.
+2. Quali due fattori dovrebbero determinare quale livello è appropriato?
+3. Che cosa succede quando si applica troppa supervisione a una persona capace su un compito a basso rischio?
+4. Che cosa succede quando si applica troppo poca supervisione a qualcuno che ha bisogno di più sostegno?
+
+## Soluzioni
+1. "Fallo e dimmelo", "fallo ma confrontati con me prima di chiudere" e "facciamolo insieme".
+2. La rilevanza/il livello di rischio del compito e l'esperienza reale della persona con quel tipo di compito.
+3. Fa perdere tempo a entrambi e può sembrare mancanza di fiducia.
+4. Può portare a errori costosi e a un'esperienza scoraggiante per qualcuno che non è stato messo nelle condizioni di riuscire.
+
+## Risposte e spiegazioni
+1. Questi tre livelli rappresentano una gamma pratica di supervisione nella delega.
+2. Adeguare la supervisione sia al rischio del compito sia all'esperienza individuale è il principio centrale dello schema.
+3. Anche l'eccesso di supervisione ha costi reali, non solo la sua carenza, che è l'errore di cui si parla più spesso.
+4. Una supervisione insufficiente su un compito davvero difficile o rilevante comporta rischi propri e reali.
+
+## Punti chiave
+- La delega dovrebbe variare su diversi livelli di supervisione, dalla piena autonomia alla collaborazione stretta.
+- Il livello giusto dipende sia dalla rilevanza del compito sia dall'esperienza reale della persona con quel tipo di lavoro.
+- Il livello di supervisione dovrebbe diminuire nel tempo man mano che una persona dimostra affidabilità, il che è di per sé un investimento nella sua crescita.
+
+===== BLACK-L1-032
+TITLE: Gestire verso l'alto: rapportarsi con i propri investitori, il consiglio o il proprio capo
+SUMMARY: Introduce la competenza di gestire i rapporti con le persone a cui un leader deve rendere conto, non solo con quelle che riferiscono a lui.
+# Gestire verso l'alto: rapportarsi con i propri investitori, il consiglio o il proprio capo
+
+## Obiettivi di apprendimento
+- Spiegare perché la leadership include la gestione dei rapporti verso l'alto, non solo verso il basso
+- Individuare le pratiche che costruiscono fiducia con investitori, consigli di amministrazione o superiori
+- Riconoscere il costo di evitare aggiornamenti difficili alle persone a cui si deve rendere conto
+
+## Contenuto principale
+
+Le discussioni sulla leadership si concentrano spesso interamente sulla gestione delle persone che riferiscono a te, ma ogni leader deve anche rendere conto a qualcuno: investitori, un consiglio di amministrazione, un superiore o un cliente. Gestire bene quel rapporto è una competenza di leadership tanto quanto gestire un team diretto, anche se se ne parla molto meno.
+
+Un errore comune è comunicare verso l'alto solo le buone notizie, evitando o ammorbidendo gli aggiornamenti difficili per paura di come verranno accolti. Questo tende a ritorcersi contro allo stesso modo in cui lo fa l'evitare i feedback difficili con il proprio team: le persone a cui rendi conto perdono fiducia quando scoprono che stavi gestendo la loro percezione invece di dar loro un quadro onesto, e cominciano a ricontrollare tutto ciò che dici da quel momento in poi.
+
+Gestire bene verso l'alto significa una comunicazione proattiva e onesta: segnalare i problemi presto invece che solo quando sono innegabili, presentarsi quando possibile con un piano e non solo con un problema, e trattare il rapporto come una collaborazione invece che come un obbligo di rendicontazione a senso unico.
+
+## Esempio svolto
+
+Una fondatrice nota un andamento preoccupante nei dati di fidelizzazione dei clienti due mesi prima della successiva riunione programmata del consiglio. Gestire male verso l'alto significa aspettare la riunione programmata per parlarne, o minimizzarlo se interpellata direttamente. Gestire bene verso l'alto significa contattare il consiglio in anticipo e di propria iniziativa: "Voglio segnalarvi un andamento della fidelizzazione che sto osservando; ecco la mia lettura di che cosa lo determina, ed ecco il piano che sto testando per affrontarlo." Questo costruisce fiducia perché mostra che la fondatrice individua presto i problemi e porta soluzioni, non solo cattive notizie comunicate in ritardo.
+
+## Quiz di esercitazione
+
+1. Perché gestire verso l'alto è considerata una competenza di leadership, anche se se ne parla meno?
+2. Quale errore comune commettono i leader nel comunicare con le persone a cui devono rendere conto?
+3. Perché comunicare verso l'alto solo le buone notizie finisce per ritorcersi contro?
+4. Secondo questa lezione, che cosa comprende di solito il gestire bene verso l'alto?
+
+## Soluzioni
+1. Perché ogni leader deve rendere conto a qualcuno, e gestire bene quel rapporto richiede una competenza reale, proprio come gestire un team diretto.
+2. Evitare o ammorbidire gli aggiornamenti difficili per paura di come verranno accolti.
+3. Perché chi si affida a informazioni accurate prima o poi scopre lo schema e perde fiducia, il che porta a più controlli in futuro.
+4. Una comunicazione proattiva e onesta che segnala presto i problemi e, quando possibile, propone un piano.
+
+## Risposte e spiegazioni
+1. Questo corregge l'idea diffusa che la competenza di leadership si applichi solo ai rapporti verso il basso.
+2. Questo errore rispecchia la lezione precedente sull'evitare i feedback difficili, applicata verso l'alto.
+3. L'occultamento sistematico, una volta scoperto, danneggia la fiducia su cui si basano i rapporti verso l'alto.
+4. Onestà proattiva unita a proposte di soluzione è la pratica specifica che la lezione raccomanda.
+
+## Punti chiave
+- Gestire i rapporti con investitori, consigli o superiori è una vera competenza di leadership, non una questione separata dalla gestione del team.
+- Evitare o ammorbidire le cattive notizie verso l'alto tende a ritorcersi contro una volta scoperto, danneggiando la fiducia.
+- Gestire bene verso l'alto significa una comunicazione proattiva e onesta che segnala presto i problemi, idealmente con un piano allegato.
+
+===== BLACK-L1-033
+TITLE: Leggere un semplice conto economico da leader
+SUMMARY: Insegna ai leader a leggere un conto economico abbastanza bene da prendere decisioni informate, senza bisogno di competenze contabili.
+# Leggere un semplice conto economico da leader
+
+## Obiettivi di apprendimento
+- Individuare le sezioni di base di un conto economico
+- Spiegare che cosa dovrebbe cercare un leader quando esamina un conto economico
+- Esercitarsi a interpretare un esempio semplificato di conto economico
+
+## Contenuto principale
+
+Un conto economico (in inglese P&L, profit and loss) riassume ricavi, costi e l'utile o la perdita risultante in un determinato periodo. Un leader non ha bisogno di essere un contabile per leggerlo in modo utile: deve capirne la struttura di base abbastanza bene da individuare le tendenze e porre buone domande.
+
+La struttura di base: in cima i ricavi (tutto il denaro in entrata), poi i costi suddivisi in categorie (costo del venduto, costi operativi come affitto e stipendi, e altri costi), e in fondo l'utile o la perdita, dopo aver sottratto tutti i costi dai ricavi. Un leader che esamina un conto economico dovrebbe cercare le tendenze nel tempo (i ricavi crescono o calano? alcune categorie di costo crescono più dei ricavi?), non solo il singolo risultato finale di un periodo preso isolatamente.
+
+L'obiettivo non è sostituire la competenza di un addetto alla contabilità o di un commercialista, ma essere abbastanza informati da porre domande incisive, notare presto le tendenze preoccupanti e prendere decisioni (come nella lezione precedente sull'educazione finanziaria) basate su numeri reali invece che su una sensazione generale di come vanno gli affari.
+
+## Esempio svolto
+
+Un leader che esamina tre mesi di conti economici nota che i ricavi sono rimasti più o meno stabili, ma una specifica categoria di costo – gli abbonamenti software – è salita del 40% nello stesso periodo, senza un chiaro aumento corrispondente dell'utilizzo o del valore. Questa tendenza non sarebbe evidente dall'istantanea di un solo mese, ma il confronto tra periodi la rivela chiaramente. Quell'osservazione porta a una domanda utile e specifica per il team: perché questo costo è cresciuto, e sta producendo un valore proporzionato?
+
+## Quiz di esercitazione
+
+1. Quali sono le tre componenti di base di un conto economico?
+2. Che cosa dovrebbe cercare un leader quando esamina un conto economico, oltre al singolo risultato finale?
+3. L'obiettivo di questa competenza è sostituire un addetto alla contabilità o un commercialista?
+4. Nell'esempio svolto, quale tendenza specifica ha rivelato il confronto tra più periodi?
+
+## Soluzioni
+1. Ricavi, costi (suddivisi in categorie) e l'utile o la perdita risultante.
+2. Le tendenze nel tempo: se ricavi e categorie di costo crescono, calano o si muovono in modo sproporzionato tra loro.
+3. No: l'obiettivo è essere abbastanza informati da porre domande incisive e notare le tendenze, non sostituire le competenze specialistiche.
+4. I costi degli abbonamenti software saliti del 40% senza un corrispondente aumento di utilizzo o valore, mentre i ricavi restavano stabili.
+
+## Risposte e spiegazioni
+1. Questa struttura è il modello di base alla base di ogni conto economico.
+2. L'analisi delle tendenze rivela schemi che una singola istantanea perderebbe del tutto.
+3. La lezione presenta esplicitamente questa competenza come supervisione informata, non come sostituto degli specialisti finanziari.
+4. Questo esempio dimostra il valore del confronto tra più periodi invece di un singolo numero isolato.
+
+## Punti chiave
+- Un conto economico mostra ricavi, costi e l'utile o la perdita risultante in un periodo.
+- I leader dovrebbero cercare le tendenze tra periodi, non solo un singolo risultato finale preso isolatamente.
+- L'obiettivo è una supervisione informata e domande incisive, non sostituire la competenza di un addetto alla contabilità o di un commercialista.
+
+===== BLACK-L1-034
+TITLE: Che cosa deve sapere un leader sul flusso di cassa
+SUMMARY: Spiega il flusso di cassa come distinto dall'utile e perché i leader devono monitorarlo separatamente.
+# Che cosa deve sapere un leader sul flusso di cassa
+
+## Obiettivi di apprendimento
+- Distinguere il flusso di cassa dall'utile
+- Spiegare perché un'impresa redditizia può comunque trovarsi in serie difficoltà
+- Individuare le pratiche di base che aiutano un leader a monitorare il flusso di cassa
+
+## Contenuto principale
+
+Utile e flusso di cassa non sono la stessa cosa, e confonderli è uno degli errori più pericolosi che un leader possa commettere. L'utile è ciò che resta sulla carta, in un periodo, dopo aver sottratto i costi dai ricavi. Il flusso di cassa riguarda la tempistica: quando il denaro arriva davvero e quando deve davvero uscire. Un'impresa può essere redditizia sulla carta e restare comunque senza liquidità per pagare le fatture, se le entrate arrivano più tardi della scadenza delle spese.
+
+Questo accade spesso quando un'impresa concede dilazioni di pagamento ai clienti (che devono denaro ma non hanno ancora pagato) mentre deve comunque pagare le proprie spese – affitto, stipendi, fornitori – secondo un calendario fisso. L'impresa può essere redditizia nel senso che prima o poi incasserà più di quanto deve, ma se la tempistica non coincide può trovarsi in una vera crisi di liquidità pur essendo in utile sulla carta.
+
+I leader dovrebbero monitorare il flusso di cassa separatamente dall'utile: quanta liquidità è effettivamente disponibile in questo momento, che cosa entra e quando, e che cosa esce e quando. Una semplice previsione di cassa – una proiezione delle entrate e delle uscite attese per le prossime settimane o i prossimi mesi – intercetta i problemi di tempistica prima che diventino emergenze.
+
+## Esempio svolto
+
+Una società di consulenza fattura ai clienti con pagamento a 60 giorni, ma deve pagare i propri collaboratori esterni entro 15 giorni. Anche se la società è davvero redditizia – i clienti alla fine pagano più di quanto costino i collaboratori – lo scarto temporale tra il pagare rapidamente i collaboratori e incassare lentamente dai clienti può creare nel frattempo una reale carenza di liquidità. Un leader che monitora il flusso di cassa separatamente dall'utile vedrebbe arrivare questo scarto e potrebbe predisporre una soluzione a breve termine (una linea di credito, condizioni di pagamento modificate) prima che diventi un'emergenza, invece di essere colto alla sprovvista da un'impresa "redditizia" che all'improvviso non riesce a pagare gli stipendi.
+
+## Quiz di esercitazione
+
+1. Qual è la differenza tra utile e flusso di cassa?
+2. Perché un'impresa redditizia può comunque restare senza liquidità?
+3. Che cosa causa spesso questo tipo di sfasamento temporale?
+4. Quale pratica aiuta un leader a intercettare i problemi di flusso di cassa prima che diventino emergenze?
+
+## Soluzioni
+1. L'utile è ciò che resta sulla carta in un periodo dopo i costi; il flusso di cassa riguarda la tempistica reale delle entrate e delle uscite di denaro.
+2. Perché le entrate possono arrivare più tardi della scadenza delle spese, creando uno scarto temporale anche quando l'impresa è redditizia nel complesso.
+3. Concedere dilazioni di pagamento ai clienti pur avendo obblighi di pagamento propri fissi e con scadenze più ravvicinate.
+4. Una semplice previsione di cassa che proietta le entrate e le uscite attese nelle settimane o nei mesi successivi.
+
+## Risposte e spiegazioni
+1. Questa distinzione è il concetto centrale insegnato dalla lezione: utile e flusso di cassa rispondono a domande diverse.
+2. Gli sfasamenti temporali, non la mancanza di redditività di fondo, sono la vera causa di molte crisi di liquidità.
+3. Le differenze nei termini di pagamento tra ciò che un'impresa deve e ciò che le è dovuto sono una fonte comune di questo problema.
+4. La previsione fa emergere in modo proattivo gli scarti temporali, prima che diventino emergenze urgenti.
+
+## Punti chiave
+- Utile e flusso di cassa sono concetti diversi: l'utile è sulla carta, il flusso di cassa riguarda la tempistica reale.
+- Un'impresa davvero redditizia può comunque trovarsi in serie difficoltà se la tempistica della cassa non coincide.
+- Monitorare il flusso di cassa separatamente, con una semplice previsione, intercetta i problemi di tempistica prima che diventino crisi.
+
+===== BLACK-L1-035
+TITLE: Fare il budget per un reparto o una piccola impresa
+SUMMARY: Introduce le basi pratiche del budget per i leader responsabili del budget di un reparto o di una piccola impresa.
+# Fare il budget per un reparto o una piccola impresa
+
+## Obiettivi di apprendimento
+- Spiegare lo scopo di base di un budget come strumento di pianificazione
+- Individuare la differenza tra costi fissi e costi variabili in un budget
+- Esercitarsi a impostare lo schema di un budget semplice per una piccola attività
+
+## Contenuto principale
+
+Un budget è un piano di come verrà speso il denaro in un periodo, costruito prima che la spesa avvenga, in modo che le decisioni possano essere prese in modo ponderato invece che reattivo. Il suo scopo non è limitare la spesa in modo arbitrario, ma imporre che la discussione sulle priorità (dalla lezione sull'allocazione delle risorse) avvenga in anticipo, invece di essere affrontata alla rinfusa man mano che le spese si presentano.
+
+I budget separano di solito i costi fissi (spese che restano più o meno uguali indipendentemente dal livello di attività, come l'affitto o uno stipendio base) dai costi variabili (spese che cambiano in base all'attività, come i materiali o il lavoro a ore legato al volume dei progetti). Capire questa distinzione è importante perché cambia ciò che è davvero controllabile nel breve periodo: i costi fissi sono di solito bloccati per un certo tempo, mentre i costi variabili si possono spesso adeguare più rapidamente al mutare delle condizioni.
+
+Un budget di base dovrebbe essere rivisto regolarmente, non fissato una volta e dimenticato. Confrontare la spesa effettiva con il piano di budget rivela se le ipotesi erano realistiche e dove servono aggiustamenti in futuro.
+
+## Esempio svolto
+
+Un piccolo reparto prevede un budget mensile di 10.000 €: 6.000 € di costi fissi (stipendi, abbonamenti software) e 4.000 € di costi variabili (ore di collaboratori esterni legate al volume dei progetti). Dopo tre mesi, il confronto tra la spesa effettiva e il budget rivela che i costi dei collaboratori esterni hanno superato costantemente il budget del 20%, mentre gli abbonamenti software sono rimasti per lo più inutilizzati rispetto al loro costo. Questo confronto, possibile solo perché esisteva un budget con cui confrontarsi, fa emergere due problemi specifici e affrontabili invece di una vaga sensazione che "la spesa sembra alta".
+
+## Quiz di esercitazione
+
+1. Qual è lo scopo di base di un budget?
+2. Qual è la differenza tra costi fissi e costi variabili?
+3. Perché un budget andrebbe rivisto regolarmente invece di essere fissato una volta sola?
+4. Nell'esempio svolto, che cosa ha rivelato il confronto tra la spesa effettiva e il budget?
+
+## Soluzioni
+1. Un piano di spesa costruito in anticipo, che impone che le decisioni sulle priorità avvengano in modo ponderato invece che reattivo.
+2. I costi fissi restano più o meno uguali indipendentemente dal livello di attività; i costi variabili cambiano in base all'attività o al volume.
+3. Perché confrontare la spesa effettiva con il piano rivela se le ipotesi erano realistiche e dove servono aggiustamenti.
+4. Costi dei collaboratori esterni costantemente oltre il budget e abbonamenti software poco utilizzati.
+
+## Risposte e spiegazioni
+1. Questo definisce il budget come strumento di pianificazione proattiva invece che come meccanismo di controllo restrittivo.
+2. Questa distinzione chiarisce che cosa è davvero modificabile nel breve periodo e che cosa è più bloccato.
+3. Il confronto continuo con i dati effettivi è ciò che rende un budget uno strumento di gestione utile invece di un documento statico.
+4. Questo esempio mostra il valore pratico di avere un budget con cui confrontare la spesa reale.
+
+## Punti chiave
+- Un budget è un piano di spesa proattivo che impone di prendere in anticipo le decisioni sulle priorità.
+- I costi fissi restano più o meno costanti; i costi variabili cambiano con l'attività, e questa distinzione incide su ciò che è modificabile nel breve periodo.
+- Confrontare regolarmente la spesa effettiva con il budget fa emergere problemi specifici e affrontabili invece di una vaga sensazione che qualcosa non vada.
