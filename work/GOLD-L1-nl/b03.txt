@@ -1,0 +1,177 @@
+===== GOLD-L1-011
+TITLE: Het verschil tussen beleggen en een noodbuffer
+SUMMARY: Legt uit waarom belegd geld en een noodbuffer als aparte potten met verschillende regels moeten worden behandeld.
+# Het verschil tussen beleggen en een noodbuffer
+
+## Leerdoelen
+- Een noodbuffer onderscheiden van belegd geld
+- Uitleggen waarom het mengen van de twee potten een echt risico oplevert
+- Oefenen met het herkennen bij welke pot een bepaald financieel doel hoort
+
+## Kerninhoud
+
+Deze les past het model Verdienen/Behouden/Laten groeien/Doorgeven uit de allereerste les direct toe: de noodbuffer hoort bij de functie Behouden, terwijl belegd geld – waaronder een groeiende positie in edelmetalen – bij de functie Laten groeien hoort. Deze twee potten geld moeten apart worden behandeld, met verschillende regels, omdat ze wezenlijk verschillende doelen dienen.
+
+Een noodbuffer moet veilig en direct beschikbaar zijn, omdat noodgevallen per definitie onvoorspelbaar komen en vaak snel geld vragen. Belegd geld kan meer prijsschommelingen op korte termijn verdragen, omdat het niet bedoeld is om op korte termijn aan te komen – de waarde ontstaat juist doordat het de tijd krijgt om te groeien. De twee mengen – beleggingen behandelen als een noodbuffer, of voor niet-dringende uitgaven putten uit wat eigenlijk langetermijngeld zou moeten zijn – ondermijnt beide functies tegelijk.
+
+## Praktijkvoorbeeld
+
+ILLUSTRATIEF VOORBEELD: In de casus is de groeiende zilver- en goudpositie van de zoon belegd geld – bedoeld om over een lange horizon te groeien, en niet iets dat verkocht moet worden voor een gewone, niet-dringende uitgave alleen omdat het op dat moment waarde heeft. Een aparte pot met makkelijk bereikbaar spaargeld, los van de metaalpositie, zou de juiste reserve zijn voor echte noodgevallen en beschermt de beleggingspositie ertegen onderbroken te worden door behoeften op korte termijn waarvoor ze nooit bedoeld was.
+
+## Oefenquiz
+
+1. Bij welke functie hoort in het model Verdienen/Behouden/Laten groeien/Doorgeven de noodbuffer, en bij welke het belegde geld?
+2. Waarom moet een noodbuffer veilig en direct beschikbaar zijn?
+3. Waarom kan belegd geld meer prijsschommelingen op korte termijn verdragen?
+4. Welk risico ontstaat als de twee potten worden gemengd?
+
+## Antwoordsleutel
+1. De noodbuffer hoort bij Behouden; belegd geld hoort bij Laten groeien.
+2. Omdat noodgevallen onvoorspelbaar komen en vaak snel geld vragen.
+3. Omdat het niet bedoeld is om op korte termijn aan te komen, waardoor het tijd heeft om van schommelingen op korte termijn te herstellen.
+4. Het ondermijnt beide functies – beleggingen kunnen voor niet-dringende zaken op een slecht moment worden verkocht, of noodbehoeften worden niet gedekt als het geld vastzit in beleggingen.
+
+## Antwoorden en uitleg
+1. Dit sluit direct aan bij het basismodel uit de eerste les.
+2. Onvoorspelbaarheid en urgentie zijn de bepalende kenmerken waardoor een noodbuffer zekerheid en bereikbaarheid voorop moet stellen.
+3. De beleggingshorizon is het mechanisme waardoor belegd geld meer risico op korte termijn kan dragen.
+4. Het mengen van de potten brengt het specifieke doel in gevaar dat elk van beide moet dienen.
+
+## Belangrijkste punten
+- Een noodbuffer (Behouden) en belegd geld (Laten groeien) dienen verschillende doelen en vragen om verschillende regels.
+- Bij een noodbuffer staan zekerheid en directe beschikbaarheid voorop; belegd geld kan met genoeg tijd meer schommelingen verdragen.
+- Het mengen van deze twee potten ondermijnt beide functies en kan meestal beter worden vermeden.
+
+===== GOLD-L1-012
+TITLE: Opslag, spread en de basis over handelaren
+SUMMARY: Legt het verschil uit tussen de spotprijs van het metaal en wat een koper werkelijk betaalt.
+# Opslag, spread en de basis over handelaren
+
+## Leerdoelen
+- Spotprijs, opslag (premie) en spread in eenvoudige woorden definiëren
+- Uitleggen waarom de prijs voor fysiek metaal afwijkt van de spotprijs
+- Herkennen hoe belangrijk het is om vóór een aankoop handelaren te vergelijken
+
+## Kerninhoud
+
+De spotprijs is de actuele marktprijs voor een bepaalde hoeveelheid onbewerkt metaal – de referentieprijs die je openbaar genoteerd ziet. Wie echt fysiek metaal bij een handelaar koopt, betaalt meestal meer dan de spotprijs; dat verschil heet de opslag (premie). De opslag dekt de kosten van de handelaar voor het maken van de munt of baar, de distributie en zijn marge.
+
+De spread is het verschil tussen de prijs waarvoor een handelaar een stuk metaal verkoopt en de prijs waarvoor hij datzelfde stuk terugkoopt – de inkoopprijs van een handelaar ligt meestal lager dan zijn verkoopprijs, en dat verschil vormt een deel van zijn marge. Verschillende handelaren rekenen verschillende opslagen en spreads, en verschillende producten (bijvoorbeeld gangbare munten tegenover minder gangbare baren) kunnen verschillende opslagen hebben. Meerdere handelaren vergelijken en deze kosten vooraf begrijpen helpt een belegger om niet te veel te betalen en de echte kosten van het kopen en later verkopen van fysiek metaal te kennen.
+
+## Praktijkvoorbeeld
+
+ILLUSTRATIEF VOORBEELD: Als de spotprijs voor een ounce zilver een bepaald gepubliceerd bedrag is, kan een handelaar een gangbare zilvermunt verkopen voor de spotprijs plus een opslag voor het slaan en de distributie. Wil dezelfde belegger de munt later terugverkopen, dan ligt het inkoopbod van de handelaar meestal iets onder de actuele verkoopprijs – dat is de spread. Zowel de opslag bij aankoop als de spread bij verkoop begrijpen helpt een belegger realistisch in te schatten wat een positie echt waard is als ze weer in geld moet worden omgezet, in plaats van aan te nemen dat ze altijd precies de spotprijs waard is.
+
+## Oefenquiz
+
+1. Definieer spotprijs, opslag en spread in je eigen woorden.
+2. Waarom ligt de prijs voor fysiek metaal meestal boven de spotprijs?
+3. Wat stelt de spread voor?
+4. Waarom is het voor een belegger belangrijk om opslag en spread te begrijpen?
+
+## Antwoordsleutel
+1. De spotprijs is de actuele referentieprijs op de markt; de opslag is de extra kosten boven de spotprijs bij aankoop; de spread is het verschil tussen de inkoop- en verkoopprijs van een handelaar.
+2. Omdat de opslag de kosten van de handelaar voor productie, distributie en marge dekt.
+3. Het verschil tussen de verkoop- en de inkoopprijs van een handelaar, dat een deel van zijn marge vormt.
+4. Het helpt een belegger de echte kosten van aankoop en de echte waarde bij verkoop realistisch in te schatten, in plaats van aan te nemen dat een positie altijd precies de spotprijs waard is.
+
+## Antwoorden en uitleg
+1. Deze drie definities leggen het basisprijsvocabulaire voor transacties in fysiek metaal vast.
+2. Kosten en marge van de handelaar zijn de praktische redenen voor de opslag boven de spotprijs.
+3. De spread is een normaal onderdeel van het verdienmodel van een handelaar, geen verborgen of ongebruikelijke kostenpost.
+4. Een realistische waarde-inschatting, met aandacht voor kosten bij kopen en verkopen, is het praktische nut van deze begrippen.
+
+## Belangrijkste punten
+- De spotprijs is de referentieprijs op de markt; de opslag is wat een handelaar erbij rekent bij verkoop van fysiek metaal.
+- De spread is het verschil tussen de inkoop- en verkoopprijs van een handelaar en vormt een deel van zijn marge.
+- Handelaren vergelijken en deze kosten begrijpen helpt een belegger de werkelijke waarde van een positie realistisch in te schatten.
+
+===== GOLD-L1-013
+TITLE: Munten of baren
+SUMMARY: Vergelijkt twee gangbare fysieke vormen van edelmetalen en hun voor- en nadelen.
+# Munten of baren
+
+## Leerdoelen
+- Munten en baren vergelijken als vormen van fysieke edelmetalen
+- Factoren herkennen die de keuze tussen beide kunnen beïnvloeden
+- Herkennen dat geen van beide vormen principieel 'beter' is
+
+## Kerninhoud
+
+Fysieke edelmetalen zijn er meestal in twee hoofdvormen: munten (vaak door een overheid geslagen, met bekende ontwerpen en nominale waarden) en baren (meestal eenvoudiger, vaak van particuliere munthuizen, verkocht op gewicht). Beide staan voor eigendom van hetzelfde onderliggende metaal, maar ze kunnen verschillen in opslag, herkenbaarheid en verhandelbaarheid.
+
+Munten, vooral bekende door een overheid geslagen munten, hebben vaak een hogere opslag, maar zijn dankzij hun bekendheid en het vertrouwen erin vaak makkelijker snel te verkopen aan veel verschillende kopers. Baren hebben vaak een lagere opslag per gewichtseenheid, vooral in grotere formaten, maar zijn voor een incidentele koper soms iets minder algemeen herkenbaar, wat af en toe kan beïnvloeden hoe snel ze verkocht worden – al hangt dat af van het product en de handelaar.
+
+Geen van beide vormen is principieel beter – de juiste keuze hangt af van prioriteiten zoals de kosten van de opslag, het gemak van doorverkopen en de persoonlijke voorkeur voor kleinere, flexibelere eenheden tegenover grotere, efficiëntere.
+
+## Praktijkvoorbeeld
+
+ILLUSTRATIEF VOORBEELD: Een belegger die zilver opbouwt met kleinere maandelijkse bedragen, geeft misschien de voorkeur aan gangbare munten van één ounce, die breed herkend worden, makkelijk in kleine stappen te kopen zijn en meestal eenvoudig door te verkopen. Wie een grotere, minder frequente aankoop doet, kan een grotere baar overwegen, die meestal een lagere opslag per ounce heeft, en neemt dan een iets minder flexibele, grotere eenheid op de koop toe in ruil voor die kostenbesparing.
+
+## Oefenquiz
+
+1. Wat zijn de twee fysieke hoofdvormen van edelmetalen die in deze les worden besproken?
+2. Wat is een typisch voor- en nadeel van munten ten opzichte van baren?
+3. Wat is een typisch voor- en nadeel van baren ten opzichte van munten?
+4. Is een van beide vormen principieel 'beter' dan de andere?
+
+## Antwoordsleutel
+1. Munten en baren.
+2. Munten hebben vaak een hogere opslag, maar zijn dankzij hun brede herkenbaarheid vaak makkelijker snel te verkopen.
+3. Baren hebben vaak een lagere opslag per eenheid, maar zijn soms iets minder algemeen herkenbaar, wat af en toe de snelheid van doorverkoop beïnvloedt.
+4. Nee – de juiste keuze hangt af van persoonlijke prioriteiten zoals de kosten van de opslag, het gemak van doorverkopen en persoonlijke voorkeur.
+
+## Antwoorden en uitleg
+1. Dit zijn de twee hoofdvormen die een belegger het meest waarschijnlijk tegenkomt.
+2. Herkenbaarheid en verhandelbaarheid zijn in deze vergelijking de belangrijkste argumenten voor munten.
+3. Kostenefficiëntie per eenheid is in deze vergelijking het belangrijkste argument voor baren.
+4. Dit corrigeert elke aanname dat een van beide vormen een principieel, algemeen voordeel heeft.
+
+## Belangrijkste punten
+- Munten en baren zijn de twee fysieke hoofdvormen van edelmetalen en staan allebei voor eigendom van hetzelfde metaal.
+- Munten hebben vaak hogere opslagen maar zijn herkenbaarder en makkelijker door te verkopen; baren hebben vaak lagere opslagen maar zijn iets minder algemeen herkenbaar.
+- Geen van beide vormen is principieel beter – de juiste keuze hangt af van persoonlijke prioriteiten en omstandigheden.
+
+===== GOLD-L1-014
+TITLE: Winst herbeleggen of uitgeven
+SUMMARY: Onderzoekt de keuze om groei opnieuw te beleggen of te gebruiken, en hoe die keuze het rente-op-rente-effect beïnvloedt.
+# Winst herbeleggen of uitgeven
+
+## Leerdoelen
+- Het verschil uitleggen tussen het herbeleggen en het uitgeven van beleggingswinst
+- Deze beslissing verbinden met het eerder behandelde rente-op-rente-effect
+- Herkennen dat er geen principieel 'juiste' keuze is, alleen afwegingen
+
+## Kerninhoud
+
+Als een belegging in waarde stijgt, staat een belegger vroeg of laat voor een keuze: die groei belegd laten (herbeleggen) of een deel ervan omzetten in geld om aan iets anders uit te geven. Deze beslissing sluit direct aan bij de eerdere les over rente-op-rente in dit traject – herbelegde groei blijft renderen en bouwt in de loop van de tijd op zichzelf voort, terwijl uitgegeven groei helemaal stopt met bijdragen aan toekomstig rente-op-rente-effect, omdat ze geen deel meer uitmaakt van de belegde positie.
+
+Geen van beide keuzes is principieel goed of fout – het hangt af van het doel van het geld en waar het past in het model Verdienen/Behouden/Laten groeien/Doorgeven. Groei die bedoeld is voor een langetermijndoel van Laten groeien heeft er meestal baat bij om herbelegd te worden, zodat het rente-op-rente-effect kan blijven werken. Maar beleggen bestaat uiteindelijk om echte doelen en behoeften te dienen, niet om eindeloos rente-op-rente op te bouwen om het rente-op-rente – op een gegeven moment, vooral als doelen dichterbij komen of een moment van Doorgeven aanbreekt, wordt het de juiste keuze om groei echt te gebruiken.
+
+## Praktijkvoorbeeld
+
+ILLUSTRATIEF VOORBEELD: Als de groeiende metaalpositie uit de casus in waarde zou stijgen en de zoon zou besluiten een klein deel te verkopen om iets anders te betalen, zou precies dat bedrag voortaan geen deel meer uitmaken van de basis die verdere groei oplevert – een echte, begrijpelijke afweging, geen fout. Zou alle groei in de positie blijven, dan zou het rente-op-rente-effect in de loop van de jaren op een steeds grotere basis blijven voortbouwen. De juiste keuze hangt af van wat het geld uiteindelijk moet bereiken, niet van een vaste regel dat herbeleggen altijd juist is.
+
+## Oefenquiz
+
+1. Wat is het verschil tussen het herbeleggen en het uitgeven van beleggingswinst?
+2. Hoe hangt deze beslissing samen met het eerder behandelde rente-op-rente-effect?
+3. Is herbeleggen altijd de 'juiste' keuze?
+4. Wat bepaalt uiteindelijk of herbeleggen of uitgeven in een bepaalde situatie zinvol is?
+
+## Antwoordsleutel
+1. Bij herbeleggen blijft de groei in de belegging en blijft ze renderen; bij uitgeven wordt ze omgezet in geld voor ander gebruik.
+2. Herbelegde groei blijft renderen, terwijl uitgegeven groei niet meer bijdraagt aan toekomstig rente-op-rente-effect omdat ze niet meer belegd is.
+3. Nee – het hangt af van het doel van het geld en waar het past in het model Verdienen/Behouden/Laten groeien/Doorgeven.
+4. Wat het geld uiteindelijk moet bereiken – groeidoelen op lange termijn pleiten meestal voor herbeleggen, terwijl naderende echte behoeften of doelen voor uitgeven kunnen pleiten.
+
+## Antwoorden en uitleg
+1. Dit definieert de centrale afweging waar de les over gaat.
+2. Rente-op-rente werkt alleen op geld dat belegd blijft, wat deze beslissing direct verbindt met de eerdere les.
+3. Dit vermijdt een te eenvoudige regel 'altijd herbeleggen' die het eigenlijke doel van beleggen negeert.
+4. Beslissingen op basis van het doel, gekoppeld aan het model van vier functies, zijn de praktische leidraad die de les biedt.
+
+## Belangrijkste punten
+- Bij herbeleggen blijft de groei renderen; bij uitgeven wordt ze voor andere doelen gebruikt.
+- Deze beslissing sluit direct aan bij de les over rente-op-rente – alleen herbelegde groei blijft op zichzelf voortbouwen.
+- Geen van beide keuzes is principieel juist; de juiste beslissing hangt af van het werkelijke doel van het geld in het bredere financiële geheel.
