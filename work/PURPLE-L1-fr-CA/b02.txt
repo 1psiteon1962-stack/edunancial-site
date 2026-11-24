@@ -1,0 +1,319 @@
+===== PURPLE-L1-005
+TITLE: Contrats écrits ou verbaux : pourquoi il faut « tout mettre par écrit »
+SUMMARY: Explique les raisons pratiques et juridiques pour lesquelles les contrats écrits sont fortement préférables, avec une brève présentation de la notion de « Statute of Frauds ».
+# Contrats écrits ou verbaux : pourquoi il faut « tout mettre par écrit »
+
+## Objectifs d’apprentissage
+
+- Expliquer la différence générale de caractère exécutoire entre les contrats écrits et les contrats verbaux.
+- Repérer les risques pratiques liés au fait de se fier à une entente verbale.
+- Présenter l’idée que certains types de contrats doivent légalement être faits par écrit.
+
+## Contenu principal
+
+Bien des ententes verbales peuvent techniquement être juridiquement contraignantes — mais prouver ce qui a réellement été convenu devient un sérieux problème pratique si les parties sont plus tard en désaccord sur les modalités. Un contrat écrit crée un registre clair et commun : modalités exactes, prix exact, conditions exactes, signés par les deux parties. Une entente verbale repose entièrement sur la mémoire et l’honnêteté, qui ont tendance à faire défaut précisément au moment où elles comptent le plus — quand un litige survient et que de l’argent est en jeu.
+
+Au-delà du risque pratique, de nombreux systèmes juridiques ont une règle, souvent appelée *Statute of Frauds*, qui exige que certains types d’ententes — notamment, bien souvent, les transactions immobilières — soient faits par écrit pour être exécutoires, peu importe à quel point l’entente verbale semblait claire sur le moment. (Au Canada, les règles de forme et de preuve varient selon la province; au Québec, le Code civil prévoit ses propres règles de preuve. Vérifiez auprès d’un professionnel.) C’est l’un des conseils juridiques pratiques les plus clairs et les plus universels dans les volets RED, WHITE et BLUE : mettez tout par écrit, chaque fois, même quand vous faites entièrement confiance à l’autre partie — parce que la confiance ne crée pas de preuve sur laquelle un tribunal pourra s’appuyer plus tard.
+
+## Exemple pratique
+
+**Question :** Deux associés conviennent verbalement de partager les bénéfices à 60/40, se serrent la main et ne mettent jamais rien par écrit. Un an plus tard, ils sont en désaccord sur le partage. Quel problème cela illustre-t-il?
+
+**Étudiant :** D’après cette leçon, sans registre écrit, c’est essentiellement la parole de l’un contre celle de l’autre quant à ce qui a réellement été convenu.
+
+**Guide :** Pourquoi la confiance entre les associés ne règle-t-elle pas ce problème?
+
+**Étudiant :** Parce que la confiance ne crée pas de preuve — un tribunal qui tranche le litige plus tard a besoin de quelque chose de plus fiable que le souvenir qu’a chaque associé d’une conversation.
+
+**Guide :** Exactement — c’est pourquoi « tout mettre par écrit » s’applique même aux personnes en qui vous avez entièrement confiance.
+
+## Quiz pratique
+
+**Question 1.** Les ententes verbales sont :
+
+A) Jamais juridiquement contraignantes, en aucune circonstance
+B) Parfois techniquement contraignantes, mais difficiles à prouver en pratique
+C) Toujours plus sûres que les contrats écrits
+D) Sans pertinence en droit des contrats
+
+**Question 2.** Le principal avantage pratique d’un contrat écrit est :
+
+A) Il a l’air plus officiel
+B) Il crée un registre clair et commun des modalités exactes
+C) Il est toujours exigé par la loi
+D) Il n’a aucun avantage par rapport aux ententes verbales
+
+**Question 3.** Le *Statute of Frauds* exige généralement que certaines ententes, comme les transactions immobilières, soient :
+
+A) Seulement notariées
+B) Faites par écrit pour être exécutoires
+C) Verbales, par souci de simplicité
+D) Faites devant un juge
+
+**Question 4.** Pourquoi « tout mettre par écrit » s’applique-t-il même entre des parties qui se font confiance?
+
+A) La confiance garantit qu’aucun litige ne surviendra jamais
+B) La confiance ne crée pas de registre fiable si un litige survient plus tard
+C) Les contrats écrits sont réservés aux inconnus
+D) Ce conseil ne s’applique pas aux relations de confiance
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les ententes verbales ne sont pas automatiquement inexécutoires, mais il est réellement difficile en pratique de prouver plus tard leurs modalités exactes.
+
+**2.** Un registre écrit élimine toute ambiguïté sur ce qui a réellement été convenu, ce qui compte surtout au moment précis où un litige survient.
+
+**3.** Dans de nombreux systèmes juridiques, certains types de transactions doivent légalement être consignés par écrit.
+
+**4.** Même une grande confiance entre les parties ne produit pas le genre de preuve dont un tribunal a besoin pour trancher un désaccord ultérieur.
+
+## Points clés
+
+- Les ententes verbales peuvent être techniquement contraignantes, mais elles sont difficiles à prouver en cas de litige.
+- Les contrats écrits créent un registre clair et fiable des modalités exactes.
+- Certains types de transactions, comme l’immobilier, doivent souvent légalement être faits par écrit.
+- « Tout mettre par écrit » s’applique universellement, même entre des parties qui se font confiance.
+
+===== PURPLE-L1-006
+TITLE: L’inexécution d’un contrat : que se passe-t-il quand quelqu’un ne remplit pas ses obligations?
+SUMMARY: Présente la notion d’inexécution d’un contrat et les grandes catégories de recours possibles lorsqu’une partie ne respecte pas ses engagements.
+# L’inexécution d’un contrat : que se passe-t-il quand quelqu’un ne remplit pas ses obligations?
+
+## Objectifs d’apprentissage
+
+- Définir l’inexécution d’un contrat.
+- Repérer les grandes catégories de recours en cas d’inexécution.
+- Reconnaître l’inexécution comme un risque d’affaires prévisible, et non comme un événement inhabituel.
+
+## Contenu principal
+
+Il y a inexécution d’un contrat (on parle aussi de violation ou de rupture de contrat) lorsqu’une partie ne remplit pas ses obligations en vertu d’une entente exécutoire — un paiement manqué, une propriété non livrée, des travaux convenus non terminés. Lorsqu’une inexécution survient, la partie qui a respecté ses engagements dispose généralement de recours juridiques, même si les options précises dépendent du contrat et du territoire.
+
+Les grandes catégories de recours comprennent : les dommages-intérêts (une indemnisation pour la perte financière causée par l’inexécution), l’exécution en nature (une ordonnance du tribunal qui oblige la partie en défaut à accomplir réellement ce qu’elle a promis — plus courante en immobilier, où la propriété elle-même est unique) et la résiliation du contrat (qui libère la partie qui a respecté ses engagements de ses propres obligations restantes). Comprendre que l’inexécution est un risque prévisible, pour lequel on se prépare — et non une catastrophe inhabituelle —, fait partie d’une littératie contractuelle mûre : les contrats bien rédigés précisent souvent à l’avance ce qui se passe si l’une ou l’autre partie est en défaut, et c’est précisément pourquoi un examen attentif du contrat est important avant de le signer, et pas seulement après que quelque chose a mal tourné.
+
+## Exemple pratique
+
+**Question :** Un acheteur signe un contrat pour acheter une propriété précise, puis le vendeur se retire et vend à quelqu’un d’autre. Quel recours pourrait être particulièrement pertinent ici, étant donné que la propriété est unique?
+
+**Étudiant :** D’après cette leçon, l’exécution en nature pourrait être pertinente, puisqu’un tribunal pourrait possiblement ordonner que la vente soit conclue plutôt que d’accorder seulement de l’argent.
+
+**Guide :** Pourquoi l’exécution en nature aurait-elle plus de sens pour une propriété unique que, disons, pour un produit ordinaire?
+
+**Étudiant :** Parce que la propriété elle-même est unique — l’argent à lui seul pourrait ne pas remplacer réellement ce que l’acheteur voulait précisément, contrairement à un produit ordinaire qu’on pourrait simplement racheter ailleurs.
+
+**Guide :** Exactement — c’est pourquoi l’exécution en nature revient particulièrement souvent dans les litiges liés aux contrats immobiliers.
+
+## Quiz pratique
+
+**Question 1.** Il y a inexécution d’un contrat lorsque :
+
+A) Les deux parties conviennent d’annuler l’entente
+B) Une partie ne remplit pas ses obligations en vertu de l’entente
+C) Un contrat est signé
+D) Aucune entente n’a jamais été conclue
+
+**Question 2.** Les dommages-intérêts sont :
+
+A) Jamais offerts comme recours
+B) Une indemnisation pour la perte financière causée par une inexécution
+C) Pertinents seulement dans les affaires criminelles
+D) La même chose que l’exécution en nature
+
+**Question 3.** L’exécution en nature est :
+
+A) Une ordonnance du tribunal qui oblige à accomplir ce qui a été promis
+B) Toujours la même chose que les dommages-intérêts
+C) Jamais utilisée en immobilier
+D) Sans pertinence en droit des contrats
+
+**Question 4.** Pourquoi l’inexécution est-elle décrite comme un « risque prévisible, pour lequel on se prépare » plutôt que comme une catastrophe inhabituelle?
+
+A) L’inexécution ne se produit jamais réellement
+B) Les contrats bien rédigés précisent souvent à l’avance ce qui se passe si l’une ou l’autre partie est en défaut
+C) Les contrats ne traitent jamais de cette possibilité
+D) Ce cadrage est inexact
+
+## Corrigé
+
+1. B, 2. B, 3. A, 4. B
+
+## Réponses et explications
+
+**1.** L’inexécution est précisément le défaut de remplir des obligations juridiquement convenues.
+
+**2.** Les dommages-intérêts visent à compenser financièrement la perte de la partie qui a respecté ses engagements.
+
+**3.** L’exécution en nature est particulièrement pertinente lorsque l’objet du contrat, comme une propriété unique, ne peut pas simplement être remplacé par de l’argent.
+
+**4.** Les contrats mûrs anticipent l’inexécution et en précisent les conséquences à l’avance, en la traitant comme une possibilité réelle à planifier.
+
+## Points clés
+
+- Il y a inexécution lorsqu’une partie ne remplit pas ses obligations contractuelles.
+- Les recours comprennent les dommages-intérêts, l’exécution en nature et la résiliation du contrat.
+- L’exécution en nature est particulièrement pertinente pour des actifs uniques comme l’immobilier.
+- L’inexécution est un risque prévisible que les contrats bien rédigés planifient à l’avance.
+
+===== PURPLE-L1-007
+TITLE: Lire un contrat : un parcours pratique
+SUMMARY: Propose un cadre pratique pour aborder un contrat inconnu, afin de le rendre moins intimidant en le décomposant en sections faciles à gérer.
+# Lire un contrat : un parcours pratique
+
+## Objectifs d’apprentissage
+
+- Repérer les sections courantes que l’on trouve dans la plupart des contrats.
+- Appliquer une approche pratique, étape par étape, à la lecture d’un contrat inconnu.
+- Reconnaître les sections qui méritent l’attention la plus soutenue.
+
+## Contenu principal
+
+La plupart des contrats, aussi longs et intimidants soient-ils, partagent une structure générale commune : les parties (qui est en cause), le préambule (le contexte, qui commence souvent par « attendu que »), les modalités (les obligations réelles — prix, délais, ce que chaque partie doit faire), les déclarations et garanties (les affirmations de chaque partie sur des faits, comme la propriété d’un bien ou le pouvoir de signer), le défaut et les recours (ce qui se passe si quelqu’un ne remplit pas ses obligations, en écho à la leçon précédente) et les signatures (la passation officielle).
+
+Une approche pratique pour lire un contrat inconnu : d’abord, déterminez qui sont réellement les parties et ce que chacune promet de faire. Ensuite, repérez les principales modalités d’affaires — prix, dates, livrables —, puisque ce sont elles qui ont le poids pratique le plus immédiat. Troisièmement, portez une attention particulière à la section sur le défaut et les recours, puisque c’est là que vous apprendrez ce qui se passe réellement si quelque chose tourne mal. Quatrièmement, notez tout ce qui semble inhabituel, unilatéral ou flou, et signalez-le à un professionnel plutôt que d’en deviner le sens. Cette approche structurée transforme un mur de texte intimidant en une liste de vérification facile à gérer.
+
+## Exemple pratique
+
+**Question :** Une personne reçoit un contrat de 20 pages et se sent dépassée, sans savoir par où commencer. Quelle approche de départ cette leçon suggérerait-elle?
+
+**Étudiant :** D’après cette leçon, il faut commencer par déterminer les parties et ce que chacune promet réellement, plutôt que d’essayer d’assimiler tout le document d’un coup.
+
+**Guide :** Ensuite, quelle serait la prochaine chose la plus importante à rechercher?
+
+**Étudiant :** Les principales modalités d’affaires — prix, dates, livrables —, puisque ce sont elles qui ont le poids pratique le plus immédiat, puis la section sur le défaut et les recours, pour savoir ce qui se passe si quelque chose tourne mal.
+
+**Guide :** Exactement — décomposer la lecture selon cette séquence transforme un document intimidant en une liste de vérification facile à gérer.
+
+## Quiz pratique
+
+**Question 1.** Les sections courantes que l’on trouve dans la plupart des contrats comprennent :
+
+A) Les parties, les modalités, les déclarations, le défaut et les recours, les signatures
+B) Un seul paragraphe
+C) Aucune structure reconnaissable
+D) Seulement un prix et une date
+
+**Question 2.** La section des « déclarations et garanties » contient généralement :
+
+A) De l’information aléatoire sans lien
+B) Les affirmations de chaque partie sur des faits, comme la propriété d’un bien ou le pouvoir de signer
+C) Seulement le titre du contrat
+D) Les signatures
+
+**Question 3.** Une première étape pratique pour lire un contrat inconnu consiste à :
+
+A) Passer directement à la page des signatures
+B) Déterminer les parties et ce que chacune promet de faire
+C) Ignorer complètement le document
+D) Lire seulement le dernier paragraphe
+
+**Question 4.** Que faut-il faire de tout ce qui est inhabituel, unilatéral ou flou dans un contrat?
+
+A) L’ignorer et signer quand même
+B) Le signaler à un professionnel plutôt que d’en deviner le sens
+C) Supposer qu’il s’agit d’une faute de frappe
+D) Supprimer cette section unilatéralement
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Cette structure générale revient dans la plupart des contrats, peu importe leur longueur ou leur objet.
+
+**2.** Les déclarations et garanties sont des assurances factuelles données par chaque partie, qui comptent si elles se révèlent plus tard fausses.
+
+**3.** Comprendre qui est en cause et ce qui est promis est le point de départ naturel pour donner un sens au reste.
+
+**4.** Signaler les modalités floues ou inhabituelles pour un examen professionnel, plutôt que de deviner, est l’approche responsable.
+
+## Points clés
+
+- La plupart des contrats partagent une structure commune : les parties, les modalités, les déclarations, le défaut et les recours, les signatures.
+- Une approche de lecture pratique : d’abord les parties, puis les principales modalités, puis le défaut et les recours, puis signaler tout ce qui est flou.
+- Cette approche structurée rend les documents longs et inconnus moins intimidants.
+- Les modalités inhabituelles ou floues doivent être signalées pour un examen professionnel, et non devinées.
+
+===== PURPLE-L1-008
+TITLE: Responsabilité civile ou contrat : deux types différents de réclamations juridiques
+SUMMARY: Distingue la responsabilité civile délictuelle (les fautes civiles en dehors de tout contrat) du droit des contrats, afin de donner aux apprenants une carte plus claire du paysage juridique civil.
+# Responsabilité civile ou contrat : deux types différents de réclamations juridiques
+
+## Objectifs d’apprentissage
+
+- Définir un délit civil en termes simples.
+- Distinguer les réclamations fondées sur un délit civil des réclamations contractuelles.
+- Repérer des exemples pertinents dans les contextes des volets RED, WHITE et BLUE.
+
+## Contenu principal
+
+Un délit civil (en anglais *tort*; au Québec, on parle de responsabilité civile extracontractuelle) est une faute civile qui cause un préjudice à une autre personne, indépendamment de tout contrat entre elles — la négligence, les dommages matériels ou la diffamation en sont des exemples courants. C’est différent d’un litige contractuel, qui découle d’une promesse rompue entre des parties qui avaient conclu une entente. Un délit civil peut survenir entre des personnes qui n’ont jamais conclu aucun contrat — des travaux négligents d’un entrepreneur qui endommagent une propriété voisine constituent une réclamation fondée sur un délit civil, et non une réclamation contractuelle, si le voisin et l’entrepreneur n’avaient conclu aucune entente.
+
+Cette distinction compte en pratique tout au long de ce programme : le propriétaire d’un immeuble (volet RED) peut être poursuivi en responsabilité civile si des conditions dangereuses sur sa propriété blessent quelqu’un, peu importe tout bail ou contrat d’achat. Un propriétaire d’entreprise (volet BLUE) peut engager sa responsabilité civile pour un préjudice causé par un produit ou par un employé négligent, indépendamment de tout contrat avec un client. Comprendre que le risque juridique ne se limite pas aux promesses rompues — qu’un préjudice causé en dehors de toute entente peut quand même engager une responsabilité — est un élargissement important de la littératie juridique au-delà des seuls contrats.
+
+## Exemple pratique
+
+**Question :** L’escalier mal entretenu d’un propriétaire blesse un livreur qui n’a aucun contrat avec ce propriétaire. Quel type de réclamation juridique cela représente-t-il probablement?
+
+**Étudiant :** D’après cette leçon, cela ressemble à une réclamation fondée sur un délit civil, puisqu’il n’y a aucun contrat entre le propriétaire et le livreur — le préjudice existe indépendamment de toute entente.
+
+**Guide :** Pourquoi l’absence de contrat est-elle importante ici?
+
+**Étudiant :** Parce qu’elle montre que la responsabilité juridique ne se limite pas aux promesses rompues entre des parties contractantes — un préjudice causé en dehors de toute entente peut quand même créer une exposition juridique.
+
+**Guide :** Exactement — c’est précisément pourquoi les propriétaires doivent penser au risque de responsabilité civile, et pas seulement au risque contractuel.
+
+## Quiz pratique
+
+**Question 1.** Un délit civil est :
+
+A) Un type de contrat
+B) Une faute civile qui cause un préjudice, indépendamment de tout contrat
+C) Pertinent seulement en droit criminel
+D) La même chose que l’inexécution d’un contrat
+
+**Question 2.** En quoi une réclamation fondée sur un délit civil diffère-t-elle d’une réclamation contractuelle?
+
+A) Elles sont identiques
+B) Un délit civil peut survenir entre des parties qui n’ont conclu aucun contrat
+C) Les délits civils ne s’appliquent qu’aux entreprises
+D) Les contrats n’impliquent jamais de préjudice réel
+
+**Question 3.** Les conditions dangereuses de la propriété d’un propriétaire qui blessent un visiteur n’ayant aucun contrat avec lui sont un exemple :
+
+A) De litige contractuel
+B) De réclamation possible fondée sur un délit civil
+C) De situation qui ne relève ni de la responsabilité civile ni du contrat
+D) D’affaire uniquement criminelle
+
+**Question 4.** Pourquoi cette distinction est-elle importante pour les personnes actives dans les volets RED et BLUE?
+
+A) Elle n’a aucune importance
+B) Le risque juridique ne se limite pas aux promesses rompues — un préjudice causé en dehors de toute entente peut quand même engager une responsabilité
+C) Seul le risque contractuel est pertinent
+D) Les délits civils ne concernent que le volet WHITE
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les délits civils portent fondamentalement sur le fait de causer un préjudice, et non sur des ententes rompues.
+
+**2.** C’est précisément l’absence de contrat qui distingue de nombreux cas de délit civil des litiges contractuels.
+
+**3.** Cette situation illustre de façon classique une responsabilité civile qui survient sans aucune relation contractuelle.
+
+**4.** Reconnaître ce paysage de responsabilité plus large complète le portrait du risque juridique pour les propriétaires d’immeubles et d’entreprises.
+
+## Points clés
+
+- Un délit civil est une faute civile qui cause un préjudice, distincte d’un contrat rompu.
+- Un délit civil peut survenir même entre des parties qui n’ont conclu aucun contrat.
+- Les propriétaires d’immeubles et d’entreprises font face à un risque de responsabilité civile distinct de tout risque contractuel.
+- La littératie juridique comprend la responsabilité fondée sur le préjudice, et pas seulement celle fondée sur une entente.
