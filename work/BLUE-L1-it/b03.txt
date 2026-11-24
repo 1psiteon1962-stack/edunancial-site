@@ -1,0 +1,366 @@
+===== BLUE-L1-011
+TITLE: Ricavi o utile? (La coppia di termini più confusa negli affari)
+SUMMARY: Scopri la vera differenza tra ricavi e utile, e perché un'impresa può avere ricavi elevati ma nessun utile.
+# Ricavi o utile? (La coppia di termini più confusa negli affari)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire separatamente ricavi e utile.
+- calcolare un utile di base partendo da ricavi e costi.
+- spiegare perché ricavi elevati non garantiscono un utile.
+
+## Contenuto principale
+
+### Due numeri che si confondono di continuo
+
+Chiediti: se un'impresa "ha fatto 500.000 $ l'anno scorso", significa che ha tenuto 500.000 $? Quasi certamente no: ed è proprio questa confusione il motivo per cui ricavi e utile vengono scambiati così spesso.
+
+I **ricavi** sono il totale del denaro che un'impresa incassa dalle vendite, prima di sottrarre qualsiasi costo. L'**utile** è ciò che resta dopo aver sottratto tutti i costi sostenuti per generare quei ricavi.
+
+### La formula
+
+Utile = Ricavi − Costi. Un'impresa con 500.000 $ di ricavi e 480.000 $ di costi ha solo 20.000 $ di utile: un quadro molto diverso da quello suggerito dal solo dato dei ricavi.
+
+### Perché ricavi elevati non garantiscono un utile
+
+Un'impresa può avere ricavi notevoli e in crescita e perdere comunque denaro, se i suoi costi crescono altrettanto o più velocemente. I ricavi misurano l'attività; l'utile misura se quell'attività ha davvero migliorato la situazione dell'impresa.
+
+## Esempio svolto
+
+Una nuova impresa annuncia con orgoglio 200.000 $ di ricavi nel primo anno. Chiediti: è una buona notizia di per sé? Solo se conosci anche i costi. Se i costi sono stati 210.000 $, l'impresa ha in realtà perso 10.000 $ quell'anno: una perdita nascosta dietro un dato che sembra un successo.
+
+## Quiz di esercitazione
+
+1. I ricavi sono:
+   A. Ciò che resta dopo aver sottratto tutti i costi
+   B. Il totale del denaro incassato dalle vendite, prima dei costi
+   C. Il debito totale di un'impresa
+   D. Un tipo di imposta
+
+2. Vero o falso: ricavi elevati significano sempre che un'impresa è in utile.
+
+3. Un'impresa ha 300.000 $ di ricavi e 275.000 $ di costi. Qual è il suo utile?
+   A. 575.000 $
+   B. 25.000 $
+   C. 300.000 $
+   D. 0 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I ricavi sono il totale incassato dalle vendite, prima dei costi.
+
+### Domanda 2
+
+Risposta corretta: Falso. Ricavi alti con costi ancora più alti possono comunque significare una perdita.
+
+### Domanda 3
+
+Risposta corretta: B. 300.000 $ − 275.000 $ = 25.000 $.
+
+## Punti chiave
+
+- I ricavi sono il totale incassato dalle vendite, prima dei costi.
+- Utile = Ricavi − Costi: ciò che resta davvero.
+- Ricavi elevati non garantiscono un utile.
+
+===== BLUE-L1-012
+TITLE: Che cos'è il margine di profitto?
+SUMMARY: Scopri come il margine di profitto esprime la redditività in percentuale, e perché quella percentuale conta più del solo utile in valore assoluto.
+# Che cos'è il margine di profitto?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- enunciare la formula del margine di profitto.
+- calcolare un margine di profitto di base.
+- spiegare perché il margine conta per confrontare imprese di dimensioni diverse.
+
+## Contenuto principale
+
+### La formula
+
+Margine di profitto = Utile ÷ Ricavi, di solito espresso in percentuale. Riprende il concetto di utile della lezione precedente e lo esprime in rapporto ai ricavi, non come cifra assoluta.
+
+### Perché una percentuale, e non solo una cifra
+
+Chiediti: 50.000 $ di utile sono un risultato notevole? Dipende interamente da quanti ricavi sono serviti per generarli. 50.000 $ di utile su 100.000 $ di ricavi (margine del 50%) sono un'impresa molto diversa da 50.000 $ di utile su 2.000.000 $ di ricavi (margine del 2,5%): la percentuale racconta una storia che la sola cifra nasconde.
+
+### A che cosa serve
+
+Il margine di profitto permette di confrontare alla pari imprese di dimensioni molto diverse, ed è un modo utile per verificare se una singola impresa sta diventando più o meno efficiente nel tempo, indipendentemente dal fatto che i suoi ricavi crescano.
+
+## Esempio svolto
+
+Due imprese dichiarano ciascuna 40.000 $ di utile. L'impresa A ha avuto 100.000 $ di ricavi; l'impresa B 800.000 $. Chiediti: sono risultati ugualmente solidi? Il margine dell'impresa A è del 40%; quello dell'impresa B del 5%: livelli di efficienza molto diversi nascosti dietro lo stesso utile.
+
+## Quiz di esercitazione
+
+1. Il margine di profitto si calcola come:
+   A. Ricavi ÷ Utile
+   B. Utile ÷ Ricavi
+   C. Costi ÷ Ricavi
+   D. Ricavi − Costi
+
+2. Vero o falso: un utile più alto in valore assoluto indica sempre un'impresa più efficiente.
+
+3. Un'impresa ha 60.000 $ di utile e 300.000 $ di ricavi. Qual è il suo margine di profitto?
+   A. 5%
+   B. 20%
+   C. 50%
+   D. 60%
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Margine di profitto = Utile ÷ Ricavi.
+
+### Domanda 2
+
+Risposta corretta: Falso. Una grande impresa può avere un margine più basso di una molto più piccola.
+
+### Domanda 3
+
+Risposta corretta: B. 60.000 $ ÷ 300.000 $ = 20%.
+
+## Punti chiave
+
+- Margine di profitto = Utile ÷ Ricavi, espresso in percentuale.
+- Permette un confronto equo tra imprese di dimensioni diverse.
+- È una misura utile dell'efficienza, distinta dall'utile in valore assoluto.
+
+===== BLUE-L1-013
+TITLE: Che cosa sono i costi generali (overhead)?
+SUMMARY: Scopri che cosa sono i costi generali e perché esistono indipendentemente da quanto vende un'impresa.
+# Che cosa sono i costi generali (overhead)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire i costi generali in termini semplici.
+- distinguere i costi generali dai costi legati direttamente a una vendita.
+- spiegare perché i costi generali contano anche nei periodi di calma.
+
+## Contenuto principale
+
+### Che cosa sono i costi generali
+
+I costi generali (in inglese "overhead") sono i costi continui per mandare avanti un'impresa che non sono legati direttamente alla produzione di un prodotto specifico o a una vendita specifica: cose come l'affitto, l'assicurazione e gli stipendi amministrativi.
+
+### Costi generali e costi diretti
+
+Chiediti: se un'impresa questo mese non facesse alcuna vendita, l'affitto sarebbe comunque dovuto? Sì: è la caratteristica distintiva dei costi generali. I costi che crescono direttamente con ogni vendita (come le materie prime per un prodotto specifico) sono diversi e vengono trattati a parte nelle lezioni successive.
+
+### Perché contano anche quando gli affari vanno a rilento
+
+I costi generali continuano a maturare che entrino ricavi o no, ed è per questo che capirli è importante per la pianificazione: un'impresa con costi generali fissi elevati ha bisogno di un certo livello minimo di vendite solo per andare in pareggio, un concetto trattato nella prossima lezione.
+
+## Esempio svolto
+
+Un piccolo negozio paga 2.000 $ al mese di affitto, indipendentemente da quanti articoli vende in quel mese. Chiediti: quei 2.000 $ cambiano se in un mese le vendite sono particolarmente scarse? No: è proprio questo che li rende costi generali, distinti dal costo della merce specifica venduta.
+
+## Quiz di esercitazione
+
+1. I costi generali sono:
+   A. Costi legati direttamente alla produzione di una specifica unità venduta
+   B. Costi continui per gestire l'impresa, non legati direttamente a una vendita
+   C. Un tipo di licenza commerciale
+   D. I ricavi totali di un'impresa
+
+2. Vero o falso: i costi generali scompaiono in un mese senza vendite.
+
+3. Quale di questi è un tipico costo generale?
+   A. Le materie prime per un prodotto specifico
+   B. L'affitto mensile della sede dell'impresa
+   C. L'acquisto una tantum di un'attrezzatura
+   D. Il costo di spedizione di un ordine specifico
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I costi generali sono continui, non legati a una vendita specifica.
+
+### Domanda 2
+
+Risposta corretta: Falso. I costi generali in genere continuano indipendentemente dalle vendite.
+
+### Domanda 3
+
+Risposta corretta: B. L'affitto è un classico costo generale, slegato da qualsiasi singola vendita.
+
+## Punti chiave
+
+- I costi generali sono costi continui, non legati a una vendita specifica.
+- Continuano che entrino ricavi o no.
+- Fissano un livello minimo che l'impresa deve coprire con le vendite, come si vedrà nella prossima lezione.
+
+===== BLUE-L1-014
+TITLE: Che cos'è un business plan, e per chi è davvero?
+SUMMARY: Scopri a che cosa serve un business plan e perché di solito ha più di un vero destinatario.
+# Che cos'è un business plan, e per chi è davvero?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un business plan in termini semplici.
+- individuare a chi serve di solito un business plan.
+- spiegare perché scriverlo è utile al titolare anche senza lettori esterni.
+
+## Contenuto principale
+
+### Che cos'è davvero un business plan
+
+Un business plan è un documento scritto che spiega che cosa fa un'impresa, a chi si rivolge, come guadagna e come intende operare e crescere.
+
+### Chiediti per chi è davvero
+
+Se non cerchi un prestito o un investitore, vale comunque la pena scrivere un business plan? Spesso sì, perché un business plan ha più di un vero destinatario. È scritto per lettori esterni (finanziatori, investitori), ma è altrettanto uno strumento per il ragionamento del titolare, perché costringe a rispondere a domande facili da saltare in una pianificazione informale.
+
+### Perché scriverlo è utile direttamente al titolare
+
+Scrivere costringe a essere precisi: chi è esattamente il cliente, come guadagnerà esattamente l'impresa, quanto costerà esattamente avviarla e gestirla. Idee vaghe che in una conversazione sembrano a posto spesso rivelano lacune reali quando bisogna metterle per iscritto in modo chiaro.
+
+## Esempio svolto
+
+Una persona entusiasta della sua idea d'impresa si siede a scrivere un piano e si accorge, strada facendo, di non saper rispondere chiaramente a "chi è esattamente il mio cliente": una domanda che non aveva mai dovuto affrontare parlando dell'idea in modo informale. Chiediti: scrivere il piano è stato tempo perso se nessun finanziatore lo leggerà mai? No, se ha fatto emergere quella lacuna prima di spendere denaro vero.
+
+## Quiz di esercitazione
+
+1. Un business plan illustra principalmente:
+   A. Solo le dichiarazioni fiscali dell'impresa
+   B. Che cosa fa l'impresa, a chi si rivolge e come opera e cresce
+   C. Solo il curriculum personale del fondatore
+   D. Un elenco dei loghi dei concorrenti
+
+2. Vero o falso: un business plan è utile solo se viene mostrato a un finanziatore o investitore esterno.
+
+3. Qual è un vantaggio di scrivere un business plan anche senza lettori esterni?
+   A. Non ha alcun vantaggio senza lettori esterni
+   B. Costringe a dare risposte precise a domande facili da saltare in una pianificazione informale
+   C. Garantisce il successo dell'impresa
+   D. Sostituisce la necessità di una licenza commerciale
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un business plan spiega che cosa fa l'impresa, a chi si rivolge e come opera.
+
+### Domanda 2
+
+Risposta corretta: Falso. È anche un prezioso strumento di ragionamento per il titolare, indipendentemente dai lettori esterni.
+
+### Domanda 3
+
+Risposta corretta: B. Il processo di scrittura costringe a una precisione che il pensiero informale spesso salta.
+
+## Punti chiave
+
+- Un business plan serve sia ai lettori esterni sia al ragionamento del titolare.
+- Scriverlo costringe a dare risposte precise a domande facili da lasciare nel vago.
+- È utile anche se nessun finanziatore o investitore esterno lo leggerà mai.
+
+===== BLUE-L1-015
+TITLE: Che cos'è il punto di pareggio (break-even)?
+SUMMARY: Scopri che cosa significa punto di pareggio, come si calcola a livello di base e perché conta prima che un'impresa realizzi un utile.
+# Che cos'è il punto di pareggio (break-even)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il punto di pareggio in termini semplici.
+- spiegare, a livello concettuale, che cosa deve succedere perché un'impresa lo raggiunga.
+- spiegare perché conoscere questo numero è importante prima di aprire.
+
+## Contenuto principale
+
+### Che cosa significa punto di pareggio
+
+Il punto di pareggio è il livello di vendite al quale i ricavi totali di un'impresa sono esattamente uguali ai suoi costi totali: nessun utile, nessuna perdita, il punto esatto di passaggio tra i due.
+
+### Che cosa deve succedere per raggiungerlo
+
+Chiediti: sotto quel punto, l'impresa guadagna o perde denaro? Sotto il pareggio, i costi superano i ricavi: è una perdita. Sopra, i ricavi superano i costi: è un utile. Questo si collega direttamente ai costi generali (i costi fissi da coprire qualunque sia il volume di vendite) di due lezioni fa.
+
+### Perché conoscere questo numero è importante prima di aprire
+
+Un titolare che conosce in partenza il proprio punto di pareggio ha un obiettivo concreto e specifico, non solo una vaga speranza che "le vendite andranno abbastanza bene". Senza quel numero è facile sottovalutare quanto bisogna vendere solo per smettere di perdere denaro, figuriamoci per iniziare a guadagnare.
+
+## Esempio svolto
+
+Un piccolo negozio ha 3.000 $ al mese di costi generali e guadagna circa 15 $ su ogni articolo venduto, al netto dei costi diretti. Chiediti: quanti articoli deve vendere più o meno ogni mese solo per andare in pareggio? 3.000 $ ÷ 15 $ = 200 articoli: un numero concreto con cui il titolare può confrontare le vendite reali, invece di sperare che tutto vada bene.
+
+## Quiz di esercitazione
+
+1. Il punto di pareggio è:
+   A. Il punto in cui un'impresa realizza il massimo utile
+   B. Il livello di vendite in cui i ricavi totali sono uguali ai costi totali
+   C. Il costo generale totale dell'impresa
+   D. Un tipo di licenza commerciale
+
+2. Vero o falso: sotto il punto di pareggio, un'impresa sta generando un utile.
+
+3. Perché conoscere il punto di pareggio è importante prima di aprire un'impresa?
+   A. Non ha alcuna importanza
+   B. Dà un obiettivo di vendita concreto invece di una vaga speranza
+   C. Garantisce che l'impresa avrà successo
+   D. Elimina la necessità di un business plan
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il pareggio è il punto in cui i ricavi sono esattamente uguali ai costi totali.
+
+### Domanda 2
+
+Risposta corretta: Falso. Sotto il pareggio i costi superano i ricavi: è una perdita.
+
+### Domanda 3
+
+Risposta corretta: B. Offre un obiettivo specifico e misurabile invece di una vaga speranza.
+
+## Punti chiave
+
+- Il punto di pareggio è il livello di vendite in cui i ricavi sono esattamente uguali ai costi totali.
+- Sotto c'è una perdita; sopra c'è un utile.
+- Conoscere questo numero dà un obiettivo concreto prima di aprire, non solo una speranza.

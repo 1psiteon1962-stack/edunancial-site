@@ -1,0 +1,366 @@
+===== BLUE-L1-011
+TITLE: Receita ou lucro? (A dupla de termos mais confundida nos negócios)
+SUMMARY: Aprenda a diferença real entre receita e lucro, e por que um negócio pode ter receita forte e nenhum lucro.
+# Receita ou lucro? (A dupla de termos mais confundida nos negócios)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir receita e lucro separadamente.
+- calcular um lucro básico a partir da receita e das despesas.
+- explicar por que uma receita forte não garante lucro.
+
+## Conteúdo principal
+
+### Dois números que as pessoas confundem o tempo todo
+
+Pergunte a si mesmo: se um negócio "fez US$ 500.000 no ano passado", isso quer dizer que ele ficou com US$ 500.000? Quase certamente não, e é exatamente essa confusão que faz receita e lucro serem trocados com tanta frequência.
+
+**Receita** é o total de dinheiro que um negócio recebe com vendas, antes de descontar qualquer despesa. **Lucro** é o que sobra depois de descontar todas as despesas necessárias para gerar essa receita.
+
+### A fórmula
+
+Lucro = Receita − Despesas. Um negócio com US$ 500.000 de receita e US$ 480.000 de despesas tem apenas US$ 20.000 de lucro: uma imagem bem diferente da que o número da receita sozinho sugere.
+
+### Por que uma receita forte não garante lucro
+
+Um negócio pode ter uma receita impressionante e crescente e mesmo assim perder dinheiro, se as despesas crescerem no mesmo ritmo ou mais rápido. A receita mede atividade; o lucro mede se essa atividade realmente deixou o negócio em situação melhor.
+
+## Exemplo prático
+
+Um negócio novo anuncia com orgulho US$ 200.000 de receita no primeiro ano. Pergunte a si mesmo: isso é uma boa notícia por si só? Só se você também souber as despesas. Se as despesas foram de US$ 210.000, o negócio na verdade perdeu US$ 10.000 naquele ano: um prejuízo escondido atrás de um número que parece sucesso.
+
+## Teste de prática
+
+1. Receita é:
+   A. O que sobra depois de descontar todas as despesas
+   B. O total de dinheiro recebido com vendas, antes das despesas
+   C. A dívida total de um negócio
+   D. Um tipo de imposto
+
+2. Verdadeiro ou falso: uma receita forte sempre significa que o negócio é lucrativo.
+
+3. Um negócio tem US$ 300.000 de receita e US$ 275.000 de despesas. Qual é o lucro?
+   A. US$ 575.000
+   B. US$ 25.000
+   C. US$ 300.000
+   D. US$ 0
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Receita é o total recebido com vendas, antes das despesas.
+
+### Pergunta 2
+
+Resposta correta: Falso. Receita alta com despesas ainda mais altas pode significar prejuízo.
+
+### Pergunta 3
+
+Resposta correta: B. US$ 300.000 − US$ 275.000 = US$ 25.000.
+
+## Pontos-chave
+
+- Receita é o total recebido com vendas, antes das despesas.
+- Lucro = Receita − Despesas: o que realmente sobra.
+- Uma receita forte não garante lucro.
+
+===== BLUE-L1-012
+TITLE: O que é margem de lucro?
+SUMMARY: Aprenda como a margem de lucro expressa a lucratividade em percentual, e por que esse percentual importa mais do que o valor bruto do lucro.
+# O que é margem de lucro?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- enunciar a fórmula da margem de lucro.
+- calcular uma margem de lucro básica.
+- explicar por que a margem importa para comparar negócios de tamanhos diferentes.
+
+## Conteúdo principal
+
+### A fórmula
+
+Margem de lucro = Lucro ÷ Receita, normalmente expressa em percentual. Ela pega o conceito de lucro da lição anterior e o expressa em relação à receita, e não como um valor bruto em dinheiro.
+
+### Por que um percentual, e não só um valor
+
+Pergunte a si mesmo: US$ 50.000 de lucro é impressionante? Depende totalmente de quanta receita foi necessária para gerar esse lucro. US$ 50.000 de lucro sobre US$ 100.000 de receita (margem de 50%) é um negócio muito diferente de US$ 50.000 de lucro sobre US$ 2.000.000 de receita (margem de 2,5%): o percentual conta uma história que o número bruto esconde.
+
+### Para que serve
+
+A margem de lucro permite comparar negócios de tamanhos muito diferentes em pé de igualdade, e é uma forma útil de acompanhar se um mesmo negócio está ficando mais ou menos eficiente com o tempo, independentemente de a receita estar crescendo.
+
+## Exemplo prático
+
+Dois negócios informam US$ 40.000 de lucro cada um. O negócio A teve US$ 100.000 de receita; o negócio B, US$ 800.000. Pergunte a si mesmo: são resultados igualmente fortes? A margem do negócio A é de 40%; a do negócio B, de 5%: níveis de eficiência bem diferentes escondidos atrás do mesmo lucro.
+
+## Teste de prática
+
+1. A margem de lucro é calculada como:
+   A. Receita ÷ Lucro
+   B. Lucro ÷ Receita
+   C. Despesas ÷ Receita
+   D. Receita − Despesas
+
+2. Verdadeiro ou falso: um lucro bruto maior em dinheiro sempre significa um negócio mais eficiente.
+
+3. Um negócio tem US$ 60.000 de lucro e US$ 300.000 de receita. Qual é a margem de lucro?
+   A. 5%
+   B. 20%
+   C. 50%
+   D. 60%
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Margem de lucro = Lucro ÷ Receita.
+
+### Pergunta 2
+
+Resposta correta: Falso. Um negócio grande pode ter margem menor do que um muito menor.
+
+### Pergunta 3
+
+Resposta correta: B. US$ 60.000 ÷ US$ 300.000 = 20%.
+
+## Pontos-chave
+
+- Margem de lucro = Lucro ÷ Receita, expressa em percentual.
+- Ela permite uma comparação justa entre negócios de tamanhos diferentes.
+- É uma medida útil de eficiência, separada do valor bruto do lucro.
+
+===== BLUE-L1-013
+TITLE: O que são custos fixos (overhead)?
+SUMMARY: Aprenda o que são custos fixos e por que eles existem independentemente de quanto o negócio vende.
+# O que são custos fixos (overhead)?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir custos fixos em termos simples.
+- distinguir custos fixos de custos ligados diretamente a uma venda.
+- explicar por que os custos fixos importam mesmo nos períodos fracos.
+
+## Conteúdo principal
+
+### O que são custos fixos
+
+Custos fixos (em inglês, "overhead") são os custos contínuos de manter um negócio funcionando que não estão ligados diretamente à produção de um produto específico ou a uma venda específica: coisas como aluguel, seguro e salários administrativos.
+
+### Custos fixos e custos diretos
+
+Pergunte a si mesmo: se o negócio não fizesse nenhuma venda este mês, o aluguel ainda teria de ser pago? Sim: essa é a característica que define os custos fixos. Os custos que aumentam diretamente com cada venda (como a matéria-prima de um produto específico) são diferentes e são tratados separadamente em lições posteriores.
+
+### Por que importam mesmo quando o movimento está fraco
+
+Os custos fixos continuam se acumulando, haja receita ou não. Por isso é importante entendê-los no planejamento: um negócio com custos fixos altos precisa de um certo volume mínimo de vendas só para empatar, um conceito visto na próxima lição.
+
+## Exemplo prático
+
+Uma pequena loja paga US$ 2.000 por mês de aluguel, não importa quantos itens venda naquele mês. Pergunte a si mesmo: esses US$ 2.000 mudam se as vendas forem fracas em um mês? Não: é exatamente isso que faz deles um custo fixo, diferente do custo da mercadoria específica vendida.
+
+## Teste de prática
+
+1. Custos fixos são:
+   A. Custos ligados diretamente à produção de uma unidade específica vendida
+   B. Custos contínuos de manter o negócio, não ligados diretamente a uma venda
+   C. Um tipo de licença comercial
+   D. A receita total de um negócio
+
+2. Verdadeiro ou falso: os custos fixos desaparecem em um mês sem vendas.
+
+3. Qual destes é um custo fixo típico?
+   A. A matéria-prima de um produto específico
+   B. O aluguel mensal do ponto do negócio
+   C. A compra única de um equipamento
+   D. O frete de um pedido específico
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Custos fixos são contínuos e não estão ligados a uma venda específica.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os custos fixos geralmente continuam independentemente das vendas.
+
+### Pergunta 3
+
+Resposta correta: B. O aluguel é um custo fixo clássico, sem relação com nenhuma venda específica.
+
+## Pontos-chave
+
+- Custos fixos são custos contínuos, não ligados a uma venda específica.
+- Eles continuam, haja receita ou não.
+- Eles definem um patamar que o negócio precisa cobrir com vendas, como a próxima lição mostra.
+
+===== BLUE-L1-014
+TITLE: O que é um plano de negócios, e para quem ele é de verdade?
+SUMMARY: Aprenda para que serve um plano de negócios e por que ele normalmente tem mais de um público real.
+# O que é um plano de negócios, e para quem ele é de verdade?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir plano de negócios em termos simples.
+- identificar a quem um plano de negócios normalmente serve.
+- explicar por que escrevê-lo beneficia o dono mesmo sem leitores de fora.
+
+## Conteúdo principal
+
+### O que um plano de negócios realmente é
+
+Um plano de negócios é um documento escrito que explica o que o negócio faz, a quem atende, como ganha dinheiro e como pretende operar e crescer.
+
+### Pergunte a si mesmo para quem ele é de verdade
+
+Se você não está buscando um empréstimo ou um investidor, ainda vale a pena escrever um plano de negócios? Muitas vezes, sim, porque um plano de negócios tem mais de um público real. Ele é escrito para leitores de fora (bancos, investidores), mas é igualmente uma ferramenta para o raciocínio do próprio dono, porque obriga a responder perguntas fáceis de pular em um planejamento informal.
+
+### Por que escrevê-lo beneficia diretamente o dono
+
+O ato de escrever obriga a ser específico: quem exatamente é o cliente, como exatamente o negócio vai ganhar dinheiro, quanto exatamente vai custar começar e manter. Ideias vagas que parecem boas numa conversa muitas vezes revelam lacunas reais quando alguém precisa colocá-las no papel com clareza.
+
+## Exemplo prático
+
+Alguém empolgado com uma ideia de negócio senta para escrever um plano e percebe, no meio do processo, que não consegue responder com clareza "quem exatamente é o meu cliente": uma pergunta que nunca tinha precisado encarar nas conversas informais sobre a ideia. Pergunte a si mesmo: escrever o plano foi perda de tempo se nenhum banco jamais o ler? Não, se isso revelou essa lacuna antes de gastar dinheiro de verdade.
+
+## Teste de prática
+
+1. Um plano de negócios explica principalmente:
+   A. Só as declarações de imposto do negócio
+   B. O que o negócio faz, a quem atende e como opera e cresce
+   C. Só o currículo pessoal do fundador
+   D. Uma lista de logotipos de concorrentes
+
+2. Verdadeiro ou falso: um plano de negócios só é útil se for mostrado a um banco ou investidor de fora.
+
+3. Qual é um benefício de escrever um plano de negócios mesmo sem leitores de fora?
+   A. Não há benefício sem leitores de fora
+   B. Ele obriga a dar respostas específicas a perguntas fáceis de pular num planejamento informal
+   C. Ele garante o sucesso do negócio
+   D. Ele substitui a necessidade de uma licença comercial
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um plano de negócios cobre o que o negócio faz, a quem atende e como opera.
+
+### Pergunta 2
+
+Resposta correta: Falso. Ele também é uma ferramenta valiosa de raciocínio para o dono, com ou sem leitores de fora.
+
+### Pergunta 3
+
+Resposta correta: B. O processo de escrita obriga a uma precisão que o pensamento informal muitas vezes pula.
+
+## Pontos-chave
+
+- Um plano de negócios serve tanto a leitores de fora quanto ao raciocínio do próprio dono.
+- Escrevê-lo obriga a dar respostas específicas a perguntas fáceis de deixar vagas.
+- Ele tem valor mesmo que nenhum banco ou investidor de fora jamais o leia.
+
+===== BLUE-L1-015
+TITLE: O que é ponto de equilíbrio?
+SUMMARY: Aprenda o que significa ponto de equilíbrio, como ele é calculado em nível básico e por que importa antes de o negócio dar lucro.
+# O que é ponto de equilíbrio?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir ponto de equilíbrio em termos simples.
+- explicar, em termos conceituais, o que precisa acontecer para um negócio chegar a ele.
+- explicar por que conhecer esse número importa antes de abrir.
+
+## Conteúdo principal
+
+### O que significa ponto de equilíbrio
+
+O ponto de equilíbrio (em inglês, "break-even point") é o nível de vendas em que a receita total de um negócio é exatamente igual aos seus custos totais: nem lucro, nem prejuízo, o ponto exato de virada entre os dois.
+
+### O que precisa acontecer para chegar lá
+
+Pergunte a si mesmo: abaixo desse ponto, o negócio está ganhando ou perdendo dinheiro? Abaixo do ponto de equilíbrio, as despesas superam a receita: prejuízo. Acima dele, a receita supera as despesas: lucro. Isso se liga diretamente aos custos fixos (que precisam ser cobertos independentemente do volume de vendas) de duas lições atrás.
+
+### Por que conhecer esse número importa antes de abrir
+
+Um dono de negócio que já começa sabendo o seu ponto de equilíbrio tem uma meta concreta e específica, e não só uma esperança vaga de que "as vendas vão ser boas o bastante". Sem esse número, é fácil subestimar quanto é preciso vender só para parar de perder dinheiro, quanto mais para começar a lucrar.
+
+## Exemplo prático
+
+Uma pequena loja tem US$ 3.000 por mês de custos fixos e ganha cerca de US$ 15 por item vendido, acima dos custos diretos. Pergunte a si mesmo: mais ou menos quantos itens ela precisa vender por mês só para empatar? US$ 3.000 ÷ US$ 15 = 200 itens: um número concreto com o qual o dono pode comparar as vendas reais, em vez de só torcer para dar certo.
+
+## Teste de prática
+
+1. O ponto de equilíbrio é:
+   A. O ponto em que o negócio tem o lucro máximo
+   B. O nível de vendas em que a receita total é igual aos custos totais
+   C. O custo fixo total do negócio
+   D. Um tipo de licença comercial
+
+2. Verdadeiro ou falso: abaixo do ponto de equilíbrio, o negócio está gerando lucro.
+
+3. Por que conhecer o ponto de equilíbrio importa antes de abrir um negócio?
+   A. Não importa nada
+   B. Ele dá uma meta de vendas concreta em vez de uma esperança vaga
+   C. Ele garante que o negócio vai dar certo
+   D. Ele elimina a necessidade de um plano de negócios
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O ponto de equilíbrio é onde a receita é exatamente igual aos custos totais.
+
+### Pergunta 2
+
+Resposta correta: Falso. Abaixo do ponto de equilíbrio, as despesas superam a receita: prejuízo.
+
+### Pergunta 3
+
+Resposta correta: B. Ele oferece uma meta específica e mensurável em vez de uma esperança vaga.
+
+## Pontos-chave
+
+- O ponto de equilíbrio é o nível de vendas em que a receita é exatamente igual aos custos totais.
+- Abaixo dele há prejuízo; acima dele, lucro.
+- Conhecer esse número dá uma meta concreta antes de abrir, e não só esperança.
