@@ -1,0 +1,399 @@
+===== PURPLE-L1-016
+TITLE: Desconsideração da personalidade jurídica: quando a responsabilidade "limitada" deixa de ser
+SUMMARY: Explica o conceito de "piercing the corporate veil" (desconsideração da personalidade jurídica): as circunstâncias em que os tribunais podem ignorar totalmente a proteção de responsabilidade de uma LLC ou corporation.
+# Desconsideração da personalidade jurídica: quando a responsabilidade "limitada" deixa de ser
+
+## Objetivos de aprendizagem
+
+- Definir o "piercing the corporate veil" (desconsideração da personalidade jurídica).
+- Identificar motivos comuns pelos quais os tribunais desconsideram a personalidade jurídica.
+- Reforçar os hábitos práticos que protegem contra esse risco.
+
+## Conteúdo principal
+
+"Piercing the corporate veil", literalmente "furar o véu corporativo", refere-se a um tribunal que ignora a proteção de responsabilidade que uma LLC ou corporation normalmente oferece e responsabiliza pessoalmente os donos, apesar da estrutura formal. Isso não é comum, mas também não é raro a ponto de poder ser ignorado, e mina diretamente todo o propósito de constituir uma entidade protetora; é exatamente por isso que entender o que o desencadeia importa. (No Brasil, a figura equivalente é a desconsideração da personalidade jurídica, prevista no Código Civil para casos de abuso, como desvio de finalidade ou confusão patrimonial, com regras próprias em outras áreas; confirme com um profissional.)
+
+Motivos comuns pelos quais os tribunais desconsideram a personalidade incluem: não manter separação entre as finanças do negócio e as pessoais (usar a conta bancária da empresa para despesas pessoais, misturar recursos), não seguir as formalidades societárias básicas (não manter registros adequados, agir como se a entidade não existisse de verdade), estar significativamente subcapitalizado diante dos riscos evidentes do negócio, ou usar a entidade especificamente para cometer fraude ou fugir de obrigações jurídicas existentes. A lição prática é direta: constituir uma LLC ou corporation é necessário, mas não suficiente, para a proteção contra responsabilidade; você também precisa realmente operá-la como uma entidade de fato separada, de forma consistente, ou a proteção pela qual pagou pode evaporar justamente quando você mais precisar dela.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário constitui uma LLC, mas usa rotineiramente a conta bancária da empresa para pagar contas pessoais, nunca mantém registros separados e trata o dinheiro da empresa e o pessoal como praticamente intercambiáveis. Que risco isso cria?
+
+**Aluno:** Com base nesta lição, esse tipo de mistura é exatamente o comportamento que pode levar um tribunal a desconsiderar a personalidade jurídica, ignorando a proteção de responsabilidade da LLC.
+
+**Guia:** Por que um tribunal faria isso, se a LLC foi corretamente constituída no papel?
+
+**Aluno:** Porque, se o dono nunca tratou de fato o negócio como uma entidade realmente separada na prática, o tribunal pode concluir razoavelmente que a separação nunca foi real e ignorar a proteção em consequência.
+
+**Guia:** Exatamente: constituir a entidade é necessário, mas não suficiente; você precisa realmente operá-la como separada.
+
+## Teste de prática
+
+**Pergunta 1.** "Piercing the corporate veil" significa:
+
+A) Constituir uma nova corporation
+B) Um tribunal ignorar a proteção de responsabilidade da LLC/corporation e responsabilizar pessoalmente os donos
+C) Um tipo de inadimplemento contratual
+D) Uma obrigação de declaração tributária
+
+**Pergunta 2.** Um motivo comum pelo qual os tribunais desconsideram a personalidade é:
+
+A) Manter corretamente separadas as finanças do negócio e as pessoais
+B) Misturar recursos do negócio e pessoais
+C) Seguir todas as formalidades societárias
+D) Estar adequadamente capitalizado
+
+**Pergunta 3.** O que esta lição diz que é necessário, mas não suficiente, para a proteção contra responsabilidade?
+
+A) Nunca constituir entidade nenhuma
+B) Constituir a LLC ou corporation: você também precisa realmente operá-la como de fato separada
+C) Apenas pagar os impostos em dia
+D) Nada além da constituição é necessário
+
+**Pergunta 4.** Que hábito prático protege contra o risco de desconsideração?
+
+A) Tratar o dinheiro do negócio e o pessoal como intercambiáveis
+B) Manter uma verdadeira separação entre as finanças e as formalidades do negócio e as pessoais
+C) Evitar qualquer registro
+D) Ignorar totalmente as formalidades societárias
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Esse conceito descreve especificamente o colapso da proteção de responsabilidade por causa de como a entidade foi de fato operada.
+
+**2.** A mistura de recursos é um dos gatilhos mais citados para um tribunal ignorar a proteção da entidade.
+
+**3.** A constituição sozinha não garante proteção; é a separação operacional contínua e real que de fato a sustenta.
+
+**4.** A separação financeira e formal consistente é a salvaguarda prática contra esse risco.
+
+## Pontos-chave
+
+- Desconsiderar a personalidade jurídica significa que um tribunal ignora a proteção da LLC/corporation, expondo pessoalmente os donos.
+- Misturar recursos e ignorar formalidades são gatilhos comuns.
+- Constituir a entidade é necessário, mas não suficiente: você precisa realmente operá-la como de fato separada.
+- A separação consistente e disciplinada é a defesa prática contra esse risco.
+
+===== PURPLE-L1-017
+TITLE: Licenças e alvarás: o direito legal de operar
+SUMMARY: Apresenta o conceito geral de licenças e alvarás empresariais como a autorização legal necessária para operar, distinta da constituição da entidade.
+# Licenças e alvarás: o direito legal de operar
+
+## Objetivos de aprendizagem
+
+- Distinguir a constituição da entidade das licenças e alvarás.
+- Explicar o propósito geral das licenças e alvarás empresariais.
+- Reconhecer o risco de operar sem a autorização adequada.
+
+## Conteúdo principal
+
+Constituir uma entidade empresarial (uma LLC, uma corporation etc.) é um passo jurídico separado da obtenção das licenças e alvarás realmente necessários para operar legalmente esse negócio. As exigências de licenciamento variam enormemente por setor, localidade e tipo de negócio: um restaurante precisa de licenças sanitárias que uma consultoria não precisa; um empreiteiro pode precisar de registro profissional que uma loja não precisa. É mais uma área em que "as regras" não são uma lista universal, mas uma exigência específica do lugar e do setor, que precisa ser pesquisada para cada situação. (No Brasil, costuma ser necessário, por exemplo, o alvará de funcionamento da prefeitura, além de licenças sanitárias, ambientais ou do corpo de bombeiros conforme a atividade; confirme localmente.)
+
+Operar sem as licenças ou alvarás exigidos traz riscos reais: multas, fechamento forçado, contratos invalidados e, em alguns casos, exposição à responsabilidade pessoal mesmo para uma entidade corretamente constituída. Um erro comum e compreensível é supor que constituir uma LLC ou corporation é o único passo jurídico necessário para "ser legítimo"; mas uma entidade corretamente constituída que opera sem as licenças exigidas continua operando ilegalmente em sentido relevante, e vale a pena identificar e fechar essa lacuna antes, e não depois, de um problema aparecer.
+
+## Exemplo prático
+
+**Pergunta:** Uma LLC recém-constituída começa a operar logo depois da constituição, sem pesquisar se são exigidas licenças ou alvarás específicos do setor. Que lacuna isso ilustra?
+
+**Aluno:** Com base nesta lição, constituir a LLC resolveu a formação da entidade, mas licenças e alvarás são uma exigência legal separada que ainda nem foi tratada.
+
+**Guia:** Que risco operar sem as licenças exigidas cria, mesmo para uma LLC corretamente constituída?
+
+**Aluno:** Risco real: multas, fechamento forçado ou até uma exposição que mina a proteção que a LLC deveria oferecer, já que operar ilegalmente pode complicar as coisas mesmo com uma entidade corretamente constituída.
+
+**Guia:** Exatamente: a constituição da entidade e a autorização legal para operar são dois passos separados, e ambos são necessários.
+
+## Teste de prática
+
+**Pergunta 1.** A constituição da entidade e as licenças/alvarás são:
+
+A) Exatamente o mesmo passo jurídico
+B) Duas exigências legais separadas
+C) Relevantes apenas para empresários individuais
+D) Sem relação entre si
+
+**Pergunta 2.** As exigências de licenças e alvarás:
+
+A) São idênticas para todo negócio, em todo lugar
+B) Variam por setor, localidade e tipo de negócio
+C) Nunca se aplicam a negócio nenhum
+D) Só se aplicam a corporations
+
+**Pergunta 3.** Operar sem as licenças exigidas pode resultar em:
+
+A) Nenhuma consequência
+B) Multas, fechamento forçado, contratos invalidados ou exposição à responsabilidade
+C) Sucesso automático do negócio
+D) Apenas um pequeno incômodo, sem risco real
+
+**Pergunta 4.** Um erro comum que esta lição identifica é:
+
+A) Nunca constituir entidade empresarial nenhuma
+B) Supor que a constituição da entidade, sozinha, torna o negócio totalmente "legítimo" e legalmente autorizado
+C) Obter licenças demais
+D) Esta lição não identifica nenhum erro comum
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Constituir uma entidade estabelece sua existência jurídica; o licenciamento estabelece sua permissão legal para de fato operar.
+
+**2.** As exigências específicas são determinadas pelo setor e pelo lugar, e não por uma lista universal única.
+
+**3.** Ignorar esse passo expõe o negócio a uma série de consequências reais e evitáveis.
+
+**4.** Esta lição nomeia e corrige diretamente a suposição comum de que a constituição, sozinha, cobre o cumprimento total da lei.
+
+## Pontos-chave
+
+- A constituição da entidade e as licenças/alvarás são duas exigências legais separadas.
+- As exigências de licenciamento variam por setor, localidade e tipo de negócio.
+- Operar sem as licenças exigidas traz risco real, incluindo multas e fechamento forçado.
+- Constituir uma entidade, sozinho, não torna um negócio totalmente autorizado a operar.
+
+===== PURPLE-L1-018
+TITLE: Noções de direito do trabalho: empregado ou prestador de serviços, juridicamente
+SUMMARY: Revisita a distinção entre empregado e prestador de serviços de GREEN especificamente pela lente da responsabilidade trabalhista, incluindo as consequências jurídicas da classificação incorreta.
+# Noções de direito do trabalho: empregado ou prestador de serviços, juridicamente
+
+## Objetivos de aprendizagem
+
+- Relembrar a distinção entre empregado e prestador de serviços de GREEN.
+- Explicar as consequências jurídicas adicionais (não tributárias) da classificação incorreta.
+- Reconhecer o direito do trabalho como uma área de risco distinta da classificação tributária.
+
+## Conteúdo principal
+
+GREEN tratou da distinção entre empregado e prestador de serviços principalmente pela lente tributária: a classificação incorreta gera risco de tributos atrasados, multas e juros. Esta lição acrescenta a dimensão do direito do trabalho: classificar incorretamente um trabalhador também tem consequências jurídicas totalmente separadas dos tributos, incluindo exposição a pedidos por horas extras não pagas, violações do salário mínimo, benefícios negados que o trabalhador deveria ter recebido e proteções trabalhistas que se aplicam a empregados, mas não a verdadeiros prestadores independentes. (No Brasil, o reconhecimento de vínculo empregatício pela Justiça do Trabalho, por exemplo em casos de "pejotização", pode gerar direitos previstos na CLT; peça a avaliação de um profissional.)
+
+O teste de classificação no direito do trabalho muitas vezes considera fatores semelhantes aos do teste tributário – o grau de controle sobre como, quando e onde o trabalho é feito –, mas as consequências de errar correm em duas trilhas separadas ao mesmo tempo: uma autuação da autoridade fiscal e uma reclamação trabalhista podem surgir exatamente da mesma classificação incorreta, somando a exposição total. É um exemplo claro de como uma única decisão empresarial – como classificar um trabalhador – pode criar responsabilidade em várias áreas do direito totalmente diferentes ao mesmo tempo, o que reforça por que essa decisão merece atenção cuidadosa e, muitas vezes, profissional.
+
+## Exemplo prático
+
+**Pergunta:** Uma empresa classifica vários trabalhadores como prestadores de serviços quando, juridicamente, deveriam ser empregados. Além das consequências tributárias vistas em GREEN, que exposição jurídica adicional esta lição identifica?
+
+**Aluno:** Com base nesta lição, há também exposição trabalhista: pedidos por horas extras não pagas, violações do salário mínimo e benefícios ou proteções trabalhistas negados que os trabalhadores deveriam ter recebido como empregados.
+
+**Guia:** Como esses dois tipos de exposição – tributária e trabalhista – se relacionam?
+
+**Aluno:** Os dois podem surgir exatamente da mesma decisão de classificação, correndo em trilhas separadas ao mesmo tempo, o que soma o risco total além das consequências tributárias isoladas.
+
+**Guia:** Exatamente: uma decisão, várias áreas simultâneas de exposição jurídica.
+
+## Teste de prática
+
+**Pergunta 1.** GREEN tratou da classificação incorreta de trabalhadores principalmente por qual lente?
+
+A) Direito do trabalho
+B) Tributária
+C) Direito imobiliário
+D) Direito do mercado de capitais
+
+**Pergunta 2.** Esta lição acrescenta qual consequência adicional da classificação incorreta?
+
+A) Não existe consequência adicional
+B) Exposição trabalhista: horas extras não pagas, salário mínimo, benefícios negados, proteções trabalhistas
+C) Apenas multas tributárias adicionais
+D) Apenas exposição criminal
+
+**Pergunta 3.** Pretensões tributárias e trabalhistas podem surgir ao mesmo tempo da mesma classificação incorreta?
+
+A) Não, só uma pode se aplicar
+B) Sim: as duas podem surgir exatamente da mesma decisão, somando a exposição total
+C) Pretensões trabalhistas nunca envolvem classificação
+D) Essas duas áreas são totalmente sem relação
+
+**Pergunta 4.** O que isso ilustra sobre uma única decisão empresarial, como a classificação de trabalhadores?
+
+A) Ela sempre cria apenas um tipo de risco
+B) Uma única decisão pode criar responsabilidade em várias áreas do direito totalmente diferentes ao mesmo tempo
+C) Decisões de classificação não têm peso jurídico real
+D) Só grandes empresas enfrentam esse risco
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O tratamento da trilha GREEN se concentrou nas consequências de retenção e recolhimento de tributos.
+
+**2.** Esta lição nomeia explicitamente os riscos trabalhistas paralelos, que existem independentemente da exposição tributária.
+
+**3.** A exposição simultânea e cumulativa em duas áreas do direito é o ponto-chave que esta lição acrescenta à discussão anterior.
+
+**4.** É uma ilustração clara e concreta de como uma decisão de classificação pode atingir vários campos jurídicos ao mesmo tempo.
+
+## Pontos-chave
+
+- GREEN tratou das consequências tributárias da classificação incorreta; esta lição acrescenta as trabalhistas.
+- A classificação incorreta pode gerar pedidos por horas extras não pagas, salário mínimo e benefícios negados.
+- A exposição tributária e a trabalhista podem surgir ao mesmo tempo da mesma classificação incorreta.
+- É um exemplo claro de uma decisão criando responsabilidade em várias áreas do direito ao mesmo tempo.
+
+===== PURPLE-L1-019
+TITLE: Cláusulas de não concorrência e acordos de confidencialidade: o que realmente fazem
+SUMMARY: Explica o propósito prático e as questões de exigibilidade das cláusulas de não concorrência e dos acordos de confidencialidade, muito comuns em contextos empresariais.
+# Cláusulas de não concorrência e acordos de confidencialidade: o que realmente fazem
+
+## Objetivos de aprendizagem
+
+- Distinguir uma cláusula de não concorrência de um acordo de confidencialidade.
+- Explicar o propósito geral de cada um.
+- Reconhecer que a exigibilidade varia muito conforme o ordenamento jurídico.
+
+## Conteúdo principal
+
+Um acordo de confidencialidade (em inglês, "non-disclosure agreement", NDA) impede uma parte de compartilhar determinadas informações confidenciais, protegendo segredos de negócio, planos empresariais ou processos próprios compartilhados durante uma relação comercial. Uma cláusula de não concorrência (em inglês, "non-compete") impede uma parte (muitas vezes um ex-empregado ou o vendedor de um negócio) de concorrer com a outra por um tempo e em uma área geográfica determinados, protegendo o negócio de que alguém de dentro, ao sair, use imediatamente o conhecimento interno para concorrer diretamente.
+
+Os dois são comuns em contextos empresariais da trilha BLUE – contratos de trabalho, contratos de venda de empresa, dissoluções de sociedade –, mas diferem muito no quanto são de fato exigíveis. Os acordos de confidencialidade são, em geral, bastante exigíveis, porque apenas restringem a divulgação sem restringir de forma ampla a capacidade de alguém ganhar a vida. As cláusulas de não concorrência variam muito mais: alguns ordenamentos as aplicam com facilidade se o alcance for razoável, outros as restringem fortemente e alguns as proíbem quase totalmente para a maioria dos trabalhadores, o que reflete uma tensão de política pública entre proteger interesses legítimos do negócio e não restringir de forma irrazoável a capacidade de alguém trabalhar. (No Brasil, não há uma lei geral específica sobre o tema; na prática, a jurisprudência costuma exigir limites de tempo, território e atividade e, em contratos de trabalho, uma compensação ao empregado. Confirme com um advogado.) Essa variação é exatamente o tipo de detalhe que torna "minha cláusula de não concorrência é exigível?" uma pergunta realmente dependente do ordenamento, que vale uma revisão profissional, e não algo a presumir em um sentido ou em outro.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário de um estado supõe que uma cláusula padrão de não concorrência será totalmente exigível, com base em algo que leu sobre as regras de outro estado. O que esta lição deveria levá-lo a reconsiderar?
+
+**Aluno:** Com base nesta lição, a exigibilidade das cláusulas de não concorrência varia muito conforme o ordenamento, então supor que as regras de outro estado se aplicam pode ser um erro real.
+
+**Guia:** Como isso se compara à exigibilidade dos acordos de confidencialidade, segundo esta lição?
+
+**Aluno:** Os acordos de confidencialidade são descritos como, em geral, bastante exigíveis de forma ampla, enquanto as cláusulas de não concorrência são muito mais variáveis e dependentes do ordenamento; então não se deve supor que os dois funcionem do mesmo jeito.
+
+**Guia:** Exatamente: é por isso que a exigibilidade da não concorrência, especificamente, merece uma revisão profissional que leve em conta o ordenamento.
+
+## Teste de prática
+
+**Pergunta 1.** Um acordo de confidencialidade restringe:
+
+A) A capacidade de alguém trabalhar em qualquer lugar
+B) Uma parte de compartilhar determinadas informações confidenciais
+C) Apenas transações imobiliárias
+D) Nada juridicamente relevante
+
+**Pergunta 2.** Uma cláusula de não concorrência restringe:
+
+A) Apenas a divulgação de informações confidenciais
+B) Uma parte de concorrer com a outra por um tempo e em uma área determinados
+C) Nada
+D) Apenas atividades criminosas
+
+**Pergunta 3.** Como a exigibilidade dos acordos de confidencialidade se compara, em geral, à das cláusulas de não concorrência?
+
+A) São igualmente variáveis
+B) Os acordos de confidencialidade são em geral bastante exigíveis; a exigibilidade da não concorrência varia muito conforme o ordenamento
+C) As cláusulas de não concorrência são sempre mais exigíveis
+D) Nenhum dos dois é exigível
+
+**Pergunta 4.** Por que a exigibilidade da não concorrência varia tanto conforme o ordenamento?
+
+A) Sem motivo real, é aleatório
+B) Uma tensão de política pública entre proteger interesses do negócio e não restringir de forma irrazoável a capacidade de alguém trabalhar
+C) Só estados ricos aplicam cláusulas de não concorrência
+D) Esta lição não trata do motivo
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os acordos de confidencialidade tratam especificamente da proteção de informações confidenciais, e não da restrição da capacidade mais ampla de alguém trabalhar.
+
+**2.** As cláusulas de não concorrência restringem especificamente atividades concorrentes futuras dentro de limites definidos.
+
+**3.** Os acordos de confidencialidade enfrentam menos obstáculos de exigibilidade porque não restringem de forma ampla o ganha-pão, como a não concorrência pode fazer.
+
+**4.** Essa tensão de política pública subjacente é exatamente o motivo pelo qual ordenamentos diferentes encontram o equilíbrio de formas diferentes.
+
+## Pontos-chave
+
+- Acordos de confidencialidade protegem informações confidenciais; cláusulas de não concorrência restringem a concorrência futura.
+- Os acordos de confidencialidade são, em geral, exigíveis de forma mais consistente do que as cláusulas de não concorrência.
+- A exigibilidade da não concorrência varia muito conforme o ordenamento, refletindo uma tensão real de política pública.
+- Essa variação torna a exigibilidade da não concorrência uma questão realmente dependente do ordenamento, que vale revisão profissional.
+
+===== PURPLE-L1-020
+TITLE: Noções de propriedade intelectual: marcas, direitos autorais, patentes
+SUMMARY: Apresenta as três grandes categorias de proteção da propriedade intelectual relevantes para empresários, encerrando a seção de direito empresarial.
+# Noções de propriedade intelectual: marcas, direitos autorais, patentes
+
+## Objetivos de aprendizagem
+
+- Distinguir marcas, direitos autorais e patentes.
+- Identificar qual categoria protege qual tipo de ativo do negócio.
+- Reconhecer a propriedade intelectual como um ativo do negócio que vale a pena proteger ativamente.
+
+## Conteúdo principal
+
+O direito da propriedade intelectual (PI) protege criações da mente – marcas, obras criativas e invenções – como ativos juridicamente reconhecidos e passíveis de titularidade. Três grandes categorias importam mais para os empresários: as **marcas** protegem sinais distintivos (nomes comerciais, logotipos, slogans) que diferenciam seus produtos ou serviços dos concorrentes. Os **direitos autorais** protegem obras criativas originais (textos, desenhos, código de software) contra cópia não autorizada. As **patentes** protegem invenções – processos ou produtos realmente novos e úteis –, dando ao inventor direitos exclusivos por um período limitado. (No Brasil, marcas e patentes são registradas no INPI, enquanto os direitos autorais nascem, em regra, com a criação da obra; confirme os detalhes com um especialista em PI.)
+
+Para um empresário da trilha BLUE, a PI não é uma categoria jurídica abstrata: muitas vezes é um ativo real e valioso do negócio. Um nome de marca forte protegido por registro, conteúdo próprio protegido por direitos autorais ou um produto realmente novo protegido por patente podem ser fontes de vantagem competitiva real e de valor econômico real, às vezes valendo mais do que os ativos físicos do negócio. Deixar de proteger a PI – ou, pior, violar sem saber a de outra pessoa – é um risco jurídico comum e evitável, que encerra esta seção de direito empresarial da trilha.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário desenvolve um nome de marca e um logotipo marcantes, mas nunca registra a marca, supondo que usá-los já é proteção suficiente. Que risco isso cria?
+
+**Aluno:** Com base nesta lição, sem a proteção do registro, a identidade da marca pode não estar tão protegida juridicamente quanto ele imagina, e um concorrente poderia usar algo parecido com menos risco jurídico para si.
+
+**Guia:** Por que isso importa para o valor econômico real do negócio?
+
+**Aluno:** Porque uma marca forte e protegida pode ser um ativo real e valioso do negócio: deixá-la desprotegida arrisca perder parte desse valor se outra pessoa a reivindicar ou usar algo confusamente parecido.
+
+**Guia:** Exatamente: a proteção da PI é uma decisão prática de negócio, e não só uma formalidade jurídica.
+
+## Teste de prática
+
+**Pergunta 1.** As marcas protegem:
+
+A) Invenções
+B) Sinais distintivos como nomes, logotipos e slogans
+C) Apenas textos
+D) Nada de valor para o negócio
+
+**Pergunta 2.** Os direitos autorais protegem:
+
+A) Nomes de marcas
+B) Obras criativas originais, como textos ou código
+C) Apenas invenções físicas
+D) Apenas imóveis
+
+**Pergunta 3.** As patentes protegem:
+
+A) Logotipos de marcas
+B) Invenções, processos ou produtos realmente novos e úteis
+C) Apenas escrita criativa
+D) Nada juridicamente relevante
+
+**Pergunta 4.** Por que a PI importa na prática para um empresário?
+
+A) Não tem relevância prática
+B) A PI pode ser um ativo real e valioso do negócio, às vezes valendo mais do que os ativos físicos
+C) Só grandes empresas têm PI
+D) A PI só importa para inventores, nunca para marcas
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O direito de marcas trata especificamente da proteção dos sinais que distinguem um negócio no mercado.
+
+**2.** O direito autoral cobre a expressão criativa original, uma categoria distinta da identidade de marca ou das invenções.
+
+**3.** O direito de patentes recompensa especificamente a inovação real com direitos exclusivos por tempo limitado.
+
+**4.** Reconhecer a PI como valor real do negócio, e não apenas uma tecnicalidade jurídica, é a lição prática desta aula.
+
+## Pontos-chave
+
+- Marcas protegem sinais distintivos; direitos autorais protegem obras criativas; patentes protegem invenções.
+- A PI pode ser um ativo de negócio realmente valioso, às vezes superando o valor dos ativos físicos.
+- Deixar de proteger a PI, ou violar sem saber a de outros, é um risco jurídico comum e evitável.
+- Isso encerra a seção de direito empresarial antes de a trilha passar ao direito imobiliário.
