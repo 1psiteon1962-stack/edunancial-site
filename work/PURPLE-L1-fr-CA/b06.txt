@@ -1,0 +1,319 @@
+===== PURPLE-L1-021
+TITLE: Le droit des biens immobiliers : ce que signifie juridiquement « posséder » un terrain
+SUMMARY: Ouvre la section sur le droit immobilier en expliquant que, sur le plan juridique, la propriété d’un bien est un « faisceau de droits », et non une notion unique et simple.
+# Le droit des biens immobiliers : ce que signifie juridiquement « posséder » un terrain
+
+## Objectifs d’apprentissage
+
+- Expliquer la notion de propriété en tant que « faisceau de droits ».
+- Repérer les droits courants compris dans ce faisceau.
+- Relier ce cadrage juridique au contenu antérieur du volet RED.
+
+## Contenu principal
+
+Cette leçon ouvre la section du volet PURPLE consacrée au droit immobilier, en lien direct avec le volet RED. Sur le plan juridique, posséder un bien immobilier n’est pas un droit unique et simple — on le décrit souvent comme un « faisceau de droits » qui, dans certains cas, peuvent être séparés et détenus par des parties différentes. Les droits courants de ce faisceau comprennent : le droit de posséder le bien, le droit de l’utiliser, le droit d’en exclure les autres, le droit de le céder ou de le vendre, et le droit de l’aménager ou de l’améliorer. (Au Québec, le Code civil décrit la propriété comme le droit d’user, de jouir et de disposer d’un bien; la logique est semblable.)
+
+C’est important en pratique, parce que ces droits peuvent être séparés. Un propriétaire qui loue un bien cède temporairement le droit de le posséder et de l’utiliser, tout en conservant le droit d’en reprendre éventuellement possession et le droit de vendre le bien sous-jacent. Une personne qui accorde une servitude (présentée dans une leçon ultérieure) renonce à une partie de son droit d’exclusion au profit d’une partie précise, à une fin précise, tout en conservant tout le reste. Comprendre la propriété comme un faisceau, plutôt que comme une seule chose indivisible, prépare une grande partie du reste de cette section sur le droit immobilier — de nombreuses questions juridiques immobilières portent en réalité sur le droit précis, au sein de ce faisceau, qui fait réellement l’objet du litige.
+
+## Exemple pratique
+
+**Question :** Un propriétaire loue son bien à un locataire. Selon la notion de faisceau de droits, le propriétaire a-t-il entièrement renoncé à sa propriété?
+
+**Étudiant :** D’après cette leçon, non — il a cédé temporairement le droit de posséder et d’utiliser le bien, mais il détient toujours d’autres droits du faisceau, comme le droit d’en reprendre éventuellement possession et le droit de le vendre.
+
+**Guide :** Pourquoi est-il plus exact de décrire cette situation comme une cession partielle plutôt que comme une perte totale de propriété?
+
+**Étudiant :** Parce que la propriété est un faisceau de droits distincts, et non une seule chose — la location cède des droits précis de ce faisceau, tandis que le propriétaire conserve le reste.
+
+**Guide :** Exactement — c’est le recadrage central que présente cette leçon.
+
+## Quiz pratique
+
+**Question 1.** Sur le plan juridique, posséder un bien immobilier se décrit le mieux comme :
+
+A) Un droit unique et indivisible
+B) Un « faisceau de droits » qui peuvent être répartis entre des parties
+C) Une notion pertinente seulement pour les immeubles commerciaux
+D) La même chose qu’un bail
+
+**Question 2.** Les droits courants du faisceau de la propriété comprennent :
+
+A) La possession, l’usage, l’exclusion, la cession et l’aménagement
+B) Seulement le droit de vendre
+C) Seulement le droit d’y habiter soi-même
+D) Aucun droit reconnaissable
+
+**Question 3.** Lorsqu’un propriétaire loue un bien, qu’arrive-t-il au faisceau de droits?
+
+A) Le propriétaire perd entièrement tous ses droits
+B) Certains droits (possession, usage) sont cédés temporairement, alors que d’autres (comme la reprise éventuelle et la vente) sont conservés
+C) Rien ne change
+D) Le locataire acquiert une propriété permanente
+
+**Question 4.** Pourquoi ce cadrage du faisceau de droits est-il important pour le reste de cette section?
+
+A) Il n’a aucune importance
+B) De nombreuses questions juridiques immobilières portent en réalité sur le droit précis qui fait l’objet du litige
+C) Le droit des biens n’a aucune structure réelle
+D) Ce cadrage ne concerne que les immeubles commerciaux
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Ce recadrage est la notion juridique fondamentale qui sous-tend une grande partie du droit des biens immobiliers.
+
+**2.** Ces cinq droits sont couramment cités comme les éléments centraux du faisceau.
+
+**3.** Un bail illustre clairement une cession partielle et temporaire de droits plutôt qu’une perte totale de propriété.
+
+**4.** Ce cadrage donne une structure aux sujets juridiques précis présentés dans le reste de cette section.
+
+## Points clés
+
+- Sur le plan juridique, la propriété est un « faisceau de droits », et non une seule chose indivisible.
+- Ce faisceau comprend les droits de possession, d’usage, d’exclusion, de cession et d’aménagement.
+- Ces droits peuvent être répartis entre des parties différentes, comme dans un bail.
+- De nombreux litiges juridiques immobiliers portent en réalité sur le droit précis qui est en cause.
+
+===== PURPLE-L1-022
+TITLE: Les actes de transfert : leurs types et ce qu’ils transfèrent réellement
+SUMMARY: Explique la notion générale d’acte de transfert et les différences pratiques entre les types d’actes courants, en mettant l’accent sur ce que chacun garantit réellement.
+# Les actes de transfert : leurs types et ce qu’ils transfèrent réellement
+
+## Objectifs d’apprentissage
+
+- Définir un acte de transfert en termes simples.
+- Distinguer l’acte avec garantie générale de l’acte de renonciation (*quitclaim deed*).
+- Expliquer pourquoi le type d’acte est important en pratique.
+
+## Contenu principal
+
+Un acte de transfert (en anglais *deed*) est le document juridique qui transfère réellement la propriété d’un bien immobilier d’une partie à une autre. Tous les actes n’offrent pas le même degré de protection à l’acheteur, et comprendre la différence est important en pratique, et pas seulement sur le plan technique. L’**acte avec garantie générale** (*general warranty deed*) offre la protection la plus forte : le vendeur garantit qu’il détient un titre libre et qu’il défendra ce titre contre toute réclamation, même antérieure à sa propre période de propriété. L’**acte de renonciation** (*quitclaim deed*) offre la protection la plus faible : le vendeur transfère l’intérêt qu’il se trouve à détenir, sans aucune garantie que cet intérêt soit réellement valide ni que le titre soit libre — c’est un document du type « je transfère ce que j’ai, s’il y a quelque chose », et non une garantie. (Ces types d’actes sont surtout américains; au Canada, le transfert se fait généralement par un acte enregistré au registre foncier de la province et, au Québec, par un acte notarié publié au registre foncier. Vérifiez auprès d’un professionnel.)
+
+Cette distinction compte énormément en pratique. L’acte avec garantie générale est la norme attendue dans la plupart des achats immobiliers entre parties sans lien, puisqu’un acheteur qui paie une somme réelle veut une assurance réelle quant à ce qu’il obtient. L’acte de renonciation est plus courant dans des situations sans véritable vente — un transfert de propriété entre membres d’une même famille, la correction d’un détail technique du titre ou un règlement de divorce —, où les parties comprennent et acceptent déjà la portée limitée du transfert. Recevoir un acte de renonciation dans ce qui devrait être une transaction d’achat normale est un signal d’alarme qui mérite l’attention immédiate d’un professionnel.
+
+## Exemple pratique
+
+**Question :** Un acheteur achète une propriété d’un vendeur sans lien avec lui, à sa pleine valeur marchande, et le vendeur offre un acte de renonciation plutôt qu’un acte avec garantie générale. L’acheteur devrait-il s’en inquiéter?
+
+**Étudiant :** D’après cette leçon, oui — un acte de renonciation n’offre aucune garantie que le vendeur détient réellement un titre libre, ce qui est une réelle préoccupation dans une transaction d’achat normale à pleine valeur.
+
+**Guide :** Pourquoi un acte de renonciation serait-il plus approprié dans un autre genre de situation, comme un transfert entre membres d’une même famille?
+
+**Étudiant :** Parce que dans ce contexte, les parties comprennent et acceptent déjà la portée limitée du transfert — elles ne comptent pas sur l’acte lui-même pour obtenir une solide garantie de propriété.
+
+**Guide :** Exactement — le même type de document peut être tout à fait normal dans un contexte et constituer un sérieux signal d’alarme dans un autre.
+
+## Quiz pratique
+
+**Question 1.** Un acte de transfert est :
+
+A) Un type de document de prêt
+B) Le document juridique qui transfère la propriété d’un bien immobilier
+C) Un type de bail
+D) Sans pertinence pour les transactions immobilières
+
+**Question 2.** Un acte avec garantie générale :
+
+A) N’offre aucune garantie de titre libre
+B) Garantit un titre libre et la défense contre les réclamations, même antérieures à la période de propriété du vendeur
+C) Est la forme de transfert de propriété la plus faible
+D) N’est utilisé que pour les transferts familiaux
+
+**Question 3.** Un acte de renonciation :
+
+A) Garantit la plus forte protection de titre possible
+B) Transfère l’intérêt que détient le vendeur, sans garantie qu’il soit valide
+C) Est identique à un acte avec garantie générale
+D) Est exigé pour toute vente de propriété
+
+**Question 4.** Recevoir un acte de renonciation dans une transaction d’achat normale, à pleine valeur, devrait être considéré comme :
+
+A) Tout à fait normal, sans aucune préoccupation
+B) Un signal d’alarme qui mérite l’attention immédiate d’un professionnel
+C) Une garantie de meilleure protection qu’un acte avec garantie
+D) Sans incidence sur la sécurité de la transaction
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Un acte de transfert est précisément l’instrument juridique de transfert de la propriété d’un bien immobilier.
+
+**2.** La force de l’acte avec garantie générale vient de la garantie formelle du vendeur et de son obligation continue de défendre le titre.
+
+**3.** La faiblesse de l’acte de renonciation tient à l’absence de toute garantie quant à la validité de ce qui est transféré.
+
+**4.** Le contexte détermine ce qui est approprié — le même type de document est normal dans un cadre et inquiétant dans un autre.
+
+## Points clés
+
+- Un acte de transfert est le document juridique qui transfère la propriété d’un bien immobilier.
+- Un acte avec garantie générale garantit un titre libre et la défense contre les réclamations.
+- Un acte de renonciation transfère l’intérêt qui existe, sans garantie de validité.
+- Le bon type d’acte dépend du contexte — un acte de renonciation dans un achat normal est un signal d’alarme.
+
+===== PURPLE-L1-023
+TITLE: Le titre de propriété et l’assurance titres : protéger ses droits de propriété
+SUMMARY: Explique ce que signifie juridiquement le « titre », pourquoi des problèmes de titre peuvent survenir même avec un acte valide, et le rôle de l’assurance titres dans la gestion de ce risque.
+# Le titre de propriété et l’assurance titres : protéger ses droits de propriété
+
+## Objectifs d’apprentissage
+
+- Définir le « titre » en le distinguant de l’acte de transfert.
+- Expliquer pourquoi des problèmes de titre peuvent exister même avec un acte valide.
+- Décrire le but général de l’assurance titres.
+
+## Contenu principal
+
+Le titre désigne le droit de propriété lui-même — l’acte est le document qui transfère le titre, mais le titre est le droit sous-jacent qui est transféré. Un acte apparemment valide ne garantit pas automatiquement un titre « libre » — il peut y avoir des problèmes cachés : une charge non divulguée laissée par un ancien propriétaire, une signature falsifiée quelque part dans l’historique du bien, un héritier dont la réclamation n’a pas été réglée, ou une erreur d’écriture dans les registres publics. Ces problèmes peuvent apparaître des années après un achat et menacer potentiellement le droit de propriété du propriétaire actuel.
+
+L’assurance titres existe précisément pour gérer ce risque. Avant un achat, une recherche de titre examine les registres publics pour déceler ce genre de problèmes. L’assurance titres protège ensuite l’acheteur (et souvent le prêteur) contre une perte financière si un problème de titre apparaît plus tard malgré cette recherche — en couvrant les frais juridiques et les pertes possibles liés à la défense ou au règlement de la réclamation. Contrairement à la plupart des assurances, qui protègent contre des événements futurs, l’assurance titres protège contre des événements passés qui n’ont simplement pas encore été découverts — une distinction subtile, mais importante, qui explique pourquoi on la paie habituellement par une prime unique au moment de l’achat, plutôt que par des paiements continus. (Au Canada, l’assurance titres est offerte et répandue, mais l’examen du titre par un avocat ou, au Québec, par un notaire demeure souvent central.)
+
+## Exemple pratique
+
+**Question :** Une propriétaire découvre, cinq ans après son achat, qu’une charge laissée par un ancien propriétaire n’a jamais été correctement radiée et menace maintenant son droit de propriété. Comment l’assurance titres pourrait-elle l’aider dans cette situation?
+
+**Étudiant :** D’après cette leçon, si elle a souscrit une assurance titres, celle-ci devrait aider à couvrir les frais juridiques et les pertes possibles liés au règlement de ce problème de titre, même s’il est apparu des années après l’achat.
+
+**Guide :** En quoi est-ce différent de la façon dont fonctionnent la plupart des autres assurances?
+
+**Étudiant :** La plupart des assurances protègent contre des événements futurs, mais l’assurance titres protège contre un problème qui existait déjà dans le passé — il n’a simplement été découvert que plus tard.
+
+**Guide :** Exactement — c’est cette distinction qui explique qu’on la paie habituellement une seule fois plutôt que par une police continue.
+
+## Quiz pratique
+
+**Question 1.** Le titre, par opposition à l’acte, désigne :
+
+A) Le document physique qui transfère la propriété
+B) Le droit de propriété lui-même
+C) Un type de prêt
+D) La même chose qu’un bail
+
+**Question 2.** Une recherche de titre examine :
+
+A) L’historique de crédit de l’acheteur
+B) Les registres publics pour déceler des problèmes de titre cachés, comme des charges ou des signatures falsifiées
+C) Seulement l’état physique du bien
+D) Rien de pertinent pour la propriété
+
+**Question 3.** L’assurance titres protège contre :
+
+A) Les dommages futurs au bien
+B) Une perte financière découlant de problèmes de titre qui existaient dans le passé, mais qui n’avaient pas été découverts avant l’achat
+C) Seulement le vol du bien
+D) Rien d’important
+
+**Question 4.** En quoi l’assurance titres diffère-t-elle de la plupart des autres types d’assurance?
+
+A) Elle est identique à la plupart des assurances
+B) Elle protège contre des problèmes passés non découverts plutôt que contre des événements futurs
+C) Elle ne couvre que des événements futurs, comme la plupart des assurances
+D) Elle exige des paiements mensuels continus, comme la plupart des assurances
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Le titre est le droit juridique sous-jacent; l’acte est simplement l’instrument qui le transfère.
+
+**2.** Une recherche de titre approfondie est l’étape préventive qui vise à déceler ces problèmes avant l’achat.
+
+**3.** L’assurance titres vise précisément le risque que des défauts historiques non découverts apparaissent après coup.
+
+**4.** Cette distinction entre passé et futur explique la structure inhabituelle de prime unique de l’assurance titres.
+
+## Points clés
+
+- Le titre est le droit de propriété sous-jacent, distinct de l’acte lui-même.
+- Des problèmes de titre cachés peuvent exister même avec un acte correctement passé.
+- L’assurance titres protège contre une perte financière découlant de défauts de titre passés non découverts.
+- C’est cette protection contre des événements passés qui explique que l’assurance titres soit habituellement payée par une prime unique, contrairement à la plupart des assurances.
+
+===== PURPLE-L1-024
+TITLE: Les charges et les sûretés : quand un bien n’est pas entièrement « libre »
+SUMMARY: Présente les privilèges et les charges en tant que réclamations ou restrictions juridiques rattachées à un bien, qui peuvent influer sur sa propriété et sa cessibilité.
+# Les charges et les sûretés : quand un bien n’est pas entièrement « libre »
+
+## Objectifs d’apprentissage
+
+- Définir un privilège (sûreté) et une charge.
+- Repérer les types de privilèges courants.
+- Expliquer pourquoi les privilèges comptent en pratique pour les acheteurs et les propriétaires.
+
+## Contenu principal
+
+Une charge (en anglais *encumbrance*) est toute réclamation, restriction ou intérêt juridique rattaché à un bien et qui n’est pas détenu entièrement par le propriétaire actuel — une catégorie large qui comprend les privilèges, les servitudes et certaines restrictions. Un privilège (en anglais *lien*; on parle aussi de sûreté) est précisément une réclamation juridique contre un bien, habituellement en garantie d’une dette, qui donne à son titulaire le droit de forcer la vente du bien pour se faire payer si la dette n’est pas réglée. Les types courants comprennent l’hypothèque (qui garantit le prêt ayant servi à acheter le bien), le privilège fiscal (pour des impôts fonciers impayés) et le privilège de construction (inscrit par un entrepreneur qui n’a pas été payé pour des travaux faits sur le bien; au Québec, on parle d’hypothèque légale de la construction).
+
+Les privilèges comptent en pratique parce qu’ils sont généralement rattachés au bien lui-même, et pas seulement à la personne qui a contracté la dette — ce qui signifie qu’un privilège peut suivre un bien lors d’une vente s’il n’est pas correctement repéré et radié au préalable. C’est précisément pourquoi les recherches de titre (vues dans la leçon précédente) sont si importantes : un privilège non réglé découvert avant la conclusion de la vente peut être traité, mais celui qui passe inaperçu peut devenir le problème du nouveau propriétaire. Comprendre qu’un bien peut porter ces obligations rattachées, distinctes du bien physique lui-même, est un élément central de la littératie juridique en immobilier.
+
+## Exemple pratique
+
+**Question :** Un entrepreneur termine des travaux sur un bien, mais n’est jamais payé, et inscrit plus tard un privilège de construction contre ce bien. Si le bien est ensuite vendu à un nouvel acheteur sans que le privilège soit réglé, quel risque court le nouvel acheteur?
+
+**Étudiant :** D’après cette leçon, comme les privilèges sont généralement rattachés au bien lui-même, et pas seulement à la personne qui a contracté la dette, le nouvel acheteur pourrait hériter de ce privilège non réglé comme de son propre problème.
+
+**Guide :** Comment cela aurait-il pu être évité?
+
+**Étudiant :** Une recherche de titre adéquate avant l’achat aurait dû repérer le privilège, ce qui aurait permis de le régler ou de le traiter avant la conclusion de la vente.
+
+**Guide :** Exactement — c’est précisément pourquoi le processus de recherche de titre de la leçon précédente est si important en pratique.
+
+## Quiz pratique
+
+**Question 1.** Une charge est :
+
+A) La même chose qu’un acte de transfert
+B) Une réclamation, une restriction ou un intérêt juridique rattaché à un bien
+C) Un type d’assurance
+D) Une notion pertinente seulement pour les baux
+
+**Question 2.** Un privilège est précisément :
+
+A) Un type d’acte de transfert
+B) Une réclamation juridique contre un bien, habituellement en garantie d’une dette
+C) Une forme d’assurance titres
+D) Sans pertinence en droit des biens
+
+**Question 3.** Un privilège de construction est inscrit par :
+
+A) Une autorité fiscale gouvernementale
+B) Un entrepreneur qui n’a pas été payé pour des travaux faits sur le bien
+C) Une banque qui accorde un prêt hypothécaire
+D) Seulement l’architecte d’origine du bien
+
+**Question 4.** Pourquoi les privilèges comptent-ils en pratique pour l’acheteur d’un bien?
+
+A) Les privilèges ne touchent jamais un nouvel acheteur
+B) Les privilèges sont généralement rattachés au bien lui-même et peuvent le suivre lors d’une vente s’ils ne sont pas radiés
+C) Les privilèges ne touchent que le propriétaire d’origine, jamais un acheteur
+D) Les privilèges sont automatiquement radiés lors de toute vente
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La charge est la grande catégorie qui englobe diverses réclamations et restrictions rattachées à un bien.
+
+**2.** La caractéristique déterminante d’un privilège est son rôle de garantie d’une dette impayée.
+
+**3.** Les privilèges de construction protègent précisément les entrepreneurs et les fournisseurs qui ont effectué des travaux sans être payés.
+
+**4.** C’est ce rattachement au bien qui explique pourquoi les privilèges non réglés représentent un risque réel pour les acheteurs non avertis.
+
+## Points clés
+
+- Une charge est toute réclamation ou restriction rattachée à un bien; un privilège est précisément une réclamation qui garantit une dette.
+- Les types de privilèges courants comprennent l’hypothèque, le privilège fiscal et le privilège de construction.
+- Les privilèges sont généralement rattachés au bien, et pas seulement à la personne qui a contracté la dette.
+- C’est précisément pourquoi une recherche de titre approfondie avant l’achat est si importante.
