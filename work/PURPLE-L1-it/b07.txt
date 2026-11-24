@@ -1,0 +1,399 @@
+===== PURPLE-L1-031
+TITLE: Che cos'è, giuridicamente, uno strumento finanziario?
+SUMMARY: Apre la sezione di diritto dei mercati finanziari definendo che cosa vale giuridicamente come “strumento finanziario” (security), collegandosi direttamente ai contenuti di investimento di WHITE.
+# Che cos'è, giuridicamente, uno strumento finanziario?
+
+## Obiettivi di apprendimento
+
+- Definire uno strumento finanziario in termini giuridici.
+- Identificare esempi comuni di strumenti finanziari.
+- Spiegare perché la definizione giuridica conta oltre il senso comune.
+
+## Contenuto principale
+
+Questa lezione apre la sezione di diritto degli investimenti di PURPLE, collegandosi direttamente a WHITE. Uno strumento finanziario (nel diritto statunitense “security”) è, in senso ampio, una categoria di investimento definita giuridicamente: uno strumento che rappresenta una partecipazione di proprietà, un rapporto di debito o diritti sugli utili derivanti dal lavoro altrui. Esempi comuni ed evidenti sono azioni e obbligazioni, entrambe trattate a fondo in WHITE. Ma la definizione giuridica è in realtà più ampia e sfumata di quanto la maggior parte delle persone pensi: può estendersi a certi contratti di investimento, ad alcune forme di partecipazione agli utili e ad altre strutture che non somigliano affatto a un tradizionale certificato azionario. (In Italia e nell'Unione europea la normativa usa anche la nozione di prodotto finanziario, più ampia di quella di strumento finanziario; la vigilanza è affidata soprattutto alla Consob e alla Banca d'Italia.)
+
+Questa definizione giuridica più ampia conta perché il diritto dei mercati finanziari impone requisiti reali – registrazione o prospetto, informativa e altre tutele per gli investitori – che si applicano in base al fatto che qualcosa sia giuridicamente uno strumento finanziario, non in base a come viene chiamato informalmente. Un'opportunità di investimento commercializzata come tutt'altro (un'“adesione”, un “club di partecipazione agli utili”, un “accordo di condivisione dei ricavi”) può comunque essere giuridicamente uno strumento finanziario se soddisfa i criteri giuridici, il che significa che resta soggetta alla regolamentazione a prescindere dall'etichetta usata per venderla. Capirlo prepara le prossime lezioni, che esaminano perché esiste questa regolamentazione e da che cosa vuole proteggere.
+
+## Esempio svolto
+
+**Domanda:** Un promotore commercializza un'opportunità di investimento come “club di partecipazione agli utili”, evitando espressamente le parole “strumento finanziario” o “azione”. Questa scelta di etichetta determina se si applica davvero il diritto dei mercati finanziari?
+
+**Studente:** Secondo questa lezione, no: la definizione giuridica dipende da ciò che l'accordo è davvero, non da come si chiama, quindi un “club di partecipazione agli utili” potrebbe comunque essere giuridicamente uno strumento finanziario se soddisfa i criteri.
+
+**Guida:** Perché questo conterebbe per chi valuta quell'opportunità?
+
+**Studente:** Perché se è giuridicamente uno strumento finanziario, resta soggetto a requisiti di registrazione, informativa e tutela degli investitori, comunque sia stato commercializzato o etichettato.
+
+**Guida:** Esatto: la sostanza dell'accordo conta più dell'etichetta usata per descriverlo.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Uno strumento finanziario è definito in senso ampio come:
+
+A) Solo azioni e obbligazioni, nient'altro
+B) Uno strumento che rappresenta proprietà, debito o diritti sugli utili derivanti dal lavoro altrui
+C) Solo beni materiali
+D) Un tipo di polizza assicurativa
+
+**Domanda 2.** Esempi comuni ed evidenti di strumenti finanziari sono:
+
+A) Atti di proprietà immobiliare
+B) Azioni e obbligazioni
+C) Contratti di lavoro
+D) Permessi urbanistici
+
+**Domanda 3.** Un investimento commercializzato con un'etichetta diversa può comunque essere giuridicamente uno strumento finanziario?
+
+A) No, l'etichetta determina sempre lo status giuridico
+B) Sì: la definizione giuridica dipende dalla sostanza dell'accordo, non dall'etichetta usata
+C) Solo se viene chiamato espressamente “azione”
+D) L'etichetta non ha alcun rapporto con il diritto dei mercati finanziari
+
+**Domanda 4.** Perché la definizione giuridica di “strumento finanziario” conta nella pratica?
+
+A) Non ha alcuna rilevanza pratica
+B) Il diritto dei mercati finanziari impone requisiti reali – registrazione, informativa, tutele – in base alla qualificazione giuridica, non alle etichette commerciali
+C) Solo azioni e obbligazioni sono regolamentate
+D) Questa definizione conta solo per gli avvocati, mai per gli investitori
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questa definizione ampia intende comprendere un'ampia gamma di accordi simili a investimenti, non solo gli esempi evidenti.
+
+**2.** Azioni e obbligazioni sono gli esempi più chiari e familiari, trattati a fondo altrove in questo programma.
+
+**3.** È la sostanza giuridica, non il linguaggio commerciale, a far scattare davvero la regolamentazione.
+
+**4.** Questa portata della regolamentazione è proprio ciò che protegge gli investitori da accordi pensati per eluderla con etichette ingegnose.
+
+## Punti chiave
+
+- Uno strumento finanziario è in senso ampio qualsiasi strumento che rappresenti diritti di proprietà, debito o partecipazione agli utili.
+- Azioni e obbligazioni sono gli esempi più familiari, ma la definizione giuridica va oltre.
+- Come si chiama qualcosa non ne determina lo status giuridico: conta la sostanza effettiva.
+- Questo prepara le prossime lezioni, che esaminano perché esiste la regolamentazione e che cosa tutela.
+
+===== PURPLE-L1-032
+TITLE: Perché esiste il diritto dei mercati finanziari: proteggere gli investitori
+SUMMARY: Spiega le ragioni storiche e pratiche della regolamentazione dei mercati finanziari, presentandola come infrastruttura di tutela degli investitori e non come burocrazia arbitraria.
+# Perché esiste il diritto dei mercati finanziari: proteggere gli investitori
+
+## Obiettivi di apprendimento
+
+- Spiegare la motivazione storica generale del diritto dei mercati finanziari.
+- Identificare il problema centrale che questo diritto affronta.
+- Collegarlo alla fiducia e alla partecipazione ai mercati in senso ampio.
+
+## Contenuto principale
+
+Il diritto dei mercati finanziari non è nato dal nulla: si è sviluppato in gran parte come risposta a problemi storici reali, con investitori che perdevano somme significative a causa di schemi di investimento fraudolenti o ingannevoli, spesso perché non avevano alcun modo affidabile di verificare la reale situazione finanziaria di un'impresa o la veridicità delle affermazioni usate per attirare il loro denaro. Il problema centrale che questo diritto affronta è l'asimmetria informativa: l'impresa o il promotore che offre un investimento sa quasi sempre molto più dell'investitore a cui si chiede di mettere denaro sulla sua vera situazione e sui suoi rischi.
+
+Il diritto dei mercati finanziari affronta questo divario soprattutto con l'informativa obbligatoria: impone alle imprese che offrono strumenti finanziari di rendere pubbliche informazioni finanziarie e sui rischi specifiche e accurate, dando agli investitori una base reale per valutare un'opportunità invece di affidarsi solo alle affermazioni di un promotore. (Nell'Unione europea è previsto, tra l'altro, l'obbligo di prospetto per le offerte al pubblico; in Italia i prospetti sono approvati dalla Consob.) Questo si collega a qualcosa visto in WHITE: i mercati funzionano meglio, e più persone sono disposte a parteciparvi, quando c'è una fiducia di base nel fatto che le informazioni disponibili siano almeno ragionevolmente affidabili. In questo senso il diritto dei mercati finanziari è un'infrastruttura per un mercato degli investimenti funzionante: senza di esso, per qualsiasi investitore sarebbe ragionevole diffidare per principio di ogni affermazione, il che renderebbe i mercati molto meno utili per tutti.
+
+## Esempio svolto
+
+**Domanda:** Qualcuno chiede perché esista la regolamentazione dei mercati finanziari, sostenendo che gli investitori dovrebbero semplicemente fare le proprie ricerche e accettare il rischio che ne deriva. Quale problema centrale individuato da questa lezione trascura questo argomento?
+
+**Studente:** Secondo questa lezione, il problema centrale è l'asimmetria informativa: gli investitori spesso non possono accedere da soli alle vere informazioni necessarie per valutare correttamente un'opportunità, per quante ricerche facciano.
+
+**Guida:** Perché l'informativa obbligatoria affronta direttamente questo problema?
+
+**Studente:** Perché impone alle imprese di condividere davvero pubblicamente informazioni specifiche e accurate, dando agli investitori una base reale di valutazione invece di affidarsi solo ad affermazioni non verificate.
+
+**Guida:** Esatto: “fai le tue ricerche” non funziona se le informazioni necessarie per quelle ricerche non sono affidabilmente disponibili.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il diritto dei mercati finanziari si è sviluppato in gran parte come risposta a:
+
+A) Nessun problema storico reale
+B) Casi storici reali di investitori che perdevano denaro a causa di schemi fraudolenti o ingannevoli
+C) Il desiderio di creare burocrazia inutile
+D) Solo preoccupazioni moderne dell'era di internet
+
+**Domanda 2.** Il problema centrale che questo diritto affronta è:
+
+A) Troppe informazioni disponibili
+B) L'asimmetria informativa tra imprese/promotori e investitori
+C) Un'eccessiva prudenza degli investitori
+D) L'assenza di qualsiasi problema reale
+
+**Domanda 3.** Questo diritto affronta il problema soprattutto attraverso:
+
+A) Il divieto di ogni investimento
+B) L'informativa obbligatoria di informazioni finanziarie e sui rischi specifiche e accurate
+C) L'eliminazione di ogni rischio di investimento
+D) L'obbligo per gli investitori di non avere alcuna informazione
+
+**Domanda 4.** Come collega questa lezione il diritto dei mercati finanziari al funzionamento più ampio dei mercati, secondo WHITE?
+
+A) Non c'è alcun collegamento
+B) Una fiducia di base nelle informazioni disponibili è ciò che rende le persone disposte a partecipare ai mercati
+C) I mercati funzionano meglio senza alcuna regolamentazione
+D) Questa lezione non ha alcun collegamento con WHITE
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Frodi e inganni storici sono citati esplicitamente come motivazione pratica di questo ambito del diritto.
+
+**2.** L'asimmetria informativa – lo squilibrio tra ciò che le imprese sanno e ciò che gli investitori possono verificare – è proprio il problema individuato.
+
+**3.** L'informativa obbligatoria colpisce direttamente il divario informativo imponendo alle imprese di condividere ciò che serve agli investitori per valutare il rischio.
+
+**4.** Questo lega la regolamentazione al tema più ampio della fiducia come infrastruttura dei mercati funzionanti, visto in WHITE.
+
+## Punti chiave
+
+- Il diritto dei mercati finanziari è nato in risposta a danni storici reali subiti dagli investitori per frodi e inganni.
+- Il problema centrale è l'asimmetria informativa tra imprese e investitori.
+- L'informativa obbligatoria è lo strumento principale che questo diritto usa per colmare il divario.
+- Questa regolamentazione funziona come infrastruttura di fiducia che rende possibile una partecipazione ampia ai mercati.
+
+===== PURPLE-L1-033
+TITLE: Investitori accreditati: che cosa significa giuridicamente l'etichetta
+SUMMARY: Spiega il concetto di investitore accreditato, un comune meccanismo giuridico di accesso a certe opportunità di investimento, e la logica che lo sostiene.
+# Investitori accreditati: che cosa significa giuridicamente l'etichetta
+
+## Obiettivi di apprendimento
+
+- Definire in termini generali l'“investitore accreditato” (nel diritto statunitense “accredited investor”).
+- Spiegare la logica generale di questa classificazione.
+- Riconoscerla come una reale restrizione di accesso rilevante per certe opportunità del percorso WHITE.
+
+## Contenuto principale
+
+In molti sistemi di vigilanza sui mercati finanziari, certe opportunità di investimento – soprattutto offerte private e meno regolamentate – sono riservate per legge agli “investitori accreditati”, una categoria definita in genere dal superamento di specifiche soglie di reddito, patrimonio o competenza professionale. Le soglie numeriche specifiche variano da un ordinamento all'altro e cambiano nel tempo, quindi questa lezione si concentra sul concetto di fondo invece che su un importo preciso. (In Europa esistono nozioni comparabili, come quella di “cliente professionale” o di “investitore qualificato”; verifica i criteri vigenti presso le autorità o con un professionista.)
+
+La logica generale di questa restrizione si collega direttamente al tema dell'informativa della lezione precedente: le offerte private spesso non devono fornire lo stesso livello di informativa pubblica obbligatoria delle offerte pubbliche più regolamentate. Il requisito dell'investitore accreditato è un compromesso di politica del diritto: invece di imporre un'informativa pubblica completa, limita l'accesso agli investitori che si presume abbiano o le risorse finanziarie per assorbire una perdita o la competenza per valutare il rischio senza quello stesso livello di tutela informativa. Questo è direttamente rilevante per certe opportunità del percorso WHITE (società non quotate, alcuni fondi, alcune operazioni immobiliari collettive) che richiedono espressamente lo status di investitore accreditato, rendendo questo concetto un elemento pratico, e non solo teorico, della cultura giuridica.
+
+## Esempio svolto
+
+**Domanda:** Un'investitrice è entusiasta di un'opportunità di investimento privata ma scopre che è riservata agli investitori accreditati e che lei al momento non ha i requisiti. Qual è la logica di politica del diritto dietro questa restrizione, secondo questa lezione?
+
+**Studente:** Secondo questa lezione, poiché questa offerta privata non fornisce lo stesso livello di informativa obbligatoria di un'offerta pubblica, la restrizione serve a limitare l'accesso agli investitori che si presume possano assorbire una perdita o valutare il rischio senza quella stessa tutela informativa.
+
+**Guida:** Questa restrizione riguarda soprattutto la qualità dell'investimento o una preoccupazione diversa?
+
+**Studente:** Una preoccupazione diversa: riguarda il compromesso tra obblighi di informativa e tutela degli investitori, non necessariamente un giudizio sul fatto che l'opportunità specifica sia buona o cattiva.
+
+**Guida:** Esatto: l'accreditamento è un meccanismo di politica del diritto, non un marchio di qualità dell'investimento.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un “investitore accreditato” è definito in genere da:
+
+A) Un'estrazione a sorte
+B) Il superamento di specifiche soglie di reddito, patrimonio o competenza professionale
+C) Il possesso di una qualsiasi quantità di azioni
+D) Solo una laurea
+
+**Domanda 2.** Perché questa lezione evita di citare una soglia specifica in denaro?
+
+A) Non esiste alcuna soglia da nessuna parte
+B) Le soglie specifiche variano da un ordinamento all'altro e cambiano nel tempo
+C) Le soglie sono irrilevanti per questo concetto
+D) Questa lezione fornisce un importo esatto e universale
+
+**Domanda 3.** La logica di politica del diritto di fondo si collega al tema di quale lezione precedente?
+
+A) La conclusione di un'operazione immobiliare
+B) L'informativa obbligatoria e l'asimmetria informativa
+C) L'urbanistica
+D) L'esecuzione immobiliare
+
+**Domanda 4.** A quale percorso del programma si collega direttamente il concetto di investitore accreditato?
+
+A) GREEN
+B) WHITE
+C) Solo RED
+D) Solo BLUE
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Criteri finanziari e di competenza sono la base generale di questa classificazione, non il caso o fattori estranei.
+
+**2.** Le differenze tra ordinamenti e i cambiamenti nel tempo rendono un importo specifico inaffidabile da insegnare come fatto fisso.
+
+**3.** Questa restrizione è una risposta diretta di politica del diritto ai minori obblighi di informativa delle offerte private.
+
+**4.** Certe opportunità di investimento del percorso WHITE richiedono espressamente questo status, rendendo il collegamento pratico e non astratto.
+
+## Punti chiave
+
+- Lo status di investitore accreditato si basa in genere su soglie di reddito, patrimonio o competenza professionale.
+- Le soglie specifiche variano da un ordinamento all'altro e cambiano nel tempo.
+- Questa restrizione riflette un compromesso di politica del diritto tra obblighi di informativa e tutela degli investitori.
+- È direttamente rilevante per certe opportunità di investimento private del percorso WHITE.
+
+===== PURPLE-L1-034
+TITLE: Obblighi di informativa: perché le imprese devono dire la verità
+SUMMARY: Approfondisce il concetto di informativa introdotto prima, spiegando che cosa le imprese devono in genere rendere noto e le conseguenze giuridiche di un'informativa falsa o fuorviante.
+# Obblighi di informativa: perché le imprese devono dire la verità
+
+## Obiettivi di apprendimento
+
+- Identificare le categorie generali di informativa obbligatoria.
+- Spiegare le conseguenze giuridiche di un'informativa falsa o fuorviante.
+- Collegare la qualità dell'informativa a decisioni di investimento informate.
+
+## Contenuto principale
+
+Riprendendo la lezione precedente che spiegava perché esistono gli obblighi di informativa, questa lezione esamina che cosa viene effettivamente richiesto in genere. Le imprese che offrono strumenti finanziari al pubblico devono di solito rendere noti: i bilanci (un quadro veritiero della reale situazione finanziaria dell'impresa), i rischi rilevanti (fattori che potrebbero incidere in modo significativo sul valore dell'investimento o sulle prospettive dell'impresa) e i fatti rilevanti per la decisione di un investitore (eventi significativi, conflitti di interesse o altre informazioni che un investitore ragionevole vorrebbe conoscere prima di investire). (Nell'Unione europea rientrano tra questi il prospetto e, per le società quotate, l'obbligo di comunicare senza indugio al pubblico le informazioni privilegiate.)
+
+Le conseguenze giuridiche di un'informativa falsa o fuorviante sono serie, e riflettono quanto un'informativa veritiera sia centrale per l'intero sistema visto nelle ultime due lezioni: imprese e persone possono subire sanzioni delle autorità di vigilanza, cause civili da parte degli investitori danneggiati e, nei casi gravi, responsabilità penale per frode. Per un investitore, capire che i documenti di informativa hanno un reale peso giuridico – non sono semplice materiale promozionale – dovrebbe cambiare il modo in cui li legge: come una fonte di informazione genuina e giuridicamente significativa che merita una lettura attenta, non da saltare per arrivare alle parti più entusiasmanti di una proposta di investimento.
+
+## Esempio svolto
+
+**Domanda:** Un investitore scorre velocemente la sezione dei fattori di rischio di un prospetto, concentrandosi solo sulle entusiasmanti proiezioni di crescita. Che cosa suggerisce questa lezione su questo approccio?
+
+**Studente:** Secondo questa lezione, quella sezione dei fattori di rischio ha un reale peso giuridico e serve proprio a informare la decisione dell'investitore: saltarla significa perdere informazioni che l'impresa era tenuta per legge a rendere note.
+
+**Guida:** Perché la serietà giuridica di un'informativa falsa rende questa sezione particolarmente degna di una lettura attenta?
+
+**Studente:** Perché le imprese rischiano conseguenze giuridiche reali per un'informativa fuorviante, quindi i rischi dichiarati riflettono probabilmente preoccupazioni reali e rilevanti su cui l'impresa è giuridicamente obbligata a essere onesta, non testo standard da saltare.
+
+**Guida:** Esatto: i documenti di informativa meritano di essere letti come informazioni giuridicamente significative, non come riempitivo promozionale.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Le imprese che offrono strumenti finanziari devono di solito rendere noti:
+
+A) Nulla di significativo
+B) Bilanci, rischi rilevanti e fatti rilevanti per le decisioni degli investitori
+C) Solo notizie positive sull'impresa
+D) Solo le biografie personali dei fondatori
+
+**Domanda 2.** Quali sono le conseguenze giuridiche di un'informativa falsa o fuorviante?
+
+A) Non ci sono conseguenze reali
+B) Sanzioni delle autorità, cause civili e potenzialmente responsabilità penale per frode
+C) Solo una piccola lettera di richiamo
+D) Le conseguenze valgono solo per le piccole imprese
+
+**Domanda 3.** Perché queste serie conseguenze contano per il modo in cui un investitore dovrebbe leggere i documenti di informativa?
+
+A) Non influenzano il modo in cui leggere i documenti
+B) Indicano che i documenti di informativa hanno un reale peso giuridico e meritano una lettura attenta, non una scorsa veloce
+C) Conseguenze serie significano che i documenti si possono ignorare senza rischi
+D) Questo non ha alcun effetto sul comportamento degli investitori
+
+**Domanda 4.** Questa lezione si basa più direttamente sul tema di quale lezione precedente?
+
+A) L'urbanistica
+B) Perché esiste il diritto dei mercati finanziari: proteggere gli investitori con l'informativa
+C) Le basi dell'esecuzione immobiliare
+D) La conclusione di un'operazione immobiliare
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Situazione finanziaria, fattori di rischio e fatti rilevanti formano insieme le categorie centrali dell'informativa obbligatoria.
+
+**2.** La serietà di queste conseguenze sottolinea quanto un'informativa veritiera sia centrale per l'intero sistema di vigilanza.
+
+**3.** Riconoscere il peso giuridico di questi documenti dovrebbe cambiare quanto attentamente e seriamente un investitore li affronta.
+
+**4.** Questa lezione è una continuazione diretta e pratica della logica dell'informativa stabilita due lezioni prima.
+
+## Punti chiave
+
+- L'informativa obbligatoria comprende in genere bilanci, rischi rilevanti e fatti rilevanti.
+- Un'informativa falsa o fuorviante comporta serie conseguenze giuridiche, compresa una possibile responsabilità per frode.
+- Questo peso giuridico significa che i documenti di informativa meritano una lettura attenta e seria, non una scorsa veloce.
+- Si basa direttamente sulla lezione precedente che spiegava perché esistono gli obblighi di informativa.
+
+===== PURPLE-L1-035
+TITLE: Insider trading: che cos'è e perché è illegale
+SUMMARY: Spiega il concetto di insider trading, perché è vietato e il suo collegamento con i principi di correttezza alla base della regolamentazione dei mercati finanziari.
+# Insider trading: che cos'è e perché è illegale
+
+## Obiettivi di apprendimento
+
+- Definire l'insider trading.
+- Spiegare la logica di correttezza alla base del divieto.
+- Riconoscere le situazioni comuni in cui nasce questo rischio.
+
+## Contenuto principale
+
+L'insider trading (in Italia “abuso di informazioni privilegiate”) indica in genere l'acquisto o la vendita di uno strumento finanziario sulla base di informazioni rilevanti non pubbliche – informazioni significative non ancora disponibili al pubblico degli investitori – ottenute grazie a una posizione di fiducia o di accesso, per esempio come dipendente o dirigente di un'impresa, o come persona che ha ricevuto impropriamente tali informazioni da un insider. È vietato dal diritto dei mercati finanziari nella maggior parte degli ordinamenti, e la logica si collega direttamente al principio di correttezza alla base degli obblighi di informativa visti nelle lezioni precedenti. (Nell'Unione europea la materia è disciplinata dal regolamento sugli abusi di mercato; in Italia la vigilanza spetta alla Consob e l'abuso di informazioni privilegiate costituisce reato.)
+
+Il problema centrale che l'insider trading crea è un vantaggio informativo ingiusto: se alcuni partecipanti al mercato possono operare sulla base di informazioni a cui altri non hanno accesso, si mina la correttezza di base che rende le persone disposte a partecipare ai mercati, proprio l'infrastruttura di fiducia discussa prima in questa sezione. Non riguarda solo i dirigenti delle imprese: chiunque riceva informazioni rilevanti non pubbliche e operi sulla loro base, o le condivida impropriamente con qualcuno che poi opera, può potenzialmente risponderne. È un avvertimento pratico per chiunque abbia un accesso privilegiato a informazioni non pubbliche su un'impresa, compresi, in alcune circostanze, professionisti che lavorano a stretto contatto con imprese nei contesti RED o BLUE e che investono anche tramite WHITE.
+
+## Esempio svolto
+
+**Domanda:** Un consulente aziendale viene a conoscenza, durante un progetto, di informazioni riservate e significative su un'impresa cliente, poi negozia azioni di quell'impresa prima che le informazioni diventino pubbliche. Quale problema giuridico illustra questo?
+
+**Studente:** Secondo questa lezione, sembra un chiaro esempio di insider trading: operare sulla base di informazioni rilevanti non pubbliche ottenute grazie a una posizione di fiducia o di accesso.
+
+**Guida:** Perché è vietato, ricollegandosi al tema della correttezza delle lezioni precedenti?
+
+**Studente:** Perché crea un vantaggio informativo ingiusto rispetto agli altri partecipanti al mercato che non hanno accesso alle stesse informazioni non pubbliche, minando la fiducia che fa funzionare i mercati in modo corretto.
+
+**Guida:** Esatto: e questo rischio non riguarda solo gli insider aziendali, ma chiunque abbia un accesso privilegiato a informazioni rilevanti non pubbliche.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'insider trading indica in genere:
+
+A) Qualsiasi operazione in azioni da parte di un dipendente di un'impresa
+B) Negoziare uno strumento finanziario sulla base di informazioni rilevanti non pubbliche ottenute grazie a una posizione di fiducia
+C) Negoziare solo sulla base di informazioni pubbliche
+D) Una strategia di investimento del tutto legale
+
+**Domanda 2.** Il problema centrale che l'insider trading crea è:
+
+A) Non esiste alcun problema reale
+B) Un vantaggio informativo ingiusto che mina la fiducia e la correttezza del mercato
+C) Un'eccessiva trasparenza del mercato
+D) Troppe informazioni disponibili al pubblico
+
+**Domanda 3.** La responsabilità per insider trading è limitata ai dirigenti delle imprese?
+
+A) Sì, solo i dirigenti possono rispondere
+B) No: chiunque operi su informazioni rilevanti non pubbliche o le condivida impropriamente può potenzialmente risponderne
+C) Possono rispondere solo i dipendenti pubblici
+D) La responsabilità non si applica mai a nessuno
+
+**Domanda 4.** Questa lezione collega il divieto di insider trading a quale tema precedente?
+
+A) L'urbanistica
+B) Correttezza e fiducia come infrastruttura di mercati funzionanti
+C) L'esecuzione immobiliare
+D) Gli obblighi di locatore e conduttore
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La caratteristica distintiva è operare su informazioni privilegiate e non pubbliche ottenute attraverso un rapporto di fiducia.
+
+**2.** Questo vantaggio ingiusto mina direttamente la fiducia nel mercato che la regolamentazione vuole proteggere.
+
+**3.** La responsabilità si estende oltre gli insider formali a chiunque acceda impropriamente a tali informazioni o agisca sulla loro base.
+
+**4.** Questo estende direttamente la logica di fiducia e correttezza stabilita nelle lezioni precedenti sull'informativa.
+
+## Punti chiave
+
+- Insider trading significa operare su informazioni rilevanti non pubbliche ottenute grazie a fiducia o accesso.
+- Questo mina la correttezza e la fiducia che fanno funzionare i mercati, collegandosi alle lezioni precedenti.
+- La responsabilità si estende oltre i dirigenti delle imprese a chiunque usi impropriamente tali informazioni.
+- È un avvertimento pratico per chiunque abbia accesso privilegiato a informazioni non pubbliche su un'impresa.
