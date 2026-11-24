@@ -1,0 +1,364 @@
+===== WHITE-L1-036
+TITLE: Was ist Nennwert im Vergleich zum Realwert (Kaufkraft)?
+SUMMARY: Erfahren Sie den Unterschied zwischen dem Geldbetrag und seiner realen Kaufkraft – direkt aufbauend auf der Lektion über Inflation.
+# Was ist Nennwert im Vergleich zum Realwert (Kaufkraft)?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- den Nennwert (nominalen Wert) vom Realwert (Kaufkraft) unterscheiden können.
+- erklären können, warum der Vergleich von Geldbeträgen über die Zeit irreführend sein kann.
+- diese Unterscheidung auf ein einfaches Beispiel anwenden können.
+
+## Kerninhalt
+
+### Nennwert (nominaler Wert) und Realwert
+
+Der Nennwert oder nominale Wert von Geld ist einfach die Zahl auf dem Konto oder der Gehaltsabrechnung. Der Realwert ist das, was man mit diesem Geld tatsächlich kaufen kann, nachdem die Inflation berücksichtigt wurde, die in der früheren Lektion dieser Stufe behandelt wurde.
+
+### Warum Vergleiche über die Zeit irreführen können
+
+50.000 $ Einkommen heute und 50.000 $ Einkommen vor zwanzig Jahren sind real nicht dasselbe, weil sich die Preise in dieser Zeit verändert haben. Wer die reinen Zahlen ohne Inflationsbereinigung vergleicht, kann ein irreführendes Bild vom tatsächlichen finanziellen Fortschritt bekommen.
+
+### Die Unterscheidung anwenden
+
+Immer wenn Geld zu verschiedenen Zeitpunkten verglichen wird – ein Gehalt, eine Anlagerendite, ein historischer Preis –, erzählt der (inflationsbereinigte) Realwert eine genauere Geschichte als der reine Geldbetrag allein.
+
+## Durchgerechnetes Beispiel
+
+Ein Gehalt, das in fünf Jahren von 50.000 $ auf 55.000 $ gestiegen ist, sieht nominal nach Wachstum aus. Hat die Inflation in diesem Zeitraum die Kaufkraft um ungefähr denselben Betrag verringert, ist der Realwert dieses Gehalts womöglich kaum oder gar nicht gestiegen oder sogar gesunken.
+
+## Übungsquiz
+
+1. Der Realwert bezeichnet:
+   A. Die reine Zahl auf einem Konto
+   B. Das, was man mit Geld tatsächlich kaufen kann, inflationsbereinigt
+   C. Eine Art Dividende
+   D. Die Marktkapitalisierung eines Unternehmens
+
+2. Richtig oder falsch: Der Vergleich reiner Geldbeträge über verschiedene Jahrzehnte ergibt immer ein genaues Bild des finanziellen Fortschritts.
+
+3. Warum kann eine Gehaltserhöhung nominal besser aussehen, als sie real ist?
+   A. Nominaler Wert und Realwert sind immer identisch
+   B. Die Inflation kann die gewonnene Kaufkraft verringert haben
+   C. Gehälter werden nie von der Inflation beeinflusst
+   D. Der Realwert gilt nur für Anleihen
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Der Realwert spiegelt die tatsächliche Kaufkraft wider, nicht nur die reine Zahl.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Reine Vergleiche über die Zeit können ohne Inflationsbereinigung irreführen.
+
+### Frage 3
+
+Richtige Antwort: B. Die Inflation kann den realen Nutzen einer nominalen Erhöhung aufzehren.
+
+## Wichtigste Erkenntnisse
+
+- Der Nennwert ist der reine Geldbetrag; der Realwert berücksichtigt die Kaufkraft.
+- Der Vergleich reiner Geldbeträge über die Zeit kann irreführend sein.
+- Der Realwert ergibt ein genaueres Bild des tatsächlichen finanziellen Fortschritts.
+
+===== WHITE-L1-037
+TITLE: Was ist ein Bull Case und ein Bear Case für eine Aktie?
+SUMMARY: Erfahren Sie, was es bedeutet, für eine Aktie ein Bull-Szenario oder ein Bear-Szenario aufzubauen, und warum es wichtig ist, beide zu betrachten.
+# Was ist ein Bull Case und ein Bear Case für eine Aktie?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- einen Bull Case und einen Bear Case in einfachen Worten definieren können.
+- erklären können, warum es wichtig ist, beide aufzubauen und nicht nur einen.
+- das Konzept auf ein einfaches hypothetisches Beispiel anwenden können.
+
+## Kerninhalt
+
+### Was ein Bull Case ist
+
+Ein Bull Case (optimistisches Szenario) ist eine begründete Argumentation dafür, warum sich eine Aktie (oder eine andere Anlage) gut entwickeln könnte, gestützt auf konkrete Faktoren wie Wachstumspotenzial, Wettbewerbsvorteile oder günstige Trends.
+
+### Was ein Bear Case ist
+
+Ein Bear Case (pessimistisches Szenario) ist eine begründete Argumentation dafür, warum sich eine Aktie schlecht entwickeln könnte, gestützt auf konkrete Risiken, Schwächen oder ungünstige Trends.
+
+### Warum es wichtig ist, beide zu betrachten
+
+Wer nur einen Bull Case (oder nur einen Bear Case) aufbaut, erhält ein einseitiges, möglicherweise übermäßig selbstsicheres Bild. Beide Sichtweisen ernsthaft zu prüfen – selbst bei einer Anlage, von der man begeistert ist –, führt zu einem realistischeren Verständnis der tatsächlichen Risiken und Chancen.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger, der ein wachsendes Unternehmen in Betracht zieht, könnte einen Bull Case rund um den wachsenden Markt und die starken Produkte aufbauen und zugleich einen Bear Case rund um neue Konkurrenz und steigende Kosten – und beide abwägen, bevor er entscheidet.
+
+## Übungsquiz
+
+1. Ein Bull Case ist:
+   A. Eine begründete Argumentation dafür, warum sich eine Anlage schlecht entwickeln könnte
+   B. Eine begründete Argumentation dafür, warum sich eine Anlage gut entwickeln könnte
+   C. Eine garantierte Vorhersage der künftigen Entwicklung
+   D. Eine Art Anleihe
+
+2. Richtig oder falsch: Wer für eine Anlage nur einen Bull Case aufbaut, erhält ein vollständiges, ausgewogenes Bild.
+
+3. Warum ist es wichtig, sowohl einen Bull Case als auch einen Bear Case zu betrachten?
+   A. Es spielt überhaupt keine Rolle
+   B. Es führt zu einem realistischeren, ausgewogeneren Verständnis einer Anlage
+   C. Es garantiert ein gewinnbringendes Ergebnis
+   D. Es ist nur für Anleihen relevant
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Bull Case argumentiert für eine mögliche positive Entwicklung.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Eine einseitige Sicht übersieht reale Risiken oder Schwächen.
+
+### Frage 3
+
+Richtige Antwort: B. Beide zu betrachten führt zu einer ausgewogeneren, realistischeren Sicht.
+
+## Wichtigste Erkenntnisse
+
+- Ein Bull Case argumentiert für eine mögliche positive Entwicklung, ein Bear Case für eine mögliche negative.
+- Wer nur eine Seite aufbaut, erhält ein unvollständiges, übermäßig selbstsicheres Bild.
+- Beide zu betrachten führt zu realistischeren Anlageentscheidungen.
+
+===== WHITE-L1-038
+TITLE: Was ist Insiderhandel, und warum ist er verboten?
+SUMMARY: Erfahren Sie, was Insiderhandel bedeutet und welche grundlegende Überlegung hinter seinem Verbot steht.
+# Was ist Insiderhandel, und warum ist er verboten?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- Insiderhandel in einfachen Worten definieren können.
+- die grundlegende Überlegung hinter seinem Verbot erklären können.
+- erkennen können, dass dies eine echte rechtliche Grenze ist und nicht nur eine ethische Richtlinie.
+
+## Kerninhalt
+
+### Was Insiderhandel ist
+
+*(REGIONSSPEZIFISCHE REGEL: Diese Lektion beschreibt das allgemeine Konzept; die konkreten Gesetze unterscheiden sich von Land zu Land. In der EU, also auch in Deutschland und Österreich, regelt dies im Wesentlichen die Marktmissbrauchsverordnung (MAR), in Deutschland überwacht von der BaFin; in der Schweiz gelten eigene Regeln. Lassen Sie sich im Einzelfall rechtlich beraten.)* Insiderhandel bezeichnet im Allgemeinen den Kauf oder Verkauf einer Aktie auf Grundlage wesentlicher, nicht öffentlicher Informationen – Informationen, die der breiten Öffentlichkeit noch nicht zugänglich sind und den Aktienkurs vernünftigerweise beeinflussen könnten.
+
+### Die grundlegende Überlegung hinter dem Verbot
+
+Märkte sollen grundsätzlich auf gleicher Informationsgrundlage funktionieren. Wer auf Basis nicht öffentlicher Informationen handelt, hat einen unfairen Vorteil gegenüber anderen Anlegern, die keinen Zugang zu denselben Informationen haben – und untergräbt damit für alle anderen das Vertrauen in eine faire Preisbildung am Markt.
+
+### Eine echte rechtliche Grenze
+
+Das gilt nicht nur als unethisch – in vielen Ländern, darunter die beschriebenen Schutzregeln im US-Wertpapierrecht, ist es ein echter, strafrechtlich verfolgbarer Rechtsverstoß und nicht bloß eine Frage des persönlichen Urteils.
+
+## Durchgerechnetes Beispiel
+
+Ein Mitarbeiter eines Unternehmens, der vor der öffentlichen Bekanntgabe erfährt, dass sein Unternehmen enttäuschende Ergebnisse melden wird, und seine Aktien auf Grundlage dieses nicht öffentlichen Wissens vor der Bekanntgabe verkauft, würde Insiderhandel betreiben.
+
+## Übungsquiz
+
+1. Insiderhandel bezeichnet im Allgemeinen:
+   A. Den Handel mit Aktien auf Grundlage öffentlich verfügbarer Informationen
+   B. Den Handel mit Aktien auf Grundlage wesentlicher, nicht öffentlicher Informationen
+   C. Eine Art Dividendenzahlung
+   D. Ein vorgeschriebenes Offenlegungsformular
+
+2. Richtig oder falsch: Insiderhandel ist nur eine ethische Richtlinie und kein tatsächlicher Rechtsverstoß.
+
+3. Warum ist Insiderhandel im Allgemeinen verboten?
+   A. Es gibt dafür keine echte Begründung
+   B. Er verschafft einen unfairen Vorteil gegenüber Anlegern ohne Zugang zu denselben Informationen
+   C. Er ist nur für Führungskräfte von Unternehmen verboten
+   D. Er gilt nur für Anleihen
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Beim Insiderhandel wird auf Grundlage wesentlicher, nicht öffentlicher Informationen gehandelt.
+
+### Frage 2
+
+Richtige Antwort: Falsch. In vielen Rechtsordnungen ist er ein echter, strafrechtlich verfolgbarer Rechtsverstoß und nicht nur eine ethische Frage.
+
+### Frage 3
+
+Richtige Antwort: B. Er untergräbt den fairen, gleichen Zugang zu kursrelevanten Informationen.
+
+## Wichtigste Erkenntnisse
+
+- Insiderhandel bedeutet, auf Grundlage wesentlicher, nicht öffentlicher Informationen zu handeln.
+- Er ist verboten, weil er einen unfairen Informationsvorteil verschafft.
+- Er ist ein echter Rechtsverstoß und nicht nur eine ethische Richtlinie.
+
+===== WHITE-L1-039
+TITLE: Was ist eine Börse? (NYSE, Nasdaq – was sie tatsächlich tun)
+SUMMARY: Erfahren Sie, was eine Börse tatsächlich leistet – über die Rolle als bloßer „Ort, an dem Aktien gehandelt werden“ hinaus.
+# Was ist eine Börse? (NYSE, Nasdaq – was sie tatsächlich tun)
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- eine Börse in einfachen Worten definieren können.
+- ihre Kernfunktion über „ein Ort, an dem Aktien gehandelt werden“ hinaus erklären können.
+- zwei bekannte Beispiele nennen können.
+
+## Kerninhalt
+
+### Was eine Börse ist
+
+Eine Börse ist ein organisierter Marktplatz, auf dem Käufer und Verkäufer zusammenkommen, um nach einem gemeinsamen Regelwerk mit Aktien börsennotierter Unternehmen zu handeln.
+
+### Ihre Kernfunktion
+
+Über die bloße Abwicklung von Geschäften hinaus sorgt eine Börse für Preisfindung (sie hilft, durch das Zusammenführen echter Käufer und Verkäufer einen fairen aktuellen Preis zu ermitteln) und setzt Zulassungsstandards durch, die Unternehmen erfüllen müssen, um dort gehandelt zu werden – das verleiht dem Markt zusätzliche Struktur und Aufsicht.
+
+### Bekannte Beispiele
+
+*(GEPRÜFTE TATSACHE, kann sich mit der Zeit ändern – die Notierungen von Unternehmen verschieben sich.)* Die New York Stock Exchange (NYSE) und die Nasdaq sind zwei bekannte Börsen, jeweils mit etwas unterschiedlichen Zulassungsanforderungen und Handelsstrukturen. Im deutschsprachigen Raum sind zum Beispiel die Frankfurter Wertpapierbörse (mit dem Handelsplatz Xetra), die Wiener Börse und die SIX Swiss Exchange bekannt.
+
+## Durchgerechnetes Beispiel
+
+Wenn ein Anleger eine Order zum Kauf oder Verkauf einer Aktie erteilt, wird diese an die zuständige Börse weitergeleitet, die sie mit einer passenden Kauf- oder Verkaufsorder zu einem vereinbarten Preis zusammenführt – der Grundmechanismus hinter dem „Handeln einer Aktie“.
+
+## Übungsquiz
+
+1. Eine Börse ist:
+   A. Der interne Handelstisch eines einzelnen Unternehmens
+   B. Ein organisierter Marktplatz für den Handel mit Aktien börsennotierter Unternehmen
+   C. Eine staatliche Steuerbehörde
+   D. Eine Art Investmentfonds
+
+2. Richtig oder falsch: Börsen wickeln nur Geschäfte ab und haben keine Zulassungsstandards und keine Aufsichtsrolle.
+
+3. Nennen Sie eine bekannte Börse, die in dieser Lektion erwähnt wird.
+   A. Federal Reserve
+   B. NYSE oder Nasdaq
+   C. IRS
+   D. SEC
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Eine Börse ist ein organisierter Marktplatz für den Handel mit börsennotierten Aktien.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Börsen sorgen auch für Preisfindung und setzen Zulassungsstandards durch.
+
+### Frage 3
+
+Richtige Antwort: B. NYSE und Nasdaq sind bekannte Beispiele.
+
+## Wichtigste Erkenntnisse
+
+- Eine Börse ist ein organisierter Marktplatz für den Handel mit börsennotierten Aktien.
+- Sie sorgt für Preisfindung und setzt Zulassungsstandards durch.
+- NYSE und Nasdaq sind zwei bekannte Beispiele.
+
+===== WHITE-L1-040
+TITLE: Was ist ein Tickersymbol?
+SUMMARY: Erfahren Sie, was ein Tickersymbol ist und warum Genauigkeit wichtig ist, wenn man eine bestimmte Aktie identifiziert.
+# Was ist ein Tickersymbol?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- ein Tickersymbol in einfachen Worten definieren können.
+- erklären können, warum Genauigkeit bei seiner Verwendung wichtig ist.
+- erkennen können, dass ähnlich klingende Namen sehr unterschiedliche Symbole haben können.
+
+## Kerninhalt
+
+### Was ein Tickersymbol ist
+
+Ein Tickersymbol ist ein eindeutiger Kurzcode (meist aus Buchstaben), der der Aktie eines börsennotierten Unternehmens zugeordnet ist und dazu dient, sie an einer Börse genau zu identifizieren. (Im deutschsprachigen Raum werden Wertpapiere außerdem häufig über die ISIN oder die WKN identifiziert.)
+
+### Warum Genauigkeit wichtig ist
+
+Weil viele Unternehmen ähnliche oder verwandte Namen haben können, ist es das Tickersymbol, das tatsächlich und eindeutig festlegt, welche Aktie gekauft, verkauft oder besprochen wird – sich nur auf den Unternehmensnamen zu verlassen, kann zu teuren Fehlern führen.
+
+### Ähnliche Namen, unterschiedliche Symbole
+
+Zwei Unternehmen mit ähnlich klingenden Namen können völlig unterschiedliche Tickersymbole haben, und Tippfehler oder Verwechslungen zwischen Symbolen sind beim Erteilen einer echten Order ein reales, vermeidbares Risiko.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger, der Aktien eines bestimmten Unternehmens kaufen möchte, schlägt vor der Order dessen genaues Tickersymbol nach, statt sich nur auf seine Erinnerung an den Unternehmensnamen zu verlassen – um nicht versehentlich die falsche Aktie zu handeln.
+
+## Übungsquiz
+
+1. Ein Tickersymbol ist:
+   A. Der vollständige rechtliche Name eines Unternehmens
+   B. Ein eindeutiger Kurzcode, der eine bestimmte Aktie an einer Börse identifiziert
+   C. Eine Art Dividende
+   D. Eine staatliche Steuernummer
+
+2. Richtig oder falsch: Sich nur auf den Namen eines Unternehmens zu verlassen, ohne das genaue Tickersymbol zu prüfen, ist ein sicherer Weg, die richtige Order zu gewährleisten.
+
+3. Warum ist Genauigkeit bei der Verwendung eines Tickersymbols wichtig?
+   A. Sie spielt überhaupt keine Rolle
+   B. Ähnliche Unternehmensnamen können sehr unterschiedliche Symbole haben, und Fehler sind teuer
+   C. Alle Unternehmen teilen sich dasselbe Tickersymbol
+   D. Tickersymbole sind optional
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Tickersymbol identifiziert eine bestimmte Aktie eindeutig.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Wer sich nur auf den Namen verlässt, riskiert, ähnlich benannte Unternehmen zu verwechseln.
+
+### Frage 3
+
+Richtige Antwort: B. Genauigkeit vermeidet teure Fehler beim Handeln.
+
+## Wichtigste Erkenntnisse
+
+- Ein Tickersymbol identifiziert eine bestimmte Aktie an einer Börse eindeutig.
+- Genauigkeit ist wichtig – Unternehmensnamen können ähnlich sein, auch wenn die Tickersymbole völlig verschieden sind.
+- Das genaue Symbol vor dem Handeln zu prüfen, vermeidet teure Fehler.

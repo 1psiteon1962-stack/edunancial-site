@@ -1,0 +1,364 @@
+===== WHITE-L1-036
+TITLE: Che cos'è il valore nominale rispetto al valore reale (potere d'acquisto)?
+SUMMARY: Scopri la differenza tra l'importo in denaro e il suo potere d'acquisto reale, partendo direttamente dalla lezione sull'inflazione.
+# Che cos'è il valore nominale rispetto al valore reale (potere d'acquisto)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- distinguere il valore nominale dal valore reale (potere d'acquisto).
+- spiegare perché confrontare importi in denaro nel tempo può essere fuorviante.
+- applicare questa distinzione a un esempio semplice.
+
+## Contenuto principale
+
+### Valore nominale e valore reale
+
+Il valore nominale del denaro è semplicemente il numero sul conto o sulla busta paga. Il valore reale è ciò che quel denaro può effettivamente comprare, tenendo conto dell'inflazione, trattata nella lezione precedente di questo livello.
+
+### Perché i confronti nel tempo possono ingannare
+
+Un reddito di 50.000 $ oggi e un reddito di 50.000 $ vent'anni fa non sono la stessa cosa in termini reali, perché nel frattempo i prezzi sono cambiati. Confrontare i numeri grezzi senza correggerli per l'inflazione può dare un'immagine fuorviante dei reali progressi finanziari.
+
+### Applicare la distinzione
+
+Ogni volta che si confronta denaro in momenti diversi (uno stipendio, il rendimento di un investimento, un prezzo storico), il valore reale (corretto per l'inflazione) racconta una storia più accurata del solo importo nominale.
+
+## Esempio svolto
+
+Uno stipendio passato da 50.000 $ a 55.000 $ in cinque anni sembra in crescita in termini nominali. Se nello stesso periodo l'inflazione ha ridotto il potere d'acquisto più o meno della stessa misura, il valore reale di quello stipendio potrebbe essere cresciuto a malapena, o persino diminuito.
+
+## Quiz di esercitazione
+
+1. Il valore reale indica:
+   A. Il numero grezzo su un conto
+   B. Ciò che il denaro può effettivamente comprare, corretto per l'inflazione
+   C. Un tipo di dividendo
+   D. La capitalizzazione di mercato di un'azienda
+
+2. Vero o falso: confrontare importi nominali tra decenni diversi dà sempre un'immagine accurata dei progressi finanziari.
+
+3. Perché un aumento di stipendio può sembrare migliore in termini nominali di quanto sia in termini reali?
+   A. Valore nominale e valore reale sono sempre identici
+   B. L'inflazione potrebbe aver ridotto il potere d'acquisto guadagnato
+   C. Gli stipendi non sono mai influenzati dall'inflazione
+   D. Il valore reale si applica solo alle obbligazioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il valore reale riflette il potere d'acquisto effettivo, non solo il numero grezzo.
+
+### Domanda 2
+
+Risposta corretta: Falso. I confronti grezzi nel tempo possono essere fuorvianti se non si corregge per l'inflazione.
+
+### Domanda 3
+
+Risposta corretta: B. L'inflazione può erodere il beneficio reale di un aumento nominale.
+
+## Punti chiave
+
+- Il valore nominale è l'importo grezzo; il valore reale tiene conto del potere d'acquisto.
+- Confrontare importi nominali nel tempo può essere fuorviante.
+- Il valore reale dà un'immagine più accurata dei progressi finanziari effettivi.
+
+===== WHITE-L1-037
+TITLE: Che cosa sono il bull case e il bear case per un'azione?
+SUMMARY: Scopri che cosa significa costruire uno scenario rialzista o ribassista per un'azione, e perché è importante considerarli entrambi.
+# Che cosa sono il bull case e il bear case per un'azione?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il bull case e il bear case in termini semplici.
+- spiegare perché è importante costruirli entrambi, non solo uno.
+- applicare il concetto a un semplice esempio ipotetico.
+
+## Contenuto principale
+
+### Che cos'è un bull case
+
+Un bull case (scenario rialzista) è un ragionamento motivato sul perché un'azione (o un altro investimento) potrebbe andare bene, basato su fattori specifici come il potenziale di crescita, i vantaggi competitivi o le tendenze favorevoli.
+
+### Che cos'è un bear case
+
+Un bear case (scenario ribassista) è un ragionamento motivato sul perché un'azione potrebbe andare male, basato su rischi specifici, debolezze o tendenze sfavorevoli.
+
+### Perché è importante considerarli entrambi
+
+Costruire solo un bull case (o solo un bear case) crea una visione unilaterale e potenzialmente troppo sicura di sé. Considerare davvero entrambe le prospettive, anche per un investimento che entusiasma, porta a una comprensione più realistica dei rischi e delle potenzialità effettive.
+
+## Esempio svolto
+
+Un investitore che valuta un'azienda in crescita potrebbe costruire un bull case basato sul mercato in espansione e sui prodotti solidi, e allo stesso tempo un bear case basato sulla nuova concorrenza e sull'aumento dei costi, soppesando entrambi prima di decidere.
+
+## Quiz di esercitazione
+
+1. Un bull case è:
+   A. Un ragionamento motivato sul perché un investimento potrebbe andare male
+   B. Un ragionamento motivato sul perché un investimento potrebbe andare bene
+   C. Una previsione garantita dell'andamento futuro
+   D. Un tipo di obbligazione
+
+2. Vero o falso: costruire solo un bull case per un investimento offre una visione completa ed equilibrata.
+
+3. Perché è importante considerare sia un bull case sia un bear case?
+   A. Non ha alcuna importanza
+   B. Porta a una comprensione più realistica ed equilibrata di un investimento
+   C. Garantisce un risultato redditizio
+   D. Riguarda solo le obbligazioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un bull case sostiene un possibile andamento positivo.
+
+### Domanda 2
+
+Risposta corretta: Falso. Una visione unilaterale trascura rischi o debolezze reali.
+
+### Domanda 3
+
+Risposta corretta: B. Considerarli entrambi porta a una visione più equilibrata e realistica.
+
+## Punti chiave
+
+- Un bull case sostiene un possibile andamento positivo; un bear case un possibile andamento negativo.
+- Costruire un solo lato crea una visione incompleta e troppo sicura di sé.
+- Considerarli entrambi porta a decisioni di investimento più realistiche.
+
+===== WHITE-L1-038
+TITLE: Che cos'è l'insider trading, e perché è illegale?
+SUMMARY: Scopri che cosa significa insider trading e il ragionamento di base dietro il suo divieto.
+# Che cos'è l'insider trading, e perché è illegale?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire l'insider trading in termini semplici.
+- spiegare il ragionamento di base dietro il suo divieto.
+- riconoscere che si tratta di un vero limite legale, non solo di una linea guida etica.
+
+## Contenuto principale
+
+### Che cos'è l'insider trading
+
+*(REGOLA SPECIFICA PER PAESE: questa lezione descrive il concetto generale; le leggi specifiche variano da paese a paese. Nell'Unione europea, Italia compresa, la materia è disciplinata principalmente dal Regolamento sugli abusi di mercato (MAR), e in Italia vigila la CONSOB; per casi concreti rivolgiti a un legale.)* L'insider trading (abuso di informazioni privilegiate) indica in genere l'acquisto o la vendita di un'azione sulla base di informazioni rilevanti e non pubbliche: informazioni non ancora disponibili al grande pubblico che potrebbero ragionevolmente influire sul prezzo dell'azione.
+
+### Il ragionamento di base dietro il divieto
+
+In genere i mercati dovrebbero funzionare a parità di informazioni. Chi negozia sulla base di informazioni non pubbliche ha un vantaggio sleale rispetto agli altri investitori che non hanno accesso alle stesse informazioni, e mina la fiducia di tutti gli altri in una formazione equa dei prezzi di mercato.
+
+### Un vero limite legale
+
+Non è considerato soltanto non etico: in molti paesi, comprese le tutele previste dalla normativa statunitense sui valori mobiliari, è una vera violazione di legge perseguibile, non una semplice questione di giudizio personale.
+
+## Esempio svolto
+
+Un dipendente che viene a sapere, prima che sia annunciato pubblicamente, che la sua azienda sta per comunicare utili deludenti, e che vende le proprie azioni sulla base di questa informazione non pubblica prima dell'annuncio, starebbe commettendo insider trading.
+
+## Quiz di esercitazione
+
+1. L'insider trading indica in genere:
+   A. Negoziare azioni sulla base di informazioni pubblicamente disponibili
+   B. Negoziare azioni sulla base di informazioni rilevanti e non pubbliche
+   C. Un tipo di pagamento di dividendi
+   D. Un modulo di informativa obbligatorio
+
+2. Vero o falso: l'insider trading è solo una linea guida etica, non una vera violazione di legge.
+
+3. Perché l'insider trading è in genere vietato?
+   A. Non ha una vera giustificazione
+   B. Crea un vantaggio sleale rispetto agli investitori senza accesso alle stesse informazioni
+   C. È illegale solo per i dirigenti d'azienda
+   D. Riguarda solo le obbligazioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'insider trading consiste nel negoziare sulla base di informazioni rilevanti e non pubbliche.
+
+### Domanda 2
+
+Risposta corretta: Falso. In molti ordinamenti è una vera violazione di legge perseguibile, non solo una questione etica.
+
+### Domanda 3
+
+Risposta corretta: B. Mina un accesso equo e paritario alle informazioni che muovono il mercato.
+
+## Punti chiave
+
+- Insider trading significa negoziare sulla base di informazioni rilevanti e non pubbliche.
+- È vietato perché crea un vantaggio informativo sleale.
+- È una vera violazione di legge, non solo una linea guida etica.
+
+===== WHITE-L1-039
+TITLE: Che cos'è una borsa valori? (NYSE, Nasdaq: che cosa fanno davvero)
+SUMMARY: Scopri che cosa fa davvero una borsa valori, al di là dell'essere semplicemente «il luogo dove si scambiano le azioni».
+# Che cos'è una borsa valori? (NYSE, Nasdaq: che cosa fanno davvero)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una borsa valori in termini semplici.
+- spiegarne la funzione principale al di là di «un luogo dove si scambiano azioni».
+- citare due esempi noti.
+
+## Contenuto principale
+
+### Che cos'è una borsa valori
+
+Una borsa valori è un mercato organizzato in cui compratori e venditori si incontrano per scambiare azioni di società quotate, secondo un insieme comune di regole.
+
+### La sua funzione principale
+
+Oltre a ospitare gli scambi, una borsa assicura la formazione del prezzo (aiuta a determinare un prezzo corrente equo facendo incontrare compratori e venditori reali) e fa rispettare i requisiti di quotazione che le società devono soddisfare per esservi scambiate, aggiungendo al mercato un livello di struttura e di vigilanza.
+
+### Esempi noti
+
+*(FATTO VERIFICATO, soggetto a cambiamenti nel tempo: le società quotate cambiano.)* La New York Stock Exchange (NYSE) e il Nasdaq sono due borse valori note, ciascuna con requisiti di quotazione e strutture di negoziazione un po' diversi. In Italia la borsa principale è Borsa Italiana (con il mercato Euronext Milan).
+
+## Esempio svolto
+
+Quando un investitore inserisce un ordine di acquisto o di vendita di un'azione, l'ordine viene inoltrato alla borsa competente, che lo abbina a un ordine di vendita o di acquisto corrispondente a un prezzo concordato: il meccanismo di base dietro il «negoziare un'azione».
+
+## Quiz di esercitazione
+
+1. Una borsa valori è:
+   A. Il desk di negoziazione interno di una singola azienda
+   B. Un mercato organizzato per scambiare azioni di società quotate
+   C. Un'agenzia fiscale statale
+   D. Un tipo di fondo comune
+
+2. Vero o falso: le borse valori ospitano solo gli scambi, senza requisiti di quotazione né ruolo di vigilanza.
+
+3. Indica una borsa valori nota citata in questa lezione.
+   A. Federal Reserve
+   B. NYSE o Nasdaq
+   C. IRS
+   D. SEC
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una borsa è un mercato organizzato per scambiare azioni quotate.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le borse assicurano anche la formazione del prezzo e fanno rispettare i requisiti di quotazione.
+
+### Domanda 3
+
+Risposta corretta: B. NYSE e Nasdaq sono esempi noti.
+
+## Punti chiave
+
+- Una borsa valori è un mercato organizzato per scambiare azioni quotate.
+- Assicura la formazione del prezzo e fa rispettare i requisiti di quotazione.
+- NYSE e Nasdaq sono due esempi noti.
+
+===== WHITE-L1-040
+TITLE: Che cos'è un ticker?
+SUMMARY: Scopri che cos'è un ticker e perché la precisione è importante quando si identifica un'azione specifica.
+# Che cos'è un ticker?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un ticker in termini semplici.
+- spiegare perché la precisione è importante quando lo si usa.
+- riconoscere che nomi simili possono avere simboli molto diversi.
+
+## Contenuto principale
+
+### Che cos'è un ticker
+
+Un ticker (simbolo di borsa) è un codice breve e univoco (di solito composto da lettere) assegnato all'azione di una società quotata, usato per identificarla con precisione in borsa. (In Europa i titoli si identificano spesso anche tramite il codice ISIN.)
+
+### Perché la precisione è importante
+
+Poiché molte aziende possono avere nomi simili o collegati, è il ticker a identificare in modo effettivo e inequivocabile quale azione specifica si sta comprando, vendendo o discutendo: affidarsi solo al nome dell'azienda può portare a errori costosi.
+
+### Nomi simili, simboli diversi
+
+Due aziende con nomi dal suono simile possono avere ticker completamente diversi, e gli errori di battitura o la confusione tra simboli sono un rischio reale ed evitabile quando si inserisce un ordine vero.
+
+## Esempio svolto
+
+Un investitore che vuole comprare azioni di un'azienda specifica cerca il ticker esatto prima di inserire l'ordine, invece di affidarsi solo al ricordo del nome dell'azienda, per evitare di negoziare per errore l'azione sbagliata.
+
+## Quiz di esercitazione
+
+1. Un ticker è:
+   A. La denominazione legale completa di un'azienda
+   B. Un codice breve e univoco che identifica un'azione specifica in borsa
+   C. Un tipo di dividendo
+   D. Un codice fiscale statale
+
+2. Vero o falso: affidarsi solo al nome di un'azienda, senza verificare il ticker esatto, è un modo sicuro per garantire l'operazione corretta.
+
+3. Perché la precisione è importante quando si usa un ticker?
+   A. Non ha alcuna importanza
+   B. Nomi di aziende simili possono avere simboli molto diversi, e gli errori sono costosi
+   C. Tutte le aziende condividono lo stesso ticker
+   D. I ticker sono facoltativi
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un ticker identifica in modo univoco un'azione specifica.
+
+### Domanda 2
+
+Risposta corretta: Falso. Affidarsi solo al nome rischia di confondere aziende con nomi simili.
+
+### Domanda 3
+
+Risposta corretta: B. La precisione evita errori di negoziazione costosi.
+
+## Punti chiave
+
+- Un ticker identifica in modo univoco un'azione specifica in borsa.
+- La precisione è importante: i nomi delle aziende possono essere simili anche quando i ticker sono completamente diversi.
+- Verificare il simbolo esatto prima di negoziare evita errori costosi.

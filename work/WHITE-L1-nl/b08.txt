@@ -1,0 +1,364 @@
+===== WHITE-L1-036
+TITLE: Wat is nominale waarde tegenover reële waarde (koopkracht)?
+SUMMARY: Leer het verschil tussen het geldbedrag en de reële koopkracht ervan, rechtstreeks voortbouwend op de les over inflatie.
+# Wat is nominale waarde tegenover reële waarde (koopkracht)?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- nominale waarde te onderscheiden van reële waarde (koopkracht).
+- uit te leggen waarom het vergelijken van geldbedragen door de tijd heen misleidend kan zijn.
+- dit onderscheid toe te passen op een eenvoudig voorbeeld.
+
+## Kerninhoud
+
+### Nominale waarde en reële waarde
+
+De nominale waarde van geld is gewoon het getal op de rekening of de loonstrook. De reële waarde is wat je met dat geld werkelijk kunt kopen, rekening houdend met inflatie, die in de eerdere les van dit niveau werd behandeld.
+
+### Waarom vergelijkingen door de tijd heen kunnen misleiden
+
+Een inkomen van $ 50.000 vandaag en een inkomen van $ 50.000 twintig jaar geleden zijn in reële termen niet hetzelfde, omdat de prijzen in die tijd zijn veranderd. Wie de kale getallen vergelijkt zonder te corrigeren voor inflatie, kan een misleidend beeld krijgen van de werkelijke financiële vooruitgang.
+
+### Het onderscheid toepassen
+
+Telkens wanneer je geld op verschillende momenten vergelijkt (een salaris, een beleggingsrendement, een historische prijs), vertelt de reële waarde (gecorrigeerd voor inflatie) een nauwkeuriger verhaal dan het kale bedrag alleen.
+
+## Praktijkvoorbeeld
+
+Een salaris dat in vijf jaar steeg van $ 50.000 naar $ 55.000 lijkt in nominale termen te groeien. Als de inflatie in die periode de koopkracht met ongeveer hetzelfde bedrag heeft verminderd, is de reële waarde van dat salaris misschien nauwelijks gegroeid, of zelfs gedaald.
+
+## Oefenquiz
+
+1. Reële waarde verwijst naar:
+   A. Het kale getal op een rekening
+   B. Wat je met geld werkelijk kunt kopen, gecorrigeerd voor inflatie
+   C. Een soort dividend
+   D. De marktkapitalisatie van een bedrijf
+
+2. Waar of onwaar: het vergelijken van kale geldbedragen over verschillende decennia geeft altijd een nauwkeurig beeld van financiële vooruitgang.
+
+3. Waarom kan een salarisverhoging er in nominale termen beter uitzien dan ze in reële termen is?
+   A. Nominale en reële waarde zijn altijd gelijk
+   B. Inflatie kan de gewonnen koopkracht hebben verminderd
+   C. Salarissen worden nooit door inflatie beïnvloed
+   D. Reële waarde geldt alleen voor obligaties
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Reële waarde weerspiegelt de werkelijke koopkracht, niet alleen het kale getal.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Kale vergelijkingen door de tijd heen kunnen misleidend zijn zonder correctie voor inflatie.
+
+### Vraag 3
+
+Juist antwoord: B. Inflatie kan het reële voordeel van een nominale verhoging uithollen.
+
+## Belangrijkste punten
+
+- Nominale waarde is het kale bedrag; reële waarde houdt rekening met koopkracht.
+- Kale geldbedragen door de tijd heen vergelijken kan misleidend zijn.
+- Reële waarde geeft een nauwkeuriger beeld van de werkelijke financiële vooruitgang.
+
+===== WHITE-L1-037
+TITLE: Wat is een bull case tegenover een bear case voor een aandeel?
+SUMMARY: Leer wat het betekent om voor een aandeel een optimistisch of pessimistisch scenario op te bouwen, en waarom het belangrijk is beide te overwegen.
+# Wat is een bull case tegenover een bear case voor een aandeel?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een bull case en een bear case in eenvoudige woorden te definiëren.
+- uit te leggen waarom het belangrijk is beide op te bouwen, niet slechts één.
+- het begrip toe te passen op een eenvoudig hypothetisch voorbeeld.
+
+## Kerninhoud
+
+### Wat een bull case is
+
+Een bull case (optimistisch scenario) is een onderbouwde redenering waarom een aandeel (of een andere belegging) goed zou kunnen presteren, op basis van specifieke factoren zoals groeipotentieel, concurrentievoordelen of gunstige trends.
+
+### Wat een bear case is
+
+Een bear case (pessimistisch scenario) is een onderbouwde redenering waarom een aandeel slecht zou kunnen presteren, op basis van specifieke risico's, zwakke punten of ongunstige trends.
+
+### Waarom het belangrijk is beide te overwegen
+
+Wie alleen een bull case (of alleen een bear case) opbouwt, krijgt een eenzijdig en mogelijk overmoedig beeld. Beide perspectieven echt overwegen, zelfs bij een belegging waar je enthousiast over bent, leidt tot een realistischer begrip van de werkelijke risico's en mogelijkheden.
+
+## Praktijkvoorbeeld
+
+Een belegger die een groeiend bedrijf overweegt, kan een bull case opbouwen rond de groeiende markt en de sterke producten, en tegelijk een bear case rond nieuwe concurrentie en stijgende kosten, en beide afwegen voordat hij beslist.
+
+## Oefenquiz
+
+1. Een bull case is:
+   A. Een onderbouwde redenering waarom een belegging slecht zou kunnen presteren
+   B. Een onderbouwde redenering waarom een belegging goed zou kunnen presteren
+   C. Een gegarandeerde voorspelling van toekomstige prestaties
+   D. Een soort obligatie
+
+2. Waar of onwaar: alleen een bull case opbouwen voor een belegging geeft een volledig, evenwichtig beeld.
+
+3. Waarom is het belangrijk zowel een bull case als een bear case te overwegen?
+   A. Het maakt helemaal niets uit
+   B. Het leidt tot een realistischer, evenwichtiger begrip van een belegging
+   C. Het garandeert een winstgevende uitkomst
+   D. Het is alleen relevant voor obligaties
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een bull case pleit voor mogelijke positieve prestaties.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een eenzijdig beeld mist echte risico's of zwakke punten.
+
+### Vraag 3
+
+Juist antwoord: B. Beide overwegen leidt tot een evenwichtiger, realistischer beeld.
+
+## Belangrijkste punten
+
+- Een bull case pleit voor mogelijke positieve prestaties; een bear case voor mogelijke negatieve prestaties.
+- Slechts één kant opbouwen geeft een onvolledig, overmoedig beeld.
+- Beide overwegen leidt tot realistischere beleggingsbeslissingen.
+
+===== WHITE-L1-038
+TITLE: Wat is handel met voorkennis, en waarom is het verboden?
+SUMMARY: Leer wat handel met voorkennis (insider trading) betekent en welke basisredenering achter het verbod zit.
+# Wat is handel met voorkennis, en waarom is het verboden?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- handel met voorkennis in eenvoudige woorden te definiëren.
+- de basisredenering achter het verbod uit te leggen.
+- te herkennen dat dit een echte wettelijke grens is, niet alleen een ethische richtlijn.
+
+## Kerninhoud
+
+### Wat handel met voorkennis is
+
+*(REGIOSPECIFIEKE REGEL: deze les beschrijft het algemene begrip; de specifieke wetten verschillen per land. In de Europese Unie, dus ook in Nederland en België, wordt dit vooral geregeld door de Verordening marktmisbruik (MAR), met toezicht door de AFM in Nederland en de FSMA in België; raadpleeg voor concrete gevallen een jurist.)* Handel met voorkennis (in het Engels "insider trading") verwijst doorgaans naar het kopen of verkopen van een aandeel op basis van wezenlijke, niet-openbare informatie: informatie die nog niet beschikbaar is voor het grote publiek en die de koers van het aandeel redelijkerwijs zou kunnen beïnvloeden.
+
+### De basisredenering achter het verbod
+
+Markten zijn er doorgaans op gericht te werken met een gelijk informatieveld. Wie handelt op basis van niet-openbare informatie, heeft een oneerlijk voordeel tegenover andere beleggers die geen toegang hebben tot diezelfde informatie, en ondermijnt zo voor iedereen het vertrouwen in een eerlijke prijsvorming op de markt.
+
+### Een echte wettelijke grens
+
+Dit wordt niet alleen als onethisch beschouwd: in veel landen, waaronder de beschreven beschermingen in het Amerikaanse effectenrecht, is het een echte, strafrechtelijk vervolgbare wetsovertreding en niet slechts een kwestie van persoonlijk oordeel.
+
+## Praktijkvoorbeeld
+
+Een werknemer die, voordat het openbaar wordt gemaakt, hoort dat zijn bedrijf tegenvallende cijfers gaat publiceren, en op basis van die niet-openbare kennis zijn aandelen vóór de aankondiging verkoopt, zou handel met voorkennis plegen.
+
+## Oefenquiz
+
+1. Handel met voorkennis verwijst doorgaans naar:
+   A. Handelen in aandelen op basis van openbaar beschikbare informatie
+   B. Handelen in aandelen op basis van wezenlijke, niet-openbare informatie
+   C. Een soort dividenduitkering
+   D. Een verplicht openbaarmakingsformulier
+
+2. Waar of onwaar: handel met voorkennis is alleen een ethische richtlijn, geen echte wetsovertreding.
+
+3. Waarom is handel met voorkennis doorgaans verboden?
+   A. Er is geen echte rechtvaardiging voor
+   B. Het geeft een oneerlijk voordeel tegenover beleggers zonder toegang tot dezelfde informatie
+   C. Het is alleen verboden voor bestuurders van bedrijven
+   D. Het geldt alleen voor obligaties
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Bij handel met voorkennis wordt gehandeld op basis van wezenlijke, niet-openbare informatie.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. In veel rechtsstelsels is het een echte, vervolgbare wetsovertreding en niet alleen een ethische kwestie.
+
+### Vraag 3
+
+Juist antwoord: B. Het ondermijnt een eerlijke, gelijke toegang tot koersgevoelige informatie.
+
+## Belangrijkste punten
+
+- Handel met voorkennis betekent handelen op basis van wezenlijke, niet-openbare informatie.
+- Het is verboden omdat het een oneerlijk informatievoordeel geeft.
+- Het is een echte wetsovertreding, niet alleen een ethische richtlijn.
+
+===== WHITE-L1-039
+TITLE: Wat is een effectenbeurs? (NYSE, Nasdaq: wat ze echt doen)
+SUMMARY: Leer wat een effectenbeurs echt doet, verder dan alleen "de plek waar aandelen worden verhandeld".
+# Wat is een effectenbeurs? (NYSE, Nasdaq: wat ze echt doen)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een effectenbeurs in eenvoudige woorden te definiëren.
+- de kernfunctie ervan uit te leggen, verder dan "een plek waar aandelen worden verhandeld".
+- twee bekende voorbeelden te noemen.
+
+## Kerninhoud
+
+### Wat een effectenbeurs is
+
+Een effectenbeurs is een georganiseerde markt waar kopers en verkopers samenkomen om volgens een gemeenschappelijk regelkader aandelen van beursgenoteerde bedrijven te verhandelen.
+
+### De kernfunctie
+
+Naast het faciliteren van transacties zorgt een beurs voor prijsvorming (ze helpt een eerlijke actuele prijs te bepalen door echte kopers en verkopers bij elkaar te brengen) en handhaaft ze noteringseisen waaraan bedrijven moeten voldoen om er verhandeld te worden, wat de markt extra structuur en toezicht geeft.
+
+### Bekende voorbeelden
+
+*(GEVERIFIEERD FEIT, kan in de loop van de tijd veranderen: de notering van bedrijven verschuift.)* De New York Stock Exchange (NYSE) en de Nasdaq zijn twee bekende effectenbeurzen, elk met enigszins verschillende noteringseisen en handelsstructuren. In Nederland en België zijn dat bijvoorbeeld Euronext Amsterdam en Euronext Brussels.
+
+## Praktijkvoorbeeld
+
+Wanneer een belegger een order plaatst om een aandeel te kopen of te verkopen, wordt die order doorgestuurd naar de betreffende beurs, die haar koppelt aan een overeenkomstige koop- of verkooporder tegen een overeengekomen prijs: het basismechanisme achter "het verhandelen van een aandeel".
+
+## Oefenquiz
+
+1. Een effectenbeurs is:
+   A. De interne handelsafdeling van één bedrijf
+   B. Een georganiseerde markt voor het verhandelen van aandelen van beursgenoteerde bedrijven
+   C. Een belastingdienst van de overheid
+   D. Een soort beleggingsfonds
+
+2. Waar of onwaar: effectenbeurzen faciliteren alleen transacties, zonder noteringseisen of toezichthoudende rol.
+
+3. Noem een bekende effectenbeurs die in deze les wordt genoemd.
+   A. Federal Reserve
+   B. NYSE of Nasdaq
+   C. IRS
+   D. SEC
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een beurs is een georganiseerde markt voor het verhandelen van genoteerde aandelen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Beurzen zorgen ook voor prijsvorming en handhaven noteringseisen.
+
+### Vraag 3
+
+Juist antwoord: B. NYSE en Nasdaq zijn bekende voorbeelden.
+
+## Belangrijkste punten
+
+- Een effectenbeurs is een georganiseerde markt voor het verhandelen van genoteerde aandelen.
+- Ze zorgt voor prijsvorming en handhaaft noteringseisen.
+- NYSE en Nasdaq zijn twee bekende voorbeelden.
+
+===== WHITE-L1-040
+TITLE: Wat is een tickersymbool?
+SUMMARY: Leer wat een tickersymbool is en waarom nauwkeurigheid belangrijk is bij het identificeren van een specifiek aandeel.
+# Wat is een tickersymbool?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een tickersymbool in eenvoudige woorden te definiëren.
+- uit te leggen waarom nauwkeurigheid belangrijk is bij het gebruik ervan.
+- te herkennen dat namen die op elkaar lijken heel verschillende symbolen kunnen hebben.
+
+## Kerninhoud
+
+### Wat een tickersymbool is
+
+Een tickersymbool is een unieke korte code (meestal letters) die aan het aandeel van een beursgenoteerd bedrijf is toegekend en die wordt gebruikt om het op een beurs nauwkeurig te identificeren. (In Europa worden effecten daarnaast vaak geïdentificeerd met de ISIN-code.)
+
+### Waarom nauwkeurigheid belangrijk is
+
+Omdat veel bedrijven vergelijkbare of verwante namen kunnen hebben, is het tickersymbool wat werkelijk en ondubbelzinnig bepaalt welk specifiek aandeel wordt gekocht, verkocht of besproken: alleen op een bedrijfsnaam vertrouwen kan tot dure fouten leiden.
+
+### Vergelijkbare namen, verschillende symbolen
+
+Twee bedrijven met vergelijkbaar klinkende namen kunnen totaal verschillende tickersymbolen hebben, en tikfouten of verwarring tussen symbolen zijn een reëel, vermijdbaar risico bij het plaatsen van een echte order.
+
+## Praktijkvoorbeeld
+
+Een belegger die aandelen van een specifiek bedrijf wil kopen, zoekt vóór het plaatsen van de order het exacte tickersymbool op, in plaats van alleen te vertrouwen op zijn herinnering aan de bedrijfsnaam, om te voorkomen dat hij per ongeluk het verkeerde aandeel verhandelt.
+
+## Oefenquiz
+
+1. Een tickersymbool is:
+   A. De volledige juridische naam van een bedrijf
+   B. Een unieke korte code die een specifiek aandeel op een beurs identificeert
+   C. Een soort dividend
+   D. Een fiscaal identificatienummer van de overheid
+
+2. Waar of onwaar: alleen vertrouwen op de naam van een bedrijf, zonder het exacte tickersymbool te controleren, is een veilige manier om de juiste transactie te garanderen.
+
+3. Waarom is nauwkeurigheid belangrijk bij het gebruik van een tickersymbool?
+   A. Het maakt helemaal niets uit
+   B. Vergelijkbare bedrijfsnamen kunnen heel verschillende symbolen hebben, en fouten zijn duur
+   C. Alle bedrijven delen hetzelfde tickersymbool
+   D. Tickersymbolen zijn optioneel
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een tickersymbool identificeert een specifiek aandeel uniek.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Wie alleen op de naam vertrouwt, riskeert bedrijven met vergelijkbare namen te verwarren.
+
+### Vraag 3
+
+Juist antwoord: B. Nauwkeurigheid voorkomt dure handelsfouten.
+
+## Belangrijkste punten
+
+- Een tickersymbool identificeert een specifiek aandeel op een beurs uniek.
+- Nauwkeurigheid is belangrijk: bedrijfsnamen kunnen op elkaar lijken, ook al zijn de tickersymbolen totaal verschillend.
+- Het exacte symbool controleren vóór het handelen voorkomt dure fouten.

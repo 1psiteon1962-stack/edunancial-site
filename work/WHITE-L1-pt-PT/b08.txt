@@ -1,0 +1,364 @@
+===== WHITE-L1-036
+TITLE: O que é o valor nominal versus o valor real (poder de compra)?
+SUMMARY: Aprenda a diferença entre o montante em dinheiro e o seu poder de compra real, com base direta na lição sobre a inflação.
+# O que é o valor nominal versus o valor real (poder de compra)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- distinguir valor nominal de valor real (poder de compra).
+- explicar porque é que comparar montantes em dinheiro ao longo do tempo pode induzir em erro.
+- aplicar esta distinção a um exemplo básico.
+
+## Conteúdo principal
+
+### Valor nominal e valor real
+
+O valor nominal do dinheiro é simplesmente o número na conta ou no recibo de vencimento. O valor real é o que esse dinheiro consegue efetivamente comprar, tendo em conta a inflação, vista na lição anterior deste nível.
+
+### Porque é que comparar ao longo do tempo pode induzir em erro
+
+Um rendimento de 50 000 $ hoje e um rendimento de 50 000 $ há vinte anos não são a mesma coisa em termos reais, porque os preços mudaram nesse período. Comparar os números brutos sem os corrigir pela inflação pode criar uma imagem enganadora do progresso financeiro real.
+
+### Aplicar a distinção
+
+Sempre que se compara dinheiro em momentos diferentes (um salário, o retorno de um investimento, um preço histórico), o valor real (corrigido pela inflação) conta uma história mais rigorosa do que o montante bruto por si só.
+
+## Exemplo prático
+
+Um salário que subiu de 50 000 $ para 55 000 $ em cinco anos parece crescer em termos nominais. Se a inflação nesse período reduziu o poder de compra mais ou menos na mesma medida, o valor real desse salário pode ter crescido muito pouco, ou até diminuído.
+
+## Teste de prática
+
+1. O valor real refere-se a:
+   A. O número bruto numa conta
+   B. O que o dinheiro consegue efetivamente comprar, corrigido pela inflação
+   C. Um tipo de dividendo
+   D. A capitalização bolsista de uma empresa
+
+2. Verdadeiro ou falso: comparar montantes brutos em dinheiro entre décadas diferentes dá sempre uma imagem rigorosa do progresso financeiro.
+
+3. Porque é que um aumento de salário pode parecer melhor em termos nominais do que é realmente em termos reais?
+   A. O valor nominal e o valor real são sempre idênticos
+   B. A inflação pode ter reduzido o poder de compra ganho
+   C. Os salários nunca são afetados pela inflação
+   D. O valor real só se aplica a obrigações
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O valor real reflete o poder de compra efetivo, e não só o número bruto.
+
+### Pergunta 2
+
+Resposta correta: Falso. As comparações brutas ao longo do tempo podem induzir em erro sem a correção pela inflação.
+
+### Pergunta 3
+
+Resposta correta: B. A inflação pode corroer o benefício real de um aumento nominal.
+
+## Pontos-chave
+
+- O valor nominal é o montante bruto em dinheiro; o valor real tem em conta o poder de compra.
+- Comparar montantes brutos ao longo do tempo pode induzir em erro.
+- O valor real dá uma imagem mais rigorosa do progresso financeiro efetivo.
+
+===== WHITE-L1-037
+TITLE: O que é um cenário otimista (bull case) versus um cenário pessimista (bear case) para uma ação?
+SUMMARY: Aprenda o que significa construir um cenário otimista ou pessimista para uma ação e porque é que é importante considerar ambos.
+# O que é um cenário otimista (bull case) versus um cenário pessimista (bear case) para uma ação?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir cenário otimista e cenário pessimista em termos simples.
+- explicar porque é que importa construir ambos, e não apenas um.
+- aplicar o conceito a um exemplo hipotético básico.
+
+## Conteúdo principal
+
+### O que é um cenário otimista
+
+Um cenário otimista (em inglês, "bull case") é um argumento fundamentado sobre a razão pela qual uma ação (ou outro investimento) pode ter um bom desempenho, com base em fatores específicos como o potencial de crescimento, as vantagens competitivas ou as tendências favoráveis.
+
+### O que é um cenário pessimista
+
+Um cenário pessimista (em inglês, "bear case") é um argumento fundamentado sobre a razão pela qual uma ação pode ter um mau desempenho, com base em riscos específicos, fragilidades ou tendências desfavoráveis.
+
+### Porque é que importa considerar ambos
+
+Construir apenas um cenário otimista (ou apenas um pessimista) cria uma visão unilateral e possivelmente demasiado confiante. Considerar verdadeiramente ambas as perspetivas, mesmo num investimento que entusiasma, conduz a uma compreensão mais realista dos riscos e do potencial envolvidos.
+
+## Exemplo prático
+
+Um investidor que avalia uma empresa em crescimento pode construir um cenário otimista em torno do mercado em expansão e dos produtos fortes e, ao mesmo tempo, um cenário pessimista em torno da nova concorrência e da subida dos custos, ponderando ambos antes de decidir.
+
+## Teste de prática
+
+1. Um cenário otimista é:
+   A. Um argumento fundamentado sobre a razão pela qual um investimento pode ter um mau desempenho
+   B. Um argumento fundamentado sobre a razão pela qual um investimento pode ter um bom desempenho
+   C. Uma previsão garantida do desempenho futuro
+   D. Um tipo de obrigação
+
+2. Verdadeiro ou falso: construir apenas um cenário otimista para um investimento oferece uma visão completa e equilibrada.
+
+3. Porque é que é importante considerar tanto o cenário otimista como o pessimista?
+   A. Não tem qualquer importância
+   B. Conduz a uma compreensão mais realista e equilibrada de um investimento
+   C. Garante um resultado lucrativo
+   D. Só é relevante para obrigações
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um cenário otimista defende um possível desempenho positivo.
+
+### Pergunta 2
+
+Resposta correta: Falso. Uma visão unilateral ignora riscos ou fragilidades reais.
+
+### Pergunta 3
+
+Resposta correta: B. Considerar ambos conduz a uma visão mais equilibrada e realista.
+
+## Pontos-chave
+
+- Um cenário otimista defende um possível desempenho positivo; um pessimista, um possível desempenho negativo.
+- Construir apenas um dos lados cria uma visão incompleta e demasiado confiante.
+- Considerar ambos conduz a decisões de investimento mais realistas.
+
+===== WHITE-L1-038
+TITLE: O que é o abuso de informação privilegiada (insider trading), e porque é que é ilegal?
+SUMMARY: Aprenda o que significa abuso de informação privilegiada e o raciocínio básico por detrás da sua proibição.
+# O que é o abuso de informação privilegiada (insider trading), e porque é que é ilegal?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir abuso de informação privilegiada em termos simples.
+- explicar o raciocínio básico por detrás da sua proibição.
+- reconhecer isto como um limite legal real, e não apenas uma orientação ética.
+
+## Conteúdo principal
+
+### O que é o abuso de informação privilegiada
+
+*(REGRA ESPECÍFICA DA REGIÃO: esta lição descreve o conceito geral; as leis específicas variam de país para país. Na União Europeia, incluindo Portugal, a matéria é regulada sobretudo pelo Regulamento relativo ao abuso de mercado (MAR) e, em Portugal, também pelo Código dos Valores Mobiliários, sob a supervisão da CMVM; para casos concretos, consulte um advogado.)* O abuso de informação privilegiada (em inglês, "insider trading") refere-se geralmente a comprar ou vender uma ação com base em informação relevante e não pública: informação ainda não disponível ao público em geral que poderia, de forma razoável, afetar o preço da ação.
+
+### O raciocínio básico por detrás da proibição
+
+Os mercados destinam-se, em geral, a funcionar em igualdade de acesso à informação. Quem negoceia com base em informação não pública tem uma vantagem injusta sobre os outros investidores que não têm acesso à mesma informação, minando a confiança de todos os demais na formação justa dos preços de mercado.
+
+### Um limite legal real
+
+Isto não é considerado apenas antiético: em muitos países, incluindo as proteções descritas na legislação de valores mobiliários dos EUA, é uma violação legal real, passível de procedimento criminal, e não uma mera questão de juízo pessoal.
+
+## Exemplo prático
+
+Um trabalhador que fica a saber, antes do anúncio público, que a sua empresa vai divulgar resultados dececionantes, e que vende as suas ações com base nesse conhecimento não público antes do anúncio, estaria a praticar abuso de informação privilegiada.
+
+## Teste de prática
+
+1. O abuso de informação privilegiada refere-se geralmente a:
+   A. Negociar ações com base em informação disponível publicamente
+   B. Negociar ações com base em informação relevante e não pública
+   C. Um tipo de pagamento de dividendos
+   D. Um formulário de divulgação obrigatório
+
+2. Verdadeiro ou falso: o abuso de informação privilegiada é apenas uma orientação ética, e não uma violação legal efetiva.
+
+3. Porque é que o abuso de informação privilegiada é geralmente proibido?
+   A. Não tem qualquer justificação real
+   B. Cria uma vantagem injusta sobre os investidores sem acesso à mesma informação
+   C. Só é ilegal para os administradores das empresas
+   D. Só se aplica a obrigações
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O abuso de informação privilegiada envolve negociar com base em informação relevante e não pública.
+
+### Pergunta 2
+
+Resposta correta: Falso. Em muitas jurisdições, é uma violação legal real e passível de procedimento criminal, e não apenas uma questão ética.
+
+### Pergunta 3
+
+Resposta correta: B. Mina o acesso justo e igual à informação que move o mercado.
+
+## Pontos-chave
+
+- Abuso de informação privilegiada significa negociar com base em informação relevante e não pública.
+- É proibido porque cria uma vantagem de informação injusta.
+- É uma violação legal real, e não apenas uma orientação ética.
+
+===== WHITE-L1-039
+TITLE: O que é uma bolsa de valores? (NYSE, Nasdaq: o que fazem realmente)
+SUMMARY: Aprenda o que uma bolsa de valores faz realmente, para além de ser apenas "o lugar onde se negoceiam ações".
+# O que é uma bolsa de valores? (NYSE, Nasdaq: o que fazem realmente)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir bolsa de valores em termos simples.
+- explicar a sua função central, para além de "um lugar onde se negoceiam ações".
+- indicar dois exemplos conhecidos.
+
+## Conteúdo principal
+
+### O que é uma bolsa de valores
+
+Uma bolsa de valores é um mercado organizado onde compradores e vendedores se encontram para negociar ações de empresas cotadas, segundo um conjunto comum de regras.
+
+### A sua função central
+
+Para além de acolher as negociações, uma bolsa assegura a formação de preços (ajuda a determinar um preço atual justo ao fazer corresponder compradores e vendedores reais) e faz cumprir requisitos de admissão à cotação que as empresas têm de satisfazer para ali serem negociadas, acrescentando ao mercado uma camada de estrutura e supervisão.
+
+### Exemplos conhecidos
+
+*(FACTO VERIFICADO, sujeito a alterações ao longo do tempo: as empresas cotadas mudam.)* A Bolsa de Valores de Nova Iorque (NYSE) e a Nasdaq são duas bolsas de valores conhecidas, cada uma com requisitos de admissão e estruturas de negociação algo diferentes. Em Portugal, a bolsa é a Euronext Lisbon.
+
+## Exemplo prático
+
+Quando um investidor dá uma ordem de compra ou de venda de uma ação, essa ordem é encaminhada para a bolsa correspondente, que a faz corresponder a uma ordem de venda ou de compra equivalente a um preço acordado: o mecanismo básico por detrás de "negociar uma ação".
+
+## Teste de prática
+
+1. Uma bolsa de valores é:
+   A. A mesa de negociação interna de uma única empresa
+   B. Um mercado organizado para negociar ações de empresas cotadas
+   C. Uma autoridade tributária do Estado
+   D. Um tipo de fundo de investimento
+
+2. Verdadeiro ou falso: as bolsas de valores apenas acolhem negociações, sem requisitos de admissão nem papel de supervisão.
+
+3. Indique uma bolsa de valores conhecida mencionada nesta lição.
+   A. Federal Reserve
+   B. NYSE ou Nasdaq
+   C. IRS
+   D. SEC
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma bolsa é um mercado organizado para negociar ações cotadas.
+
+### Pergunta 2
+
+Resposta correta: Falso. As bolsas também asseguram a formação de preços e fazem cumprir requisitos de admissão.
+
+### Pergunta 3
+
+Resposta correta: B. A NYSE e a Nasdaq são exemplos conhecidos.
+
+## Pontos-chave
+
+- Uma bolsa de valores é um mercado organizado para negociar ações cotadas.
+- Assegura a formação de preços e faz cumprir requisitos de admissão.
+- A NYSE e a Nasdaq são dois exemplos conhecidos.
+
+===== WHITE-L1-040
+TITLE: O que é um ticker (símbolo bolsista)?
+SUMMARY: Aprenda o que é um ticker e porque é que a precisão importa quando se identifica uma ação específica.
+# O que é um ticker (símbolo bolsista)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir ticker em termos simples.
+- explicar porque é que a precisão importa ao utilizá-lo.
+- reconhecer que nomes semelhantes podem ter símbolos muito diferentes.
+
+## Conteúdo principal
+
+### O que é um ticker
+
+Um ticker é um código curto e único (normalmente composto por letras) atribuído à ação de uma empresa cotada, utilizado para a identificar com precisão numa bolsa. (Na Europa, os valores mobiliários são também frequentemente identificados pelo código ISIN.)
+
+### Porque é que a precisão importa
+
+Como muitas empresas podem ter nomes semelhantes ou relacionados, é o ticker que identifica efetivamente e sem ambiguidade qual a ação específica que está a ser comprada, vendida ou discutida: confiar apenas no nome da empresa pode levar a erros dispendiosos.
+
+### Nomes semelhantes, símbolos diferentes
+
+Duas empresas com nomes parecidos podem ter tickers completamente diferentes, e os erros de digitação ou a confusão entre símbolos são um risco real e evitável quando se dá uma ordem a sério.
+
+## Exemplo prático
+
+Um investidor que queira comprar ações de uma empresa específica procura o ticker exato antes de dar a ordem, em vez de confiar apenas na memória do nome da empresa, para não negociar por engano a ação errada.
+
+## Teste de prática
+
+1. Um ticker é:
+   A. A denominação jurídica completa de uma empresa
+   B. Um código curto e único que identifica uma ação específica numa bolsa
+   C. Um tipo de dividendo
+   D. Um número de identificação fiscal do Estado
+
+2. Verdadeiro ou falso: confiar apenas no nome de uma empresa, sem verificar o ticker exato, é uma forma segura de garantir a operação correta.
+
+3. Porque é que a precisão importa ao utilizar um ticker?
+   A. Não tem qualquer importância
+   B. Nomes de empresas semelhantes podem ter símbolos muito diferentes, e os erros saem caros
+   C. Todas as empresas partilham o mesmo ticker
+   D. Os tickers são opcionais
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um ticker identifica de forma única uma ação específica.
+
+### Pergunta 2
+
+Resposta correta: Falso. Confiar apenas no nome arrisca confundir empresas com nomes semelhantes.
+
+### Pergunta 3
+
+Resposta correta: B. A precisão evita erros de negociação dispendiosos.
+
+## Pontos-chave
+
+- Um ticker identifica de forma única uma ação específica numa bolsa.
+- A precisão importa: os nomes das empresas podem ser semelhantes mesmo quando os tickers são completamente diferentes.
+- Verificar o símbolo exato antes de negociar evita erros dispendiosos.
