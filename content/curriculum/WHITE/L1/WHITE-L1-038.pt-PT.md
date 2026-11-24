@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 38
 locale: pt-PT
-title: "O que é insider trading e por que é ilegal?"
-summary: "Aprenda o significado de insider trading e a razão básica de sua proibição."
-sourceVersion: "1.0"
+title: "O que é o abuso de informação privilegiada (insider trading), e porque é que é ilegal?"
+summary: "Aprenda o que significa abuso de informação privilegiada e o raciocínio básico por detrás da sua proibição."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é insider trading e por que é ilegal?
+# O que é o abuso de informação privilegiada (insider trading), e porque é que é ilegal?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir abuso de informação privilegiada em termos simples.
+- explicar o raciocínio básico por detrás da sua proibição.
+- reconhecer isto como um limite legal real, e não apenas uma orientação ética.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é o abuso de informação privilegiada
 
-*(REGRA ESPECÍFICA DA REGIÃO: esta lição descreve o conceito geral; as leis específicas variam por país.)* Insider trading geralmente significa comprar ou vender ações com base em informação relevante e não pública — informação ainda indisponível ao público e capaz de afetar razoavelmente o preço.
+*(REGRA ESPECÍFICA DA REGIÃO: esta lição descreve o conceito geral; as leis específicas variam de país para país. Na União Europeia, incluindo Portugal, a matéria é regulada sobretudo pelo Regulamento relativo ao abuso de mercado (MAR) e, em Portugal, também pelo Código dos Valores Mobiliários, sob a supervisão da CMVM; para casos concretos, consulte um advogado.)* O abuso de informação privilegiada (em inglês, "insider trading") refere-se geralmente a comprar ou vender uma ação com base em informação relevante e não pública: informação ainda não disponível ao público em geral que poderia, de forma razoável, afetar o preço da ação.
 
-### Como funciona
+### O raciocínio básico por detrás da proibição
 
-Os mercados procuram operar com condições informacionais justas. Negociar com informação não pública cria vantagem injusta sobre investidores sem acesso a ela e prejudica a confiança na formação justa de preços.
+Os mercados destinam-se, em geral, a funcionar em igualdade de acesso à informação. Quem negoceia com base em informação não pública tem uma vantagem injusta sobre os outros investidores que não têm acesso à mesma informação, minando a confiança de todos os demais na formação justa dos preços de mercado.
 
-### Por que isso importa
+### Um limite legal real
 
-Não é apenas uma questão ética. Em muitos países, inclusive sob a legislação de valores mobiliários dos Estados Unidos, certas formas de insider trading constituem violações legais sujeitas a sanções.
+Isto não é considerado apenas antiético: em muitos países, incluindo as proteções descritas na legislação de valores mobiliários dos EUA, é uma violação legal real, passível de procedimento criminal, e não uma mera questão de juízo pessoal.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um funcionário descobre antes do anúncio público que a empresa divulgará resultados decepcionantes e vende suas ações com base nesse conhecimento não público. Isso pode constituir insider trading.
+Um trabalhador que fica a saber, antes do anúncio público, que a sua empresa vai divulgar resultados dececionantes, e que vende as suas ações com base nesse conhecimento não público antes do anúncio, estaria a praticar abuso de informação privilegiada.
 
-## Quiz prático
+## Teste de prática
 
-1. Insider trading geralmente: A. usa informação pública B. usa informação relevante não pública C. dividendo D. formulário
-2. Verdadeiro ou falso: é apenas orientação ética, nunca questão jurídica.
-3. Por que proibido? A. sem razão B. vantagem informacional injusta C. só executivos D. só títulos
+1. O abuso de informação privilegiada refere-se geralmente a:
+   A. Negociar ações com base em informação disponível publicamente
+   B. Negociar ações com base em informação relevante e não pública
+   C. Um tipo de pagamento de dividendos
+   D. Um formulário de divulgação obrigatório
 
-## Gabarito
+2. Verdadeiro ou falso: o abuso de informação privilegiada é apenas uma orientação ética, e não uma violação legal efetiva.
+
+3. Porque é que o abuso de informação privilegiada é geralmente proibido?
+   A. Não tem qualquer justificação real
+   B. Cria uma vantagem injusta sobre os investidores sem acesso à mesma informação
+   C. Só é ilegal para os administradores das empresas
+   D. Só se aplica a obrigações
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Um funcionário descobre antes do anúncio público que a empresa divulgará res
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O abuso de informação privilegiada envolve negociar com base em informação relevante e não pública.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Em muitas jurisdições, é uma violação legal real e passível de procedimento criminal, e não apenas uma questão ética.
+
+### Pergunta 3
+
+Resposta correta: B. Mina o acesso justo e igual à informação que move o mercado.
+
+## Pontos-chave
+
+- Abuso de informação privilegiada significa negociar com base em informação relevante e não pública.
+- É proibido porque cria uma vantagem de informação injusta.
+- É uma violação legal real, e não apenas uma orientação ética.

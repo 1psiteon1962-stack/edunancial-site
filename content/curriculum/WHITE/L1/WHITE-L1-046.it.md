@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 46
 locale: it
-title: "Le Basi delle Opzioni — Call e Put"
-summary: "*OPINIONE:* Le opzioni sono generalmente considerate più complesse e a maggior rischio rispetto ad azioni o fondi di base, e molti educatori finanziari raccomandano comunemente di costruire prima una solida comprensione fondamentale dell'investimento di base prima di usare le opzioni — questa lezione fornisce solo un'introduzione superficiale, non una guida sufficiente per negoziare opzioni in modo indipendente."
-sourceVersion: "1.0"
+title: "Che cos'è il riacquisto di azioni proprie (buyback)? (Versione introduttiva – approfondimento nel Livello 2)"
+summary: "Scopri a livello introduttivo che cos'è un buyback e perché può influire sui dati per azione senza cambiare l'attività."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-046: Le Basi delle Opzioni — Call e Put
+# Che cos'è il riacquisto di azioni proprie (buyback)? (Versione introduttiva – approfondimento nel Livello 2)
 
-## Obiettivi di Apprendimento
-1. Definire un contratto di opzione in termini generali.
-2. Distinguere un'opzione call da un'opzione put.
-3. Riconoscere le opzioni come strumenti generalmente più complessi e a maggior rischio.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un'opzione è un contratto che dà al detentore il diritto (ma non l'obbligo) di comprare o vendere un titolo a un prezzo specifico entro un periodo specifico. Un'**opzione call** dà il diritto di comprare a un prezzo fisso; un'**opzione put** dà il diritto di vendere a un prezzo fisso.
+Al termine di questa lezione dovresti essere in grado di:
 
-*OPINIONE:* Le opzioni sono generalmente considerate più complesse e a maggior rischio rispetto ad azioni o fondi di base, e molti educatori finanziari raccomandano comunemente di costruire prima una solida comprensione fondamentale dell'investimento di base prima di usare le opzioni — questa lezione fornisce solo un'introduzione superficiale, non una guida sufficiente per negoziare opzioni in modo indipendente.
+- definire un buyback in termini semplici.
+- spiegare l'effetto meccanico di base sul numero di azioni in circolazione.
+- riconoscere che un esame più approfondito dei suoi effetti sugli indicatori arriva nel Livello 2.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investitore compra un'opzione call che gli dà il diritto di comprare un'azione a $50 entro il prossimo mese, pagando un premio per quel diritto. Se l'azione sale a $60, potrebbe esercitare l'opzione per comprare a $50 e avere immediatamente una posizione che vale di più — guadagnando dalla differenza meno il premio pagato. Se l'azione resta sotto $50, l'opzione può scadere senza valore, e l'investitore perde solo il premio pagato.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un contratto di opzione, in termini generali?
-2. Quale diritto dà al detentore un'opzione call?
-3. Quale diritto dà al detentore un'opzione put?
-4. Vero/Falso: Le opzioni sono generalmente considerate più semplici e a minor rischio rispetto alle azioni di base.
+### Che cos'è un buyback
 
-## Chiave di Risposte
-1. Un contratto che dà il diritto (non l'obbligo) di comprare/vendere a un prezzo fisso entro un periodo   2. Comprare a un prezzo fisso   3. Vendere a un prezzo fisso   4. Falso
+Un buyback (riacquisto di azioni proprie) avviene quando un'azienda ricompra le proprie azioni sul mercato aperto, riducendo il numero di azioni in circolazione (un concetto introdotto in precedenza in questo livello).
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un contratto di opzioni.
-2. Questo definisce specificamente un'opzione call.
-3. Questo definisce specificamente un'opzione put.
-4. Le opzioni sono generalmente considerate più complesse e a maggior rischio rispetto ai titoli di base.
+### L'effetto meccanico di base
 
-## Punti Chiave da Ricordare
-- Un'opzione dà il diritto, non l'obbligo, di comprare/vendere a un prezzo fisso entro un periodo.
-- Le call implicano il diritto di comprare; le put implicano il diritto di vendere.
-- Le opzioni sono generalmente più complesse e a maggior rischio — costruisci prima una conoscenza fondamentale.
+Con meno azioni in circolazione e lo stesso utile complessivo dell'azienda, ogni azione rimasta rappresenta una fetta un po' più grande dell'azienda: un collegamento con l'EPS (utile per azione), trattato in precedenza in questo livello.
+
+### Un'anteprima del Livello 2
+
+*IPOTESI (a scopo didattico):* Questa lezione introduttiva tratta solo la meccanica di base. Il Livello 2 approfondisce come i buyback possano far sembrare migliori i dati per azione, come l'EPS e il rapporto P/E, senza che l'attività sottostante migliori davvero.
+
+## Esempio svolto
+
+Un'azienda con 1.000.000 di azioni in circolazione ne riacquista 100.000, lasciandone 900.000. Con lo stesso utile netto, l'EPS sale semplicemente perché quell'utile ora è diviso tra meno azioni.
+
+## Quiz di esercitazione
+
+1. Un buyback significa:
+   A. Un'azienda che emette azioni del tutto nuove
+   B. Un'azienda che ricompra le proprie azioni sul mercato
+   C. Un frazionamento azionario
+   D. Il pagamento di un dividendo
+
+2. Vero o falso: un buyback aumenta il numero totale di azioni in circolazione.
+
+3. A parità di utile netto, che cosa succede all'EPS dopo che un buyback ha ridotto le azioni in circolazione?
+   A. L'EPS diminuisce
+   B. L'EPS aumenta, perché l'utile ora è diviso tra meno azioni
+   C. L'EPS resta esattamente uguale
+   D. L'EPS diventa zero
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un buyback è il riacquisto da parte di un'azienda delle proprie azioni.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un buyback riduce, non aumenta, le azioni in circolazione.
+
+### Domanda 3
+
+Risposta corretta: B. Meno azioni tra cui dividere lo stesso utile fanno salire meccanicamente l'EPS.
+
+## Punti chiave
+
+- Un buyback è il riacquisto da parte di un'azienda delle proprie azioni, che riduce le azioni in circolazione.
+- Questo fa salire meccanicamente l'EPS, anche senza alcuna variazione dell'utile complessivo.
+- Il Livello 2 approfondisce come questo possa distorcere gli indicatori per azione.

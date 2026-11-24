@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 40
 locale: it
-title: "Riequilibrare un Portafoglio"
-summary: "Lezione WHITE-L1-040 in italiano."
-sourceVersion: "1.0"
+title: "Che cos'è un ticker?"
+summary: "Scopri che cos'è un ticker e perché la precisione è importante quando si identifica un'azione specifica."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-040: Riequilibrare un Portafoglio
+# Che cos'è un ticker?
 
-## Obiettivi di Apprendimento
-1. Definire il riequilibrio del portafoglio.
-2. Spiegare perché le allocazioni si spostano nel tempo senza riequilibrio.
-3. Identificare gli approcci comuni al riequilibrio.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Riequilibrare significa regolare periodicamente un portafoglio riportandolo alla sua allocazione di attivi obiettivo, poiché diversi attivi crescono a ritmi diversi e fanno spostare l'allocazione originale nel tempo. *ASSUNZIONE:* Gli approcci comuni al riequilibrio includono un approccio basato sul calendario (per esempio, annualmente) o uno basato su soglia (riequilibrando quando un'allocazione si sposta di una certa percentuale dall'obiettivo) — nessun approccio è universalmente superiore.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investitore inizia con un'allocazione obiettivo del 70% azioni / 30% obbligazioni. Dopo un anno forte per le azioni, il portafoglio si sposta all'80% azioni / 20% obbligazioni — comportando ora più rischio di quanto originariamente inteso. Riequilibrare significa vendere alcune azioni e comprare obbligazioni per tornare all'obiettivo originale del 70/30, riallineando il livello di rischio del portafoglio con il piano originale dell'investitore.
+- definire un ticker in termini semplici.
+- spiegare perché la precisione è importante quando lo si usa.
+- riconoscere che nomi simili possono avere simboli molto diversi.
 
-## Quiz Pratico
-1. Cos'è il riequilibrio del portafoglio?
-2. Perché le allocazioni si spostano nel tempo?
-3. Indica due approcci comuni al riequilibrio.
-4. Nell'esempio pratico, cosa è successo al livello di rischio del portafoglio prima del riequilibrio?
+## Contenuto principale
 
-## Chiave di Risposte
-1. Regolare un portafoglio riportandolo alla sua allocazione obiettivo   2. Diversi attivi crescono a ritmi diversi   3. Basato sul calendario, basato su soglia   4. Il rischio è aumentato man mano che l'allocazione azionaria cresceva oltre l'obiettivo
+### Che cos'è un ticker
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale del riequilibrio.
-2. Tassi di crescita differenziati fanno spostare le allocazioni dagli obiettivi originali.
-3. Questi sono i due approcci generali di riequilibrio comunemente citati.
-4. Lo spostamento verso un'allocazione azionaria più alta ha aumentato il profilo di rischio del portafoglio oltre il piano originale.
+Un ticker (simbolo di borsa) è un codice breve e univoco (di solito composto da lettere) assegnato all'azione di una società quotata, usato per identificarla con precisione in borsa. (In Europa i titoli si identificano spesso anche tramite il codice ISIN.)
 
-## Punti Chiave da Ricordare
-- Il riequilibrio ripristina un portafoglio alla sua allocazione obiettivo man mano che si sposta nel tempo.
-- Lo spostamento avviene perché diversi attivi crescono a ritmi diversi.
-- Gli approcci comuni includono il riequilibrio basato sul calendario e quello basato su soglia.
+### Perché la precisione è importante
+
+Poiché molte aziende possono avere nomi simili o collegati, è il ticker a identificare in modo effettivo e inequivocabile quale azione specifica si sta comprando, vendendo o discutendo: affidarsi solo al nome dell'azienda può portare a errori costosi.
+
+### Nomi simili, simboli diversi
+
+Due aziende con nomi dal suono simile possono avere ticker completamente diversi, e gli errori di battitura o la confusione tra simboli sono un rischio reale ed evitabile quando si inserisce un ordine vero.
+
+## Esempio svolto
+
+Un investitore che vuole comprare azioni di un'azienda specifica cerca il ticker esatto prima di inserire l'ordine, invece di affidarsi solo al ricordo del nome dell'azienda, per evitare di negoziare per errore l'azione sbagliata.
+
+## Quiz di esercitazione
+
+1. Un ticker è:
+   A. La denominazione legale completa di un'azienda
+   B. Un codice breve e univoco che identifica un'azione specifica in borsa
+   C. Un tipo di dividendo
+   D. Un codice fiscale statale
+
+2. Vero o falso: affidarsi solo al nome di un'azienda, senza verificare il ticker esatto, è un modo sicuro per garantire l'operazione corretta.
+
+3. Perché la precisione è importante quando si usa un ticker?
+   A. Non ha alcuna importanza
+   B. Nomi di aziende simili possono avere simboli molto diversi, e gli errori sono costosi
+   C. Tutte le aziende condividono lo stesso ticker
+   D. I ticker sono facoltativi
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un ticker identifica in modo univoco un'azione specifica.
+
+### Domanda 2
+
+Risposta corretta: Falso. Affidarsi solo al nome rischia di confondere aziende con nomi simili.
+
+### Domanda 3
+
+Risposta corretta: B. La precisione evita errori di negoziazione costosi.
+
+## Punti chiave
+
+- Un ticker identifica in modo univoco un'azione specifica in borsa.
+- La precisione è importante: i nomi delle aziende possono essere simili anche quando i ticker sono completamente diversi.
+- Verificare il simbolo esatto prima di negoziare evita errori costosi.

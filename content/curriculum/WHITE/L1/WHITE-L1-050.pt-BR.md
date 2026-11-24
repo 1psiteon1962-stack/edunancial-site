@@ -5,46 +5,60 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 50
 locale: pt-BR
-title: "Projeto final: construindo sua primeira carteira simples, passo a passo"
-summary: "Aplique todo o WHITE Level 1 acompanhando a construção de uma primeira carteira de investimentos do início ao fim."
-sourceVersion: "1.0"
+title: "Projeto final: montando a sua primeira carteira simples, passo a passo"
+summary: "Aplique tudo o que viu no WHITE Nível 1 percorrendo, do começo ao fim, a montagem de uma primeira carteira de investimentos simples."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Projeto final: construindo sua primeira carteira simples, passo a passo
+# Projeto final: montando a sua primeira carteira simples, passo a passo
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
+Ao final desta lição, você deverá ser capaz de:
+
+- aplicar os conceitos centrais do WHITE Nível 1 a um único cenário integrado.
+- identificar qual conceito deste nível se aplica a cada passo.
+- explicar como as partes da montagem de uma carteira se encaixam como um todo.
 
 ## Conteúdo principal
 
 ### O cenário
 
-James quer começar a investir pela primeira vez. Ele deseja compreender o que está fazendo em cada etapa, em vez de seguir instruções cegamente.
+James quer começar a investir pela primeira vez. Ele quer entender o que está realmente fazendo em cada passo, e não só seguir instruções às cegas.
 
 ### Passo a passo
 
-James primeiro garante um fundo de emergência (Lição 35) em local líquido e de baixo risco. Abre uma conta de corretora (Lição 21), entendendo sua diferença em relação a uma conta de aposentadoria, e verifica separadamente se seu empregador oferece contribuição equivalente em 401(k) (Lição 18).
+Antes de investir qualquer outra coisa, James garante que tem uma reserva de emergência (Lição 35) em um lugar líquido e de baixo risco. Ele abre uma conta em corretora (Lição 21), entendendo que ela é diferente de uma conta de aposentadoria, e avalia separadamente se o empregador oferece contrapartida no 401(k) (Lição 18) que valha a pena aproveitar primeiro. (Fora dos EUA, existem em vez disso formas próprias de previdência complementar da empresa, com outras regras.)
 
-Ele escolhe um ETF (Lição 9) em vez de ações individuais por valorizar a diversificação (Lição 13). Verifica a taxa de despesas (Lição 12), sabendo que pequenas diferenças percentuais se acumulam. Usa investimento periódico de valor fixo (Lição 22), aplicando mensalmente em vez de tentar acertar o momento do mercado.
+Ele decide investir em um ETF (Lição 9) em vez de escolher ações individuais, porque valoriza a diversificação (Lição 13) que ele oferece. Confere a taxa de despesas (Lição 12), sabendo que pequenas diferenças percentuais se acumulam com o tempo. Decide usar o investimento periódico (dollar-cost averaging, Lição 22), aplicando um valor fixo por mês em vez de tentar acertar o momento do mercado.
 
-Define uma alocação de ativos (Lição 43) majoritariamente em ações por seu longo horizonte e entende que deverá rebalancear (Lição 44). Seu extrato (Lição 49) mostrará posições, transações e desempenho que pode não corresponder exatamente ao retorno pessoal ponderado pelo dinheiro (Lição 48), pois ele contribui gradualmente.
+Ele define uma alocação de ativos (Lição 43) principalmente em ações, dado o seu horizonte longo, sabendo que vai precisar rebalancear (Lição 44) periodicamente à medida que o mercado mudar essa combinação. Ele sabe que o extrato da conta (Lição 49) vai mostrar posição, movimentações e um número de rentabilidade que pode não bater exatamente com o seu retorno pessoal ponderado pelo dinheiro (Lição 48), já que ele aplica aos poucos ao longo do tempo.
 
 ### Por que isso importa
 
-Em uma carteira real, essas decisões não existem isoladamente. Elas formam um único processo construído sobre compreensão, e não apenas sobre seguir etapas.
+Nenhuma dessas decisões acontece de forma isolada em uma carteira real: elas se ligam em um único processo, construído com compreensão, e não seguindo passos às cegas.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Se James investe US$ 300 por mês em um ETF diversificado de baixa taxa de despesas, depois de financiar seu fundo de emergência e aproveitar qualquer contribuição equivalente do empregador, ele conecta quase todos os conceitos principais deste nível.
+Se James investir US$ 300 por mês, por meio de investimento periódico, em um ETF diversificado com taxa de despesas baixa, dentro de uma conta comum em corretora, depois de já ter montado a reserva de emergência e aproveitado qualquer contrapartida disponível do empregador, ele terá aplicado quase todos os conceitos principais deste nível em um único plano integrado.
 
-## Quiz prático
+## Teste de prática
 
-1. Por que fundo de emergência primeiro? A. desnecessário B. protege planos contra imprevistos C. garante retorno D. sem relação
-2. Verdadeiro ou falso: desempenho informado sempre será exatamente seu retorno pessoal ponderado pelo dinheiro.
-3. Por que ETF? A. garante retorno maior B. diversificação C. sem taxa D. ações individuais são ilegais
+1. Por que James garantiu que tinha uma reserva de emergência antes de investir mais?
+   A. Na verdade, não é necessário
+   B. Ela protege os seus outros planos financeiros de serem atrapalhados por despesas inesperadas
+   C. Reservas de emergência garantem retornos de investimento
+   D. Ela não tem nenhuma ligação com investir
+
+2. Verdadeiro ou falso: a rentabilidade informada da conta de James sempre vai bater exatamente com o seu retorno pessoal ponderado pelo dinheiro.
+
+3. Por que James escolheu um ETF em vez de ações individuais?
+   A. ETFs garantem retornos maiores
+   B. Ele valorizava a diversificação que o ETF oferece
+   C. ETFs não têm taxa de despesas
+   D. Ações individuais são proibidas para iniciantes
 
 ## Gabarito
 
@@ -54,10 +68,20 @@ Se James investe US$ 300 por mês em um ETF diversificado de baixa taxa de despe
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, distinções e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Uma reserva de emergência protege os planos de longo prazo de interrupções de curto prazo, como visto na Lição 35.
 
-- Compreenda a estrutura e a função do conceito, não apenas seu nome.
-- Reconheça riscos, custos, benefícios e limitações relevantes.
-- Aplique o conhecimento de forma consciente em decisões financeiras reais.
+### Pergunta 2
+
+Resposta correta: Falso. A rentabilidade informada muitas vezes é ponderada pelo tempo, e não o seu retorno pessoal exato ponderado pelo dinheiro, como visto nas Lições 48-49.
+
+### Pergunta 3
+
+Resposta correta: B. A diversificação foi o motivo declarado por James, ligado à Lição 13.
+
+## Pontos-chave
+
+- Montar uma primeira carteira junta quase todos os conceitos deste nível em um único processo.
+- A ordem importa: primeiro a reserva de emergência, depois o tipo de conta, depois a escolha do investimento, depois a gestão contínua.
+- Este projeto final marca a conclusão do WHITE Nível 1: o Nível 2 se apoia nessa base com conceitos mais profundos de avaliação e de filosofia de investimento.

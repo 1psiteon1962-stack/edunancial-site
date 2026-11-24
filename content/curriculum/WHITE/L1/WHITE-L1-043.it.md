@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 43
 locale: it
-title: "Come Leggere il Bilancio Annuale di un'Azienda — Le Basi"
-summary: "Un bilancio annuale fornisce generalmente agli azionisti la performance finanziaria e una panoramica del business dell'azienda per l'anno. Le sezioni comuni includono: una lettera della dirigenza, prospetti finanziari (conto economico, stato patrimoniale, rendiconto finanziario), la discussione della direzione sui risultati, e le informative sui rischi."
-sourceVersion: "1.0"
+title: "Che cos'è l'asset allocation (allocazione del patrimonio)?"
+summary: "Scopri che cosa significa asset allocation e in che cosa differisce dalla diversificazione all'interno di un unico tipo di attività."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-043: Come Leggere il Bilancio Annuale di un'Azienda — Le Basi
+# Che cos'è l'asset allocation (allocazione del patrimonio)?
 
-## Obiettivi di Apprendimento
-1. Identificare lo scopo generale di un bilancio annuale.
-2. Nominare le sezioni comuni presenti in un bilancio annuale.
-3. Spiegare perché i bilanci annuali sono importanti per gli investitori individuali.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*REGOLA SPECIFICA DELLA REGIONE:* I requisiti e i formati dei bilanci annuali (come il modulo 10-K statunitense) variano a seconda del paese e della giurisdizione normativa.
+Al termine di questa lezione dovresti essere in grado di:
 
-Un bilancio annuale fornisce generalmente agli azionisti la performance finanziaria e una panoramica del business dell'azienda per l'anno. Le sezioni comuni includono: una lettera della dirigenza, prospetti finanziari (conto economico, stato patrimoniale, rendiconto finanziario), la discussione della direzione sui risultati, e le informative sui rischi.
+- definire l'asset allocation in termini semplici.
+- distinguerla dalla diversificazione all'interno di una categoria di attività.
+- spiegare perché viene spesso descritta come una decisione fondamentale per il portafoglio.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investitore che sta considerando un'azienda legge la sezione di informativa sui rischi del suo bilancio annuale e scopre che l'azienda affronta una causa legale pendente significativa non ampiamente coperta nelle notizie generali. Questo dettaglio, trovato nel documento formale piuttosto che nei titoli, informa la decisione dell'investitore in un modo che una ricerca superficiale avrebbe potuto perdere.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa fornisce generalmente un bilancio annuale agli azionisti?
-2. Indica due sezioni comuni di un bilancio annuale.
-3. Vero/Falso: I formati dei bilanci annuali sono identici in tutto il mondo.
-4. Perché leggere il documento completo potrebbe rivelare informazioni che la copertura mediatica generale non coglie?
+### Che cos'è l'asset allocation
 
-## Chiave di Risposte
-1. La performance finanziaria e una panoramica del business per l'anno   2. Prospetti finanziari, informative sui rischi (tra altre)   3. Falso   4. Le informative formali spesso includono dettagli non trattati in modo prominente nelle notizie generali
+L'asset allocation indica come un investitore suddivide il proprio portafoglio complessivo tra diverse grandi categorie di attività, come azioni, obbligazioni e liquidità, e non quali investimenti specifici scegliere all'interno di ciascuna categoria.
 
-## Risposte e Spiegazioni
-1. Questo è lo scopo generale di un bilancio annuale.
-2. Queste sono tra le sezioni standard presenti nella maggior parte dei bilanci annuali.
-3. I formati e i requisiti variano a seconda del paese e della giurisdizione normativa.
-4. Le informative formali dettagliate possono rivelare rischi o dettagli poco trattati altrove.
+### In che cosa differisce dalla diversificazione
 
-## Punti Chiave da Ricordare
-- I bilanci annuali forniscono agli azionisti una panoramica formale della performance finanziaria annuale.
-- Le sezioni comuni includono prospetti finanziari, discussione della direzione, e informative sui rischi.
-- Leggere il documento completo può rivelare dettagli non trattati nelle notizie generali.
+La diversificazione (trattata in precedenza in questo livello) indica in genere la distribuzione degli investimenti all'interno di una categoria, come possedere molte azioni diverse. L'asset allocation opera un livello più in alto: decide quanto va complessivamente in azioni, quanto in obbligazioni e quanto in liquidità.
+
+### Perché è fondamentale
+
+L'asset allocation è spesso descritta come una delle decisioni più importanti nella costruzione di un portafoglio, perché il mix generale tra le categorie di attività (non solo quali azioni specifiche si scelgono) ha un effetto notevole sul rischio complessivo e sul rendimento potenziale.
+
+## Esempio svolto
+
+Un investitore potrebbe decidere un'allocazione del 70% in azioni, 25% in obbligazioni e 5% in liquidità: una decisione presa prima ancora di scegliere quali azioni o obbligazioni specifiche detenere all'interno di quella struttura.
+
+## Quiz di esercitazione
+
+1. L'asset allocation indica:
+   A. La scelta di singole azioni specifiche
+   B. La suddivisione di un portafoglio tra grandi categorie come azioni, obbligazioni e liquidità
+   C. Un tipo di dividendo
+   D. Un programma previdenziale statale
+
+2. Vero o falso: asset allocation e diversificazione all'interno di una categoria significano esattamente la stessa cosa.
+
+3. Perché l'asset allocation è spesso descritta come una decisione fondamentale?
+   A. Ha poco effetto su un portafoglio
+   B. Il mix generale tra le categorie incide notevolmente su rischio e rendimento complessivi
+   C. Conta solo per le obbligazioni
+   D. Sostituisce qualsiasi altra decisione di investimento
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'asset allocation è la suddivisione di un portafoglio a livello di grandi categorie.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'allocazione avviene a livello di categoria; la diversificazione all'interno della categoria.
+
+### Domanda 3
+
+Risposta corretta: B. Il mix generale delle categorie incide notevolmente sul comportamento complessivo del portafoglio.
+
+## Punti chiave
+
+- L'asset allocation è il modo in cui un portafoglio viene suddiviso tra grandi categorie.
+- È una decisione diversa e di livello superiore rispetto alla diversificazione all'interno di una categoria.
+- È considerata una decisione fondamentale nella costruzione di un portafoglio.

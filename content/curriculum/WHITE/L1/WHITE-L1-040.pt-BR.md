@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 40
 locale: pt-BR
-title: "O que é um ticker?"
-summary: "Aprenda o que é um símbolo ticker e por que a precisão importa ao identificar uma ação específica."
-sourceVersion: "1.0"
+title: "O que é um ticker (código de negociação)?"
+summary: "Aprenda o que é um ticker e por que a precisão importa na hora de identificar uma ação específica."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um ticker?
+# O que é um ticker (código de negociação)?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir ticker em termos simples.
+- explicar por que a precisão importa ao usá-lo.
+- reconhecer que nomes parecidos podem ter códigos muito diferentes.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um ticker
 
-Um ticker é um código curto e único, geralmente formado por letras, atribuído à ação de uma empresa negociada publicamente para identificá-la com precisão em uma bolsa.
+Um ticker é um código curto e único (geralmente com letras e, no Brasil, também números, como em PETR4) atribuído à ação de uma empresa de capital aberto, usado para identificá-la com precisão em uma bolsa.
 
-### Como funciona
+### Por que a precisão importa
 
-Como empresas podem ter nomes semelhantes, o ticker identifica de forma inequívoca qual ação está sendo comprada, vendida ou discutida. Confiar apenas no nome pode gerar erros caros.
+Como muitas empresas podem ter nomes parecidos ou relacionados, é o ticker que identifica de fato e sem ambiguidade qual ação específica está sendo comprada, vendida ou discutida: confiar só no nome da empresa pode levar a erros caros.
 
-### Por que isso importa
+### Nomes parecidos, códigos diferentes
 
-Duas empresas com nomes parecidos podem ter tickers completamente diferentes. Erros de digitação ou confusão entre símbolos são riscos reais e evitáveis ao negociar.
+Duas empresas com nomes parecidos podem ter tickers completamente diferentes, e erros de digitação ou confusão entre códigos são um risco real e evitável na hora de enviar uma ordem de verdade.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Antes de enviar uma ordem, o investidor confirma o ticker exato da empresa desejada, em vez de confiar apenas na memória do nome, evitando negociar a ação errada.
+Um investidor que quer comprar ações de uma empresa específica consulta o ticker exato antes de enviar a ordem, em vez de confiar só na memória do nome da empresa, para não negociar por engano a ação errada.
 
-## Quiz prático
+## Teste de prática
 
-1. Ticker: A. nome jurídico completo B. código curto único C. dividendo D. identificação fiscal
-2. Verdadeiro ou falso: usar só o nome sempre garante a ação correta.
-3. Por que precisão? A. não importa B. nomes semelhantes podem ter símbolos diferentes C. todos iguais D. opcional
+1. Um ticker é:
+   A. O nome jurídico completo de uma empresa
+   B. Um código curto e único que identifica uma ação específica em uma bolsa
+   C. Um tipo de dividendo
+   D. Um número de identificação fiscal do governo
+
+2. Verdadeiro ou falso: confiar só no nome de uma empresa, sem conferir o ticker exato, é uma forma segura de garantir a operação correta.
+
+3. Por que a precisão importa ao usar um ticker?
+   A. Não importa nada
+   B. Nomes de empresas parecidos podem ter códigos muito diferentes, e os erros custam caro
+   C. Todas as empresas compartilham o mesmo ticker
+   D. Os tickers são opcionais
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Antes de enviar uma ordem, o investidor confirma o ticker exato da empresa desej
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um ticker identifica de forma única uma ação específica.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Confiar só no nome arrisca confundir empresas com nomes parecidos.
+
+### Pergunta 3
+
+Resposta correta: B. A precisão evita erros de negociação caros.
+
+## Pontos-chave
+
+- Um ticker identifica de forma única uma ação específica em uma bolsa.
+- A precisão importa: nomes de empresas podem ser parecidos mesmo quando os tickers são completamente diferentes.
+- Conferir o código exato antes de negociar evita erros caros.

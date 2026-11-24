@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 19
 locale: it
-title: "Cos'è un 401(k)?"
-summary: "*FATTO VERIFICATO:* Un 401(k) permette ai dipendenti di contribuire con una parte del proprio stipendio a un conto di investimento destinato alla pensione, spesso con contributi al lordo delle imposte (riducendo il reddito imponibile attuale) e crescita con imposta differita fino al prelievo in pensione."
-sourceVersion: "1.0"
+title: "Che cos'è un IRA, e in che cosa differisce da un 401(k)?"
+summary: "Scopri che cos'è un IRA e la differenza fondamentale rispetto a un 401(k) offerto dal datore di lavoro."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-019: Cos'è un 401(k)?
+# Che cos'è un IRA, e in che cosa differisce da un 401(k)?
 
-## Obiettivi di Apprendimento
-1. Definire un 401(k) in termini generali.
-2. Spiegare la natura fiscalmente vantaggiosa del conto.
-3. Riconoscere che questo è un tipo di conto specifico degli Stati Uniti.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*REGOLA SPECIFICA DELLA REGIONE:* Un 401(k) è un conto pensionistico sponsorizzato dal datore di lavoro negli Stati Uniti; altri paesi hanno strutture equivalenti diverse (come i fondi pensione in Italia), e questa lezione descrive specificamente il concetto statunitense.
+Al termine di questa lezione dovresti essere in grado di:
 
-*FATTO VERIFICATO:* Un 401(k) permette ai dipendenti di contribuire con una parte del proprio stipendio a un conto di investimento destinato alla pensione, spesso con contributi al lordo delle imposte (riducendo il reddito imponibile attuale) e crescita con imposta differita fino al prelievo in pensione.
+- definire in parole semplici un IRA.
+- spiegare la differenza fondamentale tra un IRA e un 401(k).
+- riconoscere che entrambi servono allo stesso scopo generale di risparmio previdenziale.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Layla guadagna $60.000 all'anno e contribuisce con $6.000 al suo 401(k). Il suo reddito imponibile per l'anno viene ridotto a $54.000, abbassando la sua bolletta fiscale attuale. Quei $6.000 crescono con imposta differita all'interno del conto — lei non dovrà imposte sulla crescita finché non preleverà eventualmente i fondi, tipicamente in pensione.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un 401(k)?
-2. Come possono i contributi al lordo delle imposte influenzare il reddito imponibile attuale?
-3. Vero/Falso: Un 401(k) è disponibile per i dipendenti in tutto il mondo sotto quel nome esatto.
-4. Quando diventa tipicamente esigibile l'imposta sulla crescita di un 401(k) tradizionale?
+### Che cos'è un IRA
 
-## Chiave di Risposte
-1. Un conto pensionistico sponsorizzato dal datore di lavoro negli Stati Uniti   2. I contributi riducono il reddito imponibile attuale   3. Falso   4. Al momento del prelievo, tipicamente in pensione
+*(REGOLA SPECIFICA PER PAESE: si tratta di un tipo di conto specifico degli Stati Uniti. In Italia, una forma individuale paragonabile può essere l'adesione individuale a un fondo pensione aperto o a un PIP; verifica con un consulente.)* Un IRA (Individual Retirement Account) è un conto di risparmio previdenziale che una persona apre per conto proprio, indipendentemente da un datore di lavoro, spesso presso una banca o un intermediario.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un 401(k).
-2. I contributi al lordo delle imposte abbassano il reddito imponibile dichiarato per quell'anno.
-3. Questo tipo di conto specifico e il suo nome sono esclusivi degli Stati Uniti.
-4. L'imposta viene generalmente differita fino al prelievo, non è dovuta durante la fase di crescita.
+### La differenza fondamentale rispetto a un 401(k)
 
-## Punti Chiave da Ricordare
-- Un 401(k) è un conto pensionistico sponsorizzato dal datore di lavoro negli Stati Uniti.
-- I contributi al lordo delle imposte possono ridurre il reddito imponibile attuale.
-- La crescita ha imposta differita fino al prelievo, tipicamente in pensione.
+Un 401(k) è legato a un datore di lavoro e di solito è disponibile solo finché si lavora lì. Un IRA viene aperto in modo indipendente da una persona e non è legato a nessun datore di lavoro specifico: si può avere un IRA anche senza un lavoro che offra un 401(k).
+
+### Lo stesso scopo generale
+
+Nonostante la differenza strutturale, entrambi i tipi di conto servono allo stesso scopo fondamentale: incoraggiare e offrire modi fiscalmente vantaggiosi di risparmiare per la pensione.
+
+## Esempio svolto
+
+Una persona che lavora in proprio, senza un 401(k) offerto da un datore di lavoro, può comunque aprire un IRA e versarvi in modo indipendente: il conto non è affatto legato all'avere un datore di lavoro specifico.
+
+## Quiz di esercitazione
+
+1. Un IRA è:
+   A. Disponibile solo tramite un datore di lavoro
+   B. Un conto previdenziale che una persona apre in modo indipendente
+   C. Un tipo di conto corrente
+   D. Una pensione statale
+
+2. Vero o falso: un 401(k) e un IRA sono legati a un datore di lavoro esattamente nello stesso modo.
+
+3. Chi non ha un 401(k) offerto dal datore di lavoro può comunque risparmiare per la pensione con un IRA?
+   A. No, serve sempre un datore di lavoro
+   B. Sì, un IRA si apre indipendentemente da qualsiasi datore di lavoro
+   C. Solo se è già in pensione
+   D. Solo i dipendenti pubblici possono aprire un IRA
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un IRA viene aperto in modo indipendente da una persona.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un 401(k) è legato al datore di lavoro; un IRA no.
+
+### Domanda 3
+
+Risposta corretta: B. Gli IRA sono indipendenti dall'offerta di un datore di lavoro.
+
+## Punti chiave
+
+- Un IRA è un conto previdenziale aperto in modo indipendente, non legato a un datore di lavoro.
+- È questa la differenza strutturale fondamentale rispetto a un 401(k).
+- Entrambi servono allo stesso scopo generale: il risparmio previdenziale fiscalmente agevolato.

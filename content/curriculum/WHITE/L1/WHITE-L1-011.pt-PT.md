@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 11
 locale: pt-PT
-title: "O que é um índice? (O que “o mercado” realmente significa)"
-summary: "Aprenda o que é um índice de mercado e o que as pessoas querem dizer quando afirmam que “o mercado subiu”."
-sourceVersion: "1.0"
+title: "O que é um índice? (O que \"o mercado\" significa realmente quando as pessoas falam dele)"
+summary: "Aprenda o que é realmente um índice de mercado e o que significa quando as pessoas dizem que \"o mercado subiu\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um índice? (O que “o mercado” realmente significa)
+# O que é um índice? (O que "o mercado" significa realmente quando as pessoas falam dele)
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, o investidor deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir um índice de mercado em termos simples.
+- explicar o que significa quando alguém diz que "o mercado subiu".
+- reconhecer que um índice acompanha um grupo definido, e não literalmente tudo.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um índice
 
-Um índice de mercado é uma coleção definida de ações ou outros ativos acompanhados em conjunto para representar o desempenho de determinado segmento. É uma ferramenta de medição, não algo que o investidor possui diretamente.
+Um índice de mercado é um conjunto definido de ações (ou de outros ativos) acompanhadas em conjunto para representar o desempenho de um segmento específico do mercado: é um instrumento de medida, e não algo que se detenha diretamente.
 
-### Como funciona
+### O que "o mercado subiu" significa realmente
 
-Quando alguém diz que “o mercado subiu”, geralmente se refere à alta de um índice conhecido, e não literalmente a todas as ações. Índices diferentes podem se mover em direções diferentes no mesmo dia.
+Quando as pessoas dizem que "o mercado subiu hoje", referem-se normalmente a um índice específico e conhecido que se valorizou, e não literalmente a todas as ações do mundo. Índices diferentes podem mexer em sentidos diferentes no mesmo dia.
 
-### Por que isso importa
+### Um grupo definido, não tudo
 
-Um índice acompanha um conjunto específico selecionado por regras determinadas, não toda a economia mundial. Saber quais empresas estão incluídas ajuda a compreender o que o movimento realmente representa.
+Um índice acompanha um conjunto específico e definido de empresas (escolhidas segundo regras específicas), e não a economia mundial inteira. Perceber que empresas fazem realmente parte de um índice é importante para perceber o que o seu movimento representa de facto.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma manchete dizendo que “o mercado subiu 1%” normalmente se refere a um índice específico. Outro índice com empresas diferentes pode ter se movimentado de outra forma no mesmo dia.
+Um título de jornal que diz "o mercado subiu 1% hoje" refere-se normalmente a um índice específico, composto por um grupo definido de empresas: outro índice, que acompanha outro grupo de empresas, pode ter mexido de forma diferente no mesmo dia.
 
-## Quiz prático
+## Teste de prática
 
-1. Índice é: A. ação única B. coleção definida que representa segmento C. conta bancária D. relatório governamental
-2. Verdadeiro ou falso: “o mercado subiu” significa que todas as ações do mundo subiram.
-3. Por que a composição importa? A. não importa B. determina o que o movimento representa C. todos são iguais D. nunca muda
+1. Um índice de mercado é:
+   A. A ação de uma única empresa
+   B. Um conjunto definido de ativos acompanhados para representar um segmento do mercado
+   C. Um tipo de conta bancária
+   D. Um relatório económico do Estado
 
-## Gabarito
+2. Verdadeiro ou falso: "o mercado subiu" significa sempre que literalmente todas as ações do mundo subiram nesse dia.
+
+3. Porque é que importa que empresas fazem realmente parte de um índice?
+   A. Não importa nada
+   B. Determina o que o movimento desse índice representa realmente
+   C. Todos os índices têm as mesmas empresas
+   D. Os índices nunca mudam a sua composição
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Uma manchete dizendo que “o mercado subiu 1%” normalmente se refere a um ín
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um índice é um conjunto definido e acompanhado que representa um segmento do mercado.
 
-- Compreenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Refere-se a um índice específico, e não literalmente a todas as ações.
+
+### Pergunta 3
+
+Resposta correta: B. A composição determina o que o movimento do índice reflete realmente.
+
+## Pontos-chave
+
+- Um índice de mercado acompanha um conjunto definido de ativos.
+- "O mercado subiu" refere-se normalmente a um índice específico, e não a tudo.
+- Perceber a composição real de um índice é importante para interpretar o seu movimento.

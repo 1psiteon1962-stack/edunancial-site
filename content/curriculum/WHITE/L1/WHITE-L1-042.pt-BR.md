@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 42
 locale: pt-BR
-title: "O que é uma anuidade? (Versão introdutória)"
-summary: "Aprenda a ideia básica de uma anuidade: converter uma quantia de dinheiro em uma sequência de pagamentos futuros."
-sourceVersion: "1.0"
+title: "O que é uma anuidade (renda vitalícia)? (Versão introdutória)"
+summary: "Aprenda a ideia básica por trás de uma anuidade: converter uma quantia de dinheiro em um fluxo de pagamentos futuros."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma anuidade? (Versão introdutória)
+# O que é uma anuidade (renda vitalícia)? (Versão introdutória)
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir anuidade em termos simples.
+- explicar a ideia básica de converter um valor único em pagamentos.
+- reconhecer que as anuidades variam muito em estrutura e complexidade.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é uma anuidade
 
-Uma anuidade é um produto financeiro, normalmente oferecido por seguradora, no qual uma pessoa paga uma quantia única ou série de pagamentos em troca de uma sequência de pagamentos futuros, muitas vezes usada como renda de aposentadoria.
+Uma anuidade (em inglês, "annuity"; no Brasil, parecida com a renda vitalícia de um plano de previdência) é um produto financeiro, normalmente oferecido por uma seguradora, em que a pessoa paga um valor único (ou uma série de pagamentos) em troca de um fluxo de pagamentos futuros, muitas vezes usado como fonte de renda na aposentadoria.
 
-### Como funciona
+### A ideia básica
 
-A ideia central é converter dinheiro disponível agora em uma renda definida no futuro, oferecendo previsibilidade para pessoas preocupadas com a possibilidade de sobreviver por mais tempo do que suas outras economias.
+O conceito central é converter uma quantia de dinheiro agora em um fluxo de renda definido depois: isso traz previsibilidade, o que atrai quem tem medo de viver mais do que as suas outras economias.
 
-### Por que isso importa
+### Existe uma complexidade real
 
-*PREMISSA (para fins didáticos):* anuidades existem em muitas estruturas, com diferentes taxas, condições e garantias. Esta introdução cobre apenas o conceito básico; a variedade real é mais complexa.
+*SUPOSIÇÃO (para fins didáticos):* As anuidades têm muitas estruturas diferentes, com taxas, condições e garantias variadas. Esta lição introdutória trata apenas do conceito básico: a variedade e a complexidade reais dos produtos de anuidade estão além do escopo deste nível.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um aposentado entrega uma quantia única a uma seguradora em troca de pagamento mensal garantido pelo resto da vida — trocando uma grande soma atual por renda previsível futura.
+Um aposentado paga um valor único a uma seguradora em troca de um pagamento mensal garantido pelo resto da vida: troca uma grande quantia agora por uma renda previsível depois.
 
-## Quiz prático
+## Teste de prática
 
-1. Anuidade: A. ação única B. dinheiro convertido em pagamentos futuros C. imóvel D. restituição fiscal
-2. Verdadeiro ou falso: todas têm estruturas, taxas e condições idênticas.
-3. Por que considerar? A. eliminar todo risco B. renda previsível C. nunca pagar imposto D. dispensar toda poupança
+1. Uma anuidade geralmente envolve:
+   A. Comprar uma única ação
+   B. Converter um valor único em um fluxo de pagamentos futuros
+   C. Um tipo de compra de imóvel
+   D. Uma restituição de imposto do governo
+
+2. Verdadeiro ou falso: todas as anuidades têm estruturas, taxas e condições idênticas.
+
+3. Por que alguém poderia considerar uma anuidade?
+   A. Para evitar para sempre todo risco financeiro
+   B. Por uma renda previsível, muitas vezes na aposentadoria
+   C. Para nunca pagar impostos
+   D. Para não precisar de nenhuma outra economia
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Um aposentado entrega uma quantia única a uma seguradora em troca de pagamento 
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Uma anuidade converte um valor único em pagamentos futuros.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Estruturas, taxas e condições das anuidades variam muito.
+
+### Pergunta 3
+
+Resposta correta: B. A renda previsível é o atrativo central.
+
+## Pontos-chave
+
+- Uma anuidade converte um valor único em um fluxo de pagamentos futuros.
+- Ela é muitas vezes usada como fonte de renda previsível na aposentadoria.
+- As estruturas das anuidades variam muito: este é apenas um conceito introdutório.

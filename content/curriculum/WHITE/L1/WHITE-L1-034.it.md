@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 34
 locale: it
-title: "Azioni Privilegiate vs. Azioni Ordinarie"
-summary: "*FATTO VERIFICATO:* I dividendi privilegiati sono spesso fissi e tipicamente devono essere pagati prima di qualsiasi dividendo di azioni ordinarie — dando agli azionisti privilegiati maggiore prevedibilità di reddito, a costo del maggiore potenziale di crescita che le azioni ordinarie possono offrire."
-sourceVersion: "1.0"
+title: "Che cos'è un CD (Certificate of Deposit, certificato di deposito)?"
+summary: "Scopri che cos'è un CD, come vincola il denaro in cambio di un rendimento e qual è il vero svantaggio del prelievo anticipato."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-034: Azioni Privilegiate vs. Azioni Ordinarie
+# Che cos'è un CD (Certificate of Deposit, certificato di deposito)?
 
-## Obiettivi di Apprendimento
-1. Distinguere le azioni privilegiate dalle azioni ordinarie.
-2. Spiegare le differenze di priorità nei dividendi e nella liquidazione.
-3. Identificare un compromesso comune delle azioni privilegiate.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Le **azioni ordinarie** sono la forma standard di proprietà, tipicamente includendo il diritto di voto, con dividendi (se presenti) pagati a discrezione dell'azienda. Le **azioni privilegiate** hanno generalmente un diritto più alto rispetto alle azioni ordinarie sui dividendi e sugli attivi aziendali in caso di liquidazione, ma di solito mancano del diritto di voto e hanno meno potenziale di rivalutazione drammatica del prezzo.
+Al termine di questa lezione dovresti essere in grado di:
 
-*FATTO VERIFICATO:* I dividendi privilegiati sono spesso fissi e tipicamente devono essere pagati prima di qualsiasi dividendo di azioni ordinarie — dando agli azionisti privilegiati maggiore prevedibilità di reddito, a costo del maggiore potenziale di crescita che le azioni ordinarie possono offrire.
+- definire un CD in termini semplici.
+- spiegare il compromesso di base che offre un CD.
+- spiegare che cosa succede di solito in caso di prelievo anticipato.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'azienda in difficoltà finanziarie sospende il suo dividendo di azioni ordinarie. Gli azionisti privilegiati, con un diritto di priorità più alto, possono comunque ricevere il loro dividendo fisso se l'azienda può pagarlo, poiché gli obblighi privilegiati sono generalmente soddisfatti prima dei dividendi ordinari. In uno scenario di liquidazione, gli azionisti privilegiati verrebbero anche pagati prima degli azionisti ordinari, sebbene dopo i detentori di obbligazioni.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa includono tipicamente le azioni ordinarie che le azioni privilegiate di solito non hanno?
-2. Quale priorità di diritto hanno generalmente le azioni privilegiate rispetto a quelle ordinarie?
-3. Vero/Falso: I dividendi privilegiati sono sempre garantiti indipendentemente dalla performance dell'azienda.
-4. Quale compromesso comportano tipicamente le azioni privilegiate rispetto a quelle ordinarie?
+### Che cos'è un CD
 
-## Chiave di Risposte
-1. Il diritto di voto   2. Una priorità più alta su dividendi e attivi di liquidazione   3. Falso   4. Maggiore prevedibilità di reddito ma minor potenziale di crescita
+Un CD (Certificate of Deposit) è un prodotto di risparmio offerto dalle banche statunitensi, in cui il denaro viene depositato per un periodo fisso in cambio di un tasso di interesse fisso, in genere più alto di quello di un normale conto di risparmio. In Italia l'equivalente più vicino è il conto deposito vincolato (o il certificato di deposito bancario); le condizioni precise dipendono dalla singola banca.
 
-## Risposte e Spiegazioni
-1. Le azioni ordinarie portano tipicamente il diritto di voto che le privilegiate di solito non hanno.
-2. Le privilegiate hanno generalmente priorità, anche se non è una garanzia assoluta.
-3. I dividendi privilegiati possono comunque essere sospesi in circostanze gravi, nonostante la loro priorità.
-4. Questo è il compromesso generale tra i due tipi di azioni.
+### Il compromesso di base
 
-## Punti Chiave da Ricordare
-- Le azioni ordinarie includono tipicamente il diritto di voto; le privilegiate generalmente no.
-- Le azioni privilegiate hanno generalmente priorità su dividendi e attivi di liquidazione.
-- Le privilegiate scambiano il potenziale di crescita per una maggiore prevedibilità di reddito.
+In cambio di un tasso di interesse di solito più alto e garantito, chi deposita si impegna in genere a non prelevare il denaro fino alla scadenza del CD, rinunciando alla liquidità (trattata nella lezione precedente) in cambio di un tasso migliore.
+
+### Che cosa succede con il prelievo anticipato
+
+Prelevare denaro da un CD prima della scadenza comporta in genere una penale, che spesso riduce o annulla parte degli interessi maturati: questa penale è il costo reale di rompere il compromesso sulla liquidità. (Con molti conti deposito vincolati lo svincolo anticipato non è consentito o lo è solo a certe condizioni; verifica le condizioni della tua banca.)
+
+## Esempio svolto
+
+Un investitore versa 5.000 $ in un CD a 1 anno a tasso fisso, impegnandosi a non toccarli per un anno. Se gli servono i soldi dopo 6 mesi, di solito può prelevarli, ma probabilmente dovrà pagare una penale che riduce gli interessi che avrebbe altrimenti maturato.
+
+## Quiz di esercitazione
+
+1. Un CD offre in genere:
+   A. Piena liquidità senza alcun vantaggio sul tasso
+   B. Un tasso di interesse fisso in cambio del vincolo del denaro per un periodo stabilito
+   C. La proprietà di un'azienda
+   D. Rendimenti garantiti ad alta crescita
+
+2. Vero o falso: prelevare anticipatamente da un CD è sempre gratuito, senza alcuna penale.
+
+3. A che cosa rinuncia un CD in cambio di un tasso di interesse di solito più alto?
+   A. Alla diversificazione
+   B. Alla liquidità: il denaro è in genere vincolato per un periodo stabilito
+   C. Ai diritti di proprietà
+   D. Alla protezione dal rischio di credito
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un CD scambia liquidità con un tasso fisso, spesso più alto.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il prelievo anticipato comporta in genere una penale.
+
+### Domanda 3
+
+Risposta corretta: B. La liquidità è ciò che si cede in cambio del vantaggio sul tasso.
+
+## Punti chiave
+
+- Un CD offre un tasso fisso in cambio del vincolo del denaro per un periodo.
+- Si scambia la liquidità con un tasso di interesse di solito migliore.
+- Il prelievo anticipato comporta in genere una penale reale.

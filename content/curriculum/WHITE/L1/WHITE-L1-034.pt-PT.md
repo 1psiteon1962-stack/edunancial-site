@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 34
 locale: pt-PT
-title: "O que é um CDB/CD (certificado de depósito)?"
-summary: "Aprenda o que é um certificado de depósito, como ele prende o dinheiro em troca de rendimento e qual é o custo real de uma retirada antecipada."
-sourceVersion: "1.0"
+title: "O que é um CD (Certificate of Deposit, certificado de depósito)?"
+summary: "Aprenda o que é um CD, como imobiliza o dinheiro em troca de um rendimento e qual é o custo real da mobilização antecipada."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um CDB/CD (certificado de depósito)?
+# O que é um CD (Certificate of Deposit, certificado de depósito)?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir um CD em termos simples.
+- explicar a troca básica que um CD oferece.
+- explicar o que acontece normalmente na mobilização antecipada.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um CD
 
-*(REGRA ESPECÍFICA DA REGIÃO: esta lição descreve o Certificate of Deposit, ou CD, utilizado no sistema bancário dos Estados Unidos; produtos brasileiros com nomes semelhantes podem ter regras diferentes.)* Um CD é um produto de poupança bancária no qual o dinheiro é depositado por prazo fixo em troca de uma taxa fixa, geralmente maior que a de uma conta de poupança comum.
+Um CD (Certificate of Deposit) é um produto de poupança oferecido por bancos dos EUA, em que o dinheiro fica depositado por um prazo fixo em troca de uma taxa de juro fixa, geralmente superior à de uma conta poupança comum. Em Portugal, o equivalente mais próximo é o depósito a prazo; as condições exatas dependem de cada banco.
 
-### Como funciona
+### A troca básica
 
-Em troca de uma taxa normalmente maior e garantida, o depositante concorda, em geral, em não retirar o dinheiro até o fim do prazo. Ele troca liquidez por uma taxa melhor.
+Em troca de uma taxa de juro normalmente mais elevada e garantida, o depositante compromete-se geralmente a não levantar o dinheiro até ao fim do prazo do CD: troca liquidez (vista na lição anterior) por uma taxa melhor.
 
-### Por que isso importa
+### O que acontece na mobilização antecipada
 
-Retirar antes do término normalmente gera penalidade, frequentemente reduzindo ou eliminando parte dos juros ganhos. Esse é o custo real de quebrar o compromisso de liquidez.
+Levantar dinheiro de um CD antes do fim do prazo implica geralmente uma penalização, que muitas vezes reduz ou elimina parte dos juros obtidos: essa penalização é o custo real de quebrar a troca de liquidez. (Em muitos depósitos a prazo, a mobilização antecipada não é permitida ou implica a perda total ou parcial dos juros; confirme as condições do seu banco.)
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor coloca USD 5.000 em um CD de um ano a taxa fixa. Se precisar do dinheiro após seis meses, normalmente poderá retirar, mas provavelmente sofrerá penalidade que reduz os juros obtidos.
+Um investidor coloca 5000 $ num CD a 1 ano com taxa fixa, comprometendo-se a não mexer no dinheiro durante um ano. Se precisar do dinheiro ao fim de 6 meses, pode normalmente levantá-lo, mas é provável que sofra uma penalização que reduz os juros que teria obtido.
 
-## Quiz prático
+## Teste de prática
 
-1. CD geralmente oferece: A. liquidez total sem troca B. taxa fixa em troca de prazo C. propriedade empresarial D. alto crescimento garantido
-2. Verdadeiro ou falso: retirada antecipada é sempre gratuita.
-3. O que se troca por taxa melhor? A. diversificação B. liquidez C. propriedade D. proteção de crédito
+1. Um CD oferece geralmente:
+   A. Liquidez total sem benefício na taxa
+   B. Uma taxa de juro fixa em troca de imobilizar o dinheiro por um prazo definido
+   C. Participação na propriedade de uma empresa
+   D. Retornos garantidos de elevado crescimento
 
-## Gabarito
+2. Verdadeiro ou falso: levantar dinheiro de um CD antes do prazo é sempre gratuito, sem qualquer penalização.
+
+3. O que troca um CD por uma taxa de juro normalmente mais elevada?
+   A. Diversificação
+   B. Liquidez: o dinheiro fica geralmente imobilizado por um prazo definido
+   C. Direitos de propriedade
+   D. Proteção contra o risco de crédito
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Um investidor coloca USD 5.000 em um CD de um ano a taxa fixa. Se precisar do di
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um CD troca liquidez por uma taxa fixa, muitas vezes mais elevada.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. A mobilização antecipada implica geralmente uma penalização.
+
+### Pergunta 3
+
+Resposta correta: B. A liquidez é o que se troca pelo benefício na taxa.
+
+## Pontos-chave
+
+- Um CD oferece uma taxa fixa em troca de imobilizar o dinheiro por um prazo.
+- Isto troca liquidez por uma taxa de juro normalmente melhor.
+- A mobilização antecipada implica geralmente uma penalização real.

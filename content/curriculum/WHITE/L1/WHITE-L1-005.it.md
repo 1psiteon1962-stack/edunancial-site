@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 5
 locale: it
-title: "ETF vs. Fondi Comuni di Investimento"
-summary: "*STIMA:* Gli ETF hanno comunemente (anche se non universalmente) rapporti di spesa più bassi rispetto ai fondi comuni di investimento gestiti attivamente, poiché molti ETF seguono passivamente un indice invece di impiegare una selezione attiva di azioni."
-sourceVersion: "1.0"
+title: "Azioni e obbligazioni: qual è il vero compromesso?"
+summary: "Scopri il vero compromesso tra azioni e obbligazioni – potenziale di crescita contro priorità di rimborso – e non solo \"rischioso o sicuro\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-005: ETF vs. Fondi Comuni di Investimento
+# Azioni e obbligazioni: qual è il vero compromesso?
 
-## Obiettivi di Apprendimento
-1. Definire un ETF (fondo negoziato in borsa).
-2. Identificare le principali differenze strutturali tra gli ETF e i fondi comuni di investimento.
-3. Spiegare perché la flessibilità di negoziazione differisce tra i due.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un ETF è simile a un fondo comune di investimento nel senso che possiede un paniere diversificato di titoli, ma viene negoziato in borsa durante tutto il giorno come un'azione, invece di essere valutato una volta al giorno. *FATTO VERIFICATO:* Questo significa che i prezzi degli ETF possono fluttuare durante la sessione di negoziazione, e gli investitori possono comprare o vendere in qualsiasi momento in cui i mercati sono aperti, a differenza dei fondi comuni di investimento valutati solo alla chiusura della giornata.
+Al termine di questa lezione dovresti essere in grado di:
 
-*STIMA:* Gli ETF hanno comunemente (anche se non universalmente) rapporti di spesa più bassi rispetto ai fondi comuni di investimento gestiti attivamente, poiché molti ETF seguono passivamente un indice invece di impiegare una selezione attiva di azioni.
+- spiegare la differenza strutturale fondamentale tra azioni e obbligazioni.
+- spiegare perché in genere gli obbligazionisti vengono rimborsati prima degli azionisti.
+- evitare la formula semplificata "le azioni sono rischiose, le obbligazioni sono sicure".
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Wei vuole investire in un fondo diversificato alle 11 del mattino quando nota un calo nel mercato. Con un ETF, può eseguire quell'operazione immediatamente al prezzo di mercato attuale. Se avesse invece scelto un fondo comune di investimento equivalente, il suo ordine non verrebbe eseguito finché non viene calcolato il VPN di quel giorno dopo la chiusura del mercato — perde la capacità di reagire ai movimenti di prezzo durante la giornata.
+## Contenuto principale
 
-## Quiz Pratico
-1. Qual è una differenza chiave di negoziazione tra gli ETF e i fondi comuni di investimento?
-2. Vero/Falso: I prezzi degli ETF sono fissati una volta al giorno, come i fondi comuni di investimento.
-3. Cosa hanno comunemente molti ETF che può renderli meno costosi dei fondi comuni di investimento gestiti attivamente?
-4. Perché un investitore potrebbe apprezzare la flessibilità di negoziazione degli ETF?
+### La differenza strutturale
 
-## Chiave di Risposte
-1. Gli ETF vengono negoziati durante tutto il giorno; i fondi comuni di investimento vengono valutati una volta al giorno   2. Falso   3. Rapporti di spesa più bassi, grazie al monitoraggio passivo degli indici   4. La capacità di reagire ai movimenti di prezzo durante la giornata
+Un'azione rappresenta una proprietà; un'obbligazione rappresenta un prestito. Questa sola differenza determina la maggior parte delle differenze pratiche tra le due, trattate in questa lezione.
 
-## Risposte e Spiegazioni
-1. Questa è la differenza strutturale determinante tra i due veicoli.
-2. I prezzi degli ETF fluttuano durante la sessione di negoziazione, a differenza dei fondi comuni di investimento.
-3. La gestione passiva riduce generalmente i costi rispetto alla gestione attiva.
-4. La negoziazione infragiornaliera permette un tempismo di ingresso e uscita più reattivo.
+### La priorità di rimborso
 
-## Punti Chiave da Ricordare
-- Gli ETF vengono negoziati durante la giornata come le azioni; i fondi comuni di investimento vengono valutati una volta al giorno.
-- Gli ETF hanno comunemente rapporti di spesa più bassi grazie alla gestione passiva, anche se non universalmente.
-- La flessibilità di negoziazione è una differenza pratica chiave che gli investitori devono considerare.
+Se un'azienda finisce in gravi difficoltà finanziarie, gli obbligazionisti (in quanto finanziatori) hanno in genere il diritto legale di essere rimborsati prima che gli azionisti (in quanto proprietari) ricevano qualcosa. È una priorità strutturale reale, non solo una reputazione generica di sicurezza.
+
+### Oltre "rischioso o sicuro"
+
+Definire le azioni semplicemente "rischiose" e le obbligazioni semplicemente "sicure" semplifica troppo un compromesso più sfumato: le azioni offrono il potenziale della proprietà (crescita potenzialmente illimitata, ma nessuna garanzia di rimborso), mentre le obbligazioni offrono condizioni di rimborso definite e contrattuali (ma un rendimento potenziale limitato, e rischi reali propri, come l'insolvenza dell'emittente).
+
+## Esempio svolto
+
+Se un'azienda fallisce, in genere i suoi obbligazionisti sono in fila per essere rimborsati con i beni rimasti prima che i suoi azionisti ricevano qualcosa: il diritto degli azionisti viene per ultimo, a riflesso della differenza strutturale tra proprietà e prestito.
+
+## Quiz di esercitazione
+
+1. La differenza strutturale fondamentale tra azioni e obbligazioni è:
+   A. Le azioni sono sempre più rischiose delle obbligazioni
+   B. Le azioni rappresentano una proprietà; le obbligazioni rappresentano un prestito
+   C. Le obbligazioni rendono sempre di più
+   D. Non c'è una vera differenza
+
+2. Vero o falso: nel fallimento di un'azienda, in genere gli obbligazionisti hanno un diritto di rimborso prima degli azionisti.
+
+3. Perché "le azioni sono rischiose, le obbligazioni sono sicure" è una semplificazione eccessiva?
+   A. È del tutto esatta, senza sfumature
+   B. Entrambe hanno compromessi reali e diversi tra rischio e rendimento
+   C. Le obbligazioni non hanno alcun rischio
+   D. Le azioni perdono sempre denaro
+
+## Soluzioni
+
+1. B
+2. Vero
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Proprietà contro prestito è la differenza strutturale fondamentale.
+
+### Domanda 2
+
+Risposta corretta: Vero. In genere gli obbligazionisti hanno priorità di rimborso rispetto agli azionisti.
+
+### Domanda 3
+
+Risposta corretta: B. Entrambe comportano tipi di rischio reali e distinti: la formula semplice perde questa sfumatura.
+
+## Punti chiave
+
+- Le azioni rappresentano una proprietà; le obbligazioni rappresentano un prestito.
+- In genere gli obbligazionisti hanno priorità di rimborso rispetto agli azionisti.
+- "Rischioso o sicuro" semplifica troppo un compromesso più sfumato tra le due.

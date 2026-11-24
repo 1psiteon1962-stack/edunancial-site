@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 7
 locale: nl
-title: "WHITE-L1-007"
-summary: "WHITE-L1-007"
-sourceVersion: "1.0"
+title: "Wat is een aandelenkoers, en wat beweegt die?"
+summary: "Leer wat een aandelenkoers van dag tot dag bepaalt, verder dan alleen \"vraag en aanbod\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-007: Marktorders vs. Limietorders
+# Wat is een aandelenkoers, en wat beweegt die?
 
 ## Leerdoelen
-1. Een marktorder en een limietorder definiëren.
-2. De afweging tussen uitvoeringszekerheid en prijscontrole uitleggen.
-3. Een scenario identificeren waarin elk type order geschikt is.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een aandelenkoers in eenvoudige woorden te definiëren.
+- het basismechanisme van vraag en aanbod achter koersveranderingen uit te leggen.
+- factoren te noemen die die vraag en dat aanbod kunnen verschuiven.
 
 ## Kerninhoud
-Een **marktorder** koopt of verkoopt onmiddellijk een effect tegen de op dat moment best beschikbare prijs — waarbij snelheid van uitvoering voorrang krijgt boven de exacte prijs. Een **limietorder** stelt een specifieke prijs vast waartegen de belegger bereid is te kopen of te verkopen — waarbij prijscontrole voorrang krijgt, maar de uitvoering is niet gegarandeerd als de markt die prijs nooit bereikt.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een aandeel wordt rond de $50 verhandeld. Noah plaatst een marktorder om te kopen — deze wordt bijna onmiddellijk uitgevoerd, maar in een snel bewegende markt zou hij iets meer of minder dan $50 kunnen betalen, afhankelijk van het exacte moment van uitvoering. Zijn vriendin Devi plaatst in plaats daarvan een limietorder om te kopen tegen $48 — zij zal niet meer dan $48 betalen, maar als de prijs nooit tot $48 daalt, wordt haar order simpelweg nooit uitgevoerd.
+### Wat een aandelenkoers is
 
-## Praktische Toets
-1. Wat krijgt voorrang bij een marktorder?
-2. Wat krijgt voorrang bij een limietorder?
-3. Waar/Onwaar: Een limietorder garandeert uitvoering.
-4. Welk type order zou u gebruiken als het direct afronden van de transactie belangrijker is dan de exacte prijs?
+De aandelenkoers is het bedrag waarvoor een aandeel op dat moment op de markt wordt verhandeld: de prijs waarover de laatste koper en verkoper het eens werden.
+
+### Het basismechanisme
+
+In de kern beweegt een aandelenkoers op basis van vraag en aanbod: meer kopers dan verkopers bij een bepaalde prijs duwt de koers doorgaans omhoog; meer verkopers dan kopers duwt hem doorgaans omlaag.
+
+### Wat vraag en aanbod verschuift
+
+Bedrijfsspecifiek nieuws (winstcijfers, nieuwe producten, wisselingen in de leiding), bredere economische omstandigheden, trends in de sector en het sentiment van beleggers kunnen allemaal veranderen hoeveel mensen bij een bepaalde prijs willen kopen of verkopen: daarom kunnen koersen bewegen, zelfs zonder enige verandering in het bedrijf zelf.
+
+## Praktijkvoorbeeld
+
+Een bedrijf meldt een hogere winst dan verwacht. Meer beleggers willen aandelen kopen tegen de huidige koers dan er verkopers zijn die willen verkopen, waardoor de koers stijgt tot er een nieuw evenwicht is bereikt.
+
+## Oefenquiz
+
+1. Een aandelenkoers wordt in de kern bepaald door:
+   A. Door de overheid vastgestelde regels
+   B. Vraag en aanbod
+   C. De oprichtingsdatum van het bedrijf
+   D. Het tickersymbool van het aandeel
+
+2. Waar of onwaar: een aandelenkoers kan alleen veranderen als er iets verandert aan het bedrijf zelf.
+
+3. Wat is een factor die vraag en aanbod van een aandeel kan verschuiven?
+   A. Nieuws over de winst van het bedrijf
+   B. Het tickersymbool van het aandeel
+   C. De oprichtingsdatum van het bedrijf
+   D. De kleur van het bedrijfslogo
 
 ## Antwoordsleutel
-1. De snelheid van uitvoering   2. De prijscontrole   3. Onwaar   4. Een marktorder
 
-## Antwoorden en Toelichtingen
-1. Marktorders worden uitgevoerd tegen de best beschikbare actuele prijs, waarbij snelheid voorrang krijgt.
-2. Limietorders worden alleen uitgevoerd tegen de gespecificeerde prijs of beter, waarbij controle voorrang krijgt.
-3. Limietorders worden alleen uitgevoerd als de markt de vastgestelde prijs bereikt — dit is niet gegarandeerd.
-4. Marktorders zijn geschikt voor situaties waarin onmiddellijke uitvoering het belangrijkst is.
+1. B
+2. Onwaar
+3. A
 
-## Belangrijkste Punten om te Onthouden
-- Marktorders geven voorrang aan snelheid; limietorders geven voorrang aan prijscontrole.
-- Er is geen garantie dat limietorders worden uitgevoerd als de streefprijs niet wordt bereikt.
-- Kies op basis van of snelheid of prijsprecisie belangrijker is voor die transactie.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Vraag en aanbod bepalen in de kern de aandelenkoers.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Bredere marktomstandigheden en sentiment kunnen koersen bewegen zonder enige bedrijfsspecifieke verandering.
+
+### Vraag 3
+
+Juist antwoord: A. Winstnieuws is een veelvoorkomende aanjager van verschuivingen in vraag en aanbod.
+
+## Belangrijkste punten
+
+- De aandelenkoers weerspiegelt de laatst overeengekomen transactieprijs.
+- Vraag en aanbod bepalen in de kern de koersbeweging.
+- Bedrijfsnieuws, economische omstandigheden en sentiment kunnen allemaal vraag en aanbod verschuiven.

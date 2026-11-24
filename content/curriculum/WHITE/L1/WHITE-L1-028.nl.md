@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 28
 locale: nl
-title: "WHITE-L1-028"
-summary: "WHITE-L1-028"
-sourceVersion: "1.0"
+title: "Wat is de vervaldatum van een obligatie?"
+summary: "Leer wat een vervaldatum is, en waarom obligaties met verschillende looptijden zich verschillend gedragen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-028: Volatiliteit Begrijpen
+# Wat is de vervaldatum van een obligatie?
 
 ## Leerdoelen
-1. Volatiliteit in beleggingstermen definiëren.
-2. Volatiliteit onderscheiden van een daadwerkelijk verlies.
-3. Uitleggen waarom de tolerantie voor volatiliteit per belegger verschilt.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de vervaldatum in eenvoudige woorden te definiëren.
+- uit te leggen wat er op de vervaldatum gebeurt.
+- te herkennen dat de looptijd het gedrag van een obligatie beïnvloedt.
 
 ## Kerninhoud
-Volatiliteit verwijst naar hoeveel en hoe snel de koers van een effect schommelt. *GEVERIFIEERD FEIT:* Hoge volatiliteit betekent grotere en frequentere koersschommelingen, in beide richtingen — dit betekent niet inherent dat een belegging waarde verliest, alleen dat de koers ervan zich dramatischer beweegt.
 
-*AANNAME:* De tolerantie van een belegger voor volatiliteit hangt af van tijdshorizon, financiële situatie, en psychologisch comfort bij het zien schommelen van de rekeningwaarde — wat voor de ene belegger beheersbaar aanvoelt, kan voor een andere ondraaglijk aanvoelen.
+### Wat een vervaldatum is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Twee beleggingen hebben beide gemiddeld 8% jaarlijks rendement over 10 jaar. Belegging A beweegt soepel met kleine schommelingen van jaar tot jaar. Belegging B schommelt hevig — daalt 20% in één jaar, stijgt 35% in het volgende — met een gemiddelde van diezelfde 8%, maar met een veel hobbeliger traject. Beide leverden technisch hetzelfde gemiddelde rendement, maar de volatiliteit van Belegging B zou het geduld van veel beleggers onderweg op de proef stellen.
+De vervaldatum van een obligatie is de datum waarop de uitgevende instelling heeft toegezegd de nominale waarde (de hoofdsom) volledig aan de obligatiehouder terug te betalen: het einde van de looptijd van de lening die in de eerdere les over obligaties werd geïntroduceerd.
 
-## Praktische Toets
-1. Wat meet volatiliteit?
-2. Waar/Onwaar: Hoge volatiliteit betekent altijd dat een belegging waarde verliest.
-3. Welke factoren beïnvloeden de tolerantie van een belegger voor volatiliteit?
-4. Wat gold voor Beleggingen A en B in het praktische voorbeeld, ondanks hun verschillende trajecten?
+### Wat er op de vervaldatum gebeurt
+
+Op de vervaldatum krijgt de obligatiehouder de nominale waarde terug en stoppen de rentebetalingen, omdat de lening als volledig terugbetaald wordt beschouwd.
+
+### Waarom de looptijd ertoe doet
+
+Obligaties met een langere looptijd (verder weg gelegen terugbetalingsdata) zijn doorgaans gevoeliger voor veranderende rentestanden dan obligaties met een kortere looptijd: een begrip dat in een latere les over renterisico dieper aan bod komt.
+
+## Praktijkvoorbeeld
+
+Een obligatie met een looptijd van 2 jaar en een van 20 jaar kunnen vandaag vergelijkbare couponrentes hebben, maar de koers van de 20-jarige obligatie reageert doorgaans veel sterker op toekomstige renteveranderingen, simpelweg omdat die nog veel langer heeft tot de vervaldatum.
+
+## Oefenquiz
+
+1. De vervaldatum van een obligatie is:
+   A. Het moment waarop de rentebetalingen beginnen
+   B. Het moment waarop de uitgevende instelling de nominale waarde volledig terugbetaalt
+   C. De datum waarop de obligatie is gekocht
+   D. Een datum die de obligatiehouder vaststelt
+
+2. Waar of onwaar: rentebetalingen gaan na de vervaldatum van een obligatie onbeperkt door.
+
+3. Welk type obligatie is doorgaans gevoeliger voor renteveranderingen?
+   A. Een obligatie met een kortere looptijd
+   B. Een obligatie met een langere looptijd
+   C. De looptijd heeft geen invloed op de gevoeligheid
+   D. Alleen obligaties zonder vervaldatum
 
 ## Antwoordsleutel
-1. Hoeveel en hoe snel de koers schommelt   2. Onwaar   3. Tijdshorizon, financiële situatie, psychologisch comfort   4. Beide hadden gemiddeld hetzelfde jaarlijkse rendement van 8%
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van volatiliteit.
-2. Volatiliteit weerspiegelt de omvang van de koersbeweging, niet de richting of een gegarandeerd verlies.
-3. Dit zijn de algemene factoren die de individuele tolerantie voor volatiliteit vormgeven.
-4. Hetzelfde gemiddelde rendement, een heel andere ervaring van volatiliteit onderweg.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Volatiliteit meet de omvang en frequentie van koersschommelingen.
-- Hoge volatiliteit betekent niet inherent verlies — het betekent een grotere koersbeweging in beide richtingen.
-- De tolerantie voor volatiliteit is persoonlijk en hangt af van tijdshorizon en psychologisch comfort.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Op de vervaldatum wordt de nominale waarde volledig terugbetaald.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. De rentebetalingen stoppen zodra de obligatie vervalt en wordt terugbetaald.
+
+### Vraag 3
+
+Juist antwoord: B. Obligaties met een langere looptijd zijn doorgaans gevoeliger voor renteveranderingen.
+
+## Belangrijkste punten
+
+- De vervaldatum van een obligatie is het moment waarop de nominale waarde volledig wordt terugbetaald.
+- De rentebetalingen stoppen zodra de vervaldatum is bereikt.
+- Obligaties met een langere looptijd zijn doorgaans gevoeliger voor renteveranderingen.

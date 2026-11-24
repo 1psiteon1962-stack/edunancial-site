@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 43
 locale: pt-PT
-title: "O que é alocação de ativos?"
-summary: "Aprenda o que significa alocação de ativos e como ela difere da diversificação dentro de uma única categoria."
-sourceVersion: "1.0"
+title: "O que é a alocação de ativos?"
+summary: "Aprenda o que significa alocação de ativos e em que difere da diversificação dentro de um único tipo de ativo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é alocação de ativos?
+# O que é a alocação de ativos?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir alocação de ativos em termos simples.
+- distingui-la da diversificação dentro de uma categoria de ativos.
+- explicar porque é que é muitas vezes descrita como uma decisão fundamental da carteira.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é a alocação de ativos
 
-Alocação de ativos é a forma como o investidor divide a carteira total entre categorias amplas, como ações, títulos e dinheiro, e não quais investimentos específicos escolhe dentro de cada categoria.
+A alocação de ativos refere-se à forma como um investidor divide a sua carteira global por diferentes grandes categorias de ativos, como ações, obrigações e liquidez, e não a quais investimentos específicos escolher dentro de cada categoria.
 
-### Como funciona
+### Em que difere da diversificação
 
-Diversificação geralmente significa distribuir investimentos dentro de uma categoria, como possuir muitas ações diferentes. Alocação opera um nível acima: quanto da carteira total vai para ações, títulos e dinheiro.
+A diversificação (vista anteriormente neste nível) refere-se geralmente a distribuir os investimentos dentro de uma categoria, como deter muitas ações diferentes. A alocação de ativos atua um nível acima: decide quanto vai, no total, para ações, quanto para obrigações e quanto para liquidez.
 
-### Por que isso importa
+### Porque é que é fundamental
 
-A alocação é uma decisão fundamental porque a combinação ampla entre categorias tem efeito substancial sobre o risco total e o retorno potencial da carteira.
+A alocação de ativos é muitas vezes descrita como uma das decisões mais importantes na construção de uma carteira, porque a combinação geral entre categorias de ativos (e não apenas as ações específicas escolhidas) tem um efeito considerável no risco global e no retorno potencial.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor pode decidir primeiro por 70% em ações, 25% em títulos e 5% em dinheiro antes de escolher quais ações ou títulos específicos manter.
+Um investidor pode decidir-se por uma alocação de 70% em ações, 25% em obrigações e 5% em liquidez: uma decisão tomada antes mesmo de escolher quais as ações ou obrigações específicas a deter dentro dessa estrutura.
 
-## Quiz prático
+## Teste de prática
 
-1. Alocação: A. escolher ações específicas B. dividir carteira entre categorias amplas C. dividendo D. programa público
-2. Verdadeiro ou falso: alocação e diversificação dentro de categoria são exatamente iguais.
-3. Por que fundamental? A. pouco efeito B. mix amplo afeta risco e retorno C. só títulos D. substitui tudo
+1. A alocação de ativos refere-se a:
+   A. Escolher ações individuais específicas
+   B. Dividir uma carteira por grandes categorias como ações, obrigações e liquidez
+   C. Um tipo de dividendo
+   D. Um programa de reforma do Estado
 
-## Gabarito
+2. Verdadeiro ou falso: a alocação de ativos e a diversificação dentro de uma categoria significam exatamente a mesma coisa.
+
+3. Porque é que a alocação de ativos é muitas vezes descrita como uma decisão fundamental?
+   A. Tem pouco efeito numa carteira
+   B. A combinação geral entre categorias afeta consideravelmente o risco e o retorno globais
+   C. Só importa para obrigações
+   D. Substitui qualquer outra decisão de investimento
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Um investidor pode decidir primeiro por 70% em ações, 25% em títulos e 5% em 
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A alocação de ativos é a divisão da carteira ao nível das grandes categorias.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. A alocação faz-se ao nível da categoria; a diversificação, dentro da categoria.
+
+### Pergunta 3
+
+Resposta correta: B. A combinação geral das categorias afeta consideravelmente o comportamento global da carteira.
+
+## Pontos-chave
+
+- A alocação de ativos é a forma como uma carteira é dividida por grandes categorias.
+- É uma decisão diferente e de nível superior à diversificação dentro de uma categoria.
+- É considerada uma decisão fundamental na construção de uma carteira.

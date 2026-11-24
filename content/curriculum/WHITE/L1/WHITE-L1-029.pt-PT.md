@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 29
 locale: pt-PT
-title: "O que é risco de crédito em um título?"
-summary: "Aprenda o significado do risco de crédito e por que alguns títulos pagam juros maiores do que outros."
-sourceVersion: "1.0"
+title: "O que é o risco de crédito numa obrigação?"
+summary: "Aprenda o que o risco de crédito significa para uma obrigação e como se relaciona com o facto de algumas obrigações pagarem juros mais elevados do que outras."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é risco de crédito em um título?
+# O que é o risco de crédito numa obrigação?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir risco de crédito em termos simples.
+- explicar como o risco de crédito se relaciona com a taxa de juro de uma obrigação.
+- reconhecer que nem todos os emitentes de obrigações têm o mesmo risco de crédito.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é o risco de crédito
 
-Risco de crédito é o risco de o emissor não conseguir fazer os pagamentos prometidos de juros ou devolver o principal no vencimento — isto é, risco de inadimplência.
+O risco de crédito é o risco de um emitente não conseguir pagar os juros prometidos ou reembolsar o capital no vencimento: por outras palavras, o risco de incumprimento.
 
-### Como funciona
+### Como se relaciona com a taxa de juro
 
-Emissores percebidos como de maior risco geralmente precisam oferecer cupom maior para atrair credores e compensá-los pelo risco adicional. Emissores considerados de risco muito baixo podem tomar empréstimos a taxas menores.
+Os emitentes considerados de maior risco de crédito precisam geralmente de oferecer uma taxa de cupão mais elevada para atrair credores, compensando os investidores pelo risco adicional. Os emitentes considerados de risco muito baixo (como governos estáveis) conseguem geralmente financiar-se a taxas mais baixas.
 
-### Por que isso importa
+### Nem todos os emitentes são iguais
 
-Uma empresa grande e financeiramente estável e outra pequena e financeiramente pressionada não apresentam o mesmo risco de crédito, mesmo que seus títulos pareçam semelhantes. As classificações de crédito, tratadas no Level 2, ajudam a avaliar esse risco.
+Uma empresa grande e financeiramente estável e uma empresa mais pequena e com dificuldades financeiras que emitem obrigações não têm o mesmo risco de crédito, mesmo que as suas obrigações pareçam semelhantes à primeira vista: é por isso que existem as notações de risco de obrigações (tratadas no Nível 2), que ajudam a avaliar esse risco.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um governo financeiramente forte pode emitir títulos a taxa baixa. Uma empresa em dificuldades pode precisar oferecer taxa muito maior para compensar os investidores pelo risco adicional de inadimplência.
+Um governo financeiramente sólido pode emitir obrigações a uma taxa de juro baixa, refletindo um baixo risco de crédito. Uma empresa com dificuldades financeiras pode ter de oferecer uma taxa bem mais elevada nas suas obrigações para atrair investidores dispostos a correr o risco adicional de incumprimento.
 
-## Quiz prático
+## Teste de prática
 
-1. Risco de crédito: A. perder certificado B. emissor não pagar juros ou principal C. desdobramento D. queda geral
-2. Verdadeiro ou falso: maior risco geralmente implica juros menores.
-3. Por que empresa frágil paga mais? A. compensar maior risco B. governo exige C. reduzir capitalização D. todos iguais
+1. O risco de crédito numa obrigação refere-se a:
+   A. O risco de perder um certificado em papel
+   B. O risco de o emitente não pagar juros ou capital como prometido
+   C. O risco de um desdobramento de ações
+   D. O risco de uma descida generalizada do mercado
 
-## Gabarito
+2. Verdadeiro ou falso: os emitentes com maior risco de crédito oferecem geralmente taxas de juro mais baixas.
+
+3. Porque é que uma empresa com dificuldades financeiras pode ter de oferecer uma taxa mais elevada nas suas obrigações?
+   A. Para compensar os investidores por um risco de incumprimento mais elevado
+   B. Porque o governo o exige
+   C. Para reduzir a sua capitalização bolsista
+   D. As obrigações têm sempre a mesma taxa, independentemente do risco
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Um governo financeiramente forte pode emitir títulos a taxa baixa. Uma empresa 
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O risco de crédito é o risco de incumprimento nos juros ou no capital.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Os emitentes com maior risco de crédito precisam geralmente de oferecer taxas mais elevadas.
+
+### Pergunta 3
+
+Resposta correta: A. Taxas mais elevadas compensam os investidores por assumirem o risco de incumprimento.
+
+## Pontos-chave
+
+- O risco de crédito é o risco de um emitente entrar em incumprimento numa obrigação.
+- Maior risco de crédito significa geralmente uma taxa de juro oferecida mais elevada.
+- Nem todos os emitentes de obrigações têm o mesmo nível de risco de crédito.

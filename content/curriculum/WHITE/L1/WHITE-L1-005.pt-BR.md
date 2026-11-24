@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 5
 locale: pt-BR
-title: "Ações versus títulos: qual é o verdadeiro equilíbrio entre risco e retorno?"
-summary: "Entenda a verdadeira diferença entre ações e títulos — potencial de crescimento versus prioridade de pagamento — e não apenas “arriscado versus seguro”."
-sourceVersion: "1.0"
+title: "Ações e títulos de dívida: qual é a verdadeira troca?"
+summary: "Aprenda a verdadeira troca entre ações e títulos de dívida – potencial de crescimento versus prioridade no pagamento –, e não apenas \"arriscado versus seguro\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Ações versus títulos: qual é o verdadeiro equilíbrio entre risco e retorno?
+# Ações e títulos de dívida: qual é a verdadeira troca?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá explicar a diferença estrutural entre ações e títulos, a prioridade de pagamento e por que “ações são arriscadas, títulos são seguros” é simplista.
+Ao final desta lição, você deverá ser capaz de:
+
+- explicar a diferença estrutural central entre ações e títulos de dívida.
+- explicar por que os detentores de títulos costumam ser pagos antes dos acionistas.
+- evitar a ideia simplificada de que "ações são arriscadas, títulos são seguros".
 
 ## Conteúdo principal
 
 ### A diferença estrutural
 
-Uma ação representa propriedade; um título representa um empréstimo. Essa única diferença determina grande parte das diferenças práticas entre eles.
+Uma ação representa propriedade; um título de dívida representa um empréstimo. Essa única diferença explica a maior parte das diferenças práticas entre os dois, tratadas nesta lição.
 
-### Prioridade de pagamento
+### Prioridade no pagamento
 
-Se uma empresa enfrenta graves dificuldades financeiras, os detentores de títulos, como credores, geralmente têm direito jurídico de receber antes que os acionistas, como proprietários, recebam algo. Trata-se de prioridade estrutural real.
+Se uma empresa enfrentar problemas financeiros graves, os detentores de títulos (como credores) geralmente têm o direito legal de ser pagos antes que os acionistas (como donos) recebam qualquer coisa. É uma prioridade estrutural real, e não apenas uma fama geral de segurança.
 
-### Além de “arriscado versus seguro”
+### Além de "arriscado versus seguro"
 
-Chamar ações simplesmente de arriscadas e títulos simplesmente de seguros ignora o verdadeiro equilíbrio. Ações oferecem potencial de valorização da propriedade, mas sem garantia de pagamento. Títulos oferecem condições contratuais definidas, porém retorno potencial limitado e riscos reais, inclusive inadimplência do emissor.
+Chamar as ações simplesmente de "arriscadas" e os títulos simplesmente de "seguros" simplifica demais uma troca mais cheia de nuances: as ações oferecem o potencial de ganho da propriedade (crescimento potencialmente ilimitado, mas sem garantia de pagamento), enquanto os títulos oferecem condições de pagamento definidas e contratuais (mas com potencial de retorno limitado e riscos reais próprios, como a inadimplência do emissor).
 
-## Exemplo resolvido
+## Exemplo prático
 
-Se uma empresa entra em falência, seus detentores de títulos geralmente estão à frente dos acionistas na fila para receber dos ativos restantes. A posição dos acionistas vem depois, refletindo a diferença entre propriedade e empréstimo.
+Se uma empresa vai à falência, os detentores de seus títulos geralmente estão na fila para ser pagos com os bens restantes antes que os acionistas vejam qualquer coisa: o direito dos acionistas vem por último, refletindo a diferença estrutural entre propriedade e empréstimo.
 
-## Quiz prático
+## Teste de prática
 
-1. Diferença estrutural central: A. ações sempre mais arriscadas B. ações são propriedade; títulos são empréstimos C. títulos sempre rendem mais D. nenhuma diferença
-2. Verdadeiro ou falso: em falência, credores detentores de títulos geralmente têm prioridade sobre acionistas.
-3. Por que “arriscado versus seguro” é simplista? A. é totalmente correto B. ambos têm riscos e recompensas diferentes C. títulos não têm risco D. ações sempre perdem
+1. A diferença estrutural central entre ações e títulos de dívida é:
+   A. As ações são sempre mais arriscadas que os títulos
+   B. As ações representam propriedade; os títulos representam um empréstimo
+   C. Os títulos sempre pagam retornos maiores
+   D. Não há diferença real
+
+2. Verdadeiro ou falso: na falência de uma empresa, os detentores de títulos geralmente têm direito a ser pagos antes dos acionistas.
+
+3. Por que "ações são arriscadas, títulos são seguros" é uma simplificação exagerada?
+   A. É totalmente correta, sem nuances
+   B. Ambos têm trocas reais e diferentes entre risco e retorno
+   C. Os títulos não têm risco nenhum
+   D. As ações sempre perdem dinheiro
 
 ## Gabarito
 
@@ -50,12 +64,20 @@ Se uma empresa entra em falência, seus detentores de títulos geralmente estão
 
 ## Respostas e explicações
 
-1. B. Propriedade versus empréstimo é a diferença estrutural central.
-2. Verdadeiro. Credores geralmente têm prioridade sobre proprietários.
-3. B. Ambos possuem tipos reais e distintos de risco e retorno.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Propriedade versus empréstimo é a diferença estrutural central.
 
-- Ações representam propriedade; títulos representam empréstimos.
-- Detentores de títulos geralmente têm prioridade de pagamento.
-- “Arriscado versus seguro” simplifica demais diferenças reais de risco e recompensa.
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Os detentores de títulos geralmente têm prioridade no pagamento sobre os acionistas.
+
+### Pergunta 3
+
+Resposta correta: B. Ambos têm tipos de risco reais e distintos: a ideia simplificada deixa essa nuance de fora.
+
+## Pontos-chave
+
+- As ações representam propriedade; os títulos de dívida representam um empréstimo.
+- Os detentores de títulos geralmente têm prioridade no pagamento sobre os acionistas.
+- "Arriscado versus seguro" simplifica demais uma troca mais cheia de nuances entre os dois.

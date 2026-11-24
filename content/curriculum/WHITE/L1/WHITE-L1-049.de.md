@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 49
 locale: de
-title: "Einen Brokerage-Kontoauszug lesen: Was sehen Sie tatsächlich?"
-summary: "Lernen Sie die Kernbereiche eines Brokerage-Kontoauszugs zu lesen und Begriffe aus diesem Level miteinander zu verbinden."
-sourceVersion: "1.0"
+title: "Einen Depotauszug lesen: Was sehen Sie da eigentlich?"
+summary: "Erfahren Sie, wie man die Kernbereiche eines Depotauszugs liest, und verbinden Sie dabei Begriffe aus dem gesamten Level."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Einen Brokerage-Kontoauszug lesen: Was sehen Sie tatsächlich?
+# Einen Depotauszug lesen: Was sehen Sie da eigentlich?
 
 ## Lernziele
 
-Am Ende dieser Lektion sollten Sie die zentralen Konzepte definieren, ihre praktische Bedeutung erklären und auf ein konkretes Beispiel anwenden können.
+Am Ende dieser Lektion sollten Sie:
+
+- die Kernbereiche eines typischen Depotauszugs erkennen können.
+- erklären können, was jeder Bereich tatsächlich aussagt.
+- Begriffe aus dem Auszug mit Konzepten aus diesem Level verbinden können.
 
 ## Kerninhalt
 
 ### Kernbereiche eines Auszugs
 
-Ein typischer Brokerage-Kontoauszug enthält grundsätzlich Bestände — was und wie viel gehalten wird —, Transaktionshistorie mit Käufen, Verkäufen und Dividenden sowie eine Leistungsübersicht. Das genaue Format variiert je Broker.
+Ein typischer Depotauszug enthält im Allgemeinen: den Depotbestand (was man besitzt und wie viel), die Umsatzübersicht (jüngste Käufe, Verkäufe, Dividenden) und eine Übersicht zur Wertentwicklung – wobei die genaue Gestaltung von Anbieter zu Anbieter unterschiedlich ist.
 
-### Was die Bereiche zeigen
+### Was jeder Bereich aussagt
 
-Der Bestandsbereich zeigt aktuelle Positionen und Marktwert. Die Transaktionshistorie zeigt jüngste Aktivitäten einschließlich Dividenden. Die Leistungsübersicht meldet häufig eine zeitgewichtete Rendite und nicht zwingend die persönliche geldgewichtete Erfahrung.
+Der Bestandsbereich zeigt die aktuellen Positionen und ihren Marktwert. Die Umsatzübersicht zeigt die jüngsten Aktivitäten, einschließlich Dividendenzahlungen (früher in diesem Level behandelt). Die Übersicht zur Wertentwicklung gibt oft so etwas wie eine zeitgewichtete Rendite an (aus der vorigen Lektion), nicht unbedingt die persönliche, geldgewichtete Erfahrung eines Anlegers.
 
-### Verbindung zu Konzepten dieses Levels
+### Die Verbindung zu den Konzepten dieses Levels
 
-Einen Auszug richtig zu lesen bedeutet, bereits behandelte Begriffe zu erkennen: gehaltene Anteile, Marktwert, erhaltene Dividenden und den Unterschied zwischen gemeldeter Fondsrendite und persönlicher Rendite aufgrund des eigenen Einzahlungstimings.
+Einen Auszug gut zu lesen bedeutet, bereits behandelte Begriffe wiederzuerkennen: gehaltene Aktien, Marktwert, erhaltene Dividenden und den Unterschied zwischen der vom Fonds gemeldeten Rendite und der tatsächlichen persönlichen Rendite eines Einzelnen, die vom Zeitpunkt seiner eigenen Einzahlungen abhängt.
 
 ## Durchgerechnetes Beispiel
 
-Ein Anleger sieht auf seinem Auszug ETF-Anteile, eine kürzlich erhaltene Dividende und eine Rendite seit Jahresbeginn. Er erkennt, dass diese Rendite wahrscheinlich zeitgewichtet ist und bei Einzahlungen während des Jahres nicht exakt seiner persönlichen Rendite entsprechen muss.
+Ein Anleger prüft seinen Auszug und sieht, dass er Anteile an einem ETF besitzt, bemerkt in der Umsatzübersicht eine kürzlich gezahlte Dividende und sieht eine gemeldete Rendite seit Jahresbeginn – und erkennt, dass diese Zahl wahrscheinlich die zeitgewichtete Wertentwicklung widerspiegelt und nicht unbedingt seine eigene genaue persönliche Rendite, wenn er im Laufe des Jahres Geld nachgeschossen hat.
 
 ## Übungsquiz
 
-1. Bestandsbereich zeigt: A. nur Gebühren B. aktuelle Positionen und Marktwert C. nur Steuererklärung D. fremde Unternehmen
-2. Richtig oder falsch: Leistungsübersicht entspricht immer exakt der persönlichen geldgewichteten Rendite.
-3. Transaktionshistorie enthält typischerweise: A. nur zukünftige Trades B. Käufe, Verkäufe, Dividenden C. vollständige Unternehmensabschlüsse D. Steuererklärungen
+1. Der Bestandsbereich eines Depotauszugs zeigt typischerweise:
+   A. Nur die Gebühren des Anbieters
+   B. Die aktuellen Positionen und ihren Marktwert
+   C. Nur die Steuererklärung des Anlegers
+   D. Eine Liste beliebiger Unternehmen
+
+2. Richtig oder falsch: Die Übersicht zur Wertentwicklung auf einem Auszug spiegelt immer die genaue persönliche, geldgewichtete Rendite eines Anlegers wider.
+
+3. Was enthält die Umsatzübersicht typischerweise?
+   A. Nur künftig geplante Geschäfte
+   B. Jüngste Käufe, Verkäufe und Dividendenzahlungen
+   C. Den vollständigen Jahresabschluss eines Unternehmens
+   D. Staatliche Steuerunterlagen
 
 ## Lösungsschlüssel
 
@@ -50,10 +64,20 @@ Ein Anleger sieht auf seinem Auszug ETF-Anteile, eine kürzlich erhaltene Divide
 
 ## Antworten und Erklärungen
 
-Die richtigen Antworten folgen aus den Definitionen, Unterscheidungen und dem durchgerechneten Beispiel dieser Lektion. Prüfen Sie insbesondere Zweck, Mechanik und Grenzen des jeweiligen Konzepts.
+### Frage 1
+
+Richtige Antwort: B. Der Bestand zeigt die aktuellen Positionen und ihren Marktwert.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die gemeldete Wertentwicklung ist oft zeitgewichtet und nicht unbedingt die persönliche, geldgewichtete Rendite des Anlegers.
+
+### Frage 3
+
+Richtige Antwort: B. Die Umsatzübersicht umfasst die jüngsten Aktivitäten im Depot.
 
 ## Wichtigste Erkenntnisse
 
-- Verstehen Sie die genaue Struktur und Funktion des behandelten Konzepts.
-- Unterscheiden Sie vereinfachende Annahmen von tatsächlichen Risiken, Kosten und Zielkonflikten.
-- Nutzen Sie das Verständnis, um Entscheidungen bewusst statt blind zu treffen.
+- Ein Depotauszug enthält typischerweise Bestand, Umsatzübersicht und eine Übersicht zur Wertentwicklung.
+- Die gemeldete Wertentwicklung ist oft zeitgewichtet und nicht automatisch die persönliche Rendite eines Anlegers.
+- Einen Auszug gut zu lesen, stützt sich auf Konzepte aus dem gesamten Level.

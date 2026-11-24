@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 14
 locale: pt-BR
-title: "O que é risco e por que ele não significa “ruim”?"
-summary: "Aprenda como este curso define risco de investimento e por que risco e “ruim” são conceitos diferentes."
-sourceVersion: "1.0"
+title: "O que é risco, e por que ele não é o mesmo que \"ruim\"?"
+summary: "Aprenda como este curso define o risco de investimento e por que risco e \"ruim\" não são o mesmo conceito."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é risco e por que ele não significa “ruim”?
+# O que é risco, e por que ele não é o mesmo que "ruim"?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir o risco de investimento em termos simples.
+- explicar por que risco e "ruim" são conceitos diferentes.
+- explicar a relação geral entre risco e retorno potencial.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que risco significa aqui
 
-Em investimentos, risco geralmente significa incerteza do resultado, especialmente a possibilidade de o retorno real diferir do esperado, inclusive com possibilidade de perda.
+Nos investimentos, risco geralmente se refere à incerteza de um resultado: especificamente, a chance de que o retorno real de um investimento seja diferente do esperado, incluindo a possibilidade de perda.
 
-### Como funciona
+### Risco não é o mesmo que "ruim"
 
-Risco descreve incerteza, não um resultado negativo garantido. Um investimento arriscado não é automaticamente uma escolha ruim; significa que a faixa de resultados possíveis é mais ampla.
+O risco descreve incerteza, e não um resultado negativo garantido. Um investimento "arriscado" não é automaticamente uma má escolha: significa que a faixa de resultados possíveis é mais ampla, para melhor ou para pior, do que a de uma opção de menor risco.
 
-### Por que isso importa
+### A relação geral entre risco e retorno
 
-Em geral, investimentos com maior retorno potencial tendem a carregar maior risco, enquanto opções com maior segurança tendem a oferecer menor retorno potencial. Não é garantia em cada caso, mas é um padrão importante.
+Em geral, investimentos com retornos potenciais mais altos tendem a ter mais risco, e investimentos com mais certeza ou segurança tendem a oferecer retornos potenciais mais baixos. Não é uma garantia rígida em todos os casos, mas é um padrão comum que vale a pena entender.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um título emitido por um governo estável tende a ser considerado de menor risco e retorno mais modesto. Uma ação de empresa nova tende a ter maior risco e possibilidade de retorno muito maior ou menor.
+Um título público de um emissor estável é geralmente considerado de menor risco, com um retorno correspondentemente modesto. A ação de uma empresa nova é geralmente considerada de maior risco, com potencial de retorno muito maior (ou muito menor) do que o do título.
 
-## Quiz prático
+## Teste de prática
 
-1. Risco significa: A. perda garantida B. incerteza do resultado C. dividendo D. regulação
-2. Verdadeiro ou falso: investimento arriscado é automaticamente ruim.
-3. Relação geral: A. nenhuma B. maior retorno potencial geralmente acompanha maior risco C. menor risco sempre dá maior retorno D. são idênticos
+1. Nos investimentos, risco geralmente se refere a:
+   A. Uma perda garantida
+   B. A incerteza do resultado real de um investimento
+   C. Um tipo de dividendo
+   D. Uma regra do governo
+
+2. Verdadeiro ou falso: um investimento "arriscado" é automaticamente uma má escolha.
+
+3. Qual é a relação geral entre risco e retorno potencial?
+   A. Risco maior geralmente não tem relação com o retorno potencial
+   B. Retornos potenciais mais altos geralmente vêm com risco maior
+   C. Risco menor sempre significa retornos maiores
+   D. Risco e retorno são sempre idênticos
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Um título emitido por um governo estável tende a ser considerado de menor risc
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O risco se refere à incerteza do resultado, e não a uma perda garantida.
 
-- Entenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. O risco descreve incerteza, e não um resultado automaticamente ruim.
+
+### Pergunta 3
+
+Resposta correta: B. Retornos potenciais mais altos geralmente estão ligados a risco maior.
+
+## Pontos-chave
+
+- O risco se refere à incerteza do resultado, e não a um resultado ruim garantido.
+- Um investimento arriscado não é automaticamente uma má escolha.
+- Retornos potenciais mais altos geralmente vêm com risco maior, como padrão geral.

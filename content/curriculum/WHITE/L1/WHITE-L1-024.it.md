@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 24
 locale: it
-title: "La Capitalizzazione di Mercato Spiegata"
-summary: "*STIMA:* Le categorie comuni (anche se non perfettamente standardizzate) includono grande capitalizzazione (circa $10 miliardi o più), media capitalizzazione (circa $2-10 miliardi), e piccola capitalizzazione (circa $300 milioni-$2 miliardi) — le soglie esatte variano a seconda della fonte."
-sourceVersion: "1.0"
+title: "Che cosa sono le azioni frazionate?"
+summary: "Scopri che cosa sono le azioni frazionate, come abbassano la soglia d'ingresso negli investimenti e come si possono usare per dimensionare in modo adeguato il rischio per un principiante."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-024: La Capitalizzazione di Mercato Spiegata
+# Che cosa sono le azioni frazionate?
 
-## Obiettivi di Apprendimento
-1. Definire la capitalizzazione di mercato.
-2. Calcolare una capitalizzazione di mercato semplice.
-3. Identificare le categorie comuni di capitalizzazione di mercato.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-La capitalizzazione di mercato (market cap) è il valore totale delle azioni in circolazione di un'azienda. *FATTO VERIFICATO:* Capitalizzazione di Mercato = Prezzo dell'Azione × Totale delle Azioni in Circolazione.
+Al termine di questa lezione dovresti essere in grado di:
 
-*STIMA:* Le categorie comuni (anche se non perfettamente standardizzate) includono grande capitalizzazione (circa $10 miliardi o più), media capitalizzazione (circa $2-10 miliardi), e piccola capitalizzazione (circa $300 milioni-$2 miliardi) — le soglie esatte variano a seconda della fonte.
+- definire in parole semplici un'azione frazionata.
+- spiegare il problema di accessibilità che le azioni frazionate risolvono.
+- spiegare come le azioni frazionate si possano usare per dimensionare il rischio in modo adeguato, non solo per permettersi un'azione dal prezzo alto.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'azienda viene negoziata a $50 per azione con 100 milioni di azioni in circolazione. Capitalizzazione di Mercato = $50 × 100.000.000 = $5 miliardi, collocandola nella categoria di media capitalizzazione secondo le soglie comuni. Questo numero rappresenta la valutazione collettiva attuale del mercato per l'intera azienda, non solo il prezzo di una singola azione.
+## Contenuto principale
 
-## Quiz Pratico
-1. Qual è la formula della capitalizzazione di mercato?
-2. Se un'azione viene negoziata a $20 con 50 milioni di azioni in circolazione, qual è la capitalizzazione di mercato?
-3. Vero/Falso: Le categorie di capitalizzazione di mercato hanno un'unica definizione universalmente accettata.
-4. Cosa rappresenta la capitalizzazione di mercato?
+### Che cosa sono le azioni frazionate
 
-## Chiave di Risposte
-1. Prezzo dell'Azione × Totale delle Azioni in Circolazione   2. $1 miliardo   3. Falso   4. La valutazione totale del mercato per l'intera azienda
+Un'azione frazionata è una parte di una singola azione, più piccola di un'azione intera, che permette a un investitore di comprare meno di un'azione completa alla volta.
 
-## Risposte e Spiegazioni
-1. Questo è il calcolo standard della capitalizzazione di mercato.
-2. $20 × 50.000.000 = $1.000.000.000 = $1 miliardo.
-3. Le soglie delle categorie variano leggermente a seconda della fonte, anche se gli intervalli generali sono ampiamente utilizzati.
-4. La capitalizzazione di mercato riflette il valore totale del capitale proprio dell'azienda al prezzo di mercato attuale.
+### Il problema di accessibilità che risolvono
 
-## Punti Chiave da Ricordare
-- Capitalizzazione di Mercato = Prezzo dell'Azione × Azioni in Circolazione.
-- Rappresenta la valutazione totale del mercato di un'azienda, non solo il prezzo per azione.
-- Le categorie comuni (grande, media, piccola capitalizzazione) hanno soglie generali, non perfettamente standardizzate.
+Prima che le azioni frazionate fossero diffuse, un investitore doveva avere abbastanza denaro per comprare almeno un'azione intera: un vero ostacolo per le azioni dal prezzo più alto. Le azioni frazionate permettono a un investitore con una somma più piccola di ottenere comunque un'esposizione proporzionale a quella stessa azione.
+
+### Un secondo uso, meno evidente: dimensionare il rischio di proposito
+
+Chiediti: se stai insegnando a qualcuno a investire per la prima volta – magari a un giovane con pochissimo denaro –, qual è il vero pericolo? Non è solo "non potersi permettere un'azione". È la possibilità di una perdita abbastanza grande da fargli davvero male. Un genitore che insegna a un adolescente a investire, per esempio, potrebbe usare un conto con azioni frazionate proprio perché una perdita reale resti abbastanza piccola da essere una vera lezione, non un disastro. La dimensione della posizione, non solo ciò che ci si può permettere, è una scelta deliberata.
+
+## Esempio svolto
+
+Immagina un genitore che apre un piccolo conto con azioni frazionate per il figlio adolescente. Perché le frazioni, invece di aspettare che potesse permettersi un'azione intera? Non solo perché potesse tecnicamente possedere un pezzo di un'azione costosa, ma perché, se l'investimento avesse perso valore, la perdita sarebbe stata abbastanza piccola da poterla davvero assorbire e trarne una lezione, non qualcosa che potesse farlo arretrare seriamente. La lezione non era solo "ora puoi permetterti di investire", ma "puoi permetterti di sbagliare, in sicurezza, mentre stai ancora imparando".
+
+## Quiz di esercitazione
+
+1. Un'azione frazionata è:
+   A. Un'azione intera
+   B. Una parte di una singola azione, più piccola di un'azione intera
+   C. Un tipo di obbligazione
+   D. Un pagamento di dividendi garantito
+
+2. Vero o falso: le azioni frazionate richiedono che l'investitore abbia abbastanza denaro per almeno un'azione intera.
+
+3. Oltre all'accessibilità economica, quale altro motivo reale può portare a scegliere le azioni frazionate per un investitore principiante?
+   A. Garantire un profitto
+   B. Dimensionare la posizione in modo che una possibile perdita resti abbastanza piccola da essere una lezione reale e sicura
+   C. Non perdere mai denaro
+   D. Eliminare la necessità di qualsiasi ricerca
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un'azione frazionata è meno di un'azione intera.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le azioni frazionate eliminano proprio questo requisito.
+
+### Domanda 3
+
+Risposta corretta: B. Dimensionare una posizione in modo che una perdita sia sopportabile e istruttiva, e non dannosa, è un uso deliberato e concreto dell'investimento frazionato.
+
+## Punti chiave
+
+- Un'azione frazionata è una parte di un'azione intera.
+- Elimina l'ostacolo di dover disporre del prezzo di un'azione intera per investire.
+- Si può anche usare deliberatamente per dimensionare una posizione in modo che il rischio resti adeguato: particolarmente importante quando si insegna a un principiante.

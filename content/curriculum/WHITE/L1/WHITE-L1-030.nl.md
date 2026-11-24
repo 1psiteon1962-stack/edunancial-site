@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 30
 locale: nl
-title: "WHITE-L1-030"
-summary: "WHITE-L1-030"
-sourceVersion: "1.0"
+title: "Wat is renterisico?"
+summary: "Leer hoe veranderende rentes de koersen van bestaande obligaties beïnvloeden, en waarom ze in tegengestelde richting bewegen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-030: Robo-Adviseurs Uitgelegd
+# Wat is renterisico?
 
 ## Leerdoelen
-1. Een robo-adviseur definiëren.
-2. Uitleggen hoe robo-adviseurs doorgaans portefeuilles samenstellen.
-3. Een gangbare afweging identificeren vergeleken met menselijke adviseurs.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- renterisico in eenvoudige woorden te definiëren.
+- de omgekeerde basisrelatie tussen rentes en obligatiekoersen uit te leggen.
+- uit te leggen waarom dit ertoe doet voor iemand die al een obligatie bezit.
 
 ## Kerninhoud
-Een robo-adviseur is een geautomatiseerd platform dat een beleggingsportefeuille samenstelt en beheert op basis van de door een belegger opgegeven doelen en risicotolerantie, doorgaans met behulp van algoritmes in plaats van een menselijke adviseur voor dagelijkse beslissingen. *SCHATTING:* Robo-adviseurs brengen doorgaans lagere vergoedingen in rekening dan traditionele menselijke financiële adviseurs, waarbij vaak goedkope indexfondsen/ETF's als onderliggende beleggingen worden gebruikt.
 
-*AANNAME:* De afweging omvat doorgaans minder persoonlijk advies voor complexe of unieke financiële situaties vergeleken met een menselijke adviseur, hoewel dit per platform verschilt, en sommige bieden hybride diensten van mens en algoritme.
+### Wat renterisico is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Fatima beantwoordt een vragenlijst over haar doelen, tijdshorizon, en risicotolerantie op een robo-adviesplatform. Het algoritme stelt automatisch een gespreide portefeuille samen die overeenkomt met haar profiel en herbalanceert deze periodiek — allemaal zonder dat zij met een menselijke adviseur hoeft te praten of zelf individuele beleggingskeuzes hoeft te maken.
+Renterisico is het risico dat veranderingen in de algemene rentestand de marktwaarde van bestaande obligaties beïnvloeden: iets anders dan kredietrisico, dat gaat over het vermogen van de uitgevende instelling om te betalen.
 
-## Praktische Toets
-1. Wat is een robo-adviseur?
-2. Hoe verhouden robo-adviseurs zich doorgaans tot menselijke adviseurs wat betreft vergoedingen?
-3. Waar/Onwaar: Robo-adviseurs vereisen altijd nul menselijke interactie.
-4. Wat is een algemene afweging bij het gebruik van een robo-adviseur?
+### De omgekeerde relatie
+
+Als de algemene rente stijgt, daalt doorgaans de marktprijs van bestaande obligaties met een lagere vaste rente, omdat er nieuwe obligaties worden uitgegeven tegen de hogere, aantrekkelijkere huidige rente. Als de algemene rente daalt, worden bestaande obligaties met een hogere rente in vergelijking doorgaans meer waard.
+
+### Waarom dit ertoe doet voor een bestaande obligatiehouder
+
+Een obligatiehouder die vóór de vervaldatum moet verkopen, staat bloot aan deze koersbeweging. Een obligatiehouder die tot de vervaldatum aanhoudt, ontvangt toch de nominale waarde: renterisico raakt vooral de marktprijs van de obligatie vóór de vervaldatum, niet de uiteindelijke terugbetaling zelf.
+
+## Praktijkvoorbeeld
+
+Een belegger heeft een obligatie die 3% rente betaalt. De algemene rente stijgt naar 5%. Nieuwe obligaties bieden nu de aantrekkelijkere 5%, waardoor de oudere 3%-obligatie van de belegger minder aantrekkelijk wordt voor een mogelijke koper: de marktprijs zou bij verkoop vóór de vervaldatum doorgaans dalen.
+
+## Oefenquiz
+
+1. Renterisico verwijst naar:
+   A. Het risico dat een uitgevende instelling in gebreke blijft
+   B. Het risico dat veranderende rentes de koersen van bestaande obligaties beïnvloeden
+   C. Het risico van een aandelensplitsing
+   D. Het valutarisico
+
+2. Waar of onwaar: als de algemene rente stijgt, stijgen de koersen van bestaande obligaties met een lagere rente doorgaans ook.
+
+3. Ontvangt een obligatiehouder die tot de vervaldatum aanhoudt ondanks renterisico toch de volledige nominale waarde?
+   A. Nee, hij verliest het verschil
+   B. Ja, de nominale waarde wordt op de vervaldatum doorgaans toch betaald
+   C. Alleen als de rente is gedaald
+   D. Alleen als de obligatie vroegtijdig is verkocht
 
 ## Antwoordsleutel
-1. Een geautomatiseerd platform voor portefeuillebeheer   2. Doorgaans lagere vergoedingen   3. Onwaar   4. Doorgaans minder persoonlijk advies voor complexe situaties
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een robo-adviseur.
-2. Lagere kosten zijn een vaak genoemd voordeel van robo-adviseurs.
-3. Sommige platforms bieden hybride diensten van mens en algoritme.
-4. Verminderde personalisatie is een algemene afweging voor de lagere kosten en automatisering.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Robo-adviseurs automatiseren het samenstellen en beheren van portefeuilles op basis van opgegeven doelen.
-- Zij bieden doorgaans lagere vergoedingen dan traditionele menselijke adviseurs.
-- De afweging is doorgaans minder personalisatie, hoewel hybride modellen bestaan.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Renterisico beïnvloedt de marktprijzen van bestaande obligaties als de rente verandert.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een stijgende rente duwt de koersen van bestaande obligaties met een lagere rente doorgaans omlaag.
+
+### Vraag 3
+
+Juist antwoord: B. Wie tot de vervaldatum aanhoudt, ontvangt doorgaans toch de volledige nominale waarde, ongeacht tussentijdse koersschommelingen.
+
+## Belangrijkste punten
+
+- Renterisico beïnvloedt de koersen van bestaande obligaties als de algemene rente verandert.
+- Een stijgende rente duwt de koersen van bestaande obligaties met een lagere rente doorgaans omlaag, en omgekeerd.
+- Wie tot de vervaldatum aanhoudt, ontvangt doorgaans toch de nominale waarde, ongeacht tussentijdse koersbewegingen.

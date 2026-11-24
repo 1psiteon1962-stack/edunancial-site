@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 20
 locale: pt-PT
-title: "Tradicional versus Roth: o que realmente muda no tratamento tributário?"
+title: "Tradicional ou Roth: o que muda realmente no tratamento fiscal?"
 summary: "Aprenda a diferença central no momento da tributação entre contas de reforma tradicionais e Roth."
-sourceVersion: "1.0"
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Tradicional versus Roth: o que realmente muda no tratamento tributário?
+# Tradicional ou Roth: o que muda realmente no tratamento fiscal?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- explicar a diferença central no momento da tributação entre contas tradicionais e Roth.
+- explicar quando é tributada uma conta tradicional.
+- explicar quando é tributada uma conta Roth.
 
 ## Conteúdo principal
 
-### Conceito principal
+### A diferença central no momento da tributação
 
-*(REGRA ESPECÍFICA DA REGIÃO: isto descreve um conceito tributário dos Estados Unidos.)* Contas tradicionais e Roth podem oferecer vantagens tributárias. A diferença central é QUANDO o benefício fiscal ocorre, e não que uma seja sempre melhor.
+*(REGRA ESPECÍFICA DA REGIÃO: isto descreve um conceito fiscal dos Estados Unidos. Em Portugal, os PPR têm um regime próprio, com benefícios fiscais na entrega dentro de certos limites e tributação favorável no reembolso em determinadas condições; confirme com um contabilista.)* Tanto as contas tradicionais como as Roth (disponíveis nas versões 401(k) ou IRA) oferecem vantagens fiscais: a verdadeira diferença é QUANDO se aplica o benefício fiscal, e não se uma é melhor em todas as situações.
 
-### Como funciona
+### Contas tradicionais
 
-Contribuições a uma conta tradicional frequentemente são feitas antes dos impostos, e retiradas na reforma geralmente são tributadas como renda posteriormente.
+As entregas numa conta tradicional são muitas vezes feitas antes de impostos, e os levantamentos na reforma são em geral tributados como rendimento nesse momento posterior.
 
-### Por que isso importa
+### Contas Roth
 
-Contribuições Roth são feitas com dinheiro já tributado, enquanto retiradas qualificadas na reforma geralmente são isentas. O imposto é pago antes, e não depois.
+As entregas numa conta Roth são feitas com dinheiro já tributado, mas os levantamentos qualificados na reforma são em geral isentos: o imposto é pago antes, e não depois.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma contribuição tradicional pode reduzir a renda tributável agora, com imposto pago nas retiradas futuras. Uma Roth não oferece a mesma redução imediata, mas retiradas qualificadas posteriores geralmente são isentas.
+Uma entrega numa conta tradicional reduz agora o rendimento tributável, e o imposto é pago mais tarde, sobre os levantamentos. Uma entrega Roth não dá benefício fiscal agora, mas os levantamentos qualificados futuros são em geral isentos: o mesmo dólar, tributado num momento diferente.
 
-## Quiz prático
+## Teste de prática
 
-1. Diferença central: A. só tradicional permite ações B. momento do benefício fiscal C. Roth só entidade empregadora D. nenhuma
-2. Verdadeiro ou falso: contribuições tradicionais geralmente são feitas com dinheiro após impostos.
-3. Retiradas Roth qualificadas: A. tributadas na contribuição B. geralmente isentas na retirada C. tributadas duas vezes D. sem dinheiro real
+1. A diferença central entre contas tradicionais e Roth é:
+   A. Só as contas tradicionais permitem investir em ações
+   B. Quando se aplica a vantagem fiscal: agora ou mais tarde
+   C. As contas Roth são só para entidades empregadoras
+   D. Não há diferença real
 
-## Gabarito
+2. Verdadeiro ou falso: as entregas em contas tradicionais são em geral feitas com dinheiro já tributado.
+
+3. Quando são em geral tributados os levantamentos qualificados de uma conta Roth?
+   A. No momento da entrega
+   B. Em geral não são tributados no levantamento, porque o imposto foi pago antes
+   C. Duas vezes: na entrega e no levantamento
+   D. Nunca se entrega dinheiro real
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Uma contribuição tradicional pode reduzir a renda tributável agora, com impos
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O momento da vantagem fiscal é a diferença central.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. As entregas tradicionais são muitas vezes feitas antes de impostos.
+
+### Pergunta 3
+
+Resposta correta: B. Nas contas Roth, o imposto é pago antes, por isso os levantamentos qualificados são em geral isentos mais tarde.
+
+## Pontos-chave
+
+- Tanto as contas tradicionais como as Roth oferecem vantagens fiscais, em momentos diferentes.
+- Tradicional: muitas vezes com vantagem fiscal agora, tributada mais tarde no levantamento.
+- Roth: tributada agora, em geral isenta no levantamento qualificado mais tarde.

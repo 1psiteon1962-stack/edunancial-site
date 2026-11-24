@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 45
 locale: it
-title: "La Vendita allo Scoperto Spiegata"
-summary: "Lezione WHITE-L1-045 in italiano."
-sourceVersion: "1.0"
+title: "Che cos'è un fondo target date (a scadenza obiettivo)?"
+summary: "Scopri che cosa fa automaticamente un fondo target date e perché la sua allocazione cambia man mano che si avvicina la data obiettivo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-045: La Vendita allo Scoperto Spiegata
+# Che cos'è un fondo target date (a scadenza obiettivo)?
 
-## Obiettivi di Apprendimento
-1. Definire la vendita allo scoperto.
-2. Spiegare come un venditore allo scoperto ottiene profitto (o perdita).
-3. Identificare perché la vendita allo scoperto comporta un rischio teoricamente illimitato.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-La vendita allo scoperto significa prendere in prestito azioni per venderle immediatamente, scommettendo che il prezzo scenderà, e poi ricomprarle in seguito a un prezzo (si spera) più basso per restituirle al prestatore — guadagnando dalla differenza. *FATTO VERIFICATO:* A differenza di una posizione "lunga" standard dove la perdita massima è limitata all'importo investito, la vendita allo scoperto comporta un rischio teoricamente illimitato, poiché il prezzo di un'azione può salire indefinitamente, e il venditore allo scoperto deve eventualmente ricomprare le azioni a qualsiasi prezzo abbiano raggiunto.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investitore prende in prestito e vende 100 azioni a $50 ciascuna ($5.000), scommettendo che il prezzo scenderà. Se il prezzo scende a $30, ricompra 100 azioni per $3.000, restituisce le azioni prese in prestito, e intasca un profitto di $2.000. Ma se il prezzo invece sale a $100, dovrebbe spendere $10.000 per ricomprare le azioni — una perdita di $5.000, illustrando come le perdite possano superare l'importo originale coinvolto se il prezzo continua a salire.
+- definire un fondo target date in termini semplici.
+- spiegare come cambia la sua allocazione nel tempo.
+- spiegare perché questo si collega al concetto di ribilanciamento.
 
-## Quiz Pratico
-1. Cos'è la vendita allo scoperto?
-2. Come ottiene profitto un venditore allo scoperto?
-3. Vero/Falso: La vendita allo scoperto ha lo stesso profilo di rischio limitato di una posizione lunga standard.
-4. Cosa succede alla perdita potenziale di un venditore allo scoperto se il prezzo dell'azione continua a salire?
+## Contenuto principale
 
-## Chiave di Risposte
-1. Prendere in prestito e vendere azioni, scommettendo che il prezzo scenderà   2. Ricomprando a un prezzo più basso di quello a cui ha venduto, intascando la differenza   3. Falso   4. La perdita potenziale continua a crescere, teoricamente senza limite
+### Che cos'è un fondo target date
 
-## Risposte e Spiegazioni
-1. Questo è il meccanismo fondamentale della vendita allo scoperto.
-2. Il profitto deriva dal calo di prezzo tra la vendita e il riacquisto.
-3. La vendita allo scoperto comporta un rischio teoricamente illimitato, a differenza di una posizione lunga standard.
-4. Poiché non c'è un tetto a quanto può salire un prezzo, le perdite possono crescere senza un limite definito.
+Un fondo target date (o fondo "life cycle") è un fondo costruito attorno a una data futura specifica (spesso l'anno previsto per il pensionamento), che gestisce automaticamente la propria asset allocation in base all'orizzonte temporale dell'investitore.
 
-## Punti Chiave da Ricordare
-- La vendita allo scoperto scommette su un calo di prezzo prendendo in prestito e vendendo, poi ricomprando in seguito.
-- Il profitto deriva dalla differenza tra il prezzo di vendita e il prezzo di riacquisto.
-- La vendita allo scoperto comporta un rischio teoricamente illimitato, a differenza delle posizioni lunghe standard.
+### Come cambia la sua allocazione nel tempo
+
+Un fondo target date parte di solito con una quota più alta di azioni (per il potenziale di crescita, dato il lungo orizzonte temporale) e si sposta gradualmente verso più obbligazioni e liquidità man mano che si avvicina la data obiettivo (per una maggiore stabilità quando il traguardo è vicino), in modo automatico, senza che l'investitore debba fare questo aggiustamento a mano.
+
+### Il collegamento con il ribilanciamento
+
+Un fondo target date automatizza di fatto sia il ribilanciamento sia la strategia di spostamento graduale dell'allocazione in un unico prodotto: l'investitore non deve ribilanciarlo periodicamente da solo, come farebbe con un portafoglio costruito manualmente.
+
+## Esempio svolto
+
+Un investitore che prevede di andare in pensione tra 30 anni potrebbe scegliere un fondo target date per quell'anno. All'inizio detiene soprattutto azioni; man mano che l'anno obiettivo si avvicina, si sposta automaticamente verso un mix più prudente di obbligazioni e liquidità.
+
+## Quiz di esercitazione
+
+1. Un fondo target date è costruito attorno a:
+   A. L'azione di una singola azienda
+   B. Una data futura specifica, spesso l'anno previsto per il pensionamento
+   C. Esclusivamente un tipo di obbligazione
+   D. Una scadenza fiscale statale
+
+2. Vero o falso: l'allocazione di un fondo target date resta esattamente uguale dall'inizio alla fine.
+
+3. Che cosa succede in genere all'allocazione di un fondo target date man mano che si avvicina la data obiettivo?
+   A. Si sposta verso più azioni
+   B. Si sposta verso più obbligazioni e liquidità, per stabilità
+   C. Diventa subito interamente liquidità
+   D. Non cambia nulla
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un fondo target date è costruito attorno a una data futura specifica.
+
+### Domanda 2
+
+Risposta corretta: Falso. La sua allocazione si sposta automaticamente nel tempo.
+
+### Domanda 3
+
+Risposta corretta: B. Diventa gradualmente più prudente man mano che la data si avvicina.
+
+## Punti chiave
+
+- Un fondo target date è costruito attorno a una data futura specifica.
+- La sua allocazione passa automaticamente da orientata alla crescita a più prudente nel tempo.
+- Automatizza in un unico prodotto sia lo spostamento dell'allocazione sia il ribilanciamento.

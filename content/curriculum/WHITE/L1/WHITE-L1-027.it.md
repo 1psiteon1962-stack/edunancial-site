@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 27
 locale: it
-title: "Le Azioni di Pochi Centesimi e i Loro Rischi"
-summary: "*FATTO VERIFICATO:* Le azioni di pochi centesimi comportano generalmente un rischio elevato a causa della bassa liquidità (più difficile comprare/vendere senza muovere il prezzo), delle informazioni pubbliche limitate, e di una maggiore suscettibilità a schemi di manipolazione come il \"pump and dump\", dove i promotori gonfiano artificialmente un prezzo prima di vendere le proprie azioni ad acquirenti ignari."
-sourceVersion: "1.0"
+title: "Che cos'è il rendimento cedolare o da dividendo (yield)?"
+summary: "Scopri che cosa misura il rendimento nelle diverse attività di carta e in che cosa differisce dalla rivalutazione del prezzo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-027: Le Azioni di Pochi Centesimi e i Loro Rischi
+# Che cos'è il rendimento cedolare o da dividendo (yield)?
 
-## Obiettivi di Apprendimento
-1. Definire un'azione di pochi centesimi.
-2. Identificare perché le azioni di pochi centesimi comportano un rischio elevato.
-3. Riconoscere i segnali di allarme comuni associati agli schemi di azioni di pochi centesimi.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*STIMA:* Le azioni di pochi centesimi (penny stock) sono comunemente definite (anche se non in modo perfettamente uniforme) come azioni negoziate sotto i $5, spesso di aziende piccole e poco negoziate con informazioni pubbliche limitate disponibili.
+Al termine di questa lezione dovresti essere in grado di:
 
-*FATTO VERIFICATO:* Le azioni di pochi centesimi comportano generalmente un rischio elevato a causa della bassa liquidità (più difficile comprare/vendere senza muovere il prezzo), delle informazioni pubbliche limitate, e di una maggiore suscettibilità a schemi di manipolazione come il "pump and dump", dove i promotori gonfiano artificialmente un prezzo prima di vendere le proprie azioni ad acquirenti ignari.
+- definire in parole semplici il rendimento (yield).
+- calcolare un rendimento di base dati il reddito e il prezzo.
+- distinguere il rendimento dalla rivalutazione del prezzo.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'azione di pochi centesimi viene fortemente promossa sui social media con affermazioni di rendimenti massicci garantiti. Il suo prezzo schizza rapidamente mentre nuovi acquirenti si affrettano a comprare. Poco dopo, i promotori originali vendono le loro azioni, causando il crollo del prezzo — il modello classico di uno schema pump and dump, lasciando gli acquirenti tardivi con perdite significative.
+## Contenuto principale
 
-## Quiz Pratico
-1. Quale soglia di prezzo viene comunemente citata per un'azione di pochi centesimi?
-2. Indica due ragioni per cui le azioni di pochi centesimi comportano un rischio elevato.
-3. Cos'è uno schema di "pump and dump"?
-4. Vero/Falso: Le azioni di pochi centesimi hanno sempre abbondanti informazioni pubbliche disponibili.
+### Che cosa significa rendimento
 
-## Chiave di Risposte
-1. Sotto i $5   2. Bassa liquidità, informazioni pubbliche limitate (tra altre)   3. Uno schema dove i promotori gonfiano un prezzo e poi vendono prima che crolli   4. Falso
+Il rendimento (yield) misura in genere il reddito che un investimento genera (come i dividendi di un'azione o gli interessi di un'obbligazione), espresso come percentuale del suo prezzo.
 
-## Risposte e Spiegazioni
-1. Questa è una soglia comunemente citata, anche se non perfettamente standardizzata.
-2. Questi sono tra i principali fattori di rischio delle azioni di pochi centesimi.
-3. Questo è il modello classico di manipolazione associato alle azioni di pochi centesimi.
-4. Le azioni di pochi centesimi hanno spesso informazioni pubbliche limitate, a differenza delle aziende più grandi e ben coperte.
+### La formula di base
 
-## Punti Chiave da Ricordare
-- Le azioni di pochi centesimi sono comunemente definite come azioni a basso prezzo di aziende piccole e poco negoziate.
-- Comportano un rischio elevato per bassa liquidità, informazioni limitate, e potenziale di manipolazione.
-- Gli schemi pump and dump sono un modello di rischio riconosciuto specifico di questa categoria.
+Rendimento = reddito annuo ÷ prezzo attuale. Per un'azione, il "reddito" indica di solito i dividendi; per un'obbligazione, di solito i pagamenti di interessi.
+
+### Rendimento e rivalutazione del prezzo
+
+Il rendimento misura specificamente il reddito, non il guadagno di prezzo. Un'azione può avere un rendimento alto grazie ai dividendi mentre il prezzo resta fermo, oppure un rendimento basso mentre il prezzo sale molto: sono due fonti separate di rendimento potenziale, non la stessa cosa.
+
+## Esempio svolto
+
+Un'azione quota 50 $ e paga 2 $ di dividendi annui. Rendimento = 2 $ ÷ 50 $ = 4%. È un dato separato e non include alcuna variazione del prezzo dell'azione stessa.
+
+## Quiz di esercitazione
+
+1. Il rendimento si calcola come:
+   A. Rivalutazione del prezzo ÷ periodo di detenzione
+   B. Reddito annuo ÷ prezzo attuale
+   C. Totale delle azioni ÷ utile netto
+   D. Prezzo dell'azione ÷ EPS
+
+2. Vero o falso: il rendimento misura la rivalutazione del prezzo, non il reddito.
+
+3. Un'obbligazione paga 40 $ all'anno e costa 1.000 $. Qual è il suo rendimento?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Rendimento = reddito annuo ÷ prezzo attuale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rendimento misura il reddito, non la rivalutazione del prezzo.
+
+### Domanda 3
+
+Risposta corretta: B. 40 $ ÷ 1.000 $ = 4%.
+
+## Punti chiave
+
+- Rendimento = reddito annuo ÷ prezzo attuale.
+- Misura il reddito (dividendi o interessi), non la rivalutazione del prezzo.
+- Reddito e rivalutazione del prezzo sono due fonti separate di rendimento potenziale.

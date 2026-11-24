@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 41
 locale: pt-BR
-title: "O que é um robo-advisor?"
-summary: "Aprenda o que um robo-advisor faz e qual é o equilíbrio básico em comparação com um consultor financeiro humano."
-sourceVersion: "1.0"
+title: "O que é um robo-advisor (consultor automatizado)?"
+summary: "Aprenda o que um robo-advisor faz e qual é a troca básica em comparação com um consultor financeiro humano."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um robo-advisor?
+# O que é um robo-advisor (consultor automatizado)?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir robo-advisor em termos simples.
+- explicar como ele normalmente monta uma carteira.
+- identificar uma troca básica em relação a um consultor humano.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um robo-advisor
 
-Um robo-advisor é um serviço automatizado que constrói e administra uma carteira com base nos objetivos e na tolerância ao risco do investidor, geralmente usando algoritmos em vez de decisões individuais de um consultor humano.
+Um robo-advisor é um serviço automatizado que monta e administra uma carteira de investimentos com base nos objetivos e na tolerância ao risco de um investidor, geralmente usando algoritmos em vez de um consultor humano que toma decisões individuais.
 
-### Como funciona
+### Como ele normalmente monta uma carteira
 
-Normalmente ele pergunta sobre objetivos, horizonte de tempo e conforto com risco e então aloca automaticamente o dinheiro entre uma combinação de investimentos, frequentemente ETFs.
+Um robo-advisor normalmente faz uma série de perguntas sobre objetivos, horizonte de tempo e conforto com o risco e, depois, distribui o dinheiro automaticamente entre uma combinação de investimentos (muitas vezes ETFs, vistos antes neste nível) compatível com esse perfil.
 
-### Por que isso importa
+### A troca básica em relação a um consultor humano
 
-Robo-advisors geralmente oferecem taxas menores e acesso mais fácil do que consultores humanos, mas costumam oferecer menos orientação personalizada para situações financeiras complexas — um equilíbrio real entre custo e personalização.
+Os robo-advisors geralmente oferecem taxas menores e acesso mais fácil do que um consultor financeiro humano, mas normalmente oferecem uma orientação menos personalizada para situações financeiras complexas e individuais: uma troca real entre custo e personalização.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor com objetivo simples de aposentadoria de longo prazo e tolerância moderada ao risco pode usar um robo-advisor para montar e manter automaticamente uma carteira adequada a custo menor.
+Um investidor com um objetivo simples (como uma poupança geral de longo prazo para a aposentadoria) e tolerância ao risco moderada pode usar um robo-advisor para montar e manter automaticamente uma carteira adequada, a um custo menor do que contratar um consultor humano.
 
-## Quiz prático
+## Teste de prática
 
-1. Robo-advisor: A. humano remoto B. serviço automatizado por algoritmos C. título D. programa público
-2. Verdadeiro ou falso: geralmente cobra mais que consultor humano.
-3. Equilíbrio: A. nenhum B. menor custo e acesso, menos personalização C. retorno garantido D. humano sempre grátis
+1. Um robo-advisor é:
+   A. Um consultor financeiro humano que trabalha a distância
+   B. Um serviço automatizado que monta e administra uma carteira usando algoritmos
+   C. Um tipo de título
+   D. Um programa de aposentadoria do governo
+
+2. Verdadeiro ou falso: os robo-advisors geralmente cobram taxas maiores do que os consultores financeiros humanos.
+
+3. Qual é uma troca básica de usar um robo-advisor em vez de um consultor humano?
+   A. Não existe troca
+   B. Taxas menores e acesso mais fácil, mas normalmente uma orientação menos personalizada
+   C. Os robo-advisors garantem retornos maiores
+   D. Os consultores humanos são sempre gratuitos
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Um investidor com objetivo simples de aposentadoria de longo prazo e tolerância
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um robo-advisor automatiza a gestão da carteira usando algoritmos.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Os robo-advisors geralmente cobram taxas menores do que os consultores humanos.
+
+### Pergunta 3
+
+Resposta correta: B. Custo menor e acesso fácil são trocados por uma orientação menos personalizada.
+
+## Pontos-chave
+
+- Um robo-advisor automatiza a montagem e a gestão de uma carteira.
+- Ele normalmente distribui os investimentos com base nos objetivos e na tolerância ao risco.
+- Em comparação com um consultor humano, ele geralmente troca custo menor por uma orientação menos personalizada.

@@ -6,8 +6,8 @@ level: 1
 lessonNumber: 41
 locale: de
 title: "Was ist ein Robo-Advisor?"
-summary: "Lernen Sie, was ein Robo-Advisor tut und welchen grundlegenden Zielkonflikt es gegenüber einem menschlichen Finanzberater gibt."
-sourceVersion: "1.0"
+summary: "Erfahren Sie, was ein Robo-Advisor tut und welchen grundlegenden Kompromiss er im Vergleich zu einem menschlichen Finanzberater bietet."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
@@ -16,31 +16,45 @@ date: 2026-08-08
 
 ## Lernziele
 
-Am Ende dieser Lektion sollten Sie die zentralen Konzepte definieren, ihre praktische Bedeutung erklären und auf ein konkretes Beispiel anwenden können.
+Am Ende dieser Lektion sollten Sie:
+
+- einen Robo-Advisor in einfachen Worten definieren können.
+- erklären können, wie er typischerweise ein Portfolio zusammenstellt.
+- einen grundlegenden Kompromiss im Vergleich zu einem menschlichen Berater benennen können.
 
 ## Kerninhalt
 
 ### Was ein Robo-Advisor ist
 
-Ein Robo-Advisor ist ein automatisierter Dienst, der anhand der Ziele und Risikotoleranz eines Anlegers ein Anlageportfolio aufbaut und verwaltet, grundsätzlich mithilfe von Algorithmen statt individueller Entscheidungen eines menschlichen Beraters.
+Ein Robo-Advisor ist ein automatisierter Dienst, der ein Anlageportfolio auf Grundlage der Ziele und der Risikobereitschaft eines Anlegers zusammenstellt und verwaltet – im Allgemeinen mithilfe von Algorithmen statt durch einen menschlichen Berater, der Einzelentscheidungen trifft.
 
-### Wie er typischerweise ein Portfolio aufbaut
+### Wie er typischerweise ein Portfolio zusammenstellt
 
-Typischerweise stellt er Fragen zu Zielen, Zeithorizont und Risikobereitschaft und verteilt das Geld anschließend automatisch auf einen passenden Anlagemix, häufig ETFs.
+Ein Robo-Advisor stellt typischerweise eine Reihe von Fragen zu Zielen, Anlagehorizont und Risikobereitschaft und verteilt das Geld dann automatisch auf eine Mischung von Anlagen (oft ETFs, die früher in diesem Level behandelt wurden), die zu diesem Profil passt.
 
-### Zielkonflikt gegenüber einem menschlichen Berater
+### Der grundlegende Kompromiss gegenüber einem menschlichen Berater
 
-Robo-Advisors bieten grundsätzlich niedrigere Gebühren und leichteren Zugang als menschliche Finanzberater, aber typischerweise weniger individuelle Beratung für komplexe persönliche Situationen — ein realer Zielkonflikt zwischen Kosten und Individualisierung.
+Robo-Advisors bieten im Allgemeinen niedrigere Gebühren und einen einfacheren Zugang als ein menschlicher Finanzberater, aber typischerweise weniger persönliche Beratung für komplexe, individuelle finanzielle Situationen – ein echter Kompromiss zwischen Kosten und Individualisierung.
 
 ## Durchgerechnetes Beispiel
 
-Ein Anleger mit einem einfachen langfristigen Ruhestandsziel und moderater Risikotoleranz könnte einen Robo-Advisor nutzen, um ein passendes Portfolio automatisch und kostengünstiger als mit einem menschlichen Berater aufzubauen und zu verwalten.
+Ein Anleger mit einem klaren Ziel (etwa allgemeinem langfristigem Sparen für den Ruhestand) und mittlerer Risikobereitschaft könnte einen Robo-Advisor nutzen, um zu geringeren Kosten als bei einem menschlichen Berater automatisch ein passendes Portfolio aufbauen und pflegen zu lassen.
 
 ## Übungsquiz
 
-1. Robo-Advisor: A. menschlicher Fernberater B. automatisierter algorithmischer Portfoliodienst C. Anleihe D. staatliches Programm
-2. Richtig oder falsch: Robo-Advisors verlangen grundsätzlich höhere Gebühren als menschliche Berater.
-3. Zielkonflikt: A. keiner B. niedrigere Kosten und leichterer Zugang, aber weniger individuelle Beratung C. garantierte höhere Rendite D. menschliche Berater immer kostenlos
+1. Ein Robo-Advisor ist:
+   A. Ein menschlicher Finanzberater, der aus der Ferne arbeitet
+   B. Ein automatisierter Dienst, der mithilfe von Algorithmen ein Portfolio zusammenstellt und verwaltet
+   C. Eine Art Anleihe
+   D. Ein staatliches Altersvorsorgeprogramm
+
+2. Richtig oder falsch: Robo-Advisors verlangen im Allgemeinen höhere Gebühren als menschliche Finanzberater.
+
+3. Was ist ein grundlegender Kompromiss, wenn man einen Robo-Advisor statt eines menschlichen Beraters nutzt?
+   A. Es gibt keinen Kompromiss
+   B. Niedrigere Gebühren und einfacherer Zugang, aber typischerweise weniger persönliche Beratung
+   C. Robo-Advisors garantieren höhere Renditen
+   D. Menschliche Berater sind immer kostenlos
 
 ## Lösungsschlüssel
 
@@ -50,10 +64,20 @@ Ein Anleger mit einem einfachen langfristigen Ruhestandsziel und moderater Risik
 
 ## Antworten und Erklärungen
 
-Die richtigen Antworten folgen aus den Definitionen, Unterscheidungen und dem durchgerechneten Beispiel dieser Lektion. Prüfen Sie insbesondere Zweck, Mechanik und Grenzen des jeweiligen Konzepts.
+### Frage 1
+
+Richtige Antwort: B. Ein Robo-Advisor automatisiert die Portfolioverwaltung mithilfe von Algorithmen.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Robo-Advisors verlangen im Allgemeinen niedrigere Gebühren als menschliche Berater.
+
+### Frage 3
+
+Richtige Antwort: B. Niedrigere Kosten und einfacher Zugang stehen weniger persönlicher Beratung gegenüber.
 
 ## Wichtigste Erkenntnisse
 
-- Verstehen Sie die genaue Struktur und Funktion des behandelten Konzepts.
-- Unterscheiden Sie vereinfachende Annahmen von tatsächlichen Risiken, Kosten und Zielkonflikten.
-- Nutzen Sie das Verständnis, um Entscheidungen bewusst statt blind zu treffen.
+- Ein Robo-Advisor automatisiert Aufbau und Verwaltung eines Portfolios.
+- Er verteilt die Anlagen typischerweise nach Zielen und Risikobereitschaft.
+- Im Vergleich zu einem menschlichen Berater tauscht er im Allgemeinen niedrigere Kosten gegen weniger persönliche Beratung.

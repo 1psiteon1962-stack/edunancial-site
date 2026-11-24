@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 45
 locale: nl
-title: "WHITE-L1-045"
-summary: "WHITE-L1-045"
-sourceVersion: "1.0"
+title: "Wat is een doeldatumfonds (target-date fund)?"
+summary: "Leer wat een doeldatumfonds automatisch doet en waarom de verdeling verandert naarmate de doeldatum dichterbij komt."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-045: Short Selling Uitgelegd
+# Wat is een doeldatumfonds (target-date fund)?
 
 ## Leerdoelen
-1. Short selling definiëren.
-2. Uitleggen hoe een shortseller winst (of verlies) behaalt.
-3. Identificeren waarom short selling theoretisch onbeperkt risico met zich meebrengt.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een doeldatumfonds in eenvoudige woorden te definiëren.
+- uit te leggen hoe de verdeling ervan in de loop van de tijd verandert.
+- uit te leggen hoe dit samenhangt met het begrip herbalanceren.
 
 ## Kerninhoud
-Short selling betekent aandelen lenen om deze onmiddellijk te verkopen, wettend op een koersdaling, en ze later terugkopen tegen een (hopelijk) lagere prijs om ze aan de uitlener terug te geven — waarbij winst wordt behaald op het verschil. *GEVERIFIEERD FEIT:* In tegenstelling tot een standaard "long"-positie, waarbij het maximale verlies beperkt is tot het belegde bedrag, brengt short selling theoretisch onbeperkt risico met zich mee, aangezien de koers van een aandeel onbeperkt kan stijgen, en de shortseller uiteindelijk de aandelen moet terugkopen tegen welke prijs deze ook hebben bereikt.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger leent en verkoopt 100 aandelen tegen $50 per stuk ($5.000), wettend op een koersdaling. Als de koers daalt naar $30, koopt hij 100 aandelen terug voor $3.000, geeft de geleende aandelen terug, en steekt een winst van $2.000 op zak. Maar als de koers in plaats daarvan stijgt naar $100, zou hij $10.000 moeten uitgeven om de aandelen terug te kopen — een verlies van $5.000, wat illustreert hoe verliezen het oorspronkelijk betrokken bedrag kunnen overtreffen als de koers blijft stijgen.
+### Wat een doeldatumfonds is
 
-## Praktische Toets
-1. Wat is short selling?
-2. Hoe behaalt een shortseller winst?
-3. Waar/Onwaar: Short selling heeft hetzelfde beperkte risicoprofiel als een standaard long-positie.
-4. Wat gebeurt er met het potentiële verlies van een shortseller als de aandelenkoers blijft stijgen?
+Een doeldatumfonds (in het Engels "target-date fund"; ook wel levensloopfonds genoemd) is een fonds dat is opgebouwd rond een specifieke toekomstige datum (vaak een gepland pensioenjaar) en zijn eigen assetallocatie automatisch afstemt op de beleggingshorizon van de belegger.
+
+### Hoe de verdeling in de loop van de tijd verandert
+
+Een doeldatumfonds begint doorgaans met een groter aandeel aandelen (voor groeipotentieel, gezien de lange beleggingshorizon) en verschuift geleidelijk naar meer obligaties en contant geld naarmate de doeldatum dichterbij komt (voor meer stabiliteit als het doel nadert), automatisch, zonder dat de belegger die aanpassing zelf hoeft te doen.
+
+### Het verband met herbalanceren
+
+Een doeldatumfonds automatiseert in feite zowel het herbalanceren als de geleidelijk verschuivende verdelingsstrategie in één product: een belegger hoeft het niet zelf periodiek te herbalanceren, zoals hij dat bij een zelf samengestelde portefeuille wel zou moeten doen.
+
+## Praktijkvoorbeeld
+
+Een belegger die over 30 jaar met pensioen wil, kan een doeldatumfonds voor dat jaar kiezen. In het begin bestaat het vooral uit aandelen; naarmate het doeljaar nadert, verschuift het automatisch naar een voorzichtigere mix van obligaties en contant geld.
+
+## Oefenquiz
+
+1. Een doeldatumfonds is opgebouwd rond:
+   A. Het aandeel van één bedrijf
+   B. Een specifieke toekomstige datum, vaak een gepland pensioenjaar
+   C. Uitsluitend één soort obligatie
+   D. Een deadline voor de belastingaangifte van de overheid
+
+2. Waar of onwaar: de verdeling van een doeldatumfonds blijft van begin tot eind precies gelijk.
+
+3. Wat gebeurt er doorgaans met de verdeling van een doeldatumfonds naarmate de doeldatum nadert?
+   A. Ze verschuift naar meer aandelen
+   B. Ze verschuift naar meer obligaties en contant geld, voor stabiliteit
+   C. Ze bestaat meteen volledig uit contant geld
+   D. Er verandert helemaal niets
 
 ## Antwoordsleutel
-1. Aandelen lenen en verkopen, wettend op een koersdaling   2. Terugkopen tegen een lagere koers dan waartegen werd verkocht, en het verschil op zak steken   3. Onwaar   4. Het potentiële verlies blijft groeien, theoretisch zonder limiet
 
-## Antwoorden en Toelichtingen
-1. Dit is het fundamentele mechanisme van short selling.
-2. De winst komt voort uit de koersdaling tussen de verkoop en de terugkoop.
-3. Short selling brengt theoretisch onbeperkt risico met zich mee, in tegenstelling tot een standaard long-positie.
-4. Aangezien er geen plafond is voor hoe hoog een koers kan stijgen, kunnen verliezen groeien zonder een vastgestelde limiet.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Short selling wedt op een koersdaling door te lenen en te verkopen, en later terug te kopen.
-- De winst komt voort uit het verschil tussen de verkoopprijs en de terugkoopprijs.
-- Short selling brengt theoretisch onbeperkt risico met zich mee, in tegenstelling tot standaard long-posities.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een doeldatumfonds is opgebouwd rond een specifieke toekomstige datum.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. De verdeling ervan verschuift in de loop van de tijd automatisch.
+
+### Vraag 3
+
+Juist antwoord: B. Het wordt geleidelijk voorzichtiger naarmate de datum nadert.
+
+## Belangrijkste punten
+
+- Een doeldatumfonds is opgebouwd rond een specifieke toekomstige datum.
+- De verdeling verschuift in de loop van de tijd automatisch van groeigericht naar voorzichtiger.
+- Het automatiseert zowel het verschuiven van de verdeling als het herbalanceren in één product.

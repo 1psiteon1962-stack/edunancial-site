@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 12
 locale: it
-title: "Fondamenti dell'Allocazione degli Attivi"
-summary: "*ASSUNZIONE:* Una tendenza generale comunemente citata è che orizzonti temporali più lunghi possono sostenere allocazioni più alte in azioni, mentre orizzonti più brevi favoriscono spesso più obbligazioni/liquidità — ma questa è una linea guida generale, non una regola applicabile a ogni singola situazione."
-sourceVersion: "1.0"
+title: "Che cos'è il costo annuo di un fondo (expense ratio) e perché una piccola percentuale conta?"
+summary: "Scopri che cos'è l'expense ratio di un fondo e perché una percentuale annua apparentemente piccola conta nel tempo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-012: Fondamenti dell'Allocazione degli Attivi
+# Che cos'è il costo annuo di un fondo (expense ratio) e perché una piccola percentuale conta?
 
-## Obiettivi di Apprendimento
-1. Definire l'allocazione degli attivi.
-2. Spiegare come l'allocazione differisce dalla diversificazione.
-3. Identificare i fattori che tipicamente influenzano le decisioni di allocazione.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-L'allocazione degli attivi è il modo in cui un investitore divide il proprio portafoglio tra ampie categorie di attivi — comunemente azioni, obbligazioni, e liquidità — in base a obiettivi, orizzonte temporale, e tolleranza al rischio. *ASSUNZIONE:* Mentre la diversificazione distribuisce il rischio all'interno di una categoria (molte azioni diverse), l'allocazione è la decisione di livello più alto su quanto mettere in ciascuna categoria, in primo luogo.
+Al termine di questa lezione dovresti essere in grado di:
 
-*ASSUNZIONE:* Una tendenza generale comunemente citata è che orizzonti temporali più lunghi possono sostenere allocazioni più alte in azioni, mentre orizzonti più brevi favoriscono spesso più obbligazioni/liquidità — ma questa è una linea guida generale, non una regola applicabile a ogni singola situazione.
+- definire in parole semplici l'expense ratio.
+- calcolare il costo annuo approssimativo dati il capitale investito in un fondo e l'expense ratio.
+- spiegare perché piccole differenze percentuali contano nel tempo.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Due investitori diversificano bene all'interno delle loro posizioni azionarie (molte aziende diverse). L'Investitore A, a 25 anni dalla pensione, alloca il 90% in azioni / 10% in obbligazioni. L'Investitore B, a 2 anni dalla pensione, alloca il 40% in azioni / 60% in obbligazioni. Lo stesso principio di diversificazione applicato all'interno di ciascuna categoria, ma un'allocazione molto diversa tra le categorie basata sull'orizzonte temporale.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è l'allocazione degli attivi?
-2. In cosa differisce l'allocazione dalla diversificazione?
-3. Cosa potrebbero sostenere comunemente orizzonti temporali più lunghi, secondo le linee guida generali?
-4. Vero/Falso: L'allocazione degli attivi dovrebbe essere identica per ogni investitore.
+### Che cos'è l'expense ratio
 
-## Chiave di Risposte
-1. Come un portafoglio viene diviso tra ampie categorie di attivi   2. L'allocazione è la divisione a livello di categoria; la diversificazione è distribuire all'interno di una categoria   3. Allocazioni più alte in azioni (come tendenza generale)   4. Falso
+L'expense ratio è la commissione annua che un fondo (come un ETF o un fondo comune) applica, espressa come percentuale dell'importo investito, per coprire i costi di gestione del fondo. (In Europa si parla spesso di "costi correnti" o TER.)
 
-## Risposte e Spiegazioni
-1. Questo definisce il concetto fondamentale dell'allocazione degli attivi.
-2. Questo distingue l'allocazione (categorie) dalla diversificazione (distribuzione all'interno delle categorie).
-3. Questa è una linea guida generale comunemente citata, non una regola universale.
-4. L'allocazione dovrebbe riflettere gli obiettivi individuali, l'orizzonte temporale, e la tolleranza al rischio.
+### Calcolare il costo
 
-## Punti Chiave da Ricordare
-- L'allocazione degli attivi è la divisione tra ampie categorie come azioni, obbligazioni, liquidità.
-- È distinta dalla diversificazione, che distribuisce il rischio all'interno di una categoria.
-- L'orizzonte temporale e la tolleranza al rischio influenzano tipicamente le decisioni di allocazione.
+Un expense ratio dello 0,50% su un investimento di 10.000 $ costa circa 50 $ all'anno, prelevati automaticamente dai rendimenti del fondo: di solito gli investitori non lo pagano come una fattura separata.
+
+### Perché le piccole percentuali contano nel tempo
+
+Poiché l'expense ratio viene applicato ogni anno, anche piccole differenze si accumulano in modo significativo su periodi lunghi. Una commissione dello 0,10% rispetto a una dell'1,00% sullo stesso investimento, mantenuto per decenni, può portare a un costo totale molto diverso, anche se la differenza annua sembra piccola.
+
+## Esempio svolto
+
+Un investimento di 10.000 $ con un expense ratio dell'1,00% costa circa 100 $ all'anno di commissioni. Lo stesso investimento con un expense ratio dello 0,10% costa circa 10 $ all'anno: una differenza di 90 $ che si accumula in modo significativo se l'investimento viene mantenuto per molti anni.
+
+## Quiz di esercitazione
+
+1. L'expense ratio è:
+   A. Una commissione una tantum all'acquisto
+   B. Una commissione annua applicata come percentuale dell'importo investito
+   C. Un'imposta dovuta sui dividendi
+   D. Una commissione applicata solo alla vendita
+
+2. Vero o falso: le differenze di expense ratio sono troppo piccole per contare nel tempo.
+
+3. Un investimento di 20.000 $ ha un expense ratio dello 0,40%. Quanto costa approssimativamente all'anno?
+   A. 8 $
+   B. 40 $
+   C. 80 $
+   D. 400 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. C
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'expense ratio è una commissione annua basata su una percentuale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Piccole differenze annue si accumulano in modo significativo su periodi lunghi.
+
+### Domanda 3
+
+Risposta corretta: C. 20.000 $ × 0,40% = 80 $.
+
+## Punti chiave
+
+- L'expense ratio è una commissione annua, applicata come percentuale del capitale investito.
+- Viene dedotto automaticamente dai rendimenti del fondo, non fatturato a parte.
+- Piccole differenze di expense ratio possono accumularsi in costi significativi nel tempo.

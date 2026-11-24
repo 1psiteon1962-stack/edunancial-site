@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 37
 locale: it
-title: "Capire il Rendimento"
-summary: "Lezione WHITE-L1-037 in italiano."
-sourceVersion: "1.0"
+title: "Che cosa sono il bull case e il bear case per un'azione?"
+summary: "Scopri che cosa significa costruire uno scenario rialzista o ribassista per un'azione, e perché è importante considerarli entrambi."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-037: Capire il Rendimento
+# Che cosa sono il bull case e il bear case per un'azione?
 
-## Obiettivi di Apprendimento
-1. Definire il rendimento in termini generali di investimento.
-2. Distinguere il rendimento dal rendimento totale.
-3. Calcolare un esempio semplice di rendimento.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il rendimento (yield) misura generalmente il reddito generato da un investimento (come dividendi o interessi) rispetto al suo prezzo, espresso in percentuale. *FATTO VERIFICATO:* Il rendimento differisce dal rendimento totale, che include anche la rivalutazione o svalutazione del prezzo — il rendimento cattura solo la componente di reddito, non il guadagno o la perdita complessivi.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'obbligazione acquistata per $1.000 paga $50 di interesse annuale — un rendimento del 5%. Se il prezzo di mercato di quella stessa obbligazione sale poi a $1.050 mentre l'investitore la detiene ancora, il suo calcolo del rendimento (basato sul costo originale) rimane concettualmente legato al reddito, mentre il suo rendimento totale rifletterebbe ora anche quella rivalutazione di prezzo se decidesse di vendere.
+- definire il bull case e il bear case in termini semplici.
+- spiegare perché è importante costruirli entrambi, non solo uno.
+- applicare il concetto a un semplice esempio ipotetico.
 
-## Quiz Pratico
-1. Cosa misura generalmente il rendimento?
-2. In cosa differisce il rendimento dal rendimento totale?
-3. Se un investimento da $500 paga $25 di reddito annuale, qual è il rendimento?
-4. Vero/Falso: Il rendimento tiene conto della rivalutazione del prezzo.
+## Contenuto principale
 
-## Chiave di Risposte
-1. Il reddito generato rispetto al prezzo   2. Il rendimento totale include anche la rivalutazione/svalutazione del prezzo   3. 5%   4. Falso
+### Che cos'è un bull case
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale del rendimento.
-2. Questa è la distinzione chiave tra rendimento e rendimento totale.
-3. $25 ÷ $500 = 0,05 = 5%.
-4. Il rendimento cattura solo il reddito, non il movimento di prezzo.
+Un bull case (scenario rialzista) è un ragionamento motivato sul perché un'azione (o un altro investimento) potrebbe andare bene, basato su fattori specifici come il potenziale di crescita, i vantaggi competitivi o le tendenze favorevoli.
 
-## Punti Chiave da Ricordare
-- Il rendimento misura il reddito rispetto al prezzo, in percentuale.
-- Il rendimento è distinto dal rendimento totale, che include anche i cambiamenti di prezzo.
-- Comprendere questa distinzione evita di confondere il reddito con la performance complessiva dell'investimento.
+### Che cos'è un bear case
+
+Un bear case (scenario ribassista) è un ragionamento motivato sul perché un'azione potrebbe andare male, basato su rischi specifici, debolezze o tendenze sfavorevoli.
+
+### Perché è importante considerarli entrambi
+
+Costruire solo un bull case (o solo un bear case) crea una visione unilaterale e potenzialmente troppo sicura di sé. Considerare davvero entrambe le prospettive, anche per un investimento che entusiasma, porta a una comprensione più realistica dei rischi e delle potenzialità effettive.
+
+## Esempio svolto
+
+Un investitore che valuta un'azienda in crescita potrebbe costruire un bull case basato sul mercato in espansione e sui prodotti solidi, e allo stesso tempo un bear case basato sulla nuova concorrenza e sull'aumento dei costi, soppesando entrambi prima di decidere.
+
+## Quiz di esercitazione
+
+1. Un bull case è:
+   A. Un ragionamento motivato sul perché un investimento potrebbe andare male
+   B. Un ragionamento motivato sul perché un investimento potrebbe andare bene
+   C. Una previsione garantita dell'andamento futuro
+   D. Un tipo di obbligazione
+
+2. Vero o falso: costruire solo un bull case per un investimento offre una visione completa ed equilibrata.
+
+3. Perché è importante considerare sia un bull case sia un bear case?
+   A. Non ha alcuna importanza
+   B. Porta a una comprensione più realistica ed equilibrata di un investimento
+   C. Garantisce un risultato redditizio
+   D. Riguarda solo le obbligazioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un bull case sostiene un possibile andamento positivo.
+
+### Domanda 2
+
+Risposta corretta: Falso. Una visione unilaterale trascura rischi o debolezze reali.
+
+### Domanda 3
+
+Risposta corretta: B. Considerarli entrambi porta a una visione più equilibrata e realistica.
+
+## Punti chiave
+
+- Un bull case sostiene un possibile andamento positivo; un bear case un possibile andamento negativo.
+- Costruire un solo lato crea una visione incompleta e troppo sicura di sé.
+- Considerarli entrambi porta a decisioni di investimento più realistiche.

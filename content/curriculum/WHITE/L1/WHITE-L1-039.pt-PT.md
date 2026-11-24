@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 39
 locale: pt-PT
-title: "O que é uma bolsa de valores? (NYSE, Nasdaq — o que realmente fazem)"
-summary: "Aprenda o que uma bolsa de valores realmente faz, além de ser simplesmente “onde as ações são negociadas”."
-sourceVersion: "1.0"
+title: "O que é uma bolsa de valores? (NYSE, Nasdaq: o que fazem realmente)"
+summary: "Aprenda o que uma bolsa de valores faz realmente, para além de ser apenas \"o lugar onde se negoceiam ações\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma bolsa de valores? (NYSE, Nasdaq — o que realmente fazem)
+# O que é uma bolsa de valores? (NYSE, Nasdaq: o que fazem realmente)
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir bolsa de valores em termos simples.
+- explicar a sua função central, para além de "um lugar onde se negoceiam ações".
+- indicar dois exemplos conhecidos.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é uma bolsa de valores
 
-Uma bolsa de valores é um mercado organizado em que compradores e vendedores negociam ações de empresas listadas sob um conjunto comum de regras.
+Uma bolsa de valores é um mercado organizado onde compradores e vendedores se encontram para negociar ações de empresas cotadas, segundo um conjunto comum de regras.
 
-### Como funciona
+### A sua função central
 
-Além de hospedar negociações, a bolsa proporciona descoberta de preços ao reunir ordens reais de compra e venda e aplica padrões de listagem que as empresas precisam cumprir.
+Para além de acolher as negociações, uma bolsa assegura a formação de preços (ajuda a determinar um preço atual justo ao fazer corresponder compradores e vendedores reais) e faz cumprir requisitos de admissão à cotação que as empresas têm de satisfazer para ali serem negociadas, acrescentando ao mercado uma camada de estrutura e supervisão.
 
-### Por que isso importa
+### Exemplos conhecidos
 
-*(FATO VERIFICADO, sujeito a mudança ao longo do tempo — listagens podem mudar.)* New York Stock Exchange (NYSE) e Nasdaq são duas bolsas conhecidas, com requisitos de listagem e estruturas de negociação parcialmente diferentes.
+*(FACTO VERIFICADO, sujeito a alterações ao longo do tempo: as empresas cotadas mudam.)* A Bolsa de Valores de Nova Iorque (NYSE) e a Nasdaq são duas bolsas de valores conhecidas, cada uma com requisitos de admissão e estruturas de negociação algo diferentes. Em Portugal, a bolsa é a Euronext Lisbon.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Quando um investidor envia uma ordem, ela é encaminhada ao mercado relevante e combinada com uma ordem correspondente a um preço acordado — mecanismo básico da negociação de ações.
+Quando um investidor dá uma ordem de compra ou de venda de uma ação, essa ordem é encaminhada para a bolsa correspondente, que a faz corresponder a uma ordem de venda ou de compra equivalente a um preço acordado: o mecanismo básico por detrás de "negociar uma ação".
 
-## Quiz prático
+## Teste de prática
 
-1. Bolsa é: A. mesa interna B. mercado organizado para ações listadas C. agência tributária D. fundo mútuo
-2. Verdadeiro ou falso: bolsas apenas executam negócios e não têm padrões de listagem.
-3. Exemplo conhecido: A. Federal Reserve B. NYSE ou Nasdaq C. IRS D. SEC
+1. Uma bolsa de valores é:
+   A. A mesa de negociação interna de uma única empresa
+   B. Um mercado organizado para negociar ações de empresas cotadas
+   C. Uma autoridade tributária do Estado
+   D. Um tipo de fundo de investimento
 
-## Gabarito
+2. Verdadeiro ou falso: as bolsas de valores apenas acolhem negociações, sem requisitos de admissão nem papel de supervisão.
+
+3. Indique uma bolsa de valores conhecida mencionada nesta lição.
+   A. Federal Reserve
+   B. NYSE ou Nasdaq
+   C. IRS
+   D. SEC
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Quando um investidor envia uma ordem, ela é encaminhada ao mercado relevante e 
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Uma bolsa é um mercado organizado para negociar ações cotadas.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. As bolsas também asseguram a formação de preços e fazem cumprir requisitos de admissão.
+
+### Pergunta 3
+
+Resposta correta: B. A NYSE e a Nasdaq são exemplos conhecidos.
+
+## Pontos-chave
+
+- Uma bolsa de valores é um mercado organizado para negociar ações cotadas.
+- Assegura a formação de preços e faz cumprir requisitos de admissão.
+- A NYSE e a Nasdaq são dois exemplos conhecidos.

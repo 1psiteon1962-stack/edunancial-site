@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 9
 locale: pt-BR
-title: "O que é um ETF? (Uma cesta, não uma única ação)"
-summary: "Aprenda o que é um ETF, como ele difere de uma ação individual e por que sua estrutura de cesta importa."
-sourceVersion: "1.0"
+title: "O que é um ETF? (Uma cesta, não uma ação isolada)"
+summary: "Aprenda o que é um ETF, em que ele difere de comprar uma ação isolada e por que essa estrutura de cesta importa."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um ETF? (Uma cesta, não uma única ação)
+# O que é um ETF? (Uma cesta, não uma ação isolada)
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um ETF em termos simples.
+- explicar em que ele difere de comprar uma ação isolada.
+- explicar um benefício prático da estrutura de cesta.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um ETF
 
-Um ETF (Exchange-Traded Fund) é um fundo que mantém uma coleção de ativos, frequentemente muitas ações ou títulos, e cujas cotas são negociadas em bolsa durante o dia de forma semelhante a uma ação.
+Um ETF (Exchange-Traded Fund, fundo de índice negociado em bolsa) é um fundo que detém um conjunto de ativos (muitas vezes várias ações ou títulos), com cotas negociadas em bolsa ao longo do dia, como uma ação isolada.
 
-### Como funciona
+### Em que difere de uma ação isolada
 
-Comprar uma ação de uma única empresa dá exposição apenas àquela empresa. Comprar uma cota de ETF dá exposição, de uma só vez, a tudo que existe dentro da cesta, potencialmente dezenas ou centenas de posições.
+Comprar uma ação de uma única empresa dá exposição só a essa empresa. Comprar uma cota de um ETF dá exposição a tudo o que está dentro da cesta de uma vez: potencialmente dezenas ou centenas de ativos subjacentes, com uma só compra.
 
-### Por que isso importa
+### Um benefício prático da estrutura de cesta
 
-Ao distribuir a exposição entre muitas posições, o mau desempenho de uma única posição tende a ter impacto menor no ETF do que teria se fosse a única posição do investidor. É uma forma básica de diversificação.
+Como um ETF distribui a exposição entre muitos ativos ao mesmo tempo, o mau desempenho de um único ativo dentro dele tem um impacto menor no ETF como um todo do que teria se esse fosse o único investimento do investidor: uma forma básica de diversificação, tratada com mais profundidade em uma lição posterior.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Em vez de escolher uma única empresa, um investidor compra uma cota de um ETF que possui ações de 500 empresas e obtém exposição às 500 por meio de uma compra.
+Em vez de escolher uma empresa para investir, um investidor compra uma cota de um ETF que detém ações de 500 empresas diferentes, distribuindo sua exposição entre todas as 500 com uma única compra.
 
-## Quiz prático
+## Teste de prática
 
-1. ETF é: A. ação de uma empresa B. fundo com coleção de ativos negociado como ação C. poupança D. título público
-2. Verdadeiro ou falso: uma cota de ETF só dá exposição a uma empresa.
-3. Benefício da cesta: A. garante lucro B. distribui exposição C. elimina todo risco D. exige escolher ações
+1. Um ETF é mais bem descrito como:
+   A. A ação de uma única empresa
+   B. Um fundo que detém um conjunto de ativos, negociável como uma ação
+   C. Um tipo de conta poupança
+   D. Um título público
+
+2. Verdadeiro ou falso: comprar uma cota de um ETF dá exposição a apenas uma empresa subjacente.
+
+3. Qual é um benefício prático da estrutura de cesta de um ETF?
+   A. Garante lucro
+   B. Distribui a exposição entre muitos ativos ao mesmo tempo
+   C. Elimina todo risco de investimento
+   D. Exige escolher ações individuais
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Em vez de escolher uma única empresa, um investidor compra uma cota de um ETF q
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um ETF é um fundo negociável que detém vários ativos.
 
-- Entenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Uma cota de ETF normalmente dá exposição a muitos ativos subjacentes ao mesmo tempo.
+
+### Pergunta 3
+
+Resposta correta: B. Distribuir a exposição entre muitos ativos é o benefício central.
+
+## Pontos-chave
+
+- Um ETF é um fundo que detém um conjunto de ativos, negociável como uma ação.
+- Uma única cota de ETF pode dar exposição a muitos ativos subjacentes ao mesmo tempo.
+- Essa estrutura de cesta oferece uma forma básica de diversificação.

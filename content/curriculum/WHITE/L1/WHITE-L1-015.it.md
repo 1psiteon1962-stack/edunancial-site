@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 15
 locale: it
-title: "L'Interesse Composto e la Crescita"
-summary: "*ASSUNZIONE:* Poiché l'interesse composto si costruisce su se stesso, iniziare prima ha generalmente un impatto sproporzionatamente grande a lungo termine rispetto a contribuire di più in seguito — anche se i risultati reali dipendono dai tassi di rendimento presunti, che non sono mai garantiti."
-sourceVersion: "1.0"
+title: "Che cos'è la volatilità?"
+summary: "Scopri che cosa misura la volatilità e perché è diversa dal rischio di una perdita permanente."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-015: L'Interesse Composto e la Crescita
+# Che cos'è la volatilità?
 
-## Obiettivi di Apprendimento
-1. Definire la crescita/l'interesse composto.
-2. Distinguere l'interesse composto dall'interesse semplice.
-3. Spiegare perché il tempo è un fattore critico nell'interesse composto.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-La crescita composta significa ottenere un rendimento non solo sull'investimento originale, ma anche sul rendimento precedentemente accumulato. *FATTO VERIFICATO:* Questo differisce dall'interesse semplice, che calcola il rendimento solo sul capitale originale, mai sui guadagni precedenti.
+Al termine di questa lezione dovresti essere in grado di:
 
-*ASSUNZIONE:* Poiché l'interesse composto si costruisce su se stesso, iniziare prima ha generalmente un impatto sproporzionatamente grande a lungo termine rispetto a contribuire di più in seguito — anche se i risultati reali dipendono dai tassi di rendimento presunti, che non sono mai garantiti.
+- definire in parole semplici la volatilità.
+- spiegare che cosa misura specificamente la volatilità.
+- distinguere la volatilità da una perdita permanente.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* $10.000 investiti a un rendimento medio annuale presunto del 7% crescono a circa $19.700 dopo 10 anni e circa $38.700 dopo 20 anni — non il doppio, ma quasi il quadruplo, perché la crescita del secondo decennio si compone su una base molto più grande di quella del primo decennio. Questo illustra perché la curva di crescita accelera nel tempo invece di rimanere lineare.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è la crescita composta?
-2. In cosa differisce l'interesse composto dall'interesse semplice?
-3. Vero/Falso: Iniziare a investire più tardi non comporta alcuno svantaggio rispetto a iniziare prima, assumendo gli stessi contributi totali.
-4. Perché la curva di crescita dell'interesse composto accelera nel tempo?
+### Che cosa significa volatilità
 
-## Chiave di Risposte
-1. Ottenere un rendimento sia sull'investimento originale che sui guadagni accumulati in precedenza   2. L'interesse semplice calcola solo sul capitale originale   3. Falso   4. La crescita successiva si compone su una base sempre più grande
+La volatilità indica quanto e quanto rapidamente il prezzo di un'attività sale e scende in un dato periodo. Un'attività molto volatile oscilla di prezzo in modo ampio e frequente; un'attività poco volatile si muove in modo più graduale.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale della crescita composta.
-2. Questa è la distinzione chiave rispetto ai calcoli con interesse semplice.
-3. Il tempo nel mercato conta considerevolmente a causa dell'interesse composto — iniziare prima generalmente aiuta.
-4. La crescita di ogni periodo si costruisce su una base accumulata più grande rispetto al periodo precedente.
+### Che cosa misura specificamente
 
-## Punti Chiave da Ricordare
-- La crescita composta genera rendimento sia sul capitale che sui guadagni precedenti.
-- Questo differisce dall'interesse semplice, calcolato solo sul capitale originale.
-- Il tempo è un fattore critico dell'interesse composto — iniziare prima ha generalmente un impatto sproporzionato a lungo termine.
+La volatilità misura il movimento del prezzo, non necessariamente la direzione o il risultato finale. Un'attività può essere molto volatile e finire comunque più in alto nel tempo: la volatilità descrive gli scossoni del viaggio, non automaticamente la destinazione.
+
+### Volatilità e perdita permanente
+
+Un calo temporaneo del prezzo di un'attività volatile non è la stessa cosa di una perdita permanente: se il prezzo poi si riprende, un investitore che non ha venduto durante il calo vive la volatilità senza una perdita duratura. La perdita diventa "definitiva" solo se l'attività viene venduta al prezzo più basso.
+
+## Esempio svolto
+
+Il prezzo di un'azione oscilla tra 80 $ e 120 $ per qualche mese prima di stabilizzarsi intorno a 115 $: molto volatile lungo il percorso, ma un investitore che ha mantenuto l'azione durante le oscillazioni si ritrova vicino a un guadagno, non a una perdita.
+
+## Quiz di esercitazione
+
+1. La volatilità misura:
+   A. Una perdita garantita
+   B. Quanto e quanto rapidamente un prezzo sale e scende
+   C. L'utile totale di un'azienda
+   D. Il numero di azioni in circolazione
+
+2. Vero o falso: un calo temporaneo del prezzo è automaticamente la stessa cosa di una perdita permanente.
+
+3. Quando una perdita sulla carta dovuta alla volatilità diventa una perdita definitiva?
+   A. Mai
+   B. Quando l'attività viene venduta al prezzo più basso
+   C. Automaticamente dopo un anno
+   D. Non appena il prezzo scende anche di poco
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. La volatilità misura l'ampiezza del movimento del prezzo.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un calo temporaneo non è una perdita permanente, a meno che l'attività non venga effettivamente venduta a quel prezzo più basso.
+
+### Domanda 3
+
+Risposta corretta: B. Vendere al prezzo più basso è ciò che rende definitiva la perdita.
+
+## Punti chiave
+
+- La volatilità misura quanto e quanto rapidamente si muove il prezzo.
+- Descrive il movimento del prezzo, non automaticamente un risultato finale.
+- Un calo temporaneo non è una perdita permanente, a meno di vendere a quel prezzo.

@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 43
 locale: nl
-title: "WHITE-L1-043"
-summary: "WHITE-L1-043"
-sourceVersion: "1.0"
+title: "Wat is assetallocatie (vermogensverdeling)?"
+summary: "Leer wat assetallocatie betekent en hoe die verschilt van spreiding binnen één soort bezitting."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-043: Hoe Het Jaarverslag van Een Bedrijf Lezen — De Basis
+# Wat is assetallocatie (vermogensverdeling)?
 
 ## Leerdoelen
-1. Het algemene doel van een jaarverslag identificeren.
-2. De gangbare onderdelen van een jaarverslag benoemen.
-3. Uitleggen waarom jaarverslagen belangrijk zijn voor individuele beleggers.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- assetallocatie in eenvoudige woorden te definiëren.
+- haar te onderscheiden van spreiding binnen één beleggingscategorie.
+- uit te leggen waarom ze vaak wordt beschreven als een fundamentele portefeuillebeslissing.
 
 ## Kerninhoud
-*REGIOSPECIFIEKE REGEL:* De vereisten en formaten van jaarverslagen (zoals de Amerikaanse 10-K-indiening) verschillen per land en regelgevende jurisdictie.
 
-Een jaarverslag biedt aandeelhouders doorgaans de financiële prestaties en een overzicht van de bedrijfsactiviteiten voor het jaar. Gangbare onderdelen zijn: een brief van de directie, financiële overzichten (winst-en-verliesrekening, balans, kasstroomoverzicht), de bespreking van de resultaten door het management, en risico-openbaarmakingen.
+### Wat assetallocatie is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger die een bedrijf overweegt, leest het onderdeel over risico-openbaarmaking in het jaarverslag en ontdekt dat het bedrijf te maken heeft met een aanzienlijk lopend geschil dat niet uitgebreid in het algemene nieuws is behandeld. Dit detail, gevonden in het formele verslag in plaats van in de krantenkoppen, informeert de beslissing van de belegger op een manier die oppervlakkig onderzoek had kunnen missen.
+Assetallocatie verwijst naar hoe een belegger zijn totale portefeuille verdeelt over verschillende brede beleggingscategorieën, zoals aandelen, obligaties en contant geld, en niet naar welke specifieke beleggingen hij binnen elke categorie kiest.
 
-## Praktische Toets
-1. Wat biedt een jaarverslag doorgaans aan aandeelhouders?
-2. Noem twee gangbare onderdelen van een jaarverslag.
-3. Waar/Onwaar: De formaten van jaarverslagen zijn wereldwijd identiek.
-4. Waarom zou het lezen van het volledige verslag informatie kunnen onthullen die het algemene nieuws mist?
+### Hoe ze verschilt van spreiding
+
+Spreiding (eerder in dit niveau behandeld) verwijst doorgaans naar het verdelen van beleggingen binnen een categorie, zoals het bezitten van veel verschillende aandelen. Assetallocatie werkt een niveau hoger: ze bepaalt hoeveel er in totaal naar aandelen gaat, hoeveel in totaal naar obligaties en hoeveel in totaal naar contant geld.
+
+### Waarom ze fundamenteel is
+
+Assetallocatie wordt vaak beschreven als een van de belangrijkste beslissingen bij het opbouwen van een portefeuille, omdat de brede mix tussen beleggingscategorieën (niet alleen welke specifieke aandelen je kiest) een aanzienlijke invloed heeft op het totale risico en het mogelijke rendement.
+
+## Praktijkvoorbeeld
+
+Een belegger kan kiezen voor een verdeling van 70% aandelen, 25% obligaties en 5% contant geld: een beslissing die wordt genomen voordat hij ook maar kiest welke specifieke aandelen of obligaties hij binnen die structuur aanhoudt.
+
+## Oefenquiz
+
+1. Assetallocatie verwijst naar:
+   A. Het kiezen van specifieke afzonderlijke aandelen
+   B. Het verdelen van een portefeuille over brede categorieën zoals aandelen, obligaties en contant geld
+   C. Een soort dividend
+   D. Een pensioenregeling van de overheid
+
+2. Waar of onwaar: assetallocatie en spreiding binnen één categorie betekenen precies hetzelfde.
+
+3. Waarom wordt assetallocatie vaak beschreven als een fundamentele beslissing?
+   A. Ze heeft weinig invloed op een portefeuille
+   B. De brede mix tussen categorieën beïnvloedt het totale risico en rendement aanzienlijk
+   C. Ze is alleen belangrijk voor obligaties
+   D. Ze vervangt alle andere beleggingsbeslissingen
 
 ## Antwoordsleutel
-1. De financiële prestaties en een overzicht van de bedrijfsactiviteiten voor het jaar   2. Financiële overzichten, risico-openbaarmakingen (onder andere)   3. Onwaar   4. Formele openbaarmakingen bevatten vaak details die niet prominent in het algemene nieuws worden behandeld
 
-## Antwoorden en Toelichtingen
-1. Dit is het algemene doel van een jaarverslag.
-2. Dit behoort tot de standaardonderdelen die in de meeste jaarverslagen voorkomen.
-3. Formaten en vereisten verschillen per land en regelgevende jurisdictie.
-4. Gedetailleerde formele openbaarmakingen kunnen risico's of details onthullen die elders onderbelicht blijven.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Jaarverslagen bieden aandeelhouders een formeel overzicht van de jaarlijkse financiële prestaties.
-- Gangbare onderdelen zijn financiële overzichten, de bespreking door het management, en risico-openbaarmakingen.
-- Het lezen van het volledige verslag kan details onthullen die niet in het algemene nieuws worden behandeld.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Assetallocatie is de verdeling van een portefeuille op het niveau van brede categorieën.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Allocatie gebeurt op categorieniveau; spreiding binnen een categorie.
+
+### Vraag 3
+
+Juist antwoord: B. De brede mix van categorieën beïnvloedt het gedrag van de totale portefeuille aanzienlijk.
+
+## Belangrijkste punten
+
+- Assetallocatie is hoe een portefeuille over brede categorieën wordt verdeeld.
+- Het is een andere beslissing, op een hoger niveau, dan spreiding binnen een categorie.
+- Ze wordt beschouwd als een fundamentele beslissing bij het opbouwen van een portefeuille.

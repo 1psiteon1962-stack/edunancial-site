@@ -5,44 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 27
 locale: de
-title: "Was ist Rendite (Yield)?"
-summary: "Lernen Sie, was Yield bei verschiedenen Papiervermögenswerten misst und wie es sich von Kurssteigerung unterscheidet."
-sourceVersion: "1.0"
+title: "Was ist die Rendite (Ertragsrendite)?"
+summary: "Lernen Sie, was die laufende Rendite bei verschiedenen Papiervermögenswerten misst und wie sie sich von Kurssteigerungen unterscheidet."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist Rendite (Yield)?
+# Was ist die Rendite (Ertragsrendite)?
 
 ## Lernziele
 
-- Yield in einfachen Worten definieren.
-- Eine grundlegende Rendite aus Einkommen und Preis berechnen.
-- Yield von Kurssteigerung unterscheiden.
+Am Ende dieser Lektion sollten Sie:
+
+- die laufende Rendite in einfachen Worten definieren können.
+- eine einfache Rendite aus Ertrag und Preis berechnen können.
+- die Rendite von Kurssteigerungen unterscheiden können.
 
 ## Kerninhalt
 
-### Was Yield bedeutet
+### Was Rendite bedeutet
 
-Yield misst allgemein das Einkommen, das eine Anlage erzeugt — etwa Dividenden einer Aktie oder Zinsen einer Anleihe — als Prozentsatz ihres Preises.
+Die laufende Rendite (englisch "yield") misst im Allgemeinen den Ertrag, den eine Anlage abwirft (etwa Dividenden einer Aktie oder Zinsen einer Anleihe), ausgedrückt als Prozentsatz ihres Preises.
 
-### Grundformel
+### Die Grundformel
 
-Yield = jährliches Einkommen ÷ aktueller Preis. Bei einer Aktie bedeutet „Einkommen“ typischerweise Dividenden, bei einer Anleihe typischerweise Zinszahlungen.
+Rendite = jährlicher Ertrag ÷ aktueller Preis. Bei einer Aktie bedeutet „Ertrag“ üblicherweise Dividenden, bei einer Anleihe üblicherweise Zinszahlungen.
 
-### Yield gegenüber Kurssteigerung
+### Rendite und Kurssteigerung
 
-Yield misst Einkommen und nicht Kursgewinn. Eine Aktie kann hohe Dividendenrendite bei gleichbleibendem Kurs haben oder niedrige Dividendenrendite bei stark steigendem Kurs. Das sind getrennte mögliche Renditequellen.
+Die Rendite misst gezielt den Ertrag, nicht den Kursgewinn. Eine Aktie kann über Dividenden eine hohe Rendite haben, während ihr Kurs gleich bleibt, oder eine niedrige Rendite, während ihr Kurs deutlich steigt – das sind zwei getrennte Quellen möglicher Rendite, nicht dasselbe.
 
 ## Durchgerechnetes Beispiel
 
-Eine Aktie kostet 50 $ und zahlt jährlich 2 $ Dividende. Yield = 2 $ ÷ 50 $ = 4 %. Eine Veränderung des Aktienkurses ist darin nicht enthalten.
+Eine Aktie notiert bei 50 $ und zahlt jährlich 2 $ Dividende. Rendite = 2 $ ÷ 50 $ = 4 %. Diese ist getrennt von jeder Veränderung des Aktienkurses selbst und schließt sie nicht ein.
 
 ## Übungsquiz
 
-1. Yield = A. Kurssteigerung ÷ Haltedauer B. jährliches Einkommen ÷ aktueller Preis C. Aktienzahl ÷ Nettogewinn D. Aktienkurs ÷ EPS
-2. Richtig oder falsch: Yield misst Kurssteigerung statt Einkommen.
-3. Eine Anleihe zahlt jährlich 40 $ und kostet 1.000 $. Yield? A. 0,4 % B. 4 % C. 40 % D. 400 %
+1. Die Rendite wird berechnet als:
+   A. Kurssteigerung ÷ Haltedauer
+   B. jährlicher Ertrag ÷ aktueller Preis
+   C. Gesamtzahl der Aktien ÷ Jahresüberschuss
+   D. Aktienkurs ÷ EPS
+
+2. Richtig oder falsch: Die Rendite misst die Kurssteigerung, nicht den Ertrag.
+
+3. Eine Anleihe zahlt jährlich 40 $ und kostet 1.000 $. Wie hoch ist ihre Rendite?
+   A. 0,4 %
+   B. 4 %
+   C. 40 %
+   D. 400 %
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Eine Aktie kostet 50 $ und zahlt jährlich 2 $ Dividende. Yield = 2 $ ÷ 50 $ = 
 
 ## Antworten und Erklärungen
 
-1. B. Yield = jährliches Einkommen ÷ aktueller Preis.
-2. Falsch. Yield misst Einkommen, nicht Kurssteigerung.
-3. B. 40 $ ÷ 1.000 $ = 4 %.
+### Frage 1
+
+Richtige Antwort: B. Rendite = jährlicher Ertrag ÷ aktueller Preis.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die Rendite misst den Ertrag, nicht die Kurssteigerung.
+
+### Frage 3
+
+Richtige Antwort: B. 40 $ ÷ 1.000 $ = 4 %.
 
 ## Wichtigste Erkenntnisse
 
-- Yield = jährliches Einkommen ÷ aktueller Preis.
-- Es misst Dividenden- oder Zinseinkommen, nicht Kurssteigerung.
-- Einkommen und Kurssteigerung sind getrennte mögliche Renditequellen.
+- Rendite = jährlicher Ertrag ÷ aktueller Preis.
+- Sie misst den Ertrag (Dividenden oder Zinsen), nicht die Kurssteigerung.
+- Ertrag und Kurssteigerung sind zwei getrennte Quellen möglicher Rendite.

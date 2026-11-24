@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 1
 locale: it
-title: "Cosa Sono gli Attivi di Carta?"
-summary: "Le categorie comuni includono le azioni (capitale proprio), le obbligazioni (reddito fisso), e gli investimenti collettivi (fondi comuni di investimento, ETF) — ciascuna rappresenta un modo diverso di ottenere esposizione finanziaria senza possedere direttamente un attivo fisico."
-sourceVersion: "1.0"
+title: "Che cos'è un'attività finanziaria \"di carta\"? (E perché la chiamiamo così)"
+summary: "Scopri che cosa rappresenta davvero un'attività di carta e in che cosa differisce dal possedere un bene fisico."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-001: Cosa Sono gli Attivi di Carta?
+# Che cos'è un'attività finanziaria "di carta"? (E perché la chiamiamo così)
 
-## Obiettivi di Apprendimento
-1. Definire gli attivi di carta in termini semplici.
-2. Distinguere gli attivi di carta dai beni immobiliari e dagli attivi fisici.
-3. Identificare le categorie comuni di attivi di carta.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Gli attivi di carta sono strumenti finanziari che rappresentano la proprietà o un diritto su un valore — azioni, obbligazioni, fondi comuni di investimento, e titoli simili — anziché una proprietà fisica come i beni immobiliari o l'oro. *FATTO VERIFICATO:* Il termine "carta" è storico e si riferisce all'epoca in cui la proprietà veniva registrata su certificati fisici; oggi si tratta quasi interamente di registrazioni digitali.
+Al termine di questa lezione dovresti essere in grado di:
 
-Le categorie comuni includono le azioni (capitale proprio), le obbligazioni (reddito fisso), e gli investimenti collettivi (fondi comuni di investimento, ETF) — ciascuna rappresenta un modo diverso di ottenere esposizione finanziaria senza possedere direttamente un attivo fisico.
+- definire in parole semplici un'attività di carta.
+- spiegare che cosa rappresenta davvero un'attività di carta.
+- confrontare le attività di carta con gli immobili come tipo diverso di valore.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Priya compra 10 azioni di un'azienda tramite l'app del suo broker. Lei possiede un piccolo diritto frazionario sul valore e sui profitti futuri di quell'azienda — nessun oggetto fisico cambia proprietario, non c'è alcun atto notarile, nessun certificato viene spedito per posta. La sua proprietà esiste interamente come registrazione elettronica presso il suo broker.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa sono gli attivi di carta?
-2. Perché il termine "carta" è storico?
-3. Indica due categorie comuni di attivi di carta.
-4. Vero/Falso: Comprare azioni oggigiorno implica tipicamente un certificato fisico.
+### Che cosa significa "attività di carta"
 
-## Chiave di Risposte
-1. Strumenti finanziari che rappresentano la proprietà o un diritto su un valore   2. La proprietà veniva storicamente registrata su certificati fisici   3. Azioni, obbligazioni (tra altre)   4. Falso
+Un'attività di carta è un diritto finanziario – un tempo un certificato fisico, oggi quasi sempre una registrazione digitale – che rappresenta una proprietà o un diritto a un valore futuro, invece di essere essa stessa una cosa fisica e utilizzabile. Un'azione rappresenta una quota di proprietà di un'azienda. Un'obbligazione rappresenta la promessa di essere rimborsati, con gli interessi.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale che distingue gli attivi di carta dalla proprietà fisica.
-2. Il nome riflette un'epoca precedente di registrazione basata sulla carta.
-3. Azioni e obbligazioni sono categorie fondamentali di attivi di carta.
-4. La proprietà moderna è quasi interamente digitale, non certificati fisici.
+### Che cosa c'è sotto un'attività di carta
 
-## Punti Chiave da Ricordare
-- Gli attivi di carta rappresentano la proprietà o i diritti su un valore, non la proprietà fisica.
-- Il termine è storico — le posizioni moderne sono registrazioni digitali.
-- Azioni, obbligazioni, e investimenti collettivi sono categorie fondamentali di attivi di carta.
+Possedere un'azione di un'azienda non significa possedere una certa scrivania o un certo macchinario: significa possedere una piccola fetta del valore dell'intera azienda. Il valore dell'attività di carta dipende interamente da ciò che c'è sotto: l'azienda reale, il debitore reale, lo Stato reale che garantisce un'obbligazione.
+
+### Attività di carta e immobili
+
+Gli immobili del riquadro RED sono fisici: terreni e costruzioni che si possono toccare. Le attività di carta del riquadro WHITE sono diritti: quote di proprietà, accordi di prestito, diritti a pagamenti futuri. In genere le attività di carta sono anche più facili e rapide da comprare, vendere e suddividere in piccole parti rispetto ai beni fisici.
+
+## Esempio svolto
+
+Possedere 10 azioni di un'azienda significa possedere una piccola fetta definita del valore complessivo dell'azienda, non un pezzo specifico dei suoi beni fisici. Quel valore sale o scende al variare delle prospettive dell'azienda.
+
+## Quiz di esercitazione
+
+1. Un'attività di carta si descrive meglio come:
+   A. Un oggetto fisico che puoi usare direttamente
+   B. Un diritto di proprietà o su un valore futuro
+   C. Un tipo di valuta
+   D. Un modulo rilasciato dallo Stato
+
+2. Vero o falso: il valore di un'azione deriva principalmente dal fatto che è una registrazione ufficiale.
+
+3. Perché vendere un'azione è di solito molto più rapido che vendere una casa?
+   A. Detenere azioni a lungo termine è illegale
+   B. Le azioni sono piccole unità standardizzate che non richiedono di trovare un unico acquirente su misura
+   C. Le case valgono di più
+   D. Non c'è una vera differenza di velocità
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un'attività di carta rappresenta una proprietà o un diritto su un valore futuro.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il valore deriva da ciò che l'attività rappresenta, non dalla carta o dalla registrazione in sé.
+
+### Domanda 3
+
+Risposta corretta: B. Le piccole unità standardizzate, senza bisogno di un acquirente unico su misura, sono ciò che rende più rapida la vendita di azioni.
+
+## Punti chiave
+
+- Un'attività di carta è un diritto su un valore, non un oggetto fisico.
+- Il suo valore deriva da ciò che c'è sotto.
+- In genere le attività di carta sono più facili e rapide da comprare, vendere e suddividere rispetto agli immobili.

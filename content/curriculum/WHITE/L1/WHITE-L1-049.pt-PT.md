@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 49
 locale: pt-PT
-title: "Lendo um extrato de corretora: o que está realmente a ver?"
-summary: "Aprenda a ler as seções centrais de um extrato de corretora e conectar os termos estudados neste nível."
-sourceVersion: "1.0"
+title: "Ler o extrato da conta de títulos: o que está realmente a ver?"
+summary: "Aprenda a ler as secções principais de um extrato de conta de títulos, juntando termos de todo este nível."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Lendo um extrato de corretora: o que está realmente a ver?
+# Ler o extrato da conta de títulos: o que está realmente a ver?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
+No final desta lição, deverá ser capaz de:
+
+- identificar as secções principais de um extrato de conta de títulos típico.
+- explicar o que cada secção realmente indica.
+- relacionar os termos do extrato com conceitos vistos anteriormente neste nível.
 
 ## Conteúdo principal
 
-### Conceito principal
+### As secções principais de um extrato
 
-Um extrato típico geralmente inclui posições da conta — o que é possuído e quanto —, histórico de transações com compras, vendas e dividendos, e um resumo de desempenho. O formato exato varia por corretora.
+Um extrato típico de conta de títulos inclui geralmente: a carteira de valores detidos (o que possui e em que quantidade), o histórico de movimentos (compras, vendas e dividendos recentes) e um resumo de rendibilidade, embora o formato exato varie de intermediário para intermediário.
 
-### Como funciona
+### O que cada secção indica
 
-A seção de posições mostra os investimentos atuais e seus valores de mercado. O histórico mostra atividades recentes. O resumo de desempenho frequentemente apresenta retorno ponderado pelo tempo, não necessariamente a experiência pessoal ponderada pelo dinheiro.
+A secção da carteira mostra as posições atuais e o seu valor de mercado. O histórico de movimentos mostra a atividade recente, incluindo pagamentos de dividendos (vistos anteriormente neste nível). O resumo de rendibilidade indica muitas vezes algo como uma rendibilidade ponderada pelo tempo (vista na lição anterior), e não necessariamente a experiência pessoal ponderada pelo dinheiro de um investidor.
 
-### Por que isso importa
+### Relacionar com os conceitos deste nível
 
-Ler bem um extrato significa reconhecer conceitos já estudados: quantidade de ações, valor de mercado, dividendos recebidos e a diferença entre retorno divulgado e retorno pessoal decorrente do momento das contribuições.
+Ler bem um extrato significa reconhecer termos já vistos: ações detidas, valor de mercado, dividendos recebidos e a diferença entre a rendibilidade divulgada pelo fundo e a rendibilidade pessoal efetiva de um indivíduo, que depende do momento das suas próprias entregas.
 
-## Exemplo resolvido
+## Exemplo prático
 
-O investidor vê unidades de participação de ETF, um dividendo recente e um retorno no ano. Ele reconhece que esse número provavelmente é ponderado pelo tempo e pode não corresponder exatamente ao seu retorno pessoal se contribuiu durante o ano.
+Um investidor que analisa o seu extrato vê que detém unidades de participação num ETF, repara num pagamento recente de dividendos no histórico de movimentos e vê uma rendibilidade indicada desde o início do ano: percebe que esse número reflete provavelmente o desempenho ponderado pelo tempo, e não necessariamente a sua rendibilidade pessoal exata, se tiver aplicado dinheiro a meio do ano.
 
-## Quiz prático
+## Teste de prática
 
-1. Seção de posições mostra: A. só taxas B. posições atuais e valor de mercado C. declaração fiscal D. empresas aleatórias
-2. Verdadeiro ou falso: resumo sempre mostra exatamente retorno pessoal ponderado pelo dinheiro.
-3. Histórico inclui normalmente: A. só operações futuras B. compras, vendas e dividendos C. demonstrações completas D. declarações fiscais
+1. A secção da carteira de um extrato de conta de títulos mostra normalmente:
+   A. Apenas as comissões do intermediário
+   B. As posições atuais e o seu valor de mercado
+   C. Apenas a declaração de IRS do investidor
+   D. Uma lista de empresas sem relação com a conta
 
-## Gabarito
+2. Verdadeiro ou falso: o resumo de rendibilidade de um extrato reflete sempre a rendibilidade pessoal exata, ponderada pelo dinheiro, de um investidor.
+
+3. O que inclui normalmente o histórico de movimentos?
+   A. Apenas operações futuras planeadas
+   B. Compras, vendas e pagamentos de dividendos recentes
+   C. As demonstrações financeiras completas de uma empresa
+   D. Declarações fiscais entregues ao Estado
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ O investidor vê unidades de participação de ETF, um dividendo recente e um re
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, distinções e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A carteira mostra as posições atuais e o seu valor de mercado.
 
-- Compreenda a estrutura e a função do conceito, não apenas seu nome.
-- Reconheça riscos, custos, benefícios e limitações relevantes.
-- Aplique o conhecimento de forma consciente em decisões financeiras reais.
+### Pergunta 2
+
+Resposta correta: Falso. A rendibilidade indicada é muitas vezes ponderada pelo tempo, e não necessariamente a rendibilidade pessoal ponderada pelo dinheiro do investidor.
+
+### Pergunta 3
+
+Resposta correta: B. O histórico de movimentos abrange a atividade recente da conta.
+
+## Pontos-chave
+
+- Um extrato de conta de títulos inclui normalmente a carteira, o histórico de movimentos e um resumo de rendibilidade.
+- A rendibilidade indicada é muitas vezes ponderada pelo tempo, e não automaticamente a rendibilidade pessoal de um investidor.
+- Ler bem um extrato assenta em conceitos vistos ao longo de todo este nível.

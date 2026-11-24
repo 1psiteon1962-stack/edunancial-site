@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 9
 locale: nl
-title: "WHITE-L1-009"
-summary: "WHITE-L1-009"
-sourceVersion: "1.0"
+title: "Wat is een ETF? (Een mandje, geen los aandeel)"
+summary: "Leer wat een ETF is, hoe die verschilt van het kopen van één los aandeel en waarom die mandjesstructuur ertoe doet."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-009: Vermogenswinst vs. Vermogensverlies
+# Wat is een ETF? (Een mandje, geen los aandeel)
 
 ## Leerdoelen
-1. Vermogenswinst en vermogensverlies definiëren.
-2. Gerealiseerde winsten/verliezen onderscheiden van ongerealiseerde.
-3. Uitleggen waarom dit onderscheid belangrijk is voor de belastingheffing.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een ETF in eenvoudige woorden te definiëren.
+- uit te leggen hoe die verschilt van het kopen van één los aandeel.
+- één praktisch voordeel van de mandjesstructuur uit te leggen.
 
 ## Kerninhoud
-Vermogenswinst ontstaat wanneer een belegging wordt verkocht voor meer dan de aankoopprijs; vermogensverlies ontstaat wanneer deze voor minder wordt verkocht. *GEVERIFIEERD FEIT:* Winsten en verliezen zijn "ongerealiseerd" (alleen op papier) totdat de belegging daadwerkelijk wordt verkocht — alleen gerealiseerde winsten/verliezen hebben doorgaans fiscale gevolgen in de meeste jurisdicties.
 
-*REGIOSPECIFIEKE REGEL:* De fiscale behandeling van vermogenswinst (tarieven, vereiste bezitsduur) verschilt aanzienlijk per land en zelfs afhankelijk van hoe lang een actief werd aangehouden — controleer altijd de geldende lokale belastingregels.
+### Wat een ETF is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Kenji koopt een aandeel voor $2.000. De waarde ervan stijgt naar $2.800 — een ongerealiseerde winst van $800 die alleen op papier bestaat en nog niet wordt belast. Hij verkoopt het aandeel en realiseert een vermogenswinst van $800, die nu belast kan worden afhankelijk van zijn jurisdictie en hoe lang hij de belegging heeft aangehouden.
+Een ETF (Exchange-Traded Fund, beursverhandeld fonds) is een fonds dat een verzameling bezittingen aanhoudt (vaak veel aandelen of obligaties), waarvan de deelbewijzen de hele dag op een beurs worden verhandeld, net als een los aandeel.
 
-## Praktische Toets
-1. Wat is vermogenswinst?
-2. Wat betekent "ongerealiseerd" in deze context?
-3. Waar/Onwaar: Ongerealiseerde winsten worden doorgaans onmiddellijk belast.
-4. Wat leidt doorgaans tot een "gerealiseerde" winst of verlies?
+### Hoe het verschilt van een los aandeel
+
+Eén aandeel van één bedrijf kopen geeft alleen blootstelling aan dat ene bedrijf. Eén deelbewijs van een ETF kopen geeft in één keer blootstelling aan alles in dat mandje: mogelijk tientallen of honderden onderliggende posities, via één aankoop.
+
+### Een praktisch voordeel van de mandjesstructuur
+
+Omdat een ETF de blootstelling over veel posities tegelijk spreidt, heeft het slechte resultaat van één positie erin minder invloed op de ETF als geheel dan wanneer dat de enige positie van de belegger was: een basisvorm van spreiding, die in een latere les uitgebreider aan bod komt.
+
+## Praktijkvoorbeeld
+
+In plaats van één bedrijf te kiezen om in te beleggen, koopt een belegger één deelbewijs van een ETF die aandelen van 500 verschillende bedrijven bezit, en spreidt zo zijn blootstelling over alle 500 via één aankoop.
+
+## Oefenquiz
+
+1. Een ETF wordt het best omschreven als:
+   A. Het aandeel van één bedrijf
+   B. Een fonds met een verzameling bezittingen, verhandelbaar als een aandeel
+   C. Een soort spaarrekening
+   D. Een staatsobligatie
+
+2. Waar of onwaar: één deelbewijs van een ETF kopen geeft alleen blootstelling aan één onderliggend bedrijf.
+
+3. Wat is een praktisch voordeel van de mandjesstructuur van een ETF?
+   A. Het garandeert winst
+   B. Het spreidt de blootstelling over veel posities tegelijk
+   C. Het neemt alle beleggingsrisico weg
+   D. Het vereist het kiezen van losse aandelen
 
 ## Antwoordsleutel
-1. Winst uit de verkoop van een belegging boven de aankoopprijs   2. Een winst/verlies dat alleen op papier bestaat, nog niet geconcretiseerd door een verkoop   3. Onwaar   4. Het daadwerkelijk verkopen van de belegging
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van vermogenswinst.
-2. De ongerealiseerde status weerspiegelt waardeveranderingen op papier voordat er verkoop plaatsvindt.
-3. De meeste jurisdicties belasten ongerealiseerde winsten niet — doorgaans alleen gerealiseerde.
-4. Het verkopen van het actief zet een winst/verlies op papier om in een gerealiseerde winst/verlies.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Vermogenswinst/-verlies ontstaat wanneer beleggingen boven/onder de aankoopprijs worden verkocht.
-- Winsten en verliezen zijn "ongerealiseerd" totdat ze daadwerkelijk worden verkocht.
-- De fiscale behandeling verschilt aanzienlijk per jurisdictie en bezitsduur — controleer lokaal.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een ETF is een verhandelbaar fonds met meerdere bezittingen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een deelbewijs van een ETF geeft doorgaans blootstelling aan veel onderliggende posities tegelijk.
+
+### Vraag 3
+
+Juist antwoord: B. Het spreiden van blootstelling over veel posities is het kernvoordeel.
+
+## Belangrijkste punten
+
+- Een ETF is een fonds met een verzameling bezittingen, verhandelbaar als een aandeel.
+- Eén deelbewijs van een ETF kan blootstelling geven aan veel onderliggende posities tegelijk.
+- Deze mandjesstructuur biedt een basisvorm van spreiding.

@@ -6,8 +6,8 @@ level: 1
 lessonNumber: 30
 locale: pt-BR
 title: "O que é risco de taxa de juros?"
-summary: "Aprenda como mudanças nas taxas gerais de juros afetam os preços de títulos existentes e por que se movem em direções opostas."
-sourceVersion: "1.0"
+summary: "Aprenda como as mudanças nas taxas de juros afetam os preços dos títulos já existentes e por que eles se movem em direções opostas."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
@@ -16,31 +16,45 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir risco de taxa de juros em termos simples.
+- explicar a relação inversa básica entre juros e preços dos títulos.
+- explicar por que isso importa para quem já tem um título.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é risco de taxa de juros
 
-Risco de taxa de juros é o risco de mudanças nas taxas gerais afetarem o valor de mercado dos títulos existentes. É diferente do risco de crédito, relacionado à capacidade do emissor de pagar.
+Risco de taxa de juros é o risco de que mudanças nas taxas de juros em geral afetem o valor de mercado dos títulos já existentes: algo separado do risco de crédito, que diz respeito à capacidade de pagamento do emissor.
 
-### Como funciona
+### A relação inversa
 
-Quando as taxas gerais sobem, o preço de mercado de títulos existentes com taxas fixas menores geralmente cai, porque novos títulos oferecem taxas mais atraentes. Quando as taxas caem, títulos antigos com taxas maiores geralmente se tornam mais valiosos em comparação.
+Quando as taxas de juros em geral sobem, o preço de mercado dos títulos existentes com taxas fixas mais baixas geralmente cai, porque novos títulos estão sendo emitidos à taxa atual, mais alta e mais atraente. Quando as taxas em geral caem, os títulos existentes com taxas mais altas geralmente ficam mais valiosos em comparação.
 
-### Por que isso importa
+### Por que isso importa para quem já tem um título
 
-Quem precisa vender antes do vencimento fica exposto a essa oscilação de preço. Quem mantém até o vencimento geralmente recebe o valor de face; portanto, esse risco afeta principalmente o preço de mercado antes do vencimento.
+Um detentor que precisa vender antes do vencimento fica exposto a esse movimento de preço. Um detentor que mantém o título até o vencimento ainda recebe o valor de face: o risco de taxa de juros afeta principalmente o preço de mercado do título antes do vencimento, e não o pagamento final em si.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor possui título pagando 3%. As taxas gerais sobem para 5%. Novos títulos oferecem 5%, tornando o antigo de 3% menos atraente e pressionando seu preço para baixo se vendido antes do vencimento.
+Um investidor tem um título que paga 3% de juros. As taxas em geral sobem para 5%. Os novos títulos agora oferecem os 5%, mais atraentes, o que torna o título antigo de 3% menos atraente para um possível comprador: seu preço de mercado geralmente cairia se ele fosse vendido antes do vencimento.
 
-## Quiz prático
+## Teste de prática
 
-1. Risco de juros: A. inadimplência B. taxas mudam preços dos títulos existentes C. desdobramento D. câmbio
-2. Verdadeiro ou falso: quando taxas sobem, títulos antigos de taxa menor geralmente também sobem.
-3. Mantendo até vencimento recebe valor de face? A. não B. geralmente sim C. só se taxas caírem D. só se vender cedo
+1. O risco de taxa de juros se refere a:
+   A. O risco de calote de um emissor
+   B. O risco de que mudanças nos juros afetem os preços dos títulos existentes
+   C. O risco de um desdobramento de ações
+   D. O risco cambial
+
+2. Verdadeiro ou falso: quando as taxas de juros em geral sobem, os preços dos títulos existentes com taxas mais baixas geralmente sobem também.
+
+3. Um detentor que mantém o título até o vencimento ainda recebe o valor de face integral, apesar do risco de taxa de juros?
+   A. Não, ele perde a diferença
+   B. Sim, o valor de face geralmente é pago no vencimento de qualquer forma
+   C. Só se os juros tiverem caído
+   D. Só se o título tiver sido vendido antes
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Um investidor possui título pagando 3%. As taxas gerais sobem para 5%. Novos t�
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O risco de taxa de juros afeta os preços de mercado dos títulos existentes quando os juros mudam.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Juros em alta geralmente empurram para baixo os preços dos títulos existentes com taxas mais baixas.
+
+### Pergunta 3
+
+Resposta correta: B. Quem mantém até o vencimento geralmente ainda recebe o valor de face integral, independentemente das oscilações de preço no meio do caminho.
+
+## Pontos-chave
+
+- O risco de taxa de juros afeta os preços dos títulos existentes quando as taxas em geral mudam.
+- Juros em alta geralmente empurram para baixo os preços dos títulos existentes com taxas mais baixas, e vice-versa.
+- Quem mantém até o vencimento geralmente ainda recebe o valor de face, independentemente dos movimentos de preço no meio do caminho.

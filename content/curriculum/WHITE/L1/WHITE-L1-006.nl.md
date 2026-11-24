@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 6
 locale: nl
-title: "WHITE-L1-006"
-summary: "WHITE-L1-006"
-sourceVersion: "1.0"
+title: "Wat is dividend?"
+summary: "Leer wat dividend is, hoe het wordt uitgekeerd en waarom het nooit gegarandeerd is."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-006: Wat Is Een Effectenrekening?
+# Wat is dividend?
 
 ## Leerdoelen
-1. Een effectenrekening definiëren.
-2. Een effectenrekening onderscheiden van een bankrekening.
-3. De basistypen rekeningen identificeren (individueel, gezamenlijk, pensioen).
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- dividend in eenvoudige woorden te definiëren.
+- uit te leggen hoe dividend doorgaans wordt uitgekeerd.
+- uit te leggen waarom dividend nooit gegarandeerd is.
 
 ## Kerninhoud
-Een effectenrekening is een rekening waarmee een belegger effecten kan kopen en verkopen, zoals aandelen, obligaties, beleggingsfondsen, en ETF's, geopend via een erkende broker. *GEVERIFIEERD FEIT:* In tegenstelling tot een bankrekening is het geld op een effectenrekening doorgaans belegd, niet simpelweg als contant geld aangehouden, en de waarde ervan kan stijgen of dalen afhankelijk van de marktomstandigheden.
 
-Gangbare rekeningtypen zijn individuele rekeningen (één rekeninghouder), gezamenlijke rekeningen (meerdere rekeninghouders), en pensioenrekeningen met belastingvoordelen (zoals een 401(k) of een IRA, behandeld in latere lessen), elk met een andere fiscale behandeling en andere regels.
+### Wat dividend is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Aisha opent een individuele effectenrekening en stort $1.000. In tegenstelling tot een spaarrekening waar die $1.000 als contant geld zou blijven staan met een bescheiden rente, gebruikt zij het geld om aandelen van een bedrijf te kopen. Haar saldo schommelt nu dagelijks met de koers van dat aandeel — zij zou $1.100 of $900 kunnen zien, afhankelijk van de marktbeweging, een fundamenteel ander risicoprofiel dan dat van een bankrekening.
+Dividend is een deel van de winst van een bedrijf dat aan aandeelhouders wordt uitgekeerd, in verhouding tot het aantal aandelen dat ze bezitten.
 
-## Praktische Toets
-1. Waarvoor wordt een effectenrekening gebruikt?
-2. Waarin verschilt een effectenrekening van een gewone bankrekening?
-3. Noem twee gangbare vormen van rekeninghouderschap.
-4. Waar/Onwaar: Geld op een effectenrekening levert altijd een vast en voorspelbaar rendement op zoals een spaarrekening.
+### Hoe het doorgaans wordt uitgekeerd
+
+Dividend wordt meestal in contanten uitgekeerd, volgens een vast schema (vaak per kwartaal), rechtstreeks aan aandeelhouders op basis van het aantal aandelen dat ze op een bepaalde registratiedatum bezitten.
+
+### Waarom het nooit gegarandeerd is
+
+Het bestuur van een bedrijf beslist of er dividend wordt uitgekeerd, en hoeveel: er is geen wettelijke verplichting om dat te doen. Bedrijven kunnen dividend verlagen, opschorten of er nooit mee beginnen, vaak afhankelijk van hun winstgevendheid en groeiplannen.
+
+## Praktijkvoorbeeld
+
+Een belegger met 100 aandelen van een bedrijf dat een kwartaaldividend van $ 0,50 per aandeel uitkeert, zou dat kwartaal $ 50 ontvangen: een bedrag dat in volgende kwartalen naar goeddunken van het bedrijf kan veranderen.
+
+## Oefenquiz
+
+1. Dividend is:
+   A. Een gegarandeerde vaste betaling
+   B. Een deel van de bedrijfswinst dat aan aandeelhouders wordt uitgekeerd
+   C. Een soort rentebetaling op obligaties
+   D. Een belasting op aandelenbezit
+
+2. Waar of onwaar: bedrijven zijn wettelijk verplicht dividend uit te keren.
+
+3. Wie beslist of er dividend wordt uitgekeerd, en hoeveel?
+   A. Individuele aandeelhouders
+   B. Het bestuur van het bedrijf
+   C. De effectenbeurs
+   D. De overheid
 
 ## Antwoordsleutel
-1. Effecten kopen en verkopen   2. Geld op een effectenrekening is doorgaans belegd en kan schommelen; bankgeld wordt doorgaans als stabiel contant geld aangehouden   3. Individueel, gezamenlijk (onder andere)   4. Onwaar
 
-## Antwoorden en Toelichtingen
-1. Dit is de belangrijkste functie van een effectenrekening.
-2. Beleggingsrisico en schommeling onderscheiden effectenrekeningen van banktegoeden.
-3. Dit zijn standaardstructuren van rekeninghouderschap.
-4. De waarde van een effectenrekening hangt af van de onderliggende beleggingen, niet van een vast tarief.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een effectenrekening maakt het kopen en verkopen van effecten mogelijk.
-- In tegenstelling tot bankrekeningen is het geld op een effectenrekening doorgaans belegd en kan het in waarde schommelen.
-- Rekeningtypen (individueel, gezamenlijk, pensioen) hebben verschillende regels en fiscale behandeling.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Dividend is een winstuitkering aan aandeelhouders.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Dividenduitkeringen zijn een keuze, geen wettelijke verplichting.
+
+### Vraag 3
+
+Juist antwoord: B. Het bestuur beslist over dividenduitkeringen.
+
+## Belangrijkste punten
+
+- Dividend is een deel van de winst dat aan aandeelhouders wordt uitgekeerd.
+- Uitkeringen gebeuren meestal in contanten, volgens een vast schema.
+- Dividend is nooit gegarandeerd: het is een beslissing van het bestuur.

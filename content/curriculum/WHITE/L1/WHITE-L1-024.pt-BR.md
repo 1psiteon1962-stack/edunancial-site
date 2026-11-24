@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 24
 locale: pt-BR
-title: "O que são ações fracionárias?"
-summary: "Aprenda o que são ações fracionárias, como reduzem a barreira de entrada e como podem ajudar a dimensionar o risco de um iniciante."
-sourceVersion: "1.0"
+title: "O que são frações de ações?"
+summary: "Aprenda o que são frações de ações, como elas reduzem a barreira para investir e como podem ser usadas para dimensionar o risco de forma adequada para um iniciante."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que são ações fracionárias?
+# O que são frações de ações?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir uma fração de ação em termos simples.
+- explicar o problema de acesso que as frações de ações resolvem.
+- explicar como as frações de ações podem ser usadas para dimensionar o risco de forma adequada, e não só para conseguir comprar uma ação de preço alto.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que são frações de ações
 
-Uma ação fracionária é uma parte de uma única ação, menor do que uma ação inteira, permitindo investir sem comprar uma unidade completa.
+Uma fração de ação é uma parte de uma única ação, menor que uma ação inteira, que permite ao investidor comprar menos de uma ação completa de cada vez.
 
-### Como funciona
+### O problema de acesso que elas resolvem
 
-Antes de sua ampla disponibilidade, era necessário ter dinheiro suficiente para uma ação inteira. Isso criava barreira em ações de preço elevado. Frações permitem exposição proporcional com valores menores.
+Antes de as frações de ações se tornarem comuns, o investidor precisava de dinheiro suficiente para comprar pelo menos uma ação inteira: uma barreira real para ações de preço mais alto. As frações permitem que um investidor com uma quantia menor ainda tenha exposição proporcional àquela mesma ação.
 
-### Por que isso importa
+### Um segundo uso, menos óbvio: dimensionar o risco de propósito
 
-Há outro uso importante: dimensionar deliberadamente o risco. Ao ensinar um jovem ou iniciante, uma posição fracionária pequena pode manter uma perda real suficientemente pequena para ser uma lição suportável, não um desastre. O tamanho da posição é uma escolha consciente.
+Pergunte a si mesmo: se você está ensinando alguém a investir pela primeira vez – talvez um jovem com muito pouco dinheiro –, qual é o perigo real? Não é só "não conseguir pagar uma ação". É a possibilidade de uma perda grande o bastante para realmente machucar. Um pai ou uma mãe que ensina um adolescente a investir, por exemplo, pode usar uma conta com frações de ações justamente para que uma perda real fique pequena o bastante para ser uma lição de verdade, e não um desastre. O tamanho da posição, e não só o que cabe no bolso, é uma escolha deliberada.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Imagine um pai abrindo uma pequena conta fracionária para o filho adolescente. Além de permitir acesso a uma ação cara, ela mantém uma possível perda pequena o suficiente para que ele possa errar, aprender e continuar.
+Imagine um pai que abre uma pequena conta com frações de ações para o filho adolescente. Por que frações, em vez de esperar até que ele pudesse comprar uma ação inteira? Não só para que ele pudesse tecnicamente ser dono de um pedaço de uma ação cara, mas para que, se o investimento perdesse valor, a perda fosse pequena o bastante para ser realmente absorvida e servir de aprendizado, e não algo que pudesse prejudicá-lo seriamente. A lição não era só "agora você pode investir", mas "agora você pode errar, com segurança, enquanto ainda está aprendendo".
 
-## Quiz prático
+## Teste de prática
 
-1. Ação fracionária: A. ação inteira B. parte menor que uma ação C. título D. dividendo garantido
-2. Verdadeiro ou falso: exige dinheiro para uma ação inteira.
-3. Outro motivo para iniciante: A. garantir lucro B. limitar a posição para que uma perda seja uma lição segura C. eliminar perdas D. evitar pesquisa
+1. Uma fração de ação é:
+   A. Uma ação inteira
+   B. Uma parte de uma única ação, menor que uma ação inteira
+   C. Um tipo de título de dívida
+   D. Um pagamento garantido de dividendos
+
+2. Verdadeiro ou falso: as frações de ações exigem que o investidor tenha dinheiro suficiente para pelo menos uma ação inteira.
+
+3. Além do preço acessível, que outro motivo real pode levar alguém a escolher frações de ações para um investidor iniciante?
+   A. Garantir lucro
+   B. Dimensionar a posição para que uma possível perda fique pequena o bastante para ser uma lição real e segura
+   C. Nunca perder dinheiro
+   D. Dispensar qualquer pesquisa
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Imagine um pai abrindo uma pequena conta fracionária para o filho adolescente. 
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Uma fração de ação é menos que uma ação inteira.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. As frações de ações eliminam justamente essa exigência.
+
+### Pergunta 3
+
+Resposta correta: B. Dimensionar uma posição para que uma perda seja suportável e educativa, e não prejudicial, é um uso deliberado e concreto do investimento em frações.
+
+## Pontos-chave
+
+- Uma fração de ação é uma parte de uma ação inteira.
+- Ela elimina a barreira de precisar do preço de uma ação inteira para investir.
+- Ela também pode ser usada de forma deliberada para dimensionar uma posição de modo que o risco continue adequado: algo especialmente importante ao ensinar um iniciante.

@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 4
 locale: pt-BR
-title: "O que é um título de dívida, de verdade? (Você está emprestando dinheiro, não comprando propriedade)"
-summary: "Entenda o que um título de dívida representa — um empréstimo, não propriedade — e os termos básicos que o definem."
-sourceVersion: "1.0"
+title: "O que é, de fato, um título de dívida? (Você está emprestando dinheiro, não comprando propriedade)"
+summary: "Aprenda o que um título de dívida realmente representa – um empréstimo, não propriedade – e as condições básicas que o definem."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um título de dívida, de verdade? (Você está emprestando dinheiro, não comprando propriedade)
+# O que é, de fato, um título de dívida? (Você está emprestando dinheiro, não comprando propriedade)
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá definir um título de dívida, explicar a relação entre investidor e emissor e identificar seus termos básicos.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um título de dívida em termos simples.
+- explicar a relação central entre o detentor do título e o emissor.
+- citar as condições básicas que definem um título de dívida.
 
 ## Conteúdo principal
 
-### Um título é um empréstimo, não propriedade
+### Um título de dívida é um empréstimo, não propriedade
 
-Ao comprar um título de dívida, você empresta dinheiro ao emissor, que pode ser uma empresa ou governo. Você não compra uma parcela de propriedade como acontece com uma ação. Essa é a distinção fundamental.
+Quando você compra um título de dívida, está emprestando dinheiro a quem o emitiu (uma empresa ou um governo), e não comprando uma parte da propriedade, como uma ação daria. Essa é a distinção mais importante de todas entre ações e títulos de dívida.
 
 ### A relação central
 
-O emissor promete devolver o valor original — principal ou valor de face — em uma data futura definida, o vencimento, e normalmente fazer pagamentos periódicos de juros, chamados cupom, em troca do uso do seu dinheiro.
+O emissor promete devolver o valor original (o principal, ou "valor de face") em uma data futura definida (o vencimento) e, normalmente, pagar juros periódicos (o cupom) ao longo do caminho, em troca do uso do seu dinheiro.
 
-### Os termos básicos
+### As condições básicas
 
-Todo título possui valor de face, taxa de cupom e data de vencimento. Esses termos são estabelecidos quando o título é emitido.
+Todo título de dívida tem um valor de face (o valor pago de volta no vencimento), uma taxa de cupom (a taxa de juros paga) e uma data de vencimento (quando o empréstimo é pago de volta). Essas condições são definidas na emissão do título.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor compra um título com valor de face de US$ 1.000, cupom de 4% e vencimento em 10 anos. Recebe US$ 40 por ano em juros e recupera os US$ 1.000 ao final dos 10 anos.
+Um investidor compra um título com valor de face de US$ 1.000, taxa de cupom de 4% e vencimento em 10 anos. Ele recebe US$ 40 por ano de juros (4% de US$ 1.000) e recebe seus US$ 1.000 de volta depois de 10 anos.
 
-## Quiz prático
+## Teste de prática
 
-1. Comprar um título significa: A. comprar propriedade parcial B. emprestar dinheiro ao emissor C. comprar ativo físico D. virar funcionário
-2. Verdadeiro ou falso: a taxa de cupom é o valor devolvido no vencimento.
-3. O valor de face é: A. taxa de juros B. principal devolvido no vencimento C. preço atual D. dívida total do emissor
+1. Comprar um título de dívida significa:
+   A. Comprar uma participação na propriedade de uma empresa
+   B. Emprestar dinheiro ao emissor
+   C. Comprar um bem físico
+   D. Tornar-se funcionário de uma empresa
+
+2. Verdadeiro ou falso: a taxa de cupom de um título se refere ao valor pago de volta no vencimento.
+
+3. O que é o valor de face de um título de dívida?
+   A. A taxa de juros paga
+   B. O valor pago de volta ao detentor do título no vencimento
+   C. O preço de mercado atual do título
+   D. A dívida total do emissor
 
 ## Gabarito
 
@@ -50,12 +64,20 @@ Um investidor compra um título com valor de face de US$ 1.000, cupom de 4% e ve
 
 ## Respostas e explicações
 
-1. B. Um título representa empréstimo, não propriedade.
-2. Falso. Cupom é a taxa de juros; valor de face é o principal.
-3. B. O valor de face é o principal devolvido no vencimento.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um título de dívida representa um empréstimo de dinheiro, e não propriedade.
 
-- Um título representa um empréstimo.
-- O emissor promete devolver principal e normalmente pagar juros.
-- Valor de face, cupom e vencimento são termos fundamentais.
+### Pergunta 2
+
+Resposta correta: Falso. A taxa de cupom é a taxa de juros; o valor de face é o valor pago de volta no vencimento.
+
+### Pergunta 3
+
+Resposta correta: B. O valor de face é o principal pago de volta no vencimento.
+
+## Pontos-chave
+
+- Um título de dívida representa um empréstimo de dinheiro, e não propriedade.
+- O emissor promete devolver o principal no vencimento, mais juros periódicos (o cupom).
+- Valor de face, taxa de cupom e data de vencimento são as condições centrais que o definem.

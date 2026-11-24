@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 2
 locale: it
-title: "Azioni — Essere Proprietari di Una Parte di un'Azienda"
-summary: "Possedere azioni può generare un rendimento in due modi: la **rivalutazione del prezzo** (il prezzo dell'azione sale) e i **dividendi** (una parte dei profitti distribuita agli azionisti, quando un'azienda decide di pagarli)."
-sourceVersion: "1.0"
+title: "Che cos'è il ROI? (E perché la stessa idea appare diversa in ogni riquadro)"
+summary: "Scopri la formula del ROI, che cosa misura e perché lo stesso concetto vale per immobili, imprese e attività di carta."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-002: Azioni — Essere Proprietari di Una Parte di un'Azienda
+# Che cos'è il ROI? (E perché la stessa idea appare diversa in ogni riquadro)
 
-## Obiettivi di Apprendimento
-1. Definire un'azione in termini semplici.
-2. Spiegare a cosa hanno diritto gli azionisti.
-3. Identificare i due modi principali in cui possedere azioni può generare un rendimento.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un'azione rappresenta la proprietà parziale di un'azienda. *FATTO VERIFICATO:* Gli azionisti hanno generalmente un diritto sugli attivi e sui profitti di un'azienda proporzionale a quante azioni possiedono, e possono avere diritto di voto su certe questioni aziendali.
+Al termine di questa lezione dovresti essere in grado di:
 
-Possedere azioni può generare un rendimento in due modi: la **rivalutazione del prezzo** (il prezzo dell'azione sale) e i **dividendi** (una parte dei profitti distribuita agli azionisti, quando un'azienda decide di pagarli).
+- calcolare un ROI di base dati un guadagno e un costo.
+- spiegare che cosa misura davvero il ROI.
+- riconoscere il ROI come concetto valido in tutti i riquadri e individuarne un limite.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Marcus compra 100 azioni di un'azienda a $50 ciascuna ($5.000 in totale). Un anno dopo, il prezzo sale a $60 per azione — il suo investimento ora vale $6.000, un guadagno di $1.000 sulla carta. Se l'azienda avesse anche pagato un dividendo annuale di $1 per azione, egli avrebbe ricevuto altri $100 in contanti lungo il percorso, oltre al cambiamento di prezzo.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa rappresenta possedere un'azione?
-2. Indica i due modi principali in cui possedere azioni può generare un rendimento.
-3. Vero/Falso: Tutte le aziende sono obbligate a pagare dividendi.
-4. Se possiedi 50 azioni e il prezzo sale di $2 per azione, di quanto è aumentato il valore della tua posizione?
+### La formula del ROI
 
-## Chiave di Risposte
-1. Proprietà parziale di un'azienda   2. Rivalutazione del prezzo, dividendi   3. Falso   4. $100
+ROI = (guadagno dell'investimento − costo dell'investimento) ÷ costo dell'investimento, di solito espresso in percentuale. Se 1.000 $ diventano 1.200 $, il guadagno è 200 $ e il ROI = 200 $ ÷ 1.000 $ = 20%.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un'azione come partecipazione nella proprietà.
-2. Queste sono le due fonti fondamentali di rendimento per gli azionisti.
-3. I dividendi sono una decisione aziendale, non un obbligo universale.
-4. 50 azioni × $2 = $100 di aumento nel valore della posizione.
+### Lo stesso concetto, riquadri diversi
 
-## Punti Chiave da Ricordare
-- Un'azione rappresenta la proprietà proporzionale in un'azienda.
-- Il rendimento deriva dalla rivalutazione del prezzo e, opzionalmente, dai dividendi.
-- Il pagamento dei dividendi è una decisione aziendale, non qualcosa di garantito.
+Il ROI non è un'idea solo del riquadro WHITE. Un investitore immobiliare del riquadro RED calcola il ROI sul reddito da affitto e sulla rivalutazione rispetto al prezzo di acquisto. Un imprenditore del riquadro BLUE lo calcola sul profitto generato rispetto al denaro investito. La logica della formula resta la stessa – guadagno confrontato con il costo –, ma ciò che conta come guadagno e come costo cambia da un riquadro all'altro.
+
+### Un limite reale
+
+Il ROI di base non tiene conto del tempo. Un ROI del 20% ottenuto in un anno è molto diverso dallo stesso 20% ottenuto in dieci anni, anche se la formula da sola non mostra questa differenza.
+
+## Esempio svolto
+
+500 $ che diventano 575 $ sono un guadagno di 75 $: ROI = 75 $ ÷ 500 $ = 15%. Un acquisto di attrezzature aziendali da 10.000 $ che genera 2.500 $ di profitto aggiuntivo: ROI = 2.500 $ ÷ 10.000 $ = 25%: stessa formula, situazioni molto diverse.
+
+## Quiz di esercitazione
+
+1. Il ROI misura:
+   A. L'importo totale guadagnato in dollari
+   B. Il guadagno rispetto al costo, in percentuale
+   C. Il valore totale di un investimento
+   D. Il livello di rischio di un investimento
+
+2. Vero o falso: il ROI di base tiene conto di quanto tempo è servito per ottenere il rendimento.
+
+3. Investi 2.000 $ e diventano 2.400 $. Qual è il ROI?
+   A. 10%
+   B. 15%
+   C. 20%
+   D. 40%
+
+## Soluzioni
+
+1. B
+2. Falso
+3. C
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il ROI è specificamente una misura percentuale del guadagno rispetto al costo.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il ROI di base non considera il tempo: è un limite reale.
+
+### Domanda 3
+
+Risposta corretta: C. (2.400 $ − 2.000 $) ÷ 2.000 $ = 20%.
+
+## Punti chiave
+
+- ROI = (guadagno − costo) ÷ costo, di solito espresso in percentuale.
+- Il ROI vale allo stesso modo per immobili, imprese e attività di carta.
+- Il ROI di base non tiene conto del tempo: un limite reale da tenere presente.

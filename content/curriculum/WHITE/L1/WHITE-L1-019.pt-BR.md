@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 19
 locale: pt-BR
-title: "O que é uma IRA e como ela difere de um 401(k)?"
-summary: "Aprenda o que é uma IRA e a diferença central em relação a um 401(k) patrocinado pelo empregador."
-sourceVersion: "1.0"
+title: "O que é uma IRA, e em que ela difere de um 401(k)?"
+summary: "Aprenda o que é uma IRA e a diferença central entre ela e um 401(k) oferecido pelo empregador."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma IRA e como ela difere de um 401(k)?
+# O que é uma IRA, e em que ela difere de um 401(k)?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir uma IRA em termos simples.
+- explicar a diferença central entre uma IRA e um 401(k).
+- reconhecer que as duas servem ao mesmo propósito geral de poupar para a aposentadoria.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é uma IRA
 
-*(REGRA ESPECÍFICA DA REGIÃO: este é um tipo de conta dos Estados Unidos.)* Uma IRA (Individual Retirement Account) é uma conta de aposentadoria que a própria pessoa abre independentemente de empregador, frequentemente em banco ou corretora.
+*(REGRA ESPECÍFICA DA REGIÃO: este é um tipo de conta específico dos Estados Unidos. No Brasil, uma forma individual parecida são os planos de previdência privada abertos, como PGBL e VGBL, contratados diretamente pela pessoa; confirme as regras com um especialista.)* Uma IRA (Individual Retirement Account) é uma conta de poupança para a aposentadoria que a pessoa abre por conta própria, independentemente de um empregador, muitas vezes em um banco ou uma corretora.
 
-### Como funciona
+### A diferença central em relação a um 401(k)
 
-Um 401(k) está ligado ao empregador e normalmente é disponibilizado por meio do trabalho. Uma IRA é aberta independentemente e não está vinculada a empregador específico.
+Um 401(k) está ligado a um empregador e normalmente só está disponível enquanto a pessoa trabalha ali. Uma IRA é aberta de forma independente por uma pessoa e não está ligada a nenhum empregador específico: alguém pode ter uma IRA tendo ou não um emprego com 401(k) disponível.
 
-### Por que isso importa
+### O mesmo propósito geral
 
-Apesar da diferença estrutural, ambos têm o mesmo objetivo geral: incentivar e permitir poupança para aposentadoria com tratamento tributário favorecido.
+Apesar da diferença estrutural, os dois tipos de conta servem ao mesmo propósito central: incentivar e oferecer formas vantajosas do ponto de vista fiscal de poupar para a aposentadoria.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma pessoa autônoma sem 401(k) oferecido por empregador ainda pode abrir e contribuir para uma IRA por conta própria.
+Quem trabalha por conta própria, sem 401(k) de um empregador, ainda pode abrir uma IRA e fazer aportes de forma independente: a conta não está ligada a ter um empregador específico.
 
-## Quiz prático
+## Teste de prática
 
-1. IRA: A. só via empregador B. conta de aposentadoria aberta individualmente C. conta corrente D. pensão governamental
-2. Verdadeiro ou falso: 401(k) e IRA estão ligados ao empregador da mesma maneira.
-3. Sem 401(k), ainda pode usar IRA? A. não B. sim C. só aposentado D. só servidor público
+1. Uma IRA é:
+   A. Disponível apenas por meio de um empregador
+   B. Uma conta de aposentadoria que a pessoa abre de forma independente
+   C. Um tipo de conta corrente
+   D. Uma aposentadoria do governo
+
+2. Verdadeiro ou falso: um 401(k) e uma IRA estão ligados a um empregador exatamente da mesma forma.
+
+3. Quem não tem um 401(k) oferecido pelo empregador ainda pode poupar para a aposentadoria por meio de uma IRA?
+   A. Não, sempre é preciso um empregador
+   B. Sim, uma IRA é aberta independentemente de qualquer empregador
+   C. Só se já estiver aposentado
+   D. Só servidores públicos podem abrir uma IRA
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Uma pessoa autônoma sem 401(k) oferecido por empregador ainda pode abrir e cont
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Uma IRA é aberta de forma independente pela pessoa.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Um 401(k) está ligado ao empregador; uma IRA não.
+
+### Pergunta 3
+
+Resposta correta: B. As IRAs independem de um plano oferecido pelo empregador.
+
+## Pontos-chave
+
+- Uma IRA é uma conta de aposentadoria aberta de forma independente, não ligada a um empregador.
+- Essa é a diferença estrutural central em relação a um 401(k).
+- As duas servem ao mesmo propósito geral: poupar para a aposentadoria com vantagens fiscais.

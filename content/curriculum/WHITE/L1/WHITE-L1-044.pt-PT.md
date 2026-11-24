@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 44
 locale: pt-PT
-title: "O que significa rebalancear uma carteira?"
-summary: "Aprenda o que é rebalanceamento, por que as alocações se desviam com o tempo e como corrigir esse desvio."
-sourceVersion: "1.0"
+title: "O que é reequilibrar uma carteira?"
+summary: "Aprenda o que significa reequilibrar, porque é que a alocação se desvia ao longo do tempo e a mecânica básica para corrigir esse desvio."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que significa rebalancear uma carteira?
+# O que é reequilibrar uma carteira?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir reequilíbrio em termos simples.
+- explicar porque é que a alocação de uma carteira se desvia ao longo do tempo.
+- explicar a mecânica básica para corrigir esse desvio.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é o reequilíbrio
 
-Rebalancear significa ajustar periodicamente uma carteira de volta à sua alocação-alvo original depois que movimentos do mercado a afastaram desse objetivo.
+Reequilibrar significa ajustar periodicamente uma carteira para a sua alocação de ativos-alvo original (vista na lição anterior), depois de os movimentos do mercado a terem afastado desse alvo.
 
-### Como funciona
+### Porque é que a alocação se desvia ao longo do tempo
 
-Se ações crescem mais rapidamente que títulos, uma carteira que começou com 70% em ações e 30% em títulos pode passar a 80/20 apenas por movimento de mercado, sem decisão ativa do investidor.
+Se as ações crescerem mais depressa do que as obrigações durante um período, uma carteira que começou com 70% em ações / 30% em obrigações pode desviar-se para 80% em ações / 20% em obrigações apenas por efeito dos movimentos do mercado, mesmo que o investidor nunca tenha alterado nada ativamente.
 
-### Por que isso importa
+### A mecânica básica
 
-O rebalanceamento geralmente envolve vender parte do que ficou acima do peso-alvo e comprar o que ficou abaixo, aproximando a carteira novamente das porcentagens originais.
+O reequilíbrio implica geralmente vender parte do que ficou sobreponderado e comprar mais do que ficou subponderado, trazendo a carteira de volta para junto das percentagens-alvo originais.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma carteira sai de 70/30 para 80/20 após forte desempenho das ações. Rebalancear significa vender ações e comprar títulos em quantidade suficiente para voltar perto de 70/30.
+Uma carteira desvia-se de um alvo de 70/30 (ações/obrigações) para 80/20 depois de as ações terem tido um melhor desempenho. Reequilibrar significa vender ações e comprar obrigações em quantidade suficiente para aproximar a combinação do alvo original de 70/30.
 
-## Quiz prático
+## Teste de prática
 
-1. Rebalancear: A. escolher novas ações B. voltar à alocação-alvo C. fechar conta D. aumentar risco permanentemente
-2. Verdadeiro ou falso: alocação permanece exatamente igual sem ação.
-3. Se ações crescem mais: A. participação cai B. participação aumenta C. igual D. títulos aumentam automaticamente
+1. Reequilibrar significa:
+   A. Escolher novas ações individuais
+   B. Ajustar uma carteira para a sua alocação-alvo original
+   C. Encerrar uma conta de investimento
+   D. Aumentar permanentemente o risco global
 
-## Gabarito
+2. Verdadeiro ou falso: a alocação de uma carteira mantém-se exatamente igual ao longo do tempo sem qualquer ação.
+
+3. Se as ações crescerem mais depressa do que as obrigações, o que acontece normalmente ao peso das ações numa carteira sem reequilíbrio?
+   A. Diminui automaticamente
+   B. Aumenta, ficando sobreponderado face ao alvo original
+   C. Mantém-se exatamente igual
+   D. São as obrigações que aumentam automaticamente
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Uma carteira sai de 70/30 para 80/20 após forte desempenho das ações. Rebalan
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O reequilíbrio repõe a combinação-alvo original de uma carteira.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Os movimentos do mercado fazem a alocação desviar-se ao longo do tempo.
+
+### Pergunta 3
+
+Resposta correta: B. O crescimento mais rápido das ações aumenta o seu peso na carteira sem qualquer ação.
+
+## Pontos-chave
+
+- O reequilíbrio repõe a alocação-alvo original de uma carteira.
+- A alocação desvia-se ao longo do tempo apenas por efeito dos movimentos do mercado.
+- Reequilibrar implica vender ativos sobreponderados e comprar ativos subponderados.

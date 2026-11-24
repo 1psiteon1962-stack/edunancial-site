@@ -7,7 +7,7 @@ lessonNumber: 6
 locale: pt-BR
 title: "O que é um dividendo?"
 summary: "Aprenda o que é um dividendo, como ele é pago e por que nunca é garantido."
-sourceVersion: "1.0"
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
@@ -16,31 +16,45 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um dividendo em termos simples.
+- explicar como os dividendos costumam ser pagos.
+- explicar por que os dividendos nunca são garantidos.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um dividendo
 
-Um dividendo é uma parte do lucro de uma empresa distribuída aos acionistas proporcionalmente ao número de ações que possuem.
+Um dividendo é uma parte do lucro de uma empresa distribuída aos acionistas, proporcionalmente ao número de ações que possuem.
 
-### Como funciona
+### Como costumam ser pagos
 
-Dividendos são comumente pagos em dinheiro, em calendário regular, muitas vezes trimestral, aos acionistas que possuem ações na data de registro determinada.
+Os dividendos costumam ser pagos em dinheiro, em uma periodicidade regular (muitas vezes trimestral), diretamente aos acionistas, com base no número de ações que eles têm em uma data de corte específica.
 
-### Por que isso importa
+### Por que nunca são garantidos
 
-O conselho de administração decide se haverá dividendo e qual será seu valor. Não existe obrigação geral de pagá-lo; ele pode ser reduzido, suspenso ou nunca iniciado.
+É o conselho de administração da empresa que decide se paga um dividendo, e quanto: não existe obrigação legal de fazê-lo. As empresas podem reduzir, suspender ou nunca começar a pagar dividendos, muitas vezes conforme sua lucratividade e seus planos de crescimento. (No Brasil, a lei e o estatuto podem prever um dividendo mínimo obrigatório para sociedades anônimas lucrativas, com exceções; confirme as regras com um profissional.)
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor com 100 ações de uma empresa que paga US$ 0,50 por ação por trimestre receberia US$ 50 naquele trimestre. Esse valor pode mudar no futuro.
+Um investidor que tem 100 ações de uma empresa que paga um dividendo trimestral de US$ 0,50 por ação receberia US$ 50 naquele trimestre: um valor que pode mudar nos trimestres seguintes, a critério da empresa.
 
-## Quiz prático
+## Teste de prática
 
-1. Dividendo é: A. pagamento fixo garantido B. parte do lucro distribuída aos acionistas C. juros de título D. imposto
-2. Verdadeiro ou falso: empresas são legalmente obrigadas a pagar dividendos.
-3. Quem decide? A. acionistas individualmente B. conselho de administração C. bolsa D. governo
+1. Um dividendo é:
+   A. Um pagamento fixo garantido
+   B. Uma parte do lucro da empresa distribuída aos acionistas
+   C. Um tipo de pagamento de juros de títulos
+   D. Um imposto devido por ter ações
+
+2. Verdadeiro ou falso: as empresas são obrigadas por lei a pagar dividendos.
+
+3. Quem decide se e quanto de dividendo será pago?
+   A. Os acionistas individualmente
+   B. O conselho de administração da empresa
+   C. A bolsa de valores
+   D. O governo
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Um investidor com 100 ações de uma empresa que paga US$ 0,50 por ação por tr
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um dividendo é uma distribuição de lucro aos acionistas.
 
-- Entenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. O pagamento de dividendos é, em geral, uma decisão da empresa, e não uma obrigação legal.
+
+### Pergunta 3
+
+Resposta correta: B. O conselho de administração decide sobre o pagamento de dividendos.
+
+## Pontos-chave
+
+- Um dividendo é uma parte do lucro distribuída aos acionistas.
+- Os pagamentos costumam ser em dinheiro, em uma periodicidade regular.
+- Os dividendos nunca são garantidos: são uma decisão do conselho.

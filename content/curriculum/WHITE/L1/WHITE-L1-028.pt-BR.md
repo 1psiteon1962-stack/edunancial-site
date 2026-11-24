@@ -6,8 +6,8 @@ level: 1
 lessonNumber: 28
 locale: pt-BR
 title: "O que é a data de vencimento de um título?"
-summary: "Aprenda o que é o vencimento e por que títulos com prazos diferentes se comportam de maneira diferente."
-sourceVersion: "1.0"
+summary: "Aprenda o que é uma data de vencimento e por que títulos com prazos diferentes se comportam de forma diferente."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
@@ -16,31 +16,45 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir data de vencimento em termos simples.
+- explicar o que acontece no vencimento.
+- reconhecer que o prazo até o vencimento afeta o comportamento de um título.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é uma data de vencimento
 
-A data de vencimento é quando o emissor concordou em devolver integralmente ao detentor o valor de face, ou principal, encerrando o prazo do empréstimo.
+A data de vencimento de um título é a data em que o emissor se comprometeu a devolver integralmente ao detentor o valor de face (o principal): o fim do prazo do empréstimo apresentado na lição anterior sobre títulos.
 
-### Como funciona
+### O que acontece no vencimento
 
-No vencimento, o detentor recebe o valor de face e os pagamentos de juros cessam, pois o empréstimo foi integralmente quitado.
+No vencimento, o detentor recebe de volta o valor de face, e os pagamentos de juros param, já que o empréstimo é considerado totalmente pago.
 
-### Por que isso importa
+### Por que o prazo importa
 
-Títulos com vencimentos mais longos geralmente são mais sensíveis a mudanças nas taxas de juros do que títulos de prazo curto, conceito aprofundado na lição sobre risco de juros.
+Títulos com prazos mais longos (datas de pagamento mais distantes) geralmente são mais sensíveis a mudanças nas condições de juros do que títulos com prazos mais curtos: um conceito tratado com mais profundidade em uma lição posterior sobre risco de taxa de juros.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um título de 2 anos e outro de 20 anos podem ter cupons semelhantes hoje, mas o preço do título de 20 anos normalmente reage mais às mudanças futuras das taxas de juros.
+Um título de 2 anos e um de 20 anos podem ter taxas de cupom parecidas hoje, mas o preço do título de 20 anos normalmente reage de forma muito mais forte a mudanças futuras nos juros, simplesmente porque falta muito mais tempo até o vencimento.
 
-## Quiz prático
+## Teste de prática
 
-1. Vencimento é: A. início dos juros B. devolução integral do valor de face C. data da compra D. data escolhida pelo investidor
-2. Verdadeiro ou falso: juros continuam indefinidamente após vencimento.
-3. Mais sensível a juros: A. prazo curto B. prazo longo C. prazo irrelevante D. só sem vencimento
+1. A data de vencimento de um título é:
+   A. Quando começam os pagamentos de juros
+   B. Quando o emissor devolve integralmente o valor de face
+   C. A data em que o título foi comprado
+   D. Uma data definida pelo detentor do título
+
+2. Verdadeiro ou falso: os pagamentos de juros continuam indefinidamente depois que um título vence.
+
+3. Que tipo de título geralmente é mais sensível a mudanças nos juros?
+   A. Um título de prazo mais curto
+   B. Um título de prazo mais longo
+   C. O prazo não tem efeito sobre a sensibilidade
+   D. Apenas títulos sem data de vencimento
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Um título de 2 anos e outro de 20 anos podem ter cupons semelhantes hoje, mas o
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. O vencimento é quando o valor de face é devolvido integralmente.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Os pagamentos de juros param quando o título vence e é pago.
+
+### Pergunta 3
+
+Resposta correta: B. Títulos de prazo mais longo geralmente são mais sensíveis a mudanças nos juros.
+
+## Pontos-chave
+
+- A data de vencimento de um título é quando o valor de face é devolvido integralmente.
+- Os pagamentos de juros param quando se chega ao vencimento.
+- Títulos de prazo mais longo geralmente são mais sensíveis a mudanças nos juros.

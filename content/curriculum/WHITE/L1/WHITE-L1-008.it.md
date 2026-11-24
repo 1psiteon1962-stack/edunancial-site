@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 8
 locale: it
-title: "Dividendi — Essere Pagati per Essere Proprietari"
-summary: "*FATTO VERIFICATO:* Rendimento da Dividendo = Dividendo Annuale Per Azione ÷ Prezzo dell'Azione, espresso in percentuale, mostrando il reddito da dividendi rispetto al costo dell'investimento."
-sourceVersion: "1.0"
+title: "Che cos'è la capitalizzazione di mercato?"
+summary: "Scopri che cosa misura la capitalizzazione di mercato, come si calcola e perché non coincide con la liquidità o con il valore totale di un'azienda."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-008: Dividendi — Essere Pagati per Essere Proprietari
+# Che cos'è la capitalizzazione di mercato?
 
-## Obiettivi di Apprendimento
-1. Definire un dividendo.
-2. Spiegare perché non tutte le aziende pagano dividendi.
-3. Calcolare un rendimento da dividendo semplice.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un dividendo è una parte dei profitti di un'azienda distribuita agli azionisti, di solito pagata trimestralmente. *ASSUNZIONE:* Se un'azienda paga dividendi è una decisione aziendale — le aziende orientate alla crescita reinvestono spesso i profitti invece di pagare dividendi, mentre le aziende più mature e stabili lo fanno più comunemente, anche se questa non è una regola rigida.
+Al termine di questa lezione dovresti essere in grado di:
 
-*FATTO VERIFICATO:* Rendimento da Dividendo = Dividendo Annuale Per Azione ÷ Prezzo dell'Azione, espresso in percentuale, mostrando il reddito da dividendi rispetto al costo dell'investimento.
+- enunciare la formula della capitalizzazione di mercato.
+- calcolare la capitalizzazione di mercato dati il prezzo dell'azione e le azioni in circolazione.
+- spiegare perché la capitalizzazione di mercato non coincide con la liquidità o con il totale dell'attivo di un'azienda.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'azione viene negoziata a $100 per azione e paga un dividendo annuale di $3 per azione. Rendimento da Dividendo = $3 ÷ $100 = 3%. Un investitore che possiede 100 azioni ($10.000 investiti) riceverebbe $300 all'anno di reddito da dividendi, indipendentemente da qualsiasi rivalutazione o calo di prezzo delle azioni stesse.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un dividendo?
-2. Qual è la formula del rendimento da dividendo?
-3. Vero/Falso: Tutte le aziende quotate in borsa sono obbligate a pagare dividendi.
-4. Se un'azione paga un dividendo di $2 e viene negoziata a $50, qual è il rendimento da dividendo?
+### La formula
 
-## Chiave di Risposte
-1. Una parte dei profitti dell'azienda distribuita agli azionisti   2. Dividendo Annuale Per Azione ÷ Prezzo dell'Azione   3. Falso   4. 4%
+Capitalizzazione di mercato = prezzo dell'azione × totale delle azioni in circolazione. Rappresenta il valore di mercato complessivo di tutte le azioni di un'azienda messe insieme.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un pagamento di dividendo.
-2. Questo è il calcolo standard del rendimento da dividendo.
-3. I dividendi sono una decisione aziendale, non un obbligo legale.
-4. $2 ÷ $50 = 0,04 = 4%.
+### Che cosa misura davvero
 
-## Punti Chiave da Ricordare
-- I dividendi distribuiscono i profitti dell'azienda agli azionisti, tipicamente ogni trimestre.
-- Il pagamento dei dividendi è una decisione aziendale, non qualcosa di garantito o obbligatorio.
-- Il rendimento da dividendo misura il reddito da dividendi rispetto al prezzo dell'azione.
+La capitalizzazione di mercato riflette quanto gli investitori, nel loro insieme, ritengono valga in questo momento la proprietà dell'azienda: una stima di mercato in tempo reale, non una cifra certificata o fissa.
+
+### Perché non coincide con la liquidità o con il valore totale
+
+La capitalizzazione di mercato non coincide con la liquidità di cui dispone un'azienda, con i suoi ricavi totali e nemmeno con il totale dell'attivo. Un'azienda può avere una grande capitalizzazione di mercato pur avendo relativamente poca liquidità, perché la capitalizzazione riflette le aspettative degli investitori sul valore futuro, non una fotografia attuale del bilancio.
+
+## Esempio svolto
+
+Un'azienda con 10.000.000 di azioni in circolazione scambiate a 50 $ l'una ha una capitalizzazione di mercato di 10.000.000 × 50 $ = 500.000.000 $, indipendentemente dalla liquidità effettiva che detiene.
+
+## Quiz di esercitazione
+
+1. La capitalizzazione di mercato si calcola come:
+   A. Ricavi totali × numero di dipendenti
+   B. Prezzo dell'azione × totale delle azioni in circolazione
+   C. Totale dell'attivo − totale del passivo
+   D. Utile annuo ÷ azioni in circolazione
+
+2. Vero o falso: la capitalizzazione di mercato è la stessa cosa della liquidità di un'azienda.
+
+3. Un'azienda ha 2.000.000 di azioni in circolazione scambiate a 30 $ l'una. Qual è la sua capitalizzazione di mercato?
+   A. 6.000 $
+   B. 60.000 $
+   C. 6.000.000 $
+   D. 60.000.000 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. D
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Capitalizzazione di mercato = prezzo dell'azione × azioni in circolazione.
+
+### Domanda 2
+
+Risposta corretta: Falso. La capitalizzazione di mercato riflette il valore di mercato, non la liquidità detenuta.
+
+### Domanda 3
+
+Risposta corretta: D. 2.000.000 × 30 $ = 60.000.000 $.
+
+## Punti chiave
+
+- Capitalizzazione di mercato = prezzo dell'azione × totale delle azioni in circolazione.
+- Riflette la valutazione collettiva del mercato sulla proprietà complessiva.
+- Non coincide con la liquidità, i ricavi o il totale dell'attivo di un'azienda.
