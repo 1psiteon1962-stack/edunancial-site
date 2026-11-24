@@ -1,0 +1,364 @@
+===== WHITE-L1-031
+TITLE: O que é inflação, e por que ela muda silenciosamente quanto vale o seu dinheiro?
+SUMMARY: Aprenda o que inflação significa e por que ela corrói em silêncio o poder de compra, mesmo quando o saldo bancário continua o mesmo.
+# O que é inflação, e por que ela muda silenciosamente quanto vale o seu dinheiro?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir inflação em termos simples.
+- explicar por que um saldo estável ainda pode perder valor real.
+- relacionar a inflação ao motivo pelo qual manter apenas dinheiro parado tem um custo real.
+
+## Conteúdo principal
+
+### O que é inflação
+
+Inflação é um aumento geral dos preços ao longo do tempo, o que significa que cada unidade de moeda compra menos do que comprava antes.
+
+### Por que um saldo estável ainda pode perder valor
+
+Se os preços sobem 3% em um ano e um saldo bancário não rende juros, esse dinheiro agora compra cerca de 3% a menos do que um ano antes: o número na conta não diminuiu, mas o seu poder de compra real, sim.
+
+### Por que isso importa para investir
+
+Como a inflação corrói o poder de compra ao longo do tempo, manter dinheiro sem nenhum rendimento não é realmente "seguro" em todos os sentidos: carrega o risco real de perder valor diante da alta dos preços, um dos principais motivos pelos quais muitas pessoas investem em vez de simplesmente guardar dinheiro no longo prazo.
+
+## Exemplo prático
+
+US$ 1.000 parados por um ano em uma conta sem rendimento, com inflação de 3%, compram cerca do que US$ 970 comprariam um ano antes, mesmo que a conta continue mostrando US$ 1.000.
+
+## Teste de prática
+
+1. Inflação se refere a:
+   A. Uma queda dos preços ao longo do tempo
+   B. Um aumento geral dos preços ao longo do tempo
+   C. Um tipo de título
+   D. Um imposto do governo
+
+2. Verdadeiro ou falso: um saldo bancário estável está sempre imune à perda de valor real.
+
+3. Por que manter dinheiro parado no longo prazo pode trazer um risco real?
+   A. O dinheiro nunca pode perder valor
+   B. A inflação pode corroer o seu poder de compra ao longo do tempo
+   C. O dinheiro sempre rende juros altos
+   D. Não há risco em manter dinheiro parado
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Inflação é um aumento geral dos preços ao longo do tempo.
+
+### Pergunta 2
+
+Resposta correta: Falso. A inflação pode corroer o valor real mesmo com um saldo nominal estável.
+
+### Pergunta 3
+
+Resposta correta: B. A inflação corrói o poder de compra, um risco real de manter dinheiro parado no longo prazo.
+
+## Pontos-chave
+
+- Inflação é um aumento geral dos preços que reduz o poder de compra.
+- Um saldo estável ainda pode perder valor real por causa da inflação.
+- Manter dinheiro parado no longo prazo traz um risco real, muitas vezes subestimado.
+
+===== WHITE-L1-032
+TITLE: O que é liquidez, em termos simples?
+SUMMARY: Aprenda o que liquidez significa e por que alguns ativos podem ser convertidos em dinheiro mais rápido do que outros.
+# O que é liquidez, em termos simples?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir liquidez em termos simples.
+- comparar a liquidez de diferentes tipos de ativos.
+- explicar por que a liquidez importa no planejamento financeiro.
+
+## Conteúdo principal
+
+### O que liquidez significa
+
+Liquidez indica com que rapidez e facilidade um ativo pode ser convertido em dinheiro sem uma perda significativa de valor.
+
+### Comparando a liquidez dos ativos
+
+Uma ação negociada em bolsa geralmente tem alta liquidez: muitas vezes pode ser vendida em segundos durante o horário do pregão, a um preço próximo do atual. Já os imóveis geralmente têm liquidez muito menor: vender um imóvel costuma levar semanas ou meses e envolve custos de transação significativos, uma distinção já mencionada antes neste nível.
+
+### Por que a liquidez importa
+
+O dinheiro que pode ser necessário rapidamente (uma reserva de emergência, por exemplo) geralmente deve ficar em ativos de alta liquidez. O dinheiro que não será necessário por muito tempo pode, de forma mais razoável, ir para investimentos de menor liquidez, que às vezes oferecem outras vantagens em troca.
+
+## Exemplo prático
+
+Um investidor que precisa de acesso rápido a dinheiro para uma emergência geralmente vai querer esse dinheiro em um ativo líquido, como uma conta de poupança ou ações fáceis de vender, e não preso em um imóvel que pode levar meses para ser vendido.
+
+## Teste de prática
+
+1. Liquidez se refere a:
+   A. Quanto vale um ativo
+   B. Com que rapidez e facilidade um ativo pode ser convertido em dinheiro
+   C. Um tipo de dividendo
+   D. A taxa de juros de um título
+
+2. Verdadeiro ou falso: imóveis geralmente têm mais liquidez do que uma ação negociada em bolsa.
+
+3. Por que uma reserva de emergência deve ficar em um ativo de alta liquidez?
+   A. A liquidez não importa em emergências
+   B. O acesso rápido ao dinheiro pode ser necessário sem aviso
+   C. Ativos de baixa liquidez sempre pagam juros maiores
+   D. Reservas de emergência devem sempre ficar em imóveis
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Liquidez tem a ver com a facilidade e a rapidez de converter em dinheiro.
+
+### Pergunta 2
+
+Resposta correta: Falso. Ações geralmente têm muito mais liquidez do que imóveis.
+
+### Pergunta 3
+
+Resposta correta: B. Emergências exigem acesso rápido, o que favorece ativos líquidos.
+
+## Pontos-chave
+
+- Liquidez é a rapidez e a facilidade com que um ativo se converte em dinheiro.
+- Ações geralmente têm alta liquidez; imóveis geralmente têm liquidez muito menor.
+- O dinheiro necessário rapidamente geralmente deve ficar em ativos líquidos.
+
+===== WHITE-L1-033
+TITLE: O que é um fundo do mercado monetário?
+SUMMARY: Aprenda o que é um fundo do mercado monetário e por que ele geralmente é visto como uma opção de menor risco e maior liquidez do que outros fundos.
+# O que é um fundo do mercado monetário?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um fundo do mercado monetário em termos simples.
+- explicar no que ele normalmente investe.
+- explicar por que ele geralmente é considerado de menor risco do que um fundo de ações.
+
+## Conteúdo principal
+
+### O que é um fundo do mercado monetário
+
+Um fundo do mercado monetário (em inglês, "money market fund") é um tipo de fundo de investimento que aplica em instrumentos de dívida de curto prazo e geralmente de alta qualidade, buscando oferecer estabilidade e liquidez, e não um crescimento significativo. (No Brasil, o mais parecido costuma ser um fundo DI ou de renda fixa de curto prazo.)
+
+### No que ele normalmente investe
+
+Os fundos do mercado monetário costumam ter, por exemplo, títulos públicos de curto prazo e outros empréstimos de prazo muito curto e alta qualidade de crédito: investimentos geralmente escolhidos pela estabilidade, e não pelo potencial de crescimento.
+
+### Por que ele geralmente tem menor risco
+
+Como detém dívida de curto prazo e alta qualidade, um fundo do mercado monetário geralmente é considerado de menor risco e mais estável em valor do que um fundo de ações, embora não seja totalmente livre de risco e costume oferecer, em troca, retornos mais modestos.
+
+## Exemplo prático
+
+Um investidor que quer um lugar relativamente estável para guardar dinheiro de que pode precisar em breve, ainda obtendo algum retorno, pode usar um fundo do mercado monetário em vez de um fundo de ações mais volátil.
+
+## Teste de prática
+
+1. Um fundo do mercado monetário normalmente investe em:
+   A. Ações de tecnologia de alto crescimento
+   B. Instrumentos de dívida de curto prazo e alta qualidade
+   C. Diretamente em imóveis
+   D. Exclusivamente em criptomoedas
+
+2. Verdadeiro ou falso: fundos do mercado monetário geralmente são considerados de maior risco do que fundos de ações.
+
+3. Por que um investidor poderia usar um fundo do mercado monetário?
+   A. Para maximizar o potencial de crescimento no longo prazo
+   B. Pela relativa estabilidade e liquidez
+   C. Para evitar totalmente qualquer forma de risco
+   D. Para comprar imóveis
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Fundos do mercado monetário detêm dívida de curto prazo e alta qualidade.
+
+### Pergunta 2
+
+Resposta correta: Falso. Eles geralmente são considerados de menor risco do que fundos de ações.
+
+### Pergunta 3
+
+Resposta correta: B. Estabilidade e liquidez são o atrativo central.
+
+## Pontos-chave
+
+- Um fundo do mercado monetário investe em dívida de curto prazo e alta qualidade.
+- Ele geralmente é considerado de menor risco e mais estável do que fundos de ações.
+- Ele troca um potencial de crescimento maior por estabilidade e liquidez.
+
+===== WHITE-L1-034
+TITLE: O que é um CD (Certificate of Deposit, certificado de depósito)?
+SUMMARY: Aprenda o que é um CD, como ele prende o dinheiro em troca de um rendimento e qual é o custo real do resgate antecipado.
+# O que é um CD (Certificate of Deposit, certificado de depósito)?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um CD em termos simples.
+- explicar a troca básica que um CD oferece.
+- explicar o que normalmente acontece no resgate antecipado.
+
+## Conteúdo principal
+
+### O que é um CD
+
+Um CD (Certificate of Deposit) é um produto de poupança oferecido por bancos dos EUA, em que o dinheiro fica depositado por um prazo fixo em troca de uma taxa de juros fixa, geralmente maior do que a de uma conta de poupança comum. No Brasil, o equivalente mais próximo é o CDB (Certificado de Depósito Bancário) com prazo e taxa definidos; as condições exatas dependem de cada banco.
+
+### A troca básica
+
+Em troca de uma taxa de juros normalmente maior e garantida, o depositante geralmente concorda em não retirar o dinheiro até o fim do prazo do CD: troca liquidez (vista na lição anterior) por uma taxa melhor.
+
+### O que acontece no resgate antecipado
+
+Retirar dinheiro de um CD antes do fim do prazo geralmente gera uma multa, que muitas vezes reduz ou elimina parte dos juros ganhos: essa multa é o custo real de quebrar a troca de liquidez. (Muitos CDB não permitem resgate antes do vencimento, ou permitem só com perda de rendimento; confira as condições do seu banco.)
+
+## Exemplo prático
+
+Um investidor coloca US$ 5.000 em um CD de 1 ano a uma taxa fixa, concordando em não mexer no dinheiro por um ano. Se precisar do dinheiro depois de 6 meses, normalmente pode retirá-lo, mas provavelmente vai pagar uma multa que reduz os juros que teria ganhado.
+
+## Teste de prática
+
+1. Um CD geralmente oferece:
+   A. Liquidez total sem benefício na taxa
+   B. Uma taxa de juros fixa em troca de prender o dinheiro por um prazo definido
+   C. Participação na propriedade de uma empresa
+   D. Retornos garantidos de alto crescimento
+
+2. Verdadeiro ou falso: retirar dinheiro de um CD antes do prazo é sempre gratuito, sem multa.
+
+3. O que um CD troca por uma taxa de juros normalmente maior?
+   A. Diversificação
+   B. Liquidez: o dinheiro geralmente fica preso por um prazo definido
+   C. Direitos de propriedade
+   D. Proteção contra risco de crédito
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um CD troca liquidez por uma taxa fixa, muitas vezes maior.
+
+### Pergunta 2
+
+Resposta correta: Falso. O resgate antecipado geralmente gera uma multa.
+
+### Pergunta 3
+
+Resposta correta: B. A liquidez é o que se troca pelo benefício na taxa.
+
+## Pontos-chave
+
+- Um CD oferece uma taxa fixa em troca de prender o dinheiro por um prazo.
+- Isso troca liquidez por uma taxa de juros normalmente melhor.
+- O resgate antecipado geralmente gera uma multa real.
+
+===== WHITE-L1-035
+TITLE: O que é uma reserva de emergência, e por que ela vem antes de investir?
+SUMMARY: Aprenda o que é uma reserva de emergência e por que este curso a trata como um passo obrigatório antes de outros investimentos.
+# O que é uma reserva de emergência, e por que ela vem antes de investir?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir reserva de emergência em termos simples.
+- explicar por que ela geralmente é recomendada antes de outros investimentos.
+- explicar por que ela deve ficar em um lugar líquido e de baixo risco.
+
+## Conteúdo principal
+
+### O que é uma reserva de emergência
+
+Uma reserva de emergência é um dinheiro separado especificamente para cobrir despesas inesperadas ou perda de renda (perda do emprego, um conserto urgente, uma despesa médica), e não para investir ou para gastos planejados.
+
+### Por que ela geralmente vem primeiro
+
+Sem uma reserva de emergência, uma despesa inesperada pode obrigar alguém a vender investimentos em um momento ruim (possivelmente com prejuízo) ou a contrair dívidas com juros altos. Ter esse colchão primeiro protege os outros planos financeiros de longo prazo de serem atrapalhados por emergências de curto prazo.
+
+### Por que ela deve ficar em um lugar líquido
+
+Retomando a lição sobre liquidez deste nível, uma reserva de emergência precisa estar acessível rapidamente, sem multa nem risco de perda: por isso ela normalmente fica em algo como uma conta de poupança ou um fundo do mercado monetário, e não em ações ou em um CD com multa por resgate antecipado.
+
+## Exemplo prático
+
+Quem investe todas as economias em ações, sem reserva de emergência, pode ser obrigado a vender essas ações com prejuízo durante uma queda do mercado só para pagar um conserto inesperado do carro: exatamente a situação que uma reserva de emergência existe para evitar.
+
+## Teste de prática
+
+1. Uma reserva de emergência é:
+   A. Dinheiro investido para crescer no longo prazo
+   B. Dinheiro separado especificamente para despesas inesperadas ou perda de renda
+   C. Um tipo de conta de aposentadoria
+   D. Um seguro obrigatório
+
+2. Verdadeiro ou falso: geralmente se recomenda que a reserva de emergência seja investida em ações para crescer ao máximo.
+
+3. Por que se recomenda ter uma reserva de emergência antes de outros investimentos?
+   A. Ela não tem nenhum benefício real
+   B. Ela evita ter de vender investimentos em um momento ruim durante uma emergência
+   C. Ela garante lucros nos investimentos
+   D. Ela substitui a necessidade de seguro
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma reserva de emergência cobre despesas inesperadas ou perda de renda.
+
+### Pergunta 2
+
+Resposta correta: Falso. Ela geralmente deve ficar em um lugar líquido e de baixo risco, e não em ações.
+
+### Pergunta 3
+
+Resposta correta: B. Ela evita vendas forçadas e mal cronometradas de investimentos durante emergências.
+
+## Pontos-chave
+
+- Uma reserva de emergência cobre despesas inesperadas, e não investimentos planejados.
+- Ela geralmente vem antes de outros investimentos, para proteger os planos de longo prazo.
+- Ela deve ficar em um lugar líquido e de baixo risco, acessível sem multa.

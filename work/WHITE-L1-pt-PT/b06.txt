@@ -27,7 +27,7 @@ O rácio preço/lucro responde, de forma aproximada: quanto estão os investidor
 
 ## Exemplo prático
 
-Uma ação é negociada a 60 USD com um LPA de 3,00 USD. PER = 60 USD ÷ 3,00 USD = 20: os investidores estão a pagar 20 USD por cada 1 USD do lucro atual dessa empresa.
+Uma ação é negociada a 60 $ com um LPA de 3,00 $. PER = 60 $ ÷ 3,00 $ = 20: os investidores estão a pagar 20 $ por cada 1 $ do lucro atual dessa empresa.
 
 ## Teste de prática
 
@@ -39,7 +39,7 @@ Uma ação é negociada a 60 USD com um LPA de 3,00 USD. PER = 60 USD ÷ 3,00 US
 
 2. Verdadeiro ou falso: um rácio preço/lucro mais elevado significa que os investidores estão a pagar menos por dólar de lucro atual.
 
-3. Uma ação é negociada a 80 USD com um LPA de 4,00 USD. Qual é o seu rácio preço/lucro?
+3. Uma ação é negociada a 80 $ com um LPA de 4,00 $. Qual é o seu rácio preço/lucro?
    A. 4
    B. 20
    C. 80
@@ -63,7 +63,7 @@ Resposta correta: Falso. Um PER mais elevado significa pagar mais por dólar de 
 
 ### Pergunta 3
 
-Resposta correta: B. 80 USD ÷ 4,00 USD = 20.
+Resposta correta: B. 80 $ ÷ 4,00 $ = 20.
 
 ## Pontos-chave
 
@@ -100,7 +100,7 @@ A rendibilidade mede especificamente o rendimento, e não o ganho de preço. Uma
 
 ## Exemplo prático
 
-Uma ação é negociada a 50 USD e paga 2 USD de dividendos por ano. Rendibilidade = 2 USD ÷ 50 USD = 4%. Isto é separado de qualquer variação no próprio preço da ação e não a inclui.
+Uma ação é negociada a 50 $ e paga 2 $ de dividendos por ano. Rendibilidade = 2 $ ÷ 50 $ = 4%. Isto é separado de qualquer variação no próprio preço da ação e não a inclui.
 
 ## Teste de prática
 
@@ -112,7 +112,7 @@ Uma ação é negociada a 50 USD e paga 2 USD de dividendos por ano. Rendibilida
 
 2. Verdadeiro ou falso: a rendibilidade mede a valorização do preço, e não o rendimento.
 
-3. Uma obrigação paga 40 USD por ano e custa 1000 USD. Qual é a sua rendibilidade?
+3. Uma obrigação paga 40 $ por ano e custa 1000 $. Qual é a sua rendibilidade?
    A. 0,4%
    B. 4%
    C. 40%
@@ -136,7 +136,7 @@ Resposta correta: Falso. A rendibilidade mede o rendimento, e não a valorizaç�
 
 ### Pergunta 3
 
-Resposta correta: B. 40 USD ÷ 1000 USD = 4%.
+Resposta correta: B. 40 $ ÷ 1000 $ = 4%.
 
 ## Pontos-chave
 
