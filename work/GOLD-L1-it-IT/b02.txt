@@ -1,0 +1,219 @@
+===== GOLD-L1-006
+TITLE: L'interesse composto spiegato in modo semplice
+SUMMARY: Introduce il principio dell'interesse composto e spiega perché il tempo è una delle forze più potenti dell'investimento.
+# L'interesse composto spiegato in modo semplice
+
+## Obiettivi di apprendimento
+- Definire in termini semplici l'effetto dell'interesse composto
+- Spiegare perché iniziare presto ha un impatto sproporzionato sui risultati di lungo periodo
+- Esercitarsi con un semplice calcolo di interesse composto
+
+## Contenuto principale
+
+Interesse composto significa che la crescita si accumula sulla crescita precedente, invece di agire sempre e solo sull'importo iniziale. Quando un investimento cresce e quella crescita resta investita, la crescita del periodo successivo agisce sulla nuova somma più grande, non solo sull'importo di partenza: la crescita accelera nel tempo in un modo facile da sottovalutare all'inizio e impressionante da vedere più avanti.
+
+Per questo iniziare presto conta così tanto, anche con importi modesti. Il tempo è una delle poche risorse davvero gratuite dell'investimento: il denaro investito per 20 anni ha molto più tempo per l'effetto composto dello stesso denaro investito per 5 anni, anche se gli importi effettivamente investiti sono simili. È uno dei motivi per cui costruire presto un'abitudine di investimento, anche con piccole somme, conta di solito più che aspettare per iniziare più tardi con un importo maggiore.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Supponiamo che una piccola posizione cresca ogni anno della stessa percentuale. Nel primo anno la crescita agisce solo sull'importo iniziale. Nel decimo anno, lo stesso aumento percentuale agisce su una somma molto più grande, perché nove anni di crescita precedente si sono già accumulati sull'importo iniziale. L'aumento in euro del decimo anno è nettamente maggiore di quello del primo, anche se la percentuale non è cambiata: è l'effetto visibile dell'interesse composto che si accumula su sé stesso nel tempo.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue l'effetto dell'interesse composto.
+2. Perché iniziare presto ha un impatto sproporzionato sui risultati di lungo periodo?
+3. Perché potrebbe contare di più costruire presto un'abitudine con piccoli importi che aspettare un importo maggiore più avanti?
+4. Nell'esempio svolto, perché l'aumento in euro del decimo anno è stato maggiore di quello del primo, anche se la percentuale è rimasta la stessa?
+
+## Soluzioni
+1. Una crescita che si accumula sulla crescita precedente, invece di agire solo sull'importo iniziale.
+2. Perché il tempo è una risorsa limitata e non recuperabile, e più tempo significa più cicli di interesse composto che si sommano.
+3. Perché gli anni in più di interesse composto spesso contano più dell'importo aggiuntivo investito più tardi.
+4. Perché la crescita ha agito su una somma molto più grande (importo iniziale più nove anni di crescita precedente), non solo sull'importo iniziale.
+
+## Risposte e spiegazioni
+1. Definisce il meccanismo centrale – crescita sulla crescita precedente – che sta alla base dell'interesse composto.
+2. Il fatto che il tempo non si possa recuperare è la ragione decisiva dell'impatto sproporzionato di un inizio precoce.
+3. Presenta la costruzione precoce dell'abitudine come spesso più preziosa di un investimento maggiore ma iniziato più tardi.
+4. Questo esempio mostra l'accelerazione visibile dell'interesse composto con una percentuale costante su una base crescente.
+
+## Punti chiave
+- Interesse composto significa che la crescita si accumula sulla crescita precedente, non solo sull'importo iniziale.
+- Poiché il tempo trascorso non si recupera, iniziare presto ha un impatto sproporzionato sui risultati di lungo periodo.
+- Costruire presto un'abitudine di investimento, anche con piccoli importi, conta spesso più che aspettare una somma maggiore per iniziare dopo.
+
+===== GOLD-L1-007
+TITLE: Tolleranza al rischio e orizzonte temporale
+SUMMARY: Spiega perché il livello di rischio adeguato dipende molto da quando servirà il denaro.
+# Tolleranza al rischio e orizzonte temporale
+
+## Obiettivi di apprendimento
+- Definire tolleranza al rischio e orizzonte temporale nel contesto dell'investimento
+- Spiegare come i due concetti sono collegati
+- Esercitarsi ad abbinare un livello di rischio adeguato a un determinato orizzonte temporale
+
+## Contenuto principale
+
+La tolleranza al rischio indica quante oscillazioni di prezzo e quante perdite potenziali un investitore è disposto e in grado di sopportare per cercare la crescita. L'orizzonte temporale indica quando servirà effettivamente il denaro investito. I due concetti sono strettamente collegati: un orizzonte più lungo consente in genere una maggiore tolleranza al rischio, perché c'è più tempo perché l'investimento si riprenda da un calo prima che il denaro serva. Un orizzonte più breve richiede in genere una tolleranza al rischio minore, perché c'è meno tempo per recuperare se il valore scende poco prima del bisogno.
+
+Questo si ricollega alla lezione precedente su Guadagnare/Conservare/Far crescere/Tramandare: il denaro da “far crescere”, destinato a obiettivi di lungo periodo, può in genere sopportare più oscillazioni di breve periodo del denaro da “conservare”, destinato a bisogni vicini. Non allineare tolleranza al rischio e orizzonte temporale – assumersi un rischio elevato con denaro che servirà presto, o essere troppo prudenti con denaro che ha decenni per crescere – porta di solito a un risultato peggiore rispetto ad abbinarli in modo appropriato.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Un quindicenne che aggiunge oro a una posizione in crescita e destina quel denaro a un obiettivo tra dieci anni o più può ragionevolmente accettare più oscillazioni di breve periodo, perché c'è molto tempo per recuperare da un calo prima che il denaro serva. Confrontalo con qualcuno che ha bisogno di una certa somma tra sei mesi per una spesa nota e fissa: quel denaro dovrebbe in genere stare in qualcosa di molto più stabile, perché un calo poco prima del bisogno non lascerebbe tempo per recuperare.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue tolleranza al rischio e orizzonte temporale.
+2. Secondo questa lezione, come sono collegati tolleranza al rischio e orizzonte temporale?
+3. Perché un orizzonte temporale più lungo consente in genere una maggiore tolleranza al rischio?
+4. Nell'esempio svolto, perché la posizione del quindicenne può ragionevolmente accettare più oscillazioni di breve periodo?
+
+## Soluzioni
+1. La tolleranza al rischio è quante oscillazioni/perdite un investitore può sopportare; l'orizzonte temporale è quando servirà il denaro.
+2. Un orizzonte più lungo consente in genere più tolleranza al rischio, e viceversa.
+3. Perché c'è più tempo perché l'investimento si riprenda da un calo prima che il denaro serva davvero.
+4. Perché il denaro è destinato a un obiettivo tra un decennio o più, il che lascia molto tempo per recuperare da un calo.
+
+## Risposte e spiegazioni
+1. Definisce i due concetti centrali che la lezione collega tra loro.
+2. Questo legame è la relazione fondamentale che la lezione stabilisce tra rischio e tempo.
+3. Il tempo di recupero è il meccanismo che permette agli orizzonti lunghi di sopportare più oscillazioni di breve periodo.
+4. Questo esempio applica direttamente il legame tra tolleranza al rischio e orizzonte temporale al caso di studio.
+
+## Punti chiave
+- Tolleranza al rischio e orizzonte temporale sono strettamente collegati: orizzonti più lunghi consentono in genere più rischio.
+- Il denaro che servirà presto dovrebbe in genere sopportare meno rischio, perché c'è meno tempo per recuperare da un calo.
+- Abbinare in modo appropriato tolleranza al rischio e orizzonte temporale porta di solito a risultati migliori.
+
+===== GOLD-L1-008
+TITLE: Fondamenti della diversificazione
+SUMMARY: Presenta la diversificazione come modo per gestire il rischio senza dipendere dall'andamento di un solo bene.
+# Fondamenti della diversificazione
+
+## Obiettivi di apprendimento
+- Definire la diversificazione in termini semplici
+- Spiegare perché puntare tutto su un solo bene aumenta il rischio
+- Riconoscere perché detenere due metalli diversi è un piccolo esempio di diversificazione
+
+## Contenuto principale
+
+Diversificare significa distribuire gli investimenti su beni diversi invece di metterli tutti in uno solo, così che il calo di un singolo bene non distrugga l'intera posizione. La logica è semplice: beni diversi non si muovono sempre nello stesso momento, nella stessa direzione e per le stesse ragioni, quindi un calo di uno può essere compensato almeno in parte dalla stabilità o dalla crescita di un altro.
+
+Questo non significa che la diversificazione elimini del tutto il rischio: riduce il rischio specifico di dipendere troppo dall'andamento di un unico bene. Anche una posizione ben diversificata può perdere valore se molti beni diversi scendono contemporaneamente, ma in genere è più resistente di una posizione concentrata interamente su una sola cosa.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Detenere sia argento sia oro invece di un solo metallo è una piccola forma di diversificazione all'interno della categoria dei metalli preziosi: i due metalli hanno fattori di domanda diversi (industriale contro prevalentemente investimento/gioielleria) e quindi non si muovono sempre in perfetta sintonia. È un esempio molto più piccolo della piena diversificazione di un portafoglio su molte classi di attività diverse (azioni, immobili, attività in proprio e altro), che i livelli successivi di questo percorso e altri percorsi approfondiranno, ma illustra il principio di fondo: non puntare tutti i fondi su un'unica scommessa identica.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue la diversificazione.
+2. Perché distribuire gli investimenti su beni diversi riduce il rischio?
+3. La diversificazione elimina del tutto il rischio?
+4. In che modo detenere argento e oro illustra la diversificazione, anche se su piccola scala?
+
+## Soluzioni
+1. Distribuire gli investimenti su beni diversi invece di metterli tutti in uno solo.
+2. Perché beni diversi non si muovono sempre nella stessa direzione per le stesse ragioni, quindi un calo di uno può essere compensato dalla stabilità di un altro.
+3. No: riduce il rischio di dipendere da un singolo bene, ma non elimina ogni rischio, soprattutto se molti beni scendono insieme.
+4. Perché i due metalli hanno fattori di domanda diversi e quindi non si muovono sempre in sintonia, riducendo la dipendenza da ciascuno dei due.
+
+## Risposte e spiegazioni
+1. Coglie la logica essenziale della diversificazione come distribuzione, non eliminazione, del rischio.
+2. I diversi andamenti dei beni sono il meccanismo dietro l'effetto di riduzione del rischio della diversificazione.
+3. Chiarisce un malinteso comune: la diversificazione gestisce il rischio, non lo elimina del tutto.
+4. Questo esempio mostra il principio centrale della diversificazione su una scala piccola e comprensibile all'interno di una categoria di attività.
+
+## Punti chiave
+- Diversificare significa distribuire gli investimenti su beni diversi per ridurre la dipendenza da uno solo.
+- Riduce il rischio ma non lo elimina, soprattutto quando molti beni scendono insieme.
+- Detenere argento e oro, con i loro diversi fattori di domanda, illustra il principio della diversificazione anche su piccola scala.
+
+===== GOLD-L1-009
+TITLE: Che cosa determina i prezzi dei metalli preziosi
+SUMMARY: Spiega i fattori di base di domanda e offerta che determinano i prezzi di oro e argento.
+# Che cosa determina i prezzi dei metalli preziosi
+
+## Obiettivi di apprendimento
+- Identificare i fattori di base di domanda e offerta che influenzano i prezzi dei metalli preziosi
+- Spiegare perché l'incertezza economica influenza spesso la domanda di oro e argento
+- Riconoscere che nessun singolo fattore determina da solo il prezzo
+
+## Contenuto principale
+
+Come per la maggior parte dei beni, i prezzi dei metalli preziosi sono determinati da domanda e offerta. Dal lato dell'offerta: quanto nuovo metallo viene estratto e prodotto e quanto metallo già esistente (da riciclo o da possesso privato) arriva sul mercato. Dal lato della domanda: la domanda di investimento (persone che lo acquistano come riserva di valore), la domanda di gioielleria e, in particolare per l'argento, la domanda industriale della manifattura.
+
+FATTO VERIFICATO: I metalli preziosi, soprattutto l'oro, hanno spesso registrato storicamente una maggiore domanda di investimento in periodi di incertezza economica o di inflazione elevata, perché alcuni investitori li considerano una riserva di valore quando la fiducia in altri beni o valute vacilla. Non è una garanzia: i prezzi sono influenzati da molti fattori contemporaneamente, e nessuna spiegazione singola (come “l'incertezza fa sempre salire l'oro”) vale in ogni situazione. Capire che più fattori agiscono insieme, invece di cercare una semplice regola di causa ed effetto, è un modo più accurato di ragionare sui movimenti di prezzo.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: In un periodo in cui le notizie economiche sono dominate dall'incertezza, la domanda di oro potrebbe aumentare perché alcuni investitori cercano una presunta riserva di valore, spingendo i prezzi verso l'alto; allo stesso tempo, un rallentamento dell'attività industriale potrebbe ridurre la domanda industriale di argento, compensando in parte un analogo aumento della domanda di investimento in argento. Questo mostra perché i due metalli, pur essendo entrambi “preziosi”, possono comportarsi in modo un po' diverso anche nello stesso contesto economico.
+
+## Quiz di esercitazione
+
+1. Indica i fattori di base di domanda e offerta che influenzano i prezzi dei metalli preziosi.
+2. Che cosa è successo spesso storicamente alla domanda di investimento in oro nei periodi di incertezza economica?
+3. Questo schema è una garanzia che si verifica ogni volta?
+4. Nell'esempio svolto, perché oro e argento potrebbero reagire in modo diverso allo stesso contesto economico?
+
+## Soluzioni
+1. Offerta: estrazione/produzione e metallo riciclato/esistente che arriva sul mercato. Domanda: investimento, gioielleria e (per l'argento) domanda industriale.
+2. È spesso aumentata, perché alcuni investitori considerano l'oro una riserva di valore nei periodi incerti.
+3. No: più fattori agiscono contemporaneamente e nessuna spiegazione singola vale in ogni situazione.
+4. Perché l'argento ha un fattore di domanda industriale aggiuntivo che l'oro non ha, quindi i due possono reagire in modo diverso alle stesse condizioni.
+
+## Risposte e spiegazioni
+1. Elenca gli elementi di base di domanda e offerta dei prezzi dei metalli preziosi.
+2. Questo FATTO VERIFICATO riporta uno schema storico senza esagerarlo come regola garantita.
+3. La lezione mette esplicitamente in guardia dal ragionare in modo semplicistico per causa ed effetto sui movimenti di prezzo.
+4. I diversi fattori di domanda spiegano perché oro e argento non si muovono sempre allo stesso modo, anche in condizioni simili.
+
+## Punti chiave
+- I prezzi dei metalli preziosi sono determinati da fattori di offerta (produzione, riciclo) e di domanda (investimento, gioielleria e, per l'argento, industria).
+- Storicamente l'oro ha spesso registrato una maggiore domanda di investimento nei periodi di incertezza economica, anche se lo schema non è garantito.
+- Più fattori agiscono contemporaneamente, quindi i movimenti di prezzo raramente si spiegano con un'unica causa semplice.
+
+===== GOLD-L1-010
+TITLE: Capire purezza e peso
+SUMMARY: Introduce le unità di misura e le indicazioni di purezza di base usate nel mercato dei metalli preziosi.
+# Capire purezza e peso
+
+## Obiettivi di apprendimento
+- Identificare le unità di peso comunemente usate per i metalli preziosi
+- Spiegare che cosa significa purezza (titolo) e perché influisce sul valore
+- Esercitarsi a leggere una semplice descrizione di prodotto
+
+## Contenuto principale
+
+I metalli preziosi vengono misurati e descritti con unità specifiche che possono confondere un principiante. L'oro si misura comunemente in once troy (un'unità un po' più pesante dell'oncia comune, storicamente propria dei metalli preziosi) o in grammi, soprattutto per i pezzi più piccoli. Anche l'argento si misura di solito in once troy. FATTO VERIFICATO: Un'oncia troy corrisponde a circa 31,1 grammi, diversa dall'oncia comune “avoirdupois” (circa 28,3 grammi) usata per la maggior parte degli oggetti di uso quotidiano: la distinzione conta, perché usare la conversione sbagliata può creare vera confusione su quanto metallo si sta effettivamente comprando.
+
+La purezza, spesso espressa come “titolo”, indica quanta parte di un pezzo è effettivamente metallo prezioso e quanta è costituita da altri metalli aggiunti per la resistenza. La purezza dell'oro viene spesso indicata in carati (24 carati è oro puro) o in millesimi (999 significa puro al 99,9%). Una purezza più alta significa in genere che il valore del pezzo segue più da vicino e più direttamente il prezzo spot del metallo, perché una parte minore del peso è materiale non prezioso.
+
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Una moneta descritta come “un'oncia troy, argento 999” pesa un'oncia troy (circa 31,1 grammi) ed è argento puro al 99,9%, con una percentuale molto piccola di altri materiali in tracce per la resistenza. Capire insieme entrambi i numeri – l'unità di peso e la purezza – è necessario per sapere esattamente che cosa si sta acquistando, perché un'ipotesi sbagliata su uno dei due (usare once comuni invece di once troy, o ignorare la purezza) potrebbe portare a un vero malinteso sul valore.
+
+## Quiz di esercitazione
+
+1. In quale unità si misurano comunemente oro e argento, e in che cosa differisce da un'oncia comune?
+2. Che cosa descrive la “purezza” o “titolo”?
+3. Che cosa significa titolo 999?
+4. Perché è importante capire insieme peso e purezza?
+
+## Soluzioni
+1. L'oncia troy, che con circa 31,1 grammi è più pesante di un'oncia comune avoirdupois (circa 28,3 grammi).
+2. Quanta parte di un pezzo è effettivamente metallo prezioso rispetto ad altri metalli aggiunti.
+3. Che il pezzo è metallo prezioso puro al 99,9%, con una percentuale molto piccola di altri materiali.
+4. Perché un'ipotesi sbagliata su uno dei due potrebbe portare a un vero malinteso su quanto valore si sta effettivamente acquistando.
+
+## Risposte e spiegazioni
+1. Questa distinzione evita una confusione frequente tra principianti tra oncia troy e oncia comune.
+2. La purezza descrive il contenuto effettivo di metallo prezioso rispetto al peso totale di un pezzo.
+3. Applica direttamente il concetto di titolo a un esempio concreto e comune.
+4. Le due misure insieme determinano il contenuto effettivo di metallo prezioso che si acquista.
+
+## Punti chiave
+- I metalli preziosi si misurano di solito in once troy o in grammi, e l'oncia troy è diversa dall'oncia comune.
+- La purezza (titolo) indica quanta parte di un pezzo è effettivamente metallo prezioso rispetto ad altri materiali.
+- Capire insieme peso e purezza è necessario per sapere esattamente che cosa si sta acquistando.
