@@ -1,0 +1,364 @@
+===== WHITE-L1-016
+TITLE: O que é um mercado em alta (bull) e um mercado em baixa (bear)?
+SUMMARY: Aprenda o que significam mercado em alta e mercado em baixa, e porque é que estes rótulos descrevem uma tendência, e não uma garantia do que vem a seguir.
+# O que é um mercado em alta (bull) e um mercado em baixa (bear)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir mercado em alta e mercado em baixa.
+- explicar em que se baseiam normalmente estes rótulos.
+- explicar porque é que descrevem uma tendência, e não um futuro garantido.
+
+## Conteúdo principal
+
+### O que significa cada termo
+
+Um mercado em alta (bull market) refere-se em geral a um período prolongado de subida de preços num mercado. Um mercado em baixa (bear market) refere-se em geral a um período prolongado de descida de preços, muitas vezes definido de forma aproximada como uma queda de uma percentagem significativa (normalmente cerca de 20%) face a um máximo recente.
+
+### Em que se baseiam os rótulos
+
+Estes termos descrevem uma tendência observada ao longo de um período, e não uma previsão. Um mercado é normalmente classificado como "em alta" ou "em baixa" com base em movimentos de preço que já aconteceram, olhando para trás ou para um padrão atual e prolongado.
+
+### Porque é que não são uma garantia
+
+Estar num mercado em alta ou em baixa não garante o que acontece a seguir: os mercados podem passar de um para o outro, e ninguém consegue prever de forma fiável quando exatamente essa mudança vai acontecer. Tratar os rótulos atuais como previsão é uma suposição comum, mas arriscada.
+
+## Exemplo prático
+
+Um mercado que subiu de forma constante durante dois anos pode ser descrito como mercado em alta, mas esse rótulo descreve o que já aconteceu, e não uma garantia de que os preços vão continuar a subir.
+
+## Teste de prática
+
+1. Um mercado em alta refere-se em geral a:
+   A. Um período prolongado de descida de preços
+   B. Um período prolongado de subida de preços
+   C. Um único dia de negociação
+   D. Um tipo de obrigação
+
+2. Verdadeiro ou falso: ser classificado como "mercado em alta" garante que os preços vão continuar a subir.
+
+3. Em que se baseiam normalmente os rótulos de mercado em alta e em baixa?
+   A. Um anúncio do Estado
+   B. Uma tendência de preços observada ao longo de um período
+   C. O relatório de resultados de uma única empresa
+   D. O tempo meteorológico
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um mercado em alta refere-se a uma tendência prolongada de subida.
+
+### Pergunta 2
+
+Resposta correta: Falso. O rótulo descreve uma tendência passada ou atual, e não um futuro garantido.
+
+### Pergunta 3
+
+Resposta correta: B. Estes rótulos refletem uma tendência de preços observada.
+
+## Pontos-chave
+
+- Um mercado em alta é uma tendência prolongada de subida; um mercado em baixa é uma tendência prolongada de descida.
+- Estes rótulos descrevem uma tendência observada, e não uma previsão.
+- Os mercados podem passar de um para o outro de forma imprevisível.
+
+===== WHITE-L1-017
+TITLE: O que são os juros compostos? (A ideia que toda a gente refere, mas poucos explicam)
+SUMMARY: Aprenda como funcionam realmente os juros compostos, passo a passo, e não apenas como palavra da moda.
+# O que são os juros compostos? (A ideia que toda a gente refere, mas poucos explicam)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir os juros compostos em termos simples.
+- distingui-los dos juros simples.
+- calcular um exemplo básico de crescimento composto ao longo de alguns períodos.
+
+## Conteúdo principal
+
+### O que são os juros compostos
+
+Os juros compostos são juros calculados não só sobre o montante investido inicialmente, mas também sobre os juros já acumulados: o crescimento constrói-se sobre o crescimento anterior, e não apenas sobre o montante inicial.
+
+### Juros compostos e juros simples
+
+Os juros simples são calculados apenas sobre o montante inicial, em cada período. Os juros compostos são calculados sobre o montante inicial mais todos os juros já obtidos: é precisamente por isso que a capitalização acelera com o tempo.
+
+### Um exemplo passo a passo
+
+Começando com 1000 $ a 10% de juros compostos ao ano: ao fim do primeiro ano, são 1100 $. Ao fim do segundo ano, os juros são calculados sobre 1100 $ (e não apenas sobre os 1000 $ iniciais), chegando a 1210 $. Ao fim do terceiro ano, são calculados sobre 1210 $, chegando a 1331 $: o crescimento acelera porque os juros de cada ano são calculados sobre uma base maior.
+
+## Exemplo prático
+
+1000 $ a 10% de juros simples rendem exatamente 100 $ por ano: 1100 $, 1200 $, 1300 $. Os mesmos 1000 $ a 10% de juros compostos passam a 1100 $, 1210 $, 1331 $: uma diferença pequena, mas crescente, que aumenta bastante em períodos mais longos.
+
+## Teste de prática
+
+1. Os juros compostos são calculados sobre:
+   A. Apenas o montante investido inicialmente
+   B. O montante inicial mais os juros já obtidos
+   C. Uma taxa fixa definida pelo Estado
+   D. Apenas a entrega do último ano
+
+2. Verdadeiro ou falso: os juros simples e os juros compostos produzem resultados idênticos ao longo do tempo.
+
+3. 1000 $ passam a 1100 $ ao fim do primeiro ano a 10% de juros compostos. Quanto seriam ao fim do segundo ano?
+   A. 1100 $
+   B. 1200 $
+   C. 1210 $
+   D. 1300 $
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. C
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Os juros compostos constroem-se sobre o capital e sobre os juros acumulados.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os juros compostos crescem mais depressa do que os simples ao longo do tempo.
+
+### Pergunta 3
+
+Resposta correta: C. 1100 $ × 1,10 = 1210 $ (crescimento de 10% sobre a nova base, maior).
+
+## Pontos-chave
+
+- Os juros compostos são calculados sobre o capital mais os juros acumulados.
+- É essa a diferença central em relação aos juros simples, que usam apenas o montante inicial.
+- A diferença entre juros compostos e simples aumenta em períodos mais longos.
+
+===== WHITE-L1-018
+TITLE: O que é um 401(k)?
+SUMMARY: Aprenda o que é um 401(k), como funciona normalmente e um benefício comum da entidade empregadora ligado a ele.
+# O que é um 401(k)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir um 401(k) em termos simples.
+- explicar como funcionam normalmente as entregas.
+- explicar o que é a contrapartida da entidade empregadora.
+
+## Conteúdo principal
+
+### O que é um 401(k)
+
+*(REGRA ESPECÍFICA DA REGIÃO: este é um tipo de conta de reforma específico dos Estados Unidos. Em Portugal, algo semelhante são os planos de pensões oferecidos pelas empresas através de fundos de pensões, com regras próprias; confirme com um especialista.)* Um 401(k) é uma conta de poupança para a reforma oferecida pela entidade empregadora, que permite aos trabalhadores aplicar uma parte do salário, muitas vezes com vantagens fiscais, na poupança para a reforma a longo prazo.
+
+### Como funcionam normalmente as entregas
+
+Os trabalhadores escolhem em geral uma percentagem ou um montante do salário para aplicar automaticamente, que é depois investido nas opções oferecidas pelo plano da entidade empregadora (muitas vezes um leque de fundos, incluindo opções como os ETF e os fundos de investimento vistos antes neste nível).
+
+### O que é a contrapartida da entidade empregadora
+
+Muitas entidades empregadoras oferecem uma "contrapartida" (em inglês, "match"): aplicam dinheiro adicional com base no que o trabalhador aplica, até um certo limite. Na prática, é uma remuneração extra ligada especificamente à participação no plano, e não aproveitar totalmente uma contrapartida disponível é uma oportunidade perdida muito referida.
+
+## Exemplo prático
+
+Uma entidade empregadora oferece acompanhar 50% das entregas do trabalhador até 6% do salário. Um trabalhador que ganha 50 000 $ e aplica 6% (3000 $) recebe mais 1500 $ da contrapartida da entidade empregadora: dinheiro que não receberia sem aplicar.
+
+## Teste de prática
+
+1. Um 401(k) é:
+   A. Um tipo de conta à ordem
+   B. Uma conta de poupança para a reforma oferecida pela entidade empregadora
+   C. Uma pensão do Estado paga automaticamente
+   D. Um tipo de obrigação
+
+2. Verdadeiro ou falso: todas as entidades empregadoras são obrigadas a oferecer uma contrapartida.
+
+3. O que é a contrapartida da entidade empregadora?
+   A. Uma coima fiscal
+   B. Entregas adicionais da entidade empregadora com base no que o trabalhador aplica
+   C. Um tipo de empréstimo
+   D. Um pagamento fixo do Estado
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um 401(k) é uma conta de reforma oferecida pela entidade empregadora.
+
+### Pergunta 2
+
+Resposta correta: Falso. A contrapartida é comum, mas não é obrigatória nem oferecida por todas.
+
+### Pergunta 3
+
+Resposta correta: B. A contrapartida é dinheiro adicional da entidade empregadora ligado às entregas do trabalhador.
+
+## Pontos-chave
+
+- Um 401(k) é uma conta de poupança para a reforma oferecida pela entidade empregadora.
+- As entregas são normalmente automáticas, descontadas do salário.
+- A contrapartida da entidade empregadora, quando existe, é na prática uma remuneração extra pela participação.
+
+===== WHITE-L1-019
+TITLE: O que é uma IRA, e em que difere de um 401(k)?
+SUMMARY: Aprenda o que é uma IRA e a diferença central entre ela e um 401(k) oferecido pela entidade empregadora.
+# O que é uma IRA, e em que difere de um 401(k)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir uma IRA em termos simples.
+- explicar a diferença central entre uma IRA e um 401(k).
+- reconhecer que ambas servem o mesmo propósito geral de poupar para a reforma.
+
+## Conteúdo principal
+
+### O que é uma IRA
+
+*(REGRA ESPECÍFICA DA REGIÃO: este é um tipo de conta específico dos Estados Unidos. Em Portugal, uma forma individual semelhante é o Plano Poupança Reforma (PPR), subscrito diretamente pela pessoa; confirme as regras com um especialista.)* Uma IRA (Individual Retirement Account) é uma conta de poupança para a reforma que a pessoa abre por iniciativa própria, independentemente de uma entidade empregadora, muitas vezes num banco ou numa corretora.
+
+### A diferença central em relação a um 401(k)
+
+Um 401(k) está ligado a uma entidade empregadora e normalmente só está disponível enquanto se trabalha lá. Uma IRA é aberta de forma independente por uma pessoa e não está ligada a nenhuma entidade empregadora específica: alguém pode ter uma IRA tendo ou não um emprego com 401(k) disponível.
+
+### O mesmo propósito geral
+
+Apesar da diferença estrutural, os dois tipos de conta servem o mesmo propósito central: incentivar e oferecer formas fiscalmente vantajosas de poupar para a reforma.
+
+## Exemplo prático
+
+Quem trabalha por conta própria, sem 401(k) de uma entidade empregadora, pode mesmo assim abrir uma IRA e fazer entregas de forma independente: a conta não está ligada a ter uma entidade empregadora específica.
+
+## Teste de prática
+
+1. Uma IRA é:
+   A. Disponível apenas através de uma entidade empregadora
+   B. Uma conta de reforma que a pessoa abre de forma independente
+   C. Um tipo de conta à ordem
+   D. Uma pensão do Estado
+
+2. Verdadeiro ou falso: um 401(k) e uma IRA estão ligados a uma entidade empregadora exatamente da mesma forma.
+
+3. Quem não tem um 401(k) oferecido pela entidade empregadora pode mesmo assim poupar para a reforma através de uma IRA?
+   A. Não, é sempre necessária uma entidade empregadora
+   B. Sim, uma IRA é aberta independentemente de qualquer entidade empregadora
+   C. Só se já estiver reformado
+   D. Só os funcionários públicos podem abrir uma IRA
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma IRA é aberta de forma independente pela pessoa.
+
+### Pergunta 2
+
+Resposta correta: Falso. Um 401(k) está ligado à entidade empregadora; uma IRA não.
+
+### Pergunta 3
+
+Resposta correta: B. As IRA são independentes de um plano oferecido pela entidade empregadora.
+
+## Pontos-chave
+
+- Uma IRA é uma conta de reforma aberta de forma independente, não ligada a uma entidade empregadora.
+- É essa a diferença estrutural central em relação a um 401(k).
+- Ambas servem o mesmo propósito geral: poupar para a reforma com vantagens fiscais.
+
+===== WHITE-L1-020
+TITLE: Tradicional ou Roth: o que muda realmente no tratamento fiscal?
+SUMMARY: Aprenda a diferença central no momento da tributação entre contas de reforma tradicionais e Roth.
+# Tradicional ou Roth: o que muda realmente no tratamento fiscal?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- explicar a diferença central no momento da tributação entre contas tradicionais e Roth.
+- explicar quando é tributada uma conta tradicional.
+- explicar quando é tributada uma conta Roth.
+
+## Conteúdo principal
+
+### A diferença central no momento da tributação
+
+*(REGRA ESPECÍFICA DA REGIÃO: isto descreve um conceito fiscal dos Estados Unidos. Em Portugal, os PPR têm um regime próprio, com benefícios fiscais na entrega dentro de certos limites e tributação favorável no reembolso em determinadas condições; confirme com um contabilista.)* Tanto as contas tradicionais como as Roth (disponíveis nas versões 401(k) ou IRA) oferecem vantagens fiscais: a verdadeira diferença é QUANDO se aplica o benefício fiscal, e não se uma é melhor em todas as situações.
+
+### Contas tradicionais
+
+As entregas numa conta tradicional são muitas vezes feitas antes de impostos, e os levantamentos na reforma são em geral tributados como rendimento nesse momento posterior.
+
+### Contas Roth
+
+As entregas numa conta Roth são feitas com dinheiro já tributado, mas os levantamentos qualificados na reforma são em geral isentos: o imposto é pago antes, e não depois.
+
+## Exemplo prático
+
+Uma entrega numa conta tradicional reduz agora o rendimento tributável, e o imposto é pago mais tarde, sobre os levantamentos. Uma entrega Roth não dá benefício fiscal agora, mas os levantamentos qualificados futuros são em geral isentos: o mesmo dólar, tributado num momento diferente.
+
+## Teste de prática
+
+1. A diferença central entre contas tradicionais e Roth é:
+   A. Só as contas tradicionais permitem investir em ações
+   B. Quando se aplica a vantagem fiscal: agora ou mais tarde
+   C. As contas Roth são só para entidades empregadoras
+   D. Não há diferença real
+
+2. Verdadeiro ou falso: as entregas em contas tradicionais são em geral feitas com dinheiro já tributado.
+
+3. Quando são em geral tributados os levantamentos qualificados de uma conta Roth?
+   A. No momento da entrega
+   B. Em geral não são tributados no levantamento, porque o imposto foi pago antes
+   C. Duas vezes: na entrega e no levantamento
+   D. Nunca se entrega dinheiro real
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O momento da vantagem fiscal é a diferença central.
+
+### Pergunta 2
+
+Resposta correta: Falso. As entregas tradicionais são muitas vezes feitas antes de impostos.
+
+### Pergunta 3
+
+Resposta correta: B. Nas contas Roth, o imposto é pago antes, por isso os levantamentos qualificados são em geral isentos mais tarde.
+
+## Pontos-chave
+
+- Tanto as contas tradicionais como as Roth oferecem vantagens fiscais, em momentos diferentes.
+- Tradicional: muitas vezes com vantagem fiscal agora, tributada mais tarde no levantamento.
+- Roth: tributada agora, em geral isenta no levantamento qualificado mais tarde.

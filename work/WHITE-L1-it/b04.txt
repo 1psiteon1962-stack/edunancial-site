@@ -1,0 +1,364 @@
+===== WHITE-L1-016
+TITLE: Che cosa sono un mercato rialzista (bull) e un mercato ribassista (bear)?
+SUMMARY: Scopri che cosa significano mercato rialzista e ribassista, e perché le etichette descrivono una tendenza, non una garanzia di ciò che accadrà.
+# Che cosa sono un mercato rialzista (bull) e un mercato ribassista (bear)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un mercato rialzista e un mercato ribassista.
+- spiegare su che cosa si basano di solito queste etichette.
+- spiegare perché descrivono una tendenza, non un futuro garantito.
+
+## Contenuto principale
+
+### Che cosa significa ciascun termine
+
+Un mercato rialzista (bull market) indica in genere un periodo prolungato di prezzi in aumento in un mercato. Un mercato ribassista (bear market) indica in genere un periodo prolungato di prezzi in calo, spesso definito in modo approssimativo come un calo di una percentuale significativa (di solito intorno al 20%) rispetto a un massimo recente.
+
+### Su che cosa si basano le etichette
+
+Questi termini descrivono una tendenza osservata in un certo periodo, non una previsione. Un mercato viene di solito definito "rialzista" o "ribassista" in base a movimenti di prezzo già avvenuti, guardando al passato o a uno schema attuale e prolungato.
+
+### Perché non sono una garanzia
+
+Trovarsi in un mercato rialzista o ribassista non garantisce che cosa accadrà dopo: i mercati possono passare dall'uno all'altro, e nessuno può prevedere in modo affidabile quando avverrà esattamente il passaggio. Trattare le etichette attuali come una previsione è un'ipotesi comune ma rischiosa.
+
+## Esempio svolto
+
+Un mercato salito in modo costante per due anni potrebbe essere descritto come mercato rialzista, ma quell'etichetta descrive ciò che è già successo, non una garanzia che i prezzi continueranno a salire.
+
+## Quiz di esercitazione
+
+1. Un mercato rialzista indica in genere:
+   A. Un periodo prolungato di prezzi in calo
+   B. Un periodo prolungato di prezzi in aumento
+   C. Una singola giornata di contrattazioni
+   D. Un tipo di obbligazione
+
+2. Vero o falso: essere definito "mercato rialzista" garantisce che i prezzi continueranno a salire.
+
+3. Su che cosa si basano di solito le etichette di mercato rialzista e ribassista?
+   A. Un annuncio dello Stato
+   B. Una tendenza dei prezzi osservata in un certo periodo
+   C. Il rapporto sugli utili di una singola azienda
+   D. Il meteo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un mercato rialzista indica una tendenza al rialzo prolungata.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'etichetta descrive una tendenza passata o attuale, non un futuro garantito.
+
+### Domanda 3
+
+Risposta corretta: B. Queste etichette riflettono una tendenza dei prezzi osservata.
+
+## Punti chiave
+
+- Un mercato rialzista è una tendenza al rialzo prolungata; un mercato ribassista è una tendenza al ribasso prolungata.
+- Queste etichette descrivono una tendenza osservata, non una previsione.
+- I mercati possono passare dall'uno all'altro in modo imprevedibile.
+
+===== WHITE-L1-017
+TITLE: Che cos'è l'interesse composto? (L'idea che tutti citano ma pochi spiegano)
+SUMMARY: Scopri come funziona davvero l'interesse composto, passo dopo passo, non solo come parola di moda.
+# Che cos'è l'interesse composto? (L'idea che tutti citano ma pochi spiegano)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici l'interesse composto.
+- distinguerlo dall'interesse semplice.
+- calcolare un esempio di base di crescita composta su alcuni periodi.
+
+## Contenuto principale
+
+### Che cos'è l'interesse composto
+
+L'interesse composto è un interesse calcolato non solo sull'importo investito all'inizio, ma anche sugli interessi già maturati: la crescita si costruisce sopra la crescita precedente, non solo sull'importo di partenza.
+
+### Interesse composto e interesse semplice
+
+L'interesse semplice si calcola solo sull'importo iniziale, in ogni periodo. L'interesse composto si calcola sull'importo iniziale più tutti gli interessi già maturati: è proprio questo il motivo per cui la capitalizzazione accelera nel tempo.
+
+### Un esempio passo dopo passo
+
+Partendo da 1.000 $ al 10% di interesse composto annuo: dopo il primo anno sono 1.100 $. Dopo il secondo anno l'interesse si calcola su 1.100 $ (non solo sui 1.000 $ iniziali), arrivando a 1.210 $. Dopo il terzo anno si calcola su 1.210 $, arrivando a 1.331 $: la crescita accelera perché l'interesse di ogni anno si calcola su una base più grande.
+
+## Esempio svolto
+
+1.000 $ al 10% di interesse semplice guadagnano esattamente 100 $ ogni anno: 1.100 $, 1.200 $, 1.300 $. Gli stessi 1.000 $ al 10% di interesse composto diventano 1.100 $, 1.210 $, 1.331 $: un divario piccolo ma crescente, che si allarga molto su periodi più lunghi.
+
+## Quiz di esercitazione
+
+1. L'interesse composto si calcola su:
+   A. Solo l'importo investito all'inizio
+   B. L'importo iniziale più gli interessi già maturati
+   C. Un tasso fisso stabilito dallo Stato
+   D. Solo il versamento dell'ultimo anno
+
+2. Vero o falso: interesse semplice e interesse composto danno risultati identici nel tempo.
+
+3. 1.000 $ diventano 1.100 $ dopo il primo anno al 10% di interesse composto. A quanto arriverebbero dopo il secondo anno?
+   A. 1.100 $
+   B. 1.200 $
+   C. 1.210 $
+   D. 1.300 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. C
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'interesse composto si costruisce sia sul capitale sia sugli interessi maturati.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'interesse composto cresce più in fretta nel tempo dell'interesse semplice.
+
+### Domanda 3
+
+Risposta corretta: C. 1.100 $ × 1,10 = 1.210 $ (crescita del 10% sulla nuova base, più grande).
+
+## Punti chiave
+
+- L'interesse composto si calcola sul capitale più gli interessi maturati.
+- È questa la differenza chiave rispetto all'interesse semplice, che usa solo l'importo iniziale.
+- Il divario tra interesse composto e semplice si allarga su periodi più lunghi.
+
+===== WHITE-L1-018
+TITLE: Che cos'è un 401(k)?
+SUMMARY: Scopri che cos'è un 401(k), come funziona di solito e un vantaggio comune offerto dal datore di lavoro.
+# Che cos'è un 401(k)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un 401(k).
+- spiegare come funzionano di solito i versamenti.
+- spiegare che cos'è il contributo integrativo del datore di lavoro.
+
+## Contenuto principale
+
+### Che cos'è un 401(k)
+
+*(REGOLA SPECIFICA PER PAESE: si tratta di un tipo di conto previdenziale specifico degli Stati Uniti. In Italia, strumenti con finalità simili sono per esempio i fondi pensione negoziali o aperti e i PIP, con regole proprie; verifica con un consulente.)* Un 401(k) è un conto di risparmio previdenziale offerto dal datore di lavoro, che permette ai dipendenti di versare una parte dello stipendio, spesso con vantaggi fiscali, per il risparmio pensionistico di lungo periodo.
+
+### Come funzionano di solito i versamenti
+
+In genere i dipendenti scelgono una percentuale o un importo dello stipendio da versare automaticamente, che viene poi investito nelle opzioni offerte dal piano del datore di lavoro (spesso un elenco di fondi, comprese opzioni come gli ETF e i fondi comuni visti in precedenza in questo livello).
+
+### Che cos'è il contributo integrativo del datore di lavoro
+
+Molti datori di lavoro offrono un "match": versano denaro aggiuntivo in base a quanto versa il dipendente, fino a un certo limite. Si tratta di fatto di una retribuzione extra legata specificamente all'adesione al piano, e non sfruttare appieno un contributo disponibile è spesso citato come un'occasione mancata.
+
+## Esempio svolto
+
+Un datore di lavoro offre di integrare il 50% dei versamenti del dipendente fino al 6% dello stipendio. Un dipendente che guadagna 50.000 $ e versa il 6% (3.000 $) riceve altri 1.500 $ dal contributo del datore di lavoro: denaro che non riceverebbe senza versare.
+
+## Quiz di esercitazione
+
+1. Un 401(k) è:
+   A. Un tipo di conto corrente
+   B. Un conto di risparmio previdenziale offerto dal datore di lavoro
+   C. Una pensione statale pagata automaticamente
+   D. Un tipo di obbligazione
+
+2. Vero o falso: tutti i datori di lavoro sono obbligati a offrire un contributo integrativo.
+
+3. Che cos'è il contributo integrativo del datore di lavoro?
+   A. Una sanzione fiscale
+   B. Versamenti aggiuntivi del datore di lavoro in base a quanto versa il dipendente
+   C. Un tipo di prestito
+   D. Un pagamento fisso dello Stato
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un 401(k) è un conto previdenziale offerto dal datore di lavoro.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il contributo integrativo è comune, ma non è obbligatorio né offerto ovunque.
+
+### Domanda 3
+
+Risposta corretta: B. Il contributo integrativo è denaro aggiuntivo del datore di lavoro legato ai versamenti del dipendente.
+
+## Punti chiave
+
+- Un 401(k) è un conto di risparmio previdenziale offerto dal datore di lavoro.
+- I versamenti avvengono di solito automaticamente, con trattenute in busta paga.
+- Il contributo integrativo del datore di lavoro, quando è offerto, è di fatto una retribuzione extra per chi aderisce.
+
+===== WHITE-L1-019
+TITLE: Che cos'è un IRA, e in che cosa differisce da un 401(k)?
+SUMMARY: Scopri che cos'è un IRA e la differenza fondamentale rispetto a un 401(k) offerto dal datore di lavoro.
+# Che cos'è un IRA, e in che cosa differisce da un 401(k)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in parole semplici un IRA.
+- spiegare la differenza fondamentale tra un IRA e un 401(k).
+- riconoscere che entrambi servono allo stesso scopo generale di risparmio previdenziale.
+
+## Contenuto principale
+
+### Che cos'è un IRA
+
+*(REGOLA SPECIFICA PER PAESE: si tratta di un tipo di conto specifico degli Stati Uniti. In Italia, una forma individuale paragonabile può essere l'adesione individuale a un fondo pensione aperto o a un PIP; verifica con un consulente.)* Un IRA (Individual Retirement Account) è un conto di risparmio previdenziale che una persona apre per conto proprio, indipendentemente da un datore di lavoro, spesso presso una banca o un intermediario.
+
+### La differenza fondamentale rispetto a un 401(k)
+
+Un 401(k) è legato a un datore di lavoro e di solito è disponibile solo finché si lavora lì. Un IRA viene aperto in modo indipendente da una persona e non è legato a nessun datore di lavoro specifico: si può avere un IRA anche senza un lavoro che offra un 401(k).
+
+### Lo stesso scopo generale
+
+Nonostante la differenza strutturale, entrambi i tipi di conto servono allo stesso scopo fondamentale: incoraggiare e offrire modi fiscalmente vantaggiosi di risparmiare per la pensione.
+
+## Esempio svolto
+
+Una persona che lavora in proprio, senza un 401(k) offerto da un datore di lavoro, può comunque aprire un IRA e versarvi in modo indipendente: il conto non è affatto legato all'avere un datore di lavoro specifico.
+
+## Quiz di esercitazione
+
+1. Un IRA è:
+   A. Disponibile solo tramite un datore di lavoro
+   B. Un conto previdenziale che una persona apre in modo indipendente
+   C. Un tipo di conto corrente
+   D. Una pensione statale
+
+2. Vero o falso: un 401(k) e un IRA sono legati a un datore di lavoro esattamente nello stesso modo.
+
+3. Chi non ha un 401(k) offerto dal datore di lavoro può comunque risparmiare per la pensione con un IRA?
+   A. No, serve sempre un datore di lavoro
+   B. Sì, un IRA si apre indipendentemente da qualsiasi datore di lavoro
+   C. Solo se è già in pensione
+   D. Solo i dipendenti pubblici possono aprire un IRA
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un IRA viene aperto in modo indipendente da una persona.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un 401(k) è legato al datore di lavoro; un IRA no.
+
+### Domanda 3
+
+Risposta corretta: B. Gli IRA sono indipendenti dall'offerta di un datore di lavoro.
+
+## Punti chiave
+
+- Un IRA è un conto previdenziale aperto in modo indipendente, non legato a un datore di lavoro.
+- È questa la differenza strutturale fondamentale rispetto a un 401(k).
+- Entrambi servono allo stesso scopo generale: il risparmio previdenziale fiscalmente agevolato.
+
+===== WHITE-L1-020
+TITLE: Tradizionale o Roth: che cosa cambia davvero nel trattamento fiscale?
+SUMMARY: Scopri la differenza fondamentale di tempistica fiscale tra i conti previdenziali tradizionali e quelli Roth.
+# Tradizionale o Roth: che cosa cambia davvero nel trattamento fiscale?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- spiegare la differenza fondamentale di tempistica fiscale tra conti tradizionali e Roth.
+- spiegare quando viene tassato un conto tradizionale.
+- spiegare quando viene tassato un conto Roth.
+
+## Contenuto principale
+
+### La differenza fondamentale di tempistica fiscale
+
+*(REGOLA SPECIFICA PER PAESE: si tratta di un concetto fiscale degli Stati Uniti. In Italia la previdenza complementare ha un regime fiscale proprio, con deducibilità dei versamenti entro certi limiti e tassazione agevolata delle prestazioni; verifica con un commercialista.)* Sia i conti tradizionali sia i conti Roth (disponibili sia come 401(k) sia come IRA) offrono vantaggi fiscali: la vera differenza è QUANDO si applica il beneficio fiscale, non se uno sia migliore in ogni situazione.
+
+### Conti tradizionali
+
+I versamenti in un conto tradizionale sono spesso effettuati al lordo delle imposte, e i prelievi durante la pensione sono in genere tassati come reddito in quel momento successivo.
+
+### Conti Roth
+
+I versamenti in un conto Roth sono effettuati con denaro già tassato, ma i prelievi qualificati durante la pensione sono in genere esenti da imposte: l'imposta si paga subito invece che dopo.
+
+## Esempio svolto
+
+Un versamento in un conto tradizionale riduce oggi il reddito imponibile, e l'imposta si paga in seguito sui prelievi. Un versamento Roth non dà alcuno sgravio oggi, ma i prelievi qualificati futuri sono in genere esenti: lo stesso dollaro, tassato in un momento diverso.
+
+## Quiz di esercitazione
+
+1. La differenza fondamentale tra conti tradizionali e Roth è:
+   A. Solo i conti tradizionali permettono di investire in azioni
+   B. Quando si applica il vantaggio fiscale: ora o dopo
+   C. I conti Roth sono solo per i datori di lavoro
+   D. Non c'è una vera differenza
+
+2. Vero o falso: i versamenti nei conti tradizionali sono in genere effettuati con denaro già tassato.
+
+3. Quando vengono tassati in genere i prelievi qualificati da un conto Roth?
+   A. Al momento del versamento
+   B. In genere non vengono tassati al prelievo, perché l'imposta è stata pagata subito
+   C. Due volte: sia al versamento sia al prelievo
+   D. Non si versa mai denaro reale
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. La tempistica del vantaggio fiscale è la differenza fondamentale.
+
+### Domanda 2
+
+Risposta corretta: Falso. I versamenti tradizionali sono spesso effettuati al lordo delle imposte.
+
+### Domanda 3
+
+Risposta corretta: B. Nei conti Roth l'imposta si paga subito, quindi i prelievi qualificati sono in genere esenti in seguito.
+
+## Punti chiave
+
+- Sia i conti tradizionali sia quelli Roth offrono vantaggi fiscali, in momenti diversi.
+- Tradizionale: spesso agevolato oggi, tassato in seguito al prelievo.
+- Roth: tassato oggi, in genere esente al prelievo qualificato in seguito.

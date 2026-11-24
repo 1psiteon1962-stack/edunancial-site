@@ -1,0 +1,364 @@
+===== WHITE-L1-016
+TITLE: Wat is een bullmarkt en wat is een bearmarkt?
+SUMMARY: Leer wat bull- en bearmarkten betekenen, en waarom de labels een trend beschrijven, geen garantie voor wat er daarna gebeurt.
+# Wat is een bullmarkt en wat is een bearmarkt?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een bullmarkt en een bearmarkt te definiëren.
+- uit te leggen waarop deze labels doorgaans gebaseerd zijn.
+- uit te leggen waarom ze een trend beschrijven, geen gegarandeerde toekomst.
+
+## Kerninhoud
+
+### Wat elke term betekent
+
+Een bullmarkt verwijst doorgaans naar een aanhoudende periode van stijgende koersen op een markt. Een bearmarkt verwijst doorgaans naar een aanhoudende periode van dalende koersen, vaak losjes gedefinieerd als een daling van een flink percentage (meestal rond 20%) ten opzichte van een recente top.
+
+### Waarop de labels gebaseerd zijn
+
+Deze termen beschrijven een waargenomen trend over een bepaalde periode, geen voorspelling. Een markt krijgt doorgaans het label "bull" of "bear" op basis van koersbewegingen die al hebben plaatsgevonden, terugkijkend of op basis van een huidig, aanhoudend patroon.
+
+### Waarom ze geen garantie zijn
+
+In een bull- of bearmarkt zitten garandeert niet wat er daarna gebeurt: markten kunnen van de ene in de andere overgaan, en niemand kan betrouwbaar voorspellen wanneer die omslag precies plaatsvindt. De huidige labels als voorspelling behandelen is een veelvoorkomende maar riskante aanname.
+
+## Praktijkvoorbeeld
+
+Een markt die twee jaar gestaag is gestegen, kan een bullmarkt worden genoemd, maar dat label beschrijft wat al is gebeurd, geen garantie dat de koersen blijven stijgen.
+
+## Oefenquiz
+
+1. Een bullmarkt verwijst doorgaans naar:
+   A. Een aanhoudende periode van dalende koersen
+   B. Een aanhoudende periode van stijgende koersen
+   C. Eén handelsdag
+   D. Een soort obligatie
+
+2. Waar of onwaar: het label "bullmarkt" garandeert dat de koersen blijven stijgen.
+
+3. Waarop zijn de labels bull- en bearmarkt doorgaans gebaseerd?
+   A. Een aankondiging van de overheid
+   B. Een waargenomen koerstrend over een bepaalde periode
+   C. Het winstrapport van één bedrijf
+   D. Het weer
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een bullmarkt verwijst naar een aanhoudende stijgende trend.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het label beschrijft een eerdere of huidige trend, geen gegarandeerde toekomst.
+
+### Vraag 3
+
+Juist antwoord: B. Deze labels weerspiegelen een waargenomen koerstrend.
+
+## Belangrijkste punten
+
+- Een bullmarkt is een aanhoudende stijgende trend; een bearmarkt is een aanhoudende dalende trend.
+- Deze labels beschrijven een waargenomen trend, geen voorspelling.
+- Markten kunnen onvoorspelbaar van de ene in de andere overgaan.
+
+===== WHITE-L1-017
+TITLE: Wat is samengestelde rente? (Het idee dat iedereen noemt, maar weinigen uitleggen)
+SUMMARY: Leer stap voor stap hoe samengestelde rente werkelijk werkt, niet alleen als modewoord.
+# Wat is samengestelde rente? (Het idee dat iedereen noemt, maar weinigen uitleggen)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- samengestelde rente in eenvoudige woorden te definiëren.
+- het te onderscheiden van enkelvoudige rente.
+- een eenvoudig voorbeeld van samengestelde groei over een paar perioden te berekenen.
+
+## Kerninhoud
+
+### Wat samengestelde rente is
+
+Samengestelde rente is rente die niet alleen wordt berekend over het oorspronkelijk belegde bedrag, maar ook over de rente die al is opgebouwd: groei bouwt voort op eerdere groei, niet alleen op het startbedrag.
+
+### Samengestelde en enkelvoudige rente
+
+Enkelvoudige rente wordt elke periode alleen over het oorspronkelijke bedrag berekend. Samengestelde rente wordt berekend over het oorspronkelijke bedrag plus alle eerder verdiende rente: dat is precies de reden waarom samengestelde groei in de loop van de tijd versnelt.
+
+### Een stapsgewijs voorbeeld
+
+Je begint met $ 1.000 tegen 10% samengestelde rente per jaar: na jaar 1 is het $ 1.100. Na jaar 2 wordt de rente berekend over $ 1.100 (niet alleen over de oorspronkelijke $ 1.000), wat $ 1.210 oplevert. Na jaar 3 wordt die berekend over $ 1.210, wat $ 1.331 oplevert: de groei versnelt omdat de rente van elk jaar over een grotere basis wordt berekend.
+
+## Praktijkvoorbeeld
+
+$ 1.000 tegen 10% enkelvoudige rente levert elk jaar precies $ 100 op: $ 1.100, $ 1.200, $ 1.300. Dezelfde $ 1.000 tegen 10% samengestelde rente wordt $ 1.100, $ 1.210, $ 1.331: een klein maar groeiend verschil dat over langere perioden flink toeneemt.
+
+## Oefenquiz
+
+1. Samengestelde rente wordt berekend over:
+   A. Alleen het oorspronkelijk belegde bedrag
+   B. Het oorspronkelijke bedrag plus eerder verdiende rente
+   C. Een vast tarief van de overheid
+   D. Alleen de inleg van het laatste jaar
+
+2. Waar of onwaar: enkelvoudige en samengestelde rente leveren op termijn identieke resultaten op.
+
+3. $ 1.000 groeit na jaar 1 tot $ 1.100 tegen 10% samengestelde rente. Waartoe zou het na jaar 2 groeien?
+   A. $ 1.100
+   B. $ 1.200
+   C. $ 1.210
+   D. $ 1.300
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. C
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Samengestelde rente bouwt voort op zowel de hoofdsom als de opgebouwde rente.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Samengestelde rente groeit op termijn sneller dan enkelvoudige rente.
+
+### Vraag 3
+
+Juist antwoord: C. $ 1.100 × 1,10 = $ 1.210 (10% groei over de nieuwe, grotere basis).
+
+## Belangrijkste punten
+
+- Samengestelde rente wordt berekend over de hoofdsom plus de opgebouwde rente.
+- Dat is het belangrijkste verschil met enkelvoudige rente, die alleen het oorspronkelijke bedrag gebruikt.
+- Het verschil tussen samengestelde en enkelvoudige rente wordt over langere perioden groter.
+
+===== WHITE-L1-018
+TITLE: Wat is een 401(k)?
+SUMMARY: Leer wat een 401(k) is, hoe die doorgaans werkt en welk veelvoorkomend werkgeversvoordeel eraan verbonden is.
+# Wat is een 401(k)?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een 401(k) in eenvoudige woorden te definiëren.
+- uit te leggen hoe inleg doorgaans werkt.
+- uit te leggen wat een werkgeversbijdrage (match) is.
+
+## Kerninhoud
+
+### Wat een 401(k) is
+
+*(REGIOSPECIFIEKE REGEL: dit is een type pensioenrekening dat specifiek is voor de Verenigde Staten. In Nederland verloopt aanvullend pensioen vaak via een pensioenregeling van de werkgever bij een pensioenfonds of verzekeraar, met eigen regels; controleer dit met een adviseur.)* Een 401(k) is een pensioenspaarrekening die door de werkgever wordt aangeboden, waarmee werknemers een deel van hun salaris kunnen inleggen, vaak met belastingvoordelen, voor hun pensioenvermogen op lange termijn.
+
+### Hoe inleg doorgaans werkt
+
+Werknemers kiezen doorgaans een percentage of bedrag van hun salaris dat automatisch wordt ingelegd en vervolgens wordt belegd in de opties die de regeling van de werkgever biedt (vaak een keuzemenu van fondsen, waaronder opties zoals de ETF's en beleggingsfondsen die eerder in dit niveau aan bod kwamen).
+
+### Wat een werkgeversbijdrage is
+
+Veel werkgevers bieden een "match": ze leggen extra geld in op basis van wat de werknemer inlegt, tot een bepaalde grens. Dit is in feite extra beloning die specifiek verbonden is aan deelname aan de regeling, en een beschikbare bijdrage niet volledig benutten wordt vaak genoemd als een gemiste kans.
+
+## Praktijkvoorbeeld
+
+Een werkgever biedt aan 50% van de inleg van de werknemer bij te leggen, tot 6% van het salaris. Een werknemer die $ 50.000 verdient en 6% ($ 3.000) inlegt, krijgt $ 1.500 extra van de werkgever: geld dat hij zonder inleg niet zou ontvangen.
+
+## Oefenquiz
+
+1. Een 401(k) is:
+   A. Een soort betaalrekening
+   B. Een pensioenspaarrekening die door de werkgever wordt aangeboden
+   C. Een overheidspensioen dat automatisch wordt uitgekeerd
+   D. Een soort obligatie
+
+2. Waar of onwaar: alle werkgevers zijn verplicht een werkgeversbijdrage aan te bieden.
+
+3. Wat is een werkgeversbijdrage (match)?
+   A. Een belastingboete
+   B. Extra inleg van de werkgever op basis van wat de werknemer inlegt
+   C. Een soort lening
+   D. Een vaste overheidsbetaling
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een 401(k) is een pensioenrekening die door de werkgever wordt aangeboden.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een werkgeversbijdrage is gebruikelijk, maar niet overal verplicht of beschikbaar.
+
+### Vraag 3
+
+Juist antwoord: B. Een match is extra geld van de werkgever dat gekoppeld is aan de inleg van de werknemer.
+
+## Belangrijkste punten
+
+- Een 401(k) is een pensioenspaarrekening die door de werkgever wordt aangeboden.
+- Inleg gebeurt doorgaans automatisch, via inhouding op het salaris.
+- Een werkgeversbijdrage is, als die wordt aangeboden, in feite extra beloning voor deelname.
+
+===== WHITE-L1-019
+TITLE: Wat is een IRA, en hoe verschilt die van een 401(k)?
+SUMMARY: Leer wat een IRA is, en wat het kernverschil is met een door de werkgever aangeboden 401(k).
+# Wat is een IRA, en hoe verschilt die van een 401(k)?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een IRA in eenvoudige woorden te definiëren.
+- het kernverschil tussen een IRA en een 401(k) uit te leggen.
+- te herkennen dat beide hetzelfde algemene doel van pensioensparen dienen.
+
+## Kerninhoud
+
+### Wat een IRA is
+
+*(REGIOSPECIFIEKE REGEL: dit is een type rekening dat specifiek is voor de Verenigde Staten. In Nederland kun je individueel aanvullend pensioen opbouwen met bijvoorbeeld een lijfrenterekening of lijfrentebeleggingsrecht, en in België met pensioensparen; controleer de regels met een adviseur.)* Een IRA (Individual Retirement Account) is een pensioenspaarrekening die iemand zelf opent, los van een werkgever, vaak bij een bank of beleggingsinstelling.
+
+### Het kernverschil met een 401(k)
+
+Een 401(k) is gekoppeld aan een werkgever en doorgaans alleen beschikbaar zolang je daar werkt. Een IRA wordt zelfstandig door een persoon geopend en is niet aan een specifieke werkgever gekoppeld: iemand kan een IRA hebben, of hij nu wel of geen baan heeft met een 401(k).
+
+### Hetzelfde algemene doel
+
+Ondanks het structurele verschil dienen beide rekeningtypes hetzelfde kerndoel: sparen voor het pensioen aanmoedigen en daarvoor fiscaal gunstige manieren bieden.
+
+## Praktijkvoorbeeld
+
+Iemand die als zelfstandige werkt, zonder 401(k) van een werkgever, kan toch zelfstandig een IRA openen en erin inleggen: de rekening is helemaal niet gekoppeld aan het hebben van een specifieke werkgever.
+
+## Oefenquiz
+
+1. Een IRA is:
+   A. Alleen beschikbaar via een werkgever
+   B. Een pensioenrekening die iemand zelfstandig opent
+   C. Een soort betaalrekening
+   D. Een overheidspensioen
+
+2. Waar of onwaar: een 401(k) en een IRA zijn op precies dezelfde manier aan een werkgever gekoppeld.
+
+3. Kan iemand zonder 401(k) van een werkgever toch voor zijn pensioen sparen via een IRA?
+   A. Nee, er is altijd een werkgever nodig
+   B. Ja, een IRA wordt los van elke werkgever geopend
+   C. Alleen als hij al met pensioen is
+   D. Alleen ambtenaren kunnen een IRA openen
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een IRA wordt zelfstandig door een persoon geopend.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een 401(k) is aan een werkgever gekoppeld; een IRA niet.
+
+### Vraag 3
+
+Juist antwoord: B. IRA's staan los van een regeling van een werkgever.
+
+## Belangrijkste punten
+
+- Een IRA is een pensioenrekening die zelfstandig wordt geopend, niet gekoppeld aan een werkgever.
+- Dat is het structurele kernverschil met een 401(k).
+- Beide dienen hetzelfde algemene doel: fiscaal gunstig sparen voor het pensioen.
+
+===== WHITE-L1-020
+TITLE: Traditional of Roth: wat is er werkelijk anders aan de fiscale behandeling?
+SUMMARY: Leer het kernverschil in fiscale timing tussen traditionele en Roth-pensioenrekeningen.
+# Traditional of Roth: wat is er werkelijk anders aan de fiscale behandeling?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- het kernverschil in fiscale timing tussen traditionele en Roth-rekeningen uit te leggen.
+- uit te leggen wanneer een traditionele rekening wordt belast.
+- uit te leggen wanneer een Roth-rekening wordt belast.
+
+## Kerninhoud
+
+### Het kernverschil in fiscale timing
+
+*(REGIOSPECIFIEKE REGEL: dit beschrijft een Amerikaans fiscaal begrip. In Nederland is lijfrente-inleg binnen grenzen aftrekbaar en wordt de latere uitkering belast, wat lijkt op het traditionele model; controleer de regels met een belastingadviseur.)* Zowel traditionele als Roth-rekeningen (beschikbaar als 401(k)- of IRA-variant) bieden belastingvoordelen: het echte verschil is WANNEER het belastingvoordeel geldt, niet of de ene in elke situatie beter is.
+
+### Traditionele rekeningen
+
+Inleg op een traditionele rekening gebeurt vaak vóór belasting, en opnames tijdens het pensioen worden doorgaans op dat latere moment als inkomen belast.
+
+### Roth-rekeningen
+
+Inleg op een Roth-rekening gebeurt met geld waarover al belasting is betaald, maar gekwalificeerde opnames tijdens het pensioen zijn doorgaans belastingvrij: de belasting wordt vooraf betaald in plaats van later.
+
+## Praktijkvoorbeeld
+
+Een inleg op een traditionele rekening verlaagt nu het belastbaar inkomen, en er wordt later belasting betaald over de opnames. Een Roth-inleg geeft nu geen belastingvoordeel, maar gekwalificeerde opnames later zijn doorgaans belastingvrij: dezelfde dollar, op een ander moment belast.
+
+## Oefenquiz
+
+1. Het kernverschil tussen traditionele en Roth-rekeningen is:
+   A. Alleen traditionele rekeningen maken beleggen in aandelen mogelijk
+   B. Wanneer het belastingvoordeel geldt: nu of later
+   C. Roth-rekeningen zijn alleen voor werkgevers
+   D. Er is geen echt verschil
+
+2. Waar of onwaar: inleg op traditionele rekeningen gebeurt doorgaans met geld waarover al belasting is betaald.
+
+3. Wanneer worden gekwalificeerde opnames van een Roth-rekening doorgaans belast?
+   A. Bij de inleg
+   B. Doorgaans niet bij de opname, omdat de belasting vooraf is betaald
+   C. Twee keer: zowel bij inleg als bij opname
+   D. Er wordt nooit met echt geld ingelegd
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. De timing van het belastingvoordeel is het kernverschil.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Traditionele inleg gebeurt vaak vóór belasting.
+
+### Vraag 3
+
+Juist antwoord: B. Bij Roth-rekeningen wordt de belasting vooraf betaald, dus gekwalificeerde opnames zijn later doorgaans belastingvrij.
+
+## Belangrijkste punten
+
+- Zowel traditionele als Roth-rekeningen bieden belastingvoordelen, op verschillende momenten.
+- Traditioneel: vaak nu fiscaal voordelig, later belast bij opname.
+- Roth: nu belast, later bij gekwalificeerde opname doorgaans belastingvrij.
