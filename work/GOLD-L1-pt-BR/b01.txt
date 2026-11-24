@@ -1,0 +1,223 @@
+===== GOLD-L1-001
+TITLE: As quatro funções do dinheiro: ganhar, conservar, crescer e transmitir
+SUMMARY: Apresenta o modelo Ganhar/Conservar/Crescer/Transmitir que organiza toda a trilha GOLD.
+# As quatro funções do dinheiro: ganhar, conservar, crescer e transmitir
+
+## Objetivos de aprendizagem
+- Identificar as quatro funções fundamentais que o dinheiro cumpre ao longo da vida
+- Explicar por que grande parte da confusão financeira vem de misturar essas funções
+- Reconhecer a qual função uma decisão financeira específica realmente pertence
+
+## Conteúdo principal
+
+A maioria das pessoas pensa no dinheiro como uma grande mistura: ganhar, gastar, poupar e investir, tudo junto. Ajuda dividir o trabalho do dinheiro em quatro funções distintas: **Ganhar** (gerar renda), **Conservar** (proteger o que você ganhou contra perdas, impostos e riscos desnecessários), **Crescer** (investir para que o dinheiro aumente de valor com o tempo) e **Transmitir** (transferir patrimônio para a próxima geração ou para uma causa importante para você).
+
+Muitos erros financeiros acontecem porque as pessoas aplicam a estratégia errada à função errada. Tratar o dinheiro de "Crescer" (investimentos de longo prazo) como dinheiro de "Conservar" (que precisa ficar seguro e disponível) significa perder um crescimento real. Tratar o dinheiro de "Conservar" como dinheiro de "Crescer" significa correr riscos com recursos que você realmente não pode se dar ao luxo de perder. Cada função tem regras diferentes, prazos diferentes e ferramentas diferentes.
+
+Esta trilha se concentra bastante na função "Crescer" – investir –, mas entender as quatro ajuda a ver onde o investimento realmente se encaixa no quadro maior de uma vida financeira, em vez de tratá-lo como a única coisa que importa.
+
+## Exemplo prático
+
+Uma pessoa tem R$ 10.000. Se ela precisa de R$ 2.000 desse valor para emergências nos próximos seis meses, essa é uma função de "Conservar": o dinheiro precisa estar seguro e acessível, e não investido em algo que pode cair 20% justamente quando ela precisar dele. Se ela tem R$ 8.000 de que não vai precisar por dez anos, essa é uma função de "Crescer": esse dinheiro pode suportar mais risco em troca de mais retorno potencial, porque o tempo lhe dá espaço para se recuperar de quedas de curto prazo.
+
+Confundir as duas – investir o fundo de emergência ou deixar parado em dinheiro o valor de dez anos – significa que o dinheiro não está fazendo o trabalho que realmente deveria fazer.
+
+## Teste de prática
+
+1. Cite as quatro funções do dinheiro neste modelo.
+2. Que tipo de erro financeiro, segundo esta lição, acontece quando as funções se misturam?
+3. Em qual função esta trilha se concentra mais?
+4. No exemplo prático, por que o fundo de emergência não deveria ser investido?
+
+## Gabarito
+1. Ganhar, Conservar, Crescer, Transmitir.
+2. Aplicar a estratégia errada (nível de risco, prazo, ferramenta) à função errada.
+3. Crescer – investir.
+4. Porque ele precisa ficar seguro e acessível para uso no curto prazo, e não exposto ao risco de quedas de valor de curto prazo.
+
+## Respostas e explicações
+1. Isso define o modelo de quatro partes em torno do qual toda a trilha é organizada.
+2. A incompatibilidade entre estratégia e função é apontada como causa de erros financeiros comuns.
+3. Isso esclarece o foco específico da trilha dentro do modelo mais amplo das quatro funções.
+4. A incompatibilidade de prazo é a questão central: necessidades de curto prazo exigem segurança, não risco voltado ao crescimento.
+
+## Pontos-chave
+- O dinheiro cumpre quatro funções distintas: Ganhar, Conservar, Crescer e Transmitir.
+- Muitos erros financeiros vêm de aplicar a estratégia errada à função errada.
+- Esta trilha se concentra em Crescer (investir), situando essa função dentro do quadro maior das quatro funções.
+
+===== GOLD-L1-002
+TITLE: O que investir realmente significa
+SUMMARY: Define investir em termos simples e diferencia o investimento da poupança e da especulação.
+# O que investir realmente significa
+
+## Objetivos de aprendizagem
+- Definir investimento em termos simples
+- Diferenciar investimento de poupança e de especulação
+- Identificar o papel do tempo e do risco no investimento
+
+## Conteúdo principal
+
+Investir significa colocar dinheiro em algo com a expectativa de que ele cresça de valor com o tempo, com base em alguma razão concreta para esperar esse crescimento – uma empresa que gera lucros, um metal de valor duradouro, um imóvel que se valoriza com a demanda. Isso é diferente de poupar, que significa guardar dinheiro com segurança sem esperar um crescimento significativo, e diferente de especular, que significa apostar na variação de preço sem muita razão concreta para esperar determinado resultado – algo mais próximo de um jogo de azar do que de um investimento.
+
+Tempo e risco são as duas variáveis centrais do investimento. Em geral, assumir mais risco oferece a possibilidade de mais retorno, mas também de mais perda – não existe uma forma confiável de obter retornos maiores sem aceitar mais incerteza. O tempo trabalha a favor do investidor: com tempo suficiente, os altos e baixos normais de curto prazo tendem a se suavizar, e é por isso que o investimento de longo prazo e a especulação de curto prazo exigem mentalidades muito diferentes, mesmo quando às vezes envolvem o mesmo ativo.
+
+## Exemplo prático
+
+Comprar ações de uma empresa bem estabelecida porque você acredita que os produtos dela continuarão gerando lucros na próxima década é investir: existe uma razão concreta para o crescimento esperado. Comprar as mesmas ações apenas porque o preço vem subindo recentemente e você espera vendê-las antes que caiam, sem nenhuma opinião sobre o negócio em si, é especular: você está apostando na própria variação de preço, e não em uma razão concreta de valor.
+
+## Teste de prática
+
+1. Defina investimento com suas próprias palavras.
+2. Como o investimento se diferencia da poupança?
+3. Como o investimento se diferencia da especulação?
+4. Segundo esta lição, quais são as duas variáveis centrais do investimento?
+
+## Gabarito
+1. Colocar dinheiro em algo com expectativa de crescimento baseada em uma razão concreta.
+2. A poupança guarda dinheiro com segurança sem esperar crescimento significativo; o investimento espera crescimento com base em uma razão real.
+3. O investimento se baseia em uma razão concreta de valor; a especulação aposta na variação de preço sem muito fundamento.
+4. Tempo e risco.
+
+## Respostas e explicações
+1. Isso capta a distinção essencial entre investir e simplesmente guardar dinheiro.
+2. A expectativa de crescimento e a razão concreta separam o investimento da simples poupança.
+3. A razão concreta versus a aposta pura no preço é a distinção-chave em relação à especulação.
+4. Essas duas variáveis interagem ao longo de todos os conceitos de investimento do restante da trilha.
+
+## Pontos-chave
+- Investir significa fazer o dinheiro crescer com o tempo com base em uma razão concreta para esperar esse crescimento.
+- O investimento se diferencia da poupança (segurança sem crescimento) e da especulação (apostar apenas na variação de preço).
+- Tempo e risco são as duas variáveis centrais que moldam toda decisão de investimento.
+
+===== GOLD-L1-003
+TITLE: Por que metais preciosos? Uma classe de ativos de referência
+SUMMARY: Apresenta os metais preciosos como o ativo concreto de referência usado ao longo desta trilha para ensinar princípios de investimento.
+# Por que metais preciosos? Uma classe de ativos de referência
+
+## Objetivos de aprendizagem
+- Explicar por que esta trilha usa os metais preciosos como principal exemplo de ensino
+- Identificar as características básicas que tornam o ouro e a prata estudos de caso úteis de investimento
+- Entender que as lições aprendidas com os metais se aplicam amplamente a outros investimentos
+
+## Conteúdo principal
+
+Esta trilha usa os metais preciosos – principalmente ouro e prata – como uma referência concreta e consistente para ensinar princípios de investimento. Os metais funcionam bem para esse fim porque são fáceis de entender fisicamente (você pode segurar uma onça de prata ou um grama de ouro e saber exatamente o que tem), seus preços estão disponíveis publicamente e de forma constante, e eles mantêm valor reconhecido ao longo de uma história muito longa, o que os torna uma lente clara para conceitos como risco, crescimento e investimento periódico em valor fixo, sem a complexidade adicional de fatores específicos de uma empresa.
+
+É importante entender desde já: o objetivo desta trilha não é defender que os metais preciosos são o "melhor" investimento ou o único que vale a pena fazer. O objetivo é usar um ativo simples e tangível para ensinar princípios de investimento com clareza, de modo que esses mesmos princípios – diversificação, tolerância ao risco, investimento periódico em valor fixo, pensamento de longo prazo – possam ser aplicados a qualquer classe de ativos que o aluno encontre depois, incluindo ações, imóveis ou a propriedade de um negócio.
+
+## Exemplo prático
+
+FATO VERIFICADO: O ouro e a prata foram usados como reserva de valor em muitas culturas e períodos históricos diferentes, o que explica em parte por que são um ponto de entrada útil e amplamente reconhecido para ensinar conceitos de investimento. EXEMPLO ILUSTRATIVO: Ao longo desta trilha, um aluno [o aluno do estudo de caso biográfico] será usado para mostrar esses princípios aplicados a um padrão real de acumulação ao longo dos anos – começando com prata em onças e depois acrescentando ouro em gramas –, não porque os metais estejam sendo promovidos como superiores a outros ativos, mas porque a simplicidade das onças e gramas físicos torna a matemática e o comportamento subjacentes fáceis de acompanhar.
+
+## Teste de prática
+
+1. Por que esta trilha usa os metais preciosos como referência de ensino?
+2. Esta trilha defende que os metais preciosos são o "melhor" investimento?
+3. Cite duas características que tornam os metais úteis para ensinar conceitos de investimento.
+4. Qual é o objetivo final de usar os metais como ativo de referência?
+
+## Gabarito
+1. Porque são simples, tangíveis e têm valor amplamente reconhecido, o que os torna uma lente clara para ensinar conceitos centrais.
+2. Não – o objetivo é ensinar princípios transferíveis, não promover uma classe de ativos como superior.
+3. Duas entre: fisicamente fáceis de entender, preços disponíveis publicamente, longa história de valor reconhecido.
+4. Ensinar princípios (diversificação, risco, investimento periódico em valor fixo, pensamento de longo prazo) que se aplicam amplamente a outras classes de ativos depois.
+
+## Respostas e explicações
+1. A simplicidade e a tangibilidade tornam os metais um ponto de entrada acessível para conceitos fundamentais de investimento.
+2. Isso corrige explicitamente qualquer suposição de que a trilha promova os metais como intrinsecamente superiores.
+3. Essas características reduzem a complexidade, deixando os conceitos centrais de investimento bem evidentes.
+4. A transferibilidade dos princípios subjacentes é o verdadeiro objetivo pedagógico, não a promoção de um ativo.
+
+## Pontos-chave
+- Esta trilha usa os metais preciosos como referência simples e tangível para ensinar princípios de investimento, não como recomendação dos metais em detrimento de outros ativos.
+- A simplicidade, a transparência de preços e a longa história dos metais fazem deles uma lente clara para conceitos fundamentais.
+- Os princípios ensinados por meio dos metais – diversificação, risco, investimento periódico em valor fixo, pensamento de longo prazo – se aplicam amplamente a qualquer classe de ativos que o aluno encontre no futuro.
+
+===== GOLD-L1-004
+TITLE: Ouro e prata: dois metais, papéis diferentes
+SUMMARY: Compara o ouro e a prata como ativos de investimento e explica por que ambos aparecem no estudo de caso da trilha.
+# Ouro e prata: dois metais, papéis diferentes
+
+## Objetivos de aprendizagem
+- Comparar as características básicas do ouro e da prata como ativos de investimento
+- Explicar por que a volatilidade de preço difere entre os dois metais
+- Reconhecer por que um aluno pode ter os dois em vez de apenas um
+
+## Conteúdo principal
+
+O ouro e a prata são metais preciosos com longa história como reserva de valor, mas se comportam de forma diferente como investimentos. FATO VERIFICADO: A prata tem demanda industrial (usada em eletrônicos, painéis solares e outros processos de fabricação) além da demanda de investimento, enquanto a demanda do ouro é impulsionada muito mais pelo investimento e pela joalheria do que pelo uso industrial. Essa diferença nas fontes de demanda explica em parte por que a prata historicamente tende a ser mais volátil: seu preço pode ser mais sensível às oscilações da demanda industrial e da atividade econômica do que o do ouro.
+
+A prata também tem um preço por unidade muito mais baixo que o do ouro, o que significa que um mesmo valor em dinheiro compra muito mais onças de prata do que gramas de ouro. Isso faz da prata um ponto de entrada comum para investidores mais jovens ou com orçamento menor: é possível começar a acumular uma quantidade significativa de onças com pouco dinheiro, criando o hábito de investir com regularidade antes de passar para um ativo de preço mais alto, como o ouro.
+
+## Exemplo prático
+
+EXEMPLO ILUSTRATIVO: No estudo de caso que acompanha esta trilha, o filho começa a acumular prata em onças aos 11 anos, quando uma quantia modesta ainda podia comprar uma quantidade significativa do metal, o que lhe permite criar cedo o hábito de investir com regularidade. Aos 15 anos, com uma base acumulada maior e uma renda mais regular, ele começa a acrescentar ouro em gramas – um metal de preço mais alto e geralmente menos volátil –, construindo uma posição em dois metais em vez de depender de apenas um.
+
+## Teste de prática
+
+1. Qual é uma diferença-chave nas fontes de demanda entre o ouro e a prata?
+2. Por que a prata historicamente tende a ser mais volátil que o ouro?
+3. Por que a prata pode ser um ponto de entrada comum para investidores com orçamento menor?
+4. No estudo de caso, por que o filho começou com prata antes de acrescentar ouro?
+
+## Gabarito
+1. A prata tem uma demanda industrial significativa além da demanda de investimento; a demanda do ouro é impulsionada mais pelo investimento e pela joalheria.
+2. Porque seu preço pode ser mais sensível às oscilações da atividade industrial e econômica.
+3. Porque seu preço mais baixo por unidade permite acumular quantidades significativas com pouco dinheiro.
+4. O preço mais baixo da prata permitiu que ele começasse cedo a acumular quantidades significativas com pouco dinheiro, criando o hábito antes de acrescentar depois um metal de preço mais alto.
+
+## Respostas e explicações
+1. Essa distinção explica os diferentes fatores de demanda por trás do comportamento de preço de cada metal.
+2. A sensibilidade à demanda industrial é o mecanismo por trás da volatilidade geralmente maior da prata.
+3. O preço mais baixo por unidade torna a prata mais acessível para criar o hábito de investir com recursos limitados.
+4. Isso reflete uma escolha deliberada e prática de sequência, baseada na acessibilidade de preço e na criação do hábito.
+
+## Pontos-chave
+- O ouro e a prata diferem nos fatores de demanda, e a prata é mais exposta às oscilações industriais e econômicas.
+- O preço mais baixo por unidade da prata a torna acessível para investidores mais jovens ou com orçamento menor começarem a acumular quantidades significativas.
+- Ter os dois metais, como no estudo de caso desta trilha, reflete uma sequência deliberada que vai de um ponto de entrada acessível a uma posição mais diversificada.
+
+===== GOLD-L1-005
+TITLE: Noções básicas do investimento periódico em valor fixo
+SUMMARY: Apresenta o investimento periódico em valor fixo (DCA) como uma abordagem disciplinada e resistente às emoções.
+# Noções básicas do investimento periódico em valor fixo
+
+## Objetivos de aprendizagem
+- Definir em termos simples o investimento periódico em valor fixo
+- Explicar por que essa abordagem reduz o impacto de tentar adivinhar o momento perfeito de comprar
+- Praticar a aplicação do conceito a um exemplo simples
+
+## Conteúdo principal
+
+O investimento periódico em valor fixo (em inglês dollar-cost averaging, muitas vezes abreviado como DCA) significa investir um valor fixo em intervalos regulares – por exemplo, todo mês –, independentemente do que o preço esteja fazendo naquele momento, em vez de tentar acertar o momento "perfeito" para uma única compra grande. Como o valor investido é sempre o mesmo, você naturalmente compra mais unidades quando o preço está baixo e menos unidades quando o preço está alto, sem precisar prever nada.
+
+Isso importa porque prever de forma consistente o melhor momento de comprar é extremamente difícil, até para profissionais, e tentar fazer isso muitas vezes leva a hesitação, oportunidades perdidas ou compras em maus momentos guiados pela emoção (como comprar quando os preços estão subindo e todo mundo está empolgado, e hesitar quando os preços caem e todo mundo está nervoso – exatamente o contrário do ideal). O DCA elimina totalmente essa decisão, tornando o momento da compra automático e regular.
+
+## Exemplo prático
+
+EXEMPLO ILUSTRATIVO: Suponha que alguém invista R$ 50 por mês em prata, qualquer que seja o preço. Num mês em que a prata custa R$ 25 por onça, esses R$ 50 compram 2 onças. Num mês em que o preço cai para R$ 20 por onça, os mesmos R$ 50 compram 2,5 onças – comprando automaticamente mais quando está mais barato. Ao longo de muitos meses, isso equilibra o preço médio pago por onça, sem que o investidor precise adivinhar qual mês era o "melhor" para comprar.
+
+## Teste de prática
+
+1. Defina o investimento periódico em valor fixo com suas próprias palavras.
+2. No DCA, o que acontece com o número de unidades compradas quando o preço está baixo?
+3. Por que é difícil tentar acertar uma única compra "perfeita"?
+4. Se alguém investe R$ 100 por mês e o preço é R$ 10 num mês e R$ 20 no seguinte, quantas unidades no total essa pessoa tem depois dos dois meses?
+
+## Gabarito
+1. Investir um valor fixo em intervalos regulares, independentemente do preço, em vez de tentar acertar o momento de uma única compra.
+2. Mais unidades são compradas quando o preço está baixo, pois o valor fixo rende mais.
+3. Porque prever as variações de preço de forma consistente é extremamente difícil, até para profissionais.
+4. 10 unidades no primeiro mês (R$ 100/R$ 10) mais 5 unidades no segundo (R$ 100/R$ 20), totalizando 15 unidades.
+
+## Respostas e explicações
+1. Isso capta a mecânica central do DCA: valor fixo, intervalo regular, nenhuma previsão de preço necessária.
+2. Esse é o benefício embutido do DCA: comprar automaticamente mais quando os preços estão favoráveis.
+3. A dificuldade de prever é a razão de fundo pela qual o DCA é uma alternativa útil e resistente às emoções.
+4. Aplicar a fórmula diretamente nos dois meses demonstra a mecânica prática do DCA.
+
+## Pontos-chave
+- O investimento periódico em valor fixo significa investir um valor fixo em intervalos regulares, independentemente do preço.
+- Isso naturalmente compra mais unidades quando os preços estão baixos e menos quando estão altos, sem exigir previsões.
+- O DCA elimina o desafio difícil, muitas vezes guiado pela emoção, de tentar acertar a compra "perfeita".
