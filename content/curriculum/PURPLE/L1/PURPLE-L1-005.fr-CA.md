@@ -5,58 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 5
 locale: fr-CA
-title: "Contrats écrits et verbaux : pourquoi il est important de mettre l’entente par écrit"
-summary: "Explique les risques pratiques des ententes verbales et pourquoi certaines ententes doivent être écrites."
+title: "Contrats écrits ou verbaux : pourquoi il faut « tout mettre par écrit »"
+summary: "Explique les raisons pratiques et juridiques pour lesquelles les contrats écrits sont fortement préférables, avec une brève présentation de la notion de « Statute of Frauds »."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Contrats écrits et verbaux : pourquoi il est important de mettre l’entente par écrit
+# Contrats écrits ou verbaux : pourquoi il faut « tout mettre par écrit »
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des décisions pratiques liées au patrimoine, aux affaires ou aux investissements.
-- Reconnaître quand une situation peut nécessiter des conseils juridiques professionnels.
+- Expliquer la différence générale de caractère exécutoire entre les contrats écrits et les contrats verbaux.
+- Repérer les risques pratiques liés au fait de se fier à une entente verbale.
+- Présenter l’idée que certains types de contrats doivent légalement être faits par écrit.
 
 ## Contenu principal
 
-Certaines ententes verbales peuvent être exécutoires, mais prouver exactement ce qui a été convenu devient difficile lorsqu’un différend survient. Un contrat écrit crée un dossier clair des conditions, du prix et des obligations. De plus, plusieurs juridictions exigent que certaines catégories d’ententes, notamment certaines transactions immobilières, soient constatées par écrit. Les règles précises varient selon le pays et la juridiction. Documenter clairement les ententes importantes réduit l’ambiguïté et facilite l’obtention de conseils professionnels au besoin.
+Bien des ententes verbales peuvent techniquement être juridiquement contraignantes — mais prouver ce qui a réellement été convenu devient un sérieux problème pratique si les parties sont plus tard en désaccord sur les modalités. Un contrat écrit crée un registre clair et commun : modalités exactes, prix exact, conditions exactes, signés par les deux parties. Une entente verbale repose entièrement sur la mémoire et l’honnêteté, qui ont tendance à faire défaut précisément au moment où elles comptent le plus — quand un litige survient et que de l’argent est en jeu.
+
+Au-delà du risque pratique, de nombreux systèmes juridiques ont une règle, souvent appelée *Statute of Frauds*, qui exige que certains types d’ententes — notamment, bien souvent, les transactions immobilières — soient faits par écrit pour être exécutoires, peu importe à quel point l’entente verbale semblait claire sur le moment. (Au Canada, les règles de forme et de preuve varient selon la province; au Québec, le Code civil prévoit ses propres règles de preuve. Vérifiez auprès d’un professionnel.) C’est l’un des conseils juridiques pratiques les plus clairs et les plus universels dans les volets RED, WHITE et BLUE : mettez tout par écrit, chaque fois, même quand vous faites entièrement confiance à l’autre partie — parce que la confiance ne crée pas de preuve sur laquelle un tribunal pourra s’appuyer plus tard.
 
 ## Exemple pratique
 
-Une personne fait face à une décision financière ou commerciale liée à ce sujet. Plutôt que de supposer connaître la réponse juridique, elle identifie les modalités, les documents, les obligations et la juridiction applicables. Cette littératie juridique lui permet de poser de meilleures questions et de reconnaître quand le risque justifie de consulter un professionnel autorisé.
+**Question :** Deux associés conviennent verbalement de partager les bénéfices à 60/40, se serrent la main et ne mettent jamais rien par écrit. Un an plus tard, ils sont en désaccord sur le partage. Quel problème cela illustre-t-il?
+
+**Étudiant :** D’après cette leçon, sans registre écrit, c’est essentiellement la parole de l’un contre celle de l’autre quant à ce qui a réellement été convenu.
+
+**Guide :** Pourquoi la confiance entre les associés ne règle-t-elle pas ce problème?
+
+**Étudiant :** Parce que la confiance ne crée pas de preuve — un tribunal qui tranche le litige plus tard a besoin de quelque chose de plus fiable que le souvenir qu’a chaque associé d’une conversation.
+
+**Guide :** Exactement — c’est pourquoi « tout mettre par écrit » s’applique même aux personnes en qui vous avez entièrement confiance.
 
 ## Quiz pratique
 
-**Question 1.** Quel est l’objectif principal de la littératie juridique dans PURPLE?
+**Question 1.** Les ententes verbales sont :
 
-A) Remplacer complètement un avocat
-B) Reconnaître les concepts et les risques et savoir quand demander de l’aide professionnelle
-C) Garantir qu’il n’y aura jamais de différend
-D) Mémoriser toutes les lois
+A) Jamais juridiquement contraignantes, en aucune circonstance
+B) Parfois techniquement contraignantes, mais difficiles à prouver en pratique
+C) Toujours plus sûres que les contrats écrits
+D) Sans pertinence en droit des contrats
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Question 2.** Le principal avantage pratique d’un contrat écrit est :
 
-A) Parce que les règles peuvent varier d’un pays ou territoire à l’autre
-B) Parce que toutes les lois sont identiques partout
-C) Parce qu’elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+A) Il a l’air plus officiel
+B) Il crée un registre clair et commun des modalités exactes
+C) Il est toujours exigé par la loi
+D) Il n’a aucun avantage par rapport aux ententes verbales
+
+**Question 3.** Le *Statute of Frauds* exige généralement que certaines ententes, comme les transactions immobilières, soient :
+
+A) Seulement notariées
+B) Faites par écrit pour être exécutoires
+C) Verbales, par souci de simplicité
+D) Faites devant un juge
+
+**Question 4.** Pourquoi « tout mettre par écrit » s’applique-t-il même entre des parties qui se font confiance?
+
+A) La confiance garantit qu’aucun litige ne surviendra jamais
+B) La confiance ne crée pas de registre fiable si un litige survient plus tard
+C) Les contrats écrits sont réservés aux inconnus
+D) Ce conseil ne s’applique pas aux relations de confiance
 
 ## Corrigé
 
-1. B, 2. A
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
 
-**1.** PURPLE développe une capacité pratique à comprendre les risques et à utiliser efficacement les conseils professionnels; il ne remplace pas un avocat.
+**1.** Les ententes verbales ne sont pas automatiquement inexécutoires, mais il est réellement difficile en pratique de prouver plus tard leurs modalités exactes.
 
-**2.** Les règles, procédures et exigences juridiques peuvent varier considérablement selon la juridiction.
+**2.** Un registre écrit élimine toute ambiguïté sur ce qui a réellement été convenu, ce qui compte surtout au moment précis où un litige survient.
+
+**3.** Dans de nombreux systèmes juridiques, certains types de transactions doivent légalement être consignés par écrit.
+
+**4.** Même une grande confiance entre les parties ne produit pas le genre de preuve dont un tribunal a besoin pour trancher un désaccord ultérieur.
 
 ## Points clés
 
-- La littératie juridique améliore la qualité des décisions financières et commerciales.
-- Les règles concrètes dépendent de la juridiction et des faits.
-- Repérer un problème tôt peut réduire les coûts et les risques.
-- Lorsque les conséquences sont importantes, il est prudent de consulter un professionnel autorisé.
+- Les ententes verbales peuvent être techniquement contraignantes, mais elles sont difficiles à prouver en cas de litige.
+- Les contrats écrits créent un registre clair et fiable des modalités exactes.
+- Certains types de transactions, comme l’immobilier, doivent souvent légalement être faits par écrit.
+- « Tout mettre par écrit » s’applique universellement, même entre des parties qui se font confiance.

@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-028
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 28
-title: "Droits Constitutionnels Fondamentaux"
-summary: "Droits Constitutionnels Fondamentaux"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "Les contrats immobiliers : la promesse d’achat expliquée"
+summary: "Applique les leçons générales sur les contrats précisément à la promesse d’achat immobilière, en passant en revue les modalités clés propres à ce type de transaction."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-028 : Droits Constitutionnels Fondamentaux
 
-## Objectifs d'Apprentissage
-1. Définir un droit constitutionnel en termes généraux.
-2. Identifier des catégories courantes de droits constitutionnels.
-3. Reconnaître que les droits précis varient selon le pays.
+# Les contrats immobiliers : la promesse d’achat expliquée
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Les droits constitutionnels précis varient significativement selon le pays ; cette leçon décrit uniquement des catégories générales, et non les droits précis d'un pays particulier.
+## Objectifs d’apprentissage
 
-*FAIT VÉRIFIÉ :* Un droit constitutionnel est une protection fondamentale généralement établie dans le texte juridique suprême d'un pays, limitant typiquement ce que le gouvernement peut faire aux personnes. Les catégories courantes incluent généralement la liberté d'expression, la liberté religieuse, la protection contre les perquisitions et saisies déraisonnables, et le droit à un procès équitable.
+- Appliquer le cadre général des contrats précisément à une promesse d’achat immobilière.
+- Repérer les modalités clés propres aux promesses d’achat immobilières.
+- Reconnaître les conditions courantes et leur but.
 
-*SUPPOSITION :* Les droits constitutionnels se distinguent généralement des autres lois en ce qu'ils sont plus difficiles à modifier — nécessitant habituellement une procédure spéciale allant au-delà de la législation ordinaire —, reflétant leur statut de protections fondamentales.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Dans de nombreux pays, le droit à un procès équitable inclut généralement des protections comme le droit de connaître les accusations portées contre soi, le droit de présenter une défense, et le droit à un juge ou un jury impartial. Ces protections existent généralement parce qu'elles limitent le pouvoir du gouvernement d'agir arbitrairement contre les personnes.
+Une promesse d’achat immobilière (ou offre d’achat) est une application directe des principes contractuels vus plus tôt dans ce volet : elle comporte une offre (le prix et les modalités proposés), une acceptation (l’accord du vendeur sur ces modalités) et une contrepartie (l’échange d’argent contre le bien). Au-delà de la structure contractuelle générale, les promesses d’achat immobilières comprennent habituellement plusieurs modalités propres à ce type de transaction qu’il vaut la peine de comprendre.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un droit constitutionnel ?
-2. Nomme une catégorie courante de droit constitutionnel.
-3. Vrai/Faux : Les droits constitutionnels sont identiques dans tous les pays.
-4. Qu'est-ce qui distingue généralement les droits constitutionnels des autres lois ?
+Les **conditions** sont des exigences qui doivent être remplies pour que la transaction se poursuive — une condition de financement (la transaction tombe si l’acheteur ne peut pas obtenir de prêt), une condition d’inspection (l’acheteur peut se retirer ou renégocier selon les résultats de l’inspection) et une condition d’évaluation (qui protège l’acheteur si le bien est évalué à moins que le prix convenu). Le **dépôt** (en anglais *earnest money*) est une somme versée en signe de bonne foi, habituellement détenue par un tiers neutre et appliquée au prix d’achat à la conclusion de la vente, ou perdue dans certaines circonstances si l’acheteur se retire sans motif valable lié à une condition. (Les pratiques varient selon le pays; en France, par exemple, l’acheteur verse souvent un dépôt de garantie à la signature de l’avant-contrat et bénéficie d’un délai légal de rétractation. Vérifiez auprès d’un professionnel.) Comprendre ces mécanismes précis — et pas seulement les notions contractuelles générales des leçons précédentes — est ce qui transforme la littératie contractuelle en littératie contractuelle propre à l’immobilier.
+
+## Exemple pratique
+
+**Question :** Un acheteur signe une promesse d’achat assortie d’une condition de financement, puis il est incapable d’obtenir un prêt. Que lui permet généralement cette condition?
+
+**Étudiant :** D’après cette leçon, une condition de financement signifie généralement que la transaction tombe — l’acheteur peut se retirer — s’il ne peut pas obtenir de financement, plutôt que d’être obligé de conclure l’achat ou de perdre son dépôt.
+
+**Guide :** Comment cela se compare-t-il à un acheteur qui se retire sans aucun motif valable lié à une condition?
+
+**Étudiant :** Sans condition valable, se retirer risque de faire perdre le dépôt, puisqu’il n’y a aucun motif protégé pour abandonner la transaction.
+
+**Guide :** Exactement — ce sont précisément les conditions qui créent une façon protégée de se retirer de la transaction dans des circonstances définies.
+
+## Quiz pratique
+
+**Question 1.** Quels éléments contractuels généraux une promesse d’achat immobilière comporte-t-elle?
+
+A) Aucun des éléments vus plus tôt
+B) L’offre, l’acceptation et la contrepartie, appliquées à une transaction immobilière
+C) Seulement une signature, rien d’autre
+D) Des éléments sans lien avec le droit des contrats
+
+**Question 2.** Une condition de financement protège généralement l’acheteur en :
+
+A) Garantissant l’approbation du prêt
+B) Lui permettant de se retirer s’il ne peut pas obtenir de financement
+C) L’obligeant à payer comptant, peu importe le financement
+D) N’ayant aucune fonction de protection réelle
+
+**Question 3.** Le dépôt est :
+
+A) Le prix d’achat complet payé à l’avance
+B) Une somme versée en signe de bonne foi, habituellement appliquée au prix d’achat ou perdue dans certaines conditions
+C) Un type d’assurance
+D) Sans pertinence pour les contrats immobiliers
+
+**Question 4.** Que se passe-t-il si un acheteur se retire sans motif valable lié à une condition?
+
+A) Rien — le dépôt est toujours entièrement remboursé
+B) Il risque de perdre son dépôt
+C) C’est plutôt le vendeur qui est automatiquement pénalisé
+D) Le contrat est automatiquement annulé, sans conséquence
 
 ## Corrigé
-1. Une protection fondamentale établie dans le texte juridique suprême d'un pays   2. La liberté d'expression, la liberté religieuse, ou le droit à un procès équitable (entre autres)   3. Faux   4. Ils sont généralement plus difficiles à modifier que la législation ordinaire
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un droit constitutionnel.
-2. Ce sont des catégories couramment citées de droits constitutionnels.
-3. Les droits constitutionnels précis varient significativement selon le pays.
-4. Ceci est la distinction générale couramment citée des droits constitutionnels.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- Un droit constitutionnel est une protection fondamentale limitant ce que le gouvernement peut faire.
-- Les catégories courantes incluent la liberté d'expression, la liberté religieuse, et le droit à un procès équitable.
-- Les droits précis varient significativement selon le pays.
+## Réponses et explications
+
+**1.** C’est une application directe et concrète du cadre offre-acceptation-contrepartie à un type de transaction précis.
+
+**2.** Les conditions de financement protègent précisément les acheteurs contre l’obligation de conclure un achat qu’ils ne peuvent pas réellement financer.
+
+**3.** Le dépôt sert d’engagement de bonne foi, avec des règles définies pour son application ou sa perte.
+
+**4.** L’absence de motif valable lié à une condition est précisément la situation où le risque de perdre le dépôt devient réel.
+
+## Points clés
+
+- Une promesse d’achat immobilière applique le cadre général offre-acceptation-contrepartie.
+- Les conditions (financement, inspection, évaluation) créent des circonstances protégées permettant de se retirer d’une transaction.
+- Le dépôt est une somme versée en signe de bonne foi, appliquée à la conclusion de la vente ou possiblement perdue.
+- Comprendre ces mécanismes précis est ce qui rend la littératie contractuelle applicable à l’immobilier en particulier.

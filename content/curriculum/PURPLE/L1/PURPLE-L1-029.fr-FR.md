@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-029
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 29
-title: "Le Procès Équitable Expliqué"
-summary: "Le Procès Équitable Expliqué"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "La conclusion de la vente : les étapes juridiques d’une transaction immobilière"
+summary: "Passe en revue la conclusion de la vente en tant qu’aboutissement juridique d’une transaction immobilière, en reliant les notions d’acte, de titre et de contrat vues dans les leçons précédentes."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-029 : Le Procès Équitable Expliqué
 
-## Objectifs d'Apprentissage
-1. Définir le procès équitable en termes simples.
-2. Distinguer le volet procédural du volet substantiel du procès équitable.
-3. Expliquer pourquoi le procès équitable importe généralement même pour des personnes manifestement coupables.
+# La conclusion de la vente : les étapes juridiques d’une transaction immobilière
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Le procès équitable est un principe juridique exigeant généralement que le gouvernement suive des procédures justes avant de priver quelqu'un de la vie, de la liberté, ou de la propriété. Le volet **procédural** concerne généralement les procédures justes elles-mêmes (comme un avis adéquat et une possibilité d'être entendu), tandis que le volet **substantiel** concerne généralement la protection de certains droits fondamentaux contre l'ingérence gouvernementale, indépendamment de l'équité de la procédure.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* Le procès équitable importe généralement même pour des personnes semblant manifestement coupables, car ce principe protège l'ensemble du système — sans procédures justes constantes, il existerait un risque que des personnes innocentes soient également condamnées injustement, la « culpabilité apparente » ne s'avérant pas toujours exacte.
+- Décrire le but général de la conclusion d’une vente immobilière.
+- Déterminer comment la conclusion de la vente relie les notions d’acte, de titre et de contrat des leçons précédentes.
+- Reconnaître la conclusion de la vente comme le moment où la propriété juridique est officiellement transférée.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Avant que le gouvernement puisse emprisonner quelqu'un pour une infraction, le volet procédural du procès équitable exige généralement que cette personne reçoive notification des accusations, ait la possibilité de présenter une défense, et soit jugée par un tribunal impartial. Même si les preuves contre quelqu'un semblent accablantes, suivre ces étapes reste généralement obligatoire, l'objectif étant de protéger l'intégrité du système pour tous, pas seulement d'assurer des résultats individuels.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que le procès équitable ?
-2. Qu'est-ce que le volet procédural du procès équitable ?
-3. Vrai/Faux : Le procès équitable n'importe que pour des personnes probablement innocentes.
-4. Qu'est-ce que le volet substantiel du procès équitable ?
+La conclusion de la vente (en anglais *closing*) est la dernière étape juridique d’une transaction immobilière, au cours de laquelle la propriété est officiellement transférée du vendeur à l’acheteur. Cette leçon relie presque tout ce qui a été vu jusqu’ici dans cette section : on confirme que les conditions de la promesse d’achat sont remplies, une dernière recherche de titre confirme que le titre est libre (ou règle les privilèges trouvés), l’acte de transfert est signé et préparé pour l’enregistrement, les fonds sont transférés, et l’acte est enregistré dans les registres publics, ce qui rend la nouvelle propriété publique.
+
+La conclusion de la vente fait habituellement intervenir plusieurs parties au-delà de l’acheteur et du vendeur — souvent une société d’assurance titres ou un avocat qui facilite le processus (en France, c’est le notaire qui reçoit l’acte de vente), un prêteur si un financement est en jeu, et parfois des agents immobiliers représentant chaque partie. La portée juridique de la conclusion de la vente est précise : avant la conclusion, l’acheteur a généralement des droits contractuels, mais pas encore la propriété; après la conclusion et l’enregistrement, la propriété juridique a réellement été transférée. Comprendre cette étape comme un jalon juridique officiel, et non comme une simple formalité administrative, montre pourquoi toutes les leçons précédentes de cette section — contrats, actes, titre, privilèges — convergent vers ce moment unique et juridiquement décisif.
+
+## Exemple pratique
+
+**Question :** Un acheteur se demande à quel moment précis il devient légalement propriétaire du bien qu’il achète — est-ce à la signature de la promesse d’achat, ou à un autre moment?
+
+**Étudiant :** D’après cette leçon, ce n’est pas à la signature de la promesse — la propriété juridique est réellement transférée à la conclusion de la vente, lorsque l’acte est signé, que les fonds sont transférés et que l’acte est enregistré.
+
+**Guide :** Qu’est-ce que l’acheteur détient avant la conclusion de la vente, si ce n’est pas encore la propriété?
+
+**Étudiant :** Des droits contractuels en vertu de la promesse d’achat — le droit de recevoir éventuellement la propriété si tout se déroule comme convenu —, mais pas la propriété elle-même tant que la vente n’est pas réellement conclue.
+
+**Guide :** Exactement — c’est la distinction juridique précise que fait cette leçon.
+
+## Quiz pratique
+
+**Question 1.** La conclusion de la vente est :
+
+A) Le moment où la promesse d’achat est signée
+B) La dernière étape juridique, au cours de laquelle la propriété est officiellement transférée
+C) Sans pertinence pour les transactions immobilières
+D) La même chose qu’une inspection
+
+**Question 2.** Quelles notions antérieures convergent à la conclusion de la vente?
+
+A) Aucune des leçons précédentes de cette section
+B) Les conditions, le titre, l’acte et le règlement des privilèges
+C) Seulement des considérations fiscales
+D) Seulement le zonage
+
+**Question 3.** Avant la conclusion de la vente, que détient généralement l’acheteur?
+
+A) La pleine propriété juridique
+B) Des droits contractuels en vertu de la promesse d’achat, mais pas encore la propriété
+C) Rien de juridiquement significatif
+D) Les mêmes droits qu’après la conclusion
+
+**Question 4.** Qu’est-ce qui rend la nouvelle propriété « publique »?
+
+A) La signature de la promesse d’achat
+B) L’enregistrement de l’acte après la conclusion de la vente
+C) Le versement du dépôt
+D) La prise de rendez-vous pour une inspection
 
 ## Corrigé
-1. Un principe exigeant que le gouvernement suive des procédures justes avant de priver quelqu'un de vie, liberté, ou propriété   2. Des procédures justes comme un avis adéquat et la possibilité d'être entendu   3. Faux   4. La protection de certains droits fondamentaux contre l'ingérence gouvernementale
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale du procès équitable.
-2. Ceci est la définition fondamentale du volet procédural.
-3. Le procès équitable protège l'intégrité du système pour tous, pas seulement pour ceux qui paraissent innocents.
-4. Ceci est la définition fondamentale du volet substantiel.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- Le procès équitable exige des procédures justes avant que le gouvernement ne prive quelqu'un de vie, liberté, ou propriété.
-- Le volet procédural concerne les procédures justes ; le volet substantiel protège certains droits fondamentaux précis.
-- Le procès équitable importe pour tous car il protège l'intégrité de l'ensemble du système.
+## Réponses et explications
+
+**1.** La conclusion de la vente marque le moment juridique précis où la propriété passe officiellement du vendeur à l’acheteur.
+
+**2.** Cette leçon rassemble délibérément les fils conducteurs antérieurs de la section en un seul événement culminant.
+
+**3.** Les droits contractuels et la propriété réelle sont juridiquement distincts, la conclusion de la vente marquant le passage de l’un à l’autre.
+
+**4.** C’est précisément l’enregistrement de l’acte qui fait du transfert une information publique.
+
+## Points clés
+
+- La conclusion de la vente est la dernière étape juridique, au cours de laquelle la propriété d’un bien immobilier est officiellement transférée.
+- La conclusion de la vente relie les conditions, le titre, l’acte et le règlement des privilèges vus dans les leçons précédentes.
+- Avant la conclusion, l’acheteur a des droits contractuels, mais pas encore la propriété réelle.
+- L’enregistrement de l’acte après la conclusion de la vente rend la nouvelle propriété publique.

@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-004
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 4
-title: "Éléments d'Un Contrat Valide"
-summary: "Éléments d'Un Contrat Valide"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "L’offre, l’acceptation et la contrepartie : les trois ingrédients"
+summary: "Décompose les trois éléments classiques généralement requis pour qu’un contrat soit juridiquement exécutoire, à l’aide d’un exemple concret."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-004 : Éléments d'Un Contrat Valide
 
-## Objectifs d'Apprentissage
-1. Identifier les éléments généralement requis pour qu'un contrat soit valide.
-2. Expliquer ce que sont une « offre » et une « acceptation » dans le contexte d'un contrat.
-3. Définir la « contrepartie » en termes simples.
+# L’offre, l’acceptation et la contrepartie : les trois ingrédients
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un contrat valide requiert généralement plusieurs éléments : une offre claire d'une partie, l'acceptation de cette offre par l'autre partie, une contrepartie (quelque chose de valeur échangé entre les parties), la capacité juridique des deux parties à contracter, et un objet licite.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* La « contrepartie » signifie généralement que chaque partie doit donner quelque chose de valeur — de l'argent, des biens, des services, ou même une promesse —, car un accord où seule une partie donne quelque chose sans rien recevoir en retour n'est généralement pas considéré comme un contrat exécutoire.
+- Définir l’offre, l’acceptation et la contrepartie.
+- Appliquer les trois éléments à une transaction simple de la vie réelle.
+- Reconnaître que l’absence d’un seul élément peut compromettre le caractère exécutoire.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Lorsque quelqu'un propose de vendre son vélo pour 200 € et qu'une autre personne accepte de payer ce montant, il existe une offre claire, une acceptation claire, et une contrepartie (l'argent en échange du vélo) — les éléments de base d'un contrat valide sont présents. Si, en revanche, quelqu'un promettait simplement d'offrir son vélo sans rien recevoir en retour, cela serait généralement une promesse, pas un contrat exécutoire.
+## Contenu principal
 
-## Quiz Pratique
-1. Nomme deux éléments généralement requis pour un contrat valide.
-2. Qu'est-ce que la contrepartie ?
-3. Vrai/Faux : Une promesse d'offrir quelque chose sans rien recevoir en retour est généralement un contrat exécutoire.
-4. Dans l'exemple du vélo, qu'est-ce qui a servi de contrepartie ?
+Dans la foulée de la leçon précédente, la plupart des systèmes juridiques recherchent trois ingrédients de base pour traiter une entente comme un contrat exécutoire. **L’offre** — une partie propose des modalités précises (« Je vous vends cette propriété pour 200 000 € »). **L’acceptation** — l’autre partie accepte clairement ces modalités exactes. **La contrepartie** — chaque partie échange quelque chose de valeur (de l’argent, un bien, une promesse de faire ou de ne pas faire quelque chose) — un don unilatéral n’est généralement pas un contrat, parce que rien n’est échangé. (En droit français, le Code civil exige notamment le consentement des parties, leur capacité de contracter et un contenu licite et certain; la logique de base reste semblable, mais les détails relèvent d’un professionnel.)
+
+Un exemple simple rend cela concret : un vendeur offre une propriété à un prix donné (l’offre), un acheteur accepte exactement ce prix et ces modalités (l’acceptation), et de l’argent est remis en échange de la propriété (la contrepartie). La présence des trois éléments, dans cet ordre, est généralement ce qui amène un tribunal à traiter l’entente qui en résulte comme un contrat contraignant — et c’est pourquoi les propositions vagues, unilatérales ou non acceptées ne tiennent souvent pas si un litige survient plus tard.
+
+## Exemple pratique
+
+**Question :** Un acheteur dit : « J’adorerais acheter votre maison un jour », et le vendeur répond : « Bien sûr, ce serait bien. » Ces paroles réunissent-elles les trois ingrédients d’un contrat?
+
+**Étudiant :** D’après cette leçon, ça ne semble pas être le cas — il n’y a aucune offre précise avec de vraies modalités, alors l’acceptation de rien de précis ne compte pas vraiment non plus.
+
+**Guide :** Qu’est-ce qui devrait changer pour que ce soit une véritable offre?
+
+**Étudiant :** Des modalités précises — un prix, une propriété et des conditions réelles — proposées assez clairement pour que l’autre partie puisse les accepter exactement telles qu’elles sont énoncées.
+
+**Guide :** Exactement — un enthousiasme vague n’est pas la même chose qu’une offre ayant une portée juridique.
+
+## Quiz pratique
+
+**Question 1.** En droit des contrats, une « offre » est :
+
+A) Une vague expression d’intérêt
+B) Une proposition de modalités précises faite par une partie
+C) La même chose que la contrepartie
+D) Sans pertinence pour la formation d’un contrat
+
+**Question 2.** L’« acceptation » signifie :
+
+A) Ignorer l’offre
+B) Accepter clairement les modalités exactes proposées
+C) Proposer des modalités différentes
+D) La même chose qu’une offre
+
+**Question 3.** La « contrepartie » désigne :
+
+A) Le fait d’être poli pendant la négociation
+B) Quelque chose de valeur échangé par chaque partie
+C) Un don unilatéral
+D) Une notion pertinente seulement en immobilier
+
+**Question 4.** Une proposition vague et non acceptée risque de :
+
+A) Toujours constituer un contrat contraignant
+B) Ne pas réunir les éléments nécessaires à un contrat exécutoire
+C) Être identique à une promesse d’achat signée
+D) N’avoir aucune pertinence en droit des contrats
 
 ## Corrigé
-1. Offre, acceptation (entre autres)   2. Quelque chose de valeur échangé entre les parties   3. Faux   4. L'argent en échange du vélo
 
-## Réponses et Explications
-1. Ceux-ci figurent parmi les éléments généralement requis pour un contrat valide.
-2. Ceci est la définition fondamentale de la contrepartie.
-3. Sans contrepartie des deux parties, il n'existe généralement pas de contrat exécutoire.
-4. L'argent a été donné en échange du vélo, remplissant l'exigence de contrepartie.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- Un contrat valide requiert généralement une offre, une acceptation, une contrepartie, une capacité juridique, et un objet licite.
-- La contrepartie signifie que chaque partie doit donner quelque chose de valeur.
-- Une promesse sans contrepartie en retour n'est généralement pas un contrat exécutoire.
+## Réponses et explications
+
+**1.** Une offre exige de la précision — proposer des modalités réelles et définies, et non un vague sentiment.
+
+**2.** L’acceptation consiste à accepter ces modalités proposées exactes, et non quelque chose de différent ou de partiel.
+
+**3.** La contrepartie exige un véritable échange de valeur dans les deux sens, ce qui distingue un contrat d’un don.
+
+**4.** L’absence de précision ou d’un véritable échange tend à compromettre le caractère réellement exécutoire d’une entente.
+
+## Points clés
+
+- L’offre, l’acceptation et la contrepartie sont les trois ingrédients classiques d’un contrat exécutoire.
+- Une offre doit être précise; l’acceptation doit correspondre à ces modalités exactes; la contrepartie doit comporter un réel échange de valeur.
+- Une transaction immobilière est un exemple clair des trois éléments qui fonctionnent ensemble.
+- L’absence de l’un des trois peut compromettre le caractère réellement contraignant d’une entente.

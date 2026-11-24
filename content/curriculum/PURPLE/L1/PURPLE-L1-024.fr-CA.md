@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 24
 locale: fr-CA
-title: "Privilèges et charges : quand un immeuble n’est pas entièrement libre"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Les charges et les sûretés : quand un bien n’est pas entièrement « libre »"
+summary: "Présente les privilèges et les charges en tant que réclamations ou restrictions juridiques rattachées à un bien, qui peuvent influer sur sa propriété et sa cessibilité."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Privilèges et charges : quand un immeuble n’est pas entièrement libre
+# Les charges et les sûretés : quand un bien n’est pas entièrement « libre »
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Définir un privilège (sûreté) et une charge.
+- Repérer les types de privilèges courants.
+- Expliquer pourquoi les privilèges comptent en pratique pour les acheteurs et les propriétaires.
 
 ## Contenu principal
 
-Une charge peut être un droit, une réclamation ou une restriction qui affecte un immeuble. Un privilège peut garantir une dette au moyen d’une réclamation contre la propriété. Hypothèques, créances fiscales et certaines réclamations d’entrepreneurs en sont des exemples selon la juridiction. Une recherche de titre aide à identifier ces risques avant une transaction.
+Une charge (en anglais *encumbrance*) est toute réclamation, restriction ou intérêt juridique rattaché à un bien et qui n’est pas détenu entièrement par le propriétaire actuel — une catégorie large qui comprend les privilèges, les servitudes et certaines restrictions. Un privilège (en anglais *lien*; on parle aussi de sûreté) est précisément une réclamation juridique contre un bien, habituellement en garantie d’une dette, qui donne à son titulaire le droit de forcer la vente du bien pour se faire payer si la dette n’est pas réglée. Les types courants comprennent l’hypothèque (qui garantit le prêt ayant servi à acheter le bien), le privilège fiscal (pour des impôts fonciers impayés) et le privilège de construction (inscrit par un entrepreneur qui n’a pas été payé pour des travaux faits sur le bien; au Québec, on parle d’hypothèque légale de la construction).
+
+Les privilèges comptent en pratique parce qu’ils sont généralement rattachés au bien lui-même, et pas seulement à la personne qui a contracté la dette — ce qui signifie qu’un privilège peut suivre un bien lors d’une vente s’il n’est pas correctement repéré et radié au préalable. C’est précisément pourquoi les recherches de titre (vues dans la leçon précédente) sont si importantes : un privilège non réglé découvert avant la conclusion de la vente peut être traité, mais celui qui passe inaperçu peut devenir le problème du nouveau propriétaire. Comprendre qu’un bien peut porter ces obligations rattachées, distinctes du bien physique lui-même, est un élément central de la littératie juridique en immobilier.
 
 ## Exemple pratique
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+**Question :** Un entrepreneur termine des travaux sur un bien, mais n’est jamais payé, et inscrit plus tard un privilège de construction contre ce bien. Si le bien est ensuite vendu à un nouvel acheteur sans que le privilège soit réglé, quel risque court le nouvel acheteur?
+
+**Étudiant :** D’après cette leçon, comme les privilèges sont généralement rattachés au bien lui-même, et pas seulement à la personne qui a contracté la dette, le nouvel acheteur pourrait hériter de ce privilège non réglé comme de son propre problème.
+
+**Guide :** Comment cela aurait-il pu être évité?
+
+**Étudiant :** Une recherche de titre adéquate avant l’achat aurait dû repérer le privilège, ce qui aurait permis de le régler ou de le traiter avant la conclusion de la vente.
+
+**Guide :** Exactement — c’est précisément pourquoi le processus de recherche de titre de la leçon précédente est si important en pratique.
 
 ## Quiz pratique
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Question 1.** Une charge est :
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+A) La même chose qu’un acte de transfert
+B) Une réclamation, une restriction ou un intérêt juridique rattaché à un bien
+C) Un type d’assurance
+D) Une notion pertinente seulement pour les baux
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Question 2.** Un privilège est précisément :
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+A) Un type d’acte de transfert
+B) Une réclamation juridique contre un bien, habituellement en garantie d’une dette
+C) Une forme d’assurance titres
+D) Sans pertinence en droit des biens
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Question 3.** Un privilège de construction est inscrit par :
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+A) Une autorité fiscale gouvernementale
+B) Un entrepreneur qui n’a pas été payé pour des travaux faits sur le bien
+C) Une banque qui accorde un prêt hypothécaire
+D) Seulement l’architecte d’origine du bien
+
+**Question 4.** Pourquoi les privilèges comptent-ils en pratique pour l’acheteur d’un bien?
+
+A) Les privilèges ne touchent jamais un nouvel acheteur
+B) Les privilèges sont généralement rattachés au bien lui-même et peuvent le suivre lors d’une vente s’ils ne sont pas radiés
+C) Les privilèges ne touchent que le propriétaire d’origine, jamais un acheteur
+D) Les privilèges sont automatiquement radiés lors de toute vente
 
 ## Corrigé
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**1.** La charge est la grande catégorie qui englobe diverses réclamations et restrictions rattachées à un bien.
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**2.** La caractéristique déterminante d’un privilège est son rôle de garantie d’une dette impayée.
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**3.** Les privilèges de construction protègent précisément les entrepreneurs et les fournisseurs qui ont effectué des travaux sans être payés.
+
+**4.** C’est ce rattachement au bien qui explique pourquoi les privilèges non réglés représentent un risque réel pour les acheteurs non avertis.
 
 ## Points clés
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+- Une charge est toute réclamation ou restriction rattachée à un bien; un privilège est précisément une réclamation qui garantit une dette.
+- Les types de privilèges courants comprennent l’hypothèque, le privilège fiscal et le privilège de construction.
+- Les privilèges sont généralement rattachés au bien, et pas seulement à la personne qui a contracté la dette.
+- C’est précisément pourquoi une recherche de titre approfondie avant l’achat est si importante.
