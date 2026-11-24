@@ -1,0 +1,343 @@
+===== WHITE-L1-046
+TITLE: Qu’est-ce qu’un rachat d’actions? (Version d’introduction — analyse approfondie au niveau 2)
+SUMMARY: Découvrez, à un niveau d’introduction, ce qu’est un rachat d’actions, et pourquoi il peut influer sur les chiffres par action sans rien changer à l’entreprise.
+# Qu’est-ce qu’un rachat d’actions? (Version d’introduction — analyse approfondie au niveau 2)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un rachat d’actions en termes simples.
+- Expliquer l’effet mécanique de base sur le nombre d’actions en circulation.
+- Reconnaître qu’une analyse plus approfondie de son effet sur les ratios est présentée au niveau 2.
+
+## Contenu principal
+
+### Ce qu’est un rachat d’actions
+
+Un rachat d’actions a lieu lorsqu’une entreprise rachète ses propres actions sur le marché, ce qui réduit le nombre d’actions en circulation (une notion présentée plus tôt dans ce niveau).
+
+### L’effet mécanique de base
+
+Avec moins d’actions en circulation et le même bénéfice total pour l’entreprise, chaque action restante représente une part légèrement plus grande de l’entreprise — ce qui renvoie au BPA (bénéfice par action), vu plus tôt dans ce niveau.
+
+### Un aperçu du niveau 2
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Cette leçon d’introduction ne présente que le fonctionnement de base. Le niveau 2 explique plus en profondeur comment les rachats d’actions peuvent améliorer l’apparence de chiffres par action comme le BPA et le ratio cours-bénéfice sans que l’entreprise sous-jacente s’améliore réellement.
+
+## Exemple pratique
+
+Une entreprise qui compte 1 000 000 d’actions en circulation en rachète 100 000, ce qui en laisse 900 000. Avec le même bénéfice net total, le BPA augmente simplement parce que ce bénéfice est maintenant réparti entre moins d’actions.
+
+## Quiz pratique
+
+1. Un rachat d’actions signifie :
+   A. Qu’une entreprise émet des actions entièrement nouvelles
+   B. Qu’une entreprise rachète ses propres actions sur le marché
+   C. Un fractionnement d’actions
+   D. Un versement de dividende
+2. Vrai ou faux : un rachat d’actions augmente le nombre total d’actions en circulation.
+3. Avec le même bénéfice net, qu’arrive-t-il au BPA après qu’un rachat a réduit le nombre d’actions en circulation?
+   A. Le BPA diminue
+   B. Le BPA augmente, puisque le bénéfice est maintenant réparti entre moins d’actions
+   C. Le BPA reste exactement le même
+   D. Le BPA tombe à zéro
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un rachat consiste pour une entreprise à racheter ses propres actions.
+
+### Question 2
+Bonne réponse : Faux. Un rachat réduit le nombre d’actions en circulation, il ne l’augmente pas.
+
+### Question 3
+Bonne réponse : B. Le même bénéfice réparti entre moins d’actions fait mécaniquement augmenter le BPA.
+
+## Points clés
+
+- Un rachat d’actions consiste pour une entreprise à racheter ses propres actions, ce qui réduit le nombre d’actions en circulation.
+- Cela fait mécaniquement augmenter le BPA, même sans changement du bénéfice total.
+- Le niveau 2 explique plus en profondeur comment cela peut fausser les ratios par action.
+
+===== WHITE-L1-047
+TITLE: Qu’est-ce qu’un piège baissier ou un piège de valeur? (Pourquoi « pas cher » peut être un signal d’alarme)
+SUMMARY: Découvrez ce qu’est un piège de valeur, et pourquoi un prix bas à lui seul ne signifie pas qu’une action est une aubaine.
+# Qu’est-ce qu’un piège baissier ou un piège de valeur? (Pourquoi « pas cher » peut être un signal d’alarme)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un piège de valeur en termes simples.
+- Expliquer pourquoi un prix bas à lui seul n’indique pas une bonne affaire.
+- Relier cette notion à la leçon sur le ratio cours-bénéfice.
+
+## Contenu principal
+
+### Ce qu’est un piège de valeur
+
+Un piège de valeur (*value trap*) est une action qui semble bon marché selon des mesures simples (comme un faible ratio cours-bénéfice, vu plus tôt dans ce niveau), mais qui est en réalité bon marché pour une raison réelle et durable — la détérioration des fondamentaux de l’entreprise, et non une erreur d’évaluation temporaire.
+
+### Pourquoi un prix bas ne suffit pas
+
+Le fait que le prix ou le ratio d’une action soit plus bas qu’auparavant ne signifie pas automatiquement que c’est une aubaine. Parfois, un prix plus bas reflète fidèlement un déclin réel et continu des perspectives de l’entreprise — le marché tient correctement compte d’un véritable problème, il ne se trompe pas.
+
+### Le lien avec le ratio cours-bénéfice
+
+Un faible ratio cours-bénéfice peut signifier qu’une action est sous-évaluée — ou il peut signifier que le marché s’attend à une baisse des bénéfices futurs, ce qui rend le prix bas actuel approprié plutôt qu’avantageux. Distinguer ces deux situations exige de regarder au-delà du seul ratio.
+
+## Exemple pratique
+
+Le cours d’une action chute de façon importante, et son ratio cours-bénéfice semble avantageusement bas par rapport à son historique. Si cette chute reflète un déclin réel et continu des activités principales de l’entreprise plutôt qu’une réaction excessive temporaire, l’acheter comme une « aubaine » pourrait revenir à tomber dans un piège de valeur.
+
+## Quiz pratique
+
+1. Un piège de valeur est :
+   A. Une action réellement sous-évaluée et une bonne affaire
+   B. Une action qui semble bon marché, mais qui l’est pour une raison réelle et durable
+   C. Un type d’obligation
+   D. Un placement rentable garanti
+2. Vrai ou faux : un faible ratio cours-bénéfice signifie toujours qu’une action est une aubaine.
+3. Pourquoi un prix bas pourrait-il refléter fidèlement un problème réel plutôt qu’une aubaine?
+   A. Les prix ne reflètent jamais de problèmes réels
+   B. Le marché tient peut-être correctement compte d’un déclin des perspectives de l’entreprise
+   C. Les prix bas sont toujours des erreurs
+   D. Cela ne se produit jamais sur les vrais marchés
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un piège de valeur semble bon marché, mais reflète un problème réel et durable.
+
+### Question 2
+Bonne réponse : Faux. Un faible ratio cours-bénéfice peut refléter un déclin réel et mérité, et pas seulement une aubaine.
+
+### Question 3
+Bonne réponse : B. Les marchés peuvent tenir correctement compte de problèmes réels et continus.
+
+## Points clés
+
+- Un piège de valeur semble bon marché, mais l’est pour une raison réelle et durable.
+- Un prix bas ou un ratio bas ne garantit pas à lui seul une aubaine.
+- Un faible ratio cours-bénéfice peut refléter soit une sous-évaluation, soit un déclin réel et mérité.
+
+===== WHITE-L1-048
+TITLE: Qu’est-ce que le rendement pondéré en dollars par rapport au rendement pondéré dans le temps? (Pourquoi deux personnes peuvent obtenir des rendements différents sur le « même » placement)
+SUMMARY: Découvrez pourquoi deux investisseurs dans le même fonds peuvent obtenir des rendements personnels réellement différents, selon le moment où ils ont ajouté ou retiré de l’argent.
+# Qu’est-ce que le rendement pondéré en dollars par rapport au rendement pondéré dans le temps? (Pourquoi deux personnes peuvent obtenir des rendements différents sur le « même » placement)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le rendement pondéré dans le temps et le rendement pondéré en dollars en termes simples.
+- Expliquer pourquoi ils peuvent donner des chiffres différents pour le même fonds.
+- Reconnaître pourquoi le moment des cotisations compte dans le rendement personnel.
+
+## Contenu principal
+
+### Le rendement pondéré dans le temps
+
+Le rendement pondéré dans le temps mesure le rendement du placement lui-même sur une période, indépendamment du moment où de l’argent a été ajouté ou retiré — c’est le chiffre habituellement publié par le fonds lui-même.
+
+### Le rendement pondéré en dollars
+
+Le rendement pondéré en dollars mesure le rendement personnel réel d’un investisseur, qui dépend beaucoup du MOMENT où il a ajouté ou retiré de l’argent — le même fonds peut produire des rendements pondérés en dollars très différents pour des investisseurs différents, selon leur propre calendrier.
+
+### Pourquoi ils peuvent différer
+
+*EXEMPLE ILLUSTRATIF :* Si une personne ajoute une grosse somme juste avant un repli, son rendement personnel pondéré en dollars sera moins bon que le rendement pondéré dans le temps du fonds pour cette période, même si elle est investie exactement dans le même fonds qu’une personne qui a investi plus tôt.
+
+## Exemple pratique
+
+Un fonds publie un rendement pondéré dans le temps de 10 % pour l’année. Une personne qui a ajouté une grosse somme forfaitaire juste avant un bref repli au cours de cette année, puis qui a conservé son placement pendant la reprise, pourrait avoir un rendement personnel pondéré en dollars sensiblement différent de ces 10 % publiés — même fonds, expérience personnelle très différente selon le moment choisi.
+
+## Quiz pratique
+
+1. Le rendement pondéré dans le temps mesure :
+   A. Le rendement personnel d’un investisseur, fondé sur son propre calendrier
+   B. Le rendement du placement lui-même, indépendamment du moment des cotisations
+   C. Seulement le revenu de dividendes
+   D. La capitalisation boursière d’une entreprise
+2. Vrai ou faux : le rendement pondéré en dollars n’est pas touché par le moment où un investisseur ajoute ou retire de l’argent.
+3. Pourquoi deux investisseurs dans le même fonds peuvent-ils obtenir des rendements personnels différents?
+   A. Les fonds communiquent des chiffres différents à chaque investisseur
+   B. Leur rendement personnel pondéré en dollars dépend du moment de leurs cotisations
+   C. Cela ne se produit jamais réellement
+   D. Seuls les frais du fonds diffèrent d’un investisseur à l’autre
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le rendement pondéré dans le temps mesure le rendement du fonds lui-même, indépendamment du moment des cotisations.
+
+### Question 2
+Bonne réponse : Faux. Le rendement pondéré en dollars est précisément façonné par le moment des cotisations.
+
+### Question 3
+Bonne réponse : B. Le moment personnel des cotisations explique les différences de rendement pondéré en dollars.
+
+## Points clés
+
+- Le rendement pondéré dans le temps mesure le rendement du placement lui-même.
+- Le rendement pondéré en dollars mesure le rendement personnel d’une personne, qui dépend de son propre calendrier.
+- Deux investisseurs dans le même fonds peuvent obtenir des rendements personnels réellement différents.
+
+===== WHITE-L1-049
+TITLE: Lire un relevé de compte de courtage : qu’avez-vous réellement sous les yeux?
+SUMMARY: Découvrez comment lire les principales sections d’un relevé de compte de courtage, en reliant les notions vues tout au long de ce niveau.
+# Lire un relevé de compte de courtage : qu’avez-vous réellement sous les yeux?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Repérer les principales sections d’un relevé de compte de courtage typique.
+- Expliquer ce que chaque section vous indique réellement.
+- Relier les termes du relevé aux notions vues plus tôt dans ce niveau.
+
+## Contenu principal
+
+### Les principales sections d’un relevé
+
+Un relevé de compte de courtage typique comprend généralement : les placements détenus (ce qui est possédé et en quelle quantité), l’historique des opérations (achats, ventes et dividendes récents) et un sommaire du rendement — même si la présentation exacte varie selon la maison de courtage.
+
+### Ce que chaque section vous indique
+
+La section des placements montre les positions actuelles et leur valeur marchande. L’historique des opérations montre l’activité récente, y compris les versements de dividendes (vus plus tôt dans ce niveau). Le sommaire du rendement présente souvent quelque chose comme un rendement pondéré dans le temps (vu dans la leçon précédente), et pas nécessairement l’expérience personnelle de l’investisseur, pondérée en dollars.
+
+### Le lien avec les notions de ce niveau
+
+Bien lire un relevé, c’est reconnaître des termes déjà vus : les actions détenues, la valeur marchande, les dividendes reçus, et la distinction entre le rendement publié par le fonds et le rendement personnel réel d’une personne, qui dépend du moment de ses propres cotisations.
+
+## Exemple pratique
+
+Une investisseuse qui consulte son relevé voit qu’elle détient des parts d’un FNB, remarque un versement de dividende récent inscrit dans l’historique des opérations et voit un rendement depuis le début de l’année — en reconnaissant que ce chiffre reflète probablement un rendement pondéré dans le temps, et pas nécessairement son propre rendement personnel exact si elle a ajouté de l’argent en cours d’année.
+
+## Quiz pratique
+
+1. La section des placements d’un relevé de compte de courtage montre habituellement :
+   A. Seulement les frais de la maison de courtage
+   B. Les positions actuelles et leur valeur marchande
+   C. Seulement la déclaration de revenus de l’investisseur
+   D. Une liste d’entreprises sans lien avec le compte
+2. Vrai ou faux : le sommaire du rendement d’un relevé reflète toujours exactement le rendement personnel pondéré en dollars de l’investisseur.
+3. Que comprend habituellement la section de l’historique des opérations?
+   A. Seulement les opérations futures prévues
+   B. Les achats, les ventes et les versements de dividendes récents
+   C. Les états financiers complets d’une entreprise
+   D. Des déclarations fiscales gouvernementales
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La section des placements montre les positions actuelles et leur valeur marchande.
+
+### Question 2
+Bonne réponse : Faux. Le rendement publié est souvent pondéré dans le temps, et pas nécessairement le rendement personnel pondéré en dollars de l’investisseur.
+
+### Question 3
+Bonne réponse : B. L’historique des opérations présente l’activité récente du compte.
+
+## Points clés
+
+- Un relevé de compte de courtage comprend habituellement les placements détenus, l’historique des opérations et un sommaire du rendement.
+- Le rendement publié est souvent pondéré dans le temps, et n’est pas automatiquement le rendement personnel de l’investisseur.
+- Bien lire un relevé fait appel aux notions vues tout au long de ce niveau.
+
+===== WHITE-L1-050
+TITLE: Projet final : bâtir votre premier portefeuille simple, étape par étape
+SUMMARY: Appliquez tout ce que vous avez appris au niveau 1 du volet WHITE en suivant, du début à la fin, la constitution d’un premier portefeuille de placement simple.
+# Projet final : bâtir votre premier portefeuille simple, étape par étape
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Appliquer les notions de base du niveau 1 du volet WHITE à une même mise en situation.
+- Déterminer quelle notion de ce niveau s’applique à chaque étape.
+- Expliquer comment les éléments de la constitution d’un portefeuille s’articulent en un tout.
+
+## Contenu principal
+
+### La mise en situation
+
+James veut commencer à investir pour la première fois. Il veut comprendre ce qu’il fait réellement à chaque étape, et pas seulement suivre des instructions à l’aveugle.
+
+### Le parcours, étape par étape
+
+James s’assure d’abord d’avoir un fonds d’urgence (leçon 35) placé dans un endroit liquide et peu risqué avant d’investir quoi que ce soit d’autre. Il ouvre un compte de courtage (leçon 21), en comprenant que c’est différent d’un compte de retraite, et vérifie séparément si son employeur offre une contrepartie à un 401(k) (leçon 18) dont il vaudrait la peine de profiter en premier.
+
+Il décide d’investir dans un FNB (leçon 9) plutôt que de choisir des actions individuelles, parce qu’il accorde de la valeur à la diversification (leçon 13) qu’il procure. Il vérifie son ratio des frais de gestion (leçon 12), en comprenant que de petites différences de pourcentage s’accumulent avec le temps. Il décide d’utiliser la méthode des achats périodiques (leçon 22), en investissant un montant fixe chaque mois plutôt qu’en essayant de deviner le bon moment pour entrer sur le marché.
+
+Il fixe une répartition de l’actif (leçon 43) composée surtout d’actions, compte tenu de son long horizon de placement, en comprenant qu’il devra rééquilibrer (leçon 44) son portefeuille périodiquement à mesure que le marché modifiera ce dosage. Il sait que son relevé de compte (leçon 49) présentera ses placements, ses opérations et un chiffre de rendement qui pourrait ne pas correspondre exactement à son rendement personnel pondéré en dollars (leçon 48), puisqu’il cotise graduellement au fil du temps.
+
+### Pourquoi c’est important
+
+Aucune de ces décisions n’est prise isolément dans un vrai portefeuille — elles s’enchaînent en un seul processus, fondé sur la compréhension, et non sur le simple fait de suivre des étapes à l’aveugle.
+
+## Exemple pratique
+
+Si James investit 300 $ par mois selon la méthode des achats périodiques dans un FNB diversifié dont le ratio des frais de gestion est faible, au sein d’un compte de courtage ordinaire, après avoir déjà constitué son fonds d’urgence et profité de toute contrepartie offerte par son employeur, il a appliqué presque toutes les notions importantes de ce niveau dans un seul plan cohérent.
+
+## Quiz pratique
+
+1. Pourquoi James s’est-il assuré d’avoir un fonds d’urgence avant d’investir davantage?
+   A. Ce n’est pas réellement nécessaire
+   B. Cela protège ses autres projets financiers contre les perturbations causées par des dépenses imprévues
+   C. Les fonds d’urgence garantissent des rendements de placement
+   D. Cela n’a aucun lien avec l’investissement
+2. Vrai ou faux : le rendement publié du compte de James correspondra toujours exactement à son rendement personnel pondéré en dollars.
+3. Pourquoi James a-t-il choisi un FNB plutôt que de choisir des actions individuelles?
+   A. Les FNB garantissent des rendements plus élevés
+   B. Il accordait de la valeur à la diversification qu’il procure
+   C. Les FNB n’ont pas de ratio des frais de gestion
+   D. Les actions individuelles sont interdites aux débutants
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fonds d’urgence protège les projets à plus long terme contre les perturbations à court terme, comme on l’a vu à la leçon 35.
+
+### Question 2
+Bonne réponse : Faux. Le rendement publié est souvent pondéré dans le temps, et non son rendement personnel exact pondéré en dollars, comme on l’a vu aux leçons 48 et 49.
+
+### Question 3
+Bonne réponse : B. La diversification est la raison invoquée par James, ce qui renvoie à la leçon 13.
+
+## Points clés
+
+- Bâtir un premier portefeuille relie presque toutes les notions de ce niveau en un seul processus.
+- L’ordre compte : d’abord le fonds d’urgence, puis le type de compte, puis le choix du placement, puis la gestion continue.
+- Ce projet final marque l’achèvement du niveau 1 du volet WHITE — le niveau 2 s’appuie sur cette base avec des notions plus approfondies d’évaluation et de philosophie de placement.
