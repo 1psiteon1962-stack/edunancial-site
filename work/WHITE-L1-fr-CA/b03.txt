@@ -1,0 +1,339 @@
+===== WHITE-L1-011
+TITLE: Qu’est-ce qu’un indice? (Ce que « le marché » veut réellement dire quand on en parle)
+SUMMARY: Découvrez ce qu’est réellement un indice boursier, et ce que signifie l’expression « le marché a monté ».
+# Qu’est-ce qu’un indice? (Ce que « le marché » veut réellement dire quand on en parle)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un indice boursier en termes simples.
+- Expliquer ce que veut dire quelqu’un qui affirme que « le marché a monté ».
+- Reconnaître qu’un indice suit un groupe défini, et non littéralement tout.
+
+## Contenu principal
+
+### Ce qu’est un indice
+
+Un indice boursier est un ensemble défini d’actions (ou d’autres actifs) suivies ensemble pour représenter le rendement d’un segment précis du marché — c’est un outil de mesure, et non quelque chose que l’on possède directement.
+
+### Ce que veut réellement dire « le marché a monté »
+
+Lorsque les gens disent que « le marché a monté aujourd’hui », ils parlent habituellement de la hausse d’un indice précis et bien connu — et non littéralement de toutes les actions, partout. Des indices différents peuvent évoluer dans des directions différentes le même jour.
+
+### Un groupe défini, et non tout
+
+Un indice suit un ensemble précis et défini d’entreprises (choisies selon des règles précises), et non l’économie mondiale tout entière. Comprendre quelles entreprises font réellement partie d’un indice est important pour comprendre ce que représente vraiment son évolution.
+
+## Exemple pratique
+
+Un titre de nouvelles qui annonce que « le marché a progressé de 1 % aujourd’hui » fait habituellement référence à un indice précis composé d’un groupe défini d’entreprises — un autre indice, qui suit un autre groupe d’entreprises, aurait pu évoluer différemment ce même jour.
+
+## Quiz pratique
+
+1. Un indice boursier est :
+   A. L’action d’une seule entreprise
+   B. Un ensemble défini d’actifs suivis pour représenter un segment du marché
+   C. Un type de compte bancaire
+   D. Un rapport économique gouvernemental
+2. Vrai ou faux : « le marché a monté » veut toujours dire que littéralement toutes les actions du monde ont monté ce jour-là.
+3. Pourquoi est-il important de savoir quelles entreprises font réellement partie d’un indice?
+   A. Cela n’a aucune importance
+   B. Cela détermine ce que représente réellement l’évolution de cet indice
+   C. Tous les indices contiennent les mêmes entreprises
+   D. Les indices ne changent jamais leur composition
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un indice est un ensemble défini et suivi qui représente un segment du marché.
+
+### Question 2
+Bonne réponse : Faux. L’expression fait référence à un indice précis, et non littéralement à toutes les actions.
+
+### Question 3
+Bonne réponse : B. La composition détermine ce que reflète réellement l’évolution de l’indice.
+
+## Points clés
+
+- Un indice boursier suit un ensemble défini d’actifs.
+- « Le marché a monté » fait habituellement référence à un indice précis, et non à tout.
+- Comprendre la composition réelle d’un indice est important pour interpréter son évolution.
+
+===== WHITE-L1-012
+TITLE: Qu’est-ce que le ratio des frais de gestion, et pourquoi un petit pourcentage devrait-il vous importer?
+SUMMARY: Découvrez ce qu’est le ratio des frais de gestion d’un fonds, et pourquoi un pourcentage annuel apparemment petit compte avec le temps.
+# Qu’est-ce que le ratio des frais de gestion, et pourquoi un petit pourcentage devrait-il vous importer?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le ratio des frais de gestion en termes simples.
+- Calculer le coût annuel approximatif à partir du solde d’un fonds et de son ratio des frais de gestion.
+- Expliquer pourquoi de petites différences de pourcentage comptent avec le temps.
+
+## Contenu principal
+
+### Ce qu’est le ratio des frais de gestion
+
+Le ratio des frais de gestion (RFG, ou *expense ratio* en anglais) est le frais annuel qu’un fonds (comme un FNB ou un fonds commun de placement) facture, exprimé en pourcentage du montant investi, pour couvrir ses coûts de fonctionnement.
+
+### Calculer le coût
+
+Un ratio des frais de gestion de 0,50 % sur un placement de 10 000 $ coûte environ 50 $ par année, prélevés automatiquement sur le rendement du fonds — les investisseurs ne le paient habituellement pas sous forme de facture distincte.
+
+### Pourquoi de petits pourcentages comptent avec le temps
+
+Comme le ratio des frais de gestion est facturé chaque année, même de petites différences s’accumulent de façon importante sur de longues périodes. Des frais de 0,10 % plutôt que de 1,00 % sur le même placement, détenu pendant des décennies, peuvent représenter un coût total sensiblement différent, même si la différence annuelle semble petite.
+
+## Exemple pratique
+
+Un placement de 10 000 $ dont le ratio des frais de gestion est de 1,00 % coûte environ 100 $ par année en frais. Le même placement avec un ratio de 0,10 % coûte environ 10 $ par année — une différence de 90 $ qui s’accumule de façon importante s’il est détenu pendant de nombreuses années.
+
+## Quiz pratique
+
+1. Le ratio des frais de gestion est :
+   A. Un frais d’achat unique
+   B. Un frais annuel facturé en pourcentage du montant investi
+   C. Un impôt dû sur les dividendes
+   D. Un frais facturé seulement au moment de la vente
+2. Vrai ou faux : les différences de ratio des frais de gestion sont trop petites pour compter avec le temps.
+3. Un placement de 20 000 $ a un ratio des frais de gestion de 0,40 %. Combien cela coûte-t-il environ par année?
+   A. 8 $
+   B. 40 $
+   C. 80 $
+   D. 400 $
+
+## Corrigé
+
+1. B
+2. Faux
+3. C
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le ratio des frais de gestion est un frais annuel calculé en pourcentage.
+
+### Question 2
+Bonne réponse : Faux. De petites différences annuelles s’accumulent de façon importante sur de longues périodes.
+
+### Question 3
+Bonne réponse : C. 20 000 $ × 0,40 % = 80 $.
+
+## Points clés
+
+- Le ratio des frais de gestion est un frais annuel, facturé en pourcentage de l’actif investi.
+- Il est déduit automatiquement du rendement du fonds, et non facturé séparément.
+- De petites différences de ratio peuvent s’accumuler en coûts importants avec le temps.
+
+===== WHITE-L1-013
+TITLE: Qu’est-ce que la diversification, en termes simples?
+SUMMARY: Découvrez ce que la diversification fait réellement et ce qu’elle ne fait pas — elle réduit un certain risque, mais n’élimine pas tout risque.
+# Qu’est-ce que la diversification, en termes simples?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir la diversification en termes simples.
+- Expliquer quel type de risque elle réduit.
+- Expliquer pourquoi elle n’élimine pas tout risque.
+
+## Contenu principal
+
+### Ce qu’est la diversification
+
+La diversification consiste à répartir ses placements entre plusieurs actifs différents plutôt que de tout concentrer dans un seul — l’idée de base derrière la structure en « panier » des FNB et des fonds communs de placement vue précédemment.
+
+### Quel type de risque elle réduit
+
+La diversification réduit précisément le risque de concentration — le risque qu’un seul placement ait un mauvais rendement et entraîne vers le bas tout un portefeuille. Si un placement parmi plusieurs a un mauvais rendement, son effet sur l’ensemble est moindre que s’il s’agissait du seul placement.
+
+### Pourquoi elle n’élimine pas tout risque
+
+La diversification ne protège pas contre les baisses générales du marché qui touchent un grand nombre ou la plupart des placements à la fois, et elle ne garantit aucun profit. Elle gère un type précis de risque, et non tous les risques possibles.
+
+## Exemple pratique
+
+Une personne qui détient les actions d’une seule entreprise perd beaucoup si cette entreprise a un mauvais rendement. Une personne qui détient des actions de 50 entreprises différentes est beaucoup moins touchée par le mauvais rendement d’une seule d’entre elles — même si un repli général du marché pourrait quand même toucher les 50.
+
+## Quiz pratique
+
+1. La diversification consiste à :
+   A. Tout investir dans un seul actif
+   B. Répartir ses placements entre plusieurs actifs différents
+   C. Éviter tout risque d’investissement
+   D. Garantir un profit
+2. Vrai ou faux : la diversification élimine tout risque d’investissement.
+3. Quel type précis de risque la diversification réduit-elle surtout?
+   A. Le risque lié à l’ensemble du marché
+   B. Le risque de concentration (dépendance excessive envers un seul placement)
+   C. Exclusivement le risque de change
+   D. Exclusivement le risque d’inflation
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La diversification consiste à répartir ses placements entre plusieurs actifs.
+
+### Question 2
+Bonne réponse : Faux. Elle réduit un certain risque, mais n’élimine pas tout risque, surtout celui des baisses générales du marché.
+
+### Question 3
+Bonne réponse : B. Le risque de concentration est le risque précis que la diversification permet de gérer.
+
+## Points clés
+
+- La diversification consiste à répartir ses placements entre plusieurs actifs.
+- Elle réduit précisément le risque de concentration.
+- Elle n’élimine pas tout risque et ne garantit aucun profit.
+
+===== WHITE-L1-014
+TITLE: Qu’est-ce que le risque, et pourquoi n’est-ce pas la même chose que « mauvais »?
+SUMMARY: Découvrez comment ce cours définit le risque d’investissement, et pourquoi « risque » et « mauvais » ne sont pas la même notion.
+# Qu’est-ce que le risque, et pourquoi n’est-ce pas la même chose que « mauvais »?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le risque d’investissement en termes simples.
+- Expliquer pourquoi « risque » et « mauvais » sont des notions différentes.
+- Expliquer le lien général entre le risque et le rendement potentiel.
+
+## Contenu principal
+
+### Ce que signifie le risque ici
+
+En placement, le risque désigne généralement l’incertitude d’un résultat — plus précisément, la possibilité que le rendement réel d’un placement diffère de ce qui était prévu, y compris la possibilité d’une perte.
+
+### Le risque n’est pas la même chose que « mauvais »
+
+Le risque décrit une incertitude, et non un résultat négatif garanti. Un placement « risqué » n’est pas automatiquement un mauvais choix — cela signifie que l’éventail des résultats possibles est plus large, en bien comme en mal, que celui d’une option moins risquée.
+
+### Le lien général entre risque et rendement
+
+En général, les placements dont le rendement potentiel est plus élevé ont tendance à comporter un risque plus élevé, et les placements plus certains ou plus sûrs ont tendance à offrir un rendement potentiel plus faible. Ce n’est pas une garantie stricte dans chaque cas, mais c’est une tendance courante qu’il vaut la peine de comprendre.
+
+## Exemple pratique
+
+Une obligation gouvernementale émise par un émetteur stable est généralement considérée comme moins risquée, avec un rendement modeste en conséquence. L’action d’une nouvelle entreprise est généralement considérée comme plus risquée, avec la possibilité d’un rendement beaucoup plus élevé (ou beaucoup plus faible) que celui de l’obligation.
+
+## Quiz pratique
+
+1. En placement, le risque désigne généralement :
+   A. Une perte garantie
+   B. L’incertitude quant au résultat réel d’un placement
+   C. Un type de dividende
+   D. Un règlement gouvernemental
+2. Vrai ou faux : un placement « risqué » est automatiquement un mauvais choix.
+3. Quel est le lien général entre le risque et le rendement potentiel?
+   A. Un risque plus élevé n’a généralement aucun lien avec le rendement potentiel
+   B. Un rendement potentiel plus élevé s’accompagne généralement d’un risque plus élevé
+   C. Un risque plus faible signifie toujours un rendement plus élevé
+   D. Le risque et le rendement sont toujours identiques
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le risque désigne l’incertitude du résultat, et non une perte garantie.
+
+### Question 2
+Bonne réponse : Faux. Le risque décrit une incertitude, et non un résultat automatiquement mauvais.
+
+### Question 3
+Bonne réponse : B. Un rendement potentiel plus élevé va généralement de pair avec un risque plus élevé.
+
+## Points clés
+
+- Le risque désigne l’incertitude d’un résultat, et non un résultat mauvais garanti.
+- Un placement risqué n’est pas automatiquement un mauvais choix.
+- En règle générale, un rendement potentiel plus élevé s’accompagne d’un risque plus élevé.
+
+===== WHITE-L1-015
+TITLE: Qu’est-ce que la volatilité?
+SUMMARY: Découvrez ce que mesure la volatilité, et pourquoi elle est différente du risque de perte permanente.
+# Qu’est-ce que la volatilité?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir la volatilité en termes simples.
+- Expliquer ce que mesure précisément la volatilité.
+- Distinguer la volatilité d’une perte permanente.
+
+## Contenu principal
+
+### Ce que signifie la volatilité
+
+La volatilité désigne l’ampleur et la rapidité avec lesquelles le prix d’un actif monte et descend sur une période donnée. Un actif très volatil connaît des variations de prix importantes et fréquentes; un actif peu volatil évolue de façon plus graduelle.
+
+### Ce qu’elle mesure précisément
+
+La volatilité mesure les variations de prix, et pas nécessairement leur direction ni le résultat final. Un actif peut être très volatil tout en finissant plus haut avec le temps — la volatilité décrit les secousses du trajet, et non automatiquement la destination.
+
+### Volatilité ou perte permanente
+
+Une baisse temporaire du prix d’un actif volatil n’est pas la même chose qu’une perte permanente — si le prix remonte plus tard, une personne qui n’a pas vendu pendant la baisse vit de la volatilité sans perte durable. Une perte n’est « matérialisée » que si l’actif est vendu au prix plus bas.
+
+## Exemple pratique
+
+Le cours d’une action oscille entre 80 $ et 120 $ pendant quelques mois avant de se stabiliser près de 115 $ — très volatil en cours de route, mais une personne qui a conservé l’action malgré les variations termine près d’un gain, et non d’une perte.
+
+## Quiz pratique
+
+1. La volatilité mesure :
+   A. Une perte garantie
+   B. L’ampleur et la rapidité avec lesquelles un prix monte et descend
+   C. Le bénéfice total d’une entreprise
+   D. Le nombre d’actions en circulation
+2. Vrai ou faux : une baisse temporaire de prix est automatiquement la même chose qu’une perte permanente.
+3. Quand une perte sur papier due à la volatilité devient-elle une perte matérialisée?
+   A. Jamais
+   B. Lorsque l’actif est vendu au prix plus bas
+   C. Automatiquement après un an
+   D. Dès que le prix baisse le moindrement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. La volatilité mesure l’ampleur des variations de prix.
+
+### Question 2
+Bonne réponse : Faux. Une baisse temporaire n’est pas une perte permanente, à moins que l’actif soit réellement vendu à ce prix plus bas.
+
+### Question 3
+Bonne réponse : B. C’est la vente au prix plus bas qui matérialise la perte.
+
+## Points clés
+
+- La volatilité mesure l’ampleur et la rapidité des variations de prix.
+- Elle décrit les variations de prix, et non automatiquement un résultat final.
+- Une baisse temporaire n’est pas une perte permanente, à moins de vendre à ce prix.
