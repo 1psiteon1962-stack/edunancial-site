@@ -6,8 +6,8 @@ level: 1
 lessonNumber: 27
 locale: pt-BR
 title: "O que é rendimento (yield)?"
-summary: "Aprenda o que o yield mede em diferentes ativos financeiros e como ele difere da valorização do preço."
-sourceVersion: "1.0"
+summary: "Aprenda o que o rendimento mede nos diferentes ativos de papel e em que ele difere da valorização do preço."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
@@ -16,31 +16,45 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir rendimento em termos simples.
+- calcular um rendimento básico a partir da renda e do preço.
+- distinguir rendimento de valorização do preço.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que rendimento significa
 
-Yield mede, em geral, a renda gerada por um investimento — como dividendos de ações ou juros de títulos — expressa como porcentagem de seu preço.
+O rendimento (em inglês, "yield") geralmente mede a renda que um investimento gera (como dividendos de uma ação ou juros de um título), expressa como percentual do seu preço. (Para ações, é comum falar em "dividend yield".)
 
-### Como funciona
+### A fórmula básica
 
-Yield = Renda anual ÷ Preço atual. Para ações, renda normalmente significa dividendos; para títulos, normalmente pagamentos de juros.
+Rendimento = renda anual ÷ preço atual. Para uma ação, "renda" normalmente significa dividendos; para um título, normalmente significa pagamentos de juros.
 
-### Por que isso importa
+### Rendimento e valorização do preço
 
-Yield mede renda, não valorização do preço. Uma ação pode ter yield elevado e preço estável, ou yield baixo e forte valorização. São fontes distintas de retorno potencial.
+O rendimento mede especificamente a renda, e não o ganho de preço. Uma ação pode ter um rendimento alto por causa dos dividendos enquanto o preço fica parado, ou um rendimento baixo enquanto o preço sobe muito: são duas fontes separadas de retorno potencial, e não a mesma coisa.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma ação custa US$ 50 e paga US$ 2 anuais em dividendos. Yield = 2 ÷ 50 = 4%. Isso não inclui qualquer mudança no preço da própria ação.
+Uma ação é negociada a US$ 50 e paga US$ 2 de dividendos por ano. Rendimento = US$ 2 ÷ US$ 50 = 4%. Isso é separado de qualquer mudança no próprio preço da ação e não a inclui.
 
-## Quiz prático
+## Teste de prática
 
-1. Yield = A. valorização ÷ tempo B. renda anual ÷ preço atual C. ações ÷ lucro D. preço ÷ EPS
-2. Verdadeiro ou falso: yield mede valorização, não renda.
-3. Título paga US$ 40 e custa US$ 1.000: A. 0,4% B. 4% C. 40% D. 400%
+1. O rendimento é calculado como:
+   A. Valorização do preço ÷ tempo de posse
+   B. Renda anual ÷ preço atual
+   C. Total de ações ÷ lucro líquido
+   D. Preço da ação ÷ LPA
+
+2. Verdadeiro ou falso: o rendimento mede a valorização do preço, e não a renda.
+
+3. Um título paga US$ 40 por ano e custa US$ 1.000. Qual é o seu rendimento?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Uma ação custa US$ 50 e paga US$ 2 anuais em dividendos. Yield = 2 ÷ 50 = 4%.
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Rendimento = renda anual ÷ preço atual.
 
-- Entenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. O rendimento mede a renda, e não a valorização do preço.
+
+### Pergunta 3
+
+Resposta correta: B. US$ 40 ÷ US$ 1.000 = 4%.
+
+## Pontos-chave
+
+- Rendimento = renda anual ÷ preço atual.
+- Ele mede a renda (dividendos ou juros), e não a valorização do preço.
+- Renda e valorização do preço são duas fontes separadas de retorno potencial.

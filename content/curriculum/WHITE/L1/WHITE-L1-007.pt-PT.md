@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 7
 locale: pt-PT
-title: "O que é o preço de uma ação e o que o movimenta?"
-summary: "Compreenda o que determina o preço de uma ação no dia a dia, além da expressão “oferta e demanda”."
-sourceVersion: "1.0"
+title: "O que é a cotação de uma ação, e o que a faz mexer?"
+summary: "Aprenda o que determina a cotação de uma ação no dia a dia, para além de simplesmente \"oferta e procura\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é o preço de uma ação e o que o movimenta?
+# O que é a cotação de uma ação, e o que a faz mexer?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, o investidor deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir a cotação de uma ação em termos simples.
+- explicar o mecanismo básico de oferta e procura por detrás das variações de preço.
+- indicar fatores que podem deslocar essa oferta e essa procura.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é a cotação de uma ação
 
-O preço de uma ação é o valor pelo qual ela está a ser negociada no mercado naquele momento — o preço acordado entre o comprador e o vendedor mais recentes.
+A cotação de uma ação é o valor pelo qual é negociada no mercado nesse momento: o preço acordado pelo último comprador e pelo último vendedor.
 
-### Como funciona
+### O mecanismo básico
 
-Na essência, o preço se move por oferta e demanda: mais compradores do que vendedores a determinado preço tende a empurrá-lo para cima; mais vendedores tende a empurrá-lo para baixo.
+No essencial, a cotação de uma ação move-se em função da oferta e da procura: mais compradores do que vendedores a um determinado preço tende a empurrar a cotação para cima; mais vendedores do que compradores tende a empurrá-la para baixo.
 
-### Por que isso importa
+### O que desloca a oferta e a procura
 
-Notícias da empresa, resultados, novos produtos, mudanças de liderança, condições econômicas, tendências do setor e sentimento dos investidores podem alterar a disposição de comprar ou vender.
+Notícias específicas da empresa (resultados, novos produtos, mudanças na liderança), as condições económicas gerais, as tendências do setor e o sentimento dos investidores podem mudar quantas pessoas querem comprar ou vender a um determinado preço: é por isso que as cotações podem mexer mesmo sem qualquer mudança na própria empresa.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma empresa divulga lucros melhores que o esperado. Mais investidores querem comprar ao preço atual do que vendedores querem vender, pressionando o preço para cima até surgir novo equilíbrio.
+Uma empresa anuncia lucros acima do esperado. Mais investidores querem comprar ações à cotação atual do que há vendedores dispostos a vender, o que empurra a cotação para cima até se atingir um novo equilíbrio.
 
-## Quiz prático
+## Teste de prática
 
-1. Preço da ação é fundamentalmente movido por: A. regras governamentais B. oferta e demanda C. data de fundação D. ticker
-2. Verdadeiro ou falso: o preço só muda se algo mudar dentro da empresa.
-3. O que pode mudar oferta e demanda? A. notícia sobre lucros B. ticker C. data de fundação D. cor do logotipo
+1. A cotação de uma ação é determinada fundamentalmente por:
+   A. Regras fixadas pelo Estado
+   B. Oferta e procura
+   C. A data de fundação da empresa
+   D. O código de negociação da ação
 
-## Gabarito
+2. Verdadeiro ou falso: a cotação de uma ação só pode mudar se algo mudar na própria empresa.
+
+3. Qual é um fator que pode deslocar a oferta e a procura de uma ação?
+   A. Notícias sobre os resultados da empresa
+   B. O código de negociação da ação
+   C. A data de fundação da empresa
+   D. A cor do logótipo da empresa
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Uma empresa divulga lucros melhores que o esperado. Mais investidores querem com
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A oferta e a procura determinam fundamentalmente a cotação de uma ação.
 
-- Compreenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. As condições gerais do mercado e o sentimento podem mexer as cotações sem qualquer mudança específica na empresa.
+
+### Pergunta 3
+
+Resposta correta: A. As notícias sobre resultados são um motor comum de mudanças na oferta e na procura.
+
+## Pontos-chave
+
+- A cotação de uma ação reflete o último preço de negociação acordado.
+- A oferta e a procura determinam fundamentalmente o movimento da cotação.
+- Notícias da empresa, condições económicas e sentimento podem deslocar a oferta e a procura.

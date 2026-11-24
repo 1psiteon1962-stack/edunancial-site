@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 30
 locale: it
-title: "I Robo-Advisor Spiegati"
-summary: "*ASSUNZIONE:* Il compromesso comporta generalmente una consulenza meno personalizzata per situazioni finanziarie complesse o uniche rispetto a un consulente umano, anche se questo varia a seconda della piattaforma e alcune offrono servizi ibridi di umano più algoritmo."
-sourceVersion: "1.0"
+title: "Che cos'è il rischio di tasso di interesse?"
+summary: "Scopri come le variazioni dei tassi di interesse influiscono sui prezzi delle obbligazioni già esistenti e perché si muovono in direzioni opposte."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-030: I Robo-Advisor Spiegati
+# Che cos'è il rischio di tasso di interesse?
 
-## Obiettivi di Apprendimento
-1. Definire un robo-advisor.
-2. Spiegare come i robo-advisor costruiscono tipicamente i portafogli.
-3. Identificare un compromesso comune rispetto ai consulenti umani.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un robo-advisor è una piattaforma automatizzata che costruisce e gestisce un portafoglio di investimento in base agli obiettivi e alla tolleranza al rischio dichiarati da un investitore, utilizzando tipicamente algoritmi invece di un consulente umano per le decisioni quotidiane. *STIMA:* I robo-advisor addebitano generalmente commissioni più basse rispetto ai consulenti finanziari umani tradizionali, utilizzando spesso fondi indicizzati/ETF a basso costo come investimenti sottostanti.
+Al termine di questa lezione dovresti essere in grado di:
 
-*ASSUNZIONE:* Il compromesso comporta generalmente una consulenza meno personalizzata per situazioni finanziarie complesse o uniche rispetto a un consulente umano, anche se questo varia a seconda della piattaforma e alcune offrono servizi ibridi di umano più algoritmo.
+- definire in parole semplici il rischio di tasso di interesse.
+- spiegare il rapporto inverso di base tra tassi e prezzi delle obbligazioni.
+- spiegare perché questo conta per chi possiede già un'obbligazione.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Fatima risponde a un questionario sui suoi obiettivi, orizzonte temporale, e tolleranza al rischio su una piattaforma di robo-advisor. L'algoritmo costruisce automaticamente un portafoglio diversificato che corrisponde al suo profilo e lo ribilancia periodicamente — tutto questo senza che lei debba parlare con un consulente umano o fare selezioni di investimento individuali da sola.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un robo-advisor?
-2. Come si confrontano generalmente i robo-advisor con i consulenti umani in termini di commissioni?
-3. Vero/Falso: I robo-advisor richiedono sempre zero interazione umana.
-4. Qual è un compromesso generale nell'utilizzo di un robo-advisor?
+### Che cos'è il rischio di tasso di interesse
 
-## Chiave di Risposte
-1. Una piattaforma automatizzata di gestione del portafoglio   2. Commissioni generalmente più basse   3. Falso   4. Generalmente una consulenza meno personalizzata per situazioni complesse
+Il rischio di tasso di interesse è il rischio che le variazioni dei tassi di interesse generali influiscano sul valore di mercato delle obbligazioni già esistenti: è distinto dal rischio di credito, che riguarda la capacità dell'emittente di pagare.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un robo-advisor.
-2. Il costo più basso è un vantaggio comunemente citato dei robo-advisor.
-3. Alcune piattaforme offrono servizi ibridi di umano più algoritmo.
-4. La personalizzazione ridotta è un compromesso generale per il costo più basso e l'automazione.
+### Il rapporto inverso
 
-## Punti Chiave da Ricordare
-- I robo-advisor automatizzano la costruzione e la gestione del portafoglio in base agli obiettivi dichiarati.
-- Offrono generalmente commissioni più basse rispetto ai consulenti umani tradizionali.
-- Il compromesso è generalmente meno personalizzazione, anche se esistono modelli ibridi.
+Quando i tassi generali salgono, il prezzo di mercato delle obbligazioni esistenti con tassi fissi più bassi in genere scende, perché vengono emesse nuove obbligazioni al tasso attuale più alto e più interessante. Quando i tassi generali scendono, le obbligazioni esistenti a tasso più alto diventano in genere più preziose al confronto.
+
+### Perché conta per chi possiede già un'obbligazione
+
+Un obbligazionista che deve vendere prima della scadenza è esposto a questo movimento di prezzo. Un obbligazionista che mantiene il titolo fino alla scadenza riceve comunque il valore nominale: il rischio di tasso riguarda soprattutto il prezzo di mercato dell'obbligazione prima della scadenza, non il rimborso finale in sé.
+
+## Esempio svolto
+
+Un investitore possiede un'obbligazione che paga il 3% di interessi. I tassi generali salgono al 5%. Le nuove obbligazioni offrono ora il più interessante 5%, rendendo la vecchia obbligazione al 3% meno appetibile per un possibile acquirente: il suo prezzo di mercato scenderebbe in genere in caso di vendita prima della scadenza.
+
+## Quiz di esercitazione
+
+1. Il rischio di tasso di interesse indica:
+   A. Il rischio di insolvenza di un emittente
+   B. Il rischio che le variazioni dei tassi influiscano sui prezzi delle obbligazioni esistenti
+   C. Il rischio di un frazionamento azionario
+   D. Il rischio di cambio
+
+2. Vero o falso: quando i tassi generali salgono, in genere salgono anche i prezzi delle obbligazioni esistenti a tasso più basso.
+
+3. Un obbligazionista che mantiene il titolo fino alla scadenza riceve comunque l'intero valore nominale, nonostante il rischio di tasso?
+   A. No, perde la differenza
+   B. Sì, in genere il valore nominale viene comunque pagato alla scadenza
+   C. Solo se i tassi sono scesi
+   D. Solo se l'obbligazione è stata venduta in anticipo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il rischio di tasso influisce sui prezzi di mercato delle obbligazioni esistenti quando i tassi cambiano.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'aumento dei tassi spinge in genere al ribasso i prezzi delle obbligazioni esistenti a tasso più basso.
+
+### Domanda 3
+
+Risposta corretta: B. Chi mantiene il titolo fino alla scadenza riceve in genere comunque l'intero valore nominale, a prescindere dalle oscillazioni intermedie del prezzo.
+
+## Punti chiave
+
+- Il rischio di tasso influisce sui prezzi delle obbligazioni esistenti quando cambiano i tassi generali.
+- L'aumento dei tassi spinge in genere al ribasso i prezzi delle obbligazioni esistenti a tasso più basso, e viceversa.
+- Chi mantiene il titolo fino alla scadenza riceve in genere comunque il valore nominale, a prescindere dai movimenti intermedi del prezzo.

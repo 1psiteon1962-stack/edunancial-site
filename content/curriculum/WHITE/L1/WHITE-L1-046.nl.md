@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 46
 locale: nl
-title: "WHITE-L1-046"
-summary: "WHITE-L1-046"
-sourceVersion: "1.0"
+title: "Wat is een inkoop van eigen aandelen? (Inleidende versie – dieper in niveau 2)"
+summary: "Leer op inleidend niveau wat een inkoop van eigen aandelen is en waarom die cijfers per aandeel kan beïnvloeden zonder dat het bedrijf zelf verandert."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-046: De Basis van Opties — Calls en Puts
+# Wat is een inkoop van eigen aandelen? (Inleidende versie – dieper in niveau 2)
 
 ## Leerdoelen
-1. Een optiecontract in algemene bewoordingen definiëren.
-2. Een calloptie onderscheiden van een putoptie.
-3. Opties herkennen als instrumenten die doorgaans complexer zijn en meer risico dragen.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een inkoop van eigen aandelen in eenvoudige woorden te definiëren.
+- het mechanische basiseffect op het aantal uitstaande aandelen uit te leggen.
+- te herkennen dat een diepere blik op het effect op kengetallen in niveau 2 volgt.
 
 ## Kerninhoud
-Een optie is een contract dat de houder het recht (maar niet de verplichting) geeft om een effect te kopen of verkopen tegen een specifieke prijs binnen een specifieke termijn. Een **calloptie** geeft het recht om te kopen tegen een vaste prijs; een **putoptie** geeft het recht om te verkopen tegen een vaste prijs.
 
-*MENING:* Opties worden doorgaans beschouwd als complexer en risicovoller dan basisaandelen of -fondsen, en veel financiële opvoeders raden doorgaans aan om eerst een gedegen fundamenteel begrip van basisbeleggen op te bouwen voordat men opties gebruikt — deze les biedt slechts een oppervlakkige inleiding, geen voldoende begeleiding om zelfstandig in opties te handelen.
+### Wat een inkoop van eigen aandelen is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger koopt een calloptie die hem het recht geeft om binnen de volgende maand een aandeel te kopen tegen $50, en betaalt daarvoor een premie. Als het aandeel stijgt naar $60, zou hij de optie kunnen uitoefenen om te kopen tegen $50 en onmiddellijk een positie te hebben die meer waard is — waarbij hij winst behaalt op het verschil, verminderd met de betaalde premie. Als het aandeel onder $50 blijft, kan de optie waardeloos aflopen, en verliest de belegger alleen de betaalde premie.
+Een inkoop van eigen aandelen (in het Engels "stock buyback") vindt plaats wanneer een bedrijf zijn eigen aandelen op de open markt terugkoopt, waardoor het aantal uitstaande aandelen (een begrip dat eerder in dit niveau werd geïntroduceerd) daalt.
 
-## Praktische Toets
-1. Wat is een optiecontract, in algemene bewoordingen?
-2. Welk recht geeft een calloptie aan de houder?
-3. Welk recht geeft een putoptie aan de houder?
-4. Waar/Onwaar: Opties worden doorgaans beschouwd als eenvoudiger en minder risicovol dan basisaandelen.
+### Het mechanische basiseffect
+
+Met minder uitstaande aandelen en dezelfde totale winst van het bedrijf vertegenwoordigt elk overgebleven aandeel een iets groter stuk van het bedrijf: dit sluit aan bij de EPS (winst per aandeel), die eerder in dit niveau werd behandeld.
+
+### Een vooruitblik op niveau 2
+
+*AANNAME (voor onderwijsdoeleinden):* Deze inleidende les behandelt alleen de basiswerking. Niveau 2 laat dieper zien hoe inkopen cijfers per aandeel zoals de EPS en de K/W er beter kunnen laten uitzien zonder dat het onderliggende bedrijf werkelijk verbetert.
+
+## Praktijkvoorbeeld
+
+Een bedrijf met 1.000.000 uitstaande aandelen koopt 100.000 aandelen in, zodat er 900.000 overblijven. Bij dezelfde totale nettowinst stijgt de EPS simpelweg omdat die winst nu over minder aandelen wordt verdeeld.
+
+## Oefenquiz
+
+1. Een inkoop van eigen aandelen betekent:
+   A. Dat een bedrijf gloednieuwe aandelen uitgeeft
+   B. Dat een bedrijf zijn eigen aandelen van de markt terugkoopt
+   C. Een aandelensplitsing
+   D. Een dividenduitkering
+
+2. Waar of onwaar: een inkoop verhoogt het totale aantal uitstaande aandelen.
+
+3. Wat gebeurt er bij dezelfde nettowinst met de EPS nadat een inkoop het aantal uitstaande aandelen heeft verminderd?
+   A. De EPS daalt
+   B. De EPS stijgt, omdat de winst nu over minder aandelen wordt verdeeld
+   C. De EPS blijft precies gelijk
+   D. De EPS wordt nul
 
 ## Antwoordsleutel
-1. Een contract dat het recht (niet de verplichting) geeft om te kopen/verkopen tegen een vaste prijs binnen een termijn   2. Kopen tegen een vaste prijs   3. Verkopen tegen een vaste prijs   4. Onwaar
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een optiecontract.
-2. Dit definieert specifiek een calloptie.
-3. Dit definieert specifiek een putoptie.
-4. Opties worden doorgaans beschouwd als complexer en risicovoller dan basiseffecten.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een optie geeft het recht, niet de verplichting, om te kopen/verkopen tegen een vaste prijs binnen een termijn.
-- Calls houden het recht om te kopen in; puts houden het recht om te verkopen in.
-- Opties zijn doorgaans complexer en risicovoller — bouw eerst fundamentele kennis op.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Bij een inkoop koopt een bedrijf zijn eigen aandelen terug.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een inkoop vermindert het aantal uitstaande aandelen in plaats van het te verhogen.
+
+### Vraag 3
+
+Juist antwoord: B. Minder aandelen waarover dezelfde winst wordt verdeeld, verhogen de EPS mechanisch.
+
+## Belangrijkste punten
+
+- Bij een inkoop koopt een bedrijf zijn eigen aandelen terug, waardoor het aantal uitstaande aandelen daalt.
+- Dit verhoogt de EPS mechanisch, zelfs zonder verandering in de totale winst.
+- Niveau 2 laat dieper zien hoe dit kengetallen per aandeel kan vertekenen.

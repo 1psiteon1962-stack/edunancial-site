@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 15
 locale: pt-PT
-title: "O que é volatilidade?"
-summary: "Aprenda o que a volatilidade mede e por que ela difere do risco de perda permanente."
-sourceVersion: "1.0"
+title: "O que é a volatilidade?"
+summary: "Aprenda o que mede a volatilidade e porque é que é diferente do risco de perda permanente."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é volatilidade?
+# O que é a volatilidade?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir a volatilidade em termos simples.
+- explicar o que mede especificamente a volatilidade.
+- distinguir a volatilidade de uma perda permanente.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que significa volatilidade
 
-Volatilidade descreve quanto e quão rapidamente o preço de um ativo sobe e desce em determinado período. Um ativo muito volátil apresenta oscilações maiores e frequentes.
+A volatilidade refere-se a quanto e quão depressa o preço de um ativo sobe e desce num dado período. Um ativo muito volátil oscila de preço de forma ampla e frequente; um ativo pouco volátil mexe-se de forma mais gradual.
 
-### Como funciona
+### O que mede especificamente
 
-Volatilidade mede movimento de preço, não necessariamente direção ou resultado final. Um ativo pode oscilar muito e ainda terminar o período em valor superior.
+A volatilidade mede o movimento do preço, e não necessariamente o sentido ou o resultado final. Um ativo pode ser muito volátil e mesmo assim acabar mais alto ao longo do tempo: a volatilidade descreve os solavancos da viagem, e não automaticamente o destino.
 
-### Por que isso importa
+### Volatilidade e perda permanente
 
-Uma queda temporária não é igual a perda permanente. Se o preço se recupera, quem não vendeu durante a queda vivenciou volatilidade sem perda definitiva. A perda é realizada quando o ativo é vendido pelo preço menor.
+Uma queda temporária do preço de um ativo volátil não é o mesmo que uma perda permanente: se o preço recuperar mais tarde, o investidor que não vendeu durante a queda passa pela volatilidade sem uma perda duradoura. A perda só fica "consolidada" se o ativo for vendido ao preço mais baixo.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma ação oscila entre USD 80 e USD 120 durante alguns meses e termina perto de USD 115. Houve forte volatilidade, mas quem manteve a posição terminou próximo de um ganho.
+O preço de uma ação oscila entre 80 $ e 120 $ durante alguns meses antes de estabilizar perto de 115 $: muito volátil pelo caminho, mas o investidor que manteve a ação durante as oscilações acabou perto de um ganho, e não de uma perda.
 
-## Quiz prático
+## Teste de prática
 
-1. Volatilidade mede: A. perda garantida B. intensidade e velocidade das oscilações C. lucro total D. número de ações
-2. Verdadeiro ou falso: queda temporária é automaticamente perda permanente.
-3. Quando a perda se realiza? A. nunca B. ao vender pelo preço menor C. após um ano D. assim que o preço cai
+1. A volatilidade mede:
+   A. Perda garantida
+   B. Quanto e quão depressa um preço sobe e desce
+   C. O lucro total de uma empresa
+   D. O número de ações em circulação
 
-## Gabarito
+2. Verdadeiro ou falso: uma queda temporária do preço é automaticamente o mesmo que uma perda permanente.
+
+3. Quando é que uma perda potencial causada pela volatilidade se torna uma perda consolidada?
+   A. Nunca
+   B. Quando o ativo é vendido ao preço mais baixo
+   C. Automaticamente ao fim de um ano
+   D. Assim que o preço desce, por pouco que seja
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Uma ação oscila entre USD 80 e USD 120 durante alguns meses e termina perto de
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A volatilidade mede o grau de movimento do preço.
 
-- Compreenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Uma queda temporária não é uma perda permanente, a não ser que o ativo seja efetivamente vendido a esse preço mais baixo.
+
+### Pergunta 3
+
+Resposta correta: B. Vender ao preço mais baixo é o que consolida a perda.
+
+## Pontos-chave
+
+- A volatilidade mede quanto e quão depressa o preço se mexe.
+- Descreve o movimento do preço, e não automaticamente um resultado final.
+- Uma queda temporária não é uma perda permanente, a não ser que se venda a esse preço.

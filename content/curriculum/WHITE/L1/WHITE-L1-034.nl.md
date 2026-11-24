@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 34
 locale: nl
-title: "WHITE-L1-034"
-summary: "WHITE-L1-034"
-sourceVersion: "1.0"
+title: "Wat is een CD (Certificate of Deposit, termijndeposito)?"
+summary: "Leer wat een CD is, hoe het geld vastzet in ruil voor rendement, en wat het echte nadeel van vervroegd opnemen is."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-034: Preferente Aandelen vs. Gewone Aandelen
+# Wat is een CD (Certificate of Deposit, termijndeposito)?
 
 ## Leerdoelen
-1. Preferente aandelen onderscheiden van gewone aandelen.
-2. De verschillen in prioriteit bij dividend en liquidatie uitleggen.
-3. Een gangbare afweging van preferente aandelen identificeren.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een CD in eenvoudige woorden te definiëren.
+- de basisafweging uit te leggen die een CD biedt.
+- uit te leggen wat er doorgaans gebeurt bij vervroegd opnemen.
 
 ## Kerninhoud
-**Gewone aandelen** zijn de standaardvorm van eigendom, doorgaans met stemrecht, waarbij dividend (indien uitgekeerd) naar keuze van het bedrijf wordt betaald. **Preferente aandelen** hebben doorgaans een hogere aanspraak dan gewone aandelen op dividend en bedrijfsactiva bij liquidatie, maar missen doorgaans stemrecht en hebben minder potentieel voor sterke koersstijging.
 
-*GEVERIFIEERD FEIT:* Preferente dividenden zijn vaak vast en moeten doorgaans worden betaald vóór enig dividend op gewone aandelen — wat preferente aandeelhouders meer voorspelbaarheid van inkomen geeft, ten koste van het grotere groeipotentieel dat gewone aandelen kunnen bieden.
+### Wat een CD is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een bedrijf met financiële problemen schort het dividend op gewone aandelen op. De preferente aandeelhouders, met een hogere prioriteitsaanspraak, kunnen nog steeds hun vaste dividend ontvangen als het bedrijf dit kan betalen, aangezien preferente verplichtingen doorgaans vóór gewone dividenden worden voldaan. In een liquidatiescenario zouden preferente aandeelhouders ook vóór gewone aandeelhouders worden betaald, hoewel na obligatiehouders.
+Een CD (Certificate of Deposit) is een spaarproduct van Amerikaanse banken waarbij geld voor een vaste periode wordt vastgezet in ruil voor een vaste rente, die doorgaans hoger is dan op een gewone spaarrekening. In Nederland en België komt dit het dichtst bij een deposito of termijnrekening; de precieze voorwaarden verschillen per bank.
 
-## Praktische Toets
-1. Wat omvatten gewone aandelen doorgaans dat preferente aandelen doorgaans niet hebben?
-2. Welke prioriteitsaanspraak hebben preferente aandelen doorgaans boven gewone aandelen?
-3. Waar/Onwaar: Preferente dividenden zijn altijd gegarandeerd, ongeacht de prestaties van het bedrijf.
-4. Welke afweging brengen preferente aandelen doorgaans met zich mee vergeleken met gewone aandelen?
+### De basisafweging
+
+In ruil voor een doorgaans hogere, gegarandeerde rente spreekt de inlegger meestal af het geld niet op te nemen tot het einde van de looptijd van het CD: hij ruilt liquiditeit (behandeld in de vorige les) in voor een betere rente.
+
+### Wat er gebeurt bij vervroegd opnemen
+
+Geld vóór het einde van de looptijd uit een CD opnemen leidt doorgaans tot een boete, die een deel van de opgebouwde rente vaak vermindert of tenietdoet: die boete is de echte prijs van het doorbreken van de liquiditeitsafweging. (Bij veel deposito's is vervroegd opnemen helemaal niet of alleen onder voorwaarden mogelijk; controleer de voorwaarden van je bank.)
+
+## Praktijkvoorbeeld
+
+Een belegger zet $ 5.000 tegen een vaste rente in een CD met een looptijd van 1 jaar en spreekt af er een jaar lang niet aan te komen. Heeft hij het geld na 6 maanden nodig, dan kan hij het doorgaans opnemen, maar krijgt hij waarschijnlijk een boete die de rente vermindert die hij anders zou hebben ontvangen.
+
+## Oefenquiz
+
+1. Een CD biedt doorgaans:
+   A. Volledige liquiditeit zonder rentevoordeel
+   B. Een vaste rente in ruil voor het vastzetten van geld voor een bepaalde looptijd
+   C. Eigendom in een bedrijf
+   D. Gegarandeerde, snelgroeiende rendementen
+
+2. Waar of onwaar: vervroegd opnemen uit een CD is altijd gratis, zonder boete.
+
+3. Wat ruil je bij een CD in voor een doorgaans hogere rente?
+   A. Spreiding
+   B. Liquiditeit: het geld staat doorgaans vast voor een bepaalde looptijd
+   C. Eigendomsrechten
+   D. Bescherming tegen kredietrisico
 
 ## Antwoordsleutel
-1. Stemrecht   2. Een hogere prioriteit op dividend en liquidatieactiva   3. Onwaar   4. Meer voorspelbaarheid van inkomen, maar minder groeipotentieel
 
-## Antwoorden en Toelichtingen
-1. Gewone aandelen dragen doorgaans stemrecht dat preferente aandelen doorgaans niet hebben.
-2. Preferente aandelen hebben doorgaans prioriteit, hoewel dit geen absolute garantie is.
-3. Preferente dividenden kunnen nog steeds worden opgeschort in ernstige omstandigheden, ondanks hun prioriteit.
-4. Dit is de algemene afweging tussen de twee soorten aandelen.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Gewone aandelen omvatten doorgaans stemrecht; preferente aandelen doorgaans niet.
-- Preferente aandelen hebben doorgaans prioriteit op dividend en liquidatieactiva.
-- Preferente aandelen ruilen groeipotentieel in voor meer voorspelbaarheid van inkomen.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een CD ruilt liquiditeit in voor een vaste, vaak hogere rente.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Vervroegd opnemen leidt doorgaans tot een boete.
+
+### Vraag 3
+
+Juist antwoord: B. Liquiditeit is wat je inruilt voor het rentevoordeel.
+
+## Belangrijkste punten
+
+- Een CD biedt een vaste rente in ruil voor het vastzetten van geld voor een looptijd.
+- Je ruilt daarmee liquiditeit in voor een doorgaans betere rente.
+- Vervroegd opnemen leidt doorgaans tot een echte boete.

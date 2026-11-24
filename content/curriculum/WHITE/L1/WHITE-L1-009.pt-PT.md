@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 9
 locale: pt-PT
-title: "O que é um ETF? (Uma cesta, não uma única ação)"
-summary: "Aprenda o que é um ETF, como ele difere de uma ação individual e por que razão sua estrutura de cesta importa."
-sourceVersion: "1.0"
+title: "O que é um ETF? (Um cabaz, não uma ação isolada)"
+summary: "Aprenda o que é um ETF, em que difere de comprar uma ação isolada e porque é que essa estrutura de cabaz importa."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um ETF? (Uma cesta, não uma única ação)
+# O que é um ETF? (Um cabaz, não uma ação isolada)
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, o investidor deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir um ETF em termos simples.
+- explicar em que difere de comprar uma ação isolada.
+- explicar um benefício prático da estrutura de cabaz.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um ETF
 
-Um ETF (Exchange-Traded Fund) é um fundo que mantém uma coleção de ativos, frequentemente muitas ações ou títulos, e cujas unidades de participação são negociadas em bolsa durante o dia de forma semelhante a uma ação.
+Um ETF (Exchange-Traded Fund, fundo negociado em bolsa) é um fundo que detém um conjunto de ativos (muitas vezes várias ações ou obrigações), com unidades de participação negociadas em bolsa ao longo do dia, como uma ação isolada.
 
-### Como funciona
+### Em que difere de uma ação isolada
 
-Comprar uma ação de uma única empresa dá exposição apenas àquela empresa. Comprar uma unidade de participação de ETF dá exposição, de uma só vez, a tudo que existe dentro da cesta, potencialmente dezenas ou centenas de posições.
+Comprar uma ação de uma única empresa dá exposição apenas a essa empresa. Comprar uma unidade de participação de um ETF dá exposição a tudo o que está dentro do cabaz de uma só vez: potencialmente dezenas ou centenas de ativos subjacentes, com uma única compra.
 
-### Por que isso importa
+### Um benefício prático da estrutura de cabaz
 
-Ao distribuir a exposição entre muitas posições, o mau desempenho de uma única posição tende a ter impacto menor no ETF do que teria se fosse a única posição do investidor. É uma forma básica de diversificação.
+Como um ETF distribui a exposição por muitos ativos ao mesmo tempo, o mau desempenho de um único ativo dentro dele tem um impacto menor no ETF como um todo do que teria se fosse o único investimento do investidor: uma forma básica de diversificação, tratada com mais profundidade numa lição posterior.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Em vez de escolher uma única empresa, um investidor compra uma unidade de participação de um ETF que possui ações de 500 empresas e obtém exposição às 500 por meio de uma compra.
+Em vez de escolher uma empresa onde investir, um investidor compra uma unidade de participação de um ETF que detém ações de 500 empresas diferentes, distribuindo a sua exposição pelas 500 com uma única compra.
 
-## Quiz prático
+## Teste de prática
 
-1. ETF é: A. ação de uma empresa B. fundo com coleção de ativos negociado como ação C. poupança D. título público
-2. Verdadeiro ou falso: uma unidade de participação de ETF só dá exposição a uma empresa.
-3. Benefício da cesta: A. garante lucro B. distribui exposição C. elimina todo risco D. exige escolher ações
+1. Um ETF descreve-se melhor como:
+   A. A ação de uma única empresa
+   B. Um fundo que detém um conjunto de ativos, negociável como uma ação
+   C. Um tipo de conta poupança
+   D. Uma obrigação do Tesouro
 
-## Gabarito
+2. Verdadeiro ou falso: comprar uma unidade de participação de um ETF dá exposição a apenas uma empresa subjacente.
+
+3. Qual é um benefício prático da estrutura de cabaz de um ETF?
+   A. Garante lucro
+   B. Distribui a exposição por muitos ativos ao mesmo tempo
+   C. Elimina todo o risco de investimento
+   D. Exige escolher ações individuais
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Em vez de escolher uma única empresa, um investidor compra uma unidade de parti
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um ETF é um fundo negociável que detém vários ativos.
 
-- Compreenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Uma unidade de participação de um ETF dá normalmente exposição a muitos ativos subjacentes ao mesmo tempo.
+
+### Pergunta 3
+
+Resposta correta: B. Distribuir a exposição por muitos ativos é o benefício central.
+
+## Pontos-chave
+
+- Um ETF é um fundo que detém um conjunto de ativos, negociável como uma ação.
+- Uma única unidade de participação de um ETF pode dar exposição a muitos ativos subjacentes ao mesmo tempo.
+- Esta estrutura de cabaz oferece uma forma básica de diversificação.

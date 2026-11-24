@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 3
 locale: nl
-title: "WHITE-L1-003"
-summary: "WHITE-L1-003"
-sourceVersion: "1.0"
+title: "Wat is een aandeel eigenlijk? (Je koopt een stukje van een bedrijf)"
+summary: "Leer waar het bezit van een aandeel je werkelijk recht op geeft, en waarop niet."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-003: Obligaties — Uw Geld Uitlenen in Ruil voor Rente
+# Wat is een aandeel eigenlijk? (Je koopt een stukje van een bedrijf)
 
 ## Leerdoelen
-1. Een obligatie in eenvoudige bewoordingen definiëren.
-2. Het bezit van obligaties onderscheiden van aandeelhouderschap.
-3. De relatie tussen obligatiekoersen en rentetarieven uitleggen.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een aandeel in eenvoudige woorden te definiëren.
+- uit te leggen waar aandelenbezit je recht op geeft, en waarop niet.
+- uit te leggen waarom het totale aantal uitstaande aandelen ertoe doet voor wat één aandeel vertegenwoordigt.
 
 ## Kerninhoud
-Een obligatie is in wezen een lening die een belegger verstrekt aan een uitgevende instelling (een overheid of een bedrijf), die zich ertoe verbindt periodieke rente te betalen en de hoofdsom op de vervaldatum terug te betalen. *GEVERIFIEERD FEIT:* In tegenstelling tot een aandeelhouder is een obligatiehouder een schuldeiser, geen eigenaar — hij heeft doorgaans geen eigendomsrecht of stemrecht in de uitgevende onderneming.
 
-*GEVERIFIEERD FEIT:* Obligatiekoersen en rentetarieven bewegen doorgaans omgekeerd — wanneer de marktrente stijgt, dalen de koersen van bestaande obligaties doorgaans, en omgekeerd, omdat nieuwere obligaties concurrerendere tarieven bieden.
+### Een aandeel is een stukje echt eigendom
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Elena koopt een obligatie van $1.000 die 4% jaarlijkse rente oplevert, met een looptijd van 10 jaar. Elk jaar ontvangt zij $40 aan rente, en op de vervaldatum krijgt zij haar oorspronkelijke $1.000 terug. Als de marktrente vóór de vervaldatum stijgt naar 6%, wordt haar obligatie van 4% minder aantrekkelijk vergeleken met nieuwere obligaties, en zou haar verkoopprijs doorgaans dalen als zij deze vóór de vervaldatum zou willen verkopen.
+Als een bedrijf beursgenoteerd is, deelt het het eigendom op in een vast aantal aandelen. 1.000 aandelen bezitten van de 1.000.000 uitstaande aandelen betekent dat je 0,1% van dat bedrijf bezit, echt en juridisch.
 
-## Praktische Toets
-1. Wat is een obligatie, in eenvoudige bewoordingen?
-2. Is een obligatiehouder een eigenaar of een schuldeiser?
-3. Waar/Onwaar: Obligatiekoersen en rentetarieven bewegen doorgaans in dezelfde richting.
-4. Bij een obligatie van $1.000 die 4% per jaar oplevert, hoeveel rente wordt er elk jaar betaald?
+### Waar eigendom je recht op geeft (en waarop niet)
+
+Eigendom geeft je doorgaans recht op een evenredig deel van de winst (als er dividend wordt uitgekeerd) en bepaalde stemrechten bij belangrijke beslissingen. Het geeft je GEEN recht op zeggenschap over de dagelijkse gang van zaken, een gegarandeerd dividend of een gegarandeerd stijgende koers. Aandeelhouders zijn over het algemeen ook niet persoonlijk aansprakelijk voor de schulden van het bedrijf boven de waarde van hun aandelen.
+
+### Waarom het totale aantal aandelen ertoe doet
+
+100 aandelen bezitten van een bedrijf met 1.000 uitstaande aandelen is 10% eigendom. 100 aandelen bezitten van een bedrijf met 10.000.000 uitstaande aandelen is 0,001%. Het aantal aandelen alleen zegt niets over je werkelijke belang.
+
+## Praktijkvoorbeeld
+
+Een belegger met 5.000 aandelen van een bedrijf met 500.000 uitstaande aandelen bezit 5.000 ÷ 500.000 = 1% van het bedrijf.
+
+## Oefenquiz
+
+1. Het bezit van een aandeel geeft je doorgaans recht op:
+   A. Dagelijkse zeggenschap over de bedrijfsvoering
+   B. Een evenredig deel van de winst en bepaalde stemrechten
+   C. Gegarandeerde dividenduitkeringen
+   D. Persoonlijke aansprakelijkheid voor de schulden van het bedrijf
+
+2. Waar of onwaar: het aantal aandelen dat je bezit, zegt op zichzelf al wat je eigendomspercentage is.
+
+3. Een bedrijf heeft 200.000 uitstaande aandelen. Een belegger bezit 2.000 aandelen. Welk percentage bezit hij?
+   A. 0,1%
+   B. 1%
+   C. 2%
+   D. 10%
 
 ## Antwoordsleutel
-1. Een lening van de belegger aan de uitgevende instelling   2. Een schuldeiser   3. Onwaar   4. $40
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele leenrelatie die een obligatie vertegenwoordigt.
-2. Obligatiehouders lenen geld uit; zij bezitten geen aandelenbelang in de uitgevende instelling.
-3. Obligatiekoersen en rentetarieven bewegen doorgaans omgekeerd, niet gelijklopend.
-4. $1.000 × 0,04 = $40 jaarlijkse rente.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een obligatie is een lening aan een uitgevende instelling, terugbetaald met periodieke rente.
-- Obligatiehouders zijn schuldeisers, geen eigenaars.
-- Obligatiekoersen en rentetarieven bewegen doorgaans omgekeerd.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Eigendom geeft recht op een evenredig deel van de winst en bepaalde stemrechten, niet op zeggenschap over de bedrijfsvoering.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het eigendomspercentage hangt af van het aantal aandelen ten opzichte van het totale aantal uitstaande aandelen.
+
+### Vraag 3
+
+Juist antwoord: B. 2.000 ÷ 200.000 = 1%.
+
+## Belangrijkste punten
+
+- Een aandeel is echt, juridisch gedeeltelijk eigendom van een bedrijf.
+- Eigendom betekent geen zeggenschap over de bedrijfsvoering en geen gegarandeerd dividend.
+- Je werkelijke belang hangt af van je aandelen ten opzichte van het totale aantal uitstaande aandelen.

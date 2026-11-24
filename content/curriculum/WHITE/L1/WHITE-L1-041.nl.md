@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 41
 locale: nl
-title: "WHITE-L1-041"
-summary: "WHITE-L1-041"
-sourceVersion: "1.0"
+title: "Wat is een robo-adviseur?"
+summary: "Leer wat een robo-adviseur doet en wat de basisafweging is ten opzichte van een menselijke financieel adviseur."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-041: Marktcorrecties Begrijpen
+# Wat is een robo-adviseur?
 
 ## Leerdoelen
-1. Een marktcorrectie definiëren.
-2. Een correctie onderscheiden van een dalende markt aan de hand van de gangbare drempels.
-3. Correcties herkennen als een normaal en terugkerend kenmerk van de markt.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een robo-adviseur in eenvoudige woorden te definiëren.
+- uit te leggen hoe hij doorgaans een portefeuille samenstelt.
+- een basisafweging ten opzichte van een menselijke adviseur te benoemen.
 
 ## Kerninhoud
-*SCHATTING:* Een marktcorrectie wordt doorgaans gedefinieerd (hoewel niet volledig uniform) als een daling van ongeveer 10% ten opzichte van recente hoogtepunten — kleiner dan de vaak genoemde drempel van ongeveer 20% voor een dalende markt (Les 014).
 
-*AANNAME:* Correcties zijn historisch met enige regelmaat voorgekomen en worden doorgaans beschouwd als een normaal onderdeel van marktcycli, hoewel het exacte moment en de ernst ervan niet betrouwbaar vooraf te voorspellen zijn.
+### Wat een robo-adviseur is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Na een periode van gestage winsten daalt de markt over enkele weken met 12% — wat volgens de gangbare drempel in het correctiegebied terechtkomt, maar nog niet in het gebied van een dalende markt. Historisch gezien zijn veel correcties opgelost zonder uit te groeien tot volledige dalende markten, hoewel sommige dat wel deden — het onderscheid is belangrijk, maar voorspelt niet welke koers een specifieke daling zal volgen.
+Een robo-adviseur is een geautomatiseerde dienst die een beleggingsportefeuille samenstelt en beheert op basis van de doelen en de risicobereidheid van een belegger, doorgaans met algoritmes in plaats van een menselijke adviseur die afzonderlijke beslissingen neemt.
 
-## Praktische Toets
-1. Welk dalingspercentage wordt vaak genoemd als drempel voor een marktcorrectie?
-2. Hoe verhoudt een correctie zich doorgaans qua ernst tot een dalende markt?
-3. Waar/Onwaar: Correcties zijn zeldzame, unieke historische gebeurtenissen.
-4. Kan betrouwbaar worden voorspeld dat een correctie zal uitgroeien tot een dalende markt?
+### Hoe hij doorgaans een portefeuille samenstelt
+
+Een robo-adviseur stelt doorgaans een reeks vragen over doelen, beleggingshorizon en risicobereidheid, en verdeelt het geld vervolgens automatisch over een mix van beleggingen (vaak ETF's, die eerder in dit niveau aan bod kwamen) die bij dat profiel past.
+
+### De basisafweging ten opzichte van een menselijke adviseur
+
+Robo-adviseurs bieden doorgaans lagere kosten en een gemakkelijkere toegang dan een menselijke financieel adviseur, maar meestal minder persoonlijk advies voor complexe, individuele financiële situaties: een echte afweging tussen kosten en maatwerk.
+
+## Praktijkvoorbeeld
+
+Een belegger met een eenvoudig doel (zoals algemeen sparen voor later op lange termijn) en een gemiddelde risicobereidheid kan een robo-adviseur gebruiken om automatisch een passende portefeuille te laten opbouwen en onderhouden, tegen lagere kosten dan bij een menselijke adviseur.
+
+## Oefenquiz
+
+1. Een robo-adviseur is:
+   A. Een menselijke financieel adviseur die op afstand werkt
+   B. Een geautomatiseerde dienst die met algoritmes een portefeuille samenstelt en beheert
+   C. Een soort obligatie
+   D. Een pensioenregeling van de overheid
+
+2. Waar of onwaar: robo-adviseurs rekenen doorgaans hogere kosten dan menselijke financieel adviseurs.
+
+3. Wat is een basisafweging als je een robo-adviseur gebruikt in plaats van een menselijke adviseur?
+   A. Er is geen afweging
+   B. Lagere kosten en gemakkelijkere toegang, maar meestal minder persoonlijk advies
+   C. Robo-adviseurs garanderen hogere rendementen
+   D. Menselijke adviseurs zijn altijd gratis
 
 ## Antwoordsleutel
-1. Ongeveer 10%   2. Een correctie is doorgaans kleiner/minder ernstig   3. Onwaar   4. Nee, niet betrouwbaar
 
-## Antwoorden en Toelichtingen
-1. Dit is de vaak genoemde drempel voor een correctie.
-2. Correcties vertegenwoordigen een kleinere daling dan de drempel voor een dalende markt.
-3. Correcties zijn met enige regelmaat voorgekomen doorheen de marktgeschiedenis.
-4. Of een correctie verder escaleert, kan niet betrouwbaar vooraf worden voorspeld.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een correctie wordt doorgaans gedefinieerd als een daling van ongeveer 10% ten opzichte van recente hoogtepunten.
-- Dit is kleiner dan de drempel van ongeveer 20% voor een dalende markt.
-- Correcties zijn een normaal en terugkerend, maar onvoorspelbaar, kenmerk van de markt.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een robo-adviseur automatiseert het portefeuillebeheer met algoritmes.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Robo-adviseurs rekenen doorgaans lagere kosten dan menselijke adviseurs.
+
+### Vraag 3
+
+Juist antwoord: B. Lagere kosten en gemakkelijke toegang staan tegenover minder persoonlijk advies.
+
+## Belangrijkste punten
+
+- Een robo-adviseur automatiseert het samenstellen en beheren van een portefeuille.
+- Hij verdeelt beleggingen doorgaans op basis van doelen en risicobereidheid.
+- Vergeleken met een menselijke adviseur ruilt hij doorgaans lagere kosten in voor minder persoonlijk advies.

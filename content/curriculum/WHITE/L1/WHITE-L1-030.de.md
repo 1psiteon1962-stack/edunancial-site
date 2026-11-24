@@ -5,44 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 30
 locale: de
-title: "Was ist Zinsänderungsrisiko?"
-summary: "Lernen Sie, wie Änderungen des allgemeinen Zinsniveaus bestehende Anleihepreise beeinflussen und warum sich beide grundsätzlich in entgegengesetzte Richtungen bewegen."
-sourceVersion: "1.0"
+title: "Was ist das Zinsänderungsrisiko?"
+summary: "Lernen Sie, wie sich ändernde Zinsen auf die Kurse bestehender Anleihen auswirken und warum sich beide in entgegengesetzte Richtungen bewegen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist Zinsänderungsrisiko?
+# Was ist das Zinsänderungsrisiko?
 
 ## Lernziele
 
-- Zinsänderungsrisiko definieren.
-- Den grundlegenden inversen Zusammenhang zwischen Zinsen und Anleihepreisen erklären.
-- Erklären, warum dies für bestehende Anleihegläubiger wichtig ist.
+Am Ende dieser Lektion sollten Sie:
+
+- das Zinsänderungsrisiko in einfachen Worten definieren können.
+- den grundlegenden umgekehrten Zusammenhang zwischen Zinsen und Anleihekursen erklären können.
+- erklären können, warum das für einen bestehenden Anleihegläubiger wichtig ist.
 
 ## Kerninhalt
 
 ### Was Zinsänderungsrisiko ist
 
-Zinsänderungsrisiko ist das Risiko, dass Änderungen des allgemeinen Zinsniveaus den Marktwert bestehender Anleihen beeinflussen. Es ist vom Kreditrisiko zu unterscheiden, das die Zahlungsfähigkeit des Emittenten betrifft.
+Das Zinsänderungsrisiko ist das Risiko, dass Veränderungen des allgemeinen Zinsniveaus den Marktwert bestehender Anleihen beeinflussen – getrennt vom Kreditrisiko, bei dem es um die Zahlungsfähigkeit des Emittenten geht.
 
-### Der inverse Zusammenhang
+### Der umgekehrte Zusammenhang
 
-Steigen die allgemeinen Zinsen, fällt grundsätzlich der Marktpreis bestehender Anleihen mit niedrigeren festen Zinssätzen, weil neue Anleihen mit attraktiveren höheren Sätzen ausgegeben werden. Fallen die allgemeinen Zinsen, werden bestehende Anleihen mit höheren festen Sätzen im Vergleich grundsätzlich wertvoller.
+Steigen die allgemeinen Zinsen, fällt in der Regel der Marktpreis bestehender Anleihen mit niedrigerem festem Zins, weil neue Anleihen zum höheren, attraktiveren aktuellen Zins ausgegeben werden. Sinken die allgemeinen Zinsen, werden bestehende Anleihen mit höherem Zins im Vergleich in der Regel wertvoller.
 
-### Warum es für bestehende Anleihegläubiger wichtig ist
+### Warum das für einen bestehenden Anleihegläubiger wichtig ist
 
-Wer vor Fälligkeit verkaufen muss, ist dieser Preisbewegung ausgesetzt. Wer bis zur Fälligkeit hält, erhält grundsätzlich weiterhin den Nennwert. Das Zinsänderungsrisiko betrifft hauptsächlich den Marktpreis vor Fälligkeit.
+Ein Anleihegläubiger, der vor Fälligkeit verkaufen muss, ist dieser Kursbewegung ausgesetzt. Ein Anleihegläubiger, der bis zur Fälligkeit hält, erhält trotzdem den Nennwert – das Zinsänderungsrisiko betrifft vor allem den Marktpreis der Anleihe vor Fälligkeit, nicht die Rückzahlung selbst.
 
 ## Durchgerechnetes Beispiel
 
-Ein Anleger hält eine Anleihe mit 3 %. Das allgemeine Zinsniveau steigt auf 5 %. Neue Anleihen bieten nun 5 %, wodurch die ältere 3-%-Anleihe für Käufer weniger attraktiv wird und ihr Marktpreis bei einem Verkauf vor Fälligkeit grundsätzlich sinkt.
+Ein Anleger hält eine Anleihe mit 3 % Zinsen. Die allgemeinen Zinsen steigen auf 5 %. Neue Anleihen bieten nun den attraktiveren Satz von 5 %, wodurch die ältere 3-%-Anleihe des Anlegers für einen möglichen Käufer weniger attraktiv wird – ihr Marktpreis würde bei einem Verkauf vor Fälligkeit in der Regel fallen.
 
 ## Übungsquiz
 
-1. Zinsänderungsrisiko bedeutet: A. Emittentenausfall B. veränderte Zinsen beeinflussen bestehende Anleihepreise C. Aktiensplit D. Währungstausch
-2. Richtig oder falsch: Steigen allgemeine Zinsen, steigen bestehende niedriger verzinste Anleihen grundsätzlich ebenfalls im Preis.
-3. Erhält ein Anleger bei Halten bis Fälligkeit grundsätzlich den vollen Nennwert? A. Nein B. Ja C. nur bei fallenden Zinsen D. nur bei frühem Verkauf
+1. Das Zinsänderungsrisiko bezeichnet:
+   A. das Risiko, dass ein Emittent ausfällt
+   B. das Risiko, dass sich ändernde Zinsen die Kurse bestehender Anleihen beeinflussen
+   C. das Risiko eines Aktiensplits
+   D. das Wechselkursrisiko
+
+2. Richtig oder falsch: Wenn die allgemeinen Zinsen steigen, steigen in der Regel auch die Kurse bestehender niedriger verzinster Anleihen.
+
+3. Erhält ein Anleihegläubiger, der bis zur Fälligkeit hält, trotz Zinsänderungsrisiko den vollen Nennwert?
+   A. Nein, er verliert die Differenz
+   B. Ja, der Nennwert wird bei Fälligkeit in der Regel trotzdem gezahlt
+   C. Nur wenn die Zinsen gefallen sind
+   D. Nur wenn die Anleihe vorzeitig verkauft wurde
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Ein Anleger hält eine Anleihe mit 3 %. Das allgemeine Zinsniveau steigt auf 5 %
 
 ## Antworten und Erklärungen
 
-1. B. Zinsänderungen beeinflussen die Marktpreise bestehender Anleihen.
-2. Falsch. Steigende Zinsen drücken grundsätzlich die Preise älterer niedriger verzinster Anleihen.
-3. B. Bei Halten bis Fälligkeit wird grundsätzlich der Nennwert gezahlt.
+### Frage 1
+
+Richtige Antwort: B. Das Zinsänderungsrisiko beeinflusst die Marktpreise bestehender Anleihen, wenn sich die Zinsen ändern.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Steigende Zinsen drücken in der Regel die Kurse bestehender niedriger verzinster Anleihen.
+
+### Frage 3
+
+Richtige Antwort: B. Wer bis zur Fälligkeit hält, erhält in der Regel trotzdem den vollen Nennwert, unabhängig von zwischenzeitlichen Kursschwankungen.
 
 ## Wichtigste Erkenntnisse
 
-- Zinsänderungsrisiko betrifft Marktpreise bestehender Anleihen.
-- Steigende Zinsen drücken grundsätzlich bestehende niedriger verzinste Anleihen und umgekehrt.
-- Bei Halten bis Fälligkeit wird grundsätzlich der Nennwert unabhängig von zwischenzeitlichen Preisschwankungen gezahlt.
+- Das Zinsänderungsrisiko beeinflusst die Kurse bestehender Anleihen, wenn sich das allgemeine Zinsniveau ändert.
+- Steigende Zinsen drücken in der Regel die Kurse bestehender niedriger verzinster Anleihen, und umgekehrt.
+- Wer bis zur Fälligkeit hält, erhält in der Regel trotzdem den Nennwert, unabhängig von zwischenzeitlichen Kursbewegungen.

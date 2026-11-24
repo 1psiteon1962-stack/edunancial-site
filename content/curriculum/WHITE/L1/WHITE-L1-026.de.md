@@ -5,44 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 26
 locale: de
-title: "Was ist ein KGV? (Einführung — vollständige Methode in Level 2)"
-summary: "Lernen Sie die grundlegende KGV-Formel und was sie schätzt, als Einführung in die in Level 2 vertiefte Bewertung."
-sourceVersion: "1.0"
+title: "Was ist das Kurs-Gewinn-Verhältnis (KGV)? (Einführung – die vollständige Methode folgt in Level 2)"
+summary: "Lernen Sie die Grundformel des KGV und was es abschätzt – als Einführung in die Bewertung, die in Level 2 vertieft wird."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist ein KGV? (Einführung — vollständige Methode in Level 2)
+# Was ist das Kurs-Gewinn-Verhältnis (KGV)? (Einführung – die vollständige Methode folgt in Level 2)
 
 ## Lernziele
 
-- Die grundlegende KGV-Formel nennen.
-- Ein KGV aus Aktienkurs und EPS berechnen.
-- Auf Einführungsebene erklären, was die Kennzahl schätzt.
+Am Ende dieser Lektion sollten Sie:
+
+- die Grundformel des KGV angeben können.
+- ein einfaches KGV aus Aktienkurs und EPS berechnen können.
+- auf einführendem Niveau erklären können, was die Kennzahl abschätzt.
 
 ## Kerninhalt
 
-### Grundformel
+### Die Grundformel
 
-KGV (P/E Ratio) = Aktienkurs ÷ Gewinn je Aktie (EPS), direkt aufbauend auf dem EPS-Konzept der vorherigen Lektion.
+KGV (englisch "P/E ratio") = Aktienkurs ÷ Ergebnis je Aktie (EPS); es baut direkt auf dem EPS-Konzept der vorigen Lektion auf.
 
-### Was es schätzt
+### Was es abschätzt
 
-Das KGV beantwortet grob die Frage: Wie viel zahlen Anleger heute für jeden Dollar des aktuellen Unternehmensgewinns? Ein höherer Wert bedeutet, dass Anleger mehr je Dollar aktuellen Gewinns zahlen.
+Das KGV beantwortet grob die Frage: Wie viel zahlen Anleger heute für jeden Dollar des aktuellen Gewinns eines Unternehmens? Eine höhere Zahl bedeutet, dass Anleger pro Dollar aktuellen Gewinns mehr bezahlen.
 
-### Vorschau, nicht das vollständige Bild
+### Ein Ausblick, nicht das ganze Bild
 
-*ANNAHME (zu Lehrzwecken):* Diese Einführung behandelt nur die Grundformel. Der Vergleich zwischen Branchen und mögliche Verzerrungen durch Aktienrückkäufe werden in Level 2 ausführlicher behandelt.
+*ANNAHME (zu Lehrzwecken):* Diese einführende Lektion behandelt nur die Grundformel. Eine vollständige Behandlung – einschließlich des Vergleichs über Branchen hinweg und der Frage, wie Aktienrückkäufe die Kennzahl verzerren können – folgt in Level 2.
 
 ## Durchgerechnetes Beispiel
 
-Eine Aktie kostet 60 $ bei einem EPS von 3,00 $. KGV = 60 $ ÷ 3,00 $ = 20. Anleger zahlen damit 20 $ für jeden Dollar aktuellen Gewinns.
+Eine Aktie notiert bei 60 $ je Aktie bei einem EPS von 3,00 $. KGV = 60 $ ÷ 3,00 $ = 20 – Anleger zahlen 20 $ für jeden Dollar des aktuellen Gewinns dieses Unternehmens.
 
 ## Übungsquiz
 
-1. KGV = A. EPS ÷ Aktienkurs B. Aktienkurs ÷ EPS C. Nettogewinn ÷ Aktienkurs D. Aktienzahl ÷ EPS
-2. Richtig oder falsch: Ein höheres KGV bedeutet, dass Anleger weniger je Dollar aktuellen Gewinns zahlen.
-3. Aktie 80 $, EPS 4,00 $: A. 4 B. 20 C. 80 D. 320
+1. Die Formel des KGV lautet:
+   A. EPS ÷ Aktienkurs
+   B. Aktienkurs ÷ EPS
+   C. Jahresüberschuss ÷ Aktienkurs
+   D. Ausstehende Aktien ÷ EPS
+
+2. Richtig oder falsch: Ein höheres KGV bedeutet, dass Anleger pro Dollar aktuellen Gewinns weniger zahlen.
+
+3. Eine Aktie notiert bei 80 $ bei einem EPS von 4,00 $. Wie hoch ist ihr KGV?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Eine Aktie kostet 60 $ bei einem EPS von 3,00 $. KGV = 60 $ ÷ 3,00 $ = 20. Anle
 
 ## Antworten und Erklärungen
 
-1. B. KGV = Aktienkurs ÷ EPS.
-2. Falsch. Ein höheres KGV bedeutet mehr Preis je Dollar Gewinn.
-3. B. 80 $ ÷ 4,00 $ = 20.
+### Frage 1
+
+Richtige Antwort: B. KGV = Aktienkurs ÷ EPS.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Ein höheres KGV bedeutet, pro Dollar Gewinn mehr zu zahlen.
+
+### Frage 3
+
+Richtige Antwort: B. 80 $ ÷ 4,00 $ = 20.
 
 ## Wichtigste Erkenntnisse
 
 - KGV = Aktienkurs ÷ EPS.
-- Es schätzt, wie viel Anleger je Dollar aktuellen Gewinns zahlen.
-- Level 2 behandelt Anwendung und Grenzen ausführlicher.
+- Es schätzt ab, wie viel Anleger pro Dollar aktuellen Gewinns zahlen.
+- Dies ist eine einführende Fassung – Level 2 behandelt die vertiefte Anwendung und die Grenzen.

@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 3
 locale: pt-PT
-title: "O que é uma ação, realmente? (Está a comprar uma parte de uma empresa)"
-summary: "Compreenda quais os direitos que a propriedade de uma ação realmente oferece e quais não oferece."
-sourceVersion: "1.0"
+title: "O que é, afinal, uma ação? (Está a comprar um pedaço de uma empresa)"
+summary: "Aprenda a que dá realmente direito ser dono de uma ação, e a que não dá."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma ação, realmente? (Está a comprar uma parte de uma empresa)
+# O que é, afinal, uma ação? (Está a comprar um pedaço de uma empresa)
 
 ## Objetivos de aprendizagem
 
-No final desta lição, deverá saber definir uma ação, explicar os direitos que normalmente oferece e compreender por que razão o total de ações em circulação é importante.
+No final desta lição, deverá ser capaz de:
+
+- definir uma ação em termos simples.
+- explicar a que dá direito a propriedade de ações, e a que não dá.
+- explicar porque é que o total de ações em circulação importa para aquilo que uma ação representa.
 
 ## Conteúdo principal
 
-### Uma ação é uma parcela real de propriedade
+### Uma ação é uma fatia de propriedade real
 
-Quando uma empresa é aberta ao público, a sua propriedade é dividida num determinado número de ações. Possuir 1.000 de 1.000.000 de ações em circulação significa possuir 0,1% da empresa — de forma real e jurídica.
+Quando uma empresa está cotada, divide a propriedade num número fixo de ações. Ter 1000 ações de 1 000 000 em circulação significa ser dono de 0,1% dessa empresa, verdadeira e legalmente.
 
-### O que a propriedade oferece — e o que não oferece
+### A que dá direito a propriedade (e a que não dá)
 
-A propriedade normalmente dá direito proporcional aos lucros, caso existam dividendos, e determinados direitos de voto em decisões importantes. NÃO dá controlo das operações diárias, dividendos garantidos nem valorização garantida. Em geral, os acionistas também não respondem pessoalmente pelas dívidas da empresa para além do valor das suas ações.
+A propriedade dá normalmente direito a uma parte proporcional dos lucros (se forem pagos dividendos) e a certos direitos de voto em decisões importantes. NÃO dá direito a controlar as operações do dia a dia, a um dividendo garantido nem a uma cotação que sobe com certeza. Os acionistas também não respondem, em geral, pessoalmente pelas dívidas da empresa para além do valor das suas ações.
 
-### Por que razão o total de ações importa
+### Porque é que o total de ações importa
 
-Possuir 100 ações de uma empresa com 1.000 ações em circulação representa 10%. Possuir 100 ações de uma empresa com 10.000.000 em circulação representa 0,001%. A quantidade bruta de ações não revela, por si só, a sua participação real.
+Ter 100 ações de uma empresa com 1000 ações em circulação é ter 10% da propriedade. Ter 100 ações de uma empresa com 10 000 000 de ações em circulação é ter 0,001%. O número de ações, por si só, não diz qual é a sua participação real.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Um investidor com 5.000 ações de uma empresa que possui 500.000 ações em circulação detém 5.000 ÷ 500.000 = 1% da empresa.
+Um investidor com 5000 ações de uma empresa com 500 000 ações em circulação é dono de 5000 ÷ 500 000 = 1% da empresa.
 
-## Quiz prático
+## Teste de prática
 
-1. Possuir uma ação normalmente oferece: A. controlo diário B. participação proporcional nos lucros e certos votos C. dividendos garantidos D. responsabilidade pessoal pelas dívidas
-2. Verdadeiro ou falso: apenas o número de ações que possui revela a sua percentagem de propriedade.
-3. Existem 200.000 ações em circulação e o investidor possui 2.000. Qual é a participação? A. 0,1% B. 1% C. 2% D. 10%
+1. Ser dono de uma ação dá normalmente direito a:
+   A. Controlo diário das operações da empresa
+   B. Uma parte proporcional dos lucros e certos direitos de voto
+   C. Pagamentos garantidos de dividendos
+   D. Responsabilidade pessoal pelas dívidas da empresa
 
-## Gabarito
+2. Verdadeiro ou falso: o número de ações que possui, por si só, indica a sua percentagem de propriedade.
+
+3. Uma empresa tem 200 000 ações em circulação. Um investidor tem 2000 ações. Que percentagem possui?
+   A. 0,1%
+   B. 1%
+   C. 2%
+   D. 10%
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,12 +64,20 @@ Um investidor com 5.000 ações de uma empresa que possui 500.000 ações em cir
 
 ## Respostas e explicações
 
-1. B. A propriedade oferece participação proporcional e determinados direitos de voto.
-2. Falso. É necessário comparar as suas ações com o total em circulação.
-3. B. 2.000 ÷ 200.000 = 1%.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A propriedade dá direito a uma parte proporcional dos lucros e a certos direitos de voto, e não ao controlo das operações.
 
-- Uma ação é propriedade parcial real e jurídica de uma empresa.
-- Propriedade não significa controlo operacional nem dividendos garantidos.
-- A sua participação depende das ações detidas relativamente ao total em circulação.
+### Pergunta 2
+
+Resposta correta: Falso. A percentagem de propriedade depende das ações possuídas face ao total de ações em circulação.
+
+### Pergunta 3
+
+Resposta correta: B. 2000 ÷ 200 000 = 1%.
+
+## Pontos-chave
+
+- Uma ação é uma propriedade parcial real e legal de uma empresa.
+- A propriedade não significa controlo das operações nem dividendo garantido.
+- A sua participação real depende das ações possuídas face ao total de ações em circulação.

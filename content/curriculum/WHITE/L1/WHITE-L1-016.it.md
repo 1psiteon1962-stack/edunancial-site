@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 16
 locale: it
-title: "Il Piano di Accumulo del Capitale"
-summary: "*ASSUNZIONE:* Questo metodo non garantisce risultati migliori rispetto a un investimento in un'unica soluzione — storicamente, investire l'intera somma in una volta ha spesso superato questo metodo nei mercati rialzisti, poiché il denaro viene investito (e cresce) prima. Il beneficio principale di questo metodo è ridurre il rischio emotivo e di tempismo, non massimizzare il rendimento in ogni scenario."
-sourceVersion: "1.0"
+title: "Che cosa sono un mercato rialzista (bull) e un mercato ribassista (bear)?"
+summary: "Scopri che cosa significano mercato rialzista e ribassista, e perché le etichette descrivono una tendenza, non una garanzia di ciò che accadrà."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-016: Il Piano di Accumulo del Capitale
+# Che cosa sono un mercato rialzista (bull) e un mercato ribassista (bear)?
 
-## Obiettivi di Apprendimento
-1. Definire il piano di accumulo del capitale (dollar-cost averaging).
-2. Spiegare come questo metodo può ridurre l'impatto del tentare di prevedere il mercato.
-3. Riconoscere i compromessi di questo metodo rispetto a investire una somma totale in una volta sola.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il piano di accumulo del capitale significa investire una somma fissa a intervalli regolari, indipendentemente dal prezzo, invece di investire una somma totale in una volta sola. *FATTO VERIFICATO:* Questo approccio compra più quote quando i prezzi sono bassi e meno quando i prezzi sono alti, mediando il prezzo di acquisto nel tempo e riducendo l'impatto di qualsiasi acquisto mal temporizzato.
+Al termine di questa lezione dovresti essere in grado di:
 
-*ASSUNZIONE:* Questo metodo non garantisce risultati migliori rispetto a un investimento in un'unica soluzione — storicamente, investire l'intera somma in una volta ha spesso superato questo metodo nei mercati rialzisti, poiché il denaro viene investito (e cresce) prima. Il beneficio principale di questo metodo è ridurre il rischio emotivo e di tempismo, non massimizzare il rendimento in ogni scenario.
+- definire un mercato rialzista e un mercato ribassista.
+- spiegare su che cosa si basano di solito queste etichette.
+- spiegare perché descrivono una tendenza, non un futuro garantito.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Invece di investire $12.000 in una volta sola, Yara investe $1.000 ogni mese per un anno. In alcuni mesi compra quote a prezzi più alti, in altri mesi a prezzi più bassi — il suo costo medio per quota risulta alla fine più uniforme rispetto a se avesse investito l'intera somma in un momento particolarmente sfortunato.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è il piano di accumulo del capitale?
-2. Cosa fa questo metodo quando i prezzi sono bassi?
-3. Vero/Falso: Questo metodo supera sempre l'investimento in un'unica soluzione.
-4. Qual è il beneficio principale di questo metodo, secondo la lezione?
+### Che cosa significa ciascun termine
 
-## Chiave di Risposte
-1. Investire una somma fissa a intervalli regolari indipendentemente dal prezzo   2. Compra più quote   3. Falso   4. Ridurre il rischio emotivo e di tempismo, non garantire rendimenti più alti
+Un mercato rialzista (bull market) indica in genere un periodo prolungato di prezzi in aumento in un mercato. Un mercato ribassista (bear market) indica in genere un periodo prolungato di prezzi in calo, spesso definito in modo approssimativo come un calo di una percentuale significativa (di solito intorno al 20%) rispetto a un massimo recente.
 
-## Risposte e Spiegazioni
-1. Questo è il meccanismo fondamentale del piano di accumulo del capitale.
-2. Somme fisse comprano più quote quando i prezzi sono più bassi.
-3. Investire l'intera somma in una volta ha spesso storicamente superato questo metodo nei mercati rialzisti.
-4. Il valore di questo metodo è soprattutto comportamentale/riduttore di rischio, non un potenziatore garantito di rendimenti.
+### Su che cosa si basano le etichette
 
-## Punti Chiave da Ricordare
-- Questo metodo investe somme fisse regolarmente, comprando più quote quando i prezzi sono bassi.
-- Attenua il prezzo medio di acquisto ma non garantisce rendimenti migliori di un investimento in un'unica soluzione.
-- Il suo beneficio principale è ridurre il rischio di tempismo ed emotivo, non massimizzare i rendimenti.
+Questi termini descrivono una tendenza osservata in un certo periodo, non una previsione. Un mercato viene di solito definito "rialzista" o "ribassista" in base a movimenti di prezzo già avvenuti, guardando al passato o a uno schema attuale e prolungato.
+
+### Perché non sono una garanzia
+
+Trovarsi in un mercato rialzista o ribassista non garantisce che cosa accadrà dopo: i mercati possono passare dall'uno all'altro, e nessuno può prevedere in modo affidabile quando avverrà esattamente il passaggio. Trattare le etichette attuali come una previsione è un'ipotesi comune ma rischiosa.
+
+## Esempio svolto
+
+Un mercato salito in modo costante per due anni potrebbe essere descritto come mercato rialzista, ma quell'etichetta descrive ciò che è già successo, non una garanzia che i prezzi continueranno a salire.
+
+## Quiz di esercitazione
+
+1. Un mercato rialzista indica in genere:
+   A. Un periodo prolungato di prezzi in calo
+   B. Un periodo prolungato di prezzi in aumento
+   C. Una singola giornata di contrattazioni
+   D. Un tipo di obbligazione
+
+2. Vero o falso: essere definito "mercato rialzista" garantisce che i prezzi continueranno a salire.
+
+3. Su che cosa si basano di solito le etichette di mercato rialzista e ribassista?
+   A. Un annuncio dello Stato
+   B. Una tendenza dei prezzi osservata in un certo periodo
+   C. Il rapporto sugli utili di una singola azienda
+   D. Il meteo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un mercato rialzista indica una tendenza al rialzo prolungata.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'etichetta descrive una tendenza passata o attuale, non un futuro garantito.
+
+### Domanda 3
+
+Risposta corretta: B. Queste etichette riflettono una tendenza dei prezzi osservata.
+
+## Punti chiave
+
+- Un mercato rialzista è una tendenza al rialzo prolungata; un mercato ribassista è una tendenza al ribasso prolungata.
+- Queste etichette descrivono una tendenza osservata, non una previsione.
+- I mercati possono passare dall'uno all'altro in modo imprevedibile.

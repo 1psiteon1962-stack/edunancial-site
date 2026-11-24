@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 21
 locale: it
-title: "Roth vs. Conti Pensionistici Tradizionali"
-summary: "*FATTO VERIFICATO:* Un conto **Tradizionale** utilizza contributi al lordo delle imposte (riducendo il reddito imponibile ora) con prelievi tassati in pensione. Un conto **Roth** utilizza contributi al netto delle imposte (nessun beneficio fiscale attuale), ma i prelievi qualificati in pensione sono generalmente esenti da imposte, inclusa la crescita."
-sourceVersion: "1.0"
+title: "Che cos'è un conto titoli? (E in che cosa differisce da un conto previdenziale?)"
+summary: "Scopri che cos'è un normale conto titoli e in che cosa differisce, per scopo e flessibilità, da un conto previdenziale."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-021: Roth vs. Conti Pensionistici Tradizionali
+# Che cos'è un conto titoli? (E in che cosa differisce da un conto previdenziale?)
 
-## Obiettivi di Apprendimento
-1. Distinguere il trattamento fiscale Roth da quello tradizionale.
-2. Spiegare la differenza nel momento in cui viene pagata l'imposta.
-3. Riconoscere che questo è un concetto specifico degli Stati Uniti.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*REGOLA SPECIFICA DELLA REGIONE:* Le strutture Roth e Tradizionale sono concetti fiscali specifici degli Stati Uniti, applicabili sia ai 401(k) che agli IRA.
+Al termine di questa lezione dovresti essere in grado di:
 
-*FATTO VERIFICATO:* Un conto **Tradizionale** utilizza contributi al lordo delle imposte (riducendo il reddito imponibile ora) con prelievi tassati in pensione. Un conto **Roth** utilizza contributi al netto delle imposte (nessun beneficio fiscale attuale), ma i prelievi qualificati in pensione sono generalmente esenti da imposte, inclusa la crescita.
+- definire in parole semplici un conto titoli.
+- spiegare in che cosa differisce da un conto previdenziale come un 401(k) o un IRA.
+- spiegare il compromesso di base tra flessibilità e vantaggi fiscali.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Priya contribuisce con $6.000 a un conto Tradizionale, riducendo il suo reddito imponibile quest'anno. La sua collega contribuisce invece con $6.000 a un conto Roth, pagando ora le imposte su quel reddito ma aspettandosi prelievi esenti da imposte decenni dopo, inclusa tutta la crescita accumulata lungo il percorso — una scommessa che la sua aliquota fiscale attuale sia più bassa di quanto sarà in pensione.
+## Contenuto principale
 
-## Quiz Pratico
-1. Quando vengono tassati i contributi a un conto Tradizionale?
-2. Quando vengono tipicamente tassati i prelievi qualificati di un Roth?
-3. Vero/Falso: I contributi Roth forniscono una detrazione fiscale immediata.
-4. Qual è la differenza generale di tempistica tra il trattamento fiscale Roth e Tradizionale?
+### Che cos'è un conto titoli
 
-## Chiave di Risposte
-1. I prelievi vengono tassati in pensione   2. Generalmente esenti da imposte se qualificati   3. Falso   4. Il Tradizionale tassa dopo; il Roth tassa ora
+Un conto titoli (in inglese "brokerage account") è un normale conto d'investimento che permette a una persona di comprare e vendere azioni, obbligazioni, ETF e altre attività di carta, senza le regole fiscali specifiche per la pensione di un 401(k) o di un IRA.
 
-## Risposte e Spiegazioni
-1. I contributi Tradizionali differiscono l'imposta fino al prelievo.
-2. I prelievi Roth sono generalmente esenti da imposte quando qualificati, poiché l'imposta è stata pagata in anticipo.
-3. I contributi Roth sono al netto delle imposte, senza detrazione nell'anno corrente.
-4. Questa differenza di tempistica è la distinzione fondamentale tra i due tipi di conto.
+### In che cosa differisce da un conto previdenziale
 
-## Punti Chiave da Ricordare
-- Tradizionale: al lordo delle imposte ora, tassato al prelievo.
-- Roth: tassato ora, prelievi qualificati generalmente esenti da imposte in seguito.
-- La scelta tra i due dipende spesso dalle aliquote fiscali future previste rispetto a quelle attuali.
+A differenza dei conti previdenziali, un normale conto titoli in genere non ha vantaggi fiscali particolari, ma nemmeno limiti su quando si può prelevare il denaro: piena flessibilità di aggiungere o togliere denaro in qualsiasi momento.
+
+### Il compromesso tra flessibilità e vantaggio fiscale
+
+I conti previdenziali scambiano un po' di flessibilità (spesso limitando l'accesso facile prima di una certa età) con vantaggi fiscali reali. I conti titoli scambiano quei vantaggi fiscali con una piena flessibilità. Molti investitori usano entrambi, per scopi diversi.
+
+## Esempio svolto
+
+Un investitore che risparmia specificamente per una pensione lontana decenni potrebbe dare priorità a un 401(k) o a un IRA per i vantaggi fiscali. Lo stesso investitore, se risparmia per un obiettivo nei prossimi anni e ha bisogno di un accesso flessibile, potrebbe invece usare un normale conto titoli.
+
+## Quiz di esercitazione
+
+1. Un conto titoli è:
+   A. Esclusivamente per il risparmio previdenziale
+   B. Un normale conto d'investimento senza regole fiscali specifiche per la pensione
+   C. Un tipo di buono di risparmio
+   D. Disponibile solo per i datori di lavoro
+
+2. Vero o falso: un normale conto titoli ha gli stessi limiti di prelievo di un 401(k).
+
+3. Qual è il compromesso di base tra conti previdenziali e normali conti titoli?
+   A. Non c'è alcun compromesso
+   B. Vantaggi fiscali e accesso limitato contro piena flessibilità con meno vantaggi fiscali
+   C. I conti titoli sono illegali
+   D. I conti previdenziali non hanno alcun vantaggio fiscale
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un conto titoli è un normale conto d'investimento flessibile.
+
+### Domanda 2
+
+Risposta corretta: Falso. I conti titoli permettono in genere di prelevare in qualsiasi momento, a differenza dei conti previdenziali.
+
+### Domanda 3
+
+Risposta corretta: B. È questo il compromesso fondamentale tra i due tipi di conto.
+
+## Punti chiave
+
+- Un conto titoli è un normale conto d'investimento senza regole specifiche per la pensione.
+- Offre piena flessibilità, ma in genere nessun vantaggio fiscale particolare.
+- I conti previdenziali scambiano un po' di flessibilità con vantaggi fiscali reali.

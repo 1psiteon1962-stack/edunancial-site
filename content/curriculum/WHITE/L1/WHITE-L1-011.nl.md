@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 11
 locale: nl
-title: "WHITE-L1-011"
-summary: "WHITE-L1-011"
-sourceVersion: "1.0"
+title: "Wat is een index? (Wat \"de markt\" werkelijk betekent als mensen het erover hebben)"
+summary: "Leer wat een marktindex werkelijk is, en wat het betekent als mensen zeggen \"de markt is gestegen\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-011: Spreiding — Zet Niet Alle Eieren in Één Mandje
+# Wat is een index? (Wat "de markt" werkelijk betekent als mensen het erover hebben)
 
 ## Leerdoelen
-1. Spreiding definiëren.
-2. Uitleggen hoe spreiding het risico kan verminderen.
-3. Erkennen dat spreiding niet al het risico wegneemt.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een marktindex in eenvoudige woorden te definiëren.
+- uit te leggen wat het betekent als iemand zegt "de markt is gestegen".
+- te herkennen dat een index een afgebakende groep volgt, niet letterlijk alles.
 
 ## Kerninhoud
-Spreiding betekent beleggingen verdelen over verschillende activa, sectoren, of regio's, zodat slechte prestaties op één gebied niet de hele portefeuille schaden. *GEVERIFIEERD FEIT:* Spreiding kan de impact van slechte prestaties van één afzonderlijke belegging verminderen, maar neemt niet al het risico weg — algemene marktdalingen kunnen nog steeds een goed gespreide portefeuille treffen.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Sam belegt al zijn spaargeld in het aandeel van één enkel bedrijf. Wanneer dat bedrijf een slecht jaar heeft en 40% daalt, daalt zijn hele portefeuille met 40%. Zijn vriend Ravi verdeelt zijn beleggingen over 200 verschillende bedrijven via een indexfonds; wanneer enkele van die bedrijven een slecht jaar hebben, is de algehele impact op Ravi's portefeuille veel kleiner, omdat goede prestaties elders de zwakke kunnen compenseren.
+### Wat een index is
 
-## Praktische Toets
-1. Wat is spreiding?
-2. Waar/Onwaar: Spreiding neemt al het beleggingsrisico weg.
-3. Wat gebeurde er met Sams portefeuille toen zijn enige aandeel 40% daalde?
-4. Waarom werd Ravi's portefeuille minder beïnvloed door enkele slecht presterende bedrijven?
+Een marktindex is een afgebakende verzameling aandelen (of andere bezittingen) die samen worden gevolgd om de prestaties van een specifiek marktsegment weer te geven: het is een meetinstrument, niet iets wat je rechtstreeks bezit.
+
+### Wat "de markt is gestegen" werkelijk betekent
+
+Als mensen zeggen "de markt is vandaag gestegen", bedoelen ze meestal dat een specifieke, bekende index in waarde is gestegen, niet letterlijk elk aandeel overal. Verschillende indexen kunnen op dezelfde dag verschillende kanten op gaan.
+
+### Een afgebakende groep, niet alles
+
+Een index volgt een specifieke, afgebakende groep bedrijven (gekozen volgens vaste regels), niet de hele wereldeconomie. Begrijpen welke bedrijven er werkelijk in een index zitten, is belangrijk om te begrijpen wat de beweging ervan werkelijk vertegenwoordigt.
+
+## Praktijkvoorbeeld
+
+Een krantenkop als "de markt steeg vandaag 1%" verwijst doorgaans naar een specifieke index die bestaat uit een afgebakende groep bedrijven: een andere index die een andere groep bedrijven volgt, kan die dag anders hebben bewogen.
+
+## Oefenquiz
+
+1. Een marktindex is:
+   A. Het aandeel van één bedrijf
+   B. Een afgebakende verzameling bezittingen die wordt gevolgd om een marktsegment weer te geven
+   C. Een soort bankrekening
+   D. Een economisch rapport van de overheid
+
+2. Waar of onwaar: "de markt is gestegen" betekent altijd dat letterlijk elk aandeel ter wereld die dag is gestegen.
+
+3. Waarom doet het ertoe welke bedrijven er werkelijk in een index zitten?
+   A. Het doet er helemaal niet toe
+   B. Het bepaalt wat de beweging van die index werkelijk vertegenwoordigt
+   C. Alle indexen bevatten dezelfde bedrijven
+   D. Indexen veranderen nooit van samenstelling
 
 ## Antwoordsleutel
-1. Beleggingen verdelen over verschillende activa om geconcentreerd risico te verminderen   2. Onwaar   3. Deze daalde ook met 40%   4. Goede prestaties elders compenseerden de zwakke
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van spreiding.
-2. Spreiding vermindert het risico, maar neemt het niet weg — algemene dalingen blijven van belang.
-3. Met al het geld in één aandeel trof de volledige daling ervan zijn hele portefeuille.
-4. Het verdelen van risico over veel bezittingen dempt de impact van elke afzonderlijke zwakke prestatie.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Spreiding verdeelt het risico over meerdere beleggingen.
-- Het vermindert (maar neemt niet weg) de impact van slechte prestaties van een afzonderlijke belegging.
-- Algemene marktdalingen kunnen nog steeds zelfs goed gespreide portefeuilles treffen.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een index is een afgebakende, gevolgde verzameling die een marktsegment weergeeft.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het verwijst naar een specifieke index, niet letterlijk naar elk aandeel.
+
+### Vraag 3
+
+Juist antwoord: B. De samenstelling bepaalt wat de beweging van de index werkelijk weerspiegelt.
+
+## Belangrijkste punten
+
+- Een marktindex volgt een afgebakende verzameling bezittingen.
+- "De markt is gestegen" verwijst doorgaans naar één specifieke index, niet naar alles.
+- Begrijpen hoe een index werkelijk is samengesteld, is belangrijk om de beweging ervan te interpreteren.

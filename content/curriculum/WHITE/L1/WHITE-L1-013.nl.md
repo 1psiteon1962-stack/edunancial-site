@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 13
 locale: nl
-title: "WHITE-L1-013"
-summary: "WHITE-L1-013"
-sourceVersion: "1.0"
+title: "Wat is spreiding, in eenvoudige woorden?"
+summary: "Leer wat spreiding werkelijk wel en niet doet: het vermindert een bepaald risico, maar neemt niet alle risico weg."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-013: Aandelenindices (S&P 500 en Andere)
+# Wat is spreiding, in eenvoudige woorden?
 
 ## Leerdoelen
-1. Een aandelenindex definiëren.
-2. Uitleggen wat een index zoals de S&P 500 meet.
-3. Identificeren waarom indices als benchmark worden gebruikt.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- spreiding in eenvoudige woorden te definiëren.
+- uit te leggen welk soort risico het vermindert.
+- uit te leggen waarom het niet alle risico wegneemt.
 
 ## Kerninhoud
-Een aandelenindex volgt de prestaties van een specifieke groep aandelen, gebruikt als benchmark voor een segment van de markt. *GEVERIFIEERD FEIT:* De S&P 500 volgt bijvoorbeeld 500 grote Amerikaanse bedrijven en wordt vaak gebruikt als benchmark voor de algemene prestaties van de Amerikaanse aandelenmarkt met grote marktkapitalisatie.
 
-*REGIOSPECIFIEKE REGEL:* Andere belangrijke indices volgen verschillende markten of segmenten (bijvoorbeeld verschillende landen of bedrijfsgroottes) — welke index het meest relevant is, hangt af van welk marktsegment een belegger interesseert.
+### Wat spreiding is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een financieel nieuwsbericht zegt "de markt steeg vandaag met 1,5%", meestal verwijzend naar een belangrijke index zoals de S&P 500 die met dat bedrag steeg. Een belegger die een S&P 500-indexfonds bezit, zou de waarde van zijn fonds op vergelijkbare wijze zien bewegen, aangezien het fonds is ontworpen om de prestaties van die index nauwgezet te volgen.
+Spreiding (diversificatie) betekent beleggingen verdelen over meerdere verschillende bezittingen in plaats van alles in één te concentreren: het basisidee achter de "mandjes"-structuur van ETF's en beleggingsfondsen uit eerdere lessen.
 
-## Praktische Toets
-1. Wat is een aandelenindex?
-2. Wat volgt de S&P 500?
-3. Waar/Onwaar: Alle indices volgen dezelfde groep bedrijven.
-4. Waarom worden indices als benchmark gebruikt?
+### Welk soort risico het vermindert
+
+Spreiding vermindert specifiek het concentratierisico: het risico dat één enkele positie slecht presteert en een hele portefeuille omlaag trekt. Als één positie van de vele slecht presteert, is de impact op het totaal kleiner dan wanneer het de enige positie was.
+
+### Waarom het niet alle risico wegneemt
+
+Spreiding beschermt niet tegen bredere, marktbrede dalingen die veel of de meeste posities tegelijk raken, en het garandeert geen winst. Het beheerst één specifiek soort risico, niet elk mogelijk risico.
+
+## Praktijkvoorbeeld
+
+Een belegger met aandelen van slechts één bedrijf verliest veel als dat ene bedrijf slecht presteert. Een belegger met aandelen in 50 verschillende bedrijven wordt veel minder geraakt door de slechte prestaties van één bedrijf, al kan een brede marktdaling nog steeds alle 50 raken.
+
+## Oefenquiz
+
+1. Spreiding betekent:
+   A. Alles in één bezitting beleggen
+   B. Beleggingen verdelen over meerdere verschillende bezittingen
+   C. Alle beleggingsrisico vermijden
+   D. Winst garanderen
+
+2. Waar of onwaar: spreiding neemt alle beleggingsrisico weg.
+
+3. Welk specifiek soort risico vermindert spreiding vooral?
+   A. Marktbreed risico
+   B. Concentratierisico (te grote afhankelijkheid van één positie)
+   C. Uitsluitend valutarisico
+   D. Uitsluitend inflatierisico
 
 ## Antwoordsleutel
-1. Een instrument dat de prestaties van een specifieke groep aandelen volgt   2. 500 grote Amerikaanse bedrijven   3. Onwaar   4. Zij bieden een referentiepunt voor een marktsegment
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele functie van een marktindex.
-2. Dit is de specifieke samenstelling van de S&P 500.
-3. Verschillende indices volgen verschillende markten, groottes, of regio's.
-4. Benchmarks stellen beleggers in staat prestaties te vergelijken met een relevant marktsegment.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een marktindex volgt een gedefinieerde groep aandelen als prestatiebenchmark.
-- De S&P 500 volgt specifiek 500 grote Amerikaanse bedrijven.
-- Verschillende indices dienen als benchmark voor verschillende marktsegmenten.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Spreiding betekent beleggingen verdelen over meerdere bezittingen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het vermindert een bepaald risico, maar neemt niet alle risico weg, vooral niet bij brede marktdalingen.
+
+### Vraag 3
+
+Juist antwoord: B. Concentratierisico is het specifieke risico dat spreiding aanpakt.
+
+## Belangrijkste punten
+
+- Spreiding betekent beleggingen verdelen over meerdere bezittingen.
+- Het vermindert specifiek het concentratierisico.
+- Het neemt niet alle risico weg en garandeert geen winst.

@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 40
 locale: nl
-title: "WHITE-L1-040"
-summary: "WHITE-L1-040"
-sourceVersion: "1.0"
+title: "Wat is een tickersymbool?"
+summary: "Leer wat een tickersymbool is en waarom nauwkeurigheid belangrijk is bij het identificeren van een specifiek aandeel."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-040: Een Portefeuille Herbalanceren
+# Wat is een tickersymbool?
 
 ## Leerdoelen
-1. Portefeuilleherbalancering definiëren.
-2. Uitleggen waarom allocaties na verloop van tijd afwijken zonder herbalancering.
-3. De gangbare benaderingen van herbalancering identificeren.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een tickersymbool in eenvoudige woorden te definiëren.
+- uit te leggen waarom nauwkeurigheid belangrijk is bij het gebruik ervan.
+- te herkennen dat namen die op elkaar lijken heel verschillende symbolen kunnen hebben.
 
 ## Kerninhoud
-Herbalanceren betekent een portefeuille periodiek aanpassen naar de streefallocatie van activa, aangezien verschillende activa in verschillende tempo's groeien en de oorspronkelijke allocatie na verloop van tijd doen afwijken. *AANNAME:* Gangbare benaderingen van herbalancering omvatten een op kalender gebaseerde methode (bijvoorbeeld jaarlijks) of een op drempel gebaseerde methode (herbalanceren wanneer een allocatie een bepaald percentage van het streefdoel afwijkt) — geen enkele benadering is universeel superieur.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger begint met een streefallocatie van 70% aandelen / 30% obligaties. Na een sterk jaar voor aandelen wijkt de portefeuille af naar 80% aandelen / 20% obligaties — wat nu meer risico met zich meebrengt dan oorspronkelijk beoogd. Herbalanceren betekent enkele aandelen verkopen en obligaties kopen om terug te keren naar het oorspronkelijke streefdoel van 70/30, waardoor het risiconiveau van de portefeuille weer wordt afgestemd op het oorspronkelijke plan van de belegger.
+### Wat een tickersymbool is
 
-## Praktische Toets
-1. Wat is portefeuilleherbalancering?
-2. Waarom wijken allocaties na verloop van tijd af?
-3. Noem twee gangbare benaderingen van herbalancering.
-4. Wat gebeurde er in het praktische voorbeeld met het risiconiveau van de portefeuille vóór de herbalancering?
+Een tickersymbool is een unieke korte code (meestal letters) die aan het aandeel van een beursgenoteerd bedrijf is toegekend en die wordt gebruikt om het op een beurs nauwkeurig te identificeren. (In Europa worden effecten daarnaast vaak geïdentificeerd met de ISIN-code.)
+
+### Waarom nauwkeurigheid belangrijk is
+
+Omdat veel bedrijven vergelijkbare of verwante namen kunnen hebben, is het tickersymbool wat werkelijk en ondubbelzinnig bepaalt welk specifiek aandeel wordt gekocht, verkocht of besproken: alleen op een bedrijfsnaam vertrouwen kan tot dure fouten leiden.
+
+### Vergelijkbare namen, verschillende symbolen
+
+Twee bedrijven met vergelijkbaar klinkende namen kunnen totaal verschillende tickersymbolen hebben, en tikfouten of verwarring tussen symbolen zijn een reëel, vermijdbaar risico bij het plaatsen van een echte order.
+
+## Praktijkvoorbeeld
+
+Een belegger die aandelen van een specifiek bedrijf wil kopen, zoekt vóór het plaatsen van de order het exacte tickersymbool op, in plaats van alleen te vertrouwen op zijn herinnering aan de bedrijfsnaam, om te voorkomen dat hij per ongeluk het verkeerde aandeel verhandelt.
+
+## Oefenquiz
+
+1. Een tickersymbool is:
+   A. De volledige juridische naam van een bedrijf
+   B. Een unieke korte code die een specifiek aandeel op een beurs identificeert
+   C. Een soort dividend
+   D. Een fiscaal identificatienummer van de overheid
+
+2. Waar of onwaar: alleen vertrouwen op de naam van een bedrijf, zonder het exacte tickersymbool te controleren, is een veilige manier om de juiste transactie te garanderen.
+
+3. Waarom is nauwkeurigheid belangrijk bij het gebruik van een tickersymbool?
+   A. Het maakt helemaal niets uit
+   B. Vergelijkbare bedrijfsnamen kunnen heel verschillende symbolen hebben, en fouten zijn duur
+   C. Alle bedrijven delen hetzelfde tickersymbool
+   D. Tickersymbolen zijn optioneel
 
 ## Antwoordsleutel
-1. Een portefeuille aanpassen naar de streefallocatie   2. Verschillende activa groeien in verschillende tempo's   3. Op kalender gebaseerd, op drempel gebaseerd   4. Het risico nam toe naarmate de allocatie in aandelen boven het streefdoel groeide
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van herbalancering.
-2. Verschillende groeitempo's doen de allocaties afwijken van de oorspronkelijke streefdoelen.
-3. Dit zijn de twee algemene, vaak genoemde benaderingen van herbalancering.
-4. De afwijking naar een hogere aandelenallocatie verhoogde het risicoprofiel van de portefeuille boven het oorspronkelijke plan.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Herbalancering herstelt een portefeuille naar de streefallocatie naarmate deze na verloop van tijd afwijkt.
-- Afwijking ontstaat doordat verschillende activa in verschillende tempo's groeien.
-- Gangbare benaderingen omvatten op kalender gebaseerde en op drempel gebaseerde herbalancering.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een tickersymbool identificeert een specifiek aandeel uniek.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Wie alleen op de naam vertrouwt, riskeert bedrijven met vergelijkbare namen te verwarren.
+
+### Vraag 3
+
+Juist antwoord: B. Nauwkeurigheid voorkomt dure handelsfouten.
+
+## Belangrijkste punten
+
+- Een tickersymbool identificeert een specifiek aandeel op een beurs uniek.
+- Nauwkeurigheid is belangrijk: bedrijfsnamen kunnen op elkaar lijken, ook al zijn de tickersymbolen totaal verschillend.
+- Het exacte symbool controleren vóór het handelen voorkomt dure fouten.

@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 2
 locale: nl
-title: "WHITE-L1-002"
-summary: "WHITE-L1-002"
-sourceVersion: "1.0"
+title: "Wat is ROI? (En waarom hetzelfde idee er in elk vak anders uitziet)"
+summary: "Leer de ROI-formule, wat die meet en waarom hetzelfde begrip geldt voor vastgoed, ondernemen en papieren bezittingen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-002: Aandelen — Eigenaar Zijn van Een Deel van Een Bedrijf
+# Wat is ROI? (En waarom hetzelfde idee er in elk vak anders uitziet)
 
 ## Leerdoelen
-1. Een aandeel in eenvoudige bewoordingen definiëren.
-2. Uitleggen waar aandeelhouders recht op hebben.
-3. De twee belangrijkste manieren identificeren waarop het bezit van aandelen rendement kan opleveren.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een eenvoudige ROI te berekenen op basis van een winst en een kostprijs.
+- uit te leggen wat ROI werkelijk meet.
+- ROI te herkennen als een begrip dat in alle vakken geldt, en één beperking te benoemen.
 
 ## Kerninhoud
-Een aandeel vertegenwoordigt gedeeltelijk eigendom in een bedrijf. *GEVERIFIEERD FEIT:* Aandeelhouders hebben over het algemeen een recht op de activa en winsten van een bedrijf, evenredig aan het aantal aandelen dat zij bezitten, en kunnen stemrecht hebben over bepaalde bedrijfsaangelegenheden.
 
-Het bezit van aandelen kan op twee manieren rendement opleveren: **koerswinst** (de aandelenkoers stijgt) en **dividend** (een deel van de winst uitgekeerd aan aandeelhouders, wanneer een bedrijf ervoor kiest dit te doen).
+### De ROI-formule
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Marcus koopt 100 aandelen van een bedrijf tegen $50 per stuk ($5.000 in totaal). Een jaar later stijgt de koers naar $60 per aandeel — zijn belegging is nu $6.000 waard, een winst van $1.000 op papier. Als het bedrijf ook een jaarlijks dividend van $1 per aandeel heeft uitgekeerd, zou hij daarnaast nog $100 extra contant hebben ontvangen, los van de koersverandering.
+ROI = (opbrengst van de investering − kosten van de investering) ÷ kosten van de investering, meestal uitgedrukt als percentage. Als $ 1.000 groeit tot $ 1.200, is de winst $ 200 en de ROI = $ 200 ÷ $ 1.000 = 20%.
 
-## Praktische Toets
-1. Wat vertegenwoordigt het bezit van een aandeel?
-2. Noem de twee belangrijkste manieren waarop het bezit van aandelen rendement kan opleveren.
-3. Waar/Onwaar: Alle bedrijven zijn verplicht dividend uit te keren.
-4. Als u 50 aandelen bezit en de koers stijgt met $2 per aandeel, met hoeveel is de waarde van uw positie gestegen?
+### Hetzelfde begrip, andere vakken
+
+ROI is niet alleen een idee van het WHITE-vak. Een vastgoedbelegger in het RED-vak berekent de ROI op huurinkomsten en waardestijging ten opzichte van de aankoopprijs. Een ondernemer in het BLUE-vak berekent die op de gemaakte winst ten opzichte van het geïnvesteerde geld. De logica van de formule blijft hetzelfde – winst vergeleken met kosten –, maar wat als winst en als kosten telt, verschilt per vak.
+
+### Een echte beperking
+
+Een eenvoudige ROI houdt geen rekening met tijd. Een ROI van 20% in één jaar is heel anders dan dezelfde 20% over tien jaar, ook al laat de formule alleen dat verschil niet zien.
+
+## Praktijkvoorbeeld
+
+$ 500 die groeit tot $ 575 is een winst van $ 75: ROI = $ 75 ÷ $ 500 = 15%. Een aankoop van bedrijfsapparatuur van $ 10.000 die $ 2.500 extra winst oplevert: ROI = $ 2.500 ÷ $ 10.000 = 25%: dezelfde formule, heel verschillende situaties.
+
+## Oefenquiz
+
+1. ROI meet:
+   A. Het totale bedrag dat in dollars is gewonnen
+   B. De winst ten opzichte van de kosten, als percentage
+   C. De totale waarde van een investering
+   D. Het risiconiveau van een investering
+
+2. Waar of onwaar: een eenvoudige ROI houdt rekening met hoe lang het duurde om het rendement te behalen.
+
+3. Je investeert $ 2.000 en het groeit tot $ 2.400. Wat is de ROI?
+   A. 10%
+   B. 15%
+   C. 20%
+   D. 40%
 
 ## Antwoordsleutel
-1. Gedeeltelijk eigendom in een bedrijf   2. Koerswinst, dividend   3. Onwaar   4. $100
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een aandeel als een belang in eigendom.
-2. Dit zijn de twee fundamentele bronnen van rendement voor aandeelhouders.
-3. Dividend is een bedrijfsbeslissing, geen universele verplichting.
-4. 50 aandelen × $2 = $100 stijging in de waarde van de positie.
+1. B
+2. Onwaar
+3. C
 
-## Belangrijkste Punten om te Onthouden
-- Een aandeel vertegenwoordigt evenredig eigendom in een bedrijf.
-- Rendement komt voort uit koerswinst en, optioneel, dividend.
-- Het uitkeren van dividend is een bedrijfsbeslissing, geen garantie.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. ROI is specifiek een procentuele maatstaf van winst ten opzichte van kosten.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een eenvoudige ROI houdt geen rekening met tijd: een echte beperking.
+
+### Vraag 3
+
+Juist antwoord: C. ($ 2.400 − $ 2.000) ÷ $ 2.000 = 20%.
+
+## Belangrijkste punten
+
+- ROI = (winst − kosten) ÷ kosten, meestal uitgedrukt als percentage.
+- ROI geldt evengoed voor vastgoed, ondernemen en papieren bezittingen.
+- Een eenvoudige ROI houdt geen rekening met tijd: een echte beperking om in gedachten te houden.

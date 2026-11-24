@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 31
 locale: pt-PT
-title: "O que é inflação e por que ela altera silenciosamente o valor do seu dinheiro?"
-summary: "Aprenda o que significa inflação e por que ela corrói o poder de compra mesmo quando o saldo bancário permanece igual."
-sourceVersion: "1.0"
+title: "O que é a inflação, e porque é que altera silenciosamente o valor do seu dinheiro?"
+summary: "Aprenda o que significa inflação e porque é que corrói em silêncio o poder de compra, mesmo quando o saldo bancário se mantém igual."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é inflação e por que ela altera silenciosamente o valor do seu dinheiro?
+# O que é a inflação, e porque é que altera silenciosamente o valor do seu dinheiro?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir inflação em termos simples.
+- explicar porque é que um saldo estável pode, ainda assim, perder valor real.
+- relacionar a inflação com o motivo pelo qual manter apenas dinheiro parado tem um custo real.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é a inflação
 
-Inflação é um aumento geral dos preços ao longo do tempo, o que significa que cada unidade de moeda compra menos do que antes.
+A inflação é uma subida geral dos preços ao longo do tempo, o que significa que cada unidade de moeda compra menos do que comprava antes.
 
-### Como funciona
+### Porque é que um saldo estável pode perder valor
 
-Se os preços sobem 3% em um ano e um saldo bancário não rende juros, esse dinheiro pode comprar aproximadamente 3% menos. O número na conta não diminuiu, mas seu poder de compra real sim.
+Se os preços sobem 3% num ano e um saldo bancário não rende juros, esse dinheiro compra agora cerca de 3% menos do que um ano antes: o número na conta não diminuiu, mas o seu poder de compra real, sim.
 
-### Por que isso importa
+### Porque é que isto importa para investir
 
-Como a inflação reduz o poder de compra, manter dinheiro sem retorno por muito tempo não é “seguro” em todos os sentidos. Existe risco real de perder valor perante preços crescentes.
+Como a inflação corrói o poder de compra ao longo do tempo, manter dinheiro sem qualquer rendimento não é verdadeiramente "seguro" em todos os sentidos: comporta o risco real de perder valor face à subida dos preços, um dos principais motivos pelos quais muitas pessoas investem em vez de simplesmente pouparem dinheiro a longo prazo.
 
-## Exemplo resolvido
+## Exemplo prático
 
-USD 1.000 em uma conta sem juros durante um ano, com inflação de 3%, podem comprar aproximadamente o equivalente a USD 970 do ano anterior, embora a conta ainda mostre USD 1.000.
+1000 $ parados durante um ano numa conta sem remuneração, com uma inflação de 3%, compram cerca do que 970 $ teriam comprado um ano antes, embora a conta continue a mostrar 1000 $.
 
-## Quiz prático
+## Teste de prática
 
-1. Inflação: A. queda de preços B. aumento geral dos preços C. título D. imposto
-2. Verdadeiro ou falso: saldo estável nunca perde valor real.
-3. Risco de manter dinheiro por muito tempo: A. nenhum B. inflação reduz poder de compra C. sempre rende muito D. não existe
+1. A inflação refere-se a:
+   A. Uma descida dos preços ao longo do tempo
+   B. Uma subida geral dos preços ao longo do tempo
+   C. Um tipo de obrigação
+   D. Um imposto do Estado
 
-## Gabarito
+2. Verdadeiro ou falso: um saldo bancário estável está sempre imune à perda de valor real.
+
+3. Porque é que manter dinheiro parado a longo prazo pode comportar um risco real?
+   A. O dinheiro nunca pode perder valor
+   B. A inflação pode corroer o seu poder de compra ao longo do tempo
+   C. O dinheiro rende sempre juros elevados
+   D. Não há risco em manter dinheiro parado
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ USD 1.000 em uma conta sem juros durante um ano, com inflação de 3%, podem com
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A inflação é uma subida geral dos preços ao longo do tempo.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. A inflação pode corroer o valor real, mesmo com um saldo nominal estável.
+
+### Pergunta 3
+
+Resposta correta: B. A inflação corrói o poder de compra, um risco real de manter dinheiro parado a longo prazo.
+
+## Pontos-chave
+
+- A inflação é uma subida geral dos preços que reduz o poder de compra.
+- Um saldo estável pode, ainda assim, perder valor real por causa da inflação.
+- Manter dinheiro parado a longo prazo comporta um risco real, muitas vezes subestimado.

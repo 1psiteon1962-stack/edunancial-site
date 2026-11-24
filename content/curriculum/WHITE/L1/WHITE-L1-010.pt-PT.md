@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 10
 locale: pt-PT
-title: "O que é um fundo mútuo e como ele difere de um ETF?"
-summary: "Aprenda o que é um fundo mútuo e as principais diferenças práticas entre fundos mútuos e ETFs."
-sourceVersion: "1.0"
+title: "O que é um fundo de investimento, e em que difere de um ETF?"
+summary: "Aprenda o que é um fundo de investimento tradicional e as principais diferenças práticas entre estes fundos e os ETF."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um fundo mútuo e como ele difere de um ETF?
+# O que é um fundo de investimento, e em que difere de um ETF?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, o investidor deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir um fundo de investimento em termos simples.
+- explicar em que se assemelham os fundos de investimento e os ETF.
+- indicar pelo menos uma diferença prática entre eles.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um fundo de investimento
 
-Assim como um ETF, um fundo mútuo reúne dinheiro de muitos investidores para comprar uma coleção de ativos. Ambos utilizam o conceito básico de uma cesta.
+Tal como um ETF, um fundo de investimento tradicional (em inglês, "mutual fund") reúne dinheiro de muitos investidores para comprar um conjunto de ativos. Ambos partilham o conceito básico de "cabaz" da lição anterior.
 
-### Como funciona
+### Em que se assemelham
 
-Fundos mútuos e ETFs podem oferecer exposição diversificada por meio de um único investimento e podem ter gestão ativa ou passiva.
+Tanto os fundos de investimento como os ETF oferecem exposição diversificada a um cabaz de ativos com um único investimento, e ambos podem ter gestão ativa ou passiva.
 
-### Por que isso importa
+### Uma diferença prática central
 
-Ao contrário dos ETFs, negociados ao longo do dia com preços variáveis, unidades de participação de fundos mútuos são normalmente precificadas e negociadas uma vez por dia, após o fechamento do mercado, com base no valor calculado naquele dia.
+Ao contrário dos ETF, que são negociados em bolsa ao longo do dia a preços em constante mudança, as unidades de participação dos fundos de investimento são normalmente avaliadas e negociadas apenas uma vez por dia, após o fecho dos mercados, com base no valor calculado nesse dia.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Quem compra um ETF vê seu preço mudar durante o pregão. Quem aplica em fundo mútuo envia a ordem e recebe o preço calculado no final do dia, não em tempo real.
+Um investidor que compra um ETF pode ver o preço mudar minuto a minuto durante a sessão. Um investidor que subscreve um fundo de investimento dá a sua ordem e recebe um preço calculado no fim desse dia de negociação, e não em tempo real.
 
-## Quiz prático
+## Teste de prática
 
-1. Fundo mútuo é: A. ação única B. fundo coletivo que investe em cesta de ativos C. apenas título D. programa governamental
-2. Verdadeiro ou falso: fundos mútuos são negociados continuamente como ETFs.
-3. Diferença prática: A. fundos não podem ter ações B. fundos mútuos normalmente têm preço diário; ETFs negociam durante o dia C. ETFs não diversificam D. nenhuma
+1. Um fundo de investimento é:
+   A. A ação de uma única empresa
+   B. Um fundo coletivo que investe num conjunto de ativos, semelhante em conceito a um ETF
+   C. Exclusivamente um tipo de obrigação
+   D. Um programa de poupança do Estado
 
-## Gabarito
+2. Verdadeiro ou falso: as unidades de participação dos fundos de investimento são negociadas continuamente ao longo do dia, como as dos ETF.
+
+3. Qual é uma diferença prática central entre fundos de investimento e ETF?
+   A. Os fundos de investimento não podem deter ações
+   B. Os fundos de investimento são normalmente avaliados uma vez por dia; os ETF são negociados ao longo do dia
+   C. Os ETF não podem ser diversificados
+   D. Não há diferença real
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Quem compra um ETF vê seu preço mudar durante o pregão. Quem aplica em fundo 
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um fundo de investimento reúne dinheiro num cabaz diversificado, conceptualmente semelhante a um ETF.
 
-- Compreenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Os fundos de investimento são normalmente avaliados uma vez por dia, ao contrário dos ETF.
+
+### Pergunta 3
+
+Resposta correta: B. A frequência de avaliação é uma diferença prática central.
+
+## Pontos-chave
+
+- Um fundo de investimento reúne o dinheiro dos investidores num cabaz diversificado, semelhante a um ETF.
+- Ambos oferecem exposição diversificada com um único investimento.
+- Os fundos de investimento são normalmente avaliados uma vez por dia; os ETF são negociados ao longo do dia.

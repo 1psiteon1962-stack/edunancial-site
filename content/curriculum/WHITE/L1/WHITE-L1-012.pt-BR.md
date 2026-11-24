@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 12
 locale: pt-BR
-title: "O que é taxa de administração e por que uma pequena porcentagem importa?"
-summary: "Aprenda o que é a taxa anual de despesas de um fundo e por que uma porcentagem aparentemente pequena importa ao longo do tempo."
-sourceVersion: "1.0"
+title: "O que é a taxa de despesas de um fundo, e por que um pequeno percentual importa?"
+summary: "Aprenda o que é a taxa de despesas (expense ratio) de um fundo e por que um percentual anual aparentemente pequeno importa com o tempo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é taxa de administração e por que uma pequena porcentagem importa?
+# O que é a taxa de despesas de um fundo, e por que um pequeno percentual importa?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir a taxa de despesas em termos simples.
+- calcular o custo anual aproximado a partir do saldo em um fundo e da taxa de despesas.
+- explicar por que pequenas diferenças percentuais importam com o tempo.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é a taxa de despesas
 
-A taxa de despesas (expense ratio) é o custo anual cobrado por um fundo, como ETF ou fundo mútuo, expresso como porcentagem do valor investido para cobrir custos operacionais.
+A taxa de despesas (em inglês, "expense ratio") é a cobrança anual que um fundo (como um ETF ou um fundo de investimento) faz, expressa como percentual do valor investido, para cobrir seus custos de funcionamento. (No Brasil, os custos de um fundo costumam aparecer como taxa de administração e outras despesas; confira os documentos do fundo.)
 
-### Como funciona
+### Calculando o custo
 
-Uma taxa de 0,50% sobre US$ 10.000 custa aproximadamente US$ 50 por ano, retirados automaticamente do retorno do fundo; normalmente não chega uma conta separada ao investidor.
+Uma taxa de despesas de 0,50% sobre um investimento de US$ 10.000 custa cerca de US$ 50 por ano, descontados automaticamente dos retornos do fundo: normalmente o investidor não a paga como uma conta separada.
 
-### Por que isso importa
+### Por que pequenos percentuais importam com o tempo
 
-Como essas taxas são cobradas todos os anos, pequenas diferenças podem se acumular significativamente ao longo de décadas.
+Como a taxa de despesas é cobrada todo ano, até pequenas diferenças se acumulam de forma significativa em períodos longos. Uma taxa de 0,10% contra uma de 1,00% sobre o mesmo investimento, mantido por décadas, pode resultar em um custo total bem diferente, embora a diferença anual pareça pequena.
 
-## Exemplo resolvido
+## Exemplo prático
 
-US$ 10.000 com taxa de 1,00% custam cerca de US$ 100 por ano. Com 0,10%, cerca de US$ 10 — diferença anual de US$ 90 que se acumula ao longo do tempo.
+Um investimento de US$ 10.000 com taxa de despesas de 1,00% custa cerca de US$ 100 por ano em taxas. O mesmo investimento com taxa de 0,10% custa cerca de US$ 10 por ano: uma diferença de US$ 90 que se acumula de forma significativa se o investimento for mantido por muitos anos.
 
-## Quiz prático
+## Teste de prática
 
-1. Taxa de despesas é: A. taxa única B. custo anual percentual C. imposto sobre dividendos D. taxa só na venda
-2. Verdadeiro ou falso: diferenças pequenas nunca importam no longo prazo.
-3. US$ 20.000 a 0,40% custam aproximadamente: A. US$ 8 B. US$ 40 C. US$ 80 D. US$ 400
+1. A taxa de despesas é:
+   A. Uma taxa única cobrada na compra
+   B. Uma cobrança anual calculada como percentual do valor investido
+   C. Um imposto devido sobre dividendos
+   D. Uma taxa cobrada apenas na venda
+
+2. Verdadeiro ou falso: as diferenças de taxa de despesas são pequenas demais para importar com o tempo.
+
+3. Um investimento de US$ 20.000 tem taxa de despesas de 0,40%. Quanto isso custa, aproximadamente, por ano?
+   A. US$ 8
+   B. US$ 40
+   C. US$ 80
+   D. US$ 400
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ US$ 10.000 com taxa de 1,00% custam cerca de US$ 100 por ano. Com 0,10%, cerca d
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. A taxa de despesas é uma cobrança anual baseada em percentual.
 
-- Entenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Pequenas diferenças anuais se acumulam de forma significativa em períodos longos.
+
+### Pergunta 3
+
+Resposta correta: C. US$ 20.000 × 0,40% = US$ 80.
+
+## Pontos-chave
+
+- A taxa de despesas é uma cobrança anual, calculada como percentual do patrimônio investido.
+- Ela é descontada automaticamente dos retornos do fundo, e não cobrada à parte.
+- Pequenas diferenças de taxa podem se acumular em custos significativos com o tempo.

@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 33
 locale: it
-title: "Cos'è un Frazionamento Azionario?"
-summary: "Lezione WHITE-L1-033 in italiano."
-sourceVersion: "1.0"
+title: "Che cos'è un fondo monetario?"
+summary: "Scopri che cos'è un fondo monetario e perché è in genere considerato un'opzione meno rischiosa e più liquida rispetto ad altri fondi."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-033: Cos'è un Frazionamento Azionario?
+# Che cos'è un fondo monetario?
 
-## Obiettivi di Apprendimento
-1. Definire un frazionamento azionario.
-2. Spiegare perché un frazionamento non cambia il valore totale dell'investimento.
-3. Distinguere un frazionamento diretto da un raggruppamento (frazionamento inverso).
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un frazionamento azionario aumenta (o diminuisce) il numero di azioni in circolazione mentre regola il prezzo proporzionalmente, cosicché il valore totale di una posizione rimane lo stesso immediatamente dopo il frazionamento. *FATTO VERIFICATO:* In un **frazionamento diretto** (per esempio, 2 per 1), gli azionisti ricevono più azioni a un prezzo proporzionalmente più basso per azione. In un **raggruppamento** (per esempio, 1 per 10), gli azionisti ricevono meno azioni a un prezzo proporzionalmente più alto per azione.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investitore possiede 100 azioni che valgono $200 ciascuna ($20.000 in totale) prima di un frazionamento 2 per 1. Dopo il frazionamento, possiede 200 azioni che valgono $100 ciascuna — ancora $20.000 in totale. Nulla riguardo alla sua vera partecipazione di proprietà o al valore dell'azienda è cambiato; solo il numero di azioni e il prezzo per azione sono stati regolati proporzionalmente.
+- definire un fondo monetario in termini semplici.
+- spiegare in che cosa investe di solito.
+- spiegare perché è in genere considerato meno rischioso di un fondo azionario.
 
-## Quiz Pratico
-1. Cos'è un frazionamento azionario?
-2. In un frazionamento diretto 2 per 1, cosa succede al numero di azioni e al prezzo?
-3. Vero/Falso: Un frazionamento azionario cambia il valore totale di una posizione esistente.
-4. Cos'è un raggruppamento (frazionamento inverso)?
+## Contenuto principale
 
-## Chiave di Risposte
-1. Un aggiustamento alle azioni in circolazione e al prezzo che mantiene costante il valore totale   2. Il numero di azioni raddoppia; il prezzo per azione si dimezza approssimativamente   3. Falso   4. Un frazionamento che riduce il numero di azioni mentre aumenta proporzionalmente il prezzo per azione
+### Che cos'è un fondo monetario
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un frazionamento azionario.
-2. Questo descrive il meccanismo standard di un frazionamento diretto.
-3. Il valore totale della posizione rimane lo stesso immediatamente dopo un frazionamento — solo il numero di azioni e il prezzo cambiano.
-4. I raggruppamenti funzionano in modo opposto ai frazionamenti diretti.
+Un fondo monetario (in inglese "money market fund") è un tipo di fondo comune che investe in strumenti di debito a breve termine, in genere di alta qualità, con l'obiettivo di offrire stabilità e liquidità più che una crescita significativa.
 
-## Punti Chiave da Ricordare
-- Un frazionamento azionario regola il numero di azioni e il prezzo mantenendo lo stesso valore totale.
-- I frazionamenti diretti aumentano le azioni e abbassano il prezzo per azione; i raggruppamenti fanno l'opposto.
-- I frazionamenti non cambiano il valore sottostante di un investimento.
+### In che cosa investe di solito
+
+I fondi monetari detengono di solito, per esempio, titoli di Stato a breve termine e altri prestiti a brevissimo termine con alto merito di credito: investimenti scelti in genere per la stabilità più che per il potenziale di crescita.
+
+### Perché è in genere meno rischioso
+
+Poiché detiene debito a breve termine e di alta qualità, un fondo monetario è in genere considerato meno rischioso e più stabile nel valore rispetto a un fondo azionario, anche se non è del tutto privo di rischi e offre di solito, in cambio, rendimenti più modesti.
+
+## Esempio svolto
+
+Un investitore che cerca un luogo relativamente stabile in cui tenere contanti che potrebbero servirgli presto, ottenendo comunque un certo rendimento, potrebbe usare un fondo monetario invece di un fondo azionario più volatile.
+
+## Quiz di esercitazione
+
+1. Un fondo monetario investe di solito in:
+   A. Azioni tecnologiche ad alta crescita
+   B. Strumenti di debito a breve termine e di alta qualità
+   C. Direttamente in immobili
+   D. Esclusivamente in criptovalute
+
+2. Vero o falso: i fondi monetari sono in genere considerati più rischiosi dei fondi azionari.
+
+3. Perché un investitore potrebbe usare un fondo monetario?
+   A. Per massimizzare il potenziale di crescita a lungo termine
+   B. Per una relativa stabilità e liquidità
+   C. Per evitare del tutto ogni forma di rischio
+   D. Per comprare immobili
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I fondi monetari detengono debito a breve termine e di alta qualità.
+
+### Domanda 2
+
+Risposta corretta: Falso. Sono in genere considerati meno rischiosi dei fondi azionari.
+
+### Domanda 3
+
+Risposta corretta: B. Stabilità e liquidità sono il loro vantaggio principale.
+
+## Punti chiave
+
+- Un fondo monetario investe in debito a breve termine e di alta qualità.
+- È in genere considerato meno rischioso e più stabile dei fondi azionari.
+- Rinuncia a un potenziale di crescita più alto in cambio di stabilità e liquidità.

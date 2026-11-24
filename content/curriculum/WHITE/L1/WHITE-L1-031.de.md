@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 31
 locale: de
-title: "Was ist Inflation und warum verändert sie still den Wert Ihres Geldes?"
-summary: "Lernen Sie, was Inflation bedeutet und warum sie Kaufkraft abbaut, selbst wenn der Kontostand gleich bleibt."
-sourceVersion: "1.0"
+title: "Was ist Inflation, und warum verändert sie still und leise, was Ihr Geld wert ist?"
+summary: "Erfahren Sie, was Inflation bedeutet und warum sie die Kaufkraft unbemerkt aushöhlt, selbst wenn ein Kontostand gleich bleibt."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist Inflation und warum verändert sie still den Wert Ihres Geldes?
+# Was ist Inflation, und warum verändert sie still und leise, was Ihr Geld wert ist?
 
 ## Lernziele
 
-Am Ende dieser Lektion sollten Sie das behandelte Konzept definieren, seine praktische Bedeutung erklären und auf ein einfaches Beispiel anwenden können.
+Am Ende dieser Lektion sollten Sie:
+
+- Inflation in einfachen Worten definieren können.
+- erklären können, warum ein gleichbleibender Kontostand trotzdem realen Wert verlieren kann.
+- Inflation damit verbinden können, warum das bloße Halten von Bargeld echte Kosten verursacht.
 
 ## Kerninhalt
 
 ### Was Inflation ist
 
-Inflation ist ein allgemeiner Anstieg der Preise im Laufe der Zeit. Dadurch kann jede Geldeinheit weniger kaufen als zuvor.
+Inflation ist ein allgemeiner Anstieg der Preise im Lauf der Zeit; das bedeutet, dass jede Währungseinheit weniger kauft als früher.
 
-### Warum ein stabiler Kontostand real an Wert verlieren kann
+### Warum ein gleichbleibender Kontostand trotzdem an Wert verlieren kann
 
-Steigen Preise in einem Jahr um 3 % und bringt ein Kontoguthaben keine Zinsen, kann dieses Geld ungefähr 3 % weniger kaufen. Die Zahl auf dem Konto ist gleich, die reale Kaufkraft aber gesunken.
+Steigen die Preise in einem Jahr um 3 % und bringt ein Kontoguthaben keine Zinsen, kann man mit diesem Geld nun ungefähr 3 % weniger kaufen als ein Jahr zuvor – die Zahl auf dem Konto ist nicht geschrumpft, wohl aber ihre reale Kaufkraft.
 
-### Warum das beim Investieren wichtig ist
+### Warum das für das Investieren wichtig ist
 
-Weil Inflation Kaufkraft abbaut, ist langfristiges Halten von Bargeld ohne Rendite nicht in jeder Hinsicht „sicher“. Der reale Wert kann gegenüber steigenden Preisen sinken.
+Weil Inflation die Kaufkraft mit der Zeit aushöhlt, ist Bargeld ohne Rendite nicht in jeder Hinsicht wirklich „sicher“ – es trägt das reale Risiko, gegenüber steigenden Preisen an Wert zu verlieren. Das ist ein wichtiger Grund, warum viele Menschen investieren, statt langfristig einfach nur Bargeld zu sparen.
 
 ## Durchgerechnetes Beispiel
 
-1.000 $ auf einem unverzinsten Konto können bei 3 % Inflation nach einem Jahr nur noch ungefähr so viel kaufen wie zuvor 970 $, obwohl weiterhin 1.000 $ angezeigt werden.
+1.000 $, die ein Jahr lang bei 3 % Inflation auf einem unverzinsten Konto liegen, kaufen danach nur noch etwa so viel, wie 970 $ ein Jahr zuvor gekauft hätten – obwohl das Konto weiterhin 1.000 $ anzeigt.
 
 ## Übungsquiz
 
-1. Inflation bedeutet: A. sinkende Preise B. allgemeinen Preisanstieg C. Anleiheart D. Steuer
-2. Richtig oder falsch: Ein unveränderter Kontostand kann niemals real an Wert verlieren.
-3. Warum trägt langfristiges Bargeldhalten Risiko? A. nie Wertverlust B. Inflation kann Kaufkraft abbauen C. immer hohe Zinsen D. kein Risiko
+1. Inflation bezeichnet:
+   A. Einen Rückgang der Preise im Lauf der Zeit
+   B. Einen allgemeinen Anstieg der Preise im Lauf der Zeit
+   C. Eine Art Anleihe
+   D. Eine staatliche Steuer
+
+2. Richtig oder falsch: Ein gleichbleibender Kontostand ist immer davor geschützt, realen Wert zu verlieren.
+
+3. Warum kann das langfristige Halten von Bargeld ein reales Risiko darstellen?
+   A. Bargeld kann nie an Wert verlieren
+   B. Inflation kann seine Kaufkraft mit der Zeit aushöhlen
+   C. Bargeld bringt immer hohe Zinsen
+   D. Das Halten von Bargeld birgt kein Risiko
 
 ## Lösungsschlüssel
 
@@ -50,10 +64,20 @@ Weil Inflation Kaufkraft abbaut, ist langfristiges Halten von Bargeld ohne Rendi
 
 ## Antworten und Erklärungen
 
-Die richtigen Antworten folgen unmittelbar aus den Definitionen, Unterscheidungen und dem durchgerechneten Beispiel dieser Lektion.
+### Frage 1
+
+Richtige Antwort: B. Inflation ist ein allgemeiner Anstieg der Preise im Lauf der Zeit.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Inflation kann den realen Wert aushöhlen, auch wenn der nominale Kontostand gleich bleibt.
+
+### Frage 3
+
+Richtige Antwort: B. Inflation höhlt die Kaufkraft aus – ein reales Risiko, wenn man langfristig Bargeld hält.
 
 ## Wichtigste Erkenntnisse
 
-- Beherrschen Sie die genaue Definition des Konzepts.
-- Verstehen Sie seine praktische finanzielle Wirkung und seine Grenzen.
-- Wenden Sie es bewusst auf reale Entscheidungen und Beispiele an.
+- Inflation ist ein allgemeiner Preisanstieg, der die Kaufkraft verringert.
+- Ein gleichbleibender Kontostand kann durch Inflation trotzdem realen Wert verlieren.
+- Langfristig Bargeld zu halten birgt ein reales, oft unterschätztes Risiko.

@@ -5,44 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 21
 locale: de
-title: "Was ist ein Brokerage-Konto? (Und wie unterscheidet es sich von einem Altersvorsorgekonto?)"
-summary: "Lernen Sie, was ein normales Brokerage-Konto ist und wie es sich in Zweck und Flexibilität von einem Altersvorsorgekonto unterscheidet."
-sourceVersion: "1.0"
+title: "Was ist ein Depot? (Und worin unterscheidet es sich von einem Altersvorsorgekonto?)"
+summary: "Lernen Sie, was ein gewöhnliches Wertpapierdepot ist und wie es sich in Zweck und Flexibilität von einem Altersvorsorgekonto unterscheidet."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist ein Brokerage-Konto? (Und wie unterscheidet es sich von einem Altersvorsorgekonto?)
+# Was ist ein Depot? (Und worin unterscheidet es sich von einem Altersvorsorgekonto?)
 
 ## Lernziele
 
-- Ein Brokerage-Konto definieren.
-- Den Unterschied zu 401(k) oder IRA erklären.
-- Den Zielkonflikt zwischen Flexibilität und Steuervorteilen erklären.
+Am Ende dieser Lektion sollten Sie:
+
+- ein Wertpapierdepot in einfachen Worten definieren können.
+- erklären können, wie es sich von einem Altersvorsorgekonto wie einem 401(k) oder IRA unterscheidet.
+- den grundlegenden Zielkonflikt zwischen Flexibilität und Steuervorteilen erklären können.
 
 ## Kerninhalt
 
-### Was ein Brokerage-Konto ist
+### Was ein Depot ist
 
-Ein Brokerage-Konto ist ein normales Anlagekonto, über das eine Person Aktien, Anleihen, ETFs und andere Papiervermögenswerte kaufen und verkaufen kann — ohne die speziellen altersvorsorgebezogenen Steuerregeln eines 401(k) oder IRA.
+Ein Wertpapierdepot (in den USA "brokerage account") ist ein gewöhnliches Anlagekonto, über das eine Person Aktien, Anleihen, ETFs und andere Papiervermögenswerte kaufen und verkaufen kann – ohne die speziellen, auf den Ruhestand ausgerichteten Steuerregeln eines 401(k) oder IRA.
 
-### Unterschied zu einem Altersvorsorgekonto
+### Wie es sich von einem Altersvorsorgekonto unterscheidet
 
-Ein normales Brokerage-Konto hat grundsätzlich keine speziellen Altersvorsorge-Steuervorteile, aber auch keine entsprechenden Beschränkungen dafür, wann Geld entnommen werden kann.
+Anders als Altersvorsorgekonten bietet ein gewöhnliches Depot in der Regel keine besonderen Steuervorteile, aber auch keine Beschränkungen, wann Geld entnommen werden kann: volle Flexibilität, jederzeit Geld einzuzahlen oder abzuziehen.
 
-### Flexibilität gegenüber Steuervorteilen
+### Der Zielkonflikt zwischen Flexibilität und Steuervorteil
 
-Altersvorsorgekonten tauschen einen Teil der Flexibilität gegen echte Steuervorteile. Brokerage-Konten tauschen diese besonderen Vorteile gegen größere Flexibilität. Viele Anleger verwenden beide für unterschiedliche Zwecke.
+Altersvorsorgekonten tauschen etwas Flexibilität (oft ein eingeschränkter Zugriff vor einem bestimmten Alter) gegen echte Steuervorteile. Depots tauschen diese Steuervorteile gegen volle Flexibilität. Viele Anleger nutzen beides, für unterschiedliche Zwecke.
 
 ## Durchgerechnetes Beispiel
 
-Für ein Jahrzehnte entferntes Ruhestandsziel kann ein Anleger 401(k) oder IRA wegen der Steuervorteile priorisieren. Für ein Ziel in wenigen Jahren mit notwendigem flexiblem Zugriff kann ein Brokerage-Konto geeigneter sein.
+Ein Anleger, der gezielt für einen Ruhestand in Jahrzehnten spart, könnte wegen der Steuervorteile einem 401(k) oder IRA Vorrang geben. Derselbe Anleger, der für ein Ziel in den nächsten Jahren spart und flexiblen Zugriff braucht, könnte stattdessen ein gewöhnliches Depot nutzen.
 
 ## Übungsquiz
 
-1. Ein Brokerage-Konto ist: A. ausschließlich Altersvorsorge B. normales Anlagekonto ohne spezielle Altersvorsorgeregeln C. Sparanleihe D. nur für Arbeitgeber
-2. Richtig oder falsch: Ein normales Brokerage-Konto hat dieselben Auszahlungsbeschränkungen wie ein 401(k).
-3. Grundlegender Zielkonflikt: A. keiner B. Steuervorteile und eingeschränkter Zugriff gegenüber Flexibilität mit weniger besonderen Steuervorteilen C. Brokerage-Konten illegal D. Altersvorsorgekonten ohne Steuervorteile
+1. Ein Depot ist:
+   A. ausschließlich für die Altersvorsorge gedacht
+   B. ein gewöhnliches Anlagekonto ohne altersvorsorgespezifische Steuerregeln
+   C. eine Art Sparbrief
+   D. nur für Arbeitgeber verfügbar
+
+2. Richtig oder falsch: Ein gewöhnliches Depot hat dieselben Entnahmebeschränkungen wie ein 401(k).
+
+3. Was ist der grundlegende Zielkonflikt zwischen Altersvorsorgekonten und gewöhnlichen Depots?
+   A. Es gibt keinen Zielkonflikt
+   B. Steuervorteile und eingeschränkter Zugriff gegenüber voller Flexibilität mit weniger Steuervorteilen
+   C. Depots sind illegal
+   D. Altersvorsorgekonten haben überhaupt keine Steuervorteile
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Für ein Jahrzehnte entferntes Ruhestandsziel kann ein Anleger 401(k) oder IRA w
 
 ## Antworten und Erklärungen
 
-1. B. Es ist ein normales flexibles Anlagekonto.
-2. Falsch. Brokerage-Konten erlauben grundsätzlich flexibleren Zugriff.
-3. B. Das ist der zentrale Zielkonflikt.
+### Frage 1
+
+Richtige Antwort: B. Ein Depot ist ein gewöhnliches, flexibles Anlagekonto.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Depots erlauben in der Regel jederzeit Entnahmen, anders als Altersvorsorgekonten.
+
+### Frage 3
+
+Richtige Antwort: B. Das ist der zentrale Zielkonflikt zwischen den beiden Kontoarten.
 
 ## Wichtigste Erkenntnisse
 
-- Brokerage-Konten sind normale Anlagekonten ohne spezielle Altersvorsorgeregeln.
-- Sie bieten größere Flexibilität, aber grundsätzlich keine besonderen Altersvorsorge-Steuervorteile.
-- Altersvorsorgekonten tauschen Flexibilität gegen Steuervorteile.
+- Ein Depot ist ein gewöhnliches Anlagekonto ohne altersvorsorgespezifische Regeln.
+- Es bietet volle Flexibilität, aber in der Regel keine besonderen Steuervorteile.
+- Altersvorsorgekonten tauschen etwas Flexibilität gegen echte Steuervorteile.

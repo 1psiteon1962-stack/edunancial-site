@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 13
 locale: it
-title: "Indici di Borsa (S&P 500 e Altri)"
-summary: "*REGOLA SPECIFICA DELLA REGIONE:* Altri indici importanti seguono mercati o segmenti diversi (per esempio, paesi o dimensioni aziendali diverse) — quale indice è più rilevante dipende da quale segmento di mercato interessa a un investitore."
-sourceVersion: "1.0"
+title: "Che cos'è la diversificazione, in parole semplici?"
+summary: "Scopri che cosa fa e che cosa non fa davvero la diversificazione: riduce un certo tipo di rischio, ma non elimina ogni rischio."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-013: Indici di Borsa (S&P 500 e Altri)
+# Che cos'è la diversificazione, in parole semplici?
 
-## Obiettivi di Apprendimento
-1. Definire un indice di borsa.
-2. Spiegare cosa misura un indice come lo S&P 500.
-3. Identificare perché gli indici vengono usati come riferimento.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un indice di borsa segue la performance di un gruppo specifico di azioni, usato come riferimento per un segmento del mercato. *FATTO VERIFICATO:* Lo S&P 500, per esempio, segue 500 grandi aziende statunitensi ed è comunemente usato come riferimento per la performance generale del mercato azionario statunitense a grande capitalizzazione.
+Al termine di questa lezione dovresti essere in grado di:
 
-*REGOLA SPECIFICA DELLA REGIONE:* Altri indici importanti seguono mercati o segmenti diversi (per esempio, paesi o dimensioni aziendali diverse) — quale indice è più rilevante dipende da quale segmento di mercato interessa a un investitore.
+- definire in parole semplici la diversificazione.
+- spiegare quale tipo di rischio riduce.
+- spiegare perché non elimina ogni rischio.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Una notizia finanziaria dice "il mercato è salito dell'1,5% oggi", riferendosi tipicamente a un indice importante come lo S&P 500 che sale di quella quantità. Un investitore che possiede un fondo indicizzato allo S&P 500 vedrebbe il valore del suo fondo muoversi in modo simile, poiché il fondo è progettato per seguire da vicino la performance di quell'indice.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un indice di borsa?
-2. Cosa segue lo S&P 500?
-3. Vero/Falso: Tutti gli indici seguono lo stesso gruppo di aziende.
-4. Perché gli indici vengono usati come riferimento?
+### Che cos'è la diversificazione
 
-## Chiave di Risposte
-1. Uno strumento che segue la performance di un gruppo specifico di azioni   2. 500 grandi aziende statunitensi   3. Falso   4. Forniscono un punto di riferimento per un segmento del mercato
+Diversificare significa distribuire gli investimenti su più attività diverse invece di concentrare tutto in una sola: l'idea di base dietro la struttura a "paniere" degli ETF e dei fondi comuni vista in precedenza.
 
-## Risposte e Spiegazioni
-1. Questa è la funzione fondamentale di un indice di mercato.
-2. Questa è la composizione specifica dello S&P 500.
-3. Indici diversi seguono mercati, dimensioni, o regioni diverse.
-4. I riferimenti permettono agli investitori di confrontare la performance con un segmento di mercato rilevante.
+### Quale tipo di rischio riduce
 
-## Punti Chiave da Ricordare
-- Un indice di mercato segue un gruppo definito di azioni come riferimento di performance.
-- Lo S&P 500 segue specificamente 500 grandi aziende statunitensi.
-- Indici diversi servono come riferimento per segmenti di mercato diversi.
+La diversificazione riduce specificamente il rischio di concentrazione: il rischio che un singolo titolo vada male e trascini giù l'intero portafoglio. Se uno tra molti titoli va male, il suo impatto sul totale è minore di quanto sarebbe se fosse l'unico titolo.
+
+### Perché non elimina ogni rischio
+
+La diversificazione non protegge dai cali generalizzati del mercato che colpiscono molti o quasi tutti i titoli contemporaneamente, e non garantisce un profitto. Gestisce un tipo specifico di rischio, non ogni rischio possibile.
+
+## Esempio svolto
+
+Un investitore che possiede solo le azioni di un'azienda perde molto se quell'azienda va male. Un investitore che possiede azioni di 50 aziende diverse risente molto meno del cattivo andamento di una singola azienda, anche se un ribasso generale del mercato potrebbe comunque colpire tutte e 50.
+
+## Quiz di esercitazione
+
+1. Diversificare significa:
+   A. Investire tutto in una sola attività
+   B. Distribuire gli investimenti su più attività diverse
+   C. Evitare ogni rischio d'investimento
+   D. Garantire un profitto
+
+2. Vero o falso: la diversificazione elimina ogni rischio d'investimento.
+
+3. Quale tipo specifico di rischio riduce principalmente la diversificazione?
+   A. Il rischio di mercato generalizzato
+   B. Il rischio di concentrazione (dipendenza eccessiva da un solo titolo)
+   C. Esclusivamente il rischio di cambio
+   D. Esclusivamente il rischio di inflazione
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Diversificare significa distribuire gli investimenti su più attività.
+
+### Domanda 2
+
+Risposta corretta: Falso. Riduce un certo rischio ma non elimina ogni rischio, soprattutto i cali generalizzati del mercato.
+
+### Domanda 3
+
+Risposta corretta: B. Il rischio di concentrazione è il rischio specifico che la diversificazione affronta.
+
+## Punti chiave
+
+- Diversificare significa distribuire gli investimenti su più attività.
+- Riduce specificamente il rischio di concentrazione.
+- Non elimina ogni rischio né garantisce un profitto.

@@ -5,44 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 29
 locale: de
-title: "Was ist Kreditrisiko bei einer Anleihe?"
-summary: "Lernen Sie, was Kreditrisiko bei einer Anleihe bedeutet und warum manche Anleihen höhere Zinsen zahlen als andere."
-sourceVersion: "1.0"
+title: "Was ist das Kreditrisiko einer Anleihe?"
+summary: "Lernen Sie, was das Kreditrisiko für eine Anleihe bedeutet und wie es damit zusammenhängt, dass manche Anleihen höhere Zinsen zahlen als andere."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist Kreditrisiko bei einer Anleihe?
+# Was ist das Kreditrisiko einer Anleihe?
 
 ## Lernziele
 
-- Kreditrisiko definieren.
-- Zusammenhang zwischen Kreditrisiko und Anleihezins erklären.
-- Erkennen, dass Emittenten unterschiedliche Kreditrisiken tragen.
+Am Ende dieser Lektion sollten Sie:
+
+- das Kreditrisiko in einfachen Worten definieren können.
+- erklären können, wie das Kreditrisiko mit dem Zinssatz einer Anleihe zusammenhängt.
+- erkennen können, dass nicht alle Emittenten von Anleihen dasselbe Kreditrisiko tragen.
 
 ## Kerninhalt
 
 ### Was Kreditrisiko ist
 
-Kreditrisiko ist das Risiko, dass ein Anleiheemittent versprochene Zinszahlungen oder die Rückzahlung des Kapitals bei Fälligkeit nicht leisten kann — also das Ausfallrisiko.
+Das Kreditrisiko ist das Risiko, dass ein Emittent die zugesagten Zinszahlungen nicht leisten oder den Kapitalbetrag bei Fälligkeit nicht zurückzahlen kann – mit anderen Worten: das Ausfallrisiko.
 
-### Zusammenhang mit dem Zinssatz
+### Wie es mit dem Zinssatz zusammenhängt
 
-Emittenten mit höher eingeschätztem Kreditrisiko müssen grundsätzlich einen höheren Kupon anbieten, um Kreditgeber anzuziehen und sie für das zusätzliche Risiko zu entschädigen. Sehr risikoarm eingeschätzte Emittenten können grundsätzlich zu niedrigeren Sätzen leihen.
+Emittenten mit höherem Kreditrisiko müssen in der Regel einen höheren Kuponzinssatz bieten, um Geldgeber zu gewinnen, und entschädigen Anleger so für das zusätzliche Risiko. Emittenten mit sehr geringem Risiko (etwa stabile Staaten) können sich in der Regel zu niedrigeren Zinsen Geld leihen.
 
 ### Nicht alle Emittenten sind gleich
 
-Ein großes finanziell stabiles Unternehmen und ein kleineres finanziell belastetes Unternehmen tragen nicht dasselbe Kreditrisiko, selbst wenn ihre Anleihen oberflächlich ähnlich aussehen. Deshalb gibt es Anleiheratings, die in Level 2 behandelt werden.
+Ein großes, finanziell stabiles Unternehmen und ein kleineres, finanziell angeschlagenes Unternehmen, die Anleihen begeben, tragen nicht dasselbe Kreditrisiko, auch wenn ihre Anleihen auf den ersten Blick ähnlich aussehen – deshalb gibt es Anleihe-Ratings (in Level 2 behandelt), die helfen, dieses Risiko einzuschätzen.
 
 ## Durchgerechnetes Beispiel
 
-Eine finanziell starke Regierung kann Anleihen zu niedrigem Zinssatz ausgeben. Ein finanziell angeschlagenes Unternehmen muss möglicherweise deutlich höhere Zinsen anbieten, um Anleger für das zusätzliche Ausfallrisiko zu entschädigen.
+Ein finanziell starker Staat kann Anleihen zu einem niedrigen Zinssatz begeben, was ein geringes Kreditrisiko widerspiegelt. Ein finanziell angeschlagenes Unternehmen muss für seine Anleihen möglicherweise einen deutlich höheren Zinssatz bieten, um Anleger zu gewinnen, die bereit sind, das zusätzliche Ausfallrisiko zu tragen.
 
 ## Übungsquiz
 
-1. Kreditrisiko bedeutet: A. Papierurkunde verlieren B. Emittent zahlt Zinsen oder Kapital nicht wie versprochen C. Aktiensplit D. Marktrückgang
-2. Richtig oder falsch: Emittenten mit höherem Kreditrisiko bieten grundsätzlich niedrigere Zinsen.
-3. Warum höherer Zinssatz bei angeschlagenem Unternehmen? A. Ausgleich für höheres Ausfallrisiko B. Regierung verlangt es C. Marktkapitalisierung senken D. alle Anleihen gleich
+1. Das Kreditrisiko einer Anleihe bezeichnet:
+   A. das Risiko, ein Papierzertifikat zu verlieren
+   B. das Risiko, dass der Emittent Zinsen oder Kapital nicht wie zugesagt zurückzahlt
+   C. das Risiko eines Aktiensplits
+   D. das Risiko eines marktweiten Rückgangs
+
+2. Richtig oder falsch: Emittenten mit höherem Kreditrisiko bieten in der Regel niedrigere Zinssätze.
+
+3. Warum muss ein finanziell angeschlagenes Unternehmen möglicherweise einen höheren Anleihezins bieten?
+   A. Um Anleger für ein höheres Ausfallrisiko zu entschädigen
+   B. Weil der Staat es vorschreibt
+   C. Um seine Marktkapitalisierung zu senken
+   D. Anleihen haben unabhängig vom Risiko immer denselben Zinssatz
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Eine finanziell starke Regierung kann Anleihen zu niedrigem Zinssatz ausgeben. E
 
 ## Antworten und Erklärungen
 
-1. B. Kreditrisiko ist das Ausfallrisiko bei Zins oder Kapital.
-2. Falsch. Höheres Risiko erfordert grundsätzlich höhere angebotene Zinsen.
-3. A. Höhere Zinsen entschädigen für zusätzliches Ausfallrisiko.
+### Frage 1
+
+Richtige Antwort: B. Das Kreditrisiko ist das Risiko eines Ausfalls bei Zinsen oder Kapital.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Emittenten mit höherem Kreditrisiko müssen in der Regel höhere Zinsen bieten.
+
+### Frage 3
+
+Richtige Antwort: A. Höhere Zinsen entschädigen Anleger dafür, ein Ausfallrisiko zu übernehmen.
 
 ## Wichtigste Erkenntnisse
 
-- Kreditrisiko ist das Ausfallrisiko eines Emittenten.
-- Höheres Kreditrisiko bedeutet grundsätzlich höhere angebotene Zinsen.
-- Emittenten tragen unterschiedliche Kreditrisiken.
+- Das Kreditrisiko ist das Risiko, dass ein Emittent bei einer Anleihe ausfällt.
+- Ein höheres Kreditrisiko bedeutet in der Regel einen höheren angebotenen Zinssatz.
+- Nicht alle Emittenten von Anleihen tragen dasselbe Kreditrisiko.

@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 24
 locale: nl
-title: "WHITE-L1-024"
-summary: "WHITE-L1-024"
-sourceVersion: "1.0"
+title: "Wat zijn fractionele aandelen?"
+summary: "Leer wat fractionele aandelen zijn, hoe ze de drempel om te beleggen verlagen en hoe je ze kunt gebruiken om het risico voor een beginner passend te bemeten."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-024: Marktkapitalisatie Uitgelegd
+# Wat zijn fractionele aandelen?
 
 ## Leerdoelen
-1. Marktkapitalisatie definiëren.
-2. Een eenvoudige marktkapitalisatie berekenen.
-3. De gangbare categorieën van marktkapitalisatie identificeren.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een fractioneel aandeel in eenvoudige woorden te definiëren.
+- het toegankelijkheidsprobleem uit te leggen dat fractionele aandelen oplossen.
+- uit te leggen hoe je fractionele aandelen kunt gebruiken om het risico passend te bemeten, niet alleen om een duur aandeel te kunnen betalen.
 
 ## Kerninhoud
-Marktkapitalisatie (market cap) is de totale waarde van de uitstaande aandelen van een bedrijf. *GEVERIFIEERD FEIT:* Marktkapitalisatie = Aandelenkoers × Totaal Aantal Uitstaande Aandelen.
 
-*SCHATTING:* Gangbare categorieën (hoewel niet perfect gestandaardiseerd) zijn onder meer large-cap (ongeveer $10 miljard of meer), mid-cap (ongeveer $2 tot $10 miljard), en small-cap (ongeveer $300 miljoen tot $2 miljard) — de exacte drempels verschillen per bron.
+### Wat fractionele aandelen zijn
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een bedrijf wordt verhandeld tegen $50 per aandeel met 100 miljoen uitstaande aandelen. Marktkapitalisatie = $50 × 100.000.000 = $5 miljard, waarmee het volgens de gangbare drempels in de mid-cap-categorie valt. Dit getal vertegenwoordigt de huidige collectieve waardering van de markt voor het gehele bedrijf, niet alleen de koers van één aandeel.
+Een fractioneel aandeel is een deel van één aandeel, kleiner dan een heel aandeel, zodat een belegger minder dan een volledig aandeel tegelijk kan kopen.
 
-## Praktische Toets
-1. Wat is de formule voor marktkapitalisatie?
-2. Als een aandeel wordt verhandeld tegen $20 met 50 miljoen uitstaande aandelen, wat is de marktkapitalisatie?
-3. Waar/Onwaar: Categorieën van marktkapitalisatie hebben één universeel aanvaarde definitie.
-4. Wat vertegenwoordigt marktkapitalisatie?
+### Het toegankelijkheidsprobleem dat ze oplossen
+
+Voordat fractionele aandelen breed beschikbaar waren, had een belegger genoeg geld nodig om minstens één volledig aandeel te kopen: een echte drempel bij duurdere aandelen. Met fractionele aandelen kan een belegger met een kleiner bedrag toch evenredige blootstelling aan datzelfde aandeel krijgen.
+
+### Een tweede, minder voor de hand liggend gebruik: bewust het risico bemeten
+
+Vraag jezelf af: als je iemand voor het eerst leert beleggen – misschien een jongere met heel weinig geld –, wat is dan het echte gevaar? Niet alleen "geen aandeel kunnen betalen". Het is de mogelijkheid van een verlies dat groot genoeg is om echt pijn te doen. Een ouder die een tiener leert beleggen, kan bijvoorbeeld bewust een rekening met fractionele aandelen gebruiken, zodat een echt verlies klein genoeg blijft om een echte les te zijn, en geen ramp. De omvang van de positie is een bewuste keuze, niet alleen wat je je kunt veroorloven.
+
+## Praktijkvoorbeeld
+
+Stel je een ouder voor die een kleine rekening met fractionele aandelen opent voor zijn tienerzoon. Waarom fracties, in plaats van te wachten tot hij een heel aandeel kon betalen? Niet alleen zodat hij technisch gezien een stukje van een duur aandeel kon bezitten, maar zodat een verlies, als de belegging in waarde daalde, klein genoeg zou zijn om echt op te vangen en ervan te leren, en hem niet ernstig zou terugwerpen. De les was niet alleen "je kunt het je nu veroorloven om te beleggen", maar "je kunt het je veroorloven om je te vergissen, veilig, terwijl je nog aan het leren bent".
+
+## Oefenquiz
+
+1. Een fractioneel aandeel is:
+   A. Een heel aandeel
+   B. Een deel van één aandeel, kleiner dan een heel aandeel
+   C. Een soort obligatie
+   D. Een gegarandeerde dividenduitkering
+
+2. Waar of onwaar: bij fractionele aandelen moet een belegger genoeg geld hebben voor minstens één volledig aandeel.
+
+3. Wat is, naast betaalbaarheid, een andere echte reden om voor een beginnende belegger fractionele aandelen te kiezen?
+   A. Om winst te garanderen
+   B. Om de positie zo te bemeten dat een mogelijk verlies klein genoeg blijft om een veilige, echte les te zijn
+   C. Om nooit geld te verliezen
+   D. Om elk onderzoek overbodig te maken
 
 ## Antwoordsleutel
-1. Aandelenkoers × Totaal Aantal Uitstaande Aandelen   2. $1 miljard   3. Onwaar   4. De totale marktwaardering van het gehele bedrijf
 
-## Antwoorden en Toelichtingen
-1. Dit is de standaardberekening van marktkapitalisatie.
-2. $20 × 50.000.000 = $1.000.000.000 = $1 miljard.
-3. De drempels van de categorieën verschillen enigszins per bron, hoewel de algemene bandbreedtes veelvuldig worden gebruikt.
-4. Marktkapitalisatie weerspiegelt de totale waarde van het eigen vermogen van het bedrijf tegen de actuele marktkoers.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Marktkapitalisatie = Aandelenkoers × Uitstaande Aandelen.
-- Het vertegenwoordigt de totale marktwaardering van een bedrijf, niet alleen de koers per aandeel.
-- Gangbare categorieën (large-, mid-, small-cap) hebben algemene, niet perfect gestandaardiseerde drempels.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een fractioneel aandeel is minder dan een heel aandeel.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Fractionele aandelen nemen juist die voorwaarde weg.
+
+### Vraag 3
+
+Juist antwoord: B. Een positie zo bemeten dat een verlies te overleven en leerzaam is in plaats van schadelijk, is een bewust, praktisch gebruik van fractioneel beleggen.
+
+## Belangrijkste punten
+
+- Een fractioneel aandeel is een deel van een heel aandeel.
+- Het neemt de drempel weg dat je de prijs van een volledig aandeel nodig hebt om te beleggen.
+- Je kunt het ook bewust gebruiken om een positie zo te bemeten dat het risico passend blijft: vooral belangrijk als je een beginner iets leert.

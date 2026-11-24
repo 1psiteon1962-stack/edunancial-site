@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 16
 locale: nl
-title: "WHITE-L1-016"
-summary: "WHITE-L1-016"
-sourceVersion: "1.0"
+title: "Wat is een bullmarkt en wat is een bearmarkt?"
+summary: "Leer wat bull- en bearmarkten betekenen, en waarom de labels een trend beschrijven, geen garantie voor wat er daarna gebeurt."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-016: Gemiddelde Kostprijsmethode
+# Wat is een bullmarkt en wat is een bearmarkt?
 
 ## Leerdoelen
-1. De gemiddelde kostprijsmethode (dollar-cost averaging) definiëren.
-2. Uitleggen hoe deze methode de impact van het proberen te voorspellen van de markt kan verminderen.
-3. De afwegingen van deze methode erkennen vergeleken met een eenmalige belegging van het volledige bedrag.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een bullmarkt en een bearmarkt te definiëren.
+- uit te leggen waarop deze labels doorgaans gebaseerd zijn.
+- uit te leggen waarom ze een trend beschrijven, geen gegarandeerde toekomst.
 
 ## Kerninhoud
-De gemiddelde kostprijsmethode betekent het beleggen van een vast bedrag op regelmatige tijdstippen, ongeacht de koers, in plaats van een eenmalige belegging van het volledige bedrag. *GEVERIFIEERD FEIT:* Deze aanpak koopt meer deelnemingsrechten wanneer de koersen laag zijn en minder wanneer de koersen hoog zijn, waardoor de aankoopprijs na verloop van tijd wordt gemiddeld en de impact van elke slecht getimede aankoop wordt verminderd.
 
-*AANNAME:* Deze methode garandeert geen betere resultaten dan een eenmalige belegging van het volledige bedrag — historisch gezien heeft een eenmalige belegging vaak beter gepresteerd dan deze methode in stijgende markten, aangezien het geld eerder wordt belegd (en groeit). Het belangrijkste voordeel van deze methode is het verminderen van emotioneel risico en timingrisico, niet het maximaliseren van rendement in elk scenario.
+### Wat elke term betekent
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* In plaats van $12.000 in één keer te beleggen, belegt Yara elke maand $1.000 gedurende een jaar. Sommige maanden koopt zij deelnemingsrechten tegen hogere koersen, andere maanden tegen lagere koersen — haar gemiddelde kostprijs per deelnemingsrecht blijkt uiteindelijk gelijkmatiger dan wanneer zij het volledige bedrag op een bijzonder ongelukkig moment had belegd.
+Een bullmarkt verwijst doorgaans naar een aanhoudende periode van stijgende koersen op een markt. Een bearmarkt verwijst doorgaans naar een aanhoudende periode van dalende koersen, vaak losjes gedefinieerd als een daling van een flink percentage (meestal rond 20%) ten opzichte van een recente top.
 
-## Praktische Toets
-1. Wat is de gemiddelde kostprijsmethode?
-2. Wat doet deze methode wanneer de koersen laag zijn?
-3. Waar/Onwaar: Deze methode presteert altijd beter dan een eenmalige belegging van het volledige bedrag.
-4. Wat is het belangrijkste voordeel van deze methode, volgens de les?
+### Waarop de labels gebaseerd zijn
+
+Deze termen beschrijven een waargenomen trend over een bepaalde periode, geen voorspelling. Een markt krijgt doorgaans het label "bull" of "bear" op basis van koersbewegingen die al hebben plaatsgevonden, terugkijkend of op basis van een huidig, aanhoudend patroon.
+
+### Waarom ze geen garantie zijn
+
+In een bull- of bearmarkt zitten garandeert niet wat er daarna gebeurt: markten kunnen van de ene in de andere overgaan, en niemand kan betrouwbaar voorspellen wanneer die omslag precies plaatsvindt. De huidige labels als voorspelling behandelen is een veelvoorkomende maar riskante aanname.
+
+## Praktijkvoorbeeld
+
+Een markt die twee jaar gestaag is gestegen, kan een bullmarkt worden genoemd, maar dat label beschrijft wat al is gebeurd, geen garantie dat de koersen blijven stijgen.
+
+## Oefenquiz
+
+1. Een bullmarkt verwijst doorgaans naar:
+   A. Een aanhoudende periode van dalende koersen
+   B. Een aanhoudende periode van stijgende koersen
+   C. Eén handelsdag
+   D. Een soort obligatie
+
+2. Waar of onwaar: het label "bullmarkt" garandeert dat de koersen blijven stijgen.
+
+3. Waarop zijn de labels bull- en bearmarkt doorgaans gebaseerd?
+   A. Een aankondiging van de overheid
+   B. Een waargenomen koerstrend over een bepaalde periode
+   C. Het winstrapport van één bedrijf
+   D. Het weer
 
 ## Antwoordsleutel
-1. Een vast bedrag beleggen op regelmatige tijdstippen, ongeacht de koers   2. Koopt meer deelnemingsrechten   3. Onwaar   4. Het verminderen van emotioneel risico en timingrisico, niet het garanderen van hogere rendementen
 
-## Antwoorden en Toelichtingen
-1. Dit is het fundamentele mechanisme van de gemiddelde kostprijsmethode.
-2. Vaste bedragen kopen meer deelnemingsrechten wanneer de koersen lager zijn.
-3. Een eenmalige belegging van het volledige bedrag heeft historisch vaak beter gepresteerd dan deze methode in stijgende markten.
-4. De waarde van deze methode is vooral gedragsmatig/risicoverminderend, geen gegarandeerde rendementsverhoger.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Deze methode belegt regelmatig vaste bedragen, waarbij meer deelnemingsrechten worden gekocht wanneer de koersen laag zijn.
-- Het effent de gemiddelde aankoopprijs, maar garandeert geen betere rendementen dan een eenmalige belegging.
-- Het belangrijkste voordeel is het verminderen van timingrisico en emotioneel risico, niet het maximaliseren van rendement.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een bullmarkt verwijst naar een aanhoudende stijgende trend.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het label beschrijft een eerdere of huidige trend, geen gegarandeerde toekomst.
+
+### Vraag 3
+
+Juist antwoord: B. Deze labels weerspiegelen een waargenomen koerstrend.
+
+## Belangrijkste punten
+
+- Een bullmarkt is een aanhoudende stijgende trend; een bearmarkt is een aanhoudende dalende trend.
+- Deze labels beschrijven een waargenomen trend, geen voorspelling.
+- Markten kunnen onvoorspelbaar van de ene in de andere overgaan.

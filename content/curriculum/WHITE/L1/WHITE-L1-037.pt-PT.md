@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 37
 locale: pt-PT
-title: "O que é uma tese de alta versus uma tese de baixa para uma ação?"
-summary: "Aprenda a construir argumentos de alta e de baixa para uma ação e por que considerar ambos é importante."
-sourceVersion: "1.0"
+title: "O que é um cenário otimista (bull case) versus um cenário pessimista (bear case) para uma ação?"
+summary: "Aprenda o que significa construir um cenário otimista ou pessimista para uma ação e porque é que é importante considerar ambos."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma tese de alta versus uma tese de baixa para uma ação?
+# O que é um cenário otimista (bull case) versus um cenário pessimista (bear case) para uma ação?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir cenário otimista e cenário pessimista em termos simples.
+- explicar porque é que importa construir ambos, e não apenas um.
+- aplicar o conceito a um exemplo hipotético básico.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um cenário otimista
 
-Uma tese de alta é um argumento fundamentado sobre por que uma ação ou outro investimento pode ter bom desempenho, com fatores como potencial de crescimento, vantagens competitivas ou tendências favoráveis.
+Um cenário otimista (em inglês, "bull case") é um argumento fundamentado sobre a razão pela qual uma ação (ou outro investimento) pode ter um bom desempenho, com base em fatores específicos como o potencial de crescimento, as vantagens competitivas ou as tendências favoráveis.
 
-### Como funciona
+### O que é um cenário pessimista
 
-Uma tese de baixa é um argumento fundamentado sobre por que a ação pode ter desempenho ruim, baseado em riscos, fraquezas ou tendências desfavoráveis.
+Um cenário pessimista (em inglês, "bear case") é um argumento fundamentado sobre a razão pela qual uma ação pode ter um mau desempenho, com base em riscos específicos, fragilidades ou tendências desfavoráveis.
 
-### Por que isso importa
+### Porque é que importa considerar ambos
 
-Construir apenas um lado cria visão parcial e potencialmente confiante demais. Considerar seriamente as duas perspectivas produz entendimento mais realista dos riscos e do potencial.
+Construir apenas um cenário otimista (ou apenas um pessimista) cria uma visão unilateral e possivelmente demasiado confiante. Considerar verdadeiramente ambas as perspetivas, mesmo num investimento que entusiasma, conduz a uma compreensão mais realista dos riscos e do potencial envolvidos.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Para uma empresa em crescimento, a tese de alta pode destacar mercado em expansão e produtos fortes; a tese de baixa pode destacar nova concorrência e custos crescentes. O investidor avalia ambas.
+Um investidor que avalia uma empresa em crescimento pode construir um cenário otimista em torno do mercado em expansão e dos produtos fortes e, ao mesmo tempo, um cenário pessimista em torno da nova concorrência e da subida dos custos, ponderando ambos antes de decidir.
 
-## Quiz prático
+## Teste de prática
 
-1. Tese de alta: A. argumento de mau desempenho B. argumento de bom desempenho C. previsão garantida D. título
-2. Verdadeiro ou falso: apenas a tese de alta fornece visão completa.
-3. Por que considerar ambas? A. não importa B. visão mais equilibrada C. garante lucro D. só títulos
+1. Um cenário otimista é:
+   A. Um argumento fundamentado sobre a razão pela qual um investimento pode ter um mau desempenho
+   B. Um argumento fundamentado sobre a razão pela qual um investimento pode ter um bom desempenho
+   C. Uma previsão garantida do desempenho futuro
+   D. Um tipo de obrigação
 
-## Gabarito
+2. Verdadeiro ou falso: construir apenas um cenário otimista para um investimento oferece uma visão completa e equilibrada.
+
+3. Porque é que é importante considerar tanto o cenário otimista como o pessimista?
+   A. Não tem qualquer importância
+   B. Conduz a uma compreensão mais realista e equilibrada de um investimento
+   C. Garante um resultado lucrativo
+   D. Só é relevante para obrigações
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Para uma empresa em crescimento, a tese de alta pode destacar mercado em expans�
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um cenário otimista defende um possível desempenho positivo.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Uma visão unilateral ignora riscos ou fragilidades reais.
+
+### Pergunta 3
+
+Resposta correta: B. Considerar ambos conduz a uma visão mais equilibrada e realista.
+
+## Pontos-chave
+
+- Um cenário otimista defende um possível desempenho positivo; um pessimista, um possível desempenho negativo.
+- Construir apenas um dos lados cria uma visão incompleta e demasiado confiante.
+- Considerar ambos conduz a decisões de investimento mais realistas.

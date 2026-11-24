@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 21
 locale: pt-PT
-title: "O que é uma conta de corretora? (E como difere de uma conta de reforma?)"
-summary: "Aprenda o que é uma conta de corretora padrão e como ela difere em finalidade e flexibilidade de uma conta de reforma."
-sourceVersion: "1.0"
+title: "O que é uma conta de títulos? (E em que difere de uma conta de reforma?)"
+summary: "Aprenda o que é uma conta de títulos comum e em que difere, em propósito e flexibilidade, de uma conta de reforma."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma conta de corretora? (E como difere de uma conta de reforma?)
+# O que é uma conta de títulos? (E em que difere de uma conta de reforma?)
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir uma conta de títulos em termos simples.
+- explicar em que difere de uma conta de reforma como um 401(k) ou uma IRA.
+- explicar a troca básica entre flexibilidade e vantagens fiscais.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é uma conta de títulos
 
-Uma conta de corretora é uma conta de investimentos padrão que permite comprar e vender ações, títulos, ETFs e outros ativos financeiros sem as regras tributárias específicas de reforma de um 401(k) ou IRA.
+Uma conta de títulos (em inglês, "brokerage account") é uma conta de investimento comum que permite a uma pessoa comprar e vender ações, obrigações, ETF e outros ativos de papel, sem as regras fiscais específicas de reforma de um 401(k) ou de uma IRA.
 
-### Como funciona
+### Em que difere de uma conta de reforma
 
-Uma conta de corretora padrão geralmente não oferece as vantagens tributárias especiais de reforma, mas também não possui as mesmas restrições sobre quando o dinheiro pode ser retirado.
+Ao contrário das contas de reforma, uma conta de títulos comum não tem, em geral, vantagens fiscais especiais, mas também não tem restrições sobre quando o dinheiro pode ser levantado: flexibilidade total para pôr ou retirar dinheiro a qualquer momento.
 
-### Por que isso importa
+### A troca entre flexibilidade e vantagem fiscal
 
-Contas de reforma trocam parte da flexibilidade por benefícios fiscais. Contas de corretora trocam esses benefícios específicos por maior flexibilidade. Muitos investidores utilizam ambas para finalidades diferentes.
+As contas de reforma trocam alguma flexibilidade (muitas vezes restringindo o acesso fácil antes de determinada idade) por benefícios fiscais reais. As contas de títulos trocam esses benefícios fiscais por flexibilidade total. Muitos investidores usam ambas, para propósitos diferentes.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Para reforma distante, alguém pode priorizar 401(k) ou IRA pelos benefícios fiscais. Para objetivo em poucos anos com necessidade de acesso flexível, pode usar conta de corretora.
+Um investidor que poupa especificamente para uma reforma daqui a décadas pode dar prioridade a um 401(k) ou a uma IRA por causa dos benefícios fiscais. O mesmo investidor, se estiver a poupar para um objetivo nos próximos anos e precisar de acesso flexível, pode usar antes uma conta de títulos comum.
 
-## Quiz prático
+## Teste de prática
 
-1. Conta de corretora: A. só reforma B. conta padrão de investimentos C. título de poupança D. só entidade empregadora
-2. Verdadeiro ou falso: possui as mesmas restrições de retirada de um 401(k).
-3. Equilíbrio: A. nenhum B. benefícios fiscais com restrições versus flexibilidade C. ilegal D. reforma sem benefício
+1. Uma conta de títulos é:
+   A. Exclusivamente para a poupança para a reforma
+   B. Uma conta de investimento comum, sem regras fiscais específicas de reforma
+   C. Um tipo de certificado de aforro
+   D. Disponível apenas para entidades empregadoras
 
-## Gabarito
+2. Verdadeiro ou falso: uma conta de títulos comum tem as mesmas restrições de levantamento de um 401(k).
+
+3. Qual é a troca básica entre contas de reforma e contas de títulos comuns?
+   A. Não há troca
+   B. Vantagens fiscais e acesso restrito versus flexibilidade total com menos benefícios fiscais
+   C. As contas de títulos são ilegais
+   D. As contas de reforma não têm qualquer benefício fiscal
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Para reforma distante, alguém pode priorizar 401(k) ou IRA pelos benefícios fi
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Uma conta de títulos é uma conta de investimento comum e flexível.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. As contas de títulos permitem em geral levantamentos a qualquer momento, ao contrário das contas de reforma.
+
+### Pergunta 3
+
+Resposta correta: B. Esta é a troca central entre os dois tipos de conta.
+
+## Pontos-chave
+
+- Uma conta de títulos é uma conta de investimento comum, sem regras específicas de reforma.
+- Oferece flexibilidade total, mas em geral nenhuma vantagem fiscal especial.
+- As contas de reforma trocam alguma flexibilidade por benefícios fiscais reais.

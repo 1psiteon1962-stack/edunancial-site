@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 23
 locale: pt-PT
-title: "O que é um desdobramento de ações?"
-summary: "Aprenda o que um desdobramento altera — e o que não altera — no valor de uma empresa."
-sourceVersion: "1.0"
+title: "O que é um desdobramento de ações (split)?"
+summary: "Aprenda o que um desdobramento de ações muda e não muda no valor de uma empresa."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um desdobramento de ações?
+# O que é um desdobramento de ações (split)?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir um desdobramento de ações em termos simples.
+- explicar o que muda e o que não muda num desdobramento.
+- calcular um número básico de ações e uma cotação depois do desdobramento.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é um desdobramento de ações
 
-Um desdobramento divide cada ação existente em várias novas ações, reduzindo proporcionalmente o preço por ação e aumentando o número de ações em circulação.
+Um desdobramento de ações (em inglês, "stock split") divide cada ação existente em várias ações novas, reduzindo proporcionalmente a cotação por ação e aumentando o número de ações em circulação.
 
-### Como funciona
+### O que muda, e o que não muda
 
-A quantidade de ações do investidor aumenta e o preço unitário cai proporcionalmente. O valor total da posição e a capitalização da empresa não mudam apenas por causa do desdobramento: a pizza é cortada em mais pedaços, mas continua do mesmo tamanho.
+O número de ações do investidor aumenta, e a cotação por ação diminui na mesma proporção. O que NÃO muda: o valor total da posição do investidor e a capitalização bolsista total da empresa. O bolo é cortado em mais fatias, mas o bolo continua do mesmo tamanho.
 
-### Por que isso importa
+### Porque é que as empresas o fazem
 
-Empresas às vezes fazem desdobramentos para tornar o preço por ação mais acessível aos investidores. Isso não altera o valor econômico subjacente da empresa.
+As empresas desdobram por vezes as ações para trazer a cotação por ação para um intervalo mais acessível aos investidores, embora isso não mude em nada o valor subjacente da empresa.
 
-## Exemplo resolvido
+## Exemplo prático
 
-10 ações a USD 100 valem USD 1.000. Após desdobramento de 2 por 1, o investidor tem 20 ações a USD 50 — ainda USD 1.000.
+Um investidor com 10 ações de 100 $ cada (1000 $ no total) passa por um desdobramento de 2 para 1. Passa a ter 20 ações de 50 $ cada: continuam a ser 1000 $ no total, apenas divididos em mais ações, mais baratas.
 
-## Quiz prático
+## Teste de prática
 
-1. Desdobramento: A. aumenta valor total B. cria mais ações a preço proporcionalmente menor C. reduz ações D. muda negócio
-2. Verdadeiro ou falso: altera imediatamente o valor total da posição.
-3. 5 ações a USD 200 após 2 por 1: A. 5 a 400 B. 10 a 100 C. 2,5 a 200 D. 10 a 200
+1. Um desdobramento de ações:
+   A. Aumenta o valor de mercado total de uma empresa
+   B. Divide as ações existentes em mais ações a uma cotação proporcionalmente mais baixa
+   C. Reduz o número de ações em circulação
+   D. Muda o negócio subjacente da empresa
 
-## Gabarito
+2. Verdadeiro ou falso: um desdobramento de ações muda o valor total da posição de um investidor.
+
+3. Um investidor tem 5 ações de 200 $ cada. Depois de um desdobramento de 2 para 1, quantas ações tem, e a que cotação?
+   A. 5 ações a 400 $
+   B. 10 ações a 100 $
+   C. 2,5 ações a 200 $
+   D. 10 ações a 200 $
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Empresas às vezes fazem desdobramentos para tornar o preço por ação mais ace
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Um desdobramento divide as ações proporcionalmente, sem mudar o valor total.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. O valor total da posição mantém-se igual logo após um desdobramento.
+
+### Pergunta 3
+
+Resposta correta: B. 5 ações × 2 = 10 ações; 200 $ ÷ 2 = 100 $ por ação.
+
+## Pontos-chave
+
+- Um desdobramento divide as ações em mais ações a uma cotação proporcionalmente mais baixa.
+- O valor total da posição e a capitalização bolsista não mudam por causa do desdobramento em si.
+- As empresas desdobram ações sobretudo para tornar a cotação por ação mais acessível.

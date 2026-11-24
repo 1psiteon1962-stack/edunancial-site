@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 17
 locale: it
-title: "Azioni Individuali vs. Fondi Indicizzati"
-summary: "*OPINIONE:* Molti educatori finanziari suggeriscono comunemente i fondi indicizzati come un punto di partenza ragionevole per i principianti, data la loro diversificazione incorporata e il minor onere di ricerca — anche se questa è una linea guida generale, non un consiglio personalizzato, e scegliere azioni individuali rimane una strategia valida per investitori informati."
-sourceVersion: "1.0"
+title: "Che cos'è l'interesse composto? (L'idea che tutti citano ma pochi spiegano)"
+summary: "Scopri come funziona davvero l'interesse composto, passo dopo passo, non solo come parola di moda."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-017: Azioni Individuali vs. Fondi Indicizzati
+# Che cos'è l'interesse composto? (L'idea che tutti citano ma pochi spiegano)
 
-## Obiettivi di Apprendimento
-1. Distinguere la scelta di azioni individuali dall'investire in fondi indicizzati.
-2. Spiegare i compromessi tra i due approcci.
-3. Identificare perché i fondi indicizzati vengono spesso raccomandati ai principianti.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Scegliere **azioni individuali** significa selezionare aziende specifiche in cui investire, il che richiede ricerca e comporta un rischio concentrato. Investire in un **fondo indicizzato** significa comprare un fondo che segue un ampio indice di mercato, distribuendo automaticamente il rischio tra molte aziende.
+Al termine di questa lezione dovresti essere in grado di:
 
-*OPINIONE:* Molti educatori finanziari suggeriscono comunemente i fondi indicizzati come un punto di partenza ragionevole per i principianti, data la loro diversificazione incorporata e il minor onere di ricerca — anche se questa è una linea guida generale, non un consiglio personalizzato, e scegliere azioni individuali rimane una strategia valida per investitori informati.
+- definire in parole semplici l'interesse composto.
+- distinguerlo dall'interesse semplice.
+- calcolare un esempio di base di crescita composta su alcuni periodi.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Due amici iniziano a investire. Diego passa ore a fare ricerche e sceglie 5 azioni individuali, concentrando il suo rischio in un piccolo numero di aziende. Fatima compra un unico fondo indicizzato allo S&P 500, ottenendo istantaneamente esposizione a 500 aziende senza bisogno di ricerca specifica per ogni singola azienda. L'approccio di Diego potrebbe sovraperformare o sottoperformare considerevolmente a seconda delle sue scelte specifiche; l'approccio di Fatima segue la performance media del mercato più ampio.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa richiede la scelta di azioni individuali?
-2. Cosa fornisce automaticamente un fondo indicizzato?
-3. Vero/Falso: I fondi indicizzati garantiscono rendimenti migliori rispetto alla scelta di azioni individuali.
-4. Perché i fondi indicizzati vengono spesso suggeriti ai principianti?
+### Che cos'è l'interesse composto
 
-## Chiave di Risposte
-1. Ricerca e analisi specifica delle aziende   2. Diversificazione tra molte aziende   3. Falso   4. La diversificazione incorporata e il minor onere di ricerca
+L'interesse composto è un interesse calcolato non solo sull'importo investito all'inizio, ma anche sugli interessi già maturati: la crescita si costruisce sopra la crescita precedente, non solo sull'importo di partenza.
 
-## Risposte e Spiegazioni
-1. Scegliere azioni richiede valutare le prospettive di aziende individuali.
-2. I fondi indicizzati distribuiscono automaticamente l'esposizione tra le posizioni dell'indice che seguono.
-3. Nessuno dei due approcci garantisce di superare l'altro — i risultati variano.
-4. Questo riflette la linea guida educativa comune, non una regola universale per ogni investitore.
+### Interesse composto e interesse semplice
 
-## Punti Chiave da Ricordare
-- Scegliere azioni individuali richiede ricerca e comporta un rischio concentrato.
-- I fondi indicizzati forniscono diversificazione istantanea con un minor onere di ricerca.
-- I fondi indicizzati vengono comunemente suggeriti ai principianti, anche se entrambi gli approcci sono validi.
+L'interesse semplice si calcola solo sull'importo iniziale, in ogni periodo. L'interesse composto si calcola sull'importo iniziale più tutti gli interessi già maturati: è proprio questo il motivo per cui la capitalizzazione accelera nel tempo.
+
+### Un esempio passo dopo passo
+
+Partendo da 1.000 $ al 10% di interesse composto annuo: dopo il primo anno sono 1.100 $. Dopo il secondo anno l'interesse si calcola su 1.100 $ (non solo sui 1.000 $ iniziali), arrivando a 1.210 $. Dopo il terzo anno si calcola su 1.210 $, arrivando a 1.331 $: la crescita accelera perché l'interesse di ogni anno si calcola su una base più grande.
+
+## Esempio svolto
+
+1.000 $ al 10% di interesse semplice guadagnano esattamente 100 $ ogni anno: 1.100 $, 1.200 $, 1.300 $. Gli stessi 1.000 $ al 10% di interesse composto diventano 1.100 $, 1.210 $, 1.331 $: un divario piccolo ma crescente, che si allarga molto su periodi più lunghi.
+
+## Quiz di esercitazione
+
+1. L'interesse composto si calcola su:
+   A. Solo l'importo investito all'inizio
+   B. L'importo iniziale più gli interessi già maturati
+   C. Un tasso fisso stabilito dallo Stato
+   D. Solo il versamento dell'ultimo anno
+
+2. Vero o falso: interesse semplice e interesse composto danno risultati identici nel tempo.
+
+3. 1.000 $ diventano 1.100 $ dopo il primo anno al 10% di interesse composto. A quanto arriverebbero dopo il secondo anno?
+   A. 1.100 $
+   B. 1.200 $
+   C. 1.210 $
+   D. 1.300 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. C
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'interesse composto si costruisce sia sul capitale sia sugli interessi maturati.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'interesse composto cresce più in fretta nel tempo dell'interesse semplice.
+
+### Domanda 3
+
+Risposta corretta: C. 1.100 $ × 1,10 = 1.210 $ (crescita del 10% sulla nuova base, più grande).
+
+## Punti chiave
+
+- L'interesse composto si calcola sul capitale più gli interessi maturati.
+- È questa la differenza chiave rispetto all'interesse semplice, che usa solo l'importo iniziale.
+- Il divario tra interesse composto e semplice si allarga su periodi più lunghi.

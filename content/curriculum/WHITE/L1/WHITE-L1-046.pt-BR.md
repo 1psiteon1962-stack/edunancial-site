@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 46
 locale: pt-BR
-title: "O que é uma recompra de ações? (Introdução — aprofundamento no Level 2)"
-summary: "Aprenda o que é uma recompra de ações e por que ela pode alterar números por ação sem melhorar o negócio."
-sourceVersion: "1.0"
+title: "O que é recompra de ações? (Versão introdutória – análise mais profunda no Nível 2)"
+summary: "Aprenda, em nível introdutório, o que é uma recompra de ações e por que ela pode afetar os números por ação sem mudar o negócio."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma recompra de ações? (Introdução — aprofundamento no Level 2)
+# O que é recompra de ações? (Versão introdutória – análise mais profunda no Nível 2)
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
+Ao final desta lição, você deverá ser capaz de:
+
+- definir recompra de ações em termos simples.
+- explicar o efeito mecânico básico sobre as ações em circulação.
+- reconhecer que uma análise mais profunda do seu efeito sobre os índices vem no Nível 2.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que é uma recompra de ações
 
-Uma recompra acontece quando uma empresa compra suas próprias ações no mercado aberto, reduzindo o número de ações em circulação.
+Uma recompra de ações acontece quando uma empresa compra de volta as suas próprias ações no mercado, reduzindo o número de ações em circulação (um conceito apresentado antes neste nível).
 
-### Como funciona
+### O efeito mecânico básico
 
-Com menos ações em circulação e o mesmo lucro total, cada ação restante representa uma parcela ligeiramente maior da empresa. Isso se conecta ao EPS estudado anteriormente.
+Com menos ações em circulação e o mesmo lucro total da empresa, cada ação restante representa uma fatia um pouco maior da empresa: isso se liga ao LPA (lucro por ação), visto antes neste nível.
 
-### Por que isso importa
+### Uma prévia do Nível 2
 
-*PREMISSA (para fins didáticos):* esta introdução cobre apenas a mecânica básica. O Level 2 examina como recompras podem melhorar métricas por ação, como EPS e P/L, sem melhora do negócio subjacente.
+*SUPOSIÇÃO (para fins didáticos):* Esta lição introdutória trata apenas da mecânica básica. O Nível 2 mostra com mais profundidade como as recompras podem fazer números por ação, como o LPA e o P/L, parecerem melhores sem que o negócio subjacente tenha realmente melhorado.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma empresa com 1.000.000 de ações recompra 100.000, restando 900.000. Com o mesmo lucro líquido total, o EPS aumenta porque o lucro é dividido por menos ações.
+Uma empresa com 1.000.000 de ações em circulação recompra 100.000 ações, ficando com 900.000. Com o mesmo lucro líquido total, o LPA sobe simplesmente porque esse lucro agora é dividido por menos ações.
 
-## Quiz prático
+## Teste de prática
 
-1. Recompra: A. emitir novas ações B. empresa comprar suas próprias ações C. desdobramento D. dividendo
-2. Verdadeiro ou falso: recompra aumenta ações em circulação.
-3. Mesmo lucro com menos ações: A. EPS cai B. EPS sobe C. igual D. zero
+1. Uma recompra de ações significa:
+   A. Uma empresa emitir ações totalmente novas
+   B. Uma empresa comprar de volta as suas próprias ações no mercado
+   C. Um desdobramento de ações
+   D. Um pagamento de dividendos
+
+2. Verdadeiro ou falso: uma recompra aumenta o número total de ações em circulação.
+
+3. Com o mesmo lucro líquido, o que acontece com o LPA depois que uma recompra reduz as ações em circulação?
+   A. O LPA diminui
+   B. O LPA aumenta, já que o lucro agora é dividido por menos ações
+   C. O LPA continua exatamente o mesmo
+   D. O LPA vira zero
 
 ## Gabarito
 
@@ -50,10 +64,20 @@ Uma empresa com 1.000.000 de ações recompra 100.000, restando 900.000. Com o m
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, distinções e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Recompra é quando uma empresa compra de volta as suas próprias ações.
 
-- Compreenda a estrutura e a função do conceito, não apenas seu nome.
-- Reconheça riscos, custos, benefícios e limitações relevantes.
-- Aplique o conhecimento de forma consciente em decisões financeiras reais.
+### Pergunta 2
+
+Resposta correta: Falso. Uma recompra reduz, e não aumenta, as ações em circulação.
+
+### Pergunta 3
+
+Resposta correta: B. Menos ações dividindo o mesmo lucro elevam mecanicamente o LPA.
+
+## Pontos-chave
+
+- Recompra é quando uma empresa compra de volta as suas próprias ações, reduzindo as ações em circulação.
+- Isso eleva mecanicamente o LPA, mesmo sem mudança no lucro total.
+- O Nível 2 mostra com mais profundidade como isso pode distorcer os índices por ação.

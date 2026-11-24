@@ -5,42 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 39
 locale: de
-title: "Was ist eine Börse? (NYSE, Nasdaq — was sie tatsächlich tun)"
-summary: "Lernen Sie, was eine Börse tatsächlich tut — über die bloße Aussage hinaus, sie sei der Ort, an dem Aktien gehandelt werden."
-sourceVersion: "1.0"
+title: "Was ist eine Börse? (NYSE, Nasdaq – was sie tatsächlich tun)"
+summary: "Erfahren Sie, was eine Börse tatsächlich leistet – über die Rolle als bloßer „Ort, an dem Aktien gehandelt werden“ hinaus."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist eine Börse? (NYSE, Nasdaq — was sie tatsächlich tun)
+# Was ist eine Börse? (NYSE, Nasdaq – was sie tatsächlich tun)
 
 ## Lernziele
 
-Am Ende dieser Lektion sollten Sie das behandelte Konzept definieren, seine praktische Bedeutung erklären und auf ein einfaches Beispiel anwenden können.
+Am Ende dieser Lektion sollten Sie:
+
+- eine Börse in einfachen Worten definieren können.
+- ihre Kernfunktion über „ein Ort, an dem Aktien gehandelt werden“ hinaus erklären können.
+- zwei bekannte Beispiele nennen können.
 
 ## Kerninhalt
 
 ### Was eine Börse ist
 
-Eine Börse ist ein organisierter Marktplatz, auf dem Käufer und Verkäufer nach gemeinsamen Regeln Aktien börsennotierter Unternehmen handeln.
+Eine Börse ist ein organisierter Marktplatz, auf dem Käufer und Verkäufer zusammenkommen, um nach einem gemeinsamen Regelwerk mit Aktien börsennotierter Unternehmen zu handeln.
 
 ### Ihre Kernfunktion
 
-Neben der Abwicklung von Geschäften ermöglicht eine Börse Preisfindung, indem reale Kauf- und Verkaufsaufträge zusammengeführt werden, und setzt Zulassungsstandards durch, die dort gehandelte Unternehmen erfüllen müssen.
+Über die bloße Abwicklung von Geschäften hinaus sorgt eine Börse für Preisfindung (sie hilft, durch das Zusammenführen echter Käufer und Verkäufer einen fairen aktuellen Preis zu ermitteln) und setzt Zulassungsstandards durch, die Unternehmen erfüllen müssen, um dort gehandelt zu werden – das verleiht dem Markt zusätzliche Struktur und Aufsicht.
 
 ### Bekannte Beispiele
 
-*(VERIFIZIERTE TATSACHE, die sich im Laufe der Zeit ändern kann — Börsennotierungen wechseln.)* Die New York Stock Exchange (NYSE) und Nasdaq sind zwei bekannte Börsen mit teilweise unterschiedlichen Zulassungsanforderungen und Handelsstrukturen.
+*(GEPRÜFTE TATSACHE, kann sich mit der Zeit ändern – die Notierungen von Unternehmen verschieben sich.)* Die New York Stock Exchange (NYSE) und die Nasdaq sind zwei bekannte Börsen, jeweils mit etwas unterschiedlichen Zulassungsanforderungen und Handelsstrukturen. Im deutschsprachigen Raum sind zum Beispiel die Frankfurter Wertpapierbörse (mit dem Handelsplatz Xetra), die Wiener Börse und die SIX Swiss Exchange bekannt.
 
 ## Durchgerechnetes Beispiel
 
-Wenn ein Anleger einen Kauf- oder Verkaufsauftrag erteilt, wird dieser an den relevanten Markt geleitet und mit einem passenden Gegenauftrag zu einem vereinbarten Preis zusammengeführt — der grundlegende Mechanismus des Aktienhandels.
+Wenn ein Anleger eine Order zum Kauf oder Verkauf einer Aktie erteilt, wird diese an die zuständige Börse weitergeleitet, die sie mit einer passenden Kauf- oder Verkaufsorder zu einem vereinbarten Preis zusammenführt – der Grundmechanismus hinter dem „Handeln einer Aktie“.
 
 ## Übungsquiz
 
-1. Eine Börse ist: A. internes Handelsteam B. organisierter Markt für notierte Aktien C. Steuerbehörde D. Investmentfonds
-2. Richtig oder falsch: Börsen wickeln nur Geschäfte ab und haben keine Zulassungsstandards.
-3. Bekanntes Beispiel: A. Federal Reserve B. NYSE oder Nasdaq C. IRS D. SEC
+1. Eine Börse ist:
+   A. Der interne Handelstisch eines einzelnen Unternehmens
+   B. Ein organisierter Marktplatz für den Handel mit Aktien börsennotierter Unternehmen
+   C. Eine staatliche Steuerbehörde
+   D. Eine Art Investmentfonds
+
+2. Richtig oder falsch: Börsen wickeln nur Geschäfte ab und haben keine Zulassungsstandards und keine Aufsichtsrolle.
+
+3. Nennen Sie eine bekannte Börse, die in dieser Lektion erwähnt wird.
+   A. Federal Reserve
+   B. NYSE oder Nasdaq
+   C. IRS
+   D. SEC
 
 ## Lösungsschlüssel
 
@@ -50,10 +64,20 @@ Wenn ein Anleger einen Kauf- oder Verkaufsauftrag erteilt, wird dieser an den re
 
 ## Antworten und Erklärungen
 
-Die richtigen Antworten folgen unmittelbar aus den Definitionen, Unterscheidungen und dem durchgerechneten Beispiel dieser Lektion.
+### Frage 1
+
+Richtige Antwort: B. Eine Börse ist ein organisierter Marktplatz für den Handel mit börsennotierten Aktien.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Börsen sorgen auch für Preisfindung und setzen Zulassungsstandards durch.
+
+### Frage 3
+
+Richtige Antwort: B. NYSE und Nasdaq sind bekannte Beispiele.
 
 ## Wichtigste Erkenntnisse
 
-- Beherrschen Sie die genaue Definition des Konzepts.
-- Verstehen Sie seine praktische finanzielle Wirkung und seine Grenzen.
-- Wenden Sie es bewusst auf reale Entscheidungen und Beispiele an.
+- Eine Börse ist ein organisierter Marktplatz für den Handel mit börsennotierten Aktien.
+- Sie sorgt für Preisfindung und setzt Zulassungsstandards durch.
+- NYSE und Nasdaq sind zwei bekannte Beispiele.

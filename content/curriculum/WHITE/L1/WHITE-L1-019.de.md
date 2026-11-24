@@ -5,44 +5,56 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 19
 locale: de
-title: "Was ist ein IRA und wie unterscheidet es sich von einem 401(k)?"
-summary: "Lernen Sie, was ein IRA ist und worin der grundlegende Unterschied zu einem arbeitgeberfinanzierten 401(k) besteht."
-sourceVersion: "1.0"
+title: "Was ist ein IRA, und worin unterscheidet es sich von einem 401(k)?"
+summary: "Lernen Sie, was ein IRA ist und worin der Kernunterschied zu einem vom Arbeitgeber angebotenen 401(k) besteht."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Was ist ein IRA und wie unterscheidet es sich von einem 401(k)?
+# Was ist ein IRA, und worin unterscheidet es sich von einem 401(k)?
 
 ## Lernziele
 
-- Ein IRA in einfachen Worten definieren.
-- Den grundlegenden Unterschied zwischen IRA und 401(k) erklären.
-- Erkennen, dass beide demselben allgemeinen Altersvorsorgezweck dienen.
+Am Ende dieser Lektion sollten Sie:
+
+- ein IRA in einfachen Worten definieren können.
+- den Kernunterschied zwischen einem IRA und einem 401(k) erklären können.
+- erkennen können, dass beide demselben allgemeinen Zweck der Altersvorsorge dienen.
 
 ## Kerninhalt
 
 ### Was ein IRA ist
 
-*(REGIONSSPEZIFISCHE REGEL: Dies ist eine US-spezifische Kontoart.)* Ein IRA (Individual Retirement Account) ist ein Altersvorsorgekonto, das eine Person unabhängig von einem Arbeitgeber selbst eröffnet, häufig bei einer Bank oder einem Broker.
+*(REGIONSSPEZIFISCHE REGEL: Dies ist ein Kontotyp, der speziell in den USA existiert. In Deutschland sind individuelle Formen der privaten Altersvorsorge zum Beispiel die Riester- oder die Basisrente sowie private Rentenversicherungen, jeweils mit eigenen Regeln; lassen Sie sich hierzu beraten.)* Ein IRA (Individual Retirement Account) ist ein Altersvorsorgekonto, das eine Person selbst eröffnet, unabhängig von einem Arbeitgeber, häufig bei einer Bank oder einem Broker.
 
-### Grundlegender Unterschied zu einem 401(k)
+### Der Kernunterschied zum 401(k)
 
-Ein 401(k) ist an einen Arbeitgeber gebunden und typischerweise nur über das Arbeitsverhältnis verfügbar. Ein IRA wird unabhängig eröffnet und ist nicht an einen bestimmten Arbeitgeber gebunden.
+Ein 401(k) ist an einen Arbeitgeber gebunden und in der Regel nur verfügbar, solange man dort arbeitet. Ein IRA wird von einer Person eigenständig eröffnet und ist an keinen bestimmten Arbeitgeber gebunden: Man kann ein IRA haben, unabhängig davon, ob man überhaupt eine Stelle mit einem verfügbaren 401(k) hat.
 
 ### Derselbe allgemeine Zweck
 
-Trotz des strukturellen Unterschieds dienen beide Kontoarten demselben Kernzweck: steuerlich begünstigtes Sparen für den Ruhestand.
+Trotz des strukturellen Unterschieds dienen beide Kontotypen demselben Kernzweck: das Sparen für den Ruhestand zu fördern und steuerlich begünstigte Wege dafür zu bieten.
 
 ## Durchgerechnetes Beispiel
 
-Eine selbstständige Person ohne verfügbaren Arbeitgeber-401(k) kann dennoch unabhängig ein IRA eröffnen und Beiträge leisten.
+Wer selbstständig ist und keinen 401(k) eines Arbeitgebers zur Verfügung hat, kann trotzdem eigenständig ein IRA eröffnen und einzahlen: Das Konto ist überhaupt nicht daran gebunden, einen bestimmten Arbeitgeber zu haben.
 
 ## Übungsquiz
 
-1. Ein IRA ist: A. nur über Arbeitgeber verfügbar B. ein unabhängig eröffnetes Altersvorsorgekonto C. Girokonto D. staatliche Pension
-2. Richtig oder falsch: 401(k) und IRA sind auf dieselbe Weise an Arbeitgeber gebunden.
-3. Kann jemand ohne Arbeitgeber-401(k) über ein IRA sparen? A. Nein B. Ja C. erst im Ruhestand D. nur Staatsbedienstete
+1. Ein IRA ist:
+   A. nur über einen Arbeitgeber verfügbar
+   B. ein Altersvorsorgekonto, das eine Person eigenständig eröffnet
+   C. eine Art Girokonto
+   D. eine staatliche Rente
+
+2. Richtig oder falsch: Ein 401(k) und ein IRA sind auf genau dieselbe Weise an einen Arbeitgeber gebunden.
+
+3. Kann jemand ohne vom Arbeitgeber angebotenen 401(k) trotzdem über ein IRA für den Ruhestand sparen?
+   A. Nein, ein Arbeitgeber ist immer erforderlich
+   B. Ja, ein IRA wird unabhängig von jedem Arbeitgeber eröffnet
+   C. Nur wenn die Person bereits im Ruhestand ist
+   D. Nur Staatsbedienstete können ein IRA eröffnen
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Eine selbstständige Person ohne verfügbaren Arbeitgeber-401(k) kann dennoch un
 
 ## Antworten und Erklärungen
 
-1. B. Ein IRA wird unabhängig eröffnet.
-2. Falsch. Ein 401(k) ist arbeitgebergebunden; ein IRA nicht.
-3. B. IRAs sind unabhängig von Arbeitgebersponsoring.
+### Frage 1
+
+Richtige Antwort: B. Ein IRA wird von einer Person eigenständig eröffnet.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Ein 401(k) ist an den Arbeitgeber gebunden, ein IRA nicht.
+
+### Frage 3
+
+Richtige Antwort: B. IRAs sind unabhängig von einem Angebot des Arbeitgebers.
 
 ## Wichtigste Erkenntnisse
 
-- Ein IRA ist nicht an einen Arbeitgeber gebunden.
-- Dies ist der zentrale strukturelle Unterschied zum 401(k).
-- Beide dienen steuerlich begünstigtem Altersvorsorgesparen.
+- Ein IRA ist ein eigenständig eröffnetes Altersvorsorgekonto, das nicht an einen Arbeitgeber gebunden ist.
+- Das ist der strukturelle Kernunterschied zu einem 401(k).
+- Beide dienen demselben allgemeinen Zweck: steuerlich begünstigtes Sparen für den Ruhestand.

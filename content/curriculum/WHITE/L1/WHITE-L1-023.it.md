@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 23
 locale: it
-title: "Come Leggere una Quotazione Azionaria"
-summary: "Lezione WHITE-L1-023 in italiano."
-sourceVersion: "1.0"
+title: "Che cos'è il frazionamento azionario (stock split)?"
+summary: "Scopri che cosa cambia e che cosa non cambia, nel valore di un'azienda, con un frazionamento azionario."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-023: Come Leggere una Quotazione Azionaria
+# Che cos'è il frazionamento azionario (stock split)?
 
-## Obiettivi di Apprendimento
-1. Identificare gli elementi comuni mostrati in una quotazione azionaria.
-2. Distinguere il prezzo attuale dalla variazione giornaliera.
-3. Spiegare cosa indica il volume di negoziazione.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Una quotazione azionaria mostra tipicamente: il prezzo attuale, la variazione del giorno (in dollari e percentuale), il volume di negoziazione (azioni negoziate quel giorno), e spesso l'intervallo massimo/minimo del giorno. *FATTO VERIFICATO:* Il volume riflette quante azioni hanno cambiato proprietario, il che può indicare quanto interesse o attività degli investitori sta sperimentando un'azione in un determinato giorno.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Una quotazione dice: Prezzo $145,20, Variazione +$2,10 (+1,47%), Volume 3,2M, Intervallo del Giorno $142,80-$146,00. Questo dice a un investitore che l'azione viene attualmente negoziata a $145,20, in rialzo di $2,10 (1,47%) rispetto alla chiusura precedente, con 3,2 milioni di azioni negoziate quel giorno, fluttuando tra $142,80 e $146,00 durante la sessione.
+- definire in parole semplici un frazionamento azionario.
+- spiegare che cosa cambia e che cosa non cambia con un frazionamento.
+- calcolare un numero di azioni e un prezzo di base dopo il frazionamento.
 
-## Quiz Pratico
-1. Cosa mostra la "variazione" in una quotazione azionaria?
-2. Cosa indica il volume di negoziazione?
-3. Vero/Falso: L'intervallo massimo/minimo del giorno mostra l'intervallo di prezzo storico dell'azione.
-4. Se la variazione di un'azione mostra +2%, cosa significa?
+## Contenuto principale
 
-## Chiave di Risposte
-1. Il movimento di prezzo rispetto alla chiusura precedente   2. Quante azioni sono state negoziate quel giorno / il livello di attività   3. Falso   4. Il prezzo è salito del 2% rispetto alla chiusura precedente
+### Che cos'è un frazionamento azionario
 
-## Risposte e Spiegazioni
-1. Questa è la metrica standard di "variazione" in una quotazione azionaria.
-2. Il volume riflette l'attività di negoziazione, non la direzione del prezzo in sé.
-3. L'intervallo del giorno mostra solo l'intervallo di quella sessione di negoziazione, non tutto lo storico.
-4. Una variazione percentuale positiva indica che il prezzo è salito rispetto alla chiusura precedente.
+Un frazionamento azionario divide ogni azione esistente in più azioni nuove, riducendo proporzionalmente il prezzo per azione e aumentando il numero di azioni in circolazione.
 
-## Punti Chiave da Ricordare
-- Una quotazione azionaria mostra come minimo prezzo, variazione, volume, e intervallo del giorno.
-- Il volume riflette l'attività di negoziazione, distinta dal movimento di prezzo.
-- L'intervallo del giorno riflette solo quella sessione, non l'intervallo storico dell'azione.
+### Che cosa cambia e che cosa no
+
+Il numero di azioni possedute dall'investitore aumenta e il prezzo per azione diminuisce in proporzione. Che cosa NON cambia: il valore totale della partecipazione dell'investitore e la capitalizzazione di mercato complessiva dell'azienda. La torta viene tagliata in più fette, ma la torta resta della stessa grandezza.
+
+### Perché le aziende lo fanno
+
+Le aziende a volte frazionano le azioni per portare il prezzo per azione in una fascia più accessibile agli investitori, anche se questo non cambia affatto il valore sottostante dell'azienda.
+
+## Esempio svolto
+
+Un investitore che possiede 10 azioni a 100 $ l'una (1.000 $ in totale) vive un frazionamento 2 per 1. Ora possiede 20 azioni a 50 $ l'una: sempre 1.000 $ in totale, solo suddivisi in più azioni meno care.
+
+## Quiz di esercitazione
+
+1. Un frazionamento azionario:
+   A. Aumenta il valore di mercato totale di un'azienda
+   B. Divide le azioni esistenti in più azioni a un prezzo proporzionalmente più basso
+   C. Riduce il numero di azioni in circolazione
+   D. Cambia l'attività sottostante dell'azienda
+
+2. Vero o falso: un frazionamento azionario cambia il valore totale della partecipazione di un investitore.
+
+3. Un investitore possiede 5 azioni a 200 $ l'una. Dopo un frazionamento 2 per 1, quante azioni possiede e a quale prezzo?
+   A. 5 azioni a 400 $
+   B. 10 azioni a 100 $
+   C. 2,5 azioni a 200 $
+   D. 10 azioni a 200 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un frazionamento divide le azioni in proporzione senza cambiare il valore totale.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il valore totale della partecipazione resta lo stesso subito dopo un frazionamento.
+
+### Domanda 3
+
+Risposta corretta: B. 5 azioni × 2 = 10 azioni; 200 $ ÷ 2 = 100 $ per azione.
+
+## Punti chiave
+
+- Un frazionamento divide le azioni in più azioni a un prezzo proporzionalmente più basso.
+- Il valore totale della partecipazione e la capitalizzazione di mercato non cambiano per effetto del frazionamento.
+- Le aziende frazionano le azioni soprattutto per rendere più accessibile il prezzo per azione.

@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 5
 locale: nl
-title: "WHITE-L1-005"
-summary: "WHITE-L1-005"
-sourceVersion: "1.0"
+title: "Aandelen en obligaties: wat is de echte afweging?"
+summary: "Leer de echte afweging tussen aandelen en obligaties – groeipotentieel tegenover voorrang bij terugbetaling – en niet alleen \"riskant tegenover veilig\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-005: ETF's vs. Beleggingsfondsen
+# Aandelen en obligaties: wat is de echte afweging?
 
 ## Leerdoelen
-1. Een ETF (op de beurs verhandeld fonds) definiëren.
-2. De belangrijkste structurele verschillen tussen ETF's en beleggingsfondsen identificeren.
-3. Uitleggen waarom de flexibiliteit van handelen tussen beide verschilt.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- het structurele kernverschil tussen aandelen en obligaties uit te leggen.
+- uit te leggen waarom obligatiehouders over het algemeen vóór aandeelhouders worden terugbetaald.
+- de te simpele voorstelling "aandelen zijn riskant, obligaties zijn veilig" te vermijden.
 
 ## Kerninhoud
-Een ETF lijkt op een beleggingsfonds doordat het een gespreide mand van effecten bezit, maar wordt de hele dag door op een beurs verhandeld zoals een aandeel, in plaats van eenmaal per dag te worden gewaardeerd. *GEVERIFIEERD FEIT:* Dit betekent dat de koersen van ETF's kunnen schommelen gedurende de handelsdag, en beleggers kunnen kopen of verkopen op elk moment dat de markten open zijn, in tegenstelling tot beleggingsfondsen die alleen aan het einde van de dag worden gewaardeerd.
 
-*SCHATTING:* ETF's hebben doorgaans (hoewel niet universeel) lagere kostenratio's dan actief beheerde beleggingsfondsen, aangezien veel ETF's passief een index volgen in plaats van actieve aandelenselectie toe te passen.
+### Het structurele verschil
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Wei wil om 11 uur beleggen in een gespreid fonds wanneer zij een daling in de markt opmerkt. Met een ETF kan zij die transactie onmiddellijk uitvoeren tegen de huidige marktprijs. Als zij in plaats daarvan voor een gelijkwaardig beleggingsfonds had gekozen, zou haar order pas worden uitgevoerd wanneer de intrinsieke waarde van die dag na sluiting van de markt wordt berekend — zij verliest de mogelijkheid om te reageren op koersbewegingen gedurende de dag.
+Een aandeel vertegenwoordigt eigendom; een obligatie vertegenwoordigt een lening. Dit ene verschil bepaalt de meeste praktische verschillen tussen beide, die in deze les aan bod komen.
 
-## Praktische Toets
-1. Wat is een belangrijk handelsverschil tussen ETF's en beleggingsfondsen?
-2. Waar/Onwaar: De koersen van ETF's worden eenmaal per dag vastgesteld, net als beleggingsfondsen.
-3. Wat hebben veel ETF's doorgaans dat ze goedkoper kan maken dan actief beheerde beleggingsfondsen?
-4. Waarom zou een belegger de handelsflexibiliteit van ETF's kunnen waarderen?
+### Voorrang bij terugbetaling
+
+Als een bedrijf in ernstige financiële problemen komt, hebben obligatiehouders (als geldverstrekkers) over het algemeen een wettelijke aanspraak om te worden terugbetaald voordat aandeelhouders (als eigenaren) iets ontvangen. Dit is een echte structurele voorrang, niet alleen een algemene reputatie van veiligheid.
+
+### Verder dan "riskant tegenover veilig"
+
+Aandelen simpelweg "riskant" en obligaties simpelweg "veilig" noemen, vereenvoudigt een genuanceerdere afweging te veel: aandelen bieden het opwaartse potentieel van eigendom (onbeperkt groeipotentieel, maar geen garantie op terugbetaling), terwijl obligaties vastgelegde, contractuele terugbetalingsvoorwaarden bieden (maar een begrensd rendementspotentieel, en eigen echte risico's, zoals wanbetaling door de uitgevende instelling).
+
+## Praktijkvoorbeeld
+
+Als een bedrijf failliet gaat, staan zijn obligatiehouders over het algemeen in de rij om uit de resterende bezittingen te worden terugbetaald voordat zijn aandeelhouders iets zien: de aanspraak van aandeelhouders komt als laatste, wat het structurele verschil tussen eigendom en lening weerspiegelt.
+
+## Oefenquiz
+
+1. Het structurele kernverschil tussen aandelen en obligaties is:
+   A. Aandelen zijn altijd riskanter dan obligaties
+   B. Aandelen vertegenwoordigen eigendom; obligaties vertegenwoordigen een lening
+   C. Obligaties leveren altijd een hoger rendement op
+   D. Er is geen echt verschil
+
+2. Waar of onwaar: bij een faillissement van een bedrijf hebben obligatiehouders over het algemeen een aanspraak op terugbetaling vóór aandeelhouders.
+
+3. Waarom is "aandelen zijn riskant, obligaties zijn veilig" een te grote vereenvoudiging?
+   A. Het klopt volledig, zonder nuance
+   B. Beide hebben echte, verschillende afwegingen tussen risico en rendement
+   C. Obligaties hebben helemaal geen risico
+   D. Aandelen verliezen altijd geld
 
 ## Antwoordsleutel
-1. ETF's worden de hele dag verhandeld; beleggingsfondsen worden eenmaal per dag gewaardeerd   2. Onwaar   3. Lagere kostenratio's, dankzij passieve indexvolging   4. Het vermogen om te reageren op koersbewegingen gedurende de dag
 
-## Antwoorden en Toelichtingen
-1. Dit is het bepalende structurele verschil tussen de twee vehikels.
-2. De koersen van ETF's schommelen gedurende de handelsdag, in tegenstelling tot beleggingsfondsen.
-3. Passief beheer verlaagt doorgaans de kosten in vergelijking met actief beheer.
-4. Handelen gedurende de dag maakt een reactievere in- en uitstaptiming mogelijk.
+1. B
+2. Waar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- ETF's worden gedurende de dag verhandeld zoals aandelen; beleggingsfondsen worden eenmaal per dag gewaardeerd.
-- ETF's hebben doorgaans lagere kostenratio's vanwege passief beheer, hoewel niet universeel.
-- Handelsflexibiliteit is een belangrijk praktisch verschil dat beleggers moeten overwegen.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Eigendom tegenover lening is het structurele kernverschil.
+
+### Vraag 2
+
+Juist antwoord: Waar. Obligatiehouders hebben over het algemeen voorrang bij terugbetaling boven aandeelhouders.
+
+### Vraag 3
+
+Juist antwoord: B. Beide brengen echte, verschillende soorten risico met zich mee: de simpele voorstelling mist die nuance.
+
+## Belangrijkste punten
+
+- Aandelen vertegenwoordigen eigendom; obligaties vertegenwoordigen een lening.
+- Obligatiehouders hebben over het algemeen voorrang bij terugbetaling boven aandeelhouders.
+- "Riskant tegenover veilig" vereenvoudigt een genuanceerdere afweging tussen beide te veel.

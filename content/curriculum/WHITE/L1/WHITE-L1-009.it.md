@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 9
 locale: it
-title: "Plusvalenze vs. Minusvalenze"
-summary: "*REGOLA SPECIFICA DELLA REGIONE:* Il trattamento fiscale delle plusvalenze (aliquote, requisiti di periodo di detenzione) varia significativamente a seconda del paese e persino a seconda di quanto tempo un attivo è stato detenuto — verifica sempre le regole fiscali locali vigenti."
-sourceVersion: "1.0"
+title: "Che cos'è un ETF? (Un paniere, non una singola azione)"
+summary: "Scopri che cos'è un ETF, in che cosa differisce dal comprare una singola azione e perché la struttura a paniere è importante."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-009: Plusvalenze vs. Minusvalenze
+# Che cos'è un ETF? (Un paniere, non una singola azione)
 
-## Obiettivi di Apprendimento
-1. Definire plusvalenza e minusvalenza.
-2. Distinguere i guadagni/le perdite realizzati da quelli non realizzati.
-3. Spiegare perché questa distinzione conta per la tassazione.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Una plusvalenza si verifica quando un investimento viene venduto a un prezzo superiore a quello di acquisto; una minusvalenza si verifica quando viene venduto a un prezzo inferiore. *FATTO VERIFICATO:* I guadagni e le perdite sono "non realizzati" (solo sulla carta) finché l'investimento non viene effettivamente venduto — solo i guadagni/le perdite realizzati generano tipicamente conseguenze fiscali nella maggior parte delle giurisdizioni.
+Al termine di questa lezione dovresti essere in grado di:
 
-*REGOLA SPECIFICA DELLA REGIONE:* Il trattamento fiscale delle plusvalenze (aliquote, requisiti di periodo di detenzione) varia significativamente a seconda del paese e persino a seconda di quanto tempo un attivo è stato detenuto — verifica sempre le regole fiscali locali vigenti.
+- definire in parole semplici un ETF.
+- spiegare in che cosa differisce dal comprare una singola azione.
+- spiegare un vantaggio pratico della struttura a paniere.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Kenji compra un'azione per $2.000. Il suo valore sale a $2.800 — un guadagno non realizzato di $800 che esiste solo sulla carta e non è ancora tassato. Lui la vende, realizzando una plusvalenza di $800, che ora può essere soggetta a tassazione a seconda della sua giurisdizione e di quanto tempo ha detenuto l'investimento.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è una plusvalenza?
-2. Cosa significa "non realizzato" in questo contesto?
-3. Vero/Falso: I guadagni non realizzati vengono tipicamente tassati immediatamente.
-4. Cosa fa scattare tipicamente un guadagno o una perdita "realizzato/a"?
+### Che cos'è un ETF
 
-## Chiave di Risposte
-1. Profitto dalla vendita di un investimento sopra il suo prezzo di acquisto   2. Un guadagno/una perdita che esiste solo sulla carta, non ancora concretizzato/a da una vendita   3. Falso   4. Vendere effettivamente l'investimento
+Un ETF (Exchange-Traded Fund, fondo negoziato in borsa) è un fondo che detiene un insieme di attività (spesso molte azioni o obbligazioni), le cui quote si scambiano in borsa durante tutta la giornata, come una singola azione.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di una plusvalenza.
-2. Lo stato non realizzato riflette cambiamenti di valore sulla carta prima che avvenga qualsiasi vendita.
-3. La maggior parte delle giurisdizioni non tassa i guadagni non realizzati — tipicamente solo quelli realizzati.
-4. Vendere l'attivo converte un guadagno/una perdita sulla carta in un guadagno/una perdita realizzato/a.
+### In che cosa differisce da una singola azione
 
-## Punti Chiave da Ricordare
-- Plusvalenze/minusvalenze si verificano quando gli investimenti vengono venduti sopra/sotto il prezzo di acquisto.
-- I guadagni e le perdite sono "non realizzati" finché non vengono effettivamente venduti.
-- Il trattamento fiscale varia significativamente a seconda della giurisdizione e del periodo di detenzione — verifica localmente.
+Comprare un'azione di una singola azienda dà esposizione solo a quell'azienda. Comprare una quota di un ETF dà esposizione a tutto ciò che c'è nel paniere in una volta sola: potenzialmente decine o centinaia di titoli sottostanti, con un solo acquisto.
+
+### Un vantaggio pratico della struttura a paniere
+
+Poiché un ETF distribuisce l'esposizione su molti titoli contemporaneamente, il cattivo andamento di un singolo titolo al suo interno pesa meno sull'ETF nel suo complesso di quanto peserebbe se fosse l'unico investimento dell'investitore: una forma di base di diversificazione, approfondita in una lezione successiva.
+
+## Esempio svolto
+
+Invece di scegliere una sola azienda in cui investire, un investitore compra una quota di un ETF che detiene azioni di 500 aziende diverse, distribuendo la propria esposizione su tutte e 500 con un solo acquisto.
+
+## Quiz di esercitazione
+
+1. Un ETF si descrive meglio come:
+   A. L'azione di una singola azienda
+   B. Un fondo che detiene un insieme di attività, negoziabile come un'azione
+   C. Un tipo di conto di risparmio
+   D. Un titolo di Stato
+
+2. Vero o falso: comprare una quota di un ETF dà esposizione a una sola azienda sottostante.
+
+3. Qual è un vantaggio pratico della struttura a paniere di un ETF?
+   A. Garantisce un profitto
+   B. Distribuisce l'esposizione su molti titoli contemporaneamente
+   C. Elimina ogni rischio d'investimento
+   D. Richiede di scegliere singole azioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un ETF è un fondo negoziabile che detiene più attività.
+
+### Domanda 2
+
+Risposta corretta: Falso. Una quota di ETF dà di solito esposizione a molti titoli sottostanti contemporaneamente.
+
+### Domanda 3
+
+Risposta corretta: B. Distribuire l'esposizione su molti titoli è il vantaggio principale.
+
+## Punti chiave
+
+- Un ETF è un fondo che detiene un insieme di attività, negoziabile come un'azione.
+- Una sola quota di ETF può dare esposizione a molti titoli sottostanti contemporaneamente.
+- Questa struttura a paniere offre una forma di base di diversificazione.

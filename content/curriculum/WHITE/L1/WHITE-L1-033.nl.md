@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 33
 locale: nl
-title: "WHITE-L1-033"
-summary: "WHITE-L1-033"
-sourceVersion: "1.0"
+title: "Wat is een geldmarktfonds?"
+summary: "Leer wat een geldmarktfonds is en waarom het doorgaans wordt gezien als een minder risicovolle, liquidere optie dan andere fondsen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-033: Wat Is Een Aandelensplitsing?
+# Wat is een geldmarktfonds?
 
 ## Leerdoelen
-1. Een aandelensplitsing definiëren.
-2. Uitleggen waarom een splitsing de totale waarde van de belegging niet verandert.
-3. Een gewone splitsing onderscheiden van een omgekeerde splitsing.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een geldmarktfonds in eenvoudige woorden te definiëren.
+- uit te leggen waarin het doorgaans belegt.
+- uit te leggen waarom het doorgaans als minder risicovol wordt beschouwd dan een aandelenfonds.
 
 ## Kerninhoud
-Een aandelensplitsing verhoogt (of verlaagt) het aantal uitstaande aandelen terwijl de koers evenredig wordt aangepast, zodat de totale waarde van een positie onmiddellijk na de splitsing gelijk blijft. *GEVERIFIEERD FEIT:* Bij een **gewone splitsing** (bijvoorbeeld 2-op-1) ontvangen aandeelhouders meer aandelen tegen een evenredig lagere koers per aandeel. Bij een **omgekeerde splitsing** (bijvoorbeeld 1-op-10) ontvangen aandeelhouders minder aandelen tegen een evenredig hogere koers per aandeel.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger bezit 100 aandelen die elk $200 waard zijn ($20.000 in totaal) vóór een 2-op-1-splitsing. Na de splitsing bezit hij 200 aandelen die elk $100 waard zijn — nog steeds $20.000 in totaal. Er is niets veranderd aan zijn werkelijke eigendomsbelang of de waarde van het bedrijf; alleen het aantal aandelen en de koers per aandeel zijn evenredig aangepast.
+### Wat een geldmarktfonds is
 
-## Praktische Toets
-1. Wat is een aandelensplitsing?
-2. Wat gebeurt er bij een gewone 2-op-1-splitsing met het aantal aandelen en de koers?
-3. Waar/Onwaar: Een aandelensplitsing verandert de totale waarde van een bestaande positie.
-4. Wat is een omgekeerde splitsing?
+Een geldmarktfonds is een soort beleggingsfonds dat belegt in kortlopende schuldinstrumenten van doorgaans hoge kwaliteit, met als doel stabiliteit en liquiditeit te bieden in plaats van aanzienlijke groei.
+
+### Waarin het doorgaans belegt
+
+Geldmarktfondsen houden vaak zaken aan als kortlopende staatsschuld en andere zeer kortlopende leningen met een hoge kredietwaardigheid: beleggingen die doorgaans worden gekozen om hun stabiliteit en niet om hun groeipotentieel.
+
+### Waarom het doorgaans minder risicovol is
+
+Omdat het kortlopende schuld van hoge kwaliteit aanhoudt, wordt een geldmarktfonds doorgaans als minder risicovol en waardevaster beschouwd dan een aandelenfonds, al is het niet helemaal risicovrij en biedt het daartegenover doorgaans bescheidener rendementen.
+
+## Praktijkvoorbeeld
+
+Een belegger die een relatief stabiele plek zoekt voor contant geld dat hij binnenkort nodig kan hebben, en daarbij toch enig rendement wil behalen, kan een geldmarktfonds gebruiken in plaats van een volatieler aandelenfonds.
+
+## Oefenquiz
+
+1. Een geldmarktfonds belegt doorgaans in:
+   A. Snelgroeiende technologieaandelen
+   B. Kortlopende schuldinstrumenten van hoge kwaliteit
+   C. Rechtstreeks in vastgoed
+   D. Uitsluitend in cryptovaluta
+
+2. Waar of onwaar: geldmarktfondsen worden doorgaans als risicovoller beschouwd dan aandelenfondsen.
+
+3. Waarom zou een belegger een geldmarktfonds gebruiken?
+   A. Om het groeipotentieel op lange termijn te maximaliseren
+   B. Voor relatieve stabiliteit en liquiditeit
+   C. Om elke vorm van risico volledig te vermijden
+   D. Om vastgoed te kopen
 
 ## Antwoordsleutel
-1. Een aanpassing aan de uitstaande aandelen en de koers die de totale waarde constant houdt   2. Het aantal aandelen verdubbelt; de koers per aandeel wordt ongeveer gehalveerd   3. Onwaar   4. Een splitsing die het aantal aandelen vermindert terwijl de koers per aandeel evenredig stijgt
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een aandelensplitsing.
-2. Dit beschrijft het standaardmechanisme van een gewone splitsing.
-3. De totale waarde van de positie blijft onmiddellijk na een splitsing gelijk — alleen het aantal aandelen en de koers veranderen.
-4. Omgekeerde splitsingen werken tegenovergesteld aan gewone splitsingen.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een aandelensplitsing past het aantal aandelen en de koers aan, terwijl dezelfde totale waarde behouden blijft.
-- Gewone splitsingen verhogen de aandelen en verlagen de koers per aandeel; omgekeerde splitsingen doen het tegenovergestelde.
-- Splitsingen veranderen de onderliggende waarde van een belegging niet.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Geldmarktfondsen houden kortlopende schuld van hoge kwaliteit aan.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Ze worden doorgaans als minder risicovol beschouwd dan aandelenfondsen.
+
+### Vraag 3
+
+Juist antwoord: B. Stabiliteit en liquiditeit zijn de kern van de aantrekkingskracht.
+
+## Belangrijkste punten
+
+- Een geldmarktfonds belegt in kortlopende schuld van hoge kwaliteit.
+- Het wordt doorgaans als minder risicovol en stabieler beschouwd dan aandelenfondsen.
+- Het ruilt hoger groeipotentieel in voor stabiliteit en liquiditeit.

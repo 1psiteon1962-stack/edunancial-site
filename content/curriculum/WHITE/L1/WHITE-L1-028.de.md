@@ -6,8 +6,8 @@ level: 1
 lessonNumber: 28
 locale: de
 title: "Was ist das Fälligkeitsdatum einer Anleihe?"
-summary: "Lernen Sie, was ein Fälligkeitsdatum ist und warum Anleihen mit unterschiedlichen Laufzeiten unterschiedlich reagieren."
-sourceVersion: "1.0"
+summary: "Lernen Sie, was ein Fälligkeitsdatum ist und warum sich Anleihen mit unterschiedlichen Laufzeiten unterschiedlich verhalten."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
@@ -16,33 +16,45 @@ date: 2026-08-08
 
 ## Lernziele
 
-- Fälligkeitsdatum definieren.
-- Erklären, was bei Fälligkeit geschieht.
-- Erkennen, dass die Laufzeit das Verhalten einer Anleihe beeinflusst.
+Am Ende dieser Lektion sollten Sie:
+
+- das Fälligkeitsdatum in einfachen Worten definieren können.
+- erklären können, was bei Fälligkeit geschieht.
+- erkennen können, dass die Laufzeit das Verhalten einer Anleihe beeinflusst.
 
 ## Kerninhalt
 
 ### Was ein Fälligkeitsdatum ist
 
-Das Fälligkeitsdatum einer Anleihe ist der Tag, an dem der Emittent vereinbarungsgemäß den Nennwert beziehungsweise Kapitalbetrag vollständig an den Anleihegläubiger zurückzahlt — das Ende der Darlehenslaufzeit.
+Das Fälligkeitsdatum einer Anleihe ist der Tag, an dem der Emittent zugesagt hat, dem Anleihegläubiger den Nennwert (den Kapitalbetrag) vollständig zurückzuzahlen – das Ende der Darlehenslaufzeit, die in der früheren Anleihe-Lektion eingeführt wurde.
 
 ### Was bei Fälligkeit geschieht
 
-Bei Fälligkeit erhält der Anleihegläubiger den Nennwert zurück und die Zinszahlungen enden, weil das Darlehen vollständig zurückgezahlt ist.
+Bei Fälligkeit erhält der Anleihegläubiger den Nennwert zurück, und die Zinszahlungen enden, da das Darlehen als vollständig zurückgezahlt gilt.
 
 ### Warum die Laufzeit wichtig ist
 
-Anleihen mit längerer Laufzeit reagieren grundsätzlich empfindlicher auf Änderungen des allgemeinen Zinsniveaus als Anleihen mit kürzerer Laufzeit. Das wird später beim Zinsänderungsrisiko vertieft.
+Anleihen mit längerer Laufzeit (weiter entfernten Rückzahlungsterminen) reagieren in der Regel empfindlicher auf sich ändernde Zinsbedingungen als Anleihen mit kürzerer Laufzeit – ein Konzept, das in einer späteren Lektion zum Zinsänderungsrisiko vertieft wird.
 
 ## Durchgerechnetes Beispiel
 
-Eine 2-jährige und eine 20-jährige Anleihe können heute ähnliche Kupons haben. Die 20-jährige Anleihe reagiert typischerweise stärker auf spätere Zinsänderungen, weil ihre Fälligkeit viel weiter entfernt ist.
+Eine Anleihe mit 2 Jahren und eine mit 20 Jahren Laufzeit können heute ähnliche Kuponzinssätze haben, aber der Kurs der 20-jährigen Anleihe reagiert in der Regel deutlich stärker auf künftige Zinsänderungen, einfach weil sie noch viel länger bis zur Fälligkeit hat.
 
 ## Übungsquiz
 
-1. Fälligkeitsdatum: A. Beginn der Zinsen B. vollständige Rückzahlung des Nennwerts C. Kaufdatum D. vom Anleger frei gesetzt
-2. Richtig oder falsch: Zinszahlungen laufen nach Fälligkeit unbegrenzt weiter.
-3. Welche ist grundsätzlich zinssensitiver? A. kürzere Laufzeit B. längere Laufzeit C. Laufzeit irrelevant D. nur Anleihen ohne Fälligkeit
+1. Das Fälligkeitsdatum einer Anleihe ist:
+   A. der Beginn der Zinszahlungen
+   B. der Zeitpunkt, an dem der Emittent den Nennwert vollständig zurückzahlt
+   C. das Kaufdatum der Anleihe
+   D. ein vom Anleihegläubiger festgelegtes Datum
+
+2. Richtig oder falsch: Die Zinszahlungen laufen nach Fälligkeit einer Anleihe unbegrenzt weiter.
+
+3. Welche Art von Anleihe reagiert in der Regel empfindlicher auf Zinsänderungen?
+   A. eine Anleihe mit kürzerer Laufzeit
+   B. eine Anleihe mit längerer Laufzeit
+   C. Die Laufzeit hat keinen Einfluss auf die Empfindlichkeit
+   D. nur Anleihen ohne Fälligkeitsdatum
 
 ## Lösungsschlüssel
 
@@ -52,12 +64,20 @@ Eine 2-jährige und eine 20-jährige Anleihe können heute ähnliche Kupons habe
 
 ## Antworten und Erklärungen
 
-1. B. Bei Fälligkeit wird der Nennwert vollständig zurückgezahlt.
-2. Falsch. Nach Rückzahlung bei Fälligkeit enden die Zinszahlungen.
-3. B. Längere Laufzeiten sind grundsätzlich zinssensitiver.
+### Frage 1
+
+Richtige Antwort: B. Bei Fälligkeit wird der Nennwert vollständig zurückgezahlt.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die Zinszahlungen enden, sobald die Anleihe fällig und zurückgezahlt ist.
+
+### Frage 3
+
+Richtige Antwort: B. Anleihen mit längerer Laufzeit reagieren in der Regel empfindlicher auf Zinsänderungen.
 
 ## Wichtigste Erkenntnisse
 
-- Bei Fälligkeit wird der Nennwert vollständig zurückgezahlt.
-- Danach enden die Zinszahlungen.
-- Längere Laufzeiten reagieren grundsätzlich stärker auf Zinsänderungen.
+- Das Fälligkeitsdatum einer Anleihe ist der Zeitpunkt, an dem der Nennwert vollständig zurückgezahlt wird.
+- Die Zinszahlungen enden mit Erreichen der Fälligkeit.
+- Anleihen mit längerer Laufzeit reagieren in der Regel empfindlicher auf Zinsänderungen.

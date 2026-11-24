@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 39
 locale: nl
-title: "WHITE-L1-039"
-summary: "WHITE-L1-039"
-sourceVersion: "1.0"
+title: "Wat is een effectenbeurs? (NYSE, Nasdaq: wat ze echt doen)"
+summary: "Leer wat een effectenbeurs echt doet, verder dan alleen \"de plek waar aandelen worden verhandeld\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-039: De Tijdswaarde van Geld
+# Wat is een effectenbeurs? (NYSE, Nasdaq: wat ze echt doen)
 
 ## Leerdoelen
-1. Het concept van de tijdswaarde van geld definiëren.
-2. Uitleggen waarom een dollar vandaag doorgaans meer waard is dan een dollar later.
-3. Erkennen dat dit concept ten grondslag ligt aan samengestelde rente en beleggingsbeslissingen.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een effectenbeurs in eenvoudige woorden te definiëren.
+- de kernfunctie ervan uit te leggen, verder dan "een plek waar aandelen worden verhandeld".
+- twee bekende voorbeelden te noemen.
 
 ## Kerninhoud
-De tijdswaarde van geld is het principe dat een bepaald geldbedrag vandaag doorgaans meer waard is dan hetzelfde bedrag in de toekomst, omdat geld van vandaag kan worden belegd en na verloop van tijd kan groeien. *GEVERIFIEERD FEIT:* Dit concept ligt ten grondslag aan de meeste beleggings- en financiële planningsberekeningen, waaronder samengestelde groei (Les 015) en pensioenplanning.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Voor de keuze tussen $1.000 vandaag of $1.000 over vijf jaar zou een rationele belegger doorgaans de $1.000 vandaag verkiezen — omdat dat geld, zelfs bescheiden belegd, tegen de tijd dat vijf jaar zijn verstreken tot meer dan $1.000 kan zijn gegroeid. Het uitgestelde bedrag van $1.000 heeft vandaag effectief minder waarde dan de directe $1.000, vanwege de gemiste groeikans.
+### Wat een effectenbeurs is
 
-## Praktische Toets
-1. Wat is de tijdswaarde van geld?
-2. Waarom is geld vandaag doorgaans meer waard dan hetzelfde bedrag later?
-3. Waar/Onwaar: Dit concept heeft geen verband met samengestelde rente.
-4. Tussen $1.000 vandaag en $1.000 over vijf jaar, welke zou een rationele belegger doorgaans verkiezen?
+Een effectenbeurs is een georganiseerde markt waar kopers en verkopers samenkomen om volgens een gemeenschappelijk regelkader aandelen van beursgenoteerde bedrijven te verhandelen.
+
+### De kernfunctie
+
+Naast het faciliteren van transacties zorgt een beurs voor prijsvorming (ze helpt een eerlijke actuele prijs te bepalen door echte kopers en verkopers bij elkaar te brengen) en handhaaft ze noteringseisen waaraan bedrijven moeten voldoen om er verhandeld te worden, wat de markt extra structuur en toezicht geeft.
+
+### Bekende voorbeelden
+
+*(GEVERIFIEERD FEIT, kan in de loop van de tijd veranderen: de notering van bedrijven verschuift.)* De New York Stock Exchange (NYSE) en de Nasdaq zijn twee bekende effectenbeurzen, elk met enigszins verschillende noteringseisen en handelsstructuren. In Nederland en België zijn dat bijvoorbeeld Euronext Amsterdam en Euronext Brussels.
+
+## Praktijkvoorbeeld
+
+Wanneer een belegger een order plaatst om een aandeel te kopen of te verkopen, wordt die order doorgestuurd naar de betreffende beurs, die haar koppelt aan een overeenkomstige koop- of verkooporder tegen een overeengekomen prijs: het basismechanisme achter "het verhandelen van een aandeel".
+
+## Oefenquiz
+
+1. Een effectenbeurs is:
+   A. De interne handelsafdeling van één bedrijf
+   B. Een georganiseerde markt voor het verhandelen van aandelen van beursgenoteerde bedrijven
+   C. Een belastingdienst van de overheid
+   D. Een soort beleggingsfonds
+
+2. Waar of onwaar: effectenbeurzen faciliteren alleen transacties, zonder noteringseisen of toezichthoudende rol.
+
+3. Noem een bekende effectenbeurs die in deze les wordt genoemd.
+   A. Federal Reserve
+   B. NYSE of Nasdaq
+   C. IRS
+   D. SEC
 
 ## Antwoordsleutel
-1. Geld vandaag is doorgaans meer waard dan hetzelfde bedrag in de toekomst   2. Het kan gedurende die tijd worden belegd en groeien   3. Onwaar   4. $1.000 vandaag
 
-## Antwoorden en Toelichtingen
-1. Dit is het fundamentele principe van de tijdswaarde van geld.
-2. De groeikans is de fundamentele reden voor deze voorkeur.
-3. Dit concept is fundamenteel voor het begrijpen van samengestelde rente.
-4. Direct geld heeft een groeipotentieel dat het uitgestelde bedrag niet heeft.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Geld vandaag is doorgaans meer waard dan hetzelfde bedrag in de toekomst.
-- Dit komt doordat geld van vandaag de kans heeft om te worden belegd en te groeien.
-- Dit principe ligt ten grondslag aan de meeste beleggings- en financiële planningsberekeningen.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een beurs is een georganiseerde markt voor het verhandelen van genoteerde aandelen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Beurzen zorgen ook voor prijsvorming en handhaven noteringseisen.
+
+### Vraag 3
+
+Juist antwoord: B. NYSE en Nasdaq zijn bekende voorbeelden.
+
+## Belangrijkste punten
+
+- Een effectenbeurs is een georganiseerde markt voor het verhandelen van genoteerde aandelen.
+- Ze zorgt voor prijsvorming en handhaaft noteringseisen.
+- NYSE en Nasdaq zijn twee bekende voorbeelden.

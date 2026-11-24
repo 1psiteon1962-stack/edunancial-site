@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 14
 locale: it
-title: "Mercati Rialzisti vs. Mercati Ribassisti"
-summary: "*ASSUNZIONE:* I cicli di mercato tra periodi rialzisti e ribassisti sono stati storicamente una caratteristica normale e ricorrente degli investimenti — anche se il momento esatto e la durata di ciascun ciclo non possono essere previsti in modo affidabile in anticipo."
-sourceVersion: "1.0"
+title: "Che cos'è il rischio, e perché non è la stessa cosa di \"negativo\"?"
+summary: "Scopri come questo corso definisce il rischio d'investimento e perché rischio e \"negativo\" non sono lo stesso concetto."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-014: Mercati Rialzisti vs. Mercati Ribassisti
+# Che cos'è il rischio, e perché non è la stessa cosa di "negativo"?
 
-## Obiettivi di Apprendimento
-1. Definire mercato rialzista e mercato ribassista.
-2. Identificare la soglia percentuale comunemente citata per un mercato ribassista.
-3. Spiegare perché questi cicli fanno parte normale dell'investimento.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un **mercato rialzista** (bull market) descrive un periodo di prezzi generalmente in aumento e ottimismo tra gli investitori; un **mercato ribassista** (bear market) descrive un periodo di prezzi generalmente in calo e pessimismo. *STIMA:* Una soglia comunemente citata (anche se non universalmente standardizzata) definisce un mercato ribassista come un calo di circa il 20% rispetto ai massimi recenti.
+Al termine di questa lezione dovresti essere in grado di:
 
-*ASSUNZIONE:* I cicli di mercato tra periodi rialzisti e ribassisti sono stati storicamente una caratteristica normale e ricorrente degli investimenti — anche se il momento esatto e la durata di ciascun ciclo non possono essere previsti in modo affidabile in anticipo.
+- definire in parole semplici il rischio d'investimento.
+- spiegare perché rischio e "negativo" sono concetti diversi.
+- spiegare il rapporto generale tra rischio e rendimento potenziale.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investitore osserva il mercato salire costantemente per tre anni (un mercato rialzista), poi calare del 25% nell'arco di diversi mesi (entrando in territorio di mercato ribassista secondo la soglia comune). Gli investitori a lungo termine che sono rimasti investiti durante cicli storici simili si sono generalmente ripresi nel tempo, anche se i modelli passati non garantiscono risultati futuri.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa caratterizza un mercato rialzista?
-2. Cosa caratterizza un mercato ribassista?
-3. Quale percentuale di calo viene comunemente citata come soglia di mercato ribassista?
-4. Vero/Falso: I cicli di mercato possono essere previsti in modo affidabile in anticipo.
+### Che cosa significa qui rischio
 
-## Chiave di Risposte
-1. Prezzi generalmente in aumento e ottimismo   2. Prezzi generalmente in calo e pessimismo   3. Circa il 20%   4. Falso
+Negli investimenti, il rischio indica in genere l'incertezza di un risultato: in particolare, la possibilità che il rendimento effettivo di un investimento sia diverso da quello atteso, compresa la possibilità di una perdita.
 
-## Risposte e Spiegazioni
-1. Questo definisce la condizione generale di un mercato rialzista.
-2. Questo definisce la condizione generale di un mercato ribassista.
-3. Questa è una soglia comunemente citata, anche se non perfettamente standardizzata.
-4. Il momento e la durata dei cicli di mercato non possono essere previsti in modo affidabile.
+### Il rischio non è la stessa cosa di "negativo"
 
-## Punti Chiave da Ricordare
-- Mercati rialzisti: prezzi in aumento e ottimismo. Mercati ribassisti: prezzi in calo e pessimismo.
-- Un calo di circa il 20% è una soglia comunemente citata per un mercato ribassista.
-- Questi cicli sono una caratteristica normale e ricorrente, ma imprevedibile, degli investimenti.
+Il rischio descrive un'incertezza, non un esito negativo garantito. Un investimento "rischioso" non è automaticamente una cattiva scelta: significa che la gamma dei risultati possibili è più ampia, nel bene o nel male, rispetto a un'opzione meno rischiosa.
+
+### Il rapporto generale tra rischio e rendimento
+
+In genere, gli investimenti con rendimenti potenziali più alti tendono a comportare un rischio maggiore, e quelli più certi o sicuri tendono a offrire rendimenti potenziali più bassi. Non è una garanzia rigida in ogni singolo caso, ma è uno schema comune che vale la pena capire.
+
+## Esempio svolto
+
+Un titolo di Stato di un emittente stabile è generalmente considerato a basso rischio, con un rendimento corrispondentemente modesto. Le azioni di un'azienda nuova sono generalmente considerate ad alto rischio, con la possibilità di un rendimento molto più alto (o molto più basso) di quello dell'obbligazione.
+
+## Quiz di esercitazione
+
+1. Negli investimenti, il rischio indica in genere:
+   A. Una perdita garantita
+   B. L'incertezza del risultato effettivo di un investimento
+   C. Un tipo di dividendo
+   D. Una regola dello Stato
+
+2. Vero o falso: un investimento "rischioso" è automaticamente una cattiva scelta.
+
+3. Qual è il rapporto generale tra rischio e rendimento potenziale?
+   A. Un rischio più alto non ha in genere alcun rapporto con il rendimento potenziale
+   B. Rendimenti potenziali più alti comportano in genere un rischio più alto
+   C. Un rischio più basso significa sempre rendimenti più alti
+   D. Rischio e rendimento sono sempre identici
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il rischio indica l'incertezza del risultato, non una perdita garantita.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rischio descrive un'incertezza, non un esito automaticamente negativo.
+
+### Domanda 3
+
+Risposta corretta: B. Rendimenti potenziali più alti sono in genere legati a un rischio più alto.
+
+## Punti chiave
+
+- Il rischio indica l'incertezza del risultato, non un esito negativo garantito.
+- Un investimento rischioso non è automaticamente una cattiva scelta.
+- Rendimenti potenziali più alti comportano in genere un rischio più alto, come schema generale.

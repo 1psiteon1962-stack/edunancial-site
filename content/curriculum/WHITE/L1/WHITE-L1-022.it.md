@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 22
 locale: it
-title: "Il Contributo di Corrispondenza del Datore di Lavoro Spiegato"
-summary: "*OPINIONE:* Poiché il contributo di corrispondenza del datore di lavoro è effettivamente una compensazione aggiuntiva gratuita legata alla partecipazione, molti educatori finanziari suggeriscono comunemente di contribuire almeno abbastanza da sfruttare tutta la corrispondenza del datore di lavoro prima di dare priorità ad altri obiettivi di risparmio — anche se le circostanze finanziarie individuali variano."
-sourceVersion: "1.0"
+title: "Che cos'è il piano di accumulo (dollar-cost averaging)?"
+summary: "Scopri che cos'è il piano di accumulo e perché investire regolarmente un importo fisso può attenuare la volatilità dei prezzi."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-022: Il Contributo di Corrispondenza del Datore di Lavoro Spiegato
+# Che cos'è il piano di accumulo (dollar-cost averaging)?
 
-## Obiettivi di Apprendimento
-1. Definire il contributo di corrispondenza del datore di lavoro nel contesto di un piano pensionistico.
-2. Spiegare perché i contributi non sfruttati vengono spesso descritti come "lasciare soldi sul tavolo".
-3. Calcolare uno scenario semplice di contributo di corrispondenza del datore di lavoro.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il contributo di corrispondenza del datore di lavoro significa che un datore di lavoro versa denaro aggiuntivo sul conto pensionistico di un dipendente in base ai contributi propri del dipendente, fino a un certo limite. *FATTO VERIFICATO:* Una struttura di corrispondenza comune consiste nell'eguagliare una percentuale dei contributi del dipendente fino a una percentuale specifica dello stipendio, anche se le formule esatte variano considerevolmente a seconda del datore di lavoro.
+Al termine di questa lezione dovresti essere in grado di:
 
-*OPINIONE:* Poiché il contributo di corrispondenza del datore di lavoro è effettivamente una compensazione aggiuntiva gratuita legata alla partecipazione, molti educatori finanziari suggeriscono comunemente di contribuire almeno abbastanza da sfruttare tutta la corrispondenza del datore di lavoro prima di dare priorità ad altri obiettivi di risparmio — anche se le circostanze finanziarie individuali variano.
+- definire in parole semplici il piano di accumulo.
+- spiegare come interagisce con la volatilità dei prezzi.
+- riconoscerlo come una strategia, non come una garanzia di profitto.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Il datore di lavoro di Devon eguaglia il 50% dei contributi fino al 6% del suo stipendio di $50.000. Se contribuisce con il 6% ($3.000), il suo datore di lavoro aggiunge altri $1.500 (50% di $3.000) — denaro gratuito aggiunto al suo conto semplicemente per aver contribuito abbastanza da sfruttare tutta la corrispondenza. Se avesse contribuito solo il 2%, avrebbe ricevuto una corrispondenza minore e avrebbe effettivamente perso parte di quel beneficio disponibile.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è il contributo di corrispondenza del datore di lavoro?
-2. Su un contributo di $3.000 con una corrispondenza del 50%, quanto aggiunge il datore di lavoro?
-3. Vero/Falso: Il contributo di corrispondenza del datore di lavoro tipicamente non ha alcun limite, indipendentemente dall'importo contribuito.
-4. Perché il non sfruttare tutta la corrispondenza del datore di lavoro viene comunemente descritto come "lasciare soldi sul tavolo"?
+### Che cos'è il piano di accumulo
 
-## Chiave di Risposte
-1. Contributi aggiuntivi del datore di lavoro basati sui contributi del dipendente, fino a un limite   2. $1.500   3. Falso   4. Rappresenta una compensazione gratuita disponibile che il dipendente non ha reclamato
+Il piano di accumulo (PAC; in inglese "dollar-cost averaging") consiste nell'investire un importo fisso a intervalli regolari (per esempio ogni mese), indipendentemente dal prezzo del momento, invece di investire una grossa somma tutta in una volta.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale del contributo di corrispondenza del datore di lavoro.
-2. 50% × $3.000 = $1.500.
-3. Le corrispondenze tipicamente hanno un tetto a una percentuale specifica dello stipendio o del contributo.
-4. I fondi di corrispondenza non sfruttati rappresentano compensazione disponibile non reclamata.
+### Come interagisce con la volatilità
 
-## Punti Chiave da Ricordare
-- Il contributo di corrispondenza del datore di lavoro aggiunge fondi del datore di lavoro in base ai contributi del dipendente, fino a un tetto.
-- Le strutture e i limiti della corrispondenza variano considerevolmente a seconda del datore di lavoro.
-- La linea guida comunemente citata suggerisce di contribuire abbastanza da sfruttare tutta la corrispondenza disponibile del datore di lavoro.
+Poiché l'importo investito resta fisso, si comprano più quote quando i prezzi sono più bassi e meno quote quando i prezzi sono più alti: in questo modo il prezzo di acquisto si media naturalmente nel tempo, senza che l'investitore debba prevedere i movimenti dei prezzi.
+
+### Non è una garanzia
+
+Il piano di accumulo non garantisce un profitto né protegge dalle perdite: è un approccio disciplinato per investire nel tempo, non un modo per eliminare del tutto il rischio.
+
+## Esempio svolto
+
+Un investitore versa 200 $ in un investimento ogni mese. Quando il prezzo è basso, quei 200 $ comprano più quote; quando il prezzo è alto, ne comprano meno: nell'arco di un anno si ottiene così un prezzo medio di acquisto senza che l'investitore debba cercare il momento giusto per entrare nel mercato.
+
+## Quiz di esercitazione
+
+1. Il piano di accumulo significa:
+   A. Investire una grossa somma tutta in una volta
+   B. Investire un importo fisso a intervalli regolari, indipendentemente dal prezzo
+   C. Investire solo quando i prezzi sono bassi
+   D. Evitare tutte le attività di carta
+
+2. Vero o falso: il piano di accumulo garantisce un profitto.
+
+3. Che cosa succede al numero di quote acquistate quando il prezzo è più basso, con il piano di accumulo?
+   A. Si comprano meno quote
+   B. Con lo stesso importo fisso si comprano più quote
+   C. Non si compra alcuna quota
+   D. L'importo investito aumenta automaticamente
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Importo fisso, intervalli regolari, indipendentemente dal prezzo.
+
+### Domanda 2
+
+Risposta corretta: Falso. È una strategia disciplinata, non una garanzia.
+
+### Domanda 3
+
+Risposta corretta: B. Un importo fisso compra più quote quando il prezzo è più basso.
+
+## Punti chiave
+
+- Il piano di accumulo consiste nell'investire un importo fisso a intervalli regolari.
+- Compra naturalmente più quote quando i prezzi sono bassi e meno quando sono alti.
+- È una strategia disciplinata, non una garanzia contro le perdite.

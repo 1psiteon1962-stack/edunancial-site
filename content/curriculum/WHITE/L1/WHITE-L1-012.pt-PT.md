@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 12
 locale: pt-PT
-title: "O que é taxa de administração e por que razão uma pequena percentagem importa?"
-summary: "Aprenda o que é a taxa anual de despesas de um fundo e por que razão uma percentagem aparentemente pequena importa ao longo do tempo."
-sourceVersion: "1.0"
+title: "O que são os encargos correntes de um fundo, e porque é que uma pequena percentagem importa?"
+summary: "Aprenda o que são os encargos correntes (expense ratio) de um fundo e porque é que uma percentagem anual aparentemente pequena importa ao longo do tempo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é taxa de administração e por que razão uma pequena percentagem importa?
+# O que são os encargos correntes de um fundo, e porque é que uma pequena percentagem importa?
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, o investidor deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- definir os encargos correntes em termos simples.
+- calcular o custo anual aproximado a partir do saldo num fundo e dos encargos correntes.
+- explicar porque é que pequenas diferenças percentuais importam ao longo do tempo.
 
 ## Conteúdo principal
 
-### Conceito principal
+### O que são os encargos correntes
 
-A taxa de despesas (expense ratio) é o custo anual cobrado por um fundo, como ETF ou fundo mútuo, expresso como percentagem do valor investido para cobrir custos operacionais.
+Os encargos correntes (em inglês, "expense ratio") são a comissão anual que um fundo (como um ETF ou um fundo de investimento) cobra, expressa como percentagem do montante investido, para cobrir os seus custos de funcionamento. (Na Europa, fala-se muitas vezes de "encargos correntes" ou TER, indicados nos documentos de informação fundamental.)
 
-### Como funciona
+### Calcular o custo
 
-Uma taxa de 0,50% sobre USD 10.000 custa aproximadamente USD 50 por ano, retirados automaticamente do retorno do fundo; normalmente não chega uma conta separada ao investidor.
+Encargos correntes de 0,50% sobre um investimento de 10 000 $ custam cerca de 50 $ por ano, retirados automaticamente dos retornos do fundo: normalmente o investidor não os paga como uma fatura separada.
 
-### Por que isso importa
+### Porque é que pequenas percentagens importam ao longo do tempo
 
-Como essas taxas são cobradas todos os anos, pequenas diferenças podem se acumular significativamente ao longo de décadas.
+Como os encargos correntes são cobrados todos os anos, até pequenas diferenças se acumulam de forma significativa em períodos longos. Uma comissão de 0,10% contra uma de 1,00% sobre o mesmo investimento, mantido durante décadas, pode resultar num custo total bem diferente, embora a diferença anual pareça pequena.
 
-## Exemplo resolvido
+## Exemplo prático
 
-USD 10.000 com taxa de 1,00% custam cerca de USD 100 por ano. Com 0,10%, cerca de USD 10 — diferença anual de USD 90 que se acumula ao longo do tempo.
+Um investimento de 10 000 $ com encargos correntes de 1,00% custa cerca de 100 $ por ano em comissões. O mesmo investimento com encargos de 0,10% custa cerca de 10 $ por ano: uma diferença de 90 $ que se acumula de forma significativa se o investimento for mantido durante muitos anos.
 
-## Quiz prático
+## Teste de prática
 
-1. Taxa de despesas é: A. taxa única B. custo anual percentual C. imposto sobre dividendos D. taxa só na venda
-2. Verdadeiro ou falso: diferenças pequenas nunca importam no longo prazo.
-3. USD 20.000 a 0,40% custam aproximadamente: A. USD 8 B. USD 40 C. USD 80 D. USD 400
+1. Os encargos correntes são:
+   A. Uma comissão única cobrada na compra
+   B. Uma comissão anual calculada como percentagem do montante investido
+   C. Um imposto devido sobre dividendos
+   D. Uma comissão cobrada apenas na venda
 
-## Gabarito
+2. Verdadeiro ou falso: as diferenças de encargos correntes são demasiado pequenas para importarem ao longo do tempo.
+
+3. Um investimento de 20 000 $ tem encargos correntes de 0,40%. Quanto custa isso, aproximadamente, por ano?
+   A. 8 $
+   B. 40 $
+   C. 80 $
+   D. 400 $
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ USD 10.000 com taxa de 1,00% custam cerca de USD 100 por ano. Com 0,10%, cerca d
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. Os encargos correntes são uma comissão anual baseada numa percentagem.
 
-- Compreenda a definição exata do conceito.
-- Saiba como ele funciona na prática e quais são seus limites.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Pequenas diferenças anuais acumulam-se de forma significativa em períodos longos.
+
+### Pergunta 3
+
+Resposta correta: C. 20 000 $ × 0,40% = 80 $.
+
+## Pontos-chave
+
+- Os encargos correntes são uma comissão anual, calculada como percentagem do património investido.
+- São deduzidos automaticamente dos retornos do fundo, e não faturados à parte.
+- Pequenas diferenças de encargos podem acumular-se em custos significativos ao longo do tempo.

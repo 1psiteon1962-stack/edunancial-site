@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 39
 locale: it
-title: "Il Valore Temporale del Denaro"
-summary: "Lezione WHITE-L1-039 in italiano."
-sourceVersion: "1.0"
+title: "Che cos'è una borsa valori? (NYSE, Nasdaq: che cosa fanno davvero)"
+summary: "Scopri che cosa fa davvero una borsa valori, al di là dell'essere semplicemente «il luogo dove si scambiano le azioni»."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-039: Il Valore Temporale del Denaro
+# Che cos'è una borsa valori? (NYSE, Nasdaq: che cosa fanno davvero)
 
-## Obiettivi di Apprendimento
-1. Definire il concetto del valore temporale del denaro.
-2. Spiegare perché un dollaro oggi vale generalmente più di un dollaro domani.
-3. Riconoscere che questo concetto è alla base dell'interesse composto e delle decisioni di investimento.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il valore temporale del denaro è il principio secondo cui una determinata somma di denaro vale generalmente di più oggi che la stessa somma in futuro, perché il denaro di oggi può essere investito e crescere nel tempo. *FATTO VERIFICATO:* Questo concetto è alla base della maggior parte dei calcoli di investimento e pianificazione finanziaria, inclusa la crescita composta (Lezione 015) e la pianificazione pensionistica.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Di fronte alla scelta tra $1.000 oggi o $1.000 tra cinque anni, un investitore razionale preferirebbe generalmente i $1.000 oggi — perché quel denaro, investito anche modestamente, potrebbe crescere a più di $1.000 entro il momento in cui passano i cinque anni. I $1.000 rinviati hanno effettivamente meno valore oggi rispetto ai $1.000 immediati, a causa dell'opportunità di crescita persa.
+- definire una borsa valori in termini semplici.
+- spiegarne la funzione principale al di là di «un luogo dove si scambiano azioni».
+- citare due esempi noti.
 
-## Quiz Pratico
-1. Cos'è il valore temporale del denaro?
-2. Perché il denaro oggi vale generalmente più della stessa somma in seguito?
-3. Vero/Falso: Questo concetto non ha alcuna connessione con l'interesse composto.
-4. Tra $1.000 oggi e $1.000 tra cinque anni, quale preferirebbe generalmente un investitore razionale?
+## Contenuto principale
 
-## Chiave di Risposte
-1. Il denaro oggi vale generalmente più della stessa somma in futuro   2. Può essere investito e crescere durante quel tempo   3. Falso   4. $1.000 oggi
+### Che cos'è una borsa valori
 
-## Risposte e Spiegazioni
-1. Questo è il principio fondamentale del valore temporale del denaro.
-2. L'opportunità di crescita è la ragione fondamentale di questa preferenza.
-3. Questo concetto è fondamentale per comprendere l'interesse composto.
-4. Il denaro immediato ha un potenziale di crescita che la somma rinviata non ha.
+Una borsa valori è un mercato organizzato in cui compratori e venditori si incontrano per scambiare azioni di società quotate, secondo un insieme comune di regole.
 
-## Punti Chiave da Ricordare
-- Il denaro oggi vale generalmente più della stessa somma in futuro.
-- Questo perché il denaro di oggi ha l'opportunità di essere investito e crescere.
-- Questo principio è alla base della maggior parte dei calcoli di investimento e pianificazione finanziaria.
+### La sua funzione principale
+
+Oltre a ospitare gli scambi, una borsa assicura la formazione del prezzo (aiuta a determinare un prezzo corrente equo facendo incontrare compratori e venditori reali) e fa rispettare i requisiti di quotazione che le società devono soddisfare per esservi scambiate, aggiungendo al mercato un livello di struttura e di vigilanza.
+
+### Esempi noti
+
+*(FATTO VERIFICATO, soggetto a cambiamenti nel tempo: le società quotate cambiano.)* La New York Stock Exchange (NYSE) e il Nasdaq sono due borse valori note, ciascuna con requisiti di quotazione e strutture di negoziazione un po' diversi. In Italia la borsa principale è Borsa Italiana (con il mercato Euronext Milan).
+
+## Esempio svolto
+
+Quando un investitore inserisce un ordine di acquisto o di vendita di un'azione, l'ordine viene inoltrato alla borsa competente, che lo abbina a un ordine di vendita o di acquisto corrispondente a un prezzo concordato: il meccanismo di base dietro il «negoziare un'azione».
+
+## Quiz di esercitazione
+
+1. Una borsa valori è:
+   A. Il desk di negoziazione interno di una singola azienda
+   B. Un mercato organizzato per scambiare azioni di società quotate
+   C. Un'agenzia fiscale statale
+   D. Un tipo di fondo comune
+
+2. Vero o falso: le borse valori ospitano solo gli scambi, senza requisiti di quotazione né ruolo di vigilanza.
+
+3. Indica una borsa valori nota citata in questa lezione.
+   A. Federal Reserve
+   B. NYSE o Nasdaq
+   C. IRS
+   D. SEC
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una borsa è un mercato organizzato per scambiare azioni quotate.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le borse assicurano anche la formazione del prezzo e fanno rispettare i requisiti di quotazione.
+
+### Domanda 3
+
+Risposta corretta: B. NYSE e Nasdaq sono esempi noti.
+
+## Punti chiave
+
+- Una borsa valori è un mercato organizzato per scambiare azioni quotate.
+- Assicura la formazione del prezzo e fa rispettare i requisiti di quotazione.
+- NYSE e Nasdaq sono due esempi noti.

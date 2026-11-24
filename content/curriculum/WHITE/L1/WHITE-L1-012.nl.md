@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 12
 locale: nl
-title: "WHITE-L1-012"
-summary: "WHITE-L1-012"
-sourceVersion: "1.0"
+title: "Wat zijn de lopende kosten van een fonds (expense ratio), en waarom doet een klein percentage ertoe?"
+summary: "Leer wat de expense ratio van een fonds is, en waarom een ogenschijnlijk klein jaarlijks percentage op lange termijn ertoe doet."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-012: Basisprincipes van Assetallocatie
+# Wat zijn de lopende kosten van een fonds (expense ratio), en waarom doet een klein percentage ertoe?
 
 ## Leerdoelen
-1. Assetallocatie definiëren.
-2. Uitleggen hoe allocatie verschilt van spreiding.
-3. De factoren identificeren die doorgaans allocatiebeslissingen beïnvloeden.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de expense ratio in eenvoudige woorden te definiëren.
+- de geschatte jaarlijkse kosten te berekenen op basis van een fondssaldo en de expense ratio.
+- uit te leggen waarom kleine procentuele verschillen op lange termijn ertoe doen.
 
 ## Kerninhoud
-Assetallocatie is de manier waarop een belegger zijn portefeuille verdeelt over brede activacategorieën — meestal aandelen, obligaties, en contanten — op basis van doelen, tijdshorizon, en risicotolerantie. *AANNAME:* Terwijl spreiding het risico verdeelt binnen een categorie (veel verschillende aandelen), is allocatie de beslissing op hoger niveau over hoeveel überhaupt in elke categorie wordt gestoken.
 
-*AANNAME:* Een algemeen vaak genoemde tendens is dat langere tijdshorizons hogere allocaties in aandelen kunnen ondersteunen, terwijl kortere horizons vaak meer obligaties/contanten bevoordelen — maar dit is een algemene richtlijn, geen regel die op elke individuele situatie van toepassing is.
+### Wat de expense ratio is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Twee beleggers spreiden goed binnen hun aandelenposities (veel verschillende bedrijven). Belegger A, op 25 jaar van pensionering, alloceert 90% aandelen / 10% obligaties. Belegger B, op 2 jaar van pensionering, alloceert 40% aandelen / 60% obligaties. Hetzelfde spreidingsprincipe toegepast binnen elke categorie, maar een heel andere allocatie tussen categorieën op basis van de tijdshorizon.
+De expense ratio is de jaarlijkse vergoeding die een fonds (zoals een ETF of beleggingsfonds) in rekening brengt, uitgedrukt als percentage van het belegde bedrag, om de bedrijfskosten van het fonds te dekken. (In Europa spreekt men vaak van "lopende kosten" of TER.)
 
-## Praktische Toets
-1. Wat is assetallocatie?
-2. Waarin verschilt allocatie van spreiding?
-3. Wat zouden langere tijdshorizons doorgaans kunnen ondersteunen, volgens de algemene richtlijnen?
-4. Waar/Onwaar: Assetallocatie zou voor elke belegger identiek moeten zijn.
+### De kosten berekenen
+
+Een expense ratio van 0,50% op een belegging van $ 10.000 kost ongeveer $ 50 per jaar, automatisch ingehouden op het rendement van het fonds: beleggers betalen het doorgaans niet als aparte rekening.
+
+### Waarom kleine percentages op lange termijn ertoe doen
+
+Omdat de expense ratio elk jaar wordt berekend, lopen zelfs kleine verschillen over lange perioden flink op. Een vergoeding van 0,10% tegenover 1,00% op dezelfde belegging, die tientallen jaren wordt aangehouden, kan oplopen tot een betekenisvol ander totaalbedrag aan kosten, ook al lijkt het jaarlijkse verschil klein.
+
+## Praktijkvoorbeeld
+
+Een belegging van $ 10.000 met een expense ratio van 1,00% kost ongeveer $ 100 per jaar aan kosten. Dezelfde belegging met een expense ratio van 0,10% kost ongeveer $ 10 per jaar: een verschil van $ 90 dat flink oploopt als de belegging vele jaren wordt aangehouden.
+
+## Oefenquiz
+
+1. De expense ratio is:
+   A. Een eenmalige aankoopvergoeding
+   B. Een jaarlijkse vergoeding, berekend als percentage van het belegde bedrag
+   C. Een belasting op dividend
+   D. Een vergoeding die alleen bij verkoop wordt berekend
+
+2. Waar of onwaar: verschillen in expense ratio zijn te klein om op lange termijn ertoe te doen.
+
+3. Een belegging van $ 20.000 heeft een expense ratio van 0,40%. Hoeveel kost dat ongeveer per jaar?
+   A. $ 8
+   B. $ 40
+   C. $ 80
+   D. $ 400
 
 ## Antwoordsleutel
-1. Hoe een portefeuille wordt verdeeld over brede activacategorieën   2. Allocatie is de verdeling op categorieniveau; spreiding is verdelen binnen een categorie   3. Hogere allocaties in aandelen (als algemene tendens)   4. Onwaar
 
-## Antwoorden en Toelichtingen
-1. Dit definieert het fundamentele concept van assetallocatie.
-2. Dit onderscheidt allocatie (categorieën) van spreiding (verdeling binnen categorieën).
-3. Dit is een algemeen vaak genoemde richtlijn, geen universele regel.
-4. Allocatie zou de individuele doelen, tijdshorizon, en risicotolerantie moeten weerspiegelen.
+1. B
+2. Onwaar
+3. C
 
-## Belangrijkste Punten om te Onthouden
-- Assetallocatie is de verdeling tussen brede categorieën zoals aandelen, obligaties, contanten.
-- Het is te onderscheiden van spreiding, die het risico binnen een categorie verdeelt.
-- Tijdshorizon en risicotolerantie beïnvloeden doorgaans de allocatiebeslissingen.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. De expense ratio is een jaarlijkse vergoeding op basis van een percentage.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Kleine jaarlijkse verschillen lopen over lange perioden flink op.
+
+### Vraag 3
+
+Juist antwoord: C. $ 20.000 × 0,40% = $ 80.
+
+## Belangrijkste punten
+
+- De expense ratio is een jaarlijkse vergoeding, berekend als percentage van het belegde vermogen.
+- Ze wordt automatisch ingehouden op het rendement van het fonds, niet apart in rekening gebracht.
+- Kleine verschillen in expense ratio kunnen op lange termijn oplopen tot betekenisvolle kosten.

@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 26
 locale: nl
-title: "WHITE-L1-026"
-summary: "WHITE-L1-026"
-sourceVersion: "1.0"
+title: "Wat is de koers-winstverhouding (K/W)? (Inleidende versie – volledige methode in niveau 2)"
+summary: "Leer de basisformule van de koers-winstverhouding en wat die inschat, als inleiding op waardering die in niveau 2 dieper aan bod komt."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-026: "Blue-Chip"-Aandelen
+# Wat is de koers-winstverhouding (K/W)? (Inleidende versie – volledige methode in niveau 2)
 
 ## Leerdoelen
-1. Een "blue-chip"-aandeel definiëren.
-2. De algemene kenmerken van blue-chip-bedrijven identificeren.
-3. Erkennen dat "blue-chip" geen bescherming tegen verlies garandeert.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de basisformule van de koers-winstverhouding te noemen.
+- een eenvoudige koers-winstverhouding te berekenen op basis van de aandelenkoers en de EPS.
+- op inleidend niveau uit te leggen wat de verhouding inschat.
 
 ## Kerninhoud
-"Blue-chip"-aandelen verwijzen doorgaans naar grote, gevestigde, en financieel stabiele bedrijven met een lange geschiedenis van betrouwbare prestaties. *AANNAME:* Hoewel vaak gezien als relatief minder risicovol vergeleken met kleinere of nieuwere bedrijven, is "blue-chip" een algemene reputatiecategorie, geen formele financiële classificatie met een precieze juridische definitie — en blue-chip-aandelen kunnen nog steeds aanzienlijk in waarde dalen.
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger die een "kern"-positie in zijn portefeuille opbouwt, neemt verschillende grote, langdurig bestaande bedrijven op met decennia aan consistente operationele geschiedenis — doorgaans omschreven als blue-chip-posities. Dit betekent niet dat deze aandelen geen waarde kunnen verliezen; zelfs gevestigde bedrijven kunnen aanzienlijk dalen tijdens algemene marktdalingen of bedrijfsspecifieke problemen.
+### De basisformule
 
-## Praktische Toets
-1. Wat beschrijft "blue-chip" doorgaans?
-2. Waar/Onwaar: "Blue-chip" is een precieze en formeel gedefinieerde financiële categorie.
-3. Kunnen blue-chip-aandelen waarde verliezen?
-4. Welke perceptie hebben blue-chip-aandelen vaak, volgens de les?
+Koers-winstverhouding (K/W, in het Engels "P/E ratio") = aandelenkoers ÷ winst per aandeel (EPS), rechtstreeks voortbouwend op het EPS-begrip uit de vorige les.
+
+### Wat het inschat
+
+De koers-winstverhouding beantwoordt grofweg de vraag: hoeveel betalen beleggers vandaag voor elke dollar van de huidige winst van een bedrijf? Een hoger getal betekent dat beleggers meer betalen per dollar huidige winst.
+
+### Een vooruitblik, niet het hele plaatje
+
+*AANNAME (voor onderwijsdoeleinden):* Deze inleidende les behandelt alleen de basisformule. Een volledige behandeling – inclusief hoe je tussen sectoren vergelijkt en hoe de inkoop van eigen aandelen de verhouding kan vertekenen – komt in niveau 2 aan bod.
+
+## Praktijkvoorbeeld
+
+Een aandeel noteert op $ 60 per aandeel met een EPS van $ 3,00. K/W = $ 60 ÷ $ 3,00 = 20: beleggers betalen $ 20 voor elke $ 1 van de huidige winst van dat bedrijf.
+
+## Oefenquiz
+
+1. De formule van de koers-winstverhouding is:
+   A. EPS ÷ aandelenkoers
+   B. Aandelenkoers ÷ EPS
+   C. Nettowinst ÷ aandelenkoers
+   D. Uitstaande aandelen ÷ EPS
+
+2. Waar of onwaar: een hogere koers-winstverhouding betekent dat beleggers minder betalen per dollar huidige winst.
+
+3. Een aandeel noteert op $ 80 met een EPS van $ 4,00. Wat is de koers-winstverhouding?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
 
 ## Antwoordsleutel
-1. Grote, gevestigde, en financieel stabiele bedrijven   2. Onwaar   3. Ja   4. Waargenomen relatieve stabiliteit vergeleken met kleinere/nieuwere bedrijven
 
-## Antwoorden en Toelichtingen
-1. Dit is de algemene beschrijving van blue-chip-bedrijven.
-2. Het is een veelgebruikte, maar informele reputatieterm, geen strikte classificatie.
-3. Geen enkele aandelencategorie is immuun voor een potentieel verlies.
-4. Deze perceptie bestaat, maar vormt geen garantie tegen een daling.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- "Blue-chip" beschrijft grote, gevestigde, en historisch stabiele bedrijven.
-- Dit is een veelgebruikte informele term, geen precieze financiële classificatie.
-- De blue-chip-status garandeert geen bescherming tegen verlies.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. K/W = aandelenkoers ÷ EPS.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een hogere K/W betekent meer betalen per dollar winst.
+
+### Vraag 3
+
+Juist antwoord: B. $ 80 ÷ $ 4,00 = 20.
+
+## Belangrijkste punten
+
+- Koers-winstverhouding = aandelenkoers ÷ EPS.
+- Ze schat in hoeveel beleggers betalen per dollar huidige winst.
+- Dit is een inleidende versie: niveau 2 behandelt diepere toepassing en beperkingen.

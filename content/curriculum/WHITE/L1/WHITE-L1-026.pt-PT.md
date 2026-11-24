@@ -5,44 +5,58 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 26
 locale: pt-PT
-title: "O que é o índice P/L? (Versão introdutória — método completo no Level 2)"
-summary: "Aprenda a fórmula básica do índice preço/lucro e o que ele estima, como introdução à avaliação aprofundada no Level 2."
-sourceVersion: "1.0"
+title: "O que é o rácio preço/lucro (PER)? (Versão introdutória – método completo no Nível 2)"
+summary: "Aprenda a fórmula básica do rácio preço/lucro e o que ele estima, como introdução à avaliação tratada com mais profundidade no Nível 2."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é o índice P/L? (Versão introdutória — método completo no Level 2)
+# O que é o rácio preço/lucro (PER)? (Versão introdutória – método completo no Nível 2)
 
 ## Objetivos de aprendizagem
 
-No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, deverá ser capaz de:
+
+- enunciar a fórmula básica do rácio preço/lucro.
+- calcular um rácio preço/lucro básico a partir do preço da ação e do EPS.
+- explicar, a nível introdutório, o que o rácio estima.
 
 ## Conteúdo principal
 
-### Conceito principal
+### A fórmula básica
 
-Índice P/L = Preço da ação ÷ Lucro por ação (EPS), construindo diretamente sobre o conceito de EPS da lição anterior.
+Rácio preço/lucro (PER; em inglês, "P/E ratio") = preço da ação ÷ resultado por ação (EPS), construído diretamente sobre o conceito de EPS da lição anterior.
 
-### Como funciona
+### O que ele estima
 
-O P/L responde aproximadamente quanto os investidores estão a pagar hoje por cada unidade monetária do lucro atual da empresa. Um número maior significa preço maior por unidade de lucro atual.
+O rácio preço/lucro responde, de forma aproximada: quanto estão os investidores a pagar hoje por cada dólar do lucro atual de uma empresa? Um número mais elevado significa que os investidores estão a pagar mais por dólar de lucro atual.
 
-### Por que isso importa
+### Uma antevisão, não o quadro completo
 
-*PREMISSA (para fins didáticos):* esta introdução cobre apenas a fórmula básica. Comparações entre setores e efeitos de recompras de ações serão tratados em maior profundidade no Level 2.
+*PRESSUPOSTO (para fins didáticos):* Esta lição introdutória trata apenas da fórmula básica. Um tratamento completo – incluindo como comparar entre setores e como a recompra de ações próprias pode distorcer o rácio – surge no Nível 2.
 
-## Exemplo resolvido
+## Exemplo prático
 
-Uma ação é negociada a USD 60 com EPS de USD 3. P/L = 60 ÷ 3 = 20: os investidores pagam USD 20 por cada USD 1 de lucro atual.
+Uma ação é negociada a 60 $ com um EPS de 3,00 $. PER = 60 $ ÷ 3,00 $ = 20: os investidores estão a pagar 20 $ por cada 1 $ do lucro atual dessa empresa.
 
-## Quiz prático
+## Teste de prática
 
-1. P/L = A. EPS ÷ preço B. preço ÷ EPS C. lucro líquido ÷ preço D. ações ÷ EPS
-2. Verdadeiro ou falso: P/L maior significa pagar menos por unidade de lucro.
-3. Ação a USD 80, EPS USD 4: A. 4 B. 20 C. 80 D. 320
+1. A fórmula do rácio preço/lucro é:
+   A. EPS ÷ preço da ação
+   B. Preço da ação ÷ EPS
+   C. Resultado líquido ÷ preço da ação
+   D. Ações em circulação ÷ EPS
 
-## Gabarito
+2. Verdadeiro ou falso: um rácio preço/lucro mais elevado significa que os investidores estão a pagar menos por dólar de lucro atual.
+
+3. Uma ação é negociada a 80 $ com um EPS de 4,00 $. Qual é o seu rácio preço/lucro?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Chave de Respostas
 
 1. B
 2. Falso
@@ -50,10 +64,20 @@ Uma ação é negociada a USD 60 com EPS de USD 3. P/L = 60 ÷ 3 = 20: os invest
 
 ## Respostas e explicações
 
-As respostas corretas decorrem das definições, dos mecanismos e do exemplo resolvido apresentados nesta lição.
+### Pergunta 1
 
-## Principais conclusões
+Resposta correta: B. PER = preço da ação ÷ EPS.
 
-- Compreenda a definição exata e a estrutura do conceito.
-- Reconheça seu funcionamento prático, seus benefícios e suas limitações.
-- Use esse conhecimento para tomar decisões financeiras de forma consciente.
+### Pergunta 2
+
+Resposta correta: Falso. Um PER mais elevado significa pagar mais por dólar de lucro.
+
+### Pergunta 3
+
+Resposta correta: B. 80 $ ÷ 4,00 $ = 20.
+
+## Pontos-chave
+
+- Rácio preço/lucro = preço da ação ÷ EPS.
+- Estima quanto os investidores estão a pagar por dólar de lucro atual.
+- Esta é uma versão introdutória: o Nível 2 trata da aplicação mais aprofundada e das limitações.

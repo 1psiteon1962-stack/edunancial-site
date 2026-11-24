@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 27
 locale: nl
-title: "WHITE-L1-027"
-summary: "WHITE-L1-027"
-sourceVersion: "1.0"
+title: "Wat is het (direct) rendement?"
+summary: "Leer wat het direct rendement meet bij verschillende papieren bezittingen, en hoe het verschilt van koersstijging."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-027: Centaandelen en Hun Risico's
+# Wat is het (direct) rendement?
 
 ## Leerdoelen
-1. Een centaandeel definiëren.
-2. Identificeren waarom centaandelen een hoog risico met zich meebrengen.
-3. De gangbare waarschuwingssignalen herkennen die verband houden met centaandeelfraude.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- het direct rendement in eenvoudige woorden te definiëren.
+- een eenvoudig rendement te berekenen op basis van inkomsten en prijs.
+- rendement te onderscheiden van koersstijging.
 
 ## Kerninhoud
-*SCHATTING:* Centaandelen (penny stocks) worden doorgaans gedefinieerd (hoewel niet volledig uniform) als aandelen die onder $5 worden verhandeld, vaak van kleine, weinig verhandelde bedrijven met beperkte beschikbare publieke informatie.
 
-*GEVERIFIEERD FEIT:* Centaandelen brengen doorgaans een hoog risico met zich mee vanwege lage liquiditeit (moeilijker kopen/verkopen zonder de koers te beïnvloeden), beperkte publieke informatie, en een grotere gevoeligheid voor manipulatietechnieken zoals "pump and dump", waarbij promotors een koers kunstmatig opblazen voordat zij hun eigen aandelen verkopen aan onoplettende kopers.
+### Wat rendement betekent
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een centaandeel wordt sterk gepromoot op sociale media met beweringen over gegarandeerde enorme rendementen. De koers stijgt snel terwijl nieuwe kopers zich haasten om te kopen. Kort daarna verkopen de oorspronkelijke promotors hun aandelen, waardoor de koers instort — het klassieke patroon van een pump-and-dumpregeling, waarbij late kopers achterblijven met aanzienlijke verliezen.
+Het direct rendement (in het Engels "yield") meet doorgaans de inkomsten die een belegging oplevert (zoals dividend van een aandeel of rente van een obligatie), uitgedrukt als percentage van de prijs.
 
-## Praktische Toets
-1. Welke prijsdrempel wordt vaak genoemd voor een centaandeel?
-2. Noem twee redenen waarom centaandelen een hoog risico met zich meebrengen.
-3. Wat is een "pump-and-dump"-regeling?
-4. Waar/Onwaar: Centaandelen hebben altijd overvloedige publieke informatie beschikbaar.
+### De basisformule
+
+Rendement = jaarlijkse inkomsten ÷ huidige prijs. Bij een aandeel betekent "inkomsten" doorgaans dividend; bij een obligatie doorgaans rentebetalingen.
+
+### Rendement en koersstijging
+
+Rendement meet specifiek inkomsten, geen koerswinst. Een aandeel kan via dividend een hoog rendement hebben terwijl de koers gelijk blijft, of een laag rendement terwijl de koers flink stijgt: dat zijn twee aparte bronnen van mogelijk rendement, niet hetzelfde.
+
+## Praktijkvoorbeeld
+
+Een aandeel noteert op $ 50 en keert jaarlijks $ 2 dividend uit. Rendement = $ 2 ÷ $ 50 = 4%. Dit staat los van, en omvat geen, verandering in de koers van het aandeel zelf.
+
+## Oefenquiz
+
+1. Rendement wordt berekend als:
+   A. Koersstijging ÷ aanhoudperiode
+   B. Jaarlijkse inkomsten ÷ huidige prijs
+   C. Totaal aantal aandelen ÷ nettowinst
+   D. Aandelenkoers ÷ EPS
+
+2. Waar of onwaar: rendement meet koersstijging, geen inkomsten.
+
+3. Een obligatie betaalt jaarlijks $ 40 en kost $ 1.000. Wat is het rendement?
+   A. 0,4%
+   B. 4%
+   C. 40%
+   D. 400%
 
 ## Antwoordsleutel
-1. Onder $5   2. Lage liquiditeit, beperkte publieke informatie (onder andere)   3. Een regeling waarbij promotors een koers opblazen en vervolgens verkopen voordat deze instort   4. Onwaar
 
-## Antwoorden en Toelichtingen
-1. Dit is een vaak genoemde, hoewel niet perfect gestandaardiseerde, drempel.
-2. Dit zijn enkele van de belangrijkste risicofactoren van centaandelen.
-3. Dit is het klassieke manipulatiepatroon dat met centaandelen wordt geassocieerd.
-4. Centaandelen hebben vaak beperkte publieke informatie, in tegenstelling tot grotere, goed gevolgde bedrijven.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Centaandelen worden doorgaans gedefinieerd als goedkope aandelen van kleine, weinig verhandelde bedrijven.
-- Zij brengen een hoog risico met zich mee vanwege lage liquiditeit, beperkte informatie, en manipulatiepotentieel.
-- Pump-and-dumpregelingen zijn een erkend risicopatroon specifiek voor deze categorie.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Rendement = jaarlijkse inkomsten ÷ huidige prijs.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Rendement meet inkomsten, geen koersstijging.
+
+### Vraag 3
+
+Juist antwoord: B. $ 40 ÷ $ 1.000 = 4%.
+
+## Belangrijkste punten
+
+- Rendement = jaarlijkse inkomsten ÷ huidige prijs.
+- Het meet inkomsten (dividend of rente), geen koersstijging.
+- Inkomsten en koersstijging zijn twee aparte bronnen van mogelijk rendement.

@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 38
 locale: it
-title: "L'Inflazione e il Suo Effetto sugli Investimenti"
-summary: "Lezione WHITE-L1-038 in italiano."
-sourceVersion: "1.0"
+title: "Che cos'è l'insider trading, e perché è illegale?"
+summary: "Scopri che cosa significa insider trading e il ragionamento di base dietro il suo divieto."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-038: L'Inflazione e il Suo Effetto sugli Investimenti
+# Che cos'è l'insider trading, e perché è illegale?
 
-## Obiettivi di Apprendimento
-1. Definire l'inflazione in termini generali.
-2. Spiegare perché l'inflazione erode il potere d'acquisto.
-3. Identificare perché "battere l'inflazione" è importante per l'investimento a lungo termine.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-L'inflazione è l'aumento generale dei prezzi nel tempo, che riduce il potere d'acquisto di una determinata somma di denaro. *FATTO VERIFICATO:* Se il rendimento di un investimento non supera il tasso di inflazione, il potere d'acquisto reale (corretto per l'inflazione) dell'investitore può diminuire anche se il saldo del suo conto sta crescendo nominalmente.
+Al termine di questa lezione dovresti essere in grado di:
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un investimento rende il 3% quell'anno mentre l'inflazione corre al 4%. Il saldo del conto cresce nominalmente, ma il suo potere d'acquisto reale in realtà diminuisce di circa l'1%, poiché i prezzi sono saliti più velocemente di quanto l'investimento abbia guadagnato valore. Questo illustra perché "battere l'inflazione" — non solo ottenere un rendimento positivo — è importante per far crescere davvero la ricchezza nel tempo.
+- definire l'insider trading in termini semplici.
+- spiegare il ragionamento di base dietro il suo divieto.
+- riconoscere che si tratta di un vero limite legale, non solo di una linea guida etica.
 
-## Quiz Pratico
-1. Cos'è l'inflazione?
-2. Cosa succede al potere d'acquisto se l'inflazione supera i rendimenti degli investimenti?
-3. Vero/Falso: Un saldo del conto che cresce nominalmente significa sempre un potere d'acquisto reale crescente.
-4. Se un investimento rende il 5% e l'inflazione è del 3%, qual è il rendimento reale approssimativo?
+## Contenuto principale
 
-## Chiave di Risposte
-1. L'aumento generale dei prezzi nel tempo   2. Il potere d'acquisto diminuisce nonostante la crescita nominale del conto   3. Falso   4. Circa il 2%
+### Che cos'è l'insider trading
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale dell'inflazione.
-2. Questo illustra la distinzione tra reale e nominale centrale in questa lezione.
-3. La crescita nominale può mascherare la diminuzione del potere d'acquisto reale se l'inflazione la supera.
-4. 5% − 3% = circa il 2% di rendimento reale (un'approssimazione semplificata).
+*(REGOLA SPECIFICA PER PAESE: questa lezione descrive il concetto generale; le leggi specifiche variano da paese a paese. Nell'Unione europea, Italia compresa, la materia è disciplinata principalmente dal Regolamento sugli abusi di mercato (MAR), e in Italia vigila la CONSOB; per casi concreti rivolgiti a un legale.)* L'insider trading (abuso di informazioni privilegiate) indica in genere l'acquisto o la vendita di un'azione sulla base di informazioni rilevanti e non pubbliche: informazioni non ancora disponibili al grande pubblico che potrebbero ragionevolmente influire sul prezzo dell'azione.
 
-## Punti Chiave da Ricordare
-- L'inflazione è l'aumento generale dei prezzi, che erode il potere d'acquisto nel tempo.
-- I rendimenti nominali devono superare l'inflazione affinché il potere d'acquisto reale cresca davvero.
-- "Battere l'inflazione" è un riferimento chiave per l'investimento a lungo termine, non solo ottenere un rendimento positivo qualsiasi.
+### Il ragionamento di base dietro il divieto
+
+In genere i mercati dovrebbero funzionare a parità di informazioni. Chi negozia sulla base di informazioni non pubbliche ha un vantaggio sleale rispetto agli altri investitori che non hanno accesso alle stesse informazioni, e mina la fiducia di tutti gli altri in una formazione equa dei prezzi di mercato.
+
+### Un vero limite legale
+
+Non è considerato soltanto non etico: in molti paesi, comprese le tutele previste dalla normativa statunitense sui valori mobiliari, è una vera violazione di legge perseguibile, non una semplice questione di giudizio personale.
+
+## Esempio svolto
+
+Un dipendente che viene a sapere, prima che sia annunciato pubblicamente, che la sua azienda sta per comunicare utili deludenti, e che vende le proprie azioni sulla base di questa informazione non pubblica prima dell'annuncio, starebbe commettendo insider trading.
+
+## Quiz di esercitazione
+
+1. L'insider trading indica in genere:
+   A. Negoziare azioni sulla base di informazioni pubblicamente disponibili
+   B. Negoziare azioni sulla base di informazioni rilevanti e non pubbliche
+   C. Un tipo di pagamento di dividendi
+   D. Un modulo di informativa obbligatorio
+
+2. Vero o falso: l'insider trading è solo una linea guida etica, non una vera violazione di legge.
+
+3. Perché l'insider trading è in genere vietato?
+   A. Non ha una vera giustificazione
+   B. Crea un vantaggio sleale rispetto agli investitori senza accesso alle stesse informazioni
+   C. È illegale solo per i dirigenti d'azienda
+   D. Riguarda solo le obbligazioni
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'insider trading consiste nel negoziare sulla base di informazioni rilevanti e non pubbliche.
+
+### Domanda 2
+
+Risposta corretta: Falso. In molti ordinamenti è una vera violazione di legge perseguibile, non solo una questione etica.
+
+### Domanda 3
+
+Risposta corretta: B. Mina un accesso equo e paritario alle informazioni che muovono il mercato.
+
+## Punti chiave
+
+- Insider trading significa negoziare sulla base di informazioni rilevanti e non pubbliche.
+- È vietato perché crea un vantaggio informativo sleale.
+- È una vera violazione di legge, non solo una linea guida etica.

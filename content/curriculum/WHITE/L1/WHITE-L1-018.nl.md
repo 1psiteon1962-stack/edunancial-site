@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 18
 locale: nl
-title: "WHITE-L1-018"
-summary: "WHITE-L1-018"
-sourceVersion: "1.0"
+title: "Wat is een 401(k)?"
+summary: "Leer wat een 401(k) is, hoe die doorgaans werkt en welk veelvoorkomend werkgeversvoordeel eraan verbonden is."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-018: Kostenratio's Begrijpen
+# Wat is een 401(k)?
 
 ## Leerdoelen
-1. Een kostenratio definiëren.
-2. De kosten in dollars van de kostenratio van een fonds berekenen.
-3. Uitleggen waarom kleine verschillen in kostenratio's op lange termijn belangrijk zijn.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een 401(k) in eenvoudige woorden te definiëren.
+- uit te leggen hoe inleg doorgaans werkt.
+- uit te leggen wat een werkgeversbijdrage (match) is.
 
 ## Kerninhoud
-Een kostenratio is de jaarlijkse vergoeding die een fonds in rekening brengt, uitgedrukt als percentage van de belegde activa, ter dekking van de beheer- en operationele kosten. *GEVERIFIEERD FEIT:* Deze vergoeding wordt automatisch afgetrokken van het rendement van het fonds — beleggers betalen deze niet als een aparte factuur, maar deze verlaagt wel de algehele prestatie.
 
-*AANNAME:* Omdat kostenratio's zich na verloop van tijd opstapelen over lange bezitsperiodes, kunnen zelfs kleine verschillen (zoals 0,05% versus 0,5%) het rendement op lange termijn aanzienlijk beïnvloeden — het exacte effect hangt af van het groeitempo van de belegging en de bezitsperiode.
+### Wat een 401(k) is
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Een belegger houdt $50.000 aan in een fonds met een kostenratio van 0,5%, wat ongeveer $250 per jaar kost. Een vergelijkbaar fonds met een kostenratio van 0,05% zou ongeveer $25 per jaar kosten — een jaarlijks verschil van $225 dat, samengesteld over decennia, kan oplopen tot een substantieel bedrag, ook al lijkt het jaarlijkse verschil in dollars op het eerste gezicht klein.
+*(REGIOSPECIFIEKE REGEL: dit is een type pensioenrekening dat specifiek is voor de Verenigde Staten. In Nederland verloopt aanvullend pensioen vaak via een pensioenregeling van de werkgever bij een pensioenfonds of verzekeraar, met eigen regels; controleer dit met een adviseur.)* Een 401(k) is een pensioenspaarrekening die door de werkgever wordt aangeboden, waarmee werknemers een deel van hun salaris kunnen inleggen, vaak met belastingvoordelen, voor hun pensioenvermogen op lange termijn.
 
-## Praktische Toets
-1. Wat is een kostenratio?
-2. Hoe wordt de vergoeding van de kostenratio doorgaans betaald?
-3. Bij $50.000 belegd, hoeveel kost een kostenratio van 0,5% per jaar?
-4. Waar/Onwaar: Kleine verschillen in de kostenratio hebben op lange termijn geen aanzienlijk effect.
+### Hoe inleg doorgaans werkt
+
+Werknemers kiezen doorgaans een percentage of bedrag van hun salaris dat automatisch wordt ingelegd en vervolgens wordt belegd in de opties die de regeling van de werkgever biedt (vaak een keuzemenu van fondsen, waaronder opties zoals de ETF's en beleggingsfondsen die eerder in dit niveau aan bod kwamen).
+
+### Wat een werkgeversbijdrage is
+
+Veel werkgevers bieden een "match": ze leggen extra geld in op basis van wat de werknemer inlegt, tot een bepaalde grens. Dit is in feite extra beloning die specifiek verbonden is aan deelname aan de regeling, en een beschikbare bijdrage niet volledig benutten wordt vaak genoemd als een gemiste kans.
+
+## Praktijkvoorbeeld
+
+Een werkgever biedt aan 50% van de inleg van de werknemer bij te leggen, tot 6% van het salaris. Een werknemer die $ 50.000 verdient en 6% ($ 3.000) inlegt, krijgt $ 1.500 extra van de werkgever: geld dat hij zonder inleg niet zou ontvangen.
+
+## Oefenquiz
+
+1. Een 401(k) is:
+   A. Een soort betaalrekening
+   B. Een pensioenspaarrekening die door de werkgever wordt aangeboden
+   C. Een overheidspensioen dat automatisch wordt uitgekeerd
+   D. Een soort obligatie
+
+2. Waar of onwaar: alle werkgevers zijn verplicht een werkgeversbijdrage aan te bieden.
+
+3. Wat is een werkgeversbijdrage (match)?
+   A. Een belastingboete
+   B. Extra inleg van de werkgever op basis van wat de werknemer inlegt
+   C. Een soort lening
+   D. Een vaste overheidsbetaling
 
 ## Antwoordsleutel
-1. De jaarlijkse vergoeding die een fonds in rekening brengt als percentage van de activa   2. Automatisch afgetrokken van het rendement van het fonds   3. $250   4. Onwaar
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van de kostenratio van een fonds.
-2. Beleggers ontvangen geen aparte factuur — de vergoeding verlaagt het rendement rechtstreeks.
-3. $50.000 × 0,005 = $250.
-4. Samengesteld over lange periodes kunnen zelfs kleine verschillen in vergoedingen de resultaten aanzienlijk beïnvloeden.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Kostenratio's zijn jaarlijkse fondsvergoedingen, uitgedrukt als percentage van de activa.
-- Deze worden automatisch afgetrokken, waardoor het algehele rendement daalt.
-- Zelfs kleine verschillen in de kostenratio kunnen zich opstapelen tot een aanzienlijk effect op lange termijn.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een 401(k) is een pensioenrekening die door de werkgever wordt aangeboden.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een werkgeversbijdrage is gebruikelijk, maar niet overal verplicht of beschikbaar.
+
+### Vraag 3
+
+Juist antwoord: B. Een match is extra geld van de werkgever dat gekoppeld is aan de inleg van de werknemer.
+
+## Belangrijkste punten
+
+- Een 401(k) is een pensioenspaarrekening die door de werkgever wordt aangeboden.
+- Inleg gebeurt doorgaans automatisch, via inhouding op het salaris.
+- Een werkgeversbijdrage is, als die wordt aangeboden, in feite extra beloning voor deelname.

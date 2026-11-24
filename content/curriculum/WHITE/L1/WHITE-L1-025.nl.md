@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 25
 locale: nl
-title: "WHITE-L1-025"
-summary: "WHITE-L1-025"
-sourceVersion: "1.0"
+title: "Wat is de winst per aandeel (EPS)?"
+summary: "Leer wat de winst per aandeel (EPS) meet en hoe die wordt berekend, als basis voor latere lessen over waardering."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-025: Groeiaandelen vs. Waarde-Aandelen
+# Wat is de winst per aandeel (EPS)?
 
 ## Leerdoelen
-1. Groeiaandelen onderscheiden van waarde-aandelen.
-2. De algemene kenmerken van elke categorie identificeren.
-3. Erkennen dat geen enkele categorie universeel superieur is.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de formule voor EPS te noemen.
+- een eenvoudige EPS te berekenen op basis van nettowinst en uitstaande aandelen.
+- uit te leggen wat EPS in eenvoudige woorden vertegenwoordigt.
 
 ## Kerninhoud
-**Groeiaandelen** zijn bedrijven waarvan wordt verwacht dat de winst sneller groeit dan gemiddeld, waarbij vaak winsten worden geherinvesteerd in plaats van dividend uit te keren, en die vaak worden verhandeld tegen hogere waarderingen ten opzichte van de huidige winst. **Waarde-aandelen** zijn bedrijven die worden gezien als onder hun intrinsieke waarde verhandeld, vaak beter gevestigd, soms met dividenduitkering, met lagere waarderingen ten opzichte van de winst.
 
-*AANNAME:* Geen enkele categorie presteert consequent beter dan de andere over alle periodes — het marktleiderschap heeft historisch afgewisseld tussen groei en waarde op verschillende momenten, en voorspellen welke in de toekomst zal leiden is niet betrouwbaar.
+### De EPS-formule
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* Twee beleggers bouwen verschillende portefeuilles op. De een geeft de voorkeur aan groeiaandelen — jongere, snel groeiende bedrijven die zwaar herinvesteren, zonder huidig dividend. De ander geeft de voorkeur aan waarde-aandelen — gevestigde, stabiele bedrijven die gestaag dividend uitkeren, maar met tragere groei. Beide zijn geldige beleggingsfilosofieën; welke beter presteert in een bepaalde periode is niet betrouwbaar vooraf te voorspellen.
+Winst per aandeel (EPS, earnings per share) = nettowinst ÷ uitstaande aandelen. Het verdeelt de totale winst van een bedrijf over elk afzonderlijk aandeel.
 
-## Praktische Toets
-1. Wat kenmerkt groeiaandelen doorgaans?
-2. Wat kenmerkt waarde-aandelen doorgaans?
-3. Waar/Onwaar: Groeiaandelen presteren altijd beter dan waarde-aandelen.
-4. Wat is er historisch gebeurd met het leiderschap van groei en waarde in de loop van de tijd?
+### Wat EPS vertegenwoordigt
+
+EPS vertegenwoordigt hoeveel winst aan elk afzonderlijk aandeel kan worden toegerekend: een manier om de totale winst van een bedrijf per aandeel uit te drukken, wat vergelijken tussen bedrijven van verschillende grootte makkelijker maakt.
+
+### Waarom dit later belangrijk is
+
+EPS is de basis voor verschillende waarderingsbegrippen die in niveau 2 uitgebreider aan bod komen: nu begrijpen wat het meet, legt de basis voor die latere stof.
+
+## Praktijkvoorbeeld
+
+Een bedrijf met $ 5.000.000 nettowinst en 1.000.000 uitstaande aandelen heeft een EPS van $ 5.000.000 ÷ 1.000.000 = $ 5,00 per aandeel.
+
+## Oefenquiz
+
+1. EPS wordt berekend als:
+   A. Aandelenkoers ÷ nettowinst
+   B. Nettowinst ÷ uitstaande aandelen
+   C. Totale omzet ÷ totale kosten
+   D. Uitstaande aandelen ÷ nettowinst
+
+2. Waar of onwaar: EPS vertegenwoordigt de totale winst van een bedrijf, geen bedrag per aandeel.
+
+3. Een bedrijf heeft $ 2.000.000 nettowinst en 500.000 uitstaande aandelen. Wat is de EPS?
+   A. $ 0,25
+   B. $ 2,50
+   C. $ 4,00
+   D. $ 250
 
 ## Antwoordsleutel
-1. Verwachte snellere winstgroei, waarbij vaak winsten worden geherinvesteerd   2. Waargenomen onderwaardering, vaak beter gevestigd, soms met dividenduitkering   3. Onwaar   4. Het leiderschap heeft historisch afgewisseld tussen de twee categorieën
 
-## Antwoorden en Toelichtingen
-1. Dit is het algemene profiel van groeiaandelen.
-2. Dit is het algemene profiel van waarde-aandelen.
-3. Geen enkele categorie presteert consequent beter dan de andere over alle periodes.
-4. Het historisch afwisselen van leiderschapsstijlen is een vaak waargenomen marktpatroon.
+1. B
+2. Onwaar
+3. C
 
-## Belangrijkste Punten om te Onthouden
-- Groeiaandelen benadrukken expansie en herinvestering; waarde-aandelen benadrukken waargenomen onderwaardering.
-- Geen enkele categorie is universeel superieur over alle periodes.
-- Het marktleiderschap heeft historisch afgewisseld tussen groei- en waardestijlen.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. EPS = nettowinst ÷ uitstaande aandelen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. EPS drukt de winst specifiek per aandeel uit.
+
+### Vraag 3
+
+Juist antwoord: C. $ 2.000.000 ÷ 500.000 = $ 4,00.
+
+## Belangrijkste punten
+
+- EPS = nettowinst ÷ uitstaande aandelen.
+- Het drukt de winst van een bedrijf per aandeel uit.
+- Het is de basis voor waarderingsbegrippen die later uitgebreider aan bod komen.

@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 20
 locale: nl
-title: "WHITE-L1-020"
-summary: "WHITE-L1-020"
-sourceVersion: "1.0"
+title: "Traditional of Roth: wat is er werkelijk anders aan de fiscale behandeling?"
+summary: "Leer het kernverschil in fiscale timing tussen traditionele en Roth-pensioenrekeningen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-020: Wat Is Een IRA?
+# Traditional of Roth: wat is er werkelijk anders aan de fiscale behandeling?
 
 ## Leerdoelen
-1. Een IRA (individuele pensioenrekening) definiëren.
-2. Een IRA onderscheiden van een 401(k).
-3. Erkennen dat dit een specifiek Amerikaans rekeningtype is.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- het kernverschil in fiscale timing tussen traditionele en Roth-rekeningen uit te leggen.
+- uit te leggen wanneer een traditionele rekening wordt belast.
+- uit te leggen wanneer een Roth-rekening wordt belast.
 
 ## Kerninhoud
-*REGIOSPECIFIEKE REGEL:* Een IRA is een fiscaal voordelige pensioenrekening in de VS; deze les beschrijft specifiek het Amerikaanse concept.
 
-*GEVERIFIEERD FEIT:* In tegenstelling tot een 401(k), die door de werkgever wordt gesponsord, wordt een IRA onafhankelijk geopend door een individu via een broker of financiële instelling, en biedt het pensioensparen met vergelijkbare fiscale voordelen, maar met andere bijdragelimieten en regels.
+### Het kernverschil in fiscale timing
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* De werkgever van Omar biedt geen 401(k) aan, dus opent hij rechtstreeks een IRA via een broker. Hij draagt elk jaar onafhankelijk bij, waarbij hij zelf zijn beleggingen binnen de rekening kiest — een weg die voor hem beschikbaar is, ongeacht welke pensioenvoordelen, indien aanwezig, zijn werkgever biedt.
+*(REGIOSPECIFIEKE REGEL: dit beschrijft een Amerikaans fiscaal begrip. In Nederland is lijfrente-inleg binnen grenzen aftrekbaar en wordt de latere uitkering belast, wat lijkt op het traditionele model; controleer de regels met een belastingadviseur.)* Zowel traditionele als Roth-rekeningen (beschikbaar als 401(k)- of IRA-variant) bieden belastingvoordelen: het echte verschil is WANNEER het belastingvoordeel geldt, niet of de ene in elke situatie beter is.
 
-## Praktische Toets
-1. Wat is een IRA?
-2. Waarin verschilt een IRA van een 401(k) wat betreft wie deze opent?
-3. Waar/Onwaar: Een IRA vereist sponsoring door de werkgever om te worden geopend.
-4. Wat is een belangrijke overeenkomst tussen IRA's en 401(k)'s?
+### Traditionele rekeningen
+
+Inleg op een traditionele rekening gebeurt vaak vóór belasting, en opnames tijdens het pensioen worden doorgaans op dat latere moment als inkomen belast.
+
+### Roth-rekeningen
+
+Inleg op een Roth-rekening gebeurt met geld waarover al belasting is betaald, maar gekwalificeerde opnames tijdens het pensioen zijn doorgaans belastingvrij: de belasting wordt vooraf betaald in plaats van later.
+
+## Praktijkvoorbeeld
+
+Een inleg op een traditionele rekening verlaagt nu het belastbaar inkomen, en er wordt later belasting betaald over de opnames. Een Roth-inleg geeft nu geen belastingvoordeel, maar gekwalificeerde opnames later zijn doorgaans belastingvrij: dezelfde dollar, op een ander moment belast.
+
+## Oefenquiz
+
+1. Het kernverschil tussen traditionele en Roth-rekeningen is:
+   A. Alleen traditionele rekeningen maken beleggen in aandelen mogelijk
+   B. Wanneer het belastingvoordeel geldt: nu of later
+   C. Roth-rekeningen zijn alleen voor werkgevers
+   D. Er is geen echt verschil
+
+2. Waar of onwaar: inleg op traditionele rekeningen gebeurt doorgaans met geld waarover al belasting is betaald.
+
+3. Wanneer worden gekwalificeerde opnames van een Roth-rekening doorgaans belast?
+   A. Bij de inleg
+   B. Doorgaans niet bij de opname, omdat de belasting vooraf is betaald
+   C. Twee keer: zowel bij inleg als bij opname
+   D. Er wordt nooit met echt geld ingelegd
 
 ## Antwoordsleutel
-1. Een fiscaal voordelige pensioenrekening die individueel wordt geopend   2. Een individu opent een IRA rechtstreeks; een 401(k) wordt door de werkgever gesponsord   3. Onwaar   4. Beide bieden pensioensparen met fiscale voordelen
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een IRA.
-2. Dit is het belangrijkste structurele onderscheid ten opzichte van een 401(k).
-3. IRA's kunnen onafhankelijk worden geopend, zonder dat een werkgeversregeling nodig is.
-4. Beide rekeningtypen delen het algemene doel van fiscaal voordelig pensioensparen.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Een IRA is een fiscaal voordelige pensioenrekening in de VS, individueel geopend.
-- In tegenstelling tot een 401(k) vereist deze geen sponsoring door de werkgever.
-- De bijdragelimieten en specifieke regels verschillen tussen IRA's en 401(k)'s.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. De timing van het belastingvoordeel is het kernverschil.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Traditionele inleg gebeurt vaak vóór belasting.
+
+### Vraag 3
+
+Juist antwoord: B. Bij Roth-rekeningen wordt de belasting vooraf betaald, dus gekwalificeerde opnames zijn later doorgaans belastingvrij.
+
+## Belangrijkste punten
+
+- Zowel traditionele als Roth-rekeningen bieden belastingvoordelen, op verschillende momenten.
+- Traditioneel: vaak nu fiscaal voordelig, later belast bij opname.
+- Roth: nu belast, later bij gekwalificeerde opname doorgaans belastingvrij.

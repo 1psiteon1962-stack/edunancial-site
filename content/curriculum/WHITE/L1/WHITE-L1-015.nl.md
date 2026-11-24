@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 15
 locale: nl
-title: "WHITE-L1-015"
-summary: "WHITE-L1-015"
-sourceVersion: "1.0"
+title: "Wat is volatiliteit?"
+summary: "Leer wat volatiliteit meet, en waarom het iets anders is dan het risico van blijvend verlies."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-015: Samengestelde Rente en Groei
+# Wat is volatiliteit?
 
 ## Leerdoelen
-1. Samengestelde groei/rente definiëren.
-2. Samengestelde rente onderscheiden van enkelvoudige rente.
-3. Uitleggen waarom tijd een cruciale factor is bij samengestelde rente.
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- volatiliteit in eenvoudige woorden te definiëren.
+- uit te leggen wat volatiliteit specifiek meet.
+- volatiliteit te onderscheiden van blijvend verlies.
 
 ## Kerninhoud
-Samengestelde groei betekent rendement behalen, niet alleen op de oorspronkelijke belegging, maar ook op het eerder opgebouwde rendement. *GEVERIFIEERD FEIT:* Dit verschilt van enkelvoudige rente, die alleen rendement berekent over de oorspronkelijke hoofdsom, nooit over eerdere winsten.
 
-*AANNAME:* Omdat samengestelde rente op zichzelf voortbouwt, heeft vroeger beginnen doorgaans een onevenredig groot effect op lange termijn vergeleken met later meer inleggen — hoewel de werkelijke resultaten afhangen van de veronderstelde rendementen, die nooit gegarandeerd zijn.
+### Wat volatiliteit betekent
 
-## Praktisch Voorbeeld
-*ILLUSTRATIEF VOORBEELD:* $10.000 belegd tegen een verondersteld gemiddeld jaarlijks rendement van 7% groeit tot ongeveer $19.700 na 10 jaar en ongeveer $38.700 na 20 jaar — niet het dubbele, maar bijna het viervoudige, omdat de groei van het tweede decennium wordt samengesteld op een veel grotere basis dan die van het eerste decennium. Dit illustreert waarom de groeicurve na verloop van tijd versnelt in plaats van lineair te blijven.
+Volatiliteit verwijst naar hoeveel en hoe snel de prijs van een bezitting in een bepaalde periode op en neer beweegt. Een zeer volatiele bezitting schommelt flink en vaak in prijs; een weinig volatiele bezitting beweegt geleidelijker.
 
-## Praktische Toets
-1. Wat is samengestelde groei?
-2. Waarin verschilt samengestelde rente van enkelvoudige rente?
-3. Waar/Onwaar: Later beginnen met beleggen heeft geen enkel nadeel vergeleken met vroeger beginnen, uitgaande van dezelfde totale inleg.
-4. Waarom versnelt de groeicurve van samengestelde rente na verloop van tijd?
+### Wat het specifiek meet
+
+Volatiliteit meet prijsbeweging, niet per se de richting of de uiteindelijke uitkomst. Een bezitting kan zeer volatiel zijn en op termijn toch hoger uitkomen: volatiliteit beschrijft hoe hobbelig de rit is, niet automatisch de bestemming.
+
+### Volatiliteit en blijvend verlies
+
+Een tijdelijke prijsdaling bij een volatiele bezitting is niet hetzelfde als een blijvend verlies: als de prijs later herstelt, ervaart een belegger die tijdens de dip niet verkocht volatiliteit zonder blijvend verlies. Een verlies wordt pas "vastgezet" als de bezitting tegen de lagere prijs wordt verkocht.
+
+## Praktijkvoorbeeld
+
+De koers van een aandeel schommelt een paar maanden tussen $ 80 en $ 120 en komt daarna rond $ 115 uit: onderweg zeer volatiel, maar een belegger die de schommelingen uitzat, kwam dicht bij winst uit, niet bij verlies.
+
+## Oefenquiz
+
+1. Volatiliteit meet:
+   A. Gegarandeerd verlies
+   B. Hoeveel en hoe snel een prijs op en neer beweegt
+   C. De totale winst van een bedrijf
+   D. Het aantal uitstaande aandelen
+
+2. Waar of onwaar: een tijdelijke prijsdaling is automatisch hetzelfde als een blijvend verlies.
+
+3. Wanneer wordt een papieren verlies door volatiliteit een vastgezet verlies?
+   A. Nooit
+   B. Als de bezitting tegen de lagere prijs wordt verkocht
+   C. Automatisch na één jaar
+   D. Zodra de prijs ook maar daalt
 
 ## Antwoordsleutel
-1. Rendement behalen zowel op de oorspronkelijke belegging als op eerder opgebouwde winsten   2. Enkelvoudige rente berekent alleen over de oorspronkelijke hoofdsom   3. Onwaar   4. Latere groei wordt samengesteld op een steeds grotere basis
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van samengestelde groei.
-2. Dit is het belangrijkste onderscheid ten opzichte van berekeningen met enkelvoudige rente.
-3. Tijd in de markt is aanzienlijk belangrijk vanwege samengestelde rente — vroeger beginnen helpt doorgaans.
-4. De groei van elke periode bouwt voort op een grotere opgebouwde basis dan de voorgaande periode.
+1. B
+2. Onwaar
+3. B
 
-## Belangrijkste Punten om te Onthouden
-- Samengestelde groei levert rendement op zowel de hoofdsom als eerdere winsten.
-- Dit verschilt van enkelvoudige rente, alleen berekend over de oorspronkelijke hoofdsom.
-- Tijd is een cruciale factor bij samengestelde rente — vroeger beginnen heeft doorgaans een onevenredig groot effect op lange termijn.
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Volatiliteit meet de mate van prijsbeweging.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een tijdelijke daling is geen blijvend verlies, tenzij de bezitting werkelijk tegen die lagere prijs wordt verkocht.
+
+### Vraag 3
+
+Juist antwoord: B. Verkopen tegen de lagere prijs is wat het verlies vastzet.
+
+## Belangrijkste punten
+
+- Volatiliteit meet hoeveel en hoe snel de prijs beweegt.
+- Het beschrijft prijsbeweging, niet automatisch een uiteindelijke uitkomst.
+- Een tijdelijke daling is geen blijvend verlies, tenzij je tegen die prijs verkoopt.

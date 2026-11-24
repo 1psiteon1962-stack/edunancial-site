@@ -5,44 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 49
 locale: it
-title: "Costruire un Piano di Investimento a Lungo Termine"
-summary: "*ASSUNZIONE:* I piani generalmente beneficiano di una revisione periodica, poiché le circostanze di vita, gli obiettivi, e gli orizzonti temporali possono cambiare — un piano costruito una volta e mai rivisto potrebbe non adattarsi più alla situazione attuale di un investitore."
-sourceVersion: "1.0"
+title: "Leggere un estratto conto titoli: che cosa stai guardando davvero?"
+summary: "Scopri come leggere le sezioni principali di un estratto conto titoli, collegando termini da tutto questo livello."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-049: Costruire un Piano di Investimento a Lungo Termine
+# Leggere un estratto conto titoli: che cosa stai guardando davvero?
 
-## Obiettivi di Apprendimento
-1. Identificare le componenti fondamentali di un piano di investimento di base.
-2. Spiegare perché gli obiettivi e l'orizzonte temporale devono precedere la selezione di investimenti specifici.
-3. Riconoscere che un piano dovrebbe essere rivisto periodicamente, non fissato permanentemente.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*ASSUNZIONE:* Un piano di investimento di base a lungo termine inizia comunemente definendo gli obiettivi (a cosa serve il denaro), l'orizzonte temporale (quando serve), e la tolleranza al rischio — prima di selezionare investimenti specifici, poiché questi fattori dovrebbero generalmente guidare le scelte di investimento, non il contrario.
+Al termine di questa lezione dovresti essere in grado di:
 
-*ASSUNZIONE:* I piani generalmente beneficiano di una revisione periodica, poiché le circostanze di vita, gli obiettivi, e gli orizzonti temporali possono cambiare — un piano costruito una volta e mai rivisto potrebbe non adattarsi più alla situazione attuale di un investitore.
+- individuare le sezioni principali di un tipico estratto conto titoli.
+- spiegare che cosa ti dice davvero ciascuna sezione.
+- collegare i termini dell'estratto conto ai concetti visti in precedenza in questo livello.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Invece di scegliere prima gli investimenti e scoprire uno scopo dopo, un'investitrice inizia identificando il proprio obiettivo (pensione tra 30 anni), l'orizzonte temporale (lungo, sostenendo una maggiore tolleranza al rischio), e il proprio comfort con la volatilità. Solo dopo aver stabilito questo seleziona un'allocazione di attivi e investimenti specifici che corrispondano a quel profilo — e pianifica di rivedere questo piano ogni pochi anni man mano che le sue circostanze evolvono.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa dovrebbe generalmente essere definito prima di selezionare investimenti specifici?
-2. Perché l'orizzonte temporale è importante per le decisioni del piano di investimento?
-3. Vero/Falso: Un buon piano di investimento non ha mai bisogno di essere rivisto dopo essere stato creato.
-4. Con quali componenti fondamentali inizia comunemente un piano di investimento di base?
+### Le sezioni principali di un estratto conto
 
-## Chiave di Risposte
-1. Obiettivi, orizzonte temporale, e tolleranza al rischio   2. Influenza la tolleranza al rischio appropriata e l'allocazione degli attivi   3. Falso   4. Obiettivi, orizzonte temporale, tolleranza al rischio
+Un tipico estratto conto titoli comprende in genere: le posizioni detenute (che cosa si possiede e in che quantità), lo storico dei movimenti (acquisti, vendite e dividendi recenti) e un riepilogo del rendimento, anche se l'impaginazione esatta varia da intermediario a intermediario.
 
-## Risposte e Spiegazioni
-1. Questi fattori fondamentali dovrebbero generalmente precedere la selezione di investimenti specifici.
-2. Orizzonti più lunghi generalmente sostengono approcci al rischio diversi rispetto a orizzonti più brevi.
-3. I piani generalmente beneficiano di una revisione periodica man mano che le circostanze cambiano.
-4. Questo è il punto di partenza comunemente citato per la pianificazione di investimento di base.
+### Che cosa ti dice ciascuna sezione
 
-## Punti Chiave da Ricordare
-- Definisci obiettivi, orizzonte temporale, e tolleranza al rischio prima di selezionare investimenti specifici.
-- Questi fattori dovrebbero generalmente guidare le scelte di investimento, non il contrario.
-- Rivedi e adatta il piano periodicamente man mano che le circostanze di vita cambiano.
+La sezione delle posizioni mostra le posizioni attuali e il loro valore di mercato. Lo storico dei movimenti mostra l'attività recente, compresi i pagamenti di dividendi (trattati in precedenza in questo livello). Il riepilogo del rendimento riporta spesso qualcosa come un rendimento ponderato per il tempo (trattato nella lezione precedente), non necessariamente l'esperienza personale ponderata per il denaro di un investitore.
+
+### Il collegamento con i concetti di questo livello
+
+Leggere bene un estratto conto significa riconoscere termini già visti: azioni possedute, valore di mercato, dividendi ricevuti e la distinzione tra il rendimento comunicato dal fondo e il rendimento personale effettivo di un individuo, che dipende dai tempi dei suoi versamenti.
+
+## Esempio svolto
+
+Un investitore che controlla il proprio estratto conto vede di possedere quote di un ETF, nota un dividendo recente nello storico dei movimenti e vede un rendimento da inizio anno: capisce che quel numero riflette probabilmente il rendimento ponderato per il tempo, non necessariamente il suo esatto rendimento personale, se ha versato denaro a metà anno.
+
+## Quiz di esercitazione
+
+1. La sezione delle posizioni di un estratto conto titoli mostra di solito:
+   A. Solo le commissioni dell'intermediario
+   B. Le posizioni attuali e il loro valore di mercato
+   C. Solo la dichiarazione dei redditi dell'investitore
+   D. Un elenco di aziende senza relazione con il conto
+
+2. Vero o falso: il riepilogo del rendimento in un estratto conto riflette sempre l'esatto rendimento personale ponderato per il denaro di un investitore.
+
+3. Che cosa comprende di solito lo storico dei movimenti?
+   A. Solo le operazioni future pianificate
+   B. Acquisti, vendite e pagamenti di dividendi recenti
+   C. Il bilancio completo di un'azienda
+   D. Le dichiarazioni fiscali statali
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Le posizioni mostrano gli investimenti attuali e il loro valore di mercato.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rendimento comunicato è spesso ponderato per il tempo, non necessariamente il rendimento personale ponderato per il denaro dell'investitore.
+
+### Domanda 3
+
+Risposta corretta: B. Lo storico dei movimenti copre l'attività recente del conto.
+
+## Punti chiave
+
+- Un estratto conto titoli comprende di solito posizioni, storico dei movimenti e un riepilogo del rendimento.
+- Il rendimento comunicato è spesso ponderato per il tempo, non automaticamente il rendimento personale di un investitore.
+- Leggere bene un estratto conto si basa su concetti visti in tutto questo livello.
