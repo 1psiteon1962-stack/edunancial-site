@@ -8,14 +8,14 @@ SUMMARY: Aprenda a fórmula básica do rácio preço/lucro e o que ele estima, c
 No final desta lição, deverá ser capaz de:
 
 - enunciar a fórmula básica do rácio preço/lucro.
-- calcular um rácio preço/lucro básico a partir do preço da ação e do LPA.
+- calcular um rácio preço/lucro básico a partir do preço da ação e do EPS.
 - explicar, a nível introdutório, o que o rácio estima.
 
 ## Conteúdo principal
 
 ### A fórmula básica
 
-Rácio preço/lucro (PER; em inglês, "P/E ratio") = preço da ação ÷ lucro por ação (LPA), construído diretamente sobre o conceito de LPA da lição anterior.
+Rácio preço/lucro (PER; em inglês, "P/E ratio") = preço da ação ÷ resultado por ação (EPS), construído diretamente sobre o conceito de EPS da lição anterior.
 
 ### O que ele estima
 
@@ -27,19 +27,19 @@ O rácio preço/lucro responde, de forma aproximada: quanto estão os investidor
 
 ## Exemplo prático
 
-Uma ação é negociada a 60 $ com um LPA de 3,00 $. PER = 60 $ ÷ 3,00 $ = 20: os investidores estão a pagar 20 $ por cada 1 $ do lucro atual dessa empresa.
+Uma ação é negociada a 60 $ com um EPS de 3,00 $. PER = 60 $ ÷ 3,00 $ = 20: os investidores estão a pagar 20 $ por cada 1 $ do lucro atual dessa empresa.
 
 ## Teste de prática
 
 1. A fórmula do rácio preço/lucro é:
-   A. LPA ÷ preço da ação
-   B. Preço da ação ÷ LPA
+   A. EPS ÷ preço da ação
+   B. Preço da ação ÷ EPS
    C. Resultado líquido ÷ preço da ação
-   D. Ações em circulação ÷ LPA
+   D. Ações em circulação ÷ EPS
 
 2. Verdadeiro ou falso: um rácio preço/lucro mais elevado significa que os investidores estão a pagar menos por dólar de lucro atual.
 
-3. Uma ação é negociada a 80 $ com um LPA de 4,00 $. Qual é o seu rácio preço/lucro?
+3. Uma ação é negociada a 80 $ com um EPS de 4,00 $. Qual é o seu rácio preço/lucro?
    A. 4
    B. 20
    C. 80
@@ -55,7 +55,7 @@ Uma ação é negociada a 60 $ com um LPA de 3,00 $. PER = 60 $ ÷ 3,00 $ = 20: 
 
 ### Pergunta 1
 
-Resposta correta: B. PER = preço da ação ÷ LPA.
+Resposta correta: B. PER = preço da ação ÷ EPS.
 
 ### Pergunta 2
 
@@ -67,7 +67,7 @@ Resposta correta: B. 80 $ ÷ 4,00 $ = 20.
 
 ## Pontos-chave
 
-- Rácio preço/lucro = preço da ação ÷ LPA.
+- Rácio preço/lucro = preço da ação ÷ EPS.
 - Estima quanto os investidores estão a pagar por dólar de lucro atual.
 - Esta é uma versão introdutória: o Nível 2 trata da aplicação mais aprofundada e das limitações.
 
@@ -108,7 +108,7 @@ Uma ação é negociada a 50 $ e paga 2 $ de dividendos por ano. Rendibilidade =
    A. Valorização do preço ÷ período de detenção
    B. Rendimento anual ÷ preço atual
    C. Total de ações ÷ resultado líquido
-   D. Preço da ação ÷ LPA
+   D. Preço da ação ÷ EPS
 
 2. Verdadeiro ou falso: a rendibilidade mede a valorização do preço, e não o rendimento.
 

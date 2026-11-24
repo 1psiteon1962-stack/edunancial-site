@@ -1,0 +1,368 @@
+===== WHITE-L1-046
+TITLE: O que é a recompra de ações próprias? (Versão introdutória – análise mais aprofundada no Nível 2)
+SUMMARY: Aprenda, a nível introdutório, o que é uma recompra de ações próprias e porque é que pode afetar os números por ação sem alterar o negócio.
+# O que é a recompra de ações próprias? (Versão introdutória – análise mais aprofundada no Nível 2)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir recompra de ações próprias em termos simples.
+- explicar o efeito mecânico básico sobre as ações em circulação.
+- reconhecer que uma análise mais aprofundada do seu efeito nos rácios surge no Nível 2.
+
+## Conteúdo principal
+
+### O que é uma recompra de ações próprias
+
+Uma recompra de ações próprias acontece quando uma empresa volta a comprar as suas próprias ações no mercado, reduzindo o número de ações em circulação (um conceito apresentado anteriormente neste nível).
+
+### O efeito mecânico básico
+
+Com menos ações em circulação e o mesmo resultado total da empresa, cada ação restante representa uma fatia um pouco maior da empresa: isto relaciona-se com o EPS (resultado por ação), visto anteriormente neste nível.
+
+### Uma antevisão do Nível 2
+
+*PRESSUPOSTO (para fins didáticos):* Esta lição introdutória trata apenas da mecânica básica. O Nível 2 mostra de forma mais aprofundada como as recompras podem fazer com que números por ação, como o EPS e o PER, pareçam melhores sem que o negócio subjacente tenha realmente melhorado.
+
+## Exemplo prático
+
+Uma empresa com 1 000 000 de ações em circulação recompra 100 000 ações, ficando com 900 000. Com o mesmo resultado líquido total, o EPS sobe simplesmente porque esse resultado passa a ser dividido por menos ações.
+
+## Teste de prática
+
+1. Uma recompra de ações próprias significa:
+   A. Uma empresa emitir ações totalmente novas
+   B. Uma empresa voltar a comprar as suas próprias ações no mercado
+   C. Um desdobramento de ações
+   D. Um pagamento de dividendos
+
+2. Verdadeiro ou falso: uma recompra aumenta o número total de ações em circulação.
+
+3. Com o mesmo resultado líquido, o que acontece ao EPS depois de uma recompra reduzir as ações em circulação?
+   A. O EPS diminui
+   B. O EPS aumenta, uma vez que o resultado passa a ser dividido por menos ações
+   C. O EPS mantém-se exatamente igual
+   D. O EPS passa a ser zero
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma recompra é quando uma empresa volta a comprar as suas próprias ações.
+
+### Pergunta 2
+
+Resposta correta: Falso. Uma recompra reduz, e não aumenta, as ações em circulação.
+
+### Pergunta 3
+
+Resposta correta: B. Menos ações a dividir o mesmo resultado fazem subir mecanicamente o EPS.
+
+## Pontos-chave
+
+- Uma recompra é quando uma empresa volta a comprar as suas próprias ações, reduzindo as ações em circulação.
+- Isto faz subir mecanicamente o EPS, mesmo sem alteração do resultado total.
+- O Nível 2 mostra de forma mais aprofundada como isto pode distorcer os rácios por ação.
+
+===== WHITE-L1-047
+TITLE: O que é uma armadilha de urso / armadilha de valor? (Porque é que "barato" pode ser um sinal de alerta)
+SUMMARY: Aprenda o que é uma armadilha de valor e porque é que um preço baixo, por si só, não significa que uma ação seja uma pechincha.
+# O que é uma armadilha de urso / armadilha de valor? (Porque é que "barato" pode ser um sinal de alerta)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir armadilha de valor em termos simples.
+- explicar porque é que um preço baixo, por si só, não indica um bom negócio.
+- relacionar este conceito com a lição sobre o rácio preço/lucro.
+
+## Conteúdo principal
+
+### O que é uma armadilha de valor
+
+Uma armadilha de valor (em inglês, "value trap") é uma ação que parece barata segundo indicadores simples (como um PER baixo, visto anteriormente neste nível), mas que na verdade está barata por um motivo real e duradouro: a deterioração dos fundamentos do negócio, e não um erro temporário de preço.
+
+### Porque é que um preço baixo, por si só, não basta
+
+O facto de o preço ou um rácio de uma ação estar mais baixo do que antes não significa automaticamente que seja uma pechincha. Por vezes, um preço mais baixo reflete corretamente uma descida real e contínua das perspetivas de negócio da empresa: o mercado está a refletir corretamente no preço um problema verdadeiro, e não a cometer um erro.
+
+### A relação com o PER
+
+Um PER baixo pode significar que uma ação está subavaliada, ou pode significar que o mercado espera resultados futuros em queda, o que torna adequado o preço baixo atual, e não uma pechincha. Para distinguir entre os dois casos, é preciso olhar para além do rácio.
+
+## Exemplo prático
+
+O preço de uma ação desce bastante e o seu PER parece atrativo e baixo face ao histórico. Se essa descida refletir um declínio real e contínuo do negócio principal da empresa, e não uma reação exagerada temporária, comprá-la como "pechincha" pode significar cair numa armadilha de valor.
+
+## Teste de prática
+
+1. Uma armadilha de valor é:
+   A. Uma ação verdadeiramente subavaliada e um bom negócio
+   B. Uma ação que parece barata, mas está barata por um motivo real e duradouro
+   C. Um tipo de obrigação
+   D. Um investimento com lucro garantido
+
+2. Verdadeiro ou falso: um PER baixo significa sempre que uma ação é uma pechincha.
+
+3. Porque é que um preço baixo pode refletir corretamente um problema real em vez de uma pechincha?
+   A. Os preços nunca refletem problemas reais
+   B. O mercado pode estar a refletir corretamente no preço perspetivas de negócio em queda
+   C. Os preços baixos são sempre erros
+   D. Isto nunca acontece nos mercados reais
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma armadilha de valor parece barata, mas reflete um problema real e duradouro.
+
+### Pergunta 2
+
+Resposta correta: Falso. Um PER baixo pode refletir uma descida real e merecida, e não apenas uma pechincha.
+
+### Pergunta 3
+
+Resposta correta: B. Os mercados podem refletir corretamente no preço problemas verdadeiros e contínuos.
+
+## Pontos-chave
+
+- Uma armadilha de valor parece barata, mas está barata por um motivo real e duradouro.
+- Um preço ou um rácio baixo, por si só, não garante uma pechincha.
+- Um PER baixo pode refletir subavaliação ou uma descida verdadeira e merecida.
+
+===== WHITE-L1-048
+TITLE: O que é a rendibilidade ponderada pelo dinheiro versus a rendibilidade ponderada pelo tempo? (Porque é que duas pessoas podem ter rendibilidades diferentes no "mesmo" investimento)
+SUMMARY: Aprenda porque é que dois investidores no mesmo fundo podem ter rendibilidades pessoais verdadeiramente diferentes, consoante o momento em que aplicaram ou retiraram dinheiro.
+# O que é a rendibilidade ponderada pelo dinheiro versus a rendibilidade ponderada pelo tempo? (Porque é que duas pessoas podem ter rendibilidades diferentes no "mesmo" investimento)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir rendibilidade ponderada pelo tempo e rendibilidade ponderada pelo dinheiro em termos simples.
+- explicar porque é que podem gerar números diferentes para o mesmo fundo.
+- reconhecer porque é que o momento das entregas importa para a rendibilidade pessoal.
+
+## Conteúdo principal
+
+### Rendibilidade ponderada pelo tempo
+
+A rendibilidade ponderada pelo tempo mede como o próprio investimento se comportou num período, independentemente do momento em que o dinheiro foi aplicado ou retirado: é o número que normalmente o próprio fundo divulga.
+
+### Rendibilidade ponderada pelo dinheiro
+
+A rendibilidade ponderada pelo dinheiro mede a rendibilidade pessoal efetiva de um investidor individual, que depende muito de QUANDO aplicou ou retirou dinheiro: o mesmo fundo pode gerar rendibilidades ponderadas pelo dinheiro muito diferentes para investidores diferentes, consoante o momento escolhido por cada um.
+
+### Porque é que podem ser diferentes
+
+*EXEMPLO ILUSTRATIVO:* Se um investidor aplicar uma quantia elevada pouco antes de uma descida, a sua rendibilidade pessoal ponderada pelo dinheiro será pior do que a rendibilidade ponderada pelo tempo do fundo nesse período, mesmo estando investido exatamente no mesmo fundo que alguém que investiu mais cedo.
+
+## Exemplo prático
+
+Um fundo divulga uma rendibilidade ponderada pelo tempo de 10% no ano. Um investidor que aplicou uma quantia única elevada pouco antes de uma breve descida nesse ano, e que depois manteve o investimento durante a recuperação, pode ter uma rendibilidade pessoal ponderada pelo dinheiro bem diferente desses 10% divulgados: o mesmo fundo, uma experiência pessoal muito diferente por causa do momento.
+
+## Teste de prática
+
+1. A rendibilidade ponderada pelo tempo mede:
+   A. A rendibilidade pessoal de um investidor individual, baseada no seu momento
+   B. O desempenho do próprio investimento, independentemente do momento das entregas
+   C. Apenas o rendimento de dividendos
+   D. A capitalização bolsista de uma empresa
+
+2. Verdadeiro ou falso: a rendibilidade ponderada pelo dinheiro não é afetada pelo momento em que um investidor aplica ou retira dinheiro.
+
+3. Porque é que dois investidores no mesmo fundo podem ter rendibilidades pessoais diferentes?
+   A. Os fundos divulgam números diferentes a cada investidor
+   B. A rendibilidade pessoal ponderada pelo dinheiro depende do momento das suas entregas
+   C. Isto nunca acontece na realidade
+   D. Só as comissões do fundo variam entre investidores
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A rendibilidade ponderada pelo tempo mede o desempenho do próprio fundo, independentemente do momento das entregas.
+
+### Pergunta 2
+
+Resposta correta: Falso. A rendibilidade ponderada pelo dinheiro é moldada precisamente pelo momento das entregas.
+
+### Pergunta 3
+
+Resposta correta: B. O momento pessoal das entregas explica as diferenças na rendibilidade ponderada pelo dinheiro.
+
+## Pontos-chave
+
+- A rendibilidade ponderada pelo tempo mede o desempenho do próprio investimento.
+- A rendibilidade ponderada pelo dinheiro mede a rendibilidade pessoal de um indivíduo, que depende do momento das entregas.
+- Dois investidores no mesmo fundo podem ter rendibilidades pessoais verdadeiramente diferentes.
+
+===== WHITE-L1-049
+TITLE: Ler o extrato da conta de títulos: o que está realmente a ver?
+SUMMARY: Aprenda a ler as secções principais de um extrato de conta de títulos, juntando termos de todo este nível.
+# Ler o extrato da conta de títulos: o que está realmente a ver?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- identificar as secções principais de um extrato de conta de títulos típico.
+- explicar o que cada secção realmente indica.
+- relacionar os termos do extrato com conceitos vistos anteriormente neste nível.
+
+## Conteúdo principal
+
+### As secções principais de um extrato
+
+Um extrato típico de conta de títulos inclui geralmente: a carteira de valores detidos (o que possui e em que quantidade), o histórico de movimentos (compras, vendas e dividendos recentes) e um resumo de rendibilidade, embora o formato exato varie de intermediário para intermediário.
+
+### O que cada secção indica
+
+A secção da carteira mostra as posições atuais e o seu valor de mercado. O histórico de movimentos mostra a atividade recente, incluindo pagamentos de dividendos (vistos anteriormente neste nível). O resumo de rendibilidade indica muitas vezes algo como uma rendibilidade ponderada pelo tempo (vista na lição anterior), e não necessariamente a experiência pessoal ponderada pelo dinheiro de um investidor.
+
+### Relacionar com os conceitos deste nível
+
+Ler bem um extrato significa reconhecer termos já vistos: ações detidas, valor de mercado, dividendos recebidos e a diferença entre a rendibilidade divulgada pelo fundo e a rendibilidade pessoal efetiva de um indivíduo, que depende do momento das suas próprias entregas.
+
+## Exemplo prático
+
+Um investidor que analisa o seu extrato vê que detém unidades de participação num ETF, repara num pagamento recente de dividendos no histórico de movimentos e vê uma rendibilidade indicada desde o início do ano: percebe que esse número reflete provavelmente o desempenho ponderado pelo tempo, e não necessariamente a sua rendibilidade pessoal exata, se tiver aplicado dinheiro a meio do ano.
+
+## Teste de prática
+
+1. A secção da carteira de um extrato de conta de títulos mostra normalmente:
+   A. Apenas as comissões do intermediário
+   B. As posições atuais e o seu valor de mercado
+   C. Apenas a declaração de IRS do investidor
+   D. Uma lista de empresas sem relação com a conta
+
+2. Verdadeiro ou falso: o resumo de rendibilidade de um extrato reflete sempre a rendibilidade pessoal exata, ponderada pelo dinheiro, de um investidor.
+
+3. O que inclui normalmente o histórico de movimentos?
+   A. Apenas operações futuras planeadas
+   B. Compras, vendas e pagamentos de dividendos recentes
+   C. As demonstrações financeiras completas de uma empresa
+   D. Declarações fiscais entregues ao Estado
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A carteira mostra as posições atuais e o seu valor de mercado.
+
+### Pergunta 2
+
+Resposta correta: Falso. A rendibilidade indicada é muitas vezes ponderada pelo tempo, e não necessariamente a rendibilidade pessoal ponderada pelo dinheiro do investidor.
+
+### Pergunta 3
+
+Resposta correta: B. O histórico de movimentos abrange a atividade recente da conta.
+
+## Pontos-chave
+
+- Um extrato de conta de títulos inclui normalmente a carteira, o histórico de movimentos e um resumo de rendibilidade.
+- A rendibilidade indicada é muitas vezes ponderada pelo tempo, e não automaticamente a rendibilidade pessoal de um investidor.
+- Ler bem um extrato assenta em conceitos vistos ao longo de todo este nível.
+
+===== WHITE-L1-050
+TITLE: Projeto final: construir a sua primeira carteira simples, passo a passo
+SUMMARY: Aplique tudo o que viu no WHITE Nível 1 percorrendo, do início ao fim, a construção de uma primeira carteira de investimentos simples.
+# Projeto final: construir a sua primeira carteira simples, passo a passo
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- aplicar os conceitos centrais do WHITE Nível 1 a um único cenário integrado.
+- identificar qual o conceito deste nível que se aplica a cada passo.
+- explicar como as peças da construção de uma carteira se encaixam num todo.
+
+## Conteúdo principal
+
+### O cenário
+
+O James quer começar a investir pela primeira vez. Quer perceber o que está realmente a fazer em cada passo, e não limitar-se a seguir instruções às cegas.
+
+### Passo a passo
+
+Antes de investir qualquer outra coisa, o James assegura-se de que tem um fundo de emergência (Lição 35) num lugar líquido e de baixo risco. Abre uma conta de títulos (Lição 21), percebendo que é diferente de uma conta de reforma, e avalia separadamente se a sua entidade empregadora oferece uma contribuição equivalente no 401(k) (Lição 18) que valha a pena aproveitar primeiro. (Fora dos EUA, existem em vez disso formas próprias de planos de pensões empresariais, com outras regras.)
+
+Decide investir num ETF (Lição 9) em vez de escolher ações individuais, porque valoriza a diversificação (Lição 13) que oferece. Verifica os encargos correntes (Lição 12), sabendo que pequenas diferenças percentuais se acumulam ao longo do tempo. Decide usar o investimento periódico (dollar-cost averaging, Lição 22), aplicando um montante fixo por mês em vez de tentar acertar no momento do mercado.
+
+Define uma alocação de ativos (Lição 43) sobretudo em ações, dado o seu horizonte longo, sabendo que terá de reequilibrar (Lição 44) periodicamente à medida que o mercado alterar essa combinação. Sabe que o extrato da conta (Lição 49) vai mostrar a carteira, os movimentos e um valor de rendibilidade que pode não coincidir exatamente com a sua rendibilidade pessoal ponderada pelo dinheiro (Lição 48), uma vez que aplica gradualmente ao longo do tempo.
+
+### Porque é que isto importa
+
+Nenhuma destas decisões acontece de forma isolada numa carteira real: ligam-se num único processo, construído com compreensão, e não seguindo passos às cegas.
+
+## Exemplo prático
+
+Se o James investir 300 $ por mês, através de investimento periódico, num ETF diversificado com encargos correntes baixos, dentro de uma conta de títulos comum, depois de já ter constituído o fundo de emergência e aproveitado qualquer contribuição disponível da entidade empregadora, terá aplicado quase todos os conceitos principais deste nível num único plano integrado.
+
+## Teste de prática
+
+1. Porque é que o James se assegurou de que tinha um fundo de emergência antes de investir mais?
+   A. Na verdade, não é necessário
+   B. Protege os seus outros planos financeiros de serem perturbados por despesas inesperadas
+   C. Os fundos de emergência garantem rendibilidades de investimento
+   D. Não tem qualquer relação com investir
+
+2. Verdadeiro ou falso: a rendibilidade indicada da conta do James vai coincidir sempre exatamente com a sua rendibilidade pessoal ponderada pelo dinheiro.
+
+3. Porque é que o James escolheu um ETF em vez de ações individuais?
+   A. Os ETF garantem rendibilidades mais elevadas
+   B. Valorizava a diversificação que o ETF oferece
+   C. Os ETF não têm encargos correntes
+   D. As ações individuais são proibidas a principiantes
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um fundo de emergência protege os planos de longo prazo de perturbações de curto prazo, como visto na Lição 35.
+
+### Pergunta 2
+
+Resposta correta: Falso. A rendibilidade indicada é muitas vezes ponderada pelo tempo, e não a sua rendibilidade pessoal exata ponderada pelo dinheiro, como visto nas Lições 48-49.
+
+### Pergunta 3
+
+Resposta correta: B. A diversificação foi o motivo apontado pelo James, relacionado com a Lição 13.
+
+## Pontos-chave
+
+- Construir uma primeira carteira junta quase todos os conceitos deste nível num único processo.
+- A ordem importa: primeiro o fundo de emergência, depois o tipo de conta, depois a escolha do investimento, depois a gestão contínua.
+- Este projeto final marca a conclusão do WHITE Nível 1: o Nível 2 assenta nesta base com conceitos mais aprofundados de avaliação e de filosofia de investimento.

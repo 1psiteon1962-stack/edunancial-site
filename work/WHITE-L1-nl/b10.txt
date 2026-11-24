@@ -1,0 +1,368 @@
+===== WHITE-L1-046
+TITLE: Wat is een inkoop van eigen aandelen? (Inleidende versie – dieper in niveau 2)
+SUMMARY: Leer op inleidend niveau wat een inkoop van eigen aandelen is en waarom die cijfers per aandeel kan beïnvloeden zonder dat het bedrijf zelf verandert.
+# Wat is een inkoop van eigen aandelen? (Inleidende versie – dieper in niveau 2)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een inkoop van eigen aandelen in eenvoudige woorden te definiëren.
+- het mechanische basiseffect op het aantal uitstaande aandelen uit te leggen.
+- te herkennen dat een diepere blik op het effect op kengetallen in niveau 2 volgt.
+
+## Kerninhoud
+
+### Wat een inkoop van eigen aandelen is
+
+Een inkoop van eigen aandelen (in het Engels "stock buyback") vindt plaats wanneer een bedrijf zijn eigen aandelen op de open markt terugkoopt, waardoor het aantal uitstaande aandelen (een begrip dat eerder in dit niveau werd geïntroduceerd) daalt.
+
+### Het mechanische basiseffect
+
+Met minder uitstaande aandelen en dezelfde totale winst van het bedrijf vertegenwoordigt elk overgebleven aandeel een iets groter stuk van het bedrijf: dit sluit aan bij de EPS (winst per aandeel), die eerder in dit niveau werd behandeld.
+
+### Een vooruitblik op niveau 2
+
+*AANNAME (voor onderwijsdoeleinden):* Deze inleidende les behandelt alleen de basiswerking. Niveau 2 laat dieper zien hoe inkopen cijfers per aandeel zoals de EPS en de K/W er beter kunnen laten uitzien zonder dat het onderliggende bedrijf werkelijk verbetert.
+
+## Praktijkvoorbeeld
+
+Een bedrijf met 1.000.000 uitstaande aandelen koopt 100.000 aandelen in, zodat er 900.000 overblijven. Bij dezelfde totale nettowinst stijgt de EPS simpelweg omdat die winst nu over minder aandelen wordt verdeeld.
+
+## Oefenquiz
+
+1. Een inkoop van eigen aandelen betekent:
+   A. Dat een bedrijf gloednieuwe aandelen uitgeeft
+   B. Dat een bedrijf zijn eigen aandelen van de markt terugkoopt
+   C. Een aandelensplitsing
+   D. Een dividenduitkering
+
+2. Waar of onwaar: een inkoop verhoogt het totale aantal uitstaande aandelen.
+
+3. Wat gebeurt er bij dezelfde nettowinst met de EPS nadat een inkoop het aantal uitstaande aandelen heeft verminderd?
+   A. De EPS daalt
+   B. De EPS stijgt, omdat de winst nu over minder aandelen wordt verdeeld
+   C. De EPS blijft precies gelijk
+   D. De EPS wordt nul
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Bij een inkoop koopt een bedrijf zijn eigen aandelen terug.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een inkoop vermindert het aantal uitstaande aandelen in plaats van het te verhogen.
+
+### Vraag 3
+
+Juist antwoord: B. Minder aandelen waarover dezelfde winst wordt verdeeld, verhogen de EPS mechanisch.
+
+## Belangrijkste punten
+
+- Bij een inkoop koopt een bedrijf zijn eigen aandelen terug, waardoor het aantal uitstaande aandelen daalt.
+- Dit verhoogt de EPS mechanisch, zelfs zonder verandering in de totale winst.
+- Niveau 2 laat dieper zien hoe dit kengetallen per aandeel kan vertekenen.
+
+===== WHITE-L1-047
+TITLE: Wat is een berenval / waardeval (value trap)? (Waarom "goedkoop" een waarschuwingssignaal kan zijn)
+SUMMARY: Leer wat een waardeval is en waarom een lage prijs alleen niet betekent dat een aandeel een koopje is.
+# Wat is een berenval / waardeval (value trap)? (Waarom "goedkoop" een waarschuwingssignaal kan zijn)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een waardeval in eenvoudige woorden te definiëren.
+- uit te leggen waarom een lage prijs alleen geen goede deal aangeeft.
+- dit begrip te koppelen aan de les over de K/W.
+
+## Kerninhoud
+
+### Wat een waardeval is
+
+Een waardeval (in het Engels "value trap") is een aandeel dat op basis van eenvoudige kengetallen (zoals een lage K/W, eerder in dit niveau behandeld) goedkoop lijkt, maar in werkelijkheid goedkoop is om een echte, blijvende reden: verslechterende bedrijfsfundamenten, niet een tijdelijke verkeerde prijsstelling.
+
+### Waarom een lage prijs alleen niet genoeg is
+
+Dat de koers of een kengetal van een aandeel lager is dan vroeger, betekent niet automatisch dat het een koopje is. Soms weerspiegelt een lagere koers terecht een echte, aanhoudende daling van de vooruitzichten van het bedrijf: de markt prijst een echt probleem correct in in plaats van een fout te maken.
+
+### Het verband met de K/W
+
+Een lage K/W kan betekenen dat een aandeel ondergewaardeerd is, of dat de markt een dalende toekomstige winst verwacht, waardoor de huidige lage koers terecht is en geen koopje. Om dat te onderscheiden moet je verder kijken dan alleen het kengetal.
+
+## Praktijkvoorbeeld
+
+De koers van een aandeel daalt flink en de K/W ziet er vergeleken met vroeger aantrekkelijk laag uit. Als die daling een echte, aanhoudende achteruitgang van de kernactiviteit van het bedrijf weerspiegelt en geen tijdelijke overreactie, dan kan het als "koopje" kopen betekenen dat je in een waardeval trapt.
+
+## Oefenquiz
+
+1. Een waardeval is:
+   A. Een aandeel dat werkelijk ondergewaardeerd en een goede deal is
+   B. Een aandeel dat goedkoop lijkt, maar goedkoop is om een echte, blijvende reden
+   C. Een soort obligatie
+   D. Een gegarandeerd winstgevende belegging
+
+2. Waar of onwaar: een lage K/W betekent altijd dat een aandeel een koopje is.
+
+3. Waarom kan een lage prijs terecht een echt probleem weerspiegelen in plaats van een koopje?
+   A. Prijzen weerspiegelen nooit echte problemen
+   B. De markt prijst mogelijk terecht dalende bedrijfsvooruitzichten in
+   C. Lage prijzen zijn altijd vergissingen
+   D. Dit gebeurt nooit op echte markten
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een waardeval lijkt goedkoop, maar weerspiegelt een echt, blijvend probleem.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een lage K/W kan een echte, verdiende daling weerspiegelen en niet alleen een koopje.
+
+### Vraag 3
+
+Juist antwoord: B. Markten kunnen echte, aanhoudende problemen correct inprijzen.
+
+## Belangrijkste punten
+
+- Een waardeval lijkt goedkoop, maar is goedkoop om een echte, blijvende reden.
+- Een lage prijs of een laag kengetal alleen garandeert geen koopje.
+- Een lage K/W kan wijzen op onderwaardering of op een echte, verdiende daling.
+
+===== WHITE-L1-048
+TITLE: Wat is geldgewogen tegenover tijdgewogen rendement? (Waarom twee mensen verschillende rendementen kunnen hebben op "dezelfde" belegging)
+SUMMARY: Leer waarom twee beleggers in hetzelfde fonds werkelijk verschillende persoonlijke rendementen kunnen hebben, afhankelijk van wanneer ze geld inlegden of opnamen.
+# Wat is geldgewogen tegenover tijdgewogen rendement? (Waarom twee mensen verschillende rendementen kunnen hebben op "dezelfde" belegging)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- tijdgewogen en geldgewogen rendement in eenvoudige woorden te definiëren.
+- uit te leggen waarom ze voor hetzelfde fonds verschillende getallen kunnen opleveren.
+- te herkennen waarom het moment van inleggen belangrijk is voor het persoonlijke rendement.
+
+## Kerninhoud
+
+### Tijdgewogen rendement
+
+Het tijdgewogen rendement meet hoe een belegging zelf over een periode heeft gepresteerd, los van wanneer er geld werd ingelegd of opgenomen: dit is het getal dat een fonds doorgaans zelf rapporteert.
+
+### Geldgewogen rendement
+
+Het geldgewogen rendement meet het werkelijke persoonlijke rendement van een individuele belegger, dat sterk afhangt van WANNEER hij geld inlegde of opnam: hetzelfde fonds kan voor verschillende beleggers heel verschillende geldgewogen rendementen opleveren, afhankelijk van hun persoonlijke timing.
+
+### Waarom ze kunnen verschillen
+
+*ILLUSTRATIEF VOORBEELD:* Als een belegger vlak vóór een daling een groot bedrag inlegt, zal zijn persoonlijke geldgewogen rendement slechter uitvallen dan het tijdgewogen rendement van het fonds over die periode, ook al belegt hij in precies hetzelfde fonds als iemand die eerder instapte.
+
+## Praktijkvoorbeeld
+
+Een fonds rapporteert voor het jaar een tijdgewogen rendement van 10%. Een belegger die vlak vóór een korte daling binnen dat jaar een groot eenmalig bedrag inlegde en daarna tijdens het herstel bleef zitten, kan een persoonlijk geldgewogen rendement hebben dat merkbaar afwijkt van die gerapporteerde 10%: hetzelfde fonds, een heel andere persoonlijke ervaring door de timing.
+
+## Oefenquiz
+
+1. Het tijdgewogen rendement meet:
+   A. Het persoonlijke, op timing gebaseerde rendement van een individuele belegger
+   B. De prestaties van de belegging zelf, los van het moment van inleggen
+   C. Alleen dividendinkomsten
+   D. De marktkapitalisatie van een bedrijf
+
+2. Waar of onwaar: het geldgewogen rendement wordt niet beïnvloed door wanneer een belegger geld inlegt of opneemt.
+
+3. Waarom kunnen twee beleggers in hetzelfde fonds verschillende persoonlijke rendementen hebben?
+   A. Fondsen rapporteren aan elke belegger andere getallen
+   B. Hun persoonlijke geldgewogen rendement hangt af van het moment van hun inleg
+   C. Dit gebeurt in werkelijkheid nooit
+   D. Alleen de fondskosten verschillen tussen beleggers
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Het tijdgewogen rendement meet de prestaties van het fonds zelf, los van het moment van inleggen.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het geldgewogen rendement wordt juist bepaald door het moment van inleggen.
+
+### Vraag 3
+
+Juist antwoord: B. De persoonlijke timing van de inleg verklaart de verschillen in geldgewogen rendement.
+
+## Belangrijkste punten
+
+- Het tijdgewogen rendement meet de prestaties van de belegging zelf.
+- Het geldgewogen rendement meet het persoonlijke, van timing afhankelijke rendement van een individu.
+- Twee beleggers in hetzelfde fonds kunnen werkelijk verschillende persoonlijke rendementen hebben.
+
+===== WHITE-L1-049
+TITLE: Een overzicht van je beleggingsrekening lezen: waar kijk je eigenlijk naar?
+SUMMARY: Leer hoe je de belangrijkste onderdelen van een overzicht van je beleggingsrekening leest, en verbind daarbij begrippen uit dit hele niveau.
+# Een overzicht van je beleggingsrekening lezen: waar kijk je eigenlijk naar?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de belangrijkste onderdelen van een gebruikelijk rekeningoverzicht te herkennen.
+- uit te leggen wat elk onderdeel je werkelijk vertelt.
+- begrippen op het overzicht te koppelen aan begrippen uit eerdere lessen van dit niveau.
+
+## Kerninhoud
+
+### De belangrijkste onderdelen van een overzicht
+
+Een gebruikelijk overzicht van een beleggingsrekening bevat doorgaans: de posities (wat je bezit en hoeveel), het transactieoverzicht (recente aankopen, verkopen en dividenden) en een rendementsoverzicht, al verschilt de precieze opmaak per aanbieder.
+
+### Wat elk onderdeel je vertelt
+
+Het onderdeel met posities toont je huidige posities en hun marktwaarde. Het transactieoverzicht toont recente activiteit, inclusief dividenduitkeringen (eerder in dit niveau behandeld). Het rendementsoverzicht vermeldt vaak iets als een tijdgewogen rendement (behandeld in de vorige les), niet noodzakelijk de persoonlijke, geldgewogen ervaring van een belegger.
+
+### De koppeling met de begrippen uit dit niveau
+
+Een overzicht goed lezen betekent begrippen herkennen die al aan bod kwamen: aandelen in bezit, marktwaarde, ontvangen dividenden en het verschil tussen het door het fonds gerapporteerde rendement en het werkelijke persoonlijke rendement van een individu, dat afhangt van de timing van zijn eigen inleg.
+
+## Praktijkvoorbeeld
+
+Een belegger bekijkt zijn overzicht en ziet dat hij deelnemingen in een ETF bezit, ziet in het transactieoverzicht een recente dividenduitkering staan en ziet een gerapporteerd rendement sinds het begin van het jaar: hij beseft dat dit getal waarschijnlijk het tijdgewogen rendement weergeeft en niet noodzakelijk zijn eigen exacte persoonlijke rendement, als hij halverwege het jaar geld heeft bijgestort.
+
+## Oefenquiz
+
+1. Het onderdeel met posities van een rekeningoverzicht toont doorgaans:
+   A. Alleen de kosten van de aanbieder
+   B. De huidige posities en hun marktwaarde
+   C. Alleen de belastingaangifte van de belegger
+   D. Een lijst met willekeurige bedrijven
+
+2. Waar of onwaar: het rendementsoverzicht op een rekeningoverzicht geeft altijd het exacte persoonlijke, geldgewogen rendement van een belegger weer.
+
+3. Wat bevat het transactieoverzicht doorgaans?
+   A. Alleen toekomstige geplande transacties
+   B. Recente aankopen, verkopen en dividenduitkeringen
+   C. De volledige jaarrekening van een bedrijf
+   D. Belastingaangiften bij de overheid
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. De posities tonen de huidige beleggingen en hun marktwaarde.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het gerapporteerde rendement is vaak tijdgewogen en niet noodzakelijk het persoonlijke, geldgewogen rendement van de belegger.
+
+### Vraag 3
+
+Juist antwoord: B. Het transactieoverzicht omvat de recente activiteit op de rekening.
+
+## Belangrijkste punten
+
+- Een rekeningoverzicht bevat doorgaans posities, een transactieoverzicht en een rendementsoverzicht.
+- Het gerapporteerde rendement is vaak tijdgewogen en niet automatisch het persoonlijke rendement van een belegger.
+- Een overzicht goed lezen steunt op begrippen uit dit hele niveau.
+
+===== WHITE-L1-050
+TITLE: Eindopdracht: stap voor stap je eerste eenvoudige portefeuille opbouwen
+SUMMARY: Pas alles uit WHITE niveau 1 toe door het opbouwen van een eerste eenvoudige beleggingsportefeuille van begin tot eind te doorlopen.
+# Eindopdracht: stap voor stap je eerste eenvoudige portefeuille opbouwen
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- de kernbegrippen uit WHITE niveau 1 toe te passen op één samenhangend scenario.
+- te herkennen welk begrip uit dit niveau bij elke stap van toepassing is.
+- uit te leggen hoe de onderdelen van het opbouwen van een portefeuille samen één geheel vormen.
+
+## Kerninhoud
+
+### Het scenario
+
+James wil voor het eerst gaan beleggen. Hij wil bij elke stap begrijpen wat hij werkelijk doet, in plaats van blind instructies te volgen.
+
+### Stap voor stap
+
+James zorgt eerst voor een noodfonds (les 35) op een liquide plek met laag risico, voordat hij iets anders belegt. Hij opent een beleggingsrekening (les 21) en weet dat die verschilt van een pensioenrekening; daarnaast kijkt hij apart of zijn werkgever bij de 401(k) een werkgeversbijdrage (matching, les 18) biedt die hij als eerste zou moeten benutten. (Buiten de Verenigde Staten bestaan in plaats daarvan eigen vormen van werkgeverspensioen met andere regels.)
+
+Hij besluit in een ETF (les 9) te beleggen in plaats van losse aandelen te kiezen, omdat hij de spreiding (les 13) waardeert die die biedt. Hij controleert de lopende kosten (expense ratio, les 12) en weet dat kleine procentuele verschillen in de loop van de tijd oplopen. Hij kiest voor periodiek beleggen (dollar-cost averaging, les 22) en legt elke maand een vast bedrag in, in plaats van te proberen de markt te timen.
+
+Hij legt een assetallocatie (les 43) vast met vooral aandelen, gezien zijn lange beleggingshorizon, en weet dat hij periodiek moet herbalanceren (les 44) naarmate de markt die mix verschuift. Hij weet dat zijn rekeningoverzicht (les 49) posities, transacties en een rendementscijfer toont dat misschien niet precies overeenkomt met zijn persoonlijke geldgewogen rendement (les 48), omdat hij in de loop van de tijd geleidelijk inlegt.
+
+### Waarom dit belangrijk is
+
+Geen van deze beslissingen staat in een echte portefeuille op zichzelf: ze vormen samen één proces, gebouwd op begrip en niet op blind stappen volgen.
+
+## Praktijkvoorbeeld
+
+Als James, nadat hij zijn noodfonds al heeft opgebouwd en een eventuele werkgeversbijdrage heeft benut, via periodiek beleggen elke maand $ 300 inlegt in een gespreide ETF met lage lopende kosten op een gewone beleggingsrekening, heeft hij bijna elk belangrijk begrip uit dit niveau toegepast in één samenhangend plan.
+
+## Oefenquiz
+
+1. Waarom zorgde James eerst voor een noodfonds voordat hij verder belegde?
+   A. Het is eigenlijk niet nodig
+   B. Het beschermt zijn andere financiële plannen tegen verstoring door onverwachte uitgaven
+   C. Een noodfonds garandeert beleggingsrendement
+   D. Het heeft niets met beleggen te maken
+
+2. Waar of onwaar: het gerapporteerde rendement van James' rekening zal altijd precies overeenkomen met zijn persoonlijke geldgewogen rendement.
+
+3. Waarom koos James voor een ETF in plaats van losse aandelen?
+   A. ETF's garanderen hogere rendementen
+   B. Hij waardeerde de spreiding die een ETF biedt
+   C. ETF's hebben geen lopende kosten
+   D. Losse aandelen zijn verboden voor beginners
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een noodfonds beschermt plannen op lange termijn tegen verstoringen op korte termijn, zoals behandeld in les 35.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het gerapporteerde rendement is vaak tijdgewogen en niet precies zijn persoonlijke geldgewogen rendement, zoals behandeld in les 48-49.
+
+### Vraag 3
+
+Juist antwoord: B. Spreiding was de reden die James zelf gaf, wat aansluit bij les 13.
+
+## Belangrijkste punten
+
+- Het opbouwen van een eerste portefeuille verbindt bijna elk begrip uit dit niveau tot één proces.
+- De volgorde doet ertoe: eerst het noodfonds, dan het type rekening, dan de keuze van de belegging, dan het doorlopende beheer.
+- Deze eindopdracht markeert de afronding van WHITE niveau 1: niveau 2 bouwt op dit fundament voort met diepere begrippen over waardering en beleggingsfilosofie.

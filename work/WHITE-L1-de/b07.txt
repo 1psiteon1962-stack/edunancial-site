@@ -1,0 +1,368 @@
+===== WHITE-L1-046
+TITLE: Was ist ein Aktienrückkauf? (Einführende Version – vertiefter Blick in Level 2)
+SUMMARY: Erfahren Sie auf einführendem Niveau, was ein Aktienrückkauf ist und warum er Kennzahlen je Aktie beeinflussen kann, ohne das Geschäft zu verändern.
+# Was ist ein Aktienrückkauf? (Einführende Version – vertiefter Blick in Level 2)
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- einen Aktienrückkauf in einfachen Worten definieren können.
+- die grundlegende mechanische Wirkung auf die Zahl der ausstehenden Aktien erklären können.
+- erkennen können, dass ein vertiefter Blick auf seine Wirkung auf Kennzahlen in Level 2 folgt.
+
+## Kerninhalt
+
+### Was ein Aktienrückkauf ist
+
+Ein Aktienrückkauf findet statt, wenn ein Unternehmen eigene Aktien am offenen Markt zurückkauft und so die Zahl der ausstehenden Aktien (ein früher in diesem Level eingeführter Begriff) verringert.
+
+### Die grundlegende mechanische Wirkung
+
+Bei weniger ausstehenden Aktien und gleichem Gesamtgewinn des Unternehmens steht jede verbleibende Aktie für ein etwas größeres Stück des Unternehmens – das knüpft an das EPS (Ergebnis je Aktie) an, das früher in diesem Level behandelt wurde.
+
+### Ein Ausblick auf Level 2
+
+*ANNAHME (zu Lehrzwecken):* Diese einführende Lektion behandelt nur die grundlegende Mechanik. Level 2 zeigt ausführlicher, wie Rückkäufe Kennzahlen je Aktie wie EPS und KGV besser aussehen lassen können, ohne dass sich das zugrunde liegende Geschäft tatsächlich verbessert.
+
+## Durchgerechnetes Beispiel
+
+Ein Unternehmen mit 1.000.000 ausstehenden Aktien kauft 100.000 Aktien zurück, sodass 900.000 übrig bleiben. Bei gleichem Jahresüberschuss steigt das EPS allein deshalb, weil dieser Gewinn nun auf weniger Aktien verteilt wird.
+
+## Übungsquiz
+
+1. Ein Aktienrückkauf bedeutet:
+   A. Dass ein Unternehmen völlig neue Aktien ausgibt
+   B. Dass ein Unternehmen eigene Aktien vom Markt zurückkauft
+   C. Einen Aktiensplit
+   D. Eine Dividendenzahlung
+
+2. Richtig oder falsch: Ein Rückkauf erhöht die Gesamtzahl der ausstehenden Aktien.
+
+3. Was passiert bei gleichem Jahresüberschuss mit dem EPS, nachdem ein Rückkauf die Zahl der ausstehenden Aktien verringert hat?
+   A. Das EPS sinkt
+   B. Das EPS steigt, weil der Gewinn nun auf weniger Aktien verteilt wird
+   C. Das EPS bleibt genau gleich
+   D. Das EPS wird null
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Bei einem Rückkauf kauft ein Unternehmen eigene Aktien zurück.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Ein Rückkauf verringert die Zahl der ausstehenden Aktien, statt sie zu erhöhen.
+
+### Frage 3
+
+Richtige Antwort: B. Weniger Aktien, auf die sich derselbe Gewinn verteilt, erhöhen das EPS rein mechanisch.
+
+## Wichtigste Erkenntnisse
+
+- Bei einem Rückkauf kauft ein Unternehmen eigene Aktien zurück und verringert so die Zahl der ausstehenden Aktien.
+- Das erhöht das EPS rein mechanisch, auch ohne Veränderung des Gesamtgewinns.
+- Level 2 zeigt ausführlicher, wie dies Kennzahlen je Aktie verzerren kann.
+
+===== WHITE-L1-047
+TITLE: Was ist eine Bärenfalle bzw. Value-Falle? (Warum „billig“ ein Warnsignal sein kann)
+SUMMARY: Erfahren Sie, was eine Value-Falle ist und warum ein niedriger Preis allein noch nicht bedeutet, dass eine Aktie ein Schnäppchen ist.
+# Was ist eine Bärenfalle bzw. Value-Falle? (Warum „billig“ ein Warnsignal sein kann)
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- eine Value-Falle in einfachen Worten definieren können.
+- erklären können, warum ein niedriger Preis allein kein gutes Geschäft anzeigt.
+- dieses Konzept mit der Lektion über das KGV verbinden können.
+
+## Kerninhalt
+
+### Was eine Value-Falle ist
+
+Eine Value-Falle ist eine Aktie, die nach einfachen Kennzahlen (etwa einem niedrigen KGV, das früher in diesem Level behandelt wurde) billig erscheint, tatsächlich aber aus einem echten, dauerhaften Grund billig ist – wegen sich verschlechternder Geschäftsgrundlagen und nicht wegen einer vorübergehenden Fehlbewertung.
+
+### Warum ein niedriger Preis allein nicht genügt
+
+Dass Preis oder Kennzahl einer Aktie niedriger sind als früher, bedeutet nicht automatisch, dass sie ein Schnäppchen ist. Manchmal spiegelt ein niedrigerer Preis zutreffend einen echten, anhaltenden Rückgang der Geschäftsaussichten des Unternehmens wider – der Markt preist ein reales Problem korrekt ein, statt einen Fehler zu machen.
+
+### Der Zusammenhang mit dem KGV
+
+Ein niedriges KGV kann bedeuten, dass eine Aktie unterbewertet ist – oder dass der Markt sinkende künftige Gewinne erwartet, sodass der aktuell niedrige Preis angemessen und kein Schnäppchen ist. Um das zu unterscheiden, muss man tiefer schauen als nur auf die Kennzahl.
+
+## Durchgerechnetes Beispiel
+
+Der Kurs einer Aktie fällt deutlich, und ihr KGV wirkt im Vergleich zu früher verlockend niedrig. Spiegelt dieser Rückgang einen echten, anhaltenden Niedergang des Kerngeschäfts wider und keine vorübergehende Überreaktion, könnte man beim Kauf als „Schnäppchen“ in eine Value-Falle tappen.
+
+## Übungsquiz
+
+1. Eine Value-Falle ist:
+   A. Eine Aktie, die wirklich unterbewertet und ein gutes Geschäft ist
+   B. Eine Aktie, die billig aussieht, aber aus einem echten, dauerhaften Grund billig ist
+   C. Eine Art Anleihe
+   D. Eine garantiert gewinnbringende Anlage
+
+2. Richtig oder falsch: Ein niedriges KGV bedeutet immer, dass eine Aktie ein Schnäppchen ist.
+
+3. Warum kann ein niedriger Preis zutreffend ein echtes Problem widerspiegeln statt ein Schnäppchen?
+   A. Preise spiegeln nie echte Probleme wider
+   B. Der Markt preist möglicherweise korrekt sinkende Geschäftsaussichten ein
+   C. Niedrige Preise sind immer Fehler
+   D. Das kommt an echten Märkten nie vor
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Eine Value-Falle sieht billig aus, spiegelt aber ein echtes, dauerhaftes Problem wider.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Ein niedriges KGV kann einen echten, verdienten Rückgang widerspiegeln und nicht nur ein Schnäppchen.
+
+### Frage 3
+
+Richtige Antwort: B. Märkte können echte, anhaltende Probleme korrekt einpreisen.
+
+## Wichtigste Erkenntnisse
+
+- Eine Value-Falle sieht billig aus, ist aber aus einem echten, dauerhaften Grund billig.
+- Ein niedriger Preis oder eine niedrige Kennzahl allein garantiert kein Schnäppchen.
+- Ein niedriges KGV kann entweder Unterbewertung oder einen echten, verdienten Rückgang widerspiegeln.
+
+===== WHITE-L1-048
+TITLE: Was ist geldgewichtete und zeitgewichtete Rendite? (Warum zwei Menschen mit der „gleichen“ Anlage unterschiedliche Renditen haben können)
+SUMMARY: Erfahren Sie, warum zwei Anleger im selben Fonds tatsächlich unterschiedliche persönliche Renditen haben können – je nachdem, wann sie Geld eingezahlt oder abgezogen haben.
+# Was ist geldgewichtete und zeitgewichtete Rendite? (Warum zwei Menschen mit der „gleichen“ Anlage unterschiedliche Renditen haben können)
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- die zeitgewichtete und die geldgewichtete Rendite in einfachen Worten definieren können.
+- erklären können, warum sie für denselben Fonds unterschiedliche Zahlen ergeben können.
+- erkennen können, warum der Zeitpunkt von Einzahlungen für die persönliche Rendite wichtig ist.
+
+## Kerninhalt
+
+### Zeitgewichtete Rendite
+
+Die zeitgewichtete Rendite misst, wie sich eine Anlage selbst über einen Zeitraum entwickelt hat, unabhängig davon, wann Geld eingezahlt oder abgezogen wurde – das ist typischerweise die Zahl, die ein Fonds selbst angibt.
+
+### Geldgewichtete Rendite
+
+Die geldgewichtete Rendite misst die tatsächliche persönliche Rendite eines einzelnen Anlegers, die stark davon abhängt, WANN er Geld eingezahlt oder abgezogen hat – derselbe Fonds kann für verschiedene Anleger je nach persönlichem Timing sehr unterschiedliche geldgewichtete Renditen ergeben.
+
+### Warum sie sich unterscheiden können
+
+*VERANSCHAULICHENDES BEISPIEL:* Zahlt ein Anleger kurz vor einem Abschwung einen großen Betrag ein, fällt seine persönliche geldgewichtete Rendite schlechter aus als die zeitgewichtete Rendite des Fonds für diesen Zeitraum – obwohl er in genau demselben Fonds investiert ist wie jemand, der früher eingestiegen ist.
+
+## Durchgerechnetes Beispiel
+
+Ein Fonds meldet für das Jahr eine zeitgewichtete Rendite von 10 %. Ein Anleger, der kurz vor einem kurzen Abschwung innerhalb dieses Jahres einen großen Einmalbetrag eingezahlt und dann bis zur Erholung durchgehalten hat, könnte eine persönliche geldgewichtete Rendite haben, die spürbar von diesen gemeldeten 10 % abweicht – derselbe Fonds, aber eine ganz andere persönliche Erfahrung je nach Timing.
+
+## Übungsquiz
+
+1. Die zeitgewichtete Rendite misst:
+   A. Die persönliche, vom Timing abhängige Rendite eines einzelnen Anlegers
+   B. Die eigene Wertentwicklung der Anlage, unabhängig vom Zeitpunkt der Einzahlungen
+   C. Nur Dividendenerträge
+   D. Die Marktkapitalisierung eines Unternehmens
+
+2. Richtig oder falsch: Die geldgewichtete Rendite wird nicht davon beeinflusst, wann ein Anleger Geld einzahlt oder abzieht.
+
+3. Warum können zwei Anleger im selben Fonds unterschiedliche persönliche Renditen haben?
+   A. Fonds melden jedem Anleger andere Zahlen
+   B. Ihre persönliche geldgewichtete Rendite hängt vom Zeitpunkt ihrer Einzahlungen ab
+   C. Das kommt in Wirklichkeit nie vor
+   D. Nur die Fondsgebühren unterscheiden sich zwischen den Anlegern
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Die zeitgewichtete Rendite misst die eigene Wertentwicklung des Fonds, unabhängig vom Zeitpunkt der Einzahlungen.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die geldgewichtete Rendite wird gerade durch den Zeitpunkt der Einzahlungen geprägt.
+
+### Frage 3
+
+Richtige Antwort: B. Das persönliche Timing der Einzahlungen erklärt die Unterschiede bei der geldgewichteten Rendite.
+
+## Wichtigste Erkenntnisse
+
+- Die zeitgewichtete Rendite misst die eigene Wertentwicklung der Anlage.
+- Die geldgewichtete Rendite misst die persönliche, vom Timing abhängige Rendite eines Einzelnen.
+- Zwei Anleger im selben Fonds können tatsächlich unterschiedliche persönliche Renditen haben.
+
+===== WHITE-L1-049
+TITLE: Einen Depotauszug lesen: Was sehen Sie da eigentlich?
+SUMMARY: Erfahren Sie, wie man die Kernbereiche eines Depotauszugs liest, und verbinden Sie dabei Begriffe aus dem gesamten Level.
+# Einen Depotauszug lesen: Was sehen Sie da eigentlich?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- die Kernbereiche eines typischen Depotauszugs erkennen können.
+- erklären können, was jeder Bereich tatsächlich aussagt.
+- Begriffe aus dem Auszug mit Konzepten aus diesem Level verbinden können.
+
+## Kerninhalt
+
+### Kernbereiche eines Auszugs
+
+Ein typischer Depotauszug enthält im Allgemeinen: den Depotbestand (was man besitzt und wie viel), die Umsatzübersicht (jüngste Käufe, Verkäufe, Dividenden) und eine Übersicht zur Wertentwicklung – wobei die genaue Gestaltung von Anbieter zu Anbieter unterschiedlich ist.
+
+### Was jeder Bereich aussagt
+
+Der Bestandsbereich zeigt die aktuellen Positionen und ihren Marktwert. Die Umsatzübersicht zeigt die jüngsten Aktivitäten, einschließlich Dividendenzahlungen (früher in diesem Level behandelt). Die Übersicht zur Wertentwicklung gibt oft so etwas wie eine zeitgewichtete Rendite an (aus der vorigen Lektion), nicht unbedingt die persönliche, geldgewichtete Erfahrung eines Anlegers.
+
+### Die Verbindung zu den Konzepten dieses Levels
+
+Einen Auszug gut zu lesen bedeutet, bereits behandelte Begriffe wiederzuerkennen: gehaltene Aktien, Marktwert, erhaltene Dividenden und den Unterschied zwischen der vom Fonds gemeldeten Rendite und der tatsächlichen persönlichen Rendite eines Einzelnen, die vom Zeitpunkt seiner eigenen Einzahlungen abhängt.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger prüft seinen Auszug und sieht, dass er Anteile an einem ETF besitzt, bemerkt in der Umsatzübersicht eine kürzlich gezahlte Dividende und sieht eine gemeldete Rendite seit Jahresbeginn – und erkennt, dass diese Zahl wahrscheinlich die zeitgewichtete Wertentwicklung widerspiegelt und nicht unbedingt seine eigene genaue persönliche Rendite, wenn er im Laufe des Jahres Geld nachgeschossen hat.
+
+## Übungsquiz
+
+1. Der Bestandsbereich eines Depotauszugs zeigt typischerweise:
+   A. Nur die Gebühren des Anbieters
+   B. Die aktuellen Positionen und ihren Marktwert
+   C. Nur die Steuererklärung des Anlegers
+   D. Eine Liste beliebiger Unternehmen
+
+2. Richtig oder falsch: Die Übersicht zur Wertentwicklung auf einem Auszug spiegelt immer die genaue persönliche, geldgewichtete Rendite eines Anlegers wider.
+
+3. Was enthält die Umsatzübersicht typischerweise?
+   A. Nur künftig geplante Geschäfte
+   B. Jüngste Käufe, Verkäufe und Dividendenzahlungen
+   C. Den vollständigen Jahresabschluss eines Unternehmens
+   D. Staatliche Steuerunterlagen
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Der Bestand zeigt die aktuellen Positionen und ihren Marktwert.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die gemeldete Wertentwicklung ist oft zeitgewichtet und nicht unbedingt die persönliche, geldgewichtete Rendite des Anlegers.
+
+### Frage 3
+
+Richtige Antwort: B. Die Umsatzübersicht umfasst die jüngsten Aktivitäten im Depot.
+
+## Wichtigste Erkenntnisse
+
+- Ein Depotauszug enthält typischerweise Bestand, Umsatzübersicht und eine Übersicht zur Wertentwicklung.
+- Die gemeldete Wertentwicklung ist oft zeitgewichtet und nicht automatisch die persönliche Rendite eines Anlegers.
+- Einen Auszug gut zu lesen, stützt sich auf Konzepte aus dem gesamten Level.
+
+===== WHITE-L1-050
+TITLE: Abschlussprojekt: Schritt für Schritt das erste einfache Portfolio aufbauen
+SUMMARY: Wenden Sie alles aus WHITE Level 1 an, indem Sie den Aufbau eines ersten einfachen Anlageportfolios von Anfang bis Ende durchgehen.
+# Abschlussprojekt: Schritt für Schritt das erste einfache Portfolio aufbauen
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- die Kernkonzepte aus WHITE Level 1 auf ein zusammenhängendes Szenario anwenden können.
+- erkennen können, welches Konzept dieses Levels bei jedem Schritt gilt.
+- erklären können, wie die Bausteine eines Portfolios als Ganzes zusammenpassen.
+
+## Kerninhalt
+
+### Das Szenario
+
+James möchte zum ersten Mal investieren. Er will bei jedem Schritt verstehen, was er tatsächlich tut, statt nur blind Anweisungen zu folgen.
+
+### Schritt für Schritt
+
+James sorgt zuerst für einen Notgroschen (Lektion 35) an einem liquiden, risikoarmen Ort, bevor er irgendetwas anderes investiert. Er eröffnet ein Depot bzw. Brokerage-Konto (Lektion 21) und weiß, dass es sich von einem Altersvorsorgekonto unterscheidet; außerdem prüft er separat, ob sein Arbeitgeber beim 401(k) einen Zuschuss (Matching, Lektion 18) anbietet, den er zuerst mitnehmen sollte. (Außerhalb der USA gibt es stattdessen eigene Formen der betrieblichen Altersvorsorge mit anderen Regeln.)
+
+Er entscheidet sich, in einen ETF (Lektion 9) zu investieren, statt einzelne Aktien auszuwählen, weil er die Diversifikation (Lektion 13) schätzt, die dieser bietet. Er prüft die Kostenquote (Lektion 12) und weiß, dass sich kleine Prozentunterschiede mit der Zeit summieren. Er entscheidet sich für den Cost-Average-Effekt bzw. Dollar-Cost Averaging (Lektion 22) und investiert monatlich einen festen Betrag, statt zu versuchen, den richtigen Zeitpunkt am Markt zu erwischen.
+
+Er legt eine Asset-Allokation (Lektion 43) mit überwiegend Aktien fest, passend zu seinem langen Anlagehorizont, und weiß, dass er regelmäßig ein Rebalancing (Lektion 44) vornehmen muss, wenn der Markt diese Mischung verschiebt. Er weiß, dass sein Depotauszug (Lektion 49) Bestand, Umsätze und eine Wertentwicklungszahl zeigt, die nicht genau seiner persönlichen geldgewichteten Rendite (Lektion 48) entsprechen muss, da er nach und nach über die Zeit einzahlt.
+
+### Warum das wichtig ist
+
+Keine dieser Entscheidungen fällt in einem echten Portfolio isoliert – sie verbinden sich zu einem einzigen Prozess, der auf Verständnis beruht und nicht auf dem blinden Befolgen von Schritten.
+
+## Durchgerechnetes Beispiel
+
+Wenn James nach dem Aufbau seines Notgroschens und dem Mitnehmen eines möglichen Arbeitgeberzuschusses monatlich 300 $ per Cost-Average-Effekt in einen breit gestreuten ETF mit niedriger Kostenquote in einem normalen Depot investiert, hat er fast jedes wichtige Konzept dieses Levels in einem zusammenhängenden Plan angewendet.
+
+## Übungsquiz
+
+1. Warum hat James sichergestellt, dass er einen Notgroschen hat, bevor er weiter investierte?
+   A. Das ist eigentlich nicht nötig
+   B. Er schützt seine anderen Finanzpläne davor, durch unerwartete Ausgaben durcheinandergebracht zu werden
+   C. Ein Notgroschen garantiert Anlagerenditen
+   D. Er hat nichts mit dem Investieren zu tun
+
+2. Richtig oder falsch: Die gemeldete Wertentwicklung von James' Depot entspricht immer genau seiner persönlichen geldgewichteten Rendite.
+
+3. Warum hat James einen ETF gewählt, statt einzelne Aktien auszuwählen?
+   A. ETFs garantieren höhere Renditen
+   B. Er schätzte die Diversifikation, die ein ETF bietet
+   C. ETFs haben keine Kostenquote
+   D. Einzelne Aktien sind für Anfänger verboten
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Notgroschen schützt längerfristige Pläne vor kurzfristigen Störungen, wie in Lektion 35 behandelt.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die gemeldete Wertentwicklung ist oft zeitgewichtet und nicht genau seine persönliche geldgewichtete Rendite, wie in den Lektionen 48–49 behandelt.
+
+### Frage 3
+
+Richtige Antwort: B. Diversifikation war James' erklärter Grund – das knüpft an Lektion 13 an.
+
+## Wichtigste Erkenntnisse
+
+- Der Aufbau eines ersten Portfolios verbindet fast jedes Konzept dieses Levels zu einem einzigen Prozess.
+- Die Reihenfolge ist wichtig: zuerst der Notgroschen, dann die Kontoart, dann die Anlageauswahl, dann die laufende Verwaltung.
+- Dieses Abschlussprojekt markiert den Abschluss von WHITE Level 1 – Level 2 baut auf dieser Grundlage mit vertiefter Bewertung und Konzepten der Anlagephilosophie auf.

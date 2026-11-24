@@ -19,7 +19,7 @@ Ein Robo-Advisor ist ein automatisierter Dienst, der ein Anlageportfolio auf Gru
 
 ### Wie er typischerweise ein Portfolio zusammenstellt
 
-Ein Robo-Advisor stellt typischerweise eine Reihe von Fragen zu Zielen, Anlagehorizont und Risikobereitschaft und verteilt das Geld dann automatisch auf eine Mischung von Anlagen (oft ETFs, die früher in dieser Stufe behandelt wurden), die zu diesem Profil passt.
+Ein Robo-Advisor stellt typischerweise eine Reihe von Fragen zu Zielen, Anlagehorizont und Risikobereitschaft und verteilt das Geld dann automatisch auf eine Mischung von Anlagen (oft ETFs, die früher in diesem Level behandelt wurden), die zu diesem Profil passt.
 
 ### Der grundlegende Kompromiss gegenüber einem menschlichen Berater
 
@@ -96,7 +96,7 @@ Das Kernkonzept besteht darin, einen Geldbetrag heute in einen festgelegten spä
 
 ### Es gibt echte Komplexität
 
-*ANNAHME (zu Lehrzwecken):* Annuitäten gibt es in vielen verschiedenen Ausgestaltungen mit unterschiedlichen Gebühren, Bedingungen und Garantien. Diese einführende Lektion behandelt nur das Grundkonzept – die tatsächliche Vielfalt und Komplexität von Annuitätenprodukten geht über diese Stufe hinaus.
+*ANNAHME (zu Lehrzwecken):* Annuitäten gibt es in vielen verschiedenen Ausgestaltungen mit unterschiedlichen Gebühren, Bedingungen und Garantien. Diese einführende Lektion behandelt nur das Grundkonzept – die tatsächliche Vielfalt und Komplexität von Annuitätenprodukten geht über dieses Level hinaus.
 
 ## Durchgerechnetes Beispiel
 
@@ -165,7 +165,7 @@ Asset-Allokation beschreibt, wie ein Anleger sein gesamtes Portfolio auf verschi
 
 ### Wie sie sich von der Diversifikation unterscheidet
 
-Diversifikation (früher in dieser Stufe behandelt) bezeichnet im Allgemeinen die Streuung von Anlagen innerhalb einer Klasse, etwa den Besitz vieler verschiedener Aktien. Die Asset-Allokation setzt eine Ebene höher an – sie entscheidet, wie viel insgesamt in Aktien, wie viel insgesamt in Anleihen und wie viel insgesamt in Bargeld fließt.
+Diversifikation (früher in diesem Level behandelt) bezeichnet im Allgemeinen die Streuung von Anlagen innerhalb einer Klasse, etwa den Besitz vieler verschiedener Aktien. Die Asset-Allokation setzt eine Ebene höher an – sie entscheidet, wie viel insgesamt in Aktien, wie viel insgesamt in Anleihen und wie viel insgesamt in Bargeld fließt.
 
 ### Warum sie grundlegend ist
 

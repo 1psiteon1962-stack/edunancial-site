@@ -1,0 +1,368 @@
+===== WHITE-L1-046
+TITLE: Che cos'è il riacquisto di azioni proprie (buyback)? (Versione introduttiva – approfondimento nel Livello 2)
+SUMMARY: Scopri a livello introduttivo che cos'è un buyback e perché può influire sui dati per azione senza cambiare l'attività.
+# Che cos'è il riacquisto di azioni proprie (buyback)? (Versione introduttiva – approfondimento nel Livello 2)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un buyback in termini semplici.
+- spiegare l'effetto meccanico di base sul numero di azioni in circolazione.
+- riconoscere che un esame più approfondito dei suoi effetti sugli indicatori arriva nel Livello 2.
+
+## Contenuto principale
+
+### Che cos'è un buyback
+
+Un buyback (riacquisto di azioni proprie) avviene quando un'azienda ricompra le proprie azioni sul mercato aperto, riducendo il numero di azioni in circolazione (un concetto introdotto in precedenza in questo livello).
+
+### L'effetto meccanico di base
+
+Con meno azioni in circolazione e lo stesso utile complessivo dell'azienda, ogni azione rimasta rappresenta una fetta un po' più grande dell'azienda: un collegamento con l'EPS (utile per azione), trattato in precedenza in questo livello.
+
+### Un'anteprima del Livello 2
+
+*IPOTESI (a scopo didattico):* Questa lezione introduttiva tratta solo la meccanica di base. Il Livello 2 approfondisce come i buyback possano far sembrare migliori i dati per azione, come l'EPS e il rapporto P/E, senza che l'attività sottostante migliori davvero.
+
+## Esempio svolto
+
+Un'azienda con 1.000.000 di azioni in circolazione ne riacquista 100.000, lasciandone 900.000. Con lo stesso utile netto, l'EPS sale semplicemente perché quell'utile ora è diviso tra meno azioni.
+
+## Quiz di esercitazione
+
+1. Un buyback significa:
+   A. Un'azienda che emette azioni del tutto nuove
+   B. Un'azienda che ricompra le proprie azioni sul mercato
+   C. Un frazionamento azionario
+   D. Il pagamento di un dividendo
+
+2. Vero o falso: un buyback aumenta il numero totale di azioni in circolazione.
+
+3. A parità di utile netto, che cosa succede all'EPS dopo che un buyback ha ridotto le azioni in circolazione?
+   A. L'EPS diminuisce
+   B. L'EPS aumenta, perché l'utile ora è diviso tra meno azioni
+   C. L'EPS resta esattamente uguale
+   D. L'EPS diventa zero
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un buyback è il riacquisto da parte di un'azienda delle proprie azioni.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un buyback riduce, non aumenta, le azioni in circolazione.
+
+### Domanda 3
+
+Risposta corretta: B. Meno azioni tra cui dividere lo stesso utile fanno salire meccanicamente l'EPS.
+
+## Punti chiave
+
+- Un buyback è il riacquisto da parte di un'azienda delle proprie azioni, che riduce le azioni in circolazione.
+- Questo fa salire meccanicamente l'EPS, anche senza alcuna variazione dell'utile complessivo.
+- Il Livello 2 approfondisce come questo possa distorcere gli indicatori per azione.
+
+===== WHITE-L1-047
+TITLE: Che cos'è una bear trap / value trap? (Perché "a buon mercato" può essere un segnale d'allarme)
+SUMMARY: Scopri che cos'è una value trap e perché un prezzo basso, da solo, non significa che un'azione sia un affare.
+# Che cos'è una bear trap / value trap? (Perché "a buon mercato" può essere un segnale d'allarme)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una value trap in termini semplici.
+- spiegare perché un prezzo basso, da solo, non indica un buon affare.
+- collegare questo concetto alla lezione sul rapporto P/E.
+
+## Contenuto principale
+
+### Che cos'è una value trap
+
+Una value trap (trappola del valore) è un'azione che sembra a buon mercato in base a semplici indicatori (come un rapporto P/E basso, trattato in precedenza in questo livello), ma che in realtà è a buon mercato per un motivo reale e duraturo: fondamentali dell'attività in peggioramento, non un errore di prezzo temporaneo.
+
+### Perché un prezzo basso non basta
+
+Che il prezzo o un indicatore di un'azione siano più bassi di prima non significa automaticamente che sia un affare. A volte un prezzo più basso riflette correttamente un calo reale e continuo delle prospettive dell'azienda: il mercato sta prezzando correttamente un problema autentico, non sta sbagliando.
+
+### Il collegamento con il P/E
+
+Un rapporto P/E basso può significare che un'azione è sottovalutata, oppure che il mercato si aspetta utili futuri in calo, rendendo l'attuale prezzo basso appropriato invece che un affare. Per distinguere tra i due casi bisogna guardare più a fondo del solo indicatore.
+
+## Esempio svolto
+
+Il prezzo di un'azione scende in modo significativo e il suo rapporto P/E sembra interessante e basso rispetto al passato. Se quel calo riflette un declino reale e continuo dell'attività principale dell'azienda e non una reazione eccessiva temporanea, comprarla come "affare" potrebbe significare cadere in una value trap.
+
+## Quiz di esercitazione
+
+1. Una value trap è:
+   A. Un'azione davvero sottovalutata e un buon affare
+   B. Un'azione che sembra a buon mercato ma lo è per un motivo reale e duraturo
+   C. Un tipo di obbligazione
+   D. Un investimento sicuramente redditizio
+
+2. Vero o falso: un rapporto P/E basso significa sempre che un'azione è un affare.
+
+3. Perché un prezzo basso potrebbe riflettere correttamente un problema reale invece che un affare?
+   A. I prezzi non riflettono mai problemi reali
+   B. Il mercato potrebbe prezzare correttamente prospettive dell'attività in calo
+   C. I prezzi bassi sono sempre errori
+   D. Nei mercati reali non succede mai
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una value trap sembra a buon mercato ma riflette un problema reale e duraturo.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un P/E basso può riflettere un calo reale e meritato, non solo un affare.
+
+### Domanda 3
+
+Risposta corretta: B. I mercati possono prezzare correttamente problemi autentici e continui.
+
+## Punti chiave
+
+- Una value trap sembra a buon mercato ma lo è per un motivo reale e duraturo.
+- Un prezzo basso o un indicatore basso, da soli, non garantiscono un affare.
+- Un P/E basso può riflettere una sottovalutazione oppure un calo autentico e meritato.
+
+===== WHITE-L1-048
+TITLE: Che cos'è il rendimento ponderato per il denaro rispetto a quello ponderato per il tempo? (Perché due persone possono avere rendimenti diversi sullo "stesso" investimento)
+SUMMARY: Scopri perché due investitori nello stesso fondo possono avere rendimenti personali davvero diversi, a seconda di quando hanno versato o ritirato denaro.
+# Che cos'è il rendimento ponderato per il denaro rispetto a quello ponderato per il tempo? (Perché due persone possono avere rendimenti diversi sullo "stesso" investimento)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire in termini semplici il rendimento ponderato per il tempo e quello ponderato per il denaro.
+- spiegare perché possono dare numeri diversi per lo stesso fondo.
+- riconoscere perché il momento dei versamenti conta per il rendimento personale.
+
+## Contenuto principale
+
+### Rendimento ponderato per il tempo
+
+Il rendimento ponderato per il tempo (time-weighted return) misura come si è comportato l'investimento in sé in un certo periodo, indipendentemente da quando il denaro è stato versato o ritirato: è il numero che di solito comunica il fondo stesso.
+
+### Rendimento ponderato per il denaro
+
+Il rendimento ponderato per il denaro (money-weighted o dollar-weighted return) misura il rendimento personale effettivo di un singolo investitore, che dipende molto da QUANDO ha versato o ritirato denaro: lo stesso fondo può produrre rendimenti ponderati per il denaro molto diversi per investitori diversi, in base ai loro tempi personali.
+
+### Perché possono differire
+
+*ESEMPIO ILLUSTRATIVO:* Se un investitore versa una grossa somma subito prima di un calo, il suo rendimento personale ponderato per il denaro sarà peggiore del rendimento ponderato per il tempo del fondo in quel periodo, anche se è investito esattamente nello stesso fondo di chi ha investito prima.
+
+## Esempio svolto
+
+Un fondo comunica un rendimento ponderato per il tempo del 10% per l'anno. Un investitore che ha versato una grossa somma unica subito prima di un breve calo nel corso di quell'anno, e poi ha mantenuto l'investimento durante la ripresa, potrebbe avere un rendimento personale ponderato per il denaro sensibilmente diverso da quel 10% comunicato: stesso fondo, esperienza personale molto diversa in base ai tempi.
+
+## Quiz di esercitazione
+
+1. Il rendimento ponderato per il tempo misura:
+   A. Il rendimento personale di un singolo investitore basato sui suoi tempi
+   B. Il rendimento dell'investimento in sé, indipendentemente dal momento dei versamenti
+   C. Solo i proventi da dividendi
+   D. La capitalizzazione di mercato di un'azienda
+
+2. Vero o falso: il rendimento ponderato per il denaro non è influenzato da quando un investitore versa o ritira denaro.
+
+3. Perché due investitori nello stesso fondo possono avere rendimenti personali diversi?
+   A. I fondi comunicano numeri diversi a ogni investitore
+   B. Il loro rendimento personale ponderato per il denaro dipende dal momento dei loro versamenti
+   C. In realtà non succede mai
+   D. Tra gli investitori differiscono solo le commissioni del fondo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il rendimento ponderato per il tempo misura il rendimento del fondo in sé, indipendentemente dal momento dei versamenti.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rendimento ponderato per il denaro è determinato proprio dal momento dei versamenti.
+
+### Domanda 3
+
+Risposta corretta: B. I tempi personali dei versamenti spiegano le differenze nel rendimento ponderato per il denaro.
+
+## Punti chiave
+
+- Il rendimento ponderato per il tempo misura il rendimento dell'investimento in sé.
+- Il rendimento ponderato per il denaro misura il rendimento personale di un individuo, che dipende dai suoi tempi.
+- Due investitori nello stesso fondo possono avere rendimenti personali davvero diversi.
+
+===== WHITE-L1-049
+TITLE: Leggere un estratto conto titoli: che cosa stai guardando davvero?
+SUMMARY: Scopri come leggere le sezioni principali di un estratto conto titoli, collegando termini da tutto questo livello.
+# Leggere un estratto conto titoli: che cosa stai guardando davvero?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- individuare le sezioni principali di un tipico estratto conto titoli.
+- spiegare che cosa ti dice davvero ciascuna sezione.
+- collegare i termini dell'estratto conto ai concetti visti in precedenza in questo livello.
+
+## Contenuto principale
+
+### Le sezioni principali di un estratto conto
+
+Un tipico estratto conto titoli comprende in genere: le posizioni detenute (che cosa si possiede e in che quantità), lo storico dei movimenti (acquisti, vendite e dividendi recenti) e un riepilogo del rendimento, anche se l'impaginazione esatta varia da intermediario a intermediario.
+
+### Che cosa ti dice ciascuna sezione
+
+La sezione delle posizioni mostra le posizioni attuali e il loro valore di mercato. Lo storico dei movimenti mostra l'attività recente, compresi i pagamenti di dividendi (trattati in precedenza in questo livello). Il riepilogo del rendimento riporta spesso qualcosa come un rendimento ponderato per il tempo (trattato nella lezione precedente), non necessariamente l'esperienza personale ponderata per il denaro di un investitore.
+
+### Il collegamento con i concetti di questo livello
+
+Leggere bene un estratto conto significa riconoscere termini già visti: azioni possedute, valore di mercato, dividendi ricevuti e la distinzione tra il rendimento comunicato dal fondo e il rendimento personale effettivo di un individuo, che dipende dai tempi dei suoi versamenti.
+
+## Esempio svolto
+
+Un investitore che controlla il proprio estratto conto vede di possedere quote di un ETF, nota un dividendo recente nello storico dei movimenti e vede un rendimento da inizio anno: capisce che quel numero riflette probabilmente il rendimento ponderato per il tempo, non necessariamente il suo esatto rendimento personale, se ha versato denaro a metà anno.
+
+## Quiz di esercitazione
+
+1. La sezione delle posizioni di un estratto conto titoli mostra di solito:
+   A. Solo le commissioni dell'intermediario
+   B. Le posizioni attuali e il loro valore di mercato
+   C. Solo la dichiarazione dei redditi dell'investitore
+   D. Un elenco di aziende senza relazione con il conto
+
+2. Vero o falso: il riepilogo del rendimento in un estratto conto riflette sempre l'esatto rendimento personale ponderato per il denaro di un investitore.
+
+3. Che cosa comprende di solito lo storico dei movimenti?
+   A. Solo le operazioni future pianificate
+   B. Acquisti, vendite e pagamenti di dividendi recenti
+   C. Il bilancio completo di un'azienda
+   D. Le dichiarazioni fiscali statali
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Le posizioni mostrano gli investimenti attuali e il loro valore di mercato.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rendimento comunicato è spesso ponderato per il tempo, non necessariamente il rendimento personale ponderato per il denaro dell'investitore.
+
+### Domanda 3
+
+Risposta corretta: B. Lo storico dei movimenti copre l'attività recente del conto.
+
+## Punti chiave
+
+- Un estratto conto titoli comprende di solito posizioni, storico dei movimenti e un riepilogo del rendimento.
+- Il rendimento comunicato è spesso ponderato per il tempo, non automaticamente il rendimento personale di un investitore.
+- Leggere bene un estratto conto si basa su concetti visti in tutto questo livello.
+
+===== WHITE-L1-050
+TITLE: Progetto finale: costruire passo dopo passo il tuo primo portafoglio semplice
+SUMMARY: Applica tutto quanto visto in WHITE Livello 1 ripercorrendo dall'inizio alla fine la costruzione di un primo portafoglio di investimento semplice.
+# Progetto finale: costruire passo dopo passo il tuo primo portafoglio semplice
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- applicare i concetti principali di WHITE Livello 1 a un unico scenario collegato.
+- individuare quale concetto di questo livello si applica a ogni passaggio.
+- spiegare come i pezzi della costruzione di un portafoglio si incastrano in un insieme.
+
+## Contenuto principale
+
+### Lo scenario
+
+James vuole iniziare a investire per la prima volta. Vuole capire che cosa sta facendo davvero a ogni passaggio, non limitarsi a seguire istruzioni alla cieca.
+
+### Passo dopo passo
+
+Prima di investire qualsiasi altra cosa, James si assicura di avere un fondo di emergenza (Lezione 35) in un luogo liquido e a basso rischio. Apre un conto titoli (Lezione 21), sapendo che è diverso da un conto previdenziale, e valuta separatamente se il suo datore di lavoro offre un contributo integrativo nel 401(k) (Lezione 18) che valga la pena sfruttare per primo. (Fuori dagli Stati Uniti esistono invece forme di previdenza complementare aziendale con regole proprie.)
+
+Decide di investire in un ETF (Lezione 9) invece di scegliere singole azioni, perché apprezza la diversificazione (Lezione 13) che offre. Controlla il costo annuo (expense ratio, Lezione 12), sapendo che piccole differenze percentuali si accumulano nel tempo. Decide di usare un piano di accumulo (dollar-cost averaging, Lezione 22), investendo ogni mese un importo fisso invece di cercare di indovinare il momento giusto sul mercato.
+
+Fissa un'asset allocation (Lezione 43) composta soprattutto da azioni, visto il suo lungo orizzonte temporale, sapendo che dovrà ribilanciare (Lezione 44) periodicamente man mano che il mercato sposta quel mix. Sa che il suo estratto conto (Lezione 49) mostrerà posizioni, movimenti e un dato di rendimento che potrebbe non coincidere esattamente con il suo rendimento personale ponderato per il denaro (Lezione 48), dato che versa gradualmente nel tempo.
+
+### Perché è importante
+
+In un portafoglio reale nessuna di queste decisioni avviene in modo isolato: si collegano in un unico processo, costruito sulla comprensione e non sul seguire passaggi alla cieca.
+
+## Esempio svolto
+
+Se James investe 300 $ al mese tramite un piano di accumulo in un ETF diversificato con un basso costo annuo, all'interno di un normale conto titoli, dopo aver già costituito il fondo di emergenza e sfruttato l'eventuale contributo del datore di lavoro, ha applicato quasi tutti i concetti principali di questo livello in un unico piano collegato.
+
+## Quiz di esercitazione
+
+1. Perché James si è assicurato di avere un fondo di emergenza prima di investire ancora?
+   A. In realtà non è necessario
+   B. Protegge gli altri suoi piani finanziari dall'essere scombussolati da spese impreviste
+   C. I fondi di emergenza garantiscono rendimenti sugli investimenti
+   D. Non ha alcun collegamento con gli investimenti
+
+2. Vero o falso: il rendimento comunicato del conto di James coinciderà sempre esattamente con il suo rendimento personale ponderato per il denaro.
+
+3. Perché James ha scelto un ETF invece di singole azioni?
+   A. Gli ETF garantiscono rendimenti più alti
+   B. Apprezzava la diversificazione che offre
+   C. Gli ETF non hanno costi annui
+   D. Le singole azioni sono vietate ai principianti
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un fondo di emergenza protegge i piani di lungo periodo dalle interruzioni di breve periodo, come visto nella Lezione 35.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il rendimento comunicato è spesso ponderato per il tempo, non il suo esatto rendimento personale ponderato per il denaro, come visto nelle Lezioni 48-49.
+
+### Domanda 3
+
+Risposta corretta: B. La diversificazione era il motivo dichiarato da James, collegato alla Lezione 13.
+
+## Punti chiave
+
+- Costruire un primo portafoglio collega quasi tutti i concetti di questo livello in un unico processo.
+- L'ordine conta: prima il fondo di emergenza, poi il tipo di conto, poi la scelta dell'investimento, poi la gestione continua.
+- Questo progetto finale segna il completamento di WHITE Livello 1: il Livello 2 si basa su queste fondamenta con concetti più approfonditi di valutazione e di filosofia d'investimento.

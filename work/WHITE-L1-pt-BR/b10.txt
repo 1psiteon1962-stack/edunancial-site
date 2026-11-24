@@ -1,0 +1,368 @@
+===== WHITE-L1-046
+TITLE: O que é recompra de ações? (Versão introdutória – análise mais profunda no Nível 2)
+SUMMARY: Aprenda, em nível introdutório, o que é uma recompra de ações e por que ela pode afetar os números por ação sem mudar o negócio.
+# O que é recompra de ações? (Versão introdutória – análise mais profunda no Nível 2)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir recompra de ações em termos simples.
+- explicar o efeito mecânico básico sobre as ações em circulação.
+- reconhecer que uma análise mais profunda do seu efeito sobre os índices vem no Nível 2.
+
+## Conteúdo principal
+
+### O que é uma recompra de ações
+
+Uma recompra de ações acontece quando uma empresa compra de volta as suas próprias ações no mercado, reduzindo o número de ações em circulação (um conceito apresentado antes neste nível).
+
+### O efeito mecânico básico
+
+Com menos ações em circulação e o mesmo lucro total da empresa, cada ação restante representa uma fatia um pouco maior da empresa: isso se liga ao LPA (lucro por ação), visto antes neste nível.
+
+### Uma prévia do Nível 2
+
+*SUPOSIÇÃO (para fins didáticos):* Esta lição introdutória trata apenas da mecânica básica. O Nível 2 mostra com mais profundidade como as recompras podem fazer números por ação, como o LPA e o P/L, parecerem melhores sem que o negócio subjacente tenha realmente melhorado.
+
+## Exemplo prático
+
+Uma empresa com 1.000.000 de ações em circulação recompra 100.000 ações, ficando com 900.000. Com o mesmo lucro líquido total, o LPA sobe simplesmente porque esse lucro agora é dividido por menos ações.
+
+## Teste de prática
+
+1. Uma recompra de ações significa:
+   A. Uma empresa emitir ações totalmente novas
+   B. Uma empresa comprar de volta as suas próprias ações no mercado
+   C. Um desdobramento de ações
+   D. Um pagamento de dividendos
+
+2. Verdadeiro ou falso: uma recompra aumenta o número total de ações em circulação.
+
+3. Com o mesmo lucro líquido, o que acontece com o LPA depois que uma recompra reduz as ações em circulação?
+   A. O LPA diminui
+   B. O LPA aumenta, já que o lucro agora é dividido por menos ações
+   C. O LPA continua exatamente o mesmo
+   D. O LPA vira zero
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Recompra é quando uma empresa compra de volta as suas próprias ações.
+
+### Pergunta 2
+
+Resposta correta: Falso. Uma recompra reduz, e não aumenta, as ações em circulação.
+
+### Pergunta 3
+
+Resposta correta: B. Menos ações dividindo o mesmo lucro elevam mecanicamente o LPA.
+
+## Pontos-chave
+
+- Recompra é quando uma empresa compra de volta as suas próprias ações, reduzindo as ações em circulação.
+- Isso eleva mecanicamente o LPA, mesmo sem mudança no lucro total.
+- O Nível 2 mostra com mais profundidade como isso pode distorcer os índices por ação.
+
+===== WHITE-L1-047
+TITLE: O que é uma armadilha de urso / armadilha de valor? (Por que "barato" pode ser um sinal de alerta)
+SUMMARY: Aprenda o que é uma armadilha de valor e por que um preço baixo, sozinho, não significa que uma ação seja uma pechincha.
+# O que é uma armadilha de urso / armadilha de valor? (Por que "barato" pode ser um sinal de alerta)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir armadilha de valor em termos simples.
+- explicar por que um preço baixo, sozinho, não indica um bom negócio.
+- ligar esse conceito à lição sobre o índice P/L.
+
+## Conteúdo principal
+
+### O que é uma armadilha de valor
+
+Uma armadilha de valor (em inglês, "value trap") é uma ação que parece barata por indicadores simples (como um P/L baixo, visto antes neste nível), mas que na verdade está barata por um motivo real e duradouro: piora nos fundamentos do negócio, e não um erro temporário de preço.
+
+### Por que um preço baixo, sozinho, não basta
+
+O preço ou um índice de uma ação estar mais baixo do que antes não significa automaticamente que ela seja uma pechincha. Às vezes, um preço mais baixo reflete corretamente uma queda real e contínua nas perspectivas do negócio da empresa: o mercado está precificando corretamente um problema verdadeiro, e não cometendo um erro.
+
+### A ligação com o P/L
+
+Um P/L baixo pode significar que uma ação está subvalorizada, ou pode significar que o mercado espera lucros futuros em queda, o que torna o preço baixo atual adequado, e não uma pechincha. Para distinguir entre os dois casos, é preciso olhar além do índice.
+
+## Exemplo prático
+
+O preço de uma ação cai bastante, e o seu P/L parece atraente e baixo em comparação com o histórico. Se essa queda refletir um declínio real e contínuo do negócio principal da empresa, e não uma reação exagerada temporária, comprá-la como "pechincha" pode significar cair em uma armadilha de valor.
+
+## Teste de prática
+
+1. Uma armadilha de valor é:
+   A. Uma ação realmente subvalorizada e um bom negócio
+   B. Uma ação que parece barata, mas está barata por um motivo real e duradouro
+   C. Um tipo de título
+   D. Um investimento com lucro garantido
+
+2. Verdadeiro ou falso: um P/L baixo sempre significa que uma ação é uma pechincha.
+
+3. Por que um preço baixo pode refletir corretamente um problema real em vez de uma pechincha?
+   A. Os preços nunca refletem problemas reais
+   B. O mercado pode estar precificando corretamente perspectivas de negócio em queda
+   C. Preços baixos são sempre erros
+   D. Isso nunca acontece nos mercados reais
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma armadilha de valor parece barata, mas reflete um problema real e duradouro.
+
+### Pergunta 2
+
+Resposta correta: Falso. Um P/L baixo pode refletir uma queda real e merecida, e não apenas uma pechincha.
+
+### Pergunta 3
+
+Resposta correta: B. Os mercados podem precificar corretamente problemas verdadeiros e contínuos.
+
+## Pontos-chave
+
+- Uma armadilha de valor parece barata, mas está barata por um motivo real e duradouro.
+- Um preço ou um índice baixo, sozinho, não garante uma pechincha.
+- Um P/L baixo pode refletir subvalorização ou uma queda verdadeira e merecida.
+
+===== WHITE-L1-048
+TITLE: O que é retorno ponderado pelo dinheiro versus retorno ponderado pelo tempo? (Por que duas pessoas podem ter retornos diferentes no "mesmo" investimento)
+SUMMARY: Aprenda por que dois investidores no mesmo fundo podem ter retornos pessoais realmente diferentes, dependendo de quando aplicaram ou retiraram dinheiro.
+# O que é retorno ponderado pelo dinheiro versus retorno ponderado pelo tempo? (Por que duas pessoas podem ter retornos diferentes no "mesmo" investimento)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir retorno ponderado pelo tempo e retorno ponderado pelo dinheiro em termos simples.
+- explicar por que eles podem gerar números diferentes para o mesmo fundo.
+- reconhecer por que o momento dos aportes importa para o retorno pessoal.
+
+## Conteúdo principal
+
+### Retorno ponderado pelo tempo
+
+O retorno ponderado pelo tempo mede como o próprio investimento se saiu em um período, independentemente de quando o dinheiro foi aplicado ou retirado: é o número que normalmente o próprio fundo divulga.
+
+### Retorno ponderado pelo dinheiro
+
+O retorno ponderado pelo dinheiro mede o retorno pessoal real de um investidor individual, que depende muito de QUANDO ele aplicou ou retirou dinheiro: o mesmo fundo pode gerar retornos ponderados pelo dinheiro muito diferentes para investidores diferentes, conforme o momento de cada um.
+
+### Por que eles podem ser diferentes
+
+*EXEMPLO ILUSTRATIVO:* Se um investidor aplica uma quantia grande logo antes de uma queda, o seu retorno pessoal ponderado pelo dinheiro será pior do que o retorno ponderado pelo tempo do fundo nesse período, mesmo estando investido exatamente no mesmo fundo que alguém que investiu antes.
+
+## Exemplo prático
+
+Um fundo divulga um retorno ponderado pelo tempo de 10% no ano. Um investidor que aplicou uma quantia única grande logo antes de uma queda breve dentro desse ano, e depois manteve o investimento durante a recuperação, pode ter um retorno pessoal ponderado pelo dinheiro bem diferente desses 10% divulgados: o mesmo fundo, uma experiência pessoal muito diferente por causa do momento.
+
+## Teste de prática
+
+1. O retorno ponderado pelo tempo mede:
+   A. O retorno pessoal de um investidor individual, baseado no seu momento
+   B. O desempenho do próprio investimento, independentemente do momento dos aportes
+   C. Apenas a renda de dividendos
+   D. A capitalização de mercado de uma empresa
+
+2. Verdadeiro ou falso: o retorno ponderado pelo dinheiro não é afetado por quando um investidor aplica ou retira dinheiro.
+
+3. Por que dois investidores no mesmo fundo podem ter retornos pessoais diferentes?
+   A. Os fundos divulgam números diferentes para cada investidor
+   B. O retorno pessoal ponderado pelo dinheiro depende do momento dos seus aportes
+   C. Isso nunca acontece de fato
+   D. Só as taxas do fundo mudam entre os investidores
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O retorno ponderado pelo tempo mede o desempenho do próprio fundo, independentemente do momento dos aportes.
+
+### Pergunta 2
+
+Resposta correta: Falso. O retorno ponderado pelo dinheiro é moldado justamente pelo momento dos aportes.
+
+### Pergunta 3
+
+Resposta correta: B. O momento pessoal dos aportes explica as diferenças no retorno ponderado pelo dinheiro.
+
+## Pontos-chave
+
+- O retorno ponderado pelo tempo mede o desempenho do próprio investimento.
+- O retorno ponderado pelo dinheiro mede o retorno pessoal de um indivíduo, que depende do momento dos aportes.
+- Dois investidores no mesmo fundo podem ter retornos pessoais realmente diferentes.
+
+===== WHITE-L1-049
+TITLE: Lendo o extrato da corretora: o que você está realmente vendo?
+SUMMARY: Aprenda a ler as seções principais de um extrato de corretora, juntando termos de todo este nível.
+# Lendo o extrato da corretora: o que você está realmente vendo?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- identificar as seções principais de um extrato de corretora típico.
+- explicar o que cada seção realmente informa.
+- ligar os termos do extrato a conceitos vistos antes neste nível.
+
+## Conteúdo principal
+
+### As seções principais de um extrato
+
+Um extrato de corretora típico geralmente inclui: a posição da carteira (o que você tem e quanto), o histórico de movimentações (compras, vendas e dividendos recentes) e um resumo de rentabilidade, embora o formato exato varie de corretora para corretora.
+
+### O que cada seção informa
+
+A seção de posição mostra os ativos atuais e o seu valor de mercado. O histórico de movimentações mostra a atividade recente, incluindo pagamentos de dividendos (vistos antes neste nível). O resumo de rentabilidade muitas vezes informa algo como um retorno ponderado pelo tempo (visto na lição anterior), e não necessariamente a experiência pessoal ponderada pelo dinheiro de um investidor.
+
+### Ligando aos conceitos deste nível
+
+Ler bem um extrato significa reconhecer termos já vistos: ações que você possui, valor de mercado, dividendos recebidos e a diferença entre o retorno divulgado pelo fundo e o retorno pessoal real de um indivíduo, que depende do momento dos seus próprios aportes.
+
+## Exemplo prático
+
+Um investidor que confere o seu extrato vê que tem cotas de um ETF, nota um pagamento recente de dividendos no histórico de movimentações e vê uma rentabilidade informada no ano: ele entende que esse número provavelmente reflete o desempenho ponderado pelo tempo, e não necessariamente o seu retorno pessoal exato, se ele aplicou dinheiro no meio do ano.
+
+## Teste de prática
+
+1. A seção de posição de um extrato de corretora normalmente mostra:
+   A. Só as taxas da corretora
+   B. Os ativos atuais e o seu valor de mercado
+   C. Só a declaração de imposto de renda do investidor
+   D. Uma lista de empresas sem relação com a conta
+
+2. Verdadeiro ou falso: o resumo de rentabilidade de um extrato sempre reflete o retorno pessoal exato, ponderado pelo dinheiro, de um investidor.
+
+3. O que o histórico de movimentações normalmente inclui?
+   A. Só operações futuras planejadas
+   B. Compras, vendas e pagamentos de dividendos recentes
+   C. As demonstrações financeiras completas de uma empresa
+   D. Declarações de impostos ao governo
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A posição mostra os ativos atuais e o seu valor de mercado.
+
+### Pergunta 2
+
+Resposta correta: Falso. A rentabilidade informada muitas vezes é ponderada pelo tempo, e não necessariamente o retorno pessoal ponderado pelo dinheiro do investidor.
+
+### Pergunta 3
+
+Resposta correta: B. O histórico de movimentações cobre a atividade recente da conta.
+
+## Pontos-chave
+
+- Um extrato de corretora normalmente inclui posição, histórico de movimentações e um resumo de rentabilidade.
+- A rentabilidade informada muitas vezes é ponderada pelo tempo, e não automaticamente o retorno pessoal de um investidor.
+- Ler bem um extrato depende de conceitos vistos ao longo de todo este nível.
+
+===== WHITE-L1-050
+TITLE: Projeto final: montando a sua primeira carteira simples, passo a passo
+SUMMARY: Aplique tudo o que viu no WHITE Nível 1 percorrendo, do começo ao fim, a montagem de uma primeira carteira de investimentos simples.
+# Projeto final: montando a sua primeira carteira simples, passo a passo
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- aplicar os conceitos centrais do WHITE Nível 1 a um único cenário integrado.
+- identificar qual conceito deste nível se aplica a cada passo.
+- explicar como as partes da montagem de uma carteira se encaixam como um todo.
+
+## Conteúdo principal
+
+### O cenário
+
+James quer começar a investir pela primeira vez. Ele quer entender o que está realmente fazendo em cada passo, e não só seguir instruções às cegas.
+
+### Passo a passo
+
+Antes de investir qualquer outra coisa, James garante que tem uma reserva de emergência (Lição 35) em um lugar líquido e de baixo risco. Ele abre uma conta em corretora (Lição 21), entendendo que ela é diferente de uma conta de aposentadoria, e avalia separadamente se o empregador oferece contrapartida no 401(k) (Lição 18) que valha a pena aproveitar primeiro. (Fora dos EUA, existem em vez disso formas próprias de previdência complementar da empresa, com outras regras.)
+
+Ele decide investir em um ETF (Lição 9) em vez de escolher ações individuais, porque valoriza a diversificação (Lição 13) que ele oferece. Confere a taxa de despesas (Lição 12), sabendo que pequenas diferenças percentuais se acumulam com o tempo. Decide usar o investimento periódico (dollar-cost averaging, Lição 22), aplicando um valor fixo por mês em vez de tentar acertar o momento do mercado.
+
+Ele define uma alocação de ativos (Lição 43) principalmente em ações, dado o seu horizonte longo, sabendo que vai precisar rebalancear (Lição 44) periodicamente à medida que o mercado mudar essa combinação. Ele sabe que o extrato da conta (Lição 49) vai mostrar posição, movimentações e um número de rentabilidade que pode não bater exatamente com o seu retorno pessoal ponderado pelo dinheiro (Lição 48), já que ele aplica aos poucos ao longo do tempo.
+
+### Por que isso importa
+
+Nenhuma dessas decisões acontece de forma isolada em uma carteira real: elas se ligam em um único processo, construído com compreensão, e não seguindo passos às cegas.
+
+## Exemplo prático
+
+Se James investir US$ 300 por mês, por meio de investimento periódico, em um ETF diversificado com taxa de despesas baixa, dentro de uma conta comum em corretora, depois de já ter montado a reserva de emergência e aproveitado qualquer contrapartida disponível do empregador, ele terá aplicado quase todos os conceitos principais deste nível em um único plano integrado.
+
+## Teste de prática
+
+1. Por que James garantiu que tinha uma reserva de emergência antes de investir mais?
+   A. Na verdade, não é necessário
+   B. Ela protege os seus outros planos financeiros de serem atrapalhados por despesas inesperadas
+   C. Reservas de emergência garantem retornos de investimento
+   D. Ela não tem nenhuma ligação com investir
+
+2. Verdadeiro ou falso: a rentabilidade informada da conta de James sempre vai bater exatamente com o seu retorno pessoal ponderado pelo dinheiro.
+
+3. Por que James escolheu um ETF em vez de ações individuais?
+   A. ETFs garantem retornos maiores
+   B. Ele valorizava a diversificação que o ETF oferece
+   C. ETFs não têm taxa de despesas
+   D. Ações individuais são proibidas para iniciantes
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma reserva de emergência protege os planos de longo prazo de interrupções de curto prazo, como visto na Lição 35.
+
+### Pergunta 2
+
+Resposta correta: Falso. A rentabilidade informada muitas vezes é ponderada pelo tempo, e não o seu retorno pessoal exato ponderado pelo dinheiro, como visto nas Lições 48-49.
+
+### Pergunta 3
+
+Resposta correta: B. A diversificação foi o motivo declarado por James, ligado à Lição 13.
+
+## Pontos-chave
+
+- Montar uma primeira carteira junta quase todos os conceitos deste nível em um único processo.
+- A ordem importa: primeiro a reserva de emergência, depois o tipo de conta, depois a escolha do investimento, depois a gestão contínua.
+- Este projeto final marca a conclusão do WHITE Nível 1: o Nível 2 se apoia nessa base com conceitos mais profundos de avaliação e de filosofia de investimento.
