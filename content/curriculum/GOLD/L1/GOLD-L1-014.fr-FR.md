@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 14
-title: "Réinvestir ou dépenser les gains"
-summary: "Étudie le choix entre réinvestir la croissance et l’utiliser, ainsi que son effet sur la capitalisation."
+locale: fr-FR
+title: "Réinvestir ou dépenser ses gains"
+summary: "Examine la décision de réinvestir la croissance ou de l’utiliser, et la façon dont ce choix influe sur la capitalisation."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Réinvestir ou dépenser les gains
+# Réinvestir ou dépenser ses gains
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Expliquer la différence entre réinvestir et dépenser les gains de placement
+- Relier cette décision à la notion de capitalisation vue plus tôt
+- Reconnaître qu’il n’existe pas de choix universellement « correct », seulement des compromis
 
 ## Contenu principal
 
-Lorsqu’un investissement prend de la valeur, l’investisseur doit un jour choisir entre laisser cette croissance investie ou convertir une partie en argent disponible. Le choix est directement lié à la capitalisation : les gains réinvestis continuent de participer à la croissance future, tandis que les gains dépensés cessent de produire une croissance dans cette position.
+Une fois qu’un placement a pris de la valeur, l’investisseur fait tôt ou tard face à un choix : garder cette croissance investie (réinvestir), ou en convertir une partie en argent pour la dépenser autrement. Cette décision renvoie directement à la leçon sur la capitalisation vue plus tôt dans ce parcours — la croissance réinvestie continue de se capitaliser, en s’appuyant sur elle-même au fil du temps, alors que la croissance dépensée cesse entièrement de contribuer à la capitalisation future, puisqu’elle ne fait plus partie de la position investie.
 
-Aucun choix n’est toujours correct. Tout dépend de l’objectif de l’argent dans le cadre Gagner/Conserver/Faire fructifier/Transmettre. Les gains destinés à un objectif de croissance lointain bénéficient généralement du réinvestissement. Mais l’investissement doit finalement servir des objectifs réels ; à mesure qu’un objectif approche, utiliser une partie de la croissance peut devenir approprié.
+Aucun des deux choix n’est universellement bon ou mauvais — cela dépend du but de l’argent et de sa place dans le cadre Gagner/Conserver/Faire fructifier/Transmettre. La croissance destinée à un objectif à long terme de la fonction « Faire fructifier » gagne généralement à être réinvestie, pour que la capitalisation continue de faire son œuvre. Mais l’investissement existe pour servir un jour des objectifs et des besoins réels, et non pour capitaliser indéfiniment pour le plaisir de capitaliser — à un certain moment, surtout à l’approche des objectifs ou lorsqu’arrive un moment de « Transmettre », convertir la croissance en usage réel devient le choix approprié.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : un investisseur applique le principe de cette leçon à une décision réelle en tenant compte de ses objectifs, de son horizon temporel, des coûts et du risque, plutôt qu’en réagissant uniquement au mouvement de prix du moment.
+EXEMPLE ILLUSTRATIF : Si la position croissante en métaux de l’étude de cas avait pris de la valeur et que le fils avait choisi d’en vendre une petite partie pour financer autre chose, ce montant précis ne ferait plus partie de la base qui génère de la croissance par la suite — un compromis réel et compréhensible, et non une erreur. Si, au contraire, toute la croissance restait dans la position, la capitalisation continuerait de s’appuyer sur une base de plus en plus grande au fil des années. Le bon choix dépend de ce que l’argent doit ultimement accomplir, et non d’une règle fixe selon laquelle réinvestir serait toujours la bonne décision.
 
-## Quiz de vérification
-1. Quel est le concept principal présenté dans cette leçon ?
-2. Pourquoi est-il important pour un investisseur de long terme ?
-3. Quel risque ou compromis faut-il prendre en compte ?
-4. Comment ce principe peut-il être appliqué concrètement ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il aide à prendre des décisions cohérentes avec les objectifs et l’horizon temporel.
-3. Toute décision comporte des risques, des coûts ou des compromis à évaluer.
-4. Il s’applique en comparant les options avant d’agir.
+1. Quelle est la différence entre réinvestir et dépenser les gains de placement?
+2. Quel est le lien entre cette décision et la notion de capitalisation vue plus tôt?
+3. Réinvestir est-il toujours le choix « correct »?
+4. Qu’est-ce qui détermine ultimement s’il est logique de réinvestir ou de dépenser les gains dans une situation donnée?
+
+## Corrigé
+1. Réinvestir garde la croissance dans le placement pour qu’elle continue de se capitaliser; dépenser la convertit en argent pour un autre usage.
+2. La croissance réinvestie continue de se capitaliser, alors que la croissance dépensée cesse de contribuer à la capitalisation future, puisqu’elle n’est plus investie.
+3. Non — cela dépend du but de l’argent et de sa place dans le cadre Gagner/Conserver/Faire fructifier/Transmettre.
+4. Ce que l’argent doit ultimement accomplir — les objectifs de croissance à long terme favorisent généralement le réinvestissement, alors que l’approche de besoins ou d’objectifs réels peut favoriser la dépense.
 
 ## Réponses et explications
-1. La définition fournit la base conceptuelle de la leçon.
-2. La perspective de long terme aide à éviter les réactions impulsives.
-3. Reconnaître les compromis permet une décision plus éclairée.
-4. L’application pratique transforme la théorie en compétence financière.
+1. Cela définit le compromis central que traite la leçon.
+2. La capitalisation ne se poursuit que sur l’argent qui reste investi, ce qui relie directement cette décision à la leçon précédente.
+3. Cela évite une règle trop simpliste du type « toujours réinvestir », qui ignore le but réel de l’investissement.
+4. Une prise de décision axée sur le but, liée au cadre des quatre fonctions, est le guide pratique que propose la leçon.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer les risques, les coûts et les alternatives.
-- Garder chaque décision cohérente avec son plan financier.
+## Points clés à retenir
+- Réinvestir permet à la croissance de continuer à se capitaliser; dépenser convertit la croissance en usage à d’autres fins.
+- Cette décision renvoie directement à la leçon sur la capitalisation — seule la croissance réinvestie continue de s’appuyer sur elle-même.
+- Aucun des deux choix n’est universellement correct; la bonne décision dépend du but réel de l’argent dans le portrait financier global.

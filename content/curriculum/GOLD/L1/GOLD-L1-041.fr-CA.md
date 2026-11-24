@@ -5,49 +5,52 @@ officialTrackName: "Investissement"
 level: 1
 lessonNumber: 41
 locale: fr-CA
-title: "Construire un plan d’investissement périodique étape par étape"
-summary: "Version canadienne-française de la leçon GOLD Level 1 41."
+title: "Bâtir un plan d’achats périodiques étape par étape"
+summary: "Propose un cadre concret, étape par étape, pour bâtir un plan personnel d’achats périodiques."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Construire un plan d’investissement périodique étape par étape
+# Bâtir un plan d’achats périodiques étape par étape
 
 ## Objectifs d’apprentissage
-- Comprendre et expliquer le principe central
-- Relier ce principe aux notions déjà étudiées
-- Appliquer les connaissances à ses propres objectifs et circonstances
+- Transformer la notion d’achats périodiques en un cadre personnel concret, étape par étape
+- S’exercer à calculer un calendrier simple d’achats périodiques à partir d’un budget hypothétique
+- Faire la synthèse des leçons précédentes sur les achats périodiques, le suivi et la planification dans un seul exercice appliqué
 
 ## Contenu principal
 
-Un plan d’investissement périodique concret commence par déterminer le montant disponible sur une période, le diviser en versements réguliers, choisir une date fixe et suivre cet échéancier indépendamment du prix du jour.
+En s’appuyant sur la notion d’achats périodiques présentée plus tôt dans ce parcours, un plan concret d’achats périodiques étape par étape consiste à : déterminer la somme totale disponible pour investir sur une période donnée (disons une année), diviser cette somme en versements égaux et réguliers (mensuels, ce qui est courant et facile à gérer pour la plupart des gens), choisir une date d’achat fixe pour chaque période (plutôt que d’essayer de choisir un jour « idéal », ce qui réintroduit le problème du choix du moment sur le marché que la méthode des achats périodiques vise justement à éviter) et s’engager à suivre ce calendrier, peu importe le prix à chaque date d’achat.
 
-Cette structure réduit l’ambiguïté et la fatigue décisionnelle. Au lieu de décider chaque mois si le moment est « idéal », l’échéancier automatise la décision et facilite aussi une tenue de dossiers régulière.
+Cette structure étape par étape élimine l’ambiguïté et la fatigue décisionnelle du processus — plutôt que de décider à nouveau chaque fois si « maintenant » est un bon moment pour acheter, le calendrier prend lui-même cette décision automatiquement, ce qui libère l’investisseur d’une décision que, comme on l’a vu plus tôt dans ce parcours, même les investisseurs professionnels ne peuvent pas prendre de façon fiable à court terme.
+
+Cette structure soutient aussi naturellement l’habitude de suivi vue plus tôt — un calendrier fixe facilite la tenue d’un registre de suivi cohérent et comparable, puisque chaque inscription suit le même intervalle régulier et le même format.
 
 ## Exemple pratique
 
-Avec 600 $ disponibles pour l’année, un investisseur pourrait prévoir 50 $ le premier jour de chaque mois pendant 12 mois auprès du même négociant, en consignant chaque achat. Certains mois achèteront plus d’unités, d’autres moins.
+Un investisseur qui dispose de 600 $ pour l’année pourrait bâtir le plan d’achats périodiques suivant : 50 $ investis dans l’argent le 1er de chaque mois, pendant 12 mois, auprès du même négociant réputé, avec un suivi dans le même registre simple chaque fois. Certains mois, ces 50 $ achètent un peu plus d’argent (lorsque les prix sont plus bas); d’autres mois, un peu moins (lorsque les prix sont plus élevés) — mais le calendrier lui-même ne change jamais en fonction du prix du moment, conformément au principe central de la méthode des achats périodiques vu plus tôt dans ce parcours.
 
 ## Questionnaire pratique
-1. Quel est le principe central de cette leçon?
-2. Comment se relie-t-il aux leçons précédentes?
-3. Pourquoi les circonstances personnelles demeurent-elles importantes?
-4. Quelle leçon peut-on tirer de l’exemple?
+
+1. Selon cette leçon, énumérez les quatre étapes pour bâtir un plan concret d’achats périodiques.
+2. Pourquoi est-il important de choisir une date d’achat fixe, plutôt que d’essayer de choisir un jour « idéal »?
+3. Comment cette structure élimine-t-elle la fatigue décisionnelle du processus d’investissement?
+4. Calculez : si 1 200 $ sont disponibles pour l’année et que les achats se font chaque mois, quel serait le montant de chaque achat mensuel?
 
 ## Corrigé
-1. Le principe central est celui expliqué dans le contenu principal.
-2. Il s’appuie sur les notions de risque, temps, discipline, diversification et objectifs.
-3. Les mêmes principes peuvent mener à des choix différents selon la situation de chaque personne.
-4. L’exemple démontre comment appliquer le principe sans imposer une décision particulière.
+1. Déterminer la somme totale disponible, la diviser en versements égaux et réguliers, choisir une date d’achat fixe, s’engager à suivre le calendrier peu importe le prix.
+2. Parce qu’essayer de choisir un jour « idéal » réintroduit le problème du choix du moment sur le marché que la méthode des achats périodiques est précisément conçue pour éviter.
+3. En rendant la décision d’achat automatique selon un calendrier fixe, plutôt que d’exiger chaque fois un nouveau jugement difficile sur le moment.
+4. 1 200 $ divisés par 12 mois donnent 100 $ par mois.
 
 ## Réponses et explications
-1. Comprendre le principe permet de l’utiliser au-delà d’un seul actif.
-2. La compétence financière vient de la capacité à relier plusieurs concepts.
-3. Une décision appropriée dépend des objectifs et contraintes de l’apprenant.
-4. L’objectif d’EDUNANCIAL est de fournir l’information et les outils permettant à chacun de prendre ses propres décisions.
+1. Ces quatre étapes transforment la notion d’achats périodiques en un plan concret et réalisable.
+2. Des dates fixes préservent l’avantage central de la méthode des achats périodiques, qui est d’éliminer le risque lié au choix du moment.
+3. Automatiser le calendrier est précisément ce qui élimine la fatigue décisionnelle et la pression liée au choix du moment que la méthode des achats périodiques vise à régler.
+4. Ce calcul applique directement les mathématiques de base du plan à un nouveau scénario hypothétique.
 
 ## Points clés à retenir
-- Les principes du parcours sont transférables à de nombreuses décisions financières.
-- La constance, le temps et la compréhension des risques comptent autant que le choix de l’actif.
-- L’éducation financière développe la capacité de décider plutôt que de promettre un résultat particulier.
+- Un plan concret d’achats périodiques consiste à déterminer un budget total, à le diviser en versements égaux et réguliers, à choisir une date d’achat fixe et à s’engager à suivre le calendrier peu importe le prix.
+- Des dates d’achat fixes préservent l’avantage central de la méthode des achats périodiques : éliminer du processus d’investissement le risque lié au choix du moment et la fatigue décisionnelle.
+- Cette structure soutient naturellement un suivi cohérent, puisque chaque achat suit le même intervalle régulier et le même format.

@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 7
-title: "Tolérance au risque et horizon temporel"
-summary: "Explique que le niveau de risque approprié dépend fortement du moment où l’argent sera nécessaire."
+locale: fr-FR
+title: "La tolérance au risque et l’horizon de placement"
+summary: "Explique que le niveau de risque approprié dépend beaucoup du moment où l’on aura besoin de l’argent."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Tolérance au risque et horizon temporel
+# La tolérance au risque et l’horizon de placement
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Définir la tolérance au risque et l’horizon de placement dans un contexte d’investissement
+- Expliquer le lien entre ces deux notions
+- S’exercer à associer un niveau de risque approprié à un horizon de placement donné
 
 ## Contenu principal
 
-La tolérance au risque correspond au niveau de fluctuation et de perte potentielle qu’un investisseur est disposé et capable d’accepter. L’horizon temporel indique quand l’argent investi devra être utilisé. Ces notions sont étroitement liées : un horizon plus long permet généralement d’absorber davantage de volatilité, car il laisse plus de temps pour récupérer après une baisse. Un horizon court appelle généralement davantage de prudence.
+La tolérance au risque, c’est le degré de fluctuation des prix et de perte possible qu’un investisseur est prêt et apte à accepter pour viser la croissance. L’horizon de placement, c’est le moment où l’on aura réellement besoin de l’argent investi. Ces deux notions sont étroitement liées : un horizon plus long permet généralement une plus grande tolérance au risque, parce qu’il y a plus de temps pour que le placement se rétablisse après une baisse avant qu’on ait réellement besoin de l’argent. Un horizon plus court exige généralement une tolérance au risque plus faible, parce qu’il y a moins de temps pour se rétablir si la valeur baisse juste avant qu’on ait besoin de l’argent.
 
-Cela rejoint le cadre Gagner/Conserver/Faire fructifier/Transmettre. L’argent destiné à « Faire fructifier » pour des objectifs lointains peut généralement supporter davantage de fluctuations que l’argent à « Conserver » pour des besoins proches. Adapter le risque à l’horizon est donc essentiel.
+Cela renvoie à la leçon précédente sur Gagner/Conserver/Faire fructifier/Transmettre — l’argent destiné à « Faire fructifier », prévu pour des objectifs à long terme, peut habituellement absorber plus de volatilité à court terme que l’argent à « Conserver », prévu pour des besoins à court terme. Mal faire correspondre la tolérance au risque et l’horizon de placement — prendre des risques élevés avec de l’argent dont on aura besoin bientôt, ou être trop prudent avec de l’argent qui a des décennies pour croître — donne habituellement un moins bon résultat que de les faire correspondre adéquatement.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : un investisseur applique le principe de cette leçon à une décision réelle en tenant compte de ses objectifs, de son horizon temporel, des coûts et du risque, plutôt qu’en réagissant uniquement au mouvement de prix du moment.
+EXEMPLE ILLUSTRATIF : Un jeune de 15 ans qui ajoute de l’or à une position en croissance, avec de l’argent destiné à un objectif situé dans dix ans ou plus, peut raisonnablement tolérer plus de fluctuations de prix à court terme, puisqu’il y a beaucoup de temps pour qu’une baisse se résorbe avant qu’il ait besoin de l’argent. Comparez cela à une personne qui a besoin d’une somme précise dans six mois pour une dépense connue et fixe — cet argent devrait généralement être placé dans quelque chose de beaucoup plus stable, parce qu’une baisse juste avant qu’elle en ait besoin ne lui laisserait aucun temps pour se rétablir.
 
-## Quiz de vérification
-1. Quel est le concept principal présenté dans cette leçon ?
-2. Pourquoi est-il important pour un investisseur de long terme ?
-3. Quel risque ou compromis faut-il prendre en compte ?
-4. Comment ce principe peut-il être appliqué concrètement ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il aide à prendre des décisions cohérentes avec les objectifs et l’horizon temporel.
-3. Toute décision comporte des risques, des coûts ou des compromis à évaluer.
-4. Il s’applique en comparant les options avant d’agir.
+1. Définissez la tolérance au risque et l’horizon de placement dans vos propres mots.
+2. Selon cette leçon, quel est le lien entre la tolérance au risque et l’horizon de placement?
+3. Pourquoi un horizon plus long permet-il généralement une plus grande tolérance au risque?
+4. Dans l’exemple pratique, pourquoi la position du jeune de 15 ans peut-elle raisonnablement tolérer plus de fluctuations à court terme?
+
+## Corrigé
+1. La tolérance au risque est le degré de fluctuation ou de perte qu’un investisseur peut accepter; l’horizon de placement est le moment où l’on aura besoin de l’argent.
+2. Un horizon plus long permet généralement une plus grande tolérance au risque, et inversement.
+3. Parce qu’il y a plus de temps pour que le placement se rétablisse après une baisse avant qu’on ait réellement besoin de l’argent.
+4. Parce que l’argent est destiné à un objectif situé dans une décennie ou plus, ce qui laisse beaucoup de temps pour qu’une baisse se résorbe.
 
 ## Réponses et explications
-1. La définition fournit la base conceptuelle de la leçon.
-2. La perspective de long terme aide à éviter les réactions impulsives.
-3. Reconnaître les compromis permet une décision plus éclairée.
-4. L’application pratique transforme la théorie en compétence financière.
+1. Cela définit les deux notions centrales que la leçon relie entre elles.
+2. Ce lien est la relation centrale que la leçon établit entre le risque et le temps.
+3. Le temps de rétablissement est le mécanisme qui permet aux horizons plus longs d’absorber plus de volatilité à court terme.
+4. Cet exemple applique directement la relation entre tolérance au risque et horizon de placement à l’étude de cas.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer les risques, les coûts et les alternatives.
-- Garder chaque décision cohérente avec son plan financier.
+## Points clés à retenir
+- La tolérance au risque et l’horizon de placement sont étroitement liés — les horizons plus longs permettent généralement plus de risque.
+- L’argent dont on aura besoin bientôt devrait généralement comporter moins de risque, puisqu’il y a moins de temps pour se rétablir après une baisse.
+- Faire correspondre adéquatement la tolérance au risque à l’horizon de placement, plutôt que de mal les associer, a tendance à donner de meilleurs résultats.

@@ -5,49 +5,52 @@ officialTrackName: "Investissement"
 level: 1
 lessonNumber: 44
 locale: fr-CA
-title: "Relier les concepts du parcours GOLD à l’investissement du parcours WHITE"
-summary: "Version canadienne-française de la leçon GOLD Level 1 44."
+title: "Comparer les notions du parcours GOLD à l’investissement du parcours WHITE"
+summary: "Relie les notions d’investissement dans les métaux précieux aux principes d’investissement plus larges vus dans le parcours WHITE."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Relier les concepts du parcours GOLD à l’investissement du parcours WHITE
+# Comparer les notions du parcours GOLD à l’investissement du parcours WHITE
 
 ## Objectifs d’apprentissage
-- Comprendre et expliquer le principe central
-- Relier ce principe aux notions déjà étudiées
-- Appliquer les connaissances à ses propres objectifs et circonstances
+- Repérer les principes d’investissement communs aux parcours GOLD et WHITE
+- Comprendre comment les mêmes notions de fond s’appliquent différemment selon les types d’actifs
+- Reconnaître l’intérêt de principes d’investissement transférables dans une éducation financière diversifiée
 
 ## Contenu principal
 
-Le parcours WHITE traite plus largement des actifs financiers comme les actions et obligations. Plusieurs principes du parcours GOLD — patience, investissement régulier, diversification, compréhension du rôle d’un actif — sont des principes généraux plutôt que propres aux métaux.
+Le parcours WHITE de ce programme traite de l’investissement de façon plus large, y compris les actions, les obligations et la philosophie générale de placement. Plusieurs principes centraux de ce parcours GOLD — la patience, éviter le piège d’essayer de choisir le moment parfait sur le marché, la valeur d’habitudes régulières et disciplinées, et l’importance de comprendre le rôle réel d’un actif dans un plan diversifié plus large — ne sont pas propres aux métaux précieux. Ce sont des principes d’investissement généraux qui s’appliquent, avec une certaine adaptation, à presque toutes les catégories d’actifs.
 
-L’investissement périodique fonctionne selon la même logique qu’il soit appliqué à des onces d’argent ou à des parts d’un fonds indiciel : investir régulièrement sans tenter de prévoir parfaitement les mouvements de prix.
+Le modèle pédagogique de « la notion à travers les cases », utilisé tout au long de ce programme, s’applique directement ici : la méthode des achats périodiques fonctionne essentiellement de la même façon, qu’on l’applique à l’achat d’onces d’argent ou à l’achat de parts d’un fonds indiciel d’actions — la discipline de fond qui consiste à investir une somme constante à intervalles réguliers, peu importe le prix, ne change pas fondamentalement selon l’actif précis acheté.
+
+Reconnaître ces principes communs aide à bâtir une compréhension plus complète et transférable de l’investissement en général, plutôt que de traiter l’investissement dans les métaux précieux comme une compétence complètement distincte et sans lien avec les autres formes d’investissement vues ailleurs dans ce programme.
 
 ## Exemple pratique
 
-Un apprenant qui comprend l’investissement périodique grâce aux exemples d’or et d’argent pourra reconnaître immédiatement la même discipline lorsqu’elle est appliquée à d’autres catégories d’actifs.
+Un étudiant qui a assimilé la notion d’achats périodiques grâce aux exemples d’argent et d’or de ce parcours GOLD trouverait cette même notion immédiatement familière et applicable en la retrouvant dans la discussion du parcours WHITE sur l’investissement dans les fonds indiciels d’actions — l’actif précis change, mais la discipline de fond d’un investissement régulier, patient et planifié à intervalles fixes reste exactement la même, simplement appliquée à une autre case.
 
 ## Questionnaire pratique
-1. Quel est le principe central de cette leçon?
-2. Comment se relie-t-il aux leçons précédentes?
-3. Pourquoi les circonstances personnelles demeurent-elles importantes?
-4. Quelle leçon peut-on tirer de l’exemple?
+
+1. Selon cette leçon, nommez trois principes centraux communs aux parcours GOLD et WHITE.
+2. Comment la méthode des achats périodiques s’applique-t-elle de façon semblable à différents types d’actifs?
+3. À quel modèle pédagogique cette leçon fait-elle explicitement référence?
+4. Pourquoi est-il important de reconnaître ces principes communs pour l’ensemble de l’éducation financière d’un étudiant?
 
 ## Corrigé
-1. Le principe central est celui expliqué dans le contenu principal.
-2. Il s’appuie sur les notions de risque, temps, discipline, diversification et objectifs.
-3. Les mêmes principes peuvent mener à des choix différents selon la situation de chaque personne.
-4. L’exemple démontre comment appliquer le principe sans imposer une décision particulière.
+1. Trois parmi les suivants : la patience, éviter de choisir le moment parfait sur le marché, des habitudes régulières et disciplinées, comprendre le rôle d’un actif dans un plan plus large.
+2. La discipline de fond qui consiste à investir une somme constante à intervalles réguliers, peu importe le prix, reste la même quel que soit l’actif précis acheté.
+3. Le modèle pédagogique de « la notion à travers les cases », utilisé tout au long de ce programme.
+4. Cela bâtit une compréhension plus complète et transférable de l’investissement en général, plutôt que de traiter les métaux précieux comme une compétence complètement distincte et sans lien.
 
 ## Réponses et explications
-1. Comprendre le principe permet de l’utiliser au-delà d’un seul actif.
-2. La compétence financière vient de la capacité à relier plusieurs concepts.
-3. Une décision appropriée dépend des objectifs et contraintes de l’apprenant.
-4. L’objectif d’EDUNANCIAL est de fournir l’information et les outils permettant à chacun de prendre ses propres décisions.
+1. Ces principes communs démontrent le caractère transférable de la discipline d’investissement de base d’une catégorie d’actifs à l’autre.
+2. Cet exemple applique directement le modèle de « la notion à travers les cases » au principe des achats périodiques.
+3. Cette référence explicite relie cette leçon à un outil pédagogique fondamental utilisé tout au long de ce programme.
+4. Une compréhension transférable bâtit une éducation financière plus cohérente et plus complète dans tous les parcours de ce programme.
 
 ## Points clés à retenir
-- Les principes du parcours sont transférables à de nombreuses décisions financières.
-- La constance, le temps et la compréhension des risques comptent autant que le choix de l’actif.
-- L’éducation financière développe la capacité de décider plutôt que de promettre un résultat particulier.
+- Les principes d’investissement centraux, comme la patience, le refus de chercher le moment parfait et les habitudes régulières, sont communs aux parcours GOLD et WHITE et ne sont pas propres aux métaux précieux.
+- La méthode des achats périodiques fonctionne essentiellement de la même façon, peu importe l’actif précis acheté — la discipline de fond ne change pas.
+- Reconnaître ces principes communs bâtit une compréhension plus complète et transférable de l’investissement dans l’ensemble de ce programme.

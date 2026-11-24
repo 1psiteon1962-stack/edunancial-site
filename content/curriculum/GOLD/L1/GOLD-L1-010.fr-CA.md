@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 10
 locale: fr-CA
 title: "Comprendre la pureté et les mesures de poids"
-summary: "Présente les unités de poids et les mesures de pureté courantes sur le marché des métaux précieux."
+summary: "Présente les unités de base et les mesures de pureté utilisées sur le marché des métaux précieux."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
@@ -15,42 +15,40 @@ date: "2026-08-09"
 # Comprendre la pureté et les mesures de poids
 
 ## Objectifs d’apprentissage
-- Comprendre et expliquer le concept principal de cette leçon
-- Distinguer ce concept des idées connexes
-- Appliquer le principe à une situation d’investissement simple
+- Repérer les unités de poids courantes utilisées pour les métaux précieux
+- Expliquer ce que signifie la pureté (la finesse) et pourquoi elle influe sur la valeur
+- S’exercer à lire une description de produit simple
 
 ## Contenu principal
 
-Les métaux précieux utilisent des unités particulières. L’or et l’argent sont couramment mesurés en onces troy; l’or est aussi souvent vendu en grammes. FAIT VÉRIFIÉ : une once troy équivaut à environ 31,1 grammes, comparativement à environ 28,3 grammes pour une once avoirdupois ordinaire.
+Les métaux précieux sont mesurés et décrits à l’aide d’unités particulières qui peuvent prêter à confusion pour un débutant. L’or se mesure couramment en onces troy (une unité un peu plus lourde qu’une once ordinaire, historiquement propre aux métaux précieux) ou en grammes, surtout pour les petits articles. L’argent se mesure aussi le plus souvent en onces troy. FAIT VÉRIFIÉ : Une once troy équivaut à environ 31,1 grammes, ce qui diffère d’une once « avoirdupois » ordinaire (environ 28,3 grammes) utilisée pour la plupart des articles de tous les jours — cette distinction compte, parce qu’utiliser la mauvaise conversion peut créer une réelle confusion quant à la quantité de métal réellement achetée.
 
-La pureté, ou finesse, indique quelle proportion de l’objet est réellement constituée du métal précieux. L’or peut être décrit en carats — 24 carats correspondant à l’or pur — ou par une finesse décimale, par exemple .999 pour 99,9 %. Une pureté plus élevée signifie généralement qu’une plus grande part du poids correspond au métal précieux.
+La pureté, souvent exprimée en « finesse », indique quelle proportion d’une pièce est réellement constituée du métal précieux lui-même, par rapport à d’autres métaux ajoutés pour la durabilité. La pureté de l’or est souvent exprimée en carats (24 carats correspondant à l’or pur) ou en finesse décimale (.999 signifiant une pureté de 99,9 %). Une pureté plus élevée signifie généralement que la valeur de l’article suit de plus près et plus directement le cours au comptant du métal, puisqu’une plus petite part du poids est constituée de matériaux de remplissage non précieux.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : « une once troy d’argent fin .999 » signifie environ 31,1 grammes d’un produit composé à 99,9 % d’argent. Il faut comprendre à la fois le poids et la pureté pour savoir ce qu’on achète.
+EXEMPLE ILLUSTRATIF : Une pièce décrite comme « une once troy, argent fin .999 » pèse une once troy (environ 31,1 grammes) et est composée à 99,9 % d’argent pur, avec un très petit pourcentage restant d’autres matériaux à l’état de traces pour la durabilité. Il faut comprendre les deux chiffres ensemble — l’unité de poids et la pureté — pour savoir exactement ce qu’on achète, puisqu’une supposition erronée sur l’un ou l’autre (utiliser des onces ordinaires au lieu d’onces troy, ou ignorer la pureté) pourrait mener à une réelle méprise sur la valeur.
 
 ## Questionnaire pratique
 
-1. Quel est le concept principal présenté dans cette leçon?
-2. Pourquoi ce concept est-il important pour un investisseur?
-3. Quel risque ou quelle erreur cette leçon aide-t-elle à reconnaître?
-4. Comment l’exemple pratique illustre-t-il le principe?
+1. Dans quelle unité l’or et l’argent sont-ils couramment mesurés, et en quoi diffère-t-elle d’une once ordinaire?
+2. Que décrit la « pureté » ou la « finesse »?
+3. Que signifie une finesse de .999?
+4. Pourquoi est-il important de comprendre à la fois le poids et la pureté?
 
 ## Corrigé
-
-1. Le concept principal est celui décrit dans le contenu de la leçon.
-2. Il aide à prendre des décisions fondées sur le risque, le temps, la valeur et les objectifs plutôt que sur l’émotion.
-3. Il aide à reconnaître les décisions qui ne correspondent pas au rôle, au risque ou à l’horizon de l’argent.
-4. L’exemple traduit le principe en situation concrète afin d’en montrer l’application.
+1. L’once troy, qui, à environ 31,1 grammes, est plus lourde qu’une once avoirdupois ordinaire (environ 28,3 grammes).
+2. La proportion d’une pièce qui est réellement constituée du métal précieux lui-même, par rapport à d’autres métaux ajoutés.
+3. Que l’article est composé à 99,9 % de métal précieux pur, avec un très petit pourcentage restant d’autres matériaux.
+4. Parce qu’une supposition erronée sur l’un ou l’autre pourrait mener à une réelle méprise sur la valeur exacte qu’on achète.
 
 ## Réponses et explications
-
-1. Comprendre le concept permet de l’identifier dans une décision réelle.
-2. Une approche structurée améliore la capacité à comparer les choix sans supposer qu’un actif particulier convient à tout le monde.
-3. Reconnaître les risques et les limites fait partie intégrante de la compétence financière.
-4. L’application pratique relie la théorie au comportement de l’investisseur.
+1. Cette distinction prévient une confusion courante chez les débutants entre l’once troy et l’once ordinaire.
+2. La pureté décrit la teneur réelle en métal précieux par rapport au poids total d’un article.
+3. Cela applique directement la notion de finesse à un exemple concret et courant de la vie réelle.
+4. Les deux mesures ensemble déterminent la teneur réelle en métal précieux de ce qu’on achète.
 
 ## Points clés à retenir
-- Le principe de cette leçon doit être compris dans le contexte des objectifs personnels de l’investisseur.
-- Le risque, le temps et la raison fondamentale d’une décision doivent être considérés ensemble.
-- Le parcours enseigne des principes transférables plutôt que de recommander un actif précis.
+- Les métaux précieux se mesurent habituellement en onces troy ou en grammes, et une once troy diffère d’une once ordinaire.
+- La pureté (la finesse) indique quelle proportion d’un article est réellement constituée de métal précieux, par rapport à d’autres matériaux.
+- Il faut comprendre à la fois le poids et la pureté pour savoir exactement ce qu’on achète.

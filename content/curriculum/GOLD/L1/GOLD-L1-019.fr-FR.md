@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 19
-title: "Définir un budget d’investissement soutenable"
-summary: "Explique comment déterminer une somme d’investissement durable sans compromettre les autres besoins financiers."
+locale: fr-FR
+title: "Établir un budget de placement à la mesure de ses moyens"
+summary: "Enseigne comment déterminer une somme viable à investir sans compromettre ses autres besoins financiers."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Définir un budget d’investissement soutenable
+# Établir un budget de placement à la mesure de ses moyens
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Expliquer pourquoi investir plus que ce qu’on peut se permettre de façon viable crée un risque réel
+- Repérer les facteurs de base à considérer pour établir un budget de placement
+- S’exercer à une approche simple pour déterminer une somme de placement viable
 
 ## Contenu principal
 
-Avant d’investir régulièrement, il faut déterminer une somme réellement soutenable : non pas le maximum possible pendant un bon mois, mais un montant que l’on peut continuer à investir même pendant une période plus difficile. Investir au-delà de ses moyens peut obliger à vendre au mauvais moment ou à abandonner entièrement l’habitude.
+Avant d’investir régulièrement, il vaut la peine de décider délibérément quelle somme peut réellement être investie de façon viable et continue — non pas le maximum théoriquement possible dans un bon mois, mais une somme qui peut raisonnablement continuer d’être investie même pendant une période plus difficile. Investir plus que ce qui est réellement viable crée un risque réel : cela peut obliger à vendre des placements au mauvais moment pour couvrir un besoin sans rapport, ou à abandonner entièrement l’habitude pendant une période difficile, deux situations qui vont à l’encontre de la régularité que ce parcours présente comme si précieuse.
 
-Une approche simple consiste à couvrir d’abord les besoins essentiels et, lorsque cela est possible, une partie de l’épargne d’urgence correspondant à « Conserver », puis à déterminer une somme réaliste pour l’investissement. Cette somme pourra augmenter plus tard. Commencer prudemment et progresser avec le temps crée souvent une habitude plus durable.
+Une approche simple : s’assurer d’abord que les besoins de base et, dans la mesure du possible, une certaine épargne d’urgence (la fonction « Conserver » vue plus tôt) sont raisonnablement couverts, puis déterminer, à partir de ce qui reste, une somme à investir qui pourrait réalistement continuer d’être investie même si le revenu ou la situation se resserrait quelque peu. Cette somme pourra toujours augmenter plus tard, selon les circonstances — commencer prudemment et augmenter avec le temps a tendance à bâtir une habitude plus durable que commencer de façon dynamique et devoir réduire ou arrêter complètement.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’investisseur applique le principe à une décision concrète en comparant objectifs, horizon temporel, coûts, risques et alternatives avant d’agir.
+EXEMPLE ILLUSTRATIF : Dans l’étude de cas, commencer les achats d’argent à 11 ans avec une somme modeste et réellement viable a permis à l’habitude de se poursuivre de façon régulière pendant des années sans tension, plutôt que de commencer avec une somme qui aurait pu sembler excitante au départ, mais qui se serait révélée difficile à maintenir. Ce budget de départ modeste et viable est en partie ce qui a permis à des années d’achats périodiques réguliers d’avoir réellement lieu, bâtissant la base à laquelle se sont ajoutés plus tard les achats d’or, à partir de 15 ans.
 
-## Quiz de vérification
-1. Quel est le concept principal de cette leçon ?
-2. Pourquoi est-il important pour un investisseur ?
-3. Quel risque ou compromis faut-il considérer ?
-4. Comment se relie-t-il à un plan de long terme ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il améliore la qualité des décisions financières.
-3. Toute décision comporte des risques, coûts ou compromis.
-4. Il doit être appliqué selon les objectifs et l’horizon temporel.
+1. Pourquoi investir plus que ce qui est réellement viable constitue-t-il un risque réel?
+2. Selon cette leçon, qu’est-ce qui devrait être raisonnablement couvert avant d’établir un budget de placement?
+3. Quelle approche simple cette leçon suggère-t-elle pour déterminer une somme de placement viable?
+4. Dans l’étude de cas, comment le fait de commencer avec une somme modeste et viable a-t-il favorisé la régularité à long terme?
+
+## Corrigé
+1. Parce que cela peut obliger à vendre au mauvais moment ou à abandonner entièrement l’habitude d’investir pendant une période difficile.
+2. Les besoins de base et, dans la mesure du possible, une certaine épargne d’urgence (la fonction « Conserver »).
+3. Déterminer une somme qui pourrait réalistement continuer d’être investie même si la situation se resserrait quelque peu, plutôt que le maximum possible dans un bon mois.
+4. Cela a permis à l’habitude de se poursuivre de façon régulière pendant des années sans tension, bâtissant la base à laquelle se sont ajoutés plus tard les achats d’or.
 
 ## Réponses et explications
-1. La définition constitue la base de la leçon.
-2. Comprendre le concept permet de l’utiliser plutôt que de réagir impulsivement.
-3. Reconnaître les limites évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Investir de façon non viable compromet le principe de régularité au cœur de l’approche de ce parcours.
+2. Cela relie la décision du budget de placement à la fonction « Conserver » du cadre fondamental.
+3. Une taille prudente et viable est le conseil pratique offert pour établir un budget de placement.
+4. Cet exemple relie directement un budget viable à la régularité et à la réussite à long terme de l’étude de cas.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec ses objectifs.
+## Points clés à retenir
+- Un budget de placement devrait être réellement viable, et non le maximum possible dans un bon mois.
+- Les besoins de base et l’épargne d’urgence devraient généralement être raisonnablement couverts avant d’établir un budget de placement.
+- Commencer prudemment et augmenter avec le temps a tendance à bâtir une habitude d’investissement plus durable que commencer de façon dynamique.

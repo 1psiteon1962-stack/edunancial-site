@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 30
+locale: fr-FR
 title: "Le coût d’opportunité de la détention de métaux"
-summary: "Explique le coût d’opportunité lorsqu’on alloue du capital aux métaux précieux plutôt qu’à d’autres investissements."
+summary: "Explique la notion de coût d’opportunité telle qu’elle s’applique à la répartition de l’argent entre les métaux précieux et d’autres placements."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
 # Le coût d’opportunité de la détention de métaux
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Définir le coût d’opportunité en termes simples
+- Appliquer cette notion précisément aux métaux précieux par rapport aux placements qui produisent un revenu
+- Comprendre pourquoi ce compromis compte pour les décisions globales de répartition
 
 ## Contenu principal
 
-Le coût d’opportunité est la valeur de la meilleure alternative abandonnée lorsqu’un choix est effectué. Chaque somme affectée aux métaux précieux n’est pas affectée à une autre possibilité, par exemple une action versant des dividendes, une obligation produisant des intérêts ou un autre actif offrant des caractéristiques de croissance différentes.
+Le coût d’opportunité est la valeur de la meilleure solution de rechange à laquelle on renonce lorsqu’on fait un choix. Chaque euro affecté aux métaux précieux est un euro qui n’est pas affecté à autre chose — possiblement une action qui verse des dividendes, une obligation qui porte intérêt ou un autre placement capable de générer un revenu continu ou d’offrir des caractéristiques de croissance différentes.
 
-Comme les métaux précieux ne produisent pas eux-mêmes de revenu, leur coût d’opportunité comprend le revenu ou la croissance que ce capital aurait pu générer ailleurs. Cela ne signifie pas qu’ils constituent un mauvais choix : leurs avantages en matière de réserve de valeur, de diversification ou de protection potentielle doivent simplement être comparés honnêtement à ce qui est sacrifié.
+Puisque les métaux précieux ne produisent pas de revenu par eux-mêmes (un point souligné dans une leçon précédente), le coût d’opportunité de leur détention comprend précisément le revenu ou la croissance que cette même somme aurait pu générer dans un autre placement. Cela ne veut pas dire que les métaux précieux sont un mauvais choix — cela veut dire que leur proposition de valeur (réserve de valeur, protection contre l’inflation, diversification, abordées tout au long de ce parcours) doit être évaluée honnêtement par rapport à ce à quoi on renonce en n’affectant pas cette même somme ailleurs.
 
-Ce concept renforce l’idée que les métaux peuvent constituer une composante d’un portefeuille diversifié plutôt qu’un choix automatiquement dominant.
+Cette notion renforce la raison pour laquelle les métaux précieux sont habituellement présentés comme un élément d’un portefeuille diversifié, vu dans une leçon précédente, plutôt que comme le seul placement ou le placement dominant. Une répartition réfléchie évalue les avantages précis qu’offrent les métaux précieux par rapport à ce coût d’opportunité réel, plutôt que de considérer la décision comme automatiquement évidente dans un sens ou dans l’autre.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’investisseur applique le principe à une décision concrète en comparant objectifs, horizon temporel, coûts, risques et alternatives avant d’agir.
+Un investisseur qui a 1 000 € à répartir pourrait envisager de tout placer dans l’argent, ou de partager la somme entre l’argent et un fonds indiciel d’actions qui verse des dividendes. Choisir de placer la totalité dans l’argent signifie renoncer aux dividendes et à la croissance possible que le fonds indiciel d’actions aurait pu générer au cours de la même période — ce rendement possible auquel on renonce est le coût d’opportunité du choix « tout en argent ». Cela ne rend pas ce choix mauvais; cela signifie que la décision devrait évaluer honnêtement les avantages précis de l’argent (réserve de valeur, diversification) par rapport à ce compromis réel et quantifiable, plutôt que de l’ignorer.
 
-## Quiz de vérification
-1. Quel est le concept principal de cette leçon ?
-2. Pourquoi est-il important pour un investisseur ?
-3. Quel risque ou compromis faut-il considérer ?
-4. Comment se relie-t-il à un plan de long terme ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il améliore la qualité des décisions financières.
-3. Toute décision comporte des risques, coûts ou compromis.
-4. Il doit être appliqué selon les objectifs et l’horizon temporel.
+1. Définissez le coût d’opportunité dans vos propres mots.
+2. Pourquoi le coût d’opportunité s’applique-t-il particulièrement aux métaux précieux, compte tenu de leur absence de revenu?
+3. Le fait d’avoir un coût d’opportunité signifie-t-il que les métaux précieux sont automatiquement un mauvais choix de placement?
+4. Quel est le lien entre cette notion et la leçon sur la diversification vue plus tôt dans ce parcours?
+
+## Corrigé
+1. La valeur de la meilleure solution de rechange à laquelle on renonce lorsqu’on fait un choix.
+2. Parce que l’argent affecté à des métaux qui ne produisent pas de revenu aurait pu générer un revenu ou de la croissance s’il avait plutôt été affecté à un autre placement.
+3. Non — cela signifie que la décision devrait évaluer honnêtement les avantages précis des métaux précieux par rapport à ce compromis réel, et non que le choix est automatiquement mauvais.
+4. Cela renforce la raison pour laquelle les métaux sont habituellement présentés comme un élément d’un portefeuille diversifié, plutôt que comme le seul placement ou le placement dominant, compte tenu de ce coût d’opportunité réel.
 
 ## Réponses et explications
-1. La définition constitue la base de la leçon.
-2. Comprendre le concept permet de l’utiliser plutôt que de réagir impulsivement.
-3. Reconnaître les limites évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Cela définit la notion économique fondamentale appliquée tout au long de cette leçon.
+2. Cela relie précisément le coût d’opportunité à la leçon précédente sur l’absence de revenu des métaux.
+3. Cela précise que le coût d’opportunité est un facteur à évaluer honnêtement, et non un motif automatique d’exclusion.
+4. Ce lien renforce le thème plus large de la répartition du portefeuille qui traverse cette section du parcours.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec ses objectifs.
+## Points clés à retenir
+- Le coût d’opportunité est la valeur de la meilleure solution de rechange à laquelle on renonce en faisant un choix précis.
+- Puisque les métaux précieux ne génèrent pas de revenu, leur coût d’opportunité comprend le revenu ou la croissance qu’un autre placement aurait pu produire.
+- Cela renforce l’idée de traiter les métaux précieux comme un élément d’un portefeuille diversifié, évalué honnêtement par rapport à des compromis réels, plutôt que comme un choix par défaut ou dominant.

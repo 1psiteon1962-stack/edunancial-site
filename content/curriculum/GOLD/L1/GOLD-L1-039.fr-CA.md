@@ -5,49 +5,52 @@ officialTrackName: "Investissement"
 level: 1
 lessonNumber: 39
 locale: fr-CA
-title: "Établir un plan personnel d’investissement en métaux"
-summary: "Version canadienne-française de la leçon GOLD Level 1 39."
+title: "Établir son plan personnel d’investissement en métaux"
+summary: "Guide les étudiants dans la rédaction d’un plan de base personnalisé pour investir dans les métaux précieux."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Établir un plan personnel d’investissement en métaux
+# Établir son plan personnel d’investissement en métaux
 
 ## Objectifs d’apprentissage
-- Comprendre le concept central de cette leçon
-- Identifier les risques, coûts ou compromis pertinents
-- Appliquer le principe à une décision concrète
+- Repérer les éléments d’un plan personnel de base pour investir dans les métaux précieux
+- Faire la synthèse des notions de ce parcours dans un plan individuel concret
+- S’exercer à rédiger un plan simple qui applique les principes de ce parcours
 
 ## Contenu principal
 
-Un plan écrit transforme une intention vague en stratégie concrète. Il peut préciser le budget, les métaux visés, la fréquence des achats, le vendeur choisi et la méthode de suivi.
+Un plan personnel de base pour investir dans les métaux précieux n’a pas besoin d’être compliqué, mais le mettre par écrit, plutôt que de le laisser à l’état de vague intention, rend beaucoup plus probable qu’il soit réellement suivi avec régularité — ce qui renvoie aux thèmes du suivi et de la création d’habitudes vus tout au long de ce parcours.
 
-Le plan devrait aussi préciser l’objectif et l’horizon temporel. Cette référence écrite devient particulièrement utile lorsque les prix fluctuent et que les émotions pourraient autrement provoquer une décision impulsive.
+Un plan utile devrait répondre aux questions suivantes : quel est le budget de départ ou continu (conformément aux leçons sur l’accessibilité), sur quel métal ou quels métaux portera-t-il (l’argent, l’or ou les deux, comme l’illustre la progression de l’étude de cas biographique), à quelle fréquence les achats seront-ils faits (un calendrier défini d’achats périodiques, plutôt qu’un « quand j’y penserai » non structuré), où les achats seront-ils faits (auprès d’un négociant réputé précis et vérifié) et comment la position sera-t-elle suivie et examinée au fil du temps (ce qui renvoie à la leçon sur le suivi).
+
+Ce plan devrait aussi indiquer explicitement l’horizon de placement et le but — un rappel, mis par écrit à l’avance, de la raison pour laquelle ce placement est fait, qui devient particulièrement précieux pendant les périodes de volatilité à court terme, lorsque la tentation d’abandonner un plan bien réfléchi au profit d’une réaction émotionnelle est la plus forte, ce qui renvoie à la leçon sur la patience.
 
 ## Exemple pratique
 
-Un plan pourrait prévoir 50 $ d’argent chaque mois, auprès d’un négociant déterminé, avec chaque achat inscrit au registre et un horizon d’au moins dix ans. Il s’agit d’un exemple éducatif, non d’une recommandation individuelle.
+Un plan écrit simple pourrait se lire ainsi : « J’investirai 50 $ dans l’argent le premier jour de chaque mois, en achetant auprès de [un négociant précis et réputé], et je ferai le suivi dans un registre simple indiquant la date, le prix et la quantité. Mon horizon de placement est d’au moins dix ans, et le but est la préservation du patrimoine à long terme et la diversification, et non un profit à court terme. Je ne réagirai pas aux variations de prix à court terme en modifiant ce plan sans d’abord l’avoir délibérément réexaminé. » Cela reproduit la même structure disciplinée que celle illustrée tout au long de l’étude de cas biographique, simplement rendue explicite et personnalisée.
 
 ## Questionnaire pratique
-1. Quel est le concept principal?
-2. Quel risque ou compromis faut-il considérer?
-3. Comment ce principe s’intègre-t-il à un plan à long terme?
-4. Que montre l’exemple pratique?
+
+1. Selon cette leçon, nommez les cinq éléments auxquels un plan personnel de base d’investissement en métaux devrait répondre.
+2. Pourquoi est-il important de mettre le plan par écrit, plutôt que de le laisser à l’état de vague intention?
+3. Pourquoi un plan devrait-il indiquer explicitement son horizon de placement et son but?
+4. Rédigez votre propre plan personnel d’investissement en métaux en une courte phrase, en appliquant le cadre de cette leçon.
 
 ## Corrigé
-1. Le concept est celui présenté dans le contenu principal.
-2. Il faut comparer les avantages potentiels aux risques, coûts et solutions de rechange.
-3. Il doit être appliqué selon les objectifs, l’horizon temporel et la situation de l’investisseur.
-4. L’exemple montre une application concrète du principe.
+1. Le budget de départ ou continu, le ou les métaux visés, la fréquence des achats, l’endroit où les achats seront faits et la façon dont la position sera suivie.
+2. Un plan écrit est beaucoup plus susceptible d’être réellement suivi avec régularité qu’une vague intention non écrite.
+3. Parce qu’il devient un rappel précieux pendant les périodes de volatilité à court terme, lorsque la tentation d’abandonner un plan bien réfléchi est la plus forte.
+4. Les réponses varieront, mais elles devraient intégrer les cinq éléments décrits dans cette leçon.
 
 ## Réponses et explications
-1. La compréhension du concept améliore la qualité du raisonnement financier.
-2. Une décision informée tient compte des compromis plutôt que d’un seul avantage.
-3. Les circonstances personnelles déterminent comment un principe général doit être appliqué.
-4. EDUNANCIAL fournit l’information nécessaire pour permettre à l’apprenant de prendre sa propre décision.
+1. Ces cinq éléments font la synthèse des notions pratiques vues tout au long de cette section du parcours.
+2. Les engagements écrits se révèlent systématiquement plus durables que les intentions non écrites.
+3. Cela relie directement le plan aux leçons sur la patience et la volatilité vues plus tôt dans ce parcours.
+4. Une bonne réponse démontre une réelle synthèse des éléments requis du plan dans un énoncé personnalisé.
 
 ## Points clés à retenir
-- Comprendre les risques pratiques fait partie de l’investissement.
-- Les décisions doivent correspondre aux objectifs et aux circonstances personnelles.
-- Aucun actif ou choix présenté ici n’est une recommandation universelle.
+- Un plan personnel de base d’investissement en métaux devrait préciser le budget, le métal visé, la fréquence des achats, le négociant et la méthode de suivi.
+- Mettre le plan par écrit le rend beaucoup plus susceptible d’être suivi avec régularité que de le laisser à l’état de vague intention.
+- Indiquer explicitement l’horizon de placement et le but fournit un point d’ancrage précieux pendant les périodes de volatilité à court terme.

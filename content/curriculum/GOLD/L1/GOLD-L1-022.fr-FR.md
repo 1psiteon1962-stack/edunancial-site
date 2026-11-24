@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 22
-title: "Mouvements des devises et prix des métaux précieux"
-summary: "Explique comment la force des monnaies, notamment du dollar américain, tend à influencer les prix des métaux."
+locale: fr-FR
+title: "Les mouvements des devises et le prix des métaux précieux"
+summary: "Explique comment la vigueur des devises, en particulier du dollar américain, a tendance à influer sur le prix des métaux précieux."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Mouvements des devises et prix des métaux précieux
+# Les mouvements des devises et le prix des métaux précieux
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Expliquer la relation générale entre la vigueur d’une devise et le prix des métaux précieux
+- Comprendre pourquoi les métaux précieux sont habituellement cotés en dollars américains à l’échelle mondiale
+- Reconnaître qu’il s’agit d’une tendance générale, et non d’une règle fixe
 
 ## Contenu principal
 
-Les métaux précieux sont généralement cotés et négociés mondialement en dollars américains. La force ou la faiblesse du dollar par rapport aux autres monnaies tend donc à influencer leurs prix. Historiquement, lorsque le dollar s’affaiblit, les prix de l’or et de l’argent exprimés en dollars ont souvent tendance à monter, et inversement lorsque le dollar se renforce. Cette relation n’est toutefois ni fixe ni garantie.
+Les métaux précieux sont habituellement cotés et négociés à l’échelle mondiale en dollars américains, ce qui signifie que la vigueur ou la faiblesse du dollar par rapport aux autres devises a tendance à influer sur le prix des métaux, même pour les acheteurs à l’extérieur des États-Unis. De façon générale, lorsque le dollar américain s’affaiblit par rapport aux autres devises, le prix de l’or et de l’argent, mesuré en dollars, a historiquement eu tendance à monter, et l’inverse lorsque le dollar se raffermit — même si cette relation n’est pas une règle fixe et garantie, et qu’elle peut être influencée simultanément par de nombreux autres facteurs.
 
-La logique générale est qu’un dollar plus faible peut nécessiter davantage de dollars pour acheter la même quantité d’un actif mondialement coté comme l’or. Cette dynamique est liée à l’inflation sans être identique à celle-ci.
+La logique de base derrière cette tendance générale : si le dollar achète moins d’autres devises (ou, dans un sens connexe, achète moins en général à cause de l’inflation), il faut souvent plus de ces dollars affaiblis pour acheter la même quantité d’un actif coté à l’échelle mondiale comme l’or, ce qui pousse le prix de l’or en dollars à la hausse, toutes choses étant égales par ailleurs. Cela renvoie à la leçon précédente sur la protection contre l’inflation, puisque la faiblesse du dollar et l’inflation sont des notions souvent liées, mais pas identiques.
 
-Comprendre cette relation explique pourquoi les informations financières associent souvent mouvements des devises et prix des métaux, sans qu’un seul facteur puisse prévoir parfaitement les mouvements de court terme.
+Comprendre cette relation aide à expliquer pourquoi l’actualité financière traite souvent des mouvements des devises en même temps que du prix des métaux précieux — il s’agit de dynamiques de marché réellement liées, même si, comme ce parcours le souligne tout du long, aucun facteur unique ne prédit parfaitement les variations de prix à court terme.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : l’investisseur applique le principe à une décision concrète en comparant objectifs, horizon temporel, coûts, risques et alternatives avant d’agir.
+Si les nouvelles indiquent que le dollar américain s’est nettement affaibli par rapport aux autres grandes devises mondiales au cours d’une période, un investisseur qui suit les leçons de ce parcours comprendrait pourquoi cette même période pourrait aussi montrer une tendance à la hausse du prix de l’or et de l’argent en dollars — non pas comme une certitude, mais comme une tendance générale qui reflète la relation historique entre la vigueur du dollar et le prix des métaux précieux présentée dans cette leçon.
 
-## Quiz de vérification
-1. Quel est le concept principal de cette leçon ?
-2. Pourquoi est-il important pour un investisseur ?
-3. Quel risque ou compromis faut-il considérer ?
-4. Comment se relie-t-il à un plan de long terme ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il améliore la qualité des décisions financières.
-3. Toute décision comporte des risques, coûts ou compromis.
-4. Il doit être appliqué selon les objectifs et l’horizon temporel.
+1. Dans quelle devise les métaux précieux sont-ils habituellement cotés et négociés à l’échelle mondiale?
+2. Quelle est la tendance générale entre la faiblesse du dollar et le prix de l’or et de l’argent?
+3. Quelle est la logique de base derrière cette tendance générale?
+4. Cette relation est-elle une règle fixe et garantie?
+
+## Corrigé
+1. En dollars américains.
+2. La faiblesse du dollar a historiquement eu tendance à coïncider avec une hausse du prix de l’or et de l’argent en dollars, et inversement.
+3. Si le dollar achète moins en général, il faut souvent plus de dollars (affaiblis) pour acheter le même actif coté à l’échelle mondiale, ce qui pousse son prix en dollars à la hausse.
+4. Non — c’est une tendance historique générale, et non une règle fixe ou garantie, et elle peut être influencée simultanément par de nombreux autres facteurs.
 
 ## Réponses et explications
-1. La définition constitue la base de la leçon.
-2. Comprendre le concept permet de l’utiliser plutôt que de réagir impulsivement.
-3. Reconnaître les limites évite les conclusions trop simples.
-4. Les concepts du parcours fonctionnent ensemble dans un plan cohérent.
+1. Cela établit la devise de référence habituelle pour la cotation mondiale des métaux précieux.
+2. Cette tendance historique générale est la relation centrale qu’explique la leçon.
+3. Cette logique relie directement la valeur de la devise au mécanisme d’établissement du prix d’un actif négocié à l’échelle mondiale.
+4. Cette mise en garde évite d’exagérer la certitude de cette relation, conformément à l’approche de ce parcours tout du long.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer risques, coûts et alternatives.
-- Maintenir les décisions cohérentes avec ses objectifs.
+## Points clés à retenir
+- Les métaux précieux sont habituellement cotés à l’échelle mondiale en dollars américains, ce qui relie la vigueur du dollar au prix des métaux, même pour les acheteurs à l’extérieur des États-Unis.
+- La faiblesse du dollar a historiquement eu tendance à coïncider avec une hausse du prix de l’or et de l’argent en dollars, et inversement.
+- C’est une tendance historique générale, et non une règle garantie — de nombreux facteurs influent simultanément sur le prix des métaux précieux.

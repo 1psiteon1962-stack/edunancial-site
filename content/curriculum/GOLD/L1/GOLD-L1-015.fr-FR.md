@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
-title: "Suivre sa position dans le temps"
-summary: "Enseigne les bases de la tenue de registres pour une position d’investissement accumulée progressivement."
+locale: fr-FR
+title: "Faire le suivi de sa position au fil du temps"
+summary: "Enseigne les notions de base de la tenue de registres pour une position de placement qui s’accumule."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "fr-FR"
 ---
 
-# Suivre sa position dans le temps
+# Faire le suivi de sa position au fil du temps
 
 ## Objectifs d’apprentissage
-- Comprendre le concept principal de la leçon.
-- Relier ce concept aux décisions d’investissement de long terme.
-- Appliquer le principe à une situation financière concrète.
+- Expliquer pourquoi le suivi d’une position de placement est important, même pour un actif simple
+- Repérer les renseignements de base qu’il vaut la peine de consigner pour chaque achat
+- S’exercer à mettre en place un registre de suivi simple
 
 ## Contenu principal
 
-À mesure qu’une position grandit par des achats réguliers, un registre simple devient très utile. Sans suivi, il est facile de perdre de vue la quantité totale détenue, le montant réellement payé au fil du temps et l’évolution globale de l’accumulation.
+À mesure qu’une position de placement grossit au fil du temps grâce à des achats réguliers, tenir un registre simple devient de plus en plus utile. Sans suivi, il est facile de perdre une idée claire de la quantité totale détenue, de ce qui a réellement été payé au fil du temps (ce qui est important pour comprendre le rendement réel et, plus tard, à des fins fiscales) et du profil d’ensemble de l’accumulation.
 
-Un registre de base pour les métaux précieux devrait au minimum indiquer la date de chaque achat, la quantité achetée en onces ou grammes, le prix payé par unité — prime comprise — et le montant total dépensé. Avec le temps, ces données permettent de calculer le coût moyen réel par unité, en lien direct avec le DCA, et de comprendre l’ensemble du parcours d’accumulation sans dépendre de la mémoire ou de reçus dispersés.
+Un registre de suivi de base pour une position en métaux précieux devrait comprendre, au minimum : la date de chaque achat, la quantité achetée (en onces ou en grammes), le prix payé par unité (y compris toute prime) et le montant total dépensé pour cet achat. Avec le temps, ce registre permet à un investisseur de calculer son coût moyen réel par unité — ce qui renvoie directement à la notion d’achats périodiques vue plus tôt — et de voir d’un coup d’œil l’histoire complète de son accumulation, plutôt que de se fier à sa mémoire ou à des reçus éparpillés.
 
 ## Exemple pratique
 
-EXEMPLE ILLUSTRATIF : un investisseur applique le principe de cette leçon à une décision réelle en tenant compte de ses objectifs, de son horizon temporel, des coûts et du risque, plutôt qu’en réagissant uniquement au mouvement de prix du moment.
+EXEMPLE ILLUSTRATIF : Dans l’étude de cas qui se poursuit, consigner les achats d’argent à partir de l’âge de 11 ans dans un registre simple — date, onces achetées, prix payé, total dépensé — permet de calculer clairement, des années plus tard, le coût moyen réel par once, plutôt que de se fier à une vague impression du genre « j’achète de l’argent depuis des années ». Lorsque les achats d’or commencent à 15 ans, un registre semblable pour l’or, tenu séparément, garde claires et distinctes les histoires d’accumulation des deux métaux, ce qui soutient le genre d’examen à long terme sur lequel s’appuieront les leçons de synthèse ultérieures de ce parcours.
 
-## Quiz de vérification
-1. Quel est le concept principal présenté dans cette leçon ?
-2. Pourquoi est-il important pour un investisseur de long terme ?
-3. Quel risque ou compromis faut-il prendre en compte ?
-4. Comment ce principe peut-il être appliqué concrètement ?
+## Questionnaire pratique
 
-## Solutions
-1. Le concept central expliqué dans le contenu principal.
-2. Il aide à prendre des décisions cohérentes avec les objectifs et l’horizon temporel.
-3. Toute décision comporte des risques, des coûts ou des compromis à évaluer.
-4. Il s’applique en comparant les options avant d’agir.
+1. Pourquoi le suivi d’une position de placement est-il important, même pour un actif simple comme les métaux précieux?
+2. Nommez les quatre renseignements de base qu’un registre de suivi devrait comprendre pour chaque achat.
+3. Quel calcul un bon registre de suivi rend-il possible au fil du temps?
+4. Pourquoi l’étude de cas fait-elle le suivi de l’argent et de l’or dans des registres distincts?
+
+## Corrigé
+1. Parce que, sans suivi, il est facile de perdre une idée claire de la quantité totale détenue, du coût réel et du profil d’ensemble de l’accumulation.
+2. La date de l’achat, la quantité achetée, le prix payé par unité et le montant total dépensé.
+3. Le coût moyen réel par unité au fil du temps, ce qui renvoie directement à la notion d’achats périodiques.
+4. Parce qu’il s’agit de deux métaux distincts, aux calendriers d’accumulation différents, et que des registres distincts gardent chaque histoire claire et distincte.
 
 ## Réponses et explications
-1. La définition fournit la base conceptuelle de la leçon.
-2. La perspective de long terme aide à éviter les réactions impulsives.
-3. Reconnaître les compromis permet une décision plus éclairée.
-4. L’application pratique transforme la théorie en compétence financière.
+1. La tenue de registres évite de dépendre de la mémoire, qui devient peu fiable à mesure qu’une position grossit au fil des années.
+2. Ces quatre données forment le registre de suivi minimal pour toute position qui s’accumule.
+3. Le calcul du coût moyen relie directement le suivi à la notion centrale de la leçon précédente sur les achats périodiques.
+4. Un suivi distinct pour chaque métal favorise la clarté, surtout compte tenu de leurs points de départ différents dans l’étude de cas.
 
-## Points clés
-- Comprendre avant d’agir.
-- Évaluer les risques, les coûts et les alternatives.
-- Garder chaque décision cohérente avec son plan financier.
+## Points clés à retenir
+- Faire le suivi d’une position de placement au fil du temps évite de dépendre de la mémoire et favorise une compréhension exacte du coût réel.
+- Un registre de base devrait comprendre, pour chaque achat, la date, la quantité, le prix payé par unité et le total dépensé.
+- Un suivi constant permet de calculer le coût moyen réel par unité, ce qui renvoie directement à la méthode des achats périodiques.
