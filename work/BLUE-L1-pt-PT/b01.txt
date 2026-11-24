@@ -1,0 +1,368 @@
+===== BLUE-L1-001
+TITLE: O que é um negócio? (Trabalho por conta própria vs. ser dono de uma empresa)
+SUMMARY: Aprenda a diferença funcional entre trabalhar por conta própria e ser verdadeiramente dono de uma empresa, e porque é que só um deles pode ganhar escala.
+# O que é um negócio? (Trabalho por conta própria vs. ser dono de uma empresa)
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir trabalho por conta própria e propriedade de uma empresa em termos funcionais.
+- aplicar um teste simples para classificar qualquer negócio que conheça numa das duas categorias.
+- explicar porque é que esta distinção determina se um negócio pode ganhar escala.
+
+## Conteúdo principal
+
+### A pergunta por detrás das palavras
+
+Pergunte a si próprio: se o dono de um negócio desaparecesse durante um mês, o que aconteceria? Continuaria a funcionar ou ficaria parado? Essa única pergunta é a verdadeira diferença entre trabalhar por conta própria e ser verdadeiramente dono de uma empresa: não o que dizem os papéis, nem o nome que a pessoa dá a si própria.
+
+### As definições funcionais
+
+**Trabalho por conta própria**: o negócio é a pessoa. As receitas param ou caem a pique no momento em que a pessoa deixa de trabalhar: não existe qualquer camada de pessoal ou de sistema entre o seu trabalho e o dinheiro que entra.
+
+**Propriedade de uma empresa**: o negócio é um sistema (pessoal, processos, estrutura) capaz de gerar receitas com pouca ou nenhuma dependência do trabalho do dono, hora a hora.
+
+Nenhum dos dois é "melhor". Uma fotógrafa freelancer que marca os seus próprios clientes trabalha por conta própria segundo esta definição; a mesma fotógrafa, depois de contratar e formar um assistente para tratar do trabalho com os clientes, aproxima-se da propriedade de uma empresa. A mesma pessoa, uma estrutura diferente.
+
+### Porque é que isto determina se pode crescer
+
+Uma pessoa tem um número limitado de horas. O rendimento de quem trabalha por conta própria está limitado pelas suas horas, por mais competente que seja. Uma verdadeira empresa, construída como sistema, não tem esse limite, porque não depende das horas de uma única pessoa para funcionar. Isto não é um juízo sobre o trabalho por conta própria, que muitas pessoas escolhem deliberadamente: é apenas a razão mecânica pela qual só um dos dois consegue crescer para além de certo ponto.
+
+## Exemplo prático
+
+Pense na avó do Ntege, que é dona de uma loja de vestidos no Uganda. Para a família, ela é sem dúvida uma empresária. Mas faça a pergunta do mês de ausência: se ela não abrisse a loja, a loja ganharia dinheiro nessa semana na mesma? No caso da loja dela, a resposta é não: o negócio é o trabalho dela com uma montra à volta. Isto não é uma crítica. É apenas o teste funcional em ação, e é o primeiro degrau de uma escada que todo este percurso vai continuar a subir.
+
+## Teste de prática
+
+1. Que pergunta testa melhor se algo é trabalho por conta própria ou verdadeira propriedade de uma empresa?
+   A. Quanto dinheiro ganha?
+   B. O que aconteceria se o dono desaparecesse durante um mês?
+   C. Está legalmente constituído como sociedade?
+   D. Quantos clientes tem?
+
+2. Verdadeiro ou falso: trabalhar por conta própria é sempre uma versão inferior ou falhada de ser dono de uma empresa.
+
+3. Porque é que o trabalho por conta própria tem um teto de rendimento que a verdadeira propriedade de uma empresa não tem?
+   A. Quem trabalha por conta própria é menos competente
+   B. O rendimento está limitado pelas horas disponíveis de uma única pessoa
+   C. Quem trabalha por conta própria paga mais impostos
+   D. Não existe um verdadeiro teto em nenhum dos casos
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O teste do "desaparecer durante um mês" revela se o negócio depende do trabalho contínuo do dono.
+
+### Pergunta 2
+
+Resposta correta: Falso. Trabalhar por conta própria pode ser uma escolha deliberada, válida e bem-sucedida: esta lição não coloca os dois por ordem de mérito.
+
+### Pergunta 3
+
+Resposta correta: B. Uma pessoa tem um número fixo de horas; um negócio assente num sistema não tem o mesmo limite.
+
+## Pontos-chave
+
+- O verdadeiro teste: o negócio depende do trabalho contínuo do dono ou funciona como um sistema?
+- Não é a forma jurídica que determina a resposta, mas sim o funcionamento.
+- Só um negócio assente num sistema consegue crescer para além dos limites do tempo de uma pessoa.
+
+===== BLUE-L1-002
+TITLE: Todos os negócios vendem uma de duas coisas: produto, serviço ou ambos
+SUMMARY: Aprenda a lente produto versus serviço para compreender qualquer negócio, e porque é que a maioria é, na verdade, uma combinação.
+# Todos os negócios vendem uma de duas coisas: produto, serviço ou ambos
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir produto e serviço em termos empresariais.
+- classificar um negócio real como baseado em produtos, em serviços ou misto.
+- aplicar esta lente a um negócio que conheça pessoalmente.
+
+## Conteúdo principal
+
+### Duas perguntas a fazer sobre qualquer negócio
+
+Quando olha para um negócio, pergunte: com o que é que o cliente sai, algo que pode guardar ou algo que alguém fez por ele? Um **produto** é algo que é entregue. Um **serviço** é uma ação, um esforço ou uma competência prestada ao cliente.
+
+### Porque é que a maioria dos negócios é uma combinação
+
+Pense num restaurante. Vende comida ou a experiência de ser servido? Ambas: a comida é o produto, ser sentado e atendido é o serviço. Muito poucos negócios reais ficam apenas de um dos lados.
+
+### Aplicar isto à educação financeira
+
+Pense numa plataforma que ensina literacia financeira. Qual é o produto? Qual é o serviço? O serviço é o próprio ensino: orientar a compreensão, desenvolver competências. O produto é o que é entregue de forma concreta: as lições, as avaliações, os exercícios estruturados. Nomear estas partes em separado, em vez de dizer apenas "ensinamos pessoas", torna muito mais claro o que está realmente a ser construído.
+
+## Exemplo prático
+
+Imagine um marceneiro que vende cadeiras: esse é o produto. Agora imagine o mesmo marceneiro a oferecer reparação de móveis por medida: é um serviço acrescentado a um negócio de produtos. Pergunte a si próprio: se esse serviço de reparação crescesse o suficiente, o negócio continuaria a ser "um marceneiro", ou ter-se-ia tornado, discretamente, outra coisa?
+
+## Teste de prática
+
+1. Um produto define-se melhor como:
+   A. Uma ação realizada para um cliente
+   B. Algo físico ou digital que o cliente recebe e guarda
+   C. O plano de marketing de uma empresa
+   D. Um tipo de licença comercial
+
+2. Verdadeiro ou falso: a maioria dos negócios reais é puramente baseada em produtos ou puramente baseada em serviços, com pouca combinação.
+
+3. No exemplo da educação financeira, o que conta como "serviço"?
+   A. As próprias lições e exercícios
+   B. O próprio ensino e a orientação
+   C. O logótipo da empresa
+   D. A estrutura de preços
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um produto é algo físico ou digital entregue ao cliente.
+
+### Pergunta 2
+
+Resposta correta: Falso. A maioria dos negócios reais combina ambos em certa medida.
+
+### Pergunta 3
+
+Resposta correta: B. O ensino e a orientação são o serviço; as lições em si são o produto.
+
+## Pontos-chave
+
+- Um produto é entregue; um serviço é prestado a alguém.
+- A maioria dos negócios reais combina ambos, e não é apenas um ou outro.
+- Nomear as partes de produto e de serviço de um negócio torna claro o que está realmente a ser entregue.
+
+===== BLUE-L1-003
+TITLE: O que é um empresário em nome individual?
+SUMMARY: Aprenda o que é um empresário em nome individual, como surge e qual é o seu maior risco jurídico: a responsabilidade pessoal ilimitada.
+# O que é um empresário em nome individual?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir empresário em nome individual em termos simples.
+- explicar como surge.
+- explicar o maior risco jurídico próprio desta estrutura.
+
+## Conteúdo principal
+
+### A estrutura mais simples que existe
+
+Um empresário em nome individual (em inglês, "sole proprietorship") é um negócio detido e gerido por uma única pessoa, sem separação jurídica entre o dono e o negócio. Não existe uma pessoa coletiva separada: aos olhos da lei, o negócio é simplesmente a pessoa.
+
+### Como surge
+
+*(REGRA ESPECÍFICA DA REGIÃO: as leis variam de país para país. Em Portugal, quem trabalha por conta própria costuma abrir atividade nas Finanças, como trabalhador independente ou empresário em nome individual, e responde com o seu património pessoal; confirme com um contabilista.)* Em muitos lugares não é necessária qualquer formalidade: se alguém começa a fazer negócios em nome próprio, sem outra estrutura, passa automaticamente a ser empresário em nome individual. Ainda assim, pode ser necessária uma licença local ou o registo de um nome comercial.
+
+### O verdadeiro risco: pergunte a si próprio
+
+Se este negócio for processado ou não conseguir pagar uma dívida, de quem é o dinheiro em jogo? Como não há separação jurídica entre a pessoa e o negócio, a resposta é: a conta bancária pessoal do dono, o seu carro, possivelmente a sua casa. Essa é a maior contrapartida desta estrutura, e é exatamente por isso que as próximas lições apresentam as LLC e as sociedades anónimas, criadas precisamente para mudar essa resposta.
+
+## Exemplo prático
+
+Uma fotógrafa freelancer marca clientes em nome próprio: nenhuma LLC, nenhuma formalidade além de uma licença básica. É empresária em nome individual por defeito. Agora imagine que o seu equipamento avaria e danifica um bem de um cliente. Pergunte a si próprio: que bens poderia uma ação judicial atingir? Como não há separação, são os bens pessoais dela, e não apenas os "do negócio".
+
+## Teste de prática
+
+1. Um empresário em nome individual define-se melhor como:
+   A. Um negócio com vários donos legais
+   B. Um negócio sem separação jurídica entre o dono e o negócio
+   C. Um negócio que tem de registar um pacto social
+   D. Um negócio que protege os bens pessoais contra ações judiciais
+
+2. Verdadeiro ou falso: em muitos lugares, não é necessária qualquer formalidade para começar a atuar como empresário em nome individual.
+
+3. Qual é o maior risco jurídico de um empresário em nome individual?
+   A. Impostos elevados
+   B. Responsabilidade pessoal ilimitada
+   C. Horário de funcionamento limitado
+   D. Aprovação obrigatória do Estado para cada venda
+
+## Chave de Respostas
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A ausência de separação jurídica entre dono e negócio é a característica que o define.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Em muitos lugares, a estrutura em si não exige qualquer formalidade.
+
+### Pergunta 3
+
+Resposta correta: B. A responsabilidade pessoal ilimitada é o risco central desta estrutura.
+
+## Pontos-chave
+
+- Um empresário em nome individual não tem separação jurídica entre o dono e o negócio.
+- Normalmente exige poucas ou nenhumas formalidades para começar.
+- O seu maior risco é a responsabilidade pessoal ilimitada.
+
+===== BLUE-L1-004
+TITLE: O que é uma LLC?
+SUMMARY: Aprenda o que uma LLC realmente protege e em que difere, na estrutura, de um empresário em nome individual.
+# O que é uma LLC?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir LLC em termos simples.
+- explicar o que a "responsabilidade limitada" realmente limita.
+- explicar porque é que isto altera o quadro de riscos face a um empresário em nome individual.
+
+## Conteúdo principal
+
+### O que significa LLC e o que faz
+
+LLC significa Limited Liability Company (em Portugal, a forma mais próxima é a sociedade por quotas, Lda., incluindo a sociedade unipessoal por quotas). Pergunte a si próprio: qual é o único problema da lição anterior que esta estrutura existe para resolver? A responsabilidade pessoal ilimitada. Uma LLC cria uma separação jurídica entre o dono (chamado "member", sócio) e o negócio: o negócio passa a ser uma pessoa coletiva própria.
+
+### O que o "limitada" realmente limita
+
+Se uma LLC for processada ou não conseguir pagar uma dívida, os bens pessoais do sócio ficam geralmente protegidos: o que está em risco são os bens do próprio negócio, e não a casa ou as poupanças pessoais do dono, *desde que* o dono cumpra as formalidades exigidas (manter as finanças do negócio separadas das pessoais, fazer os registos corretamente, etc.).
+
+### O pormenor que vale a pena conhecer já
+
+*(REGRA ESPECÍFICA DA REGIÃO: os requisitos de constituição e as formalidades variam de estado para estado e de país para país. Em Portugal, as sociedades por quotas têm regras próprias, e os sócios ou gerentes podem, em certas situações, responder pessoalmente; confirme com um advogado ou contabilista.)* Essa proteção não é automática nem incondicional: depende de tratar a LLC, na prática, como uma entidade separada, e não apenas no papel. Lições posteriores deste percurso mostram como são essas formalidades.
+
+## Exemplo prático
+
+Compare a fotógrafa freelancer da lição anterior com uma versão dela que constituiu uma LLC. A mesma avaria no equipamento, a mesma ação judicial. Pergunte a si próprio: o que muda desta vez? Se ela cumpriu as formalidades da LLC, o pedido de indemnização atinge geralmente os bens do negócio, e não os bens pessoais dela. O mesmo acontecimento, uma exposição jurídica diferente, apenas por causa da estrutura.
+
+## Teste de prática
+
+1. LLC significa:
+   A. Limited Liability Corporation
+   B. Limited Liability Company
+   C. Legal License Certificate
+   D. Local Licensed Contractor
+
+2. Verdadeiro ou falso: a proteção de responsabilidade de uma LLC é automática e aplica-se independentemente do que o dono faça.
+
+3. Face a um empresário em nome individual, o que protege principalmente uma LLC?
+   A. A taxa de imposto do negócio
+   B. Os bens pessoais do dono contra dívidas e ações judiciais do negócio
+   C. O orçamento de marketing do negócio
+   D. Os trabalhadores do dono
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. LLC significa Limited Liability Company.
+
+### Pergunta 2
+
+Resposta correta: Falso. A proteção depende do cumprimento das formalidades exigidas, e não é automática só por se ter constituído a LLC.
+
+### Pergunta 3
+
+Resposta correta: B. A proteção dos bens pessoais é o benefício central face a um empresário em nome individual.
+
+## Pontos-chave
+
+- Uma LLC cria uma separação jurídica entre o dono e o negócio.
+- Isto protege geralmente os bens pessoais contra dívidas e ações judiciais do negócio.
+- Essa proteção depende do cumprimento das formalidades exigidas, e não apenas de registar os papéis uma vez.
+
+===== BLUE-L1-005
+TITLE: O que é uma LLP, e em que difere de uma LLC?
+SUMMARY: Aprenda o que é uma LLP e em que a sua proteção de responsabilidade difere da de uma LLC.
+# O que é uma LLP, e em que difere de uma LLC?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir LLP em termos simples.
+- explicar quem normalmente usa esta estrutura.
+- explicar uma diferença importante entre a proteção de responsabilidade de uma LLP e a de uma LLC.
+
+## Conteúdo principal
+
+### O que significa LLP
+
+LLP significa Limited Liability Partnership: uma estrutura pensada para vários donos (sócios), e não para um único sócio, usada frequentemente por sociedades de profissionais, como escritórios de advogados ou de contabilidade.
+
+### Quem normalmente a usa
+
+*(REGRA ESPECÍFICA DA REGIÃO: a disponibilidade e as regras variam de estado para estado, de país para país e consoante a profissão. Em Portugal, os profissionais podem organizar-se, por exemplo, em sociedades de profissionais, como as sociedades de advogados, com regras próprias de responsabilidade; confirme com a sua ordem profissional ou um advogado.)* As LLP são muitas vezes usadas por profissionais habilitados que são obrigados ou escolhem atuar como sócios, e cada sócio continua diretamente responsável pelo seu próprio trabalho profissional.
+
+### A principal diferença de responsabilidade
+
+Pergunte a si próprio: se um sócio do escritório cometer um erro dispendioso, os bens pessoais de todos os outros sócios devem ficar em risco por isso? Numa LLP, um sócio está geralmente protegido da responsabilidade pessoal por erros profissionais ou atos ilícitos de outros sócios: uma distinção que importa precisamente em sociedades de profissionais com vários sócios.
+
+## Exemplo prático
+
+Imagine um pequeno escritório de advogados com três sócios estruturado como LLP. Um sócio comete um erro grave num processo de um cliente. Pergunte a si próprio: as casas dos outros dois sócios ficam em risco por causa do erro desse sócio? Numa LLP, geralmente não: a exposição de cada sócio pelos atos dos outros é limitada, mesmo partilhando o negócio.
+
+## Teste de prática
+
+1. LLP significa:
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+
+2. Verdadeiro ou falso: as LLP são normalmente estruturadas para um único dono.
+
+3. A proteção de responsabilidade de uma LLP diz geralmente respeito a quê?
+   A. Proteção contra qualquer tipo de dívida do negócio
+   B. Proteção contra a responsabilidade pessoal por erros profissionais ou atos ilícitos de outros sócios
+   C. Proteção contra o pagamento de quaisquer impostos
+   D. Proteção contra alguma vez ser processado
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. LLP significa Limited Liability Partnership.
+
+### Pergunta 2
+
+Resposta correta: Falso. As LLP são estruturadas para vários sócios, e não para um único dono.
+
+### Pergunta 3
+
+Resposta correta: B. As LLP dizem respeito especificamente à responsabilidade pelos atos de outros sócios.
+
+## Pontos-chave
+
+- Uma LLP é pensada para vários sócios, muitas vezes em profissões regulamentadas.
+- Protege geralmente um sócio da responsabilidade por erros profissionais ou atos ilícitos de outros sócios.
+- É uma proteção diferente do escudo geral de responsabilidade de uma LLC.
