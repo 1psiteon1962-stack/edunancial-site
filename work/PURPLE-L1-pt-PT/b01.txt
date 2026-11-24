@@ -1,0 +1,401 @@
+===== PURPLE-L1-001
+TITLE: O que é o direito e porque é que importa para construir património?
+SUMMARY: Apresenta o direito como o sistema de regras exigíveis por detrás de todas as decisões sobre imóveis, investimentos e negócios, e trata a literacia jurídica como uma competência prática de construção de património.
+# O que é o direito e porque é que importa para construir património?
+
+## Objetivos de aprendizagem
+
+- Definir o direito em termos simples.
+- Explicar porque é que a literacia jurídica importa diretamente para RED, WHITE e BLUE.
+- Antecipar o âmbito do PURPLE: literacia jurídica prática, não prática jurídica.
+
+## Conteúdo principal
+
+O direito é o conjunto de regras exigíveis que uma sociedade aceita seguir, apoiado pelo poder dos tribunais e do Estado para fazer com que as pessoas as cumpram de facto. Cada contrato que se assina, cada imóvel que se compra, cada negócio que se abre e cada investimento que se faz acontece dentro deste sistema de regras, quer se pense nisso, quer não.
+
+Esta é a ligação direta com o resto deste currículo: RED (imobiliário) depende inteiramente de propriedade, contratos e direitos de propriedade juridicamente exigíveis. WHITE (investimento) depende das leis dos valores mobiliários, que tornam os mercados suficientemente fiáveis para se participar neles. BLUE (negócios) depende das estruturas jurídicas que determinam quem responde quando algo corre mal. Não é preciso uma licenciatura em Direito para construir património em nenhuma destas áreas, mas atuar sem qualquer literacia jurídica é como conduzir sem conhecer o código da estrada: tecnicamente possível, mas uma péssima ideia.
+
+Este percurso, PURPLE, existe para colmatar essa lacuna. Não vai transformar ninguém em advogado e não substitui um advogado quando há muito em jogo; é essa a analogia do médico a que este currículo regressa constantemente. O que vai fazer é tornar cada aluno um participante alfabetizado em matéria jurídica: alguém capaz de ler um contrato sem pânico, de reconhecer quando um negócio tem um problema jurídico e de saber quando uma situação entrou no território do "chame um profissional".
+
+## Exemplo prático
+
+**Pergunta:** Um investidor imobiliário principiante diz: "Não preciso de saber nada de direito; contrato um advogado para tudo." Qual é a falha deste plano?
+
+**Aluno:** Com base nesta lição, mesmo com um advogado, continuaria a ser preciso ter literacia jurídica suficiente para saber quando o chamar, antes de mais, e para perceber o que ele está a dizer.
+
+**Guia:** Qual é uma consequência prática de ter zero literacia jurídica, mesmo com acesso a um advogado?
+
+**Aluno:** Pode não se reconhecer um sinal de alerta jurídico num contrato antes de o assinar, ou só se perceber que uma situação precisa de um advogado quando já se tornou um problema.
+
+**Guia:** Exatamente: a literacia jurídica não substitui a ajuda profissional; é o que permite usar essa ajuda de forma eficaz e saber quando é necessária.
+
+## Teste de prática
+
+**Pergunta 1.** O direito define-se melhor como:
+
+A) Um conjunto de sugestões sem fiscalização
+B) Regras exigíveis, apoiadas pelos tribunais e pelo Estado
+C) Algo relevante apenas para criminosos
+D) O mesmo que ética
+
+**Pergunta 2.** RED (imobiliário) depende juridicamente de:
+
+A) Nada de jurídico
+B) Propriedade, contratos e direitos de propriedade exigíveis
+C) Apenas direito fiscal
+D) Apenas direito dos valores mobiliários
+
+**Pergunta 3.** WHITE (investimento) depende juridicamente de:
+
+A) Apenas direito imobiliário
+B) Leis dos valores mobiliários que tornam os mercados fiáveis
+C) Nenhum enquadramento jurídico
+D) Apenas licenças de atividade
+
+**Pergunta 4.** Segundo esta lição, o objetivo do PURPLE é tornar o aluno:
+
+A) Um advogado inscrito na Ordem
+B) Um participante com literacia jurídica, não um substituto da ajuda profissional
+C) Alguém que nunca mais vai precisar de advogado
+D) Um especialista em direito penal
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A característica que define o direito é a exigibilidade: regras com consequências reais, não meras sugestões sociais.
+
+**2.** As transações imobiliárias dependem inteiramente da capacidade do sistema jurídico de fazer valer a propriedade e os contratos.
+
+**3.** Investir depende de um enquadramento jurídico que mantenha os mercados suficientemente honestos para se participar neles em segurança.
+
+**4.** A literacia jurídica é o objetivo explícito e declarado; a especialização de nível profissional não é.
+
+## Pontos-chave
+
+- O direito é composto por regras exigíveis, apoiadas pelos tribunais e pelo Estado.
+- RED, WHITE e BLUE dependem, cada um, de fundamentos jurídicos específicos para funcionar.
+- A literacia jurídica torna cada pessoa um utilizador mais eficaz da ajuda jurídica profissional, não um substituto dela.
+- Este percurso ensina literacia prática, em linha com a analogia do médico dos percursos anteriores.
+
+===== PURPLE-L1-002
+TITLE: Common law e direito legislado: de onde vêm as regras
+SUMMARY: Apresenta as duas grandes fontes do direito na maioria dos sistemas jurídicos, dando ao aluno um mapa básico da origem real das regras jurídicas.
+# Common law e direito legislado: de onde vêm as regras
+
+## Objetivos de aprendizagem
+
+- Distinguir o direito legislado da common law.
+- Explicar porque é que ambas as fontes importam em situações jurídicas do dia a dia.
+- Reconhecer que a combinação exata varia de país para país.
+
+## Conteúdo principal
+
+O direito legislado é o direito escrito e aprovado por um órgão legislativo: uma regra formal e codificada, como uma lei específica que fixa um requisito para os contratos ou uma regra de licenciamento. A common law, usada nos Estados Unidos e em muitos outros países, é o direito construído ao longo do tempo através de decisões judiciais: quando os juízes resolvem litígios, o seu raciocínio torna-se precedente, que orienta a forma como litígios futuros e semelhantes são decididos, mesmo sem uma lei escrita específica que cubra exatamente aquela situação. (Portugal segue a tradição do direito codificado, com o Código Civil no centro do direito privado; ainda assim, a jurisprudência dos tribunais superiores, como o Supremo Tribunal de Justiça, tem grande peso, sobretudo quando uniformiza jurisprudência. Confirme os pormenores com um profissional.)
+
+Na prática, a maioria das questões jurídicas reais envolve ambas as fontes: uma lei pode fixar uma regra geral, e as decisões judiciais interpretam o que essa lei significa exatamente em situações reais, específicas e complicadas. Isto importa na prática porque explica porque é que "a lei" nem sempre é uma frase simples que se possa consultar: por vezes, a resposta real depende da forma como os tribunais aplicaram uma regra em casos anteriores semelhantes, e não apenas do que o texto da lei diz literalmente.
+
+## Exemplo prático
+
+**Pergunta:** Uma nova empresária consulta um artigo de lei e parte do princípio de que este responde totalmente à sua dúvida jurídica. Porque é que esse talvez não seja o quadro completo?
+
+**Aluno:** Com base nesta lição, as decisões judiciais que interpretam esse artigo podem acrescentar pormenores importantes que o texto literal da lei não explicita.
+
+**Guia:** Porque é que isso importaria para a situação real e específica que ela enfrenta?
+
+**Aluno:** Porque a forma como os tribunais aplicaram o artigo em casos semelhantes pode revelar exceções, limites ou interpretações que mudam a forma como ele se aplica à situação dela.
+
+**Guia:** Exatamente: e é uma das razões pelas quais as questões jurídicas complexas ou de alto risco beneficiam de orientação profissional, e não apenas de uma consulta rápida à lei.
+
+## Teste de prática
+
+**Pergunta 1.** O direito legislado é:
+
+A) Direito construído apenas a partir de decisões judiciais
+B) Direito escrito e aprovado por um órgão legislativo
+C) Sugestões não exigíveis
+D) Relevante apenas para processos-crime
+
+**Pergunta 2.** A common law é:
+
+A) Direito construído ao longo do tempo através de decisões judiciais e precedentes
+B) O mesmo que direito legislado
+C) Usada apenas num país
+D) Irrelevante para os sistemas jurídicos modernos
+
+**Pergunta 3.** Na prática, a maioria das questões jurídicas envolve:
+
+A) Apenas leis, nunca decisões judiciais
+B) Tanto as leis como a forma como os tribunais as interpretaram
+C) Nenhuma das duas fontes
+D) Apenas common law, nunca leis
+
+**Pergunta 4.** Porque é que consultar apenas um artigo de lei pode não responder totalmente a uma questão jurídica?
+
+A) As leis são sempre completas por si só
+B) A interpretação judicial pode acrescentar pormenores importantes que não estão no texto literal
+C) As leis nunca são relevantes
+D) Isto nunca acontece na prática
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O direito legislado é o tipo formalmente codificado, criado através do processo legislativo.
+
+**2.** A common law constrói-se gradualmente através de precedentes judiciais, e não de um único ato legislativo.
+
+**3.** As questões jurídicas reais exigem normalmente compreender tanto a regra escrita como a forma como foi de facto aplicada.
+
+**4.** A interpretação judicial revela muitas vezes nuances, exceções ou limites que o texto simples da lei não torna evidentes.
+
+## Pontos-chave
+
+- O direito legislado vem dos legisladores; a common law constrói-se a partir de decisões judiciais e precedentes.
+- A maioria das questões jurídicas reais envolve as duas fontes a funcionar em conjunto.
+- O texto literal de uma lei nem sempre conta a história completa.
+- É uma das razões pelas quais as questões jurídicas complexas beneficiam de interpretação profissional.
+
+===== PURPLE-L1-003
+TITLE: Contratos 101: o que torna um acordo juridicamente vinculativo
+SUMMARY: Apresenta o conceito fundamental de contrato e antecipa os elementos que tornam um acordo juridicamente exigível, preparando as duas lições seguintes.
+# Contratos 101: o que torna um acordo juridicamente vinculativo
+
+## Objetivos de aprendizagem
+
+- Definir um contrato em termos simples.
+- Explicar porque é que nem todo o acordo é um contrato juridicamente exigível.
+- Antecipar os três elementos centrais tratados na lição seguinte.
+
+## Conteúdo principal
+
+Um contrato é um acordo juridicamente exigível entre duas ou mais partes. A palavra-chave é exigível: um contrato não é apenas uma promessa ou um acordo de palavra; é um acordo cujo cumprimento um tribunal pode de facto impor, ou pelo qual pode atribuir uma indemnização se for violado. Esta distinção é muito importante em RED, WHITE e BLUE: um contrato de compra e venda de um imóvel, um contrato de subscrição de um investimento e um acordo de sociedade entre empreendedores são, no fundo, todos contratos.
+
+Nem todo o acordo chega ao nível de um contrato exigível. Uma promessa casual entre amigos normalmente não o é; um contrato de compra formal e assinado normalmente é. A lição seguinte detalha os três ingredientes centrais – proposta, aceitação e contrapartida – que, em muitos sistemas jurídicos, devem em geral estar presentes para que um acordo conte como contrato juridicamente vinculativo. Compreender esta distinção é fundamental: é a diferença entre algo em que se pode realmente confiar juridicamente e algo que é apenas um entendimento amigável.
+
+## Exemplo prático
+
+**Pergunta:** Dois vizinhos combinam verbalmente que um corta a relva do outro "algures este verão" em troca de "um favor mais tarde". Isto é provavelmente um contrato exigível?
+
+**Aluno:** Com base nesta lição, parece bastante casual e vago, por isso é duvidoso que contasse como contrato exigível.
+
+**Guia:** O que falta aqui que um contrato formal de compra de um imóvel teria?
+
+**Aluno:** Termos claros e específicos e um certo grau de formalidade: o tipo de coisa que faz de um acordo algo cujo cumprimento um tribunal poderia de facto impor, e não apenas um entendimento amigável.
+
+**Guia:** Exatamente: a lição seguinte mostra os ingredientes específicos a procurar.
+
+## Teste de prática
+
+**Pergunta 1.** Um contrato é:
+
+A) Qualquer promessa casual
+B) Um acordo juridicamente exigível entre partes
+C) Relevante apenas para empresas
+D) O mesmo que um aperto de mão
+
+**Pergunta 2.** A principal característica que distingue um contrato é:
+
+A) A sua extensão
+B) A exigibilidade: um tribunal pode impor o seu cumprimento ou atribuir uma indemnização
+C) Se está escrito à máquina ou à mão
+D) Se as duas partes são amigas
+
+**Pergunta 3.** Qual destes é descrito como exemplo de contrato no contexto deste currículo?
+
+A) Um contrato de compra e venda de um imóvel
+B) Um favor verbal casual entre amigos
+C) Um devaneio sobre uma ideia de negócio
+D) Uma esperança não escrita
+
+**Pergunta 4.** O que aborda a lição seguinte?
+
+A) Direito fiscal
+B) Os três elementos centrais: proposta, aceitação e contrapartida
+C) Direito penal
+D) Ordenamento do território
+
+## Chave de Respostas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respostas e explicações
+
+**1.** A exigibilidade é a característica que separa um verdadeiro contrato de uma promessa informal.
+
+**2.** A capacidade de um tribunal de impor de facto o acordo é o que lhe dá significado jurídico.
+
+**3.** Os contratos de compra são formais, específicos e exigíveis: um exemplo clássico de contrato real.
+
+**4.** Esta lição prepara a explicação dos ingredientes necessários na lição seguinte.
+
+## Pontos-chave
+
+- Um contrato é um acordo cujo cumprimento um tribunal pode de facto impor, não apenas uma promessa.
+- Os contratos de compra, de investimento e de sociedade são todos contratos.
+- Nem todo o acordo chega ao nível de um contrato exigível.
+- A lição seguinte aborda os três ingredientes centrais que transformam um acordo num contrato.
+
+===== PURPLE-L1-004
+TITLE: Proposta, aceitação e contrapartida: os três ingredientes
+SUMMARY: Detalha os três elementos clássicos geralmente exigidos para que um contrato seja juridicamente exigível, através de um exemplo concreto.
+# Proposta, aceitação e contrapartida: os três ingredientes
+
+## Objetivos de aprendizagem
+
+- Definir proposta, aceitação e contrapartida.
+- Aplicar os três elementos a uma transação simples do mundo real.
+- Reconhecer que a falta de qualquer um deles pode comprometer a exigibilidade.
+
+## Conteúdo principal
+
+Partindo da lição anterior, a maioria dos sistemas jurídicos procura três ingredientes centrais para tratar um acordo como contrato exigível. **Proposta**: uma parte propõe termos específicos ("Vendo-lhe este imóvel por 200 000 €"). **Aceitação**: a outra parte concorda claramente com exatamente esses termos. **Contrapartida** (em inglês, "consideration"): cada lado troca algo de valor (dinheiro, um bem, a promessa de fazer ou de não fazer algo); uma doação unilateral não é, em geral, um contrato deste tipo, porque nada é trocado. (No direito português, o contrato forma-se, em regra, pelo encontro entre proposta e aceitação, e a contrapartida não é um requisito geral; a doação, por exemplo, é ela própria um contrato, com regras próprias. Confirme os pormenores com um profissional.)
+
+Um exemplo simples torna isto concreto: um vendedor propõe um imóvel por um preço indicado (proposta), um comprador diz sim exatamente a esse preço e a esses termos (aceitação), e o dinheiro é trocado pelo imóvel (contrapartida). Os três elementos presentes, por esta ordem, são em geral o que leva um tribunal a tratar o acordo resultante como contrato vinculativo, e é por isso que propostas vagas, unilaterais ou não aceites muitas vezes não se aguentam se surgir um litígio mais tarde.
+
+## Exemplo prático
+
+**Pergunta:** Um comprador diz: "Adorava comprar a sua casa um dia", e o vendedor responde: "Claro, seria ótimo." Isto cumpre os três ingredientes de um contrato?
+
+**Aluno:** Com base nesta lição, não parece: não há uma proposta específica com termos reais, por isso a aceitação de nada de específico também não conta verdadeiramente.
+
+**Guia:** O que teria de mudar para isto se tornar uma proposta real?
+
+**Aluno:** Termos específicos – um preço real, um imóvel e condições – propostos com clareza suficiente para que a outra parte os pudesse aceitar exatamente como foram apresentados.
+
+**Guia:** Exatamente: um entusiasmo vago não é o mesmo que uma proposta juridicamente relevante.
+
+## Teste de prática
+
+**Pergunta 1.** Uma "proposta", no direito dos contratos, é:
+
+A) Uma manifestação vaga de interesse
+B) Uma proposta de termos específicos feita por uma das partes
+C) O mesmo que contrapartida
+D) Irrelevante para a formação do contrato
+
+**Pergunta 2.** "Aceitação" significa:
+
+A) Ignorar a proposta
+B) Concordar claramente com exatamente os termos propostos
+C) Propor termos diferentes
+D) O mesmo que uma proposta
+
+**Pergunta 3.** "Contrapartida" refere-se a:
+
+A) Ser educado durante a negociação
+B) Algo de valor trocado por cada lado
+C) Uma doação unilateral
+D) Algo relevante apenas para imóveis
+
+**Pergunta 4.** Uma proposta vaga e não aceite provavelmente vai:
+
+A) Contar sempre como contrato vinculativo
+B) Não cumprir os elementos necessários para um contrato exigível
+C) Ser idêntica a um contrato de compra assinado
+D) Não ter relevância para o direito dos contratos
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Uma proposta exige especificidade: propor termos reais e definidos, não um sentimento vago.
+
+**2.** Aceitação significa concordar com exatamente os termos propostos, e não com algo diferente ou parcial.
+
+**3.** A contrapartida exige uma troca de valor real e bilateral, o que distingue um contrato de uma doação.
+
+**4.** A falta de especificidade ou de uma troca real tende a comprometer a exigibilidade efetiva de um acordo.
+
+## Pontos-chave
+
+- Proposta, aceitação e contrapartida são os três ingredientes clássicos de um contrato exigível.
+- A proposta tem de ser específica; a aceitação tem de corresponder exatamente a esses termos; a contrapartida tem de envolver uma troca real de valor.
+- Uma transação imobiliária é um exemplo claro dos três elementos a funcionar em conjunto.
+- A falta de qualquer um dos três pode comprometer se um acordo é de facto um contrato vinculativo.
+
+===== PURPLE-L1-005
+TITLE: Contratos escritos e verbais: porque é que "pôr por escrito" importa
+SUMMARY: Explica as razões práticas e jurídicas pelas quais os contratos escritos são fortemente preferidos, incluindo uma breve introdução ao conceito de Statute of Frauds.
+# Contratos escritos e verbais: porque é que "pôr por escrito" importa
+
+## Objetivos de aprendizagem
+
+- Explicar a diferença geral de exigibilidade entre contratos escritos e verbais.
+- Identificar os riscos práticos de confiar num acordo verbal.
+- Apresentar a ideia de que alguns tipos de contrato têm, por lei, de ser celebrados por escrito.
+
+## Conteúdo principal
+
+Muitos acordos verbais podem, tecnicamente, ser juridicamente vinculativos, mas provar o que foi realmente acordado torna-se um sério problema prático se as partes discordarem mais tarde dos termos. Um contrato escrito cria um registo claro e partilhado: termos exatos, preço exato, condições exatas, assinado pelas duas partes. Um acordo verbal depende inteiramente da memória e da honestidade, que costumam falhar precisamente quando mais importam: quando surge um litígio e há dinheiro em jogo.
+
+Além do risco prático, muitos sistemas jurídicos têm uma regra, frequentemente designada na common law por "Statute of Frauds", que exige que certos tipos de acordo – incluindo muitas vezes as transações imobiliárias – sejam celebrados por escrito para serem sequer exigíveis, por mais claro que o acordo verbal tenha parecido no momento. (Em Portugal, por exemplo, a compra e venda de imóveis exige, em regra, escritura pública ou documento particular autenticado, seguida do registo predial, e o contrato-promessa de compra e venda de um imóvel também tem de ser escrito. Confirme com um notário ou advogado.) Este é um dos conselhos jurídicos práticos mais claros e universais em RED, WHITE e BLUE: pôr por escrito, sempre, mesmo quando se confia totalmente na outra parte, porque a confiança não cria um registo em que um tribunal se possa apoiar mais tarde.
+
+## Exemplo prático
+
+**Pergunta:** Dois sócios combinam verbalmente dividir os lucros 60/40, apertam as mãos e nunca põem isso por escrito. Um ano depois, discordam quanto à divisão. Que problema ilustra isto?
+
+**Aluno:** Com base nesta lição, sem um registo escrito, é basicamente a palavra de um contra a do outro sobre o que foi realmente acordado.
+
+**Guia:** Porque é que a confiança entre os sócios não resolve este problema?
+
+**Aluno:** Porque a confiança não cria prova: um tribunal que venha a resolver o litígio mais tarde precisa de algo mais fiável do que a memória de cada sócio sobre uma conversa.
+
+**Guia:** Exatamente: é por isso que "pôr por escrito" se aplica mesmo a pessoas em quem se confia totalmente.
+
+## Teste de prática
+
+**Pergunta 1.** Os acordos verbais são:
+
+A) Nunca juridicamente vinculativos, em nenhuma circunstância
+B) Por vezes tecnicamente vinculativos, mas difíceis de provar na prática
+C) Sempre mais seguros do que os contratos escritos
+D) Irrelevantes para o direito dos contratos
+
+**Pergunta 2.** A principal vantagem prática de um contrato escrito é:
+
+A) Parecer mais oficial
+B) Criar um registo claro e partilhado dos termos exatos
+C) Ser sempre exigido por lei
+D) Não ter qualquer vantagem sobre os acordos verbais
+
+**Pergunta 3.** O Statute of Frauds exige em geral que certos acordos, como os negócios imobiliários, sejam:
+
+A) Apenas reconhecidos notarialmente
+B) Celebrados por escrito para serem exigíveis
+C) Verbais, por simplicidade
+D) Testemunhados por um juiz
+
+**Pergunta 4.** Porque é que "pôr por escrito" se aplica mesmo entre partes que confiam uma na outra?
+
+A) A confiança garante que nunca haverá litígios
+B) A confiança não cria um registo fiável se mais tarde surgir um litígio
+C) Os contratos escritos são só para estranhos
+D) Este conselho não se aplica a relações de confiança
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os acordos verbais não são automaticamente inexigíveis, mas provar mais tarde os seus termos exatos é uma fragilidade prática real.
+
+**2.** Um registo escrito elimina a ambiguidade sobre o que foi realmente acordado, o que importa precisamente quando surge um litígio.
+
+**3.** Segundo as regras de muitos sistemas jurídicos, certos tipos de transação têm, por lei, de ser documentados por escrito.
+
+**4.** Mesmo uma grande confiança entre as partes não produz o tipo de prova de que um tribunal precisa para resolver um desacordo posterior.
+
+## Pontos-chave
+
+- Os acordos verbais podem ser tecnicamente vinculativos, mas são difíceis de provar em caso de litígio.
+- Os contratos escritos criam um registo claro e fiável dos termos exatos.
+- Alguns tipos de transação, como os imobiliários, têm muitas vezes por lei de ser celebrados por escrito.
+- "Pôr por escrito" aplica-se universalmente, mesmo entre partes que confiam uma na outra.
