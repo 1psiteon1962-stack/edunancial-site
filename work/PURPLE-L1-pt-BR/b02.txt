@@ -1,0 +1,399 @@
+===== PURPLE-L1-006
+TITLE: Inadimplemento contratual: o que acontece quando alguém não cumpre
+SUMMARY: Apresenta o conceito de inadimplemento (quebra de contrato) e as categorias gerais de remédios disponíveis quando uma das partes não cumpre sua parte.
+# Inadimplemento contratual: o que acontece quando alguém não cumpre
+
+## Objetivos de aprendizagem
+
+- Definir o inadimplemento contratual (em inglês, "breach of contract").
+- Identificar as categorias gerais de remédios para o inadimplemento.
+- Reconhecer o inadimplemento como um risco de negócio previsível, não um evento incomum.
+
+## Conteúdo principal
+
+O inadimplemento ocorre quando uma parte deixa de cumprir suas obrigações em um acordo exigível: perder um pagamento, não entregar um imóvel, não concluir um trabalho combinado. Quando há inadimplemento, a parte que cumpriu geralmente tem remédios jurídicos à disposição, embora as opções específicas dependam do contrato e do ordenamento jurídico.
+
+Categorias comuns de remédios incluem: indenização em dinheiro (compensação pela perda financeira causada pelo inadimplemento), execução específica (uma ordem judicial que obriga a parte inadimplente a realmente fazer o que prometeu; mais comum em imóveis, porque o imóvel em si é único) e resolução do contrato (que libera a parte que cumpriu de suas próprias obrigações restantes). Entender que o inadimplemento é um risco previsível e planejado – não uma catástrofe incomum – faz parte de uma alfabetização contratual madura: contratos bem redigidos muitas vezes já preveem o que acontece se qualquer um dos lados não cumprir, e é exatamente por isso que uma revisão cuidadosa do contrato importa antes de assinar, e não só depois que algo dá errado. (No direito brasileiro, a parte prejudicada pode, em regra, pedir o cumprimento ou a resolução do contrato, com perdas e danos, e a execução específica não se limita a imóveis; confirme os detalhes com um profissional.)
+
+## Exemplo prático
+
+**Pergunta:** Um comprador assina um contrato para comprar um imóvel específico, e depois o vendedor desiste e vende para outra pessoa. Que remédio pode ser particularmente relevante aqui, considerando que o imóvel é único?
+
+**Aluno:** Com base nesta lição, a execução específica pode ser relevante, já que um tribunal poderia ordenar a conclusão da venda em vez de apenas conceder dinheiro.
+
+**Guia:** Por que a execução específica faria mais sentido para um imóvel único do que, digamos, para um produto comum?
+
+**Aluno:** Porque o imóvel em si é único: o dinheiro sozinho talvez não substitua de fato o que o comprador queria especificamente, ao contrário de um produto comum que poderia simplesmente ser comprado em outro lugar.
+
+**Guia:** Exatamente: é por isso que a execução específica aparece com tanta frequência em disputas sobre contratos imobiliários.
+
+## Teste de prática
+
+**Pergunta 1.** O inadimplemento contratual ocorre quando:
+
+A) As duas partes concordam em cancelar o negócio
+B) Uma parte deixa de cumprir suas obrigações previstas no acordo
+C) Um contrato é assinado
+D) Nenhum acordo foi alcançado
+
+**Pergunta 2.** A indenização em dinheiro é:
+
+A) Nunca disponível como remédio
+B) Compensação pela perda financeira causada pelo inadimplemento
+C) Relevante apenas para casos criminais
+D) O mesmo que execução específica
+
+**Pergunta 3.** A execução específica é:
+
+A) Uma ordem judicial que obriga a cumprir o que foi prometido
+B) Sempre o mesmo que indenização em dinheiro
+C) Nunca usada em imóveis
+D) Irrelevante para o direito contratual
+
+**Pergunta 4.** Por que o inadimplemento é descrito como um "risco previsível e planejado", e não como uma catástrofe incomum?
+
+A) O inadimplemento nunca acontece de verdade
+B) Contratos bem redigidos muitas vezes já preveem o que acontece se qualquer um dos lados não cumprir
+C) Contratos nunca tratam dessa possibilidade
+D) Essa descrição é imprecisa
+
+## Gabarito
+
+1. B, 2. B, 3. A, 4. B
+
+## Respostas e explicações
+
+**1.** O inadimplemento é especificamente o descumprimento de obrigações que foram juridicamente acordadas.
+
+**2.** A indenização busca deixar financeiramente indene a parte que cumpriu, compensando sua perda.
+
+**3.** A execução específica é especialmente relevante quando o objeto, como um imóvel único, não pode simplesmente ser substituído por dinheiro.
+
+**4.** Contratos maduros antecipam o inadimplemento e preveem as consequências, tratando-o como uma possibilidade real a planejar.
+
+## Pontos-chave
+
+- O inadimplemento ocorre quando uma parte deixa de cumprir suas obrigações contratuais.
+- Os remédios incluem indenização em dinheiro, execução específica e resolução do contrato.
+- A execução específica é especialmente relevante para bens únicos, como imóveis.
+- O inadimplemento é um risco previsível que contratos bem redigidos planejam com antecedência.
+
+===== PURPLE-L1-007
+TITLE: Como ler um contrato: um passo a passo prático
+SUMMARY: Oferece uma estrutura prática para abordar um contrato desconhecido, reduzindo a intimidação ao dividi-lo em partes administráveis.
+# Como ler um contrato: um passo a passo prático
+
+## Objetivos de aprendizagem
+
+- Identificar as seções comuns presentes na maioria dos contratos.
+- Aplicar uma abordagem prática, passo a passo, para ler um contrato desconhecido.
+- Reconhecer quais seções merecem mais atenção.
+
+## Conteúdo principal
+
+A maioria dos contratos, por mais longos e intimidadores que sejam, compartilha uma estrutura geral comum: partes (quem está envolvido), considerandos (contexto, muitas vezes começando com "considerando que"), cláusulas (as obrigações em si: preço, prazos, o que cada lado deve fazer), declarações e garantias (afirmações que cada parte faz sobre fatos, como titularidade ou poderes para assinar), inadimplemento e remédios (o que acontece se alguém não cumprir, retomando a lição anterior) e assinaturas (a formalização).
+
+Uma abordagem prática para ler um contrato desconhecido: primeiro, identifique quem são de fato as partes e o que cada uma está prometendo fazer. Segundo, encontre os termos comerciais centrais – preço, datas, entregas –, porque eles têm o peso prático mais imediato. Terceiro, preste muita atenção à seção de inadimplemento e remédios, pois é ali que você descobre o que realmente acontece se algo der errado. Quarto, anote tudo o que parecer incomum, unilateral ou pouco claro e leve a um profissional, em vez de tentar adivinhar o significado. Essa abordagem estruturada transforma um paredão de texto intimidador em uma lista de verificação administrável.
+
+## Exemplo prático
+
+**Pergunta:** Alguém recebe um contrato de 20 páginas e se sente sobrecarregado, sem saber nem por onde começar. Que abordagem inicial esta lição sugeriria?
+
+**Aluno:** Com base nesta lição, comece identificando as partes e o que cada uma está realmente prometendo, em vez de tentar absorver o documento inteiro de uma vez.
+
+**Guia:** Depois disso, qual seria a próxima coisa mais importante a procurar?
+
+**Aluno:** Os termos comerciais centrais – preço, datas, entregas –, porque eles têm o peso prático mais imediato, e depois a seção de inadimplemento e remédios, para saber o que acontece se algo der errado.
+
+**Guia:** Exatamente: dividir nessa sequência transforma um documento intimidador em uma lista de verificação administrável.
+
+## Teste de prática
+
+**Pergunta 1.** As seções comuns presentes na maioria dos contratos incluem:
+
+A) Partes, cláusulas, declarações, inadimplemento/remédios, assinaturas
+B) Apenas um parágrafo
+C) Nenhuma estrutura identificável
+D) Apenas um preço e uma data
+
+**Pergunta 2.** A seção de "declarações e garantias" geralmente contém:
+
+A) Informações aleatórias e sem relação
+B) Afirmações que cada parte faz sobre fatos, como titularidade ou poderes
+C) Apenas o título do contrato
+D) As assinaturas
+
+**Pergunta 3.** Um primeiro passo prático para ler um contrato desconhecido é:
+
+A) Ir direto para a página de assinaturas
+B) Identificar as partes e o que cada uma está prometendo fazer
+C) Ignorar o documento por completo
+D) Ler apenas o último parágrafo
+
+**Pergunta 4.** O que fazer com qualquer coisa incomum, unilateral ou pouco clara em um contrato?
+
+A) Ignorar e assinar mesmo assim
+B) Levar a um profissional, em vez de adivinhar o significado
+C) Supor que é um erro de digitação
+D) Apagar essa seção por conta própria
+
+## Gabarito
+
+1. A, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Essa estrutura geral se repete na maioria dos contratos, independentemente do tamanho ou do assunto.
+
+**2.** Declarações e garantias são afirmações factuais de cada parte, que importam se depois se revelarem falsas.
+
+**3.** Entender quem está envolvido e o que está sendo prometido é o ponto de partida natural para dar sentido ao resto.
+
+**4.** Levar termos pouco claros ou incomuns para revisão profissional, em vez de adivinhar, é a abordagem responsável.
+
+## Pontos-chave
+
+- A maioria dos contratos tem uma estrutura comum: partes, cláusulas, declarações, inadimplemento/remédios, assinaturas.
+- Uma abordagem prática de leitura: primeiro as partes, depois os termos centrais, depois inadimplemento/remédios, e marque o que não estiver claro.
+- Essa abordagem estruturada reduz a intimidação de documentos longos e desconhecidos.
+- Termos incomuns ou pouco claros devem ser levados para revisão profissional, não adivinhados.
+
+===== PURPLE-L1-008
+TITLE: Responsabilidade extracontratual e contratos: dois tipos de pretensão jurídica
+SUMMARY: Distingue o direito dos atos ilícitos (danos civis fora de um contrato) do direito contratual, dando ao aluno um mapa mais claro do panorama civil mais amplo.
+# Responsabilidade extracontratual e contratos: dois tipos de pretensão jurídica
+
+## Objetivos de aprendizagem
+
+- Definir um ato ilícito civil (em inglês, "tort") em termos simples.
+- Distinguir pretensões por ato ilícito de pretensões contratuais.
+- Identificar exemplos relevantes para RED, WHITE e BLUE.
+
+## Conteúdo principal
+
+Um ato ilícito civil é uma conduta que causa dano a outra pessoa, independentemente de qualquer contrato entre elas: negligência, dano à propriedade ou difamação são exemplos comuns. Isso é diferente de uma disputa contratual, que surge de uma promessa quebrada entre partes que tinham um acordo. Atos ilícitos podem acontecer entre pessoas que nunca tiveram contrato nenhum: se o trabalho descuidado de um empreiteiro danifica o imóvel vizinho, trata-se de uma pretensão por ato ilícito, e não contratual, se o vizinho e o empreiteiro não tinham nenhum acordo entre si. (No Brasil, isso corresponde à responsabilidade civil extracontratual, prevista no Código Civil.)
+
+Essa distinção importa na prática em todo este currículo: um proprietário de imóvel (RED) pode ser processado por ato ilícito se condições inseguras em seu imóvel ferirem alguém, independentemente de qualquer contrato de locação ou compra. Um empresário (BLUE) pode responder por ato ilícito por danos causados por um produto ou por um funcionário descuidado, separadamente de qualquer contrato com um cliente. Entender que o risco jurídico não se limita a promessas quebradas – que um dano causado fora de qualquer acordo também pode gerar responsabilidade – é uma ampliação importante da alfabetização jurídica para além dos contratos.
+
+## Exemplo prático
+
+**Pergunta:** A escada mal conservada de um proprietário fere um entregador que não tem nenhum contrato com ele. Que tipo de pretensão jurídica isso provavelmente representa?
+
+**Aluno:** Com base nesta lição, parece uma pretensão por ato ilícito, já que não há contrato entre o proprietário e o entregador: o dano existe independentemente de qualquer acordo.
+
+**Guia:** Por que a ausência de contrato importa aqui?
+
+**Aluno:** Porque mostra que a responsabilidade jurídica não se limita a promessas quebradas entre contratantes: um dano causado fora de qualquer acordo também pode gerar exposição jurídica.
+
+**Guia:** Exatamente: é por isso que proprietários de imóveis precisam pensar no risco de atos ilícitos, e não só no risco contratual.
+
+## Teste de prática
+
+**Pergunta 1.** Um ato ilícito civil é:
+
+A) Um tipo de contrato
+B) Uma conduta civil que causa dano, independentemente de qualquer contrato
+C) Relevante apenas para o direito penal
+D) O mesmo que inadimplemento contratual
+
+**Pergunta 2.** Como uma pretensão por ato ilícito difere de uma pretensão contratual?
+
+A) São idênticas
+B) Um ato ilícito pode surgir entre partes que não têm contrato nenhum entre si
+C) Atos ilícitos só se aplicam a empresas
+D) Contratos nunca envolvem dano real
+
+**Pergunta 3.** Condições inseguras no imóvel de um proprietário que ferem um visitante sem contrato com ele são um exemplo de:
+
+A) Uma disputa contratual
+B) Uma possível pretensão por ato ilícito
+C) Nem uma questão de ato ilícito, nem contratual
+D) Apenas um caso criminal
+
+**Pergunta 4.** Por que essa distinção importa para quem atua em RED e BLUE?
+
+A) Não importa em nada
+B) O risco jurídico não se limita a promessas quebradas: um dano fora de qualquer acordo também pode gerar responsabilidade
+C) Só o risco contratual é relevante
+D) Atos ilícitos só se aplicam a WHITE
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Atos ilícitos dizem respeito, fundamentalmente, a causar dano, e não a acordos quebrados.
+
+**2.** A ausência de contrato é exatamente o que distingue muitas situações de ato ilícito das disputas contratuais.
+
+**3.** Essa situação é uma ilustração clássica de responsabilidade por ato ilícito sem nenhuma relação contratual.
+
+**4.** Reconhecer esse panorama mais amplo de responsabilidade completa o quadro do risco jurídico para proprietários de imóveis e de empresas.
+
+## Pontos-chave
+
+- Um ato ilícito civil é uma conduta que causa dano, distinta de um contrato quebrado.
+- Atos ilícitos podem surgir mesmo entre partes sem contrato nenhum.
+- Proprietários de imóveis e de empresas enfrentam risco de atos ilícitos separado de qualquer risco contratual.
+- A alfabetização jurídica inclui entender a responsabilidade baseada em dano, não apenas a baseada em acordos.
+
+===== PURPLE-L1-009
+TITLE: Direito civil e direito penal: por que a distinção importa
+SUMMARY: Esclarece a distinção fundamental entre direito civil e direito penal, e por que este currículo se concentra quase inteiramente no lado civil.
+# Direito civil e direito penal: por que a distinção importa
+
+## Objetivos de aprendizagem
+
+- Distinguir o direito civil do direito penal.
+- Explicar as diferentes consequências e os diferentes padrões de prova envolvidos.
+- Reconhecer por que o escopo do PURPLE é principalmente civil, não penal.
+
+## Conteúdo principal
+
+O direito civil rege disputas entre particulares – inadimplemento contratual, atos ilícitos, disputas sobre propriedade –, em que o remédio típico é dinheiro ou uma ordem judicial, e não prisão. O direito penal rege infrações contra a própria sociedade, processadas pelo Estado, em que a consequência possível inclui multas e prisão. Os dois sistemas também diferem no padrão de prova: em muitos países, os casos criminais exigem prova "além de qualquer dúvida razoável", um padrão muito alto, enquanto os casos civis costumam usar um padrão mais baixo, muitas vezes a "preponderância das provas" (mais provável que sim do que não). (No Brasil, o processo penal se orienta pelo princípio "in dubio pro reo"; a terminologia varia de país para país, mas a ideia de um patamar mais alto no penal é semelhante.)
+
+Quase tudo o que esta trilha PURPLE aborda – contratos, direito imobiliário, regulação do mercado de capitais, estruturas empresariais – está do lado civil dessa distinção. Isso é intencional: os riscos jurídicos mais diretamente relevantes para construir patrimônio por meio de imóveis, investimentos e negócios são riscos civis (ser processado, perder um negócio, sofrer sanções regulatórias), e não riscos penais. O direito penal importa, mas é uma área diferente e mais especializada, e uma exposição penal séria é exatamente o tipo de situação que exige representação jurídica imediata e dedicada, e não apenas alfabetização geral.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário é processado por um ex-cliente por causa de uma disputa contratual. Isso é uma questão civil ou penal, e por que a distinção importa na prática?
+
+**Aluno:** Com base nesta lição, é uma questão civil: uma disputa privada sobre um contrato, e não uma infração processada pelo Estado.
+
+**Guia:** Como isso afeta o que realmente está em jogo para o empresário?
+
+**Aluno:** A consequência típica seria dinheiro ou uma ordem judicial, e não prisão, e o padrão de prova que o cliente precisaria atingir é mais baixo do que o padrão "além de qualquer dúvida razoável" de um caso criminal.
+
+**Guia:** Exatamente: entender em qual sistema você está muda o que realisticamente está em jogo e qual padrão se aplica.
+
+## Teste de prática
+
+**Pergunta 1.** O direito civil geralmente rege:
+
+A) Infrações contra a sociedade, processadas pelo Estado
+B) Disputas entre particulares, normalmente resolvidas com dinheiro ou ordens judiciais
+C) Apenas questões criminais
+D) Nenhuma disputa jurídica real
+
+**Pergunta 2.** O padrão de prova do direito penal costuma ser:
+
+A) Mais baixo que o padrão civil
+B) "Além de qualquer dúvida razoável", um padrão muito alto
+C) Idêntico ao padrão civil
+D) Inaplicável em qualquer sistema jurídico
+
+**Pergunta 3.** A maior parte do que o PURPLE aborda se enquadra em:
+
+A) Direito penal
+B) Direito civil
+C) Nem direito civil, nem penal
+D) Apenas direito internacional
+
+**Pergunta 4.** Por que esta trilha se concentra principalmente no direito civil?
+
+A) O direito penal é irrelevante para todos
+B) Os riscos jurídicos mais relevantes para construir patrimônio por meio de RED, WHITE e BLUE são riscos civis
+C) O direito civil na verdade não existe
+D) Nenhum motivo relevante é apresentado
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O direito civil trata de disputas privadas, com remédios normalmente limitados a dinheiro ou ordens judiciais, e não prisão.
+
+**2.** O padrão penal mais elevado reflete a gravidade das consequências possíveis, incluindo a perda da liberdade.
+
+**3.** Contratos, propriedade, mercado de capitais e estrutura empresarial – o conteúdo central desta trilha – são todos temas de direito civil.
+
+**4.** Como o risco civil é o que ameaça mais diretamente as atividades de construção de patrimônio, é aí que o foco de alfabetização desta trilha deve estar.
+
+## Pontos-chave
+
+- O direito civil rege disputas privadas; o direito penal rege infrações contra a sociedade.
+- O padrão de prova do direito penal é muito mais alto que o do direito civil.
+- O PURPLE se concentra quase inteiramente no direito civil, diretamente relevante para RED, WHITE e BLUE.
+- Uma exposição penal séria exige representação jurídica imediata e dedicada, fora do escopo desta trilha.
+
+===== PURPLE-L1-010
+TITLE: A analogia do médico revisitada: quando chamar um advogado
+SUMMARY: Aplica a já conhecida analogia do médico especificamente a situações jurídicas, dando ao aluno sinais concretos de quando a ajuda jurídica profissional é necessária.
+# A analogia do médico revisitada: quando chamar um advogado
+
+## Objetivos de aprendizagem
+
+- Relembrar a analogia do médico e aplicá-la especificamente a decisões jurídicas.
+- Identificar sinais concretos de que uma situação exige um advogado.
+- Reforçar que alfabetização jurídica e representação jurídica se complementam, não se substituem.
+
+## Conteúdo principal
+
+Este currículo usou repetidamente a analogia do médico: quando algo é complexo, de alto risco ou incerto, os honorários de um profissional são um seguro contra um prejuízo muito maior, e não apenas um custo a evitar. Em nenhum lugar isso se aplica de forma mais direta do que no direito. Erros jurídicos – um contrato mal redigido, uma obrigação de informação não cumprida, uma empresa constituída de forma inadequada – podem ser extraordinariamente caros de corrigir depois, muito mais do que o custo de fazer certo desde o início.
+
+Sinais concretos de que uma situação exige um advogado incluem: qualquer transação envolvendo muito dinheiro (a compra de um imóvel, a venda de uma empresa), qualquer documento que você não entenda totalmente antes de assinar, constituir ou reestruturar uma empresa, enfrentar uma disputa ou um processo real, e qualquer situação em que a abordagem "padrão" não se encaixe bem nos seus fatos específicos. Como nas lições anteriores sobre esse tema, o objetivo do PURPLE não é fazer de você seu próprio advogado, mas torná-lo um cliente mais afiado e mais bem informado: alguém que consegue fazer perguntas melhores, entender o conselho que recebe e reconhecer cedo quando uma situação entrou no território da ajuda profissional.
+
+## Exemplo prático
+
+**Pergunta:** Alguém redige o próprio contrato de compra de imóvel usando um modelo encontrado na internet, para uma compra de seis dígitos, sem nenhuma revisão jurídica. O que esta lição sugere sobre essa abordagem?
+
+**Aluno:** Com base nesta lição, uma transação com tanto dinheiro envolvido é exatamente o tipo de situação que exige revisão jurídica profissional, e não apenas um modelo genérico.
+
+**Guia:** Qual é a comparação real de custos que está sendo feita aqui?
+
+**Aluno:** O custo da revisão de um advogado no início versus o custo potencialmente muito maior de um erro jurídico descoberto depois, quando já há dinheiro de verdade e um imóvel de verdade envolvidos.
+
+**Guia:** Exatamente: essa é a analogia do médico aplicada diretamente a essa situação.
+
+## Teste de prática
+
+**Pergunta 1.** A analogia do médico aplicada ao direito sugere que:
+
+A) Nunca se deve contratar um advogado
+B) Os honorários de um advogado são um seguro contra um prejuízo potencialmente muito maior
+C) Só pessoas ricas precisam de advogado
+D) Erros jurídicos são sempre baratos de corrigir
+
+**Pergunta 2.** Um sinal concreto de que uma situação exige um advogado inclui:
+
+A) Qualquer transação envolvendo muito dinheiro
+B) Nada: advogados nunca são necessários
+C) Apenas questões criminais
+D) Apenas disputas que já chegaram ao tribunal
+
+**Pergunta 3.** Qual é, segundo esta lição, o objetivo declarado do PURPLE?
+
+A) Fazer do aluno o próprio advogado
+B) Tornar o aluno um cliente mais afiado e mais bem informado
+C) Eliminar totalmente a necessidade de advogados
+D) Ensinar apenas direito penal
+
+**Pergunta 4.** A estrutura desta lição retoma qual tema anterior do currículo?
+
+A) A epifania dos sistemas
+B) A analogia do médico
+C) A relatividade das conquistas
+D) O paradoxo da escolha
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A lógica central de seguro contra prejuízo se aplica com especial força ao risco jurídico, dado o quanto os erros podem custar.
+
+**2.** Transações financeiras significativas são citadas explicitamente como um gatilho claro para a revisão jurídica profissional.
+
+**3.** Alfabetização e comportamento de cliente informado, e não prática jurídica faça você mesmo, é o objetivo explícito em toda esta trilha.
+
+**4.** Esta é uma reutilização direta e explícita da analogia do médico estabelecida antes no currículo, aplicada especificamente a decisões jurídicas.
+
+## Pontos-chave
+
+- A analogia do médico se aplica diretamente ao direito: honorários profissionais são um seguro contra um prejuízo maior.
+- Transações significativas, documentos desconhecidos, constituição de empresas e disputas são sinais claros para chamar um advogado.
+- O PURPLE busca tornar você um cliente mais afiado e mais bem informado, não um substituto da representação jurídica.
+- Isso encerra a seção de fundamentos antes de a trilha passar aos temas jurídicos específicos de RED, WHITE e BLUE.
