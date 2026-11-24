@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-020
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 20
-title: "Qu'est-ce Qu'une Fiducie ?"
-summary: "Qu'est-ce Qu'une Fiducie ?"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "Les notions de base de la propriété intellectuelle : marques, droit d’auteur, brevets"
+summary: "Présente les trois grandes catégories de protection de la propriété intellectuelle pertinentes pour les propriétaires d’entreprise, ce qui clôt la section sur le droit des affaires."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-020 : Qu'est-ce Qu'une Fiducie ?
 
-## Objectifs d'Apprentissage
-1. Définir une fiducie en termes simples.
-2. Identifier les rôles généraux impliqués dans une fiducie.
-3. Expliquer une raison courante pour laquelle les gens constituent des fiducies.
+# Les notions de base de la propriété intellectuelle : marques, droit d’auteur, brevets
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une fiducie est un montage juridique dans lequel une personne (le « constituant ») transfère des biens à administrer par une autre personne ou entité (le « fiduciaire ») au bénéfice d'une troisième personne (le « bénéficiaire »), selon les termes établis par le constituant.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* Une raison couramment citée de constituer une fiducie est d'éviter la procédure judiciaire de succession (« probate » en anglais), généralement le processus public de gestion de la succession d'une personne par les tribunaux — les biens placés dans une fiducie peuvent généralement être répartis aux bénéficiaires sans passer par cette procédure judiciaire, bien que les règles précises varient selon le système juridique.
+- Distinguer les marques, le droit d’auteur et les brevets.
+- Déterminer quelle catégorie protège quel type d’actif de l’entreprise.
+- Reconnaître la propriété intellectuelle comme un actif d’entreprise qu’il vaut la peine de protéger activement.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un parent pourrait constituer une fiducie, transférant des fonds à un fiduciaire de confiance (comme une banque ou un membre de la famille) pour les administrer au bénéfice de son enfant jusqu'à ses vingt-cinq ans. Le fiduciaire a l'obligation juridique de gérer ces fonds selon les termes établis par le parent, plutôt que selon sa propre discrétion, et l'enfant reçoit les bénéfices sans que les fonds n'aient à passer par la procédure judiciaire de succession.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une fiducie ?
-2. Nomme les trois rôles généraux impliqués dans une fiducie.
-3. Vrai/Faux : Les biens dans une fiducie doivent généralement passer par la procédure judiciaire de succession.
-4. Quelle obligation le fiduciaire a-t-il généralement ?
+Le droit de la propriété intellectuelle (PI) protège les créations de l’esprit — marques, œuvres de création et inventions — en tant qu’actifs reconnus juridiquement et pouvant appartenir à quelqu’un. Trois grandes catégories comptent le plus pour les propriétaires d’entreprise : les **marques** protègent les identificateurs de marque (noms d’entreprise, logos, slogans) qui distinguent vos produits ou services de ceux de vos concurrents. Le **droit d’auteur** protège les œuvres originales de création (contenu écrit, designs, code logiciel) contre la copie non autorisée. Les **brevets** protègent les inventions — des procédés ou des produits réellement nouveaux et utiles —, en accordant à l’inventeur des droits exclusifs pendant une période limitée. (En France, les marques et les brevets se déposent auprès de l’Institut national de la propriété industrielle, l’INPI.)
+
+Pour un propriétaire d’entreprise du volet BLUE, la propriété intellectuelle n’est pas une catégorie juridique abstraite — c’est souvent un actif d’entreprise réel et précieux. Un nom de marque fort protégé par une marque, un contenu exclusif protégé par le droit d’auteur ou un produit réellement nouveau protégé par un brevet peuvent tous être des sources d’avantage concurrentiel réel et de valeur économique réelle, valant parfois plus que les actifs physiques de l’entreprise. Ne pas protéger sa propriété intellectuelle — ou, pire, porter atteinte sans le savoir à celle de quelqu’un d’autre — est un risque juridique courant et évitable, qui clôt cette section du volet consacrée au droit des affaires.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise crée un nom de marque et un logo distinctifs, mais n’enregistre jamais de marque, en supposant que le simple fait de les utiliser suffit à les protéger. Quel risque cela crée-t-il?
+
+**Étudiant :** D’après cette leçon, sans protection par une marque, l’identité de la marque n’est peut-être pas aussi bien protégée juridiquement qu’elle le suppose, et un concurrent pourrait possiblement utiliser quelque chose de semblable en courant moins de risques juridiques.
+
+**Guide :** Pourquoi est-ce important pour la valeur économique réelle de l’entreprise?
+
+**Étudiant :** Parce qu’une marque forte et protégée peut être un actif d’entreprise réel et précieux — la laisser sans protection risque de faire perdre une partie de cette valeur si quelqu’un d’autre la revendique ou utilise quelque chose de semblable au point de prêter à confusion.
+
+**Guide :** Exactement — la protection de la propriété intellectuelle est une décision d’affaires pratique, et non une simple formalité juridique.
+
+## Quiz pratique
+
+**Question 1.** Les marques protègent :
+
+A) Les inventions
+B) Les identificateurs de marque comme les noms, les logos et les slogans
+C) Seulement le contenu écrit
+D) Rien qui ait une valeur commerciale
+
+**Question 2.** Le droit d’auteur protège :
+
+A) Les noms de marque
+B) Les œuvres originales de création, comme le contenu écrit ou le code
+C) Seulement les inventions physiques
+D) Seulement l’immobilier
+
+**Question 3.** Les brevets protègent :
+
+A) Les logos de marque
+B) Les inventions, procédés ou produits réellement nouveaux et utiles
+C) Seulement l’écriture de création
+D) Rien de juridiquement important
+
+**Question 4.** Pourquoi la propriété intellectuelle compte-t-elle en pratique pour un propriétaire d’entreprise?
+
+A) Elle n’a aucune pertinence pratique
+B) La propriété intellectuelle peut être un actif d’entreprise réel et précieux, valant parfois plus que les actifs physiques
+C) Seules les grandes sociétés possèdent de la propriété intellectuelle
+D) La propriété intellectuelle ne compte que pour les inventeurs, jamais pour les marques
 
 ## Corrigé
-1. Un montage juridique où quelqu'un transfère des biens à administrer au bénéfice d'une autre personne   2. Constituant, fiduciaire, bénéficiaire   3. Faux   4. Gérer les biens selon les termes établis par le constituant
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une fiducie.
-2. Ce sont les trois rôles généraux qui composent une fiducie.
-3. Les biens dans une fiducie peuvent généralement éviter la procédure judiciaire de succession.
-4. Le fiduciaire a l'obligation juridique de gérer les biens selon les termes établis, pas selon sa propre discrétion.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- Une fiducie transfère des biens à un fiduciaire pour qu'il les administre au bénéfice d'un bénéficiaire.
-- Les trois rôles généraux sont le constituant, le fiduciaire, et le bénéficiaire.
-- Une raison courante de la constituer est d'éviter la procédure judiciaire publique de succession.
+## Réponses et explications
+
+**1.** Le droit des marques vise précisément à protéger les identificateurs qui distinguent une entreprise sur le marché.
+
+**2.** Le droit d’auteur couvre l’expression créative originale, une catégorie distincte de l’identité de marque ou des inventions.
+
+**3.** Le droit des brevets récompense précisément l’innovation réelle par des droits exclusifs pendant une période limitée.
+
+**4.** Reconnaître la propriété intellectuelle comme une valeur commerciale réelle, et pas seulement comme une question technique juridique, est le point pratique à retenir de cette leçon.
+
+## Points clés
+
+- Les marques protègent les identificateurs de marque; le droit d’auteur protège les œuvres de création; les brevets protègent les inventions.
+- La propriété intellectuelle peut être un actif d’entreprise réellement précieux, dépassant parfois la valeur des actifs physiques.
+- Ne pas protéger sa propriété intellectuelle, ou porter atteinte sans le savoir à celle des autres, est un risque juridique courant et évitable.
+- Cette leçon clôt la section sur le droit des affaires avant que le volet aborde le droit immobilier.

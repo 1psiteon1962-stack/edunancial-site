@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 2
 locale: fr-CA
 title: "Common law et droit législatif : d’où viennent les règles"
-summary: "Présente deux sources importantes du droit et explique pourquoi elles peuvent toutes deux influencer une situation concrète."
+summary: "Présente les deux grandes sources du droit dans la plupart des systèmes juridiques, afin de donner aux apprenants une carte de base de l’origine réelle des règles juridiques."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
@@ -16,47 +16,75 @@ date: 2026-08-09
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des décisions pratiques liées au patrimoine, aux affaires ou aux investissements.
-- Reconnaître quand une situation peut nécessiter des conseils juridiques professionnels.
+- Distinguer le droit législatif de la common law.
+- Expliquer pourquoi les deux sources comptent dans les situations juridiques de tous les jours.
+- Reconnaître que le dosage précis varie selon le pays.
 
 ## Contenu principal
 
-Le droit législatif provient des lois adoptées formellement par une législature. La common law se développe au fil des décisions judiciaires et des précédents dans les juridictions qui utilisent ce système. En pratique, une loi peut établir une règle générale tandis que les tribunaux précisent son application à des faits particuliers. La combinaison varie selon le pays et la juridiction; lire uniquement le texte d’une loi ne révèle donc pas toujours toute la réponse juridique.
+Le droit législatif est le droit écrit et adopté par une assemblée législative — une règle officielle et codifiée, comme une loi précise qui fixe une exigence contractuelle ou une règle d’autorisation. La common law, utilisée aux États-Unis et dans de nombreux autres pays, est un droit qui s’est construit au fil du temps au moyen des décisions des tribunaux — lorsque les juges tranchent des litiges, leur raisonnement devient un précédent qui oriente la façon dont des litiges futurs semblables seront tranchés, même en l’absence d’une loi écrite précise couvrant la situation exacte. (Au Canada, la common law s’applique dans la plupart des provinces, alors que le Québec suit une tradition civiliste fondée sur le Code civil; dans les deux cas, les tribunaux interprètent les textes de loi.)
+
+En pratique, la plupart des questions juridiques réelles font intervenir les deux : une loi peut fixer une règle générale, et les décisions des tribunaux précisent exactement ce que signifie cette loi dans des situations réelles, précises et complexes. C’est important en pratique, parce que cela explique pourquoi « la loi » n’est pas toujours une seule phrase claire qu’on peut chercher — la vraie réponse dépend parfois de la façon dont les tribunaux ont réellement appliqué une règle dans des cas antérieurs semblables, et pas seulement de ce que dit littéralement une loi.
 
 ## Exemple pratique
 
-Une personne fait face à une décision financière ou commerciale liée à ce sujet. Plutôt que de supposer connaître la réponse juridique, elle identifie les modalités, les documents, les obligations et la juridiction applicables. Cette littératie juridique lui permet de poser de meilleures questions et de reconnaître quand le risque justifie de consulter un professionnel autorisé.
+**Question :** Une nouvelle propriétaire d’entreprise consulte une loi et suppose qu’elle répond entièrement à sa question juridique. Pourquoi ce ne serait peut-être pas le portrait complet?
+
+**Étudiant :** D’après cette leçon, les décisions des tribunaux qui interprètent cette loi pourraient ajouter des précisions importantes que le texte même de la loi ne mentionne pas.
+
+**Guide :** Pourquoi cela compterait-il pour la situation réelle et précise à laquelle elle fait face?
+
+**Étudiant :** Parce que la façon dont les tribunaux ont réellement appliqué la loi dans des cas semblables pourrait révéler des exceptions, des limites ou des interprétations qui changent la façon dont elle s’applique à sa situation.
+
+**Guide :** Exactement — c’est en partie pourquoi les questions juridiques complexes ou à enjeux élevés profitent de conseils professionnels, et pas seulement d’une recherche rapide dans une loi.
 
 ## Quiz pratique
 
-**Question 1.** Quel est l’objectif principal de la littératie juridique dans PURPLE?
+**Question 1.** Le droit législatif est :
 
-A) Remplacer complètement un avocat
-B) Reconnaître les concepts et les risques et savoir quand demander de l’aide professionnelle
-C) Garantir qu’il n’y aura jamais de différend
-D) Mémoriser toutes les lois
+A) Un droit construit uniquement à partir des décisions des tribunaux
+B) Un droit écrit et adopté par une assemblée législative
+C) Des suggestions non exécutoires
+D) Pertinent seulement dans les affaires criminelles
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Question 2.** La common law est :
 
-A) Parce que les règles peuvent varier d’un pays ou territoire à l’autre
-B) Parce que toutes les lois sont identiques partout
-C) Parce qu’elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+A) Un droit construit au fil du temps au moyen des décisions des tribunaux et des précédents
+B) La même chose que le droit législatif
+C) Utilisée dans un seul pays
+D) Sans pertinence pour les systèmes juridiques modernes
+
+**Question 3.** En pratique, la plupart des questions juridiques font intervenir :
+
+A) Seulement des lois, jamais des décisions des tribunaux
+B) À la fois les lois et la façon dont les tribunaux les ont interprétées
+C) Ni l’une ni l’autre de ces sources
+D) Seulement la common law, jamais des lois
+
+**Question 4.** Pourquoi la seule consultation d’une loi pourrait-elle ne pas répondre entièrement à une question juridique?
+
+A) Les lois sont toujours complètes en elles-mêmes
+B) L’interprétation des tribunaux peut ajouter des précisions importantes absentes du texte même de la loi
+C) Les lois ne sont jamais pertinentes
+D) Cela ne se produit jamais en pratique
 
 ## Corrigé
 
-1. B, 2. A
+1. B, 2. A, 3. B, 4. B
 
 ## Réponses et explications
 
-**1.** PURPLE développe une capacité pratique à comprendre les risques et à utiliser efficacement les conseils professionnels; il ne remplace pas un avocat.
+**1.** Le droit législatif est le type de droit officiellement codifié, créé au moyen du processus législatif.
 
-**2.** Les règles, procédures et exigences juridiques peuvent varier considérablement selon la juridiction.
+**2.** La common law se construit graduellement au moyen des précédents judiciaires plutôt que par une seule loi adoptée.
+
+**3.** Les questions juridiques réelles exigent habituellement de comprendre à la fois la règle écrite et la façon dont elle a réellement été appliquée.
+
+**4.** L’interprétation des tribunaux révèle souvent des nuances, des exceptions ou des limites que le texte seul d’une loi ne rend pas évidentes.
 
 ## Points clés
 
-- La littératie juridique améliore la qualité des décisions financières et commerciales.
-- Les règles concrètes dépendent de la juridiction et des faits.
-- Repérer un problème tôt peut réduire les coûts et les risques.
-- Lorsque les conséquences sont importantes, il est prudent de consulter un professionnel autorisé.
+- Le droit législatif vient des assemblées législatives; la common law se construit à partir des décisions des tribunaux et des précédents.
+- La plupart des vraies questions juridiques font intervenir les deux sources ensemble.
+- Le texte même d’une loi ne raconte pas toujours toute l’histoire.
+- C’est en partie pourquoi les questions juridiques complexes profitent d’une interprétation professionnelle.

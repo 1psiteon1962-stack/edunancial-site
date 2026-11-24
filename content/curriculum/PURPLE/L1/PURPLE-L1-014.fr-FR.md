@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-014
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 14
-title: "Les Marques Expliquées"
-summary: "Les Marques Expliquées"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "La société par actions : la personnalité juridique et ses conséquences"
+summary: "Explique la notion de société par actions en tant que « personne » juridique distincte, en ajoutant un angle axé sur la responsabilité à la leçon du volet GREEN centrée sur la fiscalité."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-014 : Les Marques Expliquées
 
-## Objectifs d'Apprentissage
-1. Définir une marque en termes simples.
-2. Expliquer l'objectif général d'une marque.
-3. Distinguer une marque d'un droit d'auteur.
+# La société par actions : la personnalité juridique et ses conséquences
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une marque est un mot, une expression, un symbole, ou un dessin qui identifie et distingue l'origine des produits ou services d'une partie de ceux d'autres parties. L'objectif général est de protéger les consommateurs de toute confusion sur qui fournit un produit ou un service, et de protéger la réputation et l'identité de marque d'une entreprise.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* Une marque se distingue généralement d'un droit d'auteur en ce que la marque protège des identifiants commerciaux (comme des logos ou des noms) utilisés dans le commerce, tandis que le droit d'auteur protège des œuvres créatives plus larges — le logo d'une entreprise pourrait potentiellement être protégé par les deux, de manières différentes.
+- Expliquer la notion de personnalité juridique d’une société par actions.
+- La relier à la protection contre la responsabilité qu’offrent les sociétés par actions.
+- Rappeler, en contexte, le compromis de la double imposition vu dans le volet GREEN.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Le nom et le logo distinctif d'une chaîne de cafés sont généralement protégés en tant que marque, empêchant une autre entreprise d'utiliser un nom ou un logo prêtant à confusion pour vendre du café. Cela aide les clients à savoir avec certitude quelle entreprise ils soutiennent, et empêche d'autres de profiter injustement de la réputation que la marque d'origine a bâtie.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une marque ?
-2. Quel est l'objectif général d'une marque ?
-3. Vrai/Faux : Les marques et le droit d'auteur protègent exactement la même chose.
-4. Que prévient généralement une marque ?
+Une société par actions est traitée, sur le plan juridique, comme sa propre « personne » distincte — séparée de ses propriétaires (les actionnaires), capable de posséder des biens, de conclure des contrats, de poursuivre et d’être poursuivie, le tout en son propre nom. Cette personnalité juridique est le fondement de la protection contre la responsabilité qu’offrent les sociétés par actions : comme c’est la société elle-même, et non ses actionnaires, qui est juridiquement responsable de ses propres dettes et obligations, les biens personnels des actionnaires sont généralement protégés contre les responsabilités de la société, dans un esprit semblable à la protection d’une LLC.
+
+Cela renvoie directement à la présentation antérieure de la fiscalité des sociétés dans le volet GREEN : la même personnalité juridique qui crée la protection contre la responsabilité est aussi ce qui crée la question de la double imposition — le bénéfice d’une société est imposé une première fois au niveau de la société (parce que la société est son propre contribuable), puis de nouveau lorsqu’il est distribué aux actionnaires. (Les règles fiscales précises, y compris les mécanismes qui atténuent cette double imposition selon les pays, varient; vérifiez auprès d’un professionnel.) C’est un exemple clair de la façon dont une seule notion juridique — la personnalité de la société — produit à la fois un avantage réel (la protection contre la responsabilité) et un coût réel (la double imposition), et c’est précisément pourquoi le choix d’une structure exige de peser plusieurs facteurs ensemble, plutôt que de se fonder sur une seule considération.
+
+## Exemple pratique
+
+**Question :** Un actionnaire d’une société par actions demande pourquoi la même caractéristique juridique qui protège ses biens personnels cause aussi le problème de double imposition vu plus tôt dans le volet GREEN. Comment expliqueriez-vous ce lien?
+
+**Étudiant :** D’après cette leçon, c’est parce que la société est traitée comme sa propre personne juridique distincte — c’est exactement ce qui protège les biens personnels de l’actionnaire, mais c’est aussi ce qui fait de la société son propre contribuable distinct.
+
+**Guide :** La personnalité juridique est-elle donc purement un avantage, purement un coût, ou autre chose?
+
+**Étudiant :** Autre chose — elle produit à la fois un avantage réel, la protection contre la responsabilité, et un coût réel, la double imposition, à partir de la même notion juridique sous-jacente.
+
+**Guide :** Exactement — c’est pourquoi le choix d’une structure doit peser plusieurs facteurs ensemble.
+
+## Quiz pratique
+
+**Question 1.** Sur le plan juridique, une société par actions est traitée comme :
+
+A) La même entité que ses actionnaires
+B) Sa propre « personne » juridique distincte, séparée de ses propriétaires
+C) Aucunement une entité juridique
+D) Une notion pertinente seulement à des fins fiscales
+
+**Question 2.** La personnalité juridique d’une société par actions est le fondement :
+
+A) De rien d’important
+B) De la protection contre la responsabilité qu’offrent les sociétés par actions à leurs actionnaires
+C) Seulement de la stratégie de marketing
+D) Seulement des avantages sociaux des employés
+
+**Question 3.** À quelle notion d’une leçon antérieure cela se rattache-t-il directement?
+
+A) Aux leçons sur le droit des biens du volet RED
+B) À la leçon sur la double imposition des sociétés du volet GREEN
+C) À la leçon sur les dividendes du volet WHITE
+D) Il n’existe aucun lien antérieur
+
+**Question 4.** Que démontre cette leçon au sujet de la personnalité juridique d’une société par actions?
+
+A) Elle est purement avantageuse, sans compromis
+B) Elle produit à la fois un avantage réel (la protection contre la responsabilité) et un coût réel (la double imposition)
+C) Elle est purement coûteuse, sans avantages
+D) Elle n’a aucun lien avec la fiscalité
 
 ## Corrigé
-1. Un mot, une expression, un symbole, ou un dessin identifiant l'origine de produits ou services   2. Protéger les consommateurs de la confusion et protéger la réputation de marque   3. Faux   4. Que d'autres utilisent un nom ou un logo prêtant à confusion
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une marque.
-2. Ceci est l'objectif général couramment cité des marques.
-3. Les marques protègent des identifiants commerciaux ; le droit d'auteur protège des œuvres créatives plus larges.
-4. Les marques préviennent généralement la confusion des consommateurs sur l'origine des produits ou services.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- Une marque identifie et distingue l'origine des produits ou services.
-- Son objectif général est de protéger les consommateurs et la réputation de marque d'une entreprise.
-- Elle se distingue du droit d'auteur, qui protège des œuvres créatives plus larges.
+## Réponses et explications
+
+**1.** Cette notion de personnalité distincte est la base structurelle de tout ce qu’offrent les sociétés par actions, y compris la protection contre la responsabilité.
+
+**2.** Comme c’est la société elle-même qui porte la responsabilité juridique, les actionnaires bénéficient d’une protection importante contre la responsabilité.
+
+**3.** Cette leçon renvoie explicitement à l’explication antérieure du volet GREEN sur les raisons pour lesquelles le bénéfice d’une société est imposé deux fois.
+
+**4.** Voir les deux côtés d’une même notion sous-jacente renforce le besoin de décisions globales, fondées sur plusieurs facteurs, quant à la structure.
+
+## Points clés
+
+- Une société par actions est une « personne » juridique distincte, séparée de ses actionnaires.
+- Cette personnalité crée une protection contre la responsabilité pour les actionnaires.
+- La même notion de personnalité produit aussi la question de la double imposition vue dans le volet GREEN.
+- Une seule notion juridique peut créer à la fois un avantage réel et un coût réel.

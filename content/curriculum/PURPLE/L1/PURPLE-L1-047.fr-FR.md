@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-047
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 47
-title: "La Protection des Données et la Vie Privée — Les Bases"
-summary: "La protection des données désigne les lois et pratiques conçues pour préserver les informations personnelles des individus contre un usage abusif, un accès non autorisé, ou une divulgation inappropriée. FAIT VÉRIFIÉ : Les catégories couramment protégées incluent les informations d'identification personnelle (comme les noms et adresses), les informations financières, et les informations de santé, bien que la portée exacte de la protection varie selon la loi précise."
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "Comprendre les honoraires juridiques : à l’heure, forfaitaires et conditionnels"
+summary: "Explique les structures d’honoraires courantes qu’utilisent les avocats, en donnant aux apprenants le vocabulaire et le cadre nécessaires pour comprendre et comparer les coûts juridiques avant d’engager un avocat."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-047 : La Protection des Données et la Vie Privée — Les Bases
 
-## Objectifs d'Apprentissage
-1. Définir la protection des données en termes généraux.
-2. Identifier des catégories courantes de données personnelles souvent protégées par la loi.
-3. Reconnaître que les lois sur la vie privée varient significativement selon le système juridique.
+# Comprendre les honoraires juridiques : à l’heure, forfaitaires et conditionnels
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Les lois précises sur la protection des données et la vie privée varient significativement selon le pays et la région ; cette leçon décrit uniquement des concepts généraux.
+## Objectifs d’apprentissage
 
-La protection des données désigne les lois et pratiques conçues pour préserver les informations personnelles des individus contre un usage abusif, un accès non autorisé, ou une divulgation inappropriée. *FAIT VÉRIFIÉ :* Les catégories couramment protégées incluent les informations d'identification personnelle (comme les noms et adresses), les informations financières, et les informations de santé, bien que la portée exacte de la protection varie selon la loi précise.
+- Distinguer les honoraires à l’heure, forfaitaires et conditionnels.
+- Déterminer quelle structure est habituellement utilisée pour quel type de dossier.
+- Reconnaître l’importance de préciser la structure d’honoraires dès le départ.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une entreprise recueillant des coordonnées de ses clients aurait généralement des obligations en vertu des lois applicables sur la protection des données concernant la manière dont elle stocke ces informations, avec qui elle peut les partager, et ce qu'elle doit faire si ces données sont compromises lors d'une faille de sécurité. Ces obligations existent généralement parce que les individus ont un intérêt légitime à contrôler l'usage fait de leurs informations personnelles.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la protection des données ?
-2. Nomme une catégorie courante d'informations personnelles protégées.
-3. Vrai/Faux : Les lois sur la protection des données sont identiques partout dans le monde.
-4. Pourquoi existe-t-il généralement des obligations sur la manière dont les entreprises traitent les informations personnelles ?
+Les avocats utilisent généralement l’une de quelques structures d’honoraires courantes, et les comprendre aide à se faire des attentes réalistes et à comparer les coûts de façon utile. Les **honoraires à l’heure** facturent le temps réellement consacré; ils sont courants pour les dossiers complexes et imprévisibles, comme les litiges ou le conseil continu à une entreprise, où le temps total nécessaire est difficile à estimer à l’avance. Les **honoraires forfaitaires** facturent un montant unique et déterminé à l’avance pour un travail dont la portée est définie et prévisible — ils sont courants pour les dossiers routiniers, comme la constitution simple d’une entreprise ou la conclusion habituelle d’une vente immobilière. Les **honoraires conditionnels** (ou honoraires au pourcentage) facturent un pourcentage de toute somme recouvrée, seulement si la cause est gagnée; ils sont courants dans certains types de dossiers de préjudice corporel ou de réclamations, ce qui aligne l’intérêt de l’avocat sur le fait de réellement gagner. (En France, les honoraires fixés uniquement en fonction du résultat sont interdits; un honoraire de résultat n’est permis qu’en complément d’un honoraire de base.)
+
+Peu importe la structure, préciser l’entente d’honoraires dès le départ, par écrit, avant que le travail commence est un élément essentiel de littératie pratique — un mandat écrit ou une convention d’honoraires devrait préciser la structure d’honoraires, ce qui est inclus et les frais supplémentaires (frais de dépôt, témoins experts, etc.) qui pourraient s’ajouter séparément. Comprendre ces structures aide aussi à faire correspondre un type d’honoraires à la nature de votre dossier : la constitution simple d’une entreprise facturée à l’heure, par exemple, pourrait raisonnablement coûter plus cher, ou sembler moins prévisible, que le même travail facturé à forfait.
+
+## Exemple pratique
+
+**Question :** Une personne engage un avocat pour la constitution simple et routinière d’une entreprise, mais accepte une facturation à l’heure sans demander s’il existe une option forfaitaire. Que pourrait-elle avoir manqué, selon cette leçon?
+
+**Étudiant :** D’après cette leçon, pour un dossier routinier et prévisible comme la constitution habituelle d’une entreprise, des honoraires forfaitaires auraient pu être une option plus courante et possiblement plus prévisible quant aux coûts, qui valait la peine d’être demandée.
+
+**Guide :** Pourquoi le type de dossier compte-t-il dans le choix entre ces structures d’honoraires?
+
+**Étudiant :** Parce que la facturation à l’heure convient généralement mieux aux dossiers complexes et imprévisibles, alors que les honoraires forfaitaires conviennent aux travaux routiniers et bien définis — utiliser la mauvaise structure pour la situation peut entraîner des coûts moins prévisibles.
+
+**Guide :** Exactement — faire correspondre la structure d’honoraires à la nature du dossier fait partie de la façon d’être un client averti.
+
+## Quiz pratique
+
+**Question 1.** Les honoraires à l’heure sont habituellement utilisés pour :
+
+A) Seulement les dossiers routiniers et prévisibles
+B) Les dossiers complexes et imprévisibles, où le temps total est difficile à estimer
+C) Aucun avocat ne les utilise
+D) Seulement les dossiers à honoraires conditionnels
+
+**Question 2.** Les honoraires forfaitaires sont habituellement utilisés pour :
+
+A) Les litiges imprévisibles
+B) Les dossiers routiniers et bien définis, comme la constitution habituelle d’une entreprise ou la conclusion d’une vente
+C) Seulement les dossiers de préjudice corporel
+D) Ils ne sont jamais utilisés en pratique
+
+**Question 3.** Les honoraires conditionnels sont :
+
+A) Un taux horaire fixe
+B) Un pourcentage de la somme recouvrée, facturé seulement si la cause est gagnée
+C) Un montant forfaitaire payé à l’avance, peu importe le résultat
+D) Sans pertinence quant aux structures d’honoraires juridiques
+
+**Question 4.** Selon cette leçon, qu’est-ce qui constitue un élément essentiel de littératie pratique en matière d’honoraires juridiques?
+
+A) Ne jamais parler d’honoraires
+B) Préciser l’entente d’honoraires dès le départ, par écrit, avant que le travail commence
+C) Supposer que tous les avocats facturent le même montant
+D) Éviter les conventions d’honoraires écrites
 
 ## Corrigé
-1. Des lois et pratiques conçues pour préserver les informations personnelles contre un usage abusif   2. Les informations d'identification personnelle, les informations financières, ou les informations de santé (entre autres)   3. Faux   4. Parce que les individus ont un intérêt légitime à contrôler l'usage fait de leurs informations personnelles
 
-## Réponses et Explications
-1. Ceci est la définition générale de la protection des données.
-2. Ce sont des catégories couramment citées d'informations personnelles protégées.
-3. Les lois sur la protection des données varient significativement selon le pays et la région.
-4. Ceci est la raison générale couramment citée derrière ces obligations.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- La protection des données préserve les informations personnelles contre un usage abusif et un accès non autorisé.
-- Les catégories couramment protégées incluent les informations d'identification, financières, et de santé.
-- Les lois précises sur la protection des données varient significativement selon le système juridique.
+## Réponses et explications
+
+**1.** La souplesse de la facturation à l’heure convient aux dossiers dont la portée et le temps requis sont réellement difficiles à prévoir à l’avance.
+
+**2.** Les honoraires forfaitaires fonctionnent bien précisément parce que la portée des dossiers routiniers est assez prévisible pour en fixer le prix à l’avance.
+
+**3.** Cette structure liée au succès est une caractéristique déterminante des ententes d’honoraires conditionnels.
+
+**4.** Une convention d’honoraires écrite, conclue dès le départ, est présentée à maintes reprises comme la protection pratique contre les mauvaises surprises quant aux coûts.
+
+## Points clés
+
+- Les honoraires à l’heure conviennent aux dossiers complexes et imprévisibles; les honoraires forfaitaires, aux dossiers routiniers et bien définis; les honoraires conditionnels sont liés au résultat de la cause.
+- Faire correspondre la structure d’honoraires à la nature du dossier juridique compte pour la prévisibilité des coûts.
+- Préciser par écrit les ententes d’honoraires dès le départ est un élément essentiel de littératie pratique.
+- Comprendre ces structures aide à se faire des attentes réalistes avant d’engager un avocat.

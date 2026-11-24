@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-039
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 39
-title: "La Garde et la Pension Alimentaire des Enfants"
-summary: "La Garde et la Pension Alimentaire des Enfants"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "La protection des actifs : séparer juridiquement le risque et le rendement"
+summary: "Ouvre la section sur la protection des actifs en présentant la notion juridique générale qui consiste à structurer délibérément ses actifs pour réduire l’exposition à de futures réclamations juridiques."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-039 : La Garde et la Pension Alimentaire des Enfants
 
-## Objectifs d'Apprentissage
-1. Distinguer la garde physique de la garde légale.
-2. Définir la pension alimentaire en termes généraux.
-3. Expliquer le critère général que les tribunaux utilisent habituellement pour décider de la garde.
+# La protection des actifs : séparer juridiquement le risque et le rendement
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* La garde **physique** désigne généralement chez qui l'enfant vit et qui assure les soins quotidiens, tandis que la garde **légale** désigne généralement qui détient le droit de prendre des décisions importantes concernant la vie de l'enfant, comme l'éducation et les soins médicaux. Ces deux formes de garde peuvent être partagées entre les parents ou attribuées principalement à l'un d'eux, selon l'arrangement.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* Les tribunaux utilisent généralement le critère de l'« intérêt supérieur de l'enfant » pour décider des modalités de garde, ce qui signifie que les préférences des parents sont généralement secondaires par rapport au bien-être de l'enfant, en tenant compte de facteurs comme la stabilité, la relation existante avec chaque parent, et la capacité de chacun à répondre aux besoins de l'enfant.
+- Définir la protection des actifs en termes juridiques généraux.
+- Distinguer la protection légitime des actifs de la dissimulation frauduleuse d’actifs.
+- Donner un aperçu des outils présentés dans le reste de cette section.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Après un divorce, des parents pourraient partager la garde légale — les deux participant aux décisions concernant l'école et les soins médicaux de l'enfant — tandis que la garde physique principale revient à un seul parent, chez qui l'enfant vit la majeure partie du temps, l'autre parent bénéficiant d'un droit de visite régulier. La pension alimentaire serait généralement calculée séparément, souvent en fonction des revenus de chaque parent et de l'arrangement de garde physique.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la garde physique ?
-2. Qu'est-ce que la garde légale ?
-3. Vrai/Faux : Les préférences des parents sont généralement plus importantes que le bien-être de l'enfant pour décider de la garde.
-4. Quel critère général les tribunaux utilisent-ils pour décider des modalités de garde ?
+La protection des actifs désigne le fait de structurer légalement la façon dont les actifs sont détenus et organisés afin de réduire l’exposition à d’éventuelles réclamations juridiques futures — poursuites, responsabilités liées à l’entreprise, réclamations de créanciers — sans enfreindre la loi. Cela renvoie directement aux leçons précédentes de ce volet : le choix d’une structure d’entreprise (LLC, société par actions) est en soi une forme de protection des actifs, et les notions présentées dans le reste de cette section — fiducies, assurances, gestion prudente des garanties personnelles — ajoutent d’autres outils au service de ce même objectif général.
+
+Il est essentiel de tracer ici une ligne nette et explicite : la protection légitime des actifs se fait de façon proactive, avant qu’une réclamation précise existe ou soit raisonnablement prévisible, en utilisant des structures juridiques de façon transparente. La dissimulation frauduleuse d’actifs — déplacer ou cacher des actifs précisément pour échapper à une réclamation juridique connue, existante ou clairement prévisible — est illégale et peut être annulée par un tribunal, parfois avec des pénalités supplémentaires. C’est le moment choisi et la transparence de la planification de la protection des actifs qui distinguent une stratégie juridique légitime et prudente d’une tentative illégale de frauder des créanciers ou des réclamants, et c’est exactement pourquoi ce genre de planification gagne à être fait tôt et avec de véritables conseils professionnels, et non en réaction, une fois qu’un problème est déjà apparu.
+
+## Exemple pratique
+
+**Question :** Une personne qui fait face à une poursuite précise et imminente transfère soudainement ses actifs au nom d’un membre de sa famille pour les mettre hors d’atteinte. S’agit-il, selon cette leçon, d’une protection légitime des actifs?
+
+**Étudiant :** D’après cette leçon, non — cela ressemble à une dissimulation frauduleuse d’actifs, puisque le transfert se fait en réponse à une réclamation juridique connue et existante, et non dans le cadre d’une planification proactive faite avant qu’une réclamation précise existe.
+
+**Guide :** Que pourrait-il arriver juridiquement à ce genre de transfert de dernière minute?
+
+**Étudiant :** Un tribunal pourrait possiblement annuler le transfert, et il pourrait y avoir des pénalités supplémentaires, puisqu’il a été fait précisément pour échapper à une réclamation connue plutôt que dans le cadre d’une planification légitime et transparente.
+
+**Guide :** Exactement — c’est le moment choisi et la transparence qui distinguent la protection légitime des actifs de la dissimulation illégale.
+
+## Quiz pratique
+
+**Question 1.** La protection des actifs désigne :
+
+A) Le fait de cacher illégalement des actifs à toute réclamation juridique
+B) Le fait de structurer légalement ses actifs pour réduire l’exposition à d’éventuelles réclamations futures, sans enfreindre la loi
+C) Une notion pertinente seulement pour les criminels
+D) Une garantie contre tout risque juridique possible
+
+**Question 2.** Le choix d’une structure d’entreprise, comme la constitution d’une LLC, est :
+
+A) Sans lien avec la protection des actifs
+B) En soi une forme de protection des actifs
+C) Illégal dans la plupart des territoires
+D) Pertinent seulement en immobilier
+
+**Question 3.** Qu’est-ce qui distingue la protection légitime des actifs de la dissimulation frauduleuse?
+
+A) Il n’existe aucune distinction réelle
+B) Le moment choisi et la transparence — une planification proactive et transparente faite avant qu’une réclamation précise existe
+C) Le montant en jeu
+D) Le fait qu’un avocat soit intervenu à un moment ou à un autre
+
+**Question 4.** Que peut-il arriver à un transfert fait précisément pour échapper à une réclamation juridique connue et existante?
+
+A) Rien — il est toujours efficace
+B) Un tribunal peut possiblement l’annuler, avec de possibles pénalités supplémentaires
+C) Il est automatiquement légal, peu importe le moment choisi
+D) Cette situation ne se produit jamais réellement
 
 ## Corrigé
-1. Chez qui l'enfant vit et qui assure les soins quotidiens   2. Qui détient le droit de prendre des décisions importantes concernant la vie de l'enfant   3. Faux   4. L'« intérêt supérieur de l'enfant »
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la garde physique.
-2. Ceci est la définition fondamentale de la garde légale.
-3. Le bien-être de l'enfant est généralement le facteur prioritaire, pas les préférences des parents.
-4. Ceci est le critère couramment cité utilisé par les tribunaux.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- La garde physique désigne chez qui l'enfant vit ; la garde légale désigne qui prend les décisions importantes.
-- Les deux peuvent être partagées ou attribuées principalement à un parent.
-- Les tribunaux utilisent généralement le critère de l'« intérêt supérieur de l'enfant » pour décider de ces arrangements.
+## Réponses et explications
+
+**1.** Cette structuration doit se faire dans le respect de la loi, ce qui la distingue de la dissimulation illégale.
+
+**2.** Le choix d’une structure, vu plus tôt dans ce volet, est explicitement présenté comme une forme de protection des actifs.
+
+**3.** Une planification proactive et transparente, faite avant qu’une réclamation existe, est la distinction juridique clé que fait cette leçon.
+
+**4.** Les tribunaux conservent le pouvoir d’annuler des transferts faits au mauvais moment, ce qui fait échouer toute tentative d’échapper à une réclamation connue.
+
+## Points clés
+
+- La protection des actifs consiste à structurer légalement ses actifs pour réduire l’exposition à des réclamations futures, dans le respect de la loi.
+- Le choix d’une structure d’entreprise est en soi une forme de protection des actifs.
+- La protection légitime des actifs est proactive et transparente; la dissimulation frauduleuse réagit à une réclamation connue.
+- C’est cette distinction qui explique pourquoi la planification de la protection des actifs gagne à être faite tôt, avec de véritables conseils professionnels.

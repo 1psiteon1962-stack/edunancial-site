@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-009
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 9
-title: "La Diffamation — Écrite et Verbale"
-summary: "La Diffamation — Écrite et Verbale"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "Droit civil ou droit pénal : pourquoi la distinction est importante"
+summary: "Clarifie la distinction fondamentale entre le droit civil et le droit pénal, et explique pourquoi ce programme porte presque entièrement sur le volet civil."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-009 : La Diffamation — Écrite et Verbale
 
-## Objectifs d'Apprentissage
-1. Définir la diffamation en termes généraux.
-2. Distinguer la diffamation écrite de la diffamation verbale.
-3. Identifier pourquoi la véracité constitue généralement une défense contre la diffamation.
+# Droit civil ou droit pénal : pourquoi la distinction est importante
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* La diffamation est une déclaration fausse faite à un tiers qui porte atteinte à la réputation de quelqu'un. La diffamation **écrite** (« libel » en anglais) désigne généralement la diffamation écrite ou publiée, tandis que la diffamation **verbale** (« slander » en anglais) désigne généralement la diffamation orale.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* La véracité constitue généralement une défense complète contre une accusation de diffamation — si la déclaration est effectivement vraie, elle ne peut généralement pas être considérée comme diffamatoire, quel que soit le préjudice causé à la réputation de quelqu'un, car la diffamation exige par définition que la déclaration soit fausse.
+- Distinguer le droit civil du droit pénal.
+- Expliquer les conséquences et le fardeau de la preuve différents qui s’appliquent.
+- Reconnaître pourquoi la portée du volet PURPLE est surtout civile, et non pénale.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Si quelqu'un publie en ligne une fausse accusation selon laquelle un voisin a volé de l'argent, et que cette accusation nuit à la réputation du voisin, cela pourrait constituer une diffamation écrite, puisqu'elle a été publiée. Si la personne disait simplement la même chose oralement à un ami, cela serait généralement considéré comme une diffamation verbale. Si l'accusation s'avérait vraie, cependant, il n'y aurait généralement aucune diffamation, quel que soit le préjudice causé.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la diffamation ?
-2. Quelle est la différence générale entre diffamation écrite et diffamation verbale ?
-3. Vrai/Faux : Une déclaration vraie peut généralement être considérée comme diffamatoire si elle nuit à la réputation de quelqu'un.
-4. Pourquoi la véracité constitue-t-elle généralement une défense complète contre la diffamation ?
+Le droit civil régit les litiges entre des parties privées — inexécution de contrats, délits civils, litiges immobiliers —, où le recours habituel est de l’argent ou une ordonnance du tribunal, et non l’emprisonnement. Le droit pénal régit les infractions contre la société elle-même, poursuivies par l’État, où la conséquence possible comprend des amendes et l’emprisonnement. Les deux systèmes diffèrent aussi quant au fardeau de la preuve : les affaires pénales exigent une preuve « hors de tout doute raisonnable », une norme très élevée, alors que les affaires civiles utilisent habituellement une norme moins élevée, souvent la « prépondérance des probabilités » (plus probable qu’improbable). (En France, la logique diffère : le juge pénal statue selon son « intime conviction », et la preuve en matière civile obéit à des règles propres. Vérifiez auprès d’un professionnel.)
+
+Presque tout ce qui est présenté dans ce volet PURPLE — les contrats, le droit des biens, la réglementation des valeurs mobilières, les structures d’entreprise — se situe du côté civil de cette distinction. C’est voulu : les risques juridiques les plus directement liés à la création de patrimoine par l’immobilier, le placement et l’entreprise sont des risques civils (être poursuivi, perdre une transaction, subir des sanctions réglementaires), et non des risques pénaux. Le droit pénal est important, mais c’est un domaine différent et plus spécialisé, et une exposition pénale grave est exactement le genre de situation qui exige une représentation juridique immédiate et dédiée plutôt qu’une littératie générale.
+
+## Exemple pratique
+
+**Question :** Un propriétaire d’entreprise est poursuivi par un ancien client au sujet d’un litige contractuel. S’agit-il d’une affaire civile ou pénale, et pourquoi la distinction est-elle importante en pratique?
+
+**Étudiant :** D’après cette leçon, c’est une affaire civile — un litige privé au sujet d’un contrat, et non une infraction poursuivie par l’État.
+
+**Guide :** En quoi cela change-t-il ce qui est réellement en jeu pour le propriétaire d’entreprise?
+
+**Étudiant :** La conséquence habituelle serait de l’argent ou une ordonnance du tribunal, et non l’emprisonnement, et le fardeau de la preuve que le client devrait respecter est moins élevé que la norme « hors de tout doute raisonnable » d’une affaire pénale.
+
+**Guide :** Exactement — comprendre dans quel système on se trouve change ce qui est réalistement en jeu et la norme qui s’applique.
+
+## Quiz pratique
+
+**Question 1.** Le droit civil régit généralement :
+
+A) Les infractions contre la société, poursuivies par l’État
+B) Les litiges entre des parties privées, habituellement réglés par de l’argent ou des ordonnances du tribunal
+C) Seulement les affaires pénales
+D) Aucun véritable litige juridique
+
+**Question 2.** Le fardeau de la preuve en droit pénal est habituellement :
+
+A) Moins élevé que la norme du droit civil
+B) « Hors de tout doute raisonnable », une norme très élevée
+C) Identique à la norme du droit civil
+D) Inapplicable dans tout système juridique
+
+**Question 3.** La majeure partie de ce que présente le volet PURPLE relève :
+
+A) Du droit pénal
+B) Du droit civil
+C) Ni du droit civil ni du droit pénal
+D) Seulement du droit international
+
+**Question 4.** Pourquoi ce volet porte-t-il surtout sur le droit civil?
+
+A) Le droit pénal ne concerne personne
+B) Les risques juridiques les plus pertinents pour la création de patrimoine dans les volets RED, WHITE et BLUE sont des risques civils
+C) Le droit civil n’existe pas réellement
+D) Aucune raison valable n’est donnée
 
 ## Corrigé
-1. Une déclaration fausse faite à un tiers portant atteinte à la réputation de quelqu'un   2. La diffamation écrite est écrite ou publiée ; la diffamation verbale est orale   3. Faux   4. Parce que la diffamation exige par définition que la déclaration soit fausse
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la diffamation.
-2. Ceci est la distinction générale entre ces deux formes de diffamation.
-3. Une déclaration vraie ne peut généralement pas être diffamatoire, quel que soit le préjudice causé.
-4. La fausseté est un élément essentiel de la définition de la diffamation.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- La diffamation est une déclaration fausse qui nuit à la réputation de quelqu'un auprès de tiers.
-- La diffamation écrite est généralement écrite ; la diffamation verbale est généralement orale.
-- La véracité constitue généralement une défense complète contre une accusation de diffamation.
+## Réponses et explications
+
+**1.** Le droit civil traite des litiges privés, avec des recours habituellement limités à de l’argent ou à des ordonnances du tribunal, et non à l’incarcération.
+
+**2.** La norme plus exigeante du droit pénal reflète la gravité des conséquences possibles, y compris la perte de liberté.
+
+**3.** Les contrats, les biens, les valeurs mobilières et les structures d’entreprise — le contenu central de ce volet — sont tous des sujets de droit civil.
+
+**4.** Comme c’est le risque civil qui menace le plus directement les activités de création de patrimoine, c’est là que doit se concentrer la littératie de ce volet.
+
+## Points clés
+
+- Le droit civil régit les litiges privés; le droit pénal régit les infractions contre la société.
+- Le fardeau de la preuve en droit pénal est beaucoup plus élevé qu’en droit civil.
+- Le volet PURPLE porte presque entièrement sur le droit civil, directement pertinent pour les volets RED, WHITE et BLUE.
+- Une exposition pénale grave exige une représentation juridique dédiée et immédiate, au-delà de la portée de ce volet.

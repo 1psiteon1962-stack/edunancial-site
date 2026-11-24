@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 44
 locale: fr-CA
-title: "Procurations : autorité juridique d’agir pour une autre personne"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Les procurations : le pouvoir légal d’agir au nom d’une autre personne"
+summary: "Présente la procuration comme un outil juridique qui accorde à une personne le pouvoir d’agir au nom d’une autre, pertinent à la fois pour la continuité des affaires et pour la planification en cas d’inaptitude."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Procurations : autorité juridique d’agir pour une autre personne
+# Les procurations : le pouvoir légal d’agir au nom d’une autre personne
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Définir une procuration.
+- Distinguer la procuration générale de la procuration limitée.
+- Relier cela aux contextes de planification d’affaires et de planification personnelle.
 
 ## Contenu principal
 
-Une procuration autorise une personne à agir au nom d’une autre dans les matières précisées. Elle peut être générale ou limitée à une transaction particulière et peut jouer un rôle dans la continuité d’une entreprise ou la planification en cas d’incapacité. Les pouvoirs, formalités et conditions d’entrée en vigueur varient selon la juridiction.
+Une procuration (en anglais *power of attorney*) est un document juridique qui accorde à une personne (le mandataire ou fondé de pouvoir) le pouvoir d’agir au nom d’une autre personne (le mandant) dans des affaires précisées. Une **procuration générale** accorde un pouvoir étendu en matière financière et juridique; une **procuration limitée (ou spéciale)** accorde un pouvoir seulement pour un but ou une transaction précis, comme la signature des documents de conclusion d’une vente immobilière lorsque le mandant ne peut pas être présent.
+
+Cet outil compte dans les contextes d’affaires comme dans les contextes personnels de ce programme. Dans le contexte d’une entreprise du volet BLUE, une procuration pourrait permettre à une personne de confiance de signer des documents ou de prendre certaines décisions lorsqu’un propriétaire n’est pas disponible, ce qui favorise la continuité des affaires. Dans un contexte plus large de planification personnelle — en lien avec les leçons du volet GOLD sur la planification successorale —, une procuration est souvent conçue précisément pour prendre effet si le mandant devient inapte, afin que quelqu’un ait le pouvoir légal de gérer ses affaires sans exiger de procédure judiciaire, ce qui correspond exactement au genre de planification proactive sur laquelle la section du volet GOLD consacrée à la succession insistait, bien avant que cela semble urgent. (Les règles varient selon la province; au Québec, par exemple, le mandat de protection en cas d’inaptitude doit être homologué pour prendre effet. Vérifiez auprès d’un professionnel.)
 
 ## Exemple pratique
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+**Question :** Une personne prévoit la conclusion d’une vente immobilière, mais sait qu’elle sera en voyage et ne pourra pas y assister en personne. Quel outil juridique de cette leçon pourrait répondre à cette situation?
+
+**Étudiant :** D’après cette leçon, une procuration limitée pourrait fonctionner — elle accorde à quelqu’un le pouvoir nécessaire pour cette transaction précise, comme la signature des documents de conclusion, sans lui donner un pouvoir plus large au-delà de ce but.
+
+**Guide :** En quoi cela diffère-t-il d’une procuration générale?
+
+**Étudiant :** Une procuration générale accorderait un pouvoir beaucoup plus étendu en matière financière et juridique, alors qu’une procuration limitée est circonscrite au seul but nécessaire, comme cette conclusion de vente.
+
+**Guide :** Exactement — faire correspondre l’étendue du pouvoir au besoin réel est le point pratique ici.
 
 ## Quiz pratique
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Question 1.** Une procuration est :
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+A) Un type d’ordonnance du tribunal
+B) Un document juridique qui accorde à une personne le pouvoir d’agir au nom d’une autre
+C) La même chose qu’un testament
+D) Sans pertinence pour la planification d’affaires ou personnelle
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Question 2.** Une procuration générale accorde :
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+A) Un pouvoir pour un seul but étroit et précis
+B) Un pouvoir étendu en matière financière et juridique
+C) Aucun pouvoir réel
+D) Seulement un pouvoir sur l’immobilier
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Question 3.** Une procuration limitée est utile dans des situations comme :
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+A) L’octroi d’un pouvoir illimité à vie
+B) La signature des documents de conclusion d’une transaction précise lorsque le mandant ne peut pas être présent
+C) Rien de pratique
+D) Seulement les affaires criminelles
+
+**Question 4.** Comment cette leçon relie-t-elle la procuration au contenu antérieur du volet GOLD?
+
+A) Il n’existe aucun lien
+B) Une procuration peut être conçue pour prendre effet en cas d’inaptitude, en écho au thème de la planification successorale proactive du volet GOLD
+C) Seulement au contenu sur les métaux précieux du volet GOLD
+D) Seulement à la leçon sur la capitalisation du volet GOLD
 
 ## Corrigé
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**1.** Ce document crée précisément un pouvoir juridique délégué au profit du mandataire désigné.
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**2.** Un pouvoir étendu et général est la caractéristique qui distingue ce type de la procuration limitée.
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**3.** Ce pouvoir étroitement circonscrit est une utilisation pratique et courante d’une procuration limitée dans la vie réelle.
+
+**4.** Cela se rattache directement à l’insistance du volet GOLD sur une planification proactive qui anticipe l’inaptitude, faite avant que cela semble urgent.
 
 ## Points clés
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+- Une procuration accorde un pouvoir juridique délégué d’agir au nom d’une autre personne.
+- Les procurations générales accordent un pouvoir étendu; les procurations limitées sont circonscrites à un but précis.
+- Cet outil favorise à la fois la continuité des affaires et la planification en cas d’inaptitude personnelle.
+- Cela se rattache directement au thème de la planification proactive de la section du volet GOLD consacrée à la succession.

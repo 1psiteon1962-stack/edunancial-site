@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-023
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 23
-title: "Qu'est-ce Qu'une Action en Justice ?"
-summary: "Qu'est-ce Qu'une Action en Justice ?"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "Le titre de propriété et l’assurance titres : protéger ses droits de propriété"
+summary: "Explique ce que signifie juridiquement le « titre », pourquoi des problèmes de titre peuvent survenir même avec un acte valide, et le rôle de l’assurance titres dans la gestion de ce risque."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-023 : Qu'est-ce Qu'une Action en Justice ?
 
-## Objectifs d'Apprentissage
-1. Définir une action en justice en termes simples.
-2. Identifier les étapes générales d'une action civile.
-3. Reconnaître les termes « demandeur » et « défendeur ».
+# Le titre de propriété et l’assurance titres : protéger ses droits de propriété
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une action en justice est une procédure juridique formelle par laquelle une partie (le « demandeur ») cherche un recours juridique auprès d'un tribunal contre une autre partie (le « défendeur »). Les étapes générales incluent le dépôt d'une plainte formelle, la notification au défendeur, l'échange d'informations entre les parties (connu sous le nom de « phase d'instruction »), et enfin un procès ou un règlement amiable avant d'y parvenir.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* De nombreuses actions en justice n'atteignent jamais le procès — elles se règlent souvent à l'amiable entre les parties à un moment donné de la procédure, un procès impliquant généralement des coûts, du temps, et une incertitude significatifs pour les deux parties.
+- Définir le « titre » en le distinguant de l’acte de transfert.
+- Expliquer pourquoi des problèmes de titre peuvent exister même avec un acte valide.
+- Décrire le but général de l’assurance titres.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une personne blessée en raison de la négligence d'une autre pourrait intenter une action en justice en tant que demandeur, cherchant une compensation financière du défendeur. Durant la phase d'instruction, les deux parties échangent généralement des preuves et recueillent des dépositions. Souvent, en constatant la solidité des preuves de l'autre partie, les deux parties décident de régler l'affaire à l'amiable plutôt que de risquer un résultat incertain au procès.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une action en justice ?
-2. Qui est le « demandeur » dans une action en justice ?
-3. Vrai/Faux : La plupart des actions en justice se terminent généralement par un procès complet.
-4. Que se passe-t-il généralement durant la phase d'instruction ?
+Le titre désigne le droit de propriété lui-même — l’acte est le document qui transfère le titre, mais le titre est le droit sous-jacent qui est transféré. Un acte apparemment valide ne garantit pas automatiquement un titre « libre » — il peut y avoir des problèmes cachés : une charge non divulguée laissée par un ancien propriétaire, une signature falsifiée quelque part dans l’historique du bien, un héritier dont la réclamation n’a pas été réglée, ou une erreur d’écriture dans les registres publics. Ces problèmes peuvent apparaître des années après un achat et menacer potentiellement le droit de propriété du propriétaire actuel.
+
+L’assurance titres existe précisément pour gérer ce risque. Avant un achat, une recherche de titre examine les registres publics pour déceler ce genre de problèmes. L’assurance titres protège ensuite l’acheteur (et souvent le prêteur) contre une perte financière si un problème de titre apparaît plus tard malgré cette recherche — en couvrant les frais juridiques et les pertes possibles liés à la défense ou au règlement de la réclamation. Contrairement à la plupart des assurances, qui protègent contre des événements futurs, l’assurance titres protège contre des événements passés qui n’ont simplement pas encore été découverts — une distinction subtile, mais importante, qui explique pourquoi on la paie habituellement par une prime unique au moment de l’achat, plutôt que par des paiements continus. (En France, l’assurance titres est peu répandue : la vérification du titre repose surtout sur le notaire, dont la responsabilité professionnelle peut être engagée.)
+
+## Exemple pratique
+
+**Question :** Une propriétaire découvre, cinq ans après son achat, qu’une charge laissée par un ancien propriétaire n’a jamais été correctement radiée et menace maintenant son droit de propriété. Comment l’assurance titres pourrait-elle l’aider dans cette situation?
+
+**Étudiant :** D’après cette leçon, si elle a souscrit une assurance titres, celle-ci devrait aider à couvrir les frais juridiques et les pertes possibles liés au règlement de ce problème de titre, même s’il est apparu des années après l’achat.
+
+**Guide :** En quoi est-ce différent de la façon dont fonctionnent la plupart des autres assurances?
+
+**Étudiant :** La plupart des assurances protègent contre des événements futurs, mais l’assurance titres protège contre un problème qui existait déjà dans le passé — il n’a simplement été découvert que plus tard.
+
+**Guide :** Exactement — c’est cette distinction qui explique qu’on la paie habituellement une seule fois plutôt que par une police continue.
+
+## Quiz pratique
+
+**Question 1.** Le titre, par opposition à l’acte, désigne :
+
+A) Le document physique qui transfère la propriété
+B) Le droit de propriété lui-même
+C) Un type de prêt
+D) La même chose qu’un bail
+
+**Question 2.** Une recherche de titre examine :
+
+A) L’historique de crédit de l’acheteur
+B) Les registres publics pour déceler des problèmes de titre cachés, comme des charges ou des signatures falsifiées
+C) Seulement l’état physique du bien
+D) Rien de pertinent pour la propriété
+
+**Question 3.** L’assurance titres protège contre :
+
+A) Les dommages futurs au bien
+B) Une perte financière découlant de problèmes de titre qui existaient dans le passé, mais qui n’avaient pas été découverts avant l’achat
+C) Seulement le vol du bien
+D) Rien d’important
+
+**Question 4.** En quoi l’assurance titres diffère-t-elle de la plupart des autres types d’assurance?
+
+A) Elle est identique à la plupart des assurances
+B) Elle protège contre des problèmes passés non découverts plutôt que contre des événements futurs
+C) Elle ne couvre que des événements futurs, comme la plupart des assurances
+D) Elle exige des paiements mensuels continus, comme la plupart des assurances
 
 ## Corrigé
-1. Une procédure juridique formelle où une partie cherche un recours juridique contre une autre   2. La partie qui cherche le recours juridique   3. Faux   4. Les parties échangent des informations et des preuves
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une action en justice.
-2. Ceci est la définition du rôle de demandeur.
-3. De nombreuses actions en justice se règlent à l'amiable avant d'atteindre le procès.
-4. Ceci est la fonction générale de la phase d'instruction.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- Une action en justice est une procédure juridique formelle où le demandeur cherche un recours contre le défendeur.
-- Les étapes générales incluent la plainte, la notification, l'instruction, et le procès ou le règlement amiable.
-- De nombreuses actions en justice se règlent à l'amiable avant d'atteindre un procès complet.
+## Réponses et explications
+
+**1.** Le titre est le droit juridique sous-jacent; l’acte est simplement l’instrument qui le transfère.
+
+**2.** Une recherche de titre approfondie est l’étape préventive qui vise à déceler ces problèmes avant l’achat.
+
+**3.** L’assurance titres vise précisément le risque que des défauts historiques non découverts apparaissent après coup.
+
+**4.** Cette distinction entre passé et futur explique la structure inhabituelle de prime unique de l’assurance titres.
+
+## Points clés
+
+- Le titre est le droit de propriété sous-jacent, distinct de l’acte lui-même.
+- Des problèmes de titre cachés peuvent exister même avec un acte correctement passé.
+- L’assurance titres protège contre une perte financière découlant de défauts de titre passés non découverts.
+- C’est cette protection contre des événements passés qui explique que l’assurance titres soit habituellement payée par une prime unique, contrairement à la plupart des assurances.

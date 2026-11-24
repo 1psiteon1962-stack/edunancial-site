@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 12
 locale: fr-CA
-title: "Entreprise individuelle : l’exposition juridique de la structure la plus simple"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "L’entreprise individuelle : l’exposition juridique de la structure la plus simple"
+summary: "Explique les conséquences, sur le plan de la responsabilité juridique, de l’exploitation d’une entreprise individuelle — la structure par défaut, la plus simple et la moins protectrice."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Entreprise individuelle : l’exposition juridique de la structure la plus simple
+# L’entreprise individuelle : l’exposition juridique de la structure la plus simple
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Définir l’entreprise individuelle sur le plan juridique.
+- Expliquer pourquoi elle n’offre aucune séparation entre la responsabilité de l’entreprise et la responsabilité personnelle.
+- Reconnaître le risque pratique que cela crée.
 
 ## Contenu principal
 
-Dans plusieurs juridictions, l’entreprise individuelle ne crée pas de séparation juridique entre l’entreprise et son propriétaire. Cette simplicité facilite le démarrage, mais peut exposer les biens personnels du propriétaire aux dettes et réclamations de l’entreprise. Les règles et exemptions varient; l’enjeu essentiel est de comprendre le coût juridique possible de cette simplicité.
+L’entreprise individuelle est la structure par défaut d’une entreprise appartenant à une seule personne, sans immatriculation officielle d’une entité distincte — sur le plan juridique, l’entreprise et le propriétaire sont traités comme une seule et même entité. C’est la structure la plus simple pour démarrer (souvent sans aucune formalité officielle, même si certaines inscriptions peuvent être exigées selon la province), mais elle comporte un compromis juridique essentiel : il n’existe aucune séparation de responsabilité entre l’entreprise et les biens personnels du propriétaire.
+
+Cela signifie que si l’entreprise est poursuivie, ne rembourse pas une dette ou fait autrement face à une réclamation juridique, les biens personnels du propriétaire — sa maison, ses économies personnelles, ses biens personnels — sont directement exposés, et pas seulement ce que possède l’entreprise elle-même. C’est un risque juridique important que bien des nouveaux propriétaires d’entreprise ne mesurent pas pleinement lorsqu’ils commencent à exploiter de façon informelle sans mettre en place une structure plus protectrice. La simplicité a ici un coût réel, et c’est précisément un coût juridique, lié à la responsabilité, distinct de la simplicité fiscale présentée dans le volet GREEN.
 
 ## Exemple pratique
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+**Question :** Une consultante pigiste exploite une entreprise individuelle et est poursuivie par un client au sujet d’un différend, ce qui donne lieu à un jugement supérieur aux actifs de l’entreprise. Qu’arrive-t-il à la maison et aux économies personnelles de la consultante?
+
+**Étudiant :** D’après cette leçon, comme il n’y a aucune séparation juridique entre l’entreprise et la propriétaire, les biens personnels de la consultante pourraient être exposés pour satisfaire ce jugement.
+
+**Guide :** Une autre structure d’entreprise aurait-elle changé ce résultat?
+
+**Étudiant :** Possiblement — une structure offrant une véritable séparation de responsabilité aurait pu protéger ses biens personnels contre un jugement lié à l’entreprise, ce que ne fait pas une entreprise individuelle.
+
+**Guide :** Exactement — c’est le compromis juridique fondamental qui consiste à choisir la simplicité plutôt que la protection contre la responsabilité.
 
 ## Quiz pratique
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Question 1.** Sur le plan juridique, une entreprise individuelle est :
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+A) Une entité complètement distincte de son propriétaire
+B) La même entité que son propriétaire, sans séparation de responsabilité
+C) Toujours la structure la plus protectrice
+D) Accessible seulement aux grandes sociétés
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Question 2.** Si une entreprise individuelle est poursuivie, quels biens sont potentiellement exposés?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+A) Seulement les biens de l’entreprise, jamais les biens personnels
+B) À la fois les biens de l’entreprise et les biens personnels, puisqu’il n’y a aucune séparation juridique
+C) Aucun bien n’est jamais à risque
+D) Seulement les biens des associés
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Question 3.** La simplicité d’une entreprise individuelle a quel type de coût?
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+A) Aucun coût
+B) Un coût lié à la responsabilité juridique — l’absence de protection des biens personnels
+C) Seulement un coût fiscal
+D) Seulement un coût de marketing
+
+**Question 4.** La discussion de cette leçon sur la responsabilité est distincte de la façon dont quel volet précédent a traité l’entreprise individuelle?
+
+A) La discussion du volet RED
+B) La discussion du volet GREEN, axée sur la fiscalité
+C) La discussion du volet WHITE
+D) Aucun volet précédent n’en a parlé
 
 ## Corrigé
 
-1. B, 2. A, 3. C
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**1.** Sur le plan juridique, aucune distinction n’est faite entre l’entreprise et la personne qui l’exploite.
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**2.** Sans protection contre la responsabilité, les biens personnels sont directement exposés au même titre que les biens de l’entreprise.
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**3.** La simplicité se fait au détriment de la protection juridique, un coût distinct de la simplicité fiscale abordée ailleurs.
+
+**4.** Cette leçon ajoute délibérément l’angle de la responsabilité que le traitement fiscal du volet GREEN ne couvrait pas.
 
 ## Points clés
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+- Une entreprise individuelle n’offre aucune séparation juridique entre l’entreprise et le propriétaire.
+- Cela signifie que les biens personnels sont directement exposés aux réclamations juridiques liées à l’entreprise.
+- La simplicité comporte un réel coût lié à la responsabilité juridique.
+- C’est une préoccupation distincte du traitement fiscal de l’entreprise individuelle présenté dans le volet GREEN.

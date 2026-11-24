@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-045
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 45
-title: "La Responsabilité Limitée Sous un Angle Juridique"
-summary: "La Responsabilité Limitée Sous un Angle Juridique"
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "La prescription : pourquoi les recours juridiques expirent"
+summary: "Présente la notion de prescription, en expliquant pourquoi les recours juridiques ne sont pas possibles indéfiniment et pourquoi c’est important tant pour intenter un recours que pour s’en défendre."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-045 : La Responsabilité Limitée Sous un Angle Juridique
 
-## Objectifs d'Apprentissage
-1. Revoir le concept général de responsabilité limitée sous un angle juridique.
-2. Identifier des circonstances où la protection de responsabilité limitée peut généralement être perdue.
-3. Expliquer le concept de « levée du voile corporatif ».
+# La prescription : pourquoi les recours juridiques expirent
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* La responsabilité limitée signifie généralement que les associés d'une entité juridique (comme une société à responsabilité limitée) ne sont pas personnellement responsables des dettes et obligations de l'entité, leur exposition étant généralement limitée à ce qu'ils ont investi dans l'entreprise.
+## Objectifs d’apprentissage
 
-*SUPPOSITION :* Les tribunaux peuvent parfois procéder à une « levée du voile corporatif » — ignorant la protection de responsabilité limitée et rendant les associés personnellement responsables —, généralement dans des circonstances où les associés n'ont pas traité l'entité comme véritablement distincte de leurs finances personnelles, ont commis une fraude, ou ont utilisé l'entité pour échapper à des obligations légales.
+- Définir le délai de prescription en termes simples.
+- Expliquer le raisonnement de politique général derrière la limitation dans le temps des recours juridiques.
+- Reconnaître la pertinence pratique pour les demandeurs comme pour les défendeurs potentiels.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un associé qui mélange systématiquement les fonds personnels et ceux de l'entreprise, ne tient pas de registres financiers séparés, et utilise le compte bancaire de l'entreprise comme s'il s'agissait de son propre portefeuille personnel pourrait courir le risque qu'un tribunal lève le voile corporatif si l'entreprise fait face à une action en justice par la suite — le tribunal pourrait déterminer que l'entité n'a jamais été traitée comme véritablement distincte de l'associé, et que la protection de responsabilité limitée ne devrait donc pas s'appliquer.
+## Contenu principal
 
-## Quiz Pratique
-1. Que signifie généralement la responsabilité limitée ?
-2. Qu'est-ce que la « levée du voile corporatif » ?
-3. Vrai/Faux : La protection de responsabilité limitée ne peut jamais être perdue, quelles que soient les circonstances.
-4. Nomme une circonstance pouvant généralement mener à la levée du voile corporatif.
+Un délai de prescription (en anglais *statute of limitations*) est un délai légal à l’intérieur duquel un recours doit être intenté, après quoi ce recours ne peut généralement plus être exercé devant les tribunaux, peu importe son bien-fondé. Différents types de recours (litiges contractuels, recours en responsabilité civile et autres) ont souvent des délais différents, et ces délais varient selon le territoire — il n’existe aucun chiffre universel à mémoriser, mais la notion sous-jacente s’applique largement. (En France, le délai de prescription de droit commun en matière civile est en principe de cinq ans, avec de nombreuses exceptions; vérifiez auprès d’un professionnel.)
+
+Le raisonnement de politique général est double : les preuves et les souvenirs se dégradent réellement avec le temps, ce qui rend les vieux recours plus difficiles à trancher équitablement, et il existe un réel intérêt social pour une stabilité définitive — permettre aux personnes et aux entreprises d’aller de l’avant sans être indéfiniment exposées à des recours remontant à un passé lointain. Cela compte en pratique des deux côtés : une personne qui a un grief légitime doit comprendre qu’il existe une véritable échéance pour agir, et non un temps illimité pour se décider; et une personne qui fait face à un recours potentiel devrait comprendre que des recours suffisamment anciens peuvent être entièrement prescrits, ce qui est un contexte pertinent (mais pas un substitut à un véritable avis juridique) pour évaluer son exposition réelle à un vieux litige.
+
+## Exemple pratique
+
+**Question :** Une personne découvre un litige contractuel légitime remontant à de nombreuses années et se demande si elle peut encore intenter une poursuite aujourd’hui. Que suggère cette leçon qu’elle vérifie d’abord?
+
+**Étudiant :** D’après cette leçon, elle devrait vérifier si le délai de prescription applicable à ce type de recours est déjà expiré, puisque les recours ne peuvent généralement plus être exercés après ce délai, peu importe leur bien-fondé.
+
+**Guide :** Pourquoi le seul bien-fondé du recours pourrait-il ne pas suffire à garantir qu’il puisse encore être exercé?
+
+**Étudiant :** Parce que la prescription existe précisément pour limiter les recours dans le temps, pour des raisons comme la dégradation des preuves et l’intérêt pour une stabilité définitive — alors même un recours tout à fait légitime peut devenir juridiquement impossible si trop de temps s’est écoulé.
+
+**Guide :** Exactement — le bien-fondé et la possibilité juridique d’agir sont deux questions distinctes.
+
+## Quiz pratique
+
+**Question 1.** Un délai de prescription est :
+
+A) Un droit permanent de poursuivre en tout temps
+B) Un délai légal à l’intérieur duquel un recours doit être intenté
+C) Une notion pertinente seulement dans les affaires pénales
+D) Le même dans tous les territoires et pour tous les types de recours
+
+**Question 2.** Le raisonnement de politique général derrière la limitation des recours dans le temps comprend :
+
+A) Il n’existe aucun raisonnement réel
+B) La dégradation des preuves avec le temps et l’intérêt pour une stabilité définitive
+C) Seulement la protection des défendeurs riches
+D) L’encouragement des litiges sans fin
+
+**Question 3.** Les différents types de recours ont-ils généralement le même délai?
+
+A) Oui, ils sont toujours identiques
+B) Non — les différents types de recours et les différents territoires ont souvent des délais différents
+C) Les délais n’ont aucun rapport avec le type de recours
+D) Aucun recours n’a de délai
+
+**Question 4.** Pourquoi est-ce important pour une personne qui fait face à un vieux recours potentiel?
+
+A) Cela n’a aucune pertinence pratique
+B) Des recours suffisamment anciens peuvent être entièrement prescrits, ce qui est un contexte pertinent pour évaluer son exposition
+C) Les vieux recours sont toujours automatiquement valides
+D) Cette leçon ne concerne que les demandeurs, jamais les défendeurs
 
 ## Corrigé
-1. Les associés ne sont pas personnellement responsables des dettes de l'entité   2. Lorsqu'un tribunal ignore la protection de responsabilité limitée et rend les associés personnellement responsables   3. Faux   4. Mélanger les fonds personnels et ceux de l'entreprise, ou commettre une fraude (entre autres)
 
-## Réponses et Explications
-1. Ceci est la définition générale de la responsabilité limitée.
-2. Ceci est la définition fondamentale de la levée du voile corporatif.
-3. La protection peut être perdue dans certaines circonstances, comme lors de la levée du voile corporatif.
-4. Ce sont des circonstances couramment citées pouvant mener à cette conséquence.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- La responsabilité limitée protège généralement les associés d'être personnellement responsables des dettes de l'entité.
-- Les tribunaux peuvent parfois lever le voile corporatif, supprimant cette protection.
-- Mélanger les fonds personnels et ceux de l'entreprise est une raison couramment citée pour cette conséquence.
+## Réponses et explications
+
+**1.** Ce mécanisme d’échéance légale est précisément ce qu’établit un délai de prescription.
+
+**2.** La dégradation des preuves et la valeur d’une stabilité définitive sont toutes deux citées comme la raison d’être de cette politique.
+
+**3.** La variation selon le type de recours et le territoire est explicitement soulignée, plutôt que de supposer un chiffre universel unique.
+
+**4.** C’est un contexte pratique et directement utile pour évaluer l’exposition réelle à un vieux litige, d’un côté comme de l’autre d’un recours potentiel.
+
+## Points clés
+
+- Un délai de prescription limite légalement le moment où un recours peut être intenté.
+- Cela reflète des préoccupations de politique quant à la dégradation des preuves et à la valeur d’une stabilité définitive.
+- Les délais varient selon le type de recours et le territoire — aucun chiffre unique ne s’applique universellement.
+- C’est important en pratique, tant pour les demandeurs que pour les défendeurs potentiels qui évaluent de vieux litiges.

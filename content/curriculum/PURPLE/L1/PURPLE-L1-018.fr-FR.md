@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-018
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 18
-title: "Mourir Sans Testament (Succession Ab Intestat)"
-summary: "Lorsque quelqu'un décède sans testament valide, ses biens sont généralement répartis selon les règles de « succession ab intestat » établies par la loi, plutôt que selon les souhaits personnels du défunt. SUPPOSITION : Ces règles suivent généralement un ordre prédéterminé de proches — commençant couramment par le conjoint et les enfants, puis s'étendant aux parents plus éloignés en l'absence de proches —, bien que l'ordre exact varie selon le système juridique."
-locale: "fr-FR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: fr-FR
+title: "Les notions de base du droit du travail : employé ou travailleur indépendant, sur le plan juridique"
+summary: "Revient sur la distinction entre employé et travailleur indépendant du volet GREEN, précisément sous l’angle de la responsabilité en droit du travail, en présentant les conséquences juridiques d’une mauvaise classification."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-018 : Mourir Sans Testament (Succession Ab Intestat)
 
-## Objectifs d'Apprentissage
-1. Définir la succession ab intestat en termes simples.
-2. Expliquer ce qui advient généralement des biens d'une personne décédée sans testament.
-3. Identifier pourquoi les règles de succession ab intestat varient selon le système juridique.
+# Les notions de base du droit du travail : employé ou travailleur indépendant, sur le plan juridique
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Les règles précises de succession ab intestat varient significativement selon le pays et la région ; cette leçon décrit uniquement le concept général.
+## Objectifs d’apprentissage
 
-Lorsque quelqu'un décède sans testament valide, ses biens sont généralement répartis selon les règles de « succession ab intestat » établies par la loi, plutôt que selon les souhaits personnels du défunt. *SUPPOSITION :* Ces règles suivent généralement un ordre prédéterminé de proches — commençant couramment par le conjoint et les enfants, puis s'étendant aux parents plus éloignés en l'absence de proches —, bien que l'ordre exact varie selon le système juridique.
+- Rappeler la distinction entre employé et travailleur indépendant vue dans le volet GREEN.
+- Expliquer les conséquences juridiques supplémentaires (non fiscales) d’une mauvaise classification.
+- Reconnaître le droit du travail comme un domaine de risque distinct de la mauvaise classification fiscale.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Si une personne décède sans testament en laissant un conjoint et deux enfants, les règles de succession ab intestat dans de nombreux systèmes juridiques répartiraient généralement les biens entre eux selon une formule prédéterminée — mais cette formule ne refléterait pas nécessairement ce que la personne décédée aurait spécifiquement voulu, comme laisser davantage à un enfant ayant des besoins particuliers. Ceci illustre pourquoi beaucoup préfèrent rédiger un testament plutôt que de s'en remettre aux règles par défaut.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la succession ab intestat ?
-2. Qu'advient-il généralement des biens de quelqu'un décédé sans testament ?
-3. Vrai/Faux : Les règles de succession ab intestat sont identiques dans tous les systèmes juridiques.
-4. Pourquoi quelqu'un pourrait-il préférer rédiger un testament plutôt que de s'en remettre à la succession ab intestat ?
+Le volet GREEN a présenté la distinction entre employé et travailleur indépendant surtout sous un angle fiscal : une mauvaise classification risque d’entraîner des arriérés d’impôts, des pénalités et des intérêts. Cette leçon ajoute la dimension du droit du travail : classer à tort un travailleur a aussi des conséquences juridiques entièrement distinctes des impôts — notamment une exposition à des réclamations pour des heures supplémentaires impayées, des violations du salaire minimum, des avantages refusés que le travailleur aurait dû recevoir et des protections au travail qui s’appliquent aux employés, mais pas aux véritables travailleurs indépendants. (En France, ces protections relèvent surtout du Code du travail; vérifiez les règles applicables auprès d’un professionnel.)
+
+Dans le contexte du droit du travail, le critère de classification tient souvent compte de facteurs semblables à ceux du critère fiscal — le degré de contrôle sur la façon, le moment et l’endroit où le travail est fait —, mais les conséquences d’une erreur se déroulent sur deux voies distinctes en même temps : une décision d’une autorité fiscale et une réclamation en matière de travail ou d’emploi peuvent toutes deux découler exactement de la même mauvaise classification, ce qui alourdit l’exposition totale. C’est un exemple clair de la façon dont une seule décision d’affaires — la façon de classer un travailleur — peut créer une responsabilité dans plusieurs domaines du droit entièrement différents à la fois, ce qui confirme que cette décision mérite une attention soignée, et souvent professionnelle.
+
+## Exemple pratique
+
+**Question :** Une entreprise classe à tort plusieurs travailleurs comme travailleurs indépendants alors qu’ils devraient légalement être des employés. Au-delà des conséquences fiscales vues dans le volet GREEN, quelle exposition juridique supplémentaire cette leçon relève-t-elle?
+
+**Étudiant :** D’après cette leçon, il y a aussi une exposition en droit du travail — des réclamations pour des heures supplémentaires impayées, des violations du salaire minimum et des avantages ou des protections au travail refusés que ces travailleurs auraient dû recevoir en tant qu’employés.
+
+**Guide :** Quel est le lien entre ces deux types d’exposition — fiscale et en droit du travail?
+
+**Étudiant :** Elles peuvent toutes deux découler exactement de la même décision de mauvaise classification et se dérouler sur des voies distinctes en même temps, ce qui alourdit le risque total au-delà des seules conséquences fiscales.
+
+**Guide :** Exactement — une seule décision, plusieurs domaines d’exposition juridique simultanés.
+
+## Quiz pratique
+
+**Question 1.** Sous quel angle le volet GREEN a-t-il surtout présenté la mauvaise classification des travailleurs?
+
+A) Le droit du travail
+B) La fiscalité
+C) Le droit immobilier
+D) Le droit des valeurs mobilières
+
+**Question 2.** Quelle conséquence supplémentaire d’une mauvaise classification cette leçon ajoute-t-elle?
+
+A) Il n’existe aucune conséquence supplémentaire
+B) Une exposition en droit du travail — heures supplémentaires impayées, salaire minimum, avantages refusés, protections au travail
+C) Seulement des pénalités fiscales supplémentaires
+D) Seulement une exposition pénale
+
+**Question 3.** Des réclamations fiscales et en droit du travail peuvent-elles découler simultanément de la même mauvaise classification?
+
+A) Non, une seule peut s’appliquer
+B) Oui — les deux peuvent découler exactement de la même décision, ce qui alourdit l’exposition totale
+C) Les réclamations en droit du travail ne portent jamais sur la classification
+D) Ces deux domaines n’ont aucun lien
+
+**Question 4.** Qu’est-ce que cela illustre au sujet d’une seule décision d’affaires comme la classification des travailleurs?
+
+A) Elle ne crée jamais qu’un seul type de risque
+B) Une seule décision peut créer une responsabilité dans plusieurs domaines du droit entièrement différents à la fois
+C) Les décisions de classification n’ont aucun poids juridique réel
+D) Seules les grandes entreprises font face à ce risque
 
 ## Corrigé
-1. Le processus juridique par défaut de répartition des biens de quelqu'un décédé sans testament   2. Ils sont répartis selon des règles légales prédéterminées, pas selon des souhaits personnels   3. Faux   4. Les règles par défaut ne reflètent pas nécessairement les souhaits précis de la personne
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la succession ab intestat.
-2. Ceci est la conséquence générale du décès sans testament valide.
-3. Les règles de succession ab intestat varient significativement selon le système juridique.
-4. Un testament permet des décisions précises que les règles générales par défaut ne peuvent pas saisir.
+1. B, 2. B, 3. B, 4. B
 
-## Points Clés à Retenir
-- La succession ab intestat est le processus juridique par défaut lorsque quelqu'un décède sans testament.
-- Les biens sont répartis selon des règles prédéterminées, pas selon des souhaits personnels précis.
-- Les règles exactes varient significativement selon le pays et la région.
+## Réponses et explications
+
+**1.** Le traitement du volet GREEN portait sur les conséquences liées aux retenues et aux paiements d’impôts.
+
+**2.** Cette leçon nomme explicitement les risques parallèles en droit du travail, qui existent indépendamment de l’exposition fiscale.
+
+**3.** L’exposition cumulative et simultanée dans deux domaines du droit est le point clé que cette leçon ajoute à la discussion antérieure.
+
+**4.** C’est une illustration claire et concrète de la façon dont une seule décision de classification peut toucher plusieurs domaines juridiques à la fois.
+
+## Points clés
+
+- Le volet GREEN a présenté les conséquences fiscales d’une mauvaise classification; cette leçon ajoute les conséquences en droit du travail.
+- Une mauvaise classification peut entraîner des réclamations pour des heures supplémentaires impayées, le salaire minimum et des avantages refusés.
+- Une exposition fiscale et une exposition en droit du travail peuvent toutes deux découler simultanément de la même mauvaise classification.
+- C’est un exemple clair d’une seule décision qui crée une responsabilité dans plusieurs domaines du droit à la fois.
