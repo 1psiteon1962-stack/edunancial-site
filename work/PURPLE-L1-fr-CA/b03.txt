@@ -1,0 +1,319 @@
+===== PURPLE-L1-009
+TITLE: Droit civil ou droit criminel : pourquoi la distinction est importante
+SUMMARY: Clarifie la distinction fondamentale entre le droit civil et le droit criminel, et explique pourquoi ce programme porte presque entièrement sur le volet civil.
+# Droit civil ou droit criminel : pourquoi la distinction est importante
+
+## Objectifs d’apprentissage
+
+- Distinguer le droit civil du droit criminel.
+- Expliquer les conséquences et le fardeau de la preuve différents qui s’appliquent.
+- Reconnaître pourquoi la portée du volet PURPLE est surtout civile, et non criminelle.
+
+## Contenu principal
+
+Le droit civil régit les litiges entre des parties privées — inexécution de contrats, délits civils, litiges immobiliers —, où le recours habituel est de l’argent ou une ordonnance du tribunal, et non l’emprisonnement. Le droit criminel régit les infractions contre la société elle-même, poursuivies par l’État, où la conséquence possible comprend des amendes et l’emprisonnement. Les deux systèmes diffèrent aussi quant au fardeau de la preuve : les affaires criminelles exigent une preuve « hors de tout doute raisonnable », une norme très élevée, alors que les affaires civiles utilisent habituellement une norme moins élevée, souvent la « prépondérance des probabilités » (plus probable qu’improbable). (Au Canada, ces mêmes normes s’appliquent de façon générale; au Québec, on parle aussi de « prépondérance de la preuve » en matière civile.)
+
+Presque tout ce qui est présenté dans ce volet PURPLE — les contrats, le droit des biens, la réglementation des valeurs mobilières, les structures d’entreprise — se situe du côté civil de cette distinction. C’est voulu : les risques juridiques les plus directement liés à la création de patrimoine par l’immobilier, le placement et l’entreprise sont des risques civils (être poursuivi, perdre une transaction, subir des sanctions réglementaires), et non des risques criminels. Le droit criminel est important, mais c’est un domaine différent et plus spécialisé, et une exposition criminelle grave est exactement le genre de situation qui exige une représentation juridique immédiate et dédiée plutôt qu’une littératie générale.
+
+## Exemple pratique
+
+**Question :** Un propriétaire d’entreprise est poursuivi par un ancien client au sujet d’un litige contractuel. S’agit-il d’une affaire civile ou criminelle, et pourquoi la distinction est-elle importante en pratique?
+
+**Étudiant :** D’après cette leçon, c’est une affaire civile — un litige privé au sujet d’un contrat, et non une infraction poursuivie par l’État.
+
+**Guide :** En quoi cela change-t-il ce qui est réellement en jeu pour le propriétaire d’entreprise?
+
+**Étudiant :** La conséquence habituelle serait de l’argent ou une ordonnance du tribunal, et non l’emprisonnement, et le fardeau de la preuve que le client devrait respecter est moins élevé que la norme « hors de tout doute raisonnable » d’une affaire criminelle.
+
+**Guide :** Exactement — comprendre dans quel système on se trouve change ce qui est réalistement en jeu et la norme qui s’applique.
+
+## Quiz pratique
+
+**Question 1.** Le droit civil régit généralement :
+
+A) Les infractions contre la société, poursuivies par l’État
+B) Les litiges entre des parties privées, habituellement réglés par de l’argent ou des ordonnances du tribunal
+C) Seulement les affaires criminelles
+D) Aucun véritable litige juridique
+
+**Question 2.** Le fardeau de la preuve en droit criminel est habituellement :
+
+A) Moins élevé que la norme du droit civil
+B) « Hors de tout doute raisonnable », une norme très élevée
+C) Identique à la norme du droit civil
+D) Inapplicable dans tout système juridique
+
+**Question 3.** La majeure partie de ce que présente le volet PURPLE relève :
+
+A) Du droit criminel
+B) Du droit civil
+C) Ni du droit civil ni du droit criminel
+D) Seulement du droit international
+
+**Question 4.** Pourquoi ce volet porte-t-il surtout sur le droit civil?
+
+A) Le droit criminel ne concerne personne
+B) Les risques juridiques les plus pertinents pour la création de patrimoine dans les volets RED, WHITE et BLUE sont des risques civils
+C) Le droit civil n’existe pas réellement
+D) Aucune raison valable n’est donnée
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Le droit civil traite des litiges privés, avec des recours habituellement limités à de l’argent ou à des ordonnances du tribunal, et non à l’incarcération.
+
+**2.** La norme plus exigeante du droit criminel reflète la gravité des conséquences possibles, y compris la perte de liberté.
+
+**3.** Les contrats, les biens, les valeurs mobilières et les structures d’entreprise — le contenu central de ce volet — sont tous des sujets de droit civil.
+
+**4.** Comme c’est le risque civil qui menace le plus directement les activités de création de patrimoine, c’est là que doit se concentrer la littératie de ce volet.
+
+## Points clés
+
+- Le droit civil régit les litiges privés; le droit criminel régit les infractions contre la société.
+- Le fardeau de la preuve en droit criminel est beaucoup plus élevé qu’en droit civil.
+- Le volet PURPLE porte presque entièrement sur le droit civil, directement pertinent pour les volets RED, WHITE et BLUE.
+- Une exposition criminelle grave exige une représentation juridique dédiée et immédiate, au-delà de la portée de ce volet.
+
+===== PURPLE-L1-010
+TITLE: L’analogie du médecin, revisitée : quand faire appel à un avocat
+SUMMARY: Applique l’analogie du médecin, déjà établie dans le programme, aux situations juridiques, afin de donner aux apprenants des signaux concrets indiquant quand une aide juridique professionnelle s’impose.
+# L’analogie du médecin, revisitée : quand faire appel à un avocat
+
+## Objectifs d’apprentissage
+
+- Rappeler l’analogie du médecin et l’appliquer précisément aux décisions juridiques.
+- Repérer des signaux concrets indiquant qu’une situation exige un avocat.
+- Renforcer l’idée que la littératie juridique et la représentation juridique sont complémentaires, et non interchangeables.
+
+## Contenu principal
+
+Ce programme a souvent utilisé l’analogie du médecin : lorsqu’une situation est complexe, à enjeux élevés ou incertaine, les honoraires d’un professionnel sont une assurance contre une perte beaucoup plus grande, et pas seulement un coût à éviter. Cela ne s’applique nulle part plus directement qu’en droit. Les erreurs juridiques — un contrat mal rédigé, une obligation de divulgation oubliée, une entité commerciale mal constituée — peuvent coûter extrêmement cher à corriger après coup, bien plus que ce qu’il en aurait coûté de bien faire les choses dès le départ.
+
+Les signaux concrets qu’une situation exige un avocat (ou, au Québec, selon le cas, un notaire) comprennent : toute transaction qui implique une somme importante (un achat immobilier, la vente d’une entreprise), tout document que vous ne comprenez pas entièrement avant de le signer, la constitution ou la restructuration d’une entité commerciale, un véritable litige ou une poursuite, et toute situation où l’approche « habituelle » ne correspond pas tout à fait à vos faits précis. Comme dans les leçons précédentes sur ce thème, le but du volet PURPLE n’est pas de faire de vous votre propre avocat — c’est de faire de vous un client plus averti et mieux informé, quelqu’un qui peut poser de meilleures questions, comprendre les conseils reçus et reconnaître tôt qu’une situation est passée en territoire d’aide professionnelle.
+
+## Exemple pratique
+
+**Question :** Une personne rédige elle-même son contrat d’achat immobilier à l’aide d’un modèle trouvé en ligne, pour l’achat d’une propriété de plusieurs centaines de milliers de dollars, sans aucune révision juridique. Que suggère cette leçon au sujet de cette approche?
+
+**Étudiant :** D’après cette leçon, une transaction impliquant une somme aussi importante est exactement le genre de situation qui exige une révision juridique professionnelle, et pas seulement un modèle générique.
+
+**Guide :** Quelle est la véritable comparaison de coûts dont il est question ici?
+
+**Étudiant :** Le coût d’une révision par un avocat au départ, par rapport au coût possiblement beaucoup plus élevé d’une erreur juridique découverte plus tard, une fois que de l’argent réel et une propriété réelle sont déjà en jeu.
+
+**Guide :** Exactement — c’est l’analogie du médecin appliquée directement à cette situation.
+
+## Quiz pratique
+
+**Question 1.** Appliquée au droit, l’analogie du médecin suggère :
+
+A) De ne jamais engager d’avocat
+B) Que les honoraires d’un avocat sont une assurance contre une perte possiblement beaucoup plus grande
+C) Que seules les personnes riches ont besoin d’avocats
+D) Que les erreurs juridiques sont toujours peu coûteuses à corriger
+
+**Question 2.** Un signal concret qu’une situation exige un avocat comprend :
+
+A) Toute transaction qui implique une somme importante
+B) Rien — les avocats ne sont jamais nécessaires
+C) Seulement les affaires criminelles
+D) Seulement les litiges déjà rendus devant les tribunaux
+
+**Question 3.** Selon cette leçon, quel est l’objectif déclaré du volet PURPLE?
+
+A) Faire de l’apprenant son propre avocat
+B) Faire de l’apprenant un client plus averti et mieux informé
+C) Éliminer complètement le besoin d’avocats
+D) Enseigner seulement le droit criminel
+
+**Question 4.** Le cadre de cette leçon fait écho à quel thème antérieur du programme?
+
+A) La révélation des systèmes
+B) L’analogie du médecin
+C) La relativité de la réussite
+D) Le paradoxe du choix
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La logique de base de l’assurance contre une perte plus grande s’applique particulièrement fortement au risque juridique, compte tenu du coût élevé que peuvent avoir les erreurs.
+
+**2.** Les transactions financières importantes sont explicitement nommées comme un déclencheur clair d’une révision juridique professionnelle.
+
+**3.** La littératie et un comportement de client averti, et non la pratique du droit par soi-même, sont l’objectif explicite énoncé tout au long de ce volet.
+
+**4.** Il s’agit d’une reprise directe et explicite de l’analogie du médecin établie plus tôt dans le programme, appliquée précisément aux décisions juridiques.
+
+## Points clés
+
+- L’analogie du médecin s’applique directement au droit : les honoraires professionnels sont une assurance contre une perte plus grande.
+- Les transactions importantes, les documents inconnus, la constitution d’une entité et les litiges sont tous des signaux clairs qu’il faut appeler un avocat.
+- Le volet PURPLE vise à faire de vous un client plus averti et mieux informé, et non à remplacer la représentation juridique.
+- Cette leçon clôt la section fondamentale avant que le volet aborde les sujets juridiques propres aux volets RED, WHITE et BLUE.
+
+===== PURPLE-L1-011
+TITLE: Les structures d’entreprise revisitées : un regard juridique
+SUMMARY: Revient sur la notion de structure d’entreprise des volets BLUE et GREEN sous un angle précisément juridique : l’exposition à la responsabilité plutôt que le traitement fiscal.
+# Les structures d’entreprise revisitées : un regard juridique
+
+## Objectifs d’apprentissage
+
+- Rappeler les structures d’entreprise vues dans les volets précédents.
+- Recadrer le choix de la structure autour de la responsabilité juridique plutôt que du traitement fiscal.
+- Donner un aperçu des prochaines leçons, qui examinent l’exposition juridique de chaque structure.
+
+## Contenu principal
+
+Les volets précédents ont présenté les structures d’entreprise sous un angle fiscal (GREEN) et sous un angle opérationnel (BLUE). Cette section ajoute un troisième regard, essentiel : la responsabilité juridique. La structure qu’utilise une entreprise n’influe pas seulement sur la façon dont elle est imposée — elle détermine fondamentalement qui est personnellement responsable si l’entreprise est poursuivie, ne rembourse pas une dette ou fait autrement face à une réclamation juridique.
+
+Cette distinction compte parce que la « meilleure » structure sur le plan fiscal et la « meilleure » structure sur le plan de la protection contre la responsabilité ne sont pas toujours le même choix, et les propriétaires d’entreprise découvrent parfois cet écart seulement après qu’un problème est survenu — alors qu’il est trop tard pour le corriger. Les prochaines leçons passent en revue l’entreprise individuelle, la LLC, la société par actions et la société de personnes précisément sous l’angle de la responsabilité juridique, pour bâtir un portrait plus complet de ce que signifie réellement « choisir une structure d’entreprise » lorsqu’on considère ensemble la fiscalité, l’exploitation et l’exposition juridique.
+
+## Exemple pratique
+
+**Question :** Un propriétaire d’entreprise a choisi sa structure uniquement selon celle qui semblait la plus simple à mettre en place, sans du tout tenir compte de l’exposition à la responsabilité. Quel écart cette leçon laisse-t-elle croire que cette décision pourrait comporter?
+
+**Étudiant :** D’après cette leçon, il a peut-être négligé le degré de protection de sa responsabilité personnelle qu’offre réellement cette structure, une question distincte de la simplicité ou du traitement fiscal.
+
+**Guide :** Pourquoi cet écart pourrait-il ne devenir évident que plus tard, plutôt qu’au moment de la décision?
+
+**Étudiant :** Parce que la protection contre la responsabilité n’est vraiment mise à l’épreuve que si quelque chose tourne mal — une poursuite ou un défaut de remboursement d’une dette de l’entreprise —, ce qui pourrait ne se produire que bien après le choix de la structure.
+
+**Guide :** Exactement — c’est pourquoi il est plus important de comprendre cela dès le départ que de le découvrir sous pression.
+
+## Quiz pratique
+
+**Question 1.** Quel regard cette leçon ajoute-t-elle à la discussion sur les structures d’entreprise?
+
+A) La stratégie de marketing
+B) La responsabilité juridique
+C) Le moral des employés
+D) L’emplacement du bureau
+
+**Question 2.** La « meilleure » structure sur le plan fiscal est :
+
+A) Toujours identique à la meilleure structure pour la protection contre la responsabilité
+B) Pas toujours la même que la meilleure structure pour la protection contre la responsabilité
+C) Sans lien avec la responsabilité
+D) La seule considération qui compte
+
+**Question 3.** Qu’est-ce qui détermine qui est personnellement responsable si une entreprise est poursuivie ou ne rembourse pas une dette?
+
+A) Le budget de marketing de l’entreprise
+B) La structure juridique qu’utilise l’entreprise
+C) Le seul statut fiscal de l’entreprise
+D) Rien — c’est le hasard
+
+**Question 4.** Que présentent les prochaines leçons de cette section?
+
+A) Seulement les taux d’imposition
+B) L’entreprise individuelle, la LLC, la société par actions et la société de personnes, sous l’angle de la responsabilité
+C) Seulement la stratégie de marketing
+D) Seulement le droit immobilier
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La responsabilité juridique est l’angle nouveau et précis que cette section ajoute aux perspectives fiscale et opérationnelle antérieures.
+
+**2.** L’efficacité fiscale et la protection contre la responsabilité sont des dimensions distinctes qui ne vont pas toujours de pair dans le même choix de structure.
+
+**3.** Le choix de la structure est le principal facteur juridique qui détermine l’exposition personnelle aux risques de l’entreprise.
+
+**4.** Cette section passe systématiquement en revue chaque grand type de structure, précisément sous l’angle de la responsabilité.
+
+## Points clés
+
+- La structure d’entreprise détermine l’exposition à la responsabilité juridique, une question distincte du traitement fiscal.
+- La structure optimale sur le plan fiscal et celle qui l’est sur le plan de la responsabilité ne sont pas toujours le même choix.
+- Cet écart ne devient souvent apparent qu’après qu’un problème est survenu, d’où l’importance de le comprendre dès le départ.
+- Les prochaines leçons examinent chaque grand type de structure sous cet angle précis de la responsabilité.
+
+===== PURPLE-L1-012
+TITLE: L’entreprise individuelle : l’exposition juridique de la structure la plus simple
+SUMMARY: Explique les conséquences, sur le plan de la responsabilité juridique, de l’exploitation d’une entreprise individuelle — la structure par défaut, la plus simple et la moins protectrice.
+# L’entreprise individuelle : l’exposition juridique de la structure la plus simple
+
+## Objectifs d’apprentissage
+
+- Définir l’entreprise individuelle sur le plan juridique.
+- Expliquer pourquoi elle n’offre aucune séparation entre la responsabilité de l’entreprise et la responsabilité personnelle.
+- Reconnaître le risque pratique que cela crée.
+
+## Contenu principal
+
+L’entreprise individuelle est la structure par défaut d’une entreprise appartenant à une seule personne, sans immatriculation officielle d’une entité distincte — sur le plan juridique, l’entreprise et le propriétaire sont traités comme une seule et même entité. C’est la structure la plus simple pour démarrer (souvent sans aucune formalité officielle, même si certaines inscriptions peuvent être exigées selon la province), mais elle comporte un compromis juridique essentiel : il n’existe aucune séparation de responsabilité entre l’entreprise et les biens personnels du propriétaire.
+
+Cela signifie que si l’entreprise est poursuivie, ne rembourse pas une dette ou fait autrement face à une réclamation juridique, les biens personnels du propriétaire — sa maison, ses économies personnelles, ses biens personnels — sont directement exposés, et pas seulement ce que possède l’entreprise elle-même. C’est un risque juridique important que bien des nouveaux propriétaires d’entreprise ne mesurent pas pleinement lorsqu’ils commencent à exploiter de façon informelle sans mettre en place une structure plus protectrice. La simplicité a ici un coût réel, et c’est précisément un coût juridique, lié à la responsabilité, distinct de la simplicité fiscale présentée dans le volet GREEN.
+
+## Exemple pratique
+
+**Question :** Une consultante pigiste exploite une entreprise individuelle et est poursuivie par un client au sujet d’un différend, ce qui donne lieu à un jugement supérieur aux actifs de l’entreprise. Qu’arrive-t-il à la maison et aux économies personnelles de la consultante?
+
+**Étudiant :** D’après cette leçon, comme il n’y a aucune séparation juridique entre l’entreprise et la propriétaire, les biens personnels de la consultante pourraient être exposés pour satisfaire ce jugement.
+
+**Guide :** Une autre structure d’entreprise aurait-elle changé ce résultat?
+
+**Étudiant :** Possiblement — une structure offrant une véritable séparation de responsabilité aurait pu protéger ses biens personnels contre un jugement lié à l’entreprise, ce que ne fait pas une entreprise individuelle.
+
+**Guide :** Exactement — c’est le compromis juridique fondamental qui consiste à choisir la simplicité plutôt que la protection contre la responsabilité.
+
+## Quiz pratique
+
+**Question 1.** Sur le plan juridique, une entreprise individuelle est :
+
+A) Une entité complètement distincte de son propriétaire
+B) La même entité que son propriétaire, sans séparation de responsabilité
+C) Toujours la structure la plus protectrice
+D) Accessible seulement aux grandes sociétés
+
+**Question 2.** Si une entreprise individuelle est poursuivie, quels biens sont potentiellement exposés?
+
+A) Seulement les biens de l’entreprise, jamais les biens personnels
+B) À la fois les biens de l’entreprise et les biens personnels, puisqu’il n’y a aucune séparation juridique
+C) Aucun bien n’est jamais à risque
+D) Seulement les biens des associés
+
+**Question 3.** La simplicité d’une entreprise individuelle a quel type de coût?
+
+A) Aucun coût
+B) Un coût lié à la responsabilité juridique — l’absence de protection des biens personnels
+C) Seulement un coût fiscal
+D) Seulement un coût de marketing
+
+**Question 4.** La discussion de cette leçon sur la responsabilité est distincte de la façon dont quel volet précédent a traité l’entreprise individuelle?
+
+A) La discussion du volet RED
+B) La discussion du volet GREEN, axée sur la fiscalité
+C) La discussion du volet WHITE
+D) Aucun volet précédent n’en a parlé
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Sur le plan juridique, aucune distinction n’est faite entre l’entreprise et la personne qui l’exploite.
+
+**2.** Sans protection contre la responsabilité, les biens personnels sont directement exposés au même titre que les biens de l’entreprise.
+
+**3.** La simplicité se fait au détriment de la protection juridique, un coût distinct de la simplicité fiscale abordée ailleurs.
+
+**4.** Cette leçon ajoute délibérément l’angle de la responsabilité que le traitement fiscal du volet GREEN ne couvrait pas.
+
+## Points clés
+
+- Une entreprise individuelle n’offre aucune séparation juridique entre l’entreprise et le propriétaire.
+- Cela signifie que les biens personnels sont directement exposés aux réclamations juridiques liées à l’entreprise.
+- La simplicité comporte un réel coût lié à la responsabilité juridique.
+- C’est une préoccupation distincte du traitement fiscal de l’entreprise individuelle présenté dans le volet GREEN.
