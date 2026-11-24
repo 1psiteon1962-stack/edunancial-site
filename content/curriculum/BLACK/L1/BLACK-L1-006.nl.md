@@ -4,156 +4,53 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 6
-title: "6. Verantwoordelijkheid nemen als leiderschapseigenschap"
-summary: "Deze les leert de student eigenaarschap van resultaat en fouten. De kern bestaat uit duidelijke verwachtingen, bevoegdheid, rapportage, herstelacties en leren zonder schuldspel. Het doel is niet een slogan over leiderschap te onthouden, maar een situatie te kunnen ontleden, een verdedigbare keuze te maken, de economische en menselijke gevolgen te zien en achteraf te toetsen of de keuze werkte."
-locale: "nl"
+locale: nl
+title: "Verantwoordelijkheid nemen als leiderschapseigenschap"
+summary: "Legt uit waarom verantwoordelijkheid nemen voor resultaten, ook voor mislukkingen, centraal staat in het verdienen van vertrouwen als leider."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# 6. Verantwoordelijkheid nemen als leiderschapseigenschap
 
-### BLACK-L1-006-MAIN
-## Samenvatting
-Deze les leert de student **eigenaarschap van resultaat en fouten**. De kern bestaat uit duidelijke verwachtingen, bevoegdheid, rapportage, herstelacties en leren zonder schuldspel. Het doel is niet een slogan over leiderschap te onthouden, maar een situatie te kunnen ontleden, een verdedigbare keuze te maken, de economische en menselijke gevolgen te zien en achteraf te toetsen of de keuze werkte.
+# Verantwoordelijkheid nemen als leiderschapseigenschap
 
 ## Leerdoelen
-- **Financiële geletterdheid:** herkennen welke middelen, kosten, opbrengsten of risico’s door dit onderwerp worden geraakt.
-- **Financiële competentie:** een eenvoudige economische consequentie kunnen berekenen of beschrijven.
-- **Beter oordeel:** feiten, aannames, belangen en onzekerheden uit elkaar houden.
-- **Betere beslissingen:** een keuze koppelen aan eigenaar, termijn, maatstaf en herzieningsmoment.
-- **Vermogensopbouw:** begrijpen hoe herhaalbare goede leiding kapitaal, reputatie en toekomstige verdiencapaciteit beschermt.
+- Verantwoordelijkheid nemen definiëren in een leiderschapscontext
+- Uitleggen waarom het afschuiven van schuld het vertrouwen op lange termijn schaadt
+- Oefenen met het beschrijven van een tegenslag in verantwoordelijke taal
 
-## Vereiste voorkennis
-Geen formele managementopleiding vereist. Basisrekenen en bereidheid om aannames te toetsen zijn voldoende.
+## Kerninhoud
 
-## Hoofdles
-### 1. Het specifieke leiderschapsvraagstuk
-Bij **verantwoordelijkheid nemen als leiderschapseigenschap** draait het om eigenaarschap van resultaat en fouten. Een leider moet daarom expliciet kijken naar duidelijke verwachtingen, bevoegdheid, rapportage, herstelacties en leren zonder schuldspel. Een zwakke aanpak vertrouwt op intuïtie zonder criteria; een sterke aanpak maakt zichtbaar wat succes betekent en welke informatie nodig is.
+Verantwoordelijkheid nemen betekent dat je instaat voor de uitkomsten van beslissingen die je hebt genomen of beïnvloed, ook de slechte, zonder de schuld af te schuiven op omstandigheden of andere mensen. Het is een van de snelste manieren om als leider vertrouwen op te bouwen of te vernietigen.
 
-### 2. Diagnose
-Schrijf eerst het gewenste resultaat op. Noteer vervolgens wat aantoonbaar waar is, wat slechts wordt aangenomen, wie gevolgen ondervindt en welke beperkingen gelden. Zoek ten minste één gegeven dat jouw eerste verklaring zou kunnen tegenspreken. Zo voorkom je dat de oplossing wordt gekozen voordat het probleem goed is gedefinieerd.
+Als er iets misgaat, is het verleidelijk om het weg te verklaren: de markt veranderde, een collega liet het afweten, de timing was slecht. Soms is dat zelfs waar. Maar een leider die elke mislukking stelselmatig wegverklaart, leert zijn team hem niet meer te geloven, omdat niemand ooit "dat lag aan mij" hoort.
 
-### 3. Economische dimensie
-[GEVERIFIEERD PRINCIPE] Leiderschapskeuzes gebruiken schaarse middelen: tijd, geld, aandacht en capaciteit. Breng daarom directe kosten, tijdskosten, gemiste alternatieven, mogelijke opbrengsten, kasimpact en neerwaarts risico in kaart. Bij deze les moet die analyse specifiek worden verbonden met **eigenaarschap van resultaat en fouten**.
+Verantwoordelijkheid nemen betekent niet jezelf de schuld geven of echte externe factoren negeren. Het betekent vooroplopen met eigenaarschap: benoemen wat je zelf anders had kunnen doen, ook als andere factoren meespeelden, en het gesprek richten op wat er nu gebeurt in plaats van op wie de schuld heeft.
 
-### 4. Beslissen en uitvoeren
-Formuleer minimaal twee reële opties. Vergelijk ze op verwacht resultaat, totale middelen, risico, omkeerbaarheid en snelheid. Kies vervolgens één route en leg vast: wie eigenaar is, welke bevoegdheid die persoon heeft, welke deadline geldt en welk resultaat wordt gemeten.
+## Praktijkvoorbeeld
 
-### 5. Leren na uitvoering
-Bepaal vooraf een herzieningsdatum. Vergelijk dan verwachting met werkelijkheid. Een afwijking is informatie: bepaal of de aanname, uitvoering, capaciteit of maatstaf verkeerd was. Pas het systeem aan zodat dezelfde les niet telkens opnieuw hoeft te worden geleerd.
+Een project haalt de deadline niet. Een reactie zonder verantwoordelijkheid: "De klant bleef de eisen veranderen, en het team was traag." Een verantwoordelijke reactie: "Ik had eerder tegengas moeten geven bij de veranderende eisen en duidelijkere tussenmomenten met het team moeten afspreken. Dit verander ik bij het volgende project." De tweede versie negeert niet dat er externe factoren waren: ze begint alleen bij wat de leider zelf in de hand heeft en kan verbeteren.
 
-## Kernbegrippen
-- **Resultaatmaatstaf:** meetwaarde die aangeeft of de gewenste uitkomst werkelijk is bereikt.
-- **Aanname:** bewering die voor de beslissing relevant is maar nog niet voldoende is bewezen.
-- **Opportunity cost:** waarde van het beste alternatief dat wordt opgegeven.
-- **Omkeerbaarheid:** mate waarin een besluit zonder buitensporige schade kan worden teruggedraaid.
-- **Besliseigenaar:** persoon die bevoegd en aanspreekbaar is voor het uiteindelijke besluit.
+## Oefenquiz
 
-### BLACK-L1-006-EXAMPLES
-## Uitgewerkt voorbeeld
-Een klein bedrijf staat voor een beslissing rond **verantwoordelijkheid nemen als leiderschapseigenschap**. De leiding maakt eerst een nulmeting en ontdekt dat het probleem niet alleen gedrag betreft, maar ook tijd, capaciteit en geld. Twee opties worden naast elkaar gezet. Optie A vraagt minder geld maar meer interne uren; optie B kost meer, maar verkort de doorlooptijd. De leider kiest niet op voorkeur, maar op vooraf vastgelegde criteria en plant een evaluatie na dertig dagen.
+1. Definieer verantwoordelijkheid nemen in je eigen woorden.
+2. Waarom schaadt het stelselmatig afschuiven van schuld het vertrouwen na verloop van tijd?
+3. Betekent verantwoordelijkheid nemen dat je echte externe factoren negeert die aan een probleem hebben bijgedragen?
+4. Herschrijf deze uitspraak zonder verantwoordelijkheid in verantwoordelijke taal: "We zijn de klant kwijtgeraakt omdat sales niet snel genoeg heeft opgevolgd."
 
-## Casus
-Een team van acht mensen mist gedurende zes weken zijn doel. [AANNAME] De eigenaar denkt aanvankelijk dat motivatie de oorzaak is. De gegevens laten echter zien dat verantwoordelijkheden onduidelijk zijn en dat werk regelmatig opnieuw moet worden gedaan. Vanuit **eigenaarschap van resultaat en fouten** worden twee interventies ontworpen. De gekozen interventie krijgt een eigenaar, budgetlimiet en twee meetpunten: foutpercentage en doorlooptijd. Na dertig dagen wordt beslist of de aanpak wordt voortgezet, aangepast of gestopt.
+## Antwoordsleutel
+1. Instaan voor de uitkomsten van je beslissingen, ook voor mislukkingen, zonder de schuld af te schuiven.
+2. Omdat mensen een leider die nooit een fout toegeeft niet meer geloven, wat de geloofwaardigheid ondermijnt.
+3. Nee: het betekent vooroplopen met eigenaarschap voor wat je in de hand had en andere factoren eerlijk erkennen.
+4. Voorbeeld: "Ik heb het salesteam geen duidelijk genoeg verwachtingen gegeven over opvolging, en dat heeft eraan bijgedragen dat we de klant kwijt zijn. Dit voer ik nu in om dat op te lossen."
 
-### Beslisvraag
-Wat zou jij beslissen vóórdat je de uitkomst kent? Noem de twee belangrijkste feiten die je nodig hebt, één aanname die je wilt testen en één grens waarbij je van koers verandert.
+## Antwoorden en uitleg
+1. Deze definitie stelt eigenaarschap centraal, niet schuld of zelfbestraffing.
+2. Herhaaldelijk schuld afschuiven laat een team zien dat mislukkingen nooit eerlijk worden aangepakt, wat het vertrouwen schaadt.
+3. De les scheidt verantwoordelijkheid nemen uitdrukkelijk van het ontkennen van echte externe factoren.
+4. Een goede herschrijving verschuift de focus van een teamlid de schuld geven naar erkennen wat de leider anders had kunnen inrichten.
 
-## Veelgemaakte fouten
-- Het gewenste resultaat niet vooraf definiëren.
-- Een mening behandelen alsof die bewezen is.
-- Alleen naar directe kosten kijken en tijd of gemiste kansen negeren.
-- Verantwoordelijkheid geven zonder voldoende bevoegdheid.
-- Activiteit meten in plaats van resultaat.
-- Een eerdere keuze verdedigen omdat ego of reeds besteed geld meespeelt.
-
-## Veelgestelde vragen
-**Moet ik wachten op volledige zekerheid?** Nee. Verzamel informatie in verhouding tot risico en omkeerbaarheid.
-
-**Wanneer is een snelle beslissing verantwoord?** Wanneer de kosten van wachten hoog zijn, het neerwaartse risico begrensd is en een snelle correctie mogelijk blijft.
-
-**Hoe voorkom ik micromanagement?** Spreek resultaat, grenzen en controlemomenten af; schrijf niet ieder tussenstapje voor.
-
-**Waarom hoort geld bij leiderschap?** Omdat vrijwel iedere keuze mensenuren, capaciteit, kasmiddelen of toekomstige opbrengsten beïnvloedt.
-
-## Belangrijkste inzichten
-- Eigenaarschap van resultaat en fouten vraagt om expliciete criteria.
-- Goede leiding koppelt gedrag aan operationele én economische gevolgen.
-- Feiten en aannames moeten zichtbaar van elkaar worden gescheiden.
-- Een besluit zonder eigenaar, deadline en maatstaf is slechts een intentie.
-- Herziening maakt van ervaring een herhaalbare competentie.
-
-### BLACK-L1-006-EXERCISE
-## Praktische oefening
-Kies een echte situatie waarin **verantwoordelijkheid nemen als leiderschapseigenschap** relevant is. Maak één beslisblad met: gewenst resultaat; vijf feiten; drie aannames; betrokken personen; twee alternatieven; geschatte geld- en tijdskosten; grootste risico; gekozen actie; besliseigenaar; deadline; één leidende en één achterlopende indicator; herzieningsdatum.
-
-### BLACK-L1-006-AI
-## Socratische leergids
-1. Wat betekent **eigenaarschap van resultaat en fouten** in jouw eigen woorden?
-2. Welk concreet probleem probeer je ermee op te lossen?
-3. Welke drie feiten zijn bewezen?
-4. Welke aanname heeft het grootste risico?
-5. Wie draagt de gevolgen van jouw keuze?
-6. Welke twee echte alternatieven bestaan er?
-7. Wat kosten die alternatieven in geld, tijd en capaciteit?
-8. Welke maatstaf toont resultaat in plaats van activiteit?
-9. Welke nieuwe informatie zou jou van koers doen veranderen?
-10. Welke concrete actie kun je binnen 48 uur uitvoeren?
-
-### BLACK-L1-006-ASSESSMENT
-## Competentietoets — 10 vragen
-1. **Meerkeuze:** Welke volgorde is het sterkst? A) Handelen, verdedigen, meten. B) Resultaat, feiten, opties, besluit, maatstaf, herziening. C) Wachten op zekerheid. D) Alles delegeren.
-2. **Waar/onwaar:** Een personeelsbesluit kan financiële gevolgen hebben zonder dat er direct een factuur ontstaat.
-3. **Kort antwoord:** Leg uit waarom **eigenaarschap van resultaat en fouten** voor een leider belangrijk is.
-4. **Scenario:** Je mist gegevens en uitstel kost geld. Welke informatie verzamel je eerst en waarom?
-5. **Meerkeuze:** Welke is meestal de beste maatstaf? A) Aantal e-mails. B) Aantal vergaderingen. C) Een indicator gekoppeld aan de gewenste uitkomst. D) Gewerkte uren.
-6. **Waar/onwaar:** Reeds gemaakte kosten zijn op zichzelf een geldige reden om extra middelen te blijven investeren.
-7. **Toepassing:** Beschrijf één financieel of operationeel gevolg van een slechte beslissing over dit onderwerp.
-8. **Scenario:** Twee deskundige medewerkers adviseren tegengestelde routes. Hoe beslis je?
-9. **Kort antwoord:** Wat is het verschil tussen resultaatcontrole en micromanagement?
-10. **Synthese:** Formuleer één actie voor morgen met eigenaar, deadline en maatstaf.
-
-### BLACK-L1-006-ANSWER-KEY
-## Antwoorden en toelichting
-1. **B.** Toetst een volledig besluitvormingsproces. Misvatting: snelheid is hetzelfde als kwaliteit.
-2. **Waar.** Tijd, productiviteit, fouten, verloop en kansen hebben economische waarde.
-3. Een goed antwoord verbindt eigenaarschap van resultaat en fouten met resultaat, risico, mensen en uitvoering.
-4. Verzamel eerst gegevens die de keuze kunnen veranderen; weeg informatiewaarde af tegen de kosten van wachten.
-5. **C.** Een resultaatindicator meet effect; activiteit is niet automatisch vooruitgang.
-6. **Onwaar.** Toekomstige inzet moet worden beoordeeld op toekomstige kosten en baten.
-7. Het antwoord moet een geloofwaardige oorzaak-gevolgrelatie noemen en waar mogelijk kwantificeren.
-8. Keer terug naar doel en criteria, vergelijk bewijs en risico, hoor bezwaren en laat de bevoegde besliseigenaar kiezen.
-9. Resultaatcontrole bewaakt afgesproken uitkomsten en grenzen; micromanagement schrijft onnodig de werkwijze voor.
-10. Het antwoord moet specifiek, uitvoerbaar, tijdgebonden en meetbaar zijn.
-
-### BLACK-L1-006-COMPETENCY
-## Beheersingsnorm en herstel
-- **Beheersingsdrempel: 8/10 (80%).**
-- Bij 80% of hoger wordt **BLACK-L1-007** vrijgegeven.
-- Onder 80% identificeert de leercoach de zwakke competentie, verwijst naar de relevante paragraaf, geeft een nieuw scenario en toetst opnieuw.
-- Herstel legt het denkproces uit en geeft niet uitsluitend het juiste antwoord.
-
-## Verdere verdieping
-Gebruik betrouwbare bronnen over leiderschap, organisatiegedrag, elementaire bedrijfsfinanciën en besluitvorming. Controleer auteur, datum, bewijs, belangenconflicten en toepasbaarheid op de eigen sector en jurisdictie.
-
-## Lespad
-- Vorige: BLACK-L1-005
-- Huidige: BLACK-L1-006
-- Volgende: BLACK-L1-007
-
-### BLACK-L1-006-SEO
-## Vindbaarheid
-- Kernwoorden: leiderschap, verantwoordelijkheid nemen als leiderschapseigenschap, besluitvorming, management, financiële intelligentie
-- Metabeschrijving: Praktische basisles over verantwoordelijkheid nemen als leiderschapseigenschap met casus, oefening, toets en toepasbare besluitvorming.
-
-## Ondersteuning door de leercoach
-De leercoach stelt eerst vragen, vraagt de student zijn redenering uit te leggen en past herstel aan de gemaakte fout aan. Bij juridische, fiscale, beleggings- of andere gereguleerde onderwerpen geeft de coach algemene educatie en geen persoonlijk professioneel advies.
-
-### BLACK-L1-006-LOCALIZATION
-## Lokalisatie
-Deze les is rechtstreeks in het Nederlands geschreven voor Nederlandstalige studenten. Jurisdictieafhankelijke bedragen, belastingen, arbeidsregels en wettelijke verplichtingen moeten vóór publicatie voor het toepasselijke land worden geverifieerd.
-
-### BLACK-L1-006-REFERENCES
-## Bronnen en verificatie
-De les behandelt algemene leiderschaps- en besluitvormingsprincipes. Concrete wettelijke regels, actuele statistieken, percentages of sectorspecifieke normen worden alleen als geverifieerd feit gebruikt nadat een actuele primaire of gezaghebbende bron is gecontroleerd. Hypothetische casussen en bedragen zijn illustratief en worden niet als geverifieerde werkelijkheid gepresenteerd.
+## Belangrijkste punten
+- Verantwoordelijkheid nemen betekent instaan voor uitkomsten, ook mislukkingen, zonder de schuld af te schuiven.
+- Leiders die elke mislukking stelselmatig wegverklaren, verliezen het vertrouwen van hun team.
+- Verantwoordelijk leiderschap richt zich op wat je in de hand had en wat er nu gebeurt, niet op het toewijzen van schuld.
