@@ -1,227 +1,54 @@
 ---
 id: GOLD-L1-006
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 6
-title: "Samengestelde Groei Eenvoudig Uitgelegd"
-summary: "Begrijp hoe samengestelde groei ontstaat wanneer eerdere opbrengsten belegd blijven en waarom tijd een belangrijke factor is."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-005"
-componentIds:
-  - GOLD-L1-006-MAIN
-  - GOLD-L1-006-EXAMPLES
-  - GOLD-L1-006-EXERCISE
-  - GOLD-L1-006-ASSESSMENT
-  - GOLD-L1-006-ANSWER-KEY
-  - GOLD-L1-006-COMPETENCY
-  - GOLD-L1-006-AI
-  - GOLD-L1-006-SEO
-  - GOLD-L1-006-LOCALIZATION
-  - GOLD-L1-006-REFERENCES
+locale: nl
+title: "Rente-op-rente eenvoudig uitgelegd"
+summary: "Introduceert het principe van rente-op-rente en legt uit waarom tijd een van de sterkste krachten bij beleggen is."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Samengestelde Groei Eenvoudig Uitgelegd
-
-### GOLD-L1-006-MAIN
-
-## Samenvatting
-
-Deze les behandelt **samengestelde groei**. De kern is begrijpen hoe rendement herbeleggen zodat het zelf nieuw rendement kan voortbrengen. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Rente-op-rente eenvoudig uitgelegd
 
 ## Leerdoelen
+- Het rente-op-rente-effect in eenvoudige woorden definiëren
+- Uitleggen waarom vroeg beginnen een onevenredig grote invloed heeft op resultaten op lange termijn
+- Oefenen met een eenvoudige berekening van rente-op-rente
 
-- **Financiële geletterdheid:** samengestelde groei eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** tijd, rendement en herbelegging samen begrijpen.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Rente-op-rente betekent dat groei voortbouwt op eerdere groei, in plaats van dat groei steeds alleen op het oorspronkelijke bedrag werkt. Als een belegging groeit en die groei belegd blijft, werkt de groei van de volgende periode op het nieuwe, grotere totaal en niet alleen op het startbedrag – de groei versnelt dus in de loop van de tijd op een manier die je in het begin makkelijk onderschat en later indrukwekkend ziet.
 
-GOLD-L1-005.
+Daarom is vroeg beginnen zo belangrijk, zelfs met bescheiden bedragen. Tijd is een van de weinige echt gratis hulpbronnen bij beleggen – geld dat 20 jaar belegd is, heeft veel meer tijd voor het rente-op-rente-effect dan hetzelfde geld over 5 jaar, ook als de daadwerkelijk belegde bedragen vergelijkbaar zijn. Dat is een reden waarom het meestal belangrijker is om al vroeg een beleggingsgewoonte op te bouwen, zelfs met kleine bedragen, dan te wachten om later met een groter bedrag te beginnen.
 
-## Hoofdles
+## Praktijkvoorbeeld
 
-### 1. Het concept begrijpen
+ILLUSTRATIEF VOORBEELD: Stel dat een kleine positie elk jaar met hetzelfde percentage groeit. In het eerste jaar werkt de groei alleen op het oorspronkelijke bedrag. In het tiende jaar werkt dezelfde procentuele stijging op een veel groter bedrag, omdat negen jaar eerdere groei al op het oorspronkelijke bedrag is opgebouwd. De stijging in euro's is in het tiende jaar duidelijk groter dan in het eerste, hoewel het percentage niet is veranderd – dat is het zichtbare effect van rente-op-rente dat in de loop van de tijd op zichzelf voortbouwt.
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **samengestelde groei** gaat het om rendement herbeleggen zodat het zelf nieuw rendement kan voortbrengen.
+## Oefenquiz
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+1. Definieer het rente-op-rente-effect in je eigen woorden.
+2. Waarom heeft vroeg beginnen een onevenredig grote invloed op resultaten op lange termijn?
+3. Waarom kan het belangrijker zijn om vroeg een gewoonte met kleine bedragen op te bouwen dan later op een groter bedrag te wachten?
+4. Waarom was de stijging in euro's in het praktijkvoorbeeld in het tiende jaar groter dan in het eerste, hoewel het percentage gelijk bleef?
 
-### 2. Denken vóór handelen
+## Antwoordsleutel
+1. Groei die voortbouwt op eerdere groei, in plaats van alleen op het oorspronkelijke startbedrag te werken.
+2. Omdat tijd een beperkte, niet terug te halen hulpbron is en meer tijd meer op elkaar voortbouwende rente-op-rente-cycli betekent.
+3. Omdat de extra jaren rente-op-rente vaak meer opleveren dan het extra bedrag dat later wordt belegd.
+4. Omdat de groei werkte op een veel groter bedrag (startbedrag plus negen jaar eerdere groei), niet alleen op het startbedrag.
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoorden en uitleg
+1. Dit definieert het kernmechanisme – groei op eerdere groei – waar rente-op-rente om draait.
+2. Dat tijd niet terug te halen is, is de beslissende reden voor de onevenredig grote invloed van vroeg beginnen op lange termijn.
+3. Dit stelt het vroeg opbouwen van een gewoonte voor als vaak waardevoller dan een grotere, maar later begonnen belegging.
+4. Dit voorbeeld laat de zichtbare versnelling door rente-op-rente zien bij een gelijkblijvend percentage op een groeiende basis.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
-
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **samengestelde groei** van theorie een observeerbare regel: tijd, rendement en herbelegging samen begrijpen. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **Samengestelde groei:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-006-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **samengestelde groei**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- Samengestelde groei moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-006-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **samengestelde groei** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-006-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **samengestelde groei** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-006-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **samengestelde groei** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-006-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-006-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-007.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-005
-- **Huidige:** GOLD-L1-006 — Samengestelde Groei Eenvoudig Uitgelegd
-- **Volgende:** GOLD-L1-007
-
-## SEO-blok
-
-### GOLD-L1-006-SEO
-
-**Trefwoorden:** samengestelde groei, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp samengestelde groei en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-006-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-006-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-006-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Rente-op-rente betekent dat groei voortbouwt op eerdere groei, niet alleen op het oorspronkelijke bedrag.
+- Omdat verstreken tijd niet terug te halen is, heeft vroeg beginnen een onevenredig grote invloed op resultaten op lange termijn.
+- Vroeg een beleggingsgewoonte opbouwen, ook met kleine bedragen, is vaak belangrijker dan wachten op een groter bedrag om later te beginnen.

@@ -1,227 +1,54 @@
 ---
 id: GOLD-L1-005
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 5
-title: "Basisprincipes van Periodiek Beleggen met een Vast Bedrag"
-summary: "Leer hoe periodiek beleggen (DCA) vaste bijdragen gebruikt om timingdruk en emotionele beslissingen te verminderen."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-004"
-componentIds:
-  - GOLD-L1-005-MAIN
-  - GOLD-L1-005-EXAMPLES
-  - GOLD-L1-005-EXERCISE
-  - GOLD-L1-005-ASSESSMENT
-  - GOLD-L1-005-ANSWER-KEY
-  - GOLD-L1-005-COMPETENCY
-  - GOLD-L1-005-AI
-  - GOLD-L1-005-SEO
-  - GOLD-L1-005-LOCALIZATION
-  - GOLD-L1-005-REFERENCES
+locale: nl
+title: "Basisprincipes van periodiek beleggen met een vast bedrag"
+summary: "Introduceert periodiek beleggen met een vast bedrag (dollar-cost averaging) als gedisciplineerde aanpak die bestand is tegen emoties."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Basisprincipes van Periodiek Beleggen met een Vast Bedrag
-
-### GOLD-L1-005-MAIN
-
-## Samenvatting
-
-Deze les behandelt **periodieke aankopen**. De kern is begrijpen hoe op vaste momenten een vooraf bepaald bedrag beleggen in plaats van het perfecte instapmoment te voorspellen. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Basisprincipes van periodiek beleggen met een vast bedrag
 
 ## Leerdoelen
+- Periodiek beleggen met een vast bedrag in eenvoudige woorden definiëren
+- Uitleggen waarom deze aanpak de invloed vermindert van pogingen om het perfecte koopmoment te raden
+- Oefenen met het toepassen van het begrip op een eenvoudig voorbeeld
 
-- **Financiële geletterdheid:** periodieke aankopen eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** een duurzame inlegregel maken.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Periodiek beleggen met een vast bedrag (in het Engels dollar-cost averaging, vaak afgekort tot DCA) betekent dat je op vaste momenten – bijvoorbeeld elke maand – een vast bedrag belegt, ongeacht wat de prijs op dat moment doet, in plaats van één grote aankoop te plannen op het 'perfecte' moment. Omdat het belegde bedrag elke keer gelijk blijft, koop je automatisch meer eenheden als de prijs laag is en minder als de prijs hoog is – zonder iets te hoeven voorspellen.
 
-GOLD-L1-004.
+Dat is belangrijk omdat het zelfs voor professionals heel moeilijk is om betrouwbaar te voorspellen wanneer het beste koopmoment is, en de poging daartoe leidt vaak tot aarzelen, gemiste kansen of door emoties gedreven slechte timing (bijvoorbeeld kopen als de prijzen stijgen en iedereen enthousiast is, en aarzelen als de prijzen dalen en iedereen zenuwachtig is – precies het omgekeerde van wat ideaal is). Periodiek beleggen neemt je die beslissing volledig uit handen, omdat het moment automatisch en regelmatig vastligt.
 
-## Hoofdles
+## Praktijkvoorbeeld
 
-### 1. Het concept begrijpen
+ILLUSTRATIEF VOORBEELD: Stel dat iemand elke maand € 50 in zilver belegt, ongeacht de prijs. In een maand waarin zilver € 25 per ounce kost, koopt die € 50 2 ounces. In een maand waarin de prijs daalt naar € 20 per ounce, koopt dezelfde € 50 2,5 ounces – er wordt automatisch meer gekocht als het goedkoper is. Over veel maanden vlakt dat de gemiddelde prijs per ounce af, zonder dat de belegger ooit hoeft te raden welke maand het 'beste' koopmoment was.
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **periodieke aankopen** gaat het om op vaste momenten een vooraf bepaald bedrag beleggen in plaats van het perfecte instapmoment te voorspellen.
+## Oefenquiz
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+1. Definieer periodiek beleggen met een vast bedrag in je eigen woorden.
+2. Wat gebeurt er bij periodiek beleggen met het aantal gekochte eenheden als de prijs laag is?
+3. Waarom is het moeilijk om één 'perfecte' aankoop goed te timen?
+4. Als iemand elke maand € 100 belegt en de prijs de ene maand € 10 is en de volgende maand € 20, hoeveel eenheden heeft hij dan na beide maanden in totaal?
 
-### 2. Denken vóór handelen
+## Antwoordsleutel
+1. Op vaste momenten een vast bedrag beleggen, ongeacht de prijs, in plaats van één aankoop te timen.
+2. Er worden meer eenheden gekocht als de prijs laag is, omdat het vaste bedrag verder reikt.
+3. Omdat het zelfs voor professionals heel moeilijk is om prijsbewegingen betrouwbaar te voorspellen.
+4. 10 eenheden in de eerste maand (€ 100/€ 10) plus 5 eenheden in de tweede maand (€ 100/€ 20) is in totaal 15 eenheden.
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoorden en uitleg
+1. Dit vangt het kernmechanisme: vast bedrag, vaste tussenpozen, geen prijsvoorspelling nodig.
+2. Dat is het ingebouwde voordeel: bij lage prijzen wordt automatisch meer gekocht.
+3. De moeilijkheid van voorspellen is de reden waarom deze aanpak een nuttig alternatief is dat bestand is tegen emoties.
+4. De formule direct toepassen op beide maanden laat zien hoe de aanpak in de praktijk werkt.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
-
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **periodieke aankopen** van theorie een observeerbare regel: een duurzame inlegregel maken. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **Periodieke aankopen:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-005-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **periodieke aankopen**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- Periodieke aankopen moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-005-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **periodieke aankopen** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-005-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **periodieke aankopen** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-005-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **periodieke aankopen** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-005-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-005-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-006.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-004
-- **Huidige:** GOLD-L1-005 — Basisprincipes van Periodiek Beleggen met een Vast Bedrag
-- **Volgende:** GOLD-L1-006
-
-## SEO-blok
-
-### GOLD-L1-005-SEO
-
-**Trefwoorden:** periodieke aankopen, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp periodieke aankopen en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-005-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-005-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-005-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Bij periodiek beleggen wordt op vaste momenten een vast bedrag belegd, ongeacht de prijs.
+- Zo worden automatisch meer eenheden gekocht als de prijzen laag zijn en minder als ze hoog zijn – zonder voorspellingen.
+- De aanpak neemt je de moeilijke, vaak door emoties gedreven taak uit handen om de 'perfecte' aankoop te timen.

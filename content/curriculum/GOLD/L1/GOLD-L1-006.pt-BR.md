@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 6
-title: "Crescimento composto explicado de forma simples"
-summary: "Apresenta a capitalização e explica por que o tempo é uma das forças mais importantes nos investimentos."
+locale: pt-BR
+title: "Juros compostos explicados de forma simples"
+summary: "Apresenta o conceito de capitalização composta e por que o tempo é uma das forças mais poderosas do investimento."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "pt-BR"
 ---
 
-# Crescimento composto explicado de forma simples
+# Juros compostos explicados de forma simples
 
 ## Objetivos de aprendizagem
-- Compreender o conceito principal da lição.
-- Relacioná-lo a decisões de investimento de longo prazo.
-- Aplicar o princípio a uma situação financeira concreta.
+- Definir capitalização composta em termos simples
+- Explicar por que começar cedo tem um efeito desproporcional nos resultados de longo prazo
+- Praticar um cálculo simples de capitalização composta
 
 ## Conteúdo principal
 
-Capitalização significa que o crescimento futuro incide não apenas sobre o valor inicial, mas também sobre os ganhos anteriores que permaneceram investidos. À medida que a base aumenta, o crescimento pode acelerar com o tempo.
+Capitalização composta significa crescimento que se acumula sobre o crescimento anterior, em vez de crescimento que se aplica sempre apenas ao valor original. Se um investimento cresce e esse crescimento continua investido, o crescimento do período seguinte se aplica ao novo total, maior, e não apenas ao valor inicial – o que significa que o crescimento se acelera com o tempo de uma forma fácil de subestimar no início e impressionante de ver depois.
 
-Por isso começar cedo pode ser poderoso, mesmo com valores modestos. O tempo é um recurso valioso: um investimento mantido por vinte anos tem muito mais oportunidade de se beneficiar da capitalização do que um investimento semelhante mantido por cinco. Desenvolver cedo o hábito de investir, ainda que em pequenas quantias, pode ser mais importante do que esperar até ter um valor muito maior.
+É por isso que começar cedo importa tanto, mesmo com valores modestos. O tempo é um dos poucos recursos realmente gratuitos do investimento: dinheiro investido por 20 anos tem muito mais tempo para a capitalização composta funcionar do que o mesmo dinheiro investido por 5 anos, mesmo que os valores efetivamente investidos sejam parecidos. Isso explica em parte por que criar cedo o hábito de investir, mesmo com pouco, tende a importar mais do que esperar para começar com um valor maior depois.
 
 ## Exemplo prático
 
-EXEMPLO ILUSTRATIVO: o investidor aplica o princípio da lição a uma decisão real considerando objetivos, horizonte de tempo, custos, riscos e alternativas antes de agir.
+EXEMPLO ILUSTRATIVO: Suponha que uma pequena posição cresça a uma porcentagem constante a cada ano. No primeiro ano, o crescimento se aplica apenas ao valor original. No décimo ano, essa mesma porcentagem de crescimento se aplica a um total muito maior, porque nove anos de crescimento anterior já se acumularam sobre o valor original. O valor em dinheiro do crescimento no décimo ano é bem maior do que no primeiro, embora a taxa percentual não tenha mudado – esse é o efeito visível da capitalização composta que se acumula sobre si mesma com o tempo.
 
-## Quiz de verificação
-1. Qual é o conceito principal desta lição?
-2. Por que ele é importante para um investidor?
-3. Qual risco ou compromisso deve ser considerado?
-4. Como ele se conecta a um plano financeiro de longo prazo?
+## Teste de prática
 
-## Soluções
-1. O conceito central explicado no conteúdo principal.
-2. Ele ajuda a tomar decisões coerentes com objetivos e horizonte de tempo.
-3. Toda decisão envolve riscos, custos ou compromissos.
-4. Deve ser aplicado dentro do plano financeiro geral.
+1. Defina capitalização composta com suas próprias palavras.
+2. Por que começar cedo tem um efeito desproporcional nos resultados de longo prazo?
+3. Por que criar cedo um hábito com pequenos valores pode importar mais do que esperar por um valor maior depois?
+4. No exemplo prático, por que o valor em dinheiro do crescimento foi maior no décimo ano do que no primeiro, apesar da mesma taxa percentual?
+
+## Gabarito
+1. Crescimento que se acumula sobre o crescimento anterior, em vez de se aplicar apenas ao valor inicial.
+2. Porque o tempo é um recurso limitado e irrecuperável, e mais tempo significa mais ciclos de capitalização se acumulando uns sobre os outros.
+3. Porque os anos extras de capitalização muitas vezes importam mais do que o valor extra investido mais tarde.
+4. Porque o crescimento estava se aplicando a um total muito maior (valor original mais nove anos de crescimento anterior), e não apenas ao valor inicial.
 
 ## Respostas e explicações
-1. A definição estabelece a base conceitual.
-2. A perspectiva de longo prazo reduz decisões impulsivas.
-3. Reconhecer compromissos melhora a qualidade da decisão.
-4. Os conceitos da trilha funcionam juntos em um plano coerente.
+1. Isso define o mecanismo central – crescimento sobre crescimento anterior – no coração da capitalização composta.
+2. A natureza irrecuperável do tempo é a razão-chave pela qual começar cedo tem um efeito tão desproporcional no longo prazo.
+3. Isso apresenta a criação precoce do hábito como muitas vezes mais valiosa do que um investimento maior, porém iniciado mais tarde.
+4. Este exemplo demonstra o efeito visível de aceleração da capitalização composta, com uma porcentagem constante sobre uma base crescente.
 
-## Pontos principais
-- Compreender antes de agir.
-- Avaliar riscos, custos e alternativas.
-- Manter as decisões alinhadas ao plano financeiro.
+## Pontos-chave
+- Capitalização composta significa crescimento que se acumula sobre o crescimento anterior, não apenas sobre o valor original.
+- Como o tempo não pode ser recuperado depois que passa, começar cedo tem um efeito desproporcional nos resultados de longo prazo.
+- Criar cedo o hábito de investir, mesmo com pequenos valores, muitas vezes importa mais do que esperar um valor maior para começar depois.

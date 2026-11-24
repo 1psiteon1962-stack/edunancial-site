@@ -4,48 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 6
-title: "La crescita composta spiegata semplicemente"
-summary: "Introduce la capitalizzazione composta e il motivo per cui il tempo è una forza potente negli investimenti."
+locale: it-IT
+title: "L'interesse composto spiegato in modo semplice"
+summary: "Introduce il principio dell'interesse composto e spiega perché il tempo è una delle forze più potenti dell'investimento."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "it-IT"
 ---
 
-# La crescita composta spiegata semplicemente
+# L'interesse composto spiegato in modo semplice
 
 ## Obiettivi di apprendimento
-- Definire la capitalizzazione composta.
-- Spiegare perché iniziare presto influenza fortemente i risultati a lungo termine.
-- Comprendere un semplice esempio di crescita composta.
+- Definire in termini semplici l'effetto dell'interesse composto
+- Spiegare perché iniziare presto ha un impatto sproporzionato sui risultati di lungo periodo
+- Esercitarsi con un semplice calcolo di interesse composto
 
 ## Contenuto principale
-La capitalizzazione composta significa che la crescita si aggiunge alla crescita precedente, invece di applicarsi sempre soltanto alla somma iniziale. Se un investimento cresce e il guadagno resta investito, nel periodo successivo la crescita si applica a un totale più grande. Per questo la crescita può accelerare nel tempo in modo poco evidente all'inizio ma molto significativo più avanti.
 
-Ecco perché iniziare presto conta tanto anche con somme modeste. Il tempo è una delle poche risorse gratuite dell'investimento: denaro investito per vent'anni dispone di molte più opportunità di capitalizzazione rispetto allo stesso denaro investito per cinque. Costruire presto l'abitudine, anche con piccole somme, può quindi essere più importante che aspettare di avere una somma maggiore.
+Interesse composto significa che la crescita si accumula sulla crescita precedente, invece di agire sempre e solo sull'importo iniziale. Quando un investimento cresce e quella crescita resta investita, la crescita del periodo successivo agisce sulla nuova somma più grande, non solo sull'importo di partenza: la crescita accelera nel tempo in un modo facile da sottovalutare all'inizio e impressionante da vedere più avanti.
 
-## Esempio pratico
-ESEMPIO ILLUSTRATIVO: se una posizione cresce ogni anno della stessa percentuale, nel primo anno la crescita si applica alla somma iniziale. Nel decimo anno la stessa percentuale si applica a un totale più grande, che comprende anni di crescita precedente. L'importo in dollari della crescita è quindi maggiore anche se la percentuale non cambia.
+Per questo iniziare presto conta così tanto, anche con importi modesti. Il tempo è una delle poche risorse davvero gratuite dell'investimento: il denaro investito per 20 anni ha molto più tempo per l'effetto composto dello stesso denaro investito per 5 anni, anche se gli importi effettivamente investiti sono simili. È uno dei motivi per cui costruire presto un'abitudine di investimento, anche con piccole somme, conta di solito più che aspettare per iniziare più tardi con un importo maggiore.
 
-## Quiz di verifica
-1. Che cosa significa capitalizzazione composta?
-2. Perché iniziare presto produce un effetto importante?
-3. Perché una piccola abitudine precoce può valere più di un investimento maggiore iniziato tardi?
-4. Perché nell'esempio la crescita in dollari è maggiore nel decimo anno?
+## Esempio svolto
+
+ESEMPIO ILLUSTRATIVO: Supponiamo che una piccola posizione cresca ogni anno della stessa percentuale. Nel primo anno la crescita agisce solo sull'importo iniziale. Nel decimo anno, lo stesso aumento percentuale agisce su una somma molto più grande, perché nove anni di crescita precedente si sono già accumulati sull'importo iniziale. L'aumento in euro del decimo anno è nettamente maggiore di quello del primo, anche se la percentuale non è cambiata: è l'effetto visibile dell'interesse composto che si accumula su sé stesso nel tempo.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue l'effetto dell'interesse composto.
+2. Perché iniziare presto ha un impatto sproporzionato sui risultati di lungo periodo?
+3. Perché potrebbe contare di più costruire presto un'abitudine con piccoli importi che aspettare un importo maggiore più avanti?
+4. Nell'esempio svolto, perché l'aumento in euro del decimo anno è stato maggiore di quello del primo, anche se la percentuale è rimasta la stessa?
 
 ## Soluzioni
-1. Crescita che si accumula sulla crescita precedente.
-2. Perché più tempo significa più cicli di capitalizzazione.
-3. Perché gli anni aggiuntivi possono contare più dell'importo maggiore investito successivamente.
-4. Perché la stessa percentuale si applica a una base ormai più grande.
+1. Una crescita che si accumula sulla crescita precedente, invece di agire solo sull'importo iniziale.
+2. Perché il tempo è una risorsa limitata e non recuperabile, e più tempo significa più cicli di interesse composto che si sommano.
+3. Perché gli anni in più di interesse composto spesso contano più dell'importo aggiuntivo investito più tardi.
+4. Perché la crescita ha agito su una somma molto più grande (importo iniziale più nove anni di crescita precedente), non solo sull'importo iniziale.
 
 ## Risposte e spiegazioni
-1. È il meccanismo centrale della crescita composta.
-2. Il tempo trascorso non può essere recuperato.
-3. L'esempio mostra il valore dell'avvio precoce.
-4. Una base crescente produce una crescita assoluta maggiore a parità di percentuale.
+1. Definisce il meccanismo centrale – crescita sulla crescita precedente – che sta alla base dell'interesse composto.
+2. Il fatto che il tempo non si possa recuperare è la ragione decisiva dell'impatto sproporzionato di un inizio precoce.
+3. Presenta la costruzione precoce dell'abitudine come spesso più preziosa di un investimento maggiore ma iniziato più tardi.
+4. Questo esempio mostra l'accelerazione visibile dell'interesse composto con una percentuale costante su una base crescente.
 
 ## Punti chiave
-- La crescita composta costruisce nuova crescita su quella precedente.
-- Il tempo rende molto importante iniziare presto.
-- Una piccola abitudine iniziata presto può avere un forte effetto nel lungo periodo.
+- Interesse composto significa che la crescita si accumula sulla crescita precedente, non solo sull'importo iniziale.
+- Poiché il tempo trascorso non si recupera, iniziare presto ha un impatto sproporzionato sui risultati di lungo periodo.
+- Costruire presto un'abitudine di investimento, anche con piccoli importi, conta spesso più che aspettare una somma maggiore per iniziare dopo.

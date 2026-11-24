@@ -1,227 +1,56 @@
 ---
 id: GOLD-L1-040
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 40
-title: "Een Edelmetaalplan in de Tijd Evalueren en Aanpassen"
-summary: "Leer wanneer een bestaand plan opnieuw bekeken moet worden."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-039"
-componentIds:
-  - GOLD-L1-040-MAIN
-  - GOLD-L1-040-EXAMPLES
-  - GOLD-L1-040-EXERCISE
-  - GOLD-L1-040-ASSESSMENT
-  - GOLD-L1-040-ANSWER-KEY
-  - GOLD-L1-040-COMPETENCY
-  - GOLD-L1-040-AI
-  - GOLD-L1-040-SEO
-  - GOLD-L1-040-LOCALIZATION
-  - GOLD-L1-040-REFERENCES
+locale: nl
+title: "Een beleggingsplan voor metalen in de loop van de tijd herzien en aanpassen"
+summary: "Legt uit hoe en wanneer een beleggingsplan voor edelmetalen eerlijk moet worden herzien en eventueel aangepast."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Een Edelmetaalplan in de Tijd Evalueren en Aanpassen
-
-### GOLD-L1-040-MAIN
-
-## Samenvatting
-
-Deze les behandelt **de planevaluatie**. De kern is begrijpen hoe veranderingen in inkomen, doelen, concentratie of liquiditeitsbehoefte kunnen aanpassing rechtvaardigen. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Een beleggingsplan voor metalen in de loop van de tijd herzien en aanpassen
 
 ## Leerdoelen
+- Het verschil uitleggen tussen gedisciplineerd vasthouden aan een plan en koppig weigeren het aan te passen
+- Passende, bewuste aanleidingen herkennen om een beleggingsplan voor metalen te herzien
+- Een terechte aanpassing van een plan onderscheiden van het reactief en emotioneel opgeven ervan
 
-- **Financiële geletterdheid:** de planevaluatie eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** op vaste momenten en bij belangrijke gebeurtenissen evalueren.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Een goed opgebouwd persoonlijk plan, zoals in de vorige les behandeld, is niet bedoeld om ongeacht veranderende omstandigheden voor altijd blind te worden gevolgd – maar het moet ook niet bij het eerste teken van schommelingen op korte termijn reactief worden opgegeven. Het belangrijkste onderscheid is dat tussen een bewuste, regelmatige herziening en een reactief, emotioneel opgeven, vergelijkbaar met het onderscheid tussen volharding en koppigheid dat in het leiderschapstraject van dit lesprogramma wordt behandeld.
 
-GOLD-L1-039.
+Passende aanleidingen om een plan te herzien zijn: duidelijke veranderingen in de persoonlijke financiële situatie (een verandering van inkomen, nieuwe financiële doelen, een grote uitgave die eraan komt), een geplande regelmatige herziening (bijvoorbeeld één keer per jaar in plaats van voortdurend), of een echte, goed onderbouwde verandering in het inzicht over welke rol edelmetalen in het totale financiële plaatje moeten spelen – niet simpelweg omdat de prijzen over een korte periode een onverwachte kant op zijn gegaan.
 
-## Hoofdles
+Dit onderscheid is belangrijk omdat het hele punt van een plan vooraf opschrijven, zoals in de vorige les behandeld, is om een stabiel referentiepunt te hebben juist om reactieve, emotionele beslissingen op korte termijn te weerstaan. Een plan dat bij elke schommeling op korte termijn wordt opgegeven, mist zijn eigen doel volledig.
 
-### 1. Het concept begrijpen
+## Praktijkvoorbeeld
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **de planevaluatie** gaat het om veranderingen in inkomen, doelen, concentratie of liquiditeitsbehoefte kunnen aanpassing rechtvaardigen.
+Een belegger die zijn schriftelijke plan volgt, ziet kort na een aankoop een flinke prijsdaling op korte termijn. Het plan zelf had dit soort schommelingen voorzien (verbonden met de eerdere les over volatiliteit), dus dit alleen is geen terechte aanleiding om het plan op te geven – het is precies het soort moment waarvoor het plan vooraf werd geschreven, om het te helpen doorstaan. Vergelijk dat met een echte verandering in het leven, zoals baanverlies waardoor het beschikbare maandbudget flink verandert – dat is een terechte, bewuste reden om het budgetdeel van het plan te herzien en aan te passen, zonder de hele langetermijnstrategie en de redenering erachter te hoeven opgeven.
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+## Oefenquiz
 
-### 2. Denken vóór handelen
+1. Welk belangrijk onderscheid maakt deze les als het gaat om het aanpassen van een plan?
+2. Noem twee passende, terechte aanleidingen om een beleggingsplan voor metalen te herzien.
+3. Is een prijsdaling op korte termijn op zichzelf een terechte aanleiding om een goed opgebouwd plan op te geven?
+4. Waarom verbindt de les dit begrip met het onderscheid tussen volharding en koppigheid uit het leiderschapstraject?
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoordsleutel
+1. Bewuste, regelmatige herziening tegenover reactief, emotioneel opgeven.
+2. Twee van: duidelijke veranderingen in de persoonlijke financiële situatie, een geplande regelmatige herziening, of een echte, goed onderbouwde verandering in inzicht.
+3. Nee – het plan is juist vooraf geschreven om precies dit soort voorziene schommelingen op korte termijn te helpen doorstaan.
+4. Omdat het bij beide onderscheiden gaat om trouw blijven aan een degelijk onderliggend doel en tegelijk echt ingaan op werkelijke, bewuste redenen voor verandering, in plaats van emotioneel te reageren op ruis op korte termijn.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
+## Antwoorden en uitleg
+1. Dit onderscheid is het centrale begrip dat de les vastlegt voor een passende omgang met het herzien van een plan.
+2. Deze aanleidingen staan voor echte, bewuste redenen voor aanpassing, los van reactieve antwoorden op schommelingen.
+3. Dit versterkt dat voorziene schommelingen op zichzelf geen terechte reden zijn om een goed doordacht plan op te geven.
+4. Dit verband over trajecten heen versterkt een consequent principe dat in verschillende onderdelen van dit lesprogramma geldt.
 
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **de planevaluatie** van theorie een observeerbare regel: op vaste momenten en bij belangrijke gebeurtenissen evalueren. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **De planevaluatie:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-040-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **de planevaluatie**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- De planevaluatie moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-040-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **de planevaluatie** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-040-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **de planevaluatie** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-040-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **de planevaluatie** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-040-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-040-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-041.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-039
-- **Huidige:** GOLD-L1-040 — Een Edelmetaalplan in de Tijd Evalueren en Aanpassen
-- **Volgende:** GOLD-L1-041
-
-## SEO-blok
-
-### GOLD-L1-040-SEO
-
-**Trefwoorden:** de planevaluatie, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp de planevaluatie en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-040-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-040-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-040-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Een plan moet bewust en regelmatig worden herzien, niet reactief worden opgegeven door prijsschommelingen op korte termijn.
+- Terechte aanleidingen voor herziening zijn echte veranderingen in de financiële situatie, geplande regelmatige herzieningen of echte verschuivingen in inzicht – niet alleen prijsbewegingen op korte termijn.
+- Dit weerspiegelt het onderscheid tussen volharding en koppigheid: trouw blijven aan een degelijk plan en tegelijk echt openstaan voor werkelijke, bewuste redenen voor verandering.

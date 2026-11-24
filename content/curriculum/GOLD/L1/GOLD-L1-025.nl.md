@@ -1,227 +1,56 @@
 ---
 id: GOLD-L1-025
 track: GOLD
-officialTrackName: Beleggen en Vermogensopbouw
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 25
-title: "Prijsvolatiliteit bij Edelmetalen"
-summary: "Begrijp waarom sterke prijsbewegingen normaal kunnen zijn bij edelmetalen."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: inleidend
-estimatedTime: 35–50 minuten
-prerequisites: "GOLD-L1-024"
-componentIds:
-  - GOLD-L1-025-MAIN
-  - GOLD-L1-025-EXAMPLES
-  - GOLD-L1-025-EXERCISE
-  - GOLD-L1-025-ASSESSMENT
-  - GOLD-L1-025-ANSWER-KEY
-  - GOLD-L1-025-COMPETENCY
-  - GOLD-L1-025-AI
-  - GOLD-L1-025-SEO
-  - GOLD-L1-025-LOCALIZATION
-  - GOLD-L1-025-REFERENCES
+locale: nl
+title: "Prijsschommelingen bij edelmetalen"
+summary: "Legt prijsschommelingen (volatiliteit) uit als normaal kenmerk van beleggen in edelmetalen, niet als teken dat er iets misgaat."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Prijsvolatiliteit bij Edelmetalen
-
-### GOLD-L1-025-MAIN
-
-## Samenvatting
-
-Deze les behandelt **volatiliteit**. De kern is begrijpen hoe forse prijsschommelingen die ook binnen een langetermijnstrategie kunnen voorkomen. Het doel is niet om de leerling te vertellen wat hij of zij moet kopen, maar om beslissingen te leren nemen met duidelijke doelen, cijfers, kosten, risico en discipline.
+# Prijsschommelingen bij edelmetalen
 
 ## Leerdoelen
+- Volatiliteit in de context van beleggen definiëren
+- Uitleggen waarom edelmetalen, vooral zilver, flinke schommelingen kunnen kennen
+- Volatiliteit herkennen als normaal kenmerk, niet als gebrek
 
-- **Financiële geletterdheid:** volatiliteit eenvoudig uitleggen.
-- **Financiële competentie:** het concept toepassen op een concrete situatie.
-- **Beter oordeel:** voordelen, beperkingen en risico's herkennen.
-- **Betere beslissingen:** posities zo groot maken dat schommelingen draaglijk blijven.
-- **Vermogensopbouw:** de vaardigheid in een langetermijnproces integreren zonder afhankelijk te zijn van voorspellingen.
+## Kerninhoud
 
-## Vereisten
+Volatiliteit beschrijft hoe sterk en hoe snel de prijs van een bezit in een bepaalde periode in de ene of de andere richting beweegt. Edelmetalen, en vooral zilver (door de kleinere markt en de extra industriële vraag die in een eerdere les is besproken), kunnen merkbare prijsschommelingen kennen en soms op één dag flink bewegen door economisch nieuws, valutabewegingen of een omslag in de stemming van beleggers.
 
-GOLD-L1-024.
+Deze volatiliteit is een normaal kenmerk van de beleggingscategorie, geen bewijs dat er iets is misgegaan of dat het onderliggende beleggingsidee heeft gefaald. Nieuwe beleggers zien schommelingen op korte termijn soms aan voor een teken van slechte beslissingen, terwijl in werkelijkheid vrijwel elk actief verhandeld financieel bezit in zekere mate schommelt – edelmetalen zijn op die algemene marktrealiteit gewoon geen uitzondering.
 
-## Hoofdles
+Volatiliteit als normaal in plaats van alarmerend begrijpen ondersteunt direct de eerder in dit traject behandelde principes van geduld en een lange beleggingshorizon. Een belegger die schommelingen als deel van het proces verwacht en accepteert, is veel beter in staat bij een langetermijnstrategie te blijven dan iemand die door elke koersschommeling verrast en van slag raakt.
 
-### 1. Het concept begrijpen
+## Praktijkvoorbeeld
 
-[GEVERIFIEERD FEIT] Een beleggingsbeslissing hoort te beginnen met doel, tijdshorizon, liquiditeitsbehoefte en risicodraagkracht. Bij **volatiliteit** gaat het om forse prijsschommelingen die ook binnen een langetermijnstrategie kunnen voorkomen.
+De zilverprijs kan binnen één handelsdag door een economisch bericht enkele procentpunten stijgen of dalen – dat kan alarmerend lijken voor een nieuwe belegger die dagelijks de prijzen controleert, vooral als het kort na een aankoop gebeurt. Maar bekeken tegen de meerjarige beleggingshorizon die dit traject steeds heeft benadrukt, met de biografische casus als illustratie, is de schommeling van één dag een normaal, te verwachten onderdeel van het aanhouden van deze beleggingscategorie en geen betekenisvol signaal over de degelijkheid van de langetermijnstrategie.
 
-Een belegging kan voor de ene persoon passend zijn en voor een andere niet. Naast de prijs tellen kosten, verkoopbaarheid, veiligheid, belastingen, alternatieven en het moment waarop het geld nodig is.
+## Oefenquiz
 
-### 2. Denken vóór handelen
+1. Definieer volatiliteit in de context van beleggen.
+2. Waarom kan juist zilver flinke schommelingen kennen?
+3. Is volatiliteit een teken dat er met een belegging iets mis is gegaan?
+4. Hoe ondersteunt het begrijpen van volatiliteit als normaal het principe van geduld uit eerdere lessen?
 
-Stel vijf vragen: Wat is mijn doel? Hoeveel kapitaal is werkelijk beschikbaar? Voor hoe lang? Wat kan misgaan? Welk alternatief geef ik op?
+## Antwoordsleutel
+1. Hoe sterk en hoe snel de prijs van een bezit in een bepaalde periode in de ene of de andere richting beweegt.
+2. Door de kleinere markt en de extra industriële vraag in vergelijking met goud.
+3. Nee – het is een normaal kenmerk van de beleggingscategorie, geen bewijs van slechte beslissingen of een mislukt beleggingsidee.
+4. Een belegger die schommelingen als normaal verwacht en accepteert, kan beter bij een langetermijnstrategie blijven in plaats van emotioneel te reageren op koersschommelingen op korte termijn.
 
-[ILLUSTRATIEF VOORBEELD] Iemand heeft €7.500 spaargeld, maar €5.500 daarvan is de noodreserve. Het rekeningsaldo is dus niet hetzelfde als beschikbaar beleggingskapitaal. Door functies van geld te scheiden, wordt de kans op een gedwongen verkoop kleiner.
+## Antwoorden en uitleg
+1. Dit definieert het kernbegrip prijsvolatiliteit zoals het in deze les wordt behandeld.
+2. De specifieke marktkenmerken van zilver verklaren zijn meestal hogere volatiliteit vergeleken met goud.
+3. Dit corrigeert direct een veelvoorkomend misverstand bij nieuwe beleggers over prijsbewegingen.
+4. Dit verbindt het begrip van volatiliteit direct met het principe van geduld dat eerder in het traject is vastgelegd.
 
-### 3. Kosten, risico en resultaat
-
-Stel dat het metaal in een product een referentiewaarde van €500 heeft, het product €545 kost en de onmiddellijke terugkoopprijs €480 is. Die economische afstand tussen kopen en verkopen moet eerst worden begrepen voordat van winst kan worden gesproken.
-
-Risico is meer dan alleen een prijsdaling. Het omvat liquiditeit, fraude, vervalsing, fysiek verlies, concentratie, bewaarkosten, belastingen en de noodzaak om eerder dan gepland te verkopen.
-
-### 4. Toepassing
-
-Maak voor **volatiliteit** van theorie een observeerbare regel: posities zo groot maken dat schommelingen draaglijk blijven. Een vooraf opgeschreven regel helpt voorkomen dat angst, enthousiasme, sociale media of verkoopdruk de analyse vervangen.
-
-[AANNAME] Alle bedragen zijn uitsluitend educatieve voorbeelden en vormen geen prijsvoorspelling of rendementsbelofte.
-
-### 5. De beslissing beoordelen
-
-Een goede beslissing kan een slecht resultaat hebben en een slechte beslissing kan geluk hebben. Beoordeel daarom eerst het proces: informatie, kosten, alternatieven, risico's en aansluiting op het doel. Meet daarna de uitkomst en pas aan wanneer feiten veranderen.
-
-## Belangrijke Begrippen
-
-- **Actief:** economisch waardevol bezit.
-- **Rendement:** winst of verlies op een belegging.
-- **Risico:** mogelijkheid dat de uitkomst afwijkt van de verwachting.
-- **Liquiditeit:** mogelijkheid om een actief snel en zonder grote korting in geld om te zetten.
-- **Opportuniteitskosten:** potentieel voordeel van het beste alternatief dat niet is gekozen.
-- **Volatiliteit:** het centrale onderwerp van deze les toegepast op beleggen.
-
-## Uitgewerkte Voorbeelden
-
-### GOLD-L1-025-EXAMPLES
-
-**Voorbeeld 1 — in- en uitstap:** een product kost €2.625 terwijl de referentiewaarde van het metaal €2.500 is. Bij onmiddellijke terugkoop voor €2.430 bedraagt het economische verschil €195.
-
-**Voorbeeld 2 — concentratie:** in een portefeuille van €50.000 is €2.500 gelijk aan 5%, terwijl €25.000 gelijk is aan 50%. Hetzelfde actief kan dus zeer verschillende risiconiveaus veroorzaken.
-
-**Voorbeeld 3 — tijd:** geld dat over drie maanden nodig is voor wonen, onderwijs of reparaties heeft een andere functie dan kapitaal voor een doel over tien jaar.
-
-## Casus
-
-Sophie wil edelmetalen kopen nadat zij berichten over inflatie heeft gelezen. Zij heeft €30.000 spaargeld en ongeveer €7.000 aan noodzakelijke maandelijkse uitgaven. Eerst scheidt zij haar noodreserve, stelt zij een kleine periodieke aankoop vast, vergelijkt zij totale kosten en plant zij ieder kwartaal een evaluatie.
-
-**Beslis vóór je de analyse leest:** goud is twee weken gestegen. Moet Sophie haar aankoop direct verdubbelen? Motiveer met doel, budget, risico en **volatiliteit**.
-
-**Analyse:** een recente stijging verandert op zichzelf haar financiële draagkracht of doel niet. Een wijziging van het plan hoort gebaseerd te zijn op relevante nieuwe feiten en vooraf vastgelegde criteria.
-
-## Veelgemaakte Fouten
-
-1. Een overtuigend verhaal verwarren met bewijs.
-2. De noodreserve beleggen.
-3. Premies, spreads, kosten of bewaring negeren.
-4. Te veel vermogen in één idee concentreren.
-5. Het plan wijzigen vanwege normale marktbewegingen.
-6. Geen goede administratie bijhouden.
-
-## Veelgestelde Vragen
-
-**Garandeert dit concept winst?** Nee. Geen enkel proces verwijdert beleggingsrisico.
-
-**Moet ik de goudprijs voorspellen?** Nee. Discipline vereist geen nauwkeurige kortetermijnvoorspelling.
-
-**Betekent meer metaal altijd meer veiligheid?** Nee. Te grote concentratie kan risico verhogen.
-
-**Wanneer moet ik mijn plan evalueren?** Op geplande momenten en wanneer inkomen, doelen, behoeften of portefeuille wezenlijk veranderen.
-
-## Kernpunten
-
-- Volatiliteit moet aan een doel gekoppeld zijn.
-- Kosten en liquiditeit beïnvloeden het economische resultaat.
-- Positiegrootte verandert het risico.
-- Schriftelijke regels verminderen emotionele beslissingen.
-- Evaluaties moeten op gegevens steunen.
-
-## Praktische Oefening
-
-### GOLD-L1-025-EXERCISE
-
-Maak één pagina met: doel, horizon, beschikbaar kapitaal zonder de noodreserve, drie risico's, twee te controleren kosten, één alternatief voor het kapitaal, één regel rond **volatiliteit** en de datum van de volgende evaluatie.
-
-## Socratische Leergids
-
-### GOLD-L1-025-AI
-
-1. Welk financieel probleem helpt dit concept oplossen?
-2. Hoe leg je **volatiliteit** uit aan een beginner?
-3. Welke gegevens zijn nodig vóór een beslissing?
-4. Welke negatieve uitkomst is realistisch?
-5. Welke kosten kunnen buiten de geadverteerde prijs vallen?
-6. Wat verandert als het geld over zes maanden nodig is?
-7. Wat gebeurt er als de positie de helft van het vermogen vormt?
-8. Wat is het beste alternatief voor dit kapitaal?
-9. Welke regel kan een emotionele reactie beperken?
-10. Welk nieuw feit rechtvaardigt een evaluatie?
-
-## Competentietoets
-
-### GOLD-L1-025-ASSESSMENT
-
-1. Wat komt vóór het kiezen van een belegging? A) Morgen voorspellen B) Doel, horizon en draagkracht bepalen C) Het populairste product kopen D) Een verkoper blind volgen.
-2. Waar of onwaar: een belegging kan voor de ene persoon geschikt zijn en voor de andere niet.
-3. Koopprijs €1.050, onmiddellijke verkoop €970. Wat is het verschil?
-4. Definieer liquiditeit.
-5. Wat zijn opportuniteitskosten? A) Het beste opgegeven alternatief B) Alleen een vergoeding C) Alleen inflatie D) Geen van deze.
-6. Waar of onwaar: diversificatie verwijdert al het risico.
-7. Noem twee risico's naast prijsdaling.
-8. €10.000 in een portefeuille van €50.000 is welk percentage?
-9. Waarom helpt een schriftelijke regel tijdens volatiliteit?
-10. Leg in twee zinnen uit hoe je **volatiliteit** vóór een aankoop toepast.
-
-## Antwoordmodel
-
-### GOLD-L1-025-ANSWER-KEY
-
-1. **B.** Competentie: voorbereiding. Veelgemaakte fout: beginnen bij het product.
-2. **Waar.** Competentie: geschiktheid binnen de context.
-3. **€80.** Competentie: in- en uitstapkosten.
-4. **Een actief snel in geld kunnen omzetten zonder grote korting.**
-5. **A.** Competentie: alternatieven vergelijken.
-6. **Onwaar.** Diversificatie kan bepaalde risico's verminderen, niet verwijderen.
-7. **Voorbeelden:** liquiditeit, fraude, bewaring, tegenpartij, concentratie of belasting.
-8. **20%.** Competentie: concentratie.
-9. **Omdat criteria worden vastgelegd vóór emotionele druk ontstaat.**
-10. **Verwacht:** concept verbinden met doel, horizon, budget, kosten, risico's en beslisregel.
-
-## Competentiestandaard
-
-### GOLD-L1-025-COMPETENCY
-
-- **Beheersing:** 8 van 10 antwoorden correct (80%).
-- **Herstelpad:** herhaal de onderwerpen van fout beantwoorde vragen, los opnieuw een rekenvoorbeeld op en leg de beslissing in eigen woorden uit.
-- **Voortgang:** beheersing ontgrendelt GOLD-L1-026.
-
-## Verder Leren
-
-Gebruik officiële educatieve en toezichthoudende bronnen die op de relevante jurisdictie van toepassing zijn. Fiscale, juridische en consumentenregels moeten actueel worden gecontroleerd en waar nodig met een gekwalificeerde professional worden besproken.
-
-## Lespad
-
-- **Vorige:** GOLD-L1-024
-- **Huidige:** GOLD-L1-025 — Prijsvolatiliteit bij Edelmetalen
-- **Volgende:** GOLD-L1-026
-
-## SEO-blok
-
-### GOLD-L1-025-SEO
-
-**Trefwoorden:** volatiliteit, edelmetalen, beleggen, financiële educatie, GOLD Niveau 1  
-**Beschrijving:** Begrijp volatiliteit en pas dit principe toe op meer gedisciplineerde beleggingsbeslissingen.
-
-## AI-ondersteuning
-
-### GOLD-L1-025-AI
-
-De tutor legt concepten uit, vraagt om redenering, gebruikt hypothetische voorbeelden en corrigeert misverstanden. De tutor garandeert geen rendement, voorspelt geen prijzen en geeft geen persoonlijk financieel, fiscaal of juridisch advies.
-
-## Lokalisatie
-
-### GOLD-L1-025-LOCALIZATION
-
-- **Globaal:** doelen, risico, kosten, diversificatie, liquiditeit en discipline.
-- **Nederland:** gebruik standaard Nederlands en euro's. Belastingen, regelgeving, consumentenbescherming en productspecifieke behandeling moeten met actuele Nederlandse bronnen worden gecontroleerd voordat ze als toepasselijke regels worden gepresenteerd.
-
-## Bronnen en Verificatie
-
-### GOLD-L1-025-REFERENCES
-
-- Algemene financiële concepten: zonder marktvoorspellingen.
-- Bedragen: illustratieve voorbeelden.
-- Nederlandse regels: vereisen actuele verificatie.
-- Actuele koersen of statistieken: niet gebruikt.
+## Belangrijkste punten
+- Volatiliteit beschrijft hoe sterk en hoe snel de prijs van een bezit beweegt, en is een normaal kenmerk van beleggen in edelmetalen.
+- Zilver schommelt door zijn kleinere markt en de industriële vraag meestal sterker dan goud.
+- Volatiliteit als normaal in plaats van alarmerend zien helpt om bij een geduldige beleggingsstrategie voor de lange termijn te blijven.

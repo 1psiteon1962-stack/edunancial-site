@@ -4,50 +4,51 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 7
+locale: pt-BR
 title: "Tolerância ao risco e horizonte de tempo"
-summary: "Explica que o nível adequado de risco depende fortemente de quando o dinheiro será necessário."
+summary: "Explica como o nível adequado de risco depende muito de quando o dinheiro será necessário."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "pt-BR"
 ---
 
 # Tolerância ao risco e horizonte de tempo
 
 ## Objetivos de aprendizagem
-- Compreender o conceito principal da lição.
-- Relacioná-lo a decisões de investimento de longo prazo.
-- Aplicar o princípio a uma situação financeira concreta.
+- Definir tolerância ao risco e horizonte de tempo no contexto do investimento
+- Explicar como os dois conceitos se relacionam
+- Praticar a escolha de um nível de risco adequado a determinado horizonte de tempo
 
 ## Conteúdo principal
 
-Tolerância ao risco é o nível de oscilação e perda potencial que um investidor está disposto e é capaz de aceitar. Horizonte de tempo indica quando o dinheiro investido precisará ser usado. Os conceitos estão ligados: um horizonte mais longo geralmente permite suportar mais volatilidade, pois há mais tempo para recuperação após uma queda. Um horizonte curto normalmente exige maior cautela.
+Tolerância ao risco é o quanto de oscilação de preço e de perda potencial um investidor está disposto e apto a aceitar em busca de crescimento. Horizonte de tempo é quando o dinheiro investido realmente será necessário. Os dois conceitos estão muito ligados: um horizonte de tempo mais longo geralmente permite mais tolerância ao risco, porque há mais tempo para o investimento se recuperar de uma queda antes que o dinheiro seja de fato necessário. Um horizonte mais curto geralmente pede menos tolerância ao risco, porque há menos tempo para se recuperar se o valor cair pouco antes de o dinheiro ser necessário.
 
-Isso se conecta ao modelo Ganhar/Conservar/Crescer/Transmitir. Dinheiro destinado a “Crescer” para objetivos distantes pode suportar mais oscilação de curto prazo do que dinheiro a “Conservar” para necessidades próximas. Adequar risco e prazo é fundamental.
+Isso se liga à lição anterior sobre Ganhar/Conservar/Crescer/Transmitir: o dinheiro de "Crescer", destinado a objetivos de longo prazo, normalmente consegue absorver mais volatilidade de curto prazo do que o dinheiro de "Conservar", destinado a necessidades próximas. Desalinhar tolerância ao risco e horizonte de tempo – correr muito risco com dinheiro que será necessário logo, ou ser cauteloso demais com dinheiro que tem décadas para crescer – costuma produzir um resultado pior do que alinhá-los adequadamente.
 
 ## Exemplo prático
 
-EXEMPLO ILUSTRATIVO: o investidor aplica o princípio da lição a uma decisão real considerando objetivos, horizonte de tempo, custos, riscos e alternativas antes de agir.
+EXEMPLO ILUSTRATIVO: Um jovem de 15 anos que acrescenta ouro a uma posição em crescimento, com o dinheiro destinado a um objetivo daqui a dez anos ou mais, pode razoavelmente tolerar mais oscilação de preço no curto prazo, já que há bastante tempo para qualquer queda se recuperar antes que o dinheiro seja necessário. Compare isso com alguém que precisa de um valor específico daqui a seis meses para uma despesa conhecida e fixa: esse dinheiro geralmente deveria ficar em algo muito mais estável, porque uma queda pouco antes de ser necessário não deixaria tempo para recuperação.
 
-## Quiz de verificação
-1. Qual é o conceito principal desta lição?
-2. Por que ele é importante para um investidor?
-3. Qual risco ou compromisso deve ser considerado?
-4. Como ele se conecta a um plano financeiro de longo prazo?
+## Teste de prática
 
-## Soluções
-1. O conceito central explicado no conteúdo principal.
-2. Ele ajuda a tomar decisões coerentes com objetivos e horizonte de tempo.
-3. Toda decisão envolve riscos, custos ou compromissos.
-4. Deve ser aplicado dentro do plano financeiro geral.
+1. Defina tolerância ao risco e horizonte de tempo com suas próprias palavras.
+2. Segundo esta lição, como tolerância ao risco e horizonte de tempo estão ligados?
+3. Por que um horizonte de tempo mais longo geralmente permite mais tolerância ao risco?
+4. No exemplo prático, por que a posição do jovem de 15 anos pode razoavelmente tolerar mais oscilação no curto prazo?
+
+## Gabarito
+1. Tolerância ao risco é o quanto de oscilação/perda um investidor consegue aceitar; horizonte de tempo é quando o dinheiro será necessário.
+2. Um horizonte de tempo mais longo geralmente permite mais tolerância ao risco, e vice-versa.
+3. Porque há mais tempo para o investimento se recuperar de uma queda antes que o dinheiro seja de fato necessário.
+4. Porque o dinheiro se destina a um objetivo daqui a uma década ou mais, o que dá bastante tempo para qualquer queda se recuperar.
 
 ## Respostas e explicações
-1. A definição estabelece a base conceitual.
-2. A perspectiva de longo prazo reduz decisões impulsivas.
-3. Reconhecer compromissos melhora a qualidade da decisão.
-4. Os conceitos da trilha funcionam juntos em um plano coerente.
+1. Isso define os dois conceitos centrais que a lição conecta.
+2. Essa ligação é a relação central que a lição estabelece entre risco e tempo.
+3. O tempo de recuperação é o mecanismo que permite que horizontes mais longos absorvam mais volatilidade de curto prazo.
+4. Este exemplo aplica diretamente a relação entre tolerância ao risco e horizonte de tempo ao estudo de caso.
 
-## Pontos principais
-- Compreender antes de agir.
-- Avaliar riscos, custos e alternativas.
-- Manter as decisões alinhadas ao plano financeiro.
+## Pontos-chave
+- Tolerância ao risco e horizonte de tempo estão muito ligados: horizontes mais longos geralmente permitem mais risco.
+- O dinheiro que será necessário logo geralmente deve correr menos risco, pois há menos tempo para se recuperar de uma queda.
+- Alinhar adequadamente a tolerância ao risco ao horizonte de tempo, em vez de desalinhá-los, tende a produzir melhores resultados.

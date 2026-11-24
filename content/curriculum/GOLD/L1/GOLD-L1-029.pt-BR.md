@@ -4,52 +4,53 @@ track: GOLD
 officialTrackName: "Investing"
 level: 1
 lessonNumber: 29
-title: "Correlação com o mercado de ações"
-summary: "Apresenta o conceito de correlação e a relação histórica entre metais preciosos e o mercado de ações."
+locale: pt-BR
+title: "A correlação com o mercado de ações"
+summary: "Apresenta o conceito de correlação e como os metais preciosos historicamente se relacionaram com os movimentos do mercado de ações."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
-locale: "pt-BR"
 ---
 
-# Correlação com o mercado de ações
+# A correlação com o mercado de ações
 
 ## Objetivos de aprendizagem
-- Compreender o conceito principal da lição.
-- Relacioná-lo às decisões de investimento de longo prazo.
-- Aplicar o princípio a uma situação financeira concreta.
+- Definir correlação no contexto do investimento
+- Explicar a tendência histórica geral dos metais preciosos em relação aos movimentos do mercado de ações
+- Entender por que essa relação apoia o conceito de diversificação
 
 ## Conteúdo principal
 
-Correlação descreve o quanto dois ativos tendem a se movimentar juntos. Ativos altamente correlacionados tendem a subir e cair de maneira semelhante; correlação baixa ou negativa indica movimentos mais independentes.
+A correlação descreve o quanto dois ativos tendem a se mover em conjunto. Dois ativos altamente correlacionados tendem a subir e cair juntos; dois ativos com correlação baixa ou negativa tendem a se mover de forma mais independente um do outro, ou até em direções opostas em certos períodos.
 
-Historicamente, metais preciosos muitas vezes apresentaram correlação relativamente baixa, e em certos períodos negativa, com ações. Durante algumas quedas acentuadas do mercado acionário, metais mantiveram valor ou subiram, mas essa relação não é perfeita nem garantida.
+Os metais preciosos historicamente tenderam a apresentar correlação relativamente baixa, e às vezes negativa, com as ações – o que significa que, em alguns períodos em que os mercados de ações caíram de forma significativa, o preço dos metais preciosos se manteve estável ou até subiu, embora essa relação não seja perfeitamente consistente nem garantida em todos os períodos de mercado. Essa tendência geral explica em parte por que os metais preciosos são muitas vezes discutidos especificamente no contexto da diversificação, apresentada brevemente em lição anterior.
 
-A diversificação funciona justamente porque os ativos não se movimentam todos da mesma forma. Combinar ativos com padrões diferentes de correlação pode reduzir a volatilidade geral do portfólio, sem garantir resultados futuros.
+A diversificação funciona justamente porque nem todos os ativos se movem em perfeita sincronia – ter uma combinação de ativos com padrões de correlação diferentes pode reduzir a volatilidade geral de uma carteira, já que a queda de um tipo de ativo pode ser compensada em parte pela estabilidade ou pelos ganhos de outro. Trata-se de uma tendência geral observada historicamente, e não de uma garantia para algum período futuro específico, em linha com o enquadramento cauteloso que esta trilha aplica do começo ao fim aos padrões históricos.
 
 ## Exemplo prático
 
-EXEMPLO ILUSTRATIVO: o investidor aplica o princípio da lição a uma decisão concreta considerando objetivos, horizonte de tempo, custos, riscos e alternativas antes de agir.
+Num período de forte queda do mercado de ações causada por incerteza econômica generalizada, os metais preciosos, em vários momentos da história, mantiveram seu valor ou até subiram, à medida que investidores buscavam uma reserva de valor percebida como mais segura durante essa incerteza. Isso não acontece em toda queda do mercado, e não é algo com que se possa contar com certeza para algum evento futuro específico, mas essa tendência histórica geral faz parte do raciocínio que alguns investidores usam para incluir os metais preciosos como uma parte de uma carteira diversificada.
 
-## Quiz de verificação
-1. Qual é o conceito principal desta lição?
-2. Por que ele é importante para um investidor?
-3. Qual risco ou compromisso deve ser considerado?
-4. Como ele se conecta a um plano financeiro de longo prazo?
+## Teste de prática
 
-## Soluções
-1. O conceito central explicado no conteúdo principal.
-2. Ele ajuda a tomar decisões mais informadas e disciplinadas.
-3. Toda escolha envolve riscos, custos ou compromissos.
-4. Deve ser aplicado de acordo com objetivos, risco e horizonte de tempo.
+1. Defina correlação no contexto do investimento.
+2. Como tem sido, em geral, a correlação histórica dos metais preciosos com o mercado de ações?
+3. Por que essa tendência apoia o conceito de diversificação?
+4. Esse padrão de correlação é garantido para algum período de mercado futuro específico?
+
+## Gabarito
+1. O quanto dois ativos tendem a se mover em conjunto.
+2. Relativamente baixa, e às vezes negativa – o que significa que os metais às vezes se mantiveram estáveis ou subiram durante quedas do mercado de ações.
+3. Porque a diversificação funciona combinando ativos que não se movem todos em perfeita sincronia, o que pode reduzir a volatilidade geral de uma carteira.
+4. Não – é uma tendência geral observada historicamente, e não uma garantia para algum período futuro específico.
 
 ## Respostas e explicações
-1. A definição estabelece a base conceitual.
-2. A aplicação transforma teoria em capacidade de decisão.
-3. Reconhecer limitações evita conclusões excessivamente simples.
-4. Os conceitos da trilha funcionam juntos em um plano coerente.
+1. Isso estabelece o conceito central por trás da relação discutida nesta lição.
+2. Essa tendência histórica é o padrão específico que liga os metais preciosos às estratégias de diversificação de carteira.
+3. A redução da volatilidade geral é o benefício prático que uma correlação baixa ou negativa pode trazer numa carteira diversificada.
+4. Essa ressalva é essencial e coerente com o tratamento cauteloso dos padrões históricos ao longo desta trilha.
 
-## Pontos principais
-- Compreender antes de agir.
-- Avaliar riscos, custos e alternativas.
-- Manter as decisões alinhadas ao plano financeiro.
+## Pontos-chave
+- A correlação descreve o quanto dois ativos tendem a se mover juntos; correlação baixa ou negativa significa movimento mais independente.
+- Os metais preciosos historicamente apresentaram correlação relativamente baixa, e às vezes negativa, com as ações, embora isso não seja uma garantia constante.
+- Essa tendência geral explica em parte por que os metais preciosos são muitas vezes incluídos especificamente para fins de diversificação numa carteira mais ampla.
