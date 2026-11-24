@@ -1,0 +1,368 @@
+===== BLUE-L1-006
+TITLE: LLC o LLP: quale si adatta a quale situazione?
+SUMMARY: Confronta fianco a fianco le strutture LLC e LLP per vedere quali situazioni si adattano in modo naturale a ciascuna.
+# LLC o LLP: quale si adatta a quale situazione?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- confrontare LLC e LLP in base alla struttura proprietaria.
+- confrontare LLC e LLP in base all'uso tipico.
+- applicare questo confronto a un semplice scenario ipotetico.
+
+## Contenuto principale
+
+### Stesso obiettivo, forma diversa
+
+Entrambe le strutture esistono per limitare la responsabilità personale: è l'obiettivo comune. Differiscono per chi le usa e per come è costruita la protezione.
+
+### Struttura proprietaria
+
+Una LLC può avere un solo socio o molti. Una LLP è costruita espressamente attorno a più soci: non si adatta a una vera situazione con un unico proprietario come fa una LLC.
+
+### Uso tipico
+
+Una LLC si adatta a un'ampia gamma di attività: un negozio, uno studio di consulenza, un'attività di servizi con un solo titolare. Una LLP è associata più specificamente alle associazioni tra professionisti abilitati, in cui il punto centrale è la responsabilità individuale di ciascun socio per il lavoro degli altri.
+
+### Chiediti questo
+
+Se avviassi un'attività di consulenza da solo, una LLP sarebbe anche solo un'opzione? Non proprio: le LLP presuppongono dei soci. Quella sola domanda spesso chiarisce quale struttura si adatta davvero.
+
+## Esempio svolto
+
+Un consulente freelance senza soci deve scegliere tra LLC e LLP. Chiediti: la LLP si applica davvero qui? Poiché le LLP sono costruite attorno a più soci, questo scenario punta chiaramente verso una LLC. Ora immagina tre commercialisti che aprono uno studio insieme: in questo scenario sono possibili entrambe le strutture, e la protezione della LLP sulla responsabilità tra soci diventa il fattore più rilevante.
+
+## Quiz di esercitazione
+
+1. Quale struttura in genere NON è pensata per un vero proprietario unico?
+   A. LLC
+   B. LLP
+   C. Entrambe sono pensate solo per proprietari unici
+   D. Nessuna delle due riguarda la struttura proprietaria
+
+2. Vero o falso: LLC e LLP condividono lo stesso obiettivo di base di limitare la responsabilità personale.
+
+3. Un consulente da solo, senza soci, sta scegliendo una struttura. Quale è la più naturale, guardando solo alla struttura proprietaria?
+   A. LLP
+   B. LLC
+   C. Nessuna delle due si adatta a un proprietario unico
+   D. Entrambe sono ugualmente inadatte
+
+## Soluzioni
+
+1. B
+2. Vero
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Le LLP sono costruite attorno a più soci, non a un vero proprietario unico.
+
+### Domanda 2
+
+Risposta corretta: Vero. Entrambe le strutture condividono l'obiettivo centrale di limitare la responsabilità personale.
+
+### Domanda 3
+
+Risposta corretta: B. Una LLC si adatta a un proprietario unico; una LLP presuppone dei soci.
+
+## Punti chiave
+
+- Sia le LLC sia le LLP limitano la responsabilità personale, ma costruiscono la protezione in modo diverso.
+- Le LLC vanno bene per uno o più proprietari; le LLP presuppongono più soci.
+- Le LLP sono associate più specificamente alle associazioni tra professionisti abilitati.
+
+===== BLUE-L1-007
+TITLE: Che cos'è una società di capitali (corporation)?
+SUMMARY: Scopri che cos'è una corporation, in che cosa differisce strutturalmente da una LLC e perché viene trattata come una "persona" giuridica a sé.
+# Che cos'è una società di capitali (corporation)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una corporation in termini semplici.
+- spiegare che cosa significa dire che una corporation è una "persona" giuridica a sé.
+- spiegare una conseguenza pratica di questo status giuridico separato.
+
+## Contenuto principale
+
+### Una persona giuridica a sé
+
+Una corporation (in Italia simile a una società per azioni, spa) è una struttura d'impresa che crea un soggetto giuridico del tutto separato dai suoi proprietari (gli azionisti), per molti aspetti in modo più formale rispetto a una LLC. La legge tratta una corporation quasi come una "persona" a sé: può possedere beni, firmare contratti, fare causa ed essere citata in giudizio, indipendentemente dalle persone che la possiedono.
+
+### Perché "persona a sé" è importante
+
+Chiediti: se il proprietario di una corporation muore, l'attività finisce automaticamente? In genere no: poiché la corporation esiste come soggetto giuridico a sé, può continuare indipendentemente dalla vita di un singolo proprietario, a differenza di alcune strutture più semplici.
+
+### Una conseguenza pratica: la proprietà tramite azioni
+
+Le corporation sono possedute tramite azioni, introdotte nel percorso WHITE: è il collegamento diretto tra "possedere azioni" e questa struttura d'impresa. Una corporation può avere un solo azionista o milioni, e le azioni possono essere comprate e vendute senza necessariamente disturbare l'attività sottostante.
+
+## Esempio svolto
+
+Immagina una corporation di famiglia il cui fondatore muore. Chiediti: l'attività cessa legalmente di esistere? Poiché la corporation è un soggetto giuridico a sé, la proprietà delle azioni semplicemente passa ad altri (per eredità, vendita o altro): la corporation in sé continua a esistere, separata dalla vita di qualsiasi singola persona.
+
+## Quiz di esercitazione
+
+1. Una corporation si descrive meglio come:
+   A. Lo stesso soggetto giuridico dei suoi proprietari
+   B. Un soggetto giuridico separato dai suoi proprietari
+   C. Disponibile solo per le grandi aziende
+   D. Un tipo di impresa individuale
+
+2. Vero o falso: una corporation in genere cessa di esistere se muore un singolo proprietario.
+
+3. Come è strutturata di solito la proprietà di una corporation?
+   A. Tramite un unico titolo non trasferibile
+   B. Tramite azioni, che possono essere possedute da uno o molti azionisti
+   C. Le corporation non possono essere possedute da nessuno
+   D. La proprietà viene stabilita ogni anno dallo Stato
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una corporation è giuridicamente separata dai suoi proprietari.
+
+### Domanda 2
+
+Risposta corretta: Falso. In genere la corporation continua indipendentemente dalla vita di un singolo proprietario.
+
+### Domanda 3
+
+Risposta corretta: B. La proprietà è strutturata tramite azioni.
+
+## Punti chiave
+
+- Una corporation è un soggetto giuridico a sé, separato dai suoi proprietari.
+- Può continuare a esistere indipendentemente da un singolo proprietario.
+- La proprietà è strutturata tramite azioni, con un collegamento al percorso WHITE.
+
+===== BLUE-L1-008
+TITLE: Subchapter C o Subchapter S: che cosa cambia davvero?
+SUMMARY: Scopri la differenza fondamentale di trattamento fiscale tra una C corporation e una S corporation.
+# Subchapter C o Subchapter S: che cosa cambia davvero?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- spiegare a che cosa si riferiscono "C corp" e "S corp".
+- spiegare la differenza fiscale fondamentale tra le due.
+- riconoscere che lo status di S corp comporta limiti di ammissibilità reali.
+
+## Contenuto principale
+
+### Stessa struttura giuridica, trattamento fiscale diverso
+
+*(REGOLA SPECIFICA PER PAESE: questo descrive la legge fiscale federale degli Stati Uniti. In Italia le società di capitali pagano l'IRES sugli utili e i soci sono tassati di nuovo sui dividendi, mentre esistono regimi particolari, come la trasparenza fiscale per alcune srl; verifica con un commercialista.)* Entrambi i termini si riferiscono alla stessa struttura di corporation vista nella lezione precedente: la differenza è quale sezione del codice tributario federale si applica al modo in cui la corporation viene tassata.
+
+### La differenza fondamentale: chi paga, e quando
+
+Una C corporation paga in genere l'imposta sul reddito a livello societario sui propri utili; se poi distribuisce dividendi agli azionisti, questi pagano in genere di nuovo le tasse su quel reddito: la cosiddetta "doppia imposizione". Una S corporation in genere trasferisce gli utili direttamente nelle dichiarazioni dei redditi personali degli azionisti, evitando quel livello di imposta societaria.
+
+### Chiediti questo
+
+Se lo status di S corp evita la doppia imposizione, perché non lo sceglie ogni corporation? Perché lo status di S corp comporta limiti di ammissibilità reali, tra cui restrizioni sul numero e sul tipo di azionisti, che non tutte le corporation soddisfano o desiderano.
+
+## Esempio svolto
+
+Immagina due corporation identiche con lo stesso utile. Una sceglie il trattamento da C corp; l'altra quello da S corp. Chiediti: se entrambe distribuiscono tutto l'utile agli azionisti, dove viene pagata l'imposta in modo diverso? Nella C corp l'imposta si paga in genere a livello societario e poi di nuovo a livello di azionista. Nella S corp si paga in genere una sola volta, trasferita direttamente nelle dichiarazioni personali degli azionisti.
+
+## Quiz di esercitazione
+
+1. A che cosa si riferiscono "C corp" e "S corp"?
+   A. A due strutture giuridiche d'impresa del tutto diverse
+   B. Alla stessa struttura di corporation, tassata secondo sezioni diverse del codice tributario
+   C. Solo alle dimensioni dell'azienda
+   D. A una distinzione che conta solo per gli enti non profit
+
+2. Vero o falso: una C corporation evita la doppia imposizione, mentre una S corporation no.
+
+3. Perché non tutte le corporation scelgono semplicemente lo status di S corp?
+   A. Lo status di S corp è illegale nella maggior parte degli stati
+   B. Lo status di S corp ha limiti di ammissibilità reali che non tutte le corporation rispettano
+   C. Le S corp sono sempre tassate di più
+   D. Lo status di S corp non esiste
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Entrambi si riferiscono alla stessa struttura, tassata in modo diverso secondo il codice tributario.
+
+### Domanda 2
+
+Risposta corretta: Falso. È il contrario: le C corp rischiano in genere la doppia imposizione; le S corp in genere la evitano.
+
+### Domanda 3
+
+Risposta corretta: B. Requisiti di ammissibilità reali limitano chi può scegliere lo status di S corp.
+
+## Punti chiave
+
+- C corp e S corp si riferiscono alla stessa struttura, tassata in modo diverso.
+- Le C corp rischiano in genere la doppia imposizione; le S corp in genere trasferiscono gli utili una sola volta.
+- Lo status di S corp comporta limiti di ammissibilità reali e non è disponibile per ogni corporation.
+
+===== BLUE-L1-009
+TITLE: Che cos'è una società di persone, e quali sono i rischi reali di una informale?
+SUMMARY: Scopri che cos'è una general partnership e perché una informale, senza documenti, comporta rischi reali per tutti i soggetti coinvolti.
+# Che cos'è una società di persone, e quali sono i rischi reali di una informale?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una general partnership in termini semplici.
+- spiegare perché una società di persone informale è rischiosa.
+- spiegare che cosa può prevenire un accordo scritto tra soci.
+
+## Contenuto principale
+
+### Che cos'è una general partnership
+
+Una general partnership (in Italia simile alla società in nome collettivo, snc, o alla società di fatto) nasce quando due o più persone avviano un'attività insieme, condividendo utili, perdite e gestione, spesso senza nemmeno averlo deciso formalmente, se stanno semplicemente gestendo un'attività insieme senza altra struttura.
+
+### Chiediti questo
+
+Se due amici iniziano a vendere un prodotto insieme con una stretta di mano e nessun accordo scritto, sono legalmente soci? In molti luoghi sì: per impostazione predefinita, il solo fatto di gestire un'attività insieme può creare una società di persone, che qualcuno lo volesse o no.
+
+### Il rischio reale del "poi vediamo"
+
+In una general partnership, ciascun socio è in genere personalmente responsabile non solo delle proprie azioni, ma anche di quelle degli altri soci compiute per conto dell'attività. Senza un accordo scritto che copra aspetti come la ripartizione della proprietà, le decisioni e che cosa succede se qualcuno vuole uscire, i disaccordi possono diventare controversie personali costose, senza una via chiara di risoluzione.
+
+## Esempio svolto
+
+Due amici avviano un'attività insieme in modo informale. Uno firma un contratto con un fornitore all'insaputa dell'altro, e l'attività non riesce a pagarlo. Chiediti: il socio che non ha firmato è comunque coinvolto? Secondo le regole delle general partnership, molto probabilmente sì: ciascun socio può essere personalmente responsabile delle obbligazioni create dall'altro per conto dell'attività.
+
+## Quiz di esercitazione
+
+1. Una general partnership può nascere:
+   A. Solo con documenti formali depositati
+   B. Semplicemente perché due o più persone gestiscono un'attività insieme, anche senza documenti formali
+   C. Solo tra familiari
+   D. Solo per le professioni abilitate
+
+2. Vero o falso: in una general partnership, un socio è responsabile solo delle proprie azioni individuali.
+
+3. Che cosa può aiutare a prevenire un accordo scritto tra soci?
+   A. Qualsiasi rischio d'impresa di qualsiasi tipo
+   B. Controversie costose su proprietà, decisioni e condizioni di uscita
+   C. La necessità di comunicare con un socio
+   D. Le tasse d'impresa del tutto
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una general partnership può nascere per impostazione predefinita, senza documenti formali.
+
+### Domanda 2
+
+Risposta corretta: Falso. I soci possono essere in genere responsabili delle azioni compiute dagli altri per conto dell'attività.
+
+### Domanda 3
+
+Risposta corretta: B. Un accordo scritto aiuta a prevenire controversie costose e poco chiare.
+
+## Punti chiave
+
+- Una general partnership può nascere per impostazione predefinita, anche senza documenti.
+- I soci possono essere in genere personalmente responsabili delle azioni aziendali degli altri.
+- Un accordo scritto tra soci aiuta a prevenire controversie costose e ambigue.
+
+===== BLUE-L1-010
+TITLE: Scegliere una struttura d'impresa: quali domande dovresti porti per prime?
+SUMMARY: Collega le strutture viste finora in un quadro decisionale pratico.
+# Scegliere una struttura d'impresa: quali domande dovresti porti per prime?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- elencare le domande chiave che restringono la scelta della struttura d'impresa adatta.
+- applicare quelle domande a un semplice scenario ipotetico.
+- riconoscere che questo è un quadro di partenza, non una consulenza personalizzata.
+
+## Contenuto principale
+
+### Le domande da porsi per prime
+
+Prima di entrare nei dettagli legali, chiediti: quanti proprietari ci sono? Quanta protezione dalla responsabilità personale serve davvero, visto il livello di rischio dell'attività? Si tratta di una professione abilitata con proprie norme sulla struttura? Ridurre al minimo la doppia imposizione è una priorità? Da sole queste domande non danno una risposta definitiva, ma restringono molto il campo.
+
+### Ragionarci sopra
+
+Un proprietario unico con reali preoccupazioni di responsabilità e nessun interesse a raccogliere investitori esterni viene spesso indirizzato verso una LLC. Più professionisti abilitati potrebbero valutare una LLP. Un'attività che prevede di raccogliere capitali esterni significativi, o che vuole emettere molte azioni, viene spesso indirizzata verso una corporation: un collegamento con argomenti trattati più a fondo nel Livello 3.
+
+### Un limite importante
+
+*IMPORTANTE:* Questa lezione offre un quadro generale per capire, non una consulenza legale o fiscale personalizzata. Una decisione reale dovrebbe coinvolgere un professionista qualificato che esamini la situazione specifica: l'"analogia del medico", trattata più avanti in questo livello, spiega proprio perché vale la pena fare questo passo.
+
+## Esempio svolto
+
+Una persona che avvia da sola un'attività di giardinaggio, preoccupata per la responsabilità se l'attrezzatura danneggia la proprietà di qualcuno, applica il quadro: un proprietario, una reale preoccupazione di responsabilità, nessun bisogno immediato di raccogliere capitali esterni. Chiediti: verso quale struttura delle lezioni precedenti di questo livello punta questa combinazione? Una LLC si adatta bene a questo profilo.
+
+## Quiz di esercitazione
+
+1. Quale domanda è un utile punto di partenza nella scelta di una struttura d'impresa?
+   A. Di che colore dovrebbe essere il logo?
+   B. Quanti proprietari ci sono, e quanta protezione dalla responsabilità serve?
+   C. In che periodo dell'anno dovrebbe aprire l'attività?
+   D. Quanti follower sui social ha il proprietario?
+
+2. Vero o falso: il quadro di questa lezione sostituisce la consulenza legale o fiscale di un professionista.
+
+3. Un proprietario unico con reali preoccupazioni di responsabilità e nessun piano di raccogliere capitali esterni viene spesso indirizzato verso quale struttura?
+   A. Una general partnership
+   B. Una LLC
+   C. Una LLP
+   D. Un ente non profit
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il numero di proprietari e le esigenze di protezione sono domande di partenza fondamentali.
+
+### Domanda 2
+
+Risposta corretta: Falso. È un quadro generale, non un sostituto della consulenza professionale.
+
+### Domanda 3
+
+Risposta corretta: B. Quel profilo punta comunemente verso una LLC.
+
+## Punti chiave
+
+- Domande di partenza chiave: numero di proprietari, esigenze di protezione, tipo di professione e piani di raccolta di capitali.
+- Queste domande restringono il campo ma non sostituiscono la consulenza professionale.
+- Questo quadro si collega direttamente alle strutture viste in precedenza in questo livello.

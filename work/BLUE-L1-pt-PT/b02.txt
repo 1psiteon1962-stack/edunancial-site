@@ -1,0 +1,368 @@
+===== BLUE-L1-006
+TITLE: LLC ou LLP: qual se adequa a cada situação?
+SUMMARY: Compare lado a lado as estruturas LLC e LLP para perceber que situações se adequam naturalmente a cada uma.
+# LLC ou LLP: qual se adequa a cada situação?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- comparar LLC e LLP quanto à estrutura de propriedade.
+- comparar LLC e LLP quanto à utilização típica.
+- aplicar esta comparação a um cenário hipotético básico.
+
+## Conteúdo principal
+
+### O mesmo objetivo, formas diferentes
+
+Ambas as estruturas existem para limitar a responsabilidade pessoal: esse é o objetivo comum. A diferença está em para quem são pensadas e em como a proteção é desenhada.
+
+### Estrutura de propriedade
+
+Uma LLC pode ter um sócio ou vários. Uma LLP é pensada especificamente em torno de vários sócios: não se adequa a uma verdadeira situação de dono único como uma LLC se adequa.
+
+### Utilização típica
+
+Uma LLC serve uma grande variedade de negócios: uma loja, uma consultora, um negócio de serviços com um único dono. Uma LLP está associada mais especificamente a sociedades de profissionais habilitados, em que a questão central é a responsabilidade individual de cada sócio pelo trabalho dos outros.
+
+### Pergunte a si próprio
+
+Se estivesse a criar sozinho um negócio de consultoria, uma LLP seria sequer uma opção? Na verdade, não: as LLP pressupõem sócios. Essa única pergunta resolve muitas vezes qual a estrutura que realmente se adequa.
+
+## Exemplo prático
+
+Um consultor freelancer sem sócios está a escolher entre LLC e LLP. Pergunte a si próprio: a LLP aplica-se sequer aqui? Como as LLP são pensadas em torno de vários sócios, este cenário aponta claramente para uma LLC. Agora imagine três contabilistas a abrir um escritório em conjunto: neste cenário, ambas as estruturas são possíveis, e a proteção da LLP quanto à responsabilidade entre sócios passa a ser o fator mais relevante.
+
+## Teste de prática
+
+1. Que estrutura NÃO é geralmente pensada para um verdadeiro dono único?
+   A. LLC
+   B. LLP
+   C. Ambas são pensadas apenas para donos únicos
+   D. Nenhuma diz respeito à estrutura de propriedade
+
+2. Verdadeiro ou falso: as LLC e as LLP partilham o mesmo objetivo básico de limitar a responsabilidade pessoal.
+
+3. Um consultor que trabalha sozinho, sem sócios, está a escolher uma estrutura. Qual se adequa mais naturalmente, tendo em conta apenas a estrutura de propriedade?
+   A. LLP
+   B. LLC
+   C. Nenhuma se adequa a um dono único
+   D. Ambas são igualmente inadequadas
+
+## Chave de Respostas
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. As LLP são pensadas em torno de vários sócios, e não de um verdadeiro dono único.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Ambas as estruturas partilham o objetivo central de limitar a responsabilidade pessoal.
+
+### Pergunta 3
+
+Resposta correta: B. Uma LLC adequa-se a um dono único; uma LLP pressupõe sócios.
+
+## Pontos-chave
+
+- As LLC e as LLP limitam a responsabilidade pessoal, mas desenham essa proteção de forma diferente.
+- As LLC servem para um ou vários donos; as LLP pressupõem vários sócios.
+- As LLP estão associadas mais especificamente a sociedades de profissionais habilitados.
+
+===== BLUE-L1-007
+TITLE: O que é uma corporation (sociedade anónima)?
+SUMMARY: Aprenda o que é uma corporation, em que difere estruturalmente de uma LLC e porque é que é tratada como uma "pessoa" jurídica própria.
+# O que é uma corporation (sociedade anónima)?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir corporation em termos simples.
+- explicar o que significa dizer que uma corporation é uma "pessoa" jurídica própria.
+- explicar uma consequência prática desse estatuto jurídico separado.
+
+## Conteúdo principal
+
+### Uma pessoa jurídica própria
+
+Uma corporation (em Portugal, semelhante a uma sociedade anónima, S.A.) é uma estrutura empresarial que cria uma pessoa coletiva totalmente separada dos seus donos (os acionistas), em muitos aspetos de forma mais formal do que uma LLC. A lei trata uma corporation quase como uma "pessoa" própria: pode ter bens, celebrar contratos, processar e ser processada, independentemente das pessoas que a detêm.
+
+### Porque é que "pessoa própria" importa
+
+Pergunte a si próprio: se o dono de uma corporation morrer, o negócio acaba automaticamente? Geralmente não: como a corporation existe como pessoa coletiva própria, pode continuar independentemente da vida de qualquer dono, ao contrário de algumas estruturas mais simples.
+
+### Uma consequência prática: a propriedade através de ações
+
+As corporations são detidas através de ações, apresentadas no percurso WHITE: esta é a ligação direta entre "deter ações" e esta estrutura empresarial. Uma corporation pode ter um acionista ou milhões, e as ações podem ser compradas e vendidas sem necessariamente perturbar o negócio subjacente.
+
+## Exemplo prático
+
+Imagine uma corporation familiar cujo fundador falece. Pergunte a si próprio: o negócio deixa legalmente de existir? Como a corporation é uma pessoa coletiva própria, a propriedade das ações simplesmente transmite-se (por herança, venda ou de outra forma): a corporation em si continua a existir, separada da vida de qualquer pessoa.
+
+## Teste de prática
+
+1. Uma corporation descreve-se melhor como:
+   A. A mesma pessoa jurídica que os seus donos
+   B. Uma pessoa jurídica separada dos seus donos
+   C. Disponível apenas para grandes empresas
+   D. Um tipo de empresário em nome individual
+
+2. Verdadeiro ou falso: uma corporation deixa geralmente de existir se um único dono morrer.
+
+3. Como está normalmente estruturada a propriedade de uma corporation?
+   A. Através de um único título intransmissível
+   B. Através de ações, que podem ser detidas por um ou muitos acionistas
+   C. As corporations não podem ser detidas por ninguém
+   D. A propriedade é determinada anualmente pelo Estado
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma corporation é juridicamente separada dos seus donos.
+
+### Pergunta 2
+
+Resposta correta: Falso. A corporation continua geralmente independentemente da vida de qualquer dono.
+
+### Pergunta 3
+
+Resposta correta: B. A propriedade está estruturada através de ações.
+
+## Pontos-chave
+
+- Uma corporation é uma pessoa coletiva própria, separada dos seus donos.
+- Pode continuar a existir independentemente de qualquer dono.
+- A propriedade está estruturada através de ações, o que se liga ao percurso WHITE.
+
+===== BLUE-L1-008
+TITLE: Subchapter C ou Subchapter S: o que muda realmente?
+SUMMARY: Aprenda a diferença central de tratamento fiscal entre uma C corporation e uma S corporation.
+# Subchapter C ou Subchapter S: o que muda realmente?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- explicar a que se referem "C corp" e "S corp".
+- explicar a diferença fiscal central entre ambas.
+- reconhecer que o estatuto de S corp tem limites reais de elegibilidade.
+
+## Conteúdo principal
+
+### A mesma estrutura jurídica, tratamento fiscal diferente
+
+*(REGRA ESPECÍFICA DA REGIÃO: isto descreve a legislação fiscal federal dos EUA. Em Portugal, as sociedades pagam IRC sobre os lucros e os sócios são tributados em IRS quando recebem dividendos, embora existam regimes especiais, como a transparência fiscal em certos casos; confirme com um contabilista.)* Ambos os termos se referem à mesma estrutura de corporation da lição anterior: a diferença está em que secção do código fiscal federal se aplica à forma como a corporation é tributada.
+
+### A diferença central: quem paga, e quando
+
+Uma C corporation paga geralmente imposto sobre o rendimento ao nível da empresa sobre os seus lucros; se depois distribuir dividendos aos acionistas, estes pagam geralmente imposto outra vez sobre esse rendimento, o que por vezes se chama "dupla tributação". Uma S corporation transfere geralmente o lucro diretamente para as declarações de rendimentos pessoais dos acionistas, evitando essa camada de imposto ao nível da empresa.
+
+### Pergunte a si próprio
+
+Se o estatuto de S corp evita a dupla tributação, porque é que nem todas as corporations optam simplesmente por ele? Porque o estatuto de S corp tem limites reais de elegibilidade (restrições quanto ao número e ao tipo de acionistas, entre outros requisitos) que nem todas as corporations cumprem ou desejam.
+
+## Exemplo prático
+
+Imagine duas corporations idênticas com o mesmo lucro. Uma opta pelo tratamento de C corp; a outra, pelo de S corp. Pergunte a si próprio: se ambas distribuírem todo o lucro aos acionistas, onde é que o imposto é pago de forma diferente? Na C corp, o imposto é geralmente pago ao nível da empresa e novamente ao nível do acionista. Na S corp, é geralmente pago uma só vez, transferido diretamente para as declarações pessoais dos acionistas.
+
+## Teste de prática
+
+1. A que se referem "C corp" e "S corp"?
+   A. A duas estruturas jurídicas empresariais totalmente diferentes
+   B. À mesma estrutura de corporation, tributada segundo secções diferentes do código fiscal
+   C. Apenas à dimensão da empresa
+   D. A uma distinção que só importa para entidades sem fins lucrativos
+
+2. Verdadeiro ou falso: uma C corporation evita a dupla tributação, enquanto uma S corporation não.
+
+3. Porque é que nem todas as corporations optam simplesmente pelo estatuto de S corp?
+   A. O estatuto de S corp é ilegal na maioria dos estados
+   B. O estatuto de S corp tem limites reais de elegibilidade que nem todas as corporations cumprem
+   C. As S corps são sempre mais tributadas
+   D. O estatuto de S corp não existe
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Ambos se referem à mesma estrutura, tributada de forma diferente segundo o código fiscal.
+
+### Pergunta 2
+
+Resposta correta: Falso. É o inverso: as C corps enfrentam geralmente uma possível dupla tributação; as S corps geralmente evitam-na.
+
+### Pergunta 3
+
+Resposta correta: B. Requisitos reais de elegibilidade limitam quem pode optar pelo estatuto de S corp.
+
+## Pontos-chave
+
+- C corp e S corp referem-se à mesma estrutura, tributada de forma diferente.
+- As C corps enfrentam geralmente uma possível dupla tributação; as S corps transferem geralmente o lucro uma só vez.
+- O estatuto de S corp tem limites reais de elegibilidade e não está disponível para todas as corporations.
+
+===== BLUE-L1-009
+TITLE: O que é uma sociedade (partnership), e quais são os riscos reais de uma sociedade informal?
+SUMMARY: Aprenda o que é uma general partnership e porque é que uma sociedade informal, sem nada escrito, traz riscos reais para todos os envolvidos.
+# O que é uma sociedade (partnership), e quais são os riscos reais de uma sociedade informal?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- definir general partnership em termos simples.
+- explicar porque é que uma sociedade informal é arriscada.
+- explicar o que um acordo escrito entre sócios pode evitar.
+
+## Conteúdo principal
+
+### O que é uma general partnership
+
+Uma general partnership (em Portugal, com alguma semelhança com a sociedade em nome coletivo, ou com uma sociedade irregular quando não há registo) surge quando duas ou mais pessoas começam um negócio em conjunto, partilhando lucros, prejuízos e gestão, muitas vezes sem sequer o terem decidido formalmente, se estiverem simplesmente a gerir um negócio em conjunto sem outra estrutura.
+
+### Pergunte a si próprio
+
+Se dois amigos começarem a vender um produto em conjunto com um aperto de mão e nenhum acordo escrito, são legalmente sócios? Em muitos lugares, sim: por defeito, o simples facto de gerir um negócio em conjunto pode criar uma sociedade, quer alguém o pretendesse quer não.
+
+### O verdadeiro risco do "depois logo se vê"
+
+Numa general partnership, cada sócio é geralmente responsável a título pessoal não só pelos seus próprios atos, mas também pelos atos do(s) outro(s) sócio(s) praticados em nome do negócio. Sem um acordo escrito que trate de aspetos como a divisão da propriedade, a tomada de decisões e o que acontece se alguém quiser sair, os desentendimentos podem tornar-se litígios pessoais dispendiosos, sem um caminho claro de resolução.
+
+## Exemplo prático
+
+Dois amigos começam um negócio em conjunto de forma informal. Um deles assina um contrato com um fornecedor sem o outro saber, e o negócio não o consegue pagar. Pergunte a si próprio: o sócio que não assinou também responde? Segundo as regras da general partnership, muito possivelmente sim: cada sócio pode ser pessoalmente responsável por obrigações que o outro sócio assumiu em nome do negócio.
+
+## Teste de prática
+
+1. Uma general partnership pode surgir:
+   A. Apenas com documentos formais registados
+   B. Simplesmente por duas ou mais pessoas gerirem um negócio em conjunto, mesmo sem documentos formais
+   C. Apenas entre familiares
+   D. Apenas em profissões regulamentadas
+
+2. Verdadeiro ou falso: numa general partnership, um sócio só responde pelos seus próprios atos individuais.
+
+3. O que pode um acordo escrito entre sócios ajudar a evitar?
+   A. Qualquer tipo de risco empresarial
+   B. Litígios dispendiosos sobre propriedade, decisões e condições de saída
+   C. A necessidade de alguma vez falar com um sócio
+   D. Os impostos do negócio por completo
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma general partnership pode surgir por defeito, sem documentos formais.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os sócios podem geralmente responder pelos atos uns dos outros praticados em nome do negócio.
+
+### Pergunta 3
+
+Resposta correta: B. Um acordo escrito ajuda a evitar litígios dispendiosos e pouco claros.
+
+## Pontos-chave
+
+- Uma general partnership pode surgir por defeito, mesmo sem documentos.
+- Os sócios podem geralmente ser pessoalmente responsáveis pelos atos de negócio uns dos outros.
+- Um acordo escrito entre sócios ajuda a evitar litígios dispendiosos e ambíguos.
+
+===== BLUE-L1-010
+TITLE: Escolher a estrutura do negócio: que perguntas deve fazer primeiro?
+SUMMARY: Junte as estruturas vistas até agora num quadro prático de decisão.
+# Escolher a estrutura do negócio: que perguntas deve fazer primeiro?
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- enumerar as perguntas-chave que restringem a escolha de uma estrutura empresarial adequada.
+- aplicar essas perguntas a um cenário hipotético básico.
+- reconhecer que este é um quadro inicial, e não um aconselhamento personalizado.
+
+## Conteúdo principal
+
+### As perguntas que vale a pena fazer primeiro
+
+Antes de entrar nos pormenores jurídicos, pergunte: quantos donos existem? Quanta proteção contra a responsabilidade pessoal é realmente necessária, tendo em conta o nível de risco do negócio? Trata-se de uma profissão regulamentada com normas próprias de estrutura? Minimizar a dupla tributação é uma prioridade? Estas perguntas não dão por si só uma resposta final, mas restringem bastante as opções.
+
+### Pensar passo a passo
+
+Um dono único com preocupações reais de responsabilidade e sem interesse em atrair investidores externos é muitas vezes encaminhado para uma LLC. Vários profissionais habilitados podem considerar uma LLP. Um negócio que planeie captar capital externo significativo, ou que queira emitir muitas ações, é muitas vezes encaminhado para uma corporation: uma ligação com matéria tratada com mais profundidade no Nível 3.
+
+### Um limite importante
+
+*IMPORTANTE:* Esta lição oferece um quadro geral para compreender o tema, e não aconselhamento jurídico ou fiscal personalizado. Uma decisão real deve envolver um profissional qualificado que analise a situação específica de cada pessoa: a "analogia do médico", tratada mais adiante neste nível, explica exatamente porque é que esse passo vale a pena.
+
+## Exemplo prático
+
+Uma pessoa que está a criar sozinha um negócio de jardinagem, preocupada com a responsabilidade caso o equipamento danifique a propriedade de alguém, percorre o quadro: um dono, preocupação real de responsabilidade, nenhuma necessidade imediata de captar capital externo. Pergunte a si próprio: para que estrutura das lições anteriores deste nível aponta essa combinação? Uma LLC adequa-se bem a esse perfil.
+
+## Teste de prática
+
+1. Que pergunta é um bom ponto de partida para escolher uma estrutura empresarial?
+   A. De que cor deve ser o logótipo?
+   B. Quantos donos existem, e quanta proteção de responsabilidade é necessária?
+   C. Em que altura do ano deve o negócio abrir?
+   D. Quantos seguidores nas redes sociais tem o dono?
+
+2. Verdadeiro ou falso: o quadro desta lição substitui o aconselhamento jurídico ou fiscal de um profissional.
+
+3. Um dono único com preocupações reais de responsabilidade e sem planos de captar capital externo é muitas vezes encaminhado para que estrutura?
+   A. Uma general partnership
+   B. Uma LLC
+   C. Uma LLP
+   D. Uma entidade sem fins lucrativos
+
+## Chave de Respostas
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O número de donos e as necessidades de proteção são perguntas iniciais centrais.
+
+### Pergunta 2
+
+Resposta correta: Falso. Este é um quadro geral, e não um substituto do aconselhamento profissional.
+
+### Pergunta 3
+
+Resposta correta: B. Esse perfil aponta muitas vezes para uma LLC.
+
+## Pontos-chave
+
+- Perguntas iniciais centrais: número de donos, necessidades de proteção, tipo de profissão e planos de captação de capital.
+- Estas perguntas restringem as opções, mas não substituem o aconselhamento profissional.
+- Este quadro liga-se diretamente às estruturas vistas anteriormente neste nível.
