@@ -1,0 +1,364 @@
+===== WHITE-L1-001
+TITLE: O que é um ativo de papel? (E por que o chamamos assim)
+SUMMARY: Aprenda o que um ativo de papel realmente representa e em que ele difere de ser dono de um bem físico.
+# O que é um ativo de papel? (E por que o chamamos assim)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um ativo de papel em termos simples.
+- explicar o que um ativo de papel realmente representa.
+- comparar os ativos de papel com os imóveis como um tipo diferente de valor.
+
+## Conteúdo principal
+
+### O que significa "ativo de papel"
+
+Um ativo de papel é um direito financeiro – antigamente um certificado físico, hoje quase sempre um registro digital – que representa propriedade ou um direito a um valor futuro, em vez de ser ele próprio uma coisa física e utilizável. Uma ação representa uma participação na propriedade de uma empresa. Um título de dívida representa a promessa de ser pago de volta, com juros.
+
+### O que está por trás de um ativo de papel
+
+Ter uma ação de uma empresa não significa ser dono de uma mesa ou de uma máquina específica: significa ser dono de uma pequena fatia do valor da empresa inteira. O valor do ativo de papel depende totalmente do que está por trás dele: a empresa real, o devedor real, o governo real que garante um título.
+
+### Ativos de papel e imóveis
+
+Os imóveis do quadro RED são físicos: terrenos e construções que você pode tocar. Os ativos de papel do quadro WHITE são direitos: fatias de propriedade, acordos de empréstimo, direitos a pagamentos futuros. Os ativos de papel também costumam ser mais fáceis e rápidos de comprar, vender e dividir em pequenas partes do que os bens físicos.
+
+## Exemplo prático
+
+Ter 10 ações de uma empresa significa ser dono de uma pequena fatia definida do valor total da empresa, e não de uma parte específica de seus bens físicos. Esse valor sobe ou desce conforme mudam as perspectivas da empresa.
+
+## Teste de prática
+
+1. Um ativo de papel é mais bem descrito como:
+   A. Um objeto físico que você pode usar diretamente
+   B. Um direito sobre propriedade ou valor futuro
+   C. Um tipo de moeda
+   D. Um formulário emitido pelo governo
+
+2. Verdadeiro ou falso: o valor de uma ação vem principalmente do fato de ela ser um registro oficial.
+
+3. Por que vender uma ação costuma ser muito mais rápido do que vender uma casa?
+   A. É ilegal manter ações por muito tempo
+   B. As ações são unidades pequenas e padronizadas, que não exigem encontrar um comprador específico e compatível
+   C. As casas valem mais
+   D. Não há diferença real de velocidade
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um ativo de papel representa propriedade ou um direito sobre um valor futuro.
+
+### Pergunta 2
+
+Resposta correta: Falso. O valor vem do que o ativo representa, e não do papel ou do registro em si.
+
+### Pergunta 3
+
+Resposta correta: B. As unidades pequenas e padronizadas, sem precisar de um comprador único e compatível, são o que torna a venda de ações mais rápida.
+
+## Pontos-chave
+
+- Um ativo de papel é um direito sobre um valor, e não um objeto físico.
+- O valor dele vem do que está por trás.
+- Os ativos de papel costumam ser mais fáceis e rápidos de comprar, vender e dividir do que os imóveis.
+
+===== WHITE-L1-002
+TITLE: O que é ROI? (E por que a mesma ideia parece diferente em cada quadro)
+SUMMARY: Aprenda a fórmula do ROI, o que ela mede e por que o mesmo conceito vale para imóveis, negócios e ativos de papel.
+# O que é ROI? (E por que a mesma ideia parece diferente em cada quadro)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- calcular um ROI básico a partir de um ganho e de um custo.
+- explicar o que o ROI realmente mede.
+- reconhecer o ROI como um conceito que atravessa todos os quadros e identificar uma limitação.
+
+## Conteúdo principal
+
+### A fórmula do ROI
+
+ROI = (ganho do investimento − custo do investimento) ÷ custo do investimento, normalmente expresso em porcentagem. Se US$ 1.000 viram US$ 1.200, o ganho é de US$ 200 e o ROI = US$ 200 ÷ US$ 1.000 = 20%.
+
+### O mesmo conceito, quadros diferentes
+
+O ROI não é uma ideia só do quadro WHITE. Um investidor imobiliário do quadro RED calcula o ROI sobre a renda de aluguel e a valorização em relação ao preço de compra. Um empresário do quadro BLUE o calcula sobre o lucro gerado em relação ao dinheiro investido. A lógica da fórmula continua a mesma – ganho comparado ao custo –, mas o que conta como ganho e como custo muda de um quadro para outro.
+
+### Uma limitação real
+
+O ROI básico não leva em conta o tempo. Um ROI de 20% obtido em um ano é muito diferente dos mesmos 20% obtidos em dez anos, embora a fórmula sozinha não mostre essa diferença.
+
+## Exemplo prático
+
+US$ 500 que viram US$ 575 são um ganho de US$ 75: ROI = US$ 75 ÷ US$ 500 = 15%. Uma compra de equipamentos de US$ 10.000 para o negócio que gera US$ 2.500 de lucro adicional: ROI = US$ 2.500 ÷ US$ 10.000 = 25%: a mesma fórmula, situações muito diferentes.
+
+## Teste de prática
+
+1. O ROI mede:
+   A. O valor total ganho em dólares
+   B. O ganho em relação ao custo, em porcentagem
+   C. O valor total de um investimento
+   D. O nível de risco de um investimento
+
+2. Verdadeiro ou falso: o ROI básico leva em conta quanto tempo levou para obter o retorno.
+
+3. Você investe US$ 2.000 e o valor cresce para US$ 2.400. Qual é o ROI?
+   A. 10%
+   B. 15%
+   C. 20%
+   D. 40%
+
+## Gabarito
+
+1. B
+2. Falso
+3. C
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O ROI é especificamente uma medida percentual do ganho em relação ao custo.
+
+### Pergunta 2
+
+Resposta correta: Falso. O ROI básico não considera o tempo: uma limitação real.
+
+### Pergunta 3
+
+Resposta correta: C. (US$ 2.400 − US$ 2.000) ÷ US$ 2.000 = 20%.
+
+## Pontos-chave
+
+- ROI = (ganho − custo) ÷ custo, normalmente expresso em porcentagem.
+- O ROI vale igualmente para imóveis, negócios e ativos de papel.
+- O ROI básico não leva em conta o tempo: uma limitação real a ter em mente.
+
+===== WHITE-L1-003
+TITLE: O que é, de fato, uma ação? (Você está comprando um pedaço de uma empresa)
+SUMMARY: Aprenda a que ser dono de uma ação realmente dá direito, e a que não dá.
+# O que é, de fato, uma ação? (Você está comprando um pedaço de uma empresa)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir uma ação em termos simples.
+- explicar a que a propriedade de ações dá direito, e a que não dá.
+- explicar por que o total de ações em circulação importa para o que uma ação representa.
+
+## Conteúdo principal
+
+### Uma ação é uma fatia de propriedade real
+
+Quando uma empresa é de capital aberto, ela divide a propriedade em um número fixo de ações. Ter 1.000 ações de 1.000.000 em circulação significa ser dono de 0,1% dessa empresa, de verdade e legalmente.
+
+### A que a propriedade dá direito (e a que não dá)
+
+A propriedade normalmente dá direito a uma parte proporcional dos lucros (se forem pagos dividendos) e a certos direitos de voto em decisões importantes. Ela NÃO dá direito a controlar as operações do dia a dia, a um dividendo garantido nem a um preço que sobe com certeza. Os acionistas também, em geral, não respondem pessoalmente pelas dívidas da empresa além do valor de suas ações.
+
+### Por que o total de ações importa
+
+Ter 100 ações de uma empresa com 1.000 ações em circulação é ter 10% de propriedade. Ter 100 ações de uma empresa com 10.000.000 de ações em circulação é ter 0,001%. O número de ações, sozinho, não diz qual é a sua participação real.
+
+## Exemplo prático
+
+Um investidor que tem 5.000 ações de uma empresa com 500.000 ações em circulação é dono de 5.000 ÷ 500.000 = 1% da empresa.
+
+## Teste de prática
+
+1. Ter uma ação normalmente dá direito a:
+   A. Controle diário das operações da empresa
+   B. Uma parte proporcional dos lucros e certos direitos de voto
+   C. Pagamentos garantidos de dividendos
+   D. Responsabilidade pessoal pelas dívidas da empresa
+
+2. Verdadeiro ou falso: o número de ações que você tem, sozinho, diz qual é o seu percentual de propriedade.
+
+3. Uma empresa tem 200.000 ações em circulação. Um investidor tem 2.000 ações. Que percentual ele possui?
+   A. 0,1%
+   B. 1%
+   C. 2%
+   D. 10%
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A propriedade dá direito a uma parte proporcional dos lucros e a certos direitos de voto, e não ao controle das operações.
+
+### Pergunta 2
+
+Resposta correta: Falso. O percentual de propriedade depende das ações possuídas em relação ao total de ações em circulação.
+
+### Pergunta 3
+
+Resposta correta: B. 2.000 ÷ 200.000 = 1%.
+
+## Pontos-chave
+
+- Uma ação é uma propriedade parcial real e legal de uma empresa.
+- Propriedade não significa controle das operações nem dividendo garantido.
+- A sua participação real depende das ações possuídas em relação ao total de ações em circulação.
+
+===== WHITE-L1-004
+TITLE: O que é, de fato, um título de dívida? (Você está emprestando dinheiro, não comprando propriedade)
+SUMMARY: Aprenda o que um título de dívida realmente representa – um empréstimo, não propriedade – e as condições básicas que o definem.
+# O que é, de fato, um título de dívida? (Você está emprestando dinheiro, não comprando propriedade)
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- definir um título de dívida em termos simples.
+- explicar a relação central entre o detentor do título e o emissor.
+- citar as condições básicas que definem um título de dívida.
+
+## Conteúdo principal
+
+### Um título de dívida é um empréstimo, não propriedade
+
+Quando você compra um título de dívida, está emprestando dinheiro a quem o emitiu (uma empresa ou um governo), e não comprando uma parte da propriedade, como uma ação daria. Essa é a distinção mais importante de todas entre ações e títulos de dívida.
+
+### A relação central
+
+O emissor promete devolver o valor original (o principal, ou "valor de face") em uma data futura definida (o vencimento) e, normalmente, pagar juros periódicos (o cupom) ao longo do caminho, em troca do uso do seu dinheiro.
+
+### As condições básicas
+
+Todo título de dívida tem um valor de face (o valor pago de volta no vencimento), uma taxa de cupom (a taxa de juros paga) e uma data de vencimento (quando o empréstimo é pago de volta). Essas condições são definidas na emissão do título.
+
+## Exemplo prático
+
+Um investidor compra um título com valor de face de US$ 1.000, taxa de cupom de 4% e vencimento em 10 anos. Ele recebe US$ 40 por ano de juros (4% de US$ 1.000) e recebe seus US$ 1.000 de volta depois de 10 anos.
+
+## Teste de prática
+
+1. Comprar um título de dívida significa:
+   A. Comprar uma participação na propriedade de uma empresa
+   B. Emprestar dinheiro ao emissor
+   C. Comprar um bem físico
+   D. Tornar-se funcionário de uma empresa
+
+2. Verdadeiro ou falso: a taxa de cupom de um título se refere ao valor pago de volta no vencimento.
+
+3. O que é o valor de face de um título de dívida?
+   A. A taxa de juros paga
+   B. O valor pago de volta ao detentor do título no vencimento
+   C. O preço de mercado atual do título
+   D. A dívida total do emissor
+
+## Gabarito
+
+1. B
+2. Falso
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um título de dívida representa um empréstimo de dinheiro, e não propriedade.
+
+### Pergunta 2
+
+Resposta correta: Falso. A taxa de cupom é a taxa de juros; o valor de face é o valor pago de volta no vencimento.
+
+### Pergunta 3
+
+Resposta correta: B. O valor de face é o principal pago de volta no vencimento.
+
+## Pontos-chave
+
+- Um título de dívida representa um empréstimo de dinheiro, e não propriedade.
+- O emissor promete devolver o principal no vencimento, mais juros periódicos (o cupom).
+- Valor de face, taxa de cupom e data de vencimento são as condições centrais que o definem.
+
+===== WHITE-L1-005
+TITLE: Ações e títulos de dívida: qual é a verdadeira troca?
+SUMMARY: Aprenda a verdadeira troca entre ações e títulos de dívida – potencial de crescimento versus prioridade no pagamento –, e não apenas "arriscado versus seguro".
+# Ações e títulos de dívida: qual é a verdadeira troca?
+
+## Objetivos de aprendizagem
+
+Ao final desta lição, você deverá ser capaz de:
+
+- explicar a diferença estrutural central entre ações e títulos de dívida.
+- explicar por que os detentores de títulos costumam ser pagos antes dos acionistas.
+- evitar a ideia simplificada de que "ações são arriscadas, títulos são seguros".
+
+## Conteúdo principal
+
+### A diferença estrutural
+
+Uma ação representa propriedade; um título de dívida representa um empréstimo. Essa única diferença explica a maior parte das diferenças práticas entre os dois, tratadas nesta lição.
+
+### Prioridade no pagamento
+
+Se uma empresa enfrentar problemas financeiros graves, os detentores de títulos (como credores) geralmente têm o direito legal de ser pagos antes que os acionistas (como donos) recebam qualquer coisa. É uma prioridade estrutural real, e não apenas uma fama geral de segurança.
+
+### Além de "arriscado versus seguro"
+
+Chamar as ações simplesmente de "arriscadas" e os títulos simplesmente de "seguros" simplifica demais uma troca mais cheia de nuances: as ações oferecem o potencial de ganho da propriedade (crescimento potencialmente ilimitado, mas sem garantia de pagamento), enquanto os títulos oferecem condições de pagamento definidas e contratuais (mas com potencial de retorno limitado e riscos reais próprios, como a inadimplência do emissor).
+
+## Exemplo prático
+
+Se uma empresa vai à falência, os detentores de seus títulos geralmente estão na fila para ser pagos com os bens restantes antes que os acionistas vejam qualquer coisa: o direito dos acionistas vem por último, refletindo a diferença estrutural entre propriedade e empréstimo.
+
+## Teste de prática
+
+1. A diferença estrutural central entre ações e títulos de dívida é:
+   A. As ações são sempre mais arriscadas que os títulos
+   B. As ações representam propriedade; os títulos representam um empréstimo
+   C. Os títulos sempre pagam retornos maiores
+   D. Não há diferença real
+
+2. Verdadeiro ou falso: na falência de uma empresa, os detentores de títulos geralmente têm direito a ser pagos antes dos acionistas.
+
+3. Por que "ações são arriscadas, títulos são seguros" é uma simplificação exagerada?
+   A. É totalmente correta, sem nuances
+   B. Ambos têm trocas reais e diferentes entre risco e retorno
+   C. Os títulos não têm risco nenhum
+   D. As ações sempre perdem dinheiro
+
+## Gabarito
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Propriedade versus empréstimo é a diferença estrutural central.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Os detentores de títulos geralmente têm prioridade no pagamento sobre os acionistas.
+
+### Pergunta 3
+
+Resposta correta: B. Ambos têm tipos de risco reais e distintos: a ideia simplificada deixa essa nuance de fora.
+
+## Pontos-chave
+
+- As ações representam propriedade; os títulos de dívida representam um empréstimo.
+- Os detentores de títulos geralmente têm prioridade no pagamento sobre os acionistas.
+- "Arriscado versus seguro" simplifica demais uma troca mais cheia de nuances entre os dois.

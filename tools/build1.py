@@ -3,7 +3,10 @@ import sys,re,glob,zipfile,os
 S=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 R='/home/claude/1psiteon1962-stack/edunancial-site/content/curriculum'
 C,loc,keep=sys.argv[1:4]
-K=set() if keep=='none' else set(range(int(keep.split('-')[0]),int(keep.split('-')[1])+1))
+K=set()
+if keep!='none':
+    for part in keep.split(','):
+        a,_,b=part.partition('-'); K|=set(range(int(a),int(b or a)+1))
 ch={}
 for b in sorted(glob.glob(f'{S}/work/{C}-L1-{loc}/*.txt')):
     for chunk in re.split(r'^=====\s*',open(b,encoding='utf-8').read(),flags=re.M)[1:]:

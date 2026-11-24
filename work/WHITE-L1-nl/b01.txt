@@ -1,0 +1,364 @@
+===== WHITE-L1-001
+TITLE: Wat is een papieren bezitting? (En waarom we het zo noemen)
+SUMMARY: Leer wat een papieren bezitting werkelijk vertegenwoordigt en hoe die verschilt van het bezit van fysiek eigendom.
+# Wat is een papieren bezitting? (En waarom we het zo noemen)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een papieren bezitting in eenvoudige woorden te definiëren.
+- uit te leggen wat een papieren bezitting werkelijk vertegenwoordigt.
+- papieren bezittingen te vergelijken met vastgoed als een ander soort waarde.
+
+## Kerninhoud
+
+### Wat "papieren bezitting" betekent
+
+Een papieren bezitting is een financiële aanspraak – vroeger een fysiek certificaat, tegenwoordig bijna altijd een digitale registratie – die eigendom of een recht op toekomstige waarde vertegenwoordigt, in plaats van zelf een fysiek, bruikbaar ding te zijn. Een aandeel vertegenwoordigt gedeeltelijk eigendom van een bedrijf. Een obligatie vertegenwoordigt een belofte van terugbetaling, met rente.
+
+### Wat er onder een papieren bezitting zit
+
+Eén aandeel van een bedrijf bezitten betekent niet dat je een bepaald bureau of een bepaalde machine bezit: het betekent dat je een klein stukje van de waarde van het hele bedrijf bezit. De waarde van de papieren bezitting hangt volledig af van wat eronder zit: het echte bedrijf, de echte lener, de echte overheid die een obligatie garandeert.
+
+### Papieren bezittingen en vastgoed
+
+Vastgoed in het RED-vak is fysiek: grond en gebouwen die je kunt aanraken. Papieren bezittingen in het WHITE-vak zijn aanspraken: eigendomsdelen, leenafspraken, rechten op toekomstige betalingen. Papieren bezittingen zijn bovendien over het algemeen makkelijker en sneller te kopen, te verkopen en in kleine stukjes op te delen dan fysiek eigendom.
+
+## Praktijkvoorbeeld
+
+Tien aandelen van een bedrijf bezitten betekent een klein, afgebakend deel van de totale waarde van het bedrijf bezitten, niet een specifiek stuk van zijn fysieke bezittingen. Die waarde stijgt of daalt als de vooruitzichten van het bedrijf veranderen.
+
+## Oefenquiz
+
+1. Een papieren bezitting wordt het best omschreven als:
+   A. Een fysiek voorwerp dat je direct kunt gebruiken
+   B. Een aanspraak op eigendom of toekomstige waarde
+   C. Een soort munteenheid
+   D. Een door de overheid uitgegeven formulier
+
+2. Waar of onwaar: de waarde van een aandeel komt vooral voort uit het feit dat het een officiële registratie is.
+
+3. Waarom gaat het verkopen van een aandeel meestal veel sneller dan het verkopen van een huis?
+   A. Aandelen mogen niet langdurig worden aangehouden
+   B. Aandelen zijn kleine, gestandaardiseerde eenheden waarvoor je niet één specifieke passende koper hoeft te vinden
+   C. Huizen zijn meer waard
+   D. Er is geen echt verschil in snelheid
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een papieren bezitting vertegenwoordigt eigendom of een aanspraak op toekomstige waarde.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. De waarde komt voort uit wat de bezitting vertegenwoordigt, niet uit het papier of de registratie zelf.
+
+### Vraag 3
+
+Juist antwoord: B. Gestandaardiseerde kleine eenheden, zonder dat er een unieke passende koper nodig is, maken de verkoop van aandelen sneller.
+
+## Belangrijkste punten
+
+- Een papieren bezitting is een aanspraak op waarde, geen fysiek voorwerp.
+- De waarde ervan komt voort uit wat eronder zit.
+- Papieren bezittingen zijn over het algemeen makkelijker en sneller te kopen, te verkopen en op te delen dan vastgoed.
+
+===== WHITE-L1-002
+TITLE: Wat is ROI? (En waarom hetzelfde idee er in elk vak anders uitziet)
+SUMMARY: Leer de ROI-formule, wat die meet en waarom hetzelfde begrip geldt voor vastgoed, ondernemen en papieren bezittingen.
+# Wat is ROI? (En waarom hetzelfde idee er in elk vak anders uitziet)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een eenvoudige ROI te berekenen op basis van een winst en een kostprijs.
+- uit te leggen wat ROI werkelijk meet.
+- ROI te herkennen als een begrip dat in alle vakken geldt, en één beperking te benoemen.
+
+## Kerninhoud
+
+### De ROI-formule
+
+ROI = (opbrengst van de investering − kosten van de investering) ÷ kosten van de investering, meestal uitgedrukt als percentage. Als $ 1.000 groeit tot $ 1.200, is de winst $ 200 en de ROI = $ 200 ÷ $ 1.000 = 20%.
+
+### Hetzelfde begrip, andere vakken
+
+ROI is niet alleen een idee van het WHITE-vak. Een vastgoedbelegger in het RED-vak berekent de ROI op huurinkomsten en waardestijging ten opzichte van de aankoopprijs. Een ondernemer in het BLUE-vak berekent die op de gemaakte winst ten opzichte van het geïnvesteerde geld. De logica van de formule blijft hetzelfde – winst vergeleken met kosten –, maar wat als winst en als kosten telt, verschilt per vak.
+
+### Een echte beperking
+
+Een eenvoudige ROI houdt geen rekening met tijd. Een ROI van 20% in één jaar is heel anders dan dezelfde 20% over tien jaar, ook al laat de formule alleen dat verschil niet zien.
+
+## Praktijkvoorbeeld
+
+$ 500 die groeit tot $ 575 is een winst van $ 75: ROI = $ 75 ÷ $ 500 = 15%. Een aankoop van bedrijfsapparatuur van $ 10.000 die $ 2.500 extra winst oplevert: ROI = $ 2.500 ÷ $ 10.000 = 25%: dezelfde formule, heel verschillende situaties.
+
+## Oefenquiz
+
+1. ROI meet:
+   A. Het totale bedrag dat in dollars is gewonnen
+   B. De winst ten opzichte van de kosten, als percentage
+   C. De totale waarde van een investering
+   D. Het risiconiveau van een investering
+
+2. Waar of onwaar: een eenvoudige ROI houdt rekening met hoe lang het duurde om het rendement te behalen.
+
+3. Je investeert $ 2.000 en het groeit tot $ 2.400. Wat is de ROI?
+   A. 10%
+   B. 15%
+   C. 20%
+   D. 40%
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. C
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. ROI is specifiek een procentuele maatstaf van winst ten opzichte van kosten.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Een eenvoudige ROI houdt geen rekening met tijd: een echte beperking.
+
+### Vraag 3
+
+Juist antwoord: C. ($ 2.400 − $ 2.000) ÷ $ 2.000 = 20%.
+
+## Belangrijkste punten
+
+- ROI = (winst − kosten) ÷ kosten, meestal uitgedrukt als percentage.
+- ROI geldt evengoed voor vastgoed, ondernemen en papieren bezittingen.
+- Een eenvoudige ROI houdt geen rekening met tijd: een echte beperking om in gedachten te houden.
+
+===== WHITE-L1-003
+TITLE: Wat is een aandeel eigenlijk? (Je koopt een stukje van een bedrijf)
+SUMMARY: Leer waar het bezit van een aandeel je werkelijk recht op geeft, en waarop niet.
+# Wat is een aandeel eigenlijk? (Je koopt een stukje van een bedrijf)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een aandeel in eenvoudige woorden te definiëren.
+- uit te leggen waar aandelenbezit je recht op geeft, en waarop niet.
+- uit te leggen waarom het totale aantal uitstaande aandelen ertoe doet voor wat één aandeel vertegenwoordigt.
+
+## Kerninhoud
+
+### Een aandeel is een stukje echt eigendom
+
+Als een bedrijf beursgenoteerd is, deelt het het eigendom op in een vast aantal aandelen. 1.000 aandelen bezitten van de 1.000.000 uitstaande aandelen betekent dat je 0,1% van dat bedrijf bezit, echt en juridisch.
+
+### Waar eigendom je recht op geeft (en waarop niet)
+
+Eigendom geeft je doorgaans recht op een evenredig deel van de winst (als er dividend wordt uitgekeerd) en bepaalde stemrechten bij belangrijke beslissingen. Het geeft je GEEN recht op zeggenschap over de dagelijkse gang van zaken, een gegarandeerd dividend of een gegarandeerd stijgende koers. Aandeelhouders zijn over het algemeen ook niet persoonlijk aansprakelijk voor de schulden van het bedrijf boven de waarde van hun aandelen.
+
+### Waarom het totale aantal aandelen ertoe doet
+
+100 aandelen bezitten van een bedrijf met 1.000 uitstaande aandelen is 10% eigendom. 100 aandelen bezitten van een bedrijf met 10.000.000 uitstaande aandelen is 0,001%. Het aantal aandelen alleen zegt niets over je werkelijke belang.
+
+## Praktijkvoorbeeld
+
+Een belegger met 5.000 aandelen van een bedrijf met 500.000 uitstaande aandelen bezit 5.000 ÷ 500.000 = 1% van het bedrijf.
+
+## Oefenquiz
+
+1. Het bezit van een aandeel geeft je doorgaans recht op:
+   A. Dagelijkse zeggenschap over de bedrijfsvoering
+   B. Een evenredig deel van de winst en bepaalde stemrechten
+   C. Gegarandeerde dividenduitkeringen
+   D. Persoonlijke aansprakelijkheid voor de schulden van het bedrijf
+
+2. Waar of onwaar: het aantal aandelen dat je bezit, zegt op zichzelf al wat je eigendomspercentage is.
+
+3. Een bedrijf heeft 200.000 uitstaande aandelen. Een belegger bezit 2.000 aandelen. Welk percentage bezit hij?
+   A. 0,1%
+   B. 1%
+   C. 2%
+   D. 10%
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Eigendom geeft recht op een evenredig deel van de winst en bepaalde stemrechten, niet op zeggenschap over de bedrijfsvoering.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. Het eigendomspercentage hangt af van het aantal aandelen ten opzichte van het totale aantal uitstaande aandelen.
+
+### Vraag 3
+
+Juist antwoord: B. 2.000 ÷ 200.000 = 1%.
+
+## Belangrijkste punten
+
+- Een aandeel is echt, juridisch gedeeltelijk eigendom van een bedrijf.
+- Eigendom betekent geen zeggenschap over de bedrijfsvoering en geen gegarandeerd dividend.
+- Je werkelijke belang hangt af van je aandelen ten opzichte van het totale aantal uitstaande aandelen.
+
+===== WHITE-L1-004
+TITLE: Wat is een obligatie eigenlijk? (Je leent geld uit, je koopt geen eigendom)
+SUMMARY: Leer wat een obligatie werkelijk vertegenwoordigt – een lening, geen eigendom – en welke basisvoorwaarden haar bepalen.
+# Wat is een obligatie eigenlijk? (Je leent geld uit, je koopt geen eigendom)
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- een obligatie in eenvoudige woorden te definiëren.
+- de kernrelatie tussen obligatiehouder en uitgevende instelling uit te leggen.
+- de basisvoorwaarden te noemen die een obligatie bepalen.
+
+## Kerninhoud
+
+### Een obligatie is een lening, geen eigendom
+
+Als je een obligatie koopt, leen je geld uit aan degene die haar heeft uitgegeven (een bedrijf of een overheid); je koopt geen stukje eigendom zoals een aandeel je zou geven. Dit is het allerbelangrijkste verschil tussen aandelen en obligaties.
+
+### De kernrelatie
+
+De uitgevende instelling belooft het oorspronkelijke bedrag (de hoofdsom of "nominale waarde") op een vastgestelde toekomstige datum (de vervaldatum) terug te betalen en doorgaans tussentijds periodieke rente (de coupon) te betalen, in ruil voor het gebruik van je geld.
+
+### De basisvoorwaarden
+
+Elke obligatie heeft een nominale waarde (het bedrag dat op de vervaldatum wordt terugbetaald), een couponrente (de rente die wordt betaald) en een vervaldatum (wanneer de lening wordt terugbetaald). Deze voorwaarden worden vastgelegd bij de uitgifte van de obligatie.
+
+## Praktijkvoorbeeld
+
+Een belegger koopt een obligatie met een nominale waarde van $ 1.000, een couponrente van 4% en een looptijd van 10 jaar. Hij ontvangt $ 40 per jaar aan rente (4% van $ 1.000) en krijgt na 10 jaar zijn $ 1.000 terug.
+
+## Oefenquiz
+
+1. Een obligatie kopen betekent:
+   A. Gedeeltelijk eigendom van een bedrijf kopen
+   B. Geld uitlenen aan de uitgevende instelling
+   C. Een fysieke bezitting kopen
+   D. Werknemer van een bedrijf worden
+
+2. Waar of onwaar: de couponrente van een obligatie verwijst naar het bedrag dat op de vervaldatum wordt terugbetaald.
+
+3. Wat is de nominale waarde van een obligatie?
+   A. De rente die wordt betaald
+   B. Het bedrag dat op de vervaldatum aan de obligatiehouder wordt terugbetaald
+   C. De huidige marktprijs van de obligatie
+   D. De totale schuld van de uitgevende instelling
+
+## Antwoordsleutel
+
+1. B
+2. Onwaar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Een obligatie vertegenwoordigt het uitlenen van geld, geen eigendom.
+
+### Vraag 2
+
+Juist antwoord: Onwaar. De couponrente is de rente; de nominale waarde is het bedrag dat op de vervaldatum wordt terugbetaald.
+
+### Vraag 3
+
+Juist antwoord: B. De nominale waarde is de hoofdsom die op de vervaldatum wordt terugbetaald.
+
+## Belangrijkste punten
+
+- Een obligatie vertegenwoordigt het uitlenen van geld, geen eigendom.
+- De uitgevende instelling belooft de hoofdsom op de vervaldatum terug te betalen, plus periodieke rente (de coupon).
+- Nominale waarde, couponrente en vervaldatum zijn de bepalende kernvoorwaarden.
+
+===== WHITE-L1-005
+TITLE: Aandelen en obligaties: wat is de echte afweging?
+SUMMARY: Leer de echte afweging tussen aandelen en obligaties – groeipotentieel tegenover voorrang bij terugbetaling – en niet alleen "riskant tegenover veilig".
+# Aandelen en obligaties: wat is de echte afweging?
+
+## Leerdoelen
+
+Aan het einde van deze les moet je in staat zijn om:
+
+- het structurele kernverschil tussen aandelen en obligaties uit te leggen.
+- uit te leggen waarom obligatiehouders over het algemeen vóór aandeelhouders worden terugbetaald.
+- de te simpele voorstelling "aandelen zijn riskant, obligaties zijn veilig" te vermijden.
+
+## Kerninhoud
+
+### Het structurele verschil
+
+Een aandeel vertegenwoordigt eigendom; een obligatie vertegenwoordigt een lening. Dit ene verschil bepaalt de meeste praktische verschillen tussen beide, die in deze les aan bod komen.
+
+### Voorrang bij terugbetaling
+
+Als een bedrijf in ernstige financiële problemen komt, hebben obligatiehouders (als geldverstrekkers) over het algemeen een wettelijke aanspraak om te worden terugbetaald voordat aandeelhouders (als eigenaren) iets ontvangen. Dit is een echte structurele voorrang, niet alleen een algemene reputatie van veiligheid.
+
+### Verder dan "riskant tegenover veilig"
+
+Aandelen simpelweg "riskant" en obligaties simpelweg "veilig" noemen, vereenvoudigt een genuanceerdere afweging te veel: aandelen bieden het opwaartse potentieel van eigendom (onbeperkt groeipotentieel, maar geen garantie op terugbetaling), terwijl obligaties vastgelegde, contractuele terugbetalingsvoorwaarden bieden (maar een begrensd rendementspotentieel, en eigen echte risico's, zoals wanbetaling door de uitgevende instelling).
+
+## Praktijkvoorbeeld
+
+Als een bedrijf failliet gaat, staan zijn obligatiehouders over het algemeen in de rij om uit de resterende bezittingen te worden terugbetaald voordat zijn aandeelhouders iets zien: de aanspraak van aandeelhouders komt als laatste, wat het structurele verschil tussen eigendom en lening weerspiegelt.
+
+## Oefenquiz
+
+1. Het structurele kernverschil tussen aandelen en obligaties is:
+   A. Aandelen zijn altijd riskanter dan obligaties
+   B. Aandelen vertegenwoordigen eigendom; obligaties vertegenwoordigen een lening
+   C. Obligaties leveren altijd een hoger rendement op
+   D. Er is geen echt verschil
+
+2. Waar of onwaar: bij een faillissement van een bedrijf hebben obligatiehouders over het algemeen een aanspraak op terugbetaling vóór aandeelhouders.
+
+3. Waarom is "aandelen zijn riskant, obligaties zijn veilig" een te grote vereenvoudiging?
+   A. Het klopt volledig, zonder nuance
+   B. Beide hebben echte, verschillende afwegingen tussen risico en rendement
+   C. Obligaties hebben helemaal geen risico
+   D. Aandelen verliezen altijd geld
+
+## Antwoordsleutel
+
+1. B
+2. Waar
+3. B
+
+## Antwoorden en uitleg
+
+### Vraag 1
+
+Juist antwoord: B. Eigendom tegenover lening is het structurele kernverschil.
+
+### Vraag 2
+
+Juist antwoord: Waar. Obligatiehouders hebben over het algemeen voorrang bij terugbetaling boven aandeelhouders.
+
+### Vraag 3
+
+Juist antwoord: B. Beide brengen echte, verschillende soorten risico met zich mee: de simpele voorstelling mist die nuance.
+
+## Belangrijkste punten
+
+- Aandelen vertegenwoordigen eigendom; obligaties vertegenwoordigen een lening.
+- Obligatiehouders hebben over het algemeen voorrang bij terugbetaling boven aandeelhouders.
+- "Riskant tegenover veilig" vereenvoudigt een genuanceerdere afweging tussen beide te veel.

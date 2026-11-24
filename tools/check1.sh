@@ -8,7 +8,7 @@ python3 -I $S/tools/qc.py *.md
 python3 -I - $1 $2 <<'PY'
 import glob,re,sys,yaml
 C,loc=sys.argv[1:3]; R='/home/claude/1psiteon1962-stack/edunancial-site/content/curriculum'
-mp={'Vrai':'T','Faux':'F','True':'T','False':'F','Verdadero':'T','Falso':'F','Wahr':'T','Falsch':'F','Vero':'T','Waar':'T','Onwaar':'F','Verdadeiro':'T','Vrè':'T','Fo':'F'}
+mp={'Vrai':'T','Faux':'F','True':'T','False':'F','Verdadero':'T','Falso':'F','Wahr':'T','Richtig':'T','Juist':'T','Onjuist':'F','Falsch':'F','Vero':'T','Waar':'T','Onwaar':'F','Verdadeiro':'T','Vrè':'T','Fo':'F'}
 def parts(t):
     fm,b=t.split('---',2)[1:]
     try: d=yaml.safe_load(fm)
@@ -16,7 +16,7 @@ def parts(t):
     return d,b
 def sec(b,i):
     s=re.split(r'^## ',b,flags=re.M); return s[i] if i<len(s) else ''
-def keys(x): return [mp.get(k,k) for k in re.findall(r'\b([A-D](?! [a-z])|True|False|Vrai|Faux|Verdadero|Falso|Wahr|Falsch|Vero|Waar|Onwaar|Verdadeiro|Vrè|Fo)\b',x)]
+def keys(x): return [mp.get(k,k) for k in re.findall(r'\b([A-D](?! [a-z])|True|False|Vrai|Faux|Verdadero|Falso|Wahr|Richtig|Juist|Onjuist|Falsch|Vero|Waar|Onwaar|Verdadeiro|Vrè|Fo)\b',x)]
 bad=0
 for f in sorted(glob.glob('*.md')):
     lid=f.split('.')[0]; d,b=parts(open(f).read()); de,e=parts(open(f'{R}/{C}/L1/{lid}.md').read())
