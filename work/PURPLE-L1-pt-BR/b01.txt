@@ -1,0 +1,401 @@
+===== PURPLE-L1-001
+TITLE: O que é o direito e por que ele importa para construir patrimônio?
+SUMMARY: Apresenta o direito como o sistema de regras exigíveis por trás de toda decisão sobre imóveis, investimentos e negócios, e trata a alfabetização jurídica como uma habilidade prática de construção de patrimônio.
+# O que é o direito e por que ele importa para construir patrimônio?
+
+## Objetivos de aprendizagem
+
+- Definir o direito em termos simples.
+- Explicar por que a alfabetização jurídica importa diretamente para RED, WHITE e BLUE.
+- Antecipar o escopo do PURPLE: alfabetização jurídica prática, não prática jurídica.
+
+## Conteúdo principal
+
+O direito é o conjunto de regras exigíveis que uma sociedade concorda em seguir, apoiado pelo poder dos tribunais e do governo de fazer as pessoas realmente cumpri-las. Todo contrato que você assina, todo imóvel que você compra, todo negócio que você abre e todo investimento que você faz acontecem dentro desse sistema de regras, quer você pense nisso ou não.
+
+Esta é a ligação direta com o restante deste currículo: RED (imóveis) depende totalmente de propriedade, contratos e direitos de propriedade juridicamente exigíveis. WHITE (investimentos) depende das leis do mercado de valores mobiliários, que tornam os mercados confiáveis o suficiente para participar deles. BLUE (negócios) depende das estruturas jurídicas que determinam quem responde quando algo dá errado. Você não precisa de um diploma de Direito para construir patrimônio em nenhuma dessas áreas, mas atuar sem nenhuma alfabetização jurídica é como dirigir sem conhecer as leis de trânsito: tecnicamente possível, mas uma péssima ideia.
+
+Esta trilha, PURPLE, existe para fechar essa lacuna. Ela não vai transformar você em advogado e não substitui um advogado quando há muito em jogo; essa é a analogia do médico à qual este currículo sempre volta. O que ela vai fazer é tornar você um participante alfabetizado: alguém que consegue ler um contrato sem pânico, reconhecer quando um negócio tem um problema jurídico e saber quando uma situação entrou no território do "chame um profissional".
+
+## Exemplo prático
+
+**Pergunta:** Um investidor imobiliário iniciante diz: "Não preciso saber nada de direito; vou contratar um advogado para tudo." Qual é a falha nesse plano?
+
+**Aluno:** Com base nesta lição, mesmo com um advogado, você ainda precisaria de alfabetização jurídica suficiente para saber quando chamá-lo, antes de tudo, e para entender o que ele está dizendo.
+
+**Guia:** Qual é uma consequência prática de ter zero alfabetização jurídica, mesmo com acesso a um advogado?
+
+**Aluno:** Você pode não reconhecer um sinal de alerta jurídico em um contrato antes de assiná-lo, ou pode não saber que uma situação precisa de um advogado até ela já ter virado um problema.
+
+**Guia:** Exatamente: a alfabetização jurídica não substitui a ajuda profissional; é o que permite usar essa ajuda de forma eficaz e saber quando você precisa dela.
+
+## Teste de prática
+
+**Pergunta 1.** O direito é mais bem definido como:
+
+A) Um conjunto de sugestões sem fiscalização
+B) Regras exigíveis, apoiadas por tribunais e pelo governo
+C) Algo relevante só para criminosos
+D) O mesmo que ética
+
+**Pergunta 2.** RED (imóveis) depende juridicamente de:
+
+A) Nada jurídico
+B) Propriedade, contratos e direitos de propriedade exigíveis
+C) Apenas direito tributário
+D) Apenas direito do mercado de capitais
+
+**Pergunta 3.** WHITE (investimentos) depende juridicamente de:
+
+A) Apenas direito imobiliário
+B) Leis do mercado de valores mobiliários que tornam os mercados confiáveis
+C) Nenhum marco jurídico
+D) Apenas alvarás de funcionamento
+
+**Pergunta 4.** Segundo esta lição, o objetivo do PURPLE é tornar o aluno:
+
+A) Um advogado habilitado
+B) Um participante juridicamente alfabetizado, não um substituto da ajuda profissional
+C) Alguém que nunca mais vai precisar de advogado
+D) Um especialista em direito penal
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A característica que define o direito é a exigibilidade: regras com consequências reais, não apenas sugestões sociais.
+
+**2.** As transações imobiliárias dependem totalmente da capacidade do sistema jurídico de fazer valer a propriedade e os contratos.
+
+**3.** Investir depende de um marco jurídico que mantenha os mercados honestos o suficiente para participar com segurança.
+
+**4.** A alfabetização jurídica é o objetivo explícito e declarado; a especialização em nível profissional não é.
+
+## Pontos-chave
+
+- O direito é formado por regras exigíveis, apoiadas por tribunais e pelo governo.
+- RED, WHITE e BLUE dependem, cada um, de fundamentos jurídicos específicos para funcionar.
+- A alfabetização jurídica torna você um usuário mais eficaz da ajuda jurídica profissional, não um substituto dela.
+- Esta trilha ensina alfabetização prática, em linha com a analogia do médico das trilhas anteriores.
+
+===== PURPLE-L1-002
+TITLE: Common law e direito legislado: de onde vêm as regras
+SUMMARY: Apresenta as duas grandes fontes do direito na maioria dos sistemas jurídicos, dando ao aluno um mapa básico de onde as regras jurídicas realmente vêm.
+# Common law e direito legislado: de onde vêm as regras
+
+## Objetivos de aprendizagem
+
+- Distinguir o direito legislado da common law.
+- Explicar por que as duas fontes importam em situações jurídicas do dia a dia.
+- Reconhecer que a combinação exata varia de país para país.
+
+## Conteúdo principal
+
+O direito legislado é o direito escrito e aprovado por um poder legislativo: uma regra formal e codificada, como uma lei específica que estabelece um requisito para contratos ou uma regra de licenciamento. A common law, usada nos Estados Unidos e em muitos outros países, é o direito construído ao longo do tempo por meio de decisões judiciais: quando juízes resolvem disputas, seu raciocínio vira precedente, que orienta como disputas futuras e semelhantes serão decididas, mesmo sem uma lei escrita específica que cubra exatamente aquela situação. (O Brasil segue a tradição do direito codificado, com o Código Civil no centro do direito privado; ainda assim, a jurisprudência dos tribunais superiores, como o STJ e o STF, tem grande peso, e alguns precedentes são formalmente vinculantes. Confirme os detalhes com um profissional.)
+
+Na prática, a maioria das questões jurídicas reais envolve as duas fontes: uma lei pode fixar uma regra geral, e as decisões judiciais interpretam o que exatamente essa lei significa em situações reais, específicas e complicadas. Isso importa na prática porque explica por que "a lei" nem sempre é uma frase simples que você pode consultar: às vezes a resposta real depende de como os tribunais aplicaram uma regra em casos anteriores semelhantes, e não apenas do que o texto da lei diz literalmente.
+
+## Exemplo prático
+
+**Pergunta:** Uma nova empresária consulta um artigo de lei e supõe que ele responde totalmente à sua dúvida jurídica. Por que isso talvez não seja o quadro completo?
+
+**Aluno:** Com base nesta lição, decisões judiciais que interpretam esse artigo podem acrescentar detalhes importantes que o texto literal da lei não explicita.
+
+**Guia:** Por que isso importaria para a situação real e específica que ela está enfrentando?
+
+**Aluno:** Porque a forma como os tribunais aplicaram o artigo em casos semelhantes pode revelar exceções, limites ou interpretações que mudam como ele se aplica à situação dela.
+
+**Guia:** Exatamente: e esse é um dos motivos pelos quais questões jurídicas complexas ou de alto risco se beneficiam de orientação profissional, e não só de uma consulta rápida à lei.
+
+## Teste de prática
+
+**Pergunta 1.** O direito legislado é:
+
+A) Direito construído apenas a partir de decisões judiciais
+B) Direito escrito e aprovado por um poder legislativo
+C) Sugestões não exigíveis
+D) Relevante apenas para casos criminais
+
+**Pergunta 2.** A common law é:
+
+A) Direito construído ao longo do tempo por meio de decisões judiciais e precedentes
+B) O mesmo que direito legislado
+C) Usada em apenas um país
+D) Irrelevante para os sistemas jurídicos modernos
+
+**Pergunta 3.** Na prática, a maioria das questões jurídicas envolve:
+
+A) Apenas leis, nunca decisões judiciais
+B) Tanto as leis quanto a forma como os tribunais as interpretaram
+C) Nenhuma das duas fontes
+D) Apenas common law, nunca leis
+
+**Pergunta 4.** Por que consultar apenas um artigo de lei pode não responder totalmente a uma questão jurídica?
+
+A) As leis são sempre completas por si sós
+B) A interpretação judicial pode acrescentar detalhes importantes que não estão no texto literal
+C) As leis nunca são relevantes
+D) Isso nunca acontece na prática
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O direito legislado é o tipo formalmente codificado, criado pelo processo legislativo.
+
+**2.** A common law se constrói gradualmente por meio de precedentes judiciais, e não de um único ato legislativo.
+
+**3.** Questões jurídicas reais normalmente exigem entender tanto a regra escrita quanto a forma como ela foi efetivamente aplicada.
+
+**4.** A interpretação judicial frequentemente revela nuances, exceções ou limites que o texto puro da lei não deixa evidentes.
+
+## Pontos-chave
+
+- O direito legislado vem dos legisladores; a common law se constrói a partir de decisões judiciais e precedentes.
+- A maioria das questões jurídicas reais envolve as duas fontes funcionando juntas.
+- O texto literal de uma lei nem sempre conta a história completa.
+- Esse é um dos motivos pelos quais questões jurídicas complexas se beneficiam de interpretação profissional.
+
+===== PURPLE-L1-003
+TITLE: Contratos 101: o que torna um acordo juridicamente vinculante
+SUMMARY: Apresenta o conceito fundamental de contrato e antecipa os elementos que tornam um acordo juridicamente exigível, preparando as próximas duas lições.
+# Contratos 101: o que torna um acordo juridicamente vinculante
+
+## Objetivos de aprendizagem
+
+- Definir um contrato em termos simples.
+- Explicar por que nem todo acordo é um contrato juridicamente exigível.
+- Antecipar os três elementos centrais tratados na próxima lição.
+
+## Conteúdo principal
+
+Um contrato é um acordo juridicamente exigível entre duas ou mais partes. A palavra-chave é exigível: um contrato não é apenas uma promessa ou um acordo de boca; é um acordo que um tribunal pode de fato obrigar alguém a cumprir, ou pelo qual pode conceder indenização se for descumprido. Essa distinção importa muito em RED, WHITE e BLUE: um contrato de compra e venda de imóvel, um contrato de subscrição de investimento e um acordo de sociedade entre empreendedores são, no fundo, todos contratos.
+
+Nem todo acordo chega ao nível de um contrato exigível. Uma promessa casual entre amigos normalmente não é; um contrato de compra formal e assinado normalmente é. A próxima lição detalha os três ingredientes centrais – oferta, aceitação e contraprestação – que em geral precisam estar presentes, em muitos sistemas jurídicos, para que um acordo conte como contrato juridicamente vinculante. Entender essa distinção é fundamental: é a diferença entre algo em que você pode realmente confiar juridicamente e algo que é apenas um entendimento amigável.
+
+## Exemplo prático
+
+**Pergunta:** Dois vizinhos combinam verbalmente que um vai cortar a grama do outro "em algum momento deste verão" em troca de "um favor depois". Isso provavelmente é um contrato exigível?
+
+**Aluno:** Com base nesta lição, parece bem casual e vago, então é duvidoso que contaria como um contrato exigível.
+
+**Guia:** O que falta aqui que um contrato formal de compra de imóvel teria?
+
+**Aluno:** Termos claros e específicos e um certo grau de formalidade: o tipo de coisa que transforma um acordo em algo que um tribunal poderia de fato fazer cumprir, e não apenas um entendimento amigável.
+
+**Guia:** Exatamente: a próxima lição vai mostrar os ingredientes específicos a procurar.
+
+## Teste de prática
+
+**Pergunta 1.** Um contrato é:
+
+A) Qualquer promessa casual
+B) Um acordo juridicamente exigível entre partes
+C) Relevante apenas para empresas
+D) O mesmo que um aperto de mão
+
+**Pergunta 2.** A principal característica que distingue um contrato é:
+
+A) Seu tamanho
+B) A exigibilidade: um tribunal pode obrigar alguém a cumpri-lo ou conceder indenização
+C) Se ele é digitado ou escrito à mão
+D) Se as duas partes são amigas
+
+**Pergunta 3.** Qual destes é descrito como exemplo de contrato no contexto deste currículo?
+
+A) Um contrato de compra e venda de imóvel
+B) Um favor verbal casual entre amigos
+C) Um devaneio sobre uma ideia de negócio
+D) Uma esperança não escrita
+
+**Pergunta 4.** O que a próxima lição aborda?
+
+A) Direito tributário
+B) Os três elementos centrais: oferta, aceitação e contraprestação
+C) Direito penal
+D) Zoneamento imobiliário
+
+## Gabarito
+
+1. B, 2. B, 3. A, 4. B
+
+## Respostas e explicações
+
+**1.** A exigibilidade é a característica que separa um verdadeiro contrato de uma promessa informal.
+
+**2.** A capacidade de um tribunal de realmente fazer cumprir o acordo é o que lhe dá significado jurídico.
+
+**3.** Contratos de compra são formais, específicos e exigíveis: um exemplo clássico de contrato real.
+
+**4.** Esta lição prepara o detalhamento dos ingredientes necessários na próxima.
+
+## Pontos-chave
+
+- Um contrato é um acordo que um tribunal pode realmente fazer cumprir, não apenas uma promessa.
+- Contratos de compra, de investimento e de sociedade são todos contratos.
+- Nem todo acordo chega ao nível de um contrato exigível.
+- A próxima lição aborda os três ingredientes centrais que transformam um acordo em contrato.
+
+===== PURPLE-L1-004
+TITLE: Oferta, aceitação e contraprestação: os três ingredientes
+SUMMARY: Detalha os três elementos clássicos geralmente exigidos para que um contrato seja juridicamente exigível, usando um exemplo concreto.
+# Oferta, aceitação e contraprestação: os três ingredientes
+
+## Objetivos de aprendizagem
+
+- Definir oferta, aceitação e contraprestação.
+- Aplicar os três elementos a uma transação simples do mundo real.
+- Reconhecer que a falta de qualquer um deles pode comprometer a exigibilidade.
+
+## Conteúdo principal
+
+Partindo da lição anterior, a maioria dos sistemas jurídicos procura três ingredientes centrais para tratar um acordo como contrato exigível. **Oferta**: uma parte propõe termos específicos ("Vendo este imóvel para você por R$ 200.000"). **Aceitação**: a outra parte concorda claramente com exatamente esses termos. **Contraprestação** (em inglês, "consideration"): cada lado troca algo de valor (dinheiro, um bem, uma promessa de fazer ou não fazer algo); uma doação unilateral, em geral, não é um contrato desse tipo, porque nada está sendo trocado. (No direito brasileiro, o contrato se forma, em regra, pelo acordo de vontades entre oferta e aceitação, e a contraprestação não é um requisito geral; a doação, por exemplo, é ela própria um contrato, com regras próprias. Confirme os detalhes com um profissional.)
+
+Um exemplo simples deixa isso concreto: um vendedor oferece um imóvel por um preço declarado (oferta), um comprador diz sim exatamente a esse preço e a esses termos (aceitação), e o dinheiro é trocado pelo imóvel (contraprestação). Os três elementos presentes, nessa ordem, é o que em geral faz um tribunal tratar o acordo resultante como contrato vinculante, e é por isso que propostas vagas, unilaterais ou não aceitas muitas vezes não se sustentam se surgir uma disputa depois.
+
+## Exemplo prático
+
+**Pergunta:** Um comprador diz: "Eu adoraria comprar sua casa algum dia", e o vendedor responde: "Claro, seria legal." Isso cumpre os três ingredientes de um contrato?
+
+**Aluno:** Com base nesta lição, não parece: não há uma oferta específica com termos reais, então a aceitação de nada específico também não conta de verdade.
+
+**Guia:** O que precisaria mudar para isso virar uma oferta real?
+
+**Aluno:** Termos específicos – um preço real, um imóvel e condições – propostos com clareza suficiente para que a outra parte pudesse aceitá-los exatamente como declarados.
+
+**Guia:** Exatamente: entusiasmo vago não é o mesmo que uma oferta juridicamente significativa.
+
+## Teste de prática
+
+**Pergunta 1.** Uma "oferta", no direito contratual, é:
+
+A) Uma expressão vaga de interesse
+B) Uma proposta de termos específicos feita por uma das partes
+C) O mesmo que contraprestação
+D) Irrelevante para a formação do contrato
+
+**Pergunta 2.** "Aceitação" significa:
+
+A) Ignorar a oferta
+B) Concordar claramente com exatamente os termos propostos
+C) Propor termos diferentes
+D) O mesmo que uma oferta
+
+**Pergunta 3.** "Contraprestação" se refere a:
+
+A) Ser educado durante a negociação
+B) Algo de valor trocado por cada lado
+C) Uma doação unilateral
+D) Algo relevante apenas para imóveis
+
+**Pergunta 4.** Uma proposta vaga e não aceita provavelmente vai:
+
+A) Sempre contar como contrato vinculante
+B) Deixar de cumprir os elementos necessários para um contrato exigível
+C) Ser idêntica a um contrato de compra assinado
+D) Não ter relevância para o direito contratual
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Uma oferta exige especificidade: propor termos reais e definidos, não um sentimento vago.
+
+**2.** Aceitação significa concordar com exatamente os termos propostos, e não com algo diferente ou parcial.
+
+**3.** A contraprestação exige uma troca real e bilateral de valor, o que distingue um contrato de uma doação.
+
+**4.** A falta de especificidade ou de uma troca real tende a comprometer se um acordo é de fato exigível.
+
+## Pontos-chave
+
+- Oferta, aceitação e contraprestação são os três ingredientes clássicos de um contrato exigível.
+- A oferta precisa ser específica; a aceitação precisa corresponder exatamente a esses termos; a contraprestação precisa envolver uma troca real de valor.
+- Uma transação imobiliária é um exemplo claro dos três elementos funcionando juntos.
+- A falta de qualquer um dos três pode comprometer se um acordo é de fato um contrato vinculante.
+
+===== PURPLE-L1-005
+TITLE: Contratos escritos e verbais: por que "coloque no papel" importa
+SUMMARY: Explica os motivos práticos e jurídicos pelos quais os contratos escritos são fortemente preferidos, incluindo uma breve introdução ao conceito do Statute of Frauds.
+# Contratos escritos e verbais: por que "coloque no papel" importa
+
+## Objetivos de aprendizagem
+
+- Explicar a diferença geral de exigibilidade entre contratos escritos e verbais.
+- Identificar os riscos práticos de confiar em um acordo verbal.
+- Apresentar a ideia de que alguns tipos de contrato precisam, por lei, ser feitos por escrito.
+
+## Conteúdo principal
+
+Muitos acordos verbais podem, tecnicamente, ser juridicamente vinculantes, mas provar o que realmente foi combinado vira um sério problema prático se as partes depois discordarem dos termos. Um contrato escrito cria um registro claro e compartilhado: termos exatos, preço exato, condições exatas, assinado pelas duas partes. Um acordo verbal depende totalmente da memória e da honestidade, que costumam falhar justamente quando mais importam: quando surge uma disputa e há dinheiro em jogo.
+
+Além do risco prático, muitos sistemas jurídicos têm uma regra, frequentemente chamada na common law de "Statute of Frauds", que exige que certos tipos de acordo – geralmente incluindo transações imobiliárias – sejam feitos por escrito para serem exigíveis, por mais claro que o acordo verbal tenha parecido no momento. (No Brasil, por exemplo, a transferência de imóveis acima de certo valor exige, em regra, escritura pública lavrada em cartório de notas, e a propriedade só passa ao comprador com o registro no Cartório de Registro de Imóveis. Confirme com um tabelião ou advogado.) Este é um dos conselhos jurídicos práticos mais claros e universais em RED, WHITE e BLUE: coloque no papel, sempre, mesmo quando você confia totalmente na outra parte, porque a confiança não cria um registro em que um tribunal possa se apoiar depois.
+
+## Exemplo prático
+
+**Pergunta:** Dois sócios combinam verbalmente dividir os lucros 60/40, apertam as mãos e nunca colocam isso no papel. Um ano depois, discordam sobre a divisão. Que problema isso ilustra?
+
+**Aluno:** Com base nesta lição, sem um registro escrito, é basicamente a palavra de um contra a do outro sobre o que realmente foi combinado.
+
+**Guia:** Por que a confiança entre os sócios não resolve esse problema?
+
+**Aluno:** Porque a confiança não cria prova: um tribunal que for resolver a disputa depois precisa de algo mais confiável do que a lembrança de cada sócio sobre uma conversa.
+
+**Guia:** Exatamente: é por isso que "coloque no papel" vale até para pessoas em quem você confia totalmente.
+
+## Teste de prática
+
+**Pergunta 1.** Acordos verbais são:
+
+A) Nunca juridicamente vinculantes, em nenhuma circunstância
+B) Às vezes tecnicamente vinculantes, mas difíceis de provar na prática
+C) Sempre mais seguros que contratos escritos
+D) Irrelevantes para o direito contratual
+
+**Pergunta 2.** A principal vantagem prática de um contrato escrito é:
+
+A) Parecer mais oficial
+B) Criar um registro claro e compartilhado dos termos exatos
+C) Ser sempre exigido por lei
+D) Não ter nenhuma vantagem sobre acordos verbais
+
+**Pergunta 3.** O Statute of Frauds geralmente exige que certos acordos, como negócios imobiliários, sejam:
+
+A) Apenas reconhecidos em cartório
+B) Feitos por escrito para serem exigíveis
+C) Verbais, para simplificar
+D) Testemunhados por um juiz
+
+**Pergunta 4.** Por que "coloque no papel" vale mesmo entre partes que confiam uma na outra?
+
+A) A confiança garante que nunca haverá disputas
+B) A confiança não cria um registro confiável se uma disputa surgir depois
+C) Contratos escritos são só para estranhos
+D) Esse conselho não vale para relações de confiança
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Acordos verbais não são automaticamente inexigíveis, mas provar seus termos exatos depois é uma fragilidade prática real.
+
+**2.** Um registro escrito elimina a ambiguidade sobre o que realmente foi combinado, o que importa justamente quando surge uma disputa.
+
+**3.** Pelas regras de muitos sistemas jurídicos, certos tipos de transação precisam, por lei, ser documentados por escrito.
+
+**4.** Mesmo uma grande confiança entre as partes não produz o tipo de prova de que um tribunal precisa para resolver um desacordo posterior.
+
+## Pontos-chave
+
+- Acordos verbais podem ser tecnicamente vinculantes, mas são difíceis de provar em caso de disputa.
+- Contratos escritos criam um registro claro e confiável dos termos exatos.
+- Alguns tipos de transação, como os imobiliários, muitas vezes precisam por lei ser feitos por escrito.
+- "Coloque no papel" vale universalmente, mesmo entre partes que confiam uma na outra.
