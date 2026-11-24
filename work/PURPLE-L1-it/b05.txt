@@ -1,0 +1,399 @@
+===== PURPLE-L1-021
+TITLE: Diritto immobiliare: che cosa significa giuridicamente “possedere” un terreno
+SUMMARY: Apre la sezione di diritto immobiliare spiegando che la proprietà è giuridicamente un “fascio di diritti” e non un unico concetto semplice.
+# Diritto immobiliare: che cosa significa giuridicamente “possedere” un terreno
+
+## Obiettivi di apprendimento
+
+- Spiegare il concetto di proprietà come “fascio di diritti”.
+- Identificare i diritti comuni compresi in quel fascio.
+- Collegare questa impostazione giuridica ai contenuti precedenti del percorso RED.
+
+## Contenuto principale
+
+Questa lezione apre la sezione di diritto immobiliare di PURPLE, collegandosi direttamente a RED. Giuridicamente, essere proprietari di un immobile non è un unico diritto semplice: è spesso descritto come un “fascio di diritti” che, in alcuni casi, possono essere separati e detenuti da parti diverse. I diritti comuni di questo fascio includono: il diritto di possedere l'immobile, il diritto di usarlo, il diritto di escluderne gli altri, il diritto di trasferirlo o venderlo e il diritto di costruirvi o migliorarlo. (Il Codice civile italiano descrive la proprietà in modo simile: il proprietario ha il diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l'osservanza degli obblighi stabiliti dall'ordinamento.)
+
+Questo conta nella pratica perché questi diritti possono essere separati. Un proprietario che dà in locazione un immobile trasferisce temporaneamente il diritto di possederlo e usarlo, conservando il diritto di riottenerne in seguito il possesso e il diritto di vendere l'immobile stesso. Chi concede una servitù (trattata in una lezione successiva) cede una parte del proprio diritto di esclusione a una parte specifica per uno scopo specifico, conservando tutto il resto. Capire la proprietà come un fascio, e non come una cosa indivisibile, prepara gran parte del resto di questa sezione: molte questioni giuridiche immobiliari sono in realtà domande su quale diritto specifico, all'interno di quel fascio, sia effettivamente in discussione.
+
+## Esempio svolto
+
+**Domanda:** Una proprietaria dà in locazione il suo immobile a un inquilino. Secondo il concetto di fascio di diritti, ha rinunciato del tutto alla proprietà?
+
+**Studente:** Secondo questa lezione, no: ha trasferito temporaneamente il diritto di possedere e usare l'immobile, ma conserva altri diritti del fascio, come quello di riottenerlo in seguito e quello di venderlo.
+
+**Guida:** Perché è più corretto descriverlo come un trasferimento parziale piuttosto che come una perdita totale della proprietà?
+
+**Studente:** Perché la proprietà è un fascio di diritti separati, non un'unica cosa: la locazione trasferisce diritti specifici di quel fascio, mentre la proprietaria conserva il resto.
+
+**Guida:** Esatto: è la nuova impostazione centrale che questa lezione introduce.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Giuridicamente, la proprietà di un immobile si descrive meglio come:
+
+A) Un unico diritto indivisibile
+B) Un “fascio di diritti” che possono essere separati tra le parti
+C) Qualcosa di rilevante solo per gli immobili commerciali
+D) La stessa cosa di una locazione
+
+**Domanda 2.** I diritti comuni del fascio della proprietà includono:
+
+A) Possesso, uso, esclusione, trasferimento, sviluppo
+B) Solo il diritto di vendere
+C) Solo il diritto di viverci personalmente
+D) Nessun diritto riconoscibile
+
+**Domanda 3.** Quando una proprietaria dà in locazione un immobile, che cosa succede al fascio di diritti?
+
+A) Perde completamente tutti i diritti
+B) Alcuni diritti (possesso, uso) vengono trasferiti temporaneamente, altri (come riottenerlo in seguito, venderlo) vengono conservati
+C) Non cambia nulla
+D) L'inquilino ottiene la proprietà permanente
+
+**Domanda 4.** Perché questa impostazione del fascio di diritti conta per il resto della sezione?
+
+A) Non conta affatto
+B) Molte questioni giuridiche immobiliari riguardano in realtà quale diritto specifico sia in discussione
+C) Il diritto immobiliare non ha una vera struttura
+D) Questa impostazione conta solo per gli immobili commerciali
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questa nuova impostazione è il concetto giuridico di base di gran parte del diritto immobiliare.
+
+**2.** Questi cinque diritti sono comunemente indicati come componenti centrali del fascio.
+
+**3.** La locazione è un esempio chiaro di trasferimento parziale e temporaneo di diritti, non di perdita totale della proprietà.
+
+**4.** Questa impostazione dà struttura ai temi giuridici specifici trattati nel resto della sezione.
+
+## Punti chiave
+
+- La proprietà è giuridicamente un “fascio di diritti”, non una cosa indivisibile.
+- Il fascio comprende diritti di possesso, uso, esclusione, trasferimento e sviluppo.
+- Questi diritti possono essere separati tra parti diverse, come in una locazione.
+- Molte controversie immobiliari riguardano in realtà quale diritto specifico sia effettivamente in questione.
+
+===== PURPLE-L1-022
+TITLE: Gli atti di trasferimento: tipi e che cosa trasferiscono davvero
+SUMMARY: Spiega il concetto generale di atto di trasferimento (deed) e le differenze pratiche tra i tipi comuni, concentrandosi su che cosa garantisce davvero ciascuno.
+# Gli atti di trasferimento: tipi e che cosa trasferiscono davvero
+
+## Obiettivi di apprendimento
+
+- Definire in termini semplici un atto di trasferimento (nel diritto angloamericano “deed”).
+- Distinguere la general warranty deed dalla quitclaim deed.
+- Spiegare perché il tipo di atto conta nella pratica.
+
+## Contenuto principale
+
+Nel diritto angloamericano il deed è il documento giuridico che trasferisce effettivamente la proprietà di un immobile da una parte all'altra. Non tutti gli atti offrono all'acquirente lo stesso livello di protezione, e capire la differenza conta nella pratica, non solo sul piano tecnico. Una **general warranty deed** (atto con garanzia piena) offre la protezione più forte: il venditore garantisce di avere un titolo libero e si impegna a difenderlo da qualsiasi pretesa, anche precedente alla propria proprietà. Una **quitclaim deed** (atto di rinuncia) offre la protezione più debole: il venditore trasferisce qualunque diritto si trovi ad avere, senza alcuna garanzia che quel diritto sia valido o che il titolo sia libero: è un documento del tipo “trasferisco ciò che ho, se ho qualcosa”, non una garanzia. (In Italia questi tipi di atto non esistono: la compravendita immobiliare si conclude di norma con un atto pubblico notarile, che viene trascritto nei Registri immobiliari, e il venditore è tenuto per legge alla garanzia per evizione e per i vizi.)
+
+Questa distinzione conta enormemente nella pratica. Una general warranty deed è standard e attesa nella maggior parte degli acquisti immobiliari tra parti indipendenti, perché un acquirente che paga denaro vero vuole una reale garanzia su ciò che riceve. Una quitclaim deed è più comune in situazioni senza una vera vendita – trasferimenti tra familiari, regolarizzazione di un dettaglio formale del titolo, accordi di divorzio –, in cui le parti capiscono e accettano già la natura limitata del trasferimento. Ricevere una quitclaim deed in quello che dovrebbe essere un normale acquisto è un campanello d'allarme che merita subito l'attenzione di un professionista.
+
+## Esempio svolto
+
+**Domanda:** Un acquirente compra un immobile da una venditrice con cui non ha legami, a pieno valore di mercato, e la venditrice offre una quitclaim deed invece di una general warranty deed. L'acquirente dovrebbe preoccuparsi?
+
+**Studente:** Secondo questa lezione, sì: una quitclaim deed non garantisce che la venditrice abbia davvero un titolo libero, il che è un problema reale in un normale acquisto a pieno valore.
+
+**Guida:** Perché una quitclaim deed sarebbe più appropriata in un altro tipo di situazione, come un trasferimento tra familiari?
+
+**Studente:** Perché in quel contesto le parti capiscono e accettano già la natura limitata del trasferimento: non si affidano all'atto stesso come forte garanzia di proprietà.
+
+**Guida:** Esatto: lo stesso tipo di documento può essere del tutto normale in un contesto e un serio campanello d'allarme in un altro.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un atto di trasferimento (deed) è:
+
+A) Un tipo di documento di prestito
+B) Il documento giuridico che trasferisce la proprietà di un immobile
+C) Un tipo di locazione
+D) Irrilevante per le operazioni immobiliari
+
+**Domanda 2.** Una general warranty deed:
+
+A) Non offre alcuna garanzia di titolo libero
+B) Garantisce un titolo libero e la difesa da pretese, anche precedenti alla proprietà del venditore
+C) È la forma più debole di trasferimento della proprietà
+D) Si usa solo nei trasferimenti tra familiari
+
+**Domanda 3.** Una quitclaim deed:
+
+A) Garantisce la protezione del titolo più forte possibile
+B) Trasferisce qualunque diritto abbia il venditore, senza garanzia che sia valido
+C) È identica a una general warranty deed
+D) È richiesta per ogni vendita immobiliare
+
+**Domanda 4.** Ricevere una quitclaim deed in un normale acquisto a pieno valore va trattato come:
+
+A) Del tutto normale e senza preoccupazioni
+B) Un campanello d'allarme che merita subito l'attenzione di un professionista
+C) Una garanzia di protezione migliore di una warranty deed
+D) Irrilevante per la sicurezza dell'operazione
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Nel diritto angloamericano il deed è proprio lo strumento giuridico di trasferimento della proprietà immobiliare.
+
+**2.** La forza della general warranty deed deriva dalla garanzia esplicita del venditore e dal suo obbligo continuativo di difesa.
+
+**3.** La debolezza della quitclaim deed sta nell'assenza di qualsiasi garanzia sulla validità di ciò che viene trasferito.
+
+**4.** È il contesto a determinare l'adeguatezza: lo stesso tipo di documento è normale in un ambito e allarmante in un altro.
+
+## Punti chiave
+
+- Nel diritto angloamericano il deed è il documento giuridico che trasferisce la proprietà immobiliare.
+- Una general warranty deed garantisce un titolo libero e la difesa da pretese.
+- Una quitclaim deed trasferisce qualunque diritto esista, senza garanzia di validità.
+- Il tipo di atto giusto dipende dal contesto: una quitclaim deed in un normale acquisto è un campanello d'allarme.
+
+===== PURPLE-L1-023
+TITLE: Titolo di proprietà e assicurazione del titolo: proteggere i diritti di proprietà
+SUMMARY: Spiega che cosa significa giuridicamente “titolo”, perché possono sorgere problemi di titolo anche con un atto corretto e il ruolo dell'assicurazione del titolo nella gestione di questo rischio.
+# Titolo di proprietà e assicurazione del titolo: proteggere i diritti di proprietà
+
+## Obiettivi di apprendimento
+
+- Definire il “titolo” come qualcosa di distinto dall'atto.
+- Spiegare perché possono esistere problemi di titolo anche con un atto valido.
+- Descrivere lo scopo generale dell'assicurazione del titolo.
+
+## Contenuto principale
+
+Il titolo (in inglese “title”) indica il diritto giuridico di proprietà in sé: l'atto è il documento che trasferisce il titolo, ma il titolo è il diritto sottostante che viene trasferito. Un atto apparentemente valido non garantisce automaticamente un titolo “pulito”: possono esserci problemi nascosti, come un'ipoteca non dichiarata di un precedente proprietario, una firma falsificata da qualche parte nella storia dell'immobile, un erede con una pretesa non risolta o un errore materiale nei pubblici registri. Questi problemi possono emergere anni dopo un acquisto, minacciando potenzialmente il diritto di proprietà dell'attuale proprietario.
+
+L'assicurazione del titolo (in inglese “title insurance”) esiste proprio per gestire questo rischio. Prima di un acquisto, una ricerca sul titolo esamina i pubblici registri alla ricerca di questo tipo di problemi. L'assicurazione del titolo protegge poi l'acquirente (e spesso il finanziatore) dalle perdite economiche se un problema di titolo emerge in seguito nonostante quella ricerca, coprendo spese legali e possibili perdite legate alla difesa o alla soluzione della pretesa. A differenza della maggior parte delle assicurazioni, che proteggono da eventi futuri, l'assicurazione del titolo protegge da eventi passati semplicemente non ancora scoperti: una distinzione sottile ma importante che spiega perché di solito si paga con un premio unico all'acquisto, invece che con versamenti continui. (In Italia l'assicurazione del titolo è poco diffusa: prima dell'atto il notaio esegue le verifiche nei registri immobiliari e catastali, e la sicurezza si basa soprattutto su questo sistema.)
+
+## Esempio svolto
+
+**Domanda:** Una proprietaria scopre, cinque anni dopo l'acquisto, che un'ipoteca di un precedente proprietario non è mai stata cancellata correttamente e ora minaccia il suo diritto di proprietà. In che modo l'assicurazione del titolo potrebbe aiutarla?
+
+**Studente:** Secondo questa lezione, se aveva stipulato un'assicurazione del titolo, questa dovrebbe aiutarla a coprire le spese legali e le possibili perdite legate alla soluzione del problema, anche se è emerso anni dopo l'acquisto.
+
+**Guida:** Perché questo è diverso dal funzionamento della maggior parte delle altre assicurazioni?
+
+**Studente:** La maggior parte delle assicurazioni protegge da eventi futuri, mentre l'assicurazione del titolo protegge da un problema che esisteva già in passato: è stato solo scoperto più tardi.
+
+**Guida:** Esatto: questa distinzione è il motivo per cui di solito è un pagamento unico e non una polizza continuativa.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il titolo, distinto dall'atto, indica:
+
+A) Il documento fisico che trasferisce l'immobile
+B) Il diritto giuridico di proprietà in sé
+C) Un tipo di prestito
+D) La stessa cosa di una locazione
+
+**Domanda 2.** Una ricerca sul titolo esamina:
+
+A) La storia creditizia dell'acquirente
+B) I pubblici registri alla ricerca di problemi di titolo nascosti come ipoteche o firme falsificate
+C) Solo le condizioni materiali dell'immobile
+D) Nulla di rilevante per la proprietà
+
+**Domanda 3.** L'assicurazione del titolo protegge da:
+
+A) Danni futuri all'immobile
+B) Perdite economiche dovute a problemi di titolo esistenti in passato ma non scoperti prima dell'acquisto
+C) Solo il furto dell'immobile
+D) Nulla di significativo
+
+**Domanda 4.** In che cosa l'assicurazione del titolo differisce dalla maggior parte degli altri tipi di assicurazione?
+
+A) È identica alla maggior parte delle assicurazioni
+B) Protegge da problemi passati non scoperti invece che da eventi futuri
+C) Copre solo eventi futuri, come la maggior parte delle assicurazioni
+D) Richiede pagamenti mensili continui come la maggior parte delle assicurazioni
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il titolo è il diritto giuridico sottostante; l'atto è semplicemente lo strumento che lo trasferisce.
+
+**2.** Un'accurata ricerca sul titolo è il passaggio preventivo pensato per individuare questi problemi prima dell'acquisto.
+
+**3.** L'assicurazione del titolo affronta specificamente il rischio che vizi storici non scoperti emergano a posteriori.
+
+**4.** Questa distinzione tra passato e futuro spiega l'insolita struttura a premio unico dell'assicurazione del titolo.
+
+## Punti chiave
+
+- Il titolo è il diritto giuridico di proprietà sottostante, distinto dall'atto stesso.
+- Possono esistere problemi di titolo nascosti anche con un atto redatto correttamente.
+- L'assicurazione del titolo protegge dalle perdite economiche dovute a vizi passati del titolo non scoperti.
+- Questa protezione da eventi passati spiega perché l'assicurazione del titolo ha di solito un premio unico, a differenza della maggior parte delle assicurazioni.
+
+===== PURPLE-L1-024
+TITLE: Gravami e vincoli: quando un immobile non è del tutto “libero”
+SUMMARY: Introduce gravami e vincoli come pretese o restrizioni giuridiche legate a un immobile che possono incidere sulla proprietà e sulla trasferibilità.
+# Gravami e vincoli: quando un immobile non è del tutto “libero”
+
+## Obiettivi di apprendimento
+
+- Definire un gravame (in inglese “lien”) e un vincolo (in inglese “encumbrance”).
+- Identificare i tipi comuni di gravame.
+- Spiegare perché i gravami contano nella pratica per acquirenti e proprietari.
+
+## Contenuto principale
+
+Un vincolo è qualsiasi pretesa, restrizione o diritto giuridico legato a un immobile che non è detenuto pienamente dall'attuale proprietario: una categoria ampia che comprende gravami, servitù e certe restrizioni. Un gravame è specificamente una pretesa giuridica su un immobile, di solito a garanzia di un debito, che dà al titolare il diritto di forzare la vendita dell'immobile per soddisfare quel debito se non viene pagato. I tipi comuni includono l'ipoteca a garanzia del mutuo (il prestito usato per acquistare l'immobile), il gravame fiscale (per imposte sull'immobile non pagate) e il gravame dell'impresa che ha eseguito lavori (iscritto da chi non è stato pagato per lavori svolti sull'immobile). (In Italia ipoteche e altre formalità pregiudizievoli risultano dai registri immobiliari, che il notaio consulta prima dell'atto; anche chi esegue lavori può, in certi casi, ottenere tutele sull'immobile.)
+
+I gravami contano nella pratica perché in genere sono legati all'immobile stesso, non solo alla persona che li ha generati: un gravame può quindi seguire un immobile attraverso una vendita se non viene individuato e cancellato prima. È proprio per questo che le ricerche sul titolo (della lezione precedente) contano tanto: un gravame non risolto scoperto prima del rogito può essere affrontato, mentre uno che sfugge può diventare un problema del nuovo proprietario. Capire che un immobile può portare con sé questi obblighi, separati dall'immobile fisico, è un elemento centrale della cultura giuridica immobiliare.
+
+## Esempio svolto
+
+**Domanda:** Un'impresa completa dei lavori su un immobile ma non viene mai pagata e in seguito iscrive un gravame su quell'immobile. Se l'immobile viene poi venduto a un nuovo acquirente senza risolvere il gravame, quale rischio corre il nuovo acquirente?
+
+**Studente:** Secondo questa lezione, poiché i gravami sono in genere legati all'immobile stesso e non solo a chi li ha generati, il nuovo acquirente potrebbe ereditare quel gravame non risolto come problema proprio.
+
+**Guida:** Come si sarebbe potuto evitare?
+
+**Studente:** Un'adeguata ricerca sul titolo prima dell'acquisto avrebbe dovuto individuare il gravame, permettendo di risolverlo o affrontarlo prima della conclusione della vendita.
+
+**Guida:** Esatto: è proprio per questo che il processo di ricerca sul titolo dell'ultima lezione conta tanto nella pratica.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un vincolo è:
+
+A) La stessa cosa di un atto
+B) Una pretesa, restrizione o diritto giuridico legato a un immobile
+C) Un tipo di assicurazione
+D) Rilevante solo per le locazioni
+
+**Domanda 2.** Un gravame è specificamente:
+
+A) Un tipo di atto
+B) Una pretesa giuridica su un immobile, di solito a garanzia di un debito
+C) Una forma di assicurazione del titolo
+D) Irrilevante per il diritto immobiliare
+
+**Domanda 3.** Il gravame dell'impresa che ha eseguito lavori viene iscritto da:
+
+A) Un'autorità fiscale
+B) Un'impresa che non è stata pagata per lavori svolti sull'immobile
+C) Una banca che concede un mutuo
+D) Solo l'architetto originario dell'immobile
+
+**Domanda 4.** Perché i gravami contano nella pratica per chi acquista un immobile?
+
+A) I gravami non riguardano mai un nuovo acquirente
+B) I gravami sono in genere legati all'immobile stesso e possono seguirlo attraverso una vendita se non cancellati
+C) I gravami riguardano solo il proprietario originario, mai un acquirente
+D) I gravami vengono cancellati automaticamente a ogni vendita
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il vincolo è la categoria generale che comprende varie pretese e restrizioni legate all'immobile.
+
+**2.** La caratteristica che definisce il gravame è il suo ruolo di garanzia per un debito non pagato.
+
+**3.** Questi gravami tutelano specificamente imprese e fornitori che hanno svolto lavori senza essere pagati.
+
+**4.** Proprio questo legame con l'immobile rende i gravami non risolti un rischio reale per gli acquirenti ignari.
+
+## Punti chiave
+
+- Un vincolo è qualsiasi pretesa o restrizione legata a un immobile; un gravame è specificamente una pretesa a garanzia di un debito.
+- I tipi comuni includono ipoteche per mutui, gravami fiscali e gravami delle imprese che hanno eseguito lavori.
+- I gravami sono in genere legati all'immobile, non solo alla persona che li ha generati.
+- È proprio per questo che un'accurata ricerca sul titolo prima dell'acquisto conta tanto.
+
+===== PURPLE-L1-025
+TITLE: Diritto delle locazioni: diritti e obblighi di base
+SUMMARY: Introduce il quadro giuridico di base del rapporto tra locatore e conduttore, rilevante per i proprietari di immobili in affitto del percorso RED.
+# Diritto delle locazioni: diritti e obblighi di base
+
+## Obiettivi di apprendimento
+
+- Identificare gli obblighi generali del locatore.
+- Identificare gli obblighi generali e le tutele del conduttore.
+- Riconoscere che i dettagli variano molto da un ordinamento all'altro.
+
+## Contenuto principale
+
+Il diritto delle locazioni regola il rapporto giuridico creato da un contratto di locazione: un trasferimento temporaneo del diritto di possedere e usare un immobile (ricorda la lezione sul fascio di diritti) in cambio di un canone. In generale, i locatori hanno obblighi che di solito includono: mantenere l'immobile in condizioni abitabili, seguire le procedure legali corrette per lo sfratto invece di farsi giustizia da sé, per esempio cambiando le serrature o rimuovendo i beni, e rispettare la riservatezza del conduttore con un adeguato preavviso per l'accesso. I conduttori hanno in genere obblighi come: pagare il canone come concordato, non causare danni oltre la normale usura e rispettare i termini del contratto.
+
+Questo ambito del diritto è fortemente legato all'ordinamento, con differenze reali nelle tutele dei conduttori, nelle regole sul deposito cauzionale, nei preavvisi e nelle procedure di sfratto tra stati, città e paesi diversi. (In Italia, per esempio, il rilascio dell'immobile richiede di norma un procedimento giudiziario come la convalida di sfratto, e per le locazioni abitative il deposito cauzionale è in genere limitato a tre mensilità del canone; verifica le regole applicabili con un professionista.) Per un locatore del percorso RED non si tratta di conoscenze facoltative: gestire male uno sfratto, trattenere illegittimamente un deposito cauzionale o non garantire l'abitabilità può creare una reale responsabilità giuridica, a volte con sanzioni ben oltre la semplice restituzione di quanto trattenuto ingiustamente. È un esempio chiaro e pratico del perché la conoscenza giuridica locale conti in particolare per gli investitori immobiliari che gestiscono immobili in affitto, e non solo una comprensione generale a livello nazionale.
+
+## Esempio svolto
+
+**Domanda:** Un locatore, esasperato da un conduttore che non paga, cambia le serrature e rimuove i beni del conduttore senza passare per alcun procedimento legale formale. Quale problema illustra questo?
+
+**Studente:** Secondo questa lezione, sembra proprio il tipo di “farsi giustizia da sé” da cui questa lezione mette in guardia: i locatori devono in genere seguire le procedure legali di sfratto corrette, non prendere in mano la situazione da soli.
+
+**Guida:** Quale rischio reale crea questo per il locatore, anche se il conduttore davvero non pagava il canone?
+
+**Studente:** Il locatore potrebbe affrontare a sua volta una reale responsabilità giuridica, potenzialmente con sanzioni, nonostante abbia un motivo legittimo di lamentela per il canone non pagato.
+
+**Guida:** Esatto: avere una lamentela valida non giustifica l'uso di un procedimento improprio per affrontarla.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il diritto delle locazioni regola:
+
+A) Il rapporto creato da un contratto di locazione
+B) Solo gli immobili commerciali
+C) Solo le compravendite immobiliari
+D) Nulla che riguardi gli immobili
+
+**Domanda 2.** Un obbligo comune del locatore include:
+
+A) Cambiare le serrature per allontanare subito i conduttori che non pagano
+B) Mantenere l'immobile abitabile e seguire le procedure di sfratto corrette
+C) I locatori non hanno obblighi
+D) Ignorare del tutto la riservatezza del conduttore
+
+**Domanda 3.** Perché questo ambito del diritto è descritto come fortemente legato all'ordinamento?
+
+A) Non lo è: le regole sono identiche ovunque
+B) Tutele dei conduttori, regole sul deposito e procedure di sfratto variano molto a seconda del luogo
+C) Solo le grandi città hanno un diritto delle locazioni
+D) Questa lezione non afferma nulla del genere
+
+**Domanda 4.** Quale rischio reale corre un locatore che sfratta in modo improprio un conduttore, anche se davvero moroso?
+
+A) Nessun rischio, perché il conduttore aveva torto
+B) Una reale responsabilità giuridica, a volte con sanzioni oltre la controversia di fondo
+C) Il rigetto automatico di qualsiasi pretesa del conduttore
+D) Questa situazione non ha rilevanza giuridica
+
+## Soluzioni
+
+1. A, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Questo intero ambito del diritto esiste proprio per regolare il rapporto tra locatore e conduttore basato sul contratto di locazione.
+
+**2.** Abitabilità e procedimento legale corretto sono indicati in molti ordinamenti come obblighi centrali del locatore.
+
+**3.** Differenze reali e significative tra ordinamenti sono sottolineate esplicitamente come caratteristica distintiva di questo ambito.
+
+**4.** Un procedimento improprio, anche con una lamentela legittima, è proprio il tipo di errore che crea una reale responsabilità del locatore.
+
+## Punti chiave
+
+- Il diritto delle locazioni regola il rapporto di locazione, con obblighi da entrambe le parti.
+- I locatori devono in genere garantire l'abitabilità e seguire le procedure legali di sfratto corrette.
+- Questo ambito varia molto da un ordinamento all'altro: la conoscenza locale conta.
+- Farsi giustizia da sé, anche contro un conduttore davvero moroso, crea una reale responsabilità del locatore.
