@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-019
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 19
-title: "De Volmacht Uitgelegd"
-summary: "De Volmacht Uitgelegd"
-locale: "nl"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: nl
+title: "Concurrentiebedingen en geheimhoudingsovereenkomsten: wat ze werkelijk doen"
+summary: "Legt het praktische doel en de overwegingen over juridische afdwingbaarheid uit van concurrentiebedingen en geheimhoudingsovereenkomsten, die vaak voorkomen in zakelijke contexten."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-019: De Volmacht Uitgelegd
+
+# Concurrentiebedingen en geheimhoudingsovereenkomsten: wat ze werkelijk doen
 
 ## Leerdoelen
-1. Volmacht in eenvoudige bewoordingen definiëren.
-2. Een algemene volmacht onderscheiden van een beperkte volmacht.
-3. Uitleggen wanneer een volmacht doorgaans vervalt.
+
+- Een concurrentiebeding onderscheiden van een geheimhoudingsovereenkomst.
+- Het algemene doel van elk uitleggen.
+- Herkennen dat de afdwingbaarheid sterk verschilt per rechtsgebied.
 
 ## Kerninhoud
-*GEVERIFIEERD FEIT:* Een volmacht is een juridisch document dat een persoon (de "gevolmachtigde") machtigt om namens een andere persoon (de "volmachtgever") op te treden in specifieke juridische of financiële aangelegenheden. Een **algemene volmacht** geeft doorgaans ruime bevoegdheden over veel aangelegenheden, terwijl een **beperkte volmacht** de bevoegdheid doorgaans beperkt tot een specifieke taak of periode.
 
-*AANNAME:* Een gewone volmacht vervalt doorgaans als de volmachtgever wilsonbekwaam wordt of overlijdt, tenzij het document specifiek is aangeduid als een "doorlopende volmacht", doorgaans zo opgesteld dat deze geldig blijft ook als de volmachtgever wilsonbekwaam wordt.
+Een geheimhoudingsovereenkomst (in het Engels "non-disclosure agreement", NDA) beperkt een partij in het delen van bepaalde vertrouwelijke informatie en beschermt zo bedrijfsgeheimen, ondernemingsplannen of eigen werkwijzen die tijdens een zakelijke relatie worden gedeeld. Een concurrentiebeding (in het Engels "non-compete") beperkt een partij (vaak een voormalige werknemer of de verkoper van een bedrijf) om gedurende een bepaalde tijd en in een bepaald gebied met de andere partij te concurreren, en beschermt een onderneming zo tegen een vertrekkende insider die zijn interne kennis direct gebruikt om rechtstreeks te concurreren.
 
-## Praktisch Voorbeeld
-*PRAKTISCH VOORBEELD:* Iemand die voor enkele maanden naar het buitenland reist, zou een beperkte volmacht aan een familielid kunnen geven, die alleen machtigt om specifieke rekeningen te betalen tijdens zijn afwezigheid. Iemand die zich zorgen maakt over mogelijke toekomstige leeftijdsgebonden wilsonbekwaamheid zou daarentegen een bredere doorlopende volmacht kunnen geven, zodat een vertrouwd familielid zijn financiële zaken kan regelen als hij dat zelf niet meer kan.
+Beide komen veel voor in zakelijke contexten van het BLUE-traject – arbeidsovereenkomsten, overeenkomsten voor de verkoop van een bedrijf, beëindigingen van samenwerkingen –, maar ze verschillen sterk in hoe afdwingbaar ze werkelijk zijn. Geheimhoudingsovereenkomsten zijn in het algemeen goed afdwingbaar, omdat ze alleen het bekendmaken beperken zonder iemands vermogen om de kost te verdienen breed te beperken. Concurrentiebedingen zijn veel wisselender: sommige rechtsgebieden handhaven ze vlot als hun reikwijdte redelijk is, sommige beperken ze sterk en sommige verbieden ze voor de meeste werkenden bijna helemaal, wat een beleidsspanning weerspiegelt tussen het beschermen van legitieme bedrijfsbelangen en het niet onredelijk beperken van iemands vermogen om te werken. (In Nederland moet een concurrentiebeding in een arbeidsovereenkomst bijvoorbeeld schriftelijk worden overeengekomen, en in een tijdelijk contract is het in beginsel alleen geldig met een schriftelijke motivering van zwaarwegende bedrijfsbelangen; de rechter kan het beding matigen. In België gelden andere voorwaarden. Laat dit door een arbeidsrechtadvocaat controleren.) Juist deze variatie maakt van "is mijn concurrentiebeding afdwingbaar?" een echt rechtsgebiedsafhankelijke vraag die professionele controle waard is, niet iets om in de ene of de andere richting aan te nemen.
 
-## Praktische Toets
-1. Wat is een volmacht?
-2. Wat is het algemene verschil tussen een algemene en een beperkte volmacht?
-3. Waar/Onwaar: Alle volmachten blijven automatisch geldig bij wilsonbekwaamheid van de volmachtgever.
-4. Welk type volmacht is bedoeld om geldig te blijven tijdens wilsonbekwaamheid?
+## Praktijkvoorbeeld
+
+**Vraag:** Een ondernemer in één staat gaat ervan uit dat een standaardconcurrentiebeding volledig afdwingbaar zal zijn, op basis van iets wat hij las over de regels van een andere staat. Wat zou deze les hem moeten doen heroverwegen?
+
+**Cursist:** Volgens deze les verschilt de afdwingbaarheid van concurrentiebedingen sterk per rechtsgebied, dus aannemen dat de regels van een andere staat gelden, kan een echte fout zijn.
+
+**Begeleider:** Hoe verhoudt dit zich volgens deze les tot de afdwingbaarheid van geheimhoudingsovereenkomsten?
+
+**Cursist:** Geheimhoudingsovereenkomsten worden beschreven als in het algemeen overal goed afdwingbaar, terwijl concurrentiebedingen veel wisselender en afhankelijk van het rechtsgebied zijn; je moet dus niet aannemen dat de twee op dezelfde manier werken.
+
+**Begeleider:** Precies: daarom verdient vooral de afdwingbaarheid van concurrentiebedingen een professionele controle die rekening houdt met het rechtsgebied.
+
+## Oefenquiz
+
+**Vraag 1.** Een geheimhoudingsovereenkomst beperkt:
+
+A) Iemands vermogen om waar dan ook te werken
+B) Een partij in het delen van bepaalde vertrouwelijke informatie
+C) Alleen vastgoedtransacties
+D) Niets juridisch betekenisvols
+
+**Vraag 2.** Een concurrentiebeding beperkt:
+
+A) Alleen het bekendmaken van vertrouwelijke informatie
+B) Een partij om gedurende een bepaalde tijd en in een bepaald gebied met de andere partij te concurreren
+C) Helemaal niets
+D) Alleen criminele activiteiten
+
+**Vraag 3.** Hoe verhoudt de afdwingbaarheid van geheimhoudingsovereenkomsten zich in het algemeen tot die van concurrentiebedingen?
+
+A) Ze zijn even wisselend
+B) Geheimhoudingsovereenkomsten zijn in het algemeen goed afdwingbaar; de afdwingbaarheid van concurrentiebedingen verschilt sterk per rechtsgebied
+C) Concurrentiebedingen zijn altijd beter afdwingbaar dan geheimhoudingsovereenkomsten
+D) Geen van beide is ooit afdwingbaar
+
+**Vraag 4.** Waarom verschilt de afdwingbaarheid van concurrentiebedingen zo sterk per rechtsgebied?
+
+A) Zonder echte reden, het is willekeurig
+B) Een beleidsspanning tussen het beschermen van bedrijfsbelangen en het niet onredelijk beperken van iemands vermogen om te werken
+C) Alleen rijke staten handhaven concurrentiebedingen
+D) Deze les gaat niet in op de reden
 
 ## Antwoordsleutel
-1. Een juridisch document dat iemand machtigt om namens een ander op te treden   2. De algemene geeft ruime bevoegdheden; de beperkte beperkt de bevoegdheid tot een taak of periode   3. Onwaar   4. De doorlopende volmacht
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een volmacht.
-2. Dit is het algemene verschil tussen deze twee soorten volmacht.
-3. Een gewone volmacht vervalt doorgaans bij wilsonbekwaamheid, tenzij deze als doorlopend is aangeduid.
-4. De doorlopende volmacht is specifiek voor dit doel opgesteld.
+1. B, 2. B, 3. B, 4. B
 
-## Belangrijkste Punten om te Onthouden
-- Een volmacht machtigt iemand om namens een ander op te treden in juridische of financiële aangelegenheden.
-- Ze kan algemeen zijn (ruime bevoegdheden) of beperkt (bevoegdheid beperkt tot een taak of periode).
-- Een doorlopende volmacht is bedoeld om geldig te blijven, ook tijdens wilsonbekwaamheid van de volmachtgever.
+## Antwoorden en uitleg
+
+**1.** Geheimhoudingsovereenkomsten gaan specifiek over het beschermen van vertrouwelijke informatie, niet over het beperken van iemands bredere vermogen om te werken.
+
+**2.** Concurrentiebedingen beperken specifiek toekomstige concurrerende activiteiten binnen bepaalde grenzen.
+
+**3.** Geheimhoudingsovereenkomsten stuiten op minder obstakels voor afdwingbaarheid, omdat ze het verdienen van de kost niet breed beperken zoals concurrentiebedingen dat kunnen.
+
+**4.** Deze onderliggende beleidsspanning is precies de reden waarom verschillende rechtsgebieden het evenwicht anders leggen.
+
+## Belangrijkste punten
+
+- Geheimhoudingsovereenkomsten beschermen vertrouwelijke informatie; concurrentiebedingen beperken toekomstige concurrentie.
+- Geheimhoudingsovereenkomsten zijn in het algemeen consequenter afdwingbaar dan concurrentiebedingen.
+- De afdwingbaarheid van concurrentiebedingen verschilt sterk per rechtsgebied, wat een echte beleidsspanning weerspiegelt.
+- Deze variatie maakt de afdwingbaarheid van concurrentiebedingen tot een echt rechtsgebiedsafhankelijke vraag die professionele controle waard is.

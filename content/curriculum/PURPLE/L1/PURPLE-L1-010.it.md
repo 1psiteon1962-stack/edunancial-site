@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-010
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 10
-title: "Diritti Fondamentali del Consumatore"
-summary: "Diritti Fondamentali del Consumatore"
-locale: "it"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: it
+title: "L'analogia del medico rivista: quando chiamare un avvocato"
+summary: "Applica l'analogia del medico propria di questo programma alle situazioni giuridiche, offrendo segnali concreti di quando serve un aiuto legale professionale."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-010: Diritti Fondamentali del Consumatore
 
-## Obiettivi di Apprendimento
-1. Riconoscere lo scopo generale delle leggi a tutela del consumatore.
-2. Indicare categorie comuni di diritti del consumatore.
-3. Riconoscere che le tutele specifiche variano a seconda dell'ordinamento giuridico.
+# L'analogia del medico rivista: quando chiamare un avvocato
 
-## Contenuto Principale
-*REGOLA SPECIFICA DELLA REGIONE:* Le leggi specifiche a tutela del consumatore variano significativamente a seconda del paese e della regione; questa lezione descrive solo concetti generali.
+## Obiettivi di apprendimento
 
-*SUPPOSIZIONE:* Le leggi a tutela del consumatore mirano generalmente a bilanciare il rapporto tra imprese e consumatori, poiché le imprese hanno spesso maggiori informazioni e potere contrattuale. Le categorie comuni di diritti del consumatore includono la protezione dalla pubblicità ingannevole, il diritto a prodotti sicuri, e tutele relative a contratti e garanzie.
+- Richiamare l'analogia del medico e applicarla specificamente alle decisioni giuridiche.
+- Identificare segnali concreti che una situazione richiede un avvocato.
+- Rafforzare l'idea che cultura giuridica e assistenza legale sono complementari, non sostitutive.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'azienda che pubblicizza un prodotto come "privo di difetti" pur sapendo che esiste un tasso di guasto noto potrebbe violare le leggi contro la pubblicità ingannevole in molti ordinamenti giuridici. Queste leggi esistono generalmente perché il singolo consumatore non ha un modo pratico di verificare tali affermazioni prima dell'acquisto, quindi la legge interviene per scoraggiare l'inganno.
+## Contenuto principale
 
-## Quiz Pratico
-1. Qual è lo scopo generale delle leggi a tutela del consumatore?
-2. Indica una categoria comune di diritti del consumatore.
-3. Vero/Falso: Le leggi a tutela del consumatore sono identiche in tutto il mondo.
-4. Perché potrebbe esistere una legge contro la pubblicità ingannevole, secondo la lezione?
+Questo programma ha usato più volte l'analogia del medico: quando qualcosa è complesso, ad alto rischio o incerto, la parcella di un professionista è un'assicurazione contro un danno molto più grande, non solo un costo da evitare. In nessun ambito questo vale più direttamente che nel diritto. Gli errori giuridici – un contratto redatto male, un obbligo di informativa trascurato, una società costituita in modo scorretto – possono essere straordinariamente costosi da correggere a posteriori, molto più del costo di fare le cose bene fin dall'inizio.
 
-## Chiave delle Risposte
-1. Bilanciare il rapporto tra imprese e consumatori   2. Protezione dalla pubblicità ingannevole, prodotti sicuri, o tutele su contratti e garanzie (tra gli altri)   3. Falso   4. Perché il singolo consumatore generalmente non può verificare tali affermazioni prima dell'acquisto
+Segnali concreti che una situazione richiede un avvocato includono: qualsiasi operazione che coinvolga somme importanti (l'acquisto di un immobile, la vendita di un'impresa), qualsiasi documento che non capisci pienamente prima di firmarlo, la costituzione o la riorganizzazione di una società, una vera controversia o causa in corso e qualsiasi situazione in cui l'approccio “standard” non si adatta del tutto ai tuoi fatti specifici. Come nelle lezioni precedenti su questo tema, l'obiettivo di PURPLE non è renderti avvocato di te stesso, ma un cliente più attento e informato: qualcuno capace di fare domande migliori, capire i consigli che riceve e riconoscere presto quando una situazione è entrata nel territorio dell'aiuto professionale.
 
-## Risposte e Spiegazioni
-1. Questo è lo scopo generale comunemente citato di queste leggi.
-2. Queste sono categorie comuni di diritti del consumatore.
-3. Le tutele specifiche variano significativamente a seconda del paese e della regione.
-4. Questa è la ragione generale per cui esistono tali leggi.
+## Esempio svolto
 
-## Punti Chiave da Ricordare
-- Le leggi a tutela del consumatore mirano generalmente a bilanciare il rapporto tra imprese e consumatori.
-- Le categorie comuni includono la protezione dalla pubblicità ingannevole, i prodotti sicuri, e le tutele contrattuali.
-- Le tutele specifiche variano significativamente a seconda dell'ordinamento giuridico.
+**Domanda:** Qualcuno redige da solo il contratto di acquisto di un immobile da diverse centinaia di migliaia di euro usando un modello trovato online, senza alcuna revisione legale. Che cosa suggerisce questa lezione su questo approccio?
+
+**Studente:** Secondo questa lezione, un'operazione con somme così importanti è proprio il tipo di situazione che richiede una revisione legale professionale, non solo un modello generico.
+
+**Guida:** Qual è il vero confronto di costi in gioco qui?
+
+**Studente:** Il costo della revisione di un avvocato all'inizio contro il costo potenzialmente molto più alto di un errore giuridico scoperto in seguito, quando ormai sono coinvolti soldi veri e un immobile vero.
+
+**Guida:** Esatto: è l'analogia del medico applicata direttamente a questa situazione.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'analogia del medico applicata al diritto suggerisce:
+
+A) Non incaricare mai un avvocato
+B) La parcella di un avvocato è un'assicurazione contro un danno potenzialmente molto più grande
+C) Solo le persone ricche hanno bisogno di avvocati
+D) Gli errori giuridici sono sempre economici da correggere
+
+**Domanda 2.** Un segnale concreto che una situazione richiede un avvocato è:
+
+A) Qualsiasi operazione che coinvolga somme importanti
+B) Nessuno: gli avvocati non servono mai
+C) Solo le questioni penali
+D) Solo le controversie già arrivate in tribunale
+
+**Domanda 3.** Secondo questa lezione, qual è l'obiettivo dichiarato di PURPLE?
+
+A) Rendere chi impara avvocato di sé stesso
+B) Rendere chi impara un cliente più attento e informato
+C) Eliminare del tutto il bisogno di avvocati
+D) Insegnare solo il diritto penale
+
+**Domanda 4.** Lo schema di questa lezione riprende quale tema precedente del programma?
+
+A) La rivelazione dei sistemi
+B) L'analogia del medico
+C) La relatività del successo
+D) Il paradosso della scelta
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La logica centrale dell'assicurazione contro un danno maggiore vale in modo particolare per il rischio giuridico, visto quanto possono costare gli errori.
+
+**2.** Le operazioni finanziarie importanti sono indicate esplicitamente come un chiaro motivo per una revisione legale professionale.
+
+**3.** L'obiettivo dichiarato in tutto il percorso è la cultura e un comportamento informato da cliente, non il fai-da-te giuridico.
+
+**4.** È una ripresa diretta ed esplicita dell'analogia del medico introdotta prima nel programma, applicata alle decisioni giuridiche.
+
+## Punti chiave
+
+- L'analogia del medico vale direttamente per il diritto: le parcelle dei professionisti sono un'assicurazione contro un danno maggiore.
+- Operazioni importanti, documenti sconosciuti, costituzione di società e controversie sono tutti segnali chiari per chiamare un avvocato.
+- PURPLE punta a renderti un cliente più attento e informato, non un sostituto dell'assistenza legale.
+- Questo chiude la sezione di base prima che il percorso passi ai temi giuridici specifici di RED, WHITE e BLUE.

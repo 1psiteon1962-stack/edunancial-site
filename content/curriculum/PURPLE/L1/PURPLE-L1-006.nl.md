@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-006
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 6
-title: "Contractbreuk"
-summary: "Contractbreuk doet zich voor wanneer een partij haar verplichtingen uit de overeenkomst niet nakomt zonder juridisch geldige reden. GEVERIFIEERD FEIT: Gangbare rechtsmiddelen bij contractbreuk omvatten schadevergoeding (compensatie voor geleden verlies), nakoming (een gerechtelijk bevel dat de tekortschietende partij dwingt het contract na te komen), of ontbinding (het beëindigen van het contract)."
-locale: "nl"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: nl
+title: "Wanprestatie: wat er gebeurt als iemand zijn verplichtingen niet nakomt"
+summary: "Introduceert het begrip wanprestatie (contractbreuk) en de algemene soorten rechtsmiddelen die beschikbaar zijn als één partij haar deel van de afspraak niet nakomt."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-006: Contractbreuk
+
+# Wanprestatie: wat er gebeurt als iemand zijn verplichtingen niet nakomt
 
 ## Leerdoelen
-1. Contractbreuk definiëren.
-2. Gangbare rechtsmiddelen bij contractbreuk herkennen.
-3. Een wezenlijke contractbreuk onderscheiden van een geringe.
+
+- Wanprestatie (in het Engels "breach of contract") definiëren.
+- De algemene soorten rechtsmiddelen bij wanprestatie benoemen.
+- Wanprestatie herkennen als een voorzienbaar bedrijfsrisico, geen ongewone gebeurtenis.
 
 ## Kerninhoud
-Contractbreuk doet zich voor wanneer een partij haar verplichtingen uit de overeenkomst niet nakomt zonder juridisch geldige reden. *GEVERIFIEERD FEIT:* Gangbare rechtsmiddelen bij contractbreuk omvatten schadevergoeding (compensatie voor geleden verlies), nakoming (een gerechtelijk bevel dat de tekortschietende partij dwingt het contract na te komen), of ontbinding (het beëindigen van het contract).
 
-*AANNAME:* Een "wezenlijke" contractbreuk verwijst doorgaans naar een schending die ernstig genoeg is om het hele doel van het contract te ondermijnen, terwijl een "geringe" contractbreuk doorgaans een kleine afwijking inhoudt die het algemene doel van de overeenkomst niet verijdelt — dit onderscheid beïnvloedt vaak welke rechtsmiddelen beschikbaar zijn.
+Wanprestatie doet zich voor wanneer een partij haar verplichtingen uit een afdwingbare overeenkomst niet nakomt: een betaling missen, een pand niet leveren, afgesproken werk niet afmaken. Als er wanprestatie optreedt, heeft de partij die wel nakomt in het algemeen juridische rechtsmiddelen tot haar beschikking, al hangen de precieze mogelijkheden af van de overeenkomst en het rechtsstelsel.
 
-## Praktisch Voorbeeld
-*PRAKTISCH VOORBEELD:* Een aannemer belooft tegen een bepaalde datum een terras te bouwen, maar begint nooit met het werk — dit zou doorgaans een wezenlijke contractbreuk zijn, aangezien het het hele doel van het contract ondermijnt. Zou de aannemer het terras in plaats daarvan wel afmaken, maar drie dagen na de afgesproken datum, zonder werkelijke schade te veroorzaken, dan zou dit doorgaans als een geringe contractbreuk gelden.
+Veelvoorkomende soorten rechtsmiddelen zijn: schadevergoeding in geld (compensatie voor het financiële verlies dat door de wanprestatie is veroorzaakt), nakoming (een rechterlijk bevel dat de partij die tekortschiet verplicht om werkelijk te doen wat zij heeft beloofd; dit komt vaker voor bij vastgoed, omdat het pand zelf uniek is) en ontbinding van de overeenkomst (waardoor de partij die wel nakomt wordt bevrijd van haar eigen resterende verplichtingen). Begrijpen dat wanprestatie een voorzienbaar, ingepland risico is – geen ongewone ramp – hoort bij volwassen contractgeletterdheid: goed opgestelde overeenkomsten leggen vaak vooraf vast wat er gebeurt als een van beide partijen tekortschiet, en daarom is een zorgvuldige controle van een overeenkomst belangrijk vóór het tekenen, niet pas als er iets misgaat. (In Nederland en België is nakoming in beginsel een algemeen beschikbaar rechtsmiddel, niet alleen bij vastgoed; laat de details door een professional controleren.)
 
-## Praktische Toets
-1. Wat is contractbreuk?
-2. Noem een gangbaar rechtsmiddel bij contractbreuk.
-3. Waar/Onwaar: Een geringe contractbreuk heeft doorgaans dezelfde gevolgen als een wezenlijke.
-4. Wat onderscheidt een wezenlijke contractbreuk doorgaans van een geringe?
+## Praktijkvoorbeeld
+
+**Vraag:** Een koper tekent een overeenkomst om een bepaald pand te kopen, waarna de verkoper zich terugtrekt en het aan iemand anders verkoopt. Welk rechtsmiddel kan hier bijzonder relevant zijn, gezien het feit dat het pand uniek is?
+
+**Cursist:** Volgens deze les kan nakoming relevant zijn, omdat een rechter mogelijk de voltooiing van de verkoop kan bevelen in plaats van alleen geld toe te kennen.
+
+**Begeleider:** Waarom zou nakoming logischer zijn bij een uniek pand dan bijvoorbeeld bij een standaardproduct?
+
+**Cursist:** Omdat het pand zelf uniek is: geld alleen vervangt misschien niet echt wat de koper specifiek wilde, anders dan bij een standaardproduct dat gewoon ergens anders opnieuw kan worden gekocht.
+
+**Begeleider:** Precies: daarom komt nakoming vooral vaak voor bij geschillen over vastgoedovereenkomsten.
+
+## Oefenquiz
+
+**Vraag 1.** Wanprestatie doet zich voor wanneer:
+
+A) Beide partijen afspreken de deal te annuleren
+B) Een partij haar verplichtingen uit de overeenkomst niet nakomt
+C) Een overeenkomst wordt getekend
+D) Er nooit een afspraak tot stand is gekomen
+
+**Vraag 2.** Schadevergoeding in geld is:
+
+A) Nooit beschikbaar als rechtsmiddel
+B) Compensatie voor het financiële verlies dat door wanprestatie is veroorzaakt
+C) Alleen relevant voor strafzaken
+D) Hetzelfde als nakoming
+
+**Vraag 3.** Nakoming is:
+
+A) Een rechterlijk bevel om te voltooien wat was beloofd
+B) Altijd hetzelfde als schadevergoeding in geld
+C) Nooit gebruikt bij vastgoed
+D) Irrelevant voor het overeenkomstenrecht
+
+**Vraag 4.** Waarom wordt wanprestatie beschreven als een "voorzienbaar, ingepland risico" in plaats van een ongewone ramp?
+
+A) Wanprestatie komt in werkelijkheid nooit voor
+B) Goed opgestelde overeenkomsten leggen vaak vooraf vast wat er gebeurt als een van beide partijen tekortschiet
+C) Overeenkomsten gaan nooit op deze mogelijkheid in
+D) Deze voorstelling is onjuist
 
 ## Antwoordsleutel
-1. Wanneer een partij haar contractuele verplichtingen niet nakomt zonder geldige reden   2. Schadevergoeding, nakoming, of ontbinding (onder andere)   3. Onwaar   4. Een wezenlijke contractbreuk ondermijnt het hele doel van het contract; een geringe doet dat niet
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van contractbreuk.
-2. Dit zijn veelgenoemde rechtsmiddelen bij contractbreuk.
-3. De ernst van de schending beïnvloedt doorgaans welke rechtsmiddelen beschikbaar zijn.
-4. Dit is het algemene onderscheid tussen wezenlijke en geringe contractbreuk.
+1. B, 2. B, 3. A, 4. B
 
-## Belangrijkste Punten om te Onthouden
-- Contractbreuk doet zich voor wanneer een partij haar verplichtingen niet nakomt zonder geldige reden.
-- Gangbare rechtsmiddelen omvatten schadevergoeding, nakoming, en ontbinding.
-- Een wezenlijke contractbreuk ondermijnt het doel van het contract; een geringe doorgaans niet.
+## Antwoorden en uitleg
+
+**1.** Wanprestatie is specifiek het niet nakomen van verplichtingen die juridisch zijn afgesproken.
+
+**2.** Schadevergoeding is erop gericht de partij die wel nakomt financieel schadeloos te stellen voor haar verlies.
+
+**3.** Nakoming is vooral relevant wanneer het onderwerp, zoals een uniek pand, niet simpelweg door geld kan worden vervangen.
+
+**4.** Volwassen overeenkomsten anticiperen op wanprestatie en leggen de gevolgen vooraf vast, als een reële mogelijkheid om op in te spelen.
+
+## Belangrijkste punten
+
+- Wanprestatie doet zich voor wanneer een partij haar contractuele verplichtingen niet nakomt.
+- Rechtsmiddelen zijn onder meer schadevergoeding in geld, nakoming en ontbinding van de overeenkomst.
+- Nakoming is vooral relevant voor unieke bezittingen zoals vastgoed.
+- Wanprestatie is een voorzienbaar risico waarop goed opgestelde overeenkomsten vooraf inspelen.

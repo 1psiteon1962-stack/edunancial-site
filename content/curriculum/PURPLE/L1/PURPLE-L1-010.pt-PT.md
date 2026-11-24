@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-010
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 10
-title: "Direitos Básicos do Consumidor"
-summary: "Direitos Básicos do Consumidor"
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "A analogia do médico revisitada: quando chamar um advogado"
+summary: "Aplica a já conhecida analogia do médico especificamente a situações jurídicas, dando ao aluno sinais concretos de quando a ajuda jurídica profissional é necessária."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-010: Direitos Básicos do Consumidor
 
-## Objetivos de Aprendizagem
-1. Identificar o propósito geral das leis de protecção ao consumidor.
-2. Nomear categorias comuns de direitos do consumidor.
-3. Reconhecer que as protecções específicas variam consoante o ordenamento jurídico.
+# A analogia do médico revisitada: quando chamar um advogado
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* As leis específicas de protecção ao consumidor variam significativamente consoante o país e a região; esta lição descreve apenas conceitos gerais.
+## Objetivos de aprendizagem
 
-*SUPOSIÇÃO:* As leis de protecção ao consumidor procuram geralmente equilibrar a relação entre as empresas e os consumidores, já que as empresas têm frequentemente mais informação e poder negocial. As categorias comuns de direitos do consumidor incluem a protecção contra publicidade enganosa, o direito a produtos seguros, e protecções relacionadas com contratos e garantias.
+- Recordar a analogia do médico e aplicá-la especificamente às decisões jurídicas.
+- Identificar sinais concretos de que uma situação exige um advogado.
+- Reforçar que a literacia jurídica e a representação jurídica se complementam e não se substituem.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Uma empresa que anuncia um produto como "sem defeitos" quando sabe que existe uma taxa de falha conhecida poderia estar a violar leis contra a publicidade enganosa em muitos ordenamentos jurídicos. Estas leis existem geralmente porque o consumidor individual não tem forma prática de verificar tais afirmações antes de comprar, pelo que a lei intervém para desincentivar o engano.
+## Conteúdo principal
 
-## Questionário Prático
-1. Qual é o propósito geral das leis de protecção ao consumidor?
-2. Indica uma categoria comum de direitos do consumidor.
-3. Verdadeiro/Falso: As leis de protecção ao consumidor são idênticas em todo o mundo.
-4. Por que poderia existir uma lei contra a publicidade enganosa, segundo a lição?
+Este currículo usou repetidamente a analogia do médico: quando algo é complexo, de alto risco ou incerto, os honorários de um profissional são um seguro contra um prejuízo muito maior, e não apenas um custo a evitar. Em nenhum outro lugar isto se aplica de forma mais direta do que no direito. Os erros jurídicos – um contrato mal redigido, um dever de informação não cumprido, uma empresa constituída de forma inadequada – podem ser extraordinariamente caros de corrigir depois, muito mais do que o custo de fazer bem desde o início.
+
+Sinais concretos de que uma situação exige um advogado incluem: qualquer transação que envolva muito dinheiro (a compra de um imóvel, a venda de uma empresa), qualquer documento que não se compreenda totalmente antes de assinar, constituir ou reestruturar uma empresa, enfrentar um litígio ou um processo real, e qualquer situação em que a abordagem "padrão" não se ajuste bem aos factos concretos. Tal como nas lições anteriores sobre este tema, o objetivo do PURPLE não é fazer de cada aluno o seu próprio advogado, mas torná-lo um cliente mais perspicaz e mais bem informado: alguém capaz de fazer melhores perguntas, de compreender o conselho que recebe e de reconhecer cedo quando uma situação entrou no território da ajuda profissional.
+
+## Exemplo prático
+
+**Pergunta:** Alguém redige o seu próprio contrato de compra de um imóvel com um modelo encontrado na internet, para uma compra de seis dígitos, sem qualquer revisão jurídica. O que sugere esta lição sobre esta abordagem?
+
+**Aluno:** Com base nesta lição, uma transação com tanto dinheiro envolvido é exatamente o tipo de situação que exige revisão jurídica profissional, e não apenas um modelo genérico.
+
+**Guia:** Qual é a verdadeira comparação de custos que aqui se faz?
+
+**Aluno:** O custo da revisão de um advogado no início versus o custo potencialmente muito maior de um erro jurídico descoberto mais tarde, quando já há dinheiro real e um imóvel real envolvidos.
+
+**Guia:** Exatamente: é a analogia do médico aplicada diretamente a esta situação.
+
+## Teste de prática
+
+**Pergunta 1.** A analogia do médico aplicada ao direito sugere que:
+
+A) Nunca se deve contratar um advogado
+B) Os honorários de um advogado são um seguro contra um prejuízo potencialmente muito maior
+C) Só as pessoas ricas precisam de advogado
+D) Os erros jurídicos são sempre baratos de corrigir
+
+**Pergunta 2.** Um sinal concreto de que uma situação exige um advogado inclui:
+
+A) Qualquer transação que envolva muito dinheiro
+B) Nada: os advogados nunca são necessários
+C) Apenas questões criminais
+D) Apenas litígios que já chegaram a tribunal
+
+**Pergunta 3.** Qual é, segundo esta lição, o objetivo declarado do PURPLE?
+
+A) Fazer do aluno o seu próprio advogado
+B) Tornar o aluno um cliente mais perspicaz e mais bem informado
+C) Eliminar totalmente a necessidade de advogados
+D) Ensinar apenas direito penal
+
+**Pergunta 4.** A estrutura desta lição retoma que tema anterior do currículo?
+
+A) A epifania dos sistemas
+B) A analogia do médico
+C) A relatividade das conquistas
+D) O paradoxo da escolha
 
 ## Chave de Respostas
-1. Equilibrar a relação entre empresas e consumidores   2. Protecção contra publicidade enganosa, produtos seguros, ou protecções de contratos e garantias (entre outras)   3. Falso   4. Porque o consumidor individual geralmente não pode verificar tais afirmações antes de comprar
 
-## Respostas e Explicações
-1. Este é o propósito geral comummente citado destas leis.
-2. Estas são categorias comuns de direitos do consumidor.
-3. As protecções específicas variam significativamente consoante o país e a região.
-4. Esta é a razão geral pela qual tais leis existem.
+1. B, 2. A, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- As leis de protecção ao consumidor procuram geralmente equilibrar a relação entre empresas e consumidores.
-- As categorias comuns incluem protecção contra publicidade enganosa, produtos seguros, e protecções contratuais.
-- As protecções específicas variam significativamente consoante o ordenamento jurídico.
+## Respostas e explicações
+
+**1.** A lógica central de seguro contra o prejuízo aplica-se com especial força ao risco jurídico, dado o quanto os erros podem custar.
+
+**2.** As transações financeiras significativas são referidas explicitamente como um claro sinal para a revisão jurídica profissional.
+
+**3.** A literacia e o comportamento de cliente informado, e não a prática jurídica por conta própria, são o objetivo explícito em todo este percurso.
+
+**4.** Trata-se de uma reutilização direta e explícita da analogia do médico estabelecida antes no currículo, aplicada especificamente às decisões jurídicas.
+
+## Pontos-chave
+
+- A analogia do médico aplica-se diretamente ao direito: os honorários profissionais são um seguro contra um prejuízo maior.
+- Transações significativas, documentos desconhecidos, constituição de empresas e litígios são sinais claros para chamar um advogado.
+- O PURPLE procura tornar cada aluno um cliente mais perspicaz e mais bem informado, não um substituto da representação jurídica.
+- Isto encerra a secção de fundamentos antes de o percurso passar aos temas jurídicos específicos de RED, WHITE e BLUE.

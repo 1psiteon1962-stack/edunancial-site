@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-028
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 28
-title: "Diritti Costituzionali Fondamentali"
-summary: "Diritti Costituzionali Fondamentali"
-locale: "it"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: it
+title: "Contratti immobiliari: la compravendita spiegata"
+summary: "Applica le lezioni generali sui contratti ai contratti di compravendita immobiliare, esaminando i termini chiave tipici di questo tipo di operazione."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-028: Diritti Costituzionali Fondamentali
 
-## Obiettivi di Apprendimento
-1. Definire un diritto costituzionale in termini generali.
-2. Riconoscere categorie comuni di diritti costituzionali.
-3. Riconoscere che i diritti specifici variano a seconda del paese.
+# Contratti immobiliari: la compravendita spiegata
 
-## Contenuto Principale
-*REGOLA SPECIFICA DELLA REGIONE:* I diritti costituzionali specifici variano significativamente a seconda del paese; questa lezione descrive solo categorie generali, non i diritti specifici di un particolare paese.
+## Obiettivi di apprendimento
 
-*FATTO VERIFICATO:* Un diritto costituzionale è una tutela fondamentale generalmente sancita nel documento giuridico più elevato di un paese, che tipicamente limita ciò che il governo può fare alle persone. Le categorie comuni includono generalmente la libertà di espressione, la libertà di religione, la protezione da perquisizioni e sequestri irragionevoli, e il diritto a un processo equo.
+- Applicare lo schema generale dei contratti a un contratto di compravendita immobiliare.
+- Identificare i termini chiave tipici dei contratti di compravendita immobiliare.
+- Riconoscere le condizioni sospensive comuni e il loro scopo.
 
-*SUPPOSIZIONE:* I diritti costituzionali si distinguono generalmente dalle altre leggi perché sono più difficili da modificare — generalmente è richiesta una procedura speciale oltre alla normale legislazione —, il che riflette il loro status di tutele fondamentali.
+## Contenuto principale
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* In molti paesi, il diritto a un processo equo include generalmente tutele come il diritto di conoscere le accuse mosse contro di sé, il diritto di presentare una difesa, e il diritto a un giudice o una giuria imparziale. Queste tutele esistono generalmente perché limitano il potere del governo di agire arbitrariamente contro le persone.
+Un contratto di compravendita immobiliare è un'applicazione diretta dei principi contrattuali visti prima in questo percorso: contiene una proposta (il prezzo e i termini proposti), un'accettazione (l'adesione del venditore a quei termini) e un corrispettivo (lo scambio di denaro contro l'immobile). Oltre alla struttura contrattuale generale, i contratti di compravendita immobiliare includono di solito alcuni termini specifici di questo tipo di operazione che vale la pena capire.
 
-## Quiz Pratico
-1. Cos'è un diritto costituzionale?
-2. Indica una categoria comune di diritto costituzionale.
-3. Vero/Falso: I diritti costituzionali sono identici in tutti i paesi.
-4. Cosa distingue generalmente i diritti costituzionali dalle altre leggi?
+Le **condizioni** (in inglese “contingencies”) sono eventi che devono verificarsi perché l'affare proceda: la condizione di finanziamento (l'affare salta se l'acquirente non ottiene il mutuo), la condizione di ispezione (l'acquirente può ritirarsi o rinegoziare in base all'esito dei controlli) e la condizione di perizia (che protegge l'acquirente se l'immobile viene valutato meno del prezzo concordato). L'**anticipo** (in inglese “earnest money”) è un deposito che dimostra buona fede, di solito custodito da un terzo neutrale e imputato al prezzo al momento del rogito, oppure perso in certe circostanze se l'acquirente si ritira senza una valida ragione prevista da una condizione. (In Italia la prassi passa spesso per una proposta d'acquisto e un contratto preliminare con versamento di una caparra confirmatoria: se l'acquirente si ritira, il venditore può trattenerla; se è il venditore a ritirarsi, l'acquirente può pretendere il doppio. Le condizioni vanno pattuite espressamente; verifica i dettagli con un professionista.) Capire questi meccanismi specifici – non solo i concetti contrattuali generali delle lezioni precedenti – è ciò che trasforma la cultura contrattuale in cultura specifica dei contratti immobiliari.
 
-## Chiave delle Risposte
-1. Una tutela fondamentale sancita nel documento giuridico più elevato di un paese   2. Libertà di espressione, libertà di religione, o il diritto a un processo equo (tra gli altri)   3. Falso   4. Sono generalmente più difficili da modificare rispetto alla normale legislazione
+## Esempio svolto
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un diritto costituzionale.
-2. Queste sono categorie comunemente citate di diritti costituzionali.
-3. I diritti costituzionali specifici variano significativamente a seconda del paese.
-4. Questa è la distinzione generale comunemente citata dei diritti costituzionali.
+**Domanda:** Un acquirente firma un contratto di compravendita con una condizione di finanziamento e poi non riesce a ottenere il mutuo. Che cosa gli consente in genere questa condizione?
 
-## Punti Chiave da Ricordare
-- Un diritto costituzionale è una tutela fondamentale che limita ciò che il governo può fare.
-- Le categorie comuni includono la libertà di espressione, la libertà di religione, e il diritto a un processo equo.
-- I diritti specifici variano significativamente a seconda del paese.
+**Studente:** Secondo questa lezione, una condizione di finanziamento significa in genere che l'affare salta – l'acquirente può ritirarsi – se non ottiene il finanziamento, invece di essere costretto a concludere l'acquisto o a perdere l'anticipo.
+
+**Guida:** Come si confronta questo con un acquirente che si ritira senza alcuna valida ragione prevista da una condizione?
+
+**Studente:** Senza una condizione valida, ritirarsi rischia di far perdere l'anticipo, perché non c'è una ragione tutelata per abbandonare l'affare.
+
+**Guida:** Esatto: le condizioni creano proprio un modo tutelato di uscire dall'affare in circostanze definite.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un contratto di compravendita immobiliare contiene quali elementi contrattuali generali?
+
+A) Nessuno degli elementi visti prima
+B) Proposta, accettazione e corrispettivo, applicati a un'operazione immobiliare
+C) Solo una firma, nient'altro
+D) Elementi estranei al diritto dei contratti
+
+**Domanda 2.** Una condizione di finanziamento protegge in genere l'acquirente:
+
+A) Garantendo l'approvazione del mutuo
+B) Consentendogli di ritirarsi se non ottiene il finanziamento
+C) Obbligandolo a pagare in contanti a prescindere dal finanziamento
+D) Senza alcuna reale funzione protettiva
+
+**Domanda 3.** L'anticipo (earnest money) è:
+
+A) L'intero prezzo pagato in anticipo
+B) Un deposito di buona fede, di solito imputato al prezzo o perso in certe condizioni
+C) Un tipo di assicurazione
+D) Irrilevante per i contratti immobiliari
+
+**Domanda 4.** Che cosa succede se un acquirente si ritira senza una valida ragione prevista da una condizione?
+
+A) Nulla: l'anticipo viene sempre restituito per intero
+B) Rischia di perdere l'anticipo
+C) Viene invece penalizzato automaticamente il venditore
+D) Il contratto viene annullato automaticamente senza conseguenze
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** È un'applicazione diretta e concreta dello schema proposta/accettazione/corrispettivo a un tipo specifico di operazione.
+
+**2.** Le condizioni di finanziamento proteggono specificamente gli acquirenti dall'essere costretti a concludere un acquisto che non possono finanziare.
+
+**3.** L'anticipo funziona come impegno di buona fede, con regole definite per la sua imputazione o la sua perdita.
+
+**4.** L'assenza di una ragione valida prevista da una condizione è proprio la situazione in cui il rischio di perdere l'anticipo diventa reale.
+
+## Punti chiave
+
+- Un contratto di compravendita immobiliare applica lo schema generale di proposta, accettazione e corrispettivo.
+- Le condizioni (finanziamento, ispezione, perizia) creano situazioni tutelate per ritirarsi da un affare.
+- L'anticipo è un deposito di buona fede, imputato al rogito o potenzialmente perso.
+- Capire questi meccanismi specifici rende la cultura contrattuale applicabile in particolare agli immobili.

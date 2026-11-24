@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-013
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 13
-title: "O Direito de Autor Explicado"
-summary: "O Direito de Autor Explicado"
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "LLCs: responsabilidade limitada, explicada com precisão"
+summary: "Explica o que \"responsabilidade limitada\" numa LLC significa realmente do ponto de vista jurídico e esclarece equívocos comuns sobre quanta proteção ela oferece de facto."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-013: O Direito de Autor Explicado
 
-## Objetivos de Aprendizagem
-1. Definir direito de autor em termos simples.
-2. Identificar que tipos de obras o direito de autor protege geralmente.
-3. Explicar o que o direito de autor geralmente não protege.
+# LLCs: responsabilidade limitada, explicada com precisão
 
-## Conteúdo Principal
-*FACTO VERIFICADO:* O direito de autor protege obras originais fixadas num suporte tangível — como livros, música, filmes, e software — concedendo ao criador direitos exclusivos de reprodução, distribuição, e exibição da obra durante um período determinado.
+## Objetivos de aprendizagem
 
-*SUPOSIÇÃO:* O direito de autor protege geralmente a expressão concreta de uma ideia, mas não a ideia em si — isto significa que duas pessoas podem geralmente escrever livros diferentes sobre o mesmo conceito geral sem violar os direitos de autor uma da outra, desde que não copiem a expressão concreta uma da outra.
+- Definir a característica jurídica central de uma LLC.
+- Explicar contra o que protege realmente a "responsabilidade limitada".
+- Reconhecer que a proteção de uma LLC não é absoluta.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Dois autores diferentes poderiam escrever romances distintos sobre um detective que resolve crimes — essa ideia geral não é protegida por direito de autor. No entanto, se um autor copiasse parágrafos específicos, personagens, ou o enredo exacto do livro de outro autor, isso constituiria geralmente uma violação de direito de autor, já que estaria a copiar a expressão concreta, e não apenas a ideia geral.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que protege o direito de autor?
-2. Indica um tipo de obra geralmente protegida por direito de autor.
-3. Verdadeiro/Falso: O direito de autor protege geralmente as ideias em si.
-4. No exemplo dos dois autores, o que faria com que um violasse o direito de autor do outro?
+Uma Limited Liability Company (LLC) é uma estrutura empresarial norte-americana criada especificamente para gerar separação jurídica entre o negócio e os seus donos (chamados members), de modo que, em geral, os bens pessoais dos members não fiquem expostos às dívidas e responsabilidades jurídicas do negócio. É a resposta jurídica direta ao problema do empresário em nome individual da lição anterior: a LLC existe precisamente para traçar a linha de responsabilidade que o empresário em nome individual não traça. (Em Portugal, a sociedade por quotas (Lda.), incluindo a unipessoal, cumpre um papel semelhante, embora as regras sejam diferentes; confirme com um profissional.)
+
+É importante ser preciso sobre o que esta proteção cobre realmente. Em geral, uma LLC protege os members de responderem pessoalmente por dívidas e processos decorrentes das operações normais do negócio. Não protege automaticamente um member da responsabilidade pela sua própria conduta ilícita pessoal: se um member comete pessoalmente uma fraude ou age com negligência, essa pessoa pode continuar a responder pessoalmente, independentemente da estrutura de LLC. Compreender este alcance preciso evita um equívoco perigoso: a LLC é um escudo real e valioso contra a responsabilidade, mas não um campo de forças incondicional contra todas as consequências.
+
+## Exemplo prático
+
+**Pergunta:** Um member de uma LLC comete pessoalmente uma fraude enquanto faz negócios através da LLC. A estrutura de LLC protege esse member da responsabilidade pessoal pela fraude?
+
+**Aluno:** Com base nesta lição, provavelmente não: a proteção da LLC não cobre a conduta ilícita pessoal do próprio member, como uma fraude.
+
+**Guia:** O que revela isto sobre o alcance real da proteção de uma LLC?
+
+**Aluno:** Que não é um escudo incondicional contra tudo: protege contra as responsabilidades normais do negócio, mas não contra a má conduta pessoal do próprio member.
+
+**Guia:** Exatamente: essa precisão é o que separa uma compreensão correta de um equívoco perigoso.
+
+## Teste de prática
+
+**Pergunta 1.** Uma LLC é criada para:
+
+A) Eliminar totalmente todo o risco do negócio
+B) Gerar separação jurídica entre o negócio e os bens pessoais dos seus donos
+C) Aumentar a exposição à responsabilidade pessoal
+D) Beneficiar apenas grandes empresas
+
+**Pergunta 2.** Os members de uma LLC estão em geral protegidos da responsabilidade pessoal por:
+
+A) A sua própria fraude ou conduta ilícita pessoal
+B) Dívidas e processos decorrentes das operações normais do negócio
+C) Nada
+D) Apenas questões criminais
+
+**Pergunta 3.** A proteção da LLC cobre a fraude pessoal do próprio member?
+
+A) Sim, sempre
+B) Não: a conduta ilícita pessoal em geral não é protegida pela estrutura de LLC
+C) Só se a fraude tiver sido lucrativa
+D) A proteção da LLC não tem qualquer limite
+
+**Pergunta 4.** Que equívoco procura esta lição evitar especificamente?
+
+A) Que as LLCs não oferecem qualquer proteção
+B) Que uma LLC é um escudo incondicional contra todas as consequências
+C) Que as LLCs são ilegais
+D) Que as LLCs só existem para fins fiscais
 
 ## Chave de Respostas
-1. Obras originais fixadas num suporte tangível   2. Livros, música, filmes, ou software (entre outros)   3. Falso   4. Copiar parágrafos, personagens, ou o enredo exacto do outro autor
 
-## Respostas e Explicações
-1. Esta é a definição fundamental do que o direito de autor protege.
-2. Estes são tipos de obras comummente protegidas por direito de autor.
-3. O direito de autor protege a expressão concreta, não a ideia subjacente.
-4. Copiar a expressão concreta, em vez de apenas a ideia geral, constituiria violação.
+1. B, 2. B, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- O direito de autor protege obras originais fixadas num suporte tangível.
-- Concede ao criador direitos exclusivos de reprodução e distribuição por um período determinado.
-- O direito de autor protege a expressão concreta de uma ideia, não a ideia em si.
+## Respostas e explicações
+
+**1.** A separação jurídica entre dono e entidade é o propósito estrutural que define a LLC.
+
+**2.** As dívidas e pretensões normais do negócio são a categoria central de risco contra a qual a LLC protege os members.
+
+**3.** A conduta ilícita pessoal em geral atravessa a proteção da LLC, porque não é uma responsabilidade normal do negócio.
+
+**4.** Esta lição corrige explicitamente o excesso de confiança comum de que a proteção da LLC é total e incondicional.
+
+## Pontos-chave
+
+- Uma LLC gera separação jurídica que protege os bens pessoais dos members das responsabilidades normais do negócio.
+- Esta proteção em geral não se estende à conduta ilícita pessoal do member, como fraude ou negligência.
+- Compreender este alcance preciso evita um excesso de confiança perigoso na proteção da LLC.
+- A LLC é um escudo real e valioso, mas não incondicional.

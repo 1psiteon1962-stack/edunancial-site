@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-003
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 3
-title: "O Que É Um Contrato?"
-summary: "O Que É Um Contrato?"
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "Contratos 101: o que torna um acordo juridicamente vinculativo"
+summary: "Apresenta o conceito fundamental de contrato e antecipa os elementos que tornam um acordo juridicamente exigível, preparando as duas lições seguintes."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-003: O Que É Um Contrato?
 
-## Objetivos de Aprendizagem
-1. Definir um contrato em termos simples.
-2. Identificar o propósito geral de um contrato.
-3. Reconhecer que um contrato pode ser escrito, verbal, ou até implícito.
+# Contratos 101: o que torna um acordo juridicamente vinculativo
 
-## Conteúdo Principal
-*FACTO VERIFICADO:* Um contrato é um acordo juridicamente vinculativo entre duas ou mais partes que cria obrigações que cada parte deve cumprir. O propósito geral de um contrato é tornar explícitas as expectativas de cada parte e dar a cada uma delas um recurso jurídico caso a outra não cumpra o que foi acordado.
+## Objetivos de aprendizagem
 
-*SUPOSIÇÃO:* Embora muitas pessoas pensem nos contratos como documentos escritos formais, um contrato pode geralmente formar-se de forma verbal ou até ficar implícito através das acções das partes, embora os contratos escritos sejam geralmente mais fáceis de fazer valer por fornecerem uma prova clara dos termos acordados.
+- Definir um contrato em termos simples.
+- Explicar porque é que nem todo o acordo é um contrato juridicamente exigível.
+- Antecipar os três elementos centrais tratados na lição seguinte.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Quando alguém contrata um pintor para pintar a sua casa e ambos combinam verbalmente um preço e uma data de conclusão, isso pode formar um contrato verbal válido. No entanto, se mais tarde surgir um litígio sobre o que exactamente foi acordado, nenhuma das partes tem um registo escrito claro a que possa recorrer — o que ilustra por que muitas pessoas preferem colocar por escrito os acordos importantes.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é um contrato?
-2. Qual é o propósito geral de um contrato?
-3. Verdadeiro/Falso: Todos os contratos têm de ser escritos para serem válidos.
-4. Por que podem os contratos escritos ser preferidos aos verbais?
+Um contrato é um acordo juridicamente exigível entre duas ou mais partes. A palavra-chave é exigível: um contrato não é apenas uma promessa ou um acordo de palavra; é um acordo cujo cumprimento um tribunal pode de facto impor, ou pelo qual pode atribuir uma indemnização se for violado. Esta distinção é muito importante em RED, WHITE e BLUE: um contrato de compra e venda de um imóvel, um contrato de subscrição de um investimento e um acordo de sociedade entre empreendedores são, no fundo, todos contratos.
+
+Nem todo o acordo chega ao nível de um contrato exigível. Uma promessa casual entre amigos normalmente não o é; um contrato de compra formal e assinado normalmente é. A lição seguinte detalha os três ingredientes centrais – proposta, aceitação e contrapartida – que, em muitos sistemas jurídicos, devem em geral estar presentes para que um acordo conte como contrato juridicamente vinculativo. Compreender esta distinção é fundamental: é a diferença entre algo em que se pode realmente confiar juridicamente e algo que é apenas um entendimento amigável.
+
+## Exemplo prático
+
+**Pergunta:** Dois vizinhos combinam verbalmente que um corta a relva do outro "algures este verão" em troca de "um favor mais tarde". Isto é provavelmente um contrato exigível?
+
+**Aluno:** Com base nesta lição, parece bastante casual e vago, por isso é duvidoso que contasse como contrato exigível.
+
+**Guia:** O que falta aqui que um contrato formal de compra de um imóvel teria?
+
+**Aluno:** Termos claros e específicos e um certo grau de formalidade: o tipo de coisa que faz de um acordo algo cujo cumprimento um tribunal poderia de facto impor, e não apenas um entendimento amigável.
+
+**Guia:** Exatamente: a lição seguinte mostra os ingredientes específicos a procurar.
+
+## Teste de prática
+
+**Pergunta 1.** Um contrato é:
+
+A) Qualquer promessa casual
+B) Um acordo juridicamente exigível entre partes
+C) Relevante apenas para empresas
+D) O mesmo que um aperto de mão
+
+**Pergunta 2.** A principal característica que distingue um contrato é:
+
+A) A sua extensão
+B) A exigibilidade: um tribunal pode impor o seu cumprimento ou atribuir uma indemnização
+C) Se está escrito à máquina ou à mão
+D) Se as duas partes são amigas
+
+**Pergunta 3.** Qual destes é descrito como exemplo de contrato no contexto deste currículo?
+
+A) Um contrato de compra e venda de um imóvel
+B) Um favor verbal casual entre amigos
+C) Um devaneio sobre uma ideia de negócio
+D) Uma esperança não escrita
+
+**Pergunta 4.** O que aborda a lição seguinte?
+
+A) Direito fiscal
+B) Os três elementos centrais: proposta, aceitação e contrapartida
+C) Direito penal
+D) Ordenamento do território
 
 ## Chave de Respostas
-1. Um acordo juridicamente vinculativo entre duas ou mais partes que cria obrigações   2. Tornar explícitas as expectativas e dar um recurso jurídico caso não sejam cumpridas   3. Falso   4. Fornecem uma prova clara dos termos acordados
 
-## Respostas e Explicações
-1. Esta é a definição fundamental de um contrato.
-2. Este é o propósito geral de formar um contrato.
-3. Um contrato pode geralmente formar-se de forma verbal ou implícita, não apenas por escrito.
-4. Os contratos escritos são geralmente mais fáceis de fazer valer pela clareza que proporcionam.
+1. B, 2. B, 3. A, 4. B
 
-## Pontos-Chave a Reter
-- Um contrato é um acordo juridicamente vinculativo que cria obrigações entre as partes.
-- O seu propósito geral é clarificar expectativas e proporcionar um recurso jurídico.
-- Um contrato pode formar-se por escrito, verbalmente, ou implicitamente, embora os escritos sejam geralmente mais fáceis de fazer valer.
+## Respostas e explicações
+
+**1.** A exigibilidade é a característica que separa um verdadeiro contrato de uma promessa informal.
+
+**2.** A capacidade de um tribunal de impor de facto o acordo é o que lhe dá significado jurídico.
+
+**3.** Os contratos de compra são formais, específicos e exigíveis: um exemplo clássico de contrato real.
+
+**4.** Esta lição prepara a explicação dos ingredientes necessários na lição seguinte.
+
+## Pontos-chave
+
+- Um contrato é um acordo cujo cumprimento um tribunal pode de facto impor, não apenas uma promessa.
+- Os contratos de compra, de investimento e de sociedade são todos contratos.
+- Nem todo o acordo chega ao nível de um contrato exigível.
+- A lição seguinte aborda os três ingredientes centrais que transformam um acordo num contrato.

@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-033
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 33
-title: "Rechtswidrige Kündigung"
-summary: "Rechtswidrige Kündigung"
-locale: "de"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: de
+title: "Akkreditierte Anleger: was die Bezeichnung rechtlich bedeutet"
+summary: "Erklärt das Konzept des akkreditierten Anlegers, einen verbreiteten rechtlichen Zugangsmechanismus für bestimmte Anlagemöglichkeiten, und die Begründung dafür."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-033: Rechtswidrige Kündigung
+
+# Akkreditierte Anleger: was die Bezeichnung rechtlich bedeutet
 
 ## Lernziele
-1. Rechtswidrige Kündigung in allgemeinen Worten definieren.
-2. Das allgemeine Konzept des Beschäftigungsverhältnisses und seine Grenzen erklären.
-3. Häufig genannte Umstände erkennen, unter denen eine Kündigung als rechtswidrig gelten könnte.
+
+- „Akkreditierter Anleger“ (im US-Recht „accredited investor“) allgemein definieren.
+- Die allgemeine Begründung dieser Einstufung erklären.
+- Das als echte Zugangsbeschränkung erkennen, die für bestimmte Anlagemöglichkeiten im WHITE-Lernpfad relevant ist.
 
 ## Kerninhalt
-*REGIONSSPEZIFISCHE REGEL:* Konkrete Regeln zur Kündigung und ihrer Einordnung unterscheiden sich erheblich je nach Land; diese Lektion beschreibt allgemeine Konzepte.
 
-*FAKT ÜBERPRÜFT:* In vielen Rechtssystemen kann ein Arbeitgeber ein Beschäftigungsverhältnis üblicherweise beenden, muss dies jedoch gemäß den gesetzlich festgelegten Gründen und Verfahren tun; folgt die Kündigung diesen Gründen oder Verfahren nicht, kann sie üblicherweise als rechtswidrig eingestuft werden.
+In vielen Systemen der Wertpapieraufsicht sind bestimmte Anlagemöglichkeiten – besonders private, weniger regulierte Angebote – rechtlich auf „akkreditierte Anleger“ beschränkt, eine Kategorie, die im Allgemeinen über bestimmte Schwellen bei Einkommen, Vermögen oder Fachkenntnis definiert ist. Die konkreten Schwellenwerte unterscheiden sich je nach Rechtsordnung und ändern sich im Laufe der Zeit, daher konzentriert sich diese Lektion auf das zugrunde liegende Konzept statt auf einen bestimmten Betrag. (In Europa gibt es vergleichbare Begriffe, etwa den „professionellen Kunden“ oder den „qualifizierten Anleger“; prüfen Sie die aktuell geltenden Kriterien bei den Behörden oder mit Fachleuten.)
 
-*ANNAHME:* Häufig genannte Umstände, unter denen eine Kündigung als rechtswidrig gelten könnte, umfassen Kündigungen aufgrund illegaler Diskriminierung, Vergeltungsmaßnahmen für die Meldung illegalen Verhaltens, oder die Verletzung eines konkreten Arbeitsvertrags — in diesen Fällen könnte die Kündigung üblicherweise rechtliche Konsequenzen für den Arbeitgeber nach sich ziehen.
+Die allgemeine Begründung dieser Beschränkung knüpft direkt an das Thema Offenlegung aus der vorigen Lektion an: Private Angebote müssen oft nicht dasselbe Maß an vorgeschriebener öffentlicher Offenlegung bieten wie stärker regulierte öffentliche Angebote. Die Anforderung des akkreditierten Anlegers ist ein politischer Kompromiss – statt volle öffentliche Offenlegung zu verlangen, wird der Zugang auf Anleger beschränkt, von denen man annimmt, dass sie entweder die finanziellen Mittel haben, einen Verlust zu verkraften, oder die Fachkenntnis, das Risiko ohne denselben Offenlegungsschutz zu beurteilen. Das ist direkt relevant für bestimmte Anlagemöglichkeiten im WHITE-Lernpfad (private Unternehmen, bestimmte Fonds, manche Immobilienbeteiligungen), die ausdrücklich den Status eines akkreditierten Anlegers verlangen – ein praktisches und nicht nur theoretisches Stück Rechtskenntnis.
 
-## Praktisches Beispiel
-*VERANSCHAULICHENDES BEISPIEL:* Ein Arbeitgeber kann ein Beschäftigungsverhältnis üblicherweise aus sachlichen Gründen im Zusammenhang mit einer Umstrukturierung des Unternehmens beenden und dabei das entsprechende gesetzliche Verfahren befolgen. Würde derselbe Arbeitgeber jedoch einen Arbeitnehmer speziell deshalb kündigen, weil dieser eine illegale Aktivität des Unternehmens den Behörden gemeldet hat, würde dies üblicherweise eine rechtswidrige Kündigung wegen Vergeltung darstellen, selbst wenn formell ein anderer Grund angegeben würde.
+## Praxisbeispiel
 
-## Praktisches Quiz
-1. Was muss ein Arbeitgeber üblicherweise beachten, um ein Beschäftigungsverhältnis zu beenden?
-2. Nenne einen häufig genannten Umstand, unter dem eine Kündigung als rechtswidrig gelten könnte.
-3. Wahr/Falsch: Ein Arbeitgeber kann niemals für eine rechtswidrige Kündigung haftbar gemacht werden.
-4. Warum wäre die zweite Kündigung im Beispiel als rechtswidrig einzustufen?
+**Frage:** Eine Anlegerin ist begeistert von einer privaten Anlagemöglichkeit, erfährt aber, dass sie nur akkreditierten Anlegern offensteht und sie derzeit die Voraussetzungen nicht erfüllt. Was ist laut dieser Lektion die politische Logik hinter dieser Beschränkung?
+
+**Schüler:** Nach dieser Lektion soll die Beschränkung, da dieses private Angebot nicht dasselbe Maß an vorgeschriebener Offenlegung bietet wie ein öffentliches, den Zugang auf Anleger begrenzen, von denen man annimmt, dass sie einen Verlust verkraften oder das Risiko ohne denselben Offenlegungsschutz beurteilen können.
+
+**Lernbegleiter:** Geht es bei dieser Beschränkung vor allem um die Qualität der Anlage oder um ein anderes zugrunde liegendes Anliegen?
+
+**Schüler:** Um ein anderes Anliegen – es geht um den Kompromiss zwischen Offenlegungspflichten und Anlegerschutz, nicht unbedingt um ein Urteil darüber, ob die konkrete Möglichkeit selbst gut oder schlecht ist.
+
+**Lernbegleiter:** Genau – die Akkreditierung ist ein politisches Instrument, kein Qualitätssiegel für eine Anlage.
+
+## Übungsquiz
+
+**Frage 1.** Ein „akkreditierter Anleger“ ist im Allgemeinen definiert über:
+
+A) Eine zufällige Verlosung
+B) Das Erreichen bestimmter Schwellen bei Einkommen, Vermögen oder Fachkenntnis
+C) Den Besitz einer beliebigen Menge Aktien
+D) Nur einen Hochschulabschluss
+
+**Frage 2.** Warum nennt diese Lektion keinen bestimmten Schwellenbetrag?
+
+A) Es gibt nirgends eine Schwelle
+B) Die konkreten Schwellen unterscheiden sich je nach Rechtsordnung und ändern sich im Laufe der Zeit
+C) Schwellen sind für dieses Konzept ohne Bedeutung
+D) Diese Lektion nennt einen genauen, allgemeingültigen Betrag
+
+**Frage 3.** Die zugrunde liegende politische Begründung knüpft an das Thema welcher vorigen Lektion an?
+
+A) Abschluss eines Immobiliengeschäfts
+B) Vorgeschriebene Offenlegung und Informationsasymmetrie
+C) Bauplanungsrecht
+D) Zwangsvollstreckung
+
+**Frage 4.** Mit welchem Lernpfad des Lehrplans hängt das Konzept des akkreditierten Anlegers direkt zusammen?
+
+A) GREEN
+B) WHITE
+C) Nur RED
+D) Nur BLUE
 
 ## Lösungsschlüssel
-1. Die gesetzlich festgelegten Gründe und Verfahren   2. Illegale Diskriminierung, Vergeltung, oder Verletzung eines konkreten Vertrags (unter anderem)   3. Falsch   4. Es handelte sich um eine Vergeltungsmaßnahme für die Meldung einer illegalen Aktivität
+
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
-1. Dies ist die allgemein häufig genannte Anforderung für die Beendigung des Beschäftigungsverhältnisses.
-2. Dies sind häufig genannte Umstände, die zu dieser Einstufung führen können.
-3. Es gibt Umstände, unter denen die Kündigung als rechtswidrig gelten könnte.
-4. Diese Kündigung fällt unter den häufig anerkannten Umstand der Vergeltung.
 
-## Wichtigste Punkte zum Merken
-- Ein Arbeitgeber muss üblicherweise die gesetzlichen Gründe und Verfahren beachten, um ein Beschäftigungsverhältnis zu beenden.
-- Häufige Umstände, die eine Kündigung als rechtswidrig einstufen, umfassen Diskriminierung, Vergeltung, und Vertragsverletzung.
-- Eine Kündigung unter diesen Umständen kann üblicherweise rechtliche Konsequenzen für den Arbeitgeber nach sich ziehen.
+**1.** Finanzielle und wissensbezogene Kriterien sind die allgemeine Grundlage dieser Einstufung, nicht Zufall oder fremde Faktoren.
+
+**2.** Unterschiede zwischen Rechtsordnungen und Änderungen im Laufe der Zeit machen einen bestimmten Betrag unzuverlässig, um ihn als feste Tatsache zu lehren.
+
+**3.** Diese Beschränkung ist eine direkte politische Antwort auf die geringeren Offenlegungspflichten privater Angebote.
+
+**4.** Bestimmte Anlagemöglichkeiten im WHITE-Lernpfad verlangen ausdrücklich diesen Status, was die Verbindung praktisch und nicht abstrakt macht.
+
+## Wichtigste Erkenntnisse
+
+- Der Status des akkreditierten Anlegers beruht im Allgemeinen auf Schwellen bei Einkommen, Vermögen oder Fachkenntnis.
+- Die konkreten Schwellen unterscheiden sich je nach Rechtsordnung und ändern sich im Laufe der Zeit.
+- Diese Beschränkung spiegelt einen politischen Kompromiss zwischen Offenlegungspflichten und Anlegerschutz wider.
+- Das ist direkt relevant für bestimmte private Anlagemöglichkeiten im WHITE-Lernpfad.

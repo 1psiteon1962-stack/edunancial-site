@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-003
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 3
-title: "Wat Is Een Contract?"
-summary: "Wat Is Een Contract?"
-locale: "nl"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: nl
+title: "Overeenkomsten 101: wat een afspraak juridisch bindend maakt"
+summary: "Introduceert het basisbegrip overeenkomst en geeft een vooruitblik op de elementen die een afspraak juridisch afdwingbaar maken, als opstap naar de volgende twee lessen."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-003: Wat Is Een Contract?
+
+# Overeenkomsten 101: wat een afspraak juridisch bindend maakt
 
 ## Leerdoelen
-1. Een contract in eenvoudige bewoordingen definiëren.
-2. Het algemene doel van een contract herkennen.
-3. Erkennen dat een contract schriftelijk, mondeling, of zelfs stilzwijgend tot stand kan komen.
+
+- Een overeenkomst (contract) in eenvoudige woorden definiëren.
+- Uitleggen waarom niet elke afspraak een juridisch afdwingbare overeenkomst is.
+- Een vooruitblik geven op de drie kernelementen uit de volgende les.
 
 ## Kerninhoud
-*GEVERIFIEERD FEIT:* Een contract is een juridisch bindende overeenkomst tussen twee of meer partijen die verplichtingen schept die elke partij moet nakomen. Het algemene doel van een contract is de verwachtingen van elke partij expliciet te maken en elke partij een juridisch middel te geven als de andere zich niet aan de afspraak houdt.
 
-*AANNAME:* Hoewel veel mensen bij contracten denken aan formele geschreven documenten, kan een contract doorgaans ook mondeling tot stand komen of zelfs stilzwijgend blijken uit het handelen van de partijen, hoewel schriftelijke contracten doorgaans gemakkelijker af te dwingen zijn omdat ze duidelijk bewijs leveren van de overeengekomen voorwaarden.
+Een overeenkomst is een juridisch afdwingbare afspraak tussen twee of meer partijen. Het sleutelwoord is afdwingbaar: een overeenkomst is niet zomaar een belofte of een handdrukdeal, maar een afspraak waarvan een rechter naleving kan afdwingen of waarvoor hij schadevergoeding kan toekennen als ze wordt geschonden. Dit onderscheid is enorm belangrijk binnen RED, WHITE en BLUE: een koopovereenkomst voor vastgoed, een inschrijvingsovereenkomst voor een belegging en een samenwerkingsovereenkomst tussen ondernemers zijn in de kern allemaal overeenkomsten.
 
-## Praktisch Voorbeeld
-*PRAKTISCH VOORBEELD:* Wanneer iemand een schilder inhuurt om zijn huis te schilderen en beiden mondeling een prijs en opleverdatum afspreken, kan dit een geldig mondeling contract vormen. Ontstaat er later echter een geschil over wat precies is afgesproken, dan heeft geen van beide partijen een duidelijk schriftelijk bewijs om op terug te vallen — wat illustreert waarom veel mensen belangrijke afspraken liever schriftelijk vastleggen.
+Niet elke afspraak bereikt het niveau van een afdwingbare overeenkomst. Een losse belofte tussen vrienden is dat meestal niet; een formele, ondertekende koopovereenkomst meestal wel. De volgende les ontleedt de drie kerningrediënten – aanbod, aanvaarding en tegenprestatie – die in veel rechtssystemen in het algemeen aanwezig moeten zijn om een afspraak als juridisch bindende overeenkomst te laten gelden. Dit onderscheid begrijpen is fundamenteel: het is het verschil tussen iets waarop je juridisch echt kunt bouwen en iets wat slechts een vriendelijke verstandhouding is.
 
-## Praktische Toets
-1. Wat is een contract?
-2. Wat is het algemene doel van een contract?
-3. Waar/Onwaar: Alle contracten moeten schriftelijk zijn om geldig te zijn.
-4. Waarom zouden schriftelijke contracten de voorkeur kunnen krijgen boven mondelinge?
+## Praktijkvoorbeeld
+
+**Vraag:** Twee buren spreken mondeling af dat de een "ergens deze zomer" het gras van de ander maait in ruil voor "later een wederdienst". Is dit waarschijnlijk een afdwingbare overeenkomst?
+
+**Cursist:** Volgens deze les klinkt het nogal los en vaag, dus het is twijfelachtig of het als afdwingbare overeenkomst zou gelden.
+
+**Begeleider:** Wat ontbreekt hier dat een formele koopovereenkomst voor vastgoed wel zou hebben?
+
+**Cursist:** Duidelijke, concrete voorwaarden en een zekere formaliteit: het soort dingen dat van een afspraak iets maakt wat een rechter echt kan afdwingen, in plaats van slechts een vriendelijke verstandhouding.
+
+**Begeleider:** Precies: de volgende les geeft je de concrete ingrediënten waar je op moet letten.
+
+## Oefenquiz
+
+**Vraag 1.** Een overeenkomst is:
+
+A) Elke losse belofte
+B) Een juridisch afdwingbare afspraak tussen partijen
+C) Alleen relevant voor bedrijven
+D) Hetzelfde als een handdruk
+
+**Vraag 2.** Het belangrijkste onderscheidende kenmerk van een overeenkomst is:
+
+A) De lengte ervan
+B) Afdwingbaarheid: een rechter kan naleving afdwingen of schadevergoeding toekennen
+C) Of ze getypt of met de hand geschreven is
+D) Of beide partijen vrienden zijn
+
+**Vraag 3.** Welk van deze wordt in de context van dit lesprogramma genoemd als voorbeeld van een overeenkomst?
+
+A) Een koopovereenkomst voor vastgoed
+B) Een losse mondelinge wederdienst tussen vrienden
+C) Een dagdroom over een bedrijfsidee
+D) Een ongeschreven hoop
+
+**Vraag 4.** Wat behandelt de volgende les?
+
+A) Belastingrecht
+B) De drie kernelementen: aanbod, aanvaarding en tegenprestatie
+C) Strafrecht
+D) Bestemmingsplannen voor vastgoed
 
 ## Antwoordsleutel
-1. Een juridisch bindende overeenkomst tussen twee of meer partijen die verplichtingen schept   2. De verwachtingen expliciet maken en een juridisch middel geven als ze niet worden nagekomen   3. Onwaar   4. Ze leveren duidelijk bewijs van de overeengekomen voorwaarden
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van een contract.
-2. Dit is het algemene doel van het sluiten van een contract.
-3. Een contract kan doorgaans mondeling of stilzwijgend tot stand komen, niet alleen schriftelijk.
-4. Schriftelijke contracten zijn doorgaans gemakkelijker af te dwingen door de duidelijkheid die ze bieden.
+1. B, 2. B, 3. A, 4. B
 
-## Belangrijkste Punten om te Onthouden
-- Een contract is een juridisch bindende overeenkomst die verplichtingen tussen partijen schept.
-- Het algemene doel is verwachtingen te verduidelijken en een juridisch middel te bieden.
-- Een contract kan schriftelijk, mondeling, of stilzwijgend tot stand komen, hoewel schriftelijke doorgaans gemakkelijker af te dwingen zijn.
+## Antwoorden en uitleg
+
+**1.** Afdwingbaarheid is het bepalende kenmerk dat een echte overeenkomst onderscheidt van een informele belofte.
+
+**2.** Het vermogen van een rechter om de afspraak daadwerkelijk af te dwingen, maakt haar juridisch betekenisvol.
+
+**3.** Koopovereenkomsten zijn formeel, concreet en afdwingbaar: een schoolvoorbeeld van een echte overeenkomst.
+
+**4.** Deze les bereidt de uitsplitsing van de vereiste ingrediënten in de volgende les voor.
+
+## Belangrijkste punten
+
+- Een overeenkomst is een afspraak die een rechter echt kan afdwingen, niet alleen een belofte.
+- Koopovereenkomsten, beleggingsovereenkomsten en samenwerkingsovereenkomsten zijn allemaal overeenkomsten.
+- Niet elke afspraak bereikt het niveau van een afdwingbare overeenkomst.
+- De volgende les behandelt de drie kerningrediënten die van een afspraak een overeenkomst maken.

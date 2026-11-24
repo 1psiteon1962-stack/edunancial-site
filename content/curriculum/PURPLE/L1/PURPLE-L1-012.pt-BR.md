@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-012
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 12
-title: "O Que É Propriedade Intelectual?"
-summary: "O Que É Propriedade Intelectual?"
-locale: "pt-BR"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-BR
+title: "Empresário individual: a exposição jurídica da estrutura mais simples"
+summary: "Explica as implicações de responsabilidade jurídica de atuar como empresário individual: a estrutura padrão, mais simples e menos protetora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-012: O Que É Propriedade Intelectual?
 
-## Objetivos de Aprendizagem
-1. Definir propriedade intelectual em termos simples.
-2. Identificar as categorias amplas de propriedade intelectual.
-3. Explicar o propósito geral de proteger a propriedade intelectual.
+# Empresário individual: a exposição jurídica da estrutura mais simples
 
-## Conteúdo Principal
-*FATO VERIFICADO:* A propriedade intelectual se refere a criações da mente — como invenções, obras literárias e artísticas, símbolos, nomes, e imagens usados no comércio — às quais a lei concede certos direitos exclusivos a seus criadores ou titulares. As categorias amplas geralmente incluem direitos autorais, marcas registradas, patentes, e segredos comerciais.
+## Objetivos de aprendizagem
 
-*SUPOSIÇÃO:* O propósito geral de proteger a propriedade intelectual é incentivar a criatividade e a inovação, dando aos criadores a oportunidade de lucrar com seu trabalho durante um período determinado, em vez de permitir que outros o copiem livremente de imediato.
+- Definir juridicamente o empresário individual (em inglês, "sole proprietorship").
+- Explicar por que essa forma não oferece separação entre responsabilidade empresarial e pessoal.
+- Reconhecer o risco prático que isso cria.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Quando um autor escreve um romance, o direito autoral geralmente lhe concede o direito exclusivo de reproduzir, distribuir, e vender essa obra durante um período determinado. Sem essa proteção, qualquer pessoa poderia copiar e vender o romance imediatamente sem compensar o autor, o que poderia desestimular as pessoas a investir tempo e esforço na criação de novas obras.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é propriedade intelectual?
-2. Nomeie duas categorias amplas de propriedade intelectual.
-3. Verdadeiro/Falso: A propriedade intelectual cobre apenas invenções físicas.
-4. Qual é o propósito geral de proteger a propriedade intelectual?
+O empresário individual é a estrutura padrão de um negócio de um único dono sem constituição de uma pessoa jurídica separada: juridicamente, o negócio e o dono são tratados como exatamente a mesma entidade. É a estrutura mais simples para começar (muitas vezes com poucas ou nenhuma formalidade), mas traz uma troca jurídica crucial: não há separação de responsabilidade entre o negócio e os bens pessoais do dono. (No Brasil, o empresário individual e, em regra, o MEI respondem com o patrimônio pessoal pelas dívidas do negócio; confirme os detalhes com um contador ou advogado.)
+
+Isso significa que, se o negócio for processado, deixar de pagar uma dívida ou enfrentar qualquer outra pretensão jurídica, os bens pessoais do dono – sua casa, suas economias, seus bens pessoais – ficam diretamente expostos, e não apenas o que o próprio negócio possui. É um risco jurídico significativo que muitos novos empreendedores não percebem por completo quando começam a operar informalmente sem montar uma estrutura mais protetora. Aqui, a simplicidade tem um custo real, e é especificamente um custo jurídico, ligado à responsabilidade, distinto da simplicidade tributária vista em GREEN.
+
+## Exemplo prático
+
+**Pergunta:** Um consultor autônomo atua como empresário individual e é processado por um cliente por causa de uma disputa, resultando em uma condenação maior do que os bens do negócio. O que acontece com a casa e as economias pessoais do consultor?
+
+**Aluno:** Com base nesta lição, como não há separação jurídica entre o negócio e o dono, os bens pessoais do consultor podem ficar expostos para pagar essa condenação.
+
+**Guia:** Uma estrutura empresarial diferente teria mudado esse resultado?
+
+**Aluno:** Possivelmente: uma estrutura com verdadeira separação de responsabilidade poderia ter protegido os bens pessoais de uma condenação ligada ao negócio, de um jeito que o empresário individual não protege.
+
+**Guia:** Exatamente: essa é a troca jurídica central entre simplicidade e proteção contra responsabilidade.
+
+## Teste de prática
+
+**Pergunta 1.** Juridicamente, o empresário individual é:
+
+A) Uma entidade completamente separada de seu dono
+B) A mesma entidade que seu dono, sem separação de responsabilidade
+C) Sempre a estrutura mais protetora
+D) Disponível apenas para grandes empresas
+
+**Pergunta 2.** Se um empresário individual é processado, quais bens ficam potencialmente expostos?
+
+A) Apenas os bens do negócio, nunca os pessoais
+B) Tanto os bens do negócio quanto os pessoais, porque não há separação jurídica
+C) Nenhum bem fica em risco
+D) Apenas os bens de sócios
+
+**Pergunta 3.** A simplicidade do empresário individual tem que tipo de custo?
+
+A) Nenhum custo
+B) Um custo de responsabilidade jurídica: falta de proteção dos bens pessoais
+C) Apenas um custo tributário
+D) Apenas um custo de marketing
+
+**Pergunta 4.** A discussão sobre responsabilidade desta lição é distinta de qual tratamento anterior do empresário individual?
+
+A) A discussão de RED
+B) A discussão de GREEN, focada em tributos
+C) A discussão de WHITE
+D) Nenhuma trilha anterior tratou disso
 
 ## Gabarito
-1. Criações da mente às quais a lei concede direitos exclusivos   2. Direitos autorais, marcas registradas (entre outras)   3. Falso   4. Incentivar a criatividade e a inovação
 
-## Respostas e Explicações
-1. Esta é a definição fundamental da propriedade intelectual.
-2. Estas são categorias amplas comumente citadas de propriedade intelectual.
-3. A propriedade intelectual também cobre obras criativas, símbolos, e outras criações não físicas.
-4. Este é o propósito geral comumente citado por trás dessas proteções jurídicas.
+1. B, 2. B, 3. B, 4. B
 
-## Principais Pontos a Lembrar
-- A propriedade intelectual reúne criações da mente protegidas por direitos exclusivos.
-- As categorias amplas incluem direitos autorais, marcas registradas, patentes, e segredos comerciais.
-- O propósito geral é incentivar a criatividade e a inovação.
+## Respostas e explicações
+
+**1.** Juridicamente, não se faz distinção entre o negócio e a pessoa que o administra.
+
+**2.** Sem um escudo contra a responsabilidade, os bens pessoais ficam diretamente expostos, ao lado dos bens do negócio.
+
+**3.** A simplicidade troca a proteção jurídica, um custo distinto da simplicidade tributária discutida em outro lugar.
+
+**4.** Esta lição acrescenta deliberadamente o ângulo da responsabilidade que o tratamento tributário de GREEN não abordou.
+
+## Pontos-chave
+
+- O empresário individual não oferece separação jurídica entre o negócio e o dono.
+- Isso significa que os bens pessoais ficam diretamente expostos a pretensões jurídicas ligadas ao negócio.
+- A simplicidade tem um custo real de responsabilidade jurídica.
+- Essa é uma preocupação distinta do tratamento tributário do empresário individual visto em GREEN.

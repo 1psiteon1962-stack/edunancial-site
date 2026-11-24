@@ -1,49 +1,90 @@
 ---
 id: PURPLE-L1-035
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 35
-title: "O Despejo — O Processo Básico"
-summary: "O despejo é o processo legal através do qual um senhorio faz com que um arrendatário deixe um imóvel, geralmente devido à falta de pagamento da renda ou ao incumprimento dos termos do contrato de arrendamento. FACTO VERIFICADO: O processo exige geralmente que o senhorio dê uma notificação formal ao arrendatário, e se o arrendatário não corrigir o problema ou não desocupar o imóvel, o senhorio deve geralmente obter uma decisão judicial antes de proceder à remoção física do arrendatário."
-locale: "pt-PT"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: pt-PT
+title: "Abuso de informação privilegiada: o que é e porque é que é ilegal"
+summary: "Explica o conceito de abuso de informação privilegiada (em inglês, \"insider trading\"), porque é que é proibido e a sua ligação aos princípios de equidade por detrás da regulação dos valores mobiliários."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-035: O Despejo — O Processo Básico
 
-## Objetivos de Aprendizagem
-1. Definir despejo em termos gerais.
-2. Identificar as etapas gerais de um processo legal de despejo.
-3. Explicar por que a "autotutela" é geralmente ilegal.
+# Abuso de informação privilegiada: o que é e porque é que é ilegal
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* Os processos específicos de despejo variam significativamente consoante o país e a região; esta lição descreve apenas o conceito geral.
+## Objetivos de aprendizagem
 
-O despejo é o processo legal através do qual um senhorio faz com que um arrendatário deixe um imóvel, geralmente devido à falta de pagamento da renda ou ao incumprimento dos termos do contrato de arrendamento. *FACTO VERIFICADO:* O processo exige geralmente que o senhorio dê uma notificação formal ao arrendatário, e se o arrendatário não corrigir o problema ou não desocupar o imóvel, o senhorio deve geralmente obter uma decisão judicial antes de proceder à remoção física do arrendatário.
+- Definir o abuso de informação privilegiada (insider trading).
+- Explicar a lógica de equidade por detrás da proibição.
+- Reconhecer situações comuns em que este risco surge.
 
-*SUPOSIÇÃO:* A "autotutela" — quando um senhorio tenta remover um arrendatário por sua própria iniciativa sem passar pelo processo judicial, por exemplo mudando as fechaduras ou cortando os serviços públicos — é geralmente ilegal em muitos ordenamentos jurídicos, precisamente por contornar as protecções processuais concebidas para o arrendatário.
+## Conteúdo principal
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um senhorio cujo arrendatário não paga a renda há vários meses deve geralmente enviar primeiro uma notificação formal, e se o problema não for resolvido, intentar uma acção judicial para obter uma decisão de despejo. Se o senhorio, em vez disso, mudasse as fechaduras sem seguir este processo, isso constituiria geralmente uma autotutela ilegal, expondo o senhorio a possíveis consequências jurídicas, mesmo que o arrendatário devesse efectivamente a renda.
+O abuso de informação privilegiada refere-se em geral a comprar ou vender um valor mobiliário com base em informação relevante e não pública – informação significativa ainda não disponível para o público investidor em geral – obtida através de uma posição de confiança ou de acesso, como ser trabalhador ou administrador de uma empresa, ou alguém que recebeu essa informação indevidamente de alguém de dentro. Isto é proibido pelo direito dos valores mobiliários na maioria dos sistemas, e o raciocínio liga-se diretamente ao princípio de equidade por detrás dos deveres de informação vistos em lições anteriores. (Em Portugal, o abuso de informação privilegiada é crime previsto no Código dos Valores Mobiliários, e as regras europeias sobre abuso de mercado também se aplicam, com supervisão da CMVM; confirme os pormenores com um profissional.)
 
-## Questionário Prático
-1. O que é o despejo?
-2. O que deve geralmente fazer um senhorio antes da remoção física de um arrendatário?
-3. Verdadeiro/Falso: Um senhorio pode geralmente mudar as fechaduras sem passar por um tribunal se o arrendatário não pagou a renda.
-4. O que é a "autotutela"?
+O problema central que o abuso de informação privilegiada cria é uma vantagem informativa injusta: se alguns participantes no mercado podem negociar com base em informação a que outros não têm acesso, isso mina a equidade básica que faz as pessoas estarem dispostas a participar nos mercados, exatamente a infraestrutura de confiança discutida antes nesta secção. Isto não se limita a administradores de empresas; qualquer pessoa que receba informação relevante e não pública e negoceie com base nela, ou a partilhe indevidamente com alguém que negoceie com base nela, pode vir a responder. É uma cautela prática para qualquer pessoa com algum tipo de acesso privilegiado a informação não pública de empresas, incluindo, em algumas circunstâncias, profissionais que trabalham de perto com empresas em contextos de RED ou BLUE e que, por acaso, também investem através de WHITE.
+
+## Exemplo prático
+
+**Pergunta:** Um consultor empresarial toma conhecimento, durante um projeto, de informação confidencial e significativa sobre uma empresa cliente e depois negoceia ações dessa empresa antes de a informação se tornar pública. Que problema jurídico ilustra isto?
+
+**Aluno:** Com base nesta lição, parece um exemplo claro de abuso de informação privilegiada: negociar com base em informação relevante e não pública obtida através de uma posição de confiança ou de acesso.
+
+**Guia:** Porque é que isto é proibido, ligando de volta ao tema da equidade das lições anteriores?
+
+**Aluno:** Porque cria uma vantagem informativa injusta sobre outros participantes no mercado que não têm acesso a essa mesma informação não pública, minando a confiança que faz os mercados funcionarem com equidade.
+
+**Guia:** Exatamente: e este risco não se limita a quem está dentro das empresas; aplica-se a qualquer pessoa com acesso privilegiado a informação relevante e não pública.
+
+## Teste de prática
+
+**Pergunta 1.** O abuso de informação privilegiada refere-se em geral a:
+
+A) Qualquer negociação de ações feita por um trabalhador de uma empresa
+B) Negociar um valor mobiliário com base em informação relevante e não pública obtida através de uma posição de confiança
+C) Negociar apenas com base em informação pública
+D) Uma estratégia de investimento totalmente legal
+
+**Pergunta 2.** O problema central que o abuso de informação privilegiada cria é:
+
+A) Não existe problema real
+B) Uma vantagem informativa injusta, que mina a confiança e a equidade do mercado
+C) Transparência excessiva do mercado
+D) Informação pública a mais
+
+**Pergunta 3.** A responsabilidade pelo abuso de informação privilegiada limita-se aos administradores de empresas?
+
+A) Sim, só os administradores podem responder
+B) Não: qualquer pessoa que negoceie com base em informação relevante e não pública, ou a partilhe indevidamente, pode vir a responder
+C) Só os funcionários públicos podem responder
+D) A responsabilidade nunca se aplica a ninguém
+
+**Pergunta 4.** Esta lição liga a proibição do abuso de informação privilegiada a que tema anterior?
+
+A) Ordenamento do território
+B) Equidade e confiança como infraestrutura de mercados que funcionam
+C) O processo de execução
+D) As obrigações de senhorio e inquilino
 
 ## Chave de Respostas
-1. O processo legal através do qual um senhorio faz com que um arrendatário deixe um imóvel   2. Obter uma decisão judicial   3. Falso   4. Quando um senhorio tenta remover um arrendatário sem passar pelo processo judicial
 
-## Respostas e Explicações
-1. Esta é a definição fundamental do despejo.
-2. Esta é a exigência geral antes da remoção física de um arrendatário.
-3. A autotutela é geralmente ilegal, mesmo quando o arrendatário deve a renda.
-4. Esta é a definição fundamental da autotutela.
+1. B, 2. B, 3. B, 4. B
 
-## Pontos-Chave a Reter
-- O despejo é o processo legal para fazer com que um arrendatário deixe um imóvel.
-- O processo exige geralmente notificação formal e uma decisão judicial antes da remoção física.
-- A autotutela, sem passar pelo processo judicial, é geralmente ilegal.
+## Respostas e explicações
+
+**1.** A característica que define é negociar com base em informação privilegiada e não pública obtida através de uma relação de confiança.
+
+**2.** Esta vantagem injusta mina diretamente a confiança no mercado que a regulação procura proteger.
+
+**3.** A responsabilidade vai para além de quem está formalmente dentro da empresa, abrangendo qualquer pessoa que aceda ou use indevidamente essa informação.
+
+**4.** Isto alarga diretamente o raciocínio de confiança e equidade estabelecido nas lições anteriores sobre a informação.
+
+## Pontos-chave
+
+- Abuso de informação privilegiada significa negociar com base em informação relevante e não pública obtida por confiança ou acesso.
+- Isto mina a equidade e a confiança que fazem os mercados funcionar, ligando-se às lições anteriores.
+- A responsabilidade vai para além dos administradores de empresas, abrangendo qualquer pessoa que use indevidamente essa informação.
+- É uma cautela prática para qualquer pessoa com acesso privilegiado a informação não pública de empresas.

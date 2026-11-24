@@ -1,47 +1,90 @@
 ---
 id: PURPLE-L1-008
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 8
-title: "Nalatigheid Uitgelegd"
-summary: "Nalatigheid Uitgelegd"
-locale: "nl"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: nl
+title: "Onrechtmatige daad en overeenkomst: twee soorten juridische vorderingen"
+summary: "Onderscheidt het recht van de onrechtmatige daad (civiele onrechtmatigheden buiten een overeenkomst om) van het overeenkomstenrecht en geeft cursisten een duidelijkere kaart van het bredere civiele rechtslandschap."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-008: Nalatigheid Uitgelegd
+
+# Onrechtmatige daad en overeenkomst: twee soorten juridische vorderingen
 
 ## Leerdoelen
-1. Nalatigheid in juridische termen definiëren.
-2. De doorgaans vereiste elementen om nalatigheid te bewijzen herkennen.
-3. Het begrip "redelijke zorgvuldigheid" uitleggen.
+
+- Een onrechtmatige daad (in het Engels "tort") in eenvoudige woorden definiëren.
+- Vorderingen uit onrechtmatige daad onderscheiden van vorderingen uit overeenkomst.
+- Voorbeelden benoemen die relevant zijn voor RED, WHITE en BLUE.
 
 ## Kerninhoud
-*GEVERIFIEERD FEIT:* Nalatigheid doet zich voor wanneer iemand niet de mate van zorgvuldigheid betracht die een redelijk persoon onder vergelijkbare omstandigheden zou betrachten, en daardoor schade aan een ander toebrengt. Het bewijzen van nalatigheid vereist doorgaans het aantonen van vier elementen: een zorgplicht, een schending van die plicht, causaal verband (de schending heeft daadwerkelijk de schade veroorzaakt), en werkelijke schade.
 
-*AANNAME:* "Redelijke zorgvuldigheid" wordt doorgaans beoordeeld aan de hand van wat een hypothetisch, voorzichtig persoon in dezelfde situatie zou hebben gedaan — het is geen maatstaf van perfectie, maar een maatstaf van redelijk zorgvuldig gedrag gezien de omstandigheden.
+Een onrechtmatige daad is een civiele onrechtmatigheid die een ander schade toebrengt, los van een eventuele overeenkomst tussen hen: nalatigheid, zaakschade of smaad zijn veelvoorkomende voorbeelden. Dit verschilt van een contractgeschil, dat ontstaat uit een gebroken belofte tussen partijen die een afspraak hadden. Een onrechtmatige daad kan zich voordoen tussen mensen die nooit een overeenkomst hebben gehad: als het slordige werk van een aannemer een naburig pand beschadigt, is dat een vordering uit onrechtmatige daad, geen vordering uit overeenkomst, als de buurman en de aannemer geen afspraak met elkaar hadden.
 
-## Praktisch Voorbeeld
-*PRAKTISCH VOORBEELD:* Een bestuurder die tijdens het rijden op zijn telefoon kijkt en daardoor een voetganger over het hoofd ziet die legaal oversteekt, heeft waarschijnlijk niet de redelijke zorgvuldigheid betracht die een voorzichtig persoon bij het rijden zou betrachten. Veroorzaakt deze afleiding een verwonding bij de voetganger, dan zouden doorgaans alle vier de elementen van nalatigheid aanwezig zijn: een plicht om voorzichtig te rijden, de schending van die plicht door op de telefoon te kijken, het causaal verband tussen de afleiding en de verwonding, en de werkelijke schade van de voetganger.
+Dit onderscheid is in de praktijk belangrijk in dit hele lesprogramma: een eigenaar van vastgoed (RED) kan op grond van onrechtmatige daad worden aangesproken als onveilige omstandigheden op zijn terrein iemand verwonden, los van een huur- of koopovereenkomst. Een ondernemer (BLUE) kan aansprakelijk zijn op grond van onrechtmatige daad voor schade die door een product of een onvoorzichtige werknemer is veroorzaakt, los van een overeenkomst met een klant. Begrijpen dat juridisch risico niet beperkt is tot gebroken beloften – dat schade buiten een afspraak om ook aansprakelijkheid kan scheppen – is een belangrijke uitbreiding van juridische geletterdheid voorbij alleen overeenkomsten.
 
-## Praktische Toets
-1. Wat is nalatigheid?
-2. Noem twee van de vier doorgaans vereiste elementen om nalatigheid te bewijzen.
-3. Waar/Onwaar: "Redelijke zorgvuldigheid" vereist perfect gedrag.
-4. In het bestuurdersvoorbeeld — welke handeling vormde de schending van de zorgplicht?
+## Praktijkvoorbeeld
+
+**Vraag:** De slecht onderhouden trap van een vastgoedeigenaar verwondt een bezorger die helemaal geen overeenkomst met de eigenaar heeft. Welk soort juridische vordering is dit waarschijnlijk?
+
+**Cursist:** Volgens deze les klinkt dit als een vordering uit onrechtmatige daad, omdat er geen overeenkomst is tussen de eigenaar en de bezorger: de schade bestaat los van een afspraak.
+
+**Begeleider:** Waarom doet het ontbreken van een overeenkomst hier ertoe?
+
+**Cursist:** Omdat het laat zien dat juridische aansprakelijkheid niet beperkt is tot gebroken beloften tussen contractpartijen: schade buiten een afspraak om kan ook juridische blootstelling scheppen.
+
+**Begeleider:** Precies: daarom moeten vastgoedeigenaren nadenken over het risico van onrechtmatige daad, niet alleen over contractrisico.
+
+## Oefenquiz
+
+**Vraag 1.** Een onrechtmatige daad is:
+
+A) Een soort overeenkomst
+B) Een civiele onrechtmatigheid die schade veroorzaakt, los van een overeenkomst
+C) Alleen relevant voor het strafrecht
+D) Hetzelfde als wanprestatie
+
+**Vraag 2.** Hoe verschilt een vordering uit onrechtmatige daad van een vordering uit overeenkomst?
+
+A) Ze zijn identiek
+B) Een onrechtmatige daad kan zich voordoen tussen partijen die helemaal geen overeenkomst met elkaar hebben
+C) Onrechtmatige daad geldt alleen voor bedrijven
+D) Bij overeenkomsten is nooit echte schade betrokken
+
+**Vraag 3.** Onveilige omstandigheden bij een vastgoedeigenaar die een bezoeker zonder overeenkomst met de eigenaar verwonden, zijn een voorbeeld van:
+
+A) Een contractgeschil
+B) Een mogelijke vordering uit onrechtmatige daad
+C) Noch een kwestie van onrechtmatige daad, noch van overeenkomst
+D) Alleen een strafzaak
+
+**Vraag 4.** Waarom is dit onderscheid belangrijk voor wie actief is in RED en BLUE?
+
+A) Het doet er helemaal niet toe
+B) Juridisch risico is niet beperkt tot gebroken beloften: schade buiten een afspraak om kan ook aansprakelijkheid scheppen
+C) Alleen contractrisico is ooit relevant
+D) Onrechtmatige daad geldt alleen voor WHITE
 
 ## Antwoordsleutel
-1. Niet de mate van zorgvuldigheid betrachten die een redelijk persoon zou betrachten, waardoor schade ontstaat   2. Zorgplicht, schending van die plicht (onder andere)   3. Onwaar   4. Op de telefoon kijken tijdens het rijden
 
-## Antwoorden en Toelichtingen
-1. Dit is de fundamentele definitie van nalatigheid.
-2. Dit behoort tot de vier doorgaans vereiste elementen.
-3. Redelijke zorgvuldigheid is een maatstaf van voorzichtig gedrag, geen perfectie.
-4. Deze handeling week af van wat een redelijk zorgvuldig persoon zou hebben gedaan.
+1. B, 2. B, 3. B, 4. B
 
-## Belangrijkste Punten om te Onthouden
-- Nalatigheid doet zich voor wanneer iemand niet de redelijke zorgvuldigheid betracht en daardoor schade aan een ander toebrengt.
-- Het bewijzen ervan vereist doorgaans plicht, schending, causaal verband, en werkelijke schade.
-- Redelijke zorgvuldigheid is een maatstaf van voorzichtigheid, geen perfectie.
+## Antwoorden en uitleg
+
+**1.** Bij onrechtmatige daad gaat het in de kern om het veroorzaken van schade, niet om gebroken afspraken.
+
+**2.** Het ontbreken van een overeenkomst is precies wat veel situaties van onrechtmatige daad onderscheidt van contractgeschillen.
+
+**3.** Deze situatie is een klassieke illustratie van aansprakelijkheid uit onrechtmatige daad zonder enige contractuele relatie.
+
+**4.** Dit bredere aansprakelijkheidslandschap herkennen maakt het beeld van juridisch risico voor vastgoed- en bedrijfseigenaren vollediger.
+
+## Belangrijkste punten
+
+- Een onrechtmatige daad is een civiele onrechtmatigheid die schade veroorzaakt, iets anders dan een gebroken overeenkomst.
+- Een onrechtmatige daad kan zich voordoen, zelfs tussen partijen zonder enige overeenkomst.
+- Vastgoedeigenaren en ondernemers lopen risico op aansprakelijkheid uit onrechtmatige daad, los van elk contractrisico.
+- Juridische geletterdheid omvat begrip van aansprakelijkheid op basis van schade, niet alleen op basis van afspraken.
