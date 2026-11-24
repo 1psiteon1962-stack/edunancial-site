@@ -4,152 +4,53 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 31
-title: "31. Modelli di delega"
-summary: "Questa lezione sviluppa la capacità di scegliere un livello di delega adeguato. In termini pratici, la delega può andare dalla raccolta di informazioni alla piena decisione entro limiti concordati. Il traguardo non è memorizzare una definizione, ma riconoscere il problema, valutarne gli effetti sulle persone, sull’operatività e sulle risorse e scegliere un’azione difendibile con criteri verificabili."
-locale: "it"
+locale: it
+title: "Schemi per delegare"
+summary: "Offre uno schema pratico per decidere quanta supervisione applicare quando si delega un compito."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# 31. Modelli di delega
 
-## Sintesi esecutiva
-Questa lezione sviluppa la capacità di **scegliere un livello di delega adeguato**. In termini pratici, la delega può andare dalla raccolta di informazioni alla piena decisione entro limiti concordati. Il traguardo non è memorizzare una definizione, ma riconoscere il problema, valutarne gli effetti sulle persone, sull’operatività e sulle risorse e scegliere un’azione difendibile con criteri verificabili.
-
-## Progressione dell’apprendimento
-- **Alfabetizzazione finanziaria:** riconoscere dove il tema consuma, protegge o crea risorse.
-- **Competenza finanziaria:** collegare la scelta a costi, ricavi, margini, cassa, produttività o rischio quando pertinenti.
-- **Giudizio migliore:** separare fatti, ipotesi, interessi, incentivi e alternative.
-- **Decisioni migliori:** scegliere un’azione con responsabile, scadenza, misura e momento di revisione.
-- **Costruzione di patrimonio:** comprendere come una leadership disciplinata protegga capitale, reputazione e capacità di reinvestimento nel lungo periodo.
-
-## Prerequisiti
-Non è richiesta una formazione manageriale. Sono sufficienti aritmetica di base, disponibilità a esaminare le proprie ipotesi e interesse per decisioni reali.
+# Schemi per delegare
 
 ## Obiettivi di apprendimento
-Al termine, lo studente saprà: spiegare il tema con parole proprie; distinguere almeno tre elementi rilevanti; identificare un rischio e un effetto economico; applicare un processo di decisione; scegliere un indicatore e una data di revisione.
+- Individuare i diversi livelli di delega e quando usare ciascuno
+- Spiegare perché è importante adeguare il livello di supervisione al rischio del compito e all'esperienza della persona
+- Esercitarsi a scegliere un livello di delega appropriato per uno scenario dato
 
-## Lezione principale
-### 1. Concetto centrale
-La delega può andare dalla raccolta di informazioni alla piena decisione entro limiti concordati. Questo principio diventa utile solo quando viene tradotto in comportamenti osservabili e decisioni concrete.
+## Contenuto principale
 
-### 2. Diagnosi prima dell’azione
-Prima di intervenire, definisci il risultato desiderato. Elenca fatti verificabili, ipotesi ancora da testare, persone interessate e vincoli. Chiedi quale problema stai realmente cercando di risolvere e quale prova dimostrerebbe che la diagnosi è sbagliata.
+Non tutte le deleghe dovrebbero essere uguali. Delegare un compito poco rilevante a un collaboratore esperto richiede un livello di supervisione molto diverso dal delegare un compito molto rilevante a qualcuno nuovo nel ruolo. Uno schema utile prevede alcuni livelli: "fallo e dimmi che cosa hai fatto" (piena autonomia, adatta a persone esperte su compiti a rischio più basso), "fallo, ma confrontati con me prima di chiudere" (autonomia parziale, adatta a compiti più rilevanti o a persone meno esperte) e "facciamolo insieme" (collaborazione stretta, adatta a situazioni nuove, molto rilevanti o insolitamente complesse).
 
-### 3. Conseguenze economiche
-Ogni scelta di leadership usa risorse. Considera costo diretto, tempo delle persone, costo opportunità, effetto su ricavi e produttività, rischio di errore e impatto sulla cassa. Un beneficio non misurato può essere reale, ma deve almeno essere descritto con un indicatore osservabile.
+Scegliere il livello sbagliato in una direzione o nell'altra crea problemi. Troppa supervisione su un compito che una persona sa gestire pienamente fa perdere tempo a entrambi e può sembrare mancanza di fiducia. Troppo poca supervisione su un compito in cui qualcuno ha davvero bisogno di più sostegno può portare a errori costosi e a un'esperienza scoraggiante per una persona che non è stata messa nelle condizioni di riuscire.
 
-### 4. Decisione ed esecuzione
-Confronta almeno due alternative. Per ciascuna indica beneficio atteso, costo, rischio, reversibilità e tempo necessario. Poi assegna un responsabile, una scadenza e una misura di risultato. Evita di confondere attività con progresso.
-
-### 5. Revisione e apprendimento
-Stabilisci in anticipo quando riesaminare la scelta. Confronta aspettativa e risultato reale. Se le evidenze cambiano, correggere il metodo è disciplina, non incoerenza. Registra ciò che deve diventare processo, standard o nuova ipotesi.
-
-## Definizioni essenziali
-- **Delega:** concetto operativo da definire con precisione nel contesto della decisione.
-- **Mandato:** concetto operativo da definire con precisione nel contesto della decisione.
-- **Limite:** concetto operativo da definire con precisione nel contesto della decisione.
-- **Escalation:** concetto operativo da definire con precisione nel contesto della decisione.
+Il livello giusto non è fisso per sempre: man mano che una persona acquisisce esperienza e dimostra affidabilità in un certo tipo di compito, il livello di supervisione appropriato dovrebbe diminuire nel tempo, il che è di per sé un investimento nella sua crescita.
 
 ## Esempio svolto
-Una piccola impresa deve scegliere un livello di delega adeguato. La responsabile evita una risposta impulsiva: definisce il risultato, raccoglie dati, quantifica il costo del problema, confronta due alternative e sceglie quella con il miglior rapporto tra risultato atteso, rischio e risorse. Dopo un periodo prestabilito confronta l’indicatore con il valore iniziale. La decisione diventa così verificabile e correggibile.
 
-## Caso di studio
-Un team di otto persone mostra ritardi, rilavorazioni e tensione. La direzione pensa inizialmente che serva semplicemente “più impegno”. Applicando il tema **modelli di delega**, scopre invece che il problema include responsabilità poco chiare, informazioni incomplete e incentivi non allineati. Vengono definite due opzioni, stimati costi e rischi e scelto un esperimento di 30 giorni con due indicatori.
+A una persona appena assunta viene affidato, senza una preparazione adeguata, un compito a contatto con i clienti con un reale impatto sui ricavi al livello "fallo e dimmi che cosa hai fatto", e commette un errore costoso che un più appropriato livello "facciamolo insieme" avrebbe intercettato. Confrontalo con un collaboratore esperto costretto a confrontarsi su ogni piccola decisione per un compito di routine che ha già svolto con successo decine di volte: questo fa perdere tempo e può cominciare a sembrare mancanza di fiducia. Adeguare il livello di delega sia alla rilevanza del compito sia all'esperienza reale della persona evita entrambi gli errori.
 
-### Domande sul caso
-1. Quale ipotesi iniziale richiede verifica?
-2. Quali dati mancano?
-3. Qual è il costo di non intervenire per 90 giorni?
-4. Quale alternativa è più reversibile?
-5. Quale risultato giustificherebbe continuare?
+## Quiz di esercitazione
 
-## Errori comuni
-- Agire prima di definire il risultato.
-- Trattare un’opinione come un fatto.
-- Ignorare costo opportunità e impatto sulla cassa.
-- Non chiarire chi decide e chi esegue.
-- Misurare attività invece di risultato.
-- Difendere una scelta per ego o per investimento passato.
+1. Nomina i tre livelli di delega descritti in questa lezione.
+2. Quali due fattori dovrebbero determinare quale livello è appropriato?
+3. Che cosa succede quando si applica troppa supervisione a una persona capace su un compito a basso rischio?
+4. Che cosa succede quando si applica troppo poca supervisione a qualcuno che ha bisogno di più sostegno?
 
-## Domande frequenti
-### Devo avere tutte le informazioni?
-No. Devi avere informazioni proporzionate al rischio e sapere quali incertezze restano.
-### Come valuto la qualità della scelta?
-Con criteri stabiliti prima: risultato, costo, rischio, tempo ed effetti collaterali.
-### Cambiare idea indebolisce il leader?
-No, se il cambiamento deriva da nuove evidenze o da un’ipotesi smentita.
-### Come coinvolgo il team?
-Chiarisci obiettivo e limiti, raccogli fatti e obiezioni, poi definisci responsabilità decisionali.
-### Dove entra il denaro?
-Nel costo del tempo, nelle risorse impegnate, nelle opportunità perse, nei rischi e nella capacità di finanziare l’esecuzione.
+## Soluzioni
+1. "Fallo e dimmelo", "fallo ma confrontati con me prima di chiudere" e "facciamolo insieme".
+2. La rilevanza/il livello di rischio del compito e l'esperienza reale della persona con quel tipo di compito.
+3. Fa perdere tempo a entrambi e può sembrare mancanza di fiducia.
+4. Può portare a errori costosi e a un'esperienza scoraggiante per qualcuno che non è stato messo nelle condizioni di riuscire.
 
-## Principali apprendimenti
-- La delega può andare dalla raccolta di informazioni alla piena decisione entro limiti concordati.
-- La diagnosi viene prima della soluzione.
-- Una decisione forte collega persone, numeri, rischio ed esecuzione.
-- Responsabile, scadenza e indicatore trasformano intenzione in responsabilità.
-- La revisione trasforma esperienza in competenza.
+## Risposte e spiegazioni
+1. Questi tre livelli rappresentano una gamma pratica di supervisione nella delega.
+2. Adeguare la supervisione sia al rischio del compito sia all'esperienza individuale è il principio centrale dello schema.
+3. Anche l'eccesso di supervisione ha costi reali, non solo la sua carenza, che è l'errore di cui si parla più spesso.
+4. Una supervisione insufficiente su un compito davvero difficile o rilevante comporta rischi propri e reali.
 
-## Esercizio pratico
-Scegli una situazione reale collegata a **modelli di delega**. In una pagina scrivi: risultato desiderato; cinque fatti; tre ipotesi; persone coinvolte; due alternative; costo stimato; rischio principale; decisione; responsabile; scadenza; indicatore; data di revisione.
-
-## Guida socratica per il Coach di apprendimento con IA
-Il Coach pone una domanda alla volta e chiede sempre la motivazione.
-1. Che cosa significa per te modelli di delega?
-2. Quale problema reale rende questo tema importante?
-3. Quali sono i fatti e quali le ipotesi?
-4. Chi subisce le conseguenze?
-5. Qual è il risultato desiderato?
-6. Quali due alternative concrete esistono?
-7. Quali costi e rischi comportano?
-8. Quale indicatore userai?
-9. Quale evidenza ti farebbe cambiare strada?
-10. Quale azione eseguirai entro 48 ore?
-
-## Valutazione di competenza — 10 domande
-1. **Scelta multipla:** Quale sequenza è più disciplinata? A) Agire e spiegare dopo. B) Obiettivo, fatti, alternative, decisione, misura, revisione. C) Attendere certezza assoluta. D) Delegare senza controllo.
-2. **Vero o falso:** Una decisione di leadership può avere effetti finanziari anche quando riguarda soprattutto persone.
-3. **Risposta breve:** Spiega perché **modelli di delega** conta per un leader.
-4. **Scenario:** Mancano dati ma il ritardo ha un costo. Come decidi quali informazioni raccogliere prima?
-5. **Scelta multipla:** Quale misura è migliore? A) Messaggi inviati. B) Ore lavorate. C) Indicatore legato al risultato. D) Numero di riunioni.
-6. **Vero o falso:** Continuare una scelta solo perché abbiamo già investito molto è sempre razionale.
-7. **Applicazione:** Descrivi un effetto del tema su costo, ricavo, cassa o produttività.
-8. **Scenario:** Due persone competenti propongono azioni opposte. Come procedi?
-9. **Risposta breve:** Qual è la differenza tra controllo dei risultati e microgestione?
-10. **Sintesi:** Quale azione concreta adotteresti domani?
-
-## Soluzioni commentate
-1. **B.** Verifica un processo completo, non la velocità. Errore comune: scegliere l’azione prima dei criteri.
-2. **Vero.** Verifica il collegamento tra comportamento, operazioni e risorse.
-3. La risposta deve collegare il tema a risultato, rischio, persone ed esecuzione; una definizione isolata non basta.
-4. Occorre distinguere dati essenziali da dati desiderabili, considerando rischio, reversibilità e costo dell’attesa.
-5. **C.** Un indicatore utile misura il risultato, non il semplice movimento.
-6. **Falso.** I costi passati non rendono automaticamente conveniente un investimento futuro.
-7. La risposta deve mostrare una relazione causale plausibile e, se possibile, quantificabile.
-8. Tornare a obiettivo e criteri, confrontare evidenze e rischi, ascoltare obiezioni e assegnare la decisione.
-9. Il controllo verifica risultati e limiti concordati; la microgestione controlla passaggi non necessari e riduce autonomia.
-10. La risposta deve essere specifica, eseguibile, temporizzata e verificabile.
-
-## Padronanza, recupero e sblocco
-- **Soglia:** 80%.
-- Con almeno 80%, lo studente può avanzare a **BLACK-L1-032**.
-- Sotto l’80%, il Coach identifica le competenze deboli, rimanda alle sezioni pertinenti, propone un nuovo scenario e verifica nuovamente prima dello sblocco.
-- Il recupero deve insegnare il ragionamento, non limitarsi a mostrare la risposta.
-
-## Letture e approfondimento
-Consultare fonti affidabili di leadership, comportamento organizzativo, finanza aziendale di base e processo decisionale. Verificare autore, data, prove, conflitti di interesse e applicabilità al proprio paese e settore.
-
-## Percorso della lezione
-- **Precedente:** BLACK-L1-030
-- **Attuale:** BLACK-L1-031
-- **Successiva:** BLACK-L1-032
-
-## Supporto IA
-Il Coach deve adattare domande e recupero agli errori dello studente, evitare di sostituirsi alla decisione e richiedere spiegazioni prima di fornire suggerimenti.
-
-## Localizzazione
-Contenuto scritto direttamente in italiano per un pubblico italiano. Esempi monetari, normativi o fiscali devono essere adattati e verificati prima dell’uso in contesti che dipendono dalla giurisdizione.
-
-## Riferimenti e verifica
-Questa lezione insegna principi generali di leadership. Eventuali dati, norme, aliquote o requisiti specifici devono essere verificati con fonti primarie aggiornate prima della pubblicazione o dell’applicazione.
+## Punti chiave
+- La delega dovrebbe variare su diversi livelli di supervisione, dalla piena autonomia alla collaborazione stretta.
+- Il livello giusto dipende sia dalla rilevanza del compito sia dall'esperienza reale della persona con quel tipo di lavoro.
+- Il livello di supervisione dovrebbe diminuire nel tempo man mano che una persona dimostra affidabilità, il che è di per sé un investimento nella sua crescita.

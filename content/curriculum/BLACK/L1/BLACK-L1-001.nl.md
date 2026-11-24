@@ -4,156 +4,55 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 1
-title: "1. Leiderschap versus management: twee verschillende vaardigheden"
-summary: "Deze les leert de student richting geven versus uitvoering organiseren. De kern bestaat uit visie, prioriteiten, planning, controle en de keuze wanneer je moet leiden of managen. Het doel is niet een slogan over leiderschap te onthouden, maar een situatie te kunnen ontleden, een verdedigbare keuze te maken, de economische en menselijke gevolgen te zien en achteraf te toetsen of de keuze werkte."
-locale: "nl"
+locale: nl
+title: "Leiderschap en management: twee verschillende vaardigheden"
+summary: "Maakt onderscheid tussen leiderschap en management en legt uit waarom beide ertoe doen maar verschillende problemen oplossen."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# 1. Leiderschap versus management: twee verschillende vaardigheden
 
-### BLACK-L1-001-MAIN
-## Samenvatting
-Deze les leert de student **richting geven versus uitvoering organiseren**. De kern bestaat uit visie, prioriteiten, planning, controle en de keuze wanneer je moet leiden of managen. Het doel is niet een slogan over leiderschap te onthouden, maar een situatie te kunnen ontleden, een verdedigbare keuze te maken, de economische en menselijke gevolgen te zien en achteraf te toetsen of de keuze werkte.
+# Leiderschap en management: twee verschillende vaardigheden
 
 ## Leerdoelen
-- **Financiële geletterdheid:** herkennen welke middelen, kosten, opbrengsten of risico’s door dit onderwerp worden geraakt.
-- **Financiële competentie:** een eenvoudige economische consequentie kunnen berekenen of beschrijven.
-- **Beter oordeel:** feiten, aannames, belangen en onzekerheden uit elkaar houden.
-- **Betere beslissingen:** een keuze koppelen aan eigenaar, termijn, maatstaf en herzieningsmoment.
-- **Vermogensopbouw:** begrijpen hoe herhaalbare goede leiding kapitaal, reputatie en toekomstige verdiencapaciteit beschermt.
+- Leiderschap en management definiëren als verschillende maar verwante vaardigheden
+- Uitleggen waarom een organisatie beide nodig heeft
+- Herkennen of een bepaalde situatie om leiderschap of om management vraagt
 
-## Vereiste voorkennis
-Geen formele managementopleiding vereist. Basisrekenen en bereidheid om aannames te toetsen zijn voldoende.
+## Kerninhoud
 
-## Hoofdles
-### 1. Het specifieke leiderschapsvraagstuk
-Bij **leiderschap versus management: twee verschillende vaardigheden** draait het om richting geven versus uitvoering organiseren. Een leider moet daarom expliciet kijken naar visie, prioriteiten, planning, controle en de keuze wanneer je moet leiden of managen. Een zwakke aanpak vertrouwt op intuïtie zonder criteria; een sterke aanpak maakt zichtbaar wat succes betekent en welke informatie nodig is.
+Mensen gebruiken "leider" en "manager" alsof het hetzelfde is. Dat is het niet. Management gaat over het organiseren van middelen – mensen, tijd, geld – om een bekende taak efficiënt uit te voeren. Leiderschap gaat over het bepalen van een richting en mensen inspireren om naar een doel toe te werken, vooral wanneer de weg nog niet duidelijk is.
 
-### 2. Diagnose
-Schrijf eerst het gewenste resultaat op. Noteer vervolgens wat aantoonbaar waar is, wat slechts wordt aangenomen, wie gevolgen ondervindt en welke beperkingen gelden. Zoek ten minste één gegeven dat jouw eerste verklaring zou kunnen tegenspreken. Zo voorkom je dat de oplossing wordt gekozen voordat het probleem goed is gedefinieerd.
+Een manager vraagt: "Hoe doen we dit goed?" Een leider vraagt: "Waarom doen we dit, en waar gaan we naartoe?" Beide vragen doen ertoe. Een team met uitstekend leiderschap maar zwak management heeft een inspirerende visie en geen uitvoering: deadlines schuiven op, middelen worden verspild. Een team met uitstekend management maar zonder leiderschap werkt efficiënt maar heeft geen duidelijke richting: iedereen is druk, maar druk waarmee eigenlijk?
 
-### 3. Economische dimensie
-[GEVERIFIEERD PRINCIPE] Leiderschapskeuzes gebruiken schaarse middelen: tijd, geld, aandacht en capaciteit. Breng daarom directe kosten, tijdskosten, gemiste alternatieven, mogelijke opbrengsten, kasimpact en neerwaarts risico in kaart. Bij deze les moet die analyse specifiek worden verbonden met **richting geven versus uitvoering organiseren**.
+De besten onder degenen die ergens verantwoordelijk voor zijn, leren beide: een duidelijk "waarom" en een richting bepalen (leiderschap) en ook de systemen bouwen die het "hoe" werkelijk mogelijk maken (management). Geen van beide vaardigheden vervangt de andere.
 
-### 4. Beslissen en uitvoeren
-Formuleer minimaal twee reële opties. Vergelijk ze op verwacht resultaat, totale middelen, risico, omkeerbaarheid en snelheid. Kies vervolgens één route en leg vast: wie eigenaar is, welke bevoegdheid die persoon heeft, welke deadline geldt en welk resultaat wordt gemeten.
+## Praktijkvoorbeeld
 
-### 5. Leren na uitvoering
-Bepaal vooraf een herzieningsdatum. Vergelijk dan verwachting met werkelijkheid. Een afwijking is informatie: bepaal of de aanname, uitvoering, capaciteit of maatstaf verkeerd was. Pas het systeem aan zodat dezelfde les niet telkens opnieuw hoeft te worden geleerd.
+Iemand wil een programma beginnen op de lokale publieke omroep. De leiderschapsstap is bepalen waar het programma over gaat en waarom het ertoe doet, en gasten en crew zo van het idee overtuigen dat ze ook echt komen opdagen. De managementstap is studiotijd boeken, het rooster van de cameraploeg afstemmen en de logistiek bevestigen.
 
-## Kernbegrippen
-- **Resultaatmaatstaf:** meetwaarde die aangeeft of de gewenste uitkomst werkelijk is bereikt.
-- **Aanname:** bewering die voor de beslissing relevant is maar nog niet voldoende is bewezen.
-- **Opportunity cost:** waarde van het beste alternatief dat wordt opgegeven.
-- **Omkeerbaarheid:** mate waarin een besluit zonder buitensporige schade kan worden teruggedraaid.
-- **Besliseigenaar:** persoon die bevoegd en aanspreekbaar is voor het uiteindelijke besluit.
+Als die persoon alleen leiderschap had (een geweldige visie, een enthousiasmerende pitch) maar geen management (niemand bevestigd, geen vast schema), komt het programma er nooit. Als die persoon alleen management had (een perfect geboekte studio en crew) maar geen leiderschap (geen overtuigende reden voor gasten om echt te komen en erin te geloven), komt het programma er evenmin. Beide waren nodig.
 
-### BLACK-L1-001-EXAMPLES
-## Uitgewerkt voorbeeld
-Een klein bedrijf staat voor een beslissing rond **leiderschap versus management: twee verschillende vaardigheden**. De leiding maakt eerst een nulmeting en ontdekt dat het probleem niet alleen gedrag betreft, maar ook tijd, capaciteit en geld. Twee opties worden naast elkaar gezet. Optie A vraagt minder geld maar meer interne uren; optie B kost meer, maar verkort de doorlooptijd. De leider kiest niet op voorkeur, maar op vooraf vastgelegde criteria en plant een evaluatie na dertig dagen.
+## Oefenquiz
 
-## Casus
-Een team van acht mensen mist gedurende zes weken zijn doel. [AANNAME] De eigenaar denkt aanvankelijk dat motivatie de oorzaak is. De gegevens laten echter zien dat verantwoordelijkheden onduidelijk zijn en dat werk regelmatig opnieuw moet worden gedaan. Vanuit **richting geven versus uitvoering organiseren** worden twee interventies ontworpen. De gekozen interventie krijgt een eigenaar, budgetlimiet en twee meetpunten: foutpercentage en doorlooptijd. Na dertig dagen wordt beslist of de aanpak wordt voortgezet, aangepast of gestopt.
+1. Welke vraag stelt een manager doorgaans?
+2. Welke vraag stelt een leider doorgaans?
+3. Kan een team slagen met maar één van de twee vaardigheden? Waarom wel of niet?
+4. Wat was in het praktijkvoorbeeld de leiderschapstaak en wat de managementtaak?
 
-### Beslisvraag
-Wat zou jij beslissen vóórdat je de uitkomst kent? Noem de twee belangrijkste feiten die je nodig hebt, één aanname die je wilt testen en één grens waarbij je van koers verandert.
+## Antwoordsleutel
+1. "Hoe doen we dit goed?"
+2. "Waarom doen we dit, en waar gaan we naartoe?"
+3. Meestal niet: zonder richting werkt management efficiënt naar niets toe; zonder uitvoeringssystemen wordt de visie van het leiderschap nooit werkelijkheid.
+4. Leiderschap: het doel van het programma bepalen en mensen ervan overtuigen. Management: studio, crew en logistiek regelen.
 
-## Veelgemaakte fouten
-- Het gewenste resultaat niet vooraf definiëren.
-- Een mening behandelen alsof die bewezen is.
-- Alleen naar directe kosten kijken en tijd of gemiste kansen negeren.
-- Verantwoordelijkheid geven zonder voldoende bevoegdheid.
-- Activiteit meten in plaats van resultaat.
-- Een eerdere keuze verdedigen omdat ego of reeds besteed geld meespeelt.
+## Antwoorden en uitleg
+1. Management richt zich op de efficiënte uitvoering van een bekende taak.
+2. Leiderschap richt zich op richting en motivatie, vooral bij onzekerheid.
+3. De les stelt dat beide nodig zijn: het een zonder het ander laat een cruciaal gat.
+4. Dit voorbeeld laat zien hoe beide vaardigheden naast elkaar werken binnen hetzelfde project.
 
-## Veelgestelde vragen
-**Moet ik wachten op volledige zekerheid?** Nee. Verzamel informatie in verhouding tot risico en omkeerbaarheid.
-
-**Wanneer is een snelle beslissing verantwoord?** Wanneer de kosten van wachten hoog zijn, het neerwaartse risico begrensd is en een snelle correctie mogelijk blijft.
-
-**Hoe voorkom ik micromanagement?** Spreek resultaat, grenzen en controlemomenten af; schrijf niet ieder tussenstapje voor.
-
-**Waarom hoort geld bij leiderschap?** Omdat vrijwel iedere keuze mensenuren, capaciteit, kasmiddelen of toekomstige opbrengsten beïnvloedt.
-
-## Belangrijkste inzichten
-- Richting geven versus uitvoering organiseren vraagt om expliciete criteria.
-- Goede leiding koppelt gedrag aan operationele én economische gevolgen.
-- Feiten en aannames moeten zichtbaar van elkaar worden gescheiden.
-- Een besluit zonder eigenaar, deadline en maatstaf is slechts een intentie.
-- Herziening maakt van ervaring een herhaalbare competentie.
-
-### BLACK-L1-001-EXERCISE
-## Praktische oefening
-Kies een echte situatie waarin **leiderschap versus management: twee verschillende vaardigheden** relevant is. Maak één beslisblad met: gewenst resultaat; vijf feiten; drie aannames; betrokken personen; twee alternatieven; geschatte geld- en tijdskosten; grootste risico; gekozen actie; besliseigenaar; deadline; één leidende en één achterlopende indicator; herzieningsdatum.
-
-### BLACK-L1-001-AI
-## Socratische leergids
-1. Wat betekent **richting geven versus uitvoering organiseren** in jouw eigen woorden?
-2. Welk concreet probleem probeer je ermee op te lossen?
-3. Welke drie feiten zijn bewezen?
-4. Welke aanname heeft het grootste risico?
-5. Wie draagt de gevolgen van jouw keuze?
-6. Welke twee echte alternatieven bestaan er?
-7. Wat kosten die alternatieven in geld, tijd en capaciteit?
-8. Welke maatstaf toont resultaat in plaats van activiteit?
-9. Welke nieuwe informatie zou jou van koers doen veranderen?
-10. Welke concrete actie kun je binnen 48 uur uitvoeren?
-
-### BLACK-L1-001-ASSESSMENT
-## Competentietoets — 10 vragen
-1. **Meerkeuze:** Welke volgorde is het sterkst? A) Handelen, verdedigen, meten. B) Resultaat, feiten, opties, besluit, maatstaf, herziening. C) Wachten op zekerheid. D) Alles delegeren.
-2. **Waar/onwaar:** Een personeelsbesluit kan financiële gevolgen hebben zonder dat er direct een factuur ontstaat.
-3. **Kort antwoord:** Leg uit waarom **richting geven versus uitvoering organiseren** voor een leider belangrijk is.
-4. **Scenario:** Je mist gegevens en uitstel kost geld. Welke informatie verzamel je eerst en waarom?
-5. **Meerkeuze:** Welke is meestal de beste maatstaf? A) Aantal e-mails. B) Aantal vergaderingen. C) Een indicator gekoppeld aan de gewenste uitkomst. D) Gewerkte uren.
-6. **Waar/onwaar:** Reeds gemaakte kosten zijn op zichzelf een geldige reden om extra middelen te blijven investeren.
-7. **Toepassing:** Beschrijf één financieel of operationeel gevolg van een slechte beslissing over dit onderwerp.
-8. **Scenario:** Twee deskundige medewerkers adviseren tegengestelde routes. Hoe beslis je?
-9. **Kort antwoord:** Wat is het verschil tussen resultaatcontrole en micromanagement?
-10. **Synthese:** Formuleer één actie voor morgen met eigenaar, deadline en maatstaf.
-
-### BLACK-L1-001-ANSWER-KEY
-## Antwoorden en toelichting
-1. **B.** Toetst een volledig besluitvormingsproces. Misvatting: snelheid is hetzelfde als kwaliteit.
-2. **Waar.** Tijd, productiviteit, fouten, verloop en kansen hebben economische waarde.
-3. Een goed antwoord verbindt richting geven versus uitvoering organiseren met resultaat, risico, mensen en uitvoering.
-4. Verzamel eerst gegevens die de keuze kunnen veranderen; weeg informatiewaarde af tegen de kosten van wachten.
-5. **C.** Een resultaatindicator meet effect; activiteit is niet automatisch vooruitgang.
-6. **Onwaar.** Toekomstige inzet moet worden beoordeeld op toekomstige kosten en baten.
-7. Het antwoord moet een geloofwaardige oorzaak-gevolgrelatie noemen en waar mogelijk kwantificeren.
-8. Keer terug naar doel en criteria, vergelijk bewijs en risico, hoor bezwaren en laat de bevoegde besliseigenaar kiezen.
-9. Resultaatcontrole bewaakt afgesproken uitkomsten en grenzen; micromanagement schrijft onnodig de werkwijze voor.
-10. Het antwoord moet specifiek, uitvoerbaar, tijdgebonden en meetbaar zijn.
-
-### BLACK-L1-001-COMPETENCY
-## Beheersingsnorm en herstel
-- **Beheersingsdrempel: 8/10 (80%).**
-- Bij 80% of hoger wordt **BLACK-L1-002** vrijgegeven.
-- Onder 80% identificeert de leercoach de zwakke competentie, verwijst naar de relevante paragraaf, geeft een nieuw scenario en toetst opnieuw.
-- Herstel legt het denkproces uit en geeft niet uitsluitend het juiste antwoord.
-
-## Verdere verdieping
-Gebruik betrouwbare bronnen over leiderschap, organisatiegedrag, elementaire bedrijfsfinanciën en besluitvorming. Controleer auteur, datum, bewijs, belangenconflicten en toepasbaarheid op de eigen sector en jurisdictie.
-
-## Lespad
-- Vorige: Geen
-- Huidige: BLACK-L1-001
-- Volgende: BLACK-L1-002
-
-### BLACK-L1-001-SEO
-## Vindbaarheid
-- Kernwoorden: leiderschap, leiderschap versus management: twee verschillende vaardigheden, besluitvorming, management, financiële intelligentie
-- Metabeschrijving: Praktische basisles over leiderschap versus management: twee verschillende vaardigheden met casus, oefening, toets en toepasbare besluitvorming.
-
-## Ondersteuning door de leercoach
-De leercoach stelt eerst vragen, vraagt de student zijn redenering uit te leggen en past herstel aan de gemaakte fout aan. Bij juridische, fiscale, beleggings- of andere gereguleerde onderwerpen geeft de coach algemene educatie en geen persoonlijk professioneel advies.
-
-### BLACK-L1-001-LOCALIZATION
-## Lokalisatie
-Deze les is rechtstreeks in het Nederlands geschreven voor Nederlandstalige studenten. Jurisdictieafhankelijke bedragen, belastingen, arbeidsregels en wettelijke verplichtingen moeten vóór publicatie voor het toepasselijke land worden geverifieerd.
-
-### BLACK-L1-001-REFERENCES
-## Bronnen en verificatie
-De les behandelt algemene leiderschaps- en besluitvormingsprincipes. Concrete wettelijke regels, actuele statistieken, percentages of sectorspecifieke normen worden alleen als geverifieerd feit gebruikt nadat een actuele primaire of gezaghebbende bron is gecontroleerd. Hypothetische casussen en bedragen zijn illustratief en worden niet als geverifieerde werkelijkheid gepresenteerd.
+## Belangrijkste punten
+- Management organiseert middelen om een bekende taak efficiënt uit te voeren.
+- Leiderschap bepaalt de richting en inspireert mensen om naar een doel toe te werken.
+- Sterke organisaties, en sterke mensen, hebben beide vaardigheden nodig die samenwerken.

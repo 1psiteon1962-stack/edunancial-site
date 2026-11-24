@@ -4,156 +4,53 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 17
-title: "17. Bijsturen wanneer het oorspronkelijke plan instort"
-summary: "Deze les leert de student doel behouden terwijl aanpak verandert. De kern bestaat uit faalsignalen, hypothesen, experimenten, stopcriteria, klantfeedback en herallocatie van middelen. Het doel is niet een slogan over leiderschap te onthouden, maar een situatie te kunnen ontleden, een verdedigbare keuze te maken, de economische en menselijke gevolgen te zien en achteraf te toetsen of de keuze werkte."
-locale: "nl"
+locale: nl
+title: "Bijsturen wanneer het oorspronkelijke plan instort"
+summary: "Gebruikt een echte casus om te leren hoe leiders een aanpak opnieuw ontwerpen wanneer het oorspronkelijke plan volledig mislukt."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# 17. Bijsturen wanneer het oorspronkelijke plan instort
 
-### BLACK-L1-017-MAIN
-## Samenvatting
-Deze les leert de student **doel behouden terwijl aanpak verandert**. De kern bestaat uit faalsignalen, hypothesen, experimenten, stopcriteria, klantfeedback en herallocatie van middelen. Het doel is niet een slogan over leiderschap te onthouden, maar een situatie te kunnen ontleden, een verdedigbare keuze te maken, de economische en menselijke gevolgen te zien en achteraf te toetsen of de keuze werkte.
+# Bijsturen wanneer het oorspronkelijke plan instort
 
 ## Leerdoelen
-- **Financiële geletterdheid:** herkennen welke middelen, kosten, opbrengsten of risico’s door dit onderwerp worden geraakt.
-- **Financiële competentie:** een eenvoudige economische consequentie kunnen berekenen of beschrijven.
-- **Beter oordeel:** feiten, aannames, belangen en onzekerheden uit elkaar houden.
-- **Betere beslissingen:** een keuze koppelen aan eigenaar, termijn, maatstaf en herzieningsmoment.
-- **Vermogensopbouw:** begrijpen hoe herhaalbare goede leiding kapitaal, reputatie en toekomstige verdiencapaciteit beschermt.
+- Het verschil uitleggen tussen het mislukken van een plan en het mislukken van een doel
+- Herkennen welke middelen opnieuw kunnen worden ingezet wanneer een plan instort
+- Het principe van bijsturen toepassen op een nieuw hypothetisch scenario
 
-## Vereiste voorkennis
-Geen formele managementopleiding vereist. Basisrekenen en bereidheid om aannames te toetsen zijn voldoende.
+## Kerninhoud
 
-## Hoofdles
-### 1. Het specifieke leiderschapsvraagstuk
-Bij **bijsturen wanneer het oorspronkelijke plan instort** draait het om doel behouden terwijl aanpak verandert. Een leider moet daarom expliciet kijken naar faalsignalen, hypothesen, experimenten, stopcriteria, klantfeedback en herallocatie van middelen. Een zwakke aanpak vertrouwt op intuïtie zonder criteria; een sterke aanpak maakt zichtbaar wat succes betekent en welke informatie nodig is.
+Wanneer een volledig voorbereid plan helemaal instort, kan de neiging zijn om de hele inspanning als mislukt te beschouwen en ermee te stoppen. Een nuttiger leiderschapsinstinct is de vraag: is het onderliggende doel mislukt, of alleen deze specifieke methode? Heel vaak kunnen de middelen, de inspanning en de infrastructuur die al zijn opgebouwd, worden omgebogen naar een andere methode die nog steeds hetzelfde onderliggende doel dient.
 
-### 2. Diagnose
-Schrijf eerst het gewenste resultaat op. Noteer vervolgens wat aantoonbaar waar is, wat slechts wordt aangenomen, wie gevolgen ondervindt en welke beperkingen gelden. Zoek ten minste één gegeven dat jouw eerste verklaring zou kunnen tegenspreken. Zo voorkom je dat de oplossing wordt gekozen voordat het probleem goed is gedefinieerd.
+Dat vraagt om een eerlijke inschatting van wat er na de instorting werkelijk nog beschikbaar is – welke bezittingen, relaties of capaciteiten nog bruikbaar zijn – en de bereidheid om daaromheen opnieuw te plannen, in plaats van aan te nemen dat alles weer bij nul moet beginnen. Een leider die deze omslag snel kan maken, zonder overdreven lang te rouwen om het oorspronkelijke plan, behoudt een momentum dat een tragere, meer weerstrevende leider zou verliezen.
 
-### 3. Economische dimensie
-[GEVERIFIEERD PRINCIPE] Leiderschapskeuzes gebruiken schaarse middelen: tijd, geld, aandacht en capaciteit. Breng daarom directe kosten, tijdskosten, gemiste alternatieven, mogelijke opbrengsten, kasimpact en neerwaarts risico in kaart. Bij deze les moet die analyse specifiek worden verbonden met **doel behouden terwijl aanpak verandert**.
+## Praktijkvoorbeeld
 
-### 4. Beslissen en uitvoeren
-Formuleer minimaal twee reële opties. Vergelijk ze op verwacht resultaat, totale middelen, risico, omkeerbaarheid en snelheid. Kies vervolgens één route en leg vast: wie eigenaar is, welke bevoegdheid die persoon heeft, welke deadline geldt en welk resultaat wordt gemeten.
+Iemand had een complete studio met cameraploeg opgezet voor een politiek interviewprogramma, waarna elke vastgelegde gast op het laatste moment afhaakte. Het oorspronkelijke plan (een politiek interviewprogramma) was dood. Maar de studio, de crew en de onderliggende ambitie om iets waardevols op te bouwen, waren nog springlevend.
 
-### 5. Leren na uitvoering
-Bepaal vooraf een herzieningsdatum. Vergelijk dan verwachting met werkelijkheid. Een afwijking is informatie: bepaal of de aanname, uitvoering, capaciteit of maatstaf verkeerd was. Pas het systeem aan zodat dezelfde les niet telkens opnieuw hoeft te worden geleerd.
+In plaats van de inspanning op te geven, stuurde die persoon bij naar een tweetalig muziekvideoprogramma, een format dat niet op dezelfde manier afhing van onbetrouwbare toezeggingen van gasten als een interviewprogramma. De bijsturing werkte omdat het doel (met deze studio en crew iets waardevols opbouwen) werd losgemaakt van de specifieke methode (een politiek interviewprogramma) die was mislukt.
 
-## Kernbegrippen
-- **Resultaatmaatstaf:** meetwaarde die aangeeft of de gewenste uitkomst werkelijk is bereikt.
-- **Aanname:** bewering die voor de beslissing relevant is maar nog niet voldoende is bewezen.
-- **Opportunity cost:** waarde van het beste alternatief dat wordt opgegeven.
-- **Omkeerbaarheid:** mate waarin een besluit zonder buitensporige schade kan worden teruggedraaid.
-- **Besliseigenaar:** persoon die bevoegd en aanspreekbaar is voor het uiteindelijke besluit.
+## Oefenquiz
 
-### BLACK-L1-017-EXAMPLES
-## Uitgewerkt voorbeeld
-Een klein bedrijf staat voor een beslissing rond **bijsturen wanneer het oorspronkelijke plan instort**. De leiding maakt eerst een nulmeting en ontdekt dat het probleem niet alleen gedrag betreft, maar ook tijd, capaciteit en geld. Twee opties worden naast elkaar gezet. Optie A vraagt minder geld maar meer interne uren; optie B kost meer, maar verkort de doorlooptijd. De leider kiest niet op voorkeur, maar op vooraf vastgelegde criteria en plant een evaluatie na dertig dagen.
+1. Welke vraag moet een leider stellen wanneer een plan instort?
+2. Wat moet een leider na het mislukken van een plan eerlijk inschatten?
+3. Waarom is het belangrijk om snel opnieuw te plannen?
+4. Wat bleef er in het praktijkvoorbeeld concreet over na het instorten van het oorspronkelijke plan?
 
-## Casus
-Een team van acht mensen mist gedurende zes weken zijn doel. [AANNAME] De eigenaar denkt aanvankelijk dat motivatie de oorzaak is. De gegevens laten echter zien dat verantwoordelijkheden onduidelijk zijn en dat werk regelmatig opnieuw moet worden gedaan. Vanuit **doel behouden terwijl aanpak verandert** worden twee interventies ontworpen. De gekozen interventie krijgt een eigenaar, budgetlimiet en twee meetpunten: foutpercentage en doorlooptijd. Na dertig dagen wordt beslist of de aanpak wordt voortgezet, aangepast of gestopt.
+## Antwoordsleutel
+1. Is het onderliggende doel mislukt, of alleen deze specifieke methode?
+2. Welke bezittingen, relaties of capaciteiten na de instorting nog bruikbaar zijn.
+3. Omdat een trage, weerstrevende reactie momentum verliest dat een snelle bijsturing behoudt.
+4. De studio, de cameraploeg en de onderliggende ambitie om iets waardevols op te bouwen.
 
-### Beslisvraag
-Wat zou jij beslissen vóórdat je de uitkomst kent? Noem de twee belangrijkste feiten die je nodig hebt, één aanname die je wilt testen en één grens waarbij je van koers verandert.
+## Antwoorden en uitleg
+1. Deze vraag is het centrale instrument om een ingestort plan constructief te herduiden.
+2. Een eerlijke inschatting van de resterende middelen is de praktische eerste stap naar bijsturen.
+3. Momentum is een echte, eindige hulpbron die een traag herstelproces verspilt.
+4. Dit laat de concrete middelen zien die de overstap naar een nieuw format mogelijk maakten.
 
-## Veelgemaakte fouten
-- Het gewenste resultaat niet vooraf definiëren.
-- Een mening behandelen alsof die bewezen is.
-- Alleen naar directe kosten kijken en tijd of gemiste kansen negeren.
-- Verantwoordelijkheid geven zonder voldoende bevoegdheid.
-- Activiteit meten in plaats van resultaat.
-- Een eerdere keuze verdedigen omdat ego of reeds besteed geld meespeelt.
-
-## Veelgestelde vragen
-**Moet ik wachten op volledige zekerheid?** Nee. Verzamel informatie in verhouding tot risico en omkeerbaarheid.
-
-**Wanneer is een snelle beslissing verantwoord?** Wanneer de kosten van wachten hoog zijn, het neerwaartse risico begrensd is en een snelle correctie mogelijk blijft.
-
-**Hoe voorkom ik micromanagement?** Spreek resultaat, grenzen en controlemomenten af; schrijf niet ieder tussenstapje voor.
-
-**Waarom hoort geld bij leiderschap?** Omdat vrijwel iedere keuze mensenuren, capaciteit, kasmiddelen of toekomstige opbrengsten beïnvloedt.
-
-## Belangrijkste inzichten
-- Doel behouden terwijl aanpak verandert vraagt om expliciete criteria.
-- Goede leiding koppelt gedrag aan operationele én economische gevolgen.
-- Feiten en aannames moeten zichtbaar van elkaar worden gescheiden.
-- Een besluit zonder eigenaar, deadline en maatstaf is slechts een intentie.
-- Herziening maakt van ervaring een herhaalbare competentie.
-
-### BLACK-L1-017-EXERCISE
-## Praktische oefening
-Kies een echte situatie waarin **bijsturen wanneer het oorspronkelijke plan instort** relevant is. Maak één beslisblad met: gewenst resultaat; vijf feiten; drie aannames; betrokken personen; twee alternatieven; geschatte geld- en tijdskosten; grootste risico; gekozen actie; besliseigenaar; deadline; één leidende en één achterlopende indicator; herzieningsdatum.
-
-### BLACK-L1-017-AI
-## Socratische leergids
-1. Wat betekent **doel behouden terwijl aanpak verandert** in jouw eigen woorden?
-2. Welk concreet probleem probeer je ermee op te lossen?
-3. Welke drie feiten zijn bewezen?
-4. Welke aanname heeft het grootste risico?
-5. Wie draagt de gevolgen van jouw keuze?
-6. Welke twee echte alternatieven bestaan er?
-7. Wat kosten die alternatieven in geld, tijd en capaciteit?
-8. Welke maatstaf toont resultaat in plaats van activiteit?
-9. Welke nieuwe informatie zou jou van koers doen veranderen?
-10. Welke concrete actie kun je binnen 48 uur uitvoeren?
-
-### BLACK-L1-017-ASSESSMENT
-## Competentietoets — 10 vragen
-1. **Meerkeuze:** Welke volgorde is het sterkst? A) Handelen, verdedigen, meten. B) Resultaat, feiten, opties, besluit, maatstaf, herziening. C) Wachten op zekerheid. D) Alles delegeren.
-2. **Waar/onwaar:** Een personeelsbesluit kan financiële gevolgen hebben zonder dat er direct een factuur ontstaat.
-3. **Kort antwoord:** Leg uit waarom **doel behouden terwijl aanpak verandert** voor een leider belangrijk is.
-4. **Scenario:** Je mist gegevens en uitstel kost geld. Welke informatie verzamel je eerst en waarom?
-5. **Meerkeuze:** Welke is meestal de beste maatstaf? A) Aantal e-mails. B) Aantal vergaderingen. C) Een indicator gekoppeld aan de gewenste uitkomst. D) Gewerkte uren.
-6. **Waar/onwaar:** Reeds gemaakte kosten zijn op zichzelf een geldige reden om extra middelen te blijven investeren.
-7. **Toepassing:** Beschrijf één financieel of operationeel gevolg van een slechte beslissing over dit onderwerp.
-8. **Scenario:** Twee deskundige medewerkers adviseren tegengestelde routes. Hoe beslis je?
-9. **Kort antwoord:** Wat is het verschil tussen resultaatcontrole en micromanagement?
-10. **Synthese:** Formuleer één actie voor morgen met eigenaar, deadline en maatstaf.
-
-### BLACK-L1-017-ANSWER-KEY
-## Antwoorden en toelichting
-1. **B.** Toetst een volledig besluitvormingsproces. Misvatting: snelheid is hetzelfde als kwaliteit.
-2. **Waar.** Tijd, productiviteit, fouten, verloop en kansen hebben economische waarde.
-3. Een goed antwoord verbindt doel behouden terwijl aanpak verandert met resultaat, risico, mensen en uitvoering.
-4. Verzamel eerst gegevens die de keuze kunnen veranderen; weeg informatiewaarde af tegen de kosten van wachten.
-5. **C.** Een resultaatindicator meet effect; activiteit is niet automatisch vooruitgang.
-6. **Onwaar.** Toekomstige inzet moet worden beoordeeld op toekomstige kosten en baten.
-7. Het antwoord moet een geloofwaardige oorzaak-gevolgrelatie noemen en waar mogelijk kwantificeren.
-8. Keer terug naar doel en criteria, vergelijk bewijs en risico, hoor bezwaren en laat de bevoegde besliseigenaar kiezen.
-9. Resultaatcontrole bewaakt afgesproken uitkomsten en grenzen; micromanagement schrijft onnodig de werkwijze voor.
-10. Het antwoord moet specifiek, uitvoerbaar, tijdgebonden en meetbaar zijn.
-
-### BLACK-L1-017-COMPETENCY
-## Beheersingsnorm en herstel
-- **Beheersingsdrempel: 8/10 (80%).**
-- Bij 80% of hoger wordt **BLACK-L1-018** vrijgegeven.
-- Onder 80% identificeert de leercoach de zwakke competentie, verwijst naar de relevante paragraaf, geeft een nieuw scenario en toetst opnieuw.
-- Herstel legt het denkproces uit en geeft niet uitsluitend het juiste antwoord.
-
-## Verdere verdieping
-Gebruik betrouwbare bronnen over leiderschap, organisatiegedrag, elementaire bedrijfsfinanciën en besluitvorming. Controleer auteur, datum, bewijs, belangenconflicten en toepasbaarheid op de eigen sector en jurisdictie.
-
-## Lespad
-- Vorige: BLACK-L1-016
-- Huidige: BLACK-L1-017
-- Volgende: BLACK-L1-018
-
-### BLACK-L1-017-SEO
-## Vindbaarheid
-- Kernwoorden: leiderschap, bijsturen wanneer het oorspronkelijke plan instort, besluitvorming, management, financiële intelligentie
-- Metabeschrijving: Praktische basisles over bijsturen wanneer het oorspronkelijke plan instort met casus, oefening, toets en toepasbare besluitvorming.
-
-## Ondersteuning door de leercoach
-De leercoach stelt eerst vragen, vraagt de student zijn redenering uit te leggen en past herstel aan de gemaakte fout aan. Bij juridische, fiscale, beleggings- of andere gereguleerde onderwerpen geeft de coach algemene educatie en geen persoonlijk professioneel advies.
-
-### BLACK-L1-017-LOCALIZATION
-## Lokalisatie
-Deze les is rechtstreeks in het Nederlands geschreven voor Nederlandstalige studenten. Jurisdictieafhankelijke bedragen, belastingen, arbeidsregels en wettelijke verplichtingen moeten vóór publicatie voor het toepasselijke land worden geverifieerd.
-
-### BLACK-L1-017-REFERENCES
-## Bronnen en verificatie
-De les behandelt algemene leiderschaps- en besluitvormingsprincipes. Concrete wettelijke regels, actuele statistieken, percentages of sectorspecifieke normen worden alleen als geverifieerd feit gebruikt nadat een actuele primaire of gezaghebbende bron is gecontroleerd. Hypothetische casussen en bedragen zijn illustratief en worden niet als geverifieerde werkelijkheid gepresenteerd.
+## Belangrijkste punten
+- Wanneer een plan instort, vraag je dan af of het doel is mislukt of alleen de specifieke methode.
+- Schat eerlijk in welke middelen en capaciteiten nog bruikbaar zijn, en plan daaromheen opnieuw.
+- Snel bijsturen behoudt momentum dat een tragere reactie zou verliezen.
