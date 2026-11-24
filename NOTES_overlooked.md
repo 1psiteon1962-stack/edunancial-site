@@ -88,3 +88,4 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - PURPLE L1 fr-CA/fr-FR retranslated 001-050 → PR 1645 (2026-11-23). French L1 now done for BLUE/WHITE/PURPLE/GREEN.
 - 2026-11-23: GOLD L1 fr-CA 002-050 + fr-FR 001-050 faithful; PR 1646 (114192a). PURPLE PR 1645 merged c0b8f37.
 - 2026-11-23: GOLD fr PR 1646 merged 21c4bfb. Batch A (BLACK fr-FR+de, GOLD/PURPLE en-GB) PR 1647. Batching PRs now to save Netlify credits (15/deploy).
+- 2026-11-23: GOLD L1 de/it-IT/nl/pt-BR/pt-PT placed via PR 1649 (merged fffdff8, smoke pass). PURPLE L1 de 50/50 written (work/PURPLE-L1-de), not yet placed. Next: PURPLE it, nl, pt-BR, pt-PT.
