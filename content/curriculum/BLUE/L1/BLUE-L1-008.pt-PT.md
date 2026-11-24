@@ -5,45 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 8
 locale: pt-PT
-title: "Subchapter C versus Subchapter S: o que muda realmente?"
-summary: "Aprenda o conceito central desta lição e aplique-o a decisões empresariais práticas."
+title: "Subchapter C ou Subchapter S: o que muda realmente?"
+summary: "Aprenda a diferença central de tratamento fiscal entre uma C corporation e uma S corporation."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Subchapter C versus Subchapter S: o que muda realmente?
+# Subchapter C ou Subchapter S: o que muda realmente?
 
 ## Objetivos de aprendizagem
-- Definir o conceito em termos empresariais claros.
-- Explicar por que é importante para uma empresa.
-- Aplicar o conceito a uma situação prática.
+
+No final desta lição, deverá ser capaz de:
+
+- explicar a que se referem "C corp" e "S corp".
+- explicar a diferença fiscal central entre ambas.
+- reconhecer que o estatuto de S corp tem limites reais de elegibilidade.
 
 ## Conteúdo principal
-Esta lição desenvolve literacia empresarial ligando estrutura, finanças, risco, clientes e crescimento. O objetivo não é apenas memorizar uma definição, mas compreender como o conceito influencia decisões reais.
+
+### A mesma estrutura jurídica, tratamento fiscal diferente
+
+*(REGRA ESPECÍFICA DA REGIÃO: isto descreve a legislação fiscal federal dos EUA. Em Portugal, as sociedades pagam IRC sobre os lucros e os sócios são tributados em IRS quando recebem dividendos, embora existam regimes especiais, como a transparência fiscal em certos casos; confirme com um contabilista.)* Ambos os termos se referem à mesma estrutura de corporation da lição anterior: a diferença está em que secção do código fiscal federal se aplica à forma como a corporation é tributada.
+
+### A diferença central: quem paga, e quando
+
+Uma C corporation paga geralmente imposto sobre o rendimento ao nível da empresa sobre os seus lucros; se depois distribuir dividendos aos acionistas, estes pagam geralmente imposto outra vez sobre esse rendimento, o que por vezes se chama "dupla tributação". Uma S corporation transfere geralmente o lucro diretamente para as declarações de rendimentos pessoais dos acionistas, evitando essa camada de imposto ao nível da empresa.
+
+### Pergunte a si próprio
+
+Se o estatuto de S corp evita a dupla tributação, porque é que nem todas as corporations optam simplesmente por ele? Porque o estatuto de S corp tem limites reais de elegibilidade (restrições quanto ao número e ao tipo de acionistas, entre outros requisitos) que nem todas as corporations cumprem ou desejam.
 
 ## Exemplo prático
-Considere uma pequena empresa que precisa de decidir como organizar o trabalho, controlar custos e proteger a sua capacidade de continuar a operar. Aplique o conceito desta lição para identificar uma vantagem, um risco e a informação adicional necessária antes de tomar uma decisão.
 
-## Exercício
-Escolha uma empresa que conheça. Explique em poucas frases como este conceito aparece na atividade diária e que decisão poderia ser melhorada ao compreendê-lo.
+Imagine duas corporations idênticas com o mesmo lucro. Uma opta pelo tratamento de C corp; a outra, pelo de S corp. Pergunte a si próprio: se ambas distribuírem todo o lucro aos acionistas, onde é que o imposto é pago de forma diferente? Na C corp, o imposto é geralmente pago ao nível da empresa e novamente ao nível do acionista. Na S corp, é geralmente pago uma só vez, transferido diretamente para as declarações pessoais dos acionistas.
 
-## Questionário
-1. Qual é o objetivo principal deste conceito? A. Apenas terminologia B. Apoiar melhores decisões empresariais C. Servir apenas grandes empresas D. Eliminar todo o risco
-2. Verdadeiro ou falso: os conceitos empresariais devem frequentemente ser analisados em conjunto com outros dados.
-3. Qual é a melhor utilização do conhecimento? A. Memorizar sem aplicar B. Usá-lo para avaliar uma decisão real C. Ignorar o contexto D. Assumir que todas as empresas são iguais
+## Teste de prática
 
-## Respostas
+1. A que se referem "C corp" e "S corp"?
+   A. A duas estruturas jurídicas empresariais totalmente diferentes
+   B. À mesma estrutura de corporation, tributada segundo secções diferentes do código fiscal
+   C. Apenas à dimensão da empresa
+   D. A uma distinção que só importa para entidades sem fins lucrativos
+
+2. Verdadeiro ou falso: uma C corporation evita a dupla tributação, enquanto uma S corporation não.
+
+3. Porque é que nem todas as corporations optam simplesmente pelo estatuto de S corp?
+   A. O estatuto de S corp é ilegal na maioria dos estados
+   B. O estatuto de S corp tem limites reais de elegibilidade que nem todas as corporations cumprem
+   C. As S corps são sempre mais tributadas
+   D. O estatuto de S corp não existe
+
+## Chave de Respostas
+
 1. B
-2. Verdadeiro
+2. Falso
 3. B
 
-## Explicação das respostas
-1. B — a literacia empresarial deve melhorar a capacidade de decisão.
-2. Verdadeiro — estrutura, dinheiro, risco e operações estão interligados.
-3. B — o conhecimento transforma-se em competência quando é aplicado.
+## Respostas e explicações
 
-## Pontos principais
-- Compreenda o conceito e não apenas o nome.
-- Relacione-o com custos, risco, capacidade e controlo.
-- Verifique regras específicas do país ou setor quando forem relevantes.
+### Pergunta 1
+
+Resposta correta: B. Ambos se referem à mesma estrutura, tributada de forma diferente segundo o código fiscal.
+
+### Pergunta 2
+
+Resposta correta: Falso. É o inverso: as C corps enfrentam geralmente uma possível dupla tributação; as S corps geralmente evitam-na.
+
+### Pergunta 3
+
+Resposta correta: B. Requisitos reais de elegibilidade limitam quem pode optar pelo estatuto de S corp.
+
+## Pontos-chave
+
+- C corp e S corp referem-se à mesma estrutura, tributada de forma diferente.
+- As C corps enfrentam geralmente uma possível dupla tributação; as S corps transferem geralmente o lucro uma só vez.
+- O estatuto de S corp tem limites reais de elegibilidade e não está disponível para todas as corporations.

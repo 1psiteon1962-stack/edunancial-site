@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 2
 locale: it
-title: "Ricavi vs. Profitto — La Differenza Fondamentale"
-summary: "I ricavi sono l'importo totale di denaro che un'azienda incassa dalle sue vendite, prima di dedurre qualsiasi costo."
+title: "Ogni impresa vende una di due cose: prodotto, servizio o entrambi"
+summary: "Scopri la lente prodotto/servizio per capire qualsiasi impresa, e perché la maggior parte è in realtà un mix."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-002: Ricavi vs. Profitto — La Differenza Fondamentale
+# Ogni impresa vende una di due cose: prodotto, servizio o entrambi
 
-## Obiettivi di Apprendimento
-1. Definire separatamente ricavi e profitto.
-2. Spiegare perché ricavi elevati non garantiscono un'azienda sana.
-3. Calcolare un profitto semplice a partire da ricavi e spese.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-I ricavi sono l'importo totale di denaro che un'azienda incassa dalle sue vendite, prima di dedurre qualsiasi costo. *FATTO VERIFICATO:* Profitto = Ricavi − Spese — è ciò che rimane dopo tutto ciò che l'azienda ha dovuto spendere per generare quei ricavi.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Un'azienda può avere ricavi molto elevati e comunque perdere denaro se le sue spese sono sufficientemente alte — i ricavi da soli non dicono nulla sul fatto che un'azienda sia effettivamente sana dal punto di vista finanziario.
+- definire prodotto e servizio in termini aziendali.
+- classificare un'impresa reale come basata su prodotti, su servizi o mista.
+- applicare questa lente a un'attività che conosci personalmente.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un negozio genera $200.000 di ricavi dalle vendite quest'anno — una cifra notevole. Ma dopo aver pagato la merce, gli stipendi del personale, l'affitto, e altri costi che sommano a $210.000, l'azienda ha in realtà perso $10.000. I ricavi elevati raccontavano solo parte della storia; il profitto ha rivelato la realtà.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa sono i ricavi?
-2. Qual è la formula del profitto?
-3. Vero/Falso: Ricavi elevati significano sempre che un'azienda è redditizia.
-4. Se un'azienda ha $150.000 di ricavi e $120.000 di spese, qual è il suo profitto?
+### Due domande da fare su qualsiasi impresa
 
-## Chiave di Risposte
-1. L'importo totale di denaro incassato dalle vendite, prima dei costi   2. Ricavi − Spese   3. Falso   4. $30.000
+Quando guardi un'impresa, chiediti: con che cosa se ne va il cliente, qualcosa che può tenere o qualcosa che qualcuno ha fatto per lui? Un **prodotto** è una cosa che viene consegnata. Un **servizio** è un'azione, un impegno o una competenza messa a disposizione del cliente.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione centrale dei ricavi come cifra principale.
-2. Questo è il calcolo standard del profitto.
-3. Un'azienda può avere ricavi elevati e comunque operare in perdita se le spese sono sufficientemente alte.
-4. $150.000 − $120.000 = $30.000.
+### Perché la maggior parte delle imprese è un mix
 
-## Punti Chiave da Ricordare
-- I ricavi sono tutto il denaro in entrata; il profitto è ciò che rimane dopo le spese.
-- Profitto = Ricavi − Spese è la formula standard.
-- Ricavi elevati non garantiscono la redditività — le spese contano altrettanto.
+Pensa a un ristorante. Vende cibo o vende l'esperienza di essere serviti? Entrambi: il cibo è il prodotto, essere accomodati e assistiti è il servizio. Pochissime imprese reali stanno solo da una parte.
+
+### Applicarlo all'educazione finanziaria
+
+Considera una piattaforma che insegna l'educazione finanziaria. Qual è il prodotto? Qual è il servizio? Il servizio è l'insegnamento stesso: guidare la comprensione, costruire competenze. Il prodotto è ciò che viene consegnato concretamente: le lezioni, le verifiche, gli esercizi strutturati. Nominarli separatamente, invece di dire solo "insegniamo alle persone", rende molto più chiaro che cosa si sta davvero costruendo.
+
+## Esempio svolto
+
+Immagina un artigiano del mobile che vende sedie: quello è il prodotto. Ora immagina lo stesso artigiano che offre riparazioni su misura dei mobili: è un servizio aggiunto a un'attività basata sui prodotti. Chiediti: se quel servizio di riparazione crescesse abbastanza, l'attività sarebbe ancora "un produttore di mobili", o sarebbe diventata silenziosamente qualcos'altro?
+
+## Quiz di esercitazione
+
+1. Un prodotto si definisce meglio come:
+   A. Un'azione svolta per un cliente
+   B. Una cosa materiale o digitale che il cliente riceve e conserva
+   C. Il piano di marketing di un'azienda
+   D. Un tipo di licenza commerciale
+
+2. Vero o falso: la maggior parte delle imprese reali è basata solo su prodotti o solo su servizi, con poca commistione.
+
+3. Nell'esempio dell'educazione finanziaria, che cosa conta come "servizio"?
+   A. Le lezioni e gli esercizi stessi
+   B. L'insegnamento e la guida stessi
+   C. Il logo dell'azienda
+   D. La struttura dei prezzi
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un prodotto è una cosa materiale o digitale consegnata al cliente.
+
+### Domanda 2
+
+Risposta corretta: Falso. La maggior parte delle imprese reali combina entrambi in qualche misura.
+
+### Domanda 3
+
+Risposta corretta: B. L'insegnamento e la guida sono il servizio; le lezioni stesse sono il prodotto.
+
+## Punti chiave
+
+- Un prodotto viene consegnato; un servizio viene svolto per qualcuno.
+- La maggior parte delle imprese reali combina entrambi, non è solo l'uno o l'altro.
+- Nominare la parte di prodotto e quella di servizio di un'impresa chiarisce che cosa viene davvero offerto.

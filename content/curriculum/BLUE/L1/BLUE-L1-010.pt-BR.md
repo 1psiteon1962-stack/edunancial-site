@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-010
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 10
 locale: pt-BR
-source_locale: en-US
-title: "O Que É Patrimônio Líquido de um Negócio?"
-summary: ""
+title: "Escolhendo a estrutura do negócio: que perguntas fazer primeiro?"
+summary: "Junte as estruturas vistas até agora em um roteiro prático de decisão."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-010: O Que É Patrimônio Líquido de um Negócio?
+# Escolhendo a estrutura do negócio: que perguntas fazer primeiro?
 
-## Objetivos de Aprendizagem
-1. Definir patrimônio líquido de um negócio em termos simples.
-2. Distinguir patrimônio líquido de receita e lucro.
-3. Explicar como o patrimônio líquido pode mudar ao longo do tempo.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-O patrimônio líquido de um negócio representa a participação do dono na empresa — essencialmente o que sobraria se todos os ativos fossem vendidos e todas as dívidas quitadas. *FATO VERIFICADO:* Patrimônio Líquido = Ativos − Passivos.
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* O patrimônio líquido geralmente cresce quando um negócio retém lucros (em vez de distribuí-los totalmente aos donos) ou quando os donos injetam capital adicional, e pode diminuir quando o negócio assume prejuízos ou dívidas que excedem seus ativos.
+- listar as perguntas-chave que estreitam a escolha de uma estrutura de negócio adequada.
+- aplicar essas perguntas a um cenário hipotético básico.
+- reconhecer que este é um roteiro inicial, e não um conselho personalizado.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um pequeno negócio tem $80.000 em ativos (equipamento, estoque, dinheiro em caixa) e $30.000 em dívidas pendentes. Patrimônio Líquido = $80.000 − $30.000 = $50.000. Se o negócio tem um ano forte e retém $10.000 em lucro em vez de distribuí-lo totalmente, o patrimônio líquido cresce para $60.000 — a participação do dono aumentou mesmo sem vender nada.
+## Conteúdo principal
 
-## Questionário Prático
-1. Qual é a fórmula do patrimônio líquido de um negócio?
-2. O que o patrimônio líquido representa, em termos simples?
-3. Verdadeiro/Falso: Patrimônio líquido é a mesma coisa que receita.
-4. Se um negócio tem $100.000 em ativos e $40.000 em passivos, qual é seu patrimônio líquido?
+### As perguntas que valem a pena fazer primeiro
+
+Antes de mergulhar nos detalhes jurídicos, pergunte: quantos donos existem? Quanta proteção contra a responsabilidade pessoal é realmente necessária, considerando o nível de risco do negócio? Trata-se de uma profissão regulamentada com normas próprias de estrutura? Reduzir a bitributação é uma prioridade? Essas perguntas não dão uma resposta final sozinhas, mas estreitam bastante as opções.
+
+### Pensando passo a passo
+
+Um dono único com preocupações reais de responsabilidade e sem interesse em atrair investidores de fora costuma ser direcionado para uma LLC. Vários profissionais habilitados podem considerar uma LLP. Um negócio que planeja captar muito capital de fora, ou que quer emitir muitas ações, costuma ser direcionado para uma corporation: uma ligação com conteúdos vistos com mais profundidade no Nível 3.
+
+### Um limite importante
+
+*IMPORTANTE:* Esta lição oferece um roteiro geral para entender o assunto, e não um conselho jurídico ou tributário personalizado. Uma decisão real deve envolver um profissional qualificado, analisando a situação específica de cada pessoa: a "analogia do médico", vista mais adiante neste nível, explica exatamente por que esse passo vale a pena.
+
+## Exemplo prático
+
+Uma pessoa que está abrindo sozinha um negócio de paisagismo, preocupada com a responsabilidade se o equipamento danificar a propriedade de alguém, passa pelo roteiro: um dono, preocupação real de responsabilidade, nenhuma necessidade imediata de captar capital de fora. Pergunte a si mesmo: para qual estrutura das lições anteriores deste nível essa combinação aponta? Uma LLC se encaixa bem nesse perfil.
+
+## Teste de prática
+
+1. Qual pergunta é um bom ponto de partida para escolher uma estrutura de negócio?
+   A. Qual deve ser a cor do logotipo?
+   B. Quantos donos existem, e quanta proteção de responsabilidade é necessária?
+   C. Em que época do ano o negócio deve abrir?
+   D. Quantos seguidores nas redes sociais o dono tem?
+
+2. Verdadeiro ou falso: o roteiro desta lição substitui um conselho jurídico ou tributário profissional.
+
+3. Um dono único com preocupações reais de responsabilidade e sem planos de captar capital de fora costuma ser direcionado para qual estrutura?
+   A. Uma general partnership
+   B. Uma LLC
+   C. Uma LLP
+   D. Uma entidade sem fins lucrativos
 
 ## Gabarito
-1. Ativos − Passivos   2. A participação do dono no negócio   3. Falso   4. $60.000
 
-## Respostas e Explicações
-1. Este é o cálculo padrão do patrimônio líquido.
-2. Este é o significado central do patrimônio líquido em um contexto empresarial.
-3. Receita é o dinheiro que entra das vendas; patrimônio líquido é a participação geral do dono no negócio.
-4. $100.000 − $40.000 = $60.000.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Patrimônio Líquido = Ativos − Passivos, representando a participação do dono no negócio.
-- Lucros retidos e investimento de capital adicional geralmente aumentam o patrimônio líquido.
-- O patrimônio líquido é distinto da receita e do lucro — reflete o valor geral de propriedade, não o fluxo de renda.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O número de donos e a necessidade de proteção são perguntas iniciais centrais.
+
+### Pergunta 2
+
+Resposta correta: Falso. Este é um roteiro geral, e não um substituto para o conselho de um profissional.
+
+### Pergunta 3
+
+Resposta correta: B. Esse perfil costuma apontar para uma LLC.
+
+## Pontos-chave
+
+- Perguntas iniciais centrais: número de donos, necessidade de proteção, tipo de profissão e planos de captação de capital.
+- Essas perguntas estreitam as opções, mas não substituem o conselho de um profissional.
+- Esse roteiro se liga diretamente às estruturas vistas antes neste nível.

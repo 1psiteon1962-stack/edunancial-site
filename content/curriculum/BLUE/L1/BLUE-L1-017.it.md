@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 17
 locale: it
-title: "Fissazione dei Prezzi Basata sui Costi"
-summary: "La fissazione dei prezzi basata sui costi significa calcolare il costo di produzione di un prodotto o di erogazione di un servizio, e poi aggiungere un margine fisso sopra per stabilire il prezzo di vendita."
+title: "Che cos'è il capitale di avviamento, e da dove arriva davvero?"
+summary: "Scopri a che cosa serve il capitale di avviamento e le fonti comuni a cui le persone attingono prima ancora di cercare investitori esterni."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-017: Fissazione dei Prezzi Basata sui Costi
+# Che cos'è il capitale di avviamento, e da dove arriva davvero?
 
-## Obiettivi di Apprendimento
-1. Definire la fissazione dei prezzi basata sui costi.
-2. Calcolare un prezzo semplice basato sui costi.
-3. Identificare un limite del fare affidamento esclusivamente sulla fissazione dei prezzi basata sui costi.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-La fissazione dei prezzi basata sui costi significa calcolare il costo di produzione di un prodotto o di erogazione di un servizio, e poi aggiungere un margine fisso sopra per stabilire il prezzo di vendita. *FATTO VERIFICATO:* Prezzo = Costo + (Costo × Percentuale di Margine Desiderata).
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Un limite comunemente citato della fissazione dei prezzi basata sui costi è che ignora ciò che i clienti sono effettivamente disposti a pagare — un'azienda potrebbe sottoprezzare un'offerta molto apprezzata, o sovraprezzare una che i clienti non apprezzano quanto suggerisce il costo, poiché il metodo parte interamente dai costi interni invece che dalla domanda esterna.
+- definire il capitale di avviamento in termini semplici.
+- indicare le fonti comuni del capitale di avviamento.
+- riconoscere che l'investimento esterno è solo una delle diverse strade.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un produttore di mobili calcola che una sedia costa $80 tra materiali e manodopera per essere prodotta. Volendo un margine del 50%, la prezza a $80 + ($80 × 0,50) = $120. Questo metodo dà un prezzo chiaro e difendibile, ma non tiene conto se i clienti pagherebbero volentieri $150 per la stessa sedia, o se $120 è già troppo alto per quel mercato.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è la fissazione dei prezzi basata sui costi?
-2. Qual è la formula della fissazione dei prezzi basata sui costi?
-3. Se un prodotto costa $50 e il margine desiderato è del 40%, qual è il prezzo?
-4. Cosa non tiene generalmente conto la fissazione dei prezzi basata sui costi?
+### Che cos'è il capitale di avviamento
 
-## Chiave di Risposte
-1. Calcolare il costo, e poi aggiungere un margine fisso per stabilire il prezzo   2. Prezzo = Costo + (Costo × Percentuale di Margine Desiderata)   3. $70   4. Ciò che i clienti sono effettivamente disposti a pagare
+Il capitale di avviamento è il denaro necessario per lanciare un'impresa: copre cose come le scorte iniziali, l'attrezzatura, le licenze e abbastanza costi generali per sopravvivere finché l'impresa non genera ricavi propri.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale della fissazione dei prezzi basata sui costi.
-2. Questa è la formula standard della fissazione dei prezzi basata sui costi.
-3. $50 + ($50 × 0,40) = $50 + $20 = $70.
-4. La fissazione dei prezzi basata sui costi parte dai costi interni, non dalla domanda esterna del cliente.
+### Da dove arriva davvero
 
-## Punti Chiave da Ricordare
-- La fissazione dei prezzi basata sui costi stabilisce il prezzo aggiungendo un margine fisso al costo di produzione.
-- La formula è semplice: Costo + (Costo × Percentuale di Margine).
-- Comunemente trascura ciò che i clienti sono effettivamente disposti a pagare.
+Chiediti: ogni impresa parte con l'assegno di un investitore? Le fonti comuni comprendono i risparmi personali, il denaro di amici o familiari, i prestiti per piccole imprese e il reddito reinvestito da un altro lavoro o da un'attività secondaria: gli investitori esterni e il venture capital, spesso la prima cosa che si immagina, sono solo una strada tra tante, e non sempre la più comune per una piccola impresa.
+
+### Perché è importante
+
+Capire queste diverse fonti è importante perché ognuna comporta compromessi diversi: un prestito va restituito a prescindere da come va l'impresa; un investitore di solito vuole in cambio una quota di capitale (proprietà), un concetto approfondito nel materiale OPM del Livello 3.
+
+## Esempio svolto
+
+Chi avvia una piccola attività di giardinaggio potrebbe usare i risparmi personali per l'attrezzatura, non cercare affatto investitori esterni e crescere con i primi ricavi dell'attività. Chiediti: è un modo più piccolo o meno "vero" di avviare un'impresa rispetto a raccogliere denaro da investitori? Per nulla: è semplicemente una fonte di capitale diversa, con compromessi diversi.
+
+## Quiz di esercitazione
+
+1. Il capitale di avviamento è:
+   A. Solo il denaro raccolto da investitori
+   B. Il denaro necessario per lanciare un'impresa
+   C. I ricavi annui di un'impresa
+   D. Un tipo di imposta d'impresa
+
+2. Vero o falso: gli investitori esterni sono la fonte più comune di capitale di avviamento per le piccole imprese.
+
+3. Qual è un compromesso chiave nell'usare un prestito come capitale di avviamento, rispetto al denaro di un investitore?
+   A. I prestiti non vanno mai restituiti
+   B. Un prestito va in genere restituito a prescindere da come va l'impresa
+   C. I prestiti richiedono sempre di cedere una quota di proprietà
+   D. Non c'è una vera differenza
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il capitale di avviamento è il denaro necessario per lanciare un'impresa.
+
+### Domanda 2
+
+Risposta corretta: Falso. I risparmi personali e altre fonti sono comuni, spesso più degli investitori esterni per le piccole imprese.
+
+### Domanda 3
+
+Risposta corretta: B. Un prestito in genere va restituito a prescindere dai risultati dell'impresa, a differenza dell'investimento in capitale.
+
+## Punti chiave
+
+- Il capitale di avviamento è il denaro necessario per lanciare un'impresa.
+- Le fonti comuni includono risparmi personali, famiglia e amici, prestiti e reddito reinvestito, non solo investitori esterni.
+- Ogni fonte comporta compromessi diversi, in particolare tra restituzione e proprietà.

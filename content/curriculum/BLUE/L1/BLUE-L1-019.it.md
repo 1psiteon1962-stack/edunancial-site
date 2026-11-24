@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 19
 locale: it
-title: "Fissazione dei Prezzi Competitiva"
-summary: "La fissazione dei prezzi competitiva significa stabilire un prezzo principalmente in riferimento a quanto fanno pagare i concorrenti per prodotti o servizi simili, invece di partire solo dai costi interni o dal valore percepito dal cliente."
+title: "Che cos'è una fattura, e perché i termini di pagamento contano così tanto?"
+summary: "Scopri che cos'è una fattura e come i termini di pagamento si collegano direttamente alla lezione sul flusso di cassa."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-019: Fissazione dei Prezzi Competitiva
+# Che cos'è una fattura, e perché i termini di pagamento contano così tanto?
 
-## Obiettivi di Apprendimento
-1. Definire la fissazione dei prezzi competitiva.
-2. Identificare il ragionamento generale dietro la fissazione dei prezzi rispetto ai concorrenti.
-3. Riconoscere un rischio del fare affidamento esclusivamente sulla fissazione dei prezzi competitiva.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-La fissazione dei prezzi competitiva significa stabilire un prezzo principalmente in riferimento a quanto fanno pagare i concorrenti per prodotti o servizi simili, invece di partire solo dai costi interni o dal valore percepito dal cliente. *SUPPOSIZIONE:* Questo approccio viene comunemente usato nei mercati in cui i prodotti sono simili tra i fornitori, e i clienti possono confrontare facilmente i prezzi, rendendo il prezzo relativo un fattore significativo nella decisione d'acquisto.
+Al termine di questa lezione dovresti essere in grado di:
 
-*FATTO VERIFICATO:* Un rischio comunemente citato della fissazione dei prezzi competitiva è che può portare a una corsa verso il prezzo più basso, comprimendo i margini in tutto il mercato se le aziende competono principalmente sul prezzo invece di differenziarsi per qualità, servizio, o marchio.
+- definire una fattura in termini semplici.
+- definire i termini di pagamento e fare un esempio.
+- collegare i termini di pagamento direttamente alla lezione sul flusso di cassa.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Diversi distributori di benzina sulla stessa strada fissano generalmente i prezzi entro pochi centesimi l'uno dall'altro, poiché i clienti possono vedere e confrontare facilmente i prezzi passando in auto. Un distributore che fissasse un prezzo significativamente più alto senza offrire qualcosa di diverso — come un negozio, un autolavaggio, o una posizione migliore — perderebbe probabilmente clienti a favore dei concorrenti vicini.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è la fissazione dei prezzi competitiva?
-2. In quale tipo di mercato viene comunemente usata la fissazione dei prezzi competitiva?
-3. Vero/Falso: La fissazione dei prezzi competitiva non comporta alcun rischio per i margini di profitto.
-4. Cosa può aiutare un'azienda a evitare una pura corsa al ribasso sui prezzi con la fissazione dei prezzi competitiva?
+### Che cos'è una fattura
 
-## Chiave di Risposte
-1. Stabilire un prezzo principalmente in riferimento ai prezzi dei concorrenti   2. Mercati con prodotti simili dove i clienti confrontano facilmente i prezzi   3. Falso   4. Differenziarsi per qualità, servizio, o marchio invece di competere puramente sul prezzo
+Una fattura è una richiesta formale di pagamento, inviata da un'impresa a un cliente, che indica che cosa è stato fornito e quanto è dovuto.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale della fissazione dei prezzi competitiva.
-2. Questo descrive le condizioni di mercato in cui viene comunemente applicata la fissazione dei prezzi competitiva.
-3. Competere principalmente sul prezzo può comprimere i margini in tutto il mercato.
-4. La differenziazione riduce la pressione a competere puramente sul prezzo.
+### Che cosa sono i termini di pagamento
 
-## Punti Chiave da Ricordare
-- La fissazione dei prezzi competitiva stabilisce il prezzo principalmente in riferimento a quanto fanno pagare i concorrenti.
-- Viene comunemente usata dove i prodotti sono simili e i prezzi sono facili da confrontare.
-- Affidarsi esclusivamente a essa comporta il rischio di una corsa verso il prezzo più basso che comprime i margini.
+I termini di pagamento indicano quando il pagamento è effettivamente dovuto: di solito espressi con formule come "Net 30" (in Italia spesso "30 giorni data fattura"), cioè pagamento entro 30 giorni dalla data della fattura.
+
+### Il collegamento diretto con il flusso di cassa
+
+Chiediti: concedere termini "Net 60" invece di "Net 30" come influisce sul flusso di cassa di un'impresa, anche a parità di vendita? Termini di pagamento più lunghi significano aspettare di più per incassare davvero, allargando proprio il tipo di sfasamento temporale visto nella lezione sul flusso di cassa: un fattore reale e controllabile della liquidità dell'impresa.
+
+## Esempio svolto
+
+Un'impresa concede termini Net 30 a un nuovo cliente e Net 60 a un cliente più grande e di lunga data che ha negoziato condizioni migliori. Chiediti: questo crea tempi di incasso diversi per vendite di pari importo? Sì: il pagamento del cliente Net 60 arriva un mese intero dopo, quindi l'impresa deve coprire i propri costi per tutto quel tempo in più prima di incassare.
+
+## Quiz di esercitazione
+
+1. Una fattura è:
+   A. Un tipo di licenza commerciale
+   B. Una richiesta formale di pagamento che indica quanto è dovuto
+   C. Il bilancio annuale di un'azienda
+   D. Un documento di marketing
+
+2. Vero o falso: "Net 30" significa che il pagamento è dovuto subito al ricevimento della fattura.
+
+3. Come influiscono termini di pagamento più lunghi sul flusso di cassa di un'impresa?
+   A. Non hanno alcun effetto
+   B. Allargano lo sfasamento temporale prima di incassare davvero
+   C. Garantiscono pagamenti più rapidi
+   D. Eliminano la necessità di emettere fatture
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una fattura è una richiesta formale di pagamento.
+
+### Domanda 2
+
+Risposta corretta: Falso. "Net 30" significa pagamento entro 30 giorni dalla data della fattura, non subito.
+
+### Domanda 3
+
+Risposta corretta: B. Termini più lunghi allargano lo sfasamento temporale del flusso di cassa.
+
+## Punti chiave
+
+- Una fattura è una richiesta formale di pagamento.
+- I termini di pagamento indicano quando il pagamento è effettivamente dovuto.
+- Termini di pagamento più lunghi allargano direttamente lo sfasamento del flusso di cassa di un'impresa.

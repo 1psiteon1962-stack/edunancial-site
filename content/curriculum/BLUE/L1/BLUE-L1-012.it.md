@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 12
 locale: it
-title: "Il Capitale Circolante Spiegato"
-summary: "Il capitale circolante è il denaro che un'azienda ha a disposizione per coprire le proprie obbligazioni a breve termine e le operazioni quotidiane."
+title: "Che cos'è il margine di profitto?"
+summary: "Scopri come il margine di profitto esprime la redditività in percentuale, e perché quella percentuale conta più del solo utile in valore assoluto."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-012: Il Capitale Circolante Spiegato
+# Che cos'è il margine di profitto?
 
-## Obiettivi di Apprendimento
-1. Definire il capitale circolante.
-2. Calcolare un capitale circolante semplice.
-3. Spiegare perché un capitale circolante positivo è importante per le operazioni quotidiane.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il capitale circolante è il denaro che un'azienda ha a disposizione per coprire le proprie obbligazioni a breve termine e le operazioni quotidiane. *FATTO VERIFICATO:* Capitale Circolante = Attivo Corrente − Passivo Corrente, dove "corrente" generalmente significa dovuto o convertibile in contanti entro un anno.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Un capitale circolante positivo significa generalmente che un'azienda può soddisfare comodamente le sue obbligazioni a breve termine, mentre un capitale circolante negativo può segnalare l'avvicinarsi di una crisi di liquidità, anche se l'azienda è redditizia sulla carta.
+- enunciare la formula del margine di profitto.
+- calcolare un margine di profitto di base.
+- spiegare perché il margine conta per confrontare imprese di dimensioni diverse.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un'azienda ha $40.000 di attivo corrente (contanti, magazzino, denaro dovuto dai clienti) e $25.000 di passivo corrente (fatture in sospeso, prestiti a breve termine). Capitale Circolante = $40.000 − $25.000 = $15.000, suggerendo che l'azienda può coprire comodamente le sue obbligazioni a breve termine. Se invece i passivi superassero gli attivi, l'azienda potrebbe essere complessivamente redditizia ma comunque avere difficoltà a pagare le fatture in tempo.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è il capitale circolante?
-2. Qual è la formula del capitale circolante?
-3. Vero/Falso: Un'azienda redditizia non può mai avere un problema di capitale circolante.
-4. Se l'attivo corrente è $30.000 e il passivo corrente è $35.000, qual è il capitale circolante?
+### La formula
 
-## Chiave di Risposte
-1. Il denaro disponibile per coprire obbligazioni a breve termine e operazioni quotidiane   2. Attivo Corrente − Passivo Corrente   3. Falso   4. −$5.000
+Margine di profitto = Utile ÷ Ricavi, di solito espresso in percentuale. Riprende il concetto di utile della lezione precedente e lo esprime in rapporto ai ricavi, non come cifra assoluta.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione centrale del capitale circolante.
-2. Questo è il calcolo standard del capitale circolante.
-3. Un'azienda può essere redditizia sulla carta e comunque affrontare una carenza di capitale circolante se la tempistica del flusso di cassa è sfavorevole.
-4. $30.000 − $35.000 = −$5.000.
+### Perché una percentuale, e non solo una cifra
 
-## Punti Chiave da Ricordare
-- Il capitale circolante misura la capacità di un'azienda di coprire le obbligazioni a breve termine.
-- Capitale Circolante = Attivo Corrente − Passivo Corrente.
-- Un capitale circolante negativo può segnalare una crisi di liquidità anche in un'azienda altrimenti redditizia.
+Chiediti: 50.000 $ di utile sono un risultato notevole? Dipende interamente da quanti ricavi sono serviti per generarli. 50.000 $ di utile su 100.000 $ di ricavi (margine del 50%) sono un'impresa molto diversa da 50.000 $ di utile su 2.000.000 $ di ricavi (margine del 2,5%): la percentuale racconta una storia che la sola cifra nasconde.
+
+### A che cosa serve
+
+Il margine di profitto permette di confrontare alla pari imprese di dimensioni molto diverse, ed è un modo utile per verificare se una singola impresa sta diventando più o meno efficiente nel tempo, indipendentemente dal fatto che i suoi ricavi crescano.
+
+## Esempio svolto
+
+Due imprese dichiarano ciascuna 40.000 $ di utile. L'impresa A ha avuto 100.000 $ di ricavi; l'impresa B 800.000 $. Chiediti: sono risultati ugualmente solidi? Il margine dell'impresa A è del 40%; quello dell'impresa B del 5%: livelli di efficienza molto diversi nascosti dietro lo stesso utile.
+
+## Quiz di esercitazione
+
+1. Il margine di profitto si calcola come:
+   A. Ricavi ÷ Utile
+   B. Utile ÷ Ricavi
+   C. Costi ÷ Ricavi
+   D. Ricavi − Costi
+
+2. Vero o falso: un utile più alto in valore assoluto indica sempre un'impresa più efficiente.
+
+3. Un'impresa ha 60.000 $ di utile e 300.000 $ di ricavi. Qual è il suo margine di profitto?
+   A. 5%
+   B. 20%
+   C. 50%
+   D. 60%
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Margine di profitto = Utile ÷ Ricavi.
+
+### Domanda 2
+
+Risposta corretta: Falso. Una grande impresa può avere un margine più basso di una molto più piccola.
+
+### Domanda 3
+
+Risposta corretta: B. 60.000 $ ÷ 300.000 $ = 20%.
+
+## Punti chiave
+
+- Margine di profitto = Utile ÷ Ricavi, espresso in percentuale.
+- Permette un confronto equo tra imprese di dimensioni diverse.
+- È una misura utile dell'efficienza, distinta dall'utile in valore assoluto.

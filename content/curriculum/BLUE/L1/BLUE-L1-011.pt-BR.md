@@ -1,48 +1,85 @@
 ---
 id: BLUE-L1-011
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 11
 locale: pt-BR
-source_locale: en-US
-title: "Custos Iniciais — O Que Esperar"
-summary: ""
+title: "Receita ou lucro? (A dupla de termos mais confundida nos negócios)"
+summary: "Aprenda a diferença real entre receita e lucro, e por que um negócio pode ter receita forte e nenhum lucro."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-011: Custos Iniciais — O Que Esperar
+# Receita ou lucro? (A dupla de termos mais confundida nos negócios)
 
-## Objetivos de Aprendizagem
-1. Definir custos iniciais.
-2. Identificar categorias comuns de custos iniciais.
-3. Explicar por que subestimar os custos iniciais é um erro comum no começo.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Custos iniciais são as despesas pontuais incorridas para colocar um negócio em funcionamento antes de abrir ou ser lançado. *FATO VERIFICADO:* Categorias comuns incluem equipamento, estoque inicial, taxas legais e de registro, marketing inicial, depósitos (para imóveis ou serviços públicos), e uma reserva de caixa para os primeiros meses antes que a receita se estabilize.
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Subestimar os custos iniciais é um erro comum no começo, muitas vezes porque novos donos se concentram em custos óbvios como equipamento enquanto ignoram custos recorrentes menores que se acumulam antes que uma receita significativa chegue.
+- definir receita e lucro separadamente.
+- calcular um lucro básico a partir da receita e das despesas.
+- explicar por que uma receita forte não garante lucro.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Ao orçar a abertura de um pequeno salão, Aisha considera equipamento e estoque inicial, mas inicialmente esquece de orçar os meses antes que a clientela se construa — aluguel, salários, e contas de serviços que precisam ser pagos independentemente de quantos clientes aparecem nos primeiros meses. Adicionar uma reserva de caixa para esse período de crescimento se mostra tão importante quanto o próprio equipamento.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que são custos iniciais?
-2. Cite duas categorias comuns de custos iniciais.
-3. Verdadeiro/Falso: Custos iniciais incluem apenas compras pontuais como equipamento.
-4. Por que subestimar os custos iniciais é um erro comum?
+### Dois números que as pessoas confundem o tempo todo
+
+Pergunte a si mesmo: se um negócio "fez US$ 500.000 no ano passado", isso quer dizer que ele ficou com US$ 500.000? Quase certamente não, e é exatamente essa confusão que faz receita e lucro serem trocados com tanta frequência.
+
+**Receita** é o total de dinheiro que um negócio recebe com vendas, antes de descontar qualquer despesa. **Lucro** é o que sobra depois de descontar todas as despesas necessárias para gerar essa receita.
+
+### A fórmula
+
+Lucro = Receita − Despesas. Um negócio com US$ 500.000 de receita e US$ 480.000 de despesas tem apenas US$ 20.000 de lucro: uma imagem bem diferente da que o número da receita sozinho sugere.
+
+### Por que uma receita forte não garante lucro
+
+Um negócio pode ter uma receita impressionante e crescente e mesmo assim perder dinheiro, se as despesas crescerem no mesmo ritmo ou mais rápido. A receita mede atividade; o lucro mede se essa atividade realmente deixou o negócio em situação melhor.
+
+## Exemplo prático
+
+Um negócio novo anuncia com orgulho US$ 200.000 de receita no primeiro ano. Pergunte a si mesmo: isso é uma boa notícia por si só? Só se você também souber as despesas. Se as despesas foram de US$ 210.000, o negócio na verdade perdeu US$ 10.000 naquele ano: um prejuízo escondido atrás de um número que parece sucesso.
+
+## Teste de prática
+
+1. Receita é:
+   A. O que sobra depois de descontar todas as despesas
+   B. O total de dinheiro recebido com vendas, antes das despesas
+   C. A dívida total de um negócio
+   D. Um tipo de imposto
+
+2. Verdadeiro ou falso: uma receita forte sempre significa que o negócio é lucrativo.
+
+3. Um negócio tem US$ 300.000 de receita e US$ 275.000 de despesas. Qual é o lucro?
+   A. US$ 575.000
+   B. US$ 25.000
+   C. US$ 300.000
+   D. US$ 0
 
 ## Gabarito
-1. As despesas pontuais para colocar um negócio em funcionamento antes de ser lançado   2. Equipamento, estoque inicial (entre outras)   3. Falso   4. Novos donos frequentemente ignoram custos recorrentes menores durante o período inicial de crescimento
 
-## Respostas e Explicações
-1. Esta é a definição central dos custos iniciais.
-2. Estas estão entre as categorias padrão de custos iniciais.
-3. Custos iniciais também incluem uma reserva de caixa para despesas operacionais iniciais antes que a receita se estabilize.
-4. Custos óbvios são orçados; o custo cumulativo de sobreviver aos primeiros meses é frequentemente ignorado.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Custos iniciais são as despesas pontuais necessárias antes que um negócio possa ser lançado.
-- Categorias comuns incluem equipamento, estoque, taxas legais, e uma reserva de caixa inicial.
-- Uma reserva de caixa para o período de crescimento é tão importante quanto as compras iniciais óbvias.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Receita é o total recebido com vendas, antes das despesas.
+
+### Pergunta 2
+
+Resposta correta: Falso. Receita alta com despesas ainda mais altas pode significar prejuízo.
+
+### Pergunta 3
+
+Resposta correta: B. US$ 300.000 − US$ 275.000 = US$ 25.000.
+
+## Pontos-chave
+
+- Receita é o total recebido com vendas, antes das despesas.
+- Lucro = Receita − Despesas: o que realmente sobra.
+- Uma receita forte não garante lucro.

@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-005
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 5
 locale: pt-BR
-source_locale: en-US
-title: "Custos Fixos vs. Custos Variáveis"
-summary: ""
+title: "O que é uma LLP, e em que ela difere de uma LLC?"
+summary: "Aprenda o que é uma LLP e em que a sua proteção de responsabilidade difere da de uma LLC."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-005: Custos Fixos vs. Custos Variáveis
+# O que é uma LLP, e em que ela difere de uma LLC?
 
-## Objetivos de Aprendizagem
-1. Definir custos fixos e custos variáveis.
-2. Identificar exemplos de cada um.
-3. Explicar por que essa distinção importa para o planejamento.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Os custos fixos permanecem aproximadamente os mesmos independentemente de quanto um negócio vende — aluguel, seguros, e o salário de um gerente são exemplos comuns. *FATO VERIFICADO:* Os custos variáveis sobem e descem com o volume de vendas — matérias-primas, embalagens, e comissões de vendas são custos variáveis típicos, já que mais vendas geralmente exigem mais desses insumos.
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Entender essa divisão importa para o planejamento porque os custos fixos precisam ser pagos mesmo em um mês fraco com pouca receita, enquanto os custos variáveis naturalmente diminuem quando as vendas desaceleram.
+- definir LLP em termos simples.
+- explicar quem normalmente usa essa estrutura.
+- explicar uma diferença importante entre a proteção de responsabilidade de uma LLP e a de uma LLC.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Uma padaria paga $1.500 de aluguel todo mês, independentemente de quantos pães ela vende — um custo fixo. A farinha, no entanto, custa aproximadamente $0,50 por pão assado; quanto mais pães vendidos, mais farinha comprada. Em um mês fraco com menos vendas, a conta de farinha diminui proporcionalmente, mas o aluguel de $1.500 continua vencendo do mesmo jeito.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que são custos fixos?
-2. O que são custos variáveis?
-3. Verdadeiro/Falso: O aluguel é tipicamente um custo variável.
-4. Por que a distinção entre fixo/variável importa para o planejamento?
+### O que significa LLP
+
+LLP significa Limited Liability Partnership: uma estrutura feita para vários donos (sócios), e não para um único sócio, usada com frequência por escritórios profissionais, como de advocacia ou de contabilidade.
+
+### Quem normalmente usa
+
+*(REGRA ESPECÍFICA DA REGIÃO: a disponibilidade e as regras variam de estado para estado, de país para país e conforme a profissão. No Brasil, profissionais costumam se organizar, por exemplo, em sociedades simples ou em sociedades de advogados, com regras próprias de responsabilidade; confirme com o seu conselho profissional ou um advogado.)* As LLPs costumam ser usadas por profissionais habilitados que são obrigados ou escolhem atuar como sócios, e cada sócio continua diretamente responsável pelo próprio trabalho profissional.
+
+### A diferença principal de responsabilidade
+
+Pergunte a si mesmo: se um sócio do escritório comete um erro caro, os bens pessoais de todos os outros sócios deveriam ficar em risco por isso? Em uma LLP, um sócio geralmente fica protegido da responsabilidade pessoal por erros profissionais ou atos ilícitos de outros sócios: uma distinção que importa justamente em escritórios profissionais com vários sócios.
+
+## Exemplo prático
+
+Imagine um pequeno escritório de advocacia com três sócios estruturado como LLP. Um sócio comete um erro grave no caso de um cliente. Pergunte a si mesmo: as casas dos outros dois sócios ficam em risco por causa do erro desse sócio? Em uma LLP, geralmente não: a exposição de cada sócio pelos atos dos outros é limitada, mesmo que eles dividam o negócio.
+
+## Teste de prática
+
+1. LLP significa:
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+
+2. Verdadeiro ou falso: as LLPs normalmente são estruturadas para um único dono.
+
+3. A proteção de responsabilidade de uma LLP geralmente trata de quê?
+   A. Proteção contra qualquer tipo de dívida do negócio
+   B. Proteção contra a responsabilidade pessoal por erros profissionais ou atos ilícitos de outros sócios
+   C. Proteção contra o pagamento de qualquer imposto
+   D. Proteção contra ser processado algum dia
 
 ## Gabarito
-1. Custos que permanecem aproximadamente iguais independentemente do volume de vendas   2. Custos que sobem e descem com o volume de vendas   3. Falso   4. Custos fixos precisam ser pagos mesmo em meses fracos; custos variáveis se ajustam naturalmente com as vendas
 
-## Respostas e Explicações
-1. Esta é a definição padrão de um custo fixo.
-2. Esta é a definição padrão de um custo variável.
-3. Aluguel é um custo fixo clássico, não variável.
-4. Essa distinção ajuda um negócio a prever suas necessidades de caixa durante períodos mais fracos.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Custos fixos permanecem constantes independentemente do volume de vendas.
-- Custos variáveis sobem e descem conforme o que um negócio vende.
-- Custos fixos criam risco em períodos fracos, pois precisam ser pagos independentemente da receita.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. LLP significa Limited Liability Partnership.
+
+### Pergunta 2
+
+Resposta correta: Falso. As LLPs são estruturadas para vários sócios, e não para um único dono.
+
+### Pergunta 3
+
+Resposta correta: B. As LLPs tratam especificamente da responsabilidade pelos atos de outros sócios.
+
+## Pontos-chave
+
+- Uma LLP é feita para vários sócios, muitas vezes em profissões regulamentadas.
+- Ela geralmente protege um sócio da responsabilidade por erros profissionais ou atos ilícitos de outros sócios.
+- É uma proteção diferente do escudo geral de responsabilidade de uma LLC.

@@ -5,45 +5,83 @@ officialTrackName: Business
 level: 1
 lessonNumber: 1
 locale: pt-PT
-title: "O que é uma empresa? (Trabalho por conta própria versus propriedade empresarial)"
-summary: "Aprenda o conceito central desta lição e aplique-o a decisões empresariais práticas."
+title: "O que é um negócio? (Trabalho por conta própria vs. ser dono de uma empresa)"
+summary: "Aprenda a diferença funcional entre trabalhar por conta própria e ser verdadeiramente dono de uma empresa, e porque é que só um deles pode ganhar escala."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é uma empresa? (Trabalho por conta própria versus propriedade empresarial)
+# O que é um negócio? (Trabalho por conta própria vs. ser dono de uma empresa)
 
 ## Objetivos de aprendizagem
-- Definir o conceito em termos empresariais claros.
-- Explicar por que é importante para uma empresa.
-- Aplicar o conceito a uma situação prática.
+
+No final desta lição, deverá ser capaz de:
+
+- definir trabalho por conta própria e propriedade de uma empresa em termos funcionais.
+- aplicar um teste simples para classificar qualquer negócio que conheça numa das duas categorias.
+- explicar porque é que esta distinção determina se um negócio pode ganhar escala.
 
 ## Conteúdo principal
-Esta lição desenvolve literacia empresarial ligando estrutura, finanças, risco, clientes e crescimento. O objetivo não é apenas memorizar uma definição, mas compreender como o conceito influencia decisões reais.
+
+### A pergunta por detrás das palavras
+
+Pergunte a si próprio: se o dono de um negócio desaparecesse durante um mês, o que aconteceria? Continuaria a funcionar ou ficaria parado? Essa única pergunta é a verdadeira diferença entre trabalhar por conta própria e ser verdadeiramente dono de uma empresa: não o que dizem os papéis, nem o nome que a pessoa dá a si própria.
+
+### As definições funcionais
+
+**Trabalho por conta própria**: o negócio é a pessoa. As receitas param ou caem a pique no momento em que a pessoa deixa de trabalhar: não existe qualquer camada de pessoal ou de sistema entre o seu trabalho e o dinheiro que entra.
+
+**Propriedade de uma empresa**: o negócio é um sistema (pessoal, processos, estrutura) capaz de gerar receitas com pouca ou nenhuma dependência do trabalho do dono, hora a hora.
+
+Nenhum dos dois é "melhor". Uma fotógrafa freelancer que marca os seus próprios clientes trabalha por conta própria segundo esta definição; a mesma fotógrafa, depois de contratar e formar um assistente para tratar do trabalho com os clientes, aproxima-se da propriedade de uma empresa. A mesma pessoa, uma estrutura diferente.
+
+### Porque é que isto determina se pode crescer
+
+Uma pessoa tem um número limitado de horas. O rendimento de quem trabalha por conta própria está limitado pelas suas horas, por mais competente que seja. Uma verdadeira empresa, construída como sistema, não tem esse limite, porque não depende das horas de uma única pessoa para funcionar. Isto não é um juízo sobre o trabalho por conta própria, que muitas pessoas escolhem deliberadamente: é apenas a razão mecânica pela qual só um dos dois consegue crescer para além de certo ponto.
 
 ## Exemplo prático
-Considere uma pequena empresa que precisa de decidir como organizar o trabalho, controlar custos e proteger a sua capacidade de continuar a operar. Aplique o conceito desta lição para identificar uma vantagem, um risco e a informação adicional necessária antes de tomar uma decisão.
 
-## Exercício
-Escolha uma empresa que conheça. Explique em poucas frases como este conceito aparece na atividade diária e que decisão poderia ser melhorada ao compreendê-lo.
+Pense na avó do Ntege, que é dona de uma loja de vestidos no Uganda. Para a família, ela é sem dúvida uma empresária. Mas faça a pergunta do mês de ausência: se ela não abrisse a loja, a loja ganharia dinheiro nessa semana na mesma? No caso da loja dela, a resposta é não: o negócio é o trabalho dela com uma montra à volta. Isto não é uma crítica. É apenas o teste funcional em ação, e é o primeiro degrau de uma escada que todo este percurso vai continuar a subir.
 
-## Questionário
-1. Qual é o objetivo principal deste conceito? A. Apenas terminologia B. Apoiar melhores decisões empresariais C. Servir apenas grandes empresas D. Eliminar todo o risco
-2. Verdadeiro ou falso: os conceitos empresariais devem frequentemente ser analisados em conjunto com outros dados.
-3. Qual é a melhor utilização do conhecimento? A. Memorizar sem aplicar B. Usá-lo para avaliar uma decisão real C. Ignorar o contexto D. Assumir que todas as empresas são iguais
+## Teste de prática
 
-## Respostas
+1. Que pergunta testa melhor se algo é trabalho por conta própria ou verdadeira propriedade de uma empresa?
+   A. Quanto dinheiro ganha?
+   B. O que aconteceria se o dono desaparecesse durante um mês?
+   C. Está legalmente constituído como sociedade?
+   D. Quantos clientes tem?
+
+2. Verdadeiro ou falso: trabalhar por conta própria é sempre uma versão inferior ou falhada de ser dono de uma empresa.
+
+3. Porque é que o trabalho por conta própria tem um teto de rendimento que a verdadeira propriedade de uma empresa não tem?
+   A. Quem trabalha por conta própria é menos competente
+   B. O rendimento está limitado pelas horas disponíveis de uma única pessoa
+   C. Quem trabalha por conta própria paga mais impostos
+   D. Não existe um verdadeiro teto em nenhum dos casos
+
+## Chave de Respostas
+
 1. B
-2. Verdadeiro
+2. Falso
 3. B
 
-## Explicação das respostas
-1. B — a literacia empresarial deve melhorar a capacidade de decisão.
-2. Verdadeiro — estrutura, dinheiro, risco e operações estão interligados.
-3. B — o conhecimento transforma-se em competência quando é aplicado.
+## Respostas e explicações
 
-## Pontos principais
-- Compreenda o conceito e não apenas o nome.
-- Relacione-o com custos, risco, capacidade e controlo.
-- Verifique regras específicas do país ou setor quando forem relevantes.
+### Pergunta 1
+
+Resposta correta: B. O teste do "desaparecer durante um mês" revela se o negócio depende do trabalho contínuo do dono.
+
+### Pergunta 2
+
+Resposta correta: Falso. Trabalhar por conta própria pode ser uma escolha deliberada, válida e bem-sucedida: esta lição não coloca os dois por ordem de mérito.
+
+### Pergunta 3
+
+Resposta correta: B. Uma pessoa tem um número fixo de horas; um negócio assente num sistema não tem o mesmo limite.
+
+## Pontos-chave
+
+- O verdadeiro teste: o negócio depende do trabalho contínuo do dono ou funciona como um sistema?
+- Não é a forma jurídica que determina a resposta, mas sim o funcionamento.
+- Só um negócio assente num sistema consegue crescer para além dos limites do tempo de uma pessoa.

@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-019
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 19
 locale: pt-BR
-source_locale: en-US
-title: "Precificação Competitiva"
-summary: ""
+title: "O que é uma fatura, e por que as condições de pagamento importam tanto?"
+summary: "Aprenda o que é uma fatura e como as condições de pagamento se ligam diretamente à lição sobre fluxo de caixa."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-019: Precificação Competitiva
+# O que é uma fatura, e por que as condições de pagamento importam tanto?
 
-## Objetivos de Aprendizagem
-1. Definir precificação competitiva.
-2. Identificar o raciocínio geral por trás de definir preços em relação aos concorrentes.
-3. Reconhecer um risco de depender apenas da precificação competitiva.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Precificação competitiva significa definir um preço principalmente com referência ao que os concorrentes cobram por produtos ou serviços semelhantes, em vez de partir apenas do custo interno ou do valor percebido pelo cliente. *SUPOSIÇÃO:* Essa abordagem é comumente usada em mercados onde os produtos são semelhantes entre fornecedores, e os clientes podem comparar preços facilmente, tornando o preço relativo um fator significativo na decisão de compra.
+Ao final desta lição, você deverá ser capaz de:
 
-*FATO VERIFICADO:* Um risco comumente citado da precificação competitiva é que ela pode levar a uma corrida rumo ao preço mais baixo, espremendo as margens em todo um mercado se os negócios competirem principalmente em preço em vez de se diferenciarem por qualidade, serviço, ou marca.
+- definir fatura em termos simples.
+- definir condições de pagamento e dar um exemplo.
+- ligar as condições de pagamento diretamente à lição sobre fluxo de caixa.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Vários postos de gasolina na mesma rua geralmente precificam dentro de poucos centavos uns dos outros, já que os clientes podem ver e comparar preços facilmente ao passar de carro. Um posto que precificasse significativamente mais alto sem oferecer algo diferente — como uma loja de conveniência, lava-rápido, ou melhor localização — provavelmente perderia clientes para os concorrentes vizinhos.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é precificação competitiva?
-2. Em que tipo de mercado a precificação competitiva é comumente usada?
-3. Verdadeiro/Falso: A precificação competitiva não traz nenhum risco para as margens de lucro.
-4. O que pode ajudar um negócio a evitar uma pura corrida de preços sob precificação competitiva?
+### O que é uma fatura
+
+Uma fatura é uma cobrança formal enviada por um negócio a um cliente, detalhando o que foi fornecido e quanto é devido. (No Brasil, muitas vendas também exigem a emissão de nota fiscal.)
+
+### O que são condições de pagamento
+
+As condições de pagamento definem quando o pagamento realmente vence, muitas vezes expressas como "Net 30" (no Brasil, algo como "30 dias após a emissão"), o que significa que o pagamento vence 30 dias após a data da fatura.
+
+### A ligação direta com o fluxo de caixa
+
+Pergunte a si mesmo: como oferecer "Net 60" em vez de "Net 30" afeta o fluxo de caixa de um negócio, mesmo em uma venda idêntica? Prazos de pagamento mais longos significam esperar mais para de fato receber o dinheiro, aumentando exatamente o tipo de descompasso visto na lição sobre fluxo de caixa: um fator real e controlável na posição de caixa do próprio negócio.
+
+## Exemplo prático
+
+Um negócio oferece Net 30 a um cliente novo e Net 60 a um cliente maior e antigo, que negociou condições melhores. Pergunte a si mesmo: isso cria prazos de caixa diferentes para vendas do mesmo tamanho? Sim: o pagamento do cliente Net 60 chega um mês inteiro depois, o que significa que o negócio precisa cobrir as próprias despesas por mais tempo antes de receber.
+
+## Teste de prática
+
+1. Uma fatura é:
+   A. Um tipo de licença comercial
+   B. Uma cobrança formal que detalha o que é devido
+   C. O demonstrativo financeiro anual de uma empresa
+   D. Um material de marketing
+
+2. Verdadeiro ou falso: "Net 30" significa que o pagamento vence imediatamente ao receber a fatura.
+
+3. Como prazos de pagamento mais longos afetam o fluxo de caixa de um negócio?
+   A. Não têm nenhum efeito
+   B. Aumentam o descompasso antes de o dinheiro ser de fato recebido
+   C. Garantem pagamento mais rápido
+   D. Eliminam a necessidade de emitir faturas
 
 ## Gabarito
-1. Definir um preço principalmente com referência aos preços dos concorrentes   2. Mercados com produtos semelhantes onde os clientes comparam preços facilmente   3. Falso   4. Diferenciar-se por qualidade, serviço, ou marca em vez de competir puramente em preço
 
-## Respostas e Explicações
-1. Esta é a definição fundamental da precificação competitiva.
-2. Isso descreve as condições de mercado onde a precificação competitiva é comumente aplicada.
-3. Competir principalmente em preço pode espremer as margens em todo um mercado.
-4. A diferenciação reduz a pressão de competir puramente em preço.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- A precificação competitiva define o preço principalmente com referência ao que os concorrentes cobram.
-- É comumente usada onde os produtos são semelhantes e os preços são fáceis de comparar.
-- Depender apenas dela traz o risco de uma corrida rumo ao preço mais baixo que espreme as margens.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Uma fatura é uma cobrança formal.
+
+### Pergunta 2
+
+Resposta correta: Falso. "Net 30" significa que o pagamento vence 30 dias após a data da fatura, e não imediatamente.
+
+### Pergunta 3
+
+Resposta correta: B. Prazos mais longos aumentam o descompasso no fluxo de caixa.
+
+## Pontos-chave
+
+- Uma fatura é uma cobrança formal.
+- As condições de pagamento definem quando o pagamento realmente vence.
+- Prazos de pagamento mais longos aumentam diretamente o descompasso no fluxo de caixa de um negócio.

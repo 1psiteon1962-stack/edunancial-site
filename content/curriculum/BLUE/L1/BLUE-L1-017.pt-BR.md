@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-017
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 17
 locale: pt-BR
-source_locale: en-US
-title: "Precificação Baseada em Custos"
-summary: ""
+title: "O que é capital inicial, e de onde ele realmente vem?"
+summary: "Aprenda para que serve o capital inicial e as fontes comuns que as pessoas usam antes mesmo de procurar investidores de fora."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-017: Precificação Baseada em Custos
+# O que é capital inicial, e de onde ele realmente vem?
 
-## Objetivos de Aprendizagem
-1. Definir precificação baseada em custos.
-2. Calcular um preço simples baseado em custos.
-3. Identificar uma limitação de depender apenas da precificação baseada em custos.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Precificação baseada em custos significa calcular o custo de produzir um produto ou prestar um serviço, e então adicionar uma margem fixa sobre isso para definir o preço de venda. *FATO VERIFICADO:* Preço = Custo + (Custo × Porcentagem de Margem Desejada).
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Uma limitação comumente citada da precificação baseada em custos é que ela ignora o que os clientes realmente estão dispostos a pagar — um negócio poderia subprecificar uma oferta muito valorizada, ou superprecificar uma que os clientes não valorizam tanto quanto o custo sugere, já que o método parte inteiramente dos custos internos em vez da demanda externa.
+- definir capital inicial em termos simples.
+- citar fontes comuns de capital inicial.
+- reconhecer que o investimento de fora é só um entre vários caminhos.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um fabricante de móveis calcula que uma cadeira custa $80 em materiais e mão de obra para produzir. Querendo uma margem de 50%, ele a precifica em $80 + ($80 × 0,50) = $120. Este método dá um preço claro e defensável, mas não considera se os clientes pagariam alegremente $150 pela mesma cadeira, ou se $120 já é alto demais para esse mercado.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é precificação baseada em custos?
-2. Qual é a fórmula da precificação baseada em custos?
-3. Se um produto custa $50 e a margem desejada é 40%, qual é o preço?
-4. O que a precificação baseada em custos comumente deixa de considerar?
+### O que é capital inicial
+
+Capital inicial é o dinheiro necessário para lançar um negócio: cobre coisas como estoque inicial, equipamentos, licenças e custos fixos suficientes para sobreviver até o negócio gerar a própria receita.
+
+### De onde ele realmente vem
+
+Pergunte a si mesmo: todo negócio começa com o cheque de um investidor? As fontes comuns incluem economias pessoais, dinheiro de amigos ou familiares, empréstimos para pequenas empresas e renda reinvestida de outro emprego ou de um negócio paralelo. Investidores de fora e capital de risco, que muitas vezes são a primeira imagem que as pessoas têm, são só um caminho entre vários, e nem sempre o mais comum para um pequeno negócio.
+
+### Por que isso importa
+
+Entender essas fontes diferentes importa porque cada uma vem com trocas diferentes: um empréstimo precisa ser pago, não importa como o negócio vá; um investidor normalmente quer em troca uma participação (propriedade), um conceito visto com mais detalhe no material de OPM do Nível 3.
+
+## Exemplo prático
+
+Quem está começando um pequeno negócio de paisagismo pode usar economias pessoais para comprar equipamentos, nem procurar investidores de fora e crescer com a renda inicial do próprio negócio. Pergunte a si mesmo: esse é um jeito menor ou menos "de verdade" de começar um negócio do que captar dinheiro de investidores? De jeito nenhum: é só uma fonte de capital diferente, com trocas diferentes.
+
+## Teste de prática
+
+1. Capital inicial se refere a:
+   A. Só o dinheiro captado com investidores
+   B. O dinheiro necessário para lançar um negócio
+   C. A receita anual de um negócio
+   D. Um tipo de imposto sobre empresas
+
+2. Verdadeiro ou falso: investidores de fora são a fonte mais comum de capital inicial para pequenos negócios.
+
+3. Qual é uma troca importante de usar um empréstimo como capital inicial, em comparação com o dinheiro de um investidor?
+   A. Empréstimos nunca precisam ser pagos
+   B. Um empréstimo geralmente precisa ser pago, não importa como o negócio vá
+   C. Empréstimos sempre exigem abrir mão de participação
+   D. Não há diferença real
 
 ## Gabarito
-1. Calcular o custo, e então adicionar uma margem fixa para definir o preço   2. Preço = Custo + (Custo × Porcentagem de Margem Desejada)   3. $70   4. O que os clientes realmente estão dispostos a pagar
 
-## Respostas e Explicações
-1. Esta é a definição fundamental da precificação baseada em custos.
-2. Esta é a fórmula padrão da precificação baseada em custos.
-3. $50 + ($50 × 0,40) = $50 + $20 = $70.
-4. A precificação baseada em custos parte dos custos internos, não da demanda externa do cliente.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- A precificação baseada em custos define o preço adicionando uma margem fixa ao custo de produção.
-- A fórmula é direta: Custo + (Custo × Porcentagem de Margem).
-- Ela comumente ignora o que os clientes realmente estão dispostos a pagar.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Capital inicial é o dinheiro necessário para lançar um negócio.
+
+### Pergunta 2
+
+Resposta correta: Falso. Economias pessoais e outras fontes são comuns, muitas vezes mais do que investidores de fora para pequenos negócios.
+
+### Pergunta 3
+
+Resposta correta: B. Um empréstimo geralmente exige pagamento independentemente do desempenho do negócio, ao contrário de um investimento em participação.
+
+## Pontos-chave
+
+- Capital inicial é o dinheiro necessário para lançar um negócio.
+- As fontes comuns incluem economias pessoais, família e amigos, empréstimos e renda reinvestida, e não só investidores de fora.
+- Cada fonte traz trocas diferentes, principalmente entre pagar de volta e abrir mão de propriedade.

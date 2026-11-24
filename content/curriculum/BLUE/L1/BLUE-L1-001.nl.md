@@ -5,83 +5,83 @@ officialTrackName: Business
 level: 1
 lessonNumber: 1
 locale: nl
-title: "Wat is een bedrijf? (Zelfstandigheid versus bedrijfseigendom)"
-summary: "Leer het functionele verschil tussen zelfstandigheid en echt bedrijfseigendom, en waarom slechts één daarvan kan opschalen."
+title: "Wat is een bedrijf? (Zelfstandig ondernemen vs. bedrijfseigendom)"
+summary: "Leer het functionele verschil tussen zelfstandig ondernemen en echt bedrijfseigendom, en waarom maar één van de twee kan opschalen."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Wat is een bedrijf? (Zelfstandigheid versus bedrijfseigendom)
+# Wat is een bedrijf? (Zelfstandig ondernemen vs. bedrijfseigendom)
 
 ## Leerdoelen
 
-Na deze les kun je:
+Aan het einde van deze les moet je in staat zijn om:
 
-- Zelfstandigheid en bedrijfseigendom in functionele termen definiëren.
-- Een eenvoudige test toepassen om een bedrijf als het een of het ander te classificeren.
-- Uitleggen waarom dit onderscheid bepaalt of een bedrijf kan opschalen.
+- zelfstandig ondernemen en bedrijfseigendom in functionele termen te definiëren.
+- een eenvoudige test toe te passen om elk bedrijf dat je kent in de ene of de andere categorie in te delen.
+- uit te leggen waarom dit onderscheid bepaalt of een bedrijf kan opschalen.
 
 ## Kerninhoud
 
 ### De vraag achter de woorden
 
-Vraag jezelf af: als de eigenaar van een bedrijf een maand zou verdwijnen, wat zou er dan gebeuren? Zou het blijven draaien of stilvallen? Die ene vraag vormt het echte verschil tussen zelfstandigheid en werkelijk bedrijfseigendom — niet wat de papieren zeggen en niet hoe iemand zichzelf noemt.
+Vraag jezelf af: als de eigenaar van een bedrijf een maand zou verdwijnen, wat zou er dan gebeuren? Zou het blijven draaien of stilvallen? Die ene vraag is het echte verschil tussen zelfstandig ondernemen en echt bedrijfseigendom: niet wat de papieren zeggen, niet hoe iemand zichzelf noemt.
 
 ### De functionele definities
 
-**Zelfstandigheid**: het bedrijf is de persoon. De omzet stopt of daalt sterk zodra die persoon stopt met werken — er is geen laag van personeel of systemen tussen zijn of haar arbeid en het binnenkomende geld.
+**Zelfstandig ondernemen**: het bedrijf is de persoon. De omzet stopt of daalt sterk zodra de persoon stopt met werken: er zit geen laag van personeel of systemen tussen zijn arbeid en het geld dat binnenkomt.
 
-**Bedrijfseigendom**: het bedrijf is een systeem — personeel, processen en structuur — dat omzet kan genereren met minder of geen afhankelijkheid van het werk van de eigenaar van uur tot uur.
+**Bedrijfseigendom**: het bedrijf is een systeem (personeel, processen, structuur) dat omzet kan genereren met weinig of geen afhankelijkheid van de arbeid van de eigenaar, uur voor uur.
 
-Geen van beide is "beter". Een freelancefotograaf die haar eigen klanten boekt is volgens deze definitie zelfstandig; dezelfde fotograaf komt dichter bij bedrijfseigendom nadat zij een medewerker heeft aangenomen en opgeleid om klantwerk uit te voeren. Dezelfde persoon, een andere structuur.
+Geen van beide is "beter". Een freelance fotografe die haar eigen klanten boekt, is volgens deze definitie zelfstandig ondernemer; dezelfde fotografe die een medewerker heeft aangenomen en opgeleid om het klantwerk te doen, komt dichter bij bedrijfseigendom. Dezelfde persoon, een andere structuur.
 
-### Waarom dit bepaalt of je kunt opschalen
+### Waarom het bepaalt of je kunt opschalen
 
-Eén persoon heeft maar een beperkt aantal uren. Het inkomen van een zelfstandige wordt begrensd door zijn of haar eigen uren, ongeacht de vaardigheid. Een echt bedrijf dat als systeem is gebouwd heeft diezelfde beperking niet, omdat het niet afhankelijk is van de uren van één persoon. Dat is geen oordeel over zelfstandigheid, die veel mensen bewust kiezen; het is simpelweg de mechanische reden waarom slechts één van de twee voorbij een bepaald punt kan groeien.
+Eén persoon heeft maar zoveel uren. Het inkomen van een zelfstandige wordt begrensd door zijn eigen uren, hoe bekwaam hij ook is. Een echt bedrijf, opgebouwd als systeem, kent die grens niet, omdat het voor zijn werking niet afhangt van de uren van één persoon. Dit is geen oordeel over zelfstandig ondernemen, waar veel mensen bewust voor kiezen: het is gewoon de mechanische reden waarom maar één van de twee voorbij een bepaald punt kan groeien.
 
-## Uitgewerkt voorbeeld
+## Praktijkvoorbeeld
 
-Denk aan Ntege's grootmoeder, die in Oeganda een kledingwinkel heeft. Haar familie beschouwt haar terecht als bedrijfseigenaar. Maar stel de vraag: als zij de winkel een maand niet zou openen, zou die dan die week nog geld verdienen? Voor haar winkel is het antwoord nee — het bedrijf bestaat uit haar arbeid met een winkel eromheen. Dat is geen kritiek. Het is de functionele test in de praktijk en de eerste trede van een ladder die in dit hele traject terugkomt.
+Denk aan de grootmoeder van Ntege, die een kledingwinkel heeft in Oeganda. Volgens haar familie is ze absoluut een ondernemer. Maar stel de verdwijn-een-maand-vraag: als zij de winkel niet zou openen, zou die dan die week nog geld opleveren? Voor haar winkel is het antwoord nee: het bedrijf is haar arbeid met een etalage eromheen. Dat is geen kritiek. Het is gewoon de functionele test in actie, en de eerste sport van een ladder die dit hele leerpad verder zal beklimmen.
 
 ## Oefenquiz
 
-1. Welke vraag test het beste of iets zelfstandigheid of echt bedrijfseigendom is?
+1. Welke vraag test het best of iets zelfstandig ondernemen of echt bedrijfseigendom is?
    A. Hoeveel geld verdient het?
-   B. Wat zou er gebeuren als de eigenaar een maand verdween?
-   C. Is het juridisch opgericht?
+   B. Wat zou er gebeuren als de eigenaar een maand zou verdwijnen?
+   C. Is het juridisch als vennootschap opgericht?
    D. Hoeveel klanten heeft het?
 
-2. Waar of niet waar: zelfstandigheid is altijd een mindere of mislukte vorm van bedrijfseigendom.
+2. Waar of onwaar: zelfstandig ondernemen is altijd een mindere of mislukte vorm van bedrijfseigendom.
 
-3. Waarom heeft zelfstandigheid een inkomensplafond dat echt bedrijfseigendom niet heeft?
-   A. Zelfstandigen zijn minder vaardig.
-   B. Het inkomen wordt begrensd door de beschikbare uren van één persoon.
-   C. Zelfstandigen betalen hogere belastingen.
-   D. Geen van beide heeft een echt plafond.
+3. Waarom heeft zelfstandig ondernemen een inkomensplafond dat echt bedrijfseigendom niet heeft?
+   A. Zelfstandigen zijn minder bekwaam
+   B. Het inkomen wordt begrensd door de beschikbare uren van één persoon
+   C. Zelfstandigen betalen meer belasting
+   D. In geen van beide gevallen is er een echt plafond
 
 ## Antwoordsleutel
 
 1. B
-2. Niet waar
+2. Onwaar
 3. B
 
 ## Antwoorden en uitleg
 
 ### Vraag 1
 
-Juist antwoord: B. De "een maand verdwijnen"-test laat zien of het bedrijf afhankelijk is van de voortdurende arbeid van de eigenaar.
+Juist antwoord: B. De test "een maand verdwijnen" laat zien of het bedrijf afhangt van de doorlopende arbeid van de eigenaar.
 
 ### Vraag 2
 
-Juist antwoord: niet waar. Zelfstandigheid kan een bewuste, geldige en succesvolle keuze zijn — deze les rangschikt de twee niet.
+Juist antwoord: Onwaar. Zelfstandig ondernemen kan een bewuste, geldige en succesvolle keuze zijn: deze les zet de twee niet in een rangorde.
 
 ### Vraag 3
 
-Juist antwoord: B. Eén persoon heeft een vast aantal uren; een bedrijf dat op een systeem is gebaseerd heeft niet dezelfde beperking.
+Juist antwoord: B. Eén persoon heeft een vast aantal uren; een bedrijf dat op een systeem draait, kent die grens niet op dezelfde manier.
 
 ## Belangrijkste punten
 
-- De echte test: is het bedrijf afhankelijk van de voortdurende arbeid van de eigenaar, of draait het als systeem?
-- De juridische structuur bepaalt het antwoord niet — de werking wel.
-- Alleen een op systemen gebaseerd bedrijf kan opschalen voorbij de grenzen van de tijd van één persoon.
+- De echte test: hangt het bedrijf af van de doorlopende arbeid van de eigenaar, of draait het als een systeem?
+- De rechtsvorm bepaalt het antwoord niet; de werking wel.
+- Alleen een bedrijf dat op een systeem draait, kan groeien voorbij de grenzen van de tijd van één persoon.

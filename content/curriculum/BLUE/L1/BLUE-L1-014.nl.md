@@ -5,76 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 14
 locale: nl
-title: "Wat is een bedrijfsplan en voor wie is het eigenlijk bedoeld?"
-summary: "Leer wat een bedrijfsplan hoort te doen en waarom het meestal meer dan één werkelijk publiek heeft."
+title: "Wat is een ondernemingsplan, en voor wie is het eigenlijk?"
+summary: "Leer waar een ondernemingsplan voor dient en waarom het meestal meer dan één echte doelgroep heeft."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Wat is een bedrijfsplan en voor wie is het eigenlijk bedoeld?
+# Wat is een ondernemingsplan, en voor wie is het eigenlijk?
 
 ## Leerdoelen
 
-Na deze les kun je:
+Aan het einde van deze les moet je in staat zijn om:
 
-- Een bedrijfsplan in eenvoudige termen definiëren.
-- Benoemen voor wie een bedrijfsplan doorgaans bedoeld is.
-- Uitleggen waarom het schrijven ervan de eigenaar helpt, zelfs zonder externe lezers.
+- een ondernemingsplan in eenvoudige woorden te definiëren.
+- te benoemen voor wie een ondernemingsplan doorgaans bedoeld is.
+- uit te leggen waarom het schrijven ervan de eigenaar helpt, ook zonder externe lezers.
 
 ## Kerninhoud
 
-### Wat een bedrijfsplan werkelijk is
+### Wat een ondernemingsplan eigenlijk is
 
-Een bedrijfsplan is een schriftelijk document waarin staat wat een bedrijf doet, wie het bedient, hoe het geld verdient en hoe het van plan is te opereren en te groeien.
+Een ondernemingsplan is een schriftelijk document dat beschrijft wat een bedrijf doet, voor wie het werkt, hoe het geld verdient en hoe het wil werken en groeien.
 
 ### Vraag jezelf af voor wie het werkelijk is
 
-Als je geen lening of investeerder zoekt, is een bedrijfsplan dan nog steeds de moeite waard? Vaak wel — omdat een bedrijfsplan meer dan één werkelijk publiek heeft. Het wordt geschreven voor externe lezers, zoals kredietverstrekkers en investeerders, maar is net zo goed een hulpmiddel voor het eigen denken van de eigenaar, omdat het antwoorden afdwingt op vragen die bij informeel plannen gemakkelijk worden overgeslagen.
+Als je geen lening of investeerder zoekt, is een ondernemingsplan dan nog de moeite van het schrijven waard? Vaak wel, omdat een ondernemingsplan meer dan één echte doelgroep heeft. Het wordt geschreven voor externe lezers (geldverstrekkers, investeerders), maar het is net zo goed een denkinstrument voor de eigenaar zelf, omdat het je dwingt antwoorden te geven op vragen die je bij informeel plannen makkelijk overslaat.
 
-### Waarom schrijven de eigenaar rechtstreeks helpt
+### Waarom het schrijven de eigenaar direct helpt
 
-Het schrijven dwingt specificiteit af: wie is precies de klant, hoe gaat het bedrijf precies geld verdienen, wat kost het precies om te starten en te draaien? Vage ideeën die in een gesprek prima klinken, tonen vaak echte gaten zodra iemand ze duidelijk moet opschrijven.
+Schrijven dwingt tot precisie: wie is precies de klant, hoe gaat het bedrijf precies geld verdienen, wat kost het precies om te starten en te draaien. Vage ideeën die in een gesprek prima klinken, laten vaak echte gaten zien zodra je ze duidelijk moet opschrijven.
 
-## Uitgewerkt voorbeeld
+## Praktijkvoorbeeld
 
-Iemand met een bedrijfsidee waar hij enthousiast over is gaat een plan schrijven en ontdekt dat hij niet duidelijk kan antwoorden op "wie is precies mijn klant?" — een vraag waarmee hij in informele gesprekken nooit echt werd geconfronteerd. Was het schrijven van het plan tijdverspilling als geen kredietverstrekker het ooit leest? Niet als het die leemte aan het licht bracht voordat echt geld werd uitgegeven.
+Iemand die enthousiast is over een bedrijfsidee gaat een plan schrijven en merkt onderweg dat hij niet duidelijk kan antwoorden op de vraag "wie is precies mijn klant": een vraag waar hij in informele gesprekken over het idee nooit mee was geconfronteerd. Vraag jezelf af: was het schrijven van het plan tijdverspilling als geen enkele geldverstrekker het ooit leest? Niet als het dat gat aan het licht bracht voordat er echt geld werd uitgegeven.
 
 ## Oefenquiz
 
-1. Een bedrijfsplan beschrijft primair:
-   A. Alleen de belastingaangiften.
-   B. Wat het bedrijf doet, wie het bedient en hoe het opereert en groeit.
-   C. Alleen het persoonlijke cv van de oprichter.
-   D. Een lijst met logo's van concurrenten.
+1. Een ondernemingsplan beschrijft vooral:
+   A. Alleen de belastingaangiften van het bedrijf
+   B. Wat het bedrijf doet, voor wie het werkt en hoe het werkt en groeit
+   C. Alleen het persoonlijke cv van de oprichter
+   D. Een lijst met logo's van concurrenten
 
-2. Waar of niet waar: een bedrijfsplan is alleen nuttig als het aan een externe kredietverstrekker of investeerder wordt getoond.
+2. Waar of onwaar: een ondernemingsplan is alleen nuttig als het aan een externe geldverstrekker of investeerder wordt getoond.
 
-3. Wat is één voordeel van een bedrijfsplan schrijven zonder externe lezers?
-   A. Het heeft zonder externe lezers geen voordeel.
-   B. Het dwingt specifieke antwoorden af op vragen die bij informeel plannen gemakkelijk worden overgeslagen.
-   C. Het garandeert zakelijk succes.
-   D. Het vervangt de noodzaak van een bedrijfsvergunning.
+3. Wat is een voordeel van het schrijven van een ondernemingsplan, ook zonder externe lezers?
+   A. Zonder externe lezers heeft het geen voordeel
+   B. Het dwingt tot precieze antwoorden op vragen die je bij informeel plannen makkelijk overslaat
+   C. Het garandeert het succes van het bedrijf
+   D. Het vervangt de noodzaak van een bedrijfsvergunning
 
 ## Antwoordsleutel
 
 1. B
-2. Niet waar
+2. Onwaar
 3. B
 
 ## Antwoorden en uitleg
 
 ### Vraag 1
-Juist antwoord: B. Een bedrijfsplan behandelt wat het bedrijf doet, wie het bedient en hoe het opereert.
+
+Juist antwoord: B. Een ondernemingsplan beschrijft wat het bedrijf doet, voor wie het werkt en hoe het werkt.
 
 ### Vraag 2
-Juist antwoord: niet waar. Het is ook een waardevol denkinstrument voor de eigenaar, ongeacht externe lezers.
+
+Juist antwoord: Onwaar. Het is ook een waardevol denkinstrument voor de eigenaar, ongeacht externe lezers.
 
 ### Vraag 3
-Juist antwoord: B. Het schrijfproces dwingt specificiteit af die bij informeel denken vaak ontbreekt.
+
+Juist antwoord: B. Het schrijven dwingt tot een precisie die informeel denken vaak overslaat.
 
 ## Belangrijkste punten
 
-- Een bedrijfsplan dient zowel externe lezers als het eigen denken van de eigenaar.
-- Het schrijven dwingt specifieke antwoorden af op vragen die gemakkelijk vaag blijven.
-- Het is waardevol, zelfs als geen externe kredietverstrekker of investeerder het ooit leest.
+- Een ondernemingsplan dient zowel externe lezers als het eigen denkwerk van de eigenaar.
+- Het schrijven ervan dwingt tot precieze antwoorden op vragen die je makkelijk vaag laat.
+- Het is waardevol, ook als geen externe geldverstrekker of investeerder het ooit leest.
