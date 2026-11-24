@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 10
 locale: it
-title: "Cos'è il Capitale Proprio di un'Azienda?"
-summary: "Il capitale proprio in un'azienda rappresenta la quota del proprietario nella società — essenzialmente ciò che rimarrebbe se tutti gli attivi fossero venduti e tutti i debiti fossero saldati."
+title: "Scegliere una struttura d'impresa: quali domande dovresti porti per prime?"
+summary: "Collega le strutture viste finora in un quadro decisionale pratico."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-010: Cos'è il Capitale Proprio di un'Azienda?
+# Scegliere una struttura d'impresa: quali domande dovresti porti per prime?
 
-## Obiettivi di Apprendimento
-1. Definire il capitale proprio di un'azienda in termini semplici.
-2. Distinguere il capitale proprio da ricavi e profitto.
-3. Spiegare come il capitale proprio può cambiare nel tempo.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il capitale proprio in un'azienda rappresenta la quota del proprietario nella società — essenzialmente ciò che rimarrebbe se tutti gli attivi fossero venduti e tutti i debiti fossero saldati. *FATTO VERIFICATO:* Capitale Proprio = Attivi − Passivi.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Il capitale proprio generalmente cresce quando un'azienda trattiene i profitti (invece di distribuirli interamente ai proprietari) o quando i proprietari immettono capitale aggiuntivo, e può diminuire quando l'azienda subisce perdite o debiti che superano i suoi attivi.
+- elencare le domande chiave che restringono la scelta della struttura d'impresa adatta.
+- applicare quelle domande a un semplice scenario ipotetico.
+- riconoscere che questo è un quadro di partenza, non una consulenza personalizzata.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Una piccola azienda ha $80.000 di attivi (attrezzature, magazzino, contanti) e $30.000 di debiti in essere. Capitale Proprio = $80.000 − $30.000 = $50.000. Se l'azienda ha un buon anno e trattiene $10.000 di profitto invece di distribuirlo interamente, il capitale proprio cresce a $60.000 — la quota del proprietario è aumentata anche senza vendere nulla.
+## Contenuto principale
 
-## Quiz Pratico
-1. Qual è la formula del capitale proprio di un'azienda?
-2. Cosa rappresenta il capitale proprio, in termini semplici?
-3. Vero/Falso: Il capitale proprio è la stessa cosa dei ricavi.
-4. Se un'azienda ha $100.000 di attivi e $40.000 di passivi, qual è il suo capitale proprio?
+### Le domande da porsi per prime
 
-## Chiave di Risposte
-1. Attivi − Passivi   2. La quota del proprietario nell'azienda   3. Falso   4. $60.000
+Prima di entrare nei dettagli legali, chiediti: quanti proprietari ci sono? Quanta protezione dalla responsabilità personale serve davvero, visto il livello di rischio dell'attività? Si tratta di una professione abilitata con proprie norme sulla struttura? Ridurre al minimo la doppia imposizione è una priorità? Da sole queste domande non danno una risposta definitiva, ma restringono molto il campo.
 
-## Risposte e Spiegazioni
-1. Questo è il calcolo standard del capitale proprio.
-2. Questo è il significato centrale del capitale proprio in un contesto aziendale.
-3. I ricavi sono il denaro in entrata dalle vendite; il capitale proprio è la quota complessiva del proprietario nell'azienda.
-4. $100.000 − $40.000 = $60.000.
+### Ragionarci sopra
 
-## Punti Chiave da Ricordare
-- Capitale Proprio = Attivi − Passivi, rappresentando la quota del proprietario nell'azienda.
-- I profitti trattenuti e l'investimento di capitale aggiuntivo aumentano generalmente il capitale proprio.
-- Il capitale proprio è distinto da ricavi e profitto — riflette il valore complessivo di proprietà, non il flusso di reddito.
+Un proprietario unico con reali preoccupazioni di responsabilità e nessun interesse a raccogliere investitori esterni viene spesso indirizzato verso una LLC. Più professionisti abilitati potrebbero valutare una LLP. Un'attività che prevede di raccogliere capitali esterni significativi, o che vuole emettere molte azioni, viene spesso indirizzata verso una corporation: un collegamento con argomenti trattati più a fondo nel Livello 3.
+
+### Un limite importante
+
+*IMPORTANTE:* Questa lezione offre un quadro generale per capire, non una consulenza legale o fiscale personalizzata. Una decisione reale dovrebbe coinvolgere un professionista qualificato che esamini la situazione specifica: l'"analogia del medico", trattata più avanti in questo livello, spiega proprio perché vale la pena fare questo passo.
+
+## Esempio svolto
+
+Una persona che avvia da sola un'attività di giardinaggio, preoccupata per la responsabilità se l'attrezzatura danneggia la proprietà di qualcuno, applica il quadro: un proprietario, una reale preoccupazione di responsabilità, nessun bisogno immediato di raccogliere capitali esterni. Chiediti: verso quale struttura delle lezioni precedenti di questo livello punta questa combinazione? Una LLC si adatta bene a questo profilo.
+
+## Quiz di esercitazione
+
+1. Quale domanda è un utile punto di partenza nella scelta di una struttura d'impresa?
+   A. Di che colore dovrebbe essere il logo?
+   B. Quanti proprietari ci sono, e quanta protezione dalla responsabilità serve?
+   C. In che periodo dell'anno dovrebbe aprire l'attività?
+   D. Quanti follower sui social ha il proprietario?
+
+2. Vero o falso: il quadro di questa lezione sostituisce la consulenza legale o fiscale di un professionista.
+
+3. Un proprietario unico con reali preoccupazioni di responsabilità e nessun piano di raccogliere capitali esterni viene spesso indirizzato verso quale struttura?
+   A. Una general partnership
+   B. Una LLC
+   C. Una LLP
+   D. Un ente non profit
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il numero di proprietari e le esigenze di protezione sono domande di partenza fondamentali.
+
+### Domanda 2
+
+Risposta corretta: Falso. È un quadro generale, non un sostituto della consulenza professionale.
+
+### Domanda 3
+
+Risposta corretta: B. Quel profilo punta comunemente verso una LLC.
+
+## Punti chiave
+
+- Domande di partenza chiave: numero di proprietari, esigenze di protezione, tipo di professione e piani di raccolta di capitali.
+- Queste domande restringono il campo ma non sostituiscono la consulenza professionale.
+- Questo quadro si collega direttamente alle strutture viste in precedenza in questo livello.

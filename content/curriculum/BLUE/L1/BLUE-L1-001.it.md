@@ -5,44 +5,83 @@ officialTrackName: Business
 level: 1
 lessonNumber: 1
 locale: it
-title: "Cos'è Davvero un'Azienda?"
-summary: "*FATTO VERIFICATO:* Un'azienda è un'attività organizzata che offre ai clienti un prodotto o un servizio in cambio di pagamento, con l'intenzione di generare un profitto."
+title: "Che cos'è un'impresa? (Lavoro autonomo vs. proprietà d'impresa)"
+summary: "Scopri la differenza funzionale tra lavoro autonomo e vera proprietà d'impresa, e perché solo uno dei due può crescere su larga scala."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-001: Cos'è Davvero un'Azienda?
+# Che cos'è un'impresa? (Lavoro autonomo vs. proprietà d'impresa)
 
-## Obiettivi di Apprendimento
-1. Definire un'azienda in termini semplici.
-2. Identificare lo scambio fondamentale su cui si basa ogni azienda.
-3. Distinguere un'azienda da un hobby o da un lavoro dipendente.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*FATTO VERIFICATO:* Un'azienda è un'attività organizzata che offre ai clienti un prodotto o un servizio in cambio di pagamento, con l'intenzione di generare un profitto. Alla base, ogni azienda si fonda su uno scambio semplice: qualcuno ha un problema o un desiderio, e l'azienda offre una soluzione in cambio di denaro.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Ciò che generalmente distingue un'azienda da un hobby è l'intenzione di generare un profitto e la costanza dell'attività — un hobby che occasionalmente genera denaro non diventa automaticamente un'azienda, anche se il confine può risultare sfumato a seconda della scala e dell'intenzione.
+- definire in termini funzionali il lavoro autonomo e la proprietà d'impresa.
+- applicare un semplice test per classificare qualsiasi attività che conosci nell'una o nell'altra categoria.
+- spiegare perché questa distinzione determina se un'attività può crescere su larga scala.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Maria fa il pane per la sua famiglia ogni fine settimana — questo è un hobby. Quando i suoi vicini iniziano a chiederle di comprare del pane, e lei inizia a venderlo regolarmente con l'intenzione di guadagnare un reddito, quell'attività supera il confine e diventa un'azienda, anche se piccola e gestita dalla sua stessa cucina.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un'azienda, in termini semplici?
-2. Su quale scambio fondamentale si basa ogni azienda?
-3. Vero/Falso: Qualsiasi attività che occasionalmente genera denaro è automaticamente un'azienda.
-4. Cosa distingue generalmente un'azienda da un hobby?
+### La domanda dietro le parole
 
-## Chiave di Risposte
-1. Un'attività organizzata che offre un prodotto o un servizio in cambio di pagamento, con l'intenzione di generare un profitto   2. Risolvere un problema o un desiderio in cambio di denaro   3. Falso   4. L'intenzione di generare un profitto e la costanza dell'attività
+Chiediti: se il titolare di un'attività sparisse per un mese, che cosa succederebbe? Continuerebbe a funzionare o si bloccherebbe? Quella sola domanda è la vera differenza tra lavoro autonomo e vera proprietà d'impresa: non quello che dicono i documenti, non come qualcuno si definisce.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale di un'azienda.
-2. Questo scambio — valore in cambio di pagamento — è al centro di ogni modello di business.
-3. Un reddito occasionale non trasforma automaticamente qualcosa in un'azienda; l'intenzione e la costanza contano.
-4. Questi sono i fattori comunemente citati che distinguono un'azienda da un hobby.
+### Le definizioni funzionali
 
-## Punti Chiave da Ricordare
-- Un'azienda scambia un prodotto o un servizio per un pagamento con l'intenzione di generare un profitto.
-- Ogni azienda risolve un problema o soddisfa un desiderio per i suoi clienti.
-- L'intenzione di generare un profitto e la costanza distinguono generalmente un'azienda da un hobby.
+**Lavoro autonomo**: l'attività è la persona. I ricavi si fermano o calano bruscamente nel momento in cui la persona smette di lavorare: non c'è alcuno strato di personale o di sistema tra il suo lavoro e il denaro che entra.
+
+**Proprietà d'impresa**: l'attività è un sistema (personale, processi, struttura) in grado di generare ricavi con una dipendenza ridotta o nulla dal lavoro orario del titolare.
+
+Nessuna delle due è "migliore". Una fotografa freelance che prenota i propri clienti è, secondo questa definizione, una lavoratrice autonoma; la stessa fotografa, dopo aver assunto e formato un collaboratore che gestisce il lavoro con i clienti, si avvicina alla proprietà d'impresa. Stessa persona, struttura diversa.
+
+### Perché determina se puoi crescere
+
+Una persona ha un numero limitato di ore. Il reddito di un lavoratore autonomo è limitato dalle sue ore, per quanto sia bravo. Una vera impresa, costruita come sistema, non ha questo limite, perché per funzionare non dipende dalle ore di una sola persona. Non è un giudizio sul lavoro autonomo, che molte persone scelgono deliberatamente: è solo il motivo meccanico per cui solo uno dei due può crescere oltre un certo punto.
+
+## Esempio svolto
+
+Pensa alla nonna di Ntege, che possiede un negozio di abiti in Uganda. Secondo la sua famiglia, è senza dubbio un'imprenditrice. Ma prova a fare la domanda del mese di assenza: se lei non aprisse il negozio, guadagnerebbe comunque qualcosa quella settimana? Per il suo negozio la risposta è no: l'attività è il suo lavoro con una vetrina intorno. Non è una critica. È solo il test funzionale all'opera, ed è il primo gradino di una scala che tutto questo percorso continuerà a salire.
+
+## Quiz di esercitazione
+
+1. Quale domanda verifica meglio se un'attività è lavoro autonomo o vera proprietà d'impresa?
+   A. Quanto denaro guadagna?
+   B. Che cosa succederebbe se il titolare sparisse per un mese?
+   C. È costituita legalmente come società?
+   D. Quanti clienti ha?
+
+2. Vero o falso: il lavoro autonomo è sempre una versione inferiore o fallita della proprietà d'impresa.
+
+3. Perché il lavoro autonomo ha un tetto di reddito che la vera proprietà d'impresa non ha?
+   A. I lavoratori autonomi sono meno competenti
+   B. Il reddito è limitato dalle ore disponibili di una sola persona
+   C. I lavoratori autonomi pagano più tasse
+   D. In nessuno dei due casi esiste un vero tetto
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il test del "mese di assenza" rivela se l'attività dipende dal lavoro continuo del titolare.
+
+### Domanda 2
+
+Risposta corretta: Falso. Il lavoro autonomo può essere una scelta deliberata, valida e di successo: questa lezione non mette in classifica le due cose.
+
+### Domanda 3
+
+Risposta corretta: B. Una persona ha un numero fisso di ore; un'attività basata su un sistema non ha lo stesso limite.
+
+## Punti chiave
+
+- Il vero test: l'attività dipende dal lavoro continuo del titolare o funziona come un sistema?
+- Non è la forma giuridica a dare la risposta, ma il funzionamento.
+- Solo un'attività basata su un sistema può crescere oltre i limiti del tempo di una persona.

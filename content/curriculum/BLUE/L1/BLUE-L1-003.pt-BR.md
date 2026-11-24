@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-003
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 3
 locale: pt-BR
-source_locale: en-US
-title: "Entendendo as Despesas"
-summary: "Categorias comuns de despesas incluem: custo dos produtos vendidos (materiais, estoque), salários da equipe, aluguel e contas de serviços, marketing, seguros, e honorários profissionais (contadores, advogados)."
+title: "O que é uma empresa individual (empresário individual)?"
+summary: "Aprenda o que é uma empresa individual, como ela surge e qual é o seu maior risco jurídico: a responsabilidade pessoal ilimitada."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-003: Entendendo as Despesas
+# O que é uma empresa individual (empresário individual)?
 
-## Objetivos de Aprendizagem
-1. Definir uma despesa empresarial.
-2. Distinguir despesas operacionais de despesas extraordinárias.
-3. Identificar categorias comuns de despesas empresariais.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Uma despesa empresarial é qualquer custo incorrido no processo de administrar o negócio e gerar receita. *FATO VERIFICADO:* As despesas geralmente são divididas entre despesas operacionais (custos recorrentes como aluguel, salários, e contas de serviços) e despesas extraordinárias (custos irregulares como um novo equipamento ou um acordo judicial).
+Ao final desta lição, você deverá ser capaz de:
 
-Categorias comuns de despesas incluem: custo dos produtos vendidos (materiais, estoque), salários da equipe, aluguel e contas de serviços, marketing, seguros, e honorários profissionais (contadores, advogados).
+- definir empresa individual em termos simples.
+- explicar como ela surge.
+- explicar o maior risco jurídico próprio dessa estrutura.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* As despesas operacionais mensais de uma pequena cafeteria incluem $2.000 de aluguel, $3.500 em salários da equipe, $800 em ingredientes e estoque, e $200 em contas de serviços — custos recorrentes que ela pode prever todo mês. Quando o forno quebra e precisa ser substituído por $1.500, essa é uma despesa extraordinária — imprevisível e fora do padrão mensal regular.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é uma despesa empresarial?
-2. Qual é a diferença entre despesas operacionais e extraordinárias?
-3. Verdadeiro/Falso: Salários da equipe são tipicamente classificados como uma despesa extraordinária.
-4. Cite duas categorias comuns de despesas empresariais.
+### A estrutura mais simples que existe
+
+Uma empresa individual (em inglês, "sole proprietorship") é um negócio de propriedade de uma única pessoa e administrado por ela, sem separação jurídica entre o dono e o negócio. Não existe uma pessoa jurídica separada: aos olhos da lei, o negócio é simplesmente a pessoa.
+
+### Como ela surge
+
+*(REGRA ESPECÍFICA DA REGIÃO: as leis variam de país para país. No Brasil, quem quer formalizar uma atividade individual costuma se registrar como MEI ou como empresário individual, com CNPJ e inscrições próprias, e o empresário individual responde com os bens pessoais; confirme com um contador.)* Em muitos lugares não é preciso nenhum papel formal: se alguém começa a fazer negócios em seu próprio nome, sem outra estrutura, passa a ser automaticamente dono de uma empresa individual. Ainda assim, pode ser necessária uma licença local ou o registro de um nome fantasia.
+
+### O risco real: pergunte a si mesmo
+
+Se esse negócio for processado ou não conseguir pagar uma dívida, de quem é o dinheiro em jogo? Como não há separação jurídica entre a pessoa e o negócio, a resposta é: a conta bancária pessoal do dono, o carro dele, possivelmente a casa dele. Essa é a maior troca dessa estrutura, e é exatamente por isso que as próximas lições apresentam as LLCs e as sociedades anônimas, criadas justamente para mudar essa resposta.
+
+## Exemplo prático
+
+Uma fotógrafa freelancer agenda clientes em seu próprio nome: nenhuma LLC, nenhum papel além de uma licença básica. Ela é dona de uma empresa individual por padrão. Agora imagine que o equipamento dela falha e danifica um bem de um cliente. Pergunte a si mesmo: quais bens um processo poderia atingir? Como não há separação, são os bens pessoais dela, e não só os "do negócio".
+
+## Teste de prática
+
+1. Uma empresa individual é mais bem definida como:
+   A. Um negócio com vários donos legais
+   B. Um negócio sem separação jurídica entre o dono e o negócio
+   C. Um negócio que precisa registrar um contrato social
+   D. Um negócio que protege os bens pessoais contra processos
+
+2. Verdadeiro ou falso: em muitos lugares, não é preciso nenhum papel formal para começar a atuar como empresa individual.
+
+3. Qual é o maior risco jurídico de uma empresa individual?
+   A. Impostos altos
+   B. Responsabilidade pessoal ilimitada
+   C. Horário de funcionamento limitado
+   D. Aprovação obrigatória do governo para cada venda
 
 ## Gabarito
-1. Qualquer custo incorrido na administração do negócio e na geração de receita   2. Despesas operacionais são recorrentes; despesas extraordinárias são irregulares e imprevisíveis   3. Falso   4. Custo dos produtos vendidos, salários da equipe (entre outras)
 
-## Respostas e Explicações
-1. Esta é a definição central de uma despesa empresarial.
-2. Isso distingue as duas categorias gerais de custos empresariais.
-3. Salários são uma despesa operacional recorrente clássica, não uma despesa extraordinária.
-4. Estas estão entre as categorias padrão de despesas que a maioria dos negócios acompanha.
+1. B
+2. Verdadeiro
+3. B
 
-## Principais Pontos a Lembrar
-- Uma despesa empresarial é qualquer custo de administrar o negócio.
-- Despesas operacionais são recorrentes; despesas extraordinárias são irregulares.
-- Acompanhar categorias de despesas ajuda um negócio a entender para onde seu dinheiro realmente vai.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. A ausência de separação jurídica entre dono e negócio é a característica que a define.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Em muitos lugares, a estrutura em si não exige nenhum papel formal.
+
+### Pergunta 3
+
+Resposta correta: B. A responsabilidade pessoal ilimitada é o risco central dessa estrutura.
+
+## Pontos-chave
+
+- Uma empresa individual não tem separação jurídica entre o dono e o negócio.
+- Normalmente exige pouca ou nenhuma papelada para começar.
+- O seu maior risco é a responsabilidade pessoal ilimitada.

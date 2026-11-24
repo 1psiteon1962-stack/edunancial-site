@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-015
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 15
 locale: pt-BR
-source_locale: en-US
-title: "Fundamentos da Retenção de Clientes"
-summary: ""
+title: "O que é ponto de equilíbrio?"
+summary: "Aprenda o que significa ponto de equilíbrio, como ele é calculado em nível básico e por que importa antes de o negócio dar lucro."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-015: Fundamentos da Retenção de Clientes
+# O que é ponto de equilíbrio?
 
-## Objetivos de Aprendizagem
-1. Definir retenção de clientes.
-2. Explicar por que reter clientes geralmente custa menos do que adquirir novos.
-3. Identificar formas comuns pelas quais os negócios incentivam a clientela recorrente.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Retenção de clientes é a capacidade de um negócio de manter os clientes comprando dele ao longo do tempo, em vez de fazer uma única compra e nunca mais voltar. *ESTIMATIVA:* Adquirir um novo cliente é comumente citado como significativamente mais caro do que reter um cliente existente, embora a proporção exata varie amplamente conforme o setor e o modelo de negócio.
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Abordagens comuns de retenção incluem um bom atendimento ao cliente, programas de fidelidade, qualidade consistente, e manter contato por canais como e-mail — a combinação específica depende do tipo de negócio e de seus clientes.
+- definir ponto de equilíbrio em termos simples.
+- explicar, em termos conceituais, o que precisa acontecer para um negócio chegar a ele.
+- explicar por que conhecer esse número importa antes de abrir.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um cabeleireiro poderia gastar dinheiro em anúncios para atrair um novo cliente para uma única visita, ou focar em qualidade e simpatia para que esse mesmo cliente marque uma consulta de retorno e indique amigos. O segundo caminho geralmente custa menos ao longo do tempo e constrói uma base mais estável de clientela recorrente, em vez de exigir gastos constantes apenas para manter a agenda cheia.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é retenção de clientes?
-2. Adquirir um novo cliente é geralmente mais ou menos caro do que reter um cliente existente?
-3. Cite duas abordagens comuns de retenção.
-4. Verdadeiro/Falso: Retenção e aquisição não estão relacionadas na prática.
+### O que significa ponto de equilíbrio
+
+O ponto de equilíbrio (em inglês, "break-even point") é o nível de vendas em que a receita total de um negócio é exatamente igual aos seus custos totais: nem lucro, nem prejuízo, o ponto exato de virada entre os dois.
+
+### O que precisa acontecer para chegar lá
+
+Pergunte a si mesmo: abaixo desse ponto, o negócio está ganhando ou perdendo dinheiro? Abaixo do ponto de equilíbrio, as despesas superam a receita: prejuízo. Acima dele, a receita supera as despesas: lucro. Isso se liga diretamente aos custos fixos (que precisam ser cobertos independentemente do volume de vendas) de duas lições atrás.
+
+### Por que conhecer esse número importa antes de abrir
+
+Um dono de negócio que já começa sabendo o seu ponto de equilíbrio tem uma meta concreta e específica, e não só uma esperança vaga de que "as vendas vão ser boas o bastante". Sem esse número, é fácil subestimar quanto é preciso vender só para parar de perder dinheiro, quanto mais para começar a lucrar.
+
+## Exemplo prático
+
+Uma pequena loja tem US$ 3.000 por mês de custos fixos e ganha cerca de US$ 15 por item vendido, acima dos custos diretos. Pergunte a si mesmo: mais ou menos quantos itens ela precisa vender por mês só para empatar? US$ 3.000 ÷ US$ 15 = 200 itens: um número concreto com o qual o dono pode comparar as vendas reais, em vez de só torcer para dar certo.
+
+## Teste de prática
+
+1. O ponto de equilíbrio é:
+   A. O ponto em que o negócio tem o lucro máximo
+   B. O nível de vendas em que a receita total é igual aos custos totais
+   C. O custo fixo total do negócio
+   D. Um tipo de licença comercial
+
+2. Verdadeiro ou falso: abaixo do ponto de equilíbrio, o negócio está gerando lucro.
+
+3. Por que conhecer o ponto de equilíbrio importa antes de abrir um negócio?
+   A. Não importa nada
+   B. Ele dá uma meta de vendas concreta em vez de uma esperança vaga
+   C. Ele garante que o negócio vai dar certo
+   D. Ele elimina a necessidade de um plano de negócios
 
 ## Gabarito
-1. A capacidade de manter os clientes comprando ao longo do tempo   2. Geralmente mais caro   3. Bom atendimento ao cliente, programas de fidelidade (entre outros)   4. Falso
 
-## Respostas e Explicações
-1. Esta é a definição fundamental da retenção.
-2. Este é um padrão geral comumente citado, embora a proporção exata varie conforme o setor.
-3. Estas são abordagens de retenção comumente citadas.
-4. Um negócio com forte retenção pode depender menos da aquisição constante de novos clientes para sustentar sua receita.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Retenção de clientes mantém os clientes existentes comprando ao longo do tempo.
-- Reter um cliente geralmente custa menos do que adquirir um novo.
-- Qualidade do serviço, programas de fidelidade, e comunicação consistente comumente apoiam a retenção.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. O ponto de equilíbrio é onde a receita é exatamente igual aos custos totais.
+
+### Pergunta 2
+
+Resposta correta: Falso. Abaixo do ponto de equilíbrio, as despesas superam a receita: prejuízo.
+
+### Pergunta 3
+
+Resposta correta: B. Ele oferece uma meta específica e mensurável em vez de uma esperança vaga.
+
+## Pontos-chave
+
+- O ponto de equilíbrio é o nível de vendas em que a receita é exatamente igual aos custos totais.
+- Abaixo dele há prejuízo; acima dele, lucro.
+- Conhecer esse número dá uma meta concreta antes de abrir, e não só esperança.

@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-002
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 2
 locale: pt-BR
-source_locale: en-US
-title: "Receita vs. Lucro — A Diferença Fundamental"
-summary: ""
+title: "Todo negócio vende uma de duas coisas: produto, serviço ou ambos"
+summary: "Aprenda a lente produto versus serviço para entender qualquer negócio, e por que a maioria é na verdade uma mistura."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-002: Receita vs. Lucro — A Diferença Fundamental
+# Todo negócio vende uma de duas coisas: produto, serviço ou ambos
 
-## Objetivos de Aprendizagem
-1. Definir receita e lucro separadamente.
-2. Explicar por que uma receita alta não garante um negócio saudável.
-3. Calcular um lucro simples a partir da receita e das despesas.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Receita é o valor total de dinheiro que um negócio recebe com suas vendas, antes de deduzir qualquer custo. *FATO VERIFICADO:* Lucro = Receita − Despesas — é o que sobra depois de tudo que o negócio precisou gastar para gerar essa receita.
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Um negócio pode ter uma receita muito alta e ainda assim perder dinheiro se suas despesas forem altas o suficiente — a receita sozinha não diz nada sobre se um negócio está realmente saudável financeiramente.
+- definir produto e serviço em termos de negócio.
+- classificar um negócio real como baseado em produto, em serviço ou misto.
+- aplicar essa lente a um negócio que você conhece pessoalmente.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Uma loja gera $200.000 em receita de vendas este ano — um número chamativo. Mas depois de pagar por estoque, salários da equipe, aluguel, e outros custos totalizando $210.000, o negócio na verdade perdeu $10.000. A receita alta contava apenas parte da história; o lucro revelou a realidade.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é receita?
-2. Qual é a fórmula do lucro?
-3. Verdadeiro/Falso: Uma receita alta sempre significa que um negócio é lucrativo.
-4. Se um negócio tem $150.000 em receita e $120.000 em despesas, qual é o seu lucro?
+### Duas perguntas para fazer sobre qualquer negócio
+
+Quando você olha para um negócio, pergunte: com o que o cliente vai embora, algo que ele pode guardar ou algo que alguém fez por ele? Um **produto** é algo que é entregue. Um **serviço** é uma ação, um esforço ou um conhecimento aplicado para o cliente.
+
+### Por que a maioria dos negócios é uma mistura
+
+Pense em um restaurante. Ele vende comida ou a experiência de ser servido? Os dois: a comida é o produto, ser recebido e atendido é o serviço. Pouquíssimos negócios reais ficam só de um lado.
+
+### Aplicando isso à educação financeira
+
+Pense em uma plataforma que ensina educação financeira. Qual é o produto? Qual é o serviço? O serviço é o próprio ensino: orientar a compreensão, construir competência. O produto é o que é entregue de forma concreta: as lições, as avaliações, os exercícios estruturados. Nomear essas partes separadamente, em vez de dizer só "a gente ensina pessoas", deixa muito mais claro o que está realmente sendo construído.
+
+## Exemplo prático
+
+Imagine um marceneiro que vende cadeiras: esse é o produto. Agora imagine o mesmo marceneiro oferecendo conserto de móveis sob medida: é um serviço somado a um negócio de produto. Pergunte a si mesmo: se esse serviço de conserto crescesse o bastante, o negócio ainda seria "um marceneiro", ou teria virado outra coisa sem ninguém perceber?
+
+## Teste de prática
+
+1. Um produto é mais bem definido como:
+   A. Uma ação realizada para um cliente
+   B. Algo físico ou digital que o cliente recebe e guarda
+   C. O plano de marketing de uma empresa
+   D. Um tipo de licença comercial
+
+2. Verdadeiro ou falso: a maioria dos negócios reais é puramente baseada em produto ou puramente baseada em serviço, com pouca mistura.
+
+3. No exemplo da educação financeira, o que conta como "serviço"?
+   A. As próprias lições e exercícios
+   B. O próprio ensino e a orientação
+   C. O logotipo da empresa
+   D. A estrutura de preços
 
 ## Gabarito
-1. O dinheiro total recebido com vendas, antes dos custos   2. Receita − Despesas   3. Falso   4. $30.000
 
-## Respostas e Explicações
-1. Esta é a definição central da receita como o número principal.
-2. Este é o cálculo padrão do lucro.
-3. Um negócio pode ter receita alta e ainda assim operar com prejuízo se as despesas forem altas o suficiente.
-4. $150.000 − $120.000 = $30.000.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Receita é o dinheiro total que entra; lucro é o que sobra depois das despesas.
-- Lucro = Receita − Despesas é a fórmula padrão.
-- Uma receita alta não garante lucratividade — as despesas importam igualmente.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Um produto é algo físico ou digital entregue ao cliente.
+
+### Pergunta 2
+
+Resposta correta: Falso. A maioria dos negócios reais mistura os dois em algum grau.
+
+### Pergunta 3
+
+Resposta correta: B. O ensino e a orientação são o serviço; as lições em si são o produto.
+
+## Pontos-chave
+
+- Um produto é entregue; um serviço é feito para alguém.
+- A maioria dos negócios reais mistura os dois, e não é só um ou outro.
+- Nomear as partes de produto e de serviço de um negócio deixa claro o que está realmente sendo entregue.

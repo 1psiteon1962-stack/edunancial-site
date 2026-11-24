@@ -5,45 +5,81 @@ officialTrackName: Business
 level: 1
 lessonNumber: 11
 locale: pt-PT
-title: "O que é receita versus lucro?"
-summary: "Aprenda o conceito central desta lição e aplique-o a decisões empresariais práticas."
+title: "Receitas ou lucro? (O par de termos mais confundido nos negócios)"
+summary: "Aprenda a verdadeira diferença entre receitas e lucro, e porque é que um negócio pode ter receitas fortes e nenhum lucro."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é receita versus lucro?
+# Receitas ou lucro? (O par de termos mais confundido nos negócios)
 
 ## Objetivos de aprendizagem
-- Definir o conceito em termos empresariais claros.
-- Explicar por que é importante para uma empresa.
-- Aplicar o conceito a uma situação prática.
+
+No final desta lição, deverá ser capaz de:
+
+- definir receitas e lucro separadamente.
+- calcular um lucro básico a partir das receitas e das despesas.
+- explicar porque é que receitas fortes não garantem lucro.
 
 ## Conteúdo principal
-Esta lição desenvolve literacia empresarial ligando estrutura, finanças, risco, clientes e crescimento. O objetivo não é apenas memorizar uma definição, mas compreender como o conceito influencia decisões reais.
+
+### Dois números que as pessoas confundem constantemente
+
+Pergunte a si próprio: se um negócio "fez 500 000 $ no ano passado", isso quer dizer que ficou com 500 000 $? Quase de certeza que não, e é precisamente esta confusão que faz com que receitas e lucro sejam trocados com tanta frequência.
+
+As **receitas** são o total de dinheiro que um negócio recebe com as vendas, antes de deduzir quaisquer despesas. O **lucro** é o que resta depois de deduzir todas as despesas necessárias para gerar essas receitas.
+
+### A fórmula
+
+Lucro = Receitas − Despesas. Um negócio com 500 000 $ de receitas e 480 000 $ de despesas tem apenas 20 000 $ de lucro: um quadro muito diferente do que o número das receitas, por si só, sugere.
+
+### Porque é que receitas fortes não garantem lucro
+
+Um negócio pode ter receitas impressionantes e em crescimento e, mesmo assim, perder dinheiro, se as despesas crescerem ao mesmo ritmo ou mais depressa. As receitas medem a atividade; o lucro mede se essa atividade deixou realmente o negócio numa situação melhor.
 
 ## Exemplo prático
-Considere uma pequena empresa que precisa de decidir como organizar o trabalho, controlar custos e proteger a sua capacidade de continuar a operar. Aplique o conceito desta lição para identificar uma vantagem, um risco e a informação adicional necessária antes de tomar uma decisão.
 
-## Exercício
-Escolha uma empresa que conheça. Explique em poucas frases como este conceito aparece na atividade diária e que decisão poderia ser melhorada ao compreendê-lo.
+Um negócio novo anuncia com orgulho 200 000 $ de receitas no primeiro ano. Pergunte a si próprio: isso é, por si só, uma boa notícia? Só se também conhecer as despesas. Se as despesas foram de 210 000 $, o negócio perdeu na verdade 10 000 $ nesse ano: um prejuízo escondido atrás de um número que parece um êxito.
 
-## Questionário
-1. Qual é o objetivo principal deste conceito? A. Apenas terminologia B. Apoiar melhores decisões empresariais C. Servir apenas grandes empresas D. Eliminar todo o risco
-2. Verdadeiro ou falso: os conceitos empresariais devem frequentemente ser analisados em conjunto com outros dados.
-3. Qual é a melhor utilização do conhecimento? A. Memorizar sem aplicar B. Usá-lo para avaliar uma decisão real C. Ignorar o contexto D. Assumir que todas as empresas são iguais
+## Teste de prática
 
-## Respostas
+1. As receitas são:
+   A. O que resta depois de deduzir todas as despesas
+   B. O total de dinheiro recebido com as vendas, antes das despesas
+   C. A dívida total de um negócio
+   D. Um tipo de imposto
+
+2. Verdadeiro ou falso: receitas fortes significam sempre que um negócio é lucrativo.
+
+3. Um negócio tem 300 000 $ de receitas e 275 000 $ de despesas. Qual é o lucro?
+   A. 575 000 $
+   B. 25 000 $
+   C. 300 000 $
+   D. 0 $
+
+## Chave de Respostas
+
 1. B
-2. Verdadeiro
+2. Falso
 3. B
 
-## Explicação das respostas
-1. B — a literacia empresarial deve melhorar a capacidade de decisão.
-2. Verdadeiro — estrutura, dinheiro, risco e operações estão interligados.
-3. B — o conhecimento transforma-se em competência quando é aplicado.
+## Respostas e explicações
 
-## Pontos principais
-- Compreenda o conceito e não apenas o nome.
-- Relacione-o com custos, risco, capacidade e controlo.
-- Verifique regras específicas do país ou setor quando forem relevantes.
+### Pergunta 1
+
+Resposta correta: B. As receitas são o total recebido com as vendas, antes das despesas.
+
+### Pergunta 2
+
+Resposta correta: Falso. Receitas elevadas com despesas ainda mais elevadas podem significar prejuízo.
+
+### Pergunta 3
+
+Resposta correta: B. 300 000 $ − 275 000 $ = 25 000 $.
+
+## Pontos-chave
+
+- As receitas são o total recebido com as vendas, antes das despesas.
+- Lucro = Receitas − Despesas: o que realmente resta.
+- Receitas fortes não garantem lucro.

@@ -5,44 +5,81 @@ officialTrackName: Business
 level: 1
 lessonNumber: 11
 locale: it
-title: "Costi di Avvio — Cosa Aspettarsi"
-summary: "I costi di avvio sono le spese una tantum sostenute per rendere operativa un'azienda prima dell'apertura o del lancio."
+title: "Ricavi o utile? (La coppia di termini più confusa negli affari)"
+summary: "Scopri la vera differenza tra ricavi e utile, e perché un'impresa può avere ricavi elevati ma nessun utile."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-011: Costi di Avvio — Cosa Aspettarsi
+# Ricavi o utile? (La coppia di termini più confusa negli affari)
 
-## Obiettivi di Apprendimento
-1. Definire i costi di avvio.
-2. Identificare categorie comuni di costi di avvio.
-3. Spiegare perché sottostimare i costi di avvio è un errore comune all'inizio.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-I costi di avvio sono le spese una tantum sostenute per rendere operativa un'azienda prima dell'apertura o del lancio. *FATTO VERIFICATO:* Le categorie comuni includono attrezzature, magazzino iniziale, spese legali e di registrazione, marketing iniziale, depositi (per locali o utenze), e una riserva di liquidità per i primi mesi prima che i ricavi si stabilizzino.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Sottostimare i costi di avvio è un errore comune all'inizio, spesso perché i nuovi proprietari si concentrano sui costi evidenti come le attrezzature trascurando costi ricorrenti minori che si accumulano prima che arrivino ricavi significativi.
+- definire separatamente ricavi e utile.
+- calcolare un utile di base partendo da ricavi e costi.
+- spiegare perché ricavi elevati non garantiscono un utile.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Nel preventivare l'apertura di un piccolo salone, Aisha considera attrezzature e magazzino iniziale, ma inizialmente dimentica di preventivare i mesi prima che si costruisca la clientela — affitto, stipendi, e utenze che devono essere pagati indipendentemente da quanti clienti arrivano nei primi mesi. Aggiungere una riserva di liquidità per quel periodo di avvio si rivela importante quanto le attrezzature stesse.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa sono i costi di avvio?
-2. Indica due categorie comuni di costi di avvio.
-3. Vero/Falso: I costi di avvio includono solo acquisti una tantum come le attrezzature.
-4. Perché sottostimare i costi di avvio è un errore comune?
+### Due numeri che si confondono di continuo
 
-## Chiave di Risposte
-1. Le spese una tantum per rendere operativa un'azienda prima del lancio   2. Attrezzature, magazzino iniziale (tra altre)   3. Falso   4. I nuovi proprietari spesso trascurano costi ricorrenti minori durante il primo periodo di avvio
+Chiediti: se un'impresa "ha fatto 500.000 $ l'anno scorso", significa che ha tenuto 500.000 $? Quasi certamente no: ed è proprio questa confusione il motivo per cui ricavi e utile vengono scambiati così spesso.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione centrale dei costi di avvio.
-2. Queste sono tra le categorie standard dei costi di avvio.
-3. I costi di avvio includono anche una riserva di liquidità per le spese operative iniziali prima che i ricavi si stabilizzino.
-4. I costi evidenti vengono preventivati; il costo cumulativo di superare i primi mesi viene spesso trascurato.
+I **ricavi** sono il totale del denaro che un'impresa incassa dalle vendite, prima di sottrarre qualsiasi costo. L'**utile** è ciò che resta dopo aver sottratto tutti i costi sostenuti per generare quei ricavi.
 
-## Punti Chiave da Ricordare
-- I costi di avvio sono le spese una tantum necessarie prima che un'azienda possa essere lanciata.
-- Le categorie comuni includono attrezzature, magazzino, spese legali, e una riserva di liquidità iniziale.
-- Una riserva di liquidità per il periodo di avvio è importante quanto gli evidenti acquisti iniziali.
+### La formula
+
+Utile = Ricavi − Costi. Un'impresa con 500.000 $ di ricavi e 480.000 $ di costi ha solo 20.000 $ di utile: un quadro molto diverso da quello suggerito dal solo dato dei ricavi.
+
+### Perché ricavi elevati non garantiscono un utile
+
+Un'impresa può avere ricavi notevoli e in crescita e perdere comunque denaro, se i suoi costi crescono altrettanto o più velocemente. I ricavi misurano l'attività; l'utile misura se quell'attività ha davvero migliorato la situazione dell'impresa.
+
+## Esempio svolto
+
+Una nuova impresa annuncia con orgoglio 200.000 $ di ricavi nel primo anno. Chiediti: è una buona notizia di per sé? Solo se conosci anche i costi. Se i costi sono stati 210.000 $, l'impresa ha in realtà perso 10.000 $ quell'anno: una perdita nascosta dietro un dato che sembra un successo.
+
+## Quiz di esercitazione
+
+1. I ricavi sono:
+   A. Ciò che resta dopo aver sottratto tutti i costi
+   B. Il totale del denaro incassato dalle vendite, prima dei costi
+   C. Il debito totale di un'impresa
+   D. Un tipo di imposta
+
+2. Vero o falso: ricavi elevati significano sempre che un'impresa è in utile.
+
+3. Un'impresa ha 300.000 $ di ricavi e 275.000 $ di costi. Qual è il suo utile?
+   A. 575.000 $
+   B. 25.000 $
+   C. 300.000 $
+   D. 0 $
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I ricavi sono il totale incassato dalle vendite, prima dei costi.
+
+### Domanda 2
+
+Risposta corretta: Falso. Ricavi alti con costi ancora più alti possono comunque significare una perdita.
+
+### Domanda 3
+
+Risposta corretta: B. 300.000 $ − 275.000 $ = 25.000 $.
+
+## Punti chiave
+
+- I ricavi sono il totale incassato dalle vendite, prima dei costi.
+- Utile = Ricavi − Costi: ciò che resta davvero.
+- Ricavi elevati non garantiscono un utile.

@@ -1,48 +1,87 @@
 ---
 id: BLUE-L1-006
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 6
 locale: pt-BR
-source_locale: en-US
-title: "O Ponto de Equilíbrio Explicado"
-summary: ""
+title: "LLC ou LLP: qual se encaixa em cada situação?"
+summary: "Compare lado a lado as estruturas LLC e LLP para ver quais situações combinam naturalmente com cada uma."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-006: O Ponto de Equilíbrio Explicado
+# LLC ou LLP: qual se encaixa em cada situação?
 
-## Objetivos de Aprendizagem
-1. Definir o ponto de equilíbrio.
-2. Calcular um ponto de equilíbrio simples em unidades.
-3. Explicar por que conhecer esse número importa para um novo negócio.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-O ponto de equilíbrio é o nível de vendas no qual a receita total de um negócio se iguala exatamente aos seus custos totais — nem lucro, nem prejuízo. *FATO VERIFICADO:* Ponto de Equilíbrio (em unidades) = Custos Fixos ÷ (Preço por Unidade − Custo Variável por Unidade).
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Conhecer o ponto de equilíbrio importa porque indica ao dono do negócio o volume mínimo de vendas necessário apenas para evitar perder dinheiro, antes que qualquer lucro comece.
+- comparar LLCs e LLPs quanto à estrutura de propriedade.
+- comparar LLCs e LLPs quanto ao uso típico.
+- aplicar essa comparação a um cenário hipotético básico.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um pequeno negócio de velas tem $1.000 em custos fixos mensais. Cada vela é vendida por $20 e custa $5 em materiais (custo variável). Ponto de Equilíbrio = $1.000 ÷ ($20 − $5) = 1.000 ÷ 15 ≈ 67 velas. O negócio precisa vender cerca de 67 velas por mês apenas para cobrir seus custos — qualquer coisa além disso se torna lucro.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é o ponto de equilíbrio?
-2. Qual é a fórmula do ponto de equilíbrio em unidades?
-3. Verdadeiro/Falso: No ponto de equilíbrio, um negócio está obtendo lucro.
-4. Se os custos fixos são $500, o preço por unidade é $25, e o custo variável por unidade é $10, qual é o ponto de equilíbrio em unidades?
+### O mesmo objetivo, formatos diferentes
+
+As duas estruturas existem para limitar a responsabilidade pessoal: esse é o objetivo comum. A diferença está em para quem elas são feitas e em como a proteção é desenhada.
+
+### Estrutura de propriedade
+
+Uma LLC pode ter um sócio ou vários. Uma LLP é feita especificamente em torno de vários sócios: ela não se encaixa em uma situação de dono único de verdade como uma LLC se encaixa.
+
+### Uso típico
+
+Uma LLC serve para uma grande variedade de negócios: uma loja, uma consultoria, um negócio de serviços com um único dono. Uma LLP está ligada mais especificamente a sociedades de profissionais habilitados, em que a questão central é a responsabilidade individual de cada sócio pelo trabalho dos outros.
+
+### Pergunte a si mesmo
+
+Se você estivesse abrindo uma consultoria sozinho, uma LLP seria sequer uma opção? Não exatamente: as LLPs pressupõem sócios. Essa única pergunta muitas vezes resolve qual estrutura realmente se encaixa.
+
+## Exemplo prático
+
+Um consultor freelancer sem sócios está escolhendo entre LLC e LLP. Pergunte a si mesmo: a LLP se aplica aqui? Como as LLPs são feitas em torno de vários sócios, esse cenário aponta claramente para uma LLC. Agora imagine três contadores abrindo um escritório juntos: nesse cenário as duas estruturas são possíveis, e a proteção da LLP sobre a responsabilidade entre sócios passa a ser o fator mais relevante.
+
+## Teste de prática
+
+1. Qual estrutura geralmente NÃO é pensada para um dono único de verdade?
+   A. LLC
+   B. LLP
+   C. As duas são pensadas só para donos únicos
+   D. Nenhuma das duas trata da estrutura de propriedade
+
+2. Verdadeiro ou falso: LLCs e LLPs têm o mesmo objetivo básico de limitar a responsabilidade pessoal.
+
+3. Um consultor que trabalha sozinho, sem sócios, está escolhendo uma estrutura. Qual se encaixa mais naturalmente, considerando só a estrutura de propriedade?
+   A. LLP
+   B. LLC
+   C. Nenhuma das duas serve para um dono único
+   D. As duas são igualmente inadequadas
 
 ## Gabarito
-1. O nível de vendas onde a receita total se iguala aos custos totais   2. Custos Fixos ÷ (Preço por Unidade − Custo Variável por Unidade)   3. Falso   4. Aproximadamente 33 unidades
 
-## Respostas e Explicações
-1. Esta é a definição central do ponto de equilíbrio.
-2. Este é o cálculo padrão do ponto de equilíbrio.
-3. No ponto de equilíbrio, a receita se iguala exatamente aos custos — ainda não há lucro nem prejuízo.
-4. $500 ÷ ($25 − $10) = 500 ÷ 15 ≈ 33,3, arredondado para cerca de 33 unidades.
+1. B
+2. Verdadeiro
+3. B
 
-## Principais Pontos a Lembrar
-- O ponto de equilíbrio é onde a receita cobre exatamente os custos totais.
-- É calculado como Custos Fixos ÷ (Preço − Custo Variável por Unidade).
-- Conhecer esse número indica ao dono as vendas mínimas necessárias antes que o lucro comece.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. As LLPs são feitas em torno de vários sócios, e não de um dono único de verdade.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. As duas estruturas têm o objetivo central de limitar a responsabilidade pessoal.
+
+### Pergunta 3
+
+Resposta correta: B. Uma LLC serve para um dono único; uma LLP pressupõe sócios.
+
+## Pontos-chave
+
+- LLCs e LLPs limitam a responsabilidade pessoal, mas desenham essa proteção de formas diferentes.
+- LLCs servem para um ou vários donos; LLPs pressupõem vários sócios.
+- As LLPs estão ligadas mais especificamente a sociedades de profissionais habilitados.

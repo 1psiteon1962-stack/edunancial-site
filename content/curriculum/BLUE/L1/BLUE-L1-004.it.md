@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 4
 locale: it
-title: "Margine Lordo vs. Margine Netto"
-summary: "Il margine lordo misura quanto denaro rimane dalle vendite dopo aver sottratto solo il costo diretto di produzione di ciò che è stato venduto (costo della merce venduta)."
+title: "Che cos'è una LLC?"
+summary: "Scopri che cosa protegge davvero una LLC e in che cosa differisce strutturalmente da un'impresa individuale."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-004: Margine Lordo vs. Margine Netto
+# Che cos'è una LLC?
 
-## Obiettivi di Apprendimento
-1. Definire il margine lordo e il margine netto.
-2. Spiegare cosa rivela ciascun margine su un'azienda.
-3. Calcolare un margine lordo semplice.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Il margine lordo misura quanto denaro rimane dalle vendite dopo aver sottratto solo il costo diretto di produzione di ciò che è stato venduto (costo della merce venduta). *FATTO VERIFICATO:* Margine Lordo = (Ricavi − Costo della Merce Venduta) ÷ Ricavi, espresso in percentuale.
+Al termine di questa lezione dovresti essere in grado di:
 
-Il margine netto va oltre, sottraendo *tutte* le spese — incluso affitto, stipendi, marketing, e tasse — non solo il costo diretto della merce. *SUPPOSIZIONE:* Un'azienda può avere un margine lordo sano ma un margine netto debole se le sue spese generali (affitto, personale, marketing) sono troppo alte rispetto alle vendite — le due cifre raccontano parti diverse della storia.
+- definire una LLC in termini semplici.
+- spiegare che cosa limita davvero la "responsabilità limitata".
+- spiegare perché questo cambia il quadro dei rischi rispetto a un'impresa individuale.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un negozio di abbigliamento vende una giacca a $100 che è costata $40 da produrre. Margine Lordo = ($100 − $40) ÷ $100 = 60%. Sembra sano. Ma una volta considerati affitto, stipendi del personale, e marketing, all'azienda potrebbero rimanere solo $8 di quei $100 come profitto reale — un margine netto di appena l'8%, che rivela come le spese generali consumino la maggior parte del profitto lordo.
+## Contenuto principale
 
-## Quiz Pratico
-1. Qual è la formula del margine lordo?
-2. Cosa sottrae il margine netto che il margine lordo non sottrae?
-3. Vero/Falso: Un margine lordo sano significa sempre un margine netto sano.
-4. Se i ricavi sono $200 e il costo della merce venduta è $80, qual è il margine lordo?
+### Che cosa significa LLC e che cosa fa
 
-## Chiave di Risposte
-1. (Ricavi − Costo della Merce Venduta) ÷ Ricavi   2. Tutte le altre spese, come affitto, stipendi, e marketing   3. Falso   4. 60%
+LLC significa Limited Liability Company (società a responsabilità limitata, in Italia simile alla srl). Chiediti: qual è l'unico problema della lezione precedente che questa struttura esiste per risolvere? La responsabilità personale illimitata. Una LLC crea una separazione legale tra il titolare (chiamato "member", socio) e l'attività: l'attività diventa un soggetto giuridico a sé.
 
-## Risposte e Spiegazioni
-1. Questo è il calcolo standard del margine lordo.
-2. Il margine netto tiene conto del costo totale di gestione dell'azienda, non solo della produzione del prodotto.
-3. Un'azienda può avere un margine lordo forte ma un margine netto debole se le spese generali sono troppo alte.
-4. ($200 − $80) ÷ $200 = 0,60 = 60%.
+### Che cosa limita davvero il "limitato"
 
-## Punti Chiave da Ricordare
-- Il margine lordo misura la redditività dopo solo i costi diretti di produzione.
-- Il margine netto misura la redditività dopo tutte le spese.
-- Un margine lordo forte non garantisce un margine netto forte — contano anche le spese generali.
+Se una LLC viene citata in giudizio o non riesce a pagare un debito, i beni personali del socio sono in genere protetti: a rischio sono i beni dell'attività, non la casa o i risparmi personali del titolare, *a condizione che* il titolare rispetti le formalità richieste (tenere separate le finanze aziendali da quelle personali, fare correttamente i depositi e così via).
+
+### Il dettaglio da conoscere subito
+
+*(REGOLA SPECIFICA PER PAESE: i requisiti di costituzione e le formalità variano da stato a stato e da paese a paese. In Italia la forma più vicina è la srl, con regole proprie; verifica con un notaio o un commercialista.)* Quella protezione non è automatica né incondizionata: dipende dal trattare davvero la LLC come un soggetto separato nella pratica, non solo sulla carta. Le lezioni successive di questo percorso spiegano come sono queste formalità.
+
+## Esempio svolto
+
+Confronta la fotografa freelance della lezione precedente con una versione di sé che ha costituito una LLC. Stesso guasto all'attrezzatura, stessa causa. Chiediti: che cosa cambia questa volta? Se ha rispettato le formalità della LLC, la richiesta di risarcimento raggiunge in genere i beni dell'attività, non quelli personali. Stesso evento, esposizione legale diversa, solo per effetto della struttura.
+
+## Quiz di esercitazione
+
+1. LLC significa:
+   A. Limited Liability Corporation
+   B. Limited Liability Company
+   C. Legal License Certificate
+   D. Local Licensed Contractor
+
+2. Vero o falso: la protezione della responsabilità di una LLC è automatica e vale qualunque cosa faccia il titolare.
+
+3. Rispetto a un'impresa individuale, che cosa protegge principalmente una LLC?
+   A. L'aliquota fiscale dell'attività
+   B. I beni personali del titolare dai debiti e dalle cause dell'attività
+   C. Il budget di marketing dell'attività
+   D. I dipendenti del titolare
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. LLC significa Limited Liability Company.
+
+### Domanda 2
+
+Risposta corretta: Falso. La protezione dipende dal rispetto delle formalità richieste, non è automatica solo perché si è costituita la LLC.
+
+### Domanda 3
+
+Risposta corretta: B. La protezione dei beni personali è il vantaggio centrale rispetto a un'impresa individuale.
+
+## Punti chiave
+
+- Una LLC crea una separazione legale tra titolare e attività.
+- In genere questo protegge i beni personali dai debiti e dalle cause dell'attività.
+- Quella protezione dipende dal rispetto delle formalità richieste, non solo dal deposito dei documenti una volta.

@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-016
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 16
 locale: pt-BR
-source_locale: en-US
-title: "Estratégia de Preços — Uma Introdução"
-summary: ""
+title: "O que é fluxo de caixa em um negócio? (Por que negócios lucrativos ainda ficam sem dinheiro)"
+summary: "Aprenda o que fluxo de caixa significa para um negócio e por que ser lucrativo no papel não garante ter dinheiro quando ele é necessário."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-016: Estratégia de Preços — Uma Introdução
+# O que é fluxo de caixa em um negócio? (Por que negócios lucrativos ainda ficam sem dinheiro)
 
-## Objetivos de Aprendizagem
-1. Definir estratégia de preços.
-2. Identificar as três abordagens amplas de definição de preços.
-3. Explicar por que o preço afeta mais do que apenas a receita.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-Estratégia de preços é como um negócio decide o que cobrar por seu produto ou serviço. *FATO VERIFICADO:* Três abordagens amplas são comumente usadas: precificação baseada em custos (partindo do que custa produzir, depois adicionando uma margem), precificação baseada em valor (partindo do que o cliente acredita que a oferta vale), e precificação competitiva (definindo o preço em relação ao que os concorrentes cobram).
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* O preço afeta mais do que apenas a receita — também molda como os clientes percebem a qualidade, quem o negócio atrai como clientes, e como ele se posiciona em relação aos concorrentes, então as decisões de preço raramente são apenas uma questão de aritmética.
+- definir fluxo de caixa no contexto de um negócio.
+- explicar por que lucro e fluxo de caixa não são a mesma coisa.
+- explicar como descompassos de prazo podem criar problemas reais de caixa.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Duas cafeterias vendem café quase idêntico. Uma define preços baixos para competir em acessibilidade e atrair alto volume; a outra define preços altos, investindo em decoração e serviço para se posicionar como uma experiência premium. Nenhum dos preços está "errado" — cada um reflete uma estratégia diferente sobre quem o negócio quer como cliente e como quer ser percebido.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é estratégia de preços?
-2. Cite as três abordagens amplas de definição de preços.
-3. Verdadeiro/Falso: O preço afeta apenas a receita, não a percepção do cliente.
-4. O que duas empresas que vendem um produto semelhante poderiam estar fazendo de forma diferente por meio de seus preços?
+### O que fluxo de caixa significa
+
+Fluxo de caixa se refere à movimentação real de dinheiro entrando e saindo de um negócio: não o lucro contábil, mas o dinheiro real de fato disponível em cada momento.
+
+### Pergunte a si mesmo
+
+Um negócio pode ser lucrativo no papel e mesmo assim não ter dinheiro suficiente para pagar as contas desta semana? Sim, e essa é uma das lições mais contraintuitivas e importantes de administrar um negócio. O lucro é calculado ao longo de um período; o fluxo de caixa tem a ver com o momento, instante a instante.
+
+### Como os descompassos de prazo criam problemas reais
+
+Se um negócio vende um pedido grande, mas o cliente só paga em 60 dias, enquanto os fornecedores e o aluguel do próprio negócio vencem em 30 dias, o negócio pode ser lucrativo no papel (a venda conta como receita) e mesmo assim ficar sem dinheiro de verdade para pagar as próprias contas nesse meio-tempo.
+
+## Exemplo prático
+
+Um negócio fecha um ótimo contrato novo de US$ 50.000: claramente um negócio lucrativo. Mas o cliente paga 60 dias depois da entrega, enquanto o negócio teve de pagar materiais e mão de obra adiantado. Pergunte a si mesmo: ter lucro nesse contrato garante que o negócio tenha caixa para pagar a folha na semana que vem? Não necessariamente: o descompasso de prazo é o verdadeiro perigo, independentemente de o contrato em si ter sido bom.
+
+## Teste de prática
+
+1. Fluxo de caixa se refere a:
+   A. A mesma coisa que lucro contábil
+   B. A movimentação real de dinheiro entrando e saindo de um negócio
+   C. A receita total do negócio no ano
+   D. Um tipo de licença comercial
+
+2. Verdadeiro ou falso: um negócio lucrativo nunca pode ficar sem caixa.
+
+3. O que pode criar um problema real de fluxo de caixa mesmo em um contrato lucrativo?
+   A. Nada: o lucro garante dinheiro disponível
+   B. Um descompasso entre quando as despesas são pagas e quando a receita é de fato recebida
+   C. Ter custos fixos demais
+   D. Ter poucos clientes
 
 ## Gabarito
-1. Como um negócio decide o que cobrar   2. Baseada em custos, baseada em valor, competitiva   3. Falso   4. Se posicionando de forma diferente e atraindo diferentes tipos de clientes
 
-## Respostas e Explicações
-1. Esta é a definição fundamental da estratégia de preços.
-2. Estas são as três abordagens amplas de precificação comumente citadas.
-3. O preço também molda a percepção de qualidade e o posicionamento no mercado.
-4. Preços diferentes refletem escolhas estratégicas diferentes sobre posicionamento e cliente-alvo.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- A estratégia de preços determina o que um negócio cobra e por quê.
-- Precificação baseada em custos, em valor, e competitiva são as três abordagens amplas.
-- O preço molda a percepção do cliente e o posicionamento no mercado, não apenas a receita.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Fluxo de caixa é a movimentação real de dinheiro, diferente do lucro contábil.
+
+### Pergunta 2
+
+Resposta correta: Falso. Descompassos entre despesas e recebimentos podem causar falta real de caixa mesmo em negócios lucrativos.
+
+### Pergunta 3
+
+Resposta correta: B. O descompasso entre pagar despesas e receber a receita é o perigo central.
+
+## Pontos-chave
+
+- Fluxo de caixa é a movimentação real de dinheiro, diferente do lucro contábil.
+- Um negócio lucrativo ainda pode ficar sem caixa por causa dos prazos.
+- Descompassos entre despesas e recebimentos são um risco real e comum.

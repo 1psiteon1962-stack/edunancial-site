@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 13
 locale: it
-title: "Comprendere i Clienti e i Loro Bisogni"
-summary: "*FATTO VERIFICATO:* Un cliente è la persona o l'organizzazione che paga per il prodotto o il servizio di un'azienda."
+title: "Che cosa sono i costi generali (overhead)?"
+summary: "Scopri che cosa sono i costi generali e perché esistono indipendentemente da quanto vende un'impresa."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-013: Comprendere i Clienti e i Loro Bisogni
+# Che cosa sono i costi generali (overhead)?
 
-## Obiettivi di Apprendimento
-1. Definire un cliente in termini aziendali.
-2. Distinguere un desiderio da un bisogno nel contesto di un acquisto.
-3. Spiegare perché comprendere il cliente è il punto di partenza di ogni azienda.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*FATTO VERIFICATO:* Un cliente è la persona o l'organizzazione che paga per il prodotto o il servizio di un'azienda. Ogni azienda esiste per risolvere un problema o soddisfare un desiderio di qualcuno, e la disponibilità di quella persona a pagare è ciò che rende l'azienda sostenibile.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Un "bisogno" è generalmente qualcosa che un cliente deve avere per risolvere un problema reale, mentre un "desiderio" è generalmente qualcosa che migliora la sua situazione senza essere essenziale — molte aziende di successo sono costruite su desideri piuttosto che su bisogni rigidi, quindi questa distinzione plasma il marketing più di quanto determini la sostenibilità.
+- definire i costi generali in termini semplici.
+- distinguere i costi generali dai costi legati direttamente a una vendita.
+- spiegare perché i costi generali contano anche nei periodi di calma.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un idraulico risolve un bisogno — un tubo rotto deve essere riparato. Una caffetteria specializzata vende un desiderio — i clienti potrebbero preparare il caffè a casa, ma sono disposti a pagare per comodità, qualità, ed esperienza. Entrambe sono aziende del tutto legittime; capire quale delle due si sta offrendo plasma come si fissano i prezzi, si fa marketing, e si compete.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un cliente, in termini aziendali?
-2. Cosa distingue generalmente un desiderio da un bisogno?
-3. Vero/Falso: Solo le aziende che soddisfano un bisogno rigido possono essere sostenibili.
-4. Perché comprendere il cliente è importante come punto di partenza?
+### Che cosa sono i costi generali
 
-## Chiave di Risposte
-1. La persona o l'organizzazione che paga per un prodotto o un servizio   2. Un bisogno risolve un problema reale; un desiderio migliora una situazione senza essere essenziale   3. Falso   4. La disponibilità del cliente a pagare è ciò che rende sostenibile un'azienda
+I costi generali (in inglese "overhead") sono i costi continui per mandare avanti un'impresa che non sono legati direttamente alla produzione di un prodotto specifico o a una vendita specifica: cose come l'affitto, l'assicurazione e gli stipendi amministrativi.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione di base di un cliente.
-2. Questa è la distinzione generale tra desideri e bisogni.
-3. Molte aziende sostenibili sono costruite intorno ai desideri, non solo a bisogni rigidi.
-4. Senza un'immagine chiara del cliente, un'azienda non ha basi per la propria offerta.
+### Costi generali e costi diretti
 
-## Punti Chiave da Ricordare
-- Un cliente è chiunque paghi per il prodotto o il servizio che un'azienda offre.
-- Desideri e bisogni sono entrambi basi legittime per un'azienda sostenibile.
-- Comprendere il cliente è il punto di partenza per fissare i prezzi, fare marketing, e competere.
+Chiediti: se un'impresa questo mese non facesse alcuna vendita, l'affitto sarebbe comunque dovuto? Sì: è la caratteristica distintiva dei costi generali. I costi che crescono direttamente con ogni vendita (come le materie prime per un prodotto specifico) sono diversi e vengono trattati a parte nelle lezioni successive.
+
+### Perché contano anche quando gli affari vanno a rilento
+
+I costi generali continuano a maturare che entrino ricavi o no, ed è per questo che capirli è importante per la pianificazione: un'impresa con costi generali fissi elevati ha bisogno di un certo livello minimo di vendite solo per andare in pareggio, un concetto trattato nella prossima lezione.
+
+## Esempio svolto
+
+Un piccolo negozio paga 2.000 $ al mese di affitto, indipendentemente da quanti articoli vende in quel mese. Chiediti: quei 2.000 $ cambiano se in un mese le vendite sono particolarmente scarse? No: è proprio questo che li rende costi generali, distinti dal costo della merce specifica venduta.
+
+## Quiz di esercitazione
+
+1. I costi generali sono:
+   A. Costi legati direttamente alla produzione di una specifica unità venduta
+   B. Costi continui per gestire l'impresa, non legati direttamente a una vendita
+   C. Un tipo di licenza commerciale
+   D. I ricavi totali di un'impresa
+
+2. Vero o falso: i costi generali scompaiono in un mese senza vendite.
+
+3. Quale di questi è un tipico costo generale?
+   A. Le materie prime per un prodotto specifico
+   B. L'affitto mensile della sede dell'impresa
+   C. L'acquisto una tantum di un'attrezzatura
+   D. Il costo di spedizione di un ordine specifico
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I costi generali sono continui, non legati a una vendita specifica.
+
+### Domanda 2
+
+Risposta corretta: Falso. I costi generali in genere continuano indipendentemente dalle vendite.
+
+### Domanda 3
+
+Risposta corretta: B. L'affitto è un classico costo generale, slegato da qualsiasi singola vendita.
+
+## Punti chiave
+
+- I costi generali sono costi continui, non legati a una vendita specifica.
+- Continuano che entrino ricavi o no.
+- Fissano un livello minimo che l'impresa deve coprire con le vendite, come si vedrà nella prossima lezione.

@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 5
 locale: it
-title: "Costi Fissi vs. Costi Variabili"
-summary: "I costi fissi rimangono più o meno uguali indipendentemente da quanto vende un'azienda — affitto, assicurazioni, e lo stipendio di un manager sono esempi comuni."
+title: "Che cos'è una LLP, e in che cosa differisce da una LLC?"
+summary: "Scopri che cos'è una LLP e come la sua protezione della responsabilità differisce da quella di una LLC."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-005: Costi Fissi vs. Costi Variabili
+# Che cos'è una LLP, e in che cosa differisce da una LLC?
 
-## Obiettivi di Apprendimento
-1. Definire i costi fissi e i costi variabili.
-2. Identificare esempi di ciascuno.
-3. Spiegare perché questa distinzione è importante per la pianificazione.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-I costi fissi rimangono più o meno uguali indipendentemente da quanto vende un'azienda — affitto, assicurazioni, e lo stipendio di un manager sono esempi comuni. *FATTO VERIFICATO:* I costi variabili aumentano e diminuiscono con il volume delle vendite — materie prime, imballaggi, e commissioni di vendita sono costi variabili tipici, poiché più vendite generalmente richiedono più di questi input.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Comprendere questa suddivisione è importante per la pianificazione perché i costi fissi devono essere pagati anche in un mese debole con pochi ricavi, mentre i costi variabili diminuiscono naturalmente quando le vendite rallentano.
+- definire una LLP in termini semplici.
+- spiegare chi usa di solito questa struttura.
+- spiegare una differenza chiave tra la protezione della responsabilità di una LLP e quella di una LLC.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un panificio paga $1.500 di affitto ogni mese, indipendentemente da quanti pani vende — un costo fisso. La farina, invece, costa circa $0,50 per pane cotto; più pani vengono venduti, più farina viene acquistata. In un mese debole con meno vendite, la bolletta della farina diminuisce di conseguenza, ma l'affitto di $1.500 è comunque dovuto.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cosa sono i costi fissi?
-2. Cosa sono i costi variabili?
-3. Vero/Falso: L'affitto è tipicamente un costo variabile.
-4. Perché la distinzione tra fisso e variabile è importante per la pianificazione?
+### Che cosa significa LLP
 
-## Chiave di Risposte
-1. Costi che rimangono più o meno uguali indipendentemente dal volume delle vendite   2. Costi che aumentano e diminuiscono con il volume delle vendite   3. Falso   4. I costi fissi devono essere pagati anche nei mesi deboli; i costi variabili si adattano naturalmente alle vendite
+LLP significa Limited Liability Partnership: una struttura pensata per più proprietari (soci) invece che per un unico socio, usata comunemente da studi professionali come quelli legali o contabili.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione standard di un costo fisso.
-2. Questa è la definizione standard di un costo variabile.
-3. L'affitto è un classico costo fisso, non variabile.
-4. Questa distinzione aiuta un'azienda a prevedere le proprie esigenze di liquidità durante i periodi più deboli.
+### Chi la usa di solito
 
-## Punti Chiave da Ricordare
-- I costi fissi rimangono costanti indipendentemente dal volume delle vendite.
-- I costi variabili aumentano e diminuiscono in base a quanto vende un'azienda.
-- I costi fissi creano rischio nei periodi deboli, poiché devono essere pagati indipendentemente dai ricavi.
+*(REGOLA SPECIFICA PER PAESE: disponibilità e regole variano da stato a stato, da paese a paese e per professione. In Italia i professionisti possono operare, per esempio, in studi associati o in società tra professionisti (STP), con regole proprie; verifica con il tuo ordine professionale o un consulente.)* Le LLP sono spesso usate da professionisti abilitati che sono obbligati o scelgono di operare come soci, dove ciascun socio resta direttamente responsabile del proprio lavoro professionale.
+
+### La differenza chiave sulla responsabilità
+
+Chiediti: se un socio dello studio commette un errore costoso, i beni personali di tutti gli altri soci dovrebbero essere a rischio? In una LLP, un socio è in genere protetto dalla responsabilità personale per gli errori professionali o gli illeciti degli altri soci: una distinzione che conta proprio negli studi professionali con più soci.
+
+## Esempio svolto
+
+Immagina un piccolo studio legale con tre soci strutturato come LLP. Un socio commette un grave errore in una pratica di un cliente. Chiediti: le case degli altri due soci sono a rischio per l'errore di quel socio? In una LLP, in genere no: l'esposizione di ciascun socio per le azioni degli altri è limitata, anche se condividono l'attività.
+
+## Quiz di esercitazione
+
+1. LLP significa:
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+
+2. Vero o falso: le LLP sono di solito strutturate per un unico proprietario.
+
+3. Che cosa riguarda in genere la protezione della responsabilità di una LLP?
+   A. La protezione da qualsiasi tipo di debito aziendale
+   B. La protezione dalla responsabilità personale per gli errori professionali o gli illeciti degli altri soci
+   C. La protezione dal pagamento di qualsiasi tassa
+   D. La protezione dal poter mai essere citati in giudizio
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. LLP significa Limited Liability Partnership.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le LLP sono strutturate per più soci, non per un unico proprietario.
+
+### Domanda 3
+
+Risposta corretta: B. Le LLP riguardano specificamente la responsabilità per le azioni degli altri soci.
+
+## Punti chiave
+
+- Una LLP è pensata per più soci, spesso nelle professioni abilitate.
+- In genere protegge un socio dalla responsabilità per gli errori professionali o gli illeciti degli altri soci.
+- È una protezione diversa dallo scudo generale della responsabilità di una LLC.

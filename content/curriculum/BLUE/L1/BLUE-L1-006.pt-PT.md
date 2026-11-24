@@ -5,45 +5,83 @@ officialTrackName: Business
 level: 1
 lessonNumber: 6
 locale: pt-PT
-title: "LLC versus LLP: qual se adequa a cada situação?"
-summary: "Aprenda o conceito central desta lição e aplique-o a decisões empresariais práticas."
+title: "LLC ou LLP: qual se adequa a cada situação?"
+summary: "Compare lado a lado as estruturas LLC e LLP para perceber que situações se adequam naturalmente a cada uma."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# LLC versus LLP: qual se adequa a cada situação?
+# LLC ou LLP: qual se adequa a cada situação?
 
 ## Objetivos de aprendizagem
-- Definir o conceito em termos empresariais claros.
-- Explicar por que é importante para uma empresa.
-- Aplicar o conceito a uma situação prática.
+
+No final desta lição, deverá ser capaz de:
+
+- comparar LLC e LLP quanto à estrutura de propriedade.
+- comparar LLC e LLP quanto à utilização típica.
+- aplicar esta comparação a um cenário hipotético básico.
 
 ## Conteúdo principal
-Esta lição desenvolve literacia empresarial ligando estrutura, finanças, risco, clientes e crescimento. O objetivo não é apenas memorizar uma definição, mas compreender como o conceito influencia decisões reais.
+
+### O mesmo objetivo, formas diferentes
+
+Ambas as estruturas existem para limitar a responsabilidade pessoal: esse é o objetivo comum. A diferença está em para quem são pensadas e em como a proteção é desenhada.
+
+### Estrutura de propriedade
+
+Uma LLC pode ter um sócio ou vários. Uma LLP é pensada especificamente em torno de vários sócios: não se adequa a uma verdadeira situação de dono único como uma LLC se adequa.
+
+### Utilização típica
+
+Uma LLC serve uma grande variedade de negócios: uma loja, uma consultora, um negócio de serviços com um único dono. Uma LLP está associada mais especificamente a sociedades de profissionais habilitados, em que a questão central é a responsabilidade individual de cada sócio pelo trabalho dos outros.
+
+### Pergunte a si próprio
+
+Se estivesse a criar sozinho um negócio de consultoria, uma LLP seria sequer uma opção? Na verdade, não: as LLP pressupõem sócios. Essa única pergunta resolve muitas vezes qual a estrutura que realmente se adequa.
 
 ## Exemplo prático
-Considere uma pequena empresa que precisa de decidir como organizar o trabalho, controlar custos e proteger a sua capacidade de continuar a operar. Aplique o conceito desta lição para identificar uma vantagem, um risco e a informação adicional necessária antes de tomar uma decisão.
 
-## Exercício
-Escolha uma empresa que conheça. Explique em poucas frases como este conceito aparece na atividade diária e que decisão poderia ser melhorada ao compreendê-lo.
+Um consultor freelancer sem sócios está a escolher entre LLC e LLP. Pergunte a si próprio: a LLP aplica-se sequer aqui? Como as LLP são pensadas em torno de vários sócios, este cenário aponta claramente para uma LLC. Agora imagine três contabilistas a abrir um escritório em conjunto: neste cenário, ambas as estruturas são possíveis, e a proteção da LLP quanto à responsabilidade entre sócios passa a ser o fator mais relevante.
 
-## Questionário
-1. Qual é o objetivo principal deste conceito? A. Apenas terminologia B. Apoiar melhores decisões empresariais C. Servir apenas grandes empresas D. Eliminar todo o risco
-2. Verdadeiro ou falso: os conceitos empresariais devem frequentemente ser analisados em conjunto com outros dados.
-3. Qual é a melhor utilização do conhecimento? A. Memorizar sem aplicar B. Usá-lo para avaliar uma decisão real C. Ignorar o contexto D. Assumir que todas as empresas são iguais
+## Teste de prática
 
-## Respostas
+1. Que estrutura NÃO é geralmente pensada para um verdadeiro dono único?
+   A. LLC
+   B. LLP
+   C. Ambas são pensadas apenas para donos únicos
+   D. Nenhuma diz respeito à estrutura de propriedade
+
+2. Verdadeiro ou falso: as LLC e as LLP partilham o mesmo objetivo básico de limitar a responsabilidade pessoal.
+
+3. Um consultor que trabalha sozinho, sem sócios, está a escolher uma estrutura. Qual se adequa mais naturalmente, tendo em conta apenas a estrutura de propriedade?
+   A. LLP
+   B. LLC
+   C. Nenhuma se adequa a um dono único
+   D. Ambas são igualmente inadequadas
+
+## Chave de Respostas
+
 1. B
 2. Verdadeiro
 3. B
 
-## Explicação das respostas
-1. B — a literacia empresarial deve melhorar a capacidade de decisão.
-2. Verdadeiro — estrutura, dinheiro, risco e operações estão interligados.
-3. B — o conhecimento transforma-se em competência quando é aplicado.
+## Respostas e explicações
 
-## Pontos principais
-- Compreenda o conceito e não apenas o nome.
-- Relacione-o com custos, risco, capacidade e controlo.
-- Verifique regras específicas do país ou setor quando forem relevantes.
+### Pergunta 1
+
+Resposta correta: B. As LLP são pensadas em torno de vários sócios, e não de um verdadeiro dono único.
+
+### Pergunta 2
+
+Resposta correta: Verdadeiro. Ambas as estruturas partilham o objetivo central de limitar a responsabilidade pessoal.
+
+### Pergunta 3
+
+Resposta correta: B. Uma LLC adequa-se a um dono único; uma LLP pressupõe sócios.
+
+## Pontos-chave
+
+- As LLC e as LLP limitam a responsabilidade pessoal, mas desenham essa proteção de forma diferente.
+- As LLC servem para um ou vários donos; as LLP pressupõem vários sócios.
+- As LLP estão associadas mais especificamente a sociedades de profissionais habilitados.

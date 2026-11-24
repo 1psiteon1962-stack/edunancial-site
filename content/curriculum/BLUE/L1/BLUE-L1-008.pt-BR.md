@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-008
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 8
 locale: pt-BR
-source_locale: en-US
-title: "Empresário Individual vs. Sociedade em Nome Coletivo vs. Sociedade de Responsabilidade Limitada"
-summary: "Um ** (limited company) é uma entidade jurídica separada de seus donos, o que significa que os bens pessoais dos donos geralmente são protegidos caso o negócio contraia dívidas, embora essa proteção possa ter exceções."
+title: "Subchapter C ou Subchapter S: o que realmente muda?"
+summary: "Aprenda a diferença central de tratamento tributário entre uma C corporation e uma S corporation."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-008: Empresário Individual vs. Sociedade em Nome Coletivo vs. Sociedade de Responsabilidade Limitada
+# Subchapter C ou Subchapter S: o que realmente muda?
 
-## Objetivos de Aprendizagem
-1. Distinguir um empresário individual, uma sociedade em nome coletivo, e uma sociedade de responsabilidade limitada.
-2. Identificar a diferença fundamental de responsabilidade entre essas estruturas.
-3. Reconhecer que os nomes e regras das estruturas variam de acordo com o país.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-*REGRA ESPECÍFICA DA REGIÃO:* Os nomes e regras das estruturas empresariais variam significativamente de acordo com o país; esta lição descreve a terminologia britânica comum, e os equivalentes diferem em outros lugares (por exemplo, uma LLC nos Estados Unidos, ou uma Ltda no Brasil).
+Ao final desta lição, você deverá ser capaz de:
 
-Um **empresário individual** (sole trader) é uma única pessoa administrando um negócio, sem separação legal entre o dono e o negócio — o dono é pessoalmente responsável por todas as dívidas. Uma **sociedade em nome coletivo** (partnership) é semelhante, mas envolve duas ou mais pessoas compartilhando propriedade e responsabilidade. Uma **sociedade de responsabilidade limitada** (limited company) é uma entidade jurídica separada de seus donos, o que significa que os bens pessoais dos donos geralmente são protegidos caso o negócio contraia dívidas, embora essa proteção possa ter exceções.
+- explicar a que se referem "C corp" e "S corp".
+- explicar a diferença tributária central entre elas.
+- reconhecer que o status de S corp vem com limites reais de elegibilidade.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Priya administra seu trabalho de design gráfico como empresária individual. Quando o negócio enfrenta uma disputa de fatura não paga que se transforma em dívida, suas economias e bens pessoais estão, em princípio, expostos para cobri-la, já que não existe separação legal entre ela e o negócio. Se ela tivesse estruturado como uma sociedade de responsabilidade limitada, seus bens pessoais geralmente estariam protegidos, com os próprios bens da empresa assumindo esse risco em vez disso.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é um empresário individual?
-2. O que é uma sociedade em nome coletivo?
-3. Verdadeiro/Falso: Uma sociedade de responsabilidade limitada não oferece nenhuma proteção entre bens pessoais e empresariais.
-4. Qual é a diferença fundamental de responsabilidade entre um empresário individual e uma sociedade de responsabilidade limitada?
+### A mesma estrutura jurídica, tratamento tributário diferente
+
+*(REGRA ESPECÍFICA DA REGIÃO: isto descreve a legislação tributária federal dos EUA. No Brasil, a tributação das empresas segue regimes como Simples Nacional, Lucro Presumido e Lucro Real, com regras próprias também para a distribuição de lucros aos sócios; confirme com um contador.)* Os dois termos se referem à mesma estrutura de corporation da lição anterior: a diferença é qual seção do código tributário federal se aplica à forma como a corporation é tributada.
+
+### A diferença central: quem paga, e quando
+
+Uma C corporation geralmente paga imposto de renda no nível da empresa sobre os seus lucros; se depois distribui dividendos aos acionistas, esses acionistas geralmente pagam imposto de novo sobre essa renda, o que às vezes se chama de "bitributação". Uma S corporation geralmente repassa o lucro diretamente para as declarações de imposto pessoais dos acionistas, evitando essa camada de imposto no nível da empresa.
+
+### Pergunte a si mesmo
+
+Se o status de S corp evita a bitributação, por que nem toda corporation simplesmente opta por ele? Porque o status de S corp vem com limites reais de elegibilidade (restrições sobre o número e o tipo de acionistas, entre outros requisitos) que nem toda corporation cumpre ou deseja.
+
+## Exemplo prático
+
+Imagine duas corporations idênticas com o mesmo lucro. Uma opta pelo tratamento de C corp; a outra, pelo de S corp. Pergunte a si mesmo: se as duas distribuírem todo o lucro aos acionistas, onde o imposto é pago de forma diferente? Na C corp, o imposto geralmente é pago no nível da empresa e de novo no nível do acionista. Na S corp, geralmente é pago uma única vez, repassado diretamente para as declarações pessoais dos acionistas.
+
+## Teste de prática
+
+1. A que se referem "C corp" e "S corp"?
+   A. A duas estruturas jurídicas de negócio totalmente diferentes
+   B. À mesma estrutura de corporation, tributada por seções diferentes do código tributário
+   C. Só ao tamanho da empresa
+   D. A uma distinção que só importa para entidades sem fins lucrativos
+
+2. Verdadeiro ou falso: uma C corporation evita a bitributação, enquanto uma S corporation não.
+
+3. Por que nem toda corporation simplesmente opta pelo status de S corp?
+   A. O status de S corp é ilegal na maioria dos estados
+   B. O status de S corp tem limites reais de elegibilidade que nem toda corporation cumpre
+   C. As S corps são sempre mais tributadas
+   D. O status de S corp não existe
 
 ## Gabarito
-1. Uma única pessoa administrando um negócio, sem separação legal do dono   2. Duas ou mais pessoas compartilhando propriedade e responsabilidade   3. Falso   4. Uma sociedade de responsabilidade limitada geralmente protege os bens pessoais; um empresário individual não
 
-## Respostas e Explicações
-1. Isso define especificamente a estrutura de empresário individual.
-2. Isso define especificamente a estrutura de sociedade em nome coletivo.
-3. Sociedades de responsabilidade limitada geralmente fornecem essa separação, com algumas exceções.
-4. Esta é a distinção central que orienta a escolha da estrutura para muitos negócios.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Empresário individual: um único dono, sem separação legal, responsabilidade pessoal total.
-- Sociedade em nome coletivo: múltiplos donos, responsabilidade compartilhada.
-- Sociedade de responsabilidade limitada: entidade jurídica separada, geralmente protegendo os bens pessoais — os nomes das estruturas variam de acordo com o país.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Os dois se referem à mesma estrutura, tributada de forma diferente pelo código tributário.
+
+### Pergunta 2
+
+Resposta correta: Falso. É o contrário: as C corps geralmente enfrentam possível bitributação; as S corps geralmente a evitam.
+
+### Pergunta 3
+
+Resposta correta: B. Requisitos reais de elegibilidade limitam quem pode optar pelo status de S corp.
+
+## Pontos-chave
+
+- C corp e S corp se referem à mesma estrutura, tributada de forma diferente.
+- As C corps geralmente enfrentam possível bitributação; as S corps geralmente repassam o lucro uma única vez.
+- O status de S corp vem com limites reais de elegibilidade e não está disponível para toda corporation.

@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 7
 locale: it
-title: "Cos'è un Business Plan?"
-summary: "Un business plan è un documento scritto che descrive cosa fa un'azienda, come intende guadagnare denaro, e come intende operare e crescere."
+title: "Che cos'è una società di capitali (corporation)?"
+summary: "Scopri che cos'è una corporation, in che cosa differisce strutturalmente da una LLC e perché viene trattata come una \"persona\" giuridica a sé."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-007: Cos'è un Business Plan?
+# Che cos'è una società di capitali (corporation)?
 
-## Obiettivi di Apprendimento
-1. Definire un business plan e il suo scopo generale.
-2. Identificare le sezioni essenziali che un business plan tipicamente include.
-3. Spiegare per chi viene solitamente scritto un business plan.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-Un business plan è un documento scritto che descrive cosa fa un'azienda, come intende guadagnare denaro, e come intende operare e crescere. *FATTO VERIFICATO:* Le sezioni comuni includono una sintesi esecutiva, una descrizione del prodotto o servizio, una ricerca di mercato, un piano di marketing e vendite, un piano operativo, e proiezioni finanziarie.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* I business plan generalmente servono due pubblici: il proprietario, come strumento di pianificazione e riflessione, e terze parti esterne come creditori o investitori, che lo usano per valutare se l'azienda è abbastanza solida da poter essere finanziata.
+- definire una corporation in termini semplici.
+- spiegare che cosa significa dire che una corporation è una "persona" giuridica a sé.
+- spiegare una conseguenza pratica di questo status giuridico separato.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Prima di aprire un food truck, Sam scrive un business plan stimando i costi di avvio, proiettando le vendite mensili in base a aziende locali simili, e delineando un piano di marketing per i social media. Quando in seguito richiede un prestito per piccole imprese, la banca chiede di vedere esattamente questo documento — lo stesso piano che lo ha aiutato a riflettere sulla sua azienda ora aiuta a convincere un creditore che vale la pena finanziarla.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è un business plan?
-2. Indica due sezioni comunemente incluse in un business plan.
-3. Vero/Falso: Un business plan è utile solo per ottenere finanziamenti esterni.
-4. Quali sono i due pubblici generali di un business plan?
+### Una persona giuridica a sé
 
-## Chiave di Risposte
-1. Un documento scritto che descrive cosa fa un'azienda e come intende operare e crescere   2. Sintesi esecutiva, proiezioni finanziarie (tra altre)   3. Falso   4. Il proprietario (come strumento di pianificazione) e terze parti esterne come creditori o investitori
+Una corporation (in Italia simile a una società per azioni, spa) è una struttura d'impresa che crea un soggetto giuridico del tutto separato dai suoi proprietari (gli azionisti), per molti aspetti in modo più formale rispetto a una LLC. La legge tratta una corporation quasi come una "persona" a sé: può possedere beni, firmare contratti, fare causa ed essere citata in giudizio, indipendentemente dalle persone che la possiedono.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione centrale di un business plan.
-2. Queste sono sezioni standard presenti nella maggior parte dei business plan.
-3. I business plan sono preziosi anche internamente, come strumento di pianificazione e riflessione per il proprietario.
-4. I business plan servono comunemente sia la pianificazione interna che le esigenze di finanziamento esterno.
+### Perché "persona a sé" è importante
 
-## Punti Chiave da Ricordare
-- Un business plan descrive cosa fa un'azienda e come intende operare e crescere.
-- Le sezioni comuni includono la ricerca di mercato, le operazioni, e le proiezioni finanziarie.
-- I business plan servono sia la pianificazione del proprietario stesso sia pubblici esterni come i creditori.
+Chiediti: se il proprietario di una corporation muore, l'attività finisce automaticamente? In genere no: poiché la corporation esiste come soggetto giuridico a sé, può continuare indipendentemente dalla vita di un singolo proprietario, a differenza di alcune strutture più semplici.
+
+### Una conseguenza pratica: la proprietà tramite azioni
+
+Le corporation sono possedute tramite azioni, introdotte nel percorso WHITE: è il collegamento diretto tra "possedere azioni" e questa struttura d'impresa. Una corporation può avere un solo azionista o milioni, e le azioni possono essere comprate e vendute senza necessariamente disturbare l'attività sottostante.
+
+## Esempio svolto
+
+Immagina una corporation di famiglia il cui fondatore muore. Chiediti: l'attività cessa legalmente di esistere? Poiché la corporation è un soggetto giuridico a sé, la proprietà delle azioni semplicemente passa ad altri (per eredità, vendita o altro): la corporation in sé continua a esistere, separata dalla vita di qualsiasi singola persona.
+
+## Quiz di esercitazione
+
+1. Una corporation si descrive meglio come:
+   A. Lo stesso soggetto giuridico dei suoi proprietari
+   B. Un soggetto giuridico separato dai suoi proprietari
+   C. Disponibile solo per le grandi aziende
+   D. Un tipo di impresa individuale
+
+2. Vero o falso: una corporation in genere cessa di esistere se muore un singolo proprietario.
+
+3. Come è strutturata di solito la proprietà di una corporation?
+   A. Tramite un unico titolo non trasferibile
+   B. Tramite azioni, che possono essere possedute da uno o molti azionisti
+   C. Le corporation non possono essere possedute da nessuno
+   D. La proprietà viene stabilita ogni anno dallo Stato
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una corporation è giuridicamente separata dai suoi proprietari.
+
+### Domanda 2
+
+Risposta corretta: Falso. In genere la corporation continua indipendentemente dalla vita di un singolo proprietario.
+
+### Domanda 3
+
+Risposta corretta: B. La proprietà è strutturata tramite azioni.
+
+## Punti chiave
+
+- Una corporation è un soggetto giuridico a sé, separato dai suoi proprietari.
+- Può continuare a esistere indipendentemente da un singolo proprietario.
+- La proprietà è strutturata tramite azioni, con un collegamento al percorso WHITE.

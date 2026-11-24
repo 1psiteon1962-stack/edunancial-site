@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 8
 locale: it
-title: "Ditta Individuale vs. Società di Persone vs. Società a Responsabilità Limitata"
-summary: "*REGOLA SPECIFICA DELLA REGIONE:* I nomi e le regole delle strutture aziendali variano significativamente da paese a paese; questa lezione descrive la terminologia britannica comune, e gli equivalenti differiscono altrove (per esempio, una LLC negli Stati Uniti, o una S.r.l."
+title: "Subchapter C o Subchapter S: che cosa cambia davvero?"
+summary: "Scopri la differenza fondamentale di trattamento fiscale tra una C corporation e una S corporation."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-008: Ditta Individuale vs. Società di Persone vs. Società a Responsabilità Limitata
+# Subchapter C o Subchapter S: che cosa cambia davvero?
 
-## Obiettivi di Apprendimento
-1. Distinguere una ditta individuale, una società di persone, e una società a responsabilità limitata.
-2. Identificare la differenza chiave di responsabilità tra queste strutture.
-3. Riconoscere che nomi e regole delle strutture variano da paese a paese.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-*REGOLA SPECIFICA DELLA REGIONE:* I nomi e le regole delle strutture aziendali variano significativamente da paese a paese; questa lezione descrive la terminologia britannica comune, e gli equivalenti differiscono altrove (per esempio, una LLC negli Stati Uniti, o una S.r.l. in Italia).
+Al termine di questa lezione dovresti essere in grado di:
 
-Una **ditta individuale** (sole trader) è una singola persona che gestisce un'azienda, senza separazione legale tra proprietario e azienda — il proprietario è personalmente responsabile di tutti i debiti. Una **società di persone** (partnership) è simile, ma coinvolge due o più persone che condividono proprietà e responsabilità. Una **società a responsabilità limitata** (limited company) è un'entità giuridica separata dai suoi proprietari, il che significa che i beni personali dei proprietari sono generalmente protetti in caso di debiti dell'azienda, sebbene questa protezione possa avere eccezioni.
+- spiegare a che cosa si riferiscono "C corp" e "S corp".
+- spiegare la differenza fiscale fondamentale tra le due.
+- riconoscere che lo status di S corp comporta limiti di ammissibilità reali.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Priya gestisce la sua attività di grafica come ditta individuale. Quando l'azienda affronta una disputa su una fattura non pagata che si trasforma in un debito, i suoi risparmi e i suoi beni personali sono, in linea di principio, esposti a coprirlo, poiché non esiste separazione legale tra lei e l'azienda. Se l'avesse strutturata come società a responsabilità limitata, i suoi beni personali sarebbero generalmente protetti, con i beni della società stessa che assumerebbero quel rischio al suo posto.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è una ditta individuale?
-2. Cos'è una società di persone?
-3. Vero/Falso: Una società a responsabilità limitata non offre alcuna protezione tra beni personali e aziendali.
-4. Qual è la differenza chiave di responsabilità tra una ditta individuale e una società a responsabilità limitata?
+### Stessa struttura giuridica, trattamento fiscale diverso
 
-## Chiave di Risposte
-1. Una singola persona che gestisce un'azienda, senza separazione legale dal proprietario   2. Due o più persone che condividono proprietà e responsabilità   3. Falso   4. Una società a responsabilità limitata generalmente protegge i beni personali; una ditta individuale no
+*(REGOLA SPECIFICA PER PAESE: questo descrive la legge fiscale federale degli Stati Uniti. In Italia le società di capitali pagano l'IRES sugli utili e i soci sono tassati di nuovo sui dividendi, mentre esistono regimi particolari, come la trasparenza fiscale per alcune srl; verifica con un commercialista.)* Entrambi i termini si riferiscono alla stessa struttura di corporation vista nella lezione precedente: la differenza è quale sezione del codice tributario federale si applica al modo in cui la corporation viene tassata.
 
-## Risposte e Spiegazioni
-1. Questo definisce specificamente la struttura della ditta individuale.
-2. Questo definisce specificamente la struttura della società di persone.
-3. Le società a responsabilità limitata generalmente offrono questa separazione, con alcune eccezioni.
-4. Questa è la distinzione centrale che guida la scelta della struttura per molte aziende.
+### La differenza fondamentale: chi paga, e quando
 
-## Punti Chiave da Ricordare
-- Ditta individuale: un unico proprietario, nessuna separazione legale, piena responsabilità personale.
-- Società di persone: più proprietari, responsabilità condivisa.
-- Società a responsabilità limitata: entità giuridica separata, che generalmente protegge i beni personali — i nomi delle strutture variano da paese a paese.
+Una C corporation paga in genere l'imposta sul reddito a livello societario sui propri utili; se poi distribuisce dividendi agli azionisti, questi pagano in genere di nuovo le tasse su quel reddito: la cosiddetta "doppia imposizione". Una S corporation in genere trasferisce gli utili direttamente nelle dichiarazioni dei redditi personali degli azionisti, evitando quel livello di imposta societaria.
+
+### Chiediti questo
+
+Se lo status di S corp evita la doppia imposizione, perché non lo sceglie ogni corporation? Perché lo status di S corp comporta limiti di ammissibilità reali, tra cui restrizioni sul numero e sul tipo di azionisti, che non tutte le corporation soddisfano o desiderano.
+
+## Esempio svolto
+
+Immagina due corporation identiche con lo stesso utile. Una sceglie il trattamento da C corp; l'altra quello da S corp. Chiediti: se entrambe distribuiscono tutto l'utile agli azionisti, dove viene pagata l'imposta in modo diverso? Nella C corp l'imposta si paga in genere a livello societario e poi di nuovo a livello di azionista. Nella S corp si paga in genere una sola volta, trasferita direttamente nelle dichiarazioni personali degli azionisti.
+
+## Quiz di esercitazione
+
+1. A che cosa si riferiscono "C corp" e "S corp"?
+   A. A due strutture giuridiche d'impresa del tutto diverse
+   B. Alla stessa struttura di corporation, tassata secondo sezioni diverse del codice tributario
+   C. Solo alle dimensioni dell'azienda
+   D. A una distinzione che conta solo per gli enti non profit
+
+2. Vero o falso: una C corporation evita la doppia imposizione, mentre una S corporation no.
+
+3. Perché non tutte le corporation scelgono semplicemente lo status di S corp?
+   A. Lo status di S corp è illegale nella maggior parte degli stati
+   B. Lo status di S corp ha limiti di ammissibilità reali che non tutte le corporation rispettano
+   C. Le S corp sono sempre tassate di più
+   D. Lo status di S corp non esiste
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Entrambi si riferiscono alla stessa struttura, tassata in modo diverso secondo il codice tributario.
+
+### Domanda 2
+
+Risposta corretta: Falso. È il contrario: le C corp rischiano in genere la doppia imposizione; le S corp in genere la evitano.
+
+### Domanda 3
+
+Risposta corretta: B. Requisiti di ammissibilità reali limitano chi può scegliere lo status di S corp.
+
+## Punti chiave
+
+- C corp e S corp si riferiscono alla stessa struttura, tassata in modo diverso.
+- Le C corp rischiano in genere la doppia imposizione; le S corp in genere trasferiscono gli utili una sola volta.
+- Lo status di S corp comporta limiti di ammissibilità reali e non è disponibile per ogni corporation.

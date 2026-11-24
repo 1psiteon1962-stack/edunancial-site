@@ -5,44 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 15
 locale: it
-title: "Fondamenti della Fidelizzazione Clienti"
-summary: "La fidelizzazione clienti è la capacità di un'azienda di far sì che i clienti continuino ad acquistare da essa nel tempo, invece di fare un singolo acquisto e non tornare mai più."
+title: "Che cos'è il punto di pareggio (break-even)?"
+summary: "Scopri che cosa significa punto di pareggio, come si calcola a livello di base e perché conta prima che un'impresa realizzi un utile."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
-date: 2026-08-24
+date: 2026-08-08
 ---
 
-# BLUE-L1-015: Fondamenti della Fidelizzazione Clienti
+# Che cos'è il punto di pareggio (break-even)?
 
-## Obiettivi di Apprendimento
-1. Definire la fidelizzazione clienti.
-2. Spiegare perché fidelizzare i clienti costa generalmente meno che acquisirne di nuovi.
-3. Identificare modi comuni in cui le aziende incoraggiano la clientela ricorrente.
+## Obiettivi di apprendimento
 
-## Contenuto Principale
-La fidelizzazione clienti è la capacità di un'azienda di far sì che i clienti continuino ad acquistare da essa nel tempo, invece di fare un singolo acquisto e non tornare mai più. *STIMA:* Acquisire un nuovo cliente viene comunemente citato come significativamente più costoso rispetto a fidelizzare un cliente esistente, anche se il rapporto esatto varia ampiamente a seconda del settore e del modello di business.
+Al termine di questa lezione dovresti essere in grado di:
 
-*SUPPOSIZIONE:* Gli approcci comuni alla fidelizzazione includono un buon servizio clienti, programmi fedeltà, qualità costante, e il mantenimento del contatto attraverso canali come l'email — la combinazione specifica dipende dal tipo di azienda e dai suoi clienti.
+- definire il punto di pareggio in termini semplici.
+- spiegare, a livello concettuale, che cosa deve succedere perché un'impresa lo raggiunga.
+- spiegare perché conoscere questo numero è importante prima di aprire.
 
-## Esempio Pratico
-*ESEMPIO ILLUSTRATIVO:* Un parrucchiere potrebbe spendere denaro in annunci per attirare un nuovo cliente per una singola visita, oppure concentrarsi su qualità e cordialità affinché quello stesso cliente prenoti un appuntamento successivo e raccomandi amici. La seconda strada costa generalmente meno nel tempo e costruisce una base più stabile di clientela ricorrente, invece di richiedere spese costanti solo per mantenere piena l'agenda.
+## Contenuto principale
 
-## Quiz Pratico
-1. Cos'è la fidelizzazione clienti?
-2. Acquisire un nuovo cliente è generalmente più o meno costoso rispetto a fidelizzare un cliente esistente?
-3. Indica due approcci comuni alla fidelizzazione.
-4. Vero/Falso: Fidelizzazione e acquisizione non sono correlate nella pratica.
+### Che cosa significa punto di pareggio
 
-## Chiave di Risposte
-1. La capacità di far sì che i clienti continuino ad acquistare nel tempo   2. Generalmente più costoso   3. Buon servizio clienti, programmi fedeltà (tra altri)   4. Falso
+Il punto di pareggio è il livello di vendite al quale i ricavi totali di un'impresa sono esattamente uguali ai suoi costi totali: nessun utile, nessuna perdita, il punto esatto di passaggio tra i due.
 
-## Risposte e Spiegazioni
-1. Questa è la definizione fondamentale della fidelizzazione.
-2. Questo è uno schema generale comunemente citato, anche se il rapporto esatto varia a seconda del settore.
-3. Questi sono approcci alla fidelizzazione comunemente citati.
-4. Un'azienda con una forte fidelizzazione può dipendere meno dall'acquisizione costante di nuovi clienti per sostenere i propri ricavi.
+### Che cosa deve succedere per raggiungerlo
 
-## Punti Chiave da Ricordare
-- La fidelizzazione clienti mantiene i clienti esistenti che acquistano nel tempo.
-- Fidelizzare un cliente costa generalmente meno che acquisirne uno nuovo.
-- La qualità del servizio, i programmi fedeltà, e la comunicazione costante supportano comunemente la fidelizzazione.
+Chiediti: sotto quel punto, l'impresa guadagna o perde denaro? Sotto il pareggio, i costi superano i ricavi: è una perdita. Sopra, i ricavi superano i costi: è un utile. Questo si collega direttamente ai costi generali (i costi fissi da coprire qualunque sia il volume di vendite) di due lezioni fa.
+
+### Perché conoscere questo numero è importante prima di aprire
+
+Un titolare che conosce in partenza il proprio punto di pareggio ha un obiettivo concreto e specifico, non solo una vaga speranza che "le vendite andranno abbastanza bene". Senza quel numero è facile sottovalutare quanto bisogna vendere solo per smettere di perdere denaro, figuriamoci per iniziare a guadagnare.
+
+## Esempio svolto
+
+Un piccolo negozio ha 3.000 $ al mese di costi generali e guadagna circa 15 $ su ogni articolo venduto, al netto dei costi diretti. Chiediti: quanti articoli deve vendere più o meno ogni mese solo per andare in pareggio? 3.000 $ ÷ 15 $ = 200 articoli: un numero concreto con cui il titolare può confrontare le vendite reali, invece di sperare che tutto vada bene.
+
+## Quiz di esercitazione
+
+1. Il punto di pareggio è:
+   A. Il punto in cui un'impresa realizza il massimo utile
+   B. Il livello di vendite in cui i ricavi totali sono uguali ai costi totali
+   C. Il costo generale totale dell'impresa
+   D. Un tipo di licenza commerciale
+
+2. Vero o falso: sotto il punto di pareggio, un'impresa sta generando un utile.
+
+3. Perché conoscere il punto di pareggio è importante prima di aprire un'impresa?
+   A. Non ha alcuna importanza
+   B. Dà un obiettivo di vendita concreto invece di una vaga speranza
+   C. Garantisce che l'impresa avrà successo
+   D. Elimina la necessità di un business plan
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il pareggio è il punto in cui i ricavi sono esattamente uguali ai costi totali.
+
+### Domanda 2
+
+Risposta corretta: Falso. Sotto il pareggio i costi superano i ricavi: è una perdita.
+
+### Domanda 3
+
+Risposta corretta: B. Offre un obiettivo specifico e misurabile invece di una vaga speranza.
+
+## Punti chiave
+
+- Il punto di pareggio è il livello di vendite in cui i ricavi sono esattamente uguali ai costi totali.
+- Sotto c'è una perdita; sopra c'è un utile.
+- Conoscere questo numero dà un obiettivo concreto prima di aprire, non solo una speranza.

@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-013
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 13
 locale: pt-BR
-source_locale: en-US
-title: "Entendendo os Clientes e Suas Necessidades"
-summary: ""
+title: "O que são custos fixos (overhead)?"
+summary: "Aprenda o que são custos fixos e por que eles existem independentemente de quanto o negócio vende."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-013: Entendendo os Clientes e Suas Necessidades
+# O que são custos fixos (overhead)?
 
-## Objetivos de Aprendizagem
-1. Definir um cliente em termos empresariais.
-2. Distinguir um desejo de uma necessidade no contexto de uma compra.
-3. Explicar por que entender o cliente é o ponto de partida de qualquer negócio.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-*FATO VERIFICADO:* Um cliente é a pessoa ou organização que paga pelo produto ou serviço de um negócio. Todo negócio existe para resolver um problema ou satisfazer um desejo de alguém, e a disposição dessa pessoa em pagar é o que torna o negócio viável.
+Ao final desta lição, você deverá ser capaz de:
 
-*SUPOSIÇÃO:* Uma "necessidade" é geralmente algo que um cliente precisa para resolver um problema real, enquanto um "desejo" é geralmente algo que melhora sua situação sem ser essencial — muitos negócios de sucesso são construídos sobre desejos em vez de necessidades estritas, então essa distinção molda o marketing mais do que determina a viabilidade.
+- definir custos fixos em termos simples.
+- distinguir custos fixos de custos ligados diretamente a uma venda.
+- explicar por que os custos fixos importam mesmo nos períodos fracos.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Um encanador resolve uma necessidade — um cano estourado precisa ser consertado. Uma cafeteria especializada vende um desejo — os clientes poderiam fazer café em casa, mas estão dispostos a pagar pela conveniência, qualidade, e experiência. Ambos são negócios totalmente legítimos; entender qual dos dois você está oferecendo molda como você define preços, faz marketing, e compete.
+## Conteúdo principal
 
-## Questionário Prático
-1. O que é um cliente, em termos empresariais?
-2. O que geralmente distingue um desejo de uma necessidade?
-3. Verdadeiro/Falso: Apenas negócios que atendem a uma necessidade estrita podem ser viáveis.
-4. Por que entender o cliente importa como ponto de partida?
+### O que são custos fixos
+
+Custos fixos (em inglês, "overhead") são os custos contínuos de manter um negócio funcionando que não estão ligados diretamente à produção de um produto específico ou a uma venda específica: coisas como aluguel, seguro e salários administrativos.
+
+### Custos fixos e custos diretos
+
+Pergunte a si mesmo: se o negócio não fizesse nenhuma venda este mês, o aluguel ainda teria de ser pago? Sim: essa é a característica que define os custos fixos. Os custos que aumentam diretamente com cada venda (como a matéria-prima de um produto específico) são diferentes e são tratados separadamente em lições posteriores.
+
+### Por que importam mesmo quando o movimento está fraco
+
+Os custos fixos continuam se acumulando, haja receita ou não. Por isso é importante entendê-los no planejamento: um negócio com custos fixos altos precisa de um certo volume mínimo de vendas só para empatar, um conceito visto na próxima lição.
+
+## Exemplo prático
+
+Uma pequena loja paga US$ 2.000 por mês de aluguel, não importa quantos itens venda naquele mês. Pergunte a si mesmo: esses US$ 2.000 mudam se as vendas forem fracas em um mês? Não: é exatamente isso que faz deles um custo fixo, diferente do custo da mercadoria específica vendida.
+
+## Teste de prática
+
+1. Custos fixos são:
+   A. Custos ligados diretamente à produção de uma unidade específica vendida
+   B. Custos contínuos de manter o negócio, não ligados diretamente a uma venda
+   C. Um tipo de licença comercial
+   D. A receita total de um negócio
+
+2. Verdadeiro ou falso: os custos fixos desaparecem em um mês sem vendas.
+
+3. Qual destes é um custo fixo típico?
+   A. A matéria-prima de um produto específico
+   B. O aluguel mensal do ponto do negócio
+   C. A compra única de um equipamento
+   D. O frete de um pedido específico
 
 ## Gabarito
-1. A pessoa ou organização que paga por um produto ou serviço   2. Uma necessidade resolve um problema real; um desejo melhora uma situação sem ser essencial   3. Falso   4. A disposição do cliente em pagar é o que torna um negócio viável
 
-## Respostas e Explicações
-1. Esta é a definição básica de um cliente.
-2. Esta é a distinção geral entre desejos e necessidades.
-3. Muitos negócios viáveis são construídos em torno de desejos, não apenas necessidades estritas.
-4. Sem uma imagem clara do cliente, um negócio não tem base para sua oferta.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- Um cliente é quem paga pelo produto ou serviço que um negócio oferece.
-- Desejos e necessidades são ambas bases legítimas para um negócio viável.
-- Entender o cliente é o ponto de partida para definir preços, fazer marketing, e competir.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. Custos fixos são contínuos e não estão ligados a uma venda específica.
+
+### Pergunta 2
+
+Resposta correta: Falso. Os custos fixos geralmente continuam independentemente das vendas.
+
+### Pergunta 3
+
+Resposta correta: B. O aluguel é um custo fixo clássico, sem relação com nenhuma venda específica.
+
+## Pontos-chave
+
+- Custos fixos são custos contínuos, não ligados a uma venda específica.
+- Eles continuam, haja receita ou não.
+- Eles definem um patamar que o negócio precisa cobrir com vendas, como a próxima lição mostra.

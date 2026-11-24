@@ -1,48 +1,83 @@
 ---
 id: BLUE-L1-004
 track: BLUE
-officialTrackName: "Business"
+officialTrackName: Business
 level: 1
 lessonNumber: 4
 locale: pt-BR
-source_locale: en-US
-title: "Margem Bruta vs. Margem Líquida"
-summary: "A margem líquida vai além, subtraindo as despesas — incluindo aluguel, salários, marketing, e impostos — não apenas o custo direto dos produtos."
+title: "O que é uma LLC?"
+summary: "Aprenda o que uma LLC realmente protege e em que ela difere, na estrutura, de uma empresa individual."
 version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
 ---
 
-# BLUE-L1-004: Margem Bruta vs. Margem Líquida
+# O que é uma LLC?
 
-## Objetivos de Aprendizagem
-1. Definir margem bruta e margem líquida.
-2. Explicar o que cada margem revela sobre um negócio.
-3. Calcular uma margem bruta simples.
+## Objetivos de aprendizagem
 
-## Conteúdo Principal
-A margem bruta mede quanto dinheiro sobra das vendas depois de subtrair apenas o custo direto de produzir o que foi vendido (custo dos produtos vendidos). *FATO VERIFICADO:* Margem Bruta = (Receita − Custo dos Produtos Vendidos) ÷ Receita, expressa em porcentagem.
+Ao final desta lição, você deverá ser capaz de:
 
-A margem líquida vai além, subtraindo *todas* as despesas — incluindo aluguel, salários, marketing, e impostos — não apenas o custo direto dos produtos. *SUPOSIÇÃO:* Um negócio pode ter uma margem bruta saudável, mas uma margem líquida fraca se seus custos indiretos (aluguel, equipe, marketing) forem muito altos em relação às vendas — os dois números contam partes diferentes da história.
+- definir LLC em termos simples.
+- explicar o que a "responsabilidade limitada" realmente limita.
+- explicar por que isso muda o quadro de riscos em relação a uma empresa individual.
 
-## Exemplo Prático
-*EXEMPLO ILUSTRATIVO:* Uma loja de roupas vende uma jaqueta por $100 que custou $40 para fabricar. Margem Bruta = ($100 − $40) ÷ $100 = 60%. Isso parece saudável. Mas depois que aluguel, salários da equipe, e marketing são considerados, o negócio pode ficar com apenas $8 desses $100 como lucro real — uma margem líquida de apenas 8%, revelando que os custos indiretos consomem a maior parte do lucro bruto.
+## Conteúdo principal
 
-## Questionário Prático
-1. Qual é a fórmula da margem bruta?
-2. O que a margem líquida subtrai que a margem bruta não subtrai?
-3. Verdadeiro/Falso: Uma margem bruta saudável sempre significa uma margem líquida saudável.
-4. Se a receita é $200 e o custo dos produtos vendidos é $80, qual é a margem bruta?
+### O que significa LLC e o que ela faz
+
+LLC significa Limited Liability Company (no Brasil, a forma mais parecida é a sociedade limitada, Ltda., que também pode ter um único sócio). Pergunte a si mesmo: qual é o único problema da lição anterior que essa estrutura existe para resolver? A responsabilidade pessoal ilimitada. Uma LLC cria uma separação jurídica entre o dono (chamado de "member", sócio) e o negócio: o negócio passa a ser uma pessoa jurídica própria.
+
+### O que o "limitada" realmente limita
+
+Se uma LLC for processada ou não conseguir pagar uma dívida, os bens pessoais do sócio geralmente ficam protegidos: o que fica em risco são os bens do próprio negócio, e não a casa ou as economias pessoais do dono, *desde que* o dono cumpra as formalidades exigidas (manter as finanças do negócio separadas das pessoais, fazer os registros corretamente e assim por diante).
+
+### O detalhe que vale conhecer agora
+
+*(REGRA ESPECÍFICA DA REGIÃO: os requisitos de constituição e as formalidades variam de estado para estado e de país para país. No Brasil, a sociedade limitada tem regras próprias, e a Justiça pode atingir os bens dos sócios em casos como confusão patrimonial; confirme com um advogado ou contador.)* Essa proteção não é automática nem incondicional: ela depende de tratar a LLC, na prática, como uma entidade separada, e não só no papel. Lições posteriores desta trilha mostram como são essas formalidades.
+
+## Exemplo prático
+
+Compare a fotógrafa freelancer da lição anterior com uma versão dela que abriu uma LLC. A mesma falha no equipamento, o mesmo processo. Pergunte a si mesmo: o que muda desta vez? Se ela cumpriu as formalidades da LLC, o pedido de indenização geralmente atinge os bens do negócio, e não os bens pessoais dela. O mesmo acontecimento, uma exposição jurídica diferente, só por causa da estrutura.
+
+## Teste de prática
+
+1. LLC significa:
+   A. Limited Liability Corporation
+   B. Limited Liability Company
+   C. Legal License Certificate
+   D. Local Licensed Contractor
+
+2. Verdadeiro ou falso: a proteção de responsabilidade de uma LLC é automática e vale não importa o que o dono faça.
+
+3. Em comparação com uma empresa individual, o que uma LLC protege principalmente?
+   A. A alíquota de imposto do negócio
+   B. Os bens pessoais do dono contra dívidas e processos do negócio
+   C. O orçamento de marketing do negócio
+   D. Os funcionários do dono
 
 ## Gabarito
-1. (Receita − Custo dos Produtos Vendidos) ÷ Receita   2. Todas as outras despesas, como aluguel, salários, e marketing   3. Falso   4. 60%
 
-## Respostas e Explicações
-1. Este é o cálculo padrão da margem bruta.
-2. A margem líquida considera o custo total de administrar o negócio, não apenas de produzir o produto.
-3. Um negócio pode ter uma margem bruta forte, mas uma margem líquida fraca se os custos indiretos forem muito altos.
-4. ($200 − $80) ÷ $200 = 0,60 = 60%.
+1. B
+2. Falso
+3. B
 
-## Principais Pontos a Lembrar
-- A margem bruta mede a lucratividade depois apenas dos custos diretos de produção.
-- A margem líquida mede a lucratividade depois de todas as despesas.
-- Uma margem bruta forte não garante uma margem líquida forte — os custos indiretos também importam.
+## Respostas e explicações
+
+### Pergunta 1
+
+Resposta correta: B. LLC significa Limited Liability Company.
+
+### Pergunta 2
+
+Resposta correta: Falso. A proteção depende de cumprir as formalidades exigidas, e não é automática só por ter aberto a LLC.
+
+### Pergunta 3
+
+Resposta correta: B. A proteção dos bens pessoais é o benefício central em relação a uma empresa individual.
+
+## Pontos-chave
+
+- Uma LLC cria uma separação jurídica entre o dono e o negócio.
+- Isso geralmente protege os bens pessoais contra dívidas e processos do negócio.
+- Essa proteção depende de cumprir as formalidades exigidas, e não só de registrar os papéis uma vez.
