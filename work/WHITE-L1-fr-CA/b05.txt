@@ -1,0 +1,339 @@
+===== WHITE-L1-021
+TITLE: Qu’est-ce qu’un compte de courtage? (Et en quoi diffère-t-il d’un compte de retraite?)
+SUMMARY: Découvrez ce qu’est un compte de courtage ordinaire, et en quoi son objectif et sa souplesse diffèrent de ceux d’un compte de retraite.
+# Qu’est-ce qu’un compte de courtage? (Et en quoi diffère-t-il d’un compte de retraite?)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un compte de courtage en termes simples.
+- Expliquer en quoi il diffère d’un compte de retraite comme un 401(k) ou un IRA.
+- Expliquer le compromis de base entre la souplesse et les avantages fiscaux.
+
+## Contenu principal
+
+### Ce qu’est un compte de courtage
+
+Un compte de courtage est un compte de placement ordinaire qui permet à une personne d’acheter et de vendre des actions, des obligations, des FNB et d’autres actifs papier — sans les règles fiscales propres à la retraite d’un 401(k) ou d’un IRA. (Au Canada, on parle souvent de compte « non enregistré », par opposition aux comptes enregistrés comme le REER ou le CELI.)
+
+### En quoi il diffère d’un compte de retraite
+
+Contrairement aux comptes de retraite, un compte de courtage ordinaire n’offre généralement aucun avantage fiscal particulier, mais n’impose pas non plus de restrictions sur le moment où l’argent peut être retiré — une souplesse totale pour ajouter ou retirer de l’argent en tout temps.
+
+### Le compromis entre souplesse et avantage fiscal
+
+Les comptes de retraite échangent une partie de la souplesse (souvent en limitant l’accès facile à l’argent avant un certain âge) contre de réels avantages fiscaux. Les comptes de courtage échangent ces avantages fiscaux contre une souplesse totale. Bien des investisseurs utilisent les deux, à des fins différentes.
+
+## Exemple pratique
+
+Une personne qui épargne précisément pour une retraite lointaine de plusieurs décennies pourrait donner la priorité à un 401(k) ou à un IRA pour leurs avantages fiscaux. La même personne, si elle épargne pour un objectif des prochaines années et a besoin d’un accès souple à son argent, pourrait plutôt utiliser un compte de courtage ordinaire.
+
+## Quiz pratique
+
+1. Un compte de courtage est :
+   A. Exclusivement destiné à l’épargne-retraite
+   B. Un compte de placement ordinaire sans règles fiscales propres à la retraite
+   C. Un type d’obligation d’épargne
+   D. Accessible seulement aux employeurs
+2. Vrai ou faux : un compte de courtage ordinaire impose les mêmes restrictions de retrait qu’un 401(k).
+3. Quel est le compromis de base entre les comptes de retraite et les comptes de courtage ordinaires?
+   A. Il n’y a aucun compromis
+   B. Des avantages fiscaux et un accès restreint, ou une souplesse totale avec moins d’avantages fiscaux
+   C. Les comptes de courtage sont illégaux
+   D. Les comptes de retraite n’offrent aucun avantage fiscal
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un compte de courtage est un compte de placement ordinaire et souple.
+
+### Question 2
+Bonne réponse : Faux. Les comptes de courtage permettent généralement des retraits en tout temps, contrairement aux comptes de retraite.
+
+### Question 3
+Bonne réponse : B. C’est le compromis fondamental entre les deux types de comptes.
+
+## Points clés
+
+- Un compte de courtage est un compte de placement ordinaire, sans règles propres à la retraite.
+- Il offre une souplesse totale, mais généralement aucun avantage fiscal particulier.
+- Les comptes de retraite échangent une partie de la souplesse contre de réels avantages fiscaux.
+
+===== WHITE-L1-022
+TITLE: Qu’est-ce que la méthode des achats périodiques (dollar-cost averaging)?
+SUMMARY: Découvrez ce qu’est la méthode des achats périodiques, et pourquoi investir régulièrement un montant fixe peut atténuer l’effet de la volatilité des prix.
+# Qu’est-ce que la méthode des achats périodiques (dollar-cost averaging)?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir la méthode des achats périodiques en termes simples.
+- Expliquer comment elle interagit avec la volatilité des prix.
+- La reconnaître comme une stratégie, et non comme une garantie de profit.
+
+## Contenu principal
+
+### Ce qu’est la méthode des achats périodiques
+
+La méthode des achats périodiques (en anglais *dollar-cost averaging*) consiste à investir un montant fixe à intervalles réguliers (par exemple chaque mois), peu importe le prix du moment, plutôt que d’investir une grosse somme forfaitaire d’un seul coup.
+
+### Comment elle interagit avec la volatilité
+
+Comme le montant investi reste fixe, on achète plus de parts quand les prix sont bas et moins de parts quand les prix sont élevés — ce qui fait naturellement la moyenne du prix d’achat avec le temps, sans exiger de l’investisseur qu’il prédise les variations de prix.
+
+### Ce n’est pas une garantie
+
+La méthode des achats périodiques ne garantit aucun profit et ne protège pas contre les pertes — c’est une approche disciplinée de l’investissement dans le temps, et non un moyen d’éliminer complètement le risque.
+
+## Exemple pratique
+
+Une investisseuse place 200 $ dans un placement chaque mois. Quand le prix est bas, ces 200 $ achètent plus de parts; quand le prix est élevé, ils en achètent moins — sur une année, cela produit un prix d’achat moyen sans qu’elle ait à essayer de deviner le bon moment pour entrer sur le marché.
+
+## Quiz pratique
+
+1. La méthode des achats périodiques consiste à :
+   A. Investir une grosse somme forfaitaire d’un seul coup
+   B. Investir un montant fixe à intervalles réguliers, peu importe le prix
+   C. N’investir que lorsque les prix sont bas
+   D. Éviter tous les actifs papier
+2. Vrai ou faux : la méthode des achats périodiques garantit un profit.
+3. Selon la méthode des achats périodiques, qu’arrive-t-il au nombre de parts achetées lorsque le prix est plus bas?
+   A. On achète moins de parts
+   B. On achète plus de parts avec le même montant fixe
+   C. On n’achète aucune part
+   D. Le montant investi augmente automatiquement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un montant fixe, à intervalles réguliers, peu importe le prix.
+
+### Question 2
+Bonne réponse : Faux. C’est une stratégie disciplinée, et non une garantie.
+
+### Question 3
+Bonne réponse : B. Un montant fixe achète plus de parts lorsque le prix est plus bas.
+
+## Points clés
+
+- La méthode des achats périodiques consiste à investir un montant fixe à intervalles réguliers.
+- Elle achète naturellement plus de parts quand les prix sont bas, et moins quand ils sont élevés.
+- C’est une stratégie disciplinée, et non une garantie contre les pertes.
+
+===== WHITE-L1-023
+TITLE: Qu’est-ce qu’un fractionnement d’actions?
+SUMMARY: Découvrez ce qu’un fractionnement d’actions change, et ce qu’il ne change pas, à la valeur d’une entreprise.
+# Qu’est-ce qu’un fractionnement d’actions?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un fractionnement d’actions en termes simples.
+- Expliquer ce qui change et ce qui ne change pas lors d’un fractionnement.
+- Calculer de façon simple le nombre d’actions et le prix après un fractionnement.
+
+## Contenu principal
+
+### Ce qu’est un fractionnement d’actions
+
+Un fractionnement d’actions divise chaque action existante en plusieurs nouvelles actions, ce qui réduit proportionnellement le prix par action tout en augmentant le nombre d’actions en circulation.
+
+### Ce qui change, et ce qui ne change pas
+
+Le nombre d’actions que possède un investisseur augmente, et le prix par action diminue proportionnellement. Ce qui NE change PAS : la valeur totale du placement de l’investisseur et la capitalisation boursière globale de l’entreprise — la tarte est coupée en plus de pointes, mais la tarte elle-même reste de la même taille.
+
+### Pourquoi les entreprises le font
+
+Les entreprises fractionnent parfois leurs actions pour ramener le prix par action dans une fourchette plus accessible aux investisseurs, même si cela ne change en rien la valeur sous-jacente de l’entreprise.
+
+## Exemple pratique
+
+Une investisseuse qui possède 10 actions à 100 $ chacune (1 000 $ au total) voit ses actions faire l’objet d’un fractionnement de deux pour une. Elle possède maintenant 20 actions à 50 $ chacune — toujours 1 000 $ au total, simplement répartis en un plus grand nombre d’actions moins chères.
+
+## Quiz pratique
+
+1. Un fractionnement d’actions :
+   A. Augmente la valeur marchande totale d’une entreprise
+   B. Divise les actions existantes en un plus grand nombre d’actions, à un prix proportionnellement plus bas
+   C. Réduit le nombre d’actions en circulation
+   D. Change les activités sous-jacentes de l’entreprise
+2. Vrai ou faux : un fractionnement d’actions change la valeur totale du placement d’un investisseur.
+3. Un investisseur possède 5 actions à 200 $ chacune. Après un fractionnement de deux pour une, combien d’actions possède-t-il, et à quel prix?
+   A. 5 actions à 400 $
+   B. 10 actions à 100 $
+   C. 2,5 actions à 200 $
+   D. 10 actions à 200 $
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Un fractionnement divise les actions proportionnellement sans changer la valeur totale.
+
+### Question 2
+Bonne réponse : Faux. La valeur totale du placement reste la même immédiatement après un fractionnement.
+
+### Question 3
+Bonne réponse : B. 5 actions × 2 = 10 actions; 200 $ ÷ 2 = 100 $ par action.
+
+## Points clés
+
+- Un fractionnement d’actions divise les actions en un plus grand nombre d’actions, à un prix proportionnellement plus bas.
+- Le fractionnement en soi ne change ni la valeur totale du placement ni la capitalisation boursière.
+- Les entreprises fractionnent leurs actions surtout pour rendre le prix par action plus accessible.
+
+===== WHITE-L1-024
+TITLE: Que sont les fractions d’actions?
+SUMMARY: Découvrez ce que sont les fractions d’actions, comment elles abaissent la barrière à l’investissement et comment elles peuvent servir à doser le risque de façon appropriée pour un débutant.
+# Que sont les fractions d’actions?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une fraction d’action en termes simples.
+- Expliquer le problème d’accessibilité que règlent les fractions d’actions.
+- Expliquer comment les fractions d’actions peuvent servir à doser le risque de façon appropriée, et pas seulement à se payer une action à prix élevé.
+
+## Contenu principal
+
+### Ce que sont les fractions d’actions
+
+Une fraction d’action est une partie d’une seule action, plus petite qu’une action entière, qui permet à un investisseur d’acheter moins d’une action complète à la fois.
+
+### Le problème d’accessibilité qu’elles règlent
+
+Avant que les fractions d’actions soient largement offertes, un investisseur devait avoir assez d’argent pour acheter au moins une action complète — une réelle barrière pour les actions à prix élevé. Les fractions d’actions permettent à une personne qui dispose d’une somme plus modeste d’obtenir quand même une exposition proportionnelle à cette même action.
+
+### Une deuxième utilité, moins évidente : doser le risque volontairement
+
+Posez-vous la question : si vous apprenez à quelqu’un à investir pour la première fois — peut-être un jeune qui a très peu d’argent —, quel est le danger réel? Ce n’est pas seulement de « ne pas pouvoir se payer une action ». C’est la possibilité d’une perte assez grande pour lui faire vraiment mal. Un parent qui apprend à son adolescent à investir, par exemple, pourrait utiliser un compte de fractions d’actions précisément pour qu’une perte réelle reste assez petite pour être une véritable leçon — et non une catastrophe. La taille de la position, et pas seulement ce qui est abordable, est un choix délibéré.
+
+## Exemple pratique
+
+Imaginez un parent qui ouvre un petit compte de fractions d’actions pour son fils adolescent. Pourquoi des fractions, plutôt que d’attendre qu’il puisse se payer une action entière? Pas seulement pour qu’il puisse techniquement posséder une part d’une action coûteuse — mais pour que, si le placement perdait de la valeur, la perte soit assez petite pour être absorbée et servir de leçon, et non quelque chose qui pourrait le faire sérieusement reculer. La leçon n’était pas seulement « tu peux maintenant te permettre d’investir » — c’était « tu peux te permettre de te tromper, sans danger, pendant que tu apprends encore ».
+
+## Quiz pratique
+
+1. Une fraction d’action est :
+   A. Une action entière
+   B. Une partie d’une seule action, plus petite qu’une action entière
+   C. Un type d’obligation
+   D. Un versement de dividende garanti
+2. Vrai ou faux : les fractions d’actions exigent qu’un investisseur ait assez d’argent pour au moins une action complète.
+3. Au-delà de l’accessibilité, quelle est une autre raison réelle de choisir les fractions d’actions pour un investisseur débutant?
+   A. Garantir un profit
+   B. Doser la position pour qu’une perte éventuelle reste assez petite pour être une leçon réelle et sans danger
+   C. Ne jamais perdre d’argent
+   D. Éliminer le besoin de toute recherche
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une fraction d’action représente moins d’une action entière.
+
+### Question 2
+Bonne réponse : Faux. Les fractions d’actions éliminent précisément cette exigence.
+
+### Question 3
+Bonne réponse : B. Doser une position pour qu’une perte reste supportable et instructive, plutôt que dommageable, est une utilisation délibérée et concrète des fractions d’actions.
+
+## Points clés
+
+- Une fraction d’action est une partie d’une action entière.
+- Elle élimine la barrière qui consiste à devoir payer le prix d’une action entière pour investir.
+- Elle peut aussi servir délibérément à doser une position pour que le risque reste approprié — ce qui est particulièrement important quand on enseigne à un débutant.
+
+===== WHITE-L1-025
+TITLE: Qu’est-ce que le bénéfice par action (BPA)?
+SUMMARY: Découvrez ce que mesure le BPA et comment le calculer, en préparation des leçons ultérieures sur l’évaluation.
+# Qu’est-ce que le bénéfice par action (BPA)?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énoncer la formule du BPA.
+- Calculer un BPA de base à partir du bénéfice net et du nombre d’actions en circulation.
+- Expliquer en termes simples ce que représente le BPA.
+
+## Contenu principal
+
+### La formule du BPA
+
+Bénéfice par action (BPA, ou EPS en anglais) = bénéfice net ÷ actions en circulation. Il répartit le bénéfice total d’une entreprise entre chacune de ses actions.
+
+### Ce que représente le BPA
+
+Le BPA représente la part du bénéfice attribuable à chaque action — une façon d’exprimer le bénéfice total d’une entreprise par action, ce qui facilite la comparaison entre des entreprises de tailles différentes.
+
+### Pourquoi c’est important pour la suite
+
+Le BPA est la base de plusieurs notions d’évaluation approfondies au niveau 2 — comprendre maintenant ce qu’il mesure prépare cette matière ultérieure.
+
+## Exemple pratique
+
+Une entreprise dont le bénéfice net est de 5 000 000 $ et qui compte 1 000 000 d’actions en circulation a un BPA de 5 000 000 $ ÷ 1 000 000 = 5,00 $ par action.
+
+## Quiz pratique
+
+1. Le BPA se calcule ainsi :
+   A. Cours de l’action ÷ bénéfice net
+   B. Bénéfice net ÷ actions en circulation
+   C. Chiffre d’affaires total ÷ dépenses totales
+   D. Actions en circulation ÷ bénéfice net
+2. Vrai ou faux : le BPA représente le bénéfice total d’une entreprise, et non un montant par action.
+3. Une entreprise a un bénéfice net de 2 000 000 $ et compte 500 000 actions en circulation. Quel est son BPA?
+   A. 0,25 $
+   B. 2,50 $
+   C. 4,00 $
+   D. 250 $
+
+## Corrigé
+
+1. B
+2. Faux
+3. C
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. BPA = bénéfice net ÷ actions en circulation.
+
+### Question 2
+Bonne réponse : Faux. Le BPA exprime précisément le bénéfice par action.
+
+### Question 3
+Bonne réponse : C. 2 000 000 $ ÷ 500 000 = 4,00 $.
+
+## Points clés
+
+- BPA = bénéfice net ÷ actions en circulation.
+- Il exprime le bénéfice d’une entreprise par action.
+- C’est une notion de base pour les notions d’évaluation approfondies plus tard.
