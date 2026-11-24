@@ -1,0 +1,399 @@
+===== PURPLE-L1-031
+TITLE: O que é, juridicamente, um valor mobiliário?
+SUMMARY: Abre a seção de direito do mercado de capitais definindo o que conta juridicamente como "valor mobiliário", com ligação direta ao conteúdo de investimentos de WHITE.
+# O que é, juridicamente, um valor mobiliário?
+
+## Objetivos de aprendizagem
+
+- Definir um valor mobiliário (em inglês, "security") em termos jurídicos.
+- Identificar exemplos comuns de valores mobiliários.
+- Explicar por que a definição jurídica importa além do entendimento de senso comum.
+
+## Conteúdo principal
+
+Esta lição abre a seção de direito dos investimentos do PURPLE, com ligação direta com WHITE. Um valor mobiliário é, de forma ampla, uma categoria de investimento definida juridicamente: um instrumento que representa uma participação societária, uma relação de dívida ou direitos sobre lucros gerados pelo esforço de outros. Exemplos comuns e óbvios incluem ações e títulos de dívida, ambos tratados em profundidade em WHITE. Mas a definição jurídica de valor mobiliário é, na verdade, mais ampla e mais cheia de nuances do que a maioria das pessoas imagina: ela pode se estender a certos contratos de investimento, algumas formas de participação nos lucros e outras estruturas que nem de longe se parecem com um certificado de ações tradicional. (No Brasil, a definição está na lei do mercado de valores mobiliários e inclui contratos de investimento coletivo, e quem fiscaliza é a Comissão de Valores Mobiliários (CVM); confirme os detalhes com um profissional.)
+
+Essa definição jurídica mais ampla importa porque o direito do mercado de capitais impõe exigências reais – registro, divulgação de informações e outras proteções ao investidor – que se aplicam conforme algo se qualifique juridicamente como valor mobiliário, e não conforme o nome que se dá a ele no dia a dia. Uma oportunidade de investimento divulgada como algo totalmente diferente (uma "associação", um "clube de participação nos lucros", um "acordo de partilha de receitas") ainda pode ser juridicamente um valor mobiliário se cumprir o teste jurídico, o que significa que continua sujeita à regulação do mercado de capitais, qualquer que seja o rótulo usado para vendê-la. Entender isso prepara as próximas lições, que exploram por que essa regulação existe e contra o que ela foi pensada para proteger.
+
+## Exemplo prático
+
+**Pergunta:** Um promotor divulga uma oportunidade de investimento como "clube de participação nos lucros", evitando expressamente as palavras "valor mobiliário" ou "ações". Essa escolha de rótulo determina se o direito do mercado de capitais realmente se aplica?
+
+**Aluno:** Com base nesta lição, não: a definição jurídica de valor mobiliário depende do que o arranjo realmente é, e não de como ele se chama, então um "clube de participação nos lucros" ainda pode ser juridicamente um valor mobiliário se cumprir o teste jurídico.
+
+**Guia:** Por que isso importaria para alguém que está considerando essa oportunidade de investimento?
+
+**Aluno:** Porque, se ela se qualificar juridicamente como valor mobiliário, continua sujeita a exigências de registro, divulgação de informações e outras proteções ao investidor, não importa como foi divulgada ou rotulada.
+
+**Guia:** Exatamente: a substância do arranjo importa mais do que o rótulo usado para descrevê-lo.
+
+## Teste de prática
+
+**Pergunta 1.** Um valor mobiliário é definido de forma ampla como:
+
+A) Apenas ações e títulos de dívida, nada mais
+B) Um instrumento que representa participação, dívida ou direitos sobre lucros do esforço de outros
+C) Apenas bens físicos
+D) Um tipo de apólice de seguro
+
+**Pergunta 2.** Exemplos comuns e óbvios de valores mobiliários incluem:
+
+A) Escrituras de imóveis
+B) Ações e títulos de dívida
+C) Contratos de trabalho
+D) Alvarás de construção
+
+**Pergunta 3.** Um investimento divulgado com um rótulo diferente de "valor mobiliário" ainda pode se qualificar juridicamente como tal?
+
+A) Não, o rótulo sempre determina a condição jurídica
+B) Sim: a definição jurídica depende da substância do arranjo, e não do rótulo usado
+C) Só se for chamado expressamente de "ações"
+D) O rótulo não tem nenhuma relação com o direito do mercado de capitais
+
+**Pergunta 4.** Por que a definição jurídica de "valor mobiliário" importa na prática?
+
+A) Não tem importância prática
+B) O direito do mercado de capitais impõe exigências reais – registro, divulgação, proteções – com base na qualificação jurídica, e não em rótulos de marketing
+C) Só ações e títulos de dívida são regulados
+D) Essa definição só importa para advogados, nunca para investidores
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Essa definição ampla foi pensada para abranger uma grande variedade de arranjos semelhantes a investimentos, e não só os exemplos óbvios.
+
+**2.** Ações e títulos de dívida são os exemplos mais claros e conhecidos, tratados em profundidade em outra parte deste currículo.
+
+**3.** É a substância jurídica, e não a linguagem de marketing, que de fato aciona a regulação do mercado de capitais.
+
+**4.** Esse alcance da regulação é justamente o que protege os investidores de arranjos criados para escapar dela com rótulos espertos.
+
+## Pontos-chave
+
+- Um valor mobiliário é, de forma ampla, qualquer instrumento que represente participação, dívida ou direitos de participação nos lucros.
+- Ações e títulos de dívida são os exemplos mais conhecidos, mas a definição jurídica vai além.
+- O nome de algo não determina sua condição jurídica: a substância real é que determina.
+- Isso prepara as próximas lições, que exploram por que existe a regulação do mercado de capitais e o que ela protege.
+
+===== PURPLE-L1-032
+TITLE: Por que existe o direito do mercado de capitais: proteger os investidores
+SUMMARY: Explica a razão histórica e prática da regulação do mercado de capitais, apresentando-a como infraestrutura de proteção ao investidor, e não como burocracia arbitrária.
+# Por que existe o direito do mercado de capitais: proteger os investidores
+
+## Objetivos de aprendizagem
+
+- Explicar a motivação histórica geral do direito do mercado de capitais.
+- Identificar o problema central que esse direito enfrenta.
+- Ligar isso à confiança e à participação nos mercados de forma ampla.
+
+## Conteúdo principal
+
+O direito do mercado de capitais não surgiu do nada: ele se desenvolveu em grande parte como resposta a problemas reais e históricos: investidores perdendo muito dinheiro em esquemas de investimento fraudulentos ou enganosos, muitas vezes porque não tinham uma forma confiável de verificar a real situação financeira de uma empresa ou a veracidade das afirmações feitas para atrair seu dinheiro. O problema central que esse direito enfrenta é a assimetria de informação: a empresa ou o promotor que oferece um investimento quase sempre sabe muito mais sobre sua real situação e seus riscos do que o investidor a quem se pede que coloque dinheiro.
+
+O direito do mercado de capitais enfrenta essa lacuna principalmente por meio da divulgação obrigatória: exige que as empresas que oferecem valores mobiliários divulguem publicamente informações financeiras e de risco específicas e corretas, dando aos investidores uma base real para avaliar uma oportunidade, em vez de depender apenas das afirmações de um promotor. Isso se liga a algo visto em WHITE: os mercados funcionam melhor, e mais pessoas se dispõem a participar deles, quando há uma confiança básica de que as informações disponíveis são pelo menos razoavelmente confiáveis. Nesse sentido, o direito do mercado de capitais é infraestrutura para um mercado de investimentos que funcione: sem ele, a suposição razoável de qualquer investidor seria desconfiar de toda afirmação por padrão, o que tornaria os mercados muito menos úteis para todos.
+
+## Exemplo prático
+
+**Pergunta:** Alguém pergunta por que a regulação do mercado de capitais existe, argumentando que os investidores deveriam simplesmente fazer a própria pesquisa e aceitar o risco que isso envolve. Que problema central desta lição esse argumento ignora?
+
+**Aluno:** Com base nesta lição, o problema central é a assimetria de informação: os investidores muitas vezes não conseguem de fato acessar sozinhos as informações reais necessárias para avaliar bem uma oportunidade, por mais pesquisa que tentem fazer.
+
+**Guia:** Por que a divulgação obrigatória enfrenta esse problema diretamente?
+
+**Aluno:** Porque exige que as empresas realmente divulguem publicamente informações específicas e corretas, dando aos investidores uma base real de avaliação, em vez de depender apenas de afirmações não verificadas.
+
+**Guia:** Exatamente: "faça sua pesquisa" não funciona se as informações necessárias para essa pesquisa não estão disponíveis de forma confiável.
+
+## Teste de prática
+
+**Pergunta 1.** O direito do mercado de capitais se desenvolveu em grande parte como resposta a:
+
+A) Nenhum problema histórico real
+B) Casos históricos reais de investidores que perderam dinheiro em esquemas fraudulentos ou enganosos
+C) Um desejo de criar burocracia desnecessária
+D) Apenas preocupações modernas da era da internet
+
+**Pergunta 2.** O problema central que esse direito enfrenta é:
+
+A) Informação disponível demais
+B) A assimetria de informação entre empresas/promotores e investidores
+C) Cautela excessiva dos investidores
+D) A ausência de qualquer problema real
+
+**Pergunta 3.** Esse direito enfrenta o problema principalmente por meio de:
+
+A) Proibir todos os investimentos
+B) Divulgação obrigatória de informações financeiras e de risco específicas e corretas
+C) Eliminar todo risco de investimento
+D) Exigir que os investidores não tenham informação nenhuma
+
+**Pergunta 4.** Como esta lição liga o direito do mercado de capitais ao funcionamento mais amplo dos mercados, segundo WHITE?
+
+A) Não há ligação
+B) A confiança básica nas informações disponíveis é o que faz as pessoas se disporem a participar dos mercados
+C) Os mercados funcionam melhor sem nenhuma regulação
+D) Esta lição não tem ligação com WHITE
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Fraudes e enganos históricos são citados explicitamente como a motivação prática desta área do direito.
+
+**2.** A assimetria de informação – o desequilíbrio entre o que as empresas sabem e o que os investidores podem verificar – é o problema preciso identificado.
+
+**3.** A divulgação obrigatória ataca diretamente a lacuna de informação, exigindo que as empresas compartilhem o que os investidores precisam para avaliar o risco.
+
+**4.** Isso liga a regulação do mercado de capitais ao tema mais amplo da confiança como infraestrutura de mercados que funcionam, tratado em WHITE.
+
+## Pontos-chave
+
+- O direito do mercado de capitais se desenvolveu em resposta a danos históricos reais aos investidores, causados por fraude e engano.
+- O problema central é a assimetria de informação entre empresas e investidores.
+- A divulgação obrigatória é a principal ferramenta desse direito para enfrentar essa lacuna.
+- Essa regulação funciona como infraestrutura de confiança, que torna possível uma participação mais ampla nos mercados.
+
+===== PURPLE-L1-033
+TITLE: Investidores qualificados: o que o rótulo significa juridicamente
+SUMMARY: Explica o conceito de "accredited investor" (investidor qualificado), um mecanismo jurídico comum de acesso restrito a certas oportunidades de investimento, e o raciocínio por trás dele.
+# Investidores qualificados: o que o rótulo significa juridicamente
+
+## Objetivos de aprendizagem
+
+- Definir "investidor qualificado" (em inglês, "accredited investor") em termos gerais.
+- Explicar o raciocínio geral por trás dessa classificação.
+- Reconhecer isso como uma restrição de acesso real, relevante para certas oportunidades da trilha WHITE.
+
+## Conteúdo principal
+
+Em muitos sistemas de regulação do mercado de capitais, certas oportunidades de investimento – especialmente ofertas privadas e menos reguladas – são legalmente restritas a "investidores qualificados", uma categoria geralmente definida pelo cumprimento de patamares específicos de renda, patrimônio ou conhecimento profissional. Os valores numéricos específicos variam conforme o lugar e mudam com o tempo, então esta lição se concentra no conceito subjacente, e não em um valor específico. (No Brasil, a CVM define categorias como investidor qualificado e investidor profissional, com critérios próprios; confirme as regras vigentes com um profissional.)
+
+O raciocínio geral por trás dessa restrição se liga diretamente ao tema da divulgação da lição anterior: as ofertas privadas muitas vezes não são obrigadas a oferecer o mesmo nível de divulgação pública obrigatória das ofertas públicas, mais reguladas. A exigência de investidor qualificado é uma troca de política pública: em vez de exigir divulgação pública completa, ela restringe o acesso a investidores de quem se presume que tenham os recursos financeiros para absorver uma perda ou a sofisticação para avaliar o risco sem esse mesmo nível de proteção pela divulgação. Isso é diretamente relevante para certas oportunidades de investimento da trilha WHITE (empresas fechadas, certos fundos, alguns investimentos imobiliários coletivos) que exigem especificamente a condição de investidor qualificado, o que torna isso uma peça prática, e não apenas teórica, de alfabetização jurídica.
+
+## Exemplo prático
+
+**Pergunta:** Um investidor está animado com uma oportunidade de investimento privada, mas descobre que ela é restrita a investidores qualificados, e ele atualmente não se qualifica. Qual é a lógica de política pública por trás dessa restrição, segundo esta lição?
+
+**Aluno:** Com base nesta lição, como essa oferta privada não oferece o mesmo nível de divulgação obrigatória de uma oferta pública, a restrição serve para limitar o acesso a investidores de quem se presume que podem absorver uma perda ou avaliar o risco sem essa mesma proteção pela divulgação.
+
+**Guia:** Essa restrição diz respeito principalmente à qualidade do investimento ou a outra preocupação de fundo?
+
+**Aluno:** A outra preocupação: trata-se da troca entre exigências de divulgação e proteção ao investidor, e não necessariamente de um julgamento sobre se a oportunidade em si é boa ou ruim.
+
+**Guia:** Exatamente: a qualificação é um mecanismo de política pública, não um selo de qualidade do investimento.
+
+## Teste de prática
+
+**Pergunta 1.** Um "investidor qualificado" é geralmente definido por:
+
+A) Um sorteio aleatório
+B) Cumprir patamares específicos de renda, patrimônio ou conhecimento profissional
+C) Possuir qualquer quantidade de ações
+D) Ter apenas um diploma universitário
+
+**Pergunta 2.** Por que esta lição evita citar um valor específico?
+
+A) Não existe patamar em lugar nenhum
+B) Os patamares específicos variam conforme o lugar e mudam com o tempo
+C) Os patamares são irrelevantes para esse conceito
+D) Esta lição apresenta um valor exato e universal
+
+**Pergunta 3.** O raciocínio de política pública por trás disso se liga ao tema de qual lição anterior?
+
+A) A conclusão de compra imobiliária
+B) Divulgação obrigatória e assimetria de informação
+C) Zoneamento
+D) O processo de execução
+
+**Pergunta 4.** A qual trilha do currículo o conceito de investidor qualificado se liga diretamente?
+
+A) GREEN
+B) WHITE
+C) Apenas RED
+D) Apenas BLUE
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Critérios financeiros e de conhecimento são a base geral dessa classificação, e não o acaso ou fatores sem relação.
+
+**2.** A variação entre lugares e as mudanças ao longo do tempo tornam um valor específico pouco confiável para ser ensinado como fato fixo.
+
+**3.** Essa restrição é uma resposta direta de política pública às exigências reduzidas de divulgação das ofertas privadas.
+
+**4.** Certas oportunidades de investimento da trilha WHITE exigem especificamente essa condição, o que torna a ligação prática, e não abstrata.
+
+## Pontos-chave
+
+- A condição de investidor qualificado geralmente se baseia em patamares de renda, patrimônio ou conhecimento profissional.
+- Os patamares específicos variam conforme o lugar e mudam com o tempo.
+- Essa restrição reflete uma troca de política pública entre exigências de divulgação e proteção ao investidor.
+- Isso é diretamente relevante para certas oportunidades de investimento privadas da trilha WHITE.
+
+===== PURPLE-L1-034
+TITLE: Obrigações de divulgação: por que as empresas precisam dizer a verdade
+SUMMARY: Aprofunda o conceito de divulgação apresentado antes, explicando o que as empresas geralmente precisam divulgar e as consequências jurídicas de informações falsas ou enganosas.
+# Obrigações de divulgação: por que as empresas precisam dizer a verdade
+
+## Objetivos de aprendizagem
+
+- Identificar as categorias gerais de divulgação obrigatória.
+- Explicar as consequências jurídicas de informações falsas ou enganosas.
+- Ligar a qualidade da divulgação à tomada de decisões de investimento informadas.
+
+## Conteúdo principal
+
+Partindo da lição anterior, que explicou por que existem as obrigações de divulgação, esta lição olha para o que geralmente é de fato exigido. As empresas que oferecem valores mobiliários ao público normalmente precisam divulgar: demonstrações financeiras (um retrato verdadeiro da real situação financeira da empresa), riscos relevantes (fatores que podem afetar significativamente o valor do investimento ou as perspectivas da empresa) e fatos relevantes para a decisão do investidor (eventos significativos, conflitos de interesse ou outras informações que um investidor razoável gostaria de saber antes de investir). (No Brasil, as ofertas públicas em regra exigem registro ou dispensa perante a CVM, com documentos como o prospecto; confirme os detalhes com um profissional.)
+
+As consequências jurídicas de uma divulgação falsa ou enganosa são sérias, o que mostra o quanto a divulgação verdadeira é central para todo o sistema visto nas duas últimas lições: empresas e pessoas podem enfrentar sanções regulatórias, ações civis de investidores prejudicados e, em casos graves, responsabilidade criminal por fraude. Para um investidor, entender que os documentos de divulgação têm peso jurídico real – não são apenas material de marketing – deveria mudar a forma como esses documentos são lidos: como uma fonte de informação real e juridicamente relevante, que vale ler com atenção, e não algo a pular para chegar às partes empolgantes de uma apresentação de investimento.
+
+## Exemplo prático
+
+**Pergunta:** Um investidor passa por cima da seção de fatores de risco divulgada por uma empresa, concentrando-se apenas nas empolgantes projeções de crescimento de um prospecto. O que esta lição sugere sobre essa abordagem?
+
+**Aluno:** Com base nesta lição, essa seção de fatores de risco tem peso jurídico real e serve especificamente para informar a decisão do investidor; pulá-la significa perder informações que a empresa era legalmente obrigada a divulgar.
+
+**Guia:** Por que a seriedade jurídica da divulgação falsa torna essa seção especialmente digna de leitura atenta?
+
+**Aluno:** Porque as empresas enfrentam consequências jurídicas reais por divulgação enganosa, os riscos divulgados provavelmente refletem preocupações reais e relevantes sobre as quais a empresa é legalmente obrigada a ser honesta, e não apenas um texto padrão a ignorar.
+
+**Guia:** Exatamente: os documentos de divulgação merecem ser lidos como informação juridicamente relevante, e não como enchimento de marketing.
+
+## Teste de prática
+
+**Pergunta 1.** As empresas que oferecem valores mobiliários normalmente precisam divulgar:
+
+A) Nada relevante
+B) Demonstrações financeiras, riscos relevantes e fatos relevantes para as decisões dos investidores
+C) Apenas notícias positivas da empresa
+D) Apenas as biografias pessoais dos fundadores
+
+**Pergunta 2.** Quais são as consequências jurídicas de uma divulgação falsa ou enganosa?
+
+A) Não existem consequências reais
+B) Sanções regulatórias, ações civis e possivelmente responsabilidade criminal por fraude
+C) Apenas uma leve carta de advertência
+D) As consequências só se aplicam a empresas pequenas
+
+**Pergunta 3.** Por que essas consequências sérias importam para a forma como um investidor deve ler os documentos de divulgação?
+
+A) Não afetam a forma como os documentos devem ser lidos
+B) Indicam que os documentos de divulgação têm peso jurídico real e merecem leitura atenta, e não superficial
+C) Consequências sérias significam que os documentos podem ser ignorados com segurança
+D) Isso não tem influência no comportamento do investidor
+
+**Pergunta 4.** Esta lição parte mais diretamente do tema de qual lição anterior?
+
+A) Zoneamento
+B) Por que existe o direito do mercado de capitais: proteger os investidores por meio da divulgação
+C) Noções de execução de garantia
+D) A conclusão de compra imobiliária
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Situação financeira, fatores de risco e fatos relevantes formam, juntos, as categorias centrais da divulgação obrigatória.
+
+**2.** A seriedade dessas consequências mostra o quanto a divulgação verdadeira é central para todo o sistema regulatório.
+
+**3.** Reconhecer o peso jurídico por trás desses documentos deveria mudar o cuidado e a seriedade com que o investidor lida com eles.
+
+**4.** Esta lição é uma continuação direta e prática do raciocínio sobre divulgação estabelecido duas lições antes.
+
+## Pontos-chave
+
+- A divulgação obrigatória geralmente inclui demonstrações financeiras, riscos relevantes e fatos relevantes.
+- A divulgação falsa ou enganosa tem consequências jurídicas sérias, incluindo possível responsabilidade por fraude.
+- Esse peso jurídico faz com que os documentos de divulgação mereçam uma leitura atenta e séria, e não superficial.
+- Isso parte diretamente da lição anterior que explicou por que existem as obrigações de divulgação.
+
+===== PURPLE-L1-035
+TITLE: Uso de informação privilegiada: o que é e por que é ilegal
+SUMMARY: Explica o conceito de uso de informação privilegiada (em inglês, "insider trading"), por que é proibido e sua ligação com os princípios de equidade por trás da regulação do mercado de capitais.
+# Uso de informação privilegiada: o que é e por que é ilegal
+
+## Objetivos de aprendizagem
+
+- Definir o uso de informação privilegiada (insider trading).
+- Explicar a lógica de equidade por trás da proibição.
+- Reconhecer situações comuns em que esse risco surge.
+
+## Conteúdo principal
+
+O uso de informação privilegiada geralmente se refere a comprar ou vender um valor mobiliário com base em informação relevante e não pública – informação significativa ainda não disponível para o público investidor em geral – obtida por meio de uma posição de confiança ou de acesso, como ser funcionário ou administrador de uma empresa, ou alguém que recebeu essa informação indevidamente de alguém de dentro. Isso é proibido pelo direito do mercado de capitais na maioria dos sistemas, e o raciocínio se liga diretamente ao princípio de equidade por trás das obrigações de divulgação vistas em lições anteriores. (No Brasil, o uso indevido de informação privilegiada pode configurar infração administrativa perante a CVM e também crime previsto na lei do mercado de capitais; confirme os detalhes com um profissional.)
+
+O problema central que o uso de informação privilegiada cria é uma vantagem informacional injusta: se alguns participantes do mercado podem negociar com base em informações às quais outros não têm acesso, isso mina a equidade básica que faz as pessoas se disporem a participar dos mercados, exatamente a infraestrutura de confiança discutida antes nesta seção. Isso não se limita a administradores de empresas; qualquer pessoa que receba informação relevante e não pública e negocie com base nela, ou a compartilhe indevidamente com alguém que negocie com base nela, pode vir a responder. É uma cautela prática para qualquer pessoa com algum tipo de acesso privilegiado a informações não públicas de empresas, incluindo, em algumas circunstâncias, profissionais que trabalham de perto com empresas em contextos de RED ou BLUE e que, por acaso, também investem por meio de WHITE.
+
+## Exemplo prático
+
+**Pergunta:** Um consultor empresarial fica sabendo, durante um projeto, de uma informação confidencial e significativa sobre uma empresa cliente e depois negocia ações dessa empresa antes que a informação se torne pública. Que problema jurídico isso ilustra?
+
+**Aluno:** Com base nesta lição, parece um exemplo claro de uso de informação privilegiada: negociar com base em informação relevante e não pública obtida por meio de uma posição de confiança ou de acesso.
+
+**Guia:** Por que isso é proibido, ligando de volta ao tema da equidade das lições anteriores?
+
+**Aluno:** Porque cria uma vantagem informacional injusta sobre outros participantes do mercado que não têm acesso a essa mesma informação não pública, minando a confiança que faz os mercados funcionarem com equidade.
+
+**Guia:** Exatamente: e esse risco não se limita a quem está dentro das empresas; vale para qualquer pessoa com acesso privilegiado a informação relevante e não pública.
+
+## Teste de prática
+
+**Pergunta 1.** O uso de informação privilegiada geralmente se refere a:
+
+A) Qualquer negociação de ações feita por um funcionário de uma empresa
+B) Negociar um valor mobiliário com base em informação relevante e não pública obtida por meio de uma posição de confiança
+C) Negociar apenas com base em informação pública
+D) Uma estratégia de investimento totalmente legal
+
+**Pergunta 2.** O problema central que o uso de informação privilegiada cria é:
+
+A) Não existe problema real
+B) Uma vantagem informacional injusta, que mina a confiança e a equidade do mercado
+C) Transparência excessiva do mercado
+D) Informação pública demais
+
+**Pergunta 3.** A responsabilidade pelo uso de informação privilegiada se limita aos administradores de empresas?
+
+A) Sim, só administradores podem responder
+B) Não: qualquer pessoa que negocie com base em informação relevante e não pública, ou a compartilhe indevidamente, pode vir a responder
+C) Só servidores públicos podem responder
+D) A responsabilidade nunca se aplica a ninguém
+
+**Pergunta 4.** Esta lição liga a proibição do uso de informação privilegiada a qual tema anterior?
+
+A) Zoneamento
+B) Equidade e confiança como infraestrutura de mercados que funcionam
+C) O processo de execução
+D) As obrigações de locador e locatário
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A característica que define é negociar com base em informação privilegiada e não pública obtida por meio de uma relação de confiança.
+
+**2.** Essa vantagem injusta mina diretamente a confiança no mercado que a regulação busca proteger.
+
+**3.** A responsabilidade vai além dos que estão formalmente dentro da empresa, alcançando qualquer pessoa que acesse ou use indevidamente essa informação.
+
+**4.** Isso estende diretamente o raciocínio de confiança e equidade estabelecido nas lições anteriores sobre divulgação.
+
+## Pontos-chave
+
+- Uso de informação privilegiada significa negociar com base em informação relevante e não pública obtida por confiança ou acesso.
+- Isso mina a equidade e a confiança que fazem os mercados funcionarem, ligando-se às lições anteriores.
+- A responsabilidade vai além dos administradores de empresas, alcançando qualquer pessoa que use indevidamente essa informação.
+- É uma cautela prática para qualquer pessoa com acesso privilegiado a informações não públicas de empresas.
