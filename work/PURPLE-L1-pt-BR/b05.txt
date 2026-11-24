@@ -1,0 +1,399 @@
+===== PURPLE-L1-021
+TITLE: Direito imobiliário: o que "ser dono" de um terreno significa juridicamente
+SUMMARY: Abre a seção de direito imobiliário explicando que a propriedade de um imóvel é juridicamente um "feixe de direitos", e não um conceito único e simples.
+# Direito imobiliário: o que "ser dono" de um terreno significa juridicamente
+
+## Objetivos de aprendizagem
+
+- Explicar o conceito de propriedade como "feixe de direitos".
+- Identificar direitos comuns incluídos nesse feixe.
+- Ligar essa abordagem jurídica ao conteúdo anterior da trilha RED.
+
+## Conteúdo principal
+
+Esta lição abre a seção de direito imobiliário do PURPLE, com ligação direta com RED. Juridicamente, ser dono de um imóvel não é um único direito simples: costuma ser descrito como um "feixe de direitos" que, em alguns casos, pode ser separado e mantido por partes diferentes. Direitos comuns nesse feixe incluem: o direito de possuir o imóvel, o direito de usá-lo, o direito de excluir os outros dele, o direito de transferi-lo ou vendê-lo e o direito de desenvolvê-lo ou melhorá-lo.
+
+Isso importa na prática porque esses direitos podem ser separados. Um locador que aluga um imóvel transfere temporariamente o direito de possuí-lo e usá-lo, mas mantém o direito de, no fim, retomar a posse e o direito de vender o imóvel em si. Quem concede uma servidão (tratada em uma lição posterior) abre mão de parte do seu direito de exclusão em favor de uma parte específica, para um fim específico, e mantém todo o resto. Entender a propriedade como um feixe, e não como algo único e indivisível, prepara grande parte do restante desta seção de direito imobiliário: muitas questões jurídicas sobre imóveis são, na verdade, perguntas sobre qual direito específico, dentro desse feixe, está de fato em disputa.
+
+## Exemplo prático
+
+**Pergunta:** Um proprietário aluga seu imóvel a um inquilino. Com base no conceito de feixe de direitos, ele abriu mão totalmente da propriedade?
+
+**Aluno:** Com base nesta lição, não: ele transferiu temporariamente o direito de possuir e usar o imóvel, mas ainda mantém outros direitos do feixe, como o direito de retomá-lo no fim e o direito de vendê-lo.
+
+**Guia:** Por que é mais preciso descrever isso como uma transferência parcial do que como uma perda total da propriedade?
+
+**Aluno:** Porque a propriedade é um feixe de direitos separados, e não uma coisa só: alugar transfere direitos específicos desse feixe, enquanto o proprietário mantém o resto.
+
+**Guia:** Exatamente: essa é a reformulação central que esta lição apresenta.
+
+## Teste de prática
+
+**Pergunta 1.** Juridicamente, ser dono de um imóvel é mais bem descrito como:
+
+A) Um único direito indivisível
+B) Um "feixe de direitos" que pode ser separado entre partes
+C) Algo relevante apenas para imóveis comerciais
+D) O mesmo que uma locação
+
+**Pergunta 2.** Direitos comuns no feixe da propriedade incluem:
+
+A) Posse, uso, exclusão, transferência, desenvolvimento
+B) Apenas o direito de vender
+C) Apenas o direito de morar ali pessoalmente
+D) Nenhum direito identificável
+
+**Pergunta 3.** Quando um proprietário aluga um imóvel, o que acontece com o feixe de direitos?
+
+A) O proprietário perde todos os direitos
+B) Alguns direitos (posse, uso) são transferidos temporariamente, enquanto outros (como retomar no fim e vender) são mantidos
+C) Nada muda
+D) O inquilino ganha a propriedade permanente
+
+**Pergunta 4.** Por que essa abordagem do feixe de direitos importa para o restante desta seção?
+
+A) Não importa em nada
+B) Muitas questões jurídicas sobre imóveis são, na verdade, perguntas sobre qual direito específico está em disputa
+C) O direito imobiliário não tem estrutura real
+D) Essa abordagem só é relevante para imóveis comerciais
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Essa reformulação é o conceito jurídico fundamental por trás de grande parte do direito imobiliário.
+
+**2.** Esses cinco direitos são frequentemente citados como os componentes centrais do feixe.
+
+**3.** Uma locação é uma ilustração clara de transferência parcial e temporária de direitos, e não de perda total da propriedade.
+
+**4.** Essa abordagem dá estrutura aos temas jurídicos específicos tratados no restante desta seção.
+
+## Pontos-chave
+
+- A propriedade de um imóvel é juridicamente um "feixe de direitos", e não algo único e indivisível.
+- Esse feixe inclui direitos de posse, uso, exclusão, transferência e desenvolvimento.
+- Esses direitos podem ser separados entre partes diferentes, como em uma locação.
+- Muitas disputas imobiliárias são, na verdade, sobre qual direito específico está de fato em questão.
+
+===== PURPLE-L1-022
+TITLE: Escrituras: tipos e o que realmente transferem
+SUMMARY: Explica o conceito geral de escritura de transferência (em inglês, "deed") e as diferenças práticas entre os tipos mais comuns, com foco no que cada um realmente garante.
+# Escrituras: tipos e o que realmente transferem
+
+## Objetivos de aprendizagem
+
+- Definir uma escritura de transferência (deed) em termos simples.
+- Distinguir a general warranty deed da quitclaim deed.
+- Explicar por que o tipo de escritura importa na prática.
+
+## Conteúdo principal
+
+Uma escritura de transferência (deed) é o documento jurídico que de fato transfere a propriedade de um imóvel de uma parte para outra. Nem todas as escrituras oferecem ao comprador o mesmo nível de proteção, e entender a diferença importa na prática, e não só tecnicamente. A **general warranty deed** oferece a proteção mais forte: o vendedor garante que tem um título livre e que vai defender o comprador contra quaisquer reivindicações sobre esse título, mesmo de antes de sua própria propriedade. A **quitclaim deed** oferece a proteção mais fraca: o vendedor transfere o direito que por acaso tiver, sem garantia de que esse direito seja realmente válido ou de que o título esteja livre; é um documento do tipo "transfiro o que tenho, se é que tenho algo", e não uma garantia.
+
+Essa distinção importa enormemente na prática. A general warranty deed é padrão e esperada na maioria das compras imobiliárias entre partes independentes, já que um comprador que paga dinheiro de verdade quer garantia real sobre o que está recebendo. A quitclaim deed é mais comum em situações sem uma venda real – transferências entre familiares, correção de uma questão técnica no título ou acordos de divórcio –, em que as partes já entendem e aceitam a natureza limitada da transferência. Receber uma quitclaim deed no que deveria ser uma compra normal é um sinal de alerta que merece atenção profissional imediata. (No Brasil, esses tipos norte-americanos de escritura não existem como tais: a transferência de imóveis se faz, em regra, por escritura pública registrada no Cartório de Registro de Imóveis, e o comprador deve conferir a matrícula e as certidões; o vendedor responde, por lei, pela evicção. Confirme com um tabelião ou advogado.)
+
+## Exemplo prático
+
+**Pergunta:** Um comprador está adquirindo um imóvel de um vendedor sem nenhum vínculo com ele, pelo valor de mercado integral, e o vendedor oferece uma quitclaim deed em vez de uma general warranty deed. Isso deveria preocupar o comprador?
+
+**Aluno:** Com base nesta lição, sim: uma quitclaim deed não oferece garantia de que o vendedor realmente tem um título livre, o que é uma preocupação real em uma compra normal por valor integral.
+
+**Guia:** Por que uma quitclaim deed seria mais adequada em outro tipo de situação, como uma transferência entre familiares?
+
+**Aluno:** Porque, nesse contexto, as partes já entendem e aceitam a natureza limitada da transferência: elas não estão contando com a escritura em si para uma forte garantia de propriedade.
+
+**Guia:** Exatamente: o mesmo tipo de documento pode ser perfeitamente normal em um contexto e um sério sinal de alerta em outro.
+
+## Teste de prática
+
+**Pergunta 1.** Uma escritura de transferência (deed) é:
+
+A) Um tipo de documento de empréstimo
+B) O documento jurídico que transfere a propriedade de um imóvel
+C) Um tipo de locação
+D) Irrelevante para transações imobiliárias
+
+**Pergunta 2.** Uma general warranty deed:
+
+A) Não oferece garantia de título livre
+B) Garante título livre e defesa contra reivindicações, mesmo de antes da propriedade do vendedor
+C) É a forma mais fraca de transferência de propriedade
+D) Só é usada em transferências familiares
+
+**Pergunta 3.** Uma quitclaim deed:
+
+A) Garante a proteção de título mais forte possível
+B) Transfere o direito que o vendedor tiver, sem garantia de que seja válido
+C) É idêntica a uma general warranty deed
+D) É exigida em toda venda de imóvel
+
+**Pergunta 4.** Receber uma quitclaim deed em uma compra normal, por valor integral, deve ser tratado como:
+
+A) Completamente normal, sem preocupação
+B) Um sinal de alerta que merece atenção profissional imediata
+C) Uma garantia de proteção melhor que a de uma warranty deed
+D) Irrelevante para a segurança da transação
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Uma escritura de transferência é especificamente o instrumento jurídico de transferência da propriedade imobiliária.
+
+**2.** A força da general warranty deed vem da garantia expressa do vendedor e de sua obrigação contínua de defesa.
+
+**3.** A fragilidade de uma quitclaim deed é a ausência de qualquer garantia sobre a validade do que está sendo transferido.
+
+**4.** O contexto determina o que é adequado: o mesmo tipo de documento é normal em uma situação e alarmante em outra.
+
+## Pontos-chave
+
+- Uma escritura de transferência é o documento jurídico que transfere a propriedade de um imóvel.
+- A general warranty deed garante título livre e defesa contra reivindicações.
+- A quitclaim deed transfere o direito que existir, sem garantia de validade.
+- O tipo certo de escritura depende do contexto: uma quitclaim deed em uma compra normal é um sinal de alerta.
+
+===== PURPLE-L1-023
+TITLE: Título e seguro de título: protegendo a pretensão à propriedade
+SUMMARY: Explica o que "título" significa juridicamente, por que podem surgir problemas de título mesmo com uma escritura correta e o papel do seguro de título na gestão desse risco.
+# Título e seguro de título: protegendo a pretensão à propriedade
+
+## Objetivos de aprendizagem
+
+- Definir "título" (em inglês, "title") como algo distinto da escritura.
+- Explicar por que podem existir problemas de título mesmo com uma escritura válida.
+- Descrever o propósito geral do seguro de título.
+
+## Conteúdo principal
+
+Título se refere ao próprio direito jurídico de propriedade: a escritura é o documento que transfere o título, mas o título é o direito subjacente que está sendo transferido. Uma escritura aparentemente válida não garante automaticamente um título "limpo"; pode haver problemas ocultos: um ônus não informado de um proprietário anterior, uma assinatura falsificada em algum ponto da história do imóvel, um herdeiro com uma pretensão não resolvida ou um erro administrativo nos registros públicos. Esses problemas podem aparecer anos depois de uma compra, ameaçando potencialmente a pretensão de propriedade do dono atual.
+
+O seguro de título existe especificamente para gerir esse risco. Antes de uma compra, uma pesquisa de título examina os registros públicos em busca desse tipo de problema. O seguro de título então protege o comprador (e muitas vezes o credor) contra perdas financeiras se um problema de título aparecer depois, apesar dessa pesquisa, cobrindo custos jurídicos e possíveis perdas ligados à defesa ou à solução da pretensão. Diferentemente da maioria dos seguros, que protegem contra eventos futuros, o seguro de título protege contra eventos passados que simplesmente ainda não foram descobertos: uma distinção sutil, mas importante, que explica por que ele costuma ter um prêmio único pago na compra, e não pagamentos contínuos. (No Brasil, o seguro de título é pouco comum; a segurança vem sobretudo da conferência da matrícula atualizada, das certidões de ônus reais e das certidões dos vendedores. Peça orientação a um advogado ou tabelião.)
+
+## Exemplo prático
+
+**Pergunta:** Um proprietário descobre, cinco anos depois da compra, que um ônus de um proprietário anterior nunca foi devidamente cancelado e agora ameaça sua pretensão de propriedade. Como o seguro de título poderia ajudar nessa situação?
+
+**Aluno:** Com base nesta lição, se ele contratou seguro de título, o seguro deveria ajudar a cobrir os custos jurídicos e as possíveis perdas ligadas à solução desse problema de título, mesmo que tenha aparecido anos depois da compra.
+
+**Guia:** Por que isso é diferente de como funciona a maioria dos outros seguros?
+
+**Aluno:** A maioria dos seguros protege contra eventos futuros, mas o seguro de título protege contra um problema que já existia no passado; ele só foi descoberto depois.
+
+**Guia:** Exatamente: essa distinção explica por que normalmente se trata de um pagamento único, e não de uma apólice contínua.
+
+## Teste de prática
+
+**Pergunta 1.** O título, diferentemente da escritura, se refere a:
+
+A) O documento físico que transfere o imóvel
+B) O próprio direito jurídico de propriedade
+C) Um tipo de empréstimo
+D) O mesmo que uma locação
+
+**Pergunta 2.** Uma pesquisa de título examina:
+
+A) O histórico de crédito do comprador
+B) Os registros públicos em busca de problemas de título ocultos, como ônus ou assinaturas falsificadas
+C) Apenas o estado físico do imóvel
+D) Nada relevante para a propriedade
+
+**Pergunta 3.** O seguro de título protege contra:
+
+A) Danos futuros ao imóvel
+B) Perda financeira por problemas de título que existiam no passado, mas não foram descobertos antes da compra
+C) Apenas o roubo do imóvel
+D) Nada relevante
+
+**Pergunta 4.** Como o seguro de título difere da maioria dos outros tipos de seguro?
+
+A) É idêntico à maioria dos seguros
+B) Protege contra problemas passados não descobertos, e não contra eventos futuros
+C) Cobre apenas eventos futuros, como a maioria dos seguros
+D) Exige pagamentos mensais contínuos, como a maioria dos seguros
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O título é o direito jurídico subjacente; a escritura é apenas o instrumento que o transfere.
+
+**2.** Uma pesquisa de título minuciosa é o passo preventivo destinado a detectar esses problemas antes da compra.
+
+**3.** O seguro de título trata especificamente do risco de defeitos históricos não descobertos aparecerem depois.
+
+**4.** Essa distinção entre passado e futuro explica a estrutura incomum de prêmio único do seguro de título.
+
+## Pontos-chave
+
+- O título é o direito jurídico subjacente de propriedade, distinto da escritura em si.
+- Podem existir problemas de título ocultos mesmo com uma escritura corretamente lavrada.
+- O seguro de título protege contra perdas financeiras por defeitos de título passados e não descobertos.
+- Essa proteção contra eventos passados é o motivo pelo qual o seguro de título costuma ter prêmio único, ao contrário da maioria dos seguros.
+
+===== PURPLE-L1-024
+TITLE: Ônus e gravames: quando o imóvel não está totalmente "livre"
+SUMMARY: Apresenta os ônus (liens) e gravames como pretensões ou restrições jurídicas ligadas a um imóvel que podem afetar a propriedade e a transferência.
+# Ônus e gravames: quando o imóvel não está totalmente "livre"
+
+## Objetivos de aprendizagem
+
+- Definir um ônus de garantia (em inglês, "lien") e um gravame (em inglês, "encumbrance").
+- Identificar os tipos comuns de ônus de garantia.
+- Explicar por que esses ônus importam na prática para compradores e proprietários.
+
+## Conteúdo principal
+
+Um gravame é qualquer pretensão, restrição ou interesse jurídico ligado a um imóvel que não pertence integralmente ao proprietário atual: uma categoria ampla que inclui ônus de garantia, servidões e certas restrições. Um ônus de garantia é especificamente uma pretensão jurídica sobre um imóvel, geralmente para garantir uma dívida, que dá ao seu titular o direito de forçar a venda do imóvel para satisfazer essa dívida se ela não for paga. Tipos comuns incluem a hipoteca (que garante o empréstimo usado para comprar o imóvel), o ônus fiscal (por impostos imobiliários não pagos) e o "mechanic's lien" (nos Estados Unidos, registrado por um empreiteiro que não recebeu pelo trabalho feito no imóvel). (No Brasil, são comuns a hipoteca, a alienação fiduciária e a penhora, que devem constar da matrícula do imóvel; confira sempre a matrícula atualizada com um profissional.)
+
+Esses ônus importam na prática porque geralmente se ligam ao próprio imóvel, e não apenas à pessoa que os gerou: um ônus pode acompanhar o imóvel em uma venda se não for corretamente identificado e resolvido antes. É exatamente por isso que as pesquisas de título (da lição anterior) importam tanto: um ônus não resolvido descoberto antes da conclusão pode ser tratado, mas um que passar despercebido pode virar problema do novo proprietário. Entender que um imóvel pode carregar essas obrigações ligadas a ele, separadas do imóvel físico em si, é uma parte central da alfabetização jurídica imobiliária.
+
+## Exemplo prático
+
+**Pergunta:** Um empreiteiro conclui uma obra em um imóvel, mas nunca recebe o pagamento, e depois registra um mechanic's lien sobre esse imóvel. Se o imóvel for vendido a um novo comprador sem que o ônus seja resolvido, que risco o novo comprador corre?
+
+**Aluno:** Com base nesta lição, como os ônus geralmente se ligam ao próprio imóvel, e não apenas à pessoa que os gerou, o novo comprador pode herdar esse ônus não resolvido como problema seu.
+
+**Guia:** Como isso poderia ter sido evitado?
+
+**Aluno:** Uma pesquisa de título adequada antes da compra deveria ter identificado o ônus, permitindo que fosse resolvido ou tratado antes da conclusão da venda.
+
+**Guia:** Exatamente: é precisamente por isso que o processo de pesquisa de título da lição anterior importa tanto na prática.
+
+## Teste de prática
+
+**Pergunta 1.** Um gravame é:
+
+A) O mesmo que uma escritura
+B) Uma pretensão, restrição ou interesse jurídico ligado a um imóvel
+C) Um tipo de seguro
+D) Relevante apenas para locações
+
+**Pergunta 2.** Um ônus de garantia é especificamente:
+
+A) Um tipo de escritura
+B) Uma pretensão jurídica sobre um imóvel, geralmente para garantir uma dívida
+C) Uma forma de seguro de título
+D) Irrelevante para o direito imobiliário
+
+**Pergunta 3.** Um mechanic's lien é registrado por:
+
+A) Uma autoridade fiscal do governo
+B) Um empreiteiro que não recebeu pelo trabalho feito no imóvel
+C) Um banco que concede uma hipoteca
+D) Apenas o arquiteto original do imóvel
+
+**Pergunta 4.** Por que os ônus importam na prática para quem compra um imóvel?
+
+A) Os ônus nunca afetam um novo comprador
+B) Os ônus geralmente se ligam ao próprio imóvel e podem acompanhá-lo em uma venda se não forem resolvidos
+C) Os ônus só afetam o proprietário original, nunca um comprador
+D) Os ônus são cancelados automaticamente em qualquer venda
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Gravame é a categoria ampla que abrange diversas pretensões e restrições ligadas ao imóvel.
+
+**2.** A característica que define um ônus de garantia é seu papel como garantia de uma dívida não paga.
+
+**3.** O mechanic's lien protege especificamente empreiteiros e fornecedores que fizeram um trabalho sem receber.
+
+**4.** Essa ligação com o imóvel é exatamente o motivo pelo qual ônus não resolvidos são um risco real para compradores desavisados.
+
+## Pontos-chave
+
+- Um gravame é qualquer pretensão ou restrição ligada a um imóvel; um ônus de garantia é especificamente uma pretensão que garante uma dívida.
+- Tipos comuns incluem hipotecas, ônus fiscais e mechanic's liens.
+- Os ônus geralmente se ligam ao imóvel, e não apenas à pessoa que os gerou.
+- É exatamente por isso que uma pesquisa de título minuciosa antes da compra importa tanto.
+
+===== PURPLE-L1-025
+TITLE: Direito locatício: direitos e obrigações básicos de locador e locatário
+SUMMARY: Apresenta o marco jurídico básico da relação entre locador e locatário, relevante para proprietários de imóveis para aluguel da trilha RED.
+# Direito locatício: direitos e obrigações básicos de locador e locatário
+
+## Objetivos de aprendizagem
+
+- Identificar as obrigações gerais do locador.
+- Identificar as obrigações e proteções gerais do locatário.
+- Reconhecer que os detalhes variam muito conforme o lugar.
+
+## Conteúdo principal
+
+O direito locatício rege a relação jurídica criada por um contrato de locação: uma transferência temporária do direito de possuir e usar um imóvel (lembre-se da lição do feixe de direitos) em troca de aluguel. Em geral, os locadores têm obrigações que costumam incluir: manter o imóvel em condições de habitabilidade, seguir os procedimentos legais adequados para o despejo em vez de recorrer a medidas por conta própria, como trocar as fechaduras ou retirar os pertences, e respeitar a privacidade do locatário, avisando antes de entrar no imóvel. Os locatários, em geral, têm obrigações como: pagar o aluguel conforme combinado, não causar danos além do desgaste normal e cumprir os termos do contrato.
+
+Esta área do direito depende muito do lugar, com diferenças reais nas proteções ao locatário, nas regras de caução, nos prazos de aviso e nos procedimentos de despejo entre estados, cidades e países. (No Brasil, a Lei do Inquilinato prevê, por exemplo, que o despejo se faça por ação judicial e, segundo informações disponíveis, limita a caução em dinheiro a até três meses de aluguel; confirme as regras vigentes com um profissional.) Para um locador da trilha RED, isso não é um conhecimento de fundo opcional: conduzir um despejo de forma inadequada, reter ilegalmente uma caução ou deixar de manter a habitabilidade pode criar responsabilidade jurídica real, às vezes com penalidades bem além de simplesmente devolver o que foi retido indevidamente. É um exemplo claro e prático de por que o conhecimento jurídico local importa especificamente para investidores imobiliários que administram imóveis para aluguel, e não apenas um entendimento geral em nível nacional.
+
+## Exemplo prático
+
+**Pergunta:** Um locador, frustrado com um inquilino que não paga, troca as fechaduras e retira os pertences do inquilino sem passar por nenhum processo legal formal. Que problema isso ilustra?
+
+**Aluno:** Com base nesta lição, parece exatamente o tipo de medida por conta própria contra a qual esta lição alerta: em geral, os locadores precisam seguir os procedimentos legais de despejo adequados, e não fazer justiça com as próprias mãos.
+
+**Guia:** Que risco real isso cria para o locador, mesmo que o inquilino realmente não estivesse pagando o aluguel?
+
+**Aluno:** O próprio locador pode enfrentar responsabilidade jurídica real, possivelmente incluindo penalidades, apesar de ter uma reclamação legítima de fundo sobre o aluguel não pago.
+
+**Guia:** Exatamente: ter uma queixa válida não justifica usar um processo jurídico inadequado para resolvê-la.
+
+## Teste de prática
+
+**Pergunta 1.** O direito locatício rege:
+
+A) A relação criada por um contrato de locação
+B) Apenas imóveis comerciais
+C) Apenas vendas de imóveis
+D) Nada relacionado a imóveis
+
+**Pergunta 2.** Uma obrigação comum do locador inclui:
+
+A) Trocar as fechaduras para tirar imediatamente inquilinos que não pagam
+B) Manter o imóvel em condições de habitabilidade e seguir os procedimentos adequados de despejo
+C) Não existem obrigações para os locadores
+D) Ignorar completamente a privacidade do locatário
+
+**Pergunta 3.** Por que esta área do direito é descrita como muito dependente do lugar?
+
+A) Não é: as regras são idênticas em todo lugar
+B) Proteções ao locatário, regras de caução e procedimentos de despejo variam muito conforme a localidade
+C) Só grandes cidades têm direito locatício
+D) Esta lição não afirma isso
+
+**Pergunta 4.** Que risco real um locador corre ao despejar de forma inadequada um inquilino, mesmo um que realmente não paga?
+
+A) Nenhum risco, já que o inquilino estava errado
+B) Responsabilidade jurídica real, às vezes com penalidades além da disputa de fundo
+C) Rejeição automática de qualquer pedido do inquilino
+D) Essa situação não tem relevância jurídica
+
+## Gabarito
+
+1. A, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Toda esta área do direito existe especificamente para regular a relação de locação entre locador e locatário.
+
+**2.** Habitabilidade e processo legal adequado são obrigações centrais do locador citadas em muitos lugares.
+
+**3.** A variação real e significativa entre lugares é enfatizada explicitamente como característica marcante desta área do direito.
+
+**4.** Um processo inadequado, mesmo com uma reclamação de fundo legítima, é exatamente o tipo de erro que cria responsabilidade real para o locador.
+
+## Pontos-chave
+
+- O direito locatício rege a relação de locação, com obrigações dos dois lados.
+- Em geral, os locadores precisam manter a habitabilidade e seguir os procedimentos legais adequados de despejo.
+- Esta área do direito varia muito conforme o lugar: o conhecimento local importa.
+- Medidas por conta própria inadequadas, mesmo contra um inquilino que realmente não paga, criam responsabilidade real para o locador.
