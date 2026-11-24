@@ -1,0 +1,319 @@
+===== PURPLE-L1-017
+TITLE: Permis et licences d’entreprise : le droit légal d’exercer ses activités
+SUMMARY: Présente la notion générale de permis et de licences d’entreprise en tant qu’autorisation légale requise pour exercer ses activités, distincte de la constitution d’une entité.
+# Permis et licences d’entreprise : le droit légal d’exercer ses activités
+
+## Objectifs d’apprentissage
+
+- Distinguer la constitution d’une entité de l’obtention de permis et de licences.
+- Expliquer le but général des permis et des licences d’entreprise.
+- Reconnaître le risque d’exercer ses activités sans autorisation adéquate.
+
+## Contenu principal
+
+Constituer une entité commerciale (une LLC, une société par actions, etc.) est une étape juridique distincte de l’obtention des permis et des licences réellement nécessaires pour exploiter légalement cette entreprise. Les exigences en matière de permis et de licences varient énormément selon le secteur, l’endroit et le type d’entreprise — un restaurant a besoin de permis sanitaires dont une entreprise de services-conseils n’a pas besoin; un entrepreneur en construction a besoin d’une licence de métier dont un commerce de détail n’a pas besoin. C’est un autre domaine où « les règles » ne forment pas une liste universelle, mais une exigence propre au territoire et au secteur, qu’il faut vérifier pour chaque situation précise.
+
+Exercer ses activités sans les permis ou les licences requis comporte un risque réel : amendes, fermeture forcée, contrats invalidés et, dans certains cas, exposition à une responsabilité personnelle même pour une entité par ailleurs bien constituée. Une erreur courante et compréhensible consiste à supposer que constituer une LLC ou une société par actions est la seule étape juridique nécessaire pour « être en règle » — mais une entité bien constituée qui exerce ses activités sans les permis requis exerce quand même illégalement dans un sens important, et cet écart mérite d’être repéré et comblé avant qu’un problème ne survienne, et non après.
+
+## Exemple pratique
+
+**Question :** Une LLC nouvellement constituée commence ses activités tout de suite après sa constitution, sans vérifier si des permis ou des licences propres à son secteur sont exigés. Quel écart cela illustre-t-il?
+
+**Étudiant :** D’après cette leçon, la constitution de la LLC a réglé la question de l’entité, mais les permis et les licences sont une exigence juridique distincte qui n’a pas du tout été traitée.
+
+**Guide :** Quel risque crée le fait d’exercer ses activités sans les permis requis, même pour une LLC bien constituée?
+
+**Étudiant :** Un risque réel — des amendes, une fermeture forcée, ou même une exposition qui compromet la protection que la LLC était censée offrir, puisque le fait d’exercer illégalement peut compliquer les choses même avec une entité bien constituée.
+
+**Guide :** Exactement — la constitution d’une entité et l’autorisation légale d’exercer sont deux étapes distinctes, toutes deux nécessaires.
+
+## Quiz pratique
+
+**Question 1.** La constitution d’une entité et l’obtention de permis et de licences sont :
+
+A) Exactement la même étape juridique
+B) Deux exigences juridiques distinctes
+C) Pertinentes seulement pour les entreprises individuelles
+D) Sans lien l’une avec l’autre
+
+**Question 2.** Les exigences en matière de permis et de licences :
+
+A) Sont identiques pour toutes les entreprises, partout
+B) Varient selon le secteur, l’endroit et le type d’entreprise
+C) Ne s’appliquent jamais à aucune entreprise
+D) Ne s’appliquent qu’aux sociétés par actions
+
+**Question 3.** Exercer ses activités sans les permis requis peut entraîner :
+
+A) Aucune conséquence
+B) Des amendes, une fermeture forcée, des contrats invalidés ou une exposition à la responsabilité
+C) Un succès automatique de l’entreprise
+D) Seulement un léger inconvénient, sans risque réel
+
+**Question 4.** Une erreur courante relevée par cette leçon est :
+
+A) Ne jamais constituer d’entité commerciale
+B) Supposer que la seule constitution d’une entité rend une entreprise entièrement « en règle » et légalement autorisée à exercer
+C) Obtenir trop de permis
+D) Cette leçon ne relève aucune erreur courante
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La constitution d’une entité établit son existence juridique; les permis établissent son autorisation légale d’exercer réellement ses activités.
+
+**2.** Les exigences précises sont déterminées par le secteur et le territoire, et non par une liste de vérification universelle.
+
+**3.** Négliger cette étape expose l’entreprise à toute une gamme de conséquences réelles et évitables.
+
+**4.** Cette leçon nomme et corrige directement la supposition courante selon laquelle la constitution suffirait à assurer une pleine conformité juridique.
+
+## Points clés
+
+- La constitution d’une entité et l’obtention de permis et de licences sont deux exigences juridiques distinctes.
+- Les exigences en matière de permis varient selon le secteur, l’endroit et le type d’entreprise.
+- Exercer ses activités sans les permis requis comporte un risque réel, y compris des amendes et une fermeture forcée.
+- La seule constitution d’une entité ne rend pas une entreprise entièrement autorisée, sur le plan juridique, à exercer ses activités.
+
+===== PURPLE-L1-018
+TITLE: Les notions de base du droit du travail : employé ou travailleur autonome, sur le plan juridique
+SUMMARY: Revient sur la distinction entre employé et travailleur autonome du volet GREEN, précisément sous l’angle de la responsabilité en droit du travail, en présentant les conséquences juridiques d’une mauvaise classification.
+# Les notions de base du droit du travail : employé ou travailleur autonome, sur le plan juridique
+
+## Objectifs d’apprentissage
+
+- Rappeler la distinction entre employé et travailleur autonome vue dans le volet GREEN.
+- Expliquer les conséquences juridiques supplémentaires (non fiscales) d’une mauvaise classification.
+- Reconnaître le droit du travail comme un domaine de risque distinct de la mauvaise classification fiscale.
+
+## Contenu principal
+
+Le volet GREEN a présenté la distinction entre employé et travailleur autonome surtout sous un angle fiscal : une mauvaise classification risque d’entraîner des arriérés d’impôts, des pénalités et des intérêts. Cette leçon ajoute la dimension du droit du travail : classer à tort un travailleur a aussi des conséquences juridiques entièrement distinctes des impôts — notamment une exposition à des réclamations pour des heures supplémentaires impayées, des violations du salaire minimum, des avantages refusés que le travailleur aurait dû recevoir et des protections au travail qui s’appliquent aux employés, mais pas aux véritables travailleurs autonomes. (Au Canada, ces protections relèvent surtout des lois provinciales sur les normes du travail; vérifiez les règles applicables auprès d’un professionnel.)
+
+Dans le contexte du droit du travail, le critère de classification tient souvent compte de facteurs semblables à ceux du critère fiscal — le degré de contrôle sur la façon, le moment et l’endroit où le travail est fait —, mais les conséquences d’une erreur se déroulent sur deux voies distinctes en même temps : une décision d’une autorité fiscale et une réclamation en matière de travail ou d’emploi peuvent toutes deux découler exactement de la même mauvaise classification, ce qui alourdit l’exposition totale. C’est un exemple clair de la façon dont une seule décision d’affaires — la façon de classer un travailleur — peut créer une responsabilité dans plusieurs domaines du droit entièrement différents à la fois, ce qui confirme que cette décision mérite une attention soignée, et souvent professionnelle.
+
+## Exemple pratique
+
+**Question :** Une entreprise classe à tort plusieurs travailleurs comme travailleurs autonomes alors qu’ils devraient légalement être des employés. Au-delà des conséquences fiscales vues dans le volet GREEN, quelle exposition juridique supplémentaire cette leçon relève-t-elle?
+
+**Étudiant :** D’après cette leçon, il y a aussi une exposition en droit du travail — des réclamations pour des heures supplémentaires impayées, des violations du salaire minimum et des avantages ou des protections au travail refusés que ces travailleurs auraient dû recevoir en tant qu’employés.
+
+**Guide :** Quel est le lien entre ces deux types d’exposition — fiscale et en droit du travail?
+
+**Étudiant :** Elles peuvent toutes deux découler exactement de la même décision de mauvaise classification et se dérouler sur des voies distinctes en même temps, ce qui alourdit le risque total au-delà des seules conséquences fiscales.
+
+**Guide :** Exactement — une seule décision, plusieurs domaines d’exposition juridique simultanés.
+
+## Quiz pratique
+
+**Question 1.** Sous quel angle le volet GREEN a-t-il surtout présenté la mauvaise classification des travailleurs?
+
+A) Le droit du travail
+B) La fiscalité
+C) Le droit immobilier
+D) Le droit des valeurs mobilières
+
+**Question 2.** Quelle conséquence supplémentaire d’une mauvaise classification cette leçon ajoute-t-elle?
+
+A) Il n’existe aucune conséquence supplémentaire
+B) Une exposition en droit du travail — heures supplémentaires impayées, salaire minimum, avantages refusés, protections au travail
+C) Seulement des pénalités fiscales supplémentaires
+D) Seulement une exposition criminelle
+
+**Question 3.** Des réclamations fiscales et en droit du travail peuvent-elles découler simultanément de la même mauvaise classification?
+
+A) Non, une seule peut s’appliquer
+B) Oui — les deux peuvent découler exactement de la même décision, ce qui alourdit l’exposition totale
+C) Les réclamations en droit du travail ne portent jamais sur la classification
+D) Ces deux domaines n’ont aucun lien
+
+**Question 4.** Qu’est-ce que cela illustre au sujet d’une seule décision d’affaires comme la classification des travailleurs?
+
+A) Elle ne crée jamais qu’un seul type de risque
+B) Une seule décision peut créer une responsabilité dans plusieurs domaines du droit entièrement différents à la fois
+C) Les décisions de classification n’ont aucun poids juridique réel
+D) Seules les grandes entreprises font face à ce risque
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Le traitement du volet GREEN portait sur les conséquences liées aux retenues et aux paiements d’impôts.
+
+**2.** Cette leçon nomme explicitement les risques parallèles en droit du travail, qui existent indépendamment de l’exposition fiscale.
+
+**3.** L’exposition cumulative et simultanée dans deux domaines du droit est le point clé que cette leçon ajoute à la discussion antérieure.
+
+**4.** C’est une illustration claire et concrète de la façon dont une seule décision de classification peut toucher plusieurs domaines juridiques à la fois.
+
+## Points clés
+
+- Le volet GREEN a présenté les conséquences fiscales d’une mauvaise classification; cette leçon ajoute les conséquences en droit du travail.
+- Une mauvaise classification peut entraîner des réclamations pour des heures supplémentaires impayées, le salaire minimum et des avantages refusés.
+- Une exposition fiscale et une exposition en droit du travail peuvent toutes deux découler simultanément de la même mauvaise classification.
+- C’est un exemple clair d’une seule décision qui crée une responsabilité dans plusieurs domaines du droit à la fois.
+
+===== PURPLE-L1-019
+TITLE: Les clauses de non-concurrence et les ententes de confidentialité : ce qu’elles font réellement
+SUMMARY: Explique le but pratique et les considérations de caractère exécutoire des clauses de non-concurrence et des ententes de confidentialité, couramment rencontrées dans le contexte des affaires.
+# Les clauses de non-concurrence et les ententes de confidentialité : ce qu’elles font réellement
+
+## Objectifs d’apprentissage
+
+- Distinguer une clause de non-concurrence d’une entente de confidentialité.
+- Expliquer le but général de chacune.
+- Reconnaître que leur caractère exécutoire varie beaucoup selon le territoire.
+
+## Contenu principal
+
+Une entente de confidentialité (en anglais *non-disclosure agreement*, ou NDA) empêche une partie de communiquer certains renseignements confidentiels précisés — ce qui protège les secrets commerciaux, les plans d’affaires ou les procédés exclusifs communiqués au cours d’une relation d’affaires. Une clause de non-concurrence empêche une partie (souvent un ancien employé ou le vendeur d’une entreprise) de faire concurrence à l’autre partie pendant une période et dans un territoire précisés — ce qui protège une entreprise contre un initié qui part et utiliserait immédiatement ses connaissances internes pour lui faire directement concurrence.
+
+Les deux sont courantes dans les contextes d’affaires du volet BLUE — contrats de travail, conventions de vente d’entreprise, dissolutions de sociétés de personnes —, mais elles diffèrent beaucoup quant à leur caractère réellement exécutoire. Les ententes de confidentialité sont généralement assez exécutoires, puisqu’elles se contentent de restreindre la divulgation sans limiter largement la capacité d’une personne à gagner sa vie. Les clauses de non-concurrence sont beaucoup plus variables : certains territoires les appliquent facilement si leur portée est raisonnable, d’autres les restreignent fortement, et d’autres encore les interdisent presque entièrement pour la plupart des travailleurs, ce qui reflète une tension entre la protection d’intérêts commerciaux légitimes et le fait de ne pas restreindre déraisonnablement la capacité d’une personne à travailler. (Au Canada, les règles varient selon la province; l’Ontario, par exemple, interdit la plupart des clauses de non-concurrence pour les employés, sous réserve d’exceptions. Vérifiez auprès d’un professionnel.) Cette variabilité est exactement le genre de détail qui fait de la question « ma clause de non-concurrence est-elle exécutoire? » une question réellement propre au territoire, qui mérite un examen professionnel plutôt qu’une supposition dans un sens ou dans l’autre.
+
+## Exemple pratique
+
+**Question :** Un propriétaire d’entreprise dans une province suppose qu’une clause de non-concurrence type sera entièrement exécutoire, en se fondant sur ce qu’il a lu au sujet des règles d’une autre province. Que devrait-il reconsidérer à la lumière de cette leçon?
+
+**Étudiant :** D’après cette leçon, le caractère exécutoire des clauses de non-concurrence varie beaucoup selon le territoire, alors supposer que les règles d’une autre province s’appliquent pourrait être une réelle erreur.
+
+**Guide :** Selon cette leçon, comment cela se compare-t-il au caractère exécutoire des ententes de confidentialité?
+
+**Étudiant :** Les ententes de confidentialité sont décrites comme généralement assez exécutoires partout, alors que les clauses de non-concurrence sont beaucoup plus variables et dépendent du territoire — on ne devrait donc pas supposer qu’elles fonctionnent de la même façon.
+
+**Guide :** Exactement — c’est pourquoi le caractère exécutoire des clauses de non-concurrence en particulier mérite un examen professionnel propre au territoire.
+
+## Quiz pratique
+
+**Question 1.** Une entente de confidentialité empêche :
+
+A) Une personne de travailler où que ce soit
+B) Une partie de communiquer certains renseignements confidentiels précisés
+C) Seulement les transactions immobilières
+D) Rien de juridiquement significatif
+
+**Question 2.** Une clause de non-concurrence empêche :
+
+A) Seulement la divulgation de renseignements confidentiels
+B) Une partie de faire concurrence à l’autre partie pendant une période et dans un territoire précisés
+C) Rien du tout
+D) Seulement les activités criminelles
+
+**Question 3.** Comment le caractère exécutoire des ententes de confidentialité se compare-t-il généralement à celui des clauses de non-concurrence?
+
+A) Ils sont tout aussi variables
+B) Les ententes de confidentialité sont généralement assez exécutoires; le caractère exécutoire des clauses de non-concurrence varie beaucoup selon le territoire
+C) Les clauses de non-concurrence sont toujours plus exécutoires que les ententes de confidentialité
+D) Aucune n’est jamais exécutoire
+
+**Question 4.** Pourquoi le caractère exécutoire des clauses de non-concurrence varie-t-il autant selon le territoire?
+
+A) Sans raison réelle, c’est le hasard
+B) En raison d’une tension entre la protection des intérêts commerciaux et le fait de ne pas restreindre déraisonnablement la capacité d’une personne à travailler
+C) Seuls les territoires riches appliquent les clauses de non-concurrence
+D) Cette leçon n’aborde pas la raison
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les ententes de confidentialité visent précisément à protéger des renseignements confidentiels, et non à restreindre plus largement la capacité de quelqu’un à travailler.
+
+**2.** Les clauses de non-concurrence restreignent précisément les activités concurrentielles futures, dans des limites définies.
+
+**3.** Les ententes de confidentialité se heurtent à moins d’obstacles quant à leur caractère exécutoire, puisqu’elles ne restreignent pas largement la capacité de gagner sa vie comme peuvent le faire les clauses de non-concurrence.
+
+**4.** C’est précisément cette tension de politique sous-jacente qui explique que différents territoires trouvent l’équilibre différemment.
+
+## Points clés
+
+- Les ententes de confidentialité protègent des renseignements confidentiels; les clauses de non-concurrence restreignent la concurrence future.
+- Les ententes de confidentialité sont généralement plus uniformément exécutoires que les clauses de non-concurrence.
+- Le caractère exécutoire des clauses de non-concurrence varie beaucoup selon le territoire, ce qui reflète une réelle tension de politique.
+- Cette variabilité fait du caractère exécutoire des clauses de non-concurrence une question réellement propre au territoire, qui mérite un examen professionnel.
+
+===== PURPLE-L1-020
+TITLE: Les notions de base de la propriété intellectuelle : marques de commerce, droit d’auteur, brevets
+SUMMARY: Présente les trois grandes catégories de protection de la propriété intellectuelle pertinentes pour les propriétaires d’entreprise, ce qui clôt la section sur le droit des affaires.
+# Les notions de base de la propriété intellectuelle : marques de commerce, droit d’auteur, brevets
+
+## Objectifs d’apprentissage
+
+- Distinguer les marques de commerce, le droit d’auteur et les brevets.
+- Déterminer quelle catégorie protège quel type d’actif de l’entreprise.
+- Reconnaître la propriété intellectuelle comme un actif d’entreprise qu’il vaut la peine de protéger activement.
+
+## Contenu principal
+
+Le droit de la propriété intellectuelle (PI) protège les créations de l’esprit — marques, œuvres de création et inventions — en tant qu’actifs reconnus juridiquement et pouvant appartenir à quelqu’un. Trois grandes catégories comptent le plus pour les propriétaires d’entreprise : les **marques de commerce** protègent les identificateurs de marque (noms d’entreprise, logos, slogans) qui distinguent vos produits ou services de ceux de vos concurrents. Le **droit d’auteur** protège les œuvres originales de création (contenu écrit, designs, code logiciel) contre la copie non autorisée. Les **brevets** protègent les inventions — des procédés ou des produits réellement nouveaux et utiles —, en accordant à l’inventeur des droits exclusifs pendant une période limitée. (Au Canada, les enregistrements de marques et de brevets se font auprès de l’Office de la propriété intellectuelle du Canada.)
+
+Pour un propriétaire d’entreprise du volet BLUE, la propriété intellectuelle n’est pas une catégorie juridique abstraite — c’est souvent un actif d’entreprise réel et précieux. Un nom de marque fort protégé par une marque de commerce, un contenu exclusif protégé par le droit d’auteur ou un produit réellement nouveau protégé par un brevet peuvent tous être des sources d’avantage concurrentiel réel et de valeur économique réelle, valant parfois plus que les actifs physiques de l’entreprise. Ne pas protéger sa propriété intellectuelle — ou, pire, porter atteinte sans le savoir à celle de quelqu’un d’autre — est un risque juridique courant et évitable, qui clôt cette section du volet consacrée au droit des affaires.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise crée un nom de marque et un logo distinctifs, mais n’enregistre jamais de marque de commerce, en supposant que le simple fait de les utiliser suffit à les protéger. Quel risque cela crée-t-il?
+
+**Étudiant :** D’après cette leçon, sans protection par une marque de commerce, l’identité de la marque n’est peut-être pas aussi bien protégée juridiquement qu’elle le suppose, et un concurrent pourrait possiblement utiliser quelque chose de semblable en courant moins de risques juridiques.
+
+**Guide :** Pourquoi est-ce important pour la valeur économique réelle de l’entreprise?
+
+**Étudiant :** Parce qu’une marque forte et protégée peut être un actif d’entreprise réel et précieux — la laisser sans protection risque de faire perdre une partie de cette valeur si quelqu’un d’autre la revendique ou utilise quelque chose de semblable au point de prêter à confusion.
+
+**Guide :** Exactement — la protection de la propriété intellectuelle est une décision d’affaires pratique, et non une simple formalité juridique.
+
+## Quiz pratique
+
+**Question 1.** Les marques de commerce protègent :
+
+A) Les inventions
+B) Les identificateurs de marque comme les noms, les logos et les slogans
+C) Seulement le contenu écrit
+D) Rien qui ait une valeur commerciale
+
+**Question 2.** Le droit d’auteur protège :
+
+A) Les noms de marque
+B) Les œuvres originales de création, comme le contenu écrit ou le code
+C) Seulement les inventions physiques
+D) Seulement l’immobilier
+
+**Question 3.** Les brevets protègent :
+
+A) Les logos de marque
+B) Les inventions, procédés ou produits réellement nouveaux et utiles
+C) Seulement l’écriture de création
+D) Rien de juridiquement important
+
+**Question 4.** Pourquoi la propriété intellectuelle compte-t-elle en pratique pour un propriétaire d’entreprise?
+
+A) Elle n’a aucune pertinence pratique
+B) La propriété intellectuelle peut être un actif d’entreprise réel et précieux, valant parfois plus que les actifs physiques
+C) Seules les grandes sociétés possèdent de la propriété intellectuelle
+D) La propriété intellectuelle ne compte que pour les inventeurs, jamais pour les marques
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Le droit des marques de commerce vise précisément à protéger les identificateurs qui distinguent une entreprise sur le marché.
+
+**2.** Le droit d’auteur couvre l’expression créative originale, une catégorie distincte de l’identité de marque ou des inventions.
+
+**3.** Le droit des brevets récompense précisément l’innovation réelle par des droits exclusifs pendant une période limitée.
+
+**4.** Reconnaître la propriété intellectuelle comme une valeur commerciale réelle, et pas seulement comme une question technique juridique, est le point pratique à retenir de cette leçon.
+
+## Points clés
+
+- Les marques de commerce protègent les identificateurs de marque; le droit d’auteur protège les œuvres de création; les brevets protègent les inventions.
+- La propriété intellectuelle peut être un actif d’entreprise réellement précieux, dépassant parfois la valeur des actifs physiques.
+- Ne pas protéger sa propriété intellectuelle, ou porter atteinte sans le savoir à celle des autres, est un risque juridique courant et évitable.
+- Cette leçon clôt la section sur le droit des affaires avant que le volet aborde le droit immobilier.
