@@ -1,0 +1,401 @@
+===== PURPLE-L1-001
+TITLE: Che cos'è il diritto, e perché conta per costruire ricchezza?
+SUMMARY: Presenta il diritto come il sistema di regole vincolanti alla base di ogni decisione su immobili, investimenti e impresa, e inquadra la cultura giuridica come una competenza pratica per costruire ricchezza.
+# Che cos'è il diritto, e perché conta per costruire ricchezza?
+
+## Obiettivi di apprendimento
+
+- Definire il diritto in termini semplici.
+- Spiegare perché la cultura giuridica conta direttamente per le attività dei percorsi RED, WHITE e BLUE.
+- Anticipare l'ambito di PURPLE: cultura giuridica pratica, non esercizio della professione legale.
+
+## Contenuto principale
+
+Il diritto è l'insieme delle regole vincolanti che una società accetta di rispettare, sostenute dal potere dei tribunali e dello Stato di farle effettivamente osservare. Ogni accordo che firmi, ogni immobile che compri, ogni attività che avvii e ogni investimento che fai avviene all'interno di questo sistema di regole, che tu ci pensi o no.
+
+Ecco il collegamento diretto con il resto di questo programma: RED (immobili) dipende interamente da proprietà, contratti e diritti reali giuridicamente tutelati. WHITE (investimenti) dipende dalle leggi sugli strumenti finanziari che rendono i mercati abbastanza affidabili da parteciparvi. BLUE (impresa) dipende dalle strutture giuridiche che stabiliscono chi risponde quando qualcosa va storto. Non serve una laurea in giurisprudenza per costruire ricchezza in nessuno di questi ambiti, ma muoversi senza alcuna cultura giuridica è come guidare senza conoscere il codice della strada: tecnicamente possibile, ma davvero una pessima idea.
+
+Questo percorso, PURPLE, esiste per colmare questa lacuna. Non ti renderà avvocato e non sostituisce un avvocato quando la posta in gioco è alta: è l'analogia del medico a cui questo programma torna continuamente. Ti renderà però un partecipante consapevole: qualcuno che sa leggere un contratto senza farsi prendere dal panico, riconoscere quando un affare ha un problema giuridico e capire quando una situazione è entrata nel territorio del “chiamare un professionista”.
+
+## Esempio svolto
+
+**Domanda:** Un nuovo investitore immobiliare dice: “Non ho bisogno di sapere nulla di diritto: mi farò seguire da un avvocato per tutto.” Qual è il difetto di questo piano?
+
+**Studente:** Secondo questa lezione, anche con un avvocato servirebbe comunque abbastanza cultura giuridica per sapere quando chiamarlo e per capire ciò che ti dice.
+
+**Guida:** Qual è una conseguenza concreta del non avere alcuna cultura giuridica, anche avendo accesso a un avvocato?
+
+**Studente:** Potresti non accorgerti di un campanello d'allarme giuridico in un contratto prima di firmarlo, oppure non capire che una situazione richiede un avvocato finché non è già diventata un problema.
+
+**Guida:** Esatto: la cultura giuridica non sostituisce l'aiuto professionale, ma ti permette di usarlo in modo efficace e di sapere quando ti serve.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il diritto si definisce meglio come:
+
+A) Un insieme di suggerimenti senza alcuna applicazione
+B) Regole vincolanti sostenute da tribunali e Stato
+C) Qualcosa che riguarda solo i criminali
+D) La stessa cosa dell'etica
+
+**Domanda 2.** RED (immobili) dipende giuridicamente da:
+
+A) Nulla di giuridico
+B) Proprietà, contratti e diritti reali tutelati
+C) Solo dal diritto tributario
+D) Solo dal diritto dei mercati finanziari
+
+**Domanda 3.** WHITE (investimenti) dipende giuridicamente da:
+
+A) Solo dal diritto immobiliare
+B) Leggi sugli strumenti finanziari che rendono i mercati affidabili
+C) Nessun quadro giuridico
+D) Solo dalle licenze commerciali
+
+**Domanda 4.** Secondo questa lezione, l'obiettivo di PURPLE è rendere chi impara:
+
+A) Un avvocato abilitato
+B) Un partecipante consapevole sul piano giuridico, non un sostituto dell'aiuto professionale
+C) Qualcuno che non avrà mai più bisogno di un avvocato
+D) Un esperto di diritto penale
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La caratteristica che definisce il diritto è la sua vincolatività: regole con conseguenze reali, non semplici suggerimenti sociali.
+
+**2.** Le operazioni immobiliari si basano interamente sulla capacità del sistema giuridico di tutelare proprietà e contratti.
+
+**3.** L'investimento dipende da un quadro giuridico che mantiene i mercati abbastanza onesti da potervi partecipare in sicurezza.
+
+**4.** La cultura giuridica è l'obiettivo esplicito e dichiarato; la competenza a livello professionale non lo è.
+
+## Punti chiave
+
+- Il diritto è fatto di regole vincolanti sostenute da tribunali e Stato.
+- RED, WHITE e BLUE dipendono ciascuno da specifiche basi giuridiche per funzionare.
+- La cultura giuridica ti rende un utente più efficace dell'aiuto legale professionale, non un suo sostituto.
+- Questo percorso insegna una cultura pratica, riprendendo l'analogia del medico dei percorsi precedenti.
+
+===== PURPLE-L1-002
+TITLE: Common law e diritto scritto: da dove vengono le regole
+SUMMARY: Presenta le due principali fonti del diritto nella maggior parte degli ordinamenti, offrendo una mappa di base su da dove vengono davvero le regole giuridiche.
+# Common law e diritto scritto: da dove vengono le regole
+
+## Obiettivi di apprendimento
+
+- Distinguere il diritto scritto (legislativo) dalla common law.
+- Spiegare perché entrambe le fonti contano nelle situazioni giuridiche di tutti i giorni.
+- Riconoscere che il mix specifico varia da paese a paese.
+
+## Contenuto principale
+
+Il diritto scritto è il diritto redatto e approvato da un parlamento: una regola formale e codificata, come una legge specifica che stabilisce un requisito contrattuale o una regola di autorizzazione. La common law, usata negli Stati Uniti e in molti altri paesi, è il diritto che si forma nel tempo attraverso le decisioni dei giudici: quando i giudici risolvono una controversia, il loro ragionamento diventa un precedente che orienta il modo in cui verranno decise controversie future simili, anche senza una legge scritta che copra esattamente quella situazione. (In Italia il diritto è soprattutto codificato, secondo la tradizione di civil law – per esempio nel Codice civile –, ma la giurisprudenza dei tribunali, in particolare della Corte di Cassazione, ha comunque un ruolo importante nell'interpretazione delle norme.)
+
+In pratica, la maggior parte delle questioni giuridiche reali coinvolge entrambe le fonti: una legge può fissare una regola generale e le decisioni dei tribunali interpretano che cosa significhi esattamente quella legge in situazioni reali, specifiche e complicate. Questo conta sul piano pratico perché spiega come mai “la legge” non sia sempre un'unica frase chiara da consultare: a volte la vera risposta dipende da come i tribunali hanno effettivamente applicato una regola in casi passati simili, non solo da ciò che dice letteralmente la norma.
+
+## Esempio svolto
+
+**Domanda:** Una nuova imprenditrice consulta una legge e presume che risponda completamente alla sua domanda giuridica. Perché potrebbe non essere il quadro completo?
+
+**Studente:** Secondo questa lezione, le decisioni dei tribunali che interpretano quella legge potrebbero aggiungere dettagli importanti che il testo della norma non esplicita.
+
+**Guida:** Perché questo conterebbe per la situazione reale e specifica che sta affrontando?
+
+**Studente:** Perché il modo in cui i tribunali hanno effettivamente applicato la legge in casi simili potrebbe rivelare eccezioni, limiti o interpretazioni che cambiano il modo in cui si applica alla sua situazione.
+
+**Guida:** Esatto: ed è uno dei motivi per cui le questioni giuridiche complesse o ad alto rischio traggono vantaggio da una consulenza professionale, non solo da una rapida consultazione della legge.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il diritto scritto è:
+
+A) Il diritto che nasce solo dalle decisioni dei tribunali
+B) Il diritto redatto e approvato da un parlamento
+C) Suggerimenti non vincolanti
+D) Rilevante solo per i casi penali
+
+**Domanda 2.** La common law è:
+
+A) Il diritto che si forma nel tempo attraverso decisioni dei tribunali e precedenti
+B) La stessa cosa del diritto scritto
+C) Usata in un solo paese
+D) Irrilevante per gli ordinamenti moderni
+
+**Domanda 3.** In pratica, la maggior parte delle questioni giuridiche coinvolge:
+
+A) Solo le leggi, mai le decisioni dei tribunali
+B) Sia le leggi sia la loro interpretazione da parte dei tribunali
+C) Nessuna delle due fonti
+D) Solo la common law, mai le leggi
+
+**Domanda 4.** Perché consultare soltanto una legge potrebbe non rispondere pienamente a una domanda giuridica?
+
+A) Le leggi sono sempre complete da sole
+B) L'interpretazione dei tribunali può aggiungere dettagli importanti assenti dal testo della norma
+C) Le leggi non sono mai rilevanti
+D) In pratica non succede mai
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il diritto scritto è la forma formalmente codificata, creata attraverso il procedimento legislativo.
+
+**2.** La common law si forma gradualmente attraverso i precedenti giudiziari, invece che con un singolo atto legislativo.
+
+**3.** Le questioni giuridiche reali richiedono di solito di capire sia la regola scritta sia come è stata effettivamente applicata.
+
+**4.** L'interpretazione dei tribunali rivela spesso sfumature, eccezioni o limiti che una norma nuda non rende evidenti.
+
+## Punti chiave
+
+- Il diritto scritto viene dai parlamenti; la common law si forma da decisioni dei tribunali e precedenti.
+- La maggior parte delle questioni giuridiche reali coinvolge entrambe le fonti insieme.
+- Il testo di una norma non sempre racconta tutta la storia.
+- È uno dei motivi per cui le questioni giuridiche complesse traggono vantaggio da un'interpretazione professionale.
+
+===== PURPLE-L1-003
+TITLE: Contratti 101: che cosa rende un accordo giuridicamente vincolante
+SUMMARY: Introduce il concetto fondamentale di contratto e anticipa gli elementi che rendono un accordo giuridicamente vincolante, preparando le due lezioni successive.
+# Contratti 101: che cosa rende un accordo giuridicamente vincolante
+
+## Obiettivi di apprendimento
+
+- Definire un contratto in termini semplici.
+- Spiegare perché non ogni accordo è un contratto giuridicamente vincolante.
+- Anticipare i tre elementi centrali trattati nella prossima lezione.
+
+## Contenuto principale
+
+Un contratto è un accordo giuridicamente vincolante tra due o più parti. La parola chiave è vincolante: un contratto non è solo una promessa o una stretta di mano, ma un accordo che un tribunale può effettivamente far rispettare, o per la cui violazione può riconoscere un risarcimento. Questa distinzione conta enormemente in RED, WHITE e BLUE: un contratto di compravendita immobiliare, un accordo di sottoscrizione di un investimento e un accordo tra soci sono tutti, in sostanza, contratti.
+
+Non ogni accordo arriva al livello di un contratto vincolante. Una promessa informale tra amici di solito non lo è; un contratto di compravendita formale e firmato di solito sì. La prossima lezione scompone i tre ingredienti centrali – proposta, accettazione e corrispettivo – che in genere devono essere presenti perché un accordo valga come contratto giuridicamente vincolante. Capire questa distinzione è fondamentale: è la differenza tra qualcosa su cui puoi davvero contare sul piano giuridico e qualcosa che è solo un'intesa amichevole.
+
+## Esempio svolto
+
+**Domanda:** Due vicini si accordano a voce: uno taglierà il prato dell'altro “prima o poi quest'estate” in cambio di “un favore più avanti”. È probabilmente un contratto vincolante?
+
+**Studente:** Secondo questa lezione, sembra piuttosto informale e vago, quindi è dubbio che possa valere come contratto vincolante.
+
+**Guida:** Che cosa manca qui che un contratto formale di compravendita immobiliare avrebbe?
+
+**Studente:** Termini chiari e specifici e un certo grado di formalità: proprio ciò che rende un accordo qualcosa che un tribunale potrebbe effettivamente far rispettare, invece di una semplice intesa amichevole.
+
+**Guida:** Esatto: la prossima lezione ti darà gli ingredienti specifici da cercare.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un contratto è:
+
+A) Qualsiasi promessa informale
+B) Un accordo giuridicamente vincolante tra le parti
+C) Rilevante solo per le imprese
+D) La stessa cosa di una stretta di mano
+
+**Domanda 2.** La caratteristica distintiva fondamentale di un contratto è:
+
+A) La sua lunghezza
+B) La vincolatività: un tribunale può farlo rispettare o riconoscere un risarcimento
+C) Se è dattiloscritto o scritto a mano
+D) Se le parti sono amiche
+
+**Domanda 3.** Quale di questi è indicato come esempio di contratto nel contesto di questo programma?
+
+A) Un contratto di compravendita immobiliare
+B) Un favore verbale informale tra amici
+C) Un sogno a occhi aperti su un'idea d'impresa
+D) Una speranza mai espressa
+
+**Domanda 4.** Che cosa tratta la prossima lezione?
+
+A) Il diritto tributario
+B) I tre elementi centrali: proposta, accettazione e corrispettivo
+C) Il diritto penale
+D) L'urbanistica immobiliare
+
+## Soluzioni
+
+1. B, 2. B, 3. A, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La vincolatività è la caratteristica che separa un vero contratto da una promessa informale.
+
+**2.** La capacità di un tribunale di far effettivamente rispettare l'accordo è ciò che lo rende giuridicamente significativo.
+
+**3.** I contratti di compravendita sono formali, specifici e vincolanti: un esempio da manuale di contratto vero.
+
+**4.** Questa lezione prepara la scomposizione degli ingredienti specifici richiesti nella lezione successiva.
+
+## Punti chiave
+
+- Un contratto è un accordo che un tribunale può effettivamente far rispettare, non solo una promessa.
+- Compravendite, accordi di investimento e accordi tra soci sono tutti contratti.
+- Non ogni accordo arriva al livello di un contratto vincolante.
+- La prossima lezione tratta i tre ingredienti centrali che rendono un accordo un contratto.
+
+===== PURPLE-L1-004
+TITLE: Proposta, accettazione e corrispettivo: i tre ingredienti
+SUMMARY: Scompone, con un esempio concreto, i tre elementi classici generalmente richiesti perché un contratto sia giuridicamente vincolante.
+# Proposta, accettazione e corrispettivo: i tre ingredienti
+
+## Obiettivi di apprendimento
+
+- Definire proposta, accettazione e corrispettivo.
+- Applicare tutti e tre gli elementi a una semplice operazione reale.
+- Riconoscere che l'assenza di un solo elemento può compromettere la vincolatività.
+
+## Contenuto principale
+
+Riprendendo l'ultima lezione, la maggior parte degli ordinamenti cerca tre ingredienti centrali per trattare un accordo come contratto vincolante. **Proposta**: una parte propone termini specifici (“Ti vendo questo immobile per 200.000 €”). **Accettazione**: l'altra parte accetta chiaramente esattamente quei termini. **Corrispettivo** (in inglese “consideration”): ogni parte scambia qualcosa di valore (denaro, un bene, una promessa di fare o non fare qualcosa); nella common law un dono unilaterale in genere non è un contratto, perché non si scambia nulla. (Nel diritto italiano il Codice civile indica come requisiti del contratto l'accordo delle parti, la causa, l'oggetto e, quando prescritta, la forma; la logica di base è simile, ma i dettagli vanno chiariti con un professionista.)
+
+Un esempio semplice rende tutto concreto: un venditore offre un immobile a un prezzo indicato (proposta), un acquirente accetta esattamente quel prezzo e quei termini (accettazione) e il denaro viene scambiato con l'immobile (corrispettivo). Tutti e tre gli elementi presenti, in quest'ordine, sono in genere ciò che porta un tribunale a trattare l'accordo risultante come contratto vincolante, ed è per questo che proposte vaghe, unilaterali o non accettate spesso non reggono se in seguito nasce una controversia.
+
+## Esempio svolto
+
+**Domanda:** Un acquirente dice “Mi piacerebbe comprare casa tua un giorno” e la venditrice risponde “Certo, sarebbe bello”. Sono soddisfatti i tre ingredienti di un contratto?
+
+**Studente:** Secondo questa lezione, non sembra: non c'è una proposta specifica con termini reali, quindi anche l'accettazione di qualcosa di non specifico non conta davvero.
+
+**Guida:** Che cosa dovrebbe cambiare per farne una vera proposta?
+
+**Studente:** Termini specifici – un prezzo effettivo, un immobile e delle condizioni – proposti in modo abbastanza chiaro da poter essere accettati dall'altra parte esattamente così come sono.
+
+**Guida:** Esatto: l'entusiasmo generico non equivale a una proposta giuridicamente significativa.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Nel diritto dei contratti, una “proposta” è:
+
+A) Una vaga manifestazione di interesse
+B) Una proposta di termini specifici da parte di una delle parti
+C) La stessa cosa del corrispettivo
+D) Irrilevante per la formazione del contratto
+
+**Domanda 2.** “Accettazione” significa:
+
+A) Ignorare la proposta
+B) Accettare chiaramente esattamente i termini proposti
+C) Proporre termini diversi
+D) La stessa cosa di una proposta
+
+**Domanda 3.** Il “corrispettivo” indica:
+
+A) Essere cortesi durante la trattativa
+B) Qualcosa di valore scambiato da ciascuna parte
+C) Un dono unilaterale
+D) Qualcosa di rilevante solo per gli immobili
+
+**Domanda 4.** È probabile che una proposta vaga e non accettata:
+
+A) Valga sempre come contratto vincolante
+B) Non soddisfi gli elementi necessari per un contratto vincolante
+C) Sia identica a un contratto di compravendita firmato
+D) Non abbia alcuna rilevanza per il diritto dei contratti
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Una proposta richiede precisione: proporre termini reali e definiti, non un sentimento vago.
+
+**2.** Accettare significa aderire esattamente ai termini proposti, non a qualcosa di diverso o parziale.
+
+**3.** Il corrispettivo richiede un vero scambio di valore tra le due parti, che nella common law distingue un contratto da un dono.
+
+**4.** La mancanza di precisione o di un vero scambio tende a compromettere la vincolatività effettiva di un accordo.
+
+## Punti chiave
+
+- Proposta, accettazione e corrispettivo sono i tre ingredienti classici di un contratto vincolante.
+- La proposta deve essere specifica; l'accettazione deve corrispondere esattamente a quei termini; il corrispettivo deve implicare un reale scambio di valore.
+- Un'operazione immobiliare è un esempio chiaro dei tre elementi che lavorano insieme.
+- L'assenza di uno dei tre può compromettere il fatto che un accordo sia davvero un contratto vincolante.
+
+===== PURPLE-L1-005
+TITLE: Contratti scritti e verbali: perché “mettilo per iscritto” conta
+SUMMARY: Spiega le ragioni pratiche e giuridiche per cui i contratti scritti sono fortemente preferibili, con una breve introduzione al concetto di forma scritta obbligatoria.
+# Contratti scritti e verbali: perché “mettilo per iscritto” conta
+
+## Obiettivi di apprendimento
+
+- Spiegare la differenza generale di vincolatività tra contratti scritti e verbali.
+- Identificare i rischi pratici di affidarsi a un accordo verbale.
+- Introdurre il concetto che alcuni tipi di contratto devono per legge essere scritti.
+
+## Contenuto principale
+
+Molti accordi verbali possono tecnicamente essere giuridicamente vincolanti, ma dimostrare che cosa sia stato davvero concordato diventa un serio problema pratico se le parti in seguito non sono d'accordo sui termini. Un contratto scritto crea una traccia chiara e condivisa: termini esatti, prezzo esatto, condizioni esatte, firmati da entrambe le parti. Un accordo verbale si basa interamente su memoria e onestà, che tendono a venir meno proprio quando conta di più: quando nasce una controversia e ci sono soldi in gioco.
+
+Oltre al rischio pratico, molti ordinamenti hanno una regola – nel diritto statunitense spesso chiamata Statute of Frauds – che impone che certi tipi di accordo, di solito comprese le operazioni immobiliari, siano scritti per essere vincolanti, per quanto chiaro sembrasse l'accordo verbale al momento. (In Italia la compravendita di immobili richiede la forma scritta a pena di nullità e di norma si conclude con un atto notarile, necessario anche per la trascrizione nei pubblici registri; verifica il singolo caso con un professionista.) È uno dei consigli giuridici pratici più chiari e universali in RED, WHITE e BLUE: mettilo per iscritto, sempre, anche quando ti fidi completamente dell'altra parte, perché la fiducia non crea una traccia su cui un tribunale possa basarsi in seguito.
+
+## Esempio svolto
+
+**Domanda:** Due soci concordano a voce di dividere gli utili 60/40, si stringono la mano e non lo scrivono mai. Un anno dopo non sono d'accordo sulla ripartizione. Quale problema illustra questo?
+
+**Studente:** Secondo questa lezione, senza una traccia scritta è sostanzialmente la parola dell'uno contro quella dell'altro su ciò che è stato davvero concordato.
+
+**Guida:** Perché la fiducia tra i soci non risolve questo problema?
+
+**Studente:** Perché la fiducia non crea prove: un tribunale che decidesse la controversia in seguito avrebbe bisogno di qualcosa di più affidabile del ricordo di ciascun socio di una conversazione.
+
+**Guida:** Esatto: per questo “mettilo per iscritto” vale anche per le persone di cui ti fidi completamente.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Gli accordi verbali sono:
+
+A) Mai giuridicamente vincolanti in nessuna circostanza
+B) A volte tecnicamente vincolanti, ma difficili da provare nella pratica
+C) Sempre più sicuri dei contratti scritti
+D) Irrilevanti per il diritto dei contratti
+
+**Domanda 2.** Il principale vantaggio pratico di un contratto scritto è:
+
+A) Sembra più ufficiale
+B) Crea una traccia chiara e condivisa dei termini esatti
+C) È sempre richiesto dalla legge
+D) Non ha alcun vantaggio rispetto agli accordi verbali
+
+**Domanda 3.** Lo Statute of Frauds richiede in genere che certi accordi, come quelli immobiliari, siano:
+
+A) Solo autenticati da un notaio
+B) Scritti per essere vincolanti
+C) Verbali per semplicità
+D) Testimoniati da un giudice
+
+**Domanda 4.** Perché “mettilo per iscritto” vale anche tra parti che si fidano l'una dell'altra?
+
+A) La fiducia garantisce che non nascerà mai una controversia
+B) La fiducia non crea una traccia affidabile se in seguito nasce una controversia
+C) I contratti scritti sono solo per gli sconosciuti
+D) Questo consiglio non vale per i rapporti di fiducia
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Gli accordi verbali non sono automaticamente non vincolanti, ma provarne in seguito i termini esatti è una vera debolezza pratica.
+
+**2.** Una traccia scritta elimina l'ambiguità su ciò che è stato davvero concordato, che conta proprio quando nasce una controversia.
+
+**3.** In molti ordinamenti certi tipi di operazione devono per legge essere documentati per iscritto.
+
+**4.** Anche una grande fiducia tra le parti non produce il tipo di prova di cui un tribunale ha bisogno per risolvere un disaccordo successivo.
+
+## Punti chiave
+
+- Gli accordi verbali possono essere tecnicamente vincolanti ma sono difficili da provare in caso di controversia.
+- I contratti scritti creano una traccia chiara e affidabile dei termini esatti.
+- Alcuni tipi di operazione, come quelle immobiliari, devono spesso per legge essere conclusi per iscritto o in forma particolare.
+- “Mettilo per iscritto” vale sempre, anche tra parti che si fidano l'una dell'altra.
