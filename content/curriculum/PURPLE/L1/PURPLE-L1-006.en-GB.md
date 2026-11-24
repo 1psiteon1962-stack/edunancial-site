@@ -1,47 +1,96 @@
 ---
 id: PURPLE-L1-006
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 6
-title: "Breach of Contract"
-summary: "Breach of contract occurs when a party fails to fulfil their obligations under the agreement without a legally valid excuse. VERIFIED FACT: Common remedies for breach include damages (compensation for losses caused), specific performance (a court order compelling the breaching party to carry out the contract), or rescission (cancelling the contract)."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Breach of Contract: What Happens When Someone Doesn't Perform"
+summary: "Introduces the concept of breach of contract and the general categories of remedies available when one party doesn't hold up their end."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-006: Breach of Contract
+
+# Breach of Contract: What Happens When Someone Doesn't Perform
 
 ## Learning Objectives
-1. Define breach of contract.
-2. Recognise common remedies when a breach occurs.
-3. Distinguish a material breach from a minor one.
+
+- Define breach of contract.
+- Identify general categories of remedies for breach.
+- Recognise breach as a foreseeable business risk, not an unusual event.
 
 ## Core Content
-Breach of contract occurs when a party fails to fulfil their obligations under the agreement without a legally valid excuse. *VERIFIED FACT:* Common remedies for breach include damages (compensation for losses caused), specific performance (a court order compelling the breaching party to carry out the contract), or rescission (cancelling the contract).
 
-*ASSUMPTION:* A "material" breach generally refers to a breach serious enough to undermine the entire purpose of the contract, while a "minor" breach generally involves a small deviation that does not defeat the general purpose of the agreement — this distinction often affects which remedies are available.
+A breach of contract occurs when one party fails to fulfil their obligations under an enforceable agreement — missing a payment, failing to deliver a property, not completing agreed-upon work. When a breach happens, the non-breaching party generally has legal remedies available, though the specific options depend on the contract and jurisdiction.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* A builder agrees to build a deck by a specific date but never begins the work — this would generally be a material breach, since it undermines the entire purpose of the contract. If the builder instead finished the deck but three days after the agreed date, without causing real harm, this would generally be considered a minor breach.
+Common categories of remedies include: monetary damages (compensation for the financial loss caused by the breach), specific performance (a court order requiring the breaching party to actually complete what they promised — more common in real estate, where the property itself is unique), and contract termination (releasing the non-breaching party from their own remaining obligations). Understanding that breach is a foreseeable, planned-for risk — not some unusual catastrophe — is part of mature contract literacy: well-drafted contracts often specify in advance what happens if either side breaches, which is exactly why careful contract review matters before signing, not just after something goes wrong.
 
-## Practical Quiz
-1. What is breach of contract?
-2. Name a common remedy for breach of contract.
-3. True/False: A minor breach generally has the same consequences as a material one.
-4. What generally distinguishes a material breach from a minor one?
+## Worked Example
+
+**Question:** A buyer signs a contract to purchase a specific property, then the seller backs out and sells to someone else instead. What remedy might be particularly relevant here, given that the property is unique?
+
+**Student:** Based on this lesson, specific performance might be relevant, since a court could potentially order the completion of the sale rather than just awarding money.
+
+**Guide:** Why would specific performance make more sense for a unique property than it might for, say, a generic product?
+
+**Student:** Because the property itself is one-of-a-kind — money alone might not actually replace what the buyer specifically wanted, unlike a generic product that could just be repurchased elsewhere.
+
+**Guide:** Exactly — that's why specific performance shows up especially often in real estate contract disputes.
+
+
+## Practice Quiz
+
+
+**Question 1.** A breach of contract occurs when:
+
+A) Both parties agree to cancel the deal
+B) One party fails to fulfil their obligations under the agreement
+C) A contract is signed
+D) No agreement was ever reached
+
+
+**Question 2.** Monetary damages are:
+
+A) Never available as a remedy
+B) Compensation for the financial loss caused by a breach
+C) Only relevant to criminal cases
+D) The same as specific performance
+
+
+**Question 3.** Specific performance is:
+
+A) A court order requiring completion of what was promised
+B) Always the same as monetary damages
+C) Never used in real estate
+D) Irrelevant to contract law
+
+
+**Question 4.** Why is breach described as a 'foreseeable, planned-for risk' rather than an unusual catastrophe?
+
+A) Breach never actually happens
+B) Well-drafted contracts often specify in advance what happens if either side breaches
+C) Contracts never address this possibility
+D) This framing is inaccurate
+
 
 ## Answer Key
-1. When a party fails to fulfil their contractual obligations without a valid excuse   2. Damages, specific performance, or rescission (among others)   3. False   4. A material breach undermines the entire purpose of the contract; a minor one does not
+
+1. B, 2. B, 3. A, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of breach of contract.
-2. These are commonly cited remedies for breach.
-3. The seriousness of the breach generally affects which remedies are available.
-4. This is the general distinction between material and minor breach.
 
-## Key Points to Remember
-- Breach of contract occurs when a party fails to fulfil their obligations without a valid excuse.
-- Common remedies include damages, specific performance, and rescission.
-- A material breach undermines the purpose of the contract; a minor breach generally does not.
+**1.** Breach is specifically the failure to perform obligations that were legally agreed to.
+
+**2.** Damages aim to financially make the non-breaching party whole for their loss.
+
+**3.** Specific performance is especially relevant when the subject matter, like a unique property, can't simply be replaced with money.
+
+**4.** Mature contracts anticipate breach and specify consequences in advance, treating it as a real possibility to plan for.
+
+## Key Takeaways
+
+- Breach occurs when a party fails to fulfil their contractual obligations.
+- Remedies include monetary damages, specific performance, and contract termination.
+- Specific performance is especially relevant for unique assets like real estate.
+- Breach is a foreseeable risk that well-drafted contracts plan for in advance.

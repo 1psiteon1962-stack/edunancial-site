@@ -1,47 +1,98 @@
 ---
 id: PURPLE-L1-045
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 45
-title: "Limited Liability From a Legal Perspective"
-summary: "Limited Liability From a Legal Perspective"
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Statute of Limitations: Why Legal Claims Expire"
+summary: "Introduces the statute of limitations concept, explaining why legal claims aren't available indefinitely and why this matters for both pursuing and defending against claims."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-045: Limited Liability From a Legal Perspective
+
+# Statute of Limitations: Why Legal Claims Expire
 
 ## Learning Objectives
-1. Review the general concept of limited liability from a legal perspective.
-2. Recognise circumstances under which limited liability protection can generally be lost.
-3. Explain the concept of "piercing the corporate veil".
+
+- Define statute of limitations in plain terms.
+- Explain the general policy reasoning behind time-limiting legal claims.
+- Recognise practical relevance for both potential plaintiffs and defendants.
 
 ## Core Content
-*VERIFIED FACT:* Limited liability generally means that the owners of a legal entity (such as a limited liability company) are not personally liable for the entity's debts and obligations, with their exposure generally limited to what they invested in the business.
 
-*ASSUMPTION:* Courts can sometimes "pierce the corporate veil" — disregarding limited liability protection and holding owners personally liable — generally in circumstances where the owners did not treat the entity as genuinely separate from their personal finances, committed fraud, or used the entity to evade legal obligations.
+A statute of limitations is a legal time limit within which a claim must be filed, after which the claim generally can no longer be pursued in court, regardless of its underlying merit. Different types of claims (contract disputes, tort claims, and others) often have different time limits, and these limits vary by jurisdiction — there's no single universal number to memorise, but the underlying concept applies broadly.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* An owner who systematically mixes personal and business funds, keeps no separate financial records, and uses the company's bank account as if it were their own personal wallet could run the risk of a court piercing the corporate veil if the business later faces a lawsuit — the court might find the entity was never treated as genuinely separate from the owner, and that limited liability protection should therefore not apply.
+The general policy reasoning is twofold: evidence and memories genuinely degrade over time, making old claims harder to fairly resolve, and there's a real social interest in eventual finality — allowing people and businesses to move forward without indefinite exposure to claims from the distant past. This matters practically on both sides: someone who has a legitimate grievance needs to understand there's a real deadline for pursuing it, not unlimited time to decide; and someone facing a potential claim should understand that sufficiently old claims may be time-barred entirely, which is relevant context (though not a substitute for actual legal advice) when evaluating real exposure to an old dispute.
 
-## Practical Quiz
-1. What does limited liability generally mean?
-2. What is "piercing the corporate veil"?
-3. True/False: Limited liability protection can never be lost under any circumstances.
-4. Name a circumstance that can generally lead to piercing the corporate veil.
+For UK readers: in England and Wales the Limitation Act 1980 generally gives six years for contract and most tort claims and three years for personal injury, with exceptions; Scotland uses different periods, so take advice promptly.
+
+## Worked Example
+
+**Question:** Someone discovers a legitimate contract dispute from many years ago and wonders whether they can still sue over it today. What does this lesson suggest they should check first?
+
+**Student:** Based on this lesson, they should check whether the statute of limitations for that type of claim has already expired, since claims generally can't be pursued after that time limit passes, regardless of merit.
+
+**Guide:** Why might the claim's merit alone not be enough to guarantee it can still be pursued?
+
+**Student:** Because the statute of limitations exists specifically to time-limit claims, for reasons like degraded evidence and the interest in eventual finality — so even a fully legitimate claim can become legally unavailable if too much time has passed.
+
+**Guide:** Exactly — merit and legal availability are two separate questions.
+
+
+## Practice Quiz
+
+
+**Question 1.** A statute of limitations is:
+
+A) A permanent right to sue at any time
+B) A legal time limit within which a claim must be filed
+C) Only relevant to criminal cases
+D) The same in every jurisdiction and claim type
+
+
+**Question 2.** The general policy reasoning behind time-limiting claims includes:
+
+A) No real reasoning exists
+B) Degrading evidence over time and an interest in eventual finality
+C) Only protecting wealthy defendants
+D) Encouraging indefinite litigation
+
+
+**Question 3.** Do different types of claims generally have the same time limit?
+
+A) Yes, always identical
+B) No — different claim types and jurisdictions often have different limits
+C) Time limits are irrelevant to claim type
+D) No claims have any time limit
+
+
+**Question 4.** Why does this matter for someone facing a potential old claim?
+
+A) It has no practical relevance
+B) Sufficiently old claims may be time-barred entirely, which is relevant context when evaluating exposure
+C) Old claims are always automatically valid
+D) This lesson only matters for plaintiffs, never defendants
+
 
 ## Answer Key
-1. Owners are not personally liable for the entity's debts   2. When a court disregards limited liability protection and holds owners personally liable   3. False   4. Mixing personal and business funds, or committing fraud (among others)
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the general definition of limited liability.
-2. This is the fundamental definition of piercing the corporate veil.
-3. Protection can be lost under certain circumstances, such as piercing the corporate veil.
-4. These are commonly cited circumstances that can lead to this consequence.
 
-## Key Points to Remember
-- Limited liability generally protects owners from being personally liable for the entity's debts.
-- Courts can sometimes pierce the corporate veil, removing this protection.
-- Mixing personal and business funds is a commonly cited reason for this consequence.
+**1.** This legal deadline mechanism is precisely what a statute of limitations establishes.
+
+**2.** Both evidentiary degradation and the value of eventual finality are cited as the underlying policy rationale.
+
+**3.** Variation by claim type and jurisdiction is explicitly noted rather than assuming a single universal figure.
+
+**4.** This is directly useful, practical context for evaluating real exposure to an old dispute, on either side of a potential claim.
+
+## Key Takeaways
+
+- A statute of limitations legally time-limits when a claim can be filed.
+- This reflects policy concerns about degrading evidence and the value of eventual finality.
+- Time limits vary by claim type and jurisdiction — no single number applies universally.
+- This matters practically for both potential plaintiffs and defendants evaluating old disputes.

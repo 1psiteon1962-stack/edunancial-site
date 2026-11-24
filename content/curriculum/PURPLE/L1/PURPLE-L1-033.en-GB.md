@@ -1,49 +1,98 @@
 ---
 id: PURPLE-L1-033
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 33
-title: "Wrongful Termination"
-summary: "Wrongful Termination"
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Accredited Investors: What the Label Means Legally"
+summary: "Explains the accredited investor concept, a common legal gatekeeping mechanism for certain investment opportunities, and the reasoning behind it."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-033: Wrongful Termination
+
+# Accredited Investors: What the Label Means Legally
 
 ## Learning Objectives
-1. Define wrongful termination in general terms.
-2. Explain the general concept of the employment relationship and its limits.
-3. Recognise commonly cited circumstances where a dismissal might be considered wrongful.
+
+- Define 'accredited investor' in general terms.
+- Explain the general reasoning behind this classification.
+- Recognise this as a real access restriction relevant to certain WHITE-track opportunities.
 
 ## Core Content
-*REGION-SPECIFIC RULE:* Specific rules on dismissal and its classification vary significantly by country; this lesson describes general concepts.
 
-*VERIFIED FACT:* In many legal systems, an employer can generally end an employment relationship, but must do so according to the grounds and procedures set by law; when a dismissal doesn't follow those grounds or procedures, it can generally be classified as wrongful.
+In many securities regulatory systems, certain investment opportunities — particularly private, less-regulated offerings — are legally restricted to "accredited investors," a category generally defined by meeting specific income, net worth, or professional knowledge thresholds. The specific numeric thresholds vary by jurisdiction and change over time, so this lesson focuses on the underlying concept rather than any specific dollar figure.
 
-*ASSUMPTION:* Commonly cited circumstances where a dismissal might be considered wrongful include dismissals based on unlawful discrimination, retaliation for reporting unlawful conduct, or breach of a specific employment contract — in these cases, the dismissal could generally carry legal consequences for the employer.
+The general reasoning behind this restriction connects directly to the previous lesson's disclosure theme: private offerings often aren't required to provide the same level of mandated public disclosure as more heavily regulated public offerings. The accredited investor requirement is a policy tradeoff — instead of requiring full public disclosure, it restricts access to investors presumed to have either the financial resources to absorb a loss or the sophistication to evaluate risk without that same level of disclosure protection. This is directly relevant to certain WHITE-track investment opportunities (private companies, certain funds, some real estate syndications) that specifically require accredited investor status, making this a practical, not just theoretical, piece of legal literacy.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* An employer can generally end an employment relationship for objective reasons related to company reorganisation, following the relevant legal procedure. However, if that same employer dismissed a worker specifically because they reported unlawful company activity to the authorities, this would generally constitute wrongful dismissal for retaliation, even if another reason were formally given.
+For UK readers: the UK uses categories such as certified high net worth and sophisticated investors under FCA rules, which affect which riskier investments can be promoted to you; check your category and the firm's authorisation on the FCA register.
 
-## Practical Quiz
-1. What must an employer generally follow to end an employment relationship?
-2. Name a commonly cited circumstance where a dismissal might be considered wrongful.
-3. True/False: An employer can never be held liable for wrongful termination.
-4. In the example, why would the second dismissal be considered wrongful?
+## Worked Example
+
+**Question:** An investor is excited about a private investment opportunity but learns it's restricted to accredited investors only, and they don't currently qualify. What's the underlying policy logic behind this restriction, per this lesson?
+
+**Student:** Based on this lesson, since this private offering doesn't provide the same level of mandated disclosure as a public offering, the restriction is meant to limit access to investors presumed able to absorb a loss or evaluate risk without that same disclosure protection.
+
+**Guide:** Is this restriction primarily about the investment's quality, or about a different underlying concern?
+
+**Student:** A different concern — it's about the tradeoff between disclosure requirements and investor protection, not necessarily a judgement about whether the specific opportunity itself is good or bad.
+
+**Guide:** Exactly — accreditation is a policy mechanism, not a stamp of investment quality.
+
+
+## Practice Quiz
+
+
+**Question 1.** An 'accredited investor' is generally defined by:
+
+A) A random lottery selection
+B) Meeting specific income, net worth, or professional knowledge thresholds
+C) Owning any amount of stock
+D) Having a college degree only
+
+
+**Question 2.** Why does this lesson avoid citing a specific dollar threshold?
+
+A) No threshold exists anywhere
+B) Specific thresholds vary by jurisdiction and change over time
+C) Thresholds are irrelevant to this concept
+D) This lesson provides an exact universal figure
+
+
+**Question 3.** The underlying policy reasoning connects to which previous lesson's theme?
+
+A) Real estate closing
+B) Mandated disclosure and information asymmetry
+C) Planning law
+D) Foreclosure process
+
+
+**Question 4.** Which curriculum track does the accredited investor concept directly connect to?
+
+A) GREEN
+B) WHITE
+C) RED only
+D) BLUE only
+
 
 ## Answer Key
-1. The grounds and procedures set by law   2. Unlawful discrimination, retaliation, or breach of a specific contract (among others)   3. False   4. It was retaliation for reporting unlawful activity
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the commonly cited general requirement for ending the employment relationship.
-2. These are commonly cited circumstances that can lead to this classification.
-3. There are circumstances where a dismissal could be considered wrongful.
-4. This dismissal falls under the commonly recognised circumstance of retaliation.
 
-## Key Points to Remember
-- An employer generally must follow the legal grounds and procedures to end an employment relationship.
-- Common circumstances classifying a dismissal as wrongful include discrimination, retaliation, and breach of contract.
-- A dismissal under these circumstances can generally carry legal consequences for the employer.
+**1.** Financial and knowledge-based criteria are the general basis for this classification, not random chance or unrelated factors.
+
+**2.** Jurisdictional variation and change over time make a specific figure unreliable to teach as a fixed fact.
+
+**3.** This restriction is a direct policy response to the reduced disclosure requirements of private offerings.
+
+**4.** Certain WHITE-track investment opportunities specifically require this status, making the connection practical, not abstract.
+
+## Key Takeaways
+
+- Accredited investor status is generally based on income, net worth, or professional knowledge thresholds.
+- Specific thresholds vary by jurisdiction and change over time.
+- This restriction reflects a policy tradeoff between disclosure requirements and investor protection.
+- This is directly relevant to certain private WHITE-track investment opportunities.

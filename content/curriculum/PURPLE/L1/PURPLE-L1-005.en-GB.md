@@ -1,47 +1,98 @@
 ---
 id: PURPLE-L1-005
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 5
-title: "Verbal vs. Written Contracts"
-summary: "Verbal vs. Written Contracts"
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Written vs. Oral Contracts: Why 'Get It in Writing' Matters"
+summary: "Explains the practical and legal reasons written contracts are strongly preferred, including a brief introduction to the Statute of Frauds concept."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-005: Verbal vs. Written Contracts
+
+# Written vs. Oral Contracts: Why 'Get It in Writing' Matters
 
 ## Learning Objectives
-1. Distinguish a verbal contract from a written contract.
-2. Recognise why certain types of contract generally must be in writing.
-3. Explain the practical risk of relying solely on verbal agreements.
+
+- Explain the general difference in enforceability between written and oral contracts.
+- Identify the practical risks of relying on an oral agreement.
+- Introduce the concept that some contract types are legally required to be in writing.
 
 ## Core Content
-*ASSUMPTION:* A verbal contract can generally be just as legally valid as a written one, but is much harder to prove if a dispute arises, since there is no clear record of the exact terms agreed — the outcome often comes down to one person's word against another's.
 
-*REGION-SPECIFIC RULE:* Many legal systems have a rule commonly known as the "statute of frauds", which generally requires that certain types of contract (such as those relating to real estate, or agreements that cannot be completed within a year) be in writing to be enforceable — the precise requirements vary by location.
+Many oral agreements can technically be legally binding — but proving what was actually agreed to becomes a serious practical problem if the parties later disagree about the terms. A written contract creates a clear, shared record: exact terms, exact price, exact conditions, signed by both parties. An oral agreement relies entirely on memory and honesty, which tends to break down exactly when it matters most — when a dispute arises and money is on the line.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* Two neighbours verbally agree that one will mow the other's lawn all season for $500. When payment time comes, they disagree over whether $500 or $400 was agreed. Without a written record, resolving this dispute becomes far harder than if they had simply written down the terms and both signed.
+Beyond the practical risk, many legal systems have a rule, often called the Statute of Frauds, requiring certain kinds of agreements — commonly including real estate transactions — to be in writing to be enforceable at all, regardless of how clear the oral agreement seemed at the time. This is one of the clearest, most universal pieces of practical legal advice across RED, WHITE, and BLUE: get it in writing, every time, even when you trust the other party completely — because trust doesn't create a record a court can rely on later.
 
-## Practical Quiz
-1. Can a verbal contract be legally valid?
-2. What is the practical risk of relying solely on a verbal agreement?
-3. True/False: All types of contract can generally be verbal in any legal system.
-4. What is the "statute of frauds" in general terms?
+For UK readers: in England and Wales some agreements must be in writing to be enforceable, such as contracts for the sale of land and guarantees, so take advice before relying on a spoken promise for anything important.
+
+## Worked Example
+
+**Question:** Two business partners agree verbally to split profits 60/40, shake hands, and never write it down. A year later, they disagree about the split. What problem does this illustrate?
+
+**Student:** Based on this lesson, without a written record, it's essentially their word against each other about what was actually agreed to.
+
+**Guide:** Why does trust between the partners not solve this problem?
+
+**Student:** Because trust doesn't create evidence — a court resolving the dispute later needs something more reliable than each partner's memory of a conversation.
+
+**Guide:** Exactly — this is why 'get it in writing' applies even to people you trust completely.
+
+
+## Practice Quiz
+
+
+**Question 1.** Oral agreements are:
+
+A) Never legally binding under any circumstances
+B) Sometimes technically binding, but practically hard to prove
+C) Always safer than written contracts
+D) Irrelevant to contract law
+
+
+**Question 2.** A written contract's main practical advantage is:
+
+A) It looks more official
+B) It creates a clear, shared record of exact terms
+C) It's always required by law
+D) It has no advantage over oral agreements
+
+
+**Question 3.** The Statute of Frauds generally requires certain agreements, like real estate deals, to be:
+
+A) Notarized only
+B) In writing to be enforceable
+C) Verbal for simplicity
+D) Witnessed by a judge
+
+
+**Question 4.** Why does 'get it in writing' apply even between trusted parties?
+
+A) Trust guarantees no disputes will ever arise
+B) Trust doesn't create a reliable record if a dispute does arise later
+C) Written contracts are only for strangers
+D) This advice doesn't apply to trusted relationships
+
 
 ## Answer Key
-1. Yes, it generally can be   2. It is much harder to prove if a dispute arises   3. False   4. A rule that generally requires certain types of contract to be in writing
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. Verbal contracts can generally be legally valid.
-2. The lack of a clear record makes disputes much harder to resolve.
-3. Certain types of contract generally must be in writing under rules that vary by legal system.
-4. This is the general definition of this commonly cited rule.
 
-## Key Points to Remember
-- Verbal contracts can be legally valid, but are harder to prove.
-- Certain types of contract generally must be in writing, depending on location.
-- Putting important agreements in writing reduces the risk of disputes over the terms.
+**1.** Oral agreements aren't automatically unenforceable, but proving their exact terms later is a genuine practical weakness.
+
+**2.** A written record removes ambiguity about what was actually agreed to, which matters most exactly when a dispute arises.
+
+**3.** Certain transaction types are legally required to be documented in writing under many legal systems' rules.
+
+**4.** Even strong trust between parties doesn't produce the kind of evidence a court needs to resolve a later disagreement.
+
+## Key Takeaways
+
+- Oral agreements can be technically binding but are hard to prove if disputed.
+- Written contracts create a clear, reliable record of exact terms.
+- Some transaction types, like real estate, are often legally required to be in writing.
+- 'Get it in writing' applies universally, even between trusted parties.

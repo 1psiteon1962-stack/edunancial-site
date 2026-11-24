@@ -1,228 +1,54 @@
 ---
 id: GOLD-L1-014
 track: GOLD
-officialTrackName: Investing and Wealth Building
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 14
 locale: en-GB
 title: "Reinvesting vs. Spending Gains"
-summary: "This lesson develops reinvesting gains."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductory
-estimatedTime: 35–50 minutes
-prerequisites: "GOLD-L1-013"
-componentIds:
-  - GOLD-L1-014-MAIN
-  - GOLD-L1-014-EXAMPLES
-  - GOLD-L1-014-EXERCISE
-  - GOLD-L1-014-ASSESSMENT
-  - GOLD-L1-014-ANSWER-KEY
-  - GOLD-L1-014-COMPETENCY
-  - GOLD-L1-014-AI
-  - GOLD-L1-014-SEO
-  - GOLD-L1-014-LOCALIZATION
-  - GOLD-L1-014-REFERENCES
+summary: "Explores the decision of whether to reinvest growth or use it, and how that choice affects compounding."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
 # Reinvesting vs. Spending Gains
 
-### GOLD-L1-014-MAIN
-
-## Executive Summary
-
-This lesson develops **reinvesting gains**. The central issue is using gains for further accumulation or current goals. The aim is not to tell a learner what to buy. It is to build the ability to make investment decisions using clear objectives, numbers, costs, risk, alternatives and a disciplined process.
-
 ## Learning Objectives
+- Explain the difference between reinvesting and spending investment gains
+- Connect this decision back to the compounding concept from earlier
+- Recognise that there's no universally "correct" choice, only tradeoffs
 
-- **Financial Literacy:** explain reinvesting gains clearly.
-- **Financial Competency:** apply the concept to a practical situation.
-- **Better Judgement:** recognise benefits, limitations and risks.
-- **Better Decisions:** decide according to a plan rather than excitement.
-- **Wealth Building:** integrate the skill into a long-term process without relying on predictions.
+## Core Content
 
-## Prerequisites
+Once an investment grows in value, an investor eventually faces a choice: keep that growth invested (reinvesting), or convert some of it into cash to spend on something else. This decision connects directly back to the compounding lesson earlier in this track — reinvested growth continues compounding, building on itself over time, while spent growth stops contributing to future compounding entirely, since it's no longer part of the invested position.
 
-GOLD-L1-013.
+Neither choice is universally right or wrong — it depends on the purpose of the money and where it fits in the Make/Keep/Grow/Pass On framework. Growth intended to serve a long-term "Grow" goal generally benefits from being reinvested, letting compounding continue to work. But investing exists to eventually serve real goals and needs, not compounding for its own sake indefinitely — at some point, especially as goals draw closer or a "Pass On" moment arrives, converting growth into actual use becomes the appropriate choice.
 
-## Main Lesson
+## Worked Example
 
-### 1. Understand the Concept
+ILLUSTRATIVE EXAMPLE: If the case study's growing metals position increased in value and the son chose to sell a small portion to fund something else, that specific amount would no longer be part of the base earning further growth going forward — a real, understandable tradeoff, not a mistake. If instead all growth stayed within the position, compounding would continue building on an increasingly larger base over the years. The right choice depends on what the money is ultimately meant to accomplish, not a fixed rule that reinvesting is always correct.
 
-[VERIFIED FACT] An investment decision should begin with an objective, time horizon, liquidity needs and capacity to bear risk. In considering **reinvesting gains**, the learner must understand using gains for further accumulation or current goals.
+## Practice Quiz
 
-An investment may suit one person and be unsuitable for another. Price is only one variable. Costs, resale options, security, applicable taxation, alternatives and the date when the money may be required all matter.
-
-### 2. Think Before Acting
-
-Ask five questions: What is my objective? How much capital is genuinely available? For how long? What can go wrong? What is the best alternative use of this money?
-
-[ILLUSTRATIVE EXAMPLE] A learner has £7,500 in savings, but £5,500 is allocated to an emergency reserve. The account balance therefore does not equal available investment capital. Separating the jobs of money can reduce the chance of a forced sale.
-
-### 3. Costs, Risk and Outcome
-
-Assume the reference metal value in a product is £500, the purchase price is £545 and the immediate dealer buy-back price is £480. The £65 gap between purchase and immediate resale matters before any investment gain can occur.
-
-Risk is broader than a falling market price. It can include liquidity, fraud, counterfeiting, physical loss, concentration, custody costs, taxation and having to sell earlier than planned.
-
-### 4. Apply the Lesson
-
-Turn **reinvesting gains** into an observable decision rule: decide according to a plan rather than excitement. A written rule established before market movements can help prevent fear, excitement, social media or sales pressure from replacing analysis.
-
-[ASSUMPTION] All monetary figures in this lesson are educational examples. They are not forecasts or promises of return.
-
-### 5. Judge the Process, Not Just the Outcome
-
-A sound decision can have a poor outcome, while a poor decision can benefit from luck. Evaluate the process first: information, costs, alternatives, risks and fit with the objective. Measure the result afterwards and adjust when relevant facts change.
-
-## Key Definitions
-
-- **Asset:** a resource with economic value.
-- **Return:** the gain or loss associated with an investment.
-- **Risk:** the possibility that the outcome differs from expectations.
-- **Liquidity:** the ability to convert an asset into cash promptly without a substantial discount.
-- **Opportunity cost:** the potential benefit of the best alternative forgone.
-- **Reinvesting gains:** the lesson's central concept as applied to investment decision-making.
-
-## Worked Examples
-
-### GOLD-L1-014-EXAMPLES
-
-**Example 1 — entry and exit:** A product costs £2,625 while its reference metal value is £2,500. If the immediate buy-back price is £2,430, the economic gap between purchase and immediate resale is £195.
-
-**Example 2 — concentration:** In a £50,000 portfolio, £2,500 is a 5% position while £25,000 is a 50% position. The same asset can therefore create very different portfolio risk.
-
-**Example 3 — time horizon:** Money required in three months for housing, education or repairs has a different job from capital intended for a ten-year objective.
-
-## Case Study and Decision Lab
-
-Sophie wants to buy precious metals after reading inflation headlines. She has £30,000 in savings and essential monthly expenditure of approximately £7,000. She first separates her emergency reserve, chooses a modest regular contribution, compares total transaction costs and schedules quarterly reviews.
-
-**Decide before reading the analysis:** Gold has risen for two weeks. Should Sophie immediately double her planned purchase? Explain your decision using objective, budget, risk and **reinvesting gains**.
-
-**Analysis:** A recent price rise alone does not change her financial capacity or objective. A plan change should depend on relevant new facts and criteria established in advance.
-
-## Common Mistakes
-
-1. Confusing a compelling narrative with evidence.
-2. Investing emergency savings.
-3. Ignoring premiums, spreads, fees or custody.
-4. Concentrating too much wealth in one idea.
-5. Changing the plan because of ordinary market fluctuations.
-6. Failing to maintain adequate records.
-
-## FAQ
-
-**Does this concept guarantee a profit?** No. No investment process eliminates risk.
-
-**Must I predict the gold price?** No. Disciplined investing does not require precise short-term forecasting.
-
-**Does owning more metal always mean greater safety?** No. Excessive concentration can increase risk.
-
-**When should I review my plan?** At scheduled intervals and when income, goals, liquidity needs or the portfolio materially change.
-
-## Key Takeaways
-
-- Reinvesting gains should be linked to a defined objective.
-- Costs and liquidity affect economic results.
-- Position size changes risk.
-- Written rules can reduce emotional decision-making.
-- Reviews should be driven by evidence and material changes.
-
-## Practical Exercise
-
-### GOLD-L1-014-EXERCISE
-
-Prepare a one-page decision sheet containing: your objective, horizon, genuinely available capital excluding emergency savings, three risks, two costs to verify, one alternative use for the capital, one rule concerning **reinvesting gains**, and the date of your next review.
-
-## Socratic Teaching Guide
-
-### GOLD-L1-014-AI
-
-1. What financial problem does this concept help solve?
-2. How would you explain **reinvesting gains** to a beginner?
-3. What information is required before acting?
-4. What adverse outcome is realistically possible?
-5. Which costs might sit outside an advertised price?
-6. What changes if the money is required in six months?
-7. What happens if the position becomes half of total investable assets?
-8. What is the strongest alternative use of the capital?
-9. Which written rule could reduce an emotional reaction?
-10. What new fact would justify reviewing the plan?
-
-## Competency Assessment
-
-### GOLD-L1-014-ASSESSMENT
-
-1. What should come before selecting an investment? A) Predict tomorrow B) Define objective, horizon and capacity C) Buy the most popular product D) Follow a seller without verification.
-2. True or false: an investment can suit one person and not another.
-3. Purchase price £1,050; immediate resale £970. What is the difference?
-4. Define liquidity.
-5. What is opportunity cost? A) Best alternative forgone B) Only a fee C) Only inflation D) None.
-6. True or false: diversification eliminates all risk.
-7. Name two risks other than a falling market price.
-8. £10,000 in a £50,000 portfolio is what percentage?
-9. Why can a written rule help during volatility?
-10. In two sentences, explain how you would apply **reinvesting gains** before a purchase.
+1. What's the difference between reinvesting and spending investment gains?
+2. How does this decision connect to the compounding concept from earlier?
+3. Is reinvesting always the "correct" choice?
+4. What ultimately determines whether reinvesting or spending gains makes sense in a given situation?
 
 ## Answer Key
+1. Reinvesting keeps growth within the investment to continue compounding; spending converts it to cash for other use.
+2. Reinvested growth continues compounding, while spent growth stops contributing to future compounding since it's no longer invested.
+3. No — it depends on the purpose of the money and where it fits within the Make/Keep/Grow/Pass On framework.
+4. What the money is ultimately meant to accomplish — long-term growth goals generally favour reinvesting, while approaching real needs or goals may favour spending.
 
-### GOLD-L1-014-ANSWER-KEY
+## Answers and Explanations
+1. This defines the core tradeoff the lesson addresses.
+2. Compounding only continues on money that remains invested, directly linking this decision to the earlier lesson.
+3. This avoids an oversimplified "always reinvest" rule that ignores the real purpose of investing.
+4. Purpose-driven decision-making, tied to the four-function framework, is the practical guide the lesson offers.
 
-1. **B.** Competency: preparation. Common misconception: start with the product.
-2. **True.** Competency: suitability in context.
-3. **£80.** Competency: entry/exit economics.
-4. **The ability to convert an asset into cash promptly without a substantial discount.**
-5. **A.** Competency: comparing alternatives.
-6. **False.** Diversification can reduce some risks; it cannot remove all risk.
-7. **Examples:** liquidity, fraud, custody, counterparty, concentration or taxation.
-8. **20%.** Competency: concentration.
-9. **It establishes criteria before emotional pressure arises.**
-10. **Expected:** connect the concept with objective, horizon, budget, costs, risks and a decision rule.
-
-## Competency Standard
-
-### GOLD-L1-014-COMPETENCY
-
-- **Mastery threshold:** 8 correct answers out of 10 (80%).
-- **Remediation:** revisit each weak topic, redo one numerical example and explain the decision in the learner's own words.
-- **Progression:** mastery unlocks GOLD-L1-015.
-
-## Further Reading
-
-Use current official educational, regulatory and tax sources relevant to the learner's jurisdiction. Legal, tax and consumer-protection rules should be verified before application and discussed with a suitably qualified professional where appropriate.
-
-## Lesson Path
-
-- **Previous:** GOLD-L1-013
-- **Current:** GOLD-L1-014 — Reinvesting vs. Spending Gains
-- **Next:** GOLD-L1-015
-
-## SEO Block
-
-### GOLD-L1-014-SEO
-
-**Target terms:** reinvesting gains, precious metals, investing, financial education, GOLD Level 1  
-**Meta description:** Understand reinvesting gains and apply the principle to more disciplined investment decisions.
-
-## AI Support Block
-
-### GOLD-L1-014-AI
-
-The tutor should explain concepts, require reasoning, use hypothetical examples and correct misconceptions. It must not guarantee returns, predict prices or provide personalised financial, legal or tax advice.
-
-## Localisation Block
-
-### GOLD-L1-014-LOCALIZATION
-
-- **Global:** objectives, risk, costs, diversification, liquidity and discipline.
-- **United Kingdom:** use British English and pounds sterling. Tax treatment, regulation, consumer protection and product-specific rules must be checked against current UK official sources before being presented as applicable rules.
-
-## References and Verification
-
-### GOLD-L1-014-REFERENCES
-
-- General financial concepts: presented without market forecasts.
-- Monetary figures: illustrative examples.
-- UK-specific rules: current verification required before application.
-- Current market prices or statistics: not used.
+## Key Takeaways
+- Reinvesting keeps growth compounding; spending converts growth into use for other purposes.
+- This decision directly connects to the compounding lesson — only reinvested growth continues building on itself.
+- Neither choice is universally correct; the right decision depends on the money's actual purpose within the broader financial picture.

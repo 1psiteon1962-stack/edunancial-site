@@ -1,49 +1,98 @@
 ---
 id: PURPLE-L1-035
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 35
-title: "Eviction — The Basic Process"
-summary: "Eviction is the legal process by which a landlord has a tenant removed from a property, generally due to non-payment of rent or breach of the tenancy agreement terms. VERIFIED FACT: The process generally requires the landlord to serve formal notice on the tenant, and if the tenant doesn't fix the problem or vacate the property, the landlord generally must obtain a court order before the tenant can be physically removed."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Insider Trading: What It Is and Why It's Illegal"
+summary: "Explains the concept of insider trading, why it's prohibited, and its connection to the fairness principles underlying securities regulation."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-035: Eviction — The Basic Process
+
+# Insider Trading: What It Is and Why It's Illegal
 
 ## Learning Objectives
-1. Define eviction in general terms.
-2. Recognise the general stages of a lawful eviction process.
-3. Explain why "self-help eviction" is generally illegal.
+
+- Define insider trading.
+- Explain the fairness rationale behind prohibiting it.
+- Recognise common scenarios where this risk arises.
 
 ## Core Content
-*REGION-SPECIFIC RULE:* Specific eviction processes vary significantly by country and region; this lesson describes only the general concept.
 
-Eviction is the legal process by which a landlord has a tenant removed from a property, generally due to non-payment of rent or breach of the tenancy agreement terms. *VERIFIED FACT:* The process generally requires the landlord to serve formal notice on the tenant, and if the tenant doesn't fix the problem or vacate the property, the landlord generally must obtain a court order before the tenant can be physically removed.
+Insider trading generally refers to buying or selling a security based on material, non-public information — significant information not yet available to the general investing public — obtained through a position of trust or access, such as being a company employee, executive, or someone who received such information improperly from an insider. This is prohibited under securities law in most systems, and the reasoning connects directly to the fairness principle underlying disclosure requirements covered in earlier lessons.
 
-*ASSUMPTION:* "Self-help eviction" — when a landlord tries to remove a tenant on their own initiative without going through the court process, such as by changing the locks or cutting off utilities — is generally illegal in many legal systems, precisely because it bypasses the procedural protections designed for the tenant.
+The core problem insider trading creates is an unfair informational advantage: if some market participants can trade based on information others don't have access to, it undermines the basic fairness that makes people willing to participate in markets at all — precisely the trust infrastructure discussed earlier in this section. This isn't limited to corporate executives; anyone who receives material non-public information and trades on it, or improperly shares it with someone else who trades on it, can potentially face liability. This is a practical caution relevant to anyone with any kind of privileged access to non-public company information — including, in some circumstances, professionals working closely with companies in RED or BLUE contexts who happen to also invest through WHITE.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* A landlord whose tenant hasn't paid rent for several months generally must first send a formal notice, and if the problem isn't resolved, bring a case before the court to obtain an eviction order. If the landlord instead changed the locks without following this process, this would generally constitute unlawful self-help eviction, exposing the landlord to possible legal consequences, even if the tenant genuinely owed rent.
+For UK readers: insider dealing is a criminal offence under the Criminal Justice Act 1993, and the FCA also enforces civil market abuse rules.
 
-## Practical Quiz
-1. What is eviction?
-2. What must a landlord generally do before a tenant is physically removed?
-3. True/False: A landlord can generally change the locks without going to court if the tenant hasn't paid rent.
-4. What is "self-help eviction"?
+## Worked Example
+
+**Question:** A business consultant learns confidential, significant information about a client company during a project, then trades that company's stock before the information becomes public. What legal problem does this illustrate?
+
+**Student:** Based on this lesson, this sounds like a clear example of insider trading — trading based on material, non-public information obtained through a position of trust or access.
+
+**Guide:** Why is this prohibited, connecting back to the fairness theme from earlier lessons?
+
+**Student:** Because it creates an unfair informational advantage over other market participants who don't have access to that same non-public information, undermining the trust that makes markets function fairly.
+
+**Guide:** Exactly — and this risk isn't limited to corporate insiders; it applies to anyone with privileged access to material non-public information.
+
+
+## Practice Quiz
+
+
+**Question 1.** Insider trading generally refers to:
+
+A) Any stock trade by a company employee
+B) Trading a security based on material, non-public information obtained through a position of trust
+C) Trading only publicly available information
+D) A completely legal investment strategy
+
+
+**Question 2.** The core problem insider trading creates is:
+
+A) No real problem exists
+B) An unfair informational advantage that undermines market trust and fairness
+C) Excessive market transparency
+D) Too much publicly available information
+
+
+**Question 3.** Is insider trading liability limited to corporate executives?
+
+A) Yes, only executives can be liable
+B) No — anyone who trades on or improperly shares material non-public information can potentially face liability
+C) Only government employees can be liable
+D) Liability never actually applies to anyone
+
+
+**Question 4.** This lesson connects insider trading prohibition to which earlier theme?
+
+A) Planning law
+B) Fairness and trust as infrastructure for functioning markets
+C) Foreclosure process
+D) Landlord-tenant obligations
+
 
 ## Answer Key
-1. The legal process by which a landlord has a tenant removed from a property   2. Obtain a court order   3. False   4. When a landlord tries to remove a tenant without going through the court process
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of eviction.
-2. This is the general requirement before a tenant's physical removal.
-3. Self-help eviction is generally illegal, even when the tenant owes rent.
-4. This is the fundamental definition of self-help eviction.
 
-## Key Points to Remember
-- Eviction is the legal process for removing a tenant from a property.
-- The process generally requires formal notice and a court order before physical removal.
-- Self-help eviction, without the court process, is generally illegal.
+**1.** The defining feature is trading on privileged, non-public information obtained through a trust relationship.
+
+**2.** This unfair advantage directly undermines the market trust that securities regulation aims to protect.
+
+**3.** Liability extends beyond formal insiders to anyone improperly accessing or acting on such information.
+
+**4.** This directly extends the trust-and-fairness rationale established in the earlier disclosure lessons.
+
+## Key Takeaways
+
+- Insider trading means trading on material, non-public information obtained through trust or access.
+- This undermines the fairness and trust that make markets function, connecting to earlier lessons.
+- Liability extends beyond corporate executives to anyone improperly using such information.
+- This is a practical caution for anyone with privileged access to non-public company information.

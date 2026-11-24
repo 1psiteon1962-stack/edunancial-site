@@ -1,228 +1,54 @@
 ---
 id: GOLD-L1-015
 track: GOLD
-officialTrackName: Investing and Wealth Building
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
 locale: en-GB
 title: "Tracking Your Position Over Time"
-summary: "This lesson develops position tracking."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductory
-estimatedTime: 35–50 minutes
-prerequisites: "GOLD-L1-014"
-componentIds:
-  - GOLD-L1-015-MAIN
-  - GOLD-L1-015-EXAMPLES
-  - GOLD-L1-015-EXERCISE
-  - GOLD-L1-015-ASSESSMENT
-  - GOLD-L1-015-ANSWER-KEY
-  - GOLD-L1-015-COMPETENCY
-  - GOLD-L1-015-AI
-  - GOLD-L1-015-SEO
-  - GOLD-L1-015-LOCALIZATION
-  - GOLD-L1-015-REFERENCES
+summary: "Teaches the basics of recordkeeping for an accumulating investment position."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
 # Tracking Your Position Over Time
 
-### GOLD-L1-015-MAIN
-
-## Executive Summary
-
-This lesson develops **position tracking**. The central issue is quantity, total cost, average cost, dates, charges and market value. The aim is not to tell a learner what to buy. It is to build the ability to make investment decisions using clear objectives, numbers, costs, risk, alternatives and a disciplined process.
-
 ## Learning Objectives
+- Explain why tracking an investment position matters, even for a simple asset
+- Identify the basic information worth recording for each purchase
+- Practice setting up a simple tracking record
 
-- **Financial Literacy:** explain position tracking clearly.
-- **Financial Competency:** apply the concept to a practical situation.
-- **Better Judgement:** recognise benefits, limitations and risks.
-- **Better Decisions:** maintain records that make performance measurable.
-- **Wealth Building:** integrate the skill into a long-term process without relying on predictions.
+## Core Content
 
-## Prerequisites
+As an investment position grows over time through regular purchases, keeping a simple record becomes increasingly valuable. Without tracking, it's easy to lose a clear sense of the total amount owned, what was actually paid for it over time (important for understanding real performance and for tax purposes later), and the overall pattern of the accumulation.
 
-GOLD-L1-014.
+A basic tracking record for a precious metals position should include, at minimum: the date of each purchase, the quantity purchased (ounces or grams), the price paid per unit (including any premium), and the total amount spent on that purchase. Over time, this record lets an investor calculate their true average cost per unit — directly connecting to the dollar-cost averaging concept from earlier — and see the full accumulation story at a glance, rather than relying on memory or scattered receipts.
 
-## Main Lesson
+## Worked Example
 
-### 1. Understand the Concept
+ILLUSTRATIVE EXAMPLE: In the ongoing case study, tracking silver purchases from age 11 onward in a simple record — date, ounces purchased, price paid, total spent — lets the actual average cost per ounce be calculated clearly years later, rather than relying on a vague sense of "I've been buying silver for years." When gold purchases begin at age 15, a similar record for gold, tracked separately, keeps the two metals' accumulation stories clear and distinct, supporting the kind of long-term review this track's later capstone lessons will draw on.
 
-[VERIFIED FACT] An investment decision should begin with an objective, time horizon, liquidity needs and capacity to bear risk. In considering **position tracking**, the learner must understand quantity, total cost, average cost, dates, charges and market value.
+## Practice Quiz
 
-An investment may suit one person and be unsuitable for another. Price is only one variable. Costs, resale options, security, applicable taxation, alternatives and the date when the money may be required all matter.
-
-### 2. Think Before Acting
-
-Ask five questions: What is my objective? How much capital is genuinely available? For how long? What can go wrong? What is the best alternative use of this money?
-
-[ILLUSTRATIVE EXAMPLE] A learner has £7,500 in savings, but £5,500 is allocated to an emergency reserve. The account balance therefore does not equal available investment capital. Separating the jobs of money can reduce the chance of a forced sale.
-
-### 3. Costs, Risk and Outcome
-
-Assume the reference metal value in a product is £500, the purchase price is £545 and the immediate dealer buy-back price is £480. The £65 gap between purchase and immediate resale matters before any investment gain can occur.
-
-Risk is broader than a falling market price. It can include liquidity, fraud, counterfeiting, physical loss, concentration, custody costs, taxation and having to sell earlier than planned.
-
-### 4. Apply the Lesson
-
-Turn **position tracking** into an observable decision rule: maintain records that make performance measurable. A written rule established before market movements can help prevent fear, excitement, social media or sales pressure from replacing analysis.
-
-[ASSUMPTION] All monetary figures in this lesson are educational examples. They are not forecasts or promises of return.
-
-### 5. Judge the Process, Not Just the Outcome
-
-A sound decision can have a poor outcome, while a poor decision can benefit from luck. Evaluate the process first: information, costs, alternatives, risks and fit with the objective. Measure the result afterwards and adjust when relevant facts change.
-
-## Key Definitions
-
-- **Asset:** a resource with economic value.
-- **Return:** the gain or loss associated with an investment.
-- **Risk:** the possibility that the outcome differs from expectations.
-- **Liquidity:** the ability to convert an asset into cash promptly without a substantial discount.
-- **Opportunity cost:** the potential benefit of the best alternative forgone.
-- **Position tracking:** the lesson's central concept as applied to investment decision-making.
-
-## Worked Examples
-
-### GOLD-L1-015-EXAMPLES
-
-**Example 1 — entry and exit:** A product costs £2,625 while its reference metal value is £2,500. If the immediate buy-back price is £2,430, the economic gap between purchase and immediate resale is £195.
-
-**Example 2 — concentration:** In a £50,000 portfolio, £2,500 is a 5% position while £25,000 is a 50% position. The same asset can therefore create very different portfolio risk.
-
-**Example 3 — time horizon:** Money required in three months for housing, education or repairs has a different job from capital intended for a ten-year objective.
-
-## Case Study and Decision Lab
-
-Sophie wants to buy precious metals after reading inflation headlines. She has £30,000 in savings and essential monthly expenditure of approximately £7,000. She first separates her emergency reserve, chooses a modest regular contribution, compares total transaction costs and schedules quarterly reviews.
-
-**Decide before reading the analysis:** Gold has risen for two weeks. Should Sophie immediately double her planned purchase? Explain your decision using objective, budget, risk and **position tracking**.
-
-**Analysis:** A recent price rise alone does not change her financial capacity or objective. A plan change should depend on relevant new facts and criteria established in advance.
-
-## Common Mistakes
-
-1. Confusing a compelling narrative with evidence.
-2. Investing emergency savings.
-3. Ignoring premiums, spreads, fees or custody.
-4. Concentrating too much wealth in one idea.
-5. Changing the plan because of ordinary market fluctuations.
-6. Failing to maintain adequate records.
-
-## FAQ
-
-**Does this concept guarantee a profit?** No. No investment process eliminates risk.
-
-**Must I predict the gold price?** No. Disciplined investing does not require precise short-term forecasting.
-
-**Does owning more metal always mean greater safety?** No. Excessive concentration can increase risk.
-
-**When should I review my plan?** At scheduled intervals and when income, goals, liquidity needs or the portfolio materially change.
-
-## Key Takeaways
-
-- Position tracking should be linked to a defined objective.
-- Costs and liquidity affect economic results.
-- Position size changes risk.
-- Written rules can reduce emotional decision-making.
-- Reviews should be driven by evidence and material changes.
-
-## Practical Exercise
-
-### GOLD-L1-015-EXERCISE
-
-Prepare a one-page decision sheet containing: your objective, horizon, genuinely available capital excluding emergency savings, three risks, two costs to verify, one alternative use for the capital, one rule concerning **position tracking**, and the date of your next review.
-
-## Socratic Teaching Guide
-
-### GOLD-L1-015-AI
-
-1. What financial problem does this concept help solve?
-2. How would you explain **position tracking** to a beginner?
-3. What information is required before acting?
-4. What adverse outcome is realistically possible?
-5. Which costs might sit outside an advertised price?
-6. What changes if the money is required in six months?
-7. What happens if the position becomes half of total investable assets?
-8. What is the strongest alternative use of the capital?
-9. Which written rule could reduce an emotional reaction?
-10. What new fact would justify reviewing the plan?
-
-## Competency Assessment
-
-### GOLD-L1-015-ASSESSMENT
-
-1. What should come before selecting an investment? A) Predict tomorrow B) Define objective, horizon and capacity C) Buy the most popular product D) Follow a seller without verification.
-2. True or false: an investment can suit one person and not another.
-3. Purchase price £1,050; immediate resale £970. What is the difference?
-4. Define liquidity.
-5. What is opportunity cost? A) Best alternative forgone B) Only a fee C) Only inflation D) None.
-6. True or false: diversification eliminates all risk.
-7. Name two risks other than a falling market price.
-8. £10,000 in a £50,000 portfolio is what percentage?
-9. Why can a written rule help during volatility?
-10. In two sentences, explain how you would apply **position tracking** before a purchase.
+1. Why does tracking an investment position matter, even for a simple asset like precious metals?
+2. Name the four basic pieces of information a tracking record should include for each purchase.
+3. What calculation does a good tracking record make possible over time?
+4. Why does the case study track silver and gold in separate records?
 
 ## Answer Key
+1. Because without tracking, it's easy to lose a clear sense of total holdings, true cost, and the overall accumulation pattern.
+2. Date of purchase, quantity purchased, price paid per unit, and total amount spent.
+3. The true average cost per unit over time, directly connecting to the dollar-cost averaging concept.
+4. Because they're two distinct metals with different accumulation timelines, and separate records keep each story clear and distinct.
 
-### GOLD-L1-015-ANSWER-KEY
+## Answers and Explanations
+1. Recordkeeping prevents reliance on memory, which becomes unreliable as a position grows over years.
+2. These four data points form the minimum viable tracking record for any accumulating position.
+3. Average cost calculation directly connects tracking to the earlier DCA lesson's core concept.
+4. Separate tracking for each metal supports clarity, especially given their different starting points in the case study.
 
-1. **B.** Competency: preparation. Common misconception: start with the product.
-2. **True.** Competency: suitability in context.
-3. **£80.** Competency: entry/exit economics.
-4. **The ability to convert an asset into cash promptly without a substantial discount.**
-5. **A.** Competency: comparing alternatives.
-6. **False.** Diversification can reduce some risks; it cannot remove all risk.
-7. **Examples:** liquidity, fraud, custody, counterparty, concentration or taxation.
-8. **20%.** Competency: concentration.
-9. **It establishes criteria before emotional pressure arises.**
-10. **Expected:** connect the concept with objective, horizon, budget, costs, risks and a decision rule.
-
-## Competency Standard
-
-### GOLD-L1-015-COMPETENCY
-
-- **Mastery threshold:** 8 correct answers out of 10 (80%).
-- **Remediation:** revisit each weak topic, redo one numerical example and explain the decision in the learner's own words.
-- **Progression:** mastery unlocks GOLD-L1-016.
-
-## Further Reading
-
-Use current official educational, regulatory and tax sources relevant to the learner's jurisdiction. Legal, tax and consumer-protection rules should be verified before application and discussed with a suitably qualified professional where appropriate.
-
-## Lesson Path
-
-- **Previous:** GOLD-L1-014
-- **Current:** GOLD-L1-015 — Tracking Your Position Over Time
-- **Next:** GOLD-L1-016
-
-## SEO Block
-
-### GOLD-L1-015-SEO
-
-**Target terms:** position tracking, precious metals, investing, financial education, GOLD Level 1  
-**Meta description:** Understand position tracking and apply the principle to more disciplined investment decisions.
-
-## AI Support Block
-
-### GOLD-L1-015-AI
-
-The tutor should explain concepts, require reasoning, use hypothetical examples and correct misconceptions. It must not guarantee returns, predict prices or provide personalised financial, legal or tax advice.
-
-## Localisation Block
-
-### GOLD-L1-015-LOCALIZATION
-
-- **Global:** objectives, risk, costs, diversification, liquidity and discipline.
-- **United Kingdom:** use British English and pounds sterling. Tax treatment, regulation, consumer protection and product-specific rules must be checked against current UK official sources before being presented as applicable rules.
-
-## References and Verification
-
-### GOLD-L1-015-REFERENCES
-
-- General financial concepts: presented without market forecasts.
-- Monetary figures: illustrative examples.
-- UK-specific rules: current verification required before application.
-- Current market prices or statistics: not used.
+## Key Takeaways
+- Tracking an investment position over time prevents reliance on memory and supports accurate understanding of true cost.
+- A basic record should include date, quantity, price paid per unit, and total spent for each purchase.
+- Consistent tracking makes it possible to calculate true average cost per unit, connecting directly to dollar-cost averaging.

@@ -1,47 +1,98 @@
 ---
 id: PURPLE-L1-018
 track: PURPLE
-officialTrackName: "Law"
+officialTrackName: Law
 level: 1
 lessonNumber: 18
-title: "Dying Without a Will (Intestate Succession)"
-summary: "When someone dies without a valid will, their estate is generally distributed according to legally set \"intestate succession\" rules, rather than according to the deceased's personal wishes. ASSUMPTION: These rules generally follow a set order of close relatives — commonly starting with a spouse and children, then extending to more distant relatives if no close relatives exist — though the exact order varies by legal system."
-locale: "en-GB"
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+locale: en-GB
+title: "Employment Law Basics: Employee vs. Contractor, Legally"
+summary: "Revisits the employee-vs-contractor distinction from GREEN specifically through the employment law liability lens, covering the legal consequences of misclassification."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
-# PURPLE-L1-018: Dying Without a Will (Intestate Succession)
+
+# Employment Law Basics: Employee vs. Contractor, Legally
 
 ## Learning Objectives
-1. Define intestate succession in simple terms.
-2. Explain what generally happens to the property of someone who dies without a will.
-3. Recognise why intestate succession rules vary by legal system.
+
+- Recall the employee-vs-contractor distinction from GREEN.
+- Explain the additional legal (non-tax) consequences of misclassification.
+- Recognise employment law as a distinct risk area from tax misclassification.
 
 ## Core Content
-*REGION-SPECIFIC RULE:* Specific intestate succession rules vary significantly by country and region; this lesson describes only the general concept.
 
-When someone dies without a valid will, their estate is generally distributed according to legally set "intestate succession" rules, rather than according to the deceased's personal wishes. *ASSUMPTION:* These rules generally follow a set order of close relatives — commonly starting with a spouse and children, then extending to more distant relatives if no close relatives exist — though the exact order varies by legal system.
+GREEN covered the employee-versus-contractor distinction primarily through a tax lens: misclassification risks back taxes, penalties, and interest. This lesson adds the employment law dimension: misclassifying a worker also has legal consequences entirely separate from taxes — including exposure to claims for unpaid overtime, minimum wage violations, denied benefits the worker should have received, and workplace protections that apply to employees but not genuine independent contractors.
 
-## Practical Example
-*ILLUSTRATIVE EXAMPLE:* If a person dies without a will leaving a spouse and two children, intestate succession rules in many legal systems would generally divide the property among them according to a set formula — but that formula wouldn't necessarily reflect what the deceased would have specifically wanted, such as leaving more to a child with particular needs. This illustrates why many people prefer to write a will rather than rely on the default rules.
+The classification test in employment law context often considers similar factors to the tax test — degree of control over how, when, and where work is done — but the consequences of getting it wrong run on two separate tracks simultaneously: a tax authority's finding and a labour/employment claim can both arise from the exact same misclassification, compounding the total exposure. This is a clear example of why a single business decision — how to classify a worker — can create liability across multiple, entirely different areas of law at once, reinforcing why this decision deserves careful, and often professional, attention.
 
-## Practical Quiz
-1. What is intestate succession?
-2. What generally happens to the property of someone who dies without a will?
-3. True/False: Intestate succession rules are identical across all legal systems.
-4. Why might someone prefer to write a will rather than rely on intestate succession?
+For UK readers: key UK protections come from laws such as the Employment Rights Act 1996 and the Equality Act 2010, and employment status (employee, worker or self-employed) affects which rights apply, so check ACAS guidance or take advice.
+
+## Worked Example
+
+**Question:** A business misclassifies several workers as contractors when they should legally be employees. Beyond the tax consequences covered in GREEN, what additional legal exposure does this lesson identify?
+
+**Student:** Based on this lesson, there's also employment law exposure — claims for unpaid overtime, minimum wage violations, and denied benefits or workplace protections the workers should have received as employees.
+
+**Guide:** How do these two types of exposure — tax and employment law — relate to each other?
+
+**Student:** They can both arise from the exact same misclassification decision, running on separate tracks simultaneously, which compounds the total risk beyond just the tax consequences alone.
+
+**Guide:** Exactly — one decision, multiple simultaneous areas of legal exposure.
+
+
+## Practice Quiz
+
+
+**Question 1.** GREEN covered worker misclassification primarily through which lens?
+
+A) Employment law
+B) Tax
+C) Real estate law
+D) Securities law
+
+
+**Question 2.** This lesson adds which additional consequence of misclassification?
+
+A) No additional consequence exists
+B) Employment law exposure — unpaid overtime, minimum wage, denied benefits, workplace protections
+C) Only additional tax penalties
+D) Only criminal exposure
+
+
+**Question 3.** Can tax and employment law claims arise from the same misclassification simultaneously?
+
+A) No, only one can apply
+B) Yes — both can arise from the exact same decision, compounding total exposure
+C) Employment law claims never involve classification
+D) These two areas are entirely unrelated
+
+
+**Question 4.** What does this illustrate about a single business decision like worker classification?
+
+A) It only ever creates one type of risk
+B) A single decision can create liability across multiple, entirely different areas of law at once
+C) Classification decisions carry no real legal weight
+D) Only large businesses face this risk
+
 
 ## Answer Key
-1. The default legal process for distributing the property of someone who died without a will   2. It is distributed according to preset legal rules, not personal wishes   3. False   4. The default rules don't necessarily reflect the person's specific wishes
+
+1. B, 2. B, 3. B, 4. B
 
 ## Answers and Explanations
-1. This is the fundamental definition of intestate succession.
-2. This is the general consequence of dying without a valid will.
-3. Intestate succession rules vary significantly by legal system.
-4. A will allows for specific decisions that the general default rules cannot capture.
 
-## Key Points to Remember
-- Intestate succession is the default legal process when someone dies without a will.
-- Property is distributed according to preset rules, not specific personal wishes.
-- The exact rules vary significantly by country and region.
+**1.** The GREEN track's treatment centered on tax withholding and payment consequences.
+
+**2.** This lesson explicitly names the parallel employment law risks that exist independently of tax exposure.
+
+**3.** Compounding, simultaneous exposure across two legal areas is the key point this lesson adds to the earlier discussion.
+
+**4.** This is a clear, concrete illustration of how one classification decision can touch multiple legal domains at once.
+
+## Key Takeaways
+
+- GREEN covered misclassification's tax consequences; this lesson adds employment law consequences.
+- Misclassification can trigger claims for unpaid overtime, minimum wage, and denied benefits.
+- Tax and employment law exposure can both arise from the same misclassification simultaneously.
+- This is a clear example of one decision creating liability across multiple areas of law at once.
