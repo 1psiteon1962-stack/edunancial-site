@@ -1,0 +1,364 @@
+===== WHITE-L1-021
+TITLE: Was ist ein Depot? (Und worin unterscheidet es sich von einem Altersvorsorgekonto?)
+SUMMARY: Lernen Sie, was ein gewöhnliches Wertpapierdepot ist und wie es sich in Zweck und Flexibilität von einem Altersvorsorgekonto unterscheidet.
+# Was ist ein Depot? (Und worin unterscheidet es sich von einem Altersvorsorgekonto?)
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- ein Wertpapierdepot in einfachen Worten definieren können.
+- erklären können, wie es sich von einem Altersvorsorgekonto wie einem 401(k) oder IRA unterscheidet.
+- den grundlegenden Zielkonflikt zwischen Flexibilität und Steuervorteilen erklären können.
+
+## Kerninhalt
+
+### Was ein Depot ist
+
+Ein Wertpapierdepot (in den USA "brokerage account") ist ein gewöhnliches Anlagekonto, über das eine Person Aktien, Anleihen, ETFs und andere Papiervermögenswerte kaufen und verkaufen kann – ohne die speziellen, auf den Ruhestand ausgerichteten Steuerregeln eines 401(k) oder IRA.
+
+### Wie es sich von einem Altersvorsorgekonto unterscheidet
+
+Anders als Altersvorsorgekonten bietet ein gewöhnliches Depot in der Regel keine besonderen Steuervorteile, aber auch keine Beschränkungen, wann Geld entnommen werden kann: volle Flexibilität, jederzeit Geld einzuzahlen oder abzuziehen.
+
+### Der Zielkonflikt zwischen Flexibilität und Steuervorteil
+
+Altersvorsorgekonten tauschen etwas Flexibilität (oft ein eingeschränkter Zugriff vor einem bestimmten Alter) gegen echte Steuervorteile. Depots tauschen diese Steuervorteile gegen volle Flexibilität. Viele Anleger nutzen beides, für unterschiedliche Zwecke.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger, der gezielt für einen Ruhestand in Jahrzehnten spart, könnte wegen der Steuervorteile einem 401(k) oder IRA Vorrang geben. Derselbe Anleger, der für ein Ziel in den nächsten Jahren spart und flexiblen Zugriff braucht, könnte stattdessen ein gewöhnliches Depot nutzen.
+
+## Übungsquiz
+
+1. Ein Depot ist:
+   A. ausschließlich für die Altersvorsorge gedacht
+   B. ein gewöhnliches Anlagekonto ohne altersvorsorgespezifische Steuerregeln
+   C. eine Art Sparbrief
+   D. nur für Arbeitgeber verfügbar
+
+2. Richtig oder falsch: Ein gewöhnliches Depot hat dieselben Entnahmebeschränkungen wie ein 401(k).
+
+3. Was ist der grundlegende Zielkonflikt zwischen Altersvorsorgekonten und gewöhnlichen Depots?
+   A. Es gibt keinen Zielkonflikt
+   B. Steuervorteile und eingeschränkter Zugriff gegenüber voller Flexibilität mit weniger Steuervorteilen
+   C. Depots sind illegal
+   D. Altersvorsorgekonten haben überhaupt keine Steuervorteile
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Depot ist ein gewöhnliches, flexibles Anlagekonto.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Depots erlauben in der Regel jederzeit Entnahmen, anders als Altersvorsorgekonten.
+
+### Frage 3
+
+Richtige Antwort: B. Das ist der zentrale Zielkonflikt zwischen den beiden Kontoarten.
+
+## Wichtigste Erkenntnisse
+
+- Ein Depot ist ein gewöhnliches Anlagekonto ohne altersvorsorgespezifische Regeln.
+- Es bietet volle Flexibilität, aber in der Regel keine besonderen Steuervorteile.
+- Altersvorsorgekonten tauschen etwas Flexibilität gegen echte Steuervorteile.
+
+===== WHITE-L1-022
+TITLE: Was ist der Cost-Average-Effekt?
+SUMMARY: Lernen Sie, was der Cost-Average-Effekt (Durchschnittskosteneffekt) ist und warum regelmäßiges Investieren eines festen Betrags Preisschwankungen glätten kann.
+# Was ist der Cost-Average-Effekt?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- den Cost-Average-Effekt in einfachen Worten definieren können.
+- erklären können, wie er mit Preisschwankungen zusammenwirkt.
+- ihn als Strategie erkennen können, nicht als Gewinngarantie.
+
+## Kerninhalt
+
+### Was der Cost-Average-Effekt ist
+
+Beim Cost-Average-Effekt (englisch "dollar-cost averaging") investiert man in regelmäßigen Abständen (etwa monatlich) einen festen Geldbetrag, unabhängig vom aktuellen Preis, statt eine große Summe auf einmal anzulegen – zum Beispiel über einen Sparplan.
+
+### Wie er mit Schwankungen zusammenwirkt
+
+Weil der Anlagebetrag fest bleibt, werden bei niedrigeren Preisen mehr Anteile und bei höheren Preisen weniger Anteile gekauft – dadurch mittelt sich der Kaufpreis im Laufe der Zeit ganz von selbst, ohne dass der Anleger Kursbewegungen vorhersagen muss.
+
+### Keine Garantie
+
+Der Cost-Average-Effekt garantiert keinen Gewinn und schützt nicht vor Verlusten – er ist ein disziplinierter Ansatz, über die Zeit zu investieren, kein Weg, Risiko vollständig zu beseitigen.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger investiert jeden Monat 200 $. Ist der Preis niedrig, kauft er mit diesen 200 $ mehr Anteile; ist der Preis hoch, weniger – über ein Jahr ergibt sich so ein durchschnittlicher Kaufpreis, ohne dass der Anleger den Markt timen muss.
+
+## Übungsquiz
+
+1. Der Cost-Average-Effekt bedeutet:
+   A. eine große Summe auf einmal zu investieren
+   B. in regelmäßigen Abständen einen festen Betrag zu investieren, unabhängig vom Preis
+   C. nur zu investieren, wenn die Preise niedrig sind
+   D. alle Papiervermögenswerte zu meiden
+
+2. Richtig oder falsch: Der Cost-Average-Effekt garantiert einen Gewinn.
+
+3. Was passiert beim Cost-Average-Effekt mit der Zahl der gekauften Anteile, wenn der Preis niedriger ist?
+   A. Es werden weniger Anteile gekauft
+   B. Für denselben festen Betrag werden mehr Anteile gekauft
+   C. Es werden gar keine Anteile gekauft
+   D. Der Anlagebetrag steigt automatisch
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Fester Betrag, regelmäßige Abstände, unabhängig vom Preis.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Es ist eine disziplinierte Strategie, keine Garantie.
+
+### Frage 3
+
+Richtige Antwort: B. Ein fester Betrag kauft mehr Anteile, wenn der Preis niedriger ist.
+
+## Wichtigste Erkenntnisse
+
+- Der Cost-Average-Effekt bedeutet, in regelmäßigen Abständen einen festen Betrag zu investieren.
+- Er kauft bei niedrigen Preisen ganz von selbst mehr Anteile, bei hohen weniger.
+- Er ist eine disziplinierte Strategie, keine Garantie gegen Verluste.
+
+===== WHITE-L1-023
+TITLE: Was ist ein Aktiensplit?
+SUMMARY: Lernen Sie, was ein Aktiensplit am Wert eines Unternehmens ändert und was nicht.
+# Was ist ein Aktiensplit?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- einen Aktiensplit in einfachen Worten definieren können.
+- erklären können, was sich bei einem Split ändert und was nicht.
+- eine einfache Anteilszahl und einen Preis nach dem Split berechnen können.
+
+## Kerninhalt
+
+### Was ein Aktiensplit ist
+
+Bei einem Aktiensplit wird jede bestehende Aktie in mehrere neue Aktien aufgeteilt; dadurch sinkt der Preis pro Aktie proportional, während die Zahl der ausstehenden Aktien steigt.
+
+### Was sich ändert und was nicht
+
+Die Zahl der Aktien eines Anlegers steigt, und der Preis pro Aktie sinkt proportional. Was sich NICHT ändert: der Gesamtwert der Beteiligung des Anlegers und die gesamte Marktkapitalisierung des Unternehmens – der Kuchen wird in mehr Stücke geschnitten, aber der Kuchen selbst bleibt gleich groß.
+
+### Warum Unternehmen das tun
+
+Unternehmen teilen ihre Aktien manchmal, um den Preis pro Aktie in einen für Anleger zugänglicheren Bereich zu bringen, obwohl sich der zugrunde liegende Wert des Unternehmens dadurch überhaupt nicht ändert.
+
+## Durchgerechnetes Beispiel
+
+Ein Anleger mit 10 Aktien zu je 100 $ (insgesamt 1.000 $) erlebt einen Split im Verhältnis 2:1. Er besitzt nun 20 Aktien zu je 50 $ – weiterhin insgesamt 1.000 $, nur auf mehr, günstigere Aktien verteilt.
+
+## Übungsquiz
+
+1. Ein Aktiensplit:
+   A. erhöht den gesamten Marktwert eines Unternehmens
+   B. teilt bestehende Aktien in mehr Aktien zu einem proportional niedrigeren Preis auf
+   C. verringert die Zahl der ausstehenden Aktien
+   D. verändert das zugrunde liegende Geschäft des Unternehmens
+
+2. Richtig oder falsch: Ein Aktiensplit verändert den Gesamtwert der Beteiligung eines Anlegers.
+
+3. Ein Anleger besitzt 5 Aktien zu je 200 $. Wie viele Aktien besitzt er nach einem Split im Verhältnis 2:1, und zu welchem Preis?
+   A. 5 Aktien zu 400 $
+   B. 10 Aktien zu 100 $
+   C. 2,5 Aktien zu 200 $
+   D. 10 Aktien zu 200 $
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Split teilt Aktien proportional auf, ohne den Gesamtwert zu verändern.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Der Gesamtwert der Beteiligung bleibt unmittelbar nach einem Split gleich.
+
+### Frage 3
+
+Richtige Antwort: B. 5 Aktien × 2 = 10 Aktien; 200 $ ÷ 2 = 100 $ pro Aktie.
+
+## Wichtigste Erkenntnisse
+
+- Ein Aktiensplit teilt Aktien in mehr Aktien zu einem proportional niedrigeren Preis auf.
+- Gesamtwert der Beteiligung und Marktkapitalisierung ändern sich durch den Split selbst nicht.
+- Unternehmen teilen Aktien vor allem, um den Preis pro Aktie zugänglicher zu machen.
+
+===== WHITE-L1-024
+TITLE: Was sind Bruchstücke von Aktien?
+SUMMARY: Lernen Sie, was Bruchstücke von Aktien sind, wie sie die Einstiegshürde senken und wie man mit ihnen das Risiko für Anfänger angemessen bemessen kann.
+# Was sind Bruchstücke von Aktien?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- ein Aktienbruchstück in einfachen Worten definieren können.
+- das Zugänglichkeitsproblem erklären können, das Bruchstücke lösen.
+- erklären können, wie man mit Bruchstücken das Risiko gezielt bemessen kann – nicht nur, um sich eine teure Aktie leisten zu können.
+
+## Kerninhalt
+
+### Was Bruchstücke von Aktien sind
+
+Ein Aktienbruchstück (englisch "fractional share") ist ein Teil einer einzelnen Aktie, kleiner als eine ganze Aktie, sodass ein Anleger weniger als eine volle Aktie auf einmal kaufen kann.
+
+### Das Zugänglichkeitsproblem, das sie lösen
+
+Bevor Bruchstücke weit verbreitet waren, brauchte ein Anleger genug Geld, um mindestens eine volle Aktie zu kaufen – eine echte Hürde bei teureren Aktien. Bruchstücke ermöglichen es einem Anleger mit einem kleineren Betrag, trotzdem ein anteiliges Engagement in derselben Aktie zu erhalten.
+
+### Eine zweite, weniger offensichtliche Nutzung: Risiko bewusst bemessen
+
+Fragen Sie sich: Wenn Sie jemandem zum ersten Mal das Investieren beibringen – vielleicht einem jungen Menschen mit sehr wenig Geld –, worin liegt die eigentliche Gefahr? Nicht nur darin, „sich keine Aktie leisten zu können“. Sondern in der Möglichkeit eines Verlusts, der groß genug ist, um wirklich zu schaden. Ein Elternteil, das einem Teenager das Investieren beibringt, könnte zum Beispiel gezielt ein Konto mit Bruchstücken nutzen, damit ein echter Verlust klein genug bleibt, um eine echte Lektion zu sein – und keine Katastrophe. Die Größe der Position ist eine bewusste Entscheidung, nicht nur das, was man sich leisten kann.
+
+## Durchgerechnetes Beispiel
+
+Stellen Sie sich ein Elternteil vor, das für seinen jugendlichen Sohn ein kleines Konto mit Aktienbruchstücken eröffnet. Warum Bruchstücke, statt zu warten, bis er sich eine ganze Aktie leisten kann? Nicht nur, damit er technisch gesehen ein Stück einer teuren Aktie besitzen kann – sondern damit ein Verlust, falls die Anlage an Wert verliert, klein genug wäre, um ihn wirklich zu verkraften und daraus zu lernen, statt ihn ernsthaft zurückzuwerfen. Die Lektion war nicht nur „Du kannst es dir jetzt leisten zu investieren“ – sondern „Du kannst es dir leisten, dich zu irren, und zwar sicher, solange du noch lernst“.
+
+## Übungsquiz
+
+1. Ein Aktienbruchstück ist:
+   A. eine ganze Aktie
+   B. ein Teil einer einzelnen Aktie, kleiner als eine ganze Aktie
+   C. eine Art Anleihe
+   D. eine garantierte Dividendenzahlung
+
+2. Richtig oder falsch: Bei Aktienbruchstücken muss ein Anleger genug Geld für mindestens eine volle Aktie haben.
+
+3. Welcher andere echte Grund kann – über die Bezahlbarkeit hinaus – dafür sprechen, für einen Anfänger Bruchstücke zu wählen?
+   A. Einen Gewinn zu garantieren
+   B. Die Position so zu bemessen, dass ein möglicher Verlust klein genug bleibt, um eine sichere, echte Lektion zu sein
+   C. Niemals Geld zu verlieren
+   D. Jegliche Recherche überflüssig zu machen
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Aktienbruchstück ist weniger als eine ganze Aktie.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Bruchstücke beseitigen genau diese Voraussetzung.
+
+### Frage 3
+
+Richtige Antwort: B. Eine Position so zu bemessen, dass ein Verlust verkraftbar und lehrreich statt schädlich ist, ist eine bewusste, praktische Nutzung von Bruchstücken.
+
+## Wichtigste Erkenntnisse
+
+- Ein Aktienbruchstück ist ein Teil einer ganzen Aktie.
+- Es beseitigt die Hürde, für eine Anlage den Preis einer vollen Aktie zu brauchen.
+- Es kann auch gezielt genutzt werden, um eine Position so zu bemessen, dass das Risiko angemessen bleibt – besonders wichtig, wenn man einem Anfänger etwas beibringt.
+
+===== WHITE-L1-025
+TITLE: Was ist das Ergebnis je Aktie (EPS)?
+SUMMARY: Lernen Sie, was das Ergebnis je Aktie (EPS) misst und wie es berechnet wird – als Grundlage für spätere Lektionen zur Bewertung.
+# Was ist das Ergebnis je Aktie (EPS)?
+
+## Lernziele
+
+Am Ende dieser Lektion sollten Sie:
+
+- die EPS-Formel angeben können.
+- ein einfaches EPS aus Jahresüberschuss und ausstehenden Aktien berechnen können.
+- erklären können, was das EPS in einfachen Worten darstellt.
+
+## Kerninhalt
+
+### Die EPS-Formel
+
+Ergebnis je Aktie (EPS, englisch "earnings per share") = Jahresüberschuss ÷ ausstehende Aktien. Es verteilt den Gesamtgewinn eines Unternehmens auf jede einzelne Aktie.
+
+### Was das EPS darstellt
+
+Das EPS zeigt, wie viel Gewinn auf jede einzelne Aktie entfällt – eine Möglichkeit, den Gesamtgewinn eines Unternehmens pro Aktie auszudrücken, was den Vergleich zwischen Unternehmen unterschiedlicher Größe erleichtert.
+
+### Warum das für später wichtig ist
+
+Das EPS ist die Grundlage für mehrere Bewertungskonzepte, die in Level 2 ausführlicher behandelt werden – wer jetzt versteht, was es misst, ist für diesen späteren Stoff vorbereitet.
+
+## Durchgerechnetes Beispiel
+
+Ein Unternehmen mit 5.000.000 $ Jahresüberschuss und 1.000.000 ausstehenden Aktien hat ein EPS von 5.000.000 $ ÷ 1.000.000 = 5,00 $ pro Aktie.
+
+## Übungsquiz
+
+1. Das EPS wird berechnet als:
+   A. Aktienkurs ÷ Jahresüberschuss
+   B. Jahresüberschuss ÷ ausstehende Aktien
+   C. Gesamtumsatz ÷ Gesamtaufwand
+   D. Ausstehende Aktien ÷ Jahresüberschuss
+
+2. Richtig oder falsch: Das EPS stellt den Gesamtgewinn eines Unternehmens dar, keine Kennzahl pro Aktie.
+
+3. Ein Unternehmen hat 2.000.000 $ Jahresüberschuss und 500.000 ausstehende Aktien. Wie hoch ist sein EPS?
+   A. 0,25 $
+   B. 2,50 $
+   C. 4,00 $
+   D. 250 $
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. C
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. EPS = Jahresüberschuss ÷ ausstehende Aktien.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Das EPS drückt den Gewinn gezielt pro Aktie aus.
+
+### Frage 3
+
+Richtige Antwort: C. 2.000.000 $ ÷ 500.000 = 4,00 $.
+
+## Wichtigste Erkenntnisse
+
+- EPS = Jahresüberschuss ÷ ausstehende Aktien.
+- Es drückt den Gewinn eines Unternehmens pro Aktie aus.
+- Es ist grundlegend für Bewertungskonzepte, die später ausführlicher behandelt werden.
