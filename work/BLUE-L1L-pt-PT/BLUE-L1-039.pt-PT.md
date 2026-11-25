@@ -46,7 +46,7 @@ Principiante (Nível 1)
 ## Conteúdo principal
 
 ### Tema 1: O que é um sistema de negócio
-Um sistema de negócio é um processo documentado e repetível para lidar com uma função específica do negócio (como receber um novo cliente, atender uma encomenda ou tratar uma reclamação), pensado para que possa ser feito de forma consistente por outra pessoa que não o dono.
+Um sistema de negócio é um processo documentado e repetível para lidar com uma função específica do negócio (como receber um novo cliente, processar uma encomenda ou tratar uma reclamação), pensado para que possa ser feito de forma consistente por outra pessoa que não o dono.
 
 ### Tema 2: Porque é que "o próprio dono" não pode ser o negócio inteiro para sempre
 Recorde BLUE-L1-038: o crescimento por conta própria bate num teto rígido, baseado em horas. Se cada tarefa depende de o dono fazê-la pessoalmente (lembrar, executar, verificar), o negócio nunca vai crescer além do que as horas de uma pessoa permitem fisicamente, seja qual for a procura.
