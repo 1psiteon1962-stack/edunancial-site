@@ -105,3 +105,4 @@ Status:
 - 2026-11-25 BLUE L1 021-050 long-format de/it/nl/pt-BR/pt-PT MERGED (PR 1659). ORANGE L1: en-GB auto draft done (work/ORANGE-L1-en-GB), de b01-b02 done; next de b03.. then it, nl, pt-BR, pt-PT (br2pt), place via place1 (copy dirs into work/fix or similar), one PR.
 - ORANGE L1 de COMPLETE (b01-b10, hedged DE notes 009/030/031). en-GB COMPLETE. Next: it, nl, pt-BR, pt-PT.
 - ORANGE L1 pt-BR COMPLETE, pt-PT COMPLETE (derived; tools/orange_pt.py). Remaining: it, nl. Then place all 6 via place1-style into site, one PR.
+- ORANGE L1 it COMPLETE. Remaining: nl. Then place all 6 locales.
