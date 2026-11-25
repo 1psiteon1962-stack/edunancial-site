@@ -1,0 +1,399 @@
+===== GREEN-L1-016
+TITLE: Dedução padrão ou deduções detalhadas?
+SUMMARY: Explica as duas formas mais comuns de usar deduções: um valor padrão fixo ou o detalhamento das despesas dedutíveis de fato.
+# Dedução padrão ou deduções detalhadas?
+
+## Objetivos de aprendizagem
+
+- Explicar o que é uma dedução padrão.
+- Explicar o que significa detalhar as deduções.
+- Identificar a lógica básica para escolher entre as duas.
+
+## Conteúdo principal
+
+Muitos sistemas tributários dão ao contribuinte uma escolha: usar uma dedução padrão, um valor fixo a que todos têm direito, sem precisar de comprovantes, ou detalhar as deduções, ou seja, listar e somar uma a uma as despesas dedutíveis de fato (como certos juros, doações ou despesas médicas, conforme as regras do sistema). Nos EUA, isso se chama "standard deduction" e "itemized deductions". (No Brasil, a lógica é parecida com a escolha, na declaração do IRPF, entre o desconto simplificado e as deduções legais da declaração completa; os limites mudam.)
+
+A lógica básica da decisão é simples: se o total das deduções detalhadas for maior que a dedução padrão, detalhar economiza mais dinheiro. Se não for, a dedução padrão é mais simples e tão eficaz financeiramente quanto. Como a dedução padrão não exige comprovantes, muita gente fica com ela por padrão, a menos que tenha um motivo específico, como uma doação grande ou despesas dedutíveis relevantes, para detalhar.
+
+## Exemplo prático
+
+**Pergunta:** As despesas dedutíveis de uma pessoa no ano somam menos que o valor da dedução padrão. Ela deve detalhar?
+
+**Aluno:** Provavelmente não, porque detalhar dá mais trabalho sem nenhum benefício extra.
+
+**Guia:** Isso. Qual é a regra geral para escolher?
+
+**Aluno:** Comparar o total detalhado com a dedução padrão e escolher o que for maior.
+
+**Guia:** Exatamente: é uma comparação simples, e não uma questão de preferência.
+
+## Teste de prática
+
+**Pergunta 1.** Uma dedução padrão é:
+
+A) Um valor fixo que não exige comprovação detalhada
+B) Disponível só para empresas
+C) O mesmo que um crédito tributário
+D) Proibida na maioria dos países
+
+**Pergunta 2.** Detalhar as deduções significa:
+
+A) Usar o valor padrão fixo
+B) Listar e somar as despesas dedutíveis de fato
+C) Não pagar nenhum imposto
+D) Abrir mão de todas as deduções
+
+**Pergunta 3.** A regra básica para escolher entre as duas é:
+
+A) Sempre detalhar
+B) Sempre usar a dedução padrão
+C) Escolher a que gera a maior dedução
+D) Tirar cara ou coroa
+
+**Pergunta 4.** Por que alguém pode deixar de detalhar mesmo que, em tese, possa?
+
+A) Porque é ilegal
+B) Porque o total detalhado é menor que a dedução padrão, ou a papelada não compensa o pequeno ganho
+C) Porque deduções padrão não existem
+D) Porque detalhar é sempre obrigatório
+
+## Gabarito
+
+1. A, 2. B, 3. C, 4. B
+
+## Respostas e explicações
+
+**1.** A dedução padrão é um valor fixo, sem exigência de comprovantes, que existe em muitos sistemas tributários.
+
+**2.** Detalhar significa somar as despesas dedutíveis de fato, em vez de usar o valor fixo.
+
+**3.** A decisão se resume a uma comparação simples: o maior número vence.
+
+**4.** Quando o total detalhado não passa da dedução padrão, a papelada extra não traz benefício financeiro.
+
+## Pontos-chave
+
+- A dedução padrão é um valor fixo e simples, sem exigência de comprovantes.
+- Detalhar significa, em vez disso, somar as despesas dedutíveis de fato.
+- Escolha a opção que gera a maior dedução.
+- A maioria das pessoas fica com a dedução padrão, a menos que tenha um motivo claro para detalhar.
+
+===== GREEN-L1-017
+TITLE: Créditos tributários comuns para pessoas físicas
+SUMMARY: Um panorama das categorias gerais de créditos tributários que as pessoas físicas costumam encontrar, mantido no nível dos conceitos, e não preso aos programas de um só país.
+# Créditos tributários comuns para pessoas físicas
+
+## Objetivos de aprendizagem
+
+- Identificar categorias comuns de créditos tributários para pessoas físicas.
+- Explicar por que os créditos costumam visar objetivos de política pública específicos.
+- Reconhecer que a disponibilidade e o valor dos créditos variam muito entre países e mudam com o tempo.
+
+## Conteúdo principal
+
+Os governos usam créditos tributários com frequência para incentivar comportamentos específicos ou apoiar grupos específicos, em vez de só aumentar ou reduzir a arrecadação de forma igual para todos. As categorias mais comuns, em termos gerais, incluem: créditos ligados a ter e criar filhos ou dependentes, créditos ligados a despesas com educação, créditos para melhorias de eficiência energética na casa e créditos voltados a trabalhadores ou famílias de renda mais baixa. (No Brasil, o imposto de renda da pessoa física usa mais deduções do que créditos, e muitos incentivos aparecem em outros formatos; as regras mudam.)
+
+Os nomes, valores e regras de elegibilidade desses créditos variam enormemente de país para país e mudam com frequência, conforme as prioridades políticas se transformam. A lição duradoura não é um crédito específico, mas o padrão: quando um governo quer incentivar um comportamento (como educação, melhorias na casa própria ou trabalho em vez de dependência de assistência) sem proibir a alternativa, o crédito tributário é uma ferramenta comum de política pública. Reconhecer esse padrão ajuda você a entender novos créditos que vai encontrar no futuro, até os que ainda nem existem.
+
+## Exemplo prático
+
+**Pergunta:** Um governo quer incentivar mais proprietários a instalar painéis solares, sem tornar isso obrigatório. Que ferramenta ele poderia usar?
+
+**Aluno:** Pelo padrão desta lição, provavelmente um crédito tributário ligado à instalação de painéis solares.
+
+**Guia:** Por que um crédito, e não, por exemplo, um pagamento direto ou uma obrigação?
+
+**Aluno:** Um crédito funciona dentro do sistema tributário que já existe, reduz a conta dólar por dólar e incentiva o comportamento sem forçá-lo.
+
+**Guia:** Exatamente: essa é a lógica geral por trás da maioria dos créditos baseados em incentivos.
+
+## Teste de prática
+
+**Pergunta 1.** Os governos costumam usar créditos tributários para:
+
+A) Redistribuir a riqueza ao acaso, sem objetivo
+B) Incentivar comportamentos específicos ou apoiar grupos específicos
+C) Acabar com todas as formas de tributação
+D) Beneficiar só grandes empresas
+
+**Pergunta 2.** Entre as categorias de créditos citadas nesta lição estão:
+
+A) Dependentes, educação, eficiência energética e apoio a trabalhadores de renda mais baixa
+B) Só artigos de luxo
+C) Só investimentos no exterior
+D) Só heranças
+
+**Pergunta 3.** Os nomes e valores específicos dos créditos continuam iguais entre países e ao longo do tempo?
+
+A) Sim, sempre
+B) Não: eles variam muito e mudam com frequência
+C) Só nos países ricos
+D) Eles nunca existiram na história
+
+**Pergunta 4.** A lição duradoura deste tema é:
+
+A) Decorar todos os créditos
+B) Reconhecer o padrão geral de usar créditos para incentivar comportamentos
+C) Os créditos não importam
+D) Só empresas recebem créditos
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os créditos muitas vezes são ferramentas de política pública, e não só ajustes neutros na arrecadação.
+
+**2.** Dependentes, educação, eficiência energética e apoio à renda são categorias de créditos citadas com frequência em muitos sistemas.
+
+**3.** Os programas de crédito estão entre as partes da legislação tributária que mais mudam, então os detalhes precisam ser conferidos nas regras atuais.
+
+**4.** Reconhecer o padrão de incentivo permite entender os novos créditos que você vai encontrar no futuro.
+
+## Pontos-chave
+
+- Os créditos tributários costumam funcionar como incentivos a comportamentos específicos ou apoio a grupos específicos.
+- As categorias comuns incluem dependentes, educação, eficiência energética e apoio à renda.
+- Os créditos específicos variam muito entre países e mudam com frequência.
+- A habilidade transferível é reconhecer o padrão de incentivo, e não decorar um crédito específico.
+
+===== GREEN-L1-018
+TITLE: Situação na declaração: solteiro, casado, chefe de família
+SUMMARY: Apresenta o conceito de situação na declaração e explica por que o estado civil e a composição da família podem afetar o cálculo do imposto.
+# Situação na declaração: solteiro, casado, chefe de família
+
+## Objetivos de aprendizagem
+
+- Explicar o que é a situação na declaração.
+- Identificar as categorias mais comuns.
+- Explicar, em termos gerais, por que a situação na declaração pode afetar o resultado do imposto.
+
+## Conteúdo principal
+
+A situação na declaração (nos EUA, "filing status") é uma categoria, baseada no seu estado civil e na composição da sua família, que muitos sistemas tributários usam para definir quais faixas, valores de dedução e regras de elegibilidade se aplicam a você. As categorias mais comuns são solteiro, casado (às vezes com a opção de declarar em conjunto ou separadamente) e chefe de família (em geral, uma pessoa não casada que sustenta dependentes). (No Brasil, a declaração do IRPF pode ser individual ou incluir o cônjuge e dependentes, e cada escolha muda o cálculo; as regras mudam com o tempo.)
+
+A situação na declaração importa porque muda o cálculo de fundo: a mesma renda pode resultar em um imposto diferente conforme a categoria, porque os limites das faixas e os valores da dedução padrão muitas vezes são definidos de forma diferente para cada uma. Isso não é uma brecha nem um truque; reflete uma avaliação de política pública de que a composição da família afeta a real capacidade de uma pessoa ou família de pagar imposto.
+
+## Exemplo prático
+
+**Pergunta:** Duas pessoas ganham exatamente o mesmo salário, mas uma é solteira e a outra sustenta dois filhos como chefe de família. Você esperaria que o cálculo do imposto delas fosse igual?
+
+**Aluno:** Provavelmente não, porque a situação na declaração muda quais faixas e valores de dedução se aplicam.
+
+**Guia:** Por que o sistema tributário trataria o caso do chefe de família de forma diferente?
+
+**Aluno:** Porque sustentar dependentes afeta quanto dessa renda sobra de verdade para as necessidades da própria pessoa, e a política leva isso em conta.
+
+**Guia:** Isso: a situação na declaração reflete uma avaliação da capacidade financeira, e não só a renda bruta.
+
+## Teste de prática
+
+**Pergunta 1.** A situação na declaração se baseia em:
+
+A) Seu cargo no trabalho
+B) Seu estado civil e a composição da sua família
+C) Só a sua idade
+D) Seu país de nascimento
+
+**Pergunta 2.** As categorias mais comuns incluem:
+
+A) Solteiro, casado, chefe de família
+B) Só "empregado" e "desempregado"
+C) Só "rico" e "pobre"
+D) Só "cidadão" e "não cidadão"
+
+**Pergunta 3.** A situação na declaração pode afetar:
+
+A) Nada
+B) As faixas e os valores de dedução aplicáveis
+C) Só o seu nome no formulário
+D) Só o imposto sobre vendas
+
+**Pergunta 4.** O motivo de a situação na declaração importar costuma ser descrito como:
+
+A) Uma brecha
+B) Um reflexo das diferenças de capacidade financeira conforme a composição da família
+C) Puro acaso
+D) Irrelevante para o cálculo do imposto
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As categorias são construídas em torno do estado civil e das responsabilidades familiares.
+
+**2.** Solteiro, casado e chefe de família são categorias muito usadas, embora os nomes exatos variem de país para país.
+
+**3.** Categorias diferentes muitas vezes vêm com limites de faixa e valores de dedução diferentes.
+
+**4.** A justificativa de política pública é que a composição da família afeta a capacidade financeira real, e não que se trate de um truque ou de uma brecha.
+
+## Pontos-chave
+
+- A situação na declaração reflete o estado civil e a composição da família.
+- As categorias comuns incluem solteiro, casado e chefe de família.
+- A situação na declaração afeta as faixas e os valores de dedução aplicáveis.
+- Isso reflete avaliações de política pública sobre capacidade financeira, e não uma brecha.
+
+===== GREEN-L1-019
+TITLE: O que é a declaração de imposto de renda, e por que se declara?
+SUMMARY: Explica o propósito da declaração de imposto: confrontar os pagamentos estimados com o imposto realmente devido no ano.
+# O que é a declaração de imposto de renda, e por que se declara?
+
+## Objetivos de aprendizagem
+
+- Definir a declaração de imposto em termos simples.
+- Explicar o propósito de ajuste da declaração.
+- Ligar a declaração à lição anterior sobre retenção.
+
+## Conteúdo principal
+
+A declaração de imposto é um documento que você entrega ao governo informando sua renda, suas deduções, seus créditos e o imposto que, pelo seu cálculo, você deve no ano. Declarar é a forma de confrontar o sistema baseado em estimativas (a retenção, vista antes) com o número real e final. (No Brasil, é a Declaração de Ajuste Anual do IRPF, entregue à Receita Federal; quem é obrigado a declarar depende de critérios que mudam todo ano.)
+
+Pense nela como um acerto de contas de fim de ano. Ao longo do ano, o imposto foi retido ou foram feitos pagamentos estimados com base em projeções. A declaração soma o que de fato aconteceu (a renda realmente ganha, as deduções e os créditos realmente usados) e calcula o valor verdadeiro devido. Se o total já pago for maior que esse valor, você recebe uma restituição. Se for menor, você deve a diferença. Declarar não é burocracia sem sentido; na maioria dos sistemas, é o ato exigido por lei que encerra a sua obrigação tributária do ano.
+
+## Exemplo prático
+
+**Pergunta:** Se um trabalhador teve imposto retido o ano todo e nunca declara, a obrigação tributária dele está oficialmente encerrada?
+
+**Aluno:** Eu diria que não, porque a retenção era só uma estimativa.
+
+**Guia:** O que a declaração faz que a retenção sozinha não faz?
+
+**Aluno:** Ela calcula o número final verdadeiro com base em tudo o que aconteceu no ano e compara com o que já foi pago.
+
+**Guia:** Isso: a declaração é a etapa de ajuste e, na maioria dos sistemas, é exigida por lei, e não opcional.
+
+## Teste de prática
+
+**Pergunta 1.** A declaração de imposto é mais bem descrita como:
+
+A) Uma sugestão voluntária
+B) Um documento que informa renda, deduções e créditos para calcular o imposto devido
+C) O mesmo que a retenção
+D) Só para empresas
+
+**Pergunta 2.** Declarar serve principalmente para:
+
+A) Confrontar os pagamentos estimados com o imposto realmente devido
+B) Substituir totalmente a retenção
+C) Evitar todos os impostos
+D) Valer só para autônomos
+
+**Pergunta 3.** Se os valores retidos forem maiores que o imposto realmente devido, o resultado típico é:
+
+A) Uma multa
+B) Uma restituição
+C) Nada
+D) Uma fiscalização automática
+
+**Pergunta 4.** Na maioria dos sistemas, declarar costuma ser opcional?
+
+A) Sim, sempre opcional
+B) Não, normalmente é uma exigência legal
+C) Só para os ricos
+D) Só para empresas
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A declaração informa o quadro financeiro completo necessário para calcular a obrigação tributária real.
+
+**2.** A função central da declaração é comparar o que já foi pago com o que é realmente devido.
+
+**3.** A retenção a mais, depois de confrontada na declaração, volta como restituição.
+
+**4.** Na maioria dos sistemas, declarar é uma obrigação legal, e não uma gentileza.
+
+## Pontos-chave
+
+- A declaração de imposto informa renda, deduções e créditos para calcular o imposto realmente devido.
+- A declaração confronta os pagamentos estimados (como a retenção) com o imposto real.
+- Pagar a mais gera restituição; pagar a menos gera imposto a pagar.
+- Declarar normalmente é uma exigência legal, e não uma opção.
+
+===== GREEN-L1-020
+TITLE: Restituição do imposto: por que receber uma nem sempre é uma vitória
+SUMMARY: Dá outra perspectiva ao entusiasmo comum com a restituição do imposto, explicando o que ela representa de fato do ponto de vista financeiro.
+# Restituição do imposto: por que receber uma nem sempre é uma vitória
+
+## Objetivos de aprendizagem
+
+- Explicar o que uma restituição do imposto realmente representa.
+- Avaliar a troca envolvida em ter retenção a mais durante o ano.
+- Ver "receber uma restituição grande" como uma decisão de finanças pessoais, e não automaticamente como boa notícia.
+
+## Conteúdo principal
+
+A restituição do imposto parece um dinheiro inesperado, mas é importante entender o que ela realmente é: o seu próprio dinheiro, devolvido a você, que você pagou a mais ao longo do ano por meio da retenção ou de pagamentos estimados. Não é um bônus nem um presente do governo: é um empréstimo sem juros que você fez ao governo e que agora está sendo devolvido.
+
+Isso importa porque esse dinheiro ficou com o governo o ano inteiro, em vez de estar disponível para você poupar, pagar dívidas ou render juros em uma conta sua. Uma restituição muito grande costuma indicar que a retenção estava alta demais em relação ao imposto realmente devido. Algumas pessoas preferem uma restituição grande mesmo assim, usando-a como uma forma de poupança forçada, e essa é uma escolha pessoal legítima, mas deve ser uma escolha consciente, e não um mal-entendido sobre o que está acontecendo.
+
+## Exemplo prático
+
+**Pergunta:** Um trabalhador está animado com uma restituição anual grande e diz que é "dinheiro de graça". Como você explicaria isso de outra forma?
+
+**Aluno:** Eu mostraria que não é de graça: é o próprio dinheiro dele, pago a mais o ano todo, que só agora está voltando.
+
+**Guia:** Do que ele abriu mão ao deixar esse dinheiro ser retido em vez de ficar com ele?
+
+**Aluno:** Da chance de usar ou investir esse dinheiro ao longo do ano: ele ficou com o governo, basicamente como um empréstimo sem juros.
+
+**Guia:** Exatamente: a restituição em si não é ruim, mas chamá-la de "dinheiro de graça" é entender errado o que aconteceu.
+
+## Teste de prática
+
+**Pergunta 1.** Uma restituição do imposto representa:
+
+A) Um presente do governo
+B) O seu próprio dinheiro pago a mais sendo devolvido
+C) Uma multa
+D) Um empréstimo do governo para você
+
+**Pergunta 2.** Uma restituição muito grande costuma indicar:
+
+A) Um planejamento tributário perfeito
+B) Retenção alta demais em relação ao imposto realmente devido
+C) Um aumento de impostos
+D) Nada relevante
+
+**Pergunta 3.** Em termos de oportunidade, o que você perde ao pagar a mais por meio da retenção?
+
+A) Nada
+B) O uso desse dinheiro ao longo do ano
+C) Impostos extras
+D) A sua situação na declaração
+
+**Pergunta 4.** Querer uma restituição grande como estratégia de poupança forçada pode ser uma escolha legítima?
+
+A) Não, nunca
+B) Sim, como uma escolha consciente de finanças pessoais
+C) Só para empresas
+D) Só se a lei exigir
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A restituição é simplesmente a devolução de dinheiro que você pagou a mais, e não uma renda extra vinda do governo.
+
+**2.** Restituições grandes são um sinal, e não uma conquista, e muitas vezes indicam que a retenção poderia ser ajustada para mais perto do imposto real.
+
+**3.** O dinheiro que fica com o governo o ano todo não rende juros nem trabalha para você.
+
+**4.** Algumas pessoas deixam reter mais de propósito como método de poupança forçada, e essa é uma escolha legítima e deliberada.
+
+## Pontos-chave
+
+- A restituição é o seu próprio dinheiro pago a mais voltando, e não dinheiro de graça do governo.
+- Restituições grandes costumam indicar que a retenção está mais alta do que o necessário.
+- Pagar a mais ao longo do ano tem um custo de oportunidade real.
+- Escolher uma restituição grande como poupança forçada não tem problema, desde que seja uma escolha consciente.

@@ -1,0 +1,399 @@
+===== GREEN-L1-016
+TITLE: Dedução fixa ou deduções discriminadas?
+SUMMARY: Explica as duas formas mais comuns de aplicar deduções: um montante fixo padrão ou a discriminação das despesas efetivamente dedutíveis.
+# Dedução fixa ou deduções discriminadas?
+
+## Objetivos de aprendizagem
+
+- Explicar o que é uma dedução fixa (padrão).
+- Explicar o que significa discriminar as deduções.
+- Identificar a lógica básica para escolher entre as duas.
+
+## Conteúdo principal
+
+Muitos sistemas fiscais dão ao contribuinte uma escolha: aplicar uma dedução fixa, um montante a que todos têm direito sem necessidade de comprovativos, ou discriminar as deduções, ou seja, listar e somar uma a uma as despesas efetivamente dedutíveis (como certos juros, donativos ou despesas de saúde, consoante as regras do sistema). Nos EUA fala-se de "standard deduction" e de "itemized deductions". (Em Portugal existe uma lógica semelhante, por exemplo na dedução específica dos rendimentos do trabalho, que só é substituída pelas despesas efetivas quando estas são superiores e dentro das regras; os montantes mudam.)
+
+A lógica básica da decisão é simples: se o total das deduções discriminadas for superior à dedução fixa, discriminar poupa mais dinheiro. Caso contrário, a dedução fixa é mais simples e financeiramente igual. Como a dedução fixa não exige documentação, muitas pessoas optam por ela por defeito, a menos que tenham um motivo concreto, como um donativo elevado ou despesas dedutíveis significativas, para discriminar.
+
+## Exemplo prático
+
+**Pergunta:** As despesas discrimináveis de uma pessoa somam, no ano, menos do que o montante da dedução fixa. Deve discriminá-las?
+
+**Aluno:** Provavelmente não, porque discriminar dá mais trabalho sem qualquer benefício adicional.
+
+**Guia:** Certo. Qual é a regra geral para escolher?
+
+**Aluno:** Comparar o total discriminado com a dedução fixa e escolher o que for maior.
+
+**Guia:** Exatamente: é uma comparação simples, e não uma questão de preferência.
+
+## Teste de prática
+
+**Pergunta 1.** Uma dedução fixa é:
+
+A) Um montante fixo que não exige documentação discriminada
+B) Disponível apenas para empresas
+C) O mesmo que um crédito fiscal
+D) Proibida na maioria dos países
+
+**Pergunta 2.** Discriminar as deduções significa:
+
+A) Aplicar o montante fixo padrão
+B) Listar e somar as despesas efetivamente dedutíveis
+C) Não pagar qualquer imposto
+D) Abdicar de todas as deduções
+
+**Pergunta 3.** A regra básica para escolher entre as duas é:
+
+A) Discriminar sempre
+B) Aplicar sempre a dedução fixa
+C) Escolher a que produz a maior dedução
+D) Atirar uma moeda ao ar
+
+**Pergunta 4.** Porque é que alguém pode não discriminar, mesmo que, em teoria, possa?
+
+A) Porque é ilegal
+B) Porque o total discriminado é inferior à dedução fixa, ou a papelada não compensa o pequeno ganho
+C) Porque as deduções fixas não existem
+D) Porque discriminar é sempre obrigatório
+
+## Chave de Respostas
+
+1. A, 2. B, 3. C, 4. B
+
+## Respostas e explicações
+
+**1.** A dedução fixa é um montante fixo, sem exigência de documentação, previsto em muitos sistemas fiscais.
+
+**2.** Discriminar significa somar as despesas efetivamente dedutíveis, em vez de aplicar o montante fixo.
+
+**3.** A decisão resume-se a uma comparação simples: ganha o número maior.
+
+**4.** Quando o total discriminado não ultrapassa a dedução fixa, a papelada extra não traz qualquer benefício financeiro.
+
+## Pontos-chave
+
+- A dedução fixa é um montante simples, sem exigência de documentação.
+- Discriminar significa, em vez disso, somar as despesas efetivamente dedutíveis.
+- Escolha a opção que produz a maior dedução.
+- A maioria das pessoas fica com a dedução fixa, a menos que tenha um motivo claro para discriminar.
+
+===== GREEN-L1-017
+TITLE: Créditos fiscais comuns para particulares
+SUMMARY: Um panorama das categorias gerais de créditos fiscais com que os particulares se deparam com frequência, mantido no plano dos conceitos e não preso aos programas de um só país.
+# Créditos fiscais comuns para particulares
+
+## Objetivos de aprendizagem
+
+- Identificar categorias comuns de créditos fiscais para particulares.
+- Explicar porque é que os créditos visam muitas vezes objetivos específicos de política pública.
+- Reconhecer que a existência e o valor dos créditos variam muito entre países e mudam ao longo do tempo.
+
+## Conteúdo principal
+
+Os governos usam com frequência créditos fiscais para incentivar comportamentos específicos ou apoiar grupos específicos, em vez de apenas aumentarem ou reduzirem a receita de forma igual para todos. As categorias mais comuns, em termos gerais, incluem: créditos ligados a ter e criar filhos ou dependentes, créditos ligados a despesas de educação, créditos para melhorias de eficiência energética na habitação e créditos destinados a trabalhadores ou famílias com rendimentos mais baixos. (Em Portugal, muitos destes apoios surgem no IRS como deduções à coleta, por exemplo por dependentes ou despesas de educação; as regras e os montantes mudam.)
+
+Os nomes, montantes e regras de elegibilidade destes créditos variam enormemente de país para país e mudam com frequência, à medida que as prioridades políticas se alteram. A lição duradoura não é um crédito específico, mas o padrão: quando um governo quer incentivar um comportamento (como a educação, as melhorias na habitação própria ou o trabalho em vez da dependência de apoios sociais) sem proibir a alternativa, o crédito fiscal é um instrumento comum. Reconhecer este padrão ajuda-o a compreender novos créditos que vai encontrar mais tarde, mesmo os que ainda não existem.
+
+## Exemplo prático
+
+**Pergunta:** Um governo quer incentivar mais proprietários a instalar painéis solares, sem o tornar obrigatório. A que instrumento poderá recorrer?
+
+**Aluno:** Seguindo o padrão desta lição, provavelmente a um crédito fiscal ligado à instalação de painéis solares.
+
+**Guia:** Porquê um crédito e não, por exemplo, um subsídio direto ou uma obrigação?
+
+**Aluno:** Um crédito funciona dentro do sistema fiscal existente, reduz a conta dólar a dólar e incentiva o comportamento sem o impor.
+
+**Guia:** Exatamente: é essa a lógica geral por detrás da maioria dos créditos baseados em incentivos.
+
+## Teste de prática
+
+**Pergunta 1.** Os governos usam com frequência créditos fiscais para:
+
+A) Redistribuir a riqueza ao acaso, sem objetivo
+B) Incentivar comportamentos específicos ou apoiar grupos específicos
+C) Acabar com todas as formas de tributação
+D) Beneficiar apenas as grandes empresas
+
+**Pergunta 2.** Entre as categorias de créditos referidas nesta lição estão:
+
+A) Dependentes, educação, eficiência energética e apoio a trabalhadores com rendimentos mais baixos
+B) Apenas artigos de luxo
+C) Apenas investimentos no estrangeiro
+D) Apenas heranças
+
+**Pergunta 3.** Os nomes e montantes específicos dos créditos mantêm-se iguais entre países e ao longo do tempo?
+
+A) Sim, sempre
+B) Não: variam muito e mudam com frequência
+C) Apenas nos países ricos
+D) Nunca existiram na história
+
+**Pergunta 4.** A lição duradoura deste tema é:
+
+A) Decorar todos os créditos
+B) Reconhecer o padrão geral de usar créditos para incentivar comportamentos
+C) Os créditos não importam
+D) Só as empresas recebem créditos
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os créditos são muitas vezes instrumentos de política pública, e não apenas ajustes neutros da receita.
+
+**2.** Dependentes, educação, eficiência energética e apoio ao rendimento são categorias de créditos referidas com frequência em muitos sistemas.
+
+**3.** Os programas de créditos estão entre as partes da legislação fiscal que mais mudam, por isso os pormenores têm de ser confirmados nas regras em vigor.
+
+**4.** Reconhecer o padrão de incentivo permite-lhe compreender os novos créditos que vai encontrar no futuro.
+
+## Pontos-chave
+
+- Os créditos fiscais funcionam muitas vezes como incentivos a comportamentos específicos ou apoio a grupos específicos.
+- As categorias comuns incluem dependentes, educação, eficiência energética e apoio ao rendimento.
+- Os créditos específicos variam muito entre países e mudam com frequência.
+- A competência transferível é reconhecer o padrão de incentivo, e não decorar um crédito específico.
+
+===== GREEN-L1-018
+TITLE: Situação na declaração: solteiro, casado, chefe de família
+SUMMARY: Apresenta o conceito de situação na declaração e explica porque é que o estado civil e a composição do agregado familiar podem afetar o cálculo do imposto.
+# Situação na declaração: solteiro, casado, chefe de família
+
+## Objetivos de aprendizagem
+
+- Explicar o que é a situação na declaração.
+- Identificar as categorias mais comuns.
+- Explicar, em termos gerais, porque é que a situação na declaração pode afetar o resultado fiscal.
+
+## Conteúdo principal
+
+A situação na declaração (nos EUA, "filing status") é uma categoria, baseada no seu estado civil e na composição do seu agregado familiar, que muitos sistemas fiscais usam para definir que escalões, montantes de dedução e regras de elegibilidade se aplicam a si. As categorias mais comuns são solteiro, casado (por vezes com a opção de declaração conjunta ou separada) e chefe de família (normalmente uma pessoa não casada que sustenta dependentes). (Em Portugal, os casados e unidos de facto podem optar pela tributação conjunta ou separada no IRS, e o número de dependentes também conta; as regras mudam.)
+
+A situação na declaração importa porque altera o cálculo de fundo: o mesmo rendimento pode dar origem a um imposto diferente consoante a categoria, porque os limites dos escalões e os montantes da dedução fixa são muitas vezes definidos de forma diferente para cada uma. Isto não é uma lacuna nem um truque; reflete uma avaliação de política pública de que a composição do agregado familiar afeta a capacidade real de uma pessoa ou família para pagar imposto.
+
+## Exemplo prático
+
+**Pergunta:** Duas pessoas ganham exatamente o mesmo salário, mas uma é solteira e a outra sustenta dois filhos como chefe de família. Esperaria que o cálculo do imposto fosse igual?
+
+**Aluno:** Provavelmente não, porque a situação na declaração altera os escalões e os montantes de dedução aplicáveis.
+
+**Guia:** Porque é que o sistema fiscal trataria o caso do chefe de família de forma diferente?
+
+**Aluno:** Porque sustentar dependentes afeta quanto desse rendimento fica realmente disponível para as necessidades da própria pessoa, e a política tem isso em conta.
+
+**Guia:** Certo: a situação na declaração reflete uma avaliação da capacidade financeira, e não apenas o rendimento em bruto.
+
+## Teste de prática
+
+**Pergunta 1.** A situação na declaração baseia-se:
+
+A) No seu cargo profissional
+B) No seu estado civil e na composição do seu agregado familiar
+C) Apenas na sua idade
+D) No seu país de nascimento
+
+**Pergunta 2.** As categorias mais comuns incluem:
+
+A) Solteiro, casado, chefe de família
+B) Apenas "empregado" e "desempregado"
+C) Apenas "rico" e "pobre"
+D) Apenas "cidadão" e "não cidadão"
+
+**Pergunta 3.** A situação na declaração pode afetar:
+
+A) Nada
+B) Os escalões e os montantes de dedução aplicáveis
+C) Apenas o seu nome no formulário
+D) Apenas o imposto sobre as vendas
+
+**Pergunta 4.** A razão pela qual a situação na declaração importa é normalmente descrita como:
+
+A) Uma lacuna
+B) Um reflexo das diferenças de capacidade financeira consoante a composição do agregado familiar
+C) Puro acaso
+D) Irrelevante para o cálculo do imposto
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As categorias são construídas em torno do estado civil e das responsabilidades familiares.
+
+**2.** Solteiro, casado e chefe de família são categorias muito usadas, embora os nomes exatos variem de país para país.
+
+**3.** Categorias diferentes vêm muitas vezes com limites de escalão e montantes de dedução diferentes.
+
+**4.** A justificação de política pública é que a composição do agregado afeta a capacidade financeira real, e não que se trate de um truque ou de uma lacuna.
+
+## Pontos-chave
+
+- A situação na declaração reflete o estado civil e a composição do agregado familiar.
+- As categorias comuns incluem solteiro, casado e chefe de família.
+- A situação na declaração afeta os escalões e os montantes de dedução aplicáveis.
+- Isto reflete avaliações de política pública sobre a capacidade financeira, e não uma lacuna.
+
+===== GREEN-L1-019
+TITLE: O que é a declaração de rendimentos, e porque se entrega?
+SUMMARY: Explica o objetivo da declaração de rendimentos: acertar os pagamentos estimados com o imposto efetivamente devido no ano.
+# O que é a declaração de rendimentos, e porque se entrega?
+
+## Objetivos de aprendizagem
+
+- Definir a declaração de rendimentos em termos simples.
+- Explicar o objetivo de acerto da declaração.
+- Ligar a declaração à lição anterior sobre a retenção na fonte.
+
+## Conteúdo principal
+
+A declaração de rendimentos é um documento que entrega ao Estado com os seus rendimentos, deduções, créditos e o imposto que, pelas suas contas, deve no ano. Entregar a declaração é a forma de acertar o sistema baseado em estimativas (a retenção na fonte, vista antes) com o número real e definitivo. (Em Portugal, é a declaração anual de IRS, entregue no Portal das Finanças, muitas vezes com a opção de IRS Automático; quem é obrigado a entregá-la depende de regras que mudam.)
+
+Pense nela como um acerto de contas de fim de ano. Ao longo do ano foi retido imposto ou foram feitos pagamentos por conta com base em previsões. A declaração soma o que realmente aconteceu (os rendimentos efetivamente obtidos, as deduções e os créditos efetivamente aplicados) e calcula o montante verdadeiramente devido. Se o total já pago for superior a esse montante, recebe um reembolso. Se for inferior, deve a diferença. Entregar a declaração não é burocracia inútil; na maioria dos sistemas, é o ato exigido por lei que encerra a sua obrigação fiscal do ano.
+
+## Exemplo prático
+
+**Pergunta:** Se um trabalhador teve imposto retido durante todo o ano e nunca entrega a declaração, a sua obrigação fiscal fica oficialmente encerrada?
+
+**Aluno:** Diria que não, porque a retenção era apenas uma estimativa.
+
+**Guia:** O que faz a declaração que a retenção, por si só, não faz?
+
+**Aluno:** Calcula o número final verdadeiro com base em tudo o que realmente aconteceu no ano e compara-o com o que já foi pago.
+
+**Guia:** Certo: a declaração é o passo de acerto e, na maioria dos sistemas, é exigida por lei, e não opcional.
+
+## Teste de prática
+
+**Pergunta 1.** A declaração de rendimentos descreve-se melhor como:
+
+A) Uma sugestão voluntária
+B) Um documento com rendimentos, deduções e créditos para calcular o imposto devido
+C) O mesmo que a retenção na fonte
+D) Apenas para empresas
+
+**Pergunta 2.** Entregar a declaração serve sobretudo para:
+
+A) Acertar os pagamentos estimados com o imposto efetivamente devido
+B) Substituir totalmente a retenção na fonte
+C) Evitar todos os impostos
+D) Aplicar-se apenas a trabalhadores independentes
+
+**Pergunta 3.** Se os montantes retidos forem superiores ao imposto realmente devido, o resultado típico é:
+
+A) Uma coima
+B) Um reembolso
+C) Nada
+D) Uma inspeção automática
+
+**Pergunta 4.** Na maioria dos sistemas, entregar a declaração é normalmente opcional?
+
+A) Sim, sempre opcional
+B) Não, é normalmente uma obrigação legal
+C) Apenas para os ricos
+D) Apenas para empresas
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A declaração apresenta o quadro financeiro completo necessário para calcular a obrigação fiscal real.
+
+**2.** A função central da declaração é comparar o que já foi pago com o que é realmente devido.
+
+**3.** A retenção a mais, depois de acertada na declaração, volta como reembolso.
+
+**4.** Na maioria dos sistemas, entregar a declaração é uma obrigação legal, e não uma cortesia.
+
+## Pontos-chave
+
+- A declaração de rendimentos indica rendimentos, deduções e créditos para calcular o imposto realmente devido.
+- A declaração acerta os pagamentos estimados (como a retenção na fonte) com o imposto real.
+- Pagar a mais gera um reembolso; pagar a menos gera imposto a pagar.
+- Entregar a declaração é normalmente uma obrigação legal, e não uma opção.
+
+===== GREEN-L1-020
+TITLE: Reembolsos de imposto: porque é que receber um nem sempre é uma vitória
+SUMMARY: Dá outra perspetiva ao entusiasmo comum com os reembolsos de imposto, explicando o que um reembolso representa realmente do ponto de vista financeiro.
+# Reembolsos de imposto: porque é que receber um nem sempre é uma vitória
+
+## Objetivos de aprendizagem
+
+- Explicar o que representa realmente um reembolso de imposto.
+- Avaliar o compromisso de ter retenção a mais durante o ano.
+- Ver "receber um reembolso grande" como uma decisão de finanças pessoais, e não automaticamente como uma boa notícia.
+
+## Conteúdo principal
+
+Um reembolso de imposto parece um dinheiro inesperado, mas é importante perceber o que realmente é: o seu próprio dinheiro, que lhe é devolvido, e que pagou a mais ao longo do ano através da retenção na fonte ou de pagamentos por conta. Não é um prémio nem uma oferta do Estado: é um empréstimo sem juros que fez ao Estado e que agora lhe está a ser devolvido.
+
+Isto importa porque esse dinheiro esteve com o Estado durante todo o ano, em vez de estar ao seu dispor para poupar, amortizar dívidas ou render juros numa conta sua. Um reembolso muito grande indica muitas vezes que a retenção estava demasiado alta em relação ao imposto efetivamente devido. Algumas pessoas preferem mesmo assim um reembolso grande e usam-no como uma forma de poupança forçada; é uma escolha pessoal legítima, mas deve ser uma escolha consciente, e não um mal-entendido sobre o que está realmente a acontecer.
+
+## Exemplo prático
+
+**Pergunta:** Um trabalhador está entusiasmado com um reembolso anual grande e chama-lhe "dinheiro de graça". Como explicaria isso de outra forma?
+
+**Aluno:** Faria notar que não é de graça: é o próprio dinheiro dele, pago a mais durante o ano inteiro, que só agora está a voltar.
+
+**Guia:** De que abdicou ao deixar que esse dinheiro fosse retido, em vez de ficar com ele?
+
+**Aluno:** Da possibilidade de o usar ou investir ao longo do ano: ficou antes com o Estado, basicamente como um empréstimo sem juros.
+
+**Guia:** Exatamente: o reembolso em si não é mau, mas chamar-lhe "dinheiro de graça" é perceber mal o que aconteceu.
+
+## Teste de prática
+
+**Pergunta 1.** Um reembolso de imposto representa:
+
+A) Uma oferta do Estado
+B) O seu próprio dinheiro pago a mais a ser devolvido
+C) Uma coima
+D) Um empréstimo do Estado a si
+
+**Pergunta 2.** Um reembolso muito grande indica muitas vezes:
+
+A) Um planeamento fiscal perfeito
+B) Retenção demasiado alta em relação ao imposto efetivamente devido
+C) Um aumento de impostos
+D) Nada de relevante
+
+**Pergunta 3.** Em termos de oportunidade, o que perde ao pagar a mais através da retenção?
+
+A) Nada
+B) O uso desse dinheiro ao longo do ano
+C) Impostos adicionais
+D) A sua situação na declaração
+
+**Pergunta 4.** Querer um reembolso grande como estratégia de poupança forçada pode ser uma escolha legítima?
+
+A) Não, nunca
+B) Sim, como escolha consciente de finanças pessoais
+C) Apenas para empresas
+D) Apenas se a lei o exigir
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Um reembolso é simplesmente a devolução de dinheiro que pagou a mais, e não um rendimento adicional vindo do Estado.
+
+**2.** Os reembolsos grandes são um sinal, e não uma conquista, e indicam muitas vezes que a retenção poderia ser ajustada para mais perto do imposto real.
+
+**3.** O dinheiro que fica com o Estado durante todo o ano não rende juros nem trabalha para si.
+
+**4.** Algumas pessoas deixam reter mais de propósito como método de poupança forçada, e essa é uma escolha legítima e deliberada.
+
+## Pontos-chave
+
+- Um reembolso de imposto é o seu próprio dinheiro pago a mais a voltar, e não dinheiro de graça do Estado.
+- Os reembolsos grandes indicam muitas vezes que a retenção está mais alta do que o necessário.
+- Pagar a mais ao longo do ano tem um custo de oportunidade real.
+- Escolher um reembolso grande como poupança forçada não tem problema, desde que seja uma escolha consciente.
