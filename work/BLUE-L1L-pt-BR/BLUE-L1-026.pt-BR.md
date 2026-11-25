@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-027
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-016 — O que é fluxo de caixa em um negócio?
+- BLUE-L1-016 — O que é fluxo de caixa em um negócio? (Por que negócios lucrativos ainda ficam sem dinheiro)
 - BLUE-L1-027 — O que é um fornecedor, e por que a confiabilidade importa mais do que o preço?
 
 ## Trilha da lição

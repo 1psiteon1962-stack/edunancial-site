@@ -144,7 +144,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-025
 VERWANDTE LERNPFADE: WHITE (Wertpapiere) — die Analyse von Finanzberichten wird auf höheren Levels des WHITE-Lernpfads vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-011 — Was ist Umsatz im Vergleich zu Gewinn?
+- BLUE-L1-011 — Was ist Umsatz im Vergleich zu Gewinn? (Das am häufigsten verwechselte Begriffspaar im Geschäftsleben)
 - BLUE-L1-013 — Was sind Gemeinkosten?
 - BLUE-L1-025 — Was ist eine Bilanz, einfach erklärt?
 

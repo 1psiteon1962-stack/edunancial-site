@@ -144,7 +144,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-025
 PERCORSI CORRELATI: WHITE (Attività finanziarie) — l'analisi dei bilanci è approfondita ai livelli superiori del percorso WHITE.
 
 ## Letture di approfondimento
-- BLUE-L1-011 — Ricavi o utile?
+- BLUE-L1-011 — Ricavi o utile? (La coppia di termini più confusa negli affari)
 - BLUE-L1-013 — Che cosa sono i costi generali (overhead)?
 - BLUE-L1-025 — Che cos'è lo stato patrimoniale, in parole semplici?
 

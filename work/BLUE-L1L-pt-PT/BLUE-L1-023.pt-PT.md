@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-024
 TRILHAS RELACIONADAS: GREEN (Impostos) — a conservação de registos para efeitos fiscais é aprofundada nos níveis mais altos da trilha GREEN.
 
 ## Leituras complementares
-- BLUE-L1-016 — O que é o fluxo de caixa num negócio?
+- BLUE-L1-016 — O que é o fluxo de caixa num negócio? (Porque é que negócios lucrativos ficam mesmo assim sem dinheiro)
 - BLUE-L1-024 — O que é a demonstração de resultados (P&L)?
 
 ## Trilha da lição

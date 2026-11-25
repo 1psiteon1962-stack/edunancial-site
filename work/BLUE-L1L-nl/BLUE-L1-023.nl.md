@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-024
 VERWANTE LEERLIJNEN: GREEN (Belastingen) — het bewaren van gegevens voor de belasting komt op hogere levels van de GREEN-leerlijn verder aan bod.
 
 ## Verder lezen
-- BLUE-L1-016 — Wat is cashflow in een bedrijf?
+- BLUE-L1-016 — Wat is cashflow in een bedrijf? (Waarom winstgevende bedrijven toch zonder geld komen te zitten)
 - BLUE-L1-024 — Wat is een winst-en-verliesrekening (P&L)?
 
 ## Lesroute

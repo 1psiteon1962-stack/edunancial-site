@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-027
 VERWANDTE LERNPFADE: Noch keine veröffentlicht.
 
 ## Weiterführende Lektüre
-- BLUE-L1-016 — Was ist Cashflow in einem Unternehmen?
+- BLUE-L1-016 — Was ist Cashflow in einem Unternehmen? (Warum profitable Unternehmen trotzdem kein Geld mehr haben können)
 - BLUE-L1-027 — Was ist ein Lieferant, und warum ist Zuverlässigkeit wichtiger als der Preis?
 
 ## Lernpfad der Lektion

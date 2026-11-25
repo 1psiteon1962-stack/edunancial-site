@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-024
 TRILHAS RELACIONADAS: GREEN (Impostos) — a guarda de registros para fins fiscais é aprofundada nos níveis mais altos da trilha GREEN.
 
 ## Leituras complementares
-- BLUE-L1-016 — O que é fluxo de caixa em um negócio?
+- BLUE-L1-016 — O que é fluxo de caixa em um negócio? (Por que negócios lucrativos ainda ficam sem dinheiro)
 - BLUE-L1-024 — O que é uma demonstração de resultados (DRE)?
 
 ## Trilha da lição

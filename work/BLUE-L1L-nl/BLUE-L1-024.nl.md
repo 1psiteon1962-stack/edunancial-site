@@ -144,7 +144,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-025
 VERWANTE LEERLIJNEN: WHITE (Financiële waarden) — het analyseren van jaarrekeningen komt op hogere levels van de WHITE-leerlijn verder aan bod.
 
 ## Verder lezen
-- BLUE-L1-011 — Wat is omzet tegenover winst?
+- BLUE-L1-011 — Wat is omzet tegenover winst? (Het meest verwarde begrippenpaar in het bedrijfsleven)
 - BLUE-L1-013 — Wat zijn vaste lasten (overhead)?
 - BLUE-L1-025 — Wat is een balans, in gewone taal?
 

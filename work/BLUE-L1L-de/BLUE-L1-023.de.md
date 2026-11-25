@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-024
 VERWANDTE LERNPFADE: GREEN (Steuern) — die Aufbewahrung von Unterlagen für steuerliche Zwecke wird auf höheren Levels des GREEN-Lernpfads vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-016 — Was ist Cashflow in einem Unternehmen?
+- BLUE-L1-016 — Was ist Cashflow in einem Unternehmen? (Warum profitable Unternehmen trotzdem kein Geld mehr haben können)
 - BLUE-L1-024 — Was ist eine Gewinn- und Verlustrechnung (GuV)?
 
 ## Lernpfad der Lektion

@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-027
 VERWANTE LEERLIJNEN: Nog niets gepubliceerd.
 
 ## Verder lezen
-- BLUE-L1-016 — Wat is cashflow in een bedrijf?
+- BLUE-L1-016 — Wat is cashflow in een bedrijf? (Waarom winstgevende bedrijven toch zonder geld komen te zitten)
 - BLUE-L1-027 — Wat is een leverancier, en waarom telt betrouwbaarheid zwaarder dan prijs?
 
 ## Lesroute

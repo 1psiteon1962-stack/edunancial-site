@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-027
 PERCORSI CORRELATI: Nessuno ancora pubblicato.
 
 ## Letture di approfondimento
-- BLUE-L1-016 — Che cos'è il flusso di cassa in un'impresa?
+- BLUE-L1-016 — Che cos'è il flusso di cassa in un'impresa? (Perché anche le imprese in utile restano senza soldi)
 - BLUE-L1-027 — Che cos'è un fornitore, e perché l'affidabilità conta più del prezzo?
 
 ## Percorso della lezione

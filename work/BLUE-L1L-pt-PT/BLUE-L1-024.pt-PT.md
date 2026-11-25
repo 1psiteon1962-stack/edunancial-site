@@ -144,7 +144,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-025
 TRILHAS RELACIONADAS: WHITE (Ativos financeiros) — a análise das demonstrações financeiras é aprofundada nos níveis mais altos da trilha WHITE.
 
 ## Leituras complementares
-- BLUE-L1-011 — Receitas ou lucro?
+- BLUE-L1-011 — Receitas ou lucro? (O par de termos mais confundido nos negócios)
 - BLUE-L1-013 — O que são os custos fixos de estrutura (overhead)?
 - BLUE-L1-025 — O que é um balanço, em termos simples?
 

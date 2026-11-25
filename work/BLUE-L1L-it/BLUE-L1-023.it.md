@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-024
 PERCORSI CORRELATI: GREEN (Imposte) — la conservazione dei documenti a fini fiscali è approfondita ai livelli superiori del percorso GREEN.
 
 ## Letture di approfondimento
-- BLUE-L1-016 — Che cos'è il flusso di cassa in un'impresa?
+- BLUE-L1-016 — Che cos'è il flusso di cassa in un'impresa? (Perché anche le imprese in utile restano senza soldi)
 - BLUE-L1-024 — Che cos'è il conto economico (P&L)?
 
 ## Percorso della lezione
