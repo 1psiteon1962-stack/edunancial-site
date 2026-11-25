@@ -1,0 +1,364 @@
+===== RED-L1-026
+TITLE: Che cos'è l'ammortamento, e perché una perdita sulla carta potrebbe aiutarti?
+SUMMARY: Scopri che cosa significa l'ammortamento come concetto fiscale nel settore immobiliare, e perché una perdita sulla carta può dare un vantaggio reale.
+# Che cos'è l'ammortamento, e perché una perdita sulla carta potrebbe aiutarti?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire l'ammortamento come concetto fiscale nel settore immobiliare.
+- spiegare perché viene descritto come una perdita "sulla carta".
+- spiegare, a livello di base, perché può dare un vantaggio fiscale.
+
+## Contenuto principale
+
+### Che cosa significa qui ammortamento
+
+*(REGOLA SPECIFICA PER REGIONE: questa lezione descrive un concetto fiscale statunitense; il trattamento varia molto da paese a paese. In Italia, per esempio, il privato che affitta un immobile di solito non lo ammortizza, mentre l'ammortamento riguarda in genere imprese e società, con regole proprie; verifica con un commercialista.)* Nel settore immobiliare, l'ammortamento (in inglese "depreciation") è una deduzione fiscale che permette a un proprietario di dedurre nel tempo una parte del costo di un immobile in affitto, in base all'idea che gli edifici si usurano, anche se il valore di mercato dell'immobile in realtà sta salendo.
+
+### Perché si parla di perdita "sulla carta"
+
+L'immobile non deve perdere davvero valore perché il proprietario possa applicare l'ammortamento: si tratta di una deduzione fiscale programmata, basata sul costo dell'immobile, indipendente da quello che succede al suo valore di mercato reale. Per questo si parla spesso di perdita sulla carta: riduce il reddito imponibile senza richiedere un'uscita di denaro reale.
+
+### Perché può dare un vantaggio reale
+
+Poiché l'ammortamento riduce il reddito da locazione imponibile, può abbassare le imposte del proprietario negli anni in cui l'immobile magari si sta apprezzando sul mercato: un vantaggio reale e legale, tipico dell'investimento immobiliare, distinto dal rendimento effettivo dell'immobile.
+
+## Esempio svolto
+
+Un immobile in affitto genera 10.000 $ di reddito da locazione imponibile prima dell'ammortamento. Dopo aver dedotto 8.000 $ di ammortamento, il reddito imponibile di quell'immobile scende a 2.000 $, anche se nello stesso anno il suo valore di mercato potrebbe essere aumentato.
+
+## Quiz di esercitazione
+
+1. L'ammortamento, in questo contesto, è:
+   A. Un'ispezione obbligatoria dell'immobile
+   B. Una deduzione fiscale che riflette il costo di un edificio nel tempo
+   C. Un tipo di assicurazione sul mutuo
+   D. Un aumento del valore di mercato
+
+2. Vero o falso: un immobile deve perdere davvero valore di mercato perché il proprietario possa applicare l'ammortamento.
+
+3. Perché l'ammortamento viene a volte chiamato perdita "sulla carta"?
+   A. Richiede di stampare documenti
+   B. Riduce il reddito imponibile senza richiedere un'uscita di denaro reale
+   C. Si applica solo alle imprese del settore della carta
+   D. Non ha alcun effetto reale sulle imposte
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'ammortamento è una deduzione fiscale programmata, basata sul costo e non sul valore di mercato.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'ammortamento si può applicare indipendentemente dall'andamento reale del valore di mercato dell'immobile.
+
+### Domanda 3
+
+Risposta corretta: B. È una deduzione sulla carta che riduce il reddito imponibile senza un costo reale in denaro.
+
+## Punti chiave
+
+- L'ammortamento è una deduzione fiscale basata sul costo di un immobile nel tempo.
+- È indipendente dall'andamento reale del valore di mercato dell'immobile.
+- Può ridurre in modo significativo il reddito imponibile di un proprietario.
+
+===== RED-L1-027
+TITLE: Che cos'è uno scambio 1031? (Spiegato in parole semplici)
+SUMMARY: Scopri l'idea di base di uno scambio 1031 negli Stati Uniti: rinviare l'imposta sulla vendita di un immobile da investimento reinvestendo il ricavato.
+# Che cos'è uno scambio 1031? (Spiegato in parole semplici)
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- spiegare l'idea di base di uno scambio 1031.
+- spiegare che cosa significa "rinviare" l'imposta, invece di eliminarla.
+- riconoscere che si applicano regole e scadenze rigide.
+
+## Contenuto principale
+
+### L'idea di base
+
+*(REGOLA SPECIFICA PER REGIONE: è una disposizione fiscale statunitense, non disponibile in altri paesi. In Italia non esiste un equivalente generale; le plusvalenze immobiliari seguono regole proprie, legate per esempio al periodo di possesso.)* Uno scambio 1031 permette a un investitore di vendere un immobile da investimento e reinvestire il ricavato in un altro immobile "dello stesso tipo" ("like-kind"), rinviando l'imposta sulla plusvalenza che sarebbe normalmente dovuta sulla vendita.
+
+### Rinviare, non eliminare
+
+È una distinzione fondamentale: l'imposta non viene cancellata, viene rimandata. La plusvalenza rinviata in genere si trasferisce sul nuovo immobile, e l'imposta potrebbe essere dovuta più avanti, a seconda di che cosa succede con le transazioni future.
+
+### Si applicano regole rigide
+
+*IPOTESI (a scopo didattico):* Gli scambi 1031 prevedono scadenze precise di individuazione e di chiusura e requisiti procedurali. Questa lezione introduttiva non entra in questi dettagli: l'obiettivo è capire il concetto di base prima dei meccanismi.
+
+## Esempio svolto
+
+Un investitore vende un immobile in affitto con una plusvalenza significativa e, invece di pagare subito l'imposta sulla plusvalenza, usa uno scambio 1031 per reinvestire il ricavato in un nuovo immobile da affittare: rinvia quell'imposta invece di pagarla subito.
+
+## Quiz di esercitazione
+
+1. Uno scambio 1031 permette principalmente a un investitore di:
+   A. Eliminare per sempre l'imposta sulla plusvalenza
+   B. Rinviare l'imposta sulla plusvalenza reinvestendo in un immobile dello stesso tipo
+   C. Evitare del tutto l'imposta immobiliare
+   D. Fare a meno dell'ispezione dell'immobile
+
+2. Vero o falso: uno scambio 1031 elimina l'imposta dovuta invece di rinviarla.
+
+3. A che cosa si riferisce in genere "dello stesso tipo" in questo contesto?
+   A. Due case identiche
+   B. Immobili da investimento che possono beneficiare dello scambio secondo le regole
+   C. Due beni qualsiasi dello stesso prezzo
+   D. Una marca specifica di immobile
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Uno scambio 1031 rinvia l'imposta sulla plusvalenza, non la elimina.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'imposta viene rimandata, non cancellata.
+
+### Domanda 3
+
+Risposta corretta: B. "Dello stesso tipo" si riferisce ai tipi di immobili da investimento ammessi dalle regole applicabili, non a immobili identici.
+
+## Punti chiave
+
+- Uno scambio 1031 rinvia l'imposta sulla plusvalenza reinvestendo il ricavato in un altro immobile ammesso.
+- Rinviare l'imposta non è la stessa cosa che eliminarla.
+- Si applicano regole e scadenze rigide, approfondite in lezioni successive.
+
+===== RED-L1-028
+TITLE: Le basi del locatore: di che cosa sei davvero responsabile?
+SUMMARY: Scopri le responsabilità principali che si assume un locatore, distinte da quelle di cui è responsabile l'inquilino.
+# Le basi del locatore: di che cosa sei davvero responsabile?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- indicare le responsabilità principali di un locatore.
+- distinguere le responsabilità del locatore da quelle dell'inquilino.
+- spiegare perché capire questa ripartizione conta prima di affittare un immobile.
+
+## Contenuto principale
+
+### Le responsabilità principali del locatore
+
+*(REGOLA SPECIFICA PER REGIONE: gli obblighi precisi variano da stato a stato o da paese a paese e in base al contratto. In Italia, di norma, al locatore spettano le riparazioni straordinarie e all'inquilino la piccola manutenzione; verifica il contratto e le norme applicabili.)* Il locatore è in genere responsabile di mantenere l'immobile in condizioni abitabili: questo comprende di solito gli impianti principali (idraulico, riscaldamento, problemi strutturali) e il rispetto delle norme locali sulle abitazioni.
+
+### Di che cosa è di solito responsabile l'inquilino
+
+L'inquilino è in genere responsabile della cura quotidiana dello spazio in cui vive, del rispetto delle clausole del contratto e, spesso, di segnalare tempestivamente i problemi: la ripartizione precisa è di solito indicata nel contratto stesso.
+
+### Perché la ripartizione conta
+
+Un nuovo locatore che non capisce queste responsabilità rischia un'esposizione legale (se non rispetta gli obblighi di abitabilità) o costi inutili (se si fa carico di cose che in realtà spettavano all'inquilino). Clausole contrattuali chiare aiutano a evitare controversie da entrambe le parti.
+
+## Esempio svolto
+
+Un inquilino segnala in inverno un riscaldamento guasto. Di solito è una responsabilità del locatore (un impianto principale che incide sull'abitabilità), non qualcosa che l'inquilino deve riparare da solo.
+
+## Quiz di esercitazione
+
+1. Il locatore è in genere responsabile di:
+   A. L'ordine quotidiano dello spazio dell'inquilino
+   B. Mantenere l'immobile in condizioni abitabili, compresi gli impianti principali
+   C. Gli effetti personali dell'inquilino
+   D. La situazione lavorativa dell'inquilino
+
+2. Vero o falso: la ripartizione precisa delle responsabilità tra locatore e inquilino è identica ovunque, a prescindere dal luogo o dal contratto.
+
+3. Perché per un nuovo locatore è importante capire questa ripartizione delle responsabilità?
+   A. Non ha alcuna importanza
+   B. Aiuta a evitare esposizione legale e costi inutili
+   C. Conta solo per gli immobili commerciali
+   D. Non ha alcun legame con il contratto
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il locatore si occupa in genere dell'abitabilità e degli impianti principali.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le responsabilità variano in base al luogo e alle clausole del contratto.
+
+### Domanda 3
+
+Risposta corretta: B. Capire la ripartizione aiuta a evitare problemi legali ed economici.
+
+## Punti chiave
+
+- Il locatore si occupa in genere dell'abitabilità e degli impianti principali.
+- L'inquilino si occupa in genere della cura quotidiana e del rispetto del contratto.
+- Clausole contrattuali chiare aiutano a evitare controversie sulle responsabilità.
+
+===== RED-L1-029
+TITLE: Che cos'è un contratto di locazione, e che cosa dovrebbe contenere?
+SUMMARY: Scopri che cos'è legalmente un contratto di locazione e le clausole essenziali che ogni contratto dovrebbe trattare con chiarezza.
+# Che cos'è un contratto di locazione, e che cosa dovrebbe contenere?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire un contratto di locazione in termini semplici.
+- indicare le clausole essenziali che un contratto di locazione dovrebbe trattare.
+- spiegare perché un accordo verbale è un rischio reale.
+
+## Contenuto principale
+
+### Che cos'è un contratto di locazione
+
+Un contratto di locazione è un contratto legalmente vincolante tra locatore e inquilino, che stabilisce le condizioni alle quali l'inquilino può occupare l'immobile.
+
+### Le clausole essenziali
+
+Un buon contratto di locazione tratta di solito: importo del canone e scadenza del pagamento, durata, condizioni del deposito cauzionale, ripartizione della manutenzione e regole su aspetti come animali o sublocazione. Clausole vaghe o mancanti sono una fonte comune di controversie. (In Italia il contratto di locazione abitativa deve essere scritto e va registrato all'Agenzia delle Entrate; verifica i requisiti con un professionista.)
+
+### Perché il "poi vediamo" è un rischio reale
+
+Un accordo verbale o informale, senza clausole scritte chiare, lascia esposti sia il locatore sia l'inquilino se in seguito nasce un disaccordo: non c'è una traccia chiara di ciò che era stato davvero concordato. Un contratto scritto tutela entrambe le parti, non solo il locatore.
+
+## Esempio svolto
+
+Locatore e inquilino si accordano a voce sul canone, ma non mettono mai per iscritto un obbligo di preavviso per il rilascio. Quando l'inquilino se ne va senza preavviso, il locatore non ha alcuna clausola scritta a cui fare riferimento: una vera controversia che un contratto chiaro avrebbe potuto evitare.
+
+## Quiz di esercitazione
+
+1. Un contratto di locazione è:
+   A. Un accordo informale con una stretta di mano
+   B. Un contratto legalmente vincolante che stabilisce le condizioni di occupazione
+   C. Un tipo di imposta immobiliare
+   D. Un sussidio pubblico per la casa
+
+2. Vero o falso: un contratto di locazione verbale offre la stessa tutela di un contratto scritto chiaro.
+
+3. Quale di queste è una clausola essenziale che un contratto di locazione dovrebbe trattare?
+   A. Il colore preferito dell'inquilino
+   B. L'importo del canone e la scadenza del pagamento
+   C. Gli hobby personali del locatore
+   D. Le previsioni meteo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Un contratto di locazione è un contratto legalmente vincolante.
+
+### Domanda 2
+
+Risposta corretta: Falso. Un contratto scritto offre una tutela molto più chiara di un accordo verbale.
+
+### Domanda 3
+
+Risposta corretta: B. L'importo del canone e la scadenza del pagamento sono clausole essenziali.
+
+## Punti chiave
+
+- Un contratto di locazione è un contratto legalmente vincolante che stabilisce le condizioni di occupazione.
+- Le clausole essenziali comprendono canone, durata, deposito cauzionale e responsabilità.
+- Un contratto scritto tutela locatore e inquilino molto meglio di un accordo verbale.
+
+===== RED-L1-030
+TITLE: Il deposito cauzionale: che cosa può e non può fare il locatore
+SUMMARY: Scopri lo scopo di base del deposito cauzionale e perché in genere il locatore non può usarlo come vuole.
+# Il deposito cauzionale: che cosa può e non può fare il locatore
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire il deposito cauzionale in termini semplici.
+- spiegare che cosa dovrebbe coprire di solito.
+- riconoscere che il locatore ha veri limiti legali nel suo utilizzo.
+
+## Contenuto principale
+
+### Che cos'è il deposito cauzionale
+
+Il deposito cauzionale è una somma versata in anticipo dall'inquilino e trattenuta dal locatore per coprire, alla fine della locazione, eventuali canoni non pagati o danni all'immobile che vanno oltre la normale usura.
+
+### Che cosa dovrebbe coprire di solito
+
+Il deposito cauzionale serve in genere per canoni non pagati o danni reali, non per la normale usura dovuta all'uso quotidiano (come una leggera usura della moquette o piccoli fori di chiodi per appendere quadri).
+
+### Veri limiti legali
+
+*(REGOLA SPECIFICA PER REGIONE: limiti, tempi e regole precise variano molto da stato a stato o da paese a paese. In Italia, per le locazioni abitative, il deposito non può di norma superare tre mensilità del canone e produce interessi legali a favore dell'inquilino; verifica le norme applicabili.)* Molti ordinamenti fissano limiti legali all'importo del deposito, richiedono che le trattenute siano dettagliate e stabiliscono i tempi di restituzione dopo il rilascio dell'immobile. Un locatore che ignora queste regole può subire vere conseguenze legali.
+
+## Esempio svolto
+
+Un inquilino lascia l'immobile dopo due anni, con una leggera usura della moquette dovuta all'uso normale. Un locatore che cercasse di trattenere dal deposito l'intero costo di una moquette nuova potrebbe andare oltre i propri diritti: la normale usura di solito non giustifica una trattenuta.
+
+## Quiz di esercitazione
+
+1. Il deposito cauzionale serve in genere a coprire:
+   A. Le spese personali del locatore
+   B. Canoni non pagati o danni reali che vanno oltre la normale usura
+   C. La normale usura dovuta all'uso quotidiano
+   D. Le spese di ingresso dell'inquilino successivo
+
+2. Vero o falso: il locatore può in genere trattenere somme per qualsiasi usura dell'immobile, compreso l'uso normale.
+
+3. Che cosa regola spesso modi e tempi di restituzione del deposito?
+   A. Niente: dipende interamente dal locatore
+   B. Limiti e tempi legali che variano in base all'ordinamento
+   C. Una regola mondiale unica, applicata ovunque allo stesso modo
+   D. Solo la legge federale, senza variazioni tra stati
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Il deposito copre in genere canoni non pagati o danni reali, non la normale usura.
+
+### Domanda 2
+
+Risposta corretta: Falso. La normale usura di solito non giustifica una trattenuta.
+
+### Domanda 3
+
+Risposta corretta: B. Limiti e tempi legali variano in base all'ordinamento.
+
+## Punti chiave
+
+- Il deposito cauzionale copre canoni non pagati o danni reali, non la normale usura.
+- Il locatore ha veri limiti legali nel suo utilizzo.
+- Regole e tempi di restituzione del deposito variano da luogo a luogo.

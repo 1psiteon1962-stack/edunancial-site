@@ -1,0 +1,149 @@
+===== RED-L1-022
+TITLE: Qu'est-ce que le cash-flow dans l'immobilier ?
+SUMMARY: Découvrez comment se calcule le cash-flow d'un bien locatif, et pourquoi un cash-flow positif n'est pas garanti simplement parce que des loyers sont encaissés.
+# Qu'est-ce que le cash-flow dans l'immobilier ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir le cash-flow dans le contexte de l'immobilier.
+- calculer un cash-flow de base à partir des revenus et des dépenses.
+- expliquer pourquoi encaisser des loyers ne garantit pas un cash-flow positif.
+
+## Contenu principal
+
+### Ce que signifie le cash-flow
+
+Le cash-flow (ou flux de trésorerie) est l'argent qui reste d'un bien locatif une fois que toutes les dépenses (mensualité du prêt, taxes, assurance, entretien, etc.) ont été déduites des loyers encaissés.
+
+### La formule de base
+
+Cash-flow = revenus locatifs − dépenses totales.
+
+Si un bien rapporte 2 000 $ de loyer et a 1 700 $ de dépenses mensuelles totales, son cash-flow est de 300 $ : un cash-flow positif. Si les dépenses dépassent les revenus, le cash-flow est négatif.
+
+### Pourquoi encaisser des loyers ne suffit pas
+
+Un bien peut rapporter des loyers importants et avoir malgré tout un cash-flow négatif si les dépenses sont assez élevées. Les nouveaux investisseurs ne regardent parfois que les revenus locatifs sans tenir pleinement compte de dépenses comme les provisions pour entretien ou les périodes de vacance locative, ce qui donne une image trop optimiste.
+
+## Exemple pratique
+
+Un bien locatif rapporte 1 800 $ par mois. Les dépenses s'élèvent à 1 600 $ par mois (mensualité du prêt, taxes, assurance et provision pour entretien). Cash-flow = 1 800 $ − 1 600 $ = 200 $ par mois, positif.
+
+## Quiz pratique
+
+1. Le cash-flow se calcule ainsi :
+   A. Revenus locatifs plus dépenses
+   B. Revenus locatifs moins dépenses totales
+   C. La valeur totale du bien
+   D. Le montant de l'apport personnel
+
+2. Vrai ou faux : encaisser des loyers garantit automatiquement un cash-flow positif.
+
+3. Si un bien rapporte 2 200 $ de loyer et a 2 400 $ de dépenses totales, quel est son cash-flow ?
+   A. 200 $ positif
+   B. 200 $ négatif
+   C. 0 $
+   D. 4 600 $
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Cash-flow = revenus locatifs moins dépenses totales.
+
+### Question 2
+
+Bonne réponse : Faux. Des dépenses suffisamment élevées peuvent quand même produire un cash-flow négatif.
+
+### Question 3
+
+Bonne réponse : B. 2 200 $ − 2 400 $ = −200 $, soit un cash-flow négatif.
+
+## Points clés
+
+- Cash-flow = revenus locatifs − dépenses totales.
+- Un cash-flow positif n'est pas garanti simplement parce que des loyers sont encaissés.
+- Tenir compte de toutes les dépenses réelles, et pas seulement de la mensualité du prêt, est indispensable pour avoir une image juste.
+
+===== RED-L1-023
+TITLE: Qu'est-ce que le taux de capitalisation (cap rate) ? (Version d'introduction)
+SUMMARY: Découvrez la formule de base du taux de capitalisation et ce qu'il estime, en introduction à une notion approfondie au niveau 2.
+# Qu'est-ce que le taux de capitalisation (cap rate) ? (Version d'introduction)
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- énoncer la formule de base du taux de capitalisation.
+- expliquer ce qu'estime un taux de capitalisation.
+- reconnaître que le taux de capitalisation est un outil de comparaison de départ, et non une méthode d'évaluation complète.
+
+## Contenu principal
+
+### La formule de base
+
+Taux de capitalisation = résultat net d'exploitation ÷ valeur du bien.
+
+Le résultat net d'exploitation (en anglais « net operating income », NOI) correspond aux revenus d'un bien après les dépenses d'exploitation, mais avant les mensualités du prêt ; une présentation plus détaillée du NOI est proposée au niveau 2.
+
+### Ce qu'il estime
+
+Le taux de capitalisation donne une estimation approximative du rendement potentiel d'un bien acheté entièrement comptant, exprimée en pourcentage : il est utile pour comparer rapidement plusieurs biens sur une base similaire.
+
+### Un point de départ, pas une vue complète
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Le taux de capitalisation est un outil utile de première comparaison, mais il ne tient pas compte des détails du financement, de la plus-value future ni des risques propres au bien ; une étude plus complète est proposée au niveau 2.
+
+## Exemple pratique
+
+Un bien qui dégage 24 000 $ de résultat net d'exploitation annuel et vaut 300 000 $ a un taux de capitalisation de 24 000 $ ÷ 300 000 $ = 8 %.
+
+## Quiz pratique
+
+1. La formule de base du taux de capitalisation est :
+   A. Revenus locatifs ÷ apport personnel
+   B. Résultat net d'exploitation ÷ valeur du bien
+   C. Valeur du bien ÷ capital restant dû du prêt
+   D. Dépenses totales ÷ revenus locatifs
+
+2. Vrai ou faux : le taux de capitalisation tient compte des détails du financement par emprunt.
+
+3. À quoi sert généralement le taux de capitalisation ?
+   A. À calculer la taxe foncière
+   B. À comparer rapidement le rendement potentiel de plusieurs biens
+   C. À déterminer le coût d'une inspection du logement
+   D. À fixer les charges d'une association de propriétaires
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Taux de capitalisation = NOI ÷ valeur du bien.
+
+### Question 2
+
+Bonne réponse : Faux. Le taux de capitalisation est calculé avant la prise en compte des coûts de financement.
+
+### Question 3
+
+Bonne réponse : B. C'est un outil de comparaison rapide entre plusieurs biens.
+
+## Points clés
+
+- Taux de capitalisation = résultat net d'exploitation ÷ valeur du bien.
+- Il estime le rendement potentiel comme si le bien était acheté comptant.
+- C'est un point de départ utile pour comparer, et non une méthode d'évaluation complète.

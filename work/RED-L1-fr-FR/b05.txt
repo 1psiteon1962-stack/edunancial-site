@@ -1,0 +1,437 @@
+===== RED-L1-025
+TITLE: Qu'est-ce que la plus-value immobilière (appréciation), et pourquoi n'est-elle pas garantie ?
+SUMMARY: Découvrez ce que signifie l'appréciation d'un bien, ce qui la fait généralement évoluer et pourquoi il ne faut jamais la tenir pour acquise.
+# Qu'est-ce que la plus-value immobilière (appréciation), et pourquoi n'est-elle pas garantie ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir l'appréciation en termes simples.
+- citer des facteurs qui l'influencent couramment.
+- expliquer pourquoi il ne faut jamais considérer l'appréciation comme garantie.
+
+## Contenu principal
+
+### Ce qu'est l'appréciation
+
+L'appréciation est une hausse de la valeur de marché d'un bien au fil du temps. C'est l'une des deux principales façons dont l'immobilier peut enrichir un propriétaire, l'autre étant les revenus locatifs et le cash-flow.
+
+### Ce qui la fait généralement évoluer
+
+L'appréciation est couramment influencée par des facteurs comme la demande locale, la situation économique générale, le développement du quartier et les cycles plus larges du marché, qu'aucun propriétaire ne contrôle directement.
+
+### Pourquoi elle n'est jamais garantie
+
+La valeur des biens peut aussi baisser, parfois fortement, surtout sur des périodes courtes ou lors de retournements plus larges du marché. Considérer l'appréciation comme une certitude est une hypothèse courante et risquée ; des leçons ultérieures sur les cycles de marché approfondissent ce point.
+
+## Exemple pratique
+
+Un logement acheté 300 000 $ pourrait valoir 340 000 $ cinq ans plus tard grâce à la demande locale et à la situation du marché, ou bien valoir 280 000 $ si le marché local avait au contraire reculé. Aucun de ces résultats n'est garanti à l'avance.
+
+## Quiz pratique
+
+1. L'appréciation désigne :
+   A. Les revenus locatifs mensuels
+   B. Une hausse de la valeur de marché d'un bien au fil du temps
+   C. Une inspection obligatoire du logement
+   D. Un type d'assurance de prêt
+
+2. Vrai ou faux : l'appréciation d'un bien est garantie sur n'importe quelle période.
+
+3. Quel est un facteur qui influence couramment l'appréciation ?
+   A. La couleur de la porte d'entrée
+   B. La demande locale et la situation générale du marché
+   C. Les revenus personnels de l'acheteur
+   D. Le nom du prêteur
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'appréciation est une hausse de la valeur de marché au fil du temps.
+
+### Question 2
+
+Bonne réponse : Faux. Les valeurs peuvent aussi baisser ; l'appréciation n'est jamais garantie.
+
+### Question 3
+
+Bonne réponse : B. La demande locale et la situation du marché en sont des moteurs courants.
+
+## Points clés
+
+- L'appréciation est une hausse de la valeur de marché d'un bien au fil du temps.
+- Elle dépend de facteurs qui échappent au contrôle de chaque propriétaire.
+- Il ne faut jamais la considérer comme garantie : les valeurs peuvent aussi baisser.
+
+===== RED-L1-026
+TITLE: Qu'est-ce que l'amortissement, et pourquoi une perte sur le papier pourrait-elle vous aider ?
+SUMMARY: Découvrez ce que signifie l'amortissement en tant que notion fiscale dans l'immobilier, et pourquoi une perte sur le papier peut procurer un avantage réel.
+# Qu'est-ce que l'amortissement, et pourquoi une perte sur le papier pourrait-elle vous aider ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir l'amortissement en tant que notion fiscale dans l'immobilier.
+- expliquer pourquoi on le qualifie de perte « sur le papier ».
+- expliquer, à un niveau de base, pourquoi il peut procurer un avantage fiscal.
+
+## Contenu principal
+
+### Ce que signifie ici l'amortissement
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : cette leçon décrit une notion fiscale américaine ; son traitement varie beaucoup selon les pays. En France, l'amortissement du bien est surtout possible pour certains régimes, comme la location meublée au régime réel (LMNP) ou les sociétés soumises à l'impôt sur les sociétés, et les règles évoluent ; consultez un expert-comptable.)* Dans l'immobilier, l'amortissement (en anglais « depreciation ») est une déduction fiscale qui permet à un propriétaire de déduire au fil du temps une partie du coût d'un bien locatif, selon l'idée que les bâtiments s'usent, même si la valeur de marché du bien augmente en réalité.
+
+### Pourquoi parle-t-on d'une perte « sur le papier »
+
+Le bien n'a pas besoin de perdre réellement de la valeur pour que le propriétaire puisse pratiquer l'amortissement : il s'agit d'une déduction fiscale planifiée, fondée sur le coût du bien, indépendante de l'évolution réelle de sa valeur de marché. C'est pourquoi on parle souvent de perte sur le papier : elle réduit le revenu imposable sans nécessiter de sortie d'argent réelle.
+
+### Pourquoi il peut procurer un avantage réel
+
+Comme l'amortissement réduit le revenu locatif imposable, il peut diminuer l'impôt du propriétaire certaines années où le bien prend peut-être de la valeur sur le marché : un avantage réel et légal, propre à l'investissement immobilier, distinct de la performance réelle du bien.
+
+## Exemple pratique
+
+Un bien locatif génère 10 000 $ de revenu locatif imposable avant amortissement. Après déduction de 8 000 $ d'amortissement, le revenu imposable de ce bien tombe à 2 000 $, alors même que sa valeur de marché a peut-être augmenté la même année.
+
+## Quiz pratique
+
+1. L'amortissement, dans ce contexte, est :
+   A. Une inspection obligatoire du logement
+   B. Une déduction fiscale qui reflète le coût d'un bâtiment au fil du temps
+   C. Un type d'assurance de prêt
+   D. Une hausse de la valeur de marché
+
+2. Vrai ou faux : un bien doit réellement perdre de la valeur de marché pour que son propriétaire puisse pratiquer l'amortissement.
+
+3. Pourquoi parle-t-on parfois de perte « sur le papier » à propos de l'amortissement ?
+   A. Il nécessite d'imprimer des documents
+   B. Il réduit le revenu imposable sans nécessiter de sortie d'argent réelle
+   C. Il ne concerne que les entreprises du secteur du papier
+   D. Il n'a aucun effet réel sur l'impôt
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'amortissement est une déduction fiscale planifiée, fondée sur le coût et non sur la valeur de marché.
+
+### Question 2
+
+Bonne réponse : Faux. L'amortissement peut être pratiqué quelle que soit l'évolution réelle de la valeur de marché du bien.
+
+### Question 3
+
+Bonne réponse : B. C'est une déduction sur le papier qui réduit le revenu imposable sans coût réel en trésorerie.
+
+## Points clés
+
+- L'amortissement est une déduction fiscale fondée sur le coût d'un bien au fil du temps.
+- Il est indépendant de l'évolution réelle de la valeur de marché du bien.
+- Il peut réduire sensiblement le revenu imposable d'un propriétaire.
+
+===== RED-L1-027
+TITLE: Qu'est-ce qu'un échange 1031 ? (En termes simples)
+SUMMARY: Découvrez l'idée de base d'un échange 1031 aux États-Unis : reporter l'impôt sur la vente d'un bien d'investissement en réinvestissant le produit de la vente.
+# Qu'est-ce qu'un échange 1031 ? (En termes simples)
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- expliquer l'idée de base d'un échange 1031.
+- expliquer ce que signifie « reporter » l'impôt, par opposition à le supprimer.
+- reconnaître que des règles et des délais stricts s'appliquent.
+
+## Contenu principal
+
+### L'idée de base
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : il s'agit d'une disposition fiscale américaine, qui n'existe pas dans les autres pays. La France n'a pas d'équivalent général ; la plus-value immobilière y obéit à ses propres règles, avec des abattements selon la durée de détention.)* Un échange 1031 permet à un investisseur de vendre un bien d'investissement et de réinvestir le produit de la vente dans un autre bien « de même nature » (« like-kind »), en reportant l'impôt sur la plus-value qui serait normalement dû lors de la vente.
+
+### Reporter, et non supprimer
+
+C'est une distinction essentielle : l'impôt n'est pas effacé, il est repoussé. La plus-value reportée est généralement reportée sur le nouveau bien, et l'impôt peut finalement être dû plus tard, selon ce qui se passe lors des transactions futures.
+
+### Des règles strictes s'appliquent
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Les échanges 1031 comportent des délais précis d'identification et de conclusion ainsi que des exigences de procédure. Cette leçon d'introduction ne détaille pas ces points : l'objectif est de comprendre la notion de base avant les mécanismes.
+
+## Exemple pratique
+
+Un investisseur vend un bien locatif avec une plus-value importante et, au lieu de payer immédiatement l'impôt sur la plus-value, utilise un échange 1031 pour réinvestir le produit dans un nouveau bien locatif : il reporte cet impôt au lieu de le payer tout de suite.
+
+## Quiz pratique
+
+1. Un échange 1031 permet principalement à un investisseur :
+   A. De supprimer définitivement l'impôt sur la plus-value
+   B. De reporter l'impôt sur la plus-value en réinvestissant dans un bien de même nature
+   C. D'échapper entièrement à la taxe foncière
+   D. De se passer d'inspection du logement
+
+2. Vrai ou faux : un échange 1031 supprime l'impôt dû au lieu de le repousser.
+
+3. Que désigne généralement l'expression « de même nature » dans ce contexte ?
+   A. Deux maisons identiques
+   B. Des biens d'investissement qui peuvent bénéficier de l'échange selon les règles
+   C. Deux actifs quelconques de même prix
+   D. Une marque particulière de bien
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un échange 1031 reporte l'impôt sur la plus-value, sans le supprimer.
+
+### Question 2
+
+Bonne réponse : Faux. L'impôt est repoussé, et non effacé.
+
+### Question 3
+
+Bonne réponse : B. « De même nature » désigne les types de biens d'investissement admissibles selon les règles applicables, et non des biens identiques.
+
+## Points clés
+
+- Un échange 1031 reporte l'impôt sur la plus-value en réinvestissant le produit dans un autre bien admissible.
+- Reporter l'impôt n'est pas la même chose que le supprimer.
+- Des règles et des délais stricts s'appliquent ; ils sont approfondis dans des leçons ultérieures.
+
+===== RED-L1-028
+TITLE: Les bases du rôle de bailleur : de quoi êtes-vous réellement responsable ?
+SUMMARY: Découvrez les principales responsabilités que prend un bailleur, distinctes de celles qui incombent au locataire.
+# Les bases du rôle de bailleur : de quoi êtes-vous réellement responsable ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- citer les principales responsabilités d'un bailleur.
+- distinguer les responsabilités du bailleur de celles du locataire.
+- expliquer pourquoi comprendre ce partage compte avant de mettre un bien en location.
+
+## Contenu principal
+
+### Les principales responsabilités du bailleur
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : les obligations exactes varient selon l'État ou le pays et selon les clauses du bail. En France, le bailleur doit notamment fournir un logement décent et en assurer les grosses réparations, le locataire ayant à sa charge l'entretien courant et les menues réparations ; vérifiez les textes applicables.)* Le bailleur est généralement responsable de maintenir le bien en état d'être habité, ce qui comprend en principe les équipements principaux (plomberie, chauffage, problèmes de structure) et le respect des normes locales de logement.
+
+### Ce dont le locataire est généralement responsable
+
+Le locataire est généralement responsable de l'entretien courant de son logement, du respect des clauses du bail et, souvent, du signalement rapide des problèmes ; le partage précis est habituellement prévu dans le bail lui-même.
+
+### Pourquoi ce partage compte
+
+Un nouveau bailleur qui ne comprend pas ces responsabilités s'expose à des risques juridiques (s'il ne respecte pas ses obligations d'habitabilité) ou à des coûts inutiles (s'il prend en charge ce qui relevait en réalité du locataire). Des clauses de bail claires aident à éviter les litiges des deux côtés.
+
+## Exemple pratique
+
+Un locataire signale une panne de chauffage en hiver. Il s'agit généralement d'une responsabilité du bailleur (un équipement principal qui affecte l'habitabilité), et non d'une réparation que le locataire doit faire lui-même.
+
+## Quiz pratique
+
+1. Le bailleur est généralement responsable :
+   A. De la propreté au quotidien du logement du locataire
+   B. Du maintien du bien en état d'être habité, y compris des équipements principaux
+   C. Des effets personnels du locataire
+   D. De la situation professionnelle du locataire
+
+2. Vrai ou faux : le partage exact des responsabilités entre bailleur et locataire est identique partout, quels que soient le lieu ou le bail.
+
+3. Pourquoi est-il important pour un nouveau bailleur de comprendre ce partage des responsabilités ?
+   A. Ce n'est pas important du tout
+   B. Cela aide à éviter les risques juridiques et les coûts inutiles
+   C. Cela ne concerne que l'immobilier commercial
+   D. Cela n'a aucun lien avec le bail
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le bailleur prend généralement en charge l'habitabilité et les équipements principaux.
+
+### Question 2
+
+Bonne réponse : Faux. Les responsabilités varient selon le lieu et les clauses du bail.
+
+### Question 3
+
+Bonne réponse : B. Comprendre ce partage aide à éviter les problèmes juridiques et financiers.
+
+## Points clés
+
+- Le bailleur prend généralement en charge l'habitabilité et les équipements principaux.
+- Le locataire prend généralement en charge l'entretien courant et le respect des clauses du bail.
+- Des clauses de bail claires aident à éviter les litiges sur les responsabilités.
+
+===== RED-L1-029
+TITLE: Qu'est-ce qu'un bail, et que doit-il contenir ?
+SUMMARY: Découvrez ce qu'est juridiquement un bail, et les clauses essentielles que tout bail doit traiter clairement.
+# Qu'est-ce qu'un bail, et que doit-il contenir ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir un bail en termes simples.
+- citer les clauses essentielles qu'un bail doit traiter.
+- expliquer pourquoi un accord verbal représente un vrai risque.
+
+## Contenu principal
+
+### Ce qu'est un bail
+
+Un bail est un contrat juridiquement contraignant entre un bailleur et un locataire, qui fixe les conditions dans lesquelles le locataire peut occuper le bien.
+
+### Les clauses essentielles d'un bail
+
+Un bail solide traite généralement : le montant du loyer et sa date d'échéance, la durée du bail, les conditions du dépôt de garantie, la répartition de l'entretien et les règles concernant par exemple les animaux ou la sous-location. Des clauses vagues ou absentes sont une source fréquente de litiges. (En France, le bail d'habitation doit être écrit et comporter des mentions obligatoires ; des modèles types existent pour les locations vides ou meublées.)
+
+### Pourquoi le « on verra bien » est un vrai risque
+
+Un accord verbal ou informel, sans clauses écrites claires, expose le bailleur comme le locataire si un désaccord survient plus tard : il n'existe aucune trace claire de ce qui a réellement été convenu. Un bail écrit protège les deux parties, et pas seulement le bailleur.
+
+## Exemple pratique
+
+Un bailleur et un locataire s'entendent oralement sur le loyer, mais ne fixent jamais par écrit de délai de préavis avant le départ. Lorsque le locataire part sans prévenir, le bailleur n'a aucune clause écrite sur laquelle s'appuyer, ce qui crée un vrai litige qu'un bail clair aurait pu éviter.
+
+## Quiz pratique
+
+1. Un bail est :
+   A. Un accord informel conclu par une poignée de main
+   B. Un contrat juridiquement contraignant qui fixe les conditions d'occupation
+   C. Un type de taxe foncière
+   D. Une aide publique au logement
+
+2. Vrai ou faux : un bail verbal offre la même protection qu'un bail écrit clair.
+
+3. Laquelle de ces clauses un bail doit-il généralement traiter ?
+   A. La couleur préférée du locataire
+   B. Le montant du loyer et sa date d'échéance
+   C. Les loisirs personnels du bailleur
+   D. Les prévisions météo
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un bail est un contrat juridiquement contraignant.
+
+### Question 2
+
+Bonne réponse : Faux. Un bail écrit offre une protection bien plus claire qu'un accord verbal.
+
+### Question 3
+
+Bonne réponse : B. Le montant du loyer et sa date d'échéance sont des clauses essentielles du bail.
+
+## Points clés
+
+- Un bail est un contrat juridiquement contraignant qui fixe les conditions d'occupation.
+- Les clauses essentielles comprennent le loyer, la durée, le dépôt de garantie et les responsabilités.
+- Un bail écrit protège bien mieux le bailleur et le locataire qu'un accord verbal.
+
+===== RED-L1-030
+TITLE: Le dépôt de garantie : ce que le bailleur peut faire, et ce qu'il ne peut pas faire
+SUMMARY: Découvrez l'objectif de base du dépôt de garantie et pourquoi le bailleur ne peut généralement pas l'utiliser comme bon lui semble.
+# Le dépôt de garantie : ce que le bailleur peut faire, et ce qu'il ne peut pas faire
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir le dépôt de garantie en termes simples.
+- expliquer ce qu'il est généralement censé couvrir.
+- reconnaître que le bailleur est soumis à de vraies limites légales quant à son utilisation.
+
+## Contenu principal
+
+### Ce qu'est le dépôt de garantie
+
+Le dépôt de garantie est une somme versée d'avance par le locataire et conservée par le bailleur pour couvrir d'éventuels loyers impayés ou des dégradations allant au-delà de l'usure normale, une fois la location terminée.
+
+### Ce qu'il est généralement censé couvrir
+
+Le dépôt de garantie est en principe destiné aux loyers impayés ou aux dégradations réelles, et non à l'usure normale qui résulte naturellement d'un usage ordinaire (comme une légère usure de la moquette ou de petits trous de clous pour accrocher des cadres).
+
+### De vraies limites légales
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : les plafonds, les délais et les règles précises varient beaucoup selon l'État ou le pays. En France, pour une location vide, le dépôt est en principe limité à un mois de loyer hors charges et doit être restitué dans un délai d'un à deux mois selon l'état des lieux de sortie ; vérifiez les règles en vigueur.)* De nombreuses législations plafonnent le montant du dépôt, exigent le détail des retenues et fixent des délais de restitution après le départ du locataire. Un bailleur qui ignore ces règles peut subir de vraies conséquences juridiques.
+
+## Exemple pratique
+
+Un locataire quitte le logement après deux ans, en laissant une légère usure de la moquette due à un usage normal. Un bailleur qui tenterait de retenir sur le dépôt le coût total d'une moquette neuve pourrait outrepasser ses droits : l'usure normale ne justifie généralement pas une retenue.
+
+## Quiz pratique
+
+1. Le dépôt de garantie est généralement destiné à couvrir :
+   A. Les dépenses personnelles du bailleur
+   B. Les loyers impayés ou les dégradations réelles allant au-delà de l'usure normale
+   C. L'usure normale due à un usage ordinaire
+   D. Les frais d'emménagement du locataire suivant
+
+2. Vrai ou faux : le bailleur peut généralement retenir une somme pour toute usure du bien, y compris l'usure normale.
+
+3. Qu'est-ce qui encadre souvent la manière et le délai de restitution du dépôt ?
+   A. Rien : cela dépend entièrement du bailleur
+   B. Des limites et des délais légaux qui varient selon la législation applicable
+   C. Une règle mondiale unique, appliquée partout de la même façon
+   D. La seule loi fédérale, sans variation entre États
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le dépôt couvre généralement les loyers impayés ou les dégradations réelles, et non l'usure normale.
+
+### Question 2
+
+Bonne réponse : Faux. L'usure normale ne justifie généralement pas une retenue.
+
+### Question 3
+
+Bonne réponse : B. Les limites et les délais légaux varient selon la législation applicable.
+
+## Points clés
+
+- Le dépôt de garantie couvre les loyers impayés ou les dégradations réelles, et non l'usure normale.
+- Le bailleur est soumis à de vraies limites légales quant à son utilisation.
+- Les règles et les délais de restitution du dépôt varient selon les lieux.
