@@ -1,71 +1,64 @@
 ---
 id: ORANGE-L1-036
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 36
-title: "Criando um roteiro de vendas simples"
-summary: "Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de roteiros de vendas."
-locale: "pt-BR"
+locale: pt-BR
+title: "Como montar um roteiro de vendas simples"
+summary: "Ensina a montar um roteiro de vendas flexível que guia a conversa sem soar robótico."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Criando um roteiro de vendas simples
+
+# Como montar um roteiro de vendas simples
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, você será capaz de:
-- explicar roteiros de vendas em palavras simples;
-- reconhecer quando esse conceito está sendo usado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- diferenciar influência ética de pressão e manipulação.
+- Explicar o objetivo de um roteiro de vendas e o que ele não é
+- Identificar as seções básicas que um roteiro de vendas simples deve incluir
+- Praticar o rascunho de um roteiro de vendas básico para uma oferta simples
 
 ## Conteúdo principal
 
-Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de **roteiros de vendas**.
+Um roteiro de vendas é um esboço flexível de como uma conversa de vendas deve fluir em geral, e não um discurso para recitar palavra por palavra. Roteiros que soam decorados e robóticos tendem a prejudicar a confiança, porque parecem impessoais e ensaiados, e não uma conversa de verdade. Um bom roteiro dá estrutura e deixa espaço para respostas naturais, no momento.
 
-Uma empresa sustentável não pode se concentrar apenas em conseguir um «sim». Uma boa decisão comercial precisa criar valor real para o cliente e, ao mesmo tempo, fazer sentido econômico para quem vende. Por isso, é necessário entender o que a outra pessoa está tentando alcançar, verificar se a oferta realmente é adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão bem informada.
+Um roteiro básico normalmente inclui: uma abertura (um jeito natural de começar a conversa e explicar por que você está entrando em contato), uma parte de descoberta (perguntas para entender a situação e o problema do cliente em potencial), uma ponte (ligar o que você oferece ao que acabou de descobrir) e um fechamento (um próximo passo claro). Isso não é para ser seguido de forma rígida — é um mapa, não um texto para ler ao pé da letra.
 
-Comece pela situação do cliente. Qual problema ele está tentando resolver? Qual resultado deseja alcançar? O que é mais importante: preço, rapidez, confiabilidade, conveniência, qualidade, redução de risco, suporte ou outra coisa? Não presuma que já sabe a resposta. Faça perguntas abertas, escute com atenção e confirme o que entendeu.
-
-Depois, conecte a oferta às prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não houver provas. Uma explicação específica é mais forte. Explique o que a oferta faz, por que isso importa para aquele cliente e quais evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética sempre deixa espaço para um «não». Uma reputação sólida no longo prazo vale mais do que uma venda obtida por pressão.
-
-O mesmo raciocínio vale para o marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a entender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipe de vendas terá de corrigir depois.
+O objetivo de um roteiro é a consistência sem perder a autenticidade: garantir que elementos importantes (como fazer perguntas de descoberta antes de apresentar a oferta) não sejam pulados, sem deixar de soar como uma pessoa real tendo uma conversa real.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa trabalhando com roteiros de vendas. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda primeiro procura entender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, ela diz isso. Esse comportamento protege a confiança e a reputação.
+**Abertura:** "Oi, percebi que você [detalhe específico relevante para a pessoa] — tem uns minutinhos?"
 
-Antes de agir, faça três perguntas: do que o cliente realmente precisa? Quais provas sustentam o valor que estou apresentando? Qual é o menor próximo passo razoável? Essas perguntas evitam muitos erros comerciais.
+**Descoberta:** "Antes de eu falar qualquer coisa sobre o que eu faço, você pode me contar um pouco sobre [situação relevante]?"
 
-## Quiz de prática
+**Ponte:** "Faz sentido — esse é exatamente o tipo de problema que [produto/serviço] foi criado para resolver, porque [ligação específica com o que a pessoa disse]."
 
-1. Explique com suas próprias palavras a ideia principal de roteiros de vendas.
-2. Descreva um comportamento que permita aplicar esse conceito de forma ética.
-3. Por que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como você poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+**Fechamento:** "Faria sentido [próximo passo específico e de baixo compromisso]?"
+
+Essa estrutura se adapta a quase qualquer conversa de vendas e ainda soa natural, porque as palavras de fato mudam conforme o que o cliente em potencial diz durante a descoberta.
+
+## Teste de prática
+
+1. O que é um roteiro de vendas, e o que ele não deve ser?
+2. Cite as quatro seções básicas de um roteiro de vendas simples.
+3. Por que roteiros decorados e robóticos prejudicam a confiança?
+4. Segundo esta lição, qual é o objetivo de usar um roteiro?
 
 ## Gabarito
-
-1. Uma boa resposta apresenta roteiros de vendas como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, baseado em informações relevantes e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos à reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+1. Um esboço flexível do fluxo da conversa, e não um discurso para recitar palavra por palavra.
+2. Abertura, descoberta, ponte, fechamento.
+3. Eles parecem impessoais e ensaiados, e não uma conversa de verdade, o que prejudica a confiança.
+4. Consistência (não pular elementos importantes) sem perder a autenticidade.
 
 ## Respostas e explicações
+1. Isso define o que um roteiro deve ser — um guia de estrutura, e não uma recitação rígida.
+2. Essas quatro seções formam a arquitetura básica da maioria das conversas de vendas eficazes.
+3. A autenticidade importa para construir confiança, e roteiros rígidos minam essa autenticidade.
+4. Equilibrar estrutura e conversa natural é o propósito central de usar um roteiro.
 
-1. Não basta memorizar uma definição. Você deve conseguir relacionar o conceito a uma decisão real e a um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informações suficientes para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege as duas partes e favorece satisfação, retenção, indicações e reputação.
-4. Uma boa aplicação transforma o conceito em uma ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Roteiros de vendas é uma habilidade prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Use valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para as duas partes.
-- A venda ética sempre permite que o cliente tome uma decisão bem informada.
+## Pontos-chave
+- Um roteiro de vendas é um guia de estrutura flexível, e não um discurso palavra por palavra.
+- As seções básicas são abertura, descoberta, ponte e fechamento.
+- O objetivo é a consistência em cobrir os elementos importantes, sem sacrificar a autenticidade.

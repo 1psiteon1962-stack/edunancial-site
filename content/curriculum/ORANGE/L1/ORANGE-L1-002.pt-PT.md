@@ -1,71 +1,64 @@
 ---
 id: ORANGE-L1-002
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 2
-title: "Porque é que as pessoas compram: problemas, desejos e resultados"
-summary: "Vendas e marketing tornam-se mais fáceis de compreender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição aborda os problemas, desejos e resultados que motivam uma compra."
-locale: "pt-PT"
+locale: pt-PT
+title: "Vendas x marketing: dois trabalhos diferentes"
+summary: "Esclarece a diferença entre vendas e marketing para que os termos deixem de ser usados como sinônimos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Porque é que as pessoas compram: problemas, desejos e resultados
+
+# Vendas x marketing: dois trabalhos diferentes
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, será capaz de:
-- explicar os problemas, desejos e resultados que motivam uma compra em palavras simples;
-- reconhecer quando este conceito está a ser utilizado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- distinguir influência ética de pressão e manipulação.
+- Diferenciar a função do marketing da função de vendas
+- Explicar como as duas trabalham juntas em vez de competir
+- Identificar qual função está a acontecer num exemplo real
 
 ## Conteúdo principal
 
-Vendas e marketing tornam-se mais fáceis de compreender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição aborda **os problemas, desejos e resultados que motivam uma compra**.
+As pessoas falam "vendas e marketing" como se fosse uma palavra só, mas são dois trabalhos diferentes que, por acaso, jogam na mesma equipa.
 
-Uma empresa sustentável não pode concentrar-se apenas em conseguir um «sim». Uma boa decisão comercial deve criar valor real para o cliente e, ao mesmo tempo, fazer sentido económico para quem vende. Por isso, é necessário compreender o que a outra pessoa pretende alcançar, verificar se a oferta é realmente adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão informada.
+Marketing é levar a mensagem certa até as pessoas certas para que elas saibam que existe e entendam o que oferece. É o cartaz publicitário, o post nas redes sociais, o panfleto, a indicação que alguém ouve de um amigo. O trabalho do marketing é gerar conhecimento e interesse — fazer alguém levantar a mão e dizer "me conte mais".
 
-Comece pela situação do cliente. Que problema está a tentar resolver? Que resultado pretende alcançar? O que é mais importante: preço, rapidez, fiabilidade, conveniência, qualidade, redução de risco, apoio ou outra coisa? Não presuma que já conhece a resposta. Faça perguntas abertas, ouça com atenção e confirme o que compreendeu.
+Vendas é o que acontece depois que essa mão se levanta. Vendas é a conversa individual (ou em pequeno grupo) que transforma interesse em decisão. É responder perguntas, tratar das hesitações e ajudar a pessoa a se comprometer.
 
-Depois, relacione a oferta com as prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não existam provas. Uma explicação específica é mais forte. Explique o que a oferta faz, porque é importante para aquele cliente e que evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
+Pense nisso como uma pescaria. O marketing joga uma rede ampla e puxa as pessoas para perto do barco. Vendas é o que acontece quando alguém já está no barco — ajudar essa pessoa a decidir ficar.
 
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética deixa sempre espaço para um «não». Uma reputação sólida a longo prazo vale mais do que uma venda obtida através de pressão.
-
-O mesmo raciocínio aplica-se ao marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a compreender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipa de vendas terá de corrigir mais tarde.
+Um erro comum de quem está a começar um negócio é achar que, se o marketing funcionar bem o bastante, as vendas não serão necessárias. Isso raramente é verdade. Mesmo com uma mensagem de marketing perfeita, a maioria das pessoas ainda tem perguntas, dúvidas ou precisa de segurança antes de se comprometer. Essa conversa é vendas, e pulá-la custa muitos negócios.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa a trabalhar com os problemas, desejos e resultados que motivam uma compra. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda procura primeiro compreender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, diz isso abertamente. Este comportamento protege a confiança e a reputação.
+Ntege, que tem um pequeno negócio de comida em Uganda, posta um vídeo preparando seu prato especial e compartilha na região. Quinze pessoas mandam mensagem perguntando o preço e como fazer a encomenda. Isso é o marketing funcionando — ele gerou atenção e interesse.
 
-Antes de agir, faça três perguntas: de que precisa realmente o cliente? Que provas sustentam o valor que estou a apresentar? Qual é o menor próximo passo razoável? Estas perguntas evitam muitos erros comerciais.
+Agora essas quinze pessoas estão a fazer perguntas: "É fresco?" "Fazem entregas?" "E se eu não gostar?" A forma como Ntege responde a essas perguntas, constrói confiança e transforma cada conversa numa encomenda a sério — isso é vendas.
 
-## Questionário prático
+Se Ntege só tivesse postado o vídeo e nunca respondesse às mensagens, o marketing teria funcionado, mas as vendas teriam fracassado, e ele teria desperdiçado o esforço de fazer o vídeo.
 
-1. Explique pelas suas próprias palavras a ideia principal de os problemas, desejos e resultados que motivam uma compra.
-2. Descreva um comportamento que permita aplicar este conceito de forma ética.
-3. Porque é que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+## Teste de prática
 
-## Soluções
+1. Qual é o principal trabalho do marketing?
+2. Qual é o principal trabalho de vendas?
+3. Na metáfora da pescaria, o que a "rede" representa?
+4. Porque um marketing forte, sozinho, não garante uma venda?
 
-1. Uma boa resposta apresenta os problemas, desejos e resultados que motivam uma compra como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, basear-se em informação relevante e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos na reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+## Chave de Respostas
+1. Levar a mensagem certa às pessoas certas para gerar conhecimento e interesse.
+2. Transformar esse interesse numa decisão ou compromisso a sério.
+3. O marketing — a ferramenta que atrai a atenção das pessoas.
+4. Porque a maioria das pessoas ainda precisa de respostas e de confiança antes de se comprometer, e isso é a conversa de vendas.
 
 ## Respostas e explicações
+1. O papel do marketing termina quando alguém fica a saber e fica curioso — ele não precisa de fechar nada.
+2. Vendas começa onde o marketing para, transformando curiosidade em compromisso.
+3. A rede (marketing) puxa as pessoas para perto do barco, mas não faz com que fiquem nele.
+4. Interesse não é a mesma coisa que certeza — vendas cuida da parte da certeza.
 
-1. Não basta memorizar uma definição. Deve conseguir relacionar o conceito com uma decisão real e um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informação suficiente para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege ambas as partes e favorece satisfação, retenção, recomendações e reputação.
-4. Uma boa aplicação transforma o conceito numa ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Os problemas, desejos e resultados que motivam uma compra é uma competência prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Utilize valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para ambas as partes.
-- A venda ética permite sempre que o cliente tome uma decisão informada.
+## Pontos-chave
+- O marketing gera conhecimento; vendas gera compromisso.
+- As duas funções trabalham em sequência, não em competição.
+- Pular a conversa de vendas depois que o marketing deu certo desperdiça o esforço de marketing.

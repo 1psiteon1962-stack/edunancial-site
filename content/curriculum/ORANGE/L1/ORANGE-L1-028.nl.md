@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-028
 track: ORANGE
-officialTrackName: "Verkoop & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 28
-title: "Win-win formuleren"
-summary: "Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over win-win denken."
-locale: "nl"
+locale: nl
+title: "Win-winpresentatie"
+summary: "Leert je een deal zo te presenteren dat beide partijen echt het gevoel hebben dat ze er iets aan overhouden, wat de relatie op lange termijn versterkt."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Win-win formuleren
+
+# Win-winpresentatie
 
 ## Leerdoelen
-
-Na deze les kun je:
-- win-win denken in eenvoudige woorden uitleggen;
-- herkennen wanneer dit concept goed of slecht wordt toegepast;
-- het principe toepassen op een eenvoudige verkoop- of marketingsituatie;
-- ethische beïnvloeding onderscheiden van druk en manipulatie.
+- Uitleggen waarom win-winuitkomsten tot sterkere zakelijke relaties op lange termijn leiden
+- Het verschil herkennen tussen een echte win-win en een verkapte eenzijdige winst
+- Oefenen met het eerlijk presenteren van een deal zodat het wederzijdse voordeel duidelijk wordt
 
 ## Kerninhoud
 
-Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over **win-win denken**.
+Een win-windeal is een deal waarbij beide partijen er echt iets aan overhouden, niet een deal waarbij één partij te horen krijgt dat ze wint terwijl ze in werkelijkheid meer opgeeft dan ze beseft. Een echte win-winpresentatie hangt ervan af of de deal echt eerlijk is, niet of hij alleen eerlijk klinkt.
 
-Een duurzaam bedrijf kan zich niet alleen richten op het verkrijgen van een 'ja'. Een goede commerciële beslissing moet echte waarde opleveren voor de klant en tegelijkertijd zakelijk verantwoord zijn voor de verkoper. Daarom moet je begrijpen wat de ander probeert te bereiken, bepalen of het aanbod werkelijk passend is, de waarde helder communiceren en de klant in staat stellen een geïnformeerde beslissing te nemen.
+Dat is belangrijk, verder dan één transactie, omdat zakelijke relaties zelden eenmalig zijn. Een klant die zich echt goed behandeld voelt, komt veel eerder terug, beveelt anderen aan en praat positief over het bedrijf. Een klant die later beseft dat een deal niet echt wederzijds was — dat hij overgehaald is tot iets scheefs — wordt vaak een bron van negatieve in plaats van positieve mond-tot-mondreclame.
 
-Begin bij de situatie van de klant. Welk probleem probeert de klant op te lossen? Welk resultaat wil diegene bereiken? Wat is het belangrijkst: prijs, snelheid, betrouwbaarheid, gemak, kwaliteit, risicobeperking, ondersteuning of iets anders? Ga niet uit van aannames. Stel open vragen, luister aandachtig en bevestig wat je hebt begrepen.
-
-Koppel vervolgens het aanbod aan de prioriteiten van de klant. Vermijd vage uitspraken zoals 'de beste' of 'geweldig' als je die niet kunt onderbouwen. Een specifieke uitleg is sterker. Leg uit wat het aanbod doet, waarom dat voor deze klant relevant is en welk bewijs de bewering ondersteunt. Belangrijke beperkingen moeten eveneens duidelijk worden genoemd.
-
-Stel ten slotte een passende volgende stap voor. Dat kan een aankoop zijn, maar ook een demonstratie, offerte, proefperiode, vervolggesprek of helemaal geen transactie. Ethische verkoop laat altijd ruimte voor 'nee'. Een goede reputatie op lange termijn is waardevoller dan een verkoop die door druk tot stand komt.
-
-Hetzelfde geldt voor marketing. Marketing moet de aandacht van geschikte mensen trekken en hen helpen begrijpen of een aanbod relevant voor hen is. Het hoort geen valse verwachtingen te creëren die de verkoper later moet corrigeren.
+Een deal eerlijk als win-win presenteren betekent dat je duidelijk kunt verwoorden wat de ander er echt aan overhoudt, in termen waarmee hij het zelf eens zou zijn, niet alleen in termen die de verkoper goed uitkomen.
 
 ## Praktijkvoorbeeld
 
-Stel je een klein bedrijf voor dat werkt aan win-win denken. In plaats van direct te pitchen, probeert de verkoper eerst de situatie van de klant te begrijpen, controleert of het aanbod werkelijk past, legt de relevante waarde helder uit en stelt een redelijke volgende stap voor. Als het aanbod niet passend is, wordt dat eerlijk gezegd. Zo worden vertrouwen en reputatie beschermd.
-
-Stel jezelf vóór een actie drie vragen: wat heeft de klant werkelijk nodig? Welk bewijs ondersteunt de voorgestelde waarde? Wat is de kleinste redelijke volgende stap? Deze vragen voorkomen veel voorkomende verkoopfouten.
+Een leverancier biedt een kleiner bedrijf een volumekorting aan in ruil voor een langer contract. Oneerlijk gepresenteerd: 'Dit is een geweldige deal voor je' (vaag, eigenbelang). Gepresenteerd als echte win-win: 'Jij krijgt een lagere prijs per stuk en voorspelbare prijzen voor het komende jaar, en ik krijg een vaste, voorspelbare vraag waar ik mijn productie op kan plannen — dit werkt goed voor ons allebei.' De tweede presentatie is specifiek genoeg dat het kleinere bedrijf zelf kan controleren of het echt klopt, in plaats van de verkoper op zijn woord te moeten geloven.
 
 ## Oefenquiz
 
-1. Leg in je eigen woorden de hoofdgedachte van win-win denken uit.
-2. Noem gedrag waarmee dit concept op een ethische manier kan worden toegepast.
-3. Waarom is een goede match tussen klant en aanbod belangrijker dan het forceren van een verkoop?
-4. Hoe zou je deze les kunnen toepassen op een echt product, een dienst, een sollicitatiegesprek of een persoonlijk project?
+1. Wat maakt een deal tot een echte win-win, in plaats van een verkapte eenzijdige winst?
+2. Waarom is een win-winpresentatie belangrijk, verder dan één transactie?
+3. Wat gebeurt er als een klant later beseft dat een deal niet echt wederzijds was?
+4. Wat maakt een win-winpresentatie volgens deze les eerlijk?
 
 ## Antwoordsleutel
-
-1. Een goed antwoord beschrijft win-win denken als een praktisch middel om de kwaliteit van een commerciële beslissing te verbeteren.
-2. Het gedrag moet transparant zijn, op relevante informatie berusten en de beslissingsvrijheid van de ander respecteren.
-3. Een slechte match kan leiden tot retouren, klachten, tijdverlies, reputatieschade en ontevreden klanten.
-4. Antwoorden verschillen, maar moeten een echte situatie, de gewenste waarde en een ethische volgende stap benoemen.
+1. Beide partijen houden er echt iets aan over, in plaats van alleen te horen dat ze winnen.
+2. Omdat zakelijke relaties doorlopen, en hoe een klant zich achteraf voelt invloed heeft op toekomstige zaken en aanbevelingen.
+3. Hij wordt vaak een bron van negatieve in plaats van positieve mond-tot-mondreclame.
+4. Specifiek genoeg zijn over wat de ander eraan overhoudt dat hij zelf kan controleren of het klopt.
 
 ## Antwoorden en uitleg
-
-1. Alleen een definitie uit het hoofd leren is niet genoeg. Je moet het concept kunnen koppelen aan een echte beslissing en een concreet klantresultaat.
-2. Gezonde commerciële beïnvloeding geeft voldoende informatie om te beslissen in plaats van verborgen druk te gebruiken.
-3. Een goede match beschermt beide partijen en bevordert tevredenheid, klantbehoud, aanbevelingen en reputatie.
-4. Een goede toepassing zet het concept om in concrete actie. Het voorbeeld kan verschillen, maar de redenering moet helder, realistisch en ethisch blijven.
+1. Dit onderscheidt echt wederzijds voordeel van manipulatieve presentatie die alleen wederzijds klinkt.
+2. Een gezonde relatie op lange termijn hangt ervan af of deals echt eerlijk zijn, niet of ze op het moment zelf eerlijk lijken.
+3. Achteraf ontdekken dat een deal scheef was, beschadigt het vertrouwen en kan een klant in een criticus veranderen.
+4. Specificiteit en controleerbaarheid onderscheiden een eerlijke win-winpresentatie van vage geruststelling.
 
 ## Belangrijkste punten
-
-- Win-win denken is een praktische vaardigheid, geen truc.
-- Goede commerciële communicatie begint met het begrijpen van de situatie van de klant.
-- Gebruik specifieke waarde en bewijs in plaats van overdrijving.
-- Een duurzame verkoop moet voor beide partijen zinvol zijn.
-- Ethische verkoop stelt de klant altijd in staat een geïnformeerde beslissing te nemen.
+- Een echte win-win betekent dat beide partijen er iets echts, controleerbaars en specifieks aan overhouden.
+- Een win-winpresentatie is belangrijk omdat zakelijke relaties doorlopen en geen eenmalige gebeurtenissen zijn.
+- Vage geruststelling ('dit is een geweldige deal voor je') is geen eerlijke presentatie — specificiteit maakt haar geloofwaardig.

@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-034
 track: ORANGE
-officialTrackName: "Vertrieb & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 34
-title: "Conversion messen"
-summary: "Vertrieb und Marketing werden verständlicher, wenn man sie als eine Reihe von Entscheidungen betrachtet und nicht als Sammlung von Tricks. Diese Lektion behandelt Conversion-Messung."
-locale: "de"
+locale: de
+title: "Konversion messen"
+summary: "Stellt die Konversionsrate als zentrale Kennzahl vor, um zu verstehen, wie wirksam ein Verkaufsprozess tatsächlich ist."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Conversion messen
+
+# Konversion messen
 
 ## Lernziele
-
-Nach dieser Lektion können Sie:
-- Conversion-Messung in einfachen Worten erklären;
-- erkennen, wann dieses Konzept sinnvoll oder schlecht eingesetzt wird;
-- das Prinzip auf eine einfache Vertriebs- oder Marketingsituation anwenden;
-- ethische Einflussnahme von Druck und Manipulation unterscheiden.
+- Die Konversionsrate definieren und erklären, wie man sie berechnet
+- Erklären, warum die Konversionsrate wichtiger ist als bloße Aktivitätszahlen
+- Üben, eine einfache Konversionsrate aus Beispielzahlen zu berechnen
 
 ## Kerninhalt
 
-Vertrieb und Marketing werden verständlicher, wenn man sie als eine Reihe von Entscheidungen betrachtet und nicht als Sammlung von Tricks. Diese Lektion behandelt **Conversion-Messung**.
+Die Konversionsrate ist der Prozentsatz der Menschen, die von einer Stufe zur nächsten übergehen – meist der Prozentsatz der Interessenten, die zu zahlenden Kunden werden. Man berechnet sie, indem man die Zahl der Konvertierten durch die Gesamtzahl derer teilt, die diese Stufe erreicht haben, und mit 100 multipliziert, um einen Prozentsatz zu erhalten.
 
-Ein nachhaltiges Unternehmen darf sich nicht nur darauf konzentrieren, ein „Ja“ zu bekommen. Eine gute geschäftliche Entscheidung muss dem Kunden echten Nutzen bringen und zugleich für den Anbieter wirtschaftlich sinnvoll sein. Deshalb müssen Sie verstehen, was die andere Person erreichen möchte, prüfen, ob das Angebot tatsächlich passt, den Nutzen klar kommunizieren und dem Kunden eine informierte Entscheidung ermöglichen.
+Bloße Aktivitätszahlen können irreführend sein. Ein Verkäufer, der hundert Anrufe pro Woche macht, klingt fleißig, aber wenn nur ein Anruf zu einem Verkauf führt, ist das eine Konversionsrate von 1 % – eine ganz andere Geschichte als bei jemandem, der zwanzig Anrufe macht und fünf abschließt, also 25 %. Die Konversionsrate zeigt die tatsächliche Wirksamkeit, nicht nur Aufwand oder Menge.
 
-Beginnen Sie mit der Situation des Kunden. Welches Problem soll gelöst werden? Welches Ergebnis wird angestrebt? Was ist besonders wichtig: Preis, Geschwindigkeit, Zuverlässigkeit, Bequemlichkeit, Qualität, Risikominderung, Unterstützung oder etwas anderes? Raten Sie nicht. Stellen Sie offene Fragen, hören Sie aufmerksam zu und bestätigen Sie, was Sie verstanden haben.
-
-Verbinden Sie anschließend das Angebot mit den genannten Prioritäten. Vermeiden Sie unbelegte Aussagen wie „das Beste“ oder „unglaublich“. Konkrete Erklärungen sind glaubwürdiger. Erklären Sie, was das Angebot leistet, warum das für diesen Kunden wichtig ist und welche Belege die Aussage stützen. Wesentliche Einschränkungen sollten ebenfalls offen genannt werden.
-
-Schlagen Sie schließlich einen angemessenen nächsten Schritt vor. Das kann ein Kauf sein, aber ebenso eine Vorführung, ein Angebot, eine Testphase, ein weiteres Gespräch oder auch keine Transaktion. Ethischer Verkauf lässt immer Raum für ein „Nein“. Ein langfristig guter Ruf ist wertvoller als ein Abschluss, der durch Druck erzwungen wurde.
-
-Dasselbe gilt für Marketing. Marketing soll die Aufmerksamkeit geeigneter Menschen gewinnen und ihnen helfen zu verstehen, ob ein Angebot für sie relevant ist. Es sollte keine falschen Erwartungen erzeugen, die der Vertrieb später korrigieren muss.
+Wer die Konversionsrate auf jeder Pipeline-Stufe verfolgt (nicht nur beim endgültigen Verkauf), erkennt genau, wo ein Prozess schwach ist. Eine niedrige Konversion von „Kontaktiert“ zu „Im Gespräch“ deutet auf ein anderes Problem hin als eine niedrige Konversion von „Angebot verschickt“ zu „Abgeschlossen“.
 
 ## Praxisbeispiel
 
-Stellen Sie sich ein kleines Unternehmen vor, das sich mit Conversion-Messung beschäftigt. Anstatt sofort ein Angebot zu präsentieren, versucht die verkaufende Person zuerst, die Situation des Kunden zu verstehen, prüft die tatsächliche Eignung des Angebots, erklärt den Nutzen klar und schlägt einen angemessenen nächsten Schritt vor. Passt das Angebot nicht, wird das offen gesagt. So werden Vertrauen und Ruf geschützt.
-
-Stellen Sie sich vor jeder Handlung drei Fragen: Was braucht der Kunde tatsächlich? Welche Belege stützen den dargestellten Nutzen? Was ist der kleinste sinnvolle nächste Schritt? Diese Fragen verhindern viele typische Vertriebsfehler.
+Ein Verkäufer verschickt in einem Monat fünfzig Angebote und schließt zehn davon ab. Konversionsrate: 10 geteilt durch 50, mal 100, ergibt 20 %. Im nächsten Monat verbessert er seine Angebotsvorlage anhand häufiger Einwände, die er gehört hat, verschickt vierzig Angebote und schließt zwölf ab. Konversionsrate: 12 geteilt durch 40, mal 100, ergibt 30 %. Obwohl weniger Angebote verschickt wurden, bedeutet die bessere Konversionsrate mehr Abschlüsse mit weniger Gesamtaufwand – ein klares Zeichen, dass die Verbesserung gewirkt hat.
 
 ## Übungsquiz
 
-1. Erklären Sie mit eigenen Worten die Grundidee von Conversion-Messung.
-2. Nennen Sie ein Verhalten, mit dem dieses Konzept ethisch angewendet werden kann.
-3. Warum ist die Passung zwischen Kunde und Angebot wichtiger als ein erzwungener Abschluss?
-4. Wie könnten Sie diese Lektion auf ein echtes Produkt, eine Dienstleistung, ein Bewerbungsgespräch oder ein persönliches Projekt anwenden?
+1. Definieren Sie die Konversionsrate und wie sie berechnet wird.
+2. Warum können bloße Aktivitätszahlen für sich allein irreführend sein?
+3. Wenn jemand 25 Angebote verschickt und 5 abschließt, wie hoch ist seine Konversionsrate?
+4. Warum ist es nützlich, die Konversion auf jeder Pipeline-Stufe zu verfolgen und nicht nur beim endgültigen Verkauf?
 
 ## Lösungsschlüssel
-
-1. Eine gute Antwort beschreibt Conversion-Messung als praktisches Mittel, um die Qualität einer geschäftlichen Entscheidung zu verbessern.
-2. Das Verhalten sollte transparent sein, auf relevanten Informationen beruhen und die Entscheidungsfreiheit der anderen Person respektieren.
-3. Ein unpassender Verkauf kann Rückgaben, Beschwerden, Zeitverlust, Rufschäden und unzufriedene Kunden verursachen.
-4. Die Antworten können unterschiedlich sein, sollten aber eine reale Situation, den angestrebten Nutzen und einen ethischen nächsten Schritt benennen.
+1. Der Prozentsatz der Menschen, die von einer Stufe zur nächsten übergehen, berechnet als (Zahl der Konvertierten ÷ Gesamtzahl auf der Stufe) × 100.
+2. Weil viel Aktivität bei geringer Wirksamkeit schlechte Ergebnisse bringt, auch wenn es fleißig aussieht.
+3. 5 ÷ 25 × 100 = 20 %.
+4. Es zeigt genau, wo im Prozess Interessenten hängen bleiben, und ermöglicht gezielte Verbesserungen.
 
 ## Antworten und Erklärungen
-
-1. Es reicht nicht, eine Definition auswendig zu lernen. Sie sollten das Konzept mit einer realen Entscheidung und einem konkreten Kundenergebnis verbinden können.
-2. Gesunde geschäftliche Einflussnahme liefert ausreichende Informationen für eine Entscheidung, statt versteckten Druck einzusetzen.
-3. Eine gute Passung schützt beide Seiten und fördert Zufriedenheit, Kundenbindung, Empfehlungen und Reputation.
-4. Eine gute Anwendung macht aus dem Konzept eine konkrete Handlung. Das Beispiel kann variieren, doch die Begründung sollte klar, realistisch und ethisch bleiben.
+1. Das ist die zentrale Formel und Definition, die die Lektion einführt.
+2. Menge allein zeigt nicht, ob der Aufwand tatsächlich Ergebnisse bringt.
+3. Direkte Anwendung der Formel: 5 geteilt durch 25 ist 0,2, mal 100 ist 20 %.
+4. Das Verfolgen auf Stufenebene zeigt konkrete Schwachstellen statt nur einer Gesamtzahl für Erfolg oder Misserfolg.
 
 ## Wichtigste Erkenntnisse
-
-- Conversion-Messung ist eine praktische Fähigkeit und kein Trick.
-- Gute geschäftliche Kommunikation beginnt mit dem Verständnis der Kundensituation.
-- Verwenden Sie konkrete Nutzenargumente und Belege statt Übertreibungen.
-- Ein nachhaltiger Verkauf muss für beide Seiten sinnvoll sein.
-- Ethischer Verkauf ermöglicht dem Kunden immer eine informierte Entscheidung.
+- Die Konversionsrate misst Wirksamkeit, berechnet als Konvertierte geteilt durch Gesamtzahl, mal 100.
+- Viel Aktivität garantiert keine Ergebnisse – die Konversionsrate zeigt die tatsächliche Wirksamkeit.
+- Wer die Konversion auf jeder Pipeline-Stufe verfolgt, erkennt genau, wo ein Prozess verbessert werden muss.

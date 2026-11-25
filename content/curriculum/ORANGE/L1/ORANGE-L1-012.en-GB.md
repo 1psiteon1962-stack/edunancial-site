@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 12
-title: "Prospecting Basics"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on prospecting. The practical principle is finding people or organisations likely to benefit from an offer."
-locale: "en-GB"
+locale: en-GB
+title: "Building Ethical Urgency"
+summary: "Teaches the difference between honest urgency and manipulative pressure tactics."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Prospecting Basics
+
+# Building Ethical Urgency
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain prospecting in plain language.
-- Recognise when prospecting is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Distinguish between honest urgency and manipulative pressure
+- Identify real reasons a decision might genuinely be time-sensitive
+- Recognise fake urgency tactics and why they damage trust
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **prospecting**. The practical principle is **finding people or organisations likely to benefit from an offer**.
+Urgency can genuinely help a customer — reminding them that a real deadline exists, or that limited availability is a real constraint, helps them make a timely decision instead of drifting into inaction. But urgency can also be faked, and faking it is one of the fastest ways to destroy trust once a customer figures it out, which they usually do.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+Honest urgency is based on something true: a seasonal offer that actually ends, limited inventory that's actually limited, a price that's actually increasing on a specific date. Fake urgency invents a deadline or scarcity that doesn't really exist, just to pressure someone into deciding faster than they otherwise would.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+The test is simple: if the "urgency" would still be true if the customer checked back in a month, it's honest. If the urgency magically resets or never quite materializes, it's manufactured, and customers who catch on to that stop trusting anything the seller says afterward.
 
 ## Worked Example
 
-Suppose a small business is working on prospecting. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates finding people or organisations likely to benefit from an offer in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A seller says, "This price is only good today." If that's genuinely true — the price actually goes up tomorrow for a real reason — that's honest urgency. If the same "today only" price is still being offered next week to a different customer, it was never true, and any customer who compares notes with a friend will notice the deception.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind prospecting?
-2. Which behaviour best demonstrates finding people or organisations likely to benefit from an offer?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What is the difference between honest urgency and fake urgency?
+2. Give an example of a genuine reason for urgency.
+3. What is the "test" this lesson gives for checking whether urgency is honest?
+4. Why does fake urgency damage trust more than just not creating any urgency at all?
 
 ## Answer Key
-
-1. A strong answer explains prospecting as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies finding people or organisations likely to benefit from an offer openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Honest urgency is based on something true; fake urgency invents a deadline or scarcity that doesn't exist.
+2. Any real example works (limited seasonal inventory, an actual price increase date, a real registration deadline).
+3. Whether the urgency would still be true if the customer checked back later.
+4. Because once discovered, it signals the seller is willing to lie, which undermines trust in everything else they've said.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This is the core distinction the lesson draws between ethical and manipulative sales tactics.
+2. A real answer names a genuine time or supply constraint.
+3. This test gives a concrete way to self-check urgency claims before using them.
+4. Fake urgency isn't just neutral — it actively damages credibility once uncovered, which is worse than never using urgency at all.
 
 ## Key Takeaways
-
-- Prospecting is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Urgency is a legitimate sales tool when it's based on something genuinely true.
+- Fake or manufactured urgency destroys trust the moment a customer notices it.
+- A simple honesty test: would the urgency still hold true if the customer checked back later?

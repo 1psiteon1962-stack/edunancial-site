@@ -4,67 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 29
+locale: en-GB
 title: "In-Person vs. Digital Sales"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on in-person and digital selling. The practical principle is matching the channel to complexity, trust and convenience."
-locale: "en-GB"
+summary: "Compares the strengths and limitations of in-person and digital sales approaches."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # In-Person vs. Digital Sales
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain in-person and digital selling in plain language.
-- Recognise when in-person and digital selling is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Identify the strengths of in-person sales
+- Identify the strengths of digital sales
+- Recognise when each approach is more appropriate
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **in-person and digital selling**. The practical principle is **matching the channel to complexity, trust and convenience**.
+In-person sales happen face-to-face, whether in a shop, an office, or a home visit. Digital sales happen through channels like email, social media, video calls, or an online storefront where the customer never meets the seller physically.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+In-person sales tend to build trust faster, because body language, tone, and immediate back-and-forth reduce ambiguity and let a seller respond in real time to hesitation or confusion. It also tends to work better for higher-priced, more complex decisions where a customer wants reassurance before committing.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
+Digital sales scale further, since one seller (or one piece of content) can reach far more people than any single in-person conversation could. It's often better suited to lower-priced, simpler decisions where a customer doesn't need extensive reassurance, or to reaching people across distances an in-person approach couldn't cover at all.
 
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Most modern businesses use a mix: digital channels to reach and inform a wide audience efficiently, and in-person or live conversation (even by phone or video call) at the specific moments where trust-building matters most.
 
 ## Worked Example
 
-Suppose a small business is working on in-person and digital selling. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates matching the channel to complexity, trust and convenience in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A company selling an expensive piece of industrial equipment relies heavily on in-person or live video sales calls, because the purchase is large and complex enough that buyers want direct reassurance and the ability to ask detailed questions in real time. The same company might use digital marketing (a website, case studies, email) to generate and educate leads before that live conversation ever happens — using each channel for what it does best.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind in-person and digital selling?
-2. Which behaviour best demonstrates matching the channel to complexity, trust and convenience?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What's a key strength of in-person sales?
+2. What's a key strength of digital sales?
+3. When is in-person sales usually more appropriate?
+4. When is digital sales usually more appropriate?
 
 ## Answer Key
-
-1. A strong answer explains in-person and digital selling as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies matching the channel to complexity, trust and convenience openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. It builds trust faster through real-time body language and back-and-forth.
+2. It scales further, reaching more people than any single conversation could.
+3. For higher-priced, more complex decisions where reassurance matters.
+4. For lower-priced, simpler decisions, or reaching people across greater distances.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. Real-time, in-person interaction reduces ambiguity and builds trust efficiently.
+2. Scale is the core advantage digital channels provide over one-on-one interaction.
+3. Complex or expensive decisions typically warrant the deeper trust-building in-person allows.
+4. Simpler or lower-stakes decisions don't require the same level of reassurance, making digital efficient.
 
 ## Key Takeaways
-
-- In-person and digital selling is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- In-person sales build trust quickly and suit complex, high-stakes decisions.
+- Digital sales scale efficiently and suit simpler decisions or reaching distant audiences.
+- Most businesses combine both, using each channel where it's strongest.

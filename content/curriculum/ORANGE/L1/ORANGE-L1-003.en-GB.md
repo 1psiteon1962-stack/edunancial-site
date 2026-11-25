@@ -4,67 +4,57 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 3
-title: "Features vs. Benefits"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on the difference between a feature and the benefit it creates. The practical principle is translate specifications into customer outcomes."
-locale: "en-GB"
+locale: en-GB
+title: "The Customer's Problem Is the Whole Game"
+summary: "Teaches students to centre every sales conversation on the customer's actual problem rather than the product's features."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Features vs. Benefits
+
+# The Customer's Problem Is the Whole Game
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain the difference between a feature and the benefit it creates in plain language.
-- Recognise when the difference between a feature and the benefit it creates is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain why customers buy solutions to problems, not products
+- Practice reframing a product's features as problem-solving statements
+- Identify the customer's underlying problem in a sales scenario
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **the difference between a feature and the benefit it creates**. The practical principle is **translate specifications into customer outcomes**.
+Nobody wakes up wanting a drill. They wake up wanting a hole in the wall so they can hang a picture. The drill is just the tool that gets them there. This is one of the oldest lessons in sales, and it's still true: people don't buy products, they buy solutions to problems.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+This matters because new sellers often lead with what their product does instead of what problem it solves. "My candles use 100% soy wax" is a feature. "My candles won't leave black soot stains on your walls like paraffin candles do" is a solution to a problem the customer might not have even realised they had.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+To sell well, you have to know your customer's problem better than they can explain it themselves. That means asking questions before pitching anything. What are they struggling with? What have they already tried that didn't work? What would it mean for them if this problem went away?
 
 ## Worked Example
 
-Suppose a small business is working on the difference between a feature and the benefit it creates. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates translate specifications into customer outcomes in practice.
+**Seller:** "So what's been the biggest headache with your current bookkeeping setup?"
+**Customer:** "Honestly, I just don't have time. I'm so behind I don't even know what I owe in taxes right now."
+**Seller:** "That sounds stressful — not knowing your number until it's too late. My service gives you a running total every week, so you're never guessing."
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+Notice the seller didn't start by describing the software's features (cloud-based, automatic categorisation, etc.). They started by asking about the problem, then connected the solution directly to what the customer said mattered — not knowing their tax number.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind the difference between a feature and the benefit it creates?
-2. Which behaviour best demonstrates translate specifications into customer outcomes?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What do customers actually buy, according to this lesson?
+2. Why is asking questions before pitching important?
+3. Turn this feature into a problem-solving statement: "Our backpack has a padded laptop sleeve."
+4. What mistake do new sellers commonly make?
 
 ## Answer Key
-
-1. A strong answer explains the difference between a feature and the benefit it creates as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies translate specifications into customer outcomes openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Solutions to problems, not products themselves.
+2. It reveals what actually matters to the customer so the pitch can address it directly.
+3. Example: "Our backpack protects your laptop from cracking if you drop your bag or it gets knocked around on the bus."
+4. Leading with product features instead of the problem those features solve.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. The drill/hole example shows the product is a means to an end, not the end itself.
+2. Without knowing the problem, a pitch is just a list of features hoping something sticks.
+3. Any answer connecting the padding to protecting something the customer cares about (their laptop, their money) is correct.
+4. This is the central error the lesson corrects — pitching features instead of solving problems.
 
 ## Key Takeaways
-
-- The difference between a feature and the benefit it creates is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Every sale is really about solving a customer's problem, not describing a product.
+- Ask before you pitch — you can't solve a problem you don't understand.
+- Features only matter when connected to the specific problem the customer has.

@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 46
+locale: en-GB
 title: "When to Walk Away From a Sale"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on walking away. The practical principle is recognising poor fit, unethical demands and uneconomic deals."
-locale: "en-GB"
+summary: "Teaches that not every sale is worth closing, and when walking away is the right call."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # When to Walk Away From a Sale
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain walking away in plain language.
-- Recognise when walking away is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain why not every possible sale is a good sale to pursue
+- Identify warning signs that a sale may not be a good fit
+- Recognise the long-term cost of closing a bad-fit sale
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **walking away**. The practical principle is **recognising poor fit, unethical demands and uneconomic deals**.
+It might seem like more sales are always better, but that's not quite true. A sale to someone who isn't actually a good fit for what you offer often ends up costing more than it earns — through refunds, poor reviews, excessive support demands, or a customer who's unhappy no matter what you do because their expectations were never realistic to begin with.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+Warning signs worth taking seriously include: a prospect whose expectations clearly exceed what the product or service can realistically deliver, a prospect who's dismissive or disrespectful during the sales process itself (a preview of how they'll likely behave as a customer), or a situation where saying yes would require making a promise you're not confident you can actually keep.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Walking away from a bad-fit sale isn't a failure — it's often the more experienced, disciplined move. It protects your reputation, your time, and your ability to focus on customers who are genuinely a good fit.
 
 ## Worked Example
 
-Suppose a small business is working on walking away. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates recognising poor fit, unethical demands and uneconomic deals in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A prospect wants a service delivered in a fraction of the normal time, at a significantly reduced price, and is already pushing back hard on reasonable terms during the very first conversation. A seller focused only on closing might agree just to get the sale. A more experienced seller recognises the warning signs and says honestly: "Based on what you're describing, I don't think this is the right fit — I'd rather be upfront about that now than take this on and not be able to deliver what you're expecting." This protects both the seller's reputation and the prospect from a bad outcome.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind walking away?
-2. Which behaviour best demonstrates recognising poor fit, unethical demands and uneconomic deals?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Why isn't more sales always better?
+2. Name two warning signs that a sale may not be a good fit.
+3. Why is walking away from a bad-fit sale sometimes the more disciplined move?
+4. What did the seller in the worked example protect by walking away?
 
 ## Answer Key
-
-1. A strong answer explains walking away as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies recognising poor fit, unethical demands and uneconomic deals openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. A bad-fit sale can cost more in refunds, poor reviews, or excessive support than it earns.
+2. Any two of: unrealistic expectations, dismissive or disrespectful behaviour during the sales process, needing to promise something you're not confident you can deliver.
+3. Because it protects reputation, time, and focus for customers who are genuinely a good fit.
+4. Their reputation and the prospect's own outcome, by being upfront rather than overpromising.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This challenges the assumption that closing every possible sale is always the right goal.
+2. These signals help identify mismatches before they become costly problems.
+3. Discipline here means prioritising long-term reputation over short-term revenue.
+4. Honesty upfront avoided a likely bad outcome for both parties.
 
 ## Key Takeaways
-
-- Walking away is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Not every possible sale is a good sale — some cost more than they're worth in the long run.
+- Watch for unrealistic expectations, disrespectful behaviour, or promises you can't confidently keep.
+- Walking away from a bad-fit sale is often the more experienced, disciplined choice, not a failure.

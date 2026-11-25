@@ -1,71 +1,58 @@
 ---
 id: ORANGE-L1-004
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 4
-title: "A proposta de valor"
-summary: "Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de a proposta de valor."
-locale: "pt-BR"
+locale: pt-BR
+title: "O funil de vendas: de desconhecido a cliente"
+summary: "Apresenta o funil de vendas como um mapa de como um desconhecido se torna um cliente pagante."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# A proposta de valor
+
+# O funil de vendas: de desconhecido a cliente
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, você será capaz de:
-- explicar a proposta de valor em palavras simples;
-- reconhecer quando esse conceito está sendo usado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- diferenciar influência ética de pressão e manipulação.
+- Descrever as etapas básicas de um funil de vendas
+- Explicar por que menos pessoas avançam em cada etapa
+- Identificar qual etapa uma determinada interação com o cliente representa
 
 ## Conteúdo principal
 
-Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de **a proposta de valor**.
+Um funil de vendas é simplesmente um mapa de como um completo desconhecido se torna um cliente pagante. Ele se chama funil porque é largo em cima e estreito embaixo — muitas pessoas entram, menos chegam até o fim.
 
-Uma empresa sustentável não pode se concentrar apenas em conseguir um «sim». Uma boa decisão comercial precisa criar valor real para o cliente e, ao mesmo tempo, fazer sentido econômico para quem vende. Por isso, é necessário entender o que a outra pessoa está tentando alcançar, verificar se a oferta realmente é adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão bem informada.
+As quatro etapas básicas são: **Conhecimento** (a pessoa descobre que você existe), **Interesse** (ela quer saber mais), **Decisão** (ela está pesando se vai comprar) e **Ação** (ela compra de fato). Nem todo mundo que fica sabendo de você se interessa. Nem todo interessado chega a uma decisão. E nem todo mundo que pensa em comprar compra de fato. Isso é normal — não é sinal de que você está fracassando.
 
-Comece pela situação do cliente. Qual problema ele está tentando resolver? Qual resultado deseja alcançar? O que é mais importante: preço, rapidez, confiabilidade, conveniência, qualidade, redução de risco, suporte ou outra coisa? Não presuma que já sabe a resposta. Faça perguntas abertas, escute com atenção e confirme o que entendeu.
-
-Depois, conecte a oferta às prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não houver provas. Uma explicação específica é mais forte. Explique o que a oferta faz, por que isso importa para aquele cliente e quais evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética sempre deixa espaço para um «não». Uma reputação sólida no longo prazo vale mais do que uma venda obtida por pressão.
-
-O mesmo raciocínio vale para o marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a entender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipe de vendas terá de corrigir depois.
+Entender o funil ajuda a diagnosticar problemas no seu negócio. Se cem pessoas veem seu anúncio, mas ninguém clica, a etapa de conhecimento está bem, mas a de interesse está quebrada — a mensagem não convence. Se as pessoas fazem muitas perguntas, mas não compram, a etapa de decisão precisa de atenção — talvez o problema seja preço, confiança ou clareza.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa trabalhando com a proposta de valor. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda primeiro procura entender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, ela diz isso. Esse comportamento protege a confiança e a reputação.
+Uma padaria do bairro posta fotos dos seus pães nas redes sociais (Conhecimento). Vinte pessoas comentam perguntando o preço (Interesse). Doze delas fazem outras perguntas, como "Vocês entregam?" e "É vegano?" (Decisão). Cinco fazem um pedido de fato (Ação).
 
-Antes de agir, faça três perguntas: do que o cliente realmente precisa? Quais provas sustentam o valor que estou apresentando? Qual é o menor próximo passo razoável? Essas perguntas evitam muitos erros comerciais.
+Se a dona da padaria olhar só para os vinte comentários e ficar feliz com o "engajamento", vai deixar de ver o número que realmente importa — cinco clientes pagantes entre vinte pessoas interessadas. Melhorar essa perda na etapa de decisão (talvez respondendo de antemão às perguntas mais comuns) poderia transformar mais dessas doze pessoas em compradoras.
 
-## Quiz de prática
+## Teste de prática
 
-1. Explique com suas próprias palavras a ideia principal de a proposta de valor.
-2. Descreva um comportamento que permita aplicar esse conceito de forma ética.
-3. Por que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como você poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+1. Cite as quatro etapas do funil de vendas, em ordem.
+2. Por que o funil é mais largo em cima do que embaixo?
+3. Se muitas pessoas veem seu produto, mas ninguém faz perguntas sobre ele, qual etapa provavelmente precisa de atenção?
+4. É normal que os números diminuam a cada etapa?
 
 ## Gabarito
-
-1. Uma boa resposta apresenta a proposta de valor como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, baseado em informações relevantes e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos à reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+1. Conhecimento, Interesse, Decisão, Ação.
+2. Porque nem todo mundo em uma etapa avança para a seguinte — algumas pessoas ficam pelo caminho.
+3. Interesse — o conhecimento funcionou, mas a mensagem não desperta curiosidade.
+4. Sim, isso é esperado em qualquer funil.
 
 ## Respostas e explicações
+1. Essa é a sequência central ensinada na lição.
+2. O formato de funil representa visualmente a perda natural entre uma etapa e outra.
+3. Se as pessoas veem, mas não interagem, o problema está na passagem do Conhecimento para o Interesse.
+4. Números diminuindo não significam fracasso — são uma parte normal e esperada de como os funis funcionam, e o objetivo é melhorar as taxas de conversão, e não eliminar totalmente as perdas.
 
-1. Não basta memorizar uma definição. Você deve conseguir relacionar o conceito a uma decisão real e a um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informações suficientes para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege as duas partes e favorece satisfação, retenção, indicações e reputação.
-4. Uma boa aplicação transforma o conceito em uma ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- A proposta de valor é uma habilidade prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Use valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para as duas partes.
-- A venda ética sempre permite que o cliente tome uma decisão bem informada.
+## Pontos-chave
+- O funil de vendas mostra, em quatro etapas, como desconhecidos se tornam clientes.
+- Os números naturalmente diminuem a cada etapa — isso é esperado, não um fracasso.
+- Descobrir qual etapa está fraca mostra exatamente onde concentrar a melhoria.

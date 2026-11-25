@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-049
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 49
-title: "Criando uma minicampanha de vendas"
-summary: "Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de minicampanhas de vendas."
-locale: "pt-BR"
+locale: pt-BR
+title: "Como planejar uma minicampanha de vendas"
+summary: "Guia o planejamento de uma campanha de vendas simples e completa, da prospecção ao fechamento."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Criando uma minicampanha de vendas
+
+# Como planejar uma minicampanha de vendas
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, você será capaz de:
-- explicar minicampanhas de vendas em palavras simples;
-- reconhecer quando esse conceito está sendo usado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- diferenciar influência ética de pressão e manipulação.
+- Identificar as partes necessárias para planejar uma campanha de vendas básica
+- Praticar a ordenação das etapas de prospecção, acompanhamento e fechamento
+- Aplicar as lições desta trilha em um único plano conectado
 
 ## Conteúdo principal
 
-Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de **minicampanhas de vendas**.
+Uma campanha de vendas é uma sequência planejada de prospecção e acompanhamento voltada a um grupo específico de clientes em potencial, durante um período definido, em direção a uma meta específica. Em vez de entrar em contato de forma aleatória sempre que der vontade, a campanha traz estrutura: quem você quer alcançar, o que está oferecendo, como vai chegar até essas pessoas e como será a sequência de acompanhamento.
 
-Uma empresa sustentável não pode se concentrar apenas em conseguir um «sim». Uma boa decisão comercial precisa criar valor real para o cliente e, ao mesmo tempo, fazer sentido econômico para quem vende. Por isso, é necessário entender o que a outra pessoa está tentando alcançar, verificar se a oferta realmente é adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão bem informada.
+Um plano básico de campanha deve responder: Quem é o público-alvo (com base na lição sobre público-alvo)? Qual proposta de valor está sendo comunicada? Qual é o primeiro ponto de contato (prospecção a frio, indicação, conteúdo)? Qual é o ritmo de acompanhamento se não houver resposta? Como é o fechamento quando alguém está pronto?
 
-Comece pela situação do cliente. Qual problema ele está tentando resolver? Qual resultado deseja alcançar? O que é mais importante: preço, rapidez, confiabilidade, conveniência, qualidade, redução de risco, suporte ou outra coisa? Não presuma que já sabe a resposta. Faça perguntas abertas, escute com atenção e confirme o que entendeu.
-
-Depois, conecte a oferta às prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não houver provas. Uma explicação específica é mais forte. Explique o que a oferta faz, por que isso importa para aquele cliente e quais evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética sempre deixa espaço para um «não». Uma reputação sólida no longo prazo vale mais do que uma venda obtida por pressão.
-
-O mesmo raciocínio vale para o marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a entender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipe de vendas terá de corrigir depois.
+Planejar uma campanha dessa forma transforma vendas dispersas e reativas em um processo organizado e repetível — o mesmo princípio da lição anterior sobre construir um sistema de vendas, aplicado a uma ação específica e com prazo definido.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa trabalhando com minicampanhas de vendas. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda primeiro procura entender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, ela diz isso. Esse comportamento protege a confiança e a reputação.
+Um serviço de banho para cães planeja uma campanha voltada a donos de cachorro que moram em apartamento em um bairro, durante um mês. Público-alvo: donos de cachorro sem carro nem quintal. Proposta de valor: banho móvel que vai até a porta deles. Primeiro ponto de contato: panfletos em parcões da região e alguns posts em um grupo do bairro nas redes sociais. Acompanhamento: quem fizer uma pergunta recebe resposta no mesmo dia e um novo contato dois dias depois, se ainda não tiver agendado. Fechamento: uma oferta simples e direta para agendar o primeiro banho com um pequeno desconto de boas-vindas, só para quem responder à campanha, registrado com honestidade e limitado a esta campanha real específica.
 
-Antes de agir, faça três perguntas: do que o cliente realmente precisa? Quais provas sustentam o valor que estou apresentando? Qual é o menor próximo passo razoável? Essas perguntas evitam muitos erros comerciais.
+## Teste de prática
 
-## Quiz de prática
-
-1. Explique com suas próprias palavras a ideia principal de minicampanhas de vendas.
-2. Descreva um comportamento que permita aplicar esse conceito de forma ética.
-3. Por que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como você poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+1. Defina campanha de vendas com suas próprias palavras.
+2. Cite as cinco perguntas que um plano básico de campanha deve responder.
+3. Como o planejamento de campanhas se relaciona com a lição anterior sobre construir um sistema de vendas repetível?
+4. Usando a estrutura, esboce uma resposta de uma frase para cada parte de uma campanha para um negócio que dá aulas particulares de matemática para alunos do ensino médio.
 
 ## Gabarito
-
-1. Uma boa resposta apresenta minicampanhas de vendas como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, baseado em informações relevantes e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos à reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+1. Uma sequência planejada de prospecção e acompanhamento voltada a um grupo específico de clientes em potencial e a uma meta, durante um período definido.
+2. Quem é o público-alvo, qual é a proposta de valor, qual é o primeiro ponto de contato, qual é o ritmo de acompanhamento, como é o fechamento.
+3. Ele aplica o mesmo princípio de "processo documentado e repetível" a uma ação específica e com prazo definido, e não a um sistema contínuo.
+4. As respostas vão variar, mas devem tratar de cada uma das cinco partes de forma específica.
 
 ## Respostas e explicações
+1. Isso capta a natureza estruturada e planejada de uma campanha, em oposição a vendas reativas e sem planejamento.
+2. Essas cinco perguntas formam a lista prática de verificação para planejar qualquer campanha básica.
+3. Os dois conceitos se apoiam em documentação e estrutura, em vez de depender de improviso a cada vez.
+4. Uma resposta correta liga cada parte da estrutura a um detalhe específico e realista para o negócio de aulas particulares.
 
-1. Não basta memorizar uma definição. Você deve conseguir relacionar o conceito a uma decisão real e a um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informações suficientes para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege as duas partes e favorece satisfação, retenção, indicações e reputação.
-4. Uma boa aplicação transforma o conceito em uma ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Minicampanhas de vendas é uma habilidade prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Use valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para as duas partes.
-- A venda ética sempre permite que o cliente tome uma decisão bem informada.
+## Pontos-chave
+- Uma campanha de vendas traz estrutura à prospecção, com público, oferta, prazo e plano de acompanhamento definidos.
+- Cinco perguntas-chave orientam qualquer campanha básica: público, proposta de valor, primeiro ponto de contato, acompanhamento e fechamento.
+- O planejamento de campanhas aplica o mesmo princípio de sistema repetível a uma ação de vendas específica e com prazo definido.

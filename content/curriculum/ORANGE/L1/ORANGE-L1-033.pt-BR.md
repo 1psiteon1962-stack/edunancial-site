@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-033
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 33
-title: "Acompanhando um pipeline de vendas"
-summary: "Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de gestão do pipeline."
-locale: "pt-BR"
+locale: pt-BR
+title: "Como acompanhar um pipeline"
+summary: "Ensina a organizar os clientes em potencial por etapa, para que o vendedor sempre saiba como está o seu negócio."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Acompanhando um pipeline de vendas
+
+# Como acompanhar um pipeline
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, você será capaz de:
-- explicar gestão do pipeline em palavras simples;
-- reconhecer quando esse conceito está sendo usado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- diferenciar influência ética de pressão e manipulação.
+- Definir um pipeline de vendas e explicar o seu objetivo
+- Identificar as etapas básicas que um pipeline costuma acompanhar
+- Praticar classificar clientes em potencial nas etapas do pipeline
 
 ## Conteúdo principal
 
-Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de **gestão do pipeline**.
+Um pipeline de vendas é uma forma de organizar cada cliente em potencial ativo de acordo com o quanto ele já avançou no processo de decisão, para que o vendedor veja, num relance, exatamente como está o seu negócio e o que precisa de atenção. É a aplicação prática do conceito de funil de vendas de uma lição anterior, aplicado a clientes em potencial reais e individuais, e não só a um conceito geral.
 
-Uma empresa sustentável não pode se concentrar apenas em conseguir um «sim». Uma boa decisão comercial precisa criar valor real para o cliente e, ao mesmo tempo, fazer sentido econômico para quem vende. Por isso, é necessário entender o que a outra pessoa está tentando alcançar, verificar se a oferta realmente é adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão bem informada.
+Etapas comuns do pipeline incluem: Novo contato (acabou de ser identificado, ainda sem contato), Contatado (primeira abordagem feita), Em conversa (troca ativa em andamento), Proposta enviada (uma oferta específica foi feita) e Encerrado (ganho ou perdido). Cada cliente em potencial fica em exatamente uma etapa de cada vez e avança (ou, às vezes, recua) à medida que o relacionamento se desenvolve.
 
-Comece pela situação do cliente. Qual problema ele está tentando resolver? Qual resultado deseja alcançar? O que é mais importante: preço, rapidez, confiabilidade, conveniência, qualidade, redução de risco, suporte ou outra coisa? Não presuma que já sabe a resposta. Faça perguntas abertas, escute com atenção e confirme o que entendeu.
-
-Depois, conecte a oferta às prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não houver provas. Uma explicação específica é mais forte. Explique o que a oferta faz, por que isso importa para aquele cliente e quais evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética sempre deixa espaço para um «não». Uma reputação sólida no longo prazo vale mais do que uma venda obtida por pressão.
-
-O mesmo raciocínio vale para o marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a entender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipe de vendas terá de corrigir depois.
+Acompanhar um pipeline dessa forma responde a perguntas que importam para administrar um negócio: quantos clientes em potencial estão perto de fechar agora? Onde a maioria deles está travando? Está entrando gente suficiente no topo para bater as metas de receita mais adiante, considerando quantos costumam ficar pelo caminho?
 
 ## Exemplo prático
 
-Imagine uma pequena empresa trabalhando com gestão do pipeline. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda primeiro procura entender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, ela diz isso. Esse comportamento protege a confiança e a reputação.
+Uma consultora autônoma revisa o seu pipeline toda semana. Ela percebe quinze clientes em potencial parados em "Contatado" há mais de três semanas, sem nenhum avanço — um sinal claro de que o seu processo de acompanhamento precisa de atenção. Ao mesmo tempo, só dois clientes em potencial estão em "Proposta enviada", o que mostra que, mesmo que os dois fechem, não será suficiente para bater a meta de receita do mês. Essa visibilidade permite que ela aja — reforçando os acompanhamentos e gerando novos contatos — antes que a falta de receita aconteça de fato.
 
-Antes de agir, faça três perguntas: do que o cliente realmente precisa? Quais provas sustentam o valor que estou apresentando? Qual é o menor próximo passo razoável? Essas perguntas evitam muitos erros comerciais.
+## Teste de prática
 
-## Quiz de prática
-
-1. Explique com suas próprias palavras a ideia principal de gestão do pipeline.
-2. Descreva um comportamento que permita aplicar esse conceito de forma ética.
-3. Por que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como você poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+1. Defina pipeline de vendas com suas próprias palavras.
+2. Cite três etapas comuns do pipeline.
+3. Que tipo de pergunta sobre o negócio o acompanhamento do pipeline pode ajudar a responder?
+4. No exemplo prático, que problema a revisão do pipeline revelou?
 
 ## Gabarito
-
-1. Uma boa resposta apresenta gestão do pipeline como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, baseado em informações relevantes e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos à reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+1. Uma forma de organizar os clientes em potencial de acordo com o quanto já avançaram no processo de decisão.
+2. Quaisquer três destas: Novo contato, Contatado, Em conversa, Proposta enviada, Encerrado.
+3. Quantos clientes em potencial estão perto de fechar, onde eles estão travando e se está entrando gente suficiente para bater metas futuras.
+4. Um grupo parado em "Contatado" e poucos clientes em potencial em "Proposta enviada" para bater a meta de receita.
 
 ## Respostas e explicações
+1. Isso define o pipeline como uma ferramenta de organização aplicada a clientes em potencial reais e individuais.
+2. Essas etapas representam a versão prática e acompanhável do conceito de funil.
+3. A visibilidade do pipeline apoia decisões de negócio proativas, em vez de surpresas reativas.
+4. A revisão do pipeline trouxe à tona um problema específico e solucionável antes que virasse uma crise de receita.
 
-1. Não basta memorizar uma definição. Você deve conseguir relacionar o conceito a uma decisão real e a um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informações suficientes para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege as duas partes e favorece satisfação, retenção, indicações e reputação.
-4. Uma boa aplicação transforma o conceito em uma ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Gestão do pipeline é uma habilidade prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Use valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para as duas partes.
-- A venda ética sempre permite que o cliente tome uma decisão bem informada.
+## Pontos-chave
+- Um pipeline organiza os clientes em potencial por etapa, aplicando o conceito de funil ao acompanhamento real e individual.
+- As etapas comuns incluem Novo contato, Contatado, Em conversa, Proposta enviada e Encerrado.
+- Revisar o pipeline regularmente revela problemas e oportunidades antes que virem surpresas.

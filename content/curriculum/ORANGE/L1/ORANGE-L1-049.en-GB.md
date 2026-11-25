@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 49
+locale: en-GB
 title: "Designing a Mini Sales Campaign"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on mini sales campaigns. The practical principle is combining audience, offer, channel, message, follow-up and measurement."
-locale: "en-GB"
+summary: "Guides students through planning a simple, complete sales campaign from outreach to close."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Designing a Mini Sales Campaign
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain mini sales campaigns in plain language.
-- Recognise when mini sales campaigns is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Identify the components needed to plan a basic sales campaign
+- Practice sequencing outreach, follow-up, and closing steps
+- Apply lessons from this track into a single connected plan
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **mini sales campaigns**. The practical principle is **combining audience, offer, channel, message, follow-up and measurement**.
+A sales campaign is a planned sequence of outreach and follow-up aimed at a specific group of prospects, over a defined period of time, working toward a specific goal. Rather than reaching out randomly whenever it occurs, a campaign brings structure: who you're targeting, what you're offering, how you'll reach them, and what the follow-up sequence looks like.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+A basic campaign plan should answer: Who is the target audience (drawing on the target audience lesson)? What's the value proposition being communicated? What's the first touchpoint (cold outreach, referral, content)? What's the follow-up cadence if there's no response? What does the close look like once someone's ready?
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Planning a campaign this way turns scattered, reactive selling into an organised, repeatable process — the same principle from the earlier lesson on building a sales system, applied to a specific, time-bound push.
 
 ## Worked Example
 
-Suppose a small business is working on mini sales campaigns. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates combining audience, offer, channel, message, follow-up and measurement in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A dog-washing business plans a campaign targeting flat-dwelling dog owners in one neighbourhood over one month. Target audience: dog owners without a car or yard. Value proposition: mobile washing that comes to their door. First touchpoint: flyers at local dog parks and a few posts in a neighbourhood social media group. Follow-up: anyone who asks a question gets a same-day response and a follow-up two days later if they haven't booked. Close: a simple, direct offer to book the first appointment at a small introductory discount for campaign respondents only, tracked honestly and limited to this specific real campaign.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind mini sales campaigns?
-2. Which behaviour best demonstrates combining audience, offer, channel, message, follow-up and measurement?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Define a sales campaign in your own words.
+2. Name the five questions a basic campaign plan should answer.
+3. How does campaign planning relate to the earlier lesson on building a repeatable sales system?
+4. Using the framework, sketch a one-sentence answer for each part of a campaign for a business tutoring secondary school pupils in maths.
 
 ## Answer Key
-
-1. A strong answer explains mini sales campaigns as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies combining audience, offer, channel, message, follow-up and measurement openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. A planned sequence of outreach and follow-up toward a specific group of prospects and goal, over a set time period.
+2. Who's the target audience, what's the value proposition, what's the first touchpoint, what's the follow-up cadence, what does the close look like.
+3. It applies the same "documented, repeatable process" principle to a specific, time-bound push rather than an ongoing system.
+4. Answers will vary but should address each of the five components specifically.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This captures the structured, planned nature of a campaign versus reactive, unplanned selling.
+2. These five questions form the practical checklist for planning any basic campaign.
+3. Both concepts rely on documentation and structure rather than relying on improvisation each time.
+4. A correct answer connects each part of the framework to a specific, realistic detail for the tutoring business.
 
 ## Key Takeaways
-
-- Mini sales campaigns is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- A sales campaign brings structure to outreach through a defined audience, offer, timeline, and follow-up plan.
+- Five key questions guide any basic campaign: audience, value proposition, first touchpoint, follow-up, and close.
+- Campaign planning applies the same repeatable-system principle to a specific, time-bound sales push.

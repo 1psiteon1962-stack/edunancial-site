@@ -1,71 +1,64 @@
 ---
 id: ORANGE-L1-006
 track: ORANGE
-officialTrackName: "Verkoop & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 6
-title: "Luisteren voordat je verkoopt"
-summary: "Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over actief luisteren in een verkoopgesprek."
-locale: "nl"
+locale: nl
+title: "Waarom marketing zonder verkoop mislukt (en verkoop zonder marketing ook)"
+summary: "Laat zien hoe marketing en verkoop van elkaar afhangen en waarom geen van beide alleen werkt."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Luisteren voordat je verkoopt
+
+# Waarom marketing zonder verkoop mislukt (en verkoop zonder marketing ook)
 
 ## Leerdoelen
-
-Na deze les kun je:
-- actief luisteren in een verkoopgesprek in eenvoudige woorden uitleggen;
-- herkennen wanneer dit concept goed of slecht wordt toegepast;
-- het principe toepassen op een eenvoudige verkoop- of marketingsituatie;
-- ethische beïnvloeding onderscheiden van druk en manipulatie.
+- Uitleggen waarom marketing alleen geen omzet oplevert
+- Uitleggen waarom verkoop alleen het moeilijk heeft zonder een stroom van geïnteresseerden
+- Herkennen wanneer een bedrijf te veel investeert in de ene functie en de andere verwaarloost
 
 ## Kerninhoud
 
-Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over **actief luisteren in een verkoopgesprek**.
+Marketing en verkoop zijn als twee benen. Op één been komt een bedrijf niet ver.
 
-Een duurzaam bedrijf kan zich niet alleen richten op het verkrijgen van een 'ja'. Een goede commerciële beslissing moet echte waarde opleveren voor de klant en tegelijkertijd zakelijk verantwoord zijn voor de verkoper. Daarom moet je begrijpen wat de ander probeert te bereiken, bepalen of het aanbod werkelijk passend is, de waarde helder communiceren en de klant in staat stellen een geïnformeerde beslissing te nemen.
+Marketing zonder verkoop betekent dat je aandacht genereert die nergens heen gaat. Stel je voor dat je geld uitgeeft aan advertenties die honderd aanvragen per week opleveren, maar niemand neemt contact op met die mensen, beantwoordt hun vragen of vraagt om de bestelling. Die aandacht gaat verloren, en de eigenaar vraagt zich af waarom 'marketing niet werkt', terwijl het echte probleem is dat niemand de cirkel heeft gesloten.
 
-Begin bij de situatie van de klant. Welk probleem probeert de klant op te lossen? Welk resultaat wil diegene bereiken? Wat is het belangrijkst: prijs, snelheid, betrouwbaarheid, gemak, kwaliteit, risicobeperking, ondersteuning of iets anders? Ga niet uit van aannames. Stel open vragen, luister aandachtig en bevestig wat je hebt begrepen.
+Verkoop zonder marketing betekent dat je volledig op je eigen inzet vertrouwt om elke klant te vinden, één voor één, zonder systeem dat nieuwe mensen naar je toe brengt. Dat werkt een tijdje — zo beginnen veel bedrijven —, maar het groeit niet mee. Op een gegeven moment heeft de verkoper geen uren meer over in de dag, en stokt de groei omdat er geen stroom van geïnteresseerden is die zichzelf aanvult.
 
-Koppel vervolgens het aanbod aan de prioriteiten van de klant. Vermijd vage uitspraken zoals 'de beste' of 'geweldig' als je die niet kunt onderbouwen. Een specifieke uitleg is sterker. Leg uit wat het aanbod doet, waarom dat voor deze klant relevant is en welk bewijs de bewering ondersteunt. Belangrijke beperkingen moeten eveneens duidelijk worden genoemd.
-
-Stel ten slotte een passende volgende stap voor. Dat kan een aankoop zijn, maar ook een demonstratie, offerte, proefperiode, vervolggesprek of helemaal geen transactie. Ethische verkoop laat altijd ruimte voor 'nee'. Een goede reputatie op lange termijn is waardevoller dan een verkoop die door druk tot stand komt.
-
-Hetzelfde geldt voor marketing. Marketing moet de aandacht van geschikte mensen trekken en hen helpen begrijpen of een aanbod relevant voor hen is. Het hoort geen valse verwachtingen te creëren die de verkoper later moet corrigeren.
+Gezonde bedrijven behandelen marketing en verkoop als één samenhangend systeem: marketing vult de bovenkant van de trechter, en verkoop zet om wat marketing binnenbrengt. Geen van beide functies kan het succes alleen opeisen — het enige getal dat er echt toe doet, is hoeveel mensen er bovenin binnenkwamen en onderaan betalende klanten werden.
 
 ## Praktijkvoorbeeld
 
-Stel je een klein bedrijf voor dat werkt aan actief luisteren in een verkoopgesprek. In plaats van direct te pitchen, probeert de verkoper eerst de situatie van de klant te begrijpen, controleert of het aanbod werkelijk past, legt de relevante waarde helder uit en stelt een redelijke volgende stap voor. Als het aanbod niet passend is, wordt dat eerlijk gezegd. Zo worden vertrouwen en reputatie beschermd.
+Twee ondernemers beginnen elk een bedrijf in grasonderhoud.
 
-Stel jezelf vóór een actie drie vragen: wat heeft de klant werkelijk nodig? Welk bewijs ondersteunt de voorgestelde waarde? Wat is de kleinste redelijke volgende stap? Deze vragen voorkomen veel voorkomende verkoopfouten.
+Ondernemer A geeft veel uit aan flyers en advertenties op sociale media en krijgt vijftig telefoontjes per maand. Maar A belt nooit snel terug, en de meeste telefoontjes gaan naar de voicemail. A vraagt zich af waarom het bedrijf niet groeit ondanks 'geweldige marketing'.
+
+Ondernemer B is een fenomenale verkoper — iedereen die met B praat, tekent. Maar B vertrouwt volledig op mond-tot-mondreclame en langs de deuren gaan, zonder een vaste manier om nieuwe wijken te bereiken. B blijft ruim een jaar steken op dezelfde twintig klanten.
+
+Ondernemer C doet allebei: een kleine, consequente flyeractie (marketing) en elke geïnteresseerde binnen een uur terugbellen (verkoop). Het bedrijf van C groeit gestaag, omdat de twee functies samenwerken in plaats van dat één de hele last draagt.
 
 ## Oefenquiz
 
-1. Leg in je eigen woorden de hoofdgedachte van actief luisteren in een verkoopgesprek uit.
-2. Noem gedrag waarmee dit concept op een ethische manier kan worden toegepast.
-3. Waarom is een goede match tussen klant en aanbod belangrijker dan het forceren van een verkoop?
-4. Hoe zou je deze les kunnen toepassen op een echt product, een dienst, een sollicitatiegesprek of een persoonlijk project?
+1. Wat gebeurt er als een bedrijf in marketing investeert maar de opvolging in de verkoop verwaarloost?
+2. Wat gebeurt er als een bedrijf alleen op verkoop vertrouwt, zonder marketingstroom?
+3. Waarom beschrijft de les marketing en verkoop als 'twee benen'?
+4. Waarom doet ondernemer C het in het praktijkvoorbeeld beter dan A en B?
 
 ## Antwoordsleutel
-
-1. Een goed antwoord beschrijft actief luisteren in een verkoopgesprek als een praktisch middel om de kwaliteit van een commerciële beslissing te verbeteren.
-2. Het gedrag moet transparant zijn, op relevante informatie berusten en de beslissingsvrijheid van de ander respecteren.
-3. Een slechte match kan leiden tot retouren, klachten, tijdverlies, reputatieschade en ontevreden klanten.
-4. Antwoorden verschillen, maar moeten een echte situatie, de gewenste waarde en een ethische volgende stap benoemen.
+1. Er ontstaat aandacht, maar die gaat verloren omdat niemand de interesse omzet in een verkoop.
+2. De groei stokt omdat er geen systeem is dat de stroom aanvult met nieuwe geïnteresseerden.
+3. Omdat een bedrijf niet goed vooruitkomt als het op maar één van de twee functies leunt.
+4. C combineert beide functies, zodat de geïnteresseerden die marketing oplevert ook echt worden omgezet door consequente opvolging in de verkoop.
 
 ## Antwoorden en uitleg
-
-1. Alleen een definitie uit het hoofd leren is niet genoeg. Je moet het concept kunnen koppelen aan een echte beslissing en een concreet klantresultaat.
-2. Gezonde commerciële beïnvloeding geeft voldoende informatie om te beslissen in plaats van verborgen druk te gebruiken.
-3. Een goede match beschermt beide partijen en bevordert tevredenheid, klantbehoud, aanbevelingen en reputatie.
-4. Een goede toepassing zet het concept om in concrete actie. Het voorbeeld kan verschillen, maar de redenering moet helder, realistisch en ethisch blijven.
+1. Geïnteresseerden zonder opvolging zijn verspild marketingbudget — het geld trok mensen aan, maar niemand sloot met hen af.
+2. Zonder marketingstroom heeft de verkoopinspanning een plafond dat bepaald wordt door hoeveel mensen één persoon zelf kan bereiken.
+3. De vergelijking benadrukt de onderlinge afhankelijkheid — één been kan het bedrijf niet lang alleen dragen.
+4. Het systeem van C verbindt de twee functies, zodat niets van wat marketing oplevert verloren gaat.
 
 ## Belangrijkste punten
-
-- Actief luisteren in een verkoopgesprek is een praktische vaardigheid, geen truc.
-- Goede commerciële communicatie begint met het begrijpen van de situatie van de klant.
-- Gebruik specifieke waarde en bewijs in plaats van overdrijving.
-- Een duurzame verkoop moet voor beide partijen zinvol zijn.
-- Ethische verkoop stelt de klant altijd in staat een geïnformeerde beslissing te nemen.
+- Marketing levert geïnteresseerden op; verkoop zet ze om — beide zijn nodig, niet optioneel.
+- Een bedrijf kan een 'marketingprobleem' lijken te hebben terwijl het eigenlijk aan opvolging in de verkoop ontbreekt, of andersom.
+- Duurzame groei ontstaat als je marketing en verkoop behandelt als één samenhangend systeem, niet als twee afdelingen die om de eer strijden.

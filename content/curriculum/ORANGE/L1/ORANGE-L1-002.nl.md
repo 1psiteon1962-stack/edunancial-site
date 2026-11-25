@@ -1,71 +1,64 @@
 ---
 id: ORANGE-L1-002
 track: ORANGE
-officialTrackName: "Verkoop & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 2
-title: "Waarom mensen kopen: problemen, wensen en resultaten"
-summary: "Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over problemen, wensen en resultaten die een aankoop motiveren."
-locale: "nl"
+locale: nl
+title: "Verkoop en marketing: twee verschillende taken"
+summary: "Maakt het verschil tussen verkoop en marketing duidelijk, zodat de termen niet langer door elkaar worden gebruikt."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Waarom mensen kopen: problemen, wensen en resultaten
+
+# Verkoop en marketing: twee verschillende taken
 
 ## Leerdoelen
-
-Na deze les kun je:
-- problemen, wensen en resultaten die een aankoop motiveren in eenvoudige woorden uitleggen;
-- herkennen wanneer dit concept goed of slecht wordt toegepast;
-- het principe toepassen op een eenvoudige verkoop- of marketingsituatie;
-- ethische beïnvloeding onderscheiden van druk en manipulatie.
+- Het verschil zien tussen de functie van marketing en de functie van verkoop
+- Uitleggen hoe die twee samenwerken in plaats van te concurreren
+- Herkennen welke functie in een praktijkvoorbeeld aan het werk is
 
 ## Kerninhoud
 
-Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over **problemen, wensen en resultaten die een aankoop motiveren**.
+Mensen zeggen 'verkoop en marketing' alsof het één woord is, maar het zijn twee verschillende taken die toevallig in hetzelfde team spelen.
 
-Een duurzaam bedrijf kan zich niet alleen richten op het verkrijgen van een 'ja'. Een goede commerciële beslissing moet echte waarde opleveren voor de klant en tegelijkertijd zakelijk verantwoord zijn voor de verkoper. Daarom moet je begrijpen wat de ander probeert te bereiken, bepalen of het aanbod werkelijk passend is, de waarde helder communiceren en de klant in staat stellen een geïnformeerde beslissing te nemen.
+Marketing draait om de juiste boodschap bij de juiste mensen krijgen, zodat ze weten dat je bestaat en begrijpen wat je aanbiedt. Het is het reclamebord, de post op sociale media, de flyer, het woord dat iemand van een vriend hoort. De taak van marketing is bekendheid en interesse — zorgen dat iemand zijn hand opsteekt en zegt: 'Vertel me meer.'
 
-Begin bij de situatie van de klant. Welk probleem probeert de klant op te lossen? Welk resultaat wil diegene bereiken? Wat is het belangrijkst: prijs, snelheid, betrouwbaarheid, gemak, kwaliteit, risicobeperking, ondersteuning of iets anders? Ga niet uit van aannames. Stel open vragen, luister aandachtig en bevestig wat je hebt begrepen.
+Verkoop is wat er gebeurt nadat die hand omhoog is gegaan. Verkoop is het gesprek één-op-één (of in een kleine groep) dat interesse omzet in een beslissing. Het gaat om vragen beantwoorden, aarzelingen bespreken en de persoon helpen zich vast te leggen.
 
-Koppel vervolgens het aanbod aan de prioriteiten van de klant. Vermijd vage uitspraken zoals 'de beste' of 'geweldig' als je die niet kunt onderbouwen. Een specifieke uitleg is sterker. Leg uit wat het aanbod doet, waarom dat voor deze klant relevant is en welk bewijs de bewering ondersteunt. Belangrijke beperkingen moeten eveneens duidelijk worden genoemd.
+Zie het als vissen. Marketing gooit een breed net uit en trekt mensen naar de boot. Verkoop is wat er gebeurt als iemand eenmaal in de boot zit — hem helpen besluiten te blijven.
 
-Stel ten slotte een passende volgende stap voor. Dat kan een aankoop zijn, maar ook een demonstratie, offerte, proefperiode, vervolggesprek of helemaal geen transactie. Ethische verkoop laat altijd ruimte voor 'nee'. Een goede reputatie op lange termijn is waardevoller dan een verkoop die door druk tot stand komt.
-
-Hetzelfde geldt voor marketing. Marketing moet de aandacht van geschikte mensen trekken en hen helpen begrijpen of een aanbod relevant voor hen is. Het hoort geen valse verwachtingen te creëren die de verkoper later moet corrigeren.
+Een veelgemaakte fout van nieuwe ondernemers is denken dat verkoop overbodig is als de marketing maar goed genoeg werkt. Dat klopt zelden. Zelfs met een perfecte marketingboodschap hebben de meeste mensen nog vragen, twijfels of behoefte aan geruststelling voordat ze zich vastleggen. Dat gesprek is verkoop, en wie het overslaat, loopt veel omzet mis.
 
 ## Praktijkvoorbeeld
 
-Stel je een klein bedrijf voor dat werkt aan problemen, wensen en resultaten die een aankoop motiveren. In plaats van direct te pitchen, probeert de verkoper eerst de situatie van de klant te begrijpen, controleert of het aanbod werkelijk past, legt de relevante waarde helder uit en stelt een redelijke volgende stap voor. Als het aanbod niet passend is, wordt dat eerlijk gezegd. Zo worden vertrouwen en reputatie beschermd.
+Ntege, die in Oeganda een klein voedselbedrijf heeft, plaatst een video waarin hij zijn specialiteit klaarmaakt en deelt die in de buurt. Vijftien mensen sturen hem een bericht met vragen over de prijs en hoe ze kunnen bestellen. Dat is marketing die werkt — het heeft aandacht en interesse opgeleverd.
 
-Stel jezelf vóór een actie drie vragen: wat heeft de klant werkelijk nodig? Welk bewijs ondersteunt de voorgestelde waarde? Wat is de kleinste redelijke volgende stap? Deze vragen voorkomen veel voorkomende verkoopfouten.
+Nu stellen die vijftien mensen vragen: 'Hoe vers is het?' 'Bezorg je ook?' 'En als ik het niet lekker vind?' Hoe Ntege die vragen beantwoordt, vertrouwen opbouwt en elk gesprek omzet in een echte bestelling — dat is verkoop.
+
+Als Ntege alleen de video had geplaatst en nooit op de berichten had gereageerd, had de marketing gewerkt maar de verkoop gefaald, en had hij de moeite voor de video voor niets gedaan.
 
 ## Oefenquiz
 
-1. Leg in je eigen woorden de hoofdgedachte van problemen, wensen en resultaten die een aankoop motiveren uit.
-2. Noem gedrag waarmee dit concept op een ethische manier kan worden toegepast.
-3. Waarom is een goede match tussen klant en aanbod belangrijker dan het forceren van een verkoop?
-4. Hoe zou je deze les kunnen toepassen op een echt product, een dienst, een sollicitatiegesprek of een persoonlijk project?
+1. Wat is de belangrijkste taak van marketing?
+2. Wat is de belangrijkste taak van verkoop?
+3. Waar staat het 'net' voor in de vergelijking met vissen?
+4. Waarom kan sterke marketing alleen geen verkoop garanderen?
 
 ## Antwoordsleutel
-
-1. Een goed antwoord beschrijft problemen, wensen en resultaten die een aankoop motiveren als een praktisch middel om de kwaliteit van een commerciële beslissing te verbeteren.
-2. Het gedrag moet transparant zijn, op relevante informatie berusten en de beslissingsvrijheid van de ander respecteren.
-3. Een slechte match kan leiden tot retouren, klachten, tijdverlies, reputatieschade en ontevreden klanten.
-4. Antwoorden verschillen, maar moeten een echte situatie, de gewenste waarde en een ethische volgende stap benoemen.
+1. De juiste boodschap bij de juiste mensen krijgen om bekendheid en interesse te creëren.
+2. Die interesse omzetten in een echte beslissing of toezegging.
+3. Marketing — het middel dat de aandacht van mensen trekt.
+4. Omdat de meeste mensen nog antwoorden en vertrouwen nodig hebben voordat ze zich vastleggen, en dat is het verkoopgesprek.
 
 ## Antwoorden en uitleg
-
-1. Alleen een definitie uit het hoofd leren is niet genoeg. Je moet het concept kunnen koppelen aan een echte beslissing en een concreet klantresultaat.
-2. Gezonde commerciële beïnvloeding geeft voldoende informatie om te beslissen in plaats van verborgen druk te gebruiken.
-3. Een goede match beschermt beide partijen en bevordert tevredenheid, klantbehoud, aanbevelingen en reputatie.
-4. Een goede toepassing zet het concept om in concrete actie. Het voorbeeld kan verschillen, maar de redenering moet helder, realistisch en ethisch blijven.
+1. De rol van marketing eindigt zodra iemand op de hoogte en nieuwsgierig is — marketing hoeft niets af te sluiten.
+2. Verkoop neemt het over waar marketing ophoudt en zet nieuwsgierigheid om in een toezegging.
+3. Het net (marketing) trekt mensen naar de boot, maar zorgt niet dat ze erin blijven.
+4. Interesse is niet hetzelfde als zekerheid — verkoop zorgt voor het deel dat met zekerheid te maken heeft.
 
 ## Belangrijkste punten
-
-- Problemen, wensen en resultaten die een aankoop motiveren is een praktische vaardigheid, geen truc.
-- Goede commerciële communicatie begint met het begrijpen van de situatie van de klant.
-- Gebruik specifieke waarde en bewijs in plaats van overdrijving.
-- Een duurzame verkoop moet voor beide partijen zinvol zijn.
-- Ethische verkoop stelt de klant altijd in staat een geïnformeerde beslissing te nemen.
+- Marketing zorgt voor bekendheid; verkoop zorgt voor toezeggingen.
+- De twee functies werken na elkaar, niet tegen elkaar.
+- Wie na geslaagde marketing het verkoopgesprek overslaat, verspilt de moeite van de marketing.

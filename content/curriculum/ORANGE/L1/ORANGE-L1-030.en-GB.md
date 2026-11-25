@@ -4,67 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 30
+locale: en-GB
 title: "Social Media as a Sales Channel"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on social media selling. The practical principle is using social platforms across awareness, trust, conversation and conversion."
-locale: "en-GB"
+summary: "Explains how social media functions across the sales funnel, not just for awareness."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Social Media as a Sales Channel
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain social media selling in plain language.
-- Recognise when social media selling is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain how social media supports multiple stages of the sales funnel
+- Identify the difference between broadcasting and engaging on social media
+- Practice using a social platform to move a prospect toward a decision
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **social media selling**. The practical principle is **using social platforms across awareness, trust, conversation and conversion**.
+Social media is often thought of as purely a marketing tool for the awareness stage — getting attention. But it can support the entire sales funnel, if used deliberately. Comments and direct messages can carry a real sales conversation forward, answering objections and building trust the same way an in-person conversation would.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+The key distinction is between broadcasting and engaging. Broadcasting means posting content and moving on, treating the platform like a billboard. Engaging means responding to comments, answering questions in direct messages, and treating interested followers like the beginning of a real conversation, not just an audience.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
+Businesses that only broadcast often see engagement (likes, follows) without much revenue, because they're leaving the sales-stage work undone. Businesses that engage turn that same attention into actual conversations that can close.
 
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+For UK readers: UK advertising rules (the CAP Code, enforced by the Advertising Standards Authority) require paid or incentivised social media posts to be clearly labelled as ads, so check the ASA's guidance before promoting products this way.
 
 ## Worked Example
 
-Suppose a small business is working on social media selling. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates using social platforms across awareness, trust, conversation and conversion in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A small business posts a product photo and gets a comment asking about pricing. A broadcasting-only approach ignores the comment or answers with a generic auto-reply. An engaging approach responds personally, answers the question, and moves the conversation to direct messages where more detailed questions (and eventually a sale) can happen — treating the public comment as the opening of a real sales conversation rather than the end of the interaction.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind social media selling?
-2. Which behaviour best demonstrates using social platforms across awareness, trust, conversation and conversion?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What stage of the sales funnel is social media often mistakenly limited to?
+2. What's the difference between broadcasting and engaging on social media?
+3. What often happens to businesses that only broadcast?
+4. In the worked example, how did the business turn a public comment into a sales opportunity?
 
 ## Answer Key
-
-1. A strong answer explains social media selling as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies using social platforms across awareness, trust, conversation and conversion openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Awareness.
+2. Broadcasting posts content without follow-up; engaging responds and continues the conversation.
+3. They generate attention (likes, follows) without converting it into actual revenue.
+4. By responding personally and moving the conversation into direct messages to handle detailed questions.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This corrects the common assumption that social media only serves the top of the funnel.
+2. This distinction determines whether social media drives real sales or just visibility.
+3. Attention without engagement leaves the sales-stage work of the funnel undone.
+4. This shows social media functioning as a real sales channel, not just a marketing broadcast tool.
 
 ## Key Takeaways
-
-- Social media selling is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Social media can support the entire sales funnel, not just awareness, if used deliberately.
+- Engaging (responding, conversing) converts attention into sales far better than broadcasting alone.
+- Treat comments and messages as the start of real sales conversations, not just engagement metrics.

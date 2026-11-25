@@ -4,67 +4,61 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 2
-title: "Why People Buy: Problems, Desires, and Outcomes"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on the problems, desires and outcomes that motivate buying. The practical principle is the customer's desired change."
-locale: "en-GB"
+locale: en-GB
+title: "Sales vs. Marketing: Two Different Jobs"
+summary: "Clarifies the distinction between sales and marketing so students stop using the terms interchangeably."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Why People Buy: Problems, Desires, and Outcomes
+
+# Sales vs. Marketing: Two Different Jobs
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain the problems, desires and outcomes that motivate buying in plain language.
-- Recognise when the problems, desires and outcomes that motivate buying is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Distinguish between the function of marketing and the function of sales
+- Explain how the two work together instead of competing
+- Identify which function is happening in a given real-world example
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **the problems, desires and outcomes that motivate buying**. The practical principle is **the customer's desired change**.
+People use "sales and marketing" like it's one word, but they're two different jobs that happen to work on the same team.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+Marketing is about getting the right message in front of the right people so they know you exist and understand what you offer. It's the billboard, the social media post, the flyer, the word someone hears from a friend. Marketing's job is awareness and interest — getting someone to raise their hand and say "tell me more."
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
+Sales is what happens after that hand goes up. Sales is the one-on-one (or small-group) conversation that turns interest into a decision. It's answering questions, addressing hesitations, and helping the person commit.
 
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
+Think of it like fishing. Marketing casts a wide net and pulls people toward the boat. Sales is what happens once someone is in the boat — helping them decide to stay.
 
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+A common mistake new business owners make is assuming that if marketing works well enough, sales won't be necessary. That's rarely true. Even with a perfect marketing message, most people still have questions, doubts, or a need for reassurance before they commit. That conversation is sales, and skipping it costs a lot of business.
 
 ## Worked Example
 
-Suppose a small business is working on the problems, desires and outcomes that motivate buying. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates the customer's desired change in practice.
+Ntege, who runs a small food business in Uganda, posts a video of himself preparing his signature dish and shares it locally. Fifteen people message him asking about prices and how to order. That's marketing working — it got attention and interest.
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+Now those fifteen people are asking questions: "How fresh is it?" "Can you deliver?" "What if I don't like it?" How Ntege answers those questions, builds trust, and closes each conversation into an actual order — that's sales.
+
+If Ntege only posted the video and never followed up on the messages, the marketing would have worked, but the sales would have failed, and he'd have wasted the effort of making the video in the first place.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind the problems, desires and outcomes that motivate buying?
-2. Which behaviour best demonstrates the customer's desired change?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What is the main job of marketing?
+2. What is the main job of sales?
+3. In the fishing metaphor, what does the "net" represent?
+4. Why can't strong marketing alone guarantee a sale?
 
 ## Answer Key
-
-1. A strong answer explains the problems, desires and outcomes that motivate buying as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies the customer's desired change openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Getting the right message to the right people to create awareness and interest.
+2. Turning that interest into an actual decision or commitment.
+3. Marketing — the tool that draws people's attention.
+4. Because most people still need questions answered and trust built before committing, which is the sales conversation.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. Marketing's role ends once someone is aware and curious — it doesn't need to close anything.
+2. Sales picks up where marketing leaves off, converting curiosity into commitment.
+3. The net (marketing) pulls people toward the boat but doesn't get them to stay in it.
+4. Interest is not the same as certainty — sales handles the certainty part.
 
 ## Key Takeaways
-
-- The problems, desires and outcomes that motivate buying is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Marketing creates awareness; sales creates commitment.
+- The two functions work in sequence, not in competition.
+- Skipping the sales conversation after marketing succeeds wastes the marketing effort.

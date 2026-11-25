@@ -4,67 +4,61 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 5
-title: "Understanding the Customer Journey"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on the stages a customer moves through before and after buying. The practical principle is awareness, consideration, decision and retention."
-locale: "en-GB"
+locale: en-GB
+title: "What Makes a Value Proposition Work"
+summary: "Teaches students how to build a clear, one-sentence statement of why a customer should choose them."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Understanding the Customer Journey
+
+# What Makes a Value Proposition Work
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain the stages a customer moves through before and after buying in plain language.
-- Recognise when the stages a customer moves through before and after buying is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Define a value proposition in plain terms
+- Identify the three components a strong value proposition needs
+- Draft a basic value proposition for a simple business idea
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **the stages a customer moves through before and after buying**. The practical principle is **awareness, consideration, decision and retention**.
+A value proposition is one sentence that answers the question: "Why should I choose you instead of anyone else, including doing nothing at all?" It's not a slogan or a tagline — it's a clear, honest statement of the specific benefit you provide.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+A strong value proposition has three parts: **who it's for**, **what problem it solves**, and **what makes your solution different**. If any of these three is missing, the statement gets vague, and vague doesn't convince anyone.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
+A weak example: "We sell great coffee." This doesn't say who it's for, what specific problem it solves, or what's different about it — plenty of places sell coffee.
 
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+A strong example: "For busy commuters who don't have time to wait in line, we deliver fresh coffee to your desk before 8 AM." This names the audience (busy commuters), the problem (no time to wait in line), and the difference (delivered, before a specific time).
 
 ## Worked Example
 
-Suppose a small business is working on the stages a customer moves through before and after buying. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates awareness, consideration, decision and retention in practice.
+Let's build one together for a mobile dog-washing business.
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+**Who it's for:** Dog owners who don't have a car or a yard.
+**What problem it solves:** Getting a dog washed usually means driving somewhere and waiting.
+**What makes it different:** The service comes to them, at their home, with no appointment travel needed.
+
+Combined: "For dog owners without a car or yard, we bring professional dog washing straight to your door, so you never have to leave home to keep your dog clean."
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind the stages a customer moves through before and after buying?
-2. Which behaviour best demonstrates awareness, consideration, decision and retention?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What are the three parts a value proposition needs?
+2. What question does a value proposition answer?
+3. Why is "we sell great coffee" a weak value proposition?
+4. Build a value proposition for a business that tutors children in maths online.
 
 ## Answer Key
-
-1. A strong answer explains the stages a customer moves through before and after buying as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies awareness, consideration, decision and retention openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Who it's for, what problem it solves, what makes it different.
+2. "Why should I choose you instead of anyone else, including doing nothing?"
+3. It doesn't specify an audience, a problem, or a differentiator.
+4. Answers will vary but should include all three parts (example: "For parents whose children are falling behind in maths, we offer one-on-one online tutoring that fits around a busy family schedule.")
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. These three components force specificity, which is what makes a value proposition persuasive.
+2. This framing shows the value proposition has to beat not just competitors, but inaction.
+3. It's generic — it could apply to nearly any coffee shop, so it gives the customer no real reason to choose this one.
+4. A correct answer names a specific audience (parents/students), a real problem (falling behind), and a differentiator (online, flexible scheduling, or similar).
 
 ## Key Takeaways
-
-- The stages a customer moves through before and after buying is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- A value proposition is one clear sentence, not a slogan.
+- It must name who it's for, what problem it solves, and what makes it different.
+- Vague value propositions fail because they don't give anyone a real reason to choose you.

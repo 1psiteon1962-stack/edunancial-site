@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-046
 track: ORANGE
-officialTrackName: "Verkoop & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 46
-title: "Wanneer je van een verkoop moet afzien"
-summary: "Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over bewust afzien van een verkoop."
-locale: "nl"
+locale: nl
+title: "Wanneer je een verkoop moet laten schieten"
+summary: "Leert dat niet elke verkoop het waard is om af te sluiten, en wanneer afzien de juiste keuze is."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Wanneer je van een verkoop moet afzien
+
+# Wanneer je een verkoop moet laten schieten
 
 ## Leerdoelen
-
-Na deze les kun je:
-- bewust afzien van een verkoop in eenvoudige woorden uitleggen;
-- herkennen wanneer dit concept goed of slecht wordt toegepast;
-- het principe toepassen op een eenvoudige verkoop- of marketingsituatie;
-- ethische beïnvloeding onderscheiden van druk en manipulatie.
+- Uitleggen waarom niet elke mogelijke verkoop een goede verkoop is om na te streven
+- Waarschuwingssignalen herkennen dat een verkoop misschien niet goed past
+- De kosten op lange termijn herkennen van het afsluiten van een verkoop die niet past
 
 ## Kerninhoud
 
-Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over **bewust afzien van een verkoop**.
+Het lijkt misschien alsof meer verkoop altijd beter is, maar dat klopt niet helemaal. Een verkoop aan iemand die eigenlijk niet goed past bij wat je aanbiedt, kost vaak meer dan hij oplevert — door terugbetalingen, slechte recensies, overdreven veel vragen om ondersteuning, of een klant die ontevreden blijft wat je ook doet, omdat zijn verwachtingen vanaf het begin nooit realistisch waren.
 
-Een duurzaam bedrijf kan zich niet alleen richten op het verkrijgen van een 'ja'. Een goede commerciële beslissing moet echte waarde opleveren voor de klant en tegelijkertijd zakelijk verantwoord zijn voor de verkoper. Daarom moet je begrijpen wat de ander probeert te bereiken, bepalen of het aanbod werkelijk passend is, de waarde helder communiceren en de klant in staat stellen een geïnformeerde beslissing te nemen.
+Waarschuwingssignalen die je serieus moet nemen: een potentiële klant van wie de verwachtingen duidelijk verder gaan dan wat het product of de dienst realistisch kan leveren, een potentiële klant die tijdens het verkoopproces zelf afwijzend of respectloos is (een voorproefje van hoe hij zich waarschijnlijk als klant zal gedragen), of een situatie waarin ja zeggen zou betekenen dat je iets belooft waarvan je niet zeker weet of je het kunt waarmaken.
 
-Begin bij de situatie van de klant. Welk probleem probeert de klant op te lossen? Welk resultaat wil diegene bereiken? Wat is het belangrijkst: prijs, snelheid, betrouwbaarheid, gemak, kwaliteit, risicobeperking, ondersteuning of iets anders? Ga niet uit van aannames. Stel open vragen, luister aandachtig en bevestig wat je hebt begrepen.
-
-Koppel vervolgens het aanbod aan de prioriteiten van de klant. Vermijd vage uitspraken zoals 'de beste' of 'geweldig' als je die niet kunt onderbouwen. Een specifieke uitleg is sterker. Leg uit wat het aanbod doet, waarom dat voor deze klant relevant is en welk bewijs de bewering ondersteunt. Belangrijke beperkingen moeten eveneens duidelijk worden genoemd.
-
-Stel ten slotte een passende volgende stap voor. Dat kan een aankoop zijn, maar ook een demonstratie, offerte, proefperiode, vervolggesprek of helemaal geen transactie. Ethische verkoop laat altijd ruimte voor 'nee'. Een goede reputatie op lange termijn is waardevoller dan een verkoop die door druk tot stand komt.
-
-Hetzelfde geldt voor marketing. Marketing moet de aandacht van geschikte mensen trekken en hen helpen begrijpen of een aanbod relevant voor hen is. Het hoort geen valse verwachtingen te creëren die de verkoper later moet corrigeren.
+Afzien van een verkoop die niet past, is geen mislukking — het is vaak de meer ervaren, gedisciplineerde keuze. Het beschermt je reputatie, je tijd en je vermogen om je te richten op klanten die echt goed passen.
 
 ## Praktijkvoorbeeld
 
-Stel je een klein bedrijf voor dat werkt aan bewust afzien van een verkoop. In plaats van direct te pitchen, probeert de verkoper eerst de situatie van de klant te begrijpen, controleert of het aanbod werkelijk past, legt de relevante waarde helder uit en stelt een redelijke volgende stap voor. Als het aanbod niet passend is, wordt dat eerlijk gezegd. Zo worden vertrouwen en reputatie beschermd.
-
-Stel jezelf vóór een actie drie vragen: wat heeft de klant werkelijk nodig? Welk bewijs ondersteunt de voorgestelde waarde? Wat is de kleinste redelijke volgende stap? Deze vragen voorkomen veel voorkomende verkoopfouten.
+Een potentiële klant wil een dienst geleverd hebben in een fractie van de normale tijd, voor een flink lagere prijs, en verzet zich al in het allereerste gesprek hevig tegen redelijke voorwaarden. Een verkoper die alleen op afsluiten gericht is, gaat misschien akkoord om de verkoop maar binnen te halen. Een meer ervaren verkoper herkent de waarschuwingssignalen en zegt eerlijk: 'Op basis van wat je beschrijft, denk ik niet dat dit goed past — ik ben daar liever nu open over dan dat ik het aanneem en niet kan leveren wat je verwacht.' Dat beschermt zowel de reputatie van de verkoper als de potentiële klant tegen een slechte uitkomst.
 
 ## Oefenquiz
 
-1. Leg in je eigen woorden de hoofdgedachte van bewust afzien van een verkoop uit.
-2. Noem gedrag waarmee dit concept op een ethische manier kan worden toegepast.
-3. Waarom is een goede match tussen klant en aanbod belangrijker dan het forceren van een verkoop?
-4. Hoe zou je deze les kunnen toepassen op een echt product, een dienst, een sollicitatiegesprek of een persoonlijk project?
+1. Waarom is meer verkoop niet altijd beter?
+2. Noem twee waarschuwingssignalen dat een verkoop misschien niet goed past.
+3. Waarom is afzien van een verkoop die niet past soms de meer gedisciplineerde keuze?
+4. Wat beschermde de verkoper in het praktijkvoorbeeld door af te zien van de verkoop?
 
 ## Antwoordsleutel
-
-1. Een goed antwoord beschrijft bewust afzien van een verkoop als een praktisch middel om de kwaliteit van een commerciële beslissing te verbeteren.
-2. Het gedrag moet transparant zijn, op relevante informatie berusten en de beslissingsvrijheid van de ander respecteren.
-3. Een slechte match kan leiden tot retouren, klachten, tijdverlies, reputatieschade en ontevreden klanten.
-4. Antwoorden verschillen, maar moeten een echte situatie, de gewenste waarde en een ethische volgende stap benoemen.
+1. Een verkoop die niet past, kan meer kosten aan terugbetalingen, slechte recensies of overdreven ondersteuning dan hij oplevert.
+2. Twee van deze: onrealistische verwachtingen, afwijzend of respectloos gedrag tijdens het verkoopproces, iets moeten beloven waarvan je niet zeker weet of je het kunt waarmaken.
+3. Omdat het je reputatie, je tijd en je focus beschermt voor klanten die echt goed passen.
+4. Zijn reputatie en de uitkomst voor de potentiële klant zelf, door vooraf open te zijn in plaats van te veel te beloven.
 
 ## Antwoorden en uitleg
-
-1. Alleen een definitie uit het hoofd leren is niet genoeg. Je moet het concept kunnen koppelen aan een echte beslissing en een concreet klantresultaat.
-2. Gezonde commerciële beïnvloeding geeft voldoende informatie om te beslissen in plaats van verborgen druk te gebruiken.
-3. Een goede match beschermt beide partijen en bevordert tevredenheid, klantbehoud, aanbevelingen en reputatie.
-4. Een goede toepassing zet het concept om in concrete actie. Het voorbeeld kan verschillen, maar de redenering moet helder, realistisch en ethisch blijven.
+1. Dit stelt de aanname ter discussie dat elke mogelijke verkoop afsluiten altijd het juiste doel is.
+2. Deze signalen helpen een slechte match te herkennen voordat die een kostbaar probleem wordt.
+3. Discipline betekent hier reputatie op lange termijn belangrijker vinden dan omzet op korte termijn.
+4. Vooraf eerlijk zijn voorkwam een waarschijnlijk slechte uitkomst voor beide partijen.
 
 ## Belangrijkste punten
-
-- Bewust afzien van een verkoop is een praktische vaardigheid, geen truc.
-- Goede commerciële communicatie begint met het begrijpen van de situatie van de klant.
-- Gebruik specifieke waarde en bewijs in plaats van overdrijving.
-- Een duurzame verkoop moet voor beide partijen zinvol zijn.
-- Ethische verkoop stelt de klant altijd in staat een geïnformeerde beslissing te nemen.
+- Niet elke mogelijke verkoop is een goede verkoop — sommige kosten op lange termijn meer dan ze waard zijn.
+- Let op onrealistische verwachtingen, respectloos gedrag of beloftes waarvan je niet zeker weet of je ze kunt nakomen.
+- Afzien van een verkoop die niet past, is vaak de meer ervaren, gedisciplineerde keuze, geen mislukking.

@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 35
+locale: en-GB
 title: "A/B Testing Basics"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on A/B testing. The practical principle is comparing one controlled change at a time."
-locale: "en-GB"
+summary: "Introduces A/B testing as a simple way to make marketing decisions based on evidence instead of guesswork."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # A/B Testing Basics
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain A/B testing in plain language.
-- Recognise when A/B testing is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Define A/B testing and explain its purpose
+- Identify the requirements for a valid A/B test
+- Practice designing a simple A/B test for a marketing decision
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **A/B testing**. The practical principle is **comparing one controlled change at a time**.
+A/B testing means comparing two versions of something — an ad, an email subject line, a webpage — by showing each version to a similar audience and measuring which one performs better. Instead of guessing which approach will work best, A/B testing lets real results decide.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+For a test to be valid, it needs to change only one thing at a time. If you change both the subject line and the email content simultaneously, and one version performs better, you won't know which change actually caused the improvement. It also needs a reasonably sized audience for each version — testing with just a handful of people per version makes the results unreliable, since a small sample can look different just by chance.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+A/B testing isn't just for large companies with big budgets. A small business can A/B test something as simple as two different social media captions on similar posts, or two subject lines on a small email list, and use what's learned to improve future marketing decisions.
 
 ## Worked Example
 
-Suppose a small business is working on A/B testing. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates comparing one controlled change at a time in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A business wants to know which email subject line gets more people to open a promotional email. They send Version A ("20% off this week only") to half their list, and Version B ("Your discount is ready") to the other half — same email content, same send time, only the subject line differs. Version A gets opened by 30% of recipients; Version B gets opened by 18%. The business now has real evidence, not a guess, that specificity and urgency in the subject line performed better for this audience.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind A/B testing?
-2. Which behaviour best demonstrates comparing one controlled change at a time?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Define A/B testing in your own words.
+2. What's required for an A/B test to give valid, useful results?
+3. Why is testing with a very small audience unreliable?
+4. Is A/B testing only useful for large companies with big budgets?
 
 ## Answer Key
-
-1. A strong answer explains A/B testing as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies comparing one controlled change at a time openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Comparing two versions of something to a similar audience to see which performs better.
+2. Changing only one variable at a time, and testing with a reasonably sized audience.
+3. Small samples can produce misleading results just by random chance, not a real performance difference.
+4. No — small businesses can and should use it for decisions like subject lines or captions.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This defines the core mechanism of A/B testing as evidence-based comparison.
+2. Isolating one variable and having enough data are both required for reliable conclusions.
+3. Statistical noise can overwhelm real signal in small samples, producing false conclusions.
+4. The lesson explicitly counters the assumption that A/B testing requires significant scale or budget.
 
 ## Key Takeaways
-
-- A/b testing is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- A/B testing compares two versions to let real results guide marketing decisions instead of guesswork.
+- Valid tests change only one variable and use a large enough audience to trust the results.
+- Small businesses can and should use simple A/B tests to improve their marketing over time.

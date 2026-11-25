@@ -1,71 +1,58 @@
 ---
 id: ORANGE-L1-010
 track: ORANGE
-officialTrackName: "Verkoop & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 10
-title: "Ethisch overtuigen"
-summary: "Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over ethische overtuiging."
-locale: "nl"
+locale: nl
+title: "Een elevator pitch maken die werkt"
+summary: "Leert je een korte, duidelijke pitch op te bouwen die je kunt geven in de tijd van een liftrit."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Ethisch overtuigen
+
+# Een elevator pitch maken die werkt
 
 ## Leerdoelen
-
-Na deze les kun je:
-- ethische overtuiging in eenvoudige woorden uitleggen;
-- herkennen wanneer dit concept goed of slecht wordt toegepast;
-- het principe toepassen op een eenvoudige verkoop- of marketingsituatie;
-- ethische beïnvloeding onderscheiden van druk en manipulatie.
+- Het doel van een elevator pitch uitleggen
+- De onderdelen van een effectieve korte pitch herkennen
+- Een eenvoudige elevator pitch opstellen voor een eenvoudig bedrijfsidee
 
 ## Kerninhoud
 
-Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over **ethische overtuiging**.
+Een elevator pitch is een korte uitleg van wat je doet, kort genoeg om te vertellen tijdens een korte liftrit — meestal 20 tot 30 seconden. Het doel is niet een verkoop te sluiten. Het doel is genoeg duidelijkheid en interesse te wekken dat de ander meer wil weten.
 
-Een duurzaam bedrijf kan zich niet alleen richten op het verkrijgen van een 'ja'. Een goede commerciële beslissing moet echte waarde opleveren voor de klant en tegelijkertijd zakelijk verantwoord zijn voor de verkoper. Daarom moet je begrijpen wat de ander probeert te bereiken, bepalen of het aanbod werkelijk passend is, de waarde helder communiceren en de klant in staat stellen een geïnformeerde beslissing te nemen.
+Een elevator pitch die werkt, heeft meestal vier onderdelen: **wie je helpt**, **welk probleem je voor hen oplost**, **hoe je het oplost** en **wat jou anders maakt**. Dit lijkt op de waardepropositie uit een eerdere les, maar dan in natuurlijke gesproken taal in plaats van één geschreven zin.
 
-Begin bij de situatie van de klant. Welk probleem probeert de klant op te lossen? Welk resultaat wil diegene bereiken? Wat is het belangrijkst: prijs, snelheid, betrouwbaarheid, gemak, kwaliteit, risicobeperking, ondersteuning of iets anders? Ga niet uit van aannames. Stel open vragen, luister aandachtig en bevestig wat je hebt begrepen.
-
-Koppel vervolgens het aanbod aan de prioriteiten van de klant. Vermijd vage uitspraken zoals 'de beste' of 'geweldig' als je die niet kunt onderbouwen. Een specifieke uitleg is sterker. Leg uit wat het aanbod doet, waarom dat voor deze klant relevant is en welk bewijs de bewering ondersteunt. Belangrijke beperkingen moeten eveneens duidelijk worden genoemd.
-
-Stel ten slotte een passende volgende stap voor. Dat kan een aankoop zijn, maar ook een demonstratie, offerte, proefperiode, vervolggesprek of helemaal geen transactie. Ethische verkoop laat altijd ruimte voor 'nee'. Een goede reputatie op lange termijn is waardevoller dan een verkoop die door druk tot stand komt.
-
-Hetzelfde geldt voor marketing. Marketing moet de aandacht van geschikte mensen trekken en hen helpen begrijpen of een aanbod relevant voor hen is. Het hoort geen valse verwachtingen te creëren die de verkoper later moet corrigeren.
+De grootste fout bij een elevator pitch is proberen alles over je bedrijf in die 30 seconden uit te leggen. Een elevator pitch is niet het hele verhaal — het is de haak die je het recht geeft om later het hele verhaal te vertellen, als de ander geïnteresseerd is.
 
 ## Praktijkvoorbeeld
 
-Stel je een klein bedrijf voor dat werkt aan ethische overtuiging. In plaats van direct te pitchen, probeert de verkoper eerst de situatie van de klant te begrijpen, controleert of het aanbod werkelijk past, legt de relevante waarde helder uit en stelt een redelijke volgende stap voor. Als het aanbod niet passend is, wordt dat eerlijk gezegd. Zo worden vertrouwen en reputatie beschermd.
+Zwakke elevator pitch: 'Nou, ik heb een bedrijf waarin we financiële educatie doen, en het is voor kinderen en gezinnen, en we behandelen beleggen en vastgoed en ondernemen, en het is gebaseerd op een methode die ik voor mijn zoon heb gemaakt, en—' (te veel, geen duidelijk eindpunt, de luisteraar raakt de draad kwijt).
 
-Stel jezelf vóór een actie drie vragen: wat heeft de klant werkelijk nodig? Welk bewijs ondersteunt de voorgestelde waarde? Wat is de kleinste redelijke volgende stap? Deze vragen voorkomen veel voorkomende verkoopfouten.
+Sterke elevator pitch: 'Ik help gezinnen hun kinderen echte financiële vaardigheden te leren — beleggen, vastgoed, ondernemen — met een lesprogramma dat ik oorspronkelijk alleen voor mijn eigen zoon heb gemaakt. De meeste programma's over geld houden op bij "spaar geld". Het mijne leert kinderen echt te denken als eigenaar.' Dat is alles. Als de luisteraar geïnteresseerd is, stelt hij een vervolgvraag, en dat is de uitnodiging om dieper te gaan.
 
 ## Oefenquiz
 
-1. Leg in je eigen woorden de hoofdgedachte van ethische overtuiging uit.
-2. Noem gedrag waarmee dit concept op een ethische manier kan worden toegepast.
-3. Waarom is een goede match tussen klant en aanbod belangrijker dan het forceren van een verkoop?
-4. Hoe zou je deze les kunnen toepassen op een echt product, een dienst, een sollicitatiegesprek of een persoonlijk project?
+1. Wat is het doel van een elevator pitch?
+2. Noem de vier onderdelen van een effectieve elevator pitch.
+3. Wat is de meest gemaakte fout bij het geven van zo'n pitch?
+4. Schrijf een eenvoudige elevator pitch voor een mobiele hondenwasservice.
 
 ## Antwoordsleutel
-
-1. Een goed antwoord beschrijft ethische overtuiging als een praktisch middel om de kwaliteit van een commerciële beslissing te verbeteren.
-2. Het gedrag moet transparant zijn, op relevante informatie berusten en de beslissingsvrijheid van de ander respecteren.
-3. Een slechte match kan leiden tot retouren, klachten, tijdverlies, reputatieschade en ontevreden klanten.
-4. Antwoorden verschillen, maar moeten een echte situatie, de gewenste waarde en een ethische volgende stap benoemen.
+1. Genoeg duidelijkheid en interesse wekken dat de luisteraar meer wil weten — niet de verkoop sluiten.
+2. Wie je helpt, welk probleem je oplost, hoe je het oplost, wat jou anders maakt.
+3. Proberen het hele bedrijf uit te leggen in plaats van alleen de haak.
+4. De antwoorden kunnen verschillen, maar moeten kort zijn en alle vier de onderdelen bevatten (voorbeeld: 'Ik breng professionele hondenwas tot aan de deur van baasjes — geen auto, geen wachtruimte, geen gedoe. De meeste trimsalons laten je naar hen toe komen. Ik kom naar jou.')
 
 ## Antwoorden en uitleg
-
-1. Alleen een definitie uit het hoofd leren is niet genoeg. Je moet het concept kunnen koppelen aan een echte beslissing en een concreet klantresultaat.
-2. Gezonde commerciële beïnvloeding geeft voldoende informatie om te beslissen in plaats van verborgen druk te gebruiken.
-3. Een goede match beschermt beide partijen en bevordert tevredenheid, klantbehoud, aanbevelingen en reputatie.
-4. Een goede toepassing zet het concept om in concrete actie. Het voorbeeld kan verschillen, maar de redenering moet helder, realistisch en ethisch blijven.
+1. De taak van de pitch is interesse wekken, geen volledige verkooppresentatie houden.
+2. Deze vier elementen volgen de opbouw van de waardepropositie, maar dan in gesprekstoon.
+3. Een pitch overladen met details zorgt dat de luisteraar de draad kwijtraakt en afhaakt.
+4. Een goed antwoord blijft onder ongeveer 30 seconden spreektijd en noemt duidelijk een doelgroep, een probleem, een oplossing en een onderscheidend kenmerk.
 
 ## Belangrijkste punten
-
-- Ethische overtuiging is een praktische vaardigheid, geen truc.
-- Goede commerciële communicatie begint met het begrijpen van de situatie van de klant.
-- Gebruik specifieke waarde en bewijs in plaats van overdrijving.
-- Een duurzame verkoop moet voor beide partijen zinvol zijn.
-- Ethische verkoop stelt de klant altijd in staat een geïnformeerde beslissing te nemen.
+- Een elevator pitch is een korte haak, geen volledige verkooppresentatie.
+- Hij moet kort behandelen wie je helpt, welk probleem je oplost, hoe je het oplost en wat er anders is.
+- Het doel is een vervolgvraag te krijgen, niet ter plekke een deal te sluiten.

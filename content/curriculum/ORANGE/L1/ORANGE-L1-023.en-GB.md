@@ -4,67 +4,57 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 23
+locale: en-GB
 title: "The 'Why Now' Question"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on timing motivation. The practical principle is understanding why solving a problem matters now."
-locale: "en-GB"
+summary: "Explains why understanding a prospect's timing motivation is essential to closing effectively."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# The 'Why Now' Question
+
+# The "Why Now" Question
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain timing motivation in plain language.
-- Recognise when timing motivation is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain why understanding timing motivation matters in a sale
+- Identify the difference between a prospect who's ready and one who's just curious
+- Practice asking a "why now" question naturally in conversation
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **timing motivation**. The practical principle is **understanding why solving a problem matters now**.
+Two prospects can say the exact same thing — "I'm interested" — and mean completely different things. One might be ready to decide this week. The other might be curious in an abstract way, with no real intention of acting soon. Telling them apart matters, because it changes how you should spend your time and energy.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+Asking, directly or indirectly, "why now?" or "what's making you look into this at this particular time?" reveals the real motivation. Someone with a specific, urgent reason (a deadline, a problem that's actively costing them money, a change in circumstances) is a much stronger prospect than someone browsing out of general interest with no pressing reason to decide.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+This isn't about disqualifying people who aren't ready — it's about understanding where they actually are, so you can follow up appropriately instead of pushing someone who isn't ready or under-following-up with someone who is.
 
 ## Worked Example
 
-Suppose a small business is working on timing motivation. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates understanding why solving a problem matters now in practice.
+**Seller:** "What's making you look at bookkeeping software right now, as opposed to six months ago?"
+**Prospect A:** "Honestly, just browsing, no real reason."
+**Prospect B:** "I just got a notice from HMRC about missing paperwork, and I need this handled before next month."
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+Prospect B has a specific, urgent "why now" — they're a much stronger near-term opportunity than Prospect A, even though both said they were "interested."
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind timing motivation?
-2. Which behaviour best demonstrates understanding why solving a problem matters now?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Why can two prospects who both say "I'm interested" actually be in very different positions?
+2. What question helps reveal a prospect's real timing motivation?
+3. What kind of "why now" answer signals a stronger near-term opportunity?
+4. Is the goal of this question to disqualify prospects who aren't ready?
 
 ## Answer Key
-
-1. A strong answer explains timing motivation as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies understanding why solving a problem matters now openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Because "interested" can mean anything from mild curiosity to urgent readiness to decide.
+2. "Why now?" or "what's making you look into this at this particular time?"
+3. A specific, urgent reason — a deadline, an active problem, a changed circumstance.
+4. No — the goal is to understand where they actually are so follow-up can be appropriately timed.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. Interest level and readiness to act are not the same thing, and this lesson teaches how to tell them apart.
+2. This question directly surfaces the underlying motivation behind a stated interest.
+3. Specificity and urgency are the key markers of a genuinely near-term opportunity.
+4. The lesson frames this as a diagnostic tool for appropriate follow-up, not a filter for rejecting people.
 
 ## Key Takeaways
-
-- Timing motivation is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- "Interested" can mean very different things depending on a prospect's actual timing and motivation.
+- Asking "why now" reveals whether someone is ready to act or just casually curious.
+- This isn't about disqualifying anyone — it's about following up appropriately based on where they really are.

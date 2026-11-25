@@ -4,67 +4,56 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 27
+locale: en-GB
 title: "Negotiation Fundamentals"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on negotiation. The practical principle is exchanging value while protecting important interests."
-locale: "en-GB"
+summary: "Introduces the basics of negotiating a deal so both sides feel the outcome was fair."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Negotiation Fundamentals
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain negotiation in plain language.
-- Recognise when negotiation is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Define negotiation and explain why it isn't about "winning"
+- Identify the difference between position and interest in a negotiation
+- Practice finding a solution that addresses both sides' underlying interests
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **negotiation**. The practical principle is **exchanging value while protecting important interests**.
+Negotiation is the process of two sides working out terms both can accept. New sellers often think of negotiation as a battle to win — get the highest price, give up as little as possible. That mindset tends to backfire, because a "win" that leaves the other side feeling taken advantage of usually damages the relationship and reduces the chance of future business or referrals.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+A more effective approach separates position from interest. A position is what someone says they want ("I want a 20% discount"). An interest is the underlying reason behind that position (they're worried about cash flow this month, or they've seen a competitor's lower price and want reassurance they're not overpaying). Negotiating the position alone often gets stuck. Understanding the interest behind it usually reveals more creative solutions.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Good negotiation looks for outcomes where both sides get their real underlying interest met, even if neither side gets their exact stated position.
 
 ## Worked Example
 
-Suppose a small business is working on negotiation. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates exchanging value while protecting important interests in practice.
+**Position stated:** "I need a 20% discount or I can't move forward."
+**Underlying interest, once asked about:** "Cash is just really tight this month, and I don't want to overcommit."
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A seller focused only on the stated position might just cave and discount 20%, cutting into margin unnecessarily. A seller who understands the real interest might instead offer a payment plan spread across two months at full price — solving the actual cash flow concern without discounting the value of the product at all.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind negotiation?
-2. Which behaviour best demonstrates exchanging value while protecting important interests?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Define negotiation in your own words.
+2. What's the difference between a position and an interest?
+3. Why can focusing only on someone's stated position lead to a worse outcome?
+4. In the worked example, what solution addressed the real underlying interest?
 
 ## Answer Key
-
-1. A strong answer explains negotiation as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies exchanging value while protecting important interests openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. The process of two sides working out terms both can accept.
+2. A position is what someone says they want; an interest is the underlying reason behind that request.
+3. Because it can miss creative solutions that would satisfy the real concern without conceding unnecessarily.
+4. Offering a payment plan instead of a discount, which solved the cash flow concern directly.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. Negotiation is framed as collaborative problem-solving, not a battle to win.
+2. This distinction is the central negotiation concept the lesson introduces.
+3. Position-only negotiation can lead to unnecessary concessions or unresolved sticking points.
+4. This example shows how addressing the real interest can produce a better outcome for both sides.
 
 ## Key Takeaways
-
-- Negotiation is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Negotiation works best as collaborative problem-solving, not a battle to win.
+- Distinguish position (what's said) from interest (the real underlying reason).
+- Solutions that address the real interest often beat simply conceding on the stated position.

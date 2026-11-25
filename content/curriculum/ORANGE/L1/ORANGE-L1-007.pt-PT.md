@@ -1,71 +1,58 @@
 ---
 id: ORANGE-L1-007
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 7
-title: "Fazer perguntas melhores"
-summary: "Vendas e marketing tornam-se mais fáceis de compreender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição aborda perguntas que revelam necessidades e prioridades."
-locale: "pt-PT"
+locale: pt-PT
+title: "Necessidades x desejos: o que as pessoas realmente compram"
+summary: "Ensina a diferença entre necessidades e desejos e como os dois impulsionam decisões de compra reais."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Fazer perguntas melhores
+
+# Necessidades x desejos: o que as pessoas realmente compram
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, será capaz de:
-- explicar perguntas que revelam necessidades e prioridades em palavras simples;
-- reconhecer quando este conceito está a ser utilizado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- distinguir influência ética de pressão e manipulação.
+- Diferenciar uma necessidade de um desejo no contexto de uma compra
+- Explicar porque a maioria das compras envolve tanto uma necessidade quanto um desejo
+- Identificar qual dos dois está a impulsionar uma determinada decisão de compra
 
 ## Conteúdo principal
 
-Vendas e marketing tornam-se mais fáceis de compreender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição aborda **perguntas que revelam necessidades e prioridades**.
+Uma necessidade é algo de que a pessoa precisa para funcionar — comida, habitação, transporte básico, atendimento médico. Um desejo é algo que a pessoa quer além disso — uma marca específica de sapatilhas, um carro melhor do que o necessário, uma versão mais sofisticada de algo que poderia conseguir mais barato.
 
-Uma empresa sustentável não pode concentrar-se apenas em conseguir um «sim». Uma boa decisão comercial deve criar valor real para o cliente e, ao mesmo tempo, fazer sentido económico para quem vende. Por isso, é necessário compreender o que a outra pessoa pretende alcançar, verificar se a oferta é realmente adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão informada.
+Eis o que surpreende muitos vendedores iniciantes: a maioria das compras envolve as duas coisas. Alguém precisa de fazer compras no mercado, mas quer uma marca específica porque ela lembra a infância. Alguém precisa de um carro para ir ao trabalho, mas quer uma certa cor ou um conjunto de itens que não tem nada a ver com a função.
 
-Comece pela situação do cliente. Que problema está a tentar resolver? Que resultado pretende alcançar? O que é mais importante: preço, rapidez, fiabilidade, conveniência, qualidade, redução de risco, apoio ou outra coisa? Não presuma que já conhece a resposta. Faça perguntas abertas, ouça com atenção e confirme o que compreendeu.
-
-Depois, relacione a oferta com as prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não existam provas. Uma explicação específica é mais forte. Explique o que a oferta faz, porque é importante para aquele cliente e que evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética deixa sempre espaço para um «não». Uma reputação sólida a longo prazo vale mais do que uma venda obtida através de pressão.
-
-O mesmo raciocínio aplica-se ao marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a compreender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipa de vendas terá de corrigir mais tarde.
+Vender para uma necessidade normalmente é tirar obstáculos do caminho — tornar o que é necessário o mais fácil, acessível ou rápido possível. Vender para um desejo normalmente é falar com a emoção — identidade, status, conforto, nostalgia ou autoimagem. Entender qual dos dois está a impulsionar a decisão de um cliente específico muda a forma como deve falar com ele. Um cliente que compra por pura necessidade quer eficiência. Um cliente que compra por desejo reage a como a compra faz ele se sentir.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa a trabalhar com perguntas que revelam necessidades e prioridades. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda procura primeiro compreender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, diz isso abertamente. Este comportamento protege a confiança e a reputação.
+Um cliente entra numa loja de calçados precisando de botas de trabalho novas porque as antigas se desmancharam. Essa é a necessidade. Mas, lá dentro, ele escolhe um par de 180 $ em vez de um par de 60 $ que faz o mesmo serviço, porque associa a marca do par mais caro a qualidade e resistência. Esse é o desejo por cima da necessidade.
 
-Antes de agir, faça três perguntas: de que precisa realmente o cliente? Que provas sustentam o valor que estou a apresentar? Qual é o menor próximo passo razoável? Estas perguntas evitam muitos erros comerciais.
+Um bom vendedor reconhece as duas coisas: confirma que as botas atendem à exigência funcional (biqueira de aço, impermeáveis, com certificação de segurança — a necessidade) e também fala da reputação da marca e de como o cliente vai sentir-se usando as botas no trabalho (o desejo).
 
-## Questionário prático
+## Teste de prática
 
-1. Explique pelas suas próprias palavras a ideia principal de perguntas que revelam necessidades e prioridades.
-2. Descreva um comportamento que permita aplicar este conceito de forma ética.
-3. Porque é que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+1. Defina necessidade e desejo com suas próprias palavras.
+2. A maioria das compras envolve só uma necessidade, só um desejo ou, muitas vezes, os dois?
+3. Em que um vendedor deve concentrar-se quando uma necessidade impulsiona a decisão?
+4. Em que um vendedor deve concentrar-se quando um desejo impulsiona a decisão?
 
-## Soluções
-
-1. Uma boa resposta apresenta perguntas que revelam necessidades e prioridades como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, basear-se em informação relevante e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos na reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+## Chave de Respostas
+1. Uma necessidade é algo de que se precisa para funcionar; um desejo é algo que se quer além disso.
+2. Muitas vezes, os dois.
+3. Tirar obstáculos do caminho — eficiência, preço acessível, facilidade.
+4. Emoção — identidade, status, autoimagem, conforto.
 
 ## Respostas e explicações
+1. Qualquer paráfrase correta que capte a diferença entre o que é necessário e o que é desejado está certa.
+2. O exemplo das botas mostra como uma necessidade puramente funcional ainda pode trazer um desejo emocional por cima.
+3. Compradores movidos por necessidade reagem a valor prático — custo, rapidez, facilidade.
+4. Compradores movidos por desejo reagem a como a compra os faz se sentir em relação a si mesmos.
 
-1. Não basta memorizar uma definição. Deve conseguir relacionar o conceito com uma decisão real e um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informação suficiente para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege ambas as partes e favorece satisfação, retenção, recomendações e reputação.
-4. Uma boa aplicação transforma o conceito numa ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Perguntas que revelam necessidades e prioridades é uma competência prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Utilize valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para ambas as partes.
-- A venda ética permite sempre que o cliente tome uma decisão informada.
+## Pontos-chave
+- Necessidades são exigências funcionais; desejos são vontades emocionais por cima delas.
+- A maioria das compras reais envolve as duas coisas ao mesmo tempo.
+- Reconhecer qual delas está a impulsionar um cliente específico muda a forma como deve apresentar a sua oferta.
