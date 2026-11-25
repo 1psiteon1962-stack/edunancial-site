@@ -96,7 +96,7 @@ Pense em dois negócios que conheça: um que parece crescer mais ou menos na pro
 2. **Conceito 1 — Crescimento:** O que crescimento costuma significar em termos de receita e custos?
 3. **Aprofundamento:** A margem de lucro costuma mudar muito apenas com o crescimento?
 4. **Conceito 2 — Escala:** O que escala significa especificamente em termos de receita e custos?
-5. **Aprofundamento:** O que acontece com a margem de lucro quando o negócio ganha escala de verdade?
+5. **Aprofundamento:** O que acontece com a margem de lucro quando o negócio ganha escala a sério?
 6. **Conceito 3 — Ligação com os sistemas:** Como o conceito de sistemas de BLUE-L1-039 se liga à capacidade de ganhar escala?
 7. **Aprofundamento:** Porque é que um negócio não consegue ganhar escala se cada unidade adicional de produção exige uma contratação proporcional?
 8. **Conceito 4 — Comparação concreta:** Compare o exemplo da consultoria com o da empresa de software. Qual está a crescer e qual está a ganhar escala?
@@ -110,8 +110,8 @@ Pense em dois negócios que conheça: um que parece crescer mais ou menos na pro
 2. (Escolha múltipla) Escala significa especificamente: A) Receita a subir mais ou menos na proporção dos custos B) Receita a subir bem mais depressa do que os custos C) Custos a subir mais depressa do que a receita D) Receita e custos não têm relação
 3. (Verdadeiro/Falso) "Crescimento" e "escala" são termos intercambiáveis que descrevem exatamente o mesmo padrão.
 4. (Resposta curta) Explique como os sistemas (BLUE-L1-039) permitem que um negócio passe de crescer a ganhar escala.
-5. (Cenário) Uma consultoria precisa de contratar um novo consultor para cada novo cliente. Esse negócio está a crescer ou ganhando escala? Explique.
-6. (Escolha múltipla) O que acontece com a margem de lucro quando o negócio ganha escala de verdade? A) Normalmente piora B) Normalmente melhora à medida que o negócio fica maior C) Fica exatamente igual D) A margem não tem relação com a escala
+5. (Cenário) Uma consultoria precisa de contratar um novo consultor para cada novo cliente. Esse negócio está a crescer ou a ganhar escala? Explique.
+6. (Escolha múltipla) O que acontece com a margem de lucro quando o negócio ganha escala a sério? A) Normalmente piora B) Normalmente melhora à medida que o negócio fica maior C) Fica exatamente igual D) A margem não tem relação com a escala
 7. (Verdadeiro/Falso) Ganhar escala é sempre objetivamente melhor do que crescer.
 8. (Resposta curta) Dê um exemplo de tipo de negócio que poderia crescer sem nunca ganhar escala e explique por quê.
 9. (Escolha múltipla) Um negócio que cresce pode, um dia, passar a ganhar escala? A) Nunca B) Sim, muitas vezes à medida que se constroem sistemas e infraestrutura C) Só se diminuir primeiro D) Só por meio de uma aquisição
@@ -172,7 +172,7 @@ Perguntas para o schema de FAQ: "Ganhar escala é sempre melhor do que crescer?"
 
 ## Bloco de apoio de IA
 `BLUE-L1-049-AI`
-Resumo para IA: Diferencia crescimento (aumento proporcional de receita e custos) de escala (receita superando bastante os custos), ligando a capacidade de ganhar escala diretamente ao conceito de sistemas de BLUE-L1-039.
+Resumo para IA: Diferencia crescimento (aumento proporcional de receita e custos) de escala (receita a superar bastante os custos), ligando a capacidade de ganhar escala diretamente ao conceito de sistemas de BLUE-L1-039.
 Notas de ensino para IA: Esta é a última lição conceitual antes do projeto final: reforçar as ligações entre as lições de todo o nível como revisão para a tarefa do projeto final.
 
 ## Bloco de localização
