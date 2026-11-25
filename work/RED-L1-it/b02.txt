@@ -1,0 +1,364 @@
+===== RED-L1-016
+TITLE: Che cos'è l'assicurazione sul titolo di proprietà?
+SUMMARY: Scopri da che cosa protegge l'assicurazione sul titolo di proprietà, chi di solito la paga e perché è un costo una tantum e non ricorrente.
+# Che cos'è l'assicurazione sul titolo di proprietà?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire l'assicurazione sul titolo di proprietà in termini semplici.
+- spiegare da che cosa protegge.
+- spiegare perché di solito è un costo una tantum.
+
+## Contenuto principale
+
+### Che cos'è l'assicurazione sul titolo
+
+*(REGOLA SPECIFICA PER REGIONE: l'assicurazione sul titolo è diffusa soprattutto negli Stati Uniti. In Italia è poco comune, perché il notaio verifica la provenienza e la situazione giuridica dell'immobile e ne risponde professionalmente; chiedi informazioni a un notaio.)* L'assicurazione sul titolo di proprietà (in inglese "title insurance") protegge il proprietario (e, separatamente, il creditore) dalle perdite economiche dovute a problemi del titolo che esistevano prima dell'acquisto ma non sono stati scoperti durante la verifica del titolo: per esempio un erede non dichiarato, un documento falsificato nella storia dell'immobile o un errore nei registri pubblici.
+
+### Da che cosa protegge
+
+A differenza della maggior parte delle assicurazioni, che coprono eventi futuri, l'assicurazione sul titolo copre problemi passati non scoperti. Se dopo il rogito emerge un problema coperto, la polizza può coprire le spese legali e le perdite economiche legate alla difesa o alla risoluzione della pretesa.
+
+### Perché è un costo una tantum
+
+Poiché l'assicurazione sul titolo copre un rischio storico e non un rischio continuo, di solito si paga una sola volta, al rogito, e non come premio ricorrente come l'assicurazione sulla casa.
+
+## Esempio svolto
+
+Due anni dopo l'acquisto di una casa, un erede fino ad allora sconosciuto di un precedente proprietario avanza una pretesa sull'immobile. La polizza sul titolo dell'acquirente copre le spese legali per risolvere la pretesa.
+
+## Quiz di esercitazione
+
+1. L'assicurazione sul titolo di proprietà protegge principalmente da:
+   A. Danni futuri causati da una tempesta
+   B. Problemi del titolo passati e non scoperti
+   C. Un calo del valore di mercato
+   D. Ritardi nel pagamento del mutuo
+
+2. Vero o falso: l'assicurazione sul titolo di proprietà si paga di solito come premio mensile ricorrente, come l'assicurazione sulla casa.
+
+3. Quale di questi è un esempio di ciò che l'assicurazione sul titolo potrebbe coprire?
+   A. Un tetto nuovo necessario dopo una tempesta
+   B. Un erede non dichiarato con una pretesa che risale al passato dell'immobile
+   C. Un calo del mercato immobiliare locale
+   D. Una penale per il ritardo nel pagamento del mutuo
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'assicurazione sul titolo copre problemi passati non scoperti, non eventi futuri come i danni di una tempesta.
+
+### Domanda 2
+
+Risposta corretta: Falso. Di solito si paga una sola volta, al rogito.
+
+### Domanda 3
+
+Risposta corretta: B. Un erede non dichiarato è un esempio classico di problema storico del titolo coperto da questa assicurazione.
+
+## Punti chiave
+
+- L'assicurazione sul titolo di proprietà copre problemi del titolo passati e non scoperti.
+- Di solito si paga una sola volta, al rogito.
+- Protegge da perdite economiche e spese legali se in seguito emerge un problema coperto.
+
+===== RED-L1-017
+TITLE: Che cos'è l'escrow (deposito presso terzi)?
+SUMMARY: Scopri che cosa significa escrow in una compravendita immobiliare e i due modi diversi in cui si usa questo termine.
+# Che cos'è l'escrow (deposito presso terzi)?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire l'escrow in termini semplici.
+- spiegare i due usi comuni del termine nel settore immobiliare.
+- spiegare perché interviene un terzo neutrale.
+
+## Contenuto principale
+
+### L'escrow in generale
+
+L'escrow indica denaro o documenti custoditi da un terzo neutrale finché non si verificano determinate condizioni. Nel settore immobiliare americano il termine si usa in due modi collegati ma distinti.
+
+### L'escrow durante l'acquisto
+
+Durante l'acquisto di una casa, una società o un agente di escrow custodisce il deposito dell'acquirente e i documenti necessari finché non sono soddisfatte tutte le condizioni della vendita (come le ispezioni e il finanziamento), poi libera fondi e documenti per concludere il rogito. (In Italia una funzione simile può essere svolta dal notaio, per esempio con il deposito del prezzo sul conto dedicato del notaio.)
+
+### L'escrow dopo l'acquisto (per imposte e assicurazione)
+
+Dopo il rogito, molti creditori americani mantengono un conto escrow continuativo: con ogni rata mensile raccolgono una parte dell'imposta immobiliare e dell'assicurazione sulla casa, poi pagano quelle spese per conto del proprietario alla scadenza. (In Italia questa pratica è poco comune: di solito è il proprietario a pagare direttamente queste spese.)
+
+## Esempio svolto
+
+La caparra dell'acquirente viene custodita in escrow durante la procedura di acquisto. Dopo il rogito, il nuovo creditore apre anche un conto escrow continuativo per raccogliere e pagare automaticamente ogni anno imposte immobiliari e assicurazione.
+
+## Quiz di esercitazione
+
+1. L'escrow indica:
+   A. Un tipo di ispezione dell'immobile
+   B. Denaro o documenti custoditi da un terzo neutrale finché non si verificano determinate condizioni
+   C. Un'imposta immobiliare pubblica
+   D. Una forma di assicurazione sul titolo di proprietà
+
+2. Vero o falso: l'escrow si usa solo durante l'acquisto di una casa, mai dopo.
+
+3. A che cosa può servire un conto escrow continuativo legato a un mutuo?
+   A. A pagare la spesa alimentare del proprietario
+   B. A raccogliere e pagare imposte immobiliari e assicurazione
+   C. A coprire l'anticipo
+   D. A pagare la provvigione dell'agente immobiliare
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'escrow è un sistema di custodia da parte di un terzo neutrale.
+
+### Domanda 2
+
+Risposta corretta: Falso. L'escrow si usa spesso anche in modo continuativo, dopo il rogito, per il pagamento di imposte e assicurazione.
+
+### Domanda 3
+
+Risposta corretta: B. I conti escrow continuativi gestiscono comunemente imposte immobiliari e assicurazione.
+
+## Punti chiave
+
+- L'escrow è un sistema di custodia da parte di un terzo neutrale.
+- Si usa sia durante un acquisto sia, spesso, in modo continuativo per imposte e assicurazione.
+- Il terzo neutrale tutela sia l'acquirente sia il venditore (o il creditore e il debitore) durante la procedura.
+
+===== RED-L1-018
+TITLE: Costi di chiusura: che cosa paghi davvero?
+SUMMARY: Scopri che cosa comprendono di solito i costi di chiusura, più o meno quanto possono essere alti e perché sono distinti dall'anticipo.
+# Costi di chiusura: che cosa paghi davvero?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- indicare diverse categorie comuni di costi di chiusura.
+- spiegare perché i costi di chiusura sono distinti dall'anticipo.
+- riconoscere che i costi di chiusura sono di solito dovuti al rogito o poco prima.
+
+## Contenuto principale
+
+### Che cosa comprendono di solito i costi di chiusura
+
+I costi di chiusura (in inglese "closing costs") sono le spese legate al perfezionamento di una compravendita immobiliare, distinte dal prezzo dell'immobile. Tra le categorie comuni: spese di istruttoria del mutuo, spese di perizia, assicurazione sul titolo, spese di escrow e spese di registrazione, anche se l'elenco preciso varia in base alla compravendita e al luogo.
+
+### Perché sono distinti dall'anticipo
+
+L'anticipo serve a pagare una parte del prezzo d'acquisto. I costi di chiusura pagano i servizi e le procedure necessari per completare la compravendita: sono una spesa davvero separata che l'acquirente deve mettere a budget oltre all'anticipo.
+
+### Quando sono dovuti
+
+*(REGOLA SPECIFICA PER REGIONE: le prassi precise variano da luogo a luogo. In Italia si aggiungono, per esempio, le imposte sull'acquisto (registro oppure IVA, ipotecaria e catastale), la parcella del notaio, l'eventuale provvigione dell'agenzia e le spese del mutuo; verifica gli importi con un notaio.)* I costi di chiusura sono di solito dovuti al rogito o poco prima, e l'acquirente dovrebbe prevederli come un reale bisogno di liquidità immediato, insieme all'anticipo.
+
+## Esempio svolto
+
+Un acquirente risparmia 30.000 $ per l'anticipo, ma scopre con sorpresa di aver bisogno anche di diverse migliaia di dollari in più per i costi di chiusura: un errore di budget comune tra chi compra casa per la prima volta e pianifica solo l'anticipo.
+
+## Quiz di esercitazione
+
+1. I costi di chiusura sono:
+   A. La stessa cosa dell'anticipo
+   B. Spese legate al perfezionamento della compravendita, distinte dal prezzo d'acquisto
+   C. Un tipo di imposta immobiliare
+   D. Facoltativi e raramente richiesti
+
+2. Vero o falso: i costi di chiusura sono di solito dovuti molto dopo la vendita, spesso un anno dopo.
+
+3. Quale di queste è una categoria comune di costi di chiusura?
+   A. Le spese alimentari
+   B. Le spese di istruttoria del mutuo
+   C. Il costo dei mobili
+   D. La sistemazione del giardino
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. I costi di chiusura sono spese di transazione separate, distinte dal prezzo d'acquisto e dall'anticipo.
+
+### Domanda 2
+
+Risposta corretta: Falso. I costi di chiusura sono di solito dovuti al rogito o poco prima.
+
+### Domanda 3
+
+Risposta corretta: B. Le spese di istruttoria del mutuo sono un costo di chiusura comune.
+
+## Punti chiave
+
+- I costi di chiusura sono spese separate necessarie per perfezionare una compravendita.
+- Si aggiungono all'anticipo e non ne fanno parte.
+- L'acquirente dovrebbe prevederli come un reale bisogno di liquidità immediato.
+
+===== RED-L1-019
+TITLE: Che cos'è una HOA (associazione dei proprietari), e che poteri ha?
+SUMMARY: Scopri che cos'è davvero un'associazione dei proprietari, che cosa può imporre e che cosa verificare prima di comprare un immobile che ne fa parte.
+# Che cos'è una HOA (associazione dei proprietari), e che poteri ha?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una HOA in termini semplici.
+- spiegare che cosa può imporre di solito una HOA.
+- spiegare perché le quote e le regole della HOA contano prima di comprare.
+
+## Contenuto principale
+
+### Che cos'è una HOA
+
+Una HOA (homeowners association, associazione dei proprietari) è un'organizzazione che gestisce regole comuni e, spesso, spazi o servizi condivisi all'interno di un complesso residenziale: è comune nei complessi pianificati, nei condomini e in alcune lottizzazioni. (In Italia l'equivalente più vicino è il condominio, gestito da un amministratore secondo un regolamento condominiale.)
+
+### Che cosa può imporre
+
+Le HOA hanno di solito un vero potere legale di far rispettare le regole comuni (per esempio sull'aspetto esterno, sul rumore o sugli animali) e di riscuotere le quote obbligatorie. Non pagare le quote o non rispettare le regole può portare a sanzioni e, in alcuni casi, persino a un vincolo sull'immobile.
+
+### Che cosa verificare prima di comprare
+
+Poiché le regole e le quote della HOA sono legalmente vincolanti per i proprietari del complesso, conviene esaminare regole, struttura delle quote e salute finanziaria della HOA prima di comprare un immobile che ne fa parte: un errore da principiante è considerare le quote facoltative o di poco conto.
+
+## Esempio svolto
+
+Un acquirente compra un appartamento senza esaminare i documenti della HOA, poi scopre una regola rigida che vieta l'attività professionale che pensava di svolgere nell'unità: un conflitto che si sarebbe potuto individuare prima del rogito.
+
+## Quiz di esercitazione
+
+1. Una HOA è:
+   A. Un'agenzia fiscale statale
+   B. Un'organizzazione che gestisce regole comuni e spesso spazi condivisi in un complesso residenziale
+   C. Un tipo di creditore ipotecario
+   D. Un servizio obbligatorio di ispezione dell'immobile
+
+2. Vero o falso: le quote della HOA sono in genere facoltative e raramente riscosse.
+
+3. Che cosa può succedere se un proprietario non paga le quote obbligatorie della HOA?
+   A. Niente
+   B. Sanzioni e, potenzialmente, un vincolo sull'immobile
+   C. La perdita automatica del mutuo
+   D. Una riduzione dell'imposta immobiliare
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una HOA gestisce le regole comuni e spesso gli spazi o servizi condivisi.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le quote della HOA sono di solito legalmente vincolanti ed esigibili.
+
+### Domanda 3
+
+Risposta corretta: B. Le quote non pagate possono portare a sanzioni e persino a un vincolo sull'immobile.
+
+## Punti chiave
+
+- Una HOA gestisce le regole comuni e spesso i servizi condivisi.
+- Le quote e le regole della HOA sono di solito legalmente vincolanti, non facoltative.
+- Esaminare i documenti della HOA prima di comprare può evitare vere sorprese in seguito.
+
+===== RED-L1-020
+TITLE: Monofamiliare o plurifamiliare: qual è la vera differenza per un proprietario?
+SUMMARY: Scopri in che cosa differiscono, per un proprietario, gli immobili monofamiliari e quelli plurifamiliari, al di là del numero di unità.
+# Monofamiliare o plurifamiliare: qual è la vera differenza per un proprietario?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire gli immobili monofamiliari e plurifamiliari.
+- spiegare in che cosa differisce il potenziale di reddito dei due.
+- spiegare in che cosa differisce la responsabilità di gestione dei due.
+
+## Contenuto principale
+
+### Che cosa sono
+
+Un immobile monofamiliare ospita un solo nucleo familiare in un'unica unità indipendente. Un immobile plurifamiliare contiene più unità separate (come un bifamiliare, un trifamiliare o un quadrifamiliare) all'interno di un unico immobile, ciascuna in grado di ospitare un nucleo familiare diverso.
+
+### Potenziale di reddito
+
+Una casa monofamiliare genera di solito un reddito da affitto da una sola fonte (se viene affittata). Un immobile plurifamiliare può generare reddito da più unità contemporaneamente, il che può significare più reddito totale, ma dipende anche dal fatto che più unità vengano affittate e mantenute con successo.
+
+### Responsabilità di gestione
+
+Più unità significano in genere più gestione quotidiana: più inquilini, più richieste di manutenzione, più cambi di inquilino. Questo compromesso tra potenziale di reddito e complessità di gestione è un fattore reale quando si confrontano i tipi di immobile, non solo una differenza di prezzo.
+
+## Esempio svolto
+
+Un immobile monofamiliare in affitto genera un canone al mese. Un quadrifamiliare genera fino a quattro canoni al mese dallo stesso immobile, ma anche fino a quattro inquilini di cui gestire richieste di manutenzione e cambi.
+
+## Quiz di esercitazione
+
+1. Un immobile plurifamiliare si descrive meglio come:
+   A. Un immobile con un'unica unità abitativa indipendente
+   B. Un immobile che contiene più unità abitative separate
+   C. Un immobile senza unità abitative
+   D. Un tipo di edificio per uffici commerciali
+
+2. Vero o falso: gli immobili plurifamiliari comportano in genere più gestione quotidiana di quelli monofamiliari.
+
+3. Qual è un vero compromesso tra possedere un immobile monofamiliare e uno plurifamiliare?
+   A. Non c'è alcun compromesso: il plurifamiliare è sempre migliore
+   B. Il plurifamiliare offre più potenziale di reddito ma in genere più complessità di gestione
+   C. Il monofamiliare genera sempre più reddito totale
+   D. Gli immobili plurifamiliari non si possono affittare
+
+## Soluzioni
+
+1. B
+2. Vero
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Gli immobili plurifamiliari contengono più unità abitative separate.
+
+### Domanda 2
+
+Risposta corretta: Vero. Più unità significano in genere più inquilini e più responsabilità di gestione.
+
+### Domanda 3
+
+Risposta corretta: B. Un maggiore potenziale di reddito comporta di solito una maggiore complessità di gestione.
+
+## Punti chiave
+
+- Gli immobili monofamiliari hanno un'unità; quelli plurifamiliari ne hanno più di una.
+- Gli immobili plurifamiliari offrono più potenziale di reddito grazie a più unità.
+- Quel potenziale di reddito comporta veri compromessi in termini di complessità di gestione.

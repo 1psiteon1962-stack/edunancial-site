@@ -1,0 +1,291 @@
+===== RED-L1-016
+TITLE: Qu'est-ce que l'assurance de titre de propriété ?
+SUMMARY: Découvrez contre quoi protège l'assurance de titre de propriété, qui la paie généralement et pourquoi c'est un coût unique plutôt que récurrent.
+# Qu'est-ce que l'assurance de titre de propriété ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir l'assurance de titre de propriété en termes simples.
+- expliquer contre quoi elle protège.
+- expliquer pourquoi il s'agit généralement d'un coût unique.
+
+## Contenu principal
+
+### Ce qu'est l'assurance de titre de propriété
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : l'assurance de titre est surtout répandue aux États-Unis. En France, elle est rare, car le notaire vérifie l'origine de propriété et la situation juridique du bien, et engage sa responsabilité professionnelle ; renseignez-vous auprès d'un notaire.)* L'assurance de titre de propriété (en anglais « title insurance ») protège le propriétaire (et, séparément, le prêteur) contre les pertes financières dues à des problèmes de titre qui existaient avant l'achat mais n'ont pas été découverts lors de la recherche sur le titre : par exemple un héritier non déclaré, un document falsifié dans l'historique du bien ou une erreur dans les registres publics.
+
+### Contre quoi elle protège
+
+Contrairement à la plupart des assurances, qui couvrent des événements futurs, l'assurance de titre couvre des problèmes passés non découverts. Si un problème couvert apparaît après la vente, le contrat peut prendre en charge les frais juridiques et les pertes financières liés à la défense ou au règlement de la réclamation.
+
+### Pourquoi c'est un coût unique
+
+Comme l'assurance de titre couvre un risque historique plutôt qu'un risque continu, elle est généralement payée une seule fois, à la signature, plutôt que sous forme de prime récurrente comme l'assurance habitation.
+
+## Exemple pratique
+
+Deux ans après l'achat d'un logement, un héritier jusque-là inconnu d'un ancien propriétaire fait valoir un droit sur le bien. L'assurance de titre de l'acheteur prend en charge les frais juridiques nécessaires pour régler la réclamation.
+
+## Quiz pratique
+
+1. L'assurance de titre de propriété protège principalement contre :
+   A. Les dégâts d'une future tempête
+   B. Les problèmes de titre passés et non découverts
+   C. Une baisse de la valeur de marché
+   D. Les retards de paiement du prêt
+
+2. Vrai ou faux : l'assurance de titre de propriété est généralement payée sous forme de prime mensuelle récurrente, comme l'assurance habitation.
+
+3. Lequel de ces exemples l'assurance de titre de propriété pourrait-elle couvrir ?
+   A. Une toiture neuve nécessaire après une tempête
+   B. Un héritier non déclaré ayant un droit issu du passé du bien
+   C. Un recul du marché immobilier local
+   D. Des pénalités de retard sur le prêt
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'assurance de titre couvre des problèmes passés non découverts, et non des événements futurs comme les dégâts d'une tempête.
+
+### Question 2
+
+Bonne réponse : Faux. Elle est généralement payée en une seule fois, à la signature.
+
+### Question 3
+
+Bonne réponse : B. Un héritier non déclaré est un exemple classique de problème de titre historique couvert par cette assurance.
+
+## Points clés
+
+- L'assurance de titre de propriété couvre les problèmes de titre passés et non découverts.
+- Elle est généralement payée une seule fois, à la signature.
+- Elle protège contre les pertes financières et les frais juridiques si un problème couvert apparaît plus tard.
+
+===== RED-L1-017
+TITLE: Qu'est-ce que le séquestre (escrow) ?
+SUMMARY: Découvrez ce que signifie le séquestre dans une transaction immobilière, et les deux façons différentes d'employer ce terme.
+# Qu'est-ce que le séquestre (escrow) ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir le séquestre en termes simples.
+- expliquer les deux usages courants du terme dans l'immobilier.
+- expliquer pourquoi un tiers neutre intervient.
+
+## Contenu principal
+
+### Le séquestre en général
+
+Le séquestre (en anglais « escrow ») désigne de l'argent ou des documents détenus par un tiers neutre jusqu'à ce que certaines conditions soient remplies. Dans l'immobilier américain, le terme est employé de deux façons liées mais distinctes.
+
+### Le séquestre pendant un achat
+
+Lors d'un achat immobilier, une société ou un agent de séquestre détient le dépôt de l'acheteur et les documents utiles jusqu'à ce que toutes les conditions de la vente (comme les inspections et le financement) soient remplies, puis libère les fonds et les documents pour conclure la vente. (En France, ce rôle est généralement tenu par le notaire, qui reçoit et conserve les fonds jusqu'à la signature de l'acte authentique.)
+
+### Le séquestre après l'achat (pour les taxes et l'assurance)
+
+Après la vente, de nombreux prêteurs américains tiennent un compte séquestre permanent : ils prélèvent avec chaque mensualité une partie de la taxe foncière et de l'assurance habitation, puis paient ces factures pour le compte du propriétaire à leur échéance. (Cette pratique est peu courante en France, où le propriétaire paie généralement lui-même ces charges.)
+
+## Exemple pratique
+
+Le dépôt de garantie de l'acheteur est détenu sous séquestre pendant le processus d'achat. Après la vente, son nouveau prêteur ouvre aussi un compte séquestre permanent pour prélever et payer automatiquement chaque année la taxe foncière et l'assurance.
+
+## Quiz pratique
+
+1. Le séquestre désigne :
+   A. Un type d'inspection du logement
+   B. De l'argent ou des documents détenus par un tiers neutre jusqu'à ce que des conditions soient remplies
+   C. Une taxe foncière publique
+   D. Une forme d'assurance de titre de propriété
+
+2. Vrai ou faux : le séquestre n'est utilisé que pendant l'achat d'un logement, jamais après.
+
+3. À quoi peut servir un compte séquestre permanent lié à un prêt immobilier ?
+   A. À payer les courses du propriétaire
+   B. À prélever et payer la taxe foncière et l'assurance
+   C. À couvrir l'apport personnel
+   D. À payer la commission de l'agent immobilier
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le séquestre est un dispositif de détention par un tiers neutre.
+
+### Question 2
+
+Bonne réponse : Faux. Le séquestre est aussi couramment utilisé de façon permanente pour payer les taxes et l'assurance après la vente.
+
+### Question 3
+
+Bonne réponse : B. Les comptes séquestres permanents servent couramment à payer la taxe foncière et l'assurance.
+
+## Points clés
+
+- Le séquestre est un dispositif de détention par un tiers neutre.
+- Il est utilisé pendant un achat et, souvent, de façon permanente pour les taxes et l'assurance.
+- Le tiers neutre protège à la fois l'acheteur et le vendeur (ou le prêteur et l'emprunteur) pendant le processus.
+
+===== RED-L1-018
+TITLE: Les frais d'acquisition : que payez-vous réellement ?
+SUMMARY: Découvrez ce que comprennent généralement les frais d'acquisition, leur ordre de grandeur et pourquoi ils sont distincts de l'apport personnel.
+# Les frais d'acquisition : que payez-vous réellement ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- citer plusieurs catégories courantes de frais d'acquisition.
+- expliquer pourquoi les frais d'acquisition sont distincts de l'apport personnel.
+- reconnaître que les frais d'acquisition sont généralement dus au moment de la signature ou juste avant.
+
+## Contenu principal
+
+### Ce que comprennent généralement les frais d'acquisition
+
+Les frais d'acquisition (en anglais « closing costs ») sont les frais liés à la finalisation d'une transaction immobilière, distincts du prix du bien lui-même. Parmi les catégories courantes : les frais de dossier du prêt, les frais d'estimation, l'assurance de titre, les frais de séquestre et les frais d'enregistrement, même si la liste exacte varie selon la transaction et le lieu.
+
+### Pourquoi ils sont distincts de l'apport personnel
+
+L'apport personnel sert à payer une partie du prix d'achat du bien. Les frais d'acquisition paient les services et les démarches nécessaires pour conclure la transaction : il s'agit d'une dépense réellement distincte que l'acheteur doit prévoir dans son budget en plus de l'apport.
+
+### Quand ils sont dus
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : les pratiques exactes varient selon les lieux. En France, les « frais de notaire », composés surtout de droits et taxes, représentent souvent environ 7 à 8 % du prix dans l'ancien et nettement moins dans le neuf, auxquels s'ajoutent les frais liés au prêt ; vérifiez le montant exact auprès d'un notaire.)* Les frais d'acquisition sont généralement dus au moment de la signature ou peu avant, et l'acheteur doit les prévoir comme un vrai besoin de trésorerie immédiat, en plus de l'apport.
+
+## Exemple pratique
+
+Un acheteur économise 30 000 $ pour son apport, mais découvre avec surprise qu'il lui faut aussi plusieurs milliers de dollars de plus pour les frais d'acquisition : une erreur de budget courante chez les primo-accédants qui ne prévoient que l'apport.
+
+## Quiz pratique
+
+1. Les frais d'acquisition sont :
+   A. La même chose que l'apport personnel
+   B. Des frais liés à la finalisation de la transaction, distincts du prix d'achat
+   C. Un type de taxe foncière
+   D. Facultatifs et rarement exigés
+
+2. Vrai ou faux : les frais d'acquisition sont généralement dus bien après la vente, souvent un an plus tard.
+
+3. Laquelle de ces catégories est un frais d'acquisition courant ?
+   A. Les dépenses d'épicerie
+   B. Les frais de dossier du prêt
+   C. L'achat de meubles
+   D. L'aménagement paysager
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Les frais d'acquisition sont des frais de transaction distincts, différents du prix d'achat et de l'apport.
+
+### Question 2
+
+Bonne réponse : Faux. Les frais d'acquisition sont généralement dus au moment de la signature ou peu avant.
+
+### Question 3
+
+Bonne réponse : B. Les frais de dossier du prêt sont un frais d'acquisition courant.
+
+## Points clés
+
+- Les frais d'acquisition sont des frais distincts nécessaires pour finaliser une transaction.
+- Ils s'ajoutent à l'apport personnel et n'en font pas partie.
+- L'acheteur doit les prévoir comme un vrai besoin de trésorerie immédiat.
+
+===== RED-L1-019
+TITLE: Qu'est-ce qu'une association de propriétaires (HOA), et quel pouvoir a-t-elle ?
+SUMMARY: Découvrez ce qu'est réellement une association de propriétaires, ce qu'elle peut imposer et ce qu'il faut vérifier avant d'acheter un bien qui en dépend.
+# Qu'est-ce qu'une association de propriétaires (HOA), et quel pouvoir a-t-elle ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir une association de propriétaires en termes simples.
+- expliquer ce qu'une association de propriétaires peut généralement imposer.
+- expliquer pourquoi ses charges et ses règles comptent avant d'acheter.
+
+## Contenu principal
+
+### Ce qu'est une association de propriétaires
+
+Une association de propriétaires (en anglais « homeowners association », HOA) est une organisation qui gère des règles communes et, souvent, des espaces ou équipements partagés au sein d'un ensemble résidentiel : elle est courante dans les lotissements, les immeubles en copropriété et certains quartiers. (En France, l'équivalent le plus proche est la copropriété, gérée par un syndic selon un règlement de copropriété, ou l'association syndicale libre d'un lotissement.)
+
+### Ce qu'elle peut imposer
+
+Les associations de propriétaires disposent généralement d'un vrai pouvoir juridique pour faire respecter les règles communes (concernant par exemple l'aspect extérieur, le bruit ou les animaux) et pour encaisser les charges obligatoires. Ne pas payer les charges ou ne pas respecter les règles peut entraîner des pénalités, et dans certains cas même une sûreté sur le bien.
+
+### Ce qu'il faut vérifier avant d'acheter
+
+Comme les règles et les charges de l'association s'imposent juridiquement aux propriétaires de l'ensemble, il vaut la peine d'examiner ses règles, la structure de ses charges et sa santé financière avant d'acheter un bien qui en dépend : une erreur de débutant consiste à considérer ces charges comme facultatives ou mineures.
+
+## Exemple pratique
+
+Un acheteur acquiert un appartement en copropriété sans examiner les documents de l'association, puis découvre une règle stricte interdisant l'activité professionnelle qu'il comptait exercer dans le logement : un conflit qui aurait pu être repéré avant la signature.
+
+## Quiz pratique
+
+1. Une association de propriétaires est :
+   A. Une administration fiscale
+   B. Une organisation qui gère des règles communes et souvent des espaces partagés dans un ensemble résidentiel
+   C. Un type de prêteur immobilier
+   D. Un service obligatoire d'inspection du logement
+
+2. Vrai ou faux : les charges d'une association de propriétaires sont généralement facultatives et rarement exigées.
+
+3. Que peut-il se passer si un propriétaire ne paie pas les charges obligatoires de l'association ?
+   A. Rien du tout
+   B. Des pénalités, et éventuellement une sûreté sur le bien
+   C. La perte automatique de son prêt immobilier
+   D. Une baisse de sa taxe foncière
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une association de propriétaires gère des règles communes et souvent des espaces ou équipements partagés.
+
+### Question 2
+
+Bonne réponse : Faux. Les charges de l'association sont généralement juridiquement obligatoires et peuvent être exigées.
+
+### Question 3
+
+Bonne réponse : B. Des charges impayées peuvent entraîner des pénalités, voire une sûreté sur le bien.
+
+## Points clés
+
+- Une association de propriétaires gère des règles communes et souvent des équipements partagés.
+- Ses charges et ses règles sont généralement juridiquement obligatoires, et non facultatives.
+- Examiner les documents de l'association avant d'acheter peut éviter de vraies surprises plus tard.
