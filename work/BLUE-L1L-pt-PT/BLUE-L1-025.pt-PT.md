@@ -96,7 +96,7 @@ Um negócio tem 75 000 $ de ativo e 30 000 $ de passivo. Calcule o capital próp
 
 1. **Pergunta inicial:** Se a demonstração de resultados é como um vídeo da atividade financeira ao longo do tempo, o que mostraria um documento do tipo "fotografia"?
 2. **Conceito 1 — Definição:** Quais são as três coisas que o balanço mostra?
-3. **Aprofundamento:** A que data ele se refere?
+3. **Aprofundamento:** A que data se refere?
 4. **Conceito 2 — Equação fundamental:** Qual é a equação fundamental do balanço?
 5. **Aprofundamento:** Porque é que ela tem sempre de fechar?
 6. **Conceito 3 — Fotografia ou período:** Em que isso difere do que a demonstração de resultados mostra?

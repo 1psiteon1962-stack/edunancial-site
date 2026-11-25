@@ -106,8 +106,8 @@ Explique, com referência a BLUE-L1-016, como demasiado inventário poderia cria
 ## Avaliação de competências
 `BLUE-L1-026-ASSESSMENT`
 
-1. (Escolha múltipla) Inventário se refere a: A) Reservas de caixa B) Bens mantidos com o objetivo de vender aos clientes C) Salários dos funcionários D) Apenas equipamentos de escritório
-2. (Escolha múltipla) Qual destes é um "custo de manutenção" além do preço de compra? A) Armazenagem e seguro B) Apenas o imposto sobre vendas C) Salários dos funcionários D) Gastos com marketing
+1. (Escolha múltipla) O inventário refere-se a: A) Reservas de caixa B) Bens mantidos com o objetivo de vender aos clientes C) Salários dos trabalhadores D) Apenas equipamentos de escritório
+2. (Escolha múltipla) Qual destes é um "custo de manutenção" além do preço de compra? A) Armazenagem e seguro B) Apenas o imposto sobre vendas C) Salários dos trabalhadores D) Gastos com marketing
 3. (Verdadeiro/Falso) O preço de compra é o único custo real de manter inventário.
 4. (Resposta curta) Explique o que significa "custo de oportunidade" em relação ao dinheiro preso em inventário.
 5. (Cenário) Um retalhista compra demasiada mercadoria sazonal, que se vende devagar. Que risco de fluxo de caixa isso cria?
