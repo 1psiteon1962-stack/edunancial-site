@@ -144,7 +144,7 @@ TRILHAS RELACIONADAS: BLACK (Liderança e Gestão Executiva) — a estratégia d
 
 ## Leituras complementares
 - BLUE-L1-039 — O que são sistemas num negócio?
-- BLUE-L1-043 — O que é um procedimento operacional padrão (SOP)?
+- BLUE-L1-043 — O que é um procedimento operacional normalizado (SOP)?
 
 ## Trilha da lição
 `BLUE-L1-042-LOCALIZATION` (bloco de trilha)
