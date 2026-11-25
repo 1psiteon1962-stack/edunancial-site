@@ -1,0 +1,399 @@
+===== GREEN-L1-026
+TITLE: Noções básicas da dedução do escritório em casa
+SUMMARY: Apresenta a ideia de deduzir parte das despesas da casa quando parte dela é usada para o negócio, com foco na lógica central dos requisitos.
+# Noções básicas da dedução do escritório em casa
+
+## Objetivos de aprendizagem
+
+- Explicar a lógica geral da dedução do escritório em casa.
+- Identificar o princípio comum dos requisitos (uso regular e exclusivo).
+- Reconhecer por que essa dedução exige documentação cuidadosa.
+
+## Conteúdo principal
+
+Quando parte de uma casa é usada de forma regular e exclusiva para o negócio, muitos sistemas permitem deduzir uma parte das despesas da casa, como aluguel, contas de consumo ou parte dos juros de um financiamento, proporcionalmente ao quanto da casa é usado para o negócio. A ideia central dos requisitos, na maioria dos sistemas, é o "uso regular e exclusivo": o espaço precisa ser usado com constância para o negócio e, em geral, só para isso, e não como quarto de hóspedes que às vezes vira escritório. (No Brasil, por exemplo, o autônomo que usa o livro-caixa pode deduzir parte de certas despesas do imóvel usado na atividade, dentro de regras próprias que mudam.)
+
+Essa dedução é valiosa, mas em alguns sistemas tributários historicamente recebe atenção redobrada, justamente porque a linha entre o uso pessoal e o uso profissional da casa pode ficar borrada. Isso a torna um ótimo exemplo prático de por que a lição anterior sobre organização de documentos importa: documentar com clareza o uso exclusivamente profissional do espaço, e como a parte dedutível foi calculada, é o que torna essa dedução defensável.
+
+## Exemplo prático
+
+**Pergunta:** Um freelancer trabalha em um quarto de hóspedes que também recebe visitas duas vezes por ano. Esse quarto atende claramente ao critério de "uso regular e exclusivo"?
+
+**Aluno:** Parece um caso limite, já que ele não é usado só para o trabalho.
+
+**Guia:** O que deixaria o caso mais claro, para um lado ou para o outro?
+
+**Aluno:** Se o quarto fosse usado só para trabalhar, com uma mesa própria e nenhum outro uso, ele se qualificaria claramente. O uso eventual para visitas deixa isso confuso.
+
+**Guia:** Isso: é justamente nesse tipo de zona cinzenta que a documentação e uma organização clara e constante do espaço mais importam.
+
+## Teste de prática
+
+**Pergunta 1.** A dedução do escritório em casa geralmente se aplica quando um espaço é:
+
+A) Usado de vez em quando para qualquer coisa
+B) Usado de forma regular e exclusiva para o negócio
+C) Usado só nos fins de semana
+D) Próprio, e não alugado
+
+**Pergunta 2.** O que normalmente pode ser deduzido, proporcionalmente, por essa regra?
+
+A) Todas as despesas da casa, independentemente do uso no negócio
+B) Parte de despesas como aluguel, contas de consumo ou juros do financiamento, conforme a proporção de uso no negócio
+C) Nada relacionado à moradia
+D) Só compras de móveis
+
+**Pergunta 3.** Por que essa dedução historicamente recebe atenção redobrada em alguns sistemas?
+
+A) Ela é pouco usada
+B) A linha entre o uso pessoal e o profissional pode ficar borrada
+C) Ela não existe de verdade
+D) Ela só vale para grandes empresas
+
+**Pergunta 4.** Qual lição anterior é especialmente importante para defender essa dedução?
+
+A) Bens públicos
+B) Organização de documentos
+C) Imposto sobre vendas
+D) Situação na declaração
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O "uso regular e exclusivo" é o princípio comum dos requisitos em muitos sistemas que oferecem essa dedução.
+
+**2.** A dedução geralmente é proporcional, ligada ao quanto da casa é realmente usado para o negócio.
+
+**3.** Como o uso pessoal e o profissional podem se sobrepor em uma casa, essa área costuma ser analisada com mais cuidado.
+
+**4.** Uma documentação sólida é exatamente o que torna a dedução do escritório em casa defensável caso seja questionada.
+
+## Pontos-chave
+
+- A dedução do escritório em casa geralmente exige uso regular e exclusivo do espaço para o negócio.
+- A dedução é proporcional ao quanto da casa é usado para o negócio.
+- Essa área costuma receber atenção redobrada porque o uso pessoal e o profissional podem se misturar.
+- Uma documentação cuidadosa é essencial para defender essa dedução.
+
+===== GREEN-L1-027
+TITLE: Depreciação: distribuir um custo ao longo do tempo
+SUMMARY: Apresenta a depreciação como a ideia de distribuir o custo de um bem durável do negócio ao longo de vários anos, em vez de deduzi-lo todo de uma vez.
+# Depreciação: distribuir um custo ao longo do tempo
+
+## Objetivos de aprendizagem
+
+- Definir depreciação em termos simples.
+- Explicar por que existe o conceito de depreciação.
+- Diferenciar os bens que provavelmente serão depreciados daqueles que normalmente são lançados como despesa na hora.
+
+## Conteúdo principal
+
+Quando um negócio compra algo que será usado por anos, como um veículo, máquinas ou um imóvel, normalmente não faz sentido deduzir todo o custo no ano da compra. Em vez disso, muitos sistemas tributários exigem ou permitem que esse custo seja distribuído, ou depreciado, ao longo da vida útil do bem, fazendo a dedução coincidir com os anos em que o bem realmente ajuda a gerar renda. (No Brasil, a Receita Federal define taxas de depreciação de referência para muitos tipos de bem; as regras dependem do regime tributário e mudam.)
+
+A lógica segue o bom senso contábil: se um equipamento será usado por dez anos, tratar todo o custo como despesa de um único ano subestimaria o lucro do primeiro ano e superestimaria o de todos os anos seguintes. A depreciação equilibra isso. Já as despesas de consumo do dia a dia, como material de escritório, normalmente são lançadas como despesa integral na hora, porque não geram valor por vários anos como um equipamento durável.
+
+## Exemplo prático
+
+**Pergunta:** Uma padaria compra um forno industrial que deve durar dez anos. O custo inteiro deve ser deduzido na hora ou distribuído?
+
+**Aluno:** Pela lição, parece que deve ser distribuído, porque o forno vai ser usado por muitos anos.
+
+**Guia:** Por que distribuir dá uma visão mais precisa do que deduzir tudo de uma vez?
+
+**Aluno:** Porque o forno ajuda a gerar renda nos dez anos, e não só no ano da compra, então ligar o custo a esses anos é mais preciso.
+
+**Guia:** Exatamente: essa é a lógica central da depreciação.
+
+## Teste de prática
+
+**Pergunta 1.** A depreciação é mais bem descrita como:
+
+A) Deduzir o custo total de um bem imediatamente
+B) Distribuir o custo de um bem ao longo da sua vida útil
+C) Ignorar totalmente o custo dos bens do negócio
+D) Um tipo de imposto sobre vendas
+
+**Pergunta 2.** A depreciação normalmente se aplica a:
+
+A) Bens duráveis como equipamentos, veículos ou imóveis
+B) Material de escritório do dia a dia
+C) Pagamentos de imposto sobre vendas
+D) Retenção na folha
+
+**Pergunta 3.** Por que não deduzir no primeiro ano o custo total de um bem que dura dez anos?
+
+A) Comprar equipamentos é ilegal
+B) Isso distorceria o lucro nos anos em que o bem realmente ajuda a gerar renda
+C) Não há motivo, é arbitrário
+D) A depreciação não se aplica a negócios
+
+**Pergunta 4.** Os materiais de consumo do dia a dia normalmente são:
+
+A) Depreciados em dez anos
+B) Lançados como despesa integral na hora
+C) Nunca dedutíveis
+D) Tratados como imóveis
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A depreciação liga o custo de um bem aos anos em que ele realmente gera valor, em vez de concentrá-lo em um só ano.
+
+**2.** Os bens duráveis são os candidatos típicos à depreciação, ao contrário dos itens de consumo de vida curta.
+
+**3.** Distribuir o custo evita distorcer o lucro do ano da compra em relação aos anos seguintes.
+
+**4.** Os materiais acabam rápido, então lançá-los na hora combina melhor com o seu valor de curto prazo.
+
+## Pontos-chave
+
+- A depreciação distribui o custo de um bem ao longo da vida útil, em vez de deduzi-lo todo de uma vez.
+- Ela se aplica a bens duráveis como equipamentos, veículos e imóveis.
+- Isso gera uma visão mais precisa do lucro do negócio ano a ano.
+- As despesas de consumo do dia a dia, por outro lado, normalmente são deduzidas na hora.
+
+===== GREEN-L1-028
+TITLE: Cobrança de imposto sobre vendas para pequenos negócios
+SUMMARY: Explica a responsabilidade prática que um pequeno negócio assume ao cobrar imposto sobre vendas, partindo da lição anterior sobre esse imposto do ponto de vista do consumidor.
+# Cobrança de imposto sobre vendas para pequenos negócios
+
+## Objetivos de aprendizagem
+
+- Explicar o papel do negócio como cobrador do imposto sobre vendas.
+- Descrever por que o imposto cobrado não é receita do negócio.
+- Reconhecer o risco de tratar o imposto cobrado como dinheiro disponível para gastar.
+
+## Conteúdo principal
+
+Antes, esta trilha tratou do imposto sobre vendas do ponto de vista de quem compra. Agora, veja pelo lado do negócio: quando um negócio cobra imposto dos clientes, ele está guardando temporariamente um dinheiro que pertence ao governo, e não um dinheiro que ganhou. Essa diferença importa muito para a forma como o negócio deve administrar o próprio caixa. (No Brasil, os tributos sobre consumo, como ICMS e ISS, estão passando por uma reforma que cria novos tributos ao longo de vários anos, e o Simples Nacional reúne vários tributos em uma guia; as regras mudam.)
+
+Um erro comum e grave de quem está abrindo um pequeno negócio é tratar todo o dinheiro que entra, incluindo a parte do imposto, como disponível, e depois descobrir, na hora de recolher, que esse dinheiro já foi gasto com outras coisas. Como o negócio é obrigado por lei a recolher esse imposto independentemente da situação do próprio caixa, negócios disciplinados costumam separar o imposto cobrado na hora, às vezes em uma conta própria, em vez de misturá-lo ao dinheiro do dia a dia.
+
+## Exemplo prático
+
+**Pergunta:** O dono de uma loja nova deposita todas as vendas do dia, incluindo o imposto cobrado, em uma única conta e gasta livremente a partir dela. Que risco isso cria?
+
+**Aluno:** Pela lição, ele pode acabar gastando sem querer o dinheiro do imposto, que na verdade pertence ao governo.
+
+**Guia:** Como seria uma abordagem mais disciplinada?
+
+**Aluno:** Separar na hora o imposto cobrado em uma conta própria, para que ele nunca seja confundido com renda do negócio disponível para gastar.
+
+**Guia:** Exatamente: tratar esse dinheiro como já comprometido desde o primeiro dia evita a armadilha.
+
+## Teste de prática
+
+**Pergunta 1.** Quando um negócio cobra imposto sobre vendas, esse dinheiro é:
+
+A) Receita ganha pelo próprio negócio
+B) Dinheiro guardado temporariamente em nome do governo
+C) Um presente dos clientes
+D) Automaticamente isento de impostos
+
+**Pergunta 2.** Um erro comum de pequenos negócios novos é:
+
+A) Separar o imposto na hora
+B) Gastar o imposto cobrado como se fosse renda do dia a dia
+C) Cobrar imposto de menos
+D) Nunca cobrar imposto
+
+**Pergunta 3.** Por que esse erro é grave?
+
+A) Não é grave
+B) O negócio continua obrigado por lei a recolher o imposto, mesmo que o dinheiro já tenha sido gasto
+C) O imposto é opcional
+D) Os clientes é que são responsáveis
+
+**Pergunta 4.** Uma prática disciplinada para evitar esse erro é:
+
+A) Ignorar o imposto até o fim do ano
+B) Separar o imposto cobrado na hora, às vezes em uma conta própria
+C) Gastar primeiro e se preocupar depois
+D) Recusar-se a cobrar o imposto
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O negócio cobra em nome do governo e não é o dono final desse dinheiro.
+
+**2.** Misturar o imposto cobrado com a receita geral é um dos erros de gestão de caixa mais comuns de quem está começando.
+
+**3.** A obrigação de recolher não desaparece só porque o dinheiro foi gasto em outra coisa.
+
+**4.** Separar na hora é uma disciplina simples e eficaz que evita exatamente esse problema.
+
+## Pontos-chave
+
+- O imposto sobre vendas cobrado pertence ao governo, e não ao negócio.
+- Tratá-lo como receita disponível é um erro comum e arriscado.
+- O negócio continua obrigado a recolhê-lo, qualquer que seja a situação do próprio caixa.
+- Separar o imposto cobrado na hora é uma boa prática disciplinada.
+
+===== GREEN-L1-029
+TITLE: Tributos sobre a folha para empregadores
+SUMMARY: Amplia a lição anterior sobre tributos sobre a folha para as responsabilidades do empregador: reter, pagar a parte patronal e recolher.
+# Tributos sobre a folha para empregadores
+
+## Objetivos de aprendizagem
+
+- Descrever o papel do empregador na administração dos tributos sobre a folha.
+- Explicar o conceito de parte patronal.
+- Reconhecer o cumprimento das obrigações da folha como uma responsabilidade contínua, e não uma tarefa única.
+
+## Conteúdo principal
+
+Quando um negócio tem funcionários, ele assume responsabilidades reais sobre os tributos da folha: reter a parte do empregado de cada pagamento, muitas vezes pagar uma parte patronal e recolher tudo ao governo em um calendário definido por lei, e não quando for conveniente para o negócio. (No Brasil, o empregador informa e recolhe mensalmente contribuições previdenciárias, IRRF e FGTS, hoje em grande parte pelo eSocial; as regras mudam.)
+
+Essa é uma responsabilidade recorrente e contínua, e não um evento anual como a declaração de pessoa física. Perder o prazo de recolhimento dos tributos da folha é tratado com seriedade em muitos sistemas, em parte porque o governo vê o dinheiro retido dos funcionários como guardado em nome do empregado e do fisco; ou seja, não é tratado como um simples atraso no pagamento de um fornecedor. Pequenos empresários que contratam o primeiro funcionário devem tratar o cumprimento dessas obrigações como uma responsabilidade central e inegociável desde o primeiro dia, e não como algo para depois.
+
+## Exemplo prático
+
+**Pergunta:** Uma nova empresária contrata a primeira funcionária e depois diz: "Vou cuidar dos tributos da folha quando o caixa permitir." O que há de arriscado nesse plano?
+
+**Aluno:** Pela lição, os tributos da folha não são opcionais nem flexíveis como a conta de um fornecedor: eles seguem um calendário exigido por lei.
+
+**Guia:** Por que perder esse calendário pode ser tratado com mais seriedade do que atrasar, por exemplo, a conta do material de escritório?
+
+**Aluno:** Porque parte desse dinheiro foi descontada do salário da funcionária e está, na prática, sendo guardada em nome dela; não é totalmente dinheiro do negócio para adiar o pagamento.
+
+**Guia:** Exatamente: por isso o cumprimento das obrigações da folha precisa ser tratado como inegociável desde o primeiro dia.
+
+## Teste de prática
+
+**Pergunta 1.** Quando um negócio tem funcionários, normalmente ele precisa:
+
+A) Ignorar totalmente os tributos da folha
+B) Reter, muitas vezes pagar uma parte patronal e recolher os tributos em um calendário definido
+C) Pagar os tributos da folha só uma vez por ano
+D) Deixar que os funcionários cuidem disso
+
+**Pergunta 2.** A parte patronal se refere a:
+
+A) Funcionários escolhendo a própria alíquota
+B) Um valor adicional que o empregador paga além do que é retido do salário
+C) Um desconto no imposto sobre vendas
+D) Um tipo de crédito tributário
+
+**Pergunta 3.** Por que o atraso no recolhimento dos tributos da folha costuma ser tratado com mais seriedade do que uma conta de fornecedor atrasada?
+
+A) Não é tratado com seriedade
+B) O dinheiro retido dos funcionários é visto como guardado em nome deles, e não como simples caixa do negócio
+C) Os fornecedores são sempre pagos antes da folha
+D) Não há diferença legal
+
+**Pergunta 4.** O cumprimento das obrigações da folha deve ser tratado como:
+
+A) Algo para depois, de vez em quando
+B) Uma responsabilidade central e contínua desde o primeiro dia
+C) Opcional para pequenos negócios
+D) Relevante só para grandes empresas
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os empregadores assumem as obrigações de reter, muitas vezes pagar a parte patronal e recolher no momento em que têm funcionários.
+
+**2.** A parte patronal é um pagamento adicional do empregador, somado à parte retida do próprio empregado.
+
+**3.** Como o dinheiro retido é visto como guardado para o empregado e para o fisco, o atraso tem consequências mais pesadas em muitos sistemas.
+
+**4.** Essa responsabilidade começa no momento em que o negócio contrata o primeiro funcionário, e não depois que ele fica "estabelecido".
+
+## Pontos-chave
+
+- Os empregadores retêm, muitas vezes pagam a parte patronal e recolhem os tributos da folha em um calendário definido por lei.
+- A parte patronal é um custo adicional somado à retenção do empregado.
+- O atraso no recolhimento dos tributos da folha costuma ser tratado com mais seriedade do que uma conta comum atrasada.
+- O cumprimento das obrigações da folha é uma responsabilidade central desde a primeira contratação.
+
+===== GREEN-L1-030
+TITLE: Prestador de serviços ou empregado: o lado do dono do negócio
+SUMMARY: Retoma a distinção entre empregado e prestador de serviços do ponto de vista do dono do negócio, mostrando por que a classificação errada é um risco sério.
+# Prestador de serviços ou empregado: o lado do dono do negócio
+
+## Objetivos de aprendizagem
+
+- Explicar por que as decisões de classificação importam para o negócio, e não só para o trabalhador.
+- Identificar o risco geral da classificação errada.
+- Ligar esta lição à lição anterior sobre W-2 e 1099.
+
+## Conteúdo principal
+
+Antes, esta trilha olhou para a distinção entre empregado e prestador de serviços do lado do trabalhador. Agora, veja pelo lado do dono do negócio: a forma como um trabalhador é classificado define se o negócio deve tributos sobre a folha, se precisa reter imposto de renda e se assume outras obrigações de empregador. Classificar como prestador de serviços alguém que, pela lei, deveria ser tratado como empregado é a chamada classificação errada, e esse é um risco sério para o negócio, e não um atalho inofensivo na papelada. (No Brasil, por exemplo, a contratação como PJ de quem trabalha com subordinação, habitualidade e pessoalidade pode ser reconhecida como vínculo de emprego; os critérios evoluem.)
+
+A tentação de classificar errado é compreensível: tratar todo mundo como prestador evita tributos da folha e papelada. Mas a classificação não é uma escolha livre do negócio; ela geralmente depende de fatores reais, como quanto controle o negócio exerce sobre como, quando e onde o trabalho é feito. Se depois uma autoridade concluir que um trabalhador foi classificado errado, o negócio pode ter de pagar tributos atrasados, multas e juros, às vezes para vários trabalhadores e vários anos. É exatamente o tipo de risco que nos leva de volta à analogia do médico: uma consulta rápida com um profissional qualificado antes de tomar decisões de classificação em grande escala sai muito mais barata do que o possível prejuízo.
+
+## Exemplo prático
+
+**Pergunta:** Uma empresária em crescimento classifica todos os seus dez novos trabalhadores como prestadores de serviços para evitar a papelada da folha, embora defina os horários deles e supervisione o trabalho de perto. Que risco ela está assumindo?
+
+**Aluno:** Pela lição, ela corre o risco de classificação errada, porque o nível de controle descrito parece mais uma relação de emprego.
+
+**Guia:** O que pode acontecer se uma autoridade discordar da classificação dela depois?
+
+**Aluno:** Ela pode ter de pagar tributos atrasados, multas e juros, possivelmente para os dez trabalhadores, por todos os anos em que a classificação errada durou.
+
+**Guia:** Exatamente: e é por isso que, nesse caso, buscar orientação antes sai muito mais barato do que corrigir depois.
+
+## Teste de prática
+
+**Pergunta 1.** A classificação de um trabalhador define, entre outras coisas:
+
+A) Nada relevante para o negócio
+B) Se o negócio deve tributos sobre a folha e tem obrigações de retenção
+C) Só o cargo do trabalhador
+D) Só os dias de férias do trabalhador
+
+**Pergunta 2.** Classificação errada significa:
+
+A) Uma escolha inofensiva de papelada
+B) Classificar como prestador de serviços alguém que, pela lei, deveria ser empregado
+C) Pagar demais a um trabalhador
+D) Um tipo de crédito tributário
+
+**Pergunta 3.** A classificação geralmente depende de:
+
+A) Só da preferência livre do negócio
+B) Fatores reais, como o nível de controle sobre como, quando e onde o trabalho é feito
+C) Só da idade do trabalhador
+D) Sorteio
+
+**Pergunta 4.** Qual é uma consequência realista de uma classificação errada descoberta depois?
+
+A) Nenhuma
+B) Tributos atrasados, multas e juros, possivelmente para vários trabalhadores e anos
+C) Uma restituição automática
+D) Um crédito tributário
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A classificação não é só um rótulo: ela gera obrigações reais e contínuas para o negócio.
+
+**2.** Classificação errada significa tratar como prestação de serviços uma relação que, pela lei, se parece com emprego, muitas vezes para fugir das obrigações de empregador.
+
+**3.** O controle sobre o trabalho (horários, supervisão, métodos) é um fator-chave que as autoridades analisam, e não só o nome que o negócio dá ao arranjo.
+
+**4.** Como a exposição se acumula entre trabalhadores e anos, essa é uma área de alto risco para acertar desde o início.
+
+## Pontos-chave
+
+- A classificação dos trabalhadores define obrigações tributárias reais e contínuas para o negócio.
+- A classificação errada é um risco legal e financeiro sério, e não um atalho inofensivo.
+- A classificação depende de fatores reais, principalmente do nível de controle sobre o trabalho, e não só da preferência do negócio.
+- Buscar orientação profissional antes sai muito mais barato do que o possível custo de uma classificação errada descoberta depois.

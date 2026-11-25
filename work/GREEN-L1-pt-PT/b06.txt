@@ -1,0 +1,399 @@
+===== GREEN-L1-026
+TITLE: Noções básicas da dedução do escritório em casa
+SUMMARY: Apresenta a ideia de deduzir parte das despesas da habitação quando parte dela é usada para o negócio, com foco na lógica central dos requisitos.
+# Noções básicas da dedução do escritório em casa
+
+## Objetivos de aprendizagem
+
+- Explicar a lógica geral da dedução do escritório em casa.
+- Identificar o princípio comum dos requisitos (uso regular e exclusivo).
+- Reconhecer porque é que esta dedução exige documentação cuidadosa.
+
+## Conteúdo principal
+
+Quando parte de uma habitação é usada de forma regular e exclusiva para o negócio, muitos sistemas permitem deduzir uma parte das despesas da casa, como a renda, as despesas de água, luz e gás ou parte dos juros de um crédito à habitação, na proporção da parte da casa usada para o negócio. A ideia central dos requisitos, na maioria dos sistemas, é o "uso regular e exclusivo": o espaço tem de ser usado de forma constante para o negócio e, em regra, apenas para isso, e não como quarto de hóspedes que de vez em quando serve de escritório. (Em Portugal, por exemplo, os trabalhadores independentes com contabilidade organizada podem, em certas condições, imputar parte das despesas da habitação à atividade; as regras mudam.)
+
+Esta dedução é valiosa, mas em alguns sistemas fiscais tem sido historicamente alvo de atenção redobrada, precisamente porque a linha entre o uso pessoal e o uso profissional da casa pode ficar pouco nítida. Isso torna-a um ótimo exemplo prático de porque é que a lição anterior sobre organização de documentos é importante: documentar com clareza o uso exclusivamente profissional do espaço, e a forma como a parte dedutível foi calculada, é o que torna esta dedução defensável.
+
+## Exemplo prático
+
+**Pergunta:** Um freelancer trabalha num quarto de hóspedes que também recebe visitas duas vezes por ano. Esse quarto cumpre claramente o critério de "uso regular e exclusivo"?
+
+**Aluno:** Parece um caso limite, uma vez que não é usado apenas para trabalho.
+
+**Guia:** O que tornaria o caso mais claro, num sentido ou noutro?
+
+**Aluno:** Se o quarto fosse usado apenas para trabalhar, com uma secretária própria e sem outro uso, qualificar-se-ia claramente. O uso ocasional para visitas torna isso confuso.
+
+**Guia:** Certo: é precisamente neste tipo de zona cinzenta que a documentação e uma organização clara e constante do espaço mais importam.
+
+## Teste de prática
+
+**Pergunta 1.** A dedução do escritório em casa aplica-se geralmente quando um espaço é:
+
+A) Usado de vez em quando para qualquer coisa
+B) Usado de forma regular e exclusiva para o negócio
+C) Usado apenas aos fins de semana
+D) Próprio, e não arrendado
+
+**Pergunta 2.** O que pode normalmente ser deduzido, de forma proporcional, ao abrigo desta regra?
+
+A) Todas as despesas da casa, independentemente do uso no negócio
+B) Parte de despesas como renda, água, luz e gás ou juros do crédito à habitação, consoante a proporção de uso no negócio
+C) Nada relacionado com a habitação
+D) Apenas compras de mobília
+
+**Pergunta 3.** Porque é que esta dedução tem sido historicamente alvo de atenção redobrada em alguns sistemas?
+
+A) É pouco usada
+B) A linha entre o uso pessoal e o profissional pode ficar pouco nítida
+C) Não existe na realidade
+D) Aplica-se apenas a grandes empresas
+
+**Pergunta 4.** Que lição anterior é especialmente importante para defender esta dedução?
+
+A) Bens públicos
+B) Organização de documentos
+C) Imposto sobre as vendas
+D) Situação na declaração
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O "uso regular e exclusivo" é o princípio comum dos requisitos em muitos sistemas que preveem esta dedução.
+
+**2.** A dedução é geralmente proporcional, ligada à parte da casa realmente usada para o negócio.
+
+**3.** Como o uso pessoal e o profissional se podem sobrepor numa casa, esta área é muitas vezes analisada com mais cuidado.
+
+**4.** Uma documentação sólida é exatamente o que torna a dedução do escritório em casa defensável caso venha a ser questionada.
+
+## Pontos-chave
+
+- A dedução do escritório em casa exige geralmente um uso regular e exclusivo do espaço para o negócio.
+- A dedução é proporcional à parte da casa usada para o negócio.
+- Esta área é muitas vezes alvo de atenção redobrada porque o uso pessoal e o profissional se podem misturar.
+- Uma documentação cuidadosa é essencial para defender esta dedução.
+
+===== GREEN-L1-027
+TITLE: Depreciação: distribuir um custo ao longo do tempo
+SUMMARY: Apresenta a depreciação como a ideia de distribuir o custo de um bem duradouro do negócio por vários anos, em vez de o deduzir todo de uma vez.
+# Depreciação: distribuir um custo ao longo do tempo
+
+## Objetivos de aprendizagem
+
+- Definir depreciação em termos simples.
+- Explicar porque é que existe o conceito de depreciação.
+- Distinguir os bens que provavelmente serão depreciados dos que normalmente são considerados gasto de imediato.
+
+## Conteúdo principal
+
+Quando um negócio compra algo que vai usar durante anos, como um veículo, máquinas ou um edifício, normalmente não faz sentido deduzir todo o custo no ano da compra. Em vez disso, muitos sistemas fiscais exigem ou permitem que esse custo seja distribuído, ou depreciado, ao longo da vida útil do bem, fazendo a dedução coincidir com os anos em que o bem ajuda realmente a gerar rendimento. (Em Portugal, as depreciações e amortizações seguem taxas definidas na lei, com regras próprias para bens de valor reduzido; os pormenores mudam.)
+
+A lógica segue o bom senso contabilístico: se um equipamento vai ser usado durante dez anos, tratar todo o custo como gasto de um único ano subestimaria o lucro do primeiro ano e sobrestimaria o de todos os anos seguintes. A depreciação equilibra isso. Já as despesas correntes de consumo, como o material de escritório, são normalmente consideradas gasto integral de imediato, porque não geram valor durante vários anos como um equipamento duradouro.
+
+## Exemplo prático
+
+**Pergunta:** Uma padaria compra um forno industrial que deverá durar dez anos. O custo total deve ser deduzido de imediato ou distribuído?
+
+**Aluno:** Segundo esta lição, parece que deve ser distribuído, porque o forno vai ser usado durante muitos anos.
+
+**Guia:** Porque é que distribuir dá uma imagem mais precisa do que deduzir tudo de uma vez?
+
+**Aluno:** Porque o forno ajuda a gerar rendimento nos dez anos, e não apenas no ano da compra, por isso ligar o custo a esses anos é mais preciso.
+
+**Guia:** Exatamente: é essa a lógica central da depreciação.
+
+## Teste de prática
+
+**Pergunta 1.** A depreciação descreve-se melhor como:
+
+A) Deduzir de imediato o custo total de um bem
+B) Distribuir o custo de um bem ao longo da sua vida útil
+C) Ignorar totalmente o custo dos bens do negócio
+D) Um tipo de imposto sobre as vendas
+
+**Pergunta 2.** A depreciação aplica-se normalmente a:
+
+A) Bens duradouros como equipamentos, veículos ou edifícios
+B) Material de escritório corrente
+C) Pagamentos de imposto sobre as vendas
+D) Retenção na fonte dos salários
+
+**Pergunta 3.** Porque é que não se deduz no primeiro ano o custo total de um bem que dura dez anos?
+
+A) Comprar equipamento é ilegal
+B) Isso distorceria o lucro nos anos em que o bem ajuda realmente a gerar rendimento
+C) Não há motivo, é arbitrário
+D) A depreciação não se aplica aos negócios
+
+**Pergunta 4.** Os materiais de consumo correntes são normalmente:
+
+A) Depreciados em dez anos
+B) Considerados gasto integral de imediato
+C) Nunca dedutíveis
+D) Tratados como imóveis
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A depreciação liga o custo de um bem aos anos em que ele realmente gera valor, em vez de o concentrar num só ano.
+
+**2.** Os bens duradouros são os candidatos típicos à depreciação, ao contrário dos consumíveis de vida curta.
+
+**3.** Distribuir o custo evita distorcer o lucro do ano da compra em relação aos anos seguintes.
+
+**4.** Os materiais gastam-se depressa, por isso considerá-los gasto de imediato corresponde melhor ao seu valor de curto prazo.
+
+## Pontos-chave
+
+- A depreciação distribui o custo de um bem ao longo da vida útil, em vez de o deduzir todo de uma vez.
+- Aplica-se a bens duradouros como equipamentos, veículos e edifícios.
+- Isto dá uma imagem mais precisa do lucro do negócio ano a ano.
+- As despesas correntes de consumo são, pelo contrário, normalmente deduzidas de imediato.
+
+===== GREEN-L1-028
+TITLE: Cobrança de imposto sobre as vendas para pequenos negócios
+SUMMARY: Explica a responsabilidade prática que um pequeno negócio assume quando cobra imposto sobre as vendas, partindo da lição anterior sobre este imposto do ponto de vista do consumidor.
+# Cobrança de imposto sobre as vendas para pequenos negócios
+
+## Objetivos de aprendizagem
+
+- Explicar o papel do negócio como cobrador do imposto sobre as vendas.
+- Descrever porque é que o imposto cobrado não é receita do negócio.
+- Reconhecer o risco de tratar o imposto cobrado como dinheiro disponível para gastar.
+
+## Conteúdo principal
+
+Antes, esta trilha tratou do imposto sobre as vendas do ponto de vista de quem compra. Agora, veja-o do lado do negócio: quando um negócio cobra imposto aos clientes, está a guardar temporariamente dinheiro que pertence ao Estado, e não dinheiro que ganhou. Esta diferença é muito importante para a forma como o negócio deve gerir a sua tesouraria. (Em Portugal, o imposto equivalente é o IVA, que o negócio liquida nas faturas e entrega ao Estado deduzido do IVA pago nas compras; pequenos negócios podem estar isentos dentro de certos limites, que mudam.)
+
+Um erro comum e grave de quem está a começar um pequeno negócio é tratar todo o dinheiro que entra, incluindo a parte do imposto, como disponível, e depois descobrir, na altura de o entregar, que esse dinheiro já foi gasto noutras coisas. Como o negócio é obrigado por lei a entregar esse imposto independentemente da sua própria tesouraria, os negócios disciplinados costumam separar de imediato o imposto cobrado, por vezes numa conta própria, em vez de o misturarem com o dinheiro de exploração.
+
+## Exemplo prático
+
+**Pergunta:** O dono de uma loja nova deposita todas as vendas do dia, incluindo o imposto cobrado, numa única conta e gasta livremente a partir dela. Que risco corre?
+
+**Aluno:** Segundo esta lição, pode acabar por gastar sem querer o dinheiro do imposto, que na verdade pertence ao Estado.
+
+**Guia:** Como seria uma abordagem mais disciplinada?
+
+**Aluno:** Separar de imediato o imposto cobrado numa conta própria, para que nunca seja confundido com rendimento do negócio disponível para gastar.
+
+**Guia:** Exatamente: tratar esse dinheiro como já comprometido desde o primeiro dia evita a armadilha.
+
+## Teste de prática
+
+**Pergunta 1.** Quando um negócio cobra imposto sobre as vendas, esse dinheiro é:
+
+A) Receita ganha pelo próprio negócio
+B) Dinheiro guardado temporariamente em nome do Estado
+C) Uma oferta dos clientes
+D) Automaticamente isento de impostos
+
+**Pergunta 2.** Um erro comum de pequenos negócios novos é:
+
+A) Separar o imposto de imediato
+B) Gastar o imposto cobrado como se fosse rendimento corrente
+C) Cobrar imposto a menos
+D) Nunca cobrar imposto
+
+**Pergunta 3.** Porque é que este erro é grave?
+
+A) Não é grave
+B) O negócio continua obrigado por lei a entregar o imposto, mesmo que o dinheiro já tenha sido gasto
+C) O imposto é opcional
+D) Os clientes é que são responsáveis
+
+**Pergunta 4.** Uma prática disciplinada para evitar este erro é:
+
+A) Ignorar o imposto até ao fim do ano
+B) Separar de imediato o imposto cobrado, por vezes numa conta própria
+C) Gastar primeiro e preocupar-se depois
+D) Recusar cobrar o imposto
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O negócio cobra em nome do Estado e não é o dono final desse dinheiro.
+
+**2.** Misturar o imposto cobrado com a receita geral é um dos erros de gestão de tesouraria mais comuns de quem está a começar.
+
+**3.** A obrigação de entrega não desaparece só porque o dinheiro foi gasto noutra coisa.
+
+**4.** Separar de imediato é uma disciplina simples e eficaz que evita precisamente este problema.
+
+## Pontos-chave
+
+- O imposto sobre as vendas cobrado pertence ao Estado, e não ao negócio.
+- Tratá-lo como receita disponível é um erro comum e arriscado.
+- O negócio continua obrigado a entregá-lo, qualquer que seja a sua tesouraria.
+- Separar de imediato o imposto cobrado é uma boa prática disciplinada.
+
+===== GREEN-L1-029
+TITLE: Contribuições sobre os salários para entidades empregadoras
+SUMMARY: Alarga a lição anterior sobre as contribuições sobre os salários às responsabilidades da entidade empregadora: reter, pagar a sua parte e entregar.
+# Contribuições sobre os salários para entidades empregadoras
+
+## Objetivos de aprendizagem
+
+- Descrever o papel da entidade empregadora na gestão das contribuições sobre os salários.
+- Explicar o conceito de parte da entidade empregadora.
+- Reconhecer o cumprimento destas obrigações como uma responsabilidade contínua, e não uma tarefa pontual.
+
+## Conteúdo principal
+
+Quando um negócio tem trabalhadores, assume responsabilidades reais quanto às contribuições sobre os salários: reter a parte do trabalhador em cada pagamento, muitas vezes pagar uma parte própria da entidade empregadora e entregar tudo ao Estado segundo um calendário definido por lei, e não quando dá jeito ao negócio. (Em Portugal, a entidade empregadora entrega mensalmente a retenção na fonte de IRS e as contribuições para a Segurança Social; as regras mudam.)
+
+Esta é uma responsabilidade recorrente e contínua, e não um acontecimento anual como a declaração de IRS pessoal. Falhar um prazo de entrega destas contribuições é tratado com seriedade em muitos sistemas, em parte porque o Estado considera o dinheiro retido aos trabalhadores como guardado em nome do trabalhador e da administração fiscal; ou seja, não é tratado como um simples atraso no pagamento de uma fatura a um fornecedor. Os pequenos empresários que contratam o primeiro trabalhador devem tratar o cumprimento destas obrigações como uma responsabilidade central e inegociável desde o primeiro dia, e não como algo para depois.
+
+## Exemplo prático
+
+**Pergunta:** Uma nova empresária contrata a primeira trabalhadora e mais tarde diz: "Trato das contribuições quando a tesouraria o permitir." O que há de arriscado neste plano?
+
+**Aluno:** Segundo esta lição, as contribuições não são opcionais nem flexíveis como a fatura de um fornecedor: seguem um calendário exigido por lei.
+
+**Guia:** Porque é que falhar esse calendário pode ser tratado com mais seriedade do que atrasar, por exemplo, a fatura do material de escritório?
+
+**Aluno:** Porque parte desse dinheiro foi descontada no salário da trabalhadora e está, na prática, guardada em nome dela; não é totalmente dinheiro do negócio cujo pagamento se possa adiar.
+
+**Guia:** Exatamente: por isso o cumprimento destas obrigações tem de ser tratado como inegociável desde o primeiro dia.
+
+## Teste de prática
+
+**Pergunta 1.** Quando um negócio tem trabalhadores, normalmente tem de:
+
+A) Ignorar totalmente as contribuições
+B) Reter, muitas vezes pagar a sua parte e entregar as contribuições segundo um calendário definido
+C) Pagar as contribuições apenas uma vez por ano
+D) Deixar que os trabalhadores tratem disso
+
+**Pergunta 2.** A parte da entidade empregadora refere-se a:
+
+A) Os trabalhadores escolherem a sua própria taxa
+B) Um montante adicional que a entidade empregadora paga além do que é retido no salário
+C) Um desconto no imposto sobre as vendas
+D) Um tipo de crédito fiscal
+
+**Pergunta 3.** Porque é que o atraso na entrega das contribuições é muitas vezes tratado com mais seriedade do que uma fatura de fornecedor em atraso?
+
+A) Não é tratado com seriedade
+B) O dinheiro retido aos trabalhadores é considerado guardado em nome deles, e não simples tesouraria do negócio
+C) Os fornecedores são sempre pagos antes dos salários
+D) Não há diferença legal
+
+**Pergunta 4.** O cumprimento destas obrigações deve ser tratado como:
+
+A) Algo para depois, de vez em quando
+B) Uma responsabilidade central e contínua desde o primeiro dia
+C) Opcional para pequenos negócios
+D) Relevante apenas para grandes empresas
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As entidades empregadoras assumem as obrigações de reter, muitas vezes pagar a sua parte e entregar no momento em que têm trabalhadores.
+
+**2.** A parte da entidade empregadora é um pagamento adicional, somado à parte retida ao próprio trabalhador.
+
+**3.** Como o dinheiro retido é considerado guardado para o trabalhador e para a administração fiscal, o atraso tem consequências mais pesadas em muitos sistemas.
+
+**4.** Esta responsabilidade começa no momento em que o negócio contrata o primeiro trabalhador, e não depois de estar "estabelecido".
+
+## Pontos-chave
+
+- As entidades empregadoras retêm, muitas vezes pagam a sua parte e entregam as contribuições segundo um calendário definido por lei.
+- A parte da entidade empregadora é um custo adicional somado à retenção do trabalhador.
+- O atraso na entrega das contribuições é muitas vezes tratado com mais seriedade do que uma fatura comum em atraso.
+- O cumprimento destas obrigações é uma responsabilidade central desde a primeira contratação.
+
+===== GREEN-L1-030
+TITLE: Prestador independente ou trabalhador por conta de outrem: o lado do dono do negócio
+SUMMARY: Retoma a distinção entre trabalhador por conta de outrem e prestador independente do ponto de vista do dono do negócio, mostrando porque é que a classificação errada é um risco sério.
+# Prestador independente ou trabalhador por conta de outrem: o lado do dono do negócio
+
+## Objetivos de aprendizagem
+
+- Explicar porque é que as decisões de classificação importam para o negócio, e não apenas para o trabalhador.
+- Identificar o risco geral da classificação errada.
+- Ligar esta lição à lição anterior sobre o W-2 e o 1099.
+
+## Conteúdo principal
+
+Antes, esta trilha olhou para a distinção entre trabalhador por conta de outrem e prestador independente do lado do trabalhador. Agora, veja-a do lado do dono do negócio: a forma como um trabalhador é classificado determina se o negócio deve contribuições sobre os salários, se tem de reter imposto sobre o rendimento e se assume outras obrigações de entidade empregadora. Classificar como prestador independente alguém que, por lei, deveria ser tratado como trabalhador por conta de outrem é a chamada classificação errada, e é um risco sério para o negócio, não um atalho inofensivo na papelada. (Em Portugal fala-se de "falsos recibos verdes"; a lei prevê indícios de contrato de trabalho e mecanismos de reconhecimento, que evoluem.)
+
+A tentação de classificar mal é compreensível: tratar toda a gente como prestador evita contribuições e papelada. Mas a classificação não é uma escolha livre do negócio; depende geralmente de fatores reais, como o grau de controlo que o negócio exerce sobre como, quando e onde o trabalho é feito. Se mais tarde uma autoridade concluir que um trabalhador foi mal classificado, o negócio pode ter de pagar impostos e contribuições em atraso, coimas e juros, por vezes para vários trabalhadores e vários anos. É exatamente o tipo de risco que nos leva de volta à analogia do médico: uma consulta rápida com um profissional qualificado antes de tomar decisões de classificação em grande escala sai muito mais barata do que o possível prejuízo.
+
+## Exemplo prático
+
+**Pergunta:** Uma empresária em crescimento classifica os seus dez novos trabalhadores como prestadores independentes para evitar a papelada das contribuições, embora defina os horários deles e supervisione de perto o trabalho. Que risco está a correr?
+
+**Aluno:** Segundo esta lição, corre o risco de classificação errada, porque o grau de controlo descrito parece mais uma relação de trabalho por conta de outrem.
+
+**Guia:** O que pode acontecer se uma autoridade discordar mais tarde da sua classificação?
+
+**Aluno:** Pode ter de pagar montantes em atraso, coimas e juros, possivelmente para os dez trabalhadores, por todos os anos em que a classificação errada durou.
+
+**Guia:** Exatamente: e é por isso que, num caso destes, pedir aconselhamento antes sai muito mais barato do que corrigir depois.
+
+## Teste de prática
+
+**Pergunta 1.** A classificação de um trabalhador determina, entre outras coisas:
+
+A) Nada relevante para o negócio
+B) Se o negócio deve contribuições e tem obrigações de retenção
+C) Apenas o cargo do trabalhador
+D) Apenas os dias de férias do trabalhador
+
+**Pergunta 2.** Classificação errada significa:
+
+A) Uma escolha inofensiva de papelada
+B) Classificar como prestador independente alguém que, por lei, deveria ser trabalhador por conta de outrem
+C) Pagar demasiado a um trabalhador
+D) Um tipo de crédito fiscal
+
+**Pergunta 3.** A classificação depende geralmente de:
+
+A) Apenas da preferência livre do negócio
+B) Fatores reais, como o grau de controlo sobre como, quando e onde o trabalho é feito
+C) Apenas da idade do trabalhador
+D) Sorteio
+
+**Pergunta 4.** Qual é uma consequência realista de uma classificação errada descoberta mais tarde?
+
+A) Nenhuma
+B) Montantes em atraso, coimas e juros, possivelmente para vários trabalhadores e anos
+C) Um reembolso automático
+D) Um crédito fiscal
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A classificação não é apenas um rótulo: gera obrigações reais e contínuas para o negócio.
+
+**2.** Classificação errada significa tratar como prestação de serviços uma relação que, por lei, se assemelha a trabalho por conta de outrem, muitas vezes para fugir às obrigações de entidade empregadora.
+
+**3.** O controlo sobre o trabalho (horários, supervisão, métodos) é um fator-chave que as autoridades analisam, e não apenas o nome que o negócio dá ao acordo.
+
+**4.** Como a exposição se acumula entre trabalhadores e anos, esta é uma área de alto risco que importa acertar desde o início.
+
+## Pontos-chave
+
+- A classificação dos trabalhadores determina obrigações fiscais reais e contínuas para o negócio.
+- A classificação errada é um risco legal e financeiro sério, e não um atalho inofensivo.
+- A classificação depende de fatores reais, sobretudo do grau de controlo sobre o trabalho, e não apenas da preferência do negócio.
+- Pedir aconselhamento profissional antes sai muito mais barato do que o possível custo de uma classificação errada descoberta mais tarde.

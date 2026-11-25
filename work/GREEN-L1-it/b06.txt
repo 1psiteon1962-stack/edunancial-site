@@ -1,0 +1,399 @@
+===== GREEN-L1-026
+TITLE: Le basi della deduzione per l'ufficio in casa
+SUMMARY: Presenta il concetto di dedurre una parte delle spese della casa quando una parte dell'abitazione è usata per l'attività, con attenzione alla logica di fondo dei requisiti.
+# Le basi della deduzione per l'ufficio in casa
+
+## Obiettivi di apprendimento
+
+- Spiegare la logica generale della deduzione per l'ufficio in casa.
+- Riconoscere il principio comune dei requisiti (uso regolare ed esclusivo).
+- Riconoscere perché questa deduzione richiede una documentazione accurata.
+
+## Contenuto principale
+
+Quando una parte della casa è usata in modo regolare ed esclusivo per l'attività, molti sistemi permettono di dedurre una parte delle spese legate alla casa, come affitto, utenze o una parte degli interessi del mutuo, in proporzione a quanta parte della casa è usata per l'attività. L'idea centrale dei requisiti, nella maggior parte dei sistemi, è l'"uso regolare ed esclusivo": lo spazio deve essere usato in modo costante per l'attività, e in genere solo per quella, non come stanza degli ospiti che ogni tanto fa da ufficio. (In Italia, per chi ha partita IVA, le spese per un immobile a uso promiscuo sono di norma deducibili solo in parte e secondo regole specifiche, che cambiano.)
+
+Questa deduzione è preziosa, ma in alcuni sistemi fiscali è stata storicamente un'area di controlli più attenti, proprio perché il confine tra uso personale e uso professionale della casa può diventare sfumato. Per questo è un ottimo esempio concreto del perché la lezione precedente sulla conservazione dei documenti sia importante: una documentazione chiara dell'uso esclusivamente professionale dello spazio, e di come è stata calcolata la quota deducibile, è ciò che rende difendibile questa deduzione.
+
+## Esempio svolto
+
+**Domanda:** Un freelance lavora in una stanza degli ospiti che viene usata anche per gli ospiti due volte l'anno. Quella stanza rispetta chiaramente il criterio dell'"uso regolare ed esclusivo"?
+
+**Studente:** Sembra un caso limite, perché non è usata solo per il lavoro.
+
+**Guida:** Che cosa renderebbe il caso più chiaro, in un senso o nell'altro?
+
+**Studente:** Se la stanza fosse usata solo per lavorare, con una scrivania dedicata e nessun altro uso, rientrerebbe chiaramente. L'uso occasionale per gli ospiti rende le cose meno chiare.
+
+**Guida:** Giusto: è proprio in queste zone grigie che documentazione e un allestimento chiaro e costante contano di più.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La deduzione per l'ufficio in casa si applica in genere quando uno spazio è:
+
+A) Usato occasionalmente per qualsiasi cosa
+B) Usato in modo regolare ed esclusivo per l'attività
+C) Usato solo nel fine settimana
+D) Di proprietà, non in affitto
+
+**Domanda 2.** Che cosa si può dedurre di solito, in proporzione, con questa regola?
+
+A) Tutte le spese della casa, a prescindere dall'uso per l'attività
+B) Una parte di spese come affitto, utenze o interessi del mutuo, in base alla quota di uso professionale
+C) Niente che riguardi l'abitazione
+D) Solo l'acquisto di mobili
+
+**Domanda 3.** Perché questa deduzione ha storicamente attirato controlli più attenti in alcuni sistemi?
+
+A) È usata raramente
+B) Il confine tra uso personale e professionale può essere sfumato
+C) In realtà non esiste
+D) Si applica solo alle grandi aziende
+
+**Domanda 4.** Quale lezione precedente è particolarmente importante per difendere questa deduzione?
+
+A) Beni pubblici
+B) Conservazione dei documenti
+C) Imposta sulle vendite
+D) Stato ai fini della dichiarazione
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'"uso regolare ed esclusivo" è il principio comune dei requisiti in molti sistemi che prevedono questa deduzione.
+
+**2.** La deduzione è in genere proporzionale: è legata a quanta parte della casa è davvero usata per l'attività.
+
+**3.** Poiché in casa l'uso personale e quello professionale possono sovrapporsi, quest'area riceve spesso controlli più attenti.
+
+**4.** Una documentazione solida è proprio ciò che rende difendibile la deduzione per l'ufficio in casa, se mai viene contestata.
+
+## Punti chiave
+
+- La deduzione per l'ufficio in casa richiede in genere un uso regolare ed esclusivo dello spazio per l'attività.
+- La deduzione è proporzionale a quanta parte della casa è usata per l'attività.
+- Quest'area riceve spesso controlli più attenti perché uso personale e professionale possono confondersi.
+- Una documentazione accurata è essenziale per difendere questa deduzione.
+
+===== GREEN-L1-027
+TITLE: L'ammortamento: distribuire un costo nel tempo
+SUMMARY: Presenta l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta.
+# L'ammortamento: distribuire un costo nel tempo
+
+## Obiettivi di apprendimento
+
+- Definire l'ammortamento in parole semplici.
+- Spiegare perché esiste il concetto di ammortamento.
+- Distinguere i beni che probabilmente vengono ammortizzati da quelli che di solito si spesano subito.
+
+## Contenuto principale
+
+Quando un'impresa compra qualcosa che userà per anni, come un veicolo, un macchinario o un edificio, di solito non ha senso dedurne l'intero costo nell'anno dell'acquisto. Molti sistemi fiscali richiedono o permettono invece di distribuire quel costo, cioè di ammortizzarlo, lungo la vita utile del bene, facendo coincidere la deduzione con gli anni in cui il bene contribuisce davvero a produrre reddito. (In Italia gli ammortamenti seguono coefficienti fissati per legge, con regole particolari per i beni di modesto valore; i dettagli cambiano.)
+
+La logica rispecchia il buon senso contabile: se un'attrezzatura sarà usata per dieci anni, trattarne l'intero costo come spesa di un solo anno sottostimerebbe l'utile del primo anno e lo sovrastimerebbe in tutti gli anni successivi. L'ammortamento rende il quadro più regolare. Al contrario, le spese di consumo quotidiane, come la cancelleria, vengono di solito dedotte subito per intero, perché non producono valore su più anni come un'attrezzatura durevole.
+
+## Esempio svolto
+
+**Domanda:** Un panificio compra un forno professionale che dovrebbe durare dieci anni. Il costo va dedotto subito per intero o distribuito?
+
+**Studente:** In base a questa lezione, sembra che vada distribuito, perché il forno sarà usato per molti anni.
+
+**Guida:** Perché distribuirlo dà un quadro più preciso che dedurlo tutto in una volta?
+
+**Studente:** Perché il forno aiuta a produrre reddito in tutti e dieci gli anni, non solo nell'anno dell'acquisto, quindi abbinare il costo a quegli anni è più preciso.
+
+**Guida:** Esatto: è la logica di fondo dell'ammortamento.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'ammortamento si descrive meglio come:
+
+A) Dedurre subito l'intero costo di un bene
+B) Distribuire il costo di un bene lungo la sua vita utile
+C) Ignorare del tutto il costo dei beni aziendali
+D) Un tipo di imposta sulle vendite
+
+**Domanda 2.** L'ammortamento si applica di solito a:
+
+A) Beni durevoli come attrezzature, veicoli o edifici
+B) La cancelleria di tutti i giorni
+C) I versamenti dell'imposta sulle vendite
+D) Le ritenute in busta paga
+
+**Domanda 3.** Perché non dedurre nel primo anno l'intero costo di un bene che dura dieci anni?
+
+A) È vietato comprare attrezzature
+B) Distorcerebbe l'utile negli anni in cui il bene contribuisce davvero a produrre reddito
+C) Non c'è un motivo, è arbitrario
+D) L'ammortamento non riguarda le imprese
+
+**Domanda 4.** I materiali di consumo quotidiani vengono di solito:
+
+A) Ammortizzati in dieci anni
+B) Dedotti subito per intero
+C) Mai dedotti
+D) Trattati come immobili
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'ammortamento abbina il costo di un bene agli anni in cui produce davvero valore, invece di concentrarlo in un solo anno.
+
+**2.** I beni durevoli sono i candidati tipici all'ammortamento, a differenza dei beni di consumo di breve durata.
+
+**3.** Distribuire il costo evita di distorcere il quadro dell'utile nell'anno dell'acquisto rispetto agli anni successivi.
+
+**4.** I materiali si consumano in fretta, quindi dedurli subito rispecchia meglio il loro valore di breve periodo.
+
+## Punti chiave
+
+- L'ammortamento distribuisce il costo di un bene lungo la sua vita utile invece di dedurlo tutto in una volta.
+- Si applica a beni durevoli come attrezzature, veicoli ed edifici.
+- Così si ottiene un quadro più preciso dell'utile d'impresa anno per anno.
+- Le spese di consumo quotidiane vengono invece di solito dedotte subito.
+
+===== GREEN-L1-028
+TITLE: La riscossione dell'imposta sulle vendite per le piccole imprese
+SUMMARY: Spiega la responsabilità pratica che una piccola impresa si assume quando diventa esattore dell'imposta sulle vendite, sviluppando la lezione precedente sull'imposta vista dal lato del consumatore.
+# La riscossione dell'imposta sulle vendite per le piccole imprese
+
+## Obiettivi di apprendimento
+
+- Spiegare il ruolo dell'impresa come esattore dell'imposta sulle vendite.
+- Descrivere perché l'imposta riscossa non è un ricavo dell'impresa.
+- Riconoscere il rischio di trattare l'imposta riscossa come denaro spendibile.
+
+## Contenuto principale
+
+In precedenza, questo percorso ha trattato l'imposta sulle vendite dal punto di vista di chi compra. Ora guardiamola dal lato dell'impresa: quando un'impresa riscuote l'imposta dai clienti, sta custodendo temporaneamente denaro che appartiene allo Stato, non denaro che ha guadagnato. Questa distinzione conta moltissimo per come l'impresa dovrebbe gestire la propria liquidità. (In Italia l'imposta equivalente è l'IVA, che l'impresa addebita in fattura e poi versa allo Stato al netto di quella pagata sugli acquisti; alcuni regimi agevolati funzionano diversamente.)
+
+Un errore comune e grave dei nuovi piccoli imprenditori è trattare tutto il denaro in entrata, compresa la quota di imposta, come disponibile, per poi scoprire al momento del versamento che quei soldi sono già stati spesi per altro. Poiché l'impresa è obbligata per legge a versare l'imposta a prescindere dalla propria situazione di cassa, le imprese disciplinate separano subito l'imposta riscossa, a volte su un conto dedicato, invece di mescolarla ai fondi operativi.
+
+## Esempio svolto
+
+**Domanda:** Un nuovo negoziante versa tutti gli incassi del giorno, compresa l'imposta riscossa, su un unico conto e spende liberamente da lì. Che rischio corre?
+
+**Studente:** In base a questa lezione, potrebbe spendere per errore i soldi dell'imposta, che in realtà appartengono allo Stato.
+
+**Guida:** Come sarebbe un approccio più disciplinato?
+
+**Studente:** Separare subito l'imposta riscossa su un conto a parte, così da non scambiarla mai per reddito d'impresa spendibile.
+
+**Guida:** Esatto: trattarla fin dal primo giorno come denaro già destinato evita la trappola.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Quando un'impresa riscuote l'imposta sulle vendite, quel denaro è:
+
+A) Un ricavo guadagnato dall'impresa
+B) Denaro custodito temporaneamente per conto dello Stato
+C) Un regalo dei clienti
+D) Automaticamente esente da imposte
+
+**Domanda 2.** Un errore comune delle nuove piccole imprese è:
+
+A) Separare subito l'imposta
+B) Spendere l'imposta riscossa come se fosse reddito operativo
+C) Applicare troppa poca imposta
+D) Non riscuotere mai l'imposta
+
+**Domanda 3.** Perché questo errore è grave?
+
+A) Non è grave
+B) L'impresa resta obbligata per legge a versare l'imposta, anche se l'ha già spesa
+C) L'imposta è facoltativa
+D) Ne sono responsabili i clienti
+
+**Domanda 4.** Una pratica disciplinata per evitare questo errore è:
+
+A) Ignorare l'imposta fino a fine anno
+B) Separare subito l'imposta riscossa, a volte su un conto dedicato
+C) Spendere prima e preoccuparsi dopo
+D) Rifiutarsi di riscuotere l'imposta
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'impresa riscuote per conto dello Stato e non è la vera proprietaria di quel denaro.
+
+**2.** Mescolare l'imposta riscossa con i ricavi è uno degli errori di gestione della liquidità più comuni dei nuovi imprenditori.
+
+**3.** L'obbligo di versamento non scompare solo perché il denaro è stato speso altrove.
+
+**4.** Separare subito l'imposta è una disciplina semplice ed efficace che previene proprio questo problema.
+
+## Punti chiave
+
+- L'imposta sulle vendite riscossa appartiene allo Stato, non all'impresa.
+- Trattarla come ricavo spendibile è un errore comune e rischioso.
+- L'impresa resta obbligata a versarla a prescindere dalla propria situazione di cassa.
+- Separare subito l'imposta riscossa è una buona pratica disciplinata.
+
+===== GREEN-L1-029
+TITLE: I contributi sugli stipendi per i datori di lavoro
+SUMMARY: Estende la lezione precedente sui contributi sugli stipendi alle responsabilità operative del datore di lavoro: trattenere, aggiungere la propria quota e versare.
+# I contributi sugli stipendi per i datori di lavoro
+
+## Obiettivi di apprendimento
+
+- Descrivere il ruolo del datore di lavoro nella gestione dei contributi sugli stipendi.
+- Spiegare il concetto di quota a carico del datore di lavoro.
+- Riconoscere il rispetto degli obblighi sui contributi come una responsabilità operativa continua, non un compito una tantum.
+
+## Contenuto principale
+
+Quando un'impresa ha dipendenti, si assume vere responsabilità operative sui contributi sugli stipendi: trattenere la quota del lavoratore da ogni busta paga, spesso aggiungere una quota a proprio carico e versare tutto allo Stato secondo un calendario fissato dalla legge, non quando fa comodo all'impresa. (In Italia, ritenute e contributi si versano di norma ogni mese con il modello F24; scadenze e regole cambiano.)
+
+È una responsabilità ricorrente e continua, non un evento annuale come la dichiarazione dei redditi personale. Mancare una scadenza di versamento dei contributi è trattato con serietà in molti sistemi, anche perché lo Stato considera le somme trattenute ai dipendenti come custodite per conto del lavoratore e dell'amministrazione: quindi non viene trattato come un semplice ritardo nel pagare la fattura di un fornitore. I piccoli imprenditori che assumono il primo dipendente dovrebbero considerare il rispetto di questi obblighi una responsabilità centrale e non negoziabile fin dal primo giorno, non un ripensamento.
+
+## Esempio svolto
+
+**Domanda:** Una nuova imprenditrice assume la sua prima dipendente e poi dice: "Mi occuperò dei contributi quando la liquidità lo permetterà". Che cosa c'è di rischioso in questo piano?
+
+**Studente:** In base a questa lezione, i contributi non sono facoltativi o flessibili come la fattura di un fornitore: seguono un calendario imposto dalla legge.
+
+**Guida:** Perché mancare quel calendario potrebbe essere trattato più seriamente che pagare in ritardo, per esempio, una fattura di cancelleria?
+
+**Studente:** Perché una parte di quel denaro è stata trattenuta dallo stipendio della dipendente ed è in pratica custodita per conto suo: non è del tutto denaro dell'impresa di cui si può rinviare il pagamento.
+
+**Guida:** Esatto: per questo il rispetto degli obblighi sui contributi va trattato come non negoziabile fin dal primo giorno.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Quando un'impresa ha dipendenti, di solito deve:
+
+A) Ignorare del tutto i contributi
+B) Trattenere, spesso aggiungere la propria quota e versare i contributi secondo un calendario fisso
+C) Pagare i contributi solo una volta l'anno
+D) Lasciare che se ne occupino i dipendenti
+
+**Domanda 2.** La quota a carico del datore di lavoro indica:
+
+A) I dipendenti che scelgono la propria aliquota
+B) Un importo aggiuntivo pagato dal datore di lavoro oltre a quello trattenuto dallo stipendio
+C) Uno sconto sull'imposta sulle vendite
+D) Un tipo di credito d'imposta
+
+**Domanda 3.** Perché il versamento tardivo dei contributi è spesso trattato più seriamente della normale fattura di un fornitore pagata in ritardo?
+
+A) Non è trattato seriamente
+B) Le somme trattenute ai dipendenti sono considerate custodite per loro conto, non semplice liquidità dell'impresa
+C) I fornitori vengono sempre pagati prima degli stipendi
+D) Non c'è alcuna differenza giuridica
+
+**Domanda 4.** Il rispetto degli obblighi sui contributi va trattato come:
+
+A) Un ripensamento occasionale
+B) Una responsabilità operativa centrale e continua fin dal primo giorno
+C) Facoltativo per le piccole imprese
+D) Rilevante solo per le grandi aziende
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** I datori di lavoro si assumono gli obblighi di trattenere, spesso di aggiungere la propria quota e di versare nel momento in cui hanno dipendenti.
+
+**2.** La quota a carico del datore di lavoro è un pagamento aggiuntivo che si somma alla quota trattenuta al lavoratore.
+
+**3.** Poiché le somme trattenute sono considerate custodite per il lavoratore e per l'amministrazione, il ritardo ha conseguenze più pesanti in molti sistemi.
+
+**4.** Questa responsabilità inizia nel momento in cui l'impresa assume il primo dipendente, non quando diventa "affermata".
+
+## Punti chiave
+
+- I datori di lavoro trattengono, spesso aggiungono la propria quota e versano i contributi secondo un calendario fissato dalla legge.
+- La quota a carico del datore di lavoro è un costo aggiuntivo che si somma alla trattenuta del dipendente.
+- Il versamento tardivo dei contributi è spesso trattato più seriamente di una normale fattura in ritardo.
+- Il rispetto di questi obblighi è una responsabilità operativa centrale dal momento della prima assunzione.
+
+===== GREEN-L1-030
+TITLE: Collaboratore autonomo o dipendente: il punto di vista dell'imprenditore
+SUMMARY: Riprende la distinzione tra dipendente e collaboratore autonomo dal punto di vista dell'imprenditore, spiegando perché un inquadramento sbagliato è un rischio serio.
+# Collaboratore autonomo o dipendente: il punto di vista dell'imprenditore
+
+## Obiettivi di apprendimento
+
+- Spiegare perché le scelte di inquadramento contano per l'impresa, non solo per il lavoratore.
+- Riconoscere il rischio generale di un inquadramento errato.
+- Collegare questa lezione alla lezione precedente su W-2 e 1099.
+
+## Contenuto principale
+
+In precedenza, questo percorso ha esaminato la distinzione tra dipendente e collaboratore autonomo dal punto di vista del lavoratore. Ora consideriamo il punto di vista dell'imprenditore: il modo in cui un lavoratore viene inquadrato determina se l'impresa deve i contributi sugli stipendi, deve trattenere l'imposta sul reddito e si assume altri obblighi da datore di lavoro. Inquadrare come collaboratore autonomo una persona che per legge dovrebbe essere dipendente si chiama inquadramento errato, ed è un rischio serio per l'impresa, non una scorciatoia burocratica innocua. (In Italia si parla, per esempio, di "false partite IVA" o di collaborazioni che nei fatti sono lavoro subordinato; i criteri si evolvono.)
+
+La tentazione di un inquadramento errato è comprensibile: trattare tutti come collaboratori evita contributi e pratiche. Ma l'inquadramento non è una scelta libera dell'impresa: dipende in genere da elementi concreti, come quanto controllo esercita l'impresa su come, quando e dove si svolge il lavoro. Se in seguito un'autorità stabilisce che un lavoratore era inquadrato in modo errato, l'impresa può dover pagare imposte e contributi arretrati, sanzioni e interessi, a volte per più lavoratori e per più anni. È proprio il tipo di rischio che ci riporta al paragone con il medico: una breve consulenza con un professionista qualificato prima di prendere decisioni di inquadramento su larga scala costa molto meno del possibile danno.
+
+## Esempio svolto
+
+**Domanda:** Un'imprenditrice in crescita inquadra tutti e dieci i nuovi lavoratori come collaboratori autonomi per evitare le pratiche sui contributi, anche se stabilisce i loro orari e ne supervisiona da vicino il lavoro. Che rischio si sta assumendo?
+
+**Studente:** In base a questa lezione, rischia un inquadramento errato, perché il livello di controllo descritto somiglia più a un rapporto di lavoro dipendente.
+
+**Guida:** Che cosa potrebbe succedere se in seguito un'autorità non fosse d'accordo con il suo inquadramento?
+
+**Studente:** Potrebbe dover pagare arretrati, sanzioni e interessi, potenzialmente per tutti e dieci i lavoratori e per tutti gli anni in cui l'inquadramento errato è durato.
+
+**Guida:** Esatto: ed è per questo che in un caso del genere chiedere un parere prima costa molto meno che rimediare dopo.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'inquadramento di un lavoratore determina, tra le altre cose:
+
+A) Niente che conti per l'impresa
+B) Se l'impresa deve i contributi e ha obblighi di ritenuta
+C) Solo la qualifica del lavoratore
+D) Solo i giorni di ferie del lavoratore
+
+**Domanda 2.** L'inquadramento errato indica:
+
+A) Una scelta burocratica innocua
+B) Inquadrare in modo sbagliato come collaboratore autonomo un lavoratore che per legge dovrebbe essere dipendente
+C) Pagare troppo un lavoratore
+D) Un tipo di credito d'imposta
+
+**Domanda 3.** L'inquadramento dipende in genere da:
+
+A) La sola preferenza dell'impresa
+B) Elementi concreti come il livello di controllo su come, quando e dove si svolge il lavoro
+C) Solo l'età del lavoratore
+D) Il caso
+
+**Domanda 4.** Qual è una conseguenza realistica di un inquadramento errato scoperto in seguito?
+
+A) Niente
+B) Arretrati, sanzioni e interessi, potenzialmente per più lavoratori e più anni
+C) Un rimborso automatico
+D) Un credito d'imposta
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'inquadramento non è solo un'etichetta: fa nascere obblighi reali e continui per l'impresa.
+
+**2.** Inquadramento errato significa trattare come collaborazione autonoma un rapporto che per legge somiglia al lavoro dipendente, spesso per evitare gli obblighi del datore di lavoro.
+
+**3.** Il controllo sul lavoro (orari, supervisione, modalità) è un elemento chiave che le autorità esaminano, non solo il nome che l'impresa dà al rapporto.
+
+**4.** Poiché l'esposizione si somma tra lavoratori e anni, è un'area ad alto rischio da gestire bene fin dall'inizio.
+
+## Punti chiave
+
+- L'inquadramento dei lavoratori determina obblighi fiscali reali e continui per l'impresa.
+- L'inquadramento errato è un rischio legale e finanziario serio, non una scorciatoia innocua.
+- L'inquadramento dipende da elementi concreti, soprattutto dal grado di controllo sul lavoro, non solo dalle preferenze dell'impresa.
+- Un parere professionale preventivo costa molto meno delle possibili conseguenze di un inquadramento errato accertato in seguito.
