@@ -1,108 +1,88 @@
 ---
 id: GREEN-L1-004
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 4
-title: "Imposta sul reddito: tassare ciò che guadagni"
-source_title: "Income Tax: Taxing What You Earn"
-description: "Uno sguardo più da vicino all'imposta sul reddito — come si applica a stipendi, utili d'impresa e redditi da investimenti."
-slug: income-tax-taxing-what-you-earn
-seo_title: "Imposta sul reddito: tassare ciò che guadagni | Edunancial"
-meta_description: "Uno sguardo più da vicino all'imposta sul reddito — come si applica a stipendi, utili d'impresa e redditi da investimenti."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 4
-summary: "Uno sguardo più da vicino all'imposta sul reddito — come si applica a stipendi, utili d'impresa e redditi da investimenti."
+locale: it
+title: "L'imposta sul reddito: tassare ciò che guadagni"
+summary: "Uno sguardo più da vicino all'imposta sul reddito: come si applica ai salari, agli utili d'impresa e ai redditi da investimento."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-004: Imposta sul reddito: tassare ciò che guadagni
+# L'imposta sul reddito: tassare ciò che guadagni
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare che cos'è l'imposta sul reddito
-- Individuare tre fonti comuni di reddito imponibile
-- Capire che tipi diversi di reddito possono essere trattati in modo diverso
+- Definire l'imposta sul reddito e individuare che cosa conta come reddito imponibile.
+- Spiegare che l'imposta sul reddito si applica in genere sia che il reddito venga da un lavoro, da un'attività o da investimenti.
+- Riconoscere che il "reddito" è più ampio della sola busta paga.
 
 ## Contenuto principale
 
-L'imposta sul reddito si calcola sul denaro che ricevi nel corso dell'anno. In molti Paesi è una delle maggiori fonti di entrata dello Stato.
+L'imposta sul reddito è un'imposta sul denaro che guadagni. La parola "reddito" è più ampia di quanto molti pensino: di solito comprende i salari da lavoro, gli utili di un'attività che gestisci e i rendimenti degli investimenti come interessi o dividendi. Paesi diversi definiscono in modo diverso che cosa conti esattamente come reddito imponibile, ma il principio generale vale ovunque: se è entrato denaro che ha aumentato ciò che hai, è un candidato all'imposta sul reddito.
 
-Ci sono tre fonti comuni di reddito. La prima è lo stipendio che ricevi come dipendente. La seconda è l'utile di un'attività propria, cioè ciò che resta dopo aver pagato le spese. La terza sono i redditi da investimenti, come interessi, dividendi e guadagni dalla vendita di beni.
+La maggior parte dei sistemi di imposta sul reddito non tassa ogni euro o dollaro con la stessa aliquota. Usano invece scaglioni, deduzioni e detrazioni per adeguare quanto è effettivamente dovuto: concetti trattati in dettaglio nelle lezioni successive. Per ora l'idea chiave è più semplice: l'imposta sul reddito scatta guadagnando, in qualsiasi forma, non solo avendo un lavoro tradizionale.
 
-Non tutti i redditi sono trattati allo stesso modo. Molti sistemi usano regole diverse per stipendio, utile d'impresa e investimenti. Vedremo queste differenze nelle prossime lezioni. Per ora ricorda: per un'attività, l'imposta di solito si applica all'utile, non a tutto ciò che entra in cassa.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** La nonna di Ntege vende vestiti e guadagna anche una piccola somma di interessi sui suoi risparmi. L'imposta sul reddito si applica a entrambe le cose?
 
-## Esempio pratico
+**Studente:** Le vendite dei vestiti sono chiaramente guadagni della sua attività.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** E gli interessi?
 
-**Insegnante:** Carlo ha un food truck. Ha incassato $40.000 nell'anno e speso $30.000 per ingredienti, gas e manutenzione. Su quanto paga probabilmente l'imposta sul reddito?
+**Studente:** Anche quelli sono denaro che entra, solo che viene dai risparmi invece che dal lavoro.
 
-**Studente:** Sui $40.000?
+**Guida:** Giusto: i sistemi di imposta sul reddito considerano in genere tutti i modi in cui il denaro aumenta ciò che hai, non solo i salari di un lavoro.
 
-**Insegnante:** Pensa: quanto gli è rimasto davvero?
+## Quiz di esercitazione
 
-**Studente:** $10.000. Quindi l'imposta si applica all'utile di $10.000.
+**Domanda 1.** L'imposta sul reddito si applica a:
 
-**Insegnante:** Esatto. Per questo è così importante conservare le ricevute delle spese.
+A) Solo i salari da lavoro
+B) Salari, utili d'impresa e redditi da investimento
+C) Solo i rendimenti degli investimenti
+D) Solo le grandi società
 
-## Quiz di verifica
+**Domanda 2.** Vero o falso: nella maggior parte dei sistemi tutto il reddito è tassato esattamente con la stessa aliquota.
 
-**1.** Su che cosa si calcola l'imposta sul reddito?
+A) Vero
+B) Falso
 
-- A) Sul denaro che ricevi
-- B) Su ciò che compri
-- C) Su ciò che possiedi
-- D) Solo sulle eredità
+**Domanda 3.** Gli interessi maturati su un conto di risparmio sono in genere:
 
-**2.** Per una piccola attività, l'imposta sul reddito di solito si applica a...
+A) Mai imponibili
+B) Una forma di reddito che può essere imponibile
+C) La stessa cosa di un regalo
+D) Esenti in ogni paese
 
-- A) Tutte le vendite
-- B) L'utile, dopo le spese
-- C) Solo le spese
-- D) Il valore delle attrezzature
+**Domanda 4.** Il principio generale alla base dell'imposta sul reddito è:
 
-**3.** Quale di questi è un reddito da investimento?
+A) Conta solo la busta paga
+B) Il denaro che aumenta ciò che hai è un candidato alla tassazione
+C) Conta solo il contante, non altre forme di pagamento
+D) I titolari di imprese sono esenti
 
-- A) Stipendio mensile
-- B) Mancia
-- C) Dividendi da azioni
-- D) Rimborso spese
+## Soluzioni
 
-**4.** Tutti i tipi di reddito sono sempre trattati allo stesso modo?
-
-- A) Sì, sempre
-- B) Solo lo stipendio è tassato
-- C) Solo gli investimenti sono tassati
-- D) No, molti sistemi hanno regole diverse per ciascun tipo
-
-## Chiave delle risposte
-
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. A) Sul denaro che ricevi** — L'imposta sul reddito tassa ciò che guadagni.
+**1.** L'imposta sul reddito è ampia per definizione: copre salari, utili d'impresa e rendimenti degli investimenti, non solo il lavoro dipendente tradizionale.
 
-**2. B) L'utile, dopo le spese** — La regola generale è tassare l'utile, non il fatturato totale.
+**2.** La maggior parte dei sistemi usa scaglioni, deduzioni e detrazioni invece di un'unica aliquota fissa, come spiegano le lezioni successive.
 
-**3. C) Dividendi da azioni** — I dividendi sono pagati a chi possiede azioni.
+**3.** Gli interessi sono una forma di reddito da investimento e sono comunemente trattati come imponibili, secondo le regole specifiche di ciascun paese. (In Italia, per esempio, molti redditi finanziari sono soggetti a un'imposta sostitutiva trattenuta alla fonte; le regole cambiano nel tempo.)
 
-**4. D) No, molti sistemi hanno regole diverse per ciascun tipo** — Stipendio, utile e investimenti hanno spesso regole diverse.
+**4.** Il test che unifica tutto è se è entrato denaro che ha aumentato ciò che hai: la fonte conta meno di questo fatto di base.
 
 ## Punti chiave
 
-- L'imposta sul reddito tassa ciò che guadagni
-- Fonti comuni: stipendio, utile d'impresa e investimenti
-- Le attività pagano di solito sull'utile, non sulle vendite totali
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- L'imposta sul reddito si applica a salari, utili d'impresa e redditi da investimento, non solo alle buste paga.
+- Paesi diversi definiscono il reddito imponibile in modo diverso, ma il principio di fondo è ampio.
+- La maggior parte dei sistemi non tassa ogni euro o dollaro con la stessa aliquota fissa.
+- Riconoscere tutte le proprie fonti di reddito è il punto di partenza per capire la propria situazione fiscale.

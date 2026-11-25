@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-038
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 38
-title: "Tasse sul peccato e accise"
-source_title: "Sin Taxes and Excise Taxes"
-description: "Introduce le accise, spesso chiamate \"tasse sul peccato\" quando si applicano a prodotti come alcol o tabacco, come categoria fiscale distinta motivata da politiche pubbliche."
-slug: sin-taxes-and-excise-taxes
-seo_title: "Tasse sul peccato e accise | Edunancial"
-meta_description: "Introduce le accise, spesso chiamate \"tasse sul peccato\" quando si applicano a prodotti come alcol o tabacco, come categoria fiscale distinta motivata da politiche pubbliche."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 38
-summary: "Introduce le accise, spesso chiamate \"tasse sul peccato\" quando si applicano a prodotti come alcol o tabacco, come categoria fiscale distinta motivata da politiche pubbliche."
+locale: it
+title: "\"Imposte sul vizio\" e accise"
+summary: "Presenta le accise, spesso chiamate \"imposte sul vizio\" quando colpiscono beni specifici come alcol o tabacco, come una categoria di imposta distinta e legata a scelte di politica pubblica."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-038: Tasse sul peccato e accise
+# "Imposte sul vizio" e accise
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire un'accisa
-- Spiegare il soprannome "tassa sul peccato"
-- Capire i due obiettivi comuni di queste imposte
+- Definire un'accisa.
+- Spiegare l'espressione "imposta sul vizio" e la logica politica che la sostiene.
+- Distinguere le accise dall'imposta generale sulle vendite.
 
 ## Contenuto principale
 
-Un'accisa si applica a prodotti specifici, non a tutti gli acquisti. Esempi comuni sono carburanti, bevande alcoliche, sigarette e, in alcuni luoghi, bevande zuccherate.
+Un'accisa è un'imposta applicata a un bene o a un'attività specifici, invece che agli acquisti in generale come fa un'imposta ampia sulle vendite. Quando un'accisa colpisce un bene considerato dannoso se consumato in eccesso (alcol, tabacco e talvolta le bevande zuccherate sono esempi comuni), la si chiama spesso in modo informale "imposta sul vizio". (In Italia esistono per esempio accise sui tabacchi, sugli alcolici e sui carburanti; aliquote e regole cambiano.)
 
-Quando l'imposta colpisce prodotti considerati dannosi per la salute, come alcol e tabacco, prende il soprannome di "tassa sul peccato". L'idea è che il prezzo più alto scoraggi il consumo.
+La logica politica delle imposte sul vizio ha di solito due parti: raccogliere entrate e scoraggiare il consumo del bene tassato rendendolo più costoso. A differenza dell'imposta generale sulle vendite, che si applica in modo ampio e neutrale alla maggior parte degli acquisti, le accise sono volutamente mirate e ristrette, e riflettono una precisa valutazione politica su quel bene o quell'attività. Se le imposte sul vizio riducano davvero i consumi in modo efficace, e se pesino in modo sproporzionato su chi ha redditi più bassi, sono questioni davvero dibattute, non fatti accertati.
 
-Queste imposte hanno di solito due obiettivi insieme: raccogliere denaro e cambiare i comportamenti. Spesso l'imposta è già inclusa nel prezzo, e il consumatore non si accorge nemmeno di quanto sta pagando. La scelta dei prodotti da tassare varia per Paese.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un governo introduce un'imposta aggiuntiva specifica sulle bibite zuccherate, oltre alla normale imposta sulle vendite che vale per tutti gli acquisti al dettaglio. Che tipo di imposta è il prelievo aggiuntivo sulle bibite?
 
-## Esempio pratico
+**Studente:** In base a questa lezione, sembra un'accisa, perché colpisce in modo mirato un solo prodotto invece degli acquisti in generale.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Qual è il probabile doppio scopo di un'imposta così mirata?
 
-**Insegnante:** Perché uno Stato metterebbe un'imposta alta sulle sigarette?
+**Studente:** Raccogliere entrate e anche scoraggiare il consumo di bibite rendendole più costose.
 
-**Studente:** Perché le persone fumino meno.
+**Guida:** Esatto: e vale la pena notare che entrambi gli effetti, e la loro equità, sono davvero dibattuti.
 
-**Insegnante:** E che cos'altro ci guadagna?
+## Quiz di esercitazione
 
-**Studente:** Denaro, che può anche andare alla sanità pubblica.
+**Domanda 1.** Un'accisa si descrive meglio come:
 
-**Insegnante:** Quindi quanti obiettivi ha questa imposta?
+A) Un'imposta ampia su tutti gli acquisti
+B) Un'imposta mirata a un bene o a un'attività specifici
+C) La stessa cosa dell'imposta sul reddito
+D) Un tipo di imposta sugli immobili
 
-**Studente:** Due: raccogliere denaro e cambiare i comportamenti.
+**Domanda 2.** Un'"imposta sul vizio" è:
 
-## Quiz di verifica
+A) Non collegata alle accise
+B) Un'espressione informale per un'accisa su beni considerati dannosi se consumati in eccesso
+C) Un'imposta solo sul reddito
+D) Un tipo di credito d'imposta
 
-**1.** Un'accisa si applica a...
+**Domanda 3.** Il tipico doppio scopo delle imposte sul vizio è:
 
-- A) Tutti gli acquisti
-- B) Stipendi
-- C) Prodotti specifici
-- D) Immobili
+A) Nessuno scopo
+B) Raccogliere entrate e scoraggiare il consumo
+C) Solo scoraggiare il consumo, mai raccogliere entrate
+D) Solo raccogliere entrate, senza obiettivi sui comportamenti
 
-**2.** Perché alcune si chiamano "tasse sul peccato"?
+**Domanda 4.** L'efficacia e l'equità delle imposte sul vizio sono una questione chiusa?
 
-- A) Perché sono illegali
-- B) Perché si pagano la domenica
-- C) Perché sono volontarie
-- D) Perché colpiscono prodotti considerati dannosi, come alcol e tabacco
+A) Sì, tutti sono d'accordo
+B) No: è una questione di politica pubblica davvero dibattuta
+C) Sono dibattute solo in un paese
+D) Non se ne è mai discusso
 
-**3.** Quali sono i due obiettivi comuni di queste imposte?
+## Soluzioni
 
-- A) Raccogliere denaro e cambiare i comportamenti
-- B) Punire e premiare le imprese
-- C) Ridurre gli stipendi e aumentare gli affitti
-- D) Nessuno
-
-**4.** Il consumatore vede sempre questa imposta separata sullo scontrino?
-
-- A) Sì, sempre
-- B) No, spesso è inclusa nel prezzo
-- C) Solo all'estero
-- D) Non la paga mai
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) Prodotti specifici** — Si applica a prodotti selezionati.
+**1.** Le accise si concentrano su un prodotto o un'attività specifici invece di applicarsi in modo ampio.
 
-**2. D) Perché colpiscono prodotti considerati dannosi, come alcol e tabacco** — Il soprannome deriva dai prodotti tassati.
+**2.** L'etichetta "imposta sul vizio" riflette il fatto che il bene tassato è considerato dannoso se consumato in eccesso, come alcol o tabacco.
 
-**3. A) Raccogliere denaro e cambiare i comportamenti** — Generano entrate e scoraggiano il consumo.
+**3.** Raccogliere entrate e scoraggiare certi comportamenti sono i due obiettivi più citati di queste imposte mirate.
 
-**4. B) No, spesso è inclusa nel prezzo** — È comune che sia inclusa nel prezzo.
+**4.** Persone ragionevoli non sono d'accordo su quanto funzionino le imposte sul vizio e su chi ne sopporti davvero il peso.
 
 ## Punti chiave
 
-- Le accise si applicano a prodotti specifici
-- La "tassa sul peccato" colpisce prodotti considerati dannosi
-- Obiettivi: raccogliere denaro e cambiare i comportamenti
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Le accise colpiscono beni o attività specifici, a differenza dell'imposta generale sulle vendite.
+- "Imposta sul vizio" è un'espressione informale per le accise su beni considerati dannosi se consumati in eccesso.
+- Gli obiettivi tipici sono le entrate e lo scoraggiamento dei consumi.
+- L'efficacia e l'equità delle imposte sul vizio restano davvero dibattute.

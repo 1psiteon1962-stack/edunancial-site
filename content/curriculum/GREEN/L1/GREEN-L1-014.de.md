@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 14
 locale: de
-title: "Formular W-2 vs. Formular 1099: Angestellter oder Auftragnehmer?"
-summary: "Stellt die beiden häufigsten Einkommensnachweise in den Systemen vor, die sie verwenden, und verbindet sie direkt mit der Unterscheidung zwischen Angestellten und Selbstständigen aus anderen Lernpfaden."
+title: "Formular W-2 oder 1099: angestellt oder selbstständig?"
+summary: "Stellt die beiden häufigsten Einkommensnachweise in Systemen vor, die sie verwenden, und verbindet sie direkt mit der Unterscheidung zwischen Angestellten und Selbstständigen aus früheren Lernpfaden."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Formular W-2 vs. Formular 1099: Angestellter oder Auftragnehmer?
+# Formular W-2 oder 1099: angestellt oder selbstständig?
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Erklären, was die Formulare W-2 und 1099 sind (US-Bezeichnungen)
-- Jedes Formular der Art der Arbeit zuordnen
-- Verstehen, warum Auftragnehmer ihre Steuern planen müssen
+- Den grundsätzlichen Unterschied zwischen einem Einkommensnachweis für Angestellte und einem für Auftragnehmer erklären.
+- Diese Unterscheidung mit dem Begriffspaar Selbstständigkeit und Unternehmertum aus früheren Lernpfaden verbinden.
+- Erkennen, warum diese Einordnung beeinflusst, wer sich um den Steuerabzug kümmert.
 
 ## Kerninhalt
 
-In den USA schickt der Arbeitgeber dem Angestellten Anfang des Jahres ein Formular namens W-2. Es zeigt, wie viel die Person verdient hat und wie viel Steuer bereits einbehalten wurde. Wer als unabhängiger Auftragnehmer arbeitet, bekommt meist ein Formular 1099, das die gezahlten Beträge zeigt, normalerweise ohne einbehaltene Steuer. Andere Länder haben vergleichbare Nachweise unter anderen Namen.
+In manchen Steuersystemen, vor allem in den USA, gibt es unterschiedliche Formulare für verschiedene Einkommensarten: eines für Angestellte (meist W-2), bei denen der Arbeitgeber das ganze Jahr über Steuer einbehält, und eines für selbstständige Auftragnehmer (meist 1099), bei denen keine Steuer einbehalten wird und die Person selbst für ihre Vorauszahlungen verantwortlich ist. Andere Länder verwenden andere Bezeichnungen, aber die zugrunde liegende Unterscheidung – angestellt oder selbstständig – gibt es fast überall. (In Deutschland erhalten Angestellte zum Beispiel eine Lohnsteuerbescheinigung, während Selbstständige und Freiberufler ihre Einkünfte selbst erklären und oft Vorauszahlungen leisten; die Abgrenzung kann rechtlich heikel sein, Stichwort Scheinselbstständigkeit.)
 
-Der Unterschied ist wichtig. Beim Angestellten wurden die Steuern meist schon über das Jahr abgezogen. Der Auftragnehmer bekommt den vollen Betrag und ist selbst dafür verantwortlich, seine Steuern zurückzulegen und zu zahlen.
-
-Diese Unterscheidung hängt mit dem Unterschied zwischen angestellt und selbstständig zusammen, der schon in anderen Lernpfaden vorkam. Wer als Auftragnehmer bezahlt wird, muss planen: Einen Teil jeder Zahlung für Steuern zurückzulegen, verhindert Überraschungen am Jahresende.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Das passt direkt zum Begriff der Selbstständigkeit aus deinem bisherigen Lehrplan: Bei Angestellten wird die Steuer automatisch von jemand anderem einbehalten, während selbstständige Auftragnehmer eher wie Selbstständige funktionieren und ihre Steuern aktiv zurücklegen und zahlen müssen. Falsch einzuschätzen, in welche Kategorie man gehört, ist einer der häufigsten und teuersten Steuerfehler – wer als Auftragnehmer die gesamte Zahlung ausgibt, ohne etwas für die Steuer zurückzulegen, kann bei der Steuererklärung eine böse Überraschung erleben.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Eine junge Webdesignerin arbeitet für mehrere Kunden, bestimmt ihre Arbeitszeiten selbst und nutzt ihre eigene Ausrüstung. Ist sie eher angestellt oder eine selbstständige Auftragnehmerin?
 
-**Lehrer:** Rafa arbeitet in einem Laden und macht nebenbei selbstständig Grafikdesign. Welche Formulare kann er bekommen?
+**Schüler:** Weil sie ihre Zeiten selbst bestimmt und für mehrere Kunden arbeitet, klingt das eher nach einer selbstständigen Auftragnehmerin.
 
-**Schüler:** Ein W-2 vom Laden und ein 1099 von den Designkunden.
+**Lernbegleiter:** Wenn das stimmt – wer ist dann dafür verantwortlich, im Laufe des Jahres Geld für ihre Steuern zurückzulegen?
 
-**Lehrer:** Bei welchem wurde die Steuer schon einbehalten?
+**Schüler:** Sie selbst – weil kein Arbeitgeber für sie Steuer einbehält, muss sie das selbst tun.
 
-**Schüler:** Normalerweise beim W-2. Beim 1099 hat er den vollen Betrag bekommen.
-
-**Lehrer:** Was sollte Rafa also mit den Designzahlungen machen?
-
-**Schüler:** Einen Teil jeder Zahlung zurücklegen, um später die Steuer zu zahlen.
+**Lernbegleiter:** Genau, und deshalb müssen Selbstständige ihre Steuern aktiv planen, statt anzunehmen, dass sich das automatisch erledigt.
 
 ## Übungsquiz
 
-**1.** Wer bekommt in den USA das Formular W-2?
+**Frage 1.** Ein Einkommensnachweis für Angestellte zeigt typischerweise:
 
-- A) Unabhängige Auftragnehmer
-- B) Banken
-- C) Angestellte
-- D) Investoren
+A) Dass keine Steuer einbehalten wurde
+B) Dass der Arbeitgeber das ganze Jahr über Steuer einbehalten hat
+C) Nur den Unternehmensgewinn
+D) Nur Einkommen aus Kapitalanlagen
 
-**2.** Das Formular 1099 wird meist verwendet für...
+**Frage 2.** Selbstständige Auftragnehmer sind in der Regel verantwortlich dafür:
 
-- A) Fest angestellte Mitarbeiter
-- B) Nur Rentner
-- C) Minderjährige
-- D) Unabhängige Auftragnehmer
+A) Für nichts – Steuern laufen automatisch
+B) Ihre geschätzten Steuern selbst zurückzulegen und zu zahlen
+C) Nur für die Umsatzsteuer
+D) Niemals Unterlagen einzureichen
 
-**3.** Bei wem wurde normalerweise schon über das Jahr Steuer einbehalten?
+**Frage 3.** Mit welchem früheren Begriff ist diese Unterscheidung zwischen angestellt und selbstständig am engsten verbunden?
 
-- A) Beim Angestellten
-- B) Beim Auftragnehmer
-- C) Bei keinem von beiden
-- D) Bei beiden immer
+A) Öffentliche Güter
+B) Selbstständigkeit und Unternehmertum
+C) Grenzsteuerstufen
+D) Grundsteuer
 
-**4.** Was sollte ein Auftragnehmer tun?
+**Frage 4.** Ein häufiger und teurer Fehler neuer Selbstständiger ist:
 
-- A) Nichts, der Kunde zahlt alles
-- B) Einen Teil jeder Zahlung für Steuern zurücklegen
-- C) Vom Kunden ein W-2 verlangen
-- D) Die Einkommensteuer ignorieren
+A) Die Steuererklärung zu früh abzugeben
+B) Das gesamte Einkommen auszugeben, ohne Geld für Steuern zurückzulegen
+C) Zu viel Steuer einzubehalten
+D) Zu viel Eigentum zu besitzen
 
 ## Lösungsschlüssel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. C) Angestellte** — Das W-2 zeigt Lohn und Einbehalt von Angestellten.
+**1.** Bei Angestellten ist mit dem Einkommensnachweis in der Regel ein automatischer Steuerabzug durch den Arbeitgeber verbunden.
 
-**2. D) Unabhängige Auftragnehmer** — Es zeigt Zahlungen an Selbstständige.
+**2.** Weil kein Arbeitgeber für sie einbehält, müssen Selbstständige ihre Steuerzahlungen aktiv selbst organisieren.
 
-**3. A) Beim Angestellten** — Arbeitgeber behalten meist Steuer ein; Kunden von Selbstständigen normalerweise nicht.
+**3.** Das ist die steuerliche Seite des Begriffs Selbstständigkeit, den du früher im Lehrplan kennengelernt hast.
 
-**4. B) Einen Teil jeder Zahlung für Steuern zurücklegen** — Da nichts einbehalten wird, muss er selbst planen.
+**4.** 100 % der Einnahmen auszugeben, ohne einen Teil für die Steuer zurückzulegen, ist einer der häufigsten Anfängerfehler.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- W-2 (USA): Angestellter, Steuer meist einbehalten
-- 1099 (USA): Auftragnehmer, meist ohne Einbehalt
-- Auftragnehmer sollten einen Teil jeder Zahlung für Steuern zurücklegen
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Bei Einkommen aus Anstellung wird die Steuer in der Regel automatisch einbehalten; bei Einkommen als Auftragnehmer in der Regel nicht.
+- Diese Unterscheidung spiegelt den Begriff Selbstständigkeit und Anstellung aus früheren Lektionen.
+- Selbstständige müssen im Laufe des Jahres aktiv Geld für Steuern zurücklegen.
+- Sich falsch einzuordnen oder den Unterschied nicht einzuplanen, ist ein häufiger und teurer Fehler.

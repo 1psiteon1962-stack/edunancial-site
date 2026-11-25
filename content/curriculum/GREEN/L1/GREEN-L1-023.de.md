@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 23
 locale: de
-title: "Selbstständigensteuer: Was Freelancer und Geschäftsinhaber schulden"
-summary: "Baut auf der Lektion über Lohnabgaben auf und erklärt, warum Selbstständige sowohl den Arbeitgeber- als auch den Arbeitnehmeranteil lohnbezogener Abgaben zahlen."
+title: "Abgaben für Selbstständige: was Freiberufler und Unternehmer schulden"
+summary: "Baut auf der Lektion über Lohnabgaben auf und erklärt, warum Selbstständige oft sowohl den Arbeitgeber- als auch den Arbeitnehmeranteil lohnbezogener Abgaben tragen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Selbstständigensteuer: Was Freelancer und Geschäftsinhaber schulden
+# Abgaben für Selbstständige: was Freiberufler und Unternehmer schulden
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Wiederholen, wie Lohnabgaben aufgeteilt werden
-- Erklären, warum Selbstständige beide Anteile zahlen
-- Diese Kosten in die Preise der eigenen Leistungen einrechnen
+- Wiederholen, wie Lohnabgaben zwischen Arbeitgeber und Arbeitnehmer aufgeteilt werden.
+- Erklären, warum eine selbstständige Person oft beide Hälften trägt.
+- Dies als wichtigen Planungspunkt für Freiberufler und Kleinunternehmer erkennen.
 
 ## Kerninhalt
 
-Erinnerst du dich, dass Lohnabgaben bei Angestellten oft zwischen ihnen und dem Arbeitgeber geteilt werden? Wenn du selbstständig bist, bist du beides gleichzeitig: Arbeitnehmer und Chef.
+Du hast bereits gelernt, dass Lohnabgaben oft zwischen Arbeitgeber und Arbeitnehmer aufgeteilt werden – ein Teil wird vom Lohn einbehalten, ein Teil wird separat vom Arbeitgeber gezahlt. Als selbstständige Person bist du gewissermaßen beides: Arbeitgeber und Arbeitnehmer. Viele Systeme berücksichtigen das, indem Selbstständige eine Form lohnbezogener Abgaben zahlen, die beide Hälften abdeckt – in den USA etwa die „self-employment tax“. (In Deutschland tragen Selbstständige zum Beispiel ihre Kranken- und Pflegeversicherung in der Regel vollständig selbst, und je nach Tätigkeit kann eine Rentenversicherungspflicht bestehen; die Regeln ändern sich.)
 
-Deshalb zahlen Selbstständige in vielen Systemen beide Anteile. In den USA heißt das "self-employment tax". Diese Kosten kommen zusätzlich zur Einkommensteuer, und viele, die sich selbstständig machen, sind davon überrascht. In anderen Ländern gibt es vergleichbare Beiträge, zum Beispiel für die Sozialversicherung.
-
-Die praktische Lehre: Bei der Preisgestaltung müssen Selbstständige diese Kosten einrechnen. Denselben Stundensatz zu verlangen, den ein Angestellter verdient, lässt Selbstständigen am Ende meist weniger übrig, weil sie zusätzliche Abgaben und Ausrüstung selbst zahlen und keine Leistungen vom Arbeitgeber bekommen.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Das ist einer der am häufigsten unterschätzten Kostenpunkte der Selbstständigkeit. Wer als neuer Freiberufler die Summe seiner Rechnungen mit dem Gehaltszettel einer vergleichbar bezahlten angestellten Person vergleicht, kann seine tatsächliche Abgabenlast deutlich unterschätzen, wenn er vergisst, dass er als Ein-Personen-Unternehmen beide Seiten dieser Abgaben trägt. Wer das im Voraus versteht und entsprechend Geld zurücklegt, vermeidet eine böse Überraschung bei der Steuererklärung.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Eine Freiberuflerin vergleicht ihre 80.000 $ Jahresumsatz aus Rechnungen mit der angestellten Stelle einer Freundin mit 80.000 $ Gehalt und nimmt an, dass ihre steuerliche Lage im Grunde gleich ist. Stimmt das?
 
-**Lehrer:** Eine Angestellte und ein Freelancer verdienen beide $50.000 im Jahr. Wer zahlt mehr lohnbezogene Abgaben aus eigener Tasche?
+**Schüler:** Eher nicht, weil der Arbeitgeber der Freundin automatisch die Hälfte der lohnbezogenen Abgaben übernimmt.
 
-**Schüler:** Die Angestellte?
+**Lernbegleiter:** Was bedeutet das für die tatsächliche Abgabenlast der Freiberuflerin im Vergleich zu ihrer Freundin?
 
-**Lehrer:** Wer zahlt beim Freelancer den Arbeitgeberanteil?
+**Schüler:** Sie schuldet wahrscheinlich insgesamt mehr lohnbezogene Abgaben, weil sie für den Arbeitgeber- und den Arbeitnehmeranteil selbst verantwortlich ist.
 
-**Schüler:** Niemand sonst... er selbst.
-
-**Lehrer:** Also?
-
-**Schüler:** Der Freelancer zahlt beide Anteile. Deshalb muss er mehr verlangen.
+**Lernbegleiter:** Genau – gleiches Einkommen auf dem Papier, deutlich andere steuerliche Wirklichkeit.
 
 ## Übungsquiz
 
-**1.** Warum zahlen Selbstständige beide Anteile der lohnbezogenen Abgaben?
+**Frage 1.** Abgaben für Selbstständige decken in der Regel ab:
 
-- A) Weil sie mehr verdienen
-- B) Als Strafe
-- C) Weil sie keine Einkommensteuer zahlen
-- D) Weil sie Arbeitnehmer und Chef zugleich sind
+A) Nur den Arbeitnehmeranteil lohnbezogener Abgaben
+B) Sowohl den Arbeitgeber- als auch den Arbeitnehmeranteil lohnbezogener Abgaben
+C) Nur die Umsatzsteuer
+D) Nur die Grundsteuer
 
-**2.** Ersetzt diese Abgabe die Einkommensteuer?
+**Frage 2.** Warum schuldet eine selbstständige Person oft mehr lohnbezogene Abgaben als eine vergleichbare angestellte Person?
 
-- A) Nein, sie kommt zusätzlich
-- B) Ja
-- C) Nur in geraden Jahren
-- D) Nur für große Firmen
+A) Sie verdient automatisch mehr
+B) Sie muss den Arbeitgeber- und den Arbeitnehmeranteil selbst tragen
+C) Selbstständige werden mit zufälligen Sätzen besteuert
+D) Das stimmt nicht – die Beträge sind immer identisch
 
-**3.** Was ist die praktische Lehre für die Preisgestaltung?
+**Frage 3.** Was ist eine praktische Folge, wenn man die Abgaben als Selbstständiger unterschätzt?
 
-- A) Dasselbe verlangen, was ein Angestellter verdient
-- B) Steuern und Zusatzkosten in den Preis einrechnen
-- C) So wenig wie möglich verlangen
-- D) Den Preis nie ändern
+A) Keine Folge
+B) Eine böse Überraschung oder ein Fehlbetrag bei der Steuererklärung
+C) Eine automatische Erstattung
+D) Ein niedrigerer Veranlagungsstatus
 
-**4.** Wie heißt diese Abgabe in den USA?
+**Frage 4.** Wie lässt sich diese Überraschung am besten vermeiden?
 
-- A) Sales tax
-- B) Property tax
-- C) Self-employment tax
-- D) Gift tax
+A) Sie bis zur Steuererklärung ignorieren
+B) Die tatsächliche Belastung im Voraus verstehen und entsprechend Geld zurücklegen
+C) Alle Einnahmen aus Rechnungen sofort ausgeben
+D) Jede Selbstständigkeit vermeiden
 
 ## Lösungsschlüssel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. D) Weil sie Arbeitnehmer und Chef zugleich sind** — Es gibt keinen anderen Arbeitgeber, der den zweiten Anteil zahlt.
+**1.** Abgaben für Selbstständige sind im Grunde der Mechanismus, mit dem beide Hälften lohnbezogener Abgaben bei einer einzigen Person erhoben werden.
 
-**2. A) Nein, sie kommt zusätzlich** — Sie kommt zur Einkommensteuer hinzu.
+**2.** Wer zugleich Arbeitgeber und Arbeitnehmer ist, muss für beide Anteile aufkommen.
 
-**3. B) Steuern und Zusatzkosten in den Preis einrechnen** — Der Preis muss diese Zusatzkosten decken.
+**3.** Diese Kosten zu unterschätzen, ist eine häufige Falle, die zu einer höheren Rechnung als erwartet führt.
 
-**4. C) Self-employment tax** — Self-employment tax ist die US-Bezeichnung.
+**4.** Vorausschauendes Bewusstsein und Sparen – statt hinterher zu reagieren – ist der praktische Schutz.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Selbstständige sind Arbeitnehmer und Chef zugleich
-- Deshalb zahlen sie beide Anteile, zusätzlich zur Einkommensteuer
-- Rechne diese Kosten in deine Preise ein
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Selbstständige tragen oft sowohl den Arbeitgeber- als auch den Arbeitnehmeranteil lohnbezogener Abgaben.
+- Einkommen aus Selbstständigkeit hat daher eine deutlich andere Abgabenlast als ein vergleichbares Gehalt.
+- Das ist einer der am häufigsten unterschätzten Kostenpunkte der Selbstständigkeit.
+- Wer vorausplant und Geld zurücklegt, vermeidet eine böse Überraschung bei der Steuererklärung.

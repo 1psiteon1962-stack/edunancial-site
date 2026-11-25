@@ -6,105 +6,93 @@ level: 1
 lessonNumber: 10
 locale: nl
 title: "Belastingschijven uitgelegd"
-summary: "Een concrete stap-voor-stap uitleg van hoe belastingschijven zijn opgebouwd en worden toegepast, direct voortbouwend op het begrip marginaal tarief."
+summary: "Een concrete stap-voor-stapuitleg van hoe belastingschijven zijn opgebouwd en toegepast, rechtstreeks voortbouwend op het begrip marginaal tarief."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
 # Belastingschijven uitgelegd
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Uitleggen hoe een schijventabel werkt
-- De belasting over een inkomen berekenen met voorbeeldschijven
-- Uit de uitkomst het gemiddelde tarief berekenen
+- Een eenvoudige tabel met belastingschijven lezen en interpreteren.
+- De verschuldigde belasting over meerdere schijven berekenen voor een voorbeeldinkomen.
+- Het begrip marginaal tarief versterken met een rekenvoorbeeld.
 
 ## Kerninhoud
 
-Een schijventabel verdeelt inkomen in "treden". Elke trede heeft een eigen tarief. Je inkomen vult de treden van onder naar boven, zoals water een trap van glazen vult.
+Voortbouwend op de vorige les lopen we de schijven door met echte getallen. Stel je een vereenvoudigde, illustratieve schijventabel voor: inkomen van $ 0 tot $ 10.000 wordt belast tegen 10%; inkomen van $ 10.001 tot $ 40.000 tegen 20%; inkomen boven $ 40.000 tegen 30%.
 
-Om de belasting te berekenen, reken je elke schijf apart uit en tel je alles op. Het eerste deel van het inkomen betaalt het laagste tarief, het volgende deel het volgende tarief, enzovoort.
+Wie $ 50.000 verdient, betaalt geen 30% over de hele $ 50.000. In plaats daarvan wordt de eerste $ 10.000 belast tegen 10% ($ 1.000), de volgende $ 30.000 (van $ 10.001 tot $ 40.000) tegen 20% ($ 6.000) en de resterende $ 10.000 (van $ 40.001 tot $ 50.000) tegen 30% ($ 3.000). De totale verschuldigde belasting is $ 10.000, wat neerkomt op een effectief tarief van 20%, ruim onder de hoogste schijf van 30%.
 
-De echte grenzen en tarieven verschillen per land en vaak per jaar. De getallen hieronder zijn alleen een voorbeeld om de methode te oefenen. Het gaat om de methode: die werkt in elk stelsel met progressieve schijven.
+Deze stapsgewijze berekening, schijf voor schijf, is precies wat marginale belastingheffing in de praktijk betekent. Echte schijfbedragen verschillen per land en veranderen in de loop van de tijd, dus de bedragen hier zijn alleen ter illustratie: de rekenmethode is de blijvende, overdraagbare vaardigheid.
 
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+> **Let op:** de percentages en drempelbedragen in deze les zijn illustratieve lesgetallen, geen cijfers van een specifiek land. Controleer de werkelijke, actuele schijven voor je eigen land.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Hoeveel belasting zou iemand die precies $ 40.000 verdient volgens de illustratieve schijven hierboven verschuldigd zijn?
 
-**Docent:** Voorbeeldtabel: tot $10.000 betaalt 10%; van $10.000 tot $40.000 betaalt 20%; boven $40.000 betaalt 30%. Peter verdient $50.000. Stap voor stap: hoeveel betaalt hij in de eerste schijf?
+**Cursist:** Ik werk het op volgorde uit: de eerste $ 10.000 tegen 10% is $ 1.000.
 
-**Leerling:** 10% van $10.000, dus $1.000.
+**Begeleider:** Goed, ga door.
 
-**Docent:** En in de tweede schijf, van $10.000 tot $40.000?
+**Cursist:** De resterende $ 30.000, van $ 10.001 tot $ 40.000, wordt belast tegen 20%, dus $ 6.000.
 
-**Leerling:** Dat is $30.000 tegen 20%. Dus $6.000.
+**Begeleider:** En wordt er iets tegen 30% belast?
 
-**Docent:** En wat overblijft boven $40.000?
+**Cursist:** Nee – deze persoon verdiende niets boven $ 40.000, dus de 30%-schijf geldt nooit. Het totaal is $ 1.000 + $ 6.000 = $ 7.000.
 
-**Leerling:** $10.000 tegen 30%, dus $3.000. In totaal $10.000 belasting.
-
-**Docent:** Wat is zijn gemiddelde tarief?
-
-**Leerling:** $10.000 gedeeld door $50.000. Dat is 20%, ook al is de hoogste schijf 30%.
+**Begeleider:** Precies goed – en zie dat het effectieve tarief 17,5% is, niet 20% en niet 30%.
 
 ## Oefenquiz
 
-**1.** Hoe wordt het inkomen verdeeld in een schijventabel?
+**Vraag 1.** Hoeveel van een inkomen van $ 50.000 wordt volgens de illustratieve schijven in deze les tegen 30% belast?
 
-- A) Helemaal in de hoogste schijf
-- B) Willekeurig
-- C) Het vult de schijven van onder naar boven
-- D) Alleen in de laagste schijf
+A) De volle $ 50.000
+B) $ 10.000
+C) $ 30.000
+D) $ 0
 
-**2.** Met de voorbeeldtabel: hoeveel belasting betaalt een inkomen van $10.000?
+**Vraag 2.** Wat is de totale illustratieve belasting op $ 50.000 in dit voorbeeld?
 
-- A) $2.000
-- B) $3.000
-- C) $0
-- D) $1.000
+A) $ 15.000
+B) $ 10.000
+C) $ 5.000
+D) $ 20.000
 
-**3.** Met de voorbeeldtabel: hoeveel betaalt een inkomen van $40.000?
+**Vraag 3.** Het effectieve belastingtarief in het voorbeeld van $ 50.000 is:
 
-- A) $7.000
-- B) $4.000
-- C) $12.000
-- D) $8.000
+A) 30%
+B) 20%
+C) 10%
+D) 0%
 
-**4.** De getallen in de tabel van deze les zijn...
+**Vraag 4.** Moeten de specifieke schijfbedragen in deze les als echte cijfers uit het hoofd worden geleerd?
 
-- A) De officiële tarieven van alle landen
-- B) Een voorbeeld om de methode te oefenen
-- C) Voor altijd vast
-- D) Alleen geldig voor bedrijven
+A) Ja, ze gelden overal
+B) Nee – ze zijn illustratief; echte schijven verschillen per land en veranderen in de loop van de tijd
+C) Ja, maar alleen voor één land
+D) Ze doen er voor de les niet toe
 
 ## Antwoordsleutel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. C) Het vult de schijven van onder naar boven** — Elk deel van het inkomen valt in zijn eigen schijf, van onderaf.
+**1.** Alleen het deel van het inkomen boven $ 40.000 – dat is $ 10.000 – valt in de 30%-schijf.
 
-**2. D) $1.000** — $10.000 valt helemaal in de eerste schijf: 10% = $1.000.
+**2.** $ 1.000 + $ 6.000 + $ 3.000 over de drie schijven geeft een totaal van $ 10.000.
 
-**3. A) $7.000** — $1.000 in de eerste schijf + $6.000 in de tweede = $7.000.
+**3.** De totale belasting ($ 10.000) gedeeld door het totale inkomen ($ 50.000) geeft een effectief tarief van 20%.
 
-**4. B) Een voorbeeld om de methode te oefenen** — Echte tabellen verschillen; hier leer je de methode.
+**4.** De bedragen zijn een lesinstrument; de rekenmethode is wat je kunt toepassen op elke echte schijventabel.
 
 ## Belangrijkste punten
 
-- Schijven verdelen inkomen in treden met verschillende tarieven
-- Reken elke schijf apart uit en tel op
-- Het gemiddelde tarief is altijd lager dan of gelijk aan de hoogst bereikte schijf
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Schijven gelden stap voor stap, waarbij elk tarief alleen het inkomen binnen die schijf raakt.
+- De berekening concreet doorlopen laat zien waarom het begrip marginaal tarief in de praktijk belangrijk is.
+- Het effectieve tarief is altijd een mengvorm en altijd lager dan de hoogste bereikte schijf.
+- De hier gebruikte getallen zijn illustratief: controleer altijd de werkelijke schijventabel van je eigen land.

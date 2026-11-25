@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 35
 locale: pt-BR
-title: "Tradicional vs. Roth: Pagar Imposto Agora ou Depois"
-summary: "Explica o conceito geral por trás de duas estruturas comuns de contas de aposentadoria — uma tributada na saída e outra na entrada — usando rótulos genéricos."
+title: "Tradicional ou Roth: pagar imposto agora ou depois"
+summary: "Explica o conceito geral por trás de duas estruturas comuns de contas de aposentadoria, uma tributada na entrada e outra na saída, usando rótulos genéricos em vez dos nomes de programas de um país."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Tradicional vs. Roth: Pagar Imposto Agora ou Depois
+# Tradicional ou Roth: pagar imposto agora ou depois
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar a escolha entre "pagar agora ou pagar depois" presente em muitos sistemas de aposentadoria.
+- Identificar a troca básica entre as duas abordagens.
+- Reconhecer que a melhor escolha pode depender das alíquotas futuras esperadas.
 
-- Explicar a diferença entre pagar imposto na entrada e na saída
-- Relacionar a escolha à alíquota esperada no futuro
-- Reconhecer os nomes "tradicional" e "Roth" usados nos EUA
+## Conteúdo principal
 
-## Conteúdo Principal
+Muitos sistemas de contas de aposentadoria oferecem a escolha entre duas estruturas, muitas vezes chamadas genericamente de estilo "tradicional" e estilo "Roth" (pelos nomes usados nos EUA), quaisquer que sejam os nomes locais. Em uma conta de estilo tradicional, as contribuições normalmente reduzem a renda tributável agora, mas os saques na aposentadoria são tributados. Em uma conta de estilo Roth, as contribuições são feitas com dinheiro já tributado, mas os saques na aposentadoria normalmente são isentos. (No Brasil, o PGBL se parece mais com o estilo tradicional e o VGBL tributa só os rendimentos no resgate; as regras mudam.)
 
-Existem duas formas comuns de dar vantagem fiscal à aposentadoria. Na primeira, o dinheiro entra sem imposto agora, e você paga imposto quando sacar no futuro. Nos EUA, ela é chamada de conta "tradicional".
+A troca central é o momento: pagar o imposto agora, na sua alíquota atual, ou depois, na sua alíquota futura. Se você espera que a sua alíquota na aposentadoria seja menor que a de hoje, a abordagem tradicional muitas vezes sai na frente. Se você espera uma alíquota parecida ou maior na aposentadoria, o que é comum para jovens no início da carreira com espaço para crescer, a abordagem Roth pode sair na frente. Não existe uma resposta certa para todos: depende de suposições sobre o futuro, e é exatamente por isso que essa é uma área comum para buscar orientação profissional em vez de chutar.
 
-Na segunda, você deposita dinheiro que já foi tributado, mas os saques futuros, seguindo as regras, saem sem imposto. Nos EUA, ela é chamada de conta "Roth".
+## Exemplo prático
 
-Qual é melhor? Depende, em grande parte, de uma pergunta: sua alíquota vai ser maior agora ou na aposentadoria? Se você espera pagar uma alíquota menor no futuro, adiar o imposto pode ser vantajoso. Se espera uma alíquota maior no futuro, pagar agora pode ser melhor. Ninguém sabe o futuro com certeza, por isso muita gente usa as duas.
+**Pergunta:** Uma jovem de 22 anos, começando a carreira, está decidindo entre uma conta de estilo tradicional e uma de estilo Roth. Que raciocínio geral ela deve fazer?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Pela lição, ela deve pensar se a alíquota dela hoje provavelmente é menor ou maior do que será mais adiante na carreira.
 
-## Exemplo Prático
+**Guia:** Como ela está no início da carreira, qual é uma suposição razoável sobre a renda e a alíquota futuras dela?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** A renda dela, e provavelmente a alíquota, devem subir com o tempo; então pagar o imposto agora, a uma alíquota menor, com uma conta de estilo Roth, pode fazer sentido.
 
-**Professor:** Vitória tem 22 anos, ganha pouco e espera ganhar bem mais no futuro. Ela quer saber: pagar imposto agora ou depois?
+**Guia:** É um raciocínio razoável, embora continue sendo uma suposição sobre o futuro, e não uma garantia; por isso vale a pena conversar com um profissional sobre um plano específico.
 
-**Aluno:** Se ela ganha pouco agora, a alíquota dela é baixa.
+## Teste de prática
 
-**Professor:** E no futuro?
+**Pergunta 1.** Em uma conta de estilo tradicional, as contribuições normalmente:
 
-**Aluno:** Provavelmente mais alta. Então pagar agora, no estilo Roth, pode fazer sentido.
+A) São tributadas duas vezes
+B) Reduzem a renda tributável agora, com saques tributados depois
+C) Nunca são tributadas
+D) Não têm efeito sobre os impostos
 
-**Professor:** E alguém no auge da carreira, esperando ganhar menos quando se aposentar?
+**Pergunta 2.** Em uma conta de estilo Roth, as contribuições normalmente são:
 
-**Aluno:** Pode preferir adiar o imposto, no estilo tradicional.
+A) Feitas com dinheiro já tributado, com saques isentos depois
+B) Deduzidas da renda tributável atual
+C) Tributadas duas vezes
+D) Proibidas
 
-## Quiz de Prática
+**Pergunta 3.** A troca central entre as duas abordagens é:
 
-**1.** Na conta "tradicional" (EUA), quando o imposto é pago?
+A) Não existe troca
+B) Pagar o imposto agora ou pagar depois
+C) Uma das abordagens nunca envolve impostos
+D) Só empresas podem escolher
 
-- A) Na entrada
-- B) Nunca
-- C) Todo mês
-- D) Na saída
+**Pergunta 4.** Qual abordagem tende a favorecer quem espera uma alíquota menor na aposentadoria do que hoje?
 
-**2.** Na conta "Roth" (EUA), quando o imposto é pago?
-
-- A) Na entrada, e os saques seguindo as regras saem sem imposto
-- B) Só na saída
-- C) Duas vezes
-- D) Nunca, em nenhum momento
-
-**3.** Qual pergunta ajuda a escolher entre as duas?
-
-- A) Qual banco é mais bonito?
-- B) Minha alíquota será maior agora ou no futuro?
-- C) Quantos filhos terei?
-- D) Qual a cor do cartão?
-
-**4.** Por que muitas pessoas usam as duas?
-
-- A) Porque é obrigatório
-- B) Porque uma anula a outra
-- C) Porque ninguém sabe o futuro com certeza
-- D) Por acaso
+A) Estilo Roth
+B) Estilo tradicional
+C) Nenhuma faz diferença
+D) Só contas baseadas em imposto sobre vendas
 
 ## Gabarito
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Na saída** — O imposto é adiado até o saque.
+**1.** A estrutura tradicional adia o imposto, oferecendo um benefício hoje ao custo do imposto devido nos saques futuros.
 
-**2. A) Na entrada, e os saques seguindo as regras saem sem imposto** — Você deposita dinheiro já tributado.
+**2.** A estrutura Roth antecipa o imposto, de modo que os saques futuros que cumprem as regras geralmente não são tributados.
 
-**3. B) Minha alíquota será maior agora ou no futuro?** — A alíquota esperada é o fator central.
+**3.** No fundo, é uma decisão de momento sobre quando você prefere pagar o imposto, com base em suposições sobre as alíquotas futuras.
 
-**4. C) Porque ninguém sabe o futuro com certeza** — Diversificar o momento do imposto reduz o risco de errar a previsão.
+**4.** Se a alíquota de hoje for maior que a esperada no futuro, adiar o imposto (estilo tradicional) muitas vezes é mais vantajoso.
 
-## Principais Lições
+## Pontos-chave
 
-- Tradicional: imposto adiado para o saque
-- Roth: imposto pago agora, saques futuros sem imposto (seguindo as regras)
-- A escolha depende da alíquota esperada agora vs. no futuro
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Contas de estilo tradicional adiam o imposto para o saque; contas de estilo Roth tributam as contribuições agora, e não os saques.
+- A troca central é pagar o imposto agora ou depois.
+- A melhor escolha depende de suposições sobre a sua alíquota atual em comparação com a futura.
+- Essa é uma área comum e legítima para buscar orientação profissional em vez de chutar.

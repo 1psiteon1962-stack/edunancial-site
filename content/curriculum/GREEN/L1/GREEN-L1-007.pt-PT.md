@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 7
 locale: pt-PT
-title: "Contribuições Sobre Salários: Social Security e Medicare"
-summary: "Apresenta as contribuições sobre salários como uma categoria ligada especificamente aos salários do trabalho, que costuma financiar programas de reforma e saúde."
+title: "Contribuições sobre os salários: Social Security e Medicare"
+summary: "Apresenta as contribuições sobre os salários como uma categoria ligada especificamente aos salários do trabalho, que financia muitas vezes sistemas de reforma e de saúde."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Contribuições Sobre Salários: Social Security e Medicare
+# Contribuições sobre os salários: Social Security e Medicare
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir as contribuições sobre os salários e explicar em que diferem do imposto geral sobre o rendimento.
+- Explicar que as contribuições sobre os salários são muitas vezes repartidas entre a entidade empregadora e o trabalhador.
+- Identificar programas comuns financiados pelas contribuições sobre os salários.
 
-- Explicar o que são as contribuições sobre salários
-- Perceber que financiam programas de reforma e saúde
-- Distinguir estas contribuições do imposto sobre o rendimento
+## Conteúdo principal
 
-## Conteúdo Principal
+As contribuições sobre os salários (nos EUA, "payroll tax", por exemplo para a Social Security e o Medicare; em Portugal, o mais próximo são as contribuições para a Segurança Social, conhecidas como TSU) estão ligadas especificamente aos salários do trabalho. Estão relacionadas com o imposto sobre o rendimento, mas são diferentes dele: enquanto o imposto sobre o rendimento financia a despesa pública geral, as contribuições sobre os salários destinam-se muitas vezes a programas específicos, sobretudo sistemas de reforma e de proteção na saúde.
 
-As contribuições sobre salários (payroll tax) são calculadas sobre os salários de quem trabalha por conta de outrem. Nos Estados Unidos, os exemplos mais conhecidos são a Social Security (o sistema público de pensões) e o Medicare (o seguro de saúde para idosos). Outros países têm contribuições parecidas, como as da Segurança Social em Portugal.
+Em muitos sistemas, estas contribuições são repartidas: uma parte é descontada no salário do trabalhador e outra parte é paga diretamente pela entidade empregadora, para além do salário. O custo real de um trabalhador para uma empresa é, portanto, superior ao valor do recibo de vencimento. Esta repartição vai importar mais tarde, quando analisarmos a tributação de quem trabalha por conta própria, porque o trabalhador independente acaba muitas vezes responsável pelas duas partes.
 
-Em muitos sistemas, o custo é dividido: uma parte é descontada do salário do trabalhador e outra é paga pela entidade empregadora. Por isso, o custo real de contratar alguém é maior do que o salário que aparece no recibo de vencimento.
+## Exemplo prático
 
-Estas contribuições são diferentes do imposto sobre o rendimento. O imposto sobre o rendimento vai para o orçamento geral. As contribuições sobre salários costumam destinar-se a programas específicos, como reformas e saúde.
+**Pergunta:** Uma entidade empregadora paga um salário a um trabalhador e, em separado, entrega ao Estado um montante adicional de contribuições. A parte da entidade empregadora faz parte do salário do trabalhador?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Diria que é separada, já que o trabalhador nunca vê esse dinheiro.
 
-## Exemplo Prático
+**Guia:** Certo, mas continua a ser um custo de empregar esse trabalhador?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Sim: é um custo adicional para além do salário, mesmo que não apareça no recibo de vencimento.
 
-**Professor:** O João ganha $3.000 por mês. No recibo de vencimento aparecem dois descontos com nomes diferentes. Porque achas que são dois?
+**Guia:** Exatamente, e é por isso que o "custo de um trabalhador" é normalmente superior ao salário por si só.
 
-**Aluno:** Um deve ser o imposto sobre o rendimento.
+## Teste de prática
 
-**Professor:** E o outro?
+**Pergunta 1.** As contribuições sobre os salários estão ligadas especificamente a:
 
-**Aluno:** As contribuições sobre salários, para a reforma e a saúde.
+A) Imóveis
+B) Salários do trabalho
+C) Compras no comércio
+D) Heranças
 
-**Professor:** E a empresa também paga alguma coisa?
+**Pergunta 2.** As contribuições sobre os salários financiam normalmente:
 
-**Aluno:** Em muitos sistemas, sim. A empresa paga a parte dela, além do salário do João.
+A) Programas de reforma e de saúde
+B) Apenas a construção de estradas
+C) Apenas a defesa nacional
+D) Nada em específico
 
-## Questionário de Treino
+**Pergunta 3.** Em muitos sistemas, as contribuições sobre os salários são:
 
-**1.** Sobre o que incidem as contribuições sobre salários?
+A) Pagas apenas pela entidade empregadora
+B) Pagas apenas pelo trabalhador
+C) Repartidas entre a entidade empregadora e o trabalhador
+D) Nunca efetivamente pagas
 
-- A) Compras
-- B) Imóveis
-- C) Heranças
-- D) Salários do trabalho
+**Pergunta 4.** O custo real de empregar um trabalhador é muitas vezes:
 
-**2.** O que costumam financiar estas contribuições?
-
-- A) Programas de reforma e saúde
-- B) Estradas
-- C) Festas públicas
-- D) Bancos privados
-
-**3.** Em muitos sistemas, quem paga as contribuições sobre salários?
-
-- A) Só o trabalhador
-- B) Trabalhador e entidade empregadora dividem
-- C) Só a entidade empregadora
-- D) Ninguém
-
-**4.** Qual é a principal diferença em relação ao imposto sobre o rendimento?
-
-- A) Não há diferença
-- B) O imposto sobre o rendimento só existe para empresas
-- C) As contribuições costumam ir para programas específicos
-- D) As contribuições são voluntárias
+A) Exatamente o valor do recibo de vencimento
+B) Superior ao salário, devido à parte da entidade empregadora
+C) Inferior ao salário
+D) Sem relação com as contribuições sobre os salários
 
 ## Chave de Respostas
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. C, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Salários do trabalho** — São calculadas sobre os salários pagos.
+**1.** As contribuições sobre os salários distinguem-se do imposto geral sobre o rendimento por estarem ligadas especificamente aos salários do trabalho.
 
-**2. A) Programas de reforma e saúde** — Nos EUA, por exemplo, financiam a Social Security e o Medicare.
+**2.** Os sistemas de reforma e os programas de proteção na saúde são muitas vezes financiados por contribuições específicas.
 
-**3. B) Trabalhador e entidade empregadora dividem** — É comum dividir o custo entre as duas partes.
+**3.** A repartição entre entidade empregadora e trabalhador é uma opção estrutural comum em muitos sistemas.
 
-**4. C) As contribuições costumam ir para programas específicos** — O imposto sobre o rendimento vai para o orçamento geral; as contribuições costumam ter destino específico.
+**4.** Como a entidade empregadora paga uma parte para além do salário, o custo total de um trabalhador é superior ao seu recibo de vencimento.
 
-## Pontos-Chave
+## Pontos-chave
 
-- As contribuições sobre salários incidem sobre salários
-- Costumam financiar reformas e saúde
-- Trabalhador e entidade empregadora dividem frequentemente o custo
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- As contribuições sobre os salários estão ligadas especificamente aos salários e distinguem-se do imposto geral sobre o rendimento.
+- Financiam normalmente programas de reforma e de saúde.
+- Muitos sistemas repartem estas contribuições entre a entidade empregadora e o trabalhador.
+- Esta repartição torna-se especialmente relevante para quem trabalha por conta própria, como uma lição posterior vai mostrar.

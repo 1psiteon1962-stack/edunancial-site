@@ -5,100 +5,84 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 4
 locale: de
-title: "Einkommensteuer: Besteuerung dessen, was du verdienst"
-summary: "Ein genauerer Blick auf die Einkommensteuer — wie sie auf Löhne, Geschäftsgewinne und Kapitalerträge angewendet wird."
+title: "Einkommensteuer: Besteuerung dessen, was Sie verdienen"
+summary: "Ein genauerer Blick auf die Einkommensteuer – wie sie auf Löhne, Unternehmensgewinne und Kapitalerträge angewendet wird."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Einkommensteuer: Besteuerung dessen, was du verdienst
+# Einkommensteuer: Besteuerung dessen, was Sie verdienen
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Erklären, was Einkommensteuer ist
-- Drei typische Quellen steuerpflichtigen Einkommens nennen
-- Verstehen, dass verschiedene Einkommensarten unterschiedlich behandelt werden können
+- Die Einkommensteuer definieren und erkennen, was als steuerpflichtiges Einkommen gilt.
+- Erklären, dass die Einkommensteuer grundsätzlich gilt, egal ob das Einkommen aus einem Job, einem Unternehmen oder aus Kapitalanlagen stammt.
+- Erkennen, dass „Einkommen“ mehr umfasst als nur den Gehaltszettel.
 
 ## Kerninhalt
 
-Die Einkommensteuer wird auf das Geld berechnet, das du im Laufe des Jahres einnimmst. In vielen Ländern ist sie eine der größten Einnahmequellen des Staates.
+Die Einkommensteuer ist eine Steuer auf das Geld, das man verdient. Der Begriff „Einkommen“ ist weiter gefasst, als die meisten Menschen annehmen: Er umfasst typischerweise Löhne aus einer Anstellung, Gewinne aus einem eigenen Unternehmen und Erträge aus Kapitalanlagen wie Zinsen oder Dividenden. Verschiedene Länder legen unterschiedlich fest, was genau als steuerpflichtiges Einkommen zählt, aber das Grundprinzip gilt überall: Wenn Geld hereingekommen ist und Ihr Vermögen vergrößert hat, kommt es für die Einkommensteuer in Frage.
 
-Es gibt drei typische Einkommensquellen. Erstens der Lohn, den du als Angestellter bekommst. Zweitens der Gewinn aus einem eigenen Geschäft, also das, was nach Abzug der Ausgaben übrig bleibt. Drittens Kapitalerträge wie Zinsen, Dividenden und Gewinne aus dem Verkauf von Vermögenswerten.
-
-Nicht jedes Einkommen wird gleich behandelt. Viele Systeme haben unterschiedliche Regeln für Lohn, Geschäftsgewinn und Kapitalerträge. Diese Unterschiede schauen wir uns später an. Merk dir für jetzt: Bei einem Geschäft wird normalerweise der Gewinn besteuert, nicht alles, was in die Kasse kommt.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Die meisten Einkommensteuersysteme besteuern nicht jeden Euro oder Dollar mit demselben Satz. Stattdessen passen sie die tatsächlich geschuldete Steuer über Steuerstufen, Abzüge und Gutschriften an – Begriffe, die spätere Lektionen ausführlich behandeln. Vorerst ist die Kernidee einfacher: Die Einkommensteuer wird durch das Verdienen in all seinen Formen ausgelöst, nicht nur durch einen klassischen Arbeitsplatz.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Die Großmutter von Ntege verkauft Kleider und erhält außerdem ein wenig Zinsen auf ihre Ersparnisse. Gilt die Einkommensteuer für beides?
 
-**Lehrer:** Carlos hat einen Foodtruck. Er hat im Jahr $40.000 umgesetzt und $30.000 für Zutaten, Gas und Wartung ausgegeben. Worauf zahlt er wahrscheinlich Einkommensteuer?
+**Schüler:** Die Kleiderverkäufe sind eindeutig Einnahmen aus ihrem Geschäft.
 
-**Schüler:** Auf die $40.000?
+**Lernbegleiter:** Und die Zinsen?
 
-**Lehrer:** Überleg: Wie viel ist ihm wirklich geblieben?
+**Schüler:** Das ist auch Geld, das hereinkommt, nur eben aus den Ersparnissen statt aus Arbeit.
 
-**Schüler:** $10.000. Also wird der Gewinn von $10.000 besteuert.
-
-**Lehrer:** Genau. Deshalb ist es so wichtig, Belege für Ausgaben aufzubewahren.
+**Lernbegleiter:** Richtig – Einkommensteuersysteme betrachten grundsätzlich alle Wege, auf denen Geld Ihr Vermögen vergrößert, nicht nur den Lohn aus einem Job.
 
 ## Übungsquiz
 
-**1.** Worauf wird die Einkommensteuer berechnet?
+**Frage 1.** Die Einkommensteuer gilt für:
 
-- A) Auf das Geld, das du einnimmst
-- B) Auf das, was du kaufst
-- C) Auf das, was du besitzt
-- D) Nur auf Erbschaften
+A) Nur Löhne aus einer Anstellung
+B) Löhne, Unternehmensgewinne und Kapitalerträge
+C) Nur Kapitalerträge
+D) Nur große Konzerne
 
-**2.** Bei einem kleinen Geschäft fällt die Einkommensteuer normalerweise an auf...
+**Frage 2.** Richtig oder falsch: In den meisten Systemen wird jedes Einkommen mit genau demselben Satz besteuert.
 
-- A) Den gesamten Umsatz
-- B) Den Gewinn nach Ausgaben
-- C) Nur die Ausgaben
-- D) Den Wert der Ausrüstung
+A) Richtig
+B) Falsch
 
-**3.** Was ist ein Kapitalertrag?
+**Frage 3.** Zinsen auf einem Sparkonto sind grundsätzlich:
 
-- A) Monatslohn
-- B) Trinkgeld
-- C) Dividenden aus Aktien
-- D) Erstattung von Auslagen
+A) Nie steuerpflichtig
+B) Eine Form von Einkommen, die steuerpflichtig sein kann
+C) Dasselbe wie ein Geschenk
+D) In jedem Land steuerfrei
 
-**4.** Werden alle Einkommensarten immer gleich behandelt?
+**Frage 4.** Das allgemeine Prinzip hinter der Einkommensteuer lautet:
 
-- A) Ja, immer
-- B) Nur Lohn wird besteuert
-- C) Nur Kapitalerträge werden besteuert
-- D) Nein, viele Systeme haben unterschiedliche Regeln
+A) Nur Gehälter zählen
+B) Geld, das Ihr Vermögen vergrößert, kommt für die Besteuerung in Frage
+C) Nur Bargeld zählt, keine anderen Zahlungsformen
+D) Unternehmer sind befreit
 
 ## Lösungsschlüssel
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. A) Auf das Geld, das du einnimmst** — Die Einkommensteuer besteuert, was du verdienst.
+**1.** Die Einkommensteuer ist bewusst weit gefasst – sie umfasst Löhne, Unternehmensgewinne und Kapitalerträge, nicht nur klassische Anstellungen.
 
-**2. B) Den Gewinn nach Ausgaben** — Grundregel ist die Besteuerung des Gewinns, nicht des Gesamtumsatzes.
+**2.** Die meisten Systeme arbeiten mit Steuerstufen, Abzügen und Gutschriften statt mit einem einheitlichen Satz, was spätere Lektionen erklären.
 
-**3. C) Dividenden aus Aktien** — Dividenden werden an Aktionäre gezahlt.
+**3.** Zinsen sind eine Form von Kapitalertrag und werden häufig als steuerpflichtig behandelt, je nach den Regeln des jeweiligen Landes. (In Deutschland gelten dafür zum Beispiel die Abgeltungsteuer und ein Sparer-Pauschbetrag; die Details ändern sich.)
 
-**4. D) Nein, viele Systeme haben unterschiedliche Regeln** — Lohn, Gewinn und Kapitalerträge haben oft unterschiedliche Regeln.
+**4.** Der verbindende Test ist, ob Geld hereingekommen ist und Ihr Vermögen vergrößert hat – die Quelle ist weniger wichtig als diese Grundtatsache.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Die Einkommensteuer besteuert, was du verdienst
-- Typische Quellen: Lohn, Geschäftsgewinn, Kapitalerträge
-- Geschäfte zahlen meist auf den Gewinn, nicht auf den Umsatz
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Die Einkommensteuer gilt für Löhne, Unternehmensgewinne und Kapitalerträge, nicht nur für Gehälter.
+- Verschiedene Länder definieren steuerpflichtiges Einkommen unterschiedlich, aber das zugrunde liegende Prinzip ist weit gefasst.
+- Die meisten Systeme besteuern nicht jeden Euro oder Dollar mit demselben einheitlichen Satz.
+- Alle eigenen Einkommensquellen zu kennen, ist der Ausgangspunkt, um die eigene Steuersituation zu verstehen.

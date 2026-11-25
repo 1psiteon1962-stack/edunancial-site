@@ -1,110 +1,92 @@
 ---
 id: GREEN-L1-012
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 12
-title: "Leggere la tua busta paga"
-source_title: "Reading Your Paycheck Stub"
-description: "Una guida pratica per leggere una tipica busta paga, collegando concetti precedenti (lordo/netto, ritenuta, contributi sui salari) a un documento reale."
-slug: reading-your-paycheck-stub
-seo_title: "Leggere la tua busta paga | Edunancial"
-meta_description: "Una guida pratica per leggere una tipica busta paga, collegando concetti precedenti (lordo/netto, ritenuta, contributi sui salari) a un documento reale."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 12
-summary: "Una guida pratica per leggere una tipica busta paga, collegando concetti precedenti (lordo/netto, ritenuta, contributi sui salari) a un documento reale."
+locale: it
+title: "Leggere la propria busta paga"
+summary: "Una guida pratica alla lettura di una busta paga tipica, che collega concetti già visti (lordo/netto, ritenute, contributi sugli stipendi) a un documento reale."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-012: Leggere la tua busta paga
+# Leggere la propria busta paga
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Riconoscere le parti principali di una busta paga
-- Trovare lordo, trattenute e netto
-- Controllare la busta paga per trovare errori
+- Riconoscere le sezioni principali di una busta paga tipica.
+- Individuare retribuzione lorda, trattenute e retribuzione netta su una busta paga di esempio.
+- Spiegare perché controllare regolarmente la busta paga è una buona abitudine.
 
 ## Contenuto principale
 
-La busta paga è il documento che mostra come è stata calcolata la tua retribuzione. Sembra complicata, ma segue quasi sempre la stessa logica: competenze, trattenute e netto.
+La busta paga (o cedolino) è il documento, cartaceo o digitale, che scompone uno stipendio. Anche se i formati variano in base al datore di lavoro e al paese, la maggior parte delle buste paga ha una struttura simile: in alto la retribuzione lorda, al centro l'elenco delle trattenute (imposte, contributi previdenziali, premi assicurativi) e in fondo la retribuzione netta, cioè l'importo effettivamente accreditato.
 
-Nelle competenze vedi lo stipendio lordo, gli straordinari e i bonus. Nelle trattenute compaiono la ritenuta per l'imposta sul reddito, i contributi sui salari e benefit come assicurazione sanitaria o previdenza. Alla fine c'è il netto, cioè ciò che arriva sul tuo conto. Molte buste paga mostrano anche i totali progressivi dell'anno.
+La sezione delle trattenute di solito separa diverse categorie: la ritenuta per l'imposta sul reddito, i contributi sugli stipendi (spesso indicati separatamente per previdenza e sanità) e le eventuali trattenute volontarie scelte dal lavoratore, come i versamenti a un fondo pensione. Una busta paga mostra spesso anche i totali progressivi dall'inizio dell'anno, che ti permettono di seguire guadagni e trattenute cumulativi nel corso dell'anno, non solo per un singolo periodo di paga.
 
-Conviene controllare la busta paga ogni mese. Gli errori capitano: ore non pagate, trattenute doppie o dati personali sbagliati. Prima li scopri, più è facile correggerli. I nomi delle voci cambiano da Paese a Paese, ma la struttura è simile.
+Controllare regolarmente la busta paga è un'abitudine pratica, non un semplice adempimento burocratico. È così che individui gli errori (ore sbagliate, ritenute errate, un aumento dimenticato) prima che si accumulino per mesi. Ed è così che ti fai un'idea concreta e costante della differenza tra quanto guadagni e quanto incassi davvero, che alimenta direttamente il tuo budget.
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+## Esempio svolto
 
-## Esempio pratico
+**Domanda:** Un lavoratore dà un'occhiata alla busta paga e vede una colonna "YTD" o "progressivo annuo". Che cosa significa probabilmente, e perché è importante?
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Studente:** Immagino che YTD stia per "year to date", cioè il totale progressivo dall'inizio dell'anno.
 
-**Insegnante:** Nella busta paga di Diego ci sono: stipendio $2.500, straordinari $300, ritenuta d'imposta $350, contributi $210 e assicurazione sanitaria $140. Qual è il lordo?
+**Guida:** Giusto. Perché quel totale progressivo è utile, oltre ai numeri di questa singola busta paga?
 
-**Studente:** $2.500 più $300. Fa $2.800.
+**Studente:** Permette di seguire nel tempo guadagni e trattenute totali, il che aiuta a scoprire errori o a prepararsi alla dichiarazione dei redditi invece di vedere un solo periodo di paga alla volta.
 
-**Insegnante:** E il totale delle trattenute?
+**Guida:** Esatto: una singola busta paga è un'istantanea; il progressivo annuo mostra l'andamento.
 
-**Studente:** $350 + $210 + $140 = $700.
+## Quiz di esercitazione
 
-**Insegnante:** Quindi il netto dovrebbe essere...?
+**Domanda 1.** Una busta paga mostra di solito:
 
-**Studente:** $2.100. Se il bonifico è diverso, Diego deve chiedere all'ufficio del personale.
+A) Solo la retribuzione netta
+B) Retribuzione lorda, trattenute e retribuzione netta
+C) Solo l'imposta dovuta per l'anno
+D) Niente che riguardi le imposte
 
-## Quiz di verifica
+**Domanda 2.** "YTD" su una busta paga significa molto probabilmente:
 
-**1.** Quali sono le tre parti di base di una busta paga?
+A) Trattenuta fiscale annua
+B) Dall'inizio dell'anno (year to date)
+C) Il tuo debito totale
+D) Rendimento a oggi
 
-- A) Competenze, trattenute e netto
-- B) Nome, indirizzo e telefono
-- C) Imposte, sanzioni e interessi
-- D) Acquisti, vendite e utile
+**Domanda 3.** Controllare regolarmente la busta paga ti aiuta a:
 
-**2.** Dove compaiono gli straordinari?
+A) Niente di utile
+B) Scoprire errori come ore sbagliate o ritenute errate
+C) Non pagare nessuna imposta
+D) Aumentare automaticamente la retribuzione lorda
 
-- A) Nelle trattenute
-- B) Nelle competenze
-- C) Solo nel netto
-- D) Non compaiono
+**Domanda 4.** La sezione delle trattenute di una busta paga comprende di solito:
 
-**3.** Lordo di $3.000 e trattenute di $650. Qual è il netto?
+A) Solo acquisti volontari
+B) Ritenuta d'imposta sul reddito, contributi sugli stipendi e trattenute volontarie
+C) Solo i giorni di ferie
+D) Niente che riguardi le imposte
 
-- A) $3.650
-- B) $3.000
-- C) $2.350
-- D) $650
+## Soluzioni
 
-**4.** Perché controllare la busta paga ogni mese?
-
-- A) Perché è obbligatorio per legge in ogni Paese
-- B) Per calcolare l'inflazione
-- C) Non c'è motivo
-- D) Per trovare presto gli errori e correggerli
-
-## Chiave delle risposte
-
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. A) Competenze, trattenute e netto** — Quasi ogni busta paga segue questa struttura.
+**1.** Una busta paga standard va dalla retribuzione lorda, attraverso le trattenute, fino alla retribuzione netta finale.
 
-**2. B) Nelle competenze** — Gli straordinari aumentano le competenze lorde.
+**2.** I totali dall'inizio dell'anno danno un quadro progressivo di tutto l'anno, non solo di un periodo di paga.
 
-**3. C) $2.350** — $3.000 − $650 = $2.350.
+**3.** Scoprire presto un errore in busta paga, prima che si ripeta per mesi, è uno dei motivi più pratici per controllarla.
 
-**4. D) Per trovare presto gli errori e correggerli** — Gli errori si correggono più facilmente se scoperti presto.
+**4.** Le trattenute riuniscono di solito le ritenute obbligatorie e i versamenti volontari che il lavoratore ha attivato.
 
 ## Punti chiave
 
-- Busta paga = competenze − trattenute = netto
-- Le trattenute includono ritenuta, contributi e benefit
-- Controllala ogni mese per trovare presto gli errori
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Le buste paga vanno in genere dalla retribuzione lorda, attraverso le trattenute, alla retribuzione netta.
+- I totali progressivi annui seguono le somme cumulative di tutto l'anno, non solo di un periodo di paga.
+- Controllare regolarmente la busta paga aiuta a scoprire presto gli errori.
+- Capire la propria busta paga si collega direttamente ai concetti di lordo/netto e di ritenuta delle lezioni precedenti.

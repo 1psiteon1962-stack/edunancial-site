@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 23
 locale: nl
-title: "Belasting voor zelfstandigen: wat freelancers en ondernemers verschuldigd zijn"
-summary: "Bouwt voort op de les over loonheffingen en legt uit waarom zelfstandigen zowel het werkgevers- als het werknemersdeel van loongerelateerde heffingen betalen."
+title: "Premies voor zelfstandigen: wat freelancers en ondernemers verschuldigd zijn"
+summary: "Bouwt voort op de les over loonheffingen en legt uit waarom zelfstandigen vaak zowel het werkgevers- als het werknemersdeel van loongerelateerde premies betalen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Belasting voor zelfstandigen: wat freelancers en ondernemers verschuldigd zijn
+# Premies voor zelfstandigen: wat freelancers en ondernemers verschuldigd zijn
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Herhalen hoe loonheffingen worden verdeeld
-- Uitleggen waarom zelfstandigen beide delen betalen
-- Deze kosten meenemen in de prijs van je diensten
+- Herhalen hoe loonheffingen worden verdeeld tussen werkgever en werknemer.
+- Uitleggen waarom een zelfstandige vaak beide helften betaalt.
+- Dit herkennen als een belangrijk planningspunt voor freelancers en kleine ondernemers.
 
 ## Kerninhoud
 
-Weet je nog dat loonheffingen bij werknemers vaak worden verdeeld tussen de werknemer en de werkgever? Als je voor jezelf werkt, ben je allebei tegelijk: de werknemer én de baas.
+Je hebt eerder geleerd dat loonheffingen vaak worden verdeeld tussen werkgever en werknemer – een deel wordt van het loon ingehouden, een deel betaalt de werkgever apart. Als zelfstandige ben je in feite allebei: werkgever en werknemer. Veel stelsels houden daar rekening mee door zelfstandigen een vorm van loongerelateerde premies te laten betalen die beide helften dekt – in de Verenigde Staten heet dat "self-employment tax". (In Nederland werkt het anders: een zzp'er betaalt onder meer premies volksverzekeringen en een inkomensafhankelijke bijdrage Zvw via de aanslag, en regelt zelf eventuele arbeidsongeschiktheids- en pensioenvoorzieningen; de regels veranderen.)
 
-Daarom betalen zelfstandigen in veel stelsels beide delen. In de VS heet dat "self-employment tax". Die kosten komen bovenop de inkomstenbelasting, en veel mensen die net zelfstandig zijn, worden erdoor verrast. Andere landen hebben vergelijkbare premies of bijdragen, bijvoorbeeld voor sociale verzekeringen.
-
-De praktische les: als je je prijs bepaalt, moet je deze kosten meenemen. Hetzelfde uurtarief vragen als wat een werknemer verdient, laat een zelfstandige meestal met minder over, omdat hij ook extra heffingen en apparatuur zelf betaalt en geen voorzieningen van een werkgever krijgt.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Dit is een van de meest onderschatte kosten van zelfstandig werken. Een nieuwe freelancer die het totaal van zijn facturen vergelijkt met de loonstrook van een werknemer met een vergelijkbaar salaris, kan zijn werkelijke last flink onderschatten als hij vergeet dat hij als eenmanszaak beide kanten van deze premies draagt. Wie dit vooraf begrijpt – en dienovereenkomstig geld opzijzet – voorkomt een vervelende verrassing bij de aangifte.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een freelancer vergelijkt haar $ 80.000 aan jaarlijkse facturen met de baan van een vriendin met een salaris van $ 80.000 en gaat ervan uit dat hun belastingsituatie eigenlijk hetzelfde is. Klopt dat?
 
-**Docent:** Een werknemer en een freelancer verdienen allebei $50.000 per jaar. Wie betaalt meer loongerelateerde heffingen uit eigen zak?
+**Cursist:** Waarschijnlijk niet, omdat de werkgever van haar vriendin automatisch de helft van de loongerelateerde premies betaalt.
 
-**Leerling:** De werknemer?
+**Begeleider:** Wat betekent dat voor de werkelijke last van de freelancer vergeleken met die van haar vriendin?
 
-**Docent:** Wie betaalt bij de freelancer het werkgeversdeel?
+**Cursist:** Ze is waarschijnlijk in totaal meer loongerelateerde premies verschuldigd, omdat ze zelf verantwoordelijk is voor zowel het werkgevers- als het werknemersdeel.
 
-**Leerling:** Niemand anders... hijzelf.
-
-**Docent:** Dus?
-
-**Leerling:** De freelancer betaalt beide delen. Daarom moet hij meer vragen.
+**Begeleider:** Precies – hetzelfde inkomen op papier, een wezenlijk andere fiscale werkelijkheid.
 
 ## Oefenquiz
 
-**1.** Waarom betalen zelfstandigen beide delen van loongerelateerde heffingen?
+**Vraag 1.** Premies voor zelfstandigen dekken meestal:
 
-- A) Omdat ze meer verdienen
-- B) Als straf
-- C) Omdat ze geen inkomstenbelasting betalen
-- D) Omdat ze werknemer en baas tegelijk zijn
+A) Alleen het werknemersdeel van loongerelateerde premies
+B) Zowel het werkgevers- als het werknemersdeel van loongerelateerde premies
+C) Alleen omzetbelasting
+D) Alleen onroerendgoedbelasting
 
-**2.** Vervangt deze heffing de inkomstenbelasting?
+**Vraag 2.** Waarom is een zelfstandige vaak meer loongerelateerde premies verschuldigd dan een vergelijkbare werknemer?
 
-- A) Nee, het komt er bovenop
-- B) Ja
-- C) Alleen in even jaren
-- D) Alleen voor grote bedrijven
+A) Hij verdient automatisch meer
+B) Hij moet het werkgevers- en het werknemersdeel zelf betalen
+C) Zelfstandigen worden tegen willekeurige tarieven belast
+D) Dat is niet zo – de bedragen zijn altijd gelijk
 
-**3.** Wat is de praktische les voor het bepalen van je prijs?
+**Vraag 3.** Wat is een praktisch gevolg van het onderschatten van de premies voor zelfstandigen?
 
-- A) Hetzelfde vragen als wat een werknemer verdient
-- B) Belasting en extra kosten in de prijs meenemen
-- C) Zo weinig mogelijk vragen
-- D) De prijs nooit veranderen
+A) Geen gevolg
+B) Een vervelende verrassing of een tekort bij de aangifte
+C) Een automatische teruggave
+D) Een lagere aangiftestatus
 
-**4.** Hoe heet deze heffing in de VS?
+**Vraag 4.** Wat is de aanbevolen manier om deze verrassing te voorkomen?
 
-- A) Sales tax
-- B) Property tax
-- C) Self-employment tax
-- D) Gift tax
+A) Het negeren tot de aangifte
+B) De werkelijke last vooraf begrijpen en dienovereenkomstig geld opzijzetten
+C) Alle factuurinkomsten meteen uitgeven
+D) Elke vorm van zelfstandig werk vermijden
 
 ## Antwoordsleutel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. D) Omdat ze werknemer en baas tegelijk zijn** — Er is geen andere werkgever die het tweede deel betaalt.
+**1.** Premies voor zelfstandigen zijn in feite het mechanisme om beide helften van loongerelateerde premies bij één persoon te innen.
 
-**2. A) Nee, het komt er bovenop** — Het komt bovenop de inkomstenbelasting.
+**2.** Wie tegelijk werkgever en werknemer is, staat voor beide delen aan de lat.
 
-**3. B) Belasting en extra kosten in de prijs meenemen** — De prijs moet deze extra kosten dekken.
+**3.** Deze kosten onderschatten is een veelvoorkomende valkuil die tot een hogere rekening leidt dan verwacht.
 
-**4. C) Self-employment tax** — Self-employment tax is de Amerikaanse naam.
+**4.** Vooraf bewust zijn en sparen, in plaats van achteraf reageren, is de praktische bescherming.
 
 ## Belangrijkste punten
 
-- Een zelfstandige is werknemer en baas tegelijk
-- Daarom betaalt hij beide delen, bovenop de inkomstenbelasting
-- Neem deze kosten mee in de prijs van je diensten
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Zelfstandigen betalen vaak zowel het werkgevers- als het werknemersdeel van loongerelateerde premies.
+- Inkomen als zelfstandige heeft daardoor een wezenlijk andere last dan een vergelijkbaar salaris.
+- Dit is een van de meest onderschatte kosten van zelfstandig werken.
+- Vooruit plannen en geld opzijzetten voorkomt een vervelende verrassing bij de aangifte.

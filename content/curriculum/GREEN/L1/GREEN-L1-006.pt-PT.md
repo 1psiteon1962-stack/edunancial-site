@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 6
 locale: pt-PT
-title: "Imposto Sobre a Propriedade: Tributar o Que Possuis"
-summary: "Uma introdução ao imposto sobre a propriedade, normalmente aplicado a imóveis, e à forma como financia serviços locais."
+title: "Imposto sobre o património: tributar aquilo que possui"
+summary: "Uma introdução ao imposto sobre o património, aplicado sobretudo a imóveis, e à forma como financia os serviços locais."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre a Propriedade: Tributar o Que Possuis
+# Imposto sobre o património: tributar aquilo que possui
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Explicar a que se aplica normalmente o imposto sobre o património.
+- Identificar quem costuma cobrar o imposto sobre o património.
+- Descrever serviços locais comuns financiados pelo imposto sobre o património.
 
-- Explicar o que é o imposto sobre a propriedade
-- Perceber como o valor do imóvel afeta o imposto
-- Relacionar este imposto com o financiamento de serviços locais
+## Conteúdo principal
 
-## Conteúdo Principal
+O imposto sobre o património é um imposto sobre aquilo que possui, na maioria das vezes imóveis: terrenos e edifícios. Ao contrário do imposto sobre o rendimento ou sobre as vendas, que estão ligados a um acontecimento (ganhar ou comprar), o imposto sobre o património é normalmente cobrado de forma contínua, muitas vezes todos os anos, simplesmente porque continua a ser dono do bem.
 
-O imposto sobre a propriedade é cobrado a quem é dono de um bem, sobretudo imóveis como casas, terrenos e prédios. Normalmente paga-se todos os anos, enquanto fores o dono. Em Portugal, o exemplo mais conhecido é o IMI.
+As autarquias locais (municípios ou entidades regionais semelhantes) são quem cobra mais frequentemente este imposto, que financia muitas vezes serviços de proximidade: escolas públicas, polícia municipal e bombeiros, bibliotecas e manutenção das ruas. Como se baseia na propriedade e não numa transação, o imposto continua a ser devido quer o rendimento do proprietário mude ou não nesse ano, e é em parte por isso que pode ser um ponto importante de planeamento para quem tem imóveis. (Em Portugal, o imposto municipal sobre imóveis é o IMI, com taxas fixadas por cada município dentro de limites legais; as regras mudam.)
 
-O valor do imposto costuma depender do valor atribuído ao imóvel. É feita uma avaliação e aplica-se uma taxa sobre esse valor. Se o imóvel vale mais, o imposto tende a ser mais alto.
+## Exemplo prático
 
-Este imposto fica geralmente para o município e ajuda a pagar escolas, ruas, jardins e serviços de emergência da zona. Para quem investe em imóveis, é um custo fixo que tem de entrar nas contas, mesmo que o imóvel esteja vazio.
+**Pergunta:** Uma família é dona de uma casa, mas teve um ano difícil, com rendimentos mais baixos. O imposto sobre o património muda porque o rendimento desceu?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Diria que fica igual, porque diz respeito à casa e não ao salário.
 
-## Exemplo Prático
+**Guia:** Certo. O que é que isso diz sobre a natureza do imposto sobre o património em comparação com o imposto sobre o rendimento?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Está ligado à propriedade e não a quanto se ganha nesse ano, por isso não se ajusta automaticamente ao rendimento.
 
-**Professor:** A Ana comprou uma casa avaliada em $200.000. No nosso exemplo, o imposto local é de 1% ao ano. Quanto paga?
+**Guia:** Exatamente: é uma distinção importante para o planeamento.
 
-**Aluno:** $2.000 por ano.
+## Teste de prática
 
-**Professor:** Se arrendar a casa, esse custo desaparece?
+**Pergunta 1.** O imposto sobre o património aplica-se mais frequentemente a:
 
-**Aluno:** Não. Continua a ser a dona, por isso continua a pagar.
+A) Salários
+B) Imóveis
+C) Compras no comércio
+D) Ganhos de investimentos
 
-**Professor:** E se a casa ficar vazia seis meses?
+**Pergunta 2.** O imposto sobre o património é normalmente cobrado por:
 
-**Aluno:** Paga na mesma. Então tem de incluir isso no cálculo da renda.
+A) Apenas o Estado central
+B) As autarquias locais
+C) Nenhuma entidade pública
+D) Apenas os bancos
 
-## Questionário de Treino
+**Pergunta 3.** O imposto sobre o património financia normalmente:
 
-**1.** O imposto sobre a propriedade é cobrado a quem...
+A) Apenas a defesa nacional
+B) Serviços locais como escolas e bombeiros
+C) Nada em específico
+D) Apenas as autoestradas nacionais
 
-- A) Compra algo numa loja
-- B) Aluga um carro
-- C) É dono do imóvel
-- D) Recebe um salário
+**Pergunta 4.** O imposto sobre o património diminui automaticamente se o rendimento do proprietário descer?
 
-**2.** O valor deste imposto costuma depender...
-
-- A) Do salário do dono
-- B) Da idade do dono
-- C) Do número de moradores
-- D) Do valor atribuído ao imóvel
-
-**3.** Para onde costuma ir este imposto?
-
-- A) Para o município e serviços da zona
-- B) Para o banco que financiou o imóvel
-- C) Para o vizinho
-- D) Para o agente imobiliário
-
-**4.** Se um imóvel de investimento ficar vazio, o imposto...
-
-- A) É cancelado
-- B) Continua a ser devido
-- C) É pago pelo inquilino anterior
-- D) Cai para metade automaticamente
+A) Sim, sempre
+B) Não, está ligado à propriedade e não ao rendimento
+C) Apenas para as empresas
+D) Apenas nos países ricos
 
 ## Chave de Respostas
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) É dono do imóvel** — Incide sobre a posse do bem.
+**1.** Os imóveis são o alvo mais comum do imposto sobre o património, embora alguns locais também tributem outros bens relevantes.
 
-**2. D) Do valor atribuído ao imóvel** — Geralmente aplica-se uma taxa ao valor avaliado.
+**2.** As autarquias locais gerem e cobram normalmente o imposto sobre o património, porque este financia serviços locais.
 
-**3. A) Para o município e serviços da zona** — Costuma financiar serviços locais como escolas e ruas.
+**3.** As escolas, a polícia, os bombeiros e as ruas são muitas vezes financiados, total ou parcialmente, pelo imposto sobre o património.
 
-**4. B) Continua a ser devido** — A obrigação vem da posse, não do uso.
+**4.** Como está ligado à propriedade e não ao rendimento, o imposto sobre o património não acompanha automaticamente os ganhos de uma pessoa.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Quem possui o imóvel paga o imposto, geralmente todos os anos
-- O valor costuma depender da avaliação do imóvel
-- É um custo fixo importante para quem investe em imóveis
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- O imposto sobre o património é cobrado sobre aquilo que se possui, na maioria das vezes imóveis.
+- É normalmente cobrado pelas autarquias locais.
+- Financia muitas vezes escolas, segurança pública e infraestruturas locais.
+- Como depende da propriedade, não diminui automaticamente quando o rendimento desce: um ponto-chave de planeamento para os proprietários.

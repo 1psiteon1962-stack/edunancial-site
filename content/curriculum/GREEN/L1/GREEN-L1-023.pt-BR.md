@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 23
 locale: pt-BR
-title: "Imposto Sobre Trabalho Autônomo: O Que Freelancers e Donos de Negócio Devem"
-summary: "Parte da lição sobre imposto da folha para explicar por que autônomos pagam tanto a parte do empregador quanto a do empregado nos impostos desse tipo."
+title: "Contribuições do autônomo: o que freelancers e donos de negócio devem"
+summary: "Parte da lição sobre tributos sobre a folha para explicar por que autônomos muitas vezes pagam tanto a parte do empregador quanto a do empregado."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre Trabalho Autônomo: O Que Freelancers e Donos de Negócio Devem
+# Contribuições do autônomo: o que freelancers e donos de negócio devem
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Relembrar como os tributos sobre a folha são divididos entre empregador e empregado.
+- Explicar por que um autônomo muitas vezes deve as duas partes.
+- Reconhecer isso como um ponto-chave de planejamento para freelancers e pequenos empresários.
 
-- Relembrar como o imposto sobre a folha é dividido
-- Explicar por que o autônomo paga as duas partes
-- Incluir esse custo no preço dos serviços
+## Conteúdo principal
 
-## Conteúdo Principal
+Você já viu que os tributos sobre a folha muitas vezes são divididos entre empregador e empregado: uma parte é descontada do salário e outra é paga separadamente pelo empregador. Quando você é autônomo, na prática você é as duas coisas: empregador e empregado. Muitos sistemas levam isso em conta exigindo que o autônomo pague uma versão desses tributos que cobre as duas partes; nos EUA, isso se chama "self-employment tax". (No Brasil, por exemplo, o contribuinte individual recolhe a própria contribuição ao INSS, e o MEI paga um valor mensal fixo que inclui a previdência; as regras e alíquotas mudam.)
 
-Lembra que, para o empregado, o imposto sobre a folha costuma ser dividido entre ele e o empregador? Quando você trabalha por conta própria, você é as duas coisas ao mesmo tempo: o trabalhador e o patrão.
+Esse é um dos custos mais subestimados de trabalhar por conta própria. Um freelancer iniciante que compara o total das suas notas com o contracheque de um empregado com salário equivalente pode subestimar muito a sua carga real, se esquecer que, como empresa de uma pessoa só, ele cobre os dois lados desse tributo. Entender isso com antecedência, e separar dinheiro de acordo, evita uma surpresa desagradável na hora de declarar.
 
-Por isso, em muitos sistemas, o autônomo paga as duas partes. Nos EUA, isso se chama self-employment tax. Esse custo vem além do imposto de renda, e muita gente que começa a trabalhar por conta própria se surpreende com ele.
+## Exemplo prático
 
-A lição prática é: ao definir quanto cobrar, o autônomo precisa incluir esse custo. Cobrar o mesmo valor por hora que um empregado ganha costuma deixar o autônomo com menos dinheiro no fim, já que ele também paga impostos extras, equipamentos e não tem benefícios pagos pela empresa.
+**Pergunta:** Uma freelancer compara seus US$ 80.000 anuais em notas com o emprego de uma amiga com salário de US$ 80.000 e supõe que a situação tributária das duas é basicamente igual. É mesmo?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Provavelmente não, porque o empregador da amiga cobre automaticamente metade desses tributos.
 
-## Exemplo Prático
+**Guia:** O que isso significa para a carga real da freelancer em comparação com a da amiga?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Ela provavelmente deve mais no total, porque é responsável sozinha pela parte do empregador e pela do empregado.
 
-**Professor:** Um empregado e um freelancer ganham, ambos, $50.000 no ano. Quem paga mais imposto sobre a folha do próprio bolso?
+**Guia:** Exatamente: a mesma renda no papel, uma realidade tributária bem diferente.
 
-**Aluno:** O empregado?
+## Teste de prática
 
-**Professor:** Quem paga a parte do empregador no caso do freelancer?
+**Pergunta 1.** As contribuições do autônomo geralmente cobrem:
 
-**Aluno:** Ninguém mais... ele mesmo.
+A) Só a parte do empregado dos tributos sobre a folha
+B) A parte do empregador e a do empregado dos tributos sobre a folha
+C) Só o imposto sobre vendas
+D) Só o imposto sobre a propriedade
 
-**Professor:** Então?
+**Pergunta 2.** Por que um autônomo muitas vezes deve mais desses tributos do que um empregado equivalente?
 
-**Aluno:** O freelancer paga as duas partes. Por isso ele precisa cobrar mais.
+A) Ele ganha mais automaticamente
+B) Ele precisa cobrir sozinho a parte do empregador e a do empregado
+C) Autônomos são tributados com alíquotas aleatórias
+D) Não deve: os valores são sempre idênticos
 
-## Quiz de Prática
+**Pergunta 3.** Qual é uma consequência prática de subestimar as contribuições do autônomo?
 
-**1.** Por que o autônomo paga as duas partes do imposto tipo folha?
+A) Nenhuma consequência
+B) Uma surpresa desagradável ou falta de dinheiro na hora de declarar
+C) Uma restituição automática
+D) Uma situação na declaração mais baixa
 
-- A) Porque ganha mais
-- B) Por castigo
-- C) Porque não paga imposto de renda
-- D) Porque é trabalhador e patrão ao mesmo tempo
+**Pergunta 4.** Qual é a forma recomendada de evitar essa surpresa?
 
-**2.** Esse imposto substitui o imposto de renda?
-
-- A) Não, é um custo adicional
-- B) Sim
-- C) Só em anos pares
-- D) Só para grandes empresas
-
-**3.** Qual a lição prática para definir preços?
-
-- A) Cobrar o mesmo que um empregado ganha
-- B) Incluir impostos e custos extras no preço
-- C) Cobrar o mínimo possível
-- D) Nunca mudar o preço
-
-**4.** Nos EUA, esse imposto se chama...
-
-- A) Sales tax
-- B) Property tax
-- C) Self-employment tax
-- D) Gift tax
+A) Ignorar até a declaração
+B) Entender a carga real com antecedência e separar dinheiro de acordo
+C) Gastar imediatamente toda a renda das notas
+D) Evitar qualquer trabalho autônomo
 
 ## Gabarito
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Porque é trabalhador e patrão ao mesmo tempo** — Não existe outro empregador para pagar a outra parte.
+**1.** As contribuições do autônomo são, basicamente, o mecanismo para cobrar as duas partes desses tributos de uma única pessoa.
 
-**2. A) Não, é um custo adicional** — Ele vem além do imposto de renda.
+**2.** Ser ao mesmo tempo empregador e empregado significa responder pelas duas partes.
 
-**3. B) Incluir impostos e custos extras no preço** — O preço precisa cobrir esses custos adicionais.
+**3.** Subestimar esse custo é uma armadilha comum que leva a uma conta maior do que o esperado.
 
-**4. C) Self-employment tax** — Self-employment tax é o nome usado nos EUA.
+**4.** A defesa prática é a consciência antecipada e a reserva de dinheiro, em vez de reagir depois.
 
-## Principais Lições
+## Pontos-chave
 
-- O autônomo é trabalhador e patrão ao mesmo tempo
-- Por isso paga as duas partes, além do imposto de renda
-- Inclua esse custo no preço dos seus serviços
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Os autônomos muitas vezes devem a parte do empregador e a do empregado desses tributos.
+- Por isso, a renda de autônomo tem uma carga bem diferente da de um salário equivalente.
+- Esse é um dos custos mais subestimados de trabalhar por conta própria.
+- Planejar com antecedência e separar dinheiro evita uma surpresa desagradável na hora de declarar.

@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 35
 locale: pt-PT
-title: "Traditional vs. Roth: Pagar Imposto Agora ou Mais Tarde"
-summary: "Explica o conceito geral por trás de duas estruturas comuns de contas de reforma — uma tributada à saída, outra à entrada — usando designações genéricas."
+title: "Tradicional ou Roth: pagar imposto agora ou mais tarde"
+summary: "Explica o conceito geral por detrás de duas estruturas comuns de contas de reforma, uma tributada na entrada e outra na saída, com designações genéricas em vez dos nomes de programas de um país."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Traditional vs. Roth: Pagar Imposto Agora ou Mais Tarde
+# Tradicional ou Roth: pagar imposto agora ou mais tarde
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Explicar a escolha entre "pagar agora ou pagar mais tarde" presente em muitos sistemas de reforma.
+- Identificar a troca básica entre as duas abordagens.
+- Reconhecer que a melhor escolha pode depender das taxas futuras esperadas.
 
-- Explicar a diferença entre pagar imposto à entrada e à saída
-- Relacionar a escolha com a taxa esperada no futuro
-- Reconhecer os nomes "Traditional" e "Roth" usados nos EUA
+## Conteúdo principal
 
-## Conteúdo Principal
+Muitos sistemas de contas de reforma oferecem a escolha entre duas estruturas, muitas vezes designadas genericamente por estilo "tradicional" e estilo "Roth" (pelos nomes usados nos EUA), quaisquer que sejam os nomes locais. Numa conta de estilo tradicional, as contribuições reduzem normalmente o rendimento tributável agora, mas os levantamentos na reforma são tributados. Numa conta de estilo Roth, as contribuições são feitas com dinheiro já tributado, mas os levantamentos na reforma são normalmente isentos. (Em Portugal, os produtos de poupança-reforma combinam benefícios à entrada e regras próprias de tributação à saída; as regras mudam.)
 
-Há duas formas comuns de dar benefícios fiscais à poupança para a reforma. Na primeira, o dinheiro entra sem imposto agora, e pagas imposto quando o levantares no futuro. Nos EUA, chama-se conta "Traditional".
+A troca central é o momento: pagar o imposto agora, à sua taxa atual, ou mais tarde, à sua taxa futura. Se espera que a sua taxa na reforma seja mais baixa do que hoje, a abordagem tradicional muitas vezes compensa mais. Se espera uma taxa semelhante ou mais alta na reforma, o que é comum em jovens no início da carreira com margem para crescer, a abordagem Roth pode compensar mais. Não há uma resposta certa para todos: depende de pressupostos sobre o futuro, e é precisamente por isso que esta é uma área comum para pedir aconselhamento profissional em vez de adivinhar.
 
-Na segunda, depositas dinheiro que já foi tributado, mas os levantamentos futuros, cumprindo as regras, saem sem imposto. Nos EUA, chama-se conta "Roth".
+## Exemplo prático
 
-Qual é melhor? Depende, em grande parte, de uma pergunta: a tua taxa vai ser maior agora ou na reforma? Se esperas pagar uma taxa mais baixa no futuro, adiar o imposto pode compensar. Se esperas uma taxa mais alta no futuro, pagar agora pode ser melhor. Ninguém sabe o futuro com certeza, por isso muita gente usa as duas.
+**Pergunta:** Uma jovem de 22 anos, em início de carreira, está a decidir entre uma conta de estilo tradicional e uma de estilo Roth. Que raciocínio geral deve fazer?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, deve pensar se a sua taxa atual é provavelmente mais baixa ou mais alta do que será mais tarde na carreira.
 
-## Exemplo Prático
+**Guia:** Estando no início da carreira, qual é um pressuposto razoável sobre o seu rendimento e a sua taxa futuros?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** O rendimento dela, e provavelmente a taxa, devem subir ao longo do tempo; por isso, pagar o imposto agora a uma taxa mais baixa, através de uma conta de estilo Roth, pode fazer sentido.
 
-**Professor:** A Vitória tem 22 anos, ganha pouco e espera ganhar bem mais no futuro. Quer saber: pagar imposto agora ou mais tarde?
+**Guia:** É um raciocínio razoável, embora continue a ser um pressuposto sobre o futuro, e não uma garantia; por isso vale a pena falar com um profissional sobre um plano concreto.
 
-**Aluno:** Se ganha pouco agora, a taxa dela é baixa.
+## Teste de prática
 
-**Professor:** E no futuro?
+**Pergunta 1.** Numa conta de estilo tradicional, as contribuições normalmente:
 
-**Aluno:** Provavelmente mais alta. Então pagar agora, ao estilo Roth, pode fazer sentido.
+A) São tributadas duas vezes
+B) Reduzem o rendimento tributável agora, com levantamentos tributados mais tarde
+C) Nunca são tributadas
+D) Não têm efeito nos impostos
 
-**Professor:** E alguém no auge da carreira, que espera ganhar menos na reforma?
+**Pergunta 2.** Numa conta de estilo Roth, as contribuições são normalmente:
 
-**Aluno:** Pode preferir adiar o imposto, ao estilo Traditional.
+A) Feitas com dinheiro já tributado, com levantamentos isentos mais tarde
+B) Deduzidas ao rendimento tributável atual
+C) Tributadas duas vezes
+D) Proibidas
 
-## Questionário de Treino
+**Pergunta 3.** A troca central entre as duas abordagens é:
 
-**1.** Na conta "Traditional" (EUA), quando é pago o imposto?
+A) Não há troca
+B) Pagar o imposto agora ou pagá-lo mais tarde
+C) Uma das abordagens nunca envolve impostos
+D) Apenas as empresas podem escolher
 
-- A) À entrada
-- B) Nunca
-- C) Todos os meses
-- D) À saída
+**Pergunta 4.** Que abordagem tende a favorecer quem espera uma taxa mais baixa na reforma do que hoje?
 
-**2.** Na conta "Roth" (EUA), quando é pago o imposto?
-
-- A) À entrada, e os levantamentos segundo as regras saem sem imposto
-- B) Só à saída
-- C) Duas vezes
-- D) Nunca, em momento algum
-
-**3.** Que pergunta ajuda a escolher entre as duas?
-
-- A) Qual é o banco mais bonito?
-- B) A minha taxa será maior agora ou no futuro?
-- C) Quantos filhos vou ter?
-- D) De que cor é o cartão?
-
-**4.** Porque é que muitas pessoas usam as duas?
-
-- A) Porque é obrigatório
-- B) Porque uma anula a outra
-- C) Porque ninguém sabe o futuro com certeza
-- D) Por acaso
+A) Estilo Roth
+B) Estilo tradicional
+C) Nenhuma faz diferença
+D) Apenas contas baseadas no imposto sobre as vendas
 
 ## Chave de Respostas
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) À saída** — O imposto é adiado até ao levantamento.
+**1.** A estrutura tradicional adia o imposto, oferecendo um benefício hoje à custa do imposto devido nos levantamentos futuros.
 
-**2. A) À entrada, e os levantamentos segundo as regras saem sem imposto** — Depositas dinheiro já tributado.
+**2.** A estrutura Roth antecipa o imposto, pelo que os levantamentos futuros que cumprem os requisitos geralmente não são tributados.
 
-**3. B) A minha taxa será maior agora ou no futuro?** — A taxa esperada é o fator central.
+**3.** No fundo, é uma decisão de momento sobre quando prefere pagar o imposto, com base em pressupostos sobre as taxas futuras.
 
-**4. C) Porque ninguém sabe o futuro com certeza** — Diversificar o momento do imposto reduz o risco de errar a previsão.
+**4.** Se a taxa de hoje for mais alta do que a esperada no futuro, adiar o imposto (estilo tradicional) é muitas vezes mais vantajoso.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Traditional: imposto adiado para o levantamento
-- Roth: imposto pago agora, levantamentos futuros sem imposto (cumprindo as regras)
-- A escolha depende da taxa esperada agora vs. no futuro
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- As contas de estilo tradicional adiam o imposto para o levantamento; as de estilo Roth tributam as contribuições agora, e não os levantamentos.
+- A troca central é pagar o imposto agora ou mais tarde.
+- A melhor escolha depende de pressupostos sobre a sua taxa atual em comparação com a futura.
+- Esta é uma área comum e legítima para pedir aconselhamento profissional em vez de adivinhar.

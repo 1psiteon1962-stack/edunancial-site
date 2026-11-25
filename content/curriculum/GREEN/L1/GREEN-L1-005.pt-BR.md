@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 5
 locale: pt-BR
-title: "Imposto Sobre Vendas: Tributando o Que Você Compra"
-summary: "Como funcionam os impostos sobre consumo, quem os cobra e por que o comprador geralmente os vê somados no caixa."
+title: "Imposto sobre vendas: tributar o que você compra"
+summary: "Como funcionam os impostos sobre o consumo, quem os cobra e por que o comprador geralmente os vê somados no caixa."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre Vendas: Tributando o Que Você Compra
+# Imposto sobre vendas: tributar o que você compra
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar como o imposto sobre vendas costuma ser cobrado.
+- Identificar a diferença entre o vendedor que recolhe o imposto e o vendedor que deve o imposto.
+- Reconhecer que as alíquotas do imposto sobre vendas variam conforme o local.
 
-- Explicar o que é um imposto sobre consumo
-- Entender o papel do vendedor como cobrador
-- Calcular o preço final de uma compra com imposto
+## Conteúdo principal
 
-## Conteúdo Principal
+O imposto sobre vendas é acrescentado ao preço de bens ou serviços no momento da compra. Na maioria dos sistemas, o vendedor é responsável por cobrar o imposto do comprador e depois repassá-lo ao governo: o vendedor atua como arrecadador, e não como quem arca com o custo no fim. Normalmente é o comprador quem de fato paga o imposto, mesmo que a empresa cuide da papelada. (No Brasil, tributos sobre o consumo como ICMS, ISS e os que os substituem com a reforma tributária costumam vir embutidos no preço; as regras estão mudando.)
 
-O imposto sobre vendas, ou sobre consumo, é cobrado quando você compra um produto ou serviço. Quem paga de verdade é o comprador. Mas quem recolhe o dinheiro é o vendedor, que depois repassa o valor ao governo.
+Alíquotas e regras variam enormemente conforme o local, às vezes até entre cidades vizinhas do mesmo país. Algumas categorias de bens, como alimentos ou remédios, costumam ter alíquota menor ou ser totalmente isentas, dependendo da política local. Por isso o imposto sobre vendas também é chamado de imposto sobre o consumo: ele está ligado ao ato de gastar, e não à renda ou à propriedade.
 
-Em alguns lugares, o imposto aparece somado no caixa, depois do preço da etiqueta. Em outros, ele já vem embutido no preço. Alguns países usam um sistema chamado imposto sobre valor agregado, que é cobrado em várias etapas da cadeia de produção.
+## Exemplo prático
 
-Esse tipo de imposto afeta todo mundo que compra, independente de quanto ganha. Por isso, ele pesa mais no orçamento de quem ganha menos, já que essas pessoas gastam uma parte maior da renda em compras. Vamos voltar a essa ideia na lição sobre impostos regressivos.
+**Pergunta:** Um lojista cobra imposto sobre vendas dos clientes o mês inteiro. De quem é esse dinheiro, e o que ele deve fazer com ele?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Parece dinheiro da loja, já que entrou pelo caixa.
 
-## Exemplo Prático
+**Guia:** Mas quem pagou de verdade?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Os clientes; a loja só somou ao preço e cobrou.
 
-**Professor:** A etiqueta de uma mochila diz $50. O imposto sobre vendas no local é de 8%, em nosso exemplo. Quanto você paga no caixa?
+**Guia:** Isso mesmo, e é por isso que esse dinheiro não é de fato receita da loja: é o pagamento de imposto dos clientes, passando pela loja a caminho do governo.
 
-**Aluno:** 8% de $50 são $4. Então $54.
+## Teste de prática
 
-**Professor:** E para quem vão esses $4?
+**Pergunta 1.** O imposto sobre vendas geralmente é cobrado:
 
-**Aluno:** A loja recebe, mas precisa repassar ao governo.
+A) Pelo governo, diretamente dos compradores
+B) Pelo vendedor, que depois o repassa ao governo
+C) Por ninguém: é opcional
+D) Só por lojas on-line
 
-**Professor:** Exato. A loja é só a cobradora.
+**Pergunta 2.** Quem normalmente arca com o custo real do imposto sobre vendas?
 
-## Quiz de Prática
+A) O vendedor
+B) O comprador
+C) O governo
+D) Ninguém
 
-**1.** Quem paga de fato o imposto sobre vendas?
+**Pergunta 3.** As alíquotas do imposto sobre vendas:
 
-- A) O vendedor
-- B) O comprador
-- C) O banco
-- D) O fabricante sozinho
+A) São iguais em todo lugar
+B) Podem variar bastante conforme o local
+C) Nunca se aplicam a serviços
+D) Só existem em um país
 
-**2.** Qual o papel do vendedor?
+**Pergunta 4.** Alimentos e remédios às vezes:
 
-- A) Fica com o imposto como lucro
-- B) Decide a alíquota
-- C) Recolhe o imposto e repassa ao governo
-- D) Não tem nenhum papel
-
-**3.** Um produto custa $100 e o imposto é de 10% (exemplo). Qual o preço final?
-
-- A) $100
-- B) $90
-- C) $120
-- D) $110
-
-**4.** Por que o imposto sobre consumo pesa mais para quem ganha menos?
-
-- A) Porque gastam uma parte maior da renda em compras
-- B) Porque pagam uma alíquota maior
-- C) Porque são proibidos de comprar
-- D) Porque não pagam imposto de renda
+A) São tributados com alíquota maior que artigos de luxo
+B) São tributados com alíquota menor ou isentos
+C) São proibidos de ser vendidos
+D) Não seguem nenhuma regra tributária
 
 ## Gabarito
 
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. B) O comprador** — O comprador paga; o vendedor só recolhe e repassa.
+**1.** O vendedor geralmente atua como intermediário, cobrando o imposto e repassando-o, em vez de ficar com ele como receita.
 
-**2. C) Recolhe o imposto e repassa ao governo** — O vendedor atua como cobrador em nome do governo.
+**2.** Mesmo que a empresa cuide da transação, o imposto está no pagamento do comprador.
 
-**3. D) $110** — $100 + $10 de imposto = $110.
+**3.** Em muitos sistemas, as alíquotas são definidas em nível local ou regional e podem mudar de uma cidade ou de um estado para outro.
 
-**4. A) Porque gastam uma parte maior da renda em compras** — A alíquota é a mesma, mas representa uma fatia maior da renda de quem ganha menos.
+**4.** Muitos governos isentam ou reduzem o imposto sobre itens de primeira necessidade por escolha de política pública.
 
-## Principais Lições
+## Pontos-chave
 
-- O comprador paga e o vendedor recolhe
-- O imposto pode vir somado no caixa ou embutido no preço
-- Ele pesa mais, proporcionalmente, para quem ganha menos
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- O imposto sobre vendas é cobrado pelo vendedor na compra e repassado ao governo.
+- Quem arca com o custo do imposto no fim é o comprador, e não o vendedor.
+- As alíquotas variam muito conforme o local, às vezes até em nível local.
+- Itens de primeira necessidade costumam ser tributados de forma diferente de outros bens, por escolha de política pública.

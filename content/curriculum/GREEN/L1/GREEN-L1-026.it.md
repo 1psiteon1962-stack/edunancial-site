@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-026
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 26
-title: "Nozioni di base sulla deduzione per l'ufficio in casa"
-source_title: "Home Office Deduction Basics"
-description: "Introduce il concetto di dedurre una parte delle spese di casa quando una parte di essa è usata per l'attività, con attenzione alla logica principale dei requisiti."
-slug: home-office-deduction-basics
-seo_title: "Nozioni di base sulla deduzione per l'ufficio in casa | Edunancial"
-meta_description: "Introduce il concetto di dedurre una parte delle spese di casa quando una parte di essa è usata per l'attività, con attenzione alla logica principale dei requisiti."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 26
-summary: "Introduce il concetto di dedurre una parte delle spese di casa quando una parte di essa è usata per l'attività, con attenzione alla logica principale dei requisiti."
+locale: it
+title: "Le basi della deduzione per l'ufficio in casa"
+summary: "Presenta il concetto di dedurre una parte delle spese della casa quando una parte dell'abitazione è usata per l'attività, con attenzione alla logica di fondo dei requisiti."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-026: Nozioni di base sulla deduzione per l'ufficio in casa
+# Le basi della deduzione per l'ufficio in casa
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare l'idea della deduzione per l'ufficio in casa
-- Capire la logica dell'uso regolare ed esclusivo
-- Calcolare una semplice proporzione di superficie
+- Spiegare la logica generale della deduzione per l'ufficio in casa.
+- Riconoscere il principio comune dei requisiti (uso regolare ed esclusivo).
+- Riconoscere perché questa deduzione richiede una documentazione accurata.
 
 ## Contenuto principale
 
-Molte persone lavorano da casa. Alcuni sistemi fiscali permettono di dedurre una parte delle spese di casa, come affitto, energia e internet, quando una parte di essa è usata per l'attività.
+Quando una parte della casa è usata in modo regolare ed esclusivo per l'attività, molti sistemi permettono di dedurre una parte delle spese legate alla casa, come affitto, utenze o una parte degli interessi del mutuo, in proporzione a quanta parte della casa è usata per l'attività. L'idea centrale dei requisiti, nella maggior parte dei sistemi, è l'"uso regolare ed esclusivo": lo spazio deve essere usato in modo costante per l'attività, e in genere solo per quella, non come stanza degli ospiti che ogni tanto fa da ufficio. (In Italia, per chi ha partita IVA, le spese per un immobile a uso promiscuo sono di norma deducibili solo in parte e secondo regole specifiche, che cambiano.)
 
-La logica più comune è: lo spazio deve essere usato in modo regolare e, in molti casi, esclusivo per l'attività. Un tavolo in soggiorno dove la famiglia mangia e guarda la TV di solito non rientra. Una stanza usata solo come ufficio ha più possibilità.
+Questa deduzione è preziosa, ma in alcuni sistemi fiscali è stata storicamente un'area di controlli più attenti, proprio perché il confine tra uso personale e uso professionale della casa può diventare sfumato. Per questo è un ottimo esempio concreto del perché la lezione precedente sulla conservazione dei documenti sia importante: una documentazione chiara dell'uso esclusivamente professionale dello spazio, e di come è stata calcolata la quota deducibile, è ciò che rende difendibile questa deduzione.
 
-Un metodo comune è calcolare la proporzione di superficie. Se l'ufficio occupa il 10% della casa, circa il 10% di certe spese può essere considerato. Regole, metodi e limiti variano molto; è un'area in cui conviene parlare con un professionista.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un freelance lavora in una stanza degli ospiti che viene usata anche per gli ospiti due volte l'anno. Quella stanza rispetta chiaramente il criterio dell'"uso regolare ed esclusivo"?
 
-## Esempio pratico
+**Studente:** Sembra un caso limite, perché non è usata solo per il lavoro.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Che cosa renderebbe il caso più chiaro, in un senso o nell'altro?
 
-**Insegnante:** Fernando vive in un appartamento di 100 m² e usa una stanza di 15 m² solo come ufficio. Qual è la proporzione?
+**Studente:** Se la stanza fosse usata solo per lavorare, con una scrivania dedicata e nessun altro uso, rientrerebbe chiaramente. L'uso occasionale per gli ospiti rende le cose meno chiare.
 
-**Studente:** 15 su 100, quindi il 15%.
+**Guida:** Giusto: è proprio in queste zone grigie che documentazione e un allestimento chiaro e costante contano di più.
 
-**Insegnante:** Se l'affitto annuo è di $12.000, quale parte può essere collegata all'ufficio?
+## Quiz di esercitazione
 
-**Studente:** Il 15% di $12.000, cioè $1.800.
+**Domanda 1.** La deduzione per l'ufficio in casa si applica in genere quando uno spazio è:
 
-**Insegnante:** E se usasse il tavolo della cucina?
+A) Usato occasionalmente per qualsiasi cosa
+B) Usato in modo regolare ed esclusivo per l'attività
+C) Usato solo nel fine settimana
+D) Di proprietà, non in affitto
 
-**Studente:** Probabilmente non varrebbe, perché lo spazio non è esclusivo dell'attività.
+**Domanda 2.** Che cosa si può dedurre di solito, in proporzione, con questa regola?
 
-## Quiz di verifica
+A) Tutte le spese della casa, a prescindere dall'uso per l'attività
+B) Una parte di spese come affitto, utenze o interessi del mutuo, in base alla quota di uso professionale
+C) Niente che riguardi l'abitazione
+D) Solo l'acquisto di mobili
 
-**1.** La deduzione per l'ufficio in casa permette di...
+**Domanda 3.** Perché questa deduzione ha storicamente attirato controlli più attenti in alcuni sistemi?
 
-- A) Dedurre tutta la casa
-- B) Non pagare l'affitto
-- C) Dedurre una parte delle spese di casa usata per l'attività
-- D) Dedurre le vacanze
+A) È usata raramente
+B) Il confine tra uso personale e professionale può essere sfumato
+C) In realtà non esiste
+D) Si applica solo alle grandi aziende
 
-**2.** Quale spazio ha più possibilità di rientrare?
+**Domanda 4.** Quale lezione precedente è particolarmente importante per difendere questa deduzione?
 
-- A) Il tavolo da pranzo di famiglia
-- B) Il divano del soggiorno
-- C) Il balcone condiviso
-- D) Una stanza usata solo come ufficio
+A) Beni pubblici
+B) Conservazione dei documenti
+C) Imposta sulle vendite
+D) Stato ai fini della dichiarazione
 
-**3.** Ufficio di 20 m² in una casa di 200 m². Qual è la proporzione?
+## Soluzioni
 
-- A) 10%
-- B) 20%
-- C) 5%
-- D) 50%
-
-**4.** Sulle regole di questa deduzione...
-
-- A) Sono uguali in tutto il mondo
-- B) Variano molto; conviene consultare un professionista
-- C) Non esistono regole
-- D) Qualsiasi uso va bene
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) Dedurre una parte delle spese di casa usata per l'attività** — Conta solo la parte usata per l'attività.
+**1.** L'"uso regolare ed esclusivo" è il principio comune dei requisiti in molti sistemi che prevedono questa deduzione.
 
-**2. D) Una stanza usata solo come ufficio** — L'uso regolare ed esclusivo è la logica più comune.
+**2.** La deduzione è in genere proporzionale: è legata a quanta parte della casa è davvero usata per l'attività.
 
-**3. A) 10%** — 20 ÷ 200 = 10%.
+**3.** Poiché in casa l'uso personale e quello professionale possono sovrapporsi, quest'area riceve spesso controlli più attenti.
 
-**4. B) Variano molto; conviene consultare un professionista** — Metodi e limiti cambiano per Paese.
+**4.** Una documentazione solida è proprio ciò che rende difendibile la deduzione per l'ufficio in casa, se mai viene contestata.
 
 ## Punti chiave
 
-- Una parte delle spese di casa può essere deducibile se usata per l'attività
-- La logica comune è l'uso regolare ed esclusivo
-- Un metodo comune è la proporzione di superficie
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- La deduzione per l'ufficio in casa richiede in genere un uso regolare ed esclusivo dello spazio per l'attività.
+- La deduzione è proporzionale a quanta parte della casa è usata per l'attività.
+- Quest'area riceve spesso controlli più attenti perché uso personale e professionale possono confondersi.
+- Una documentazione accurata è essenziale per difendere questa deduzione.

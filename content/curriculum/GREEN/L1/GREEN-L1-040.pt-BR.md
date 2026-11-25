@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 40
 locale: pt-BR
-title: "Impostos Corporativos: Como as Empresas São Tributadas"
-summary: "Apresenta o conceito geral de uma corporação como entidade tributável separada de seus donos."
+title: "Impostos sobre empresas: como as empresas são tributadas"
+summary: "Apresenta o conceito geral de uma sociedade empresária como contribuinte separado dos seus donos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Impostos Corporativos: Como as Empresas São Tributadas
+# Impostos sobre empresas: como as empresas são tributadas
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar o conceito de sociedade como um contribuinte distinto.
+- Diferenciar o imposto no nível da empresa do imposto devido pelos seus donos.
+- Preparar o conceito de bitributação, tratado na próxima lição.
 
-- Explicar o que é uma corporação para fins fiscais
-- Entender que ela paga imposto sobre o próprio lucro
-- Preparar a base para o conceito de bitributação
+## Conteúdo principal
 
-## Conteúdo Principal
+Em muitos sistemas jurídicos e tributários, uma sociedade empresária é tratada como uma pessoa jurídica própria, separada das pessoas que são donas dela. Uma consequência disso é que a própria empresa pode estar sujeita a imposto sobre o seu lucro, independentemente de qualquer imposto que os seus donos (sócios ou acionistas) possam dever separadamente. (No Brasil, por exemplo, as empresas podem pagar IRPJ e CSLL sobre o lucro, conforme o regime, como lucro real ou presumido, ou recolher pelo Simples Nacional; as regras mudam.)
 
-Uma corporação, ou sociedade anônima, é uma empresa que a lei trata como uma "pessoa" separada dos seus donos. Ela pode ter bens, fazer contratos e, em muitos sistemas, pagar imposto em seu próprio nome.
+Essa é uma estrutura bem diferente da empresa individual, em que o negócio e o dono são a mesma pessoa para fins tributários e o lucro do negócio simplesmente vai para a declaração pessoal do dono. Uma sociedade, ao contrário, declara e paga primeiro o imposto sobre o próprio lucro, como contribuinte próprio. Isso prepara um conceito importante tratado na próxima lição: o que acontece quando esse mesmo lucro é depois distribuído aos sócios, que podem então dever o próprio imposto sobre ele, situação conhecida como bitributação.
 
-O imposto corporativo geralmente incide sobre o lucro da empresa: receitas menos despesas permitidas. A empresa declara e paga esse imposto, independente do que os acionistas fazem com o próprio dinheiro.
+## Exemplo prático
 
-Essa separação tem consequências importantes. Uma delas veremos na próxima lição: o mesmo lucro pode ser tributado duas vezes, uma na empresa e outra quando chega aos donos. A trilha PURPLE também estuda a corporação, mas pelo lado da responsabilidade legal.
+**Pergunta:** Um amigo não entende por que uma empresa pagaria os próprios impostos, separados dos das pessoas que são donas dela. Como você explicaria?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Pela lição, uma sociedade é tratada como uma pessoa jurídica separada, distinta dos seus donos.
 
-## Exemplo Prático
+**Guia:** Em que isso é diferente de uma empresa individual?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Na empresa individual, o negócio e o dono são a mesma coisa para fins tributários, então o lucro vai direto para a declaração pessoal do dono. Uma sociedade é tributada separadamente, como contribuinte próprio.
 
-**Professor:** A empresa Sol Ltda. teve receita de $500.000 e despesas de $380.000. Sobre qual valor ela provavelmente paga imposto corporativo?
+**Guia:** Exatamente: e essa separação é justamente o que prepara a questão da bitributação, que vem a seguir.
 
-**Aluno:** Sobre $120.000 de lucro.
+## Teste de prática
 
-**Professor:** Quem paga esse imposto: a empresa ou os donos?
+**Pergunta 1.** Uma sociedade empresária geralmente é tratada como:
 
-**Aluno:** A empresa, porque ela é uma entidade separada.
+A) A mesma pessoa que os seus donos
+B) Uma pessoa jurídica distinta, separada dos seus donos
+C) Não contribuinte
+D) Relevante só fora do sistema tributário
 
-**Professor:** E se depois a empresa passar parte do lucro aos donos?
+**Pergunta 2.** O lucro de uma sociedade pode estar sujeito a:
 
-**Aluno:** Acho que aí pode ter mais imposto... é o tema da próxima lição.
+A) Nenhum imposto
+B) Imposto sobre a renda no nível da empresa, independente do imposto dos donos
+C) Só imposto sobre vendas
+D) Só tributos sobre a folha
 
-## Quiz de Prática
+**Pergunta 3.** Em que uma empresa individual se diferencia de uma sociedade para fins tributários?
 
-**1.** Para fins fiscais, uma corporação é...
+A) Não há diferença
+B) Na empresa individual, o lucro vai direto para a declaração pessoal do dono; a sociedade é tributada separadamente primeiro
+C) Empresas individuais também pagam imposto de sociedade
+D) Sociedades nunca pagam imposto
 
-- A) Uma entidade separada dos donos
-- B) A mesma coisa que o dono
-- C) Um tipo de conta bancária
-- D) Um imposto
+**Pergunta 4.** Esta lição prepara qual conceito a seguir?
 
-**2.** O imposto corporativo geralmente incide sobre...
-
-- A) O salário dos donos
-- B) O lucro da empresa
-- C) As vendas brutas sempre
-- D) O número de funcionários
-
-**3.** Receita de $200.000 e despesas de $150.000. Lucro?
-
-- A) $350.000
-- B) $200.000
-- C) $50.000
-- D) $150.000
-
-**4.** Qual trilha estuda a corporação pelo lado da responsabilidade legal?
-
-- A) RED
-- B) WHITE
-- C) ORANGE
-- D) PURPLE
+A) Imposto sobre vendas
+B) Bitributação
+C) Imposto sobre a propriedade
+D) Retenção na folha
 
 ## Gabarito
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Uma entidade separada dos donos** — A lei a trata como uma pessoa separada.
+**1.** A separação jurídica entre uma sociedade e os seus donos é o conceito básico por trás da tributação no nível da empresa.
 
-**2. B) O lucro da empresa** — A base costuma ser o lucro.
+**2.** O imposto sobre empresas incide sobre o lucro da própria pessoa jurídica, separado de qualquer imposto que os donos devam pessoalmente.
 
-**3. C) $50.000** — $200.000 − $150.000 = $50.000.
+**3.** A empresa individual junta o negócio e o dono em um único contribuinte; a sociedade não.
 
-**4. D) PURPLE** — PURPLE é a trilha de Direito.
+**4.** Essa separação estrutural é exatamente o que cria a questão da bitributação explorada na próxima lição.
 
-## Principais Lições
+## Pontos-chave
 
-- A corporação é uma entidade separada dos donos
-- Ela paga imposto sobre o próprio lucro
-- Essa separação abre caminho para a bitributação
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Uma sociedade empresária geralmente é tratada como uma pessoa jurídica distinta dos seus donos.
+- Isso significa que a sociedade pode dever o próprio imposto, separado do imposto dos seus donos.
+- Isso é diferente da empresa individual, em que o lucro vai direto para a declaração pessoal do dono.
+- Essa estrutura prepara o conceito de bitributação, tratado a seguir.

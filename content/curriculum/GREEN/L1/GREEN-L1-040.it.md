@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-040
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 40
-title: "Imposte sulle società: come vengono tassate le imprese"
-source_title: "Corporate Taxes: How Businesses Are Taxed"
-description: "Introduce il concetto generale di una società di capitali come soggetto tassabile distinto dai suoi proprietari."
-slug: corporate-taxes-how-businesses-are-taxed
-seo_title: "Imposte sulle società: come vengono tassate le imprese | Edunancial"
-meta_description: "Introduce il concetto generale di una società di capitali come soggetto tassabile distinto dai suoi proprietari."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 40
-summary: "Introduce il concetto generale di una società di capitali come soggetto tassabile distinto dai suoi proprietari."
+locale: it
+title: "Le imposte sulle società: come vengono tassate le imprese"
+summary: "Presenta il concetto generale di società come soggetto d'imposta distinto dai suoi proprietari."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-040: Imposte sulle società: come vengono tassate le imprese
+# Le imposte sulle società: come vengono tassate le imprese
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare che cos'è una società di capitali ai fini fiscali
-- Capire che paga le imposte sul proprio utile
-- Preparare la base per il concetto di doppia imposizione
+- Spiegare il concetto di società come soggetto d'imposta distinto.
+- Distinguere l'imposta a livello della società dall'imposta dovuta dai suoi proprietari.
+- Preparare il concetto di doppia imposizione, trattato nella lezione successiva.
 
 ## Contenuto principale
 
-Una società di capitali, come una S.p.A. o negli Stati Uniti una corporation, è un'impresa che la legge tratta come una "persona" separata dai suoi proprietari. Può possedere beni, firmare contratti e, in molti sistemi, pagare le imposte a proprio nome.
+In molti sistemi giuridici e fiscali, una società di capitali è considerata un soggetto giuridico a sé, separato dalle persone che la possiedono. Una conseguenza è che la società stessa può essere soggetta a imposta sul reddito per i propri utili, indipendentemente dalle imposte che i suoi proprietari (soci o azionisti) potrebbero dovere separatamente. (In Italia, per esempio, le società di capitali pagano l'IRES sul reddito e l'IRAP; aliquote e regole cambiano.)
 
-L'imposta sulle società di solito si applica all'utile dell'impresa: ricavi meno spese ammesse. È la società a dichiarare e pagare questa imposta, indipendentemente da ciò che gli azionisti fanno con il proprio denaro.
+È una struttura molto diversa dalla ditta individuale, in cui impresa e titolare sono lo stesso soggetto ai fini fiscali e l'utile dell'impresa confluisce semplicemente nella dichiarazione personale del titolare. Una società, invece, dichiara e paga prima l'imposta sui propri utili, come contribuente autonomo. Questo prepara un concetto importante trattato nella lezione successiva: che cosa succede quando quello stesso utile viene poi distribuito ai soci, che potrebbero a loro volta dovere un'imposta su di esso, una situazione nota come doppia imposizione.
 
-Questa separazione ha conseguenze importanti. Una la vedremo nella prossima lezione: lo stesso utile può essere tassato due volte, una volta nella società e un'altra quando arriva ai proprietari. Anche il percorso PURPLE studia la società di capitali, ma dal lato della responsabilità legale.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un amico non capisce perché una società debba pagare le proprie imposte, separate da quelle delle persone che la possiedono. Come glielo spiegheresti?
 
-## Esempio pratico
+**Studente:** In base a questa lezione, una società è considerata un soggetto giuridico a sé, distinto dai suoi proprietari.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** In che cosa è diverso da una ditta individuale?
 
-**Insegnante:** La società Sole S.p.A. ha avuto ricavi per $500.000 e spese per $380.000. Su quale importo paga probabilmente l'imposta sulle società?
+**Studente:** Nella ditta individuale impresa e titolare sono la stessa cosa ai fini fiscali, quindi l'utile va direttamente nella dichiarazione personale del titolare. Una società è tassata separatamente, come contribuente autonomo.
 
-**Studente:** Su $120.000 di utile.
+**Guida:** Esatto: ed è proprio questa separazione a preparare il tema della doppia imposizione che vedremo dopo.
 
-**Insegnante:** Chi paga questa imposta: la società o i proprietari?
+## Quiz di esercitazione
 
-**Studente:** La società, perché è un soggetto separato.
+**Domanda 1.** Una società è considerata in genere:
 
-**Insegnante:** E se poi la società distribuisse parte dell'utile ai proprietari?
+A) Lo stesso soggetto dei suoi proprietari
+B) Un soggetto giuridico distinto, separato dai suoi proprietari
+C) Non soggetta affatto a imposta
+D) Rilevante solo fuori dal sistema fiscale
 
-**Studente:** Credo che allora ci possa essere altra imposta... è il tema della prossima lezione.
+**Domanda 2.** Gli utili di una società possono essere soggetti a:
 
-## Quiz di verifica
+A) Nessuna imposta
+B) Un'imposta sul reddito a livello della società, indipendente da quella dei proprietari
+C) Solo l'imposta sulle vendite
+D) Solo i contributi sugli stipendi
 
-**1.** Ai fini fiscali, una società di capitali è...
+**Domanda 3.** In che cosa una ditta individuale si distingue da una società ai fini fiscali?
 
-- A) Un soggetto separato dai proprietari
-- B) La stessa cosa del proprietario
-- C) Un tipo di conto bancario
-- D) Un'imposta
+A) Non c'è differenza
+B) Nella ditta individuale l'utile confluisce direttamente nella dichiarazione personale del titolare; una società è prima tassata separatamente
+C) Anche le ditte individuali pagano l'imposta sulle società
+D) Le società non pagano mai imposte
 
-**2.** L'imposta sulle società si applica di solito a...
+**Domanda 4.** Quale concetto successivo prepara questa lezione?
 
-- A) Lo stipendio dei proprietari
-- B) L'utile della società
-- C) Sempre le vendite lorde
-- D) Il numero di dipendenti
+A) Imposta sulle vendite
+B) Doppia imposizione
+C) Imposta sugli immobili
+D) Ritenute in busta paga
 
-**3.** Ricavi di $200.000 e spese di $150.000. Utile?
+## Soluzioni
 
-- A) $350.000
-- B) $200.000
-- C) $50.000
-- D) $150.000
-
-**4.** Quale percorso studia la società di capitali dal lato della responsabilità legale?
-
-- A) RED
-- B) WHITE
-- C) ORANGE
-- D) PURPLE
-
-## Chiave delle risposte
-
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. A) Un soggetto separato dai proprietari** — La legge la tratta come una persona separata.
+**1.** La separazione giuridica tra una società e i suoi proprietari è il concetto di base della tassazione a livello societario.
 
-**2. B) L'utile della società** — La base è di solito l'utile.
+**2.** L'imposta sulle società si applica agli utili propri del soggetto, separatamente dalle imposte che i proprietari devono personalmente.
 
-**3. C) $50.000** — $200.000 − $150.000 = $50.000.
+**3.** Nella ditta individuale impresa e titolare diventano un unico contribuente; nella società no.
 
-**4. D) PURPLE** — PURPLE è il percorso di Diritto.
+**4.** È proprio questa separazione strutturale a creare il tema della doppia imposizione esaminato nella lezione successiva.
 
 ## Punti chiave
 
-- La società di capitali è separata dai proprietari
-- Paga le imposte sul proprio utile
-- Questa separazione apre la strada alla doppia imposizione
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Una società è considerata in genere un soggetto giuridico distinto dai suoi proprietari.
+- Per questo una società può dovere la propria imposta sul reddito, separata da quella dei proprietari.
+- È diverso dalla ditta individuale, in cui l'utile confluisce direttamente nella dichiarazione personale del titolare.
+- Questa struttura prepara il concetto di doppia imposizione trattato nella lezione successiva.

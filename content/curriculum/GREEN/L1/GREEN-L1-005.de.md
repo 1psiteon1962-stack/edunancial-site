@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 5
 locale: de
-title: "Verkaufssteuer: Besteuerung dessen, was du kaufst"
-summary: "Wie Verbrauchsteuern funktionieren, wer sie einzieht und warum der Käufer sie meist an der Kasse aufgeschlagen sieht."
+title: "Umsatzsteuer: Besteuerung dessen, was Sie kaufen"
+summary: "Wie Verbrauchsteuern funktionieren, wer sie einzieht und warum Käufer sie meist an der Kasse aufgeschlagen sehen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Verkaufssteuer: Besteuerung dessen, was du kaufst
+# Umsatzsteuer: Besteuerung dessen, was Sie kaufen
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Erklären, was eine Verbrauchsteuer ist
-- Die Rolle des Verkäufers als Einzieher verstehen
-- Den Endpreis eines Einkaufs mit Steuer berechnen
+- Erklären, wie die Umsatz- bzw. Verkaufssteuer typischerweise eingezogen wird.
+- Den Unterschied erkennen zwischen einem Verkäufer, der die Steuer einzieht, und einem Verkäufer, der sie schuldet.
+- Erkennen, dass die Steuersätze je nach Ort unterschiedlich sind.
 
 ## Kerninhalt
 
-Die Verkaufs- oder Verbrauchsteuer fällt an, wenn du ein Produkt oder eine Dienstleistung kaufst. Wirklich bezahlt wird sie vom Käufer. Eingezogen wird sie aber vom Verkäufer, der den Betrag dann an den Staat weiterleitet.
+Die Umsatz- bzw. Verkaufssteuer wird beim Kauf auf den Preis von Waren oder Dienstleistungen aufgeschlagen. In den meisten Systemen ist der Verkäufer dafür verantwortlich, die Steuer beim Käufer einzuziehen und an den Staat weiterzuleiten – der Verkäufer handelt als Einzieher, nicht als derjenige, der die Kosten am Ende trägt. Meist zahlt tatsächlich der Käufer die Steuer, auch wenn das Unternehmen den Papierkram erledigt. (In Deutschland und der EU heißt das vergleichbare System Mehrwertsteuer bzw. Umsatzsteuer; sie ist meist bereits im angezeigten Endpreis enthalten.)
 
-An manchen Orten wird die Steuer an der Kasse auf den Preis auf dem Etikett aufgeschlagen, wie bei der Sales Tax in den USA. An anderen ist sie schon im Preis enthalten. Viele Länder, auch in Europa, nutzen eine Mehrwertsteuer, die auf mehreren Stufen der Lieferkette erhoben wird.
-
-Diese Art von Steuer betrifft alle, die einkaufen, unabhängig vom Einkommen. Deshalb belastet sie Menschen mit geringerem Einkommen stärker, weil sie einen größeren Teil ihres Einkommens für Einkäufe ausgeben. Darauf kommen wir in der Lektion über regressive Steuern zurück.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Sätze und Regeln unterscheiden sich je nach Ort enorm – in manchen Ländern sogar zwischen benachbarten Städten. Für bestimmte Güter wie Lebensmittel oder Medikamente gilt je nach Politik oft ein niedrigerer Satz oder gar keine Steuer. Deshalb nennt man die Umsatzsteuer auch Verbrauchsteuer: Sie hängt am Ausgeben, nicht am Einkommen oder am Besitz.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Ein Ladenbesitzer zieht den ganzen Monat lang Umsatzsteuer von seinen Kunden ein. Wessen Geld ist das, und was sollte er damit tun?
 
-**Lehrer:** Auf dem Etikett eines Rucksacks steht $50. Die Verkaufssteuer beträgt in unserem Beispiel 8 %. Wie viel zahlst du an der Kasse?
+**Schüler:** Es fühlt sich an wie das Geld des Ladens, weil es über die Kasse hereingekommen ist.
 
-**Schüler:** 8 % von $50 sind $4. Also $54.
+**Lernbegleiter:** Aber wer hat es tatsächlich bezahlt?
 
-**Lehrer:** Und wem gehören diese $4?
+**Schüler:** Die Kunden – der Laden hat es nur auf den Preis aufgeschlagen und eingezogen.
 
-**Schüler:** Der Laden nimmt sie ein, muss sie aber an den Staat weitergeben.
-
-**Lehrer:** Genau. Der Laden ist nur der Einzieher.
+**Lernbegleiter:** Richtig, deshalb ist dieses Geld eigentlich kein Umsatz des Ladens – es ist die Steuerzahlung der Kunden, die auf dem Weg zum Staat durch den Laden hindurchläuft.
 
 ## Übungsquiz
 
-**1.** Wer zahlt die Verkaufssteuer tatsächlich?
+**Frage 1.** Die Umsatzsteuer wird in der Regel eingezogen von:
 
-- A) Der Verkäufer
-- B) Der Käufer
-- C) Die Bank
-- D) Nur der Hersteller
+A) Dem Staat direkt bei den Käufern
+B) Dem Verkäufer, der sie dann an den Staat abführt
+C) Niemandem – sie ist freiwillig
+D) Nur Online-Händlern
 
-**2.** Welche Rolle hat der Verkäufer?
+**Frage 2.** Wer trägt typischerweise die tatsächlichen Kosten der Umsatzsteuer?
 
-- A) Er behält die Steuer als Gewinn
-- B) Er legt den Steuersatz fest
-- C) Er zieht die Steuer ein und leitet sie an den Staat weiter
-- D) Keine Rolle
+A) Der Verkäufer
+B) Der Käufer
+C) Der Staat
+D) Niemand
 
-**3.** Ein Produkt kostet $100, die Steuer beträgt 10 % (Beispiel). Endpreis?
+**Frage 3.** Umsatzsteuersätze:
 
-- A) $100
-- B) $90
-- C) $120
-- D) $110
+A) Sind überall gleich
+B) Können sich je nach Ort erheblich unterscheiden
+C) Gelten nie für Dienstleistungen
+D) Gibt es nur in einem Land
 
-**4.** Warum belastet die Verbrauchsteuer Geringverdiener stärker?
+**Frage 4.** Lebensmittel und Medikamente werden manchmal:
 
-- A) Weil sie einen größeren Teil ihres Einkommens für Einkäufe ausgeben
-- B) Weil sie einen höheren Satz zahlen
-- C) Weil sie nicht einkaufen dürfen
-- D) Weil sie keine Einkommensteuer zahlen
+A) Höher besteuert als Luxusgüter
+B) Niedriger besteuert oder von der Steuer befreit
+C) Verboten zu verkaufen
+D) Keinerlei Steuerregeln unterworfen
 
 ## Lösungsschlüssel
 
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. B) Der Käufer** — Der Käufer zahlt; der Verkäufer zieht nur ein und leitet weiter.
+**1.** Der Verkäufer handelt meist als Mittelsmann, der die Steuer einzieht und weiterleitet, statt sie als Umsatz zu behalten.
 
-**2. C) Er zieht die Steuer ein und leitet sie an den Staat weiter** — Der Verkäufer handelt als Einzieher im Auftrag des Staates.
+**2.** Auch wenn das Unternehmen die Abwicklung übernimmt, steckt die Steuer in der Zahlung des Käufers.
 
-**3. D) $110** — $100 + $10 Steuer = $110.
+**3.** In vielen Systemen werden die Sätze lokal oder regional festgelegt und können sich von Ort zu Ort oder von Bundesstaat zu Bundesstaat unterscheiden.
 
-**4. A) Weil sie einen größeren Teil ihres Einkommens für Einkäufe ausgeben** — Der Satz ist gleich, macht aber einen größeren Anteil ihres Einkommens aus.
+**4.** Viele Staaten befreien Güter des Grundbedarfs aus politischen Gründen von der Steuer oder ermäßigen sie.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Der Käufer zahlt, der Verkäufer zieht ein
-- Die Steuer kann aufgeschlagen oder im Preis enthalten sein
-- Sie belastet Geringverdiener anteilig stärker
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Die Umsatzsteuer wird vom Verkäufer beim Kauf eingezogen und an den Staat weitergeleitet.
+- Die Kosten der Steuer trägt am Ende der Käufer, nicht der Verkäufer.
+- Die Sätze unterscheiden sich stark je nach Ort, manchmal sogar lokal.
+- Güter des Grundbedarfs werden aus politischen Gründen oft anders besteuert als andere Waren.

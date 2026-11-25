@@ -1,106 +1,92 @@
 ---
 id: GREEN-L1-008
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 8
-title: "Imposte progressive vs. regressive"
-source_title: "Progressive vs. Regressive Taxes"
-description: "Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e facili da capire."
-slug: progressive-vs-regressive-taxes
-seo_title: "Imposte progressive vs. regressive | Edunancial"
-meta_description: "Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e facili da capire."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 8
-summary: "Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e facili da capire."
+locale: it
+title: "Imposte progressive e regressive"
+summary: "Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e concreti."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-008: Imposte progressive vs. regressive
+# Imposte progressive e regressive
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire un'imposta progressiva
-- Definire un'imposta regressiva
-- Classificare esempi semplici in una delle due categorie
+- Definire una struttura fiscale progressiva.
+- Definire una struttura fiscale regressiva.
+- Individuare esempi concreti di ciascuna.
 
 ## Contenuto principale
 
-Un'imposta progressiva chiede una percentuale più alta a chi guadagna di più. L'idea è che chi ha più capacità di pagare contribuisca con una quota maggiore. Molti sistemi di imposta sul reddito seguono questo modello.
+Un'imposta progressiva preleva una percentuale più alta a chi ha un reddito o un patrimonio più elevato. La maggior parte dei sistemi di imposta sul reddito funziona così: man mano che guadagni di più, una percentuale più alta del tuo reddito (di solito solo la parte sopra certe soglie) viene tassata.
 
-Un'imposta regressiva finisce per pesare di più, in proporzione, su chi guadagna meno. Succede anche quando l'aliquota è uguale per tutti. L'imposta sui consumi è l'esempio classico: tutti pagano la stessa percentuale sull'acquisto, ma per chi guadagna poco rappresenta una parte maggiore del reddito.
+Un'imposta regressiva, invece, preleva di fatto una percentuale più alta a chi ha un reddito più basso, anche se l'aliquota sembra uguale per tutti. L'imposta sulle vendite è un esempio comune: se due persone comprano lo stesso articolo da 50 $ e pagano la stessa imposta, quell'imposta rappresenta una quota molto più grande del denaro complessivo di chi ha un reddito basso rispetto a chi ha un reddito alto. L'importo è uguale, ma il peso no.
 
-Esiste anche l'imposta proporzionale, o ad aliquota unica (flat tax), che chiede la stessa percentuale del reddito a tutti. Capire queste strutture ti aiuta a seguire i dibattiti su chi debba pagare quanto, senza dover scegliere una parte.
+Nessuna delle due strutture è di per sé "giusta" o "sbagliata": sono strumenti con effetti diversi, e i sistemi fiscali reali di solito combinano elementi progressivi e regressivi. Capire in quale categoria rientra un'imposta aiuta a valutare chi ne sopporta davvero il peso maggiore.
 
-## Esempio pratico
+## Esempio svolto
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Domanda:** Due persone pagano ciascuna 5 $ di imposta sulle vendite sullo stesso acquisto. Una guadagna 2.000 $ al mese, l'altra 20.000 $ al mese. L'imposta ha un effetto progressivo o regressivo?
 
-**Insegnante:** Due persone comprano lo stesso cellulare e pagano $50 di imposta. Una guadagna $1.000 al mese, l'altra $10.000. Che percentuale del reddito ha pagato ciascuna?
+**Studente:** L'importo è identico, quindi a prima vista sembra equo.
 
-**Studente:** La prima il 5%. La seconda lo 0,5%.
+**Guida:** Ma quale percentuale del reddito di ciascuno rappresentano quei 5 $?
 
-**Insegnante:** L'imposta era uguale in denaro. Ma ha pesato allo stesso modo?
+**Studente:** Una quota molto più grande per chi guadagna 2.000 $ che per chi ne guadagna 20.000.
 
-**Studente:** No. Ha pesato dieci volte di più su chi guadagna meno.
+**Guida:** Giusto: importi uguali possono avere un impatto reale disuguale, ed è proprio lo schema regressivo.
 
-**Insegnante:** Questo è un effetto regressivo.
+## Quiz di esercitazione
 
-## Quiz di verifica
+**Domanda 1.** Un'imposta progressiva preleva:
 
-**1.** Un'imposta progressiva...
+A) Una percentuale più bassa a chi guadagna di più
+B) Una percentuale più alta a chi guadagna di più
+C) La stessa percentuale a tutti, indipendentemente dal reddito
+D) Nulla a nessuno
 
-- A) Chiede una percentuale più alta a chi guadagna di più
-- B) Chiede la stessa somma a tutti
-- C) Pesa di più su chi guadagna meno
-- D) Esiste solo per le imprese
+**Domanda 2.** Un'imposta regressiva pesa di fatto:
 
-**2.** Perché l'imposta sui consumi è spesso regressiva?
+A) Di più su chi guadagna di più
+B) Di più su chi guadagna di meno, in proporzione al reddito
+C) Su nessuno
+D) Solo sulle imprese
 
-- A) Perché l'aliquota è più alta per i poveri
-- B) Perché rappresenta una parte maggiore del reddito di chi guadagna meno
-- C) Perché la pagano solo i ricchi
-- D) Perché non ha un'aliquota
+**Domanda 3.** L'imposta sulle vendite viene spesso descritta come regressiva perché:
 
-**3.** Un'imposta che chiede a tutti la stessa percentuale del reddito si chiama...
+A) È illegale
+B) Importi uguali rappresentano una quota maggiore di un reddito più basso
+C) Si applica solo ai ricchi
+D) Cambia ogni giorno
 
-- A) Progressiva
-- B) Regressiva
-- C) Proporzionale
-- D) Negativa
+**Domanda 4.** I sistemi fiscali reali:
 
-**4.** Qual è l'obiettivo di questa lezione?
+A) Sono sempre puramente progressivi
+B) Sono sempre puramente regressivi
+C) Spesso combinano elementi progressivi e regressivi
+D) Non combinano mai tipi di imposte diversi
 
-- A) Dire quale sistema è il migliore
-- B) Insegnare a non pagare le imposte
-- C) Confrontare i Paesi
-- D) Capire come funziona ciascuna struttura
+## Soluzioni
 
-## Chiave delle risposte
-
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. C
 
 ## Risposte e spiegazioni
 
-**1. A) Chiede una percentuale più alta a chi guadagna di più** — Progressiva significa che la percentuale sale con il reddito.
+**1.** I sistemi progressivi aumentano l'aliquota al crescere del reddito, di solito solo sulle parti sopra soglie stabilite.
 
-**2. B) Perché rappresenta una parte maggiore del reddito di chi guadagna meno** — L'aliquota è uguale, ma la quota di reddito è maggiore per chi guadagna meno.
+**2.** Le imposte regressive prelevano proporzionalmente di più dai redditi bassi, anche quando l'importo è uguale.
 
-**3. C) Proporzionale** — Proporzionale, o ad aliquota unica, applica la stessa aliquota a tutti.
+**3.** La stessa imposta di 5 $ è una quota più grande di un reddito più piccolo: è l'essenza di un effetto regressivo.
 
-**4. D) Capire come funziona ciascuna struttura** — Lo scopo è comprendere le strutture, non prendere posizione.
+**4.** La maggior parte dei sistemi reali unisce elementi progressivi (come gli scaglioni dell'imposta sul reddito) ed elementi regressivi (come un'imposta sulle vendite uniforme).
 
 ## Punti chiave
 
-- Progressiva: chi guadagna di più paga una percentuale maggiore
-- Regressiva: pesa di più, in proporzione, su chi guadagna meno
-- Conoscere le strutture aiuta a seguire i dibattiti pubblici
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Le imposte progressive aumentano in percentuale con il crescere del reddito.
+- Le imposte regressive prelevano proporzionalmente di più dai redditi bassi, anche a parità di importo.
+- L'imposta sulle vendite è un esempio di imposta regressiva citato spesso.
+- La maggior parte dei sistemi reali combina entrambe le strutture invece di usarne una sola.

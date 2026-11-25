@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 35
 locale: de
-title: "Traditional vs. Roth: Steuern jetzt oder später zahlen"
-summary: "Erklärt das allgemeine Konzept hinter zwei üblichen Strukturen von Altersvorsorgekonten — eine beim Auszahlen besteuert, eine beim Einzahlen — mit allgemeinen Bezeichnungen."
+title: "Klassisch oder Roth: Steuern jetzt oder später zahlen"
+summary: "Erklärt das allgemeine Konzept hinter zwei häufigen Strukturen von Altersvorsorgekonten – eine wird bei der Einzahlung besteuert, die andere bei der Auszahlung – mit allgemeinen Bezeichnungen statt der Programmnamen eines bestimmten Landes."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Traditional vs. Roth: Steuern jetzt oder später zahlen
+# Klassisch oder Roth: Steuern jetzt oder später zahlen
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Den Unterschied zwischen Besteuerung beim Einzahlen und beim Auszahlen erklären
-- Die Wahl mit dem erwarteten künftigen Steuersatz verbinden
-- Die in den USA verwendeten Bezeichnungen "Traditional" und "Roth" erkennen
+- Die Wahl „jetzt zahlen oder später zahlen“ erklären, die es in vielen Altersvorsorgesystemen gibt.
+- Den grundlegenden Zielkonflikt zwischen beiden Ansätzen erkennen.
+- Erkennen, dass die bessere Wahl von den erwarteten künftigen Steuersätzen abhängen kann.
 
 ## Kerninhalt
 
-Es gibt zwei übliche Wege, die Altersvorsorge steuerlich zu begünstigen. Beim ersten fließt das Geld jetzt steuerfrei ein, und du zahlst Steuer, wenn du es in Zukunft auszahlst. In den USA heißt das "Traditional"-Konto.
+Viele Altersvorsorgesysteme bieten eine Wahl zwischen zwei Strukturen, die – unabhängig von den genauen örtlichen Namen – oft allgemein als „klassisch“ und „Roth“ bezeichnet werden (nach den US-Bezeichnungen). Bei einem klassischen Konto verringern Einzahlungen in der Regel jetzt das zu versteuernde Einkommen, aber die Auszahlungen im Ruhestand werden besteuert. Bei einem Roth-Konto wird mit bereits versteuertem Geld eingezahlt, aber die Auszahlungen im Ruhestand sind in der Regel steuerfrei. (In Deutschland folgen viele geförderte Vorsorgeformen eher dem klassischen Prinzip der nachgelagerten Besteuerung; die Regeln ändern sich.)
 
-Beim zweiten zahlst du Geld ein, das bereits versteuert wurde, aber künftige Auszahlungen sind, wenn die Regeln eingehalten werden, steuerfrei. In den USA heißt das "Roth"-Konto.
-
-Was ist besser? Das hängt vor allem von einer Frage ab: Wird dein Steuersatz jetzt oder im Ruhestand höher sein? Wenn du künftig einen niedrigeren Satz erwartest, kann es sich lohnen, die Steuer aufzuschieben. Wenn du künftig einen höheren Satz erwartest, kann es besser sein, jetzt zu zahlen. Niemand kennt die Zukunft sicher, deshalb nutzen viele beides.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Der zentrale Zielkonflikt ist der Zeitpunkt: Steuer jetzt zu deinem aktuellen Satz zahlen oder später zu deinem künftigen Satz. Wenn du erwartest, dass dein Steuersatz im Ruhestand niedriger ist als heute, schneidet ein klassischer Ansatz oft besser ab. Wenn du erwartest, dass dein Satz im Ruhestand ähnlich oder höher ist – häufig bei jungen Menschen am Anfang ihrer Laufbahn, deren Einkommen noch wachsen kann –, kann ein Roth-Ansatz besser abschneiden. Es gibt keine allgemein richtige Antwort; sie hängt von Annahmen über die Zukunft ab, und genau deshalb ist das ein typischer Bereich, in dem man sich fachlich beraten lassen sollte, statt zu raten.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Eine 22-Jährige, die gerade ins Berufsleben startet, überlegt, ob sie ein klassisches oder ein Roth-Konto wählen soll. Welche allgemeinen Überlegungen sollte sie anstellen?
 
-**Lehrer:** Vitória ist 22, verdient wenig und erwartet, in Zukunft deutlich mehr zu verdienen. Sie fragt: jetzt Steuer zahlen oder später?
+**Schüler:** Nach dieser Lektion sollte sie überlegen, ob ihr Steuersatz jetzt wahrscheinlich niedriger oder höher ist als später in ihrer Laufbahn.
 
-**Schüler:** Wenn sie jetzt wenig verdient, ist ihr Steuersatz niedrig.
+**Lernbegleiter:** Was ist, da sie am Anfang ihrer Laufbahn steht, eine vernünftige Annahme über ihr künftiges Einkommen und ihren Steuersatz?
 
-**Lehrer:** Und in Zukunft?
+**Schüler:** Ihr Einkommen und wahrscheinlich auch ihr Steuersatz werden mit der Zeit steigen – also könnte es sinnvoll sein, jetzt zu einem niedrigeren Satz Steuer zu zahlen, über ein Roth-Konto.
 
-**Schüler:** Wahrscheinlich höher. Also kann es sinnvoll sein, jetzt zu zahlen, nach dem Roth-Prinzip.
-
-**Lehrer:** Und jemand auf dem Höhepunkt der Karriere, der im Ruhestand weniger erwartet?
-
-**Schüler:** Der zieht es vielleicht vor, die Steuer aufzuschieben, nach dem Traditional-Prinzip.
+**Lernbegleiter:** Das ist eine vernünftige Überlegung – aber es bleibt eine Annahme über die Zukunft, keine Garantie, und deshalb lohnt es sich, für einen konkreten Plan mit einer Fachperson zu sprechen.
 
 ## Übungsquiz
 
-**1.** Wann wird beim "Traditional"-Konto (USA) die Steuer gezahlt?
+**Frage 1.** Bei einem klassischen Konto gilt für Einzahlungen in der Regel:
 
-- A) Beim Einzahlen
-- B) Nie
-- C) Jeden Monat
-- D) Beim Auszahlen
+A) Sie werden doppelt besteuert
+B) Sie verringern jetzt das zu versteuernde Einkommen, die Auszahlungen werden später besteuert
+C) Sie werden nie besteuert
+D) Sie haben keine steuerliche Wirkung
 
-**2.** Wann wird beim "Roth"-Konto (USA) die Steuer gezahlt?
+**Frage 2.** Bei einem Roth-Konto gilt für Einzahlungen in der Regel:
 
-- A) Beim Einzahlen; regelkonforme Auszahlungen sind steuerfrei
-- B) Nur beim Auszahlen
-- C) Zweimal
-- D) Nie, zu keinem Zeitpunkt
+A) Sie erfolgen mit bereits versteuertem Geld, die späteren Auszahlungen sind steuerfrei
+B) Sie werden vom aktuellen zu versteuernden Einkommen abgezogen
+C) Sie werden doppelt besteuert
+D) Sie sind verboten
 
-**3.** Welche Frage hilft bei der Wahl zwischen beiden?
+**Frage 3.** Der zentrale Zielkonflikt zwischen beiden Ansätzen ist:
 
-- A) Welche Bank ist schöner?
-- B) Wird mein Steuersatz jetzt oder später höher sein?
-- C) Wie viele Kinder werde ich haben?
-- D) Welche Farbe hat die Karte?
+A) Es gibt keinen Zielkonflikt
+B) Steuer jetzt zahlen oder später zahlen
+C) Ein Ansatz hat nie mit Steuern zu tun
+D) Nur Unternehmen können wählen
 
-**4.** Warum nutzen viele Menschen beide?
+**Frage 4.** Welcher Ansatz begünstigt eher jemanden, der im Ruhestand einen niedrigeren Steuersatz als heute erwartet?
 
-- A) Weil es Pflicht ist
-- B) Weil sich beide aufheben
-- C) Weil niemand die Zukunft sicher kennt
-- D) Zufällig
+A) Roth
+B) Klassisch
+C) Keiner spielt eine Rolle
+D) Nur umsatzsteuerbasierte Konten
 
 ## Lösungsschlüssel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. D) Beim Auszahlen** — Die Steuer wird bis zur Auszahlung aufgeschoben.
+**1.** Die klassische Struktur schiebt die Steuer auf: heute ein Vorteil, dafür Steuer auf spätere Auszahlungen.
 
-**2. A) Beim Einzahlen; regelkonforme Auszahlungen sind steuerfrei** — Du zahlst bereits versteuertes Geld ein.
+**2.** Die Roth-Struktur zieht die Steuer vor, sodass begünstigte spätere Auszahlungen in der Regel steuerfrei sind.
 
-**3. B) Wird mein Steuersatz jetzt oder später höher sein?** — Der erwartete Steuersatz ist der zentrale Faktor.
+**3.** Es ist im Kern eine Entscheidung über den Zeitpunkt, wann man lieber Steuer zahlt, auf Grundlage von Annahmen über künftige Sätze.
 
-**4. C) Weil niemand die Zukunft sicher kennt** — Den Zeitpunkt der Steuer zu streuen verringert das Risiko einer falschen Prognose.
+**4.** Wenn der heutige Satz höher ist als der erwartete künftige Satz, ist das Aufschieben der Steuer (klassisch) oft vorteilhafter.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Traditional: Steuer auf die Auszahlung aufgeschoben
-- Roth: Steuer jetzt, regelkonforme künftige Auszahlungen steuerfrei
-- Die Wahl hängt vom erwarteten Steuersatz jetzt vs. später ab
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Klassische Konten verschieben die Steuer auf die Auszahlung; Roth-Konten besteuern jetzt die Einzahlungen, nicht die Auszahlungen.
+- Der zentrale Zielkonflikt ist: Steuer jetzt oder später zahlen.
+- Die bessere Wahl hängt von Annahmen über deinen heutigen und künftigen Steuersatz ab.
+- Das ist ein typischer, berechtigter Bereich, in dem man sich fachlich beraten lassen sollte, statt zu raten.

@@ -1,114 +1,98 @@
 ---
 id: GREEN-L1-010
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 10
-title: "Gli scaglioni d'imposta spiegati"
-source_title: "Tax Brackets Explained"
-description: "Una spiegazione concreta, passo per passo, di come sono strutturati e applicati gli scaglioni d'imposta, costruita direttamente sul concetto di aliquota marginale."
-slug: tax-brackets-explained
-seo_title: "Gli scaglioni d'imposta spiegati | Edunancial"
-meta_description: "Una spiegazione concreta, passo per passo, di come sono strutturati e applicati gli scaglioni d'imposta, costruita direttamente sul concetto di aliquota marginale."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 10
-summary: "Una spiegazione concreta, passo per passo, di come sono strutturati e applicati gli scaglioni d'imposta, costruita direttamente sul concetto di aliquota marginale."
+locale: it
+title: "Gli scaglioni fiscali spiegati"
+summary: "Un percorso concreto, passo dopo passo, su come sono strutturati e applicati gli scaglioni fiscali, partendo direttamente dal concetto di aliquota marginale."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-010: Gli scaglioni d'imposta spiegati
+# Gli scaglioni fiscali spiegati
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare come funziona una tabella a scaglioni
-- Calcolare l'imposta su un reddito con scaglioni di esempio
-- Calcolare l'aliquota media dal risultato
+- Leggere e interpretare una semplice tabella di scaglioni fiscali.
+- Calcolare l'imposta dovuta su più scaglioni per un reddito di esempio.
+- Consolidare il concetto di aliquota marginale con un esempio numerico.
 
 ## Contenuto principale
 
-Una tabella a scaglioni divide il reddito in "gradini". Ogni gradino ha la propria aliquota. Il tuo reddito riempie i gradini dal basso verso l'alto, come l'acqua che riempie una scala di bicchieri.
+Partendo dalla lezione precedente, vediamo gli scaglioni con numeri concreti. Immagina una tabella di scaglioni semplificata e illustrativa: il reddito da 0 a 10.000 $ è tassato al 10%; quello da 10.001 a 40.000 $ al 20%; quello oltre 40.000 $ al 30%.
 
-Per calcolare l'imposta, calcoli ogni scaglione separatamente e sommi tutto. La prima parte del reddito paga l'aliquota più bassa, la parte successiva paga quella dopo, e così via.
+Chi guadagna 50.000 $ non paga il 30% su tutti i 50.000 $. Invece: i primi 10.000 $ sono tassati al 10% (1.000 $), i successivi 30.000 $ (da 10.001 a 40.000 $) al 20% (6.000 $) e i restanti 10.000 $ (da 40.001 a 50.000 $) al 30% (3.000 $). L'imposta totale dovuta è 10.000 $, pari a un'aliquota effettiva del 20%, ben al di sotto dello scaglione più alto del 30%.
 
-I limiti e le aliquote reali cambiano da Paese a Paese e spesso di anno in anno. I numeri qui sotto sono solo un esempio per esercitarsi con il metodo. Conta il metodo: funziona in qualsiasi sistema a scaglioni progressivi.
+Questo calcolo passo dopo passo, scaglione per scaglione, è esattamente ciò che significa tassazione marginale nella pratica. Gli scaglioni reali variano da paese a paese e cambiano nel tempo, quindi le cifre qui sono solo illustrative: il metodo di calcolo è la competenza duratura e trasferibile.
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+> **Nota:** le percentuali e le soglie di questa lezione sono numeri didattici illustrativi, non valori di un paese specifico. Verifica gli scaglioni reali e aggiornati del tuo paese.
 
-## Esempio pratico
+## Esempio svolto
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Domanda:** Con gli scaglioni illustrativi indicati sopra, quanta imposta dovrebbe chi guadagna esattamente 40.000 $?
 
-**Insegnante:** Tabella di esempio: fino a $10.000 paga il 10%; da $10.000 a $40.000 paga il 20%; oltre $40.000 paga il 30%. Pietro guadagna $50.000. Andiamo per parti. Quanto paga nel primo scaglione?
+**Studente:** Procedo in ordine: i primi 10.000 $ al 10% fanno 1.000 $.
 
-**Studente:** Il 10% di $10.000, cioè $1.000.
+**Guida:** Bene, continua.
 
-**Insegnante:** E nel secondo scaglione, da $10.000 a $40.000?
+**Studente:** I restanti 30.000 $, da 10.001 a 40.000 $, sono tassati al 20%, cioè 6.000 $.
 
-**Studente:** Sono $30.000 al 20%. Fa $6.000.
+**Guida:** E una parte è tassata al 30%?
 
-**Insegnante:** E ciò che resta oltre $40.000?
+**Studente:** No: non ha guadagnato nulla oltre i 40.000 $, quindi lo scaglione del 30% non si applica mai. Il totale è 1.000 $ + 6.000 $ = 7.000 $.
 
-**Studente:** $10.000 al 30%, cioè $3.000. Totale: $10.000 di imposta.
+**Guida:** Esatto, e nota che la sua aliquota effettiva è il 17,5%, non il 20% e non il 30%.
 
-**Insegnante:** Qual è la sua aliquota media?
+## Quiz di esercitazione
 
-**Studente:** $10.000 diviso $50.000. Fa il 20%, anche se lo scaglione più alto è al 30%.
+**Domanda 1.** Con gli scaglioni illustrativi di questa lezione, quanta parte di un reddito di 50.000 $ è tassata al 30%?
 
-## Quiz di verifica
+A) Tutti i 50.000 $
+B) 10.000 $
+C) 30.000 $
+D) 0 $
 
-**1.** Come si distribuisce il reddito in una tabella a scaglioni?
+**Domanda 2.** Qual è l'imposta totale illustrativa dovuta su 50.000 $ in questo esempio?
 
-- A) Tutto insieme nello scaglione più alto
-- B) A caso
-- C) Riempiendo gli scaglioni dal basso verso l'alto
-- D) Solo nello scaglione più basso
+A) 15.000 $
+B) 10.000 $
+C) 5.000 $
+D) 20.000 $
 
-**2.** Con la tabella di esempio, quanta imposta paga un reddito di $10.000?
+**Domanda 3.** L'aliquota effettiva nell'esempio da 50.000 $ è:
 
-- A) $2.000
-- B) $3.000
-- C) $0
-- D) $1.000
+A) 30%
+B) 20%
+C) 10%
+D) 0%
 
-**3.** Con la tabella di esempio, quanto paga un reddito di $40.000?
+**Domanda 4.** Le cifre specifiche degli scaglioni di questa lezione vanno memorizzate come valori reali?
 
-- A) $7.000
-- B) $4.000
-- C) $12.000
-- D) $8.000
+A) Sì, valgono ovunque
+B) No: sono illustrative; gli scaglioni reali variano da paese a paese e cambiano nel tempo
+C) Sì, ma solo per un paese
+D) Non hanno rilevanza per la lezione
 
-**4.** I numeri della tabella di questa lezione sono...
+## Soluzioni
 
-- A) Le aliquote ufficiali di tutti i Paesi
-- B) Un esempio per esercitarsi con il metodo
-- C) Fissi per sempre
-- D) Validi solo per le imprese
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) Riempiendo gli scaglioni dal basso verso l'alto** — Ogni parte del reddito cade nel proprio scaglione, partendo dal più basso.
+**1.** Solo la parte di reddito oltre i 40.000 $, cioè 10.000 $, rientra nello scaglione del 30%.
 
-**2. D) $1.000** — $10.000 sta tutto nel primo scaglione: 10% = $1.000.
+**2.** Sommando 1.000 $ + 6.000 $ + 3.000 $ nei tre scaglioni si ottiene un totale di 10.000 $.
 
-**3. A) $7.000** — $1.000 nel primo scaglione + $6.000 nel secondo = $7.000.
+**3.** Dividendo l'imposta totale (10.000 $) per il reddito totale (50.000 $) si ottiene un'aliquota effettiva del 20%.
 
-**4. B) Un esempio per esercitarsi con il metodo** — Le tabelle reali variano; qui si impara il metodo.
+**4.** Le cifre sono uno strumento didattico; il metodo di calcolo è ciò che si trasferisce a qualsiasi tabella di scaglioni reale.
 
 ## Punti chiave
 
-- Gli scaglioni dividono il reddito in gradini con aliquote diverse
-- Calcola ogni scaglione separatamente e somma
-- L'aliquota media è sempre minore o uguale allo scaglione più alto raggiunto
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Gli scaglioni si applicano passo dopo passo, e ogni aliquota tocca solo il reddito all'interno della propria fascia.
+- Fare i conti in modo concreto rafforza il motivo per cui il concetto di aliquota marginale conta nella pratica.
+- L'aliquota effettiva è sempre una media, e sempre più bassa dello scaglione più alto raggiunto.
+- Le cifre usate qui sono illustrative: verifica sempre la tabella reale degli scaglioni del tuo paese.

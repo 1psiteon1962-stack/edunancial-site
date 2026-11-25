@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 18
 locale: nl
-title: "Aangiftestatus: alleenstaand, getrouwd, hoofd van het huishouden"
-summary: "Introduceert het begrip aangiftestatus en waarom je gezins- en burgerlijke situatie de belastingberekening kan beïnvloeden."
+title: "Aangiftestatus: alleenstaand, gehuwd, kostwinner"
+summary: "Introduceert het begrip aangiftestatus en legt uit waarom burgerlijke staat en huishoudsituatie de belastingberekening kunnen beïnvloeden."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Aangiftestatus: alleenstaand, getrouwd, hoofd van het huishouden
+# Aangiftestatus: alleenstaand, gehuwd, kostwinner
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Uitleggen wat de aangiftestatus is
-- De gangbare categorieën kennen
-- Begrijpen waarom je gezinssituatie de belasting kan veranderen
+- Uitleggen wat aangiftestatus betekent.
+- Veelvoorkomende categorieën van aangiftestatus herkennen.
+- In algemene termen uitleggen waarom aangiftestatus de belastinguitkomst kan beïnvloeden.
 
 ## Kerninhoud
 
-In sommige stelsels, zoals dat van de Verenigde Staten, moet je je "aangiftestatus" (filing status) opgeven. Die beschrijft je gezinssituatie in dat jaar en beïnvloedt de belastingberekening.
+De aangiftestatus (in de Verenigde Staten "filing status") is een categorie, gebaseerd op je burgerlijke staat en je huishoudsituatie, die veel belastingstelsels gebruiken om te bepalen welke schijven, aftrekbedragen en voorwaarden voor jou gelden. Veelvoorkomende categorieën zijn alleenstaand, gehuwd (soms met de keuze tussen gezamenlijke of aparte aangifte) en kostwinner ("head of household", meestal voor een ongehuwde persoon die afhankelijken onderhoudt). (In Nederland doet iedereen in principe individueel aangifte, maar fiscaal partnerschap en de verdeling van gezamenlijke posten spelen wel een rol; de regels veranderen.)
 
-Gangbare categorieën zijn: alleenstaand; getrouwd met gezamenlijke aangifte; getrouwd met aparte aangifte; en hoofd van het huishouden (head of household), meestal voor ongehuwden die een afhankelijke persoon in huis onderhouden. Elke categorie kan eigen schijven en aftrekposten hebben.
-
-De logica is dat een gezin met afhankelijken andere kosten heeft dan iemand alleen. Niet elk land gebruikt dit systeem: in veel landen doet iedereen apart aangifte en tellen gezinssituaties op een andere manier mee, bijvoorbeeld via fiscaal partnerschap. Gebeurtenissen als trouwen, scheiden of de geboorte van een kind kunnen je status veranderen, dus bekijk die opnieuw als je leven verandert.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+De aangiftestatus is belangrijk omdat hij de onderliggende berekening verandert: hetzelfde inkomen kan tot een ander belastingbedrag leiden, afhankelijk van welke status geldt, omdat schijfgrenzen en standaardaftrekken vaak per categorie anders zijn vastgesteld. Dat is geen maas in de wet of een truc; het weerspiegelt een beleidsoordeel dat de samenstelling van een huishouden invloed heeft op de werkelijke financiële draagkracht van een persoon of gezin.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Twee mensen verdienen precies hetzelfde salaris, maar de een is alleenstaand en de ander onderhoudt als kostwinner twee kinderen. Verwacht je dat hun belastingberekening identiek is?
 
-**Docent:** Camila is ongehuwd en zorgt voor haar zoon van 8, die bij haar woont. Welke categorie geldt in de VS waarschijnlijk?
+**Cursist:** Waarschijnlijk niet, omdat de aangiftestatus verandert welke schijven en aftrekbedragen gelden.
 
-**Leerling:** Alleenstaand?
+**Begeleider:** Waarom zou het belastingstelsel de kostwinner anders behandelen?
 
-**Docent:** Denk na: ze is ongehuwd en onderhoudt een afhankelijke persoon in huis.
+**Cursist:** Omdat het onderhouden van afhankelijken bepaalt hoeveel van dat inkomen echt beschikbaar is voor de eigen behoeften, en het beleid houdt daar rekening mee.
 
-**Leerling:** Dan waarschijnlijk hoofd van het huishouden.
-
-**Docent:** En waarom doet dat ertoe?
-
-**Leerling:** Omdat die categorie meestal gunstigere regels heeft dan alleenstaand.
+**Begeleider:** Klopt – de aangiftestatus weerspiegelt een oordeel over financiële draagkracht, niet alleen het kale inkomen.
 
 ## Oefenquiz
 
-**1.** De aangiftestatus beschrijft...
+**Vraag 1.** De aangiftestatus is gebaseerd op:
 
-- A) Het soort werk
-- B) De gebruikte bank
-- C) De gezinssituatie in het jaar
-- D) De gezondheid
+A) Je functietitel
+B) Je burgerlijke staat en huishoudsituatie
+C) Alleen je leeftijd
+D) Je geboorteland
 
-**2.** "Hoofd van het huishouden" geldt meestal voor...
+**Vraag 2.** Veelvoorkomende categorieën van aangiftestatus zijn:
 
-- A) Iedere getrouwde persoon
-- B) Ondernemers
-- C) Gepensioneerden
-- D) Ongehuwden die een afhankelijke persoon in huis onderhouden
+A) Alleenstaand, gehuwd, kostwinner
+B) Alleen "werkend" en "werkloos"
+C) Alleen "rijk" en "arm"
+D) Alleen "staatsburger" en "niet-staatsburger"
 
-**3.** Waarom kan je gezinssituatie de belasting veranderen?
+**Vraag 3.** De aangiftestatus kan van invloed zijn op:
 
-- A) Omdat gezinnen andere kosten hebben dan alleenstaanden
-- B) Omdat getrouwden geen belasting betalen
-- C) Omdat de overheid loot
-- D) Het verandert niets
+A) Niets
+B) De geldende schijven en aftrekbedragen
+C) Alleen je naam op het formulier
+D) Alleen de omzetbelasting
 
-**4.** Gebruiken alle landen een aangiftestatus zoals in de VS?
+**Vraag 4.** De reden waarom aangiftestatus belangrijk is, wordt meestal omschreven als:
 
-- A) Ja, allemaal
-- B) Nee, in veel landen doet iedereen apart aangifte
-- C) Alleen Europese landen
-- D) Alleen Aziatische landen
+A) Een maas in de wet
+B) Een weerspiegeling van verschillende financiële draagkracht op basis van de samenstelling van het huishouden
+C) Toeval
+D) Niet relevant voor de belastingberekening
 
 ## Antwoordsleutel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. A, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. C) De gezinssituatie in het jaar** — Die weerspiegelt burgerlijke staat en afhankelijken.
+**1.** De categorieën van aangiftestatus zijn opgebouwd rond burgerlijke staat en verantwoordelijkheden binnen het huishouden.
 
-**2. D) Ongehuwden die een afhankelijke persoon in huis onderhouden** — Dat is de gangbare omschrijving van deze categorie.
+**2.** Alleenstaand, gehuwd en kostwinner zijn veelgebruikte categorieën, al verschillen de precieze namen per land.
 
-**3. A) Omdat gezinnen andere kosten hebben dan alleenstaanden** — Het stelsel probeert verschillen in kosten en verantwoordelijkheid te weerspiegelen.
+**3.** Verschillende statussen gaan vaak samen met verschillende schijfgrenzen en aftrekbedragen.
 
-**4. B) Nee, in veel landen doet iedereen apart aangifte** — Het is een kenmerk van sommige stelsels, niet van alle.
+**4.** De beleidsreden is dat de samenstelling van een huishouden de werkelijke financiële draagkracht beïnvloedt, niet dat het een truc of achterdeur is.
 
 ## Belangrijkste punten
 
-- De aangiftestatus weerspiegelt burgerlijke staat en afhankelijken
-- Gangbare categorieën: alleenstaand, getrouwd (samen/apart), hoofd van het huishouden
-- Bekijk die opnieuw als je leven verandert
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- De aangiftestatus weerspiegelt burgerlijke staat en huishoudsituatie.
+- Veelvoorkomende categorieën zijn alleenstaand, gehuwd en kostwinner.
+- De aangiftestatus beïnvloedt de geldende schijven en aftrekbedragen.
+- Dat weerspiegelt beleidsoordelen over financiële draagkracht, geen maas in de wet.

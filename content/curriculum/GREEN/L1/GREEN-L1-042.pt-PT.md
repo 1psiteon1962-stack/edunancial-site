@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 42
 locale: pt-PT
-title: "Entidades Transparentes: LLCs, S-Corps e Empresários em Nome Individual"
-summary: "Apresenta o conceito geral de tributação transparente (pass-through) como alternativa ao padrão de dupla tributação das sociedades tradicionais."
+title: "Entidades fiscalmente transparentes: LLC, S-Corp e empresário em nome individual"
+summary: "Apresenta o conceito geral da tributação por transparência como alternativa ao padrão de dupla tributação das sociedades tradicionais."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Entidades Transparentes: LLCs, S-Corps e Empresários em Nome Individual
+# Entidades fiscalmente transparentes: LLC, S-Corp e empresário em nome individual
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir, em termos gerais, uma entidade fiscalmente transparente.
+- Explicar como a tributação por transparência evita o padrão da dupla tributação.
+- Reconhecer exemplos comuns de estruturas transparentes, sem tratar os nomes como universais.
 
-- Definir tributação transparente
-- Reconhecer exemplos de formas transparentes usadas nos EUA
-- Comparar transparência e dupla tributação
+## Conteúdo principal
 
-## Conteúdo Principal
+Uma entidade fiscalmente transparente (em inglês, "pass-through entity") é uma estrutura empresarial em que o lucro não é tributado ao nível do negócio: "passa" diretamente para os donos, que o declaram e pagam imposto sobre ele nas suas declarações pessoais, geralmente uma só vez. Isto evita diretamente o padrão de dupla tributação da lição anterior, porque à partida não existe uma camada separada de imposto da sociedade.
 
-Numa entidade transparente (pass-through), o negócio em si normalmente não paga imposto sobre o lucro. Em vez disso, o lucro "passa" para os donos, que o incluem nas suas próprias declarações e pagam imposto uma única vez.
+Exemplos comuns de estruturas muitas vezes tributadas por transparência incluem o empresário em nome individual (o caso mais simples: nenhuma camada separada de imposto do negócio) e, em muitos sistemas, certas sociedades de responsabilidade limitada (LLC) ou estruturas societárias com uma opção especial (muitas vezes chamadas "S-corps" no sistema dos EUA, embora existam conceitos equivalentes noutros lados com outros nomes). (Em Portugal, por exemplo, existe um regime de transparência fiscal para certos tipos de sociedades, como algumas sociedades de profissionais, em que o lucro é imputado aos sócios; as regras mudam.) As regras jurídicas e fiscais para se ser considerado entidade transparente variam de país para país e envolvem compromissos reais que vão além de evitar a dupla tributação; é precisamente por isso que a escolha da forma jurídica, tratada a seguir, merece uma reflexão cuidadosa em vez de uma escolha por defeito.
 
-Nos EUA, exemplos comuns são o empresário em nome individual (sole proprietorship), a LLC em muitas situações e a S-Corp. Outros países têm formas parecidas, com nomes e regras próprios.
+## Exemplo prático
 
-Uma consequência importante: o dono pode dever imposto sobre o lucro do negócio mesmo que não tenha retirado esse dinheiro da empresa. Além disso, as formas transparentes podem ter outros encargos, como as contribuições dos trabalhadores independentes. A forma certa depende de cada situação, como vamos ver na próxima lição.
+**Pergunta:** Uma pequena empresária quer evitar o padrão de dupla tributação que se aplica às sociedades tradicionais. Que categoria geral de estrutura poderia analisar?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, provavelmente as estruturas fiscalmente transparentes, porque evitam uma camada separada de imposto ao nível do negócio.
 
-## Exemplo Prático
+**Guia:** Qual é o compromisso: evitar a dupla tributação é sempre o único critério na escolha da estrutura?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Não: a lição refere que existem outros compromissos reais além da camada de imposto, por isso vale a pena olhar para o quadro completo, e não apenas para esta questão.
 
-**Professor:** Uma LLC tratada como transparente tem $60.000 de lucro no ano. A LLC paga imposto sobre isso?
+**Guia:** Exatamente: e é por isso que a próxima lição analisa a escolha da forma jurídica de forma mais completa.
 
-**Aluno:** Normalmente não. O lucro passa para o dono.
+## Teste de prática
 
-**Professor:** E o dono deixou $20.000 dentro da empresa para comprar equipamento. Paga imposto sobre quanto?
+**Pergunta 1.** Uma entidade fiscalmente transparente é aquela em que o lucro:
 
-**Aluno:** Sobre os $60.000, mesmo tendo retirado só $40.000.
+A) É tributado duas vezes, ao nível do negócio e dos donos
+B) Não é tributado ao nível do negócio e passa diretamente para as declarações pessoais dos donos
+C) Nunca é tributado
+D) Só é tributado se o negócio falir
 
-**Professor:** Porquê?
+**Pergunta 2.** A tributação por transparência responde diretamente a que conceito anterior?
 
-**Aluno:** Porque o imposto segue o lucro, não o levantamento.
+A) Cobrança do imposto sobre as vendas
+B) Dupla tributação
+C) Tarifas
+D) Retenção na fonte dos salários
 
-## Questionário de Treino
+**Pergunta 3.** O empresário em nome individual é descrito nesta lição como:
 
-**1.** Numa entidade transparente, quem normalmente paga o imposto sobre o lucro?
+A) Sempre sujeito a dupla tributação
+B) O caso mais simples de transparência, sem camada separada de imposto do negócio
+C) Proibido na maioria dos países
+D) O mesmo que uma sociedade anónima
 
-- A) O negócio
-- B) O banco
-- C) Os donos, nas suas declarações pessoais
-- D) Os clientes
+**Pergunta 4.** Evitar a dupla tributação é o único critério na escolha da forma jurídica?
 
-**2.** Quantas vezes costuma ser tributado o lucro numa entidade transparente?
-
-- A) Duas vezes
-- B) Três vezes
-- C) Nunca
-- D) Uma vez
-
-**3.** Qual destes é um exemplo de forma transparente nos EUA?
-
-- A) S-Corp
-- B) C-Corp tradicional
-- C) Banco central
-- D) Fundo público
-
-**4.** O dono de uma entidade transparente pode dever imposto sobre lucro que não retirou?
-
-- A) Não, nunca
-- B) Sim, porque o imposto segue o lucro
-- C) Só se for sócio único
-- D) Só em anos bissextos
+A) Sim, o único
+B) Não: há outros compromissos reais a ponderar
+C) A forma jurídica não importa
+D) Só os impostos importam, mais nada
 
 ## Chave de Respostas
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) Os donos, nas suas declarações pessoais** — O lucro passa para os donos.
+**1.** As estruturas transparentes saltam por completo o imposto ao nível do negócio e enviam o lucro diretamente para a declaração do dono.
 
-**2. D) Uma vez** — É este o contraste com a dupla tributação.
+**2.** Esta estrutura existe precisamente como alternativa ao padrão de tributação em duas camadas descrito na lição anterior.
 
-**3. A) S-Corp** — A S-Corp é uma forma transparente nos EUA.
+**3.** O empresário em nome individual é o exemplo mais claro, porque o negócio e o dono já são tratados como um único sujeito passivo.
 
-**4. B) Sim, porque o imposto segue o lucro** — O imposto acompanha o lucro do negócio.
+**4.** A escolha da estrutura envolve vários compromissos, como a proteção patrimonial e a complexidade, e não apenas a questão fiscal.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Transparente: o lucro passa para os donos e é tributado uma vez
-- Exemplos nos EUA: empresário em nome individual, LLC, S-Corp
-- O imposto segue o lucro, não o levantamento
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- As entidades fiscalmente transparentes evitam o imposto ao nível do negócio, enviando o lucro diretamente para as declarações pessoais dos donos.
+- Esta é a alternativa direta ao padrão de dupla tributação das sociedades tradicionais.
+- O empresário em nome individual é o exemplo mais simples; certas LLC e estruturas com opção especial também se podem qualificar.
+- Escolher uma forma jurídica envolve compromissos que vão além desta única questão fiscal.

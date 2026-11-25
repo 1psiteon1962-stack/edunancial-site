@@ -1,108 +1,90 @@
 ---
 id: GREEN-L1-027
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 27
-title: "Ammortamento: distribuire un costo nel tempo"
-source_title: "Depreciation: Spreading a Cost Over Time"
-description: "Introduce l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta."
-slug: depreciation-spreading-a-cost-over-time
-seo_title: "Ammortamento: distribuire un costo nel tempo | Edunancial"
-meta_description: "Introduce l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 27
-summary: "Introduce l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta."
+locale: it
+title: "L'ammortamento: distribuire un costo nel tempo"
+summary: "Presenta l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-027: Ammortamento: distribuire un costo nel tempo
+# L'ammortamento: distribuire un costo nel tempo
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire l'ammortamento
-- Spiegare perché il costo viene distribuito negli anni
-- Calcolare un semplice ammortamento a quote costanti
+- Definire l'ammortamento in parole semplici.
+- Spiegare perché esiste il concetto di ammortamento.
+- Distinguere i beni che probabilmente vengono ammortizzati da quelli che di solito si spesano subito.
 
 ## Contenuto principale
 
-Quando un'attività compra qualcosa che durerà molti anni, come un computer, un macchinario o un veicolo, quel bene viene usato un po' alla volta. L'ammortamento riflette questa idea: invece di dedurre tutto il costo nell'anno dell'acquisto, lo distribuisci sugli anni di utilizzo.
+Quando un'impresa compra qualcosa che userà per anni, come un veicolo, un macchinario o un edificio, di solito non ha senso dedurne l'intero costo nell'anno dell'acquisto. Molti sistemi fiscali richiedono o permettono invece di distribuire quel costo, cioè di ammortizzarlo, lungo la vita utile del bene, facendo coincidere la deduzione con gli anni in cui il bene contribuisce davvero a produrre reddito. (In Italia gli ammortamenti seguono coefficienti fissati per legge, con regole particolari per i beni di modesto valore; i dettagli cambiano.)
 
-Il metodo più semplice è l'ammortamento a quote costanti: si divide il costo per la vita utile. Un'attrezzatura da $5.000 con una vita utile di 5 anni genera $1.000 di ammortamento all'anno.
+La logica rispecchia il buon senso contabile: se un'attrezzatura sarà usata per dieci anni, trattarne l'intero costo come spesa di un solo anno sottostimerebbe l'utile del primo anno e lo sovrastimerebbe in tutti gli anni successivi. L'ammortamento rende il quadro più regolare. Al contrario, le spese di consumo quotidiane, come la cancelleria, vengono di solito dedotte subito per intero, perché non producono valore su più anni come un'attrezzatura durevole.
 
-I sistemi fiscali stabiliscono la vita utile di ogni tipo di bene e i metodi consentiti. Alcuni permettono di accelerare l'ammortamento o di dedurre tutto subito in certi casi. L'idea centrale resta la stessa: il costo dei beni durevoli si riconosce nel tempo. Anche gli immobili in affitto, che compaiono nel percorso RED, vengono spesso ammortizzati.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un panificio compra un forno professionale che dovrebbe durare dieci anni. Il costo va dedotto subito per intero o distribuito?
 
-## Esempio pratico
+**Studente:** In base a questa lezione, sembra che vada distribuito, perché il forno sarà usato per molti anni.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Perché distribuirlo dà un quadro più preciso che dedurlo tutto in una volta?
 
-**Insegnante:** Un panificio compra un forno da $10.000 che dovrebbe durare 10 anni. Quanto ammortamento a quote costanti all'anno?
+**Studente:** Perché il forno aiuta a produrre reddito in tutti e dieci gli anni, non solo nell'anno dell'acquisto, quindi abbinare il costo a quegli anni è più preciso.
 
-**Studente:** $1.000 all'anno.
+**Guida:** Esatto: è la logica di fondo dell'ammortamento.
 
-**Insegnante:** Perché non dedurre i $10.000 il primo anno?
+## Quiz di esercitazione
 
-**Studente:** Perché il forno sarà usato per 10 anni, non solo per uno.
+**Domanda 1.** L'ammortamento si descrive meglio come:
 
-**Insegnante:** Esatto. Il costo segue l'uso.
+A) Dedurre subito l'intero costo di un bene
+B) Distribuire il costo di un bene lungo la sua vita utile
+C) Ignorare del tutto il costo dei beni aziendali
+D) Un tipo di imposta sulle vendite
 
-## Quiz di verifica
+**Domanda 2.** L'ammortamento si applica di solito a:
 
-**1.** L'ammortamento è...
+A) Beni durevoli come attrezzature, veicoli o edifici
+B) La cancelleria di tutti i giorni
+C) I versamenti dell'imposta sulle vendite
+D) Le ritenute in busta paga
 
-- A) Una nuova imposta
-- B) Uno sconto sull'acquisto
-- C) La vendita di un bene
-- D) La distribuzione del costo di un bene durevole sugli anni di utilizzo
+**Domanda 3.** Perché non dedurre nel primo anno l'intero costo di un bene che dura dieci anni?
 
-**2.** Macchinario da $8.000 con vita utile di 4 anni. Ammortamento annuo a quote costanti?
+A) È vietato comprare attrezzature
+B) Distorcerebbe l'utile negli anni in cui il bene contribuisce davvero a produrre reddito
+C) Non c'è un motivo, è arbitrario
+D) L'ammortamento non riguarda le imprese
 
-- A) $2.000
-- B) $4.000
-- C) $8.000
-- D) $1.000
+**Domanda 4.** I materiali di consumo quotidiani vengono di solito:
 
-**3.** Perché usare l'ammortamento per un bene durevole?
+A) Ammortizzati in dieci anni
+B) Dedotti subito per intero
+C) Mai dedotti
+D) Trattati come immobili
 
-- A) Perché è più divertente
-- B) Perché il bene è usato per più anni
-- C) Perché il bene è usa e getta
-- D) Perché lo chiede la banca
+## Soluzioni
 
-**4.** Chi stabilisce la vita utile e i metodi consentiti?
-
-- A) Il venditore dell'attrezzatura
-- B) Il titolare, liberamente
-- C) Le regole del sistema fiscale di ciascun Paese
-- D) Il cliente
-
-## Chiave delle risposte
-
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. D) La distribuzione del costo di un bene durevole sugli anni di utilizzo** — Distribuisce il costo sulla vita utile.
+**1.** L'ammortamento abbina il costo di un bene agli anni in cui produce davvero valore, invece di concentrarlo in un solo anno.
 
-**2. A) $2.000** — $8.000 ÷ 4 = $2.000.
+**2.** I beni durevoli sono i candidati tipici all'ammortamento, a differenza dei beni di consumo di breve durata.
 
-**3. B) Perché il bene è usato per più anni** — Il costo segue il tempo di utilizzo.
+**3.** Distribuire il costo evita di distorcere il quadro dell'utile nell'anno dell'acquisto rispetto agli anni successivi.
 
-**4. C) Le regole del sistema fiscale di ciascun Paese** — Ogni sistema ha le proprie regole.
+**4.** I materiali si consumano in fretta, quindi dedurli subito rispecchia meglio il loro valore di breve periodo.
 
 ## Punti chiave
 
-- L'ammortamento distribuisce il costo dei beni durevoli
-- Quote costanti: costo ÷ vita utile
-- Le regole su vita utile e metodi variano per Paese
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- L'ammortamento distribuisce il costo di un bene lungo la sua vita utile invece di dedurlo tutto in una volta.
+- Si applica a beni durevoli come attrezzature, veicoli ed edifici.
+- Così si ottiene un quadro più preciso dell'utile d'impresa anno per anno.
+- Le spese di consumo quotidiane vengono invece di solito dedotte subito.

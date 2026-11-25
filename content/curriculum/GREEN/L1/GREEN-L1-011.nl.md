@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 11
 locale: nl
-title: "Bruto-inkomen vs. netto-inkomen"
-summary: "Verheldert het verschil tussen bruto- en netto-inkomen, een basisonderscheid voor het lezen van je loonstrook, het maken van een budget en de financiën van een bedrijf."
+title: "Bruto-inkomen en netto-inkomen"
+summary: "Verduidelijkt het verschil tussen bruto- en netto-inkomen, een basisonderscheid voor het lezen van een loonstrook, het maken van een budget en de financiën van een bedrijf."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Bruto-inkomen vs. netto-inkomen
+# Bruto-inkomen en netto-inkomen
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Bruto- en netto-inkomen definiëren
-- Herkennen wat er tussen die twee wordt ingehouden
-- Het netto-inkomen gebruiken voor een realistisch budget
+- Bruto-inkomen en netto-inkomen definiëren.
+- Uitleggen wat het verschil tussen die twee meestal veroorzaakt.
+- Het onderscheid toepassen op een voorbeeld met een salaris.
 
 ## Kerninhoud
 
-Bruto-inkomen is het totale bedrag dat je verdient vóór alle inhoudingen. Als je afgesproken salaris $4.000 per maand is, is dat je bruto.
+Bruto-inkomen is het totale bedrag dat je verdient voordat er iets van af gaat. Netto-inkomen is wat er overblijft na de inhoudingen: belastingen en vaak ook andere inhoudingen, zoals pensioenpremies of premies voor een ziektekostenverzekering. Het verschil tussen bruto en netto is het punt waarop de meeste mensen verrast worden als ze voor het eerst een echte loonstrook zien. (In Nederland gaat het daarbij onder meer om loonheffing, waarin loonbelasting en premies volksverzekeringen samenkomen, en vaak om een pensioenpremie; de details veranderen.)
 
-Netto-inkomen is wat overblijft na de inhoudingen: belastingen, pensioenpremies, zorgverzekering en andere dingen. Dat is het geld dat echt op je rekening komt.
-
-Gebruik voor je budget altijd het netto-inkomen. Uitgaven plannen op basis van je bruto is een veelgemaakte fout die je in de min brengt. Bij een bedrijf werkt het net zo: de totale omzet is niet wat de eigenaar mee naar huis neemt. Eerst gaan de kosten en belastingen eraf.
+Dit onderscheid is veel breder belangrijk dan alleen bij je loon. Bedrijven spreken met dezelfde logica over omzet en nettowinst: bruto is het totaal bovenaan, netto is wat overblijft na kosten en verplichtingen. Telkens als een bedrag "bruto" wordt genoemd, is de eerste vraag die het stellen waard: bruto van wat precies, en hoeveel kleiner wordt netto?
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** In een vacature staat een salaris van $ 60.000 per jaar. Is dat het bedrag dat elk jaar echt op de rekening komt?
 
-**Docent:** Bia is aangenomen voor $4.000 per maand en heeft al gepland om $4.000 uit te geven. Wat kan er misgaan?
+**Cursist:** Ik denk het niet, want eerst gaan er belastingen en andere inhoudingen af.
 
-**Leerling:** Ze krijgt minder dan dat.
+**Begeleider:** Klopt – hoe zou je die $ 60.000 noemen, en hoe het bedrag dat echt op de rekening komt?
 
-**Docent:** Waarom?
+**Cursist:** Die $ 60.000 is het bruto-inkomen, en het bedrag dat overblijft na belastingen en inhoudingen is het netto-inkomen.
 
-**Leerling:** Door de inhoudingen voor belasting en voorzieningen.
-
-**Docent:** Als de inhoudingen $900 zijn, hoeveel heeft ze echt?
-
-**Leerling:** $3.100. Dat getal moet ze in haar budget gebruiken.
+**Begeleider:** Precies – maak je budget altijd op basis van netto, niet bruto.
 
 ## Oefenquiz
 
-**1.** Bruto-inkomen is...
+**Vraag 1.** Bruto-inkomen is:
 
-- A) Het bedrag dat op je rekening komt
-- B) Het bedrag na belasting
-- C) Het bedrag dat je per maand uitgeeft
-- D) Het totale bedrag vóór inhoudingen
+A) Het bedrag na alle inhoudingen
+B) Het totale bedrag dat je verdient vóór inhoudingen
+C) Alleen inkomen uit beleggingen
+D) Altijd gelijk aan netto-inkomen
 
-**2.** Netto-inkomen is...
+**Vraag 2.** Netto-inkomen is:
 
-- A) Wat overblijft na de inhoudingen
-- B) Het totaal vóór inhoudingen
-- C) Het salaris van de baas
-- D) Het bedrag aan belasting
+A) Het bedrag vóór inhoudingen
+B) Wat overblijft nadat belastingen en andere inhoudingen zijn afgetrokken
+C) Los van het bruto-inkomen
+D) Altijd hoger dan het bruto-inkomen
 
-**3.** Welk bedrag gebruik je voor je budget?
+**Vraag 3.** Waarom is het verschil tussen bruto en netto belangrijk voor je budget?
 
-- A) Het bruto-inkomen
-- B) Het netto-inkomen
-- C) Het salaris van vorig jaar
-- D) Het bedrag aan belasting
+A) Het is niet belangrijk
+B) Wie op bruto in plaats van netto budgetteert, kan het beschikbare geld overschatten
+C) Netto is altijd hoger dan bruto
+D) Bruto doet er voor bedrijven niet toe
 
-**4.** Brutosalaris $5.000 met $1.200 inhoudingen geeft netto...
+**Vraag 4.** Bedrijven gebruiken een vergelijkbaar onderscheid tussen bruto en netto voor:
 
-- A) $6.200
-- B) $5.000
-- C) $3.800
-- D) $1.200
+A) Omzet en winst
+B) Niets – het bestaat alleen bij persoonlijke financiën
+C) Alleen het aantal medewerkers
+D) Alleen marketinguitgaven
 
 ## Antwoordsleutel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. A
 
 ## Antwoorden en uitleg
 
-**1. D) Het totale bedrag vóór inhoudingen** — Bruto is het totaal vóór alle inhoudingen.
+**1.** Bruto is het totaal vóór inhoudingen – het getal bovenaan dat je als eerste ziet.
 
-**2. A) Wat overblijft na de inhoudingen** — Netto is wat echt bij jou aankomt.
+**2.** Netto is het bedrag dat echt overblijft na belastingen en andere inhoudingen, en dat is wat op je rekening komt.
 
-**3. B) Het netto-inkomen** — Alleen het netto-inkomen is beschikbaar om uit te geven.
+**3.** Wie plant op het brutobedrag, loopt het risico te denken dat er meer geld te besteden is dan er werkelijk zal zijn.
 
-**4. C) $3.800** — $5.000 − $1.200 = $3.800.
+**4.** Bedrijven passen precies dezelfde logica toe op omzet (bruto) en winst (netto).
 
 ## Belangrijkste punten
 
-- Bruto is vóór de inhoudingen, netto erna
-- Inhoudingen zijn onder meer belasting en voorzieningen
-- Maak je budget op basis van het netto-inkomen
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Bruto-inkomen is het totaal vóór inhoudingen; netto-inkomen is wat erna overblijft.
+- Het verschil bestaat meestal uit belastingen en andere inhoudingen, zoals pensioen of verzekering.
+- Maak je budget altijd op basis van netto-inkomen, niet bruto-inkomen.
+- Dezelfde logica van bruto en netto geldt voor de omzet en winst van een bedrijf.

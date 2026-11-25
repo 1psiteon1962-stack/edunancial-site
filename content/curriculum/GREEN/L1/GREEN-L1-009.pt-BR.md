@@ -5,102 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 9
 locale: pt-BR
-title: "Alíquotas Marginais: Por Que Ganhar Mais Não Significa Perder Mais"
-summary: "Esclarece um dos equívocos mais comuns em finanças pessoais: a ideia de que subir para uma faixa de imposto mais alta faz toda a sua renda ser tributada pela alíquota maior."
+title: "Alíquotas marginais: por que ganhar mais não significa perder mais"
+summary: "Esclarece um dos equívocos mais comuns das finanças pessoais: que passar para uma faixa de imposto mais alta faz toda a sua renda ser tributada pela alíquota maior."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Alíquotas Marginais: Por Que Ganhar Mais Não Significa Perder Mais
+# Alíquotas marginais: por que ganhar mais não significa perder mais
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar o que é uma alíquota marginal.
+- Corrigir o equívoco comum de que um aumento pode deixar você com menos dinheiro no total.
+- Diferenciar a alíquota marginal da alíquota média (efetiva).
 
-- Definir alíquota marginal
-- Corrigir o mito de que um aumento pode reduzir sua renda líquida
-- Diferenciar alíquota marginal de alíquota efetiva
+## Conteúdo principal
 
-## Conteúdo Principal
+Um dos equívocos mais persistentes das finanças pessoais é o medo de que ganhar mais dinheiro vai, de algum jeito, deixar você em situação pior, porque vai "empurrar você para uma faixa mais alta". Nos sistemas que usam faixas marginais, esse medo quase sempre não tem fundamento.
 
-Muita gente recusa um aumento com medo de "mudar de faixa" e acabar ganhando menos. Em sistemas com faixas progressivas, isso é um mito. Apenas a parte da renda que passa do limite da faixa é tributada pela alíquota mais alta.
+Veja como as alíquotas marginais realmente funcionam: a alíquota de cada faixa se aplica só à parte da renda que cai naquela faixa, e não à renda inteira. Se um sistema tributa a renda até certo valor em 10% e a parte seguinte em 20%, passar para a faixa de 20% significa só que essa parte adicional é tributada em 20%. A parte anterior continua sendo tributada em 10%, exatamente como antes. (O imposto de renda brasileiro também usa faixas progressivas com essa lógica; os valores mudam com o tempo.)
 
-A alíquota marginal é a porcentagem aplicada ao seu próximo dólar ganho. A alíquota efetiva é quanto você paga, no total, dividido pela sua renda total. A efetiva é sempre menor ou igual à marginal, porque as primeiras partes da renda são tributadas por alíquotas mais baixas.
+Isso significa que a sua alíquota média, ou "efetiva" (o total de imposto pago dividido pela renda total), é sempre menor do que a sua alíquota marginal mais alta. Um aumento que leva você a uma faixa mais alta pode fazer os reais ou dólares novos serem tributados com uma alíquota maior, mas, em um sistema marginal padrão, você nunca vai ficar com menos dinheiro no total por causa de um aumento. Entender isso elimina um medo comum e desnecessário em relação a promoções, aumentos e crescimento do negócio.
 
-Na prática, isso quer dizer que um aumento de salário quase sempre deixa você com mais dinheiro no bolso, mesmo que a última parte seja tributada a uma alíquota maior. Antes de recusar uma oportunidade por causa de imposto, entenda como funciona o sistema do seu país.
+## Exemplo prático
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Pergunta:** Um amigo recusa um aumento com medo de que ele "o empurre para uma faixa mais alta e o deixe com menos dinheiro". O que você diria a ele?
 
-## Exemplo Prático
+**Aluno:** Eu explicaria que só a renda nova, adicional, é tributada pela alíquota mais alta, e não tudo o que ele ganha.
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Guia:** Isso. Você consegue explicar por que isso significa que ele nunca ficaria com menos dinheiro líquido no total por causa de um aumento?
 
-**Professor:** Em nosso exemplo, a renda até $40.000 paga 20% e o que passa disso paga 30%. Luísa ganhava $40.000 e recebeu um aumento para $41.000. Ela vai pagar 30% sobre tudo?
+**Aluno:** Porque o resto da renda dele continua sendo tributado pelas mesmas alíquotas menores de sempre; a alíquota maior só atinge a parte acima do limite.
 
-**Aluno:** Acho que sim, ela mudou de faixa.
+**Guia:** Exatamente: o medo vem de um mal-entendido sobre como as faixas realmente se aplicam.
 
-**Professor:** Olhe de novo. Qual parte da renda passou do limite?
+## Teste de prática
 
-**Aluno:** Só os $1.000 a mais.
+**Pergunta 1.** Uma alíquota marginal se aplica a:
 
-**Professor:** Então quanto imposto extra ela paga sobre o aumento?
+A) Toda a sua renda de uma vez
+B) Só à parte da renda que está dentro daquela faixa específica
+C) Só ao seu primeiro salário
+D) A nada: é um mito
 
-**Aluno:** 30% de $1.000, que dá $300. Ela ainda fica com $700 a mais. O aumento valeu a pena!
+**Pergunta 2.** Se, em um sistema marginal, um aumento leva você a uma faixa mais alta, sua renda líquida total diminui?
 
-## Quiz de Prática
+A) Sim, sempre
+B) Não: só a parte nova é tributada pela alíquota mais alta
+C) Só para autônomos
+D) Só em alguns países, nunca em outros
 
-**1.** A alíquota marginal é...
+**Pergunta 3.** Sua alíquota efetiva (média) é:
 
-- A) A alíquota sobre toda a renda
-- B) A alíquota aplicada ao próximo dólar ganho
-- C) A média de impostos do país
-- D) A alíquota do imposto sobre vendas
+A) Sempre igual à sua alíquota marginal mais alta
+B) Sempre maior que a sua alíquota marginal mais alta
+C) Normalmente menor que a sua alíquota marginal mais alta
+D) Sem relação com a sua renda
 
-**2.** Ao passar para uma faixa mais alta, o que acontece?
+**Pergunta 4.** O medo de que "um aumento pode deixar você com menos dinheiro" é, em geral:
 
-- A) Toda a renda passa a pagar a alíquota maior
-- B) O imposto é zerado
-- C) Só a parte acima do limite paga a alíquota maior
-- D) A renda líquida sempre cai
-
-**3.** Como se calcula a alíquota efetiva?
-
-- A) Renda dividida pelo número de meses
-- B) A maior alíquota da tabela
-- C) A menor alíquota da tabela
-- D) Imposto total dividido pela renda total
-
-**4.** Na maioria dos sistemas com faixas, um aumento de salário...
-
-- A) Normalmente aumenta a renda líquida
-- B) Sempre reduz a renda líquida
-- C) Não muda nada
-- D) Elimina o imposto de renda
+A) Correto nos sistemas marginais
+B) Um equívoco comum sobre como as faixas funcionam
+C) Verdadeiro só para os ricos
+D) Impossível de avaliar
 
 ## Gabarito
 
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. C, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. B) A alíquota aplicada ao próximo dólar ganho** — Ela se aplica à última parte, ou próxima parte, da renda.
+**1.** As alíquotas marginais se aplicam faixa por faixa, e não como uma alíquota única sobre a renda total.
 
-**2. C) Só a parte acima do limite paga a alíquota maior** — Esse é exatamente o mito que a lição corrige.
+**2.** Como só a renda nova acima do limite é tributada pela alíquota mais alta, a renda líquida total nunca diminui por causa de um aumento em um sistema marginal padrão.
 
-**3. D) Imposto total dividido pela renda total** — A efetiva mostra quanto, em média, você pagou.
+**3.** Misturar as alíquotas das faixas mais baixas e mais altas sobre toda a renda sempre resulta em uma média abaixo da alíquota mais alta.
 
-**4. A) Normalmente aumenta a renda líquida** — Como só a parte extra paga mais, você ainda fica com mais dinheiro.
+**4.** Esse medo é muito comum, mas não se sustenta quando se entende como as faixas realmente se aplicam.
 
-## Principais Lições
+## Pontos-chave
 
-- Só a parte da renda acima do limite paga a alíquota mais alta
-- Alíquota marginal ≠ alíquota efetiva
-- Um aumento normalmente deixa você com mais dinheiro, não menos
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- As alíquotas marginais se aplicam só à renda dentro de cada faixa específica.
+- Em um sistema marginal padrão, um aumento nunca resulta em menos renda líquida total.
+- Sua alíquota efetiva é uma média ponderada, sempre abaixo da sua alíquota marginal mais alta.
+- Entender isso elimina medos desnecessários em relação a aumentos, promoções e crescimento do negócio.

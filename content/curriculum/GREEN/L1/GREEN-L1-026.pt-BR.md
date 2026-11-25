@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 26
 locale: pt-BR
-title: "Noções Básicas da Dedução de Escritório em Casa"
-summary: "Apresenta o conceito de deduzir parte das despesas da casa quando uma parte dela é usada para o negócio, com foco na lógica principal de elegibilidade."
+title: "Noções básicas da dedução do escritório em casa"
+summary: "Apresenta a ideia de deduzir parte das despesas da casa quando parte dela é usada para o negócio, com foco na lógica central dos requisitos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Noções Básicas da Dedução de Escritório em Casa
+# Noções básicas da dedução do escritório em casa
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar a lógica geral da dedução do escritório em casa.
+- Identificar o princípio comum dos requisitos (uso regular e exclusivo).
+- Reconhecer por que essa dedução exige documentação cuidadosa.
 
-- Explicar a ideia da dedução de escritório em casa
-- Entender a lógica de uso regular e exclusivo
-- Calcular uma proporção simples de área
+## Conteúdo principal
 
-## Conteúdo Principal
+Quando parte de uma casa é usada de forma regular e exclusiva para o negócio, muitos sistemas permitem deduzir uma parte das despesas da casa, como aluguel, contas de consumo ou parte dos juros de um financiamento, proporcionalmente ao quanto da casa é usado para o negócio. A ideia central dos requisitos, na maioria dos sistemas, é o "uso regular e exclusivo": o espaço precisa ser usado com constância para o negócio e, em geral, só para isso, e não como quarto de hóspedes que às vezes vira escritório. (No Brasil, por exemplo, o autônomo que usa o livro-caixa pode deduzir parte de certas despesas do imóvel usado na atividade, dentro de regras próprias que mudam.)
 
-Muita gente trabalha em casa. Alguns sistemas tributários permitem deduzir parte das despesas da casa, como aluguel, energia e internet, quando uma parte dela é usada para o negócio.
+Essa dedução é valiosa, mas em alguns sistemas tributários historicamente recebe atenção redobrada, justamente porque a linha entre o uso pessoal e o uso profissional da casa pode ficar borrada. Isso a torna um ótimo exemplo prático de por que a lição anterior sobre organização de documentos importa: documentar com clareza o uso exclusivamente profissional do espaço, e como a parte dedutível foi calculada, é o que torna essa dedução defensável.
 
-A lógica mais comum é: o espaço precisa ser usado de forma regular e, em muitos casos, exclusiva para o negócio. Uma mesa na sala onde a família também janta e assiste TV geralmente não se qualifica. Um quarto usado só como escritório tem mais chance.
+## Exemplo prático
 
-Um método comum é calcular a proporção da área. Se o escritório ocupa 10% da casa, cerca de 10% de certas despesas podem ser consideradas. Regras, métodos e limites variam muito; essa é uma área em que vale conversar com um profissional.
+**Pergunta:** Um freelancer trabalha em um quarto de hóspedes que também recebe visitas duas vezes por ano. Esse quarto atende claramente ao critério de "uso regular e exclusivo"?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Parece um caso limite, já que ele não é usado só para o trabalho.
 
-## Exemplo Prático
+**Guia:** O que deixaria o caso mais claro, para um lado ou para o outro?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Se o quarto fosse usado só para trabalhar, com uma mesa própria e nenhum outro uso, ele se qualificaria claramente. O uso eventual para visitas deixa isso confuso.
 
-**Professor:** Fernando mora num apartamento de 100 m² e usa um quarto de 15 m² só como escritório. Qual a proporção?
+**Guia:** Isso: é justamente nesse tipo de zona cinzenta que a documentação e uma organização clara e constante do espaço mais importam.
 
-**Aluno:** 15 de 100, então 15%.
+## Teste de prática
 
-**Professor:** Se o aluguel anual for $12.000, que parte pode ser relacionada ao escritório?
+**Pergunta 1.** A dedução do escritório em casa geralmente se aplica quando um espaço é:
 
-**Aluno:** 15% de $12.000, que dá $1.800.
+A) Usado de vez em quando para qualquer coisa
+B) Usado de forma regular e exclusiva para o negócio
+C) Usado só nos fins de semana
+D) Próprio, e não alugado
 
-**Professor:** E se ele usasse a mesa da cozinha?
+**Pergunta 2.** O que normalmente pode ser deduzido, proporcionalmente, por essa regra?
 
-**Aluno:** Provavelmente não valeria, porque o espaço não é exclusivo do negócio.
+A) Todas as despesas da casa, independentemente do uso no negócio
+B) Parte de despesas como aluguel, contas de consumo ou juros do financiamento, conforme a proporção de uso no negócio
+C) Nada relacionado à moradia
+D) Só compras de móveis
 
-## Quiz de Prática
+**Pergunta 3.** Por que essa dedução historicamente recebe atenção redobrada em alguns sistemas?
 
-**1.** A dedução de escritório em casa permite...
+A) Ela é pouco usada
+B) A linha entre o uso pessoal e o profissional pode ficar borrada
+C) Ela não existe de verdade
+D) Ela só vale para grandes empresas
 
-- A) Deduzir toda a casa
-- B) Não pagar aluguel
-- C) Deduzir parte das despesas da casa usada para o negócio
-- D) Deduzir férias
+**Pergunta 4.** Qual lição anterior é especialmente importante para defender essa dedução?
 
-**2.** Qual espaço tem mais chance de se qualificar?
-
-- A) A mesa de jantar da família
-- B) O sofá da sala
-- C) A varanda compartilhada
-- D) Um quarto usado só como escritório
-
-**3.** Escritório de 20 m² numa casa de 200 m². Qual a proporção?
-
-- A) 10%
-- B) 20%
-- C) 5%
-- D) 50%
-
-**4.** Sobre as regras dessa dedução...
-
-- A) São iguais no mundo todo
-- B) Variam bastante; vale consultar um profissional
-- C) Não existem regras
-- D) Qualquer uso serve
+A) Bens públicos
+B) Organização de documentos
+C) Imposto sobre vendas
+D) Situação na declaração
 
 ## Gabarito
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) Deduzir parte das despesas da casa usada para o negócio** — Só a parte usada para o negócio entra.
+**1.** O "uso regular e exclusivo" é o princípio comum dos requisitos em muitos sistemas que oferecem essa dedução.
 
-**2. D) Um quarto usado só como escritório** — Uso regular e exclusivo é a lógica mais comum.
+**2.** A dedução geralmente é proporcional, ligada ao quanto da casa é realmente usado para o negócio.
 
-**3. A) 10%** — 20 ÷ 200 = 10%.
+**3.** Como o uso pessoal e o profissional podem se sobrepor em uma casa, essa área costuma ser analisada com mais cuidado.
 
-**4. B) Variam bastante; vale consultar um profissional** — Métodos e limites mudam por país.
+**4.** Uma documentação sólida é exatamente o que torna a dedução do escritório em casa defensável caso seja questionada.
 
-## Principais Lições
+## Pontos-chave
 
-- Parte das despesas da casa pode ser dedutível se usada para o negócio
-- A lógica comum é uso regular e exclusivo
-- Um método comum é a proporção da área
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- A dedução do escritório em casa geralmente exige uso regular e exclusivo do espaço para o negócio.
+- A dedução é proporcional ao quanto da casa é usado para o negócio.
+- Essa área costuma receber atenção redobrada porque o uso pessoal e o profissional podem se misturar.
+- Uma documentação cuidadosa é essencial para defender essa dedução.

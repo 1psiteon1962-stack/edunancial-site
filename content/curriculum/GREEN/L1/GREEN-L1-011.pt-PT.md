@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 11
 locale: pt-PT
-title: "Rendimento Bruto vs. Rendimento Líquido"
-summary: "Esclarece a diferença entre rendimento bruto e líquido, uma distinção básica para ler recibos de vencimento, fazer um orçamento e perceber as finanças de um negócio."
+title: "Rendimento bruto e rendimento líquido"
+summary: "Esclarece a diferença entre rendimento bruto e rendimento líquido, uma distinção fundamental para ler o recibo de vencimento, fazer um orçamento e compreender as finanças de uma empresa."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Rendimento Bruto vs. Rendimento Líquido
+# Rendimento bruto e rendimento líquido
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir rendimento bruto e rendimento líquido.
+- Explicar o que causa normalmente a diferença entre os dois.
+- Aplicar a distinção a um exemplo de salário.
 
-- Definir rendimento bruto e rendimento líquido
-- Identificar o que é descontado entre um e outro
-- Usar o rendimento líquido para fazer um orçamento realista
+## Conteúdo principal
 
-## Conteúdo Principal
+O rendimento bruto é o montante total ganho antes de qualquer desconto. O rendimento líquido é o que resta depois dos descontos: impostos e, muitas vezes, outros descontos, como contribuições para a reforma ou prémios de seguros de saúde. A diferença entre bruto e líquido é o ponto em que a maioria das pessoas fica surpreendida da primeira vez que vê um recibo de vencimento real. (Em Portugal, entre o bruto e o líquido estão normalmente a retenção na fonte de IRS e as contribuições para a Segurança Social; as regras mudam.)
 
-O rendimento bruto é o valor total que ganhas antes de qualquer desconto. Se o teu salário combinado é de $4.000 por mês, esse é o teu bruto.
+Esta distinção importa muito para além do recibo de vencimento. As empresas falam de receitas e de lucro líquido com a mesma lógica: o bruto é o total no topo, o líquido é o que resta depois dos custos e das obrigações. Sempre que um número for descrito como "bruto", a primeira pergunta que vale a pena fazer é: bruto de quê, exatamente, e quanto mais pequeno será o líquido?
 
-O rendimento líquido é o que sobra depois dos descontos: impostos, contribuições para a reforma, seguro de saúde e outros. É o dinheiro que realmente cai na tua conta.
+## Exemplo prático
 
-Para fazer um orçamento, usa sempre o rendimento líquido. Planear gastos com base no bruto é um erro comum que leva a contas no vermelho. Num negócio, a lógica é parecida: a receita total não é o que o dono leva para casa. Primeiro saem as despesas e os impostos.
+**Pergunta:** Uma oferta de emprego indica um salário de 60 000 $ por ano. É esse o montante que vai realmente entrar na conta todos os anos?
 
-## Exemplo Prático
+**Aluno:** Diria que não, porque primeiro saem os impostos e outros descontos.
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Guia:** Certo. Como chamaria aos 60 000 $, e como chamaria ao montante que entra realmente na conta?
 
-**Professor:** A Bia foi contratada por $4.000 por mês e já planeou gastar $4.000. O que pode correr mal?
+**Aluno:** Os 60 000 $ são o rendimento bruto, e o montante que resta depois dos impostos e descontos é o rendimento líquido.
 
-**Aluno:** Ela vai receber menos do que isso.
+**Guia:** Exatamente: faça sempre o orçamento com base no líquido, e não no bruto.
 
-**Professor:** Porquê?
+## Teste de prática
 
-**Aluno:** Por causa dos descontos de impostos e benefícios.
+**Pergunta 1.** O rendimento bruto é:
 
-**Professor:** Se os descontos forem de $900, quanto tem de facto?
+A) O montante depois de todos os descontos
+B) O montante total ganho antes de qualquer desconto
+C) Apenas o rendimento de investimentos
+D) Sempre igual ao rendimento líquido
 
-**Aluno:** $3.100. É esse o número que deve usar no orçamento.
+**Pergunta 2.** O rendimento líquido é:
 
-## Questionário de Treino
+A) O montante antes dos descontos
+B) O que resta depois de subtrair impostos e outros descontos
+C) Sem relação com o rendimento bruto
+D) Sempre superior ao rendimento bruto
 
-**1.** O rendimento bruto é...
+**Pergunta 3.** Porque é que a diferença entre bruto e líquido importa para o orçamento?
 
-- A) O valor que cai na conta
-- B) O valor depois dos impostos
-- C) O valor gasto no mês
-- D) O valor total antes dos descontos
+A) Não importa
+B) Fazer o orçamento com o bruto em vez do líquido pode levar a sobrestimar o dinheiro disponível
+C) O líquido é sempre superior ao bruto
+D) O bruto não importa para as empresas
 
-**2.** O rendimento líquido é...
+**Pergunta 4.** As empresas usam uma distinção semelhante entre bruto e líquido para:
 
-- A) O que sobra depois dos descontos
-- B) O total antes dos descontos
-- C) O salário do chefe
-- D) O valor dos impostos
-
-**3.** Que valor deves usar para fazer um orçamento?
-
-- A) O rendimento bruto
-- B) O rendimento líquido
-- C) O salário do ano anterior
-- D) O valor dos impostos
-
-**4.** Salário bruto de $5.000 com $1.200 de descontos dá um líquido de...
-
-- A) $6.200
-- B) $5.000
-- C) $3.800
-- D) $1.200
+A) Receitas e lucro
+B) Nada: só existe nas finanças pessoais
+C) Apenas o número de trabalhadores
+D) Apenas os gastos de marketing
 
 ## Chave de Respostas
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. A
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) O valor total antes dos descontos** — O bruto é o total antes de qualquer desconto.
+**1.** O bruto é o total antes dos descontos: o número principal, que aparece primeiro.
 
-**2. A) O que sobra depois dos descontos** — O líquido é o que realmente chega até ti.
+**2.** O líquido é o montante que resta realmente depois dos impostos e de outros descontos, e é esse que chega à sua conta.
 
-**3. B) O rendimento líquido** — Só o rendimento líquido está disponível para gastar.
+**3.** Planear com base no valor bruto pode levá-lo a pensar que tem mais dinheiro para gastar do que realmente terá.
 
-**4. C) $3.800** — $5.000 − $1.200 = $3.800.
+**4.** As empresas aplicam exatamente a mesma lógica às receitas (bruto) e ao lucro (líquido).
 
-## Pontos-Chave
+## Pontos-chave
 
-- Bruto é antes dos descontos; líquido é depois
-- Os descontos incluem impostos e benefícios
-- Faz o orçamento com base no rendimento líquido
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- O rendimento bruto é o total antes dos descontos; o rendimento líquido é o que resta depois deles.
+- A diferença corresponde normalmente a impostos e a outros descontos, como reforma ou seguros.
+- Faça sempre o orçamento com base no rendimento líquido, e não no bruto.
+- A mesma lógica de bruto e líquido aplica-se às receitas e ao lucro de uma empresa.

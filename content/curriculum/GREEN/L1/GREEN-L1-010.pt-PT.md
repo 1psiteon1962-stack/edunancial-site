@@ -5,106 +5,94 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 10
 locale: pt-PT
-title: "Escalões de Imposto Explicados"
-summary: "Um passo a passo concreto de como os escalões de imposto são estruturados e aplicados, com base direta no conceito de taxa marginal."
+title: "Escalões de imposto explicados"
+summary: "Uma explicação concreta, passo a passo, de como os escalões de imposto são estruturados e aplicados, com base direta no conceito de taxa marginal."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Escalões de Imposto Explicados
+# Escalões de imposto explicados
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Ler e interpretar uma tabela simples de escalões de imposto.
+- Calcular o imposto devido em vários escalões para um rendimento de exemplo.
+- Reforçar o conceito de taxa marginal com um exemplo numérico.
 
-- Explicar como funciona uma tabela de escalões
-- Calcular o imposto de um rendimento usando escalões de exemplo
-- Calcular a taxa efetiva a partir do resultado
+## Conteúdo principal
 
-## Conteúdo Principal
+Com base na lição anterior, vamos percorrer os escalões com números concretos. Imagine uma tabela de escalões simplificada e ilustrativa: o rendimento de 0 $ a 10 000 $ é tributado a 10%; o rendimento de 10 001 $ a 40 000 $ a 20%; e o rendimento acima de 40 000 $ a 30%.
 
-Uma tabela de escalões divide o rendimento em "degraus". Cada degrau tem a sua própria taxa. O teu rendimento vai enchendo os degraus de baixo para cima, como água a encher uma escada de copos.
+Quem ganha 50 000 $ não paga 30% sobre os 50 000 $ inteiros. Em vez disso: os primeiros 10 000 $ são tributados a 10% (1000 $), os 30 000 $ seguintes (de 10 001 $ a 40 000 $) a 20% (6000 $) e os restantes 10 000 $ (de 40 001 $ a 50 000 $) a 30% (3000 $). O imposto total devido é de 10 000 $, o que corresponde a uma taxa efetiva de 20%, bem abaixo do escalão mais alto, de 30%.
 
-Para calcular o imposto, calculas o valor de cada escalão separadamente e somas tudo. A primeira parte do rendimento paga a taxa mais baixa, a parte seguinte paga a seguinte, e assim por diante.
+Este cálculo passo a passo, escalão a escalão, é exatamente o que significa tributação marginal na prática. Os valores reais dos escalões variam de país para país e mudam ao longo do tempo, por isso os montantes aqui são apenas ilustrativos: o método de cálculo é a competência duradoura e transferível.
 
-Os limites e as taxas reais mudam de país para país e, muitas vezes, de ano para ano. Os números abaixo são apenas um exemplo para praticar o método. O que importa é o método: funciona em qualquer sistema com escalões progressivos.
+> **Nota:** as percentagens e os limites desta lição são números didáticos ilustrativos, e não valores de um país específico. Confirme os escalões reais e atuais do seu país.
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+## Exemplo prático
 
-## Exemplo Prático
+**Pergunta:** Com os escalões ilustrativos acima, quanto imposto deveria alguém que ganha exatamente 40 000 $?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Vou fazer por ordem: os primeiros 10 000 $ a 10% dão 1000 $.
 
-**Professor:** Tabela de exemplo: até $10.000 paga 10%; de $10.000 a $40.000 paga 20%; acima de $40.000 paga 30%. O Pedro ganha $50.000. Vamos por partes. Quanto paga no primeiro escalão?
+**Guia:** Muito bem, continue.
 
-**Aluno:** 10% de $10.000, que dá $1.000.
+**Aluno:** Os restantes 30 000 $, de 10 001 $ a 40 000 $, são tributados a 20%, o que dá 6000 $.
 
-**Professor:** E no segundo escalão, de $10.000 a $40.000?
+**Guia:** E alguma parte é tributada a 30%?
 
-**Aluno:** São $30.000 a 20%. Dá $6.000.
+**Aluno:** Não: a pessoa não ganhou nada acima de 40 000 $, por isso o escalão dos 30% nunca se aplica. O total é 1000 $ + 6000 $ = 7000 $.
 
-**Professor:** E o que sobra acima de $40.000?
+**Guia:** Exatamente, e repare que a taxa efetiva é de 17,5%, e não de 20% nem de 30%.
 
-**Aluno:** $10.000 a 30%, que dá $3.000. Total: $10.000 de imposto.
+## Teste de prática
 
-**Professor:** Qual é a taxa efetiva dele?
+**Pergunta 1.** Com os escalões ilustrativos desta lição, que parte de um rendimento de 50 000 $ é tributada a 30%?
 
-**Aluno:** $10.000 a dividir por $50.000. Dá 20%, mesmo com o escalão mais alto nos 30%.
+A) Os 50 000 $ inteiros
+B) 10 000 $
+C) 30 000 $
+D) 0 $
 
-## Questionário de Treino
+**Pergunta 2.** Qual é o imposto total ilustrativo devido sobre 50 000 $ neste exemplo?
 
-**1.** Como é distribuído o rendimento numa tabela de escalões?
+A) 15 000 $
+B) 10 000 $
+C) 5000 $
+D) 20 000 $
 
-- A) Todo de uma vez no escalão mais alto
-- B) Ao acaso
-- C) A encher os escalões de baixo para cima
-- D) Só no escalão mais baixo
+**Pergunta 3.** A taxa efetiva no exemplo de 50 000 $ é:
 
-**2.** Com a tabela do exemplo, quanto imposto paga um rendimento de $10.000?
+A) 30%
+B) 20%
+C) 10%
+D) 0%
 
-- A) $2.000
-- B) $3.000
-- C) $0
-- D) $1.000
+**Pergunta 4.** Os valores específicos dos escalões desta lição devem ser memorizados como valores reais?
 
-**3.** Com a tabela do exemplo, quanto paga um rendimento de $40.000?
-
-- A) $7.000
-- B) $4.000
-- C) $12.000
-- D) $8.000
-
-**4.** Os números da tabela desta lição são...
-
-- A) As taxas oficiais de todos os países
-- B) Um exemplo para praticar o método
-- C) Fixos para sempre
-- D) Válidos só para empresas
+A) Sim, aplicam-se em todo o lado
+B) Não: são ilustrativos; os escalões reais variam de país para país e mudam ao longo do tempo
+C) Sim, mas apenas para um país
+D) Não têm importância para a lição
 
 ## Chave de Respostas
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) A encher os escalões de baixo para cima** — Cada parte do rendimento cai no seu próprio escalão, começando pelo mais baixo.
+**1.** Apenas a parte do rendimento acima de 40 000 $, ou seja, 10 000 $, se insere no escalão dos 30%.
 
-**2. D) $1.000** — $10.000 fica todo no primeiro escalão: 10% = $1.000.
+**2.** Somando 1000 $ + 6000 $ + 3000 $ nos três escalões, obtém-se um total de 10 000 $.
 
-**3. A) $7.000** — $1.000 no primeiro escalão + $6.000 no segundo = $7.000.
+**3.** Dividindo o imposto total (10 000 $) pelo rendimento total (50 000 $), obtém-se uma taxa efetiva de 20%.
 
-**4. B) Um exemplo para praticar o método** — As tabelas reais variam; aqui aprende-se o método.
+**4.** Os montantes são um instrumento didático; o método de cálculo é o que se transfere para qualquer tabela de escalões real.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Os escalões dividem o rendimento em degraus com taxas diferentes
-- Calcula cada escalão separadamente e soma
-- A taxa efetiva é sempre menor ou igual ao escalão mais alto atingido
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Os escalões aplicam-se passo a passo, e cada taxa só atinge o rendimento dentro do seu escalão.
+- Fazer as contas de forma concreta reforça porque é que o conceito de taxa marginal importa na prática.
+- A taxa efetiva é sempre uma média, e sempre inferior ao escalão mais alto atingido.
+- Os números usados aqui são ilustrativos: confirme sempre a tabela de escalões real do seu país.

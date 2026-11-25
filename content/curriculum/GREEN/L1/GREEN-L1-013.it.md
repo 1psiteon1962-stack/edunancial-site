@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-013
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 13
-title: "Che cos'è la ritenuta alla fonte?"
-source_title: "What Is Withholding?"
-description: "Spiega la ritenuta d'imposta alla fonte — perché i datori di lavoro trattengono una stima dell'imposta prima di pagarti, invece di aspettare un unico pagamento più tardi."
-slug: what-is-withholding
-seo_title: "Che cos'è la ritenuta alla fonte? | Edunancial"
-meta_description: "Spiega la ritenuta d'imposta alla fonte — perché i datori di lavoro trattengono una stima dell'imposta prima di pagarti, invece di aspettare un unico pagamento più tardi."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 13
-summary: "Spiega la ritenuta d'imposta alla fonte — perché i datori di lavoro trattengono una stima dell'imposta prima di pagarti, invece di aspettare un unico pagamento più tardi."
+locale: it
+title: "Che cos'è la ritenuta d'imposta?"
+summary: "Spiega la ritenuta d'imposta: perché i datori di lavoro trattengono l'imposta stimata prima di pagarti, invece di aspettare un unico versamento più avanti."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-013: Che cos'è la ritenuta alla fonte?
+# Che cos'è la ritenuta d'imposta?
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire la ritenuta alla fonte
-- Spiegare perché gli Stati usano questo sistema
-- Capire che la ritenuta è una stima, non l'importo finale
+- Definire la ritenuta d'imposta in parole semplici.
+- Spiegare perché la ritenuta esiste come sistema di "pagamento man mano".
+- Riconoscere la ritenuta come una stima, non come il conto finale delle imposte.
 
 ## Contenuto principale
 
-La ritenuta alla fonte avviene quando il datore di lavoro trattiene una parte del tuo stipendio e la invia direttamente allo Stato, come anticipo della tua imposta sul reddito. Ricevi lo stipendio già al netto di questa somma.
+La ritenuta d'imposta è il denaro che il datore di lavoro trattiene in anticipo dallo stipendio e versa direttamente allo Stato per conto tuo, come pagamento stimato in acconto sulla tua imposta futura. Invece di aspettare la fine dell'anno per un unico grande pagamento, la maggior parte dei sistemi riscuote l'imposta gradualmente, busta paga dopo busta paga, durante tutto l'anno. (In Italia il datore di lavoro agisce come sostituto d'imposta e trattiene l'IRPEF in busta paga; i dettagli cambiano nel tempo.)
 
-Perché funziona così? Per lo Stato è un modo per ricevere il denaro nel corso dell'anno. Per te evita un conto enorme tutto insieme a fine anno, che molti non riuscirebbero a pagare.
+È importante capire che la ritenuta è una stima, non l'ultima parola. Alla fine del periodo d'imposta, l'imposta effettivamente dovuta viene calcolata sulla base del reddito totale, delle deduzioni e delle detrazioni, e quel numero viene confrontato con quanto è stato trattenuto. Se è stato trattenuto troppo, di solito ricevi un rimborso. Se è stato trattenuto troppo poco, di solito devi versare la differenza. L'importo delle ritenute si basa spesso su informazioni fornite dal lavoratore, come il reddito previsto e la situazione familiare: per questo i cambiamenti di vita (un nuovo lavoro, il matrimonio, un nuovo figlio a carico) sono un buon motivo per rivedere le impostazioni delle ritenute.
 
-La ritenuta è una stima. Viene calcolata in base al tuo stipendio e alle informazioni che hai dato al datore di lavoro. A fine anno, la dichiarazione dei redditi confronta quanto è stato trattenuto con quanto dovevi davvero. Se è stato trattenuto troppo, puoi ricevere un rimborso. Se troppo poco, potresti dover pagare la differenza.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Il datore di lavoro di un lavoratore trattiene l'imposta da ogni busta paga per tutto l'anno. A fine anno il lavoratore deve comunque presentare qualcosa?
 
-## Esempio pratico
+**Studente:** Direi di no, visto che l'imposta è già stata trattenuta.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Ma la ritenuta è la stessa cosa della tua esatta imposta finale?
 
-**Insegnante:** Immagina che nessuno trattenga imposte dal tuo stipendio e a fine anno arrivi un conto di $6.000. Come ti sentiresti?
+**Studente:** No: hai detto che è una stima. Quindi probabilmente il lavoratore deve comunque presentare una dichiarazione, per confrontare quanto è stato trattenuto con quanto deve davvero.
 
-**Studente:** Disperato. Non avrei quei soldi da parte.
+**Guida:** Esatto: la dichiarazione confronta la stima con il numero reale, ed è per questo che esistono sia i rimborsi sia i saldi da versare.
 
-**Insegnante:** E se ti trattenessero $500 al mese?
+## Quiz di esercitazione
 
-**Studente:** Sarebbe molto più facile da gestire.
+**Domanda 1.** La ritenuta d'imposta si descrive meglio come:
 
-**Insegnante:** E se la stima fosse sbagliata?
+A) Il tuo conto finale delle imposte
+B) Un pagamento stimato in anticipo sulla tua imposta futura
+C) Una donazione volontaria
+D) Denaro che non riavrai mai
 
-**Studente:** Allora la dichiarazione di fine anno corregge: o ricevo un rimborso o pago la differenza.
+**Domanda 2.** Se durante l'anno viene trattenuta troppa imposta, il risultato tipico è:
 
-## Quiz di verifica
+A) Una sanzione
+B) Un rimborso
+C) Non succede nulla
+D) Devi il doppio
 
-**1.** La ritenuta alla fonte è...
+**Domanda 3.** Se viene trattenuta troppo poca imposta, il risultato tipico è:
 
-- A) Un bonus pagato dal datore di lavoro
-- B) Una trattenuta sullo stipendio inviata allo Stato come anticipo dell'imposta
-- C) Una multa per ritardo
-- D) Un prestito della banca
+A) Un rimborso
+B) Potresti dover versare altra imposta con la dichiarazione
+C) Non succede nulla
+D) Vieni licenziato
 
-**2.** Qual è un vantaggio della ritenuta per il lavoratore?
+**Domanda 4.** Un buon motivo per rivedere le impostazioni delle ritenute è:
 
-- A) Non dover mai pagare imposte
-- B) Aumentare lo stipendio lordo
-- C) Evitare un conto grande tutto insieme a fine anno
-- D) Eliminare la dichiarazione
+A) Un grande cambiamento di vita, come il matrimonio o un nuovo lavoro
+B) Mai: le impostazioni non si possono cambiare
+C) Solo se sei un lavoratore autonomo
+D) Solo una volta, al primo lavoro
 
-**3.** L'importo trattenuto è...
+## Soluzioni
 
-- A) Sempre esatto
-- B) Sempre zero
-- C) Scelto dal comune a fine anno
-- D) Una stima
-
-**4.** Che cosa succede se è stato trattenuto più del dovuto?
-
-- A) La persona può ricevere un rimborso
-- B) I soldi sono persi
-- C) La persona riceve una multa
-- D) Il datore di lavoro tiene la differenza
-
-## Chiave delle risposte
-
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. B, 4. A
 
 ## Risposte e spiegazioni
 
-**1. B) Una trattenuta sullo stipendio inviata allo Stato come anticipo dell'imposta** — Il datore di lavoro trattiene e versa allo Stato per tuo conto.
+**1.** La ritenuta è una stima riscossa man mano durante l'anno, non il calcolo finale.
 
-**2. C) Evitare un conto grande tutto insieme a fine anno** — L'imposta viene pagata un po' alla volta durante l'anno.
+**2.** Quanto versato in eccesso tramite ritenuta ti viene restituito come rimborso dopo che la dichiarazione ha confrontato i numeri.
 
-**3. D) Una stima** — È una stima basata sullo stipendio e sulle informazioni fornite.
+**3.** In caso di versamento insufficiente, la differenza si deve di solito quando si calcola l'imposta effettiva.
 
-**4. A) La persona può ricevere un rimborso** — La dichiarazione annuale regola la differenza.
+**4.** Poiché la ritenuta si basa sulle informazioni che fornisci, i grandi cambiamenti di vita sono un'occasione naturale per rivederla.
 
 ## Punti chiave
 
-- La ritenuta è l'imposta pagata un po' alla volta, direttamente dallo stipendio
-- È una stima, non l'importo finale
-- La dichiarazione annuale regola la differenza
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- La ritenuta è un pagamento d'imposta stimato e continuo, trattenuto dallo stipendio durante l'anno.
+- Non è la stessa cosa della tua imposta finale: la dichiarazione confronta le due cose.
+- Una ritenuta eccessiva produce un rimborso; una ritenuta insufficiente produce un saldo da versare.
+- I cambiamenti di vita sono un buon motivo per rivedere e adeguare le ritenute.

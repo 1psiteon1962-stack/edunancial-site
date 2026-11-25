@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 18
 locale: de
-title: "Veranlagungsstatus: Ledig, verheiratet, Haushaltsvorstand"
-summary: "Führt das Konzept des Veranlagungsstatus ein und erklärt, warum Familien- und Ehestand die Steuerberechnung beeinflussen können."
+title: "Veranlagungsstatus: ledig, verheiratet, alleinerziehend"
+summary: "Stellt den Begriff des Veranlagungsstatus vor und erklärt, warum Familienstand und Haushaltssituation die Steuerberechnung beeinflussen können."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Veranlagungsstatus: Ledig, verheiratet, Haushaltsvorstand
+# Veranlagungsstatus: ledig, verheiratet, alleinerziehend
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Erklären, was der Veranlagungsstatus ist
-- Die üblichen Kategorien kennen
-- Verstehen, warum die Familiensituation die Steuer verändern kann
+- Erklären, was der Veranlagungsstatus bedeutet.
+- Häufige Kategorien des Veranlagungsstatus erkennen.
+- Allgemein erklären, warum der Veranlagungsstatus das steuerliche Ergebnis beeinflussen kann.
 
 ## Kerninhalt
 
-In manchen Systemen, etwa in den USA, musst du deinen "Veranlagungsstatus" (filing status) angeben. Er beschreibt deine Familiensituation im Jahr und beeinflusst die Steuerberechnung.
+Der Veranlagungsstatus (in den USA „filing status“) ist eine Kategorie, die auf deinem Familienstand und deiner Haushaltssituation beruht und mit der viele Steuersysteme festlegen, welche Stufen, Abzugsbeträge und Voraussetzungen für dich gelten. Häufige Kategorien sind ledig, verheiratet (manchmal mit der Wahl zwischen gemeinsamer und getrennter Veranlagung) und „head of household“ (in der Regel für unverheiratete Personen, die Angehörige versorgen). (In Deutschland spielen ähnliche Überlegungen eine Rolle, etwa bei den Steuerklassen, beim Ehegattensplitting und beim Entlastungsbetrag für Alleinerziehende; die Regeln ändern sich.)
 
-Übliche Kategorien sind: ledig; verheiratet mit gemeinsamer Erklärung; verheiratet mit getrennter Erklärung; und Haushaltsvorstand (head of household), meist für unverheiratete Personen, die ein Kind oder eine andere Person im eigenen Haushalt unterhalten. Jede Kategorie kann eigene Stufen und Abzüge haben.
-
-Die Logik: Eine Familie mit Angehörigen hat andere Kosten als eine Person allein. Nicht jedes Land nutzt dieses System; in manchen gibt es andere Modelle, etwa die Zusammenveranlagung von Ehepaaren, in anderen erklärt jede Person einzeln. Veränderungen wie Heirat, Scheidung oder die Geburt eines Kindes können deinen Status ändern, also prüfe ihn, wenn sich dein Leben verändert.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Der Veranlagungsstatus ist wichtig, weil er die zugrunde liegende Berechnung verändert: Dasselbe Einkommen kann je nach Status zu einer unterschiedlichen Steuerschuld führen, weil Stufengrenzen und pauschale Abzüge für jede Kategorie oft unterschiedlich festgelegt sind. Das ist kein Schlupfloch und kein Trick; es spiegelt die politische Einschätzung wider, dass die Zusammensetzung eines Haushalts die tatsächliche finanzielle Leistungsfähigkeit einer Person oder Familie beeinflusst.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Zwei Menschen verdienen genau gleich viel, aber eine Person ist ledig und die andere versorgt als Alleinerziehende zwei Kinder. Würdest du erwarten, dass ihre Steuerberechnungen identisch sind?
 
-**Lehrer:** Camila ist unverheiratet und versorgt ihren 8-jährigen Sohn, der bei ihr lebt. Welche Kategorie gilt in den USA wahrscheinlich?
+**Schüler:** Eher nicht, weil der Veranlagungsstatus verändert, welche Stufen und Abzugsbeträge gelten.
 
-**Schüler:** Ledig?
+**Lernbegleiter:** Warum könnte das Steuersystem den Fall der alleinerziehenden Person anders behandeln?
 
-**Lehrer:** Überleg: Sie ist unverheiratet und versorgt eine Person im eigenen Haushalt.
+**Schüler:** Weil die Versorgung von Angehörigen beeinflusst, wie viel von dem Einkommen tatsächlich für den eigenen Bedarf übrig bleibt, und die Politik das berücksichtigt.
 
-**Schüler:** Dann wahrscheinlich Haushaltsvorstand.
-
-**Lehrer:** Und warum ist das wichtig?
-
-**Schüler:** Weil diese Kategorie meist günstigere Regeln hat als ledig.
+**Lernbegleiter:** Richtig – der Veranlagungsstatus spiegelt eine Einschätzung der finanziellen Leistungsfähigkeit wider, nicht nur das reine Einkommen.
 
 ## Übungsquiz
 
-**1.** Der Veranlagungsstatus beschreibt...
+**Frage 1.** Der Veranlagungsstatus beruht auf:
 
-- A) Die Art der Arbeit
-- B) Die genutzte Bank
-- C) Die Familiensituation im Jahr
-- D) Den Gesundheitszustand
+A) Deiner Berufsbezeichnung
+B) Deinem Familienstand und deiner Haushaltssituation
+C) Nur deinem Alter
+D) Deinem Geburtsland
 
-**2.** "Haushaltsvorstand" gilt meist für...
+**Frage 2.** Häufige Kategorien des Veranlagungsstatus sind:
 
-- A) Jede verheiratete Person
-- B) Unternehmer
-- C) Rentner
-- D) Unverheiratete, die eine Person im eigenen Haushalt versorgen
+A) Ledig, verheiratet, alleinerziehend
+B) Nur „beschäftigt“ und „arbeitslos“
+C) Nur „reich“ und „arm“
+D) Nur „Staatsbürger“ und „Nicht-Staatsbürger“
 
-**3.** Warum kann die Familiensituation die Steuer verändern?
+**Frage 3.** Der Veranlagungsstatus kann beeinflussen:
 
-- A) Weil Familien andere Kosten haben als Alleinstehende
-- B) Weil Verheiratete keine Steuern zahlen
-- C) Weil der Staat lost
-- D) Sie ändert nichts
+A) Nichts
+B) Die geltenden Stufen und Abzugsbeträge
+C) Nur deinen Namen auf dem Formular
+D) Nur die Umsatzsteuer
 
-**4.** Nutzen alle Länder einen Veranlagungsstatus wie in den USA?
+**Frage 4.** Warum der Veranlagungsstatus wichtig ist, wird in der Regel beschrieben als:
 
-- A) Ja, alle
-- B) Nein, es gibt andere Modelle, etwa Einzelveranlagung
-- C) Nur europäische Länder
-- D) Nur asiatische Länder
+A) Ein Schlupfloch
+B) Ausdruck unterschiedlicher finanzieller Leistungsfähigkeit je nach Zusammensetzung des Haushalts
+C) Zufall
+D) Unerheblich für die Steuerberechnung
 
 ## Lösungsschlüssel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. A, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. C) Die Familiensituation im Jahr** — Er spiegelt Familienstand und Angehörige wider.
+**1.** Die Kategorien des Veranlagungsstatus richten sich nach dem Familienstand und den Verpflichtungen im Haushalt.
 
-**2. D) Unverheiratete, die eine Person im eigenen Haushalt versorgen** — Das ist die übliche Beschreibung dieser Kategorie.
+**2.** Ledig, verheiratet und alleinerziehend sind weit verbreitete Kategorien, auch wenn die genauen Bezeichnungen je nach Land unterschiedlich sind.
 
-**3. A) Weil Familien andere Kosten haben als Alleinstehende** — Das System versucht, unterschiedliche Kosten und Verantwortung abzubilden.
+**3.** Unterschiedliche Status gehen oft mit unterschiedlichen Stufengrenzen und Abzugsbeträgen einher.
 
-**4. B) Nein, es gibt andere Modelle, etwa Einzelveranlagung** — Es ist ein Merkmal mancher Systeme, nicht aller.
+**4.** Die politische Begründung ist, dass die Zusammensetzung des Haushalts die tatsächliche finanzielle Leistungsfähigkeit beeinflusst – nicht, dass es ein Trick oder eine Lücke ist.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Der Veranlagungsstatus spiegelt Familienstand und Angehörige
-- Übliche Kategorien: ledig, verheiratet (gemeinsam/getrennt), Haushaltsvorstand
-- Prüfe ihn, wenn sich dein Leben ändert
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Der Veranlagungsstatus spiegelt Familienstand und Haushaltssituation wider.
+- Häufige Kategorien sind ledig, verheiratet und alleinerziehend.
+- Der Veranlagungsstatus beeinflusst die geltenden Stufen und Abzugsbeträge.
+- Das spiegelt politische Einschätzungen der finanziellen Leistungsfähigkeit wider, kein Schlupfloch.

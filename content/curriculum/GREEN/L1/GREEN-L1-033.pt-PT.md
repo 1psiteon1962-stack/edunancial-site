@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 33
 locale: pt-PT
-title: "Dividendos e Juros: Como São Tributados os Rendimentos de Investimentos"
-summary: "Apresenta os dividendos e os juros como duas formas comuns de rendimento de investimento, diferentes das mais-valias porque surgem por deter um bem, e não por o vender."
+title: "Dividendos e juros: como é tributado o rendimento de investimentos"
+summary: "Apresenta os dividendos e os juros como duas formas comuns de rendimento de investimentos distintas das mais-valias, porque resultam de se deter um bem e não de o vender."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Dividendos e Juros: Como São Tributados os Rendimentos de Investimentos
+# Dividendos e juros: como é tributado o rendimento de investimentos
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Distinguir dividendos e juros de mais-valias.
+- Explicar que o rendimento de dividendos e juros é geralmente tributável no ano em que é recebido.
+- Reconhecê-los como fluxos de rendimento contínuos, e não como vendas pontuais.
 
-- Definir dividendos e juros
-- Distinguir estes rendimentos das mais-valias
-- Perceber que costumam ser tributados no ano em que são recebidos
+## Conteúdo principal
 
-## Conteúdo Principal
+Até aqui, esta trilha centrou-se sobretudo nas mais-valias, o lucro da venda de um bem. Mas duas outras formas comuns de rendimento de investimentos não exigem vender nada: os dividendos (uma parte dos lucros de uma empresa paga aos acionistas, muitas vezes de forma periódica) e os juros (pagamentos recebidos por dinheiro emprestado, como numa conta de depósito ou numa obrigação). (Em Portugal, dividendos e juros são rendimentos da categoria E do IRS, normalmente sujeitos a retenção na fonte a uma taxa liberatória, com opção de englobamento em certos casos; as taxas mudam.)
 
-Nem todo o rendimento de investimento vem da venda. Os dividendos são parte do lucro que uma empresa distribui aos acionistas. Os juros são o que recebes por emprestar dinheiro, por exemplo num depósito a prazo, numa obrigação ou em certificados de aforro.
+Ao contrário das mais-valias, que normalmente dependem de uma venda, o rendimento de dividendos e juros é geralmente tributável no ano em que é recebido, independentemente de o investimento ser alguma vez vendido. Uma investidora que detém durante décadas uma ação que paga dividendos, sem vender uma única ação, continua em regra a dever imposto todos os anos sobre os dividendos recebidos nesse período. Reconhecer estes fluxos como distintos e contínuos, separados da mecânica das mais-valias, que depende da venda, completa o quadro básico de como é tributado o rendimento de investimentos.
 
-A diferença para a mais-valia é que recebes dividendos e juros enquanto manténs o investimento. Não é preciso vender nada.
+## Exemplo prático
 
-Por isso, costumam ser tributados no ano em que os recebes, mesmo que reinvistas o dinheiro. Muitos sistemas tratam juros e dividendos de forma diferente entre si, e alguns tipos de dividendos ou títulos podem ter tratamento especial.
+**Pergunta:** Uma investidora detém uma ação durante 15 anos sem nunca a vender, mas a empresa paga um dividendo todos os trimestres. Evita todo o imposto sobre essa ação só por não a vender?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, não: os próprios dividendos são geralmente tributáveis em cada ano em que os recebe, mesmo sem venda.
 
-## Exemplo Prático
+**Guia:** Então o que é tributado todos os anos, e o que só seria tributado se ela acabasse por vender?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Os dividendos são tributados à medida que são recebidos. A valorização da ação só se tornaria uma mais-valia tributável se e quando ela efetivamente a vendesse.
 
-**Professor:** A Letícia tem ações que pagaram $200 de dividendos e um depósito que rendeu $80 de juros. Vendeu alguma coisa?
+**Guia:** Exatamente: dois fluxos de rendimento diferentes, dois factos geradores diferentes.
 
-**Aluno:** Não.
+## Teste de prática
 
-**Professor:** Então teve rendimento?
+**Pergunta 1.** Um dividendo é:
 
-**Aluno:** Sim, $280, só por manter os investimentos.
+A) Um tipo de empréstimo
+B) Uma parte dos lucros de uma empresa paga aos acionistas
+C) O mesmo que uma mais-valia
+D) Um crédito fiscal do Estado
 
-**Professor:** E se reinvestiu os $200 de dividendos em mais ações?
+**Pergunta 2.** Os juros são geralmente:
 
-**Aluno:** Em muitos sistemas, continua a ser rendimento desse ano.
+A) O lucro da venda de um bem
+B) Pagamentos recebidos por dinheiro emprestado, como em depósitos ou obrigações
+C) O mesmo que um dividendo
+D) Relevantes apenas para empresas
 
-## Questionário de Treino
+**Pergunta 3.** Ao contrário das mais-valias, o rendimento de dividendos e juros é geralmente tributável:
 
-**1.** Os dividendos são...
+A) Apenas na venda do bem subjacente
+B) No ano em que é recebido, independentemente de venda
+C) Nunca
+D) Apenas ao fim de dez anos
 
-- A) Juros de um empréstimo
-- B) Parte do lucro distribuída aos acionistas
-- C) O preço de uma ação
-- D) Uma comissão bancária
+**Pergunta 4.** Um investidor pode evitar todo o imposto sobre uma ação simplesmente nunca a vendendo?
 
-**2.** Recebes juros quando...
-
-- A) Compras um carro
-- B) Vendes uma ação
-- C) Emprestas dinheiro, por exemplo num depósito ou obrigação
-- D) Pagas um imposto
-
-**3.** Qual é a principal diferença em relação às mais-valias?
-
-- A) Não há diferença
-- B) Os dividendos só surgem na venda
-- C) Os juros nunca são tributados
-- D) Dividendos e juros surgem enquanto manténs o bem
-
-**4.** Os dividendos reinvestidos...
-
-- A) Em muitos sistemas continuam a ser rendimento do ano
-- B) Deixam de ser rendimento
-- C) Passam a ser menos-valia
-- D) Passam a ser imposto sobre as vendas
+A) Sim, sempre
+B) Não: os dividendos recebidos pelo caminho continuam a ser geralmente tributáveis
+C) Apenas se a ação perder valor
+D) Apenas no caso das obrigações
 
 ## Chave de Respostas
 
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. B) Parte do lucro distribuída aos acionistas** — As empresas distribuem parte do lucro como dividendos.
+**1.** Um dividendo é uma distribuição dos lucros da empresa aos acionistas, distinta de uma operação de venda.
 
-**2. C) Emprestas dinheiro, por exemplo num depósito ou obrigação** — Os juros são a remuneração pelo empréstimo.
+**2.** Os juros são a remuneração por emprestar dinheiro, seja numa conta bancária, numa obrigação ou num instrumento semelhante.
 
-**3. D) Dividendos e juros surgem enquanto manténs o bem** — A mais-valia exige venda; dividendos e juros não.
+**3.** Estes tipos de rendimento são tributados quando recebidos, ao contrário das mais-valias, que esperam por uma venda para dar origem a imposto.
 
-**4. A) Em muitos sistemas continuam a ser rendimento do ano** — Reinvestir não costuma apagar o rendimento.
+**4.** Rendimentos contínuos como os dividendos continuam a gerar obrigações fiscais ano após ano, independentemente de o bem ser alguma vez vendido.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Dividendos e juros vêm de manter investimentos
-- Costumam ser tributados no ano em que são recebidos
-- Reinvestir normalmente não elimina o imposto
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Dividendos e juros são tipos de rendimento de investimentos distintos das mais-valias.
+- São geralmente tributados no ano em que são recebidos, e não na venda.
+- Deter um bem sem o vender não evita o imposto sobre o rendimento que ele gera pelo caminho.
+- Reconhecê-los como fluxos distintos e contínuos completa o quadro básico do rendimento de investimentos.

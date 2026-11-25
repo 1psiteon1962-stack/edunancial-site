@@ -5,102 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 9
 locale: nl
-title: "Marginale tarieven: waarom meer verdienen niet betekent dat je meer verliest"
-summary: "Ruimt een van de meest voorkomende misverstanden in persoonlijke financiën op: het idee dat een hogere belastingschijf je hele inkomen tegen het hogere tarief belast."
+title: "Marginale tarieven: waarom meer verdienen niet betekent meer verliezen"
+summary: "Ruimt een van de meest voorkomende misverstanden in persoonlijke financiën op: dat in een hogere belastingschijf terechtkomen betekent dat al je inkomen tegen het hogere tarief wordt belast."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Marginale tarieven: waarom meer verdienen niet betekent dat je meer verliest
+# Marginale tarieven: waarom meer verdienen niet betekent meer verliezen
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Het marginale tarief definiëren
-- De mythe weerleggen dat een loonsverhoging je netto-inkomen kan verlagen
-- Marginaal tarief en gemiddeld tarief onderscheiden
+- Uitleggen wat een marginaal tarief is.
+- Het veelvoorkomende misverstand rechtzetten dat een loonsverhoging je in totaal minder geld kan opleveren.
+- Het marginale tarief onderscheiden van het gemiddelde (effectieve) tarief.
 
 ## Kerninhoud
 
-Veel mensen weigeren een loonsverhoging uit angst "in een hogere schijf te komen" en uiteindelijk minder over te houden. In stelsels met progressieve schijven is dat een mythe. Alleen het deel van je inkomen boven de grens wordt tegen het hogere tarief belast.
+Een van de hardnekkigste misverstanden in persoonlijke financiën is de angst dat meer verdienen je op de een of andere manier slechter af maakt, omdat je in een "hogere schijf" terechtkomt. In stelsels met marginale schijven is die angst vrijwel altijd misplaatst.
 
-Het marginale tarief is het percentage over je volgende verdiende dollar. Het gemiddelde tarief is de totale belasting gedeeld door je totale inkomen. Het gemiddelde tarief is altijd lager dan of gelijk aan het marginale, omdat de eerste delen van je inkomen tegen lagere tarieven worden belast.
+Zo werken marginale tarieven echt: het tarief van elke schijf geldt alleen voor het deel van het inkomen dat in die schijf valt, niet voor je hele inkomen. Als een stelsel inkomen tot een bepaald bedrag belast tegen 10% en het volgende deel tegen 20%, betekent in de 20%-schijf komen alleen dat dat extra deel tegen 20% wordt belast. Het eerdere deel wordt nog steeds precies zoals voorheen tegen 10% belast.
 
-In de praktijk betekent dit dat een loonsverhoging je bijna altijd meer geld oplevert, ook al wordt het laatste deel hoger belast. Voordat je een kans afwijst vanwege belasting, zoek uit hoe het stelsel in jouw land werkt.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Dat betekent dat je gemiddelde of "effectieve" tarief (totaal betaalde belasting gedeeld door totaal inkomen) altijd lager is dan je hoogste marginale tarief. Een loonsverhoging die je in een hogere schijf brengt, kan betekenen dat de nieuwe euro's of dollars zwaarder worden belast, maar in een gewoon marginaal stelsel hou je door een verhoging nooit in totaal minder over. Wie dit begrijpt, raakt een veelvoorkomende, onnodige angst kwijt voor promoties, loonsverhogingen en groei van het eigen bedrijf.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een vriend weigert een loonsverhoging uit angst dat die hem "in een hogere schijf duwt en hem minder geld oplevert". Wat zou je hem zeggen?
 
-**Docent:** In ons voorbeeld wordt inkomen tot $40.000 belast met 20% en alles daarboven met 30%. Luisa verdiende $40.000 en krijgt opslag naar $41.000. Betaalt ze nu 30% over alles?
+**Cursist:** Ik zou uitleggen dat alleen het nieuwe, extra inkomen tegen het hogere tarief wordt belast, niet alles wat hij verdient.
 
-**Leerling:** Ik denk het wel, ze is in een hogere schijf gekomen.
+**Begeleider:** Klopt. Kun je uitleggen waarom hij daardoor door een verhoging nooit in totaal minder netto zou overhouden?
 
-**Docent:** Kijk nog eens. Welk deel van het inkomen ligt boven de grens?
+**Cursist:** Omdat de rest van zijn inkomen gewoon tegen dezelfde lagere tarieven wordt belast als altijd: het hogere tarief raakt alleen het deel boven de drempel.
 
-**Leerling:** Alleen die extra $1.000.
-
-**Docent:** Hoeveel extra belasting betaalt ze dus over de opslag?
-
-**Leerling:** 30% van $1.000, dus $300. Ze houdt nog steeds $700 extra over. De opslag is het waard!
+**Begeleider:** Precies – de angst berust op een misverstand over hoe schijven werkelijk worden toegepast.
 
 ## Oefenquiz
 
-**1.** Het marginale tarief is...
+**Vraag 1.** Een marginaal tarief geldt voor:
 
-- A) Het tarief over het hele inkomen
-- B) Het tarief over de volgende verdiende dollar
-- C) Het belastinggemiddelde van het land
-- D) Het tarief van de verkoopbelasting
+A) Je hele inkomen tegelijk
+B) Alleen het deel van het inkomen binnen die specifieke schijf
+C) Alleen je eerste salaris
+D) Niets – het is een mythe
 
-**2.** Wat gebeurt er als je in een hogere schijf komt?
+**Vraag 2.** Als een loonsverhoging je in een marginaal stelsel in een hogere schijf brengt, daalt je netto-inkomen dan in totaal?
 
-- A) Je hele inkomen betaalt het hogere tarief
-- B) De belasting vervalt
-- C) Alleen het deel boven de grens betaalt het hogere tarief
-- D) Je netto-inkomen daalt altijd
+A) Ja, altijd
+B) Nee – alleen het nieuwe deel wordt tegen het hogere tarief belast
+C) Alleen voor zelfstandigen
+D) Alleen in sommige landen, in andere nooit
 
-**3.** Hoe bereken je het gemiddelde tarief?
+**Vraag 3.** Je effectieve (gemiddelde) tarief is:
 
-- A) Inkomen gedeeld door het aantal maanden
-- B) Het hoogste tarief in de tabel
-- C) Het laagste tarief in de tabel
-- D) Totale belasting gedeeld door totaal inkomen
+A) Altijd gelijk aan je hoogste marginale tarief
+B) Altijd hoger dan je hoogste marginale tarief
+C) Doorgaans lager dan je hoogste marginale tarief
+D) Niet gerelateerd aan je inkomen
 
-**4.** In de meeste stelsels met schijven leidt een loonsverhoging...
+**Vraag 4.** De angst dat "een loonsverhoging je minder geld kan opleveren" is doorgaans:
 
-- A) Meestal tot meer netto
-- B) Altijd tot minder netto
-- C) Tot helemaal niets
-- D) Tot het vervallen van inkomstenbelasting
+A) Juist in marginale stelsels
+B) Een veelvoorkomend misverstand over hoe schijven werken
+C) Alleen waar voor rijken
+D) Onmogelijk te beoordelen
 
 ## Antwoordsleutel
 
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. C, 4. B
 
 ## Antwoorden en uitleg
 
-**1. B) Het tarief over de volgende verdiende dollar** — Het geldt voor het laatste of volgende deel van het inkomen.
+**1.** Marginale tarieven gelden schijf voor schijf, niet als één tarief over het hele inkomen.
 
-**2. C) Alleen het deel boven de grens betaalt het hogere tarief** — Precies deze mythe corrigeert de les.
+**2.** Omdat alleen het nieuwe inkomen boven de drempel tegen het hogere tarief wordt belast, daalt het totale netto-inkomen door een verhoging in een gewoon marginaal stelsel nooit.
 
-**3. D) Totale belasting gedeeld door totaal inkomen** — Het gemiddelde tarief laat zien hoeveel je gemiddeld betaalde.
+**3.** Als je de lagere en hogere tarieven over je hele inkomen mengt, kom je altijd uit op een gemiddelde onder het hoogste tarief.
 
-**4. A) Meestal tot meer netto** — Omdat alleen het extra deel meer betaalt, hou je meer over.
+**4.** Deze angst komt veel voor, maar houdt geen stand zodra je begrijpt hoe schijven werkelijk worden toegepast.
 
 ## Belangrijkste punten
 
-- Alleen het deel boven de grens betaalt het hogere tarief
-- Marginaal tarief ≠ gemiddeld tarief
-- Een loonsverhoging levert meestal meer op, niet minder
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Marginale tarieven gelden alleen voor het inkomen binnen elke specifieke schijf.
+- Een loonsverhoging leidt in een gewoon marginaal stelsel nooit tot minder netto-inkomen in totaal.
+- Je effectieve tarief is een gemengd gemiddelde, altijd lager dan je hoogste marginale tarief.
+- Wie dit begrijpt, raakt onnodige angst kwijt voor loonsverhogingen, promoties en bedrijfsgroei.

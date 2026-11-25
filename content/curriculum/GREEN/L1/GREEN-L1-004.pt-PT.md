@@ -5,100 +5,84 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 4
 locale: pt-PT
-title: "Imposto Sobre o Rendimento: Tributar o Que Ganhas"
-summary: "Um olhar mais atento sobre o imposto sobre o rendimento — como se aplica a salários, lucros de negócios e rendimentos de investimentos."
+title: "Imposto sobre o rendimento: tributar aquilo que ganha"
+summary: "Um olhar mais atento sobre o imposto sobre o rendimento: como se aplica aos salários, aos lucros de um negócio e aos rendimentos de investimentos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre o Rendimento: Tributar o Que Ganhas
+# Imposto sobre o rendimento: tributar aquilo que ganha
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir o imposto sobre o rendimento e identificar o que conta como rendimento tributável.
+- Explicar que o imposto sobre o rendimento se aplica geralmente quer o rendimento venha de um emprego, de um negócio ou de investimentos.
+- Reconhecer que o "rendimento" é mais amplo do que apenas o recibo de vencimento.
 
-- Explicar o que é o imposto sobre o rendimento
-- Identificar três fontes comuns de rendimento tributável
-- Perceber que diferentes tipos de rendimento podem ser tratados de forma diferente
+## Conteúdo principal
 
-## Conteúdo Principal
+O imposto sobre o rendimento é um imposto sobre o dinheiro que ganha. A palavra "rendimento" é mais ampla do que a maioria das pessoas pensa: inclui normalmente os salários de um emprego, os lucros de um negócio que gere e os rendimentos de investimentos, como juros ou dividendos. Países diferentes definem de forma diferente o que conta exatamente como rendimento tributável, mas o princípio geral aplica-se em todo o lado: se entrou dinheiro e aumentou aquilo que tem, esse dinheiro é candidato ao imposto sobre o rendimento. (Em Portugal, o imposto sobre o rendimento das pessoas singulares é o IRS, com categorias e regras próprias que mudam ao longo do tempo.)
 
-O imposto sobre o rendimento é calculado sobre o dinheiro que recebes ao longo do ano. Em muitos países, é uma das maiores fontes de receita do Estado. Em Portugal, por exemplo, é conhecido como IRS.
+A maioria dos sistemas de imposto sobre o rendimento não tributa cada euro ou dólar à mesma taxa. Usam antes escalões, deduções e créditos para ajustar o que é efetivamente devido, conceitos tratados em pormenor em lições posteriores. Por agora, a ideia-chave é mais simples: o imposto sobre o rendimento é desencadeado pelo ato de ganhar, sob qualquer forma, e não apenas por ter um emprego tradicional.
 
-Há três fontes comuns de rendimento. Primeiro, o salário que recebes como trabalhador por conta de outrem. Segundo, o lucro de um negócio próprio, ou seja, o que sobra depois de pagar as despesas. Terceiro, os rendimentos de investimentos, como juros, dividendos e ganhos na venda de bens.
+## Exemplo prático
 
-Nem todo o rendimento é tratado da mesma forma. Muitos sistemas usam regras diferentes para salário, lucro de negócio e investimentos. Vamos ver essas diferenças em lições futuras. Por agora, lembra-te: num negócio, o imposto normalmente incide sobre o lucro, não sobre tudo o que entrou em caixa.
+**Pergunta:** A avó do Ntege vende vestidos e também ganha um pequeno montante de juros sobre as suas poupanças. O imposto sobre o rendimento aplica-se às duas coisas?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** As vendas de vestidos são claramente ganhos do negócio dela.
 
-## Exemplo Prático
+**Guia:** E os juros?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Também é dinheiro a entrar, só que vem das poupanças em vez do trabalho.
 
-**Professor:** O Carlos tem uma roulotte de comida. Vendeu $40.000 no ano e gastou $30.000 em ingredientes, gás e manutenção. Sobre quanto paga provavelmente imposto?
+**Guia:** Certo: os sistemas de imposto sobre o rendimento olham geralmente para todas as formas pelas quais o dinheiro aumenta aquilo que tem, e não apenas para o salário de um emprego.
 
-**Aluno:** Sobre os $40.000?
+## Teste de prática
 
-**Professor:** Pensa: quanto lhe sobrou de facto?
+**Pergunta 1.** O imposto sobre o rendimento aplica-se a:
 
-**Aluno:** $10.000. Então o imposto incide sobre o lucro de $10.000.
+A) Apenas os salários de um emprego
+B) Salários, lucros de um negócio e rendimentos de investimentos
+C) Apenas os rendimentos de investimentos
+D) Apenas às grandes empresas
 
-**Professor:** Isso mesmo. É por isso que guardar os comprovativos das despesas é tão importante.
+**Pergunta 2.** Verdadeiro ou falso: na maioria dos sistemas, todo o rendimento é tributado exatamente à mesma taxa.
 
-## Questionário de Treino
+A) Verdadeiro
+B) Falso
 
-**1.** Sobre o que é calculado o imposto sobre o rendimento?
+**Pergunta 3.** Os juros obtidos numa conta poupança são geralmente:
 
-- A) O dinheiro que recebes
-- B) O que compras
-- C) O que possuis
-- D) Apenas heranças
+A) Nunca tributáveis
+B) Uma forma de rendimento que pode ser tributável
+C) O mesmo que uma oferta
+D) Isentos em todos os países
 
-**2.** Num pequeno negócio, o imposto sobre o rendimento normalmente incide sobre...
+**Pergunta 4.** O princípio geral por detrás do imposto sobre o rendimento é:
 
-- A) Todas as vendas
-- B) O lucro, depois das despesas
-- C) Apenas as despesas
-- D) O valor do equipamento
-
-**3.** Qual destes é um rendimento de investimento?
-
-- A) Salário mensal
-- B) Gorjeta
-- C) Dividendos de ações
-- D) Reembolso de despesas
-
-**4.** Todos os tipos de rendimento são sempre tratados da mesma forma?
-
-- A) Sim, sempre
-- B) Só o salário é tributado
-- C) Só os investimentos são tributados
-- D) Não, muitos sistemas têm regras diferentes para cada tipo
+A) Só conta o recibo de vencimento
+B) O dinheiro que aumenta aquilo que tem é candidato a tributação
+C) Só conta o dinheiro em numerário, não outras formas de pagamento
+D) Os donos de negócios estão isentos
 
 ## Chave de Respostas
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) O dinheiro que recebes** — O imposto sobre o rendimento tributa o que ganhas.
+**1.** O imposto sobre o rendimento é amplo por definição: abrange salários, lucros de negócios e rendimentos de investimentos, e não apenas o emprego tradicional.
 
-**2. B) O lucro, depois das despesas** — A regra geral é tributar o lucro, não a receita total.
+**2.** A maioria dos sistemas usa escalões, deduções e créditos em vez de uma única taxa fixa, o que as lições posteriores explicam.
 
-**3. C) Dividendos de ações** — Os dividendos são pagos a quem possui ações.
+**3.** Os juros são uma forma de rendimento de investimentos e são normalmente tratados como tributáveis, segundo as regras de cada país.
 
-**4. D) Não, muitos sistemas têm regras diferentes para cada tipo** — Salário, lucro e investimentos costumam ter regras diferentes.
+**4.** O teste que unifica tudo é saber se entrou dinheiro que aumentou aquilo que tem: a origem importa menos do que esse facto básico.
 
-## Pontos-Chave
+## Pontos-chave
 
-- O imposto sobre o rendimento tributa o que ganhas
-- Fontes comuns: salário, lucro de negócio e investimentos
-- Os negócios pagam geralmente sobre o lucro, não sobre as vendas totais
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- O imposto sobre o rendimento aplica-se a salários, lucros de negócios e rendimentos de investimentos, e não apenas a recibos de vencimento.
+- Países diferentes definem o rendimento tributável de forma diferente, mas o princípio de base é amplo.
+- A maioria dos sistemas não tributa cada euro ou dólar à mesma taxa fixa.
+- Reconhecer todas as suas fontes de rendimento é o ponto de partida para perceber a sua situação fiscal.

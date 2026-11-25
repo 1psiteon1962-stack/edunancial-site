@@ -6,101 +6,85 @@ level: 1
 lessonNumber: 31
 locale: nl
 title: "Vermogenswinst: belasting op winst uit beleggingen"
-summary: "Introduceert het begrip vermogenswinst — de winst uit het verkopen van een bezit voor meer dan de aankoopprijs — en hoe die verschilt van gewoon inkomen."
+summary: "Introduceert het begrip vermogenswinst – winst uit het verkopen van een bezitting voor meer dan de aankoopprijs – en hoe die verschilt van gewoon inkomen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
 # Vermogenswinst: belasting op winst uit beleggingen
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Vermogenswinst definiëren
-- Een eenvoudige winst of verlies berekenen
-- Begrijpen dat de winst meestal pas bij verkoop wordt belast
+- Een vermogenswinst in eenvoudige woorden definiëren.
+- De basisberekening van een vermogenswinst uitleggen.
+- Herkennen waarom winst pas bij verkoop wordt gerealiseerd (en meestal belast), niet al bij het simpelweg bezitten.
 
 ## Kerninhoud
 
-Vermogenswinst is de winst die je maakt als je een bezit verkoopt voor meer dan je ervoor betaalde. Dat bezit kan een aandeel, een woning, een bedrijf of iets anders van waarde zijn. Wat je betaalde, plus bepaalde kosten, heet vaak de kostprijs of verkrijgingsprijs.
+Een vermogenswinst is de winst die je maakt als je een bezitting – zoals een aandeel of een stuk vastgoed – verkoopt voor meer dan je ervoor hebt betaald. De basisberekening is eenvoudig: verkoopprijs min aankoopprijs (vaak de "verkrijgingsprijs" of "basis" genoemd) is de winst. Wordt de bezitting verkocht voor minder dan de basis, dan is er in plaats daarvan sprake van een vermogensverlies. (Nederland belast particuliere beleggingen grotendeels in box 3, waar de heffing al jaren onderwerp van rechtszaken en hervorming is; de regels veranderen.)
 
-De basisberekening is: verkoopprijs min kostprijs. Is de uitkomst positief, dan is het winst. Is ze negatief, dan is het verlies. In veel stelsels kun je verliezen verrekenen met winsten.
-
-Belangrijk: meestal wordt de winst pas belast als je verkoopt. Als je aandeel gestegen is maar je het niet verkocht hebt, bestaat de winst alleen "op papier". Veel stelsels behandelen vermogenswinst anders dan loon, soms met andere tarieven. Sommige landen, zoals Nederland, belasten vermogen op een heel andere manier; daarom is dit onderwerp sterk landafhankelijk.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Een belangrijke nuance: in de meeste stelsels wordt een winst pas "gerealiseerd", en is die in het algemeen pas belastbaar, wanneer de bezitting daadwerkelijk wordt verkocht. Als de waarde van een aandeel verdubbelt maar je het nooit verkoopt, ben je over die stijging meestal nog geen belasting verschuldigd – het is een ongerealiseerde winst, een "papieren" winst. Dit onderscheid is belangrijk voor beleggingsplanning, omdat het verkopen van een in waarde gestegen bezitting vaak een bewuste, te timen beslissing met fiscale gevolgen is, en niet iets wat automatisch gebeurt omdat de waarde steeg.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een belegger koopt een aandeel voor $ 1.000. Twee jaar later is het $ 3.000 waard, maar ze heeft het niet verkocht. Is ze nu belasting over een vermogenswinst verschuldigd?
 
-**Docent:** Amanda kocht aandelen voor $2.000 en verkocht ze voor $2.600. Hoeveel winst had ze?
+**Cursist:** Volgens deze les waarschijnlijk nog niet, omdat de winst niet door een verkoop is gerealiseerd.
 
-**Leerling:** $600.
+**Begeleider:** Wat zou de belasting in gang zetten, en hoe zou die worden berekend als ze voor $ 3.000 verkoopt?
 
-**Docent:** En als ze niet had verkocht en de aandelen $2.600 waard waren?
+**Cursist:** De verkoop zou die in gang zetten – de winst zou $ 3.000 min haar basis van $ 1.000 zijn, dus een vermogenswinst van $ 2.000.
 
-**Leerling:** Dan is de winst nog niet echt gerealiseerd, alleen op papier.
-
-**Docent:** En als ze voor $1.700 had verkocht?
-
-**Leerling:** Dan was het een verlies van $300.
+**Begeleider:** Precies – en over dat moment heeft ze enige zeggenschap, wat een echte planningshefboom is.
 
 ## Oefenquiz
 
-**1.** Vermogenswinst is...
+**Vraag 1.** Een vermogenswinst wordt berekend als:
 
-- A) Het maandloon
-- B) Het bedrag van een lening
-- C) De verkoopbelasting
-- D) De winst bij verkoop van een bezit voor meer dan je betaalde
+A) Aankoopprijs min verkoopprijs
+B) Verkoopprijs min aankoopprijs (basis)
+C) Alleen de aankoopprijs
+D) Een vast bedrag dat de overheid bepaalt
 
-**2.** Aankoop voor $5.000 en verkoop voor $6.500. Hoeveel winst?
+**Vraag 2.** Als een bezitting wordt verkocht voor minder dan de basis, heet dat:
 
-- A) $1.500
-- B) $6.500
-- C) $5.000
-- D) $11.500
+A) Vermogenswinst
+B) Vermogensverlies
+C) Heffingskorting
+D) Teruggave
 
-**3.** Wanneer wordt vermogenswinst meestal belast?
+**Vraag 3.** Een vermogenswinst wordt meestal belast:
 
-- A) Elke maand, ook zonder verkoop
-- B) Bij verkoop van het bezit
-- C) Nooit
-- D) Bij aankoop
+A) Zodra de waarde van de bezitting stijgt, ongeacht verkoop
+B) Wanneer de winst wordt gerealiseerd, meestal bij verkoop
+C) Nooit
+D) Alleen als de bezitting vastgoed is
 
-**4.** Aankoop voor $3.000 en verkoop voor $2.400. Het resultaat is...
+**Vraag 4.** Een ongerealiseerde, of "papieren", winst verwijst naar:
 
-- A) Winst van $600
-- B) Winst van $2.400
-- C) Verlies van $600
-- D) Nul
+A) Een winst die al is belast
+B) Een waardestijging die nog niet door een verkoop is vastgezet
+C) Een soort heffingskorting
+D) Een vermogensverlies
 
 ## Antwoordsleutel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. D) De winst bij verkoop van een bezit voor meer dan je betaalde** — Het is het positieve verschil tussen verkoop en kostprijs.
+**1.** De berekening vergelijkt waarvoor je de bezitting hebt verkocht met wat je er oorspronkelijk voor betaalde.
 
-**2. A) $1.500** — $6.500 − $5.000 = $1.500.
+**2.** Een verlies is gewoon het spiegelbeeld van een winst – verkopen voor minder dan de oorspronkelijke basis.
 
-**3. B) Bij verkoop van het bezit** — Winst op papier wordt meestal niet belast.
+**3.** Realisatie door verkoop is in de meeste stelsels het algemene moment waarop belasting over vermogenswinst ontstaat.
 
-**4. C) Verlies van $600** — De verkoopprijs was lager dan de kostprijs.
+**4.** De waarde kan op papier stijgen zonder belasting in gang te zetten, omdat er nog niets is verkocht.
 
 ## Belangrijkste punten
 
-- Vermogenswinst = verkoopprijs − kostprijs
-- Wordt meestal pas bij verkoop belast
-- Verliezen kunnen in veel stelsels met winsten worden verrekend
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Een vermogenswinst is verkoopprijs min aankoopprijs (basis).
+- Verkopen onder de basis levert in plaats daarvan een vermogensverlies op.
+- Winst wordt meestal belast bij realisatie – meestal bij verkoop.
+- Ongerealiseerde winst wordt nog niet belast, waardoor het moment van verkoop een echte planningsbeslissing is.
