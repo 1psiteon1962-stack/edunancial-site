@@ -1,0 +1,364 @@
+===== RED-L1-041
+TITLE: Que couvre réellement l'assurance habitation (et que ne couvre-t-elle pas) ?
+SUMMARY: Découvrez ce que couvre généralement un contrat d'assurance habitation standard, et une lacune courante que les propriétaires doivent connaître.
+# Que couvre réellement l'assurance habitation (et que ne couvre-t-elle pas) ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- citer les catégories courantes couvertes par un contrat d'assurance habitation standard.
+- identifier une lacune courante de la couverture standard.
+- expliquer pourquoi lire le détail du contrat compte.
+
+## Contenu principal
+
+### Ce qu'elle couvre généralement
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : la couverture exacte varie selon le contrat et le lieu. En France, la formule courante est l'assurance multirisque habitation, dont les garanties varient d'un contrat à l'autre ; lisez attentivement vos conditions.)* Un contrat d'assurance habitation standard couvre couramment le bâtiment lui-même, les biens personnels, la responsabilité civile en cas de blessure survenue sur le bien et les frais de relogement si le logement devient temporairement inhabitable à la suite d'un sinistre couvert.
+
+### Une lacune courante
+
+Aux États-Unis, les contrats standard excluent couramment certains événements, comme les inondations, qui nécessitent souvent un contrat entièrement distinct, abordé dans une prochaine leçon. Croire que « l'assurance habitation couvre tout » est un malentendu courant et coûteux.
+
+### Pourquoi lire le détail compte
+
+Les plafonds de garantie, les exclusions et les franchises varient beaucoup selon les contrats et les assureurs. Deux contrats qui se ressemblent en apparence peuvent offrir une protection réelle très différente selon leurs conditions précises.
+
+## Exemple pratique
+
+Un propriétaire pense que son contrat standard couvre les dégâts dus aux inondations. Lorsqu'une inondation survient, il découvre que celles-ci sont exclues de son contrat standard et qu'il aurait fallu une assurance inondation distincte pour être couvert.
+
+## Quiz pratique
+
+1. Un contrat d'assurance habitation standard couvre couramment :
+   A. Rien qui concerne le bâtiment lui-même
+   B. Le bâtiment, les biens, la responsabilité civile et les frais de relogement
+   C. Seulement le terrain, pas le bâtiment
+   D. Automatiquement les dégâts des inondations dans tous les cas
+
+2. Vrai ou faux : l'assurance habitation standard inclut automatiquement la couverture des inondations.
+
+3. Pourquoi lire le détail du contrat compte-t-il ?
+   A. Ce n'est pas utile : tous les contrats sont identiques
+   B. Les plafonds et les exclusions varient beaucoup selon les contrats
+   C. Seul le prix compte, pas la couverture
+   D. Les contrats n'ont jamais d'exclusions
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. La couverture standard comprend couramment ces catégories essentielles.
+
+### Question 2
+
+Bonne réponse : Faux. La couverture des inondations est une exclusion courante des contrats standard.
+
+### Question 3
+
+Bonne réponse : B. La couverture varie sensiblement selon les contrats et les assureurs.
+
+## Points clés
+
+- L'assurance habitation standard couvre le bâtiment, les biens, la responsabilité civile et les frais de relogement.
+- Les inondations sont une exclusion courante qui nécessite une couverture distincte.
+- Lire le détail du contrat compte, car la couverture varie beaucoup.
+
+===== RED-L1-042
+TITLE: Qu'est-ce que l'assurance inondation, et pourquoi n'est-elle pas automatique ?
+SUMMARY: Découvrez pourquoi l'assurance inondation est généralement un contrat distinct, et qui est généralement tenu de la souscrire.
+# Qu'est-ce que l'assurance inondation, et pourquoi n'est-elle pas automatique ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- expliquer pourquoi l'assurance inondation est généralement distincte de l'assurance habitation standard.
+- identifier qui est souvent tenu de la souscrire.
+- expliquer pourquoi l'emplacement compte pour cette obligation.
+
+## Contenu principal
+
+### Pourquoi c'est un contrat distinct
+
+Dans certaines zones, le risque d'inondation est si concentré et si grave que la plupart des contrats d'assurance habitation standard l'excluent, ce qui oblige à souscrire un contrat d'assurance inondation distinct : un lien direct avec la lacune de couverture vue dans la leçon précédente.
+
+### Qui est souvent tenu de la souscrire
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : cela décrit la pratique courante aux États-Unis. En France, le fonctionnement est différent : les contrats d'assurance habitation incluent en principe la garantie « catastrophes naturelles », qui peut couvrir les inondations lorsqu'un arrêté de catastrophe naturelle est publié ; vérifiez les conditions de votre contrat.)* Les prêteurs exigent souvent une assurance inondation pour les biens situés dans des zones inondables désignées à haut risque, comme condition du prêt : selon l'emplacement, elle n'est donc pas toujours facultative.
+
+### Pourquoi l'emplacement compte
+
+Le risque d'inondation (et donc l'obligation d'assurance et son coût) est lié spécifiquement à l'emplacement et à l'altitude du bien, et non au bâtiment lui-même : deux logements semblables situés dans des zones inondables différentes peuvent être soumis à des obligations et à des coûts très différents.
+
+## Exemple pratique
+
+Un acheteur qui acquiert un logement situé dans une zone inondable désignée est tenu par son prêteur de souscrire une assurance inondation comme condition du prêt, même si son contrat d'assurance habitation standard ne couvre pas les inondations.
+
+## Quiz pratique
+
+1. L'assurance inondation est généralement :
+   A. Automatiquement incluse dans tous les contrats d'assurance habitation
+   B. Un contrat distinct de l'assurance habitation standard
+   C. Réservée aux locataires
+   D. Obligatoire pour tous les biens, partout
+
+2. Vrai ou faux : les prêteurs peuvent exiger une assurance inondation comme condition du prêt pour les biens situés en zone inondable à haut risque.
+
+3. Qu'est-ce qui détermine principalement l'obligation d'assurance inondation et son coût ?
+   A. La note de crédit du propriétaire
+   B. L'emplacement du bien et son classement en zone inondable
+   C. L'âge du bâtiment
+   D. Le nom du prêteur
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'assurance inondation est généralement un contrat distinct.
+
+### Question 2
+
+Bonne réponse : Vrai. Les prêteurs l'exigent couramment pour les biens situés en zone inondable à haut risque.
+
+### Question 3
+
+Bonne réponse : B. L'emplacement et le classement en zone inondable sont les principaux facteurs.
+
+## Points clés
+
+- L'assurance inondation est généralement distincte de la couverture habitation standard.
+- Elle est souvent exigée par les prêteurs pour les biens situés en zone inondable à haut risque.
+- L'obligation et le coût dépendent de l'emplacement, et pas seulement du bâtiment.
+
+===== RED-L1-043
+TITLE: Qu'est-ce qu'un prêt hypothécaire inversé (prêt viager hypothécaire) ?
+SUMMARY: Découvrez ce qu'est un prêt hypothécaire inversé, à qui il s'adresse généralement et le compromis essentiel qu'il implique.
+# Qu'est-ce qu'un prêt hypothécaire inversé (prêt viager hypothécaire) ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir un prêt hypothécaire inversé en termes simples.
+- expliquer à qui il s'adresse généralement.
+- expliquer le compromis essentiel qu'il implique.
+
+## Contenu principal
+
+### Ce qu'est un prêt hypothécaire inversé
+
+Un prêt hypothécaire inversé (en anglais « reverse mortgage ») permet à un propriétaire (généralement âgé, car l'accès dépend souvent d'une condition d'âge) de transformer la valeur de son logement en liquidités, sans le vendre ni payer de mensualités classiques : le prêt est généralement remboursé lorsque le propriétaire vend, déménage ou décède.
+
+### À qui il s'adresse généralement
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : les règles et les conditions d'accès varient selon les pays et les programmes de prêt. En France, un produit proche existe sous le nom de prêt viager hypothécaire, mais il est peu répandu ; d'autres solutions, comme la vente en viager, obéissent à des règles différentes. Renseignez-vous auprès d'un notaire ou d'un conseiller.)* Les prêts hypothécaires inversés sont couramment proposés aux retraités qui disposent d'une valeur importante dans leur logement mais souhaitent un revenu supplémentaire sans vendre ni prendre en charge des mensualités régulières.
+
+### Le compromis essentiel
+
+S'il donne accès à des liquidités sans mensualités, un prêt hypothécaire inversé réduit la part de valeur disponible plus tard (pour le propriétaire ou ses héritiers), car le montant dû augmente avec le temps au fil des intérêts. C'est un vrai compromis entre de l'argent maintenant et du patrimoine plus tard, et non de l'argent gratuit.
+
+## Exemple pratique
+
+Un retraité dont le logement a une valeur importante mais dont les revenus mensuels sont limités utilise un prêt hypothécaire inversé pour recevoir un complément de liquidités, en sachant que le montant dû augmentera avec le temps et réduira le patrimoine finalement laissé à ses héritiers.
+
+## Quiz pratique
+
+1. Un prêt hypothécaire inversé permet à un propriétaire :
+   A. De souscrire un prêt classique avec des mensualités
+   B. De transformer la valeur de son logement en liquidités sans le vendre ni payer de mensualités
+   C. D'échapper entièrement à la taxe foncière
+   D. D'augmenter automatiquement la valeur de son logement
+
+2. Vrai ou faux : un prêt hypothécaire inversé n'a aucun effet sur la valeur disponible plus tard pour le propriétaire ou ses héritiers.
+
+3. À qui s'adressent couramment les prêts hypothécaires inversés ?
+   A. Aux primo-accédants
+   B. Aux retraités disposant d'une valeur importante dans leur logement et cherchant un revenu supplémentaire
+   C. Aux investisseurs qui font de l'achat-revente
+   D. Aux locataires qui ne possèdent aucun bien
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un prêt hypothécaire inversé transforme la valeur du logement en liquidités sans mensualités.
+
+### Question 2
+
+Bonne réponse : Faux. Le montant dû augmente avec le temps, ce qui réduit la valeur disponible plus tard.
+
+### Question 3
+
+Bonne réponse : B. Les retraités qui cherchent un revenu tiré de la valeur de leur logement en sont la cible courante.
+
+## Points clés
+
+- Un prêt hypothécaire inversé transforme la valeur du logement en liquidités sans mensualités.
+- Il s'adresse couramment aux retraités qui cherchent un revenu supplémentaire.
+- Le compromis : une valeur future réduite à mesure que le montant dû augmente.
+
+===== RED-L1-044
+TITLE: Qu'est-ce que la renégociation ou le rachat de prêt, et quand est-ce réellement pertinent ?
+SUMMARY: Découvrez ce que signifie refinancer un prêt immobilier, les raisons courantes de le faire et pourquoi la décision dépend de vrais chiffres, et pas seulement d'un taux plus bas.
+# Qu'est-ce que la renégociation ou le rachat de prêt, et quand est-ce réellement pertinent ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir le refinancement en termes simples.
+- citer les raisons courantes pour lesquelles les propriétaires refinancent.
+- expliquer pourquoi la décision exige de comparer les vrais coûts et avantages.
+
+## Contenu principal
+
+### Ce qu'est le refinancement
+
+Refinancer (en anglais « refinancing » ; en France, on parle de renégociation avec sa banque ou de rachat de prêt par une autre banque) consiste à remplacer un prêt immobilier existant par un nouveau, généralement pour obtenir un autre taux d'intérêt, une autre durée, ou pour mobiliser une partie de la valeur du bien en empruntant davantage (« cash-out refinance »).
+
+### Les raisons courantes de refinancer
+
+Les propriétaires refinancent couramment pour obtenir un taux d'intérêt plus bas, raccourcir ou allonger la durée du prêt, supprimer le PMI une fois une part suffisante du bien constituée (aux États-Unis), ou obtenir des liquidités pour un autre projet.
+
+### Pourquoi ce n'est pas automatique
+
+Le refinancement entraîne ses propres frais, comparables à ceux du prêt initial. (En France, il faut notamment tenir compte des éventuelles indemnités de remboursement anticipé, des frais de dossier et des frais de garantie.) Sa pertinence dépend de la comparaison entre ces frais et l'économie ou l'avantage réel : un taux plus bas ne vaut pas automatiquement la peine si le propriétaire compte vendre bientôt, avant que les économies ne dépassent les frais.
+
+## Exemple pratique
+
+Un propriétaire refinance son prêt en passant d'un taux de 7 % à un taux de 5,5 %, ce qui lui fait économiser 200 $ par mois, mais il paie 6 000 $ de frais pour le faire. Il lui faudrait 30 mois d'économies rien que pour rentrer dans ses frais : un vrai calcul à faire avant de supposer qu'un taux plus bas justifie automatiquement un refinancement.
+
+## Quiz pratique
+
+1. Refinancer signifie :
+   A. Vendre le bien
+   B. Remplacer un prêt immobilier existant par un nouveau
+   C. Effectuer un remboursement ponctuel supplémentaire
+   D. Résilier son assurance habitation
+
+2. Vrai ou faux : refinancer est toujours pertinent dès qu'un taux d'intérêt plus bas est disponible.
+
+3. Que doit comparer un propriétaire avant de refinancer ?
+   A. Rien : un taux plus bas vaut toujours la peine
+   B. Les frais du refinancement et l'économie ou l'avantage réel
+   C. Seulement le nom du nouveau prêteur
+   D. La couleur de la peinture du logement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Refinancer consiste à remplacer le prêt existant par un nouveau.
+
+### Question 2
+
+Bonne réponse : Faux. À cause des frais, refinancer ne vaut pas automatiquement la peine dans tous les cas.
+
+### Question 3
+
+Bonne réponse : B. Comparer les coûts à l'avantage réel est le facteur clé de la décision.
+
+## Points clés
+
+- Refinancer consiste à remplacer un prêt immobilier existant par un nouveau.
+- Les raisons courantes : un taux plus bas, une autre durée, la suppression du PMI ou l'obtention de liquidités.
+- La décision exige de comparer les vrais frais à l'avantage réel.
+
+===== RED-L1-045
+TITLE: Prêt sur valeur du logement ou ligne de crédit (HELOC) : quelle différence ?
+SUMMARY: Découvrez la différence de base entre un prêt adossé à la valeur du logement et une ligne de crédit HELOC, et quand chaque formule convient le mieux.
+# Prêt sur valeur du logement ou ligne de crédit (HELOC) : quelle différence ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir séparément un prêt sur valeur du logement et une HELOC.
+- expliquer la différence structurelle essentielle entre les deux.
+- identifier une situation où chacun peut mieux convenir.
+
+## Contenu principal
+
+### Le prêt sur valeur du logement
+
+Un prêt sur valeur du logement (en anglais « home equity loan ») fournit une somme forfaitaire d'emblée, empruntée en garantie de la part du logement déjà détenue, remboursée sur une durée fixe à taux fixe : sa structure ressemble à celle du prêt immobilier initial. (Ces produits sont surtout répandus aux États-Unis ; en France, les solutions comparables, comme le prêt hypothécaire, existent mais sont moins courantes.)
+
+### La HELOC (Home Equity Line of Credit)
+
+Une HELOC fonctionne plutôt comme une carte de crédit garantie par la valeur du logement : un plafond de crédit est fixé, et le propriétaire peut emprunter, rembourser et emprunter de nouveau dans la limite de ce plafond pendant une période de tirage, souvent à taux variable.
+
+### Quand chacun convient le mieux
+
+Un prêt sur valeur du logement convient souvent à une dépense ponctuelle et connue (comme une rénovation précise au budget fixé). Une HELOC convient souvent à des dépenses continues ou incertaines (comme une rénovation dont l'ampleur évolue, ou une réserve d'urgence), car elle n'oblige pas à emprunter tout le montant d'emblée.
+
+## Exemple pratique
+
+Un propriétaire qui a budgété précisément une rénovation de cuisine de 30 000 $ peut choisir un prêt sur valeur du logement pour ce montant fixe. Un propriétaire qui ne sait pas combien coûtera une série de travaux continus peut préférer une HELOC, en n'empruntant que ce qui est nécessaire au fur et à mesure.
+
+## Quiz pratique
+
+1. Un prêt sur valeur du logement fournit généralement :
+   A. Une ligne de crédit permanente dans laquelle on puise à plusieurs reprises
+   B. Une somme forfaitaire d'emblée, remboursée sur une durée fixe
+   C. De l'argent gratuit sans obligation de remboursement
+   D. Une réduction de la taxe foncière
+
+2. Vrai ou faux : une HELOC fonctionne plutôt comme une carte de crédit garantie par la valeur du logement, avec une période de tirage.
+
+3. Lequel convient généralement mieux à une dépense ponctuelle et clairement connue ?
+   A. Une HELOC
+   B. Un prêt sur valeur du logement
+   C. Aucun des deux ne convient jamais
+   D. Uniquement un prêt hypothécaire inversé
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un prêt sur valeur du logement fournit une somme forfaitaire, remboursée sur une durée fixe.
+
+### Question 2
+
+Bonne réponse : Vrai. Une HELOC fonctionne comme une ligne de crédit renouvelable.
+
+### Question 3
+
+Bonne réponse : B. Un prêt sur valeur du logement convient souvent mieux à une dépense connue et fixe.
+
+## Points clés
+
+- Un prêt sur valeur du logement fournit une somme forfaitaire avec un remboursement fixe.
+- Une HELOC fournit une ligne de crédit renouvelable garantie par la valeur du logement.
+- Le bon choix dépend de la nature de la dépense : fixe et connue, ou continue et incertaine.
