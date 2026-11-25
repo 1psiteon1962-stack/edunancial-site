@@ -144,7 +144,7 @@ TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — o desenvolvimento do plano
 
 ## Leituras complementares
 - BLUE-L1-031 — O que é um mercado-alvo?
-- BLUE-L1-033 — O que é uma marca, e como ela é diferente de um logotipo?
+- BLUE-L1-033 — O que é uma marca, e em que difere de um logótipo?
 
 ## Trilha da lição
 `BLUE-L1-032-LOCALIZATION` (bloco de trilha)
