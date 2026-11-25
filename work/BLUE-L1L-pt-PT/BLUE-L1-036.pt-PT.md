@@ -55,7 +55,7 @@ Uma vantagem competitiva é um motivo específico pelo qual um negócio consegue
 [ESTIMATIVA] Uma vantagem competitiva durável é realmente difícil de copiar, muitas vezes porque assenta em algo difícil de reproduzir, como um relação único, um processo próprio, um acesso exclusivo, uma forte lealdade à marca (BLUE-L1-033) ou eficiências de custo significativas que os concorrentes não conseguem igualar com facilidade.
 
 ### Tema 4: Fontes comuns de vantagem competitiva
-[ESTIMATIVA] As fontes comuns incluem a liderança em custos (conseguir cobrar menos com lucro), a diferenciação (um produto ou uma experiência realmente distintos), relaçãos fortes com os clientes e retenção (BLUE-L1-035), tecnologia ou processos próprios e acesso exclusivo a fornecedores, localizações ou parcerias.
+[ESTIMATIVA] As fontes comuns incluem a liderança em custos (conseguir cobrar menos com lucro), a diferenciação (um produto ou uma experiência realmente distintos), relações fortes com os clientes e retenção (BLUE-L1-035), tecnologia ou processos próprios e acesso exclusivo a fornecedores, localizações ou parcerias.
 
 ---
 
