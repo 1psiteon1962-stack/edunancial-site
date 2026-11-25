@@ -145,7 +145,7 @@ VERWANDTE LERNPFADE: Noch keine veröffentlicht.
 ## Weiterführende Lektüre
 - BLUE-L1-026 — Was ist Lagerbestand?
 - BLUE-L1-028 — Was ist eine Mindestbestellmenge (MOQ)?
-- BLUE-L1-030 — Was ist ein Geschäftsmodell? (Nicht dasselbe wie ein Businessplan)
+- BLUE-L1-030 — Was ist ein Geschäftsmodell? (Nicht dasselbe wie ein Geschäftsplan)
 
 ## Lernpfad der Lektion
 `BLUE-L1-029-LOCALIZATION` (Pfadblock)
