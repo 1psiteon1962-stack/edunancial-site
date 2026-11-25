@@ -145,7 +145,7 @@ VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — strategie voor de klanterv
 ## Verder lezen
 - BLUE-L1-033 — Wat is een merk, en hoe verschilt het van een logo?
 - BLUE-L1-035 — Wat is klantbehoud, en waarom is het meestal goedkoper dan nieuwe verkoop?
-- BLUE-L1-045 — Wat is een pivot?
+- BLUE-L1-045 — Wat is een pivot? (Van richting veranderen zonder opnieuw te beginnen)
 
 ## Leerpad van de les
 `BLUE-L1-044-LOCALIZATION` (padblok)

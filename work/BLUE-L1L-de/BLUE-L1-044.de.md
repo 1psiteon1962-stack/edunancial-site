@@ -145,7 +145,7 @@ VERWANDTE LERNPFADE: ORANGE (Vertrieb & Marketing) — Strategien für das Kunde
 ## Weiterführende Lektüre
 - BLUE-L1-033 — Was ist eine Marke, und worin unterscheidet sie sich von einem Logo?
 - BLUE-L1-035 — Was ist Kundenbindung, und warum ist sie meist günstiger als Neukundengewinnung?
-- BLUE-L1-045 — Was ist ein Pivot?
+- BLUE-L1-045 — Was ist ein Pivot? (Die Richtung ändern, ohne neu anzufangen)
 
 ## Lernpfad der Lektion
 `BLUE-L1-044-LOCALIZATION` (Pfadblock)

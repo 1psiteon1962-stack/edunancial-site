@@ -145,7 +145,7 @@ TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a estratégia de experiên
 ## Leituras complementares
 - BLUE-L1-033 — O que é uma marca, e em que difere de um logótipo?
 - BLUE-L1-035 — O que é retenção de clientes, e porque é que ela costuma ser mais barata do que novas vendas?
-- BLUE-L1-045 — O que é um pivô?
+- BLUE-L1-045 — O que é um pivô? (Mudar de direção sem começar do zero)
 
 ## Trilha da lição
 `BLUE-L1-044-LOCALIZATION` (bloco de trilha)

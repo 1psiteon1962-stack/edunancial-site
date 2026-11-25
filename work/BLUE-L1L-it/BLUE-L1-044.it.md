@@ -145,7 +145,7 @@ PERCORSI CORRELATI: ORANGE (Vendite e marketing) — la strategia di esperienza 
 ## Letture di approfondimento
 - BLUE-L1-033 — Che cos'è un brand, e in che cosa è diverso da un logo?
 - BLUE-L1-035 — Che cos'è la fidelizzazione dei clienti, e perché di solito costa meno delle nuove vendite?
-- BLUE-L1-045 — Che cos'è un pivot?
+- BLUE-L1-045 — Che cos'è un pivot? (Cambiare direzione senza ricominciare da zero)
 
 ## Percorso della lezione
 `BLUE-L1-044-LOCALIZATION` (blocco percorso)
