@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 33
+locale: en-GB
 title: "Tracking a Pipeline"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on pipeline tracking. The practical principle is organising opportunities by stage and next action."
-locale: "en-GB"
+summary: "Teaches how to organise prospects by stage so a seller always knows where their business stands."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Tracking a Pipeline
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain pipeline tracking in plain language.
-- Recognise when pipeline tracking is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Define a sales pipeline and explain its purpose
+- Identify the basic stages a pipeline usually tracks
+- Practice categorising prospects into pipeline stages
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **pipeline tracking**. The practical principle is **organising opportunities by stage and next action**.
+A sales pipeline is a way of organising every active prospect by how far along they are in the decision process, so a seller can see, at a glance, exactly where their business stands and what needs attention. It's the practical application of the sales funnel concept from earlier, applied to real, individual prospects instead of just a general concept.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+Common pipeline stages include: New Lead (just identified, no contact yet), Contacted (initial outreach made), Engaged (having an active back-and-forth conversation), Proposal Sent (a specific offer has been made), and Closed (won or lost). Every prospect sits in exactly one stage at a time, and moves forward (or occasionally backward) as the relationship develops.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Tracking a pipeline this way answers questions that matter for running a business: how many prospects are close to closing right now? Where are most prospects getting stuck? Is there enough coming in at the top to hit revenue goals later, given how many typically fall out along the way?
 
 ## Worked Example
 
-Suppose a small business is working on pipeline tracking. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates organising opportunities by stage and next action in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A freelance consultant reviews her pipeline weekly. She notices fifteen prospects sitting in "Contacted" for over three weeks with no movement — a clear signal that her follow-up process needs attention. Meanwhile, only two prospects are in "Proposal Sent," which tells her that even if both close, that's not enough to hit her revenue goal for the month. This visibility lets her act — pushing harder on follow-ups and generating more new leads — before the shortfall actually happens.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind pipeline tracking?
-2. Which behaviour best demonstrates organising opportunities by stage and next action?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Define a sales pipeline in your own words.
+2. Name three common pipeline stages.
+3. What kind of business questions can pipeline tracking help answer?
+4. In the worked example, what problem did reviewing the pipeline reveal?
 
 ## Answer Key
-
-1. A strong answer explains pipeline tracking as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies organising opportunities by stage and next action openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. A way of organising prospects by how far along they are in the decision process.
+2. Any three of: New Lead, Contacted, Engaged, Proposal Sent, Closed.
+3. How many prospects are close to closing, where prospects are getting stuck, and whether enough is coming in to hit future goals.
+4. A stalled group of prospects in "Contacted" and not enough prospects in "Proposal Sent" to hit her revenue goal.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This defines the pipeline as an organizational tool applied to real, individual prospects.
+2. These stages represent the practical, trackable version of the funnel concept.
+3. Pipeline visibility supports proactive business decisions rather than reactive surprises.
+4. Reviewing the pipeline surfaced a specific, addressable problem before it became a revenue crisis.
 
 ## Key Takeaways
-
-- Pipeline tracking is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- A pipeline organises prospects by stage, applying the funnel concept to real, individual tracking.
+- Common stages include New Lead, Contacted, Engaged, Proposal Sent, and Closed.
+- Reviewing a pipeline regularly reveals problems and opportunities before they become surprises.

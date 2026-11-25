@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 42
+locale: en-GB
 title: "Case Study Application: Pivoting When the Original Plan Falls Through"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on commercial pivots. The practical principle is adapting the route to market when an original plan fails."
-locale: "en-GB"
+summary: "Uses a real founder pivot story to teach how a sales and marketing plan can survive a collapsed original concept."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Case Study Application: Pivoting When the Original Plan Falls Through
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain commercial pivots in plain language.
-- Recognise when commercial pivots is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Identify what to do when an original sales/marketing plan collapses
+- Practice separating the underlying goal from the specific method being used
+- Apply lessons from a real case study to a hypothetical new situation
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **commercial pivots**. The practical principle is **adapting the route to market when an original plan fails**.
+Sometimes a well-prepared plan collapses anyway, for reasons entirely outside your control. The instinct in that moment can be to treat it as proof the whole idea was a mistake. A more useful instinct is to separate the underlying goal (what you were actually trying to accomplish) from the specific method you were using to get there (which is what actually failed).
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
-
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+If the goal survives the collapse of the method, there's usually a path forward — just a different one than originally planned. This requires being honest about what actually happened (ILLUSTRATIVE EXAMPLE: a plan can fail because the audience wasn't ready, not because the underlying value was flawed) and being willing to redesign the approach around resources you still have available.
 
 ## Worked Example
 
-A founder plans to sell through weekend markets, but the venue closes unexpectedly. Rather than abandon the product, the founder interviews existing buyers, tests pre-orders through social media, arranges collection with a complementary local business and measures which route produces repeat customers. The pivot changes the channel, not the obligation to create real customer value.
+Someone set up a full studio and camera crew for a public access political TV show, lined up guests in advance, and had everything ready. When the time came, every guest backed out — they'd said yes without really believing the show would happen, and got caught off guard when it actually did. The original plan (political interview show) collapsed completely.
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+But the underlying goal — using the studio and crew to build something valuable — hadn't collapsed. The person pivoted to a bilingual music video programme instead, which didn't depend on unreliable guest commitments the same way. That pivot only worked because they separated "the goal of building something with this studio and crew" from "the specific format I originally picked," and were willing to redesign the method once it failed.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind commercial pivots?
-2. Which behaviour best demonstrates adapting the route to market when an original plan fails?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What's the difference between the underlying goal and the specific method in a plan?
+2. Why is it more useful to separate these two when a plan fails?
+3. In the worked example, what was the underlying goal that survived the collapse?
+4. What specific lesson did the failed guest commitments teach about clarity upfront?
 
 ## Answer Key
-
-1. A strong answer explains commercial pivots as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies adapting the route to market when an original plan fails openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. The goal is what you're ultimately trying to accomplish; the method is the specific approach used to get there.
+2. Because the goal can often still be achieved through a different method, even if the original method fails completely.
+3. Using the studio, crew, and effort already invested to build something valuable.
+4. That people sometimes agree to something without really believing it will happen, so being explicit and confirming commitment upfront matters.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This distinction is the central reframing tool the lesson teaches for handling setbacks.
+2. Treating a failed method as proof the entire goal is impossible often causes people to give up prematurely.
+3. The studio, crew, and underlying ambition remained viable even after the original show concept failed.
+4. This connects directly to the case study's real lesson about verbal commitments not always reflecting true intent.
 
 ## Key Takeaways
-
-- Commercial pivots is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- When a plan collapses, separate the underlying goal from the specific method that failed.
+- A collapsed method doesn't necessarily mean a collapsed goal — redesign around what still works.
+- Get explicit confirmation of commitments upfront; people sometimes agree without truly believing something will happen.

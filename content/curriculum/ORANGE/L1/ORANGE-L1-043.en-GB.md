@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 43
+locale: en-GB
 title: "Building a Repeatable Sales System"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on repeatable sales systems. The practical principle is turning good individual behaviour into documented process."
-locale: "en-GB"
+summary: "Teaches how to turn individual sales skills into a repeatable process the business can rely on."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Building a Repeatable Sales System
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain repeatable sales systems in plain language.
-- Recognise when repeatable sales systems is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain the difference between individual sales skill and a repeatable sales system
+- Identify the components a basic repeatable system needs
+- Understand why systems matter for a business's ability to scale
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **repeatable sales systems**. The practical principle is **turning good individual behaviour into documented process**.
+A skilled individual seller can close deals, but that skill lives in one person's head and habits. A repeatable system means the process — outreach, discovery, follow-up cadence, objection handling, closing — is documented and consistent enough that someone else could follow it and get reasonably similar results, without having to reinvent everything from scratch.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+This matters for a simple reason: a business built entirely around one person's individual sales talent has a ceiling equal to that one person's time and energy. A business with a documented, repeatable system can train additional people, delegate parts of the process, and grow beyond what any single seller could accomplish alone.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Building a basic system doesn't require anything complicated — it means writing down what's actually working: the outreach approach that gets responses, the discovery questions that reveal real needs, the follow-up cadence that converts, and the objection responses that address common concerns. Once it's written down, it can be taught, refined, and repeated.
 
 ## Worked Example
 
-Suppose a small business is working on repeatable sales systems. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates turning good individual behaviour into documented process in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+A solo consultant who closes deals purely on natural talent eventually wants to hire a second salesperson. Without a documented system, the new hire has nothing to learn from except vague advice like "just build rapport." With a documented system — including the actual discovery questions the consultant asks, the specific way objections get handled, and the follow-up schedule that works — the new hire can be trained systematically and reach reasonable competency much faster.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind repeatable sales systems?
-2. Which behaviour best demonstrates turning good individual behaviour into documented process?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What's the difference between individual sales skill and a repeatable system?
+2. Why does a business built around one person's talent have a ceiling?
+3. What does building a basic sales system require, according to this lesson?
+4. In the worked example, what allowed the new hire to be trained effectively?
 
 ## Answer Key
-
-1. A strong answer explains repeatable sales systems as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies turning good individual behaviour into documented process openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Individual skill lives in one person's habits; a system is documented and repeatable by others.
+2. Because growth is limited by that one person's available time and energy.
+3. Writing down what's actually working — outreach, discovery questions, follow-up cadence, and objection responses.
+4. A documented system with specific, teachable details instead of vague advice.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This distinction is the core concept connecting individual skill to scalable business systems.
+2. A single person's capacity is a hard limit on growth without a repeatable, delegable process.
+3. Documentation is the practical first step toward building any repeatable system.
+4. Specificity in the documented system made real training and delegation possible.
 
 ## Key Takeaways
-
-- Repeatable sales systems is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Individual sales skill has a natural ceiling; a repeatable system allows growth beyond one person.
+- Building a system means documenting what's actually working, not creating something complicated.
+- A documented system enables training, delegation, and scaling a sales process beyond any single seller.

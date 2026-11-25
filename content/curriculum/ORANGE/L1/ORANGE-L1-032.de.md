@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-032
 track: ORANGE
-officialTrackName: "Vertrieb & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 32
-title: "Das CRM-Konzept (auch eine Tabelle reicht)"
-summary: "Vertrieb und Marketing werden verständlicher, wenn man sie als eine Reihe von Entscheidungen betrachtet und nicht als Sammlung von Tricks. Diese Lektion behandelt Customer-Relationship-Management."
-locale: "de"
+locale: de
+title: "Das CRM-Konzept (auch eine Tabelle zählt)"
+summary: "Stellt Kundenbeziehungsmanagement als Konzept vor, nicht als bestimmtes teures Werkzeug."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Das CRM-Konzept (auch eine Tabelle reicht)
+
+# Das CRM-Konzept (auch eine Tabelle zählt)
 
 ## Lernziele
-
-Nach dieser Lektion können Sie:
-- Customer-Relationship-Management in einfachen Worten erklären;
-- erkennen, wann dieses Konzept sinnvoll oder schlecht eingesetzt wird;
-- das Prinzip auf eine einfache Vertriebs- oder Marketingsituation anwenden;
-- ethische Einflussnahme von Druck und Manipulation unterscheiden.
+- CRM als Konzept unabhängig von einer bestimmten Software definieren
+- Erklären, warum systematisches Erfassen von Interessenten verlorene Verkäufe verhindert
+- Üben, ein einfaches Erfassungssystem für Interessenten einzurichten
 
 ## Kerninhalt
 
-Vertrieb und Marketing werden verständlicher, wenn man sie als eine Reihe von Entscheidungen betrachtet und nicht als Sammlung von Tricks. Diese Lektion behandelt **Customer-Relationship-Management**.
+CRM steht für Customer Relationship Management (Kundenbeziehungsmanagement), und obwohl es oft mit teurer Software verbunden wird, ist das Konzept selbst einfach: ein System, um festzuhalten, wer Ihre Interessenten und Kunden sind, auf welcher Stufe sie stehen und was als Nächstes mit jedem von ihnen passieren muss. Eine gut geführte Tabelle ist für einen kleinen Betrieb ein völlig legitimes CRM – die Software ist eine Erleichterung, keine Voraussetzung.
 
-Ein nachhaltiges Unternehmen darf sich nicht nur darauf konzentrieren, ein „Ja“ zu bekommen. Eine gute geschäftliche Entscheidung muss dem Kunden echten Nutzen bringen und zugleich für den Anbieter wirtschaftlich sinnvoll sein. Deshalb müssen Sie verstehen, was die andere Person erreichen möchte, prüfen, ob das Angebot tatsächlich passt, den Nutzen klar kommunizieren und dem Kunden eine informierte Entscheidung ermöglichen.
+Ohne System verlassen sich Verkäufer auf ihr Gedächtnis, das mit wachsender Zahl der Interessenten zuverlässig versagt. Nachfassaktionen werden vergessen, vielversprechende Kontakte kühlen ab, weil sich niemand mehr gemeldet hat, und Muster (etwa welche Art von Interessent am besten konvertiert) lassen sich nicht erkennen, weil nichts festgehalten wird.
 
-Beginnen Sie mit der Situation des Kunden. Welches Problem soll gelöst werden? Welches Ergebnis wird angestrebt? Was ist besonders wichtig: Preis, Geschwindigkeit, Zuverlässigkeit, Bequemlichkeit, Qualität, Risikominderung, Unterstützung oder etwas anderes? Raten Sie nicht. Stellen Sie offene Fragen, hören Sie aufmerksam zu und bestätigen Sie, was Sie verstanden haben.
-
-Verbinden Sie anschließend das Angebot mit den genannten Prioritäten. Vermeiden Sie unbelegte Aussagen wie „das Beste“ oder „unglaublich“. Konkrete Erklärungen sind glaubwürdiger. Erklären Sie, was das Angebot leistet, warum das für diesen Kunden wichtig ist und welche Belege die Aussage stützen. Wesentliche Einschränkungen sollten ebenfalls offen genannt werden.
-
-Schlagen Sie schließlich einen angemessenen nächsten Schritt vor. Das kann ein Kauf sein, aber ebenso eine Vorführung, ein Angebot, eine Testphase, ein weiteres Gespräch oder auch keine Transaktion. Ethischer Verkauf lässt immer Raum für ein „Nein“. Ein langfristig guter Ruf ist wertvoller als ein Abschluss, der durch Druck erzwungen wurde.
-
-Dasselbe gilt für Marketing. Marketing soll die Aufmerksamkeit geeigneter Menschen gewinnen und ihnen helfen zu verstehen, ob ein Angebot für sie relevant ist. Es sollte keine falschen Erwartungen erzeugen, die der Vertrieb später korrigieren muss.
+Ein einfaches CRM, selbst eine einfache Tabelle, sollte mindestens festhalten: Name und Kontaktdaten des Interessenten, auf welcher Stufe des Trichters er steht, das Datum des letzten Kontakts und die nächste nötige Handlung. Allein das verhindert die meisten der üblichen Arten, wie Verkäufe durchs Raster fallen.
 
 ## Praxisbeispiel
 
-Stellen Sie sich ein kleines Unternehmen vor, das sich mit Customer-Relationship-Management beschäftigt. Anstatt sofort ein Angebot zu präsentieren, versucht die verkaufende Person zuerst, die Situation des Kunden zu verstehen, prüft die tatsächliche Eignung des Angebots, erklärt den Nutzen klar und schlägt einen angemessenen nächsten Schritt vor. Passt das Angebot nicht, wird das offen gesagt. So werden Vertrauen und Ruf geschützt.
-
-Stellen Sie sich vor jeder Handlung drei Fragen: Was braucht der Kunde tatsächlich? Welche Belege stützen den dargestellten Nutzen? Was ist der kleinste sinnvolle nächste Schritt? Diese Fragen verhindern viele typische Vertriebsfehler.
+Jemand, der für ein Musikvideoprogramm über hundert Plattenfirmen kontaktierte, führte eine schriftliche Liste – Firmenname, Kontaktdaten, ob sie zu- oder abgesagt hatten, und Notizen zum Nachfassen. Diese Liste war ein CRM, auch wenn sie keine Software war. Mit ihr behielt der Anrufer genau im Blick, bei wem er sich erneut melden musste, wer schon zugesagt hatte und bei wem noch ein Nachfassanruf mit dem Ansatz der „gleichen Chance“ nötig war.
 
 ## Übungsquiz
 
-1. Erklären Sie mit eigenen Worten die Grundidee von Customer-Relationship-Management.
-2. Nennen Sie ein Verhalten, mit dem dieses Konzept ethisch angewendet werden kann.
-3. Warum ist die Passung zwischen Kunde und Angebot wichtiger als ein erzwungener Abschluss?
-4. Wie könnten Sie diese Lektion auf ein echtes Produkt, eine Dienstleistung, ein Bewerbungsgespräch oder ein persönliches Projekt anwenden?
+1. Wofür steht CRM, und was ist sein Kernzweck?
+2. Muss ein CRM eine teure Software sein?
+3. Was passiert mit dem Erfassen von Verkäufen, wenn es kein System gibt?
+4. Nennen Sie die vier Mindestfelder, die ein einfaches CRM erfassen sollte.
 
 ## Lösungsschlüssel
-
-1. Eine gute Antwort beschreibt Customer-Relationship-Management als praktisches Mittel, um die Qualität einer geschäftlichen Entscheidung zu verbessern.
-2. Das Verhalten sollte transparent sein, auf relevanten Informationen beruhen und die Entscheidungsfreiheit der anderen Person respektieren.
-3. Ein unpassender Verkauf kann Rückgaben, Beschwerden, Zeitverlust, Rufschäden und unzufriedene Kunden verursachen.
-4. Die Antworten können unterschiedlich sein, sollten aber eine reale Situation, den angestrebten Nutzen und einen ethischen nächsten Schritt benennen.
+1. Customer Relationship Management (Kundenbeziehungsmanagement) – ein System, um Interessenten, ihre Stufe und die nächsten Schritte festzuhalten.
+2. Nein – eine Tabelle oder sogar eine geordnete schriftliche Liste ist ein legitimes CRM.
+3. Nachfassaktionen werden vergessen und Kontakte kühlen ab, weil sich Verkäufer auf ein unzuverlässiges Gedächtnis statt auf ein System verlassen.
+4. Name und Kontaktdaten, Stufe im Trichter, Datum des letzten Kontakts und nächste nötige Handlung.
 
 ## Antworten und Erklärungen
-
-1. Es reicht nicht, eine Definition auswendig zu lernen. Sie sollten das Konzept mit einer realen Entscheidung und einem konkreten Kundenergebnis verbinden können.
-2. Gesunde geschäftliche Einflussnahme liefert ausreichende Informationen für eine Entscheidung, statt versteckten Druck einzusetzen.
-3. Eine gute Passung schützt beide Seiten und fördert Zufriedenheit, Kundenbindung, Empfehlungen und Reputation.
-4. Eine gute Anwendung macht aus dem Konzept eine konkrete Handlung. Das Beispiel kann variieren, doch die Begründung sollte klar, realistisch und ethisch bleiben.
+1. Das definiert CRM als Konzept, losgelöst von einem bestimmten Werkzeug oder Preis.
+2. Die Lektion korrigiert ausdrücklich die Annahme, dass CRM teure Software erfordert.
+3. Erfassen aus dem Gedächtnis versagt zuverlässig, wenn die Zahl der Interessenten wächst, und führt zu verpassten Chancen.
+4. Diese vier Felder bilden die Mindeststruktur, um Interessenten wirksam zu verfolgen.
 
 ## Wichtigste Erkenntnisse
-
-- Customer-Relationship-Management ist eine praktische Fähigkeit und kein Trick.
-- Gute geschäftliche Kommunikation beginnt mit dem Verständnis der Kundensituation.
-- Verwenden Sie konkrete Nutzenargumente und Belege statt Übertreibungen.
-- Ein nachhaltiger Verkauf muss für beide Seiten sinnvoll sein.
-- Ethischer Verkauf ermöglicht dem Kunden immer eine informierte Entscheidung.
+- CRM ist ein Konzept – Interessenten und nächste Schritte festhalten –, kein bestimmtes teures Werkzeug.
+- Ohne Erfassungssystem werden Nachfassaktionen vergessen und Kontakte kühlen ab.
+- Eine einfache Tabelle mit Name, Stufe, letztem Kontakt und nächster Handlung deckt das Wesentliche ab.

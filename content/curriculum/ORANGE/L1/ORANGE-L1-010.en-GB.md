@@ -4,67 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 10
-title: "Ethical Persuasion"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on ethical persuasion. The practical principle is helping without deception, coercion or hidden pressure."
-locale: "en-GB"
+locale: en-GB
+title: "Building an Elevator Pitch That Works"
+summary: "Teaches students to construct a short, clear pitch they can deliver in the time it takes to ride an elevator."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Ethical Persuasion
+
+# Building an Elevator Pitch That Works
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain ethical persuasion in plain language.
-- Recognise when ethical persuasion is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain the purpose of an elevator pitch
+- Identify the components of an effective short pitch
+- Draft a basic elevator pitch for a simple business idea
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **ethical persuasion**. The practical principle is **helping without deception, coercion or hidden pressure**.
+An elevator pitch is a short explanation of what you do, short enough to deliver in the time of a brief elevator ride — usually 20 to 30 seconds. Its purpose isn't to close a sale. It's to create enough clarity and interest that the other person wants to know more.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+A working elevator pitch usually has four parts: **who you help**, **what problem you solve for them**, **how you solve it**, and **what makes you different**. This is close to the value proposition from an earlier lesson, but delivered as natural spoken language instead of a single written sentence.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+The biggest mistake people make with elevator pitches is trying to explain everything about their business in those 30 seconds. An elevator pitch isn't the whole story — it's the hook that earns you the right to tell the whole story later, if the person is interested.
 
 ## Worked Example
 
-Suppose a small business is working on ethical persuasion. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates helping without deception, coercion or hidden pressure in practice.
+Weak elevator pitch: "So I have this business where we do financial education, and it's for kids and families, and we cover investing and real estate and business, and it's based on this framework I built for my son, and—" (too much, no clear stopping point, listener gets lost).
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+Strong elevator pitch: "I help families teach their kids real financial skills — investing, real estate, entrepreneurship — through a curriculum I originally built just for my own son. Most financial literacy programmes stop at 'save money.' Mine teaches kids to actually think like an owner." That's it. If the listener is interested, they'll ask a follow-up question, and that's the invitation to go deeper.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind ethical persuasion?
-2. Which behaviour best demonstrates helping without deception, coercion or hidden pressure?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What is the purpose of an elevator pitch?
+2. Name the four components of an effective elevator pitch.
+3. What's the most common mistake people make when giving one?
+4. Write a basic elevator pitch for a mobile dog-washing business.
 
 ## Answer Key
-
-1. A strong answer explains ethical persuasion as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies helping without deception, coercion or hidden pressure openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. To create enough clarity and interest that the listener wants to know more — not to close the sale.
+2. Who you help, what problem you solve, how you solve it, what makes you different.
+3. Trying to explain the entire business instead of just the hook.
+4. Answers will vary but should be short and include all four components (example: "I bring professional dog washing straight to pet owners' doors — no car, no waiting room, no hassle. Most groomers make you come to them. I come to you.")
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. The pitch's job is to spark interest, not deliver a full sales presentation.
+2. These four elements mirror the value proposition structure but are spoken conversationally.
+3. Overloading the pitch with detail causes the listener to lose the thread and disengage.
+4. A correct answer stays under about 30 seconds of spoken content and clearly names an audience, a problem, a solution, and a differentiator.
 
 ## Key Takeaways
-
-- Ethical persuasion is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- An elevator pitch is a short hook, not a full sales presentation.
+- It should cover who you help, the problem you solve, how you solve it, and what's different — briefly.
+- The goal is to earn a follow-up question, not to close a deal on the spot.

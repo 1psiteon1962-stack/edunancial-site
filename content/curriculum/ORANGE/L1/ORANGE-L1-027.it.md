@@ -1,71 +1,60 @@
 ---
 id: ORANGE-L1-027
 track: ORANGE
-officialTrackName: "Vendite e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 27
-title: "Fondamenti della negoziazione"
-summary: "Vendite e marketing diventano più facili da comprendere quando vengono considerati come una serie di decisioni, non come una raccolta di trucchi. Questa lezione riguarda la negoziazione."
-locale: "it"
+locale: it
+title: "Le basi della negoziazione"
+summary: "Presenta le basi per negoziare un accordo in modo che entrambe le parti sentano che il risultato è stato equo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Fondamenti della negoziazione
+
+# Le basi della negoziazione
 
 ## Obiettivi di apprendimento
-
-Al termine di questa lezione sarai in grado di:
-- spiegare la negoziazione con parole semplici;
-- riconoscere quando questo concetto viene applicato bene o male;
-- applicare il principio a una semplice situazione di vendita o marketing;
-- distinguere l’influenza etica dalla pressione e dalla manipolazione.
+- Definire la negoziazione e spiegare perché non si tratta di "vincere"
+- Individuare la differenza tra posizione e interesse in una negoziazione
+- Esercitarsi a trovare una soluzione che risponda agli interessi di fondo di entrambe le parti
 
 ## Contenuto principale
 
-Vendite e marketing diventano più facili da comprendere quando vengono considerati come una serie di decisioni, non come una raccolta di trucchi. Questa lezione riguarda **la negoziazione**.
+La negoziazione è il processo con cui due parti arrivano a condizioni che entrambe possono accettare. Chi è alle prime armi spesso vede la negoziazione come una battaglia da vincere — ottenere il prezzo più alto, cedere il meno possibile. Questa mentalità tende a ritorcersi contro, perché una "vittoria" che lascia l'altra parte con la sensazione di essere stata sfruttata di solito danneggia il rapporto e riduce le probabilità di affari o consigli futuri.
 
-Un’impresa sostenibile non può concentrarsi soltanto sull’ottenere un «sì». Una buona decisione commerciale deve creare valore reale per il cliente e, allo stesso tempo, avere senso economico per chi vende. Per questo bisogna capire che cosa l’altra persona sta cercando di ottenere, stabilire se l’offerta è realmente adatta, comunicare il valore con chiarezza e permettere al cliente di prendere una decisione informata.
+Un approccio più efficace separa la posizione dall'interesse. La posizione è ciò che qualcuno dice di volere ("voglio uno sconto del 20%"). L'interesse è il motivo di fondo dietro quella posizione (questo mese la liquidità è scarsa, oppure ha visto un prezzo più basso da un concorrente e vuole essere rassicurato di non pagare troppo). Negoziare solo sulla posizione spesso porta a un vicolo cieco. Capire l'interesse che c'è dietro di solito fa emergere soluzioni più creative.
 
-Parti dalla situazione del cliente. Quale problema vuole risolvere? Quale risultato desidera? Che cosa conta di più: prezzo, velocità, affidabilità, comodità, qualità, riduzione del rischio, assistenza o altro? Non presumere di conoscere la risposta. Fai domande aperte, ascolta attentamente e conferma ciò che hai compreso.
+Una buona negoziazione cerca risultati in cui l'interesse reale di entrambe le parti venga soddisfatto, anche se nessuna delle due ottiene esattamente la posizione dichiarata.
 
-Collega poi l’offerta alle priorità espresse. Evita affermazioni vaghe come «il migliore» o «incredibile» se non puoi dimostrarle. Una spiegazione specifica è più credibile. Spiega che cosa fa l’offerta, perché è importante per quel cliente e quali prove sostengono l’affermazione. Anche eventuali limiti importanti devono essere comunicati chiaramente.
+## Esempio svolto
 
-Infine, proponi un passo successivo proporzionato alla situazione. Potrebbe essere un acquisto, una dimostrazione, un preventivo, una prova, un’altra conversazione oppure nessuna transazione. La vendita etica lascia sempre spazio a un «no». Una buona reputazione nel lungo periodo vale più di una vendita ottenuta facendo pressione.
+**Posizione dichiarata:** "Mi serve uno sconto del 20%, altrimenti non posso andare avanti."
 
-Lo stesso ragionamento vale per il marketing. Il marketing deve attirare l’attenzione delle persone giuste e aiutarle a capire se l’offerta è rilevante per loro. Non dovrebbe creare aspettative false che il processo di vendita dovrà poi correggere.
+**Interesse di fondo, dopo averlo chiesto:** "Questo mese i soldi sono davvero pochi, e non voglio impegnarmi troppo."
 
-## Esempio pratico
+Un venditore concentrato solo sulla posizione dichiarata potrebbe semplicemente cedere e concedere il 20% di sconto, riducendo il margine senza necessità. Un venditore che capisce l'interesse reale potrebbe invece proporre un pagamento rateale in due mesi a prezzo pieno — risolvendo il vero problema di liquidità senza sminuire in alcun modo il valore del prodotto.
 
-Immagina una piccola impresa che lavora su la negoziazione. Invece di presentare subito l’offerta, chi vende cerca prima di comprendere la situazione del cliente, verifica se l’offerta è davvero adatta, spiega con chiarezza il valore rilevante e propone un passo successivo ragionevole. Se l’offerta non è adatta, lo dice apertamente. Questo comportamento protegge fiducia e reputazione.
+## Quiz di esercitazione
 
-Prima di agire, poniti tre domande: di che cosa ha realmente bisogno il cliente? Quali prove sostengono il valore che sto presentando? Qual è il più piccolo passo successivo ragionevole? Queste domande evitano molti errori commerciali.
-
-## Quiz pratico
-
-1. Spiega con parole tue l’idea principale di la negoziazione.
-2. Descrivi un comportamento che permetta di applicare questo concetto in modo etico.
-3. Perché la compatibilità tra cliente e offerta è più importante che forzare una vendita?
-4. Come potresti applicare questa lezione a un vero prodotto, servizio, colloquio di lavoro o progetto personale?
+1. Definisci con parole tue la negoziazione.
+2. Qual è la differenza tra una posizione e un interesse?
+3. Perché concentrarsi solo sulla posizione dichiarata di qualcuno può portare a un risultato peggiore?
+4. Nell'esempio svolto, quale soluzione ha risposto all'interesse di fondo reale?
 
 ## Soluzioni
-
-1. Una buona risposta descrive la negoziazione come uno strumento pratico per migliorare la qualità di una decisione commerciale.
-2. Il comportamento deve essere trasparente, basato su informazioni pertinenti e rispettoso della libertà decisionale dell’altra persona.
-3. Una vendita non adatta può causare resi, reclami, perdita di tempo, danni alla reputazione e clienti insoddisfatti.
-4. Le risposte possono variare, ma devono identificare una situazione reale, il valore ricercato e un passo successivo etico.
+1. Il processo con cui due parti arrivano a condizioni che entrambe possono accettare.
+2. La posizione è ciò che qualcuno dice di volere; l'interesse è il motivo di fondo dietro quella richiesta.
+3. Perché si possono perdere soluzioni creative che soddisferebbero la vera preoccupazione senza concessioni inutili.
+4. Proporre un pagamento rateale invece di uno sconto, che ha risolto direttamente il problema di liquidità.
 
 ## Risposte e spiegazioni
-
-1. Non basta memorizzare una definizione. Devi saper collegare il concetto a una decisione reale e a un risultato concreto per il cliente.
-2. Un’influenza commerciale sana fornisce informazioni sufficienti per decidere invece di ricorrere a pressioni nascoste.
-3. Una buona compatibilità protegge entrambe le parti e favorisce soddisfazione, fidelizzazione, referenze e reputazione.
-4. Una buona applicazione trasforma il concetto in un’azione concreta. L’esempio può cambiare, ma il ragionamento deve restare chiaro, realistico ed etico.
+1. La negoziazione viene presentata come soluzione condivisa di un problema, non come una battaglia da vincere.
+2. Questa distinzione è il concetto di negoziazione centrale che la lezione introduce.
+3. Negoziare solo sulle posizioni può portare a concessioni inutili o a punti di stallo irrisolti.
+4. Questo esempio mostra come rispondere all'interesse reale possa produrre un risultato migliore per entrambe le parti.
 
 ## Punti chiave
-
-- La negoziazione è una competenza pratica, non un trucco.
-- Una buona comunicazione commerciale parte dalla comprensione della situazione del cliente.
-- Usa valore specifico e prove invece di esagerazioni.
-- Una vendita sostenibile deve avere senso per entrambe le parti.
-- La vendita etica permette sempre al cliente di prendere una decisione informata.
+- La negoziazione funziona meglio come soluzione condivisa di un problema, non come una battaglia da vincere.
+- Distingui la posizione (ciò che viene detto) dall'interesse (il vero motivo di fondo).
+- Le soluzioni che rispondono all'interesse reale spesso sono migliori del semplice cedere sulla posizione dichiarata.

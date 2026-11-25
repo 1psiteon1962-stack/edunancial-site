@@ -1,71 +1,64 @@
 ---
 id: ORANGE-L1-002
 track: ORANGE
-officialTrackName: "Vertrieb & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 2
-title: "Warum Menschen kaufen: Probleme, Wünsche und Ergebnisse"
-summary: "Vertrieb und Marketing werden verständlicher, wenn man sie als eine Reihe von Entscheidungen betrachtet und nicht als Sammlung von Tricks. Diese Lektion behandelt Probleme, Wünsche und Ergebnisse als Kaufmotive."
-locale: "de"
+locale: de
+title: "Vertrieb vs. Marketing: zwei verschiedene Aufgaben"
+summary: "Klärt den Unterschied zwischen Vertrieb und Marketing, damit die Begriffe nicht mehr gleichbedeutend verwendet werden."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Warum Menschen kaufen: Probleme, Wünsche und Ergebnisse
+
+# Vertrieb vs. Marketing: zwei verschiedene Aufgaben
 
 ## Lernziele
-
-Nach dieser Lektion können Sie:
-- Probleme, Wünsche und Ergebnisse als Kaufmotive in einfachen Worten erklären;
-- erkennen, wann dieses Konzept sinnvoll oder schlecht eingesetzt wird;
-- das Prinzip auf eine einfache Vertriebs- oder Marketingsituation anwenden;
-- ethische Einflussnahme von Druck und Manipulation unterscheiden.
+- Die Funktion des Marketings von der Funktion des Vertriebs unterscheiden
+- Erklären, wie beide zusammenarbeiten, statt zu konkurrieren
+- Erkennen, welche Funktion in einem konkreten Beispiel aus der Praxis stattfindet
 
 ## Kerninhalt
 
-Vertrieb und Marketing werden verständlicher, wenn man sie als eine Reihe von Entscheidungen betrachtet und nicht als Sammlung von Tricks. Diese Lektion behandelt **Probleme, Wünsche und Ergebnisse als Kaufmotive**.
+Viele sagen „Vertrieb und Marketing“, als wäre es ein Wort, aber es sind zwei verschiedene Aufgaben, die zufällig im selben Team arbeiten.
 
-Ein nachhaltiges Unternehmen darf sich nicht nur darauf konzentrieren, ein „Ja“ zu bekommen. Eine gute geschäftliche Entscheidung muss dem Kunden echten Nutzen bringen und zugleich für den Anbieter wirtschaftlich sinnvoll sein. Deshalb müssen Sie verstehen, was die andere Person erreichen möchte, prüfen, ob das Angebot tatsächlich passt, den Nutzen klar kommunizieren und dem Kunden eine informierte Entscheidung ermöglichen.
+Beim Marketing geht es darum, die richtige Botschaft vor die richtigen Menschen zu bringen, damit sie wissen, dass es Sie gibt, und verstehen, was Sie anbieten. Das ist die Plakatwand, der Social-Media-Beitrag, der Flyer, die Empfehlung, die jemand von einem Freund hört. Die Aufgabe des Marketings ist Aufmerksamkeit und Interesse – jemanden dazu zu bringen, die Hand zu heben und zu sagen: „Erzählen Sie mir mehr.“
 
-Beginnen Sie mit der Situation des Kunden. Welches Problem soll gelöst werden? Welches Ergebnis wird angestrebt? Was ist besonders wichtig: Preis, Geschwindigkeit, Zuverlässigkeit, Bequemlichkeit, Qualität, Risikominderung, Unterstützung oder etwas anderes? Raten Sie nicht. Stellen Sie offene Fragen, hören Sie aufmerksam zu und bestätigen Sie, was Sie verstanden haben.
+Vertrieb ist das, was passiert, nachdem die Hand oben ist. Vertrieb ist das Gespräch unter vier Augen (oder in kleiner Runde), das aus Interesse eine Entscheidung macht. Es geht darum, Fragen zu beantworten, Bedenken auszuräumen und der Person zu helfen, sich festzulegen.
 
-Verbinden Sie anschließend das Angebot mit den genannten Prioritäten. Vermeiden Sie unbelegte Aussagen wie „das Beste“ oder „unglaublich“. Konkrete Erklärungen sind glaubwürdiger. Erklären Sie, was das Angebot leistet, warum das für diesen Kunden wichtig ist und welche Belege die Aussage stützen. Wesentliche Einschränkungen sollten ebenfalls offen genannt werden.
+Stellen Sie es sich wie Angeln vor. Das Marketing wirft ein weites Netz aus und zieht Menschen zum Boot. Der Vertrieb ist das, was passiert, sobald jemand im Boot ist – ihm zu helfen, sich fürs Bleiben zu entscheiden.
 
-Schlagen Sie schließlich einen angemessenen nächsten Schritt vor. Das kann ein Kauf sein, aber ebenso eine Vorführung, ein Angebot, eine Testphase, ein weiteres Gespräch oder auch keine Transaktion. Ethischer Verkauf lässt immer Raum für ein „Nein“. Ein langfristig guter Ruf ist wertvoller als ein Abschluss, der durch Druck erzwungen wurde.
-
-Dasselbe gilt für Marketing. Marketing soll die Aufmerksamkeit geeigneter Menschen gewinnen und ihnen helfen zu verstehen, ob ein Angebot für sie relevant ist. Es sollte keine falschen Erwartungen erzeugen, die der Vertrieb später korrigieren muss.
+Ein häufiger Fehler neuer Unternehmer ist die Annahme, dass Vertrieb überflüssig ist, wenn das Marketing nur gut genug funktioniert. Das stimmt selten. Selbst bei einer perfekten Marketingbotschaft haben die meisten Menschen noch Fragen, Zweifel oder brauchen Bestätigung, bevor sie sich festlegen. Dieses Gespräch ist Vertrieb, und wer es auslässt, verliert viele Geschäfte.
 
 ## Praxisbeispiel
 
-Stellen Sie sich ein kleines Unternehmen vor, das sich mit Probleme, Wünsche und Ergebnisse als Kaufmotive beschäftigt. Anstatt sofort ein Angebot zu präsentieren, versucht die verkaufende Person zuerst, die Situation des Kunden zu verstehen, prüft die tatsächliche Eignung des Angebots, erklärt den Nutzen klar und schlägt einen angemessenen nächsten Schritt vor. Passt das Angebot nicht, wird das offen gesagt. So werden Vertrauen und Ruf geschützt.
+Ntege, der in Uganda einen kleinen Lebensmittelbetrieb führt, postet ein Video, in dem er sein Spezialgericht zubereitet, und teilt es vor Ort. Fünfzehn Menschen schreiben ihm und fragen nach Preisen und danach, wie man bestellt. Das ist funktionierendes Marketing – es hat Aufmerksamkeit und Interesse geweckt.
 
-Stellen Sie sich vor jeder Handlung drei Fragen: Was braucht der Kunde tatsächlich? Welche Belege stützen den dargestellten Nutzen? Was ist der kleinste sinnvolle nächste Schritt? Diese Fragen verhindern viele typische Vertriebsfehler.
+Jetzt stellen diese fünfzehn Menschen Fragen: „Wie frisch ist es?“ „Können Sie liefern?“ „Was, wenn es mir nicht schmeckt?“ Wie Ntege diese Fragen beantwortet, Vertrauen aufbaut und jedes Gespräch in eine echte Bestellung verwandelt – das ist Vertrieb.
+
+Hätte Ntege nur das Video gepostet und nie auf die Nachrichten reagiert, hätte das Marketing funktioniert, der Vertrieb aber versagt, und er hätte die Mühe für das Video umsonst investiert.
 
 ## Übungsquiz
 
-1. Erklären Sie mit eigenen Worten die Grundidee von Probleme, Wünsche und Ergebnisse als Kaufmotive.
-2. Nennen Sie ein Verhalten, mit dem dieses Konzept ethisch angewendet werden kann.
-3. Warum ist die Passung zwischen Kunde und Angebot wichtiger als ein erzwungener Abschluss?
-4. Wie könnten Sie diese Lektion auf ein echtes Produkt, eine Dienstleistung, ein Bewerbungsgespräch oder ein persönliches Projekt anwenden?
+1. Was ist die Hauptaufgabe des Marketings?
+2. Was ist die Hauptaufgabe des Vertriebs?
+3. Wofür steht im Angel-Bild das „Netz“?
+4. Warum kann starkes Marketing allein keinen Verkauf garantieren?
 
 ## Lösungsschlüssel
-
-1. Eine gute Antwort beschreibt Probleme, Wünsche und Ergebnisse als Kaufmotive als praktisches Mittel, um die Qualität einer geschäftlichen Entscheidung zu verbessern.
-2. Das Verhalten sollte transparent sein, auf relevanten Informationen beruhen und die Entscheidungsfreiheit der anderen Person respektieren.
-3. Ein unpassender Verkauf kann Rückgaben, Beschwerden, Zeitverlust, Rufschäden und unzufriedene Kunden verursachen.
-4. Die Antworten können unterschiedlich sein, sollten aber eine reale Situation, den angestrebten Nutzen und einen ethischen nächsten Schritt benennen.
+1. Die richtige Botschaft zu den richtigen Menschen bringen, um Aufmerksamkeit und Interesse zu schaffen.
+2. Dieses Interesse in eine echte Entscheidung oder Zusage verwandeln.
+3. Das Marketing – das Werkzeug, das die Aufmerksamkeit der Menschen auf sich zieht.
+4. Weil die meisten Menschen vor einer Zusage noch Antworten auf Fragen und Vertrauen brauchen, und genau das ist das Verkaufsgespräch.
 
 ## Antworten und Erklärungen
-
-1. Es reicht nicht, eine Definition auswendig zu lernen. Sie sollten das Konzept mit einer realen Entscheidung und einem konkreten Kundenergebnis verbinden können.
-2. Gesunde geschäftliche Einflussnahme liefert ausreichende Informationen für eine Entscheidung, statt versteckten Druck einzusetzen.
-3. Eine gute Passung schützt beide Seiten und fördert Zufriedenheit, Kundenbindung, Empfehlungen und Reputation.
-4. Eine gute Anwendung macht aus dem Konzept eine konkrete Handlung. Das Beispiel kann variieren, doch die Begründung sollte klar, realistisch und ethisch bleiben.
+1. Die Rolle des Marketings endet, sobald jemand Bescheid weiß und neugierig ist – es muss nichts abschließen.
+2. Der Vertrieb setzt dort an, wo das Marketing aufhört, und macht aus Neugier eine Zusage.
+3. Das Netz (Marketing) zieht Menschen zum Boot, bringt sie aber nicht dazu, im Boot zu bleiben.
+4. Interesse ist nicht dasselbe wie Gewissheit – um die Gewissheit kümmert sich der Vertrieb.
 
 ## Wichtigste Erkenntnisse
-
-- Probleme, Wünsche und Ergebnisse als Kaufmotive ist eine praktische Fähigkeit und kein Trick.
-- Gute geschäftliche Kommunikation beginnt mit dem Verständnis der Kundensituation.
-- Verwenden Sie konkrete Nutzenargumente und Belege statt Übertreibungen.
-- Ein nachhaltiger Verkauf muss für beide Seiten sinnvoll sein.
-- Ethischer Verkauf ermöglicht dem Kunden immer eine informierte Entscheidung.
+- Marketing schafft Aufmerksamkeit; Vertrieb schafft Zusagen.
+- Beide Funktionen arbeiten nacheinander, nicht gegeneinander.
+- Wer nach erfolgreichem Marketing das Verkaufsgespräch auslässt, verschwendet den Marketingaufwand.

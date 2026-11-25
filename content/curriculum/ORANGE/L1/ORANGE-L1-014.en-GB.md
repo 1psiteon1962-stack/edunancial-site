@@ -4,67 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 14
-title: "Creating a Clear Offer"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on offer design. The practical principle is a clear promise, scope, price and next step."
-locale: "en-GB"
+locale: en-GB
+title: "Follow-Up Cadence: Staying in Touch Without Being Annoying"
+summary: "Teaches how to follow up persistently without crossing into pestering a prospect."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Creating a Clear Offer
+
+# Follow-Up Cadence: Staying in Touch Without Being Annoying
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain offer design in plain language.
-- Recognise when offer design is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Explain why most sales require multiple follow-ups, not just one
+- Identify a healthy follow-up cadence
+- Recognise the difference between persistence and pestering
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **offer design**. The practical principle is **a clear promise, scope, price and next step**.
+Most sales don't close on the first conversation. Studies across many industries consistently show that a large share of sales require multiple touches before a decision gets made — yet most sellers give up after just one or two attempts. That gap between how many follow-ups are actually needed and how many sellers actually do is where a lot of missed business hides.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+A healthy follow-up cadence spaces contact out reasonably — not daily, which feels like pressure, but not so sparse that the prospect forgets you exist. A common pattern: follow up a few days after the first conversation, then again after a week or two, then monthly if there's still genuine interest but no urgency yet.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+The difference between persistence and pestering usually comes down to value and respect. Persistence adds something each time — a helpful answer to a question they had, new information, a check-in that respects their time. Pestering just repeats the same ask with no new value and ignores signals that the person needs space.
 
 ## Worked Example
 
-Suppose a small business is working on offer design. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates a clear promise, scope, price and next step in practice.
+A seller follows up three days after a prospect said "let me think about it," offering to answer any new questions. Two weeks later, they follow up again, this time sharing a relevant piece of information the prospect had asked about. A month later, a final check-in: "Still thinking about it, or has this become less of a priority?" Each touch adds something and respects a clear response either way — that's persistence.
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+Compare that to messaging the same prospect every single day asking "did you decide yet?" with nothing new to offer — that's pestering, and it usually drives the prospect away entirely.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind offer design?
-2. Which behaviour best demonstrates a clear promise, scope, price and next step?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Why do most sales require more than one follow-up?
+2. Describe a reasonable follow-up cadence.
+3. What's the key difference between persistence and pestering?
+4. Rewrite this pestering follow-up as a persistent one: "Hey, just checking if you're ready to buy yet."
 
 ## Answer Key
-
-1. A strong answer explains offer design as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies a clear promise, scope, price and next step openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Because most people don't decide on the first conversation — decisions typically take multiple touches.
+2. A few days after the first contact, then a week or two later, then monthly if interest remains.
+3. Persistence adds value each time; pestering repeats the same ask with nothing new and ignores the prospect's signals.
+4. Example: "Wanted to follow up in case you had any new questions since we last talked — happy to help however's useful."
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This addresses the common mistake of giving up too early in a sales process.
+2. This cadence balances staying present without becoming intrusive.
+3. This distinction is the core lesson concept for maintaining respectful persistence.
+4. A correct rewrite offers something of value instead of just repeating a pressure-based ask.
 
 ## Key Takeaways
-
-- Offer design is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- Most sales take multiple follow-ups — giving up after one or two attempts leaves business on the table.
+- A healthy cadence spaces contact out reasonably, without daily pressure or long silence.
+- Persistence adds value each time; pestering repeats the same ask and ignores the prospect's signals.

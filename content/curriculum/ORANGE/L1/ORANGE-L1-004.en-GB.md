@@ -4,67 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 4
-title: "The Value Proposition"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on a concise value proposition. The practical principle is who you help, what problem you solve and why your offer matters."
-locale: "en-GB"
+locale: en-GB
+title: "The Sales Funnel: From Stranger to Customer"
+summary: "Introduces the sales funnel as a map of how a stranger becomes a paying customer."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# The Value Proposition
+
+# The Sales Funnel: From Stranger to Customer
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain a concise value proposition in plain language.
-- Recognise when a concise value proposition is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Describe the basic stages of a sales funnel
+- Explain why fewer people move through each stage
+- Identify what stage a given customer interaction represents
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **a concise value proposition**. The practical principle is **who you help, what problem you solve and why your offer matters**.
+A sales funnel is just a map of how a total stranger becomes a paying customer. It's called a funnel because it's wide at the top and narrow at the bottom — lots of people enter, fewer make it all the way through.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+The four basic stages are: **Awareness** (they find out you exist), **Interest** (they want to know more), **Decision** (they're weighing whether to buy), and **Action** (they actually buy). Not everyone who becomes aware of you gets interested. Not everyone interested reaches a decision. And not everyone who considers buying actually does. That's normal — it's not a sign you're failing.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+Understanding the funnel helps you diagnose problems in your business. If a hundred people see your ad but nobody clicks, your awareness stage is fine but your interest stage is broken — the message isn't compelling. If people are asking lots of questions but not buying, your decision stage needs work — maybe pricing, trust, or clarity is the issue.
 
 ## Worked Example
 
-Suppose a small business is working on a concise value proposition. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates who you help, what problem you solve and why your offer matters in practice.
+A local bakery posts photos of their bread on social media (Awareness). Twenty people comment asking about prices (Interest). Twelve of those people ask follow-up questions like "Do you deliver?" and "Is it vegan?" (Decision). Five of them actually place an order (Action).
 
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+If the bakery owner only looks at the twenty comments and feels good about "engagement," they're missing the real number that matters — five paying customers out of twenty interested people. Improving that decision-stage drop-off (maybe by answering common questions upfront) could turn more of those twelve decision-stage people into buyers.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind a concise value proposition?
-2. Which behaviour best demonstrates who you help, what problem you solve and why your offer matters?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. Name the four stages of the sales funnel in order.
+2. Why is the funnel wider at the top than the bottom?
+3. If lots of people see your product but nobody asks questions about it, which stage likely needs work?
+4. Is it normal for the numbers to shrink at each stage?
 
 ## Answer Key
-
-1. A strong answer explains a concise value proposition as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies who you help, what problem you solve and why your offer matters openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Awareness, Interest, Decision, Action.
+2. Because not everyone at one stage moves forward to the next — some drop off along the way.
+3. Interest — the awareness worked, but the message isn't sparking curiosity.
+4. Yes, this is expected in every funnel.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This is the core sequence taught in the lesson.
+2. The funnel shape visually represents natural drop-off between each stage.
+3. If people see it but don't engage, the issue is the transition from Awareness to Interest.
+4. Shrinking numbers don't mean failure — they're a normal, expected part of how funnels work, and the goal is to improve conversion rates, not eliminate drop-off entirely.
 
 ## Key Takeaways
-
-- A concise value proposition is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- The sales funnel maps how strangers become customers in four stages.
+- Numbers naturally shrink at each stage — that's expected, not a failure.
+- Diagnosing which stage is weak tells you exactly where to focus improvement.

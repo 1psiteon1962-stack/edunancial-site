@@ -1,71 +1,58 @@
 ---
 id: ORANGE-L1-010
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 10
-title: "Persuasão ética"
-summary: "Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de persuasão ética."
-locale: "pt-BR"
+locale: pt-BR
+title: "Como criar um pitch de elevador que funciona"
+summary: "Ensina a montar um pitch curto e claro que dá para apresentar no tempo de uma viagem de elevador."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Persuasão ética
+
+# Como criar um pitch de elevador que funciona
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, você será capaz de:
-- explicar persuasão ética em palavras simples;
-- reconhecer quando esse conceito está sendo usado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- diferenciar influência ética de pressão e manipulação.
+- Explicar o objetivo de um pitch de elevador
+- Identificar as partes de um pitch curto e eficaz
+- Rascunhar um pitch de elevador básico para uma ideia de negócio simples
 
 ## Conteúdo principal
 
-Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de **persuasão ética**.
+Um pitch de elevador é uma explicação curta do que você faz, curta o suficiente para ser apresentada durante uma rápida viagem de elevador — normalmente de 20 a 30 segundos. O objetivo não é fechar uma venda. É gerar clareza e interesse suficientes para que a outra pessoa queira saber mais.
 
-Uma empresa sustentável não pode se concentrar apenas em conseguir um «sim». Uma boa decisão comercial precisa criar valor real para o cliente e, ao mesmo tempo, fazer sentido econômico para quem vende. Por isso, é necessário entender o que a outra pessoa está tentando alcançar, verificar se a oferta realmente é adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão bem informada.
+Um pitch de elevador que funciona normalmente tem quatro partes: **quem você ajuda**, **que problema resolve para essas pessoas**, **como resolve** e **o que torna você diferente**. Isso se parece com a proposta de valor de uma lição anterior, mas apresentado em linguagem falada e natural, e não em uma única frase escrita.
 
-Comece pela situação do cliente. Qual problema ele está tentando resolver? Qual resultado deseja alcançar? O que é mais importante: preço, rapidez, confiabilidade, conveniência, qualidade, redução de risco, suporte ou outra coisa? Não presuma que já sabe a resposta. Faça perguntas abertas, escute com atenção e confirme o que entendeu.
-
-Depois, conecte a oferta às prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não houver provas. Uma explicação específica é mais forte. Explique o que a oferta faz, por que isso importa para aquele cliente e quais evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética sempre deixa espaço para um «não». Uma reputação sólida no longo prazo vale mais do que uma venda obtida por pressão.
-
-O mesmo raciocínio vale para o marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a entender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipe de vendas terá de corrigir depois.
+O maior erro das pessoas com o pitch de elevador é tentar explicar tudo sobre o negócio nesses 30 segundos. O pitch de elevador não é a história inteira — é o gancho que dá a você o direito de contar a história inteira depois, se a pessoa se interessar.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa trabalhando com persuasão ética. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda primeiro procura entender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, ela diz isso. Esse comportamento protege a confiança e a reputação.
+Pitch de elevador fraco: "Então, eu tenho um negócio em que a gente faz educação financeira, e é para crianças e famílias, e a gente fala de investimentos e imóveis e negócios, e é baseado num método que eu criei para o meu filho, e—" (demais, sem um ponto final claro, o ouvinte se perde).
 
-Antes de agir, faça três perguntas: do que o cliente realmente precisa? Quais provas sustentam o valor que estou apresentando? Qual é o menor próximo passo razoável? Essas perguntas evitam muitos erros comerciais.
+Pitch de elevador forte: "Eu ajudo famílias a ensinar aos filhos habilidades financeiras de verdade — investimentos, imóveis, empreendedorismo — com um currículo que criei originalmente só para o meu próprio filho. A maioria dos programas de educação financeira para no 'economize dinheiro'. O meu ensina as crianças a realmente pensar como donas." Só isso. Se o ouvinte se interessar, vai fazer uma pergunta, e esse é o convite para se aprofundar.
 
-## Quiz de prática
+## Teste de prática
 
-1. Explique com suas próprias palavras a ideia principal de persuasão ética.
-2. Descreva um comportamento que permita aplicar esse conceito de forma ética.
-3. Por que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como você poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+1. Qual é o objetivo de um pitch de elevador?
+2. Cite as quatro partes de um pitch de elevador eficaz.
+3. Qual é o erro mais comum das pessoas ao fazer um?
+4. Escreva um pitch de elevador básico para um serviço móvel de banho para cães.
 
 ## Gabarito
-
-1. Uma boa resposta apresenta persuasão ética como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, baseado em informações relevantes e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos à reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+1. Gerar clareza e interesse suficientes para que o ouvinte queira saber mais — e não fechar a venda.
+2. Quem você ajuda, que problema resolve, como resolve, o que torna você diferente.
+3. Tentar explicar o negócio inteiro em vez de apenas o gancho.
+4. As respostas vão variar, mas devem ser curtas e incluir as quatro partes (exemplo: "Eu levo banho profissional para cães até a porta dos donos — sem carro, sem sala de espera, sem complicação. A maioria dos pet shops faz você ir até eles. Eu vou até você.")
 
 ## Respostas e explicações
+1. A função do pitch é despertar interesse, e não fazer uma apresentação de vendas completa.
+2. Esses quatro elementos espelham a estrutura da proposta de valor, mas são falados em tom de conversa.
+3. Sobrecarregar o pitch com detalhes faz o ouvinte perder o fio e se desligar.
+4. Uma resposta correta fica abaixo de uns 30 segundos de fala e nomeia com clareza um público, um problema, uma solução e um diferencial.
 
-1. Não basta memorizar uma definição. Você deve conseguir relacionar o conceito a uma decisão real e a um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informações suficientes para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege as duas partes e favorece satisfação, retenção, indicações e reputação.
-4. Uma boa aplicação transforma o conceito em uma ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Persuasão ética é uma habilidade prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Use valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para as duas partes.
-- A venda ética sempre permite que o cliente tome uma decisão bem informada.
+## Pontos-chave
+- Um pitch de elevador é um gancho curto, não uma apresentação de vendas completa.
+- Ele deve cobrir, de forma breve, quem você ajuda, o problema que resolve, como resolve e o que tem de diferente.
+- O objetivo é conseguir uma pergunta de volta, não fechar negócio na hora.

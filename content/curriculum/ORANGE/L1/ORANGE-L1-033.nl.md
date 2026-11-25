@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-033
 track: ORANGE
-officialTrackName: "Verkoop & Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 33
-title: "Een verkooppijplijn bijhouden"
-summary: "Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over pijplijnbeheer."
-locale: "nl"
+locale: nl
+title: "Een pijplijn bijhouden"
+summary: "Leert je potentiële klanten per fase te ordenen, zodat je als verkoper altijd weet hoe je bedrijf ervoor staat."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Een verkooppijplijn bijhouden
+
+# Een pijplijn bijhouden
 
 ## Leerdoelen
-
-Na deze les kun je:
-- pijplijnbeheer in eenvoudige woorden uitleggen;
-- herkennen wanneer dit concept goed of slecht wordt toegepast;
-- het principe toepassen op een eenvoudige verkoop- of marketingsituatie;
-- ethische beïnvloeding onderscheiden van druk en manipulatie.
+- Een verkooppijplijn definiëren en het doel ervan uitleggen
+- De basisfasen herkennen die een pijplijn meestal bijhoudt
+- Oefenen met het indelen van potentiële klanten in fasen van de pijplijn
 
 ## Kerninhoud
 
-Verkoop en marketing worden gemakkelijker te begrijpen wanneer je ze ziet als een reeks beslissingen in plaats van een verzameling trucs. Deze les gaat over **pijplijnbeheer**.
+Een verkooppijplijn is een manier om elke actieve potentiële klant te ordenen naar hoe ver hij in het beslisproces is, zodat een verkoper in één oogopslag precies ziet hoe zijn bedrijf ervoor staat en wat aandacht nodig heeft. Het is de praktische toepassing van het concept van de verkooptrechter uit een eerdere les, toegepast op echte, individuele potentiële klanten in plaats van alleen een algemeen concept.
 
-Een duurzaam bedrijf kan zich niet alleen richten op het verkrijgen van een 'ja'. Een goede commerciële beslissing moet echte waarde opleveren voor de klant en tegelijkertijd zakelijk verantwoord zijn voor de verkoper. Daarom moet je begrijpen wat de ander probeert te bereiken, bepalen of het aanbod werkelijk passend is, de waarde helder communiceren en de klant in staat stellen een geïnformeerde beslissing te nemen.
+Veelvoorkomende fasen in een pijplijn zijn: Nieuw contact (net gevonden, nog geen contact), Benaderd (eerste contact gelegd), In gesprek (een actief gesprek over en weer), Voorstel verstuurd (er is een concreet aanbod gedaan) en Afgesloten (gewonnen of verloren). Elke potentiële klant zit op elk moment in precies één fase, en schuift door (of soms terug) naarmate de relatie zich ontwikkelt.
 
-Begin bij de situatie van de klant. Welk probleem probeert de klant op te lossen? Welk resultaat wil diegene bereiken? Wat is het belangrijkst: prijs, snelheid, betrouwbaarheid, gemak, kwaliteit, risicobeperking, ondersteuning of iets anders? Ga niet uit van aannames. Stel open vragen, luister aandachtig en bevestig wat je hebt begrepen.
-
-Koppel vervolgens het aanbod aan de prioriteiten van de klant. Vermijd vage uitspraken zoals 'de beste' of 'geweldig' als je die niet kunt onderbouwen. Een specifieke uitleg is sterker. Leg uit wat het aanbod doet, waarom dat voor deze klant relevant is en welk bewijs de bewering ondersteunt. Belangrijke beperkingen moeten eveneens duidelijk worden genoemd.
-
-Stel ten slotte een passende volgende stap voor. Dat kan een aankoop zijn, maar ook een demonstratie, offerte, proefperiode, vervolggesprek of helemaal geen transactie. Ethische verkoop laat altijd ruimte voor 'nee'. Een goede reputatie op lange termijn is waardevoller dan een verkoop die door druk tot stand komt.
-
-Hetzelfde geldt voor marketing. Marketing moet de aandacht van geschikte mensen trekken en hen helpen begrijpen of een aanbod relevant voor hen is. Het hoort geen valse verwachtingen te creëren die de verkoper later moet corrigeren.
+Een pijplijn op deze manier bijhouden beantwoordt vragen die belangrijk zijn om een bedrijf te runnen: hoeveel potentiële klanten staan nu dicht bij een afsluiting? Waar blijven de meeste potentiële klanten steken? Komt er bovenin genoeg binnen om later de omzetdoelen te halen, gezien het aantal dat onderweg meestal afhaakt?
 
 ## Praktijkvoorbeeld
 
-Stel je een klein bedrijf voor dat werkt aan pijplijnbeheer. In plaats van direct te pitchen, probeert de verkoper eerst de situatie van de klant te begrijpen, controleert of het aanbod werkelijk past, legt de relevante waarde helder uit en stelt een redelijke volgende stap voor. Als het aanbod niet passend is, wordt dat eerlijk gezegd. Zo worden vertrouwen en reputatie beschermd.
-
-Stel jezelf vóór een actie drie vragen: wat heeft de klant werkelijk nodig? Welk bewijs ondersteunt de voorgestelde waarde? Wat is de kleinste redelijke volgende stap? Deze vragen voorkomen veel voorkomende verkoopfouten.
+Een freelance consultant bekijkt haar pijplijn elke week. Ze ziet dat vijftien potentiële klanten al meer dan drie weken in 'Benaderd' staan zonder beweging — een duidelijk signaal dat haar opvolging aandacht nodig heeft. Tegelijk staan er maar twee potentiële klanten in 'Voorstel verstuurd', wat haar vertelt dat zelfs als beide worden afgesloten, dat niet genoeg is om haar omzetdoel voor de maand te halen. Dankzij dit inzicht kan ze in actie komen — harder werken aan opvolging en meer nieuwe contacten werven — voordat het tekort er echt is.
 
 ## Oefenquiz
 
-1. Leg in je eigen woorden de hoofdgedachte van pijplijnbeheer uit.
-2. Noem gedrag waarmee dit concept op een ethische manier kan worden toegepast.
-3. Waarom is een goede match tussen klant en aanbod belangrijker dan het forceren van een verkoop?
-4. Hoe zou je deze les kunnen toepassen op een echt product, een dienst, een sollicitatiegesprek of een persoonlijk project?
+1. Definieer een verkooppijplijn in je eigen woorden.
+2. Noem drie veelvoorkomende fasen in een pijplijn.
+3. Bij welke zakelijke vragen kan het bijhouden van een pijplijn helpen?
+4. Welk probleem bracht het bekijken van de pijplijn in het praktijkvoorbeeld aan het licht?
 
 ## Antwoordsleutel
-
-1. Een goed antwoord beschrijft pijplijnbeheer als een praktisch middel om de kwaliteit van een commerciële beslissing te verbeteren.
-2. Het gedrag moet transparant zijn, op relevante informatie berusten en de beslissingsvrijheid van de ander respecteren.
-3. Een slechte match kan leiden tot retouren, klachten, tijdverlies, reputatieschade en ontevreden klanten.
-4. Antwoorden verschillen, maar moeten een echte situatie, de gewenste waarde en een ethische volgende stap benoemen.
+1. Een manier om potentiële klanten te ordenen naar hoe ver ze in het beslisproces zijn.
+2. Drie van deze: Nieuw contact, Benaderd, In gesprek, Voorstel verstuurd, Afgesloten.
+3. Hoeveel potentiële klanten dicht bij een afsluiting zijn, waar potentiële klanten blijven steken, en of er genoeg binnenkomt om toekomstige doelen te halen.
+4. Een groep potentiële klanten die vastzat in 'Benaderd' en te weinig potentiële klanten in 'Voorstel verstuurd' om haar omzetdoel te halen.
 
 ## Antwoorden en uitleg
-
-1. Alleen een definitie uit het hoofd leren is niet genoeg. Je moet het concept kunnen koppelen aan een echte beslissing en een concreet klantresultaat.
-2. Gezonde commerciële beïnvloeding geeft voldoende informatie om te beslissen in plaats van verborgen druk te gebruiken.
-3. Een goede match beschermt beide partijen en bevordert tevredenheid, klantbehoud, aanbevelingen en reputatie.
-4. Een goede toepassing zet het concept om in concrete actie. Het voorbeeld kan verschillen, maar de redenering moet helder, realistisch en ethisch blijven.
+1. Dit omschrijft de pijplijn als een ordeningsmiddel dat je toepast op echte, individuele potentiële klanten.
+2. Deze fasen zijn de praktische, bij te houden versie van het trechterconcept.
+3. Inzicht in de pijplijn ondersteunt vooruitziende zakelijke beslissingen in plaats van onaangename verrassingen.
+4. Door de pijplijn te bekijken kwam een specifiek, op te lossen probleem aan het licht voordat het een omzetcrisis werd.
 
 ## Belangrijkste punten
-
-- Pijplijnbeheer is een praktische vaardigheid, geen truc.
-- Goede commerciële communicatie begint met het begrijpen van de situatie van de klant.
-- Gebruik specifieke waarde en bewijs in plaats van overdrijving.
-- Een duurzame verkoop moet voor beide partijen zinvol zijn.
-- Ethische verkoop stelt de klant altijd in staat een geïnformeerde beslissing te nemen.
+- Een pijplijn ordent potentiële klanten per fase en past het trechterconcept toe op het bijhouden van echte, individuele klanten.
+- Veelvoorkomende fasen zijn Nieuw contact, Benaderd, In gesprek, Voorstel verstuurd en Afgesloten.
+- Door een pijplijn regelmatig te bekijken zie je problemen en kansen voordat ze een verrassing worden.

@@ -1,71 +1,66 @@
 ---
 id: ORANGE-L1-005
 track: ORANGE
-officialTrackName: "Vendite e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 5
-title: "Comprendere il percorso del cliente"
-summary: "Vendite e marketing diventano più facili da comprendere quando vengono considerati come una serie di decisioni, non come una raccolta di trucchi. Questa lezione riguarda il percorso del cliente prima e dopo l’acquisto."
-locale: "it"
+locale: it
+title: "Che cosa fa funzionare una proposta di valore"
+summary: "Insegna a costruire una frase chiara che spieghi perché un cliente dovrebbe sceglierti."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Comprendere il percorso del cliente
+
+# Che cosa fa funzionare una proposta di valore
 
 ## Obiettivi di apprendimento
-
-Al termine di questa lezione sarai in grado di:
-- spiegare il percorso del cliente prima e dopo l’acquisto con parole semplici;
-- riconoscere quando questo concetto viene applicato bene o male;
-- applicare il principio a una semplice situazione di vendita o marketing;
-- distinguere l’influenza etica dalla pressione e dalla manipolazione.
+- Definire una proposta di valore in termini semplici
+- Individuare le tre parti di cui ha bisogno una proposta di valore forte
+- Abbozzare una proposta di valore di base per una semplice idea imprenditoriale
 
 ## Contenuto principale
 
-Vendite e marketing diventano più facili da comprendere quando vengono considerati come una serie di decisioni, non come una raccolta di trucchi. Questa lezione riguarda **il percorso del cliente prima e dopo l’acquisto**.
+Una proposta di valore è una frase che risponde alla domanda: "Perché dovrei scegliere te invece di chiunque altro, compreso il non fare nulla?" Non è uno slogan né un motto — è un'affermazione chiara e onesta del beneficio specifico che offri.
 
-Un’impresa sostenibile non può concentrarsi soltanto sull’ottenere un «sì». Una buona decisione commerciale deve creare valore reale per il cliente e, allo stesso tempo, avere senso economico per chi vende. Per questo bisogna capire che cosa l’altra persona sta cercando di ottenere, stabilire se l’offerta è realmente adatta, comunicare il valore con chiarezza e permettere al cliente di prendere una decisione informata.
+Una proposta di valore forte ha tre parti: **per chi è**, **quale problema risolve** e **che cosa rende diversa la tua soluzione**. Se manca una di queste tre, l'affermazione diventa vaga, e ciò che è vago non convince nessuno.
 
-Parti dalla situazione del cliente. Quale problema vuole risolvere? Quale risultato desidera? Che cosa conta di più: prezzo, velocità, affidabilità, comodità, qualità, riduzione del rischio, assistenza o altro? Non presumere di conoscere la risposta. Fai domande aperte, ascolta attentamente e conferma ciò che hai compreso.
+Un esempio debole: "Vendiamo un ottimo caffè." Non dice per chi è, quale problema specifico risolve né che cosa ha di diverso — molti posti vendono caffè.
 
-Collega poi l’offerta alle priorità espresse. Evita affermazioni vaghe come «il migliore» o «incredibile» se non puoi dimostrarle. Una spiegazione specifica è più credibile. Spiega che cosa fa l’offerta, perché è importante per quel cliente e quali prove sostengono l’affermazione. Anche eventuali limiti importanti devono essere comunicati chiaramente.
+Un esempio forte: "Per i pendolari che non hanno tempo di fare la fila, consegniamo caffè appena fatto alla tua scrivania entro le 8." Indica il pubblico (pendolari di corsa), il problema (niente tempo per la fila) e la differenza (consegnato, entro un orario preciso).
 
-Infine, proponi un passo successivo proporzionato alla situazione. Potrebbe essere un acquisto, una dimostrazione, un preventivo, una prova, un’altra conversazione oppure nessuna transazione. La vendita etica lascia sempre spazio a un «no». Una buona reputazione nel lungo periodo vale più di una vendita ottenuta facendo pressione.
+## Esempio svolto
 
-Lo stesso ragionamento vale per il marketing. Il marketing deve attirare l’attenzione delle persone giuste e aiutarle a capire se l’offerta è rilevante per loro. Non dovrebbe creare aspettative false che il processo di vendita dovrà poi correggere.
+Costruiamone una insieme per un servizio di lavaggio cani a domicilio.
 
-## Esempio pratico
+**Per chi è:** Proprietari di cani senza auto né giardino.
 
-Immagina una piccola impresa che lavora su il percorso del cliente prima e dopo l’acquisto. Invece di presentare subito l’offerta, chi vende cerca prima di comprendere la situazione del cliente, verifica se l’offerta è davvero adatta, spiega con chiarezza il valore rilevante e propone un passo successivo ragionevole. Se l’offerta non è adatta, lo dice apertamente. Questo comportamento protegge fiducia e reputazione.
+**Quale problema risolve:** Far lavare il cane di solito significa andare in macchina da qualche parte e aspettare.
 
-Prima di agire, poniti tre domande: di che cosa ha realmente bisogno il cliente? Quali prove sostengono il valore che sto presentando? Qual è il più piccolo passo successivo ragionevole? Queste domande evitano molti errori commerciali.
+**Che cosa lo rende diverso:** Il servizio va da loro, a casa, senza spostamenti per un appuntamento.
 
-## Quiz pratico
+Mettendo tutto insieme: "Per i proprietari di cani senza auto né giardino, portiamo il lavaggio professionale del cane direttamente alla tua porta, così non devi mai uscire di casa per tenere pulito il tuo cane."
 
-1. Spiega con parole tue l’idea principale di il percorso del cliente prima e dopo l’acquisto.
-2. Descrivi un comportamento che permetta di applicare questo concetto in modo etico.
-3. Perché la compatibilità tra cliente e offerta è più importante che forzare una vendita?
-4. Come potresti applicare questa lezione a un vero prodotto, servizio, colloquio di lavoro o progetto personale?
+## Quiz di esercitazione
+
+1. Quali sono le tre parti di cui ha bisogno una proposta di valore?
+2. A quale domanda risponde una proposta di valore?
+3. Perché "Vendiamo un ottimo caffè" è una proposta di valore debole?
+4. Costruisci una proposta di valore per un'attività che dà ripetizioni di matematica online ai bambini.
 
 ## Soluzioni
-
-1. Una buona risposta descrive il percorso del cliente prima e dopo l’acquisto come uno strumento pratico per migliorare la qualità di una decisione commerciale.
-2. Il comportamento deve essere trasparente, basato su informazioni pertinenti e rispettoso della libertà decisionale dell’altra persona.
-3. Una vendita non adatta può causare resi, reclami, perdita di tempo, danni alla reputazione e clienti insoddisfatti.
-4. Le risposte possono variare, ma devono identificare una situazione reale, il valore ricercato e un passo successivo etico.
+1. Per chi è, quale problema risolve, che cosa la rende diversa.
+2. "Perché dovrei scegliere te invece di chiunque altro, compreso il non fare nulla?"
+3. Non indica né un pubblico, né un problema, né un elemento distintivo.
+4. Le risposte possono variare ma dovrebbero contenere tutte e tre le parti (esempio: "Per i genitori i cui figli stanno restando indietro in matematica, offriamo ripetizioni online individuali che si adattano a una vita familiare piena di impegni.")
 
 ## Risposte e spiegazioni
-
-1. Non basta memorizzare una definizione. Devi saper collegare il concetto a una decisione reale e a un risultato concreto per il cliente.
-2. Un’influenza commerciale sana fornisce informazioni sufficienti per decidere invece di ricorrere a pressioni nascoste.
-3. Una buona compatibilità protegge entrambe le parti e favorisce soddisfazione, fidelizzazione, referenze e reputazione.
-4. Una buona applicazione trasforma il concetto in un’azione concreta. L’esempio può cambiare, ma il ragionamento deve restare chiaro, realistico ed etico.
+1. Queste tre componenti obbligano a essere specifici, ed è questo che rende persuasiva una proposta di valore.
+2. Questa formulazione mostra che la proposta di valore deve battere non solo i concorrenti, ma anche l'inerzia.
+3. È generica — potrebbe valere per quasi qualsiasi bar, quindi non dà al cliente nessun motivo reale per scegliere proprio questo.
+4. Una risposta corretta indica un pubblico specifico (genitori/studenti), un problema reale (restare indietro) e un elemento distintivo (online, orari flessibili o simili).
 
 ## Punti chiave
-
-- Il percorso del cliente prima e dopo l’acquisto è una competenza pratica, non un trucco.
-- Una buona comunicazione commerciale parte dalla comprensione della situazione del cliente.
-- Usa valore specifico e prove invece di esagerazioni.
-- Una vendita sostenibile deve avere senso per entrambe le parti.
-- La vendita etica permette sempre al cliente di prendere una decisione informata.
+- Una proposta di valore è una frase chiara, non uno slogan.
+- Deve dire per chi è, quale problema risolve e che cosa la rende diversa.
+- Le proposte di valore vaghe falliscono perché non danno a nessuno un motivo reale per sceglierti.

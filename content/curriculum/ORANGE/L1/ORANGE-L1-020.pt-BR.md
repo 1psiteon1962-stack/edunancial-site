@@ -1,71 +1,56 @@
 ---
 id: ORANGE-L1-020
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 20
+locale: pt-BR
 title: "Marketing com orçamento zero"
-summary: "Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de marketing sem orçamento de publicidade."
-locale: "pt-BR"
+summary: "Ensina táticas práticas de marketing que exigem tempo e esforço, e não dinheiro."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # Marketing com orçamento zero
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, você será capaz de:
-- explicar marketing sem orçamento de publicidade em palavras simples;
-- reconhecer quando esse conceito está sendo usado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- diferenciar influência ética de pressão e manipulação.
+- Identificar táticas de marketing que exigem pouco ou nenhum dinheiro
+- Explicar a troca entre tempo/esforço e dinheiro no marketing
+- Praticar a criação de um plano de marketing simples com orçamento zero
 
 ## Conteúdo principal
 
-Vendas e marketing ficam mais fáceis de entender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição trata de **marketing sem orçamento de publicidade**.
+Nem todo negócio começa com dinheiro para gastar com marketing. A boa notícia é que muitas táticas eficazes de marketing custam tempo e esforço em vez de dinheiro — só são mais lentas e exigem mais constância para funcionar.
 
-Uma empresa sustentável não pode se concentrar apenas em conseguir um «sim». Uma boa decisão comercial precisa criar valor real para o cliente e, ao mesmo tempo, fazer sentido econômico para quem vende. Por isso, é necessário entender o que a outra pessoa está tentando alcançar, verificar se a oferta realmente é adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão bem informada.
+Táticas de orçamento zero incluem: postar com constância e de forma útil nas redes sociais, procurar diretamente clientes em potencial (prospecção a frio), pedir indicações a clientes atuais, fazer parceria com negócios complementares para que um divulgue o outro e simplesmente marcar presença, com regularidade, nas comunidades onde os seus clientes em potencial já passam o tempo.
 
-Comece pela situação do cliente. Qual problema ele está tentando resolver? Qual resultado deseja alcançar? O que é mais importante: preço, rapidez, confiabilidade, conveniência, qualidade, redução de risco, suporte ou outra coisa? Não presuma que já sabe a resposta. Faça perguntas abertas, escute com atenção e confirme o que entendeu.
-
-Depois, conecte a oferta às prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não houver provas. Uma explicação específica é mais forte. Explique o que a oferta faz, por que isso importa para aquele cliente e quais evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética sempre deixa espaço para um «não». Uma reputação sólida no longo prazo vale mais do que uma venda obtida por pressão.
-
-O mesmo raciocínio vale para o marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a entender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipe de vendas terá de corrigir depois.
+A troca é real: o marketing pago pode comprar rapidez, mas o marketing de orçamento zero precisa conquistar atenção aos poucos, com esforço constante. Isso não é uma estratégia inferior — muitos negócios bem-sucedidos começaram exatamente assim, justamente porque essa abordagem exige disciplina e uma compreensão real do público, que os atalhos pagos às vezes pulam.
 
 ## Exemplo prático
 
-Imagine uma pequena empresa trabalhando com marketing sem orçamento de publicidade. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda primeiro procura entender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, ela diz isso. Esse comportamento protege a confiança e a reputação.
+Alguém que lançou um programa bilíngue de videoclipes sem nenhum orçamento de publicidade montou uma lista com mais de cem gravadoras a partir das informações impressas no verso dos discos e ligou pessoalmente para cada uma delas. Nenhum dinheiro foi gasto — só esforço direto, persistência e disposição para fazer um grande volume de ligações. Essa abordagem de orçamento zero acabou construindo todo o fluxo de conteúdo do programa.
 
-Antes de agir, faça três perguntas: do que o cliente realmente precisa? Quais provas sustentam o valor que estou apresentando? Qual é o menor próximo passo razoável? Essas perguntas evitam muitos erros comerciais.
+## Teste de prática
 
-## Quiz de prática
-
-1. Explique com suas próprias palavras a ideia principal de marketing sem orçamento de publicidade.
-2. Descreva um comportamento que permita aplicar esse conceito de forma ética.
-3. Por que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como você poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+1. Cite três táticas de marketing de orçamento zero desta lição.
+2. Qual é a troca central entre o marketing pago e o de orçamento zero?
+3. O marketing de orçamento zero é uma estratégia inferior ao marketing pago?
+4. No exemplo prático, o que substituiu o gasto com publicidade?
 
 ## Gabarito
-
-1. Uma boa resposta apresenta marketing sem orçamento de publicidade como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, baseado em informações relevantes e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos à reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+1. Quaisquer três destas: postar com constância nas redes sociais, prospecção a frio, pedir indicações, parcerias de divulgação mútua, presença na comunidade.
+2. O marketing pago compra rapidez; o de orçamento zero exige, em vez disso, tempo e esforço constante.
+3. Não — muitos negócios bem-sucedidos começam assim, e isso constrói uma compreensão real do público.
+4. O contato pessoal direto — ligar para cada empresa de uma lista feita por conta própria.
 
 ## Respostas e explicações
+1. Todas essas táticas são citadas explicitamente como opções que custam esforço, e não dinheiro.
+2. Essa troca define a decisão central que um negócio sem orçamento precisa tomar.
+3. A lição contesta explicitamente a ideia de que o marketing de orçamento zero é inferior.
+4. Esse exemplo mostra a persistência e o esforço substituindo diretamente o gasto com publicidade.
 
-1. Não basta memorizar uma definição. Você deve conseguir relacionar o conceito a uma decisão real e a um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informações suficientes para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege as duas partes e favorece satisfação, retenção, indicações e reputação.
-4. Uma boa aplicação transforma o conceito em uma ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- Marketing sem orçamento de publicidade é uma habilidade prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Use valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para as duas partes.
-- A venda ética sempre permite que o cliente tome uma decisão bem informada.
+## Pontos-chave
+- O marketing de orçamento zero troca dinheiro por tempo, esforço e constância.
+- As táticas incluem contato direto, indicações, parcerias e presença constante na comunidade.
+- Não é uma estratégia inferior — é como muitos negócios bem-sucedidos de fato começaram.

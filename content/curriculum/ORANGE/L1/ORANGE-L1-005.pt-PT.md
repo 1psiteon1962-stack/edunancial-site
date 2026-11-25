@@ -1,71 +1,66 @@
 ---
 id: ORANGE-L1-005
 track: ORANGE
-officialTrackName: "Vendas e Marketing"
+officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 5
-title: "Compreender o percurso do cliente"
-summary: "Vendas e marketing tornam-se mais fáceis de compreender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição aborda o percurso do cliente antes e depois da compra."
-locale: "pt-PT"
+locale: pt-PT
+title: "O que faz uma proposta de valor funcionar"
+summary: "Ensina a criar uma frase clara sobre porque um cliente deveria escolhê-lo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
-# Compreender o percurso do cliente
+
+# O que faz uma proposta de valor funcionar
 
 ## Objetivos de aprendizagem
-
-Ao concluir esta lição, será capaz de:
-- explicar o percurso do cliente antes e depois da compra em palavras simples;
-- reconhecer quando este conceito está a ser utilizado de forma eficaz ou inadequada;
-- aplicar o princípio a uma situação simples de vendas ou marketing;
-- distinguir influência ética de pressão e manipulação.
+- Definir proposta de valor em termos simples
+- Identificar as três partes de que uma proposta de valor forte precisa
+- Rascunhar uma proposta de valor básica para uma ideia de negócio simples
 
 ## Conteúdo principal
 
-Vendas e marketing tornam-se mais fáceis de compreender quando são vistos como uma sequência de decisões, e não como uma coleção de truques. Esta lição aborda **o percurso do cliente antes e depois da compra**.
+Uma proposta de valor é uma frase que responde à pergunta: "Porque eu deveria escolhê-lo em vez de qualquer outra pessoa, incluindo não fazer nada?" Não é um slogan nem um bordão — é uma declaração clara e honesta do benefício específico que oferece.
 
-Uma empresa sustentável não pode concentrar-se apenas em conseguir um «sim». Uma boa decisão comercial deve criar valor real para o cliente e, ao mesmo tempo, fazer sentido económico para quem vende. Por isso, é necessário compreender o que a outra pessoa pretende alcançar, verificar se a oferta é realmente adequada, comunicar o valor com clareza e permitir que o cliente tome uma decisão informada.
+Uma proposta de valor forte tem três partes: **para quem é**, **que problema resolve** e **o que torna a sua solução diferente**. Se faltar qualquer uma dessas três, a frase fica vaga, e algo vago não convence ninguém.
 
-Comece pela situação do cliente. Que problema está a tentar resolver? Que resultado pretende alcançar? O que é mais importante: preço, rapidez, fiabilidade, conveniência, qualidade, redução de risco, apoio ou outra coisa? Não presuma que já conhece a resposta. Faça perguntas abertas, ouça com atenção e confirme o que compreendeu.
+Um exemplo fraco: "Vendemos um café ótimo." Isso não diz para quem é, que problema específico resolve nem o que tem de diferente — muitos lugares vendem café.
 
-Depois, relacione a oferta com as prioridades apresentadas. Evite afirmações vagas como «somos os melhores» ou «é incrível» quando não existam provas. Uma explicação específica é mais forte. Explique o que a oferta faz, porque é importante para aquele cliente e que evidências sustentam a afirmação. Limitações importantes também devem ser comunicadas com clareza.
-
-Por fim, proponha um próximo passo proporcional à situação. Pode ser uma compra, uma demonstração, um orçamento, um teste, uma nova conversa ou nenhuma transação. A venda ética deixa sempre espaço para um «não». Uma reputação sólida a longo prazo vale mais do que uma venda obtida através de pressão.
-
-O mesmo raciocínio aplica-se ao marketing. O marketing deve atrair a atenção das pessoas certas e ajudá-las a compreender se a oferta é relevante para elas. Não deve criar expectativas falsas que a equipa de vendas terá de corrigir mais tarde.
+Um exemplo forte: "Para quem vai e volta do trabalho sem tempo para enfrentar fila, entregamos café fresco na sua mesa antes das 8h." Isso nomeia o público (quem vai e volta do trabalho com pressa), o problema (sem tempo para fila) e a diferença (entregue, antes de um horário específico).
 
 ## Exemplo prático
 
-Imagine uma pequena empresa a trabalhar com o percurso do cliente antes e depois da compra. Em vez de apresentar imediatamente uma oferta, a pessoa responsável pela venda procura primeiro compreender a situação do cliente, verifica se existe uma boa adequação, explica o valor com clareza e propõe um próximo passo razoável. Se a oferta não for adequada, diz isso abertamente. Este comportamento protege a confiança e a reputação.
+Vamos montar uma juntos para um serviço móvel de banho para cães.
 
-Antes de agir, faça três perguntas: de que precisa realmente o cliente? Que provas sustentam o valor que estou a apresentar? Qual é o menor próximo passo razoável? Estas perguntas evitam muitos erros comerciais.
+**Para quem é:** Donos de cão que não têm carro nem quintal.
 
-## Questionário prático
+**Que problema resolve:** Dar banho no cão normalmente significa ir de carro até algum lugar e esperar.
 
-1. Explique pelas suas próprias palavras a ideia principal de o percurso do cliente antes e depois da compra.
-2. Descreva um comportamento que permita aplicar este conceito de forma ética.
-3. Porque é que a adequação entre o cliente e a oferta é mais importante do que forçar uma venda?
-4. Como poderia aplicar esta lição a um produto, serviço, entrevista de emprego ou projeto pessoal real?
+**O que o torna diferente:** O serviço vai até eles, em casa, sem precisar se deslocar para um horário marcado.
 
-## Soluções
+Juntando tudo: "Para donos de cão sem carro nem quintal, levamos banho profissional para cães até a sua porta, para nunca precisar de sair de casa para manter seu cão limpo."
 
-1. Uma boa resposta apresenta o percurso do cliente antes e depois da compra como uma ferramenta prática para melhorar a qualidade de uma decisão comercial.
-2. O comportamento deve ser transparente, basear-se em informação relevante e respeitar a liberdade de decisão da outra pessoa.
-3. Uma venda inadequada pode gerar devoluções, reclamações, perda de tempo, danos na reputação e clientes insatisfeitos.
-4. As respostas podem variar, mas devem identificar uma situação real, o valor procurado e um próximo passo ético.
+## Teste de prática
+
+1. Quais são as três partes de que uma proposta de valor precisa?
+2. Que pergunta uma proposta de valor responde?
+3. Porque "vendemos um café ótimo" é uma proposta de valor fraca?
+4. Crie uma proposta de valor para um negócio que dá explicações de matemática online para crianças.
+
+## Chave de Respostas
+1. Para quem é, que problema resolve, o que a torna diferente.
+2. "Porque eu deveria escolhê-lo em vez de qualquer outra pessoa, incluindo não fazer nada?"
+3. Ela não especifica um público, um problema nem um diferencial.
+4. As respostas vão variar, mas devem incluir as três partes (exemplo: "Para pais cujos filhos estão a ficar para trás em matemática, oferecemos explicações online, individuais, que cabem na rotina corrida da família.")
 
 ## Respostas e explicações
+1. Essas três partes obrigam a ser específico, e é isso que torna uma proposta de valor convincente.
+2. Essa formulação mostra que a proposta de valor precisa de vencer não só os concorrentes, mas também a inação.
+3. Ela é genérica — serviria para quase qualquer cafeteria, então não dá ao cliente nenhum motivo real para escolher esta.
+4. Uma resposta correta nomeia um público específico (pais/alunos), um problema real (ficar para trás) e um diferencial (online, horários flexíveis ou algo parecido).
 
-1. Não basta memorizar uma definição. Deve conseguir relacionar o conceito com uma decisão real e um resultado concreto para o cliente.
-2. Uma influência comercial saudável fornece informação suficiente para a decisão, em vez de depender de pressão escondida.
-3. Uma boa adequação protege ambas as partes e favorece satisfação, retenção, recomendações e reputação.
-4. Uma boa aplicação transforma o conceito numa ação concreta. O exemplo pode variar, mas o raciocínio deve permanecer claro, realista e ético.
-
-## Principais conclusões
-
-- O percurso do cliente antes e depois da compra é uma competência prática, não um truque.
-- Uma boa comunicação comercial começa pela compreensão da situação do cliente.
-- Utilize valor específico e provas em vez de exageros.
-- Uma venda sustentável deve fazer sentido para ambas as partes.
-- A venda ética permite sempre que o cliente tome uma decisão informada.
+## Pontos-chave
+- Uma proposta de valor é uma frase clara, não um slogan.
+- Ela precisa de dizer para quem é, que problema resolve e o que a torna diferente.
+- Propostas de valor vagas fracassam porque não dão a ninguém um motivo real para escolhê-lo.

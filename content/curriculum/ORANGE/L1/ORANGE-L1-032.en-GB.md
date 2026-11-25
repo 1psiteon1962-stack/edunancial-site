@@ -4,67 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 32
+locale: en-GB
 title: "The CRM Concept (Even a Spreadsheet Counts)"
-summary: "Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on customer relationship management. The practical principle is recording contacts, interactions, stages and follow-ups consistently."
-locale: "en-GB"
+summary: "Introduces customer relationship management as a concept, not a specific expensive tool."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
 ---
+
 # The CRM Concept (Even a Spreadsheet Counts)
 
 ## Learning Objectives
-By the end of this lesson, you will be able to:
-- Explain customer relationship management in plain language.
-- Recognise when customer relationship management is being used effectively or poorly.
-- Apply the principle to a simple sales or marketing situation.
-- Distinguish ethical influence from pressure or manipulation.
+- Define CRM as a concept independent of any specific software
+- Explain why tracking prospects systematically prevents lost sales
+- Practice setting up a basic tracking system for prospects
 
 ## Core Content
 
-Sales and marketing become easier to understand when they are treated as a series of decisions rather than a collection of tricks. This lesson focuses on **customer relationship management**. The practical principle is **recording contacts, interactions, stages and follow-ups consistently**.
+CRM stands for Customer Relationship Management, and while it's often associated with expensive software, the concept itself is simple: a system for tracking who your prospects and customers are, what stage they're at, and what needs to happen next with each one. A well-organised spreadsheet is a completely legitimate CRM for a small operation — the software is a convenience, not a requirement.
 
-A business cannot build durable growth by concentrating only on getting somebody to say yes. A good commercial decision has to work for the customer and for the seller. That means understanding what the other person is trying to achieve, deciding whether the offer is genuinely relevant, communicating the value clearly and allowing the customer to make an informed choice.
+Without any system, sellers rely on memory, which fails predictably as the number of prospects grows. Follow-ups get forgotten, hot leads go cold because nobody reached back out, and it becomes impossible to see patterns (like which type of prospect converts best) because nothing is recorded.
 
-In practice, start with the customer's situation. What problem are they trying to solve? What result do they want? What matters most to them: price, speed, reliability, convenience, quality, risk reduction, status, support or something else? Do not assume. Ask, listen and confirm.
-
-Next, connect the offer to the customer's priorities. Avoid vague claims such as "best", "amazing" or "everyone loves it" unless you have evidence. Specific explanations are stronger. Explain what the offer does, why that matters and what evidence supports the claim. Where there are limitations, state them.
-
-Finally, make the next step proportionate. Sometimes the right next step is a purchase. Sometimes it is a demonstration, a quotation, a trial, another meeting or no transaction at all. Ethical selling leaves room for "no". Long-term reputation is more valuable than a sale obtained through pressure.
-
-The same thinking applies to marketing. Marketing should attract appropriate attention and help people understand whether an offer is relevant. It should not manufacture false expectations that the sales process then has to correct.
+A basic CRM, even a simple spreadsheet, should track at minimum: the prospect's name and contact info, what stage of the funnel they're in, the date of the last contact, and the next action needed. That alone prevents most of the common ways sales fall through the cracks.
 
 ## Worked Example
 
-Suppose a small business is working on customer relationship management. Instead of jumping straight to a pitch, the seller identifies the customer's situation, explains the relevant value in plain language and proposes one sensible next step. If the evidence shows poor fit, the seller says so. This demonstrates recording contacts, interactions, stages and follow-ups consistently in practice.
-
-Ask yourself three questions: What does the customer actually need? What evidence supports the proposed value? What is the smallest reasonable next step? Those questions prevent many common sales mistakes.
+Someone reaching out to over a hundred record companies for a music video programme kept a written list — company name, contact info, whether they'd said yes or no, and follow-up notes. That list was a CRM, even though it wasn't software. It let the caller track exactly who to circle back to, who had already agreed, and who still needed a follow-up call using the "equal opportunity" approach.
 
 ## Practice Quiz
 
-1. In your own words, what is the main idea behind customer relationship management?
-2. Which behaviour best demonstrates recording contacts, interactions, stages and follow-ups consistently?
-3. Why is customer fit more important than forcing a transaction?
-4. Describe one way you could apply this lesson to a real product, service, job interview or personal project.
+1. What does CRM stand for, and what is its core purpose?
+2. Does a CRM have to be expensive software?
+3. What happens to sales tracking without any system in place?
+4. Name the four minimum fields a basic CRM should track.
 
 ## Answer Key
-
-1. A strong answer explains customer relationship management as a practical method for improving the quality of a customer's decision.
-2. The best behaviour is one that applies recording contacts, interactions, stages and follow-ups consistently openly and gives the other person enough information and freedom to decide.
-3. A poor-fit sale can create refunds, complaints, reputational damage and wasted time. Sustainable selling depends on value for both sides.
-4. Answers will vary, but they should identify a real audience or decision, the value involved and an ethical next step.
+1. Customer Relationship Management — a system for tracking prospects, their stage, and next steps.
+2. No — a spreadsheet or even an organised written list is a legitimate CRM.
+3. Follow-ups get forgotten and leads go cold, because sellers rely on unreliable memory instead of a system.
+4. Name and contact info, funnel stage, date of last contact, and next action needed.
 
 ## Answers and Explanations
-
-1. The important point is not memorising a slogan. You should be able to explain the concept in terms of a real decision and a real customer outcome.
-2. Effective sales and marketing are transparent. The customer should understand the important facts rather than being pushed by hidden pressure.
-3. Fit protects both parties. It improves satisfaction, retention, referrals and the seller's reputation while reducing avoidable conflict.
-4. A good application connects the lesson to a concrete action. The exact example may differ, but the reasoning should remain clear and ethical.
+1. This defines CRM as a concept, separate from any specific tool or price point.
+2. The lesson explicitly corrects the assumption that CRM requires expensive software.
+3. Memory-based tracking fails predictably as prospect volume grows, causing lost opportunities.
+4. These four fields form the minimum viable structure for tracking prospects effectively.
 
 ## Key Takeaways
-
-- Customer relationship management is a practical skill, not a trick.
-- Strong commercial communication begins with understanding the other person's situation.
-- Use specific value and evidence rather than hype.
-- A sustainable sale should make sense for both customer and seller.
-- Ethical selling always leaves the customer able to make an informed choice.
+- CRM is a concept — tracking prospects and next steps — not a specific expensive tool.
+- Without a tracking system, follow-ups get forgotten and leads go cold.
+- A basic spreadsheet with name, stage, last contact, and next action covers the essentials.
