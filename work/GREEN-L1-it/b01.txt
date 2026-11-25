@@ -1,0 +1,443 @@
+===== GREEN-L1-001
+TITLE: Che cos'è un'imposta, e perché le paghiamo?
+SUMMARY: Un'introduzione al concetto base di tassazione: che cos'è un'imposta, chi la riscuote e perché lo Stato ne ha bisogno per funzionare.
+# Che cos'è un'imposta, e perché le paghiamo?
+
+## Obiettivi di apprendimento
+
+- Definire che cos'è un'imposta in termini semplici.
+- Individuare i diversi livelli di governo che riscuotono imposte.
+- Spiegare con parole tue perché esistono le imposte.
+
+## Contenuto principale
+
+Un'imposta è denaro che lo Stato richiede a persone e imprese di pagare, in base a regole che lo Stato stesso stabilisce. Non è facoltativa come un abbonamento in palestra. Se devi un'imposta e non la paghi, ci sono conseguenze legali.
+
+Le imposte vengono riscosse a livelli di governo diversi. Nella maggior parte dei paesi si incontra una combinazione di imposte nazionali (o federali), regionali (di stati, regioni o province) e locali (di comuni o contee). Ogni livello usa il denaro per cose diverse: lo Stato centrale può finanziare la difesa e grandi programmi pubblici, mentre un comune può usare le imposte locali per la raccolta dei rifiuti, la manutenzione delle strade o i vigili del fuoco.
+
+Il motivo di fondo per cui esistono le imposte è semplice: alcune cose funzionano meglio se tutti versano in un fondo comune invece di pagare ciascuno per conto proprio. Strade, tribunali, scuole pubbliche e difesa nazionale sono difficili o impossibili da comprare per una singola persona, ma ne beneficiano quasi tutti. Le imposte sono lo strumento con cui le società finanziano questi beni condivisi.
+
+Vale la pena separare l'*idea* di tassazione da qualsiasi aliquota o legge fiscale specifica. Aliquote e regole cambiano continuamente e variano da paese a paese e da anno ad anno. Ciò che non cambia è il concetto di fondo: un contributo obbligatorio, stabilito dallo Stato, usato per finanziare bisogni collettivi.
+
+> **Nota:** le aliquote, i nomi degli enti e le soglie citati in questo percorso sono illustrativi e variano da paese a paese. Verifica sempre i valori aggiornati per il tuo paese prima di prendere decisioni.
+
+## Esempio svolto
+
+**Domanda:** La nonna di Ntege paga una tariffa del mercato ogni volta che vende vestiti al mercato della città. È la stessa cosa di un'imposta?
+
+**Studente:** Non credo: sta solo pagando per usare un banco al mercato.
+
+**Guida:** Guarda meglio. Chi stabilisce la tariffa? È facoltativa?
+
+**Studente:** La stabilisce l'autorità del mercato, e no: senza pagarla non si può vendere lì.
+
+**Guida:** Questo è il test chiave. Un pagamento obbligatorio, stabilito da un'autorità e legato a un'attività che stai svolgendo, funziona come un'imposta, anche se si chiama "tariffa". Lo Stato usa spesso sia vere imposte sia tariffe obbligatorie per finanziare funzioni pubbliche, e il confine tra le due a volte è sfumato.
+
+**Studente:** Quindi conta meno il nome e più il fatto che sia obbligatoria e stabilita da un'autorità.
+
+**Guida:** Esatto.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un'imposta si definisce meglio come:
+
+A) Denaro che scegli di donare allo Stato
+B) Un pagamento obbligatorio, stabilito da regole pubbliche, usato per finanziare bisogni pubblici
+C) Una tariffa che pagano solo le imprese
+D) Un contributo volontario in beneficenza
+
+**Domanda 2.** Quale di questi è un esempio di bene condiviso che le imposte finanziano comunemente?
+
+A) Uno yacht privato
+B) Un conto di risparmio personale
+C) Le strade pubbliche
+D) Il regalo di compleanno per un amico
+
+**Domanda 3.** Lo Stato può riscuotere imposte a livello:
+
+A) Solo nazionale
+B) Solo locale
+C) Più livelli: nazionale, regionale e locale
+D) Nessuno; le imposte sono private
+
+**Domanda 4.** Vero o falso: le aliquote e le regole fiscali sono le stesse in ogni paese e non cambiano mai.
+
+A) Vero
+B) Falso
+
+**Domanda 5.** Una tariffa obbligatoria del mercato stabilita da un'autorità locale:
+
+A) Non ha mai a che fare con la tassazione
+B) Funziona come un'imposta anche se non si chiama così
+C) È sempre illegale
+D) Riguarda solo le grandi imprese
+
+## Soluzioni
+
+1. B, 2. C, 3. C, 4. B, 5. B
+
+## Risposte e spiegazioni
+
+**1.** Un'imposta è obbligatoria, non facoltativa, ed è stabilita da un'autorità pubblica: questo la distingue da una donazione.
+
+**2.** Le strade sono un bene condiviso che quasi tutti usano e che pochi potrebbero costruire da soli: proprio il tipo di cosa che le imposte servono a finanziare.
+
+**3.** La maggior parte dei paesi distribuisce la tassazione tra livelli nazionale, regionale e locale, ciascuno con responsabilità diverse da finanziare.
+
+**4.** I sistemi fiscali variano enormemente da paese a paese e cambiano nel tempo: universale è solo il concetto di fondo, non le regole specifiche.
+
+**5.** Conta meno l'etichetta e più la sostanza: obbligatoria, stabilita da un'autorità, legata a un'attività. Questo schema funziona come un'imposta.
+
+## Punti chiave
+
+- Un'imposta è un pagamento obbligatorio stabilito da un'autorità pubblica, non una scelta volontaria.
+- Le imposte servono a finanziare cose che funzionano meglio come beni condivisi e collettivi.
+- La tassazione avviene su più livelli di governo, ciascuno con responsabilità diverse da finanziare.
+- Aliquote e regole fiscali variano da paese a paese e cambiano nel tempo: non memorizzare i numeri come fatti universali.
+- Le tariffe obbligatorie possono funzionare come imposte anche quando non hanno formalmente quel nome.
+
+===== GREEN-L1-002
+TITLE: Dove vanno le tue imposte: beni e servizi pubblici
+SUMMARY: Esplora per che cosa vengono usate di solito le entrate fiscali, introducendo il concetto di bene pubblico rispetto al bene privato.
+# Dove vanno le tue imposte: beni e servizi pubblici
+
+## Obiettivi di apprendimento
+
+- Distinguere tra un bene pubblico e un bene privato.
+- Elencare le categorie comuni di spesa pubblica finanziate dalle imposte.
+- Spiegare perché alcuni beni sono difficili da finanziare senza un pagamento collettivo.
+
+## Contenuto principale
+
+Gli economisti usano l'espressione "bene pubblico" per qualcosa che è sia non escludibile (non si può facilmente impedire a chi non ha pagato di usarlo) sia non rivale (l'uso da parte di una persona non lo consuma per gli altri). I lampioni sono un esempio classico: una volta installati, è difficile impedire a chi non paga di beneficiarne, e una persona che cammina sotto la luce non la affievolisce per la persona successiva.
+
+Poiché i beni pubblici sono difficili da vendere con profitto a un cliente alla volta, le imprese private spesso non li costruiscono. È il vuoto che la tassazione colma. Le categorie comuni finanziate dalle entrate fiscali comprendono infrastrutture (strade, ponti, reti idriche), sicurezza pubblica (polizia, vigili del fuoco, tribunali), istruzione (scuole pubbliche), difesa e programmi sociali (assistenza sanitaria, sostegno alla disoccupazione, sistemi pensionistici).
+
+Non tutto ciò per cui lo Stato spende è un bene pubblico puro: una parte della spesa riguarda servizi che in teoria potrebbero essere venduti privatamente, ma che una società ha deciso di finanziare collettivamente per altri motivi, come garantire un accesso ampio indipendentemente dal reddito. L'istruzione pubblica è un buon esempio: le scuole private esistono, ma la maggior parte dei paesi finanzia anche l'istruzione pubblica, perché un'alfabetizzazione e competenze di base diffuse giovano a tutta la società, non solo al singolo studente.
+
+Capire questa distinzione ti aiuta a valutare più avanti i dibattiti sulla politica fiscale: le discussioni sulle imposte sono spesso in realtà discussioni su quali beni debbano essere pubblici, quali privati e quanto finanziamento collettivo sia sufficiente.
+
+## Esempio svolto
+
+**Domanda:** Se un'impresa privata costruisse una strada a pedaggio e solo chi paga il pedaggio potesse percorrerla, quella strada sarebbe un bene pubblico puro?
+
+**Studente:** Non sembra, perché se non paghi puoi essere escluso.
+
+**Guida:** Giusto: è il test dell'escludibilità. Che cosa ti dice su chi tende a costruire strade a pedaggio e chi strade pubbliche gratuite?
+
+**Studente:** Un'impresa privata può guadagnare con una strada a pedaggio perché può far pagare ogni utente. Una strada pubblica gratuita non può far pagare ogni utente, quindi ha più senso finanziarla con imposte condivise.
+
+**Guida:** È questa la logica di fondo. Spesso è l'escludibilità a stabilire se qualcosa viene costruito privatamente o finanziato con fondi pubblici.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un bene pubblico si descrive meglio come un bene:
+
+A) Costoso e raro
+B) Non escludibile e non rivale
+C) Usato solo dai ricchi
+D) Sempre gratuito da costruire
+
+**Domanda 2.** Quale dei seguenti è il miglior esempio di bene pubblico?
+
+A) Un'auto privata
+B) Un lampione
+C) Un pasto al ristorante
+D) Un telefono personale
+
+**Domanda 3.** Perché le imprese private evitano spesso di costruire beni pubblici puri?
+
+A) È illegale
+B) Non possono far pagare facilmente ogni utente, quindi è difficile guadagnarci
+C) Lo Stato vieta le infrastrutture private
+D) I beni pubblici non sono mai utili
+
+**Domanda 4.** Una strada a pedaggio che esclude chi non paga è:
+
+A) Un bene pubblico puro
+B) Un esempio di servizio escludibile, a differenza di una strada pubblica gratuita
+C) Illegale nella maggior parte dei paesi
+D) La stessa cosa di una scuola pubblica
+
+**Domanda 5.** L'istruzione pubblica è finanziata collettivamente anche perché:
+
+A) Le scuole private sono illegali
+B) Un'alfabetizzazione diffusa giova alla società oltre al singolo studente
+C) Non costa nulla gestirla
+D) Ne hanno bisogno solo le famiglie benestanti
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B, 5. B
+
+## Risposte e spiegazioni
+
+**1.** La non escludibilità e la non rivalità sono le due caratteristiche con cui gli economisti definiscono i beni pubblici.
+
+**2.** Un lampione è difficile da limitare agli utenti paganti e non si esaurisce se più persone lo usano.
+
+**3.** Se non si può far pagare ogni utente, è difficile costruire un'attività privata redditizia attorno a quel bene.
+
+**4.** Poiché le strade a pedaggio possono escludere chi non paga, possono essere costruite e gestite privatamente, a differenza di una strada pubblica gratuita.
+
+**5.** Il finanziamento collettivo dell'istruzione riflette la scelta sociale secondo cui un accesso ampio produce benefici che vanno oltre il singolo.
+
+## Punti chiave
+
+- I beni pubblici sono non escludibili e non rivali, il che li rende difficili da finanziare solo con la vendita privata.
+- Le entrate fiscali finanziano comunemente infrastrutture, sicurezza pubblica, istruzione, difesa e programmi sociali.
+- L'escludibilità è spesso il fattore decisivo per stabilire se qualcosa viene costruito privatamente o collettivamente.
+- Alcuni servizi finanziati collettivamente non sono beni pubblici puri, ma vengono finanziati per garantire accesso e benefici sociali.
+- I dibattiti sulle imposte sono spesso in realtà dibattiti su quali beni debbano essere pubblici e quali privati.
+
+===== GREEN-L1-003
+TITLE: Tipi di imposte: una panoramica
+SUMMARY: Una mappa delle principali categorie di imposte che una persona incontra (sul reddito, sui consumi, sugli immobili e sul lavoro) prima di approfondire ciascuna.
+# Tipi di imposte: una panoramica
+
+## Obiettivi di apprendimento
+
+- Indicare le quattro principali categorie di imposte che la maggior parte delle persone incontra.
+- Individuare a quale categoria appartiene un esempio concreto di imposta.
+- Spiegare la differenza generale tra un'imposta sul guadagnare, sullo spendere, sul possedere e sul lavorare.
+
+## Contenuto principale
+
+Prima di approfondire una singola imposta, è utile avere la mappa completa. La maggior parte delle persone, nella maggior parte dei paesi, incontra una versione di queste quattro categorie:
+
+**Imposta sul reddito**: un'imposta sul denaro che guadagni, che provenga da un lavoro, da un'attività o da investimenti. **Imposta sulle vendite o sui consumi**: un'imposta aggiunta quando compri beni o servizi. **Imposta sugli immobili**: un'imposta sulle cose che possiedi, il più delle volte immobili. **Contributi sul lavoro**: prelievi legati specificamente ai salari da lavoro dipendente, spesso destinati a programmi come la previdenza o l'assistenza sanitaria.
+
+Un modo semplice per tenerle distinte: l'imposta sul reddito chiede "quanto hai guadagnato?", l'imposta sui consumi "quanto hai speso?", l'imposta sugli immobili "che cosa possiedi?" e i contributi sul lavoro "sei occupato, e quanto sei pagato?".
+
+I paesi combinano queste categorie in modo diverso. Alcuni si basano molto sull'imposta sul reddito, altri puntano di più sulle imposte sui consumi, e gli enti locali dipendono spesso dall'imposta sugli immobili per finanziare scuole e servizi locali. Non esiste un unico mix "corretto": è una scelta politica con vantaggi e svantaggi, che le lezioni successive di questo percorso esamineranno. Per ora l'obiettivo è solo riconoscerle: quando senti parlare di un'imposta, dovresti saperla collocare in uno di questi gruppi come punto di partenza.
+
+## Esempio svolto
+
+**Domanda:** Uno Stato aggiunge una percentuale sul prezzo ogni volta che qualcuno compra una bibita. In quale categoria rientra?
+
+**Studente:** Avviene al momento dell'acquisto, quindi sembra un'imposta sulle vendite o sui consumi.
+
+**Guida:** Giusto. E se lo stesso Stato tassasse anche l'utile che l'azienda produttrice di bibite realizza a fine anno, sarebbe la stessa imposta?
+
+**Studente:** No, sarebbe un'imposta sul reddito dell'azienda, non un'imposta sulle vendite legata all'acquisto.
+
+**Guida:** Esatto: allo stesso prodotto possono applicarsi due imposte diverse in momenti diversi, una all'acquisto e una sull'utile che ha generato.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'imposta sul reddito è un'imposta su:
+
+A) Ciò che possiedi
+B) Ciò che guadagni
+C) Ciò che compri
+D) Il fatto di essere occupato o no
+
+**Domanda 2.** L'imposta sulle vendite si applica di solito:
+
+A) Una volta all'anno sul patrimonio totale
+B) Al momento dell'acquisto
+C) Solo ai titolari di imprese
+D) Solo in un paese
+
+**Domanda 3.** L'imposta sugli immobili è associata più comunemente a:
+
+A) La proprietà di immobili
+B) La spesa alimentare
+C) Le buste paga
+D) Solo le compravendite di azioni
+
+**Domanda 4.** I contributi sul lavoro sono legati specificamente a:
+
+A) La proprietà di immobili
+B) I salari da lavoro
+C) Gli acquisti al dettaglio
+D) Le eredità
+
+**Domanda 5.** Quale affermazione sul mix fiscale dei paesi è più corretta?
+
+A) Tutti i paesi usano lo stesso identico mix
+B) Esiste un mix universalmente corretto
+C) I paesi combinano questi tipi di imposte in modo diverso, come scelta politica
+D) Nel mondo esiste solo l'imposta sul reddito
+
+## Soluzioni
+
+1. B, 2. B, 3. A, 4. B, 5. C
+
+## Risposte e spiegazioni
+
+**1.** L'imposta sul reddito scatta quando si guadagna denaro, da qualsiasi fonte: salari, utili d'impresa o rendimenti degli investimenti.
+
+**2.** L'imposta sulle vendite si applica al momento della transazione e si aggiunge al prezzo d'acquisto.
+
+**3.** L'imposta sugli immobili è legata il più delle volte agli immobili, anche se alcuni luoghi tassano anche altri beni posseduti.
+
+**4.** I contributi sul lavoro sono legati specificamente al reddito da lavoro e finanziano spesso programmi come pensioni o sanità.
+
+**5.** Non esiste un unico mix fiscale corretto: governi diversi bilanciano queste categorie in modo diverso in base alle priorità politiche.
+
+## Punti chiave
+
+- Le quattro principali categorie di imposte che la maggior parte delle persone incontra sono: sul reddito, sulle vendite o sui consumi, sugli immobili e sul lavoro.
+- Ogni categoria pone una domanda diversa: guadagnato, speso, posseduto o occupato.
+- Un singolo prodotto o una singola transazione può far scattare più di un tipo di imposta in momenti diversi.
+- I paesi combinano queste categorie in modo diverso: non esiste una proporzione universalmente corretta.
+- Riconoscere a quale gruppo appartiene un'imposta è il primo passo per capire come funziona.
+
+===== GREEN-L1-004
+TITLE: L'imposta sul reddito: tassare ciò che guadagni
+SUMMARY: Uno sguardo più da vicino all'imposta sul reddito: come si applica ai salari, agli utili d'impresa e ai redditi da investimento.
+# L'imposta sul reddito: tassare ciò che guadagni
+
+## Obiettivi di apprendimento
+
+- Definire l'imposta sul reddito e individuare che cosa conta come reddito imponibile.
+- Spiegare che l'imposta sul reddito si applica in genere sia che il reddito venga da un lavoro, da un'attività o da investimenti.
+- Riconoscere che il "reddito" è più ampio della sola busta paga.
+
+## Contenuto principale
+
+L'imposta sul reddito è un'imposta sul denaro che guadagni. La parola "reddito" è più ampia di quanto molti pensino: di solito comprende i salari da lavoro, gli utili di un'attività che gestisci e i rendimenti degli investimenti come interessi o dividendi. Paesi diversi definiscono in modo diverso che cosa conti esattamente come reddito imponibile, ma il principio generale vale ovunque: se è entrato denaro che ha aumentato ciò che hai, è un candidato all'imposta sul reddito.
+
+La maggior parte dei sistemi di imposta sul reddito non tassa ogni euro o dollaro con la stessa aliquota. Usano invece scaglioni, deduzioni e detrazioni per adeguare quanto è effettivamente dovuto: concetti trattati in dettaglio nelle lezioni successive. Per ora l'idea chiave è più semplice: l'imposta sul reddito scatta guadagnando, in qualsiasi forma, non solo avendo un lavoro tradizionale.
+
+## Esempio svolto
+
+**Domanda:** La nonna di Ntege vende vestiti e guadagna anche una piccola somma di interessi sui suoi risparmi. L'imposta sul reddito si applica a entrambe le cose?
+
+**Studente:** Le vendite dei vestiti sono chiaramente guadagni della sua attività.
+
+**Guida:** E gli interessi?
+
+**Studente:** Anche quelli sono denaro che entra, solo che viene dai risparmi invece che dal lavoro.
+
+**Guida:** Giusto: i sistemi di imposta sul reddito considerano in genere tutti i modi in cui il denaro aumenta ciò che hai, non solo i salari di un lavoro.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'imposta sul reddito si applica a:
+
+A) Solo i salari da lavoro
+B) Salari, utili d'impresa e redditi da investimento
+C) Solo i rendimenti degli investimenti
+D) Solo le grandi società
+
+**Domanda 2.** Vero o falso: nella maggior parte dei sistemi tutto il reddito è tassato esattamente con la stessa aliquota.
+
+A) Vero
+B) Falso
+
+**Domanda 3.** Gli interessi maturati su un conto di risparmio sono in genere:
+
+A) Mai imponibili
+B) Una forma di reddito che può essere imponibile
+C) La stessa cosa di un regalo
+D) Esenti in ogni paese
+
+**Domanda 4.** Il principio generale alla base dell'imposta sul reddito è:
+
+A) Conta solo la busta paga
+B) Il denaro che aumenta ciò che hai è un candidato alla tassazione
+C) Conta solo il contante, non altre forme di pagamento
+D) I titolari di imprese sono esenti
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'imposta sul reddito è ampia per definizione: copre salari, utili d'impresa e rendimenti degli investimenti, non solo il lavoro dipendente tradizionale.
+
+**2.** La maggior parte dei sistemi usa scaglioni, deduzioni e detrazioni invece di un'unica aliquota fissa, come spiegano le lezioni successive.
+
+**3.** Gli interessi sono una forma di reddito da investimento e sono comunemente trattati come imponibili, secondo le regole specifiche di ciascun paese. (In Italia, per esempio, molti redditi finanziari sono soggetti a un'imposta sostitutiva trattenuta alla fonte; le regole cambiano nel tempo.)
+
+**4.** Il test che unifica tutto è se è entrato denaro che ha aumentato ciò che hai: la fonte conta meno di questo fatto di base.
+
+## Punti chiave
+
+- L'imposta sul reddito si applica a salari, utili d'impresa e redditi da investimento, non solo alle buste paga.
+- Paesi diversi definiscono il reddito imponibile in modo diverso, ma il principio di fondo è ampio.
+- La maggior parte dei sistemi non tassa ogni euro o dollaro con la stessa aliquota fissa.
+- Riconoscere tutte le proprie fonti di reddito è il punto di partenza per capire la propria situazione fiscale.
+
+===== GREEN-L1-005
+TITLE: L'imposta sulle vendite: tassare ciò che compri
+SUMMARY: Come funzionano le imposte sui consumi, chi le riscuote e perché l'acquirente di solito le vede aggiunte alla cassa.
+# L'imposta sulle vendite: tassare ciò che compri
+
+## Obiettivi di apprendimento
+
+- Spiegare come viene riscossa di solito l'imposta sulle vendite.
+- Individuare la differenza tra il venditore che riscuote l'imposta e il venditore che la deve.
+- Riconoscere che le aliquote dell'imposta sulle vendite variano da luogo a luogo.
+
+## Contenuto principale
+
+L'imposta sulle vendite si aggiunge al prezzo di beni o servizi al momento dell'acquisto. Nella maggior parte dei sistemi è il venditore a dover riscuotere l'imposta dall'acquirente e poi versarla allo Stato: il venditore agisce come esattore, non come chi ne sostiene il costo finale. Di solito è l'acquirente a pagare davvero l'imposta, anche se è l'impresa a occuparsi degli adempimenti. (In Italia e nell'Unione europea il sistema equivalente è l'IVA, che di solito è già inclusa nel prezzo finale esposto.)
+
+Aliquote e regole variano enormemente da luogo a luogo, a volte persino tra città vicine dello stesso paese. Alcune categorie di beni, come alimentari o medicinali, sono spesso tassate con un'aliquota ridotta o esentate del tutto, a seconda delle scelte politiche locali. Per questo l'imposta sulle vendite viene chiamata anche imposta sui consumi: è legata all'atto di spendere, non al reddito o alla proprietà.
+
+## Esempio svolto
+
+**Domanda:** Un negoziante riscuote l'imposta sulle vendite dai clienti per tutto il mese. Di chi sono quei soldi, e che cosa dovrebbe farne?
+
+**Studente:** Sembrano soldi del negozio, visto che sono entrati dalla cassa.
+
+**Guida:** Ma chi li ha pagati davvero?
+
+**Studente:** I clienti: il negozio li ha solo aggiunti al prezzo e riscossi.
+
+**Guida:** Giusto, ed è per questo che quei soldi non sono davvero ricavi del negozio: sono il pagamento dell'imposta dei clienti, che passa dal negozio per arrivare allo Stato.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'imposta sulle vendite viene in genere riscossa da:
+
+A) Lo Stato direttamente presso gli acquirenti
+B) Il venditore, che poi la versa allo Stato
+C) Nessuno: è facoltativa
+D) Solo i rivenditori online
+
+**Domanda 2.** Chi sostiene di solito il costo reale dell'imposta sulle vendite?
+
+A) Il venditore
+B) L'acquirente
+C) Lo Stato
+D) Nessuno
+
+**Domanda 3.** Le aliquote dell'imposta sulle vendite:
+
+A) Sono identiche ovunque
+B) Possono variare in modo significativo da luogo a luogo
+C) Non si applicano mai ai servizi
+D) Esistono solo in un paese
+
+**Domanda 4.** Alimentari e medicinali sono a volte:
+
+A) Tassati con un'aliquota più alta dei beni di lusso
+B) Tassati con un'aliquota ridotta o esentati
+C) Vietati alla vendita
+D) Non soggetti ad alcuna regola fiscale
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il venditore agisce di solito come intermediario: riscuote l'imposta e la trasferisce, invece di tenerla come ricavo.
+
+**2.** Anche se è l'impresa a gestire la transazione, è nel pagamento dell'acquirente che è inclusa l'imposta.
+
+**3.** In molti sistemi le aliquote sono stabilite a livello locale o regionale e possono cambiare da un quartiere o da uno stato all'altro.
+
+**4.** Molti governi esentano o riducono l'imposta sui beni di prima necessità per scelta politica.
+
+## Punti chiave
+
+- L'imposta sulle vendite viene riscossa dal venditore al momento dell'acquisto e versata allo Stato.
+- Il costo dell'imposta lo sostiene alla fine l'acquirente, non il venditore.
+- Le aliquote variano molto da luogo a luogo, a volte anche a livello locale.
+- I beni di prima necessità sono spesso tassati in modo diverso dagli altri beni, per scelta politica.

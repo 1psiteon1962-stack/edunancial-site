@@ -1,0 +1,443 @@
+===== GREEN-L1-001
+TITLE: O que é imposto, e por que pagamos impostos?
+SUMMARY: Uma introdução ao conceito básico de tributação: o que é um imposto, quem o cobra e por que o governo precisa dele para funcionar.
+# O que é imposto, e por que pagamos impostos?
+
+## Objetivos de aprendizagem
+
+- Definir o que é um imposto em termos simples.
+- Identificar os diferentes níveis de governo que cobram impostos.
+- Explicar, com suas próprias palavras, por que os impostos existem.
+
+## Conteúdo principal
+
+Imposto é o dinheiro que o governo exige que pessoas e empresas paguem, de acordo com regras que o próprio governo define. Não é opcional como uma mensalidade de academia. Se você deve um imposto e não paga, há consequências legais.
+
+Os impostos são cobrados em diferentes níveis de governo. Na maioria dos países, você vai encontrar uma combinação de impostos nacionais (federais), regionais (de estados ou províncias) e locais (de municípios ou condados). Cada nível usa o dinheiro para coisas diferentes: o governo federal pode financiar a defesa e grandes programas públicos, enquanto uma cidade pode usar os impostos locais para pagar a coleta de lixo, o conserto das ruas ou o corpo de bombeiros.
+
+O motivo central de os impostos existirem é simples: algumas coisas funcionam melhor quando todo mundo contribui para um caixa comum, em vez de cada um pagar individualmente. Estradas, tribunais, escolas públicas e defesa nacional são difíceis ou impossíveis de uma pessoa comprar sozinha, mas beneficiam quase todo mundo. Os impostos são o mecanismo que as sociedades usam para financiar esses bens compartilhados.
+
+Vale a pena separar a *ideia* de tributação de qualquer alíquota ou lei tributária específica. Alíquotas e regras mudam o tempo todo e variam de país para país e de ano para ano. O que não muda é o conceito de base: uma contribuição obrigatória, definida pelo governo, usada para financiar necessidades coletivas.
+
+> **Observação:** alíquotas, nomes de órgãos e limites citados em toda esta trilha são ilustrativos e variam de país para país. Sempre confira os valores atuais do seu país antes de tomar decisões.
+
+## Exemplo prático
+
+**Pergunta:** A avó do Ntege paga uma taxa do mercado toda vez que vende vestidos na feira da cidade. Isso é a mesma coisa que um imposto?
+
+**Aluno:** Acho que não; ela só está pagando para usar uma banca na feira.
+
+**Guia:** Olhe com mais atenção. Quem define a taxa? Ela é opcional?
+
+**Aluno:** Quem define é a administração do mercado, e não: sem pagar, não dá para vender lá.
+
+**Guia:** Esse é o teste-chave. Um pagamento obrigatório, definido por uma autoridade e ligado a uma atividade que você está exercendo, funciona como um imposto, mesmo que se chame "taxa". Os governos costumam usar tanto impostos propriamente ditos quanto taxas obrigatórias para financiar funções públicas, e a fronteira entre os dois às vezes é nebulosa.
+
+**Aluno:** Então importa menos o nome e mais se o pagamento é obrigatório e definido por uma autoridade.
+
+**Guia:** Exatamente.
+
+## Teste de prática
+
+**Pergunta 1.** Imposto é mais bem definido como:
+
+A) Dinheiro que você escolhe doar ao governo
+B) Um pagamento obrigatório, definido por regras do governo, usado para financiar necessidades públicas
+C) Uma taxa que só as empresas pagam
+D) Uma contribuição voluntária para caridade
+
+**Pergunta 2.** Qual destes é um exemplo de bem compartilhado que os impostos costumam financiar?
+
+A) Um iate particular
+B) Uma conta poupança pessoal
+C) Ruas e estradas públicas
+D) O presente de aniversário de um amigo
+
+**Pergunta 3.** O governo pode cobrar impostos:
+
+A) Só no nível nacional
+B) Só no nível local
+C) Em vários níveis: nacional, regional e local
+D) Em nenhum nível; impostos são privados
+
+**Pergunta 4.** Verdadeiro ou falso: as alíquotas e regras tributárias são as mesmas em todos os países e nunca mudam.
+
+A) Verdadeiro
+B) Falso
+
+**Pergunta 5.** Uma taxa obrigatória de mercado definida por uma autoridade local:
+
+A) Nunca tem relação com tributação
+B) Funciona como um imposto, mesmo que não tenha esse nome
+C) É sempre ilegal
+D) Só interessa a grandes empresas
+
+## Gabarito
+
+1. B, 2. C, 3. C, 4. B, 5. B
+
+## Respostas e explicações
+
+**1.** Um imposto é obrigatório, e não opcional, e é definido por uma autoridade de governo: é isso que o diferencia de uma doação.
+
+**2.** As estradas são um bem compartilhado que quase todo mundo usa e que poucas pessoas conseguiriam construir sozinhas, exatamente o tipo de coisa que os impostos existem para financiar.
+
+**3.** A maioria dos países distribui a tributação entre os níveis nacional, regional e local, e cada um financia responsabilidades diferentes. (No Brasil, por exemplo, há tributos federais, estaduais e municipais.)
+
+**4.** Os sistemas tributários variam enormemente de país para país e mudam com o tempo; universal é só o conceito de base, e não as regras específicas.
+
+**5.** O rótulo importa menos do que o conteúdo: obrigatório, definido por uma autoridade e ligado a uma atividade. Esse padrão funciona como um imposto.
+
+## Pontos-chave
+
+- Imposto é um pagamento obrigatório definido por uma autoridade de governo, e não uma escolha voluntária.
+- Os impostos existem para financiar coisas que funcionam melhor como bens compartilhados e coletivos.
+- A tributação acontece em vários níveis de governo, cada um financiando responsabilidades diferentes.
+- Alíquotas e regras tributárias variam de país para país e mudam com o tempo: não decore números como se fossem fatos universais.
+- Taxas obrigatórias podem funcionar como impostos, mesmo quando não têm formalmente esse nome.
+
+===== GREEN-L1-002
+TITLE: Para onde vai o dinheiro dos seus impostos: bens e serviços públicos
+SUMMARY: Explora para que a arrecadação de impostos costuma ser usada, apresentando o conceito de bem público em comparação com bem privado.
+# Para onde vai o dinheiro dos seus impostos: bens e serviços públicos
+
+## Objetivos de aprendizagem
+
+- Distinguir um bem público de um bem privado.
+- Listar categorias comuns de gasto público financiadas por impostos.
+- Explicar por que alguns bens são difíceis de financiar sem pagamento coletivo.
+
+## Conteúdo principal
+
+Os economistas usam a expressão "bem público" para algo que é ao mesmo tempo não excludente (não dá para impedir com facilidade que quem não pagou o use) e não rival (o uso por uma pessoa não o esgota para as outras). A iluminação pública é um exemplo clássico: depois de instalada, é difícil impedir que quem não paga se beneficie, e uma pessoa andando sob a luz não a enfraquece para a próxima.
+
+Como os bens públicos são difíceis de vender com lucro, um cliente de cada vez, as empresas privadas muitas vezes não os constroem. É essa lacuna que a tributação preenche. Categorias comuns financiadas pela arrecadação incluem infraestrutura (estradas, pontes, saneamento), segurança pública (polícia, bombeiros, tribunais), educação (escolas públicas), defesa e programas sociais (saúde, seguro-desemprego, previdência).
+
+Nem tudo em que o governo gasta é um bem público puro: parte dos gastos vai para serviços que, em teoria, poderiam ser vendidos de forma privada, mas que a sociedade decidiu financiar coletivamente por outros motivos, como garantir acesso amplo independentemente da renda. A educação pública é um bom exemplo: existem escolas particulares, mas a maioria dos países também financia o ensino público, porque alfabetização e habilidades básicas amplas beneficiam toda a sociedade, e não só o aluno.
+
+Entender essa distinção ajuda você a avaliar mais adiante os debates sobre política tributária: as discussões sobre impostos muitas vezes são, na verdade, discussões sobre quais bens devem ser públicos, quais devem ser privados e quanto financiamento coletivo é suficiente.
+
+## Exemplo prático
+
+**Pergunta:** Se uma empresa privada construísse uma rodovia com pedágio e só quem paga o pedágio pudesse trafegar nela, essa rodovia seria um bem público puro?
+
+**Aluno:** Não parece, porque você pode ser excluído se não pagar.
+
+**Guia:** Isso mesmo: esse é o teste da exclusão. O que isso diz sobre quem costuma construir rodovias com pedágio e quem constrói estradas públicas gratuitas?
+
+**Aluno:** Uma empresa privada pode lucrar com uma rodovia com pedágio porque consegue cobrar de cada usuário. Uma estrada pública gratuita não consegue cobrar de cada usuário, então faz mais sentido financiá-la com impostos compartilhados.
+
+**Guia:** Essa é a lógica central. Muitas vezes é a possibilidade de exclusão que define se algo será construído de forma privada ou financiado com recursos públicos.
+
+## Teste de prática
+
+**Pergunta 1.** Um bem público é mais bem descrito como aquele que é:
+
+A) Caro e raro
+B) Não excludente e não rival
+C) Usado só por pessoas ricas
+D) Sempre gratuito de construir
+
+**Pergunta 2.** Qual das opções é o melhor exemplo de bem público?
+
+A) Um carro particular
+B) Um poste de iluminação pública
+C) Uma refeição em restaurante
+D) Um celular pessoal
+
+**Pergunta 3.** Por que as empresas privadas muitas vezes evitam construir bens públicos puros?
+
+A) É ilegal
+B) Não conseguem cobrar facilmente de cada usuário, o que dificulta o lucro
+C) O governo proíbe infraestrutura privada
+D) Bens públicos nunca são úteis
+
+**Pergunta 4.** Uma rodovia com pedágio que exclui quem não paga é:
+
+A) Um bem público puro
+B) Um exemplo de serviço excludente, diferente de uma estrada pública gratuita
+C) Ilegal na maioria dos países
+D) A mesma coisa que uma escola pública
+
+**Pergunta 5.** A educação pública é financiada coletivamente em parte porque:
+
+A) Escolas particulares são ilegais
+B) A alfabetização ampla beneficia a sociedade além do próprio aluno
+C) Não custa nada mantê-la
+D) Só famílias ricas precisam dela
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B, 5. B
+
+## Respostas e explicações
+
+**1.** A não exclusão e a não rivalidade são as duas características que os economistas usam para definir bens públicos.
+
+**2.** Um poste de iluminação é difícil de restringir a usuários pagantes e não se esgota com mais pessoas usando.
+
+**3.** Se não dá para cobrar de cada usuário individualmente, é difícil montar um negócio privado lucrativo em torno daquele bem.
+
+**4.** Como as rodovias com pedágio podem excluir quem não paga, elas podem ser construídas e operadas de forma privada, o que não acontece com uma estrada pública gratuita.
+
+**5.** O financiamento coletivo da educação reflete a decisão da sociedade de que o acesso amplo gera benefícios que vão além do indivíduo.
+
+## Pontos-chave
+
+- Bens públicos são não excludentes e não rivais, o que os torna difíceis de financiar só com venda privada.
+- A arrecadação de impostos costuma financiar infraestrutura, segurança pública, educação, defesa e programas sociais.
+- A possibilidade de exclusão costuma ser o fator decisivo para algo ser construído de forma privada ou coletiva.
+- Alguns serviços financiados coletivamente não são bens públicos puros, mas são financiados amplamente por motivos de acesso e benefício social.
+- Os debates sobre impostos muitas vezes são, na verdade, debates sobre quais bens devem ser públicos e quais devem ser privados.
+
+===== GREEN-L1-003
+TITLE: Tipos de impostos: um panorama
+SUMMARY: Um mapa das principais categorias de impostos que uma pessoa encontra (sobre a renda, sobre o consumo, sobre a propriedade e sobre a folha de pagamento) antes de aprofundar cada uma.
+# Tipos de impostos: um panorama
+
+## Objetivos de aprendizagem
+
+- Citar as quatro principais categorias de impostos que a maioria das pessoas encontra.
+- Identificar a que categoria pertence um exemplo real de imposto.
+- Explicar a diferença geral entre um imposto sobre ganhar, gastar, possuir e trabalhar.
+
+## Conteúdo principal
+
+Antes de mergulhar em um imposto específico, ajuda ter o mapa completo. A maioria das pessoas, na maioria dos países, vai encontrar alguma versão destas quatro categorias:
+
+**Imposto de renda**: um imposto sobre o dinheiro que você ganha, seja de um emprego, de um negócio ou de investimentos. **Imposto sobre vendas ou consumo**: um imposto acrescentado quando você compra bens ou serviços. **Imposto sobre a propriedade**: um imposto sobre as coisas que você possui, na maioria das vezes imóveis. **Tributos sobre a folha de pagamento**: tributos ligados especificamente aos salários, muitas vezes destinados a programas como previdência ou saúde.
+
+Um jeito simples de não confundir: o imposto de renda pergunta "quanto você ganhou?", o imposto sobre consumo pergunta "quanto você gastou?", o imposto sobre a propriedade pergunta "o que você possui?" e os tributos sobre a folha perguntam "você está empregado, e quanto recebe?".
+
+Os países combinam essas categorias de formas diferentes. Alguns dependem muito do imposto de renda, outros se apoiam mais nos impostos sobre o consumo, e os governos locais costumam depender do imposto sobre a propriedade (como o IPTU, no Brasil) para financiar escolas e serviços locais. Não existe uma combinação "correta": é uma escolha de política pública com vantagens e desvantagens, que lições posteriores desta trilha vão examinar. Por enquanto, o objetivo é só reconhecer: quando ouvir falar de um imposto, você deve conseguir encaixá-lo em um desses grupos como ponto de partida.
+
+## Exemplo prático
+
+**Pergunta:** Um governo acrescenta um percentual ao preço toda vez que alguém compra um refrigerante. Em que categoria isso se encaixa?
+
+**Aluno:** Isso acontece na hora da compra, então parece um imposto sobre vendas ou consumo.
+
+**Guia:** Isso. E se o mesmo governo também tributar o lucro que o fabricante de refrigerante obtém no fim do ano, é o mesmo imposto?
+
+**Aluno:** Não, isso seria um imposto sobre a renda da empresa, e não um imposto sobre a venda.
+
+**Guia:** Exatamente: dois impostos diferentes podem incidir sobre o mesmo produto em momentos diferentes, uma vez na compra e outra sobre o lucro que ele gerou.
+
+## Teste de prática
+
+**Pergunta 1.** O imposto de renda é um imposto sobre:
+
+A) O que você possui
+B) O que você ganha
+C) O que você compra
+D) Se você está empregado
+
+**Pergunta 2.** O imposto sobre vendas costuma ser cobrado:
+
+A) Uma vez por ano sobre o patrimônio total
+B) No momento da compra
+C) Só de donos de empresas
+D) Só em um país
+
+**Pergunta 3.** O imposto sobre a propriedade está mais associado a:
+
+A) Possuir imóveis
+B) Compras no supermercado
+C) Contracheques
+D) Só a negociações com ações
+
+**Pergunta 4.** Os tributos sobre a folha de pagamento estão ligados especificamente a:
+
+A) Possuir imóveis
+B) Salários do trabalho
+C) Compras no varejo
+D) Heranças
+
+**Pergunta 5.** Qual afirmação sobre a combinação de impostos dos países é mais correta?
+
+A) Todos os países usam exatamente a mesma combinação
+B) Existe uma combinação universalmente correta
+C) Os países combinam esses tipos de impostos de forma diferente, como escolha de política pública
+D) No mundo, só existe imposto de renda
+
+## Gabarito
+
+1. B, 2. B, 3. A, 4. B, 5. C
+
+## Respostas e explicações
+
+**1.** O imposto de renda é acionado quando se ganha dinheiro, de qualquer fonte: salários, lucro de um negócio ou rendimento de investimentos.
+
+**2.** O imposto sobre vendas é cobrado no momento da transação e acrescentado ao preço de compra.
+
+**3.** O imposto sobre a propriedade costuma estar ligado a imóveis, embora alguns lugares também tributem outros bens.
+
+**4.** Os tributos sobre a folha estão ligados especificamente à renda do trabalho e costumam financiar programas como previdência ou saúde.
+
+**5.** Não existe uma única combinação correta: governos diferentes equilibram essas categorias de formas diferentes, conforme suas prioridades.
+
+## Pontos-chave
+
+- As quatro principais categorias de impostos que a maioria das pessoas encontra são: sobre a renda, sobre vendas ou consumo, sobre a propriedade e sobre a folha de pagamento.
+- Cada categoria faz uma pergunta diferente: ganhou, gastou, possui ou está empregado.
+- Um único produto ou transação pode acionar mais de um tipo de imposto em momentos diferentes.
+- Os países combinam essas categorias de formas diferentes: não existe uma proporção universalmente correta.
+- Reconhecer em que grupo um imposto se encaixa é o primeiro passo para entender como ele funciona.
+
+===== GREEN-L1-004
+TITLE: Imposto de renda: tributar o que você ganha
+SUMMARY: Um olhar mais de perto sobre o imposto de renda: como ele se aplica a salários, ao lucro de um negócio e à renda de investimentos.
+# Imposto de renda: tributar o que você ganha
+
+## Objetivos de aprendizagem
+
+- Definir imposto de renda e identificar o que conta como renda tributável.
+- Explicar que o imposto de renda geralmente se aplica, venha a renda de um emprego, de um negócio ou de investimentos.
+- Reconhecer que "renda" é mais amplo do que só um contracheque.
+
+## Conteúdo principal
+
+O imposto de renda é um imposto sobre o dinheiro que você ganha. A palavra "renda" é mais ampla do que a maioria das pessoas imagina: normalmente inclui salários de um emprego, o lucro de um negócio que você administra e o retorno de investimentos, como juros ou dividendos. Países diferentes definem de forma diferente o que exatamente conta como renda tributável, mas o princípio geral vale em todo lugar: se entrou dinheiro e aumentou o que você tem, ele é candidato ao imposto de renda.
+
+A maioria dos sistemas de imposto de renda não tributa cada real ou dólar com a mesma alíquota. Em vez disso, usam faixas, deduções e créditos para ajustar quanto é realmente devido, conceitos tratados em detalhe em lições posteriores. Por enquanto, a ideia-chave é mais simples: o imposto de renda é acionado pelo ato de ganhar dinheiro, em qualquer forma, e não só por ter um emprego tradicional.
+
+## Exemplo prático
+
+**Pergunta:** A avó do Ntege vende vestidos e também ganha um pouco de juros sobre as economias. O imposto de renda se aplica às duas coisas?
+
+**Aluno:** As vendas de vestidos claramente são ganhos do negócio dela.
+
+**Guia:** E os juros?
+
+**Aluno:** Também é dinheiro entrando, só que vem das economias, e não do trabalho.
+
+**Guia:** Isso mesmo: os sistemas de imposto de renda geralmente olham para todas as formas pelas quais o dinheiro aumenta o que você tem, e não só para o salário de um emprego.
+
+## Teste de prática
+
+**Pergunta 1.** O imposto de renda se aplica a:
+
+A) Só salários de um emprego
+B) Salários, lucro de um negócio e renda de investimentos
+C) Só rendimentos de investimentos
+D) Só grandes empresas
+
+**Pergunta 2.** Verdadeiro ou falso: na maioria dos sistemas, toda renda é tributada exatamente com a mesma alíquota.
+
+A) Verdadeiro
+B) Falso
+
+**Pergunta 3.** Os juros ganhos em uma conta de poupança, em geral:
+
+A) Nunca são tributáveis
+B) São uma forma de renda que pode ser tributável
+C) São a mesma coisa que um presente
+D) São isentos em todos os países
+
+**Pergunta 4.** O princípio amplo por trás do imposto de renda é:
+
+A) Só o contracheque conta
+B) O dinheiro que aumenta o que você tem é candidato à tributação
+C) Só o dinheiro em espécie conta, não outras formas de pagamento
+D) Donos de negócios são isentos
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O imposto de renda é amplo por definição: cobre salários, lucro de negócios e rendimentos de investimentos, e não só o emprego tradicional.
+
+**2.** A maioria dos sistemas usa faixas, deduções e créditos em vez de uma única alíquota fixa, algo que as lições posteriores detalham.
+
+**3.** Os juros são uma forma de renda de investimento e costumam ser tratados como tributáveis, conforme as regras de cada país. (No Brasil, por exemplo, alguns rendimentos têm imposto retido na fonte e outros, como a poupança de pessoa física, podem ser isentos; as regras mudam.)
+
+**4.** O teste que unifica tudo é se entrou dinheiro e aumentou o que você tem: a origem importa menos do que esse fato básico.
+
+## Pontos-chave
+
+- O imposto de renda se aplica a salários, lucro de negócios e renda de investimentos, e não só a contracheques.
+- Países diferentes definem a renda tributável de formas diferentes, mas o princípio de base é amplo.
+- A maioria dos sistemas não tributa cada real ou dólar com a mesma alíquota fixa.
+- Reconhecer todas as suas fontes de renda é o ponto de partida para entender sua situação tributária.
+
+===== GREEN-L1-005
+TITLE: Imposto sobre vendas: tributar o que você compra
+SUMMARY: Como funcionam os impostos sobre o consumo, quem os cobra e por que o comprador geralmente os vê somados no caixa.
+# Imposto sobre vendas: tributar o que você compra
+
+## Objetivos de aprendizagem
+
+- Explicar como o imposto sobre vendas costuma ser cobrado.
+- Identificar a diferença entre o vendedor que recolhe o imposto e o vendedor que deve o imposto.
+- Reconhecer que as alíquotas do imposto sobre vendas variam conforme o local.
+
+## Conteúdo principal
+
+O imposto sobre vendas é acrescentado ao preço de bens ou serviços no momento da compra. Na maioria dos sistemas, o vendedor é responsável por cobrar o imposto do comprador e depois repassá-lo ao governo: o vendedor atua como arrecadador, e não como quem arca com o custo no fim. Normalmente é o comprador quem de fato paga o imposto, mesmo que a empresa cuide da papelada. (No Brasil, tributos sobre o consumo como ICMS, ISS e os que os substituem com a reforma tributária costumam vir embutidos no preço; as regras estão mudando.)
+
+Alíquotas e regras variam enormemente conforme o local, às vezes até entre cidades vizinhas do mesmo país. Algumas categorias de bens, como alimentos ou remédios, costumam ter alíquota menor ou ser totalmente isentas, dependendo da política local. Por isso o imposto sobre vendas também é chamado de imposto sobre o consumo: ele está ligado ao ato de gastar, e não à renda ou à propriedade.
+
+## Exemplo prático
+
+**Pergunta:** Um lojista cobra imposto sobre vendas dos clientes o mês inteiro. De quem é esse dinheiro, e o que ele deve fazer com ele?
+
+**Aluno:** Parece dinheiro da loja, já que entrou pelo caixa.
+
+**Guia:** Mas quem pagou de verdade?
+
+**Aluno:** Os clientes; a loja só somou ao preço e cobrou.
+
+**Guia:** Isso mesmo, e é por isso que esse dinheiro não é de fato receita da loja: é o pagamento de imposto dos clientes, passando pela loja a caminho do governo.
+
+## Teste de prática
+
+**Pergunta 1.** O imposto sobre vendas geralmente é cobrado:
+
+A) Pelo governo, diretamente dos compradores
+B) Pelo vendedor, que depois o repassa ao governo
+C) Por ninguém: é opcional
+D) Só por lojas on-line
+
+**Pergunta 2.** Quem normalmente arca com o custo real do imposto sobre vendas?
+
+A) O vendedor
+B) O comprador
+C) O governo
+D) Ninguém
+
+**Pergunta 3.** As alíquotas do imposto sobre vendas:
+
+A) São iguais em todo lugar
+B) Podem variar bastante conforme o local
+C) Nunca se aplicam a serviços
+D) Só existem em um país
+
+**Pergunta 4.** Alimentos e remédios às vezes:
+
+A) São tributados com alíquota maior que artigos de luxo
+B) São tributados com alíquota menor ou isentos
+C) São proibidos de ser vendidos
+D) Não seguem nenhuma regra tributária
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O vendedor geralmente atua como intermediário, cobrando o imposto e repassando-o, em vez de ficar com ele como receita.
+
+**2.** Mesmo que a empresa cuide da transação, o imposto está no pagamento do comprador.
+
+**3.** Em muitos sistemas, as alíquotas são definidas em nível local ou regional e podem mudar de uma cidade ou de um estado para outro.
+
+**4.** Muitos governos isentam ou reduzem o imposto sobre itens de primeira necessidade por escolha de política pública.
+
+## Pontos-chave
+
+- O imposto sobre vendas é cobrado pelo vendedor na compra e repassado ao governo.
+- Quem arca com o custo do imposto no fim é o comprador, e não o vendedor.
+- As alíquotas variam muito conforme o local, às vezes até em nível local.
+- Itens de primeira necessidade costumam ser tributados de forma diferente de outros bens, por escolha de política pública.
