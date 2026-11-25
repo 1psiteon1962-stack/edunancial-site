@@ -106,3 +106,4 @@ Status:
 - ORANGE L1 de COMPLETE (b01-b10, hedged DE notes 009/030/031). en-GB COMPLETE. Next: it, nl, pt-BR, pt-PT.
 - ORANGE L1 pt-BR COMPLETE, pt-PT COMPLETE (derived; tools/orange_pt.py). Remaining: it, nl. Then place all 6 via place1-style into site, one PR.
 - ORANGE L1 it COMPLETE. Remaining: nl. Then place all 6 locales.
+- 2026-11-25 ORANGE L1 nl COMPLETE. All 6 locales placed in site PR 1660 (local checks pass, 283/283). Awaiting merge + smoke.
