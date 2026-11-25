@@ -1,0 +1,399 @@
+===== GREEN-L1-036
+TITLE: Consequências fiscais da venda da habitação própria
+SUMMARY: Apresenta as questões fiscais gerais que surgem ao vender a habitação própria e permanente, ligando-as às lições sobre mais-valias.
+# Consequências fiscais da venda da habitação própria
+
+## Objetivos de aprendizagem
+
+- Ligar a venda de uma casa ao conceito de mais-valia visto antes.
+- Explicar porque é que muitos sistemas dão algum tratamento favorável à habitação própria e permanente.
+- Reconhecer a importância de acompanhar o valor de aquisição de uma casa ao longo do tempo.
+
+## Conteúdo principal
+
+Vender uma casa é, no fundo, mais um exemplo do conceito de mais-valia visto antes: preço de venda menos valor de aquisição (em termos gerais, preço de compra mais certas obras de valorização aceites) é igual à mais-valia. Mas, como a habitação própria e permanente é um acontecimento de vida comum e importante, e não uma simples operação de investimento, muitos sistemas fiscais oferecem algum tratamento favorável, como excluir parte da mais-valia do imposto, especificamente para a habitação própria, ao contrário do que fariam, por exemplo, com um imóvel de investimento. (Em Portugal, por exemplo, a mais-valia da venda da habitação própria e permanente pode ficar excluída de tributação se o valor for reinvestido noutra habitação própria dentro de certos prazos e condições; as regras mudam.)
+
+É um ótimo exemplo prático de porque é que acompanhar o valor de aquisição ao longo do tempo importa. Se o proprietário fizer ao longo dos anos obras de valorização importantes e aceites, como uma ampliação ou uma grande remodelação, esses custos podem muitas vezes aumentar o valor de aquisição, o que reduz a mais-valia tributável quando a casa for vendida. Sem registos dessas obras, o proprietário pode acabar por pagar mais imposto do que o necessário, só porque não consegue provar quanto gastou realmente.
+
+## Exemplo prático
+
+**Pergunta:** Um proprietário faz cedo uma grande ampliação na casa, mas nunca guarda registos do custo. Anos depois, vende a casa com uma grande mais-valia. O que pode isso custar-lhe?
+
+**Aluno:** Segundo esta lição, sem registos do custo da ampliação, pode não conseguir aumentar o valor de aquisição, o que pode significar pagar imposto sobre uma mais-valia maior do que o necessário.
+
+**Guia:** O que teria evitado este problema?
+
+**Aluno:** Guardar faturas e registos dos custos das obras à medida que aconteciam, o que nos leva de volta à lição sobre organização de documentos.
+
+**Guia:** Exatamente: é um exemplo muito concreto, e caro, de porque é que esse hábito importa.
+
+## Teste de prática
+
+**Pergunta 1.** Vender uma casa é, no fundo, um exemplo de:
+
+A) Imposto sobre as vendas
+B) O conceito de mais-valia: preço de venda menos valor de aquisição
+C) Contribuições sobre os salários
+D) Um crédito fiscal
+
+**Pergunta 2.** Porque é que muitos sistemas oferecem tratamento favorável especificamente à habitação própria e permanente?
+
+A) Sem motivo real
+B) É vista como um acontecimento de vida comum e importante, e não como um simples investimento
+C) As casas nunca são vendidas
+D) Apenas os imóveis de investimento recebem tratamento favorável
+
+**Pergunta 3.** As obras de valorização aceites numa casa podem geralmente:
+
+A) Diminuir o valor de aquisição da casa
+B) Aumentar o valor de aquisição da casa, reduzindo a mais-valia tributável mais tarde
+C) Não ter efeito no valor de aquisição
+D) Importar apenas para imóveis arrendados
+
+**Pergunta 4.** Sem registos dos custos das obras, um proprietário corre o risco de:
+
+A) Nada
+B) Pagar mais imposto do que o necessário na venda futura
+C) Receber um reembolso automático
+D) Perder a propriedade da casa
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A venda de uma casa segue o mesmo cálculo básico da mais-valia de qualquer outra venda de um bem.
+
+**2.** A habitação própria e permanente é muitas vezes tratada de forma diferente, por ser mais uma necessidade de vida do que um simples instrumento de investimento.
+
+**3.** As obras de valorização aceites somam-se geralmente ao valor de aquisição, o que pode reduzir bastante a mais-valia tributável na venda.
+
+**4.** A falta de documentação traduz-se diretamente numa mais-valia tributável maior e numa conta de imposto desnecessariamente maior.
+
+## Pontos-chave
+
+- Vender uma casa segue a mesma lógica básica de mais-valia de outras vendas de bens.
+- A habitação própria e permanente recebe muitas vezes algum tratamento fiscal favorável.
+- As obras de valorização aceites podem aumentar o valor de aquisição, reduzindo a mais-valia tributável mais tarde.
+- Uma má organização dos registos das obras pode ser um erro caro e evitável.
+
+===== GREEN-L1-037
+TITLE: Noções básicas da tributação de doações e heranças
+SUMMARY: Apresenta os conceitos gerais da tributação de doações e heranças, mantidos de forma ampla devido às grandes diferenças entre sistemas.
+# Noções básicas da tributação de doações e heranças
+
+## Objetivos de aprendizagem
+
+- Explicar o conceito geral da tributação das doações.
+- Explicar o conceito geral da tributação das heranças.
+- Reconhecer que estas regras variam enormemente e dependem muito de cada país.
+
+## Conteúdo principal
+
+Alguns sistemas fiscais aplicam regras às grandes doações feitas em vida e aos bens transmitidos após a morte (o que se costuma chamar tributação das heranças ou sucessões). A preocupação geral dos decisores políticos é a transmissão de riqueza fora do sistema em que se obtém rendimento: como uma doação ou herança não é "ganha" no sentido tradicional, levanta questões de política pública diferentes das de um salário. (Em Portugal, as transmissões gratuitas estão sujeitas a imposto do selo, com isenções importantes, por exemplo, para cônjuges, descendentes e ascendentes; as regras mudam.)
+
+É uma área em que generalizar de forma demasiado específica seria enganador: a existência destes impostos, os limiares a partir dos quais se aplicam, quem os deve (quem doa ou quem recebe) e as taxas variam enormemente de país para país, e muitos países não têm este tipo de imposto ou só o aplicam acima de limiares muito elevados, que afetam uma pequena parte das transmissões. A lição prática aqui não é uma regra para decorar, mas um sinal de alerta: se for quem doa, quem recebe ou herdeiro numa situação de doação ou herança realmente grande, esse é precisamente o tipo de caso que pede aconselhamento profissional, e não suposições.
+
+## Exemplo prático
+
+**Pergunta:** Uma família está a planear passar uma grande empresa familiar para a geração seguinte. Deve partir do princípio de que as regras fiscais de que ouviu falar a um amigo noutro país se aplicam a si?
+
+**Aluno:** Segundo esta lição, de forma nenhuma: estas regras variam enormemente de país para país e de situação para situação.
+
+**Guia:** Qual seria o próximo passo responsável para esta família?
+
+**Aluno:** Pedir aconselhamento a um profissional qualificado que conheça as regras do seu próprio país, em vez de confiar em informações em segunda mão vindas de outro lado.
+
+**Guia:** Exatamente: é um caso típico de "consulte um profissional", seguindo a analogia do médico vista antes no currículo.
+
+## Teste de prática
+
+**Pergunta 1.** Os impostos sobre doações e heranças dizem geralmente respeito a:
+
+A) Salários regulares
+B) Transmissões de riqueza fora do sistema normal de obtenção de rendimento
+C) Imposto sobre as vendas de alimentos
+D) Retenção na fonte dos salários
+
+**Pergunta 2.** Todos os países aplicam as mesmas regras de tributação de doações e heranças?
+
+A) Sim, em todo o lado
+B) Não: as regras variam enormemente, e muitos países não têm este imposto ou têm limiares muito elevados
+C) Apenas os países ricos têm regras
+D) Estes impostos nunca existiram em lado nenhum
+
+**Pergunta 3.** A lição prática deste tema é:
+
+A) Decorar os limiares específicos de um país
+B) Reconhecer isto, em situações reais, como um sinal para pedir aconselhamento profissional
+C) Ignorar completamente as doações grandes
+D) Partir do princípio de que nunca há imposto em lado nenhum
+
+**Pergunta 4.** Esta lição liga-se a que conceito anterior do currículo?
+
+A) A analogia do médico: consultar um profissional em situações complexas
+B) Bens públicos
+C) Cobrança do imposto sobre as vendas
+D) Escalões de taxa marginal
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respostas e explicações
+
+**1.** Estes impostos visam geralmente a riqueza que se move fora do quadro normal do rendimento ganho.
+
+**2.** A enorme variação, incluindo muitos países sem este imposto, torna as generalizações pouco fiáveis aqui.
+
+**3.** A lição duradoura é reconhecer quando uma situação pede ajuda especializada, e não decorar regras que talvez nem se apliquem.
+
+**4.** É uma aplicação direta e concreta da lição anterior que comparava a consulta sobre riscos legais e fiscais a uma ida ao médico.
+
+## Pontos-chave
+
+- Os impostos sobre doações e heranças dizem respeito a transmissões de riqueza fora do rendimento ganho normal.
+- As regras variam enormemente de país para país: muitos não os têm, ou só os aplicam acima de limiares elevados.
+- A lição principal é reconhecer quando pedir aconselhamento profissional, e não decorar regras específicas.
+- Doações ou heranças grandes ou complexas são um caso claro para consultar um profissional.
+
+===== GREEN-L1-038
+TITLE: "Impostos sobre o pecado" e impostos especiais de consumo
+SUMMARY: Apresenta os impostos especiais de consumo, muitas vezes chamados "impostos sobre o pecado" quando incidem sobre bens específicos como o álcool ou o tabaco, como uma categoria própria, motivada por política pública.
+# "Impostos sobre o pecado" e impostos especiais de consumo
+
+## Objetivos de aprendizagem
+
+- Definir um imposto especial de consumo.
+- Explicar a expressão "imposto sobre o pecado" e a lógica de política pública por detrás dela.
+- Distinguir os impostos especiais de consumo do imposto geral sobre as vendas.
+
+## Conteúdo principal
+
+Um imposto especial de consumo é um imposto aplicado a um bem ou a uma atividade específica, e não às compras em geral, como faz um imposto amplo sobre as vendas. Quando um imposto especial de consumo incide sobre um bem considerado prejudicial em excesso (o álcool, o tabaco e, por vezes, as bebidas açucaradas são exemplos comuns), é muitas vezes chamado informalmente "imposto sobre o pecado". (Em Portugal existem, por exemplo, o imposto sobre o tabaco, o imposto sobre o álcool e as bebidas alcoólicas e um imposto sobre bebidas açucaradas; as taxas mudam.)
+
+A lógica de política pública dos impostos sobre o pecado tem normalmente duas partes: obter receita e desincentivar o consumo do bem tributado, tornando-o mais caro. Ao contrário do imposto geral sobre as vendas, que se aplica de forma ampla e neutra à maioria das compras, os impostos especiais de consumo são deliberadamente estreitos e direcionados, refletindo uma avaliação política específica sobre esse bem ou atividade. Se os impostos sobre o pecado reduzem efetivamente o consumo, e se pesam de forma desproporcionada sobre consumidores com rendimentos mais baixos, são questões genuinamente debatidas, e não factos assentes.
+
+## Exemplo prático
+
+**Pergunta:** Um governo cria um imposto adicional específico sobre refrigerantes açucarados, além do imposto normal sobre as vendas que se aplica a todas as compras no comércio. Que tipo de imposto é esta cobrança adicional sobre os refrigerantes?
+
+**Aluno:** Segundo esta lição, parece um imposto especial de consumo, porque se dirige especificamente a um produto, e não às compras em geral.
+
+**Guia:** Qual é o provável duplo objetivo de um imposto tão direcionado?
+
+**Aluno:** Obter receita e também desincentivar o consumo de refrigerantes, tornando-os mais caros.
+
+**Guia:** Exatamente: e vale a pena notar que ambos os efeitos, e a sua justiça, são genuinamente debatidos.
+
+## Teste de prática
+
+**Pergunta 1.** Um imposto especial de consumo descreve-se melhor como:
+
+A) Um imposto amplo sobre todas as compras
+B) Um imposto dirigido a um bem ou atividade específica
+C) O mesmo que o imposto sobre o rendimento
+D) Um tipo de imposto sobre o património
+
+**Pergunta 2.** Um "imposto sobre o pecado" é:
+
+A) Sem relação com os impostos especiais de consumo
+B) Uma expressão informal para um imposto especial de consumo sobre bens considerados prejudiciais em excesso
+C) Um imposto apenas sobre o rendimento
+D) Um tipo de crédito fiscal
+
+**Pergunta 3.** O duplo objetivo típico dos impostos sobre o pecado é:
+
+A) Nenhum objetivo
+B) Obter receita e desincentivar o consumo
+C) Apenas desincentivar o consumo, nunca obter receita
+D) Apenas obter receita, sem objetivo de comportamento
+
+**Pergunta 4.** A eficácia e a justiça dos impostos sobre o pecado são uma questão resolvida?
+
+A) Sim, todos concordam
+B) Não: é uma questão de política pública genuinamente debatida
+C) Só são debatidas num país
+D) Nunca foram discutidas
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os impostos especiais de consumo concentram-se num produto ou atividade específica, em vez de se aplicarem de forma ampla.
+
+**2.** A designação "imposto sobre o pecado" reflete que o bem tributado é considerado prejudicial em excesso, como o álcool ou o tabaco.
+
+**3.** Obter receita e desincentivar comportamentos são os dois objetivos mais citados destes impostos direcionados.
+
+**4.** Pessoas sensatas discordam sobre o quanto os impostos sobre o pecado funcionam e sobre quem suporta realmente o seu peso.
+
+## Pontos-chave
+
+- Os impostos especiais de consumo incidem sobre bens ou atividades específicas, ao contrário do imposto geral sobre as vendas.
+- "Imposto sobre o pecado" é uma expressão informal para impostos especiais de consumo sobre bens considerados prejudiciais em excesso.
+- Os objetivos típicos são a receita e o desincentivo ao consumo.
+- A eficácia e a justiça dos impostos sobre o pecado continuam genuinamente debatidas.
+
+===== GREEN-L1-039
+TITLE: Direitos aduaneiros: impostos sobre bens importados
+SUMMARY: Apresenta os direitos aduaneiros como um imposto sobre bens que atravessam uma fronteira, ligando o tema à política comercial a um nível conceptual básico.
+# Direitos aduaneiros: impostos sobre bens importados
+
+## Objetivos de aprendizagem
+
+- Definir direitos aduaneiros (tarifas).
+- Explicar quem normalmente acaba por suportar o custo de uma tarifa.
+- Reconhecer as tarifas como instrumento de receita e de política comercial.
+
+## Conteúdo principal
+
+Os direitos aduaneiros, ou tarifas, são um imposto aplicado aos bens quando são importados para um país a partir do estrangeiro. Ao contrário do imposto sobre as vendas, que se aplica às compras em geral, ou do imposto especial de consumo, que incide sobre bens específicos independentemente da origem, a tarifa dirige-se especificamente aos bens que atravessam uma fronteira para entrar no país. (Para Portugal, as tarifas são definidas ao nível da União Europeia, de forma comum para todos os Estados-membros; as taxas mudam.)
+
+As tarifas têm dois objetivos citados com frequência: gerar receita pública e proteger as indústrias nacionais, tornando os bens importados mais caros face às alternativas produzidas no país. Um ponto importante, e muitas vezes esquecido, é que, embora as tarifas sejam formalmente cobradas à empresa importadora, o custo adicional é muitas vezes repercutido nos consumidores através de preços mais altos; ou seja, as pessoas que pagam mais na caixa podem estar muito longe de qualquer discussão sobre política comercial. Se uma determinada tarifa ajuda ou prejudica realmente a economia de um país no seu conjunto é uma questão muito debatida em economia, com compromissos reais de ambos os lados.
+
+## Exemplo prático
+
+**Pergunta:** Um país cria uma tarifa sobre o aço importado para proteger os produtores nacionais de aço. Quem é provável que acabe por sentir o custo dessa tarifa?
+
+**Aluno:** Segundo esta lição, é formalmente cobrada às empresas importadoras, mas o custo é muitas vezes repercutido nos consumidores através de preços mais altos.
+
+**Guia:** Então quem pode acabar por pagar mais, mesmo sem nunca lidar diretamente com importações de aço?
+
+**Aluno:** Os consumidores que compram produtos feitos com esse aço, como carros, eletrodomésticos e obras, podem ver preços mais altos, mesmo que a tarifa tenha sido cobrada a uma empresa.
+
+**Guia:** Exatamente: as tarifas têm efeitos em cadeia muito para além das empresas tributadas diretamente.
+
+## Teste de prática
+
+**Pergunta 1.** Uma tarifa é um imposto aplicado a:
+
+A) Todas as compras internas
+B) Bens importados para um país a partir do estrangeiro
+C) Apenas serviços, nunca bens
+D) Rendimentos de investimentos
+
+**Pergunta 2.** As tarifas são muitas vezes usadas para:
+
+A) Gerar receita e proteger as indústrias nacionais
+B) Acabar com todo o comércio
+C) Beneficiar apenas empresas estrangeiras
+D) Reduzir os preços internos
+
+**Pergunta 3.** Quem acaba muitas vezes por suportar o custo real de uma tarifa, embora seja cobrada aos importadores?
+
+A) Ninguém: as tarifas não têm custos a jusante
+B) Os consumidores, através de preços mais altos
+C) Apenas os governos estrangeiros
+D) Apenas a empresa importadora, sem repercussão
+
+**Pergunta 4.** O efeito económico global das tarifas é uma questão resolvida?
+
+A) Sim, são sempre benéficas
+B) Sim, são sempre prejudiciais
+C) Não: é uma questão muito debatida, com compromissos reais
+D) As tarifas não têm efeito económico
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. C
+
+## Respostas e explicações
+
+**1.** As tarifas estão especificamente ligadas à importação de bens através de uma fronteira, o que as distingue de impostos mais amplos.
+
+**2.** Gerar receita e proteger as indústrias nacionais são os dois objetivos mais citados das tarifas.
+
+**3.** A repercussão dos custos faz com que o peso prático recaia muitas vezes sobre os consumidores comuns, e não apenas sobre as empresas tributadas diretamente.
+
+**4.** Os economistas discordam genuinamente sobre os efeitos líquidos das tarifas, que envolvem compromissos reais entre grupos diferentes.
+
+## Pontos-chave
+
+- As tarifas tributam bens importados através de uma fronteira.
+- São muitas vezes usadas para gerar receita e proteger as indústrias nacionais.
+- O custo real é muitas vezes repercutido nos consumidores, embora as tarifas sejam cobradas aos importadores.
+- O impacto económico global das tarifas é uma questão genuinamente debatida.
+
+===== GREEN-L1-040
+TITLE: Impostos sobre as empresas: como são tributadas as sociedades
+SUMMARY: Apresenta o conceito geral de uma sociedade como sujeito passivo de imposto, separado dos seus donos.
+# Impostos sobre as empresas: como são tributadas as sociedades
+
+## Objetivos de aprendizagem
+
+- Explicar o conceito de sociedade como sujeito passivo de imposto distinto.
+- Distinguir o imposto ao nível da sociedade do imposto devido pelos seus donos.
+- Preparar o conceito de dupla tributação, tratado na próxima lição.
+
+## Conteúdo principal
+
+Em muitos sistemas jurídicos e fiscais, uma sociedade é tratada como uma pessoa coletiva própria, separada das pessoas que são donas dela. Uma consequência disso é que a própria sociedade pode estar sujeita a imposto sobre o seu lucro, independentemente de qualquer imposto que os seus donos (sócios ou acionistas) possam dever em separado. (Em Portugal, por exemplo, as sociedades pagam IRC sobre o lucro, podendo também haver derrama municipal e estadual; as taxas mudam.)
+
+É uma estrutura bem diferente da do empresário em nome individual, em que o negócio e o dono são a mesma pessoa para efeitos fiscais e o lucro do negócio passa simplesmente para a declaração pessoal do dono. Uma sociedade, pelo contrário, declara e paga primeiro o imposto sobre o seu próprio lucro, como sujeito passivo próprio. Isto prepara um conceito importante tratado na próxima lição: o que acontece quando esse mesmo lucro é depois distribuído aos sócios, que podem então dever o seu próprio imposto sobre ele, situação conhecida como dupla tributação.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo não percebe porque é que uma sociedade paga os seus próprios impostos, separados dos das pessoas que são donas dela. Como lhe explicaria?
+
+**Aluno:** Segundo esta lição, uma sociedade é tratada como uma pessoa coletiva própria, distinta dos seus donos.
+
+**Guia:** Em que é que isso difere de um empresário em nome individual?
+
+**Aluno:** No empresário em nome individual, o negócio e o dono são o mesmo para efeitos fiscais, por isso o lucro vai diretamente para a declaração pessoal do dono. Uma sociedade é tributada em separado, como sujeito passivo próprio.
+
+**Guia:** Exatamente: e é essa separação que prepara a questão da dupla tributação, que vem a seguir.
+
+## Teste de prática
+
+**Pergunta 1.** Uma sociedade é geralmente tratada como:
+
+A) A mesma pessoa que os seus donos
+B) Uma pessoa coletiva distinta, separada dos seus donos
+C) Não sujeita a imposto
+D) Relevante apenas fora do sistema fiscal
+
+**Pergunta 2.** O lucro de uma sociedade pode estar sujeito a:
+
+A) Nenhum imposto
+B) Imposto sobre o rendimento ao nível da sociedade, independente do imposto dos donos
+C) Apenas imposto sobre as vendas
+D) Apenas contribuições sobre os salários
+
+**Pergunta 3.** Em que é que um empresário em nome individual difere de uma sociedade para efeitos fiscais?
+
+A) Não há diferença
+B) No empresário em nome individual, o lucro vai diretamente para a declaração pessoal do dono; a sociedade é primeiro tributada em separado
+C) Os empresários em nome individual também pagam imposto de sociedades
+D) As sociedades nunca pagam imposto
+
+**Pergunta 4.** Esta lição prepara que conceito seguinte?
+
+A) Imposto sobre as vendas
+B) Dupla tributação
+C) Imposto sobre o património
+D) Retenção na fonte dos salários
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A separação jurídica entre uma sociedade e os seus donos é o conceito básico por detrás da tributação ao nível da sociedade.
+
+**2.** O imposto sobre as sociedades incide sobre o lucro da própria pessoa coletiva, separado de qualquer imposto que os donos devam pessoalmente.
+
+**3.** O empresário em nome individual junta o negócio e o dono num único sujeito passivo; a sociedade não.
+
+**4.** É precisamente esta separação estrutural que cria a questão da dupla tributação explorada na próxima lição.
+
+## Pontos-chave
+
+- Uma sociedade é geralmente tratada como uma pessoa coletiva distinta dos seus donos.
+- Isto significa que uma sociedade pode dever o seu próprio imposto sobre o rendimento, separado dos seus donos.
+- É diferente do empresário em nome individual, em que o lucro vai diretamente para a declaração pessoal do dono.
+- Esta estrutura prepara o conceito de dupla tributação, tratado a seguir.

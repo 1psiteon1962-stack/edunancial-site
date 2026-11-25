@@ -1,0 +1,399 @@
+===== GREEN-L1-036
+TITLE: Consequências tributárias da venda da casa própria
+SUMMARY: Apresenta as questões tributárias gerais que surgem ao vender a residência principal, ligando-as às lições sobre ganho de capital.
+# Consequências tributárias da venda da casa própria
+
+## Objetivos de aprendizagem
+
+- Ligar a venda de uma casa ao conceito de ganho de capital visto antes.
+- Explicar por que muitos sistemas dão algum tratamento favorável à residência principal.
+- Reconhecer a importância de acompanhar o custo de aquisição de uma casa ao longo do tempo.
+
+## Conteúdo principal
+
+Vender uma casa é, no fundo, mais um exemplo do conceito de ganho de capital visto antes: preço de venda menos custo de aquisição (de forma geral, preço de compra mais certas benfeitorias aceitas) é igual ao ganho. Mas, como a residência principal é um acontecimento comum e importante da vida, e não uma simples operação de investimento, muitos sistemas tributários oferecem algum tratamento favorável, como isentar parte do ganho, especificamente para a casa própria, diferente de como tratariam, por exemplo, um imóvel de investimento. (No Brasil, por exemplo, há isenções para o ganho na venda do único imóvel dentro de certos limites ou quando o valor é reinvestido em outro imóvel residencial em certo prazo; as regras mudam.)
+
+Esse é um ótimo exemplo prático de por que acompanhar o custo de aquisição ao longo do tempo importa. Se o proprietário faz benfeitorias importantes e aceitas ao longo dos anos, como uma ampliação ou uma grande reforma, esses custos muitas vezes podem aumentar o custo de aquisição, o que reduz o ganho tributável quando a casa for vendida. Sem registros dessas benfeitorias, o proprietário pode acabar pagando mais imposto do que o necessário, só porque não consegue comprovar quanto realmente gastou.
+
+## Exemplo prático
+
+**Pergunta:** Um proprietário faz uma grande ampliação na casa logo no início, mas nunca guarda registros do custo. Anos depois, vende a casa com um grande ganho. O que isso pode custar a ele?
+
+**Aluno:** Pela lição, sem registros do custo da ampliação, ele pode não conseguir aumentar o custo de aquisição, o que pode significar pagar imposto sobre um ganho maior do que o necessário.
+
+**Guia:** O que teria evitado esse problema?
+
+**Aluno:** Guardar recibos e registros dos custos da benfeitoria à medida que aconteciam, o que volta à lição sobre organização de documentos.
+
+**Guia:** Exatamente: esse é um exemplo muito concreto, e caro, de por que esse hábito importa.
+
+## Teste de prática
+
+**Pergunta 1.** Vender uma casa é, no fundo, um exemplo de:
+
+A) Imposto sobre vendas
+B) O conceito de ganho de capital: preço de venda menos custo de aquisição
+C) Tributos sobre a folha
+D) Um crédito tributário
+
+**Pergunta 2.** Por que muitos sistemas oferecem tratamento favorável especificamente para a residência principal?
+
+A) Sem um motivo real
+B) Ela é vista como um acontecimento comum e importante da vida, e não como um simples investimento
+C) Casas nunca são vendidas
+D) Só imóveis de investimento recebem tratamento favorável
+
+**Pergunta 3.** Benfeitorias aceitas na casa geralmente podem:
+
+A) Diminuir o custo de aquisição da casa
+B) Aumentar o custo de aquisição da casa, reduzindo o ganho tributável depois
+C) Não ter efeito sobre o custo de aquisição
+D) Importar só para imóveis alugados
+
+**Pergunta 4.** Sem registros dos custos das benfeitorias, o proprietário corre o risco de:
+
+A) Nada
+B) Pagar mais imposto do que o necessário na venda futura
+C) Receber uma restituição automática
+D) Perder a propriedade da casa
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A venda de uma casa segue o mesmo cálculo básico de ganho de qualquer outra venda de bem.
+
+**2.** A residência principal costuma ser tratada de forma diferente, por ser mais uma necessidade da vida do que um simples veículo de investimento.
+
+**3.** As benfeitorias aceitas geralmente se somam ao custo de aquisição, o que pode reduzir bastante o ganho tributável na venda.
+
+**4.** A falta de documentação se traduz diretamente em um ganho tributável maior e em uma conta de imposto desnecessariamente maior.
+
+## Pontos-chave
+
+- Vender uma casa segue a mesma lógica básica de ganho de capital de outras vendas de bens.
+- A residência principal costuma receber algum tratamento tributário favorável.
+- Benfeitorias aceitas podem aumentar o custo de aquisição, reduzindo o ganho tributável depois.
+- Organizar mal os registros das benfeitorias pode ser um erro caro e evitável.
+
+===== GREEN-L1-037
+TITLE: Noções básicas de impostos sobre doações e heranças
+SUMMARY: Apresenta os conceitos gerais da tributação de doações e heranças, mantidos de forma ampla por causa das grandes diferenças entre os sistemas.
+# Noções básicas de impostos sobre doações e heranças
+
+## Objetivos de aprendizagem
+
+- Explicar o conceito geral da tributação de doações.
+- Explicar o conceito geral da tributação de heranças e espólios.
+- Reconhecer que essas regras variam enormemente e dependem muito de cada país.
+
+## Conteúdo principal
+
+Alguns sistemas tributários aplicam regras a grandes doações feitas em vida e a bens transferidos após a morte (o que muitas vezes se chama de imposto sobre heranças ou espólios). A preocupação geral dos formuladores de políticas é a transferência de riqueza fora do sistema em que a renda é ganha: como uma doação ou herança não é "ganha" no sentido tradicional, ela levanta questões de política pública diferentes das de um salário. (No Brasil, o imposto sobre heranças e doações é o ITCMD, de competência dos estados, com alíquotas e regras que variam de estado para estado e vêm mudando.)
+
+Essa é uma área em que generalizar de forma muito específica seria enganoso: a existência desses impostos, os limites a partir dos quais se aplicam, quem os deve (quem doa ou quem recebe) e as alíquotas variam enormemente de país para país, e muitos países não têm esse tipo de imposto ou só o aplicam acima de limites muito altos, que atingem uma pequena parte das transferências. A lição prática aqui não é uma regra para decorar, e sim um sinal de alerta: se você é quem doa, quem recebe ou herdeiro em uma situação de doação ou herança realmente grande, essa é exatamente o tipo de situação que pede orientação profissional, e não suposições.
+
+## Exemplo prático
+
+**Pergunta:** Uma família está planejando passar uma grande empresa familiar para a próxima geração. Ela deve supor que as regras tributárias de que ouviu falar por um amigo em outro país valem para ela?
+
+**Aluno:** Pela lição, de jeito nenhum: essas regras variam enormemente de país para país e de situação para situação.
+
+**Guia:** Qual seria o próximo passo responsável para essa família?
+
+**Aluno:** Buscar orientação de um profissional qualificado que conheça as regras do próprio país, em vez de confiar em informações de segunda mão vindas de outro lugar.
+
+**Guia:** Exatamente: esse é um caso clássico de "procure um profissional", usando a analogia do médico vista antes no currículo.
+
+## Teste de prática
+
+**Pergunta 1.** Os impostos sobre doações e heranças geralmente tratam de:
+
+A) Salários regulares
+B) Transferências de riqueza fora do sistema normal de geração de renda
+C) Imposto sobre vendas de alimentos
+D) Retenção na folha
+
+**Pergunta 2.** Todos os países aplicam as mesmas regras de impostos sobre doações e heranças?
+
+A) Sim, em todo lugar
+B) Não: as regras variam enormemente, e muitos países não têm esse imposto ou têm limites muito altos
+C) Só os países ricos têm regras
+D) Esses impostos nunca existiram em lugar nenhum
+
+**Pergunta 3.** A lição prática deste tema é:
+
+A) Decorar os limites específicos de um país
+B) Reconhecer isso, em situações reais, como um sinal para buscar orientação profissional
+C) Ignorar completamente as doações grandes
+D) Supor que nunca há imposto em lugar nenhum
+
+**Pergunta 4.** Esta lição se liga a qual conceito anterior do currículo?
+
+A) A analogia do médico: consultar um profissional em situações complexas
+B) Bens públicos
+C) Cobrança de imposto sobre vendas
+D) Faixas de alíquota marginal
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. A
+
+## Respostas e explicações
+
+**1.** Esses impostos geralmente visam a riqueza que se move fora do quadro normal da renda ganha.
+
+**2.** A enorme variação, incluindo muitos países sem esse imposto, torna as generalizações pouco confiáveis aqui.
+
+**3.** A lição duradoura é reconhecer quando uma situação pede ajuda especializada, e não decorar regras que talvez nem se apliquem.
+
+**4.** Essa é uma aplicação direta e concreta da lição anterior que comparava a consulta sobre riscos legais e tributários a uma ida ao médico.
+
+## Pontos-chave
+
+- Os impostos sobre doações e heranças tratam de transferências de riqueza fora da renda ganha normal.
+- As regras variam enormemente de país para país: muitos não têm esses impostos ou só os aplicam acima de limites altos.
+- A lição principal é reconhecer quando buscar orientação profissional, e não decorar regras específicas.
+- Doações ou heranças grandes ou complexas são um caso claro para consultar um profissional.
+
+===== GREEN-L1-038
+TITLE: "Impostos do pecado" e impostos seletivos
+SUMMARY: Apresenta os impostos seletivos sobre o consumo, muitas vezes chamados de "impostos do pecado" quando incidem sobre bens específicos como bebidas alcoólicas ou cigarros, como uma categoria própria, movida por política pública.
+# "Impostos do pecado" e impostos seletivos
+
+## Objetivos de aprendizagem
+
+- Definir um imposto seletivo sobre o consumo.
+- Explicar a expressão "imposto do pecado" e a lógica de política pública por trás dela.
+- Diferenciar os impostos seletivos do imposto geral sobre vendas.
+
+## Conteúdo principal
+
+Um imposto seletivo é um imposto aplicado a um bem ou a uma atividade específica, e não às compras em geral, como faz um imposto amplo sobre vendas. Quando um imposto seletivo atinge um bem considerado prejudicial em excesso (bebidas alcoólicas, cigarros e, às vezes, bebidas açucaradas são exemplos comuns), ele costuma ser chamado informalmente de "imposto do pecado". (No Brasil, a reforma tributária criou um Imposto Seletivo sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente, com implantação gradual; as regras ainda estão sendo definidas.)
+
+A lógica de política pública por trás dos impostos do pecado costuma ter duas partes: arrecadar e desestimular o consumo do bem tributado, tornando-o mais caro. Diferente do imposto geral sobre vendas, que se aplica de forma ampla e neutra à maioria das compras, os impostos seletivos são deliberadamente estreitos e direcionados, refletindo uma avaliação específica de política pública sobre aquele bem ou atividade. Se os impostos do pecado de fato reduzem o consumo de forma eficaz, e se pesam desproporcionalmente sobre consumidores de renda mais baixa, são questões genuinamente debatidas, e não fatos estabelecidos.
+
+## Exemplo prático
+
+**Pergunta:** Um governo cria um imposto extra específico sobre refrigerantes açucarados, além do imposto sobre vendas normal que vale para todas as compras no varejo. Que tipo de imposto é essa cobrança extra sobre o refrigerante?
+
+**Aluno:** Pela lição, parece um imposto seletivo, porque é direcionado especificamente a um produto, e não às compras em geral.
+
+**Guia:** Qual é o provável duplo objetivo por trás desse tipo de imposto direcionado?
+
+**Aluno:** Arrecadar e também desestimular o consumo de refrigerante, deixando-o mais caro.
+
+**Guia:** Exatamente: e vale notar que esses dois efeitos, e a justiça deles, são genuinamente debatidos.
+
+## Teste de prática
+
+**Pergunta 1.** Um imposto seletivo é mais bem descrito como:
+
+A) Um imposto amplo sobre todas as compras
+B) Um imposto direcionado a um bem ou atividade específica
+C) O mesmo que o imposto de renda
+D) Um tipo de imposto sobre a propriedade
+
+**Pergunta 2.** Um "imposto do pecado" é:
+
+A) Sem relação com impostos seletivos
+B) Uma expressão informal para um imposto seletivo sobre bens considerados prejudiciais em excesso
+C) Um imposto só sobre a renda
+D) Um tipo de crédito tributário
+
+**Pergunta 3.** O duplo objetivo típico dos impostos do pecado é:
+
+A) Nenhum objetivo
+B) Arrecadar e desestimular o consumo
+C) Só desestimular o consumo, nunca arrecadar
+D) Só arrecadar, sem objetivo de comportamento
+
+**Pergunta 4.** A eficácia e a justiça dos impostos do pecado são uma questão resolvida?
+
+A) Sim, todos concordam
+B) Não: é uma questão de política pública genuinamente debatida
+C) Só são debatidas em um país
+D) Nunca foram discutidas
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os impostos seletivos se concentram em um produto ou atividade específica, em vez de se aplicarem de forma ampla.
+
+**2.** O rótulo "imposto do pecado" reflete que o bem tributado é considerado prejudicial em excesso, como bebidas alcoólicas ou cigarros.
+
+**3.** Arrecadar e desestimular comportamentos são os dois objetivos mais citados desses impostos direcionados.
+
+**4.** Pessoas sensatas discordam sobre o quanto os impostos do pecado funcionam e sobre quem realmente arca com o peso deles.
+
+## Pontos-chave
+
+- Os impostos seletivos atingem bens ou atividades específicas, ao contrário do imposto geral sobre vendas.
+- "Imposto do pecado" é uma expressão informal para impostos seletivos sobre bens considerados prejudiciais em excesso.
+- Os objetivos típicos são arrecadar e desestimular o consumo.
+- A eficácia e a justiça dos impostos do pecado continuam genuinamente debatidas.
+
+===== GREEN-L1-039
+TITLE: Tarifas: impostos sobre produtos importados
+SUMMARY: Apresenta as tarifas como um imposto sobre produtos que cruzam a fronteira, ligando o tema à política comercial em um nível conceitual básico.
+# Tarifas: impostos sobre produtos importados
+
+## Objetivos de aprendizagem
+
+- Definir uma tarifa.
+- Explicar quem normalmente acaba arcando com o custo de uma tarifa.
+- Reconhecer as tarifas tanto como ferramenta de arrecadação quanto como ferramenta de política comercial.
+
+## Conteúdo principal
+
+Uma tarifa é um imposto aplicado a produtos quando eles são importados para um país vindos do exterior. Diferente do imposto sobre vendas, que se aplica às compras em geral, ou do imposto seletivo, que atinge bens específicos independentemente da origem, a tarifa atinge especificamente os produtos que cruzam a fronteira para entrar no país. (No Brasil, o principal é o Imposto de Importação, com alíquotas ligadas em grande parte à Tarifa Externa Comum do Mercosul; as alíquotas mudam.)
+
+As tarifas têm dois objetivos citados com frequência: gerar arrecadação e proteger a indústria nacional, tornando os produtos importados mais caros em relação às alternativas produzidas no país. Um ponto importante, e muitas vezes esquecido, é que, embora as tarifas sejam tecnicamente cobradas da empresa importadora, o custo extra costuma ser repassado aos consumidores por meio de preços mais altos; ou seja, as pessoas que pagam mais no caixa podem estar bem longe de qualquer discussão sobre política comercial. Se uma determinada tarifa de fato ajuda ou prejudica a economia de um país como um todo é uma questão muito debatida na economia, com trocas reais dos dois lados.
+
+## Exemplo prático
+
+**Pergunta:** Um país cria uma tarifa sobre o aço importado para proteger os fabricantes nacionais de aço. Quem provavelmente vai sentir, no fim, o custo dessa tarifa?
+
+**Aluno:** Pela lição, ela é tecnicamente cobrada das empresas importadoras, mas o custo costuma ser repassado aos consumidores por meio de preços mais altos.
+
+**Guia:** Então quem pode acabar pagando mais, mesmo sem nunca lidar diretamente com importação de aço?
+
+**Aluno:** Os consumidores que compram produtos feitos com esse aço, como carros, eletrodomésticos e obras, podem ver preços mais altos, mesmo que a tarifa tenha sido cobrada de uma empresa.
+
+**Guia:** Exatamente: as tarifas têm efeitos em cadeia que vão muito além das empresas tributadas diretamente.
+
+## Teste de prática
+
+**Pergunta 1.** Uma tarifa é um imposto aplicado a:
+
+A) Todas as compras internas
+B) Produtos importados para um país vindos do exterior
+C) Só serviços, nunca produtos
+D) Renda de investimentos
+
+**Pergunta 2.** As tarifas costumam ser usadas para:
+
+A) Gerar arrecadação e proteger a indústria nacional
+B) Acabar com todo o comércio
+C) Beneficiar só empresas estrangeiras
+D) Reduzir os preços internos
+
+**Pergunta 3.** Quem muitas vezes acaba arcando com o custo real de uma tarifa, embora ela seja cobrada dos importadores?
+
+A) Ninguém: as tarifas não têm custo adiante
+B) Os consumidores, por meio de preços mais altos
+C) Só os governos estrangeiros
+D) Só a empresa importadora, sem repasse
+
+**Pergunta 4.** O efeito econômico geral das tarifas é uma questão resolvida?
+
+A) Sim, elas são sempre benéficas
+B) Sim, elas são sempre prejudiciais
+C) Não: é uma questão muito debatida, com trocas reais
+D) As tarifas não têm efeito econômico
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. C
+
+## Respostas e explicações
+
+**1.** As tarifas estão ligadas especificamente ao ato de importar produtos através de uma fronteira, o que as diferencia de impostos mais amplos.
+
+**2.** Gerar arrecadação e proteger a indústria nacional são os dois objetivos mais citados das tarifas.
+
+**3.** O repasse de custos faz com que o peso prático muitas vezes recaia sobre os consumidores comuns, e não só sobre as empresas tributadas diretamente.
+
+**4.** Os economistas discordam genuinamente sobre os efeitos líquidos das tarifas, que envolvem trocas reais entre grupos diferentes.
+
+## Pontos-chave
+
+- As tarifas tributam produtos importados através de uma fronteira.
+- Elas costumam ser usadas para gerar arrecadação e proteger a indústria nacional.
+- O custo real muitas vezes é repassado aos consumidores, embora as tarifas sejam cobradas dos importadores.
+- O impacto econômico geral das tarifas é uma questão genuinamente debatida.
+
+===== GREEN-L1-040
+TITLE: Impostos sobre empresas: como as empresas são tributadas
+SUMMARY: Apresenta o conceito geral de uma sociedade empresária como contribuinte separado dos seus donos.
+# Impostos sobre empresas: como as empresas são tributadas
+
+## Objetivos de aprendizagem
+
+- Explicar o conceito de sociedade como um contribuinte distinto.
+- Diferenciar o imposto no nível da empresa do imposto devido pelos seus donos.
+- Preparar o conceito de bitributação, tratado na próxima lição.
+
+## Conteúdo principal
+
+Em muitos sistemas jurídicos e tributários, uma sociedade empresária é tratada como uma pessoa jurídica própria, separada das pessoas que são donas dela. Uma consequência disso é que a própria empresa pode estar sujeita a imposto sobre o seu lucro, independentemente de qualquer imposto que os seus donos (sócios ou acionistas) possam dever separadamente. (No Brasil, por exemplo, as empresas podem pagar IRPJ e CSLL sobre o lucro, conforme o regime, como lucro real ou presumido, ou recolher pelo Simples Nacional; as regras mudam.)
+
+Essa é uma estrutura bem diferente da empresa individual, em que o negócio e o dono são a mesma pessoa para fins tributários e o lucro do negócio simplesmente vai para a declaração pessoal do dono. Uma sociedade, ao contrário, declara e paga primeiro o imposto sobre o próprio lucro, como contribuinte próprio. Isso prepara um conceito importante tratado na próxima lição: o que acontece quando esse mesmo lucro é depois distribuído aos sócios, que podem então dever o próprio imposto sobre ele, situação conhecida como bitributação.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo não entende por que uma empresa pagaria os próprios impostos, separados dos das pessoas que são donas dela. Como você explicaria?
+
+**Aluno:** Pela lição, uma sociedade é tratada como uma pessoa jurídica separada, distinta dos seus donos.
+
+**Guia:** Em que isso é diferente de uma empresa individual?
+
+**Aluno:** Na empresa individual, o negócio e o dono são a mesma coisa para fins tributários, então o lucro vai direto para a declaração pessoal do dono. Uma sociedade é tributada separadamente, como contribuinte próprio.
+
+**Guia:** Exatamente: e essa separação é justamente o que prepara a questão da bitributação, que vem a seguir.
+
+## Teste de prática
+
+**Pergunta 1.** Uma sociedade empresária geralmente é tratada como:
+
+A) A mesma pessoa que os seus donos
+B) Uma pessoa jurídica distinta, separada dos seus donos
+C) Não contribuinte
+D) Relevante só fora do sistema tributário
+
+**Pergunta 2.** O lucro de uma sociedade pode estar sujeito a:
+
+A) Nenhum imposto
+B) Imposto sobre a renda no nível da empresa, independente do imposto dos donos
+C) Só imposto sobre vendas
+D) Só tributos sobre a folha
+
+**Pergunta 3.** Em que uma empresa individual se diferencia de uma sociedade para fins tributários?
+
+A) Não há diferença
+B) Na empresa individual, o lucro vai direto para a declaração pessoal do dono; a sociedade é tributada separadamente primeiro
+C) Empresas individuais também pagam imposto de sociedade
+D) Sociedades nunca pagam imposto
+
+**Pergunta 4.** Esta lição prepara qual conceito a seguir?
+
+A) Imposto sobre vendas
+B) Bitributação
+C) Imposto sobre a propriedade
+D) Retenção na folha
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A separação jurídica entre uma sociedade e os seus donos é o conceito básico por trás da tributação no nível da empresa.
+
+**2.** O imposto sobre empresas incide sobre o lucro da própria pessoa jurídica, separado de qualquer imposto que os donos devam pessoalmente.
+
+**3.** A empresa individual junta o negócio e o dono em um único contribuinte; a sociedade não.
+
+**4.** Essa separação estrutural é exatamente o que cria a questão da bitributação explorada na próxima lição.
+
+## Pontos-chave
+
+- Uma sociedade empresária geralmente é tratada como uma pessoa jurídica distinta dos seus donos.
+- Isso significa que a sociedade pode dever o próprio imposto, separado do imposto dos seus donos.
+- Isso é diferente da empresa individual, em que o lucro vai direto para a declaração pessoal do dono.
+- Essa estrutura prepara o conceito de bitributação, tratado a seguir.

@@ -1,0 +1,399 @@
+===== GREEN-L1-036
+TITLE: Le conseguenze fiscali della vendita della casa
+SUMMARY: Presenta le considerazioni fiscali generali che nascono quando si vende l'abitazione principale, ricollegandosi alle lezioni sulle plusvalenze.
+# Le conseguenze fiscali della vendita della casa
+
+## Obiettivi di apprendimento
+
+- Collegare la vendita della casa al concetto di plusvalenza visto in precedenza.
+- Spiegare perché molti sistemi prevedono un trattamento favorevole per l'abitazione principale.
+- Riconoscere l'importanza di tenere traccia nel tempo del costo fiscale della casa.
+
+## Contenuto principale
+
+Vendere una casa è, in fondo, un altro esempio del concetto di plusvalenza visto in precedenza: prezzo di vendita meno costo (in sostanza, prezzo d'acquisto più alcune migliorie ammesse) è uguale al guadagno. Ma poiché l'abitazione principale è un evento di vita comune e importante, e non una pura operazione d'investimento, molti sistemi fiscali prevedono un trattamento favorevole (per esempio escludendo dall'imposta una parte del guadagno) proprio per l'abitazione principale, diversamente da come tratterebbero, per esempio, un immobile da investimento. (In Italia la vendita di un immobile è di norma esente se avviene dopo un certo numero di anni dall'acquisto o se l'immobile è stato adibito ad abitazione principale per la maggior parte del tempo; le regole sono precise e possono cambiare.)
+
+È un ottimo esempio concreto del perché conta tenere traccia del proprio costo nel tempo. Se un proprietario fa negli anni migliorie importanti e ammesse, come un ampliamento o una grande ristrutturazione, quelle spese possono spesso aumentare il costo fiscale, riducendo il guadagno tassabile quando la casa verrà venduta. Senza documenti su quelle migliorie, un proprietario potrebbe finire per pagare più imposte del necessario solo perché non riesce a dimostrare quanto ha speso davvero.
+
+## Esempio svolto
+
+**Domanda:** Un proprietario realizza presto un grande ampliamento della casa ma non conserva mai i documenti dei costi. Anni dopo vende la casa con un forte guadagno. Che cosa potrebbe costargli?
+
+**Studente:** In base a questa lezione, senza documenti sui costi dell'ampliamento potrebbe non riuscire ad aumentare il costo fiscale, e quindi pagare l'imposta su un guadagno più alto del necessario.
+
+**Guida:** Che cosa avrebbe evitato questo problema?
+
+**Studente:** Conservare ricevute e documenti dei costi delle migliorie man mano che venivano sostenuti, il che ci riporta alla lezione sulla conservazione dei documenti.
+
+**Guida:** Esatto: è un esempio molto concreto, e costoso, del perché quell'abitudine conta.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Vendere una casa è, in fondo, un esempio di:
+
+A) Imposta sulle vendite
+B) Il concetto di plusvalenza: prezzo di vendita meno costo
+C) Contributi sugli stipendi
+D) Un credito d'imposta
+
+**Domanda 2.** Perché molti sistemi prevedono un trattamento favorevole proprio per l'abitazione principale?
+
+A) Senza un vero motivo
+B) È considerata un evento di vita comune e importante, non un puro investimento
+C) Le case non si vendono mai
+D) Solo gli immobili da investimento ricevono un trattamento favorevole
+
+**Domanda 3.** Le migliorie ammesse alla casa possono in genere:
+
+A) Ridurre il costo fiscale della casa
+B) Aumentare il costo fiscale della casa, riducendo il guadagno tassabile in futuro
+C) Non avere effetti sul costo
+D) Contare solo per gli immobili in affitto
+
+**Domanda 4.** Senza documenti sui costi delle migliorie, un proprietario rischia di:
+
+A) Niente
+B) Pagare più imposte del necessario alla futura vendita
+C) Ottenere un rimborso automatico
+D) Perdere la proprietà della casa
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La vendita di una casa segue lo stesso calcolo di base del guadagno di qualsiasi altra vendita di un bene.
+
+**2.** L'abitazione principale è spesso trattata in modo diverso, perché è più una necessità di vita che un puro strumento d'investimento.
+
+**3.** Le migliorie ammesse si aggiungono in genere al costo, il che può ridurre in modo significativo il guadagno tassabile alla vendita.
+
+**4.** La mancanza di documenti si traduce direttamente in un guadagno tassabile più alto e in un'imposta inutilmente più alta.
+
+## Punti chiave
+
+- Vendere una casa segue la stessa logica di base delle plusvalenze di altre vendite di beni.
+- L'abitazione principale riceve spesso un trattamento fiscale favorevole.
+- Le migliorie ammesse possono aumentare il costo, riducendo in futuro il guadagno tassabile.
+- Conservare male i documenti delle migliorie alla casa può essere un errore costoso ed evitabile.
+
+===== GREEN-L1-037
+TITLE: Le basi dell'imposta su donazioni e successioni
+SUMMARY: Presenta i concetti generali della tassazione di donazioni e successioni, mantenendoli ampi viste le grandi differenze tra sistemi.
+# Le basi dell'imposta su donazioni e successioni
+
+## Obiettivi di apprendimento
+
+- Spiegare il concetto generale alla base della tassazione delle donazioni.
+- Spiegare il concetto generale alla base della tassazione di eredità e successioni.
+- Riconoscere che queste regole variano enormemente e dipendono molto dal paese.
+
+## Contenuto principale
+
+Alcuni sistemi fiscali applicano regole alle grandi donazioni fatte in vita e ai beni trasferiti dopo la morte (spesso si parla di imposta di successione). La preoccupazione generale a cui rispondono i legislatori è il trasferimento di ricchezza al di fuori del sistema in cui si guadagna un reddito: poiché una donazione o un'eredità non sono "guadagnate" nel senso tradizionale, sollevano questioni di politica pubblica diverse da quelle di uno stipendio. (In Italia esiste un'imposta su successioni e donazioni con franchigie che dipendono dal grado di parentela; franchigie e aliquote possono cambiare.)
+
+È un'area in cui generalizzare troppo nello specifico sarebbe fuorviante: l'esistenza di queste imposte, le soglie oltre cui si applicano, chi le deve (chi dona o chi riceve) e le aliquote variano enormemente da paese a paese, e molti paesi non hanno affatto un'imposta del genere, o la applicano solo oltre soglie molto alte che riguardano una piccola parte dei trasferimenti. La lezione pratica qui non è una regola da imparare a memoria, ma un campanello d'allarme: se sei chi dona, chi riceve o un erede in una situazione di donazione o eredità davvero grande, è proprio il tipo di caso che richiede il parere di un professionista invece di supposizioni.
+
+## Esempio svolto
+
+**Domanda:** Una famiglia sta pianificando di passare una grande impresa di famiglia alla generazione successiva. Dovrebbe dare per scontato che valgano per lei le regole fiscali di cui ha sentito parlare da un amico in un altro paese?
+
+**Studente:** In base a questa lezione, assolutamente no: queste regole variano enormemente da paese a paese e da situazione a situazione.
+
+**Guida:** Quale sarebbe il passo successivo responsabile per questa famiglia?
+
+**Studente:** Chiedere un parere a un professionista qualificato che conosca le regole del loro paese, invece di affidarsi a informazioni di seconda mano da un altro posto.
+
+**Guida:** Esatto: è un caso da manuale di "rivolgiti a un professionista", secondo il paragone con il medico visto prima nel percorso.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Le imposte su donazioni ed eredità riguardano in genere:
+
+A) Gli stipendi regolari
+B) I trasferimenti di ricchezza al di fuori del normale sistema di reddito da lavoro
+C) L'imposta sulle vendite sulla spesa alimentare
+D) Le ritenute in busta paga
+
+**Domanda 2.** Tutti i paesi applicano le stesse regole su donazioni ed eredità?
+
+A) Sì, ovunque
+B) No: le regole variano enormemente, e molti paesi non hanno questa imposta o hanno soglie molto alte
+C) Solo i paesi ricchi hanno delle regole
+D) Queste imposte non sono mai esistite da nessuna parte
+
+**Domanda 3.** La lezione pratica di questo argomento è:
+
+A) Imparare a memoria le soglie di un paese
+B) Riconoscerlo, nelle situazioni reali, come un segnale per chiedere un parere professionale
+C) Ignorare del tutto le grandi donazioni
+D) Dare per scontato che non si applichi mai alcuna imposta
+
+**Domanda 4.** Questa lezione si collega a quale concetto precedente del percorso?
+
+A) Il paragone con il medico: consultare un professionista nelle situazioni complesse
+B) I beni pubblici
+C) La riscossione dell'imposta sulle vendite
+D) Gli scaglioni marginali d'imposta
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. A
+
+## Risposte e spiegazioni
+
+**1.** Queste imposte riguardano in genere la ricchezza che si sposta al di fuori del normale quadro del reddito guadagnato.
+
+**2.** L'enorme varietà, compresi molti paesi del tutto privi di questa imposta, rende inaffidabili le generalizzazioni.
+
+**3.** La lezione duratura è riconoscere quando una situazione richiede l'aiuto di un esperto, non imparare regole che potrebbero nemmeno valere.
+
+**4.** È un'applicazione diretta e concreta della lezione precedente che paragonava la consulenza sui rischi legali e fiscali a una visita dal medico.
+
+## Punti chiave
+
+- Le imposte su donazioni ed eredità riguardano i trasferimenti di ricchezza al di fuori del normale reddito guadagnato.
+- Le regole variano enormemente da paese a paese: molti non le hanno, o le applicano solo oltre soglie alte.
+- La lezione chiave è riconoscere quando chiedere un parere professionale, non imparare a memoria regole specifiche.
+- Le donazioni o eredità grandi o complesse sono un caso chiaro in cui rivolgersi a un professionista.
+
+===== GREEN-L1-038
+TITLE: "Imposte sul vizio" e accise
+SUMMARY: Presenta le accise, spesso chiamate "imposte sul vizio" quando colpiscono beni specifici come alcol o tabacco, come una categoria di imposta distinta e legata a scelte di politica pubblica.
+# "Imposte sul vizio" e accise
+
+## Obiettivi di apprendimento
+
+- Definire un'accisa.
+- Spiegare l'espressione "imposta sul vizio" e la logica politica che la sostiene.
+- Distinguere le accise dall'imposta generale sulle vendite.
+
+## Contenuto principale
+
+Un'accisa è un'imposta applicata a un bene o a un'attività specifici, invece che agli acquisti in generale come fa un'imposta ampia sulle vendite. Quando un'accisa colpisce un bene considerato dannoso se consumato in eccesso (alcol, tabacco e talvolta le bevande zuccherate sono esempi comuni), la si chiama spesso in modo informale "imposta sul vizio". (In Italia esistono per esempio accise sui tabacchi, sugli alcolici e sui carburanti; aliquote e regole cambiano.)
+
+La logica politica delle imposte sul vizio ha di solito due parti: raccogliere entrate e scoraggiare il consumo del bene tassato rendendolo più costoso. A differenza dell'imposta generale sulle vendite, che si applica in modo ampio e neutrale alla maggior parte degli acquisti, le accise sono volutamente mirate e ristrette, e riflettono una precisa valutazione politica su quel bene o quell'attività. Se le imposte sul vizio riducano davvero i consumi in modo efficace, e se pesino in modo sproporzionato su chi ha redditi più bassi, sono questioni davvero dibattute, non fatti accertati.
+
+## Esempio svolto
+
+**Domanda:** Un governo introduce un'imposta aggiuntiva specifica sulle bibite zuccherate, oltre alla normale imposta sulle vendite che vale per tutti gli acquisti al dettaglio. Che tipo di imposta è il prelievo aggiuntivo sulle bibite?
+
+**Studente:** In base a questa lezione, sembra un'accisa, perché colpisce in modo mirato un solo prodotto invece degli acquisti in generale.
+
+**Guida:** Qual è il probabile doppio scopo di un'imposta così mirata?
+
+**Studente:** Raccogliere entrate e anche scoraggiare il consumo di bibite rendendole più costose.
+
+**Guida:** Esatto: e vale la pena notare che entrambi gli effetti, e la loro equità, sono davvero dibattuti.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un'accisa si descrive meglio come:
+
+A) Un'imposta ampia su tutti gli acquisti
+B) Un'imposta mirata a un bene o a un'attività specifici
+C) La stessa cosa dell'imposta sul reddito
+D) Un tipo di imposta sugli immobili
+
+**Domanda 2.** Un'"imposta sul vizio" è:
+
+A) Non collegata alle accise
+B) Un'espressione informale per un'accisa su beni considerati dannosi se consumati in eccesso
+C) Un'imposta solo sul reddito
+D) Un tipo di credito d'imposta
+
+**Domanda 3.** Il tipico doppio scopo delle imposte sul vizio è:
+
+A) Nessuno scopo
+B) Raccogliere entrate e scoraggiare il consumo
+C) Solo scoraggiare il consumo, mai raccogliere entrate
+D) Solo raccogliere entrate, senza obiettivi sui comportamenti
+
+**Domanda 4.** L'efficacia e l'equità delle imposte sul vizio sono una questione chiusa?
+
+A) Sì, tutti sono d'accordo
+B) No: è una questione di politica pubblica davvero dibattuta
+C) Sono dibattute solo in un paese
+D) Non se ne è mai discusso
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Le accise si concentrano su un prodotto o un'attività specifici invece di applicarsi in modo ampio.
+
+**2.** L'etichetta "imposta sul vizio" riflette il fatto che il bene tassato è considerato dannoso se consumato in eccesso, come alcol o tabacco.
+
+**3.** Raccogliere entrate e scoraggiare certi comportamenti sono i due obiettivi più citati di queste imposte mirate.
+
+**4.** Persone ragionevoli non sono d'accordo su quanto funzionino le imposte sul vizio e su chi ne sopporti davvero il peso.
+
+## Punti chiave
+
+- Le accise colpiscono beni o attività specifici, a differenza dell'imposta generale sulle vendite.
+- "Imposta sul vizio" è un'espressione informale per le accise su beni considerati dannosi se consumati in eccesso.
+- Gli obiettivi tipici sono le entrate e lo scoraggiamento dei consumi.
+- L'efficacia e l'equità delle imposte sul vizio restano davvero dibattute.
+
+===== GREEN-L1-039
+TITLE: I dazi: le imposte sulle merci importate
+SUMMARY: Presenta i dazi come un'imposta sulle merci che attraversano un confine, collegandoli in modo concettuale e di base alla politica commerciale.
+# I dazi: le imposte sulle merci importate
+
+## Obiettivi di apprendimento
+
+- Definire un dazio.
+- Spiegare chi finisce di solito per sostenere il costo di un dazio.
+- Riconoscere i dazi sia come strumento di entrata sia come strumento di politica commerciale.
+
+## Contenuto principale
+
+Un dazio è un'imposta applicata alle merci quando vengono importate in un paese dall'estero. A differenza dell'imposta sulle vendite, che si applica agli acquisti in generale, o dell'accisa, che colpisce beni specifici a prescindere dall'origine, il dazio colpisce in modo specifico le merci che attraversano un confine per entrare nel paese. (Per l'Italia i dazi sono stabiliti a livello dell'Unione europea, in modo comune per tutti gli Stati membri; le aliquote cambiano.)
+
+I dazi hanno due scopi citati di frequente: produrre entrate pubbliche e proteggere le industrie nazionali rendendo le merci importate più costose rispetto alle alternative prodotte in patria. Un punto importante e spesso trascurato è che, sebbene il dazio sia formalmente addebitato all'impresa che importa, il costo aggiuntivo viene spesso trasferito ai consumatori tramite prezzi più alti: le persone che pagano di più alla cassa possono essere molto lontane da qualsiasi discussione di politica commerciale. Se un certo dazio aiuti o danneggi davvero l'economia complessiva di un paese è una questione molto dibattuta in economia, con compromessi reali da entrambe le parti.
+
+## Esempio svolto
+
+**Domanda:** Un paese introduce un dazio sull'acciaio importato per proteggere i produttori nazionali di acciaio. Chi probabilmente sentirà alla fine il costo di quel dazio?
+
+**Studente:** In base a questa lezione, è formalmente addebitato alle imprese che importano, ma il costo viene spesso trasferito ai consumatori tramite prezzi più alti.
+
+**Guida:** Quindi chi potrebbe finire per pagare di più, anche senza avere mai a che fare direttamente con l'acciaio importato?
+
+**Studente:** I consumatori che comprano prodotti fatti con quell'acciaio (auto, elettrodomestici, edilizia) potrebbero vedere prezzi più alti, anche se il dazio è stato addebitato a un'impresa.
+
+**Guida:** Esatto: i dazi hanno effetti a catena ben oltre le imprese tassate direttamente.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un dazio è un'imposta applicata a:
+
+A) Tutti gli acquisti interni
+B) Le merci importate in un paese dall'estero
+C) Solo i servizi, mai le merci
+D) I redditi da investimento
+
+**Domanda 2.** I dazi sono usati comunemente per:
+
+A) Produrre entrate e proteggere le industrie nazionali
+B) Eliminare ogni commercio
+C) Favorire solo le imprese straniere
+D) Ridurre i prezzi interni
+
+**Domanda 3.** Chi spesso finisce per sostenere il costo reale di un dazio, anche se è addebitato agli importatori?
+
+A) Nessuno: i dazi non hanno costi a valle
+B) I consumatori, tramite prezzi più alti
+C) Solo i governi stranieri
+D) Solo l'impresa importatrice, senza alcun trasferimento
+
+**Domanda 4.** L'effetto economico complessivo dei dazi è una questione chiusa?
+
+A) Sì, sono sempre vantaggiosi
+B) Sì, sono sempre dannosi
+C) No: è una questione molto dibattuta, con compromessi reali
+D) I dazi non hanno effetti economici
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. C
+
+## Risposte e spiegazioni
+
+**1.** I dazi sono legati in modo specifico all'importazione di merci attraverso un confine, e questo li distingue da imposte più ampie.
+
+**2.** Produrre entrate e proteggere le industrie nazionali sono i due scopi più citati dei dazi.
+
+**3.** Il trasferimento dei costi fa sì che il peso pratico ricada spesso sui consumatori comuni, non solo sulle imprese tassate direttamente.
+
+**4.** Gli economisti sono davvero in disaccordo sugli effetti netti dei dazi, che comportano compromessi reali tra gruppi diversi.
+
+## Punti chiave
+
+- I dazi tassano le merci importate attraverso un confine.
+- Sono usati comunemente per produrre entrate e proteggere le industrie nazionali.
+- Il costo reale viene spesso trasferito ai consumatori, anche se i dazi sono addebitati agli importatori.
+- L'impatto economico complessivo dei dazi è una questione davvero dibattuta.
+
+===== GREEN-L1-040
+TITLE: Le imposte sulle società: come vengono tassate le imprese
+SUMMARY: Presenta il concetto generale di società come soggetto d'imposta distinto dai suoi proprietari.
+# Le imposte sulle società: come vengono tassate le imprese
+
+## Obiettivi di apprendimento
+
+- Spiegare il concetto di società come soggetto d'imposta distinto.
+- Distinguere l'imposta a livello della società dall'imposta dovuta dai suoi proprietari.
+- Preparare il concetto di doppia imposizione, trattato nella lezione successiva.
+
+## Contenuto principale
+
+In molti sistemi giuridici e fiscali, una società di capitali è considerata un soggetto giuridico a sé, separato dalle persone che la possiedono. Una conseguenza è che la società stessa può essere soggetta a imposta sul reddito per i propri utili, indipendentemente dalle imposte che i suoi proprietari (soci o azionisti) potrebbero dovere separatamente. (In Italia, per esempio, le società di capitali pagano l'IRES sul reddito e l'IRAP; aliquote e regole cambiano.)
+
+È una struttura molto diversa dalla ditta individuale, in cui impresa e titolare sono lo stesso soggetto ai fini fiscali e l'utile dell'impresa confluisce semplicemente nella dichiarazione personale del titolare. Una società, invece, dichiara e paga prima l'imposta sui propri utili, come contribuente autonomo. Questo prepara un concetto importante trattato nella lezione successiva: che cosa succede quando quello stesso utile viene poi distribuito ai soci, che potrebbero a loro volta dovere un'imposta su di esso, una situazione nota come doppia imposizione.
+
+## Esempio svolto
+
+**Domanda:** Un amico non capisce perché una società debba pagare le proprie imposte, separate da quelle delle persone che la possiedono. Come glielo spiegheresti?
+
+**Studente:** In base a questa lezione, una società è considerata un soggetto giuridico a sé, distinto dai suoi proprietari.
+
+**Guida:** In che cosa è diverso da una ditta individuale?
+
+**Studente:** Nella ditta individuale impresa e titolare sono la stessa cosa ai fini fiscali, quindi l'utile va direttamente nella dichiarazione personale del titolare. Una società è tassata separatamente, come contribuente autonomo.
+
+**Guida:** Esatto: ed è proprio questa separazione a preparare il tema della doppia imposizione che vedremo dopo.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una società è considerata in genere:
+
+A) Lo stesso soggetto dei suoi proprietari
+B) Un soggetto giuridico distinto, separato dai suoi proprietari
+C) Non soggetta affatto a imposta
+D) Rilevante solo fuori dal sistema fiscale
+
+**Domanda 2.** Gli utili di una società possono essere soggetti a:
+
+A) Nessuna imposta
+B) Un'imposta sul reddito a livello della società, indipendente da quella dei proprietari
+C) Solo l'imposta sulle vendite
+D) Solo i contributi sugli stipendi
+
+**Domanda 3.** In che cosa una ditta individuale si distingue da una società ai fini fiscali?
+
+A) Non c'è differenza
+B) Nella ditta individuale l'utile confluisce direttamente nella dichiarazione personale del titolare; una società è prima tassata separatamente
+C) Anche le ditte individuali pagano l'imposta sulle società
+D) Le società non pagano mai imposte
+
+**Domanda 4.** Quale concetto successivo prepara questa lezione?
+
+A) Imposta sulle vendite
+B) Doppia imposizione
+C) Imposta sugli immobili
+D) Ritenute in busta paga
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La separazione giuridica tra una società e i suoi proprietari è il concetto di base della tassazione a livello societario.
+
+**2.** L'imposta sulle società si applica agli utili propri del soggetto, separatamente dalle imposte che i proprietari devono personalmente.
+
+**3.** Nella ditta individuale impresa e titolare diventano un unico contribuente; nella società no.
+
+**4.** È proprio questa separazione strutturale a creare il tema della doppia imposizione esaminato nella lezione successiva.
+
+## Punti chiave
+
+- Una società è considerata in genere un soggetto giuridico distinto dai suoi proprietari.
+- Per questo una società può dovere la propria imposta sul reddito, separata da quella dei proprietari.
+- È diverso dalla ditta individuale, in cui l'utile confluisce direttamente nella dichiarazione personale del titolare.
+- Questa struttura prepara il concetto di doppia imposizione trattato nella lezione successiva.
