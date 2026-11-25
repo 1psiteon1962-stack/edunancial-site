@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-036
 VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — strategie voor klantbehoud en customer lifetime value komen op hogere levels van de ORANGE-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-033 — Wat is een merk?
+- BLUE-L1-033 — Wat is een merk, en hoe verschilt het van een logo?
 - BLUE-L1-034 — Wat zijn klantacquisitiekosten?
 - BLUE-L1-036 — Wat is een concurrentievoordeel?
 

@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-029
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-027 — O que é um fornecedor?
+- BLUE-L1-027 — O que é um fornecedor, e por que a confiabilidade importa mais do que o preço?
 - BLUE-L1-029 — O que é dropshipping?
 
 ## Trilha da lição

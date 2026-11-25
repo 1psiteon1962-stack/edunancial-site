@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-029
 VERWANTE LEERLIJNEN: Nog niets gepubliceerd.
 
 ## Verder lezen
-- BLUE-L1-027 — Wat is een leverancier?
+- BLUE-L1-027 — Wat is een leverancier, en waarom telt betrouwbaarheid zwaarder dan prijs?
 - BLUE-L1-029 — Wat is dropshipping?
 
 ## Lesroute

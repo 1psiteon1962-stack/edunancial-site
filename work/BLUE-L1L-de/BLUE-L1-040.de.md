@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-041
 VERWANDTE LERNPFADE: BLACK (Führung & Unternehmensleitung) — Strategien für Einstellungen und Personal werden auf höheren Levels des BLACK-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-038 — Wachstum als Selbstständiger oder als Unternehmer
+- BLUE-L1-038 — Wachstum als Selbstständiger oder als Unternehmer: Warum sie an unterschiedliche Grenzen stoßen
 - BLUE-L1-039 — Was sind Systeme in einem Unternehmen?
 - BLUE-L1-041 — Was unterscheidet einen freien Auftragnehmer von einem Angestellten?
 

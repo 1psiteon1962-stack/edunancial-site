@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-037
 VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — concurrentiepositionering komt op hogere levels van de ORANGE-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-035 — Wat is klantbehoud?
+- BLUE-L1-035 — Wat is klantbehoud, en waarom is het meestal goedkoper dan nieuwe verkoop?
 - BLUE-L1-037 — Wat is marktonderzoek, en hoe doe je het zonder groot budget?
 
 ## Lesroute

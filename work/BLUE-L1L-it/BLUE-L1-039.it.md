@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-040
 PERCORSI CORRELATI: BLACK (Leadership e direzione aziendale) — sistemi e delega sono approfonditi molto di più ai livelli superiori del percorso BLACK.
 
 ## Letture di approfondimento
-- BLUE-L1-038 — Crescita da lavoratore autonomo o da imprenditore
+- BLUE-L1-038 — Crescita da lavoratore autonomo o da imprenditore: perché incontrano limiti diversi
 - BLUE-L1-040 — Che cos'è la gestione del personale, e quando un'impresa ha davvero bisogno della prima assunzione?
 
 ## Percorso della lezione

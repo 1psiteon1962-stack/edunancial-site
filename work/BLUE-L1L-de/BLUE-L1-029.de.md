@@ -143,8 +143,8 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-030
 VERWANDTE LERNPFADE: Noch keine veröffentlicht.
 
 ## Weiterführende Lektüre
-- BLUE-L1-026 — Was ist Lagerbestand?
-- BLUE-L1-028 — Was ist eine Mindestbestellmenge (MOQ)?
+- BLUE-L1-026 — Was ist Lagerbestand, und was kostet es, ihn zu halten?
+- BLUE-L1-028 — Was ist eine Mindestbestellmenge (MOQ), und wie kann sie eine gute Idee blockieren?
 - BLUE-L1-030 — Was ist ein Geschäftsmodell? (Nicht dasselbe wie ein Geschäftsplan)
 
 ## Lernpfad der Lektion

@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-028
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-026 — O que é inventário, e quanto custa mantê-lo?
+- BLUE-L1-026 — O que é o inventário (stock), e quanto custa mantê-lo?
 - BLUE-L1-028 — O que é uma quantidade mínima de encomenda (MOQ), e como pode travar uma boa ideia?
 
 ## Trilha da lição

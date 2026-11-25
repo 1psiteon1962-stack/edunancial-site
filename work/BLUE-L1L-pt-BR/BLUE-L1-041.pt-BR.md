@@ -144,7 +144,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-042
 TRILHAS RELACIONADAS: PURPLE (Direito) — o direito sobre a classificação de trabalhadores é aprofundado nos níveis mais altos da trilha PURPLE; GREEN (Impostos) — as implicações tributárias são aprofundadas nos níveis mais altos da trilha GREEN.
 
 ## Leituras complementares
-- BLUE-L1-040 — O que é a gestão de pessoal, e quando um negócio precisa da primeira contratação?
+- BLUE-L1-040 — O que é a gestão de pessoal, e quando um negócio realmente precisa da primeira contratação?
 - BLUE-L1-042 — O que é delegar, e por que é mais difícil do que parece?
 
 ## Trilha da lição

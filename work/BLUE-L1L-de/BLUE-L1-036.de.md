@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-037
 VERWANDTE LERNPFADE: ORANGE (Vertrieb & Marketing) — die Wettbewerbspositionierung wird auf höheren Levels des ORANGE-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-035 — Was ist Kundenbindung?
+- BLUE-L1-035 — Was ist Kundenbindung, und warum ist sie meist günstiger als Neukundengewinnung?
 - BLUE-L1-037 — Was ist Marktforschung, und wie gelingt sie ohne großes Budget?
 
 ## Lernpfad der Lektion

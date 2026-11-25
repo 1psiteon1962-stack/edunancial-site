@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-032
 VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — strategie rond de doelmarkt komt op hogere levels van de ORANGE-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-030 — Wat is een bedrijfsmodel?
+- BLUE-L1-030 — Wat is een bedrijfsmodel? (Niet hetzelfde als een ondernemingsplan)
 - BLUE-L1-032 — Wat is een marketingplan, in de meest eenvoudige vorm?
 
 ## Lesroute

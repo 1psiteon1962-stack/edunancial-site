@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-040
 TRILHAS RELACIONADAS: BLACK (Liderança e Gestão Executiva) — sistemas e delegação são aprofundados muito mais nos níveis mais altos da trilha BLACK.
 
 ## Leituras complementares
-- BLUE-L1-038 — Crescimento como autônomo x como dono de negócio
+- BLUE-L1-038 — Crescimento como autônomo x crescimento como dono de negócio: por que eles batem em tetos diferentes
 - BLUE-L1-040 — O que é a gestão de pessoal, e quando um negócio realmente precisa da primeira contratação?
 
 ## Trilha da lição

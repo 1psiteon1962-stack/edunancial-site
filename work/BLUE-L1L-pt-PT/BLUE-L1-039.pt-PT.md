@@ -64,7 +64,7 @@ Recorde BLUE-L1-038: o crescimento por conta própria bate num teto rígido, bas
 - **Conhecimento tácito:** Conhecimento que existe só na cabeça de uma pessoa, sem estar escrito ou documentado, e que os sistemas servem para capturar e formalizar.
 
 ## Exemplos práticos
-[EXEMPLO ILUSTRATIVO] A dona de uma padaria que decide pessoalmente os preços, verifica a qualidade e recebe cada cliente não tem sistemas: tudo depende da presença dela. A dona de uma padaria que tem regras de preço por escrito, uma lista de verificação de qualidade e uma equipa formada em padrões de processamento ao cliente começou a criar sistemas que não exigem o envolvimento pessoal e constante dela.
+[EXEMPLO ILUSTRATIVO] A dona de uma padaria que decide pessoalmente os preços, verifica a qualidade e recebe cada cliente não tem sistemas: tudo depende da presença dela. A dona de uma padaria que tem regras de preço por escrito, uma lista de verificação de qualidade e uma equipa formada em padrões de apoio ao cliente começou a criar sistemas que não exigem o envolvimento pessoal e constante dela.
 
 ## Erros comuns
 - Supor que sistemas só importam para negócios grandes, com muitos trabalhadores
@@ -143,8 +143,8 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-040
 TRILHAS RELACIONADAS: BLACK (Liderança e Gestão Executiva) — sistemas e delegação são aprofundados muito mais nos níveis mais altos da trilha BLACK.
 
 ## Leituras complementares
-- BLUE-L1-038 — Crescimento por conta própria x como dono de negócio
-- BLUE-L1-040 — O que é a gestão de pessoal, e quando um negócio realmente precisa da primeira contratação?
+- BLUE-L1-038 — Crescer por conta própria vs. crescer como dono de uma empresa: porque esbarram em tetos diferentes
+- BLUE-L1-040 — O que é a gestão de pessoal, e quando é que um negócio precisa realmente da primeira contratação?
 
 ## Trilha da lição
 `BLUE-L1-039-LOCALIZATION` (bloco de trilha)

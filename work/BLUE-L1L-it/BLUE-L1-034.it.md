@@ -142,7 +142,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-035
 PERCORSI CORRELATI: ORANGE (Vendite e marketing) — l'ottimizzazione del CAC è approfondita molto di più ai livelli superiori del percorso ORANGE.
 
 ## Letture di approfondimento
-- BLUE-L1-032 — Che cos'è un piano di marketing?
+- BLUE-L1-032 — Che cos'è un piano di marketing, nella sua forma più semplice?
 - BLUE-L1-035 — Che cos'è la fidelizzazione dei clienti, e perché di solito costa meno delle nuove vendite?
 
 ## Percorso della lezione

@@ -142,7 +142,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-035
 VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — het optimaliseren van de CAC komt op hogere levels van de ORANGE-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-032 — Wat is een marketingplan?
+- BLUE-L1-032 — Wat is een marketingplan, in de meest eenvoudige vorm?
 - BLUE-L1-035 — Wat is klantbehoud, en waarom is het meestal goedkoper dan nieuwe verkoop?
 
 ## Lesroute

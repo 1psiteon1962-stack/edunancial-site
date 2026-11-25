@@ -144,7 +144,7 @@ TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
 - BLUE-L1-014 — O que é um plano de negócios, e para quem é realmente?
-- BLUE-L1-029 — O que é dropshipping?
+- BLUE-L1-029 — O que é o dropshipping?
 - BLUE-L1-031 — O que é um mercado-alvo?
 
 ## Trilha da lição

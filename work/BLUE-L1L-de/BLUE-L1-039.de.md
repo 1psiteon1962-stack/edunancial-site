@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-040
 VERWANDTE LERNPFADE: BLACK (Führung & Unternehmensleitung) — Systeme und Delegation werden auf höheren Levels des BLACK-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-038 — Wachstum als Selbstständiger oder als Unternehmer
+- BLUE-L1-038 — Wachstum als Selbstständiger oder als Unternehmer: Warum sie an unterschiedliche Grenzen stoßen
 - BLUE-L1-040 — Was ist Personalplanung, und wann braucht ein Unternehmen wirklich die erste Einstellung?
 
 ## Lernpfad der Lektion

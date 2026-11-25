@@ -143,8 +143,8 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-029
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-027 — O que é um fornecedor?
-- BLUE-L1-029 — O que é dropshipping?
+- BLUE-L1-027 — O que é um fornecedor, e porque é que a fiabilidade importa mais do que o preço?
+- BLUE-L1-029 — O que é o dropshipping?
 
 ## Trilha da lição
 `BLUE-L1-028-LOCALIZATION` (bloco de trilha)

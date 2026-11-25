@@ -55,7 +55,7 @@ Recorde BLUE-L1-034: angariar um novo cliente custa dinheiro (CAC) com marketing
 [EXEMPLO ILUSTRATIVO] Um cliente que compra repetidamente ao longo de anos gera muito mais receita total do que alguém que compra uma única vez, sem que o negócio precise gastar CAC de novo a cada compra: o custo de aquisição inicial é "diluído" numa relação mais longa.
 
 ### Tema 4: O que impulsiona a retenção
-[ESTIMATIVA] Fatores comuns de retenção incluem a qualidade do produto, a experiência no processamento ao cliente, a consistência e a relação geral com a marca vista em BLUE-L1-033: retenção não é só uma função do marketing, está muito ligada à experiência real que o cliente tem.
+[ESTIMATIVA] Fatores comuns de retenção incluem a qualidade do produto, a experiência no apoio ao cliente, a consistência e a relação geral com a marca vista em BLUE-L1-033: retenção não é só uma função do marketing, está muito ligada à experiência real que o cliente tem.
 
 ---
 
@@ -82,7 +82,7 @@ R: Como a marca é construída por experiências positivas e consistentes ao lon
 - Retenção de clientes significa fazer os clientes atuais continuarem a comprar ao longo do tempo
 - Costuma ser mais barata do que angariar novos clientes, porque os atuais já confiam no negócio
 - Clientes retidos geram um valor que se acumula em relação ao CAC já gasto com eles
-- A retenção é impulsionada pela experiência real (qualidade do produto, processamento e consistência), e não só pelo marketing
+- A retenção é impulsionada pela experiência real (qualidade do produto, apoio ao cliente e consistência), e não só pelo marketing
 
 ## Exercício prático
 Explique, com referência a BLUE-L1-034, porque é que um cliente com CAC de 50 $ que fica por dois anos é um investimento melhor do que um cliente com CAC de 20 $ que compra uma vez e nunca mais volta.
@@ -111,7 +111,7 @@ Explique, com referência a BLUE-L1-034, porque é que um cliente com CAC de 50 
 3. (Escolha múltipla) Porque é que a retenção costuma ser mais barata do que a aquisição? A) Os clientes atuais já confiam no negócio B) Novos clientes são sempre mais rentáveis C) A retenção não exige esforço D) O CAC não se aplica à retenção
 4. (Resposta curta) Explique o valor acumulado de um cliente retido em relação ao CAC.
 5. (Cenário) Um cliente com CAC de 50 $ compra repetidamente por dois anos; um cliente com CAC de 20 $ compra uma vez. Qual é o melhor investimento de longo prazo, e por quê?
-6. (Escolha múltipla) Segundo a lição, o que impulsiona a retenção de clientes? A) Apenas o gasto com marketing B) Qualidade do produto, processamento e consistência C) A estrutura jurídica D) A localização do escritório
+6. (Escolha múltipla) Segundo a lição, o que impulsiona a retenção de clientes? A) Apenas o gasto com marketing B) Qualidade do produto, apoio ao cliente e consistência C) A estrutura jurídica D) A localização do escritório
 7. (Verdadeiro/Falso) Esta lição defende que angariar novos clientes não é importante.
 8. (Resposta curta) Como se liga a retenção ao conceito de marca de BLUE-L1-033?
 9. (Escolha múltipla) O "valor do tempo de vida do cliente" é uma prévia de quê? A) O valor de uma compra única B) A receita total esperada de um cliente durante toda a relação C) Apenas o CAC D) Um canal de marketing
@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-036
 TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a estratégia de retenção e o valor do tempo de vida do cliente são aprofundados muito mais nos níveis mais altos da trilha ORANGE.
 
 ## Leituras complementares
-- BLUE-L1-033 — O que é uma marca?
+- BLUE-L1-033 — O que é uma marca, e em que difere de um logótipo?
 - BLUE-L1-034 — O que é o custo de aquisição de clientes?
 - BLUE-L1-036 — O que é uma vantagem competitiva?
 

@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-036
 TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a estratégia de retenção e o valor do tempo de vida do cliente são aprofundados muito mais nos níveis mais altos da trilha ORANGE.
 
 ## Leituras complementares
-- BLUE-L1-033 — O que é uma marca?
+- BLUE-L1-033 — O que é uma marca, e como ela é diferente de um logotipo?
 - BLUE-L1-034 — O que é o custo de aquisição de clientes?
 - BLUE-L1-036 — O que é uma vantagem competitiva?
 

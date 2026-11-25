@@ -142,7 +142,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-035
 VERWANDTE LERNPFADE: ORANGE (Vertrieb & Marketing) — die Optimierung der CAC wird auf höheren Levels des ORANGE-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-032 — Was ist ein Marketingplan?
+- BLUE-L1-032 — Was ist ein Marketingplan, ganz grundlegend?
 - BLUE-L1-035 — Was ist Kundenbindung, und warum ist sie meist günstiger als Neukundengewinnung?
 
 ## Lernpfad der Lektion

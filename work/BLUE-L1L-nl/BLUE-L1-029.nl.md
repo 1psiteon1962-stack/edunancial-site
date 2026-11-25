@@ -143,8 +143,8 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-030
 VERWANTE LEERLIJNEN: Nog niets gepubliceerd.
 
 ## Verder lezen
-- BLUE-L1-026 — Wat is voorraad?
-- BLUE-L1-028 — Wat is een minimale bestelhoeveelheid (MOQ)?
+- BLUE-L1-026 — Wat is voorraad, en wat kost het om die aan te houden?
+- BLUE-L1-028 — Wat is een minimale bestelhoeveelheid (MOQ), en hoe kan die een goed idee blokkeren?
 - BLUE-L1-030 — Wat is een bedrijfsmodel? (Niet hetzelfde als een ondernemingsplan)
 
 ## Lesroute

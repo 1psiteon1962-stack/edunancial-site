@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-034
 PERCORSI CORRELATI: ORANGE (Vendite e marketing) — la strategia di brand è approfondita molto di più ai livelli superiori del percorso ORANGE.
 
 ## Letture di approfondimento
-- BLUE-L1-032 — Che cos'è un piano di marketing?
+- BLUE-L1-032 — Che cos'è un piano di marketing, nella sua forma più semplice?
 - BLUE-L1-034 — Che cos'è il costo di acquisizione del cliente?
 
 ## Percorso della lezione

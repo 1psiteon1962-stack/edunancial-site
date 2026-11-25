@@ -144,7 +144,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-042
 VERWANDTE LERNPFADE: PURPLE (Recht) — das Recht der Einstufung von Arbeitskräften wird auf höheren Levels des PURPLE-Lernpfads weiter behandelt; GREEN (Steuern) — die steuerlichen Folgen werden auf höheren Levels des GREEN-Lernpfads weiter behandelt.
 
 ## Weiterführende Lektüre
-- BLUE-L1-040 — Was ist Personalplanung, und wann braucht ein Unternehmen die erste Einstellung?
+- BLUE-L1-040 — Was ist Personalplanung, und wann braucht ein Unternehmen wirklich die erste Einstellung?
 - BLUE-L1-042 — Was ist Delegieren, und warum ist es schwieriger, als es klingt?
 
 ## Lernpfad der Lektion

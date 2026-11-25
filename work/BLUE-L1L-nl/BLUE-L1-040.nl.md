@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-041
 VERWANTE LEERLIJNEN: BLACK (Leiderschap & directie) — strategie voor werving en personeel komt op hogere levels van de BLACK-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-038 — Groeien als zelfstandige of als bedrijfseigenaar
+- BLUE-L1-038 — Groeien als zelfstandige of als bedrijfseigenaar: waarom ze tegen verschillende plafonds aanlopen
 - BLUE-L1-039 — Wat zijn systemen in een bedrijf?
 - BLUE-L1-041 — Wat is het verschil tussen een zelfstandige opdrachtnemer en een werknemer?
 

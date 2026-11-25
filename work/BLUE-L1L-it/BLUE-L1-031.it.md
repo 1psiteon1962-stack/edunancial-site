@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-032
 PERCORSI CORRELATI: ORANGE (Vendite e marketing) — la strategia sul mercato di riferimento è approfondita molto di più ai livelli superiori del percorso ORANGE.
 
 ## Letture di approfondimento
-- BLUE-L1-030 — Che cos'è un modello di business?
+- BLUE-L1-030 — Che cos'è un modello di business? (Non è la stessa cosa di un business plan)
 - BLUE-L1-032 — Che cos'è un piano di marketing, nella sua forma più semplice?
 
 ## Percorso della lezione

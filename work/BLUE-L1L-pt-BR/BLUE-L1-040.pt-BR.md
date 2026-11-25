@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-041
 TRILHAS RELACIONADAS: BLACK (Liderança e Gestão Executiva) — a estratégia de contratação e de pessoal é aprofundada muito mais nos níveis mais altos da trilha BLACK.
 
 ## Leituras complementares
-- BLUE-L1-038 — Crescimento como autônomo x como dono de negócio
+- BLUE-L1-038 — Crescimento como autônomo x crescimento como dono de negócio: por que eles batem em tetos diferentes
 - BLUE-L1-039 — O que são sistemas em um negócio?
 - BLUE-L1-041 — Qual é a diferença entre um prestador de serviços independente e um funcionário?
 

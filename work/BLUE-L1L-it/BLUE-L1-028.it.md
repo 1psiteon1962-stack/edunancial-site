@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-029
 PERCORSI CORRELATI: Nessuno ancora pubblicato.
 
 ## Letture di approfondimento
-- BLUE-L1-027 — Che cos'è un fornitore?
+- BLUE-L1-027 — Che cos'è un fornitore, e perché l'affidabilità conta più del prezzo?
 - BLUE-L1-029 — Che cos'è il dropshipping?
 
 ## Percorso della lezione

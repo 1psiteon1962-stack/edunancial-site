@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-034
 TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a estratégia de marca é aprofundada muito mais nos níveis mais altos da trilha ORANGE.
 
 ## Leituras complementares
-- BLUE-L1-032 — O que é um plano de marketing?
+- BLUE-L1-032 — O que é um plano de marketing, no seu nível mais básico?
 - BLUE-L1-034 — O que é o custo de aquisição de clientes?
 
 ## Trilha da lição

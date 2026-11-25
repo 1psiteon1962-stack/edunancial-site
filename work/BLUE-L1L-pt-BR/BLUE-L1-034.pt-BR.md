@@ -142,7 +142,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-035
 TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a otimização do CAC é aprofundada muito mais nos níveis mais altos da trilha ORANGE.
 
 ## Leituras complementares
-- BLUE-L1-032 — O que é um plano de marketing?
+- BLUE-L1-032 — O que é um plano de marketing, no seu nível mais básico?
 - BLUE-L1-035 — O que é retenção de clientes, e por que ela costuma ser mais barata do que novas vendas?
 
 ## Trilha da lição

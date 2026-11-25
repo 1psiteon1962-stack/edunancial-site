@@ -144,7 +144,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-042
 VERWANTE LEERLIJNEN: PURPLE (Recht) — het recht rond de kwalificatie van werkenden komt op hogere levels van de PURPLE-leerlijn verder aan bod; GREEN (Belastingen) — de fiscale gevolgen komen op hogere levels van de GREEN-leerlijn verder aan bod.
 
 ## Verder lezen
-- BLUE-L1-040 — Wat is personeelsplanning, en wanneer heeft een bedrijf zijn eerste medewerker nodig?
+- BLUE-L1-040 — Wat is personeelsplanning, en wanneer heeft een bedrijf echt zijn eerste medewerker nodig?
 - BLUE-L1-042 — Wat is delegeren, en waarom is het moeilijker dan het klinkt?
 
 ## Lesroute

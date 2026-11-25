@@ -144,7 +144,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-042
 PERCORSI CORRELATI: PURPLE (Diritto) — il diritto sull'inquadramento dei lavoratori è approfondito ai livelli superiori del percorso PURPLE; GREEN (Fisco) — le implicazioni fiscali sono approfondite ai livelli superiori del percorso GREEN.
 
 ## Letture di approfondimento
-- BLUE-L1-040 — Che cos'è la gestione del personale, e quando un'impresa ha bisogno della prima assunzione?
+- BLUE-L1-040 — Che cos'è la gestione del personale, e quando un'impresa ha davvero bisogno della prima assunzione?
 - BLUE-L1-042 — Che cos'è la delega, e perché è più difficile di quanto sembri?
 
 ## Percorso della lezione

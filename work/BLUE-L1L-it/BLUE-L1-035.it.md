@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-036
 PERCORSI CORRELATI: ORANGE (Vendite e marketing) — la strategia di fidelizzazione e il valore del cliente nel tempo sono approfonditi molto di più ai livelli superiori del percorso ORANGE.
 
 ## Letture di approfondimento
-- BLUE-L1-033 — Che cos'è un brand?
+- BLUE-L1-033 — Che cos'è un brand, e in che cosa è diverso da un logo?
 - BLUE-L1-034 — Che cos'è il costo di acquisizione del cliente?
 - BLUE-L1-036 — Che cos'è un vantaggio competitivo?
 

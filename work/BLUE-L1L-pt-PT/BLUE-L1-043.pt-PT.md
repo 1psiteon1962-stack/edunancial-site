@@ -143,7 +143,7 @@ TRILHAS RELACIONADAS: BLACK (Liderança e Gestão Executiva) — a gestão opera
 
 ## Leituras complementares
 - BLUE-L1-039 — O que são sistemas num negócio?
-- BLUE-L1-044 — O que é processamento ao cliente, na prática?
+- BLUE-L1-044 — O que é o apoio ao cliente, na prática?
 
 ## Trilha da lição
 `BLUE-L1-043-LOCALIZATION` (bloco de trilha)

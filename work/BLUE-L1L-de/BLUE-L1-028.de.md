@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-029
 VERWANDTE LERNPFADE: Noch keine veröffentlicht.
 
 ## Weiterführende Lektüre
-- BLUE-L1-027 — Was ist ein Lieferant?
+- BLUE-L1-027 — Was ist ein Lieferant, und warum ist Zuverlässigkeit wichtiger als der Preis?
 - BLUE-L1-029 — Was ist Dropshipping?
 
 ## Lernpfad der Lektion

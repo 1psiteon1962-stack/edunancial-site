@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-034
 VERWANDTE LERNPFADE: ORANGE (Vertrieb & Marketing) — Markenstrategie wird auf höheren Levels des ORANGE-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-032 — Was ist ein Marketingplan?
+- BLUE-L1-032 — Was ist ein Marketingplan, ganz grundlegend?
 - BLUE-L1-034 — Was sind Kundenakquisitionskosten?
 
 ## Lernpfad der Lektion

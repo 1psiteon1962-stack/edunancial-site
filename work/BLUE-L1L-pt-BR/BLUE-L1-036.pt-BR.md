@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO LIBERADA: BLUE-L1-037
 TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — o posicionamento competitivo é aprofundado muito mais nos níveis mais altos da trilha ORANGE.
 
 ## Leituras complementares
-- BLUE-L1-035 — O que é retenção de clientes?
+- BLUE-L1-035 — O que é retenção de clientes, e por que ela costuma ser mais barata do que novas vendas?
 - BLUE-L1-037 — O que é pesquisa de mercado, e como fazê-la sem um grande orçamento?
 
 ## Trilha da lição

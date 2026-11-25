@@ -143,8 +143,8 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-030
 PERCORSI CORRELATI: Nessuno ancora pubblicato.
 
 ## Letture di approfondimento
-- BLUE-L1-026 — Che cos'è il magazzino?
-- BLUE-L1-028 — Che cos'è il quantitativo minimo d'ordine (MOQ)?
+- BLUE-L1-026 — Che cos'è il magazzino, e quanto costa tenerlo?
+- BLUE-L1-028 — Che cos'è il quantitativo minimo d'ordine (MOQ), e come può bloccare una buona idea?
 - BLUE-L1-030 — Che cos'è un modello di business? (Non è la stessa cosa di un business plan)
 
 ## Percorso della lezione

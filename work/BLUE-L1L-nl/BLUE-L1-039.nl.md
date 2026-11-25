@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-040
 VERWANTE LEERLIJNEN: BLACK (Leiderschap & directie) — systemen en delegeren komen op hogere levels van de BLACK-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-038 — Groeien als zelfstandige of als bedrijfseigenaar
+- BLUE-L1-038 — Groeien als zelfstandige of als bedrijfseigenaar: waarom ze tegen verschillende plafonds aanlopen
 - BLUE-L1-040 — Wat is personeelsplanning, en wanneer heeft een bedrijf echt zijn eerste medewerker nodig?
 
 ## Lesroute

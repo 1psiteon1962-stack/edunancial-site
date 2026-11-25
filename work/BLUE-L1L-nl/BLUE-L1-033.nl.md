@@ -143,7 +143,7 @@ VOLGENDE VRIJGESPEELDE LES: BLUE-L1-034
 VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — merkstrategie komt op hogere levels van de ORANGE-leerlijn veel uitgebreider aan bod.
 
 ## Verder lezen
-- BLUE-L1-032 — Wat is een marketingplan?
+- BLUE-L1-032 — Wat is een marketingplan, in de meest eenvoudige vorm?
 - BLUE-L1-034 — Wat zijn klantacquisitiekosten?
 
 ## Lesroute

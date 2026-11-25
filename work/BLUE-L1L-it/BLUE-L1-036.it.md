@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-037
 PERCORSI CORRELATI: ORANGE (Vendite e marketing) — il posizionamento competitivo è approfondito molto di più ai livelli superiori del percorso ORANGE.
 
 ## Letture di approfondimento
-- BLUE-L1-035 — Che cos'è la fidelizzazione dei clienti?
+- BLUE-L1-035 — Che cos'è la fidelizzazione dei clienti, e perché di solito costa meno delle nuove vendite?
 - BLUE-L1-037 — Che cos'è una ricerca di mercato, e come si fa senza un grande budget?
 
 ## Percorso della lezione

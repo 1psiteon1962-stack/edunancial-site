@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-032
 VERWANDTE LERNPFADE: ORANGE (Vertrieb & Marketing) — Zielmarktstrategien werden auf höheren Levels des ORANGE-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-030 — Was ist ein Geschäftsmodell?
+- BLUE-L1-030 — Was ist ein Geschäftsmodell? (Nicht dasselbe wie ein Geschäftsplan)
 - BLUE-L1-032 — Was ist ein Marketingplan, ganz grundlegend?
 
 ## Lernpfad der Lektion

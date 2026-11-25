@@ -143,7 +143,7 @@ NÄCHSTE FREIGESCHALTETE LEKTION: BLUE-L1-036
 VERWANDTE LERNPFADE: ORANGE (Vertrieb & Marketing) — Strategien zur Kundenbindung und der Kundenlebenszeitwert werden auf höheren Levels des ORANGE-Lernpfads deutlich vertieft.
 
 ## Weiterführende Lektüre
-- BLUE-L1-033 — Was ist eine Marke?
+- BLUE-L1-033 — Was ist eine Marke, und worin unterscheidet sie sich von einem Logo?
 - BLUE-L1-034 — Was sind Kundenakquisitionskosten?
 - BLUE-L1-036 — Was ist ein Wettbewerbsvorteil?
 

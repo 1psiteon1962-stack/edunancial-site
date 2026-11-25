@@ -143,8 +143,8 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-030
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-026 — O que é inventário?
-- BLUE-L1-028 — O que é a quantidade mínima de encomenda (MOQ)?
+- BLUE-L1-026 — O que é o inventário (stock), e quanto custa mantê-lo?
+- BLUE-L1-028 — O que é uma quantidade mínima de encomenda (MOQ), e como pode travar uma boa ideia?
 - BLUE-L1-030 — O que é um modelo de negócio? (Não é o mesmo que um plano de negócios)
 
 ## Trilha da lição

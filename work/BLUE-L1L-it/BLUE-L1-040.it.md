@@ -143,7 +143,7 @@ PROSSIMA LEZIONE SBLOCCATA: BLUE-L1-041
 PERCORSI CORRELATI: BLACK (Leadership e direzione aziendale) — le strategie di assunzione e di gestione del personale sono approfondite molto di più ai livelli superiori del percorso BLACK.
 
 ## Letture di approfondimento
-- BLUE-L1-038 — Crescita da lavoratore autonomo o da imprenditore
+- BLUE-L1-038 — Crescita da lavoratore autonomo o da imprenditore: perché incontrano limiti diversi
 - BLUE-L1-039 — Che cosa sono i sistemi in un'impresa?
 - BLUE-L1-041 — Che differenza c'è tra un collaboratore indipendente e un dipendente?
 

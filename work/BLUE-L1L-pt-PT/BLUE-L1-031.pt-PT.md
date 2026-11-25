@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-032
 TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a estratégia de mercado-alvo é aprofundada muito mais nos níveis mais altos da trilha ORANGE.
 
 ## Leituras complementares
-- BLUE-L1-030 — O que é um modelo de negócio?
+- BLUE-L1-030 — O que é um modelo de negócio? (Não é o mesmo que um plano de negócios)
 - BLUE-L1-032 — O que é um plano de marketing, no seu nível mais básico?
 
 ## Trilha da lição
