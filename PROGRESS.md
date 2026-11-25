@@ -107,3 +107,4 @@ Status:
 - ORANGE L1 pt-BR COMPLETE, pt-PT COMPLETE (derived; tools/orange_pt.py). Remaining: it, nl. Then place all 6 via place1-style into site, one PR.
 - ORANGE L1 it COMPLETE. Remaining: nl. Then place all 6 locales.
 - 2026-11-25 ORANGE L1 nl COMPLETE. All 6 locales placed in site PR 1660 (local checks pass, 283/283). Awaiting merge + smoke.
+- 2026-11-25 ORANGE L1 PR 1660 MERGED (103652c0), smoke test PASS. Final L1 check: 8 colors x 12 locales = 50 each. Note: BLUE L1 021-050 en-GB 'Translation status ... pending' line and es-ES 'español (Caribe)' label are pre-existing; ask owner. Open question to owner: en-GB backfill for earlier colors (US 'colors' spelling).
