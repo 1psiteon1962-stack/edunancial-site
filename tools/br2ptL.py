@@ -17,7 +17,7 @@ R=[('locale: pt-BR','locale: pt-PT'),('Conscientização/Alfabetização','Sensi
 ('equipe','equipa'),('ruim','mau'),('Cite ','Indique '),('Aprenda ','Saiba '),('planejamento','planeamento'),('planejar','planear'),
 ('contato','contacto'),('seção','secção'),('ótima','excelente'),('ótimo','excelente'),('econômic','económic'),('usuário','utilizador'),
 ('arquivo','ficheiro'),('celular','telemóvel'),('tela ','ecrã '),('O que você','O que'),('fato ','facto '),
-('demanda','procura'),('atendimento ao cliente','apoio ao cliente'),('giro','rotação'),('leva em conta','tem em conta'),('dificuldade para ','dificuldade em '),('por via das dúvidas','pelo sim, pelo não'),('acabe sendo','acabe por ser'),('O que é fluxo de caixa num negócio?','O que é o fluxo de caixa num negócio?'),('a confiabilidade','a fiabilidade'),('confiabilidade','fiabilidade'),('confiável','fiável'),('Nenhuma estatística ou citação externa usada','Nenhuma estatística ou citação externa utilizada'),
+('demanda','procura'),('ideia ruim','má ideia'),('era ruim','era má'),('atendimento ao cliente','apoio ao cliente'),('giro','rotação'),('leva em conta','tem em conta'),('dificuldade para ','dificuldade em '),('por via das dúvidas','pelo sim, pelo não'),('acabe sendo','acabe por ser'),('O que é fluxo de caixa num negócio?','O que é o fluxo de caixa num negócio?'),('a confiabilidade','a fiabilidade'),('confiabilidade','fiabilidade'),('confiável','fiável'),('Nenhuma estatística ou citação externa usada','Nenhuma estatística ou citação externa utilizada'),
 ]
 for a,b in R: s=s.replace(a,b)
 s=re.sub(r'US\$ (\d+)\.(\d{3})\.(\d{3})',r'\1 \2 \3 $',s)
