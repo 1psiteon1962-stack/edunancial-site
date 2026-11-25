@@ -1,0 +1,222 @@
+===== RED-L1-048
+TITLE: Che cos'è una short sale (vendita sotto il debito), e in che cosa differisce dal pignoramento?
+SUMMARY: Scopri che cos'è una short sale, in che cosa differisce dal pignoramento immobiliare e perché un creditore potrebbe persino preferirla.
+# Che cos'è una short sale (vendita sotto il debito), e in che cosa differisce dal pignoramento?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- definire una short sale in termini semplici.
+- spiegare in che cosa differisce dal pignoramento.
+- spiegare perché un creditore potrebbe preferire una short sale.
+
+## Contenuto principale
+
+### Che cos'è una short sale
+
+Una short sale si ha quando un proprietario in difficoltà vende il proprio immobile per meno di quanto deve sul mutuo, con l'approvazione del creditore, invece di arrivare al pignoramento. (Il meccanismo è tipicamente statunitense; in Italia esistono soluzioni come la vendita concordata con la banca o accordi a saldo e stralcio, con regole proprie. Chiedi consiglio a un professionista.)
+
+### In che cosa differisce dal pignoramento
+
+In una short sale il proprietario (con l'approvazione del creditore) vende attivamente l'immobile, mantenendo in genere più controllo sulla procedura e sui tempi. Nel pignoramento è il creditore a prendere e vendere l'immobile tramite una procedura legale che il proprietario non controlla.
+
+### Perché un creditore potrebbe preferirla
+
+Il pignoramento è spesso costoso e lungo anche per i creditori, e un immobile pignorato può vendersi all'asta a meno che con una normale vendita. Una short sale a volte permette al creditore di recuperare di più, con meno costi e tempi rispetto al pignoramento.
+
+## Esempio svolto
+
+Un proprietario in difficoltà economiche deve 280.000 $ su una casa che ora vale solo 250.000 $. Con l'approvazione del creditore, la vende a 250.000 $ con una short sale invece di lasciare che la situazione arrivi al pignoramento.
+
+## Quiz di esercitazione
+
+1. Una short sale si ha quando:
+   A. Un immobile si vende a più del debito residuo
+   B. Un proprietario vende per meno di quanto deve, con l'approvazione del creditore
+   C. Un creditore prende l'immobile con la forza, senza coinvolgere il proprietario
+   D. Un immobile si vende entro 24 ore dalla messa in vendita
+
+2. Vero o falso: in una short sale il proprietario mantiene in genere più controllo sulla procedura che nel pignoramento.
+
+3. Perché un creditore potrebbe preferire una short sale al pignoramento?
+   A. I creditori non preferiscono mai le short sale
+   B. Il pignoramento può essere più costoso e lungo, e permettere di recuperare meno
+   C. Le short sale sono sempre più rapide di qualsiasi altra opzione
+   D. Le short sale estinguono del tutto il prestito senza coinvolgere il creditore
+
+## Soluzioni
+
+1. B
+2. Vero
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. Una short sale è una vendita avviata dal proprietario per meno di quanto deve, con l'approvazione del creditore.
+
+### Domanda 2
+
+Risposta corretta: Vero. Il proprietario ha in genere più controllo che in un pignoramento guidato dal creditore.
+
+### Domanda 3
+
+Risposta corretta: B. Costi e tempi del pignoramento possono rendere la short sale l'opzione più interessante per un creditore.
+
+## Punti chiave
+
+- Una short sale è una vendita avviata dal proprietario per meno di quanto deve, con l'approvazione del creditore.
+- In genere lascia al proprietario più controllo rispetto al pignoramento.
+- I creditori possono preferirla, perché il pignoramento può essere più costoso e più lento.
+
+===== RED-L1-049
+TITLE: Comprare il primo immobile: in che ordine si svolgono davvero i passaggi?
+SUMMARY: Scopri l'ordine generale dei passaggi di un acquisto immobiliare tipico, collegando concetti visti in precedenza in questo livello.
+# Comprare il primo immobile: in che ordine si svolgono davvero i passaggi?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- elencare l'ordine generale dei passaggi di un acquisto immobiliare tipico.
+- spiegare perché questo ordine ha in genere senso.
+- collegare ogni passaggio a un concetto visto in precedenza in questo livello.
+
+## Contenuto principale
+
+### L'ordine generale
+
+*(REGOLA SPECIFICA PER REGIONE: l'ordine preciso e i requisiti variano in base al luogo e al tipo di compravendita. In Italia di solito si passa da una proposta d'acquisto, poi dal contratto preliminare (compromesso) e infine dal rogito davanti al notaio.)* Un acquisto tipico passa in genere da: ottenere una pre-approvazione del finanziamento, cercare un immobile e fare un'offerta, ottenere il mutuo (compresa la perizia), completare le ispezioni, verificare che il titolo sia pulito e infine il rogito (compreso il pagamento dei costi di chiusura).
+
+### Perché questo ordine ha in genere senso
+
+La pre-approvazione viene per prima perché dice all'acquirente che cosa può davvero permettersi prima di innamorarsi di un immobile. Le ispezioni avvengono in genere prima di perfezionare l'acquisto, così che i problemi possano essere risolti o negoziati. Il titolo deve essere pulito prima del rogito, perché un titolo incerto (visto in precedenza) potrebbe far saltare l'intera compravendita.
+
+### Il collegamento con le lezioni precedenti
+
+Ogni passaggio di questo ordine si collega a un concetto visto in precedenza in questo livello: l'anticipo e il tipo di mutuo (Lezioni 4-8), la perizia e le vendite comparabili (Lezioni 12-13), l'ispezione (Lezione 14), il titolo e l'assicurazione sul titolo (Lezioni 15-16), l'escrow (Lezione 17) e i costi di chiusura (Lezione 18).
+
+## Esempio svolto
+
+Chi compra casa per la prima volta ottiene una pre-approvazione per un mutuo da 280.000 $ prima di iniziare a cercare, poi fa un'offerta su una casa da 270.000 $, richiede un'ispezione, risolve alcuni problemi emersi e arriva al rogito quando il titolo risulta pulito e il finanziamento è definito.
+
+## Quiz di esercitazione
+
+1. Perché la pre-approvazione del finanziamento arriva di solito all'inizio della procedura?
+   A. Non importa quando avviene
+   B. Dice all'acquirente che cosa può davvero permettersi prima di cercare
+   C. La legge richiede che avvenga per ultima
+   D. Sostituisce la necessità di una perizia
+
+2. Vero o falso: le ispezioni avvengono di solito dopo il rogito, quando l'acquirente è già proprietario dell'immobile.
+
+3. Perché il titolo deve essere pulito prima del rogito?
+   A. Non serve che sia pulito
+   B. Un titolo incerto crea un vero rischio legale per il nuovo proprietario
+   C. Il titolo conta solo per gli immobili commerciali
+   D. Un titolo pulito conta solo per gli acquisti in contanti
+
+## Soluzioni
+
+1. B
+2. Falso
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. La pre-approvazione stabilisce un budget realistico prima di cercare.
+
+### Domanda 2
+
+Risposta corretta: Falso. Le ispezioni avvengono di solito prima del rogito, non dopo.
+
+### Domanda 3
+
+Risposta corretta: B. Un titolo incerto crea un vero rischio legale, come visto in precedenza in questo livello.
+
+## Punti chiave
+
+- Un acquisto tipico passa da pre-approvazione, ricerca e offerta, finanziamento e perizia, ispezione, verifica del titolo e rogito.
+- Questo ordine esiste per ragioni pratiche a ogni passaggio.
+- Ogni passaggio si collega a un concetto specifico visto in precedenza in questo livello.
+
+===== RED-L1-050
+TITLE: Progetto finale: un acquisto immobiliare reale, dall'inizio alla fine
+SUMMARY: Applica tutto quanto visto in RED Livello 1 ripercorrendo, dall'inizio alla fine, uno scenario completo e realistico di acquisto immobiliare.
+# Progetto finale: un acquisto immobiliare reale, dall'inizio alla fine
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- applicare i concetti principali di RED Livello 1 a un unico scenario collegato.
+- individuare quale concetto di questo livello si applica a ogni fase di un acquisto.
+- spiegare come i pezzi di un acquisto immobiliare si incastrano in un insieme, e non solo come termini isolati.
+
+## Contenuto principale
+
+### Lo scenario
+
+Maria vuole comprare la sua prima casa. Ha risparmiato per l'anticipo e vuole capire che cosa sta davvero comprando: non memorizzare termini, ma vedere come tutto ciò che ha visto in questo livello si collega in una situazione reale.
+
+### Ripercorrerlo passo per passo
+
+Maria parte dal capire che comprare casa significa comprare terreno, edificio e diritti legali (Lezione 1), non solo un edificio. Valuta affitto o proprietà (Lezione 2) e decide che la proprietà si adatta ai suoi piani. Ottiene una pre-approvazione per il mutuo (Lezioni 4-8), capendo che la rata si divide tra capitale e interessi (Lezione 5) e che l'importo dell'anticipo incide sul mutuo e sulla necessità del PMI (Lezioni 6, 8).
+
+Trova una casa, e il creditore richiede una perizia basata su vendite comparabili (Lezioni 12-13) per confermarne il valore. Fa fare un'ispezione (Lezione 14) e negozia un piccolo sconto per le riparazioni dopo che emerge uno scaldabagno vecchio. La società del titolo conferma che il titolo è pulito (Lezione 15) ed emette l'assicurazione sul titolo (Lezione 16). La sua caparra resta in escrow (Lezione 17) fino al rogito, dove paga i costi di chiusura (Lezione 18) oltre all'anticipo.
+
+Negli anni successivi il patrimonio netto di Maria nella casa (Lezione 3) cresce in due modi: rimborsa il mutuo e la casa si rivaluta (Lezione 25), anche se lei sa che quella rivalutazione non è mai stata garantita.
+
+### Perché è importante
+
+Nessuno di questi concetti funziona in modo isolato in un acquisto reale: si collegano in un unico processo. Capire ogni pezzo singolarmente, e come si incastrano tra loro, è ciò che separa un'educazione finanziaria davvero utile da un vocabolario imparato a memoria.
+
+## Esempio svolto
+
+Se la casa di Maria costava 300.000 $ con un anticipo di 30.000 $ (10%), ha finanziato 270.000 $, ha probabilmente dovuto pagare il PMI (perché l'anticipo era inferiore al 20%) e la sua rata si è divisa tra capitale e interessi fin dal primo giorno: tutti concetti visti singolarmente in precedenza in questo livello, che ora funzionano insieme in un'unica compravendita reale.
+
+## Quiz di esercitazione
+
+1. Che cosa comprende davvero l'acquisto di una casa, secondo la Lezione 1?
+   A. Solo l'edificio
+   B. Terreno, edificio e diritti legali
+   C. Solo il diritto legale di rivendere in futuro
+   D. Solo il terreno
+
+2. Vero o falso: poiché l'anticipo di Maria era inferiore al 20%, probabilmente ha dovuto pagare il PMI.
+
+3. Quali due fattori hanno fatto crescere nel tempo il patrimonio netto di Maria nella casa?
+   A. I canoni d'affitto e l'imposta immobiliare
+   B. Il rimborso del mutuo e la rivalutazione dell'immobile
+   C. L'ispezione della casa e l'assicurazione sul titolo
+   D. I costi di chiusura e il conto escrow
+
+## Soluzioni
+
+1. B
+2. Vero
+3. B
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. L'acquisto di un immobile comprende terreno, edificio e diritti legali, come visto nella Lezione 1.
+
+### Domanda 2
+
+Risposta corretta: Vero. Un anticipo inferiore a circa il 20% comporta comunemente l'obbligo del PMI, come visto nella Lezione 8.
+
+### Domanda 3
+
+Risposta corretta: B. Il patrimonio netto cresce con il rimborso del mutuo e con la rivalutazione: due fonti distinte, come visto nella Lezione 3.
+
+## Punti chiave
+
+- Un acquisto immobiliare reale collega quasi tutti i concetti di questo livello in un unico processo, non in fatti isolati.
+- Capire come i pezzi si incastrano è il vero obiettivo di questo livello, non solo memorizzare i singoli termini.
+- Questo progetto finale segna il completamento di RED Livello 1: il Livello 2 si basa su queste fondamenta con concetti più avanzati di finanziamento e investimento.

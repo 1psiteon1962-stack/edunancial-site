@@ -1,0 +1,368 @@
+===== RED-L1-046
+TITLE: Que signifie avoir un prêt immobilier « sous l'eau » ?
+SUMMARY: Découvrez ce que signifie devoir plus que la valeur de son bien, comment cela peut arriver et pourquoi c'est un vrai risque à comprendre.
+# Que signifie avoir un prêt immobilier « sous l'eau » ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir l'expression « sous l'eau » dans le contexte d'un prêt immobilier.
+- expliquer comment un bien peut se retrouver « sous l'eau ».
+- expliquer pourquoi cela pose un vrai problème si le propriétaire doit vendre.
+
+## Contenu principal
+
+### Ce que signifie « sous l'eau »
+
+Être « sous l'eau » (en anglais « underwater ») sur un prêt immobilier signifie que le capital restant dû est supérieur à la valeur de marché actuelle du bien : autrement dit, une valeur nette négative, une notion présentée plus tôt dans ce parcours.
+
+### Comment cela peut arriver
+
+Cela se produit généralement lorsque la valeur des biens baisse après l'achat, surtout pour les propriétaires ayant fait un petit apport (donc avec un coussin de départ plus faible) ou lors d'un retournement plus large du marché.
+
+### Pourquoi c'est un vrai problème en cas de vente
+
+Un propriétaire « sous l'eau » qui doit vendre devrait plus que ce que la vente rapporterait : il lui faudrait donc apporter de l'argent à la signature rien que pour couvrir la différence. C'est une situation réelle et stressante, qui limite ses options jusqu'à ce que les valeurs remontent ou que le capital restant dû diminue davantage.
+
+## Exemple pratique
+
+Un propriétaire a acheté un logement 300 000 $ avec un petit apport. Le marché local recule, et le logement ne vaut plus que 270 000 $, alors qu'il doit encore 285 000 $ : il est « sous l'eau » de 15 000 $.
+
+## Quiz pratique
+
+1. Être « sous l'eau » sur un prêt immobilier signifie :
+   A. Que le logement se trouve près de l'eau
+   B. Que le capital restant dû dépasse la valeur actuelle du bien
+   C. Que le propriétaire a entièrement remboursé son prêt
+   D. Que le bien a subi des dégâts des eaux
+
+2. Vrai ou faux : être « sous l'eau » est une autre façon de décrire une valeur nette négative.
+
+3. Pourquoi être « sous l'eau » pose-t-il problème si le propriétaire doit vendre ?
+   A. Cela ne pose aucun problème
+   B. Le propriétaire devrait plus que ce que rapporte la vente, et devrait apporter de l'argent pour combler l'écart
+   C. Cela garantit une vente plus rapide
+   D. Cela annule automatiquement le prêt
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Être « sous l'eau » signifie devoir plus que la valeur actuelle du bien.
+
+### Question 2
+
+Bonne réponse : Vrai. « Sous l'eau » et valeur nette négative décrivent la même situation.
+
+### Question 3
+
+Bonne réponse : B. Vendre en étant « sous l'eau » oblige à couvrir l'écart en argent.
+
+## Points clés
+
+- Être « sous l'eau » signifie que le capital restant dû dépasse la valeur du bien.
+- C'est la même situation qu'une valeur nette négative.
+- Cela crée un vrai problème financier si le propriétaire doit vendre.
+
+===== RED-L1-047
+TITLE: Qu'est-ce que la saisie immobilière, étape par étape ?
+SUMMARY: Découvrez les grandes étapes d'une procédure de saisie immobilière, et pourquoi il s'agit d'une longue procédure juridique et non d'un événement instantané.
+# Qu'est-ce que la saisie immobilière, étape par étape ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir la saisie immobilière en termes simples.
+- décrire les grandes étapes de la procédure.
+- expliquer pourquoi la saisie immobilière est une procédure, et non un événement instantané.
+
+## Contenu principal
+
+### Ce qu'est la saisie immobilière
+
+La saisie immobilière (en anglais « foreclosure »), présentée plus tôt dans ce parcours, est la procédure juridique qu'utilise un prêteur pour récupérer un capital impayé en saisissant puis, à terme, en vendant le bien donné en garantie.
+
+### Les grandes étapes
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : les étapes exactes, les délais et la terminologie varient beaucoup selon l'État ou le pays. En France, la saisie immobilière passe en principe par un commandement de payer délivré par un commissaire de justice, puis par le juge de l'exécution, avec possibilité de vente amiable autorisée avant une éventuelle vente aux enchères ; consultez un avocat.)* La saisie suit généralement plusieurs étapes : des mensualités impayées menant à une défaillance, une mise en demeure formelle du prêteur, une procédure judiciaire, puis, si la dette n'est toujours pas réglée, la vente du bien (aux enchères ou autrement).
+
+### Pourquoi c'est une procédure, et non un événement instantané
+
+Comme la saisie est une procédure juridique formelle, elle prend généralement des mois (parfois davantage) entre la première mensualité impayée et la vente effective du bien : l'emprunteur en difficulté dispose ainsi d'un temps réel, quoique limité, et souvent de plusieurs occasions de régler la situation avant de perdre son bien.
+
+## Exemple pratique
+
+Un emprunteur ne paie pas plusieurs mensualités. Après des mises en demeure formelles et une procédure judiciaire, et lorsque la situation reste sans solution pendant une période prolongée, le prêteur avance vers la vente du bien saisi : une procédure qui se déroule sur plusieurs mois, et non juste après la première mensualité impayée.
+
+## Quiz pratique
+
+1. La saisie immobilière est :
+   A. Un événement instantané déclenché par une seule mensualité impayée
+   B. Une procédure juridique formelle permettant à un prêteur de récupérer un prêt impayé au moyen du bien donné en garantie
+   C. Un type de déclaration de sinistre à l'assurance habitation
+   D. Un accord volontaire sans procédure juridique
+
+2. Vrai ou faux : la saisie immobilière intervient généralement immédiatement après une seule mensualité impayée.
+
+3. Pourquoi la procédure de saisie prend-elle généralement des mois ?
+   A. Ce n'est pas le cas : elle est immédiate
+   B. Parce que c'est une procédure juridique formelle, avec des étapes et des notifications obligatoires
+   C. Parce que les prêteurs préfèrent attendre sans raison
+   D. Parce qu'il est illégal partout de saisir rapidement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. La saisie immobilière est une procédure juridique formelle, et non un événement instantané.
+
+### Question 2
+
+Bonne réponse : Faux. Elle prend généralement des mois et comporte plusieurs étapes.
+
+### Question 3
+
+Bonne réponse : B. Les étapes et notifications juridiques obligatoires prennent un temps réel.
+
+## Points clés
+
+- La saisie immobilière est une procédure juridique formelle, et non un événement instantané.
+- Elle passe généralement par la défaillance, la mise en demeure, la procédure judiciaire et la vente.
+- La procédure prend généralement des mois, ce qui laisse à l'emprunteur un temps réel, quoique limité, pour régler la situation.
+
+===== RED-L1-048
+TITLE: Qu'est-ce qu'une vente à perte négociée (short sale), et en quoi diffère-t-elle d'une saisie ?
+SUMMARY: Découvrez ce qu'est une « short sale », en quoi elle diffère d'une saisie immobilière et pourquoi un prêteur peut même la préférer.
+# Qu'est-ce qu'une vente à perte négociée (short sale), et en quoi diffère-t-elle d'une saisie ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir une « short sale » en termes simples.
+- expliquer en quoi elle diffère d'une saisie immobilière.
+- expliquer pourquoi un prêteur peut préférer une « short sale ».
+
+## Contenu principal
+
+### Ce qu'est une « short sale »
+
+Une « short sale » a lieu lorsqu'un propriétaire en difficulté vend son bien pour un montant inférieur à ce qu'il doit sur son prêt, avec l'accord du prêteur, au lieu de passer par une saisie. (Ce mécanisme est typiquement américain ; en France, une vente amiable peut être négociée avec les créanciers ou autorisée dans le cadre de la saisie, selon des règles propres. Renseignez-vous auprès d'un professionnel.)
+
+### En quoi elle diffère d'une saisie
+
+Dans une « short sale », le propriétaire (avec l'accord du prêteur) vend lui-même le bien et garde généralement davantage de contrôle sur le déroulement et le calendrier. Dans une saisie, c'est le prêteur qui prend et vend le bien au moyen d'une procédure juridique que le propriétaire ne contrôle pas.
+
+### Pourquoi un prêteur peut la préférer
+
+La saisie est souvent coûteuse et longue pour les prêteurs aussi, et un bien saisi peut se vendre moins cher aux enchères que dans le cadre d'une vente normale. Une « short sale » permet parfois au prêteur de récupérer davantage, avec moins de frais et de délais qu'une saisie.
+
+## Exemple pratique
+
+Un propriétaire en difficulté financière doit 280 000 $ sur un logement qui ne vaut plus que 250 000 $. Avec l'accord du prêteur, il le vend 250 000 $ dans le cadre d'une « short sale », au lieu de laisser la situation aboutir à une saisie.
+
+## Quiz pratique
+
+1. Une « short sale » a lieu lorsque :
+   A. Un bien se vend plus cher que le capital restant dû
+   B. Un propriétaire vend pour moins que ce qu'il doit, avec l'accord du prêteur
+   C. Un prêteur prend le bien de force, sans participation du propriétaire
+   D. Un bien se vend dans les 24 heures suivant sa mise en vente
+
+2. Vrai ou faux : dans une « short sale », le propriétaire garde généralement davantage de contrôle sur le déroulement que dans une saisie.
+
+3. Pourquoi un prêteur pourrait-il préférer une « short sale » à une saisie ?
+   A. Les prêteurs ne préfèrent jamais les « short sales »
+   B. La saisie peut être plus coûteuse et plus longue, et permettre de récupérer moins
+   C. Les « short sales » sont toujours plus rapides que toute autre option
+   D. Les « short sales » éteignent entièrement le prêt sans intervention du prêteur
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une « short sale » est une vente à l'initiative du propriétaire pour moins que ce qu'il doit, avec l'accord du prêteur.
+
+### Question 2
+
+Bonne réponse : Vrai. Le propriétaire garde généralement davantage de contrôle que dans une saisie menée par le prêteur.
+
+### Question 3
+
+Bonne réponse : B. Le coût et la durée d'une saisie peuvent rendre la « short sale » plus intéressante pour un prêteur.
+
+## Points clés
+
+- Une « short sale » est une vente à l'initiative du propriétaire pour moins que ce qu'il doit, avec l'accord du prêteur.
+- Elle laisse généralement au propriétaire davantage de contrôle qu'une saisie.
+- Les prêteurs peuvent la préférer, car une saisie peut être plus coûteuse et plus lente.
+
+===== RED-L1-049
+TITLE: Acheter son premier bien : dans quel ordre se déroulent réellement les étapes ?
+SUMMARY: Découvrez l'ordre général des étapes d'un achat immobilier type, en reliant des notions vues plus tôt dans ce niveau.
+# Acheter son premier bien : dans quel ordre se déroulent réellement les étapes ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- énumérer l'ordre général des étapes d'un achat immobilier type.
+- expliquer pourquoi cet ordre est généralement logique.
+- relier chaque étape à une notion vue plus tôt dans ce niveau.
+
+## Contenu principal
+
+### L'ordre général
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : l'ordre exact et les exigences varient selon les lieux et le type de transaction. En France, on signe généralement un avant-contrat (compromis ou promesse de vente), puis l'acte authentique chez le notaire, avec un délai de rétractation et souvent une condition suspensive d'obtention du prêt.)* Un achat type passe généralement par les étapes suivantes : obtenir un accord de principe pour le financement, rechercher un bien et faire une offre, obtenir le prêt immobilier (y compris l'estimation), réaliser les inspections, purger le titre de propriété, puis conclure la vente (y compris le paiement des frais d'acquisition).
+
+### Pourquoi cet ordre est généralement logique
+
+L'accord de principe vient en premier, car il indique à l'acheteur ce qu'il peut réellement se permettre avant de tomber amoureux d'un bien. Les inspections ont généralement lieu avant de finaliser l'achat, afin que les problèmes puissent être réglés ou négociés. Le titre doit être sans charge avant la signature, car un titre incertain (vu plus tôt) pourrait faire échouer toute la transaction.
+
+### Le lien avec les leçons précédentes
+
+Chaque étape de cet ordre renvoie à une notion vue plus tôt dans ce niveau : l'apport personnel et le type de prêt (leçons 4 à 8), l'estimation et les ventes comparables (leçons 12 et 13), l'inspection (leçon 14), le titre et l'assurance de titre (leçons 15 et 16), le séquestre (leçon 17) et les frais d'acquisition (leçon 18).
+
+## Exemple pratique
+
+Un primo-accédant obtient un accord de principe pour un prêt de 280 000 $ avant de commencer ses recherches, puis fait une offre sur un logement à 270 000 $, demande une inspection, règle quelques problèmes relevés et passe à la signature une fois le titre confirmé sans charge et le financement finalisé.
+
+## Quiz pratique
+
+1. Pourquoi l'accord de principe de financement intervient-il généralement tôt dans le processus ?
+   A. Peu importe le moment où il intervient
+   B. Il indique à l'acheteur ce qu'il peut réellement se permettre avant de chercher
+   C. La loi exige qu'il intervienne en dernier
+   D. Il remplace la nécessité d'une estimation
+
+2. Vrai ou faux : les inspections ont généralement lieu après la signature, une fois que l'acheteur est déjà propriétaire du bien.
+
+3. Pourquoi le titre doit-il être sans charge avant la signature ?
+   A. Il n'a pas besoin de l'être
+   B. Un titre incertain crée un vrai risque juridique pour le nouveau propriétaire
+   C. Le titre ne compte que pour l'immobilier commercial
+   D. Un titre sans charge ne compte que pour les achats comptant
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'accord de principe établit un budget réaliste avant les recherches.
+
+### Question 2
+
+Bonne réponse : Faux. Les inspections ont généralement lieu avant la signature, et non après.
+
+### Question 3
+
+Bonne réponse : B. Un titre incertain crée un vrai risque juridique, comme vu plus tôt dans ce niveau.
+
+## Points clés
+
+- Un achat type passe par l'accord de principe, la recherche et l'offre, le financement et l'estimation, l'inspection, la purge du titre et la signature.
+- Cet ordre répond à des raisons pratiques à chaque étape.
+- Chaque étape renvoie à une notion précise vue plus tôt dans ce niveau.
+
+===== RED-L1-050
+TITLE: Projet final : un achat immobilier réel, du début à la fin
+SUMMARY: Appliquez tout ce que vous avez vu dans RED niveau 1 en suivant, du début à la fin, un scénario complet et réaliste d'achat immobilier.
+# Projet final : un achat immobilier réel, du début à la fin
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- appliquer les notions essentielles de RED niveau 1 à un scénario unique et cohérent.
+- identifier quelle notion de ce niveau s'applique à chaque étape d'un achat.
+- expliquer comment les éléments d'un achat immobilier s'assemblent en un tout, et pas seulement comme des termes isolés.
+
+## Contenu principal
+
+### Le scénario
+
+Maria veut acheter son premier logement. Elle a mis de côté un apport et veut comprendre ce qu'elle achète réellement : non pas mémoriser des termes, mais voir comment tout ce qui a été vu dans ce niveau s'articule dans une situation réelle.
+
+### Le déroulé
+
+Maria commence par comprendre qu'acheter un logement, c'est acheter un terrain, un bâtiment et des droits juridiques (leçon 1), et pas seulement un bâtiment. Elle compare location et propriété (leçon 2) et décide que devenir propriétaire correspond à ses projets. Elle obtient un accord de principe pour un prêt (leçons 4 à 8), en comprenant que sa mensualité se répartit entre capital et intérêts (leçon 5), et que le montant de son apport influe sur son prêt et sur la nécessité d'un PMI (leçons 6 et 8).
+
+Elle trouve un logement, et le prêteur demande une estimation fondée sur des ventes comparables (leçons 12 et 13) pour en confirmer la valeur. Elle fait réaliser une inspection (leçon 14) et négocie un petit geste commercial pour des réparations après la découverte d'un chauffe-eau vieillissant. Sa société de titre confirme un titre sans charge (leçon 15) et émet une assurance de titre (leçon 16). Son dépôt de garantie reste sous séquestre (leçon 17) jusqu'à la signature, où elle paie ses frais d'acquisition (leçon 18) en plus de son apport.
+
+Au fil des années suivantes, la valeur nette de Maria (leçon 3) augmente de deux façons : elle rembourse son prêt, et son logement prend de la valeur (leçon 25), même si elle sait que cette appréciation n'a jamais été garantie.
+
+### Pourquoi c'est important
+
+Aucune de ces notions ne fonctionne isolément dans un achat réel : elles s'enchaînent en un seul processus. Comprendre chaque élément séparément, et la façon dont ils s'assemblent, est ce qui distingue une culture financière vraiment utile d'un vocabulaire appris par cœur.
+
+## Exemple pratique
+
+Si le logement de Maria coûtait 300 000 $ avec un apport de 30 000 $ (10 %), elle a emprunté 270 000 $, a probablement dû souscrire un PMI (puisque son apport était inférieur à 20 %), et sa mensualité s'est répartie entre capital et intérêts dès le premier jour : autant de notions vues séparément plus tôt dans ce niveau, qui fonctionnent désormais ensemble dans une transaction réelle.
+
+## Quiz pratique
+
+1. Que comprend réellement un achat immobilier, selon la leçon 1 ?
+   A. Seulement le bâtiment
+   B. Le terrain, le bâtiment et les droits juridiques
+   C. Seulement le droit juridique de revendre plus tard
+   D. Seulement le terrain
+
+2. Vrai ou faux : comme l'apport de Maria était inférieur à 20 %, elle a probablement dû souscrire un PMI.
+
+3. Quels sont les deux éléments qui ont fait augmenter la valeur nette de Maria au fil du temps ?
+   A. Les loyers et la taxe foncière
+   B. Le remboursement de son prêt et l'appréciation du bien
+   C. Son inspection du logement et son assurance de titre
+   D. Ses frais d'acquisition et son compte séquestre
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un achat immobilier regroupe le terrain, le bâtiment et les droits juridiques, comme vu dans la leçon 1.
+
+### Question 2
+
+Bonne réponse : Vrai. Un apport inférieur à environ 20 % entraîne couramment l'obligation d'un PMI, comme vu dans la leçon 8.
+
+### Question 3
+
+Bonne réponse : B. La valeur nette augmente grâce au remboursement du prêt et à l'appréciation : deux sources distinctes, comme vu dans la leçon 3.
+
+## Points clés
+
+- Un achat immobilier réel relie presque toutes les notions de ce niveau en un seul processus, et non en faits isolés.
+- Comprendre comment les éléments s'assemblent est le véritable objectif de ce niveau, au-delà de la mémorisation des termes.
+- Ce projet final marque l'achèvement de RED niveau 1 : le niveau 2 s'appuie sur ces bases avec des notions plus avancées de financement et d'investissement.
