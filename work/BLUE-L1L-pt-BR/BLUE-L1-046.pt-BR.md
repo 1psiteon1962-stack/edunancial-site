@@ -144,7 +144,7 @@ TRILHAS RELACIONADAS: GOLD (Investimentos) — a estratégia de captação de ca
 ## Leituras complementares
 - BLUE-L1-017 — O que é capital inicial, e de onde ele realmente vem?
 - BLUE-L1-018 — O que é bootstrapping?
-- BLUE-L1-047 — O que é, de fato, o fracasso de um negócio? (E por que desistir pode ser a decisão certa)
+- BLUE-L1-047 — O que é, de fato, o fracasso de um negócio? (E por que sair pode ser a decisão certa)
 
 ## Trilha da lição
 `BLUE-L1-046-LOCALIZATION` (bloco de trilha)

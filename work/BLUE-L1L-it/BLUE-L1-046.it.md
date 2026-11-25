@@ -144,7 +144,7 @@ PERCORSI CORRELATI: GOLD (Investimenti) — la strategia di raccolta di capitale
 ## Letture di approfondimento
 - BLUE-L1-017 — Che cos'è il capitale di avviamento, e da dove arriva davvero?
 - BLUE-L1-018 — Che cos'è il bootstrapping?
-- BLUE-L1-047 — Che cos'è davvero l'insuccesso di un'impresa? (E perché lasciar perdere può essere la scelta giusta)
+- BLUE-L1-047 — Che cos'è davvero l'insuccesso di un'impresa? (E perché ritirarsi può essere la scelta giusta)
 
 ## Percorso della lezione
 `BLUE-L1-046-LOCALIZATION` (blocco percorso)

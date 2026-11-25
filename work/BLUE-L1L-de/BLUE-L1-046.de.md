@@ -144,7 +144,7 @@ VERWANDTE LERNPFADE: GOLD (Investieren) — Strategien der Kapitalbeschaffung we
 ## Weiterführende Lektüre
 - BLUE-L1-017 — Was ist Startkapital und woher kommt es tatsächlich?
 - BLUE-L1-018 — Was ist Bootstrapping?
-- BLUE-L1-047 — Was ist geschäftliches Scheitern wirklich? (Und warum Aufhören die richtige Entscheidung sein kann)
+- BLUE-L1-047 — Was ist geschäftliches Scheitern wirklich? (Und warum der Ausstieg die richtige Entscheidung sein kann)
 
 ## Lernpfad der Lektion
 `BLUE-L1-046-LOCALIZATION` (Pfadblock)
