@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 18
 locale: pt-BR
-title: "Situação de Declaração: Solteiro, Casado, Chefe de Família"
-summary: "Apresenta o conceito de situação de declaração e por que a situação familiar e conjugal pode afetar o cálculo do imposto."
+title: "Situação na declaração: solteiro, casado, chefe de família"
+summary: "Apresenta o conceito de situação na declaração e explica por que o estado civil e a composição da família podem afetar o cálculo do imposto."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Situação de Declaração: Solteiro, Casado, Chefe de Família
+# Situação na declaração: solteiro, casado, chefe de família
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar o que é a situação na declaração.
+- Identificar as categorias mais comuns.
+- Explicar, em termos gerais, por que a situação na declaração pode afetar o resultado do imposto.
 
-- Explicar o que é situação de declaração
-- Conhecer as categorias comuns
-- Entender por que a situação familiar pode mudar o imposto
+## Conteúdo principal
 
-## Conteúdo Principal
+A situação na declaração (nos EUA, "filing status") é uma categoria, baseada no seu estado civil e na composição da sua família, que muitos sistemas tributários usam para definir quais faixas, valores de dedução e regras de elegibilidade se aplicam a você. As categorias mais comuns são solteiro, casado (às vezes com a opção de declarar em conjunto ou separadamente) e chefe de família (em geral, uma pessoa não casada que sustenta dependentes). (No Brasil, a declaração do IRPF pode ser individual ou incluir o cônjuge e dependentes, e cada escolha muda o cálculo; as regras mudam com o tempo.)
 
-Em alguns sistemas, como o dos EUA, você precisa informar sua "situação de declaração" (filing status). Ela descreve sua situação familiar no ano e afeta o cálculo do imposto.
+A situação na declaração importa porque muda o cálculo de fundo: a mesma renda pode resultar em um imposto diferente conforme a categoria, porque os limites das faixas e os valores da dedução padrão muitas vezes são definidos de forma diferente para cada uma. Isso não é uma brecha nem um truque; reflete uma avaliação de política pública de que a composição da família afeta a real capacidade de uma pessoa ou família de pagar imposto.
 
-Categorias comuns incluem: solteiro; casado declarando em conjunto; casado declarando separadamente; e chefe de família, geralmente para pessoas não casadas que sustentam um dependente em casa. Cada categoria pode ter faixas de imposto e deduções diferentes.
+## Exemplo prático
 
-A lógica é que uma família com dependentes tem custos diferentes de uma pessoa sozinha. Nem todo país usa esse sistema: em vários, cada pessoa declara individualmente. Mudanças como casamento, divórcio ou nascimento de um filho podem mudar sua situação, então vale revisar sempre que a vida mudar.
+**Pergunta:** Duas pessoas ganham exatamente o mesmo salário, mas uma é solteira e a outra sustenta dois filhos como chefe de família. Você esperaria que o cálculo do imposto delas fosse igual?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Provavelmente não, porque a situação na declaração muda quais faixas e valores de dedução se aplicam.
 
-## Exemplo Prático
+**Guia:** Por que o sistema tributário trataria o caso do chefe de família de forma diferente?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Porque sustentar dependentes afeta quanto dessa renda sobra de verdade para as necessidades da própria pessoa, e a política leva isso em conta.
 
-**Professor:** Camila é solteira e sustenta o filho de 8 anos, que mora com ela. Nos EUA, qual categoria provavelmente se aplica?
+**Guia:** Isso: a situação na declaração reflete uma avaliação da capacidade financeira, e não só a renda bruta.
 
-**Aluno:** Solteira?
+## Teste de prática
 
-**Professor:** Pense: ela é não casada e sustenta um dependente em casa.
+**Pergunta 1.** A situação na declaração se baseia em:
 
-**Aluno:** Então provavelmente chefe de família.
+A) Seu cargo no trabalho
+B) Seu estado civil e a composição da sua família
+C) Só a sua idade
+D) Seu país de nascimento
 
-**Professor:** E por que isso importa?
+**Pergunta 2.** As categorias mais comuns incluem:
 
-**Aluno:** Porque essa categoria costuma ter regras mais favoráveis do que a de solteiro.
+A) Solteiro, casado, chefe de família
+B) Só "empregado" e "desempregado"
+C) Só "rico" e "pobre"
+D) Só "cidadão" e "não cidadão"
 
-## Quiz de Prática
+**Pergunta 3.** A situação na declaração pode afetar:
 
-**1.** A situação de declaração descreve...
+A) Nada
+B) As faixas e os valores de dedução aplicáveis
+C) Só o seu nome no formulário
+D) Só o imposto sobre vendas
 
-- A) O tipo de emprego
-- B) O banco usado
-- C) A situação familiar no ano
-- D) O estado de saúde
+**Pergunta 4.** O motivo de a situação na declaração importar costuma ser descrito como:
 
-**2.** "Chefe de família" geralmente se aplica a...
-
-- A) Qualquer pessoa casada
-- B) Donos de empresa
-- C) Aposentados
-- D) Pessoas não casadas que sustentam um dependente em casa
-
-**3.** Por que a situação familiar pode mudar o imposto?
-
-- A) Porque famílias têm custos diferentes de pessoas sozinhas
-- B) Porque casados não pagam imposto
-- C) Porque o governo sorteia
-- D) Não muda nada
-
-**4.** Todos os países usam situação de declaração?
-
-- A) Sim, todos
-- B) Não, em vários cada pessoa declara individualmente
-- C) Só países europeus
-- D) Só países asiáticos
+A) Uma brecha
+B) Um reflexo das diferenças de capacidade financeira conforme a composição da família
+C) Puro acaso
+D) Irrelevante para o cálculo do imposto
 
 ## Gabarito
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. A, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) A situação familiar no ano** — Ela reflete estado civil e dependentes.
+**1.** As categorias são construídas em torno do estado civil e das responsabilidades familiares.
 
-**2. D) Pessoas não casadas que sustentam um dependente em casa** — É a descrição mais comum dessa categoria.
+**2.** Solteiro, casado e chefe de família são categorias muito usadas, embora os nomes exatos variem de país para país.
 
-**3. A) Porque famílias têm custos diferentes de pessoas sozinhas** — O sistema tenta refletir diferenças de custo e responsabilidade.
+**3.** Categorias diferentes muitas vezes vêm com limites de faixa e valores de dedução diferentes.
 
-**4. B) Não, em vários cada pessoa declara individualmente** — É uma característica de alguns sistemas, não de todos.
+**4.** A justificativa de política pública é que a composição da família afeta a capacidade financeira real, e não que se trate de um truque ou de uma brecha.
 
-## Principais Lições
+## Pontos-chave
 
-- A situação de declaração reflete estado civil e dependentes
-- Categorias comuns: solteiro, casado (conjunto/separado), chefe de família
-- Revise quando a vida mudar
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- A situação na declaração reflete o estado civil e a composição da família.
+- As categorias comuns incluem solteiro, casado e chefe de família.
+- A situação na declaração afeta as faixas e os valores de dedução aplicáveis.
+- Isso reflete avaliações de política pública sobre capacidade financeira, e não uma brecha.

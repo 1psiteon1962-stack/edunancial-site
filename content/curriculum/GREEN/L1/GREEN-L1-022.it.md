@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-022
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 22
-title: "Acconti d'imposta per i lavoratori autonomi"
-source_title: "Estimated Taxes for the Self-Employed"
-description: "Introduce il concetto di pagamenti trimestrali di acconto d'imposta, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta."
-slug: estimated-taxes-for-the-self-employed
-seo_title: "Acconti d'imposta per i lavoratori autonomi | Edunancial"
-meta_description: "Introduce il concetto di pagamenti trimestrali di acconto d'imposta, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 22
-summary: "Introduce il concetto di pagamenti trimestrali di acconto d'imposta, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta."
+locale: it
+title: "Gli acconti d'imposta per i lavoratori autonomi"
+summary: "Presenta il concetto di acconti d'imposta periodici, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-022: Acconti d'imposta per i lavoratori autonomi
+# Gli acconti d'imposta per i lavoratori autonomi
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare perché gli autonomi versano acconti d'imposta
-- Capire la logica dei pagamenti periodici
-- Creare un'abitudine semplice per mettere da parte denaro per le imposte
+- Spiegare perché i lavoratori autonomi devono spesso versare acconti d'imposta.
+- Descrivere il ritmo generale dei versamenti in acconto (periodici, non una volta l'anno).
+- Collegare questo alla lezione precedente su W-2 e 1099.
 
 ## Contenuto principale
 
-Quando sei dipendente, il datore di lavoro trattiene l'imposta dal tuo stipendio. Quando sei autonomo, nessuno lo fa per te. Eppure molti sistemi si aspettano che l'imposta venga pagata durante l'anno, non solo alla fine.
+Quando sei dipendente, il datore di lavoro trattiene automaticamente l'imposta durante tutto l'anno. Quando sei autonomo, nessuno lo fa per te: è proprio per questo che molti sistemi chiedono ai lavoratori autonomi di versare acconti d'imposta periodici durante l'anno, spesso trimestrali, invece di pagare tutto in un'unica soluzione al momento della dichiarazione. (In Italia, chi ha partita IVA versa in genere saldo e acconti dell'imposta in date fissate durante l'anno; scadenze e regole cambiano.)
 
-La soluzione comune sono gli acconti, spesso trimestrali. Stimi quanto guadagnerai nell'anno, calcoli più o meno l'imposta e la paghi a rate. Negli Stati Uniti, per esempio, si chiamano estimated taxes; in Italia esistono gli acconti con scadenze proprie.
+È una conseguenza diretta e pratica della distinzione tra dipendente e collaboratore autonomo vista in precedenza. Lo Stato si aspetta comunque che l'imposta venga pagata più o meno man mano che si guadagna, non tutta insieme a fine anno: così la responsabilità che il sistema paghe del datore di lavoro gestisce automaticamente per il dipendente passa interamente al lavoratore autonomo. Saltare gli acconti non elimina l'imposta dovuta; aggiunge solo il rischio di sanzioni per versamento insufficiente, oltre all'imposta stessa, quando l'anno viene finalmente chiuso.
 
-Non pagare le rate può comportare sanzioni, anche se paghi tutto alla fine. Un'abitudine pratica è mettere una percentuale di ogni pagamento ricevuto su un conto solo per le imposte. Così il denaro c'è quando la rata scade.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Una grafica che si è appena messa in proprio pensa di poter pagare tutta l'imposta in una volta quando presenterà la dichiarazione l'anno prossimo. Quale rischio corre?
 
-## Esempio pratico
+**Studente:** Secondo questa lezione, potrebbe dover pagare sanzioni per non aver versato durante l'anno, oltre all'imposta stessa.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Perché il sistema si aspetta pagamenti durante l'anno invece che tutti insieme?
 
-**Insegnante:** Giulia è fotografa autonoma. Riceve $3.000 da un cliente. Può spendere tutto?
+**Studente:** Perché funziona così anche per i dipendenti, solo in modo automatico tramite le ritenute: per l'autonomo diventa semplicemente un compito manuale invece che automatico.
 
-**Studente:** No. Una parte è imposta.
+**Guida:** Esatto: l'aspettativa di fondo non cambia, cambia solo chi deve agire.
 
-**Insegnante:** Se mette da parte il 25% di ogni pagamento, come esempio, quanto accantona ora?
+## Quiz di esercitazione
 
-**Studente:** $750.
+**Domanda 1.** Gli acconti d'imposta riguardano soprattutto:
 
-**Insegnante:** E che cosa fa con quei soldi?
+A) I dipendenti con ritenute automatiche
+B) I lavoratori autonomi per cui nessun datore di lavoro trattiene l'imposta
+C) Solo i pensionati
+D) Solo le grandi aziende
 
-**Studente:** Li lascia su un conto separato e li usa per pagare le rate trimestrali.
+**Domanda 2.** Gli acconti vengono di solito versati:
 
-## Quiz di verifica
+A) Una volta, a fine anno
+B) Periodicamente durante l'anno, spesso ogni trimestre
+C) Mai
+D) Solo se lo chiede lo Stato
 
-**1.** Perché gli autonomi versano acconti d'imposta?
+**Domanda 3.** Saltare gli acconti di solito:
 
-- A) Perché guadagnano di più
-- B) Perché è facoltativo
-- C) Perché nessuno trattiene l'imposta per loro
-- D) Perché non presentano la dichiarazione
+A) Elimina l'imposta dovuta
+B) Comporta il rischio di sanzioni per versamento insufficiente, oltre all'imposta
+C) Non ha conseguenze
+D) Produce un rimborso automatico
 
-**2.** Con quale frequenza si versano spesso gli acconti?
+**Domanda 4.** Questa lezione si collega più direttamente a quale argomento precedente?
 
-- A) Una volta ogni dieci anni
-- B) Ogni giorno
-- C) Solo quando se ne ha voglia
-- D) Spesso ogni trimestre
+A) Imposta sugli immobili
+B) W-2 e 1099 / dipendente o collaboratore autonomo
+C) Beni pubblici
+D) Imposta sulle vendite
 
-**3.** Che cosa può succedere se l'autonomo non paga le rate?
+## Soluzioni
 
-- A) Sanzioni, anche pagando tutto alla fine
-- B) Niente
-- C) Un premio di puntualità
-- D) Un'esenzione dall'imposta
-
-**4.** Una buona abitudine per l'autonomo è...
-
-- A) Spendere tutto e vedere dopo
-- B) Mettere da parte una quota di ogni pagamento per le imposte
-- C) Chiedere un W-2 ai clienti
-- D) Non accettare clienti
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) Perché nessuno trattiene l'imposta per loro** — Senza datore di lavoro, anticipano loro stessi l'imposta.
+**1.** Poiché nessun datore di lavoro trattiene per loro, i lavoratori autonomi devono stimare e versare l'imposta da soli.
 
-**2. D) Spesso ogni trimestre** — Il modello trimestrale è comune.
+**2.** I versamenti periodici durante l'anno rispecchiano il principio del "pagamento man mano" presente nella maggior parte dei sistemi.
 
-**3. A) Sanzioni, anche pagando tutto alla fine** — Molti sistemi sanzionano i pagamenti in ritardo.
+**3.** Le sanzioni per versamento insufficiente esistono proprio per scoraggiare chi aspetta la fine dell'anno per pagare tutto in una volta.
 
-**4. B) Mettere da parte una quota di ogni pagamento per le imposte** — Accantonare denaro evita sorprese.
+**4.** Questa lezione è in sostanza il seguito pratico della distinzione tra dipendente e collaboratore autonomo.
 
 ## Punti chiave
 
-- Gli autonomi non hanno ritenuta automatica
-- Gli acconti anticipano l'imposta durante l'anno
-- Metti una quota di ogni pagamento su un conto per le imposte
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- I lavoratori autonomi devono in genere versare da soli gli acconti d'imposta.
+- Questi versamenti sono di solito periodici (spesso trimestrali), non una somma unica a fine anno.
+- Saltare gli acconti comporta il rischio di sanzioni, anche se l'imposta resta comunque dovuta.
+- È una conseguenza diretta dell'assenza delle ritenute automatiche di un datore di lavoro.

@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-042
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 42
-title: "Soggetti trasparenti: LLC, S-Corp e ditte individuali"
-source_title: "Pass-Through Entities: LLCs, S-Corps, and Sole Proprietorships"
-description: "Introduce il concetto generale di tassazione per trasparenza come alternativa allo schema di doppia imposizione delle società di capitali tradizionali."
-slug: pass-through-entities-llcs-s-corps-and-sole-proprietorships
-seo_title: "Soggetti trasparenti: LLC, S-Corp e ditte individuali | Edunancial"
-meta_description: "Introduce il concetto generale di tassazione per trasparenza come alternativa allo schema di doppia imposizione delle società di capitali tradizionali."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 42
-summary: "Introduce il concetto generale di tassazione per trasparenza come alternativa allo schema di doppia imposizione delle società di capitali tradizionali."
+locale: it
+title: "Soggetti trasparenti: LLC, S-Corp e ditte individuali"
+summary: "Presenta il concetto generale di tassazione per trasparenza come alternativa allo schema di doppia imposizione delle società tradizionali."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-042: Soggetti trasparenti: LLC, S-Corp e ditte individuali
+# Soggetti trasparenti: LLC, S-Corp e ditte individuali
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire la tassazione per trasparenza
-- Riconoscere esempi di forme trasparenti usate negli Stati Uniti
-- Confrontare trasparenza e doppia imposizione
+- Definire in termini generali un soggetto fiscalmente trasparente.
+- Spiegare come la tassazione per trasparenza evita lo schema della doppia imposizione.
+- Riconoscere esempi comuni di strutture trasparenti senza considerarne i nomi come universali.
 
 ## Contenuto principale
 
-In un soggetto trasparente (pass-through), l'impresa in sé di solito non paga l'imposta sul reddito sull'utile. L'utile invece "passa" ai proprietari, che lo includono nelle proprie dichiarazioni e pagano l'imposta una sola volta.
+Un soggetto fiscalmente trasparente (in inglese "pass-through entity") è una forma d'impresa in cui l'utile non viene tassato affatto a livello dell'impresa: "passa" direttamente ai titolari, che lo dichiarano e pagano l'imposta nelle proprie dichiarazioni personali, in genere una sola volta. Così si evita direttamente lo schema di doppia imposizione visto nella lezione precedente, perché non esiste fin dall'inizio un livello separato di imposta societaria.
 
-Negli Stati Uniti esempi comuni sono la ditta individuale (sole proprietorship), la LLC in molte situazioni e la S-Corp. Altri Paesi hanno forme simili con nomi e regole propri, come le società di persone in Italia.
+Tra gli esempi comuni di strutture spesso tassate per trasparenza ci sono le ditte individuali (il caso più semplice: nessun livello d'imposta separato per l'impresa) e, in molti sistemi, alcune società a responsabilità limitata (LLC) o forme societarie con un'opzione speciale (spesso chiamate "S-corp" nel sistema statunitense, anche se concetti equivalenti esistono altrove con nomi diversi). (In Italia, per esempio, il reddito delle società di persone come snc e sas è di norma imputato ai soci per trasparenza, mentre le srl sono società di capitali; le regole, comprese alcune opzioni, cambiano.) Le regole giuridiche e fiscali per rientrare tra i soggetti trasparenti variano da paese a paese e comportano compromessi reali che vanno oltre il solo evitare la doppia imposizione: è proprio per questo che la scelta della forma giuridica, trattata subito dopo, merita una riflessione attenta invece di una scelta predefinita.
 
-Una conseguenza importante: il proprietario può dovere l'imposta sull'utile dell'impresa anche se non ha prelevato quel denaro. Inoltre, le forme trasparenti possono avere altri oneri, come i contributi sul lavoro autonomo. La forma giusta dipende da ciascuna situazione, come vedremo nella prossima lezione.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Una piccola imprenditrice vuole evitare lo schema di doppia imposizione che vale per le società tradizionali. Quale categoria generale di forme d'impresa potrebbe valutare?
 
-## Esempio pratico
+**Studente:** In base a questa lezione, probabilmente le strutture trasparenti, perché evitano un livello d'imposta separato per l'impresa.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Qual è il compromesso: evitare la doppia imposizione è sempre l'unico criterio nella scelta della forma giuridica?
 
-**Insegnante:** Una LLC trattata come trasparente guadagna $60.000 nell'anno. La LLC paga l'imposta sul reddito su questo importo?
+**Studente:** No: la lezione dice che ci sono altri compromessi reali oltre al livello d'imposta, quindi vale la pena guardare il quadro completo, non solo questo aspetto.
 
-**Studente:** Di solito no. L'utile passa al proprietario.
+**Guida:** Esatto: ed è per questo che la prossima lezione esamina più a fondo la scelta della forma giuridica.
 
-**Insegnante:** E il proprietario ha lasciato $20.000 nell'impresa per comprare attrezzature. Su quanto paga l'imposta?
+## Quiz di esercitazione
 
-**Studente:** Sui $60.000, anche se ne ha prelevati solo $40.000.
+**Domanda 1.** Un soggetto trasparente è un soggetto in cui l'utile:
 
-**Insegnante:** Perché?
+A) È tassato due volte, a livello dell'impresa e dei titolari
+B) Non è tassato a livello dell'impresa e passa direttamente nelle dichiarazioni personali dei titolari
+C) Non è mai tassato
+D) È tassato solo se l'impresa fallisce
 
-**Studente:** Perché l'imposta segue l'utile, non il prelievo.
+**Domanda 2.** La tassazione per trasparenza risponde direttamente a quale concetto precedente?
 
-## Quiz di verifica
+A) La riscossione dell'imposta sulle vendite
+B) La doppia imposizione
+C) I dazi
+D) Le ritenute in busta paga
 
-**1.** In un soggetto trasparente, chi paga di solito l'imposta sul reddito sull'utile?
+**Domanda 3.** In questa lezione la ditta individuale è descritta come:
 
-- A) L'impresa
-- B) La banca
-- C) I proprietari, nelle loro dichiarazioni personali
-- D) I clienti
+A) Sempre soggetta a doppia imposizione
+B) Il caso più semplice di trasparenza, senza un livello d'imposta separato per l'impresa
+C) Vietata nella maggior parte dei paesi
+D) Uguale a una società di capitali
 
-**2.** Quante volte viene tassato di solito l'utile in un soggetto trasparente?
+**Domanda 4.** Evitare la doppia imposizione è l'unico criterio nella scelta della forma giuridica?
 
-- A) Due volte
-- B) Tre volte
-- C) Mai
-- D) Una volta
+A) Sì, l'unico
+B) No: ci sono altri compromessi reali da valutare
+C) La forma giuridica non conta
+D) Contano solo le imposte, nient'altro
 
-**3.** Quale di questi è un esempio di forma trasparente negli Stati Uniti?
+## Soluzioni
 
-- A) S-Corp
-- B) C-Corp tradizionale
-- C) Banca centrale
-- D) Fondo pubblico
-
-**4.** Il proprietario di un soggetto trasparente può dovere imposte su utili che non ha prelevato?
-
-- A) No, mai
-- B) Sì, perché l'imposta segue l'utile
-- C) Solo se è socio unico
-- D) Solo negli anni bisestili
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) I proprietari, nelle loro dichiarazioni personali** — L'utile passa ai proprietari.
+**1.** Le strutture trasparenti saltano del tutto l'imposta a livello dell'impresa e mandano l'utile direttamente nella dichiarazione del titolare.
 
-**2. D) Una volta** — È il contrasto con la doppia imposizione.
+**2.** Questa struttura esiste proprio come alternativa allo schema di tassazione a due livelli descritto nella lezione precedente.
 
-**3. A) S-Corp** — La S-Corp è una forma trasparente negli Stati Uniti.
+**3.** La ditta individuale è l'esempio più chiaro, perché impresa e titolare sono già trattati come un unico contribuente.
 
-**4. B) Sì, perché l'imposta segue l'utile** — L'imposta segue l'utile dell'impresa.
+**4.** La scelta della forma giuridica comporta più compromessi (tutela della responsabilità, complessità e altro), non solo la questione fiscale.
 
 ## Punti chiave
 
-- Trasparenza: l'utile passa ai proprietari ed è tassato una volta
-- Esempi negli Stati Uniti: ditta individuale, LLC, S-Corp
-- L'imposta segue l'utile, non il prelievo
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- I soggetti trasparenti evitano l'imposta a livello dell'impresa, mandando l'utile direttamente nelle dichiarazioni personali dei titolari.
+- È l'alternativa diretta allo schema di doppia imposizione delle società tradizionali.
+- La ditta individuale è l'esempio più semplice di trasparenza; anche alcune LLC e strutture con opzione speciale possono rientrarvi.
+- Scegliere una forma giuridica comporta compromessi che vanno oltre questa sola questione fiscale.

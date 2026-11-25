@@ -1,110 +1,104 @@
 ---
 id: GREEN-L1-003
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 3
-title: "Tipi di imposte: una panoramica"
-source_title: "Types of Taxes: An Overview"
-description: "Una mappa delle principali categorie di imposte che si incontrano — reddito, vendite/consumi, proprietà e contributi sui salari — prima di approfondire ciascuna."
-slug: types-of-taxes-an-overview
-seo_title: "Tipi di imposte: una panoramica | Edunancial"
-meta_description: "Una mappa delle principali categorie di imposte che si incontrano — reddito, vendite/consumi, proprietà e contributi sui salari — prima di approfondire ciascuna."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 3
-summary: "Una mappa delle principali categorie di imposte che si incontrano — reddito, vendite/consumi, proprietà e contributi sui salari — prima di approfondire ciascuna."
+locale: it
+title: "Tipi di imposte: una panoramica"
+summary: "Una mappa delle principali categorie di imposte che una persona incontra (sul reddito, sui consumi, sugli immobili e sul lavoro) prima di approfondire ciascuna."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-003: Tipi di imposte: una panoramica
+# Tipi di imposte: una panoramica
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Nominare le quattro grandi categorie di imposte
-- Collegare ogni categoria a ciò che tassa
-- Riconoscere che una persona paga più tipi di imposta insieme
+- Indicare le quattro principali categorie di imposte che la maggior parte delle persone incontra.
+- Individuare a quale categoria appartiene un esempio concreto di imposta.
+- Spiegare la differenza generale tra un'imposta sul guadagnare, sullo spendere, sul possedere e sul lavorare.
 
 ## Contenuto principale
 
-Esistono molte imposte, ma la maggior parte rientra in poche categorie. Un modo semplice per ricordarle: le imposte colpiscono ciò che guadagni, ciò che compri e ciò che possiedi.
+Prima di approfondire una singola imposta, è utile avere la mappa completa. La maggior parte delle persone, nella maggior parte dei paesi, incontra una versione di queste quattro categorie:
 
-L'imposta sul reddito tassa ciò che guadagni: stipendio, utile d'impresa e redditi da investimenti. Le imposte sulle vendite o sui consumi tassano ciò che compri. L'imposta sulla proprietà tassa ciò che possiedi, soprattutto gli immobili. I contributi sui salari sono legati alla retribuzione da lavoro dipendente e spesso finanziano pensioni e sanità.
+**Imposta sul reddito**: un'imposta sul denaro che guadagni, che provenga da un lavoro, da un'attività o da investimenti. **Imposta sulle vendite o sui consumi**: un'imposta aggiunta quando compri beni o servizi. **Imposta sugli immobili**: un'imposta sulle cose che possiedi, il più delle volte immobili. **Contributi sul lavoro**: prelievi legati specificamente ai salari da lavoro dipendente, spesso destinati a programmi come la previdenza o l'assistenza sanitaria.
 
-Nelle prossime lezioni studieremo ogni categoria nel dettaglio. Per ora, l'importante è avere la mappa in testa. Quando senti parlare di una nuova imposta, chiediti: tassa ciò che guadagno, ciò che compro o ciò che possiedo?
+Un modo semplice per tenerle distinte: l'imposta sul reddito chiede "quanto hai guadagnato?", l'imposta sui consumi "quanto hai speso?", l'imposta sugli immobili "che cosa possiedi?" e i contributi sul lavoro "sei occupato, e quanto sei pagato?".
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+I paesi combinano queste categorie in modo diverso. Alcuni si basano molto sull'imposta sul reddito, altri puntano di più sulle imposte sui consumi, e gli enti locali dipendono spesso dall'imposta sugli immobili per finanziare scuole e servizi locali. Non esiste un unico mix "corretto": è una scelta politica con vantaggi e svantaggi, che le lezioni successive di questo percorso esamineranno. Per ora l'obiettivo è solo riconoscerle: quando senti parlare di un'imposta, dovresti saperla collocare in uno di questi gruppi come punto di partenza.
 
-## Esempio pratico
+## Esempio svolto
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Domanda:** Uno Stato aggiunge una percentuale sul prezzo ogni volta che qualcuno compra una bibita. In quale categoria rientra?
 
-**Insegnante:** Maria riceve uno stipendio, compra un frigorifero ed è proprietaria di una casa. Quanti tipi di imposta può pagare?
+**Studente:** Avviene al momento dell'acquisto, quindi sembra un'imposta sulle vendite o sui consumi.
 
-**Studente:** L'imposta sul reddito sullo stipendio...
+**Guida:** Giusto. E se lo stesso Stato tassasse anche l'utile che l'azienda produttrice di bibite realizza a fine anno, sarebbe la stessa imposta?
 
-**Insegnante:** Giusto. E sul frigorifero?
+**Studente:** No, sarebbe un'imposta sul reddito dell'azienda, non un'imposta sulle vendite legata all'acquisto.
 
-**Studente:** L'imposta sulle vendite. E sulla casa, l'imposta sulla proprietà.
+**Guida:** Esatto: allo stesso prodotto possono applicarsi due imposte diverse in momenti diversi, una all'acquisto e una sull'utile che ha generato.
 
-**Insegnante:** E ce n'è un'altra legata allo stipendio.
+## Quiz di esercitazione
 
-**Studente:** I contributi sui salari! Quindi quattro tipi insieme.
+**Domanda 1.** L'imposta sul reddito è un'imposta su:
 
-## Quiz di verifica
+A) Ciò che possiedi
+B) Ciò che guadagni
+C) Ciò che compri
+D) Il fatto di essere occupato o no
 
-**1.** Quale imposta tassa ciò che compri?
+**Domanda 2.** L'imposta sulle vendite si applica di solito:
 
-- A) Imposta sul reddito
-- B) Imposta sulla proprietà
-- C) Contributi sui salari
-- D) Imposta sulle vendite/consumi
+A) Una volta all'anno sul patrimonio totale
+B) Al momento dell'acquisto
+C) Solo ai titolari di imprese
+D) Solo in un paese
 
-**2.** L'imposta sulla proprietà colpisce soprattutto...
+**Domanda 3.** L'imposta sugli immobili è associata più comunemente a:
 
-- A) Gli immobili
-- B) Gli stipendi
-- C) I pasti
-- D) Le azioni
+A) La proprietà di immobili
+B) La spesa alimentare
+C) Le buste paga
+D) Solo le compravendite di azioni
 
-**3.** I contributi sui salari sono legati a...
+**Domanda 4.** I contributi sul lavoro sono legati specificamente a:
 
-- A) Gli acquisti nei negozi
-- B) La retribuzione da lavoro
-- C) Le eredità
-- D) I viaggi
+A) La proprietà di immobili
+B) I salari da lavoro
+C) Gli acquisti al dettaglio
+D) Le eredità
 
-**4.** Una persona può pagare più tipi di imposta nello stesso anno?
+**Domanda 5.** Quale affermazione sul mix fiscale dei paesi è più corretta?
 
-- A) No, solo uno
-- B) Solo se è imprenditore
-- C) Sì, è molto comune
-- D) Solo se vive all'estero
+A) Tutti i paesi usano lo stesso identico mix
+B) Esiste un mix universalmente corretto
+C) I paesi combinano questi tipi di imposte in modo diverso, come scelta politica
+D) Nel mondo esiste solo l'imposta sul reddito
 
-## Chiave delle risposte
+## Soluzioni
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. A, 4. B, 5. C
 
 ## Risposte e spiegazioni
 
-**1. D) Imposta sulle vendite/consumi** — L'imposta sulle vendite o sui consumi si applica al momento dell'acquisto.
+**1.** L'imposta sul reddito scatta quando si guadagna denaro, da qualsiasi fonte: salari, utili d'impresa o rendimenti degli investimenti.
 
-**2. A) Gli immobili** — Nella maggior parte dei sistemi si applica soprattutto agli immobili.
+**2.** L'imposta sulle vendite si applica al momento della transazione e si aggiunge al prezzo d'acquisto.
 
-**3. B) La retribuzione da lavoro** — Si calcolano sulle retribuzioni pagate.
+**3.** L'imposta sugli immobili è legata il più delle volte agli immobili, anche se alcuni luoghi tassano anche altri beni posseduti.
 
-**4. C) Sì, è molto comune** — La maggior parte delle persone ne paga diversi contemporaneamente.
+**4.** I contributi sul lavoro sono legati specificamente al reddito da lavoro e finanziano spesso programmi come pensioni o sanità.
+
+**5.** Non esiste un unico mix fiscale corretto: governi diversi bilanciano queste categorie in modo diverso in base alle priorità politiche.
 
 ## Punti chiave
 
-- Le imposte colpiscono ciò che guadagni, compri e possiedi
-- Le quattro grandi categorie sono reddito, consumi, proprietà e contributi sui salari
-- La maggior parte delle persone paga più tipi insieme
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Le quattro principali categorie di imposte che la maggior parte delle persone incontra sono: sul reddito, sulle vendite o sui consumi, sugli immobili e sul lavoro.
+- Ogni categoria pone una domanda diversa: guadagnato, speso, posseduto o occupato.
+- Un singolo prodotto o una singola transazione può far scattare più di un tipo di imposta in momenti diversi.
+- I paesi combinano queste categorie in modo diverso: non esiste una proporzione universalmente corretta.
+- Riconoscere a quale gruppo appartiene un'imposta è il primo passo per capire come funziona.

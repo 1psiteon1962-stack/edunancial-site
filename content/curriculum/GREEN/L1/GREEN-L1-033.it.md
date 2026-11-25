@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-033
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 33
-title: "Dividendi e interessi: come si tassano i redditi da investimento"
-source_title: "Dividends and Interest: How Investment Income Is Taxed"
-description: "Presenta dividendi e interessi come due forme comuni di reddito da investimento, diverse dalle plusvalenze perché nascono dal possesso di un bene, non dalla sua vendita."
-slug: dividends-and-interest-how-investment-income-is-taxed
-seo_title: "Dividendi e interessi: come si tassano i redditi da investimento | Edunancial"
-meta_description: "Presenta dividendi e interessi come due forme comuni di reddito da investimento, diverse dalle plusvalenze perché nascono dal possesso di un bene, non dalla sua vendita."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 33
-summary: "Presenta dividendi e interessi come due forme comuni di reddito da investimento, diverse dalle plusvalenze perché nascono dal possesso di un bene, non dalla sua vendita."
+locale: it
+title: "Dividendi e interessi: come si tassano i redditi da investimento"
+summary: "Presenta dividendi e interessi come due forme comuni di reddito da investimento distinte dalle plusvalenze, perché nascono dal possedere un bene, non dal venderlo."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-033: Dividendi e interessi: come si tassano i redditi da investimento
+# Dividendi e interessi: come si tassano i redditi da investimento
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire dividendi e interessi
-- Distinguere questi redditi dalle plusvalenze
-- Capire che di solito si tassano nell'anno in cui si ricevono
+- Distinguere dividendi e interessi dalle plusvalenze.
+- Spiegare che dividendi e interessi sono in genere tassabili nell'anno in cui si ricevono.
+- Riconoscerli come flussi di reddito continui, non come eventi di vendita una tantum.
 
 ## Contenuto principale
 
-Non tutti i redditi da investimento nascono da una vendita. I dividendi sono una parte dell'utile che una società distribuisce agli azionisti. Gli interessi sono ciò che ricevi per prestare denaro, per esempio su un conto di deposito, un'obbligazione o un titolo di Stato.
+Finora questo percorso si è concentrato molto sulle plusvalenze, cioè il guadagno dalla vendita di un bene. Ma altre due forme comuni di reddito da investimento non richiedono di vendere nulla: i dividendi (una quota degli utili di una società distribuita agli azionisti, spesso periodicamente) e gli interessi (somme ricevute per denaro prestato, per esempio tramite un conto deposito o un'obbligazione). (In Italia anche dividendi e interessi sono in genere soggetti a ritenuta o imposta sostitutiva applicata dall'intermediario; le aliquote cambiano.)
 
-La differenza con la plusvalenza è che ricevi dividendi e interessi mentre mantieni l'investimento. Non serve vendere nulla.
+A differenza delle plusvalenze, che di solito scattano con una vendita, dividendi e interessi sono in genere tassabili nell'anno in cui si ricevono, che l'investimento sottostante venga venduto o no. Un'investitrice che tiene per decenni un'azione che paga dividendi, senza venderne nemmeno una, dovrà comunque in genere pagare ogni anno l'imposta sui dividendi ricevuti in quel periodo. Riconoscere questi flussi come distinti e continui, separati dal meccanismo legato alla vendita delle plusvalenze, completa il quadro di base di come si tassano i redditi da investimento.
 
-Per questo di solito si tassano nell'anno in cui li ricevi, anche se reinvesti il denaro. Molti sistemi trattano interessi e dividendi in modo diverso tra loro, e alcuni tipi di dividendi o titoli possono avere un trattamento speciale.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un'investitrice tiene un'azione per 15 anni senza mai venderla, ma la società paga un dividendo ogni trimestre. Evita ogni imposta su quell'azione semplicemente non vendendola?
 
-## Esempio pratico
+**Studente:** In base a questa lezione, no: i dividendi stessi sono in genere tassabili ogni anno in cui li riceve, anche senza vendita.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Quindi che cosa viene tassato ogni anno, e che cosa verrebbe tassato solo se un giorno vendesse?
 
-**Insegnante:** Letizia ha azioni che hanno pagato $200 di dividendi e un conto deposito che ha reso $80 di interessi. Ha venduto qualcosa?
+**Studente:** I dividendi vengono tassati man mano che li riceve. L'aumento di prezzo dell'azione diventerebbe una plusvalenza tassabile solo se e quando la vendesse davvero.
 
-**Studente:** No.
+**Guida:** Esatto: due flussi di reddito diversi, due fattori scatenanti diversi.
 
-**Insegnante:** Allora ha avuto un reddito?
+## Quiz di esercitazione
 
-**Studente:** Sì, $280, solo mantenendo gli investimenti.
+**Domanda 1.** Un dividendo è:
 
-**Insegnante:** E se ha reinvestito i $200 di dividendi in altre azioni?
+A) Un tipo di prestito
+B) Una quota degli utili di una società distribuita agli azionisti
+C) La stessa cosa di una plusvalenza
+D) Un credito d'imposta dello Stato
 
-**Studente:** In molti sistemi è comunque reddito di quell'anno.
+**Domanda 2.** Gli interessi sono in genere:
 
-## Quiz di verifica
+A) Il guadagno dalla vendita di un bene
+B) Somme ricevute per denaro prestato, come tramite risparmi o obbligazioni
+C) La stessa cosa di un dividendo
+D) Rilevanti solo per le imprese
 
-**1.** I dividendi sono...
+**Domanda 3.** A differenza delle plusvalenze, dividendi e interessi sono in genere tassabili:
 
-- A) Interessi su un prestito
-- B) Una parte dell'utile distribuita agli azionisti
-- C) Il prezzo di un'azione
-- D) Una commissione bancaria
+A) Solo alla vendita del bene sottostante
+B) Nell'anno in cui si ricevono, a prescindere dalla vendita
+C) Mai
+D) Solo dopo dieci anni
 
-**2.** Si ricevono interessi quando...
+**Domanda 4.** Un investitore può evitare ogni imposta su un'azione semplicemente non vendendola mai?
 
-- A) Si compra un'auto
-- B) Si vende un'azione
-- C) Si presta denaro, per esempio su un conto deposito o un'obbligazione
-- D) Si paga un'imposta
+A) Sì, sempre
+B) No: i dividendi ricevuti nel frattempo sono comunque in genere tassabili
+C) Solo se l'azione perde valore
+D) Solo per le obbligazioni
 
-**3.** Qual è la principale differenza rispetto alle plusvalenze?
+## Soluzioni
 
-- A) Non c'è differenza
-- B) I dividendi nascono solo alla vendita
-- C) Gli interessi non sono mai tassati
-- D) Dividendi e interessi nascono mentre si possiede il bene
-
-**4.** I dividendi reinvestiti...
-
-- A) In molti sistemi restano reddito dell'anno
-- B) Smettono di essere reddito
-- C) Diventano una perdita
-- D) Diventano imposta sulle vendite
-
-## Chiave delle risposte
-
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. B) Una parte dell'utile distribuita agli azionisti** — Le società distribuiscono parte dell'utile come dividendi.
+**1.** Un dividendo è una distribuzione di utili societari agli azionisti, distinta da un'operazione di vendita.
 
-**2. C) Si presta denaro, per esempio su un conto deposito o un'obbligazione** — Gli interessi sono il compenso per il prestito.
+**2.** Gli interessi sono il compenso per aver prestato denaro, tramite un conto bancario, un'obbligazione o uno strumento simile.
 
-**3. D) Dividendi e interessi nascono mentre si possiede il bene** — La plusvalenza richiede la vendita; dividendi e interessi no.
+**3.** Questi redditi vengono tassati quando si ricevono, a differenza delle plusvalenze, che aspettano una vendita per far scattare l'imposta.
 
-**4. A) In molti sistemi restano reddito dell'anno** — Reinvestire di solito non cancella il reddito.
+**4.** Redditi continui come i dividendi generano obblighi fiscali anno dopo anno, indipendentemente dal fatto che il bene venga mai venduto.
 
 ## Punti chiave
 
-- Dividendi e interessi nascono dal possesso degli investimenti
-- Di solito si tassano nell'anno in cui si ricevono
-- Reinvestire normalmente non elimina l'imposta
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Dividendi e interessi sono redditi da investimento distinti dalle plusvalenze.
+- Sono in genere tassati nell'anno in cui si ricevono, non alla vendita.
+- Possedere un bene senza venderlo non evita l'imposta sul reddito che produce nel frattempo.
+- Riconoscerli come flussi distinti e continui completa il quadro di base dei redditi da investimento.

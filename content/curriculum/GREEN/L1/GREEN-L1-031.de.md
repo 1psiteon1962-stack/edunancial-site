@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 31
 locale: de
-title: "Kapitalgewinne: Steuern auf Anlagegewinne"
-summary: "Führt das Konzept des Kapitalgewinns ein — der Gewinn aus dem Verkauf eines Vermögenswerts zu einem höheren Preis als dem Kaufpreis — und wie er sich von gewöhnlichem Einkommen unterscheidet."
+title: "Kapitalgewinne: Steuern auf Gewinne aus Geldanlagen"
+summary: "Stellt das Konzept des Kapitalgewinns vor – Gewinn aus dem Verkauf eines Vermögenswerts über seinem Kaufpreis – und zeigt, wie er sich von gewöhnlichem Einkommen unterscheidet."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Kapitalgewinne: Steuern auf Anlagegewinne
+# Kapitalgewinne: Steuern auf Gewinne aus Geldanlagen
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Kapitalgewinn definieren
-- Einen einfachen Gewinn oder Verlust berechnen
-- Verstehen, dass der Gewinn normalerweise erst beim Verkauf besteuert wird
+- Einen Kapitalgewinn in einfachen Worten definieren.
+- Die Grundberechnung eines Kapitalgewinns erklären.
+- Erkennen, warum Gewinne erst beim Verkauf realisiert (und in der Regel besteuert) werden und nicht schon beim bloßen Halten.
 
 ## Kerninhalt
 
-Ein Kapitalgewinn ist der Gewinn, den du machst, wenn du einen Vermögenswert teurer verkaufst, als du ihn gekauft hast. Das kann eine Aktie, eine Immobilie, ein Unternehmen oder ein anderer Wert sein. Der Kaufpreis plus bestimmte Kosten wird oft als Anschaffungskosten bezeichnet.
+Ein Kapitalgewinn ist der Gewinn, den du erzielst, wenn du einen Vermögenswert – etwa eine Aktie oder eine Immobilie – für mehr verkaufst, als du dafür bezahlt hast. Die Grundberechnung ist einfach: Verkaufspreis minus Kaufpreis (oft „Anschaffungskosten“ oder „Basis“ genannt) ergibt den Gewinn. Wird der Vermögenswert unter seinen Anschaffungskosten verkauft, entsteht stattdessen ein Kapitalverlust. (In Deutschland unterliegen Kursgewinne aus Wertpapieren in der Regel der Abgeltungsteuer, mit einem jährlichen Sparer-Pauschbetrag; Sätze und Freibeträge ändern sich.)
 
-Die Grundrechnung lautet: Verkaufspreis minus Anschaffungskosten. Ist das Ergebnis positiv, ist es ein Gewinn. Ist es negativ, ist es ein Verlust. In vielen Systemen können Verluste mit Gewinnen verrechnet werden.
-
-Wichtig: In der Regel wird der Gewinn erst besteuert, wenn du verkaufst. Wenn deine Aktie gestiegen ist, du sie aber nicht verkauft hast, ist der Gewinn nur "auf dem Papier". Viele Systeme behandeln Kapitalgewinne anders als Lohn, manchmal mit anderen Sätzen.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+Eine wichtige Feinheit: In den meisten Systemen wird ein Gewinn erst dann „realisiert“ und in der Regel erst dann steuerpflichtig, wenn der Vermögenswert tatsächlich verkauft wird. Wenn sich der Wert einer Aktie verdoppelt, du sie aber nie verkaufst, schuldest du auf diesen Anstieg in der Regel noch keine Steuer – es ist ein nicht realisierter Gewinn, ein „Buchgewinn“. Diese Unterscheidung ist für die Anlageplanung wichtig, weil der Verkauf eines im Wert gestiegenen Vermögenswerts oft eine bewusste, zeitlich steuerbare Entscheidung mit steuerlichen Folgen ist und nicht automatisch passiert, nur weil der Wert gestiegen ist.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Eine Anlegerin kauft eine Aktie für 1.000 $. Zwei Jahre später ist sie 3.000 $ wert, aber sie hat sie nicht verkauft. Schuldet sie jetzt Steuer auf einen Kapitalgewinn?
 
-**Lehrer:** Amanda hat Aktien für $2.000 gekauft und für $2.600 verkauft. Wie hoch ist der Gewinn?
+**Schüler:** Nach dieser Lektion eher noch nicht, weil der Gewinn nicht durch einen Verkauf realisiert wurde.
 
-**Schüler:** $600.
+**Lernbegleiter:** Was würde die Steuer auslösen, und wie würde sie berechnet, wenn sie für 3.000 $ verkauft?
 
-**Lehrer:** Und wenn sie nicht verkauft hätte und die Aktien $2.600 wert wären?
+**Schüler:** Der Verkauf würde sie auslösen – der Gewinn wäre 3.000 $ minus ihre Anschaffungskosten von 1.000 $, also ein Kapitalgewinn von 2.000 $.
 
-**Schüler:** Dann ist der Gewinn noch nicht wirklich entstanden, nur auf dem Papier.
-
-**Lehrer:** Und wenn sie für $1.700 verkauft hätte?
-
-**Schüler:** Dann wäre es ein Verlust von $300.
+**Lernbegleiter:** Genau – und diesen Zeitpunkt kann sie bis zu einem gewissen Grad selbst bestimmen, was ein echter Planungshebel ist.
 
 ## Übungsquiz
 
-**1.** Ein Kapitalgewinn ist...
+**Frage 1.** Ein Kapitalgewinn wird berechnet als:
 
-- A) Das Monatsgehalt
-- B) Die Höhe eines Kredits
-- C) Die Verkaufssteuer
-- D) Der Gewinn aus dem Verkauf eines Werts über dem Kaufpreis
+A) Kaufpreis minus Verkaufspreis
+B) Verkaufspreis minus Kaufpreis (Anschaffungskosten)
+C) Nur der Kaufpreis
+D) Ein vom Staat festgelegter Betrag
 
-**2.** Kauf für $5.000 und Verkauf für $6.500. Wie hoch ist der Gewinn?
+**Frage 2.** Wird ein Vermögenswert unter seinen Anschaffungskosten verkauft, nennt man das:
 
-- A) $1.500
-- B) $6.500
-- C) $5.000
-- D) $11.500
+A) Kapitalgewinn
+B) Kapitalverlust
+C) Steuergutschrift
+D) Erstattung
 
-**3.** Wann wird ein Kapitalgewinn in der Regel besteuert?
+**Frage 3.** Ein Kapitalgewinn wird in der Regel besteuert:
 
-- A) Jeden Monat, auch ohne Verkauf
-- B) Beim Verkauf des Werts
-- C) Nie
-- D) Beim Kauf
+A) Sobald der Wert steigt, unabhängig vom Verkauf
+B) Wenn der Gewinn realisiert wird, typischerweise beim Verkauf
+C) Nie
+D) Nur bei Immobilien
 
-**4.** Kauf für $3.000 und Verkauf für $2.400. Das Ergebnis ist...
+**Frage 4.** Ein nicht realisierter Gewinn oder „Buchgewinn“ bezeichnet:
 
-- A) Gewinn von $600
-- B) Gewinn von $2.400
-- C) Verlust von $600
-- D) Null
+A) Einen bereits versteuerten Gewinn
+B) Einen Wertanstieg, der noch nicht durch einen Verkauf gesichert wurde
+C) Eine Art Steuergutschrift
+D) Einen Kapitalverlust
 
 ## Lösungsschlüssel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. D) Der Gewinn aus dem Verkauf eines Werts über dem Kaufpreis** — Es ist die positive Differenz zwischen Verkauf und Anschaffung.
+**1.** Die Berechnung vergleicht, wofür du den Vermögenswert verkauft hast, mit dem, was du ursprünglich bezahlt hast.
 
-**2. A) $1.500** — $6.500 − $5.000 = $1.500.
+**2.** Ein Verlust ist einfach das Spiegelbild eines Gewinns – ein Verkauf unter den ursprünglichen Anschaffungskosten.
 
-**3. B) Beim Verkauf des Werts** — Gewinne auf dem Papier werden normalerweise nicht besteuert.
+**3.** Die Realisierung durch Verkauf ist in den meisten Systemen der allgemeine Auslöser für die Besteuerung von Kapitalgewinnen.
 
-**4. C) Verlust von $600** — Der Verkaufspreis lag unter den Anschaffungskosten.
+**4.** Der Wert kann auf dem Papier steigen, ohne Steuer auszulösen, weil noch nichts verkauft wurde.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Kapitalgewinn = Verkaufspreis − Anschaffungskosten
-- Wird normalerweise erst beim Verkauf besteuert
-- Verluste können in vielen Systemen Gewinne ausgleichen
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Ein Kapitalgewinn ist Verkaufspreis minus Kaufpreis (Anschaffungskosten).
+- Ein Verkauf unter den Anschaffungskosten führt stattdessen zu einem Kapitalverlust.
+- Gewinne werden in der Regel bei Realisierung besteuert – typischerweise beim Verkauf.
+- Nicht realisierte Gewinne werden noch nicht besteuert; deshalb ist der Verkaufszeitpunkt eine echte Planungsentscheidung.

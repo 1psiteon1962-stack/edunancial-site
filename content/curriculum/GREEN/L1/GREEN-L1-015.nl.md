@@ -5,102 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 15
 locale: nl
-title: "Het verschil tussen een aftrekpost en een belastingkorting"
-summary: "Verheldert een van de meest verwarde begrippenparen in belastingkennis: aftrekposten verlagen je belastbaar inkomen, belastingkortingen verlagen direct de verschuldigde belasting."
+title: "Het verschil tussen een belastingaftrek en een heffingskorting"
+summary: "Verduidelijkt een van de meest verwarde begrippenparen bij belastingkennis: aftrekposten verlagen het belastbaar inkomen, heffingskortingen verlagen direct de verschuldigde belasting."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Het verschil tussen een aftrekpost en een belastingkorting
+# Het verschil tussen een belastingaftrek en een heffingskorting
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Aftrekpost en belastingkorting definiëren
-- Het effect van beide op de belasting berekenen
-- Uitleggen waarom een korting meestal meer waard is dan een even grote aftrekpost
+- Een belastingaftrek definiëren.
+- Een heffingskorting (belastingkrediet) definiëren.
+- Uitleggen waarom een korting dollar voor dollar meestal meer waard is dan een aftrek.
 
 ## Kerninhoud
 
-Een aftrekpost verlaagt het inkomen waarover de belasting wordt berekend. Je haalt een bedrag van je belastbaar inkomen af en past pas daarna het tarief toe. Wat je echt bespaart, hangt af van je tarief.
+Een belastingaftrek verlaagt het deel van je inkomen waarover belasting wordt geheven. Een heffingskorting (in het Engels "tax credit") verlaagt de belasting zelf direct, dollar voor dollar. Dat klinkt vergelijkbaar, maar het effect verschilt aanzienlijk. (Ook in Nederland bestaan beide: aftrekposten verlagen het belastbaar inkomen, heffingskortingen verlagen de te betalen belasting.)
 
-Een belastingkorting (tax credit) verlaagt direct de verschuldigde belasting, dollar voor dollar. Als je $3.000 verschuldigd bent en $500 korting hebt, betaal je nog maar $2.500. In Nederland werken heffingskortingen op een vergelijkbare manier.
+Stel dat iemand in een marginale schijf van 20% zit. Een aftrek van $ 1.000 verlaagt het belastbaar inkomen met $ 1.000, wat ongeveer $ 200 aan belasting scheelt (20% van $ 1.000). Een korting van $ 1.000 verlaagt de belasting daarentegen met de volle $ 1.000, ongeacht de schijf. Daarom is een korting dollar voor dollar meestal meer waard dan een aftrek – de waarde van een korting hangt niet zo van je tarief af als de waarde van een aftrek.
 
-Daarom is een korting van $1.000 meestal veel meer waard dan een aftrekpost van $1.000. Onthoud: de aftrekpost verandert het inkomen, de korting verandert de belasting.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Beide instrumenten verlagen wat je verschuldigd bent, alleen via een ander mechanisme: aftrekposten verkleinen de grondslag waarover belasting wordt berekend, kortingen verkleinen de eindrekening zelf.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een vriend zegt: "Een aftrek van $ 1.000 en een korting van $ 1.000 zijn eigenlijk hetzelfde." Heeft hij gelijk?
 
-**Docent:** In ons voorbeeld heeft Lucia een tarief van 20%. Ze kan kiezen tussen een aftrekpost van $1.000 of een korting van $1.000. Hoeveel bespaart ze met de aftrekpost?
+**Cursist:** Ik denk het niet – het ene verlaagt het belastbaar inkomen, het andere verlaagt de belasting direct.
 
-**Leerling:** Haar inkomen daalt met $1.000... dus ze bespaart 20% daarvan, $200.
+**Begeleider:** Welke bespaart meestal meer geld, en waarom?
 
-**Docent:** En met de korting?
+**Cursist:** De korting, omdat die de volle $ 1.000 van het verschuldigde bedrag afhaalt, terwijl de aftrek maar een percentage van $ 1.000 bespaart, afhankelijk van je tarief.
 
-**Leerling:** De korting gaat direct van de belasting af. Ze bespaart $1.000.
-
-**Docent:** Wat moet ze kiezen?
-
-**Leerling:** De korting, zonder twijfel.
+**Begeleider:** Precies – hetzelfde bedrag, een ander mechanisme, een ander effect.
 
 ## Oefenquiz
 
-**1.** Een aftrekpost verlaagt...
+**Vraag 1.** Een belastingaftrek verlaagt:
 
-- A) Direct de verschuldigde belasting
-- B) Het brutoloon
-- C) Het tarief van het land
-- D) Het belastbaar inkomen
+A) Het belastbaar inkomen
+B) De belasting direct, dollar voor dollar
+C) Niets
+D) Alleen de omzetbelasting
 
-**2.** Een belastingkorting verlaagt...
+**Vraag 2.** Een heffingskorting verlaagt:
 
-- A) Direct de verschuldigde belasting
-- B) Het belastbaar inkomen
-- C) Het aantal schijven
-- D) De bankrente
+A) Het belastbaar inkomen
+B) De belasting direct, dollar voor dollar
+C) Niets
+D) Alleen de onroerendgoedbelasting
 
-**3.** Bij een tarief van 25% (voorbeeld) bespaart een aftrekpost van $2.000...
+**Vraag 3.** Wat is dollar voor dollar meestal meer waard?
 
-- A) $2.000
-- B) $500
-- C) $250
-- D) $25
+A) Een aftrek
+B) Een korting
+C) Ze zijn altijd gelijk
+D) Geen van beide heeft waarde
 
-**4.** Wat is meestal meer waard: een korting van $500 of een aftrekpost van $500?
+**Vraag 4.** Een aftrek van $ 1.000 bespaart iemand in een schijf van 20% ongeveer:
 
-- A) De aftrekpost
-- B) Altijd even veel
-- C) De korting
-- D) Geen van beide
+A) $ 1.000
+B) $ 200
+C) $ 0
+D) $ 2.000
 
 ## Antwoordsleutel
 
-1. D
-2. A
-3. B
-4. C
+1. A, 2. B, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. D) Het belastbaar inkomen** — De aftrekpost verkleint de basis waarover belasting wordt berekend.
+**1.** Aftrekposten werken door het deel van het inkomen te verkleinen waarover belasting wordt geheven.
 
-**2. A) Direct de verschuldigde belasting** — De korting gaat dollar voor dollar van de belasting af.
+**2.** Kortingen werken door de uiteindelijke belasting direct te verlagen, ongeacht het tarief.
 
-**3. B) $500** — 25% van $2.000 = $500.
+**3.** Omdat de waarde van een korting niet van je schijf afhangt, is die per dollar meestal meer waard dan een aftrek.
 
-**4. C) De korting** — De korting verlaagt de belasting volledig; de aftrekpost alleen naar je tarief.
+**4.** 20% van een aftrek van $ 1.000 is ongeveer $ 200 werkelijke belastingbesparing, tegenover de volle $ 1.000 bij een korting.
 
 ## Belangrijkste punten
 
-- Een aftrekpost verlaagt het belastbaar inkomen
-- Een korting verlaagt de belasting, dollar voor dollar
-- Een korting is meestal meer waard dan een even grote aftrekpost
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Aftrekposten verlagen het belastbaar inkomen; kortingen verlagen de belasting direct.
+- De waarde van een korting hangt niet af van je schijf; de waarde van een aftrek wel.
+- Dollar voor dollar zijn kortingen meestal meer waard dan aftrekposten.
+- Beide instrumenten verlagen wat je verschuldigd bent, maar via een ander mechanisme.

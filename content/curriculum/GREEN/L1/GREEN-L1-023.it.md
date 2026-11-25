@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-023
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 23
-title: "L'imposta sul lavoro autonomo: che cosa devono freelance e titolari d'impresa"
-source_title: "Self-Employment Tax: What Freelancers and Business Owners Owe"
-description: "Parte dalla lezione sui contributi sui salari per spiegare perché i lavoratori autonomi pagano sia la quota del datore di lavoro sia quella del dipendente."
-slug: self-employment-tax-what-freelancers-and-business-owners-owe
-seo_title: "L'imposta sul lavoro autonomo: che cosa devono freelance e titolari d'impresa | Edunancial"
-meta_description: "Parte dalla lezione sui contributi sui salari per spiegare perché i lavoratori autonomi pagano sia la quota del datore di lavoro sia quella del dipendente."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 23
-summary: "Parte dalla lezione sui contributi sui salari per spiegare perché i lavoratori autonomi pagano sia la quota del datore di lavoro sia quella del dipendente."
+locale: it
+title: "I contributi dei lavoratori autonomi: che cosa devono freelance e imprenditori"
+summary: "Si basa sulla lezione sui contributi sugli stipendi per spiegare perché i lavoratori autonomi devono spesso sia la quota del datore di lavoro sia quella del lavoratore."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-023: L'imposta sul lavoro autonomo: che cosa devono freelance e titolari d'impresa
+# I contributi dei lavoratori autonomi: che cosa devono freelance e imprenditori
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Ricordare come si dividono i contributi sui salari
-- Spiegare perché l'autonomo paga entrambe le quote
-- Includere questo costo nel prezzo dei propri servizi
+- Ricordare come i contributi sugli stipendi sono ripartiti tra datore di lavoro e lavoratore.
+- Spiegare perché un lavoratore autonomo deve spesso entrambe le quote.
+- Riconoscere questo aspetto come un punto chiave di pianificazione per freelance e piccoli imprenditori.
 
 ## Contenuto principale
 
-Ricordi che, per il dipendente, i contributi sui salari sono spesso divisi tra lui e il datore di lavoro? Quando lavori in proprio, sei entrambe le cose insieme: lavoratore e datore di lavoro.
+Hai già visto che i contributi sugli stipendi sono spesso ripartiti tra datore di lavoro e lavoratore: una parte viene trattenuta dallo stipendio, una parte viene pagata separatamente dal datore di lavoro. Quando sei autonomo, in pratica sei sia il datore di lavoro sia il lavoratore. Molti sistemi ne tengono conto chiedendo ai lavoratori autonomi di versare una forma di contributi che copre entrambe le quote: negli Stati Uniti si chiama "self-employment tax". (In Italia, per esempio, chi ha partita IVA versa i contributi alla gestione INPS di riferimento o alla propria cassa professionale interamente a proprio carico; aliquote e regole cambiano.)
 
-Per questo, in molti sistemi, l'autonomo paga entrambe le quote. Negli Stati Uniti si chiama self-employment tax. Questo costo si aggiunge all'imposta sul reddito, e molti che iniziano a lavorare in proprio ne restano sorpresi. In altri Paesi esistono contributi simili, per esempio verso la previdenza.
+È uno dei costi più sottovalutati del lavoro autonomo. Un nuovo freelance che confronta il totale delle sue fatture con la busta paga di un dipendente con un reddito equivalente può sottovalutare molto il proprio carico reale, se dimentica che, come impresa di una sola persona, copre entrambe le parti di questi contributi. Capirlo in anticipo, e mettere da parte il denaro di conseguenza, evita una brutta sorpresa al momento della dichiarazione.
 
-La lezione pratica è: quando fissa i prezzi, l'autonomo deve includere questo costo. Chiedere la stessa tariffa oraria che guadagna un dipendente di solito lascia all'autonomo meno denaro alla fine, perché paga anche contributi extra e attrezzature e non ha benefit pagati da un'azienda.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Una freelance confronta i suoi 80.000 $ di fatture annue con il lavoro dipendente da 80.000 $ di un'amica e pensa che la loro situazione fiscale sia praticamente uguale. È così?
 
-## Esempio pratico
+**Studente:** Probabilmente no, perché il datore di lavoro dell'amica copre automaticamente metà dei contributi.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Che cosa significa questo per il carico reale della freelance rispetto a quello dell'amica?
 
-**Insegnante:** Una dipendente e un freelance guadagnano entrambi $50.000 l'anno. Chi paga più contributi di tasca propria?
+**Studente:** Probabilmente deve di più in contributi complessivi, perché è responsabile da sola sia della quota del datore di lavoro sia di quella del lavoratore.
 
-**Studente:** La dipendente?
+**Guida:** Esatto: stesso reddito sulla carta, realtà fiscale molto diversa.
 
-**Insegnante:** Chi paga la quota del datore di lavoro nel caso del freelance?
+## Quiz di esercitazione
 
-**Studente:** Nessun altro... lui stesso.
+**Domanda 1.** I contributi dei lavoratori autonomi coprono in genere:
 
-**Insegnante:** Quindi?
+A) Solo la quota del lavoratore dei contributi sugli stipendi
+B) Sia la quota del datore di lavoro sia quella del lavoratore
+C) Solo l'imposta sulle vendite
+D) Solo l'imposta sugli immobili
 
-**Studente:** Il freelance paga entrambe le quote. Per questo deve chiedere di più.
+**Domanda 2.** Perché un lavoratore autonomo deve spesso più contributi di un dipendente equivalente?
 
-## Quiz di verifica
+A) Guadagna automaticamente di più
+B) Deve coprire da solo sia la quota del datore di lavoro sia quella del lavoratore
+C) Gli autonomi sono tassati con aliquote casuali
+D) Non è vero: gli importi sono sempre identici
 
-**1.** Perché l'autonomo paga entrambe le quote dei contributi?
+**Domanda 3.** Qual è una conseguenza pratica del sottovalutare i contributi da autonomo?
 
-- A) Perché guadagna di più
-- B) Per punizione
-- C) Perché non paga l'imposta sul reddito
-- D) Perché è lavoratore e datore di lavoro insieme
+A) Nessuna conseguenza
+B) Una brutta sorpresa o un ammanco al momento della dichiarazione
+C) Un rimborso automatico
+D) Uno stato ai fini della dichiarazione più basso
 
-**2.** Questo costo sostituisce l'imposta sul reddito?
+**Domanda 4.** Qual è il modo consigliato per evitare questa sorpresa?
 
-- A) No, è un costo aggiuntivo
-- B) Sì
-- C) Solo negli anni pari
-- D) Solo per le grandi imprese
+A) Ignorarla fino alla dichiarazione
+B) Capire in anticipo il carico reale e mettere da parte il denaro di conseguenza
+C) Spendere subito tutti gli incassi delle fatture
+D) Evitare qualsiasi lavoro autonomo
 
-**3.** Qual è la lezione pratica per fissare i prezzi?
+## Soluzioni
 
-- A) Chiedere quanto guadagna un dipendente
-- B) Includere imposte e costi extra nel prezzo
-- C) Chiedere il meno possibile
-- D) Non cambiare mai prezzo
-
-**4.** Negli Stati Uniti, questa imposta si chiama...
-
-- A) Sales tax
-- B) Property tax
-- C) Self-employment tax
-- D) Gift tax
-
-## Chiave delle risposte
-
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. D) Perché è lavoratore e datore di lavoro insieme** — Non c'è un altro datore di lavoro che paghi l'altra quota.
+**1.** I contributi dei lavoratori autonomi sono in sostanza il meccanismo per riscuotere entrambe le quote da una sola persona.
 
-**2. A) No, è un costo aggiuntivo** — Si aggiunge all'imposta sul reddito.
+**2.** Essere insieme datore di lavoro e lavoratore significa dover rispondere di entrambe le quote.
 
-**3. B) Includere imposte e costi extra nel prezzo** — Il prezzo deve coprire questi costi aggiuntivi.
+**3.** Sottovalutare questo costo è una trappola comune che porta a un conto più alto del previsto.
 
-**4. C) Self-employment tax** — Self-employment tax è il nome usato negli Stati Uniti.
+**4.** La difesa pratica è la consapevolezza e il risparmio in anticipo, invece di reagire a cose fatte.
 
 ## Punti chiave
 
-- L'autonomo è lavoratore e datore di lavoro insieme
-- Per questo paga entrambe le quote, oltre all'imposta sul reddito
-- Includi questo costo nel prezzo dei tuoi servizi
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- I lavoratori autonomi devono spesso sia la quota del datore di lavoro sia quella del lavoratore.
+- Il reddito da lavoro autonomo ha quindi un carico molto diverso rispetto a uno stipendio equivalente.
+- È uno dei costi più sottovalutati del lavoro autonomo.
+- Pianificare in anticipo e mettere da parte il denaro evita una brutta sorpresa al momento della dichiarazione.

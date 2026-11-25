@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 7
 locale: pt-BR
-title: "Imposto Sobre a Folha de Pagamento: Previdência Social e Medicare"
-summary: "Apresenta o imposto sobre a folha como uma categoria ligada especificamente aos salários do emprego, geralmente financiando programas de aposentadoria e saúde."
+title: "Tributos sobre a folha: Social Security e Medicare"
+summary: "Apresenta os tributos sobre a folha como uma categoria ligada especificamente aos salários, que muitas vezes financia programas de aposentadoria e saúde."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre a Folha de Pagamento: Previdência Social e Medicare
+# Tributos sobre a folha: Social Security e Medicare
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Definir os tributos sobre a folha e explicar em que diferem do imposto de renda em geral.
+- Explicar que os tributos sobre a folha costumam ser divididos entre empregador e empregado.
+- Identificar programas comuns financiados pelos tributos sobre a folha.
 
-- Explicar o que é imposto sobre a folha de pagamento
-- Entender que ele financia programas de aposentadoria e saúde
-- Diferenciar o imposto sobre a folha do imposto de renda
+## Conteúdo principal
 
-## Conteúdo Principal
+Os tributos sobre a folha (nos EUA, "payroll tax", por exemplo para Social Security e Medicare; no Brasil, o mais parecido são as contribuições ao INSS e encargos como o FGTS) estão ligados especificamente aos salários. Eles têm relação com o imposto de renda, mas são diferentes dele: enquanto o imposto de renda financia os gastos gerais do governo, os tributos sobre a folha costumam ser destinados a programas específicos, geralmente previdência e seguros de saúde.
 
-O imposto sobre a folha de pagamento é calculado sobre os salários de quem trabalha como empregado. Nos Estados Unidos, os exemplos mais conhecidos são a Social Security (Previdência Social, que paga aposentadorias) e o Medicare (programa de saúde para idosos). Outros países têm contribuições parecidas com nomes diferentes.
+Em muitos sistemas, esses tributos são divididos: uma parte é descontada do salário do empregado e outra parte é paga diretamente pelo empregador, além do salário. Ou seja, o custo real de um funcionário para a empresa é maior do que o valor do contracheque. Essa divisão vai importar mais adiante, quando falarmos da tributação de quem trabalha por conta própria, porque o autônomo muitas vezes acaba responsável pelas duas partes.
 
-Em muitos sistemas, o custo é dividido: uma parte é descontada do salário do empregado e outra parte é paga pelo empregador. Por isso, o custo real de contratar alguém é maior do que o salário que aparece no contracheque.
+## Exemplo prático
 
-Esse imposto é diferente do imposto de renda. O imposto de renda vai para o orçamento geral. O imposto sobre a folha costuma ser destinado a programas específicos, como aposentadoria e saúde.
+**Pergunta:** Um empregador paga o salário de um trabalhador e, separadamente, envia ao governo um valor adicional de tributos sobre a folha. A parte do empregador faz parte do salário do trabalhador?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Eu diria que é separada, já que o trabalhador nunca vê esse dinheiro.
 
-## Exemplo Prático
+**Guia:** Certo, mas ainda assim é um custo de ter esse trabalhador?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Sim: é um custo extra além do salário, mesmo que não apareça no contracheque.
 
-**Professor:** João ganha $3.000 por mês. No contracheque dele aparecem dois descontos com nomes diferentes. Por que você acha que são dois?
+**Guia:** Exatamente, e é por isso que o "custo de um funcionário" costuma ser maior do que só o salário.
 
-**Aluno:** Um deve ser o imposto de renda.
+## Teste de prática
 
-**Professor:** E o outro?
+**Pergunta 1.** Os tributos sobre a folha estão ligados especificamente a:
 
-**Aluno:** O imposto sobre a folha, para aposentadoria e saúde.
+A) Imóveis
+B) Salários do trabalho
+C) Compras no varejo
+D) Heranças
 
-**Professor:** E a empresa também paga alguma coisa?
+**Pergunta 2.** Os tributos sobre a folha costumam financiar:
 
-**Aluno:** Em muitos sistemas, sim. A empresa paga a parte dela, além do salário do João.
+A) Programas de aposentadoria e saúde
+B) Só a construção de estradas
+C) Só a defesa nacional
+D) Nada específico
 
-## Quiz de Prática
+**Pergunta 3.** Em muitos sistemas, os tributos sobre a folha são:
 
-**1.** Sobre o que incide o imposto sobre a folha?
+A) Pagos só pelo empregador
+B) Pagos só pelo empregado
+C) Divididos entre empregador e empregado
+D) Nunca pagos de fato
 
-- A) Compras
-- B) Imóveis
-- C) Heranças
-- D) Salários do emprego
+**Pergunta 4.** O custo real de ter um funcionário muitas vezes é:
 
-**2.** O que esse imposto costuma financiar?
-
-- A) Programas de aposentadoria e saúde
-- B) Estradas
-- C) Festas públicas
-- D) Bancos privados
-
-**3.** Em muitos sistemas, quem paga o imposto sobre a folha?
-
-- A) Só o empregado
-- B) Empregado e empregador dividem
-- C) Só o empregador
-- D) Ninguém
-
-**4.** Qual a diferença principal para o imposto de renda?
-
-- A) Não há diferença
-- B) O imposto de renda só existe para empresas
-- C) O imposto sobre a folha costuma ir para programas específicos
-- D) O imposto sobre a folha é voluntário
+A) Exatamente o valor do contracheque
+B) Maior que o salário, por causa da parte do empregador
+C) Menor que o salário
+D) Sem relação com os tributos sobre a folha
 
 ## Gabarito
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. C, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Salários do emprego** — Ele é calculado sobre os salários pagos.
+**1.** Os tributos sobre a folha diferem do imposto de renda em geral porque estão ligados especificamente aos salários.
 
-**2. A) Programas de aposentadoria e saúde** — Nos EUA, por exemplo, financia a Social Security e o Medicare.
+**2.** Os sistemas de aposentadoria e os seguros de saúde costumam ser financiados com tributos sobre a folha destinados a eles.
 
-**3. B) Empregado e empregador dividem** — É comum dividir o custo entre as duas partes.
+**3.** A divisão entre empregador e empregado é uma escolha estrutural comum em muitos sistemas.
 
-**4. C) O imposto sobre a folha costuma ir para programas específicos** — O imposto de renda vai para o orçamento geral; o da folha costuma ter destino específico.
+**4.** Como o empregador paga uma parte além do salário, o custo total de um funcionário é maior que o contracheque dele.
 
-## Principais Lições
+## Pontos-chave
 
-- O imposto sobre a folha incide sobre salários
-- Costuma financiar aposentadoria e saúde
-- Empregado e empregador frequentemente dividem o custo
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Os tributos sobre a folha estão ligados especificamente aos salários e são diferentes do imposto de renda em geral.
+- Eles costumam financiar programas de aposentadoria e saúde.
+- Muitos sistemas dividem esses tributos entre empregador e empregado.
+- Essa divisão fica especialmente importante para quem trabalha por conta própria, como uma lição posterior vai mostrar.

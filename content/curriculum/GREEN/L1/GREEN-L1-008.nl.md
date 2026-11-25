@@ -5,98 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 8
 locale: nl
-title: "Progressieve vs. regressieve belastingen"
+title: "Progressieve en regressieve belastingen"
 summary: "Legt het verschil uit tussen progressieve en regressieve belastingstructuren met eenvoudige, herkenbare vergelijkingen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Progressieve vs. regressieve belastingen
+# Progressieve en regressieve belastingen
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Een progressieve belasting definiëren
-- Een regressieve belasting definiëren
-- Eenvoudige voorbeelden indelen in een van beide categorieën
+- Een progressieve belastingstructuur definiëren.
+- Een regressieve belastingstructuur definiëren.
+- Voorbeelden uit de praktijk van beide herkennen.
 
 ## Kerninhoud
 
-Een progressieve belasting vraagt een hoger percentage van wie meer verdient. Het idee: wie meer kan dragen, betaalt een groter deel. Veel inkomstenbelastingstelsels werken zo.
+Een progressieve belasting neemt een groter percentage af van mensen met een hoger inkomen of vermogen. De meeste inkomstenbelastingstelsels zijn zo opgebouwd: hoe meer je verdient, hoe hoger het percentage waartegen je inkomen (meestal alleen het deel boven bepaalde drempels) wordt belast.
 
-Een regressieve belasting drukt naar verhouding zwaarder op wie minder verdient. Dat gebeurt zelfs als het tarief voor iedereen gelijk is. Consumptiebelasting is het klassieke voorbeeld: iedereen betaalt hetzelfde percentage bij de aankoop, maar voor lage inkomens is dat een groter deel van hun inkomen.
+Een regressieve belasting neemt daarentegen in feite een groter percentage af van mensen met een lager inkomen, ook al lijkt het tarief voor iedereen gelijk. Omzetbelasting is een veelvoorkomend voorbeeld: als twee mensen elk hetzelfde artikel van $ 50 kopen en dezelfde omzetbelasting betalen, is die belasting een veel groter deel van het totale geld van iemand met een laag inkomen dan van iemand met een hoog inkomen. Het bedrag is gelijk, de last niet.
 
-Er is ook de proportionele belasting, of vlaktaks, die van iedereen hetzelfde percentage van het inkomen vraagt. Als je deze structuren begrijpt, kun je debatten over wie hoeveel moet betalen volgen, zonder partij te hoeven kiezen.
+Geen van beide structuren is op zichzelf "goed" of "fout": het zijn instrumenten met verschillende effecten, en echte belastingstelsels combineren meestal progressieve en regressieve elementen. Begrijpen in welke categorie een belasting valt, helpt je in te schatten wie er werkelijk de grootste last van draagt.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Twee mensen betalen elk $ 5 omzetbelasting op dezelfde aankoop. De een verdient $ 2.000 per maand, de ander $ 20.000 per maand. Werkt de belasting progressief of regressief?
 
-**Docent:** Twee mensen kopen dezelfde telefoon en betalen $50 belasting. Eén verdient $1.000 per maand, de ander $10.000. Welk percentage van hun inkomen betaalden ze?
+**Cursist:** Het bedrag is gelijk, dus op het eerste gezicht lijkt het eerlijk.
 
-**Leerling:** De eerste 5%. De tweede 0,5%.
+**Begeleider:** Maar welk percentage van ieders inkomen is die $ 5?
 
-**Docent:** Het bedrag was gelijk. Maar drukte het even zwaar?
+**Cursist:** Een veel groter deel voor wie $ 2.000 verdient dan voor wie $ 20.000 verdient.
 
-**Leerling:** Nee. Voor de lage verdiener tien keer zo zwaar.
-
-**Docent:** Dat is een regressief effect.
+**Begeleider:** Klopt – gelijke bedragen kunnen in de praktijk ongelijk uitpakken, en dat is het regressieve patroon.
 
 ## Oefenquiz
 
-**1.** Een progressieve belasting...
+**Vraag 1.** Een progressieve belasting neemt:
 
-- A) Vraagt een hoger percentage van wie meer verdient
-- B) Vraagt iedereen hetzelfde bedrag
-- C) Drukt zwaarder op wie minder verdient
-- D) Bestaat alleen voor bedrijven
+A) Een kleiner percentage af van hogere inkomens
+B) Een groter percentage af van hogere inkomens
+C) Hetzelfde percentage af van iedereen, ongeacht inkomen
+D) Niets af van wie dan ook
 
-**2.** Waarom is consumptiebelasting vaak regressief?
+**Vraag 2.** Een regressieve belasting belast in feite:
 
-- A) Omdat het tarief voor armen hoger is
-- B) Omdat het een groter deel van het inkomen van lage inkomens is
-- C) Omdat alleen rijken het betalen
-- D) Omdat er geen tarief is
+A) Hogere inkomens zwaarder
+B) Lagere inkomens zwaarder, als deel van het inkomen
+C) Niemand
+D) Alleen bedrijven
 
-**3.** Een belasting die van iedereen hetzelfde percentage van het inkomen vraagt, heet...
+**Vraag 3.** Omzetbelasting wordt vaak regressief genoemd omdat:
 
-- A) Progressief
-- B) Regressief
-- C) Proportioneel
-- D) Negatief
+A) Ze verboden is
+B) Gelijke bedragen een groter deel van een lager inkomen zijn
+C) Ze alleen voor rijken geldt
+D) Ze elke dag verandert
 
-**4.** Wat is het doel van deze les?
+**Vraag 4.** Echte belastingstelsels:
 
-- A) Zeggen welk stelsel het beste is
-- B) Leren geen belasting te betalen
-- C) Landen vergelijken
-- D) Begrijpen hoe elke structuur werkt
+A) Zijn altijd zuiver progressief
+B) Zijn altijd zuiver regressief
+C) Combineren vaak progressieve en regressieve elementen
+D) Combineren nooit belastingsoorten
 
 ## Antwoordsleutel
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. C
 
 ## Antwoorden en uitleg
 
-**1. A) Vraagt een hoger percentage van wie meer verdient** — Progressief betekent dat het percentage stijgt met het inkomen.
+**1.** Progressieve stelsels verhogen het tarief naarmate het inkomen stijgt, meestal alleen op de delen boven vastgestelde drempels.
 
-**2. B) Omdat het een groter deel van het inkomen van lage inkomens is** — Het tarief is gelijk, maar het aandeel van het inkomen is groter bij lage inkomens.
+**2.** Regressieve belastingen nemen verhoudingsgewijs meer af van lagere inkomens, zelfs als het bedrag gelijk is.
 
-**3. C) Proportioneel** — Proportioneel, of vlaktaks, gebruikt voor iedereen hetzelfde tarief.
+**3.** Dezelfde belasting van $ 5 is een groter deel van een kleiner inkomen: dat is de kern van een regressief effect.
 
-**4. D) Begrijpen hoe elke structuur werkt** — Het gaat om begrip, niet om een politiek standpunt.
+**4.** De meeste echte stelsels combineren progressieve elementen (zoals schijven in de inkomstenbelasting) met regressieve elementen (zoals een vaste omzetbelasting).
 
 ## Belangrijkste punten
 
-- Progressief: wie meer verdient, betaalt een hoger percentage
-- Regressief: drukt naar verhouding zwaarder op lage inkomens
-- De structuren kennen helpt je publieke debatten te volgen
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Progressieve belastingen stijgen als percentage naarmate het inkomen hoger is.
+- Regressieve belastingen nemen verhoudingsgewijs meer af van lagere inkomens, zelfs bij gelijke bedragen.
+- Omzetbelasting wordt vaak als regressief voorbeeld genoemd.
+- De meeste echte stelsels mengen beide structuren in plaats van er maar één te gebruiken.

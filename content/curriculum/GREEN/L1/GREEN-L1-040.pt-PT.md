@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 40
 locale: pt-PT
-title: "Impostos Sobre as Empresas: Como São Tributadas as Sociedades"
-summary: "Apresenta o conceito geral de uma sociedade como entidade tributável separada dos seus donos."
+title: "Impostos sobre as empresas: como são tributadas as sociedades"
+summary: "Apresenta o conceito geral de uma sociedade como sujeito passivo de imposto, separado dos seus donos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Impostos Sobre as Empresas: Como São Tributadas as Sociedades
+# Impostos sobre as empresas: como são tributadas as sociedades
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Explicar o conceito de sociedade como sujeito passivo de imposto distinto.
+- Distinguir o imposto ao nível da sociedade do imposto devido pelos seus donos.
+- Preparar o conceito de dupla tributação, tratado na próxima lição.
 
-- Explicar o que é uma sociedade para efeitos fiscais
-- Perceber que paga imposto sobre o seu próprio lucro
-- Preparar a base para o conceito de dupla tributação
+## Conteúdo principal
 
-## Conteúdo Principal
+Em muitos sistemas jurídicos e fiscais, uma sociedade é tratada como uma pessoa coletiva própria, separada das pessoas que são donas dela. Uma consequência disso é que a própria sociedade pode estar sujeita a imposto sobre o seu lucro, independentemente de qualquer imposto que os seus donos (sócios ou acionistas) possam dever em separado. (Em Portugal, por exemplo, as sociedades pagam IRC sobre o lucro, podendo também haver derrama municipal e estadual; as taxas mudam.)
 
-Uma sociedade, como uma sociedade anónima ou, nos EUA, uma corporation, é uma empresa que a lei trata como uma "pessoa" separada dos seus donos. Pode ter bens, fazer contratos e, em muitos sistemas, pagar imposto em seu próprio nome. Em Portugal, este imposto é o IRC.
+É uma estrutura bem diferente da do empresário em nome individual, em que o negócio e o dono são a mesma pessoa para efeitos fiscais e o lucro do negócio passa simplesmente para a declaração pessoal do dono. Uma sociedade, pelo contrário, declara e paga primeiro o imposto sobre o seu próprio lucro, como sujeito passivo próprio. Isto prepara um conceito importante tratado na próxima lição: o que acontece quando esse mesmo lucro é depois distribuído aos sócios, que podem então dever o seu próprio imposto sobre ele, situação conhecida como dupla tributação.
 
-O imposto sobre as sociedades incide geralmente sobre o lucro da empresa: receitas menos despesas aceites. A empresa declara e paga este imposto, independentemente do que os acionistas fazem com o seu próprio dinheiro.
+## Exemplo prático
 
-Esta separação tem consequências importantes. Uma delas vamos ver na próxima lição: o mesmo lucro pode ser tributado duas vezes, uma na empresa e outra quando chega aos donos. O percurso PURPLE também estuda a sociedade, mas do lado da responsabilidade legal.
+**Pergunta:** Um amigo não percebe porque é que uma sociedade paga os seus próprios impostos, separados dos das pessoas que são donas dela. Como lhe explicaria?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, uma sociedade é tratada como uma pessoa coletiva própria, distinta dos seus donos.
 
-## Exemplo Prático
+**Guia:** Em que é que isso difere de um empresário em nome individual?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** No empresário em nome individual, o negócio e o dono são o mesmo para efeitos fiscais, por isso o lucro vai diretamente para a declaração pessoal do dono. Uma sociedade é tributada em separado, como sujeito passivo próprio.
 
-**Professor:** A empresa Sol, Lda. teve receitas de $500.000 e despesas de $380.000. Sobre que valor paga provavelmente imposto?
+**Guia:** Exatamente: e é essa separação que prepara a questão da dupla tributação, que vem a seguir.
 
-**Aluno:** Sobre $120.000 de lucro.
+## Teste de prática
 
-**Professor:** Quem paga esse imposto: a empresa ou os donos?
+**Pergunta 1.** Uma sociedade é geralmente tratada como:
 
-**Aluno:** A empresa, porque é uma entidade separada.
+A) A mesma pessoa que os seus donos
+B) Uma pessoa coletiva distinta, separada dos seus donos
+C) Não sujeita a imposto
+D) Relevante apenas fora do sistema fiscal
 
-**Professor:** E se depois a empresa distribuir parte do lucro aos donos?
+**Pergunta 2.** O lucro de uma sociedade pode estar sujeito a:
 
-**Aluno:** Acho que aí pode haver mais imposto... é o tema da próxima lição.
+A) Nenhum imposto
+B) Imposto sobre o rendimento ao nível da sociedade, independente do imposto dos donos
+C) Apenas imposto sobre as vendas
+D) Apenas contribuições sobre os salários
 
-## Questionário de Treino
+**Pergunta 3.** Em que é que um empresário em nome individual difere de uma sociedade para efeitos fiscais?
 
-**1.** Para efeitos fiscais, uma sociedade é...
+A) Não há diferença
+B) No empresário em nome individual, o lucro vai diretamente para a declaração pessoal do dono; a sociedade é primeiro tributada em separado
+C) Os empresários em nome individual também pagam imposto de sociedades
+D) As sociedades nunca pagam imposto
 
-- A) Uma entidade separada dos donos
-- B) A mesma coisa que o dono
-- C) Um tipo de conta bancária
-- D) Um imposto
+**Pergunta 4.** Esta lição prepara que conceito seguinte?
 
-**2.** O imposto sobre as sociedades incide geralmente sobre...
-
-- A) O salário dos donos
-- B) O lucro da empresa
-- C) Sempre as vendas brutas
-- D) O número de trabalhadores
-
-**3.** Receitas de $200.000 e despesas de $150.000. Lucro?
-
-- A) $350.000
-- B) $200.000
-- C) $50.000
-- D) $150.000
-
-**4.** Que percurso estuda a sociedade do lado da responsabilidade legal?
-
-- A) RED
-- B) WHITE
-- C) ORANGE
-- D) PURPLE
+A) Imposto sobre as vendas
+B) Dupla tributação
+C) Imposto sobre o património
+D) Retenção na fonte dos salários
 
 ## Chave de Respostas
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Uma entidade separada dos donos** — A lei trata-a como uma pessoa separada.
+**1.** A separação jurídica entre uma sociedade e os seus donos é o conceito básico por detrás da tributação ao nível da sociedade.
 
-**2. B) O lucro da empresa** — A base costuma ser o lucro.
+**2.** O imposto sobre as sociedades incide sobre o lucro da própria pessoa coletiva, separado de qualquer imposto que os donos devam pessoalmente.
 
-**3. C) $50.000** — $200.000 − $150.000 = $50.000.
+**3.** O empresário em nome individual junta o negócio e o dono num único sujeito passivo; a sociedade não.
 
-**4. D) PURPLE** — PURPLE é o percurso de Direito.
+**4.** É precisamente esta separação estrutural que cria a questão da dupla tributação explorada na próxima lição.
 
-## Pontos-Chave
+## Pontos-chave
 
-- A sociedade é uma entidade separada dos donos
-- Paga imposto sobre o seu próprio lucro
-- Esta separação abre caminho à dupla tributação
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Uma sociedade é geralmente tratada como uma pessoa coletiva distinta dos seus donos.
+- Isto significa que uma sociedade pode dever o seu próprio imposto sobre o rendimento, separado dos seus donos.
+- É diferente do empresário em nome individual, em que o lucro vai diretamente para a declaração pessoal do dono.
+- Esta estrutura prepara o conceito de dupla tributação, tratado a seguir.

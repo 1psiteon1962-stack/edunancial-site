@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-007
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 7
-title: "Contributi sui salari: Social Security e Medicare"
-source_title: "Payroll Tax: Social Security and Medicare"
-description: "Presenta i contributi sui salari come una categoria legata specificamente alle retribuzioni da lavoro, che spesso finanzia programmi pensionistici e sanitari."
-slug: payroll-tax-social-security-and-medicare
-seo_title: "Contributi sui salari: Social Security e Medicare | Edunancial"
-meta_description: "Presenta i contributi sui salari come una categoria legata specificamente alle retribuzioni da lavoro, che spesso finanzia programmi pensionistici e sanitari."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 7
-summary: "Presenta i contributi sui salari come una categoria legata specificamente alle retribuzioni da lavoro, che spesso finanzia programmi pensionistici e sanitari."
+locale: it
+title: "I contributi sul lavoro: Social Security e Medicare"
+summary: "Presenta i contributi sul lavoro come categoria legata specificamente ai salari, che spesso finanzia programmi pensionistici e sanitari."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-007: Contributi sui salari: Social Security e Medicare
+# I contributi sul lavoro: Social Security e Medicare
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare che cosa sono i contributi sui salari
-- Capire che finanziano programmi pensionistici e sanitari
-- Distinguere i contributi sui salari dall'imposta sul reddito
+- Definire i contributi sul lavoro e in che cosa differiscono dall'imposta generale sul reddito.
+- Spiegare che i contributi sul lavoro sono spesso ripartiti tra datore di lavoro e lavoratore.
+- Individuare i programmi comuni finanziati dai contributi sul lavoro.
 
 ## Contenuto principale
 
-I contributi sui salari si calcolano sulle retribuzioni di chi lavora come dipendente. Negli Stati Uniti gli esempi più noti sono la Social Security (la previdenza pubblica, che paga le pensioni) e Medicare (il programma sanitario per gli anziani). Altri Paesi hanno contributi simili con nomi diversi.
+I contributi sul lavoro (negli Stati Uniti "payroll tax", per esempio per Social Security e Medicare; in Italia l'equivalente più vicino sono i contributi previdenziali e assistenziali versati all'INPS) sono un prelievo legato specificamente ai salari da lavoro. Sono collegati all'imposta sul reddito ma distinti da essa: mentre l'imposta sul reddito finanzia la spesa pubblica generale, i contributi sul lavoro sono spesso destinati a programmi specifici, più comunemente sistemi pensionistici e programmi di assicurazione sanitaria.
 
-In molti sistemi il costo è diviso: una parte viene trattenuta dallo stipendio del dipendente e un'altra parte la paga il datore di lavoro. Per questo il costo reale di assumere qualcuno è più alto dello stipendio che compare in busta paga.
+In molti sistemi i contributi sono ripartiti: una parte viene trattenuta dalla busta paga del lavoratore e una parte viene pagata direttamente dal datore di lavoro in aggiunta al salario. Il costo reale di un dipendente per un'impresa è quindi più alto del solo importo in busta paga. Questa ripartizione diventa importante più avanti, quando vedremo la tassazione dei lavoratori autonomi, perché chi lavora in proprio spesso finisce per farsi carico di entrambe le parti.
 
-Questi contributi sono diversi dall'imposta sul reddito. L'imposta sul reddito va nel bilancio generale. I contributi sui salari sono spesso destinati a programmi specifici, come pensioni e sanità.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un datore di lavoro paga un salario a un lavoratore e, separatamente, versa allo Stato un'ulteriore quota di contributi. La quota contributiva del datore fa parte della busta paga del lavoratore?
 
-## Esempio pratico
+**Studente:** Direi che è separata, visto che il lavoratore non vede mai quei soldi.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Giusto, ma è comunque un costo per assumere quel lavoratore?
 
-**Insegnante:** Giovanni guadagna $3.000 al mese. In busta paga compaiono due trattenute con nomi diversi. Perché secondo te sono due?
+**Studente:** Sì: è un costo in più oltre al salario, anche se non compare in busta paga.
 
-**Studente:** Una sarà l'imposta sul reddito.
+**Guida:** Esatto, ed è per questo che il "costo di un dipendente" è di solito più alto del solo salario.
 
-**Insegnante:** E l'altra?
+## Quiz di esercitazione
 
-**Studente:** I contributi sui salari, per pensione e sanità.
+**Domanda 1.** I contributi sul lavoro sono legati specificamente a:
 
-**Insegnante:** E anche l'azienda paga qualcosa?
+A) Beni immobili
+B) Salari da lavoro
+C) Acquisti al dettaglio
+D) Eredità
 
-**Studente:** In molti sistemi sì. L'azienda paga la sua parte, oltre allo stipendio di Giovanni.
+**Domanda 2.** I contributi sul lavoro finanziano comunemente:
 
-## Quiz di verifica
+A) Programmi pensionistici e sanitari
+B) Solo la costruzione di strade
+C) Solo la difesa nazionale
+D) Nulla di specifico
 
-**1.** Su che cosa si calcolano i contributi sui salari?
+**Domanda 3.** In molti sistemi i contributi sul lavoro sono:
 
-- A) Acquisti
-- B) Immobili
-- C) Eredità
-- D) Retribuzioni da lavoro
+A) Pagati solo dal datore di lavoro
+B) Pagati solo dal lavoratore
+C) Ripartiti tra datore di lavoro e lavoratore
+D) Mai pagati davvero
 
-**2.** Che cosa finanziano spesso questi contributi?
+**Domanda 4.** Il costo reale di un dipendente è spesso:
 
-- A) Programmi pensionistici e sanitari
-- B) Strade
-- C) Feste pubbliche
-- D) Banche private
+A) Esattamente l'importo in busta paga
+B) Più alto della busta paga, per via dei contributi a carico del datore
+C) Più basso della busta paga
+D) Non collegato ai contributi sul lavoro
 
-**3.** In molti sistemi, chi paga i contributi sui salari?
+## Soluzioni
 
-- A) Solo il dipendente
-- B) Dipendente e datore di lavoro se li dividono
-- C) Solo il datore di lavoro
-- D) Nessuno
-
-**4.** Qual è la differenza principale rispetto all'imposta sul reddito?
-
-- A) Non c'è differenza
-- B) L'imposta sul reddito esiste solo per le imprese
-- C) I contributi vanno spesso a programmi specifici
-- D) I contributi sono volontari
-
-## Chiave delle risposte
-
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. C, 4. B
 
 ## Risposte e spiegazioni
 
-**1. D) Retribuzioni da lavoro** — Si calcolano sulle retribuzioni pagate.
+**1.** I contributi sul lavoro si distinguono dall'imposta generale sul reddito perché sono legati specificamente ai salari da lavoro.
 
-**2. A) Programmi pensionistici e sanitari** — Negli Stati Uniti, per esempio, finanziano Social Security e Medicare.
+**2.** I sistemi pensionistici e i programmi di assicurazione sanitaria sono spesso finanziati con contributi dedicati.
 
-**3. B) Dipendente e datore di lavoro se li dividono** — È comune dividere il costo tra le due parti.
+**3.** La ripartizione tra datore di lavoro e lavoratore è una scelta strutturale comune in molti sistemi.
 
-**4. C) I contributi vanno spesso a programmi specifici** — L'imposta sul reddito va al bilancio generale; i contributi hanno spesso una destinazione specifica.
+**4.** Poiché il datore paga una quota oltre al salario, il costo complessivo di un dipendente supera la sua busta paga.
 
 ## Punti chiave
 
-- I contributi sui salari si applicano alle retribuzioni
-- Spesso finanziano pensioni e sanità
-- Dipendente e datore di lavoro spesso si dividono il costo
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- I contributi sul lavoro sono legati specificamente ai salari, distinti dall'imposta generale sul reddito.
+- Finanziano comunemente programmi pensionistici e sanitari.
+- Molti sistemi ripartiscono i contributi tra datore di lavoro e lavoratore.
+- Questa ripartizione diventa particolarmente rilevante per i lavoratori autonomi, come vedremo in una lezione successiva.

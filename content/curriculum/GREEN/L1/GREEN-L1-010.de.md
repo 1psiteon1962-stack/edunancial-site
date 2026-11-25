@@ -9,102 +9,90 @@ title: "Steuerstufen erklärt"
 summary: "Ein konkreter Schritt-für-Schritt-Durchgang, wie Steuerstufen aufgebaut sind und angewendet werden, direkt aufbauend auf dem Konzept des Grenzsteuersatzes."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
 # Steuerstufen erklärt
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Erklären, wie eine Stufentabelle funktioniert
-- Die Steuer auf ein Einkommen mit Beispielstufen berechnen
-- Aus dem Ergebnis den Durchschnittssteuersatz berechnen
+- Eine einfache Steuerstufentabelle lesen und deuten.
+- Die geschuldete Steuer über mehrere Stufen für ein Beispieleinkommen berechnen.
+- Das Konzept des Grenzsteuersatzes mit einem Zahlenbeispiel festigen.
 
 ## Kerninhalt
 
-Eine Stufentabelle teilt das Einkommen in "Stufen" ein. Jede Stufe hat ihren eigenen Satz. Dein Einkommen füllt die Stufen von unten nach oben, wie Wasser, das eine Treppe aus Gläsern füllt.
+Aufbauend auf der vorigen Lektion gehen wir die Steuerstufen mit echten Zahlen durch. Stellen Sie sich eine veranschaulichende, vereinfachte Stufentabelle vor: Einkommen von 0 bis 10.000 $ wird mit 10 % besteuert, Einkommen von 10.001 bis 40.000 $ mit 20 % und Einkommen über 40.000 $ mit 30 %.
 
-Um die Steuer zu berechnen, rechnest du jede Stufe einzeln aus und zählst alles zusammen. Der erste Teil des Einkommens zahlt den niedrigsten Satz, der nächste Teil den nächsten, und so weiter.
+Wer 50.000 $ verdient, zahlt nicht 30 % auf die gesamten 50.000 $. Stattdessen werden die ersten 10.000 $ mit 10 % besteuert (1.000 $), die nächsten 30.000 $ (von 10.001 bis 40.000 $) mit 20 % (6.000 $) und die restlichen 10.000 $ (von 40.001 bis 50.000 $) mit 30 % (3.000 $). Die gesamte Steuer beträgt 10.000 $, was einem effektiven Satz von 20 % entspricht – deutlich unter der höchsten Stufe von 30 %.
 
-Die tatsächlichen Grenzen und Sätze unterscheiden sich von Land zu Land und oft von Jahr zu Jahr. Die Zahlen unten sind nur ein Beispiel zum Üben der Methode. Auf die Methode kommt es an: Sie funktioniert in jedem System mit progressiven Stufen.
+Diese stufenweise Berechnung ist genau das, was Grenzbesteuerung in der Praxis bedeutet. Echte Stufenwerte unterscheiden sich je nach Land und ändern sich mit der Zeit, daher dienen die Beträge hier nur der Veranschaulichung – die Berechnungsmethode ist die dauerhafte, übertragbare Fähigkeit.
 
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+> **Hinweis:** Die Prozentsätze und Schwellenwerte in dieser Lektion sind veranschaulichende Lernzahlen, keine Werte eines bestimmten Landes. Prüfen Sie die tatsächlichen aktuellen Stufen für Ihr Land.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Wie viel Steuer würde jemand mit einem Einkommen von genau 40.000 $ nach den veranschaulichenden Stufen oben schulden?
 
-**Lehrer:** Beispieltabelle: bis $10.000 zahlt 10 %; von $10.000 bis $40.000 zahlt 20 %; über $40.000 zahlt 30 %. Peter verdient $50.000. Schritt für Schritt: Wie viel zahlt er in der ersten Stufe?
+**Schüler:** Ich gehe es der Reihe nach durch – die ersten 10.000 $ zu 10 % sind 1.000 $.
 
-**Schüler:** 10 % von $10.000, also $1.000.
+**Lernbegleiter:** Gut, weiter.
 
-**Lehrer:** Und in der zweiten Stufe, von $10.000 bis $40.000?
+**Schüler:** Die restlichen 30.000 $, von 10.001 bis 40.000 $, werden mit 20 % besteuert, also 6.000 $.
 
-**Schüler:** Das sind $30.000 zu 20 %. Also $6.000.
+**Lernbegleiter:** Und wird etwas davon mit 30 % besteuert?
 
-**Lehrer:** Und der Rest über $40.000?
+**Schüler:** Nein – die Person hat nichts über 40.000 $ verdient, also greift die 30-%-Stufe nie. Insgesamt sind es 1.000 $ + 6.000 $ = 7.000 $.
 
-**Schüler:** $10.000 zu 30 %, also $3.000. Insgesamt $10.000 Steuer.
-
-**Lehrer:** Wie hoch ist sein Durchschnittssteuersatz?
-
-**Schüler:** $10.000 geteilt durch $50.000. Das sind 20 %, obwohl die höchste Stufe 30 % hat.
+**Lernbegleiter:** Genau richtig – und beachte, dass der effektive Satz 17,5 % beträgt, nicht 20 % und nicht 30 %.
 
 ## Übungsquiz
 
-**1.** Wie wird das Einkommen in einer Stufentabelle verteilt?
+**Frage 1.** Wie viel eines Einkommens von 50.000 $ wird nach den veranschaulichenden Stufen dieser Lektion mit 30 % besteuert?
 
-- A) Komplett in die höchste Stufe
-- B) Zufällig
-- C) Es füllt die Stufen von unten nach oben
-- D) Nur in die niedrigste Stufe
+A) Die gesamten 50.000 $
+B) 10.000 $
+C) 30.000 $
+D) 0 $
 
-**2.** Mit der Beispieltabelle: Wie viel Steuer zahlt ein Einkommen von $10.000?
+**Frage 2.** Wie hoch ist die gesamte veranschaulichende Steuer auf 50.000 $ in diesem Beispiel?
 
-- A) $2.000
-- B) $3.000
-- C) $0
-- D) $1.000
+A) 15.000 $
+B) 10.000 $
+C) 5.000 $
+D) 20.000 $
 
-**3.** Mit der Beispieltabelle: Wie viel zahlt ein Einkommen von $40.000?
+**Frage 3.** Der effektive Steuersatz im Beispiel mit 50.000 $ beträgt:
 
-- A) $7.000
-- B) $4.000
-- C) $12.000
-- D) $8.000
+A) 30 %
+B) 20 %
+C) 10 %
+D) 0 %
 
-**4.** Die Zahlen der Tabelle in dieser Lektion sind...
+**Frage 4.** Sollen die konkreten Stufenwerte dieser Lektion als echte Zahlen auswendig gelernt werden?
 
-- A) Die offiziellen Sätze aller Länder
-- B) Ein Beispiel zum Üben der Methode
-- C) Für immer festgelegt
-- D) Nur für Unternehmen gültig
+A) Ja, sie gelten überall
+B) Nein – sie dienen der Veranschaulichung; echte Stufen unterscheiden sich je nach Land und ändern sich
+C) Ja, aber nur für ein Land
+D) Sie sind für die Lektion bedeutungslos
 
 ## Lösungsschlüssel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Antworten und Erklärungen
 
-**1. C) Es füllt die Stufen von unten nach oben** — Jeder Teil des Einkommens fällt in seine eigene Stufe, beginnend unten.
+**1.** Nur der Teil des Einkommens über 40.000 $ – also 10.000 $ – fällt in die 30-%-Stufe.
 
-**2. D) $1.000** — $10.000 liegt komplett in der ersten Stufe: 10 % = $1.000.
+**2.** 1.000 $ + 6.000 $ + 3.000 $ über die drei Stufen ergeben insgesamt 10.000 $.
 
-**3. A) $7.000** — $1.000 in der ersten Stufe + $6.000 in der zweiten = $7.000.
+**3.** Die gesamte Steuer (10.000 $) geteilt durch das Gesamteinkommen (50.000 $) ergibt einen effektiven Satz von 20 %.
 
-**4. B) Ein Beispiel zum Üben der Methode** — Echte Tabellen unterscheiden sich; hier lernt man die Methode.
+**4.** Die Beträge sind ein Lernwerkzeug; übertragbar auf jede echte Stufentabelle ist die Berechnungsmethode.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Stufen teilen das Einkommen in Abschnitte mit unterschiedlichen Sätzen
-- Jede Stufe einzeln berechnen und addieren
-- Der Durchschnittssatz ist immer kleiner oder gleich der höchsten erreichten Stufe
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Steuerstufen greifen schrittweise, wobei jeder Satz nur das Einkommen innerhalb seiner Stufe betrifft.
+- Die Rechnung konkret durchzugehen zeigt, warum das Konzept des Grenzsteuersatzes in der Praxis wichtig ist.
+- Der effektive Steuersatz ist immer ein Mischwert und immer niedriger als die höchste erreichte Stufe.
+- Die hier verwendeten Zahlen dienen nur der Veranschaulichung – prüfen Sie immer die tatsächliche Stufentabelle Ihres Landes.

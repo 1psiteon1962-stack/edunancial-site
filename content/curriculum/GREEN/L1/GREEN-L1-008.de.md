@@ -5,98 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 8
 locale: de
-title: "Progressive vs. regressive Steuern"
+title: "Progressive und regressive Steuern"
 summary: "Erklärt den Unterschied zwischen progressiven und regressiven Steuerstrukturen mit einfachen, nachvollziehbaren Vergleichen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Progressive vs. regressive Steuern
+# Progressive und regressive Steuern
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Eine progressive Steuer definieren
-- Eine regressive Steuer definieren
-- Einfache Beispiele einer der beiden Kategorien zuordnen
+- Eine progressive Steuerstruktur definieren.
+- Eine regressive Steuerstruktur definieren.
+- Praxisbeispiele für beide Strukturen erkennen.
 
 ## Kerninhalt
 
-Eine progressive Steuer verlangt von Menschen mit höherem Einkommen einen höheren Prozentsatz. Die Idee: Wer mehr leisten kann, trägt einen größeren Anteil. Viele Einkommensteuersysteme folgen diesem Modell.
+Eine progressive Steuer nimmt Menschen mit höherem Einkommen oder Vermögen einen größeren Prozentsatz ab. Die meisten Einkommensteuersysteme sind so aufgebaut: Je mehr man verdient, desto höher ist der Prozentsatz, mit dem das Einkommen besteuert wird (meist nur der Teil oberhalb bestimmter Schwellen).
 
-Eine regressive Steuer belastet Menschen mit geringerem Einkommen im Verhältnis stärker. Das passiert sogar dann, wenn der Satz für alle gleich ist. Die Verbrauchsteuer ist das klassische Beispiel: Alle zahlen beim Kauf denselben Prozentsatz, aber für Geringverdiener ist das ein größerer Teil ihres Einkommens.
+Eine regressive Steuer nimmt dagegen Menschen mit niedrigerem Einkommen faktisch einen größeren Anteil ab, auch wenn der Steuersatz für alle gleich aussieht. Die Umsatzsteuer ist ein gängiges Beispiel: Wenn zwei Menschen denselben Artikel für 50 $ kaufen und dieselbe Umsatzsteuer zahlen, macht diese Steuer bei einer Person mit niedrigem Einkommen einen viel größeren Anteil ihres gesamten Geldes aus als bei einer Person mit hohem Einkommen. Der Betrag ist gleich, die Belastung nicht.
 
-Es gibt auch die proportionale Steuer, auch Einheitssteuer genannt, die von allen denselben Prozentsatz des Einkommens verlangt. Diese Strukturen zu verstehen hilft dir, Debatten darüber zu folgen, wer wie viel zahlen sollte, ohne dich für eine Seite entscheiden zu müssen.
+Keine der beiden Strukturen ist an sich „richtig“ oder „falsch“ – es sind Werkzeuge mit unterschiedlichen Wirkungen, und echte Steuersysteme kombinieren meist progressive und regressive Elemente. Zu verstehen, in welche Kategorie eine Steuer fällt, hilft einzuschätzen, wer tatsächlich mehr von der Last trägt.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Zwei Menschen zahlen beim selben Kauf je 5 $ Umsatzsteuer. Die eine Person verdient 2.000 $ im Monat, die andere 20.000 $ im Monat. Wirkt die Steuer progressiv oder regressiv?
 
-**Lehrer:** Zwei Personen kaufen dasselbe Handy und zahlen $50 Steuer. Eine verdient $1.000 im Monat, die andere $10.000. Welchen Anteil ihres Einkommens hat jede gezahlt?
+**Schüler:** Der Betrag ist identisch, also wirkt es auf den ersten Blick gerecht.
 
-**Schüler:** Die erste 5 %. Die zweite 0,5 %.
+**Lernbegleiter:** Aber welchen Prozentsatz des Einkommens der beiden machen diese 5 $ aus?
 
-**Lehrer:** Der Betrag war gleich. Aber war die Belastung gleich?
+**Schüler:** Bei der Person, die 2.000 $ verdient, einen viel größeren Anteil als bei der Person mit 20.000 $.
 
-**Schüler:** Nein. Für die Geringverdienerin war sie zehnmal höher.
-
-**Lehrer:** Das ist ein regressiver Effekt.
+**Lernbegleiter:** Richtig – gleiche Beträge können in der Praxis ungleich wirken, und genau das ist das regressive Muster.
 
 ## Übungsquiz
 
-**1.** Eine progressive Steuer...
+**Frage 1.** Eine progressive Steuer nimmt:
 
-- A) Verlangt von Höherverdienenden einen höheren Prozentsatz
-- B) Verlangt von allen denselben Betrag
-- C) Belastet Geringverdiener stärker
-- D) Gibt es nur für Firmen
+A) Höheren Einkommen einen kleineren Prozentsatz ab
+B) Höheren Einkommen einen größeren Prozentsatz ab
+C) Allen unabhängig vom Einkommen denselben Prozentsatz ab
+D) Niemandem etwas ab
 
-**2.** Warum ist die Verbrauchsteuer oft regressiv?
+**Frage 2.** Eine regressive Steuer belastet faktisch:
 
-- A) Weil der Satz für Arme höher ist
-- B) Weil sie einen größeren Teil des Einkommens von Geringverdienern ausmacht
-- C) Weil nur Reiche sie zahlen
-- D) Weil es keinen Satz gibt
+A) Höhere Einkommen stärker
+B) Niedrigere Einkommen stärker, gemessen am Einkommen
+C) Niemanden
+D) Nur Unternehmen
 
-**3.** Eine Steuer, die von allen denselben Prozentsatz des Einkommens verlangt, heißt...
+**Frage 3.** Die Umsatzsteuer gilt oft als regressiv, weil:
 
-- A) Progressiv
-- B) Regressiv
-- C) Proportional
-- D) Negativ
+A) Sie illegal ist
+B) Gleiche Beträge bei einem niedrigeren Einkommen einen größeren Anteil ausmachen
+C) Sie nur für Wohlhabende gilt
+D) Sie sich jeden Tag ändert
 
-**4.** Was ist das Ziel dieser Lektion?
+**Frage 4.** Echte Steuersysteme:
 
-- A) Zu sagen, welches System das beste ist
-- B) Beizubringen, keine Steuern zu zahlen
-- C) Länder zu vergleichen
-- D) Zu verstehen, wie jede Struktur funktioniert
+A) Sind immer rein progressiv
+B) Sind immer rein regressiv
+C) Kombinieren oft progressive und regressive Elemente
+D) Kombinieren nie verschiedene Steuerarten
 
 ## Lösungsschlüssel
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. C
 
 ## Antworten und Erklärungen
 
-**1. A) Verlangt von Höherverdienenden einen höheren Prozentsatz** — Progressiv heißt: Der Prozentsatz steigt mit dem Einkommen.
+**1.** Progressive Systeme erhöhen den Steuersatz mit steigendem Einkommen, meist nur für die Teile oberhalb festgelegter Schwellen.
 
-**2. B) Weil sie einen größeren Teil des Einkommens von Geringverdienern ausmacht** — Der Satz ist gleich, der Einkommensanteil ist bei Geringverdienern größer.
+**2.** Regressive Steuern nehmen niedrigeren Einkommen anteilig mehr ab, selbst wenn der Betrag gleich ist.
 
-**3. C) Proportional** — Proportional, oder Einheitssteuer, wendet für alle denselben Satz an.
+**3.** Dieselbe Steuer von 5 $ macht bei einem kleineren Einkommen einen größeren Anteil aus – das ist der Kern einer regressiven Wirkung.
 
-**4. D) Zu verstehen, wie jede Struktur funktioniert** — Es geht ums Verstehen, nicht um eine politische Position.
+**4.** Die meisten echten Systeme verbinden progressive Elemente (wie Einkommensteuerstufen) mit regressiven Elementen (wie einer einheitlichen Umsatzsteuer).
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Progressiv: Höherverdienende zahlen einen höheren Prozentsatz
-- Regressiv: belastet Geringverdiener anteilig stärker
-- Die Strukturen zu kennen hilft, öffentlichen Debatten zu folgen
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Progressive Steuern steigen prozentual mit höherem Einkommen.
+- Regressive Steuern nehmen niedrigeren Einkommen anteilig mehr ab, auch bei gleichen Beträgen.
+- Die Umsatzsteuer wird häufig als regressives Beispiel genannt.
+- Die meisten echten Systeme mischen beide Strukturen, statt nur eine zu verwenden.

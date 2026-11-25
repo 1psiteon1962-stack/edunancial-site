@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-018
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 18
-title: "Stato civile ai fini fiscali: single, coniugato, capofamiglia"
-source_title: "Filing Status: Single, Married, Head of Household"
-description: "Introduce il concetto di stato civile ai fini della dichiarazione e perché la situazione familiare e coniugale può influire sul calcolo dell'imposta."
-slug: filing-status-single-married-head-of-household
-seo_title: "Stato civile ai fini fiscali: single, coniugato, capofamiglia | Edunancial"
-meta_description: "Introduce il concetto di stato civile ai fini della dichiarazione e perché la situazione familiare e coniugale può influire sul calcolo dell'imposta."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 18
-summary: "Introduce il concetto di stato civile ai fini della dichiarazione e perché la situazione familiare e coniugale può influire sul calcolo dell'imposta."
+locale: it
+title: "Lo stato ai fini fiscali: single, coniugato, capofamiglia"
+summary: "Presenta il concetto di stato ai fini della dichiarazione e spiega perché la situazione familiare e coniugale può influire sul calcolo delle imposte."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-018: Stato civile ai fini fiscali: single, coniugato, capofamiglia
+# Lo stato ai fini fiscali: single, coniugato, capofamiglia
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare che cos'è lo stato ai fini della dichiarazione
-- Conoscere le categorie comuni
-- Capire perché la situazione familiare può cambiare l'imposta
+- Spiegare che cosa significa lo stato ai fini della dichiarazione.
+- Riconoscere le categorie più comuni.
+- Spiegare, in termini generali, perché lo stato ai fini della dichiarazione può influire sul risultato fiscale.
 
 ## Contenuto principale
 
-In alcuni sistemi, come quello degli Stati Uniti, devi indicare il tuo "stato ai fini della dichiarazione" (filing status). Descrive la tua situazione familiare nell'anno e influisce sul calcolo dell'imposta.
+Lo stato ai fini della dichiarazione (negli Stati Uniti "filing status") è una categoria, basata sulla tua situazione coniugale e familiare, che molti sistemi fiscali usano per stabilire quali scaglioni, importi di deduzione e requisiti si applicano a te. Le categorie più comuni sono single, coniugato (a volte con la possibilità di presentare una dichiarazione congiunta o separata) e capofamiglia (in genere per una persona non sposata che mantiene familiari a carico). (In Italia la dichiarazione è di norma individuale, ma la situazione familiare conta, per esempio attraverso le detrazioni per familiari a carico e le misure di sostegno ai figli; le regole cambiano.)
 
-Categorie comuni sono: single; coniugati con dichiarazione congiunta; coniugati con dichiarazione separata; e capofamiglia (head of household), di solito per persone non sposate che mantengono una persona a carico in casa. Ogni categoria può avere scaglioni e deduzioni diversi.
+Lo stato ai fini della dichiarazione conta perché cambia il calcolo di fondo: lo stesso reddito può portare a un'imposta diversa a seconda della categoria, perché le soglie degli scaglioni e gli importi delle deduzioni forfettarie sono spesso fissati in modo diverso per ciascuna. Non è una scappatoia né un trucco: riflette una valutazione di politica pubblica secondo cui la composizione del nucleo familiare influisce sulla reale capacità di una persona o di una famiglia di pagare le imposte.
 
-La logica è che una famiglia con persone a carico ha costi diversi da una persona sola. Non tutti i Paesi usano questo sistema: in molti, come in Italia, ognuno dichiara individualmente e i familiari a carico si considerano in altro modo. Eventi come matrimonio, divorzio o la nascita di un figlio possono cambiare il tuo stato, quindi rivedilo quando la vita cambia.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Due persone guadagnano esattamente lo stesso stipendio, ma una è single e l'altra mantiene due figli a carico come capofamiglia. Ti aspetteresti che il loro calcolo delle imposte sia identico?
 
-## Esempio pratico
+**Studente:** Probabilmente no, perché lo stato ai fini della dichiarazione cambia gli scaglioni e gli importi di deduzione applicabili.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Perché il sistema fiscale potrebbe trattare in modo diverso il caso del capofamiglia?
 
-**Insegnante:** Camilla non è sposata e mantiene il figlio di 8 anni, che vive con lei. Negli Stati Uniti, quale categoria probabilmente si applica?
+**Studente:** Perché mantenere dei familiari a carico influisce su quanta parte di quel reddito resta davvero disponibile per i bisogni della persona, quindi la politica ne tiene conto.
 
-**Studente:** Single?
+**Guida:** Giusto: lo stato ai fini della dichiarazione riflette una valutazione della capacità economica, non solo il reddito in sé.
 
-**Insegnante:** Pensa: non è sposata e mantiene una persona a carico in casa.
+## Quiz di esercitazione
 
-**Studente:** Allora probabilmente capofamiglia.
+**Domanda 1.** Lo stato ai fini della dichiarazione si basa su:
 
-**Insegnante:** E perché conta?
+A) La tua qualifica professionale
+B) La tua situazione coniugale e familiare
+C) Solo la tua età
+D) Il tuo paese di nascita
 
-**Studente:** Perché questa categoria di solito ha regole più favorevoli di quella di single.
+**Domanda 2.** Le categorie più comuni comprendono:
 
-## Quiz di verifica
+A) Single, coniugato, capofamiglia
+B) Solo "occupato" e "disoccupato"
+C) Solo "ricco" e "povero"
+D) Solo "cittadino" e "non cittadino"
 
-**1.** Lo stato ai fini della dichiarazione descrive...
+**Domanda 3.** Lo stato ai fini della dichiarazione può influire su:
 
-- A) Il tipo di lavoro
-- B) La banca utilizzata
-- C) La situazione familiare nell'anno
-- D) Lo stato di salute
+A) Niente
+B) Gli scaglioni e gli importi di deduzione applicabili
+C) Solo il tuo nome sul modulo
+D) Solo l'imposta sulle vendite
 
-**2.** "Capofamiglia" si applica di solito a...
+**Domanda 4.** Il motivo per cui lo stato ai fini della dichiarazione conta viene descritto di solito come:
 
-- A) Qualsiasi persona sposata
-- B) Imprenditori
-- C) Pensionati
-- D) Persone non sposate che mantengono una persona a carico in casa
+A) Una scappatoia
+B) Il riflesso di una diversa capacità economica in base alla composizione del nucleo familiare
+C) Il caso
+D) Irrilevante per il calcolo delle imposte
 
-**3.** Perché la situazione familiare può cambiare l'imposta?
+## Soluzioni
 
-- A) Perché le famiglie hanno costi diversi dalle persone sole
-- B) Perché gli sposati non pagano imposte
-- C) Perché lo Stato tira a sorte
-- D) Non cambia nulla
-
-**4.** Tutti i Paesi usano lo stato ai fini della dichiarazione?
-
-- A) Sì, tutti
-- B) No, in molti ognuno dichiara individualmente
-- C) Solo i Paesi europei
-- D) Solo i Paesi asiatici
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. A, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) La situazione familiare nell'anno** — Riflette stato civile e persone a carico.
+**1.** Le categorie si basano sulla situazione coniugale e sulle responsabilità familiari.
 
-**2. D) Persone non sposate che mantengono una persona a carico in casa** — È la descrizione più comune di questa categoria.
+**2.** Single, coniugato e capofamiglia sono categorie molto diffuse, anche se i nomi esatti variano da paese a paese.
 
-**3. A) Perché le famiglie hanno costi diversi dalle persone sole** — Il sistema cerca di riflettere differenze di costi e responsabilità.
+**3.** Categorie diverse comportano spesso soglie degli scaglioni e importi di deduzione diversi.
 
-**4. B) No, in molti ognuno dichiara individualmente** — È una caratteristica di alcuni sistemi, non di tutti.
+**4.** La motivazione politica è che la composizione del nucleo familiare influisce sulla reale capacità economica, non che si tratti di un trucco o di un espediente.
 
 ## Punti chiave
 
-- Lo stato ai fini della dichiarazione riflette stato civile e persone a carico
-- Categorie comuni: single, coniugati (congiunta/separata), capofamiglia
-- Rivedilo quando la vita cambia
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Lo stato ai fini della dichiarazione riflette la situazione coniugale e familiare.
+- Le categorie comuni sono single, coniugato e capofamiglia.
+- Lo stato ai fini della dichiarazione influisce sugli scaglioni e sugli importi di deduzione applicabili.
+- Riflette valutazioni di politica pubblica sulla capacità economica, non una scappatoia.

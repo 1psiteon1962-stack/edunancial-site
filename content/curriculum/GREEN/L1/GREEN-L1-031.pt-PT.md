@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 31
 locale: pt-PT
-title: "Mais-Valias: Impostos Sobre o Lucro de Investimentos"
-summary: "Apresenta o conceito de mais-valia — o lucro obtido ao vender um bem por mais do que se pagou — e como difere do rendimento comum."
+title: "Mais-valias: impostos sobre o lucro dos investimentos"
+summary: "Apresenta o conceito de mais-valia, o lucro obtido ao vender um bem por mais do que o preço de compra, e a forma como se distingue do rendimento comum."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Mais-Valias: Impostos Sobre o Lucro de Investimentos
+# Mais-valias: impostos sobre o lucro dos investimentos
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir mais-valia em termos simples.
+- Explicar o cálculo básico de uma mais-valia.
+- Reconhecer porque é que as mais-valias só se realizam (e normalmente só são tributadas) com a venda, e não apenas por se deter o bem.
 
-- Definir mais-valia
-- Calcular uma mais-valia ou menos-valia simples
-- Perceber que a mais-valia normalmente só é tributada quando o bem é vendido
+## Conteúdo principal
 
-## Conteúdo Principal
+Uma mais-valia é o lucro obtido quando vende um bem, como uma ação ou um imóvel, por mais do que pagou por ele. O cálculo básico é simples: preço de venda menos preço de compra (muitas vezes chamado "valor de aquisição" ou "base") é igual à mais-valia. Se o bem for vendido por menos do que a base, o resultado é uma menos-valia. (Em Portugal, as mais-valias são rendimentos da categoria G do IRS, com regras próprias para valores mobiliários e imóveis, incluindo a opção pelo englobamento em certos casos; as regras mudam.)
 
-Uma mais-valia é o lucro que obténs quando vendes um bem por mais do que pagaste. O bem pode ser uma ação, um imóvel, uma empresa ou outro ativo. O valor que pagaste, somado a certos custos, costuma chamar-se valor de aquisição.
+Uma nuance importante: na maioria dos sistemas, uma mais-valia só se "realiza", e em geral só é tributável, quando o bem é efetivamente vendido. Se o valor de uma ação duplicar mas nunca a vender, em regra ainda não deve imposto sobre esse aumento: é uma mais-valia não realizada, ou "potencial". Esta distinção importa para o planeamento dos investimentos, porque vender um bem que valorizou é muitas vezes uma decisão deliberada, cujo momento se pode escolher e que tem consequências fiscais, e não algo que acontece automaticamente só porque o valor subiu.
 
-A conta básica é: preço de venda menos valor de aquisição. Se der positivo, é uma mais-valia. Se der negativo, é uma menos-valia. Em muitos sistemas, as menos-valias podem compensar as mais-valias.
+## Exemplo prático
 
-Um ponto importante: em geral, a mais-valia só é tributada quando vendes. Se a tua ação subiu mas não a vendeste, o ganho ainda está "no papel". Muitos sistemas tratam as mais-valias de forma diferente do salário, às vezes com taxas diferentes.
+**Pergunta:** Uma investidora compra uma ação por 1000 $. Dois anos depois, vale 3000 $, mas ainda não a vendeu. Deve agora imposto sobre a mais-valia?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, provavelmente ainda não, porque a mais-valia não foi realizada através de uma venda.
 
-## Exemplo Prático
+**Guia:** O que faria o imposto ser devido, e como seria calculado se vendesse por 3000 $?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** A venda faria o imposto ser devido: a mais-valia seria 3000 $ menos a base de 1000 $, ou seja, uma mais-valia de 2000 $.
 
-**Professor:** A Amanda comprou ações por $2.000 e vendeu-as por $2.600. Qual foi a mais-valia?
+**Guia:** Exatamente: e ela tem algum controlo sobre esse momento, o que é uma verdadeira alavanca de planeamento.
 
-**Aluno:** $600.
+## Teste de prática
 
-**Professor:** E se não as tivesse vendido, e as ações valessem $2.600?
+**Pergunta 1.** Uma mais-valia calcula-se como:
 
-**Aluno:** Aí o ganho ainda não aconteceu de verdade, está só no papel.
+A) Preço de compra menos preço de venda
+B) Preço de venda menos preço de compra (base)
+C) Apenas o preço de compra
+D) Um montante fixo definido pelo Estado
 
-**Professor:** E se as tivesse vendido por $1.700?
+**Pergunta 2.** Se um bem for vendido por menos do que a sua base, chama-se a isso:
 
-**Aluno:** Seria uma menos-valia de $300.
+A) Mais-valia
+B) Menos-valia
+C) Crédito fiscal
+D) Reembolso
 
-## Questionário de Treino
+**Pergunta 3.** Uma mais-valia é geralmente tributada:
 
-**1.** Uma mais-valia é...
+A) Assim que o valor do bem sobe, independentemente da venda
+B) Quando é realizada, normalmente com a venda
+C) Nunca
+D) Apenas se o bem for um imóvel
 
-- A) O salário mensal
-- B) O valor de um empréstimo
-- C) O imposto sobre as vendas
-- D) O lucro na venda de um bem por mais do que se pagou
+**Pergunta 4.** Uma mais-valia não realizada, ou "potencial", refere-se a:
 
-**2.** Compra por $5.000 e venda por $6.500. Qual é a mais-valia?
-
-- A) $1.500
-- B) $6.500
-- C) $5.000
-- D) $11.500
-
-**3.** Em geral, quando é tributada a mais-valia?
-
-- A) Todos os meses, mesmo sem vender
-- B) Quando o bem é vendido
-- C) Nunca
-- D) Na compra
-
-**4.** Compra por $3.000 e venda por $2.400. O resultado é...
-
-- A) Mais-valia de $600
-- B) Mais-valia de $2.400
-- C) Menos-valia de $600
-- D) Zero
+A) Uma mais-valia já tributada
+B) Um aumento de valor que ainda não foi concretizado através de uma venda
+C) Um tipo de crédito fiscal
+D) Uma menos-valia
 
 ## Chave de Respostas
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) O lucro na venda de um bem por mais do que se pagou** — É a diferença positiva entre venda e valor de aquisição.
+**1.** O cálculo compara o valor por que vendeu o bem com o que pagou originalmente.
 
-**2. A) $1.500** — $6.500 − $5.000 = $1.500.
+**2.** A menos-valia é simplesmente o reverso da mais-valia: vender por menos do que a base original.
 
-**3. B) Quando o bem é vendido** — Os ganhos no papel normalmente não são tributados.
+**3.** A realização através da venda é, na maioria dos sistemas, o facto que dá origem ao imposto sobre as mais-valias.
 
-**4. C) Menos-valia de $600** — O preço de venda foi inferior ao valor de aquisição.
+**4.** O valor pode subir no papel sem dar origem a imposto, porque ainda nada foi vendido.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Mais-valia = preço de venda − valor de aquisição
-- Normalmente só é tributada na venda
-- As menos-valias podem compensar mais-valias em muitos sistemas
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Uma mais-valia é o preço de venda menos o preço de compra (base).
+- Vender abaixo da base dá origem, em vez disso, a uma menos-valia.
+- As mais-valias são geralmente tributadas quando realizadas, normalmente com a venda.
+- As mais-valias não realizadas ainda não são tributadas, o que faz do momento da venda uma verdadeira decisão de planeamento.

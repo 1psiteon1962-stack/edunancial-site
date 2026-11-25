@@ -5,100 +5,84 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 4
 locale: pt-BR
-title: "Imposto de Renda: Tributando o Que Você Ganha"
-summary: "Um olhar mais detalhado sobre o imposto de renda — como ele se aplica a salários, lucro de negócios e rendimentos de investimentos."
+title: "Imposto de renda: tributar o que você ganha"
+summary: "Um olhar mais de perto sobre o imposto de renda: como ele se aplica a salários, ao lucro de um negócio e à renda de investimentos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto de Renda: Tributando o Que Você Ganha
+# Imposto de renda: tributar o que você ganha
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Definir imposto de renda e identificar o que conta como renda tributável.
+- Explicar que o imposto de renda geralmente se aplica, venha a renda de um emprego, de um negócio ou de investimentos.
+- Reconhecer que "renda" é mais amplo do que só um contracheque.
 
-- Explicar o que é imposto de renda
-- Identificar três fontes comuns de renda tributável
-- Entender que diferentes tipos de renda podem ser tratados de formas diferentes
+## Conteúdo principal
 
-## Conteúdo Principal
+O imposto de renda é um imposto sobre o dinheiro que você ganha. A palavra "renda" é mais ampla do que a maioria das pessoas imagina: normalmente inclui salários de um emprego, o lucro de um negócio que você administra e o retorno de investimentos, como juros ou dividendos. Países diferentes definem de forma diferente o que exatamente conta como renda tributável, mas o princípio geral vale em todo lugar: se entrou dinheiro e aumentou o que você tem, ele é candidato ao imposto de renda.
 
-O imposto de renda é calculado sobre o dinheiro que você recebe ao longo do ano. Em muitos países, é uma das maiores fontes de arrecadação do governo.
+A maioria dos sistemas de imposto de renda não tributa cada real ou dólar com a mesma alíquota. Em vez disso, usam faixas, deduções e créditos para ajustar quanto é realmente devido, conceitos tratados em detalhe em lições posteriores. Por enquanto, a ideia-chave é mais simples: o imposto de renda é acionado pelo ato de ganhar dinheiro, em qualquer forma, e não só por ter um emprego tradicional.
 
-Há três fontes comuns de renda. Primeiro, o salário que você recebe como empregado. Segundo, o lucro de um negócio próprio, ou seja, o que sobra depois de pagar as despesas. Terceiro, os rendimentos de investimentos, como juros, dividendos e ganhos na venda de ativos.
+## Exemplo prático
 
-Nem toda renda é tratada da mesma forma. Muitos sistemas usam regras diferentes para salário, lucro de negócio e investimentos. Vamos ver essas diferenças em lições futuras. Por enquanto, lembre-se: para um negócio, o imposto normalmente incide sobre o lucro, não sobre tudo o que entrou no caixa.
+**Pergunta:** A avó do Ntege vende vestidos e também ganha um pouco de juros sobre as economias. O imposto de renda se aplica às duas coisas?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** As vendas de vestidos claramente são ganhos do negócio dela.
 
-## Exemplo Prático
+**Guia:** E os juros?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Também é dinheiro entrando, só que vem das economias, e não do trabalho.
 
-**Professor:** Carlos tem um food truck. Vendeu $40.000 no ano e gastou $30.000 com ingredientes, gás e manutenção. Sobre quanto ele provavelmente paga imposto de renda?
+**Guia:** Isso mesmo: os sistemas de imposto de renda geralmente olham para todas as formas pelas quais o dinheiro aumenta o que você tem, e não só para o salário de um emprego.
 
-**Aluno:** Sobre os $40.000?
+## Teste de prática
 
-**Professor:** Pense: quanto realmente sobrou para ele?
+**Pergunta 1.** O imposto de renda se aplica a:
 
-**Aluno:** $10.000. Então o imposto incide sobre o lucro de $10.000.
+A) Só salários de um emprego
+B) Salários, lucro de um negócio e renda de investimentos
+C) Só rendimentos de investimentos
+D) Só grandes empresas
 
-**Professor:** Isso. Por isso guardar os comprovantes de despesas é tão importante.
+**Pergunta 2.** Verdadeiro ou falso: na maioria dos sistemas, toda renda é tributada exatamente com a mesma alíquota.
 
-## Quiz de Prática
+A) Verdadeiro
+B) Falso
 
-**1.** Sobre o que o imposto de renda é calculado?
+**Pergunta 3.** Os juros ganhos em uma conta de poupança, em geral:
 
-- A) O dinheiro que você recebe
-- B) O que você compra
-- C) O que você possui
-- D) Apenas heranças
+A) Nunca são tributáveis
+B) São uma forma de renda que pode ser tributável
+C) São a mesma coisa que um presente
+D) São isentos em todos os países
 
-**2.** Para um pequeno negócio, o imposto de renda normalmente incide sobre...
+**Pergunta 4.** O princípio amplo por trás do imposto de renda é:
 
-- A) Todas as vendas
-- B) O lucro, depois das despesas
-- C) Apenas as despesas
-- D) O valor do equipamento
-
-**3.** Qual destes é um rendimento de investimento?
-
-- A) Salário mensal
-- B) Gorjeta
-- C) Dividendos de ações
-- D) Reembolso de despesas
-
-**4.** Todos os tipos de renda são sempre tratados da mesma forma?
-
-- A) Sim, sempre
-- B) Só o salário é tributado
-- C) Só os investimentos são tributados
-- D) Não, muitos sistemas têm regras diferentes para cada tipo
+A) Só o contracheque conta
+B) O dinheiro que aumenta o que você tem é candidato à tributação
+C) Só o dinheiro em espécie conta, não outras formas de pagamento
+D) Donos de negócios são isentos
 
 ## Gabarito
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) O dinheiro que você recebe** — O imposto de renda tributa o que você ganha.
+**1.** O imposto de renda é amplo por definição: cobre salários, lucro de negócios e rendimentos de investimentos, e não só o emprego tradicional.
 
-**2. B) O lucro, depois das despesas** — A regra geral é tributar o lucro, não a receita total.
+**2.** A maioria dos sistemas usa faixas, deduções e créditos em vez de uma única alíquota fixa, algo que as lições posteriores detalham.
 
-**3. C) Dividendos de ações** — Dividendos são pagos a quem possui ações.
+**3.** Os juros são uma forma de renda de investimento e costumam ser tratados como tributáveis, conforme as regras de cada país. (No Brasil, por exemplo, alguns rendimentos têm imposto retido na fonte e outros, como a poupança de pessoa física, podem ser isentos; as regras mudam.)
 
-**4. D) Não, muitos sistemas têm regras diferentes para cada tipo** — Salário, lucro e investimentos costumam ter regras diferentes.
+**4.** O teste que unifica tudo é se entrou dinheiro e aumentou o que você tem: a origem importa menos do que esse fato básico.
 
-## Principais Lições
+## Pontos-chave
 
-- O imposto de renda tributa o que você ganha
-- Fontes comuns: salário, lucro de negócio e investimentos
-- Negócios geralmente pagam sobre o lucro, não sobre as vendas totais
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- O imposto de renda se aplica a salários, lucro de negócios e renda de investimentos, e não só a contracheques.
+- Países diferentes definem a renda tributável de formas diferentes, mas o princípio de base é amplo.
+- A maioria dos sistemas não tributa cada real ou dólar com a mesma alíquota fixa.
+- Reconhecer todas as suas fontes de renda é o ponto de partida para entender sua situação tributária.

@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-025
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 25
-title: "Spese aziendali deducibili comuni"
-source_title: "Common Deductible Business Expenses"
-description: "Presenta categorie generali di spese aziendali che sono spesso deducibili, mantenute a livello concettuale per via delle differenze tra ordinamenti."
-slug: common-deductible-business-expenses
-seo_title: "Spese aziendali deducibili comuni | Edunancial"
-meta_description: "Presenta categorie generali di spese aziendali che sono spesso deducibili, mantenute a livello concettuale per via delle differenze tra ordinamenti."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 25
-summary: "Presenta categorie generali di spese aziendali che sono spesso deducibili, mantenute a livello concettuale per via delle differenze tra ordinamenti."
+locale: it
+title: "Le spese d'impresa deducibili più comuni"
+summary: "Passa in rassegna le categorie generali di spese d'impresa spesso deducibili, mantenendo un taglio concettuale vista la varietà delle regole tra paesi."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-025: Spese aziendali deducibili comuni
+# Le spese d'impresa deducibili più comuni
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare la logica generale di una spesa deducibile
-- Riconoscere categorie comuni di spese aziendali
-- Distinguere una spesa aziendale da una spesa personale
+- Spiegare il principio generale alla base delle spese d'impresa deducibili.
+- Riconoscere le categorie più comuni di spese deducibili.
+- Riconoscere perché le spese personali in genere non sono ammesse.
 
 ## Contenuto principale
 
-Nella maggior parte dei sistemi, un'attività paga le imposte sull'utile, non sul totale delle vendite. Per questo le spese legittime dell'attività di solito si possono dedurre dai ricavi.
+La maggior parte dei sistemi fiscali permette alle imprese di dedurre le spese "ordinarie e necessarie" per l'attività, cioè normali per quel tipo di impresa e davvero necessarie per operare, non lussuose né puramente personali. (In Italia si parla di inerenza della spesa all'attività; per alcune spese la deducibilità è solo parziale, e le regole cambiano.) Le categorie più comuni, in termini generali, comprendono materiali e forniture, affitto dei locali, viaggi di lavoro, marketing e pubblicità, servizi professionali (come un avvocato o un commercialista) e attrezzature.
 
-La regola generale, in molti luoghi, è che la spesa deve essere inerente e necessaria all'attività. Categorie frequenti sono: affitto dei locali, materiali e merci, attrezzature, software, pubblicità, servizi professionali come il commercialista, assicurazioni e parte dei costi di un veicolo usato per lavoro.
+Un test utile da tenere a mente: questa spesa esisterebbe se l'impresa non esistesse? Un portatile comprato apposta per i lavori dei clienti supera questo test molto più chiaramente di una vacanza giustificata vagamente come "networking". Mescolare spese personali e d'impresa senza una linea chiara è uno degli errori più comuni dei nuovi imprenditori, ed è proprio per questo che la lezione precedente sulla conservazione dei documenti conta tanto: una documentazione ordinata rende difendibile la linea tra impresa e vita privata.
 
-Le spese personali di solito non sono deducibili, anche se sei il titolare. Una cena con la famiglia non diventa una spesa aziendale solo perché hai parlato di lavoro. Quando una spesa è mista, in parte personale e in parte aziendale, di solito conta solo la parte aziendale.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Un'imprenditrice compra un portatile che usa solo per i lavori di design per i clienti. Più tardi mette tra le spese anche una vacanza di famiglia, chiamandola "networking". Le due spese vengono trattate allo stesso modo?
 
-## Esempio pratico
+**Studente:** Non credo: il portatile è chiaramente legato al lavoro vero e proprio dell'impresa.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Quale test applicheresti alla vacanza?
 
-**Insegnante:** Renata ha un negozio online. Ha speso $600 in pubblicità, $300 in imballaggi e $150 in scarpe da palestra. Che cosa è probabilmente deducibile?
+**Studente:** Questa spesa esisterebbe se l'impresa non esistesse? Il portatile probabilmente non sarebbe stato comprato senza l'impresa; la vacanza probabilmente ci sarebbe stata comunque.
 
-**Studente:** La pubblicità e gli imballaggi.
+**Guida:** Esatto: è questo tipo di ragionamento che separa una vera spesa d'impresa da una spesa personale travestita da spesa d'impresa.
 
-**Insegnante:** E le scarpe?
+## Quiz di esercitazione
 
-**Studente:** Sono personali. Non c'entrano con il negozio.
+**Domanda 1.** Un criterio generale comune per le spese d'impresa deducibili è:
 
-**Insegnante:** Quindi quanto può probabilmente dedurre?
+A) Qualsiasi spesa, personale o no
+B) Ordinaria e necessaria per l'attività
+C) Solo le spese superiori a 10.000 $
+D) Solo le spese pagate in contanti
 
-**Studente:** $900.
+**Domanda 2.** Tra le categorie comuni di spese d'impresa deducibili ci sono:
 
-## Quiz di verifica
+A) Forniture, affitto, viaggi, marketing, servizi professionali, attrezzature
+B) Solo la spesa alimentare
+C) Solo le vacanze
+D) Solo l'abbigliamento personale
 
-**1.** Perché le spese aziendali possono essere deducibili?
+**Domanda 3.** Un test utile per capire se una spesa è legata all'impresa è:
 
-- A) Perché lo Stato ama le imprese
-- B) Perché l'imposta di solito si applica all'utile, non alle vendite totali
-- C) Perché le spese sono sempre personali
-- D) Non possono mai esserlo
+A) Questa spesa esisterebbe se l'impresa non esistesse?
+B) È costosa?
+C) È stata pagata in contanti?
+D) È avvenuta in un giorno feriale?
 
-**2.** Quale di queste è, in genere, una spesa aziendale?
+**Domanda 4.** Mescolare spese personali e d'impresa senza una linea chiara:
 
-- A) Le vacanze della famiglia
-- B) Un abito da festa personale
-- C) La pubblicità dell'attività
-- D) L'abbonamento personale in palestra
+A) È consigliato
+B) È un errore comune e rischioso dei nuovi imprenditori
+C) Non ha conseguenze
+D) Conta solo per le grandi aziende
 
-**3.** Le spese personali del titolare...
+## Soluzioni
 
-- A) Sono sempre deducibili
-- B) Diventano deducibili se costose
-- C) Sono deducibili la domenica
-- D) Di solito non sono deducibili
-
-**4.** Se un cellulare è usato metà per l'attività e metà per uso personale...
-
-- A) Di solito è deducibile solo la parte aziendale
-- B) Tutto è deducibile
-- C) Non è mai deducibile nulla
-- D) È deducibile solo la parte personale
-
-## Chiave delle risposte
-
-1. B
-2. C
-3. D
-4. A
+1. B, 2. A, 3. A, 4. B
 
 ## Risposte e spiegazioni
 
-**1. B) Perché l'imposta di solito si applica all'utile, non alle vendite totali** — Dedurre le spese porta all'utile reale.
+**1.** "Ordinaria e necessaria" è un criterio generale molto diffuso, anche se le regole esatte variano da paese a paese.
 
-**2. C) La pubblicità dell'attività** — La pubblicità è necessaria all'attività.
+**2.** Queste categorie rappresentano i costi operativi tipici della maggior parte delle imprese.
 
-**3. D) Di solito non sono deducibili** — La spesa deve essere legata all'attività.
+**3.** Questo test aiuta a separare le spese davvero legate all'impresa dalle spese personali semplicemente rietichettate.
 
-**4. A) Di solito è deducibile solo la parte aziendale** — Nelle spese miste, di solito conta solo la parte aziendale.
+**4.** Confondere la linea tra privato e impresa senza documenti è una trappola comune che la buona conservazione dei documenti aiuta a evitare.
 
 ## Punti chiave
 
-- Le attività pagano di solito le imposte sull'utile
-- Le spese inerenti e necessarie sono spesso deducibili
-- Le spese personali di solito non sono deducibili
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Le spese d'impresa deducibili sono in genere quelle ordinarie e necessarie per l'attività.
+- Le categorie comuni comprendono forniture, affitto, viaggi, marketing, servizi professionali e attrezzature.
+- Un test utile: la spesa esisterebbe senza l'impresa?
+- Mescolare spese personali e d'impresa senza una linea chiara è un errore comune e rischioso.

@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 11
 locale: de
-title: "Bruttoeinkommen vs. Nettoeinkommen"
-summary: "Klärt den Unterschied zwischen Brutto- und Nettoeinkommen, eine grundlegende Unterscheidung für das Lesen von Lohnabrechnungen, die Haushaltsplanung und die Finanzen eines Geschäfts."
+title: "Bruttoeinkommen und Nettoeinkommen"
+summary: "Erklärt den Unterschied zwischen Brutto- und Nettoeinkommen – eine grundlegende Unterscheidung für Lohnabrechnungen, Budgetplanung und Unternehmensfinanzen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Bruttoeinkommen vs. Nettoeinkommen
+# Bruttoeinkommen und Nettoeinkommen
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Brutto- und Nettoeinkommen definieren
-- Erkennen, was dazwischen abgezogen wird
-- Das Nettoeinkommen für ein realistisches Budget nutzen
+- Bruttoeinkommen und Nettoeinkommen definieren.
+- Erklären, was die Lücke zwischen beiden typischerweise verursacht.
+- Die Unterscheidung auf ein Gehaltsbeispiel anwenden.
 
 ## Kerninhalt
 
-Bruttoeinkommen ist der Gesamtbetrag, den du vor allen Abzügen verdienst. Wenn dein vereinbartes Gehalt $4.000 im Monat beträgt, ist das dein Brutto.
+Das Bruttoeinkommen ist der Gesamtbetrag, der verdient wird, bevor etwas abgezogen wird. Das Nettoeinkommen ist das, was nach den Abzügen übrig bleibt – Steuern und oft weitere Abzüge wie Beiträge zur Altersvorsorge oder zur Krankenversicherung. Die Lücke zwischen Brutto und Netto ist der Punkt, an dem die meisten Menschen beim ersten echten Gehaltszettel überrascht werden. (In Deutschland gehören dazu etwa Lohnsteuer, gegebenenfalls Solidaritätszuschlag und Kirchensteuer sowie die Sozialversicherungsbeiträge; die Einzelheiten ändern sich.)
 
-Nettoeinkommen ist das, was nach den Abzügen übrig bleibt: Steuern, Rentenbeiträge, Krankenversicherung und anderes. Das ist das Geld, das wirklich auf deinem Konto landet.
-
-Für dein Budget solltest du immer das Nettoeinkommen verwenden. Ausgaben auf Basis des Bruttos zu planen, ist ein häufiger Fehler, der ins Minus führt. Bei einem Geschäft ist die Logik ähnlich: Der Gesamtumsatz ist nicht das, was der Inhaber mit nach Hause nimmt. Erst gehen die Ausgaben und Steuern ab.
+Diese Unterscheidung ist weit über den Gehaltszettel hinaus wichtig. Unternehmen sprechen nach derselben Logik von Umsatz und Gewinn: Brutto ist die Gesamtsumme ganz oben, Netto ist das, was nach Kosten und Verpflichtungen übrig bleibt. Wenn eine Zahl als „brutto“ bezeichnet wird, lautet die erste sinnvolle Frage: brutto wovon genau – und wie viel kleiner wird netto sein?
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** In einem Jobangebot steht ein Jahresgehalt von 60.000 $. Ist das der Betrag, der tatsächlich jedes Jahr auf dem Konto landet?
 
-**Lehrer:** Bia wurde für $4.000 im Monat eingestellt und hat schon geplant, $4.000 auszugeben. Was kann schiefgehen?
+**Schüler:** Ich würde sagen nein, weil zuerst Steuern und andere Abzüge abgehen.
 
-**Schüler:** Sie bekommt weniger als das.
+**Lernbegleiter:** Richtig – wie würdest du die 60.000 $ nennen, und wie den Betrag, der tatsächlich auf dem Konto ankommt?
 
-**Lehrer:** Warum?
+**Schüler:** Die 60.000 $ sind das Bruttoeinkommen, und der Betrag nach Steuern und Abzügen ist das Nettoeinkommen.
 
-**Schüler:** Wegen der Abzüge für Steuern und Leistungen.
-
-**Lehrer:** Wenn die Abzüge $900 betragen, wie viel hat sie wirklich?
-
-**Schüler:** $3.100. Diese Zahl sollte sie im Budget verwenden.
+**Lernbegleiter:** Genau – plane dein Budget immer mit dem Netto, nicht mit dem Brutto.
 
 ## Übungsquiz
 
-**1.** Bruttoeinkommen ist...
+**Frage 1.** Das Bruttoeinkommen ist:
 
-- A) Der Betrag, der auf dem Konto landet
-- B) Der Betrag nach Steuern
-- C) Der Betrag, der im Monat ausgegeben wird
-- D) Der Gesamtbetrag vor Abzügen
+A) Der Betrag nach allen Abzügen
+B) Der Gesamtbetrag, der vor allen Abzügen verdient wird
+C) Nur Einkommen aus Kapitalanlagen
+D) Immer gleich dem Nettoeinkommen
 
-**2.** Nettoeinkommen ist...
+**Frage 2.** Das Nettoeinkommen ist:
 
-- A) Was nach den Abzügen übrig bleibt
-- B) Der Gesamtbetrag vor Abzügen
-- C) Das Gehalt des Chefs
-- D) Die Höhe der Steuern
+A) Der Betrag vor den Abzügen
+B) Das, was nach Steuern und anderen Abzügen übrig bleibt
+C) Unabhängig vom Bruttoeinkommen
+D) Immer höher als das Bruttoeinkommen
 
-**3.** Welchen Betrag solltest du für dein Budget verwenden?
+**Frage 3.** Warum ist die Lücke zwischen Brutto und Netto für die Budgetplanung wichtig?
 
-- A) Das Bruttoeinkommen
-- B) Das Nettoeinkommen
-- C) Das Gehalt vom Vorjahr
-- D) Die Höhe der Steuern
+A) Sie ist nicht wichtig
+B) Wer mit dem Brutto statt dem Netto plant, kann das verfügbare Geld überschätzen
+C) Netto ist immer höher als Brutto
+D) Brutto spielt für Unternehmen keine Rolle
 
-**4.** Bruttogehalt $5.000 mit $1.200 Abzügen ergibt netto...
+**Frage 4.** Unternehmen nutzen eine ähnliche Unterscheidung zwischen Brutto und Netto für:
 
-- A) $6.200
-- B) $5.000
-- C) $3.800
-- D) $1.200
+A) Umsatz und Gewinn
+B) Nichts – das gibt es nur bei privaten Finanzen
+C) Nur die Zahl der Beschäftigten
+D) Nur Marketingausgaben
 
 ## Lösungsschlüssel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. A
 
 ## Antworten und Erklärungen
 
-**1. D) Der Gesamtbetrag vor Abzügen** — Brutto ist der Gesamtbetrag vor allen Abzügen.
+**1.** Brutto ist die Gesamtsumme vor Abzügen – die Zahl, die ganz oben steht.
 
-**2. A) Was nach den Abzügen übrig bleibt** — Netto ist das, was wirklich bei dir ankommt.
+**2.** Netto ist der Betrag, der nach Steuern und anderen Abzügen tatsächlich übrig bleibt und auf dem Konto ankommt.
 
-**3. B) Das Nettoeinkommen** — Nur das Nettoeinkommen steht zum Ausgeben zur Verfügung.
+**3.** Wer mit der Bruttozahl plant, riskiert anzunehmen, mehr verfügbares Geld zu haben, als tatsächlich da sein wird.
 
-**4. C) $3.800** — $5.000 − $1.200 = $3.800.
+**4.** Unternehmen wenden genau dieselbe Logik auf Umsatz (brutto) und Gewinn (netto) an.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Brutto ist vor den Abzügen, netto danach
-- Abzüge umfassen Steuern und Leistungen
-- Plane dein Budget mit dem Nettoeinkommen
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Das Bruttoeinkommen ist der Gesamtbetrag vor Abzügen; das Nettoeinkommen ist das, was danach übrig bleibt.
+- Die Lücke besteht typischerweise aus Steuern und weiteren Abzügen wie Altersvorsorge oder Versicherungen.
+- Plane dein Budget immer mit dem Nettoeinkommen, nicht mit dem Bruttoeinkommen.
+- Dieselbe Logik von Brutto und Netto gilt für Umsatz und Gewinn eines Unternehmens.

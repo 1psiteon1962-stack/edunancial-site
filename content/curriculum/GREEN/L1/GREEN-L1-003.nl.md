@@ -5,102 +5,100 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 3
 locale: nl
-title: "Soorten belastingen: een overzicht"
-summary: "Een kaart van de belangrijkste soorten belasting die je tegenkomt — inkomen, verkoop/consumptie, bezit en loonheffingen — voordat we elk soort verder uitdiepen."
+title: "Soorten belasting: een overzicht"
+summary: "Een kaart van de belangrijkste soorten belasting die je tegenkomt – inkomsten-, omzet-, onroerendgoed- en loonbelasting – voordat elke soort verder wordt uitgediept."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Soorten belastingen: een overzicht
+# Soorten belasting: een overzicht
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- De vier grote belastingcategorieën noemen
-- Per categorie aangeven wat die belast
-- Herkennen dat iemand meerdere soorten belasting tegelijk betaalt
+- De vier belangrijkste soorten belasting noemen waarmee de meeste mensen te maken krijgen.
+- Een concreet belastingvoorbeeld bij de juiste soort indelen.
+- Het algemene verschil uitleggen tussen belasting op verdienen, uitgeven, bezitten en werken.
 
 ## Kerninhoud
 
-Er zijn veel belastingen, maar de meeste passen in een paar categorieën. Een simpel geheugensteuntje: belastingen raken wat je verdient, wat je koopt en wat je bezit.
+Voordat je diep ingaat op één belasting, helpt het om de hele kaart te kennen. De meeste mensen in de meeste landen krijgen te maken met een versie van deze vier soorten:
 
-Inkomstenbelasting belast wat je verdient: loon, winst uit een bedrijf en inkomsten uit beleggingen. Verkoop- of consumptiebelasting belast wat je koopt. Belasting op bezit raakt wat je hebt, vooral onroerend goed. Loonheffingen hangen aan je loon uit werk en betalen vaak pensioen en zorg.
+**Inkomstenbelasting** – belasting op geld dat je verdient, uit een baan, een eigen bedrijf of beleggingen. **Omzet- of verbruiksbelasting** – belasting die wordt toegevoegd wanneer je goederen of diensten koopt. **Onroerendgoedbelasting** – belasting op dingen die je bezit, meestal vastgoed. **Loonheffingen** – heffingen die specifiek gekoppeld zijn aan loon uit arbeid en vaak bestemd zijn voor regelingen zoals pensioen of zorgverzekering.
 
-In de volgende lessen bekijken we elke categorie apart. Voor nu is het belangrijk om de kaart in je hoofd te hebben. Hoor je over een nieuwe belasting, vraag je dan af: belast die wat ik verdien, wat ik koop of wat ik bezit?
+Een eenvoudige manier om ze uit elkaar te houden: inkomstenbelasting vraagt "hoeveel heb je verdiend?", omzetbelasting "hoeveel heb je uitgegeven?", onroerendgoedbelasting "wat bezit je?" en loonheffingen "heb je een baan, en hoeveel verdien je?".
 
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Landen combineren deze soorten op verschillende manieren. Sommige leunen zwaar op inkomstenbelasting, andere meer op verbruiksbelastingen, en lokale overheden zijn vaak afhankelijk van onroerendgoedbelasting om scholen en lokale voorzieningen te financieren. Er is geen enige "juiste" mix: het is een beleidskeuze met voor- en nadelen, die latere lessen in dit leerpad bekijken. Voorlopig gaat het alleen om herkennen: als je over een belasting hoort, moet je die als eerste stap in een van deze groepen kunnen indelen.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een overheid telt bij elke aankoop van een frisdrank een percentage op bij de prijs. In welke groep valt dat?
 
-**Docent:** Maria krijgt loon, koopt een koelkast en heeft een eigen huis. Hoeveel soorten belasting kan ze betalen?
+**Cursist:** Dat gebeurt bij de aankoop, dus het klinkt als een omzet- of verbruiksbelasting.
 
-**Leerling:** Inkomstenbelasting over haar loon...
+**Begeleider:** Klopt. En als diezelfde overheid ook de winst belast die de frisdrankfabrikant aan het eind van het jaar maakt, is dat dan dezelfde belasting?
 
-**Docent:** Klopt. En bij de koelkast?
+**Cursist:** Nee, dat zou een belasting zijn op de inkomsten van het bedrijf, geen omzetbelasting op de aankoop.
 
-**Leerling:** Verkoopbelasting. En voor het huis belasting op bezit.
-
-**Docent:** En er is er nog één die aan het loon hangt.
-
-**Leerling:** De loonheffingen! Dus vier soorten tegelijk.
+**Begeleider:** Precies: op hetzelfde product kunnen op verschillende momenten twee verschillende belastingen van toepassing zijn, één bij de aankoop en één op de winst die het heeft opgeleverd.
 
 ## Oefenquiz
 
-**1.** Welke belasting raakt wat je koopt?
+**Vraag 1.** Inkomstenbelasting is belasting op:
 
-- A) Inkomstenbelasting
-- B) Belasting op bezit
-- C) Loonheffingen
-- D) Verkoop-/consumptiebelasting
+A) Wat je bezit
+B) Wat je verdient
+C) Wat je koopt
+D) Of je een baan hebt
 
-**2.** Belasting op bezit raakt vooral...
+**Vraag 2.** Omzetbelasting wordt doorgaans geheven:
 
-- A) Onroerend goed
-- B) Lonen
-- C) Maaltijden
-- D) Aandelen
+A) Eenmaal per jaar over het totale vermogen
+B) Bij de aankoop
+C) Alleen bij ondernemers
+D) Alleen in één land
 
-**3.** Loonheffingen hangen samen met...
+**Vraag 3.** Onroerendgoedbelasting wordt het vaakst in verband gebracht met:
 
-- A) Aankopen in winkels
-- B) Loon uit werk
-- C) Erfenissen
-- D) Reizen
+A) Het bezit van vastgoed
+B) Boodschappen
+C) Salarisstroken
+D) Alleen aandelentransacties
 
-**4.** Kan iemand in hetzelfde jaar meerdere soorten belasting betalen?
+**Vraag 4.** Loonheffingen zijn specifiek gekoppeld aan:
 
-- A) Nee, maar één
-- B) Alleen ondernemers
-- C) Ja, dat is heel gewoon
-- D) Alleen wie in het buitenland woont
+A) Het bezit van vastgoed
+B) Loon uit arbeid
+C) Aankopen in de winkel
+D) Erfenissen
+
+**Vraag 5.** Welke uitspraak over de belastingmix van landen is het meest juist?
+
+A) Alle landen gebruiken precies dezelfde mix
+B) Er is één universeel juiste mix
+C) Landen combineren deze belastingsoorten verschillend, als beleidskeuze
+D) Wereldwijd bestaat alleen inkomstenbelasting
 
 ## Antwoordsleutel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. A, 4. B, 5. C
 
 ## Antwoorden en uitleg
 
-**1. D) Verkoop-/consumptiebelasting** — Verkoop- of consumptiebelasting geldt bij de aankoop.
+**1.** Inkomstenbelasting wordt veroorzaakt door het verdienen van geld, uit welke bron dan ook: loon, bedrijfswinst of beleggingsopbrengst.
 
-**2. A) Onroerend goed** — In de meeste systemen geldt die vooral voor onroerend goed.
+**2.** Omzetbelasting wordt geheven op het moment van een transactie en opgeteld bij de aankoopprijs.
 
-**3. B) Loon uit werk** — Ze worden berekend over het uitbetaalde loon.
+**3.** Onroerendgoedbelasting is meestal gekoppeld aan vastgoed, al belasten sommige plaatsen ook ander bezit.
 
-**4. C) Ja, dat is heel gewoon** — De meeste mensen betalen meerdere soorten tegelijk.
+**4.** Loonheffingen zijn specifiek gekoppeld aan inkomen uit arbeid en financieren vaak regelingen zoals pensioen of zorg.
+
+**5.** Er is geen enige juiste belastingmix: verschillende overheden wegen deze soorten anders af, afhankelijk van beleidsprioriteiten.
 
 ## Belangrijkste punten
 
-- Belastingen raken wat je verdient, koopt en bezit
-- De vier grote categorieën: inkomen, consumptie, bezit en loonheffingen
-- De meeste mensen betalen meerdere soorten tegelijk
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- De vier belangrijkste soorten belasting waarmee de meeste mensen te maken krijgen, zijn inkomsten-, omzet- of verbruiks-, onroerendgoedbelasting en loonheffingen.
+- Elke soort stelt een andere vraag: verdiend, uitgegeven, bezeten of in loondienst.
+- Eén product of transactie kan op verschillende momenten meer dan één soort belasting veroorzaken.
+- Landen combineren deze soorten verschillend: er is geen universeel juiste verhouding.
+- Herkennen in welke groep een belasting valt, is de eerste stap om te begrijpen hoe die werkt.

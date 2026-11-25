@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 36
 locale: pt-BR
-title: "Implicações Fiscais da Venda de uma Casa"
-summary: "Apresenta as considerações fiscais gerais que surgem ao vender a residência principal, conectando com as lições sobre ganho de capital."
+title: "Consequências tributárias da venda da casa própria"
+summary: "Apresenta as questões tributárias gerais que surgem ao vender a residência principal, ligando-as às lições sobre ganho de capital."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Implicações Fiscais da Venda de uma Casa
+# Consequências tributárias da venda da casa própria
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Ligar a venda de uma casa ao conceito de ganho de capital visto antes.
+- Explicar por que muitos sistemas dão algum tratamento favorável à residência principal.
+- Reconhecer a importância de acompanhar o custo de aquisição de uma casa ao longo do tempo.
 
-- Aplicar o conceito de ganho de capital à venda de uma casa
-- Entender como melhorias podem afetar o custo base
-- Saber que muitos sistemas têm regras especiais para a residência principal
+## Conteúdo principal
 
-## Conteúdo Principal
+Vender uma casa é, no fundo, mais um exemplo do conceito de ganho de capital visto antes: preço de venda menos custo de aquisição (de forma geral, preço de compra mais certas benfeitorias aceitas) é igual ao ganho. Mas, como a residência principal é um acontecimento comum e importante da vida, e não uma simples operação de investimento, muitos sistemas tributários oferecem algum tratamento favorável, como isentar parte do ganho, especificamente para a casa própria, diferente de como tratariam, por exemplo, um imóvel de investimento. (No Brasil, por exemplo, há isenções para o ganho na venda do único imóvel dentro de certos limites ou quando o valor é reinvestido em outro imóvel residencial em certo prazo; as regras mudam.)
 
-Vender uma casa é, na essência, vender um bem. Por isso, a lógica do ganho de capital se aplica: preço de venda menos custo base.
+Esse é um ótimo exemplo prático de por que acompanhar o custo de aquisição ao longo do tempo importa. Se o proprietário faz benfeitorias importantes e aceitas ao longo dos anos, como uma ampliação ou uma grande reforma, esses custos muitas vezes podem aumentar o custo de aquisição, o que reduz o ganho tributável quando a casa for vendida. Sem registros dessas benfeitorias, o proprietário pode acabar pagando mais imposto do que o necessário, só porque não consegue comprovar quanto realmente gastou.
 
-Na casa, o custo base pode incluir mais do que o preço de compra. Em muitos sistemas, certas melhorias permanentes, como uma reforma da cozinha ou um telhado novo, e alguns custos de compra e venda podem aumentar o custo base. Isso reduz o ganho tributável. Consertos de rotina geralmente não contam.
+## Exemplo prático
 
-Muitos países têm regras especiais para a residência principal, como isenções totais ou parciais se certas condições forem cumpridas. Essas regras variam bastante. Guardar os comprovantes de melhorias por muitos anos pode fazer uma diferença real no dia da venda.
+**Pergunta:** Um proprietário faz uma grande ampliação na casa logo no início, mas nunca guarda registros do custo. Anos depois, vende a casa com um grande ganho. O que isso pode custar a ele?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Pela lição, sem registros do custo da ampliação, ele pode não conseguir aumentar o custo de aquisição, o que pode significar pagar imposto sobre um ganho maior do que o necessário.
 
-## Exemplo Prático
+**Guia:** O que teria evitado esse problema?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Guardar recibos e registros dos custos da benfeitoria à medida que aconteciam, o que volta à lição sobre organização de documentos.
 
-**Professor:** Henrique comprou a casa por $200.000 e gastou $30.000 numa ampliação. Vendeu por $280.000. Qual o ganho, se a ampliação entrar no custo base?
+**Guia:** Exatamente: esse é um exemplo muito concreto, e caro, de por que esse hábito importa.
 
-**Aluno:** Custo base de $230.000. Ganho de $50.000.
+## Teste de prática
 
-**Professor:** E se ele não tivesse guardado os comprovantes da ampliação?
+**Pergunta 1.** Vender uma casa é, no fundo, um exemplo de:
 
-**Aluno:** Talvez o ganho considerado fosse de $80.000.
+A) Imposto sobre vendas
+B) O conceito de ganho de capital: preço de venda menos custo de aquisição
+C) Tributos sobre a folha
+D) Um crédito tributário
 
-**Professor:** E se o país dele tiver uma isenção para residência principal?
+**Pergunta 2.** Por que muitos sistemas oferecem tratamento favorável especificamente para a residência principal?
 
-**Aluno:** Aí parte ou todo o ganho pode não ser tributado, dependendo das regras.
+A) Sem um motivo real
+B) Ela é vista como um acontecimento comum e importante da vida, e não como um simples investimento
+C) Casas nunca são vendidas
+D) Só imóveis de investimento recebem tratamento favorável
 
-## Quiz de Prática
+**Pergunta 3.** Benfeitorias aceitas na casa geralmente podem:
 
-**1.** Qual conceito se aplica à venda de uma casa?
+A) Diminuir o custo de aquisição da casa
+B) Aumentar o custo de aquisição da casa, reduzindo o ganho tributável depois
+C) Não ter efeito sobre o custo de aquisição
+D) Importar só para imóveis alugados
 
-- A) Ganho de capital
-- B) Imposto sobre a folha
-- C) Imposto sobre vendas
-- D) Tarifa
+**Pergunta 4.** Sem registros dos custos das benfeitorias, o proprietário corre o risco de:
 
-**2.** O que pode aumentar o custo base de uma casa em muitos sistemas?
-
-- A) A conta de luz mensal
-- B) Melhorias permanentes
-- C) Compras no supermercado
-- D) O salário do dono
-
-**3.** Compra por $150.000, melhorias de $20.000, venda por $210.000. Ganho?
-
-- A) $60.000
-- B) $210.000
-- C) $40.000
-- D) $20.000
-
-**4.** Regras especiais para residência principal...
-
-- A) Não existem em lugar nenhum
-- B) São iguais no mundo todo
-- C) Só valem para empresas
-- D) Existem em muitos países, com condições variadas
+A) Nada
+B) Pagar mais imposto do que o necessário na venda futura
+C) Receber uma restituição automática
+D) Perder a propriedade da casa
 
 ## Gabarito
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Ganho de capital** — A casa é um bem vendido com ganho ou perda.
+**1.** A venda de uma casa segue o mesmo cálculo básico de ganho de qualquer outra venda de bem.
 
-**2. B) Melhorias permanentes** — Melhorias permanentes costumam entrar no custo base.
+**2.** A residência principal costuma ser tratada de forma diferente, por ser mais uma necessidade da vida do que um simples veículo de investimento.
 
-**3. C) $40.000** — $210.000 − $170.000 = $40.000.
+**3.** As benfeitorias aceitas geralmente se somam ao custo de aquisição, o que pode reduzir bastante o ganho tributável na venda.
 
-**4. D) Existem em muitos países, com condições variadas** — Isenções e condições variam por país.
+**4.** A falta de documentação se traduz diretamente em um ganho tributável maior e em uma conta de imposto desnecessariamente maior.
 
-## Principais Lições
+## Pontos-chave
 
-- Vender uma casa segue a lógica do ganho de capital
-- Melhorias permanentes podem aumentar o custo base
-- Guarde comprovantes; muitas regras especiais existem para a residência principal
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Vender uma casa segue a mesma lógica básica de ganho de capital de outras vendas de bens.
+- A residência principal costuma receber algum tratamento tributário favorável.
+- Benfeitorias aceitas podem aumentar o custo de aquisição, reduzindo o ganho tributável depois.
+- Organizar mal os registros das benfeitorias pode ser um erro caro e evitável.

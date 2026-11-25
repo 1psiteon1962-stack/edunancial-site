@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-035
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 35
-title: "Traditional vs. Roth: pagare le imposte ora o dopo"
-source_title: "Traditional vs. Roth: Pay Taxes Now or Later"
-description: "Spiega il concetto generale dietro due strutture comuni di conti pensionistici — una tassata in uscita e una tassata in entrata — usando etichette generiche."
-slug: traditional-vs-roth-pay-taxes-now-or-later
-seo_title: "Traditional vs. Roth: pagare le imposte ora o dopo | Edunancial"
-meta_description: "Spiega il concetto generale dietro due strutture comuni di conti pensionistici — una tassata in uscita e una tassata in entrata — usando etichette generiche."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 35
-summary: "Spiega il concetto generale dietro due strutture comuni di conti pensionistici — una tassata in uscita e una tassata in entrata — usando etichette generiche."
+locale: it
+title: "Tradizionale o Roth: pagare le imposte ora o dopo"
+summary: "Spiega il concetto generale alla base di due strutture comuni di conti previdenziali, una tassata al versamento e l'altra al prelievo, con etichette generiche invece dei nomi dei programmi di un singolo paese."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-035: Traditional vs. Roth: pagare le imposte ora o dopo
+# Tradizionale o Roth: pagare le imposte ora o dopo
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare la differenza tra pagare l'imposta in entrata e in uscita
-- Collegare la scelta all'aliquota attesa in futuro
-- Riconoscere i nomi "Traditional" e "Roth" usati negli Stati Uniti
+- Spiegare la scelta "pagare ora o pagare dopo" presente in molti sistemi previdenziali.
+- Riconoscere il compromesso di base tra i due approcci.
+- Riconoscere che la scelta migliore può dipendere dalle aliquote future attese.
 
 ## Contenuto principale
 
-Esistono due modi comuni di dare un vantaggio fiscale alla pensione. Nel primo, il denaro entra senza imposta ora, e paghi l'imposta quando prelevi in futuro. Negli Stati Uniti si chiama conto "Traditional".
+Molti sistemi di conti previdenziali offrono una scelta tra due strutture, spesso descritte in modo generico come di tipo "tradizionale" e di tipo "Roth" (dai nomi statunitensi), qualunque sia il nome locale esatto. In un conto di tipo tradizionale, i versamenti di solito riducono ora il reddito imponibile, ma i prelievi in pensione vengono tassati. In un conto di tipo Roth, si versa denaro già tassato, ma i prelievi in pensione sono di solito esenti. (In Italia la previdenza complementare segue in larga parte la logica "tradizionale", con versamenti deducibili entro un limite e prestazioni tassate in seguito; le regole cambiano.)
 
-Nel secondo, versi denaro già tassato, ma i prelievi futuri, rispettando le regole, sono esenti. Negli Stati Uniti si chiama conto "Roth".
+Il compromesso centrale è il momento: pagare l'imposta ora alla tua aliquota attuale, o dopo alla tua aliquota futura. Se ti aspetti che in pensione la tua aliquota sarà più bassa di oggi, un approccio tradizionale spesso conviene di più. Se ti aspetti un'aliquota simile o più alta in pensione, cosa frequente per i giovani all'inizio della carriera con margini di crescita, un approccio di tipo Roth può convenire di più. Non esiste una risposta giusta per tutti: dipende da ipotesi sul futuro, ed è proprio per questo che è un'area tipica in cui chiedere un parere professionale invece di tirare a indovinare.
 
-Quale è meglio? Dipende in gran parte da una domanda: la tua aliquota sarà più alta ora o in pensione? Se ti aspetti un'aliquota più bassa in futuro, rinviare l'imposta può convenire. Se ti aspetti un'aliquota più alta in futuro, pagare ora può essere meglio. Nessuno conosce il futuro con certezza, per questo molti usano entrambi.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Una ragazza di 22 anni appena entrata nel mondo del lavoro deve scegliere tra un conto di tipo tradizionale e uno di tipo Roth. Su quale ragionamento generale dovrebbe riflettere?
 
-## Esempio pratico
+**Studente:** In base a questa lezione, dovrebbe chiedersi se la sua aliquota attuale sia probabilmente più bassa o più alta di quella che avrà più avanti nella carriera.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Visto che è all'inizio della carriera, qual è un'ipotesi ragionevole sul suo reddito e sulla sua aliquota futuri?
 
-**Insegnante:** Vittoria ha 22 anni, guadagna poco e si aspetta di guadagnare molto di più in futuro. Vuole sapere: pagare le imposte ora o dopo?
+**Studente:** Il suo reddito, e probabilmente la sua aliquota, aumenteranno nel tempo: quindi pagare ora l'imposta a un'aliquota più bassa, con un conto di tipo Roth, potrebbe avere senso.
 
-**Studente:** Se ora guadagna poco, la sua aliquota è bassa.
+**Guida:** È un ragionamento sensato, anche se resta un'ipotesi sul futuro, non una garanzia: per questo, per un piano concreto, vale la pena parlarne con un professionista.
 
-**Insegnante:** E in futuro?
+## Quiz di esercitazione
 
-**Studente:** Probabilmente più alta. Quindi pagare ora, in stile Roth, può avere senso.
+**Domanda 1.** In un conto di tipo tradizionale, i versamenti di solito:
 
-**Insegnante:** E qualcuno al culmine della carriera, che si aspetta di guadagnare meno in pensione?
+A) Vengono tassati due volte
+B) Riducono ora il reddito imponibile, con prelievi tassati in seguito
+C) Non vengono mai tassati
+D) Non hanno effetti fiscali
 
-**Studente:** Potrebbe preferire rinviare l'imposta, in stile Traditional.
+**Domanda 2.** In un conto di tipo Roth, i versamenti sono di solito:
 
-## Quiz di verifica
+A) Effettuati con denaro già tassato, con prelievi esenti in seguito
+B) Dedotti dal reddito imponibile attuale
+C) Tassati due volte
+D) Vietati
 
-**1.** Nel conto "Traditional" (USA), quando si paga l'imposta?
+**Domanda 3.** Il compromesso centrale tra i due approcci è:
 
-- A) In entrata
-- B) Mai
-- C) Ogni mese
-- D) In uscita
+A) Non c'è alcun compromesso
+B) Pagare l'imposta ora oppure pagarla dopo
+C) Un approccio non ha mai a che fare con le imposte
+D) Solo le imprese possono scegliere
 
-**2.** Nel conto "Roth" (USA), quando si paga l'imposta?
+**Domanda 4.** Quale approccio tende a favorire chi si aspetta in pensione un'aliquota più bassa di oggi?
 
-- A) In entrata, e i prelievi conformi alle regole sono esenti
-- B) Solo in uscita
-- C) Due volte
-- D) Mai, in nessun momento
+A) Di tipo Roth
+B) Di tipo tradizionale
+C) Nessuno dei due conta
+D) Solo i conti basati sull'imposta sulle vendite
 
-**3.** Quale domanda aiuta a scegliere tra i due?
+## Soluzioni
 
-- A) Quale banca è più bella?
-- B) La mia aliquota sarà più alta ora o in futuro?
-- C) Quanti figli avrò?
-- D) Di che colore è la carta?
-
-**4.** Perché molte persone usano entrambi?
-
-- A) Perché è obbligatorio
-- B) Perché uno annulla l'altro
-- C) Perché nessuno conosce il futuro con certezza
-- D) Per caso
-
-## Chiave delle risposte
-
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. D) In uscita** — L'imposta è rinviata fino al prelievo.
+**1.** La struttura tradizionale rinvia l'imposta: offre un vantaggio oggi al prezzo di un'imposta sui prelievi futuri.
 
-**2. A) In entrata, e i prelievi conformi alle regole sono esenti** — Si versa denaro già tassato.
+**2.** La struttura di tipo Roth anticipa l'imposta, così i prelievi futuri che rispettano i requisiti sono in genere esenti.
 
-**3. B) La mia aliquota sarà più alta ora o in futuro?** — L'aliquota attesa è il fattore centrale.
+**3.** È fondamentalmente una scelta di tempi su quando preferisci pagare l'imposta, basata su ipotesi sulle aliquote future.
 
-**4. C) Perché nessuno conosce il futuro con certezza** — Diversificare il momento dell'imposta riduce il rischio di sbagliare previsione.
+**4.** Se l'aliquota di oggi è più alta di quella attesa in futuro, rinviare l'imposta (tipo tradizionale) spesso conviene di più.
 
 ## Punti chiave
 
-- Traditional: imposta rinviata al prelievo
-- Roth: imposta pagata ora, prelievi futuri esenti (rispettando le regole)
-- La scelta dipende dall'aliquota attesa ora vs. in futuro
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- I conti di tipo tradizionale rinviano l'imposta al prelievo; quelli di tipo Roth tassano ora i versamenti, non i prelievi.
+- Il compromesso centrale è pagare l'imposta ora oppure dopo.
+- La scelta migliore dipende da ipotesi sulla tua aliquota attuale rispetto a quella futura.
+- È un'area comune e legittima in cui chiedere un parere professionale invece di tirare a indovinare.

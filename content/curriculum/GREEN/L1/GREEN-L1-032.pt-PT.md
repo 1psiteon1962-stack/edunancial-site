@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 32
 locale: pt-PT
-title: "Mais-Valias de Curto Prazo vs. Longo Prazo"
-summary: "Explica porque é que muitos sistemas tributam os ganhos de forma diferente conforme o tempo durante o qual o bem foi detido antes da venda."
+title: "Mais-valias de curto e de longo prazo"
+summary: "Explica porque é que muitos sistemas tributam as mais-valias de forma diferente consoante o tempo durante o qual o bem foi detido antes da venda."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Mais-Valias de Curto Prazo vs. Longo Prazo
+# Mais-valias de curto e de longo prazo
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir mais-valias de curto e de longo prazo.
+- Explicar a lógica geral de política pública para favorecer períodos de detenção mais longos.
+- Reconhecer o período de detenção como um fator de planeamento.
 
-- Distinguir ganhos de curto prazo e de longo prazo
-- Perceber porque é que muitos sistemas incentivam o investimento de longo prazo
-- Reconhecer que o tempo de detenção pode mudar o imposto
+## Conteúdo principal
 
-## Conteúdo Principal
+Muitos sistemas fiscais distinguem entre mais-valias de curto prazo (de bens detidos durante menos tempo, muitas vezes menos de um ano) e mais-valias de longo prazo (de bens detidos durante mais tempo), tributando muitas vezes as de longo prazo a uma taxa mais favorável. O limite exato do período de detenção e a diferença de taxa variam de país para país e mudam ao longo do tempo, mas o padrão geral, premiar a paciência, é comum. (Em Portugal, por exemplo, o tratamento de algumas mais-valias mobiliárias de curto prazo tem sido diferente em certas situações, e as regras mudam.)
 
-Muitos sistemas fiscais olham para o tempo durante o qual detiveste o bem antes de o vender. Se vendeste depressa, o ganho é de curto prazo. Se o mantiveste mais tempo, é de longo prazo.
+A lógica geral de política pública é incentivar o investimento de longo prazo e desincentivar o excesso de negociação de curto prazo, embora pessoas sensatas discordem sobre o quanto isso funciona na prática. Para o investidor individual, a lição prática é que o período de detenção é uma verdadeira alavanca de planeamento: vender um bem um pouco antes ou um pouco depois de um limite importante pode alterar bastante o resultado fiscal, e é por isso que os investidores por vezes escolhem deliberadamente o momento da venda em torno de um marco do período de detenção.
 
-Nos EUA, por exemplo, o limite comum é de um ano: ganhos de bens detidos durante mais de um ano costumam ter taxas mais baixas. Outros países usam prazos diferentes, ou não fazem esta distinção.
+## Exemplo prático
 
-A ideia por trás disto é incentivar o investimento paciente em vez da especulação rápida. Na prática, isto quer dizer que, às vezes, esperar um pouco mais para vender pode mudar o imposto. Mas o imposto nunca deve ser o único motivo de uma decisão de investimento.
+**Pergunta:** Uma investidora está perto do limite de longo prazo numa ação com lucro e está a decidir se vende já ou espera mais algumas semanas. O que deve ponderar?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, esperar até ultrapassar o limite de longo prazo pode significar uma taxa mais favorável sobre a mais-valia.
 
-## Exemplo Prático
+**Guia:** O tratamento fiscal deve ser o único fator nesta decisão?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Provavelmente não: o preço da ação também pode mudar entretanto, por isso é uma verdadeira troca entre o momento fiscal e o risco do investimento, e não uma decisão puramente fiscal.
 
-**Professor:** No nosso exemplo, os ganhos de curto prazo pagam 25% e os de longo prazo 15%. O Rodrigo tem um ganho de $1.000. Quanto paga se vender agora, aos 10 meses?
+**Guia:** Exatamente: o planeamento fiscal é um fator, e não a decisão toda.
 
-**Aluno:** 25% de $1.000, que dá $250.
+## Teste de prática
 
-**Professor:** E se esperar até passar um ano?
+**Pergunta 1.** As mais-valias de curto prazo vêm geralmente de bens:
 
-**Aluno:** 15%, então $150. Poupa $100.
+A) Detidos durante mais tempo
+B) Detidos durante menos tempo, muitas vezes menos de um ano
+C) Nunca vendidos
+D) Apenas imóveis
 
-**Professor:** Mas o preço pode descer entretanto, certo?
+**Pergunta 2.** As mais-valias de longo prazo são muitas vezes tributadas:
 
-**Aluno:** Sim. Então o imposto é só um dos fatores.
+A) A uma taxa menos favorável do que as de curto prazo
+B) A uma taxa mais favorável do que as de curto prazo, em muitos sistemas
+C) Exatamente como as de curto prazo, em todo o lado
+D) Nunca
 
-## Questionário de Treino
+**Pergunta 3.** A lógica geral de política pública por detrás desta distinção é:
 
-**1.** Um ganho de curto prazo vem de um bem detido durante...
+A) Castigar os investidores de longo prazo
+B) Incentivar o investimento de longo prazo em vez do excesso de negociação de curto prazo
+C) Aumentar a receita pública sem outro objetivo
+D) Simplificar o código fiscal
 
-- A) Pouco tempo
-- B) Muito tempo
-- C) Nenhum tempo
-- D) Exatamente dez anos
+**Pergunta 4.** O período de detenção entende-se melhor como:
 
-**2.** Porque é que muitos sistemas tratam melhor o longo prazo?
-
-- A) Para castigar investidores
-- B) Para incentivar o investimento paciente
-- C) Por acaso
-- D) Porque é mais fácil de calcular
-
-**3.** Nos EUA, o limite comum entre curto e longo prazo é de...
-
-- A) Um mês
-- B) Cinco anos
-- C) Um ano
-- D) Um dia
-
-**4.** O imposto deve ser o único motivo para decidir vender?
-
-- A) Sim, sempre
-- B) Só em anos pares
-- C) Só para imóveis
-- D) Não, é apenas um dos fatores
+A) Irrelevante para o planeamento fiscal
+B) Uma verdadeira alavanca de planeamento que pode afetar o resultado fiscal de uma venda
+C) Fixo e inalterável
+D) Relevante apenas para empresas
 
 ## Chave de Respostas
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Pouco tempo** — Curto prazo significa detenção curta.
+**1.** As mais-valias de curto prazo vêm geralmente de bens detidos durante um período relativamente curto antes da venda.
 
-**2. B) Para incentivar o investimento paciente** — A ideia é estimular o investimento de longo prazo.
+**2.** Muitos sistemas aplicam, por opção de política pública, uma taxa mais favorável às mais-valias de longo prazo.
 
-**3. C) Um ano** — Mais de um ano costuma ser longo prazo.
+**3.** O objetivo geral é levar os investidores à paciência em vez da negociação frequente de curto prazo, embora a sua eficácia real seja discutida.
 
-**4. D) Não, é apenas um dos fatores** — O risco e os objetivos também contam.
+**4.** Como o momento pode alterar o resultado fiscal, o período de detenção é um fator em torno do qual os investidores podem planear deliberadamente.
 
-## Pontos-Chave
+## Pontos-chave
 
-- O tempo de detenção pode mudar o imposto sobre o ganho
-- Muitos sistemas favorecem o longo prazo
-- O imposto é um fator, não o único
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- As mais-valias de curto prazo vêm normalmente de bens detidos pouco tempo; as de longo prazo, de bens detidos durante mais tempo.
+- As mais-valias de longo prazo são muitas vezes tributadas de forma mais favorável, embora os pormenores variem e mudem.
+- O objetivo de política pública é geralmente incentivar o investimento paciente e de longo prazo.
+- O período de detenção é uma alavanca de planeamento real e controlável para os investidores.

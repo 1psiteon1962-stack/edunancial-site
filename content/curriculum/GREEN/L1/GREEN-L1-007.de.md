@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 7
 locale: de
-title: "Lohnabgaben: Social Security und Medicare"
-summary: "Stellt Lohnabgaben als eigene Kategorie vor, die speziell am Arbeitslohn hängt und oft Renten- und Gesundheitsprogramme finanziert."
+title: "Lohnbezogene Abgaben: Social Security und Medicare"
+summary: "Führt lohnbezogene Abgaben als eigene Kategorie ein, die speziell an Arbeitslöhne gekoppelt ist und häufig Renten- und Gesundheitsprogramme finanziert."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Lohnabgaben: Social Security und Medicare
+# Lohnbezogene Abgaben: Social Security und Medicare
 
 ## Lernziele
 
-Am Ende dieser Lektion kannst du:
-
-- Erklären, was Lohnabgaben sind
-- Verstehen, dass sie Renten- und Gesundheitsprogramme finanzieren
-- Lohnabgaben von der Einkommensteuer unterscheiden
+- Lohnbezogene Abgaben definieren und vom allgemeinen Einkommensteuerbegriff abgrenzen.
+- Erklären, dass lohnbezogene Abgaben oft zwischen Arbeitgeber und Arbeitnehmer aufgeteilt werden.
+- Typische Programme benennen, die über lohnbezogene Abgaben finanziert werden.
 
 ## Kerninhalt
 
-Lohnabgaben werden auf den Lohn von Angestellten berechnet. In den USA sind die bekanntesten Beispiele Social Security (die staatliche Rentenversicherung) und Medicare (die Krankenversicherung für ältere Menschen). Andere Länder haben ähnliche Sozialabgaben unter anderen Namen.
+Lohnbezogene Abgaben (in den USA „payroll tax“, etwa für Social Security und Medicare; in Deutschland vergleichbar mit den Sozialversicherungsbeiträgen für Rente, Kranken-, Pflege- und Arbeitslosenversicherung) sind speziell an Arbeitslöhne gekoppelt. Sie hängen mit der Einkommensteuer zusammen, unterscheiden sich aber von ihr: Während die Einkommensteuer allgemeine Staatsausgaben finanziert, sind lohnbezogene Abgaben häufig für bestimmte Programme zweckgebunden, meist für Rentensysteme und Kranken- bzw. Gesundheitsversicherungen.
 
-In vielen Systemen werden die Kosten geteilt: Ein Teil wird vom Lohn des Angestellten abgezogen, der andere Teil wird vom Arbeitgeber gezahlt. Deshalb kostet eine Einstellung mehr als der Lohn, der auf der Lohnabrechnung steht.
-
-Lohnabgaben sind etwas anderes als die Einkommensteuer. Die Einkommensteuer fließt in den allgemeinen Haushalt. Lohnabgaben sind oft für bestimmte Programme wie Rente und Gesundheit vorgesehen.
-
-**[LÄNDERSPEZIFISCHE REGEL]** Regeln, Steuersätze, Grenzen, Formulare und Programmnamen unterscheiden sich stark von Land zu Land (und oft nach Bundesland, Staat oder Gemeinde). Diese Lektion zeigt allgemeine Muster, nicht das Steuerrecht eines bestimmten Landes. Die verwendeten Zahlen sind nur Beispiele.
+In vielen Systemen werden diese Abgaben aufgeteilt: Ein Teil wird vom Lohn des Arbeitnehmers einbehalten, und ein Teil wird vom Arbeitgeber zusätzlich zum Lohn direkt gezahlt. Die tatsächlichen Kosten eines Mitarbeiters sind für ein Unternehmen also höher als nur der Betrag auf der Gehaltsabrechnung. Diese Aufteilung wird später bei der Besteuerung von Selbstständigen wichtig, weil Selbstständige oft für beide Hälften selbst aufkommen müssen.
 
 ## Praxisbeispiel
 
-**[BEISPIEL ZUR VERANSCHAULICHUNG]** Die folgenden Namen und Zahlen sind erfunden und dienen nur zur Veranschaulichung des Konzepts.
+**Frage:** Ein Arbeitgeber zahlt einem Mitarbeiter einen Lohn und überweist zusätzlich gesondert lohnbezogene Abgaben an den Staat. Gehört der Arbeitgeberanteil zum Lohn des Mitarbeiters?
 
-**Lehrer:** João verdient $3.000 im Monat. Auf seiner Lohnabrechnung stehen zwei Abzüge mit unterschiedlichen Namen. Warum wohl zwei?
+**Schüler:** Ich würde annehmen, dass er getrennt ist, weil der Mitarbeiter dieses Geld nie sieht.
 
-**Schüler:** Einer ist bestimmt die Einkommensteuer.
+**Lernbegleiter:** Richtig, aber sind es trotzdem Kosten dafür, diesen Mitarbeiter zu beschäftigen?
 
-**Lehrer:** Und der andere?
+**Schüler:** Ja – es sind zusätzliche Kosten neben dem Lohn, auch wenn sie nicht auf der Gehaltsabrechnung auftauchen.
 
-**Schüler:** Die Lohnabgaben für Rente und Gesundheit.
-
-**Lehrer:** Zahlt die Firma auch etwas?
-
-**Schüler:** In vielen Systemen ja. Die Firma zahlt ihren Anteil, zusätzlich zu Joãos Lohn.
+**Lernbegleiter:** Genau, deshalb sind die „Kosten eines Mitarbeiters“ meist höher als der Lohn allein.
 
 ## Übungsquiz
 
-**1.** Worauf werden Lohnabgaben berechnet?
+**Frage 1.** Lohnbezogene Abgaben sind speziell gekoppelt an:
 
-- A) Einkäufe
-- B) Immobilien
-- C) Erbschaften
-- D) Arbeitslohn
+A) Immobilien
+B) Arbeitslöhne
+C) Einzelhandelskäufe
+D) Erbschaften
 
-**2.** Was finanzieren diese Abgaben häufig?
+**Frage 2.** Lohnbezogene Abgaben finanzieren häufig:
 
-- A) Renten- und Gesundheitsprogramme
-- B) Straßen
-- C) Volksfeste
-- D) Private Banken
+A) Renten- und Gesundheitsprogramme
+B) Nur den Straßenbau
+C) Nur die Landesverteidigung
+D) Nichts Bestimmtes
 
-**3.** Wer zahlt in vielen Systemen die Lohnabgaben?
+**Frage 3.** In vielen Systemen werden lohnbezogene Abgaben:
 
-- A) Nur der Angestellte
-- B) Angestellter und Arbeitgeber teilen sie
-- C) Nur der Arbeitgeber
-- D) Niemand
+A) Nur vom Arbeitgeber gezahlt
+B) Nur vom Arbeitnehmer gezahlt
+C) Zwischen Arbeitgeber und Arbeitnehmer aufgeteilt
+D) Nie tatsächlich gezahlt
 
-**4.** Was ist der Hauptunterschied zur Einkommensteuer?
+**Frage 4.** Die tatsächlichen Kosten für die Beschäftigung eines Mitarbeiters sind oft:
 
-- A) Es gibt keinen Unterschied
-- B) Einkommensteuer gibt es nur für Firmen
-- C) Lohnabgaben fließen oft in bestimmte Programme
-- D) Lohnabgaben sind freiwillig
+A) Genau der Betrag auf der Gehaltsabrechnung
+B) Höher als der Lohn, wegen des Arbeitgeberanteils
+C) Niedriger als der Lohn
+D) Unabhängig von lohnbezogenen Abgaben
 
 ## Lösungsschlüssel
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. C, 4. B
 
 ## Antworten und Erklärungen
 
-**1. D) Arbeitslohn** — Sie werden auf den gezahlten Lohn berechnet.
+**1.** Lohnbezogene Abgaben unterscheiden sich von der allgemeinen Einkommensteuer, weil sie speziell an Arbeitslöhne gekoppelt sind.
 
-**2. A) Renten- und Gesundheitsprogramme** — In den USA zum Beispiel Social Security und Medicare.
+**2.** Rentensysteme und Kranken- bzw. Gesundheitsversicherungen werden häufig über zweckgebundene lohnbezogene Abgaben finanziert.
 
-**3. B) Angestellter und Arbeitgeber teilen sie** — Die Kosten werden oft zwischen beiden aufgeteilt.
+**3.** Die Aufteilung zwischen Arbeitgeber und Arbeitnehmer ist in vielen Systemen eine übliche Gestaltung.
 
-**4. C) Lohnabgaben fließen oft in bestimmte Programme** — Einkommensteuer geht in den allgemeinen Haushalt; Lohnabgaben haben oft einen festen Zweck.
+**4.** Weil Arbeitgeber zusätzlich zum Lohn einen Anteil zahlen, übersteigen die Gesamtkosten eines Mitarbeiters seinen Lohn.
 
-## Das Wichtigste in Kürze
+## Wichtigste Erkenntnisse
 
-- Lohnabgaben werden auf den Lohn erhoben
-- Sie finanzieren oft Rente und Gesundheit
-- Angestellter und Arbeitgeber teilen häufig die Kosten
-
----
-
-*Diese Lektion dient ausschließlich der Bildung und stellt keine persönliche Steuer-, Rechts- oder Finanzberatung dar. Für Entscheidungen zu deiner Situation wende dich an eine qualifizierte Fachperson.*
+- Lohnbezogene Abgaben sind speziell an Arbeitslöhne gekoppelt und unterscheiden sich von der allgemeinen Einkommensteuer.
+- Sie finanzieren häufig Renten- und Gesundheitsprogramme.
+- Viele Systeme teilen diese Abgaben zwischen Arbeitgeber und Arbeitnehmer auf.
+- Diese Aufteilung wird besonders für Selbstständige wichtig, wie eine spätere Lektion zeigt.

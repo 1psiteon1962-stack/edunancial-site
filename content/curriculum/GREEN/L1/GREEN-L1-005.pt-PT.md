@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 5
 locale: pt-PT
-title: "Imposto Sobre as Vendas: Tributar o Que Compras"
-summary: "Como funcionam os impostos sobre o consumo, quem os cobra e porque é que o comprador normalmente os vê somados na caixa."
+title: "Imposto sobre as vendas: tributar aquilo que compra"
+summary: "Como funcionam os impostos sobre o consumo, quem os cobra e porque é que o comprador os vê normalmente acrescentados na caixa."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre as Vendas: Tributar o Que Compras
+# Imposto sobre as vendas: tributar aquilo que compra
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Explicar como é normalmente cobrado o imposto sobre as vendas.
+- Identificar a diferença entre o vendedor que cobra o imposto e o vendedor que o deve.
+- Reconhecer que as taxas do imposto sobre as vendas variam consoante o local.
 
-- Explicar o que é um imposto sobre o consumo
-- Perceber o papel do vendedor como cobrador
-- Calcular o preço final de uma compra com imposto
+## Conteúdo principal
 
-## Conteúdo Principal
+O imposto sobre as vendas é acrescentado ao preço de bens ou serviços no momento da compra. Na maioria dos sistemas, o vendedor é responsável por cobrar o imposto ao comprador e depois entregá-lo ao Estado: o vendedor atua como cobrador, e não como quem suporta o custo final. Normalmente é o comprador quem paga efetivamente o imposto, mesmo que seja a empresa a tratar da papelada. (Em Portugal e no resto da União Europeia, o sistema equivalente é o IVA, que normalmente já está incluído no preço final apresentado.)
 
-O imposto sobre as vendas, ou sobre o consumo, é cobrado quando compras um produto ou serviço. Quem paga de facto é o comprador. Mas quem recolhe o dinheiro é o vendedor, que depois o entrega ao Estado.
+As taxas e as regras variam enormemente consoante o local, por vezes até entre cidades vizinhas do mesmo país. Algumas categorias de bens, como os alimentos ou os medicamentos, são muitas vezes tributadas a uma taxa reduzida ou isentas, consoante a política local. É por isso que o imposto sobre as vendas também se chama imposto sobre o consumo: está ligado ao ato de gastar, e não ao rendimento ou à propriedade.
 
-Em alguns lugares, como nos Estados Unidos com a sales tax, o imposto aparece somado na caixa, depois do preço da etiqueta. Noutros, já vem incluído no preço. Muitos países, incluindo Portugal, usam o IVA (imposto sobre o valor acrescentado), cobrado em várias fases da cadeia de produção.
+## Exemplo prático
 
-Este tipo de imposto afeta toda a gente que compra, independentemente de quanto ganha. Por isso, pesa mais no orçamento de quem ganha menos, porque essas pessoas gastam uma parte maior do rendimento em compras. Vamos voltar a esta ideia na lição sobre impostos regressivos.
+**Pergunta:** Um lojista cobra imposto sobre as vendas aos clientes durante o mês inteiro. De quem é esse dinheiro, e o que deve ele fazer com ele?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Parece dinheiro da loja, já que entrou pela caixa.
 
-## Exemplo Prático
+**Guia:** Mas quem é que o pagou de facto?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Os clientes; a loja só o acrescentou ao preço e o cobrou.
 
-**Professor:** A etiqueta de uma mochila diz $50. O imposto sobre as vendas no local é de 8%, no nosso exemplo. Quanto pagas na caixa?
+**Guia:** Certo, e é por isso que esse dinheiro não é verdadeiramente receita da loja: é o pagamento de imposto dos clientes, que passa pela loja a caminho do Estado.
 
-**Aluno:** 8% de $50 são $4. Então $54.
+## Teste de prática
 
-**Professor:** E para quem vão esses $4?
+**Pergunta 1.** O imposto sobre as vendas é geralmente cobrado por:
 
-**Aluno:** A loja recebe-os, mas tem de os entregar ao Estado.
+A) O Estado, diretamente aos compradores
+B) O vendedor, que depois o entrega ao Estado
+C) Ninguém: é opcional
+D) Apenas lojas online
 
-**Professor:** Exatamente. A loja é só a cobradora.
+**Pergunta 2.** Quem suporta normalmente o custo real do imposto sobre as vendas?
 
-## Questionário de Treino
+A) O vendedor
+B) O comprador
+C) O Estado
+D) Ninguém
 
-**1.** Quem paga de facto o imposto sobre as vendas?
+**Pergunta 3.** As taxas do imposto sobre as vendas:
 
-- A) O vendedor
-- B) O comprador
-- C) O banco
-- D) Apenas o fabricante
+A) São iguais em todo o lado
+B) Podem variar significativamente consoante o local
+C) Nunca se aplicam a serviços
+D) Só existem num país
 
-**2.** Qual é o papel do vendedor?
+**Pergunta 4.** Os alimentos e os medicamentos são por vezes:
 
-- A) Fica com o imposto como lucro
-- B) Decide a taxa
-- C) Recolhe o imposto e entrega-o ao Estado
-- D) Não tem qualquer papel
-
-**3.** Um produto custa $100 e o imposto é de 10% (exemplo). Qual o preço final?
-
-- A) $100
-- B) $90
-- C) $120
-- D) $110
-
-**4.** Porque é que o imposto sobre o consumo pesa mais a quem ganha menos?
-
-- A) Porque gasta uma parte maior do rendimento em compras
-- B) Porque paga uma taxa mais alta
-- C) Porque está proibido de comprar
-- D) Porque não paga imposto sobre o rendimento
+A) Tributados a uma taxa mais elevada do que os artigos de luxo
+B) Tributados a uma taxa reduzida ou isentos
+C) Proibidos de vender
+D) Não sujeitos a quaisquer regras fiscais
 
 ## Chave de Respostas
 
-1. B
-2. C
-3. D
-4. A
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. B) O comprador** — O comprador paga; o vendedor só recolhe e entrega.
+**1.** O vendedor atua normalmente como intermediário, cobrando o imposto e entregando-o, em vez de o guardar como receita.
 
-**2. C) Recolhe o imposto e entrega-o ao Estado** — O vendedor atua como cobrador em nome do Estado.
+**2.** Mesmo que seja a empresa a tratar da transação, é no pagamento do comprador que o imposto está incluído.
 
-**3. D) $110** — $100 + $10 de imposto = $110.
+**3.** Em muitos sistemas, as taxas são definidas a nível local ou regional e podem mudar de uma localidade ou de um estado para outro.
 
-**4. A) Porque gasta uma parte maior do rendimento em compras** — A taxa é a mesma, mas representa uma fatia maior do rendimento de quem ganha menos.
+**4.** Muitos governos isentam ou reduzem o imposto sobre os bens essenciais, por escolha política.
 
-## Pontos-Chave
+## Pontos-chave
 
-- O comprador paga e o vendedor recolhe
-- O imposto pode vir somado na caixa ou incluído no preço
-- Pesa mais, proporcionalmente, a quem ganha menos
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- O imposto sobre as vendas é cobrado pelo vendedor no momento da compra e entregue ao Estado.
+- Quem suporta no fim o custo do imposto é o comprador, e não o vendedor.
+- As taxas variam muito consoante o local, por vezes até a nível local.
+- Os bens essenciais são muitas vezes tributados de forma diferente dos outros bens, por escolha política.

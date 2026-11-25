@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 18
 locale: pt-PT
-title: "Situação na Declaração: Solteiro, Casado, Chefe de Família"
-summary: "Apresenta o conceito de situação na declaração e porque é que a situação familiar e conjugal pode afetar o cálculo do imposto."
+title: "Situação na declaração: solteiro, casado, chefe de família"
+summary: "Apresenta o conceito de situação na declaração e explica porque é que o estado civil e a composição do agregado familiar podem afetar o cálculo do imposto."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Situação na Declaração: Solteiro, Casado, Chefe de Família
+# Situação na declaração: solteiro, casado, chefe de família
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Explicar o que é a situação na declaração.
+- Identificar as categorias mais comuns.
+- Explicar, em termos gerais, porque é que a situação na declaração pode afetar o resultado fiscal.
 
-- Explicar o que é a situação na declaração
-- Conhecer as categorias comuns
-- Perceber porque é que a situação familiar pode mudar o imposto
+## Conteúdo principal
 
-## Conteúdo Principal
+A situação na declaração (nos EUA, "filing status") é uma categoria, baseada no seu estado civil e na composição do seu agregado familiar, que muitos sistemas fiscais usam para definir que escalões, montantes de dedução e regras de elegibilidade se aplicam a si. As categorias mais comuns são solteiro, casado (por vezes com a opção de declaração conjunta ou separada) e chefe de família (normalmente uma pessoa não casada que sustenta dependentes). (Em Portugal, os casados e unidos de facto podem optar pela tributação conjunta ou separada no IRS, e o número de dependentes também conta; as regras mudam.)
 
-Em alguns sistemas, como o dos EUA, tens de indicar a tua "situação na declaração" (filing status). Descreve a tua situação familiar no ano e afeta o cálculo do imposto.
+A situação na declaração importa porque altera o cálculo de fundo: o mesmo rendimento pode dar origem a um imposto diferente consoante a categoria, porque os limites dos escalões e os montantes da dedução fixa são muitas vezes definidos de forma diferente para cada uma. Isto não é uma lacuna nem um truque; reflete uma avaliação de política pública de que a composição do agregado familiar afeta a capacidade real de uma pessoa ou família para pagar imposto.
 
-Categorias comuns incluem: solteiro; casado com declaração conjunta; casado com declaração separada; e chefe de família (head of household), geralmente para pessoas não casadas que sustentam um dependente em casa. Cada categoria pode ter escalões e deduções diferentes.
+## Exemplo prático
 
-A lógica é que uma família com dependentes tem custos diferentes de uma pessoa sozinha. Nem todos os países usam este sistema; noutros existe a opção entre tributação conjunta ou separada, ou cada pessoa declara individualmente. Mudanças como casamento, divórcio ou o nascimento de um filho podem alterar a tua situação, por isso revê-a sempre que a vida mudar.
+**Pergunta:** Duas pessoas ganham exatamente o mesmo salário, mas uma é solteira e a outra sustenta dois filhos como chefe de família. Esperaria que o cálculo do imposto fosse igual?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Provavelmente não, porque a situação na declaração altera os escalões e os montantes de dedução aplicáveis.
 
-## Exemplo Prático
+**Guia:** Porque é que o sistema fiscal trataria o caso do chefe de família de forma diferente?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Porque sustentar dependentes afeta quanto desse rendimento fica realmente disponível para as necessidades da própria pessoa, e a política tem isso em conta.
 
-**Professor:** A Camila não é casada e sustenta o filho de 8 anos, que vive com ela. Nos EUA, que categoria se aplica provavelmente?
+**Guia:** Certo: a situação na declaração reflete uma avaliação da capacidade financeira, e não apenas o rendimento em bruto.
 
-**Aluno:** Solteira?
+## Teste de prática
 
-**Professor:** Pensa: não é casada e sustenta um dependente em casa.
+**Pergunta 1.** A situação na declaração baseia-se:
 
-**Aluno:** Então provavelmente chefe de família.
+A) No seu cargo profissional
+B) No seu estado civil e na composição do seu agregado familiar
+C) Apenas na sua idade
+D) No seu país de nascimento
 
-**Professor:** E porque é que isso importa?
+**Pergunta 2.** As categorias mais comuns incluem:
 
-**Aluno:** Porque essa categoria costuma ter regras mais favoráveis do que a de solteiro.
+A) Solteiro, casado, chefe de família
+B) Apenas "empregado" e "desempregado"
+C) Apenas "rico" e "pobre"
+D) Apenas "cidadão" e "não cidadão"
 
-## Questionário de Treino
+**Pergunta 3.** A situação na declaração pode afetar:
 
-**1.** A situação na declaração descreve...
+A) Nada
+B) Os escalões e os montantes de dedução aplicáveis
+C) Apenas o seu nome no formulário
+D) Apenas o imposto sobre as vendas
 
-- A) O tipo de emprego
-- B) O banco usado
-- C) A situação familiar no ano
-- D) O estado de saúde
+**Pergunta 4.** A razão pela qual a situação na declaração importa é normalmente descrita como:
 
-**2.** "Chefe de família" aplica-se geralmente a...
-
-- A) Qualquer pessoa casada
-- B) Donos de empresas
-- C) Reformados
-- D) Pessoas não casadas que sustentam um dependente em casa
-
-**3.** Porque é que a situação familiar pode mudar o imposto?
-
-- A) Porque as famílias têm custos diferentes das pessoas sozinhas
-- B) Porque os casados não pagam imposto
-- C) Porque o Estado sorteia
-- D) Não muda nada
-
-**4.** Todos os países usam a situação na declaração como nos EUA?
-
-- A) Sim, todos
-- B) Não, há outros modelos, como a declaração individual
-- C) Só os países europeus
-- D) Só os países asiáticos
+A) Uma lacuna
+B) Um reflexo das diferenças de capacidade financeira consoante a composição do agregado familiar
+C) Puro acaso
+D) Irrelevante para o cálculo do imposto
 
 ## Chave de Respostas
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. A, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) A situação familiar no ano** — Reflete o estado civil e os dependentes.
+**1.** As categorias são construídas em torno do estado civil e das responsabilidades familiares.
 
-**2. D) Pessoas não casadas que sustentam um dependente em casa** — É a descrição mais comum desta categoria.
+**2.** Solteiro, casado e chefe de família são categorias muito usadas, embora os nomes exatos variem de país para país.
 
-**3. A) Porque as famílias têm custos diferentes das pessoas sozinhas** — O sistema tenta refletir diferenças de custo e responsabilidade.
+**3.** Categorias diferentes vêm muitas vezes com limites de escalão e montantes de dedução diferentes.
 
-**4. B) Não, há outros modelos, como a declaração individual** — É uma característica de alguns sistemas, não de todos.
+**4.** A justificação de política pública é que a composição do agregado afeta a capacidade financeira real, e não que se trate de um truque ou de uma lacuna.
 
-## Pontos-Chave
+## Pontos-chave
 
-- A situação na declaração reflete o estado civil e os dependentes
-- Categorias comuns: solteiro, casado (conjunta/separada), chefe de família
-- Revê-a quando a vida mudar
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- A situação na declaração reflete o estado civil e a composição do agregado familiar.
+- As categorias comuns incluem solteiro, casado e chefe de família.
+- A situação na declaração afeta os escalões e os montantes de dedução aplicáveis.
+- Isto reflete avaliações de política pública sobre a capacidade financeira, e não uma lacuna.

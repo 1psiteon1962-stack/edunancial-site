@@ -5,98 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 8
 locale: pt-PT
-title: "Impostos Progressivos vs. Regressivos"
-summary: "Explica a diferença entre estruturas de impostos progressivas e regressivas usando comparações simples e fáceis de perceber."
+title: "Impostos progressivos e regressivos"
+summary: "Explica a diferença entre estruturas fiscais progressivas e regressivas, com comparações simples e próximas do dia a dia."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Impostos Progressivos vs. Regressivos
+# Impostos progressivos e regressivos
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Definir uma estrutura fiscal progressiva.
+- Definir uma estrutura fiscal regressiva.
+- Identificar exemplos reais de cada uma.
 
-- Definir imposto progressivo
-- Definir imposto regressivo
-- Classificar exemplos simples numa das duas categorias
+## Conteúdo principal
 
-## Conteúdo Principal
+Um imposto progressivo cobra uma percentagem maior a quem tem rendimentos ou património mais elevados. A maioria dos sistemas de imposto sobre o rendimento funciona assim: à medida que ganha mais, uma percentagem maior do seu rendimento (normalmente só a parte acima de certos limites) é tributada.
 
-Um imposto progressivo cobra uma percentagem maior a quem ganha mais. A ideia é que quem tem mais capacidade de pagar contribua com uma fatia maior. Muitos sistemas de imposto sobre o rendimento seguem este modelo.
+Um imposto regressivo, pelo contrário, cobra na prática uma percentagem maior a quem tem rendimentos mais baixos, mesmo que a taxa pareça igual para todos. O imposto sobre as vendas é um exemplo comum: se duas pessoas comprarem o mesmo artigo de 50 $ e pagarem o mesmo imposto, esse imposto representa uma parte muito maior do dinheiro total de quem tem rendimentos baixos do que de quem tem rendimentos altos. O montante é igual, mas o peso não.
 
-Um imposto regressivo acaba por pesar mais, em proporção, a quem ganha menos. Isto acontece mesmo quando a taxa é igual para todos. O imposto sobre o consumo é o exemplo clássico: todos pagam a mesma percentagem na compra, mas para quem ganha pouco isso representa uma parte maior do rendimento.
+Nenhuma das duas estruturas é, por si só, "certa" ou "errada": são instrumentos com efeitos diferentes, e os sistemas fiscais reais combinam normalmente elementos progressivos e regressivos. Perceber em que categoria se insere um imposto ajuda a avaliar quem suporta realmente a maior parte do peso.
 
-Existe também o imposto proporcional, ou de taxa única, que cobra a mesma percentagem do rendimento a todos. Perceber estas estruturas ajuda-te a acompanhar os debates sobre quem deve pagar quanto, sem teres de escolher um lado.
+## Exemplo prático
 
-## Exemplo Prático
+**Pergunta:** Duas pessoas pagam cada uma 5 $ de imposto sobre as vendas na mesma compra. Uma ganha 2000 $ por mês; a outra, 20 000 $ por mês. O efeito do imposto é progressivo ou regressivo?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** O montante é idêntico, por isso à primeira vista parece justo.
 
-**Professor:** Duas pessoas compram o mesmo telemóvel e pagam $50 de imposto. Uma ganha $1.000 por mês, a outra $10.000. Que percentagem do rendimento pagou cada uma?
+**Guia:** Mas que percentagem do rendimento de cada uma representam esses 5 $?
 
-**Aluno:** A primeira pagou 5%. A segunda, 0,5%.
+**Aluno:** Uma parte muito maior para quem ganha 2000 $ do que para quem ganha 20 000 $.
 
-**Professor:** O imposto foi igual em dinheiro. Mas pesou o mesmo?
+**Guia:** Certo: montantes iguais podem ter impactos reais desiguais, e esse é o padrão regressivo.
 
-**Aluno:** Não. Pesou dez vezes mais a quem ganha menos.
+## Teste de prática
 
-**Professor:** Isso é um efeito regressivo.
+**Pergunta 1.** Um imposto progressivo cobra:
 
-## Questionário de Treino
+A) Uma percentagem menor a quem ganha mais
+B) Uma percentagem maior a quem ganha mais
+C) A mesma percentagem a todos, independentemente do rendimento
+D) Nada a ninguém
 
-**1.** Um imposto progressivo...
+**Pergunta 2.** Um imposto regressivo pesa na prática mais sobre:
 
-- A) Cobra uma percentagem maior a quem ganha mais
-- B) Cobra o mesmo valor a todos
-- C) Pesa mais a quem ganha menos
-- D) Só existe para empresas
+A) Quem ganha mais
+B) Quem ganha menos, em proporção ao rendimento
+C) Ninguém
+D) Apenas as empresas
 
-**2.** Porque é que o imposto sobre o consumo costuma ser regressivo?
+**Pergunta 3.** O imposto sobre as vendas é muitas vezes descrito como regressivo porque:
 
-- A) Porque a taxa é maior para os pobres
-- B) Porque representa uma parte maior do rendimento de quem ganha menos
-- C) Porque só os ricos pagam
-- D) Porque não tem taxa
+A) É ilegal
+B) Montantes iguais representam uma parte maior de um rendimento mais baixo
+C) Só se aplica aos ricos
+D) Muda todos os dias
 
-**3.** Um imposto que cobra a mesma percentagem do rendimento a todos chama-se...
+**Pergunta 4.** Os sistemas fiscais reais:
 
-- A) Progressivo
-- B) Regressivo
-- C) Proporcional
-- D) Negativo
-
-**4.** Qual é o objetivo desta lição?
-
-- A) Dizer qual sistema é o melhor
-- B) Ensinar a não pagar impostos
-- C) Comparar países
-- D) Perceber como funciona cada estrutura
+A) São sempre puramente progressivos
+B) São sempre puramente regressivos
+C) Combinam muitas vezes elementos progressivos e regressivos
+D) Nunca combinam tipos de impostos
 
 ## Chave de Respostas
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. C
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Cobra uma percentagem maior a quem ganha mais** — Progressivo significa que a percentagem aumenta com o rendimento.
+**1.** Os sistemas progressivos aumentam a taxa à medida que o rendimento sobe, normalmente só sobre as partes acima de limites definidos.
 
-**2. B) Porque representa uma parte maior do rendimento de quem ganha menos** — A taxa é igual, mas a proporção do rendimento é maior para quem ganha menos.
+**2.** Os impostos regressivos retiram proporcionalmente mais aos rendimentos mais baixos, mesmo quando o montante é igual.
 
-**3. C) Proporcional** — Proporcional, ou de taxa única, aplica a mesma taxa a todos.
+**3.** O mesmo imposto de 5 $ é uma parte maior de um rendimento mais pequeno: essa é a essência de um efeito regressivo.
 
-**4. D) Perceber como funciona cada estrutura** — O foco é compreender as estruturas, não escolher um lado.
+**4.** A maioria dos sistemas reais combina elementos progressivos (como os escalões do imposto sobre o rendimento) com elementos regressivos (como um imposto sobre as vendas uniforme).
 
-## Pontos-Chave
+## Pontos-chave
 
-- Progressivo: quem ganha mais paga uma percentagem maior
-- Regressivo: pesa mais, proporcionalmente, a quem ganha menos
-- Perceber as estruturas ajuda a acompanhar os debates públicos
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Os impostos progressivos aumentam em percentagem à medida que o rendimento é mais elevado.
+- Os impostos regressivos retiram proporcionalmente mais aos rendimentos mais baixos, mesmo com montantes iguais.
+- O imposto sobre as vendas é um exemplo regressivo citado com frequência.
+- A maioria dos sistemas reais combina as duas estruturas, em vez de usar apenas uma.

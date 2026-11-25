@@ -5,102 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 12
 locale: pt-BR
-title: "Lendo Seu Contracheque"
-summary: "Um passo a passo prático para ler um contracheque típico, conectando conceitos anteriores (bruto/líquido, retenção, imposto sobre a folha) a um documento real."
+title: "Como ler o seu contracheque"
+summary: "Um passo a passo prático de como ler um contracheque típico, ligando conceitos anteriores (bruto/líquido, retenção, tributos sobre a folha) a um documento real."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Lendo Seu Contracheque
+# Como ler o seu contracheque
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Identificar as principais seções de um contracheque típico.
+- Localizar o salário bruto, os descontos e o salário líquido em um contracheque de exemplo.
+- Explicar por que conferir o contracheque com regularidade é um bom hábito.
 
-- Identificar as principais partes de um contracheque
-- Localizar a renda bruta, os descontos e a renda líquida
-- Conferir o contracheque para encontrar erros
+## Conteúdo principal
 
-## Conteúdo Principal
+O contracheque (ou holerite) é o documento, impresso ou digital, que detalha um pagamento de salário. Embora o formato varie conforme o empregador e o país, a maioria dos contracheques tem uma estrutura parecida: o salário bruto no topo, a lista de descontos no meio (impostos, contribuições para a aposentadoria, planos de saúde) e o salário líquido, o valor efetivamente depositado, no final.
 
-O contracheque, ou holerite, é o documento que mostra como o seu pagamento foi calculado. Ele parece complicado, mas quase sempre segue a mesma lógica: ganhos, descontos e valor líquido.
+A seção de descontos costuma separar categorias diferentes: a retenção do imposto de renda, os tributos sobre a folha (muitas vezes listados separadamente para aposentadoria e saúde) e os descontos voluntários escolhidos pelo funcionário, como contribuições para um plano de previdência. O contracheque também costuma mostrar totais acumulados no ano, que permitem acompanhar seus ganhos e descontos ao longo do ano, e não só em um único período de pagamento.
 
-Na parte de ganhos você vê o salário bruto, horas extras e bônus. Na parte de descontos aparecem a retenção de imposto de renda, os impostos sobre a folha e benefícios como plano de saúde ou aposentadoria. No final vem o valor líquido, que é o que cai na sua conta. Muitos contracheques também mostram os totais acumulados no ano.
+Conferir o contracheque com regularidade é um hábito prático, e não só uma formalidade burocrática. É assim que você encontra erros (horas erradas, retenção errada, um aumento esquecido) antes que eles se acumulem por meses. E é assim que você constrói uma noção real e contínua da diferença entre o que ganha e o que leva para casa, o que alimenta diretamente o seu orçamento.
 
-Vale a pena conferir o contracheque todo mês. Erros acontecem: horas que não foram pagas, descontos duplicados ou dados pessoais errados. Quanto antes você descobrir, mais fácil é corrigir. Os nomes das linhas mudam de país para país, mas a estrutura é parecida.
+## Exemplo prático
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Pergunta:** Um trabalhador olha o contracheque e vê uma coluna "YTD" ou "acumulado no ano". O que isso provavelmente significa, e por que importa?
 
-## Exemplo Prático
+**Aluno:** Eu acho que YTD significa "year to date", ou seja, o total acumulado desde o início do ano.
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Guia:** Isso. Por que esse total acumulado é útil, além dos números deste contracheque?
 
-**Professor:** No contracheque de Diego aparecem: salário $2.500, horas extras $300, retenção de imposto $350, imposto sobre a folha $210 e plano de saúde $140. Qual é o bruto?
+**Aluno:** Ele permite acompanhar o total de ganhos e de descontos ao longo do tempo, o que ajuda a encontrar erros ou a se preparar para a declaração do imposto de renda, em vez de ver só um período de cada vez.
 
-**Aluno:** $2.500 mais $300. Dá $2.800.
+**Guia:** Exatamente: um contracheque é uma foto do momento; o acumulado mostra a tendência.
 
-**Professor:** E o total de descontos?
+## Teste de prática
 
-**Aluno:** $350 + $210 + $140 = $700.
+**Pergunta 1.** Um contracheque normalmente mostra:
 
-**Professor:** Então o líquido deveria ser...?
+A) Só o salário líquido
+B) Salário bruto, descontos e salário líquido
+C) Só o imposto devido no ano
+D) Nada relacionado a impostos
 
-**Aluno:** $2.100. Se o depósito for diferente, Diego precisa perguntar ao RH.
+**Pergunta 2.** "YTD" em um contracheque provavelmente significa:
 
-## Quiz de Prática
+A) Desconto anual de imposto
+B) Acumulado no ano (year to date)
+C) Sua dívida total
+D) Rendimento até hoje
 
-**1.** Quais são as três partes básicas de um contracheque?
+**Pergunta 3.** Conferir o contracheque com regularidade ajuda você a:
 
-- A) Ganhos, descontos e valor líquido
-- B) Nome, endereço e telefone
-- C) Impostos, multas e juros
-- D) Compras, vendas e lucro
+A) Nada de útil
+B) Encontrar erros, como horas erradas ou retenção incorreta
+C) Não pagar nenhum imposto
+D) Aumentar automaticamente o salário bruto
 
-**2.** Onde aparecem as horas extras?
+**Pergunta 4.** A seção de descontos de um contracheque costuma incluir:
 
-- A) Nos descontos
-- B) Nos ganhos
-- C) No valor líquido apenas
-- D) Não aparecem
-
-**3.** Bruto de $3.000 e descontos de $650. Qual o líquido?
-
-- A) $3.650
-- B) $3.000
-- C) $2.350
-- D) $650
-
-**4.** Por que conferir o contracheque todo mês?
-
-- A) Porque é obrigatório por lei em todo país
-- B) Para calcular a inflação
-- C) Não há motivo
-- D) Para encontrar erros cedo e corrigi-los
+A) Só compras voluntárias
+B) Retenção do imposto de renda, tributos sobre a folha e descontos voluntários
+C) Só os dias de férias
+D) Nada relacionado a impostos
 
 ## Gabarito
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Ganhos, descontos e valor líquido** — Quase todo contracheque segue essa estrutura.
+**1.** Um contracheque padrão vai do salário bruto, passando pelos descontos, até o valor líquido final.
 
-**2. B) Nos ganhos** — Horas extras aumentam os ganhos brutos.
+**2.** Os totais acumulados no ano dão uma visão contínua do ano inteiro, e não só de um período de pagamento.
 
-**3. C) $2.350** — $3.000 − $650 = $2.350.
+**3.** Encontrar cedo um erro na folha, antes que ele se repita por meses, é um dos motivos mais práticos para conferir o contracheque.
 
-**4. D) Para encontrar erros cedo e corrigi-los** — Erros são mais fáceis de corrigir quando descobertos logo.
+**4.** Os descontos costumam juntar as retenções obrigatórias e as contribuições voluntárias que o funcionário escolheu.
 
-## Principais Lições
+## Pontos-chave
 
-- Contracheque = ganhos − descontos = líquido
-- Os descontos incluem retenção, imposto sobre a folha e benefícios
-- Confira todo mês para achar erros cedo
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Os contracheques geralmente vão do salário bruto, passando pelos descontos, até o salário líquido.
+- Os valores acumulados no ano acompanham os totais do ano inteiro, e não só de um período de pagamento.
+- Conferir os contracheques com regularidade ajuda a encontrar erros na folha cedo.
+- Entender o seu contracheque se liga diretamente aos conceitos de bruto/líquido e de retenção das lições anteriores.

@@ -5,102 +5,88 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 12
 locale: pt-PT
-title: "Ler o Teu Recibo de Vencimento"
-summary: "Um guia prático para ler um recibo de vencimento típico, ligando conceitos anteriores (bruto/líquido, retenção, contribuições sobre salários) a um documento real."
+title: "Ler o seu recibo de vencimento"
+summary: "Uma explicação prática de como ler um recibo de vencimento típico, ligando conceitos anteriores (bruto/líquido, retenção, contribuições sobre os salários) a um documento real."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Ler o Teu Recibo de Vencimento
+# Ler o seu recibo de vencimento
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Identificar as principais secções de um recibo de vencimento típico.
+- Localizar o vencimento bruto, os descontos e o vencimento líquido num recibo de exemplo.
+- Explicar porque é que verificar regularmente o recibo de vencimento é um bom hábito.
 
-- Identificar as principais partes de um recibo de vencimento
-- Localizar o bruto, os descontos e o líquido
-- Verificar o recibo para encontrar erros
+## Conteúdo principal
 
-## Conteúdo Principal
+O recibo de vencimento é o documento, em papel ou digital, que discrimina um pagamento de salário. Embora o formato varie consoante a entidade empregadora e o país, a maioria dos recibos tem uma estrutura semelhante: o vencimento bruto no topo, a lista de descontos ao meio (impostos, contribuições para a reforma, prémios de seguros) e o vencimento líquido, o montante efetivamente transferido, no fim.
 
-O recibo de vencimento é o documento que mostra como foi calculado o teu pagamento. Parece complicado, mas quase sempre segue a mesma lógica: abonos, descontos e valor líquido.
+A secção dos descontos separa normalmente várias categorias: a retenção na fonte do imposto sobre o rendimento, as contribuições sobre os salários (muitas vezes indicadas em separado para reforma e saúde) e eventuais descontos voluntários escolhidos pelo trabalhador, como contribuições para um plano de poupança-reforma. Um recibo mostra também, muitas vezes, totais acumulados desde o início do ano, que lhe permitem acompanhar os seus ganhos e descontos ao longo do ano, e não apenas num único período de pagamento.
 
-Na parte dos abonos vês o salário base, horas extraordinárias e prémios. Na parte dos descontos aparecem a retenção de imposto sobre o rendimento, as contribuições sobre salários e benefícios como seguro de saúde ou reforma. No fim vem o valor líquido, que é o que cai na tua conta. Muitos recibos mostram também os totais acumulados do ano.
+Verificar regularmente o recibo de vencimento é um hábito prático, e não uma simples formalidade burocrática. É assim que deteta erros (horas erradas, retenção errada, um aumento esquecido) antes de se acumularem durante meses. E é assim que ganha uma noção real e contínua da diferença entre o que ganha e o que leva para casa, o que alimenta diretamente o seu orçamento.
 
-Vale a pena verificar o recibo todos os meses. Os erros acontecem: horas não pagas, descontos duplicados ou dados pessoais errados. Quanto mais cedo descobrires, mais fácil é corrigir. Os nomes das linhas mudam de país para país, mas a estrutura é parecida.
+## Exemplo prático
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Pergunta:** Um trabalhador olha para o recibo de vencimento e vê uma coluna "YTD" ou "acumulado no ano". O que significa isso, provavelmente, e porque é que importa?
 
-## Exemplo Prático
+**Aluno:** Calculo que YTD signifique "year to date", ou seja, o total acumulado desde o início do ano.
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Guia:** Certo. Porque é que esse total acumulado é útil, para além dos números deste recibo?
 
-**Professor:** No recibo do Diogo aparecem: salário $2.500, horas extraordinárias $300, retenção de imposto $350, contribuições $210 e seguro de saúde $140. Qual é o bruto?
+**Aluno:** Permite acompanhar o total de ganhos e de descontos ao longo do tempo, o que ajuda a detetar erros ou a preparar a declaração de IRS, em vez de ver apenas um período de cada vez.
 
-**Aluno:** $2.500 mais $300. Dá $2.800.
+**Guia:** Exatamente: um recibo é uma fotografia do momento; o acumulado mostra a tendência.
 
-**Professor:** E o total de descontos?
+## Teste de prática
 
-**Aluno:** $350 + $210 + $140 = $700.
+**Pergunta 1.** Um recibo de vencimento mostra normalmente:
 
-**Professor:** Então o líquido devia ser...?
+A) Apenas o vencimento líquido
+B) Vencimento bruto, descontos e vencimento líquido
+C) Apenas o imposto devido no ano
+D) Nada relacionado com impostos
 
-**Aluno:** $2.100. Se a transferência for diferente, o Diogo tem de perguntar aos recursos humanos.
+**Pergunta 2.** "YTD" num recibo de vencimento significa muito provavelmente:
 
-## Questionário de Treino
+A) Desconto anual de imposto
+B) Acumulado no ano (year to date)
+C) A sua dívida total
+D) Rendimento até à data
 
-**1.** Quais são as três partes básicas de um recibo de vencimento?
+**Pergunta 3.** Verificar regularmente o recibo de vencimento ajuda-o a:
 
-- A) Abonos, descontos e valor líquido
-- B) Nome, morada e telefone
-- C) Impostos, coimas e juros
-- D) Compras, vendas e lucro
+A) Nada de útil
+B) Detetar erros, como horas erradas ou retenção incorreta
+C) Não pagar qualquer imposto
+D) Aumentar automaticamente o vencimento bruto
 
-**2.** Onde aparecem as horas extraordinárias?
+**Pergunta 4.** A secção dos descontos de um recibo inclui normalmente:
 
-- A) Nos descontos
-- B) Nos abonos
-- C) Só no valor líquido
-- D) Não aparecem
-
-**3.** Bruto de $3.000 e descontos de $650. Qual é o líquido?
-
-- A) $3.650
-- B) $3.000
-- C) $2.350
-- D) $650
-
-**4.** Porque é que deves verificar o recibo todos os meses?
-
-- A) Porque é obrigatório por lei em todos os países
-- B) Para calcular a inflação
-- C) Não há razão
-- D) Para encontrar erros cedo e corrigi-los
+A) Apenas compras voluntárias
+B) Retenção na fonte do imposto sobre o rendimento, contribuições sobre os salários e descontos voluntários
+C) Apenas os dias de férias
+D) Nada relacionado com impostos
 
 ## Chave de Respostas
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Abonos, descontos e valor líquido** — Quase todos os recibos seguem esta estrutura.
+**1.** Um recibo normal vai do vencimento bruto, passando pelos descontos, até ao vencimento líquido final.
 
-**2. B) Nos abonos** — As horas extraordinárias aumentam os abonos brutos.
+**2.** Os totais acumulados desde o início do ano dão uma visão contínua do ano inteiro, e não apenas de um período de pagamento.
 
-**3. C) $2.350** — $3.000 − $650 = $2.350.
+**3.** Detetar cedo um erro no processamento salarial, antes de se repetir durante meses, é um dos motivos mais práticos para verificar o recibo.
 
-**4. D) Para encontrar erros cedo e corrigi-los** — Os erros são mais fáceis de corrigir quando descobertos cedo.
+**4.** Os descontos juntam normalmente as retenções obrigatórias e as contribuições voluntárias que o trabalhador definiu.
 
-## Pontos-Chave
+## Pontos-chave
 
-- Recibo = abonos − descontos = líquido
-- Os descontos incluem retenção, contribuições e benefícios
-- Verifica todos os meses para encontrar erros cedo
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Os recibos de vencimento vão geralmente do vencimento bruto, passando pelos descontos, até ao vencimento líquido.
+- Os valores acumulados no ano acompanham os totais do ano inteiro, e não apenas de um período de pagamento.
+- Verificar regularmente os recibos ajuda a detetar cedo erros no processamento salarial.
+- Compreender o seu recibo liga-se diretamente aos conceitos de bruto/líquido e de retenção das lições anteriores.

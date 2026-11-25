@@ -5,102 +5,100 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 3
 locale: pt-BR
-title: "Tipos de Impostos: Uma Visão Geral"
-summary: "Um mapa das principais categorias de impostos que uma pessoa vai encontrar — renda, vendas/consumo, propriedade e folha de pagamento — antes de aprofundar cada uma."
+title: "Tipos de impostos: um panorama"
+summary: "Um mapa das principais categorias de impostos que uma pessoa encontra (sobre a renda, sobre o consumo, sobre a propriedade e sobre a folha de pagamento) antes de aprofundar cada uma."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Tipos de Impostos: Uma Visão Geral
+# Tipos de impostos: um panorama
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Citar as quatro principais categorias de impostos que a maioria das pessoas encontra.
+- Identificar a que categoria pertence um exemplo real de imposto.
+- Explicar a diferença geral entre um imposto sobre ganhar, gastar, possuir e trabalhar.
 
-- Nomear as quatro grandes categorias de impostos
-- Associar cada categoria ao que ela tributa
-- Reconhecer que uma pessoa paga vários tipos de imposto ao mesmo tempo
+## Conteúdo principal
 
-## Conteúdo Principal
+Antes de mergulhar em um imposto específico, ajuda ter o mapa completo. A maioria das pessoas, na maioria dos países, vai encontrar alguma versão destas quatro categorias:
 
-Existem muitos impostos, mas a maioria se encaixa em algumas categorias. Uma forma simples de lembrar: os impostos tributam o que você ganha, o que você compra e o que você possui.
+**Imposto de renda**: um imposto sobre o dinheiro que você ganha, seja de um emprego, de um negócio ou de investimentos. **Imposto sobre vendas ou consumo**: um imposto acrescentado quando você compra bens ou serviços. **Imposto sobre a propriedade**: um imposto sobre as coisas que você possui, na maioria das vezes imóveis. **Tributos sobre a folha de pagamento**: tributos ligados especificamente aos salários, muitas vezes destinados a programas como previdência ou saúde.
 
-Imposto de renda tributa o que você ganha: salário, lucro de negócio e rendimentos de investimento. Imposto sobre vendas ou consumo tributa o que você compra. Imposto sobre a propriedade tributa o que você possui, principalmente imóveis. Imposto sobre a folha de pagamento é ligado ao salário do emprego e costuma financiar programas de aposentadoria e saúde.
+Um jeito simples de não confundir: o imposto de renda pergunta "quanto você ganhou?", o imposto sobre consumo pergunta "quanto você gastou?", o imposto sobre a propriedade pergunta "o que você possui?" e os tributos sobre a folha perguntam "você está empregado, e quanto recebe?".
 
-Nas próximas lições, vamos estudar cada categoria em detalhe. Por enquanto, o importante é ter o mapa na cabeça. Quando você ouvir falar de um imposto novo, pergunte: ele tributa o que eu ganho, o que eu compro ou o que eu possuo?
+Os países combinam essas categorias de formas diferentes. Alguns dependem muito do imposto de renda, outros se apoiam mais nos impostos sobre o consumo, e os governos locais costumam depender do imposto sobre a propriedade (como o IPTU, no Brasil) para financiar escolas e serviços locais. Não existe uma combinação "correta": é uma escolha de política pública com vantagens e desvantagens, que lições posteriores desta trilha vão examinar. Por enquanto, o objetivo é só reconhecer: quando ouvir falar de um imposto, você deve conseguir encaixá-lo em um desses grupos como ponto de partida.
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+## Exemplo prático
 
-## Exemplo Prático
+**Pergunta:** Um governo acrescenta um percentual ao preço toda vez que alguém compra um refrigerante. Em que categoria isso se encaixa?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Isso acontece na hora da compra, então parece um imposto sobre vendas ou consumo.
 
-**Professor:** Maria recebe salário, compra uma geladeira e é dona de uma casa. Quantos tipos de imposto ela pode pagar?
+**Guia:** Isso. E se o mesmo governo também tributar o lucro que o fabricante de refrigerante obtém no fim do ano, é o mesmo imposto?
 
-**Aluno:** Imposto de renda sobre o salário...
+**Aluno:** Não, isso seria um imposto sobre a renda da empresa, e não um imposto sobre a venda.
 
-**Professor:** Isso. E na geladeira?
+**Guia:** Exatamente: dois impostos diferentes podem incidir sobre o mesmo produto em momentos diferentes, uma vez na compra e outra sobre o lucro que ele gerou.
 
-**Aluno:** Imposto sobre vendas. E na casa, imposto sobre a propriedade.
+## Teste de prática
 
-**Professor:** E tem mais um ligado ao salário.
+**Pergunta 1.** O imposto de renda é um imposto sobre:
 
-**Aluno:** O imposto sobre a folha de pagamento! Então são quatro tipos ao mesmo tempo.
+A) O que você possui
+B) O que você ganha
+C) O que você compra
+D) Se você está empregado
 
-## Quiz de Prática
+**Pergunta 2.** O imposto sobre vendas costuma ser cobrado:
 
-**1.** Qual imposto tributa o que você compra?
+A) Uma vez por ano sobre o patrimônio total
+B) No momento da compra
+C) Só de donos de empresas
+D) Só em um país
 
-- A) Imposto de renda
-- B) Imposto sobre a propriedade
-- C) Imposto sobre a folha
-- D) Imposto sobre vendas/consumo
+**Pergunta 3.** O imposto sobre a propriedade está mais associado a:
 
-**2.** O imposto sobre a propriedade incide principalmente sobre...
+A) Possuir imóveis
+B) Compras no supermercado
+C) Contracheques
+D) Só a negociações com ações
 
-- A) Imóveis
-- B) Salários
-- C) Refeições
-- D) Ações
+**Pergunta 4.** Os tributos sobre a folha de pagamento estão ligados especificamente a:
 
-**3.** O imposto sobre a folha de pagamento está ligado a...
+A) Possuir imóveis
+B) Salários do trabalho
+C) Compras no varejo
+D) Heranças
 
-- A) Compras em lojas
-- B) Salários do emprego
-- C) Heranças
-- D) Viagens
+**Pergunta 5.** Qual afirmação sobre a combinação de impostos dos países é mais correta?
 
-**4.** Uma pessoa pode pagar vários tipos de imposto no mesmo ano?
-
-- A) Não, apenas um
-- B) Só se for empresária
-- C) Sim, é muito comum
-- D) Só se morar fora do país
+A) Todos os países usam exatamente a mesma combinação
+B) Existe uma combinação universalmente correta
+C) Os países combinam esses tipos de impostos de forma diferente, como escolha de política pública
+D) No mundo, só existe imposto de renda
 
 ## Gabarito
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. A, 4. B, 5. C
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Imposto sobre vendas/consumo** — O imposto sobre vendas ou consumo incide no momento da compra.
+**1.** O imposto de renda é acionado quando se ganha dinheiro, de qualquer fonte: salários, lucro de um negócio ou rendimento de investimentos.
 
-**2. A) Imóveis** — Na maioria dos sistemas, ele é aplicado principalmente a imóveis.
+**2.** O imposto sobre vendas é cobrado no momento da transação e acrescentado ao preço de compra.
 
-**3. B) Salários do emprego** — Ele é calculado sobre os salários pagos no emprego.
+**3.** O imposto sobre a propriedade costuma estar ligado a imóveis, embora alguns lugares também tributem outros bens.
 
-**4. C) Sim, é muito comum** — A maioria das pessoas paga vários tipos ao mesmo tempo.
+**4.** Os tributos sobre a folha estão ligados especificamente à renda do trabalho e costumam financiar programas como previdência ou saúde.
 
-## Principais Lições
+**5.** Não existe uma única combinação correta: governos diferentes equilibram essas categorias de formas diferentes, conforme suas prioridades.
 
-- Impostos tributam o que você ganha, compra e possui
-- As quatro grandes categorias são renda, consumo, propriedade e folha
-- A maioria das pessoas paga vários tipos ao mesmo tempo
+## Pontos-chave
 
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- As quatro principais categorias de impostos que a maioria das pessoas encontra são: sobre a renda, sobre vendas ou consumo, sobre a propriedade e sobre a folha de pagamento.
+- Cada categoria faz uma pergunta diferente: ganhou, gastou, possui ou está empregado.
+- Um único produto ou transação pode acionar mais de um tipo de imposto em momentos diferentes.
+- Os países combinam essas categorias de formas diferentes: não existe uma proporção universalmente correta.
+- Reconhecer em que grupo um imposto se encaixa é o primeiro passo para entender como ele funciona.

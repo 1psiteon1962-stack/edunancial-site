@@ -1,110 +1,90 @@
 ---
 id: GREEN-L1-014
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 14
-title: "Modulo W-2 vs. modulo 1099: dipendente o collaboratore autonomo?"
-source_title: "Form W-2 vs Form 1099: Employee or Contractor?"
-description: "Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra dipendente e lavoratore autonomo vista in altri percorsi."
-slug: form-w-2-vs-form-1099-employee-or-contractor
-seo_title: "Modulo W-2 vs. modulo 1099: dipendente o collaboratore autonomo? | Edunancial"
-meta_description: "Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra dipendente e lavoratore autonomo vista in altri percorsi."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 14
-summary: "Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra dipendente e lavoratore autonomo vista in altri percorsi."
+locale: it
+title: "Modulo W-2 o 1099: dipendente o collaboratore autonomo?"
+summary: "Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra lavoro dipendente e lavoro autonomo vista nei percorsi precedenti."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-014: Modulo W-2 vs. modulo 1099: dipendente o collaboratore autonomo?
+# Modulo W-2 o 1099: dipendente o collaboratore autonomo?
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Spiegare che cosa sono i moduli W-2 e 1099 (nomi usati negli Stati Uniti)
-- Collegare ciascun modulo al tipo di lavoro
-- Capire perché i collaboratori autonomi devono pianificare le imposte
+- Spiegare la differenza generale tra un documento di reddito da lavoro dipendente e uno da collaborazione autonoma.
+- Collegare questa distinzione al concetto di lavoro autonomo e titolarità d'impresa dei percorsi precedenti.
+- Riconoscere perché questa classificazione determina chi si occupa delle ritenute.
 
 ## Contenuto principale
 
-Negli Stati Uniti, a inizio anno il datore di lavoro invia al dipendente un modulo chiamato W-2. Indica quanto la persona ha guadagnato e quanta imposta è già stata trattenuta. Chi lavora come collaboratore indipendente riceve di solito un modulo 1099, che indica quanto è stato pagato, ma di norma senza imposta trattenuta. Altri Paesi hanno documenti equivalenti con nomi diversi, come la Certificazione Unica in Italia.
+In alcuni sistemi fiscali, in particolare negli Stati Uniti, esistono moduli diversi per certificare tipi diversi di reddito: uno per i dipendenti (di solito il W-2), per i quali il datore di lavoro trattiene l'imposta durante tutto l'anno, e uno per i collaboratori autonomi (di solito il 1099), per i quali non viene trattenuta alcuna imposta e il lavoratore deve occuparsi da solo dei propri versamenti in acconto. Altri paesi usano nomi diversi, ma la distinzione di fondo, lavoratore dipendente o collaboratore autonomo, si ritrova quasi ovunque. (In Italia, per esempio, il dipendente riceve la Certificazione Unica dal sostituto d'imposta, mentre chi lavora con partita IVA gestisce in proprio dichiarazione e acconti; le regole, compresi i regimi agevolati, cambiano nel tempo.)
 
-La differenza è importante. Al dipendente le imposte di solito sono già state trattenute durante l'anno. Il collaboratore autonomo riceve l'importo pieno ed è responsabile di mettere da parte e pagare le proprie imposte.
+Questo si collega direttamente al concetto di lavoro autonomo visto in precedenza nel tuo percorso: al dipendente l'imposta viene trattenuta automaticamente da qualcun altro, mentre il collaboratore autonomo funziona più come un lavoratore autonomo e deve mettere da parte e versare da solo le proprie imposte. Sbagliare la categoria a cui si appartiene è uno degli errori fiscali più comuni e costosi: un collaboratore che spende l'intero compenso senza accantonare nulla per le imposte può avere una brutta sorpresa al momento della dichiarazione.
 
-Questa distinzione è legata alla differenza tra essere dipendente ed essere autonomo, già vista in altri percorsi. Chi viene pagato come collaboratore deve pianificare: mettere da parte una quota di ogni pagamento per le imposte evita sorprese a fine anno.
+## Esempio svolto
 
-**[REGOLA SPECIFICA DELLA REGIONE]** Regole, aliquote, soglie, moduli e nomi dei programmi variano molto da paese a paese (e spesso per regione o comune). Questa lezione presenta schemi generali, non la normativa fiscale di un paese specifico. I numeri usati sono solo esempi.
+**Domanda:** Una giovane web designer lavora per diversi clienti, decide i propri orari e usa la propria attrezzatura. È più probabilmente una dipendente o una collaboratrice autonoma?
 
-## Esempio pratico
+**Studente:** Visto che decide i propri orari e lavora per più clienti, sembra più una collaboratrice autonoma.
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Guida:** Se è così, chi è responsabile di mettere da parte i soldi per le sue imposte durante l'anno?
 
-**Insegnante:** Raffaele lavora in un negozio e fa anche grafica in proprio. Quali moduli può ricevere?
+**Studente:** Lei stessa: dato che nessun datore di lavoro trattiene l'imposta per lei, deve farlo da sola.
 
-**Studente:** Un W-2 dal negozio e un 1099 dai clienti di grafica.
+**Guida:** Esatto, ed è per questo che i collaboratori autonomi devono pianificare attivamente le imposte invece di dare per scontato che se ne occupi qualcun altro.
 
-**Insegnante:** In quale dei due l'imposta è già stata trattenuta?
+## Quiz di esercitazione
 
-**Studente:** Di solito nel W-2. Col 1099 ha ricevuto l'importo pieno.
+**Domanda 1.** Un documento di reddito da lavoro dipendente riflette di solito:
 
-**Insegnante:** Quindi che cosa dovrebbe fare Raffaele con i pagamenti di grafica?
+A) Nessuna imposta trattenuta
+B) Imposte trattenute durante l'anno dal datore di lavoro
+C) Solo l'utile d'impresa
+D) Solo il reddito da investimenti
 
-**Studente:** Mettere da parte una quota di ogni pagamento per pagare l'imposta dopo.
+**Domanda 2.** Un collaboratore autonomo è in genere responsabile di:
 
-## Quiz di verifica
+A) Niente: le imposte sono automatiche
+B) Mettere da parte e versare da solo le proprie imposte stimate
+C) Solo l'imposta sulle vendite
+D) Non presentare mai alcun documento
 
-**1.** Negli Stati Uniti, a chi viene inviato il modulo W-2?
+**Domanda 3.** Questa distinzione tra dipendente e collaboratore autonomo si collega più direttamente a quale concetto precedente?
 
-- A) Ai collaboratori indipendenti
-- B) Alle banche
-- C) Ai dipendenti
-- D) Agli investitori
+A) Beni pubblici
+B) Lavoro autonomo e titolarità d'impresa
+C) Scaglioni marginali d'imposta
+D) Imposta sugli immobili
 
-**2.** Il modulo 1099 si usa di solito per...
+**Domanda 4.** Un errore comune e costoso per i nuovi collaboratori autonomi è:
 
-- A) Dipendenti a tempo indeterminato
-- B) Solo pensionati
-- C) Minorenni
-- D) Collaboratori indipendenti
+A) Presentare la dichiarazione troppo presto
+B) Spendere tutto il reddito senza mettere da parte denaro per le imposte
+C) Trattenere troppa imposta
+D) Possedere troppi immobili
 
-**3.** A chi di solito è già stata trattenuta l'imposta durante l'anno?
+## Soluzioni
 
-- A) Al dipendente
-- B) Al collaboratore autonomo
-- C) A nessuno dei due
-- D) A entrambi sempre
-
-**4.** Che cosa dovrebbe fare un collaboratore autonomo?
-
-- A) Niente, il cliente paga tutto
-- B) Mettere da parte una quota di ogni pagamento per le imposte
-- C) Chiedere un W-2 al cliente
-- D) Ignorare l'imposta sul reddito
-
-## Chiave delle risposte
-
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Risposte e spiegazioni
 
-**1. C) Ai dipendenti** — Il W-2 indica stipendio e ritenute dei dipendenti.
+**1.** Il reddito da lavoro dipendente è in genere accompagnato da ritenute automatiche gestite dal datore di lavoro.
 
-**2. D) Collaboratori indipendenti** — Indica i pagamenti a chi lavora in proprio.
+**2.** Senza un datore di lavoro che trattenga per loro, i collaboratori autonomi devono gestire attivamente i propri versamenti.
 
-**3. A) Al dipendente** — I datori di lavoro di solito trattengono; i clienti degli autonomi di norma no.
+**3.** È la versione fiscale del concetto di lavoro autonomo visto in precedenza nel percorso.
 
-**4. B) Mettere da parte una quota di ogni pagamento per le imposte** — Senza ritenuta, deve pianificare da solo.
+**4.** Spendere il 100% del reddito da collaborazione senza accantonarne una parte per le imposte è uno degli errori iniziali più comuni.
 
 ## Punti chiave
 
-- W-2 (USA): dipendente, imposta di solito trattenuta
-- 1099 (USA): collaboratore autonomo, di solito senza ritenuta
-- Gli autonomi devono mettere da parte una quota di ogni pagamento per le imposte
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Al reddito da lavoro dipendente l'imposta viene di solito trattenuta automaticamente; al reddito da collaborazione autonoma di solito no.
+- Questa distinzione riflette il concetto di lavoro autonomo e lavoro dipendente delle lezioni precedenti.
+- I collaboratori autonomi devono mettere da parte attivamente denaro per le imposte durante l'anno.
+- Classificarsi in modo sbagliato, o non pianificare la differenza, è un errore comune e costoso.

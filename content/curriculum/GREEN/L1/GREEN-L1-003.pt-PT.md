@@ -5,102 +5,100 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 3
 locale: pt-PT
-title: "Tipos de Impostos: Uma Visão Geral"
-summary: "Um mapa das principais categorias de impostos que uma pessoa vai encontrar — rendimento, vendas/consumo, propriedade e contribuições sobre salários — antes de aprofundar cada uma."
+title: "Tipos de impostos: uma visão geral"
+summary: "Um mapa das principais categorias de impostos que uma pessoa encontra (sobre o rendimento, sobre o consumo, sobre o património e sobre os salários) antes de aprofundar cada uma."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Tipos de Impostos: Uma Visão Geral
+# Tipos de impostos: uma visão geral
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Indicar as quatro principais categorias de impostos que a maioria das pessoas encontra.
+- Identificar a que categoria pertence um exemplo real de imposto.
+- Explicar a diferença geral entre um imposto sobre ganhar, gastar, possuir e trabalhar.
 
-- Nomear as quatro grandes categorias de impostos
-- Associar cada categoria ao que tributa
-- Reconhecer que uma pessoa paga vários tipos de impostos ao mesmo tempo
+## Conteúdo principal
 
-## Conteúdo Principal
+Antes de aprofundar um imposto em particular, ajuda ter o mapa completo. A maioria das pessoas, na maioria dos países, encontra uma versão destas quatro categorias:
 
-Há muitos impostos, mas a maioria encaixa em poucas categorias. Uma forma simples de lembrar: os impostos tributam o que ganhas, o que compras e o que possuis.
+**Imposto sobre o rendimento**: um imposto sobre o dinheiro que ganha, seja de um emprego, de um negócio ou de investimentos. **Imposto sobre as vendas ou o consumo**: um imposto acrescentado quando compra bens ou serviços. **Imposto sobre o património imobiliário**: um imposto sobre aquilo que possui, na maioria das vezes imóveis. **Contribuições sobre os salários**: contribuições ligadas especificamente aos salários do trabalho, muitas vezes destinadas a sistemas como a segurança social ou a saúde.
 
-O imposto sobre o rendimento tributa o que ganhas: salário, lucro de um negócio e rendimentos de investimentos. Os impostos sobre as vendas ou o consumo tributam o que compras. O imposto sobre a propriedade tributa o que possuis, sobretudo imóveis. As contribuições sobre salários estão ligadas ao trabalho por conta de outrem e costumam financiar reformas e saúde.
+Uma forma simples de não as confundir: o imposto sobre o rendimento pergunta "quanto ganhou?", o imposto sobre o consumo pergunta "quanto gastou?", o imposto sobre o património pergunta "o que possui?" e as contribuições sobre os salários perguntam "está empregado, e quanto recebe?".
 
-Nas próximas lições, vamos estudar cada categoria em pormenor. Por agora, o importante é ter o mapa na cabeça. Quando ouvires falar de um imposto novo, pergunta: tributa o que eu ganho, o que eu compro ou o que eu possuo?
+Os países combinam estas categorias de formas diferentes. Alguns dependem muito do imposto sobre o rendimento, outros apoiam-se mais nos impostos sobre o consumo, e as autarquias dependem muitas vezes do imposto sobre os imóveis (como o IMI, em Portugal) para financiar escolas e serviços locais. Não existe uma combinação "correta": é uma escolha política com vantagens e desvantagens, que lições posteriores deste percurso vão analisar. Por agora, o objetivo é apenas reconhecer: quando ouvir falar de um imposto, deve conseguir colocá-lo num destes grupos como ponto de partida.
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+## Exemplo prático
 
-## Exemplo Prático
+**Pergunta:** Um Estado acrescenta uma percentagem ao preço sempre que alguém compra um refrigerante. Em que categoria se insere isto?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Acontece no momento da compra, por isso parece um imposto sobre as vendas ou o consumo.
 
-**Professor:** A Maria recebe um salário, compra um frigorífico e é dona de uma casa. Quantos tipos de imposto pode pagar?
+**Guia:** Certo. E se o mesmo Estado também tributar o lucro que o fabricante de refrigerantes obtém no fim do ano, é o mesmo imposto?
 
-**Aluno:** Imposto sobre o rendimento pelo salário...
+**Aluno:** Não, isso seria um imposto sobre o rendimento da empresa, e não um imposto sobre a venda.
 
-**Professor:** Isso. E no frigorífico?
+**Guia:** Exatamente: ao mesmo produto podem aplicar-se dois impostos diferentes em momentos diferentes, um na compra e outro sobre o lucro que gerou.
 
-**Aluno:** Imposto sobre as vendas. E na casa, imposto sobre a propriedade.
+## Teste de prática
 
-**Professor:** E há mais um ligado ao salário.
+**Pergunta 1.** O imposto sobre o rendimento é um imposto sobre:
 
-**Aluno:** As contribuições sobre salários! Então são quatro tipos ao mesmo tempo.
+A) Aquilo que possui
+B) Aquilo que ganha
+C) Aquilo que compra
+D) O facto de estar ou não empregado
 
-## Questionário de Treino
+**Pergunta 2.** O imposto sobre as vendas é normalmente aplicado:
 
-**1.** Que imposto tributa o que compras?
+A) Uma vez por ano sobre o património total
+B) No momento da compra
+C) Apenas aos donos de empresas
+D) Apenas num país
 
-- A) Imposto sobre o rendimento
-- B) Imposto sobre a propriedade
-- C) Contribuições sobre salários
-- D) Imposto sobre as vendas/consumo
+**Pergunta 3.** O imposto sobre o património está mais associado a:
 
-**2.** O imposto sobre a propriedade incide sobretudo sobre...
+A) A propriedade de imóveis
+B) As compras de supermercado
+C) Os recibos de vencimento
+D) Apenas transações de ações
 
-- A) Imóveis
-- B) Salários
-- C) Refeições
-- D) Ações
+**Pergunta 4.** As contribuições sobre os salários estão ligadas especificamente a:
 
-**3.** As contribuições sobre salários estão ligadas a...
+A) A propriedade de imóveis
+B) Os salários do trabalho
+C) As compras no comércio
+D) As heranças
 
-- A) Compras em lojas
-- B) Salários do trabalho por conta de outrem
-- C) Heranças
-- D) Viagens
+**Pergunta 5.** Que afirmação sobre a combinação de impostos dos países é mais correta?
 
-**4.** Uma pessoa pode pagar vários tipos de imposto no mesmo ano?
-
-- A) Não, apenas um
-- B) Só se for empresária
-- C) Sim, é muito comum
-- D) Só se viver no estrangeiro
+A) Todos os países usam exatamente a mesma combinação
+B) Existe uma combinação universalmente correta
+C) Os países combinam estes tipos de impostos de forma diferente, como escolha política
+D) Em todo o mundo só existe imposto sobre o rendimento
 
 ## Chave de Respostas
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. A, 4. B, 5. C
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Imposto sobre as vendas/consumo** — O imposto sobre as vendas ou o consumo aplica-se no momento da compra.
+**1.** O imposto sobre o rendimento é desencadeado pelo ato de ganhar dinheiro, de qualquer fonte: salários, lucros de um negócio ou rendimentos de investimentos.
 
-**2. A) Imóveis** — Na maioria dos sistemas, aplica-se principalmente a imóveis.
+**2.** O imposto sobre as vendas é cobrado no momento da transação e acrescentado ao preço de compra.
 
-**3. B) Salários do trabalho por conta de outrem** — São calculadas sobre os salários pagos.
+**3.** O imposto sobre o património está normalmente ligado a imóveis, embora alguns locais também tributem outros bens.
 
-**4. C) Sim, é muito comum** — A maioria das pessoas paga vários tipos ao mesmo tempo.
+**4.** As contribuições sobre os salários estão ligadas especificamente ao rendimento do trabalho e financiam muitas vezes sistemas como a reforma ou a saúde.
 
-## Pontos-Chave
+**5.** Não existe uma única combinação fiscal correta: governos diferentes equilibram estas categorias de forma diferente, consoante as suas prioridades.
 
-- Os impostos tributam o que ganhas, compras e possuis
-- As quatro grandes categorias são rendimento, consumo, propriedade e salários
-- A maioria das pessoas paga vários tipos ao mesmo tempo
+## Pontos-chave
 
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- As quatro principais categorias de impostos que a maioria das pessoas encontra são: sobre o rendimento, sobre as vendas ou o consumo, sobre o património e sobre os salários.
+- Cada categoria faz uma pergunta diferente: ganhou, gastou, possui ou está empregado.
+- Um único produto ou transação pode desencadear mais do que um tipo de imposto em momentos diferentes.
+- Os países combinam estas categorias de forma diferente: não existe uma proporção universalmente correta.
+- Reconhecer em que grupo se insere um imposto é o primeiro passo para perceber como funciona.

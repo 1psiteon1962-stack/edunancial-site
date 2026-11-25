@@ -5,106 +5,94 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 10
 locale: pt-BR
-title: "Faixas de Imposto Explicadas"
-summary: "Um passo a passo concreto de como as faixas de imposto são estruturadas e aplicadas, construindo diretamente sobre o conceito de alíquota marginal."
+title: "Faixas de imposto explicadas"
+summary: "Um passo a passo concreto de como as faixas de imposto são estruturadas e aplicadas, com base direta no conceito de alíquota marginal."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Faixas de Imposto Explicadas
+# Faixas de imposto explicadas
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Ler e interpretar uma tabela simples de faixas de imposto.
+- Calcular o imposto devido em várias faixas para uma renda de exemplo.
+- Reforçar o conceito de alíquota marginal com um exemplo numérico.
 
-- Explicar como uma tabela de faixas funciona
-- Calcular o imposto de uma renda usando faixas de exemplo
-- Calcular a alíquota efetiva a partir do resultado
+## Conteúdo principal
 
-## Conteúdo Principal
+Com base na lição anterior, vamos percorrer as faixas com números de verdade. Imagine uma tabela de faixas simplificada e ilustrativa: a renda de US$ 0 a US$ 10.000 é tributada em 10%; a renda de US$ 10.001 a US$ 40.000, em 20%; e a renda acima de US$ 40.000, em 30%.
 
-Uma tabela de faixas divide a renda em "degraus". Cada degrau tem sua própria alíquota. Sua renda vai enchendo os degraus de baixo para cima, como água enchendo uma escada de copos.
+Quem ganha US$ 50.000 não paga 30% sobre os US$ 50.000 inteiros. Em vez disso: os primeiros US$ 10.000 são tributados em 10% (US$ 1.000), os US$ 30.000 seguintes (de US$ 10.001 a US$ 40.000) em 20% (US$ 6.000) e os US$ 10.000 restantes (de US$ 40.001 a US$ 50.000) em 30% (US$ 3.000). O imposto total devido é de US$ 10.000, o que equivale a uma alíquota efetiva de 20%, bem abaixo da faixa mais alta, de 30%.
 
-Para calcular o imposto, você calcula o valor de cada faixa separadamente e soma tudo. A primeira parte da renda paga a alíquota mais baixa, a próxima parte paga a seguinte, e assim por diante.
+Esse cálculo passo a passo, faixa por faixa, é exatamente o que significa tributação marginal na prática. Os valores reais das faixas variam de país para país e mudam com o tempo, então os números aqui são só ilustrativos: o método de cálculo é a habilidade duradoura e transferível.
 
-Os limites e as alíquotas reais mudam de país para país e, muitas vezes, de ano para ano. Os números abaixo são apenas um exemplo para praticar o método. O método é o que importa: ele funciona em qualquer sistema com faixas progressivas.
+> **Observação:** os percentuais e limites desta lição são números didáticos ilustrativos, e não valores de um país específico. Confira as faixas reais e atuais do seu país.
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+## Exemplo prático
 
-## Exemplo Prático
+**Pergunta:** Usando as faixas ilustrativas acima, quanto de imposto deveria alguém que ganha exatamente US$ 40.000?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Vou fazer na ordem: os primeiros US$ 10.000 a 10% dão US$ 1.000.
 
-**Professor:** Tabela de exemplo: até $10.000 paga 10%; de $10.000 a $40.000 paga 20%; acima de $40.000 paga 30%. Pedro ganha $50.000. Vamos por partes. Quanto ele paga na primeira faixa?
+**Guia:** Ótimo, continue.
 
-**Aluno:** 10% de $10.000, que dá $1.000.
+**Aluno:** Os US$ 30.000 restantes, de US$ 10.001 a US$ 40.000, são tributados em 20%, o que dá US$ 6.000.
 
-**Professor:** E na segunda faixa, de $10.000 a $40.000?
+**Guia:** E alguma parte é tributada em 30%?
 
-**Aluno:** São $30.000 a 20%. Dá $6.000.
+**Aluno:** Não: a pessoa não ganhou nada acima de US$ 40.000, então a faixa de 30% nunca se aplica. O total é US$ 1.000 + US$ 6.000 = US$ 7.000.
 
-**Professor:** E o que sobra acima de $40.000?
+**Guia:** Exatamente, e repare que a alíquota efetiva é de 17,5%, e não 20% nem 30%.
 
-**Aluno:** $10.000 a 30%, que dá $3.000. Total: $10.000 de imposto.
+## Teste de prática
 
-**Professor:** Qual a alíquota efetiva dele?
+**Pergunta 1.** Usando as faixas ilustrativas desta lição, quanto de uma renda de US$ 50.000 é tributado em 30%?
 
-**Aluno:** $10.000 dividido por $50.000. Dá 20%, mesmo com a faixa mais alta de 30%.
+A) Os US$ 50.000 inteiros
+B) US$ 10.000
+C) US$ 30.000
+D) US$ 0
 
-## Quiz de Prática
+**Pergunta 2.** Qual é o imposto total ilustrativo devido sobre US$ 50.000 neste exemplo?
 
-**1.** Como a renda é distribuída numa tabela de faixas?
+A) US$ 15.000
+B) US$ 10.000
+C) US$ 5.000
+D) US$ 20.000
 
-- A) Toda de uma vez na faixa mais alta
-- B) Aleatoriamente
-- C) Enchendo as faixas de baixo para cima
-- D) Só na faixa mais baixa
+**Pergunta 3.** A alíquota efetiva no exemplo de US$ 50.000 é:
 
-**2.** Usando a tabela do exemplo, quanto imposto paga uma renda de $10.000?
+A) 30%
+B) 20%
+C) 10%
+D) 0%
 
-- A) $2.000
-- B) $3.000
-- C) $0
-- D) $1.000
+**Pergunta 4.** Os números específicos das faixas desta lição devem ser decorados como valores reais?
 
-**3.** Usando a tabela do exemplo, quanto paga uma renda de $40.000?
-
-- A) $7.000
-- B) $4.000
-- C) $12.000
-- D) $8.000
-
-**4.** Os números da tabela desta lição são...
-
-- A) As alíquotas oficiais de todos os países
-- B) Um exemplo para praticar o método
-- C) Fixos para sempre
-- D) Válidos só para empresas
+A) Sim, valem em todo lugar
+B) Não: são ilustrativos; as faixas reais variam de país para país e mudam com o tempo
+C) Sim, mas só para um país
+D) Não têm importância para a lição
 
 ## Gabarito
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) Enchendo as faixas de baixo para cima** — Cada parte da renda cai em sua própria faixa, começando pela mais baixa.
+**1.** Só a parte da renda acima de US$ 40.000, ou seja, US$ 10.000, cai na faixa de 30%.
 
-**2. D) $1.000** — $10.000 fica toda na primeira faixa: 10% = $1.000.
+**2.** Somando US$ 1.000 + US$ 6.000 + US$ 3.000 nas três faixas, o total é de US$ 10.000.
 
-**3. A) $7.000** — $1.000 na primeira faixa + $6.000 na segunda = $7.000.
+**3.** Dividindo o imposto total (US$ 10.000) pela renda total (US$ 50.000), a alíquota efetiva é de 20%.
 
-**4. B) Um exemplo para praticar o método** — As tabelas reais variam; o método é o que se aprende aqui.
+**4.** Os valores são uma ferramenta didática; o método de cálculo é o que se aplica a qualquer tabela de faixas real.
 
-## Principais Lições
+## Pontos-chave
 
-- Faixas dividem a renda em degraus com alíquotas diferentes
-- Calcule cada faixa separadamente e some
-- A alíquota efetiva é sempre menor ou igual à maior faixa atingida
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- As faixas se aplicam passo a passo, e cada alíquota só atinge a renda dentro da sua faixa.
+- Fazer a conta de forma concreta reforça por que o conceito de alíquota marginal importa na prática.
+- A alíquota efetiva é sempre uma média, e sempre menor do que a faixa mais alta atingida.
+- Os números usados aqui são ilustrativos: confira sempre a tabela de faixas real do seu país.

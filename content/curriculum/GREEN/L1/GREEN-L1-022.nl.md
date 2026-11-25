@@ -6,101 +6,85 @@ level: 1
 lessonNumber: 22
 locale: nl
 title: "Voorlopige belastingbetalingen voor zelfstandigen"
-summary: "Introduceert het idee van driemaandelijkse voorlopige belastingbetalingen, een direct gevolg van het feit dat geen werkgever automatisch belasting inhoudt."
+summary: "Introduceert het begrip voorlopige belastingbetalingen gedurende het jaar, een direct gevolg van het feit dat geen werkgever automatisch belasting inhoudt."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
 # Voorlopige belastingbetalingen voor zelfstandigen
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Uitleggen waarom zelfstandigen voorlopige belasting betalen
-- De logica van periodieke betalingen begrijpen
-- Een eenvoudige gewoonte ontwikkelen om geld opzij te zetten voor belasting
+- Uitleggen waarom zelfstandigen vaak voorlopige belastingbetalingen moeten doen.
+- Het algemene ritme van voorlopige betalingen beschrijven (periodiek, niet één keer per jaar).
+- Dit koppelen aan de eerdere les over W-2 en 1099.
 
 ## Kerninhoud
 
-Als werknemer houdt je werkgever belasting in op je loon. Als zelfstandige doet niemand dat voor je. Toch verwachten veel stelsels dat de belasting verspreid over het jaar wordt betaald, en niet pas aan het eind.
+Als werknemer houdt je werkgever het hele jaar automatisch belasting in. Als zelfstandige doet niemand dat voor je – en precies daarom verplichten veel stelsels zelfstandigen om gedurende het jaar periodiek voorlopige belastingbetalingen te doen, vaak per kwartaal, in plaats van alles in één keer bij de aangifte te betalen. (In Nederland krijgen veel zelfstandigen een voorlopige aanslag die in termijnen wordt betaald; de regels veranderen.)
 
-De gebruikelijke oplossing zijn voorlopige betalingen, vaak per kwartaal. Je schat hoeveel je dit jaar gaat verdienen, rekent ongeveer uit hoeveel belasting dat is en betaalt in termijnen. In de VS heet dit bijvoorbeeld "estimated taxes"; in Nederland werkt de belastingdienst met een voorlopige aanslag.
-
-Wie de termijnen niet betaalt, kan een boete krijgen, zelfs als alles aan het eind wel wordt betaald. Een praktische gewoonte: zet van elke betaling die je ontvangt een percentage op een aparte rekening alleen voor belasting. Dan staat het geld klaar als de termijn vervalt.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Dit is een direct, praktisch gevolg van het onderscheid tussen werknemer en opdrachtnemer dat we eerder bespraken. De overheid verwacht nog steeds dat de belasting ongeveer wordt betaald op het moment dat het inkomen wordt verdiend, niet allemaal tegelijk aan het einde van het jaar – dus de verantwoordelijkheid die het salarissysteem van een werkgever voor een werknemer automatisch regelt, komt volledig bij de zelfstandige te liggen. Voorlopige betalingen overslaan schaft de verschuldigde belasting niet af; je loopt alleen het risico op extra rente of boetes bovenop de belasting zelf wanneer het jaar uiteindelijk wordt afgerekend.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een grafisch ontwerper die net voor zichzelf is begonnen, denkt dat ze al haar belasting in één keer kan betalen als ze volgend jaar aangifte doet. Welk risico loopt ze daarmee?
 
-**Docent:** Julia is zelfstandig fotograaf. Ze ontvangt $3.000 van een klant. Kan ze alles uitgeven?
+**Cursist:** Volgens deze les moet ze misschien boetes of rente betalen omdat ze niet gedurende het jaar heeft betaald, bovenop de belasting zelf.
 
-**Leerling:** Nee. Een deel daarvan is belasting.
+**Begeleider:** Waarom verwacht het systeem betalingen gedurende het jaar in plaats van alles tegelijk?
 
-**Docent:** Als ze van elke betaling 25% opzijzet, als voorbeeld, hoeveel zet ze nu opzij?
+**Cursist:** Omdat het voor werknemers ook zo werkt, alleen automatisch via inhouding – voor de zelfstandige wordt het gewoon een handmatige taak in plaats van een automatische.
 
-**Leerling:** $750.
-
-**Docent:** En wat doet ze met dat geld?
-
-**Leerling:** Ze laat het op een aparte rekening staan en betaalt daarmee de kwartaaltermijnen.
+**Begeleider:** Precies – de onderliggende verwachting verandert niet, alleen wie ervoor moet zorgen.
 
 ## Oefenquiz
 
-**1.** Waarom betalen zelfstandigen voorlopige belasting?
+**Vraag 1.** Voorlopige belastingbetalingen zijn vooral relevant voor:
 
-- A) Omdat ze meer verdienen
-- B) Omdat het vrijwillig is
-- C) Omdat niemand belasting voor hen inhoudt
-- D) Omdat ze geen aangifte doen
+A) Werknemers met automatische inhouding
+B) Zelfstandigen bij wie geen werkgever inhoudt
+C) Alleen gepensioneerden
+D) Alleen grote bedrijven
 
-**2.** Hoe vaak worden voorlopige betalingen vaak gedaan?
+**Vraag 2.** Voorlopige betalingen worden meestal gedaan:
 
-- A) Eens per tien jaar
-- B) Dagelijks
-- C) Wanneer je zin hebt
-- D) Vaak per kwartaal
+A) Eén keer, aan het einde van het jaar
+B) Periodiek gedurende het jaar, vaak per kwartaal
+C) Nooit
+D) Alleen als de overheid erom vraagt
 
-**3.** Wat kan er gebeuren als een zelfstandige de termijnen niet betaalt?
+**Vraag 3.** Voorlopige betalingen overslaan:
 
-- A) Een boete, zelfs als alles aan het eind wordt betaald
-- B) Niets
-- C) Een bonus voor stiptheid
-- D) Vrijstelling van belasting
+A) Schaft de verschuldigde belasting af
+B) Brengt het risico op boetes wegens te weinig betalen mee, bovenop de belasting zelf
+C) Heeft geen gevolgen
+D) Leidt tot een automatische teruggave
 
-**4.** Een goede gewoonte voor een zelfstandige is...
+**Vraag 4.** Met welk eerder onderwerp hangt deze les het nauwst samen?
 
-- A) Alles uitgeven en later wel zien
-- B) Van elke betaling een deel opzijzetten voor belasting
-- C) Klanten om een W-2 vragen
-- D) Geen klanten aannemen
+A) Onroerendgoedbelasting
+B) W-2 en 1099 / werknemer of opdrachtnemer
+C) Collectieve goederen
+D) Omzetbelasting
 
 ## Antwoordsleutel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. C) Omdat niemand belasting voor hen inhoudt** — Zonder werkgever betalen ze de belasting zelf vooruit.
+**1.** Omdat geen werkgever voor hen inhoudt, moeten zelfstandigen hun belasting actief zelf schatten en betalen.
 
-**2. D) Vaak per kwartaal** — Het kwartaalmodel is gebruikelijk.
+**2.** Periodieke betalingen gedurende het jaar weerspiegelen het principe van betalen naarmate je verdient dat in de meeste stelsels is ingebouwd.
 
-**3. A) Een boete, zelfs als alles aan het eind wordt betaald** — Veel stelsels beboeten te late betaling.
+**3.** Boetes voor te weinig betalen bestaan juist om te ontmoedigen dat mensen tot het einde van het jaar wachten en dan alles tegelijk betalen.
 
-**4. B) Van elke betaling een deel opzijzetten voor belasting** — Geld opzijzetten voorkomt verrassingen.
+**4.** Deze les is in feite de praktische uitwerking van het eerdere onderscheid tussen werknemer en opdrachtnemer.
 
 ## Belangrijkste punten
 
-- Zelfstandigen hebben geen automatische inhouding
-- Voorlopige betalingen spreiden de belasting over het jaar
-- Zet van elke betaling een deel op een aparte belastingrekening
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Zelfstandigen moeten meestal zelf voorlopige belastingbetalingen doen.
+- Deze betalingen zijn meestal periodiek (vaak per kwartaal), niet één bedrag aan het einde van het jaar.
+- Voorlopige betalingen overslaan brengt het risico op boetes mee, terwijl de belasting uiteindelijk toch verschuldigd is.
+- Dit is een direct gevolg van het ontbreken van automatische inhouding door een werkgever.

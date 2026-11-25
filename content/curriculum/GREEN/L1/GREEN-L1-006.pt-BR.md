@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 6
 locale: pt-BR
-title: "Imposto Sobre a Propriedade: Tributando o Que Você Possui"
-summary: "Uma introdução ao imposto sobre a propriedade, geralmente aplicado a imóveis, e como ele financia serviços locais."
+title: "Imposto sobre a propriedade: tributar o que você possui"
+summary: "Uma introdução ao imposto sobre a propriedade, aplicado com mais frequência a imóveis, e a como ele financia serviços locais."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Imposto Sobre a Propriedade: Tributando o Que Você Possui
+# Imposto sobre a propriedade: tributar o que você possui
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Explicar sobre o que o imposto sobre a propriedade normalmente incide.
+- Identificar quem costuma cobrar o imposto sobre a propriedade.
+- Descrever serviços locais comuns financiados pelo imposto sobre a propriedade.
 
-- Explicar o que é imposto sobre a propriedade
-- Entender como o valor do imóvel afeta o imposto
-- Relacionar esse imposto ao financiamento de serviços locais
+## Conteúdo principal
 
-## Conteúdo Principal
+O imposto sobre a propriedade é um imposto sobre coisas que você possui, na maioria das vezes imóveis: terrenos e construções. Diferente do imposto de renda ou do imposto sobre vendas, que estão ligados a um acontecimento (ganhar ou comprar), o imposto sobre a propriedade costuma ser cobrado de forma contínua, muitas vezes todo ano, simplesmente porque você continua sendo dono do bem.
 
-O imposto sobre a propriedade é cobrado de quem é dono de um bem, principalmente imóveis como casas, terrenos e prédios. Normalmente, ele é pago todo ano, enquanto você for o dono.
+Os governos locais (cidades, condados ou autoridades regionais parecidas) são os que mais cobram o imposto sobre a propriedade, e ele costuma financiar serviços perto de casa: escolas públicas, policiamento e bombeiros locais, bibliotecas e manutenção de ruas. Como se baseia na propriedade e não em uma transação, o imposto continua sendo cobrado mesmo que a renda do dono mude naquele ano, e é em parte por isso que ele pode ser um ponto importante de planejamento para quem tem imóveis. (No Brasil, o imposto municipal sobre imóveis urbanos é o IPTU, e o rural é o ITR; as regras variam.)
 
-O valor do imposto costuma depender do valor estimado do imóvel. O governo local faz uma avaliação e aplica uma alíquota sobre esse valor. Se o imóvel vale mais, o imposto tende a ser maior.
+## Exemplo prático
 
-Esse imposto geralmente fica com o governo local e ajuda a pagar escolas, ruas, parques e serviços de emergência da região. Para quem investe em imóveis, ele é um custo fixo que precisa entrar nas contas, mesmo que o imóvel esteja vazio.
+**Pergunta:** Uma família é dona de uma casa, mas teve um ano difícil, com renda menor. O imposto sobre a propriedade muda porque a renda caiu?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Eu acho que continua igual, porque é sobre a casa, e não sobre o salário.
 
-## Exemplo Prático
+**Guia:** Isso. O que isso diz sobre a natureza do imposto sobre a propriedade em comparação com o imposto de renda?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Ele está ligado à propriedade, e não a quanto se ganha naquele ano, então não se ajusta automaticamente à renda.
 
-**Professor:** Ana comprou uma casa avaliada em $200.000. Em nosso exemplo, o imposto local é de 1% ao ano. Quanto ela paga?
+**Guia:** Exatamente: essa é uma distinção importante para o planejamento.
 
-**Aluno:** $2.000 por ano.
+## Teste de prática
 
-**Professor:** Se ela alugar a casa, esse custo some?
+**Pergunta 1.** O imposto sobre a propriedade incide com mais frequência sobre:
 
-**Aluno:** Não. Ela continua sendo a dona, então continua pagando.
+A) Salários
+B) Imóveis
+C) Compras no varejo
+D) Ganhos com investimentos
 
-**Professor:** E se a casa ficar vazia por seis meses?
+**Pergunta 2.** O imposto sobre a propriedade costuma ser cobrado por:
 
-**Aluno:** Paga do mesmo jeito. Então ela precisa colocar isso no cálculo do aluguel.
+A) Só o governo federal
+B) Governos locais
+C) Nenhum governo
+D) Só bancos
 
-## Quiz de Prática
+**Pergunta 3.** O imposto sobre a propriedade normalmente financia:
 
-**1.** O imposto sobre a propriedade é cobrado de quem...
+A) Só a defesa nacional
+B) Serviços locais, como escolas e bombeiros
+C) Nada específico
+D) Só rodovias federais
 
-- A) Compra algo numa loja
-- B) Aluga um carro
-- C) É dono do imóvel
-- D) Recebe salário
+**Pergunta 4.** O imposto sobre a propriedade diminui automaticamente se a renda do dono cair?
 
-**2.** O valor desse imposto costuma depender de...
-
-- A) Do salário do dono
-- B) Da idade do dono
-- C) Do número de moradores
-- D) Do valor avaliado do imóvel
-
-**3.** Para onde costuma ir esse imposto?
-
-- A) Para o governo local e serviços da região
-- B) Para o banco que financiou o imóvel
-- C) Para o vizinho
-- D) Para o corretor
-
-**4.** Se um imóvel de investimento ficar vazio, o imposto...
-
-- A) É cancelado
-- B) Continua sendo devido
-- C) É pago pelo inquilino anterior
-- D) Cai pela metade automaticamente
+A) Sim, sempre
+B) Não, ele está ligado à propriedade, e não à renda
+C) Só para empresas
+D) Só em países ricos
 
 ## Gabarito
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) É dono do imóvel** — Ele incide sobre a posse do bem.
+**1.** Os imóveis são o alvo mais comum do imposto sobre a propriedade, embora alguns lugares também tributem outros bens relevantes.
 
-**2. D) Do valor avaliado do imóvel** — Geralmente se aplica uma alíquota ao valor avaliado.
+**2.** Os governos locais normalmente administram e cobram o imposto sobre a propriedade, porque ele financia serviços locais.
 
-**3. A) Para o governo local e serviços da região** — Ele costuma financiar serviços locais como escolas e ruas.
+**3.** Escolas, polícia, bombeiros e ruas costumam ser financiados, total ou parcialmente, pelo imposto sobre a propriedade.
 
-**4. B) Continua sendo devido** — A obrigação vem da posse, não do uso.
+**4.** Como está ligado à propriedade, e não à renda, o imposto sobre a propriedade não acompanha automaticamente os ganhos de uma pessoa.
 
-## Principais Lições
+## Pontos-chave
 
-- Quem possui o imóvel paga o imposto, geralmente todo ano
-- O valor costuma depender da avaliação do imóvel
-- É um custo fixo importante para investidores em imóveis
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- O imposto sobre a propriedade é cobrado sobre o que se possui, na maioria das vezes imóveis.
+- Ele costuma ser cobrado por governos locais.
+- Ele normalmente financia escolas, segurança pública e infraestrutura local.
+- Como depende da propriedade, ele não diminui automaticamente quando a renda cai: um ponto-chave de planejamento para proprietários.

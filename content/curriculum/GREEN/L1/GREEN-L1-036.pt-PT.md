@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 36
 locale: pt-PT
-title: "Implicações Fiscais da Venda de uma Casa"
-summary: "Apresenta as considerações fiscais gerais que surgem ao vender a habitação própria permanente, ligando-as às lições sobre mais-valias."
+title: "Consequências fiscais da venda da habitação própria"
+summary: "Apresenta as questões fiscais gerais que surgem ao vender a habitação própria e permanente, ligando-as às lições sobre mais-valias."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Implicações Fiscais da Venda de uma Casa
+# Consequências fiscais da venda da habitação própria
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-No fim desta lição, serás capaz de:
+- Ligar a venda de uma casa ao conceito de mais-valia visto antes.
+- Explicar porque é que muitos sistemas dão algum tratamento favorável à habitação própria e permanente.
+- Reconhecer a importância de acompanhar o valor de aquisição de uma casa ao longo do tempo.
 
-- Aplicar o conceito de mais-valia à venda de uma casa
-- Perceber como as obras de melhoria podem afetar o valor de aquisição
-- Saber que muitos sistemas têm regras especiais para a habitação própria
+## Conteúdo principal
 
-## Conteúdo Principal
+Vender uma casa é, no fundo, mais um exemplo do conceito de mais-valia visto antes: preço de venda menos valor de aquisição (em termos gerais, preço de compra mais certas obras de valorização aceites) é igual à mais-valia. Mas, como a habitação própria e permanente é um acontecimento de vida comum e importante, e não uma simples operação de investimento, muitos sistemas fiscais oferecem algum tratamento favorável, como excluir parte da mais-valia do imposto, especificamente para a habitação própria, ao contrário do que fariam, por exemplo, com um imóvel de investimento. (Em Portugal, por exemplo, a mais-valia da venda da habitação própria e permanente pode ficar excluída de tributação se o valor for reinvestido noutra habitação própria dentro de certos prazos e condições; as regras mudam.)
 
-Vender uma casa é, no essencial, vender um bem. Por isso, aplica-se a lógica da mais-valia: preço de venda menos valor de aquisição.
+É um ótimo exemplo prático de porque é que acompanhar o valor de aquisição ao longo do tempo importa. Se o proprietário fizer ao longo dos anos obras de valorização importantes e aceites, como uma ampliação ou uma grande remodelação, esses custos podem muitas vezes aumentar o valor de aquisição, o que reduz a mais-valia tributável quando a casa for vendida. Sem registos dessas obras, o proprietário pode acabar por pagar mais imposto do que o necessário, só porque não consegue provar quanto gastou realmente.
 
-Numa casa, o valor de aquisição pode incluir mais do que o preço de compra. Em muitos sistemas, certas obras de melhoria permanentes, como uma cozinha nova ou um telhado novo, e alguns custos de compra e venda podem aumentar o valor considerado. Isso reduz a mais-valia tributável. As reparações de rotina geralmente não contam.
+## Exemplo prático
 
-Muitos países têm regras especiais para a habitação própria permanente, como isenções totais ou parciais se certas condições forem cumpridas, por exemplo o reinvestimento noutra habitação. Estas regras variam muito. Guardar os comprovativos das obras durante muitos anos pode fazer uma diferença real no dia da venda.
+**Pergunta:** Um proprietário faz cedo uma grande ampliação na casa, mas nunca guarda registos do custo. Anos depois, vende a casa com uma grande mais-valia. O que pode isso custar-lhe?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, taxas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por região ou município). Esta lição apresenta padrões gerais, não o código fiscal de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Segundo esta lição, sem registos do custo da ampliação, pode não conseguir aumentar o valor de aquisição, o que pode significar pagar imposto sobre uma mais-valia maior do que o necessário.
 
-## Exemplo Prático
+**Guia:** O que teria evitado este problema?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Guardar faturas e registos dos custos das obras à medida que aconteciam, o que nos leva de volta à lição sobre organização de documentos.
 
-**Professor:** O Henrique comprou a casa por $200.000 e gastou $30.000 numa ampliação. Vendeu-a por $280.000. Qual é a mais-valia, se a ampliação entrar no valor de aquisição?
+**Guia:** Exatamente: é um exemplo muito concreto, e caro, de porque é que esse hábito importa.
 
-**Aluno:** Valor de aquisição de $230.000. Mais-valia de $50.000.
+## Teste de prática
 
-**Professor:** E se não tivesse guardado os comprovativos da ampliação?
+**Pergunta 1.** Vender uma casa é, no fundo, um exemplo de:
 
-**Aluno:** Talvez a mais-valia considerada fosse de $80.000.
+A) Imposto sobre as vendas
+B) O conceito de mais-valia: preço de venda menos valor de aquisição
+C) Contribuições sobre os salários
+D) Um crédito fiscal
 
-**Professor:** E se o país dele tiver uma isenção para a habitação própria?
+**Pergunta 2.** Porque é que muitos sistemas oferecem tratamento favorável especificamente à habitação própria e permanente?
 
-**Aluno:** Aí parte ou toda a mais-valia pode não ser tributada, conforme as regras.
+A) Sem motivo real
+B) É vista como um acontecimento de vida comum e importante, e não como um simples investimento
+C) As casas nunca são vendidas
+D) Apenas os imóveis de investimento recebem tratamento favorável
 
-## Questionário de Treino
+**Pergunta 3.** As obras de valorização aceites numa casa podem geralmente:
 
-**1.** Que conceito se aplica à venda de uma casa?
+A) Diminuir o valor de aquisição da casa
+B) Aumentar o valor de aquisição da casa, reduzindo a mais-valia tributável mais tarde
+C) Não ter efeito no valor de aquisição
+D) Importar apenas para imóveis arrendados
 
-- A) Mais-valia
-- B) Contribuições sobre salários
-- C) Imposto sobre as vendas
-- D) Direitos aduaneiros
+**Pergunta 4.** Sem registos dos custos das obras, um proprietário corre o risco de:
 
-**2.** O que pode aumentar o valor de aquisição de uma casa em muitos sistemas?
-
-- A) A conta da luz mensal
-- B) Obras de melhoria permanentes
-- C) Compras no supermercado
-- D) O salário do dono
-
-**3.** Compra por $150.000, obras de $20.000, venda por $210.000. Mais-valia?
-
-- A) $60.000
-- B) $210.000
-- C) $40.000
-- D) $20.000
-
-**4.** As regras especiais para a habitação própria...
-
-- A) Não existem em lado nenhum
-- B) São iguais em todo o mundo
-- C) Só valem para empresas
-- D) Existem em muitos países, com condições variadas
+A) Nada
+B) Pagar mais imposto do que o necessário na venda futura
+C) Receber um reembolso automático
+D) Perder a propriedade da casa
 
 ## Chave de Respostas
 
-1. A
-2. B
-3. C
-4. D
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. A) Mais-valia** — A casa é um bem vendido com ganho ou perda.
+**1.** A venda de uma casa segue o mesmo cálculo básico da mais-valia de qualquer outra venda de um bem.
 
-**2. B) Obras de melhoria permanentes** — As melhorias permanentes costumam entrar no valor de aquisição.
+**2.** A habitação própria e permanente é muitas vezes tratada de forma diferente, por ser mais uma necessidade de vida do que um simples instrumento de investimento.
 
-**3. C) $40.000** — $210.000 − $170.000 = $40.000.
+**3.** As obras de valorização aceites somam-se geralmente ao valor de aquisição, o que pode reduzir bastante a mais-valia tributável na venda.
 
-**4. D) Existem em muitos países, com condições variadas** — As isenções e condições variam de país para país.
+**4.** A falta de documentação traduz-se diretamente numa mais-valia tributável maior e numa conta de imposto desnecessariamente maior.
 
-## Pontos-Chave
+## Pontos-chave
 
-- A venda de uma casa segue a lógica da mais-valia
-- As obras de melhoria permanentes podem aumentar o valor de aquisição
-- Guarda os comprovativos; há muitas regras especiais para a habitação própria
-
----
-
-*Esta lição tem finalidade exclusivamente educativa e não constitui aconselhamento fiscal, jurídico ou financeiro personalizado. Para decisões sobre a tua situação, consulta um profissional qualificado.*
+- Vender uma casa segue a mesma lógica básica de mais-valia de outras vendas de bens.
+- A habitação própria e permanente recebe muitas vezes algum tratamento fiscal favorável.
+- As obras de valorização aceites podem aumentar o valor de aquisição, reduzindo a mais-valia tributável mais tarde.
+- Uma má organização dos registos das obras pode ser um erro caro e evitável.

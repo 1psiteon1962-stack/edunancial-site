@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 14
 locale: nl
-title: "Formulier W-2 vs. formulier 1099: werknemer of opdrachtnemer?"
-summary: "Stelt de twee meest voorkomende inkomensopgaven voor in de stelsels die ze gebruiken, direct gekoppeld aan het onderscheid tussen werknemer en zelfstandige uit andere leerlijnen."
+title: "Formulier W-2 of 1099: werknemer of opdrachtnemer?"
+summary: "Introduceert de twee meest voorkomende inkomensdocumenten in systemen die ze gebruiken, en koppelt ze direct aan het onderscheid tussen werknemer en zelfstandige uit eerdere leerlijnen."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Formulier W-2 vs. formulier 1099: werknemer of opdrachtnemer?
+# Formulier W-2 of 1099: werknemer of opdrachtnemer?
 
 ## Leerdoelen
 
-Aan het eind van deze les kun je:
-
-- Uitleggen wat de formulieren W-2 en 1099 zijn (Amerikaanse namen)
-- Elk formulier koppelen aan het soort werk
-- Begrijpen waarom opdrachtnemers hun belasting moeten plannen
+- Het algemene verschil uitleggen tussen een inkomensdocument voor werknemers en een voor opdrachtnemers.
+- Dit onderscheid koppelen aan het begrip zelfstandig ondernemerschap en bedrijfseigendom uit eerdere leerlijnen.
+- Herkennen waarom deze indeling bepaalt wie de inhouding regelt.
 
 ## Kerninhoud
 
-In de Verenigde Staten stuurt de werkgever begin van het jaar een formulier W-2 naar de werknemer. Daarop staat hoeveel de persoon verdiende en hoeveel belasting al is ingehouden. Wie als zelfstandige opdrachtnemer werkt, krijgt meestal een formulier 1099, waarop staat hoeveel er is betaald, maar normaal zonder ingehouden belasting. Andere landen hebben vergelijkbare opgaven onder andere namen, zoals de jaaropgaaf in Nederland.
+In sommige belastingstelsels, vooral in de Verenigde Staten, worden verschillende formulieren gebruikt voor verschillende soorten inkomen: één voor werknemers (meestal de W-2), bij wie de werkgever het hele jaar belasting inhoudt, en één voor zelfstandige opdrachtnemers (meestal de 1099), bij wie geen belasting wordt ingehouden en die zelf verantwoordelijk zijn voor hun voorlopige betalingen. Andere landen gebruiken andere namen, maar het onderliggende onderscheid – werknemer of zelfstandige opdrachtnemer – komt bijna overal voor. (In Nederland krijgt een werknemer bijvoorbeeld een jaaropgaaf van de werkgever, terwijl een zzp'er zelf aangifte doet en vaak een voorlopige aanslag krijgt; de grens tussen beide wordt streng getoetst en de regels veranderen.)
 
-Het verschil is belangrijk. Bij de werknemer is de belasting meestal al gedurende het jaar ingehouden. De opdrachtnemer krijgt het volle bedrag en moet zelf zijn belasting opzijzetten en betalen.
-
-Dit onderscheid hangt samen met het verschil tussen werknemer en zelfstandige (zzp'er), dat al in andere leerlijnen aan bod kwam. Wie als opdrachtnemer wordt betaald, moet plannen: van elke betaling een deel opzijzetten voor belasting voorkomt verrassingen aan het eind van het jaar.
-
-**[REGIOSPECIFIEKE REGEL]** Regels, tarieven, grenzen, formulieren en namen van regelingen verschillen sterk per land (en vaak per provincie, staat of gemeente). Deze les toont algemene patronen, niet het belastingrecht van één bepaald land. De gebruikte bedragen zijn alleen voorbeelden.
+Dit sluit direct aan op het begrip zelfstandig ondernemerschap uit je eerdere lesprogramma: bij een werknemer wordt de belasting automatisch door iemand anders ingehouden, terwijl een zelfstandige opdrachtnemer meer als zelfstandige functioneert en zelf actief geld voor belastingen moet opzijzetten en betalen. Verkeerd inschatten in welke categorie je valt, is een van de meest voorkomende en duurste belastingfouten – een opdrachtnemer die zijn volledige betaling uitgeeft zonder iets opzij te zetten voor belasting, kan bij de aangifte een vervelende verrassing krijgen.
 
 ## Praktijkvoorbeeld
 
-**[ILLUSTRATIEF VOORBEELD]** De namen en bedragen hieronder zijn verzonnen en dienen alleen om het begrip te illustreren.
+**Vraag:** Een jonge webdesigner werkt voor verschillende klanten, bepaalt haar eigen werktijden en gebruikt haar eigen apparatuur. Is ze eerder werknemer of zelfstandige opdrachtnemer?
 
-**Docent:** Rafa werkt in een winkel en doet daarnaast als zelfstandige grafisch ontwerp. Welke formulieren kan hij krijgen?
+**Cursist:** Omdat ze haar eigen tijden bepaalt en voor meerdere klanten werkt, klinkt ze eerder als een zelfstandige opdrachtnemer.
 
-**Leerling:** Een W-2 van de winkel en een 1099 van zijn ontwerpklanten.
+**Begeleider:** Als dat zo is, wie is er dan verantwoordelijk voor het opzijzetten van geld voor haar belastingen in de loop van het jaar?
 
-**Docent:** Bij welk van de twee is de belasting al ingehouden?
+**Cursist:** Zijzelf – omdat geen werkgever belasting voor haar inhoudt, moet ze dat zelf doen.
 
-**Leerling:** Meestal bij de W-2. Bij de 1099 kreeg hij het volle bedrag.
-
-**Docent:** Wat moet Rafa dus doen met de betalingen voor ontwerpwerk?
-
-**Leerling:** Van elke betaling een deel opzijzetten om later de belasting te betalen.
+**Begeleider:** Precies, en daarom moeten opdrachtnemers hun belastingen actief plannen in plaats van aan te nemen dat het automatisch geregeld is.
 
 ## Oefenquiz
 
-**1.** Wie krijgt in de VS het formulier W-2?
+**Vraag 1.** Een inkomensdocument voor werknemers laat meestal zien:
 
-- A) Zelfstandige opdrachtnemers
-- B) Banken
-- C) Werknemers
-- D) Beleggers
+A) Dat er geen belasting is ingehouden
+B) Dat de werkgever het hele jaar belasting heeft ingehouden
+C) Alleen bedrijfswinst
+D) Alleen inkomen uit beleggingen
 
-**2.** Het formulier 1099 wordt meestal gebruikt voor...
+**Vraag 2.** Een zelfstandige opdrachtnemer is meestal verantwoordelijk voor:
 
-- A) Werknemers in vaste dienst
-- B) Alleen gepensioneerden
-- C) Minderjarigen
-- D) Zelfstandige opdrachtnemers
+A) Niets – belastingen gaan automatisch
+B) Zelf geschatte belastingen opzijzetten en betalen
+C) Alleen omzetbelasting
+D) Nooit enige papieren indienen
 
-**3.** Bij wie is normaal al gedurende het jaar belasting ingehouden?
+**Vraag 3.** Met welk eerder begrip hangt dit onderscheid tussen werknemer en opdrachtnemer het nauwst samen?
 
-- A) Bij de werknemer
-- B) Bij de opdrachtnemer
-- C) Bij geen van beiden
-- D) Bij beiden altijd
+A) Collectieve goederen
+B) Zelfstandig ondernemerschap en bedrijfseigendom
+C) Marginale belastingschijven
+D) Onroerendgoedbelasting
 
-**4.** Wat moet een opdrachtnemer doen?
+**Vraag 4.** Een veelvoorkomende en dure fout van nieuwe opdrachtnemers is:
 
-- A) Niets, de klant betaalt alles
-- B) Van elke betaling een deel opzijzetten voor belasting
-- C) De klant om een W-2 vragen
-- D) Inkomstenbelasting negeren
+A) Te vroeg aangifte doen
+B) Al het inkomen uitgeven zonder geld opzij te zetten voor belastingen
+C) Te veel belasting inhouden
+D) Te veel onroerend goed bezitten
 
 ## Antwoordsleutel
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Antwoorden en uitleg
 
-**1. C) Werknemers** — De W-2 toont loon en inhouding van werknemers.
+**1.** Inkomen als werknemer gaat meestal samen met automatische inhouding door de werkgever.
 
-**2. D) Zelfstandige opdrachtnemers** — Het toont betalingen aan zelfstandigen.
+**2.** Zonder werkgever die voor hen inhoudt, moeten opdrachtnemers hun belastingbetalingen actief zelf regelen.
 
-**3. A) Bij de werknemer** — Werkgevers houden meestal belasting in; klanten van zelfstandigen normaal niet.
+**3.** Dit is de fiscale kant van het begrip zelfstandig ondernemerschap dat eerder in het lesprogramma aan bod kwam.
 
-**4. B) Van elke betaling een deel opzijzetten voor belasting** — Omdat er niets wordt ingehouden, moet hij zelf plannen.
+**4.** 100% van het inkomen uitgeven zonder een deel opzij te zetten voor belastingen is een van de meest voorkomende beginnersfouten.
 
 ## Belangrijkste punten
 
-- W-2 (VS): werknemer, belasting meestal ingehouden
-- 1099 (VS): opdrachtnemer, meestal zonder inhouding
-- Opdrachtnemers zetten van elke betaling een deel opzij voor belasting
-
----
-
-*Deze les is uitsluitend bedoeld als educatie en is geen persoonlijk belasting-, juridisch of financieel advies. Raadpleeg voor beslissingen over jouw situatie een gekwalificeerde deskundige.*
+- Bij inkomen als werknemer wordt de belasting meestal automatisch ingehouden; bij inkomen als opdrachtnemer meestal niet.
+- Dit onderscheid weerspiegelt het begrip zelfstandig ondernemerschap tegenover loondienst uit eerdere lessen.
+- Opdrachtnemers moeten in de loop van het jaar actief geld opzijzetten voor belastingen.
+- Jezelf verkeerd indelen, of het verschil niet inplannen, is een veelvoorkomende en dure fout.

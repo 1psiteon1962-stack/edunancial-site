@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 31
 locale: pt-BR
-title: "Ganhos de Capital: Impostos Sobre o Lucro de Investimentos"
-summary: "Apresenta o conceito de ganho de capital — o lucro obtido ao vender um bem por mais do que foi pago — e como ele difere da renda comum."
+title: "Ganho de capital: impostos sobre o lucro de investimentos"
+summary: "Apresenta o conceito de ganho de capital, o lucro ao vender um bem por mais do que o preço de compra, e como ele se diferencia da renda comum."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Ganhos de Capital: Impostos Sobre o Lucro de Investimentos
+# Ganho de capital: impostos sobre o lucro de investimentos
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Definir ganho de capital em termos simples.
+- Explicar o cálculo básico de um ganho de capital.
+- Reconhecer por que os ganhos só são realizados (e normalmente tributados) na venda, e não só por manter o bem.
 
-- Definir ganho de capital
-- Calcular um ganho ou uma perda simples
-- Entender que o ganho normalmente só é tributado quando o bem é vendido
+## Conteúdo principal
 
-## Conteúdo Principal
+Ganho de capital é o lucro obtido ao vender um bem, como uma ação ou um imóvel, por mais do que você pagou por ele. O cálculo básico é simples: preço de venda menos preço de compra (muitas vezes chamado de "custo de aquisição" ou "base") é igual ao ganho. Se o bem for vendido por menos do que a base, o resultado é uma perda de capital. (No Brasil, o ganho de capital e os ganhos em bolsa têm regras próprias de alíquotas e isenções, como certos limites de vendas mensais de ações; tudo isso muda.)
 
-Ganho de capital é o lucro que você tem quando vende um bem por mais do que pagou. O bem pode ser uma ação, um imóvel, uma empresa ou outro ativo. O valor que você pagou, somado a certos custos, costuma ser chamado de custo base.
+Uma nuance importante: na maioria dos sistemas, o ganho só é "realizado", e em geral só é tributável, quando o bem é efetivamente vendido. Se uma ação dobra de valor, mas você nunca a vende, em geral ainda não há imposto sobre esse aumento: é um ganho não realizado, um ganho "no papel". Essa diferença importa para o planejamento dos investimentos, porque vender um bem que se valorizou costuma ser uma decisão deliberada, com momento escolhido e consequências tributárias, e não algo que acontece automaticamente só porque o valor subiu.
 
-A conta básica é: preço de venda menos custo base. Se der positivo, é ganho. Se der negativo, é perda. Em muitos sistemas, perdas podem compensar ganhos.
+## Exemplo prático
 
-Um ponto importante: em geral, o ganho só é tributado quando você vende. Se sua ação subiu, mas você não vendeu, o ganho ainda está "no papel". Muitos sistemas tratam o ganho de capital de forma diferente do salário, às vezes com alíquotas diferentes.
+**Pergunta:** Uma investidora compra uma ação por US$ 1.000. Dois anos depois, ela vale US$ 3.000, mas não foi vendida. Ela deve imposto sobre ganho de capital agora?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Pela lição, provavelmente ainda não, porque o ganho não foi realizado com uma venda.
 
-## Exemplo Prático
+**Guia:** O que faria o imposto ser devido, e como ele seria calculado se ela vendesse por US$ 3.000?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** A venda faria o imposto ser devido: o ganho seria US$ 3.000 menos a base de US$ 1.000, ou seja, um ganho de capital de US$ 2.000.
 
-**Professor:** Amanda comprou ações por $2.000 e vendeu por $2.600. Qual foi o ganho?
+**Guia:** Exatamente: e ela tem algum controle sobre esse momento, o que é uma alavanca real de planejamento.
 
-**Aluno:** $600.
+## Teste de prática
 
-**Professor:** E se ela não tivesse vendido, e as ações valessem $2.600?
+**Pergunta 1.** O ganho de capital é calculado como:
 
-**Aluno:** Aí o ganho ainda não aconteceu de verdade, está só no papel.
+A) Preço de compra menos preço de venda
+B) Preço de venda menos preço de compra (base)
+C) Só o preço de compra
+D) Um valor fixo definido pelo governo
 
-**Professor:** E se tivesse vendido por $1.700?
+**Pergunta 2.** Se um bem é vendido por menos do que a sua base, isso se chama:
 
-**Aluno:** Seria uma perda de $300.
+A) Ganho de capital
+B) Perda de capital
+C) Crédito tributário
+D) Restituição
 
-## Quiz de Prática
+**Pergunta 3.** O ganho de capital geralmente é tributado:
 
-**1.** Ganho de capital é...
+A) No momento em que o valor do bem sobe, independentemente da venda
+B) Quando o ganho é realizado, normalmente na venda
+C) Nunca
+D) Só se o bem for um imóvel
 
-- A) O salário mensal
-- B) O valor de um empréstimo
-- C) O imposto sobre vendas
-- D) O lucro na venda de um bem por mais do que foi pago
+**Pergunta 4.** Um ganho não realizado, ou "no papel", é:
 
-**2.** Compra por $5.000 e venda por $6.500. Qual o ganho?
-
-- A) $1.500
-- B) $6.500
-- C) $5.000
-- D) $11.500
-
-**3.** Em geral, quando o ganho de capital é tributado?
-
-- A) Todo mês, mesmo sem vender
-- B) Quando o bem é vendido
-- C) Nunca
-- D) Na compra
-
-**4.** Compra por $3.000 e venda por $2.400. O resultado é...
-
-- A) Ganho de $600
-- B) Ganho de $2.400
-- C) Perda de $600
-- D) Zero
+A) Um ganho que já foi tributado
+B) Um aumento de valor que ainda não foi concretizado por uma venda
+C) Um tipo de crédito tributário
+D) Uma perda de capital
 
 ## Gabarito
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) O lucro na venda de um bem por mais do que foi pago** — É a diferença positiva entre venda e custo.
+**1.** O cálculo compara o valor pelo qual você vendeu o bem com o que pagou originalmente.
 
-**2. A) $1.500** — $6.500 − $5.000 = $1.500.
+**2.** A perda é simplesmente o inverso do ganho: vender por menos do que a base original.
 
-**3. B) Quando o bem é vendido** — Ganhos no papel normalmente não são tributados.
+**3.** A realização pela venda é, na maioria dos sistemas, o gatilho geral do imposto sobre ganho de capital.
 
-**4. C) Perda de $600** — O preço de venda foi menor que o custo.
+**4.** O valor pode subir no papel sem gerar imposto, já que nada foi vendido ainda.
 
-## Principais Lições
+## Pontos-chave
 
-- Ganho de capital = preço de venda − custo base
-- Normalmente só é tributado na venda
-- Perdas podem compensar ganhos em muitos sistemas
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- Ganho de capital é o preço de venda menos o preço de compra (base).
+- Vender abaixo da base gera, em vez disso, uma perda de capital.
+- Os ganhos geralmente são tributados na realização, normalmente quando o bem é vendido.
+- Ganhos não realizados ainda não são tributados, o que torna o momento da venda uma decisão real de planejamento.

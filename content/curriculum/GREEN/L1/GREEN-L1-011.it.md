@@ -1,108 +1,90 @@
 ---
 id: GREEN-L1-011
-locale: it
-source_locale: en-US
 track: GREEN
+officialTrackName: Taxes
 level: 1
-lesson: 11
-title: "Reddito lordo vs. reddito netto"
-source_title: "Gross Income vs. Net Income"
-description: "Chiarisce la differenza tra reddito lordo e netto, una distinzione di base per leggere la busta paga, fare un budget e capire le finanze di un'attività."
-slug: gross-income-vs-net-income
-seo_title: "Reddito lordo vs. reddito netto | Edunancial"
-meta_description: "Chiarisce la differenza tra reddito lordo e netto, una distinzione di base per leggere la busta paga, fare un budget e capire le finanze di un'attività."
-author: "Waldemar M. Caban, JD MA"
 lessonNumber: 11
-summary: "Chiarisce la differenza tra reddito lordo e netto, una distinzione di base per leggere la busta paga, fare un budget e capire le finanze di un'attività."
+locale: it
+title: "Reddito lordo e reddito netto"
+summary: "Chiarisce la differenza tra reddito lordo e reddito netto, una distinzione fondamentale per leggere la busta paga, fare un budget e capire i conti di un'impresa."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-011: Reddito lordo vs. reddito netto
+# Reddito lordo e reddito netto
 
 ## Obiettivi di apprendimento
 
-Alla fine di questa lezione sarai in grado di:
-
-- Definire reddito lordo e reddito netto
-- Individuare che cosa viene trattenuto tra l'uno e l'altro
-- Usare il reddito netto per un budget realistico
+- Definire il reddito lordo e il reddito netto.
+- Spiegare che cosa causa di solito la differenza tra i due.
+- Applicare la distinzione a un esempio di stipendio.
 
 ## Contenuto principale
 
-Il reddito lordo è l'importo totale che guadagni prima di qualsiasi trattenuta. Se il tuo stipendio concordato è di $4.000 al mese, quello è il tuo lordo.
+Il reddito lordo è l'importo totale guadagnato prima di qualsiasi sottrazione. Il reddito netto è ciò che resta dopo le sottrazioni: le imposte e spesso altre trattenute, come i contributi previdenziali o i premi assicurativi sanitari. La differenza tra lordo e netto è il punto in cui la maggior parte delle persone resta sorpresa la prima volta che vede una vera busta paga. (In Italia, tra lordo e netto ci sono di solito l'IRPEF con le addizionali regionali e comunali e i contributi INPS a carico del lavoratore; i dettagli cambiano nel tempo.)
 
-Il reddito netto è ciò che resta dopo le trattenute: imposte, contributi pensionistici, assicurazione sanitaria e altro. È il denaro che arriva davvero sul tuo conto.
+Questa distinzione conta ben oltre la busta paga. Le imprese parlano di ricavi e di utile netto con la stessa logica: il lordo è il totale in cima, il netto è ciò che resta dopo costi e obblighi. Ogni volta che un numero viene descritto come "lordo", la prima domanda utile è: lordo di che cosa, esattamente, e quanto sarà più piccolo il netto?
 
-Per fare un budget, usa sempre il reddito netto. Pianificare le spese sul lordo è un errore comune che porta al rosso. In un'attività la logica è simile: l'incasso totale non è ciò che il titolare porta a casa. Prima escono spese e imposte.
+## Esempio svolto
 
-## Esempio pratico
+**Domanda:** Un'offerta di lavoro indica uno stipendio di 60.000 $ all'anno. È questo l'importo che arriverà davvero sul conto ogni anno?
 
-**[ESEMPIO ILLUSTRATIVO]** I nomi e i numeri che seguono sono inventati e servono solo a illustrare il concetto.
+**Studente:** Direi di no, perché prima vengono tolte imposte e altre trattenute.
 
-**Insegnante:** Bianca è stata assunta a $4.000 al mese e ha già pianificato di spendere $4.000. Che cosa può andare storto?
+**Guida:** Giusto: come chiameresti i 60.000 $, e come chiameresti l'importo che arriva davvero sul conto?
 
-**Studente:** Riceverà meno di così.
+**Studente:** I 60.000 $ sono il reddito lordo, e l'importo che resta dopo imposte e trattenute è il reddito netto.
 
-**Insegnante:** Perché?
+**Guida:** Esatto: fai sempre il budget sul netto, non sul lordo.
 
-**Studente:** Per le trattenute di imposte e benefit.
+## Quiz di esercitazione
 
-**Insegnante:** Se le trattenute sono $900, quanto ha davvero?
+**Domanda 1.** Il reddito lordo è:
 
-**Studente:** $3.100. È questo il numero da usare nel budget.
+A) L'importo dopo tutte le trattenute
+B) L'importo totale guadagnato prima di qualsiasi trattenuta
+C) Solo il reddito da investimenti
+D) Sempre uguale al reddito netto
 
-## Quiz di verifica
+**Domanda 2.** Il reddito netto è:
 
-**1.** Il reddito lordo è...
+A) L'importo prima delle trattenute
+B) Ciò che resta dopo aver sottratto imposte e altre trattenute
+C) Indipendente dal reddito lordo
+D) Sempre più alto del reddito lordo
 
-- A) L'importo che arriva sul conto
-- B) L'importo dopo le imposte
-- C) L'importo speso nel mese
-- D) L'importo totale prima delle trattenute
+**Domanda 3.** Perché la differenza tra lordo e netto è importante per il budget?
 
-**2.** Il reddito netto è...
+A) Non è importante
+B) Fare il budget sul lordo invece che sul netto può portare a sopravvalutare il denaro disponibile
+C) Il netto è sempre più alto del lordo
+D) Il lordo non conta per le imprese
 
-- A) Ciò che resta dopo le trattenute
-- B) Il totale prima delle trattenute
-- C) Lo stipendio del capo
-- D) L'importo delle imposte
+**Domanda 4.** Le imprese usano una distinzione simile tra lordo e netto per:
 
-**3.** Quale importo devi usare per il budget?
+A) Ricavi e utile
+B) Niente: vale solo per le finanze personali
+C) Solo il numero di dipendenti
+D) Solo la spesa di marketing
 
-- A) Il reddito lordo
-- B) Il reddito netto
-- C) Lo stipendio dell'anno scorso
-- D) L'importo delle imposte
+## Soluzioni
 
-**4.** Stipendio lordo di $5.000 con $1.200 di trattenute dà un netto di...
-
-- A) $6.200
-- B) $5.000
-- C) $3.800
-- D) $1.200
-
-## Chiave delle risposte
-
-1. D
-2. A
-3. B
-4. C
+1. B, 2. B, 3. B, 4. A
 
 ## Risposte e spiegazioni
 
-**1. D) L'importo totale prima delle trattenute** — Il lordo è il totale prima di qualsiasi trattenuta.
+**1.** Il lordo è il totale prima delle trattenute: il numero in cima, quello che si vede per primo.
 
-**2. A) Ciò che resta dopo le trattenute** — Il netto è ciò che arriva davvero a te.
+**2.** Il netto è l'importo che resta davvero dopo imposte e altre sottrazioni, ed è quello che arriva sul tuo conto.
 
-**3. B) Il reddito netto** — Solo il reddito netto è disponibile da spendere.
+**3.** Pianificare sulla cifra lorda rischia di farti credere di avere più denaro da spendere di quanto ne avrai davvero.
 
-**4. C) $3.800** — $5.000 − $1.200 = $3.800.
+**4.** Le imprese applicano la stessa identica logica ai ricavi (lordo) e all'utile (netto).
 
 ## Punti chiave
 
-- Il lordo è prima delle trattenute; il netto è dopo
-- Le trattenute includono imposte e benefit
-- Fai il budget sul reddito netto
-
----
-
-*Questa lezione ha finalità esclusivamente educative e non costituisce consulenza fiscale, legale o finanziaria personalizzata. Per decisioni sulla tua situazione, rivolgiti a un professionista qualificato.*
+- Il reddito lordo è il totale prima delle trattenute; il reddito netto è ciò che resta dopo.
+- La differenza è di solito fatta di imposte e altre trattenute, come previdenza o assicurazione.
+- Fai sempre il budget sul reddito netto, non su quello lordo.
+- La stessa logica lordo/netto vale per i ricavi e l'utile di un'impresa.

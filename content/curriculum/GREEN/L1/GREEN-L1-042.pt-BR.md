@@ -5,102 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 42
 locale: pt-BR
-title: "Entidades de Repasse: LLCs, S-Corps e Empresas Individuais"
-summary: "Apresenta o conceito geral de tributação por repasse como alternativa ao padrão de bitributação das corporações tradicionais."
+title: "Estruturas de tributação transparente: LLC, S-Corp e empresa individual"
+summary: "Apresenta o conceito geral da tributação transparente como alternativa ao padrão de bitributação das sociedades tradicionais."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Entidades de Repasse: LLCs, S-Corps e Empresas Individuais
+# Estruturas de tributação transparente: LLC, S-Corp e empresa individual
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Definir, em termos gerais, uma estrutura de tributação transparente.
+- Explicar como a tributação transparente evita o padrão da bitributação.
+- Reconhecer exemplos comuns de estruturas transparentes, sem tratar os nomes como universais.
 
-- Definir tributação por repasse
-- Reconhecer exemplos de estruturas de repasse usadas nos EUA
-- Comparar repasse e bitributação
+## Conteúdo principal
 
-## Conteúdo Principal
+Uma estrutura de tributação transparente (em inglês, "pass-through entity") é um tipo de empresa em que o lucro não é tributado no nível do negócio: ele "passa" direto para os donos, que o declaram e pagam imposto sobre ele nas próprias declarações pessoais, geralmente uma única vez. Isso evita diretamente o padrão de bitributação da lição anterior, já que não existe, desde o início, uma camada separada de imposto da empresa.
 
-Numa entidade de repasse (pass-through), o negócio em si normalmente não paga imposto de renda sobre o lucro. Em vez disso, o lucro "passa" para os donos, que o incluem nas suas próprias declarações e pagam imposto uma única vez.
+Exemplos comuns de estruturas que muitas vezes são tributadas de forma transparente incluem a empresa individual (o caso mais simples: nenhuma camada separada de imposto do negócio) e, em muitos sistemas, certas sociedades de responsabilidade limitada (LLCs) ou estruturas societárias com uma opção especial (muitas vezes chamadas de "S-corps" no sistema dos EUA, embora conceitos equivalentes existam em outros lugares com outros nomes). (No Brasil, a lógica é diferente: por exemplo, o MEI paga um valor mensal fixo, e no Simples Nacional vários tributos são recolhidos em uma guia única; as regras mudam.) As regras jurídicas e tributárias para se enquadrar como estrutura transparente variam de país para país e envolvem trocas reais, que vão além de evitar a bitributação; é exatamente por isso que a escolha do tipo de empresa, tratada a seguir, merece reflexão cuidadosa em vez de uma escolha automática.
 
-Nos EUA, exemplos comuns são a empresa individual (sole proprietorship), a LLC em muitas situações e a S-Corp. Outros países têm estruturas parecidas com nomes e regras próprios.
+## Exemplo prático
 
-Uma consequência importante: o dono pode dever imposto sobre o lucro do negócio mesmo que não tenha tirado esse dinheiro da empresa. Além disso, estruturas de repasse podem ter outros impostos, como o de trabalho autônomo. A estrutura certa depende de cada situação, como veremos na próxima lição.
+**Pergunta:** Uma pequena empresária quer evitar o padrão de bitributação que vale para as sociedades tradicionais. Que categoria geral de estrutura ela poderia analisar?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Pela lição, ela provavelmente deveria olhar estruturas de tributação transparente, já que elas evitam uma camada separada de imposto no nível do negócio.
 
-## Exemplo Prático
+**Guia:** Qual é a troca: evitar a bitributação é sempre o único critério na escolha da estrutura?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Não: a lição diz que existem outras trocas reais além da camada de imposto, então vale a pena olhar o quadro completo, e não só essa questão.
 
-**Professor:** Uma LLC tratada como repasse lucra $60.000 no ano. A LLC paga imposto de renda sobre isso?
+**Guia:** Exatamente: e é por isso que a próxima lição trata da escolha do tipo de empresa de forma mais completa.
 
-**Aluno:** Normalmente não. O lucro passa para o dono.
+## Teste de prática
 
-**Professor:** E o dono deixou $20.000 dentro da empresa para comprar equipamentos. Ele paga imposto sobre quanto?
+**Pergunta 1.** Uma estrutura de tributação transparente é aquela em que o lucro:
 
-**Aluno:** Sobre os $60.000, mesmo tendo tirado só $40.000.
+A) É tributado duas vezes, no nível do negócio e dos donos
+B) Não é tributado no nível do negócio e passa direto para as declarações pessoais dos donos
+C) Nunca é tributado
+D) Só é tributado se o negócio falir
 
-**Professor:** Por quê?
+**Pergunta 2.** A tributação transparente trata diretamente de qual conceito anterior?
 
-**Aluno:** Porque o imposto segue o lucro, não o saque.
+A) Cobrança de imposto sobre vendas
+B) Bitributação
+C) Tarifas
+D) Retenção na folha
 
-## Quiz de Prática
+**Pergunta 3.** A empresa individual é descrita nesta lição como:
 
-**1.** Numa entidade de repasse, quem normalmente paga o imposto de renda sobre o lucro?
+A) Sempre bitributada
+B) O caso mais simples de tributação transparente, sem camada separada de imposto do negócio
+C) Proibida na maioria dos países
+D) O mesmo que uma sociedade anônima
 
-- A) O negócio
-- B) O banco
-- C) Os donos, em suas declarações pessoais
-- D) Os clientes
+**Pergunta 4.** Evitar a bitributação é o único critério na escolha do tipo de empresa?
 
-**2.** Quantas vezes o lucro costuma ser tributado numa entidade de repasse?
-
-- A) Duas vezes
-- B) Três vezes
-- C) Nunca
-- D) Uma vez
-
-**3.** Qual destes é um exemplo de estrutura de repasse nos EUA?
-
-- A) S-Corp
-- B) C-Corp tradicional
-- C) Banco central
-- D) Fundo público
-
-**4.** O dono de uma entidade de repasse pode dever imposto sobre lucro que não sacou?
-
-- A) Não, nunca
-- B) Sim, porque o imposto segue o lucro
-- C) Só se for sócio único
-- D) Só em anos bissextos
+A) Sim, o único
+B) Não: há outras trocas reais a considerar
+C) O tipo de empresa não importa
+D) Só os impostos importam, nada mais
 
 ## Gabarito
 
-1. C
-2. D
-3. A
-4. B
+1. B, 2. B, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. C) Os donos, em suas declarações pessoais** — O lucro passa para os donos.
+**1.** As estruturas transparentes pulam totalmente o imposto no nível do negócio e mandam o lucro direto para a declaração do dono.
 
-**2. D) Uma vez** — Esse é o contraste com a bitributação.
+**2.** Essa estrutura existe justamente como alternativa ao padrão de tributação em duas camadas descrito na lição anterior.
 
-**3. A) S-Corp** — A S-Corp é uma estrutura de repasse nos EUA.
+**3.** A empresa individual é o exemplo mais claro, já que o negócio e o dono já são tratados como um único contribuinte.
 
-**4. B) Sim, porque o imposto segue o lucro** — O imposto acompanha o lucro do negócio.
+**4.** A escolha da estrutura envolve várias trocas, como proteção patrimonial e complexidade, e não só a questão tributária.
 
-## Principais Lições
+## Pontos-chave
 
-- Repasse: o lucro passa aos donos e é tributado uma vez
-- Exemplos nos EUA: empresa individual, LLC, S-Corp
-- O imposto segue o lucro, não o saque
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- As estruturas de tributação transparente evitam o imposto no nível do negócio, mandando o lucro direto para as declarações pessoais dos donos.
+- Essa é a alternativa direta ao padrão de bitributação das sociedades tradicionais.
+- A empresa individual é o exemplo mais simples; certas LLCs e estruturas com opção especial também podem se enquadrar.
+- Escolher um tipo de empresa envolve trocas que vão além dessa única questão tributária.

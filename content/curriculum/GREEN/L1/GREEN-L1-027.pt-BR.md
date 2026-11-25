@@ -5,100 +5,86 @@ officialTrackName: Taxes
 level: 1
 lessonNumber: 27
 locale: pt-BR
-title: "Depreciação: Distribuindo um Custo ao Longo do Tempo"
-summary: "Apresenta a depreciação como a ideia de distribuir o custo de um bem durável do negócio ao longo de vários anos, em vez de deduzir tudo de uma vez."
+title: "Depreciação: distribuir um custo ao longo do tempo"
+summary: "Apresenta a depreciação como a ideia de distribuir o custo de um bem durável do negócio ao longo de vários anos, em vez de deduzi-lo todo de uma vez."
 version: 1.0
 author: Waldemar M. Caban, JD MA
-date: 2026-09-24
+date: 2026-08-09
 ---
 
-# Depreciação: Distribuindo um Custo ao Longo do Tempo
+# Depreciação: distribuir um custo ao longo do tempo
 
-## Objetivos de Aprendizagem
+## Objetivos de aprendizagem
 
-Ao final desta lição, você será capaz de:
+- Definir depreciação em termos simples.
+- Explicar por que existe o conceito de depreciação.
+- Diferenciar os bens que provavelmente serão depreciados daqueles que normalmente são lançados como despesa na hora.
 
-- Definir depreciação
-- Explicar por que o custo é distribuído ao longo dos anos
-- Calcular uma depreciação linear simples
+## Conteúdo principal
 
-## Conteúdo Principal
+Quando um negócio compra algo que será usado por anos, como um veículo, máquinas ou um imóvel, normalmente não faz sentido deduzir todo o custo no ano da compra. Em vez disso, muitos sistemas tributários exigem ou permitem que esse custo seja distribuído, ou depreciado, ao longo da vida útil do bem, fazendo a dedução coincidir com os anos em que o bem realmente ajuda a gerar renda. (No Brasil, a Receita Federal define taxas de depreciação de referência para muitos tipos de bem; as regras dependem do regime tributário e mudam.)
 
-Quando um negócio compra algo que vai durar muitos anos, como um computador, uma máquina ou um veículo, esse bem vai sendo usado aos poucos. A depreciação reflete essa ideia: em vez de deduzir o custo inteiro no ano da compra, você distribui o custo pelos anos de uso.
+A lógica segue o bom senso contábil: se um equipamento será usado por dez anos, tratar todo o custo como despesa de um único ano subestimaria o lucro do primeiro ano e superestimaria o de todos os anos seguintes. A depreciação equilibra isso. Já as despesas de consumo do dia a dia, como material de escritório, normalmente são lançadas como despesa integral na hora, porque não geram valor por vários anos como um equipamento durável.
 
-O método mais simples é a depreciação linear: divide-se o custo pela vida útil. Um equipamento de $5.000 com vida útil de 5 anos gera $1.000 de depreciação por ano.
+## Exemplo prático
 
-Os sistemas tributários definem a vida útil de cada tipo de bem e os métodos permitidos. Alguns permitem acelerar a depreciação ou deduzir tudo de uma vez em certos casos. A ideia central é a mesma: custo de bens duráveis é reconhecido ao longo do tempo. Imóveis de aluguel, que aparecem na trilha RED, também costumam ser depreciados.
+**Pergunta:** Uma padaria compra um forno industrial que deve durar dez anos. O custo inteiro deve ser deduzido na hora ou distribuído?
 
-**[REGRA ESPECÍFICA DA REGIÃO]** As regras, alíquotas, limites, formulários e nomes de programas variam muito de país para país (e muitas vezes por estado ou município). Esta lição apresenta padrões gerais, não o código tributário de um país específico. Os números usados são apenas exemplos.
+**Aluno:** Pela lição, parece que deve ser distribuído, porque o forno vai ser usado por muitos anos.
 
-## Exemplo Prático
+**Guia:** Por que distribuir dá uma visão mais precisa do que deduzir tudo de uma vez?
 
-**[EXEMPLO ILUSTRATIVO]** Os nomes e números abaixo são fictícios e servem apenas para ilustrar o conceito.
+**Aluno:** Porque o forno ajuda a gerar renda nos dez anos, e não só no ano da compra, então ligar o custo a esses anos é mais preciso.
 
-**Professor:** Uma padaria compra um forno de $10.000 que deve durar 10 anos. Quanto de depreciação linear por ano?
+**Guia:** Exatamente: essa é a lógica central da depreciação.
 
-**Aluno:** $1.000 por ano.
+## Teste de prática
 
-**Professor:** Por que não deduzir os $10.000 no primeiro ano?
+**Pergunta 1.** A depreciação é mais bem descrita como:
 
-**Aluno:** Porque o forno vai ser usado por 10 anos, não só por um.
+A) Deduzir o custo total de um bem imediatamente
+B) Distribuir o custo de um bem ao longo da sua vida útil
+C) Ignorar totalmente o custo dos bens do negócio
+D) Um tipo de imposto sobre vendas
 
-**Professor:** Exato. O custo acompanha o uso.
+**Pergunta 2.** A depreciação normalmente se aplica a:
 
-## Quiz de Prática
+A) Bens duráveis como equipamentos, veículos ou imóveis
+B) Material de escritório do dia a dia
+C) Pagamentos de imposto sobre vendas
+D) Retenção na folha
 
-**1.** Depreciação é...
+**Pergunta 3.** Por que não deduzir no primeiro ano o custo total de um bem que dura dez anos?
 
-- A) Um imposto novo
-- B) Um desconto na compra
-- C) A venda de um bem
-- D) Distribuir o custo de um bem durável ao longo dos anos de uso
+A) Comprar equipamentos é ilegal
+B) Isso distorceria o lucro nos anos em que o bem realmente ajuda a gerar renda
+C) Não há motivo, é arbitrário
+D) A depreciação não se aplica a negócios
 
-**2.** Máquina de $8.000 com vida útil de 4 anos. Depreciação linear anual?
+**Pergunta 4.** Os materiais de consumo do dia a dia normalmente são:
 
-- A) $2.000
-- B) $4.000
-- C) $8.000
-- D) $1.000
-
-**3.** Por que usar depreciação para um bem durável?
-
-- A) Porque é mais divertido
-- B) Porque o bem é usado por vários anos
-- C) Porque o bem é descartável
-- D) Porque o banco exige
-
-**4.** Quem define a vida útil e os métodos permitidos?
-
-- A) O vendedor do equipamento
-- B) O dono, livremente
-- C) As regras do sistema tributário de cada país
-- D) O cliente
+A) Depreciados em dez anos
+B) Lançados como despesa integral na hora
+C) Nunca dedutíveis
+D) Tratados como imóveis
 
 ## Gabarito
 
-1. D
-2. A
-3. B
-4. C
+1. B, 2. A, 3. B, 4. B
 
-## Respostas e Explicações
+## Respostas e explicações
 
-**1. D) Distribuir o custo de um bem durável ao longo dos anos de uso** — Ela espalha o custo pela vida útil.
+**1.** A depreciação liga o custo de um bem aos anos em que ele realmente gera valor, em vez de concentrá-lo em um só ano.
 
-**2. A) $2.000** — $8.000 ÷ 4 = $2.000.
+**2.** Os bens duráveis são os candidatos típicos à depreciação, ao contrário dos itens de consumo de vida curta.
 
-**3. B) Porque o bem é usado por vários anos** — O custo acompanha o tempo de uso.
+**3.** Distribuir o custo evita distorcer o lucro do ano da compra em relação aos anos seguintes.
 
-**4. C) As regras do sistema tributário de cada país** — Cada sistema tem suas regras.
+**4.** Os materiais acabam rápido, então lançá-los na hora combina melhor com o seu valor de curto prazo.
 
-## Principais Lições
+## Pontos-chave
 
-- Depreciação distribui o custo de bens duráveis
-- Linear: custo ÷ vida útil
-- Regras de vida útil e métodos variam por país
-
----
-
-*Esta lição tem finalidade educativa e não constitui aconselhamento tributário, jurídico ou financeiro personalizado. Para decisões sobre a sua situação, consulte um profissional qualificado.*
+- A depreciação distribui o custo de um bem ao longo da vida útil, em vez de deduzi-lo todo de uma vez.
+- Ela se aplica a bens duráveis como equipamentos, veículos e imóveis.
+- Isso gera uma visão mais precisa do lucro do negócio ano a ano.
+- As despesas de consumo do dia a dia, por outro lado, normalmente são deduzidas na hora.
