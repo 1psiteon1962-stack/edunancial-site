@@ -144,7 +144,7 @@ TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — a metodologia de estudo de
 
 ## Leituras complementares
 - BLUE-L1-031 — O que é um mercado-alvo?
-- BLUE-L1-038 — Crescimento como autônomo x crescimento como dono de negócio: porque é que eles batem em tetos diferentes
+- BLUE-L1-038 — Crescer por conta própria vs. crescer como dono de uma empresa: porque esbarram em tetos diferentes
 
 ## Trilha da lição
 `BLUE-L1-037-LOCALIZATION` (bloco de trilha)

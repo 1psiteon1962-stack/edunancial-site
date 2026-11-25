@@ -46,10 +46,10 @@ Principiante (Nível 1)
 ## Conteúdo principal
 
 ### Tema 1: Um regresso rápido a BLUE-L1-001
-Lembre-se da diferença central: trabalho por conta própria significa que a rendimento depende do trabalho pessoal do dono, hora após hora; ser de facto dono de um negócio significa que o valor é entregue por meio de pessoas, sistemas ou tecnologia, além das horas diretas do dono.
+Recorde a diferença central: trabalho por conta própria significa que o rendimento depende do trabalho pessoal do dono, hora após hora; ser de facto dono de um negócio significa que o valor é entregue por meio de pessoas, sistemas ou tecnologia, além das horas diretas do dono.
 
 ### Tema 2: O teto de crescimento do trabalhador por conta própria
-Como a rendimento do trabalhador por conta própria é limitada pelas horas disponíveis multiplicadas pelo valor cobrado, as opções de crescimento resumem-se a aumentar o preço ou trabalhar mais horas, e ambas esbarram em limites rígidos (o dia só tem tantas horas, e os preços só podem subir até certo ponto antes de se perderem clientes).
+Como o rendimento do trabalhador por conta própria é limitado pelas horas disponíveis multiplicadas pelo valor cobrado, as opções de crescimento resumem-se a aumentar o preço ou trabalhar mais horas, e ambas esbarram em limites rígidos (o dia só tem tantas horas, e os preços só podem subir até certo ponto antes de se perderem clientes).
 
 ### Tema 3: O teto de crescimento do dono de negócio
 [EXEMPLO ILUSTRATIVO] Um negócio construído sobre sistemas e pessoas enfrenta outro tipo de teto, ligado ao capital, à capacidade de gestão, ao tamanho do mercado e à complexidade operacional, e não às horas pessoais do dono. Esse teto muitas vezes pode ser elevado com mais pessoal, mais sistemas ou mais capital, de uma forma que não é possível com as horas pessoais.
@@ -64,7 +64,7 @@ Como a rendimento do trabalhador por conta própria é limitada pelas horas disp
 - **Teto baseado na estrutura:** O limite de crescimento próprio de quem é dono de um negócio, definido pelo capital, pela capacidade de gestão, pelo tamanho do mercado e pela complexidade operacional, e não pelas horas pessoais.
 
 ## Exemplos práticos
-[EXEMPLO ILUSTRATIVO] Uma massagista por conta própria só consegue aumentar a rendimento subindo o preço por sessão ou atendendo pessoalmente mais sessões, e as duas coisas esbarram em limites reais. A dona de uma clínica de massagens que contrata e forma outros massagistas pode crescer acrescentando mais massagistas, uma alavanca de crescimento fundamentalmente diferente, que não existe na versão por conta própria do mesmo negócio.
+[EXEMPLO ILUSTRATIVO] Uma massagista por conta própria só consegue aumentar o rendimento subindo o preço por sessão ou atendendo pessoalmente mais sessões, e as duas coisas esbarram em limites reais. A dona de uma clínica de massagens que contrata e forma outros massagistas pode crescer acrescentando mais massagistas, uma alavanca de crescimento fundamentalmente diferente, que não existe na versão por conta própria do mesmo negócio.
 
 ## Erros comuns
 - Tentar fazer crescer uma atividade por conta própria com estratégias (como contratar pessoal) que exigem antes a passagem para ser de facto dono de um negócio
@@ -95,7 +95,7 @@ Pense num trabalhador por conta própria que conheça ou consegue imaginar. Desc
 1. **Pergunta inicial:** Acha que trabalho por conta própria e ser dono de um negócio têm o mesmo tipo de teto de crescimento?
 2. **Conceito 1 — Retomada:** Qual é a diferença central entre trabalho por conta própria e ser dono de um negócio, de BLUE-L1-001?
 3. **Aprofundamento:** Porque é que essa diferença importa especificamente para o crescimento?
-4. **Conceito 2 — Teto do trabalhador por conta própria:** Quais são as duas alavancas que um trabalhador por conta própria pode usar para aumentar a rendimento?
+4. **Conceito 2 — Teto do trabalhador por conta própria:** Quais são as duas alavancas que um trabalhador por conta própria pode usar para aumentar o rendimento?
 5. **Aprofundamento:** Porque é que as duas alavancas acabam por bater num limite rígido?
 6. **Conceito 3 — Teto do dono de negócio:** O que define o teto de crescimento de uma estrutura de dono de empresa?
 7. **Aprofundamento:** Como esse teto pode ser elevado, de uma forma que não é possível com as horas pessoais?
@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-039
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-001 — O que é um negócio? (Trabalho trabalhador por conta própria vs. ser dono de um negócio)
+- BLUE-L1-001 — O que é um negócio? (Trabalho por conta própria vs. ser dono de uma empresa)
 - BLUE-L1-039 — O que são sistemas num negócio?
 
 ## Trilha da lição
