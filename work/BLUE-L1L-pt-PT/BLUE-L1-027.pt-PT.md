@@ -106,7 +106,7 @@ Descreva uma situação real ou hipotética em que escolher um fornecedor mais b
 ## Avaliação de competências
 `BLUE-L1-027-ASSESSMENT`
 
-1. (Escolha múltipla) A relação com um fornecedor normalmente envolve: A) Apenas compras únicas B) Pedidos contínuos, preços e expectativas de entrega e qualidade C) Gestão de funcionários D) Apenas atendimento ao cliente
+1. (Escolha múltipla) A relação com um fornecedor normalmente envolve: A) Apenas compras únicas B) Encomendas contínuas, preços e expectativas de entrega e qualidade C) Gestão de funcionários D) Apenas apoio ao cliente
 2. (Verdadeiro/Falso) O fornecedor mais barato é sempre o de melhor custo-benefício.
 3. (Escolha múltipla) O que um fornecedor pouco fiável pode causar? A) Apenas custos mais baixos B) Prazos perdidos, custos extra de manutenção de inventário, perda de confiança C) Lucro mais alto garantido D) Nada de relevante
 4. (Resposta curta) Explique porque é que a fiabilidade pode importar mais do que o preço na escolha de um fornecedor.
