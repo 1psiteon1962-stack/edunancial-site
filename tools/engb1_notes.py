@@ -36,6 +36,10 @@ N={'PURPLE':{
 32:"many UK home contents policies cap cover for cash, coins and bullion unless items are specified separately, so check the policy wording with your insurer or broker.",
 35:"there is no special collectibles rate; gains are generally subject to Capital Gains Tax above the annual exempt amount, and UK legal-tender gold coins such as Sovereigns and Britannias are generally exempt, so check current HMRC guidance or an adviser.",
 37:"products that hold or track gold are often called exchange-traded commodities (ETCs) in the UK, and some can be held in a stocks and shares ISA depending on the product and provider.",
+},'ORANGE':{
+9:"unsolicited marketing calls and texts are regulated by the Privacy and Electronic Communications Regulations (PECR) and UK GDPR; numbers registered with the Telephone Preference Service (TPS) generally must not receive sales calls, so check the ICO's guidance before cold outreach.",
+30:"UK advertising rules (the CAP Code, enforced by the Advertising Standards Authority) require paid or incentivised social media posts to be clearly labelled as ads, so check the ASA's guidance before promoting products this way.",
+31:"marketing emails to individuals in the UK generally need prior consent under PECR (with a limited 'soft opt-in' for existing customers), and every message must offer an easy way to unsubscribe; check the ICO's guidance for the current rules.",
 }}[C]
 parts=re.split(r'(?m)^(?====== )',t); out=[]
 for ch in parts:
