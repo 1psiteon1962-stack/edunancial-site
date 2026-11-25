@@ -1,0 +1,403 @@
+===== GREEN-L1-011
+TITLE: Bruto-inkomen en netto-inkomen
+SUMMARY: Verduidelijkt het verschil tussen bruto- en netto-inkomen, een basisonderscheid voor het lezen van een loonstrook, het maken van een budget en de financiën van een bedrijf.
+# Bruto-inkomen en netto-inkomen
+
+## Leerdoelen
+
+- Bruto-inkomen en netto-inkomen definiëren.
+- Uitleggen wat het verschil tussen die twee meestal veroorzaakt.
+- Het onderscheid toepassen op een voorbeeld met een salaris.
+
+## Kerninhoud
+
+Bruto-inkomen is het totale bedrag dat je verdient voordat er iets van af gaat. Netto-inkomen is wat er overblijft na de inhoudingen: belastingen en vaak ook andere inhoudingen, zoals pensioenpremies of premies voor een ziektekostenverzekering. Het verschil tussen bruto en netto is het punt waarop de meeste mensen verrast worden als ze voor het eerst een echte loonstrook zien. (In Nederland gaat het daarbij onder meer om loonheffing, waarin loonbelasting en premies volksverzekeringen samenkomen, en vaak om een pensioenpremie; de details veranderen.)
+
+Dit onderscheid is veel breder belangrijk dan alleen bij je loon. Bedrijven spreken met dezelfde logica over omzet en nettowinst: bruto is het totaal bovenaan, netto is wat overblijft na kosten en verplichtingen. Telkens als een bedrag "bruto" wordt genoemd, is de eerste vraag die het stellen waard: bruto van wat precies, en hoeveel kleiner wordt netto?
+
+## Praktijkvoorbeeld
+
+**Vraag:** In een vacature staat een salaris van $ 60.000 per jaar. Is dat het bedrag dat elk jaar echt op de rekening komt?
+
+**Cursist:** Ik denk het niet, want eerst gaan er belastingen en andere inhoudingen af.
+
+**Begeleider:** Klopt – hoe zou je die $ 60.000 noemen, en hoe het bedrag dat echt op de rekening komt?
+
+**Cursist:** Die $ 60.000 is het bruto-inkomen, en het bedrag dat overblijft na belastingen en inhoudingen is het netto-inkomen.
+
+**Begeleider:** Precies – maak je budget altijd op basis van netto, niet bruto.
+
+## Oefenquiz
+
+**Vraag 1.** Bruto-inkomen is:
+
+A) Het bedrag na alle inhoudingen
+B) Het totale bedrag dat je verdient vóór inhoudingen
+C) Alleen inkomen uit beleggingen
+D) Altijd gelijk aan netto-inkomen
+
+**Vraag 2.** Netto-inkomen is:
+
+A) Het bedrag vóór inhoudingen
+B) Wat overblijft nadat belastingen en andere inhoudingen zijn afgetrokken
+C) Los van het bruto-inkomen
+D) Altijd hoger dan het bruto-inkomen
+
+**Vraag 3.** Waarom is het verschil tussen bruto en netto belangrijk voor je budget?
+
+A) Het is niet belangrijk
+B) Wie op bruto in plaats van netto budgetteert, kan het beschikbare geld overschatten
+C) Netto is altijd hoger dan bruto
+D) Bruto doet er voor bedrijven niet toe
+
+**Vraag 4.** Bedrijven gebruiken een vergelijkbaar onderscheid tussen bruto en netto voor:
+
+A) Omzet en winst
+B) Niets – het bestaat alleen bij persoonlijke financiën
+C) Alleen het aantal medewerkers
+D) Alleen marketinguitgaven
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. A
+
+## Antwoorden en uitleg
+
+**1.** Bruto is het totaal vóór inhoudingen – het getal bovenaan dat je als eerste ziet.
+
+**2.** Netto is het bedrag dat echt overblijft na belastingen en andere inhoudingen, en dat is wat op je rekening komt.
+
+**3.** Wie plant op het brutobedrag, loopt het risico te denken dat er meer geld te besteden is dan er werkelijk zal zijn.
+
+**4.** Bedrijven passen precies dezelfde logica toe op omzet (bruto) en winst (netto).
+
+## Belangrijkste punten
+
+- Bruto-inkomen is het totaal vóór inhoudingen; netto-inkomen is wat erna overblijft.
+- Het verschil bestaat meestal uit belastingen en andere inhoudingen, zoals pensioen of verzekering.
+- Maak je budget altijd op basis van netto-inkomen, niet bruto-inkomen.
+- Dezelfde logica van bruto en netto geldt voor de omzet en winst van een bedrijf.
+
+===== GREEN-L1-012
+TITLE: Je loonstrook lezen
+SUMMARY: Een praktische uitleg over het lezen van een gewone loonstrook, die eerdere begrippen (bruto/netto, inhouding, loonheffingen) koppelt aan een echt document.
+# Je loonstrook lezen
+
+## Leerdoelen
+
+- De belangrijkste onderdelen van een gewone loonstrook herkennen.
+- Brutoloon, inhoudingen en nettoloon vinden op een voorbeeldloonstrook.
+- Uitleggen waarom het een goede gewoonte is om je loonstrook regelmatig te controleren.
+
+## Kerninhoud
+
+Een loonstrook is het document, op papier of digitaal, dat een salarisbetaling uitsplitst. Hoewel de opmaak per werkgever en per land verschilt, hebben de meeste loonstroken een vergelijkbare opbouw: bovenaan het brutoloon, in het midden een lijst met inhoudingen (belastingen, pensioenpremies, verzekeringspremies) en onderaan het nettoloon – het bedrag dat echt wordt overgemaakt.
+
+Het onderdeel met inhoudingen scheidt meestal verschillende categorieën: de inhouding voor inkomstenbelasting, de loonheffingen (vaak apart vermeld voor pensioen- en zorgregelingen) en eventuele vrijwillige inhoudingen die de werknemer zelf heeft gekozen, zoals extra pensioeninleg. Een loonstrook toont meestal ook cumulatieve totalen vanaf het begin van het jaar, waarmee je je totale verdiensten en inhoudingen over het hele jaar kunt volgen, niet alleen over één betalingsperiode.
+
+Je loonstrook regelmatig controleren is een praktische gewoonte en geen bureaucratische formaliteit. Zo ontdek je fouten – verkeerde uren, een verkeerde belastinginhouding, een vergeten loonsverhoging – voordat ze zich maandenlang opstapelen. En zo krijg je een echt, doorlopend beeld van het verschil tussen wat je verdient en wat je overhoudt, en dat voedt rechtstreeks je budget.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een werknemer kijkt naar zijn loonstrook en ziet een kolom "YTD" of "cumulatief". Wat betekent dat waarschijnlijk, en waarom is dat belangrijk?
+
+**Cursist:** Ik vermoed dat YTD staat voor "year to date": het lopende totaal sinds het begin van het jaar.
+
+**Begeleider:** Klopt. Waarom is dat lopende totaal nuttig, naast de cijfers van deze ene loonstrook?
+
+**Cursist:** Daarmee kun je je totale verdiensten en inhoudingen in de tijd volgen, wat helpt om fouten te ontdekken of je voor te bereiden op de belastingaangifte, in plaats van steeds maar één betalingsperiode te zien.
+
+**Begeleider:** Precies – één loonstrook is een momentopname; de cumulatieve cijfers laten de trend zien.
+
+## Oefenquiz
+
+**Vraag 1.** Een loonstrook toont meestal:
+
+A) Alleen het nettoloon
+B) Brutoloon, inhoudingen en nettoloon
+C) Alleen de belasting die je voor het jaar verschuldigd bent
+D) Niets wat met belasting te maken heeft
+
+**Vraag 2.** "YTD" op een loonstrook staat waarschijnlijk voor:
+
+A) Jaarlijkse belastinginhouding
+B) Sinds het begin van het jaar (year to date)
+C) Je totale schuld
+D) Rendement tot vandaag
+
+**Vraag 3.** Je loonstrook regelmatig controleren helpt je om:
+
+A) Niets nuttigs
+B) Fouten te ontdekken, zoals verkeerde uren of een verkeerde inhouding
+C) Helemaal geen belasting te betalen
+D) Je brutoloon automatisch te verhogen
+
+**Vraag 4.** Het onderdeel met inhoudingen bevat meestal:
+
+A) Alleen vrijwillige aankopen
+B) Inhouding voor inkomstenbelasting, loonheffingen en vrijwillige inhoudingen
+C) Alleen vakantiedagen
+D) Niets wat met belasting te maken heeft
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Een standaardloonstrook loopt van het brutoloon via de inhoudingen naar het uiteindelijke nettoloon.
+
+**2.** Cumulatieve totalen vanaf het begin van het jaar geven een doorlopend beeld over het hele jaar, niet alleen over één periode.
+
+**3.** Een fout in de salarisadministratie vroeg ontdekken – voordat die zich maandenlang herhaalt – is een van de meest praktische redenen om je loonstrook te controleren.
+
+**4.** De inhoudingen combineren meestal de verplichte inhoudingen met de vrijwillige bijdragen die de werknemer heeft ingesteld.
+
+## Belangrijkste punten
+
+- Loonstroken lopen meestal van brutoloon, via inhoudingen, naar nettoloon.
+- Cumulatieve cijfers volgen de totalen over het hele jaar, niet alleen over één betalingsperiode.
+- Wie loonstroken regelmatig controleert, ontdekt fouten in de salarisadministratie vroeg.
+- Je loonstrook begrijpen sluit direct aan op de begrippen bruto/netto en inhouding uit eerdere lessen.
+
+===== GREEN-L1-013
+TITLE: Wat is belastinginhouding?
+SUMMARY: Legt belastinginhouding uit: waarom werkgevers de geschatte belasting al inhouden voordat je wordt betaald, in plaats van later op één grote betaling te wachten.
+# Wat is belastinginhouding?
+
+## Leerdoelen
+
+- Belastinginhouding in eenvoudige woorden definiëren.
+- Uitleggen waarom inhouding bestaat als systeem van "betalen naarmate je verdient".
+- Inhouding herkennen als een schatting, niet als de definitieve belastingaanslag.
+
+## Kerninhoud
+
+Belastinginhouding is geld dat je werkgever vooraf van je loon inhoudt en namens jou rechtstreeks aan de overheid afdraagt, als geschatte vooruitbetaling op je uiteindelijke belasting. In plaats van tot het einde van het jaar op één grote belastingbetaling te wachten, innen de meeste systemen de belasting geleidelijk, met elke loonbetaling, het hele jaar door. (In Nederland is dat de loonheffing, die de werkgever inhoudt en afdraagt; de details veranderen.)
+
+Het is belangrijk om te begrijpen dat inhouding een schatting is, niet het laatste woord. Aan het einde van het belastingjaar wordt je werkelijke belasting berekend op basis van je totale inkomen, aftrekposten en heffingskortingen – en dat bedrag wordt vergeleken met wat er is ingehouden. Is er te veel ingehouden, dan krijg je meestal geld terug. Is er te weinig ingehouden, dan moet je meestal bijbetalen. De hoogte van de inhouding is vaak gebaseerd op informatie die de werknemer zelf geeft – zoals het verwachte inkomen en de gezinssituatie –, en daarom zijn veranderingen in je leven (een nieuwe baan, een huwelijk, een kind erbij) een goede reden om je inhoudingsinstellingen te controleren.
+
+## Praktijkvoorbeeld
+
+**Vraag:** De werkgever van een werknemer houdt het hele jaar van elk salaris belasting in. Moet de werknemer aan het einde van het jaar toch nog iets indienen?
+
+**Cursist:** Ik zou denken van niet, omdat de belasting al is ingehouden.
+
+**Begeleider:** Maar is de inhouding hetzelfde als je precieze definitieve belasting?
+
+**Cursist:** Nee – je zei dat het een schatting is. Dus de werknemer moet waarschijnlijk toch aangifte doen, om het ingehouden bedrag te vergelijken met wat hij werkelijk verschuldigd is.
+
+**Begeleider:** Precies – de aangifte vergelijkt de schatting met het echte bedrag, en daarom bestaan er zowel teruggaven als bij te betalen bedragen.
+
+## Oefenquiz
+
+**Vraag 1.** Belastinginhouding kun je het best omschrijven als:
+
+A) Je definitieve belastingaanslag
+B) Een geschatte vooruitbetaling op je uiteindelijke belasting
+C) Een vrijwillige gift
+D) Geld dat je nooit terugkrijgt
+
+**Vraag 2.** Als er in de loop van het jaar te veel belasting is ingehouden, is het gebruikelijke gevolg:
+
+A) Een boete
+B) Een teruggave
+C) Er gebeurt niets
+D) Je moet het dubbele betalen
+
+**Vraag 3.** Als er te weinig belasting is ingehouden, is het gebruikelijke gevolg:
+
+A) Een teruggave
+B) Je moet bij de aangifte mogelijk bijbetalen
+C) Er gebeurt niets
+D) Je wordt ontslagen
+
+**Vraag 4.** Een goede reden om je inhoudingsinstellingen te controleren is:
+
+A) Een grote verandering in je leven, zoals een huwelijk of een nieuwe baan
+B) Nooit – de instellingen kunnen niet worden gewijzigd
+C) Alleen als je zelfstandige bent
+D) Maar één keer, bij je eerste baan
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. A
+
+## Antwoorden en uitleg
+
+**1.** Inhouding is een schatting die geleidelijk over het jaar wordt geïnd, niet de definitieve berekening.
+
+**2.** Wat je via inhouding te veel hebt betaald, krijg je terug als teruggave nadat de aangifte de cijfers heeft vergeleken.
+
+**3.** Bij te weinig betaling is het tekort meestal verschuldigd wanneer de werkelijke belasting wordt berekend.
+
+**4.** Omdat inhouding gebaseerd is op informatie die je zelf geeft, zijn grote veranderingen in je leven een natuurlijk moment om die te herzien.
+
+## Belangrijkste punten
+
+- Inhouding is een geschatte, doorlopende belastingbetaling die het hele jaar van je loon wordt ingehouden.
+- Het is niet hetzelfde als je definitieve belasting – de aangifte vergelijkt de twee.
+- Te veel inhouding leidt tot een teruggave; te weinig inhouding tot een bij te betalen bedrag.
+- Veranderingen in je leven zijn een goede aanleiding om je inhouding te controleren en aan te passen.
+
+===== GREEN-L1-014
+TITLE: Formulier W-2 of 1099: werknemer of opdrachtnemer?
+SUMMARY: Introduceert de twee meest voorkomende inkomensdocumenten in systemen die ze gebruiken, en koppelt ze direct aan het onderscheid tussen werknemer en zelfstandige uit eerdere leerlijnen.
+# Formulier W-2 of 1099: werknemer of opdrachtnemer?
+
+## Leerdoelen
+
+- Het algemene verschil uitleggen tussen een inkomensdocument voor werknemers en een voor opdrachtnemers.
+- Dit onderscheid koppelen aan het begrip zelfstandig ondernemerschap en bedrijfseigendom uit eerdere leerlijnen.
+- Herkennen waarom deze indeling bepaalt wie de inhouding regelt.
+
+## Kerninhoud
+
+In sommige belastingstelsels, vooral in de Verenigde Staten, worden verschillende formulieren gebruikt voor verschillende soorten inkomen: één voor werknemers (meestal de W-2), bij wie de werkgever het hele jaar belasting inhoudt, en één voor zelfstandige opdrachtnemers (meestal de 1099), bij wie geen belasting wordt ingehouden en die zelf verantwoordelijk zijn voor hun voorlopige betalingen. Andere landen gebruiken andere namen, maar het onderliggende onderscheid – werknemer of zelfstandige opdrachtnemer – komt bijna overal voor. (In Nederland krijgt een werknemer bijvoorbeeld een jaaropgaaf van de werkgever, terwijl een zzp'er zelf aangifte doet en vaak een voorlopige aanslag krijgt; de grens tussen beide wordt streng getoetst en de regels veranderen.)
+
+Dit sluit direct aan op het begrip zelfstandig ondernemerschap uit je eerdere lesprogramma: bij een werknemer wordt de belasting automatisch door iemand anders ingehouden, terwijl een zelfstandige opdrachtnemer meer als zelfstandige functioneert en zelf actief geld voor belastingen moet opzijzetten en betalen. Verkeerd inschatten in welke categorie je valt, is een van de meest voorkomende en duurste belastingfouten – een opdrachtnemer die zijn volledige betaling uitgeeft zonder iets opzij te zetten voor belasting, kan bij de aangifte een vervelende verrassing krijgen.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een jonge webdesigner werkt voor verschillende klanten, bepaalt haar eigen werktijden en gebruikt haar eigen apparatuur. Is ze eerder werknemer of zelfstandige opdrachtnemer?
+
+**Cursist:** Omdat ze haar eigen tijden bepaalt en voor meerdere klanten werkt, klinkt ze eerder als een zelfstandige opdrachtnemer.
+
+**Begeleider:** Als dat zo is, wie is er dan verantwoordelijk voor het opzijzetten van geld voor haar belastingen in de loop van het jaar?
+
+**Cursist:** Zijzelf – omdat geen werkgever belasting voor haar inhoudt, moet ze dat zelf doen.
+
+**Begeleider:** Precies, en daarom moeten opdrachtnemers hun belastingen actief plannen in plaats van aan te nemen dat het automatisch geregeld is.
+
+## Oefenquiz
+
+**Vraag 1.** Een inkomensdocument voor werknemers laat meestal zien:
+
+A) Dat er geen belasting is ingehouden
+B) Dat de werkgever het hele jaar belasting heeft ingehouden
+C) Alleen bedrijfswinst
+D) Alleen inkomen uit beleggingen
+
+**Vraag 2.** Een zelfstandige opdrachtnemer is meestal verantwoordelijk voor:
+
+A) Niets – belastingen gaan automatisch
+B) Zelf geschatte belastingen opzijzetten en betalen
+C) Alleen omzetbelasting
+D) Nooit enige papieren indienen
+
+**Vraag 3.** Met welk eerder begrip hangt dit onderscheid tussen werknemer en opdrachtnemer het nauwst samen?
+
+A) Collectieve goederen
+B) Zelfstandig ondernemerschap en bedrijfseigendom
+C) Marginale belastingschijven
+D) Onroerendgoedbelasting
+
+**Vraag 4.** Een veelvoorkomende en dure fout van nieuwe opdrachtnemers is:
+
+A) Te vroeg aangifte doen
+B) Al het inkomen uitgeven zonder geld opzij te zetten voor belastingen
+C) Te veel belasting inhouden
+D) Te veel onroerend goed bezitten
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Inkomen als werknemer gaat meestal samen met automatische inhouding door de werkgever.
+
+**2.** Zonder werkgever die voor hen inhoudt, moeten opdrachtnemers hun belastingbetalingen actief zelf regelen.
+
+**3.** Dit is de fiscale kant van het begrip zelfstandig ondernemerschap dat eerder in het lesprogramma aan bod kwam.
+
+**4.** 100% van het inkomen uitgeven zonder een deel opzij te zetten voor belastingen is een van de meest voorkomende beginnersfouten.
+
+## Belangrijkste punten
+
+- Bij inkomen als werknemer wordt de belasting meestal automatisch ingehouden; bij inkomen als opdrachtnemer meestal niet.
+- Dit onderscheid weerspiegelt het begrip zelfstandig ondernemerschap tegenover loondienst uit eerdere lessen.
+- Opdrachtnemers moeten in de loop van het jaar actief geld opzijzetten voor belastingen.
+- Jezelf verkeerd indelen, of het verschil niet inplannen, is een veelvoorkomende en dure fout.
+
+===== GREEN-L1-015
+TITLE: Het verschil tussen een belastingaftrek en een heffingskorting
+SUMMARY: Verduidelijkt een van de meest verwarde begrippenparen bij belastingkennis: aftrekposten verlagen het belastbaar inkomen, heffingskortingen verlagen direct de verschuldigde belasting.
+# Het verschil tussen een belastingaftrek en een heffingskorting
+
+## Leerdoelen
+
+- Een belastingaftrek definiëren.
+- Een heffingskorting (belastingkrediet) definiëren.
+- Uitleggen waarom een korting dollar voor dollar meestal meer waard is dan een aftrek.
+
+## Kerninhoud
+
+Een belastingaftrek verlaagt het deel van je inkomen waarover belasting wordt geheven. Een heffingskorting (in het Engels "tax credit") verlaagt de belasting zelf direct, dollar voor dollar. Dat klinkt vergelijkbaar, maar het effect verschilt aanzienlijk. (Ook in Nederland bestaan beide: aftrekposten verlagen het belastbaar inkomen, heffingskortingen verlagen de te betalen belasting.)
+
+Stel dat iemand in een marginale schijf van 20% zit. Een aftrek van $ 1.000 verlaagt het belastbaar inkomen met $ 1.000, wat ongeveer $ 200 aan belasting scheelt (20% van $ 1.000). Een korting van $ 1.000 verlaagt de belasting daarentegen met de volle $ 1.000, ongeacht de schijf. Daarom is een korting dollar voor dollar meestal meer waard dan een aftrek – de waarde van een korting hangt niet zo van je tarief af als de waarde van een aftrek.
+
+Beide instrumenten verlagen wat je verschuldigd bent, alleen via een ander mechanisme: aftrekposten verkleinen de grondslag waarover belasting wordt berekend, kortingen verkleinen de eindrekening zelf.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een vriend zegt: "Een aftrek van $ 1.000 en een korting van $ 1.000 zijn eigenlijk hetzelfde." Heeft hij gelijk?
+
+**Cursist:** Ik denk het niet – het ene verlaagt het belastbaar inkomen, het andere verlaagt de belasting direct.
+
+**Begeleider:** Welke bespaart meestal meer geld, en waarom?
+
+**Cursist:** De korting, omdat die de volle $ 1.000 van het verschuldigde bedrag afhaalt, terwijl de aftrek maar een percentage van $ 1.000 bespaart, afhankelijk van je tarief.
+
+**Begeleider:** Precies – hetzelfde bedrag, een ander mechanisme, een ander effect.
+
+## Oefenquiz
+
+**Vraag 1.** Een belastingaftrek verlaagt:
+
+A) Het belastbaar inkomen
+B) De belasting direct, dollar voor dollar
+C) Niets
+D) Alleen de omzetbelasting
+
+**Vraag 2.** Een heffingskorting verlaagt:
+
+A) Het belastbaar inkomen
+B) De belasting direct, dollar voor dollar
+C) Niets
+D) Alleen de onroerendgoedbelasting
+
+**Vraag 3.** Wat is dollar voor dollar meestal meer waard?
+
+A) Een aftrek
+B) Een korting
+C) Ze zijn altijd gelijk
+D) Geen van beide heeft waarde
+
+**Vraag 4.** Een aftrek van $ 1.000 bespaart iemand in een schijf van 20% ongeveer:
+
+A) $ 1.000
+B) $ 200
+C) $ 0
+D) $ 2.000
+
+## Antwoordsleutel
+
+1. A, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Aftrekposten werken door het deel van het inkomen te verkleinen waarover belasting wordt geheven.
+
+**2.** Kortingen werken door de uiteindelijke belasting direct te verlagen, ongeacht het tarief.
+
+**3.** Omdat de waarde van een korting niet van je schijf afhangt, is die per dollar meestal meer waard dan een aftrek.
+
+**4.** 20% van een aftrek van $ 1.000 is ongeveer $ 200 werkelijke belastingbesparing, tegenover de volle $ 1.000 bij een korting.
+
+## Belangrijkste punten
+
+- Aftrekposten verlagen het belastbaar inkomen; kortingen verlagen de belasting direct.
+- De waarde van een korting hangt niet af van je schijf; de waarde van een aftrek wel.
+- Dollar voor dollar zijn kortingen meestal meer waard dan aftrekposten.
+- Beide instrumenten verlagen wat je verschuldigd bent, maar via een ander mechanisme.

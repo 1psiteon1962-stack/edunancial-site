@@ -1,0 +1,403 @@
+===== GREEN-L1-011
+TITLE: Renda bruta e renda líquida
+SUMMARY: Esclarece a diferença entre renda bruta e renda líquida, uma distinção básica para ler o contracheque, montar um orçamento e entender as finanças de uma empresa.
+# Renda bruta e renda líquida
+
+## Objetivos de aprendizagem
+
+- Definir renda bruta e renda líquida.
+- Explicar o que normalmente causa a diferença entre as duas.
+- Aplicar a distinção a um exemplo de salário.
+
+## Conteúdo principal
+
+A renda bruta é o valor total ganho antes de qualquer desconto. A renda líquida é o que sobra depois dos descontos: impostos e, muitas vezes, outros descontos, como contribuições para a aposentadoria ou o plano de saúde. A diferença entre bruto e líquido é onde a maioria das pessoas se surpreende na primeira vez que vê um contracheque de verdade. (No Brasil, entre o bruto e o líquido costumam estar o INSS e o IRRF, além de descontos como vale-transporte ou plano de saúde; as regras mudam.)
+
+Essa distinção importa muito além do contracheque. As empresas falam de receita bruta e lucro líquido com a mesma lógica: o bruto é o total do topo, e o líquido é o que sobra depois dos custos e obrigações. Sempre que um número for chamado de "bruto", a primeira pergunta que vale a pena fazer é: bruto de quê, exatamente, e quanto menor será o líquido?
+
+## Exemplo prático
+
+**Pergunta:** Uma oferta de emprego diz que o salário é de US$ 60.000 por ano. Esse é o valor que vai realmente cair na conta todo ano?
+
+**Aluno:** Eu diria que não, porque antes saem os impostos e outros descontos.
+
+**Guia:** Isso. Como você chamaria os US$ 60.000, e como chamaria o valor que realmente cai na conta?
+
+**Aluno:** Os US$ 60.000 são a renda bruta, e o valor que sobra depois dos impostos e descontos é a renda líquida.
+
+**Guia:** Exatamente: faça sempre o orçamento com base no líquido, e não no bruto.
+
+## Teste de prática
+
+**Pergunta 1.** A renda bruta é:
+
+A) O valor depois de todos os descontos
+B) O valor total ganho antes de qualquer desconto
+C) Só a renda de investimentos
+D) Sempre igual à renda líquida
+
+**Pergunta 2.** A renda líquida é:
+
+A) O valor antes dos descontos
+B) O que sobra depois de subtrair impostos e outros descontos
+C) Sem relação com a renda bruta
+D) Sempre maior que a renda bruta
+
+**Pergunta 3.** Por que a diferença entre bruto e líquido importa para o orçamento?
+
+A) Não importa
+B) Fazer o orçamento com o bruto em vez do líquido pode levar a superestimar o dinheiro disponível
+C) O líquido é sempre maior que o bruto
+D) O bruto não importa para as empresas
+
+**Pergunta 4.** As empresas usam uma distinção parecida entre bruto e líquido para:
+
+A) Receita e lucro
+B) Nada: isso só existe nas finanças pessoais
+C) Só o número de funcionários
+D) Só os gastos com marketing
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. A
+
+## Respostas e explicações
+
+**1.** O bruto é o total antes dos descontos: o número principal, que aparece primeiro.
+
+**2.** O líquido é o valor que realmente sobra depois dos impostos e de outros descontos, e é ele que chega à sua conta.
+
+**3.** Planejar com base no valor bruto pode fazer você achar que tem mais dinheiro para gastar do que realmente terá.
+
+**4.** As empresas aplicam exatamente a mesma lógica à receita (bruto) e ao lucro (líquido).
+
+## Pontos-chave
+
+- A renda bruta é o total antes dos descontos; a renda líquida é o que sobra depois deles.
+- A diferença normalmente são os impostos mais outros descontos, como aposentadoria ou seguro.
+- Faça sempre o orçamento com base na renda líquida, e não na bruta.
+- A mesma lógica de bruto e líquido vale para a receita e o lucro de uma empresa.
+
+===== GREEN-L1-012
+TITLE: Como ler o seu contracheque
+SUMMARY: Um passo a passo prático de como ler um contracheque típico, ligando conceitos anteriores (bruto/líquido, retenção, tributos sobre a folha) a um documento real.
+# Como ler o seu contracheque
+
+## Objetivos de aprendizagem
+
+- Identificar as principais seções de um contracheque típico.
+- Localizar o salário bruto, os descontos e o salário líquido em um contracheque de exemplo.
+- Explicar por que conferir o contracheque com regularidade é um bom hábito.
+
+## Conteúdo principal
+
+O contracheque (ou holerite) é o documento, impresso ou digital, que detalha um pagamento de salário. Embora o formato varie conforme o empregador e o país, a maioria dos contracheques tem uma estrutura parecida: o salário bruto no topo, a lista de descontos no meio (impostos, contribuições para a aposentadoria, planos de saúde) e o salário líquido, o valor efetivamente depositado, no final.
+
+A seção de descontos costuma separar categorias diferentes: a retenção do imposto de renda, os tributos sobre a folha (muitas vezes listados separadamente para aposentadoria e saúde) e os descontos voluntários escolhidos pelo funcionário, como contribuições para um plano de previdência. O contracheque também costuma mostrar totais acumulados no ano, que permitem acompanhar seus ganhos e descontos ao longo do ano, e não só em um único período de pagamento.
+
+Conferir o contracheque com regularidade é um hábito prático, e não só uma formalidade burocrática. É assim que você encontra erros (horas erradas, retenção errada, um aumento esquecido) antes que eles se acumulem por meses. E é assim que você constrói uma noção real e contínua da diferença entre o que ganha e o que leva para casa, o que alimenta diretamente o seu orçamento.
+
+## Exemplo prático
+
+**Pergunta:** Um trabalhador olha o contracheque e vê uma coluna "YTD" ou "acumulado no ano". O que isso provavelmente significa, e por que importa?
+
+**Aluno:** Eu acho que YTD significa "year to date", ou seja, o total acumulado desde o início do ano.
+
+**Guia:** Isso. Por que esse total acumulado é útil, além dos números deste contracheque?
+
+**Aluno:** Ele permite acompanhar o total de ganhos e de descontos ao longo do tempo, o que ajuda a encontrar erros ou a se preparar para a declaração do imposto de renda, em vez de ver só um período de cada vez.
+
+**Guia:** Exatamente: um contracheque é uma foto do momento; o acumulado mostra a tendência.
+
+## Teste de prática
+
+**Pergunta 1.** Um contracheque normalmente mostra:
+
+A) Só o salário líquido
+B) Salário bruto, descontos e salário líquido
+C) Só o imposto devido no ano
+D) Nada relacionado a impostos
+
+**Pergunta 2.** "YTD" em um contracheque provavelmente significa:
+
+A) Desconto anual de imposto
+B) Acumulado no ano (year to date)
+C) Sua dívida total
+D) Rendimento até hoje
+
+**Pergunta 3.** Conferir o contracheque com regularidade ajuda você a:
+
+A) Nada de útil
+B) Encontrar erros, como horas erradas ou retenção incorreta
+C) Não pagar nenhum imposto
+D) Aumentar automaticamente o salário bruto
+
+**Pergunta 4.** A seção de descontos de um contracheque costuma incluir:
+
+A) Só compras voluntárias
+B) Retenção do imposto de renda, tributos sobre a folha e descontos voluntários
+C) Só os dias de férias
+D) Nada relacionado a impostos
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Um contracheque padrão vai do salário bruto, passando pelos descontos, até o valor líquido final.
+
+**2.** Os totais acumulados no ano dão uma visão contínua do ano inteiro, e não só de um período de pagamento.
+
+**3.** Encontrar cedo um erro na folha, antes que ele se repita por meses, é um dos motivos mais práticos para conferir o contracheque.
+
+**4.** Os descontos costumam juntar as retenções obrigatórias e as contribuições voluntárias que o funcionário escolheu.
+
+## Pontos-chave
+
+- Os contracheques geralmente vão do salário bruto, passando pelos descontos, até o salário líquido.
+- Os valores acumulados no ano acompanham os totais do ano inteiro, e não só de um período de pagamento.
+- Conferir os contracheques com regularidade ajuda a encontrar erros na folha cedo.
+- Entender o seu contracheque se liga diretamente aos conceitos de bruto/líquido e de retenção das lições anteriores.
+
+===== GREEN-L1-013
+TITLE: O que é a retenção na fonte?
+SUMMARY: Explica a retenção na fonte: por que os empregadores descontam o imposto estimado antes de você receber, em vez de esperar um único pagamento grande mais tarde.
+# O que é a retenção na fonte?
+
+## Objetivos de aprendizagem
+
+- Definir a retenção na fonte em termos simples.
+- Explicar por que a retenção existe como um sistema de "pagar aos poucos".
+- Reconhecer a retenção como uma estimativa, e não como a conta final do imposto.
+
+## Conteúdo principal
+
+A retenção na fonte é o dinheiro que o empregador desconta antecipadamente do seu salário e envia diretamente ao governo em seu nome, como pagamento estimado do imposto que você vai dever. Em vez de esperar o fim do ano para um único pagamento grande, a maioria dos sistemas cobra o imposto aos poucos, a cada pagamento, ao longo do ano. (No Brasil, é o IRRF, o imposto de renda retido na fonte; as faixas e regras mudam.)
+
+É importante entender que a retenção é uma estimativa, e não a palavra final. No fim do ano, o imposto realmente devido é calculado com base na renda total, nas deduções e nos créditos, e esse número é comparado com o que foi retido. Se foi retido demais, normalmente você recebe dinheiro de volta (uma restituição). Se foi retido de menos, normalmente você deve a diferença. O valor da retenção costuma se basear em informações do próprio trabalhador, como a renda esperada e a situação familiar (por exemplo, dependentes), e por isso mudanças de vida (um emprego novo, um casamento, um novo dependente) são um bom motivo para revisar essas informações.
+
+## Exemplo prático
+
+**Pergunta:** O empregador de um trabalhador retém imposto de todos os pagamentos durante o ano inteiro. No fim do ano, o trabalhador ainda precisa declarar alguma coisa?
+
+**Aluno:** Eu diria que não, já que o imposto já foi descontado.
+
+**Guia:** Mas a retenção é igual ao seu imposto final exato?
+
+**Aluno:** Não: você disse que é uma estimativa. Então o trabalhador provavelmente ainda precisa declarar, para comparar o que foi retido com o que ele realmente deve.
+
+**Guia:** Exatamente: a declaração confronta a estimativa com o número real, e é por isso que existem tanto restituições quanto imposto a pagar.
+
+## Teste de prática
+
+**Pergunta 1.** A retenção na fonte é mais bem descrita como:
+
+A) A sua conta final de imposto
+B) Um pagamento antecipado e estimado do imposto que você vai dever
+C) Uma doação voluntária
+D) Dinheiro que você nunca recebe de volta
+
+**Pergunta 2.** Se for retido imposto demais durante o ano, o resultado típico é:
+
+A) Uma multa
+B) Uma restituição
+C) Nada acontece
+D) Você deve o dobro
+
+**Pergunta 3.** Se for retido imposto de menos, o resultado típico é:
+
+A) Uma restituição
+B) Você pode ter imposto adicional a pagar ao declarar
+C) Nada acontece
+D) Você é demitido
+
+**Pergunta 4.** Um bom motivo para revisar as informações da sua retenção é:
+
+A) Uma grande mudança de vida, como casamento ou emprego novo
+B) Nunca: elas não podem ser alteradas
+C) Só se você for autônomo
+D) Só uma vez, no primeiro emprego
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. A
+
+## Respostas e explicações
+
+**1.** A retenção é uma estimativa cobrada aos poucos ao longo do ano, e não o cálculo final.
+
+**2.** O que foi pago a mais por meio da retenção volta para você como restituição depois que a declaração confronta os números.
+
+**3.** Quando foi pago de menos, a diferença normalmente é devida quando o imposto real é calculado.
+
+**4.** Como a retenção se baseia nas informações que você fornece, grandes mudanças de vida são um momento natural para revisá-la.
+
+## Pontos-chave
+
+- A retenção é um pagamento de imposto estimado e contínuo, descontado dos salários ao longo do ano.
+- Ela não é igual ao seu imposto final: a declaração confronta os dois.
+- Retenção a mais gera restituição; retenção a menos gera imposto a pagar.
+- Mudanças de vida são um bom motivo para revisar e ajustar a sua retenção.
+
+===== GREEN-L1-014
+TITLE: Formulário W-2 ou 1099: empregado ou prestador de serviços?
+SUMMARY: Apresenta os dois documentos de informe de rendimentos mais comuns nos sistemas que os usam, ligando-os diretamente à distinção entre empregado e autônomo vista nas trilhas anteriores.
+# Formulário W-2 ou 1099: empregado ou prestador de serviços?
+
+## Objetivos de aprendizagem
+
+- Explicar a diferença geral entre um documento de renda de empregado e um de prestador de serviços.
+- Ligar essa distinção ao conceito de trabalho autônomo e de ser dono de um negócio das trilhas anteriores.
+- Reconhecer por que essa classificação define quem cuida da retenção.
+
+## Conteúdo principal
+
+Em alguns sistemas tributários, especialmente nos EUA, existem formulários diferentes para informar tipos diferentes de renda: um para empregados (normalmente o W-2), em que o empregador retém imposto durante o ano todo, e outro para prestadores de serviços independentes (normalmente o 1099), em que nenhum imposto é retido e o próprio trabalhador é responsável pelos seus pagamentos estimados. Outros países usam nomes diferentes, mas a distinção de fundo, empregado ou prestador de serviços independente, aparece em quase todo lugar. (No Brasil, por exemplo, o empregado CLT recebe o informe de rendimentos do empregador, enquanto o autônomo pode ter de recolher o carnê-leão e o INSS por conta própria, e quem atua como PJ ou MEI segue outras regras; tudo isso muda com o tempo.)
+
+Isso se liga diretamente ao conceito de trabalho autônomo visto antes no seu currículo: o empregado tem o imposto retido automaticamente por outra pessoa, enquanto o prestador de serviços independente funciona mais como um autônomo e precisa separar e pagar os próprios impostos por iniciativa própria. Entender errado em qual categoria você está é um dos erros tributários mais comuns e caros: um prestador que gasta o pagamento inteiro sem reservar nada para os impostos pode ter uma surpresa desagradável na hora de declarar.
+
+## Exemplo prático
+
+**Pergunta:** Uma jovem web designer trabalha para vários clientes, define o próprio horário e usa o próprio equipamento. Ela é mais provavelmente empregada ou prestadora de serviços independente?
+
+**Aluno:** Como ela define o próprio horário e trabalha para vários clientes, parece mais uma prestadora de serviços independente.
+
+**Guia:** Se for isso, quem é responsável por separar o dinheiro dos impostos dela durante o ano?
+
+**Aluno:** Ela mesma: como nenhum empregador retém imposto para ela, ela precisa fazer isso por conta própria.
+
+**Guia:** Exatamente, e é por isso que prestadores de serviços precisam planejar os impostos ativamente, em vez de supor que isso acontece automaticamente.
+
+## Teste de prática
+
+**Pergunta 1.** Um documento de renda de empregado normalmente mostra:
+
+A) Nenhum imposto retido
+B) Imposto retido pelo empregador ao longo do ano
+C) Só o lucro do negócio
+D) Só a renda de investimentos
+
+**Pergunta 2.** Um prestador de serviços independente geralmente é responsável por:
+
+A) Nada: os impostos são automáticos
+B) Separar e pagar os próprios impostos estimados
+C) Só o imposto sobre vendas
+D) Nunca entregar nenhum documento
+
+**Pergunta 3.** Essa distinção entre empregado e prestador de serviços se liga mais diretamente a qual conceito anterior?
+
+A) Bens públicos
+B) Trabalho autônomo e ser dono de um negócio
+C) Faixas de alíquota marginal
+D) Imposto sobre a propriedade
+
+**Pergunta 4.** Um erro comum e caro de novos prestadores de serviços é:
+
+A) Declarar cedo demais
+B) Gastar toda a renda sem separar dinheiro para os impostos
+C) Reter imposto demais
+D) Ter imóveis demais
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A renda de empregado geralmente vem com retenção automática feita pelo empregador.
+
+**2.** Sem um empregador que retenha por eles, os prestadores de serviços precisam administrar ativamente os próprios pagamentos de imposto.
+
+**3.** Essa é a versão tributária do conceito de trabalho autônomo visto antes no currículo.
+
+**4.** Gastar 100% da renda como prestador sem reservar uma parte para os impostos é um dos erros iniciais mais comuns.
+
+## Pontos-chave
+
+- A renda de empregado geralmente tem imposto retido automaticamente; a renda de prestador de serviços geralmente não.
+- Essa distinção reflete o conceito de trabalho autônomo versus emprego das lições anteriores.
+- Prestadores de serviços precisam separar ativamente dinheiro para os impostos ao longo do ano.
+- Classificar-se de forma errada, ou não planejar a diferença, é um erro comum e caro.
+
+===== GREEN-L1-015
+TITLE: A diferença entre uma dedução e um crédito tributário
+SUMMARY: Esclarece um dos pares de termos mais confundidos na educação tributária: deduções reduzem a renda tributável, créditos reduzem diretamente o imposto devido.
+# A diferença entre uma dedução e um crédito tributário
+
+## Objetivos de aprendizagem
+
+- Definir uma dedução tributária.
+- Definir um crédito tributário.
+- Explicar por que um crédito costuma valer mais, dólar por dólar, do que uma dedução.
+
+## Conteúdo principal
+
+Uma dedução tributária reduz o valor da renda que é tributada. Um crédito tributário reduz diretamente a conta do imposto, dólar por dólar. Os dois parecem parecidos, mas têm impactos bem diferentes. (No Brasil, por exemplo, despesas médicas e com educação podem ser deduções na declaração do IRPF, dentro de regras e limites que mudam.)
+
+Imagine que alguém esteja em uma faixa marginal de 20%. Uma dedução de US$ 1.000 reduz a renda tributável em US$ 1.000, o que economiza cerca de US$ 200 de imposto (20% de US$ 1.000). Já um crédito de US$ 1.000 reduz a conta do imposto nos US$ 1.000 inteiros, independentemente da faixa. É por isso que, dólar por dólar, os créditos costumam valer mais do que as deduções: o valor de um crédito não depende da sua alíquota como o valor de uma dedução.
+
+As duas ferramentas reduzem o que você deve, só que por mecanismos diferentes: as deduções diminuem a base que é tributada, e os créditos diminuem a própria conta final.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo diz: "Uma dedução de US$ 1.000 e um crédito de US$ 1.000 são basicamente a mesma coisa." Ele está certo?
+
+**Aluno:** Acho que não: um reduz a renda tributável, e o outro reduz diretamente a conta do imposto.
+
+**Guia:** Qual dos dois costuma economizar mais dinheiro, e por quê?
+
+**Aluno:** O crédito, porque ele tira os US$ 1.000 inteiros do que é devido, enquanto a dedução só tira uma porcentagem de US$ 1.000, conforme a sua alíquota.
+
+**Guia:** Exatamente: mesmo valor, mecanismo diferente, impacto diferente.
+
+## Teste de prática
+
+**Pergunta 1.** Uma dedução tributária reduz:
+
+A) A renda tributável
+B) A conta do imposto diretamente, dólar por dólar
+C) Nada
+D) Só o imposto sobre vendas
+
+**Pergunta 2.** Um crédito tributário reduz:
+
+A) A renda tributável
+B) A conta do imposto diretamente, dólar por dólar
+C) Nada
+D) Só o imposto sobre a propriedade
+
+**Pergunta 3.** Dólar por dólar, o que costuma valer mais?
+
+A) Uma dedução
+B) Um crédito
+C) São sempre idênticos
+D) Nenhum dos dois tem valor
+
+**Pergunta 4.** Uma dedução de US$ 1.000 para alguém na faixa de 20% economiza aproximadamente:
+
+A) US$ 1.000
+B) US$ 200
+C) US$ 0
+D) US$ 2.000
+
+## Gabarito
+
+1. A, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As deduções funcionam diminuindo a parte da renda sujeita ao imposto.
+
+**2.** Os créditos funcionam cortando diretamente a conta final do imposto, independentemente da alíquota.
+
+**3.** Como o valor de um crédito não depende da sua faixa, ele costuma valer mais por dólar do que uma dedução.
+
+**4.** 20% de uma dedução de US$ 1.000 equivalem a cerca de US$ 200 de economia real de imposto, contra os US$ 1.000 inteiros de um crédito.
+
+## Pontos-chave
+
+- As deduções reduzem a renda tributável; os créditos reduzem diretamente a conta do imposto.
+- O valor de um crédito não depende da sua faixa; o de uma dedução depende.
+- Dólar por dólar, os créditos costumam valer mais do que as deduções.
+- As duas ferramentas reduzem o que você deve, mas por mecanismos diferentes.

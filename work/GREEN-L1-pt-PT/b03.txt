@@ -1,0 +1,403 @@
+===== GREEN-L1-011
+TITLE: Rendimento bruto e rendimento líquido
+SUMMARY: Esclarece a diferença entre rendimento bruto e rendimento líquido, uma distinção fundamental para ler o recibo de vencimento, fazer um orçamento e compreender as finanças de uma empresa.
+# Rendimento bruto e rendimento líquido
+
+## Objetivos de aprendizagem
+
+- Definir rendimento bruto e rendimento líquido.
+- Explicar o que causa normalmente a diferença entre os dois.
+- Aplicar a distinção a um exemplo de salário.
+
+## Conteúdo principal
+
+O rendimento bruto é o montante total ganho antes de qualquer desconto. O rendimento líquido é o que resta depois dos descontos: impostos e, muitas vezes, outros descontos, como contribuições para a reforma ou prémios de seguros de saúde. A diferença entre bruto e líquido é o ponto em que a maioria das pessoas fica surpreendida da primeira vez que vê um recibo de vencimento real. (Em Portugal, entre o bruto e o líquido estão normalmente a retenção na fonte de IRS e as contribuições para a Segurança Social; as regras mudam.)
+
+Esta distinção importa muito para além do recibo de vencimento. As empresas falam de receitas e de lucro líquido com a mesma lógica: o bruto é o total no topo, o líquido é o que resta depois dos custos e das obrigações. Sempre que um número for descrito como "bruto", a primeira pergunta que vale a pena fazer é: bruto de quê, exatamente, e quanto mais pequeno será o líquido?
+
+## Exemplo prático
+
+**Pergunta:** Uma oferta de emprego indica um salário de 60 000 $ por ano. É esse o montante que vai realmente entrar na conta todos os anos?
+
+**Aluno:** Diria que não, porque primeiro saem os impostos e outros descontos.
+
+**Guia:** Certo. Como chamaria aos 60 000 $, e como chamaria ao montante que entra realmente na conta?
+
+**Aluno:** Os 60 000 $ são o rendimento bruto, e o montante que resta depois dos impostos e descontos é o rendimento líquido.
+
+**Guia:** Exatamente: faça sempre o orçamento com base no líquido, e não no bruto.
+
+## Teste de prática
+
+**Pergunta 1.** O rendimento bruto é:
+
+A) O montante depois de todos os descontos
+B) O montante total ganho antes de qualquer desconto
+C) Apenas o rendimento de investimentos
+D) Sempre igual ao rendimento líquido
+
+**Pergunta 2.** O rendimento líquido é:
+
+A) O montante antes dos descontos
+B) O que resta depois de subtrair impostos e outros descontos
+C) Sem relação com o rendimento bruto
+D) Sempre superior ao rendimento bruto
+
+**Pergunta 3.** Porque é que a diferença entre bruto e líquido importa para o orçamento?
+
+A) Não importa
+B) Fazer o orçamento com o bruto em vez do líquido pode levar a sobrestimar o dinheiro disponível
+C) O líquido é sempre superior ao bruto
+D) O bruto não importa para as empresas
+
+**Pergunta 4.** As empresas usam uma distinção semelhante entre bruto e líquido para:
+
+A) Receitas e lucro
+B) Nada: só existe nas finanças pessoais
+C) Apenas o número de trabalhadores
+D) Apenas os gastos de marketing
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respostas e explicações
+
+**1.** O bruto é o total antes dos descontos: o número principal, que aparece primeiro.
+
+**2.** O líquido é o montante que resta realmente depois dos impostos e de outros descontos, e é esse que chega à sua conta.
+
+**3.** Planear com base no valor bruto pode levá-lo a pensar que tem mais dinheiro para gastar do que realmente terá.
+
+**4.** As empresas aplicam exatamente a mesma lógica às receitas (bruto) e ao lucro (líquido).
+
+## Pontos-chave
+
+- O rendimento bruto é o total antes dos descontos; o rendimento líquido é o que resta depois deles.
+- A diferença corresponde normalmente a impostos e a outros descontos, como reforma ou seguros.
+- Faça sempre o orçamento com base no rendimento líquido, e não no bruto.
+- A mesma lógica de bruto e líquido aplica-se às receitas e ao lucro de uma empresa.
+
+===== GREEN-L1-012
+TITLE: Ler o seu recibo de vencimento
+SUMMARY: Uma explicação prática de como ler um recibo de vencimento típico, ligando conceitos anteriores (bruto/líquido, retenção, contribuições sobre os salários) a um documento real.
+# Ler o seu recibo de vencimento
+
+## Objetivos de aprendizagem
+
+- Identificar as principais secções de um recibo de vencimento típico.
+- Localizar o vencimento bruto, os descontos e o vencimento líquido num recibo de exemplo.
+- Explicar porque é que verificar regularmente o recibo de vencimento é um bom hábito.
+
+## Conteúdo principal
+
+O recibo de vencimento é o documento, em papel ou digital, que discrimina um pagamento de salário. Embora o formato varie consoante a entidade empregadora e o país, a maioria dos recibos tem uma estrutura semelhante: o vencimento bruto no topo, a lista de descontos ao meio (impostos, contribuições para a reforma, prémios de seguros) e o vencimento líquido, o montante efetivamente transferido, no fim.
+
+A secção dos descontos separa normalmente várias categorias: a retenção na fonte do imposto sobre o rendimento, as contribuições sobre os salários (muitas vezes indicadas em separado para reforma e saúde) e eventuais descontos voluntários escolhidos pelo trabalhador, como contribuições para um plano de poupança-reforma. Um recibo mostra também, muitas vezes, totais acumulados desde o início do ano, que lhe permitem acompanhar os seus ganhos e descontos ao longo do ano, e não apenas num único período de pagamento.
+
+Verificar regularmente o recibo de vencimento é um hábito prático, e não uma simples formalidade burocrática. É assim que deteta erros (horas erradas, retenção errada, um aumento esquecido) antes de se acumularem durante meses. E é assim que ganha uma noção real e contínua da diferença entre o que ganha e o que leva para casa, o que alimenta diretamente o seu orçamento.
+
+## Exemplo prático
+
+**Pergunta:** Um trabalhador olha para o recibo de vencimento e vê uma coluna "YTD" ou "acumulado no ano". O que significa isso, provavelmente, e porque é que importa?
+
+**Aluno:** Calculo que YTD signifique "year to date", ou seja, o total acumulado desde o início do ano.
+
+**Guia:** Certo. Porque é que esse total acumulado é útil, para além dos números deste recibo?
+
+**Aluno:** Permite acompanhar o total de ganhos e de descontos ao longo do tempo, o que ajuda a detetar erros ou a preparar a declaração de IRS, em vez de ver apenas um período de cada vez.
+
+**Guia:** Exatamente: um recibo é uma fotografia do momento; o acumulado mostra a tendência.
+
+## Teste de prática
+
+**Pergunta 1.** Um recibo de vencimento mostra normalmente:
+
+A) Apenas o vencimento líquido
+B) Vencimento bruto, descontos e vencimento líquido
+C) Apenas o imposto devido no ano
+D) Nada relacionado com impostos
+
+**Pergunta 2.** "YTD" num recibo de vencimento significa muito provavelmente:
+
+A) Desconto anual de imposto
+B) Acumulado no ano (year to date)
+C) A sua dívida total
+D) Rendimento até à data
+
+**Pergunta 3.** Verificar regularmente o recibo de vencimento ajuda-o a:
+
+A) Nada de útil
+B) Detetar erros, como horas erradas ou retenção incorreta
+C) Não pagar qualquer imposto
+D) Aumentar automaticamente o vencimento bruto
+
+**Pergunta 4.** A secção dos descontos de um recibo inclui normalmente:
+
+A) Apenas compras voluntárias
+B) Retenção na fonte do imposto sobre o rendimento, contribuições sobre os salários e descontos voluntários
+C) Apenas os dias de férias
+D) Nada relacionado com impostos
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Um recibo normal vai do vencimento bruto, passando pelos descontos, até ao vencimento líquido final.
+
+**2.** Os totais acumulados desde o início do ano dão uma visão contínua do ano inteiro, e não apenas de um período de pagamento.
+
+**3.** Detetar cedo um erro no processamento salarial, antes de se repetir durante meses, é um dos motivos mais práticos para verificar o recibo.
+
+**4.** Os descontos juntam normalmente as retenções obrigatórias e as contribuições voluntárias que o trabalhador definiu.
+
+## Pontos-chave
+
+- Os recibos de vencimento vão geralmente do vencimento bruto, passando pelos descontos, até ao vencimento líquido.
+- Os valores acumulados no ano acompanham os totais do ano inteiro, e não apenas de um período de pagamento.
+- Verificar regularmente os recibos ajuda a detetar cedo erros no processamento salarial.
+- Compreender o seu recibo liga-se diretamente aos conceitos de bruto/líquido e de retenção das lições anteriores.
+
+===== GREEN-L1-013
+TITLE: O que é a retenção na fonte?
+SUMMARY: Explica a retenção na fonte: porque é que as entidades empregadoras descontam o imposto estimado antes de lhe pagarem, em vez de esperarem por um único pagamento mais tarde.
+# O que é a retenção na fonte?
+
+## Objetivos de aprendizagem
+
+- Definir a retenção na fonte em termos simples.
+- Explicar porque é que a retenção existe como um sistema de "pagar à medida que se ganha".
+- Reconhecer a retenção como uma estimativa, e não como a conta final do imposto.
+
+## Conteúdo principal
+
+A retenção na fonte é o dinheiro que a entidade empregadora desconta antecipadamente do seu salário e entrega diretamente ao Estado em seu nome, como pagamento estimado por conta do imposto que vai dever. Em vez de esperar pelo fim do ano para um único pagamento grande, a maioria dos sistemas cobra o imposto gradualmente, em cada pagamento de salário, ao longo do ano. (Em Portugal, é a retenção na fonte de IRS, calculada com base em tabelas que mudam ao longo do tempo.)
+
+É importante perceber que a retenção é uma estimativa, e não a palavra final. No fim do ano fiscal, o imposto realmente devido é calculado com base no rendimento total, nas deduções e nos benefícios, e esse número é comparado com o que foi retido. Se tiver sido retido demais, normalmente recebe dinheiro de volta (um reembolso). Se tiver sido retido de menos, normalmente tem imposto a pagar. O valor da retenção baseia-se muitas vezes em informações dadas pelo próprio trabalhador, como a situação familiar e o número de dependentes, e por isso as mudanças de vida (um novo emprego, um casamento, um novo dependente) são um bom motivo para rever essas informações.
+
+## Exemplo prático
+
+**Pergunta:** A entidade empregadora de um trabalhador retém imposto em todos os salários durante o ano inteiro. No fim do ano, o trabalhador ainda tem de entregar alguma coisa?
+
+**Aluno:** Diria que não, uma vez que o imposto já foi descontado.
+
+**Guia:** Mas a retenção é igual ao seu imposto final exato?
+
+**Aluno:** Não: disse que é uma estimativa. Por isso, o trabalhador provavelmente ainda tem de entregar a declaração, para comparar o que foi retido com o que realmente deve.
+
+**Guia:** Exatamente: a declaração acerta a estimativa com o número real, e é por isso que existem tanto reembolsos como imposto a pagar.
+
+## Teste de prática
+
+**Pergunta 1.** A retenção na fonte descreve-se melhor como:
+
+A) A sua conta final de imposto
+B) Um pagamento antecipado e estimado por conta do imposto que vai dever
+C) Um donativo voluntário
+D) Dinheiro que nunca recupera
+
+**Pergunta 2.** Se for retido imposto a mais durante o ano, o resultado típico é:
+
+A) Uma coima
+B) Um reembolso
+C) Não acontece nada
+D) Fica a dever o dobro
+
+**Pergunta 3.** Se for retido imposto a menos, o resultado típico é:
+
+A) Um reembolso
+B) Pode ter imposto adicional a pagar quando entregar a declaração
+C) Não acontece nada
+D) É despedido
+
+**Pergunta 4.** Um bom motivo para rever as informações da sua retenção é:
+
+A) Uma grande mudança de vida, como um casamento ou um novo emprego
+B) Nunca: não podem ser alteradas
+C) Apenas se trabalhar por conta própria
+D) Apenas uma vez, no primeiro emprego
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respostas e explicações
+
+**1.** A retenção é uma estimativa cobrada gradualmente ao longo do ano, e não o cálculo final.
+
+**2.** O que foi pago a mais através da retenção é-lhe devolvido como reembolso depois de a declaração acertar os números.
+
+**3.** Quando foi pago a menos, a diferença é normalmente devida quando o imposto real é calculado.
+
+**4.** Como a retenção se baseia nas informações que fornece, as grandes mudanças de vida são um momento natural para a rever.
+
+## Pontos-chave
+
+- A retenção é um pagamento de imposto estimado e contínuo, descontado dos salários ao longo do ano.
+- Não é igual ao seu imposto final: a declaração acerta os dois.
+- Uma retenção a mais gera um reembolso; uma retenção a menos gera imposto a pagar.
+- As mudanças de vida são um bom motivo para rever e ajustar a sua retenção.
+
+===== GREEN-L1-014
+TITLE: Formulário W-2 ou 1099: trabalhador por conta de outrem ou independente?
+SUMMARY: Apresenta os dois documentos de declaração de rendimentos mais comuns nos sistemas que os usam, ligando-os diretamente à distinção entre trabalho por conta de outrem e por conta própria das trilhas anteriores.
+# Formulário W-2 ou 1099: trabalhador por conta de outrem ou independente?
+
+## Objetivos de aprendizagem
+
+- Explicar a diferença geral entre um documento de rendimentos de trabalhador por conta de outrem e um de prestador de serviços independente.
+- Ligar esta distinção ao conceito de trabalho por conta própria e de ser dono de um negócio das trilhas anteriores.
+- Reconhecer porque é que esta classificação determina quem trata da retenção.
+
+## Conteúdo principal
+
+Em alguns sistemas fiscais, sobretudo nos EUA, existem formulários diferentes para declarar tipos diferentes de rendimento: um para trabalhadores por conta de outrem (normalmente o W-2), em que a entidade empregadora retém imposto durante todo o ano, e outro para prestadores de serviços independentes (normalmente o 1099), em que não há retenção de imposto e o próprio trabalhador é responsável pelos seus pagamentos estimados. Outros países usam nomes diferentes, mas a distinção de fundo, trabalhador por conta de outrem ou prestador independente, existe em quase todo o lado. (Em Portugal, por exemplo, os rendimentos do trabalho dependente são da categoria A e os do trabalho independente, muitas vezes passados com recibos verdes, são da categoria B, com regras próprias de retenção e de Segurança Social que mudam ao longo do tempo.)
+
+Isto liga-se diretamente ao conceito de trabalho por conta própria visto antes no seu currículo: ao trabalhador por conta de outrem, o imposto é retido automaticamente por outra pessoa, enquanto o prestador independente funciona mais como um trabalhador por conta própria e tem de pôr de parte e pagar os seus impostos por iniciativa própria. Perceber mal em que categoria se encontra é um dos erros fiscais mais comuns e caros: um prestador que gasta o pagamento inteiro sem reservar nada para os impostos pode ter uma surpresa desagradável quando entregar a declaração.
+
+## Exemplo prático
+
+**Pergunta:** Uma jovem web designer trabalha para vários clientes, define o seu próprio horário e usa o seu próprio equipamento. É mais provavelmente trabalhadora por conta de outrem ou prestadora independente?
+
+**Aluno:** Como define o seu horário e trabalha para vários clientes, parece mais uma prestadora independente.
+
+**Guia:** Se for assim, quem é responsável por pôr de parte o dinheiro dos impostos dela ao longo do ano?
+
+**Aluno:** Ela própria: como nenhuma entidade empregadora retém imposto por ela, tem de ser ela a fazê-lo.
+
+**Guia:** Exatamente, e é por isso que os prestadores independentes têm de planear ativamente os impostos, em vez de partirem do princípio de que isso acontece automaticamente.
+
+## Teste de prática
+
+**Pergunta 1.** Um documento de rendimentos de trabalhador por conta de outrem reflete normalmente:
+
+A) Nenhum imposto retido
+B) Imposto retido pela entidade empregadora ao longo do ano
+C) Apenas o lucro do negócio
+D) Apenas o rendimento de investimentos
+
+**Pergunta 2.** Um prestador de serviços independente é geralmente responsável por:
+
+A) Nada: os impostos são automáticos
+B) Pôr de parte e pagar os seus próprios impostos estimados
+C) Apenas o imposto sobre as vendas
+D) Nunca entregar qualquer documento
+
+**Pergunta 3.** Esta distinção entre trabalhador por conta de outrem e prestador independente liga-se mais diretamente a que conceito anterior?
+
+A) Bens públicos
+B) Trabalho por conta própria e ser dono de um negócio
+C) Escalões de taxa marginal
+D) Imposto sobre o património
+
+**Pergunta 4.** Um erro comum e caro de novos prestadores independentes é:
+
+A) Entregar a declaração cedo demais
+B) Gastar todo o rendimento sem pôr de parte dinheiro para os impostos
+C) Reter imposto a mais
+D) Ter imóveis a mais
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os rendimentos de trabalho por conta de outrem vêm geralmente com retenção automática feita pela entidade empregadora.
+
+**2.** Sem uma entidade empregadora que retenha por eles, os prestadores independentes têm de gerir ativamente os seus pagamentos de imposto.
+
+**3.** Esta é a versão fiscal do conceito de trabalho por conta própria visto antes no currículo.
+
+**4.** Gastar 100% dos rendimentos como prestador sem reservar uma parte para os impostos é um dos erros iniciais mais comuns.
+
+## Pontos-chave
+
+- Os rendimentos de trabalho por conta de outrem têm geralmente imposto retido automaticamente; os de prestador independente geralmente não.
+- Esta distinção reflete o conceito de trabalho por conta própria versus emprego das lições anteriores.
+- Os prestadores independentes têm de pôr ativamente de parte dinheiro para os impostos ao longo do ano.
+- Classificar-se de forma errada, ou não planear a diferença, é um erro comum e caro.
+
+===== GREEN-L1-015
+TITLE: A diferença entre uma dedução e um crédito fiscal
+SUMMARY: Esclarece um dos pares de termos mais confundidos na literacia fiscal: as deduções ao rendimento reduzem o rendimento tributável, os créditos reduzem diretamente o imposto devido.
+# A diferença entre uma dedução e um crédito fiscal
+
+## Objetivos de aprendizagem
+
+- Definir uma dedução ao rendimento.
+- Definir um crédito fiscal.
+- Explicar porque é que um crédito vale normalmente mais, dólar a dólar, do que uma dedução ao rendimento.
+
+## Conteúdo principal
+
+Uma dedução ao rendimento reduz a parte do rendimento que é tributada. Um crédito fiscal reduz diretamente a conta do imposto, dólar a dólar. Parecem semelhantes, mas têm um impacto bem diferente. (Atenção à terminologia portuguesa: no IRS, as chamadas "deduções à coleta", como as de despesas de saúde ou educação, funcionam na prática como créditos, porque reduzem o imposto e não o rendimento; as regras e limites mudam.)
+
+Imagine que alguém está num escalão marginal de 20%. Uma dedução ao rendimento de 1000 $ reduz o rendimento tributável em 1000 $, o que poupa cerca de 200 $ de imposto (20% de 1000 $). Já um crédito de 1000 $ reduz a conta do imposto nos 1000 $ inteiros, independentemente do escalão. É por isso que, dólar a dólar, os créditos valem normalmente mais do que as deduções ao rendimento: o valor de um crédito não depende da sua taxa como o valor de uma dedução.
+
+As duas ferramentas reduzem o que deve, mas por mecanismos diferentes: as deduções encolhem a base que é tributada, os créditos encolhem a própria conta final.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo diz: "Uma dedução de 1000 $ e um crédito de 1000 $ são basicamente a mesma coisa." Tem razão?
+
+**Aluno:** Acho que não: uma reduz o rendimento tributável, o outro reduz diretamente a conta do imposto.
+
+**Guia:** Qual dos dois poupa normalmente mais dinheiro, e porquê?
+
+**Aluno:** O crédito, porque retira os 1000 $ inteiros ao que é devido, enquanto a dedução só retira uma percentagem de 1000 $, consoante a taxa.
+
+**Guia:** Exatamente: o mesmo montante, um mecanismo diferente, um impacto diferente.
+
+## Teste de prática
+
+**Pergunta 1.** Uma dedução ao rendimento reduz:
+
+A) O rendimento tributável
+B) A conta do imposto diretamente, dólar a dólar
+C) Nada
+D) Apenas o imposto sobre as vendas
+
+**Pergunta 2.** Um crédito fiscal reduz:
+
+A) O rendimento tributável
+B) A conta do imposto diretamente, dólar a dólar
+C) Nada
+D) Apenas o imposto sobre o património
+
+**Pergunta 3.** Dólar a dólar, o que vale normalmente mais?
+
+A) Uma dedução ao rendimento
+B) Um crédito
+C) São sempre idênticos
+D) Nenhum dos dois tem valor
+
+**Pergunta 4.** Uma dedução de 1000 $ para alguém no escalão de 20% poupa aproximadamente:
+
+A) 1000 $
+B) 200 $
+C) 0 $
+D) 2000 $
+
+## Chave de Respostas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As deduções ao rendimento funcionam encolhendo a parte do rendimento sujeita a imposto.
+
+**2.** Os créditos funcionam cortando diretamente a conta final do imposto, independentemente da taxa.
+
+**3.** Como o valor de um crédito não depende do seu escalão, vale normalmente mais por dólar do que uma dedução.
+
+**4.** 20% de uma dedução de 1000 $ correspondem a cerca de 200 $ de poupança real de imposto, contra os 1000 $ inteiros de um crédito.
+
+## Pontos-chave
+
+- As deduções ao rendimento reduzem o rendimento tributável; os créditos reduzem diretamente a conta do imposto.
+- O valor de um crédito não depende do seu escalão; o de uma dedução depende.
+- Dólar a dólar, os créditos valem normalmente mais do que as deduções ao rendimento.
+- As duas ferramentas reduzem o que deve, mas por mecanismos diferentes.

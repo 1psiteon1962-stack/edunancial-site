@@ -1,0 +1,403 @@
+===== GREEN-L1-011
+TITLE: Bruttoeinkommen und Nettoeinkommen
+SUMMARY: Erklärt den Unterschied zwischen Brutto- und Nettoeinkommen – eine grundlegende Unterscheidung für Lohnabrechnungen, Budgetplanung und Unternehmensfinanzen.
+# Bruttoeinkommen und Nettoeinkommen
+
+## Lernziele
+
+- Bruttoeinkommen und Nettoeinkommen definieren.
+- Erklären, was die Lücke zwischen beiden typischerweise verursacht.
+- Die Unterscheidung auf ein Gehaltsbeispiel anwenden.
+
+## Kerninhalt
+
+Das Bruttoeinkommen ist der Gesamtbetrag, der verdient wird, bevor etwas abgezogen wird. Das Nettoeinkommen ist das, was nach den Abzügen übrig bleibt – Steuern und oft weitere Abzüge wie Beiträge zur Altersvorsorge oder zur Krankenversicherung. Die Lücke zwischen Brutto und Netto ist der Punkt, an dem die meisten Menschen beim ersten echten Gehaltszettel überrascht werden. (In Deutschland gehören dazu etwa Lohnsteuer, gegebenenfalls Solidaritätszuschlag und Kirchensteuer sowie die Sozialversicherungsbeiträge; die Einzelheiten ändern sich.)
+
+Diese Unterscheidung ist weit über den Gehaltszettel hinaus wichtig. Unternehmen sprechen nach derselben Logik von Umsatz und Gewinn: Brutto ist die Gesamtsumme ganz oben, Netto ist das, was nach Kosten und Verpflichtungen übrig bleibt. Wenn eine Zahl als „brutto“ bezeichnet wird, lautet die erste sinnvolle Frage: brutto wovon genau – und wie viel kleiner wird netto sein?
+
+## Praxisbeispiel
+
+**Frage:** In einem Jobangebot steht ein Jahresgehalt von 60.000 $. Ist das der Betrag, der tatsächlich jedes Jahr auf dem Konto landet?
+
+**Schüler:** Ich würde sagen nein, weil zuerst Steuern und andere Abzüge abgehen.
+
+**Lernbegleiter:** Richtig – wie würdest du die 60.000 $ nennen, und wie den Betrag, der tatsächlich auf dem Konto ankommt?
+
+**Schüler:** Die 60.000 $ sind das Bruttoeinkommen, und der Betrag nach Steuern und Abzügen ist das Nettoeinkommen.
+
+**Lernbegleiter:** Genau – plane dein Budget immer mit dem Netto, nicht mit dem Brutto.
+
+## Übungsquiz
+
+**Frage 1.** Das Bruttoeinkommen ist:
+
+A) Der Betrag nach allen Abzügen
+B) Der Gesamtbetrag, der vor allen Abzügen verdient wird
+C) Nur Einkommen aus Kapitalanlagen
+D) Immer gleich dem Nettoeinkommen
+
+**Frage 2.** Das Nettoeinkommen ist:
+
+A) Der Betrag vor den Abzügen
+B) Das, was nach Steuern und anderen Abzügen übrig bleibt
+C) Unabhängig vom Bruttoeinkommen
+D) Immer höher als das Bruttoeinkommen
+
+**Frage 3.** Warum ist die Lücke zwischen Brutto und Netto für die Budgetplanung wichtig?
+
+A) Sie ist nicht wichtig
+B) Wer mit dem Brutto statt dem Netto plant, kann das verfügbare Geld überschätzen
+C) Netto ist immer höher als Brutto
+D) Brutto spielt für Unternehmen keine Rolle
+
+**Frage 4.** Unternehmen nutzen eine ähnliche Unterscheidung zwischen Brutto und Netto für:
+
+A) Umsatz und Gewinn
+B) Nichts – das gibt es nur bei privaten Finanzen
+C) Nur die Zahl der Beschäftigten
+D) Nur Marketingausgaben
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. A
+
+## Antworten und Erklärungen
+
+**1.** Brutto ist die Gesamtsumme vor Abzügen – die Zahl, die ganz oben steht.
+
+**2.** Netto ist der Betrag, der nach Steuern und anderen Abzügen tatsächlich übrig bleibt und auf dem Konto ankommt.
+
+**3.** Wer mit der Bruttozahl plant, riskiert anzunehmen, mehr verfügbares Geld zu haben, als tatsächlich da sein wird.
+
+**4.** Unternehmen wenden genau dieselbe Logik auf Umsatz (brutto) und Gewinn (netto) an.
+
+## Wichtigste Erkenntnisse
+
+- Das Bruttoeinkommen ist der Gesamtbetrag vor Abzügen; das Nettoeinkommen ist das, was danach übrig bleibt.
+- Die Lücke besteht typischerweise aus Steuern und weiteren Abzügen wie Altersvorsorge oder Versicherungen.
+- Plane dein Budget immer mit dem Nettoeinkommen, nicht mit dem Bruttoeinkommen.
+- Dieselbe Logik von Brutto und Netto gilt für Umsatz und Gewinn eines Unternehmens.
+
+===== GREEN-L1-012
+TITLE: Die eigene Lohnabrechnung lesen
+SUMMARY: Eine praktische Anleitung zum Lesen einer typischen Lohnabrechnung, die frühere Begriffe (Brutto/Netto, Steuerabzug, Lohnabgaben) mit einem echten Dokument verbindet.
+# Die eigene Lohnabrechnung lesen
+
+## Lernziele
+
+- Die wichtigsten Bereiche einer typischen Lohnabrechnung erkennen.
+- Bruttolohn, Abzüge und Nettolohn auf einer Beispielabrechnung finden.
+- Erklären, warum es eine gute Gewohnheit ist, die Lohnabrechnung regelmäßig zu prüfen.
+
+## Kerninhalt
+
+Die Lohnabrechnung (auch Gehaltsabrechnung) ist das Dokument, ob auf Papier oder digital, das eine Gehaltszahlung aufschlüsselt. Auch wenn die Formate je nach Arbeitgeber und Land unterschiedlich sind, haben die meisten Abrechnungen einen ähnlichen Aufbau: oben der Bruttolohn, in der Mitte eine Liste der Abzüge (Steuern, Beiträge zur Altersvorsorge, Versicherungsbeiträge) und unten der Nettolohn – der Betrag, der tatsächlich überwiesen wird.
+
+Der Bereich mit den Abzügen trennt meist verschiedene Kategorien: den Abzug der Lohn- bzw. Einkommensteuer, die Lohnabgaben (oft getrennt für Renten- und Gesundheitsprogramme aufgeführt) und freiwillige Abzüge, die die beschäftigte Person selbst gewählt hat, etwa Beiträge zu einer betrieblichen Altersvorsorge. Eine Abrechnung zeigt außerdem in der Regel kumulierte Jahreswerte, mit denen du deine gesamten Einnahmen und Abzüge über das Jahr verfolgen kannst, nicht nur für einen einzelnen Abrechnungszeitraum.
+
+Die Lohnabrechnung regelmäßig zu prüfen, ist eine praktische Gewohnheit und keine bloße Formalität. So entdeckst du Fehler – falsche Stunden, falscher Steuerabzug, eine vergessene Gehaltserhöhung –, bevor sie sich über Monate summieren. Und so bekommst du ein echtes, laufendes Gefühl für den Unterschied zwischen dem, was du verdienst, und dem, was du ausgezahlt bekommst, was direkt in deine Budgetplanung einfließt.
+
+## Praxisbeispiel
+
+**Frage:** Eine beschäftigte Person sieht auf ihrer Abrechnung eine Spalte „YTD“ bzw. „kumuliert“. Was bedeutet das wahrscheinlich, und warum ist das wichtig?
+
+**Schüler:** Ich vermute, YTD steht für „year to date“, also die laufende Summe seit Jahresbeginn.
+
+**Lernbegleiter:** Richtig. Warum ist diese laufende Summe nützlich, über die Zahlen dieser einen Abrechnung hinaus?
+
+**Schüler:** Damit kann man die gesamten Einnahmen und Abzüge über die Zeit verfolgen, Fehler entdecken oder sich auf die Steuererklärung vorbereiten, statt immer nur einen Abrechnungszeitraum zu sehen.
+
+**Lernbegleiter:** Genau – eine einzelne Abrechnung ist eine Momentaufnahme; die kumulierten Werte zeigen den Verlauf.
+
+## Übungsquiz
+
+**Frage 1.** Eine Lohnabrechnung zeigt typischerweise:
+
+A) Nur den Nettolohn
+B) Bruttolohn, Abzüge und Nettolohn
+C) Nur die Steuerschuld für das Jahr
+D) Nichts, was mit Steuern zu tun hat
+
+**Frage 2.** „YTD“ auf einer Lohnabrechnung steht höchstwahrscheinlich für:
+
+A) Jährlicher Steuerabzug
+B) Seit Jahresbeginn (year to date)
+C) Deine Gesamtschulden
+D) Rendite bis heute
+
+**Frage 3.** Lohnabrechnungen regelmäßig zu prüfen, hilft dir:
+
+A) Bei nichts Nützlichem
+B) Fehler wie falsche Stunden oder falschen Steuerabzug zu entdecken
+C) Gar keine Steuern zu zahlen
+D) Deinen Bruttolohn automatisch zu erhöhen
+
+**Frage 4.** Der Bereich mit den Abzügen enthält häufig:
+
+A) Nur freiwillige Einkäufe
+B) Lohnsteuerabzug, Lohnabgaben und freiwillige Abzüge
+C) Nur Urlaubstage
+D) Nichts, was mit Steuern zu tun hat
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Eine typische Abrechnung führt vom Bruttolohn über die Abzüge zum endgültigen Nettolohn.
+
+**2.** Die kumulierten Werte seit Jahresbeginn geben ein laufendes Bild über das ganze Jahr, nicht nur über einen Abrechnungszeitraum.
+
+**3.** Einen Fehler in der Lohnabrechnung früh zu entdecken – bevor er sich monatelang wiederholt –, ist einer der praktischsten Gründe, die Abrechnung zu prüfen.
+
+**4.** Die Abzüge bündeln in der Regel die gesetzlich vorgeschriebenen Abzüge mit den freiwilligen Beiträgen, die die beschäftigte Person eingerichtet hat.
+
+## Wichtigste Erkenntnisse
+
+- Lohnabrechnungen führen in der Regel vom Bruttolohn über die Abzüge zum Nettolohn.
+- Die kumulierten Jahreswerte zeigen die Gesamtsummen über das Jahr, nicht nur für einen Abrechnungszeitraum.
+- Wer Abrechnungen regelmäßig prüft, entdeckt Fehler in der Lohnabrechnung früh.
+- Wer seine Abrechnung versteht, verbindet sie direkt mit den Begriffen Brutto/Netto und Steuerabzug aus den früheren Lektionen.
+
+===== GREEN-L1-013
+TITLE: Was ist der Steuerabzug vom Lohn?
+SUMMARY: Erklärt den Steuerabzug vom Lohn – warum Arbeitgeber die voraussichtliche Steuer schon vor der Auszahlung einbehalten, statt auf eine einzige große Zahlung später zu warten.
+# Was ist der Steuerabzug vom Lohn?
+
+## Lernziele
+
+- Den Steuerabzug vom Lohn in einfachen Worten definieren.
+- Erklären, warum der Steuerabzug als „Zahlen nach und nach“-System existiert.
+- Den Steuerabzug als Schätzung erkennen, nicht als endgültige Steuerrechnung.
+
+## Kerninhalt
+
+Der Steuerabzug vom Lohn ist Geld, das der Arbeitgeber vorab vom Gehalt einbehält und in deinem Namen direkt an den Staat abführt – als geschätzte Vorauszahlung auf deine spätere Steuerschuld. Statt bis zum Jahresende auf eine einzige große Steuerzahlung zu warten, erheben die meisten Systeme die Steuer nach und nach, mit jeder Gehaltszahlung über das ganze Jahr. (In Deutschland ist das die Lohnsteuer, deren Höhe unter anderem von der Steuerklasse abhängt; die Einzelheiten ändern sich.)
+
+Wichtig ist: Der Steuerabzug ist eine Schätzung, nicht das letzte Wort. Am Ende des Steuerjahres wird die tatsächliche Steuerschuld auf Grundlage des gesamten Einkommens, der Abzüge und der Steuergutschriften berechnet – und diese Zahl wird mit dem verglichen, was einbehalten wurde. Wurde zu viel einbehalten, bekommst du in der Regel Geld zurück (eine Erstattung). Wurde zu wenig einbehalten, musst du in der Regel nachzahlen. Die Höhe des Steuerabzugs beruht meist auf Angaben der beschäftigten Person – etwa zum erwarteten Einkommen und zur familiären Situation –, weshalb Veränderungen im Leben (ein neuer Job, eine Heirat, ein Kind) ein guter Anlass sind, die Einstellungen zum Steuerabzug zu überprüfen.
+
+## Praxisbeispiel
+
+**Frage:** Der Arbeitgeber einer beschäftigten Person behält das ganze Jahr über von jedem Gehalt Steuer ein. Muss diese Person am Jahresende trotzdem noch etwas einreichen?
+
+**Schüler:** Ich würde annehmen nein, weil die Steuer ja schon abgezogen wurde.
+
+**Lernbegleiter:** Aber ist der Steuerabzug dasselbe wie deine genaue endgültige Steuerschuld?
+
+**Schüler:** Nein – du hast gesagt, es ist eine Schätzung. Also muss die Person wahrscheinlich trotzdem eine Erklärung abgeben, um das Einbehaltene mit dem zu vergleichen, was sie tatsächlich schuldet.
+
+**Lernbegleiter:** Genau – die Steuererklärung gleicht die Schätzung mit der tatsächlichen Zahl ab, und deshalb gibt es sowohl Erstattungen als auch Nachzahlungen.
+
+## Übungsquiz
+
+**Frage 1.** Der Steuerabzug vom Lohn lässt sich am besten beschreiben als:
+
+A) Deine endgültige Steuerrechnung
+B) Eine geschätzte Vorauszahlung auf deine spätere Steuerschuld
+C) Eine freiwillige Spende
+D) Geld, das du nie zurückbekommst
+
+**Frage 2.** Wenn im Laufe des Jahres zu viel Steuer einbehalten wird, ist das typische Ergebnis:
+
+A) Eine Strafe
+B) Eine Erstattung
+C) Es passiert nichts
+D) Du schuldest das Doppelte
+
+**Frage 3.** Wenn zu wenig Steuer einbehalten wird, ist das typische Ergebnis:
+
+A) Eine Erstattung
+B) Du musst bei der Steuererklärung möglicherweise nachzahlen
+C) Es passiert nichts
+D) Dir wird gekündigt
+
+**Frage 4.** Ein guter Grund, die Einstellungen zum Steuerabzug zu überprüfen, ist:
+
+A) Eine große Veränderung im Leben wie eine Heirat oder ein neuer Job
+B) Nie – die Einstellungen lassen sich nicht ändern
+C) Nur wenn du selbstständig bist
+D) Nur einmal, beim ersten Job
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. A
+
+## Antworten und Erklärungen
+
+**1.** Der Steuerabzug ist eine Schätzung, die nach und nach über das Jahr erhoben wird, nicht die endgültige Berechnung.
+
+**2.** Eine Überzahlung durch den Steuerabzug wird dir als Erstattung zurückgegeben, nachdem die Steuererklärung die Zahlen abgeglichen hat.
+
+**3.** Bei einer Unterzahlung wird der Fehlbetrag in der Regel fällig, wenn die tatsächliche Steuerschuld berechnet wird.
+
+**4.** Weil der Steuerabzug auf deinen Angaben beruht, sind große Veränderungen im Leben ein natürlicher Anlass, ihn zu überprüfen.
+
+## Wichtigste Erkenntnisse
+
+- Der Steuerabzug ist eine geschätzte, laufende Steuerzahlung, die über das Jahr vom Gehalt einbehalten wird.
+- Er ist nicht dasselbe wie deine endgültige Steuerschuld – die Steuererklärung gleicht beides ab.
+- Ein zu hoher Abzug führt zu einer Erstattung; ein zu niedriger Abzug zu einer Nachzahlung.
+- Veränderungen im Leben sind ein guter Anlass, den Steuerabzug zu überprüfen und anzupassen.
+
+===== GREEN-L1-014
+TITLE: Formular W-2 oder 1099: angestellt oder selbstständig?
+SUMMARY: Stellt die beiden häufigsten Einkommensnachweise in Systemen vor, die sie verwenden, und verbindet sie direkt mit der Unterscheidung zwischen Angestellten und Selbstständigen aus früheren Lernpfaden.
+# Formular W-2 oder 1099: angestellt oder selbstständig?
+
+## Lernziele
+
+- Den grundsätzlichen Unterschied zwischen einem Einkommensnachweis für Angestellte und einem für Auftragnehmer erklären.
+- Diese Unterscheidung mit dem Begriffspaar Selbstständigkeit und Unternehmertum aus früheren Lernpfaden verbinden.
+- Erkennen, warum diese Einordnung beeinflusst, wer sich um den Steuerabzug kümmert.
+
+## Kerninhalt
+
+In manchen Steuersystemen, vor allem in den USA, gibt es unterschiedliche Formulare für verschiedene Einkommensarten: eines für Angestellte (meist W-2), bei denen der Arbeitgeber das ganze Jahr über Steuer einbehält, und eines für selbstständige Auftragnehmer (meist 1099), bei denen keine Steuer einbehalten wird und die Person selbst für ihre Vorauszahlungen verantwortlich ist. Andere Länder verwenden andere Bezeichnungen, aber die zugrunde liegende Unterscheidung – angestellt oder selbstständig – gibt es fast überall. (In Deutschland erhalten Angestellte zum Beispiel eine Lohnsteuerbescheinigung, während Selbstständige und Freiberufler ihre Einkünfte selbst erklären und oft Vorauszahlungen leisten; die Abgrenzung kann rechtlich heikel sein, Stichwort Scheinselbstständigkeit.)
+
+Das passt direkt zum Begriff der Selbstständigkeit aus deinem bisherigen Lehrplan: Bei Angestellten wird die Steuer automatisch von jemand anderem einbehalten, während selbstständige Auftragnehmer eher wie Selbstständige funktionieren und ihre Steuern aktiv zurücklegen und zahlen müssen. Falsch einzuschätzen, in welche Kategorie man gehört, ist einer der häufigsten und teuersten Steuerfehler – wer als Auftragnehmer die gesamte Zahlung ausgibt, ohne etwas für die Steuer zurückzulegen, kann bei der Steuererklärung eine böse Überraschung erleben.
+
+## Praxisbeispiel
+
+**Frage:** Eine junge Webdesignerin arbeitet für mehrere Kunden, bestimmt ihre Arbeitszeiten selbst und nutzt ihre eigene Ausrüstung. Ist sie eher angestellt oder eine selbstständige Auftragnehmerin?
+
+**Schüler:** Weil sie ihre Zeiten selbst bestimmt und für mehrere Kunden arbeitet, klingt das eher nach einer selbstständigen Auftragnehmerin.
+
+**Lernbegleiter:** Wenn das stimmt – wer ist dann dafür verantwortlich, im Laufe des Jahres Geld für ihre Steuern zurückzulegen?
+
+**Schüler:** Sie selbst – weil kein Arbeitgeber für sie Steuer einbehält, muss sie das selbst tun.
+
+**Lernbegleiter:** Genau, und deshalb müssen Selbstständige ihre Steuern aktiv planen, statt anzunehmen, dass sich das automatisch erledigt.
+
+## Übungsquiz
+
+**Frage 1.** Ein Einkommensnachweis für Angestellte zeigt typischerweise:
+
+A) Dass keine Steuer einbehalten wurde
+B) Dass der Arbeitgeber das ganze Jahr über Steuer einbehalten hat
+C) Nur den Unternehmensgewinn
+D) Nur Einkommen aus Kapitalanlagen
+
+**Frage 2.** Selbstständige Auftragnehmer sind in der Regel verantwortlich dafür:
+
+A) Für nichts – Steuern laufen automatisch
+B) Ihre geschätzten Steuern selbst zurückzulegen und zu zahlen
+C) Nur für die Umsatzsteuer
+D) Niemals Unterlagen einzureichen
+
+**Frage 3.** Mit welchem früheren Begriff ist diese Unterscheidung zwischen angestellt und selbstständig am engsten verbunden?
+
+A) Öffentliche Güter
+B) Selbstständigkeit und Unternehmertum
+C) Grenzsteuerstufen
+D) Grundsteuer
+
+**Frage 4.** Ein häufiger und teurer Fehler neuer Selbstständiger ist:
+
+A) Die Steuererklärung zu früh abzugeben
+B) Das gesamte Einkommen auszugeben, ohne Geld für Steuern zurückzulegen
+C) Zu viel Steuer einzubehalten
+D) Zu viel Eigentum zu besitzen
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Bei Angestellten ist mit dem Einkommensnachweis in der Regel ein automatischer Steuerabzug durch den Arbeitgeber verbunden.
+
+**2.** Weil kein Arbeitgeber für sie einbehält, müssen Selbstständige ihre Steuerzahlungen aktiv selbst organisieren.
+
+**3.** Das ist die steuerliche Seite des Begriffs Selbstständigkeit, den du früher im Lehrplan kennengelernt hast.
+
+**4.** 100 % der Einnahmen auszugeben, ohne einen Teil für die Steuer zurückzulegen, ist einer der häufigsten Anfängerfehler.
+
+## Wichtigste Erkenntnisse
+
+- Bei Einkommen aus Anstellung wird die Steuer in der Regel automatisch einbehalten; bei Einkommen als Auftragnehmer in der Regel nicht.
+- Diese Unterscheidung spiegelt den Begriff Selbstständigkeit und Anstellung aus früheren Lektionen.
+- Selbstständige müssen im Laufe des Jahres aktiv Geld für Steuern zurücklegen.
+- Sich falsch einzuordnen oder den Unterschied nicht einzuplanen, ist ein häufiger und teurer Fehler.
+
+===== GREEN-L1-015
+TITLE: Der Unterschied zwischen einem Steuerabzug und einer Steuergutschrift
+SUMMARY: Klärt eines der am häufigsten verwechselten Begriffspaare beim Steuerwissen: Abzüge verringern das zu versteuernde Einkommen, Gutschriften verringern direkt die geschuldete Steuer.
+# Der Unterschied zwischen einem Steuerabzug und einer Steuergutschrift
+
+## Lernziele
+
+- Einen steuerlichen Abzug definieren.
+- Eine Steuergutschrift definieren.
+- Erklären, warum eine Gutschrift Dollar für Dollar in der Regel mehr wert ist als ein Abzug.
+
+## Kerninhalt
+
+Ein steuerlicher Abzug (in Deutschland etwa Werbungskosten oder Sonderausgaben) verringert den Teil des Einkommens, der besteuert wird. Eine Steuergutschrift verringert die tatsächliche Steuerrechnung direkt, Dollar für Dollar. Das klingt ähnlich, hat aber eine deutlich unterschiedliche Wirkung.
+
+Angenommen, jemand liegt in einer Grenzsteuerstufe von 20 %. Ein Abzug von 1.000 $ verringert das zu versteuernde Einkommen um 1.000 $, was etwa 200 $ Steuer spart (20 % von 1.000 $). Eine Gutschrift von 1.000 $ verringert dagegen die Steuerrechnung um die vollen 1.000 $, unabhängig von der Steuerstufe. Deshalb sind Gutschriften Dollar für Dollar in der Regel mehr wert als Abzüge – der Wert einer Gutschrift hängt nicht so vom Steuersatz ab wie der Wert eines Abzugs.
+
+Beide Instrumente verringern, was du schuldest, nur auf unterschiedlichem Weg: Abzüge verkleinern die Grundlage, die besteuert wird, Gutschriften verkleinern die endgültige Rechnung selbst.
+
+## Praxisbeispiel
+
+**Frage:** Ein Freund sagt: „Ein Abzug von 1.000 $ und eine Gutschrift von 1.000 $ sind im Grunde dasselbe.“ Hat er recht?
+
+**Schüler:** Ich glaube nicht – das eine verringert das zu versteuernde Einkommen, das andere direkt die Steuerrechnung.
+
+**Lernbegleiter:** Welches spart in der Regel mehr Geld, und warum?
+
+**Schüler:** Die Gutschrift, weil sie die vollen 1.000 $ von dem abzieht, was geschuldet wird, während der Abzug nur einen Prozentsatz von 1.000 $ spart, je nach Steuersatz.
+
+**Lernbegleiter:** Genau – gleicher Betrag, anderer Mechanismus, andere Wirkung.
+
+## Übungsquiz
+
+**Frage 1.** Ein steuerlicher Abzug verringert:
+
+A) Das zu versteuernde Einkommen
+B) Die Steuerrechnung direkt, Dollar für Dollar
+C) Nichts
+D) Nur die Umsatzsteuer
+
+**Frage 2.** Eine Steuergutschrift verringert:
+
+A) Das zu versteuernde Einkommen
+B) Die Steuerrechnung direkt, Dollar für Dollar
+C) Nichts
+D) Nur die Grundsteuer
+
+**Frage 3.** Was ist Dollar für Dollar in der Regel mehr wert?
+
+A) Ein Abzug
+B) Eine Gutschrift
+C) Beide sind immer gleich
+D) Keines von beiden hat einen Wert
+
+**Frage 4.** Ein Abzug von 1.000 $ spart jemandem in einer Steuerstufe von 20 % ungefähr:
+
+A) 1.000 $
+B) 200 $
+C) 0 $
+D) 2.000 $
+
+## Lösungsschlüssel
+
+1. A, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Abzüge wirken, indem sie den Teil des Einkommens verkleinern, der besteuert wird.
+
+**2.** Gutschriften wirken, indem sie die endgültige Steuerrechnung direkt kürzen, unabhängig vom Steuersatz.
+
+**3.** Weil der Wert einer Gutschrift nicht von deiner Steuerstufe abhängt, ist sie pro Dollar in der Regel mehr wert als ein Abzug.
+
+**4.** 20 % eines Abzugs von 1.000 $ sind etwa 200 $ tatsächliche Steuerersparnis, gegenüber vollen 1.000 $ bei einer Gutschrift.
+
+## Wichtigste Erkenntnisse
+
+- Abzüge verringern das zu versteuernde Einkommen; Gutschriften verringern die Steuerrechnung direkt.
+- Der Wert einer Gutschrift hängt nicht von deiner Steuerstufe ab; der Wert eines Abzugs schon.
+- Dollar für Dollar sind Gutschriften in der Regel mehr wert als Abzüge.
+- Beide Instrumente senken, was du schuldest, aber auf unterschiedlichem Weg.

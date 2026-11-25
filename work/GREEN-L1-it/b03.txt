@@ -1,0 +1,403 @@
+===== GREEN-L1-011
+TITLE: Reddito lordo e reddito netto
+SUMMARY: Chiarisce la differenza tra reddito lordo e reddito netto, una distinzione fondamentale per leggere la busta paga, fare un budget e capire i conti di un'impresa.
+# Reddito lordo e reddito netto
+
+## Obiettivi di apprendimento
+
+- Definire il reddito lordo e il reddito netto.
+- Spiegare che cosa causa di solito la differenza tra i due.
+- Applicare la distinzione a un esempio di stipendio.
+
+## Contenuto principale
+
+Il reddito lordo è l'importo totale guadagnato prima di qualsiasi sottrazione. Il reddito netto è ciò che resta dopo le sottrazioni: le imposte e spesso altre trattenute, come i contributi previdenziali o i premi assicurativi sanitari. La differenza tra lordo e netto è il punto in cui la maggior parte delle persone resta sorpresa la prima volta che vede una vera busta paga. (In Italia, tra lordo e netto ci sono di solito l'IRPEF con le addizionali regionali e comunali e i contributi INPS a carico del lavoratore; i dettagli cambiano nel tempo.)
+
+Questa distinzione conta ben oltre la busta paga. Le imprese parlano di ricavi e di utile netto con la stessa logica: il lordo è il totale in cima, il netto è ciò che resta dopo costi e obblighi. Ogni volta che un numero viene descritto come "lordo", la prima domanda utile è: lordo di che cosa, esattamente, e quanto sarà più piccolo il netto?
+
+## Esempio svolto
+
+**Domanda:** Un'offerta di lavoro indica uno stipendio di 60.000 $ all'anno. È questo l'importo che arriverà davvero sul conto ogni anno?
+
+**Studente:** Direi di no, perché prima vengono tolte imposte e altre trattenute.
+
+**Guida:** Giusto: come chiameresti i 60.000 $, e come chiameresti l'importo che arriva davvero sul conto?
+
+**Studente:** I 60.000 $ sono il reddito lordo, e l'importo che resta dopo imposte e trattenute è il reddito netto.
+
+**Guida:** Esatto: fai sempre il budget sul netto, non sul lordo.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Il reddito lordo è:
+
+A) L'importo dopo tutte le trattenute
+B) L'importo totale guadagnato prima di qualsiasi trattenuta
+C) Solo il reddito da investimenti
+D) Sempre uguale al reddito netto
+
+**Domanda 2.** Il reddito netto è:
+
+A) L'importo prima delle trattenute
+B) Ciò che resta dopo aver sottratto imposte e altre trattenute
+C) Indipendente dal reddito lordo
+D) Sempre più alto del reddito lordo
+
+**Domanda 3.** Perché la differenza tra lordo e netto è importante per il budget?
+
+A) Non è importante
+B) Fare il budget sul lordo invece che sul netto può portare a sopravvalutare il denaro disponibile
+C) Il netto è sempre più alto del lordo
+D) Il lordo non conta per le imprese
+
+**Domanda 4.** Le imprese usano una distinzione simile tra lordo e netto per:
+
+A) Ricavi e utile
+B) Niente: vale solo per le finanze personali
+C) Solo il numero di dipendenti
+D) Solo la spesa di marketing
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. A
+
+## Risposte e spiegazioni
+
+**1.** Il lordo è il totale prima delle trattenute: il numero in cima, quello che si vede per primo.
+
+**2.** Il netto è l'importo che resta davvero dopo imposte e altre sottrazioni, ed è quello che arriva sul tuo conto.
+
+**3.** Pianificare sulla cifra lorda rischia di farti credere di avere più denaro da spendere di quanto ne avrai davvero.
+
+**4.** Le imprese applicano la stessa identica logica ai ricavi (lordo) e all'utile (netto).
+
+## Punti chiave
+
+- Il reddito lordo è il totale prima delle trattenute; il reddito netto è ciò che resta dopo.
+- La differenza è di solito fatta di imposte e altre trattenute, come previdenza o assicurazione.
+- Fai sempre il budget sul reddito netto, non su quello lordo.
+- La stessa logica lordo/netto vale per i ricavi e l'utile di un'impresa.
+
+===== GREEN-L1-012
+TITLE: Leggere la propria busta paga
+SUMMARY: Una guida pratica alla lettura di una busta paga tipica, che collega concetti già visti (lordo/netto, ritenute, contributi sugli stipendi) a un documento reale.
+# Leggere la propria busta paga
+
+## Obiettivi di apprendimento
+
+- Riconoscere le sezioni principali di una busta paga tipica.
+- Individuare retribuzione lorda, trattenute e retribuzione netta su una busta paga di esempio.
+- Spiegare perché controllare regolarmente la busta paga è una buona abitudine.
+
+## Contenuto principale
+
+La busta paga (o cedolino) è il documento, cartaceo o digitale, che scompone uno stipendio. Anche se i formati variano in base al datore di lavoro e al paese, la maggior parte delle buste paga ha una struttura simile: in alto la retribuzione lorda, al centro l'elenco delle trattenute (imposte, contributi previdenziali, premi assicurativi) e in fondo la retribuzione netta, cioè l'importo effettivamente accreditato.
+
+La sezione delle trattenute di solito separa diverse categorie: la ritenuta per l'imposta sul reddito, i contributi sugli stipendi (spesso indicati separatamente per previdenza e sanità) e le eventuali trattenute volontarie scelte dal lavoratore, come i versamenti a un fondo pensione. Una busta paga mostra spesso anche i totali progressivi dall'inizio dell'anno, che ti permettono di seguire guadagni e trattenute cumulativi nel corso dell'anno, non solo per un singolo periodo di paga.
+
+Controllare regolarmente la busta paga è un'abitudine pratica, non un semplice adempimento burocratico. È così che individui gli errori (ore sbagliate, ritenute errate, un aumento dimenticato) prima che si accumulino per mesi. Ed è così che ti fai un'idea concreta e costante della differenza tra quanto guadagni e quanto incassi davvero, che alimenta direttamente il tuo budget.
+
+## Esempio svolto
+
+**Domanda:** Un lavoratore dà un'occhiata alla busta paga e vede una colonna "YTD" o "progressivo annuo". Che cosa significa probabilmente, e perché è importante?
+
+**Studente:** Immagino che YTD stia per "year to date", cioè il totale progressivo dall'inizio dell'anno.
+
+**Guida:** Giusto. Perché quel totale progressivo è utile, oltre ai numeri di questa singola busta paga?
+
+**Studente:** Permette di seguire nel tempo guadagni e trattenute totali, il che aiuta a scoprire errori o a prepararsi alla dichiarazione dei redditi invece di vedere un solo periodo di paga alla volta.
+
+**Guida:** Esatto: una singola busta paga è un'istantanea; il progressivo annuo mostra l'andamento.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una busta paga mostra di solito:
+
+A) Solo la retribuzione netta
+B) Retribuzione lorda, trattenute e retribuzione netta
+C) Solo l'imposta dovuta per l'anno
+D) Niente che riguardi le imposte
+
+**Domanda 2.** "YTD" su una busta paga significa molto probabilmente:
+
+A) Trattenuta fiscale annua
+B) Dall'inizio dell'anno (year to date)
+C) Il tuo debito totale
+D) Rendimento a oggi
+
+**Domanda 3.** Controllare regolarmente la busta paga ti aiuta a:
+
+A) Niente di utile
+B) Scoprire errori come ore sbagliate o ritenute errate
+C) Non pagare nessuna imposta
+D) Aumentare automaticamente la retribuzione lorda
+
+**Domanda 4.** La sezione delle trattenute di una busta paga comprende di solito:
+
+A) Solo acquisti volontari
+B) Ritenuta d'imposta sul reddito, contributi sugli stipendi e trattenute volontarie
+C) Solo i giorni di ferie
+D) Niente che riguardi le imposte
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Una busta paga standard va dalla retribuzione lorda, attraverso le trattenute, fino alla retribuzione netta finale.
+
+**2.** I totali dall'inizio dell'anno danno un quadro progressivo di tutto l'anno, non solo di un periodo di paga.
+
+**3.** Scoprire presto un errore in busta paga, prima che si ripeta per mesi, è uno dei motivi più pratici per controllarla.
+
+**4.** Le trattenute riuniscono di solito le ritenute obbligatorie e i versamenti volontari che il lavoratore ha attivato.
+
+## Punti chiave
+
+- Le buste paga vanno in genere dalla retribuzione lorda, attraverso le trattenute, alla retribuzione netta.
+- I totali progressivi annui seguono le somme cumulative di tutto l'anno, non solo di un periodo di paga.
+- Controllare regolarmente la busta paga aiuta a scoprire presto gli errori.
+- Capire la propria busta paga si collega direttamente ai concetti di lordo/netto e di ritenuta delle lezioni precedenti.
+
+===== GREEN-L1-013
+TITLE: Che cos'è la ritenuta d'imposta?
+SUMMARY: Spiega la ritenuta d'imposta: perché i datori di lavoro trattengono l'imposta stimata prima di pagarti, invece di aspettare un unico versamento più avanti.
+# Che cos'è la ritenuta d'imposta?
+
+## Obiettivi di apprendimento
+
+- Definire la ritenuta d'imposta in parole semplici.
+- Spiegare perché la ritenuta esiste come sistema di "pagamento man mano".
+- Riconoscere la ritenuta come una stima, non come il conto finale delle imposte.
+
+## Contenuto principale
+
+La ritenuta d'imposta è il denaro che il datore di lavoro trattiene in anticipo dallo stipendio e versa direttamente allo Stato per conto tuo, come pagamento stimato in acconto sulla tua imposta futura. Invece di aspettare la fine dell'anno per un unico grande pagamento, la maggior parte dei sistemi riscuote l'imposta gradualmente, busta paga dopo busta paga, durante tutto l'anno. (In Italia il datore di lavoro agisce come sostituto d'imposta e trattiene l'IRPEF in busta paga; i dettagli cambiano nel tempo.)
+
+È importante capire che la ritenuta è una stima, non l'ultima parola. Alla fine del periodo d'imposta, l'imposta effettivamente dovuta viene calcolata sulla base del reddito totale, delle deduzioni e delle detrazioni, e quel numero viene confrontato con quanto è stato trattenuto. Se è stato trattenuto troppo, di solito ricevi un rimborso. Se è stato trattenuto troppo poco, di solito devi versare la differenza. L'importo delle ritenute si basa spesso su informazioni fornite dal lavoratore, come il reddito previsto e la situazione familiare: per questo i cambiamenti di vita (un nuovo lavoro, il matrimonio, un nuovo figlio a carico) sono un buon motivo per rivedere le impostazioni delle ritenute.
+
+## Esempio svolto
+
+**Domanda:** Il datore di lavoro di un lavoratore trattiene l'imposta da ogni busta paga per tutto l'anno. A fine anno il lavoratore deve comunque presentare qualcosa?
+
+**Studente:** Direi di no, visto che l'imposta è già stata trattenuta.
+
+**Guida:** Ma la ritenuta è la stessa cosa della tua esatta imposta finale?
+
+**Studente:** No: hai detto che è una stima. Quindi probabilmente il lavoratore deve comunque presentare una dichiarazione, per confrontare quanto è stato trattenuto con quanto deve davvero.
+
+**Guida:** Esatto: la dichiarazione confronta la stima con il numero reale, ed è per questo che esistono sia i rimborsi sia i saldi da versare.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La ritenuta d'imposta si descrive meglio come:
+
+A) Il tuo conto finale delle imposte
+B) Un pagamento stimato in anticipo sulla tua imposta futura
+C) Una donazione volontaria
+D) Denaro che non riavrai mai
+
+**Domanda 2.** Se durante l'anno viene trattenuta troppa imposta, il risultato tipico è:
+
+A) Una sanzione
+B) Un rimborso
+C) Non succede nulla
+D) Devi il doppio
+
+**Domanda 3.** Se viene trattenuta troppo poca imposta, il risultato tipico è:
+
+A) Un rimborso
+B) Potresti dover versare altra imposta con la dichiarazione
+C) Non succede nulla
+D) Vieni licenziato
+
+**Domanda 4.** Un buon motivo per rivedere le impostazioni delle ritenute è:
+
+A) Un grande cambiamento di vita, come il matrimonio o un nuovo lavoro
+B) Mai: le impostazioni non si possono cambiare
+C) Solo se sei un lavoratore autonomo
+D) Solo una volta, al primo lavoro
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. A
+
+## Risposte e spiegazioni
+
+**1.** La ritenuta è una stima riscossa man mano durante l'anno, non il calcolo finale.
+
+**2.** Quanto versato in eccesso tramite ritenuta ti viene restituito come rimborso dopo che la dichiarazione ha confrontato i numeri.
+
+**3.** In caso di versamento insufficiente, la differenza si deve di solito quando si calcola l'imposta effettiva.
+
+**4.** Poiché la ritenuta si basa sulle informazioni che fornisci, i grandi cambiamenti di vita sono un'occasione naturale per rivederla.
+
+## Punti chiave
+
+- La ritenuta è un pagamento d'imposta stimato e continuo, trattenuto dallo stipendio durante l'anno.
+- Non è la stessa cosa della tua imposta finale: la dichiarazione confronta le due cose.
+- Una ritenuta eccessiva produce un rimborso; una ritenuta insufficiente produce un saldo da versare.
+- I cambiamenti di vita sono un buon motivo per rivedere e adeguare le ritenute.
+
+===== GREEN-L1-014
+TITLE: Modulo W-2 o 1099: dipendente o collaboratore autonomo?
+SUMMARY: Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra lavoro dipendente e lavoro autonomo vista nei percorsi precedenti.
+# Modulo W-2 o 1099: dipendente o collaboratore autonomo?
+
+## Obiettivi di apprendimento
+
+- Spiegare la differenza generale tra un documento di reddito da lavoro dipendente e uno da collaborazione autonoma.
+- Collegare questa distinzione al concetto di lavoro autonomo e titolarità d'impresa dei percorsi precedenti.
+- Riconoscere perché questa classificazione determina chi si occupa delle ritenute.
+
+## Contenuto principale
+
+In alcuni sistemi fiscali, in particolare negli Stati Uniti, esistono moduli diversi per certificare tipi diversi di reddito: uno per i dipendenti (di solito il W-2), per i quali il datore di lavoro trattiene l'imposta durante tutto l'anno, e uno per i collaboratori autonomi (di solito il 1099), per i quali non viene trattenuta alcuna imposta e il lavoratore deve occuparsi da solo dei propri versamenti in acconto. Altri paesi usano nomi diversi, ma la distinzione di fondo, lavoratore dipendente o collaboratore autonomo, si ritrova quasi ovunque. (In Italia, per esempio, il dipendente riceve la Certificazione Unica dal sostituto d'imposta, mentre chi lavora con partita IVA gestisce in proprio dichiarazione e acconti; le regole, compresi i regimi agevolati, cambiano nel tempo.)
+
+Questo si collega direttamente al concetto di lavoro autonomo visto in precedenza nel tuo percorso: al dipendente l'imposta viene trattenuta automaticamente da qualcun altro, mentre il collaboratore autonomo funziona più come un lavoratore autonomo e deve mettere da parte e versare da solo le proprie imposte. Sbagliare la categoria a cui si appartiene è uno degli errori fiscali più comuni e costosi: un collaboratore che spende l'intero compenso senza accantonare nulla per le imposte può avere una brutta sorpresa al momento della dichiarazione.
+
+## Esempio svolto
+
+**Domanda:** Una giovane web designer lavora per diversi clienti, decide i propri orari e usa la propria attrezzatura. È più probabilmente una dipendente o una collaboratrice autonoma?
+
+**Studente:** Visto che decide i propri orari e lavora per più clienti, sembra più una collaboratrice autonoma.
+
+**Guida:** Se è così, chi è responsabile di mettere da parte i soldi per le sue imposte durante l'anno?
+
+**Studente:** Lei stessa: dato che nessun datore di lavoro trattiene l'imposta per lei, deve farlo da sola.
+
+**Guida:** Esatto, ed è per questo che i collaboratori autonomi devono pianificare attivamente le imposte invece di dare per scontato che se ne occupi qualcun altro.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un documento di reddito da lavoro dipendente riflette di solito:
+
+A) Nessuna imposta trattenuta
+B) Imposte trattenute durante l'anno dal datore di lavoro
+C) Solo l'utile d'impresa
+D) Solo il reddito da investimenti
+
+**Domanda 2.** Un collaboratore autonomo è in genere responsabile di:
+
+A) Niente: le imposte sono automatiche
+B) Mettere da parte e versare da solo le proprie imposte stimate
+C) Solo l'imposta sulle vendite
+D) Non presentare mai alcun documento
+
+**Domanda 3.** Questa distinzione tra dipendente e collaboratore autonomo si collega più direttamente a quale concetto precedente?
+
+A) Beni pubblici
+B) Lavoro autonomo e titolarità d'impresa
+C) Scaglioni marginali d'imposta
+D) Imposta sugli immobili
+
+**Domanda 4.** Un errore comune e costoso per i nuovi collaboratori autonomi è:
+
+A) Presentare la dichiarazione troppo presto
+B) Spendere tutto il reddito senza mettere da parte denaro per le imposte
+C) Trattenere troppa imposta
+D) Possedere troppi immobili
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il reddito da lavoro dipendente è in genere accompagnato da ritenute automatiche gestite dal datore di lavoro.
+
+**2.** Senza un datore di lavoro che trattenga per loro, i collaboratori autonomi devono gestire attivamente i propri versamenti.
+
+**3.** È la versione fiscale del concetto di lavoro autonomo visto in precedenza nel percorso.
+
+**4.** Spendere il 100% del reddito da collaborazione senza accantonarne una parte per le imposte è uno degli errori iniziali più comuni.
+
+## Punti chiave
+
+- Al reddito da lavoro dipendente l'imposta viene di solito trattenuta automaticamente; al reddito da collaborazione autonoma di solito no.
+- Questa distinzione riflette il concetto di lavoro autonomo e lavoro dipendente delle lezioni precedenti.
+- I collaboratori autonomi devono mettere da parte attivamente denaro per le imposte durante l'anno.
+- Classificarsi in modo sbagliato, o non pianificare la differenza, è un errore comune e costoso.
+
+===== GREEN-L1-015
+TITLE: La differenza tra deduzione e detrazione fiscale
+SUMMARY: Chiarisce una delle coppie di termini più confuse nell'educazione fiscale: le deduzioni riducono il reddito imponibile, le detrazioni riducono direttamente l'imposta dovuta.
+# La differenza tra deduzione e detrazione fiscale
+
+## Obiettivi di apprendimento
+
+- Definire una deduzione fiscale.
+- Definire una detrazione fiscale (o credito d'imposta).
+- Spiegare perché una detrazione vale in genere di più, dollaro per dollaro, di una deduzione.
+
+## Contenuto principale
+
+Una deduzione fiscale riduce la parte di reddito che viene tassata. Una detrazione fiscale (in inglese "tax credit") riduce direttamente l'imposta da pagare, dollaro per dollaro. Sembrano simili, ma hanno un effetto molto diverso. (Anche in Italia si distingue tra oneri deducibili, che riducono il reddito imponibile, e detrazioni, che riducono l'imposta lorda.)
+
+Supponiamo che una persona si trovi in uno scaglione marginale del 20%. Una deduzione di 1.000 $ riduce il reddito imponibile di 1.000 $, facendo risparmiare circa 200 $ di imposta (il 20% di 1.000 $). Una detrazione di 1.000 $, invece, riduce l'imposta di tutti i 1.000 $, indipendentemente dallo scaglione. Per questo, dollaro per dollaro, le detrazioni valgono in genere di più delle deduzioni: il valore di una detrazione non dipende dall'aliquota come quello di una deduzione.
+
+Entrambi gli strumenti riducono ciò che devi, solo con meccanismi diversi: le deduzioni riducono la base su cui si calcola l'imposta, le detrazioni riducono il conto finale stesso.
+
+## Esempio svolto
+
+**Domanda:** Un amico dice: "Una deduzione di 1.000 $ e una detrazione di 1.000 $ sono praticamente la stessa cosa". Ha ragione?
+
+**Studente:** Non credo: una riduce il reddito imponibile, l'altra riduce direttamente l'imposta.
+
+**Guida:** Quale delle due fa risparmiare di più, di solito, e perché?
+
+**Studente:** La detrazione, perché toglie tutti i 1.000 $ da quanto è dovuto, mentre la deduzione toglie solo una percentuale di 1.000 $ in base all'aliquota.
+
+**Guida:** Esatto: stesso importo, meccanismo diverso, effetto diverso.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una deduzione fiscale riduce:
+
+A) Il reddito imponibile
+B) L'imposta direttamente, dollaro per dollaro
+C) Niente
+D) Solo l'imposta sulle vendite
+
+**Domanda 2.** Una detrazione fiscale riduce:
+
+A) Il reddito imponibile
+B) L'imposta direttamente, dollaro per dollaro
+C) Niente
+D) Solo l'imposta sugli immobili
+
+**Domanda 3.** Dollaro per dollaro, che cosa vale in genere di più?
+
+A) Una deduzione
+B) Una detrazione
+C) Sono sempre identiche
+D) Nessuna delle due ha valore
+
+**Domanda 4.** Per una persona nello scaglione del 20%, una deduzione di 1.000 $ fa risparmiare circa:
+
+A) 1.000 $
+B) 200 $
+C) 0 $
+D) 2.000 $
+
+## Soluzioni
+
+1. A, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Le deduzioni funzionano riducendo la parte di reddito soggetta a imposta.
+
+**2.** Le detrazioni funzionano riducendo direttamente l'imposta finale, indipendentemente dall'aliquota.
+
+**3.** Poiché il valore di una detrazione non dipende dal tuo scaglione, per ogni dollaro vale in genere più di una deduzione.
+
+**4.** Il 20% di una deduzione di 1.000 $ corrisponde a circa 200 $ di risparmio effettivo, contro i 1.000 $ pieni di una detrazione.
+
+## Punti chiave
+
+- Le deduzioni riducono il reddito imponibile; le detrazioni riducono direttamente l'imposta.
+- Il valore di una detrazione non dipende dal tuo scaglione; quello di una deduzione sì.
+- Dollaro per dollaro, le detrazioni valgono in genere di più delle deduzioni.
+- Entrambi gli strumenti riducono ciò che devi, ma con meccanismi diversi.
