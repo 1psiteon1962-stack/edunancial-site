@@ -1,0 +1,399 @@
+===== GREEN-L1-021
+TITLE: Prazos de entrega da declaração e porque são importantes
+SUMMARY: Aborda a importância prática dos prazos de entrega da declaração de rendimentos e as consequências gerais de não os cumprir.
+# Prazos de entrega da declaração e porque são importantes
+
+## Objetivos de aprendizagem
+
+- Explicar porque é que os sistemas fiscais definem prazos de entrega.
+- Identificar as consequências gerais de falhar um prazo.
+- Reconhecer a diferença entre prorrogar a entrega e prorrogar o pagamento.
+
+## Conteúdo principal
+
+A maioria dos sistemas fiscais define um prazo anual para a entrega das declarações. Os prazos existem para manter o sistema previsível e aplicável: sem eles, a entrega poderia ser adiada indefinidamente, o Estado teria dificuldade em planear a receita e os contribuintes não saberiam em que situação estão. (Em Portugal, a declaração de IRS é entregue num período fixo da primavera; as datas e regras podem mudar.)
+
+Falhar um prazo de entrega tem normalmente consequências: coimas, juros sobre os montantes por pagar ou ambos, consoante o sistema. Muitos sistemas permitem pedir a prorrogação do próprio prazo de entrega, mas é fundamental perceber uma armadilha comum: prorrogar a entrega muitas vezes não é o mesmo que prorrogar o pagamento. Mesmo com o prazo de entrega prorrogado, o imposto efetivamente devido pode ter de ser pago até à data original para evitar juros e coimas: a prorrogação muitas vezes só adia a papelada, e não a obrigação de pagar.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário pede a prorrogação do prazo de entrega e parte do princípio de que também não tem de pagar nada até à nova data. Essa suposição é segura?
+
+**Aluno:** Pelo que disse, provavelmente não: prorrogar a entrega pode não ser o mesmo que prorrogar o pagamento.
+
+**Guia:** Qual é a abordagem mais segura se ele não souber ao certo quanto vai dever?
+
+**Aluno:** Estimar e pagar até à data original um montante próximo do que provavelmente deve, mesmo que a papelada seja entregue mais tarde.
+
+**Guia:** Exatamente: tratar a prorrogação da entrega como prorrogação do pagamento é uma das suposições mais comuns e caras.
+
+## Teste de prática
+
+**Pergunta 1.** Os prazos de entrega existem para:
+
+A) Castigar os contribuintes
+B) Manter o sistema previsível e aplicável
+C) Beneficiar apenas as grandes empresas
+D) Nenhum objetivo real
+
+**Pergunta 2.** Falhar um prazo de entrega costuma dar origem a:
+
+A) Nada
+B) Coimas, juros ou ambos
+C) Um reembolso automático
+D) Um crédito fiscal
+
+**Pergunta 3.** A prorrogação do prazo de entrega é:
+
+A) Sempre o mesmo que a prorrogação do pagamento
+B) Muitas vezes diferente da prorrogação do pagamento
+C) Proibida na maioria dos sistemas
+D) Disponível apenas para empresas
+
+**Pergunta 4.** Se não se sabe ao certo quanto é devido, mas foi pedida a prorrogação da entrega, a abordagem mais segura é:
+
+A) Não pagar nada até à nova data
+B) Estimar e pagar um montante próximo do provável até à data original
+C) Ignorar completamente a situação
+D) Partir do princípio de que nunca será preciso pagar
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A previsibilidade e a aplicabilidade são as razões práticas para a existência de prazos nos sistemas fiscais.
+
+**2.** A entrega tardia tem muitas vezes consequências financeiras pensadas para incentivar o cumprimento atempado.
+
+**3.** As prorrogações de entrega muitas vezes só adiam a papelada, e não a obrigação de pagamento subjacente.
+
+**4.** Estimar e pagar um montante próximo do real até à data original protege contra juros e coimas, mesmo que a papelada seja entregue depois.
+
+## Pontos-chave
+
+- Os prazos existem para manter os sistemas fiscais previsíveis e aplicáveis.
+- Falhar um prazo dá normalmente origem a coimas, juros ou ambos.
+- Prorrogar a entrega muitas vezes não é o mesmo que prorrogar o pagamento.
+- Se não souber o montante exato devido, estime-o e pague um valor próximo até à data original.
+
+===== GREEN-L1-022
+TITLE: Pagamentos por conta para trabalhadores independentes
+SUMMARY: Apresenta o conceito de pagamentos periódicos e estimados de imposto, consequência direta de não haver uma entidade empregadora a reter o imposto automaticamente.
+# Pagamentos por conta para trabalhadores independentes
+
+## Objetivos de aprendizagem
+
+- Explicar porque é que os trabalhadores independentes precisam muitas vezes de fazer pagamentos estimados de imposto.
+- Descrever o ritmo geral dos pagamentos estimados (periódicos, e não uma vez por ano).
+- Ligar isto à lição anterior sobre o W-2 e o 1099.
+
+## Conteúdo principal
+
+Quando trabalha por conta de outrem, a entidade empregadora retém automaticamente imposto ao longo do ano. Quando trabalha por conta própria, ninguém faz isso por si, e é exatamente por isso que muitos sistemas exigem que os trabalhadores independentes façam pagamentos estimados de imposto periodicamente ao longo do ano, muitas vezes por trimestre, em vez de pagarem tudo de uma vez quando entregam a declaração. (Em Portugal, alguns trabalhadores independentes têm de fazer pagamentos por conta de IRS ao longo do ano, além da retenção que alguns clientes fazem; as regras mudam.)
+
+Esta é uma consequência direta e prática da distinção entre trabalhador por conta de outrem e prestador independente vista antes. O Estado continua a esperar que o imposto seja pago mais ou menos à medida que o rendimento é obtido, e não todo de uma vez no fim do ano; assim, a responsabilidade que o processamento salarial da entidade empregadora assume automaticamente pelo trabalhador passa por inteiro para o trabalhador independente. Saltar os pagamentos estimados não elimina o imposto devido; apenas cria o risco de coimas e juros por pagamento insuficiente, além do próprio imposto, quando o ano for finalmente acertado.
+
+## Exemplo prático
+
+**Pergunta:** Uma designer gráfica que acabou de começar a trabalhar por conta própria acha que pode simplesmente pagar todo o imposto de uma vez quando entregar a declaração no próximo ano. Que risco corre?
+
+**Aluno:** Segundo esta lição, pode ter de pagar coimas por não ter pago ao longo do ano, além do próprio imposto.
+
+**Guia:** Porque é que o sistema espera pagamentos ao longo do ano, e não tudo de uma vez?
+
+**Aluno:** Porque é assim que funciona também para os trabalhadores por conta de outrem, só que automaticamente, através da retenção; para o independente, a tarefa passa apenas de automática a manual.
+
+**Guia:** Exatamente: a expectativa de fundo não muda, muda apenas quem é responsável por agir.
+
+## Teste de prática
+
+**Pergunta 1.** Os pagamentos estimados de imposto são sobretudo relevantes para:
+
+A) Trabalhadores por conta de outrem com retenção automática
+B) Trabalhadores independentes sem entidade empregadora que retenha por eles
+C) Apenas reformados
+D) Apenas grandes empresas
+
+**Pergunta 2.** Os pagamentos estimados são normalmente feitos:
+
+A) Uma vez, no fim do ano
+B) Periodicamente ao longo do ano, muitas vezes por trimestre
+C) Nunca
+D) Apenas se o Estado o pedir
+
+**Pergunta 3.** Saltar os pagamentos estimados normalmente:
+
+A) Elimina o imposto devido
+B) Cria o risco de coimas por pagamento insuficiente, além do próprio imposto
+C) Não tem consequências
+D) Dá origem a um reembolso automático
+
+**Pergunta 4.** Esta lição liga-se mais diretamente a que tema anterior?
+
+A) Imposto sobre o património
+B) W-2 e 1099 / trabalhador por conta de outrem ou independente
+C) Bens públicos
+D) Imposto sobre as vendas
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Como nenhuma entidade empregadora retém por eles, os trabalhadores independentes têm de estimar e pagar o imposto por iniciativa própria.
+
+**2.** Os pagamentos periódicos ao longo do ano refletem a lógica de "pagar à medida que se ganha" presente na maioria dos sistemas.
+
+**3.** As coimas por pagamento insuficiente existem precisamente para desincentivar quem espera pelo fim do ano para pagar tudo de uma vez.
+
+**4.** Esta lição é, na prática, a continuação da distinção anterior entre trabalhador por conta de outrem e independente.
+
+## Pontos-chave
+
+- Os trabalhadores independentes têm geralmente de fazer os seus próprios pagamentos estimados de imposto.
+- Estes pagamentos são normalmente periódicos (muitas vezes trimestrais), e não um montante único no fim do ano.
+- Saltá-los cria o risco de coimas, mesmo que o imposto continue a ser devido no final.
+- Isto é uma consequência direta de não existir a retenção automática de uma entidade empregadora.
+
+===== GREEN-L1-023
+TITLE: Contribuições dos independentes: o que devem freelancers e donos de negócios
+SUMMARY: Parte da lição sobre as contribuições sobre os salários para explicar porque é que os trabalhadores independentes suportam muitas vezes tanto a parte da entidade empregadora como a do trabalhador.
+# Contribuições dos independentes: o que devem freelancers e donos de negócios
+
+## Objetivos de aprendizagem
+
+- Recordar como as contribuições sobre os salários são repartidas entre a entidade empregadora e o trabalhador.
+- Explicar porque é que um trabalhador independente deve muitas vezes as duas partes.
+- Reconhecer isto como um ponto-chave de planeamento para freelancers e pequenos empresários.
+
+## Conteúdo principal
+
+Já viu que as contribuições sobre os salários são muitas vezes repartidas entre a entidade empregadora e o trabalhador: uma parte é descontada no salário e outra é paga em separado pela entidade empregadora. Quando trabalha por conta própria, é na prática as duas coisas: entidade empregadora e trabalhador. Muitos sistemas têm isso em conta exigindo que os trabalhadores independentes paguem uma versão destas contribuições que cobre as duas partes; nos EUA chama-se "self-employment tax". (Em Portugal, os trabalhadores independentes pagam as suas próprias contribuições para a Segurança Social, com base em declarações trimestrais, e as empresas que lhes compram serviços podem ter também uma contribuição; as regras e taxas mudam.)
+
+Este é um dos custos mais subestimados do trabalho por conta própria. Um freelancer em início de atividade que compara o total dos seus recibos com o recibo de vencimento de um trabalhador com salário equivalente pode subestimar muito a sua carga real, se se esquecer de que, enquanto empresa de uma só pessoa, cobre os dois lados destas contribuições. Perceber isto com antecedência, e pôr dinheiro de parte em conformidade, evita uma surpresa desagradável na hora de entregar a declaração.
+
+## Exemplo prático
+
+**Pergunta:** Uma freelancer compara os seus 80 000 $ anuais faturados com o emprego de uma amiga com salário de 80 000 $ e parte do princípio de que a situação fiscal das duas é basicamente igual. É mesmo?
+
+**Aluno:** Provavelmente não, porque a entidade empregadora da amiga cobre automaticamente metade destas contribuições.
+
+**Guia:** O que significa isso para a carga real da freelancer em comparação com a da amiga?
+
+**Aluno:** Provavelmente deve mais no total, porque é responsável sozinha pela parte da entidade empregadora e pela do trabalhador.
+
+**Guia:** Exatamente: o mesmo rendimento no papel, uma realidade fiscal bem diferente.
+
+## Teste de prática
+
+**Pergunta 1.** As contribuições dos independentes cobrem geralmente:
+
+A) Apenas a parte do trabalhador das contribuições sobre os salários
+B) A parte da entidade empregadora e a do trabalhador
+C) Apenas o imposto sobre as vendas
+D) Apenas o imposto sobre o património
+
+**Pergunta 2.** Porque é que um trabalhador independente deve muitas vezes mais contribuições do que um trabalhador por conta de outrem equivalente?
+
+A) Ganha automaticamente mais
+B) Tem de cobrir sozinho a parte da entidade empregadora e a do trabalhador
+C) Os independentes são tributados a taxas aleatórias
+D) Não deve: os montantes são sempre idênticos
+
+**Pergunta 3.** Qual é uma consequência prática de subestimar as contribuições dos independentes?
+
+A) Nenhuma consequência
+B) Uma surpresa desagradável ou falta de dinheiro na hora de entregar a declaração
+C) Um reembolso automático
+D) Uma situação na declaração mais baixa
+
+**Pergunta 4.** Qual é a forma recomendada de evitar esta surpresa?
+
+A) Ignorá-la até à declaração
+B) Perceber a carga real com antecedência e pôr dinheiro de parte em conformidade
+C) Gastar imediatamente todo o rendimento faturado
+D) Evitar qualquer trabalho por conta própria
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As contribuições dos independentes são, basicamente, o mecanismo para cobrar as duas partes destas contribuições a uma única pessoa.
+
+**2.** Ser ao mesmo tempo entidade empregadora e trabalhador significa responder pelas duas partes.
+
+**3.** Subestimar este custo é uma armadilha comum que leva a uma conta maior do que a esperada.
+
+**4.** A defesa prática é a consciência antecipada e a poupança, em vez de reagir depois.
+
+## Pontos-chave
+
+- Os trabalhadores independentes devem muitas vezes a parte da entidade empregadora e a do trabalhador destas contribuições.
+- Por isso, o rendimento do trabalho independente tem uma carga bem diferente da de um salário equivalente.
+- Este é um dos custos mais subestimados do trabalho por conta própria.
+- Planear com antecedência e pôr dinheiro de parte evita uma surpresa desagradável na hora de entregar a declaração.
+
+===== GREEN-L1-024
+TITLE: Noções básicas de organização de documentos: faturas, extratos e comprovativos
+SUMMARY: Apresenta o hábito e a lógica de guardar documentos para efeitos fiscais como proteção, e não apenas como papelada.
+# Noções básicas de organização de documentos: faturas, extratos e comprovativos
+
+## Objetivos de aprendizagem
+
+- Explicar porque é que guardar documentos é importante para os impostos.
+- Identificar categorias comuns de documentos que vale a pena guardar.
+- Descrever um hábito simples para se manter organizado ao longo do ano.
+
+## Conteúdo principal
+
+Uma boa organização de documentos é a base silenciosa de quase todos os outros temas fiscais desta trilha: as deduções, os créditos e as declarações de trabalho independente só se sustentam se os puder comprovar com documentos. Categorias comuns que vale a pena guardar incluem faturas de compras dedutíveis, extratos bancários e de investimentos, recibos de vencimento, faturas-recibo emitidas (para os independentes) e declarações de anos anteriores. (Em Portugal, muitas despesas dedutíveis no IRS dependem de faturas com o NIF comunicadas no e-Fatura, e há prazos legais de conservação de documentos que podem mudar.)
+
+O hábito que separa quem trata disto com tranquilidade de quem anda a correr todos os anos é simples: registar e organizar os documentos à medida que surgem, e não meses depois, na altura da declaração. Uma única pasta (em papel ou digital), criada no início do ano e alimentada à medida que as coisas acontecem, é melhor do que tentar reconstruir de memória, em pânico, um ano inteiro de movimentos financeiros antes de um prazo. Bons documentos não o ajudam apenas a declarar corretamente: são a sua proteção se alguma informação vier a ser questionada.
+
+## Exemplo prático
+
+**Pergunta:** Um pequeno empresário atira todas as faturas para uma caixa de sapatos durante o ano inteiro, sem qualquer organização. Isso é melhor do que nada, e poderia ser melhorado?
+
+**Aluno:** É melhor do que perder as faturas, mas continua a parecer trabalhoso de usar mais tarde.
+
+**Guia:** Como seria uma pequena melhoria, sem exigir um sistema perfeito?
+
+**Aluno:** Talvez separar as faturas em algumas categorias básicas à medida que chegam, em vez de ter uma pilha enorme para organizar de uma só vez.
+
+**Guia:** Certo: o objetivo não é a perfeição, é facilitar o trabalho ao seu "eu" do futuro.
+
+## Teste de prática
+
+**Pergunta 1.** Guardar documentos é importante sobretudo porque:
+
+A) É exigido sem motivo
+B) Sustenta deduções, créditos e declarações caso sejam questionados
+C) Não tem nada a ver com impostos
+D) Só as empresas precisam disso
+
+**Pergunta 2.** Documentos comuns que vale a pena guardar incluem:
+
+A) Faturas, extratos, recibos de vencimento, faturas-recibo
+B) Apenas publicações nas redes sociais
+C) Nada: os documentos digitais não contam
+D) Apenas palavras-passe do banco
+
+**Pergunta 3.** O hábito recomendado é:
+
+A) Reconstruir tudo de memória na altura da declaração
+B) Registar e organizar os documentos à medida que surgem ao longo do ano
+C) Deitar fora todos os documentos de imediato
+D) Guardar documentos apenas se for rico
+
+**Pergunta 4.** Bons documentos servem como:
+
+A) Decoração
+B) Proteção caso alguma informação venha a ser questionada
+C) Substitutos da declaração
+D) Nada de útil
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Todas as deduções, créditos ou declarações têm, no fim, de ser sustentados por documentos reais caso sejam verificados.
+
+**2.** Faturas, extratos, recibos de vencimento e faturas-recibo formam a espinha dorsal de uma boa organização de documentos.
+
+**3.** Registar aos poucos, com pouco esforço, é melhor do que correr no fim do ano para reconstruir a história financeira.
+
+**4.** Os documentos são o que sustenta uma informação se a autoridade tributária fizer perguntas sobre ela.
+
+## Pontos-chave
+
+- Guardar documentos sustenta todas as deduções, créditos e informações que declara.
+- Guarde faturas, extratos, recibos de vencimento e faturas-recibo à medida que surgem.
+- Organizar continuamente é melhor do que reconstruir tudo à última hora.
+- Bons documentos são a sua proteção caso alguma informação venha a ser questionada.
+
+===== GREEN-L1-025
+TITLE: Despesas comuns dedutíveis de um negócio
+SUMMARY: Apresenta categorias gerais de despesas de negócio que são muitas vezes dedutíveis, mantendo o foco nos conceitos devido às diferenças entre países.
+# Despesas comuns dedutíveis de um negócio
+
+## Objetivos de aprendizagem
+
+- Explicar o princípio geral por detrás das despesas dedutíveis de um negócio.
+- Identificar categorias comuns de despesas dedutíveis.
+- Reconhecer porque é que as despesas pessoais geralmente não são aceites.
+
+## Conteúdo principal
+
+A maioria dos sistemas fiscais permite que os negócios deduzam despesas "habituais e necessárias" ao funcionamento do negócio, ou seja, normais para esse tipo de negócio e realmente necessárias para operar, e não luxuosas ou puramente pessoais. (Em Portugal, as regras dependem do regime: na contabilidade organizada contam os gastos indispensáveis à atividade, enquanto no regime simplificado se aplicam coeficientes ao rendimento; tudo isto muda.) As categorias comuns, em termos gerais, incluem materiais e consumíveis, renda do espaço comercial, deslocações em serviço, marketing e publicidade, serviços profissionais (como um advogado ou contabilista) e equipamento.
+
+Um teste útil a reter: esta despesa existiria se o negócio não existisse? Um portátil comprado especificamente para trabalhos de clientes passa este teste com muito mais clareza do que umas férias justificadas vagamente como "networking". Misturar despesas pessoais e do negócio sem uma linha clara é um dos erros mais comuns de quem está a começar, e é precisamente por isso que a lição anterior sobre organização de documentos é tão importante aqui: uma documentação organizada torna defensável a linha entre o negócio e a vida pessoal.
+
+## Exemplo prático
+
+**Pergunta:** Uma empresária compra um portátil que usa apenas para trabalhos de design para clientes. Mais tarde, lança também como despesa umas férias em família, chamando-lhes "networking". As duas despesas são tratadas da mesma forma?
+
+**Aluno:** Acho que não: o portátil está claramente ligado ao trabalho real do negócio.
+
+**Guia:** Que teste aplicaria às férias?
+
+**Aluno:** Esta despesa existiria se o negócio não existisse? O portátil provavelmente não teria sido comprado sem o negócio; as férias provavelmente aconteceriam de qualquer forma.
+
+**Guia:** Exatamente: é este tipo de raciocínio que separa uma despesa legítima do negócio de uma despesa pessoal disfarçada de despesa do negócio.
+
+## Teste de prática
+
+**Pergunta 1.** Um critério geral comum para as despesas dedutíveis de um negócio é:
+
+A) Qualquer despesa, pessoal ou não
+B) Habitual e necessária para o negócio
+C) Apenas despesas acima de 10 000 $
+D) Apenas despesas pagas em numerário
+
+**Pergunta 2.** Categorias comuns de despesas dedutíveis de um negócio incluem:
+
+A) Consumíveis, renda, deslocações, marketing, serviços profissionais, equipamento
+B) Apenas compras de supermercado
+C) Apenas férias
+D) Apenas roupa pessoal
+
+**Pergunta 3.** Um teste útil para saber se uma despesa é do negócio é:
+
+A) Esta despesa existiria se o negócio não existisse?
+B) É cara?
+C) Foi paga em numerário?
+D) Aconteceu num dia útil?
+
+**Pergunta 4.** Misturar despesas pessoais e do negócio sem uma linha clara:
+
+A) É recomendado
+B) É um erro comum e arriscado de quem está a começar um negócio
+C) Não tem consequências
+D) Só importa para as grandes empresas
+
+## Chave de Respostas
+
+1. B, 2. A, 3. A, 4. B
+
+## Respostas e explicações
+
+**1.** "Habitual e necessária" é um critério geral muito usado, embora as regras exatas variem consoante o país.
+
+**2.** Estas categorias representam os custos operacionais típicos da maioria dos negócios.
+
+**3.** Este teste ajuda a separar as despesas realmente ligadas ao negócio dos gastos pessoais apenas rotulados de outra forma.
+
+**4.** Esbater a linha entre o pessoal e o negócio sem documentação é uma armadilha comum que uma boa organização de documentos ajuda a evitar.
+
+## Pontos-chave
+
+- As despesas dedutíveis de um negócio são geralmente as habituais e necessárias para ele.
+- As categorias comuns incluem consumíveis, renda, deslocações, marketing, serviços profissionais e equipamento.
+- Um teste útil: a despesa existiria sem o negócio?
+- Misturar despesas pessoais e do negócio sem uma linha clara é um erro comum e arriscado.

@@ -1,0 +1,399 @@
+===== GREEN-L1-021
+TITLE: Le scadenze della dichiarazione e perché contano
+SUMMARY: Tratta l'importanza pratica delle scadenze per la dichiarazione dei redditi e le conseguenze generali se non vengono rispettate.
+# Le scadenze della dichiarazione e perché contano
+
+## Obiettivi di apprendimento
+
+- Spiegare perché i sistemi fiscali fissano scadenze per la dichiarazione.
+- Riconoscere le conseguenze generali di una scadenza mancata.
+- Riconoscere la differenza tra una proroga per presentare la dichiarazione e una proroga per pagare.
+
+## Contenuto principale
+
+La maggior parte dei sistemi fiscali fissa una scadenza annuale entro cui presentare la dichiarazione. Le scadenze servono a mantenere il sistema prevedibile e applicabile: senza di esse la presentazione potrebbe essere rinviata all'infinito, lo Stato faticherebbe a pianificare le entrate e i contribuenti non saprebbero a che punto sono. (In Italia le scadenze del 730, del Modello Redditi e dei versamenti sono diverse tra loro e vengono a volte modificate.)
+
+Mancare una scadenza comporta di solito delle conseguenze: sanzioni, interessi sulle somme non versate o entrambi, a seconda del sistema. Molti sistemi permettono di chiedere una proroga della scadenza di presentazione, ma è fondamentale capire una trappola comune: una proroga per presentare la dichiarazione spesso non è la stessa cosa di una proroga per pagare. Anche con una proroga, l'imposta effettivamente dovuta può dover essere versata entro la scadenza originaria per evitare interessi e sanzioni: la proroga spesso rinvia solo le pratiche, non l'obbligo di pagamento.
+
+## Esempio svolto
+
+**Domanda:** Un imprenditore ottiene una proroga per presentare la dichiarazione e pensa di non dover pagare nulla fino alla nuova scadenza. È un'ipotesi sicura?
+
+**Studente:** Da quello che hai detto, probabilmente no: una proroga per presentare potrebbe non essere una proroga per pagare.
+
+**Guida:** Qual è l'approccio più sicuro se non sa con precisione quanto dovrà?
+
+**Studente:** Stimare e versare entro la scadenza originaria un importo vicino a quello probabilmente dovuto, anche se le pratiche vengono presentate più tardi.
+
+**Guida:** Esatto: trattare una proroga di presentazione come una proroga di pagamento è uno degli errori più comuni e costosi.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Le scadenze della dichiarazione esistono per:
+
+A) Punire i contribuenti
+B) Mantenere il sistema prevedibile e applicabile
+C) Favorire solo le grandi aziende
+D) Nessuno scopo reale
+
+**Domanda 2.** Mancare una scadenza della dichiarazione comporta di solito:
+
+A) Niente
+B) Sanzioni, interessi o entrambi
+C) Un rimborso automatico
+D) Un credito d'imposta
+
+**Domanda 3.** Una proroga per presentare la dichiarazione è:
+
+A) Sempre la stessa cosa di una proroga per pagare
+B) Spesso non la stessa cosa di una proroga per pagare
+C) Vietata nella maggior parte dei sistemi
+D) Disponibile solo per le imprese
+
+**Domanda 4.** Se non si sa con certezza quanto si deve ma si è ottenuta una proroga per presentare, l'approccio più sicuro è:
+
+A) Non pagare nulla fino alla nuova scadenza
+B) Stimare e versare un importo vicino a quello probabile entro la scadenza originaria
+C) Ignorare del tutto la situazione
+D) Dare per scontato che non serva mai pagare
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Prevedibilità e applicabilità sono i motivi pratici per cui i sistemi fiscali prevedono scadenze.
+
+**2.** La presentazione tardiva comporta spesso conseguenze economiche pensate per incoraggiare il rispetto dei tempi.
+
+**3.** Le proroghe di presentazione spesso rinviano solo le pratiche, non l'obbligo di pagamento sottostante.
+
+**4.** Stimare e versare un importo vicino a quello reale entro la scadenza originaria protegge da interessi e sanzioni anche se le pratiche arrivano dopo.
+
+## Punti chiave
+
+- Le scadenze servono a mantenere i sistemi fiscali prevedibili e applicabili.
+- Mancare una scadenza comporta di solito sanzioni, interessi o entrambi.
+- Una proroga per presentare spesso non è la stessa cosa di una proroga per pagare.
+- Se non conosci l'importo esatto, stimalo e versane uno vicino entro la scadenza originaria.
+
+===== GREEN-L1-022
+TITLE: Gli acconti d'imposta per i lavoratori autonomi
+SUMMARY: Presenta il concetto di acconti d'imposta periodici, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta.
+# Gli acconti d'imposta per i lavoratori autonomi
+
+## Obiettivi di apprendimento
+
+- Spiegare perché i lavoratori autonomi devono spesso versare acconti d'imposta.
+- Descrivere il ritmo generale dei versamenti in acconto (periodici, non una volta l'anno).
+- Collegare questo alla lezione precedente su W-2 e 1099.
+
+## Contenuto principale
+
+Quando sei dipendente, il datore di lavoro trattiene automaticamente l'imposta durante tutto l'anno. Quando sei autonomo, nessuno lo fa per te: è proprio per questo che molti sistemi chiedono ai lavoratori autonomi di versare acconti d'imposta periodici durante l'anno, spesso trimestrali, invece di pagare tutto in un'unica soluzione al momento della dichiarazione. (In Italia, chi ha partita IVA versa in genere saldo e acconti dell'imposta in date fissate durante l'anno; scadenze e regole cambiano.)
+
+È una conseguenza diretta e pratica della distinzione tra dipendente e collaboratore autonomo vista in precedenza. Lo Stato si aspetta comunque che l'imposta venga pagata più o meno man mano che si guadagna, non tutta insieme a fine anno: così la responsabilità che il sistema paghe del datore di lavoro gestisce automaticamente per il dipendente passa interamente al lavoratore autonomo. Saltare gli acconti non elimina l'imposta dovuta; aggiunge solo il rischio di sanzioni per versamento insufficiente, oltre all'imposta stessa, quando l'anno viene finalmente chiuso.
+
+## Esempio svolto
+
+**Domanda:** Una grafica che si è appena messa in proprio pensa di poter pagare tutta l'imposta in una volta quando presenterà la dichiarazione l'anno prossimo. Quale rischio corre?
+
+**Studente:** Secondo questa lezione, potrebbe dover pagare sanzioni per non aver versato durante l'anno, oltre all'imposta stessa.
+
+**Guida:** Perché il sistema si aspetta pagamenti durante l'anno invece che tutti insieme?
+
+**Studente:** Perché funziona così anche per i dipendenti, solo in modo automatico tramite le ritenute: per l'autonomo diventa semplicemente un compito manuale invece che automatico.
+
+**Guida:** Esatto: l'aspettativa di fondo non cambia, cambia solo chi deve agire.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Gli acconti d'imposta riguardano soprattutto:
+
+A) I dipendenti con ritenute automatiche
+B) I lavoratori autonomi per cui nessun datore di lavoro trattiene l'imposta
+C) Solo i pensionati
+D) Solo le grandi aziende
+
+**Domanda 2.** Gli acconti vengono di solito versati:
+
+A) Una volta, a fine anno
+B) Periodicamente durante l'anno, spesso ogni trimestre
+C) Mai
+D) Solo se lo chiede lo Stato
+
+**Domanda 3.** Saltare gli acconti di solito:
+
+A) Elimina l'imposta dovuta
+B) Comporta il rischio di sanzioni per versamento insufficiente, oltre all'imposta
+C) Non ha conseguenze
+D) Produce un rimborso automatico
+
+**Domanda 4.** Questa lezione si collega più direttamente a quale argomento precedente?
+
+A) Imposta sugli immobili
+B) W-2 e 1099 / dipendente o collaboratore autonomo
+C) Beni pubblici
+D) Imposta sulle vendite
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Poiché nessun datore di lavoro trattiene per loro, i lavoratori autonomi devono stimare e versare l'imposta da soli.
+
+**2.** I versamenti periodici durante l'anno rispecchiano il principio del "pagamento man mano" presente nella maggior parte dei sistemi.
+
+**3.** Le sanzioni per versamento insufficiente esistono proprio per scoraggiare chi aspetta la fine dell'anno per pagare tutto in una volta.
+
+**4.** Questa lezione è in sostanza il seguito pratico della distinzione tra dipendente e collaboratore autonomo.
+
+## Punti chiave
+
+- I lavoratori autonomi devono in genere versare da soli gli acconti d'imposta.
+- Questi versamenti sono di solito periodici (spesso trimestrali), non una somma unica a fine anno.
+- Saltare gli acconti comporta il rischio di sanzioni, anche se l'imposta resta comunque dovuta.
+- È una conseguenza diretta dell'assenza delle ritenute automatiche di un datore di lavoro.
+
+===== GREEN-L1-023
+TITLE: I contributi dei lavoratori autonomi: che cosa devono freelance e imprenditori
+SUMMARY: Si basa sulla lezione sui contributi sugli stipendi per spiegare perché i lavoratori autonomi devono spesso sia la quota del datore di lavoro sia quella del lavoratore.
+# I contributi dei lavoratori autonomi: che cosa devono freelance e imprenditori
+
+## Obiettivi di apprendimento
+
+- Ricordare come i contributi sugli stipendi sono ripartiti tra datore di lavoro e lavoratore.
+- Spiegare perché un lavoratore autonomo deve spesso entrambe le quote.
+- Riconoscere questo aspetto come un punto chiave di pianificazione per freelance e piccoli imprenditori.
+
+## Contenuto principale
+
+Hai già visto che i contributi sugli stipendi sono spesso ripartiti tra datore di lavoro e lavoratore: una parte viene trattenuta dallo stipendio, una parte viene pagata separatamente dal datore di lavoro. Quando sei autonomo, in pratica sei sia il datore di lavoro sia il lavoratore. Molti sistemi ne tengono conto chiedendo ai lavoratori autonomi di versare una forma di contributi che copre entrambe le quote: negli Stati Uniti si chiama "self-employment tax". (In Italia, per esempio, chi ha partita IVA versa i contributi alla gestione INPS di riferimento o alla propria cassa professionale interamente a proprio carico; aliquote e regole cambiano.)
+
+È uno dei costi più sottovalutati del lavoro autonomo. Un nuovo freelance che confronta il totale delle sue fatture con la busta paga di un dipendente con un reddito equivalente può sottovalutare molto il proprio carico reale, se dimentica che, come impresa di una sola persona, copre entrambe le parti di questi contributi. Capirlo in anticipo, e mettere da parte il denaro di conseguenza, evita una brutta sorpresa al momento della dichiarazione.
+
+## Esempio svolto
+
+**Domanda:** Una freelance confronta i suoi 80.000 $ di fatture annue con il lavoro dipendente da 80.000 $ di un'amica e pensa che la loro situazione fiscale sia praticamente uguale. È così?
+
+**Studente:** Probabilmente no, perché il datore di lavoro dell'amica copre automaticamente metà dei contributi.
+
+**Guida:** Che cosa significa questo per il carico reale della freelance rispetto a quello dell'amica?
+
+**Studente:** Probabilmente deve di più in contributi complessivi, perché è responsabile da sola sia della quota del datore di lavoro sia di quella del lavoratore.
+
+**Guida:** Esatto: stesso reddito sulla carta, realtà fiscale molto diversa.
+
+## Quiz di esercitazione
+
+**Domanda 1.** I contributi dei lavoratori autonomi coprono in genere:
+
+A) Solo la quota del lavoratore dei contributi sugli stipendi
+B) Sia la quota del datore di lavoro sia quella del lavoratore
+C) Solo l'imposta sulle vendite
+D) Solo l'imposta sugli immobili
+
+**Domanda 2.** Perché un lavoratore autonomo deve spesso più contributi di un dipendente equivalente?
+
+A) Guadagna automaticamente di più
+B) Deve coprire da solo sia la quota del datore di lavoro sia quella del lavoratore
+C) Gli autonomi sono tassati con aliquote casuali
+D) Non è vero: gli importi sono sempre identici
+
+**Domanda 3.** Qual è una conseguenza pratica del sottovalutare i contributi da autonomo?
+
+A) Nessuna conseguenza
+B) Una brutta sorpresa o un ammanco al momento della dichiarazione
+C) Un rimborso automatico
+D) Uno stato ai fini della dichiarazione più basso
+
+**Domanda 4.** Qual è il modo consigliato per evitare questa sorpresa?
+
+A) Ignorarla fino alla dichiarazione
+B) Capire in anticipo il carico reale e mettere da parte il denaro di conseguenza
+C) Spendere subito tutti gli incassi delle fatture
+D) Evitare qualsiasi lavoro autonomo
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** I contributi dei lavoratori autonomi sono in sostanza il meccanismo per riscuotere entrambe le quote da una sola persona.
+
+**2.** Essere insieme datore di lavoro e lavoratore significa dover rispondere di entrambe le quote.
+
+**3.** Sottovalutare questo costo è una trappola comune che porta a un conto più alto del previsto.
+
+**4.** La difesa pratica è la consapevolezza e il risparmio in anticipo, invece di reagire a cose fatte.
+
+## Punti chiave
+
+- I lavoratori autonomi devono spesso sia la quota del datore di lavoro sia quella del lavoratore.
+- Il reddito da lavoro autonomo ha quindi un carico molto diverso rispetto a uno stipendio equivalente.
+- È uno dei costi più sottovalutati del lavoro autonomo.
+- Pianificare in anticipo e mettere da parte il denaro evita una brutta sorpresa al momento della dichiarazione.
+
+===== GREEN-L1-024
+TITLE: Le basi della conservazione dei documenti: ricevute, estratti conto e giustificativi
+SUMMARY: Presenta l'abitudine e la logica della conservazione dei documenti fiscali come forma di protezione, non solo come burocrazia.
+# Le basi della conservazione dei documenti: ricevute, estratti conto e giustificativi
+
+## Obiettivi di apprendimento
+
+- Spiegare perché la conservazione dei documenti conta ai fini fiscali.
+- Riconoscere le categorie di documenti che vale la pena conservare.
+- Descrivere un'abitudine semplice per restare organizzati durante l'anno.
+
+## Contenuto principale
+
+Una buona conservazione dei documenti è la base silenziosa di quasi tutti gli altri argomenti fiscali di questo percorso: deduzioni, detrazioni e dichiarazioni da lavoro autonomo reggono solo se puoi sostenerle con dei documenti. Tra le categorie da conservare ci sono le ricevute degli acquisti deducibili o detraibili, gli estratti conto bancari e degli investimenti, le buste paga, le fatture (per gli autonomi) e le dichiarazioni degli anni precedenti. (In Italia, per esempio, molte spese detraibili richiedono pagamenti tracciabili, e i documenti vanno conservati per i termini previsti dalla legge, che possono cambiare.)
+
+L'abitudine che distingue chi gestisce tutto con calma da chi si affanna ogni anno è semplice: raccogliere e ordinare i documenti man mano che arrivano, non mesi dopo al momento della dichiarazione. Un'unica cartella (fisica o digitale) aperta a inizio anno, in cui inserire le cose quando succedono, è meglio che cercare di ricostruire a memoria, in preda al panico, un intero anno di movimenti prima di una scadenza. Buoni documenti non ti aiutano solo a dichiarare correttamente: sono la tua protezione se in futuro qualcosa viene contestato.
+
+## Esempio svolto
+
+**Domanda:** Un piccolo imprenditore butta tutte le ricevute in una scatola da scarpe per tutto l'anno, senza alcun ordine. È meglio di niente, e si potrebbe migliorare?
+
+**Studente:** È meglio che perdere le ricevute, ma sembra comunque complicato da gestire dopo.
+
+**Guida:** Come sarebbe un piccolo miglioramento, senza bisogno di un sistema perfetto?
+
+**Studente:** Magari dividere le ricevute in poche categorie di base man mano che arrivano, invece di avere un unico mucchio da smistare tutto insieme.
+
+**Guida:** Giusto: l'obiettivo non è la perfezione, ma rendere più facile il lavoro al te stesso del futuro.
+
+## Quiz di esercitazione
+
+**Domanda 1.** La conservazione dei documenti conta soprattutto perché:
+
+A) È obbligatoria senza motivo
+B) Sostiene deduzioni, detrazioni e dichiarazioni se vengono contestate
+C) Non ha niente a che fare con le imposte
+D) Serve solo alle imprese
+
+**Domanda 2.** Tra i documenti che vale la pena conservare ci sono:
+
+A) Ricevute, estratti conto, buste paga, fatture
+B) Solo i post sui social
+C) Niente: i documenti digitali non contano
+D) Solo le password della banca
+
+**Domanda 3.** L'abitudine consigliata è:
+
+A) Ricostruire tutto a memoria al momento della dichiarazione
+B) Raccogliere e ordinare i documenti man mano che arrivano durante l'anno
+C) Buttare subito tutti i documenti
+D) Conservare documenti solo se si è ricchi
+
+**Domanda 4.** Buoni documenti servono come:
+
+A) Decorazione
+B) Protezione se qualcosa viene contestato
+C) Sostituto della dichiarazione
+D) Niente di utile
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Ogni deduzione, detrazione o dichiarazione deve in definitiva poggiare su documenti reali, se viene controllata.
+
+**2.** Ricevute, estratti conto, buste paga e fatture sono la spina dorsale di una buona conservazione dei documenti.
+
+**3.** Una raccolta continua e con poco sforzo è meglio di una corsa stressante a fine anno per ricostruire la propria storia finanziaria.
+
+**4.** I documenti sono ciò che sostiene una dichiarazione se un'autorità fiscale fa domande.
+
+## Punti chiave
+
+- La conservazione dei documenti sostiene ogni deduzione, detrazione e dichiarazione.
+- Conserva ricevute, estratti conto, buste paga e fatture man mano che arrivano.
+- Un'organizzazione continua è meglio di una ricostruzione all'ultimo minuto.
+- Buoni documenti sono la tua protezione se qualcosa viene contestato.
+
+===== GREEN-L1-025
+TITLE: Le spese d'impresa deducibili più comuni
+SUMMARY: Passa in rassegna le categorie generali di spese d'impresa spesso deducibili, mantenendo un taglio concettuale vista la varietà delle regole tra paesi.
+# Le spese d'impresa deducibili più comuni
+
+## Obiettivi di apprendimento
+
+- Spiegare il principio generale alla base delle spese d'impresa deducibili.
+- Riconoscere le categorie più comuni di spese deducibili.
+- Riconoscere perché le spese personali in genere non sono ammesse.
+
+## Contenuto principale
+
+La maggior parte dei sistemi fiscali permette alle imprese di dedurre le spese "ordinarie e necessarie" per l'attività, cioè normali per quel tipo di impresa e davvero necessarie per operare, non lussuose né puramente personali. (In Italia si parla di inerenza della spesa all'attività; per alcune spese la deducibilità è solo parziale, e le regole cambiano.) Le categorie più comuni, in termini generali, comprendono materiali e forniture, affitto dei locali, viaggi di lavoro, marketing e pubblicità, servizi professionali (come un avvocato o un commercialista) e attrezzature.
+
+Un test utile da tenere a mente: questa spesa esisterebbe se l'impresa non esistesse? Un portatile comprato apposta per i lavori dei clienti supera questo test molto più chiaramente di una vacanza giustificata vagamente come "networking". Mescolare spese personali e d'impresa senza una linea chiara è uno degli errori più comuni dei nuovi imprenditori, ed è proprio per questo che la lezione precedente sulla conservazione dei documenti conta tanto: una documentazione ordinata rende difendibile la linea tra impresa e vita privata.
+
+## Esempio svolto
+
+**Domanda:** Un'imprenditrice compra un portatile che usa solo per i lavori di design per i clienti. Più tardi mette tra le spese anche una vacanza di famiglia, chiamandola "networking". Le due spese vengono trattate allo stesso modo?
+
+**Studente:** Non credo: il portatile è chiaramente legato al lavoro vero e proprio dell'impresa.
+
+**Guida:** Quale test applicheresti alla vacanza?
+
+**Studente:** Questa spesa esisterebbe se l'impresa non esistesse? Il portatile probabilmente non sarebbe stato comprato senza l'impresa; la vacanza probabilmente ci sarebbe stata comunque.
+
+**Guida:** Esatto: è questo tipo di ragionamento che separa una vera spesa d'impresa da una spesa personale travestita da spesa d'impresa.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un criterio generale comune per le spese d'impresa deducibili è:
+
+A) Qualsiasi spesa, personale o no
+B) Ordinaria e necessaria per l'attività
+C) Solo le spese superiori a 10.000 $
+D) Solo le spese pagate in contanti
+
+**Domanda 2.** Tra le categorie comuni di spese d'impresa deducibili ci sono:
+
+A) Forniture, affitto, viaggi, marketing, servizi professionali, attrezzature
+B) Solo la spesa alimentare
+C) Solo le vacanze
+D) Solo l'abbigliamento personale
+
+**Domanda 3.** Un test utile per capire se una spesa è legata all'impresa è:
+
+A) Questa spesa esisterebbe se l'impresa non esistesse?
+B) È costosa?
+C) È stata pagata in contanti?
+D) È avvenuta in un giorno feriale?
+
+**Domanda 4.** Mescolare spese personali e d'impresa senza una linea chiara:
+
+A) È consigliato
+B) È un errore comune e rischioso dei nuovi imprenditori
+C) Non ha conseguenze
+D) Conta solo per le grandi aziende
+
+## Soluzioni
+
+1. B, 2. A, 3. A, 4. B
+
+## Risposte e spiegazioni
+
+**1.** "Ordinaria e necessaria" è un criterio generale molto diffuso, anche se le regole esatte variano da paese a paese.
+
+**2.** Queste categorie rappresentano i costi operativi tipici della maggior parte delle imprese.
+
+**3.** Questo test aiuta a separare le spese davvero legate all'impresa dalle spese personali semplicemente rietichettate.
+
+**4.** Confondere la linea tra privato e impresa senza documenti è una trappola comune che la buona conservazione dei documenti aiuta a evitare.
+
+## Punti chiave
+
+- Le spese d'impresa deducibili sono in genere quelle ordinarie e necessarie per l'attività.
+- Le categorie comuni comprendono forniture, affitto, viaggi, marketing, servizi professionali e attrezzature.
+- Un test utile: la spesa esisterebbe senza l'impresa?
+- Mescolare spese personali e d'impresa senza una linea chiara è un errore comune e rischioso.

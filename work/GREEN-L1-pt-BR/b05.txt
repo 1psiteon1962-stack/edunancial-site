@@ -1,0 +1,399 @@
+===== GREEN-L1-021
+TITLE: Prazos de entrega da declaração e por que eles importam
+SUMMARY: Trata da importância prática dos prazos de entrega da declaração e das consequências gerais de perdê-los.
+# Prazos de entrega da declaração e por que eles importam
+
+## Objetivos de aprendizagem
+
+- Explicar por que os sistemas tributários definem prazos de entrega.
+- Identificar as consequências gerais de perder um prazo.
+- Reconhecer a diferença entre prorrogar a entrega e prorrogar o pagamento.
+
+## Conteúdo principal
+
+A maioria dos sistemas tributários define um prazo anual para a entrega das declarações. Os prazos existem para manter o sistema previsível e aplicável: sem eles, a entrega poderia ser adiada indefinidamente, o governo teria dificuldade para planejar a arrecadação e o contribuinte não saberia em que situação está. (No Brasil, a Receita Federal define todo ano o prazo de entrega da declaração do IRPF; as datas e regras mudam.)
+
+Perder o prazo de entrega costuma ter consequências: multas, juros sobre valores não pagos ou ambos, conforme o sistema. Muitos sistemas permitem pedir a prorrogação do próprio prazo de entrega, mas é fundamental entender uma armadilha comum: prorrogar a entrega muitas vezes não é o mesmo que prorrogar o pagamento. Mesmo com o prazo de entrega prorrogado, o imposto realmente devido pode ainda precisar ser pago até a data original para evitar juros e multas: a prorrogação muitas vezes só adia a papelada, e não a obrigação de pagar.
+
+## Exemplo prático
+
+**Pergunta:** Um empresário pede a prorrogação do prazo de entrega e supõe que também não precisa pagar nada até a nova data. Essa suposição é segura?
+
+**Aluno:** Pelo que você disse, provavelmente não: prorrogar a entrega pode não ser o mesmo que prorrogar o pagamento.
+
+**Guia:** Qual é o caminho mais seguro se ele não tiver certeza de quanto vai dever?
+
+**Aluno:** Estimar e pagar até a data original um valor próximo do que provavelmente deve, mesmo que a papelada seja entregue depois.
+
+**Guia:** Exatamente: tratar a prorrogação da entrega como prorrogação do pagamento é uma das suposições mais comuns e caras.
+
+## Teste de prática
+
+**Pergunta 1.** Os prazos de entrega existem para:
+
+A) Punir os contribuintes
+B) Manter o sistema previsível e aplicável
+C) Beneficiar só as grandes empresas
+D) Nenhum propósito real
+
+**Pergunta 2.** Perder o prazo de entrega costuma gerar:
+
+A) Nada
+B) Multas, juros ou ambos
+C) Uma restituição automática
+D) Um crédito tributário
+
+**Pergunta 3.** A prorrogação do prazo de entrega é:
+
+A) Sempre o mesmo que a prorrogação do pagamento
+B) Muitas vezes diferente da prorrogação do pagamento
+C) Proibida na maioria dos sistemas
+D) Disponível só para empresas
+
+**Pergunta 4.** Se não se sabe ao certo quanto é devido, mas foi pedida a prorrogação da entrega, o caminho mais seguro é:
+
+A) Não pagar nada até a nova data
+B) Estimar e pagar um valor próximo do provável até a data original
+C) Ignorar completamente a situação
+D) Supor que nunca será preciso pagar
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Previsibilidade e aplicabilidade são os motivos práticos para a existência de prazos nos sistemas tributários.
+
+**2.** A entrega atrasada costuma gerar consequências financeiras pensadas para incentivar o cumprimento dentro do prazo.
+
+**3.** As prorrogações de entrega muitas vezes só adiam a papelada, e não a obrigação de pagamento por trás dela.
+
+**4.** Estimar e pagar um valor próximo do real até a data original protege contra juros e multas, mesmo que a papelada seja entregue depois.
+
+## Pontos-chave
+
+- Os prazos existem para manter os sistemas tributários previsíveis e aplicáveis.
+- Perder um prazo costuma gerar multas, juros ou ambos.
+- Prorrogar a entrega muitas vezes não é o mesmo que prorrogar o pagamento.
+- Se não souber o valor exato devido, estime e pague um valor próximo até a data original.
+
+===== GREEN-L1-022
+TITLE: Pagamentos antecipados de imposto para autônomos
+SUMMARY: Apresenta o conceito de pagamentos periódicos e estimados de imposto, consequência direta de não haver um empregador retendo o imposto automaticamente.
+# Pagamentos antecipados de imposto para autônomos
+
+## Objetivos de aprendizagem
+
+- Explicar por que autônomos muitas vezes precisam fazer pagamentos estimados de imposto.
+- Descrever o ritmo geral dos pagamentos estimados (periódicos, e não uma vez por ano).
+- Ligar isso à lição anterior sobre W-2 e 1099.
+
+## Conteúdo principal
+
+Quando você é empregado, o empregador retém imposto automaticamente ao longo do ano. Quando você é autônomo, ninguém faz isso por você, e é exatamente por isso que muitos sistemas exigem que autônomos façam pagamentos estimados de imposto periodicamente ao longo do ano, muitas vezes por trimestre, em vez de pagar tudo de uma vez na hora da declaração. (No Brasil, o autônomo que recebe de pessoas físicas costuma recolher o imposto mensalmente pelo carnê-leão; as regras mudam.)
+
+Essa é uma consequência direta e prática da distinção entre empregado e prestador de serviços vista antes. O governo continua esperando que o imposto seja pago mais ou menos à medida que a renda é ganha, e não todo de uma vez no fim do ano; assim, a responsabilidade que o sistema de folha do empregador assume automaticamente para o empregado passa inteiramente para o autônomo. Deixar de fazer os pagamentos estimados não elimina o imposto devido; só cria o risco de multas e juros por pagamento insuficiente, além do próprio imposto, quando o ano finalmente for ajustado.
+
+## Exemplo prático
+
+**Pergunta:** Uma designer gráfica que acabou de virar autônoma acha que pode simplesmente pagar todo o imposto de uma vez quando declarar no ano que vem. Que risco isso cria?
+
+**Aluno:** Pela lição, ela pode ter que pagar multas por não ter pago ao longo do ano, além do próprio imposto.
+
+**Guia:** Por que o sistema espera pagamentos ao longo do ano, e não tudo de uma vez?
+
+**Aluno:** Porque é assim que funciona para os empregados também, só que automaticamente, pela retenção; para o autônomo, a tarefa só passa de automática para manual.
+
+**Guia:** Exatamente: a expectativa de fundo não muda, só muda quem é responsável por agir.
+
+## Teste de prática
+
+**Pergunta 1.** Os pagamentos estimados de imposto são mais relevantes para:
+
+A) Empregados com retenção automática
+B) Autônomos sem um empregador que retenha por eles
+C) Só aposentados
+D) Só grandes empresas
+
+**Pergunta 2.** Os pagamentos estimados normalmente são feitos:
+
+A) Uma vez, no fim do ano
+B) Periodicamente ao longo do ano, muitas vezes por trimestre
+C) Nunca
+D) Só se o governo pedir
+
+**Pergunta 3.** Deixar de fazer os pagamentos estimados normalmente:
+
+A) Elimina o imposto devido
+B) Cria o risco de multas por pagamento insuficiente, além do próprio imposto
+C) Não tem consequência
+D) Gera uma restituição automática
+
+**Pergunta 4.** Esta lição se liga mais diretamente a qual tema anterior?
+
+A) Imposto sobre a propriedade
+B) W-2 e 1099 / empregado ou prestador de serviços
+C) Bens públicos
+D) Imposto sobre vendas
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Como nenhum empregador retém por eles, os autônomos precisam estimar e pagar o imposto por conta própria.
+
+**2.** Pagamentos periódicos ao longo do ano refletem a lógica de "pagar aos poucos" presente na maioria dos sistemas.
+
+**3.** As multas por pagamento insuficiente existem justamente para desestimular quem espera o fim do ano para pagar tudo de uma vez.
+
+**4.** Esta lição é, na prática, a continuação da distinção anterior entre empregado e prestador de serviços.
+
+## Pontos-chave
+
+- Os autônomos geralmente precisam fazer os próprios pagamentos estimados de imposto.
+- Esses pagamentos costumam ser periódicos (muitas vezes trimestrais ou mensais), e não um valor único no fim do ano.
+- Deixar de fazê-los cria o risco de multas, mesmo que o imposto continue devido no final.
+- Isso é consequência direta de não haver a retenção automática de um empregador.
+
+===== GREEN-L1-023
+TITLE: Contribuições do autônomo: o que freelancers e donos de negócio devem
+SUMMARY: Parte da lição sobre tributos sobre a folha para explicar por que autônomos muitas vezes pagam tanto a parte do empregador quanto a do empregado.
+# Contribuições do autônomo: o que freelancers e donos de negócio devem
+
+## Objetivos de aprendizagem
+
+- Relembrar como os tributos sobre a folha são divididos entre empregador e empregado.
+- Explicar por que um autônomo muitas vezes deve as duas partes.
+- Reconhecer isso como um ponto-chave de planejamento para freelancers e pequenos empresários.
+
+## Conteúdo principal
+
+Você já viu que os tributos sobre a folha muitas vezes são divididos entre empregador e empregado: uma parte é descontada do salário e outra é paga separadamente pelo empregador. Quando você é autônomo, na prática você é as duas coisas: empregador e empregado. Muitos sistemas levam isso em conta exigindo que o autônomo pague uma versão desses tributos que cobre as duas partes; nos EUA, isso se chama "self-employment tax". (No Brasil, por exemplo, o contribuinte individual recolhe a própria contribuição ao INSS, e o MEI paga um valor mensal fixo que inclui a previdência; as regras e alíquotas mudam.)
+
+Esse é um dos custos mais subestimados de trabalhar por conta própria. Um freelancer iniciante que compara o total das suas notas com o contracheque de um empregado com salário equivalente pode subestimar muito a sua carga real, se esquecer que, como empresa de uma pessoa só, ele cobre os dois lados desse tributo. Entender isso com antecedência, e separar dinheiro de acordo, evita uma surpresa desagradável na hora de declarar.
+
+## Exemplo prático
+
+**Pergunta:** Uma freelancer compara seus US$ 80.000 anuais em notas com o emprego de uma amiga com salário de US$ 80.000 e supõe que a situação tributária das duas é basicamente igual. É mesmo?
+
+**Aluno:** Provavelmente não, porque o empregador da amiga cobre automaticamente metade desses tributos.
+
+**Guia:** O que isso significa para a carga real da freelancer em comparação com a da amiga?
+
+**Aluno:** Ela provavelmente deve mais no total, porque é responsável sozinha pela parte do empregador e pela do empregado.
+
+**Guia:** Exatamente: a mesma renda no papel, uma realidade tributária bem diferente.
+
+## Teste de prática
+
+**Pergunta 1.** As contribuições do autônomo geralmente cobrem:
+
+A) Só a parte do empregado dos tributos sobre a folha
+B) A parte do empregador e a do empregado dos tributos sobre a folha
+C) Só o imposto sobre vendas
+D) Só o imposto sobre a propriedade
+
+**Pergunta 2.** Por que um autônomo muitas vezes deve mais desses tributos do que um empregado equivalente?
+
+A) Ele ganha mais automaticamente
+B) Ele precisa cobrir sozinho a parte do empregador e a do empregado
+C) Autônomos são tributados com alíquotas aleatórias
+D) Não deve: os valores são sempre idênticos
+
+**Pergunta 3.** Qual é uma consequência prática de subestimar as contribuições do autônomo?
+
+A) Nenhuma consequência
+B) Uma surpresa desagradável ou falta de dinheiro na hora de declarar
+C) Uma restituição automática
+D) Uma situação na declaração mais baixa
+
+**Pergunta 4.** Qual é a forma recomendada de evitar essa surpresa?
+
+A) Ignorar até a declaração
+B) Entender a carga real com antecedência e separar dinheiro de acordo
+C) Gastar imediatamente toda a renda das notas
+D) Evitar qualquer trabalho autônomo
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As contribuições do autônomo são, basicamente, o mecanismo para cobrar as duas partes desses tributos de uma única pessoa.
+
+**2.** Ser ao mesmo tempo empregador e empregado significa responder pelas duas partes.
+
+**3.** Subestimar esse custo é uma armadilha comum que leva a uma conta maior do que o esperado.
+
+**4.** A defesa prática é a consciência antecipada e a reserva de dinheiro, em vez de reagir depois.
+
+## Pontos-chave
+
+- Os autônomos muitas vezes devem a parte do empregador e a do empregado desses tributos.
+- Por isso, a renda de autônomo tem uma carga bem diferente da de um salário equivalente.
+- Esse é um dos custos mais subestimados de trabalhar por conta própria.
+- Planejar com antecedência e separar dinheiro evita uma surpresa desagradável na hora de declarar.
+
+===== GREEN-L1-024
+TITLE: Noções básicas de organização de documentos: recibos, extratos e comprovantes
+SUMMARY: Apresenta o hábito e a lógica de guardar documentos para fins tributários como proteção, e não só como papelada.
+# Noções básicas de organização de documentos: recibos, extratos e comprovantes
+
+## Objetivos de aprendizagem
+
+- Explicar por que guardar documentos importa para os impostos.
+- Identificar categorias comuns de documentos que vale a pena guardar.
+- Descrever um hábito simples para se manter organizado ao longo do ano.
+
+## Conteúdo principal
+
+Uma boa organização de documentos é a base silenciosa de quase todos os outros temas tributários desta trilha: deduções, créditos e informações de autônomo só se sustentam se você puder comprová-los com documentos. Categorias comuns que vale a pena guardar incluem recibos de compras dedutíveis, extratos bancários e de investimentos, contracheques, notas fiscais emitidas (para autônomos) e declarações de anos anteriores. (No Brasil, a Receita pode questionar declarações de anos anteriores dentro de um prazo legal, por isso é comum guardar os comprovantes por vários anos; as regras mudam.)
+
+O hábito que separa quem lida com isso com tranquilidade de quem corre todo ano é simples: registrar e organizar os documentos à medida que eles aparecem, e não meses depois, na hora da declaração. Uma única pasta (física ou digital), criada no início do ano e alimentada conforme as coisas acontecem, é melhor do que tentar reconstruir de memória, em pânico, um ano inteiro de movimentação financeira antes de um prazo. Bons documentos não só ajudam você a declarar corretamente: eles são a sua proteção se alguma informação for questionada depois.
+
+## Exemplo prático
+
+**Pergunta:** Um pequeno empresário joga todos os recibos numa caixa de sapatos o ano inteiro, sem nenhuma organização. Isso é melhor do que nada, e daria para melhorar?
+
+**Aluno:** É melhor do que perder os recibos, mas ainda parece trabalhoso de usar depois.
+
+**Guia:** Como seria uma pequena melhoria, sem exigir um sistema perfeito?
+
+**Aluno:** Talvez separar os recibos em algumas categorias básicas à medida que chegam, em vez de ter uma pilha enorme para organizar de uma vez.
+
+**Guia:** Isso: o objetivo não é a perfeição, e sim facilitar o trabalho do "você do futuro".
+
+## Teste de prática
+
+**Pergunta 1.** Guardar documentos importa principalmente porque:
+
+A) É exigido sem motivo
+B) Sustenta deduções, créditos e informações caso sejam questionados
+C) Não tem nada a ver com impostos
+D) Só empresas precisam disso
+
+**Pergunta 2.** Documentos comuns que vale a pena guardar incluem:
+
+A) Recibos, extratos, contracheques, notas fiscais
+B) Só posts em redes sociais
+C) Nada: documentos digitais não contam
+D) Só senhas do banco
+
+**Pergunta 3.** O hábito recomendado é:
+
+A) Reconstruir tudo de memória na hora da declaração
+B) Registrar e organizar os documentos à medida que aparecem ao longo do ano
+C) Jogar fora todos os documentos imediatamente
+D) Guardar documentos só se for rico
+
+**Pergunta 4.** Bons documentos servem como:
+
+A) Decoração
+B) Proteção caso alguma informação seja questionada
+C) Substitutos da declaração
+D) Nada de útil
+
+## Gabarito
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Toda dedução, crédito ou informação precisa, no fim, ser sustentada por documentos reais caso seja verificada.
+
+**2.** Recibos, extratos, contracheques e notas fiscais formam a espinha dorsal de uma boa organização de documentos.
+
+**3.** Registrar aos poucos, com pouco esforço, é melhor do que correr no fim do ano para reconstruir a história financeira.
+
+**4.** Os documentos são o que sustenta uma informação se a autoridade tributária fizer perguntas sobre ela.
+
+## Pontos-chave
+
+- Guardar documentos sustenta toda dedução, crédito e informação que você declara.
+- Guarde recibos, extratos, contracheques e notas fiscais à medida que aparecem.
+- Organizar continuamente é melhor do que reconstruir tudo na última hora.
+- Bons documentos são a sua proteção caso alguma informação seja questionada.
+
+===== GREEN-L1-025
+TITLE: Despesas comuns dedutíveis de um negócio
+SUMMARY: Apresenta categorias gerais de despesas de negócio que costumam ser dedutíveis, mantendo o foco nos conceitos por causa das diferenças entre países.
+# Despesas comuns dedutíveis de um negócio
+
+## Objetivos de aprendizagem
+
+- Explicar o princípio geral por trás das despesas dedutíveis de um negócio.
+- Identificar categorias comuns de despesas dedutíveis.
+- Reconhecer por que despesas pessoais geralmente não se qualificam.
+
+## Conteúdo principal
+
+A maioria dos sistemas tributários permite que os negócios deduzam despesas "usuais e necessárias" para o funcionamento do negócio, ou seja, normais para aquele tipo de negócio e realmente necessárias para operar, e não luxuosas ou puramente pessoais. (No Brasil, as regras dependem do regime: no lucro real, por exemplo, as despesas precisam ser necessárias à atividade, enquanto no Simples Nacional a tributação incide sobre a receita; tudo isso muda.) As categorias comuns, em termos gerais, incluem materiais e suprimentos, aluguel do espaço comercial, viagens a trabalho, marketing e publicidade, serviços profissionais (como advogado ou contador) e equipamentos.
+
+Um teste útil para guardar: essa despesa existiria se o negócio não existisse? Um notebook comprado especificamente para trabalhos de clientes passa nesse teste com muito mais clareza do que uma viagem de férias justificada vagamente como "networking". Misturar despesas pessoais e do negócio sem uma linha clara é um dos erros mais comuns de quem está começando, e é exatamente por isso que a lição anterior sobre organização de documentos importa tanto aqui: uma documentação organizada torna defensável a linha entre o negócio e o pessoal.
+
+## Exemplo prático
+
+**Pergunta:** Uma empresária compra um notebook usado só para trabalhos de design para clientes. Depois, também lança como despesa uma viagem de férias com a família, chamando-a de "networking". As duas são tratadas da mesma forma?
+
+**Aluno:** Acho que não: o notebook está claramente ligado ao trabalho real do negócio.
+
+**Guia:** Que teste você aplicaria à viagem?
+
+**Aluno:** Essa despesa existiria se o negócio não existisse? O notebook provavelmente não teria sido comprado sem o negócio; a viagem provavelmente aconteceria de qualquer jeito.
+
+**Guia:** Exatamente: é esse tipo de raciocínio que separa uma despesa legítima do negócio de uma despesa pessoal disfarçada de negócio.
+
+## Teste de prática
+
+**Pergunta 1.** Um critério geral comum para despesas dedutíveis de um negócio é:
+
+A) Qualquer despesa, pessoal ou não
+B) Usual e necessária para o negócio
+C) Só despesas acima de US$ 10.000
+D) Só despesas pagas em dinheiro
+
+**Pergunta 2.** Categorias comuns de despesas dedutíveis de um negócio incluem:
+
+A) Suprimentos, aluguel, viagens, marketing, serviços profissionais, equipamentos
+B) Só compras de supermercado
+C) Só férias
+D) Só roupas pessoais
+
+**Pergunta 3.** Um teste útil para saber se uma despesa é do negócio é:
+
+A) Essa despesa existiria se o negócio não existisse?
+B) Ela é cara?
+C) Foi paga em dinheiro?
+D) Aconteceu num dia útil?
+
+**Pergunta 4.** Misturar despesas pessoais e do negócio sem uma linha clara:
+
+A) É recomendado
+B) É um erro comum e arriscado de quem está começando um negócio
+C) Não tem consequências
+D) Só importa para grandes empresas
+
+## Gabarito
+
+1. B, 2. A, 3. A, 4. B
+
+## Respostas e explicações
+
+**1.** "Usual e necessária" é um critério geral muito usado, embora as regras exatas variem conforme o país.
+
+**2.** Essas categorias representam os custos operacionais típicos da maioria dos negócios.
+
+**3.** Esse teste ajuda a separar as despesas realmente ligadas ao negócio dos gastos pessoais apenas rotulados de outra forma.
+
+**4.** Borrar a linha entre pessoal e negócio sem documentação é uma armadilha comum que a boa organização de documentos ajuda a evitar.
+
+## Pontos-chave
+
+- As despesas dedutíveis de um negócio geralmente são as usuais e necessárias para ele.
+- As categorias comuns incluem suprimentos, aluguel, viagens, marketing, serviços profissionais e equipamentos.
+- Um teste útil: a despesa existiria sem o negócio?
+- Misturar despesas pessoais e do negócio sem uma linha clara é um erro comum e arriscado.
