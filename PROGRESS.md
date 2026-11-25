@@ -103,3 +103,4 @@ Status:
 - BLACK-L5 de DONE 2026-11-22
 - BLACK-L5 ht DONE 2026-11-23
 - 2026-11-25 BLUE L1 021-050 long-format de/it/nl/pt-BR/pt-PT MERGED (PR 1659). ORANGE L1: en-GB auto draft done (work/ORANGE-L1-en-GB), de b01-b02 done; next de b03.. then it, nl, pt-BR, pt-PT (br2pt), place via place1 (copy dirs into work/fix or similar), one PR.
+- ORANGE L1 de COMPLETE (b01-b10, hedged DE notes 009/030/031). en-GB COMPLETE. Next: it, nl, pt-BR, pt-PT.
