@@ -1,0 +1,411 @@
+===== GREEN-L1-006
+TITLE: Imposto sobre a propriedade: tributar o que você possui
+SUMMARY: Uma introdução ao imposto sobre a propriedade, aplicado com mais frequência a imóveis, e a como ele financia serviços locais.
+# Imposto sobre a propriedade: tributar o que você possui
+
+## Objetivos de aprendizagem
+
+- Explicar sobre o que o imposto sobre a propriedade normalmente incide.
+- Identificar quem costuma cobrar o imposto sobre a propriedade.
+- Descrever serviços locais comuns financiados pelo imposto sobre a propriedade.
+
+## Conteúdo principal
+
+O imposto sobre a propriedade é um imposto sobre coisas que você possui, na maioria das vezes imóveis: terrenos e construções. Diferente do imposto de renda ou do imposto sobre vendas, que estão ligados a um acontecimento (ganhar ou comprar), o imposto sobre a propriedade costuma ser cobrado de forma contínua, muitas vezes todo ano, simplesmente porque você continua sendo dono do bem.
+
+Os governos locais (cidades, condados ou autoridades regionais parecidas) são os que mais cobram o imposto sobre a propriedade, e ele costuma financiar serviços perto de casa: escolas públicas, policiamento e bombeiros locais, bibliotecas e manutenção de ruas. Como se baseia na propriedade e não em uma transação, o imposto continua sendo cobrado mesmo que a renda do dono mude naquele ano, e é em parte por isso que ele pode ser um ponto importante de planejamento para quem tem imóveis. (No Brasil, o imposto municipal sobre imóveis urbanos é o IPTU, e o rural é o ITR; as regras variam.)
+
+## Exemplo prático
+
+**Pergunta:** Uma família é dona de uma casa, mas teve um ano difícil, com renda menor. O imposto sobre a propriedade muda porque a renda caiu?
+
+**Aluno:** Eu acho que continua igual, porque é sobre a casa, e não sobre o salário.
+
+**Guia:** Isso. O que isso diz sobre a natureza do imposto sobre a propriedade em comparação com o imposto de renda?
+
+**Aluno:** Ele está ligado à propriedade, e não a quanto se ganha naquele ano, então não se ajusta automaticamente à renda.
+
+**Guia:** Exatamente: essa é uma distinção importante para o planejamento.
+
+## Teste de prática
+
+**Pergunta 1.** O imposto sobre a propriedade incide com mais frequência sobre:
+
+A) Salários
+B) Imóveis
+C) Compras no varejo
+D) Ganhos com investimentos
+
+**Pergunta 2.** O imposto sobre a propriedade costuma ser cobrado por:
+
+A) Só o governo federal
+B) Governos locais
+C) Nenhum governo
+D) Só bancos
+
+**Pergunta 3.** O imposto sobre a propriedade normalmente financia:
+
+A) Só a defesa nacional
+B) Serviços locais, como escolas e bombeiros
+C) Nada específico
+D) Só rodovias federais
+
+**Pergunta 4.** O imposto sobre a propriedade diminui automaticamente se a renda do dono cair?
+
+A) Sim, sempre
+B) Não, ele está ligado à propriedade, e não à renda
+C) Só para empresas
+D) Só em países ricos
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os imóveis são o alvo mais comum do imposto sobre a propriedade, embora alguns lugares também tributem outros bens relevantes.
+
+**2.** Os governos locais normalmente administram e cobram o imposto sobre a propriedade, porque ele financia serviços locais.
+
+**3.** Escolas, polícia, bombeiros e ruas costumam ser financiados, total ou parcialmente, pelo imposto sobre a propriedade.
+
+**4.** Como está ligado à propriedade, e não à renda, o imposto sobre a propriedade não acompanha automaticamente os ganhos de uma pessoa.
+
+## Pontos-chave
+
+- O imposto sobre a propriedade é cobrado sobre o que se possui, na maioria das vezes imóveis.
+- Ele costuma ser cobrado por governos locais.
+- Ele normalmente financia escolas, segurança pública e infraestrutura local.
+- Como depende da propriedade, ele não diminui automaticamente quando a renda cai: um ponto-chave de planejamento para proprietários.
+
+===== GREEN-L1-007
+TITLE: Tributos sobre a folha: Social Security e Medicare
+SUMMARY: Apresenta os tributos sobre a folha como uma categoria ligada especificamente aos salários, que muitas vezes financia programas de aposentadoria e saúde.
+# Tributos sobre a folha: Social Security e Medicare
+
+## Objetivos de aprendizagem
+
+- Definir os tributos sobre a folha e explicar em que diferem do imposto de renda em geral.
+- Explicar que os tributos sobre a folha costumam ser divididos entre empregador e empregado.
+- Identificar programas comuns financiados pelos tributos sobre a folha.
+
+## Conteúdo principal
+
+Os tributos sobre a folha (nos EUA, "payroll tax", por exemplo para Social Security e Medicare; no Brasil, o mais parecido são as contribuições ao INSS e encargos como o FGTS) estão ligados especificamente aos salários. Eles têm relação com o imposto de renda, mas são diferentes dele: enquanto o imposto de renda financia os gastos gerais do governo, os tributos sobre a folha costumam ser destinados a programas específicos, geralmente previdência e seguros de saúde.
+
+Em muitos sistemas, esses tributos são divididos: uma parte é descontada do salário do empregado e outra parte é paga diretamente pelo empregador, além do salário. Ou seja, o custo real de um funcionário para a empresa é maior do que o valor do contracheque. Essa divisão vai importar mais adiante, quando falarmos da tributação de quem trabalha por conta própria, porque o autônomo muitas vezes acaba responsável pelas duas partes.
+
+## Exemplo prático
+
+**Pergunta:** Um empregador paga o salário de um trabalhador e, separadamente, envia ao governo um valor adicional de tributos sobre a folha. A parte do empregador faz parte do salário do trabalhador?
+
+**Aluno:** Eu diria que é separada, já que o trabalhador nunca vê esse dinheiro.
+
+**Guia:** Certo, mas ainda assim é um custo de ter esse trabalhador?
+
+**Aluno:** Sim: é um custo extra além do salário, mesmo que não apareça no contracheque.
+
+**Guia:** Exatamente, e é por isso que o "custo de um funcionário" costuma ser maior do que só o salário.
+
+## Teste de prática
+
+**Pergunta 1.** Os tributos sobre a folha estão ligados especificamente a:
+
+A) Imóveis
+B) Salários do trabalho
+C) Compras no varejo
+D) Heranças
+
+**Pergunta 2.** Os tributos sobre a folha costumam financiar:
+
+A) Programas de aposentadoria e saúde
+B) Só a construção de estradas
+C) Só a defesa nacional
+D) Nada específico
+
+**Pergunta 3.** Em muitos sistemas, os tributos sobre a folha são:
+
+A) Pagos só pelo empregador
+B) Pagos só pelo empregado
+C) Divididos entre empregador e empregado
+D) Nunca pagos de fato
+
+**Pergunta 4.** O custo real de ter um funcionário muitas vezes é:
+
+A) Exatamente o valor do contracheque
+B) Maior que o salário, por causa da parte do empregador
+C) Menor que o salário
+D) Sem relação com os tributos sobre a folha
+
+## Gabarito
+
+1. B, 2. A, 3. C, 4. B
+
+## Respostas e explicações
+
+**1.** Os tributos sobre a folha diferem do imposto de renda em geral porque estão ligados especificamente aos salários.
+
+**2.** Os sistemas de aposentadoria e os seguros de saúde costumam ser financiados com tributos sobre a folha destinados a eles.
+
+**3.** A divisão entre empregador e empregado é uma escolha estrutural comum em muitos sistemas.
+
+**4.** Como o empregador paga uma parte além do salário, o custo total de um funcionário é maior que o contracheque dele.
+
+## Pontos-chave
+
+- Os tributos sobre a folha estão ligados especificamente aos salários e são diferentes do imposto de renda em geral.
+- Eles costumam financiar programas de aposentadoria e saúde.
+- Muitos sistemas dividem esses tributos entre empregador e empregado.
+- Essa divisão fica especialmente importante para quem trabalha por conta própria, como uma lição posterior vai mostrar.
+
+===== GREEN-L1-008
+TITLE: Impostos progressivos e regressivos
+SUMMARY: Explica a diferença entre estruturas tributárias progressivas e regressivas com comparações simples e fáceis de entender.
+# Impostos progressivos e regressivos
+
+## Objetivos de aprendizagem
+
+- Definir uma estrutura tributária progressiva.
+- Definir uma estrutura tributária regressiva.
+- Identificar exemplos reais de cada uma.
+
+## Conteúdo principal
+
+Um imposto progressivo cobra um percentual maior de quem tem renda ou patrimônio mais altos. A maioria dos sistemas de imposto de renda funciona assim: conforme você ganha mais, um percentual maior da sua renda (geralmente só a parte acima de certos limites) é tributado.
+
+Já um imposto regressivo, na prática, cobra um percentual maior de quem tem renda menor, mesmo que a alíquota pareça igual para todos. O imposto sobre vendas é um exemplo comum: se duas pessoas compram o mesmo item de US$ 50 e pagam o mesmo imposto, esse imposto representa uma parte muito maior do dinheiro total de quem tem renda baixa do que de quem tem renda alta. O valor é igual, mas o peso não.
+
+Nenhuma das duas estruturas é, por si só, "certa" ou "errada": são ferramentas com efeitos diferentes, e os sistemas tributários reais costumam combinar elementos progressivos e regressivos. Entender em que categoria um imposto se encaixa ajuda a avaliar quem de fato carrega o maior peso.
+
+## Exemplo prático
+
+**Pergunta:** Duas pessoas pagam US$ 5 de imposto sobre vendas na mesma compra. Uma ganha US$ 2.000 por mês; a outra, US$ 20.000 por mês. O efeito do imposto é progressivo ou regressivo?
+
+**Aluno:** O valor é idêntico, então à primeira vista parece justo.
+
+**Guia:** Mas que percentual da renda de cada um esses US$ 5 representam?
+
+**Aluno:** Uma parte muito maior para quem ganha US$ 2.000 do que para quem ganha US$ 20.000.
+
+**Guia:** Isso: valores iguais podem ter impactos reais desiguais, e esse é o padrão regressivo.
+
+## Teste de prática
+
+**Pergunta 1.** Um imposto progressivo cobra:
+
+A) Um percentual menor de quem ganha mais
+B) Um percentual maior de quem ganha mais
+C) O mesmo percentual de todos, independentemente da renda
+D) Nada de ninguém
+
+**Pergunta 2.** Um imposto regressivo, na prática, pesa mais sobre:
+
+A) Quem ganha mais
+B) Quem ganha menos, em proporção à renda
+C) Ninguém
+D) Só empresas
+
+**Pergunta 3.** O imposto sobre vendas costuma ser descrito como regressivo porque:
+
+A) É ilegal
+B) Valores iguais representam uma parte maior de uma renda menor
+C) Só se aplica aos ricos
+D) Muda todos os dias
+
+**Pergunta 4.** Os sistemas tributários reais:
+
+A) São sempre puramente progressivos
+B) São sempre puramente regressivos
+C) Muitas vezes combinam elementos progressivos e regressivos
+D) Nunca combinam tipos de impostos
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. C
+
+## Respostas e explicações
+
+**1.** Os sistemas progressivos aumentam a alíquota conforme a renda sobe, geralmente só sobre as partes acima de limites definidos.
+
+**2.** Os impostos regressivos levam proporcionalmente mais das rendas menores, mesmo quando o valor é igual.
+
+**3.** O mesmo imposto de US$ 5 é uma parte maior de uma renda menor: essa é a essência do efeito regressivo.
+
+**4.** A maioria dos sistemas reais mistura elementos progressivos (como as faixas do imposto de renda) com elementos regressivos (como um imposto sobre vendas uniforme).
+
+## Pontos-chave
+
+- Os impostos progressivos aumentam em percentual conforme a renda é maior.
+- Os impostos regressivos levam proporcionalmente mais das rendas menores, mesmo com valores iguais.
+- O imposto sobre vendas é um exemplo regressivo citado com frequência.
+- A maioria dos sistemas reais mistura as duas estruturas, em vez de usar só uma.
+
+===== GREEN-L1-009
+TITLE: Alíquotas marginais: por que ganhar mais não significa perder mais
+SUMMARY: Esclarece um dos equívocos mais comuns das finanças pessoais: que passar para uma faixa de imposto mais alta faz toda a sua renda ser tributada pela alíquota maior.
+# Alíquotas marginais: por que ganhar mais não significa perder mais
+
+## Objetivos de aprendizagem
+
+- Explicar o que é uma alíquota marginal.
+- Corrigir o equívoco comum de que um aumento pode deixar você com menos dinheiro no total.
+- Diferenciar a alíquota marginal da alíquota média (efetiva).
+
+## Conteúdo principal
+
+Um dos equívocos mais persistentes das finanças pessoais é o medo de que ganhar mais dinheiro vai, de algum jeito, deixar você em situação pior, porque vai "empurrar você para uma faixa mais alta". Nos sistemas que usam faixas marginais, esse medo quase sempre não tem fundamento.
+
+Veja como as alíquotas marginais realmente funcionam: a alíquota de cada faixa se aplica só à parte da renda que cai naquela faixa, e não à renda inteira. Se um sistema tributa a renda até certo valor em 10% e a parte seguinte em 20%, passar para a faixa de 20% significa só que essa parte adicional é tributada em 20%. A parte anterior continua sendo tributada em 10%, exatamente como antes. (O imposto de renda brasileiro também usa faixas progressivas com essa lógica; os valores mudam com o tempo.)
+
+Isso significa que a sua alíquota média, ou "efetiva" (o total de imposto pago dividido pela renda total), é sempre menor do que a sua alíquota marginal mais alta. Um aumento que leva você a uma faixa mais alta pode fazer os reais ou dólares novos serem tributados com uma alíquota maior, mas, em um sistema marginal padrão, você nunca vai ficar com menos dinheiro no total por causa de um aumento. Entender isso elimina um medo comum e desnecessário em relação a promoções, aumentos e crescimento do negócio.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo recusa um aumento com medo de que ele "o empurre para uma faixa mais alta e o deixe com menos dinheiro". O que você diria a ele?
+
+**Aluno:** Eu explicaria que só a renda nova, adicional, é tributada pela alíquota mais alta, e não tudo o que ele ganha.
+
+**Guia:** Isso. Você consegue explicar por que isso significa que ele nunca ficaria com menos dinheiro líquido no total por causa de um aumento?
+
+**Aluno:** Porque o resto da renda dele continua sendo tributado pelas mesmas alíquotas menores de sempre; a alíquota maior só atinge a parte acima do limite.
+
+**Guia:** Exatamente: o medo vem de um mal-entendido sobre como as faixas realmente se aplicam.
+
+## Teste de prática
+
+**Pergunta 1.** Uma alíquota marginal se aplica a:
+
+A) Toda a sua renda de uma vez
+B) Só à parte da renda que está dentro daquela faixa específica
+C) Só ao seu primeiro salário
+D) A nada: é um mito
+
+**Pergunta 2.** Se, em um sistema marginal, um aumento leva você a uma faixa mais alta, sua renda líquida total diminui?
+
+A) Sim, sempre
+B) Não: só a parte nova é tributada pela alíquota mais alta
+C) Só para autônomos
+D) Só em alguns países, nunca em outros
+
+**Pergunta 3.** Sua alíquota efetiva (média) é:
+
+A) Sempre igual à sua alíquota marginal mais alta
+B) Sempre maior que a sua alíquota marginal mais alta
+C) Normalmente menor que a sua alíquota marginal mais alta
+D) Sem relação com a sua renda
+
+**Pergunta 4.** O medo de que "um aumento pode deixar você com menos dinheiro" é, em geral:
+
+A) Correto nos sistemas marginais
+B) Um equívoco comum sobre como as faixas funcionam
+C) Verdadeiro só para os ricos
+D) Impossível de avaliar
+
+## Gabarito
+
+1. B, 2. B, 3. C, 4. B
+
+## Respostas e explicações
+
+**1.** As alíquotas marginais se aplicam faixa por faixa, e não como uma alíquota única sobre a renda total.
+
+**2.** Como só a renda nova acima do limite é tributada pela alíquota mais alta, a renda líquida total nunca diminui por causa de um aumento em um sistema marginal padrão.
+
+**3.** Misturar as alíquotas das faixas mais baixas e mais altas sobre toda a renda sempre resulta em uma média abaixo da alíquota mais alta.
+
+**4.** Esse medo é muito comum, mas não se sustenta quando se entende como as faixas realmente se aplicam.
+
+## Pontos-chave
+
+- As alíquotas marginais se aplicam só à renda dentro de cada faixa específica.
+- Em um sistema marginal padrão, um aumento nunca resulta em menos renda líquida total.
+- Sua alíquota efetiva é uma média ponderada, sempre abaixo da sua alíquota marginal mais alta.
+- Entender isso elimina medos desnecessários em relação a aumentos, promoções e crescimento do negócio.
+
+===== GREEN-L1-010
+TITLE: Faixas de imposto explicadas
+SUMMARY: Um passo a passo concreto de como as faixas de imposto são estruturadas e aplicadas, com base direta no conceito de alíquota marginal.
+# Faixas de imposto explicadas
+
+## Objetivos de aprendizagem
+
+- Ler e interpretar uma tabela simples de faixas de imposto.
+- Calcular o imposto devido em várias faixas para uma renda de exemplo.
+- Reforçar o conceito de alíquota marginal com um exemplo numérico.
+
+## Conteúdo principal
+
+Com base na lição anterior, vamos percorrer as faixas com números de verdade. Imagine uma tabela de faixas simplificada e ilustrativa: a renda de US$ 0 a US$ 10.000 é tributada em 10%; a renda de US$ 10.001 a US$ 40.000, em 20%; e a renda acima de US$ 40.000, em 30%.
+
+Quem ganha US$ 50.000 não paga 30% sobre os US$ 50.000 inteiros. Em vez disso: os primeiros US$ 10.000 são tributados em 10% (US$ 1.000), os US$ 30.000 seguintes (de US$ 10.001 a US$ 40.000) em 20% (US$ 6.000) e os US$ 10.000 restantes (de US$ 40.001 a US$ 50.000) em 30% (US$ 3.000). O imposto total devido é de US$ 10.000, o que equivale a uma alíquota efetiva de 20%, bem abaixo da faixa mais alta, de 30%.
+
+Esse cálculo passo a passo, faixa por faixa, é exatamente o que significa tributação marginal na prática. Os valores reais das faixas variam de país para país e mudam com o tempo, então os números aqui são só ilustrativos: o método de cálculo é a habilidade duradoura e transferível.
+
+> **Observação:** os percentuais e limites desta lição são números didáticos ilustrativos, e não valores de um país específico. Confira as faixas reais e atuais do seu país.
+
+## Exemplo prático
+
+**Pergunta:** Usando as faixas ilustrativas acima, quanto de imposto deveria alguém que ganha exatamente US$ 40.000?
+
+**Aluno:** Vou fazer na ordem: os primeiros US$ 10.000 a 10% dão US$ 1.000.
+
+**Guia:** Ótimo, continue.
+
+**Aluno:** Os US$ 30.000 restantes, de US$ 10.001 a US$ 40.000, são tributados em 20%, o que dá US$ 6.000.
+
+**Guia:** E alguma parte é tributada em 30%?
+
+**Aluno:** Não: a pessoa não ganhou nada acima de US$ 40.000, então a faixa de 30% nunca se aplica. O total é US$ 1.000 + US$ 6.000 = US$ 7.000.
+
+**Guia:** Exatamente, e repare que a alíquota efetiva é de 17,5%, e não 20% nem 30%.
+
+## Teste de prática
+
+**Pergunta 1.** Usando as faixas ilustrativas desta lição, quanto de uma renda de US$ 50.000 é tributado em 30%?
+
+A) Os US$ 50.000 inteiros
+B) US$ 10.000
+C) US$ 30.000
+D) US$ 0
+
+**Pergunta 2.** Qual é o imposto total ilustrativo devido sobre US$ 50.000 neste exemplo?
+
+A) US$ 15.000
+B) US$ 10.000
+C) US$ 5.000
+D) US$ 20.000
+
+**Pergunta 3.** A alíquota efetiva no exemplo de US$ 50.000 é:
+
+A) 30%
+B) 20%
+C) 10%
+D) 0%
+
+**Pergunta 4.** Os números específicos das faixas desta lição devem ser decorados como valores reais?
+
+A) Sim, valem em todo lugar
+B) Não: são ilustrativos; as faixas reais variam de país para país e mudam com o tempo
+C) Sim, mas só para um país
+D) Não têm importância para a lição
+
+## Gabarito
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Só a parte da renda acima de US$ 40.000, ou seja, US$ 10.000, cai na faixa de 30%.
+
+**2.** Somando US$ 1.000 + US$ 6.000 + US$ 3.000 nas três faixas, o total é de US$ 10.000.
+
+**3.** Dividindo o imposto total (US$ 10.000) pela renda total (US$ 50.000), a alíquota efetiva é de 20%.
+
+**4.** Os valores são uma ferramenta didática; o método de cálculo é o que se aplica a qualquer tabela de faixas real.
+
+## Pontos-chave
+
+- As faixas se aplicam passo a passo, e cada alíquota só atinge a renda dentro da sua faixa.
+- Fazer a conta de forma concreta reforça por que o conceito de alíquota marginal importa na prática.
+- A alíquota efetiva é sempre uma média, e sempre menor do que a faixa mais alta atingida.
+- Os números usados aqui são ilustrativos: confira sempre a tabela de faixas real do seu país.

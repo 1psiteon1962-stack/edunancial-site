@@ -1,0 +1,411 @@
+===== GREEN-L1-006
+TITLE: L'imposta sugli immobili: tassare ciò che possiedi
+SUMMARY: Un'introduzione all'imposta sugli immobili, applicata più comunemente ai beni immobiliari, e a come finanzia i servizi locali.
+# L'imposta sugli immobili: tassare ciò che possiedi
+
+## Obiettivi di apprendimento
+
+- Spiegare a che cosa si applica di solito l'imposta sugli immobili.
+- Individuare chi riscuote di solito l'imposta sugli immobili.
+- Descrivere i servizi locali comuni finanziati dall'imposta sugli immobili.
+
+## Contenuto principale
+
+L'imposta sugli immobili è un'imposta sulle cose che possiedi, il più delle volte beni immobili: terreni e fabbricati. A differenza dell'imposta sul reddito o sulle vendite, legate a un evento (guadagnare o comprare), l'imposta sugli immobili si paga di solito in modo continuativo, spesso ogni anno, semplicemente perché continui a possedere il bene.
+
+Gli enti locali (comuni o autorità regionali simili) sono quelli che riscuotono più spesso l'imposta sugli immobili, che finanzia di frequente servizi vicini a casa: scuole pubbliche, polizia locale e vigili del fuoco, biblioteche e manutenzione delle strade. Poiché si basa sulla proprietà e non su una transazione, l'imposta continua a essere dovuta che il reddito del proprietario cambi o no in quell'anno: anche per questo può essere un aspetto importante da pianificare per chi possiede immobili. (In Italia l'imposta comunale sugli immobili è l'IMU, che in genere non si applica all'abitazione principale non di lusso; le regole cambiano.)
+
+## Esempio svolto
+
+**Domanda:** Una famiglia possiede una casa ma ha avuto un anno difficile, con un reddito più basso. L'imposta sugli immobili cambia perché il reddito è sceso?
+
+**Studente:** Direi che resta uguale, perché riguarda la casa, non lo stipendio.
+
+**Guida:** Giusto: che cosa ti dice questo sulla natura dell'imposta sugli immobili rispetto all'imposta sul reddito?
+
+**Studente:** È legata alla proprietà, non a quanto si guadagna in quell'anno, quindi non si adegua automaticamente al reddito.
+
+**Guida:** Esatto: è una distinzione importante per la pianificazione.
+
+## Quiz di esercitazione
+
+**Domanda 1.** L'imposta sugli immobili si applica più comunemente a:
+
+A) Salari
+B) Beni immobili
+C) Acquisti al dettaglio
+D) Guadagni da investimenti
+
+**Domanda 2.** L'imposta sugli immobili viene di solito riscossa da:
+
+A) Solo lo Stato centrale
+B) Gli enti locali
+C) Nessun ente pubblico
+D) Solo le banche
+
+**Domanda 3.** L'imposta sugli immobili finanzia di solito:
+
+A) Solo la difesa nazionale
+B) Servizi locali come scuole e vigili del fuoco
+C) Nulla di specifico
+D) Solo le autostrade statali
+
+**Domanda 4.** L'imposta sugli immobili diminuisce automaticamente se il reddito del proprietario scende?
+
+A) Sì, sempre
+B) No, è legata alla proprietà, non al reddito
+C) Solo per le imprese
+D) Solo nei paesi ricchi
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** I beni immobili sono l'oggetto più comune dell'imposta sugli immobili, anche se alcuni luoghi tassano anche altri beni rilevanti.
+
+**2.** Gli enti locali di solito gestiscono e riscuotono l'imposta sugli immobili perché finanzia servizi locali.
+
+**3.** Scuole, polizia, vigili del fuoco e strade sono spesso finanziati, del tutto o in parte, dall'imposta sugli immobili.
+
+**4.** Poiché è legata alla proprietà e non al reddito, l'imposta sugli immobili non si muove automaticamente con i guadagni di una persona.
+
+## Punti chiave
+
+- L'imposta sugli immobili si paga sulla proprietà, il più delle volte di beni immobili.
+- Di solito è riscossa dagli enti locali.
+- Finanzia comunemente scuole, sicurezza pubblica e infrastrutture locali.
+- Poiché è legata alla proprietà, non diminuisce automaticamente quando il reddito scende: un punto chiave di pianificazione per i proprietari.
+
+===== GREEN-L1-007
+TITLE: I contributi sul lavoro: Social Security e Medicare
+SUMMARY: Presenta i contributi sul lavoro come categoria legata specificamente ai salari, che spesso finanzia programmi pensionistici e sanitari.
+# I contributi sul lavoro: Social Security e Medicare
+
+## Obiettivi di apprendimento
+
+- Definire i contributi sul lavoro e in che cosa differiscono dall'imposta generale sul reddito.
+- Spiegare che i contributi sul lavoro sono spesso ripartiti tra datore di lavoro e lavoratore.
+- Individuare i programmi comuni finanziati dai contributi sul lavoro.
+
+## Contenuto principale
+
+I contributi sul lavoro (negli Stati Uniti "payroll tax", per esempio per Social Security e Medicare; in Italia l'equivalente più vicino sono i contributi previdenziali e assistenziali versati all'INPS) sono un prelievo legato specificamente ai salari da lavoro. Sono collegati all'imposta sul reddito ma distinti da essa: mentre l'imposta sul reddito finanzia la spesa pubblica generale, i contributi sul lavoro sono spesso destinati a programmi specifici, più comunemente sistemi pensionistici e programmi di assicurazione sanitaria.
+
+In molti sistemi i contributi sono ripartiti: una parte viene trattenuta dalla busta paga del lavoratore e una parte viene pagata direttamente dal datore di lavoro in aggiunta al salario. Il costo reale di un dipendente per un'impresa è quindi più alto del solo importo in busta paga. Questa ripartizione diventa importante più avanti, quando vedremo la tassazione dei lavoratori autonomi, perché chi lavora in proprio spesso finisce per farsi carico di entrambe le parti.
+
+## Esempio svolto
+
+**Domanda:** Un datore di lavoro paga un salario a un lavoratore e, separatamente, versa allo Stato un'ulteriore quota di contributi. La quota contributiva del datore fa parte della busta paga del lavoratore?
+
+**Studente:** Direi che è separata, visto che il lavoratore non vede mai quei soldi.
+
+**Guida:** Giusto, ma è comunque un costo per assumere quel lavoratore?
+
+**Studente:** Sì: è un costo in più oltre al salario, anche se non compare in busta paga.
+
+**Guida:** Esatto, ed è per questo che il "costo di un dipendente" è di solito più alto del solo salario.
+
+## Quiz di esercitazione
+
+**Domanda 1.** I contributi sul lavoro sono legati specificamente a:
+
+A) Beni immobili
+B) Salari da lavoro
+C) Acquisti al dettaglio
+D) Eredità
+
+**Domanda 2.** I contributi sul lavoro finanziano comunemente:
+
+A) Programmi pensionistici e sanitari
+B) Solo la costruzione di strade
+C) Solo la difesa nazionale
+D) Nulla di specifico
+
+**Domanda 3.** In molti sistemi i contributi sul lavoro sono:
+
+A) Pagati solo dal datore di lavoro
+B) Pagati solo dal lavoratore
+C) Ripartiti tra datore di lavoro e lavoratore
+D) Mai pagati davvero
+
+**Domanda 4.** Il costo reale di un dipendente è spesso:
+
+A) Esattamente l'importo in busta paga
+B) Più alto della busta paga, per via dei contributi a carico del datore
+C) Più basso della busta paga
+D) Non collegato ai contributi sul lavoro
+
+## Soluzioni
+
+1. B, 2. A, 3. C, 4. B
+
+## Risposte e spiegazioni
+
+**1.** I contributi sul lavoro si distinguono dall'imposta generale sul reddito perché sono legati specificamente ai salari da lavoro.
+
+**2.** I sistemi pensionistici e i programmi di assicurazione sanitaria sono spesso finanziati con contributi dedicati.
+
+**3.** La ripartizione tra datore di lavoro e lavoratore è una scelta strutturale comune in molti sistemi.
+
+**4.** Poiché il datore paga una quota oltre al salario, il costo complessivo di un dipendente supera la sua busta paga.
+
+## Punti chiave
+
+- I contributi sul lavoro sono legati specificamente ai salari, distinti dall'imposta generale sul reddito.
+- Finanziano comunemente programmi pensionistici e sanitari.
+- Molti sistemi ripartiscono i contributi tra datore di lavoro e lavoratore.
+- Questa ripartizione diventa particolarmente rilevante per i lavoratori autonomi, come vedremo in una lezione successiva.
+
+===== GREEN-L1-008
+TITLE: Imposte progressive e regressive
+SUMMARY: Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e concreti.
+# Imposte progressive e regressive
+
+## Obiettivi di apprendimento
+
+- Definire una struttura fiscale progressiva.
+- Definire una struttura fiscale regressiva.
+- Individuare esempi concreti di ciascuna.
+
+## Contenuto principale
+
+Un'imposta progressiva preleva una percentuale più alta a chi ha un reddito o un patrimonio più elevato. La maggior parte dei sistemi di imposta sul reddito funziona così: man mano che guadagni di più, una percentuale più alta del tuo reddito (di solito solo la parte sopra certe soglie) viene tassata.
+
+Un'imposta regressiva, invece, preleva di fatto una percentuale più alta a chi ha un reddito più basso, anche se l'aliquota sembra uguale per tutti. L'imposta sulle vendite è un esempio comune: se due persone comprano lo stesso articolo da 50 $ e pagano la stessa imposta, quell'imposta rappresenta una quota molto più grande del denaro complessivo di chi ha un reddito basso rispetto a chi ha un reddito alto. L'importo è uguale, ma il peso no.
+
+Nessuna delle due strutture è di per sé "giusta" o "sbagliata": sono strumenti con effetti diversi, e i sistemi fiscali reali di solito combinano elementi progressivi e regressivi. Capire in quale categoria rientra un'imposta aiuta a valutare chi ne sopporta davvero il peso maggiore.
+
+## Esempio svolto
+
+**Domanda:** Due persone pagano ciascuna 5 $ di imposta sulle vendite sullo stesso acquisto. Una guadagna 2.000 $ al mese, l'altra 20.000 $ al mese. L'imposta ha un effetto progressivo o regressivo?
+
+**Studente:** L'importo è identico, quindi a prima vista sembra equo.
+
+**Guida:** Ma quale percentuale del reddito di ciascuno rappresentano quei 5 $?
+
+**Studente:** Una quota molto più grande per chi guadagna 2.000 $ che per chi ne guadagna 20.000.
+
+**Guida:** Giusto: importi uguali possono avere un impatto reale disuguale, ed è proprio lo schema regressivo.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un'imposta progressiva preleva:
+
+A) Una percentuale più bassa a chi guadagna di più
+B) Una percentuale più alta a chi guadagna di più
+C) La stessa percentuale a tutti, indipendentemente dal reddito
+D) Nulla a nessuno
+
+**Domanda 2.** Un'imposta regressiva pesa di fatto:
+
+A) Di più su chi guadagna di più
+B) Di più su chi guadagna di meno, in proporzione al reddito
+C) Su nessuno
+D) Solo sulle imprese
+
+**Domanda 3.** L'imposta sulle vendite viene spesso descritta come regressiva perché:
+
+A) È illegale
+B) Importi uguali rappresentano una quota maggiore di un reddito più basso
+C) Si applica solo ai ricchi
+D) Cambia ogni giorno
+
+**Domanda 4.** I sistemi fiscali reali:
+
+A) Sono sempre puramente progressivi
+B) Sono sempre puramente regressivi
+C) Spesso combinano elementi progressivi e regressivi
+D) Non combinano mai tipi di imposte diversi
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. C
+
+## Risposte e spiegazioni
+
+**1.** I sistemi progressivi aumentano l'aliquota al crescere del reddito, di solito solo sulle parti sopra soglie stabilite.
+
+**2.** Le imposte regressive prelevano proporzionalmente di più dai redditi bassi, anche quando l'importo è uguale.
+
+**3.** La stessa imposta di 5 $ è una quota più grande di un reddito più piccolo: è l'essenza di un effetto regressivo.
+
+**4.** La maggior parte dei sistemi reali unisce elementi progressivi (come gli scaglioni dell'imposta sul reddito) ed elementi regressivi (come un'imposta sulle vendite uniforme).
+
+## Punti chiave
+
+- Le imposte progressive aumentano in percentuale con il crescere del reddito.
+- Le imposte regressive prelevano proporzionalmente di più dai redditi bassi, anche a parità di importo.
+- L'imposta sulle vendite è un esempio di imposta regressiva citato spesso.
+- La maggior parte dei sistemi reali combina entrambe le strutture invece di usarne una sola.
+
+===== GREEN-L1-009
+TITLE: Le aliquote marginali: perché guadagnare di più non significa perdere di più
+SUMMARY: Chiarisce uno degli equivoci più comuni nella finanza personale: che passare a uno scaglione fiscale più alto significhi tassare tutto il reddito con l'aliquota più alta.
+# Le aliquote marginali: perché guadagnare di più non significa perdere di più
+
+## Obiettivi di apprendimento
+
+- Spiegare che cos'è un'aliquota marginale.
+- Correggere l'equivoco comune secondo cui un aumento può lasciarti con meno soldi in totale.
+- Distinguere l'aliquota marginale da quella media (effettiva).
+
+## Contenuto principale
+
+Uno degli equivoci più ostinati della finanza personale è la paura che guadagnare di più possa in qualche modo farti stare peggio, perché ti "spinge in uno scaglione più alto". Nei sistemi che usano scaglioni con aliquote marginali, questa paura è quasi sempre infondata.
+
+Ecco come funzionano davvero le aliquote marginali: l'aliquota di ogni scaglione si applica solo alla parte di reddito che rientra in quello scaglione, non a tutto il reddito. Se un sistema tassa il reddito fino a una certa cifra al 10% e la parte successiva al 20%, passare allo scaglione del 20% significa solo che quella parte aggiuntiva è tassata al 20%. La parte precedente continua a essere tassata al 10%, esattamente come prima. (Anche l'IRPEF italiana funziona a scaglioni con questa logica; gli scaglioni e le aliquote cambiano nel tempo.)
+
+Questo significa che la tua aliquota media, o "effettiva" (imposta totale pagata divisa per il reddito totale), è sempre più bassa della tua aliquota marginale più alta. Un aumento che ti porta in uno scaglione più alto può significare che i nuovi euro o dollari sono tassati di più, ma in un normale sistema marginale non ti ritroverai mai con meno soldi in totale per colpa di un aumento. Capirlo elimina una paura comune e inutile verso promozioni, aumenti e crescita della propria attività.
+
+## Esempio svolto
+
+**Domanda:** Un amico rifiuta un aumento perché teme che lo "spinga in uno scaglione più alto e gli lasci meno soldi". Che cosa gli diresti?
+
+**Studente:** Gli spiegherei che solo il reddito nuovo, aggiuntivo, viene tassato con l'aliquota più alta, non tutto quello che guadagna.
+
+**Guida:** Giusto. Sai spiegare perché questo significa che con un aumento non finirebbe mai per avere meno soldi netti in totale?
+
+**Studente:** Perché il resto del suo reddito continua a essere tassato con le stesse aliquote più basse di sempre: l'aliquota più alta tocca solo la parte sopra la soglia.
+
+**Guida:** Esatto: la paura nasce da un equivoco su come si applicano davvero gli scaglioni.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un'aliquota marginale si applica a:
+
+A) Tutto il reddito in una volta
+B) Solo alla parte di reddito che rientra in quello specifico scaglione
+C) Solo alla prima busta paga
+D) A niente: è un mito
+
+**Domanda 2.** Se in un sistema marginale un aumento ti porta in uno scaglione più alto, il tuo reddito netto complessivo diminuisce?
+
+A) Sì, sempre
+B) No: solo la nuova parte è tassata con l'aliquota più alta
+C) Solo per i lavoratori autonomi
+D) Solo in alcuni paesi, mai in altri
+
+**Domanda 3.** La tua aliquota effettiva (media) è:
+
+A) Sempre uguale alla tua aliquota marginale più alta
+B) Sempre più alta della tua aliquota marginale più alta
+C) Di solito più bassa della tua aliquota marginale più alta
+D) Non collegata al tuo reddito
+
+**Domanda 4.** La paura che "un aumento possa lasciarti con meno soldi" è in genere:
+
+A) Corretta nei sistemi marginali
+B) Un equivoco comune su come funzionano gli scaglioni
+C) Vera solo per i ricchi
+D) Impossibile da valutare
+
+## Soluzioni
+
+1. B, 2. B, 3. C, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Le aliquote marginali si applicano scaglione per scaglione, non come un'aliquota unica su tutto il reddito.
+
+**2.** Poiché solo il nuovo reddito sopra la soglia è tassato con l'aliquota più alta, in un normale sistema marginale il netto complessivo non diminuisce mai per effetto di un aumento.
+
+**3.** Mescolando le aliquote più basse e quelle più alte su tutto il reddito si ottiene sempre una media inferiore all'aliquota più alta.
+
+**4.** Questa paura è molto diffusa ma non regge una volta capito come si applicano davvero gli scaglioni.
+
+## Punti chiave
+
+- Le aliquote marginali si applicano solo al reddito che rientra in ciascuno scaglione.
+- In un normale sistema marginale, un aumento non porta mai a un netto complessivo più basso.
+- La tua aliquota effettiva è una media ponderata, sempre inferiore alla tua aliquota marginale più alta.
+- Capirlo elimina paure inutili verso aumenti, promozioni e crescita dell'attività.
+
+===== GREEN-L1-010
+TITLE: Gli scaglioni fiscali spiegati
+SUMMARY: Un percorso concreto, passo dopo passo, su come sono strutturati e applicati gli scaglioni fiscali, partendo direttamente dal concetto di aliquota marginale.
+# Gli scaglioni fiscali spiegati
+
+## Obiettivi di apprendimento
+
+- Leggere e interpretare una semplice tabella di scaglioni fiscali.
+- Calcolare l'imposta dovuta su più scaglioni per un reddito di esempio.
+- Consolidare il concetto di aliquota marginale con un esempio numerico.
+
+## Contenuto principale
+
+Partendo dalla lezione precedente, vediamo gli scaglioni con numeri concreti. Immagina una tabella di scaglioni semplificata e illustrativa: il reddito da 0 a 10.000 $ è tassato al 10%; quello da 10.001 a 40.000 $ al 20%; quello oltre 40.000 $ al 30%.
+
+Chi guadagna 50.000 $ non paga il 30% su tutti i 50.000 $. Invece: i primi 10.000 $ sono tassati al 10% (1.000 $), i successivi 30.000 $ (da 10.001 a 40.000 $) al 20% (6.000 $) e i restanti 10.000 $ (da 40.001 a 50.000 $) al 30% (3.000 $). L'imposta totale dovuta è 10.000 $, pari a un'aliquota effettiva del 20%, ben al di sotto dello scaglione più alto del 30%.
+
+Questo calcolo passo dopo passo, scaglione per scaglione, è esattamente ciò che significa tassazione marginale nella pratica. Gli scaglioni reali variano da paese a paese e cambiano nel tempo, quindi le cifre qui sono solo illustrative: il metodo di calcolo è la competenza duratura e trasferibile.
+
+> **Nota:** le percentuali e le soglie di questa lezione sono numeri didattici illustrativi, non valori di un paese specifico. Verifica gli scaglioni reali e aggiornati del tuo paese.
+
+## Esempio svolto
+
+**Domanda:** Con gli scaglioni illustrativi indicati sopra, quanta imposta dovrebbe chi guadagna esattamente 40.000 $?
+
+**Studente:** Procedo in ordine: i primi 10.000 $ al 10% fanno 1.000 $.
+
+**Guida:** Bene, continua.
+
+**Studente:** I restanti 30.000 $, da 10.001 a 40.000 $, sono tassati al 20%, cioè 6.000 $.
+
+**Guida:** E una parte è tassata al 30%?
+
+**Studente:** No: non ha guadagnato nulla oltre i 40.000 $, quindi lo scaglione del 30% non si applica mai. Il totale è 1.000 $ + 6.000 $ = 7.000 $.
+
+**Guida:** Esatto, e nota che la sua aliquota effettiva è il 17,5%, non il 20% e non il 30%.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Con gli scaglioni illustrativi di questa lezione, quanta parte di un reddito di 50.000 $ è tassata al 30%?
+
+A) Tutti i 50.000 $
+B) 10.000 $
+C) 30.000 $
+D) 0 $
+
+**Domanda 2.** Qual è l'imposta totale illustrativa dovuta su 50.000 $ in questo esempio?
+
+A) 15.000 $
+B) 10.000 $
+C) 5.000 $
+D) 20.000 $
+
+**Domanda 3.** L'aliquota effettiva nell'esempio da 50.000 $ è:
+
+A) 30%
+B) 20%
+C) 10%
+D) 0%
+
+**Domanda 4.** Le cifre specifiche degli scaglioni di questa lezione vanno memorizzate come valori reali?
+
+A) Sì, valgono ovunque
+B) No: sono illustrative; gli scaglioni reali variano da paese a paese e cambiano nel tempo
+C) Sì, ma solo per un paese
+D) Non hanno rilevanza per la lezione
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Solo la parte di reddito oltre i 40.000 $, cioè 10.000 $, rientra nello scaglione del 30%.
+
+**2.** Sommando 1.000 $ + 6.000 $ + 3.000 $ nei tre scaglioni si ottiene un totale di 10.000 $.
+
+**3.** Dividendo l'imposta totale (10.000 $) per il reddito totale (50.000 $) si ottiene un'aliquota effettiva del 20%.
+
+**4.** Le cifre sono uno strumento didattico; il metodo di calcolo è ciò che si trasferisce a qualsiasi tabella di scaglioni reale.
+
+## Punti chiave
+
+- Gli scaglioni si applicano passo dopo passo, e ogni aliquota tocca solo il reddito all'interno della propria fascia.
+- Fare i conti in modo concreto rafforza il motivo per cui il concetto di aliquota marginale conta nella pratica.
+- L'aliquota effettiva è sempre una media, e sempre più bassa dello scaglione più alto raggiunto.
+- Le cifre usate qui sono illustrative: verifica sempre la tabella reale degli scaglioni del tuo paese.

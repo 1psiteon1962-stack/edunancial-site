@@ -1,0 +1,411 @@
+===== GREEN-L1-006
+TITLE: Imposto sobre o património: tributar aquilo que possui
+SUMMARY: Uma introdução ao imposto sobre o património, aplicado sobretudo a imóveis, e à forma como financia os serviços locais.
+# Imposto sobre o património: tributar aquilo que possui
+
+## Objetivos de aprendizagem
+
+- Explicar a que se aplica normalmente o imposto sobre o património.
+- Identificar quem costuma cobrar o imposto sobre o património.
+- Descrever serviços locais comuns financiados pelo imposto sobre o património.
+
+## Conteúdo principal
+
+O imposto sobre o património é um imposto sobre aquilo que possui, na maioria das vezes imóveis: terrenos e edifícios. Ao contrário do imposto sobre o rendimento ou sobre as vendas, que estão ligados a um acontecimento (ganhar ou comprar), o imposto sobre o património é normalmente cobrado de forma contínua, muitas vezes todos os anos, simplesmente porque continua a ser dono do bem.
+
+As autarquias locais (municípios ou entidades regionais semelhantes) são quem cobra mais frequentemente este imposto, que financia muitas vezes serviços de proximidade: escolas públicas, polícia municipal e bombeiros, bibliotecas e manutenção das ruas. Como se baseia na propriedade e não numa transação, o imposto continua a ser devido quer o rendimento do proprietário mude ou não nesse ano, e é em parte por isso que pode ser um ponto importante de planeamento para quem tem imóveis. (Em Portugal, o imposto municipal sobre imóveis é o IMI, com taxas fixadas por cada município dentro de limites legais; as regras mudam.)
+
+## Exemplo prático
+
+**Pergunta:** Uma família é dona de uma casa, mas teve um ano difícil, com rendimentos mais baixos. O imposto sobre o património muda porque o rendimento desceu?
+
+**Aluno:** Diria que fica igual, porque diz respeito à casa e não ao salário.
+
+**Guia:** Certo. O que é que isso diz sobre a natureza do imposto sobre o património em comparação com o imposto sobre o rendimento?
+
+**Aluno:** Está ligado à propriedade e não a quanto se ganha nesse ano, por isso não se ajusta automaticamente ao rendimento.
+
+**Guia:** Exatamente: é uma distinção importante para o planeamento.
+
+## Teste de prática
+
+**Pergunta 1.** O imposto sobre o património aplica-se mais frequentemente a:
+
+A) Salários
+B) Imóveis
+C) Compras no comércio
+D) Ganhos de investimentos
+
+**Pergunta 2.** O imposto sobre o património é normalmente cobrado por:
+
+A) Apenas o Estado central
+B) As autarquias locais
+C) Nenhuma entidade pública
+D) Apenas os bancos
+
+**Pergunta 3.** O imposto sobre o património financia normalmente:
+
+A) Apenas a defesa nacional
+B) Serviços locais como escolas e bombeiros
+C) Nada em específico
+D) Apenas as autoestradas nacionais
+
+**Pergunta 4.** O imposto sobre o património diminui automaticamente se o rendimento do proprietário descer?
+
+A) Sim, sempre
+B) Não, está ligado à propriedade e não ao rendimento
+C) Apenas para as empresas
+D) Apenas nos países ricos
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Os imóveis são o alvo mais comum do imposto sobre o património, embora alguns locais também tributem outros bens relevantes.
+
+**2.** As autarquias locais gerem e cobram normalmente o imposto sobre o património, porque este financia serviços locais.
+
+**3.** As escolas, a polícia, os bombeiros e as ruas são muitas vezes financiados, total ou parcialmente, pelo imposto sobre o património.
+
+**4.** Como está ligado à propriedade e não ao rendimento, o imposto sobre o património não acompanha automaticamente os ganhos de uma pessoa.
+
+## Pontos-chave
+
+- O imposto sobre o património é cobrado sobre aquilo que se possui, na maioria das vezes imóveis.
+- É normalmente cobrado pelas autarquias locais.
+- Financia muitas vezes escolas, segurança pública e infraestruturas locais.
+- Como depende da propriedade, não diminui automaticamente quando o rendimento desce: um ponto-chave de planeamento para os proprietários.
+
+===== GREEN-L1-007
+TITLE: Contribuições sobre os salários: Social Security e Medicare
+SUMMARY: Apresenta as contribuições sobre os salários como uma categoria ligada especificamente aos salários do trabalho, que financia muitas vezes sistemas de reforma e de saúde.
+# Contribuições sobre os salários: Social Security e Medicare
+
+## Objetivos de aprendizagem
+
+- Definir as contribuições sobre os salários e explicar em que diferem do imposto geral sobre o rendimento.
+- Explicar que as contribuições sobre os salários são muitas vezes repartidas entre a entidade empregadora e o trabalhador.
+- Identificar programas comuns financiados pelas contribuições sobre os salários.
+
+## Conteúdo principal
+
+As contribuições sobre os salários (nos EUA, "payroll tax", por exemplo para a Social Security e o Medicare; em Portugal, o mais próximo são as contribuições para a Segurança Social, conhecidas como TSU) estão ligadas especificamente aos salários do trabalho. Estão relacionadas com o imposto sobre o rendimento, mas são diferentes dele: enquanto o imposto sobre o rendimento financia a despesa pública geral, as contribuições sobre os salários destinam-se muitas vezes a programas específicos, sobretudo sistemas de reforma e de proteção na saúde.
+
+Em muitos sistemas, estas contribuições são repartidas: uma parte é descontada no salário do trabalhador e outra parte é paga diretamente pela entidade empregadora, para além do salário. O custo real de um trabalhador para uma empresa é, portanto, superior ao valor do recibo de vencimento. Esta repartição vai importar mais tarde, quando analisarmos a tributação de quem trabalha por conta própria, porque o trabalhador independente acaba muitas vezes responsável pelas duas partes.
+
+## Exemplo prático
+
+**Pergunta:** Uma entidade empregadora paga um salário a um trabalhador e, em separado, entrega ao Estado um montante adicional de contribuições. A parte da entidade empregadora faz parte do salário do trabalhador?
+
+**Aluno:** Diria que é separada, já que o trabalhador nunca vê esse dinheiro.
+
+**Guia:** Certo, mas continua a ser um custo de empregar esse trabalhador?
+
+**Aluno:** Sim: é um custo adicional para além do salário, mesmo que não apareça no recibo de vencimento.
+
+**Guia:** Exatamente, e é por isso que o "custo de um trabalhador" é normalmente superior ao salário por si só.
+
+## Teste de prática
+
+**Pergunta 1.** As contribuições sobre os salários estão ligadas especificamente a:
+
+A) Imóveis
+B) Salários do trabalho
+C) Compras no comércio
+D) Heranças
+
+**Pergunta 2.** As contribuições sobre os salários financiam normalmente:
+
+A) Programas de reforma e de saúde
+B) Apenas a construção de estradas
+C) Apenas a defesa nacional
+D) Nada em específico
+
+**Pergunta 3.** Em muitos sistemas, as contribuições sobre os salários são:
+
+A) Pagas apenas pela entidade empregadora
+B) Pagas apenas pelo trabalhador
+C) Repartidas entre a entidade empregadora e o trabalhador
+D) Nunca efetivamente pagas
+
+**Pergunta 4.** O custo real de empregar um trabalhador é muitas vezes:
+
+A) Exatamente o valor do recibo de vencimento
+B) Superior ao salário, devido à parte da entidade empregadora
+C) Inferior ao salário
+D) Sem relação com as contribuições sobre os salários
+
+## Chave de Respostas
+
+1. B, 2. A, 3. C, 4. B
+
+## Respostas e explicações
+
+**1.** As contribuições sobre os salários distinguem-se do imposto geral sobre o rendimento por estarem ligadas especificamente aos salários do trabalho.
+
+**2.** Os sistemas de reforma e os programas de proteção na saúde são muitas vezes financiados por contribuições específicas.
+
+**3.** A repartição entre entidade empregadora e trabalhador é uma opção estrutural comum em muitos sistemas.
+
+**4.** Como a entidade empregadora paga uma parte para além do salário, o custo total de um trabalhador é superior ao seu recibo de vencimento.
+
+## Pontos-chave
+
+- As contribuições sobre os salários estão ligadas especificamente aos salários e distinguem-se do imposto geral sobre o rendimento.
+- Financiam normalmente programas de reforma e de saúde.
+- Muitos sistemas repartem estas contribuições entre a entidade empregadora e o trabalhador.
+- Esta repartição torna-se especialmente relevante para quem trabalha por conta própria, como uma lição posterior vai mostrar.
+
+===== GREEN-L1-008
+TITLE: Impostos progressivos e regressivos
+SUMMARY: Explica a diferença entre estruturas fiscais progressivas e regressivas, com comparações simples e próximas do dia a dia.
+# Impostos progressivos e regressivos
+
+## Objetivos de aprendizagem
+
+- Definir uma estrutura fiscal progressiva.
+- Definir uma estrutura fiscal regressiva.
+- Identificar exemplos reais de cada uma.
+
+## Conteúdo principal
+
+Um imposto progressivo cobra uma percentagem maior a quem tem rendimentos ou património mais elevados. A maioria dos sistemas de imposto sobre o rendimento funciona assim: à medida que ganha mais, uma percentagem maior do seu rendimento (normalmente só a parte acima de certos limites) é tributada.
+
+Um imposto regressivo, pelo contrário, cobra na prática uma percentagem maior a quem tem rendimentos mais baixos, mesmo que a taxa pareça igual para todos. O imposto sobre as vendas é um exemplo comum: se duas pessoas comprarem o mesmo artigo de 50 $ e pagarem o mesmo imposto, esse imposto representa uma parte muito maior do dinheiro total de quem tem rendimentos baixos do que de quem tem rendimentos altos. O montante é igual, mas o peso não.
+
+Nenhuma das duas estruturas é, por si só, "certa" ou "errada": são instrumentos com efeitos diferentes, e os sistemas fiscais reais combinam normalmente elementos progressivos e regressivos. Perceber em que categoria se insere um imposto ajuda a avaliar quem suporta realmente a maior parte do peso.
+
+## Exemplo prático
+
+**Pergunta:** Duas pessoas pagam cada uma 5 $ de imposto sobre as vendas na mesma compra. Uma ganha 2000 $ por mês; a outra, 20 000 $ por mês. O efeito do imposto é progressivo ou regressivo?
+
+**Aluno:** O montante é idêntico, por isso à primeira vista parece justo.
+
+**Guia:** Mas que percentagem do rendimento de cada uma representam esses 5 $?
+
+**Aluno:** Uma parte muito maior para quem ganha 2000 $ do que para quem ganha 20 000 $.
+
+**Guia:** Certo: montantes iguais podem ter impactos reais desiguais, e esse é o padrão regressivo.
+
+## Teste de prática
+
+**Pergunta 1.** Um imposto progressivo cobra:
+
+A) Uma percentagem menor a quem ganha mais
+B) Uma percentagem maior a quem ganha mais
+C) A mesma percentagem a todos, independentemente do rendimento
+D) Nada a ninguém
+
+**Pergunta 2.** Um imposto regressivo pesa na prática mais sobre:
+
+A) Quem ganha mais
+B) Quem ganha menos, em proporção ao rendimento
+C) Ninguém
+D) Apenas as empresas
+
+**Pergunta 3.** O imposto sobre as vendas é muitas vezes descrito como regressivo porque:
+
+A) É ilegal
+B) Montantes iguais representam uma parte maior de um rendimento mais baixo
+C) Só se aplica aos ricos
+D) Muda todos os dias
+
+**Pergunta 4.** Os sistemas fiscais reais:
+
+A) São sempre puramente progressivos
+B) São sempre puramente regressivos
+C) Combinam muitas vezes elementos progressivos e regressivos
+D) Nunca combinam tipos de impostos
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. C
+
+## Respostas e explicações
+
+**1.** Os sistemas progressivos aumentam a taxa à medida que o rendimento sobe, normalmente só sobre as partes acima de limites definidos.
+
+**2.** Os impostos regressivos retiram proporcionalmente mais aos rendimentos mais baixos, mesmo quando o montante é igual.
+
+**3.** O mesmo imposto de 5 $ é uma parte maior de um rendimento mais pequeno: essa é a essência de um efeito regressivo.
+
+**4.** A maioria dos sistemas reais combina elementos progressivos (como os escalões do imposto sobre o rendimento) com elementos regressivos (como um imposto sobre as vendas uniforme).
+
+## Pontos-chave
+
+- Os impostos progressivos aumentam em percentagem à medida que o rendimento é mais elevado.
+- Os impostos regressivos retiram proporcionalmente mais aos rendimentos mais baixos, mesmo com montantes iguais.
+- O imposto sobre as vendas é um exemplo regressivo citado com frequência.
+- A maioria dos sistemas reais combina as duas estruturas, em vez de usar apenas uma.
+
+===== GREEN-L1-009
+TITLE: Taxas marginais: porque é que ganhar mais não significa perder mais
+SUMMARY: Esclarece um dos equívocos mais comuns das finanças pessoais: que passar para um escalão de imposto mais alto faz com que todo o rendimento seja tributado à taxa mais elevada.
+# Taxas marginais: porque é que ganhar mais não significa perder mais
+
+## Objetivos de aprendizagem
+
+- Explicar o que é uma taxa marginal.
+- Corrigir o equívoco comum de que um aumento pode deixá-lo com menos dinheiro no total.
+- Distinguir a taxa marginal da taxa média (efetiva).
+
+## Conteúdo principal
+
+Um dos equívocos mais persistentes das finanças pessoais é o receio de que ganhar mais dinheiro o deixe, de alguma forma, pior, por o "empurrar para um escalão mais alto". Nos sistemas que usam escalões com taxas marginais, este receio quase nunca tem fundamento.
+
+Eis como funcionam realmente as taxas marginais: a taxa de cada escalão aplica-se apenas à parte do rendimento que se insere nesse escalão, e não a todo o rendimento. Se um sistema tributar o rendimento até um certo montante a 10% e a parte seguinte a 20%, passar para o escalão dos 20% significa apenas que essa parte adicional é tributada a 20%. A parte anterior continua a ser tributada a 10%, exatamente como antes. (O IRS português também funciona por escalões com esta lógica; os escalões e as taxas mudam ao longo do tempo.)
+
+Isto significa que a sua taxa média, ou "efetiva" (o total de imposto pago a dividir pelo rendimento total), é sempre inferior à sua taxa marginal mais alta. Um aumento que o faça subir de escalão pode significar que os novos euros ou dólares são tributados a uma taxa mais alta, mas, num sistema marginal normal, nunca ficará com menos dinheiro no total por causa de um aumento. Perceber isto elimina um receio comum e desnecessário em relação a promoções, aumentos e crescimento do próprio negócio.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo recusa um aumento por recear que este o "empurre para um escalão mais alto e o deixe com menos dinheiro". O que lhe diria?
+
+**Aluno:** Explicar-lhe-ia que só o rendimento novo, adicional, é tributado à taxa mais alta, e não tudo o que ganha.
+
+**Guia:** Certo. Consegue explicar porque é que isso significa que ele nunca ficaria com menos dinheiro líquido no total por causa de um aumento?
+
+**Aluno:** Porque o resto do rendimento dele continua a ser tributado às mesmas taxas mais baixas de sempre; a taxa mais alta só atinge a parte acima do limite.
+
+**Guia:** Exatamente: o receio vem de um mal-entendido sobre a forma como os escalões se aplicam realmente.
+
+## Teste de prática
+
+**Pergunta 1.** Uma taxa marginal aplica-se a:
+
+A) Todo o rendimento de uma só vez
+B) Apenas à parte do rendimento dentro desse escalão específico
+C) Apenas ao primeiro salário
+D) A nada: é um mito
+
+**Pergunta 2.** Se, num sistema marginal, um aumento o fizer subir de escalão, o seu rendimento líquido total diminui?
+
+A) Sim, sempre
+B) Não: apenas a parte nova é tributada à taxa mais alta
+C) Apenas para trabalhadores independentes
+D) Apenas em alguns países, nunca noutros
+
+**Pergunta 3.** A sua taxa efetiva (média) é:
+
+A) Sempre igual à sua taxa marginal mais alta
+B) Sempre superior à sua taxa marginal mais alta
+C) Normalmente inferior à sua taxa marginal mais alta
+D) Sem relação com o seu rendimento
+
+**Pergunta 4.** O receio de que "um aumento pode deixá-lo com menos dinheiro" é, em geral:
+
+A) Correto nos sistemas marginais
+B) Um equívoco comum sobre o funcionamento dos escalões
+C) Verdadeiro apenas para os ricos
+D) Impossível de avaliar
+
+## Chave de Respostas
+
+1. B, 2. B, 3. C, 4. B
+
+## Respostas e explicações
+
+**1.** As taxas marginais aplicam-se escalão a escalão, e não como uma taxa única sobre todo o rendimento.
+
+**2.** Como apenas o rendimento novo acima do limite é tributado à taxa mais alta, o rendimento líquido total nunca diminui por causa de um aumento num sistema marginal normal.
+
+**3.** Combinar as taxas dos escalões mais baixos e mais altos sobre todo o rendimento dá sempre uma média inferior à taxa mais alta.
+
+**4.** Este receio é muito comum, mas não se sustenta quando se percebe como os escalões se aplicam realmente.
+
+## Pontos-chave
+
+- As taxas marginais aplicam-se apenas ao rendimento dentro de cada escalão específico.
+- Num sistema marginal normal, um aumento nunca resulta em menos rendimento líquido total.
+- A sua taxa efetiva é uma média ponderada, sempre inferior à sua taxa marginal mais alta.
+- Perceber isto elimina receios desnecessários em relação a aumentos, promoções e crescimento do negócio.
+
+===== GREEN-L1-010
+TITLE: Escalões de imposto explicados
+SUMMARY: Uma explicação concreta, passo a passo, de como os escalões de imposto são estruturados e aplicados, com base direta no conceito de taxa marginal.
+# Escalões de imposto explicados
+
+## Objetivos de aprendizagem
+
+- Ler e interpretar uma tabela simples de escalões de imposto.
+- Calcular o imposto devido em vários escalões para um rendimento de exemplo.
+- Reforçar o conceito de taxa marginal com um exemplo numérico.
+
+## Conteúdo principal
+
+Com base na lição anterior, vamos percorrer os escalões com números concretos. Imagine uma tabela de escalões simplificada e ilustrativa: o rendimento de 0 $ a 10 000 $ é tributado a 10%; o rendimento de 10 001 $ a 40 000 $ a 20%; e o rendimento acima de 40 000 $ a 30%.
+
+Quem ganha 50 000 $ não paga 30% sobre os 50 000 $ inteiros. Em vez disso: os primeiros 10 000 $ são tributados a 10% (1000 $), os 30 000 $ seguintes (de 10 001 $ a 40 000 $) a 20% (6000 $) e os restantes 10 000 $ (de 40 001 $ a 50 000 $) a 30% (3000 $). O imposto total devido é de 10 000 $, o que corresponde a uma taxa efetiva de 20%, bem abaixo do escalão mais alto, de 30%.
+
+Este cálculo passo a passo, escalão a escalão, é exatamente o que significa tributação marginal na prática. Os valores reais dos escalões variam de país para país e mudam ao longo do tempo, por isso os montantes aqui são apenas ilustrativos: o método de cálculo é a competência duradoura e transferível.
+
+> **Nota:** as percentagens e os limites desta lição são números didáticos ilustrativos, e não valores de um país específico. Confirme os escalões reais e atuais do seu país.
+
+## Exemplo prático
+
+**Pergunta:** Com os escalões ilustrativos acima, quanto imposto deveria alguém que ganha exatamente 40 000 $?
+
+**Aluno:** Vou fazer por ordem: os primeiros 10 000 $ a 10% dão 1000 $.
+
+**Guia:** Muito bem, continue.
+
+**Aluno:** Os restantes 30 000 $, de 10 001 $ a 40 000 $, são tributados a 20%, o que dá 6000 $.
+
+**Guia:** E alguma parte é tributada a 30%?
+
+**Aluno:** Não: a pessoa não ganhou nada acima de 40 000 $, por isso o escalão dos 30% nunca se aplica. O total é 1000 $ + 6000 $ = 7000 $.
+
+**Guia:** Exatamente, e repare que a taxa efetiva é de 17,5%, e não de 20% nem de 30%.
+
+## Teste de prática
+
+**Pergunta 1.** Com os escalões ilustrativos desta lição, que parte de um rendimento de 50 000 $ é tributada a 30%?
+
+A) Os 50 000 $ inteiros
+B) 10 000 $
+C) 30 000 $
+D) 0 $
+
+**Pergunta 2.** Qual é o imposto total ilustrativo devido sobre 50 000 $ neste exemplo?
+
+A) 15 000 $
+B) 10 000 $
+C) 5000 $
+D) 20 000 $
+
+**Pergunta 3.** A taxa efetiva no exemplo de 50 000 $ é:
+
+A) 30%
+B) 20%
+C) 10%
+D) 0%
+
+**Pergunta 4.** Os valores específicos dos escalões desta lição devem ser memorizados como valores reais?
+
+A) Sim, aplicam-se em todo o lado
+B) Não: são ilustrativos; os escalões reais variam de país para país e mudam ao longo do tempo
+C) Sim, mas apenas para um país
+D) Não têm importância para a lição
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Apenas a parte do rendimento acima de 40 000 $, ou seja, 10 000 $, se insere no escalão dos 30%.
+
+**2.** Somando 1000 $ + 6000 $ + 3000 $ nos três escalões, obtém-se um total de 10 000 $.
+
+**3.** Dividindo o imposto total (10 000 $) pelo rendimento total (50 000 $), obtém-se uma taxa efetiva de 20%.
+
+**4.** Os montantes são um instrumento didático; o método de cálculo é o que se transfere para qualquer tabela de escalões real.
+
+## Pontos-chave
+
+- Os escalões aplicam-se passo a passo, e cada taxa só atinge o rendimento dentro do seu escalão.
+- Fazer as contas de forma concreta reforça porque é que o conceito de taxa marginal importa na prática.
+- A taxa efetiva é sempre uma média, e sempre inferior ao escalão mais alto atingido.
+- Os números usados aqui são ilustrativos: confirme sempre a tabela de escalões real do seu país.

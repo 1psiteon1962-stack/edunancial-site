@@ -1,0 +1,411 @@
+===== GREEN-L1-006
+TITLE: Grundsteuer: Besteuerung dessen, was Sie besitzen
+SUMMARY: Eine Einführung in die Grundsteuer, die meist auf Immobilien erhoben wird, und wie sie lokale Leistungen finanziert.
+# Grundsteuer: Besteuerung dessen, was Sie besitzen
+
+## Lernziele
+
+- Erklären, worauf die Grundsteuer typischerweise erhoben wird.
+- Benennen, wer die Grundsteuer üblicherweise einzieht.
+- Typische lokale Leistungen beschreiben, die über die Grundsteuer finanziert werden.
+
+## Kerninhalt
+
+Die Grundsteuer ist eine Steuer auf Dinge, die man besitzt, meist auf Immobilien – Grundstücke und Gebäude. Anders als die Einkommen- oder Umsatzsteuer, die an ein Ereignis gebunden sind (Verdienen oder Kaufen), wird die Grundsteuer typischerweise laufend erhoben, oft jährlich, einfach weil man den Vermögenswert weiterhin besitzt.
+
+Kommunen – Städte, Gemeinden oder vergleichbare regionale Behörden – ziehen die Grundsteuer am häufigsten ein, und sie finanziert oft Leistungen vor Ort: öffentliche Schulen, örtliche Polizei und Feuerwehr, Bibliotheken und den Straßenunterhalt. Weil sie auf Eigentum statt auf einem Geschäft beruht, bleibt die Grundsteuer bestehen, egal ob sich das Einkommen des Eigentümers in diesem Jahr ändert – ein Grund, warum sie für Immobilieneigentümer eine wichtige Planungsgröße sein kann. (In Deutschland wird die Grundsteuer von den Gemeinden erhoben; die Berechnungsregeln wurden in den letzten Jahren reformiert und unterscheiden sich je nach Bundesland.)
+
+## Praxisbeispiel
+
+**Frage:** Eine Familie besitzt ein Haus, hatte aber ein schwieriges Jahr mit niedrigerem Einkommen. Ändert sich ihre Grundsteuer, weil ihr Einkommen gesunken ist?
+
+**Schüler:** Ich würde sagen, sie bleibt gleich, weil es um das Haus geht und nicht um den Lohn.
+
+**Lernbegleiter:** Richtig – was sagt dir das über die Grundsteuer im Vergleich zur Einkommensteuer?
+
+**Schüler:** Sie hängt am Eigentum und nicht daran, wie viel man in diesem Jahr verdient, also passt sie sich nicht automatisch an das Einkommen an.
+
+**Lernbegleiter:** Genau – das ist ein wichtiger Unterschied für die Planung.
+
+## Übungsquiz
+
+**Frage 1.** Die Grundsteuer wird am häufigsten erhoben auf:
+
+A) Löhne
+B) Immobilien
+C) Einzelhandelskäufe
+D) Kapitalgewinne
+
+**Frage 2.** Die Grundsteuer wird üblicherweise eingezogen von:
+
+A) Nur dem Bund
+B) Den Kommunen
+C) Keiner staatlichen Stelle
+D) Nur Banken
+
+**Frage 3.** Die Grundsteuer finanziert typischerweise:
+
+A) Nur die Landesverteidigung
+B) Lokale Leistungen wie Schulen und Feuerwehr
+C) Nichts Bestimmtes
+D) Nur Bundesautobahnen
+
+**Frage 4.** Sinkt die Grundsteuer automatisch, wenn das Einkommen des Eigentümers sinkt?
+
+A) Ja, immer
+B) Nein, sie hängt am Eigentum, nicht am Einkommen
+C) Nur bei Unternehmen
+D) Nur in wohlhabenden Ländern
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Immobilien sind das häufigste Ziel der Grundsteuer, auch wenn manche Länder auch andere bedeutende Vermögenswerte besteuern.
+
+**2.** Die Kommunen verwalten und erheben die Grundsteuer meist selbst, weil sie lokale Leistungen finanziert.
+
+**3.** Schulen, Polizei, Feuerwehr und Straßen werden häufig ganz oder teilweise aus der Grundsteuer finanziert.
+
+**4.** Weil sie am Eigentum und nicht am Einkommen hängt, bewegt sich die Grundsteuer nicht automatisch mit dem Verdienst.
+
+## Wichtigste Erkenntnisse
+
+- Die Grundsteuer wird auf Eigentum erhoben, meist auf Immobilien.
+- Sie wird typischerweise von den Kommunen eingezogen.
+- Sie finanziert häufig Schulen, öffentliche Sicherheit und lokale Infrastruktur.
+- Weil sie am Eigentum hängt, sinkt sie nicht automatisch, wenn das Einkommen sinkt – ein wichtiger Planungspunkt für Eigentümer.
+
+===== GREEN-L1-007
+TITLE: Lohnbezogene Abgaben: Social Security und Medicare
+SUMMARY: Führt lohnbezogene Abgaben als eigene Kategorie ein, die speziell an Arbeitslöhne gekoppelt ist und häufig Renten- und Gesundheitsprogramme finanziert.
+# Lohnbezogene Abgaben: Social Security und Medicare
+
+## Lernziele
+
+- Lohnbezogene Abgaben definieren und vom allgemeinen Einkommensteuerbegriff abgrenzen.
+- Erklären, dass lohnbezogene Abgaben oft zwischen Arbeitgeber und Arbeitnehmer aufgeteilt werden.
+- Typische Programme benennen, die über lohnbezogene Abgaben finanziert werden.
+
+## Kerninhalt
+
+Lohnbezogene Abgaben (in den USA „payroll tax“, etwa für Social Security und Medicare; in Deutschland vergleichbar mit den Sozialversicherungsbeiträgen für Rente, Kranken-, Pflege- und Arbeitslosenversicherung) sind speziell an Arbeitslöhne gekoppelt. Sie hängen mit der Einkommensteuer zusammen, unterscheiden sich aber von ihr: Während die Einkommensteuer allgemeine Staatsausgaben finanziert, sind lohnbezogene Abgaben häufig für bestimmte Programme zweckgebunden, meist für Rentensysteme und Kranken- bzw. Gesundheitsversicherungen.
+
+In vielen Systemen werden diese Abgaben aufgeteilt: Ein Teil wird vom Lohn des Arbeitnehmers einbehalten, und ein Teil wird vom Arbeitgeber zusätzlich zum Lohn direkt gezahlt. Die tatsächlichen Kosten eines Mitarbeiters sind für ein Unternehmen also höher als nur der Betrag auf der Gehaltsabrechnung. Diese Aufteilung wird später bei der Besteuerung von Selbstständigen wichtig, weil Selbstständige oft für beide Hälften selbst aufkommen müssen.
+
+## Praxisbeispiel
+
+**Frage:** Ein Arbeitgeber zahlt einem Mitarbeiter einen Lohn und überweist zusätzlich gesondert lohnbezogene Abgaben an den Staat. Gehört der Arbeitgeberanteil zum Lohn des Mitarbeiters?
+
+**Schüler:** Ich würde annehmen, dass er getrennt ist, weil der Mitarbeiter dieses Geld nie sieht.
+
+**Lernbegleiter:** Richtig, aber sind es trotzdem Kosten dafür, diesen Mitarbeiter zu beschäftigen?
+
+**Schüler:** Ja – es sind zusätzliche Kosten neben dem Lohn, auch wenn sie nicht auf der Gehaltsabrechnung auftauchen.
+
+**Lernbegleiter:** Genau, deshalb sind die „Kosten eines Mitarbeiters“ meist höher als der Lohn allein.
+
+## Übungsquiz
+
+**Frage 1.** Lohnbezogene Abgaben sind speziell gekoppelt an:
+
+A) Immobilien
+B) Arbeitslöhne
+C) Einzelhandelskäufe
+D) Erbschaften
+
+**Frage 2.** Lohnbezogene Abgaben finanzieren häufig:
+
+A) Renten- und Gesundheitsprogramme
+B) Nur den Straßenbau
+C) Nur die Landesverteidigung
+D) Nichts Bestimmtes
+
+**Frage 3.** In vielen Systemen werden lohnbezogene Abgaben:
+
+A) Nur vom Arbeitgeber gezahlt
+B) Nur vom Arbeitnehmer gezahlt
+C) Zwischen Arbeitgeber und Arbeitnehmer aufgeteilt
+D) Nie tatsächlich gezahlt
+
+**Frage 4.** Die tatsächlichen Kosten für die Beschäftigung eines Mitarbeiters sind oft:
+
+A) Genau der Betrag auf der Gehaltsabrechnung
+B) Höher als der Lohn, wegen des Arbeitgeberanteils
+C) Niedriger als der Lohn
+D) Unabhängig von lohnbezogenen Abgaben
+
+## Lösungsschlüssel
+
+1. B, 2. A, 3. C, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Lohnbezogene Abgaben unterscheiden sich von der allgemeinen Einkommensteuer, weil sie speziell an Arbeitslöhne gekoppelt sind.
+
+**2.** Rentensysteme und Kranken- bzw. Gesundheitsversicherungen werden häufig über zweckgebundene lohnbezogene Abgaben finanziert.
+
+**3.** Die Aufteilung zwischen Arbeitgeber und Arbeitnehmer ist in vielen Systemen eine übliche Gestaltung.
+
+**4.** Weil Arbeitgeber zusätzlich zum Lohn einen Anteil zahlen, übersteigen die Gesamtkosten eines Mitarbeiters seinen Lohn.
+
+## Wichtigste Erkenntnisse
+
+- Lohnbezogene Abgaben sind speziell an Arbeitslöhne gekoppelt und unterscheiden sich von der allgemeinen Einkommensteuer.
+- Sie finanzieren häufig Renten- und Gesundheitsprogramme.
+- Viele Systeme teilen diese Abgaben zwischen Arbeitgeber und Arbeitnehmer auf.
+- Diese Aufteilung wird besonders für Selbstständige wichtig, wie eine spätere Lektion zeigt.
+
+===== GREEN-L1-008
+TITLE: Progressive und regressive Steuern
+SUMMARY: Erklärt den Unterschied zwischen progressiven und regressiven Steuerstrukturen mit einfachen, nachvollziehbaren Vergleichen.
+# Progressive und regressive Steuern
+
+## Lernziele
+
+- Eine progressive Steuerstruktur definieren.
+- Eine regressive Steuerstruktur definieren.
+- Praxisbeispiele für beide Strukturen erkennen.
+
+## Kerninhalt
+
+Eine progressive Steuer nimmt Menschen mit höherem Einkommen oder Vermögen einen größeren Prozentsatz ab. Die meisten Einkommensteuersysteme sind so aufgebaut: Je mehr man verdient, desto höher ist der Prozentsatz, mit dem das Einkommen besteuert wird (meist nur der Teil oberhalb bestimmter Schwellen).
+
+Eine regressive Steuer nimmt dagegen Menschen mit niedrigerem Einkommen faktisch einen größeren Anteil ab, auch wenn der Steuersatz für alle gleich aussieht. Die Umsatzsteuer ist ein gängiges Beispiel: Wenn zwei Menschen denselben Artikel für 50 $ kaufen und dieselbe Umsatzsteuer zahlen, macht diese Steuer bei einer Person mit niedrigem Einkommen einen viel größeren Anteil ihres gesamten Geldes aus als bei einer Person mit hohem Einkommen. Der Betrag ist gleich, die Belastung nicht.
+
+Keine der beiden Strukturen ist an sich „richtig“ oder „falsch“ – es sind Werkzeuge mit unterschiedlichen Wirkungen, und echte Steuersysteme kombinieren meist progressive und regressive Elemente. Zu verstehen, in welche Kategorie eine Steuer fällt, hilft einzuschätzen, wer tatsächlich mehr von der Last trägt.
+
+## Praxisbeispiel
+
+**Frage:** Zwei Menschen zahlen beim selben Kauf je 5 $ Umsatzsteuer. Die eine Person verdient 2.000 $ im Monat, die andere 20.000 $ im Monat. Wirkt die Steuer progressiv oder regressiv?
+
+**Schüler:** Der Betrag ist identisch, also wirkt es auf den ersten Blick gerecht.
+
+**Lernbegleiter:** Aber welchen Prozentsatz des Einkommens der beiden machen diese 5 $ aus?
+
+**Schüler:** Bei der Person, die 2.000 $ verdient, einen viel größeren Anteil als bei der Person mit 20.000 $.
+
+**Lernbegleiter:** Richtig – gleiche Beträge können in der Praxis ungleich wirken, und genau das ist das regressive Muster.
+
+## Übungsquiz
+
+**Frage 1.** Eine progressive Steuer nimmt:
+
+A) Höheren Einkommen einen kleineren Prozentsatz ab
+B) Höheren Einkommen einen größeren Prozentsatz ab
+C) Allen unabhängig vom Einkommen denselben Prozentsatz ab
+D) Niemandem etwas ab
+
+**Frage 2.** Eine regressive Steuer belastet faktisch:
+
+A) Höhere Einkommen stärker
+B) Niedrigere Einkommen stärker, gemessen am Einkommen
+C) Niemanden
+D) Nur Unternehmen
+
+**Frage 3.** Die Umsatzsteuer gilt oft als regressiv, weil:
+
+A) Sie illegal ist
+B) Gleiche Beträge bei einem niedrigeren Einkommen einen größeren Anteil ausmachen
+C) Sie nur für Wohlhabende gilt
+D) Sie sich jeden Tag ändert
+
+**Frage 4.** Echte Steuersysteme:
+
+A) Sind immer rein progressiv
+B) Sind immer rein regressiv
+C) Kombinieren oft progressive und regressive Elemente
+D) Kombinieren nie verschiedene Steuerarten
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. C
+
+## Antworten und Erklärungen
+
+**1.** Progressive Systeme erhöhen den Steuersatz mit steigendem Einkommen, meist nur für die Teile oberhalb festgelegter Schwellen.
+
+**2.** Regressive Steuern nehmen niedrigeren Einkommen anteilig mehr ab, selbst wenn der Betrag gleich ist.
+
+**3.** Dieselbe Steuer von 5 $ macht bei einem kleineren Einkommen einen größeren Anteil aus – das ist der Kern einer regressiven Wirkung.
+
+**4.** Die meisten echten Systeme verbinden progressive Elemente (wie Einkommensteuerstufen) mit regressiven Elementen (wie einer einheitlichen Umsatzsteuer).
+
+## Wichtigste Erkenntnisse
+
+- Progressive Steuern steigen prozentual mit höherem Einkommen.
+- Regressive Steuern nehmen niedrigeren Einkommen anteilig mehr ab, auch bei gleichen Beträgen.
+- Die Umsatzsteuer wird häufig als regressives Beispiel genannt.
+- Die meisten echten Systeme mischen beide Strukturen, statt nur eine zu verwenden.
+
+===== GREEN-L1-009
+TITLE: Grenzsteuersätze: Warum mehr verdienen nicht heißt, mehr zu verlieren
+SUMMARY: Räumt mit einem der häufigsten Missverständnisse in der persönlichen Finanzplanung auf: dass beim Aufstieg in eine höhere Steuerstufe das gesamte Einkommen mit dem höheren Satz besteuert wird.
+# Grenzsteuersätze: Warum mehr verdienen nicht heißt, mehr zu verlieren
+
+## Lernziele
+
+- Erklären, was ein Grenzsteuersatz ist.
+- Das verbreitete Missverständnis korrigieren, dass eine Gehaltserhöhung am Ende weniger Geld bringen kann.
+- Den Grenzsteuersatz vom durchschnittlichen (effektiven) Steuersatz unterscheiden.
+
+## Kerninhalt
+
+Eines der hartnäckigsten Missverständnisse in der persönlichen Finanzplanung ist die Angst, dass mehr Verdienst einen irgendwie schlechter stellt, weil man in eine „höhere Steuerstufe“ rutscht. In Systemen mit Grenzsteuersätzen ist diese Angst fast immer unbegründet.
+
+So funktionieren Grenzsteuersätze tatsächlich: Der Satz jeder Stufe gilt nur für den Teil des Einkommens, der in diese Stufe fällt – nicht für das gesamte Einkommen. Wenn ein System Einkommen bis zu einem bestimmten Betrag mit 10 % besteuert und den nächsten Teil mit 20 %, bedeutet der Aufstieg in die 20-%-Stufe nur, dass dieser zusätzliche Teil mit 20 % besteuert wird. Der frühere Teil wird weiterhin genau wie vorher mit 10 % besteuert. (Das deutsche System verwendet einen stufenlos ansteigenden Tarif, folgt aber derselben Grenzsatz-Logik.)
+
+Das heißt, Ihr durchschnittlicher oder „effektiver“ Steuersatz – gezahlte Steuer geteilt durch das Gesamteinkommen – liegt immer unter Ihrem höchsten Grenzsteuersatz. Eine Gehaltserhöhung, die Sie in eine höhere Stufe bringt, kann bedeuten, dass die neuen Euro oder Dollar höher besteuert werden, aber in einem normalen Grenzsteuersystem haben Sie wegen einer Erhöhung nie insgesamt weniger Geld. Wer das versteht, verliert eine unnötige Angst vor Beförderungen, Gehaltserhöhungen und dem Wachstum des eigenen Unternehmens.
+
+## Praxisbeispiel
+
+**Frage:** Ein Freund lehnt eine Gehaltserhöhung ab, weil er fürchtet, sie würde ihn „in eine höhere Stufe schieben und ihm weniger Geld lassen“. Was würdest du ihm sagen?
+
+**Schüler:** Ich würde ihm erklären, dass nur das neue, zusätzliche Einkommen mit dem höheren Satz besteuert wird – nicht alles, was er verdient.
+
+**Lernbegleiter:** Richtig. Kannst du erklären, warum er durch eine Erhöhung deshalb nie insgesamt weniger netto hätte?
+
+**Schüler:** Weil der Rest seines Einkommens weiter mit denselben niedrigeren Sätzen wie immer besteuert wird – der höhere Satz betrifft nur den Teil über der Schwelle.
+
+**Lernbegleiter:** Genau – die Angst beruht auf einem Missverständnis darüber, wie Steuerstufen tatsächlich angewendet werden.
+
+## Übungsquiz
+
+**Frage 1.** Ein Grenzsteuersatz gilt für:
+
+A) Das gesamte Einkommen auf einmal
+B) Nur den Teil des Einkommens innerhalb dieser bestimmten Stufe
+C) Nur das erste Gehalt
+D) Nichts – das ist ein Mythos
+
+**Frage 2.** Wenn eine Erhöhung Sie in einem Grenzsteuersystem in eine höhere Stufe bringt, sinkt dann Ihr Nettoeinkommen insgesamt?
+
+A) Ja, immer
+B) Nein – nur der neue Teil wird mit dem höheren Satz besteuert
+C) Nur bei Selbstständigen
+D) Nur in manchen Ländern, in anderen nie
+
+**Frage 3.** Ihr effektiver (durchschnittlicher) Steuersatz ist:
+
+A) Immer gleich Ihrem höchsten Grenzsteuersatz
+B) Immer höher als Ihr höchster Grenzsteuersatz
+C) Typischerweise niedriger als Ihr höchster Grenzsteuersatz
+D) Unabhängig von Ihrem Einkommen
+
+**Frage 4.** Die Angst, dass „eine Erhöhung einem weniger Geld lassen kann“, ist im Allgemeinen:
+
+A) In Grenzsteuersystemen zutreffend
+B) Ein verbreitetes Missverständnis über die Funktionsweise von Steuerstufen
+C) Nur für Wohlhabende zutreffend
+D) Unmöglich zu beurteilen
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. C, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Grenzsteuersätze gelten Stufe für Stufe, nicht als Pauschalsatz auf das Gesamteinkommen.
+
+**2.** Weil nur das neue Einkommen oberhalb der Schwelle mit dem höheren Satz besteuert wird, sinkt das Nettoeinkommen durch eine Erhöhung in einem normalen Grenzsteuersystem nie.
+
+**3.** Mischt man niedrigere und höhere Sätze über das gesamte Einkommen, ergibt sich immer ein Durchschnitt unterhalb des höchsten Satzes.
+
+**4.** Diese Angst ist sehr verbreitet, hält aber nicht stand, sobald man versteht, wie Steuerstufen tatsächlich angewendet werden.
+
+## Wichtigste Erkenntnisse
+
+- Grenzsteuersätze gelten nur für das Einkommen innerhalb der jeweiligen Stufe.
+- Eine Gehaltserhöhung führt in einem normalen Grenzsteuersystem nie zu insgesamt weniger Nettoeinkommen.
+- Ihr effektiver Steuersatz ist ein Mischdurchschnitt und liegt immer unter Ihrem höchsten Grenzsteuersatz.
+- Wer das versteht, verliert unnötige Ängste vor Erhöhungen, Beförderungen und Unternehmenswachstum.
+
+===== GREEN-L1-010
+TITLE: Steuerstufen erklärt
+SUMMARY: Ein konkreter Schritt-für-Schritt-Durchgang, wie Steuerstufen aufgebaut sind und angewendet werden, direkt aufbauend auf dem Konzept des Grenzsteuersatzes.
+# Steuerstufen erklärt
+
+## Lernziele
+
+- Eine einfache Steuerstufentabelle lesen und deuten.
+- Die geschuldete Steuer über mehrere Stufen für ein Beispieleinkommen berechnen.
+- Das Konzept des Grenzsteuersatzes mit einem Zahlenbeispiel festigen.
+
+## Kerninhalt
+
+Aufbauend auf der vorigen Lektion gehen wir die Steuerstufen mit echten Zahlen durch. Stellen Sie sich eine veranschaulichende, vereinfachte Stufentabelle vor: Einkommen von 0 bis 10.000 $ wird mit 10 % besteuert, Einkommen von 10.001 bis 40.000 $ mit 20 % und Einkommen über 40.000 $ mit 30 %.
+
+Wer 50.000 $ verdient, zahlt nicht 30 % auf die gesamten 50.000 $. Stattdessen werden die ersten 10.000 $ mit 10 % besteuert (1.000 $), die nächsten 30.000 $ (von 10.001 bis 40.000 $) mit 20 % (6.000 $) und die restlichen 10.000 $ (von 40.001 bis 50.000 $) mit 30 % (3.000 $). Die gesamte Steuer beträgt 10.000 $, was einem effektiven Satz von 20 % entspricht – deutlich unter der höchsten Stufe von 30 %.
+
+Diese stufenweise Berechnung ist genau das, was Grenzbesteuerung in der Praxis bedeutet. Echte Stufenwerte unterscheiden sich je nach Land und ändern sich mit der Zeit, daher dienen die Beträge hier nur der Veranschaulichung – die Berechnungsmethode ist die dauerhafte, übertragbare Fähigkeit.
+
+> **Hinweis:** Die Prozentsätze und Schwellenwerte in dieser Lektion sind veranschaulichende Lernzahlen, keine Werte eines bestimmten Landes. Prüfen Sie die tatsächlichen aktuellen Stufen für Ihr Land.
+
+## Praxisbeispiel
+
+**Frage:** Wie viel Steuer würde jemand mit einem Einkommen von genau 40.000 $ nach den veranschaulichenden Stufen oben schulden?
+
+**Schüler:** Ich gehe es der Reihe nach durch – die ersten 10.000 $ zu 10 % sind 1.000 $.
+
+**Lernbegleiter:** Gut, weiter.
+
+**Schüler:** Die restlichen 30.000 $, von 10.001 bis 40.000 $, werden mit 20 % besteuert, also 6.000 $.
+
+**Lernbegleiter:** Und wird etwas davon mit 30 % besteuert?
+
+**Schüler:** Nein – die Person hat nichts über 40.000 $ verdient, also greift die 30-%-Stufe nie. Insgesamt sind es 1.000 $ + 6.000 $ = 7.000 $.
+
+**Lernbegleiter:** Genau richtig – und beachte, dass der effektive Satz 17,5 % beträgt, nicht 20 % und nicht 30 %.
+
+## Übungsquiz
+
+**Frage 1.** Wie viel eines Einkommens von 50.000 $ wird nach den veranschaulichenden Stufen dieser Lektion mit 30 % besteuert?
+
+A) Die gesamten 50.000 $
+B) 10.000 $
+C) 30.000 $
+D) 0 $
+
+**Frage 2.** Wie hoch ist die gesamte veranschaulichende Steuer auf 50.000 $ in diesem Beispiel?
+
+A) 15.000 $
+B) 10.000 $
+C) 5.000 $
+D) 20.000 $
+
+**Frage 3.** Der effektive Steuersatz im Beispiel mit 50.000 $ beträgt:
+
+A) 30 %
+B) 20 %
+C) 10 %
+D) 0 %
+
+**Frage 4.** Sollen die konkreten Stufenwerte dieser Lektion als echte Zahlen auswendig gelernt werden?
+
+A) Ja, sie gelten überall
+B) Nein – sie dienen der Veranschaulichung; echte Stufen unterscheiden sich je nach Land und ändern sich
+C) Ja, aber nur für ein Land
+D) Sie sind für die Lektion bedeutungslos
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Nur der Teil des Einkommens über 40.000 $ – also 10.000 $ – fällt in die 30-%-Stufe.
+
+**2.** 1.000 $ + 6.000 $ + 3.000 $ über die drei Stufen ergeben insgesamt 10.000 $.
+
+**3.** Die gesamte Steuer (10.000 $) geteilt durch das Gesamteinkommen (50.000 $) ergibt einen effektiven Satz von 20 %.
+
+**4.** Die Beträge sind ein Lernwerkzeug; übertragbar auf jede echte Stufentabelle ist die Berechnungsmethode.
+
+## Wichtigste Erkenntnisse
+
+- Steuerstufen greifen schrittweise, wobei jeder Satz nur das Einkommen innerhalb seiner Stufe betrifft.
+- Die Rechnung konkret durchzugehen zeigt, warum das Konzept des Grenzsteuersatzes in der Praxis wichtig ist.
+- Der effektive Steuersatz ist immer ein Mischwert und immer niedriger als die höchste erreichte Stufe.
+- Die hier verwendeten Zahlen dienen nur der Veranschaulichung – prüfen Sie immer die tatsächliche Stufentabelle Ihres Landes.
