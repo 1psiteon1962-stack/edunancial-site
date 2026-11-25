@@ -25,7 +25,7 @@ Slug: economic-ownership-vs-enterprise-control
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture two large economic powers escalating export controls against each other on a category of advanced technology components used across many industries.
 
-Apply it here: Export controls suddenly cut a tech company off from a key supplier. The board must decide fast whether to redesign the product or sell the company. Ask across colors: Who actually gets to make that call (PURPLE/BLACK)? Is it the people with the most money invested (WHITE/BLUE), or the people with the most votes? They are not always the same people.
+Apply it here: Export controls suddenly cut a tech company off from a key supplier. The board must decide fast whether to redesign the product or sell the company. Ask across colours: Who actually gets to make that call (PURPLE/BLACK)? Is it the people with the most money invested (WHITE/BLUE), or the people with the most votes? They are not always the same people.
 
 ## Learning Objectives
 - Distinguish economic rights from voting and control rights
@@ -43,7 +43,7 @@ Ownership rights can be split into separate bundles:
 
 VERIFIED FACT: Many legal systems allow companies to issue different classes of shares with different combinations of these rights. For example, one class may carry more votes per share, while another carries a preference to be paid first in a sale.
 
-How this coordinates colors:
+How this coordinates colours:
 - WHITE: An investor in a publicly traded company with multiple share classes may own economic value but have little voting power. That affects how much the investor can influence management.
 - BLUE: Founders raising money can sell economic value while keeping control through voting shares or board seats. But investors often ask for protective provisions, such as a veto over selling the company.
 - PURPLE: The company's charter and shareholder agreements are where all of this is written.

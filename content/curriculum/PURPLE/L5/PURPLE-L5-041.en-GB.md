@@ -25,7 +25,7 @@ Slug: the-real-cost-of-litigation
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized sovereign government signaling it may be unable to make an upcoming bond payment, raising default risk on its debt.
 
-Apply it here: During a sovereign debt crisis, a business is owed money by a customer that is itself struggling. Ask across colors: Even if the business wins in court (PURPLE), can it collect (BLUE)? How much leadership time will the lawsuit consume (BLACK)? Are legal fees deductible, and is any recovery taxable (GREEN)?
+Apply it here: During a sovereign debt crisis, a business is owed money by a customer that is itself struggling. Ask across colours: Even if the business wins in court (PURPLE), can it collect (BLUE)? How much leadership time will the lawsuit consume (BLACK)? Are legal fees deductible, and is any recovery taxable (GREEN)?
 
 ## Learning Objectives
 - List the direct and indirect costs of litigation
@@ -49,7 +49,7 @@ Indirect costs:
 
 Collection risk: VERIFIED FACT: A court judgement says you are owed money. It does not guarantee payment. If the other side has no assets, has hidden them, or goes bankrupt, the judgement may be worth little. Collection can require more legal steps and cost.
 
-How colors connect:
+How colours connect:
 - BLUE: Litigation drains cash and focus from operations.
 - GREEN: REGION-SPECIFIC RULE: Legal fees for business matters may be deductible, and recoveries may be taxable depending on their nature.
 - BLACK: Deciding whether to sue is a leadership decision, not just a legal one.

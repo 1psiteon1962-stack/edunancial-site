@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define an IRA in plain terms.
 - Explain the core difference between an IRA and a 401(k).
-- Recognize that both serve the same general retirement-saving purpose.
+- Recognise that both serve the same general retirement-saving purpose.
 
 ## Core Content
 

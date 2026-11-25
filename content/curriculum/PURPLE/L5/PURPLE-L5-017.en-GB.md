@@ -5,7 +5,7 @@ officialTrackName: "Law"
 level: 5
 lessonNumber: 17
 locale: en-GB
-title: "Insurance as the Legal First Line of Defense"
+title: "Insurance as the Legal First Line of Defence"
 summary: "See how liability, property, professional, and key-person insurance work together with entities and contracts to protect real estate, businesses, and investments."
 version: "1.0"
 author: "Edunancial Faculty"
@@ -13,19 +13,19 @@ date: "2026-10-19"
 ---
 Filename: PURPLE-L5-017.en-GB.md
 Folder: PURPLE/L5
-Title: Insurance as the Legal First Line of Defense
+Title: Insurance as the Legal First Line of Defence
 Lesson ID: PURPLE-L5-017
 Author: Waldemar M. Caban, JD MA
 Meta Description: See how liability, property, professional, and key-person insurance work together with entities and contracts to protect real estate, businesses, and investments.
 SEO Keywords: business insurance types, liability insurance, key person insurance, insurance and asset protection, contract indemnity
 Slug: insurance-as-the-legal-first-line-of-defense
 
-# Insurance as the Legal First Line of Defense
+# Insurance as the Legal First Line of Defence
 
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a major energy-producing region hit by a sudden regional conflict that knocks out a large share of its production capacity overnight, tightening global energy supply with little warning.
 
-Apply it here: A sudden energy shock raises costs and disrupts operations for many businesses. Ask across colors: Does the business's insurance (GOLD/PURPLE) cover interruption from events like this, or does the policy exclude them? Do contracts with customers (BLUE) promise delivery the business can no longer make? Who bears the loss?
+Apply it here: A sudden energy shock raises costs and disrupts operations for many businesses. Ask across colours: Does the business's insurance (GOLD/PURPLE) cover interruption from events like this, or does the policy exclude them? Do contracts with customers (BLUE) promise delivery the business can no longer make? Who bears the loss?
 
 ## Learning Objectives
 - Identify the major types of insurance for owners and investors
@@ -44,7 +44,7 @@ Main types:
 - Key person: Pays the business if a critical person dies or is disabled.
 - Landlord policies: Specific coverage for rental property (RED).
 
-How colors connect:
+How colours connect:
 - PURPLE: A policy's wording controls everything. Three parts matter most: what is covered, what is excluded, and the limits.
 - BLUE: Customer and supplier contracts often shift risk through indemnity clauses ("you will cover my losses if…") and require certain insurance. A business can promise more in a contract than its insurance covers.
 - RED: Lenders often require property insurance naming them as a loss payee.

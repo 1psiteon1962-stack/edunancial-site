@@ -56,7 +56,7 @@ How colours connect:
 - BLACK: Ethical leadership and compensation design (ORANGE-L5-008) affect advisor behaviour.
 - GREEN: Tax treatment affects product comparisons. REGION-SPECIFIC RULE.
 
-The curriculum itself follows a related principle: it provides general education, not personalized financial, legal, or tax advice.
+The curriculum itself follows a related principle: it provides general education, not personalised financial, legal, or tax advice.
 
 ASSUMPTION/OPINION: In financial services, trust is the real product. Marketing that sacrifices trust for short-term sales damages the entire business.
 

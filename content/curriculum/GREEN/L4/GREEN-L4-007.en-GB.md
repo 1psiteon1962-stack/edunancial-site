@@ -24,7 +24,7 @@ Slug: depreciation-recapture-analysis-why-selling-a-depreciated-asset-can-trigge
 # Depreciation Recapture Analysis: Why Selling a Depreciated Asset Can Trigger an Unexpected Tax Bill
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled real estate and business asset boom unwinds, some owners selling previously depreciated equipment or property at a gain are surprised to discover a specific portion of that gain is taxed differently than they expected, producing a larger tax bill than a simple capital gains calculation alone would have suggested. This lesson examines the specific rule responsible for that surprise.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled real estate and business asset boom unwinds, some owners selling previously depreciated equipment or property at a gain are surprised to discover a specific portion of that gain is taxed differently than they expected, producing a larger tax bill than a simple capital gains calculation alone would have suggested. This lesson examines the specific rule responsible for that surprise.
 
 ## Learning Objectives
 - Explain what depreciation recapture means.

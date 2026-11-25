@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - List key questions that narrow down an appropriate business structure.
 - Apply those questions to a basic hypothetical scenario.
-- Recognize that this is a starting framework, not personalized advice.
+- Recognise that this is a starting framework, not personalised advice.
 
 ## Core Content
 
@@ -28,7 +28,7 @@ By the end of this lesson, you should be able to:
 Before diving into legal specifics, ask: How many owners are there? How
 much personal liability protection is actually needed given the
 business's risk level? Is this a licensed profession with its own
-structural norms? Is minimizing double taxation a priority? These
+structural norms? Is minimising double taxation a priority? These
 questions don't give a final answer by themselves, but they narrow the
 field significantly.
 
@@ -44,7 +44,7 @@ more in Level 3.
 ### An Important Limit
 
 *IMPORTANT:* This lesson provides a general framework for
-understanding, not personalized legal or tax advice. An actual decision
+understanding, not personalised legal or tax advice. An actual decision
 should involve a qualified professional, reviewing someone's specific
 situation — the "doctor analogy" covered later in this level explains
 exactly why that step is worth it.
@@ -61,7 +61,7 @@ does that combination point toward? An LLC fits that profile well.
 
 1. Which question is a useful starting point when choosing a business
    structure?
-   A. What color should the logo be?
+   A. What colour should the logo be?
    B. How many owners are there, and how much liability protection is
       needed?
    C. What time of year should the business open?

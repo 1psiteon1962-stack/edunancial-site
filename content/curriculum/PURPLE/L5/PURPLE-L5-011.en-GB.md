@@ -25,7 +25,7 @@ Slug: wills-vs-revocable-living-trusts-probate-privacy-and-cost
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: During a sharp real estate correction, a property owner dies. Ask across colors: Will the family be able to sell or refinance the property quickly (RED), or will it be frozen in a court process for months? Will investment accounts (WHITE) pass smoothly? Does the answer change depending on whether the owner used a will or a trust (PURPLE)?
+Apply it here: During a sharp real estate correction, a property owner dies. Ask across colours: Will the family be able to sell or refinance the property quickly (RED), or will it be frozen in a court process for months? Will investment accounts (WHITE) pass smoothly? Does the answer change depending on whether the owner used a will or a trust (PURPLE)?
 
 ## Learning Objectives
 - Compare how wills and revocable trusts transfer assets
@@ -41,7 +41,7 @@ A revocable living trust is a legal arrangement where you (as trustee) hold titl
 
 VERIFIED FACT: Probate records are public in many jurisdictions. Trust administration is usually more private.
 
-How the colors connect:
+How the colours connect:
 - RED: Real estate in a trust can often be sold or managed by the successor trustee without waiting for a court. Owning property in more than one state or country may mean more than one probate process if it is not in a trust. REGION-SPECIFIC RULE.
 - WHITE: Brokerage accounts can be titled in the trust or use transfer-on-death designations, depending on local law.
 - BLUE: Business interests may need the operating agreement's permission before transfer to a trust.

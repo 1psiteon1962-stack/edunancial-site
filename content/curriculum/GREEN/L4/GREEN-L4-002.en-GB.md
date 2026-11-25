@@ -24,7 +24,7 @@ Slug: progressive-tax-bracket-analysis-why-the-system-is-designed-to-tax-layers-
 # Progressive Tax Bracket Analysis: Why the System Is Designed to Tax Layers, Not People
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and household incomes become more volatile, some workers question why two people earning what looks like a similar total income can end up owing noticeably different total tax. This lesson examines how the underlying bracket structure and filing status explain that difference.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and household incomes become more volatile, some workers question why two people earning what looks like a similar total income can end up owing noticeably different total tax. This lesson examines how the underlying bracket structure and filing status explain that difference.
 
 ## Learning Objectives
 - Explain the underlying design logic of a progressive tax bracket system, building on Lesson 1's marginal rate concept.

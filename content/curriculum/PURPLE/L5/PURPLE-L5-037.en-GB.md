@@ -25,7 +25,7 @@ Slug: regulatory-compliance-as-a-cost-of-doing-business-across-borders
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a large trading bloc suddenly imposing steep tariffs on a broad category of imported manufactured goods, raising costs for companies that depend on those imports as inputs.
 
-Apply it here: New tariffs push a company to consider moving production to a different region. Ask across colors: What licenses, registrations, and compliance steps (PURPLE) would the new location require? How much time and money would they cost (BLUE)? How would they affect taxes (GREEN) and the leadership team's workload (BLACK)?
+Apply it here: New tariffs push a company to consider moving production to a different region. Ask across colours: What licences, registrations, and compliance steps (PURPLE) would the new location require? How much time and money would they cost (BLUE)? How would they affect taxes (GREEN) and the leadership team's workload (BLACK)?
 
 ## Learning Objectives
 - Identify common categories of business regulation
@@ -33,7 +33,7 @@ Apply it here: New tariffs push a company to consider moving production to a dif
 - Plan compliance as part of strategy, described neutrally
 
 ## Core Content
-Every business operates inside a set of rules: company registration, business licenses, industry permits, employment rules, product safety standards, tax registration, data protection, and import or export requirements. These rules differ widely across countries and regions.
+Every business operates inside a set of rules: company registration, business licences, industry permits, employment rules, product safety standards, tax registration, data protection, and import or export requirements. These rules differ widely across countries and regions.
 
 The curriculum describes these differences neutrally and descriptively. Earlier lessons noted examples of region-specific bottlenecks:
 - In some parts of Europe, higher startup costs and formal requirements can make launching a company more expensive at the start.
@@ -42,9 +42,9 @@ The curriculum describes these differences neutrally and descriptively. Earlier 
 
 Each system reflects local choices and trade-offs. Stricter rules may provide stronger consumer or worker protection. Lighter rules may allow faster starts. The underlying principle: people should have the choice and ability to do the best they can under their own circumstances.
 
-How colors connect:
+How colours connect:
 - BLUE: Compliance costs affect startup budgets, time to launch, and ongoing overhead. A cheaper location with slower permits may cost more overall.
-- PURPLE: Licenses and registrations are legal requirements. Operating without them can bring fines, closure, or personal liability.
+- PURPLE: Licences and registrations are legal requirements. Operating without them can bring fines, closure, or personal liability.
 - GREEN: Registration usually triggers tax obligations. Operating informally may seem cheaper but can block access to banking, loans, and larger customers.
 - BLACK: Leadership time spent on compliance is time not spent on growth. Hiring local experts can free leaders to focus.
 - ORANGE: Some large customers require proof of compliance before buying.

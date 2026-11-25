@@ -25,7 +25,7 @@ Slug: restrictive-covenants-in-a-growing-company
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture two large economic powers escalating export controls against each other on a category of advanced technology components used across many industries.
 
-Apply it here: A tech company facing export controls must protect its new in-house designs. A senior engineer leaves for a competitor. Ask across colors: Does her NDA (PURPLE) protect the company's secrets? Is her non-compete enforceable where she lives? How does this affect the company's value to investors (BLUE/WHITE) and its hiring strategy (BLACK)?
+Apply it here: A tech company facing export controls must protect its new in-house designs. A senior engineer leaves for a competitor. Ask across colours: Does her NDA (PURPLE) protect the company's secrets? Is her non-compete enforceable where she lives? How does this affect the company's value to investors (BLUE/WHITE) and its hiring strategy (BLACK)?
 
 ## Learning Objectives
 - Compare non-competes, non-solicitation clauses, and NDAs
@@ -40,9 +40,9 @@ Three main tools:
 - Non-solicitation: Prevents someone from recruiting employees or soliciting customers for a period after leaving.
 - Non-compete: Prevents someone from working for a competitor or starting a competing business for a period and within an area.
 
-REGION-SPECIFIC RULE: Enforceability varies greatly. Some jurisdictions ban most employee non-competes. Others enforce them if they are reasonable in time, geography, and scope, and protect a legitimate business interest. Some require payment during the restricted period. Non-competes tied to the sale of a business are often treated more favorably than those in ordinary employment. For UK readers: courts in England and Wales only enforce a non-compete clause if it protects a legitimate business interest and is no wider than reasonably necessary, and the government has proposed limits on their length, so check the current position with an employment lawyer.
+REGION-SPECIFIC RULE: Enforceability varies greatly. Some jurisdictions ban most employee non-competes. Others enforce them if they are reasonable in time, geography, and scope, and protect a legitimate business interest. Some require payment during the restricted period. Non-competes tied to the sale of a business are often treated more favourably than those in ordinary employment. For UK readers: courts in England and Wales only enforce a non-compete clause if it protects a legitimate business interest and is no wider than reasonably necessary, and the government has proposed limits on their length, so check the current position with an employment lawyer.
 
-How colors connect:
+How colours connect:
 - BLUE: Buyers of a business often require the seller to sign a non-compete so the seller does not open a competing business next door. This protects the goodwill the buyer paid for.
 - PURPLE: Trade secret protection (PURPLE-L5-028) depends partly on having NDAs and access controls in place.
 - BLACK: Overly broad restrictions can hurt recruiting and morale. Great people may avoid companies with aggressive non-competes.
@@ -73,7 +73,7 @@ B) Non-solicitation
 C) NDA
 D) None are enforceable
 
-**Q2. Why are non-competes in a business sale often treated more favorably?**
+**Q2. Why are non-competes in a business sale often treated more favourably?**
 A) They are shorter
 B) They require no signature
 C) They are secret

@@ -29,7 +29,7 @@ ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a
 - Connect this lesson directly to this curriculum's knife-fight/aggression doctrine, explaining why a purely defensive, cautious business posture can only avoid loss but can never actually produce the outsized gain a genuine, time-limited opportunity window can provide, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 46 discussions.
 - Explain the doctrine's corollary regarding not bringing an underpowered effort, applied specifically to this business context: why a genuine opportunity, once honestly confirmed, calls for full, adequately resourced commitment rather than a hesitant, underpowered response.
 - Explain why this lesson's application of the doctrine depends entirely on the honest confirmation process this level's earlier Lesson 29 (business cycle analysis) and Lesson 33 (margin of safety) discussions already established, rather than licence for impulsive, unconfirmed action.
-- Explain why this lesson's discussion is framed strictly as disciplined business decisiveness and organizational-capacity metaphor, never as literal conflict or hostility toward any counterparty, competitor, or other party, consistent with this curriculum's Philosophical Framework.
+- Explain why this lesson's discussion is framed strictly as disciplined business decisiveness and organisational-capacity metaphor, never as literal conflict or hostility toward any counterparty, competitor, or other party, consistent with this curriculum's Philosophical Framework.
 
 ## Core Content
 Connecting directly to this curriculum's knife-fight/aggression doctrine, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 46 discussions, VERIFIED FACT and OPINION combined, a purely defensive, cautious business posture — one that never actually commits meaningfully to any specific opportunity regardless of how genuinely favourable that opportunity's confirmed circumstances actually are — can only avoid the specific loss a poor decision might produce, but can never actually produce the kind of outsized gain a genuine, time-limited opportunity window can actually provide, echoing this doctrine's core principle that pure defence alone can prevent loss but cannot itself produce a win.
@@ -49,7 +49,7 @@ A) A hesitant, underpowered response to a genuinely confirmed business opportuni
 B) Once genuine confirmation has occurred, this corollary specifically counsels against a hesitant, underpowered response, since this risks failing to actually capture the opportunity's own full value
 
 **Q3. Why does this lesson's application of the doctrine depend entirely on the honest confirmation process this level's earlier discussions established?**
-A) This lesson licenses impulsive, unconfirmed business action simply because a specific opportunity feels superficially appealing, with no need for prior confirmation
+A) This lesson licences impulsive, unconfirmed business action simply because a specific opportunity feels superficially appealing, with no need for prior confirmation
 B) This lesson's decisiveness principle applies only once the genuine, honest, evidence-based confirmation process the earlier business cycle analysis and margin of safety discussions described has actually been completed, meaning decisiveness is the second, subsequent step
 
 **Q4. Why is this lesson's discussion framed strictly as disciplined business decisiveness, never as literal conflict, consistent with this curriculum's Philosophical Framework?**

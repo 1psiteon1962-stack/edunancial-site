@@ -30,7 +30,7 @@ Robo-advisors generally offer lower fees than traditional human financial adviso
 Neither option is universally superior; the right choice depends on the complexity of an individual's financial situation and their specific preference for algorithmic efficiency versus personalised human guidance.
 
 **3. Worked Example**
-With a straightforward financial situation — steady employment, a single clear retirement goal, and no complex estate or business considerations — Tobias chooses a robo-advisor for its low fees, low minimum investment, and hands-off automated management, appropriately matching a simpler solution to his relatively simple situation. His neighbor, navigating a complex situation involving a small business, multiple properties, and a blended family's estate planning needs, chooses to work with a human financial advisor instead, valuing the personalised, holistic guidance that her more complex circumstances require.
+With a straightforward financial situation — steady employment, a single clear retirement goal, and no complex estate or business considerations — Tobias chooses a robo-advisor for its low fees, low minimum investment, and hands-off automated management, appropriately matching a simpler solution to his relatively simple situation. His neighbour, navigating a complex situation involving a small business, multiple properties, and a blended family's estate planning needs, chooses to work with a human financial advisor instead, valuing the personalised, holistic guidance that her more complex circumstances require.
 
 **4. Practice Quiz**
 1. What does a robo-advisor generally provide?
@@ -44,7 +44,7 @@ With a straightforward financial situation — steady employment, a single clear
    c) They cannot manage a diversified portfolio at all
    d) They require the highest account minimums
 3. True or False: A robo-advisor is always the objectively better choice for every investor, regardless of situation complexity.
-4. Why did Tobias's neighbor choose a human advisor instead of a robo-advisor?
+4. Why did Tobias's neighbour choose a human advisor instead of a robo-advisor?
    a) She had a very simple financial situation
    b) Her complex business and estate planning needs benefited from personalised, holistic human guidance
    c) She disliked technology entirely
@@ -57,7 +57,7 @@ With a straightforward financial situation — steady employment, a single clear
 1. A robo-advisor provides automated investment management based on algorithmically applied investor inputs.
 2. Robo-advisors generally offer less personalised guidance for complex financial or estate planning situations than human advisors.
 3. The right choice depends on the complexity of an individual's situation, not a universal superiority of either option.
-4. Tobias's neighbor's complex business and estate planning needs were better served by personalised human guidance.
+4. Tobias's neighbour's complex business and estate planning needs were better served by personalised human guidance.
 
 **7. Key Takeaways**
 - Robo-advisors provide automated, algorithm-driven investment management based on stated goals, time horizon, and risk tolerance.

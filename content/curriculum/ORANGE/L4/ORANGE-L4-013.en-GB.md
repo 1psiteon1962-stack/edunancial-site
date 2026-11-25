@@ -85,7 +85,7 @@ Q5: B
 
 **Q3.** This ability to surface specific, actionable themes behind the numeric trend is precisely why pairing NPS with qualitative follow-up matters for genuine improvement efforts.
 
-**Q4.** This genuine variation in typical industry baselines is precisely why cross-industry NPS comparison without adjustment can be misleading, favoring benchmarking against historical trend and genuine peers instead.
+**Q4.** This genuine variation in typical industry baselines is precisely why cross-industry NPS comparison without adjustment can be misleading, favouring benchmarking against historical trend and genuine peers instead.
 
 **Q5.** This direct illustration of qualitative follow-up surfacing a specific, actionable cause exemplifies precisely why pairing NPS with open-ended context enables genuine, targeted improvement.
 

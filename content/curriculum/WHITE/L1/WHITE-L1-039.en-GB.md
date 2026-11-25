@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to:
 
 ### What a Stock Exchange Is
 
-A stock exchange is an organized marketplace where buyers and sellers
+A stock exchange is an organised marketplace where buyers and sellers
 come together to trade shares of publicly listed companies, under a
 common set of rules.
 
@@ -54,7 +54,7 @@ buy or sell order at an agreed price — the basic mechanism behind
 
 1. A stock exchange is:
    A. A single company's internal trading desk
-   B. An organized marketplace for trading shares of listed companies
+   B. An organised marketplace for trading shares of listed companies
    C. A government tax agency
    D. A type of mutual fund
 
@@ -77,7 +77,7 @@ buy or sell order at an agreed price — the basic mechanism behind
 
 ### Question 1
 
-Correct answer: B. An exchange is an organized marketplace for trading
+Correct answer: B. An exchange is an organised marketplace for trading
 listed shares.
 
 ### Question 2
@@ -91,7 +91,7 @@ Correct answer: B. NYSE and Nasdaq are well-known examples.
 
 ## Key Takeaways
 
-- A stock exchange is an organized marketplace for trading listed
+- A stock exchange is an organised marketplace for trading listed
   shares.
 - It provides price discovery and enforces listing standards.
 - NYSE and Nasdaq are two well-known examples.

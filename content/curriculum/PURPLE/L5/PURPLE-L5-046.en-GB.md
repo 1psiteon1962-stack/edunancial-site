@@ -25,7 +25,7 @@ Slug: decisive-legal-action-when-the-window-is-confirmed
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture two large economic powers escalating export controls against each other on a category of advanced technology components used across many industries.
 
-Apply it here: As export controls reshape an industry, a competitor weakens and a key supplier becomes available for exclusive contracts. Ask across colors: Does the company have a contractual right it must exercise before a deadline (PURPLE)? Is the financing ready (BLUE)? Would waiting let a competitor lock up the supplier first (ORANGE)? Hesitation here may not be caution; it may be a loss.
+Apply it here: As export controls reshape an industry, a competitor weakens and a key supplier becomes available for exclusive contracts. Ask across colours: Does the company have a contractual right it must exercise before a deadline (PURPLE)? Is the financing ready (BLUE)? Would waiting let a competitor lock up the supplier first (ORANGE)? Hesitation here may not be caution; it may be a loss.
 
 ## Learning Objectives
 - Explain why legal rights often have deadlines and first-mover effects
@@ -43,7 +43,7 @@ In law, timing often matters as much as merit:
 - Exclusive contracts: A supplier or distributor can sign exclusivity with only one party.
 - Enforcement: Waiting too long to enforce a right, such as a trademark against an infringer, can weaken it in some jurisdictions. For UK readers: most claims for breach of contract or negligence must be brought within six years under the Limitation Act 1980, with some claims shorter, and Scotland has different periods, so take legal advice early.
 
-How colors connect:
+How colours connect:
 - PURPLE: Know your rights and their deadlines before the window opens.
 - BLUE: Financing must be ready to back the legal move.
 - ORANGE: Competitive dynamics decide how long a window stays open.

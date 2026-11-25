@@ -140,7 +140,7 @@ MINIMUM MASTERY SCORE: 80%
 REQUIRED PRACTICAL TASK: Completion of the Practical Exercise (CAC calculation).
 REMEDIATION TOPICS: Re-review Topics 1–2 if Q2, Q5, or Q9 missed.
 NEXT LESSON UNLOCKED: BLUE-L1-035
-RELATED TRACKS: ORANGE (Sales & Marketing) — CAC optimization addressed in much greater depth at higher ORANGE track levels.
+RELATED TRACKS: ORANGE (Sales & Marketing) — CAC optimisation addressed in much greater depth at higher ORANGE track levels.
 
 ## Further Reading
 - BLUE-L1-032 — What Is a Marketing Plan?
@@ -181,4 +181,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-034-REFERENCES`
-No statistics or external citations used. All numeric examples labeled ILLUSTRATIVE EXAMPLE/ESTIMATE.
+No statistics or external citations used. All numeric examples labelled ILLUSTRATIVE EXAMPLE/ESTIMATE.

@@ -25,11 +25,11 @@ Slug: keeping-the-wall-up-corporate-formalities-and-veil-piercing
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized sovereign government signaling it may be unable to make an upcoming bond payment, raising default risk on its debt.
 
-Apply it here: As a government's debt crisis deepens, lenders and suppliers become more aggressive about collecting from struggling businesses. Ask across colors: If a creditor sues, will the company's entity (PURPLE) hold up? Or will sloppy bookkeeping (GREEN) and mixed bank accounts (BLUE) let the creditor reach the owner's personal assets (RED/WHITE)?
+Apply it here: As a government's debt crisis deepens, lenders and suppliers become more aggressive about collecting from struggling businesses. Ask across colours: If a creditor sues, will the company's entity (PURPLE) hold up? Or will sloppy bookkeeping (GREEN) and mixed bank accounts (BLUE) let the creditor reach the owner's personal assets (RED/WHITE)?
 
 ## Learning Objectives
 - Explain what veil piercing is and why courts use it
-- Identify common behaviors that weaken entity protection
+- Identify common behaviours that weaken entity protection
 - Build a simple routine that keeps entity separation strong
 
 ## Core Content
@@ -44,7 +44,7 @@ Common warning signs:
 - Alter ego: The owner treats the company as an extension of themselves, not as a separate person in law.
 - Fraud or injustice: The entity was used to cheat creditors.
 
-This is where colors work together:
+This is where colours work together:
 - GREEN: Clean books and proper documentation of owner draws, salaries, and loans also protect the legal separation.
 - BLUE: A separate business bank account, business credit card, and adequate starting capital.
 - PURPLE: Signing contracts in the company's name and title ("Jane Lee, Manager, Lee Services LLC"), keeping minutes or written consents for major decisions, and filing annual reports.

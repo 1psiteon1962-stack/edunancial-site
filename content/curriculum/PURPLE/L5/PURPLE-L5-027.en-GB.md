@@ -25,7 +25,7 @@ Slug: landlord-tenant-law-across-jurisdictions
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: During a housing correction, two investors each own rentals in different places. One jurisdiction allows fairly quick eviction for non-payment. The other has long procedures and rent limits. Ask across colors: How does local law (PURPLE) change each investor's cash flow risk (RED)? Their financing risk (BLUE)? Their property's resale value (WHITE comparison)?
+Apply it here: During a housing correction, two investors each own rentals in different places. One jurisdiction allows fairly quick eviction for non-payment. The other has long procedures and rent limits. Ask across colours: How does local law (PURPLE) change each investor's cash flow risk (RED)? Their financing risk (BLUE)? Their property's resale value (WHITE comparison)?
 
 ## Learning Objectives
 - Identify major areas where landlord-tenant laws differ
@@ -40,11 +40,11 @@ Major areas of variation (all REGION-SPECIFIC RULE):
 - Eviction process: The grounds allowed, notice periods, court timelines, and tenant protections vary widely.
 - Security deposits: Maximum amounts, where they must be held, interest requirements, and return deadlines.
 - Habitability and repairs: Minimum standards and tenants' rights when repairs are not made.
-- Registration and licensing: Some places require rental registration, inspections, or licenses.
+- Registration and licensing: Some places require rental registration, inspections, or licences.
 - Short-term rental rules: Many cities restrict or ban short-term rentals.
 - Anti-discrimination rules: Categories protected and how rules are enforced. For UK readers: evicting a tenant for unpaid rent requires the correct notice and a court order, and short-term lettings may need planning permission or registration with the local council, so check the current rules where the property is.
 
-How colors connect:
+How colours connect:
 - RED: Legal rules directly affect vacancy costs, collection losses, and how quickly a problem tenant situation can be resolved.
 - BLUE: Lenders may consider local rules when underwriting. Cash reserves should be larger where resolution takes longer.
 - WHITE: When comparing real estate to paper assets, legal friction is part of real estate's risk and illiquidity.

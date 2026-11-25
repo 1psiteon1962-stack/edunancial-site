@@ -40,9 +40,9 @@ matching that profile.
 ### The Basic Trade-Off vs. a Human Advisor
 
 Robo-advisors generally offer lower fees and easier access than a human
-financial advisor, but typically offer less personalized guidance for
+financial advisor, but typically offer less personalised guidance for
 complex, individual financial situations — a real trade-off between cost
-and customization.
+and customisation.
 
 ## Worked Example
 
@@ -58,7 +58,7 @@ portfolio at a lower cost than hiring a human advisor.
    B. An automated service that builds and manages a portfolio using
       algorithms
    C. A type of bond
-   D. A government retirement program
+   D. A government retirement programme
 
 2. True or False: Robo-advisors generally charge higher fees than human
    financial advisors.
@@ -66,7 +66,7 @@ portfolio at a lower cost than hiring a human advisor.
 3. What is a basic trade-off of using a robo-advisor instead of a human
    advisor?
    A. No trade-off exists
-   B. Lower fees and easier access, but typically less personalized
+   B. Lower fees and easier access, but typically less personalised
       guidance
    C. Robo-advisors guarantee higher returns
    D. Human advisors are always free
@@ -91,12 +91,12 @@ human advisors.
 
 ### Question 3
 
-Correct answer: B. Lower cost and access trade off against personalized
+Correct answer: B. Lower cost and access trade off against personalised
 guidance.
 
 ## Key Takeaways
 
 - A robo-advisor automates portfolio building and management.
 - It typically allocates investments based on goals and risk tolerance.
-- It generally trades lower cost for less personalized guidance compared
+- It generally trades lower cost for less personalised guidance compared
   to a human advisor.

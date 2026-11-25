@@ -24,7 +24,7 @@ Slug: marketing-mix-analysis-why-product-price-place-and-promotion-must-work-tog
 # Marketing Mix Analysis: Why Product, Price, Place, and Promotion Must Work Together, Not in Isolation
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and businesses reassess their overall market approach, some discover that a genuinely strong product, sold through a mismatched distribution channel or promoted with an inconsistent message, fails to achieve its potential precisely because these individual elements were never coordinated together as a coherent whole.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and businesses reassess their overall market approach, some discover that a genuinely strong product, sold through a mismatched distribution channel or promoted with an inconsistent message, fails to achieve its potential precisely because these individual elements were never coordinated together as a coherent whole.
 
 ## Learning Objectives
 - Explain the classic marketing mix framework: product, price, place, and promotion.

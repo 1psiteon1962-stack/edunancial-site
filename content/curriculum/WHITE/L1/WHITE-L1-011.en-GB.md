@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define a market index in plain terms.
 - Explain what it means when someone says "the market went up."
-- Recognize that an index tracks a defined group, not literally
+- Recognise that an index tracks a defined group, not literally
   everything.
 
 ## Core Content

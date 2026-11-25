@@ -56,7 +56,7 @@ overhead, distinct from the cost of the specific inventory sold.
    A. Costs directly tied to producing one specific unit sold
    B. Ongoing costs of running the business, not directly tied to one
       sale
-   C. A type of business license
+   C. A type of business licence
    D. A company's total revenue
 
 2. True or False: Overhead costs disappear during a month with no sales.

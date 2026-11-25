@@ -47,7 +47,7 @@ Beginner (Level 1)
 ## Core Content
 
 ### Topic 1: What a P&L Shows
-A Profit and Loss Statement (also called an income statement) summarizes a business's revenue, costs, and resulting profit or loss over a specific period of time — typically a month, quarter, or year.
+A Profit and Loss Statement (also called an income statement) summarises a business's revenue, costs, and resulting profit or loss over a specific period of time — typically a month, quarter, or year.
 
 ### Topic 2: The Basic Structure
 A P&L generally starts with total revenue at the top, subtracts direct costs to show a gross profit figure, then subtracts overhead and other expenses to arrive at net profit (or net loss) at the bottom — tying directly to the revenue-vs-profit distinction from BLUE-L1-011 and the overhead concept from BLUE-L1-013.
@@ -61,12 +61,12 @@ A P&L generally starts with total revenue at the top, subtracts direct costs to 
 ---
 
 ## Key Definitions
-- **Profit and Loss Statement (P&L):** A financial document summarizing revenue, costs, and resulting profit or loss over a specific period.
+- **Profit and Loss Statement (P&L):** A financial document summarising revenue, costs, and resulting profit or loss over a specific period.
 - **Gross Profit:** Revenue minus direct costs, before subtracting overhead and other expenses.
 - **Net Profit:** The final profit remaining after subtracting all costs, including overhead, from revenue.
 
 ## Worked Examples
-[ILLUSTRATIVE EXAMPLE] A landscaping business's monthly P&L shows $15,000 revenue, $6,000 in direct labor/materials costs (gross profit: $9,000), and $5,000 in overhead (rent, insurance, admin), leaving $4,000 in net profit for the month.
+[ILLUSTRATIVE EXAMPLE] A landscaping business's monthly P&L shows $15,000 revenue, $6,000 in direct labour/materials costs (gross profit: $9,000), and $5,000 in overhead (rent, insurance, admin), leaving $4,000 in net profit for the month.
 
 ## Common Mistakes
 - Confusing gross profit with net profit, and assuming gross profit is what's actually available to keep or reinvest
@@ -81,7 +81,7 @@ A: No — gross profit only accounts for direct costs; net profit accounts for d
 A: [ESTIMATE] Many small businesses benefit from reviewing a P&L at least monthly, to catch trends and problems early rather than only at year-end.
 
 ## Key Takeaways
-- A P&L summarizes revenue, costs, and resulting profit or loss over a specific period
+- A P&L summarises revenue, costs, and resulting profit or loss over a specific period
 - It flows from revenue, through direct costs (gross profit), through overhead (net profit)
 - It's the central document that pulls together data recorded through ongoing bookkeeping
 - Reading one top to bottom shows exactly where money went and what was kept
@@ -96,7 +96,7 @@ Using this structure — Revenue, minus Direct Costs = Gross Profit, minus Overh
 
 1. **Opening Question:** If you wanted one document that showed whether a business made or lost money, what would it need to include?
 2. **Concept 1 — Definition:** What period of time does a P&L typically cover?
-3. **Follow-up:** What are the three main numbers a P&L summarizes?
+3. **Follow-up:** What are the three main numbers a P&L summarises?
 4. **Concept 2 — Structure:** What comes first on a P&L, and what comes last?
 5. **Follow-up:** What's subtracted to get from revenue to gross profit, and then from gross profit to net profit?
 6. **Concept 3 — Relationship to Bookkeeping:** How does a P&L relate to the ongoing bookkeeping process from BLUE-L1-023?
@@ -108,7 +108,7 @@ Using this structure — Revenue, minus Direct Costs = Gross Profit, minus Overh
 ## Competency Assessment
 `BLUE-L1-024-ASSESSMENT`
 
-1. (Multiple Choice) A P&L statement summarizes: A) Only revenue B) Revenue, costs, and resulting profit or loss over a period C) Only tax obligations D) Only employee wages
+1. (Multiple Choice) A P&L statement summarises: A) Only revenue B) Revenue, costs, and resulting profit or loss over a period C) Only tax obligations D) Only employee wages
 2. (Multiple Choice) Gross profit is calculated as: A) Revenue minus overhead B) Revenue minus direct costs C) Net profit minus taxes D) Revenue plus direct costs
 3. (True/False) Gross profit and net profit are the same number.
 4. (Short Answer) Explain the flow of a P&L from revenue down to net profit.
@@ -184,4 +184,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-024-REFERENCES`
-No statistics or external citations used. Review-frequency recommendation labeled ESTIMATE.
+No statistics or external citations used. Review-frequency recommendation labelled ESTIMATE.

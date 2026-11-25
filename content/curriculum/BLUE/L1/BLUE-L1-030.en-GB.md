@@ -31,7 +31,7 @@ date: 2026-08-08
 ## Learning Objectives
 - Define a business model precisely
 - Distinguish it from a business plan
-- Recognize business model differences using the examples covered so far in this level
+- Recognise business model differences using the examples covered so far in this level
 
 ## Prerequisites
 BLUE-L1-014, BLUE-L1-029
@@ -95,7 +95,7 @@ Pick two businesses you're familiar with that sell similar products but use clea
 
 1. **Opening Question:** Do you think "business model" and "business plan" mean the same thing?
 2. **Concept 1 — Definition:** What does a business model specifically describe?
-3. **Follow-up:** How would you summarize a business model in one sentence?
+3. **Follow-up:** How would you summarise a business model in one sentence?
 4. **Concept 2 — Distinction from Business Plan:** How is a business model narrower than a business plan?
 5. **Follow-up:** Is a business model one component of a plan, or the entire plan itself?
 6. **Concept 3 — Examples From This Level:** How do drop shipping and traditional retail represent two different business models?
@@ -183,4 +183,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-030-REFERENCES`
-No statistics or external citations used. Comparative claims labeled OPINION/ILLUSTRATIVE EXAMPLE where relevant.
+No statistics or external citations used. Comparative claims labelled OPINION/ILLUSTRATIVE EXAMPLE where relevant.

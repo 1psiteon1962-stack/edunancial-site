@@ -174,7 +174,7 @@ FAQ Schema Questions: "Does a narrow target market limit sales?"; "Can a target 
 ## AI Support Block
 `BLUE-L1-031-AI`
 AI Summary: Defines target market and argues that "everyone" fails as an answer, since focused messaging resonates more effectively with specific groups than broad, unfocused messaging.
-AI Teaching Notes: Encourage learners to identify a specific target market for their own idea, not just recognize the concept abstractly.
+AI Teaching Notes: Encourage learners to identify a specific target market for their own idea, not just recognise the concept abstractly.
 
 ## Localization Block
 `BLUE-L1-031-LOCALIZATION`
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-031-REFERENCES`
-No statistics or external citations used. Defining characteristics labeled ESTIMATE.
+No statistics or external citations used. Defining characteristics labelled ESTIMATE.

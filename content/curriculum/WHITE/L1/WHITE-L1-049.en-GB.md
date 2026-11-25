@@ -40,7 +40,7 @@ not necessarily an investor's personal dollar-weighted experience.
 
 ### Connecting Back to This Level's Concepts
 
-Reading a statement well means recognizing terms already covered:
+Reading a statement well means recognising terms already covered:
 shares owned, market value, dividends received, and the distinction
 between the fund's reported return and an individual's actual personal
 return based on their own contribution timing.
@@ -49,7 +49,7 @@ return based on their own contribution timing.
 
 An investor reviewing their statement sees they own shares in an ETF,
 notices a recent dividend payment listed in the transaction history, and
-sees a reported year-to-date return — recognizing that number likely
+sees a reported year-to-date return — recognising that number likely
 reflects time-weighted performance, not necessarily their own exact
 personal return if they added money partway through the year.
 

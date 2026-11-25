@@ -74,7 +74,7 @@ Recall from BLUE-L1-034 that acquiring a new customer costs money (CAC) — mark
 
 ## FAQ
 **Q: Does this mean acquiring new customers isn't important?**
-A: [OPINION] No — new customer acquisition is still necessary for growth; the point is that retention efforts are often comparatively cost-effective and shouldn't be neglected in favor of acquisition alone.
+A: [OPINION] No — new customer acquisition is still necessary for growth; the point is that retention efforts are often comparatively cost-effective and shouldn't be neglected in favour of acquisition alone.
 
 **Q: How does retention connect to the brand concept from BLUE-L1-033?**
 A: Since brand is built through consistent, positive experience over time, strong brand perception and strong retention tend to reinforce each other directly.
@@ -116,7 +116,7 @@ Explain, referencing BLUE-L1-034, why a $50 CAC customer who stays for two years
 7. (True/False) This lesson argues new customer acquisition is unimportant.
 8. (Short Answer) How does retention connect to the brand concept from BLUE-L1-033?
 9. (Multiple Choice) What is "customer lifetime value" a preview of? A) A one-time purchase amount B) Total revenue expected from a customer over their full relationship C) CAC alone D) A marketing channel
-10. (Reflection) Why might neglecting existing customer experience in favor of new acquisition backfire over time?
+10. (Reflection) Why might neglecting existing customer experience in favour of new acquisition backfire over time?
 
 ## Answer Key
 `BLUE-L1-035-ANSWER-KEY`
@@ -183,4 +183,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-035-REFERENCES`
-No statistics or external citations used. Retention drivers labeled ESTIMATE.
+No statistics or external citations used. Retention drivers labelled ESTIMATE.

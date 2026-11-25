@@ -25,7 +25,7 @@ Slug: legal-housekeeping-records-minutes-and-annual-filings
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a systemically important financial institution suddenly revealing a large, previously undisclosed loss, raising fears about counterparty risk rippling through the broader banking system.
 
-Apply it here: During a banking scare, lenders tighten standards and ask businesses for updated documents before renewing credit lines. Ask across colors: Can the business quickly produce its formation documents, ownership records, and board approvals (PURPLE)? Are its financial statements and tax filings current (GREEN)? A company that cannot answer fast may lose its credit line (BLUE).
+Apply it here: During a banking scare, lenders tighten standards and ask businesses for updated documents before renewing credit lines. Ask across colours: Can the business quickly produce its formation documents, ownership records, and board approvals (PURPLE)? Are its financial statements and tax filings current (GREEN)? A company that cannot answer fast may lose its credit line (BLUE).
 
 ## Learning Objectives
 - List the core legal records every business should maintain
@@ -43,9 +43,9 @@ Core records:
 - Annual filings: Reports and fees required to keep the entity in good standing. REGION-SPECIFIC RULE.
 - Registered agent information: The official address for legal notices. Missing a legal notice because an agent address is outdated can lead to a default judgement.
 - Material contracts: Leases, loans, customer and supplier agreements, and IP assignments, organised and easy to find.
-- Licenses and permits: With renewal dates. For UK readers: companies must file a confirmation statement and annual accounts at Companies House, and failing to do so can lead to penalties and the company being struck off, so keep track of the filing deadlines.
+- Licences and permits: With renewal dates. For UK readers: companies must file a confirmation statement and annual accounts at Companies House, and failing to do so can lead to penalties and the company being struck off, so keep track of the filing deadlines.
 
-How colors connect:
+How colours connect:
 - PURPLE: Good records support liability protection and make disputes easier to handle.
 - BLUE: Banks and investors ask for these documents. Quick, organised answers build confidence.
 - GREEN: Tax filings and financial statements must match ownership and entity records.

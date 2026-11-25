@@ -25,7 +25,7 @@ Slug: securities-law-basics-when-raising-money
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a systemically important financial institution suddenly revealing a large, previously undisclosed loss, raising fears about counterparty risk rippling through the broader banking system.
 
-Apply it here: After a banking scare, a business owner cannot get a bank loan and decides to raise money from friends, family, and local investors instead. Ask across colors: Is selling shares or promising returns (BLUE) a regulated securities offering (PURPLE)? Who is allowed to invest (WHITE)? What disclosures must be made, and how must the offering be marketed (ORANGE)?
+Apply it here: After a banking scare, a business owner cannot get a bank loan and decides to raise money from friends, family, and local investors instead. Ask across colours: Is selling shares or promising returns (BLUE) a regulated securities offering (PURPLE)? Who is allowed to invest (WHITE)? What disclosures must be made, and how must the offering be marketed (ORANGE)?
 
 ## Learning Objectives
 - Explain why many fundraising methods are regulated as securities offerings
@@ -44,7 +44,7 @@ Full public registration is expensive and complex, so most small businesses rely
 
 A key principle across most systems: anti-fraud rules apply even when an offering is exempt. Misleading investors, hiding risks, or promising returns you cannot support can create liability.
 
-How colors connect:
+How colours connect:
 - BLUE: The structure (equity, debt, convertible note, revenue share) affects which rules apply.
 - WHITE: Investor protections exist because private investments are often illiquid, risky, and hard to value.
 - ORANGE: How you market the offering matters. Public social media posts about an investment opportunity may count as general solicitation.

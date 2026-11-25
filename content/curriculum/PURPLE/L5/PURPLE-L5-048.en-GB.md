@@ -25,7 +25,7 @@ Slug: honest-reassessment-of-an-active-legal-position
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: A business sued a supplier when rates were low and its cash was strong. Now rates have spiked, cash is tight, and discovery has revealed weaknesses in its case. Ask across colors: Does the original legal reasoning (PURPLE) still hold? Can the business afford to continue (BLUE)? Is leadership (BLACK) holding on because of sunk costs or because the case is still strong?
+Apply it here: A business sued a supplier when rates were low and its cash was strong. Now rates have spiked, cash is tight, and discovery has revealed weaknesses in its case. Ask across colours: Does the original legal reasoning (PURPLE) still hold? Can the business afford to continue (BLUE)? Is leadership (BLACK) holding on because of sunk costs or because the case is still strong?
 
 ## Learning Objectives
 - Explain why active legal positions need regular reassessment

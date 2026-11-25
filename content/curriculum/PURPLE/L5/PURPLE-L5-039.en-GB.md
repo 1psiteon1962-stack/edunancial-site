@@ -25,7 +25,7 @@ Slug: currency-clauses-and-force-majeure-in-uncertain-times
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a major energy-producing region hit by a sudden regional conflict that knocks out a large share of its production capacity overnight, tightening global energy supply with little warning.
 
-Apply it here: A regional conflict cuts energy supply, and a manufacturer cannot deliver on time. Ask across colors: Does the contract's force majeure clause (PURPLE) excuse the delay? Does a price adjustment clause let the manufacturer pass on higher energy costs (BLUE)? If payment is in a foreign currency, who bears exchange-rate swings (WHITE)?
+Apply it here: A regional conflict cuts energy supply, and a manufacturer cannot deliver on time. Ask across colours: Does the contract's force majeure clause (PURPLE) excuse the delay? Does a price adjustment clause let the manufacturer pass on higher energy costs (BLUE)? If payment is in a foreign currency, who bears exchange-rate swings (WHITE)?
 
 ## Learning Objectives
 - Explain force majeure and hardship clauses
@@ -50,7 +50,7 @@ Currency clauses: State the currency of payment and may:
 - Share exchange-rate changes beyond a band.
 - Allow renegotiation if a currency moves more than a set percentage.
 
-How colors connect:
+How colours connect:
 - BLUE: These clauses protect margins and cash flow during shocks.
 - WHITE: Currency clauses are a form of contractual hedging, related to the currency risk concepts in WHITE.
 - ORANGE: Customers may resist price adjustment clauses. Negotiation may result in caps or shared bands.

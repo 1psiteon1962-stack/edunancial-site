@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-026-REFERENCES`
-No statistics or external citations used. Holding cost categories and reduction strategies labeled ESTIMATE.
+No statistics or external citations used. Holding cost categories and reduction strategies labelled ESTIMATE.

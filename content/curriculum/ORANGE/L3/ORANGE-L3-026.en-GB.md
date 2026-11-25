@@ -58,7 +58,7 @@ Is your current strategy trying to appeal broadly to everyone, or deliberately s
 ## Key Takeaways
 - A niche strategy deliberately trades broader market size for a more focused, defensible competitive position.
 - Deep expertise and tailored positioning within a specific segment can be more defensible than broad, undifferentiated appeal.
-- This directly reflects the BLUE track's caution favoring a credible, realistic market capture over an impressive but unrealistic total market size.
+- This directly reflects the BLUE track's caution favouring a credible, realistic market capture over an impressive but unrealistic total market size.
 
 ## Educational Disclaimer
 This lesson is for general business education only and does not constitute personalised financial, investment, tax, or legal advice. Consult a licensed professional before making marketing strategy decisions.

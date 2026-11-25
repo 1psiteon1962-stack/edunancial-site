@@ -24,7 +24,7 @@ Slug: endowment-style-diversification-vs-individual-constraints-integrating-this
 # Endowment-Style Diversification vs Individual Constraints: Integrating This Level's Alternative Asset Lessons
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and traditional stock and bond portfolios experience significant volatility, individual investors increasingly wonder whether incorporating some of the alternative investment categories covered throughout this level — private equity, venture capital, hedge funds, private credit, infrastructure, and collectibles — into their own personal portfolios might provide genuine diversification benefit. This lesson brings these individual alternative asset lessons together into a single, coherent evaluation framework.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and traditional stock and bond portfolios experience significant volatility, individual investors increasingly wonder whether incorporating some of the alternative investment categories covered throughout this level — private equity, venture capital, hedge funds, private credit, infrastructure, and collectibles — into their own personal portfolios might provide genuine diversification benefit. This lesson brings these individual alternative asset lessons together into a single, coherent evaluation framework.
 
 ## Learning Objectives
 - Identify the common structural characteristics shared across most of the alternative investment categories covered throughout this level.
@@ -87,7 +87,7 @@ Q5: B
 
 **Q3.** This synthesis of fee and transparency concerns raised across several specific alternative asset lessons throughout this level is precisely why this closing lesson emphasises particularly careful cost scrutiny for this broad category.
 
-**Q4.** This balanced conclusion — favoring a thoughtful, appropriately sized allocation over either extreme — reflects the overall synthesis this closing lesson draws from across this level's individual alternative asset discussions.
+**Q4.** This balanced conclusion — favouring a thoughtful, appropriately sized allocation over either extreme — reflects the overall synthesis this closing lesson draws from across this level's individual alternative asset discussions.
 
 **Q5.** This direct contrast between a disciplined, budget-and-diligence-driven approach and an undisciplined, trend-driven approach exemplifies precisely the synthesis this closing lesson draws from across this level's individual alternative investment discussions.
 

@@ -67,7 +67,7 @@ B) Substantial capital investment, the need for new operational expertise in an 
 C) Vertical integration always reduces a company's capital requirements significantly
 D) Vertical integration guarantees improved profitability in every single case
 
-**Q5. Why does the 'make versus buy' decision require a careful, case-by-case analysis rather than a general rule favoring or opposing vertical integration?**
+**Q5. Why does the 'make versus buy' decision require a careful, case-by-case analysis rather than a general rule favouring or opposing vertical integration?**
 A) Vertical integration is always the objectively superior strategic choice for every business in every situation
 B) The specific risks, costs, and strategic benefits of vertical integration vary significantly depending on a business's particular circumstances, making a blanket rule inappropriate
 C) Vertical integration should never be considered by any business under any circumstances

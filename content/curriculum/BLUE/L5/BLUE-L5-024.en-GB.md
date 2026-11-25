@@ -75,7 +75,7 @@ Q5: B
 
 **Q4.** This genuine, structure-dependent variation in tax treatment and compliance requirements is precisely why tax considerations should be orchestrated into this business ownership structuring decision.
 
-**Q5.** This direct illustration of orchestrating specific, individually prioritised goals toward an appropriate structure exemplifies precisely why this lesson emphasises this personalized approach to business ownership structuring.
+**Q5.** This direct illustration of orchestrating specific, individually prioritised goals toward an appropriate structure exemplifies precisely why this lesson emphasises this personalised approach to business ownership structuring.
 
 ## Key Takeaways
 - A holding company structure can provide a genuine layer of liability separation between an operating business's own specific risks and the ultimate owner.

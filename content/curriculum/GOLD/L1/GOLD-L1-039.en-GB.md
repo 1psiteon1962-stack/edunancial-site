@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 39
 locale: en-GB
 title: "Setting a Personal Metals Investing Plan"
-summary: "Guides students through drafting a basic, personalized plan for precious metals investing."
+summary: "Guides students through drafting a basic, personalised plan for precious metals investing."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
@@ -29,7 +29,7 @@ This plan should also explicitly state the time horizon and purpose — a remind
 
 ## Worked Example
 
-A simple written plan might read: "I will invest £50 in silver on the first of every month, purchased from [a specific, reputable dealer], tracked in a simple log with date, price, and quantity. My time horizon is at least ten years, and the purpose is long-term wealth preservation and diversification, not short-term profit. I will not react to short-term price movements by changing this plan without deliberately revisiting it first." This mirrors the same disciplined structure illustrated throughout the biographical case study, just made explicit and personalized.
+A simple written plan might read: "I will invest £50 in silver on the first of every month, purchased from [a specific, reputable dealer], tracked in a simple log with date, price, and quantity. My time horizon is at least ten years, and the purpose is long-term wealth preservation and diversification, not short-term profit. I will not react to short-term price movements by changing this plan without deliberately revisiting it first." This mirrors the same disciplined structure illustrated throughout the biographical case study, just made explicit and personalised.
 
 ## Practice Quiz
 
@@ -48,7 +48,7 @@ A simple written plan might read: "I will invest £50 in silver on the first of 
 1. These five components synthesize the practical concepts covered throughout this section of the track.
 2. Written commitments are consistently shown to be more durable than unwritten intentions.
 3. This connects the plan directly to the patience and volatility lessons covered earlier in this track.
-4. A correct answer demonstrates genuine synthesis of the plan's required components into a personalized statement.
+4. A correct answer demonstrates genuine synthesis of the plan's required components into a personalised statement.
 
 ## Key Takeaways
 - A basic personal metals investing plan should specify budget, metal focus, purchase frequency, dealer, and tracking method.

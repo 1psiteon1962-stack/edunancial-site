@@ -27,7 +27,7 @@ By the end of this lesson, you will be able to:
 
 ## Core Content
 
-An **easement** generally grants someone a specific right to use another person's property for a particular, limited purpose, without transferring ownership of that property itself — a common example is a right for a neighboring property owner to cross a specific portion of land to access their own property, or a utility company's right to maintain lines running through a property.
+An **easement** generally grants someone a specific right to use another person's property for a particular, limited purpose, without transferring ownership of that property itself — a common example is a right for a neighbouring property owner to cross a specific portion of land to access their own property, or a utility company's right to maintain lines running through a property.
 
 Here's the "why" an easement generally continues to apply even after the burdened property is sold to a new owner: [VERIFIED FACT] many easements are generally described as "running with the land" — meaning the easement is legally attached to the property itself, not to whichever specific individual happened to own it when the easement was created, so a new owner generally takes the property subject to any existing, validly established easements, whether or not they were specifically aware of them at the time of purchase.
 
@@ -35,7 +35,7 @@ This is why title searches and property surveys — generally part of standard d
 
 ## Worked Example
 
-[ILLUSTRATIVE EXAMPLE] A property has a long-standing easement allowing a neighboring landowner to cross a specific portion of it to access a shared roadway. [ASSUMPTION] When the burdened property is later sold to a new owner, this easement generally continues to apply automatically — the new owner takes the property subject to the neighbor's existing right to cross that specific portion, regardless of whether the new owner was specifically informed of the easement before purchasing, unless it was properly identified during the title search and factored into the purchase decision.
+[ILLUSTRATIVE EXAMPLE] A property has a long-standing easement allowing a neighbouring landowner to cross a specific portion of it to access a shared roadway. [ASSUMPTION] When the burdened property is later sold to a new owner, this easement generally continues to apply automatically — the new owner takes the property subject to the neighbour's existing right to cross that specific portion, regardless of whether the new owner was specifically informed of the easement before purchasing, unless it was properly identified during the title search and factored into the purchase decision.
 
 ## Practice Quiz
 

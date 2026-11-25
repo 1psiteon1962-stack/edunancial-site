@@ -63,7 +63,7 @@ ILLUSTRATIVE EXAMPLE: Lina owns an HVAC service company with £3 million in reve
 
 Her preparation:
 - Year 1: She works with her CPA to produce clean financial statements and remove personal expenses. She promotes her operations manager to general manager and documents service processes. She signs longer-term service contracts with commercial clients to add recurring revenue.
-- Legal: Her attorney organises records, confirms vehicle titles and licenses, and reviews employee agreements.
+- Legal: Her attorney organises records, confirms vehicle titles and licences, and reviews employee agreements.
 - Positioning: For individual buyers, "stable recurring service revenue with a strong manager in place." For strategic buyers, "customer base and technicians in a growing region."
 - Financing: She offers to carry 20% of the price as a seller note (see PURPLE-L5-024), making it easier for buyers to finance the rest.
 - Process: A business broker markets the company confidentially. Buyers sign NDAs before receiving detailed information.

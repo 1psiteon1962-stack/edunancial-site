@@ -18,7 +18,7 @@ Title: Summary Judgement Analysis: Why a Genuine Dispute of Material Fact Determ
 Lesson ID: PURPLE-L4-043
 Author: Waldemar M. Caban, JD MA
 Meta Description: Understand the summary judgement standard, why a court will only grant summary judgement when no genuine dispute of material fact exists, and why this standard requires viewing the evidence in the light most favourable to the party opposing the motion.
-SEO Keywords: summary judgement, genuine dispute of material fact, evidence viewed favorably, avoiding unnecessary trial
+SEO Keywords: summary judgement, genuine dispute of material fact, evidence viewed favourably, avoiding unnecessary trial
 Slug: summary-judgement-analysis-why-a-genuine-dispute-of-material-fact-determines-whether-a-case-goes-to-trial
 
 # Summary Judgement Analysis: Why a Genuine Dispute of Material Fact Determines Whether a Case Goes to Trial
@@ -65,7 +65,7 @@ D) Genuineness has no actual relationship to whether the evidence presented coul
 A) Courts should always view the evidence in the light most favourable to the party who filed the motion, not the opposing party
 B) Since summary judgement resolves the case without the benefit of a full trial, this protective standard ensures summary judgement is granted only when no genuine factual dispute genuinely requires this kind of full trial-based resolution, rather than the court itself effectively deciding disputed facts without a trial
 C) This standard has no actual relationship to how a court evaluates a summary judgement motion
-D) Courts are required to weigh the evidence entirely neutrally, favoring neither party in any way when evaluating a summary judgement motion
+D) Courts are required to weigh the evidence entirely neutrally, favouring neither party in any way when evaluating a summary judgement motion
 
 **Q5. In the example, why did the second case, but not the first, present a genuine dispute of material fact requiring trial?**
 A) Both cases actually presented genuine disputes of material fact, requiring trial in each instance

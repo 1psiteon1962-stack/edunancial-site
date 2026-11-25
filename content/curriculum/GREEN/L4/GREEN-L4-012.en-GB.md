@@ -24,7 +24,7 @@ Slug: corporate-double-taxation-analysis-why-the-same-pound-of-profit-can-be-tax
 # Corporate Double Taxation Analysis: Why the Same Dollar of Profit Can Be Taxed Twice
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds, some C-corporations facing pressure from shareholders to return cash reconsider whether increasing dividend payouts, retaining earnings for reinvestment, or repurchasing shares (per the WHITE-L4 track's buyback analysis) makes the most sense once the double taxation cost of dividends is properly factored into the decision. This lesson examines that specific tax mechanic in more depth.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds, some C-corporations facing pressure from shareholders to return cash reconsider whether increasing dividend payouts, retaining earnings for reinvestment, or repurchasing shares (per the WHITE-L4 track's buyback analysis) makes the most sense once the double taxation cost of dividends is properly factored into the decision. This lesson examines that specific tax mechanic in more depth.
 
 ## Learning Objectives
 - Explain the two distinct layers of tax that apply to C-corporation profits eventually distributed as dividends.

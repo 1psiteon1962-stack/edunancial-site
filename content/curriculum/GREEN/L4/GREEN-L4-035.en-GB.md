@@ -24,7 +24,7 @@ Slug: tax-lien-investing-analysis-why-a-high-stated-return-comes-with-genuine-of
 # Tax Lien Investing Analysis: Why a High Stated Return Comes with Genuine, Often Underestimated Risk
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled real estate boom unwinds and property tax delinquencies rise in some areas, investors attracted by advertisements for tax lien investing, promising high potential returns, want to understand exactly how this investment actually works and what specific risks lie beneath the advertised return figures. This lesson examines the structure and genuine risk profile of tax lien investing.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled real estate boom unwinds and property tax delinquencies rise in some areas, investors attracted by advertisements for tax lien investing, promising high potential returns, want to understand exactly how this investment actually works and what specific risks lie beneath the advertised return figures. This lesson examines the structure and genuine risk profile of tax lien investing.
 
 ## Learning Objectives
 - Explain the basic mechanism of a tax lien certificate and how a tax lien investor generates a potential return.
@@ -87,7 +87,7 @@ Q5: B
 
 **Q3.** This potential need for the investor to personally navigate a complex foreclosure process, rather than an automatic transfer of ownership, is a key risk not always emphasised in promotional tax lien investing materials.
 
-**Q4.** This competitive dynamic, favoring more experienced and better-resourced investors for the best opportunities, is an important practical consideration for individual investors newly entering this space.
+**Q4.** This competitive dynamic, favouring more experienced and better-resourced investors for the best opportunities, is an important practical consideration for individual investors newly entering this space.
 
 **Q5.** This direct illustration of unaccounted-for foreclosure complexity and property condition risk exemplifies precisely the due diligence gap this lesson identifies between a tax lien's advertised return and its genuine underlying risk profile.
 

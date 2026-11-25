@@ -36,11 +36,11 @@ themselves.
 
 **Self-employment**: the business is the person. Revenue stops or drops
 sharply the moment the person stops working — there's no layer of staff
-or system between their labor and the money coming in.
+or system between their labour and the money coming in.
 
 **Business ownership**: the business is a system — staff, process,
 structure — that can generate revenue with reduced or no dependence on
-the owner's hour-by-hour labor.
+the owner's hour-by-hour labour.
 
 Neither is "better." A freelance photographer booking her own clients is
 self-employed by this definition; the same photographer after hiring and
@@ -62,7 +62,7 @@ Think about Ntege's grandmother, who owns a dress shop in Uganda. By her
 family's framing, she's absolutely a business owner. But ask the
 disappear-for-a-month question: if she didn't open the shop, would it
 still make money that week? For her shop, the answer is no — the
-business is her labor with a storefront around it. That's not a
+business is her labour with a storefront around it. That's not a
 criticism. It's just the functional test at work, and it's the first
 rung on a ladder this whole track will keep climbing.
 
@@ -96,7 +96,7 @@ rung on a ladder this whole track will keep climbing.
 ### Question 1
 
 Correct answer: B. The "disappear for a month" test reveals whether the
-business depends on the owner's continuous labor.
+business depends on the owner's continuous labour.
 
 ### Question 2
 
@@ -111,7 +111,7 @@ Correct answer: B. One person has a fixed number of hours; a system
 ## Key Takeaways
 
 - The real test: does the business depend on the owner's continuous
-  labor, or does it run as a system?
+  labour, or does it run as a system?
 - Legal structure doesn't determine the answer — function does.
 - Only a system-based business can scale beyond the limits of one
   person's time.

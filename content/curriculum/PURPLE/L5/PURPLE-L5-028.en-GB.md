@@ -25,7 +25,7 @@ Slug: intellectual-property-as-a-balance-sheet-asset
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture two large economic powers escalating export controls against each other on a category of advanced technology components used across many industries.
 
-Apply it here: Export controls cut a company off from buying a key technology component. Its only path forward is to design its own version. Ask across colors: Who will own the new design (PURPLE)—the company, the engineers, or outside contractors? Can the new design be licensed to others for income (ORANGE/BLUE)? Does it raise the company's value (WHITE)?
+Apply it here: Export controls cut a company off from buying a key technology component. Its only path forward is to design its own version. Ask across colours: Who will own the new design (PURPLE)—the company, the engineers, or outside contractors? Can the new design be licensed to others for income (ORANGE/BLUE)? Does it raise the company's value (WHITE)?
 
 ## Learning Objectives
 - Describe the main types of intellectual property
@@ -47,7 +47,7 @@ Securing ownership is where many businesses fail:
 - Founders: IP created before a company existed may belong to the founder personally until assigned.
 - Registration: Registering trademarks and patents, where available, strengthens enforcement.
 
-How colors connect:
+How colours connect:
 - BLUE: Investors and buyers check IP ownership in diligence. Unclear ownership can reduce value or kill a deal.
 - ORANGE: Brands and content are marketing assets. Licensing them can create new income (PURPLE-L5-030).
 - WHITE: IP-heavy companies are often valued on earnings potential more than on physical assets.

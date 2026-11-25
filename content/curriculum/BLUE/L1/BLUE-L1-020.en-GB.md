@@ -4,35 +4,35 @@ track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 20
-title: "What Is a Business License, and Why Skipping It Costs More Later?"
-summary: Learn what a business license generally covers, and why operating without one creates real, compounding risk.
+title: "What Is a Business Licence, and Why Skipping It Costs More Later?"
+summary: Learn what a business licence generally covers, and why operating without one creates real, compounding risk.
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# What Is a Business License, and Why Skipping It Costs More Later?
+# What Is a Business Licence, and Why Skipping It Costs More Later?
 
 ## Learning Objectives
 
 By the end of this lesson, you should be able to:
 
-- Define a business license in plain terms.
+- Define a business licence in plain terms.
 - Explain why requirements vary by location and industry.
 - Explain why skipping licensing tends to create bigger problems later.
 
 ## Core Content
 
-### What a Business License Generally Is
+### What a Business Licence Generally Is
 
 *(REGION-SPECIFIC RULE: requirements vary significantly by location and
-industry.)* A business license is a government-issued permit allowing a
+industry.)* A business licence is a government-issued permit allowing a
 business to legally operate, often required at the city, county, or
 state level, sometimes alongside industry-specific permits.
 
 ### Why Requirements Vary So Much
 
-There's no single universal license — a food business, a contractor,
+There's no single universal licence — a food business, a contractor,
 and a home-based consultant might all face very different licensing
 requirements, even in the same city, because different industries carry
 different public safety or regulatory concerns.
@@ -56,7 +56,7 @@ problem — layered on top of whatever else is happening.
 
 ## Practice Quiz
 
-1. A business license is:
+1. A business licence is:
    A. A universal permit identical everywhere
    B. A government-issued permit allowing legal operation, varying by
       location and industry
@@ -71,7 +71,7 @@ problem — layered on top of whatever else is happening.
    B. It creates real exposure to fines, shutdown, or complications if
       the business faces legal trouble
    C. Licensing has no connection to legal risk
-   D. Only large businesses need licenses
+   D. Only large businesses need licences
 
 ## Answer Key
 
@@ -98,9 +98,9 @@ and financial exposure.
 
 ## Key Takeaways
 
-- A business license is a government permit, with requirements varying
+- A business licence is a government permit, with requirements varying
   by location and industry.
-- There's no single universal license — different businesses face
+- There's no single universal licence — different businesses face
   different rules.
 - Skipping proper licensing creates real risk that compounds if the
   business ever faces other trouble.

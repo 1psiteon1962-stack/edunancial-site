@@ -87,7 +87,7 @@ Q5: B
 
 **Q3.** Because fee level is known in advance and future performance is not, expense ratio offers a more reliable basis for comparison at the time a decision must be made.
 
-**Q4.** The average, longer-term result favored the lower-cost group, even though isolated strong years occurred among some higher-cost funds.
+**Q4.** The average, longer-term result favoured the lower-cost group, even though isolated strong years occurred among some higher-cost funds.
 
 **Q5.** Its predictability and controllability, contrasted with the unpredictability of future returns, make it a practical and evidence-supported screening tool.
 

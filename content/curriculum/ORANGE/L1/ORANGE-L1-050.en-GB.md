@@ -21,7 +21,7 @@ date: "2026-08-09"
 
 ## Core Content
 
-Across this track, a few core ideas kept resurfacing in different forms: sales and marketing are two connected functions, not one interchangeable idea; people buy solutions to problems and are driven by both need and emotion; trust is built through small, honest, consistent behaviors, not clever tricks; rejection is data, not a verdict, and persistence through it — ethically, not manipulatively — is often what separates success from giving up too early.
+Across this track, a few core ideas kept resurfacing in different forms: sales and marketing are two connected functions, not one interchangeable idea; people buy solutions to problems and are driven by both need and emotion; trust is built through small, honest, consistent behaviours, not clever tricks; rejection is data, not a verdict, and persistence through it — ethically, not manipulatively — is often what separates success from giving up too early.
 
 Put together, a full picture emerges: marketing creates awareness and interest (the funnel's top), sales converts that interest into a decision (the funnel's middle), and post-sale relationship management turns a single sale into an ongoing relationship (retention, referrals, and lifetime value). None of these stages work in isolation — a weakness in any one of them limits what the whole system can achieve, no matter how strong the others are.
 

@@ -24,7 +24,7 @@ Slug: sharpe-ratio-analysis-why-risk-adjusted-return-beats-raw-return
 # Sharpe Ratio Analysis: Why Risk-Adjusted Return Beats Raw Return
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled market unwinds, some funds that posted spectacular returns during the boom years turn out to have taken on far more risk than their peers to get there. This lesson introduces the tool analysts use to see that risk-taking clearly, after the fact and, ideally, before.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled market unwinds, some funds that posted spectacular returns during the boom years turn out to have taken on far more risk than their peers to get there. This lesson introduces the tool analysts use to see that risk-taking clearly, after the fact and, ideally, before.
 
 ## Learning Objectives
 - Explain what the Sharpe ratio measures.
@@ -37,7 +37,7 @@ The Sharpe ratio measures the return earned per unit of risk taken, calculated a
 
 Here is the "why" this matters more than comparing raw returns alone, connecting directly to the risk-adjusted return principle covered in real estate analysis: two investment strategies can produce identical raw returns over a period, but if one achieved that return with far more volatility (larger swings up and down along the way) than the other, the smoother, lower-volatility strategy has a higher Sharpe ratio and is generally considered the more skillfully or safely constructed of the two, even though their headline returns look the same.
 
-This is why chasing the highest raw historical return, without examining the volatility and risk taken to achieve it, can lead an investor toward strategies that look impressive in strong periods (like the credit-fueled expansion referenced in the scenario above) but that carry hidden fragility that only becomes apparent once conditions turn, as the underlying risk-taking that inflated the raw return also amplifies the eventual downside.
+This is why chasing the highest raw historical return, without examining the volatility and risk taken to achieve it, can lead an investor toward strategies that look impressive in strong periods (like the credit-fuelled expansion referenced in the scenario above) but that carry hidden fragility that only becomes apparent once conditions turn, as the underlying risk-taking that inflated the raw return also amplifies the eventual downside.
 
 ## Worked Example
 ILLUSTRATIVE EXAMPLE: Fund A returns 12% annually with a standard deviation of 8%, while Fund B also returns 12% annually but with a standard deviation of 20%, assuming a risk-free rate of 3%. Fund A's Sharpe ratio is (12-3)/8 = 1.13, while Fund B's is (12-3)/20 = 0.45. Despite identical raw returns, Fund A achieved that return far more efficiently, with much less risk taken on per unit of return, making it the more attractive risk-adjusted performer of the two.

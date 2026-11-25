@@ -24,7 +24,7 @@ Slug: rebalancing-strategy-analysis-threshold-based-vs-calendar-based-approaches
 # Rebalancing Strategy Analysis: Threshold-Based vs Calendar-Based Approaches
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom in a specific asset class causes an investor's portfolio allocation to drift significantly away from its original target over time, they want to understand the different practical approaches available for deciding exactly when to actually rebalance their portfolio back toward that original target, and the genuine tradeoffs each specific approach presents. This lesson examines two commonly used rebalancing methods in more analytical depth.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom in a specific asset class causes an investor's portfolio allocation to drift significantly away from its original target over time, they want to understand the different practical approaches available for deciding exactly when to actually rebalance their portfolio back toward that original target, and the genuine tradeoffs each specific approach presents. This lesson examines two commonly used rebalancing methods in more analytical depth.
 
 ## Learning Objectives
 - Explain the basic purpose of portfolio rebalancing, building on the WHITE-L4 track's introduction of this concept.

@@ -24,7 +24,7 @@ Slug: standard-vs-itemised-deduction-analysis-why-choosing-the-larger-deduction-
 # Standard vs Itemised Deduction Analysis: Why Choosing the Larger Deduction Isn't Always Simple
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled real estate boom unwinds and mortgage interest payments become a larger share of many households' budgets, some taxpayers who previously took the standard deduction without much thought discover that itemising their deductions this year could meaningfully reduce their tax bill. This lesson explains how to evaluate that choice properly.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled real estate boom unwinds and mortgage interest payments become a larger share of many households' budgets, some taxpayers who previously took the standard deduction without much thought discover that itemising their deductions this year could meaningfully reduce their tax bill. This lesson explains how to evaluate that choice properly.
 
 ## Learning Objectives
 - Explain what the standard deduction is and how it functions in the tax calculation.

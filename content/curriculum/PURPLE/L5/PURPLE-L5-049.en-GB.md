@@ -25,7 +25,7 @@ Slug: calculated-legal-risk-vs-reckless-legal-gambling
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized sovereign government signaling it may be unable to make an upcoming bond payment, raising default risk on its debt.
 
-Apply it here: During a sovereign debt crisis, a business faces pressure to cut corners: skip required filings, take an aggressive legal position against a creditor, or file a weak lawsuit to delay paying a supplier. Ask across colors: Which positions are grounded in law and evidence (PURPLE)? What are the tax and penalty risks (GREEN)? Is leadership ready to own the consequences (BLACK)?
+Apply it here: During a sovereign debt crisis, a business faces pressure to cut corners: skip required filings, take an aggressive legal position against a creditor, or file a weak lawsuit to delay paying a supplier. Ask across colours: Which positions are grounded in law and evidence (PURPLE)? What are the tax and penalty risks (GREEN)? Is leadership ready to own the consequences (BLACK)?
 
 ## Learning Objectives
 - Distinguish calculated legal risk from reckless legal gambling
@@ -44,7 +44,7 @@ Calculated legal risk looks like:
 
 Reckless legal gambling looks like:
 - Filing claims with no real basis to pressure or delay someone. VERIFIED FACT: Many legal systems allow courts to sanction parties or lawyers for frivolous filings. REGION-SPECIFIC RULE.
-- Ignoring required filings, licenses, or tax obligations and hoping no one notices.
+- Ignoring required filings, licences, or tax obligations and hoping no one notices.
 - Taking positions you know are unsupported, or hiding facts.
 - Betting the whole business on a single uncertain legal outcome without a fallback.
 
@@ -52,7 +52,7 @@ The GREEN-L5 version of this doctrine distinguished calculated tax position-taki
 
 Consequence ownership: A leader who takes a calculated legal risk accepts responsibility if it does not work out. They do not blame advisors for advice they chose to follow or hide the result from partners, investors, or employees.
 
-How colors connect:
+How colours connect:
 - PURPLE: Legal grounding and professional advice.
 - GREEN: Tax positions and penalty exposure.
 - BLUE: Resources to survive the downside.
@@ -64,7 +64,7 @@ ASSUMPTION/OPINION: Courage in legal matters is not about being aggressive. It i
 ## Worked Example
 ILLUSTRATIVE EXAMPLE: Two business owners facing the same pressures during a debt crisis.
 
-Owner A: A large customer refuses to pay, claiming the goods were defective. Owner A has delivery records, inspection reports, and signed acceptance forms. Counsel believes the claim is strong but not certain. Owner A pursues the claim, budgets for the legal costs, and prepares for a possible loss. She tells her business partner about the risks. The case settles favorably. Had it failed, she was prepared to absorb the loss.
+Owner A: A large customer refuses to pay, claiming the goods were defective. Owner A has delivery records, inspection reports, and signed acceptance forms. Counsel believes the claim is strong but not certain. Owner A pursues the claim, budgets for the legal costs, and prepares for a possible loss. She tells her business partner about the risks. The case settles favourably. Had it failed, she was prepared to absorb the loss.
 
 Owner B: Owes a supplier £90,000 and cannot pay. He files a lawsuit claiming the supplier's goods were defective, though he has no evidence and used all the goods without complaint. His goal is to delay payment. He also stops filing required sales tax returns to preserve cash. The court finds his lawsuit frivolous and orders him to pay the supplier's legal fees. The tax authority assesses penalties and interest. His credibility with lenders and suppliers collapses.
 

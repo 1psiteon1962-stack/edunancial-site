@@ -47,7 +47,7 @@ Beginner (Level 1)
 ## Core Content
 
 ### Topic 1: A Quick Return to BLUE-L1-001
-Recall the core distinction: self-employment means income depends on the owner's personal, hour-by-hour labor; true business ownership means value gets delivered through people, systems, or technology beyond the owner's direct hours.
+Recall the core distinction: self-employment means income depends on the owner's personal, hour-by-hour labour; true business ownership means value gets delivered through people, systems, or technology beyond the owner's direct hours.
 
 ### Topic 2: The Self-Employed Growth Ceiling
 Since self-employed income is capped by hours available multiplied by rate charged, growth options are limited to raising rates or working more hours — both of which run into hard limits (there are only so many hours in a day, and rates can only rise so far before losing customers).
@@ -70,7 +70,7 @@ Since self-employed income is capped by hours available multiplied by rate charg
 ## Common Mistakes
 - Trying to grow a self-employed operation using strategies (like adding staff) that require first crossing into true business ownership
 - Assuming business-ownership growth has no ceiling at all, when it simply hits a different, higher one
-- Not recognizing which ceiling currently applies before setting growth goals
+- Not recognising which ceiling currently applies before setting growth goals
 
 ## FAQ
 **Q: Does business ownership have no growth ceiling at all?**
@@ -83,7 +83,7 @@ A: Yes — this is effectively what happens when systems, staff, or technology b
 - Self-employment's growth ceiling is set by hours available multiplied by achievable rate
 - Business ownership's growth ceiling is set by capital, management capacity, and market size instead
 - Neither ceiling is absolute, but they require fundamentally different growth strategies
-- Recognizing which ceiling currently applies is essential before setting realistic growth goals
+- Recognising which ceiling currently applies is essential before setting realistic growth goals
 
 ## Practical Exercise
 Think of a self-employed person you know or can imagine. Describe one strategy that would help them grow within self-employment, and one strategy that would help them cross into true business ownership.
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-038-REFERENCES`
-No statistics or external citations used. All examples labeled ILLUSTRATIVE EXAMPLE.
+No statistics or external citations used. All examples labelled ILLUSTRATIVE EXAMPLE.

@@ -56,7 +56,7 @@ Here's the "why" this distinction commonly exists, closely paralleling a concept
 3. This explicitly connects the lesson to a parallel discussion elsewhere in the curriculum, reinforcing cross-track learning.
 
 ## Key Takeaways
-- Ordinary income and capital gains are often taxed under different rules, with capital gains frequently favoring longer holding periods.
+- Ordinary income and capital gains are often taxed under different rules, with capital gains frequently favouring longer holding periods.
 - This holding-period-based structure is generally intended to encourage longer-term investment over frequent short-term trading.
 - Specific holding-period thresholds and rates vary significantly by jurisdiction and change over time.
 

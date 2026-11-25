@@ -30,7 +30,7 @@ Where value, growth, and income investing (Lessons 3–5) are all "active" appro
 Criticisms of passive investing include the concern that it guarantees "average" results by design (never beating the market, by definition, since it tracks the market), and questions about market structure if index investing becomes overwhelmingly dominant — an ongoing area of financial discussion without a settled consensus.
 
 **3. Worked Example**
-After learning about all four lenses, Dmitri considers his own situation: limited time to research individual companies, a long time horizon, and a general skepticism, based on research he has read, that he could reliably outperform the broader market through active stock-picking. He chooses to build the core of his portfolio around broad index funds, accepting market-average returns in exchange for simplicity, diversification, and lower ongoing costs — a deliberate choice reflecting his specific circumstances and reading of the evidence, not a default made from lack of options.
+After learning about all four lenses, Dmitri considers his own situation: limited time to research individual companies, a long time horizon, and a general scepticism, based on research he has read, that he could reliably outperform the broader market through active stock-picking. He chooses to build the core of his portfolio around broad index funds, accepting market-average returns in exchange for simplicity, diversification, and lower ongoing costs — a deliberate choice reflecting his specific circumstances and reading of the evidence, not a default made from lack of options.
 
 **4. Practice Quiz**
 1. What does passive/index investing generally involve?
@@ -46,7 +46,7 @@ After learning about all four lenses, Dmitri considers his own situation: limite
 3. True or False: Passive investing guarantees returns above the market average, by definition.
 4. Why did Dmitri choose passive investing for the core of his portfolio?
    a) He had unlimited time for individual stock research
-   b) His limited research time, long horizon, and reading of the evidence favored this approach
+   b) His limited research time, long horizon, and reading of the evidence favoured this approach
    c) He disliked diversification
    d) He wanted the highest possible fees
 
@@ -57,7 +57,7 @@ After learning about all four lenses, Dmitri considers his own situation: limite
 1. Passive investing generally involves owning a broad basket of assets, often tracking a market index, rather than selecting individual winners.
 2. Widely discussed research suggests reliably beating the market through active selection is difficult, especially net of fees.
 3. Passive investing tracks the market by design, meaning it produces market-average, not above-average, returns by definition.
-4. Dmitri's specific circumstances and research review led him to a deliberate, informed choice favoring passive investing.
+4. Dmitri's specific circumstances and research review led him to a deliberate, informed choice favouring passive investing.
 
 **7. Key Takeaways**
 - Passive/index investing owns a broad basket of assets rather than selecting individual winners.

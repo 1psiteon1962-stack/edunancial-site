@@ -25,7 +25,7 @@ Slug: crowdfunding-and-honest-investor-communication
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a large trading bloc suddenly imposing steep tariffs on a broad category of imported manufactured goods, raising costs for companies that depend on those imports as inputs.
 
-Apply it here: A consumer product startup launches a crowdfunding campaign. Midway through, new tariffs raise its manufacturing costs by 25%. Ask across colors: What did the campaign promise backers (PURPLE/ORANGE)? Must the company tell investors about this new risk? How does it affect delivery dates and financial projections (BLUE)?
+Apply it here: A consumer product startup launches a crowdfunding campaign. Midway through, new tariffs raise its manufacturing costs by 25%. Ask across colours: What did the campaign promise backers (PURPLE/ORANGE)? Must the company tell investors about this new risk? How does it affect delivery dates and financial projections (BLUE)?
 
 ## Learning Objectives
 - Distinguish rewards, donation, and investment crowdfunding
@@ -41,7 +41,7 @@ Types:
 - Lending: Backers lend money and expect repayment with interest.
 - Equity or investment crowdfunding: Backers receive shares, notes, or revenue interests. This is generally a securities offering (PURPLE-L5-033), often allowed through special regulated platforms with limits on raise size and investment amounts. REGION-SPECIFIC RULE. For UK readers: equity crowdfunding usually takes place on platforms authorised by the Financial Conduct Authority, and investors may qualify for tax relief under the SEIS or EIS schemes if conditions are met, so check the rules before you invest or raise money.
 
-How colors connect:
+How colours connect:
 - ORANGE: Crowdfunding campaigns are marketing campaigns. But claims about products and returns must be truthful (PURPLE-L5-035). Exciting language that becomes misleading can create liability.
 - PURPLE: Campaign terms, platform rules, and securities disclosures define what was promised.
 - BLUE: Money raised must be used as described. Delivery dates and cost estimates should include realistic buffers.

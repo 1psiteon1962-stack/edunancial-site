@@ -48,7 +48,7 @@ still run short on actual cash to cover its own bills in the meantime.
 
 A business lands a great new contract worth $50,000 — clearly a
 profitable deal. But the client pays 60 days after delivery, while the
-business had to pay for materials and labor upfront. Ask yourself: does
+business had to pay for materials and labour upfront. Ask yourself: does
 being profitable on that contract guarantee the business has cash to
 make payroll next week? Not necessarily — the timing gap is the real
 danger, separate from whether the deal itself was a good one.
@@ -59,7 +59,7 @@ danger, separate from whether the deal itself was a good one.
    A. The same thing as accounting profit
    B. The actual movement of cash into and out of a business
    C. A business's total revenue for the year
-   D. A type of business license
+   D. A type of business licence
 
 2. True or False: A profitable business can never run short on cash.
 

@@ -28,7 +28,7 @@ ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a
 ## Learning Objectives
 - Explain the general distinction between deductible interest (interest on certain specific debt types that may reduce taxable income) and non-deductible interest, REGION-SPECIFIC RULE given this area's technical, jurisdiction-specific nature.
 - Explain why a taxpayer should specifically calculate genuine after-tax borrowing cost, rather than comparing only nominal, before-tax interest rates, when deciding which of multiple debts to prioritise paying down.
-- Connect this decision directly to this curriculum's strategic-versus-consumer debt framework, explaining why deductible interest often, though not universally, corresponds to the kind of strategic, productive debt this curriculum's earlier discussions favored.
+- Connect this decision directly to this curriculum's strategic-versus-consumer debt framework, explaining why deductible interest often, though not universally, corresponds to the kind of strategic, productive debt this curriculum's earlier discussions favoured.
 - Explain why a taxpayer should orchestrate this genuine after-tax cost comparison alongside, rather than in place of, the underlying debt's own genuine risk characteristics, since a lower after-tax cost alone does not make a specific debt obligation automatically preferable to retain.
 
 ## Core Content

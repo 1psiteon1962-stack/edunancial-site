@@ -24,7 +24,7 @@ Slug: landlord-tenant-law-analysis-why-the-implied-warranty-of-habitability-prot
 # Landlord-Tenant Law Analysis: Why the Implied Warranty of Habitability Protects Tenants Regardless of Lease Language
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled real estate boom unwinds and some landlords facing their own financial strain defer necessary property maintenance, tenants increasingly want to understand exactly what legal protections apply regardless of specific lease language, and what remedies are actually available when a landlord fails to maintain genuinely livable conditions. This lesson examines the specific doctrine responsible for these baseline tenant protections.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled real estate boom unwinds and some landlords facing their own financial strain defer necessary property maintenance, tenants increasingly want to understand exactly what legal protections apply regardless of specific lease language, and what remedies are actually available when a landlord fails to maintain genuinely livable conditions. This lesson examines the specific doctrine responsible for these baseline tenant protections.
 
 ## Learning Objectives
 - Explain the implied warranty of habitability, and why it applies to most residential leases regardless of specific lease language.

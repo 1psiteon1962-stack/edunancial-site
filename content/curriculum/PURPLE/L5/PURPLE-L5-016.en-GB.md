@@ -25,7 +25,7 @@ Slug: lawful-asset-protection-and-its-hard-limits
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized sovereign government signaling it may be unable to make an upcoming bond payment, raising default risk on its debt.
 
-Apply it here: As a sovereign debt crisis spreads, businesses fail and lawsuits pile up. Some owners panic and start moving assets to relatives. Ask across colors: Which protections were set up properly in advance (PURPLE/GOLD insurance)? Which last-minute transfers could a court reverse? What are the tax and legal penalties (GREEN)?
+Apply it here: As a sovereign debt crisis spreads, businesses fail and lawsuits pile up. Some owners panic and start moving assets to relatives. Ask across colours: Which protections were set up properly in advance (PURPLE/GOLD insurance)? Which last-minute transfers could a court reverse? What are the tax and legal penalties (GREEN)?
 
 ## Learning Objectives
 - Describe the lawful tools of asset protection

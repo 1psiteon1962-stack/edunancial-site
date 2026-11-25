@@ -31,7 +31,7 @@ Lesson 8 established that different assets need different valuation frameworks. 
 
 [VERIFIED FACT] This is generally addressed by translating different assets onto some shared basis for comparison, rather than comparing their native, asset-specific metrics directly. **Risk-adjusted return** — considering not just an investment's expected return, but its return relative to the risk taken to achieve it — is one common such framework, allowing a comparison across very different asset types on a more equivalent footing than comparing raw returns alone.
 
-This is why concluding "Asset A had a higher return than Asset B, so Asset A was the better investment" can be misleading without considering the different risk levels involved — a comparison ignoring risk-adjustment skips exactly the translation step this lesson describes, and can lead to systematically favoring riskier assets simply because higher risk sometimes, though not always, correlates with higher raw returns, echoing Lesson 1's foundational risk-return relationship.
+This is why concluding "Asset A had a higher return than Asset B, so Asset A was the better investment" can be misleading without considering the different risk levels involved — a comparison ignoring risk-adjustment skips exactly the translation step this lesson describes, and can lead to systematically favouring riskier assets simply because higher risk sometimes, though not always, correlates with higher raw returns, echoing Lesson 1's foundational risk-return relationship.
 
 ## Worked Example
 

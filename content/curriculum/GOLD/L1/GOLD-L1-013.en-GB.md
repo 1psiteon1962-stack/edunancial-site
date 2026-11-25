@@ -46,8 +46,8 @@ ILLUSTRATIVE EXAMPLE: An investor accumulating silver in smaller monthly amounts
 
 ## Answers and Explanations
 1. These are the two primary physical forms an investor is likely to encounter.
-2. Recognizability and liquidity are the key tradeoffs favoring coins in this comparison.
-3. Cost efficiency per unit is the key tradeoff favoring bars in this comparison.
+2. Recognizability and liquidity are the key tradeoffs favouring coins in this comparison.
+3. Cost efficiency per unit is the key tradeoff favouring bars in this comparison.
 4. This corrects any assumption that one form has an inherent, universal advantage over the other.
 
 ## Key Takeaways

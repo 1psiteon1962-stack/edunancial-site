@@ -176,7 +176,7 @@ Notas de enseñanza para la IA: Usa cálculos numéricos concretos en toda la le
 
 ## Bloque de localización
 `BLUE-L1-034-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-034-REFERENCES`

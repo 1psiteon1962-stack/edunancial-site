@@ -25,7 +25,7 @@ Slug: charitable-structures-foundations-and-donor-advised-funds
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a major agricultural region suffering a severe, multi-season drought that sharply cuts the global supply of a key food commodity.
 
-Apply it here: A severe drought cuts food supply in one region, and a family wants to help the affected communities over many years. Ask across colors: Which legal structure (PURPLE) gives the family the right balance of control and simplicity? How is giving treated for tax purposes (GREEN)? How should the charitable funds be invested while they wait to be granted (WHITE)?
+Apply it here: A severe drought cuts food supply in one region, and a family wants to help the affected communities over many years. Ask across colours: Which legal structure (PURPLE) gives the family the right balance of control and simplicity? How is giving treated for tax purposes (GREEN)? How should the charitable funds be invested while they wait to be granted (WHITE)?
 
 ## Learning Objectives
 - Compare common charitable giving structures
@@ -41,7 +41,7 @@ Common structures (names and rules REGION-SPECIFIC RULE):
 - Private foundation: A separate charitable entity created and controlled by the family. It offers maximum control (hiring staff, running programmes, making grants) but usually has more paperwork, costs, public reporting, and rules, such as minimum annual payouts and limits on transactions with family members.
 - Charitable trusts: Some jurisdictions allow trusts that split benefits between charity and family over time. For UK readers: donations to registered charities can qualify for Gift Aid, and gifts to charities on death can reduce Inheritance Tax, so check a charity's registration with the Charity Commission and the current rules with an adviser.
 
-How colors connect:
+How colours connect:
 - PURPLE: Structure determines who legally controls the money and what rules apply.
 - GREEN: REGION-SPECIFIC RULE: Deductions, limits, and treatment of donated assets vary. Donating appreciated assets instead of cash may provide additional tax benefits in some systems.
 - WHITE: Charitable funds are invested while waiting to be granted. An investment policy should match the giving timeline.
@@ -61,7 +61,7 @@ Option 2: Private foundation. They would control investments and could hire a pr
 
 They choose the donor-advised fund to start. Each year, the family council (see PURPLE-L5-044) meets, and younger members research charities and present recommendations. The fund's investments follow a moderate policy matched to their 15-year timeline.
 
-After five years, as their giving grows and they want to run a specific irrigation program, they consider converting part of their giving into a private foundation.
+After five years, as their giving grows and they want to run a specific irrigation programme, they consider converting part of their giving into a private foundation.
 
 ASSUMPTION/OPINION: The family started simple and added complexity only when their goals required it. Their giving also became a training ground for stewardship.
 

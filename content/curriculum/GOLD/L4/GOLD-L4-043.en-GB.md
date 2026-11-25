@@ -24,7 +24,7 @@ Slug: collectibles-and-passion-asset-analysis-why-emotional-value-and-investment
 # Collectibles and Passion Asset Analysis: Why Emotional Value and Investment Value Rarely Align Cleanly
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom lifts prices across many different asset categories, including fine art, rare wine, vintage automobiles, and other collectible items, investors increasingly consider these passion assets as a legitimate portfolio diversification opportunity, alongside their more traditional financial holdings. This lesson examines the genuinely distinct characteristics and challenges this specific category presents.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom lifts prices across many different asset categories, including fine art, rare wine, vintage automobiles, and other collectible items, investors increasingly consider these passion assets as a legitimate portfolio diversification opportunity, alongside their more traditional financial holdings. This lesson examines the genuinely distinct characteristics and challenges this specific category presents.
 
 ## Learning Objectives
 - Explain the general characteristics of collectibles and passion assets as an investment category.

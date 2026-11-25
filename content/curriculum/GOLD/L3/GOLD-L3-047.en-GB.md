@@ -45,7 +45,7 @@ This connects directly back to Lesson 6's earlier point about gold sometimes und
 
 ## Answer Key
 
-1. Because different strategies and asset classes go in and out of favour depending on specific economic conditions, and a genuinely diversified, prudent long-term strategy will, by design, underperform a concentrated bet during whichever period specifically favors that bet.
+1. Because different strategies and asset classes go in and out of favour depending on specific economic conditions, and a genuinely diversified, prudent long-term strategy will, by design, underperform a concentrated bet during whichever period specifically favours that bet.
 2. No — a fair evaluation requires judging a strategy against the range of conditions it was designed to handle over its intended timeframe, not against whichever single period makes it look worst in hindsight.
 3. This lesson generalises and reinforces Lesson 6's specific point — gold's historical underperformance during some periods doesn't retroactively prove it was a mistake, since it wasn't designed to compete with stocks for growth in the first place.
 

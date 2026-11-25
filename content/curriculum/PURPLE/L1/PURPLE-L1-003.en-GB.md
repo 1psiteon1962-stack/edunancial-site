@@ -28,7 +28,7 @@ Not every agreement rises to the level of an enforceable contract. A casual prom
 
 ## Worked Example
 
-**Question:** Two neighbors verbally agree that one will mow the other's lawn 'sometime this summer' in exchange for 'a favour later.' Is this likely an enforceable contract?
+**Question:** Two neighbours verbally agree that one will mow the other's lawn 'sometime this summer' in exchange for 'a favour later.' Is this likely an enforceable contract?
 
 **Student:** Based on this lesson, it sounds pretty casual and vague, so it's questionable whether it would count as an enforceable contract.
 

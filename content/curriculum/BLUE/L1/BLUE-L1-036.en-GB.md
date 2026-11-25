@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-036-REFERENCES`
-No statistics or external citations used. Sources of advantage labeled ESTIMATE.
+No statistics or external citations used. Sources of advantage labelled ESTIMATE.

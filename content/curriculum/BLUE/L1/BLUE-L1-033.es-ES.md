@@ -177,7 +177,7 @@ Notas de enseñanza para la IA: Refuerza que esta lección no le quita valor al 
 
 ## Bloque de localización
 `BLUE-L1-033-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-033-REFERENCES`

@@ -25,7 +25,7 @@ Slug: reps-warranties-and-indemnities-in-an-acquisition
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a large trading bloc suddenly imposing steep tariffs on a broad category of imported manufactured goods, raising costs for companies that depend on those imports as inputs.
 
-Apply it here: Right after a buyer purchases a company, new tariffs hit and a customer claims the company broke a supply contract before the sale. Ask across colors: Did the seller promise (PURPLE) there were no pending disputes? Is part of the purchase price (BLUE) held back to cover that promise? How does the negotiation (ORANGE) shape who carries this risk?
+Apply it here: Right after a buyer purchases a company, new tariffs hit and a customer claims the company broke a supply contract before the sale. Ask across colours: Did the seller promise (PURPLE) there were no pending disputes? Is part of the purchase price (BLUE) held back to cover that promise? How does the negotiation (ORANGE) shape who carries this risk?
 
 ## Learning Objectives
 - Define representations, warranties, and indemnities
@@ -46,7 +46,7 @@ Common limits and protections:
 - Escrow or holdback: Part of the purchase price is held for a period to secure indemnity claims.
 - Specific indemnities: Separate promises for known risks, such as a pending tax audit.
 
-How colors connect:
+How colours connect:
 - BLUE: A buyer who cannot get strong reps may lower the price or use seller financing, which gives the buyer a way to offset claims against note payments (if the agreement allows it).
 - ORANGE: Everything here is negotiated. A seller with many interested buyers can resist broad indemnities. A buyer with the only offer has more leverage.
 - GREEN: REGION-SPECIFIC RULE: Indemnity payments may be treated as price adjustments for tax purposes.

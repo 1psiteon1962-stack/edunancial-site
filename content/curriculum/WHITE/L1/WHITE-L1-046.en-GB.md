@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define a stock buyback in plain terms.
 - Explain the basic mechanical effect on shares outstanding.
-- Recognize that a deeper look at its effect on ratios comes in Level 2.
+- Recognise that a deeper look at its effect on ratios comes in Level 2.
 
 ## Core Content
 

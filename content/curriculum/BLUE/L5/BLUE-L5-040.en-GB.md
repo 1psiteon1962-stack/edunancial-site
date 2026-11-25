@@ -45,12 +45,12 @@ A) Genuine certainty about future business conditions is always readily availabl
 B) Genuine certainty about the future rarely actually arrives, meaning a business owner who has orchestrated several plausible scenarios together is considerably better positioned to respond effectively regardless of which specific scenario actually materializes
 
 **Q2. Why would different genuinely plausible business condition scenarios each favour a genuinely different specific business strategy?**
-A) Every genuinely plausible business condition scenario always favors an identical business strategy, regardless of the specific scenario's own particular characteristics
+A) Every genuinely plausible business condition scenario always favours an identical business strategy, regardless of the specific scenario's own particular characteristics
 B) A continued-rate-increase scenario would favour fixed-rate debt and cash reserves, while a rate-decline scenario would favour refinancing and new expansion, meaning each plausible scenario calls for a different specific business strategy emphasis
 
-**Q3. Why should a genuinely resilient business strategy identify actions that remain reasonable across several plausible scenarios, rather than optimising for a single favored prediction?**
+**Q3. Why should a genuinely resilient business strategy identify actions that remain reasonable across several plausible scenarios, rather than optimising for a single favoured prediction?**
 A) Optimising an entire business strategy around whichever single scenario currently seems most likely always produces the most resilient possible outcome
-B) The genuine value of scenario planning lies in identifying robust actions across multiple plausible futures, meaning a business committing to a single favored scenario risks genuine vulnerability should a different, but still plausible, scenario actually occur
+B) The genuine value of scenario planning lies in identifying robust actions across multiple plausible futures, meaning a business committing to a single favoured scenario risks genuine vulnerability should a different, but still plausible, scenario actually occur
 
 **Q4. Why does this lesson represent a fitting near-closing synthesis point for this level's overall orchestration philosophy?**
 A) This lesson addresses scenario planning as an entirely isolated topic with no actual connection to any of this level's other discussions regarding business cycles, financing, or risk management
@@ -81,5 +81,5 @@ Q5: B
 ## Key Takeaways
 - Preparing for multiple plausible future business condition scenarios together produces more resilient business strategy results than betting on a single predicted outcome.
 - Different plausible business condition scenarios each favour a genuinely different specific business strategy, requiring an owner to identify these scenario-specific implications together.
-- A genuinely resilient business strategy identifies actions remaining reasonable across several plausible scenarios, rather than optimising entirely for a single currently favored prediction.
+- A genuinely resilient business strategy identifies actions remaining reasonable across several plausible scenarios, rather than optimising entirely for a single currently favoured prediction.
 - This lesson synthesizes this level's business cycle analysis, financing, and risk management themes into a single, coherent, scenario-based business strategy framework, mirroring the parallel RED-L5 and WHITE-L5 closing structures.

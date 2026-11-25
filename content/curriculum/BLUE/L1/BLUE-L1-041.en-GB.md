@@ -50,7 +50,7 @@ Beginner (Level 1)
 An employee typically works under the business's direct control — set hours, specific methods dictated by the employer, and ongoing, integrated involvement in the business's operations.
 
 ### Topic 2: What an Independent Contractor Is
-An independent contractor typically operates with more independence — controlling how and when the work gets done, often working for multiple clients, and providing their own tools or equipment, delivering a specific result rather than ongoing, controlled labor.
+An independent contractor typically operates with more independence — controlling how and when the work gets done, often working for multiple clients, and providing their own tools or equipment, delivering a specific result rather than ongoing, controlled labour.
 
 ### Topic 3: Why the Label Alone Doesn't Decide It
 [REGION-SPECIFIC RULE] Many jurisdictions look at the actual working relationship — degree of control, independence, and integration into the business — rather than simply accepting whatever label a business assigns. Calling someone a "contractor" doesn't make them one if the actual relationship looks like employment.
@@ -62,8 +62,8 @@ An independent contractor typically operates with more independence — controll
 
 ## Key Definitions
 - **Employee:** A worker under the business's direct control regarding hours, methods, and ongoing integration into operations.
-- **Independent Contractor:** A worker who controls how and when work is completed, often serves multiple clients, and delivers a specific result rather than ongoing controlled labor.
-- **Misclassification:** Incorrectly labeling a worker as a contractor or employee, inconsistent with the actual nature of the working relationship.
+- **Independent Contractor:** A worker who controls how and when work is completed, often serves multiple clients, and delivers a specific result rather than ongoing controlled labour.
+- **Misclassification:** Incorrectly labelling a worker as a contractor or employee, inconsistent with the actual nature of the working relationship.
 
 ## Worked Examples
 [ILLUSTRATIVE EXAMPLE] A business calls a worker a "contractor" but sets their exact daily hours, dictates precisely how tasks must be done, and requires them to work exclusively for that one business — this actual relationship may legally resemble employment despite the label used.
@@ -166,7 +166,7 @@ Suggested URL Slug: /courses/business/level-1/contractor-vs-employee
 Primary Keyword: independent contractor vs employee
 Secondary Keywords: worker misclassification risk, contractor classification rules
 Suggested Internal Links: BLUE-L1-040, BLUE-L1-042
-Suggested External References: Local labor/employment authority resources
+Suggested External References: Local labour/employment authority resources
 Schema Recommendation: Course + LearningResource schema
 Search Intent: Informational, beginner-level
 Featured Snippet Opportunity: "What determines if a worker is a contractor or an employee?"
@@ -174,7 +174,7 @@ FAQ Schema Questions: "Can a business just call a worker a contractor?"; "What f
 
 ## AI Support Block
 `BLUE-L1-041-AI`
-AI Summary: Distinguishes employees (direct business control) from independent contractors (independent control of methods/schedule), emphasizing that actual working relationships, not labels, determine legal classification.
+AI Summary: Distinguishes employees (direct business control) from independent contractors (independent control of methods/schedule), emphasising that actual working relationships, not labels, determine legal classification.
 AI Teaching Notes: This entire topic is jurisdiction-sensitive — flag prominently as REGION-SPECIFIC RULE and avoid stating specific legal tests as universal.
 
 ## Localization Block
@@ -184,4 +184,4 @@ Note: Classification tests vary significantly by jurisdiction — flag for LOCAL
 
 ## References and Verification Block
 `BLUE-L1-041-REFERENCES`
-No statistics or external citations used. Classification rules labeled REGION-SPECIFIC RULE throughout.
+No statistics or external citations used. Classification rules labelled REGION-SPECIFIC RULE throughout.

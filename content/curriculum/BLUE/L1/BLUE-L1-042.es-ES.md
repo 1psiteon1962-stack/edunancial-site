@@ -177,7 +177,7 @@ Notas de enseñanza para la IA: Refuerza la diferencia entre una supervisión ra
 
 ## Bloque de localización
 `BLUE-L1-042-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-042-REFERENCES`

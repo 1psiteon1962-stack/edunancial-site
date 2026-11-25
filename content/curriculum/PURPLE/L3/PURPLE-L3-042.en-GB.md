@@ -35,7 +35,7 @@ This is why a business needs to separately track and manage both types of obliga
 
 ## Worked Example
 
-[ILLUSTRATIVE EXAMPLE] A business fully honors every specific term of its contracts with customers and suppliers, maintaining excellent contractual compliance. [ASSUMPTION] If that same business separately fails to comply with a specific government regulation applicable to its industry — perhaps related to safety standards or licensing requirements — it could face regulatory enforcement action and penalties directly from the relevant government agency, entirely independent of its strong track record of contractual compliance with its own private business partners, illustrating why these are genuinely separate legal obligation categories requiring independent attention.
+[ILLUSTRATIVE EXAMPLE] A business fully honours every specific term of its contracts with customers and suppliers, maintaining excellent contractual compliance. [ASSUMPTION] If that same business separately fails to comply with a specific government regulation applicable to its industry — perhaps related to safety standards or licensing requirements — it could face regulatory enforcement action and penalties directly from the relevant government agency, entirely independent of its strong track record of contractual compliance with its own private business partners, illustrating why these are genuinely separate legal obligation categories requiring independent attention.
 
 ## Practice Quiz
 

@@ -22,7 +22,7 @@ date: 2026-08-09
 
 ## Core Content
 
-A tort is a civil wrong that causes harm to another person, independent of any contract between them — negligence, property damage, or defamation are common examples. This is different from a contract dispute, which arises from a broken promise between parties who had an agreement. Torts can happen between people who never had any contract at all — a contractor's careless work damaging a neighboring property is a tort claim, not a contract claim, if the neighbour and contractor had no agreement between them.
+A tort is a civil wrong that causes harm to another person, independent of any contract between them — negligence, property damage, or defamation are common examples. This is different from a contract dispute, which arises from a broken promise between parties who had an agreement. Torts can happen between people who never had any contract at all — a contractor's careless work damaging a neighbouring property is a tort claim, not a contract claim, if the neighbour and contractor had no agreement between them.
 
 This distinction matters practically across this curriculum: a property owner (RED) can be sued in tort if unsafe conditions on their property injure someone, regardless of any lease or purchase contract. A business owner (BLUE) can face tort liability for harm caused by a product or a careless employee, separate from any contract with a customer. Understanding that legal risk isn't limited to broken promises — that harm caused outside of any agreement can still create liability — is an important expansion of legal literacy beyond just contracts.
 

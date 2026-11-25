@@ -24,7 +24,7 @@ Slug: marketing-budget-allocation-analysis-why-the-right-split-depends-heavily-o
 # Marketing Budget Allocation Analysis: Why the Right Split Depends Heavily on Business Stage
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds, businesses at genuinely different stages of maturity discover that the marketing budget allocation formula that worked well for a rapidly growing competitor does not necessarily fit their own, more established business's actual current needs, prompting closer attention to why budget allocation should reflect a business's own specific stage.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds, businesses at genuinely different stages of maturity discover that the marketing budget allocation formula that worked well for a rapidly growing competitor does not necessarily fit their own, more established business's actual current needs, prompting closer attention to why budget allocation should reflect a business's own specific stage.
 
 ## Learning Objectives
 - Explain why a newer, rapidly growing business generally allocates a larger share of its marketing budget toward customer acquisition than an established, more mature business might.

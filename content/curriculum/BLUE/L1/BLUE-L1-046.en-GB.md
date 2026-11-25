@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-046-REFERENCES`
-No statistics or external citations used. Strategic framing labeled OPINION where relevant.
+No statistics or external citations used. Strategic framing labelled OPINION where relevant.

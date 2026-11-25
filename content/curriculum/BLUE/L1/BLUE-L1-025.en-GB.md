@@ -104,7 +104,7 @@ A business has $75,000 in assets and $30,000 in liabilities. Calculate owner's e
 7. **Follow-up:** Could a business have a great P&L for the year but a concerning balance sheet? How?
 8. **Concept 4 — Why Both Matter:** What could you miss by looking at only one of these two documents?
 9. **Synthesis:** If a business has strong profit but heavy debt, which document reveals which piece of information?
-10. **Reflection:** Why do you think new business owners often overlook the balance sheet in favor of just watching profit?
+10. **Reflection:** Why do you think new business owners often overlook the balance sheet in favour of just watching profit?
 
 ## Competency Assessment
 `BLUE-L1-025-ASSESSMENT`
@@ -124,9 +124,9 @@ A business has $75,000 in assets and $30,000 in liabilities. Calculate owner's e
 `BLUE-L1-025-ANSWER-KEY`
 
 1. **Correct:** B. **Explanation:** Directly stated in Topic 1. **Competency Tested:** Recall.
-2. **Correct:** B. **Explanation:** Stated in Topic 2, labeled VERIFIED FACT. **Competency Tested:** Recall/formula.
+2. **Correct:** B. **Explanation:** Stated in Topic 2, labelled VERIFIED FACT. **Competency Tested:** Recall/formula.
 3. **Correct:** False. **Explanation:** Topic 3 explicitly contrasts snapshot vs. period. **Competency Tested:** Misconception correction.
-4. **Correct:** P&L summarizes activity over a period; balance sheet shows position at one specific moment. **Competency Tested:** Comparative synthesis.
+4. **Correct:** P&L summarises activity over a period; balance sheet shows position at one specific moment. **Competency Tested:** Comparative synthesis.
 5. **Correct:** $60,000. **Explanation:** $100,000 − $40,000 = $60,000, per the Worked Example. **Competency Tested:** Applied calculation.
 6. **Correct:** B. **Explanation:** Defined in Key Definitions. **Competency Tested:** Recall.
 7. **Correct:** False. **Explanation:** Common Mistakes explicitly flags this. **Competency Tested:** Misconception correction.
@@ -184,4 +184,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-025-REFERENCES`
-No statistics or external citations used. Core equation labeled VERIFIED FACT as a standard accounting principle.
+No statistics or external citations used. Core equation labelled VERIFIED FACT as a standard accounting principle.

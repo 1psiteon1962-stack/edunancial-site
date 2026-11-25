@@ -181,4 +181,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-043-REFERENCES`
-No statistics or external citations used. Detail-level guidance labeled ESTIMATE.
+No statistics or external citations used. Detail-level guidance labelled ESTIMATE.

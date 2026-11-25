@@ -21,7 +21,7 @@ date: "2026-08-09"
 
 ## Core Content
 
-Like most assets, precious metals prices are driven by supply and demand. On the supply side: how much new metal is mined and produced, and how much existing metal (from recycling or private holdings) enters the market. On the demand side: investment demand (people buying it as a store of value), jewelry demand, and for silver specifically, industrial demand from manufacturing.
+Like most assets, precious metals prices are driven by supply and demand. On the supply side: how much new metal is mined and produced, and how much existing metal (from recycling or private holdings) enters the market. On the demand side: investment demand (people buying it as a store of value), jewellery demand, and for silver specifically, industrial demand from manufacturing.
 
 VERIFIED FACT: Precious metals, and gold in particular, have historically often seen increased investment demand during periods of economic uncertainty or high inflation, as some investors view them as a store of value when confidence in other assets or currencies is shaken. This isn't a guarantee — prices are influenced by many factors simultaneously, and no single explanation (like "uncertainty always pushes gold up") holds true in every situation. Understanding that multiple factors interact, rather than looking for one simple cause-and-effect rule, is a more accurate way to think about price movements.
 
@@ -37,7 +37,7 @@ ILLUSTRATIVE EXAMPLE: During a period when economic headlines are dominated by u
 4. In the worked example, why might gold and silver respond differently to the same economic environment?
 
 ## Answer Key
-1. Supply: mining/production and recycled/existing metal entering the market. Demand: investment, jewelry, and (for silver) industrial demand.
+1. Supply: mining/production and recycled/existing metal entering the market. Demand: investment, jewellery, and (for silver) industrial demand.
 2. It has often increased, as some investors view gold as a store of value during uncertain times.
 3. No — multiple factors interact simultaneously, and no single explanation holds true in every situation.
 4. Because silver has an additional industrial demand driver that gold lacks, so the two can respond differently to the same conditions.
@@ -49,6 +49,6 @@ ILLUSTRATIVE EXAMPLE: During a period when economic headlines are dominated by u
 4. Differing demand drivers explain why gold and silver don't always move identically, even in similar conditions.
 
 ## Key Takeaways
-- Precious metals prices are driven by supply factors (production, recycling) and demand factors (investment, jewelry, and industrial for silver).
+- Precious metals prices are driven by supply factors (production, recycling) and demand factors (investment, jewellery, and industrial for silver).
 - Gold has historically often seen increased investment demand during economic uncertainty, though this isn't a guaranteed pattern.
 - Multiple factors interact simultaneously, so price movements are rarely explained by one simple cause alone.

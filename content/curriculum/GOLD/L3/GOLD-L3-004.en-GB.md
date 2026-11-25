@@ -31,7 +31,7 @@ A stock represents ownership in a business generating profit; a bond represents 
 
 Here's the "why" gold's value proposition is fundamentally different: gold's value comes primarily from being viewed as a store of value — something widely recognised and historically trusted to hold purchasing power over long periods, particularly during times of economic or currency instability — rather than from any income it produces, because it produces none.
 
-[VERIFIED FACT] This means the valuation frameworks used for productive assets — analysing cash flow, earnings, or rental income, as covered elsewhere in this curriculum — don't apply to gold in the same way. Gold's price is driven by supply and demand dynamics tied to its perceived role as a store of value, a hedge against currency instability, industrial and jewelry demand, and broader investor sentiment, rather than by any calculable stream of future cash flows the way a stock or bond can be analysed.
+[VERIFIED FACT] This means the valuation frameworks used for productive assets — analysing cash flow, earnings, or rental income, as covered elsewhere in this curriculum — don't apply to gold in the same way. Gold's price is driven by supply and demand dynamics tied to its perceived role as a store of value, a hedge against currency instability, industrial and jewellery demand, and broader investor sentiment, rather than by any calculable stream of future cash flows the way a stock or bond can be analysed.
 
 ## Worked Example
 
@@ -46,7 +46,7 @@ Here's the "why" gold's value proposition is fundamentally different: gold's val
 ## Answer Key
 
 1. A productive asset generates income, dividends, interest, or rent; gold generates none of these simply by being held.
-2. From being widely recognised and historically trusted as a store of value, particularly during periods of economic or currency instability, along with industrial and jewelry demand and broader sentiment.
+2. From being widely recognised and historically trusted as a store of value, particularly during periods of economic or currency instability, along with industrial and jewellery demand and broader sentiment.
 3. Because those frameworks analyse cash flow or earnings, and gold has no equivalent calculable stream of future cash flows to analyse.
 
 ## Answers and Explanations

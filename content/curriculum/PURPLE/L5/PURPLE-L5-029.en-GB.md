@@ -25,7 +25,7 @@ Slug: protecting-a-brand-across-borders
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a large trading bloc suddenly imposing steep tariffs on a broad category of imported manufactured goods, raising costs for companies that depend on those imports as inputs.
 
-Apply it here: New tariffs make a company rethink which countries to sell in. It plans to enter a new market quickly. Ask across colors: Does the company's trademark (PURPLE) protect it in that new country, or only at home? Could someone else already own the name there? How would that affect the marketing plan (ORANGE) and costs (BLUE)?
+Apply it here: New tariffs make a company rethink which countries to sell in. It plans to enter a new market quickly. Ask across colours: Does the company's trademark (PURPLE) protect it in that new country, or only at home? Could someone else already own the name there? How would that affect the marketing plan (ORANGE) and costs (BLUE)?
 
 ## Learning Objectives
 - Explain why trademark rights are generally territorial
@@ -37,7 +37,7 @@ VERIFIED FACT: Trademark rights are generally territorial. A trademark registere
 
 Some jurisdictions give rights to whoever registers first, not whoever used the brand first. In those places, a business entering late may find its own name already registered by someone else, sometimes by a local distributor or a person who registers well-known foreign brands hoping to sell them back.
 
-How colors connect:
+How colours connect:
 - ORANGE: Marketing launches in a new country depend on being able to use the brand name. A name conflict can force a rebrand and waste marketing spending.
 - ORANGE (localization): A brand name may have an unfortunate meaning in another language. Translation is not localization (from the curriculum's translation protocol). Check both legal availability and cultural meaning.
 - BLUE: Distributor and licensing agreements should state clearly that the brand belongs to the company, not the distributor, and must be returned when the relationship ends.

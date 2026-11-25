@@ -74,7 +74,7 @@ Q5: B
 
 **Q3.** This framing of methodical orchestration and decisiveness as complementary modes of the same disciplined practice, rather than competing approaches, is precisely why this lesson resolves any apparent tension between this level's earlier and closing discussions.
 
-**Q4.** This completion of the progression from individual-piece learning to genuinely coordinated, goal-directed practice, mirroring the parallel real estate closing discussion, is precisely how this level's orchestration approach fulfills this curriculum's chess analogy.
+**Q4.** This completion of the progression from individual-piece learning to genuinely coordinated, goal-directed practice, mirroring the parallel real estate closing discussion, is precisely how this level's orchestration approach fulfils this curriculum's chess analogy.
 
 **Q5.** This direct contrast between Investor A's integrated, multi-dimensional practice and Investor B's strength in only one dimension while neglecting others exemplifies precisely the central synthesis this closing lesson draws from across this entire level.
 

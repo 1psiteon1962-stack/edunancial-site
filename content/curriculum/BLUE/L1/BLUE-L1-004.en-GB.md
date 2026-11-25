@@ -61,7 +61,7 @@ structure.
 1. LLC stands for:
    A. Limited Liability Corporation
    B. Limited Liability Company
-   C. Legal License Certificate
+   C. Legal Licence Certificate
    D. Local Licensed Contractor
 
 2. True or False: An LLC's liability protection is automatic and applies

@@ -87,7 +87,7 @@ Q5: B
 
 **Q3.** This recognition that already-spent resources cannot be recovered regardless of the continuation decision, and should therefore not drive that decision, is precisely why guarding against sunk-cost attachment matters for honest reassessment.
 
-**Q4.** This direct connection to the earlier crisis communication principles, favoring honest transparency over obscured explanation, is precisely why honest, direct communication about a pullback decision matters for maintaining team trust and understanding.
+**Q4.** This direct connection to the earlier crisis communication principles, favouring honest transparency over obscured explanation, is precisely why honest, direct communication about a pullback decision matters for maintaining team trust and understanding.
 
 **Q5.** This direct illustration of honest, evidence-based reassessment combined with transparent communication exemplifies precisely the leadership behaviours this lesson recommends for leading through an escalation-versus-retreat decision.
 

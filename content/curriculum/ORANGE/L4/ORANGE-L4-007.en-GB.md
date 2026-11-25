@@ -24,7 +24,7 @@ Slug: brand-equity-analysis-why-a-strong-brand-commands-a-genuine-price-premium
 # Brand Equity Analysis: Why a Strong Brand Commands a Genuine Price Premium
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and price-sensitive consumers scrutinise every purchase more closely, some businesses discover their strong brand allows them to retain customers and pricing power that weaker, more commoditised competitors simply cannot match, prompting closer attention to exactly what brand equity is and why it produces this genuine, measurable advantage.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and price-sensitive consumers scrutinise every purchase more closely, some businesses discover their strong brand allows them to retain customers and pricing power that weaker, more commoditised competitors simply cannot match, prompting closer attention to exactly what brand equity is and why it produces this genuine, measurable advantage.
 
 ## Learning Objectives
 - Explain the concept of brand equity, and why it represents genuine economic value beyond the product's own physical or functional attributes.

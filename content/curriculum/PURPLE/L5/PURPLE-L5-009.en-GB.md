@@ -25,7 +25,7 @@ Slug: personal-guarantees-in-business-lending
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: A central bank raises rates sharply, and a small business's variable-rate loan payment jumps. Ask across colors: If the business cannot pay, can the lender reach the owner's house (RED) and savings (WHITE), even though the loan is in the company's name (BLUE)? The answer depends on what the owner signed (PURPLE).
+Apply it here: A central bank raises rates sharply, and a small business's variable-rate loan payment jumps. Ask across colours: If the business cannot pay, can the lender reach the owner's house (RED) and savings (WHITE), even though the loan is in the company's name (BLUE)? The answer depends on what the owner signed (PURPLE).
 
 ## Learning Objectives
 - Explain how a personal guarantee affects entity liability protection
@@ -45,7 +45,7 @@ Types of guarantees:
 - Burn-off: The guarantee shrinks or ends once the business meets certain targets, such as a number of on-time payments or a debt-to-income ratio.
 - Several vs. joint and several: With multiple owners, "joint and several" usually means the lender can collect the full amount from any one guarantor. REGION-SPECIFIC RULE. For UK readers: there is no general homestead exemption as in some US states; a creditor can seek a charging order over your home, though a spouse or civil partner may have rights of occupation, so take advice from a solicitor or insolvency practitioner.
 
-This coordinates several colors:
+This coordinates several colours:
 - BLUE: Loan size, rate, and term.
 - PURPLE: Guarantee terms, spousal consent rules, and which assets may be protected under local exemption laws (REGION-SPECIFIC RULE).
 - RED: Whether the lender also wants a lien on your home.

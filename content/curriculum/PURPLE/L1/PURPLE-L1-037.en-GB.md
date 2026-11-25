@@ -22,7 +22,7 @@ date: 2026-08-09
 
 ## Core Content
 
-This lesson closes out the securities law section by pulling together a practical checklist of legal red flags, each connecting directly to a concept covered earlier. Reluctance or refusal to provide standard disclosure documents connects to the disclosure lessons — legitimate offerings generally provide this information readily, since they're required to. Guaranteed high returns with no real risk contradicts the basic reality that risk and return are related, and should prompt skepticism regardless of how confident the pitch sounds. Pressure to invest quickly, without time for review, works against the entire due diligence process this section has emphasised.
+This lesson closes out the securities law section by pulling together a practical checklist of legal red flags, each connecting directly to a concept covered earlier. Reluctance or refusal to provide standard disclosure documents connects to the disclosure lessons — legitimate offerings generally provide this information readily, since they're required to. Guaranteed high returns with no real risk contradicts the basic reality that risk and return are related, and should prompt scepticism regardless of how confident the pitch sounds. Pressure to invest quickly, without time for review, works against the entire due diligence process this section has emphasised.
 
 Unclear or unverifiable claims about how returns are actually generated, unwillingness to explain whether the opportunity is legally structured as a security and what accreditation requirements apply, and an advisor who won't clarify whether they operate under a fiduciary or suitability standard are all red flags directly tied to specific legal concepts from this section. None of these signs guarantees fraud on their own, but recognising them is exactly what legal literacy is for: not becoming a securities lawyer, but developing the pattern recognition to know when a situation calls for slowing down, asking harder questions, and bringing in professional review before committing money.
 
@@ -53,7 +53,7 @@ D) Landlord-tenant law
 **Question 2.** A 'guaranteed high return with no real risk' claim should prompt:
 
 A) Immediate investment
-B) Skepticism, since risk and return are fundamentally related
+B) Scepticism, since risk and return are fundamentally related
 C) No particular reaction
 D) Assuming the claim is definitely accurate
 

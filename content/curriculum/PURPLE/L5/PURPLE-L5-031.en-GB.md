@@ -25,7 +25,7 @@ Slug: employee-or-contractor-classification-as-a-legal-tax-and-leadership-decisi
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once.
 
-Apply it here: During a long disruption, a business cuts costs by converting several employees into 'contractors' doing the same work. Ask across colors: Does the law (PURPLE) actually allow that? What taxes and penalties (GREEN) could follow if the classification is wrong? What does it mean for the workers' families and the owner's responsibility as an employer (BLACK)?
+Apply it here: During a long disruption, a business cuts costs by converting several employees into 'contractors' doing the same work. Ask across colours: Does the law (PURPLE) actually allow that? What taxes and penalties (GREEN) could follow if the classification is wrong? What does it mean for the workers' families and the owner's responsibility as an employer (BLACK)?
 
 ## Learning Objectives
 - Explain the general factors used to classify workers
@@ -43,7 +43,7 @@ VERIFIED FACT: Many legal systems look at factors such as:
 
 REGION-SPECIFIC RULE: The exact tests vary by country and sometimes differ between tax agencies, labour agencies, and courts within the same country. For UK readers: employment status is decided by the facts of the working relationship, and off-payroll working (IR35) rules can make the business responsible for tax on contractors, so check status with HMRC guidance or an employment lawyer.
 
-How colors connect:
+How colours connect:
 - GREEN: Employers often must withhold and pay payroll taxes for employees. Misclassification can lead to back taxes, interest, and penalties.
 - PURPLE: Employees may be entitled to minimum wage, overtime, leave, and protection from unfair dismissal. Misclassified workers may bring claims.
 - PURPLE (IP): Work created by employees within their job may belong to the employer, while contractors may own their work unless assigned (PURPLE-L5-028).

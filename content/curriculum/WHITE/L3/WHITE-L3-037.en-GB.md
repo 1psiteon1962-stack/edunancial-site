@@ -51,7 +51,7 @@ Here's the "why" this requires an actual sale: as long as an investment is simpl
 3. This sets up the practical reason investors typically reinvest quickly, which introduces the constraint covered in the next lesson.
 
 ## Key Takeaways
-- Tax-loss harvesting intentionally realizes a loss through a sale, potentially offsetting other taxable gains, subject to applicable tax rules.
+- Tax-loss harvesting intentionally realises a loss through a sale, potentially offsetting other taxable gains, subject to applicable tax rules.
 - Only a realised loss, not an unrealised paper loss, can typically be used for tax purposes in many tax systems.
 - Investors often reinvest into a similar investment to maintain market exposure, which introduces an important timing rule covered next.
 

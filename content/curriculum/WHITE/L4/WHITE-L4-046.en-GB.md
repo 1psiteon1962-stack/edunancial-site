@@ -24,7 +24,7 @@ Slug: annuity-analysis-why-guaranteed-income-comes-at-the-cost-of-flexibility
 # Annuity Analysis: Why Guaranteed Income Comes at the Cost of Flexibility
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled market boom unwinds, some retirees who depended entirely on market-based withdrawals for income watch their portfolios shrink at exactly the wrong time. This lesson examines a different retirement income tool designed specifically to address that kind of risk — and its own tradeoffs.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled market boom unwinds, some retirees who depended entirely on market-based withdrawals for income watch their portfolios shrink at exactly the wrong time. This lesson examines a different retirement income tool designed specifically to address that kind of risk — and its own tradeoffs.
 
 ## Learning Objectives
 - Explain what an annuity is designed to provide.

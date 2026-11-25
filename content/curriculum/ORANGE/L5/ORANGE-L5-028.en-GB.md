@@ -116,7 +116,7 @@ Q4: B
 Q5: B
 
 ## Answers and Explanations
-**Q1.** Organizational processes lengthen cycles.
+**Q1.** Organisational processes lengthen cycles.
 
 **Q2.** Weighting reflects realistic expectations.
 

@@ -72,7 +72,7 @@ Q5: B
 
 **Q2.** This direct connection to the earlier decision-making-under-uncertainty discussion is precisely why acknowledging forecast limits does not preclude continued, confident action in alternative asset investing.
 
-**Q3.** This translation of humility into concrete, disciplined alternative asset investment practices, rather than vague caution, is precisely why this lesson emphasises these specific, structured behaviors.
+**Q3.** This translation of humility into concrete, disciplined alternative asset investment practices, rather than vague caution, is precisely why this lesson emphasises these specific, structured behaviours.
 
 **Q4.** This direct parallel to the earlier honest-reassessment discussion is precisely why updating analysis in light of new evidence demonstrates more genuine soundness than defending an original alternative asset forecast.
 

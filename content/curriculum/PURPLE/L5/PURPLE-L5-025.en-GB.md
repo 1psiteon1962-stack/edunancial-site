@@ -25,7 +25,7 @@ Slug: contingencies-in-real-estate-contracts-as-risk-tools
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: During rapid rate increases, a buyer signs a purchase contract, then the lender's loan approval falls through. Ask across colors: Does the contract (PURPLE) let the buyer cancel and recover the deposit? Did the buyer waive the financing contingency to win the deal (ORANGE)? How much deposit money (WHITE/BLUE) is now at risk?
+Apply it here: During rapid rate increases, a buyer signs a purchase contract, then the lender's loan approval falls through. Ask across colours: Does the contract (PURPLE) let the buyer cancel and recover the deposit? Did the buyer waive the financing contingency to win the deal (ORANGE)? How much deposit money (WHITE/BLUE) is now at risk?
 
 ## Learning Objectives
 - Describe the main contingencies in real estate contracts
@@ -45,7 +45,7 @@ Common real estate contingencies:
 
 REGION-SPECIFIC RULE: Standard contract forms, deadlines, and how deposits are handled vary widely by jurisdiction. For UK readers: buyers in England and Wales usually agree a price subject to contract and are only bound when contracts are exchanged with a deposit, with completion later, while Scotland uses a system of missives, so let a solicitor or licensed conveyancer manage the steps.
 
-How colors connect:
+How colours connect:
 - RED: Inspection and appraisal findings affect property value and repair costs.
 - BLUE: Financing contingencies protect buyers when loan terms change, as in the scenario.
 - ORANGE: In competitive markets, buyers often waive contingencies to make offers more attractive. That improves their chance of winning but moves risk onto them.

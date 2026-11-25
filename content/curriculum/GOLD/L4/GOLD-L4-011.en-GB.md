@@ -24,7 +24,7 @@ Slug: private-equity-as-an-alternative-asset-analysis-why-illiquidity-is-the-pri
 # Private Equity as an Alternative Asset Analysis: Why Illiquidity Is the Price of Admission
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and public market volatility increases, some investors look toward private equity funds, attracted by historically strong reported returns and an apparent insulation from the day-to-day price swings of public markets, without always fully appreciating the specific structural constraints and risks that accompany this particular asset class. This lesson examines those constraints directly.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and public market volatility increases, some investors look toward private equity funds, attracted by historically strong reported returns and an apparent insulation from the day-to-day price swings of public markets, without always fully appreciating the specific structural constraints and risks that accompany this particular asset class. This lesson examines those constraints directly.
 
 ## Learning Objectives
 - Explain the basic structure of a private equity fund from an outside investor's (limited partner's) perspective.

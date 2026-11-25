@@ -74,7 +74,7 @@ A logo is a specific visual symbol or mark used to identify a business — one s
 
 ## FAQ
 **Q: Is visual identity (like a logo) unimportant to a brand?**
-A: [OPINION] Not unimportant — it's a meaningful part of how a business is recognized — but it's only one piece, not the whole picture, and it can't substitute for the underlying experience that truly builds brand perception.
+A: [OPINION] Not unimportant — it's a meaningful part of how a business is recognised — but it's only one piece, not the whole picture, and it can't substitute for the underlying experience that truly builds brand perception.
 
 **Q: Can a brand be damaged even with a great logo?**
 A: Yes — as illustrated in Topic 4, poor customer experience or inconsistency can damage a brand regardless of how strong the visual design is.
@@ -116,7 +116,7 @@ Think of a business with a strong brand reputation. List two things, other than 
 7. (True/False) A business with a very simple logo can never build a strong brand.
 8. (Short Answer) Why can't a great logo substitute for a weak underlying customer experience?
 9. (Multiple Choice) Which best reflects the relationship between brand and logo? A) They're identical B) Logo is one small piece of the broader brand C) Brand is a subset of logo D) Neither relates to the other
-10. (Reflection) Why might understanding this distinction help a business owner prioritize where to actually invest effort?
+10. (Reflection) Why might understanding this distinction help a business owner prioritise where to actually invest effort?
 
 ## Answer Key
 `BLUE-L1-033-ANSWER-KEY`
@@ -130,7 +130,7 @@ Think of a business with a strong brand reputation. List two things, other than 
 7. **Correct:** False. **Explanation:** Topic 4 explicitly states the opposite is possible. **Competency Tested:** Misconception correction.
 8. **Correct:** Because brand perception is built primarily through actual experience, not visual design alone. **Competency Tested:** Deep synthesis.
 9. **Correct:** B. **Explanation:** Defined in Key Definitions. **Competency Tested:** Recall.
-10. **Correct:** Answers should note that prioritizing customer experience and consistency may matter more for brand-building than visual design investment alone. **Competency Tested:** Deep synthesis.
+10. **Correct:** Answers should note that prioritising customer experience and consistency may matter more for brand-building than visual design investment alone. **Competency Tested:** Deep synthesis.
 
 ## Competency Standard
 `BLUE-L1-033-COMPETENCY`
@@ -173,7 +173,7 @@ FAQ Schema Questions: "Is visual identity unimportant to a brand?"; "Can a brand
 
 ## AI Support Block
 `BLUE-L1-033-AI`
-AI Summary: Distinguishes brand (overall perception/reputation) from logo (a piece of visual identity), emphasizing that customer experience and consistency shape brand more than design alone.
+AI Summary: Distinguishes brand (overall perception/reputation) from logo (a piece of visual identity), emphasising that customer experience and consistency shape brand more than design alone.
 AI Teaching Notes: Reinforce that this lesson does not dismiss visual design's value — it corrects a common oversimplification, not devalues design entirely.
 
 ## Localization Block
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-033-REFERENCES`
-No statistics or external citations used. Comparative claims labeled OPINION where relevant.
+No statistics or external citations used. Comparative claims labelled OPINION where relevant.

@@ -24,7 +24,7 @@ Slug: charitable-giving-tax-strategy-analysis-why-the-timing-and-structure-of-a-
 # Charitable Giving Tax Strategy Analysis: Why the Timing and Structure of a Gift Changes Its Tax Value
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom in asset values leaves some investors holding significantly appreciated stock they are considering donating to charity, they want to understand whether donating the appreciated shares directly, rather than selling the shares and donating the cash proceeds, actually makes a meaningful tax difference. This lesson examines exactly why the specific form of a charitable gift can matter as much as its pound amount.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom in asset values leaves some investors holding significantly appreciated stock they are considering donating to charity, they want to understand whether donating the appreciated shares directly, rather than selling the shares and donating the cash proceeds, actually makes a meaningful tax difference. This lesson examines exactly why the specific form of a charitable gift can matter as much as its pound amount.
 
 ## Learning Objectives
 - Explain the basic tax benefit of a charitable contribution deduction.

@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This dependency on an investor's own specific, individual goals, rather than a universal answer, is precisely why no single choice is universally correct between hedged and unhedged exposure.
 
-**Q5.** This direct illustration of orchestrating a specific, individual diversification purpose toward an appropriate hedging decision exemplifies precisely why this lesson emphasises this personalized approach.
+**Q5.** This direct illustration of orchestrating a specific, individual diversification purpose toward an appropriate hedging decision exemplifies precisely why this lesson emphasises this personalised approach.
 
 ## Key Takeaways
 - A currency-hedged international fund reduces genuine currency risk exposure by offsetting exchange rate effects on home-currency return.

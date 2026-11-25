@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This dependency on an investor's own specific, individual circumstances, rather than a universal answer, is precisely why no single option is universally superior among these three.
 
-**Q5.** This direct illustration of orchestrating personal skill, priorities, and existing portfolio composition toward a specific, individually appropriate choice exemplifies precisely why this lesson emphasises personalized orchestration among these three asset allocation options.
+**Q5.** This direct illustration of orchestrating personal skill, priorities, and existing portfolio composition toward a specific, individually appropriate choice exemplifies precisely why this lesson emphasises personalised orchestration among these three asset allocation options.
 
 ## Key Takeaways
 - A genuine comparison among stocks, real estate, and business ownership must orchestrate liquidity, since these three options fall along a genuine liquidity spectrum from most to least liquid.

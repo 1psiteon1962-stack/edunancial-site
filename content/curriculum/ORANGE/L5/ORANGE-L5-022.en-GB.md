@@ -59,7 +59,7 @@ How colours connect:
 ASSUMPTION/OPINION: Partnerships often fail not because of bad intentions but because of unclear expectations. Writing down contributions, control, and exit terms at the start prevents most conflicts.
 
 ## Worked Example
-ILLUSTRATIVE EXAMPLE: Yara's company makes solar-powered water pumps. Tariffs make it expensive to sell into a neighboring country through her own operation. A local agricultural supply company, Verde, has 500 dealers and strong farmer relationships.
+ILLUSTRATIVE EXAMPLE: Yara's company makes solar-powered water pumps. Tariffs make it expensive to sell into a neighbouring country through her own operation. A local agricultural supply company, Verde, has 500 dealers and strong farmer relationships.
 
 They form a joint venture:
 - Structure: A new company, 50% each, operating only in Verde's country.

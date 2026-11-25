@@ -28,7 +28,7 @@ Building directly on Lesson 26, this lesson compares HSAs to Flexible Spending A
 This "use it or lose it" structure means FSA elections require more careful, deliberate estimation of expected annual medical expenses than an HSA contribution does, since overestimating could result in forfeited funds, while underestimating means missing out on some potential tax-advantaged savings. Some employers offer both account types for different purposes, though an individual generally cannot contribute to both an HSA and a general-purpose FSA in the same year under common plan structures, making this a genuine either-or decision for many employees during benefits enrolment.
 
 **3. Worked Example**
-During benefits enrolment, Amara (from Lesson 2) compares her employer's HSA-eligible high-deductible health plan option against a more traditional health plan paired with an FSA. Recognising the FSA's "use it or lose it" structure would require her to estimate her annual medical expenses carefully, while the HSA's non-expiring balance would provide more flexibility if her actual expenses turned out lower than expected, she considers her own typically unpredictable annual medical costs as a specific factor favoring the HSA's more forgiving structure for her particular situation.
+During benefits enrolment, Amara (from Lesson 2) compares her employer's HSA-eligible high-deductible health plan option against a more traditional health plan paired with an FSA. Recognising the FSA's "use it or lose it" structure would require her to estimate her annual medical expenses carefully, while the HSA's non-expiring balance would provide more flexibility if her actual expenses turned out lower than expected, she considers her own typically unpredictable annual medical costs as a specific factor favouring the HSA's more forgiving structure for her particular situation.
 
 **4. Practice Quiz**
 1. What is a key structural difference between an FSA and an HSA?
@@ -44,7 +44,7 @@ During benefits enrolment, Amara (from Lesson 2) compares her employer's HSA-eli
 3. True or False: An individual can generally contribute to both an HSA and a general-purpose FSA in the same year under common plan structures.
 4. Why did Amara consider the HSA's structure more favourable for her specific situation?
    a) She had perfectly predictable annual medical expenses
-   b) Her unpredictable annual medical costs favored the HSA's more forgiving, non-expiring structure
+   b) Her unpredictable annual medical costs favoured the HSA's more forgiving, non-expiring structure
    c) FSAs offer more flexibility than HSAs in every case
    d) She had no medical expenses at all
 

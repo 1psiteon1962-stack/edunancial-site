@@ -24,7 +24,7 @@ Slug: tax-basis-analysis-why-basis-not-just-price-determines-taxable-gain
 # Tax Basis Analysis: Why Basis, Not Just Price, Determines Taxable Gain
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom in asset values unwinds, some investors and business owners preparing to sell an asset they have held for many years, with various improvements, adjustments, and partial transactions along the way, discover that calculating their actual taxable gain requires more than simply subtracting the original purchase price from the current sale price. This lesson examines why tax basis is a more nuanced figure than a simple purchase price.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom in asset values unwinds, some investors and business owners preparing to sell an asset they have held for many years, with various improvements, adjustments, and partial transactions along the way, discover that calculating their actual taxable gain requires more than simply subtracting the original purchase price from the current sale price. This lesson examines why tax basis is a more nuanced figure than a simple purchase price.
 
 ## Learning Objectives
 - Explain what tax basis generally represents.

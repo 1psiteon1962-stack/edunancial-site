@@ -22,7 +22,7 @@ Slug: green-l3-027-property-tax-assessment-vs-market-value
 ## Learning Objectives
 By the end of this lesson, you will be able to:
 - Explain why a property's assessed value often differs from its actual market value
-- Explain why this gap can work in either direction, favoring or disadvantaging an owner
+- Explain why this gap can work in either direction, favouring or disadvantaging an owner
 - Connect this concept to the property tax appeal discussion covered elsewhere in this curriculum
 
 ## Core Content
@@ -40,13 +40,13 @@ This gap can work in either direction: a property in a rapidly appreciating mark
 ## Practice Quiz
 
 1. What is the difference between assessed value and market value?
-2. Why can this gap work in either direction, either favoring or disadvantaging a property owner?
+2. Why can this gap work in either direction, either favouring or disadvantaging a property owner?
 3. How does this lesson connect to the property tax appeal concept covered elsewhere in this curriculum?
 
 ## Answer Key
 
 1. Assessed value is the figure a local taxing authority uses to calculate property tax; market value is the price the property would likely fetch if sold today — these are calculated differently and often diverge.
-2. Because assessment update frequency and methods vary by jurisdiction, assessed value can lag behind rising market value (favoring the owner) or exceed a declining market value if not updated promptly (disadvantaging the owner).
+2. Because assessment update frequency and methods vary by jurisdiction, assessed value can lag behind rising market value (favouring the owner) or exceed a declining market value if not updated promptly (disadvantaging the owner).
 3. This lesson explains the underlying gap between assessed and market value that makes a property tax appeal — covered in the RED track as a way to improve cash flow — a legitimate and sometimes necessary tool.
 
 ## Answers and Explanations

@@ -53,7 +53,7 @@ must cover its own expenses for that much longer before collecting.
 ## Practice Quiz
 
 1. An invoice is:
-   A. A type of business license
+   A. A type of business licence
    B. A formal request for payment detailing what's owed
    C. A company's annual financial statement
    D. A marketing document

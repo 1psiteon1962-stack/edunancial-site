@@ -24,7 +24,7 @@ Slug: churn-rate-analysis-why-retaining-customers-is-often-cheaper-than-acquirin
 # Churn Rate Analysis: Why Retaining Customers Is Often Cheaper Than Acquiring New Ones
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and every growth-stage subscription business faces closer scrutiny, investors start focusing intensely on one specific metric that had received relatively little attention during the boom years. This lesson examines why churn rate, more than growth rate alone, reveals the true health of a recurring-revenue business.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and every growth-stage subscription business faces closer scrutiny, investors start focusing intensely on one specific metric that had received relatively little attention during the boom years. This lesson examines why churn rate, more than growth rate alone, reveals the true health of a recurring-revenue business.
 
 ## Learning Objectives
 - Explain how churn rate is calculated for a subscription or recurring-revenue business.

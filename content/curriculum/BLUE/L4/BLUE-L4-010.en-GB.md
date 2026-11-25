@@ -24,7 +24,7 @@ Slug: vesting-schedule-analysis-why-equity-compensation-is-earned-over-time-not-
 # Vesting Schedule Analysis: Why Equity Compensation Is Earned Over Time, Not Granted All at Once
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled hiring boom unwinds and companies reassess their workforce, employees who joined recently discover that a large portion of the equity compensation they were promised has not actually been earned yet. This lesson explains the mechanism that determines exactly how much equity an employee has genuinely earned at any given point.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled hiring boom unwinds and companies reassess their workforce, employees who joined recently discover that a large portion of the equity compensation they were promised has not actually been earned yet. This lesson explains the mechanism that determines exactly how much equity an employee has genuinely earned at any given point.
 
 ## Learning Objectives
 - Explain what a vesting schedule is and why equity compensation is typically structured this way.

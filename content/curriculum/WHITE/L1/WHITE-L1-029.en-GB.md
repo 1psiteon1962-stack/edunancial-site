@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define credit risk in plain terms.
 - Explain how credit risk relates to a bond's interest rate.
-- Recognize that not all bond issuers carry the same credit risk.
+- Recognise that not all bond issuers carry the same credit risk.
 
 ## Core Content
 
@@ -65,7 +65,7 @@ investors willing to take on the added default risk.
    bond interest rate?
    A. To compensate investors for higher default risk
    B. Because the government requires it
-   C. To reduce its market capitalization
+   C. To reduce its market capitalisation
    D. Bonds always carry the same rate regardless of risk
 
 ## Answer Key

@@ -45,12 +45,12 @@ A) Genuine certainty about future tax law and personal income is always readily 
 B) Genuine certainty about the future rarely actually arrives, meaning a taxpayer who has orchestrated several plausible scenarios together is considerably better positioned to respond effectively regardless of which specific scenario actually materializes
 
 **Q2. Why would different genuinely plausible tax and income scenarios each favour a genuinely different specific tax strategy?**
-A) Every genuinely plausible tax and income scenario always favors an identical tax strategy, regardless of the specific scenario's own particular characteristics
+A) Every genuinely plausible tax and income scenario always favours an identical tax strategy, regardless of the specific scenario's own particular characteristics
 B) Continued stability would favour a steady strategy, further reform would favour genuine planning flexibility per Lesson 29, and changed income would favour revisiting bracket management per Lesson 9, meaning each scenario calls for a different strategy emphasis
 
-**Q3. Why should a genuinely resilient tax strategy identify actions that remain reasonable across several plausible scenarios, rather than optimising for a single favored prediction?**
+**Q3. Why should a genuinely resilient tax strategy identify actions that remain reasonable across several plausible scenarios, rather than optimising for a single favoured prediction?**
 A) Optimising an entire tax strategy around whichever single scenario currently seems most likely always produces the most resilient possible outcome
-B) The genuine value of scenario planning lies in identifying robust actions across multiple plausible futures, meaning a taxpayer committing to a single favored scenario risks genuine vulnerability should a different, but still plausible, scenario actually occur
+B) The genuine value of scenario planning lies in identifying robust actions across multiple plausible futures, meaning a taxpayer committing to a single favoured scenario risks genuine vulnerability should a different, but still plausible, scenario actually occur
 
 **Q4. Why does this lesson represent a fitting near-closing synthesis point for this level's overall orchestration philosophy?**
 A) This lesson addresses tax scenario planning as an entirely isolated topic with no actual connection to any of this level's other discussions regarding tax law change, bracket management, or account diversification
@@ -81,5 +81,5 @@ Q5: B
 ## Key Takeaways
 - Preparing for multiple plausible future tax law and income scenarios together produces more resilient tax strategy results than betting on a single predicted outcome.
 - Different plausible tax and income scenarios each favour a genuinely different specific tax strategy, requiring a taxpayer to identify these scenario-specific implications together.
-- A genuinely resilient tax strategy identifies actions remaining reasonable across several plausible scenarios, rather than optimising entirely for a single currently favored prediction.
+- A genuinely resilient tax strategy identifies actions remaining reasonable across several plausible scenarios, rather than optimising entirely for a single currently favoured prediction.
 - This lesson synthesizes this level's tax law change risk, multi-year bracket management, and account diversification themes into a single, coherent, scenario-based tax strategy framework, mirroring the parallel closing discussions.

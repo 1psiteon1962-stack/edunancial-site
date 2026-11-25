@@ -25,7 +25,7 @@ Slug: retirement-accounts-creditor-protection-and-legal-structure
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a systemically important financial institution suddenly revealing a large, previously undisclosed loss, raising fears about counterparty risk rippling through the broader banking system.
 
-Apply it here: A banking scare makes people worry about where their savings are safest. Ask across colors: Which accounts are protected by deposit insurance or investor protection schemes (WHITE)? Which are protected from lawsuits or bankruptcy by law (PURPLE)? What are the tax penalties for moving money out early (GREEN)?
+Apply it here: A banking scare makes people worry about where their savings are safest. Ask across colours: Which accounts are protected by deposit insurance or investor protection schemes (WHITE)? Which are protected from lawsuits or bankruptcy by law (PURPLE)? What are the tax penalties for moving money out early (GREEN)?
 
 ## Learning Objectives
 - Explain why some retirement accounts receive special creditor protection
@@ -39,7 +39,7 @@ Two very different kinds of protection often get confused:
 
 This lesson focuses on the second. VERIFIED FACT: Many legal systems give certain retirement accounts special protection from creditors, often because lawmakers want people to have income in old age. REGION-SPECIFIC RULE: Which accounts qualify, whether protection is unlimited or capped, and whether it applies inside or outside bankruptcy all vary.
 
-How colors connect:
+How colours connect:
 - WHITE: Retirement accounts often hold a large share of a family's investments.
 - GREEN: Contributions may be tax-advantaged, and early withdrawals may carry taxes and penalties.
 - PURPLE: The legal status of the account determines creditor protection. Inherited retirement accounts may not keep the same protection in some jurisdictions.

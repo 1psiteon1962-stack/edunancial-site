@@ -60,7 +60,7 @@ maker," or would it have quietly become something else?
    A. An action performed for a customer
    B. A tangible or digital thing a customer receives and keeps
    C. A company's marketing plan
-   D. A type of business license
+   D. A type of business licence
 
 2. True or False: Most real businesses are purely product-based or
    purely service-based, with little blending.

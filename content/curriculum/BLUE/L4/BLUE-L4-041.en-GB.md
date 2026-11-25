@@ -24,7 +24,7 @@ Slug: competitive-moat-analysis-why-some-businesses-defend-their-profits-better-
 # Competitive Moat Analysis: Why Some Businesses Defend Their Profits Better Than Others
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and competitive pressure intensifies across many industries, some businesses maintain their profit margins remarkably well despite the tougher environment, while seemingly similar competitors see their margins erode significantly. This lesson examines the underlying source of durable competitive advantage that explains this difference.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and competitive pressure intensifies across many industries, some businesses maintain their profit margins remarkably well despite the tougher environment, while seemingly similar competitors see their margins erode significantly. This lesson examines the underlying source of durable competitive advantage that explains this difference.
 
 ## Learning Objectives
 - Explain what a competitive moat means in business analysis.

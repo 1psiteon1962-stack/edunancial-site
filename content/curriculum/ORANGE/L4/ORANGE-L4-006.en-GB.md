@@ -63,7 +63,7 @@ D) Multi-touch models are always less accurate than single-touch models
 
 **Q4. Why can the choice of attribution model meaningfully bias which channels appear to be performing well?**
 A) Attribution model choice has no actual effect on which channels appear to be performing well
-B) A channel that frequently serves as the first touchpoint will appear more valuable under a first-touch model, while a channel serving as the final touchpoint will appear more valuable under a last-touch model, meaning relying on a single model risks systematically favoring whichever channel that model happens to credit most
+B) A channel that frequently serves as the first touchpoint will appear more valuable under a first-touch model, while a channel serving as the final touchpoint will appear more valuable under a last-touch model, meaning relying on a single model risks systematically favouring whichever channel that model happens to credit most
 
 **Q5. In the example, why did the business's initial conclusion about its email promotions turn out to be misleading?**
 A) The email promotions actually had no relationship to the brand's overall customer acquisition

@@ -25,7 +25,7 @@ Slug: legal-readiness-preparing-before-the-moment-arrives
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a major energy-producing region hit by a sudden regional conflict that knocks out a large share of its production capacity overnight, tightening global energy supply with little warning.
 
-Apply it here: A sudden energy shock creates opportunities and threats at the same time: distressed assets come up for sale, contracts are disrupted, and competitors struggle. Ask across colors: Could this business act within days (PURPLE)? Are its records clean (GREEN)? Is financing pre-arranged (BLUE)? Does leadership already know its decision criteria (BLACK)?
+Apply it here: A sudden energy shock creates opportunities and threats at the same time: distressed assets come up for sale, contracts are disrupted, and competitors struggle. Ask across colours: Could this business act within days (PURPLE)? Are its records clean (GREEN)? Is financing pre-arranged (BLUE)? Does leadership already know its decision criteria (BLACK)?
 
 ## Learning Objectives
 - Explain why readiness must be built before opportunities appear
@@ -44,7 +44,7 @@ Legal readiness has several parts:
 6. Decision criteria: Written conditions under which you will act, so emotion does not drive the decision (BLACK).
 7. Protected IP: Trademarks and key IP registered in planned markets before you need them (PURPLE-L5-029).
 
-How colors connect:
+How colours connect:
 - PURPLE: Documents, rights, and counsel.
 - BLUE: Financing and cash reserves.
 - GREEN: Clean books and tax filings that support diligence.

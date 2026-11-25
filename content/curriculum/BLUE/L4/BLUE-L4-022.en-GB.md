@@ -24,7 +24,7 @@ Slug: earnout-analysis-why-deferred-performance-based-payments-bridge-a-valuatio
 # Earnout Analysis: Why Deferred, Performance-Based Payments Bridge a Valuation Gap
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom shows signs of unwinding, a buyer and seller negotiating the sale of a growing business disagree sharply about whether that growth will continue, making it difficult to agree on a single, fixed sale price. This lesson introduces a deal structure specifically designed to bridge exactly this kind of disagreement.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom shows signs of unwinding, a buyer and seller negotiating the sale of a growing business disagree sharply about whether that growth will continue, making it difficult to agree on a single, fixed sale price. This lesson introduces a deal structure specifically designed to bridge exactly this kind of disagreement.
 
 ## Learning Objectives
 - Explain what an earnout is in the context of a business sale.

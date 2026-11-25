@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define startup capital in plain terms.
 - Name common sources of startup capital.
-- Recognize that outside investment is only one of several paths.
+- Recognise that outside investment is only one of several paths.
 
 ## Core Content
 

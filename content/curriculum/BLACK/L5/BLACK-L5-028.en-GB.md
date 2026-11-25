@@ -6,7 +6,7 @@ level: 5
 lessonNumber: 28
 locale: en-GB
 title: "Diversification Versus Focus: Orchestrating Opportunity, Capability, and Capital"
-summary: "Learn how leaders decide whether to expand into new products or markets or concentrate on the core business, by coordinating opportunity size, organizational capability, capital, and risk."
+summary: "Learn how leaders decide whether to expand into new products or markets or concentrate on the core business, by coordinating opportunity size, organisational capability, capital, and risk."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-19"
@@ -16,7 +16,7 @@ Folder: BLACK/L5
 Title: Diversification Versus Focus: Orchestrating Opportunity, Capability, and Capital
 Lesson ID: BLACK-L5-028
 Author: Waldemar M. Caban, JD MA
-Meta Description: Learn how leaders decide whether to expand into new products or markets or concentrate on the core business, by coordinating opportunity size, organizational capability, capital, and risk.
+Meta Description: Learn how leaders decide whether to expand into new products or markets or concentrate on the core business, by coordinating opportunity size, organisational capability, capital, and risk.
 SEO Keywords: diversification strategy, business focus, core business, expansion decisions, strategic choice
 Slug: diversification-versus-focus-orchestrating-opportunity-capability-and-capital
 

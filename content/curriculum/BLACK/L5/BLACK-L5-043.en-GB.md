@@ -38,7 +38,7 @@ Data reveals patterns, trends, and performance. However, it may be incomplete, o
 
 Experience and judgement help interpret data and recognise factors not yet visible in numbers.
 
-Common biases include confirmation bias (favoring information that supports existing beliefs), overconfidence, and recency bias.
+Common biases include confirmation bias (favouring information that supports existing beliefs), overconfidence, and recency bias.
 
 Leaders improve decisions by combining data with diverse perspectives, testing assumptions, and reviewing results afterward.
 
@@ -61,7 +61,7 @@ D) Interpretation of factors not yet visible in data
 **Q3. What is confirmation bias?**
 A) Reviewing all evidence fairly
 B) Testing assumptions
-C) Favoring information that supports existing beliefs
+C) Favouring information that supports existing beliefs
 D) Using multiple perspectives
 
 **Q4. How can leaders improve decisions?**

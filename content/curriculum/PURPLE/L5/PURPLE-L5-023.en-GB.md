@@ -25,7 +25,7 @@ Slug: asset-purchase-vs-share-purchase
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: With interest rates high, a buyer has less borrowing power and wants to limit risk in an acquisition. Ask across colors: Buying only the assets (PURPLE) may leave old liabilities behind, but it may require every contract to be reassigned. Which structure leads to better tax results (GREEN)? Which is easier to finance (BLUE)?
+Apply it here: With interest rates high, a buyer has less borrowing power and wants to limit risk in an acquisition. Ask across colours: Buying only the assets (PURPLE) may leave old liabilities behind, but it may require every contract to be reassigned. Which structure leads to better tax results (GREEN)? Which is easier to finance (BLUE)?
 
 ## Learning Objectives
 - Explain the difference between asset and share purchases
@@ -38,10 +38,10 @@ There are two basic ways to buy a business:
 - Share (stock) purchase: The buyer buys the owners' shares or membership interests. The company itself stays the same, with all its assets, contracts, and liabilities, known and unknown.
 - Asset purchase: The buyer's company buys selected assets (equipment, inventory, customer lists, IP, sometimes real estate) and assumes only the liabilities it agrees to take. The seller's company keeps everything else.
 
-How colors connect:
-- PURPLE: In a share purchase, contracts usually stay in place (unless they have change-of-control clauses). In an asset purchase, many contracts, licenses, and permits must be assigned, which may require the other party's consent. Some licenses cannot be transferred at all. REGION-SPECIFIC RULE.
+How colours connect:
+- PURPLE: In a share purchase, contracts usually stay in place (unless they have change-of-control clauses). In an asset purchase, many contracts, licences, and permits must be assigned, which may require the other party's consent. Some licences cannot be transferred at all. REGION-SPECIFIC RULE.
 - PURPLE (liability): Asset purchases generally let buyers leave unknown liabilities behind, though some laws impose successor liability in certain situations, such as some tax or employment obligations. REGION-SPECIFIC RULE.
-- GREEN: REGION-SPECIFIC RULE: In many systems, buyers prefer asset purchases because they can often assign new, higher tax values to assets and depreciate them. Sellers often prefer share sales because the sale may be taxed more favorably to them. The difference is a common negotiation point.
+- GREEN: REGION-SPECIFIC RULE: In many systems, buyers prefer asset purchases because they can often assign new, higher tax values to assets and depreciate them. Sellers often prefer share sales because the sale may be taxed more favourably to them. The difference is a common negotiation point.
 - BLUE: Lenders may prefer asset purchases because the purchased assets can serve as clean collateral.
 - ORANGE: Because buyers and sellers want different things, price often adjusts. A seller who agrees to an asset sale may ask for a higher price to offset worse tax treatment. For UK readers: gains on selling shares are subject to Capital Gains Tax, and reliefs such as Business Asset Disposal Relief or investors' relief may reduce the rate if conditions are met, so confirm the current rates and conditions with HMRC guidance or an accountant.
 
@@ -75,7 +75,7 @@ D) They go to employees
 A) No contracts
 B) Shareholder votes only
 C) A new company name
-D) Consent to assign many contracts, licenses, and leases
+D) Consent to assign many contracts, licences, and leases
 
 **Q3. Why do buyers often prefer asset purchases for tax reasons?**
 A) They can often assign higher tax values to assets and depreciate them

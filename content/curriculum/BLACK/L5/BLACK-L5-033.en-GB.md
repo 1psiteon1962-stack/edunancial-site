@@ -6,7 +6,7 @@ level: 5
 lessonNumber: 33
 locale: en-GB
 title: "Measurement and Rewards: Orchestrating What Leaders Track With What They Recognise"
-summary: "Learn how leaders choose key performance indicators that reflect strategy, avoid measurement traps, and align recognition and rewards with the results and behaviors that matter."
+summary: "Learn how leaders choose key performance indicators that reflect strategy, avoid measurement traps, and align recognition and rewards with the results and behaviours that matter."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-19"
@@ -16,7 +16,7 @@ Folder: BLACK/L5
 Title: Measurement and Rewards: Orchestrating What Leaders Track With What They Recognise
 Lesson ID: BLACK-L5-033
 Author: Waldemar M. Caban, JD MA
-Meta Description: Learn how leaders choose key performance indicators that reflect strategy, avoid measurement traps, and align recognition and rewards with the results and behaviors that matter.
+Meta Description: Learn how leaders choose key performance indicators that reflect strategy, avoid measurement traps, and align recognition and rewards with the results and behaviours that matter.
 SEO Keywords: KPIs, performance measurement, balanced scorecard, metrics, incentives, leadership dashboards
 Slug: measurement-and-rewards-orchestrating-what-leaders-track-with-what-they-recognize
 

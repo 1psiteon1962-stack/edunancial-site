@@ -29,7 +29,7 @@ date: 2026-08-08
 Drop shipping offers a direct way around the inventory and MOQ problems covered in the last two lessons — at the cost of certain trade-offs. This lesson explains what drop shipping is and how it works.
 
 ## Learning Objectives
-- Define drop shipping and how the order fulfillment process works
+- Define drop shipping and how the order fulfilment process works
 - Explain how it addresses inventory holding costs and MOQ barriers
 - Identify the trade-offs involved in this model
 
@@ -47,21 +47,21 @@ Beginner (Level 1)
 ## Core Content
 
 ### Topic 1: What Drop Shipping Is
-Drop shipping is a fulfillment model where a business sells a product without holding any inventory itself — when a customer orders, the business forwards that order to a third-party supplier, who ships the product directly to the customer.
+Drop shipping is a fulfilment model where a business sells a product without holding any inventory itself — when a customer orders, the business forwards that order to a third-party supplier, who ships the product directly to the customer.
 
 ### Topic 2: How This Addresses the Inventory Problem
 Recall from BLUE-L1-026 that holding inventory carries real costs — storage, insurance, tied-up cash. Drop shipping eliminates these specific costs entirely, since the business never purchases or stores inventory upfront.
 
 ### Topic 3: How This Addresses the MOQ Problem
-Recall from BLUE-L1-028 that a supplier's minimum order quantity can create a capital wall. Since drop shipping suppliers fulfill individual orders one at a time rather than requiring bulk purchases, the MOQ barrier is generally sidestepped entirely.
+Recall from BLUE-L1-028 that a supplier's minimum order quantity can create a capital wall. Since drop shipping suppliers fulfil individual orders one at a time rather than requiring bulk purchases, the MOQ barrier is generally sidestepped entirely.
 
 ### Topic 4: The Trade-Offs
-[ILLUSTRATIVE EXAMPLE] Drop shipping typically comes with lower profit margins (since bulk purchasing discounts aren't available), less control over shipping speed and quality (since a third party handles fulfillment), and less control over inventory availability (since the business doesn't manage its own stock levels directly).
+[ILLUSTRATIVE EXAMPLE] Drop shipping typically comes with lower profit margins (since bulk purchasing discounts aren't available), less control over shipping speed and quality (since a third party handles fulfilment), and less control over inventory availability (since the business doesn't manage its own stock levels directly).
 
 ---
 
 ## Key Definitions
-- **Drop Shipping:** A fulfillment model in which a business sells products without holding inventory, forwarding customer orders to a third-party supplier who ships directly to the customer.
+- **Drop Shipping:** A fulfilment model in which a business sells products without holding inventory, forwarding customer orders to a third-party supplier who ships directly to the customer.
 - **Fulfillment:** The process of receiving, packing, and shipping a customer's order.
 
 ## Worked Examples
@@ -74,7 +74,7 @@ Recall from BLUE-L1-028 that a supplier's minimum order quantity can create a ca
 
 ## FAQ
 **Q: Is drop shipping automatically a lower-risk business model?**
-A: [OPINION] It removes specific risks (inventory holding costs, MOQ barriers) but introduces others (thin margins, dependency on a third party's fulfillment quality) — it trades one set of risks for another rather than eliminating risk altogether.
+A: [OPINION] It removes specific risks (inventory holding costs, MOQ barriers) but introduces others (thin margins, dependency on a third party's fulfilment quality) — it trades one set of risks for another rather than eliminating risk altogether.
 
 **Q: Why are drop shipping margins often thinner?**
 A: [ESTIMATE] Without bulk purchasing power, drop shippers typically pay closer to retail-equivalent prices per unit, leaving less room between cost and selling price compared to businesses that buy inventory in bulk.
@@ -83,7 +83,7 @@ A: [ESTIMATE] Without bulk purchasing power, drop shippers typically pay closer 
 - Drop shipping lets a business sell products without holding its own inventory
 - It directly addresses the inventory holding-cost problem from BLUE-L1-026
 - It also sidesteps the MOQ capital-wall problem from BLUE-L1-028
-- These benefits come with real trade-offs: thinner margins and less fulfillment control
+- These benefits come with real trade-offs: thinner margins and less fulfilment control
 
 ## Practical Exercise
 Would drop shipping be a good fit for a hypothetical low-capital business idea you might consider? Explain your reasoning, referencing at least one benefit and one trade-off.
@@ -115,7 +115,7 @@ Would drop shipping be a good fit for a hypothetical low-capital business idea y
 6. (Multiple Choice) What is a common trade-off of drop shipping? A) Higher margins B) Less control over shipping speed and quality C) Guaranteed fast delivery D) No trade-offs exist
 7. (True/False) Drop shipping businesses typically enjoy the same bulk-purchasing discounts as inventory-holding businesses.
 8. (Short Answer) Name one risk that drop shipping introduces, even though it removes inventory risk.
-9. (Multiple Choice) In drop shipping, who fulfills and ships the customer's order? A) The business itself B) The customer C) A third-party supplier D) A government agency
+9. (Multiple Choice) In drop shipping, who fulfils and ships the customer's order? A) The business itself B) The customer C) A third-party supplier D) A government agency
 10. (Reflection) Why does the lesson describe drop shipping as trading one set of risks for another, rather than eliminating risk?
 
 ## Answer Key
@@ -130,7 +130,7 @@ Would drop shipping be a good fit for a hypothetical low-capital business idea y
 7. **Correct:** False. **Explanation:** FAQ explicitly notes the opposite. **Competency Tested:** Misconception correction.
 8. **Correct:** Any of: thinner margins, less control over shipping/quality, dependency on third-party performance. **Competency Tested:** Recall.
 9. **Correct:** C. **Explanation:** Stated in Topic 1. **Competency Tested:** Recall.
-10. **Correct:** Answers should note that removing inventory/MOQ risk introduces new risks (margin, fulfillment control), so overall risk isn't eliminated, just reshaped. **Competency Tested:** Deep synthesis.
+10. **Correct:** Answers should note that removing inventory/MOQ risk introduces new risks (margin, fulfilment control), so overall risk isn't eliminated, just reshaped. **Competency Tested:** Deep synthesis.
 
 ## Competency Standard
 `BLUE-L1-029-COMPETENCY`
@@ -174,7 +174,7 @@ FAQ Schema Questions: "Is drop shipping lower risk?"; "Why are drop shipping mar
 
 ## AI Support Block
 `BLUE-L1-029-AI`
-AI Summary: Defines drop shipping and explicitly connects it to solving the inventory holding-cost problem (BLUE-L1-026) and MOQ barrier (BLUE-L1-028), while introducing new trade-offs (margins, fulfillment control).
+AI Summary: Defines drop shipping and explicitly connects it to solving the inventory holding-cost problem (BLUE-L1-026) and MOQ barrier (BLUE-L1-028), while introducing new trade-offs (margins, fulfilment control).
 AI Teaching Notes: This lesson is a direct payoff/synthesis of two prior lessons — reinforce those connections explicitly.
 
 ## Localization Block
@@ -183,4 +183,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-029-REFERENCES`
-No statistics or external citations used. Margin and risk claims labeled ESTIMATE/OPINION where relevant.
+No statistics or external citations used. Margin and risk claims labelled ESTIMATE/OPINION where relevant.
