@@ -5,14 +5,14 @@ officialTrackName: Business
 level: 1
 lessonNumber: 37
 locale: pt-PT
-title: "O que é estudo de mercado, e como fazê-la sem um grande orçamento?"
+title: "O que é um estudo de mercado, e como fazê-lo sem um grande orçamento?"
 summary: "Explica o que o estudo de mercado envolve e como um negócio novo pode fazê-la de forma prática e barata."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-037: O que é estudo de mercado, e como fazê-la sem um grande orçamento?
+# BLUE-L1-037: O que é um estudo de mercado, e como fazê-lo sem um grande orçamento?
 
 **Trilha:** BLUE (Negócios)
 **Nível:** 1 — Sensibilização/Literacia

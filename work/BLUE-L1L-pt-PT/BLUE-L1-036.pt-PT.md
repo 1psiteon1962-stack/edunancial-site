@@ -144,7 +144,7 @@ TRILHAS RELACIONADAS: ORANGE (Vendas e Marketing) — o posicionamento competiti
 
 ## Leituras complementares
 - BLUE-L1-035 — O que é retenção de clientes?
-- BLUE-L1-037 — O que é estudo de mercado, e como fazê-la sem um grande orçamento?
+- BLUE-L1-037 — O que é um estudo de mercado, e como fazê-lo sem um grande orçamento?
 
 ## Trilha da lição
 `BLUE-L1-036-LOCALIZATION` (bloco de trilha)

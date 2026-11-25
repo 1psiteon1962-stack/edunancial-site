@@ -144,7 +144,7 @@ VERWANTE LEERLIJNEN: ORANGE (Verkoop & marketing) — de methodiek van marktonde
 
 ## Verder lezen
 - BLUE-L1-031 — Wat is een doelmarkt?
-- BLUE-L1-038 — Groeien als zzp'er of als bedrijfseigenaar: waarom ze tegen verschillende plafonds aanlopen
+- BLUE-L1-038 — Groeien als zelfstandige of als bedrijfseigenaar: waarom ze tegen verschillende plafonds aanlopen
 
 ## Lesroute
 `BLUE-L1-037-LOCALIZATION` (routeblok)
