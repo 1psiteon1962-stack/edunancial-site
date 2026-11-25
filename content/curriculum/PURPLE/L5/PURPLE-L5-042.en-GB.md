@@ -6,7 +6,7 @@ level: 5
 lessonNumber: 42
 locale: en-GB
 title: "Building Your Professional Team: Lawyers, CPAs, and Advisors"
-summary: "Learn how to assemble and coordinate a team of legal, tax, financial, and insurance professionals so that advice across colors works together instead of in conflict."
+summary: "Learn how to assemble and coordinate a team of legal, tax, financial, and insurance professionals so that advice across colours works together instead of in conflict."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-19"
@@ -16,7 +16,7 @@ Folder: PURPLE/L5
 Title: Building Your Professional Team: Lawyers, CPAs, and Advisors
 Lesson ID: PURPLE-L5-042
 Author: Waldemar M. Caban, JD MA
-Meta Description: Learn how to assemble and coordinate a team of legal, tax, financial, and insurance professionals so that advice across colors works together instead of in conflict.
+Meta Description: Learn how to assemble and coordinate a team of legal, tax, financial, and insurance professionals so that advice across colours works together instead of in conflict.
 SEO Keywords: professional advisory team, working with lawyers and CPAs, business advisors, coordinating advice
 Slug: building-your-professional-team-lawyers-cpas-and-advisors
 
@@ -25,7 +25,7 @@ Slug: building-your-professional-team-lawyers-cpas-and-advisors
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: When interest rates rise sharply, a business owner must decide whether to refinance, restructure debt, or sell a property. Ask across colors: Has the lawyer (PURPLE) talked to the CPA (GREEN)? Does the lender (BLUE) know about the planned restructuring? Is the financial planner (WHITE) aware of the tax consequences?
+Apply it here: When interest rates rise sharply, a business owner must decide whether to refinance, restructure debt, or sell a property. Ask across colours: Has the lawyer (PURPLE) talked to the CPA (GREEN)? Does the lender (BLUE) know about the planned restructuring? Is the financial planner (WHITE) aware of the tax consequences?
 
 ## Learning Objectives
 - Identify the key professionals in an advisory team
@@ -35,7 +35,7 @@ Apply it here: When interest rates rise sharply, a business owner must decide wh
 ## Core Content
 The curriculum repeats a principle from earlier levels: business is a team sport. The myth of the solo founder who does everything alone is inaccurate. Seeking expert help is competence, not weakness.
 
-At Level 5, decisions span several colors at once. That means advice must also span several professions, and those professionals must coordinate.
+At Level 5, decisions span several colours at once. That means advice must also span several professions, and those professionals must coordinate.
 
 A typical advisory team:
 - Attorney (PURPLE): Entity structure, contracts, estate planning, disputes. Often several specialists over time: business, real estate, estate, employment, IP.
@@ -53,7 +53,7 @@ Why coordination matters:
 Being an informed client:
 - Bring clear questions and organised documents.
 - Share the full picture, including goals and concerns.
-- Ask each advisor how their recommendation affects the other colors.
+- Ask each advisor how their recommendation affects the other colours.
 - Hold occasional joint meetings on major decisions.
 - Understand how each professional is paid and any conflicts of interest.
 
@@ -86,10 +86,10 @@ D) Seeking expert help is competence, and success rarely comes from working alon
 A) To raise fees
 B) They enjoy meetings
 C) It is legally required
-D) Decisions span several colors, and one advisor's recommendation can conflict with another's
+D) Decisions span several colours, and one advisor's recommendation can conflict with another's
 
 **Q3. What is one way to be an informed client?**
-A) Ask each advisor how their recommendation affects the other colors
+A) Ask each advisor how their recommendation affects the other colours
 B) Hide information from advisors
 C) Use only one advisor for everything
 D) Never ask about fees
@@ -127,5 +127,5 @@ Q5: A
 ## Key Takeaways
 - Business is a team sport; expert help is competence
 - Level 5 decisions need coordinated advice across professions
-- Ask each advisor how their advice affects other colors
+- Ask each advisor how their advice affects other colours
 - Joint meetings on major decisions prevent costly conflicts

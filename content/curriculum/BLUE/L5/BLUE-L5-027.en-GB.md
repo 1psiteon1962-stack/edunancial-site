@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This dependency on a business's own specific, individual purpose, rather than a universal answer, is precisely why no single choice is universally correct between hedged and unhedged multi-currency revenue exposure.
 
-**Q5.** This direct illustration of orchestrating a specific, individual business purpose toward an appropriate hedging decision exemplifies precisely why this lesson emphasises this personalized approach.
+**Q5.** This direct illustration of orchestrating a specific, individual business purpose toward an appropriate hedging decision exemplifies precisely why this lesson emphasises this personalised approach.
 
 ## Key Takeaways
 - Hedging a business's multi-currency revenue exposure reduces genuine currency risk by offsetting exchange rate effects on home-currency revenue.

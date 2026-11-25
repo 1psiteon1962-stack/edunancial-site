@@ -176,7 +176,7 @@ Notas de enseñanza para la IA: Toda esta lección es propia de EE. UU.: señál
 
 ## Bloque de localización
 `BLUE-L1-021-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 Nota: Esta versión añade una nota de localización que indica que se trata de un sistema propio de EE. UU. y menciona el equivalente español (NIF), en lugar de traducir de forma literal.
 
 ## Bloque de referencias y verificación

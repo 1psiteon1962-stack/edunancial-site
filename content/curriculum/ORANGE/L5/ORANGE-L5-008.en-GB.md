@@ -28,7 +28,7 @@ ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a
 Apply it here: As a credit market corrects, a lender's sales team keeps being paid for loan volume even as defaults rise. Ask across colours: What behaviour does the pay plan reward (ORANGE/BLACK)? Are the salespeople employees or contractors (PURPLE)? How are commissions taxed and when are they owed (GREEN)? Can the company afford the plan if sales slow (BLUE)?
 
 ## Learning Objectives
-- Design compensation that rewards the right behaviors
+- Design compensation that rewards the right behaviours
 - Connect compensation design to tax and classification rules
 - Align sales pay with cash flow and long-term customer value
 

@@ -24,7 +24,7 @@ Slug: kiddie-tax-analysis-why-a-childs-investment-income-can-be-taxed-at-a-paren
 # Kiddie Tax Analysis: Why a Child's Investment Income Can Be Taxed at a Parent's Rate
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom in asset values leads some parents to consider shifting investment assets into a child's name specifically to take advantage of the child's presumably lower tax bracket, they discover a specific tax rule designed to substantially limit the effectiveness of exactly this kind of strategy. This lesson examines that rule and the tax policy concern it addresses.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom in asset values leads some parents to consider shifting investment assets into a child's name specifically to take advantage of the child's presumably lower tax bracket, they discover a specific tax rule designed to substantially limit the effectiveness of exactly this kind of strategy. This lesson examines that rule and the tax policy concern it addresses.
 
 ## Learning Objectives
 - Explain the basic income-shifting strategy the 'kiddie tax' rule is designed to address.

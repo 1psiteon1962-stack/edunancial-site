@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define dollar-cost averaging in plain terms.
 - Explain how it interacts with price volatility.
-- Recognize it as a strategy, not a guarantee of profit.
+- Recognise it as a strategy, not a guarantee of profit.
 
 ## Core Content
 

@@ -24,7 +24,7 @@ Slug: anchoring-in-price-presentation-analysis-why-the-order-and-framing-of-pric
 # Anchoring in Price Presentation Analysis: Why the Order and Framing of Prices Shapes Perceived Value
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and price-sensitive buyers scrutinise every price more carefully, businesses discover that the exact same price for the exact same product can feel expensive or reasonable depending entirely on what other price it is shown alongside, connecting directly to the GOLD-L4 track's anchoring bias discussion.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and price-sensitive buyers scrutinise every price more carefully, businesses discover that the exact same price for the exact same product can feel expensive or reasonable depending entirely on what other price it is shown alongside, connecting directly to the GOLD-L4 track's anchoring bias discussion.
 
 ## Learning Objectives
 - Apply the GOLD-L4 track's anchoring bias discussion specifically to how a price is initially presented to a prospective buyer.

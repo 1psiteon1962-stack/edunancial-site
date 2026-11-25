@@ -25,7 +25,7 @@ Slug: the-operating-agreement-as-a-risk-allocation-map
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once.
 
-Apply it here: A long shipping shutdown cuts a small business's revenue in half. One partner wants to put in more money. The other cannot. Ask across colors: Does the agreement (PURPLE) require extra contributions? If one partner funds the gap, does their ownership share (BLUE) grow? Who decides whether to cut staff (BLACK)?
+Apply it here: A long shipping shutdown cuts a small business's revenue in half. One partner wants to put in more money. The other cannot. Ask across colours: Does the agreement (PURPLE) require extra contributions? If one partner funds the gap, does their ownership share (BLUE) grow? Who decides whether to cut staff (BLACK)?
 
 ## Learning Objectives
 - Identify the key risk-allocation clauses in an operating agreement
@@ -35,7 +35,7 @@ Apply it here: A long shipping shutdown cuts a small business's revenue in half.
 ## Core Content
 At Level 2, you learned what contracts do. At Level 4, you analysed partnership conflicts. At Level 5, you read an operating agreement (for an LLC) or partnership agreement as a map of who carries which risk when things go wrong.
 
-The key clauses coordinate several colors:
+The key clauses coordinate several colours:
 1. Capital contributions and capital calls (BLUE + PURPLE): What did each partner put in? Can the company demand more later? What happens to a partner who cannot pay?
 2. Distributions and waterfall (BLUE + GREEN): Who gets paid first? Is there a preferred return for investors before profits are split? Are distributions required to cover each partner's tax bill on pass-through income?
 3. Voting and management (BLACK + PURPLE): Which decisions need a simple majority, which need everyone, and who runs daily operations?

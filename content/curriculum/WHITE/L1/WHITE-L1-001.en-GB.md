@@ -65,7 +65,7 @@ That value rises or falls as the company's prospects change.
 3. Why is selling a share of stock typically much faster than selling a
    house?
    A. Stocks are illegal to hold long-term
-   B. Shares are small, standardized units that don't require finding
+   B. Shares are small, standardised units that don't require finding
       one specific matched buyer
    C. Houses are more valuable
    D. There is no real difference in speed
@@ -90,7 +90,7 @@ the paper or record itself.
 
 ### Question 3
 
-Correct answer: B. Standardized small units without needing a
+Correct answer: B. Standardised small units without needing a
 one-of-a-kind matched buyer is what makes stock sales faster.
 
 ## Key Takeaways

@@ -35,7 +35,7 @@ If you left your role tomorrow, how quickly and smoothly could the organisation 
 
 ## Worked Example
 
-[ILLUSTRATIVE EXAMPLE] A leader who has spent years building documented systems, actively developing potential successors, and distributing critical knowledge across the team discovers that when they eventually do step back — for a planned transition, an extended leave, or simply to focus on a new opportunity — the organisation continues operating smoothly. [ASSUMPTION] Rather than this replaceability threatening their position or value, it reflects the fulfillment of the delegation, succession planning, and key person risk reduction principles covered throughout this track, and paradoxically increases this leader's actual value and options, since they're no longer the bottleneck constraining what the organisation can pursue.
+[ILLUSTRATIVE EXAMPLE] A leader who has spent years building documented systems, actively developing potential successors, and distributing critical knowledge across the team discovers that when they eventually do step back — for a planned transition, an extended leave, or simply to focus on a new opportunity — the organisation continues operating smoothly. [ASSUMPTION] Rather than this replaceability threatening their position or value, it reflects the fulfilment of the delegation, succession planning, and key person risk reduction principles covered throughout this track, and paradoxically increases this leader's actual value and options, since they're no longer the bottleneck constraining what the organisation can pursue.
 
 ## Practice Quiz
 

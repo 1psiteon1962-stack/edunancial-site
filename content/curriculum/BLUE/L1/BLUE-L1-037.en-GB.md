@@ -65,7 +65,7 @@ Looking at how people currently solve the problem a business hopes to address �
 - **Pilot:** A small-scale test of a product or service offered to a limited group before a full launch.
 
 ## Worked Examples
-[ILLUSTRATIVE EXAMPLE] Before fully launching a meal-prep delivery service, an entrepreneur offers a small trial to 10 neighbors at a modest price, observing whether they actually pay and reorder — real behaviour, gathered at minimal cost, rather than guessing based on assumptions alone.
+[ILLUSTRATIVE EXAMPLE] Before fully launching a meal-prep delivery service, an entrepreneur offers a small trial to 10 neighbours at a modest price, observing whether they actually pay and reorder — real behaviour, gathered at minimal cost, rather than guessing based on assumptions alone.
 
 ## Common Mistakes
 - Assuming market research requires an expensive formal study to be valid
@@ -174,7 +174,7 @@ FAQ Schema Questions: "Is it okay to skip market research entirely?"; "What's th
 ## AI Support Block
 `BLUE-L1-037-AI`
 AI Summary: Defines market research and surveys three low-cost methods (direct conversations, behaviour observation, small-scale pilot testing) accessible to new businesses without a big budget.
-AI Teaching Notes: Emphasize real behaviour/payment testing over hypothetical stated interest as the most reliable signal.
+AI Teaching Notes: Emphasise real behaviour/payment testing over hypothetical stated interest as the most reliable signal.
 
 ## Localization Block
 `BLUE-L1-037-LOCALIZATION`
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-037-REFERENCES`
-No statistics or external citations used. All examples labeled ILLUSTRATIVE EXAMPLE.
+No statistics or external citations used. All examples labelled ILLUSTRATIVE EXAMPLE.

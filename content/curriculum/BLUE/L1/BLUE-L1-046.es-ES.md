@@ -177,7 +177,7 @@ Notas de enseñanza para la IA: Esta lección es introductoria a propósito; no 
 
 ## Bloque de localización
 `BLUE-L1-046-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-046-REFERENCES`

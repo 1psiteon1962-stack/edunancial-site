@@ -39,7 +39,7 @@ Licensing: The owner grants permission to use IP (brand, recipes, designs) under
 
 Franchising: The franchisor provides a complete business system: brand, operating methods, training, supplier relationships, marketing support, and ongoing assistance. Franchisees pay initial fees and ongoing royalties and follow the system.
 
-REGION-SPECIFIC RULE: Many jurisdictions regulate franchising, requiring detailed disclosure documents before sale, registration, waiting periods, or specific contract terms. Some arrangements called "licenses" may legally count as franchises if they include enough control and support. For UK readers: the UK has no franchise-specific law or mandatory disclosure document, although the British Franchise Association sets a voluntary code of ethics and general contract and consumer law still apply, so ask a franchise solicitor to review the agreement.
+REGION-SPECIFIC RULE: Many jurisdictions regulate franchising, requiring detailed disclosure documents before sale, registration, waiting periods, or specific contract terms. Some arrangements called "licences" may legally count as franchises if they include enough control and support. For UK readers: the UK has no franchise-specific law or mandatory disclosure document, although the British Franchise Association sets a voluntary code of ethics and general contract and consumer law still apply, so ask a franchise solicitor to review the agreement.
 
 Comparing the models:
 - Speed: Both can grow faster than company-owned expansion.
@@ -60,7 +60,7 @@ ASSUMPTION/OPINION: The system must work reliably before it is sold to others. F
 ## Worked Example
 ILLUSTRATIVE EXAMPLE: Mateo owns 8 successful bakeries. His home currency has fallen sharply. Operators in two stronger-currency countries want to open bakeries under his brand.
 
-Option 1: License the brand and recipes only. Faster, simpler, but little control over quality.
+Option 1: Licence the brand and recipes only. Faster, simpler, but little control over quality.
 Option 2: Franchise the full system.
 
 Mateo chooses franchising because quality consistency is central to his brand. His preparation:

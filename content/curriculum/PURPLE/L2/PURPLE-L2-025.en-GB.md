@@ -60,5 +60,5 @@ Rather than selling her patented technology outright, an inventor licenses it to
 **7. Key Takeaways**
 - A licensing agreement grants specific, defined rights to use intellectual property while the licensor retains ownership.
 - This differs from an outright sale or assignment, which transfers ownership entirely.
-- Licenses can be exclusive or non-exclusive and limited by geography, field of use, or duration.
+- Licences can be exclusive or non-exclusive and limited by geography, field of use, or duration.
 - This builds directly on the BLUE-track licensing discussion, examining the underlying legal instrument in more depth.

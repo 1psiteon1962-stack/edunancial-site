@@ -36,14 +36,14 @@ PRINCIPLE: Entering a new country combines almost every track in the curriculum.
 
 Start with demand. Interest from website visitors is a signal, not proof. Leaders test demand with small, low-cost experiments before committing large resources.
 
-Legal and tax requirements vary by country. Some countries require local registration, collect sales or value-added taxes on digital services, restrict how payments can be processed, or limit business with certain jurisdictions. Some countries may be off-limits entirely because of sanctions or other legal restrictions. Professional advice is necessary, and a leader should expect requirements to differ even between neighboring countries.
+Legal and tax requirements vary by country. Some countries require local registration, collect sales or value-added taxes on digital services, restrict how payments can be processed, or limit business with certain jurisdictions. Some countries may be off-limits entirely because of sanctions or other legal restrictions. Professional advice is necessary, and a leader should expect requirements to differ even between neighbouring countries.
 
 Currency and pricing require care. Charging the same dollar price everywhere can make a product unaffordable in countries with lower incomes, while converting prices daily at exchange rates creates confusing, unstable prices. Many companies use a pricing approach that considers local purchasing power and rounds to clean local prices, reviewed periodically. Leaders must also confirm that their payment provider can actually charge in the currencies displayed.
 
 Cultural leadership matters once a team exists. Communication styles, attitudes toward hierarchy, holidays, and expectations about feedback differ. Leaders who adapt their style while keeping core values consistent build stronger regional teams.
 
 ## Worked Example
-ILLUSTRATIVE EXAMPLE: The education company launches first in one country where it has a trusted local contact. It confirms local tax and payment rules with an adviser, adjusts prices to local purchasing power, and translates the most popular lessons into the local variety of Spanish rather than a generic translation. A local tester reviews the experience from inside the country, catching that the site initially showed the wrong language variety. Only after paid sign-ups reach a target does the company hire a regional coordinator and expand to neighboring countries, repeating the same checklist for each.
+ILLUSTRATIVE EXAMPLE: The education company launches first in one country where it has a trusted local contact. It confirms local tax and payment rules with an adviser, adjusts prices to local purchasing power, and translates the most popular lessons into the local variety of Spanish rather than a generic translation. A local tester reviews the experience from inside the country, catching that the site initially showed the wrong language variety. Only after paid sign-ups reach a target does the company hire a regional coordinator and expand to neighbouring countries, repeating the same checklist for each.
 
 ## Practice Quiz
 **Q1. Why is website interest from a country not enough to justify entering it?**

@@ -83,7 +83,7 @@ A: [OPINION] Even without a liability-protection reason (since sole proprietorsh
 - A business bank account keeps business income and expenses separate from personal finances
 - This provides bookkeeping clarity beyond just convenience
 - For LLCs and corporations, it also helps preserve liability protection by avoiding commingling
-- Even sole proprietors benefit from the organizational and professional advantages
+- Even sole proprietors benefit from the organisational and professional advantages
 
 ## Practical Exercise
 Explain, referencing BLUE-L1-004, why commingling funds could specifically undermine an LLC's liability protection.
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-022-REFERENCES`
-No statistics or external citations used. Legal requirement claims labeled REGION-SPECIFIC RULE.
+No statistics or external citations used. Legal requirement claims labelled REGION-SPECIFIC RULE.

@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Calculate a basic ROI given a gain and a cost.
 - Explain what ROI is actually measuring.
-- Recognize ROI as a cross-box concept, and identify one limitation.
+- Recognise ROI as a cross-box concept, and identify one limitation.
 
 ## Core Content
 

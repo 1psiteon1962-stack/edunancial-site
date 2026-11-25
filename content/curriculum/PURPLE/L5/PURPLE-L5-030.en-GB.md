@@ -25,7 +25,7 @@ Slug: licensing-and-royalties-as-an-income-stream
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized economy's currency losing a large share of its value against major reserve currencies over a few months, driven by capital fleeing the country and eroding investor confidence.
 
-Apply it here: A company's home currency falls sharply. It holds valuable content and designs. Ask across colors: Could licensing that IP to partners in other countries (PURPLE/ORANGE) bring in income in stronger currencies (WHITE)? How should royalties be calculated and paid? How are cross-border royalties taxed (GREEN)?
+Apply it here: A company's home currency falls sharply. It holds valuable content and designs. Ask across colours: Could licensing that IP to partners in other countries (PURPLE/ORANGE) bring in income in stronger currencies (WHITE)? How should royalties be calculated and paid? How are cross-border royalties taxed (GREEN)?
 
 ## Learning Objectives
 - Explain how licensing creates income while keeping ownership
@@ -45,9 +45,9 @@ Key licence terms:
 - Quality control: Especially for trademarks. REGION-SPECIFIC RULE: In some systems, licensing a trademark without controlling quality can weaken the owner's rights.
 - Currency and payment: Which currency royalties are paid in, and how exchange rates are applied. For UK readers: commercial agents may be entitled to compensation or an indemnity when an agency ends under the Commercial Agents Regulations, while distributors generally are not, so a solicitor should review the contract before you end it.
 
-How colors connect:
+How colours connect:
 - ORANGE: Licensing expands a brand's reach without building new sales teams in every market.
-- BLUE: License income can be steady and high-margin, but it depends on the licensee's performance.
+- BLUE: Licence income can be steady and high-margin, but it depends on the licensee's performance.
 - WHITE: Royalties paid in stronger currencies can diversify a company's income, as in the scenario.
 - GREEN: REGION-SPECIFIC RULE: Cross-border royalties may face withholding taxes, and tax treaties may reduce them. IP held in one company and licensed to another related company must usually be priced at arm's length.
 - PURPLE: A weak licence can let a licensee damage the brand or underreport sales.

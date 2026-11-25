@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This dependency on an entrepreneur's own specific, individual circumstances, rather than a universal answer, is precisely why no single option is universally superior among these three.
 
-**Q5.** This direct illustration of orchestrating personal skill, priorities, and existing portfolio composition toward a specific, individually appropriate choice exemplifies precisely why this lesson emphasises personalized orchestration among these three options.
+**Q5.** This direct illustration of orchestrating personal skill, priorities, and existing portfolio composition toward a specific, individually appropriate choice exemplifies precisely why this lesson emphasises personalised orchestration among these three options.
 
 ## Key Takeaways
 - Direct business ownership generally provides the greatest genuine operational control among business ownership, real estate, and paper assets, extending the earlier control spectrum discussions.

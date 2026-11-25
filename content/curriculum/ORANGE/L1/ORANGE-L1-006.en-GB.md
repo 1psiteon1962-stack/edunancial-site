@@ -35,7 +35,7 @@ Two entrepreneurs each start a lawn care business.
 
 Entrepreneur A spends heavily on flyers and social ads, generating fifty phone calls a month. But A never calls anyone back promptly, and most calls go to voicemail. A wonders why business isn't growing despite "great marketing."
 
-Entrepreneur B is a phenomenal salesperson — anyone who talks to B signs up. But B relies entirely on word of mouth and door-knocking, with no consistent way to reach new neighborhoods. B tops out at the same twenty customers for over a year.
+Entrepreneur B is a phenomenal salesperson — anyone who talks to B signs up. But B relies entirely on word of mouth and door-knocking, with no consistent way to reach new neighbourhoods. B tops out at the same twenty customers for over a year.
 
 Entrepreneur C does both: runs a small consistent flyer campaign (marketing) and calls every lead back within an hour (sales). C's business grows steadily because the two functions are working together instead of one carrying the whole load.
 

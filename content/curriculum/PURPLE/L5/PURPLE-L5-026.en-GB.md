@@ -25,7 +25,7 @@ Slug: commercial-lease-clauses-that-shape-business-value
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once.
 
-Apply it here: A long disruption closes a restaurant for months. Ask across colors: Does the lease (PURPLE) excuse rent during a forced closure? Can the owner sell the business (BLUE) if the lease cannot be assigned to a buyer? Who owns the kitchen equipment installed in the building (RED)?
+Apply it here: A long disruption closes a restaurant for months. Ask across colours: Does the lease (PURPLE) excuse rent during a forced closure? Can the owner sell the business (BLUE) if the lease cannot be assigned to a buyer? Who owns the kitchen equipment installed in the building (RED)?
 
 ## Learning Objectives
 - Identify commercial lease clauses that affect business value
@@ -46,7 +46,7 @@ Key clauses:
 - Personal guarantee: Often required for small businesses (see PURPLE-L5-009).
 - Force majeure and rent abatement: Whether rent is reduced or paused during certain events. Many leases do not excuse rent at all. For UK readers: capital allowances may be available on certain fixtures and improvements, and a landlord's contribution to a tenant's fit-out can have tax consequences for both sides, so check the treatment with an accountant.
 
-How colors connect:
+How colours connect:
 - BLUE: Lease length and assignability directly affect business sale value.
 - RED: The landlord's financing and property value depend on reliable tenants, which affects how much they will negotiate.
 - GREEN: REGION-SPECIFIC RULE: Tenant improvement costs and allowances have tax treatment.

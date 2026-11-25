@@ -25,10 +25,10 @@ Slug: completing-the-chess-analogy-law-as-the-rules-that-make-coordinated-play-p
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once.
 
-Apply it here: Return to the scenario of a long, widespread disruption. A family with a business, rental properties, investments, and heirs must respond. Ask across colors: Which legal structures (PURPLE) keep the business running, protect the properties (RED), guide investments (WHITE/GOLD), manage taxes (GREEN), support leaders (BLACK), protect the brand (ORANGE), and preserve the family's future (STEWARD)? This is the whole board at once.
+Apply it here: Return to the scenario of a long, widespread disruption. A family with a business, rental properties, investments, and heirs must respond. Ask across colours: Which legal structures (PURPLE) keep the business running, protect the properties (RED), guide investments (WHITE/GOLD), manage taxes (GREEN), support leaders (BLACK), protect the brand (ORANGE), and preserve the family's future (STEWARD)? This is the whole board at once.
 
 ## Learning Objectives
-- Summarise how PURPLE coordinates all eight colors
+- Summarise how PURPLE coordinates all eight colours
 - Explain how decisive action and careful orchestration work together
 - Build a personal legal orchestration checklist
 
@@ -74,7 +74,7 @@ ASSUMPTION/OPINION: No single document saved the Ruiz family. The legal board, s
 ## Practice Quiz
 **Q1. What special role does law play on the chess board at Level 5?**
 A) It is the weakest piece
-B) It replaces all other colors
+B) It replaces all other colours
 C) It defines the rules that make coordinated play possible
 D) It only matters in court
 

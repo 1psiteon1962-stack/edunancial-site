@@ -56,7 +56,7 @@ salary may have barely grown at all, or even declined.
    A. The raw number on an account
    B. What money can actually buy, adjusted for inflation
    C. A type of dividend
-   D. A company's market capitalization
+   D. A company's market capitalisation
 
 2. True or False: Comparing raw dollar amounts across different decades
    always gives an accurate picture of financial progress.

@@ -178,7 +178,7 @@ Notas de enseñanza para la IA: Aquí se aplican pruebas fiscales y legales prop
 
 ## Bloque de localización
 `BLUE-L1-048-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 Nota: Las distinciones fiscales entre pasatiempo y negocio varían mucho según la jurisdicción; marcar para REVISIÓN DE LOCALIZACIÓN en cada región.
 
 ## Bloque de referencias y verificación

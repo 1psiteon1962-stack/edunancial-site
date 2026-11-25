@@ -62,7 +62,7 @@ pushing the price upward until a new balance is reached.
    A. Company earnings news
    B. The stock's ticker symbol
    C. The company's founding date
-   D. The color of the company logo
+   D. The colour of the company logo
 
 ## Answer Key
 

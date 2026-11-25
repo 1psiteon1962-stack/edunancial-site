@@ -30,7 +30,7 @@ This isn't about reducing every decision to a cold calculation — some investme
 
 ## Worked Example
 
-A leader spends an entire afternoon perfecting the formatting of an internal memo that only a few people will read once, while a genuine, ongoing bottleneck in the fulfillment process continues to cost the business real money and customer satisfaction. Applying ROI thinking would redirect that afternoon toward the fulfillment bottleneck instead — a much higher expected return on the same amount of invested time and energy.
+A leader spends an entire afternoon perfecting the formatting of an internal memo that only a few people will read once, while a genuine, ongoing bottleneck in the fulfilment process continues to cost the business real money and customer satisfaction. Applying ROI thinking would redirect that afternoon toward the fulfilment bottleneck instead — a much higher expected return on the same amount of invested time and energy.
 
 ## Practice Quiz
 
@@ -43,7 +43,7 @@ A leader spends an entire afternoon perfecting the formatting of an internal mem
 1. Weighing what's being invested against the expected return, applied broadly to time and energy, not just money.
 2. What's the expected return here, and is it proportional to what's being invested?
 3. No — some investments have real but harder-to-quantify returns, like relationship-building or culture.
-4. Redirecting the afternoon from memo formatting toward the higher-value fulfillment bottleneck.
+4. Redirecting the afternoon from memo formatting toward the higher-value fulfilment bottleneck.
 
 ## Answers and Explanations
 1. This broadens the traditional financial ROI concept to general leadership decision-making.

@@ -24,7 +24,7 @@ Slug: franchise-economics-analysis-why-buying-a-franchise-trades-independence-fo
 # Franchise Economics Analysis: Why Buying a Franchise Trades Independence for a Tested System
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled economic boom encourages many people to consider starting a business for the first time, some choose to buy into an established franchise system rather than build something entirely from scratch. This lesson examines the specific economic tradeoffs involved in that choice.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled economic boom encourages many people to consider starting a business for the first time, some choose to buy into an established franchise system rather than build something entirely from scratch. This lesson examines the specific economic tradeoffs involved in that choice.
 
 ## Learning Objectives
 - Explain the basic economic structure of a franchise arrangement, including common fee types.

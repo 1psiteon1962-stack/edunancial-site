@@ -25,7 +25,7 @@ Slug: holding-company-and-operating-company-structures
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: In a sharp credit correction, customers default and lawsuits rise. Ask across colors: If a business owns its building (RED) and its brand (PURPLE/ORANGE) inside the same company that signs customer contracts (BLUE), what happens to those assets if one big claim comes in? What if they sat in a separate holding company instead?
+Apply it here: In a sharp credit correction, customers default and lawsuits rise. Ask across colours: If a business owns its building (RED) and its brand (PURPLE/ORANGE) inside the same company that signs customer contracts (BLUE), what happens to those assets if one big claim comes in? What if they sat in a separate holding company instead?
 
 ## Learning Objectives
 - Explain the logic of separating operating risk from valuable assets
@@ -40,7 +40,7 @@ A common Level 5 structure separates two things: the business that does the risk
 
 VERIFIED FACT: In many legal systems, creditors of one company generally cannot reach the assets of a separate, properly maintained company just because both have the same owner. That is the core idea behind this structure.
 
-Why does this coordinate several colors?
+Why does this coordinate several colours?
 - RED: The building sits in the holdco and is leased to the opco at a market rent.
 - PURPLE: A lease agreement and possibly an IP licence agreement must be written and actually followed.
 - GREEN: Rent and licence fees move money between entities, which has tax consequences. REGION-SPECIFIC RULE: Some jurisdictions have rules about related-party pricing, consolidated returns, or how dividends between related companies are taxed.
@@ -107,7 +107,7 @@ Q5: B
 ## Answers and Explanations
 **Q1.** The opco does the risky daily work while the holdco keeps valuable assets separate.
 
-**Q2.** Leases and licenses keep the relationship documented and at arm's length.
+**Q2.** Leases and licences keep the relationship documented and at arm's length.
 
 **Q3.** Ignoring formalities can let a court treat the companies as one.
 
@@ -117,6 +117,6 @@ Q5: B
 
 ## Key Takeaways
 - Separate daily business risk from long-term valuable assets
-- Leases and licenses between entities must be written and actually followed
+- Leases and licences between entities must be written and actually followed
 - Related-party payments carry REGION-SPECIFIC tax consequences
 - Structure is a second layer of protection; insurance is usually the first

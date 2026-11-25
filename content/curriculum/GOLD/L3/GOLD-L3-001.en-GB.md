@@ -29,7 +29,7 @@ By the end of this lesson, you will be able to:
 
 A foundational principle running through this entire GOLD track: risk and potential return are generally linked, not independent variables an investor can freely optimise separately. Here's the "why" behind this relationship: investments carrying greater uncertainty about their outcome — greater risk — generally need to offer greater potential return to attract capital at all, since investors require compensation for bearing that additional uncertainty. An investment offering high potential return with very little actual risk would, in a reasonably functioning market, attract so much capital seeking that favourable combination that its price would typically rise until the excess return largely disappeared.
 
-[VERIFIED FACT] This is why claims of high return with minimal risk should be treated with particular skepticism — either the risk is being understated or misunderstood, or something else about the situation doesn't fit the normal pattern this relationship describes. This doesn't mean every risky investment automatically delivers high returns — many risky investments simply lose money — but it does mean that genuinely low-risk opportunities rarely offer outsized returns for a sustained period.
+[VERIFIED FACT] This is why claims of high return with minimal risk should be treated with particular scepticism — either the risk is being understated or misunderstood, or something else about the situation doesn't fit the normal pattern this relationship describes. This doesn't mean every risky investment automatically delivers high returns — many risky investments simply lose money — but it does mean that genuinely low-risk opportunities rarely offer outsized returns for a sustained period.
 
 This principle underlies why evaluating an investment's return in isolation, without asking what risk was taken on to generate it, gives an incomplete and potentially misleading picture — a topic developed further throughout this track.
 
@@ -57,7 +57,7 @@ This principle underlies why evaluating an investment's return in isolation, wit
 
 ## Key Takeaways
 - Risk and potential return are generally linked, not independently optimizable variables.
-- Claims of high return with minimal risk should be treated with particular skepticism.
+- Claims of high return with minimal risk should be treated with particular scepticism.
 - This relationship describes required compensation for risk-bearing, not a guarantee that taking risk produces high returns.
 
 ## Educational Disclaimer

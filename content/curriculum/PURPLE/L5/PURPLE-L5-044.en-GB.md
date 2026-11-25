@@ -25,7 +25,7 @@ Slug: family-governance-constitutions-family-entities-and-stewardship
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized economy's currency losing a large share of its value against major reserve currencies over a few months, driven by capital fleeing the country and eroding investor confidence.
 
-Apply it here: A family holds rental properties and a business in a country whose currency is collapsing. Some family members want to sell and move money abroad; others want to hold. Ask across colors: Who has authority to decide (PURPLE/BLACK)? How are decisions made fairly? How do tax rules (GREEN) and asset types (RED/WHITE/GOLD) affect the options?
+Apply it here: A family holds rental properties and a business in a country whose currency is collapsing. Some family members want to sell and move money abroad; others want to hold. Ask across colours: Who has authority to decide (PURPLE/BLACK)? How are decisions made fairly? How do tax rules (GREEN) and asset types (RED/WHITE/GOLD) affect the options?
 
 ## Learning Objectives
 - Explain why families with shared assets need governance
@@ -45,7 +45,7 @@ Common tools:
 - Education programmes: Teaching younger family members about the family's assets, finances, and responsibilities, often before they receive significant wealth.
 - Conflict resolution rules: Agreed processes, such as mediation, for resolving disagreements. For UK readers: families often use a family investment company or a trust to hold assets, each with different tax and control consequences, and gifts can fall within Inheritance Tax for seven years, so take advice from a solicitor and an accountant.
 
-How colors connect:
+How colours connect:
 - PURPLE: Legal entities and trusts make governance enforceable.
 - BLACK: Family leadership, succession, and communication skills.
 - GREEN: REGION-SPECIFIC RULE: Family entities may affect how transfers between generations are valued and taxed.
@@ -59,7 +59,7 @@ ILLUSTRATIVE EXAMPLE: The Okafor family owns four rental buildings and a distrib
 Their governance steps, built with attorneys and advisors:
 - Family charter: States shared values (hard work, education, community responsibility) and long-term goals.
 - Family LLC: Holds the rental buildings. The operating agreement sets voting by ownership percentage, requires family member consent before selling shares outside the family, and names a professional property manager.
-- Family council: Meets twice a year. Adult grandchildren attend as observers from age 18 and as voting members after completing a financial education program.
+- Family council: Meets twice a year. Adult grandchildren attend as observers from age 18 and as voting members after completing a financial education programme.
 - Mediation clause: Disagreements go to a family mediator before any legal action.
 
 During the currency crisis, the family debates selling. The council reviews options with advisors, votes to sell one building and diversify part of the proceeds into foreign-currency assets, and keeps the rest.

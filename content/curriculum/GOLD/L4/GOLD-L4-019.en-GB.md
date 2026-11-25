@@ -24,7 +24,7 @@ Slug: time-weighted-vs-pound-weighted-return-analysis-why-two-legitimate-return-
 # Time-Weighted vs Dollar-Weighted Return Analysis: Why Two Legitimate Return Calculations Can Tell Very Different Stories
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and an investor who made several additional contributions and withdrawals at various points reviews their account's reported performance, they discover two different return figures presented to them, calculated using two genuinely different methods, and want to understand why these numbers differ and what each one actually measures. This lesson examines that important distinction.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and an investor who made several additional contributions and withdrawals at various points reviews their account's reported performance, they discover two different return figures presented to them, calculated using two genuinely different methods, and want to understand why these numbers differ and what each one actually measures. This lesson examines that important distinction.
 
 ## Learning Objectives
 - Explain what a time-weighted return measures and why it specifically neutralises the effect of an investor's own cash flow timing decisions.

@@ -6,7 +6,7 @@ level: 5
 lessonNumber: 21
 locale: en-GB
 title: "Data-Driven Marketing Within Privacy Limits"
-summary: "Learn how to use customer data to improve marketing—segmentation, personalization, and measurement—while respecting consent, privacy rules, and customer trust."
+summary: "Learn how to use customer data to improve marketing—segmentation, personalisation, and measurement—while respecting consent, privacy rules, and customer trust."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-19"
@@ -16,8 +16,8 @@ Folder: ORANGE/L5
 Title: Data-Driven Marketing Within Privacy Limits
 Lesson ID: ORANGE-L5-021
 Author: Waldemar M. Caban, JD MA
-Meta Description: Learn how to use customer data to improve marketing—segmentation, personalization, and measurement—while respecting consent, privacy rules, and customer trust.
-SEO Keywords: data-driven marketing, customer segmentation, marketing personalization privacy, first-party data, consent marketing
+Meta Description: Learn how to use customer data to improve marketing—segmentation, personalisation, and measurement—while respecting consent, privacy rules, and customer trust.
+SEO Keywords: data-driven marketing, customer segmentation, marketing personalisation privacy, first-party data, consent marketing
 Slug: data-driven-marketing-within-privacy-limits
 
 # Data-Driven Marketing Within Privacy Limits
@@ -42,7 +42,7 @@ Types of data:
 
 Uses:
 - Segmentation: Grouping customers by behaviour, needs, or value.
-- Personalization: Tailoring messages and offers.
+- Personalisation: Tailoring messages and offers.
 - Measurement: Tracking which campaigns bring customers and profit (ORANGE-L5-043).
 
 How colours connect:
@@ -54,7 +54,7 @@ How colours connect:
 
 The trend: Many businesses are shifting toward first-party data, built through direct relationships, value exchanges (useful content, loyalty programmes), and clear consent.
 
-ASSUMPTION/OPINION: Personalization can feel helpful or invasive depending on how it is done. A good test: would the customer be comfortable if they saw exactly how their data was used?
+ASSUMPTION/OPINION: Personalisation can feel helpful or invasive depending on how it is done. A good test: would the customer be comfortable if they saw exactly how their data was used?
 
 ## Worked Example
 ILLUSTRATIVE EXAMPLE: Farida runs an online plant shop. Much of her advertising relied on third-party tracking to target people who visited gardening websites.
@@ -62,10 +62,10 @@ ILLUSTRATIVE EXAMPLE: Farida runs an online plant shop. Much of her advertising 
 When tracking restrictions tighten, her ad costs rise and results become harder to measure.
 
 Her shift to first-party data:
-- Loyalty program: Customers join with clear consent, earning points and receiving care tips.
+- Loyalty programme: Customers join with clear consent, earning points and receiving care tips.
 - Quiz: "Which plant fits your home?" collects preferences customers choose to share.
 - Segmentation: She groups customers by plant type, experience level, and purchase frequency.
-- Personalization: Beginners receive care guides; experienced growers receive rare-plant alerts.
+- Personalisation: Beginners receive care guides; experienced growers receive rare-plant alerts.
 - Measurement: She tracks revenue by segment and campaign using her own sales data.
 - Privacy review: She updates her privacy notice, confirms consent practices, and adds easy preference controls. REGION-SPECIFIC RULE.
 
@@ -96,7 +96,7 @@ B) Buying lists
 C) Tracking competitors
 D) Hiding data collection
 
-**Q5. What test does the lesson suggest for personalization?**
+**Q5. What test does the lesson suggest for personalisation?**
 A) Is it cheap?
 B) Is it fast?
 C) Does it use the most data?
@@ -121,7 +121,7 @@ Q5: D
 **Q5.** Customer comfort is a guide to respectful use.
 
 ## Key Takeaways
-- Data improves segmentation, personalization, and measurement
+- Data improves segmentation, personalisation, and measurement
 - First-party data built with consent is the most durable
 - Privacy rules and tracking changes limit some data uses
 - Respectful data use builds trust and better marketing

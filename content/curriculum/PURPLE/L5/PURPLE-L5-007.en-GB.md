@@ -25,7 +25,7 @@ Slug: dilution-anti-dilution-and-protecting-founder-position
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a systemically important financial institution suddenly revealing a large, previously undisclosed loss, raising fears about counterparty risk rippling through the broader banking system.
 
-Apply it here: A major bank's hidden loss shakes investor confidence, and startup funding dries up. A company that raised money last year at a high valuation now has to raise again at a lower one. Ask across colors: Whose ownership shrinks most (BLUE)? What do the contract terms (PURPLE) say? How should the founder negotiate (ORANGE)?
+Apply it here: A major bank's hidden loss shakes investor confidence, and startup funding dries up. A company that raised money last year at a high valuation now has to raise again at a lower one. Ask across colours: Whose ownership shrinks most (BLUE)? What do the contract terms (PURPLE) say? How should the founder negotiate (ORANGE)?
 
 ## Learning Objectives
 - Calculate how new investment dilutes existing owners
@@ -41,7 +41,7 @@ Anti-dilution clauses protect investors if the company later sells shares at a l
 - Full ratchet: The earlier investor's price is reset all the way down to the new lower price, as if they had bought at that price originally. This can shift a large amount of ownership away from founders and employees.
 - Weighted average: The earlier investor's price is adjusted partway down, based on how much new money comes in and at what price. This is usually less harsh.
 
-This coordinates several colors:
+This coordinates several colours:
 - BLUE: How much money is truly needed, and could a smaller raise work?
 - PURPLE: Which anti-dilution formula is in the documents, and are there carve-outs (for example, shares issued to employees)?
 - ORANGE: Negotiating leverage. Founders with alternatives (a strong BATNA, from ORANGE-L4) get better terms.

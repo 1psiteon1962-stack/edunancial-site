@@ -21,7 +21,7 @@ date: "2026-08-09"
 
 ## Core Content
 
-Gold and silver are both precious metals with long histories as stores of value, but they behave differently as investments. VERIFIED FACT: Silver has industrial demand (used in electronics, solar panels, and other manufacturing) in addition to its investment demand, while gold's demand is driven much more heavily by investment and jewelry use relative to industrial use. This difference in demand sources is part of why silver has historically tended to be more volatile — its price can be more sensitive to swings in industrial demand and economic activity than gold's.
+Gold and silver are both precious metals with long histories as stores of value, but they behave differently as investments. VERIFIED FACT: Silver has industrial demand (used in electronics, solar panels, and other manufacturing) in addition to its investment demand, while gold's demand is driven much more heavily by investment and jewellery use relative to industrial use. This difference in demand sources is part of why silver has historically tended to be more volatile — its price can be more sensitive to swings in industrial demand and economic activity than gold's.
 
 Silver is also priced much lower per unit than gold, which means a given cash amount buys many more ounces of silver than grams of gold. This makes silver a common entry point for younger or smaller-budget investors — it's possible to start accumulating meaningful ounces with modest amounts of money, building the habit of consistent investing before scaling into a higher-priced asset like gold.
 
@@ -37,7 +37,7 @@ ILLUSTRATIVE EXAMPLE: In this track's ongoing case study, the son begins accumul
 4. In the case study, why did the son start with silver before adding gold?
 
 ## Answer Key
-1. Silver has significant industrial demand in addition to investment demand; gold's demand is driven more by investment and jewelry use.
+1. Silver has significant industrial demand in addition to investment demand; gold's demand is driven more by investment and jewellery use.
 2. Because its price can be more sensitive to swings in industrial and economic activity.
 3. Because its lower per-unit price allows meaningful accumulation with modest amounts of money.
 4. Silver's lower price let him start accumulating meaningful amounts early with modest money, building the habit before adding a higher-priced metal later.

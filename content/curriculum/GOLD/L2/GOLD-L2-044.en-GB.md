@@ -23,12 +23,12 @@ By the end of this lesson, the learner will be able to:
 - Connect this concept to WHITE-L2-027's time horizon discussion.
 
 **2. Core Content**
-Building directly on Lesson 43, this lesson applies the accumulation-growth-preservation framework specifically to risk-taking decisions. Generally, the accumulation phase's longer remaining time horizon (echoing WHITE-L2-027) provides more capacity to endure short-term volatility (WHITE-L2-026) in pursuit of higher long-term growth potential, while the preservation phase's shorter remaining horizon and reduced ability to recover from a significant setback before needing to rely on accumulated wealth generally favors a more conservative approach, prioritising capital preservation over continued aggressive growth-seeking.
+Building directly on Lesson 43, this lesson applies the accumulation-growth-preservation framework specifically to risk-taking decisions. Generally, the accumulation phase's longer remaining time horizon (echoing WHITE-L2-027) provides more capacity to endure short-term volatility (WHITE-L2-026) in pursuit of higher long-term growth potential, while the preservation phase's shorter remaining horizon and reduced ability to recover from a significant setback before needing to rely on accumulated wealth generally favours a more conservative approach, prioritising capital preservation over continued aggressive growth-seeking.
 
 This is not an absolute rule — individual risk tolerance and capacity (Lesson 8) still matter significantly within each phase, and some individuals reasonably maintain more aggressive positioning later into their timeline than this general pattern might suggest, or vice versa — but understanding this general relationship between wealth-building phase and appropriate risk level provides a useful starting framework for how risk-taking might reasonably evolve over an individual's overall wealth-building journey.
 
 **3. Worked Example**
-Comparing his own risk positioning across his career, a learner recognises that his early-career accumulation-phase strategy reasonably favored a more aggressive allocation, given his long remaining time horizon and capacity to endure short-term volatility. As he anticipates eventually approaching a preservation-phase stage later in life, he recognises his strategy will reasonably shift toward greater capital preservation, though he also recognises this general pattern should be adjusted based on his own specific, honestly assessed risk tolerance and capacity (echoing Lesson 8), not applied as a rigid, universal rule disconnected from his actual individual circumstances.
+Comparing his own risk positioning across his career, a learner recognises that his early-career accumulation-phase strategy reasonably favoured a more aggressive allocation, given his long remaining time horizon and capacity to endure short-term volatility. As he anticipates eventually approaching a preservation-phase stage later in life, he recognises his strategy will reasonably shift toward greater capital preservation, though he also recognises this general pattern should be adjusted based on his own specific, honestly assessed risk tolerance and capacity (echoing Lesson 8), not applied as a rigid, universal rule disconnected from his actual individual circumstances.
 
 **4. Practice Quiz**
 1. What does the accumulation phase's longer remaining time horizon generally provide, per this lesson?
@@ -59,7 +59,7 @@ Comparing his own risk positioning across his career, a learner recognises that 
 
 **7. Key Takeaways**
 - This lesson applies Lesson 43's timeline framework specifically to risk-taking decisions.
-- The accumulation phase's longer horizon generally supports more aggressive positioning; the preservation phase generally favors more conservative positioning.
+- The accumulation phase's longer horizon generally supports more aggressive positioning; the preservation phase generally favours more conservative positioning.
 - This is a general starting framework, not an absolute rule, since individual risk tolerance and capacity still matter significantly.
 - This connects directly to WHITE-L2-027's time horizon discussion, now applied across an individual's overall wealth-building journey.
 

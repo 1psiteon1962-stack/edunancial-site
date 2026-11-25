@@ -24,7 +24,7 @@ By the end of this lesson, you will be able to:
 
 Lesson 37 explained that investors often want to reinvest quickly after harvesting a tax loss, to maintain their market exposure. Many tax systems include a rule — often called a wash-sale rule — specifically designed to prevent a particular kind of tax-loss harvesting from being abused.
 
-Here's the "why" this rule exists: without it, an investor could sell an investment purely to realise a tax loss, then immediately buy back the exact same (or a substantially identical) investment, effectively maintaining the exact same position while still claiming a tax benefit — which many tax authorities consider an abuse of the loss-realization concept rather than a genuine change in investment position.
+Here's the "why" this rule exists: without it, an investor could sell an investment purely to realise a tax loss, then immediately buy back the exact same (or a substantially identical) investment, effectively maintaining the exact same position while still claiming a tax benefit — which many tax authorities consider an abuse of the loss-realisation concept rather than a genuine change in investment position.
 
 [VERIFIED FACT] The specific mechanics of a wash-sale-type rule — including the exact time window during which repurchasing the same or a substantially identical security disallows the loss, and how "substantially identical" is defined — vary by jurisdiction and are set by specific tax law, making this an area where current, jurisdiction-specific guidance matters, rather than general assumptions.
 
@@ -43,7 +43,7 @@ This is why tax-loss harvesting, as introduced in Lesson 37, typically involves 
 ## Answer Key
 
 1. An investor selling an investment purely to realise a tax loss and then immediately repurchasing the same or a substantially identical investment while still claiming the tax benefit.
-2. Because doing so would effectively maintain the exact same investment position while still claiming a loss, which many tax authorities consider an abuse of the loss-realization concept.
+2. Because doing so would effectively maintain the exact same investment position while still claiming a loss, which many tax authorities consider an abuse of the loss-realisation concept.
 3. It typically means investors reinvest proceeds into a genuinely different, though similarly positioned, investment rather than the exact same one, to comply with the rule while maintaining comparable market exposure.
 
 ## Answers and Explanations

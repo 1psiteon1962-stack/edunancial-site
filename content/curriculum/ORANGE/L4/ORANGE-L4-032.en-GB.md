@@ -24,7 +24,7 @@ Slug: competitive-analysis-framework-why-knowing-a-competitors-actual-position-s
 # Competitive Analysis Framework: Why Knowing a Competitor's Actual Position Shapes Your Own Strategic Choices
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and competition intensifies for a shrinking pool of cautious buyers, businesses discover that understanding a competitor's actual strategic position — not merely listing their product features — is what genuinely informs a sound competitive strategic response.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and competition intensifies for a shrinking pool of cautious buyers, businesses discover that understanding a competitor's actual strategic position — not merely listing their product features — is what genuinely informs a sound competitive strategic response.
 
 ## Learning Objectives
 - Explain why a competitive analysis should assess a competitor's actual strategic position, not merely catalogue their product's specific features.
@@ -33,7 +33,7 @@ ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a
 - Explain why competitive analysis should be an ongoing, updated process, rather than a single, one-time assessment.
 
 ## Core Content
-A sound competitive analysis assesses a competitor's actual overall strategic position — their target segment, their positioning and value proposition, their apparent resource constraints, and their likely strategic priorities — rather than simply cataloging a comparative list of the competitor's specific product features side by side against the business's own. VERIFIED FACT: this broader strategic view provides considerably more useful insight for informing a business's own strategic choices than a narrower, feature-by-feature comparison alone, since competitive dynamics generally play out at the level of overall strategic positioning and resource allocation, not merely at the level of individual feature comparisons.
+A sound competitive analysis assesses a competitor's actual overall strategic position — their target segment, their positioning and value proposition, their apparent resource constraints, and their likely strategic priorities — rather than simply cataloguing a comparative list of the competitor's specific product features side by side against the business's own. VERIFIED FACT: this broader strategic view provides considerably more useful insight for informing a business's own strategic choices than a narrower, feature-by-feature comparison alone, since competitive dynamics generally play out at the level of overall strategic positioning and resource allocation, not merely at the level of individual feature comparisons.
 
 Here is the "why" understanding a competitor's likely resource constraints and strategic priorities helps predict their probable future moves: a competitor's own specific resource constraints (their available capital, their organisational capacity, per the BLUE-L4 track's scaling economics discussion) and their apparent strategic priorities (which specific segments or markets they appear to be emphasising) provide meaningful clues about what kinds of competitive moves that specific competitor is actually likely, and unlikely, to make going forward — a resource-constrained competitor focused primarily on a specific segment is considerably less likely to suddenly and successfully expand aggressively into an entirely different segment requiring resources or capabilities they do not currently appear to possess, providing a business useful, forward-looking insight beyond simply understanding the competitor's current product offering alone.
 
@@ -81,7 +81,7 @@ Q5: B
 
 **Q2.** This connection between resource constraints, current strategic focus, and likely future behaviour is precisely why understanding these factors helps a business anticipate a competitor's probable future moves.
 
-**Q3.** This connection to the earlier unique selling proposition discussion, favoring genuine differentiation over direct feature-matching, is precisely why building on a business's own strengths tends to produce a more effective competitive response.
+**Q3.** This connection to the earlier unique selling proposition discussion, favouring genuine differentiation over direct feature-matching, is precisely why building on a business's own strengths tends to produce a more effective competitive response.
 
 **Q4.** This recognition that competitors themselves continue evolving over time is precisely why competitive analysis requires periodic, ongoing reassessment rather than a single, permanently completed exercise.
 

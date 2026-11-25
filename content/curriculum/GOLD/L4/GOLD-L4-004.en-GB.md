@@ -5,7 +5,7 @@ officialTrackName: "Investing"
 level: 4
 lessonNumber: 4
 title: "Dollar-Cost Averaging vs Lump-Sum Investing Analysis: Why the 'Safer-Feeling' Choice Isn't Always the Higher-Expected-Return Choice"
-summary: "Understand the tradeoff between investing a large sum immediately versus spreading it out over time, and why historical analysis generally favors lump-sum investing on average, even though pound-cost averaging offers genuine behavioural and risk-management benefits."
+summary: "Understand the tradeoff between investing a large sum immediately versus spreading it out over time, and why historical analysis generally favours lump-sum investing on average, even though pound-cost averaging offers genuine behavioural and risk-management benefits."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-11"
@@ -17,14 +17,14 @@ Folder: GOLD/L4
 Title: Dollar-Cost Averaging vs Lump-Sum Investing Analysis: Why the 'Safer-Feeling' Choice Isn't Always the Higher-Expected-Return Choice
 Lesson ID: GOLD-L4-004
 Author: Waldemar M. Caban, JD MA
-Meta Description: Understand the tradeoff between investing a large sum immediately versus spreading it out over time, and why historical analysis generally favors lump-sum investing on average, even though pound-cost averaging offers genuine behavioural and risk-management benefits.
+Meta Description: Understand the tradeoff between investing a large sum immediately versus spreading it out over time, and why historical analysis generally favours lump-sum investing on average, even though pound-cost averaging offers genuine behavioural and risk-management benefits.
 SEO Keywords: pound-cost averaging, lump-sum investing, market timing risk, behavioural investing tradeoff
 Slug: pound-cost-averaging-vs-lump-sum-investing-analysis-why-the-safer-feeling-choice-isnt-always-the-higher-expected-return-choice
 
 # Dollar-Cost Averaging vs Lump-Sum Investing Analysis: Why the 'Safer-Feeling' Choice Isn't Always the Higher-Expected-Return Choice
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom leaves an investor who just received a large lump sum of money (from an inheritance, a business sale, or a similar windfall) genuinely uncertain about broader market direction, they face a real decision about whether to invest the entire amount immediately or spread it out gradually over time. This lesson examines the actual tradeoffs involved in that decision.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom leaves an investor who just received a large lump sum of money (from an inheritance, a business sale, or a similar windfall) genuinely uncertain about broader market direction, they face a real decision about whether to invest the entire amount immediately or spread it out gradually over time. This lesson examines the actual tradeoffs involved in that decision.
 
 ## Learning Objectives
 - Explain the basic mechanics of pound-cost averaging as an investment approach.
@@ -67,10 +67,10 @@ B) An investor prone to genuine psychological distress and potential panic-drive
 C) The mathematically optimal choice should always be followed regardless of any individual investor's psychological characteristics
 D) Only professional investors, never individual investors, should ever consider their own psychological comfort level in this decision
 
-**Q5. In the example, why did the investor choose a modified pound-cost averaging approach despite being shown historical evidence favoring lump-sum investing?**
+**Q5. In the example, why did the investor choose a modified pound-cost averaging approach despite being shown historical evidence favouring lump-sum investing?**
 A) The investor disregarded the historical evidence entirely and made an arbitrary, uninformed decision
 B) The investor made an honest self-assessment that they would likely panic and sell at a loss under a full lump-sum approach, and deliberately accepted a somewhat lower average historical expected outcome in exchange for meaningfully reducing this specific behavioural risk
-C) The historical evidence actually favored pound-cost averaging over lump-sum investing in this specific example
+C) The historical evidence actually favoured pound-cost averaging over lump-sum investing in this specific example
 D) The investor's choice had no actual relationship to their own psychological comfort level or behavioural tendencies
 
 ## Answer Key

@@ -58,7 +58,7 @@ B) A taxpayer should specifically orchestrate genuine tax treatment across all t
 
 **Q5. In the example, why did the taxpayer allocate additional capital toward real estate rather than the business or paper asset alternatives?**
 A) The taxpayer had concluded that real estate always provides objectively superior tax treatment compared to business ownership or paper assets, regardless of any individual circumstances
-B) The taxpayer recognised their own specific circumstances and broader financial goals genuinely favored continued real estate investment, given their available time and expertise, reflecting an individually orchestrated conclusion
+B) The taxpayer recognised their own specific circumstances and broader financial goals genuinely favoured continued real estate investment, given their available time and expertise, reflecting an individually orchestrated conclusion
 
 ## Answer Key
 Q1: B
@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This need to weigh tax treatment alongside broader financial goals and specific circumstances, rather than tax treatment in isolation, is precisely why this orchestrated approach matters for cross-asset-class allocation decisions.
 
-**Q5.** This direct illustration of orchestrating tax treatment against a taxpayer's own specific circumstances and goals exemplifies precisely why this lesson emphasises this personalized approach to cross-asset-class tax orchestration.
+**Q5.** This direct illustration of orchestrating tax treatment against a taxpayer's own specific circumstances and goals exemplifies precisely why this lesson emphasises this personalised approach to cross-asset-class tax orchestration.
 
 ## Key Takeaways
 - Real estate offers genuinely distinctive tax advantages, particularly depreciation deductions and 1031 exchange capital gains deferral, extending the earlier RED-track discussions.

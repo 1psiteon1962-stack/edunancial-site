@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This dependency on an investor's own specific holding size and individual circumstances is precisely why this orchestrated evaluation matters rather than assuming universal appropriateness.
 
-**Q5.** This direct illustration of orchestrating holding size against added cost and complexity, reaching individually appropriate conclusions, exemplifies precisely why this lesson emphasises this personalized approach to multi-vault storage strategy.
+**Q5.** This direct illustration of orchestrating holding size against added cost and complexity, reaching individually appropriate conclusions, exemplifies precisely why this lesson emphasises this personalised approach to multi-vault storage strategy.
 
 ## Key Takeaways
 - Concentrating an entire significant physical holding in a single storage location or jurisdiction creates a genuine, singular point of failure risk.

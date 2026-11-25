@@ -42,7 +42,7 @@ This is why chasing recent top performers — moving money into whatever fund ha
 
 1. Generally weak persistence — top performers in one period are not reliably the top performers in the following period.
 2. Moving money into recently top-performing funds; it can lead to buying after a strong run has already occurred and selling after a weak period, potentially near a peak and trough respectively.
-3. Because a fund's specific investment style or sector focus may have simply been favored by conditions during that period, rather than the manager demonstrating a repeatable skill advantage likely to continue.
+3. Because a fund's specific investment style or sector focus may have simply been favoured by conditions during that period, rather than the manager demonstrating a repeatable skill advantage likely to continue.
 
 ## Answers and Explanations
 

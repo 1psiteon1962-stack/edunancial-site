@@ -42,7 +42,7 @@ Common sources of moats:
 - Switching costs: Changing to a competitor is costly, time-consuming, or risky for customers (for example, business software deeply built into operations).
 - Network effects: The product becomes more valuable as more people use it (marketplaces, communication platforms).
 - Cost advantages: The business can produce at lower cost due to scale, location, or processes.
-- Legal protection: Patents, trademarks, licenses, or regulatory approvals (PURPLE).
+- Legal protection: Patents, trademarks, licences, or regulatory approvals (PURPLE).
 - Unique assets: Locations, relationships, or data that competitors cannot easily copy.
 
 How colours connect:

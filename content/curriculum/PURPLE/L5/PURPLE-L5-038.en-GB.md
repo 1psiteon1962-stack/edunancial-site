@@ -25,7 +25,7 @@ Slug: cross-border-contracts-choice-of-law-forum-and-arbitration
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized economy's currency losing a large share of its value against major reserve currencies over a few months, driven by capital fleeing the country and eroding investor confidence.
 
-Apply it here: A supplier in a country whose currency has collapsed stops delivering to a foreign buyer. Ask across colors: Which country's law governs the contract (PURPLE)? Where can the buyer sue? Would a judgement or award actually be collectible (BLUE)? Would currency swings (WHITE) change what is owed?
+Apply it here: A supplier in a country whose currency has collapsed stops delivering to a foreign buyer. Ask across colours: Which country's law governs the contract (PURPLE)? Where can the buyer sue? Would a judgement or award actually be collectible (BLUE)? Would currency swings (WHITE) change what is owed?
 
 ## Learning Objectives
 - Explain choice-of-law and forum selection clauses
@@ -49,7 +49,7 @@ Arbitration: Instead of courts, parties can agree to private arbitration, often 
 - Appeals are usually very limited.
 - Costs can be significant.
 
-How colors connect:
+How colours connect:
 - BLUE: A contract right is only as valuable as your ability to collect. Knowing where the other party has assets matters.
 - WHITE: Contracts should state the currency of payment and how exchange rates apply (see PURPLE-L5-039).
 - ORANGE: Dispute clauses are negotiated like any other term. A party with more leverage often gets its home forum.

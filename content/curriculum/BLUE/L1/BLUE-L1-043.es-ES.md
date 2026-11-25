@@ -176,7 +176,7 @@ Notas de enseñanza para la IA: Usa el ejemplo de la apertura de la cocina del r
 
 ## Bloque de localización
 `BLUE-L1-043-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-043-REFERENCES`

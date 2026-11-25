@@ -57,7 +57,7 @@ B) The specific way a sale is structured can genuinely affect the actual, total 
 
 **Q5. In the example, why was the business owner able to achieve a more favourable tax outcome?**
 A) The business owner had finalised the sale's specific structure first, considering the combined depreciation recapture and capital gains tax consequences only afterward
-B) The business owner orchestrated an honest estimate of the combined tax liability early and engaged qualified tax guidance before finalising the sale structure, discovering that a seller-financed note structure would favorably affect the timing of this liability
+B) The business owner orchestrated an honest estimate of the combined tax liability early and engaged qualified tax guidance before finalising the sale structure, discovering that a seller-financed note structure would favourably affect the timing of this liability
 
 ## Answer Key
 Q1: B

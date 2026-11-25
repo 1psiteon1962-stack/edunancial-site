@@ -59,7 +59,7 @@ against, rather than just hoping things work out.
    A. The point where a business makes maximum profit
    B. The sales level where total revenue equals total costs
    C. The business's total overhead cost
-   D. A type of business license
+   D. A type of business licence
 
 2. True or False: Below break-even, a business is generating a profit.
 

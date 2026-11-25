@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define a ticker symbol in plain terms.
 - Explain why precision matters when using one.
-- Recognize that similar-sounding names can have very different symbols.
+- Recognise that similar-sounding names can have very different symbols.
 
 ## Core Content
 

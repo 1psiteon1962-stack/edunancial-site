@@ -24,7 +24,7 @@ Slug: business-model-analysis-why-recurring-revenue-changes-a-businesss-risk-and
 # Business Model Analysis: Why Recurring Revenue Changes a Business's Risk and Valuation Profile
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and overall consumer spending pulls back, businesses depending on one-time, discretionary purchases see sharp, immediate revenue declines, while businesses built on ongoing subscriptions experience a much more gradual, delayed effect. This lesson explains why the underlying business model shapes how a company weathers this kind of downturn.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and overall consumer spending pulls back, businesses depending on one-time, discretionary purchases see sharp, immediate revenue declines, while businesses built on ongoing subscriptions experience a much more gradual, delayed effect. This lesson explains why the underlying business model shapes how a company weathers this kind of downturn.
 
 ## Learning Objectives
 - Distinguish between a recurring-revenue business model and a one-time transaction business model.

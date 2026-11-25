@@ -43,7 +43,7 @@ Accountability is essential. Donors and communities expect transparent use of fu
 Social enterprises combine mission with earned revenue, requiring leaders to balance business discipline with social purpose.
 
 ## Worked Example
-ILLUSTRATIVE EXAMPLE: The mentoring nonprofit creates an eighteen-month funding plan. Board members commit to introducing new donors, the organisation launches a monthly giving program, partners with employers who sponsor mentoring programmes for employees' families, and publishes annual impact results. When the large grant ends, it represents less than one-third of the budget.
+ILLUSTRATIVE EXAMPLE: The mentoring nonprofit creates an eighteen-month funding plan. Board members commit to introducing new donors, the organisation launches a monthly giving programme, partners with employers who sponsor mentoring programmes for employees' families, and publishes annual impact results. When the large grant ends, it represents less than one-third of the budget.
 
 ## Practice Quiz
 **Q1. Why is dependence on one funding source risky?**

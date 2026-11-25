@@ -40,7 +40,7 @@ Here is the "why" this decision fundamentally comes down to comparing tax rates 
 This is why the decision requires forming a genuine assumption (ASSUMPTION/OPINION, since future tax rates and an individual's future income cannot be known with certainty) about both personal future tax bracket and the broader direction of tax policy, rather than a single universally correct answer. Additional factors also matter: Roth accounts are not subject to required minimum distributions during the original owner's lifetime under current law, offering more flexibility, and diversifying between both account types can hedge against the genuine uncertainty involved in predicting future tax rates decades in advance.
 
 ## Worked Example
-ILLUSTRATIVE EXAMPLE: A young worker early in their career, currently in a relatively low tax bracket, contributes to a Roth account, paying tax now at their currently low rate in exchange for entirely tax-free growth and withdrawals decades later, when they expect to be in a meaningfully higher bracket due to career advancement. A different worker, currently in their peak earning years and a high tax bracket, instead favors a traditional account, taking the valuable deduction now at their current high rate, expecting a lower tax bracket after retiring and living on a reduced income — illustrating how the same account-type decision can reasonably differ based on each individual's specific tax rate trajectory.
+ILLUSTRATIVE EXAMPLE: A young worker early in their career, currently in a relatively low tax bracket, contributes to a Roth account, paying tax now at their currently low rate in exchange for entirely tax-free growth and withdrawals decades later, when they expect to be in a meaningfully higher bracket due to career advancement. A different worker, currently in their peak earning years and a high tax bracket, instead favours a traditional account, taking the valuable deduction now at their current high rate, expecting a lower tax bracket after retiring and living on a reduced income — illustrating how the same account-type decision can reasonably differ based on each individual's specific tax rate trajectory.
 
 ## Practice Quiz
 **Q1. What is the core tax treatment difference between a traditional and a Roth retirement account?**
@@ -83,7 +83,7 @@ Q5: A
 ## Answers and Explanations
 **Q1.** This describes the fundamental structural difference in when taxes are paid: upfront for Roth, at withdrawal for traditional.
 
-**Q2.** Taking the deduction at a higher current rate, rather than paying tax now at that same higher rate, generally favors a traditional account when future rates are expected to be lower.
+**Q2.** Taking the deduction at a higher current rate, rather than paying tax now at that same higher rate, generally favours a traditional account when future rates are expected to be lower.
 
 **Q3.** A Roth account fixes the tax cost today, providing protection against the possibility that future tax rates rise broadly, regardless of the saver's personal bracket.
 

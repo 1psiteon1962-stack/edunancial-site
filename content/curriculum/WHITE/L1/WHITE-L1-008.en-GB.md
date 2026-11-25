@@ -4,20 +4,20 @@ track: WHITE
 officialTrackName: Paper Assets
 level: 1
 lessonNumber: 8
-title: What Is Market Capitalization?
+title: What Is Market Capitalisation?
 summary: Learn what market cap measures, how it's calculated, and why it's not the same as a company's cash or total worth.
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# What Is Market Capitalization?
+# What Is Market Capitalisation?
 
 ## Learning Objectives
 
 By the end of this lesson, you should be able to:
 
-- State the market capitalization formula.
+- State the market capitalisation formula.
 - Calculate market cap given share price and shares outstanding.
 - Explain why market cap isn't the same as a company's cash or total
   assets.
@@ -26,7 +26,7 @@ By the end of this lesson, you should be able to:
 
 ### The Formula
 
-Market Capitalization = Share Price × Total Shares Outstanding. It
+Market Capitalisation = Share Price × Total Shares Outstanding. It
 represents the total market value of all a company's shares combined.
 
 ### What It Actually Measures
@@ -51,13 +51,13 @@ actual cash the company holds.
 
 ## Practice Quiz
 
-1. Market capitalization is calculated as:
+1. Market capitalisation is calculated as:
    A. Total revenue × number of employees
    B. Share price × total shares outstanding
    C. Total assets − total liabilities
    D. Annual profit ÷ shares outstanding
 
-2. True or False: Market capitalization is the same thing as a
+2. True or False: Market capitalisation is the same thing as a
    company's cash on hand.
 
 3. A company has 2,000,000 shares outstanding trading at $30 per share.

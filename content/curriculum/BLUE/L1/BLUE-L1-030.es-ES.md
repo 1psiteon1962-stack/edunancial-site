@@ -178,7 +178,7 @@ Notas de enseñanza para la IA: Refuerza las conexiones con BLUE-L1-014 y BLUE-L
 
 ## Bloque de localización
 `BLUE-L1-030-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-030-REFERENCES`

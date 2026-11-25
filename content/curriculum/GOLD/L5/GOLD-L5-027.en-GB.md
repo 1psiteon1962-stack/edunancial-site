@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This need for a clearly identified, genuine purpose to justify the added complexity is precisely why this orchestrated approach matters for multi-currency precious metals transaction decisions.
 
-**Q5.** This direct illustration of orchestrating genuine purpose against added complexity, and correctly declining when no genuine purpose exists, exemplifies precisely why this lesson emphasises this personalized approach to multi-currency precious metals holdings.
+**Q5.** This direct illustration of orchestrating genuine purpose against added complexity, and correctly declining when no genuine purpose exists, exemplifies precisely why this lesson emphasises this personalised approach to multi-currency precious metals holdings.
 
 ## Key Takeaways
 - Precious metals, while generally priced in a specific reference currency, can genuinely be purchased and transacted through dealers operating in various different currencies.

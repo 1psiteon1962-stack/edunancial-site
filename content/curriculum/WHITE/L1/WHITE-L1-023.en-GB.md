@@ -33,7 +33,7 @@ of shares outstanding.
 
 The number of shares an investor owns increases, and the price per share
 decreases proportionally. What does NOT change: the total value of the
-investor's holding, and the company's overall market capitalization —
+investor's holding, and the company's overall market capitalisation —
 the pie is cut into more slices, but the pie itself is the same size.
 
 ### Why Companies Do It

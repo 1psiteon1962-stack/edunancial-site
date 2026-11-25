@@ -50,7 +50,7 @@ Cost structures can also differ: many ETFs, especially those tracking broad inde
 
 1. This is the primary structural distinction between the two fund types.
 2. This is the central tax-efficiency mechanism, appropriately caveated as not automatic for every ETF.
-3. This corrects an oversimplified generalization about cost that doesn't always hold.
+3. This corrects an oversimplified generalisation about cost that doesn't always hold.
 
 ## Key Takeaways
 - ETFs trade throughout the day like stocks; mutual funds trade once per day at a calculated net asset value.

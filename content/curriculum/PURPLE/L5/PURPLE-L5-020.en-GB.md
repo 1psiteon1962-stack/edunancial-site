@@ -25,7 +25,7 @@ Slug: marital-agreements-and-business-ownership
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized economy's currency losing a large share of its value against major reserve currencies over a few months, driven by capital fleeing the country and eroding investor confidence.
 
-Apply it here: A currency crisis causes a family business's value to swing wildly. The owners' marriages, and their spouses' claims, suddenly affect the company's stability. Ask across colors: If an owner divorces, could part of the company pass to an ex-spouse (PURPLE)? How would the company value be set (BLUE)? Could the business be forced to sell assets to pay a settlement (RED/WHITE)?
+Apply it here: A currency crisis causes a family business's value to swing wildly. The owners' marriages, and their spouses' claims, suddenly affect the company's stability. Ask across colours: If an owner divorces, could part of the company pass to an ex-spouse (PURPLE)? How would the company value be set (BLUE)? Could the business be forced to sell assets to pay a settlement (RED/WHITE)?
 
 ## Learning Objectives
 - Explain how marriage and divorce can affect business ownership
@@ -45,7 +45,7 @@ A prenuptial agreement (before marriage) or postnuptial agreement (during marria
 
 Limits: REGION-SPECIFIC RULE: Many jurisdictions require full financial disclosure, independent lawyers for each spouse, time to review, and fairness. Some matters, like child support, often cannot be waived in advance.
 
-How colors connect:
+How colours connect:
 - BLUE: Partners and investors may worry about an ex-spouse becoming a co-owner.
 - PURPLE: Operating agreements and buy-sell agreements (PURPLE-L5-008) often include divorce as a trigger, allowing the company or partners to buy back any interest awarded to an ex-spouse.
 - GREEN: Transfers between spouses at divorce may have special tax treatment. REGION-SPECIFIC RULE.

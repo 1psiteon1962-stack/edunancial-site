@@ -53,7 +53,7 @@ A pivot is a significant change in a business's approach — often its business 
 [ILLUSTRATIVE EXAMPLE] A pivot often keeps core assets like accumulated customer relationships, brand reputation (BLUE-L1-033), team expertise, or underlying technology, while changing the specific product, business model, or market focus built around those assets.
 
 ### Topic 3: How a Pivot Differs From Giving Up
-Giving up means abandoning the effort entirely. A pivot means recognizing that specific aspects of the current approach aren't working, while preserving and redirecting what's been learned and built toward a better-fitting direction.
+Giving up means abandoning the effort entirely. A pivot means recognising that specific aspects of the current approach aren't working, while preserving and redirecting what's been learned and built toward a better-fitting direction.
 
 ### Topic 4: How a Pivot Differs From Stubbornly Refusing to Change
 [OPINION] Refusing to adjust course despite clear evidence something isn't working is a different mistake entirely — a pivot represents a deliberate, informed change based on real signals, not stubbornness, and also not panic-driven abandonment of a fundamentally sound idea.
@@ -73,7 +73,7 @@ Giving up means abandoning the effort entirely. A pivot means recognizing that s
 
 ## FAQ
 **Q: Is pivoting a sign of failure?**
-A: [OPINION] Not inherently — many successful businesses pivoted significantly from their original concept; the ability to recognize and act on real signals is often viewed as a strength, not a weakness.
+A: [OPINION] Not inherently — many successful businesses pivoted significantly from their original concept; the ability to recognise and act on real signals is often viewed as a strength, not a weakness.
 
 **Q: How do you know when it's actually time to pivot versus just pushing through a normal difficult period?**
 A: [OPINION] This is a genuinely difficult judgment call with no universal formula — it typically involves weighing repeated, consistent signals (like the market research signals from BLUE-L1-037) against the natural ups and downs any new business experiences.
@@ -181,4 +181,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-045-REFERENCES`
-No statistics or external citations used. Judgment-call framing labeled OPINION.
+No statistics or external citations used. Judgment-call framing labelled OPINION.

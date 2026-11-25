@@ -25,7 +25,7 @@ Slug: irrevocable-trusts-and-the-control-trade-off
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a mid-sized economy's currency losing a large share of its value against major reserve currencies over a few months, driven by capital fleeing the country and eroding investor confidence.
 
-Apply it here: A family's home currency loses much of its value over a few months. Some family members want to move assets abroad or into different forms quickly. Ask across colors: If those assets sit in an irrevocable trust (PURPLE), can the family move them freely? What does the trust document allow the trustee to invest in (WHITE/GOLD)? What are the tax effects (GREEN)?
+Apply it here: A family's home currency loses much of its value over a few months. Some family members want to move assets abroad or into different forms quickly. Ask across colours: If those assets sit in an irrevocable trust (PURPLE), can the family move them freely? What does the trust document allow the trustee to invest in (WHITE/GOLD)? What are the tax effects (GREEN)?
 
 ## Learning Objectives
 - Explain the difference between revocable and irrevocable trusts

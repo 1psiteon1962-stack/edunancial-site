@@ -5,7 +5,7 @@ officialTrackName: "Leadership & Executive Management"
 level: 5
 lessonNumber: 41
 locale: en-GB
-title: "Leading Through an Economic Downturn: Orchestrating Defense and Opportunity at the Same Time"
+title: "Leading Through an Economic Downturn: Orchestrating Defence and Opportunity at the Same Time"
 summary: "Learn how leaders protect their organisations during economic downturns while also identifying opportunities that weaker competitors cannot pursue."
 version: "1.0"
 author: "Edunancial Faculty"
@@ -13,14 +13,14 @@ date: "2026-10-19"
 ---
 Filename: BLACK-L5-041.en-GB.md
 Folder: BLACK/L5
-Title: Leading Through an Economic Downturn: Orchestrating Defense and Opportunity at the Same Time
+Title: Leading Through an Economic Downturn: Orchestrating Defence and Opportunity at the Same Time
 Lesson ID: BLACK-L5-041
 Author: Waldemar M. Caban, JD MA
 Meta Description: Learn how leaders protect their organisations during economic downturns while also identifying opportunities that weaker competitors cannot pursue.
 SEO Keywords: recession leadership, economic downturn, defensive strategy, opportunity in crisis, business resilience
 Slug: leading-through-an-economic-downturn-orchestrating-defense-and-opportunity-at-the-same-time
 
-# Leading Through an Economic Downturn: Orchestrating Defense and Opportunity at the Same Time
+# Leading Through an Economic Downturn: Orchestrating Defence and Opportunity at the Same Time
 
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): During an economic slowdown, a commercial cleaning company sees clients reduce services. At the same time, a struggling competitor considers selling its client contracts.
@@ -50,7 +50,7 @@ ILLUSTRATIVE EXAMPLE: The cleaning company reduces discretionary spending and wo
 A) Downturns only create risk
 B) Opportunities never exist
 C) Protection and opportunity can both exist
-D) Defense is unnecessary
+D) Defence is unnecessary
 
 **Q2. Which is a defensive action?**
 A) Ignoring customers

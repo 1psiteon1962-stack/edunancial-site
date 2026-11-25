@@ -24,7 +24,7 @@ Slug: sales-compensation-structure-analysis-why-commission-salary-and-hybrid-mod
 # Sales Compensation Structure Analysis: Why Commission, Salary, and Hybrid Models Each Shape Behaviour Differently
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and businesses reassess how they compensate their sales teams to align incentives with a more cautious selling environment, they discover that the specific compensation structure chosen genuinely shapes how salespeople actually behave, not merely how much they are ultimately paid.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and businesses reassess how they compensate their sales teams to align incentives with a more cautious selling environment, they discover that the specific compensation structure chosen genuinely shapes how salespeople actually behave, not merely how much they are ultimately paid.
 
 ## Learning Objectives
 - Explain why a straight commission structure creates a strong incentive toward closing sales volume, and the specific behavioural risks this can create.
@@ -93,4 +93,4 @@ Q5: B
 - Sales compensation structures — commission, salary, and hybrid — create genuinely different behavioural incentives, not just different pay levels.
 - Straight commission strongly incentivises closing volume but risks misaligning behaviour with genuine customer fit or long-term relationship health.
 - Straight salary supports patience and consultative selling but removes some direct financial motivation to maximise sales volume and effort.
-- The appropriate structure depends on the specific sales role, with fast transactional roles favoring commission and complex consultative roles favoring salary-weighted or hybrid structures.
+- The appropriate structure depends on the specific sales role, with fast transactional roles favouring commission and complex consultative roles favouring salary-weighted or hybrid structures.

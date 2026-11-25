@@ -24,7 +24,7 @@ Slug: 1031-exchange-analysis-why-deferral-isnt-the-same-as-elimination
 # 1031 Exchange Analysis: Why Deferral Isn't the Same as Elimination
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled real estate boom shows signs of unwinding, some property owners who have built up substantial paper gains over many years want to reposition their holdings without immediately triggering a large capital gains tax bill on the appreciation they have accumulated. This lesson examines the specific tax provision designed to allow exactly that kind of repositioning, while clarifying an important limit on what it actually accomplishes.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled real estate boom shows signs of unwinding, some property owners who have built up substantial paper gains over many years want to reposition their holdings without immediately triggering a large capital gains tax bill on the appreciation they have accumulated. This lesson examines the specific tax provision designed to allow exactly that kind of repositioning, while clarifying an important limit on what it actually accomplishes.
 
 ## Learning Objectives
 - Explain the basic mechanism of a Section 1031 like-kind exchange for real estate.

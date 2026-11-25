@@ -87,7 +87,7 @@ Q5: B
 
 **Q3.** Total return captures the full investment outcome, while yield captures only the income component, which can be misleading in isolation.
 
-**Q4.** An outsized yield relative to historical norms often reflects market skepticism about the dividend's sustainability.
+**Q4.** An outsized yield relative to historical norms often reflects market scepticism about the dividend's sustainability.
 
 **Q5.** The high yield was a symptom of distress rather than an opportunity, and the subsequent cut and further price decline hurt the investor's actual total return.
 

@@ -177,7 +177,7 @@ Notas de enseñanza para la IA: Refuerza la conexión con BLUE-L1-026 (costos de
 
 ## Bloque de localización
 `BLUE-L1-027-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-027-REFERENCES`

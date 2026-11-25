@@ -25,7 +25,7 @@ Slug: legal-due-diligence-before-buying-a-business
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture two large economic powers escalating export controls against each other on a category of advanced technology components used across many industries.
 
-Apply it here: A buyer is days from closing on a company that sells technology products. New export controls suddenly limit a key supplier. Ask across colors: Does the company's supply contract (PURPLE) allow termination in this situation? Does its financial value (BLUE/WHITE) depend on that supplier? Are there licenses or permits (PURPLE) that could be revoked?
+Apply it here: A buyer is days from closing on a company that sells technology products. New export controls suddenly limit a key supplier. Ask across colours: Does the company's supply contract (PURPLE) allow termination in this situation? Does its financial value (BLUE/WHITE) depend on that supplier? Are there licences or permits (PURPLE) that could be revoked?
 
 ## Learning Objectives
 - List the main categories of legal due diligence
@@ -42,7 +42,7 @@ A practical legal checklist:
 4. Intellectual property: Does the company actually own its brand, software, and content, or do founders or contractors own them? (PURPLE-L5-028)
 5. Real estate: Owned property title, lease terms, planning, and environmental issues.
 6. Litigation: Pending or threatened lawsuits, government investigations, and settlement history.
-7. Regulatory: Licenses, permits, data privacy compliance, export and import rules. REGION-SPECIFIC RULE.
+7. Regulatory: Licences, permits, data privacy compliance, export and import rules. REGION-SPECIFIC RULE.
 8. Debt and liens: Loans, guarantees, and liens on company assets. For UK readers: many activities need licences or planning permission from the local council, and exports of controlled goods may need a licence from the Export Control Joint Unit, so check the rules that apply to your sector.
 
 How findings change the deal:

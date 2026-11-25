@@ -25,7 +25,7 @@ Slug: how-you-title-real-estate-changes-everything
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: Rising rates push two siblings who co-own a rental to disagree: one wants to sell, one wants to hold. Ask across colors: Can one sibling force a sale (PURPLE)? If one dies, does their share go to the other sibling or to their own children? What happens to the loan (BLUE) and the tax basis (GREEN)?
+Apply it here: Rising rates push two siblings who co-own a rental to disagree: one wants to sell, one wants to hold. Ask across colours: Can one sibling force a sale (PURPLE)? If one dies, does their share go to the other sibling or to their own children? What happens to the loan (BLUE) and the tax basis (GREEN)?
 
 ## Learning Objectives
 - Compare common forms of real estate title
@@ -43,7 +43,7 @@ Common forms (names and rules are REGION-SPECIFIC RULE):
 - Trust ownership: The trustee holds title for beneficiaries (see PURPLE-L5-011 and -012).
 - Entity ownership: An LLC or company holds title (see PURPLE-L5-004). For UK readers: co-owners in England and Wales hold property either as joint tenants, where the survivor takes the whole share, or as tenants in common, where each share passes under the owner's will, so check how your property is held at HM Land Registry.
 
-How colors connect:
+How colours connect:
 - RED: Can a co-owner force a sale? In many places, co-owners can ask a court to divide or sell the property ("partition"), unless an agreement says otherwise.
 - BLUE: Lenders may require all titleholders to sign the mortgage. Changing title may trigger loan clauses.
 - GREEN: REGION-SPECIFIC RULE: In some systems, heirs may receive a "stepped-up" tax basis at death, while property given during life keeps the original basis. Title form can change how much basis adjusts.

@@ -24,7 +24,7 @@ Slug: statute-of-limitations-analysis-why-waiting-too-long-to-sue-can-permanentl
 # Statute of Limitations Analysis: Why Waiting Too Long to Sue Can Permanently Bar an Otherwise Valid Claim
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and disputes arising from transactions made years earlier begin surfacing, parties on both sides discover that even a genuinely valid, well-documented legal claim can become permanently unenforceable if too much time has passed since the underlying event occurred. This lesson examines the specific doctrine responsible for this outcome, and the important exception that can sometimes extend the available time to file.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and disputes arising from transactions made years earlier begin surfacing, parties on both sides discover that even a genuinely valid, well-documented legal claim can become permanently unenforceable if too much time has passed since the underlying event occurred. This lesson examines the specific doctrine responsible for this outcome, and the important exception that can sometimes extend the available time to file.
 
 ## Learning Objectives
 - Explain the general purpose of a statute of limitations.

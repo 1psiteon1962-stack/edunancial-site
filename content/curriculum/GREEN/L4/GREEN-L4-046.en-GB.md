@@ -24,7 +24,7 @@ Slug: wash-sale-rule-cross-reference-analysis-why-a-tax-loss-isnt-always-immedia
 # Wash Sale Rule Cross-Reference Analysis: Why a Tax Loss Isn't Always Immediately Usable
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and many investors look to realise investment losses for tax purposes while still wanting to maintain their overall market exposure, some inadvertently run into a specific rule that disallows the tax benefit of a loss if they are not careful about the timing of a repurchase. This lesson examines that specific rule and its consequence in more analytical depth.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and many investors look to realise investment losses for tax purposes while still wanting to maintain their overall market exposure, some inadvertently run into a specific rule that disallows the tax benefit of a loss if they are not careful about the timing of a repurchase. This lesson examines that specific rule and its consequence in more analytical depth.
 
 ## Learning Objectives
 - Explain the basic mechanics of the wash sale rule.

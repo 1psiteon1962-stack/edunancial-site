@@ -5,7 +5,7 @@ officialTrackName: "Law"
 level: 4
 lessonNumber: 37
 title: "Small Claims Court Analysis: Why Simplified Procedures Trade Formality for Accessibility"
-summary: "Understand the general purpose and simplified procedures of small claims court, and why the specific pound limit and procedural restrictions this forum imposes reflect a deliberate tradeoff favoring accessibility over the formality of ordinary civil litigation."
+summary: "Understand the general purpose and simplified procedures of small claims court, and why the specific pound limit and procedural restrictions this forum imposes reflect a deliberate tradeoff favouring accessibility over the formality of ordinary civil litigation."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-11"
@@ -17,14 +17,14 @@ Folder: PURPLE/L4
 Title: Small Claims Court Analysis: Why Simplified Procedures Trade Formality for Accessibility
 Lesson ID: PURPLE-L4-037
 Author: Waldemar M. Caban, JD MA
-Meta Description: Understand the general purpose and simplified procedures of small claims court, and why the specific pound limit and procedural restrictions this forum imposes reflect a deliberate tradeoff favoring accessibility over the formality of ordinary civil litigation.
+Meta Description: Understand the general purpose and simplified procedures of small claims court, and why the specific pound limit and procedural restrictions this forum imposes reflect a deliberate tradeoff favouring accessibility over the formality of ordinary civil litigation.
 SEO Keywords: small claims court, pound jurisdictional limit, simplified procedure, pro se accessibility
 Slug: small-claims-court-analysis-why-simplified-procedures-trade-formality-for-accessibility
 
 # Small Claims Court Analysis: Why Simplified Procedures Trade Formality for Accessibility
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once. As a widespread disruption creates a surge in relatively modest, individual financial disputes between neighbors, small businesses, and consumers, many people want to understand exactly when small claims court represents an appropriate, accessible venue for resolving these disputes, and why this specific court intentionally trades some of the formal procedural protections of ordinary civil litigation for genuinely greater accessibility and speed. This lesson examines that deliberate tradeoff.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once. As a widespread disruption creates a surge in relatively modest, individual financial disputes between neighbours, small businesses, and consumers, many people want to understand exactly when small claims court represents an appropriate, accessible venue for resolving these disputes, and why this specific court intentionally trades some of the formal procedural protections of ordinary civil litigation for genuinely greater accessibility and speed. This lesson examines that deliberate tradeoff.
 
 ## Learning Objectives
 - Explain the general purpose of small claims court, and why it was specifically designed for individuals to resolve relatively modest disputes without necessarily needing an attorney.
@@ -94,5 +94,5 @@ Q5: B
 ## Key Takeaways
 - Small claims court provides a simplified, accessible procedure for resolving relatively modest monetary disputes, generally without requiring an attorney.
 - A specific pound jurisdictional limit determines whether a given dispute can be brought in this forum, with claims exceeding the limit requiring ordinary civil litigation instead.
-- Simplified pleading, relaxed evidentiary rules, and a faster overall timeline reflect a deliberate design choice favoring accessibility over the formality of ordinary civil litigation.
+- Simplified pleading, relaxed evidentiary rules, and a faster overall timeline reflect a deliberate design choice favouring accessibility over the formality of ordinary civil litigation.
 - Some jurisdictions restrict attorney representation specifically to preserve small claims court's accessible, relatively level playing field for self-represented individuals.

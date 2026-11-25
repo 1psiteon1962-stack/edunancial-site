@@ -24,7 +24,7 @@ Slug: rebalancing-analysis-why-selling-winners-and-buying-losers-isnt-contrarian
 # Rebalancing Analysis: Why Selling Winners and Buying Losers Isn't Contrarian, It's Discipline
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a booming, credit-fueled asset class keeps climbing for years, an investor's original 60/40 stock-bond allocation quietly drifts to 85/15 as stocks outpace bonds. This lesson explains why bringing that allocation back into line, even while the boom continues, is a matter of discipline rather than pessimism.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a booming, credit-fuelled asset class keeps climbing for years, an investor's original 60/40 stock-bond allocation quietly drifts to 85/15 as stocks outpace bonds. This lesson explains why bringing that allocation back into line, even while the boom continues, is a matter of discipline rather than pessimism.
 
 ## Learning Objectives
 - Explain what portfolio rebalancing means.

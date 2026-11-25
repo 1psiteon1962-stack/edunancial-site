@@ -65,7 +65,7 @@ Recall from BLUE-L1-033 that brand is built through actual experience, and from 
 - **Resolution:** Whether a customer's actual underlying problem gets solved, distinct from how politely it was acknowledged.
 
 ## Worked Examples
-[ILLUSTRATIVE EXAMPLE] Two businesses both respond to a complaint politely. One actually fixes the underlying problem within a day; the other apologizes repeatedly but never resolves it. The first business is delivering functional customer service; the second, despite being equally "nice," is not.
+[ILLUSTRATIVE EXAMPLE] Two businesses both respond to a complaint politely. One actually fixes the underlying problem within a day; the other apologises repeatedly but never resolves it. The first business is delivering functional customer service; the second, despite being equally "nice," is not.
 
 ## Common Mistakes
 - Equating friendliness alone with good customer service
@@ -183,4 +183,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-044-REFERENCES`
-No statistics or external citations used. Measurement approaches labeled ESTIMATE.
+No statistics or external citations used. Measurement approaches labelled ESTIMATE.

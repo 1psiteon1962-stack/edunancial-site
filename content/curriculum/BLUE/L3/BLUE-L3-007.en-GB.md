@@ -46,7 +46,7 @@ Here's the "why" this process exists as a distinct, deliberate step: a seller, u
 ## Answer Key
 
 1. A structured investigation of a business's financial, legal, and operational details, occurring after an LOI is signed but before a final purchase agreement.
-2. Because sellers present their business favorably and aren't necessarily obligated to volunteer every unfavorable detail, so due diligence independently verifies claims and actively uncovers issues that might not otherwise surface.
+2. Because sellers present their business favourably and aren't necessarily obligated to volunteer every unfavorable detail, so due diligence independently verifies claims and actively uncovers issues that might not otherwise surface.
 3. Any three of: financial records, legal matters (contracts, litigation, compliance), operational details (key employees, supplier relationships), or other business-specific factors.
 
 ## Answers and Explanations

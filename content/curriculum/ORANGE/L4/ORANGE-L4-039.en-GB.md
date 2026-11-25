@@ -24,7 +24,7 @@ Slug: loyalty-programme-analysis-why-the-right-reward-structure-depends-on-what-
 # Loyalty Programme Analysis: Why the Right Reward Structure Depends on What Actually Drives Repeat Behaviour
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and businesses look for cost-effective ways to encourage repeat business from increasingly price-conscious customers, many discover that a generic, one-size-fits-all loyalty programme structure fails to genuinely motivate their own specific customer base's actual repeat purchasing behaviour.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and businesses look for cost-effective ways to encourage repeat business from increasingly price-conscious customers, many discover that a generic, one-size-fits-all loyalty programme structure fails to genuinely motivate their own specific customer base's actual repeat purchasing behaviour.
 
 ## Learning Objectives
 - Explain the general purpose of a customer loyalty programme, and why it specifically targets repeat purchasing behaviour rather than initial acquisition.

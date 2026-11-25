@@ -56,7 +56,7 @@ A minimum order quantity is the smallest amount of product a supplier or manufac
 [ILLUSTRATIVE EXAMPLE] An entrepreneur wants to launch a private-label pet food line but discovers the manufacturer's MOQ is 5,000 units — requiring tens of thousands of dollars upfront, far beyond available capital, even though the product idea itself, market research, and business plan are all genuinely solid.
 
 ### Topic 4: This Isn't a Failure of the Idea
-[OPINION] Hitting an MOQ wall is a capital and supply-chain barrier, not evidence the idea itself was flawed. Recognizing this distinction matters — walking away from an MOQ-blocked idea, or pivoting the approach, is often a sound decision rather than a sign of failure.
+[OPINION] Hitting an MOQ wall is a capital and supply-chain barrier, not evidence the idea itself was flawed. Recognising this distinction matters — walking away from an MOQ-blocked idea, or pivoting the approach, is often a sound decision rather than a sign of failure.
 
 ---
 
@@ -116,7 +116,7 @@ Explain in your own words why hitting an MOQ wall is different from an idea simp
 7. (True/False) All suppliers have equally high MOQs regardless of industry or product.
 8. (Short Answer) Name one option available if a business idea hits an MOQ wall.
 9. (Multiple Choice) When is researching potential MOQs most useful? A) After launching B) Early, before investing heavily in planning C) Never necessary D) Only after securing funding
-10. (Reflection) Why does the lesson emphasize that hitting an MOQ wall isn't a personal or idea failure?
+10. (Reflection) Why does the lesson emphasise that hitting an MOQ wall isn't a personal or idea failure?
 
 ## Answer Key
 `BLUE-L1-028-ANSWER-KEY`
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-028-REFERENCES`
-No statistics or external citations used. MOQ rationale and mitigation options labeled ESTIMATE.
+No statistics or external citations used. MOQ rationale and mitigation options labelled ESTIMATE.

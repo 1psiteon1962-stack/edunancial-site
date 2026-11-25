@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This recurring application across multiple prior asset categories, now extended to physical alternative assets, is precisely why this framework is described as familiar rather than novel in this specific context.
 
-**Q5.** This direct illustration of orchestrating specific, individually prioritised goals toward an appropriate structure exemplifies precisely why this lesson emphasises this personalized approach to physical alternative asset trust structuring.
+**Q5.** This direct illustration of orchestrating specific, individually prioritised goals toward an appropriate structure exemplifies precisely why this lesson emphasises this personalised approach to physical alternative asset trust structuring.
 
 ## Key Takeaways
 - The same general control-versus-protection framework this curriculum's earlier trust discussions established applies with full force to physical alternative assets.

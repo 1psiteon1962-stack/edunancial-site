@@ -73,7 +73,7 @@ D) Meaningful work, respect, growth opportunities, and good managers
 **Q5. In the example, what became the main source of project managers?**
 A) External recruiters
 B) Contractors
-C) Internal promotions through a development program
+C) Internal promotions through a development programme
 D) Competitors
 
 ## Answer Key

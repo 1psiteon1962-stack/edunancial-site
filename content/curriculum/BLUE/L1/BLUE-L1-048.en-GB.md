@@ -70,7 +70,7 @@ Recall BLUE-L1-020 (business licensing) and BLUE-L1-023 (bookkeeping) — if an 
 ## Common Mistakes
 - Assuming small scale alone means an activity isn't legally or financially a business
 - Ignoring bookkeeping and potential licensing obligations because an activity "doesn't feel like a real business yet"
-- Assuming personal intent or labeling ("it's just a hobby") overrides how the activity actually functions
+- Assuming personal intent or labelling ("it's just a hobby") overrides how the activity actually functions
 
 ## FAQ
 **Q: Does making any money at all from a hobby automatically make it a business?**
@@ -83,7 +83,7 @@ A: [OPINION] Given the potential licensing and tax implications, this is a reaso
 - The hobby vs. side business distinction depends on factors like profit intent, regularity, and tax treatment
 - Small scale alone doesn't automatically mean an activity isn't functionally a business
 - The same licensing and bookkeeping considerations from earlier lessons can apply once an activity crosses into side-business territory
-- Personal labeling ("it's just a hobby") doesn't override how the activity actually functions
+- Personal labelling ("it's just a hobby") doesn't override how the activity actually functions
 
 ## Practical Exercise
 Think of an activity someone you know does for extra money on the side. Using this lesson's factors, would you consider it more likely a hobby or a side business? Explain your reasoning.
@@ -107,7 +107,7 @@ Think of an activity someone you know does for extra money on the side. Using th
 ## Competency Assessment
 `BLUE-L1-048-ASSESSMENT`
 
-1. (Multiple Choice) The hobby vs. side business distinction depends on: A) Personal labeling only B) Factors like profit intent, regularity, and tax treatment C) Business size alone D) The type of product sold
+1. (Multiple Choice) The hobby vs. side business distinction depends on: A) Personal labelling only B) Factors like profit intent, regularity, and tax treatment C) Business size alone D) The type of product sold
 2. (True/False) Small scale alone always means an activity isn't legally or financially a business.
 3. (Multiple Choice) What connects this lesson to BLUE-L1-020? A) Nothing B) Licensing obligations can apply once an activity functionally becomes a side business C) Licensing never applies to small activities D) They're unrelated topics
 4. (Short Answer) Explain why "it's just a hobby" can be a risky assumption.
@@ -124,18 +124,18 @@ Think of an activity someone you know does for extra money on the side. Using th
 1. **Correct:** B. **Explanation:** Directly stated in Topic 1. **Competency Tested:** Recall.
 2. **Correct:** False. **Explanation:** Topic 1/2 explicitly state scale alone isn't determinative. **Competency Tested:** Misconception correction.
 3. **Correct:** B. **Explanation:** Stated in Topic 3. **Competency Tested:** Cross-lesson recall.
-4. **Correct:** Because the activity may functionally qualify as a business regardless of personal labeling, creating unrecognized obligations. **Competency Tested:** Synthesis.
+4. **Correct:** Because the activity may functionally qualify as a business regardless of personal labelling, creating unrecognized obligations. **Competency Tested:** Synthesis.
 5. **Correct:** More likely a side business, based on profit intent and regularity, per the Worked Example. **Competency Tested:** Applied classification.
 6. **Correct:** B. **Explanation:** Stated in FAQ. **Competency Tested:** Recall.
 7. **Correct:** False. **Explanation:** Common Mistakes explicitly states this. **Competency Tested:** Misconception correction.
 8. **Correct:** Any of: profit intent, regularity, how it's treated for tax purposes. **Competency Tested:** Recall.
 9. **Correct:** B. **Explanation:** Stated in Topic 3. **Competency Tested:** Cross-lesson recall.
-10. **Correct:** Answers should reference that recognizing the shift early allows for proactive recordkeeping/licensing decisions rather than an accumulated compliance gap. **Competency Tested:** Deep synthesis.
+10. **Correct:** Answers should reference that recognising the shift early allows for proactive recordkeeping/licensing decisions rather than an accumulated compliance gap. **Competency Tested:** Deep synthesis.
 
 ## Competency Standard
 `BLUE-L1-048-COMPETENCY`
 
-COMPETENCIES TAUGHT: Hobby vs. side business distinction; risk of relying on personal labeling; connection to licensing and bookkeeping obligations.
+COMPETENCIES TAUGHT: Hobby vs. side business distinction; risk of relying on personal labelling; connection to licensing and bookkeeping obligations.
 COMPETENCIES MEASURED: Definitional recall; misconception correction; cross-lesson synthesis.
 MINIMUM MASTERY SCORE: 80%
 REQUIRED PRACTICAL TASK: Completion of the Practical Exercise.
@@ -144,7 +144,7 @@ NEXT LESSON UNLOCKED: BLUE-L1-049
 RELATED TRACKS: GREEN (Taxes) — hobby income vs. business income tax treatment addressed further at higher GREEN track levels.
 
 ## Further Reading
-- BLUE-L1-020 — What Is a Business License?
+- BLUE-L1-020 — What Is a Business Licence?
 - BLUE-L1-023 — What Is Bookkeeping?
 - BLUE-L1-049 — Growth vs. Scale: Why They're Not the Same Word
 
@@ -174,7 +174,7 @@ FAQ Schema Questions: "Does earning any money make it a business?"; "What should
 
 ## AI Support Block
 `BLUE-L1-048-AI`
-AI Summary: Distinguishes hobby from side business based on profit intent, regularity, and tax treatment rather than scale or personal labeling, connecting the distinction to licensing (BLUE-L1-020) and bookkeeping (BLUE-L1-023) obligations.
+AI Summary: Distinguishes hobby from side business based on profit intent, regularity, and tax treatment rather than scale or personal labelling, connecting the distinction to licensing (BLUE-L1-020) and bookkeeping (BLUE-L1-023) obligations.
 AI Teaching Notes: Jurisdiction-specific tax/legal tests apply here — flag as REGION-SPECIFIC RULE and avoid stating specific thresholds as universal.
 
 ## Localization Block
@@ -184,4 +184,4 @@ Note: Hobby-vs-business tax distinctions vary significantly by jurisdiction — 
 
 ## References and Verification Block
 `BLUE-L1-048-REFERENCES`
-No statistics or external citations used. Distinguishing factors labeled REGION-SPECIFIC RULE throughout.
+No statistics or external citations used. Distinguishing factors labelled REGION-SPECIFIC RULE throughout.

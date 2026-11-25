@@ -25,7 +25,7 @@ Slug: advertising-law-and-truthful-marketing-claims
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a major energy-producing region hit by a sudden regional conflict that knocks out a large share of its production capacity overnight, tightening global energy supply with little warning.
 
-Apply it here: When energy prices spike, companies rush to market products as 'energy-saving.' Ask across colors: Can a company claim its product 'cuts energy bills in half' (ORANGE) without proof (PURPLE)? What records must support the claim? How could a false claim affect the company's finances and reputation (BLUE/BLACK)?
+Apply it here: When energy prices spike, companies rush to market products as 'energy-saving.' Ask across colours: Can a company claim its product 'cuts energy bills in half' (ORANGE) without proof (PURPLE)? What records must support the claim? How could a false claim affect the company's finances and reputation (BLUE/BLACK)?
 
 ## Learning Objectives
 - Explain the general principles of truthful advertising
@@ -47,7 +47,7 @@ Common principles:
 
 Puffery vs. claims: Vague opinions ("the best coffee in town") are often treated as puffery. Measurable statements are treated as claims that need proof.
 
-How colors connect:
+How colours connect:
 - ORANGE: Strong marketing and truthful marketing are not opposites. Specific, proven claims are often more persuasive.
 - BLUE: Penalties, refunds, and legal costs hit cash flow.
 - BLACK: Reputation damage from misleading claims can last longer than any fine.
@@ -89,7 +89,7 @@ D) A disclosure
 
 **Q4. Why did Hana add a disclosure to the testimonial?**
 A) The customer asked
-B) It improved colors
+B) It improved colours
 C) The customer received free product, and results vary
 D) It was optional
 

@@ -25,7 +25,7 @@ Slug: founder-brand-vs-company-brand
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: In a market correction, customers become skeptical and prefer businesses they trust personally. A founder's personal reputation brings in clients. Ask across colours: Is the founder's brand an asset or a risk to the company (ORANGE/WHITE)? Who owns the founder's content and social accounts (PURPLE)? What happens if the founder leaves or becomes unavailable (BLACK)?
+Apply it here: In a market correction, customers become sceptical and prefer businesses they trust personally. A founder's personal reputation brings in clients. Ask across colours: Is the founder's brand an asset or a risk to the company (ORANGE/WHITE)? Who owns the founder's content and social accounts (PURPLE)? What happens if the founder leaves or becomes unavailable (BLACK)?
 
 ## Learning Objectives
 - Explain how founder brands build credibility

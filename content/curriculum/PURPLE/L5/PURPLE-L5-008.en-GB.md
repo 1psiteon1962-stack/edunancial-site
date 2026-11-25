@@ -25,7 +25,7 @@ Slug: buy-sell-agreements-funded-with-insurance
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once.
 
-Apply it here: During a widespread public health disruption, business owners realise that an owner's sudden illness or death could leave partners, families, and employees in chaos. Ask across colors: Does a written buy-sell agreement (PURPLE) say who buys the share? Where does the money come from (BLUE/WHITE)? How is the payout taxed (GREEN)?
+Apply it here: During a widespread public health disruption, business owners realise that an owner's sudden illness or death could leave partners, families, and employees in chaos. Ask across colours: Does a written buy-sell agreement (PURPLE) say who buys the share? Where does the money come from (BLUE/WHITE)? How is the payout taxed (GREEN)?
 
 ## Learning Objectives
 - Explain the purpose of a buy-sell agreement
@@ -42,7 +42,7 @@ Common structures:
 - Entity redemption: The company itself buys back the departing owner's share. The company often holds the insurance.
 - Hybrid: A mix, sometimes giving the company the first option and the owners the second.
 
-This coordinates several colors:
+This coordinates several colours:
 - PURPLE: The agreement sets triggers (death, disability, divorce, retirement, breach), the valuation method, and payment terms.
 - BLUE/GOLD: Life and disability insurance provide cash at the moment it is needed. Without funding, a buy-sell agreement is just a promise nobody can afford to keep.
 - GREEN: REGION-SPECIFIC RULE: The structure affects how insurance proceeds are taxed, what the buyers' new cost basis is, and whether the payment is treated as a sale or a distribution.

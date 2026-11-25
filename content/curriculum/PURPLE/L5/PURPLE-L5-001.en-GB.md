@@ -29,13 +29,13 @@ Apply it here: When borrowing suddenly gets more expensive, a real estate invest
 
 ## Learning Objectives
 - Explain why every financial decision at Level 5 runs through a legal structure
-- Describe how PURPLE connects to the other seven colors
+- Describe how PURPLE connects to the other seven colours
 - Identify the legal document that controls a given financial move
 
 ## Core Content
 In Levels 1 through 4, you learned PURPLE one piece at a time: what a contract is, what a trust does, how an LLC differs from a corporation, why a non-compete matters. Each piece made sense on its own. Level 5 asks a harder question: what happens when all of those pieces are on the board at the same time?
 
-Think back to the chess analogy. In early levels you learned how each piece moves. In Level 5, you coordinate them toward a goal. Law is different from the other colors in one important way. Law is not just another piece. Law is closer to the board itself and the rules of the game. It decides which moves are allowed, which are forbidden, and what happens when two players disagree.
+Think back to the chess analogy. In early levels you learned how each piece moves. In Level 5, you coordinate them toward a goal. Law is different from the other colours in one important way. Law is not just another piece. Law is closer to the board itself and the rules of the game. It decides which moves are allowed, which are forbidden, and what happens when two players disagree.
 
 VERIFIED FACT: Nearly every financial relationship is created or governed by some legal instrument. A mortgage is a contract secured by real property. A share of stock is a set of legal rights. A business partnership runs on an agreement, written or not. A bank account comes with terms you agreed to when you opened it.
 
@@ -48,7 +48,7 @@ Here is the Level 5 habit this track builds. Before you commit to any major deci
 
 REGION-SPECIFIC RULE: The answers depend heavily on where you live and where the asset sits. Contract rules, property law, entity law, and inheritance law differ between countries, and often between states or provinces inside one country. This track teaches the questions and the logic. The specific rules must always be confirmed locally. For UK readers: the UK has three separate legal systems (England and Wales, Scotland, and Northern Ireland), so company, property and succession rules can differ depending on where you live, and a solicitor in the right part of the UK should confirm how they apply to you.
 
-This track does not give personalized legal advice. Instead, it trains you to walk into a lawyer's office with better questions, which is exactly what the doctor analogy from earlier levels teaches: paying a professional is insurance against a much larger loss, not a cost to dodge.
+This track does not give personalised legal advice. Instead, it trains you to walk into a lawyer's office with better questions, which is exactly what the doctor analogy from earlier levels teaches: paying a professional is insurance against a much larger loss, not a cost to dodge.
 
 ## Worked Example
 ILLUSTRATIVE EXAMPLE: Dana owns two rental houses and a small landscaping company. Rates jump sharply. She wants to (a) refinance one house, (b) bring in a partner to buy new equipment for the business, and (c) move some savings from bonds into a stock index fund.
@@ -61,7 +61,7 @@ Dana runs the three legal questions on each move:
 ASSUMPTION/OPINION: Dana's best decision is not about any single move. It is about sequencing all three so the legal limits on each one are respected.
 
 ## Practice Quiz
-**Q1. At Level 5, how does PURPLE differ from the other colors?**
+**Q1. At Level 5, how does PURPLE differ from the other colours?**
 A) It is only used for lawsuits
 B) It replaces the need for tax planning
 C) It works more like the board and the rules that every other move is played on

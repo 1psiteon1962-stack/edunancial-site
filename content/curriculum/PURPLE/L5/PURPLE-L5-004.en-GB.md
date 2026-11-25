@@ -25,7 +25,7 @@ Slug: liability-separation-for-a-rental-portfolio
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: When a housing market starts to correct and tenants fall behind, disputes and lawsuits often increase. Ask across colors: If one property faces a serious claim, should the investor's other properties (RED) be exposed? How do lenders (BLUE) and tax filings (GREEN) react to holding each property in its own entity?
+Apply it here: When a housing market starts to correct and tenants fall behind, disputes and lawsuits often increase. Ask across colours: If one property faces a serious claim, should the investor's other properties (RED) be exposed? How do lenders (BLUE) and tax filings (GREEN) react to holding each property in its own entity?
 
 ## Learning Objectives
 - Explain why investors separate properties into different entities
@@ -40,7 +40,7 @@ Three common approaches:
 2. Each property in its own entity. Stronger separation. But more filings, more bank accounts, more bookkeeping, and possibly more fees.
 3. A "series" structure. REGION-SPECIFIC RULE: Some jurisdictions allow one entity to hold separate internal "series," each with its own assets and liabilities. Not every jurisdiction allows this, and some that do not allow it may not recognise the separation. Courts and lenders in some places have limited experience with it. For UK readers: moving property into a company is usually treated as a sale at market value, so it can trigger Stamp Duty Land Tax (or the Scottish or Welsh equivalent) and Capital Gains Tax, and the transfer must be registered at HM Land Registry, so take advice from a solicitor and an accountant first.
 
-This decision coordinates several colors:
+This decision coordinates several colours:
 - RED: Property type and risk matter. A small single-family home carries different exposure than a multi-unit building with shared common areas.
 - BLUE: Many lenders for residential loans prefer lending to individuals, not entities, and may require a personal guarantee anyway. Transferring a mortgaged property into an entity may trigger a "due-on-sale" clause in some loans. REGION-SPECIFIC RULE.
 - GREEN: In many places, single-owner entities can be treated as "disregarded" for income tax, so filings stay simpler. But transfer taxes or property reassessment may apply when moving property. REGION-SPECIFIC RULE.

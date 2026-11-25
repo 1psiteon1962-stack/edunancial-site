@@ -178,7 +178,7 @@ Notas de enseñanza para la IA: Todo este tema depende de la jurisdicción; már
 
 ## Bloque de localización
 `BLUE-L1-041-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 Nota: Las pruebas de clasificación varían mucho según la jurisdicción; marcar para REVISIÓN DE LOCALIZACIÓN en cada región.
 
 ## Bloque de referencias y verificación

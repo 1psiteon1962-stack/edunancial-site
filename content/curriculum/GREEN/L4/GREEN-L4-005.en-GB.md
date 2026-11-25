@@ -24,7 +24,7 @@ Slug: capital-gains-tax-analysis-why-holding-period-changes-the-tax-bill-signifi
 # Capital Gains Tax Analysis: Why Holding Period Changes the Tax Bill Significantly
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled asset boom unwinds, some investors who bought into rapidly appreciating assets less than a year ago face a decision about whether to sell now, potentially locking in a much higher tax rate, or wait just a bit longer to qualify for more favourable tax treatment. This lesson examines exactly why that specific timing decision carries real financial weight.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled asset boom unwinds, some investors who bought into rapidly appreciating assets less than a year ago face a decision about whether to sell now, potentially locking in a much higher tax rate, or wait just a bit longer to qualify for more favourable tax treatment. This lesson examines exactly why that specific timing decision carries real financial weight.
 
 ## Learning Objectives
 - Distinguish between short-term and long-term capital gains for tax purposes.

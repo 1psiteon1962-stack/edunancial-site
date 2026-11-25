@@ -75,7 +75,7 @@ Q5: B
 
 **Q4.** This dependency on an investor's own honest, individual prioritisation is precisely why goals should be orchestrated before selecting a specific trust structure.
 
-**Q5.** This direct illustration of orchestrating specific, individually prioritised goals toward an appropriate trust structure exemplifies precisely why this lesson emphasises this personalized approach to trust selection.
+**Q5.** This direct illustration of orchestrating specific, individually prioritised goals toward an appropriate trust structure exemplifies precisely why this lesson emphasises this personalised approach to trust selection.
 
 ## Key Takeaways
 - The choice among trust structures for paper assets involves a genuine tradeoff between control retention and genuine asset protection, paralleling the earlier entity structure discussion.

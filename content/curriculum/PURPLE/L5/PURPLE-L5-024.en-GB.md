@@ -25,7 +25,7 @@ Slug: seller-financing-documents-notes-security-and-default
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a central bank raising its benchmark interest rate sharply and repeatedly over a short stretch of months to fight rising inflation.
 
-Apply it here: When bank rates spike, more buyers turn to seller financing to buy businesses and properties. Ask across colors: What documents (PURPLE) make the seller's loan enforceable? What collateral (RED/BLUE) secures it? What happens if the buyer misses payments, and how does the seller report the income (GREEN)?
+Apply it here: When bank rates spike, more buyers turn to seller financing to buy businesses and properties. Ask across colours: What documents (PURPLE) make the seller's loan enforceable? What collateral (RED/BLUE) secures it? What happens if the buyer misses payments, and how does the seller report the income (GREEN)?
 
 ## Learning Objectives
 - Identify the core documents in a seller-financed deal

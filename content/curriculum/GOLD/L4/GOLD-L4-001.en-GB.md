@@ -24,7 +24,7 @@ Slug: modern-portfolio-theory-analysis-why-combining-assets-can-reduce-risk-with
 # Modern Portfolio Theory Analysis: Why Combining Assets Can Reduce Risk Without Necessarily Reducing Return
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom in a single asset class unwinds, investors who had concentrated heavily in that one category discover the hard way why spreading investments across assets that do not all move together might have softened the blow. This lesson examines the foundational theory explaining exactly why combining different assets can reduce overall portfolio risk.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom in a single asset class unwinds, investors who had concentrated heavily in that one category discover the hard way why spreading investments across assets that do not all move together might have softened the blow. This lesson examines the foundational theory explaining exactly why combining different assets can reduce overall portfolio risk.
 
 ## Learning Objectives
 - Explain the core insight of modern portfolio theory regarding combining assets into a portfolio.

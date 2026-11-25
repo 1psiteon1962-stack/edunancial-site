@@ -24,7 +24,7 @@ Slug: business-exit-strategy-analysis-why-planning-the-end-shapes-decisions-from
 # Business Exit Strategy Analysis: Why Planning the End Shapes Decisions from the Beginning
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom encourages many business owners to consider selling while valuations remain elevated, some who never seriously planned for an eventual exit discover their business is far less attractive to a buyer than its current profitability alone would suggest. This lesson examines the major paths a business exit can take, and why planning for one shapes sound decisions well before the exit itself occurs.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom encourages many business owners to consider selling while valuations remain elevated, some who never seriously planned for an eventual exit discover their business is far less attractive to a buyer than its current profitability alone would suggest. This lesson examines the major paths a business exit can take, and why planning for one shapes sound decisions well before the exit itself occurs.
 
 ## Learning Objectives
 - Identify the major categories of business exit strategy.

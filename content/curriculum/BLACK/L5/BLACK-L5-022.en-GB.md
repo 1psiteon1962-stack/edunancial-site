@@ -26,7 +26,7 @@ Slug: executive-risk-management-orchestrating-insurance-legal-financial-and-repu
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): An event planning company has grown quickly. The owner realises that the company has never formally considered what could go wrong — a cancelled festival, an injured guest, a data breach, or the loss of a key employee.
 
 ## Learning Objectives
-- Explain the purpose of an organizational risk assessment.
+- Explain the purpose of an organisational risk assessment.
 - Identify the main categories of business risk.
 - Explain the four basic responses to risk: avoid, reduce, transfer, and accept.
 - Apply an orchestrated approach to building a practical risk plan.

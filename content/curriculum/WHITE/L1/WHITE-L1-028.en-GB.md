@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define maturity date in plain terms.
 - Explain what happens at maturity.
-- Recognize that maturity length affects a bond's behaviour.
+- Recognise that maturity length affects a bond's behaviour.
 
 ## Core Content
 

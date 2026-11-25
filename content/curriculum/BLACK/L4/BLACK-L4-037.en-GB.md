@@ -24,7 +24,7 @@ Slug: leadership-derailment-analysis-why-a-leaders-own-strengths-overused-become
 # Leadership Derailment Analysis: Why a Leader's Own Strengths, Overused, Become Genuine Weaknesses
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and genuine organisational stress reveals which leaders can adapt their own habitual approach to a genuinely changed situation, some leaders discover that a specific strength that had served them well under previous conditions becomes a genuine liability when applied excessively or in this new, genuinely different context.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and genuine organisational stress reveals which leaders can adapt their own habitual approach to a genuinely changed situation, some leaders discover that a specific strength that had served them well under previous conditions becomes a genuine liability when applied excessively or in this new, genuinely different context.
 
 ## Learning Objectives
 - Explain why a leader's own genuine strength, when applied excessively or in a context where a different approach is actually needed, can become a genuine weakness undermining that leader's overall effectiveness.

@@ -24,7 +24,7 @@ Slug: recession-proofing-analysis-why-no-business-is-fully-immune-but-some-prepa
 # Recession-Proofing Analysis: Why No Business Is Fully Immune, But Some Preparation Genuinely Helps
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled economic boom shows signs of unwinding, business owners across many industries begin asking what practical steps they can realistically take to better prepare their own specific business for a potential downturn. This lesson brings together several concepts from this level into a practical resilience framework.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled economic boom shows signs of unwinding, business owners across many industries begin asking what practical steps they can realistically take to better prepare their own specific business for a potential downturn. This lesson brings together several concepts from this level into a practical resilience framework.
 
 ## Learning Objectives
 - Identify practical steps a business can take to improve its resilience heading into a potential downturn.

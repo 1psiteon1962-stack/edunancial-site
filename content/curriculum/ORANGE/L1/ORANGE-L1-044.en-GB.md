@@ -29,7 +29,7 @@ Recognising sales as a life skill, not a job title, changes how seriously it's w
 
 ## Worked Example
 
-Someone needing videos for a bilingual TV programme used cold outreach, objection handling, persistence, and social proof — all sales skills — despite never having a "sales job." The same skills that got dozens of record companies to eventually say yes are the exact skills that would help someone negotiate a better deal on a car, convince a landlord to make a repair, or get buy-in from a skeptical group of collaborators on a new idea.
+Someone needing videos for a bilingual TV programme used cold outreach, objection handling, persistence, and social proof — all sales skills — despite never having a "sales job." The same skills that got dozens of record companies to eventually say yes are the exact skills that would help someone negotiate a better deal on a car, convince a landlord to make a repair, or get buy-in from a sceptical group of collaborators on a new idea.
 
 ## Practice Quiz
 

@@ -35,7 +35,7 @@ law.
 *(REGION-SPECIFIC RULE: laws vary by country.)* In many places, no
 formal paperwork is required — if someone starts doing business under
 their own name with no other structure, they're automatically a sole
-proprietor. A local license or a "doing business as" filing may still
+proprietor. A local licence or a "doing business as" filing may still
 apply.
 
 ### The Real Risk: Ask Yourself This
@@ -50,7 +50,7 @@ corporations, built specifically to change that answer.
 ## Worked Example
 
 A freelance photographer books clients under her own name — no LLC, no
-paperwork beyond a basic license. She's a sole proprietor by default.
+paperwork beyond a basic licence. She's a sole proprietor by default.
 Now imagine her equipment fails and damages a client's property. Ask
 yourself: whose assets could a lawsuit reach? Because there's no
 separation, it's hers personally — not just "the business's."

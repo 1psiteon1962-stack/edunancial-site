@@ -60,7 +60,7 @@ fund rather than a stock-focused fund with more volatility.
    higher-risk than stock funds.
 
 3. Why might an investor use a money market fund?
-   A. To maximize long-term growth potential
+   A. To maximise long-term growth potential
    B. For relative stability and liquidity
    C. To avoid all forms of risk entirely
    D. To buy real estate

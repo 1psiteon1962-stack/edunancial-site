@@ -62,7 +62,7 @@ Recall from BLUE-L1-038 that self-employed growth hits a hard, hours-based ceili
 
 ## Key Definitions
 - **Business System:** A documented, repeatable process for handling a specific business function, designed to be performed consistently by someone other than the owner.
-- **Tacit Knowledge:** Knowledge that exists only in a person's head, not written down or documented, which systems are designed to capture and formalize.
+- **Tacit Knowledge:** Knowledge that exists only in a person's head, not written down or documented, which systems are designed to capture and formalise.
 
 ## Worked Examples
 [ILLUSTRATIVE EXAMPLE] A bakery owner who personally decides pricing, checks quality, and greets every customer has no systems — everything depends on her presence. A bakery owner who has written pricing guidelines, a quality checklist, and trained staff on customer greeting standards has begun building systems that don't require her personal, constant involvement.
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-039-REFERENCES`
-No statistics or external citations used. All examples labeled ILLUSTRATIVE EXAMPLE.
+No statistics or external citations used. All examples labelled ILLUSTRATIVE EXAMPLE.

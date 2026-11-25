@@ -24,7 +24,7 @@ Slug: win-back-campaign-analysis-why-reactivating-a-lapsed-customer-differs-from
 # Win-Back Campaign Analysis: Why Reactivating a Lapsed Customer Differs From Acquiring a New One
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and businesses look to recover revenue efficiently, some discover that a lapsed former customer, someone who already knows the product and chose to leave, requires a genuinely different re-engagement approach than a brand-new prospect who has never used the product at all.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and businesses look to recover revenue efficiently, some discover that a lapsed former customer, someone who already knows the product and chose to leave, requires a genuinely different re-engagement approach than a brand-new prospect who has never used the product at all.
 
 ## Learning Objectives
 - Explain why a lapsed former customer occupies a genuinely different position than a brand-new prospect, having already formed a specific, informed opinion based on actual past experience.

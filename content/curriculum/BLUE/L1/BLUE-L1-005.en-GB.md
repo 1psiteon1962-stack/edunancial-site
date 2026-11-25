@@ -59,7 +59,7 @@ business.
    A. Limited Liability Practice
    B. Limited Liability Partnership
    C. Legal Licensed Professional
-   D. Local Liability Program
+   D. Local Liability Programme
 
 2. True or False: LLPs are typically structured for a single owner.
 

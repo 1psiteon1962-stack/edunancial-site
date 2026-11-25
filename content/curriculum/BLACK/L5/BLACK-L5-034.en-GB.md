@@ -98,4 +98,4 @@ Q5: B
 - Build executive teams with complementary skills.
 - Define decision rights clearly.
 - Use trust to support constructive disagreement.
-- Share accountability for organizational success.
+- Share accountability for organisational success.

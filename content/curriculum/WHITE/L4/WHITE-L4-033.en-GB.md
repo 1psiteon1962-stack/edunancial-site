@@ -24,7 +24,7 @@ Slug: behavioural-bias-analysis-why-loss-aversion-distorts-investment-decisions
 # Behavioural Bias Analysis: Why Loss Aversion Distorts Investment Decisions
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled market boom turns into a sharp downturn, many investors find themselves unable to sell losing positions, holding on far longer than their own analysis would suggest, while eagerly selling winning positions to "lock in" smaller gains. This lesson explains the well-documented psychological bias behind that pattern.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled market boom turns into a sharp downturn, many investors find themselves unable to sell losing positions, holding on far longer than their own analysis would suggest, while eagerly selling winning positions to "lock in" smaller gains. This lesson explains the well-documented psychological bias behind that pattern.
 
 ## Learning Objectives
 - Define loss aversion as a behavioural finance concept.

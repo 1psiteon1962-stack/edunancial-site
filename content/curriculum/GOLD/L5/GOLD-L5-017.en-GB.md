@@ -74,7 +74,7 @@ Q5: B
 
 **Q3.** This genuine, additional variability from company-specific factors, echoing the earlier correlation discussion, is precisely why mining equities' correlation to physical metals prices is generally positive but not perfect.
 
-**Q4.** This genuine distinction in exposure characteristics, favoring different investor preferences, is precisely why these two vehicles are not simply interchangeable substitutes for identical underlying exposure.
+**Q4.** This genuine distinction in exposure characteristics, favouring different investor preferences, is precisely why these two vehicles are not simply interchangeable substitutes for identical underlying exposure.
 
 **Q5.** This direct illustration of orchestrating a specific preference regarding leverage, operational risk, and correlation toward an individually appropriate choice exemplifies precisely why this lesson emphasises this comprehensive comparison between mining equities and physical metals.
 

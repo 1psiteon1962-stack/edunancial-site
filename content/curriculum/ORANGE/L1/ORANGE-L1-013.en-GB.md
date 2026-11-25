@@ -21,7 +21,7 @@ date: "2026-08-09"
 
 ## Core Content
 
-People are heavily influenced by what other people similar to them are doing. If your neighbors are buying solar panels, you're more likely to consider it. If nobody you know has tried something, you're more hesitant. This is called social proof, and it's one of the most powerful — and most honest, when used correctly — tools in sales.
+People are heavily influenced by what other people similar to them are doing. If your neighbours are buying solar panels, you're more likely to consider it. If nobody you know has tried something, you're more hesitant. This is called social proof, and it's one of the most powerful — and most honest, when used correctly — tools in sales.
 
 One specific version of this is the "equal opportunity" framing: once you have even one person or company who's said yes, you can honestly tell the next prospect that others are already participating, and that you want to make sure everyone gets an equal shot before spots or availability run out. This isn't manipulation as long as it's true — you're not inventing fake participants, you're accurately sharing that momentum exists and inviting the person to be part of it rather than left out.
 

@@ -76,7 +76,7 @@ Q5: B
 
 **Q4.** This dependency of the genuinely appropriate allocation on an investor's own specific, individual priorities is precisely why no single asset class is universally superior among these four options.
 
-**Q5.** This direct illustration of orchestrating personal priorities and existing portfolio composition toward a specific, individually appropriate choice exemplifies precisely why this lesson emphasises personalized orchestration among these four asset classes.
+**Q5.** This direct illustration of orchestrating personal priorities and existing portfolio composition toward a specific, individually appropriate choice exemplifies precisely why this lesson emphasises personalised orchestration among these four asset classes.
 
 ## Key Takeaways
 - Alternative assets generally offer minimal genuine control compared to business ownership or real estate, since a physical commodity holding involves no operational decision-making.

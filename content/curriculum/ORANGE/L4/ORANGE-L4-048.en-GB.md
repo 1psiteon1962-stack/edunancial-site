@@ -24,7 +24,7 @@ Slug: aggressive-pricing-and-share-capture-strategy-analysis-why-a-half-committe
 # Aggressive Pricing and Share-Capture Strategy Analysis: Why a Half-Committed Move Wastes the Opportunity
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and a struggling competitor's weakened position creates a genuine opening, a business that has decided to pursue an aggressive pricing and share-capture strategy discovers that committing only partial resources to this specific effort produces the worst of both worlds: the costs of an aggressive move without the actual results a fully committed effort would have achieved.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and a struggling competitor's weakened position creates a genuine opening, a business that has decided to pursue an aggressive pricing and share-capture strategy discovers that committing only partial resources to this specific effort produces the worst of both worlds: the costs of an aggressive move without the actual results a fully committed effort would have achieved.
 
 ## Learning Objectives
 - Explain why, once a business has genuinely decided to pursue an aggressive share-capture strategy, a half-committed, underpowered version of that strategy can be worse than either full commitment or no action at all.

@@ -24,7 +24,7 @@ Slug: pro-se-representation-analysis-why-representing-yourself-trades-cost-savin
 # Pro Se Representation Analysis: Why Representing Yourself Trades Cost Savings for Genuine, Specific Risks
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and many individuals and small businesses face legal disputes while simultaneously trying to control costs, some consider representing themselves without hiring an attorney, specifically to save on legal fees. This lesson examines exactly what this choice actually involves, and the genuine, specific risks it carries beyond simply the challenge of learning unfamiliar legal procedures.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and many individuals and small businesses face legal disputes while simultaneously trying to control costs, some consider representing themselves without hiring an attorney, specifically to save on legal fees. This lesson examines exactly what this choice actually involves, and the genuine, specific risks it carries beyond simply the challenge of learning unfamiliar legal procedures.
 
 ## Learning Objectives
 - Explain the general legal right to represent oneself ('pro se') in most civil legal proceedings.

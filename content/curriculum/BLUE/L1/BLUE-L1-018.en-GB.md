@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define bootstrapping in plain terms.
 - Explain the core trade-off of bootstrapping.
-- Recognize it as a deliberate strategy, not just a default.
+- Recognise it as a deliberate strategy, not just a default.
 
 ## Core Content
 

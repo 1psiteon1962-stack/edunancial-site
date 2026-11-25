@@ -33,7 +33,7 @@ percentage (commonly around 20%) from a recent high.
 ### What the Labels Are Based On
 
 These terms describe an observed trend over a period of time, not a
-prediction. A market is typically labeled "bull" or "bear" based on
+prediction. A market is typically labelled "bull" or "bear" based on
 price movement that has already happened, looking backward or at a
 current sustained pattern.
 
@@ -58,7 +58,7 @@ guarantee that prices will keep rising.
    C. A single day of trading
    D. A type of bond
 
-2. True or False: Being labeled a "bull market" guarantees prices will
+2. True or False: Being labelled a "bull market" guarantees prices will
    keep rising.
 
 3. What are bull and bear market labels typically based on?

@@ -67,7 +67,7 @@ ILLUSTRATIVE EXAMPLE: Adaeze runs a company selling drip irrigation kits to smal
 - Free monthly workshops on water-saving techniques, open to everyone, not just customers.
 - A peer network where farmers share results and advice, moderated by her team.
 - A mentorship programme pairing experienced farmers with newer ones.
-- A referral program: members who refer a new customer receive a discount on spare parts, clearly disclosed.
+- A referral programme: members who refer a new customer receive a discount on spare parts, clearly disclosed.
 
 Her team follows guidelines:
 - Workshop materials say clearly that results vary with soil, climate, and practices. No promises of specific yields or income.

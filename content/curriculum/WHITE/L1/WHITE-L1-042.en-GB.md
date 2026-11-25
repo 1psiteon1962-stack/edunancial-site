@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define an annuity in plain terms.
 - Explain the basic idea behind converting a lump sum into payments.
-- Recognize that annuities vary widely in structure and complexity.
+- Recognise that annuities vary widely in structure and complexity.
 
 ## Core Content
 

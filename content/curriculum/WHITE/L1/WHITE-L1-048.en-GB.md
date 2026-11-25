@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define time-weighted return and dollar-weighted return in plain terms.
 - Explain why they can produce different numbers for the same fund.
-- Recognize why the timing of contributions matters to personal return.
+- Recognise why the timing of contributions matters to personal return.
 
 ## Core Content
 
@@ -58,7 +58,7 @@ different personal experience based on timing.
    B. The investment's own performance, independent of contribution
       timing
    C. Only dividend income
-   D. A company's market capitalization
+   D. A company's market capitalisation
 
 2. True or False: Dollar-weighted return is unaffected by when an
    investor adds or withdraws money.

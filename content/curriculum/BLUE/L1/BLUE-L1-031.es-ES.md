@@ -177,7 +177,7 @@ Notas de enseñanza para la IA: Anima a los estudiantes a identificar un mercado
 
 ## Bloque de localización
 `BLUE-L1-031-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-031-REFERENCES`

@@ -30,7 +30,7 @@ Here's the "why" this distorts investment decisions: after an extended period of
 
 ## Worked Example
 
-[ILLUSTRATIVE EXAMPLE] After several years of strong, steady market gains, an investor comes to feel that this pace of growth is the normal expectation going forward, leading him to take on more investment risk than he originally intended. After a subsequent sharp downturn, that same feeling flips — the recent decline now feels like it will simply continue, leading him to sell near the bottom and avoid reinvesting even as conditions begin to stabilize. [ASSUMPTION] In both cases, his expectations were shaped disproportionately by the most recent period rather than a fuller historical perspective on how markets have moved through both up and down cycles over time.
+[ILLUSTRATIVE EXAMPLE] After several years of strong, steady market gains, an investor comes to feel that this pace of growth is the normal expectation going forward, leading him to take on more investment risk than he originally intended. After a subsequent sharp downturn, that same feeling flips — the recent decline now feels like it will simply continue, leading him to sell near the bottom and avoid reinvesting even as conditions begin to stabilise. [ASSUMPTION] In both cases, his expectations were shaped disproportionately by the most recent period rather than a fuller historical perspective on how markets have moved through both up and down cycles over time.
 
 ## Practice Quiz
 

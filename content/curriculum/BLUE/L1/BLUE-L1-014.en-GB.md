@@ -48,7 +48,7 @@ real gaps once someone has to write them down clearly.
 ## Worked Example
 
 Someone with a business idea they're excited about sits down to write a
-plan and realizes, in the process, they can't clearly answer "who
+plan and realises, in the process, they can't clearly answer "who
 exactly is my customer" — a question they'd never been forced to
 confront in casual conversation about the idea. Ask yourself: was
 writing the plan a waste of time if no lender ever reads it? Not if it
@@ -72,7 +72,7 @@ surfaced that gap before real money was spent.
    B. It forces specific answers to questions easy to skip in casual
       planning
    C. It guarantees business success
-   D. It replaces the need for a business license
+   D. It replaces the need for a business licence
 
 ## Answer Key
 

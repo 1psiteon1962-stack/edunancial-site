@@ -24,7 +24,7 @@ Slug: employee-equity-compensation-analysis-why-stock-options-and-grants-align-i
 # Employee Equity Compensation Analysis: Why Stock Options and Grants Align Incentives but Carry Real Complexity
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled hiring boom unwinds, employees at many growth-stage companies who accepted lower cash salaries in exchange for substantial equity compensation discover just how much the actual value of that compensation depends on factors entirely outside their own individual control. This lesson examines how equity compensation is structured, and the genuine complexity and risk it carries.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled hiring boom unwinds, employees at many growth-stage companies who accepted lower cash salaries in exchange for substantial equity compensation discover just how much the actual value of that compensation depends on factors entirely outside their own individual control. This lesson examines how equity compensation is structured, and the genuine complexity and risk it carries.
 
 ## Learning Objectives
 - Explain the basic purpose of offering employees equity compensation rather than, or in addition to, cash salary.

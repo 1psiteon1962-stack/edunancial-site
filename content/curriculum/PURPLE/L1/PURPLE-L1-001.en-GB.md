@@ -65,7 +65,7 @@ D) Only securities law
 A) Real estate law only
 B) Securities laws that make markets trustworthy
 C) No legal framework
-D) Only business licenses
+D) Only business licences
 
 
 **Question 4.** PURPLE's goal, per this lesson, is to make the learner:

@@ -54,7 +54,7 @@ In her early career, Amara (from Lesson 2) uses tax software confidently for her
 **6. Answers and Explanations**
 1. Tax software can effectively handle relatively straightforward situations, such as a single W-2 with the standard deduction.
 2. Self-employment income, multiple income sources, significant investments, and multi-state considerations increase the value of professional guidance.
-3. The right choice depends on the taxpayer's specific situation complexity, not a universal rule favoring either option.
+3. The right choice depends on the taxpayer's specific situation complexity, not a universal rule favouring either option.
 4. Amara's growing complexity across several dimensions appropriately shifted the balance toward professional guidance.
 
 **7. Key Takeaways**

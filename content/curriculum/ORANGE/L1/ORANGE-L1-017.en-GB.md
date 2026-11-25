@@ -23,7 +23,7 @@ date: "2026-08-09"
 
 Organic reach means people see your content or hear about you without you paying to put it in front of them — a social media post that gets shared, a referral from a happy customer, a search result that shows up naturally. Paid reach means you're paying money to guarantee visibility — an ad, a sponsored post, a paid placement.
 
-Organic reach is generally slower to build and less predictable, but it's often more trusted, because people feel like they found you rather than being sold to. Paid reach is faster and more controllable — you can decide today to spend money and get in front of people tomorrow — but it stops the moment you stop paying, and people are often more skeptical of content they know is an ad.
+Organic reach is generally slower to build and less predictable, but it's often more trusted, because people feel like they found you rather than being sold to. Paid reach is faster and more controllable — you can decide today to spend money and get in front of people tomorrow — but it stops the moment you stop paying, and people are often more sceptical of content they know is an ad.
 
 Most healthy businesses use both. Paid reach can jump-start visibility while organic reach is still building. Organic reach, once established, provides a more stable, lower-cost foundation that doesn't disappear the moment a budget runs out.
 

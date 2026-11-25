@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Explain what "C corp" and "S corp" refer to.
 - Explain the core tax difference between them.
-- Recognize that S corp status comes with real eligibility limits.
+- Recognise that S corp status comes with real eligibility limits.
 
 ## Core Content
 

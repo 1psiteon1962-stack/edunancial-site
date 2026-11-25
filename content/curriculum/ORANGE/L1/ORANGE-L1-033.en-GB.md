@@ -45,7 +45,7 @@ A freelance consultant reviews her pipeline weekly. She notices fifteen prospect
 4. A stalled group of prospects in "Contacted" and not enough prospects in "Proposal Sent" to hit her revenue goal.
 
 ## Answers and Explanations
-1. This defines the pipeline as an organizational tool applied to real, individual prospects.
+1. This defines the pipeline as an organisational tool applied to real, individual prospects.
 2. These stages represent the practical, trackable version of the funnel concept.
 3. Pipeline visibility supports proactive business decisions rather than reactive surprises.
 4. Reviewing the pipeline surfaced a specific, addressable problem before it became a revenue crisis.

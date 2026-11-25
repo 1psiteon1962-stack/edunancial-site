@@ -45,7 +45,7 @@ for different purposes.
 ## Worked Example
 
 An investor saving specifically for retirement decades away might
-prioritize a 401(k) or IRA for the tax benefits. The same investor
+prioritise a 401(k) or IRA for the tax benefits. The same investor
 saving for a goal in the next few years, needing flexible access, might
 use a standard brokerage account instead.
 

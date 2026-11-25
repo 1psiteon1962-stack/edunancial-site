@@ -24,7 +24,7 @@ Slug: opportunity-zone-tax-analysis-why-a-targeted-investment-incentive-comes-wi
 # Opportunity Zone Tax Analysis: Why a Targeted Investment Incentive Comes with Specific Structural Requirements
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom in asset values produces significant capital gains for many investors, some become interested in a specific federal tax incentive programme designed to encourage reinvesting those gains into designated, economically distressed areas, in exchange for meaningful tax benefits tied to specific holding requirements. This lesson examines how that programme's tax structure actually works.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom in asset values produces significant capital gains for many investors, some become interested in a specific federal tax incentive programme designed to encourage reinvesting those gains into designated, economically distressed areas, in exchange for meaningful tax benefits tied to specific holding requirements. This lesson examines how that programme's tax structure actually works.
 
 ## Learning Objectives
 - Explain the basic policy goal behind the Qualified Opportunity Zone tax incentive programme.

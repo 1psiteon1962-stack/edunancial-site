@@ -6,7 +6,7 @@ level: 5
 lessonNumber: 44
 locale: en-GB
 title: "Personal Leadership Sustainability: Orchestrating Health, Family, and Executive Demands"
-summary: "Learn why a leader's energy, health, and relationships affect organizational performance, and how leaders build sustainable routines and boundaries."
+summary: "Learn why a leader's energy, health, and relationships affect organisational performance, and how leaders build sustainable routines and boundaries."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-19"
@@ -16,7 +16,7 @@ Folder: BLACK/L5
 Title: Personal Leadership Sustainability: Orchestrating Health, Family, and Executive Demands
 Lesson ID: BLACK-L5-044
 Author: Waldemar M. Caban, JD MA
-Meta Description: Learn why a leader's energy, health, and relationships affect organizational performance, and how leaders build sustainable routines and boundaries.
+Meta Description: Learn why a leader's energy, health, and relationships affect organisational performance, and how leaders build sustainable routines and boundaries.
 SEO Keywords: leadership sustainability, executive burnout, work-life balance, leader wellbeing, sustainable leadership
 Slug: personal-leadership-sustainability-orchestrating-health-family-and-executive-demands
 
@@ -95,7 +95,7 @@ Q5: D
 **Q5.** Sustainable routines improved effectiveness.
 
 ## Key Takeaways
-- Leader sustainability supports organizational performance.
+- Leader sustainability supports organisational performance.
 - Recognise burnout warning signs.
 - Delegate and build systems.
 - Protect time for health, family, and reflection.

@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-042-REFERENCES`
-No statistics or external citations used. All examples labeled ILLUSTRATIVE EXAMPLE.
+No statistics or external citations used. All examples labelled ILLUSTRATIVE EXAMPLE.

@@ -25,7 +25,7 @@ Despite newer platforms, email remains one of the most direct and effective sale
 
 An effective sales email is short, has one clear purpose, and ends with one clear next step. Long emails with multiple asks tend to get skimmed or ignored. A subject line that's specific and honest performs far better than a vague or clickbait one, because it sets accurate expectations for what's inside.
 
-Email also allows for personalization at scale — referencing something specific about the recipient or their situation, even in a templated email, makes it feel considered rather than mass-produced.
+Email also allows for personalisation at scale — referencing something specific about the recipient or their situation, even in a templated email, makes it feel considered rather than mass-produced.
 
 For UK readers: marketing emails to individuals in the UK generally need prior consent under PECR (with a limited 'soft opt-in' for existing customers), and every message must offer an easy way to unsubscribe; check the ICO's guidance for the current rules.
 

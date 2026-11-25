@@ -37,7 +37,7 @@ Growth investing focuses on companies expected to grow revenue and earnings fast
 
 Here is the "why" growth stocks tend to be more sensitive to rate changes than value stocks, directly connecting to Lesson 11's discount rate analysis: growth companies' valuations depend more heavily on cash flows expected further in the future, which are discounted more heavily when interest rates rise, as in the scenario above, while value companies, generating more substantial current cash flow, are less affected by this discounting mechanism. This is why growth stocks have historically tended to underperform during periods of sharply rising rates, while value stocks have often held up relatively better or even outperformed during the same periods.
 
-This is why style leadership has historically rotated over time rather than one style permanently dominating the other: OPINION and observed historical pattern, periods of falling or low interest rates and strong economic optimism about future growth have often favored growth stocks, while periods of rising rates, economic uncertainty, or a market reassessment of speculative growth assumptions have often favored value stocks. Recognising which broad environment currently prevails, without assuming either style's recent performance will continue indefinitely, is a key part of sector- and style-level portfolio analysis.
+This is why style leadership has historically rotated over time rather than one style permanently dominating the other: OPINION and observed historical pattern, periods of falling or low interest rates and strong economic optimism about future growth have often favoured growth stocks, while periods of rising rates, economic uncertainty, or a market reassessment of speculative growth assumptions have often favoured value stocks. Recognising which broad environment currently prevails, without assuming either style's recent performance will continue indefinitely, is a key part of sector- and style-level portfolio analysis.
 
 ## Worked Example
 ILLUSTRATIVE EXAMPLE: During a multi-year period of low interest rates and optimism about future technology growth, a growth-stock-heavy index significantly outperforms a value-stock-heavy index. When a central bank then raises rates sharply and repeatedly to fight inflation, that same growth-stock-heavy index underperforms the value-stock-heavy index substantially over the following two years, as the market reprices growth companies' distant future cash flows at a higher discount rate while value companies' more immediate cash flows are less affected — illustrating the kind of style rotation that has recurred across multiple historical rate cycles.
@@ -57,7 +57,7 @@ D) Interest rates only affect bond prices, never stock prices of any style
 
 **Q3. Why has leadership between growth and value investing historically rotated rather than one style permanently dominating?**
 A) One style has always permanently outperformed the other throughout history with no exceptions
-B) Different economic and interest rate environments have favored each style at different times, based on observed historical patterns
+B) Different economic and interest rate environments have favoured each style at different times, based on observed historical patterns
 C) Growth and value stocks always perform identically regardless of economic conditions
 D) Style rotation has never actually been observed in historical market data
 
@@ -85,7 +85,7 @@ Q5: B
 
 **Q2.** This connects directly to the discount rate mechanism covered earlier: more distant expected cash flows are more heavily affected by rising discount rates.
 
-**Q3.** Shifting rate environments and economic conditions have historically favored one style over the other at different points, producing the observed rotation pattern.
+**Q3.** Shifting rate environments and economic conditions have historically favoured one style over the other at different points, producing the observed rotation pattern.
 
 **Q4.** The heightened sensitivity of growth stock valuations to the discount rate mechanism directly explains their relative underperformance during the rate-hiking period.
 

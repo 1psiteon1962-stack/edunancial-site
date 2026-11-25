@@ -27,7 +27,7 @@ ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): A home he
 
 ## Learning Objectives
 - Explain why compliance depends on culture and systems, not only rules.
-- Identify the components of a practical compliance program.
+- Identify the components of a practical compliance programme.
 - Explain how leaders balance compliance cost with risk.
 - Apply an orchestrated approach to strengthening compliance.
 
@@ -38,7 +38,7 @@ A practical compliance programme includes: knowing which laws and regulations ap
 
 Culture is decisive. If leaders praise results while ignoring how they were achieved, employees learn that shortcuts are acceptable. If leaders model and reward compliant behaviour, it becomes normal.
 
-Cost matters, but non-compliance often costs far more through penalties, lost licenses, lawsuits, and reputation damage. Leaders should design compliance efficiently — removing unnecessary paperwork while protecting what is required.
+Cost matters, but non-compliance often costs far more through penalties, lost licences, lawsuits, and reputation damage. Leaders should design compliance efficiently — removing unnecessary paperwork while protecting what is required.
 
 Compliance is also a competitive advantage. Customers, partners, and regulators trust organisations with a reliable record.
 
@@ -52,7 +52,7 @@ B) Rules are always unclear
 C) Employees never read policies
 D) Regulators do not enforce rules
 
-**Q2. Which is a component of a practical compliance program?**
+**Q2. Which is a component of a practical compliance programme?**
 A) Avoiding training to save time
 B) Keeping policies confidential from employees
 C) Punishing anyone who raises concerns
@@ -66,7 +66,7 @@ D) By ignoring small violations
 
 **Q4. Why is non-compliance often more costly than compliance?**
 A) Compliance is always free
-B) Penalties, lost licenses, lawsuits, and reputation damage can exceed compliance costs
+B) Penalties, lost licences, lawsuits, and reputation damage can exceed compliance costs
 C) Non-compliance has no consequences
 D) Regulators reward non-compliance
 

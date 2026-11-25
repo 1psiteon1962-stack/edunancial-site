@@ -183,4 +183,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-040-REFERENCES`
-No statistics or external citations used. Hiring signals labeled ESTIMATE/OPINION.
+No statistics or external citations used. Hiring signals labelled ESTIMATE/OPINION.

@@ -24,7 +24,7 @@ Slug: dividend-tax-treatment-analysis-why-qualified-vs-ordinary-changes-the-rate
 # Dividend Tax Treatment Analysis: Why 'Qualified' vs 'Ordinary' Changes the Rate Significantly
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and dividend-paying stocks become more attractive to income-seeking investors, some are surprised to learn that not all dividends they receive are taxed at the same rate, and that a specific holding period requirement determines which, more favourable, rate actually applies. This lesson examines that distinction in detail.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and dividend-paying stocks become more attractive to income-seeking investors, some are surprised to learn that not all dividends they receive are taxed at the same rate, and that a specific holding period requirement determines which, more favourable, rate actually applies. This lesson examines that distinction in detail.
 
 ## Learning Objectives
 - Distinguish between qualified dividends and ordinary (nonqualified) dividends for tax purposes.

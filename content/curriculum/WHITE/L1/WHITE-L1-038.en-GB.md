@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 - Define insider trading in plain terms.
 - Explain the basic reasoning behind why it's prohibited.
-- Recognize this as a real legal boundary, not just an ethical guideline.
+- Recognise this as a real legal boundary, not just an ethical guideline.
 
 ## Core Content
 

@@ -58,7 +58,7 @@ In her business's early stages, a business owner confidently handles her own mar
 4. The business owner's growing complexity appropriately shifted the balance toward considering specialised marketing help.
 
 **7. Key Takeaways**
-- General factors favoring professional marketing help include growing channel complexity and insufficient time for proper testing and measurement.
+- General factors favouring professional marketing help include growing channel complexity and insufficient time for proper testing and measurement.
 - This echoes BLUE-L2-031's "business is a team sport" theme and GREEN-L2-038's software-versus-professional discussion.
 - This is a spectrum, not a fixed rule, with the balance shifting as complexity and stakes grow.
 - Recognising when complexity warrants professional guidance is itself a valuable Level 2 skill.

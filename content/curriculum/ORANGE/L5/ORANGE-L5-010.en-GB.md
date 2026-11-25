@@ -64,7 +64,7 @@ When the currency collapses and import costs soar:
 - Roaster A raises prices 30%. Most customers stay, trusting its quality.
 - Roaster B raises prices 30%. Many customers switch to the cheapest option available.
 
-Roaster A also licenses its brand to a distributor in a stronger-currency export market for a royalty (PURPLE-L5-030), earning foreign-currency income.
+Roaster A also licences its brand to a distributor in a stronger-currency export market for a royalty (PURPLE-L5-030), earning foreign-currency income.
 
 Two years later, an investor values Roaster A at a much higher multiple of earnings than Roaster B, citing brand strength, loyal customers, and licensing income.
 

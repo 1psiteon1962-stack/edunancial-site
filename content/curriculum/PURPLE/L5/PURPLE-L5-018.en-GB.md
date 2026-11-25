@@ -25,7 +25,7 @@ Slug: landlord-liability-and-umbrella-coverage
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: In a housing correction, landlords cut maintenance budgets to save cash. Ask across colors: Does deferred maintenance (RED) increase legal exposure (PURPLE) if a tenant is hurt? Does the landlord's insurance cover it? Can the claim reach other properties or personal savings (WHITE)?
+Apply it here: In a housing correction, landlords cut maintenance budgets to save cash. Ask across colours: Does deferred maintenance (RED) increase legal exposure (PURPLE) if a tenant is hurt? Does the landlord's insurance cover it? Can the claim reach other properties or personal savings (WHITE)?
 
 ## Learning Objectives
 - Identify common sources of landlord liability
@@ -40,9 +40,9 @@ Common sources of landlord liability:
 - Failure to meet habitability standards: heat, water, pest control, safety equipment. REGION-SPECIFIC RULE.
 - Discrimination claims under fair housing laws. REGION-SPECIFIC RULE.
 - Security deposit disputes and improper eviction procedures.
-- Environmental issues such as lead paint or mold in some jurisdictions. For UK readers: landlords in England must meet repair duties under the Landlord and Tenant Act 1985 and fitness standards, and tenants can only be evicted through the courts after the correct notice, so check the current rules with a solicitor or the local council.
+- Environmental issues such as lead paint or mould in some jurisdictions. For UK readers: landlords in England must meet repair duties under the Landlord and Tenant Act 1985 and fitness standards, and tenants can only be evicted through the courts after the correct notice, so check the current rules with a solicitor or the local council.
 
-How colors connect:
+How colours connect:
 - RED: Maintenance is not just a cost. It is risk management. Deferred maintenance can turn a small repair bill into a large legal claim.
 - PURPLE: Leases can assign some responsibilities to tenants (like reporting problems promptly), but many jurisdictions do not allow a lease to waive basic habitability or safety duties.
 - GOLD/BLUE: Landlord policies and umbrella coverage. An umbrella policy adds liability coverage above underlying policies, often at a low cost per million of coverage.

@@ -114,7 +114,7 @@ Explain in your own words why a sole proprietor with no employees might still wa
 6. (Multiple Choice) Which business structures generally need an EIN regardless of employee count? A) Only sole proprietorships B) Many LLCs, corporations, and partnerships C) Only nonprofits D) None do
 7. (True/False) Obtaining an EIN directly through the US federal government typically costs a fee.
 8. (Short Answer) Why is it important to note that the EIN concept is region-specific?
-9. (Multiple Choice) An EIN is most similar, in function, to: A) A trademark B) A Social Security Number, but for a business C) A business license D) A stock certificate
+9. (Multiple Choice) An EIN is most similar, in function, to: A) A trademark B) A Social Security Number, but for a business C) A business licence D) A stock certificate
 10. (Reflection) Why might the name "Employer Identification Number" cause confusion about who actually needs one?
 
 ## Answer Key
@@ -182,4 +182,4 @@ Note: For non-US locales, add a localization note that this is a US-specific sys
 
 ## References and Verification Block
 `BLUE-L1-021-REFERENCES`
-No statistics or external citations used. Entire lesson flagged REGION-SPECIFIC RULE (US federal system); cost-related claim labeled VERIFIED FACT at a general level.
+No statistics or external citations used. Entire lesson flagged REGION-SPECIFIC RULE (US federal system); cost-related claim labelled VERIFIED FACT at a general level.

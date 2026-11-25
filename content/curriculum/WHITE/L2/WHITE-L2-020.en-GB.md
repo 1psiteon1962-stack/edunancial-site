@@ -40,7 +40,7 @@ Owen ultimately chooses a middle path: investing a majority immediately, with th
    b) Lump sum investing has, on average, often outperformed pound-cost averaging historically
    c) Both approaches always produce identical results
    d) Neither approach has ever been studied
-2. Why might pound-cost averaging still benefit some investors, despite the historical average favoring lump sum investing?
+2. Why might pound-cost averaging still benefit some investors, despite the historical average favouring lump sum investing?
    a) It guarantees a higher return
    b) It may better fit an investor's psychological ability to stick with their plan
    c) It has no psychological component

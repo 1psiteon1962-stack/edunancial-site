@@ -24,7 +24,7 @@ Slug: statute-of-frauds-analysis-why-certain-contracts-must-be-in-writing-to-be-
 # Statute of Frauds Analysis: Why Certain Contracts Must Be in Writing to Be Enforceable
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled real estate boom unwinds, disputes arise between parties who claim they had reached an oral agreement regarding property or other significant transactions, only to discover that certain categories of contracts simply cannot be enforced without a signed writing, regardless of how genuine and mutually understood the oral agreement may have actually been. This lesson examines the specific legal doctrine responsible for this outcome.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled real estate boom unwinds, disputes arise between parties who claim they had reached an oral agreement regarding property or other significant transactions, only to discover that certain categories of contracts simply cannot be enforced without a signed writing, regardless of how genuine and mutually understood the oral agreement may have actually been. This lesson examines the specific legal doctrine responsible for this outcome.
 
 ## Learning Objectives
 - Explain the general purpose of the statute of frauds.

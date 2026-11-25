@@ -24,7 +24,7 @@ Slug: loss-aversion-analysis-why-losses-and-equivalent-gains-are-not-treated-sym
 # Loss Aversion Analysis: Why Losses and Equivalent Gains Are Not Treated Symmetrically in the Human Mind
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and investors face real investment losses for the first time in years, many discover that these losses feel disproportionately more painful than the equivalent-sized gains they had previously enjoyed felt pleasurable, a documented psychological asymmetry that shapes investment behaviour in specific, predictable ways. This lesson examines that asymmetry directly.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and investors face real investment losses for the first time in years, many discover that these losses feel disproportionately more painful than the equivalent-sized gains they had previously enjoyed felt pleasurable, a documented psychological asymmetry that shapes investment behaviour in specific, predictable ways. This lesson examines that asymmetry directly.
 
 ## Learning Objectives
 - Explain the concept of loss aversion as documented in behavioural finance research.
@@ -67,8 +67,8 @@ B) Establishing predetermined, specific rules in advance, such as a specific sto
 C) There is no practical strategy available to help counteract the disposition effect's typical influence on investor decision-making
 D) Investors should always sell every position showing any unrealised loss immediately, regardless of the specific investment's own underlying fundamentals
 
-**Q5. In the example, why was the investor strongly inclined to sell their winning position rather than their losing position, despite their own analysis favoring the opposite decision?**
-A) The investor's own independent analysis actually favored selling the winning position rather than the losing position
+**Q5. In the example, why was the investor strongly inclined to sell their winning position rather than their losing position, despite their own analysis favouring the opposite decision?**
+A) The investor's own independent analysis actually favoured selling the winning position rather than the losing position
 B) The psychologically painful experience of formally realising the loss on the losing position, consistent with loss aversion, made the investor strongly inclined to instead sell the winning position, illustrating precisely the disposition effect this lesson describes
 C) The investor had no actual emotional or psychological response to either potential selling decision in this example
 D) Loss aversion and the disposition effect have no actual relationship to the specific scenario described in this example

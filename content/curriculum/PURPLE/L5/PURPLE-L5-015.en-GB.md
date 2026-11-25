@@ -25,7 +25,7 @@ Slug: succession-planning-for-business-owners
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a widespread public health disruption halting global shipping and manufacturing for an extended stretch, snarling supply chains across many industries at once.
 
-Apply it here: A long disruption forces an aging owner to step back unexpectedly. Ask across colors: Is there someone trained to lead (BLACK)? Do the legal documents (PURPLE) say who takes control? Is there a way to pay the owner fairly (BLUE) without crushing the business with debt? What is the tax cost of each path (GREEN)?
+Apply it here: A long disruption forces an aging owner to step back unexpectedly. Ask across colours: Is there someone trained to lead (BLACK)? Do the legal documents (PURPLE) say who takes control? Is there a way to pay the owner fairly (BLUE) without crushing the business with debt? What is the tax cost of each path (GREEN)?
 
 ## Learning Objectives
 - Compare the main succession paths for a business
@@ -42,7 +42,7 @@ Main paths:
 4. Sale to an outside buyer or competitor.
 5. Orderly wind-down. For UK readers: selling shares can qualify for Business Asset Disposal Relief on part of the gain if conditions are met, while employee ownership trusts have their own tax rules, so check the options with an accountant before agreeing a structure.
 
-Each path coordinates several colors:
+Each path coordinates several colours:
 - BLACK: Is a successor ready? Leadership takes years to build. The systems epiphany from earlier levels applies: a business that depends entirely on the owner cannot be sold for full value, because the buyer is buying a job, not a business.
 - PURPLE: Buy-sell agreements (PURPLE-L5-008), updated operating agreements, powers of attorney for incapacity, and estate documents.
 - BLUE: How will the buyer pay? Seller financing, bank loans, earnouts, or instalment sales. Family and employee buyers rarely have cash.

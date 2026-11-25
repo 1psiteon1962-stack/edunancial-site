@@ -24,7 +24,7 @@ Slug: anchoring-bias-analysis-why-an-arbitrary-reference-point-can-distort-an-in
 # Anchoring Bias Analysis: Why an Arbitrary Reference Point Can Distort an Investment Decision
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and asset prices decline meaningfully from their earlier peaks, many investors find themselves unable to stop thinking about what a specific holding was once worth, or what they originally paid for it, even though neither figure has any actual bearing on whether that holding still makes sense to own today. This lesson examines the specific psychological tendency responsible for this fixation.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and asset prices decline meaningfully from their earlier peaks, many investors find themselves unable to stop thinking about what a specific holding was once worth, or what they originally paid for it, even though neither figure has any actual bearing on whether that holding still makes sense to own today. This lesson examines the specific psychological tendency responsible for this fixation.
 
 ## Learning Objectives
 - Explain the concept of anchoring bias as documented in behavioural finance and broader psychological research.

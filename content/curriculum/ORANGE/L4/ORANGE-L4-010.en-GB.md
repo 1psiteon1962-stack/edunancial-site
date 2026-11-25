@@ -24,7 +24,7 @@ Slug: consultative-selling-vs-transactional-selling-analysis-why-the-right-appro
 # Consultative Selling vs Transactional Selling Analysis: Why the Right Approach Depends on the Purchase's Actual Complexity
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and buyers become more cautious and deliberate about significant purchases, sales teams accustomed to a fast, transactional approach discover that some of their offerings genuinely require a fundamentally different, more consultative sales approach, prompting closer attention to when each specific approach actually fits.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and buyers become more cautious and deliberate about significant purchases, sales teams accustomed to a fast, transactional approach discover that some of their offerings genuinely require a fundamentally different, more consultative sales approach, prompting closer attention to when each specific approach actually fits.
 
 ## Learning Objectives
 - Explain the distinction between consultative selling and transactional selling as two genuinely different sales approaches.
@@ -81,7 +81,7 @@ Q5: B
 ## Answers and Explanations
 **Q1.** This distinction between an extended, advisory approach and an efficient, straightforward approach is precisely what differentiates consultative from transactional selling.
 
-**Q2.** This alignment between genuine buyer need for substantive guidance on complex decisions and the consultative approach's emphasis on understanding is precisely why complexity favors this particular sales approach.
+**Q2.** This alignment between genuine buyer need for substantive guidance on complex decisions and the consultative approach's emphasis on understanding is precisely why complexity favours this particular sales approach.
 
 **Q3.** This mismatch between a fast, generic approach and the genuine trust-building the buyer's complex decision requires is precisely why applying transactional selling to a complex purchase can backfire.
 

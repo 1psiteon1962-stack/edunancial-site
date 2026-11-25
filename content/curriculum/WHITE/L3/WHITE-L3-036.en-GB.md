@@ -42,7 +42,7 @@ This is why experienced investors often think about account selection and invest
 
 1. It's an account type that offers specific tax benefits, such as tax-deferred or tax-free growth, often associated with retirement savings, with specific rules varying by jurisdiction.
 2. Because the tax treatment of investment growth and withdrawals differs by account type, meaning the same pre-tax investment performance can result in a different after-tax outcome depending on where it's held.
-3. Because these are two related but distinct choices — which investments to hold, and in which type of account to hold them — and optimizing one doesn't automatically optimise the other.
+3. Because these are two related but distinct choices — which investments to hold, and in which type of account to hold them — and optimising one doesn't automatically optimise the other.
 
 ## Answers and Explanations
 

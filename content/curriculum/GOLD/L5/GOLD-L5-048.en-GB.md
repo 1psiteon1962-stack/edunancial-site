@@ -74,7 +74,7 @@ Q5: B
 
 **Q3.** This recognition that already-invested resources cannot be recovered regardless of the continuation decision is precisely why guarding against sunk-cost attachment matters in an alternative asset context.
 
-**Q4.** This direct connection to the earlier crisis communication discussion, favoring honest transparency, is precisely why honest, direct communication matters for maintaining trust among those involved in an alternative asset holding.
+**Q4.** This direct connection to the earlier crisis communication discussion, favouring honest transparency, is precisely why honest, direct communication matters for maintaining trust among those involved in an alternative asset holding.
 
 **Q5.** This direct illustration of honest reassessment combined with transparent communication exemplifies precisely the practices this lesson recommends for leading through an active alternative asset position's genuine reassessment.
 

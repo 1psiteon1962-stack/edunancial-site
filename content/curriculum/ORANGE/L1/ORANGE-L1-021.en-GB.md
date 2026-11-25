@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 21
 locale: en-GB
 title: "Building Trust in a Sales Conversation"
-summary: "Identifies the concrete behaviors that build or destroy trust during a sales interaction."
+summary: "Identifies the concrete behaviours that build or destroy trust during a sales interaction."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
@@ -15,17 +15,17 @@ date: "2026-08-09"
 # Building Trust in a Sales Conversation
 
 ## Learning Objectives
-- Identify specific behaviors that build trust in a sales conversation
-- Identify specific behaviors that destroy trust
+- Identify specific behaviours that build trust in a sales conversation
+- Identify specific behaviours that destroy trust
 - Practice responding honestly when you don't know an answer
 
 ## Core Content
 
-Trust is the foundation every sale is built on. Without it, even a genuinely great product or service won't sell, because the customer can't be sure the seller is being straight with them. Trust isn't built through one clever line — it's built through small, consistent behaviors during the conversation itself.
+Trust is the foundation every sale is built on. Without it, even a genuinely great product or service won't sell, because the customer can't be sure the seller is being straight with them. Trust isn't built through one clever line — it's built through small, consistent behaviours during the conversation itself.
 
-Trust-building behaviors include: admitting when you don't know something instead of making up an answer, acknowledging a real limitation of your product instead of hiding it, listening more than you talk, and following through exactly on what you said you'd do, even on small things like sending information when promised.
+Trust-building behaviours include: admitting when you don't know something instead of making up an answer, acknowledging a real limitation of your product instead of hiding it, listening more than you talk, and following through exactly on what you said you'd do, even on small things like sending information when promised.
 
-Trust-destroying behaviors include: overpromising to close the sale, dodging direct questions, and pressuring someone past a clear "not yet." These behaviors might occasionally close a sale in the moment, but they cost far more in the long run through refunds, bad reviews, and lost referrals.
+Trust-destroying behaviours include: overpromising to close the sale, dodging direct questions, and pressuring someone past a clear "not yet." These behaviours might occasionally close a sale in the moment, but they cost far more in the long run through refunds, bad reviews, and lost referrals.
 
 ## Worked Example
 
@@ -34,8 +34,8 @@ A customer asks a seller a technical question the seller doesn't know the answer
 ## Practice Quiz
 
 1. Why is trust described as the foundation every sale is built on?
-2. Name two trust-building behaviors.
-3. Name two trust-destroying behaviors.
+2. Name two trust-building behaviours.
+3. Name two trust-destroying behaviours.
 4. What's the better response when you don't know an answer to a customer's question?
 
 ## Answer Key
@@ -46,11 +46,11 @@ A customer asks a seller a technical question the seller doesn't know the answer
 
 ## Answers and Explanations
 1. Trust is positioned as the prerequisite for any sale, not an optional nicety.
-2. These behaviors demonstrate honesty and reliability, both core trust drivers.
-3. These behaviors prioritise short-term closing over long-term credibility.
+2. These behaviours demonstrate honesty and reliability, both core trust drivers.
+3. These behaviours prioritise short-term closing over long-term credibility.
 4. Honest uncertainty followed by real follow-through builds more trust than a confident but incorrect answer.
 
 ## Key Takeaways
-- Trust is built through small, consistent, honest behaviors, not clever lines.
+- Trust is built through small, consistent, honest behaviours, not clever lines.
 - Admitting limitations and following through on commitments build trust; overpromising and dodging destroy it.
 - Honest uncertainty, followed by real follow-through, builds more credibility than fake confidence.

@@ -47,7 +47,7 @@ Beginner (Level 1)
 ## Core Content
 
 ### Topic 1: What Bookkeeping Actually Involves
-Bookkeeping is the ongoing process of recording every business financial transaction — sales, expenses, payments received, payments made — in an organized, consistent way.
+Bookkeeping is the ongoing process of recording every business financial transaction — sales, expenses, payments received, payments made — in an organised, consistent way.
 
 ### Topic 2: Why It Feels Optional When Business Is Slow
 [ILLUSTRATIVE EXAMPLE] During a slow month with few transactions, it's tempting to think "there's not much to record anyway" and let bookkeeping slide — but this is precisely when small gaps are easiest to create and hardest to notice later.
@@ -61,7 +61,7 @@ Every concept covered earlier in this level — revenue vs. profit (BLUE-L1-011)
 ---
 
 ## Key Definitions
-- **Bookkeeping:** The ongoing, organized recording of every business financial transaction.
+- **Bookkeeping:** The ongoing, organised recording of every business financial transaction.
 - **Reconciliation:** The process of matching recorded transactions against actual bank or account statements to confirm accuracy.
 
 ## Worked Examples
@@ -80,7 +80,7 @@ A: [OPINION] Yes — arguably even more so, since small errors are proportionall
 A: [ESTIMATE] Many small businesses benefit from at least weekly recording and monthly reconciliation, though the right frequency depends on transaction volume and business complexity.
 
 ## Key Takeaways
-- Bookkeeping is the ongoing, organized recording of every financial transaction
+- Bookkeeping is the ongoing, organised recording of every financial transaction
 - It's most tempting to skip during slow periods — exactly when skipping it does the most damage
 - Every core financial concept (profit, cash flow, break-even) depends on accurate, current records
 - Falling behind compounds, making the eventual catch-up far more difficult than staying current
@@ -107,7 +107,7 @@ Explain in your own words why a "slow month" is actually a risky time to let boo
 ## Competency Assessment
 `BLUE-L1-023-ASSESSMENT`
 
-1. (Multiple Choice) Bookkeeping is best described as: A) A one-time task done at tax time B) The ongoing, organized recording of every financial transaction C) Only tracking large purchases D) A marketing function
+1. (Multiple Choice) Bookkeeping is best described as: A) A one-time task done at tax time B) The ongoing, organised recording of every financial transaction C) Only tracking large purchases D) A marketing function
 2. (True/False) Bookkeeping matters less during slow business periods.
 3. (Multiple Choice) What concept from earlier in this level depends directly on accurate bookkeeping? A) Business licensing only B) Profit, cash flow, and break-even tracking C) Marketing strategy D) Employee hiring
 4. (Short Answer) Explain why a slow period is actually a risky time to skip bookkeeping.
@@ -128,7 +128,7 @@ Explain in your own words why a "slow month" is actually a risky time to let boo
 5. **Correct:** Inability to clearly tell whether the slow season was a loss or simply lower revenue, per the Worked Example. **Competency Tested:** Applied reasoning.
 6. **Correct:** B. **Explanation:** Defined in Key Definitions. **Competency Tested:** Recall.
 7. **Correct:** False. **Explanation:** Topic 4 explicitly describes a compounding effect. **Competency Tested:** Misconception correction.
-8. **Correct:** At least weekly recording and monthly reconciliation, per FAQ, labeled ESTIMATE. **Competency Tested:** Recall.
+8. **Correct:** At least weekly recording and monthly reconciliation, per FAQ, labelled ESTIMATE. **Competency Tested:** Recall.
 9. **Correct:** B. **Explanation:** Stated in Topic 4. **Competency Tested:** Cross-lesson recall.
 10. **Correct:** Answers should note that regular, smaller efforts prevent the compounding backlog described in the lesson, versus large infrequent catch-up efforts. **Competency Tested:** Deep synthesis.
 
@@ -182,4 +182,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-023-REFERENCES`
-No statistics or external citations used. Frequency recommendations labeled ESTIMATE.
+No statistics or external citations used. Frequency recommendations labelled ESTIMATE.

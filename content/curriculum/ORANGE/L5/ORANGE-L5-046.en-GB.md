@@ -116,7 +116,7 @@ Q5: B
 ## Answers and Explanations
 **Q1.** The Philosophical Framework scopes it as metaphor.
 
-**Q2.** Defense avoids loss but cannot create wins.
+**Q2.** Defence avoids loss but cannot create wins.
 
 **Q3.** Real windows show real customer demand.
 

@@ -179,7 +179,7 @@ Notas de enseñanza para la IA: Usa recorridos numéricos concretos; esta lecci�
 
 ## Bloque de localización
 `BLUE-L1-024-LOCALIZATION`
-Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Estado de la traducción: traducción al español (España) completada a partir de la fuente en inglés.
 
 ## Bloque de referencias y verificación
 `BLUE-L1-024-REFERENCES`

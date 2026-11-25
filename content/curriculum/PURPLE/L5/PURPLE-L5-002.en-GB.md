@@ -25,7 +25,7 @@ Slug: entity-choice-as-an-orchestrated-decision
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a large trading bloc suddenly imposing steep tariffs on a broad category of imported manufactured goods, raising costs for companies that depend on those imports as inputs.
 
-Apply it here: A small importer suddenly faces steep tariffs and needs outside money to survive. Ask across colors: Does the company's entity type (PURPLE) make it easy or hard to sell part ownership to an investor (BLUE)? Does it change how losses from this bad year can be used (GREEN)? ASSUMPTION/OPINION: An entity chosen only for today's tax bill may block tomorrow's rescue funding.
+Apply it here: A small importer suddenly faces steep tariffs and needs outside money to survive. Ask across colours: Does the company's entity type (PURPLE) make it easy or hard to sell part ownership to an investor (BLUE)? Does it change how losses from this bad year can be used (GREEN)? ASSUMPTION/OPINION: An entity chosen only for today's tax bill may block tomorrow's rescue funding.
 
 ## Learning Objectives
 - Explain why entity choice affects more than one colour at once
@@ -35,7 +35,7 @@ Apply it here: A small importer suddenly faces steep tariffs and needs outside m
 ## Core Content
 At Level 2 and Level 3, you learned the basic entity types: sole proprietorship, partnership, LLC, and corporation. You learned that entities can separate personal assets from business debts, and that some entities are taxed differently than others. At Level 5, the question changes. You are no longer asking "What is an LLC?" You are asking "Which structure lets all my pieces work together, now and five years from now?"
 
-Entity choice touches at least four colors at the same time:
+Entity choice touches at least four colours at the same time:
 - PURPLE: How much personal liability protection does it give, and what formalities are required to keep that protection?
 - GREEN: How is profit taxed? Once at the owner level, or at the company level and again when paid out?
 - BLUE: How easy is it to add partners, raise money, or give employees ownership?

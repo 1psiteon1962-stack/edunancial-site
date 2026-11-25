@@ -25,7 +25,7 @@ Slug: beneficiary-designations-the-forms-that-override-your-will
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a systemically important financial institution suddenly revealing a large, previously undisclosed loss, raising fears about counterparty risk rippling through the broader banking system.
 
-Apply it here: A financial institution's troubles push many people to move their accounts elsewhere. Ask across colors: When an account is moved (WHITE), does the old beneficiary form carry over, or does the new account start blank (PURPLE)? If blank, where does the money go at death? How does that affect taxes for heirs (GREEN)?
+Apply it here: A financial institution's troubles push many people to move their accounts elsewhere. Ask across colours: When an account is moved (WHITE), does the old beneficiary form carry over, or does the new account start blank (PURPLE)? If blank, where does the money go at death? How does that affect taxes for heirs (GREEN)?
 
 ## Learning Objectives
 - Explain why beneficiary designations often override a will
@@ -44,7 +44,7 @@ Common problems:
 - "My estate" is named, sending the money back through probate and possibly losing tax advantages.
 - An account is moved to a new institution, and a new form is never filled out.
 
-How colors connect:
+How colours connect:
 - WHITE: Retirement and brokerage accounts carry the largest balances for many families.
 - GREEN: REGION-SPECIFIC RULE: Inherited retirement accounts often have specific withdrawal timelines and tax treatment. Naming a trust vs. a person can change those timelines.
 - GOLD: Insurance proceeds are often the fastest cash available to a family after a death.

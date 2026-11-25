@@ -27,7 +27,7 @@ This doesn't mean diversification eliminates risk entirely — it means it reduc
 
 ## Worked Example
 
-ILLUSTRATIVE EXAMPLE: Holding both silver and gold, rather than only one metal, is a small-scale form of diversification within the precious metals category — the two metals have different demand drivers (industrial versus primarily investment/jewelry), so they don't always move in perfect lockstep. This is a much smaller-scale example than full portfolio diversification across many different asset classes (stocks, real estate, business ownership, and more), which later levels of this track and other tracks will cover in more depth, but it illustrates the underlying principle: not putting all resources into a single, identical bet.
+ILLUSTRATIVE EXAMPLE: Holding both silver and gold, rather than only one metal, is a small-scale form of diversification within the precious metals category — the two metals have different demand drivers (industrial versus primarily investment/jewellery), so they don't always move in perfect lockstep. This is a much smaller-scale example than full portfolio diversification across many different asset classes (stocks, real estate, business ownership, and more), which later levels of this track and other tracks will cover in more depth, but it illustrates the underlying principle: not putting all resources into a single, identical bet.
 
 ## Practice Quiz
 

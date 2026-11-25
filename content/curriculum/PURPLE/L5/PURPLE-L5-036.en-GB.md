@@ -25,7 +25,7 @@ Slug: privacy-and-data-law-in-modern-marketing
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture two large economic powers escalating export controls against each other on a category of advanced technology components used across many industries.
 
-Apply it here: As two large powers restrict technology trade, a company that stores customer data in one country faces new rules about where that data may be kept. Ask across colors: What does privacy law (PURPLE) require about storing and transferring data? How does that affect marketing campaigns (ORANGE)? What would a data breach cost the business (BLUE)?
+Apply it here: As two large powers restrict technology trade, a company that stores customer data in one country faces new rules about where that data may be kept. Ask across colours: What does privacy law (PURPLE) require about storing and transferring data? How does that affect marketing campaigns (ORANGE)? What would a data breach cost the business (BLUE)?
 
 ## Learning Objectives
 - Describe common principles of privacy and data protection law
@@ -45,7 +45,7 @@ Common principles found in many privacy laws (details REGION-SPECIFIC RULE):
 - Breach notification: Some laws require notifying people or regulators after a data breach.
 - Cross-border transfers: Some laws restrict sending personal data to other countries without safeguards. For UK readers: direct marketing by email is governed by the Privacy and Electronic Communications Regulations and UK GDPR, and serious personal data breaches must usually be reported to the Information Commissioner's Office within 72 hours, so check your obligations with the ICO.
 
-How colors connect:
+How colours connect:
 - ORANGE: Email marketing, retargeting ads, and customer profiling must fit consent and opt-out rules. An email list built without proper consent may be unusable in some places.
 - BLUE: Data breaches bring costs: notification, investigation, legal claims, and lost customers.
 - PURPLE: Privacy policies, vendor contracts (with email providers, cloud storage, and analytics tools), and internal procedures create the compliance record.
@@ -55,7 +55,7 @@ How colors connect:
 ASSUMPTION/OPINION: Treating privacy as only a legal cost misses the opportunity. Customers who trust how you handle their data are more willing to share it, and willing data sharing makes marketing more effective.
 
 ## Worked Example
-ILLUSTRATIVE EXAMPLE: Pablo's online store sells to customers in several countries. He wants to launch a personalized email campaign.
+ILLUSTRATIVE EXAMPLE: Pablo's online store sells to customers in several countries. He wants to launch a personalised email campaign.
 
 His privacy review:
 - Consent: Customers in some markets must actively opt in to marketing emails. REGION-SPECIFIC RULE. His checkout page had a pre-checked box, which may not count as valid consent in some places. He changes it to an unchecked box.

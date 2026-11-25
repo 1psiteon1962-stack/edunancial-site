@@ -24,7 +24,7 @@ Slug: alternative-minimum-tax-analysis-why-a-parallel-tax-system-can-override-st
 # Alternative Minimum Tax Analysis: Why a Parallel Tax System Can Override Standard Tax Planning
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom leads some taxpayers to accumulate significant income from stock options and other tax-preference-generating sources, a number are surprised at tax time to discover they owe meaningfully more tax than their regular income tax calculation alone had suggested. This lesson examines the parallel tax system responsible for that surprise.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom leads some taxpayers to accumulate significant income from stock options and other tax-preference-generating sources, a number are surprised at tax time to discover they owe meaningfully more tax than their regular income tax calculation alone had suggested. This lesson examines the parallel tax system responsible for that surprise.
 
 ## Learning Objectives
 - Explain the basic concept of the Alternative Minimum Tax (AMT) as a parallel tax calculation.

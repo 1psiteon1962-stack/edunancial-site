@@ -53,7 +53,7 @@ Functionally, a business failure simply means the business stopped operating, ty
 [ILLUSTRATIVE EXAMPLE] Recall the MOQ example from BLUE-L1-028 — a genuinely good idea can be blocked by a capital wall that has nothing to do with the quality of the underlying decision-making. A well-researched, reasonably executed business can still fail due to factors outside anyone's control or reasonable foresight.
 
 ### Topic 3: Walking Away as a Strategic Choice
-Recall from BLUE-L1-045 that a pivot redirects effort while retaining value. Sometimes, after genuine effort and reasonable adaptation, the most rational choice is neither pivoting nor continuing — it's recognizing that continuing would only compound losses, and walking away preserves remaining resources for a better future opportunity.
+Recall from BLUE-L1-045 that a pivot redirects effort while retaining value. Sometimes, after genuine effort and reasonable adaptation, the most rational choice is neither pivoting nor continuing — it's recognising that continuing would only compound losses, and walking away preserves remaining resources for a better future opportunity.
 
 ### Topic 4: Separating the Decision From the Outcome
 [OPINION] A decision should generally be judged by the quality of reasoning and information available at the time it was made, not solely by whether the outcome ultimately worked out — this distinction matters for learning honestly from a business failure without unfairly blaming sound decisions for factors beyond anyone's control.
@@ -62,7 +62,7 @@ Recall from BLUE-L1-045 that a pivot redirects effort while retaining value. Som
 
 ## Key Definitions
 - **Business Failure:** The functional outcome of a business ceasing to operate, typically due to an inability to sustain itself financially — a description of outcome, not inherently a judgment of decision quality.
-- **Sunk Cost:** Resources already spent that cannot be recovered regardless of future decisions — relevant to recognizing when continuing would only compound losses rather than recover past investment.
+- **Sunk Cost:** Resources already spent that cannot be recovered regardless of future decisions — relevant to recognising when continuing would only compound losses rather than recover past investment.
 
 ## Worked Examples
 [ILLUSTRATIVE EXAMPLE] An entrepreneur researches thoroughly, tests the market reasonably (per BLUE-L1-037), and executes competently, but an unforeseen shift in the market makes the business unsustainable. The business fails — but the decision-making process that led to starting it was sound, given what was reasonably knowable at the time.
@@ -183,4 +183,4 @@ Translation status: English source complete. Locale translations pending (en-GB,
 
 ## References and Verification Block
 `BLUE-L1-047-REFERENCES`
-No statistics or external citations used. Strategic framing labeled OPINION where relevant.
+No statistics or external citations used. Strategic framing labelled OPINION where relevant.

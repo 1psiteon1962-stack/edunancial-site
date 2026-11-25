@@ -25,7 +25,7 @@ Slug: dispute-resolution-strategy-negotiate-mediate-arbitrate-or-litigate
 ## Scenario Opener
 ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising.
 
-Apply it here: As a credit market corrects, a real estate developer and a contractor fight over unpaid invoices. Ask across colors: What is each side's best alternative if talks fail (ORANGE)? What would a lawsuit cost in time and money (BLUE)? Which process (PURPLE) preserves the business relationship (BLACK)?
+Apply it here: As a credit market corrects, a real estate developer and a contractor fight over unpaid invoices. Ask across colours: What is each side's best alternative if talks fail (ORANGE)? What would a lawsuit cost in time and money (BLUE)? Which process (PURPLE) preserves the business relationship (BLACK)?
 
 ## Learning Objectives
 - Compare the four main dispute resolution methods
@@ -51,7 +51,7 @@ ORANGE connection: BATNA, from ORANGE-L4, means your Best Alternative To a Negot
 
 A settlement offer better than your realistic BATNA is often worth accepting, even if it feels unfair.
 
-How colors connect:
+How colours connect:
 - BLUE: Legal costs and time drain cash flow and management attention.
 - BLACK: Leaders must decide when to fight and when to settle.
 - PURPLE: Contracts often require specific steps, such as negotiation, then mediation, then arbitration.

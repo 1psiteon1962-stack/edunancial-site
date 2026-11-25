@@ -24,7 +24,7 @@ Slug: secured-vs-unsecured-creditor-analysis-why-collateral-determines-who-gets-
 # Secured vs Unsecured Creditor Analysis: Why Collateral Determines Who Gets Paid First
 
 ## Scenario Opener
-ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fueled boom unwinds and business failures rise, creditors of failing businesses want to understand exactly why some creditors recover a meaningful portion of what they are owed while other creditors of the exact same failed business recover little or nothing at all, a difference that generally comes down to a single, central legal distinction. This lesson examines that distinction directly.
+ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): Picture a populous nation's real estate and consumer credit markets, after years of rapid expansion, beginning to show signs of a sharp correction as defaults start rising. As a credit-fuelled boom unwinds and business failures rise, creditors of failing businesses want to understand exactly why some creditors recover a meaningful portion of what they are owed while other creditors of the exact same failed business recover little or nothing at all, a difference that generally comes down to a single, central legal distinction. This lesson examines that distinction directly.
 
 ## Learning Objectives
 - Explain the fundamental distinction between a secured creditor and an unsecured creditor.

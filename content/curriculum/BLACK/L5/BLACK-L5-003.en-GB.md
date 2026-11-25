@@ -17,7 +17,7 @@ Title: Strategy, Capital, and People: Orchestrating a Growth Opportunity That Te
 Lesson ID: BLACK-L5-003
 Author: Waldemar M. Caban, JD MA
 Meta Description: Learn how a single growth opportunity can test a company's strategy, financing, staffing, and culture at the same time, and how a leader evaluates whether the organisation can actually absorb the growth it wants.
-SEO Keywords: growth strategy, capital and people, organizational capacity, scaling decisions, executive orchestration
+SEO Keywords: growth strategy, capital and people, organisational capacity, scaling decisions, executive orchestration
 Slug: strategy-capital-and-people-orchestrating-a-growth-opportunity-that-tests-every-track
 
 # Strategy, Capital, and People: Orchestrating a Growth Opportunity That Tests Every Track
@@ -28,7 +28,7 @@ ASSUMPTION/OPINION (hypothetical scenario for teaching purposes only): A small m
 ## Learning Objectives
 - Identify the strategic, financial, and people questions raised by a large growth opportunity.
 - Explain why revenue growth can create a cash shortage even when it is profitable.
-- Explain why organizational capacity — people, systems, and management time — limits growth as much as money does.
+- Explain why organisational capacity — people, systems, and management time — limits growth as much as money does.
 - Apply an orchestrated evaluation to decide whether, and how, to accept a growth opportunity.
 
 ## Core Content

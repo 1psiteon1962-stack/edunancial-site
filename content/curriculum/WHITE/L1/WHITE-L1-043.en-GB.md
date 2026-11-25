@@ -57,7 +57,7 @@ bonds to hold within that structure.
    B. Dividing a portfolio across broad categories like stocks, bonds,
       and cash
    C. A type of dividend
-   D. A government retirement program
+   D. A government retirement programme
 
 2. True or False: Asset allocation and diversification within one
    category mean exactly the same thing.

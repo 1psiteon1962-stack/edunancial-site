@@ -60,7 +60,7 @@ How colours connect:
 ASSUMPTION/OPINION: Many market entries fail not because the product was wrong, but because the company assumed customers abroad would think like customers at home.
 
 ## Worked Example
-ILLUSTRATIVE EXAMPLE: Julia's company sells a personal budgeting app in its home country. It plans to enter a neighboring country that speaks a different language.
+ILLUSTRATIVE EXAMPLE: Julia's company sells a personal budgeting app in its home country. It plans to enter a neighbouring country that speaks a different language.
 
 Translation-only approach (first draft): Translate the app and website. Launch.
 
