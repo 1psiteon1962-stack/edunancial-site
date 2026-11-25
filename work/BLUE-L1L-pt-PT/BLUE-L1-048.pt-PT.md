@@ -145,7 +145,7 @@ TRILHAS RELACIONADAS: GREEN (Impostos) — o tratamento fiscal dos rendimentos d
 ## Leituras complementares
 - BLUE-L1-020 — O que é uma licença de atividade, e porque é que saltar este passo custa mais caro depois?
 - BLUE-L1-023 — O que é a contabilidade, e porque fazê-la mesmo quando o negócio está parado?
-- BLUE-L1-049 — Crescimento x escala: porque é que não são a mesma palavra
+- BLUE-L1-049 — Crescimento vs. escala: porque não são a mesma palavra
 
 ## Trilha da lição
 `BLUE-L1-048-LOCALIZATION` (bloco de trilha)
