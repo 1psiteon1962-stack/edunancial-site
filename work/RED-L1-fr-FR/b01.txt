@@ -1,0 +1,364 @@
+===== RED-L1-006
+TITLE: Qu'est-ce que l'apport personnel, et pourquoi compte-t-il autant ?
+SUMMARY: Découvrez ce que fait réellement l'apport personnel, au-delà de simplement « réduire le prêt au départ », et comment il influe sur le risque, pour l'acheteur comme pour le prêteur.
+# Qu'est-ce que l'apport personnel, et pourquoi compte-t-il autant ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir l'apport personnel en termes simples.
+- expliquer comment le montant de l'apport influe sur le prêt et sur la mensualité.
+- expliquer pourquoi les prêteurs s'intéressent au montant de l'apport au-delà des calculs.
+
+## Contenu principal
+
+### Ce qu'est l'apport personnel
+
+L'apport personnel (en anglais « down payment ») est la partie du prix d'achat d'un bien payée d'emblée, avec ses propres fonds, plutôt qu'empruntée. Si un logement coûte 300 000 $ et que l'acheteur verse 30 000 $ d'emblée, il s'agit d'un apport de 10 %, et les 270 000 $ restants sont financés par un prêt immobilier.
+
+### L'effet sur le prêt
+
+Un apport plus important signifie un montant emprunté plus faible, donc en général une mensualité moins élevée et moins d'intérêts payés sur toute la durée du prêt. Il modifie directement les chiffres, et pas seulement le niveau de confort de l'acheteur.
+
+### Pourquoi les prêteurs s'y intéressent au-delà des calculs
+
+Un apport plus important signifie aussi que l'acheteur détient dès le premier jour une vraie part du bien (et de l'argent réel investi), ce qui réduit le risque du prêteur : un acheteur qui a beaucoup investi a davantage à perdre s'il cesse de rembourser. C'est en partie pour cela que les petits apports entraînent souvent des coûts supplémentaires, comme le PMI aux États-Unis, abordé dans la prochaine leçon. (En France, aucun apport minimal n'est imposé par la loi, mais les banques demandent souvent au moins environ 10 % du prix pour couvrir les frais ; les pratiques évoluent, vérifiez-les au moment de votre projet.)
+
+## Exemple pratique
+
+Un logement de 300 000 $ acheté avec un apport de 20 % (60 000 $) nécessite d'emprunter 240 000 $. Le même logement acheté avec un apport de 5 % (15 000 $) nécessite d'emprunter 285 000 $ : un prêt plus important, une mensualité plus élevée et davantage d'intérêts payés au total au fil du temps.
+
+## Quiz pratique
+
+1. L'apport personnel est :
+   A. Des frais mensuels versés au prêteur
+   B. La partie du prix d'achat payée d'emblée avec ses propres fonds
+   C. Un type d'assurance habitation
+   D. Une taxe payée à la signature
+
+2. Vrai ou faux : un apport plus important donne généralement une mensualité de prêt immobilier moins élevée.
+
+3. Pourquoi les prêteurs considèrent-ils généralement qu'un apport plus important présente un risque moindre ?
+   A. Il garantit que la valeur du logement augmentera
+   B. L'acheteur a davantage de son propre argent et de sa part du bien en jeu
+   C. Il dispense de toute vérification de solvabilité
+   D. Il raccourcit automatiquement la durée du prêt
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'apport personnel est la partie du prix d'achat payée d'emblée avec ses propres fonds.
+
+### Question 2
+
+Bonne réponse : Vrai. Un apport plus important réduit le montant emprunté, ce qui réduit la mensualité.
+
+### Question 3
+
+Bonne réponse : B. Lorsque l'acheteur a davantage de son propre argent en jeu, le risque de défaut de paiement pour le prêteur diminue.
+
+## Points clés
+
+- L'apport personnel est la partie payée d'emblée, avec ses propres fonds, lors de l'achat d'un logement.
+- Un apport plus important signifie un prêt plus petit, des mensualités plus faibles et moins d'intérêts au total.
+- Les prêteurs considèrent qu'un apport plus important présente un risque moindre, parce que l'acheteur a davantage en jeu.
+
+===== RED-L1-007
+TITLE: Prêt à taux fixe ou prêt à taux variable ?
+SUMMARY: Découvrez la vraie différence entre un prêt immobilier à taux fixe et un prêt à taux variable, et le compromis que représente chacun.
+# Prêt à taux fixe ou prêt à taux variable ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir un prêt immobilier à taux fixe et un prêt à taux variable.
+- expliquer le compromis entre prévisibilité et économies potentielles.
+- identifier un risque propre aux prêts à taux variable.
+
+## Contenu principal
+
+### Les prêts à taux fixe
+
+Un prêt immobilier à taux fixe bloque le même taux d'intérêt pendant toute la durée du prêt. La mensualité de capital et d'intérêts reste identique de la première à la dernière échéance, ce qui rend le budget prévisible. (En France, le taux fixe est de loin la formule la plus courante.)
+
+### Les prêts à taux variable
+
+Un prêt à taux variable (ou révisable, en anglais « ARM ») commence avec un taux souvent plus bas qu'un taux fixe comparable, mais ce taux peut évoluer périodiquement après une période initiale fixe, en fonction de la situation générale des taux d'intérêt. Les mensualités peuvent augmenter ou diminuer au fil du temps.
+
+### Le vrai compromis
+
+Le prêt à taux fixe échange un taux de départ potentiellement plus élevé contre une prévisibilité à long terme. Le prêt à taux variable échange la prévisibilité contre un coût de départ potentiellement plus bas, avec un risque réel que les mensualités augmentent plus tard. Aucun des deux n'est meilleur dans tous les cas : tout dépend de la durée pendant laquelle on compte garder le prêt et de sa tolérance à l'incertitude sur les mensualités.
+
+## Exemple pratique
+
+Un emprunteur à taux fixe paie le même montant la 1re année et la 15e année. Un emprunteur à taux variable peut payer moins que lui la 1re année, mais, si les taux montent, payer davantage dès la 6e année ; l'inverse exact peut aussi se produire si les taux baissent.
+
+## Quiz pratique
+
+1. Un prêt immobilier à taux fixe :
+   A. Change automatiquement de taux chaque année
+   B. Conserve le même taux d'intérêt pendant toute la durée du prêt
+   C. N'est accessible qu'aux primo-accédants
+   D. A toujours une mensualité plus élevée qu'un prêt à taux variable
+
+2. Vrai ou faux : la mensualité d'un prêt à taux variable ne peut jamais augmenter après la période initiale.
+
+3. Quel est le principal compromis entre un prêt à taux fixe et un prêt à taux variable ?
+   A. La prévisibilité contre un coût de départ potentiellement plus bas avec un risque de variation
+   B. Des types de prêt légaux contre illégaux
+   C. Des prêts garantis par l'État contre des prêts privés
+   D. La propriété à court terme contre la propriété à long terme
+
+## Corrigé
+
+1. B
+2. Faux
+3. A
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un prêt à taux fixe conserve le même taux pendant toute la durée du prêt.
+
+### Question 2
+
+Bonne réponse : Faux. Les mensualités d'un prêt à taux variable peuvent augmenter (ou baisser) après la période initiale fixe, selon l'évolution des taux.
+
+### Question 3
+
+Bonne réponse : A. Le compromis central oppose la prévisibilité à long terme à un coût de départ potentiellement plus bas, avec un risque de hausse future des taux.
+
+## Points clés
+
+- Le prêt à taux fixe offre un taux bloqué et prévisible pendant toute la durée.
+- Le prêt à taux variable commence souvent plus bas, mais peut évoluer après une période initiale.
+- Le bon choix dépend de la durée pendant laquelle on compte garder le prêt et de son confort face à l'incertitude des mensualités.
+
+===== RED-L1-008
+TITLE: Qu'est-ce que le PMI (assurance hypothécaire privée), et quand le paie-t-on ?
+SUMMARY: Découvrez ce que protège le PMI, qui il protège réellement et quand il s'applique à un prêt immobilier.
+# Qu'est-ce que le PMI (assurance hypothécaire privée), et quand le paie-t-on ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir le PMI en termes simples.
+- expliquer qui le PMI protège réellement.
+- expliquer quand le PMI est généralement exigé, et quand il peut disparaître.
+
+## Contenu principal
+
+### Ce qu'est le PMI
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : le PMI est un mécanisme américain. En France, les prêts immobiliers sont plutôt garantis par une caution ou une hypothèque, et l'assurance emprunteur, distincte, couvre le remboursement en cas de décès ou d'invalidité ; vérifiez les conditions auprès de votre banque.)* Le Private Mortgage Insurance (PMI) est une assurance qui protège le prêteur, et non l'emprunteur, si celui-ci cesse de rembourser le prêt. C'est un coût mensuel supplémentaire ajouté à la mensualité.
+
+### Qui il protège réellement
+
+C'est le point le plus mal compris : le PMI ne protège pas le propriétaire contre la perte de son logement. Il existe pour réduire le risque du prêteur sur les prêts où l'acheteur dispose d'un coussin de fonds propres plus faible, afin que le prêteur accepte plus volontiers d'accorder le prêt.
+
+### Quand il est exigé, et quand il prend fin
+
+Le PMI est généralement exigé sur les prêts classiques lorsque l'apport est inférieur à un certain seuil (souvent 20 %), car un apport plus faible signifie un coussin de fonds propres plus mince pour le prêteur. Il peut souvent être supprimé une fois que la part du bien détenue par l'emprunteur atteint un seuil comparable, grâce aux remboursements ou à la hausse de la valeur du bien.
+
+## Exemple pratique
+
+Un acheteur apporte 10 % au lieu de 20 % pour un logement. Comme son coussin de fonds propres est plus faible, le prêteur exige le PMI comme condition pour accorder le prêt : un coût mensuel supplémentaire jusqu'à ce qu'une part suffisante du bien soit constituée.
+
+## Quiz pratique
+
+1. Le PMI protège principalement :
+   A. Le propriétaire
+   B. Le prêteur
+   C. L'agent immobilier
+   D. La collectivité locale
+
+2. Vrai ou faux : le PMI est généralement exigé lorsque l'apport est inférieur à un certain seuil, souvent 20 %.
+
+3. Le PMI peut-il un jour être supprimé d'un prêt ?
+   A. Non, il dure pendant toute la durée du prêt
+   B. Oui, souvent une fois qu'une part suffisante du bien est constituée
+   C. Seulement si l'emprunteur fait racheter son prêt par un autre prêteur
+   D. Seulement une fois le prêt entièrement remboursé
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le PMI protège le risque du prêteur, et non le propriétaire.
+
+### Question 2
+
+Bonne réponse : Vrai. Les petits apports (en dessous d'environ 20 % sur de nombreux prêts classiques) entraînent souvent l'obligation de souscrire un PMI.
+
+### Question 3
+
+Bonne réponse : B. Le PMI peut souvent être supprimé une fois que la part détenue atteint un seuil suffisant.
+
+## Points clés
+
+- Le PMI protège le prêteur, et non le propriétaire.
+- Il est généralement exigé lorsque l'apport est inférieur à un certain seuil.
+- Le PMI peut souvent être supprimé une fois qu'une part suffisante du bien est constituée.
+
+===== RED-L1-009
+TITLE: Qu'est-ce que la taxe foncière, et qui la fixe ?
+SUMMARY: Découvrez comment la taxe foncière est calculée, qui fixe réellement le taux et pourquoi elle peut changer même si le propriétaire ne fait rien.
+# Qu'est-ce que la taxe foncière, et qui la fixe ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- expliquer ce que finance généralement la taxe foncière.
+- expliquer les éléments de base qui déterminent le montant de la taxe foncière.
+- expliquer pourquoi le montant de la taxe foncière peut changer sans que le propriétaire fasse quoi que ce soit.
+
+## Contenu principal
+
+### Ce que finance généralement la taxe foncière
+
+La taxe foncière est un impôt récurrent que les propriétaires paient aux collectivités locales, en fonction de la valeur de leur bien. Elle finance couramment des services locaux comme les écoles, la voirie et les services de secours, même si son usage exact varie selon les lieux.
+
+### Ce qui détermine le montant
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : les systèmes de taxe foncière varient beaucoup selon les pays, et même selon les collectivités ; ce qui suit décrit le fonctionnement courant aux États-Unis. En France, la taxe foncière est calculée à partir de la valeur locative cadastrale du bien et des taux votés par les collectivités locales ; vérifiez auprès de l'administration fiscale.)* Le montant de la taxe foncière est généralement calculé en multipliant la valeur imposable du bien par un taux local, fixé par les collectivités locales (comme un comté ou un district scolaire), et non par le propriétaire.
+
+### Pourquoi le montant peut changer sans que le propriétaire fasse quoi que ce soit
+
+Si une collectivité locale augmente son taux, ou si la valeur imposable du bien augmente à la suite d'une réévaluation locale, la taxe peut augmenter même si le propriétaire n'a rien changé à son bien.
+
+## Exemple pratique
+
+Un logement évalué à 250 000 $ dans une collectivité appliquant un taux de 1,2 % devrait environ 3 000 $ par an de taxe foncière, avant toute exonération ou tout ajustement.
+
+## Quiz pratique
+
+1. La taxe foncière est généralement payée :
+   A. À l'État fédéral
+   B. Aux collectivités locales
+   C. Directement au prêteur, sans intervention des collectivités locales
+   D. À l'assureur habitation du propriétaire
+
+2. Vrai ou faux : la taxe foncière d'un propriétaire peut augmenter même s'il n'a apporté aucune modification à son bien.
+
+3. Quels sont les deux éléments qui déterminent généralement le montant de la taxe foncière ?
+   A. Les revenus et la note de crédit du propriétaire
+   B. La valeur imposable du bien et le taux local
+   C. Le taux d'intérêt et la durée du prêt
+   D. Le montant de l'apport
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. La taxe foncière est un impôt local.
+
+### Question 2
+
+Bonne réponse : Vrai. Une hausse du taux ou une réévaluation peut augmenter le montant indépendamment de ce que fait le propriétaire.
+
+### Question 3
+
+Bonne réponse : B. La valeur imposable et le taux local sont les éléments de base.
+
+## Points clés
+
+- La taxe foncière est un impôt local récurrent fondé sur la valeur du bien.
+- Elle est calculée à partir de la valeur imposable et d'un taux local.
+- Son montant peut changer en raison de décisions locales, et pas seulement des actions du propriétaire.
+
+===== RED-L1-010
+TITLE: Qu'est-ce qu'une sûreté (lien) sur un bien immobilier ?
+SUMMARY: Découvrez ce qu'est réellement une sûreté sur un bien, comment elle s'y attache et pourquoi elle peut bloquer une vente tant qu'elle n'est pas réglée.
+# Qu'est-ce qu'une sûreté (lien) sur un bien immobilier ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir une sûreté sur un bien en termes simples.
+- citer au moins deux types courants de sûretés.
+- expliquer pourquoi une sûreté peut affecter la vente d'un bien.
+
+## Contenu principal
+
+### Ce qu'est une sûreté
+
+Une sûreté (en anglais « lien ») est un droit juridique sur un bien, qui garantit généralement une dette. Parmi les exemples courants : la sûreté du prêteur immobilier (vue précédemment), la sûreté fiscale (taxes foncières impayées) et la sûreté d'un entrepreneur impayé pour des travaux réalisés sur le bien (en anglais « mechanic's lien »). (En France, on parle notamment d'hypothèque, d'hypothèque légale ou de privilège ; les règles sont propres au droit français, renseignez-vous auprès d'un notaire.)
+
+### Comment une sûreté s'attache au bien
+
+Une sûreté est généralement inscrite auprès d'un registre public et s'attache au bien lui-même, et pas seulement au propriétaire personnellement : elle peut donc suivre le bien même lors d'une vente si elle n'est pas réglée avant.
+
+### Pourquoi elle peut bloquer une vente
+
+Comme une sûreté est attachée au bien, la plupart des acheteurs et des prêteurs exigent qu'elle soit levée avant la signature de la vente. Une sûreté non réglée est une raison courante pour laquelle une vente est retardée ou n'aboutit pas.
+
+## Exemple pratique
+
+Un propriétaire fait appel à un entrepreneur pour une rénovation et ne paie pas la dernière facture. L'entrepreneur peut inscrire une sûreté sur le bien, qui devra être réglée avant que le logement puisse être vendu libre de toute charge.
+
+## Quiz pratique
+
+1. Une sûreté sur un bien se décrit le mieux comme :
+   A. Un type d'assurance habitation
+   B. Un droit juridique sur un bien, qui garantit généralement une dette
+   C. Une aide publique aux acheteurs
+   D. Une inspection obligatoire du logement
+
+2. Vrai ou faux : une sûreté ne concerne que le propriétaire actuel personnellement, et non le bien lui-même.
+
+3. Qu'est-ce qu'un « mechanic's lien » ?
+   A. Une sûreté inscrite par un entrepreneur impayé pour des travaux réalisés sur le bien
+   B. Un type de crédit automobile
+   C. Une taxe publique sur les constructions neuves
+   D. Une forme d'assurance de titre de propriété
+
+## Corrigé
+
+1. B
+2. Faux
+3. A
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une sûreté est un droit juridique sur un bien, généralement lié à une dette.
+
+### Question 2
+
+Bonne réponse : Faux. Les sûretés s'attachent au bien lui-même, c'est pourquoi elles peuvent le suivre lors d'une vente.
+
+### Question 3
+
+Bonne réponse : A. Un « mechanic's lien » est inscrit par un entrepreneur impayé pour des travaux réalisés sur le bien.
+
+## Points clés
+
+- Une sûreté est un droit juridique sur un bien, qui garantit généralement une dette.
+- Les sûretés s'attachent au bien, et pas seulement au propriétaire personnellement.
+- Les sûretés non réglées bloquent ou retardent couramment les ventes immobilières.

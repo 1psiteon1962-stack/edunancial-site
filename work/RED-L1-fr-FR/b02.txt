@@ -1,0 +1,365 @@
+===== RED-L1-011
+TITLE: États « tax lien » ou États « tax deed » : quelle est la vraie différence ?
+SUMMARY: Découvrez comment les États américains de type « tax lien » et « tax deed » traitent différemment les taxes foncières impayées, et ce qu'un investisseur obtient réellement dans chaque cas.
+# États « tax lien » ou États « tax deed » : quelle est la vraie différence ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- expliquer ce qui se passe dans un État « tax lien » lorsque les taxes foncières ne sont pas payées.
+- expliquer ce qui se passe dans un État « tax deed » lorsque les taxes foncières ne sont pas payées.
+- identifier la différence essentielle entre ce qu'un investisseur obtient dans chaque cas.
+
+## Contenu principal
+
+### Les États « tax lien »
+
+*(RÈGLE SPÉCIFIQUE À LA RÉGION : cela varie selon les États américains, et tous n'utilisent pas ce système. Ce mécanisme n'existe pas en France, où le recouvrement des impôts locaux impayés relève de l'administration fiscale.)* Dans un État « tax lien », lorsqu'un propriétaire ne paie pas ses taxes foncières, la collectivité locale vend un certificat de créance fiscale (« lien certificate ») à un investisseur, qui paie les arriérés à la place du propriétaire. L'investisseur n'obtient pas le bien : il obtient le droit de recouvrer la dette, majorée d'intérêts fixés par la loi. Si le propriétaire ne rembourse pas pendant une période de rachat déterminée, l'investisseur peut demander au tribunal le titre de propriété du bien.
+
+### Les États « tax deed »
+
+Dans un État « tax deed », des taxes foncières impayées peuvent conduire à la vente du bien lui-même aux enchères. Le meilleur enchérisseur devient en général le nouveau propriétaire, parfois immédiatement, parfois après une courte période de rachat, selon l'État.
+
+### La différence essentielle
+
+Dans un État « tax lien », l'investisseur achète d'abord une dette, et non le bien. Dans un État « tax deed », l'investisseur enchérit sur le bien lui-même. Les périodes de rachat et les règles précises varient beaucoup d'un État à l'autre : cette leçon présente le mécanisme général, et non le calendrier d'un État en particulier.
+
+## Exemple pratique
+
+Dans un État « tax lien », un investisseur paie 2 000 $ pour couvrir les taxes impayées d'un propriétaire. Il détient désormais une créance qui produit des intérêts fixés par la loi. Si le propriétaire ne rembourse pas pendant la période de rachat prévue par l'État, l'investisseur peut demander le titre de propriété devant les tribunaux.
+
+## Quiz pratique
+
+1. Dans un État « tax lien », que reçoit d'abord un investisseur qui paie les arriérés de taxes d'une autre personne ?
+   A. La propriété immédiate du bien
+   B. Un certificat de créance représentant la dette, majorée d'intérêts
+   C. Un contrat de location avec le propriétaire
+   D. Un prêt hypothécaire sur un autre bien
+
+2. Vrai ou faux : dans un État « tax deed », c'est généralement le bien lui-même qui est vendu aux enchères pour taxes impayées.
+
+3. Qu'est-ce qu'une période de rachat ?
+   A. Un délai pendant lequel un propriétaire défaillant peut rembourser et conserver son bien
+   B. La durée d'un prêt immobilier
+   C. Un délai d'inspection obligatoire du logement
+   D. Un type d'exonération de taxe foncière
+
+## Corrigé
+
+1. B
+2. Vrai
+3. A
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Dans un État « tax lien », l'investisseur achète la dette (par un certificat de créance), et non le bien lui-même.
+
+### Question 2
+
+Bonne réponse : Vrai. Les États « tax deed » vendent généralement le bien directement aux enchères.
+
+### Question 3
+
+Bonne réponse : A. Une période de rachat donne au propriétaire initial un délai pour rembourser avant de perdre son bien.
+
+## Points clés
+
+- Les États « tax lien » vendent la dette (une créance) ; les États « tax deed » vendent le bien lui-même.
+- Les investisseurs en créances perçoivent des intérêts et peuvent, à terme, demander le titre de propriété en cas de non-paiement.
+- Les investisseurs « tax deed » peuvent devenir propriétaires plus directement, souvent plus rapidement.
+- Les règles et les périodes de rachat varient beaucoup d'un État à l'autre.
+
+===== RED-L1-012
+TITLE: Qu'est-ce qu'une estimation (expertise), et pourquoi n'est-ce pas la même chose que le prix ?
+SUMMARY: Découvrez ce que mesure réellement l'estimation d'un bien, qui la demande et pourquoi la valeur estimée et le prix de vente peuvent différer.
+# Qu'est-ce qu'une estimation (expertise), et pourquoi n'est-ce pas la même chose que le prix ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir une estimation en termes simples.
+- expliquer qui demande généralement une estimation, et pourquoi.
+- expliquer pourquoi la valeur estimée et le prix de vente peuvent être deux chiffres différents.
+
+## Contenu principal
+
+### Ce qu'est une estimation
+
+Une estimation (en anglais « appraisal ») est une évaluation professionnelle et indépendante de la valeur d'un bien, réalisée par un expert agréé. Elle repose sur des éléments comme les ventes comparables, l'état du bien et son emplacement.
+
+### Qui la demande, et pourquoi
+
+Aux États-Unis, les prêteurs exigent généralement une estimation avant d'accorder un prêt immobilier, pour confirmer que le bien vaut à peu près le montant emprunté : il s'agit de protéger la garantie du prêteur, et pas seulement d'aider l'acheteur. (En France, les banques évaluent aussi le bien, mais une expertise indépendante n'est pas systématiquement exigée ; les pratiques varient selon les établissements.)
+
+### Pourquoi les chiffres peuvent différer
+
+La valeur estimée et le prix de vente convenu sont deux chiffres distincts, déterminés de deux façons distinctes : le prix de vente est ce dont l'acheteur et le vendeur sont convenus, tandis que l'estimation est une évaluation professionnelle indépendante. Si un logement est estimé en dessous du prix convenu, cela peut poser un vrai problème de financement, car le prêteur ne prête généralement pas au-delà de ce que justifie la valeur estimée.
+
+## Exemple pratique
+
+Un acheteur accepte de payer 320 000 $ pour un logement, mais l'estimation ressort à 305 000 $. Le prêteur ne financera généralement que sur la base de la valeur estimée, plus basse : l'acheteur devra peut-être augmenter son apport, ou le prix de vente devra être renégocié.
+
+## Quiz pratique
+
+1. Une estimation est :
+   A. Le prix dont l'acheteur et le vendeur sont convenus
+   B. Une évaluation professionnelle et indépendante de la valeur d'un bien
+   C. Un type d'assurance habitation
+   D. Une évaluation fiscale publique
+
+2. Vrai ou faux : les prêteurs exigent généralement une estimation pour protéger leur propre garantie, et pas seulement pour aider l'acheteur.
+
+3. Que peut-il se passer si un logement est estimé en dessous du prix de vente convenu ?
+   A. Rien : la vente se poursuit exactement comme prévu
+   B. Le prêteur peut ne financer qu'à hauteur de la valeur estimée, ce qui crée un manque de financement
+   C. L'estimation est automatiquement annulée
+   D. La taxe foncière diminue
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une estimation est une évaluation professionnelle et indépendante de la valeur, distincte du prix négocié.
+
+### Question 2
+
+Bonne réponse : Vrai. L'estimation protège la position du prêteur sur la garantie du prêt.
+
+### Question 3
+
+Bonne réponse : B. Une estimation basse peut créer un manque de financement que l'acheteur, le vendeur, ou les deux, doivent combler.
+
+## Points clés
+
+- Une estimation est une évaluation indépendante de la valeur, et non le prix de vente.
+- Les prêteurs l'exigent pour protéger leur propre garantie.
+- Une estimation inférieure au prix de vente peut créer de vrais problèmes de financement.
+
+===== RED-L1-013
+TITLE: Qu'est-ce qu'une vente comparable ? (Les « comps » expliqués)
+SUMMARY: Découvrez comment les ventes comparables servent à estimer la valeur d'un bien, et ce qui rend une comparaison vraiment utile ou au contraire trompeuse.
+# Qu'est-ce qu'une vente comparable ? (Les « comps » expliqués)
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir une vente comparable en termes simples.
+- citer les éléments qui rendent une vente comparable vraiment utile.
+- expliquer pourquoi une vente comparable mal choisie peut être trompeuse.
+
+## Contenu principal
+
+### Ce qu'est une vente comparable
+
+Une vente comparable (en anglais « comp », pour « comparable sale ») est un bien vendu récemment, utilisé comme point de référence pour estimer la valeur d'un autre bien. Les ventes comparables sont au cœur des estimations comme des décisions de prix courantes des acheteurs et des vendeurs. (En France, les prix des ventes passées peuvent notamment être consultés via la base publique DVF, « Demandes de valeurs foncières ».)
+
+### Ce qui rend une vente comparable utile
+
+Une vente comparable vraiment utile est généralement proche géographiquement (souvent à un ou deux kilomètres au plus), semblable en taille et en caractéristiques (chambres, salles de bains, surface) et vendue récemment (souvent au cours des six à douze derniers mois), car les marchés et l'état des biens évoluent avec le temps.
+
+### Pourquoi une mauvaise comparaison induit en erreur
+
+Utiliser une vente trop éloignée, trop différente en taille ou en état, ou trop ancienne peut donner une estimation de valeur très faussée. Une maison rénovée de cinq chambres n'est pas une référence fiable pour une maison de deux chambres à rénover, même si elles sont dans la même rue.
+
+## Exemple pratique
+
+Pour estimer une maison de 3 chambres et 2 salles de bains, un expert cherche des maisons de 3 chambres et 2 salles de bains vendues récemment à un ou deux kilomètres, en tenant compte de différences comme un sous-sol aménagé ou un garage supplémentaire, plutôt que de la comparer à un bien très différent simplement parce qu'il est proche.
+
+## Quiz pratique
+
+1. Une vente comparable est :
+   A. Un type de prêt immobilier
+   B. Un bien vendu récemment, utilisé comme référence pour estimer une valeur
+   C. Un registre public de taxe foncière
+   D. Un acte juridique transférant la propriété
+
+2. Vrai ou faux : n'importe quel bien vendu à proximité constitue une bonne vente comparable, quels que soient sa taille ou son état.
+
+3. Pourquoi l'ancienneté de la vente compte-t-elle pour une vente comparable ?
+   A. Elle ne compte pas du tout
+   B. Les marchés et les situations évoluent, donc des ventes anciennes peuvent ne pas refléter la valeur actuelle
+   C. Les ventes anciennes sont toujours plus précises
+   D. L'ancienneté ne compte que pour l'immobilier commercial
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une vente comparable est un bien semblable vendu récemment, utilisé comme référence de valeur.
+
+### Question 2
+
+Bonne réponse : Faux. Une vente comparable utile doit être semblable en taille, en état et en emplacement, et pas seulement proche.
+
+### Question 3
+
+Bonne réponse : B. Les marchés évoluent, donc une vente datant de plusieurs années peut ne pas refléter la valeur actuelle.
+
+## Points clés
+
+- Une vente comparable est un bien semblable vendu récemment, utilisé pour estimer une valeur.
+- Les ventes comparables utiles sont proches géographiquement, semblables en taille et en état, et récentes.
+- Une vente comparable mal choisie peut donner une estimation de valeur trompeuse.
+
+===== RED-L1-014
+TITLE: Que vérifie réellement une inspection du logement ?
+SUMMARY: Découvrez ce que couvre une inspection du logement, en quoi elle diffère d'une estimation et ce qu'elle implique pour la suite des démarches de l'acheteur.
+# Que vérifie réellement une inspection du logement ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir une inspection du logement en termes simples.
+- expliquer en quoi elle diffère d'une estimation.
+- expliquer ce qu'un acheteur peut faire des résultats de l'inspection.
+
+## Contenu principal
+
+### Ce qu'est une inspection du logement
+
+Une inspection du logement (en anglais « home inspection ») est une évaluation professionnelle de l'état physique d'un bien : elle vérifie des éléments comme la toiture, les fondations, la plomberie, l'électricité et le chauffage-climatisation, à la recherche de problèmes existants ou potentiels. (En France, le vendeur doit fournir des diagnostics obligatoires, comme le DPE ou les diagnostics électricité et gaz ; ils ne remplacent pas toujours une inspection complète par un professionnel du bâtiment.)
+
+### En quoi elle diffère d'une estimation
+
+L'estimation évalue la valeur ; l'inspection évalue l'état. Un logement peut être estimé à une valeur élevée tout en présentant d'importants problèmes physiques que l'estimation ne relèverait pas forcément avec le même niveau de détail : elles répondent à des questions différentes.
+
+### Ce que l'acheteur peut faire des résultats
+
+Selon le contrat d'achat, un acheteur qui reçoit un rapport d'inspection préoccupant peut négocier des réparations, demander une baisse de prix ou, dans certains cas, renoncer à l'achat : les options précises dépendent des clauses convenues au préalable.
+
+## Exemple pratique
+
+Une inspection révèle une toiture vieillissante qui devra probablement être remplacée d'ici quelques années. L'acheteur peut utiliser cette information pour négocier une baisse de prix ou demander au vendeur de régler le problème avant la signature, selon ce que permet le contrat d'achat.
+
+## Quiz pratique
+
+1. Une inspection du logement évalue principalement :
+   A. La valeur de marché du bien
+   B. L'état physique du bien
+   C. La solvabilité de l'acheteur
+   D. Le taux local de la taxe foncière
+
+2. Vrai ou faux : une estimation et une inspection du logement répondent à la même question.
+
+3. Que peut faire un acheteur après un rapport d'inspection préoccupant, selon le contrat ?
+   A. Rien du tout
+   B. Négocier des réparations, une baisse de prix ou éventuellement renoncer à l'achat
+   C. Annuler automatiquement son prêt immobilier
+   D. Obliger le vendeur à baisser la taxe foncière
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une inspection du logement évalue l'état physique, et non la valeur de marché.
+
+### Question 2
+
+Bonne réponse : Faux. Une estimation évalue la valeur ; une inspection évalue l'état : des objectifs différents.
+
+### Question 3
+
+Bonne réponse : B. Selon les clauses du contrat, un acheteur peut disposer de plusieurs options après une inspection préoccupante.
+
+## Points clés
+
+- Une inspection du logement évalue l'état physique, et non la valeur.
+- Elle a un objectif différent de celui d'une estimation.
+- Les résultats de l'inspection peuvent donner à l'acheteur un vrai levier de négociation, selon le contrat.
+
+===== RED-L1-015
+TITLE: Qu'est-ce que le titre de propriété, et pourquoi un « titre sans charge » compte-t-il ?
+SUMMARY: Découvrez ce que signifie réellement le titre de propriété, pourquoi il doit être libre de toute charge pour conclure une vente et ce qui peut le remettre en question.
+# Qu'est-ce que le titre de propriété, et pourquoi un « titre sans charge » compte-t-il ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- définir le titre de propriété en termes simples.
+- expliquer ce que signifie un « titre sans charge ».
+- citer un problème courant qui peut entacher un titre de propriété.
+
+## Contenu principal
+
+### Ce qu'est réellement le titre de propriété
+
+Le titre de propriété (en anglais « title ») désigne la notion juridique de propriété : le droit reconnu sur un bien. Il se distingue de l'acte (en anglais « deed »), qui est le document qui transfère ce droit d'une partie à une autre. (En France, la vente est constatée par un acte authentique rédigé par un notaire, qui vérifie aussi la situation juridique du bien.)
+
+### Ce que signifie un « titre sans charge »
+
+Un titre sans charge (en anglais « clear title ») signifie qu'aucune revendication concurrente, aucune sûreté non réglée et aucun litige de propriété ne pèse sur le bien. Les acheteurs et les prêteurs exigent généralement un titre sans charge avant de conclure une vente, car un titre incertain crée un vrai risque juridique pour la personne qui devient propriétaire.
+
+### Ce qui peut entacher un titre
+
+Un titre peut être « entaché » par des éléments comme une sûreté non réglée, un litige de limites de propriété, une erreur dans les registres publics ou un héritier oublié ayant un droit issu de la succession d'un ancien propriétaire. Ces problèmes doivent généralement être réglés avant que la vente puisse se dérouler sans difficulté.
+
+## Exemple pratique
+
+Une recherche sur le titre d'un bien révèle une ancienne sûreté d'un entrepreneur impayé, datant d'un précédent propriétaire et jamais réglée. Elle entache le titre et doit être levée avant que la vente en cours puisse être conclue.
+
+## Quiz pratique
+
+1. Le titre de propriété désigne :
+   A. Le document physique qui transfère la propriété
+   B. La notion juridique de propriété elle-même
+   C. Un type d'assurance du bien
+   D. Un registre fiscal public
+
+2. Vrai ou faux : un titre sans charge signifie qu'aucune revendication concurrente ni aucun problème non réglé ne pèse sur le bien.
+
+3. Quel est un élément qui peut entacher un titre de propriété ?
+   A. Une peinture récente
+   B. Une sûreté non réglée datant d'un précédent propriétaire
+   C. Une toiture neuve
+   D. Une modification du taux de la taxe foncière
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le titre est la notion juridique de propriété ; l'acte est le document qui la transfère.
+
+### Question 2
+
+Bonne réponse : Vrai. Un titre sans charge signifie l'absence de revendications concurrentes ou de problèmes non réglés.
+
+### Question 3
+
+Bonne réponse : B. Une sûreté non réglée est un exemple courant de ce qui entache un titre.
+
+## Points clés
+
+- Le titre de propriété est le droit juridique de propriété, distinct du document qu'est l'acte.
+- Un titre sans charge signifie l'absence de revendications concurrentes ou de problèmes non réglés.
+- Les sûretés, les litiges ou les erreurs de registre peuvent entacher un titre et doivent généralement être réglés avant la conclusion d'une vente.

@@ -1,0 +1,73 @@
+===== RED-L1-011
+TITLE: Stati "tax lien" o stati "tax deed": qual è la vera differenza?
+SUMMARY: Scopri come gli stati americani "tax lien" e "tax deed" gestiscono in modo diverso le imposte immobiliari non pagate, e che cosa riceve davvero un investitore in ciascun caso.
+# Stati "tax lien" o stati "tax deed": qual è la vera differenza?
+
+## Obiettivi di apprendimento
+
+Al termine di questa lezione dovresti essere in grado di:
+
+- spiegare che cosa succede in uno stato "tax lien" quando le imposte immobiliari non vengono pagate.
+- spiegare che cosa succede in uno stato "tax deed" quando le imposte immobiliari non vengono pagate.
+- individuare la differenza essenziale tra ciò che un investitore riceve in ciascun caso.
+
+## Contenuto principale
+
+### Gli stati "tax lien"
+
+*(REGOLA SPECIFICA PER REGIONE: varia da uno stato americano all'altro e non tutti gli stati usano questo sistema. In Italia questo meccanismo non esiste: la riscossione delle imposte locali non pagate spetta agli enti e agli agenti della riscossione.)* In uno stato "tax lien", quando un proprietario non paga le imposte immobiliari, l'ente locale vende a un investitore un certificato di credito fiscale ("lien certificate"); l'investitore paga gli arretrati al posto del proprietario. L'investitore non ottiene l'immobile: ottiene il diritto di riscuotere il debito, più gli interessi stabiliti dalla legge. Se il proprietario non rimborsa entro un periodo di riscatto stabilito, l'investitore può chiedere al tribunale il titolo di proprietà dell'immobile.
+
+### Gli stati "tax deed"
+
+In uno stato "tax deed", le imposte immobiliari non pagate possono portare alla vendita all'asta dell'immobile stesso. Il miglior offerente diventa in genere il nuovo proprietario, a volte subito e a volte dopo un breve periodo di riscatto, a seconda dello stato.
+
+### La differenza essenziale
+
+In uno stato "tax lien" l'investitore compra inizialmente un debito, non l'immobile. In uno stato "tax deed" l'investitore fa offerte sull'immobile stesso. I periodi di riscatto e le regole specifiche variano molto da stato a stato: questa lezione tratta il meccanismo generale, non il calendario di uno stato in particolare.
+
+## Esempio svolto
+
+In uno stato "tax lien", un investitore paga 2.000 $ per coprire le imposte non pagate di un proprietario. Ora detiene un credito che matura interessi stabiliti dalla legge. Se il proprietario non rimborsa entro il periodo di riscatto previsto dallo stato, l'investitore può chiedere il titolo di proprietà in tribunale.
+
+## Quiz di esercitazione
+
+1. In uno stato "tax lien", che cosa riceve inizialmente un investitore che paga le imposte arretrate di qualcun altro?
+   A. La proprietà immediata dell'immobile
+   B. Un certificato di credito che rappresenta il debito, più gli interessi
+   C. Un contratto di locazione con il proprietario
+   D. Un mutuo su un altro immobile
+
+2. Vero o falso: in uno stato "tax deed", di solito è l'immobile stesso a essere messo all'asta per le imposte non pagate.
+
+3. Che cos'è un periodo di riscatto?
+   A. Un periodo in cui un proprietario inadempiente può pagare e conservare l'immobile
+   B. La durata di un mutuo
+   C. Un periodo obbligatorio per l'ispezione dell'immobile
+   D. Un tipo di esenzione dall'imposta immobiliare
+
+## Soluzioni
+
+1. B
+2. Vero
+3. A
+
+## Risposte e spiegazioni
+
+### Domanda 1
+
+Risposta corretta: B. In uno stato "tax lien" l'investitore compra il debito (tramite un certificato di credito), non l'immobile stesso.
+
+### Domanda 2
+
+Risposta corretta: Vero. Gli stati "tax deed" di solito mettono all'asta direttamente l'immobile.
+
+### Domanda 3
+
+Risposta corretta: A. Un periodo di riscatto dà al proprietario originario un periodo di tempo per pagare prima di perdere l'immobile.
+
+## Punti chiave
+
+- Gli stati "tax lien" vendono il debito (un credito); gli stati "tax deed" vendono l'immobile stesso.
+- Chi investe nei crediti guadagna interessi e, in caso di mancato pagamento, può alla fine chiedere il titolo di proprietà.
+- Chi investe nei "tax deed" può diventare proprietario in modo più diretto, spesso più in fretta.
+- Regole e periodi di riscatto variano molto da stato a stato.
