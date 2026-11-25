@@ -17,6 +17,11 @@ R=[('locale: pt-BR','locale: pt-PT'),('Conscientização/Alfabetização','Sensi
 ('equipe','equipa'),('ruim','mau'),('Cite ','Indique '),('Aprenda ','Saiba '),('planejamento','planeamento'),('planejar','planear'),
 ('contato','contacto'),('seção','secção'),('ótima','excelente'),('ótimo','excelente'),('econômic','económic'),('usuário','utilizador'),
 ('arquivo','ficheiro'),('celular','telemóvel'),('tela ','ecrã '),('O que você','O que'),('fato ','facto '),
+('processo de atendimento dos pedidos','processamento das encomendas'),('Atendimento de pedidos','Processamento de encomendas'),('atendimento de pedidos','processamento de encomendas'),('controle','controlo'),('Lembre-se de BLUE','Recorde BLUE'),('on-line','online'),('varejo','retalho'),
+('margens menores','margens mais reduzidas'),('margens maiores','margens mais elevadas'),('que você poderia','que poderia'),('seu raciocínio','o seu raciocínio'),('suas palavras','as suas palavras'),
+('acontecendo','a acontecer'),('cuida do','trata do'),('administra ','gere '),('órgão público','organismo público'),('repassando','reencaminhando'),('repassa ','reencaminha '),
+('os pedidos','as encomendas'),('Os pedidos','As encomendas'),('dos pedidos','das encomendas'),('pedidos','encomendas'),('pedido','encomenda'),('um encomenda','uma encomenda'),('o encomenda','a encomenda'),('do encomenda','da encomenda'),('esse encomenda','essa encomenda'),('grande encomenda','grande encomenda'),('um grande encomenda','uma grande encomenda'),('O encomenda','A encomenda'),('no encomenda','na encomenda'),
+('atendem os','processam as'),('atende e envia','processa e envia'),('são atendidos','são processadas'),('atendimento','processamento'),
 ('demanda','procura'),('ideia ruim','má ideia'),('era ruim','era má'),('atendimento ao cliente','apoio ao cliente'),('giro','rotação'),('leva em conta','tem em conta'),('dificuldade para ','dificuldade em '),('por via das dúvidas','pelo sim, pelo não'),('acabe sendo','acabe por ser'),('O que é fluxo de caixa num negócio?','O que é o fluxo de caixa num negócio?'),('a confiabilidade','a fiabilidade'),('confiabilidade','fiabilidade'),('confiável','fiável'),('Nenhuma estatística ou citação externa usada','Nenhuma estatística ou citação externa utilizada'),
 ]
 for a,b in R: s=s.replace(a,b)
