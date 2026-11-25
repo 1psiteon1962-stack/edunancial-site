@@ -52,7 +52,7 @@ Um modelo de negócio descreve, especificamente, como um negócio cria, entrega 
 Recorde BLUE-L1-014: um plano de negócios é um documento escrito mais amplo, que cobre o negócio inteiro (mercado, operações, finanças e mais). Um modelo de negócio é mais restrito: é especificamente o mecanismo pelo qual o dinheiro entra, um componente que o plano de negócios descreveria com mais pormenor.
 
 ### Tema 3: Modelos de negócio vistos até agora neste nível
-[EXEMPLO ILUSTRATIVO] O dropshipping (BLUE-L1-029) é um modelo de negócio: uma forma de capturar valor sem manter inventário. Um retalhista tradicional, que compra e revende inventário, tnum modelo de negócio diferente, mesmo que os dois vendam produtos parecidos.
+[EXEMPLO ILUSTRATIVO] O dropshipping (BLUE-L1-029) é um modelo de negócio: uma forma de capturar valor sem manter inventário. Um retalhista tradicional, que compra e revende inventário, tem um modelo de negócio diferente, mesmo que os dois vendam produtos parecidos.
 
 ### Tema 4: Porque é que a diferença importa
 [OPINIÃO] Confundir os dois pode levar um empreendedor a escrever um longo plano de negócios sem nunca explicar com clareza o mecanismo pelo qual o negócio vai de facto ganhar dinheiro: um plano de negócios pode ser bem escrito e, ainda assim, estar construído sobre um modelo de negócio mal definido ou pouco claro.
@@ -68,7 +68,7 @@ Recorde BLUE-L1-014: um plano de negócios é um documento escrito mais amplo, q
 
 ## Erros comuns
 - Usar "modelo de negócio" e "plano de negócios" como sinónimos
-- Escrever um plano de negócios detalhado snum modelo de negócio de base claramente definido
+- Escrever um plano de negócios detalhado sem um modelo de negócio de base claramente definido
 - Supor que um modelo de negócio não pode mudar, mesmo quando o negócio evolui
 
 ## Perguntas frequentes
@@ -99,7 +99,7 @@ Escolha dois negócios que conheça que vendem produtos parecidos, mas usam mode
 5. **Aprofundamento:** O modelo de negócio é um componente do plano ou o plano inteiro?
 6. **Conceito 3 — Exemplos deste nível:** Como o dropshipping e o retalho tradicional representam dois modelos de negócio diferentes?
 7. **Aprofundamento:** Dois negócios poderiam ter planos parecidos, mas modelos diferentes?
-8. **Conceito 4 — Porque é que importa:** O que pode correr mal se um empreendedor escrever um plano snum modelo de negócio claramente definido?
+8. **Conceito 4 — Porque é que importa:** O que pode correr mal se um empreendedor escrever um plano sem um modelo de negócio claramente definido?
 9. **Síntese:** Um negócio pode mudar de modelo sem reescrever o plano inteiro?
 10. **Reflexão:** Porque acha que as pessoas usam "modelo" e "plano" como sinónimos, embora signifiquem coisas diferentes?
 
@@ -143,7 +143,7 @@ PRÓXIMA LIÇÃO DESBLOQUEADA: BLUE-L1-031
 TRILHAS RELACIONADAS: Nenhuma publicada ainda.
 
 ## Leituras complementares
-- BLUE-L1-014 — O que é um plano de negócios, e para quem ele é de verdade?
+- BLUE-L1-014 — O que é um plano de negócios, e para quem é realmente?
 - BLUE-L1-029 — O que é dropshipping?
 - BLUE-L1-031 — O que é um mercado-alvo?
 

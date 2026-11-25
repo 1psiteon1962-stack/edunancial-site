@@ -29,7 +29,7 @@ Uma ideia de negócio realmente boa ainda pode ser totalmente travada por uma ba
 
 ## Objetivos de aprendizagem
 - Definir a quantidade mínima de encomenda (MOQ)
-- Explicar porque é que os fornecedores definnum MOQ
+- Explicar porque é que os fornecedores definem um MOQ
 - Compreender como um MOQ pode travar uma boa ideia por motivos que não têm a ver com o mérito dela
 
 ## Pré-requisitos
@@ -48,8 +48,8 @@ Principiante (Nível 1)
 ### Tema 1: O que é um MOQ
 A quantidade mínima de encomenda é a quantidade mais pequena de produto que um fornecedor ou fabricante aceita produzir ou vender numa única encomenda, independentemente de quanto o comprador realmente queira.
 
-### Tema 2: Porque é que os fornecedores definnum MOQ
-[ESTIMATIVA] Os fornecedores normalmente definnum MOQ porque encomendas mais pequenas muitas vezes não compensam: os custos de preparação da produção, os lotes mínimos de material e os custos administrativos por encomenda tornam as tiragens muito pequenas desproporcionalmente caras em relação ao preço que poderiam cobrar.
+### Tema 2: Porque é que os fornecedores definem um MOQ
+[ESTIMATIVA] Os fornecedores normalmente definem um MOQ porque encomendas mais pequenas muitas vezes não compensam: os custos de preparação da produção, os lotes mínimos de material e os custos administrativos por encomenda tornam as tiragens muito pequenas desproporcionalmente caras em relação ao preço que poderiam cobrar.
 
 ### Tema 3: Como isso pode travar uma boa ideia
 [EXEMPLO ILUSTRATIVO] Uma empreendedora quer lançar uma linha de ração para animais de companhia com marca própria, mas descobre que o MOQ do fabricante é de 5000 unidades: isso exige dezenas de milhares de dólares adiantados, muito além do capital disponível, mesmo que a ideia do produto, a estudo de mercado e o plano de negócios sejam realmente sólidos.
