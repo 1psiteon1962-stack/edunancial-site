@@ -145,7 +145,7 @@ TRILHAS RELACIONADAS: PURPLE (Direito) — o direito sobre a classificação de 
 
 ## Leituras complementares
 - BLUE-L1-040 — O que é a gestão de pessoal, e quando um negócio precisa da primeira contratação?
-- BLUE-L1-042 — O que é delegar, e porque é que é mais difícil do que parece?
+- BLUE-L1-042 — O que é delegar, e porque é mais difícil do que parece?
 
 ## Trilha da lição
 `BLUE-L1-041-LOCALIZATION` (bloco de trilha)

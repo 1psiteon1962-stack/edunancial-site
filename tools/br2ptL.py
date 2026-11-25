@@ -8,7 +8,7 @@ R=[('locale: pt-BR','locale: pt-PT'),('Conscientização/Alfabetização','Sensi
 ('## Gabarito','## Chave de Respostas'),('LIÇÃO LIBERADA','LIÇÃO DESBLOQUEADA'),('FATO VERIFICADO','FACTO VERIFICADO'),
 ('Status da tradução: tradução para o português (Brasil)','Estado da tradução: tradução para português (Portugal)'),
 ('Intenção de busca','Intenção de pesquisa'),('snippet em destaque','excerto em destaque'),
-('Por que você acha que','Porque acha que'),('Por que ','Porque é que '),(' por que ',' porque é que '),
+('Por que você acha que','Porque acha que'),('Por que ','Porque é que '),(' por que é ',' porque é '),(' por que ',' porque é que '),
 
 ('educação contábil','literacia contabilística'),('contábeis','contabilísticos'),('contábil','contabilístico'),
 ('registros','registos'),('registro','registo'),('registra ','regista '),('Revisar ','Rever '),

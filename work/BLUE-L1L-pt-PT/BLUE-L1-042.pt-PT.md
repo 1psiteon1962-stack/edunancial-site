@@ -5,14 +5,14 @@ officialTrackName: Business
 level: 1
 lessonNumber: 42
 locale: pt-PT
-title: "O que é delegar, e porque é que é mais difícil do que parece?"
+title: "O que é delegar, e porque é mais difícil do que parece?"
 summary: "Explica o que envolve delegar de verdade e porque é que isso é difícil para muitos donos de negócio."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-042: O que é delegar, e porque é que é mais difícil do que parece?
+# BLUE-L1-042: O que é delegar, e porque é mais difícil do que parece?
 
 **Trilha:** BLUE (Negócios)
 **Nível:** 1 — Sensibilização/Literacia
@@ -25,7 +25,7 @@ date: 2026-08-08
 
 ## Resumo executivo
 `BLUE-L1-042-MAIN`
-Delegar parece simples (basta passar uma tarefa a outra pessoa), mas fazer isso bem é realmente difícil, sobretudo para donos acostumados a tratar de tudo pessoalmente. Esta lição explica o que envolve delegar de verdade e porque é que é mais difícil do que parece.
+Delegar parece simples (basta passar uma tarefa a outra pessoa), mas fazer isso bem é realmente difícil, sobretudo para donos acostumados a tratar de tudo pessoalmente. Esta lição explica o que envolve delegar de verdade e porque é mais difícil do que parece.
 
 ## Objetivos de aprendizagem
 - Definir delegação indo além de simplesmente "atribuir uma tarefa"
