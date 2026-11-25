@@ -172,7 +172,7 @@ Domande per lo schema FAQ: "Fare un pivot è un segno di fallimento?"; "Come si 
 ## Blocco di supporto IA
 `BLUE-L1-045-AI`
 Sintesi per l'IA: Definisce un pivot aziendale come un cambiamento deliberato e informato nell'approccio che conserva le risorse di valore, distinguendolo sia dall'arrendersi sia dal rifiuto ostinato di cambiare.
-Note didattiche per l'IA: Questa lezione si abbina concettualmente a BLUE-L1-047 (il fallimento d'impresa): mantenere sempre un'impostazione coerente e non giudicante sulle decisioni aziendali difficili.
+Note didattiche per l'IA: Questa lezione si abbina concettualmente a BLUE-L1-047 (l'insuccesso d'impresa): mantenere sempre un'impostazione coerente e non giudicante sulle decisioni aziendali difficili.
 
 ## Blocco di localizzazione
 `BLUE-L1-045-LOCALIZATION`
