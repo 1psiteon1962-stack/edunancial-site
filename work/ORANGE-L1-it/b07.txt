@@ -1,0 +1,233 @@
+===== ORANGE-L1-031
+TITLE: L'e-mail come strumento di vendita
+SUMMARY: Insegna a usare l'e-mail in modo efficace sia per il marketing sia per il follow-up diretto delle vendite.
+# L'e-mail come strumento di vendita
+
+## Obiettivi di apprendimento
+- Spiegare perché l'e-mail resta un canale di vendita e marketing efficace
+- Individuare le parti di un'e-mail di vendita efficace
+- Esercitarsi a scrivere un'e-mail di follow-up breve e chiara
+
+## Contenuto principale
+
+Nonostante le piattaforme più recenti, l'e-mail resta uno degli strumenti di vendita più diretti ed efficaci, perché arriva in una casella personale, controllata individualmente, invece che in un feed social affollato, e perché lascia lo spazio per spiegare qualcosa con chiarezza senza limiti di caratteri o un algoritmo che decide chi la vede.
+
+Un'e-mail di vendita efficace è breve, ha un solo scopo chiaro e si chiude con un solo passo successivo chiaro. Le e-mail lunghe con più richieste tendono a essere lette di sfuggita o ignorate. Un oggetto specifico e onesto funziona molto meglio di uno vago o acchiappaclic, perché crea aspettative corrette sul contenuto.
+
+L'e-mail permette anche una personalizzazione su larga scala — citare qualcosa di specifico sul destinatario o sulla sua situazione, anche in un'e-mail modello, la fa sembrare pensata invece che prodotta in serie.
+
+> **Nota:** in Italia e nell'UE l'invio di e-mail promozionali a privati richiede di norma il consenso preventivo (con eccezioni limitate per i clienti già acquisiti), e ogni messaggio deve offrire un modo semplice per disiscriversi. I dettagli dipendono dal caso; in caso di dubbio verifica le regole aggiornate o chiedi una consulenza.
+
+## Esempio svolto
+
+**E-mail debole:** Oggetto: "Ciao!" Testo: un messaggio lungo e dispersivo su cinque argomenti diversi, senza una richiesta chiara.
+
+**E-mail forte:** Oggetto: "Risposta veloce alla tua domanda sui prezzi" Testo: "Ciao [Nome], riprendo la tua domanda sulle fasce di prezzo — ecco un riepilogo rapido: [dettagli]. Ti va una telefonata di 10 minuti questa settimana per vedere quale fascia fa più al caso tuo?" Questa ha un solo scopo chiaro, un oggetto specifico e un solo passo successivo chiaro.
+
+## Quiz di esercitazione
+
+1. Perché l'e-mail resta efficace rispetto alle piattaforme più recenti?
+2. Secondo questa lezione, che cosa rende efficace un'e-mail di vendita?
+3. Perché le e-mail lunghe con più richieste tendono a funzionare peggio?
+4. Che cosa rende efficace un oggetto?
+
+## Soluzioni
+1. Arriva in una casella personale e lascia lo spazio per spiegare con chiarezza, senza interferenze dell'algoritmo.
+2. Essere breve, avere un solo scopo chiaro e chiudersi con un solo passo successivo chiaro.
+3. Vengono lette di sfuggita o ignorate perché chi legge non sa su che cosa concentrarsi o che cosa fare.
+4. Essere specifico e onesto, creando aspettative corrette sul contenuto dell'e-mail.
+
+## Risposte e spiegazioni
+1. Immediatezza e recapito personale sono i vantaggi fondamentali dell'e-mail rispetto alle piattaforme guidate da algoritmi.
+2. Focus e chiarezza sono ciò che rende un'e-mail utile all'azione invece che solo informativa.
+3. Più richieste in concorrenza disperdono l'attenzione di chi legge e riducono le probabilità che venga compiuta anche una sola azione.
+4. Precisione e specificità costruiscono fiducia e predispongono chi legge a occuparsi del contenuto vero e proprio.
+
+## Punti chiave
+- L'e-mail resta efficace perché è personale, diretta e libera dalle interferenze degli algoritmi.
+- Le e-mail di vendita efficaci sono brevi, mirate e si chiudono con un solo passo successivo chiaro.
+- Gli oggetti specifici e onesti funzionano meglio di quelli vaghi o acchiappaclic.
+
+===== ORANGE-L1-032
+TITLE: Il concetto di CRM (anche un foglio di calcolo va bene)
+SUMMARY: Presenta la gestione delle relazioni con i clienti come un concetto, non come uno specifico strumento costoso.
+# Il concetto di CRM (anche un foglio di calcolo va bene)
+
+## Obiettivi di apprendimento
+- Definire il CRM come concetto, indipendentemente da qualsiasi software specifico
+- Spiegare perché seguire i potenziali clienti in modo sistematico evita vendite perse
+- Esercitarsi a impostare un sistema di base per seguire i potenziali clienti
+
+## Contenuto principale
+
+CRM sta per Customer Relationship Management (gestione delle relazioni con i clienti) e, anche se spesso viene associato a software costosi, il concetto in sé è semplice: un sistema per tenere traccia di chi sono i tuoi potenziali clienti e i tuoi clienti, in quale fase si trovano e che cosa deve succedere dopo con ciascuno. Un foglio di calcolo ben organizzato è un CRM del tutto valido per una piccola attività — il software è una comodità, non un requisito.
+
+Senza alcun sistema, i venditori si affidano alla memoria, che cede in modo prevedibile man mano che i potenziali clienti aumentano. I follow-up vengono dimenticati, i contatti caldi si raffreddano perché nessuno si è rifatto vivo, e diventa impossibile vedere degli schemi (come quale tipo di potenziale cliente converte meglio), perché nulla viene registrato.
+
+Un CRM di base, anche un semplice foglio di calcolo, dovrebbe registrare almeno: nome e recapiti del potenziale cliente, la fase dell'imbuto in cui si trova, la data dell'ultimo contatto e l'azione successiva necessaria. Già solo questo evita la maggior parte dei modi in cui le vendite si perdono per strada.
+
+## Esempio svolto
+
+Una persona che contattava oltre cento case discografiche per un programma di videoclip teneva un elenco scritto — nome dell'azienda, recapiti, se aveva detto sì o no e note per il follow-up. Quell'elenco era un CRM, anche se non era un software. Permetteva di sapere esattamente chi richiamare, chi aveva già accettato e chi aveva ancora bisogno di una chiamata di follow-up con l'approccio della "pari opportunità".
+
+## Quiz di esercitazione
+
+1. Che cosa significa CRM e qual è il suo scopo fondamentale?
+2. Un CRM deve per forza essere un software costoso?
+3. Che cosa succede al monitoraggio delle vendite senza alcun sistema?
+4. Indica i quattro campi minimi che un CRM di base dovrebbe registrare.
+
+## Soluzioni
+1. Customer Relationship Management (gestione delle relazioni con i clienti) — un sistema per seguire i potenziali clienti, la loro fase e i passi successivi.
+2. No — un foglio di calcolo o anche un elenco scritto ordinato è un CRM valido.
+3. I follow-up vengono dimenticati e i contatti si raffreddano, perché i venditori si affidano a una memoria poco affidabile invece che a un sistema.
+4. Nome e recapiti, fase dell'imbuto, data dell'ultimo contatto e azione successiva necessaria.
+
+## Risposte e spiegazioni
+1. Questo definisce il CRM come concetto, separato da qualsiasi strumento o fascia di prezzo specifici.
+2. La lezione corregge esplicitamente l'idea che il CRM richieda un software costoso.
+3. Il monitoraggio affidato alla memoria cede in modo prevedibile quando il numero di potenziali clienti cresce, causando opportunità perse.
+4. Questi quattro campi formano la struttura minima per seguire i potenziali clienti in modo efficace.
+
+## Punti chiave
+- Il CRM è un concetto — seguire i potenziali clienti e i passi successivi —, non uno specifico strumento costoso.
+- Senza un sistema di monitoraggio i follow-up vengono dimenticati e i contatti si raffreddano.
+- Un semplice foglio di calcolo con nome, fase, ultimo contatto e azione successiva copre l'essenziale.
+
+===== ORANGE-L1-033
+TITLE: Seguire una pipeline
+SUMMARY: Insegna a organizzare i potenziali clienti per fase, così che il venditore sappia sempre a che punto è la sua attività.
+# Seguire una pipeline
+
+## Obiettivi di apprendimento
+- Definire una pipeline di vendita e spiegarne lo scopo
+- Individuare le fasi di base che una pipeline di solito segue
+- Esercitarsi a classificare i potenziali clienti nelle fasi della pipeline
+
+## Contenuto principale
+
+Una pipeline di vendita è un modo per organizzare ogni potenziale cliente attivo in base a quanto è avanzato nel processo di decisione, così che il venditore veda a colpo d'occhio a che punto è la sua attività e che cosa richiede attenzione. È l'applicazione pratica del concetto di imbuto di vendita di una lezione precedente, applicato a potenziali clienti reali e singoli invece che solo come concetto generale.
+
+Le fasi comuni di una pipeline sono: Nuovo contatto (appena individuato, ancora nessun contatto), Contattato (primo approccio fatto), In conversazione (scambio attivo in corso), Proposta inviata (è stata fatta un'offerta specifica) e Chiuso (vinto o perso). Ogni potenziale cliente si trova in una sola fase alla volta e avanza (o a volte arretra) man mano che il rapporto si sviluppa.
+
+Seguire una pipeline in questo modo risponde a domande che contano per gestire un'impresa: quanti potenziali clienti sono vicini alla chiusura in questo momento? Dove si bloccano la maggior parte di loro? Entra abbastanza in alto per raggiungere più avanti gli obiettivi di ricavo, considerando quanti di solito si perdono lungo la strada?
+
+## Esempio svolto
+
+Una consulente libera professionista rivede la sua pipeline ogni settimana. Nota quindici potenziali clienti fermi su "Contattato" da più di tre settimane senza alcun movimento — un segnale chiaro che il suo processo di follow-up ha bisogno di attenzione. Intanto solo due potenziali clienti sono su "Proposta inviata", il che le dice che, anche se entrambi chiudessero, non basterebbe a raggiungere l'obiettivo di ricavo del mese. Questa visibilità le permette di agire — insistendo di più sui follow-up e generando nuovi contatti — prima che l'ammanco si verifichi davvero.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue una pipeline di vendita.
+2. Indica tre fasi comuni di una pipeline.
+3. A quali domande sull'attività può aiutare a rispondere il monitoraggio della pipeline?
+4. Nell'esempio svolto, quale problema ha rivelato la revisione della pipeline?
+
+## Soluzioni
+1. Un modo per organizzare i potenziali clienti in base a quanto sono avanzati nel processo di decisione.
+2. Tre qualsiasi tra: Nuovo contatto, Contattato, In conversazione, Proposta inviata, Chiuso.
+3. Quanti potenziali clienti sono vicini alla chiusura, dove si bloccano e se entra abbastanza per raggiungere gli obiettivi futuri.
+4. Un gruppo fermo su "Contattato" e troppo pochi potenziali clienti su "Proposta inviata" per raggiungere l'obiettivo di ricavo.
+
+## Risposte e spiegazioni
+1. Questo definisce la pipeline come strumento organizzativo applicato a potenziali clienti reali e singoli.
+2. Queste fasi rappresentano la versione pratica e monitorabile del concetto di imbuto.
+3. La visibilità della pipeline sostiene decisioni d'impresa proattive invece di brutte sorprese.
+4. La revisione della pipeline ha fatto emergere un problema specifico e risolvibile prima che diventasse una crisi dei ricavi.
+
+## Punti chiave
+- Una pipeline organizza i potenziali clienti per fase, applicando il concetto di imbuto al monitoraggio reale e individuale.
+- Le fasi comuni sono Nuovo contatto, Contattato, In conversazione, Proposta inviata e Chiuso.
+- Rivedere regolarmente una pipeline rivela problemi e opportunità prima che diventino sorprese.
+
+===== ORANGE-L1-034
+TITLE: Misurare la conversione
+SUMMARY: Presenta il tasso di conversione come la metrica chiave per capire quanto funziona davvero un processo di vendita.
+# Misurare la conversione
+
+## Obiettivi di apprendimento
+- Definire il tasso di conversione e spiegare come si calcola
+- Spiegare perché il tasso di conversione conta più dei semplici numeri di attività
+- Esercitarsi a calcolare un tasso di conversione di base partendo da numeri di esempio
+
+## Contenuto principale
+
+Il tasso di conversione è la percentuale di persone che passano da una fase alla successiva — più spesso, la percentuale di potenziali clienti che diventano clienti paganti. Si calcola dividendo il numero di chi ha convertito per il totale di chi è entrato in quella fase, poi moltiplicando per 100 per ottenere una percentuale.
+
+I semplici numeri di attività possono ingannare. Un venditore che fa cento telefonate a settimana sembra molto impegnato, ma se solo una telefonata si trasforma in una vendita, il tasso di conversione è dell'1% — una storia ben diversa da quella di chi fa venti telefonate e ne chiude cinque, cioè un tasso di conversione del 25%. Il tasso di conversione rivela l'efficacia reale, non solo l'impegno o il volume.
+
+Misurare il tasso di conversione in ogni fase della pipeline (non solo nella vendita finale) aiuta a capire esattamente dove un processo è debole. Una conversione bassa da "Contattato" a "In conversazione" indica un problema diverso da una conversione bassa da "Proposta inviata" a "Chiuso".
+
+## Esempio svolto
+
+Un venditore invia cinquanta proposte in un mese e ne chiude dieci. Tasso di conversione: 10 diviso 50, per 100, uguale 20%. Il mese dopo migliora il suo modello di proposta in base alle obiezioni comuni che ha sentito, invia quaranta proposte e ne chiude dodici. Tasso di conversione: 12 diviso 40, per 100, uguale 30%. Anche se sono state inviate meno proposte, il tasso di conversione migliore significa più contratti chiusi con meno impegno complessivo — un segnale chiaro che il miglioramento ha funzionato.
+
+## Quiz di esercitazione
+
+1. Definisci il tasso di conversione e come si calcola.
+2. Perché i semplici numeri di attività possono ingannare, da soli?
+3. Se qualcuno invia 25 proposte e ne chiude 5, qual è il suo tasso di conversione?
+4. Perché è utile misurare la conversione in ogni fase della pipeline e non solo nella vendita finale?
+
+## Soluzioni
+1. La percentuale di persone che passano da una fase alla successiva, calcolata come (numero di chi ha convertito ÷ totale di chi è entrato nella fase) × 100.
+2. Perché molta attività con poca efficacia produce risultati scarsi, anche se sembra un gran lavoro.
+3. 5 ÷ 25 × 100 = 20%.
+4. Rivela esattamente in quale punto del processo i potenziali clienti si bloccano, permettendo miglioramenti mirati.
+
+## Risposte e spiegazioni
+1. È la formula e la definizione centrali che la lezione introduce.
+2. Il volume da solo non indica se l'impegno sta davvero producendo risultati.
+3. Applicando direttamente la formula: 5 diviso 25 fa 0,2, per 100 fa 20%.
+4. Il monitoraggio per fase individua debolezze specifiche invece di un solo numero complessivo di successo o insuccesso.
+
+## Punti chiave
+- Il tasso di conversione misura l'efficacia, calcolato come chi ha convertito diviso il totale, per 100.
+- Molta attività non garantisce risultati — il tasso di conversione rivela l'efficacia reale.
+- Misurare la conversione in ogni fase della pipeline indica esattamente dove un processo va migliorato.
+
+===== ORANGE-L1-035
+TITLE: Le basi dei test A/B
+SUMMARY: Presenta i test A/B come un modo semplice per prendere decisioni di marketing basate su prove invece che su supposizioni.
+# Le basi dei test A/B
+
+## Obiettivi di apprendimento
+- Definire i test A/B e spiegarne lo scopo
+- Individuare i requisiti di un test A/B valido
+- Esercitarsi a progettare un semplice test A/B per una decisione di marketing
+
+## Contenuto principale
+
+Un test A/B significa confrontare due versioni di qualcosa — un annuncio, l'oggetto di un'e-mail, una pagina web — mostrando ciascuna versione a un pubblico simile e misurando quale funziona meglio. Invece di indovinare quale approccio funzionerà meglio, il test A/B lascia decidere ai risultati reali.
+
+Perché un test sia valido, deve cambiare una sola cosa alla volta. Se cambi contemporaneamente l'oggetto e il contenuto dell'e-mail e una versione funziona meglio, non saprai quale cambiamento ha causato davvero il miglioramento. Serve anche un pubblico di dimensioni ragionevoli per ogni versione — testare con solo una manciata di persone per versione rende i risultati inaffidabili, perché un campione piccolo può sembrare diverso solo per caso.
+
+I test A/B non sono solo per le grandi aziende con grandi budget. Una piccola impresa può testare qualcosa di semplice come due didascalie diverse su post social simili, o due oggetti su una piccola lista di e-mail, e usare ciò che ha imparato per migliorare le decisioni di marketing future.
+
+## Esempio svolto
+
+Un'impresa vuole sapere quale oggetto spinge più persone ad aprire un'e-mail promozionale. Invia la versione A ("20% di sconto solo questa settimana") a metà della sua lista e la versione B ("Il tuo sconto ti aspetta") all'altra metà — stesso contenuto, stesso orario di invio, cambia solo l'oggetto. La versione A viene aperta dal 30% dei destinatari; la versione B dal 18%. Ora l'impresa ha una prova reale, non un'ipotesi, che specificità e urgenza nell'oggetto hanno funzionato meglio con questo pubblico.
+
+## Quiz di esercitazione
+
+1. Definisci con parole tue i test A/B.
+2. Che cosa serve perché un test A/B dia risultati validi e utili?
+3. Perché testare con un pubblico molto piccolo è inaffidabile?
+4. I test A/B sono utili solo alle grandi aziende con grandi budget?
+
+## Soluzioni
+1. Confrontare due versioni di qualcosa con un pubblico simile per vedere quale funziona meglio.
+2. Cambiare una sola variabile alla volta e testare con un pubblico di dimensioni ragionevoli.
+3. I campioni piccoli possono dare risultati fuorvianti solo per caso, non per una reale differenza di prestazioni.
+4. No — le piccole imprese possono e dovrebbero usarli per decisioni come gli oggetti delle e-mail o le didascalie.
+
+## Risposte e spiegazioni
+1. Questo definisce il meccanismo centrale dei test A/B come confronto basato su prove.
+2. Isolare una variabile e avere dati sufficienti sono entrambi necessari per conclusioni affidabili.
+3. Nei campioni piccoli il rumore statistico può coprire il segnale reale, portando a conclusioni sbagliate.
+4. La lezione contesta esplicitamente l'idea che i test A/B richiedano grandi numeri o grandi budget.
+
+## Punti chiave
+- I test A/B confrontano due versioni per lasciare che siano i risultati reali, e non le supposizioni, a guidare le decisioni di marketing.
+- I test validi cambiano una sola variabile e usano un pubblico abbastanza grande da potersi fidare dei risultati.
+- Le piccole imprese possono e dovrebbero usare semplici test A/B per migliorare nel tempo il proprio marketing.
