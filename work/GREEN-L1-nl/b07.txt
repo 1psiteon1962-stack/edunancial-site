@@ -1,0 +1,399 @@
+===== GREEN-L1-031
+TITLE: Vermogenswinst: belasting op winst uit beleggingen
+SUMMARY: Introduceert het begrip vermogenswinst – winst uit het verkopen van een bezitting voor meer dan de aankoopprijs – en hoe die verschilt van gewoon inkomen.
+# Vermogenswinst: belasting op winst uit beleggingen
+
+## Leerdoelen
+
+- Een vermogenswinst in eenvoudige woorden definiëren.
+- De basisberekening van een vermogenswinst uitleggen.
+- Herkennen waarom winst pas bij verkoop wordt gerealiseerd (en meestal belast), niet al bij het simpelweg bezitten.
+
+## Kerninhoud
+
+Een vermogenswinst is de winst die je maakt als je een bezitting – zoals een aandeel of een stuk vastgoed – verkoopt voor meer dan je ervoor hebt betaald. De basisberekening is eenvoudig: verkoopprijs min aankoopprijs (vaak de "verkrijgingsprijs" of "basis" genoemd) is de winst. Wordt de bezitting verkocht voor minder dan de basis, dan is er in plaats daarvan sprake van een vermogensverlies. (Nederland belast particuliere beleggingen grotendeels in box 3, waar de heffing al jaren onderwerp van rechtszaken en hervorming is; de regels veranderen.)
+
+Een belangrijke nuance: in de meeste stelsels wordt een winst pas "gerealiseerd", en is die in het algemeen pas belastbaar, wanneer de bezitting daadwerkelijk wordt verkocht. Als de waarde van een aandeel verdubbelt maar je het nooit verkoopt, ben je over die stijging meestal nog geen belasting verschuldigd – het is een ongerealiseerde winst, een "papieren" winst. Dit onderscheid is belangrijk voor beleggingsplanning, omdat het verkopen van een in waarde gestegen bezitting vaak een bewuste, te timen beslissing met fiscale gevolgen is, en niet iets wat automatisch gebeurt omdat de waarde steeg.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een belegger koopt een aandeel voor $ 1.000. Twee jaar later is het $ 3.000 waard, maar ze heeft het niet verkocht. Is ze nu belasting over een vermogenswinst verschuldigd?
+
+**Cursist:** Volgens deze les waarschijnlijk nog niet, omdat de winst niet door een verkoop is gerealiseerd.
+
+**Begeleider:** Wat zou de belasting in gang zetten, en hoe zou die worden berekend als ze voor $ 3.000 verkoopt?
+
+**Cursist:** De verkoop zou die in gang zetten – de winst zou $ 3.000 min haar basis van $ 1.000 zijn, dus een vermogenswinst van $ 2.000.
+
+**Begeleider:** Precies – en over dat moment heeft ze enige zeggenschap, wat een echte planningshefboom is.
+
+## Oefenquiz
+
+**Vraag 1.** Een vermogenswinst wordt berekend als:
+
+A) Aankoopprijs min verkoopprijs
+B) Verkoopprijs min aankoopprijs (basis)
+C) Alleen de aankoopprijs
+D) Een vast bedrag dat de overheid bepaalt
+
+**Vraag 2.** Als een bezitting wordt verkocht voor minder dan de basis, heet dat:
+
+A) Vermogenswinst
+B) Vermogensverlies
+C) Heffingskorting
+D) Teruggave
+
+**Vraag 3.** Een vermogenswinst wordt meestal belast:
+
+A) Zodra de waarde van de bezitting stijgt, ongeacht verkoop
+B) Wanneer de winst wordt gerealiseerd, meestal bij verkoop
+C) Nooit
+D) Alleen als de bezitting vastgoed is
+
+**Vraag 4.** Een ongerealiseerde, of "papieren", winst verwijst naar:
+
+A) Een winst die al is belast
+B) Een waardestijging die nog niet door een verkoop is vastgezet
+C) Een soort heffingskorting
+D) Een vermogensverlies
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** De berekening vergelijkt waarvoor je de bezitting hebt verkocht met wat je er oorspronkelijk voor betaalde.
+
+**2.** Een verlies is gewoon het spiegelbeeld van een winst – verkopen voor minder dan de oorspronkelijke basis.
+
+**3.** Realisatie door verkoop is in de meeste stelsels het algemene moment waarop belasting over vermogenswinst ontstaat.
+
+**4.** De waarde kan op papier stijgen zonder belasting in gang te zetten, omdat er nog niets is verkocht.
+
+## Belangrijkste punten
+
+- Een vermogenswinst is verkoopprijs min aankoopprijs (basis).
+- Verkopen onder de basis levert in plaats daarvan een vermogensverlies op.
+- Winst wordt meestal belast bij realisatie – meestal bij verkoop.
+- Ongerealiseerde winst wordt nog niet belast, waardoor het moment van verkoop een echte planningsbeslissing is.
+
+===== GREEN-L1-032
+TITLE: Vermogenswinst op korte en lange termijn
+SUMMARY: Legt uit waarom veel stelsels winst verschillend belasten, afhankelijk van hoe lang een bezitting vóór de verkoop werd aangehouden.
+# Vermogenswinst op korte en lange termijn
+
+## Leerdoelen
+
+- Vermogenswinst op korte en lange termijn definiëren.
+- De algemene beleidsreden uitleggen om langere bezitsperiodes te bevoordelen.
+- De bezitsperiode herkennen als een planningsfactor.
+
+## Kerninhoud
+
+Veel belastingstelsels maken onderscheid tussen vermogenswinst op korte termijn (uit bezittingen die korter zijn aangehouden, vaak minder dan een jaar) en vermogenswinst op lange termijn (uit bezittingen die langer zijn aangehouden), waarbij winst op lange termijn vaak tegen een gunstiger tarief wordt belast. De precieze drempel en het tariefverschil verschillen per land en veranderen in de tijd, maar het algemene patroon – geduld wordt beloond – komt veel voor. (Nederland kent voor particuliere beleggers in box 3 geen gangbaar onderscheid naar bezitsperiode; de regels veranderen.)
+
+De algemene beleidsreden is langetermijnbeleggen aan te moedigen en overmatig kortetermijnhandelen te ontmoedigen, al verschillen redelijke mensen van mening over hoe goed dat in de praktijk werkt. Voor een individuele belegger is de praktische les dat de bezitsperiode een echte planningshefboom is: een bezitting net iets eerder of later verkopen dan een belangrijke drempel kan de fiscale uitkomst flink veranderen, en daarom timen beleggers een verkoop soms bewust rond zo'n mijlpaal.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een belegger zit dicht bij de drempel voor lange termijn bij een winstgevend aandeel en twijfelt of ze nu verkoopt of nog een paar weken wacht. Waar moet ze aan denken?
+
+**Cursist:** Volgens deze les kan wachten tot ze over de drempel is een gunstiger tarief op de winst betekenen.
+
+**Begeleider:** Moet de fiscale behandeling de enige factor in die beslissing zijn?
+
+**Cursist:** Waarschijnlijk niet – de koers van het aandeel kan intussen ook bewegen, dus het is een echte afweging tussen fiscale timing en beleggingsrisico, geen puur fiscale beslissing.
+
+**Begeleider:** Precies – belastingplanning is één factor, niet de hele beslissing.
+
+## Oefenquiz
+
+**Vraag 1.** Vermogenswinst op korte termijn komt meestal uit bezittingen die:
+
+A) Langer zijn aangehouden
+B) Korter zijn aangehouden, vaak minder dan een jaar
+C) Nooit zijn verkocht
+D) Alleen vastgoed zijn
+
+**Vraag 2.** Vermogenswinst op lange termijn wordt vaak belast:
+
+A) Tegen een minder gunstig tarief dan winst op korte termijn
+B) In veel stelsels tegen een gunstiger tarief dan winst op korte termijn
+C) Overal precies zoals winst op korte termijn
+D) Nooit
+
+**Vraag 3.** De algemene beleidsreden achter dit onderscheid is:
+
+A) Langetermijnbeleggers straffen
+B) Langetermijnbeleggen aanmoedigen boven overmatig kortetermijnhandelen
+C) De overheidsinkomsten verhogen zonder ander doel
+D) Het belastingstelsel vereenvoudigen
+
+**Vraag 4.** De bezitsperiode kun je het best zien als:
+
+A) Niet relevant voor belastingplanning
+B) Een echte planningshefboom die de fiscale uitkomst van een verkoop kan beïnvloeden
+C) Vast en onveranderlijk
+D) Alleen relevant voor bedrijven
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Winst op korte termijn komt meestal uit bezittingen die vóór de verkoop relatief kort zijn aangehouden.
+
+**2.** Veel stelsels passen uit beleidsoverwegingen een gunstiger tarief toe op winst op lange termijn.
+
+**3.** Het algemene doel is beleggers richting geduld te sturen in plaats van frequent kortetermijnhandelen, al is de werkelijke effectiviteit omstreden.
+
+**4.** Omdat timing de fiscale uitkomst kan verschuiven, is de bezitsperiode een factor waar beleggers bewust omheen kunnen plannen.
+
+## Belangrijkste punten
+
+- Winst op korte termijn komt meestal uit kort aangehouden bezittingen; winst op lange termijn uit langer aangehouden bezittingen.
+- Winst op lange termijn wordt vaak gunstiger belast, al verschillen de details en veranderen ze.
+- Het beleidsdoel is meestal geduldig langetermijnbeleggen aan te moedigen.
+- De bezitsperiode is voor beleggers een echte, beheersbare planningshefboom.
+
+===== GREEN-L1-033
+TITLE: Dividend en rente: hoe inkomsten uit beleggingen worden belast
+SUMMARY: Introduceert dividend en rente als twee veelvoorkomende vormen van beleggingsinkomen die verschillen van vermogenswinst, omdat ze ontstaan door een bezitting aan te houden, niet door die te verkopen.
+# Dividend en rente: hoe inkomsten uit beleggingen worden belast
+
+## Leerdoelen
+
+- Dividend en rente onderscheiden van vermogenswinst.
+- Uitleggen dat dividend- en rente-inkomsten meestal belastbaar zijn in het jaar waarin ze worden ontvangen.
+- Ze herkennen als doorlopende inkomstenstromen, niet als eenmalige verkoopmomenten.
+
+## Kerninhoud
+
+Tot nu toe ging deze leerlijn vooral over vermogenswinst – winst uit het verkopen van een bezitting. Maar twee andere veelvoorkomende vormen van beleggingsinkomen vragen helemaal geen verkoop: dividend (een deel van de winst van een bedrijf dat aan aandeelhouders wordt uitgekeerd, vaak periodiek) en rente (betalingen voor uitgeleend geld, zoals via een spaarrekening of een obligatie). (In Nederland wordt over dividend vaak dividendbelasting ingehouden, die meestal verrekend kan worden; voor particulieren valt het vermogen zelf in box 3. De regels veranderen.)
+
+Anders dan vermogenswinst, die meestal door een verkoop in gang wordt gezet, zijn dividend- en rente-inkomsten in veel stelsels belastbaar in het jaar waarin ze worden ontvangen, ongeacht of de onderliggende belegging ooit wordt verkocht. Een belegger die decennialang een dividendaandeel aanhoudt zonder één aandeel te verkopen, is meestal toch elk jaar belasting verschuldigd over het dividend dat in die tijd is ontvangen. Wie deze herkent als aparte, doorlopende inkomstenstromen – los van de verkoopgebonden werking van vermogenswinst – heeft het basisbeeld van de belasting op beleggingsinkomen compleet.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een belegger houdt een aandeel 15 jaar aan zonder het ooit te verkopen, maar het bedrijf keert elk kwartaal dividend uit. Ontloopt ze alle belasting op dat aandeel door nooit te verkopen?
+
+**Cursist:** Volgens deze les niet – het dividend zelf is meestal belastbaar in elk jaar waarin ze het ontvangt, ook zonder verkoop.
+
+**Begeleider:** Wat wordt er dan elk jaar belast, en wat zou alleen worden belast als ze uiteindelijk verkoopt?
+
+**Cursist:** Het dividend wordt belast als het wordt ontvangen. De koersstijging van het aandeel zou pas een belastbare vermogenswinst worden als en wanneer ze echt verkoopt.
+
+**Begeleider:** Precies – twee verschillende inkomstenstromen, twee verschillende momenten.
+
+## Oefenquiz
+
+**Vraag 1.** Een dividend is:
+
+A) Een soort lening
+B) Een deel van de winst van een bedrijf dat aan aandeelhouders wordt uitgekeerd
+C) Hetzelfde als een vermogenswinst
+D) Een heffingskorting van de overheid
+
+**Vraag 2.** Rente is meestal:
+
+A) Winst uit het verkopen van een bezitting
+B) Een betaling voor uitgeleend geld, zoals via sparen of obligaties
+C) Hetzelfde als dividend
+D) Alleen relevant voor bedrijven
+
+**Vraag 3.** Anders dan vermogenswinst is dividend- en rente-inkomen meestal belastbaar:
+
+A) Alleen bij verkoop van de onderliggende bezitting
+B) In het jaar van ontvangst, ongeacht verkoop
+C) Nooit
+D) Pas na tien jaar
+
+**Vraag 4.** Kan een belegger alle belasting op een aandeel ontlopen door het simpelweg nooit te verkopen?
+
+A) Ja, altijd
+B) Nee – onderweg ontvangen dividend is meestal toch belastbaar
+C) Alleen als het aandeel in waarde daalt
+D) Alleen bij obligaties
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Een dividend is een uitkering van bedrijfswinst aan aandeelhouders, los van een verkooptransactie.
+
+**2.** Rente is de vergoeding voor het uitlenen van geld, via een bankrekening, obligatie of vergelijkbaar instrument.
+
+**3.** Deze soorten inkomen worden belast bij ontvangst, anders dan vermogenswinst, waarbij de belasting pas bij verkoop ontstaat.
+
+**4.** Doorlopend inkomen zoals dividend levert jaar na jaar belastingverplichtingen op, los van of de bezitting ooit wordt verkocht.
+
+## Belangrijkste punten
+
+- Dividend en rente zijn soorten beleggingsinkomen die verschillen van vermogenswinst.
+- Ze worden meestal belast in het jaar van ontvangst, niet bij verkoop.
+- Een bezitting aanhouden zonder te verkopen voorkomt geen belasting op het inkomen dat die onderweg oplevert.
+- Ze herkennen als aparte, doorlopende stromen maakt het basisbeeld van beleggingsinkomen compleet.
+
+===== GREEN-L1-034
+TITLE: Fiscaal voordelige pensioenrekeningen: het basisidee
+SUMMARY: Introduceert het algemene idee van fiscaal voordelige pensioenrekeningen, zonder het te koppelen aan de productnamen van één land.
+# Fiscaal voordelige pensioenrekeningen: het basisidee
+
+## Leerdoelen
+
+- Het algemene doel van fiscaal voordelige pensioenrekeningen uitleggen.
+- Het basismechanisme herkennen: een belastingvoordeel in ruil voor beperkingen op toegang.
+- Dit herkennen als een beleidsinstrument om sparen op lange termijn aan te moedigen.
+
+## Kerninhoud
+
+Veel overheden bieden speciale soorten rekeningen aan met een belastingvoordeel – ingelegd geld wordt nog niet belast, of later opgenomen geld wordt niet belast, of de groei binnen de rekening wordt onderweg niet belast – juist om mensen aan te moedigen voor hun pensioen te sparen. In ruil voor dat voordeel hebben deze rekeningen meestal beperkingen, het vaakst grenzen aan het opnemen van geld vóór een bepaalde leeftijd zonder boete. (In Nederland bestaan bijvoorbeeld lijfrenterekeningen en -verzekeringen, met aftrekbare inleg en belaste uitkeringen binnen bepaalde grenzen; de regels veranderen.)
+
+De onderliggende ruil is eenvoudig: de overheid ziet nu (of later) af van een deel van de belastinginkomsten in ruil voor het aanmoedigen van gedrag – sparen op lange termijn – dat de toekomstige afhankelijkheid van publieke voorzieningen vermindert. Specifieke productnamen, inleggrenzen en regels verschillen enorm per land en veranderen in de tijd, maar de basisvorm – belastingvoordeel gekoppeld aan een toegangsbeperking, gericht op pensioensparen – is een patroon dat de moeite waard is om te herkennen, waar je het ook tegenkomt.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een vriend vraagt waarom een pensioenrekening hem bestraft als hij zijn eigen geld eerder opneemt. Wat is de algemene logica?
+
+**Cursist:** Volgens deze les is het belastingvoordeel eigenlijk een ruil – je krijgt een voordeel in ruil voor de afspraak dat het geld voor je pensioen blijft staan.
+
+**Begeleider:** Waarom zou een overheid het belangrijk vinden dat het geld specifiek voor pensioen wordt gebruikt?
+
+**Cursist:** Omdat het aanmoedigen van sparen op lange termijn de toekomstige afhankelijkheid van publieke voorzieningen vermindert, dus het is het waard om nu af te zien van wat belastinginkomsten.
+
+**Begeleider:** Precies – de beperking is niet willekeurig, ze hangt samen met het doel van het voordeel.
+
+## Oefenquiz
+
+**Vraag 1.** Fiscaal voordelige pensioenrekeningen bieden meestal:
+
+A) Helemaal geen voordeel
+B) Een vorm van belastingvoordeel gekoppeld aan sparen voor pensioen
+C) Altijd onbeperkt opnemen zonder boete
+D) Alleen voordelen voor bedrijven
+
+**Vraag 2.** In ruil voor het belastingvoordeel hebben deze rekeningen meestal:
+
+A) Helemaal geen beperkingen
+B) Beperkingen, vaak grenzen aan vroeg opnemen zonder boete
+C) De verplichting het geld meteen uit te geven
+D) Een hogere omzetbelasting
+
+**Vraag 3.** Waarom zou een overheid dit soort voordeel bieden?
+
+A) Zonder echte reden
+B) Om sparen op lange termijn aan te moedigen en toekomstige afhankelijkheid van publieke steun te verminderen
+C) Om de belastinginkomsten op korte termijn te verhogen
+D) Alleen om banken te bevoordelen
+
+**Vraag 4.** Blijven specifieke rekeningnamen en regels gelijk tussen landen en door de tijd?
+
+A) Ja, altijd
+B) Nee – ze verschillen sterk en veranderen in de tijd
+C) Alleen in rijke landen
+D) Ze hebben nooit bestaan
+
+## Antwoordsleutel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** Het kernaanbod in de meeste stelsels is een vorm van belastingvoordeel die specifiek aan pensioensparen is gekoppeld.
+
+**2.** Beperkingen op vroeg opnemen zijn de gebruikelijke tegenprestatie voor het belastingvoordeel.
+
+**3.** Sparen aanmoedigen vermindert de toekomstige last op publieke pensioen- en steunvoorzieningen; dat is de beleidslogica.
+
+**4.** Net als bij kortingen hangen de details af van land en tijd, dus het patroon is belangrijker dan de regels van één product.
+
+## Belangrijkste punten
+
+- Fiscaal voordelige pensioenrekeningen ruilen een belastingvoordeel tegen beperkingen op het spaargeld.
+- Vroeg opnemen is meestal beperkt of beboet.
+- Het beleidsdoel is sparen op lange termijn aan te moedigen om toekomstige afhankelijkheid van publieke steun te verminderen.
+- Specifieke regels verschillen per land en veranderen in de tijd – het patroon is de overdraagbare les.
+
+===== GREEN-L1-035
+TITLE: Traditioneel of Roth: nu of later belasting betalen
+SUMMARY: Legt het algemene idee uit achter twee veelvoorkomende vormen van pensioenrekeningen – de ene belast bij inleg, de andere bij opname – met algemene labels in plaats van de programmanamen van één land.
+# Traditioneel of Roth: nu of later belasting betalen
+
+## Leerdoelen
+
+- De keuze "nu betalen of later betalen" uitleggen die in veel pensioenstelsels voorkomt.
+- De basisafweging tussen de twee benaderingen herkennen.
+- Herkennen dat de betere keuze kan afhangen van verwachte toekomstige belastingtarieven.
+
+## Kerninhoud
+
+Veel stelsels van pensioenrekeningen bieden een keuze tussen twee vormen, vaak algemeen omschreven als "traditioneel" en "Roth" (naar de Amerikaanse namen), wat de precieze lokale namen ook zijn. Bij een traditionele rekening verlaagt de inleg meestal nu het belastbaar inkomen, maar worden opnames in het pensioen belast. Bij een Roth-rekening wordt ingelegd met al belast geld, maar zijn opnames in het pensioen meestal belastingvrij. (In Nederland volgen pensioen en lijfrente grotendeels de "traditionele" logica, de zogeheten omkeerregel: aftrekbare inleg, belaste uitkering. De regels veranderen.)
+
+De kernafweging is het moment: nu belasting betalen tegen je huidige tarief, of later tegen je toekomstige tarief. Als je verwacht dat je tarief in je pensioen lager is dan nu, pakt een traditionele aanpak vaak beter uit. Als je verwacht dat je tarief in je pensioen vergelijkbaar of hoger is – vaak bij jonge mensen aan het begin van hun loopbaan, met ruimte om te groeien –, kan een Roth-aanpak beter uitpakken. Er is geen antwoord dat voor iedereen klopt; het hangt af van aannames over de toekomst, en precies daarom is dit een gebied waar het verstandig is professioneel advies te vragen in plaats van te gokken.
+
+## Praktijkvoorbeeld
+
+**Vraag:** Een 22-jarige die net aan haar loopbaan begint, twijfelt tussen een traditionele en een Roth-rekening. Welke algemene redenering moet ze doorlopen?
+
+**Cursist:** Volgens deze les moet ze nadenken over de vraag of haar tarief nu waarschijnlijk lager of hoger is dan later in haar loopbaan.
+
+**Begeleider:** Omdat ze aan het begin van haar loopbaan staat: wat is een redelijke aanname over haar toekomstige inkomen en tarief?
+
+**Cursist:** Haar inkomen, en waarschijnlijk haar tarief, zal in de loop van de tijd stijgen – dus nu belasting betalen tegen een lager tarief, via een Roth-rekening, kan zinvol zijn.
+
+**Begeleider:** Dat is een redelijke gedachtegang – al blijft het een aanname over de toekomst, geen garantie, en daarom is het de moeite waard om een concreet plan met een professional te bespreken.
+
+## Oefenquiz
+
+**Vraag 1.** Bij een traditionele rekening geldt voor de inleg meestal:
+
+A) Die wordt twee keer belast
+B) Die verlaagt nu het belastbaar inkomen, en opnames worden later belast
+C) Die wordt nooit belast
+D) Die heeft geen effect op belasting
+
+**Vraag 2.** Bij een Roth-rekening wordt de inleg meestal:
+
+A) Gedaan met al belast geld, met belastingvrije opnames later
+B) Afgetrokken van het huidige belastbaar inkomen
+C) Twee keer belast
+D) Verboden
+
+**Vraag 3.** De kernafweging tussen de twee benaderingen is:
+
+A) Er is geen afweging
+B) Nu belasting betalen of later belasting betalen
+C) De ene benadering heeft nooit met belasting te maken
+D) Alleen bedrijven kunnen kiezen
+
+**Vraag 4.** Welke benadering is meestal gunstiger voor iemand die in het pensioen een lager tarief verwacht dan nu?
+
+A) Roth
+B) Traditioneel
+C) Geen van beide maakt uit
+D) Alleen rekeningen op basis van omzetbelasting
+
+## Antwoordsleutel
+
+1. B, 2. A, 3. B, 4. B
+
+## Antwoorden en uitleg
+
+**1.** De traditionele vorm stelt de belasting uit: vandaag een voordeel, in ruil voor belasting over latere opnames.
+
+**2.** De Roth-vorm haalt de belasting naar voren, zodat latere opnames die aan de voorwaarden voldoen meestal onbelast zijn.
+
+**3.** Het is in de kern een keuze over het moment waarop je liever belasting betaalt, op basis van aannames over toekomstige tarieven.
+
+**4.** Als het tarief van nu hoger is dan het verwachte toekomstige tarief, is belasting uitstellen (traditioneel) vaak voordeliger.
+
+## Belangrijkste punten
+
+- Traditionele rekeningen stellen de belasting uit tot opname; Roth-rekeningen belasten nu de inleg, niet de opnames.
+- De kernafweging is nu of later belasting betalen.
+- De betere keuze hangt af van aannames over je huidige tegenover je toekomstige tarief.
+- Dit is een gebruikelijk, legitiem gebied om professioneel advies te vragen in plaats van te gokken.

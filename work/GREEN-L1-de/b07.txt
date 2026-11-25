@@ -1,0 +1,399 @@
+===== GREEN-L1-031
+TITLE: Kapitalgewinne: Steuern auf Gewinne aus Geldanlagen
+SUMMARY: Stellt das Konzept des Kapitalgewinns vor – Gewinn aus dem Verkauf eines Vermögenswerts über seinem Kaufpreis – und zeigt, wie er sich von gewöhnlichem Einkommen unterscheidet.
+# Kapitalgewinne: Steuern auf Gewinne aus Geldanlagen
+
+## Lernziele
+
+- Einen Kapitalgewinn in einfachen Worten definieren.
+- Die Grundberechnung eines Kapitalgewinns erklären.
+- Erkennen, warum Gewinne erst beim Verkauf realisiert (und in der Regel besteuert) werden und nicht schon beim bloßen Halten.
+
+## Kerninhalt
+
+Ein Kapitalgewinn ist der Gewinn, den du erzielst, wenn du einen Vermögenswert – etwa eine Aktie oder eine Immobilie – für mehr verkaufst, als du dafür bezahlt hast. Die Grundberechnung ist einfach: Verkaufspreis minus Kaufpreis (oft „Anschaffungskosten“ oder „Basis“ genannt) ergibt den Gewinn. Wird der Vermögenswert unter seinen Anschaffungskosten verkauft, entsteht stattdessen ein Kapitalverlust. (In Deutschland unterliegen Kursgewinne aus Wertpapieren in der Regel der Abgeltungsteuer, mit einem jährlichen Sparer-Pauschbetrag; Sätze und Freibeträge ändern sich.)
+
+Eine wichtige Feinheit: In den meisten Systemen wird ein Gewinn erst dann „realisiert“ und in der Regel erst dann steuerpflichtig, wenn der Vermögenswert tatsächlich verkauft wird. Wenn sich der Wert einer Aktie verdoppelt, du sie aber nie verkaufst, schuldest du auf diesen Anstieg in der Regel noch keine Steuer – es ist ein nicht realisierter Gewinn, ein „Buchgewinn“. Diese Unterscheidung ist für die Anlageplanung wichtig, weil der Verkauf eines im Wert gestiegenen Vermögenswerts oft eine bewusste, zeitlich steuerbare Entscheidung mit steuerlichen Folgen ist und nicht automatisch passiert, nur weil der Wert gestiegen ist.
+
+## Praxisbeispiel
+
+**Frage:** Eine Anlegerin kauft eine Aktie für 1.000 $. Zwei Jahre später ist sie 3.000 $ wert, aber sie hat sie nicht verkauft. Schuldet sie jetzt Steuer auf einen Kapitalgewinn?
+
+**Schüler:** Nach dieser Lektion eher noch nicht, weil der Gewinn nicht durch einen Verkauf realisiert wurde.
+
+**Lernbegleiter:** Was würde die Steuer auslösen, und wie würde sie berechnet, wenn sie für 3.000 $ verkauft?
+
+**Schüler:** Der Verkauf würde sie auslösen – der Gewinn wäre 3.000 $ minus ihre Anschaffungskosten von 1.000 $, also ein Kapitalgewinn von 2.000 $.
+
+**Lernbegleiter:** Genau – und diesen Zeitpunkt kann sie bis zu einem gewissen Grad selbst bestimmen, was ein echter Planungshebel ist.
+
+## Übungsquiz
+
+**Frage 1.** Ein Kapitalgewinn wird berechnet als:
+
+A) Kaufpreis minus Verkaufspreis
+B) Verkaufspreis minus Kaufpreis (Anschaffungskosten)
+C) Nur der Kaufpreis
+D) Ein vom Staat festgelegter Betrag
+
+**Frage 2.** Wird ein Vermögenswert unter seinen Anschaffungskosten verkauft, nennt man das:
+
+A) Kapitalgewinn
+B) Kapitalverlust
+C) Steuergutschrift
+D) Erstattung
+
+**Frage 3.** Ein Kapitalgewinn wird in der Regel besteuert:
+
+A) Sobald der Wert steigt, unabhängig vom Verkauf
+B) Wenn der Gewinn realisiert wird, typischerweise beim Verkauf
+C) Nie
+D) Nur bei Immobilien
+
+**Frage 4.** Ein nicht realisierter Gewinn oder „Buchgewinn“ bezeichnet:
+
+A) Einen bereits versteuerten Gewinn
+B) Einen Wertanstieg, der noch nicht durch einen Verkauf gesichert wurde
+C) Eine Art Steuergutschrift
+D) Einen Kapitalverlust
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Die Berechnung vergleicht, wofür du den Vermögenswert verkauft hast, mit dem, was du ursprünglich bezahlt hast.
+
+**2.** Ein Verlust ist einfach das Spiegelbild eines Gewinns – ein Verkauf unter den ursprünglichen Anschaffungskosten.
+
+**3.** Die Realisierung durch Verkauf ist in den meisten Systemen der allgemeine Auslöser für die Besteuerung von Kapitalgewinnen.
+
+**4.** Der Wert kann auf dem Papier steigen, ohne Steuer auszulösen, weil noch nichts verkauft wurde.
+
+## Wichtigste Erkenntnisse
+
+- Ein Kapitalgewinn ist Verkaufspreis minus Kaufpreis (Anschaffungskosten).
+- Ein Verkauf unter den Anschaffungskosten führt stattdessen zu einem Kapitalverlust.
+- Gewinne werden in der Regel bei Realisierung besteuert – typischerweise beim Verkauf.
+- Nicht realisierte Gewinne werden noch nicht besteuert; deshalb ist der Verkaufszeitpunkt eine echte Planungsentscheidung.
+
+===== GREEN-L1-032
+TITLE: Kurzfristige und langfristige Kapitalgewinne
+SUMMARY: Erklärt, warum viele Systeme Gewinne je nach Haltedauer eines Vermögenswerts vor dem Verkauf unterschiedlich besteuern.
+# Kurzfristige und langfristige Kapitalgewinne
+
+## Lernziele
+
+- Kurzfristige und langfristige Kapitalgewinne definieren.
+- Die allgemeine politische Begründung für die Begünstigung längerer Haltedauern erklären.
+- Die Haltedauer als Planungsfaktor erkennen.
+
+## Kerninhalt
+
+Viele Steuersysteme unterscheiden zwischen kurzfristigen Kapitalgewinnen (aus Vermögenswerten, die kürzer gehalten wurden, oft weniger als ein Jahr) und langfristigen Kapitalgewinnen (aus Vermögenswerten, die länger gehalten wurden), wobei langfristige Gewinne oft günstiger besteuert werden. Die genaue Schwelle für die Haltedauer und der Unterschied im Steuersatz sind je nach Land verschieden und ändern sich mit der Zeit, aber das allgemeine Muster – Geduld wird belohnt – ist verbreitet. (In Deutschland gibt es bei Wertpapieren keine solche allgemeine Unterscheidung, wohl aber zum Beispiel eine Spekulationsfrist bei privaten Immobilienverkäufen; die Regeln ändern sich.)
+
+Die allgemeine politische Begründung ist, längerfristige Anlagen zu fördern und übermäßigen kurzfristigen Handel zu bremsen – wobei vernünftige Menschen darüber streiten, wie gut das in der Praxis funktioniert. Für einzelne Anlegerinnen und Anleger ist die praktische Lehre, dass die Haltedauer ein echter Planungshebel ist: Einen Vermögenswert nur etwas früher oder später als eine wichtige Schwelle zu verkaufen, kann das steuerliche Ergebnis deutlich verändern – deshalb planen Anleger einen Verkauf manchmal bewusst um eine solche Haltefrist herum.
+
+## Praxisbeispiel
+
+**Frage:** Eine Anlegerin steht bei einer gewinnbringenden Aktie kurz vor der Schwelle für langfristige Haltedauer und überlegt, ob sie jetzt verkaufen oder noch einige Wochen warten soll. Was sollte sie bedenken?
+
+**Schüler:** Nach dieser Lektion könnte Warten bis zur Schwelle einen günstigeren Steuersatz auf den Gewinn bedeuten.
+
+**Lernbegleiter:** Sollte die steuerliche Behandlung der einzige Faktor bei dieser Entscheidung sein?
+
+**Schüler:** Eher nicht – der Kurs der Aktie kann sich in der Zwischenzeit auch bewegen, also ist es ein echter Zielkonflikt zwischen steuerlichem Timing und Anlagerisiko, keine reine Steuerentscheidung.
+
+**Lernbegleiter:** Genau – Steuerplanung ist ein Faktor, nicht die ganze Entscheidung.
+
+## Übungsquiz
+
+**Frage 1.** Kurzfristige Kapitalgewinne stammen in der Regel aus Vermögenswerten, die:
+
+A) Länger gehalten wurden
+B) Kürzer gehalten wurden, oft weniger als ein Jahr
+C) Nie verkauft wurden
+D) Nur Immobilien sind
+
+**Frage 2.** Langfristige Kapitalgewinne werden oft besteuert:
+
+A) Ungünstiger als kurzfristige Gewinne
+B) In vielen Systemen günstiger als kurzfristige Gewinne
+C) Überall genau wie kurzfristige Gewinne
+D) Nie
+
+**Frage 3.** Die allgemeine politische Begründung für diese Unterscheidung ist:
+
+A) Langfristige Anleger zu bestrafen
+B) Längerfristige Anlagen statt übermäßigem kurzfristigem Handel zu fördern
+C) Die Staatseinnahmen ohne weiteren Zweck zu erhöhen
+D) Das Steuerrecht zu vereinfachen
+
+**Frage 4.** Die Haltedauer versteht man am besten als:
+
+A) Unerheblich für die Steuerplanung
+B) Echten Planungshebel, der das steuerliche Ergebnis eines Verkaufs beeinflussen kann
+C) Fest und unveränderlich
+D) Nur für Unternehmen relevant
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Kurzfristige Gewinne stammen in der Regel aus Vermögenswerten, die vor dem Verkauf nur relativ kurz gehalten wurden.
+
+**2.** Viele Systeme wenden auf langfristige Gewinne aus politischen Gründen einen günstigeren Satz an.
+
+**3.** Das allgemeine Ziel ist, Anleger zu Geduld statt häufigem kurzfristigem Handel zu bewegen, auch wenn die tatsächliche Wirkung umstritten ist.
+
+**4.** Weil der Zeitpunkt das steuerliche Ergebnis verschieben kann, ist die Haltedauer ein Faktor, um den Anleger bewusst planen können.
+
+## Wichtigste Erkenntnisse
+
+- Kurzfristige Gewinne stammen meist aus kurz gehaltenen Vermögenswerten, langfristige aus länger gehaltenen.
+- Langfristige Gewinne werden oft günstiger besteuert, die Einzelheiten sind aber unterschiedlich und ändern sich.
+- Das politische Ziel ist in der Regel, geduldige, längerfristige Anlagen zu fördern.
+- Die Haltedauer ist für Anleger ein echter, steuerbarer Planungshebel.
+
+===== GREEN-L1-033
+TITLE: Dividenden und Zinsen: wie Kapitalerträge besteuert werden
+SUMMARY: Stellt Dividenden und Zinsen als zwei häufige Formen von Kapitalerträgen vor, die sich von Kapitalgewinnen unterscheiden, weil sie durch das Halten eines Vermögenswerts entstehen, nicht durch seinen Verkauf.
+# Dividenden und Zinsen: wie Kapitalerträge besteuert werden
+
+## Lernziele
+
+- Dividenden und Zinsen von Kapitalgewinnen unterscheiden.
+- Erklären, dass Dividenden und Zinsen in der Regel im Jahr des Zuflusses steuerpflichtig sind.
+- Diese als laufende Einkommensströme erkennen, nicht als einmalige Verkaufsereignisse.
+
+## Kerninhalt
+
+Bisher ging es in diesem Lernpfad vor allem um Kapitalgewinne – Gewinne aus dem Verkauf eines Vermögenswerts. Zwei andere häufige Formen von Kapitalerträgen erfordern aber gar keinen Verkauf: Dividenden (ein Anteil am Gewinn eines Unternehmens, der an die Aktionäre ausgeschüttet wird, oft regelmäßig) und Zinsen (Zahlungen für verliehenes Geld, etwa auf einem Sparkonto oder bei einer Anleihe). (In Deutschland fallen auch Dividenden und Zinsen in der Regel unter die Abgeltungsteuer, die die Bank oft direkt einbehält; die Einzelheiten ändern sich.)
+
+Anders als Kapitalgewinne, die typischerweise durch einen Verkauf ausgelöst werden, sind Dividenden und Zinsen in der Regel im Jahr ihres Zuflusses steuerpflichtig – unabhängig davon, ob die zugrunde liegende Anlage jemals verkauft wird. Eine Anlegerin, die eine Dividendenaktie jahrzehntelang hält, ohne eine einzige Aktie zu verkaufen, schuldet in der Regel trotzdem jedes Jahr Steuer auf die in dieser Zeit erhaltenen Dividenden. Wer diese als eigene, laufende Einkommensströme erkennt – getrennt von der verkaufsabhängigen Logik der Kapitalgewinne –, hat das Grundbild der Besteuerung von Kapitalerträgen vollständig.
+
+## Praxisbeispiel
+
+**Frage:** Eine Anlegerin hält eine Aktie 15 Jahre lang, ohne sie je zu verkaufen, aber das Unternehmen zahlt jedes Quartal eine Dividende. Vermeidet sie jede Steuer auf diese Aktie, indem sie nie verkauft?
+
+**Schüler:** Nach dieser Lektion nein – die Dividenden selbst sind in der Regel in jedem Jahr steuerpflichtig, in dem sie sie erhält, auch ohne Verkauf.
+
+**Lernbegleiter:** Was wird also jedes Jahr besteuert, und was würde nur besteuert, wenn sie irgendwann verkauft?
+
+**Schüler:** Die Dividenden werden bei Zufluss besteuert. Der Kursanstieg der Aktie würde erst dann zu einem steuerpflichtigen Kapitalgewinn, wenn sie tatsächlich verkauft.
+
+**Lernbegleiter:** Genau – zwei verschiedene Einkommensströme, zwei verschiedene Auslöser.
+
+## Übungsquiz
+
+**Frage 1.** Eine Dividende ist:
+
+A) Eine Art Darlehen
+B) Ein Anteil am Gewinn eines Unternehmens, der an die Aktionäre ausgeschüttet wird
+C) Dasselbe wie ein Kapitalgewinn
+D) Eine staatliche Steuergutschrift
+
+**Frage 2.** Zinsen sind in der Regel:
+
+A) Gewinn aus dem Verkauf eines Vermögenswerts
+B) Zahlungen für verliehenes Geld, etwa bei Sparkonten oder Anleihen
+C) Dasselbe wie eine Dividende
+D) Nur für Unternehmen relevant
+
+**Frage 3.** Anders als Kapitalgewinne sind Dividenden und Zinsen in der Regel steuerpflichtig:
+
+A) Nur beim Verkauf der zugrunde liegenden Anlage
+B) Im Jahr des Zuflusses, unabhängig von einem Verkauf
+C) Nie
+D) Erst nach zehn Jahren
+
+**Frage 4.** Kann ein Anleger jede Steuer auf eine Aktie vermeiden, indem er sie einfach nie verkauft?
+
+A) Ja, immer
+B) Nein – unterwegs erhaltene Dividenden sind in der Regel trotzdem steuerpflichtig
+C) Nur wenn die Aktie an Wert verliert
+D) Nur bei Anleihen
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Eine Dividende ist eine Ausschüttung von Unternehmensgewinn an die Aktionäre, getrennt von einem Verkaufsgeschäft.
+
+**2.** Zinsen sind die Vergütung dafür, Geld zu verleihen, ob über ein Bankkonto, eine Anleihe oder ein ähnliches Instrument.
+
+**3.** Diese Einkommensarten werden bei Zufluss besteuert, anders als Kapitalgewinne, bei denen die Steuer erst durch einen Verkauf ausgelöst wird.
+
+**4.** Laufende Erträge wie Dividenden erzeugen Jahr für Jahr Steuerpflichten, unabhängig davon, ob der Vermögenswert jemals verkauft wird.
+
+## Wichtigste Erkenntnisse
+
+- Dividenden und Zinsen sind Arten von Kapitalerträgen, die sich von Kapitalgewinnen unterscheiden.
+- Sie werden in der Regel im Jahr des Zuflusses besteuert, nicht beim Verkauf.
+- Wer einen Vermögenswert hält, ohne zu verkaufen, vermeidet nicht die Steuer auf die Erträge, die er unterwegs abwirft.
+- Diese als eigene, laufende Ströme zu erkennen, vervollständigt das Grundbild der Kapitalerträge.
+
+===== GREEN-L1-034
+TITLE: Steuerlich begünstigte Altersvorsorgekonten: die Grundidee
+SUMMARY: Stellt das allgemeine Konzept steuerlich begünstigter Altersvorsorgekonten vor, ohne es an die Kontobezeichnungen eines bestimmten Landes zu binden.
+# Steuerlich begünstigte Altersvorsorgekonten: die Grundidee
+
+## Lernziele
+
+- Den allgemeinen Zweck steuerlich begünstigter Altersvorsorgekonten erklären.
+- Den Grundmechanismus erkennen: ein Steuervorteil im Austausch gegen Einschränkungen beim Zugriff.
+- Dies als politisches Instrument zur Förderung langfristigen Sparens erkennen.
+
+## Kerninhalt
+
+Viele Staaten bieten besondere Kontoarten an, die einen Steuervorteil bieten – eingezahltes Geld wird noch nicht besteuert, oder später entnommenes Geld wird nicht besteuert, oder die Wertentwicklung innerhalb des Kontos wird unterwegs nicht besteuert –, gezielt um Menschen zum Sparen für das Alter zu bewegen. Im Gegenzug für diesen Vorteil sind diese Konten in der Regel mit Einschränkungen verbunden, am häufigsten mit Grenzen für Entnahmen vor einem bestimmten Alter ohne Nachteile. (In Deutschland gibt es etwa die betriebliche Altersversorgung, die Riester- und die Basisrente mit jeweils eigenen Regeln; Reformen werden immer wieder diskutiert und umgesetzt.)
+
+Der zugrunde liegende Tausch ist einfach: Der Staat verzichtet jetzt (oder später) auf einen Teil der Steuereinnahmen, um ein Verhalten zu fördern – langfristiges Sparen –, das die künftige Abhängigkeit von öffentlichen Unterstützungssystemen verringert. Konkrete Kontonamen, Einzahlungsgrenzen und Regeln unterscheiden sich von Land zu Land enorm und ändern sich mit der Zeit, aber die Grundform – Steuervorteil gepaart mit einer Zugriffsbeschränkung, um das Sparen für das Alter zu fördern – ist ein Muster, das es sich zu erkennen lohnt, wo immer man ihm begegnet.
+
+## Praxisbeispiel
+
+**Frage:** Ein Freund fragt, warum ein Altersvorsorgekonto ihn dafür bestraft, sein eigenes Geld früher herauszunehmen. Was ist die allgemeine Logik?
+
+**Schüler:** Nach dieser Lektion ist der Steuervorteil im Grunde ein Tausch – man bekommt einen Vorteil dafür, dass man sich verpflichtet, das Geld für das Alter liegen zu lassen.
+
+**Lernbegleiter:** Warum sollte es einem Staat wichtig sein, ob das Geld gerade für das Alter verwendet wird?
+
+**Schüler:** Weil die Förderung langfristigen Sparens die künftige Abhängigkeit von öffentlichen Unterstützungssystemen verringert – deshalb lohnt es sich für den Staat, jetzt auf einen Teil der Steuereinnahmen zu verzichten.
+
+**Lernbegleiter:** Genau – die Einschränkung ist nicht willkürlich, sie hängt mit dem Zweck des Vorteils zusammen.
+
+## Übungsquiz
+
+**Frage 1.** Steuerlich begünstigte Altersvorsorgekonten bieten in der Regel:
+
+A) Überhaupt keinen Vorteil
+B) Eine Form von Steuervorteil, die an das Sparen für das Alter gebunden ist
+C) Jederzeit unbegrenzte Entnahmen ohne Nachteile
+D) Nur Vorteile für Unternehmen
+
+**Frage 2.** Im Gegenzug für den Steuervorteil enthalten diese Konten in der Regel:
+
+A) Keinerlei Einschränkungen
+B) Einschränkungen, häufig Grenzen für frühe Entnahmen ohne Nachteile
+C) Die Pflicht, das Geld sofort auszugeben
+D) Eine höhere Umsatzsteuer
+
+**Frage 3.** Warum bietet ein Staat diese Art von Vorteil möglicherweise an?
+
+A) Ohne echten Grund
+B) Um langfristiges Sparen zu fördern und die künftige Abhängigkeit von öffentlicher Unterstützung zu verringern
+C) Um kurzfristig die Steuereinnahmen zu erhöhen
+D) Nur zum Nutzen der Banken
+
+**Frage 4.** Bleiben konkrete Kontonamen und Regeln über Länder und Zeit hinweg gleich?
+
+A) Ja, immer
+B) Nein – sie unterscheiden sich stark und ändern sich mit der Zeit
+C) Nur in wohlhabenden Ländern
+D) Es hat sie nie gegeben
+
+## Lösungsschlüssel
+
+1. B, 2. B, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Das Kernangebot in den meisten Systemen ist eine Form von Steuervorteil, die gezielt an das Sparen für das Alter gebunden ist.
+
+**2.** Einschränkungen bei frühen Entnahmen sind der übliche Ausgleich für den Steuervorteil.
+
+**3.** Die Förderung des Sparens verringert die künftige Belastung öffentlicher Renten- und Unterstützungssysteme – das ist die politische Logik.
+
+**4.** Wie bei Gutschriften hängen die Einzelheiten hier von Land und Zeit ab, deshalb ist das Muster wichtiger als die Regeln eines bestimmten Kontos.
+
+## Wichtigste Erkenntnisse
+
+- Steuerlich begünstigte Altersvorsorgekonten tauschen einen Steuervorteil gegen Einschränkungen beim Sparen.
+- Frühe Entnahmen sind in der Regel begrenzt oder mit Nachteilen verbunden.
+- Das politische Ziel ist, langfristiges Sparen zu fördern, um die künftige Abhängigkeit von öffentlicher Unterstützung zu verringern.
+- Die konkreten Kontoregeln unterscheiden sich je nach Land und ändern sich – das Muster ist die übertragbare Lehre.
+
+===== GREEN-L1-035
+TITLE: Klassisch oder Roth: Steuern jetzt oder später zahlen
+SUMMARY: Erklärt das allgemeine Konzept hinter zwei häufigen Strukturen von Altersvorsorgekonten – eine wird bei der Einzahlung besteuert, die andere bei der Auszahlung – mit allgemeinen Bezeichnungen statt der Programmnamen eines bestimmten Landes.
+# Klassisch oder Roth: Steuern jetzt oder später zahlen
+
+## Lernziele
+
+- Die Wahl „jetzt zahlen oder später zahlen“ erklären, die es in vielen Altersvorsorgesystemen gibt.
+- Den grundlegenden Zielkonflikt zwischen beiden Ansätzen erkennen.
+- Erkennen, dass die bessere Wahl von den erwarteten künftigen Steuersätzen abhängen kann.
+
+## Kerninhalt
+
+Viele Altersvorsorgesysteme bieten eine Wahl zwischen zwei Strukturen, die – unabhängig von den genauen örtlichen Namen – oft allgemein als „klassisch“ und „Roth“ bezeichnet werden (nach den US-Bezeichnungen). Bei einem klassischen Konto verringern Einzahlungen in der Regel jetzt das zu versteuernde Einkommen, aber die Auszahlungen im Ruhestand werden besteuert. Bei einem Roth-Konto wird mit bereits versteuertem Geld eingezahlt, aber die Auszahlungen im Ruhestand sind in der Regel steuerfrei. (In Deutschland folgen viele geförderte Vorsorgeformen eher dem klassischen Prinzip der nachgelagerten Besteuerung; die Regeln ändern sich.)
+
+Der zentrale Zielkonflikt ist der Zeitpunkt: Steuer jetzt zu deinem aktuellen Satz zahlen oder später zu deinem künftigen Satz. Wenn du erwartest, dass dein Steuersatz im Ruhestand niedriger ist als heute, schneidet ein klassischer Ansatz oft besser ab. Wenn du erwartest, dass dein Satz im Ruhestand ähnlich oder höher ist – häufig bei jungen Menschen am Anfang ihrer Laufbahn, deren Einkommen noch wachsen kann –, kann ein Roth-Ansatz besser abschneiden. Es gibt keine allgemein richtige Antwort; sie hängt von Annahmen über die Zukunft ab, und genau deshalb ist das ein typischer Bereich, in dem man sich fachlich beraten lassen sollte, statt zu raten.
+
+## Praxisbeispiel
+
+**Frage:** Eine 22-Jährige, die gerade ins Berufsleben startet, überlegt, ob sie ein klassisches oder ein Roth-Konto wählen soll. Welche allgemeinen Überlegungen sollte sie anstellen?
+
+**Schüler:** Nach dieser Lektion sollte sie überlegen, ob ihr Steuersatz jetzt wahrscheinlich niedriger oder höher ist als später in ihrer Laufbahn.
+
+**Lernbegleiter:** Was ist, da sie am Anfang ihrer Laufbahn steht, eine vernünftige Annahme über ihr künftiges Einkommen und ihren Steuersatz?
+
+**Schüler:** Ihr Einkommen und wahrscheinlich auch ihr Steuersatz werden mit der Zeit steigen – also könnte es sinnvoll sein, jetzt zu einem niedrigeren Satz Steuer zu zahlen, über ein Roth-Konto.
+
+**Lernbegleiter:** Das ist eine vernünftige Überlegung – aber es bleibt eine Annahme über die Zukunft, keine Garantie, und deshalb lohnt es sich, für einen konkreten Plan mit einer Fachperson zu sprechen.
+
+## Übungsquiz
+
+**Frage 1.** Bei einem klassischen Konto gilt für Einzahlungen in der Regel:
+
+A) Sie werden doppelt besteuert
+B) Sie verringern jetzt das zu versteuernde Einkommen, die Auszahlungen werden später besteuert
+C) Sie werden nie besteuert
+D) Sie haben keine steuerliche Wirkung
+
+**Frage 2.** Bei einem Roth-Konto gilt für Einzahlungen in der Regel:
+
+A) Sie erfolgen mit bereits versteuertem Geld, die späteren Auszahlungen sind steuerfrei
+B) Sie werden vom aktuellen zu versteuernden Einkommen abgezogen
+C) Sie werden doppelt besteuert
+D) Sie sind verboten
+
+**Frage 3.** Der zentrale Zielkonflikt zwischen beiden Ansätzen ist:
+
+A) Es gibt keinen Zielkonflikt
+B) Steuer jetzt zahlen oder später zahlen
+C) Ein Ansatz hat nie mit Steuern zu tun
+D) Nur Unternehmen können wählen
+
+**Frage 4.** Welcher Ansatz begünstigt eher jemanden, der im Ruhestand einen niedrigeren Steuersatz als heute erwartet?
+
+A) Roth
+B) Klassisch
+C) Keiner spielt eine Rolle
+D) Nur umsatzsteuerbasierte Konten
+
+## Lösungsschlüssel
+
+1. B, 2. A, 3. B, 4. B
+
+## Antworten und Erklärungen
+
+**1.** Die klassische Struktur schiebt die Steuer auf: heute ein Vorteil, dafür Steuer auf spätere Auszahlungen.
+
+**2.** Die Roth-Struktur zieht die Steuer vor, sodass begünstigte spätere Auszahlungen in der Regel steuerfrei sind.
+
+**3.** Es ist im Kern eine Entscheidung über den Zeitpunkt, wann man lieber Steuer zahlt, auf Grundlage von Annahmen über künftige Sätze.
+
+**4.** Wenn der heutige Satz höher ist als der erwartete künftige Satz, ist das Aufschieben der Steuer (klassisch) oft vorteilhafter.
+
+## Wichtigste Erkenntnisse
+
+- Klassische Konten verschieben die Steuer auf die Auszahlung; Roth-Konten besteuern jetzt die Einzahlungen, nicht die Auszahlungen.
+- Der zentrale Zielkonflikt ist: Steuer jetzt oder später zahlen.
+- Die bessere Wahl hängt von Annahmen über deinen heutigen und künftigen Steuersatz ab.
+- Das ist ein typischer, berechtigter Bereich, in dem man sich fachlich beraten lassen sollte, statt zu raten.

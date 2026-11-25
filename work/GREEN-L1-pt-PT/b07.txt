@@ -1,0 +1,399 @@
+===== GREEN-L1-031
+TITLE: Mais-valias: impostos sobre o lucro dos investimentos
+SUMMARY: Apresenta o conceito de mais-valia, o lucro obtido ao vender um bem por mais do que o preço de compra, e a forma como se distingue do rendimento comum.
+# Mais-valias: impostos sobre o lucro dos investimentos
+
+## Objetivos de aprendizagem
+
+- Definir mais-valia em termos simples.
+- Explicar o cálculo básico de uma mais-valia.
+- Reconhecer porque é que as mais-valias só se realizam (e normalmente só são tributadas) com a venda, e não apenas por se deter o bem.
+
+## Conteúdo principal
+
+Uma mais-valia é o lucro obtido quando vende um bem, como uma ação ou um imóvel, por mais do que pagou por ele. O cálculo básico é simples: preço de venda menos preço de compra (muitas vezes chamado "valor de aquisição" ou "base") é igual à mais-valia. Se o bem for vendido por menos do que a base, o resultado é uma menos-valia. (Em Portugal, as mais-valias são rendimentos da categoria G do IRS, com regras próprias para valores mobiliários e imóveis, incluindo a opção pelo englobamento em certos casos; as regras mudam.)
+
+Uma nuance importante: na maioria dos sistemas, uma mais-valia só se "realiza", e em geral só é tributável, quando o bem é efetivamente vendido. Se o valor de uma ação duplicar mas nunca a vender, em regra ainda não deve imposto sobre esse aumento: é uma mais-valia não realizada, ou "potencial". Esta distinção importa para o planeamento dos investimentos, porque vender um bem que valorizou é muitas vezes uma decisão deliberada, cujo momento se pode escolher e que tem consequências fiscais, e não algo que acontece automaticamente só porque o valor subiu.
+
+## Exemplo prático
+
+**Pergunta:** Uma investidora compra uma ação por 1000 $. Dois anos depois, vale 3000 $, mas ainda não a vendeu. Deve agora imposto sobre a mais-valia?
+
+**Aluno:** Segundo esta lição, provavelmente ainda não, porque a mais-valia não foi realizada através de uma venda.
+
+**Guia:** O que faria o imposto ser devido, e como seria calculado se vendesse por 3000 $?
+
+**Aluno:** A venda faria o imposto ser devido: a mais-valia seria 3000 $ menos a base de 1000 $, ou seja, uma mais-valia de 2000 $.
+
+**Guia:** Exatamente: e ela tem algum controlo sobre esse momento, o que é uma verdadeira alavanca de planeamento.
+
+## Teste de prática
+
+**Pergunta 1.** Uma mais-valia calcula-se como:
+
+A) Preço de compra menos preço de venda
+B) Preço de venda menos preço de compra (base)
+C) Apenas o preço de compra
+D) Um montante fixo definido pelo Estado
+
+**Pergunta 2.** Se um bem for vendido por menos do que a sua base, chama-se a isso:
+
+A) Mais-valia
+B) Menos-valia
+C) Crédito fiscal
+D) Reembolso
+
+**Pergunta 3.** Uma mais-valia é geralmente tributada:
+
+A) Assim que o valor do bem sobe, independentemente da venda
+B) Quando é realizada, normalmente com a venda
+C) Nunca
+D) Apenas se o bem for um imóvel
+
+**Pergunta 4.** Uma mais-valia não realizada, ou "potencial", refere-se a:
+
+A) Uma mais-valia já tributada
+B) Um aumento de valor que ainda não foi concretizado através de uma venda
+C) Um tipo de crédito fiscal
+D) Uma menos-valia
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** O cálculo compara o valor por que vendeu o bem com o que pagou originalmente.
+
+**2.** A menos-valia é simplesmente o reverso da mais-valia: vender por menos do que a base original.
+
+**3.** A realização através da venda é, na maioria dos sistemas, o facto que dá origem ao imposto sobre as mais-valias.
+
+**4.** O valor pode subir no papel sem dar origem a imposto, porque ainda nada foi vendido.
+
+## Pontos-chave
+
+- Uma mais-valia é o preço de venda menos o preço de compra (base).
+- Vender abaixo da base dá origem, em vez disso, a uma menos-valia.
+- As mais-valias são geralmente tributadas quando realizadas, normalmente com a venda.
+- As mais-valias não realizadas ainda não são tributadas, o que faz do momento da venda uma verdadeira decisão de planeamento.
+
+===== GREEN-L1-032
+TITLE: Mais-valias de curto e de longo prazo
+SUMMARY: Explica porque é que muitos sistemas tributam as mais-valias de forma diferente consoante o tempo durante o qual o bem foi detido antes da venda.
+# Mais-valias de curto e de longo prazo
+
+## Objetivos de aprendizagem
+
+- Definir mais-valias de curto e de longo prazo.
+- Explicar a lógica geral de política pública para favorecer períodos de detenção mais longos.
+- Reconhecer o período de detenção como um fator de planeamento.
+
+## Conteúdo principal
+
+Muitos sistemas fiscais distinguem entre mais-valias de curto prazo (de bens detidos durante menos tempo, muitas vezes menos de um ano) e mais-valias de longo prazo (de bens detidos durante mais tempo), tributando muitas vezes as de longo prazo a uma taxa mais favorável. O limite exato do período de detenção e a diferença de taxa variam de país para país e mudam ao longo do tempo, mas o padrão geral, premiar a paciência, é comum. (Em Portugal, por exemplo, o tratamento de algumas mais-valias mobiliárias de curto prazo tem sido diferente em certas situações, e as regras mudam.)
+
+A lógica geral de política pública é incentivar o investimento de longo prazo e desincentivar o excesso de negociação de curto prazo, embora pessoas sensatas discordem sobre o quanto isso funciona na prática. Para o investidor individual, a lição prática é que o período de detenção é uma verdadeira alavanca de planeamento: vender um bem um pouco antes ou um pouco depois de um limite importante pode alterar bastante o resultado fiscal, e é por isso que os investidores por vezes escolhem deliberadamente o momento da venda em torno de um marco do período de detenção.
+
+## Exemplo prático
+
+**Pergunta:** Uma investidora está perto do limite de longo prazo numa ação com lucro e está a decidir se vende já ou espera mais algumas semanas. O que deve ponderar?
+
+**Aluno:** Segundo esta lição, esperar até ultrapassar o limite de longo prazo pode significar uma taxa mais favorável sobre a mais-valia.
+
+**Guia:** O tratamento fiscal deve ser o único fator nesta decisão?
+
+**Aluno:** Provavelmente não: o preço da ação também pode mudar entretanto, por isso é uma verdadeira troca entre o momento fiscal e o risco do investimento, e não uma decisão puramente fiscal.
+
+**Guia:** Exatamente: o planeamento fiscal é um fator, e não a decisão toda.
+
+## Teste de prática
+
+**Pergunta 1.** As mais-valias de curto prazo vêm geralmente de bens:
+
+A) Detidos durante mais tempo
+B) Detidos durante menos tempo, muitas vezes menos de um ano
+C) Nunca vendidos
+D) Apenas imóveis
+
+**Pergunta 2.** As mais-valias de longo prazo são muitas vezes tributadas:
+
+A) A uma taxa menos favorável do que as de curto prazo
+B) A uma taxa mais favorável do que as de curto prazo, em muitos sistemas
+C) Exatamente como as de curto prazo, em todo o lado
+D) Nunca
+
+**Pergunta 3.** A lógica geral de política pública por detrás desta distinção é:
+
+A) Castigar os investidores de longo prazo
+B) Incentivar o investimento de longo prazo em vez do excesso de negociação de curto prazo
+C) Aumentar a receita pública sem outro objetivo
+D) Simplificar o código fiscal
+
+**Pergunta 4.** O período de detenção entende-se melhor como:
+
+A) Irrelevante para o planeamento fiscal
+B) Uma verdadeira alavanca de planeamento que pode afetar o resultado fiscal de uma venda
+C) Fixo e inalterável
+D) Relevante apenas para empresas
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** As mais-valias de curto prazo vêm geralmente de bens detidos durante um período relativamente curto antes da venda.
+
+**2.** Muitos sistemas aplicam, por opção de política pública, uma taxa mais favorável às mais-valias de longo prazo.
+
+**3.** O objetivo geral é levar os investidores à paciência em vez da negociação frequente de curto prazo, embora a sua eficácia real seja discutida.
+
+**4.** Como o momento pode alterar o resultado fiscal, o período de detenção é um fator em torno do qual os investidores podem planear deliberadamente.
+
+## Pontos-chave
+
+- As mais-valias de curto prazo vêm normalmente de bens detidos pouco tempo; as de longo prazo, de bens detidos durante mais tempo.
+- As mais-valias de longo prazo são muitas vezes tributadas de forma mais favorável, embora os pormenores variem e mudem.
+- O objetivo de política pública é geralmente incentivar o investimento paciente e de longo prazo.
+- O período de detenção é uma alavanca de planeamento real e controlável para os investidores.
+
+===== GREEN-L1-033
+TITLE: Dividendos e juros: como é tributado o rendimento de investimentos
+SUMMARY: Apresenta os dividendos e os juros como duas formas comuns de rendimento de investimentos distintas das mais-valias, porque resultam de se deter um bem e não de o vender.
+# Dividendos e juros: como é tributado o rendimento de investimentos
+
+## Objetivos de aprendizagem
+
+- Distinguir dividendos e juros de mais-valias.
+- Explicar que o rendimento de dividendos e juros é geralmente tributável no ano em que é recebido.
+- Reconhecê-los como fluxos de rendimento contínuos, e não como vendas pontuais.
+
+## Conteúdo principal
+
+Até aqui, esta trilha centrou-se sobretudo nas mais-valias, o lucro da venda de um bem. Mas duas outras formas comuns de rendimento de investimentos não exigem vender nada: os dividendos (uma parte dos lucros de uma empresa paga aos acionistas, muitas vezes de forma periódica) e os juros (pagamentos recebidos por dinheiro emprestado, como numa conta de depósito ou numa obrigação). (Em Portugal, dividendos e juros são rendimentos da categoria E do IRS, normalmente sujeitos a retenção na fonte a uma taxa liberatória, com opção de englobamento em certos casos; as taxas mudam.)
+
+Ao contrário das mais-valias, que normalmente dependem de uma venda, o rendimento de dividendos e juros é geralmente tributável no ano em que é recebido, independentemente de o investimento ser alguma vez vendido. Uma investidora que detém durante décadas uma ação que paga dividendos, sem vender uma única ação, continua em regra a dever imposto todos os anos sobre os dividendos recebidos nesse período. Reconhecer estes fluxos como distintos e contínuos, separados da mecânica das mais-valias, que depende da venda, completa o quadro básico de como é tributado o rendimento de investimentos.
+
+## Exemplo prático
+
+**Pergunta:** Uma investidora detém uma ação durante 15 anos sem nunca a vender, mas a empresa paga um dividendo todos os trimestres. Evita todo o imposto sobre essa ação só por não a vender?
+
+**Aluno:** Segundo esta lição, não: os próprios dividendos são geralmente tributáveis em cada ano em que os recebe, mesmo sem venda.
+
+**Guia:** Então o que é tributado todos os anos, e o que só seria tributado se ela acabasse por vender?
+
+**Aluno:** Os dividendos são tributados à medida que são recebidos. A valorização da ação só se tornaria uma mais-valia tributável se e quando ela efetivamente a vendesse.
+
+**Guia:** Exatamente: dois fluxos de rendimento diferentes, dois factos geradores diferentes.
+
+## Teste de prática
+
+**Pergunta 1.** Um dividendo é:
+
+A) Um tipo de empréstimo
+B) Uma parte dos lucros de uma empresa paga aos acionistas
+C) O mesmo que uma mais-valia
+D) Um crédito fiscal do Estado
+
+**Pergunta 2.** Os juros são geralmente:
+
+A) O lucro da venda de um bem
+B) Pagamentos recebidos por dinheiro emprestado, como em depósitos ou obrigações
+C) O mesmo que um dividendo
+D) Relevantes apenas para empresas
+
+**Pergunta 3.** Ao contrário das mais-valias, o rendimento de dividendos e juros é geralmente tributável:
+
+A) Apenas na venda do bem subjacente
+B) No ano em que é recebido, independentemente de venda
+C) Nunca
+D) Apenas ao fim de dez anos
+
+**Pergunta 4.** Um investidor pode evitar todo o imposto sobre uma ação simplesmente nunca a vendendo?
+
+A) Sim, sempre
+B) Não: os dividendos recebidos pelo caminho continuam a ser geralmente tributáveis
+C) Apenas se a ação perder valor
+D) Apenas no caso das obrigações
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** Um dividendo é uma distribuição dos lucros da empresa aos acionistas, distinta de uma operação de venda.
+
+**2.** Os juros são a remuneração por emprestar dinheiro, seja numa conta bancária, numa obrigação ou num instrumento semelhante.
+
+**3.** Estes tipos de rendimento são tributados quando recebidos, ao contrário das mais-valias, que esperam por uma venda para dar origem a imposto.
+
+**4.** Rendimentos contínuos como os dividendos continuam a gerar obrigações fiscais ano após ano, independentemente de o bem ser alguma vez vendido.
+
+## Pontos-chave
+
+- Dividendos e juros são tipos de rendimento de investimentos distintos das mais-valias.
+- São geralmente tributados no ano em que são recebidos, e não na venda.
+- Deter um bem sem o vender não evita o imposto sobre o rendimento que ele gera pelo caminho.
+- Reconhecê-los como fluxos distintos e contínuos completa o quadro básico do rendimento de investimentos.
+
+===== GREEN-L1-034
+TITLE: Contas de reforma com benefícios fiscais: a ideia básica
+SUMMARY: Apresenta o conceito geral das contas de reforma com benefícios fiscais, sem o ligar aos nomes de produtos de um país específico.
+# Contas de reforma com benefícios fiscais: a ideia básica
+
+## Objetivos de aprendizagem
+
+- Explicar o objetivo geral das contas de reforma com benefícios fiscais.
+- Identificar o mecanismo básico: algum benefício fiscal em troca de restrições de acesso.
+- Reconhecer isto como um instrumento de política pública para incentivar a poupança de longo prazo.
+
+## Conteúdo principal
+
+Muitos governos oferecem tipos especiais de conta que dão algum benefício fiscal (o dinheiro que entra ainda não é tributado, ou o dinheiro que sai mais tarde não é tributado, ou o crescimento dentro da conta não é tributado pelo caminho) precisamente para incentivar as pessoas a poupar para a reforma. Em troca desse benefício, estas contas têm normalmente restrições, sobretudo limites ao levantamento do dinheiro antes de certa idade sem penalização. (Em Portugal, por exemplo, existem os PPR, com benefícios no IRS e regras próprias de reembolso, que mudam.)
+
+A troca de fundo é simples: o Estado abdica de parte da receita fiscal agora (ou mais tarde) em troca de incentivar um comportamento, a poupança de longo prazo, que reduz a dependência futura dos sistemas públicos de apoio. Os nomes dos produtos, os limites de contribuição e as regras variam enormemente de país para país e mudam ao longo do tempo, mas a forma básica (benefício fiscal associado a uma restrição de acesso, para incentivar a poupança para a reforma) é um padrão que vale a pena reconhecer onde quer que o encontre.
+
+## Exemplo prático
+
+**Pergunta:** Um amigo pergunta porque é que uma conta de reforma o penaliza por levantar antecipadamente o seu próprio dinheiro. Qual é a lógica geral?
+
+**Aluno:** Segundo esta lição, o benefício fiscal é basicamente uma troca: recebe uma vantagem em troca do compromisso de deixar o dinheiro para a reforma.
+
+**Guia:** Porque é que o Estado se importaria com o facto de o dinheiro ser usado especificamente para a reforma?
+
+**Aluno:** Porque incentivar a poupança de longo prazo reduz a dependência futura dos sistemas públicos de apoio, por isso vale a pena abdicar agora de parte da receita fiscal.
+
+**Guia:** Exatamente: a restrição não é arbitrária; está ligada ao objetivo do benefício.
+
+## Teste de prática
+
+**Pergunta 1.** As contas de reforma com benefícios fiscais oferecem geralmente:
+
+A) Nenhum benefício
+B) Alguma forma de benefício fiscal ligada à poupança para a reforma
+C) Levantamentos ilimitados e sem penalização a qualquer momento
+D) Benefícios apenas para empresas
+
+**Pergunta 2.** Em troca do benefício fiscal, estas contas incluem normalmente:
+
+A) Nenhuma restrição
+B) Restrições, sobretudo limites aos levantamentos antecipados sem penalização
+C) A obrigação de gastar o dinheiro de imediato
+D) Um imposto sobre as vendas mais elevado
+
+**Pergunta 3.** Porque é que um Estado ofereceria este tipo de benefício?
+
+A) Sem motivo real
+B) Para incentivar a poupança de longo prazo, reduzindo a dependência futura do apoio público
+C) Para aumentar a receita fiscal no curto prazo
+D) Apenas para beneficiar os bancos
+
+**Pergunta 4.** Os nomes e as regras específicas das contas mantêm-se iguais entre países e ao longo do tempo?
+
+A) Sim, sempre
+B) Não: variam muito e mudam ao longo do tempo
+C) Apenas nos países ricos
+D) Nunca existiram
+
+## Chave de Respostas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A oferta central na maioria dos sistemas é alguma forma de vantagem fiscal ligada especificamente à poupança para a reforma.
+
+**2.** As restrições aos levantamentos antecipados são a contrapartida comum do benefício fiscal.
+
+**3.** Incentivar a poupança reduz o peso futuro sobre os sistemas públicos de reforma e de apoio, e essa é a lógica de política pública.
+
+**4.** Tal como nos créditos, os pormenores dependem do país e da época, por isso o padrão importa mais do que as regras de um produto específico.
+
+## Pontos-chave
+
+- As contas de reforma com benefícios fiscais trocam um benefício fiscal por restrições à poupança.
+- O levantamento antecipado é normalmente limitado ou penalizado.
+- O objetivo de política pública é incentivar a poupança de longo prazo para reduzir a dependência futura do apoio público.
+- As regras específicas variam de país para país e mudam ao longo do tempo: o padrão é a lição transferível.
+
+===== GREEN-L1-035
+TITLE: Tradicional ou Roth: pagar imposto agora ou mais tarde
+SUMMARY: Explica o conceito geral por detrás de duas estruturas comuns de contas de reforma, uma tributada na entrada e outra na saída, com designações genéricas em vez dos nomes de programas de um país.
+# Tradicional ou Roth: pagar imposto agora ou mais tarde
+
+## Objetivos de aprendizagem
+
+- Explicar a escolha entre "pagar agora ou pagar mais tarde" presente em muitos sistemas de reforma.
+- Identificar a troca básica entre as duas abordagens.
+- Reconhecer que a melhor escolha pode depender das taxas futuras esperadas.
+
+## Conteúdo principal
+
+Muitos sistemas de contas de reforma oferecem a escolha entre duas estruturas, muitas vezes designadas genericamente por estilo "tradicional" e estilo "Roth" (pelos nomes usados nos EUA), quaisquer que sejam os nomes locais. Numa conta de estilo tradicional, as contribuições reduzem normalmente o rendimento tributável agora, mas os levantamentos na reforma são tributados. Numa conta de estilo Roth, as contribuições são feitas com dinheiro já tributado, mas os levantamentos na reforma são normalmente isentos. (Em Portugal, os produtos de poupança-reforma combinam benefícios à entrada e regras próprias de tributação à saída; as regras mudam.)
+
+A troca central é o momento: pagar o imposto agora, à sua taxa atual, ou mais tarde, à sua taxa futura. Se espera que a sua taxa na reforma seja mais baixa do que hoje, a abordagem tradicional muitas vezes compensa mais. Se espera uma taxa semelhante ou mais alta na reforma, o que é comum em jovens no início da carreira com margem para crescer, a abordagem Roth pode compensar mais. Não há uma resposta certa para todos: depende de pressupostos sobre o futuro, e é precisamente por isso que esta é uma área comum para pedir aconselhamento profissional em vez de adivinhar.
+
+## Exemplo prático
+
+**Pergunta:** Uma jovem de 22 anos, em início de carreira, está a decidir entre uma conta de estilo tradicional e uma de estilo Roth. Que raciocínio geral deve fazer?
+
+**Aluno:** Segundo esta lição, deve pensar se a sua taxa atual é provavelmente mais baixa ou mais alta do que será mais tarde na carreira.
+
+**Guia:** Estando no início da carreira, qual é um pressuposto razoável sobre o seu rendimento e a sua taxa futuros?
+
+**Aluno:** O rendimento dela, e provavelmente a taxa, devem subir ao longo do tempo; por isso, pagar o imposto agora a uma taxa mais baixa, através de uma conta de estilo Roth, pode fazer sentido.
+
+**Guia:** É um raciocínio razoável, embora continue a ser um pressuposto sobre o futuro, e não uma garantia; por isso vale a pena falar com um profissional sobre um plano concreto.
+
+## Teste de prática
+
+**Pergunta 1.** Numa conta de estilo tradicional, as contribuições normalmente:
+
+A) São tributadas duas vezes
+B) Reduzem o rendimento tributável agora, com levantamentos tributados mais tarde
+C) Nunca são tributadas
+D) Não têm efeito nos impostos
+
+**Pergunta 2.** Numa conta de estilo Roth, as contribuições são normalmente:
+
+A) Feitas com dinheiro já tributado, com levantamentos isentos mais tarde
+B) Deduzidas ao rendimento tributável atual
+C) Tributadas duas vezes
+D) Proibidas
+
+**Pergunta 3.** A troca central entre as duas abordagens é:
+
+A) Não há troca
+B) Pagar o imposto agora ou pagá-lo mais tarde
+C) Uma das abordagens nunca envolve impostos
+D) Apenas as empresas podem escolher
+
+**Pergunta 4.** Que abordagem tende a favorecer quem espera uma taxa mais baixa na reforma do que hoje?
+
+A) Estilo Roth
+B) Estilo tradicional
+C) Nenhuma faz diferença
+D) Apenas contas baseadas no imposto sobre as vendas
+
+## Chave de Respostas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respostas e explicações
+
+**1.** A estrutura tradicional adia o imposto, oferecendo um benefício hoje à custa do imposto devido nos levantamentos futuros.
+
+**2.** A estrutura Roth antecipa o imposto, pelo que os levantamentos futuros que cumprem os requisitos geralmente não são tributados.
+
+**3.** No fundo, é uma decisão de momento sobre quando prefere pagar o imposto, com base em pressupostos sobre as taxas futuras.
+
+**4.** Se a taxa de hoje for mais alta do que a esperada no futuro, adiar o imposto (estilo tradicional) é muitas vezes mais vantajoso.
+
+## Pontos-chave
+
+- As contas de estilo tradicional adiam o imposto para o levantamento; as de estilo Roth tributam as contribuições agora, e não os levantamentos.
+- A troca central é pagar o imposto agora ou mais tarde.
+- A melhor escolha depende de pressupostos sobre a sua taxa atual em comparação com a futura.
+- Esta é uma área comum e legítima para pedir aconselhamento profissional em vez de adivinhar.

@@ -1,0 +1,399 @@
+===== GREEN-L1-031
+TITLE: Plusvalenze: le imposte sui guadagni da investimento
+SUMMARY: Presenta il concetto di plusvalenza, cioè il guadagno ottenuto vendendo un bene a un prezzo superiore a quello d'acquisto, e come si distingue dal reddito ordinario.
+# Plusvalenze: le imposte sui guadagni da investimento
+
+## Obiettivi di apprendimento
+
+- Definire una plusvalenza in parole semplici.
+- Spiegare il calcolo di base di una plusvalenza.
+- Riconoscere perché i guadagni si realizzano (e di solito si tassano) solo con la vendita, non semplicemente possedendo un bene.
+
+## Contenuto principale
+
+Una plusvalenza è il guadagno che si ottiene vendendo un bene, come un'azione o un immobile, a un prezzo superiore a quello pagato. Il calcolo di base è semplice: prezzo di vendita meno prezzo d'acquisto (spesso chiamato "costo fiscale" o "base") è uguale al guadagno. Se il bene viene venduto a meno del costo, si ha invece una minusvalenza. (In Italia i redditi diversi di natura finanziaria sono in genere soggetti a un'imposta sostitutiva, con aliquote diverse per alcuni titoli; aliquote e regole cambiano.)
+
+Una sfumatura importante: nella maggior parte dei sistemi un guadagno si "realizza", e in genere diventa tassabile, solo quando il bene viene effettivamente venduto. Se il valore di un'azione raddoppia ma non la vendi mai, di solito non devi ancora l'imposta su quell'aumento: è un guadagno non realizzato, "sulla carta". Questa distinzione conta per la pianificazione degli investimenti, perché vendere un bene che si è rivalutato è spesso una decisione deliberata e programmabile con conseguenze fiscali, non qualcosa che accade automaticamente solo perché il valore è salito.
+
+## Esempio svolto
+
+**Domanda:** Un'investitrice compra un'azione per 1.000 $. Due anni dopo vale 3.000 $, ma non l'ha venduta. Deve pagare adesso l'imposta sulla plusvalenza?
+
+**Studente:** In base a questa lezione, probabilmente non ancora, perché il guadagno non è stato realizzato con una vendita.
+
+**Guida:** Che cosa farebbe scattare l'imposta, e come si calcolerebbe se vendesse a 3.000 $?
+
+**Studente:** La vendita la farebbe scattare: il guadagno sarebbe 3.000 $ meno il costo di 1.000 $, quindi una plusvalenza di 2.000 $.
+
+**Guida:** Esatto: e il momento della vendita è qualcosa su cui ha un certo controllo, il che è una vera leva di pianificazione.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Una plusvalenza si calcola come:
+
+A) Prezzo d'acquisto meno prezzo di vendita
+B) Prezzo di vendita meno prezzo d'acquisto (costo)
+C) Solo il prezzo d'acquisto
+D) Un importo fisso stabilito dallo Stato
+
+**Domanda 2.** Se un bene viene venduto a meno del suo costo, si parla di:
+
+A) Plusvalenza
+B) Minusvalenza
+C) Credito d'imposta
+D) Rimborso
+
+**Domanda 3.** Una plusvalenza viene in genere tassata:
+
+A) Appena il valore del bene aumenta, a prescindere dalla vendita
+B) Quando il guadagno viene realizzato, di solito con la vendita
+C) Mai
+D) Solo se il bene è un immobile
+
+**Domanda 4.** Un guadagno non realizzato, o "sulla carta", indica:
+
+A) Un guadagno già tassato
+B) Un aumento di valore non ancora consolidato con una vendita
+C) Un tipo di credito d'imposta
+D) Una minusvalenza
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Il calcolo confronta il prezzo a cui hai venduto il bene con quello che avevi pagato in origine.
+
+**2.** Una minusvalenza è semplicemente l'immagine speculare di una plusvalenza: vendere a meno del costo originario.
+
+**3.** La realizzazione tramite vendita è, nella maggior parte dei sistemi, il fattore che fa scattare l'imposta sulle plusvalenze.
+
+**4.** Il valore può salire sulla carta senza far scattare l'imposta, perché in realtà non è stato venduto niente.
+
+## Punti chiave
+
+- Una plusvalenza è prezzo di vendita meno prezzo d'acquisto (costo).
+- Vendere sotto il costo produce invece una minusvalenza.
+- I guadagni sono in genere tassati al momento della realizzazione, di solito con la vendita.
+- I guadagni non realizzati non sono ancora tassati, e questo rende il momento della vendita una vera decisione di pianificazione.
+
+===== GREEN-L1-032
+TITLE: Plusvalenze a breve e a lungo termine
+SUMMARY: Spiega perché molti sistemi tassano i guadagni in modo diverso a seconda di quanto a lungo un bene è stato posseduto prima della vendita.
+# Plusvalenze a breve e a lungo termine
+
+## Obiettivi di apprendimento
+
+- Definire le plusvalenze a breve e a lungo termine.
+- Spiegare la logica politica generale per favorire periodi di possesso più lunghi.
+- Riconoscere il periodo di possesso come un fattore di pianificazione.
+
+## Contenuto principale
+
+Molti sistemi fiscali distinguono tra plusvalenze a breve termine (da beni posseduti per un periodo più breve, spesso meno di un anno) e plusvalenze a lungo termine (da beni posseduti più a lungo), e spesso tassano quelle a lungo termine con un'aliquota più favorevole. La soglia esatta e la differenza di aliquota variano da paese a paese e cambiano nel tempo, ma lo schema generale, premiare la pazienza, è diffuso. (In Italia, per le azioni, non esiste in genere una distinzione di questo tipo, mentre per gli immobili la plusvalenza è di norma tassata solo se la vendita avviene entro un certo numero di anni dall'acquisto, con eccezioni; le regole cambiano.)
+
+La logica politica generale è incoraggiare gli investimenti a lungo termine e scoraggiare un eccesso di compravendite a breve termine, anche se ci sono opinioni ragionevolmente diverse su quanto funzioni davvero. Per il singolo investitore, la lezione pratica è che il periodo di possesso è una vera leva di pianificazione: vendere un bene poco prima o poco dopo una soglia chiave può cambiare in modo significativo il risultato fiscale, ed è per questo che gli investitori a volte programmano una vendita intorno a una scadenza del periodo di possesso.
+
+## Esempio svolto
+
+**Domanda:** Un'investitrice è vicina alla soglia del lungo termine su un'azione in guadagno e deve decidere se vendere ora o aspettare ancora qualche settimana. Che cosa dovrebbe considerare?
+
+**Studente:** In base a questa lezione, aspettare di superare la soglia potrebbe significare un'aliquota più favorevole sul guadagno.
+
+**Guida:** Il trattamento fiscale dovrebbe essere l'unico fattore della decisione?
+
+**Studente:** Probabilmente no: nel frattempo il prezzo dell'azione potrebbe muoversi, quindi è un vero compromesso tra tempistica fiscale e rischio d'investimento, non una pura decisione fiscale.
+
+**Guida:** Esatto: la pianificazione fiscale è un elemento, non tutta la decisione.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Le plusvalenze a breve termine derivano in genere da beni:
+
+A) Posseduti per un periodo più lungo
+B) Posseduti per un periodo più breve, spesso meno di un anno
+C) Mai venduti
+D) Solo immobili
+
+**Domanda 2.** Le plusvalenze a lungo termine sono spesso tassate:
+
+A) Con un'aliquota meno favorevole di quelle a breve termine
+B) Con un'aliquota più favorevole di quelle a breve termine, in molti sistemi
+C) Ovunque esattamente come quelle a breve termine
+D) Mai
+
+**Domanda 3.** La logica politica generale di questa distinzione è:
+
+A) Punire chi investe a lungo termine
+B) Incoraggiare gli investimenti a lungo termine rispetto a un eccesso di compravendite a breve
+C) Aumentare le entrate pubbliche senza altro scopo
+D) Semplificare il sistema fiscale
+
+**Domanda 4.** Il periodo di possesso si capisce meglio come:
+
+A) Irrilevante per la pianificazione fiscale
+B) Una vera leva di pianificazione che può incidere sul risultato fiscale di una vendita
+C) Fisso e immutabile
+D) Rilevante solo per le imprese
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Le plusvalenze a breve termine derivano in genere da beni posseduti per un periodo relativamente breve prima della vendita.
+
+**2.** Molti sistemi applicano per scelta politica un'aliquota più favorevole alle plusvalenze a lungo termine.
+
+**3.** L'obiettivo generale è spingere gli investitori verso la pazienza invece che verso frequenti compravendite a breve, anche se l'efficacia reale è discussa.
+
+**4.** Poiché i tempi possono spostare il risultato fiscale, il periodo di possesso è un fattore intorno a cui gli investitori possono pianificare deliberatamente.
+
+## Punti chiave
+
+- Le plusvalenze a breve termine derivano di solito da beni posseduti poco; quelle a lungo termine da beni posseduti più a lungo.
+- Le plusvalenze a lungo termine sono spesso tassate in modo più favorevole, anche se i dettagli variano e cambiano.
+- L'obiettivo politico è in genere incoraggiare investimenti pazienti e di lungo periodo.
+- Il periodo di possesso è una leva di pianificazione reale e controllabile per gli investitori.
+
+===== GREEN-L1-033
+TITLE: Dividendi e interessi: come si tassano i redditi da investimento
+SUMMARY: Presenta dividendi e interessi come due forme comuni di reddito da investimento distinte dalle plusvalenze, perché nascono dal possedere un bene, non dal venderlo.
+# Dividendi e interessi: come si tassano i redditi da investimento
+
+## Obiettivi di apprendimento
+
+- Distinguere dividendi e interessi dalle plusvalenze.
+- Spiegare che dividendi e interessi sono in genere tassabili nell'anno in cui si ricevono.
+- Riconoscerli come flussi di reddito continui, non come eventi di vendita una tantum.
+
+## Contenuto principale
+
+Finora questo percorso si è concentrato molto sulle plusvalenze, cioè il guadagno dalla vendita di un bene. Ma altre due forme comuni di reddito da investimento non richiedono di vendere nulla: i dividendi (una quota degli utili di una società distribuita agli azionisti, spesso periodicamente) e gli interessi (somme ricevute per denaro prestato, per esempio tramite un conto deposito o un'obbligazione). (In Italia anche dividendi e interessi sono in genere soggetti a ritenuta o imposta sostitutiva applicata dall'intermediario; le aliquote cambiano.)
+
+A differenza delle plusvalenze, che di solito scattano con una vendita, dividendi e interessi sono in genere tassabili nell'anno in cui si ricevono, che l'investimento sottostante venga venduto o no. Un'investitrice che tiene per decenni un'azione che paga dividendi, senza venderne nemmeno una, dovrà comunque in genere pagare ogni anno l'imposta sui dividendi ricevuti in quel periodo. Riconoscere questi flussi come distinti e continui, separati dal meccanismo legato alla vendita delle plusvalenze, completa il quadro di base di come si tassano i redditi da investimento.
+
+## Esempio svolto
+
+**Domanda:** Un'investitrice tiene un'azione per 15 anni senza mai venderla, ma la società paga un dividendo ogni trimestre. Evita ogni imposta su quell'azione semplicemente non vendendola?
+
+**Studente:** In base a questa lezione, no: i dividendi stessi sono in genere tassabili ogni anno in cui li riceve, anche senza vendita.
+
+**Guida:** Quindi che cosa viene tassato ogni anno, e che cosa verrebbe tassato solo se un giorno vendesse?
+
+**Studente:** I dividendi vengono tassati man mano che li riceve. L'aumento di prezzo dell'azione diventerebbe una plusvalenza tassabile solo se e quando la vendesse davvero.
+
+**Guida:** Esatto: due flussi di reddito diversi, due fattori scatenanti diversi.
+
+## Quiz di esercitazione
+
+**Domanda 1.** Un dividendo è:
+
+A) Un tipo di prestito
+B) Una quota degli utili di una società distribuita agli azionisti
+C) La stessa cosa di una plusvalenza
+D) Un credito d'imposta dello Stato
+
+**Domanda 2.** Gli interessi sono in genere:
+
+A) Il guadagno dalla vendita di un bene
+B) Somme ricevute per denaro prestato, come tramite risparmi o obbligazioni
+C) La stessa cosa di un dividendo
+D) Rilevanti solo per le imprese
+
+**Domanda 3.** A differenza delle plusvalenze, dividendi e interessi sono in genere tassabili:
+
+A) Solo alla vendita del bene sottostante
+B) Nell'anno in cui si ricevono, a prescindere dalla vendita
+C) Mai
+D) Solo dopo dieci anni
+
+**Domanda 4.** Un investitore può evitare ogni imposta su un'azione semplicemente non vendendola mai?
+
+A) Sì, sempre
+B) No: i dividendi ricevuti nel frattempo sono comunque in genere tassabili
+C) Solo se l'azione perde valore
+D) Solo per le obbligazioni
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** Un dividendo è una distribuzione di utili societari agli azionisti, distinta da un'operazione di vendita.
+
+**2.** Gli interessi sono il compenso per aver prestato denaro, tramite un conto bancario, un'obbligazione o uno strumento simile.
+
+**3.** Questi redditi vengono tassati quando si ricevono, a differenza delle plusvalenze, che aspettano una vendita per far scattare l'imposta.
+
+**4.** Redditi continui come i dividendi generano obblighi fiscali anno dopo anno, indipendentemente dal fatto che il bene venga mai venduto.
+
+## Punti chiave
+
+- Dividendi e interessi sono redditi da investimento distinti dalle plusvalenze.
+- Sono in genere tassati nell'anno in cui si ricevono, non alla vendita.
+- Possedere un bene senza venderlo non evita l'imposta sul reddito che produce nel frattempo.
+- Riconoscerli come flussi distinti e continui completa il quadro di base dei redditi da investimento.
+
+===== GREEN-L1-034
+TITLE: I conti previdenziali con vantaggi fiscali: l'idea di base
+SUMMARY: Presenta il concetto generale dei conti previdenziali con vantaggi fiscali, senza legarlo ai nomi dei prodotti di un singolo paese.
+# I conti previdenziali con vantaggi fiscali: l'idea di base
+
+## Obiettivi di apprendimento
+
+- Spiegare lo scopo generale dei conti previdenziali con vantaggi fiscali.
+- Riconoscere il meccanismo di base: un vantaggio fiscale in cambio di limiti all'accesso.
+- Riconoscerli come uno strumento di politica pubblica per incoraggiare il risparmio a lungo termine.
+
+## Contenuto principale
+
+Molti governi offrono tipi di conto speciali che danno un qualche vantaggio fiscale (il denaro versato non viene ancora tassato, oppure il denaro prelevato più avanti non viene tassato, oppure la crescita dell'investimento all'interno del conto non viene tassata nel frattempo) proprio per incoraggiare le persone a risparmiare per la pensione. In cambio di questo vantaggio, questi conti hanno di solito dei limiti, il più comune dei quali riguarda il prelievo del denaro prima di una certa età senza penalità. (In Italia, per esempio, esistono i fondi pensione e la previdenza complementare, con regole proprie su deducibilità, anticipazioni e tassazione delle prestazioni, che cambiano.)
+
+Lo scambio di fondo è semplice: lo Stato rinuncia a una parte delle entrate fiscali ora (o in futuro) per incoraggiare un comportamento, il risparmio a lungo termine, che riduce la futura dipendenza dai sistemi di sostegno pubblico. I nomi dei prodotti, i limiti di versamento e le regole variano enormemente da paese a paese e cambiano nel tempo, ma la forma di base (vantaggio fiscale abbinato a un limite di accesso, per incoraggiare il risparmio pensionistico) è uno schema che vale la pena riconoscere ovunque lo si incontri.
+
+## Esempio svolto
+
+**Domanda:** Un amico chiede perché un conto previdenziale lo penalizzi se ritira prima il proprio denaro. Qual è la logica generale?
+
+**Studente:** In base a questa lezione, il vantaggio fiscale è in pratica uno scambio: ottieni un beneficio in cambio dell'impegno a lasciare il denaro per la pensione.
+
+**Guida:** Perché a uno Stato dovrebbe importare che il denaro sia usato proprio per la pensione?
+
+**Studente:** Perché incoraggiare il risparmio a lungo termine riduce la futura dipendenza dai sistemi di sostegno pubblico, quindi vale la pena rinunciare ora a una parte delle entrate.
+
+**Guida:** Esatto: il limite non è arbitrario, è legato allo scopo del vantaggio.
+
+## Quiz di esercitazione
+
+**Domanda 1.** I conti previdenziali con vantaggi fiscali offrono in genere:
+
+A) Nessun vantaggio
+B) Una forma di vantaggio fiscale legata al risparmio per la pensione
+C) Prelievi illimitati e senza penalità in qualsiasi momento
+D) Vantaggi solo per le imprese
+
+**Domanda 2.** In cambio del vantaggio fiscale, questi conti prevedono di solito:
+
+A) Nessun limite
+B) Limiti, spesso sui prelievi anticipati senza penalità
+C) L'obbligo di spendere subito il denaro
+D) Un'imposta sulle vendite più alta
+
+**Domanda 3.** Perché uno Stato potrebbe offrire questo tipo di vantaggio?
+
+A) Senza un vero motivo
+B) Per incoraggiare il risparmio a lungo termine e ridurre la futura dipendenza dal sostegno pubblico
+C) Per aumentare le entrate fiscali a breve termine
+D) Solo per favorire le banche
+
+**Domanda 4.** I nomi e le regole specifiche dei conti restano uguali tra paesi e nel tempo?
+
+A) Sì, sempre
+B) No: variano molto e cambiano nel tempo
+C) Solo nei paesi ricchi
+D) Non sono mai esistiti
+
+## Soluzioni
+
+1. B, 2. B, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** L'offerta centrale nella maggior parte dei sistemi è una forma di vantaggio fiscale legata specificamente al risparmio per la pensione.
+
+**2.** I limiti ai prelievi anticipati sono la contropartita comune del vantaggio fiscale.
+
+**3.** Incoraggiare il risparmio riduce il peso futuro sui sistemi pubblici di pensione e di sostegno: questa è la logica politica.
+
+**4.** Come per i crediti, i dettagli dipendono dal paese e dal periodo, quindi conta di più lo schema che le regole di un singolo prodotto.
+
+## Punti chiave
+
+- I conti previdenziali con vantaggi fiscali scambiano un beneficio fiscale con limiti al risparmio.
+- I prelievi anticipati sono di solito limitati o penalizzati.
+- L'obiettivo politico è incoraggiare il risparmio a lungo termine per ridurre la futura dipendenza dal sostegno pubblico.
+- Le regole specifiche variano da paese a paese e cambiano nel tempo: lo schema è la lezione trasferibile.
+
+===== GREEN-L1-035
+TITLE: Tradizionale o Roth: pagare le imposte ora o dopo
+SUMMARY: Spiega il concetto generale alla base di due strutture comuni di conti previdenziali, una tassata al versamento e l'altra al prelievo, con etichette generiche invece dei nomi dei programmi di un singolo paese.
+# Tradizionale o Roth: pagare le imposte ora o dopo
+
+## Obiettivi di apprendimento
+
+- Spiegare la scelta "pagare ora o pagare dopo" presente in molti sistemi previdenziali.
+- Riconoscere il compromesso di base tra i due approcci.
+- Riconoscere che la scelta migliore può dipendere dalle aliquote future attese.
+
+## Contenuto principale
+
+Molti sistemi di conti previdenziali offrono una scelta tra due strutture, spesso descritte in modo generico come di tipo "tradizionale" e di tipo "Roth" (dai nomi statunitensi), qualunque sia il nome locale esatto. In un conto di tipo tradizionale, i versamenti di solito riducono ora il reddito imponibile, ma i prelievi in pensione vengono tassati. In un conto di tipo Roth, si versa denaro già tassato, ma i prelievi in pensione sono di solito esenti. (In Italia la previdenza complementare segue in larga parte la logica "tradizionale", con versamenti deducibili entro un limite e prestazioni tassate in seguito; le regole cambiano.)
+
+Il compromesso centrale è il momento: pagare l'imposta ora alla tua aliquota attuale, o dopo alla tua aliquota futura. Se ti aspetti che in pensione la tua aliquota sarà più bassa di oggi, un approccio tradizionale spesso conviene di più. Se ti aspetti un'aliquota simile o più alta in pensione, cosa frequente per i giovani all'inizio della carriera con margini di crescita, un approccio di tipo Roth può convenire di più. Non esiste una risposta giusta per tutti: dipende da ipotesi sul futuro, ed è proprio per questo che è un'area tipica in cui chiedere un parere professionale invece di tirare a indovinare.
+
+## Esempio svolto
+
+**Domanda:** Una ragazza di 22 anni appena entrata nel mondo del lavoro deve scegliere tra un conto di tipo tradizionale e uno di tipo Roth. Su quale ragionamento generale dovrebbe riflettere?
+
+**Studente:** In base a questa lezione, dovrebbe chiedersi se la sua aliquota attuale sia probabilmente più bassa o più alta di quella che avrà più avanti nella carriera.
+
+**Guida:** Visto che è all'inizio della carriera, qual è un'ipotesi ragionevole sul suo reddito e sulla sua aliquota futuri?
+
+**Studente:** Il suo reddito, e probabilmente la sua aliquota, aumenteranno nel tempo: quindi pagare ora l'imposta a un'aliquota più bassa, con un conto di tipo Roth, potrebbe avere senso.
+
+**Guida:** È un ragionamento sensato, anche se resta un'ipotesi sul futuro, non una garanzia: per questo, per un piano concreto, vale la pena parlarne con un professionista.
+
+## Quiz di esercitazione
+
+**Domanda 1.** In un conto di tipo tradizionale, i versamenti di solito:
+
+A) Vengono tassati due volte
+B) Riducono ora il reddito imponibile, con prelievi tassati in seguito
+C) Non vengono mai tassati
+D) Non hanno effetti fiscali
+
+**Domanda 2.** In un conto di tipo Roth, i versamenti sono di solito:
+
+A) Effettuati con denaro già tassato, con prelievi esenti in seguito
+B) Dedotti dal reddito imponibile attuale
+C) Tassati due volte
+D) Vietati
+
+**Domanda 3.** Il compromesso centrale tra i due approcci è:
+
+A) Non c'è alcun compromesso
+B) Pagare l'imposta ora oppure pagarla dopo
+C) Un approccio non ha mai a che fare con le imposte
+D) Solo le imprese possono scegliere
+
+**Domanda 4.** Quale approccio tende a favorire chi si aspetta in pensione un'aliquota più bassa di oggi?
+
+A) Di tipo Roth
+B) Di tipo tradizionale
+C) Nessuno dei due conta
+D) Solo i conti basati sull'imposta sulle vendite
+
+## Soluzioni
+
+1. B, 2. A, 3. B, 4. B
+
+## Risposte e spiegazioni
+
+**1.** La struttura tradizionale rinvia l'imposta: offre un vantaggio oggi al prezzo di un'imposta sui prelievi futuri.
+
+**2.** La struttura di tipo Roth anticipa l'imposta, così i prelievi futuri che rispettano i requisiti sono in genere esenti.
+
+**3.** È fondamentalmente una scelta di tempi su quando preferisci pagare l'imposta, basata su ipotesi sulle aliquote future.
+
+**4.** Se l'aliquota di oggi è più alta di quella attesa in futuro, rinviare l'imposta (tipo tradizionale) spesso conviene di più.
+
+## Punti chiave
+
+- I conti di tipo tradizionale rinviano l'imposta al prelievo; quelli di tipo Roth tassano ora i versamenti, non i prelievi.
+- Il compromesso centrale è pagare l'imposta ora oppure dopo.
+- La scelta migliore dipende da ipotesi sulla tua aliquota attuale rispetto a quella futura.
+- È un'area comune e legittima in cui chiedere un parere professionale invece di tirare a indovinare.
