@@ -42,7 +42,15 @@ Owner: Waldemar M. Caban. Drafted 2026-11-26.
 - **Wave 1 — Bridge:** Mexico (first country south; federal + states for some topics), Puerto Rico (US parent, own tax code), Dominican Republic (already named target).
 - **Wave 2 — Central America:** GT, BZ (English, common law), SV, HN, NI, CR, PA.
 - **Wave 3 — South America:** CO, VE, EC, PE, BO, CL, AR, UY, PY, BR (Portuguese, federal), GY (English), SR (Dutch).
-- **Wave 4 — Caribbean:** independents JM, TT, BS, BB, HT, and the other CARICOM states; territories inherit parent rules plus local overrides (USVI→US, GP/MQ→FR, Dutch Caribbean→NL Kingdom constituent rules, UK territories local). Cuba: legal/sanctions review before any offering.
+- **Wave 4 — Caribbean:** independents JM, TT, BS, BB, HT, and the other CARICOM states; territories inherit parent rules plus local overrides (USVI→US, GP/MQ→FR, Dutch Caribbean→NL Kingdom constituent rules, UK territories local).
+- **Cuba (owner direction):** prepare fully (fact sheet, explanations) so it can go live quickly if US policy changes, but keep it held: region registry stays `DISABLED` / `sanctions-review`, and `rollout.ts` carries an `activationHold`. Activation checklist in `content/jurisdictions/README.md`.
+
+### Done 2026-11-26 (foundation, no behavior change)
+- `src/lib/jurisdiction/topics.ts` — topic taxonomy + entity and consumption-tax archetypes.
+- `src/lib/jurisdiction/rollout.ts` — wave order incl. Mexico, territories' parents, Cuba hold.
+- `src/lib/jurisdiction/fact-sheet.ts` — fact-sheet type + validator (sources, dates, topics, archetypes).
+- `content/jurisdictions/` — README, template, Cuba activation checklist.
+- Tests: `src/lib/jurisdiction/jurisdiction-foundation.test.ts` (5 passing).
 - Existing non-Americas codes (DE, FR, ES, GB, PT, NL, CH, AT, UG, KE, TZ) stay registered, PRIVATE until filled.
 - Order inside each country: business-formation, consumption-tax, personal/corporate income tax, advance payments, real estate, then the rest.
 

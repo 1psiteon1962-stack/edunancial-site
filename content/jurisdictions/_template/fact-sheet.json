@@ -1,0 +1,46 @@
+{
+  "code": "XX",
+  "name": "Country name",
+  "lastReviewedAt": "YYYY-MM-DD",
+  "reviewedBy": "Name / role",
+  "sources": [
+    {
+      "id": "xx-tax-authority-entities",
+      "jurisdiction": "XX",
+      "authority": "National tax authority",
+      "title": "Official page or statute title",
+      "url": "https://official.gov.example/page",
+      "sourceType": "tax-authority",
+      "lastVerifiedAt": "YYYY-MM-DD"
+    }
+  ],
+  "entityForms": [
+    {
+      "localName": "Local legal name of the form",
+      "abbreviation": "ABBR",
+      "archetype": "limited-liability-company",
+      "sourceIds": ["xx-tax-authority-entities"]
+    }
+  ],
+  "consumptionTaxes": [
+    {
+      "localName": "Local name of the sales/value-added tax",
+      "abbreviation": "ABBR",
+      "archetype": "vat",
+      "sourceIds": ["xx-tax-authority-entities"]
+    }
+  ],
+  "rules": [
+    {
+      "id": "xx-business-formation-001",
+      "jurisdiction": "XX",
+      "topics": ["business-formation"],
+      "statement": "Plain-language statement of the verified rule.",
+      "sourceIds": ["xx-tax-authority-entities"],
+      "effectiveFrom": "YYYY-MM-DD",
+      "risk": "yellow",
+      "verificationStatus": "unverified",
+      "confidence": 0
+    }
+  ]
+}
