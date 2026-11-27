@@ -76,6 +76,9 @@ export default function InternationalPreferencesPanel() {
             onChange={(event) => setCurrency(event.target.value)}
             className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-white"
           >
+            {!currencies.some((currency) => currency.code === preferences.preferredCurrency) && (
+              <option value={preferences.preferredCurrency}>{preferences.preferredCurrency}</option>
+            )}
             {currencies.map((currency) => (
               <option key={currency.code} value={currency.code}>
                 {currency.code}

@@ -1,5 +1,6 @@
 import { currentUser } from "../auth";
 import { countries } from "../location/countries";
+import { getCountryCurrency } from "./country-currency";
 import { regionalSettings } from "../regionalSettings";
 import {
   DEFAULT_LANGUAGE_CODE,
@@ -109,6 +110,10 @@ function getDefaultTimezone() {
 }
 
 function resolveCurrency(countryCode: string, region: string) {
+  const fromDataset = getCountryCurrency(countryCode);
+  if (fromDataset) {
+    return fromDataset;
+  }
   const byCountry = countries.find((country) => country.id === countryCode.toLowerCase());
   if (byCountry?.currency) {
     return byCountry.currency;
