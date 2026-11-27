@@ -198,6 +198,20 @@
       "curriculumRequired": false
     },
     {
+      "locale": "pl",
+      "language": "pl",
+      "script": "Latn",
+      "region": "PL",
+      "displayName": "Polish",
+      "nativeName": "Polski",
+      "direction": "ltr",
+      "fallbackChain": [
+        "en-US"
+      ],
+      "status": "planned",
+      "curriculumRequired": false
+    },
+    {
       "locale": "sw",
       "language": "sw",
       "script": "Latn",
