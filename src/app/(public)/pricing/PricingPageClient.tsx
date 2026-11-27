@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { formatCountryPrice, getDisplayCountryPrices, type CountryPricedPlanId } from "@/lib/international/country-price-table";
+import { formatCountryPrice, getDisplayCountryPrices, priceFormatLocaleForCountry, type CountryPricedPlanId } from "@/lib/international/country-price-table";
+import { localizeUsdPrice } from "@/lib/location/pricing";
 import { getPricingCountryName, getPricingPageCopy } from "@/lib/international/pricing-page-copy";
 import { getMembershipPlanCopy, resolveMembershipCopyLanguage } from "@/lib/membershipCopy";
 import { publicMembershipPlans } from "@/types/membership";
@@ -31,6 +32,14 @@ export default function PricingPageClient() {
   // A country turned off on the admin Regions dashboard gets no local prices or purchase links.
   const localPrices = countryDisabled ? null : getDisplayCountryPrices(preferences.country);
   const usd = (amount: number) => `$${amount.toFixed(2)}`;
+  // Countries with their own established policy (Canada: CAD) show that currency
+  // instead of USD. US stays USD. Checkout behavior is unchanged.
+  const policyCountry = String(preferences.country ?? "").toUpperCase();
+  const policyPrice = (amount: number) => {
+    if (countryDisabled) return null;
+    const localized = localizeUsdPrice(amount, policyCountry);
+    return localized && localized.currency !== "USD" ? localized : null;
+  };
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -69,9 +78,15 @@ export default function PricingPageClient() {
           {publicMembershipPlans.map((plan) => {
             const copy = getMembershipPlanCopy(plan.id, language);
             const local = localPrices?.plans[plan.id as CountryPricedPlanId] ?? null;
-            const money = (amount: number) => (local && localPrices ? formatCountryPrice(amount, localPrices) : usd(amount));
-            const monthlyPrice = local ? local.monthly : plan.monthlyPrice;
-            const annualPrice = local ? local.annual : plan.annualPrice;
+            const policyMonthly = local ? null : policyPrice(plan.monthlyPrice);
+            const policyAnnual = local ? null : policyPrice(plan.annualPrice);
+            const policyFormat = policyMonthly
+              ? { currency: policyMonthly.currency, formatLocale: priceFormatLocaleForCountry(policyCountry) }
+              : null;
+            const money = (amount: number) =>
+              local && localPrices ? formatCountryPrice(amount, localPrices) : policyFormat ? formatCountryPrice(amount, policyFormat) : usd(amount);
+            const monthlyPrice = local ? local.monthly : policyMonthly ? policyMonthly.amount : plan.monthlyPrice;
+            const annualPrice = local ? local.annual : policyAnnual ? policyAnnual.amount : plan.annualPrice;
             const annualSavings = monthlyPrice * 12 - annualPrice;
             const checkoutOpen = !local || Boolean(localPrices?.checkoutEnabled);
             const accessLabel = plan.id === "basic" ? pageCopy.levels12 : plan.id === "premium" ? pageCopy.levels14 : plan.id === "enterprise" ? pageCopy.levels15 : null;
