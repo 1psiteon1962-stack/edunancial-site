@@ -4,7 +4,8 @@ import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import PaymentLinkCheckoutButton from "@/components/payments/PaymentLinkCheckoutButton";
-import { formatLocalizedPrice, getLocalizedCatalogPrice } from "@/lib/location/pricing";
+import { formatCountryPrice, getDisplayCountryPrices, type CountryPricedPlanId } from "@/lib/international/country-price-table";
+import { formatLocalizedPrice, getLocalizedCatalogPrice, localizeUsdPrice } from "@/lib/location/pricing";
 import {
   getMembershipFeatureLabel,
   getMembershipPlanCopy,
@@ -54,10 +55,27 @@ export default function MembershipPageClient() {
             {publicMembershipPlans.map((plan) => {
               const copy = getMembershipPlanCopy(plan.id, language);
               const localizedPrice = getLocalizedCatalogPrice(plan.id, countryCode);
-              const priceLabel = localizedPrice
-                ? `${formatLocalizedPrice(localizedPrice, effectiveLanguage)} ${localizedPrice.currency}`
-                : `${plan.currency} ${plan.monthlyPrice.toFixed(2)}`;
+              // Same country price chart as the pricing page (hand-set or approved formula).
+              const countryPrices = getDisplayCountryPrices(countryCode);
+              const countryPlan = countryPrices?.plans[plan.id as CountryPricedPlanId] ?? null;
+              const localizedAnnual = localizeUsdPrice(plan.annualPrice, countryCode);
+              const priceLabel = countryPlan && countryPrices
+                ? `${formatCountryPrice(countryPlan.monthly, countryPrices)} ${countryPrices.currency}`
+                : localizedPrice
+                  ? `${formatLocalizedPrice(localizedPrice, effectiveLanguage)} ${localizedPrice.currency}`
+                  : `${plan.currency} ${plan.monthlyPrice.toFixed(2)}`;
               const annualSavings = plan.monthlyPrice * 12 - plan.annualPrice;
+              const annualLabel = countryPlan && countryPrices
+                ? `${formatCountryPrice(countryPlan.annual, countryPrices)} ${countryPrices.currency} / year`
+                : localizedAnnual && localizedAnnual.currency !== "USD"
+                  ? `${formatLocalizedPrice(localizedAnnual, effectiveLanguage)} ${localizedAnnual.currency} / year`
+                  : `$${plan.annualPrice.toFixed(2)} USD / year`;
+              const savingsLabel = countryPlan && countryPrices
+                ? formatCountryPrice(Math.max(0, countryPlan.monthly * 12 - countryPlan.annual), countryPrices)
+                : localizedPrice && localizedAnnual && localizedAnnual.currency !== "USD"
+                  ? `${(localizedPrice.amount * 12 - localizedAnnual.amount).toFixed(2)} ${localizedAnnual.currency}`
+                  : `$${annualSavings.toFixed(2)}`;
+              const isLocalCurrency = Boolean(countryPlan) || Boolean(localizedPrice && localizedPrice.currency !== "USD");
 
               return (
                 <div key={plan.id} className="rounded-2xl border border-white/10 bg-white p-8 text-slate-950 shadow-xl">
@@ -69,11 +87,11 @@ export default function MembershipPageClient() {
                   </div>
                   {plan.annualPrice > 0 && (
                     <div className="mt-4 rounded-xl border border-blue-100 bg-blue-50 p-4">
-                      <p className="text-lg font-black text-blue-900">${plan.annualPrice.toFixed(2)} USD / year</p>
-                      <p className="mt-1 text-sm font-semibold text-blue-700">Save ${annualSavings.toFixed(2)} compared with 12 monthly payments</p>
+                      <p className="text-lg font-black text-blue-900">{annualLabel}</p>
+                      <p className="mt-1 text-sm font-semibold text-blue-700">Save {savingsLabel} compared with 12 monthly payments</p>
                     </div>
                   )}
-                  {localizedPrice && localizedPrice.currency !== "USD" && (
+                  {isLocalCurrency && (
                     <p className="mt-2 text-xs text-slate-500">
                       {getLocalPriceNote(effectiveLanguage, countryCode)}
                     </p>

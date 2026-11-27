@@ -34,6 +34,7 @@ import {
   LANGUAGE_COOKIE_NAME,
   type InternationalPreferences,
 } from "@/lib/international/preferences";
+import { getCountryCurrency } from "@/lib/international/country-currency";
 import { resolveAvailablePaymentMethods } from "@/lib/international/preference-architecture";
 import { resolveRegion } from "@/lib/international/detection";
 
@@ -281,6 +282,8 @@ export function InternationalPreferencesProvider({
           // Keep location preferences coherent after trusted network detection.
           // Do not modify payment-method preferences or manually selected language.
           region: resolveRegion(country, previous.timeZone),
+          // Currency follows the country (Uganda -> UGX), never the regional default.
+          preferredCurrency: getCountryCurrency(country) ?? previous.preferredCurrency,
         }));
       },
       setRegion: (region) => {

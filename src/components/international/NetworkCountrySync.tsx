@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { getCountryCurrency } from "@/lib/international/country-currency";
 import { regionalLocaleForNetworkCountry } from "@/lib/international/detection";
 
 interface CountryDetectionPayload {
@@ -37,7 +38,10 @@ export default function NetworkCountrySync() {
         const regionalLocale = regionalLocaleForNetworkCountry(detectedCountry, effectiveLanguage);
         if (regionalLocale) setDetectedRegionalLocale(regionalLocale);
         if (preferences.country.toLowerCase() !== detectedCountry) setCountry(detectedCountry);
-        if (payload.currency && preferences.preferredCurrency !== payload.currency) setCurrency(payload.currency);
+        // The edge profile only knows a few countries; every other country (e.g. UG -> UGX)
+        // resolves from the full country dataset instead of keeping a stale/default USD.
+        const detectedCurrency = payload.currency ?? getCountryCurrency(detectedCountry);
+        if (detectedCurrency && preferences.preferredCurrency !== detectedCurrency) setCurrency(detectedCurrency);
         if (payload.timezone && preferences.timeZone !== payload.timezone) setTimezone(payload.timezone);
       })
       .catch(() => {
