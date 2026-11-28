@@ -33,4 +33,4 @@ Lessons whose content involves interest (riba), conventional debt/mortgages, or 
 | RED-L1-049 | First purchase steps | Mortgage pre-approval and financing |
 | RED-L1-050 | Capstone | Mortgage, principal/interest, PMI |
 
-Status: RED-L1 001–050 reviewed (30 of 50 flagged). Other colors/levels to be added as translated.
+Status: RED-L1 001–050 reviewed (28 of 50 flagged). Other colors/levels to be added as translated.
