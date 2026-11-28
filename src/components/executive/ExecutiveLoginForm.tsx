@@ -3,7 +3,10 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ExecutiveLoginForm() {
+import { OWNER_NEXT_STORAGE_KEY, safeOwnerNext } from "@/lib/admin-content/owner-next";
+
+export default function ExecutiveLoginForm({ next }: { next?: string | null } = {}) {
+  const nextPath = safeOwnerNext(next);
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,7 +29,7 @@ export default function ExecutiveLoginForm() {
         setError(data.error ?? "Login failed.");
         return;
       }
-      router.push("/executive/dashboard");
+      router.push(nextPath ?? "/executive/dashboard");
       router.refresh();
     } catch {
       setError("Network error. Please try again.");
@@ -39,6 +42,12 @@ export default function ExecutiveLoginForm() {
     setError(null);
     setLinkSent(false);
     setLoading(true);
+    try {
+      if (nextPath) window.localStorage.setItem(OWNER_NEXT_STORAGE_KEY, nextPath);
+      else window.localStorage.removeItem(OWNER_NEXT_STORAGE_KEY);
+    } catch {
+      // Storage unavailable: the link still signs in and lands on the default page.
+    }
     try {
       const res = await fetch("/api/executive/auth/magic-link", {
         method: "POST",
