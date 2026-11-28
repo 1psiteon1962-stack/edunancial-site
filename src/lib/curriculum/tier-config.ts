@@ -134,17 +134,18 @@ export function canAccessLesson(
 
   const config = readTierConfig();
 
+  const fp = config.freePreview;
+
+  // Free preview first: Level 1 lessons 001–003 are open to EVERY viewer
+  // (visitors, Test Drive, every tier), in every track and language.
+  if (lessonLevel === fp.level && lessonNumber <= fp.maxLesson) return true;
+
   // Test Drive: only sample lessons (from any level) — never the whole level
   if (viewerTier === "test-drive") {
     if (!lessonId) return false;
     const sampleLessons = config.sampleLessons ?? [];
     return sampleLessons.includes(lessonId);
   }
-
-  const fp = config.freePreview;
-
-  // Free preview: Level 1, lessons 001–003 (configurable via tier-config.json)
-  if (lessonLevel === fp.level && lessonNumber <= fp.maxLesson) return true;
 
   // No membership (unauthenticated / free)
   if (viewerTier === "free") return false;
