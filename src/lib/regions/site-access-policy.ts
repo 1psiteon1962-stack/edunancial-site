@@ -69,8 +69,14 @@ export function isKnownLocation(code: string): boolean {
   return ALL_COUNTRY_CODES.includes(code) || code in SUBDIVISION_LOCATIONS;
 }
 
+/**
+ * Default before any owner decision: U.S. sanctions first, then the owner's
+ * country access plan (language/market rules). Subdivisions follow sanctions only.
+ */
 export function defaultStateFor(code: string): SiteAccessState {
-  return code in DEFAULT_BLOCKED ? "BLOCKED" : "OPEN";
+  if (code in DEFAULT_BLOCKED) return "BLOCKED";
+  if (code in SUBDIVISION_LOCATIONS) return "OPEN";
+  return countryPlan(code).on ? "OPEN" : "BLOCKED";
 }
 
 export function effectiveState(code: string, overrides: SiteAccessOverrides): SiteAccessState {
@@ -126,4 +132,116 @@ export function parseOverrides(raw: unknown): SiteAccessOverrides {
     };
   }
   return result;
+}
+
+// ---------------------------------------------------------------------------
+// Owner's country access plan (kept in this file: the edge gate imports it
+// without a bundler, so it must stay dependency-free).
+// ---------------------------------------------------------------------------
+/**
+ * Owner's country access plan (Waldemar, 2026-11-27).
+ *
+ * Rules:
+ * - A country is ON only when its language is built (all 5 levels), or the
+ *   owner approved serving it in English.
+ * - Lower-paying countries stay OFF until the owner decides to serve them.
+ * - Legal/political blocks stay OFF (U.S. sanctions are in DEFAULT_BLOCKED;
+ *   Yemen is blocked by owner choice).
+ *
+ * These are DEFAULTS. Any decision the owner makes on /admin/site-access
+ * overrides them. Pure data, safe for the edge country gate.
+ */
+
+export type PriceTier = "FULL" | "REDUCED" | "FORMULA";
+export type PlanReason =
+  | "LANGUAGE_READY"
+  | "ENGLISH_APPROVED"
+  | "WAITING_FOR_LANGUAGE"
+  | "NOT_YET_SERVED"
+  | "OWNER_POLITICAL_BLOCK";
+
+export interface CountryPlanEntry {
+  on: boolean;
+  reason: PlanReason;
+  /** Language the country is waiting for, when reason is WAITING_FOR_LANGUAGE. */
+  language?: string;
+  tier: PriceTier;
+}
+
+function codes(list: string): string[] {
+  return list.trim().split(/\s+/u);
+}
+
+/** Countries whose language already exists on the site (all 5 levels). */
+const LANGUAGE_READY: Record<string, PriceTier> = {
+  // North America
+  ...Object.fromEntries(codes("US CA").map((c) => [c, "FULL" as const])),
+  // U.S. territories
+  ...Object.fromEntries(codes("PR GU VI AS MP UM").map((c) => [c, "FULL" as const])),
+  // Latin America (Spanish / Portuguese / English / French / Dutch)
+  ...Object.fromEntries(
+    codes("MX GT BZ HN SV NI CR PA CO VE EC PE BO BR PY UY AR CL GY SR GF").map((c) => [c, "FORMULA" as const]),
+  ),
+  // Caribbean
+  ...Object.fromEntries(
+    codes("DO HT JM TT BB BS AG DM GD KN LC VC AW CW SX BQ KY TC VG AI MS BL MF GP MQ BM").map((c) => [c, "FORMULA" as const]),
+  ),
+  // Western Europe (English, French, German, Spanish, Portuguese, Italian, Dutch)
+  ...Object.fromEntries(
+    codes("GB IE IM JE GG FR BE NL LU DE AT CH LI ES PT IT MT SM VA MC AD GI").map((c) => [c, "FULL" as const]),
+  ),
+};
+
+/** Served in English by owner approval (high English use, full-price markets). */
+const ENGLISH_APPROVED: Record<string, PriceTier> = {
+  // Gulf 6
+  ...Object.fromEntries(codes("SA AE QA KW BH OM").map((c) => [c, "FULL" as const])),
+  // Oceania + Asia English markets
+  ...Object.fromEntries(codes("AU NZ SG HK").map((c) => [c, "FULL" as const])),
+  // Nordics (very high English proficiency)
+  ...Object.fromEntries(codes("DK SE NO FI IS").map((c) => [c, "FULL" as const])),
+  // India (English now; Hindi on the language list)
+  IN: "FORMULA",
+};
+
+/** OFF until their language is built. Order follows the owner's language queue. */
+const WAITING_FOR_LANGUAGE: Record<string, { language: string; tier: PriceTier }> = {
+  TR: { language: "Turkish", tier: "REDUCED" },
+  JP: { language: "Japanese", tier: "FULL" },
+  KR: { language: "Korean", tier: "FULL" },
+  TW: { language: "Traditional Chinese", tier: "FULL" },
+  PL: { language: "Polish", tier: "FULL" },
+  CZ: { language: "Czech", tier: "FULL" },
+  HU: { language: "Hungarian", tier: "FULL" },
+  SK: { language: "Slovak", tier: "FULL" },
+  SI: { language: "Slovenian", tier: "FULL" },
+  HR: { language: "Croatian", tier: "FULL" },
+  GR: { language: "Greek", tier: "REDUCED" },
+  CY: { language: "Greek", tier: "REDUCED" },
+  RO: { language: "Romanian", tier: "REDUCED" },
+  BG: { language: "Bulgarian", tier: "REDUCED" },
+  UA: { language: "Ukrainian", tier: "REDUCED" },
+};
+
+/** Blocked by owner choice for political/legal reasons (not on the OFAC list). */
+const OWNER_POLITICAL_BLOCK = new Set(["YE"]);
+
+export function countryPlan(code: string): CountryPlanEntry {
+  const key = code.toUpperCase();
+  if (OWNER_POLITICAL_BLOCK.has(key)) return { on: false, reason: "OWNER_POLITICAL_BLOCK", tier: "FORMULA" };
+  if (key in LANGUAGE_READY) return { on: true, reason: "LANGUAGE_READY", tier: LANGUAGE_READY[key] };
+  if (key in ENGLISH_APPROVED) return { on: true, reason: "ENGLISH_APPROVED", tier: ENGLISH_APPROVED[key] };
+  const waiting = WAITING_FOR_LANGUAGE[key];
+  if (waiting) return { on: false, reason: "WAITING_FOR_LANGUAGE", language: waiting.language, tier: waiting.tier };
+  return { on: false, reason: "NOT_YET_SERVED", tier: "FORMULA" };
+}
+
+export function planReasonLabel(entry: CountryPlanEntry): string {
+  switch (entry.reason) {
+    case "LANGUAGE_READY": return "Language ready";
+    case "ENGLISH_APPROVED": return "English approved";
+    case "WAITING_FOR_LANGUAGE": return `Waiting for ${entry.language ?? "its language"}`;
+    case "OWNER_POLITICAL_BLOCK": return "Blocked by owner (political/legal)";
+    default: return "Not yet served (owner decision)";
+  }
 }
