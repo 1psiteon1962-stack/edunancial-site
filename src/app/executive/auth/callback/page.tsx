@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { DEFAULT_OWNER_NEXT, OWNER_NEXT_STORAGE_KEY, safeOwnerNext } from "@/lib/admin-content/owner-next";
+
 export default function ExecutiveMagicLinkCallback() {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
@@ -21,7 +23,14 @@ export default function ExecutiveMagicLinkCallback() {
       const body = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(body.error ?? "Secure email sign-in failed.");
       history.replaceState(null, "", "/executive/auth/callback");
-      router.replace("/admin/video-studio");
+      let destination = DEFAULT_OWNER_NEXT;
+      try {
+        destination = safeOwnerNext(window.localStorage.getItem(OWNER_NEXT_STORAGE_KEY)) ?? DEFAULT_OWNER_NEXT;
+        window.localStorage.removeItem(OWNER_NEXT_STORAGE_KEY);
+      } catch {
+        // Storage unavailable: use the default landing page.
+      }
+      router.replace(destination);
       router.refresh();
     }).catch((reason) => setError(reason instanceof Error ? reason.message : "Secure email sign-in failed."));
   }, [router]);
