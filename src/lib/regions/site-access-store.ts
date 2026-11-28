@@ -7,6 +7,8 @@ import {
   SITE_ACCESS_KEY,
   SITE_ACCESS_STORE,
   SUBDIVISION_LOCATIONS,
+  countryPlan,
+  planReasonLabel,
   defaultStateFor,
   effectiveState,
   parseOverrides,
@@ -21,6 +23,11 @@ export interface SiteAccessRow {
   state: SiteAccessState;
   defaultState: SiteAccessState;
   sanctionsNote: string | null;
+  /** Owner plan default: why the country is ON/OFF before any owner decision. */
+  planReason: string;
+  planReasonCode: string;
+  waitingForLanguage: string | null;
+  priceTier: string;
   ownerDecision: boolean;
   reason: string | null;
   updatedBy: string | null;
@@ -46,6 +53,14 @@ function countryName(code: string): string {
   }
 }
 
+function planFields(code: string, kind: SiteAccessRow["kind"]) {
+  if (kind === "region" || code in DEFAULT_BLOCKED) {
+    return { planReason: code in DEFAULT_BLOCKED ? "Legal block (U.S. sanctions)" : "Follows country", planReasonCode: code in DEFAULT_BLOCKED ? "LEGAL_BLOCK" : "REGION", waitingForLanguage: null, priceTier: "—" };
+  }
+  const plan = countryPlan(code);
+  return { planReason: planReasonLabel(plan), planReasonCode: plan.reason, waitingForLanguage: plan.language ?? null, priceTier: plan.tier };
+}
+
 export function buildSiteAccessRows(overrides: SiteAccessOverrides): SiteAccessRow[] {
   const row = (code: string, name: string, kind: SiteAccessRow["kind"]): SiteAccessRow => ({
     code,
@@ -54,6 +69,7 @@ export function buildSiteAccessRows(overrides: SiteAccessOverrides): SiteAccessR
     state: effectiveState(code, overrides),
     defaultState: defaultStateFor(code),
     sanctionsNote: DEFAULT_BLOCKED[code] ?? null,
+    ...planFields(code, kind),
     ownerDecision: Boolean(overrides[code]),
     reason: overrides[code]?.reason ?? null,
     updatedBy: overrides[code]?.updatedBy ?? null,

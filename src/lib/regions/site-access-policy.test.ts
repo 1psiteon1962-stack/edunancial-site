@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { ALL_COUNTRY_CODES, DEFAULT_BLOCKED, decideSiteAccess, parseOverrides } from "./site-access-policy";
+import { ALL_COUNTRY_CODES, DEFAULT_BLOCKED, decideSiteAccess, parseOverrides, countryPlan, planReasonLabel } from "./site-access-policy";
 
 test("sanctioned jurisdictions are blocked by default", () => {
   for (const code of ["CU", "IR", "KP"]) {
@@ -12,10 +12,10 @@ test("sanctioned jurisdictions are blocked by default", () => {
 });
 
 test("other locations are open by default, including the rest of Ukraine and Syria", () => {
-  for (const code of ["US", "PR", "DO", "GB", "ES", "BR", "SY", "YE"]) {
+  for (const code of ["US", "PR", "DO", "GB", "ES", "BR", "CA", "DE", "CH", "SA", "AE", "AU", "SG", "HK", "IN"]) {
     assert.equal(decideSiteAccess({ country: code }, {}).allowed, true, code);
   }
-  assert.equal(decideSiteAccess({ country: "UA", subdivision: "30" }, {}).allowed, true);
+  assert.equal(decideSiteAccess({ country: "UA", subdivision: "30" }, {}).allowed, false);
 });
 
 test("visitors without geolocation are allowed", () => {
@@ -31,6 +31,7 @@ test("owner decisions override defaults in both directions", () => {
   });
   assert.equal(decideSiteAccess({ country: "CU" }, overrides).allowed, true);
   assert.equal(decideSiteAccess({ country: "YE" }, overrides).allowed, false);
+  assert.equal(decideSiteAccess({ country: "PL" }, { PL: { state: "OPEN", reason: "Polish done", updatedBy: "owner@example.com", updatedAt: "2026-12-01T00:00:00Z" } }).allowed, true);
   assert.equal("ZZ" in overrides, false);
 });
 
@@ -40,4 +41,21 @@ test("country list is complete and every default-blocked location is known", () 
   for (const code of Object.keys(DEFAULT_BLOCKED)) {
     assert.ok(ALL_COUNTRY_CODES.includes(code) || code.startsWith("UA-"), code);
   }
+});
+
+test("owner plan: countries wait for their language or owner approval", () => {
+  for (const code of ["TR", "JP", "KR", "TW", "PL", "CZ", "HU", "SK", "SI", "HR", "GR", "RO", "BG", "UA"]) {
+    assert.equal(decideSiteAccess({ country: code }, {}).allowed, false, code);
+    assert.equal(countryPlan(code).reason, "WAITING_FOR_LANGUAGE", code);
+  }
+  for (const code of ["EG", "NG", "UG", "SY", "CN"]) {
+    assert.equal(decideSiteAccess({ country: code }, {}).allowed, false, code);
+    assert.equal(countryPlan(code).reason, "NOT_YET_SERVED", code);
+  }
+  assert.equal(decideSiteAccess({ country: "YE" }, {}).allowed, false);
+  assert.equal(countryPlan("YE").reason, "OWNER_POLITICAL_BLOCK");
+  assert.equal(countryPlan("SA").reason, "ENGLISH_APPROVED");
+  assert.equal(countryPlan("SA").tier, "FULL");
+  assert.equal(countryPlan("TR").tier, "REDUCED");
+  assert.equal(planReasonLabel(countryPlan("JP")), "Waiting for Japanese");
 });
