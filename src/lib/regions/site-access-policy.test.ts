@@ -55,6 +55,9 @@ test("owner plan: countries wait for their language or owner approval", () => {
   assert.equal(decideSiteAccess({ country: "YE" }, {}).allowed, false);
   assert.equal(countryPlan("YE").reason, "OWNER_POLITICAL_BLOCK");
   assert.equal(countryPlan("SA").reason, "ENGLISH_APPROVED");
+  assert.equal(countryPlan("MH").reason, "ENGLISH_APPROVED");
+  for (const code of ["MH", "PW", "FM", "IL"]) assert.equal(decideSiteAccess({ country: code }, {}).allowed, true, code);
+  for (const code of ["RU", "BY"]) assert.equal(decideSiteAccess({ country: code }, {}).allowed, false, code);
   assert.equal(countryPlan("SA").tier, "FULL");
   assert.equal(countryPlan("TR").tier, "REDUCED");
   assert.equal(planReasonLabel(countryPlan("JP")), "Waiting for Japanese");
