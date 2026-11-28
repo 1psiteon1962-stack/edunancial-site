@@ -60,3 +60,12 @@ Note: all stock-related lessons may also warrant a general note on Shariah stock
 | WHITE-L1-045 | Target-date fund | Glide path shifts into bonds |
 
 Status: WHITE-L1 001–050 reviewed (17 of 50 flagged).
+
+## BLUE-L1
+
+| Lesson | Topic | Why flagged |
+|---|---|---|
+| BLUE-L1-017 | Startup capital | Small business loans/credit as funding sources |
+| BLUE-L1-046 | OPM | Bank loans and lenders as outside capital (interest-bearing debt) |
+
+Status: BLUE-L1 001–050 reviewed (2 of 50 flagged).
