@@ -19,6 +19,7 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "it", label: "Italian", nativeLabel: "Italiano", rtl: false },
   { code: "nl", label: "Dutch", nativeLabel: "Nederlands", rtl: false },
   { code: "ht", label: "Haitian Creole", nativeLabel: "Kreyòl ayisyen", rtl: false },
+  { code: "ar", label: "Arabic", nativeLabel: "العربية", rtl: true },
 ] as const;
 
 export const DEFAULT_LANGUAGE_CODE = "en-US";
@@ -56,7 +57,10 @@ export function getLanguageByCode(code: string) { return LANGUAGE_CATALOG.find((
  * Curriculum files and the catalog entry stay in place; only public selection is disabled.
  * To re-enable, remove the code from this list.
  */
-export const PUBLICLY_HIDDEN_LANGUAGE_CODES: readonly string[] = ["ht"];
+// "ar": owner rule — a language joins the public list only after all 5 curriculum
+// levels are merged. Arabic stays in the catalog (RTL layout, UI strings, explicit
+// saved preference) but is hidden from public choice until then.
+export const PUBLICLY_HIDDEN_LANGUAGE_CODES: readonly string[] = ["ht", "ar"];
 export function isPubliclyHiddenLanguage(code: string | undefined | null): boolean {
   if (!code) return false;
   const lower = code.trim().toLowerCase();

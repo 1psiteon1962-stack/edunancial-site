@@ -2,7 +2,7 @@
  * Read-only: no curriculum or production record writes. */
 const LANGUAGES = [
   "en-US", "en-GB", "es-419", "es-Caribbean", "es-ES", "fr-CA",
-  "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "ht",
+  "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "ht", "ar",
 ];
 const ORIGIN = "https://edunancial.com";
 const BATCH_SIZE = 3;

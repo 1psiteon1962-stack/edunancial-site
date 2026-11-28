@@ -48,3 +48,13 @@ test("The browser receives a valid BCP 47 tag for Caribbean Spanish", () => {
   assert.equal(toHtmlLangTag("pt-BR"), "pt-BR");
   assert.deepEqual(Intl.getCanonicalLocales(toHtmlLangTag("es-Caribbean")), ["es-419"]);
 });
+
+test("Arabic is in the catalog as right-to-left but hidden until all 5 levels are merged (owner rule)", () => {
+  const arabic = LANGUAGE_CATALOG.find((language) => language.code === "ar");
+  assert.ok(arabic);
+  assert.equal(arabic.rtl, true);
+  assert.equal(PUBLIC_LANGUAGE_CATALOG.some((language) => language.code === "ar"), false);
+  assert.equal(normalizePublicLanguageCode("ar-SA"), DEFAULT_LANGUAGE_CODE);
+  assert.equal(resolveLocale({ acceptLanguageHeader: "ar-AE,ar;q=0.9" }), DEFAULT_LANGUAGE_CODE);
+  assert.equal(matchSupportedLocale("ar"), "ar");
+});

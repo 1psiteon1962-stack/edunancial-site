@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import handler, { config, localesForMinute, REQUEST_TIMEOUT_MS } from "../../../netlify/functions/catalog-warmer.mts";
 
-const ALL = ["en-US","en-GB","es-419","es-Caribbean","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","ht"];
+const ALL = ["en-US","en-GB","es-419","es-Caribbean","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","ht","ar"];
 const MIN = 60_000;
 function requestFor(next) {
   return new Request("https://example.test", {
@@ -16,9 +16,9 @@ test("runs once per minute and preserves all locales without duplicates", () => 
   for (const offset of [0, 1, 59, 1439, 1440, 100000]) {
     const first = Date.parse("2026-10-16T00:00:00Z") + offset * MIN;
     const batches = Array.from({ length: 5 }, (_, i) => localesForMinute(first + i * MIN));
-    assert.deepEqual(batches.map((b) => b.length).sort(), [1, 3, 3, 3, 3]);
+    assert.deepEqual(batches.map((b) => b.length).sort(), [2, 3, 3, 3, 3]);
     assert.deepEqual(new Set(batches.flat()), new Set(ALL));
-    assert.equal(batches.flat().length, 13);
+    assert.equal(batches.flat().length, 14);
   }
 });
 
