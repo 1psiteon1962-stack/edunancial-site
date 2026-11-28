@@ -62,14 +62,14 @@ const SAMPLE_LESSONS = ['RED-L1-001', 'GOLD-L1-002'];
 function canAccessLesson(lessonLevel, lessonNumber, viewerTier, lessonId) {
   if (viewerTier === 'admin') return true;
 
-  // Test Drive: only sample lessons
+  // Free preview first: open to every viewer, including Test Drive (owner rule 2026-11-27)
+  if (lessonLevel === FREE_PREVIEW.level && lessonNumber <= FREE_PREVIEW.maxLesson) return true;
+
+  // Test Drive: only sample lessons beyond the free preview
   if (viewerTier === 'test-drive') {
     if (!lessonId) return false;
     return SAMPLE_LESSONS.includes(lessonId);
   }
-
-  // Free preview
-  if (lessonLevel === FREE_PREVIEW.level && lessonNumber <= FREE_PREVIEW.maxLesson) return true;
 
   if (viewerTier === 'free') return false;
 
@@ -110,13 +110,20 @@ describe('Test Drive tier (sample lessons only)', () => {
     assert.equal(canAccessLesson(1, 2, 'test-drive', 'GOLD-L1-002'), true);
   });
 
-  test('test-drive cannot access non-sample lessons', () => {
-    assert.equal(canAccessLesson(1, 1, 'test-drive', 'RED-L1-002'), false);
+  test('test-drive cannot access non-sample lessons outside the free preview', () => {
+    assert.equal(canAccessLesson(1, 4, 'test-drive', 'RED-L1-004'), false);
+    assert.equal(canAccessLesson(1, 10, 'test-drive', 'RED-L1-010'), false);
     assert.equal(canAccessLesson(3, 1, 'test-drive', 'BLUE-L3-001'), false);
   });
 
-  test('test-drive without lessonId is denied', () => {
-    assert.equal(canAccessLesson(1, 1, 'test-drive', undefined), false);
+  test('test-drive always gets the Level 1 free preview (lessons 1-3, every track)', () => {
+    assert.equal(canAccessLesson(1, 2, 'test-drive', 'RED-L1-002'), true);
+    assert.equal(canAccessLesson(1, 3, 'test-drive', 'BLACK-L1-003'), true);
+  });
+
+  test('test-drive without lessonId is denied outside the free preview', () => {
+    assert.equal(canAccessLesson(1, 4, 'test-drive', undefined), false);
+    assert.equal(canAccessLesson(2, 1, 'test-drive', undefined), false);
   });
 
   test('test-drive access remains tied to designated canonical lesson ids', () => {
