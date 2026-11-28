@@ -209,6 +209,8 @@ const ENGLISH_APPROVED: Record<string, PriceTier> = {
   FM: "FORMULA",
   // Israel: high-income, high English use (owner, 2026-11-28)
   IL: "FULL",
+  // Philippines: English official (owner, 2026-11-28)
+  PH: "FORMULA",
 };
 
 /** OFF until their language is built. Order follows the owner's language queue. */
