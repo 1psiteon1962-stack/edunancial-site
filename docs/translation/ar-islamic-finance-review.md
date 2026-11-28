@@ -19,5 +19,18 @@ Lessons whose content involves interest (riba), conventional debt/mortgages, or 
 | RED-L1-021 | Commercial real estate | Commercial loans (down payment, terms) |
 | RED-L1-022 | Cash flow | Mortgage payment as an expense |
 | RED-L1-024 | Cash-on-cash return | Return on financed (leveraged) investment |
+| RED-L1-026 | Depreciation | Rental-property tax treatment (financed rentals) |
+| RED-L1-034 | Residential vs. commercial | Commercial financing terms |
+| RED-L1-036 | House hacking | Mortgage payment offset by rent |
+| RED-L1-038 | Flipping | Holding costs incl. mortgage |
+| RED-L1-042 | Flood insurance | Lender-required insurance on mortgaged property |
+| RED-L1-043 | Reverse mortgage | Loan balance grows as interest accrues |
+| RED-L1-044 | Refinancing | Interest-rate refinancing, cash-out |
+| RED-L1-045 | Home equity loan vs. HELOC | Interest-bearing equity borrowing |
+| RED-L1-046 | Underwater mortgage | Negative equity on a mortgage |
+| RED-L1-047 | Foreclosure | Default on interest-bearing loan |
+| RED-L1-048 | Short sale | Mortgage debt settlement |
+| RED-L1-049 | First purchase steps | Mortgage pre-approval and financing |
+| RED-L1-050 | Capstone | Mortgage, principal/interest, PMI |
 
-Status: RED-L1 001–025 reviewed. Remaining RED-L1 026–050 and other colors/levels to be added as translated.
+Status: RED-L1 001–050 reviewed (30 of 50 flagged). Other colors/levels to be added as translated.
