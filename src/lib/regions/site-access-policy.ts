@@ -202,6 +202,8 @@ const ENGLISH_APPROVED: Record<string, PriceTier> = {
   ...Object.fromEntries(codes("DK SE NO FI IS").map((c) => [c, "FULL" as const])),
   // India (English now; Hindi on the language list)
   IN: "FORMULA",
+  // U.S. Compact of Free Association state, English official, uses USD (owner, 2026-11-28)
+  MH: "FORMULA",
 };
 
 /** OFF until their language is built. Order follows the owner's language queue. */
